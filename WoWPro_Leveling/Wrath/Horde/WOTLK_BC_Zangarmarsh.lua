@@ -84,7 +84,7 @@ A Balance Must Be Preserved|QID|9720|PRE|9718|M|78.4,62.0|N|From Ysiel Windsinge
 C A Warm Welcome|QID|9728|M|70.9,82.1|N|Kill and loot Naga for their claws.|S|
 A Drain Schematics|QID|9731|U|24330|M|62.0,40.8|N|From the Drain Schematics.|O|
 N Disable the Umbrafen Lake Controls|QID|9720|QO|1|U|24355|N|They'll be guarded by a Steam Pump Overseer, kill him and use the seeds.|M|70.6,80.3|
-C Leader of the Darkcrest|QID|9730|N|Kill Rajah Haghazed.|M|65,69|
+C Leader of the Darkcrest|QID|9730|M|65.10,68.67|N|Kill Rajah Haghazed. (lv 63 Elite)|
 N Disable the Lagoon Controls|QID|9720|QO|4|U|24355|N|Head northwest to the steam pump. Use the Ironvine Seeds on it.|M|63,65|
 l Drain Schematics|QID|9731|L|24330|U|24355|N|Keep using the Ironvine Seeds to spawn the Overseers and killing them until you get Drain Schematics to drop. It can take some time.|M|62,41|
 C Drain Schematics|QID|9731|N|Head to the large steam pump in Serpent Lake. Swim down a bit to get the quest update.|M|50.4,40.9|
@@ -96,36 +96,36 @@ A Warning the Cenarion Circle|QID|9724|PRE|9731|M|78.4,62.0|N|From Ysiel Windsin
 T A Warm Welcome|QID|9728|M|79.1,65.3|N|To Warden Hamoot.|
 T Leader of the Darkcrest|QID|9730|N|To Warden Hamoot.|M|79.1,65.3|
 T Leader of the Bloodscale|QID|9817|N|To Warden Hamoot.|M|79.1,65.3|
-T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|N|To Amythiel Mistwalker in Hellfire Peninsula.|Z|Hellfire Peninsula|
-A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|Z|Hellfire Peninsula|
-H Cenarion Refuge|QID|9730|U|9732|N|Hearth to the Cenarion Refuge.|
+T Warning the Cenarion Circle|QID|9724|M|16.04,52.14|Z|Hellfire Peninsula|N|To Amythiel Mistwalker at Cenarion Post in Hellfire Peninsula.|
+A Return to the Marsh|QID|9732|PRE|9724|M|16.04,52.14|N|From Amythiel Mistwalker.|Z|Hellfire Peninsula|
+H Cenarion Refuge|QID|9730|N|Hearth to the Cenarion Refuge.|FLY|
 T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
 A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.5,63.1|N|From Lethyn Moonfire.|
 A Blessings of the Ancients|QID|9785|N|From Windcaller Blackhoof.|M|80.4,64.7|
 C Blessings of the Ancients|QID|9785|QO|1|CHAT|N|To Ashyen.|M|81.04,64.03|
 C Blessings of the Ancients|QID|9785|QO|2|CHAT|N|To Kelethwho wanders around.|M|78.1,63.8|
 T Blessings of the Ancients|QID|9785|M|80.4,64.7|N|To Windcaller Blackhoof.|
-C The Respect of Another|QID|9898|N|Kill and loot Blacksting.|M|50,60|
-T Watcher Leesa'oh|QID|9697|N|She's southwest along the road. She walks off after a quest is handed in, so you may have to wait a bit.|M|23,66|
-A Observing the Sporelings|QID|9701|M|23.3,66.2|N|From Watcher Leesa'oh.|
-A The Sporelings' Plight|QID|9739|N|From Fahssn.|M|19,63|
-A Natural Enemies|QID|9743|M|19.0,64.0|N|From Fahssn.|
-l Natural Enemies|QID|9743|S|M|14.5,61.6|N|Kill Giants to get more Bog Lord Tendrils|L|24291 6|
-C The Sporelings' Plight|QID|9739|M|14.5,61.6|N|Loot Mature Spore Sacs.|S|
-C Observing the Sporelings|QID|9701|N|Head into the Spawning Glen to the west. The quest update should be at around the waypoint.|M|15.4,61.2|
-C The Sporelings' Plight|QID|9739|M|14.5,61.6|N|Loot Mature Spore Sacs.|US|
-l Natural Enemies|QID|9743|US|M|14.5,61.6|N|Kill Giants to get more Bog Lord Tendrils|L|24291 6|
-T The Sporelings' Plight|QID|9739|N|Back at Fahssn.|M|19,63|
-T Natural Enemies|QID|9743|M|19.0,64.0|N|To Fahssn.|
-T Observing the Sporelings|QID|9701|N|Back at Leesa'oh.|M|23,66|
-A A Question of Gluttony|QID|9702|PRE|9701|M|23.3,66.2|N|From Watcher Leesa'oh.|
-C A Question of Gluttony|QID|9702|N|The discarded nutriments are on the ground.|M|27,63|
-T A Question of Gluttony|QID|9702|M|23,66|N|To Watcher Leesa'oh.|
-A Familiar Fungi|QID|9708|PRE|9702|M|23.3,66.2|N|From Watcher Leesa'oh.|
-R Zabra'jin|QID|9775|M|33.02,51.15|N|Go to Zabra'jin.|
-f Zabra'jin|QID|9775|M|33.00,51.15|N|Get the flight point at Du'ga.|
-F Swamprat Post|QID|9775|M|33.00,51.15|N|Fly to Swamprat post.|
-T The Respect of Another|QID|9898|M|85.0,54.0|N|To Reavij.|
+K The Respect of Another|ACTIVE|9898|L|25448|N|Kill and loot Blacksting.|M|50,60|
+T Watcher Leesa'oh|QID|9697|N|She's southwest along the road. She walks off after a quest is handed in, so you may have to wait a bit.|M|23.33,66.23|
+A Observing the Sporelings|QID|9701|M|23.33,66.23|N|From Watcher Leesa'oh.|
+A The Sporelings' Plight|QID|9739|M|19.20,64.52;19.03,62.38|CC|N|From Fahssn.\n[color=FF0000]NOTE: [/color]Pathes between the 2 points|
+A Natural Enemies|QID|9743|M|19.20,64.52;19.03,62.38|CC|N|From Fahssn.|
+C Natural Enemies|QID|9743|M|14.17,60.63|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant\nYou need 6 for a quest later on.|S|
+C The Sporelings' Plight|QID|9739|M|14.17,60.63|L|24290 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around The Spawning Glen.|S|
+R Observing the Sporelings|QID|9701|QO|1|N|Head into the Spawning Glen to the west.\n[color=FF0000]NOTE: [/color]The quest will complete around the waypoint.|
+C The Sporelings' Plight|QID|9739|M|14.17,60.63|L|24290 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around The Spawning Glen.|US|
+C Natural Enemies|QID|9743|M|14.17,60.63|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant|US|
+T The Sporelings' Plight|QID|9739|M|19.20,64.52;19.03,62.38|CC|N|Back at Fahssn.|
+T Natural Enemies|QID|9743|M|19.20,64.52;19.03,62.38|CC|N|To Fahssn.|
+T Observing the Sporelings|QID|9701|N|Back at Leesa'oh.|M|23.33,66.23|
+A A Question of Gluttony|QID|9702|M|23.33,66.23|N|From Watcher Leesa'oh.|PRE|9701|
+C A Question of Gluttony|QID|9702|M|29.24,63.92|L|24233 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around Quagg Ridge.|
+T A Question of Gluttony|QID|9702|M|23.33,66.23|N|To Watcher Leesa'oh.|
+A Familiar Fungi|QID|9708|M|23.33,66.23|N|From Watcher Leesa'oh.|PRE|9702|
+R Zabra'jin|QID|9775|M|33.02,51.15|
+f Zabra'jin|QID|9775|M|33.06,51.08|N|Get the flight point at Du'ga.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+F Swamprat Post|QID|9775|M|33.06,51.08|FLY|
+T The Respect of Another|QID|9898|M|85.0,54.0|N|To Reavij in Swamprat Post.|
 N Things to do|QID|9808|N|Grab Glowcap Mushrooms on sight. You'll need 10 Glowcaps(red glowing mushrooms), plus more Glowcaps if you plan on buying anything from Sporeggar.|
 A Report to Shadow Hunter Denjai|QID|9775|M|85.3,54.8|N|From Zurai.|
 F Zabra'jin|QID|9708|M|84.77,55.01|N|Fly back to Zabra'jin.|
@@ -153,9 +153,9 @@ T Spirits of the Feralfen|QID|9846|M|32.4,52.0|N|To Seer Janidi.|
 A A Spirit Ally?|QID|9847|PRE|9846|M|32.4,52.0|N|From Seer Janidi.|
 T WANTED: Boss Grog'ak|QID|9820|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 A Impending Attack|QID|9822|PRE|9820|M|30.7,50.9|N|From Shadow Hunter Denjai.|
-T Familiar Fungi|QID|9708|M|23.3,66.2|N|To Watcher Leesa'oh.|
-A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.3,66.2|N|From Watcher Leesa'oh.|
-T The Count of the Marshes|QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|
+T Familiar Fungi|QID|9708|M|23.33,66.23|N|To Watcher Leesa'oh.|
+A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.33,66.23|N|From Watcher Leesa'oh.|
+T The Count of the Marshes|QID|9911|M|23.33,66.23|N|To Watcher Leesa'oh.|
 C A Spirit Ally?|QID|9847|U|24498|N|Head to Boha'mu Ruins. Go to the bottom of the stairs and use the totem. Kill the Serpent Spirit.|M|44.5,66.1|
 T A Spirit Ally?|QID|9847|M|32.4,52.0|N|To Seer Janidi.|
 C The Biggest of Them All|QID|9903|N|Mragesh is just under the surface of Serpent Lake at the northeastern tip of the isle at .|M|42,42|
@@ -194,7 +194,7 @@ C Us or Them|QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|US|
 C Stealing Back the Mushrooms|QID|9709|US|N|They can be looted off actual boxes on the ground and as drops off of the ogres. Spawns a Mauler if you pick one off the ground.|M|17.3,10.2|
 T Now That We're Friends...|QID|9726|M|19.5,50.0|N|To Gzhun'tt.|
 C The Sharpest Blades|QID|9842|M|35.9,58.6|N|Kill and loot Marshfang Slicers.|
-T Stealing Back the Mushrooms|QID|9709|M|23.3,66.2|N|To Watcher Leesa'oh.|
+T Stealing Back the Mushrooms|QID|9709|M|23.33,66.23|N|To Watcher Leesa'oh.|
 T The Sharpest Blades|QID|9842|M|31.6,49.2|N|To Gambarinka.|
 T Us or Them|QID|9823|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 T Message to the Daggerfen|QID|10118|M|30.7,50.9|N|To Shadow Hunter Denjai.|

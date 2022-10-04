@@ -44,7 +44,6 @@
 	<Script file="INTRO_Chromie_Time.lua"/>
 	<Script file="INTRO_Dark_Iron_Dwarf.lua"/>
 	<Script file="INTRO_Draenai.lua"/>
-	<Script file="INTRO_Drakthyr.lua"/>
 	<Script file="INTRO_Dwarf.lua"/>
 	<Script file="INTRO_Dwarf_Gnome_Part2.lua"/>
 	<Script file="INTRO_Exiles_Reach.lua"/>
