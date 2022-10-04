@@ -69,7 +69,7 @@ T Protecting Our Own|QID|10488|N|To Gor'drek.|M|52.27,57.50|
 f Thunderlord Stronghold|QID|10614|N|Get the Thunderlord Stronghold flight path.|M|52.06,54.14|
 T Whispers on the Wind|QID|10614|N|To Leoroxx.|M|75.24,60.89|
 A Reunion|QID|10709|PRE|10614|M|75.3,60.9|N|From Leoroxx.|
-f Mok'Nathal Village|QID|10860|N|Get the Mok'Nathal Village flight path.|M|52.06,54.14|
+f Mok'Nathal Village|QID|10860|N|Get the Mok'Nathal Village flight path.|M|76.36,65.94|
 A Mok'Nathal Treats|QID|10860|N|From Matron Verah.|M|76.03,60.36|
 A Silkwing Cocoons|QID|10617|N|From Taerek.|M|75.85,61.39|
 A The Softest Wings|QID|10618|N|From Silmara.|M|75.82,61.49|
