@@ -265,7 +265,7 @@ C A Courageous Strike |QID|11641|N|Kill En'kilah Ghouls and Necromancers.|S|M|85
 K High Priest Talet-Kha |QID|11640|QO|2|N|Head into En'kilah again. Go east to the Spire of Pain, kill the Mystical Webbings and the priest will attack you. Loot the scroll off his body.|M|89,29|
 N Neutralize the East Cauldron |QID|11647|QO|1|U|34806|N|It's just to the south as you exit the spire. Walk up to it and use the totem.|M|87.68,29.96|
 K Darkfallen Bloodbearer |QID|11654|L|34815|N|Kill and loot Darkfallen Bloodbearer. He patrols between the Spire of Blood and the entrance.|M|88,22|T|Darkfallen Bloodbearer|
-A The Spire of Blood |QID|11654|U|34815|M|87.7,22.0|N|(UI Alert).|
+A The Spire of Blood |QID|11654|U|34815|M|87.7,22.0|N|Right click the Vial of Fresh Blood to accept the quest.|
 T The Spire of Blood |QID|11654|N|To Snow Tracker Grumm. He's on the lower floor of the Spire of Blood.|M|87.6,20.0|
 A Shatter the Orbs! |QID|11659|PRE|11654|M|87.6,20.0|N|From Snow Tracker Grumm.|
 C Shatter the Orbs! |QID|11659|N|There's a bunch on the first floor and one on the second.|
