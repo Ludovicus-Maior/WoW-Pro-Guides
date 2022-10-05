@@ -7,7 +7,7 @@ WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Silverpine_Forest')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Welcome!|QID|4641|N|If you find a problem, please report it on Discord in #tbc-bug-reports. Enjoy and thanks!|
+N Welcome!|QID|4641|N|If you find a problem, please report it on Discord in #open-a-ticket. Enjoy and thanks!|
 A Your Place In The World|QID|4641|M|43.29,68.57|N|From Kaltunk.|LEAD|788|
 T Your Place In The World|QID|4641|M|42.06,68.33|N|To Gornek.|
 A Cutting Teeth|QID|788|M|42.06,68.33|N|From Gornek.|

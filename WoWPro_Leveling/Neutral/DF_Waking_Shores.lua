@@ -131,13 +131,14 @@ C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|QO|1|N|Djaradin slain.|US|
 T Invader Djaradin|QID|65989|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
 T Deliver Whelps From Evil|QID|65990|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
 A Time for a Reckoning|QID|65991|PRE|65989&65990|M|71.20,40.77|Z|2022|N|From Commander Lethanak.|
-A Erstwhile Ecologists|QID|72122|PRE|65989&65990|M|71.11,40.46|Z|2022|N|From Mender Eskros.|
+A Erstwhile Ecologists|QID|72122|PRE|65989&65990|M|71.11,40.46|Z|2022|N|From Mender Eskros.|RANK|2|
 T Erstwhile Ecologists|QID|72122|M|74.43,42.15|Z|2022|N|To Ecologist Iskha.|
-A A Scalpel of a Solution|QID|66105|PRE|72122|M|74.41,42.12|Z|2022|N|From Ecologist Iskha.|
-A Wildlife Rescue|QID|66107|PRE|72122|M|74.49,42.17|Z|2022|N|From Ecologist Tharu.|
-C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|QO|1|NC|N|Wildlife rescued.|
+A A Scalpel of a Solution|QID|66105|PRE|72122|M|74.41,42.12|Z|2022|N|From Ecologist Iskha.|RANK|2|
+A Wildlife Rescue|QID|66107|PRE|72122|M|74.49,42.17|Z|2022|N|From Ecologist Tharu.|RANK|2|
+C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|QO|1|NC|N|Wildlife rescued.|S|
 C A Scalpel of a Solution|QID|66105|M|76.33,46.27|Z|2022|QO|2|N|Rampaging Wind slain.|
 C A Scalpel of a Solution|QID|66105|M|75.87,48.34|Z|2022|QO|1|N|Rampaging Water slain.|
+C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|QO|1|NC|N|Wildlife rescued.|US|
 T Wildlife Rescue|QID|66107|M|74.50,42.18|Z|2022|N|To Ecologist Tharu.|
 T A Scalpel of a Solution|QID|66105|M|74.43,42.16|Z|2022|N|To Ecologist Iskha.|
 A Forensic Ecology|QID|66104|PRE|66107&66105|M|74.43,42.16|Z|2022|N|From Ecologist Iskha.|
