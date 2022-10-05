@@ -103,8 +103,7 @@ A Trail of Filth|QID|28330|N|From Serge Hinott|M|49.09,66.36|PRE|28329|
 C Trail of Filth|QID|28330|U|63426|M|47.85,72.37|N|Kill Chet the Slime-Breeder, found inside the building. Use the Lethality Analyzer to reduce the HP of Chet, otherwise you may need to find a group to help. |
 C Green Living|QID|28325|M|48.59,71.42|U|63426|US|N|Pick up broken barrels on the ground.|NC|
 C Studies in Lethality|QID|28324|U|63426|M|48.59,71.42|US|N|Use the Lethality Analyzer on the Blight Slimes.|
-l Daggerspine Attack Plans|QID|28356|M|50.69,76.2|L|63686|N|Igonore Orkus for now, and kill Daggerspine Nagas until this drops.|
-A Preemptive Strike|QID|28356|U|63686|N|Accept the quest from the plans.|M|50.69,76.2|
+A Preemptive Strike|QID|28356|U|63686|N|Igonore Orkus for now, and kill Daggerspine Nagas until Daggerspine Attack Plans Drops. Then accept the quest from UI popup.|M|50.69,76.2|
 C Preemptive Strike|QID|28356|N|Kill 15 Daggerspine Nagas.|M|50.69,76.2|
 T Green Living|QID|28325|M|49.09,66.36|N|To Serge Hinott.|
 T Trail of Filth|QID|28330|M|49.09,66.36|N|To Serge Hinott.|
