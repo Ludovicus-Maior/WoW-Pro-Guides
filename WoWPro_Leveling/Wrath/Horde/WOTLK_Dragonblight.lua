@@ -172,7 +172,7 @@ T The End of the Line |QID|12110|M|38.1,46.2|N|To the Image of Archmage Aethas S
 A Gaining an Audience |QID|12122|M|38.1,46.2|PRE|12110|N|From the Image of Archmage Aethas Sunreaver.|
 A Imbeciles Abound! |QID|12189|PRE|12182|M|36.1,48.8|N|From Doctor Sintar Malefious.|
 T In Service of Blood |QID|12125|M|37.1,46.5|N|To Koltira Deathweaver.|
-F Wrymrest Temple|QID|12122|M|37.51,45.76|N|Fly to Wrymrest Temple.|
+f Wrymrest Temple|QID|12122|M|37.51,45.76|N|Grab the Wrymrest Temple flightpath.|
 T Gaining an Audience |QID|12122|N|Tariolstrasz, the dragon you want to see, is on the west side of Wyrmrest Temple.|M|58,54|
 A Speak with your Ambassador |QID|12767|M|57.9,54.2|PRE|12122|N|From Tariolstrasz.|
 A Seeds of the Lashers |QID|12458|N|Ask Tariolstrasz to send you to the top of the temple. From Lord Itharius.|M|59.6,54.4|
