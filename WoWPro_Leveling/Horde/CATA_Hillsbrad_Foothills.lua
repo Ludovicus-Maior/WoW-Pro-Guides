@@ -66,8 +66,8 @@ C For Science!|QID|28199|M|39.10,63.63|N|Finish killing and looting the Risen Hi
 T For Science!|QID|28199|M|36.34,60.25|N|To Flesh-Shaper Arnauld.|
 T Discretion is Key|QID|28197|M|36.18,61.14|N|To Warden Stillwater.|
 T The Battle for Hillsbrad|QID|28196|M|36.18,61.14|N|To Warden Stillwater.|
-A Little Girl Lost|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28196&28197&28199|
-T Little Girl Lost|QID|28206|M|40.32,59.40|N|To Johnny Awesome.|
+A A Lost Lad|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28196&28197&28199|
+T A Lost Lad|QID|28206|M|40.32,59.40|N|To Johnny Awesome.|
 A Freedom for Lydon|QID|28209|M|40.31,59.30|N|From Master Apothecary Lydon.|PRE|28206|
 C Freedom for Lydon|QID|28209|M|39.13,60.07|N|Kill and loot the Infected Sludge Guards until Lydon's Cage Key drops.|
 T Freedom for Lydon|QID|28209|M|40.31,59.30|N|To Master Apothecary Lydon.|
