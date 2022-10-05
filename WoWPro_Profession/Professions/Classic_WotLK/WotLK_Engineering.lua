@@ -164,15 +164,9 @@ M [item=10559/Mithril Tube]|QID|202012589|P|Engineering;202;0+200;1|ITEM|10559|C
 = Learn [spell=12656/Artisan Engineering]|QID|202012656|M|52.2,27.6|Z|1446|IZ|440|P|Engineering;202;0+200|SPELL|Artisan Engineering;12656|LVL|35|T|Buzzek Bracketswing|N|Learn from Buzzek Bracketswing, in Gadgetzan, Tanaris.|
 = Learn [spell=12656/Artisan Engineering]|QID|202012656|P|Engineering;202;0+200|SPELL|Artisan Engineering;12656|LVL|35|N|Learn from Trainer in Major Cities, and some starting areas. (Once you get to an area that has a local trainer, an arrow will popup).|
 N Engineering Specialization|QID|202002001|P|Engineering;202;0+200|N|Once you reach 200 you can chose either Gnomish or Goblin Specialization.  The materials needed or Quests to unlock are NOT covered in this guide.|
-
-; Test Lines for either Goblin or Gnomish OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3643|,  Goblin QID |3639|
-N Gnomish Engineering|QID|2029920222|PRE|3639|P|Engineering;202;0+200|SPELL|Goblin Engineering;20222;Flip|N|You have Gnomish Engineering!|
-N Goblin Engineering|QID|2029920222|PRE|3643|P|Engineering;202;0+200|SPELL|Gnomish Engineering;20219;Flip|N|You have Goblin Engineering!|
-; REMOVE these lines, when reported, IF it works.  NOTES will be on lines that need this info.
-
 = Learn Recipe|QID|202002001|P|Engineering;202;0+200|RECIPE|12591|N|Learn [spell=12591/Unstable Trigger] Recipe from Trainer.|
 M [item=10560/Unstable Trigger]|QID|202012591|P|Engineering;202;0+216;1|ITEM|10560|CRAFT|12591 20|MATS|3860 1;4338 1;10505 1|N|Save these for later steps.|
-= Learn Recipe|QID|202002151|P|Engineering;202;0+215|RECIPE|12599|N|Learn [spell=12589/Mithril Casing] Recipe from Trainer.|
+= Learn Recipe|QID|202002151|P|Engineering;202;0+215|RECIPE|12599|N|Learn [spell=12599/Mithril Casing] Recipe from Trainer.|
 M [item=10561/Mithril Casing]|QID|202012599|P|Engineering;202;0+238;1|ITEM|10561|CRAFT|12599 40|MATS|3860 3|N|Save these for later steps.|
 = Learn Recipe|QID|202002351|P|Engineering;202;0+235|RECIPE|12619|N|Learn [spell=12619/Hi-Explosive Bomb] Recipe from Trainer.|
 M [item=10562/Hi-Explosive Bomb]|QID|202012619|P|Engineering;202;0+250;1|ITEM|10562|CRAFT|12619 20|MATS|10561 2;10560 1;10505 2|
@@ -236,7 +230,7 @@ N Goblin Engineering|QID|202056514|P|Engineering;202;0+396|N|Not SURE if we can 
 = Learn Recipe|QID|202004003|P|Engineering;202;0+400|RECIPE|61482|N|Learn [spell=61482/Mechanized Snow Goggles] (Mail) Recipe from Trainer.|
 = Learn Recipe|QID|202004004|P|Engineering;202;0+400|RECIPE|61483|N|Learn [spell=61483/Mechanized Snow Goggles] (Plate) Recipe from Trainer.|
 = Learn Recipe|QID|202004005|P|Engineering;202;0+400|RECIPE|56472|N|Learn [spell=56472/MOLL-E] Recipe from Trainer.|
-= Learn Recipe|QID|202204006|M|39.66,25.13|Z|125|P|Engineering;202;0+400|RECIPE|56514|SPELL|Goblin Engineer;20222;Flip|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
+= Learn Recipe|QID|202204006|M|39.66,25.13|Z|125|P|Engineering;202;0+400|RECIPE|56514|SPELL|Gnomish Engineering;20219;Flip|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
 = Learn Recipe|QID|202004007|P|Engineering;202;0+400|RECIPE|67326|N|Learn [spell=67326/Goblin Beam Welder] Recipe from Trainer.|
 M [item=44739/Diamond-cut Refreactor Scope]|QID|202061471|P|Engineering;202;0+405;1|ITEM|44739|CRAFT|61471 5|MATS|39683 1;39681 2|
 = Learn Recipe|QID|202004051|P|Engineering;202;0+405|RECIPE|56468|N|Learn [spell=56468/Box of Bombs] Recipe from Trainer.|
@@ -248,12 +242,15 @@ M [item=42546/Mana Injector Kit]|QID|202056477|P|Engineering;202;0+425;1|ITEM|42
 
 ; might need to use |SPELL|Gnomish Engineer;20219;Flip| or |SPELL|Goblin Engineer;20222;Flip| to check....
 ; OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3641^3643|,  Goblin QID |3639|
+; N Gnomish Engineering|QID|2029920222|PRE|3639|P|Engineering;202;0+200|SPELL|Goblin Engineering;20222;Flip|N|You have Gnomish Engineering!| <- to show Gnomish us this SPELL
+; N Goblin Engineering|QID|2029920222|PRE|3643|P|Engineering;202;0+200|SPELL|Gnomish Engineering;20219;Flip|N|You have Goblin Engineering!|  <- to show Gnome use this SPELL
 
-M [item=44741/Mechanized Snow Goggles]|QID|202061482|P|Engineering;202;0+429;1|SPELL|Gnomish Engineer;20219;Flip|ITEM|44741|CRAFT|61482 7|MATS|36913 8;33568 2;35627 1|N|Make any of the 4 types, just the Mail Gear is listed.|
+M [item=44741/Mechanized Snow Goggles]|QID|202061482|P|Engineering;202;0+429;1|ITEM|44741|CRAFT|61482 7|MATS|36913 8;33568 2;35627 1|N|Make any of the 4 types, just the Mail Gear is listed. [color=FF0000]NOTE: [/color]Goblin Engineer's can create [item=42641] instead, Right-Click to skip.|
+M [item=42641/Global Thermal Sapper Charge]|QID|202056514|P|Engineering;202;0+429;1|SPELL|Gnomish Engineering;20219;Flip|ITEM|42641|CRAFT|56514 30|MATS|36913 1;39690 1|N|[color=FF0000]NOTE: [/color]Goblin Engineer Only, Right-click to skip.|
 M [item=40768/MOLL-E]|QID|202056472|P|Engineering;202;0+430;1|ITEM|40768|CRAFT|56472 1|MATS|36913 8;35623 8|N|If you do not want to make the mailbox, Right-Click to skip.|
-M [item=44741/Mechanized Snow Goggles]|QID|202061482|P|Engineering;202;0+430;1|SPELL|Gnomish Engineer;20219;Flip|ITEM|44741|CRAFT|61482 7|MATS|36913 8;33568 2;35627 1|N|Make any of the 4 types, just the Mail Gear is listed.|
-M [item=40865/Noise Machine]|QID|202056467|P|Engineering;202;0+435;1|SPELL|Gnomish Engineer;20219;Flip|ITEM|40865|CRAFT|56467 5|MATS|39683 2;39682 2;39681 8|
-M [item=42641/Global Thermal Sapper Charge]|QID|202056514|P|Engineering;202;0+435;1|SPELL|Goblin Engineer;20222;Flip|ITEM|42641|CRAFT|56514 30|MATS|36913 1;39690 1|N|[color=FF0000]NOTE: You might need more [item=39690]|
+M [item=44741/Mechanized Snow Goggles]|QID|202061482|P|Engineering;202;0+430;1|ITEM|44741|CRAFT|61482 7|MATS|36913 8;33568 2;35627 1|N|Make any of the 4 types, just the Mail Gear is listed.|
+M [item=42641/Global Thermal Sapper Charge]|QID|202056514|PRE|3639|P|Engineering;202;0+435;1|ITEM|42641|CRAFT|56514 30|MATS|36913 1;39690 1|N|[color=FF0000]NOTE: [/color]You might need more [item=39690], Make until Green. Right-click step to continue.|
+M [item=40865/Noise Machine]|QID|202056467|P|Engineering;202;0+435;1|ITEM|40865|CRAFT|56467 5|MATS|39683 2;39682 2;39681 8|
 = Learn Recipe|QID|202004351|P|Engineering;202;0+435|RECIPE|56462|N|Learn [spell=56462/Gnomish Army Knife] Recipe from Trainer.|
 B [item=7005/Skinning Knife]|QID|202056462|L|7005 30|ITEM|7005|N|You'll need approximately 30 Skinning Knives.  These can be purchased from any Leatherworking / Skinning Supplies Vendor.|
 B [item=2901/Mining Pick]|QID|202056462|L|2901 30|ITEM|2901|N|You'll need approximately 30 Mining Picks.  These can be purchased from any Engineering Supplies Vendor.|
