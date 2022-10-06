@@ -148,9 +148,9 @@ N Group for Yetimus|QID|28485|N|If you see a group looking to kill Yetimus, join
 C The Heart of the Matter|QID|28484|M|46,54|N|Kill Yetis for their hearts.|S|
 C Stagwiches|QID|28489|M|48.44,54.59|N|Kill Hill Stags for their meat.|S|
 C A Fighting Chance|QID|28495|M|48.44,54.59|N|Use Duskingdawn's Wand on Hill Fawns.|S|U|64416|
-l Humbert's Sword|QID|28487|N|Inside the Yeti Cave. Turn right as you enter the cave. Follow the ramp up.|M|45.10,51.34|L|64390|ACTIVE|28487|
-l Humbert's Helm|QID|28487|N|Jump off the ledge and turn left.|M|44.58,50.92|L|64391|ACTIVE|28487|
-l Humbert's Pants|QID|28487|N|Leave the tunnel the way you came in. Go straight into a new tunnel and follow the path.|M|44.09,53.23|L|64393|ACTIVE|28487|
+C Humbert's Personal Problems|QID|28487|QO|1|N|Inside the Yeti Cave. Turn right as you enter the cave. Follow the ramp up.|M|45.10,51.34|
+C Humbert's Personal Problems|QID|28487|QO|2|N|Jump off the ledge and turn left.|M|44.58,50.92|
+C Humbert's Personal Problems|QID|28487|QO|3|N|Leave the tunnel the way you came in. Go straight into a new tunnel and follow the path.|M|44.09,53.23|
 C The Heart of the Matter|QID|28484|M|46,54|N|Kill Yetis for their hearts.|US|
 C A Fighting Chance|QID|28495|M|48.44,54.59|N|Use Duskingdawn's Wand on Hill Fawns.|US|U|64416|
 C Stagwiches|QID|28489|M|48.44,54.59|US|N|Kill Hill Stags for their meat.|
