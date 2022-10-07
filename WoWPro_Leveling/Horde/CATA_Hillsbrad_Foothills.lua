@@ -66,8 +66,8 @@ C For Science!|QID|28199|M|39.10,63.63|N|Finish killing and looting the Risen Hi
 T For Science!|QID|28199|M|36.34,60.25|N|To Flesh-Shaper Arnauld.|
 T Discretion is Key|QID|28197|M|36.18,61.14|N|To Warden Stillwater.|
 T The Battle for Hillsbrad|QID|28196|M|36.18,61.14|N|To Warden Stillwater.|
-A Little Girl Lost|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28196&28197&28199|
-T Little Girl Lost|QID|28206|M|40.32,59.40|N|To Johnny Awesome.|
+A A Lost Lad|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28196&28197&28199|
+T A Lost Lad|QID|28206|M|40.32,59.40|N|To Johnny Awesome.|
 A Freedom for Lydon|QID|28209|M|40.31,59.30|N|From Master Apothecary Lydon.|PRE|28206|
 C Freedom for Lydon|QID|28209|M|39.13,60.07|N|Kill and loot the Infected Sludge Guards until Lydon's Cage Key drops.|
 T Freedom for Lydon|QID|28209|M|40.31,59.30|N|To Master Apothecary Lydon.|
@@ -103,8 +103,7 @@ A Trail of Filth|QID|28330|N|From Serge Hinott|M|49.09,66.36|PRE|28329|
 C Trail of Filth|QID|28330|U|63426|M|47.85,72.37|N|Kill Chet the Slime-Breeder, found inside the building. Use the Lethality Analyzer to reduce the HP of Chet, otherwise you may need to find a group to help. |
 C Green Living|QID|28325|M|48.59,71.42|U|63426|US|N|Pick up broken barrels on the ground.|NC|
 C Studies in Lethality|QID|28324|U|63426|M|48.59,71.42|US|N|Use the Lethality Analyzer on the Blight Slimes.|
-l Daggerspine Attack Plans|QID|28356|M|50.69,76.2|L|63686|N|Igonore Orkus for now, and kill Daggerspine Nagas until this drops.|
-A Preemptive Strike|QID|28356|U|63686|N|Accept the quest from the plans.|M|50.69,76.2|
+A Preemptive Strike|QID|28356|U|63686|N|Igonore Orkus for now, and kill Daggerspine Nagas until Daggerspine Attack Plans Drops. Then accept the quest from UI popup.|M|50.69,76.2|
 C Preemptive Strike|QID|28356|N|Kill 15 Daggerspine Nagas.|M|50.69,76.2|
 T Green Living|QID|28325|M|49.09,66.36|N|To Serge Hinott.|
 T Trail of Filth|QID|28330|M|49.09,66.36|N|To Serge Hinott.|
@@ -149,9 +148,9 @@ N Group for Yetimus|QID|28485|N|If you see a group looking to kill Yetimus, join
 C The Heart of the Matter|QID|28484|M|46,54|N|Kill Yetis for their hearts.|S|
 C Stagwiches|QID|28489|M|48.44,54.59|N|Kill Hill Stags for their meat.|S|
 C A Fighting Chance|QID|28495|M|48.44,54.59|N|Use Duskingdawn's Wand on Hill Fawns.|S|U|64416|
-l Humbert's Sword|QID|28487|N|Inside the Yeti Cave. Turn right as you enter the cave. Follow the ramp up.|M|45.10,51.34|L|64390|ACTIVE|28487|
-l Humbert's Helm|QID|28487|N|Jump off the ledge and turn left.|M|44.58,50.92|L|64391|ACTIVE|28487|
-l Humbert's Pants|QID|28487|N|Leave the tunnel the way you came in. Go straight into a new tunnel and follow the path.|M|44.09,53.23|L|64393|ACTIVE|28487|
+C Humbert's Personal Problems|QID|28487|QO|1|N|Inside the Yeti Cave. Turn right as you enter the cave. Follow the ramp up.|M|45.10,51.34|
+C Humbert's Personal Problems|QID|28487|QO|2|N|Jump off the ledge and turn left.|M|44.58,50.92|
+C Humbert's Personal Problems|QID|28487|QO|3|N|Leave the tunnel the way you came in. Go straight into a new tunnel and follow the path.|M|44.09,53.23|
 C The Heart of the Matter|QID|28484|M|46,54|N|Kill Yetis for their hearts.|US|
 C A Fighting Chance|QID|28495|M|48.44,54.59|N|Use Duskingdawn's Wand on Hill Fawns.|US|U|64416|
 C Stagwiches|QID|28489|M|48.44,54.59|US|N|Kill Hill Stags for their meat.|
