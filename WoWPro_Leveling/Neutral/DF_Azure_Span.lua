@@ -458,4 +458,4 @@ C Loose Ends|QID|71135|M|58.89,44.16|Z|2024;The Azure Span|QO|2|U|191134|N|Frost
 T Loose Ends|QID|71135|M|58.78,34.90|Z|2024;The Azure Span|N|To Old Grimtusk.|
 ]]
 
-end
+end)
