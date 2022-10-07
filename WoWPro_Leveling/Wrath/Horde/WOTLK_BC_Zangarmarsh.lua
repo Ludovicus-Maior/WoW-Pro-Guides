@@ -132,20 +132,21 @@ A Angling to Beat the Competition|QID|9845|M|32.26,49.61|N|From Zurjaya.|
 A WANTED: Boss Grog'ak|QID|9820|M|32.00,49.33|N|From the Wanted Poster.|
 A Wanted: Chieftain Mummaki|QID|10117|M|32.00,49.33|N|From the Wanted Poster.|
 A Stinging the Stingers|QID|9841|M|31.63,49.19|N|From Gambarinka.|
-A Burstcap Mushrooms, Mon!|QID|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|
-C Burstcap Mushrooms, Mon!|QID|9814|M|28.9,52.6|N|They're around Zabra'jin.|NC|
-K "Count" Ungula|ACTIVE|9911|M|33,60|L|25459|N|Kill "Count" Ungula to loot a quest starter item.|
-A The Count of the Marshes|QID|9911|M|32.8,59.1|N|From "Count" Ungula's Mandible.|U|25459|O|
-C Spirits of the Feralfen|QID|9846|M|50,62|N|Kill the Feralfen here for the totems.|
-C Angling to Beat the Competition|QID|9845|N|Kill Fenclaw Thrashers, use the potion of water breathing if needed.|M|50,41|U|25539|
+A Burstcap Mushrooms, Mon!|QID|9814|M|32.89,48.89|N|From Witch Doctor Tor'gash.|
+C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|L|24668 6|N|They are large mushrooms found on the ground around Zabra'jin.|S|
+K "Count" Ungula|AVAILABLE|9911|M|32.91,59.55|L|25459|N|Kill "Count" Ungula, a named Marshfang, to loot a quest starter item.|
+A The Count of the Marshes|QID|9911|N|From "Count" Ungula's Mandible.|U|25459|O|
+C Spirits of the Feralfen|QID|9846|M|43.71,62.57|L|24497 10|ITEM|24497|N|Feralfen mobs|
+K Angling to Beat the Competition|ACTIVE|9845|M|50.40,40.89|N|They're located around Coilfang Reservoir in Serpent Lake.\n[color=FF0000]NOTE: [/color]Use the potion of water breathing so you won't drown|U|25539|
 C Familiar Fungi|QID|9708|M|32,38|L|24238 15|ITEM|24238|N|Ango'rosh Ogres in the Hewn Bog.|S|
-C WANTED: Boss Grog'ak|QID|9820|N|Head north to find Boss Grog'ak. He's not tough, but he does do a knockback, so be careful.|M|35,35|
+C WANTED: Boss Grog'ak|QID|9820|M|35,35|N|Head north to find Boss Grog'ak. He's not tough, but he does do a knockback, so be careful.|
 C Familiar Fungi|QID|9708|M|32,38|L|24238 15|ITEM|24238|N|Ango'rosh Ogres in the Hewn Bog.|US|
+C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|L|24668 6|N|They are large mushrooms found on the ground around Zabra'jin.|US|
 T Angling to Beat the Competition|QID|9845|M|32.26,49.61|N|To Zurjaya.|
 A The Biggest of Them All|QID|9903|M|32.26,49.61|N|From Zurjaya.|PRE|9845|
 A Pursuing Terrorclaw|QID|9904|M|32.26,49.61|N|From Zurjaya.|
-T Burstcap Mushrooms, Mon!|QID|9814|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
-A Have You Ever Seen One of These?|QID|9816|M|32.9,48.9|N|From Witch Doctor Tor'gash.|PRE|9814|
+T Burstcap Mushrooms, Mon!|QID|9814|M|32.89,48.89|N|To Witch Doctor Tor'gash.|
+A Have You Ever Seen One of These?|QID|9816|M|32.89,48.89|N|From Witch Doctor Tor'gash.|PRE|9814|
 T Spirits of the Feralfen|QID|9846|M|32.4,52.0|N|To Seer Janidi.|
 A A Spirit Ally?|QID|9847|M|32.4,52.0|N|From Seer Janidi.|PRE|9846|
 T WANTED: Boss Grog'ak|QID|9820|M|30.74,50.88|N|To Shadow Hunter Denjai.|
@@ -166,7 +167,7 @@ T Stinging the Stingers|QID|9841|M|31.63,49.19|N|To Gambarinka.|
 A The Sharpest Blades|QID|9842|PRE|9841|M|31.63,49.19|N|From Gambarinka.|
 T Pursuing Terrorclaw|QID|9904|M|32.26,49.61|N|To Zurjaya.|
 T The Biggest of Them All|QID|9903|M|32.26,49.61|N|To Zurjaya.|
-T Have You Ever Seen One of These?|QID|9816|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
+T Have You Ever Seen One of These?|QID|9816|M|32.89,48.89|N|To Witch Doctor Tor'gash.|
 T WANTED: Chieftain Mummaki|QID|10117|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 T Impending Attack|QID|9822|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 A Us or Them|QID|9823|PRE|9822|M|30.74,50.88|N|From Shadow Hunter Denjai.|
