@@ -228,7 +228,7 @@ A Call of Fire|QID|2983|M|54.42,42.59|N|From Swart.|R|Orc,Troll|C|Shaman|
 
 A Conscript of the Horde|QID|840|M|50.85,43.59|N|From Takrin Pathseeker.|
 A Need for a Cure|QID|812|M|41.53,18.62|L|-4904|N|From Rhinag at Rocktusk Farm. Follow the road north out of Razor Hill or go cross country for some grinding.\n\n[color=FF0000]NOTE: [/color]This quest is on a 45 min timer. The exp/min is low for this quest. You can skip this quest if you so choose.|RANK|3|
-R Orgrimmar|ACTIVE|-812&831|M|45.51,12.06|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
+R Orgrimmar|ACTIVE|-812&831|M|42.12,15.07|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
 R Orgrimmar|ACTIVE|812|AVAILABLE|813|M|45.51,12.06|QO|1|N|Make your way northeast to the gates of Orgrimmar.|
 R Grommash Hold|ACTIVE|831|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;40.30,36.94|Z|Orgrimmar|CC|N|As you enter Orgrimmar, continue straight until you reach the Drag. Enter the Drag and follow the road until you reach Grommash Hold.\n[color=FF0000]NOTE: [/color]There are multiple routes, but this is the fastest one I've found.|
 T The Admiral's Orders|QID|831|M|34.29,36.40|Z|Orgrimmar|N|To Vol'jin inside the 2nd room of Grommash Hold.|
@@ -278,8 +278,8 @@ R Orgrimmar|ACTIVE|813|M|45.52,12.07|N|Head back to Orgrimmar.|
 R Cleft of Shadow|ACTIVE|813|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39|Z|Orgrimmar|CC|
 T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. If you lose the antidote, this quest is repeatable.|
 R Leave Orgrimmar|ACTIVE|812|M|56.73,41.96;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|1454|
-A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|FAIL|
-T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
+A Need for a Cure|QID|812|M|42.12,15.07|N|From Rhinag.|FAIL|
+T Need for a Cure|QID|812|M|42.12,15.07|N|To Rhinag.|
 
 C Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.\n[color=FF0000]NOTE: [/color]Depending on your luck, this quest may become a bit of a grind to complete.|
 T Conscript of the Horde|QID|840|M|62.27,19.37|Z|The Barrens|N|To Kargal Battlescar at Far Watch Post, Barrens. It's just on the other side of the Southfury Bridge.|

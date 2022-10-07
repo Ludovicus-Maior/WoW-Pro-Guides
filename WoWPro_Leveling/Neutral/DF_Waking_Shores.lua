@@ -136,41 +136,42 @@ T Erstwhile Ecologists|QID|72122|M|74.43,42.15|Z|2022|N|To Ecologist Iskha.|
 A A Scalpel of a Solution|QID|66105|PRE|72122|M|74.41,42.12|Z|2022|N|From Ecologist Iskha.|RANK|2|
 A Wildlife Rescue|QID|66107|PRE|72122|M|74.49,42.17|Z|2022|N|From Ecologist Tharu.|RANK|2|
 C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|QO|1|NC|N|Wildlife rescued.|S|
+C A Scalpel of a Solution|QID|66105|M|75.87,48.34|Z|2022|QO|1|N|Rampaging Water slain.|S|
 C A Scalpel of a Solution|QID|66105|M|76.33,46.27|Z|2022|QO|2|N|Rampaging Wind slain.|
-C A Scalpel of a Solution|QID|66105|M|75.87,48.34|Z|2022|QO|1|N|Rampaging Water slain.|
+C A Scalpel of a Solution|QID|66105|M|75.87,48.34|Z|2022|QO|1|N|Rampaging Water slain.|US|
 C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|QO|1|NC|N|Wildlife rescued.|US|
 T Wildlife Rescue|QID|66107|M|74.50,42.18|Z|2022|N|To Ecologist Tharu.|
 T A Scalpel of a Solution|QID|66105|M|74.43,42.16|Z|2022|N|To Ecologist Iskha.|
-A Forensic Ecology|QID|66104|PRE|66107&66105|M|74.43,42.16|Z|2022|N|From Ecologist Iskha.|
+A Forensic Ecology|QID|66104|PRE|66107&66105|M|74.43,42.16|Z|2022|N|From Ecologist Iskha.|RANK|2|
 C Forensic Ecology|QID|66104|M|74.47,42.17|Z|2022|QO|2|NC|N|Windyfin Gorloc Corpse Dissected.|
 C Forensic Ecology|QID|66104|M|74.47,42.17|Z|2022|QO|1|NC|N|Soggymaw Gorloc Corpse Dissected.|
 C Forensic Ecology|QID|66104|M|74.47,42.17|Z|2022|QO|3|NC|N|Glistening Shells Examined.|
-L Level 61|QID|66104|LVL|61|N|You should be around level 61 by this point.|
 T Forensic Ecology|QID|66104|M|74.43,42.14|Z|2022|N|To Ecologist Iskha.|
-A A Sledgehammer of a Solution|QID|66108|PRE|66104|M|74.43,42.14|Z|2022|N|From Ecologist Iskha.|
-A Don't Be So Shellfish|QID|66106|PRE|66104|M|74.52,42.16|Z|2022|N|From Ecologist Tharu.|
-A A Quack For Help|QID|66196|PRE|66104|M|80.12,42.87|Z|2022|N|From Unknown.|
-C A Sledgehammer of a Solution|QID|66108|M|79.69,44.02|Z|2022|QO|1|N|Sogglmoggl slain.|
-C A Sledgehammer of a Solution|QID|66108|M|79.60,40.53|Z|2022|QO|2|N|Whirglgurgl slain.|
-C Don't Be So Shellfish|QID|66106|M|79.37,41.53|Z|2022|QO|1|NC|N|Wind-Infused Shells collected.|
+A A Sledgehammer of a Solution|QID|66108|PRE|66104|M|74.43,42.14|Z|2022|N|From Ecologist Iskha.|RANK|2|
+A Don't Be So Shellfish|QID|66106|PRE|66104|M|74.52,42.16|Z|2022|N|From Ecologist Tharu.|RANK|2|
+C A Sledgehammer of a Solution|QID|66108|M|79.69,44.02|Z|2022|QO|1|N|Sogglmoggl slain.|S|
+C A Sledgehammer of a Solution|QID|66108|M|79.60,40.53|Z|2022|QO|2|N|Whirglgurgl slain.|S|
+C Don't Be So Shellfish|QID|66106|M|79.37,41.53|Z|2022|QO|1|NC|N|Wind-Infused Shells collected.|S|
+C Don't Be So Shellfish|QID|66106|M|74.72,42.21|Z|2022|QO|2|NC|N|Water-Infused Shells collected.|S|
+A A Quack For Help|QID|66196|PRE|66104|M|80.12,42.87|Z|2022|N|From Unknown.|RANK|2|
+C A Sledgehammer of a Solution|QID|66108|M|79.69,44.02|Z|2022|QO|1|N|Sogglmoggl slain.|US|
+C A Sledgehammer of a Solution|QID|66108|M|79.60,40.53|Z|2022|QO|2|N|Whirglgurgl slain.|US|
+C Don't Be So Shellfish|QID|66106|M|79.37,41.53|Z|2022|NC|N|Finish collecting the shells.|US|
 C A Quack For Help|QID|66196|M|74.72,42.21|Z|2022|QO|1|NC|N|Bubbled Duckling brought to the Ecologist's Camp.|
-C Don't Be So Shellfish|QID|66106|M|74.72,42.21|Z|2022|QO|2|NC|N|Water-Infused Shells collected.|
 T Don't Be So Shellfish|QID|66106|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Quack For Help|QID|66196|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Sledgehammer of a Solution|QID|66108|M|74.41,42.14|Z|2022|N|To Ecologist Iskha.|
-A Djaradin Djustice|QID|65994|PRE|66106&66196&66108|M|68.44,39.10|Z|2022|
+; Cant seem to make this work. Need help.
+;A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|IZ|13723|
 C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|QO|1|NC|N|Wrathion met at Scalecracker Keep.|
 T Time for a Reckoning|QID|65991|M|66.36,34.99|Z|2022|N|To Wrathion.|
 A Killjoy|QID|65993|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 A Blacktalon Intel|QID|65992|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
-A Dragonhunter Igordan|QID|66956|PRE|65991|M|64.73,34.35|Z|2022|
-C Dragonhunter Igordan|QID|66956|M|64.47,33.60|Z|2022|QO|1|N|Dragonhunter Igordan slain.|
-T Dragonhunter Igordan|QID|66956|M|64.47,33.60|Z|2022|
+C Killjoy|QID|65993|M|63.22,29.66|Z|2022|QO|1|N|Meatgrinder Sotok slain.|S|
 C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Talonstalker Kavia consulted.|
 C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Right consulted.|
-C Killjoy|QID|65993|M|63.22,29.66|Z|2022|QO|1|N|Meatgrinder Sotok slain.|
-A The Obsidian Citadel|QID|65995|PRE|66956|M|63.22,29.66|Z|2022|
 C Blacktalon Intel|QID|65992|M|63.43,28.86|Z|2022|QO|2|CHAT|N|Left consulted.|
+C Killjoy|QID|65993|M|63.22,29.66|Z|2022|QO|1|N|Meatgrinder Sotok slain.|US|
 T Killjoy|QID|65993|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T Blacktalon Intel|QID|65992|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T The Obsidian Citadel|QID|65995|M|62.65,33.19|Z|2022|N|To Wrathion.|
