@@ -42,7 +42,7 @@ l [item=14341/Rune Thread]|QID|197000004|L|14341 75|ITEM|14341|N|You'll need app
 l [item=21877/Netherweave Cloth]|QID|197000004|L|21877 740|ITEM|21877|N|You'll need approx 740 Netherweave Cloth.|
 l [item=22445/Arcane Dust]|QID|197000004|L|22445 12|ITEM|22445|N|You'll need approx 12 Arcane Dust.|
 l [item=21887/Knothide Leather]|QID|197000004|L|21887 20|ITEM|21887|N|You'll need approx 20 Knothide Leather.|
-l [item=33470/Frostweave Cloth]|QID|197000004|L|33470 200|ITEM|33470|N|You'll need approx 200 Frostweave Cloth.|
+l [item=33470/Frostweave Cloth]|QID|197000004|L|33470 2975|ITEM|33470|N|You'll need approx 2,975 Frostweave Cloth *NOTE: till about 440/450 skill points.|
 l [item=38426/Eternium Thread]|QID|197000004|L|38426 91|ITEM|38426|N|You'll need approx 91 Eternium Thread.|
 l [item=34054/Infinite Dust]|QID|197000004|L|34054 240|ITEM|34054|N|You'll need approx 240 Infinite Dusts.|
 N Shopping List|QID|197000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
@@ -181,7 +181,7 @@ M [item=41551/Duskweave Wristwraps]|QID|197055920|P|Tailoring;197;0+410;1|ITEM|4
 = Learn Recipe|QID|1970004102|P|Tailoring;197;0+410|RECIPE|56007|N|Learn [spell=56007/Frostweave Bag] Recipe from Trainer.|
 M [item=41545/Duskweave Gloves]|QID|197055922|P|Tailoring;197;0+415;1|ITEM|41545|CRAFT|55922 5|MATS|41510 9;38426 1|
 M [item=41544/Duskweave Boots]|QID|197055924|P|Tailoring;197;0+425;1|ITEM|41544|CRAFT|55924 13|MATS|41510 10;38426 1|
-M [item=41599/Frostweave Bag]|QID|197056007|P|Tailoring;197;0+440;1|ITEM|41599|CRAFT|56007 20|MATS|41511 6;38426 2|N|You can keep making to 450, but you'll need a lot of materials.|
+M [item=41599/Frostweave Bag]|QID|197056007|P|Tailoring;197;0+440;1|ITEM|41599|CRAFT|56007 20|MATS|41511 6;38426 2|N|You can keep making to 450, but you'll need a lot of materials, which were NOT included in the Shopping List.|
 N Levelling from 440-450|QID|197000009|P|Tailoring;197;0+450|N|Make Epic gear, and or [item=41599] to reach 450.|
 N Congratulations!|QID|197000010|N|That completes Classic - Wraith of the Lich King Tailoring.|
 ]]
