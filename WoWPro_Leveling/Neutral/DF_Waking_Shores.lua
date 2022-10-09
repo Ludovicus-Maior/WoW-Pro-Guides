@@ -231,10 +231,7 @@ A Stay a While|QID|70132|PRE|66115&68795|M|57.82,66.85|Z|2022|N|From Veritistras
 C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|1|N|Use Extra Action Button to sit and look at the view then talk to him.|EAB|
 C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|2|N|talk to him and listen to his stories.|
 T Stay a While|QID|70132|M|57.82,66.85|Z|2022|N|To Veritistrasz.|
-
-
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
-
 A How to Glide with Your Dragon|QID|65118|PRE|66115&68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
 C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|NC|N|Hop on your Renewed Proto-Drake mount (Optional).|
 
