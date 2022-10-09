@@ -176,48 +176,66 @@ T Killjoy|QID|65993|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T Blacktalon Intel|QID|65992|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T The Obsidian Citadel|QID|65995|M|62.65,33.19|Z|2022|N|To Wrathion.|
 A Veteran Reinforcements|QID|65996|PRE|65993&65992&65995|M|62.77,33.10|Z|2022|N|From Majordomo Selistra.|
-A Fighting Fire with... Water|QID|66998|PRE|65993&65992&65995|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|
-C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|U|193917|N|Injured drakonids healed.|
+C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|U|193917|N|Injured drakonids healed.|S|
+A Fighting Fire with... Water|QID|66998|PRE|65993&65992&65995|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|RANK|2|
+C Fighting Fire with... Water|QID|66998||M|59.10,34.86|Z|2022|N|Kill the stuff fill the bar.|
+T Fighting Fire with... Water|QID|66998|M|59.10,34.86|Z|2022|N|To Caretaker Ventraz.|
+C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|U|193917|N|Injured drakonids healed.|US|
 C Veteran Reinforcements|QID|65996|M|55.14,31.32|Z|2022|QO|2|NC|U|193917|N|Meet Sendrax at the Conservatory Outpost.|
 T Veteran Reinforcements|QID|65996|M|54.99,30.76|Z|2022|N|To Caretaker Azkra.|
 A Chasing Sendrax|QID|65997|PRE|65996|M|54.99,30.76|Z|2022|N|From Caretaker Azkra.|
-C Chasing Sendrax|QID|65997|M|55.15,24.89|Z|2022|QO|1|NC|N|Sendrax found.|
+C Chasing Sendrax|QID|65997|M|55.15,24.89|Z|2022|QO|1|CHAT|N|Sendrax found.|
 T Chasing Sendrax|QID|65997|M|55.17,24.93|Z|2022|N|To Sendrax.|
 A Future of the Flights|QID|65998|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
 A Red in Tooth and Claw|QID|65999|PRE|65997|M|55.17,24.93|Z|2022|N|From Unknown.|
 A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From Sendrax.|
-A Firava the Rekindler|QID|70648|PRE|65997|M|55.60,24.84|Z|2022|N|From Sendrax.|
-C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|U|194441|N|Firava the Rekindler slain.|
-T Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|
+A Firava the Rekindler|QID|70648|M|55.60,24.84|Z|2022|N|Bous Objective.|
+C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Primalist forces slain.|S|
+C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|QO|1|NC|N|Books saved.|S|
+C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|N|Firava the Rekindler slain.|S|
 C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|QO|1|NC|N|Infused dragon eggs found.|
-C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Primalist forces slain.|
-T Red in Tooth and Claw|QID|65999|M|54.68,20.74|Z|2022|N|To Sendrax.|
 C Future of the Flights|QID|65998|M|55.01,21.43|Z|2022|QO|2|N|Infused Ruby Whelpling slain.|
-T Future of the Flights|QID|65998|M|55.04,21.27|Z|2022|N|To Sendrax.|
-C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|QO|1|NC|N|Books saved.|
-T Library of Alexstrasza|QID|66000|M|57.13,23.63|Z|2022|N|To Sendrax.|
-A A Last Hope|QID|66001|PRE|70648&65999&65998&66000|M|57.13,23.63|Z|2022|N|From Sendrax.|
-C A Last Hope|QID|66001|M|56.23,22.06|Z|2022|QO|1|NC|N|Meet Sendrax by the ritual site.|
+C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Primalist forces slain.|US|
+C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|QO|1|NC|N|Books saved.|US|
+C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|N|Firava the Rekindler slain.|S|
+t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|
+T Future of the Flights|QID|65998|M|PLAYER|Z|2022|N|To Sendrax.|
+T Red in Tooth and Claw|QID|65999|M|PLAYER|Z|2022|N|To Sendrax.|
+T Library of Alexstrasza|QID|66000|M|PLAYER|Z|2022|N|To Sendrax.|
+A A Last Hope|QID|66001|PRE|70648&65999&65998&66000|M|PLAYER|Z|2022|N|From Sendrax.|
+C A Last Hope|QID|66001|M|56.23,22.06|Z|2022|QO|1|CHAT|N|Meet Sendrax by the ritual site.|
 C A Last Hope|QID|66001|M|56.89,21.60|Z|2022|QO|2|NC|N|Pick up the Infused Dragon Egg.|
 C A Last Hope|QID|66001|M|55.07,30.62|Z|2022|QO|3|NC|N|Carry the egg to safety.|
 T A Last Hope|QID|66001|M|55.10,31.00|Z|2022|N|To Majordomo Selistra.|
 A For the Benefit of the Queen|QID|66114|PRE|66001|M|55.10,31.00|Z|2022|N|From Majordomo Selistra.|
-C For the Benefit of the Queen|QID|66114|M|62.26,72.88|Z|2022|QO|1|NC|N|Ride with Majordomo Selistra to the Ruby Lifeshrine.|
-C For the Benefit of the Queen|QID|66114|M|62.33,73.02|Z|2022|QO|2|NC|N|Show Queen Alexstrasza the infused egg.|
+C For the Benefit of the Queen|QID|66114|M|62.26,72.88|Z|2022|QO|1|CHAT|N|Ride with Majordomo Selistra to the Ruby Lifeshrine.|
+C For the Benefit of the Queen|QID|66114|M|62.33,73.02|Z|2022|QO|2|CHAT|N|Show Queen Alexstrasza the infused egg.|
 T For the Benefit of the Queen|QID|66114|M|62.33,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
 A The Mandate of the Red|QID|66115|PRE|66114|M|62.33,73.02|Z|2022|N|From Alexstrasza the Life-Binder.|
 A Dragonriding|QID|68795|PRE|66114|M|62.33,73.02|Z|2022|N|From Alexstrasza the Life-Binder.|
+A A Ruby Lifecalling|QID|66825|PRE|66114|M|61.93,73.78|Z|2022|N|From Lifecaller Tzadrak.|RANK|2|
 C The Mandate of the Red|QID|66115|M|60.69,74.07|Z|2022|QO|1|CHAT|N|Speak to Xius.|
 C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Speak to Akxall.|
+A Friend on the Mend|QID|70058|M|59.91,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
+C Friend on the Mend|QID|70058|M|59.82,71.35|QO|3|Z|2022|NC|N|Collect the Glass Bead off the table.|
+C Friend on the Mend|QID|70058|M|59.98,72.64|QO|2|Z|2022|CHAT|N|Speak to Rathestrasz and ask him for scraps of cloth.|
 C The Mandate of the Red|QID|66115|M|61.60,68.69|Z|2022|QO|3|CHAT|N|Speak to Mother Elion.|
+C Friend on the Mend|QID|70058|M|61.59,69.95|QO|1|Z|2022|NC|N|Collect the feathers off the gound around the lake.|
+T Friend on the Mend|QID|70058|M|61.42,70.08|Z|2022|N|To Mahra Treebender.|
 C The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|QO|4|CHAT|N|Speak to Zahkrana.|
 T The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|N|To Zahkrana.|
+A Training Wings|QID|70061|PRE|66115|M|62.18,70.56|Z|2022|N|From Amella.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 f Ruby Lifeshrine|QID|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
+A Stay a While|QID|70132|PRE|66115&68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
+C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|1|N|Use Extra Action Button to sit and look at the view then talk to him.|EAB|
+C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|2|N|talk to him and listen to his stories.|
+T Stay a While|QID|70132|M|57.82,66.85|Z|2022|N|To Veritistrasz.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|66115&68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
 C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|NC|N|Hop on your Renewed Proto-Drake mount (Optional).|
-A Stay a While|QID|70132|PRE|66115&68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|
+
+
 C How to Glide with Your Dragon|QID|65118|M|57.48,61.28|Z|2022|QO|2|NC|N|Glide Through The Rings.|
 C How to Glide with Your Dragon|QID|65118|M|57.38,59.17|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Glide with Your Dragon|QID|65118|M|57.46,59.09|Z|2022|N|To Celormu.|
@@ -232,9 +250,8 @@ C How to Use Momentum with Your Dragon|QID|65133|M|57.43,60.03|Z|2022|QO|2|NC|U|
 C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.09|Z|2022|QO|3|NC|U|188169|N|Land in the Target Area.|
 T How to Use Momentum with Your Dragon|QID|65133|M|57.47,59.10|Z|2022|N|To Celormu.|
 f Ruby Lifeshrine|QID|65133|M|57.68,66.91|Z|2022|
-A The Skytop Observatory|QID|68796|PRE|65133|M|57.68,66.91|Z|2022|
+A The Skytop Observatory|QID|68796|PRE|65133|M|57.68,66.91|Z|2022|N|From Lord Andestrasz.|
 C The Skytop Observatory|QID|68796|M|57.76,66.75|Z|2022|QO|1|CHAT|N|Speak with Celormu to start the race.|
-A To Skytop Observatory|QID|72089|PRE|65133|M|57.76,66.75|Z|2022|N|From Celormu.|
 C The Skytop Observatory|QID|68796|M|73.24,55.56|Z|2022|QO|2|NC|N|Race to the Skytop Observatory.|
 T The Skytop Observatory|QID|68796|M|75.17,54.97|Z|2022|N|To Lord Andestrasz.|
 A A New Set of Horns|QID|68797|PRE|68796|M|75.17,54.97|Z|2022|N|From Lord Andestrasz.|
@@ -251,7 +268,6 @@ C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celo
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
 T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
-A Training Wings|QID|70061|PRE|68799|M|62.18,70.56|Z|2022|N|From Amella.|
 C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|NC|N|Ruby Whelpling chosen.|
 C Training Wings|QID|70061|M|61.92,71.09|Z|2022|QO|4|N|Relentless Gust slain.|
 C Training Wings|QID|70061|M|61.77,72.40|Z|2022|QO|3|N|Intrusive Pupstinger slain.|

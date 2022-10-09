@@ -320,10 +320,12 @@ T Securing the Lines|QID|835|M|53.71,27.77;50.61,26.49;46.41,22.96|CC|N|To Rezla
 T Margoz|QID|828|M|51.25,16.49;56.36,20.04|CC|N|To Margoz.|
 A Skull Rock|QID|827|M|56.36,20.04|N|From Margoz.|PRE|828|
 C Skull Rock|QID|827|M|55.07,9.94|QO|1|N|Go inside the cave and kill Burning Blades to collect Searing collars.|
-C Hidden Enemies|QID|5726|QO|1|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenant's Insignia.|US|
+C Hidden Enemies|QID|5726|M|53.96,8.88|QO|1|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenant's Insignia.|US|
 T Skull Rock|QID|827|M|56.41,20.00|N|To Margoz.|
 A Neeru Fireblade|QID|829|M|56.41,20.00|N|From Margoz.|PRE|827|
 A Burning Shadows|QID|832|N|If you are lucky enough to get this item to drop for you, accept the quest from the Eye of Burning Shadow.|U|4903|O|
+H Razor Hill|ACTIVE|1525|N|Hearth back to Razor Hill|R|Orc,Troll|C|Shaman|
+l Reagent Pouch|QID|1525|M|54.11,40.74;54.18,38.35;52.83,28.74|CS|N|Kill Burning Blade Cultist in this cave till the reagent pouch drops.|L|6652|R|Orc,Troll|C|Shaman|
 
 R Orgrimmar|ACTIVE|5726|M|45.52,12.07|Z|Orgrimmar|N|Head back to Orgrimmar.|
 R Grommash Hold|ACTIVE|5726|M|40.38,37.00|Z|Orgrimmar|N|Make your way to Grommash Hold.|
@@ -346,6 +348,14 @@ R Far Watch Post|ACTIVE|809|M|37.58,16.21;36.04,23.69|CC|N|Make your way west to
 R Far Watch Post|ACTIVE|809|M|62.87,8.66;61.89,19.05|Z|The Barrens|CC|N|Cross the river to the road on the other side. Follow this road south to Far Watch Post.|
 T Path of Defense|QID|1498|M|61.38,21.09|Z|The Barrens|N|To Uzzek.|R|Orc,Troll|C|Warrior|
 A Thun'grim Firegaze|QID|1502|M|61.38,21.09|Z|The Barrens|N|From Uzzek.|R|Orc,Troll|C|Warrior|
+l Fire Tar|QID|1525|M|58.70,23.67|Z|The Barrens|N|Kill Razormane Geomancer till the Fire Tar drops.|L|5026|R|Orc,Troll|C|Shaman|
+R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|N|Follow the hidden path here upwards.|R|Orc,Troll|C|Shaman|
+T Call of Fire|QID|1525|M|38.52,58.92|N|To Telf Joolam.|R|Orc,Troll|C|Shaman|
+A Call of Fire|QID|1526|M|38.52,58.92|N|From Telf Joolam.|PRE|1525|R|Orc,Troll|C|Shaman|
+C Call of Fire|QID|1526|M|38.17,58.54|N|Use the Fire Sapta, kill the fire elemental and loot the Glowing Ember.|U|6636|L|6655|R|Orc,Troll|C|Shaman|
+T Call of Fire|QID|1526|M|38.91,58.23|N|Turn in to Brazier of the Dormant Flame.|R|Orc,Troll|C|Shaman|
+A Call of Fire|QID|1527|PRE|1526|M|38.91,58.23|N|From Brazier of the Dormant Flame.|R|Orc,Troll|C|Shaman|
+
 T Ak'Zeloth|QID|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
 A The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|From Ak'Zeloth.|PRE|809|
 A Flawed Power Stone|QID|926|ACTIVE|924|M|62.34,20.04|Z|The Barrens|L|4986 1|N|Pick up one of the stones from the table beside you. You have 30 minutes to complete the quest before the stone expires.\n\nThis quest becomes repeatable in case you lose the stone.|
