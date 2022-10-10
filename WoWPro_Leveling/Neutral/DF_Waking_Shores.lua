@@ -234,8 +234,6 @@ T Stay a While|QID|70132|M|57.82,66.85|Z|2022|N|To Veritistrasz.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|66115&68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
 C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|NC|N|Hop on your Renewed Proto-Drake mount (Optional).|
-
-
 C How to Glide with Your Dragon|QID|65118|M|57.48,61.28|Z|2022|QO|2|NC|N|Glide Through The Rings.|
 C How to Glide with Your Dragon|QID|65118|M|57.38,59.17|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Glide with Your Dragon|QID|65118|M|57.46,59.09|Z|2022|N|To Celormu.|
@@ -263,15 +261,17 @@ C Dragon Glyphs and You|QID|68798|M|74.22,58.07|Z|2022|QO|1|NC|N|Collect the Dra
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|2|CHAT|N|Speak to Lithragosa.|
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|3|NC|N|View the Dragonriding Skill Track with Lithragosa.|
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|4|NC|N|Learn the 'Redirection' Skill with Lithragosa.|
-A Waking Shores Rally|QID|66549|PRE|68797|M|73.33,52.27|Z|2022|N|From Bronze Timekeeper.|
 C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celormu.|
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
 T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
+C A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|Pick your callings from the table.|
+T A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|To Lifecaller Tzadrak.|
+A Nursery Direction|QID|66997|M|61.81,73.65|Z|2022|NC|N|From Vaeros.|RANK|2|
+A Garden Party|QID|70351|M|61.76,73.74|Z|2022|NC|N|From Akora.|RANK|2|
+A Hornstrider Havoc|QID|66879|M|61.81,73.65|Z|2022|NC|N|From Dazakros.|RANK|2|
 C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|NC|N|Ruby Whelpling chosen.|
-C Training Wings|QID|70061|M|61.92,71.09|Z|2022|QO|4|N|Relentless Gust slain.|
-C Training Wings|QID|70061|M|61.77,72.40|Z|2022|QO|3|N|Intrusive Pupstinger slain.|
-C Training Wings|QID|70061|M|61.29,71.51|Z|2022|QO|2|N|Agitated Weedling slain.|
+C Training Wings|QID|70061|M|61.92,71.09|Z|2022|N|Use button 1 to attack, button 2 to fly faster, button 3 to heal.|
 T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|
 A Who Brought the Ruckus?|QID|66931|PRE|70061|M|62.35,73.01|Z|2022|N|From Alexstrasza the Life-Binder.|
 C Who Brought the Ruckus?|QID|66931|M|59.49,72.73|Z|2022|QO|1|NC|N|Commotion discovered.|

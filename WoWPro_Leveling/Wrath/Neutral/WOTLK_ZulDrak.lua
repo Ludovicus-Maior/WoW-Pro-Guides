@@ -71,7 +71,7 @@ C Silver Lining|QID|12643|N|Around the Reliquary of Agony . Pick up the Drool fr
 T Silver Lining|QID|12643|N|Back to Ebon Watch.|M|14.12,73.79|
 A Suit Up!|QID|12649|O|PRE|12643|N|From Stefan Vadu.|
 C Suit Up!|QID|12649|O|N|Return to the Reliquary of Agony and use the choker. You cannot use while shapeshifted. Buy the plasma from Gristlegut.|U|38699|M|19.91,75.44|
-A Feedin' Da Goolz|QID|12652|M|19.9,75.5|N|From Gristlegut.|
+A Feedin' Da Goolz|QID|12652|M|19.9,75.5|N|From Gristlegut.|FACTION|Horde|
 C Feedin' Da Goolz|QID|12652|N|Use the bowl near the ghouls. Be careful of the Blightguards, they see through your disguise. You should hotkey the chocker because your diguise will fail at some point.|U|38701|
 T Feedin' Da Goolz|QID|12652|N|Back to Gristlegut.|M|19.9,75.5|U|38699|
 T Dressing Down|QID|12648|O|N|Back to Ebon Watch.|M|14.12,73.79|
@@ -90,9 +90,6 @@ K Prince Navarius|QID|12919|QO|4|M|29.8,65.4;32.4,63.6|CN|N|At one of these two 
 K Thrym|QID|12919|QO|3|N|He will spawn after killing the Prince. Snack on clouds and wait.|
 C The Storm King's Vengeance|QID|12919|QO|1|N|Finish killing scourge.|US|
 T The Storm King's Vengeance|QID|12919|N|Back to Crusader Forward Camp.|M|25.43,63.97|
-N Overlord Drakuru 1|QID|12661|N|Hotkey the disguise so you can reequip it when it fails. Close this step.|M|23.81,45.01|
-N Overlord Drakuru 2|QID|12661|N|Go to Reliquary of Pain, where you killed Algar the Chosen. Equip your disguise and port up to Voltarus from the center of the platform. Close this step.|U|38699|M|23.81,45.01|
-N Overlord Drakuru 3|QID|12661|N|Overlord Drakuru is up the ramp on the outer ring of the platform. Talk to him to get one of two quests depending on whether or not you did Grizzly Hills. Close this step.|M|27.12,46.10|
 A Dark Horizon|QID|12664|O|N|You got this because you didn't finish the Drakuru quest chain in Grizzly Hills.|M|27.1,46.2|
 C Dark Horizon|QID|12664|O|N|Circle around the platform until you find a ramp on the outer ring. Gorebag is up there. Enjoy the ride.|M|29.76,47.90|
 T Dark Horizon|QID|12664|O|M|27.1,46.2|N|To Overlord Drakuru.|
