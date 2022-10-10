@@ -37,7 +37,7 @@ A A Damp, Dark Place|QID|9788|M|80.32,64.16|N|From Ikeyen.|PRE|9747|
 t Plants of Zangarmarsh|QID|9802|M|80.32,64.16|N|To Lauranna Thar'well.|IZ|1126; Cenarion Refuge|
 A Saving the Sporeloks|QID|10096|M|80.32,64.16|N|From Lauranna Thar'well.|PRE|9747|
 A Safeguarding the Watchers|QID|9894|M|80.37,64.73|N|From Windcaller Blackhoof.|PRE|9747|
-T The Dying Balance|QID|9895|M|78.5,63.1|N|To Lethyn Moonfire.|
+T The Dying Balance|QID|9895|M|78.54,63.07|N|To Lethyn Moonfire.|
 T Escape from Umbrafen|QID|9752|M|78.40,62.02|N|To Ysiel Windsinger.|
 K Menacing Marshfangs|ACTIVE|9770|M|82.46,58.43;85.66,48.88|CS|N|They're around Swamprat Post\n[color=FF0000]NOTE: [/color]Head back towards the first waypoint if you're not finished yet.|
 C There's No Explanation for Fashion|QID|9769|M|78.54,81.74|L|24372 12|ITEM|24372|N|Any winged insect|US|
@@ -95,15 +95,15 @@ T Leader of the Darkcrest|QID|9730|M|79.10,65.26|N|To Warden Hamoot.|
 T Leader of the Bloodscale|QID|9817|M|79.10,65.26|N|To Warden Hamoot.|
 T Warning the Cenarion Circle|QID|9724|M|16.04,52.14|Z|Hellfire Peninsula|N|To Amythiel Mistwalker at Cenarion Post in Hellfire Peninsula.|
 A Return to the Marsh|QID|9732|PRE|9724|M|16.04,52.14|N|From Amythiel Mistwalker.|Z|Hellfire Peninsula|
-H Cenarion Refuge|QID|9730|N|Hearth to the Cenarion Refuge.|FLY|BC|
+H Cenarion Refuge|QID|9730|M|78.49,62.95|FLY|BC|
 T Return to the Marsh|QID|9732|M|78.40,62.02|N|To Ysiel Windsinger.|
-A Watcher Leesa'oh|QID|9697|M|78.5,63.1|N|From Lethyn Moonfire.|LEAD|9701|
+A Watcher Leesa'oh|QID|9697|M|78.54,63.07|N|From Lethyn Moonfire.|LEAD|9701|
 A Blessings of the Ancients|QID|9785|M|80.37,64.73|N|From Windcaller Blackhoof.|
 C Blessings of the Ancients|QID|9785|M|81.04,64.03|QO|1|N|To Ashyen.|CHAT|
 C Blessings of the Ancients|QID|9785|M|78.1,63.8|QO|2|N|To Kelethwho, who wanders around.|CHAT|
 T Blessings of the Ancients|QID|9785|M|80.37,64.73|N|To Windcaller Blackhoof.|
 K The Respect of Another|ACTIVE|9898|M|50,60|L|25448|N|Kill and loot Blacksting.|
-T Watcher Leesa'oh|QID|9697|M|23.33,66.23|N|She's southwest along the road.\n[color=FF0000]NOTE: [/color]She walks off after a different quest is handed in, so you may have to wait a bit.|
+T Watcher Leesa'oh|QID|9697|M|23.33,66.23|N|She's southwest along the road.\n[color=FF0000]NOTE: [/color]If she's not there and you don't see her wandering to the SE of her tent, she's dead and waiting to respawn.|
 A Observing the Sporelings|QID|9701|M|23.33,66.23|N|From Watcher Leesa'oh.|
 A The Sporelings' Plight|QID|9739|M|19.20,64.52;19.03,62.38|CC|N|From Fahssn.\n[color=FF0000]NOTE: [/color]Pathes between the 2 points|
 A Natural Enemies|QID|9743|M|19.20,64.52;19.03,62.38|CC|N|From Fahssn.|
@@ -206,20 +206,17 @@ K Overlord Gorefist|ACTIVE|9823|M|18.70,9.64;18.36,7.74|CC|QO|1|N|He's inside a 
 K Us or Them|ACTIVE|9823|M|19.25,7.62|QO|2;3|N|[color=FF0000]NOTE: [/color]The Souleaters are not inside the cave.|US|
 C Stealing Back the Mushrooms|QID|9709|M|17.16,8.39|L|24240 10|N|Located on the ground around the Stronghold, they spawn a Mauler when picked.\n[color=FF0000]NOTE: [/color]They also drop from the Ango'rosh mobs.|US|
 T Now That We're Friends...|QID|9726|M|19.55,50.04|N|To Gzhun'tt in Sporeggar.|
-A Now That We're Still Friends...|QID|9727|M|19.55,50.04|N|From Gzhun'tt.|PRE|9726|
-K Now That We're Still Friends...|ACTIVE|9727|M|26.55,41.02|QO|1;2|N|As long as you're not damaging them (DoT), the Slaves will run away once you've killed the Slavedriver.\nLook for Enchantresses that are alone or pullable; you'll prefer it.\n[color=FF0000]NOTE: [/color]Stay away from the Sentries; you'll regret it when they call EVERYONE around you.|
-T Now That We're Still Friends...|QID|9727|M|19.55,50.04|N|To Gzhun'tt in Sporeggar.|
-C The Sharpest Blades|QID|9842|M|33.91,59.49|L|24493 10|ITEM|24493|N|Marshfang Slicer|US|
 T Stealing Back the Mushrooms|QID|9709|M|23.33,66.23|N|To Watcher Leesa'oh.|
+C The Sharpest Blades|QID|9842|M|33.91,59.49|L|24493 10|ITEM|24493|N|Marshfang Slicer|US|
 T The Sharpest Blades|QID|9842|M|31.63,49.19|N|To Gambarinka.|
 T Us or Them|QID|9823|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 T Message to the Daggerfen|QID|10118|M|30.74,50.88|N|To Shadow Hunter Denjai.|
-A News for Rakoria|QID|10105|M|30.71,50.89|N|From Shadow Hunter Denjai. This leads into Terokkar Forest, accept if you want to go there next.|
-H Cenarion Refuge|QID|9720|U|6948|N|Run back if your hearth isn't up.|M|33.0,51.1|
-T Balance Must Be Preserved|QID|9720|M|78.40,62.02|N|To Ysiel Windsinger.|
-A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire. This leads into Terokkar Forest, accept if you want to go there next.|
-N Plant parts|QID|10118|N|Turn in any more plant parts you looted.|
-T Uncatalogued Species|QID|9875|M|80.32,64.16|N|To Lauranna Thar'well.|
-N This ends|N|Zangarmarsh. Visits your trainners and the AH if you wish. Close this step to continue on to Terokkar Forest.|
+A News for Rakoria|QID|10105|M|30.71,50.89|N|From Shadow Hunter Denjai.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
+H Cenarion Refuge|QID|9730|M|78.49,62.95|FLY|BC|
+T Balance Must Be Preserved|QID|9720|M|78.40,62.02|N|To Ysiel Windsinger in Cenarion Refuge.|
+A What's Wrong at Cenarion Thicket?|QID|9957|M|78.54,63.07|N|From Lethyn Moonfire.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|LEAD|9968|
+t Identify Plant Parts|QID|9784|M|80.32,64.16|N|To Lauranna Thar'well.|
+A Identify Plant Parts|AVAILABLE|9784|M|80.32,64.16|L|24401 -10|N|From Lauranna Thar'well.\n[color=FF0000]NOTE: [/color]This a repeatable quest that you can do to get some useful herbs before you leave.\nSkip this step if you want to move on.|NOCACHE|
+D This ends Zangarmarsh.|N|Visit your trainers and the AH if you wish.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue to Terokkar Forest.|
 ]]
 end)
