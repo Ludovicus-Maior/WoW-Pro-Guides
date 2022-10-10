@@ -157,41 +157,59 @@ T The Count of the Marshes|QID|9911|M|23.33,66.23|N|To Watcher Leesa'oh.|
 C A Spirit Ally?|ACTIVE|9847|M|44.5,66.1|QO|1|N|At the Boha'mu Ruins, go to the bottom of the stairs and use the totem to spawn the Serpent Spirit.|U|24498|NC|
 T A Spirit Ally?|QID|9847|M|32.4,52.0|N|To Seer Janidi.|
 K The Biggest of Them All|ACTIVE|9903|QO|1|M|42,42|N|Mragesh is just under the surface of Serpent Lake at the northeastern tip of the isle at .|
-C Stinging the Stingers|QID|9841|M|21.07,32.41|N|Kill Marshlight Bleeders.|S|
+K Stinging the Stingers|ACTIVE|9841|M|21.07,32.41|QO|1|S|
 C Have You Ever Seen One of These?|QID|9816|M|27,23|N|Use the cage at the flat rock. Hilarity ensues with dancing Baby Murlocs as Daggerfen go fleeing.|U|24470|
 C Wanted: Chieftain Mummaki|QID|10117|M|23.8,26.8|N|He's up the top of the main building. Kill and loot him.|
-C Impending Attack|QID|9822|M|19.9,27.1|N|Your end destination is Ango'rosh Grounds, and the tower. The attack plans are up the top.|
-C Pursuing Terrorclaw|QID|9904|M|23,45|N|He's on the southernmost isle of Marshlight Lake, around . You may want to clear the isle first, as he fears.|
-C Stinging the Stingers|QID|9841|M|21.07,32.41|N|Kill Marshlight Bleeders.|US|
-T Stinging the Stingers|QID|9841|M|31.63,49.19|N|To Gambarinka.|
-A The Sharpest Blades|QID|9842|PRE|9841|M|31.63,49.19|N|From Gambarinka.|
+C Impending Attack|QID|9822|M|19.9,27.1|L|24471|N|The Attack Plans are on the floor at the top of the tower in Ango'rosh Grounds.\n[color=FF0000]NOTE: [/color]They are protected by Captain Krosh and a guard that paths up and down the tower ramp.|
+C Pursuing Terrorclaw|QID|9904|M|22.30,45.86|QO|1|N|Terrorclaw is on the southernmost island in Marshlight Lake.\n[color=FF0000]NOTE: [/color]You may want to clear a spot first, as he fears.|
+K Stinging the Stingers|ACTIVE|9841|M|21.07,32.41|QO|1|US|
+T Stinging the Stingers|QID|9841|M|31.63,49.19|N|To Gambarinka in Zabra'jin.|
+A The Sharpest Blades|QID|9842|M|31.63,49.19|N|From Gambarinka.|PRE|9841|
 T Pursuing Terrorclaw|QID|9904|M|32.26,49.61|N|To Zurjaya.|
 T The Biggest of Them All|QID|9903|M|32.26,49.61|N|To Zurjaya.|
 T Have You Ever Seen One of These?|QID|9816|M|32.89,48.89|N|To Witch Doctor Tor'gash.|
-T WANTED: Chieftain Mummaki|QID|10117|M|30.74,50.88|N|To Shadow Hunter Denjai.|
+T Wanted: Chieftain Mummaki|QID|10117|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 T Impending Attack|QID|9822|M|30.74,50.88|N|To Shadow Hunter Denjai.|
-A Us or Them|QID|9823|PRE|9822|M|30.74,50.88|N|From Shadow Hunter Denjai.|
+A Us or Them|QID|9823|M|30.74,50.88|N|From Shadow Hunter Denjai.|PRE|9822|
 A Message to the Daggerfen|QID|10118|M|30.74,50.88|N|From Shadow Hunter Denjai.|
-N Sporeggar reputation|QID|9919|N|Go kill stuff in the Spawning Glade. We're aiming for 750/3000 neutral with Sporeggar. You subtract 750 rep for every 6 Bog Lord Tendrils or 10 Mature Spore Sacs. Once you've got this, head over to Fahssn and turn in everything you have to get to the required rep.|M|19,63|REP|Sporeggar;970;unfriendly|
-A Sporeggar|QID|9919|M|19.1,63.9|N|From Fahssn.|
-l Fertile Spores|QID|9806|L|24449 6|N|Kill Sporebats around this area until you have 6 Fertile Spores|
-T Sporeggar|QID|9919|M|19.7,52.1|N|To Msshi'fn.|
-A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. If you've accidently hit friendly with Sporeggar, this will not be there.|REP|Sporeggar;970;neutral|
-T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|
-A Fertile Spores|QID|9806|M|19.2,49.4|N|From Gshaff.|
-T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
-A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
-C Now That We're Friends...|QID|9726|S|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
-N Disable the Marshlight Lake Controls|QID|9720|QO|2|U|24355|N|Use the Ironvine Seeds on it.|M|25.62,42.87|
-C Now That We're Friends...|QID|9726|US|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
-C Message to the Daggerfen|QID|10118|N|Kill Daggerfen Assassins and Muckdwellers.|M|25.05,25.97|
-C Stealing Back the Mushrooms|QID|9709|S|N|They can be looted off actual boxes on the ground and as drops off of the ogres. Spawns a Mauler if you pick one off the ground.|M|17.3,10.2|
-C Us or Them|QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|S|
-K Overlord Gorefist|QID|9823|QO|1|N|Kill Overlord Gorefist.|M|18.3,7.8|
-C Us or Them|QID|9823|N|Kill Ango'rosh Maulers and Souleaters.|US|
-C Stealing Back the Mushrooms|QID|9709|US|N|They can be looted off actual boxes on the ground and as drops off of the ogres. Spawns a Mauler if you pick one off the ground.|M|17.3,10.2|
-T Now That We're Friends...|QID|9726|M|19.5,50.0|N|To Gzhun'tt.|
-C The Sharpest Blades|QID|9842|M|35.9,58.6|N|Kill and loot Marshfang Slicers.|
+N Reputation Monitoring|AVAILABLE|9744^9742|N|Open the Reputation Tab (<U>) and locate the Faction you want to track. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Some factions will only show in the list once there's been a change in your rep with them.\n\nResults may vary depending upon your UI layout and other Addons.\nManually check this step off to continue.|REP|Sporeggar;970;unfriendly|
+N Sporeggar Reputation|AVAILABLE|9744^9742|N|Remember that note at the beginning of this guide?\nYou need to be at least neutral with Sporeggar to get the next quest to show.\n[color=FF0000]NOTE: [/color]750 rep for every 6 [color=33fff9]Bog Lord Tendrils[/color] or 10 [color=33fff9]Mature Spore Sacs[/color]. You also gain 15 rep for every Bog Lord/Giant you kill.\nYou do the math and figure out what works best for you.\nManually check this step off to continue.|REP|Sporeggar;970;unfriendly|
+C The Sharpest Blades|QID|9842|M|19.60,68.51|L|24493 10|ITEM|24493|N|Marshfang Slicer|S|
+l Mature Spore Sacs|AVAILABLE|9742|M|14.17,60.63|L|24290 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around The Spawning Glen.|S!US|REP|Sporeggar;970;unfriendly;-750|
+l Bog Lord Tendrils|AVAILABLE|9744|M|14.01,61.52|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant\nBonus... you gain Sporeggar rep just for killing them.|REP|Sporeggar;970;unfriendly;-750|
+A More Tendrils!|AVAILABLE|9744|M|19.20,64.52;19.03,62.38|CC|L|24291 -5|N|Repeatable quest from Fahssn.\n[color=FF0000]NOTE: [/color]Repeat the quests as necessary.\nThis step will auto-complete when you've reached Neutral.|REP|Sporeggar;970;unfriendly|NOCACHE|
+t More Tendrils!|QID|9744|M|19.20,64.52;19.03,62.38|CC|N|To Fahssn.|REP|Sporeggar;970;unfriendly|
+A More Spore Sacs|AVAILABLE|9742|M|19.20,64.52;19.03,62.38|CC|L|24290 -9|N|Repeatable quest from Fahssn.\n[color=FF0000]NOTE: [/color]Repeat the quests as necessary.\nThis step will auto-complete when you've reached Neutral.|REP|Sporeggar;970;unfriendly|NOCACHE|
+t More Spore Sacs|QID|9742|M|19.20,64.52;19.03,62.38|CC|N|To Fahssn.|REP|Sporeggar;970;unfriendly|
+A Sporeggar|QID|9919|M|19.20,64.52;19.03,62.38|CC|N|From Fahssn.|REP|Sporeggar;970;neutral|
+C Fertile Spores|AVAILABLE|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat and Strider/Walker|
+T Sporeggar|QID|9919|M|19.68,52.07|N|To Msshi'fn.|
+A Glowcap Mushrooms|QID|9808|M|19.68,52.07|N|From Msshi'fn.|REP|Sporeggar;970;neutral|
+T Glowcap Mushrooms|QID|9808|M|19.68,52.07|N|To Msshi'fn.|
+A Fertile Spores|QID|9806|M|19.14,49.38|N|From Gshaff.|
+C Fertile Spores|ACTIVE|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat and Strider/Walker|
+T Fertile Spores|QID|9806|M|19.14,49.38|N|To Gshaff.|
+N Friendly Rep|AVAILABLE|9726|N|The next quest requires that you have a minimum Rep of Friendly with Sporeggar to accept it.\nYou now have the choice of doing any of the 3 repeatable rep quests (or all 3 of them if you so choose)\nThe Tendrils and Spore Sacs are your best bet to get this done quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|REP|Sporeggar;970;neutral|
+l Bog Lord Tendrils|AVAILABLE|9744|M|14.01,61.52|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant\nBonus... you gain Sporeggar rep just for killing them.|REP|Sporeggar;970;neutral|
+A More Tendrils!|AVAILABLE|9744|M|19.20,64.52;19.03,62.38|CC|L|24291 -5|N|Repeatable quest from Fahssn.\n[color=FF0000]NOTE: [/color]Repeat the quests as necessary.\nThis step will auto-complete when you've reached Neutral.|REP|Sporeggar;970;neutral|NOCACHE|
+t More Tendrils!|QID|9744|M|19.20,64.52;19.03,62.38|CC|N|To Fahssn.|REP|Sporeggar;970;neutral|
+A More Spore Sacs|AVAILABLE|9742|M|19.20,64.52;19.03,62.38|CC|L|24290 -9|N|Repeatable quest from Fahssn.\n[color=FF0000]NOTE: [/color]Repeat the quests as necessary.\nThis step will auto-complete when you've reached Neutral.|REP|Sporeggar;970;neutral|NOCACHE|
+t More Spore Sacs|QID|9742|M|19.20,64.52;19.03,62.38|CC|N|To Fahssn.|REP|Sporeggar;970;neutral|
+A Now That We're Friends...|QID|9726|M|19.55,50.04|N|From Gzhun'tt.|
+K Now That We're Friends...|ACTIVE|9726|M|26.55,41.02|QO|1;2|S|
+C Disable the Marshlight Lake Controls|QID|9720|M|25.62,42.87|QO|2|N|Kill the Steam Pump Overseer (if necessary) and use the seeds.|U|24355|NC|
+K Now That We're Friends...|ACTIVE|9726|M|26.55,41.02|QO|1;2|N|As long as you're not damaging them (DoT), the Slaves will run away once you've killed the Slavedriver.\nLook for Enchantresses that are alone or pullable; you'll prefer it.\n[color=FF0000]NOTE: [/color]Stay away from the Sentries; you'll regret it when they call EVERYONE around you.|US|
+K Message to the Daggerfen|ACTIVE|10118|M|24.65,22.60|QO|1;2|
+C Stealing Back the Mushrooms|QID|9709|M|17.16,8.39|L|24240 10|N|Located on the ground around the cave beneath the Stronghold, they spawn a Mauler when picked up.\n[color=FF0000]NOTE: [/color]They also drop from the Ango'rosh mobs.|S|
+K Us or Them|ACTIVE|9823|M|19.25,7.62|QO|2;3|N|[color=FF0000]NOTE: [/color]The Souleaters are not inside the cave.|S|
+K Overlord Gorefist|ACTIVE|9823|M|18.70,9.64;18.36,7.74|CC|QO|1|N|He's inside a building on top of the Stronghold, not inside the cave.|
+K Us or Them|ACTIVE|9823|M|19.25,7.62|QO|2;3|N|[color=FF0000]NOTE: [/color]The Souleaters are not inside the cave.|US|
+C Stealing Back the Mushrooms|QID|9709|M|17.16,8.39|L|24240 10|N|Located on the ground around the Stronghold, they spawn a Mauler when picked.\n[color=FF0000]NOTE: [/color]They also drop from the Ango'rosh mobs.|US|
+T Now That We're Friends...|QID|9726|M|19.55,50.04|N|To Gzhun'tt in Sporeggar.|
+A Now That We're Still Friends...|QID|9727|M|19.55,50.04|N|From Gzhun'tt.|PRE|9726|
+K Now That We're Still Friends...|ACTIVE|9727|M|26.55,41.02|QO|1;2|N|As long as you're not damaging them (DoT), the Slaves will run away once you've killed the Slavedriver.\nLook for Enchantresses that are alone or pullable; you'll prefer it.\n[color=FF0000]NOTE: [/color]Stay away from the Sentries; you'll regret it when they call EVERYONE around you.|
+T Now That We're Still Friends...|QID|9727|M|19.55,50.04|N|To Gzhun'tt in Sporeggar.|
+C The Sharpest Blades|QID|9842|M|33.91,59.49|L|24493 10|ITEM|24493|N|Marshfang Slicer|US|
 T Stealing Back the Mushrooms|QID|9709|M|23.33,66.23|N|To Watcher Leesa'oh.|
 T The Sharpest Blades|QID|9842|M|31.63,49.19|N|To Gambarinka.|
 T Us or Them|QID|9823|M|30.74,50.88|N|To Shadow Hunter Denjai.|
