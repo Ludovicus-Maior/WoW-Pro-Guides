@@ -246,7 +246,7 @@ A Shadow Vault Decree|QID|12943|PRE|12939|N|From Duke Lankral.|
 R Enter Urfang's Hall|M|39.04,23.98|CC|
 A Get the Key|QID|12949|N|Fight your way to the back of Urfang's Hall and get the Quest from Vaelen the Flayed.|M|41.05,23.88|
 C Shadow Vault Decree|QID|12943|U|41776|N|Stand right in front of Thane Urfang and use the Decree. He won't be too happy about what it reads, so you'll have to kill him afterwards.|M|40.20,23.80|
-C Get the Key|QID|12949|N|Kill Instructor Hroegar, he partrols among the fighters outside.|M|37.00,23.40|
+C Get the Key|QID|12949|N|Kill Instructor Hroegar, he partrols among the fighters outside.|M|37.00,23.40|T|Instructor Hroegar|
 T Get the Key|QID|12949|N|To Vaelen the Flayed in Urfang's Hall.|M|41.05,23.88|
 A Let the Baron Know|QID|12951|PRE|12949|N|From Vaelen the Flayed.|
 T Let the Baron Know|QID|12951|N|To Baron Sliver in front of the Shadow Vault.|M|42.86,25.00|
@@ -322,7 +322,7 @@ K Archbishop Landgren slain|QID|12847|QO|1|N|Enter the cathedral on the island a
 C Second Chances|QID|12847|U|40730|N|Use the item near the corpse of the Archbishop.|
 T Second Chances|QID|12847|N|To Lord-Commander Arete. If you wait for his dialogue with the Archbishop to finish, you can turn it in right here and don't have to fly back to Death's Rise.|M|09.50,47.10|
 A The Admiral Revealed|QID|12852|PRE|12847|N|Another 5-Man quest from Lord-Commander Arete.|
-C The Admiral Revealed|QID|12852|N|Enter The Hidden Hollow and find the Admiral deep within it. Kill him, use the Nullifier when he uses his Protection Sphere.|M|09.00,49.00;09.00,46.10|CS|
+C The Admiral Revealed|QID|12852|N|Enter The Hidden Hollow and find the Admiral deep within it. Kill him, use the Nullifier when he uses his Protection Sphere.|M|09.00,49.00;09.00,46.10|U|40917|CS|
 T The Admiral Revealed|QID|12852|N|To Lord-Commander Arete.|M|19.60,48.00|
 T Banshee's Revenge|QID|13142|N|To the Bone Witch.|M|32.40,42.80|
 A Battle at Valhalas|QID|13213|PRE|13142|N|From the Bone Witch.|
@@ -427,7 +427,7 @@ A Time for Answers|QID|13399|PRE|13398|N|From Matthias Lehner.|
 C Sindragosa's Fall|QID|13397|N|Kill the mobs you need for this quest.|US|
 T Vereth the Cunning|QID|13155|N|To Vereth the Cunning on the Rise of Suffering.|M|54.00,71.00|
 A New Recruit|QID|13143|PRE|13155|N|From Vereth the Cunning.|
-C New Recruit|QID|13143|N|Fly up to the ledge above and beat down a Lithe Stalker until a popup message tells it that it's weakened, then use the item on it. Lead it to this position and it'll jump off the cliff, completing the quest.|M|55.92,69.38|
+C New Recruit|QID|13143|N|Fly up to the ledge above and beat down a Lithe Stalker until a popup message tells it that it's weakened, then use the item on it. Lead it to this position and it'll jump off the cliff, completing the quest.|M|55.92,69.38|T|Lithe Stalker|U|43315|
 T New Recruit|QID|13143|N|To Vereth the Cunning.|M|54.00,71.00|
 A The Vile Hold|QID|13145|PRE|13143|N|From Vereth the Cunning.|
 R Malykriss: The Vile Hold|QID|13145|N|Use the Eye of Dominion just up the road behind Vereth the Cunning, then move the Lithe Stalker east to Malykriss.|M|55.46,73.76|

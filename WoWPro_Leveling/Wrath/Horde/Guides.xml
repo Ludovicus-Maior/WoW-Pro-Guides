@@ -20,8 +20,6 @@
 	<Script file="WOTLK_VAN_53_54_Burning_Steppes.lua"/>
 	<Script file="WOTLK_VAN_54_55_Felwood.lua"/>
 	<Script file="WOTLK_VAN_54_55_Winterspring.lua"/>
-	<Script file="WOTLK_VAN_55_56_Western_Plaguelands.lua"/>
-	<Script file="WOTLK_VAN_56_57_Eastern_Plaguelands.lua"/>
 	<Script file="WOTLK_Dragonblight.lua"/>
 	<Script file="WOTLK_Borean_Tundra.lua"/>
 	<Script file="WOTLK_Grizzly_Hills.lua"/>

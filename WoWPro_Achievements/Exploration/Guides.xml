@@ -8,4 +8,5 @@
     <Script file="Draenor.lua"/>
     <Script file="BrokenIsles.lua"/>
     <Script file="BattleForAzeroth.lua"/>
+	<Script file="Dragon_Riding_Glyphs.lua"/>
 </Ui>

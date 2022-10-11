@@ -164,8 +164,7 @@ A Relios the Relic Keeper|QID|27478|PRE|27476|M|47.04,43.20|N|From Dalar Dawnwea
 A Practical Vengeance|QID|27483|PRE|27476|M|47.11,43.26|N|From Dalar Dawnweaver.|
 r Sell junk, repair/restock.|QID|27342|M|44.81,39.73|N|At Nadia Vernon.|
 R Hillsbrad Foothills|QID|27480|M|47.18,43.32|N|Head into the portal behind Dalar Dawnweaver.|
-l Arcane Remnant|QID|27480|M|30.26,37.22|Z|Hillsbrad Foothills|N|Kill Arcane Remnants until the item Arcane Remnant drops.|L|61310|
-A Ley Energies|QID|27480|M|31.29,38.74|Z|Hillsbrad Foothills|N|Accept the quest from the Arcane Remnant.|U|61310|
+A Ley Energies|QID|27480|M|31.29,38.74|Z|Hillsbrad Foothills|N|Kill Arcane Remnants until the item Arcane Remnant drops. Then accept the quest from the UI popup.|U|61310|
 C Practical Vengeance|QID|27483|M|34.41,38.63|Z|Hillsbrad Foothills|N|Kill Dalaran Humans as you go along.|S|
 C Ley Energies|QID|27480|M|30.65,40.46|Z|Hillsbrad Foothills|N|Kill Arcane Remnants until you get 8 Arcane Remnants.|S|
 C Relios the Relic Keeper|QID|27478|M|31.96,44.48|Z|Hillsbrad Foothills|N|Find, kill and loot Relios the Relic Keeper. He wanders around a bit.|T|Relios the Relic Keeper|

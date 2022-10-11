@@ -9,13 +9,14 @@ return [[
 ;37, Elwynn Forest
 ;84, Stormwind City
 A Awaken, Dracthyr|QID|64864|M|PLAYER|Z|2109; The War Creche|N|Auto Accepted|
-C Awaken, Dracthyr|QID|64864|M|43.00,91.74|Z|2109; The War Creche|QO|1|NC|N|Dracthyr ally awakened.|
+C Awaken, Dracthyr|QID|64864|M|46.11,79.78|Z|2109; The War Creche|QO|1|NC|N|Dracthyr ally awakened.|
 C Awaken, Dracthyr|QID|64864|M|44.11,85.26|Z|2109; The War Creche|QO|3|NC|N|Tethalash awakened.|
 C Awaken, Dracthyr|QID|64864|M|47.84,80.73|Z|2109; The War Creche|QO|2|NC|N|Kethahn found.|
 C Awaken, Dracthyr|QID|64864|M|32.53,82.52|Z|2109; The War Creche|QO|4|NC|N|Azurathel awakened.|
 T Awaken, Dracthyr|QID|64864|M|32.94,81.85|Z|2109; The War Creche|N|To Scalecommander Azurathel.|
 A Gear Up|QID|64865|PRE|64864|M|32.78,81.75|Z|2109; The War Creche|N|From Scalecommander Azurathel.|
 A Arcane Guardians|QID|64863|PRE|64864|M|33.01,80.70|Z|2109; The War Creche|N|From Dervishian.|
+$ Mysterious Wand|M|38.12,74.54|Z|2109; The War Creche|N|Grab the crystal aginst the wall, put it in the brazier. Loot the wand off the table for a blue magic buff.|ITEM|376213|
 C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N|Guardians or Constructs slain.|S|
 C Gear Up|QID|64865|M|34.48,61.64|Z|2109; The War Creche|QO|3|NC|N|Bundle of Rations collected.|
 C Gear Up|QID|64865|M|38.84,51.90|Z|2109; The War Creche|QO|2|NC|N|Crate of Warscales.|
@@ -54,7 +55,7 @@ A Train Like We Fight|QID|65036|PRE|64873|M|44.70,57.78|Z|2118; The Forbidden Re
 C Train Like We Fight|QID|65036|M|44.70,57.97|Z|2118; The Forbidden Reach|QO|1|NC|U|195044|N|Practice Soar.|
 T Train Like We Fight|QID|65036|M|44.28,60.96|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
 A Caldera of the Menders|QID|65060|PRE|65036|M|44.28,60.96|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
-C Caldera of the Menders|QID|65060|M|36.60,32.72|Z|2118; The Forbidden Reach|QO|1|NC|N|Meet Cindrethresh at the Caldera of the Menders.|CHAT|
+C Caldera of the Menders|QID|65060|M|36.60,32.72|Z|2118; The Forbidden Reach|QO|1|N|Meet Cindrethresh at the Caldera of the Menders.|CHAT|
 T Caldera of the Menders|QID|65060|M|18.90,16.02|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.|
 A Into the Hive|QID|65063|PRE|65060|M|18.90,16.02|Z|2118; The Forbidden Reach|N|From Scalecommander Cindrethresh.|
 C Into the Hive|QID|65063|M|50.07,50.29|Z|2110|QO|1|NC|N|Follow Cindrethresh.|

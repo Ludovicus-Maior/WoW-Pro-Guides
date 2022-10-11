@@ -7,7 +7,7 @@ WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Silverpine_Forest')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Welcome!|QID|4641|N|If you find a problem, please report it on Discord in #tbc-bug-reports. Enjoy and thanks!|
+N Welcome!|QID|4641|N|If you find a problem, please report it on Discord in #open-a-ticket. Enjoy and thanks!|
 A Your Place In The World|QID|4641|M|43.29,68.57|N|From Kaltunk.|LEAD|788|
 T Your Place In The World|QID|4641|M|42.06,68.33|N|To Gornek.|
 A Cutting Teeth|QID|788|M|42.06,68.33|N|From Gornek.|
@@ -73,8 +73,8 @@ A Lazy Peons|QID|5441|M|44.62,68.65|N|From Foreman Thazz'ril.|
 C Lazy Peons|QID|5441|N|Target sleeping Lazy Peons and use the Foreman's Blackjack on them. Look for the piles of wood logs.|T|Lazy Peon|U|16114|S|NC|
 C Call of Earth|QID|1516|N|Kill Felstalkers to loot their hooves.\nYou'll find them inside the cave.|R|Orc,Troll|C|Shaman|S|
 K Vile Familiars|QID|792|M|45.17,57.12|QO|1|N|Kill Vile Familiars in front of the cave.|
-C Call of Earth|QID|1516|N|Continue killing Felstalkers until you are done.|R|Orc,Troll|C|Shaman|US|
-C Lazy Peons|QID|5441|N|Finish waking the Lazy Peons.|T|Lazy Peon|U|16114|US|NC|
+C Call of Earth|QID|1516|M|45.35,55.98|N|Continue killing Felstalkers until you are done.|R|Orc,Troll|C|Shaman|US|
+C Lazy Peons|QID|5441|M|43.87,57.86|N|Finish waking the Lazy Peons.|T|Lazy Peon|U|16114|US|NC|
 T Lazy Peons|QID|5441|M|44.62,68.65|N|To Foreman Thazz'ril.|
 A Thazz'ril's Pick|QID|6394|M|44.62,68.65|N|From Foreman Thazz'ril.|PRE|5441|
 T Vile Familiars|QID|792|M|42.85,69.15|N|To Zureetha Fargaze.|C|-Warlock|
@@ -228,7 +228,7 @@ A Call of Fire|QID|2983|M|54.42,42.59|N|From Swart.|R|Orc,Troll|C|Shaman|
 
 A Conscript of the Horde|QID|840|M|50.85,43.59|N|From Takrin Pathseeker.|
 A Need for a Cure|QID|812|M|41.53,18.62|L|-4904|N|From Rhinag at Rocktusk Farm. Follow the road north out of Razor Hill or go cross country for some grinding.\n\n[color=FF0000]NOTE: [/color]This quest is on a 45 min timer. The exp/min is low for this quest. You can skip this quest if you so choose.|RANK|3|
-R Orgrimmar|ACTIVE|-812&831|M|45.51,12.06|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
+R Orgrimmar|ACTIVE|-812&831|M|42.12,15.07|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
 R Orgrimmar|ACTIVE|812|AVAILABLE|813|M|45.51,12.06|QO|1|N|Make your way northeast to the gates of Orgrimmar.|
 R Grommash Hold|ACTIVE|831|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;40.30,36.94|Z|Orgrimmar|CC|N|As you enter Orgrimmar, continue straight until you reach the Drag. Enter the Drag and follow the road until you reach Grommash Hold.\n[color=FF0000]NOTE: [/color]There are multiple routes, but this is the fastest one I've found.|
 T The Admiral's Orders|QID|831|M|34.29,36.40|Z|Orgrimmar|N|To Vol'jin inside the 2nd room of Grommash Hold.|
@@ -278,8 +278,8 @@ R Orgrimmar|ACTIVE|813|M|45.52,12.07|N|Head back to Orgrimmar.|
 R Cleft of Shadow|ACTIVE|813|M|47.24,53.58;51.75,57.85;56.03,41.16;59.91,49.37;51.26,46.39|Z|Orgrimmar|CC|
 T Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. If you lose the antidote, this quest is repeatable.|
 R Leave Orgrimmar|ACTIVE|812|M|56.73,41.96;49.44,60.35;52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|IZ|1454|
-A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|FAIL|
-T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
+A Need for a Cure|QID|812|M|42.12,15.07|N|From Rhinag.|FAIL|
+T Need for a Cure|QID|812|M|42.12,15.07|N|To Rhinag.|
 
 C Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.\n[color=FF0000]NOTE: [/color]Depending on your luck, this quest may become a bit of a grind to complete.|
 T Conscript of the Horde|QID|840|M|62.27,19.37|Z|The Barrens|N|To Kargal Battlescar at Far Watch Post, Barrens. It's just on the other side of the Southfury Bridge.|
@@ -320,10 +320,12 @@ T Securing the Lines|QID|835|M|53.71,27.77;50.61,26.49;46.41,22.96|CC|N|To Rezla
 T Margoz|QID|828|M|51.25,16.49;56.36,20.04|CC|N|To Margoz.|
 A Skull Rock|QID|827|M|56.36,20.04|N|From Margoz.|PRE|828|
 C Skull Rock|QID|827|M|55.07,9.94|QO|1|N|Go inside the cave and kill Burning Blades to collect Searing collars.|
-C Hidden Enemies|QID|5726|QO|1|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenant's Insignia.|US|
+C Hidden Enemies|QID|5726|M|53.96,8.88|QO|1|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenant's Insignia.|US|
 T Skull Rock|QID|827|M|56.41,20.00|N|To Margoz.|
 A Neeru Fireblade|QID|829|M|56.41,20.00|N|From Margoz.|PRE|827|
 A Burning Shadows|QID|832|N|If you are lucky enough to get this item to drop for you, accept the quest from the Eye of Burning Shadow.|U|4903|O|
+H Razor Hill|ACTIVE|1525|N|Hearth back to Razor Hill|R|Orc,Troll|C|Shaman|
+l Reagent Pouch|QID|1525|M|54.11,40.74;54.18,38.35;52.83,28.74|CS|N|Kill Burning Blade Cultist in this cave till the reagent pouch drops.|L|6652|R|Orc,Troll|C|Shaman|
 
 R Orgrimmar|ACTIVE|5726|M|45.52,12.07|Z|Orgrimmar|N|Head back to Orgrimmar.|
 R Grommash Hold|ACTIVE|5726|M|40.38,37.00|Z|Orgrimmar|N|Make your way to Grommash Hold.|
@@ -346,6 +348,14 @@ R Far Watch Post|ACTIVE|809|M|37.58,16.21;36.04,23.69|CC|N|Make your way west to
 R Far Watch Post|ACTIVE|809|M|62.87,8.66;61.89,19.05|Z|The Barrens|CC|N|Cross the river to the road on the other side. Follow this road south to Far Watch Post.|
 T Path of Defense|QID|1498|M|61.38,21.09|Z|The Barrens|N|To Uzzek.|R|Orc,Troll|C|Warrior|
 A Thun'grim Firegaze|QID|1502|M|61.38,21.09|Z|The Barrens|N|From Uzzek.|R|Orc,Troll|C|Warrior|
+l Fire Tar|QID|1525|M|58.70,23.67|Z|The Barrens|N|Kill Razormane Geomancer till the Fire Tar drops.|L|5026|R|Orc,Troll|C|Shaman|
+R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|N|Follow the hidden path here upwards.|R|Orc,Troll|C|Shaman|
+T Call of Fire|QID|1525|M|38.52,58.92|N|To Telf Joolam.|R|Orc,Troll|C|Shaman|
+A Call of Fire|QID|1526|M|38.52,58.92|N|From Telf Joolam.|PRE|1525|R|Orc,Troll|C|Shaman|
+C Call of Fire|QID|1526|M|38.17,58.54|N|Use the Fire Sapta, kill the fire elemental and loot the Glowing Ember.|U|6636|L|6655|R|Orc,Troll|C|Shaman|
+T Call of Fire|QID|1526|M|38.91,58.23|N|Turn in to Brazier of the Dormant Flame.|R|Orc,Troll|C|Shaman|
+A Call of Fire|QID|1527|PRE|1526|M|38.91,58.23|N|From Brazier of the Dormant Flame.|R|Orc,Troll|C|Shaman|
+
 T Ak'Zeloth|QID|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
 A The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|From Ak'Zeloth.|PRE|809|
 A Flawed Power Stone|QID|926|ACTIVE|924|M|62.34,20.04|Z|The Barrens|L|4986 1|N|Pick up one of the stones from the table beside you. You have 30 minutes to complete the quest before the stone expires.\n\nThis quest becomes repeatable in case you lose the stone.|

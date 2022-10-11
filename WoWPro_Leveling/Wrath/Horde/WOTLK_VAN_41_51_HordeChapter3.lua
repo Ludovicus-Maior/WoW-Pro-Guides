@@ -453,8 +453,11 @@ T Return to Witch Doctor Uzer'i|QID|3122|M|74.42,43.36|Z|1444|N|To Witch Doctor 
 A Testing the Vessel|QID|3123|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]There is a brief interlude before he offers this quest.|PRE|3122|
 A Natural Materials|QID|3128|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3122|
 R Woodpaw Hills|ACTIVE|2862|M|71.3,49.0;70.45,49.82|CC|Z|1444|N|Exit Camp Mojache from the west and follow the road a short distance.|
+C Testing the Vessel|QID|3123|L|9594 10|N|Kill Ironfur Bears or Longtooth Runners and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|S|
 C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|1444|L|9237 10|ITEM|9237|N|Any Woodpaw Gnoll|
 R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|1444|
+C Testing the Vessel|QID|3123|M|38.82,45.21|Z|1425|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|US|
+T Testing the Vessel|QID|3123|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
 T War on the Woodpaw|QID|2862|M|74.91,42.46|Z|1444|N|To Hadoken Swiftstrider.|
 A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|From Hadoken Swiftstrider.\n[color=FF0000]NOTE: [/color]This is a 1 hr timed quest.|PRE|2862| ; == Hendo72 - The '.' is to break auto-accept.
 A Alpha Strike.|QID|2863|M|74.91,42.46|Z|1444|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Hadoken Swiftstrider to restart the quest.\n[color=FF0000]NOTE: [/color]This is a 1 hr timed quest.|PRE|2862|FAIL| ; == Hendo72 - The '.' is to break auto-accept.
@@ -628,7 +631,6 @@ T Ripple Recovery|QID|650|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
 A A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|From Gilveradin Sunchaser.|PRE|650|
 C Resilient Sinew|QID|3128|L|9591 20|ITEM|9591|N|Any Owlbeast|S|
 C Metallic Fragments|QID|3128|L|9592 40|ITEM|9592|N|Any Owlbeast|S|
-C Testing the Vessel|QID|3123|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|S|
 R Quel'Danil Lodge|AVAILABLE|7815|M|31.91,51.93|Z|1425|N|Head back down and follow the hill eastward until you see the road.|IZ|-The Overlook Cliffs^-Revantusk Village|
 R Hiri'watha|AVAILABLE|7815|M|33.31,54.60|Z|1425|N|From here, head south over the hill to the road.|IZ|-The Overlook Cliffs;-Revantusk Village|
 R Agol'watha|AVAILABLE|7815|M|47.74,45.28|Z|1425|N|Follow the road east from the fork to the next fork.|IZ|-The Overlook Cliffs;-Revantusk Village|
@@ -676,7 +678,6 @@ R The Altar of Zul|ACTIVE|7844|M|44.18,62.43|Z|1425|
 K Cannibalistic Cousins|ACTIVE|7844|M|47.10,65.71|Z|1425|QO|1;2|N|Kill the required Vilebranch trolls.|US|
 R Valorwind Lake|ACTIVE|2641|M|42.22,61.38|Z|1425|QO|1|
 C Sprinkle's Secret Ingredient|QID|2641|M|40.04,59.87|Z|1425|L|8526|N|Dive to the bottom of the lake and locate the "Violet Tragan".\n[color=FF0000]NOTE: [/color]You can only loot one at a time; make sure you don't eat it.|
-C Testing the Vessel|QID|3123|M|38.82,45.21|Z|1425|L|9594 10|N|Kill Owlbeasts and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|US|
 K Silvermane Howler|ACTIVE|7828|M|45.40,54.60|Z|1425|QO|2|N|Finish killing the Howlers.|US|
 R Shindigger's Camp|ACTIVE|77|M|20.2,48.3;25.05,46.96|CS|Z|1425|
 T A Sticky Situation|QID|77|M|26.71,48.60|Z|1425|N|To Gilveradin Sunchaser.|
@@ -758,9 +759,8 @@ T Insect Part Analysis|QID|113|M|50.21,27.48|Z|1446|N|To Senior Surveyor Fizzled
 A Rise of the Silithid|QID|32|M|50.21,27.48|Z|1446|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 ; -- Feralas
-F Camp Mojache|ACTIVE|3123|M|51.60,25.44|Z|1446|
-h Camp Mojache|ACTIVE|3123|M|74.81,45.19|Z|1444|N|At Innkeeper Greul.|
-T Testing the Vessel|QID|3123|M|74.42,43.36|Z|1444|N|To Witch Doctor Uzer'i.|
+F Camp Mojache|AVAILABLE|3124|M|51.60,25.44|Z|1446|
+h Camp Mojache|AVAILABLE|3124|M|74.81,45.19|Z|1444|N|At Innkeeper Greul.|
 A Hippogryph Muisek|QID|3124|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3123|
 R Verdantis River|ACTIVE|2928^3124|M|63.76,51.09|Z|1444|N|Follow the road west out Camp Mojache to the Bridge over the river.|
 R High Wilderness|ACTIVE|2928^3124|M|58.38,52.84|Z|1444|N|Continue west along the road.|

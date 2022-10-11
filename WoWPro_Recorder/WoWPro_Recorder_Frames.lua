@@ -1227,7 +1227,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             local infoTable = {}
                             for GID, guideInfo in pairs(WoWPro.Guides) do
 								if WoWPro.Recorder.Advanced then
-									infoTable[GID] = GID .." "..guideInfo.zone.." by "..guideInfo.author
+									infoTable[GID] = GID .." "..tostring(guideInfo.zone).." by "..guideInfo.author
 									if WoWPro_RecorderDB[GID] then
 										infoTable[GID] = "!" .. infoTable[GID]
 									end

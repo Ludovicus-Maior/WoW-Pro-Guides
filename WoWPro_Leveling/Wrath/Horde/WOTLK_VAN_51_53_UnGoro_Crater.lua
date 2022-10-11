@@ -24,7 +24,7 @@ A The Scent of Lar'korwi|QID|4291|M|71.63,75.95|Z|Un'Goro Crater|N|From Torwa Pa
 C The Scent of Lar'korwi|QID|4291|M|60.00,72.00;62,65;63,77;67,73;67,67;58,78;70,61|CN|Z|Un'Goro Crater|L|11509 2|ITEM|11509|N|Lar'korwi's Mate\nFind an egg nest and after clearing the area around it, stand on the it to spawn Lar'korwi's mate and kill it.\n[color=FF0000]NOTE: [/color]\nThere's a CD timer on the nests and you have to move to a new one after each attempt.|
 T The Scent of Lar'korwi|QID|4291|M|71.63,75.95|Z|Un'Goro Crater|N|To Torwa Pathfinder.|
 A The Bait for Lar'korwi|QID|4292|M|71.63,75.95|Z|Un'Goro Crater|N|From Torwa Pathfinder.|PRE|4291|
-C Un'Goro Slime Sample|QID|4294|L|12235 30|ITEM|12235|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 15 of them.|S|
+C Un'Goro Slime Sample|QID|4294|L|12235 15|ITEM|12235|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 15 of them.|S|
 C Super Sticky Tar|QID|4504|M|49.70,21.86|Z|Un'Goro Crater|L|11834 12|ITEM|11834|N|Tar mobs around the Tar Pits|S|
 A Chasing A-Me 01|QID|4243|M|46.38,13.44|Z|Un'Goro Crater|N|From Karna Remtravel, near the entrance to Marshal's Refuge.|
 A Larion and Muigin|QID|4145|M|45.55,8.72|Z|Un'Goro Crater|N|From Larion, behind the hill along the east cliff wall.|
@@ -80,7 +80,7 @@ T Finding the Source|QID|974|M|30.90,50.40|Z|Un'Goro Crater|N|To Krakle, over at
 A The New Springs|QID|980|M|30.90,50.40|Z|Un'Goro Crater|N|From Krakle.|PRE|974|
 C Dinosaur Bone|ACTIVE|3882|M|34.53,71.71|Z|Un'Goro Crater|L|11114 8|ITEM|11114|N|Diemetradons and Stegodons.\n[color=FF0000]NOTE: [/color]They can also be found on the ground (which is a lot easier)m.\nThe Stegodons are Elites.|US|
 K Bloodpetal Trapper|ACTIVE|4145|M|33.53,42.37|Z|Un'Goro Crater|QO|2|N|Kill Bloodpetal Trappers as you find them.|US|
-C Un'Goro Slime Sample|QID|4294|M|34.33,30.24|Z|Un'Goro Crater|L|12235 30|ITEM|12235|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 15 of them.|US|
+C Un'Goro Slime Sample|QID|4294|M|34.33,30.24|Z|Un'Goro Crater|L|12235 15|ITEM|12235|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 15 of them.|US|
 R Marshal's Refuge|ACTIVE|3882|M|45.88,13.39|Z|Un'Goro Crater|TAXI|Cenarion Hold|
 R Silithus|ACTIVE|3882|M|29.3,22.4;29.13,10.26|CS|Z|Un'Goro Crater|N|Take the path in the northwest corner up and out of Un'Goro.\n[color=FF0000]NOTE: [/color]We're going to get the Silithus FP before we leave.|TAXI|-Cenarion Hold|
 R Silithus|ACTIVE|3882|M|86.21,11.60|Z|Silithus|N|Continue up the path and out of Un'Goro.|TAXI|-Cenarion Hold|
