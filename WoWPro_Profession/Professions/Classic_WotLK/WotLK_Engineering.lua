@@ -220,7 +220,7 @@ M [item=39682/Overcharged Capacitor]|QID|202056464|P|Engineering;202;0+386|L|396
 ; double lines above, in case they dont make enough, the line should still pop up.  (NOT tested)  if this doesn't work remove the lines at have engineering 0+376 in them. they are also marked  ; remove
 = Learn Recipe|QID|202003851|P|Engineering;202;0+385|RECIPE|56463|N|Learn [spell=56463/Explosive Decoy] Recipe from Trainer.|
 M [item=40536/Explosive Decoy]|QID|202056463|P|Engineering;202;0+390;1|ITEM|40536|CRAFT|56463 7|MATS|33470 1;39690 3|N|Only make enough to clear the step!|
-= Learn Recipe|QID|202003901|P|Engineering;202;0+390|RECIPE|56471|N|Learn [spell=56474/Froststeel Tube] Recipe from Trainer.|
+= Learn Recipe|QID|202003901|P|Engineering;202;0+390|RECIPE|56471|N|Learn [spell=56471/Froststeel Tube] Recipe from Trainer.|
 M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;0+400;1|ITEM|39683|CRAFT|56471 15|MATS|36916 8;37705 1|N|You will need 15 of these in a later step.|
 M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;0+400|ITEM|39683|L|39683 15|CRAFT|56471 15|MATS|36916 8;37705 1|N|You'll need 15 in later steps.|
 N Goblin Engineering|QID|202056514|P|Engineering;202;0+396|N|Not SURE if we can test if you have Goblin Engineering, so if a different craft is possible, both will be listed. Just right - click off the one you can not do.|
