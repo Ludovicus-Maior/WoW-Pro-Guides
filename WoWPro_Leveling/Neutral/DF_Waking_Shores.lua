@@ -4,41 +4,41 @@ WoWPro:GuideLevels(guide,60, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
-A The Dragon Isles Await|QID|65436|M|PLAYER|Z|85|N|From UI Alert.|FACTION|Alliance|
+A The Dragon Isles Await|QID|65436|M|PLAYER|Z|84|N|From UI Alert.|FACTION|Alliance|
 A The Dragon Isles Await|QID|65435|M|PLAYER|Z|85|N|From UI Alert.|FACTION|Horde|
-T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|85|N|To Wrathion.|FACTION|Alliance|
+T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84|N|To Wrathion.|FACTION|Alliance|
 T The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85|N|To Ebyssian.|FACTION|Horde|
-A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|85|N|From Wrathion.|FACTION|Alliance|
+A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84|N|From Wrathion.|FACTION|Alliance|
 A Aspectral Invitation|QID|65437|PRE|65435|M|44.22,38.11|Z|85|N|From Ebyssian.|FACTION|Horde|
-C Aspectral Invitation|QID|66577|M|79.79,27.00|Z|85|QO|1|CHAT|N|Speak with Wrathion.|FACTION|Alliance|
+C Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|QO|1|CHAT|N|Speak with Wrathion.|FACTION|Alliance|
 C Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85|QO|1|CHAT|N|Speak with Ebyssian.|FACTION|Horde|
-T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|85|N|To Wrathion.|FACTION|Alliance|
+T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|N|To Wrathion.|FACTION|Alliance|
 T Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85|N|To Ebyssian.|FACTION|Horde|
-A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|85|N|From Scalecommander Azurathel.|FACTION|Alliance|
+A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A The Dark Talons|QID|72256|PRE|65437|M|44.27,38.21|Z|85|N|From Scalecommander Cinderthresh.|FACTION|Horde|
-A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|85|N|From Toddy Whiskers.|FACTION|Alliance|
+A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
 A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85|N|From Naleidea Rivergleam.|FACTION|Horde|
-C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|85|QO|1|CHAT|N|Artisans recruited.|FACTION|Alliance|
+C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|84|QO|1|CHAT|N|Artisans recruited.|FACTION|Alliance|
 C Expeditionary Coordination|QID|65443|M|57.18,54.14|Z|85|QO|1|CHAT|N|Artisans recruited.|FACTION|Horde|
-C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|85|QO|1|CHAT|N|Orders delivered to Dervishian.|FACTION|Alliance|
+C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|84|QO|1|CHAT|N|Orders delivered to Dervishian.|FACTION|Alliance|
 C The Dark Talons|QID|72256|M|55.08,89.86|Z|85|QO|1|CHAT|N|Orders delivered to Kodethi.|FACTION|Horde|
-C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|85|QO|3|CHAT|N|Scholars recruited.|FACTION|Alliance|
+C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|84|QO|3|CHAT|N|Scholars recruited.|FACTION|Alliance|
 C Expeditionary Coordination|QID|65443|M|71.24,50.66|Z|85|QO|3|CHAT|N|Scholars recruited.|FACTION|Horde|
-C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|85|QO|2|CHAT|N|Explorers recruited.|FACTION|Alliance|
+C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|84|QO|2|CHAT|N|Explorers recruited.|FACTION|Alliance|
 C Expeditionary Coordination|QID|65443|M|38.42,57.02|Z|85|QO|2|CHAT|N|Explorers recruited.|FACTION|Horde|
-T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|85|N|To Toddy Whiskers.|FACTION|Alliance|
+T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
 T Expeditionary Coordination|QID|65443|M|55.80,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
-T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|85|N|To Toddy Whiskers.|FACTION|Alliance|
+T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
 T The Dark Talons|QID|72256|M|55.80,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
-A Whispers on the Winds|QID|66596|PRE|66589&72240|M|22.86,56.25|Z|85|N|From Archmage Khadgar.|FACTION|Alliance|
+A Whispers on the Winds|QID|66596|PRE|66589&72240|M|22.86,56.25|Z|84|N|From Archmage Khadgar.|FACTION|Alliance|
 A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.80,12.63|Z|1|N|From Archmage Khadgar.|FACTION|Horde|
-C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|85|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
+C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|84|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
 C Whispers on the Winds|QID|65439|M|55.80,12.63|Z|1|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
-T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|85|N|To Wrathion.|FACTION|Alliance|
+T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84|N|To Wrathion.|FACTION|Alliance|
 T Whispers on the Winds|QID|65439|M|55.80,12.63|Z|1|N|To Ebyssian.|FACTION|Horde|
-A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|85|N|From Toddy Whiskers.|FACTION|Alliance|
+A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
 A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
-C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|85|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
+C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|84|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
 C To the Dragon Isles!|QID|65444|M|22.49,56.45|Z|1|QO|1|NC|N|Wait for the Defiant Dragonscale at Stormwind docks.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
 C To the Dragon Isles!|QID|65444|M|80.83,27.67|Z|2022|QO|2|NC|N|Ride the Defiant Dragonscale to Dragon Isles.|FACTION|Horde|
@@ -117,8 +117,6 @@ A The Djaradin Have Awoken|QID|69914|PRE|69912|M|76.22,34.51|Z|2022|N|From Major
 C The Djaradin Have Awoken|QID|69914|M|76.27,34.53|Z|2022|QO|1|CHAT|N|Orders received from Majordomo Selistra.|
 T The Djaradin Have Awoken|QID|69914|M|76.27,34.40|Z|2022|N|To Sendrax.|
 
-;This is where Cagomie left off testing between alliance and Horde.
-
 A Reporting for Duty|QID|65760|PRE|69914|M|76.27,34.40|Z|2022|N|From Sendrax.|
 C Reporting for Duty|QID|65760|M|76.27,34.40|Z|2022|QO|1|CHAT|N|Ask Sendrax to lead you to the outpost.|
 C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|Follow Sendrax to the outpost.|
@@ -126,7 +124,10 @@ T Reporting for Duty|QID|65760|M|71.21,40.75|Z|2022|N|To Commander Lethanak.|
 A Invader Djaradin|QID|65989|PRE|65760|M|71.21,40.75|Z|2022|N|From Commander Lethanak.|
 A Deliver Whelps From Evil|QID|65990|PRE|65760|M|71.21,40.75|Z|2022|N|From Commander Lethanak.|
 C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|QO|1|N|Djaradin slain.|S|
-C Deliver Whelps From Evil|QID|65990|M|69.35,43.45|Z|2022|QO|1|NC|N|Whimpering Whelplings saved.|
+C Deliver Whelps From Evil|QID|65990|M|69.35,43.45|Z|2022|QO|1<1|NC|N|Whimpering Whelplings saved.|
+C Deliver Whelps From Evil|QID|65990|M|69.87,45.25|Z|2022|QO|1<2|NC|N|Whimpering Whelplings saved.|
+C Deliver Whelps From Evil|QID|65990|M|70.98,46.65|Z|2022|QO|1<3|NC|N|Whimpering Whelplings saved.|
+C Deliver Whelps From Evil|QID|65990|M|71.38,44.70|Z|2022|QO|1<4|NC|N|Whimpering Whelplings saved.|
 C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|QO|1|N|Djaradin slain.|US|
 T Invader Djaradin|QID|65989|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
 T Deliver Whelps From Evil|QID|65990|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
@@ -161,12 +162,14 @@ C A Quack For Help|QID|66196|M|74.72,42.21|Z|2022|QO|1|NC|N|Bubbled Duckling bro
 T Don't Be So Shellfish|QID|66106|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Quack For Help|QID|66196|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Sledgehammer of a Solution|QID|66108|M|74.41,42.14|Z|2022|N|To Ecologist Iskha.|
-; Cant seem to make this work. Need help.
-;A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|IZ|13723|
+A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
+C Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Murder all the doods around this area.|S!US|
 C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|QO|1|NC|N|Wrathion met at Scalecracker Keep.|
 T Time for a Reckoning|QID|65991|M|66.36,34.99|Z|2022|N|To Wrathion.|
 A Killjoy|QID|65993|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 A Blacktalon Intel|QID|65992|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
+A Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Bonus Objective - Autoaccepted.|
+C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Dragonhunter Igordan slain.|S!US|
 C Killjoy|QID|65993|M|63.22,29.66|Z|2022|QO|1|N|Meatgrinder Sotok slain.|S|
 C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Talonstalker Kavia consulted.|
 C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Right consulted.|
@@ -176,11 +179,13 @@ T Killjoy|QID|65993|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T Blacktalon Intel|QID|65992|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T The Obsidian Citadel|QID|65995|M|62.65,33.19|Z|2022|N|To Wrathion.|
 A Veteran Reinforcements|QID|65996|PRE|65993&65992&65995|M|62.77,33.10|Z|2022|N|From Majordomo Selistra.|
-C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|U|193917|N|Injured drakonids healed.|S|
+C Veteran Reinforcements|QID|65996|M|60.99,35.76|Z|2022|QO|1<1|NC|U|193917|N|Injured drakonids healed.|
+C Veteran Reinforcements|QID|65996|M|61.10,36.69|Z|2022|QO|1<2|NC|U|193917|N|Injured drakonids healed.|
+C Veteran Reinforcements|QID|65996|M|59.10,34.86|Z|2022|QO|1<3|NC|U|193917|N|Injured drakonids healed.|
 A Fighting Fire with... Water|QID|66998|PRE|65993&65992&65995|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|RANK|2|
-C Fighting Fire with... Water|QID|66998||M|59.10,34.86|Z|2022|N|Kill the stuff fill the bar.|
+C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1<4|NC|U|193917|N|Injured drakonids healed.|
+C Fighting Fire with... Water|QID|66998||M|59.35,33.17|Z|2022|N|Kill the stuff fill the bar.|U|194441|
 T Fighting Fire with... Water|QID|66998|M|59.10,34.86|Z|2022|N|To Caretaker Ventraz.|
-C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|U|193917|N|Injured drakonids healed.|US|
 C Veteran Reinforcements|QID|65996|M|55.14,31.32|Z|2022|QO|2|NC|U|193917|N|Meet Sendrax at the Conservatory Outpost.|
 T Veteran Reinforcements|QID|65996|M|54.99,30.76|Z|2022|N|To Caretaker Azkra.|
 A Chasing Sendrax|QID|65997|PRE|65996|M|54.99,30.76|Z|2022|N|From Caretaker Azkra.|
@@ -189,9 +194,9 @@ T Chasing Sendrax|QID|65997|M|55.17,24.93|Z|2022|N|To Sendrax.|
 A Future of the Flights|QID|65998|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
 A Red in Tooth and Claw|QID|65999|PRE|65997|M|55.17,24.93|Z|2022|N|From Unknown.|
 A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From Sendrax.|
-A Firava the Rekindler|QID|70648|M|55.60,24.84|Z|2022|N|Bous Objective.|
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Primalist forces slain.|S|
 C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|QO|1|NC|N|Books saved.|S|
+A Firava the Rekindler|QID|70648|M|55.60,24.84|Z|2022|N|Bous Objective.|RANK|2|
 C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|N|Firava the Rekindler slain.|S|
 C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|QO|1|NC|N|Infused dragon eggs found.|
 C Future of the Flights|QID|65998|M|55.01,21.43|Z|2022|QO|2|N|Infused Ruby Whelpling slain.|
