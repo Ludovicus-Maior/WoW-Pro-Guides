@@ -363,6 +363,7 @@ R The Altar of Fire|ACTIVE|924|M|51.12,22.70;47.72,19.51;47.91,19.83|Z|The Barre
 C The Demon Seed|QID|924|M|47.96,19.09|Z|The Barrens|QO|1|N|Work your way inside Dreadmist Den and click on the altar to destroy the stone.\n[color=FF0000]NOTE: [/color]Be aware that there is a chance Rathorian (level 15 rare) will spawn beside the altar.|NC|
 R Leave Dreadmist Peak|ACTIVE|924|M|49.15,20.31;51.13,22.65|Z|The Barrens|CC|N|Exit the cave and head back down the mountain.|
 T The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth at Far Watch Post.|
+T Call of Fire|QID|1527|M|55.89,19.96|Z|The Barrens|N|To Kranal Fiss.|R|Orc,Troll|C|Shaman|
 T Thun'grim Firegaze|QID|1502|M|57.22,30.33|Z|The Barrens|N|To Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
 A Forged Steel|QID|1503|M|57.22,30.33|Z|The Barrens|N|From Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
 C Forged Steel|QID|1503|M|55.05,26.63|Z|The Barrens|NC|N|From Thun'grim Firegaze.|R|Orc,Troll|C|Warrior|
