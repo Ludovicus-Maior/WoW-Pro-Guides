@@ -1,7 +1,8 @@
-local guide = WoWPro:RegisterGuide('DF_Waking_Shores', 'Leveling', 'Stormwind City', 'WowPro Team', 'Neutral', 10)
+local guide = WoWPro:RegisterGuide('The Waking_Shores', 'Leveling', 'Stormwind City', 'WowPro Team', 'Neutral', 10)
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,"Waking Shores")
 WoWPro:GuideLevels(guide,60, 70)
-WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideNextGuide(guide, 'Ohnahran_Plains')
 WoWPro:GuideSteps(guide, function()
 return [[
 A The Dragon Isles Await|QID|65436|M|PLAYER|Z|84|N|From UI Alert.|FACTION|Alliance|
