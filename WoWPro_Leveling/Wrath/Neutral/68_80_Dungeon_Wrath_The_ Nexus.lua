@@ -35,7 +35,6 @@ l Arcane Splinters|QID|11911|L|35490 5|N|Loot 5 arcane splinters from Crystallin
 C Prisoner of War|QID|11973|N|Keristrasza Laid to Rest|
 T Prisoner of War|QID|11973|M|33.31,34.53|N|To Raelorasz.|
 T Quickening|QID|11911|M|32.95,34.40|N|To Archmage Berinand.|
-T Have They No Shame?|QID|13094|M|33.4,34.4|Z|Borean Tundra|N|Librarian Serrah|FACTION|Alliance|
-T Have They No Shame?|QID|13095|33.4,34.4|Z|Borean Tundra|N|Librarian Serrah|FACTION|Horde|
+T Have They No Shame?|QID|13094^13095|M|33.4,34.4|Z|Borean Tundra|N|Librarian Serrah|
 ]]
 end)
