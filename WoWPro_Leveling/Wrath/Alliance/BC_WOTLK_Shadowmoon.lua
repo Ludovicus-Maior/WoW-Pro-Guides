@@ -1,9 +1,9 @@
-local guide = WoWPro:RegisterGuide('CLASSIC_BC_Shadowmoon', "Leveling", 'Shadowmoon Valley', 'WoWPro Team', 'Alliance', 3)
+local guide = WoWPro:RegisterGuide('CLASSIC_WOTLK_Shadowmoon', "Leveling", 'Shadowmoon Valley', 'WoWPro Team', 'Alliance', 3)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Shadowmoon Valley BC")
 WoWPro:GuideName(guide,"Shadowmoon Valley")
 WoWPro:GuideLevels(guide, 68, 70)
-WoWPro:GuideNextGuide(guide, 'Netherstorm')
+WoWPro:GuideNextGuide(guide, 'wotlkintro')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Zorus the Judicator|QID|11045|M|33.00,30.25|Z|Terokkar Forest|N|From Fantei in Lower City, Shattrath.|RANK|3|

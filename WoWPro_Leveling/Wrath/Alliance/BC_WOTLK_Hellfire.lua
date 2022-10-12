@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula", "WowPro Team", "Alliance", 3)
+local guide = WoWPro:RegisterGuide("CLASSIC_WOTLK_Hellfire", "Leveling", "Hellfire Peninsula", "WowPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Hellfire Peninsula")
 WoWPro:GuideName(guide, "Hellfire Peninsula")
-WoWPro:GuideNextGuide(guide, "Zangarmarsh")
+WoWPro:GuideNextGuide(guide, "CLASSIC_WOTLK_Zangarmarsh")
 WoWPro:GuideLevels(guide, 60, 62)
 WoWPro:GuideSteps(guide, function()
 return [[

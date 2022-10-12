@@ -81,7 +81,6 @@ function WoWPro.Leveling:OnEnable()
         local currentLevel = _G.UnitLevel("player")
         local currentXP = _G.UnitXP("player")
 
-
         -- New Level 1 Character --
         if currentLevel == 1 and currentXP < 100 then
             WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
@@ -107,6 +106,9 @@ function WoWPro.Leveling:OnEnable()
 		elseif currentLevel == 55 and currentXP < 1000 and engClass == "DEATHKNIGHT" and WoWPro.WRATH then
 			WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
             WoWPro:LoadGuide("WOTLK-DK")
+		elseif currentLevel == 58 and currentXP < 1000 and engRace == "Dracthyr" then
+			WoWPro.Leveling:dbp("Loading starter %s guide",engRace)
+            WoWPro:LoadGuide("Intro_Dracthyr")
         elseif currentLevel == 8 and currentXP < 300 and engClass == "DEATHKNIGHT" then
             WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
             WoWPro:LoadGuide("JamScar5558")

@@ -18,6 +18,7 @@
   <Script file="VAN_WOTLK_42_50_Alliance.lua"/>
   <Script file="VAN_WOTLK_50_55_Alliance.lua"/>
   <Script file="VAN_WOTLK_55_60_Alliance.lua"/>
+  <Script file="WOTLK_Intro.lua"/>
   <Script file="WOTLK_Borean_Tundra.lua"/>
   <Script file="WOTLK_Dragonblight.lua"/>
   <Script file="WOTLK_Grizzly_Hills.lua"/>

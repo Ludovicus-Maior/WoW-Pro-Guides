@@ -1,5 +1,7 @@
-local guide = WoWPro:RegisterGuide('Intro_Drakthyr', 'Leveling', 'Stormwind City', 'WowPro Team', 'Neutral', 10)
-WoWPro:GuideName(guide,"Drakthyr Intro")
+local guide = WoWPro:RegisterGuide('Intro_Dracthyr', 'Leveling', 'Stormwind City', 'WowPro Team', 'Neutral')
+WoWPro:GuideName(guide,"Dracthyr Intro")
+WoWPro:GuideContent(guide, "Intro")
+WoWPro:GuideSort(guide, 19)
 WoWPro:GuideLevels(guide,58, 60)
 WoWPro:GuideSteps(guide, function()
 return [[
