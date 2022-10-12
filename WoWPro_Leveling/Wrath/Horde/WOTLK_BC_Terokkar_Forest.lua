@@ -65,14 +65,14 @@ C Magical Disturbances|QID|10027|M|56.5,41.4|N|[Coords]Kill Warp Stalkers|S|
 C Olemba Seed Oil|QID|9993|M|56.5,41.4|N|[Coords]Grab Olemba Seeds|
 C Magical Disturbances|QID|10027|M|56.5,41.4|N|[Coords]Kill Warp Stalkers|US|
 C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N[Coords]Kill Timber Worg (Alpha)s|US|
-R Veil Shienor|QID|10847|M|59,27|N|[Coords]Head northeast to Veil Shienor.|
+R Veil Shienor|QID|10847|M|59.73,25.51|N|[Verify Coords]Head northeast to Veil Shienor.|
 C Arakkoa War Path|QID|10868|N|Kill Arakkoa until you complete the quest.|S|
 C The Outcast's Plight|QID|10917|N|Kill Arakkoa to get their feathers.|S|
-l Steal the Eye of Shienor|QID|10847|M|57.87,23.14|QO|2|N|The Eye can be found by heading into the eastern tree, going up, and crossing the bridge.|
+C The Eyes of Skettis|QID|10847|M|49.89,16.50;57.87,23.14|CS|L|25642|N|The Eye can be found by heading into the eastern tree, going up, and crossing the bridge.|
 K Ayit|ACTIVE|9987|M|59.4,23.5|QO|2|N|[Coords]He's down in a small hut between two trees.|
 N Eastern Altar|QID|10021|M|49.20,20.30|QO|2|N|Right-click the Eastern Altar here.|REP|Aldor;932|
 K Ashkaz|ACTIVE|9987|M|49.9,16.5|QO|1|N|[Coords]He's on the tree house that can be accessed by a wooden bridge from the ground. Careful, he can knock you off the platform.|
-C The Eyes of Skettis|QID|10847|M|50.1,19.4|QO|1|N|[Coords]Cross the bridge to the next house, the Eye is there.|NC|
+C The Eyes of Skettis|QID|10847|M|50.1,19.4|L|25638|N|[Coords]Cross the bridge to the next house, the Eye is there.|NC|
 N Northern Altar|QID|10021|M|50.70,16.60|QO|1|N|Right-click the northern altar here.|REP|Aldor;932|
 C Restoring the Light|QID|10021|M|48.10,14.50|N|Right-click the Altar here to complete the quest.|REP|Aldor;932|QO|3|
 C Arakkoa War Path|QID|10868|N|Kill Arakkoa until you complete the quest.|US|

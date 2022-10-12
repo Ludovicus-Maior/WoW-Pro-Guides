@@ -311,7 +311,7 @@ A ... Or Maybe We Don't|QID|12198|PRE|12197|M|65.1,47.3|N|From Prospector Rokar.
 C ... Or Maybe We Don't|QID|12198|U|36936|N|Head to the hills around Dun'Argol. Use the Golem Control unit. Kill 10 Lightning Sentries. Ranged, you need to be within about 10 yards for the Golem to do it's thing.|M|73,55|
 T ... Or Maybe We Don't|QID|12198|N|To Prospector Rokar.|M|65.1,47.3|
 A Bringing Down the Iron Thane|QID|12199|PRE|12198|M|65.1,47.3|N|From Prospector Rokar.|
-R Dun Argol|QID|12099|M|75,55|N|Head back to Dun Argol.|
+R Dun Argol|ACTIVE|12199|M|75,55|QO|1|N|Head back to Dun Argol.|
 U Use the disguise|QID|12199|U|37071|N|Equip your disguise, I said it would come in handy. Head to the top of Dun'Argol, go inside the large building. Take one of the elevators down.|M|76.6,63.7|CC|
 C Bringing Down the Iron Thane|QID|12199|U|36865|M|76.6,63.7|N|AFTER you are off the elevator, use the Golem Control Unit and engage the Thane. Use ability 2, then cancel the disguise buff. Then target the Thane and use ability 1 when it's up, and 2 when the Anvil recovers from the EMP. Once the Thane dies, stay in the suit and run away; note that the suit doesn't take fall damage.|
 T Bringing Down the Iron Thane|QID|12199|M|65.2,47.5|N|To Tormak the Scarred.|
