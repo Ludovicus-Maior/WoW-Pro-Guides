@@ -73,7 +73,7 @@ C Scourge Armaments|QID|12048|M|26.9,43.3|N|Kill and loot Anub'ar to get the arm
 C Avenge this Atrocity! |QID|12006|S|N|Kill any Blue Dragonflight Force mob you see.|M|19,58|
 K Wind Trader Mu'fah |QID|12005|L|35800|N|Clear the way to the other side of the crater. Find and kill Wind Trader Mu'fah . He's standing infront of the door of that big stone building. Loot Wind Trader Mu'fah's Remains.|M|18.44,58.88|
 K Goramosh |QID|12005|L|35801|N|Go inside the building, take the slope going up left. Kill Goramosh, loot The Scales of Goramosh and Goramosh's Strange Device. |M|19.50,58.16|
-A A Strange Device |QID|12059|PRE|12055|U|36746|N|Right-click A Strange Device to start the quest.|M|19.4,58.1|
+A A Strange Device |QID|12059|U|36746|N|Right-click A Strange Device to start the quest.|M|19.4,58.1|
 C WANTED: Magister Keldonus |QID|12089|N|Kill Magister Keldonus.|M|21,63.4|
 C Avenge this Atrocity! |QID|12006|US|N|Finish killing the needed mobs.|M|19,58|
 T Avenge this Atrocity! |QID|12006|N|To Ethenial Moonshadow.|M|24.00,60.00|
