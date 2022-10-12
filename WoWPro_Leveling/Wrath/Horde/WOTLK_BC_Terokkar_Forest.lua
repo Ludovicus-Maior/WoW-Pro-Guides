@@ -64,7 +64,7 @@ C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N|[Coords]Kill Timber Worg 
 C Magical Disturbances|QID|10027|M|56.5,41.4|N|[Coords]Kill Warp Stalkers|S|
 C Olemba Seed Oil|QID|9993|M|56.5,41.4|N|[Coords]Grab Olemba Seeds|
 C Magical Disturbances|QID|10027|M|56.5,41.4|N|[Coords]Kill Warp Stalkers|US|
-C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N[Coords]Kill Timber Worg (Alpha)s|US|
+C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N|[Coords]Kill Timber Worg (Alpha)s|US|
 R Veil Shienor|QID|10847|M|59.73,25.51|N|[Verify Coords]Head northeast to Veil Shienor.|
 C Arakkoa War Path|QID|10868|N|Kill Arakkoa until you complete the quest.|S|
 C The Outcast's Plight|QID|10917|N|Kill Arakkoa to get their feathers.|S|
