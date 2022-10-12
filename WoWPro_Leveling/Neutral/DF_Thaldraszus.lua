@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Thaldraszus', 'Leveling', 'Thaldraszus', 'WoWPro Team', 'Neutral')
-WoWPro:GuideSort(guide, 6)
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideName(guide,"Thaldraszus")
-WoWPro:GuideLevels(guide,60, 70)
+WoWPro:GuideLevels(guide,60, 70, 68)
 WoWPro:GuideSteps(guide, function()
 return [[
 A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|

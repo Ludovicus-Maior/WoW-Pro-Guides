@@ -1,8 +1,9 @@
-local guide = WoWPro:RegisterGuide('BC-Netherstorm', "Leveling", 'Netherstorm', 'Crackerhead22', 'Neutral', 3)
+local guide = WoWPro:RegisterGuide('CLASSIC_WOTLK_Netherstorm', "Leveling", 'Netherstorm', 'Crackerhead22', 'Neutral', 3)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideNickname(guide, "Netherstorm")
 WoWPro:GuideName(guide,"Netherstorm")
 WoWPro:GuideLevels(guide, 68, 70)
+WoWPro:GuideNextGuide(guide, 'wotlkintro')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Assist Exarch Orelis|QID|11038|LEAD|10241|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|

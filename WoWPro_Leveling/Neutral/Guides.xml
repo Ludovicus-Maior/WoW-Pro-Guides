@@ -17,7 +17,7 @@
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>
-	<Script file="INTRO_Drakthyr.lua"/>
+	<Script file="INTRO_Dracthyr.lua"/>
 	<Script file="INTRO_Pandaren.lua"/>
 	<Script file="LEGION_Argus.lua"/>
 	<Script file="LEGION_Azsuna.lua"/>
