@@ -22,6 +22,7 @@ return [[
 ;       Z|1431;Duskwood|IZ|10|, Z|1413;TheBarrens|IZ|17|, Z|1446;Tanaris|IZ|440|, Z|1944;HellfirePeninsula|IZ|3483|, Z|1946;Zangarmarsh|IZ|3521|, Z|1953;Netherstorm|IZ|3523|,
 ;       Z|1955;ShattrathCity|IZ|3703, Z|1949;Blade's Edge Mountain|, Z|114;Borean Tundra|IZ|3537|, Z|125;Dalaran!Crystalsong Forest|IZ|4395|
 ;	(PRERELEASE) Updated to Classic - Wraith of the Lich King splits / new format on 18-Jul-2022 by Blanckaert ( blanckaert+WoWPro@gmail.com or Discord: Maquis#5791 )
+; 	Test
 
 N This Guide|QID|202000001|N|is for Wraith of the Lich King in CLASSIC only. *** Vanilla -> TBC -> WotLK ***\nAlso ASSUMES you have the appropriate Skill|
 N PLEASE Report any issues|QID|202000002|N|In our Discord, via #open-a-ticket, Please Right Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
