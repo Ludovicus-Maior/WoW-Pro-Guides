@@ -237,7 +237,7 @@ T The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|N|To Zahkrana.|
 A Training Wings|QID|70061|PRE|66115|M|62.18,70.56|Z|2022|N|From Amella.|
 C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|NC|N|Ruby Whelpling chosen.|
 C Training Wings|QID|70061|M|61.92,71.09|Z|2022|N|Use button 1 to attack, button 2 to fly faster, button 3 to heal.|
-
+T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 f Ruby Lifeshrine|QID|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 ; currently bugged on beta
@@ -245,10 +245,7 @@ f Ruby Lifeshrine|QID|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 ;C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|1|N|Use Extra Action Button to sit and look at the view then talk to him.|EAB|
 ;C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|2|N|talk to him and listen to his stories.|
 ;T Stay a While|QID|70132|M|57.82,66.85|Z|2022|N|To Veritistrasz.|
-
-A Artisan's Courier|QID|67564|M|57.93,68.21|Z|2022|N|From Haephesta|
-;T Artisan's Courier|QID|67564|M|57.93,68.21|Z|2022|N|From Haephesta|
-
+A Artisan's Courier|QID|67564|M|57.93,68.21|Z|2022|N|From Haephesta|RANK|2|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|66115&68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
 C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|NC|N|Hop on your Renewed Proto-Drake mount (Optional).|
@@ -283,7 +280,12 @@ C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celo
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
 T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
-T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|
+T Artisan's Courier|QID|67564|M|60.21,72.24|Z|2022|N|To Thomas Bright.|
+
+A A Gift for Miguel|QID|67100|PRE|67564|M|60.21,72.24|Z|2022|N|From Thomas Bright.|
+C A Gift for Miguel|QID|67100|M|59.49,72.73|Z|2022|CHAT|N|Talk to Thomas About Quality.|
+T A Gift for Miguel|QID|67100|M|59.49,72.66|Z|2022|N|.|
+
 
 
 
