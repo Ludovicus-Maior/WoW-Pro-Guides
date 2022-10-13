@@ -21,24 +21,23 @@ A The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|Ironforge|N|From R
 A Kharan Mighthammer|QID|4341|M|39.11,56.18|Z|Ironforge|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom King Magni Bronzebeard.|PRE|3701|
 
 F Thorium Point|QID|3481|M|55.54,47.75|Z|Ironforge|N|Fly to Thorium Point to complete or finish the black dragon questline.|
-A Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|
-C Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|CHAT|N|Talk with Kalaran Windblade.|
-T Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3441|
+A Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|From Velarok Windblade.|
+C Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|CHAT|N|Talk with Velarok Windblade.|
+T Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3441|
 C The Flawless Flame|QID|3442|M|47.13,41.49|Z|Searing Gorge|N|Kill Golems, Fire and Magma Elementals.|
-T The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3442|
+T The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3442|
 C Forging the Shaft|QID|3443|M|47.13,41.49|Z|Searing Gorge|N|Collect the daggers off Slavers and Taskmasters.|
-T Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]From Kalaran Windblade. Even though it's elite, at this level it should be soloable.|PRE|3443|
+T Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]From Velarok Windblade. Even though it's elite, at this level it should be soloable.|PRE|3443|
 C The Flame's Casing|QID|3452|M|29.1,25.9|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]Kill the twilight mobs around here until you get the Symbol of Ragnaros.|
-T The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3452|
-T The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3453|
-C The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|NC|N|Click on the glowing green torch in front of Kalaran.|
-T The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A Squire Maltrake|QID|3462|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3454|
+T The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3452|
+T The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|To Velarok Windblade.|
+A The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3453|
+T The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|To Glowing Green Torch.|
+A Squire Maltrake|QID|3462|M|39.05,38.99|Z|Searing Gorge|N|From Velarok Windblade.|PRE|3454|
 T Squire Maltrake|QID|3462|M|39.17,38.97|Z|Searing Gorge|N|To Squire Maltrake.|
 A Set Them Ablaze!|QID|3463|M|39.17,38.97|Z|Searing Gorge|N|From Squire Maltrake.|PRE|3462|
 C Northern Watch Tower|QID|3463|M|33.31,54.47|Z|Searing Gorge|QO|4|N|Light the first tower here by equipping the Torch of Retribution and clicking on the Brazier up the tower here.|U|10515|
@@ -52,64 +51,65 @@ l Black Dragonflight Molt|QID|4022|M|38.85,39.00|Z|Searing Gorge|N|Loot the Hoar
 
 F Morgan's Vigil|QID|3801|M|37.94,30.85|Z|Searing Gorge|N|Fly to Burning Steppes.|
 A Overmaster Pyron|QID|4262|M|85.41,70.06|Z|Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Jalinda Sprig.\n\nThis leads to a BRD quest but is done outside the Dungeon.|
-A Marshal Windsor|QID|4241|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
+;A Marshal Windsor|QID|4241|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
 A The Good Stuff|QID|4286|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
-A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|S|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
+;A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
+;C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|S|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
 A A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|From Cyrus Therepentous.|PRE|3481|
 C A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|CHAT|N|Talk with Cyrus Therepentous.|
 T A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|To Cyrus Therepentous.|
 A A Taste of Flame|QID|4024|M|95.09,31.55|Z|Burning Steppes|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom Cyrus Therepentous.|PRE|4022|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|US|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
-T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|To Helendis Riverhorn.|
-A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
-F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4183|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4184|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
-F Stormwind|QID|4184|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Stormwind.|
-T The True Masters|QID|4184|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
-C The True Masters|QID|4185|M|78.12,17.76|Z|Stormwind City|CHAT|N|Speak with Lady Prestor.|
-T The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The True Masters|QID|4186|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
-F Lakeshire|QID|4186|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4186|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4223|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
+;C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|US|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
+;T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|To Helendis Riverhorn.|
+;A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
+;F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redridge.|
+;T The True Masters|QID|4183|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
+;A The True Masters|QID|4184|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
+;F Stormwind|QID|4184|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Stormwind.|
+;T The True Masters|QID|4184|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
+;A The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
+;C The True Masters|QID|4185|M|78.12,17.76|Z|Stormwind City|CHAT|N|Speak with Lady Prestor.|
+;T The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
+;A The True Masters|QID|4186|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
+;F Lakeshire|QID|4186|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
+;T The True Masters|QID|4186|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
+;A The True Masters|QID|4223|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
 
-F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Burning Steppes.|
-T The True Masters|QID|4223|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
-A The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
+;F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Burning Steppes.|
+;T The True Masters|QID|4223|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
+;A The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
 C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|Burning Steppes|NC|S|N|Find and click on Thaurissan Relics to recover the information.|
-t Return to Tinkee|QID|4810|M|65.29,23.93|Z|Burning Steppes|N|To Tinkee Steamboil.|
+;t Return to Tinkee|QID|4810|M|65.29,23.93|Z|Burning Steppes|N|To Tinkee Steamboil.|
 A The Heart of the Mountain|QID|4123|M|65.18,23.9|Z|Burning Steppes|N|From Maxwort Uberglint.|
 A Ribbly Screwspigot|QID|4136|M|66.05,21.95|Z|Burning Steppes|N|From Yuka Screwspigot.|
-C The True Masters|QID|4224|M|65.02,23.74|Z|Burning Steppes|CHAT|N|Talk with Ragged John.|
+;C The True Masters|QID|4224|M|65.02,23.74|Z|Burning Steppes|CHAT|N|Talk with Ragged John.|
 C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|Burning Steppes|NC|US|N|Find and click on Thaurissan Relics to recover the information.|
-T The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell.|
-A Marshal Windsor|QID|4241|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
+;T The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell.|
+;A Marshal Windsor|QID|4241|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
 t Overmaster Pyron|QID|4262|M|85.41,70.06|Z|Burning Steppes|N|To Jalinda Sprig.|
 A Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|From Jalinda Sprig.|PRE|4263|
+K Overmaster Pyron|QID|4262|M|46.84,68.03|Z|1415|QO|1|N|Fire Elemental that roams near the entrance BEFORE you enter the instance. You will most likely need a group to do this as it hits hard.|
+
 
 H Ironforge|ACTIVE|3701|M|PLAYER|Z|Burning Steppes|N|Hearth back to Ironforge.|
 T The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|Ironforge|N|To Royal Historian Archesonus.|
 A Kharan Mighthammer|QID|4341|M|39.11,56.18|Z|Ironforge|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom King Magni Bronzebeard.|PRE|3701|
 
 F Thorium Point|QID|3802|M|55.54,47.75|Z|Ironforge|N|Fly to Searing Gorge.|
-d Kill Yourself|AVAILABLE|3802|M|48.44,63.89|Z|1415|N|Jump off the edge where the waypoint is and die.|
-R To Franclorn|AVAILABLE|3802|M|48.69,63.76;48.65,64.16;48.64,64.31|Z|1415|CS|N|Click off the Corpse waypoint and follow the arrows up the rock on the chain and run toward the center. Do not resurrect!|
-A Dark Iron Legacy|QID|3801|M|48.62,64.19|Z|1415|N|From Franclorn Forgewright. Must be a ghost.|
-T Dark Iron Legacy|QID|3801|M|48.62,64.19|Z|1415|N|To Franclorn Forgewright. Must be a ghost.|
-A Dark Iron Legacy|QID|3802|M|48.62,64.19|Z|1415|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom Franclorn Forgewright. Must be a ghost.|PRE|3801|
+d Kill Yourself|AVAILABLE|3802|M|47.26,68.82|Z|1415|N|Jump off the edge where the waypoint is and die.|
+R To Franclorn|AVAILABLE|3802|M|47.37,69.91;47.31,69.52;47.43,68.79;47.36,69.10;47.34,69.13|Z|1415|CS|N|Click off the Corpse waypoint and follow the arrows up the rock on the chain and run toward the center. Do not resurrect!|
+A Dark Iron Legacy|QID|3801|M|47.34,69.13|Z|1415|N|From Franclorn Forgewright. Must be a ghost.|
+T Dark Iron Legacy|QID|3801|M|47.34,69.13|Z|1415|N|To Franclorn Forgewright. Must be a ghost.|
+A Dark Iron Legacy|QID|3802|M|47.34,69.13|Z|1415|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom Franclorn Forgewright. Must be a ghost.|PRE|3801|
 
-R Blackrock Depths|QID|4241|M|48.61,64.11;48.67,64.06;48.68,64.22;48.58,64.22;48.58,64.10;48.49,63.93|Z|1415|CS|N|Continue running down, down the chain to where you should be able to ressurect.|
-A Attunement to the Core|QID|7848|M|48.41,63.82|Z|1415|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom Lothos Riftwalker.|LVL|55|
-K Overmaster Pyron|QID|4262|M|48.02,62.60|Z|1415|QO|1|N|Fire Elemental that roams near the entrance BEFORE you enter the instance. You will most likely need a group to do this as it hits hard.|
+R Blackrock Depths|QID|4241|M|47.32,69.08;47.23,68.90|Z|1415|CS|N|Continue running down, down the chain to where you should be able to ressurect.|
+A Attunement to the Core|QID|7848|M|47.15,68.83|Z|1415|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom Lothos Riftwalker.|LVL|55|
 R Blackrock Depths|QID|4241|M|48.02,62.60|Z|1415|N|Run into the Zone.|
 
 ;Within Dungeon Trip 1
 C The Good Stuff|QID|4286|M|50,50|S|N|Collect Dark Iron Fanny Packs off Dark Iron Dwarves.|
 C The Heart of the Mountain|QID|4123|M|50,50|S|N|As a group keep track of the Coffer Keys you collect, you will need 11 of them amongst the group.|
-T Marshal Windsor|QID|4241|M|50,50|N|To Marshal Windsor. To get to Windsor you will need to Kill High Interrogator Gerstahn. Only 1 person will get the Prison Cell Key. They will need to open the door to Windsor and Kharan.\n\nDirections:\nFrom the entrance head toward the big open area in front of you. You will see to to your right (South on the map) 3 openings toward the prison block. Optimally you will want to take the 3rd path to your right as that is where both Windsor and Kharan are located, you should see their quest markers as you go by their prison cells. Gerstahn is located in the sqaure shaped room at the southern most side of the cell block.|
+;T Marshal Windsor|QID|4241|M|50,50|N|To Marshal Windsor. To get to Windsor you will need to Kill High Interrogator Gerstahn. Only 1 person will get the Prison Cell Key. They will need to open the door to Windsor and Kharan.\n\nDirections:\nFrom the entrance head toward the big open area in front of you. You will see to to your right (South on the map) 3 openings toward the prison block. Optimally you will want to take the 3rd path to your right as that is where both Windsor and Kharan are located, you should see their quest markers as you go by their prison cells. Gerstahn is located in the sqaure shaped room at the southern most side of the cell block.|
 A Abandoned Hope|QID|4242|M|50,50|N|From Marshal Windsor.|PRE|4241|
 
 T Kharan Mighthammer|QID|4341|AVAILABLE|4241|M|50,50|N|To Kharan Mighthammer. To get to Kharan you will need to Kill High Interrogator Gerstahn. Only 1 person will get the Prison Cell Key. They will need to open the door to Windsor and Kharan.\n\nDirections:\nFrom the entrance head toward the big open area in front of you. You will see to to your right (South on the map) 3 openings toward the prison block. Optimally you will want to take the 3rd path to your right as that is where both Windsor and Kharan are located, you should see their quest markers as you go by their prison cells. Gerstahn is located in the sqaure shaped room at the southern most side of the cell block.|
