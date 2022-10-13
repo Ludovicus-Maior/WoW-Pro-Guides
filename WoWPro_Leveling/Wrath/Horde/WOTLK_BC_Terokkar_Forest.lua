@@ -60,12 +60,12 @@ A Wanted: Bonelashers Dead!|QID|10034|M|49.82,45.27|N|From the WANTED Poster.|
 T News for Rakoria|QID|10105|M|50.13,44.88|N|To Rakoria.|
 A Olemba Seed Oil|QID|9993|M|50.13,44.88|N|From Rakoria.|
 A Vestments of the Wolf Spirit|QID|10018|M|50.17,46.44|N|From Malukaz.|
-C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N|[Coords]Kill Timber Worg (Alpha)s|S|
 C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba Cones are found on the ground spread all across Terokkar.|S|
-K Magical Disturbances|ACTIVE|10027|M|56.5,41.4|QO|1|
-C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N|[Coords]Kill Timber Worg (Alpha)s|US|
-R Veil Shienor|QID|10847|M|59.73,25.51|N|[Verify Coords]Head northeast to Veil Shienor.|
-C Arakkoa War Path|QID|10868|N|Kill Arakkoa until you complete the quest.|S|
+K Magical Disturbances|ACTIVE|10027|M|57.54,39.69|QO|1|N|[color=FF0000]NOTE: [/color]They can become invisible.|S|
+C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|L|25812 12|N|Any Timber Worg\n[color=FF0000]NOTE: [/color]They spread out over the area and depending on how busy it is, you may have to look for them.|
+K Magical Disturbances|ACTIVE|10027|M|57.54,39.69|QO|1|N|[color=FF0000]NOTE: [/color]They can become invisible.|US|
+R Veil Shienor|QID|10847|M|59.73,25.51|N|mHead northeast to Veil Shienor.|
+K Arakkoa War Path|ACTIVE|10868|QO|1;2|N|They are located at either Veil Shienor or.|S|
 C The Outcast's Plight|QID|10917|N|Kill Arakkoa to get their feathers.|S|
 C The Eyes of Skettis|QID|10847|M|49.89,16.50;57.87,23.14|CS|L|25642|N|The Eye can be found by heading into the eastern tree, going up, and crossing the bridge.|
 K Ayit|ACTIVE|9987|M|59.4,23.5|QO|2|N|[Coords]He's down in a small hut between two trees.|
