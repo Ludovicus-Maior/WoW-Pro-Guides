@@ -117,7 +117,6 @@ T My First Real Emergency!|QID|69912|M|76.19,34.50|Z|2022|N|To Wrathion.|
 A The Djaradin Have Awoken|QID|69914|PRE|69912|M|76.22,34.51|Z|2022|N|From Majordomo Selistra.|
 C The Djaradin Have Awoken|QID|69914|M|76.27,34.53|Z|2022|QO|1|CHAT|N|Orders received from Majordomo Selistra.|
 T The Djaradin Have Awoken|QID|69914|M|76.27,34.40|Z|2022|N|To Sendrax.|
-
 A Reporting for Duty|QID|65760|PRE|69914|M|76.27,34.40|Z|2022|N|From Sendrax.|
 C Reporting for Duty|QID|65760|M|76.27,34.40|Z|2022|QO|1|CHAT|N|Ask Sendrax to lead you to the outpost.|
 C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|Follow Sendrax to the outpost.|
@@ -220,23 +219,36 @@ T For the Benefit of the Queen|QID|66114|M|62.33,73.02|Z|2022|N|To Alexstrasza t
 A The Mandate of the Red|QID|66115|PRE|66114|M|62.33,73.02|Z|2022|N|From Alexstrasza the Life-Binder.|
 A Dragonriding|QID|68795|PRE|66114|M|62.33,73.02|Z|2022|N|From Alexstrasza the Life-Binder.|
 A A Ruby Lifecalling|QID|66825|PRE|66114|M|61.93,73.78|Z|2022|N|From Lifecaller Tzadrak.|RANK|2|
+C A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|Pick your callings from the table.|
+T A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|To Lifecaller Tzadrak.|
+A Nursery Direction|QID|66997|M|61.81,73.65|Z|2022|NC|N|From Vaeros.|RANK|2|
+A Garden Party|QID|70351|M|61.76,73.74|Z|2022|NC|N|From Akora.|RANK|2|
+A Hornstrider Havoc|QID|66879|M|61.81,73.65|Z|2022|NC|N|From Dazakros.|RANK|2|
 C The Mandate of the Red|QID|66115|M|60.69,74.07|Z|2022|QO|1|CHAT|N|Speak to Xius.|
 C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Speak to Akxall.|
 A Friend on the Mend|QID|70058|M|59.91,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
 C Friend on the Mend|QID|70058|M|59.82,71.35|QO|3|Z|2022|NC|N|Collect the Glass Bead off the table.|
 C Friend on the Mend|QID|70058|M|59.98,72.64|QO|2|Z|2022|CHAT|N|Speak to Rathestrasz and ask him for scraps of cloth.|
-C The Mandate of the Red|QID|66115|M|61.60,68.69|Z|2022|QO|3|CHAT|N|Speak to Mother Elion.|
 C Friend on the Mend|QID|70058|M|61.59,69.95|QO|1|Z|2022|NC|N|Collect the feathers off the gound around the lake.|
+C The Mandate of the Red|QID|66115|M|61.60,68.69|Z|2022|QO|3|CHAT|N|Speak to Mother Elion.|
 T Friend on the Mend|QID|70058|M|61.42,70.08|Z|2022|N|To Mahra Treebender.|
 C The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|QO|4|CHAT|N|Speak to Zahkrana.|
 T The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|N|To Zahkrana.|
 A Training Wings|QID|70061|PRE|66115|M|62.18,70.56|Z|2022|N|From Amella.|
+C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|NC|N|Ruby Whelpling chosen.|
+C Training Wings|QID|70061|M|61.92,71.09|Z|2022|N|Use button 1 to attack, button 2 to fly faster, button 3 to heal.|
+
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 f Ruby Lifeshrine|QID|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
-A Stay a While|QID|70132|PRE|66115&68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
-C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|1|N|Use Extra Action Button to sit and look at the view then talk to him.|EAB|
-C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|2|N|talk to him and listen to his stories.|
-T Stay a While|QID|70132|M|57.82,66.85|Z|2022|N|To Veritistrasz.|
+; currently bugged on beta
+;A Stay a While|QID|70132|PRE|68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
+;C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|1|N|Use Extra Action Button to sit and look at the view then talk to him.|EAB|
+;C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|2|N|talk to him and listen to his stories.|
+;T Stay a While|QID|70132|M|57.82,66.85|Z|2022|N|To Veritistrasz.|
+
+A Artisan's Courier|QID|67564|M|57.93,68.21|Z|2022|N|From Haephesta|
+;T Artisan's Courier|QID|67564|M|57.93,68.21|Z|2022|N|From Haephesta|
+
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|66115&68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
 C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|NC|N|Hop on your Renewed Proto-Drake mount (Optional).|
@@ -271,17 +283,12 @@ C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celo
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
 T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
-C A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|Pick your callings from the table.|
-T A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|To Lifecaller Tzadrak.|
-A Nursery Direction|QID|66997|M|61.81,73.65|Z|2022|NC|N|From Vaeros.|RANK|2|
-A Garden Party|QID|70351|M|61.76,73.74|Z|2022|NC|N|From Akora.|RANK|2|
-A Hornstrider Havoc|QID|66879|M|61.81,73.65|Z|2022|NC|N|From Dazakros.|RANK|2|
-C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|NC|N|Ruby Whelpling chosen.|
-C Training Wings|QID|70061|M|61.92,71.09|Z|2022|N|Use button 1 to attack, button 2 to fly faster, button 3 to heal.|
 T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|
+
+
+
 A Who Brought the Ruckus?|QID|66931|PRE|70061|M|62.35,73.01|Z|2022|N|From Alexstrasza the Life-Binder.|
 C Who Brought the Ruckus?|QID|66931|M|59.49,72.73|Z|2022|QO|1|NC|N|Commotion discovered.|
-L Level 62|QID|66931|LVL|62|N|You should be around level 62 by this point.|
 T Who Brought the Ruckus?|QID|66931|M|59.49,72.66|Z|2022|N|To Majordomo Selistra.|
 A The Primary Threat|QID|66116|PRE|66931|M|59.49,72.66|Z|2022|N|From Majordomo Selistra.|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|
