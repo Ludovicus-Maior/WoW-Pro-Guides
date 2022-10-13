@@ -1,7 +1,8 @@
-local guide = WoWPro:RegisterGuide('The Azure Span', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('The_Azure_Span', 'Leveling', 'The Azure Span!Dragon Isles', 'WoWPro Team', 'Neutral')
+WoWPro:GuideSort(guide, 3)
 WoWPro:GuideName(guide,"The Azure Span")
-WoWPro:GuideLevels(guide,1, 60)
-WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideLevels(guide,60, 70, 65)
+WoWPro:GuideNextGuide(guide, 'Thaldraszus')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Mantid Assault Tracker|QID|57564|M|42.64,39.28|Z|2024|

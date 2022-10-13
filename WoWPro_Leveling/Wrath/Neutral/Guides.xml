@@ -1,6 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
     <Script file="INTRO_WOTLK_DK.lua"/>
-	<Script file="BCC_Netherstorm.lua"/>
+	<Script file="BC_WOTLK_Netherstorm.lua"/>
 	<Script file="WOTLK_Sholazar_Basin.lua"/>
 	<Script file="WOTLK_ZulDrak.lua"/>
 	<Script file="73_80_Dungeon_Wrath_Ahnkahet_The Old Kingdom.lua"/>

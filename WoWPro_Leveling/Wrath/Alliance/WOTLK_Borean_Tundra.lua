@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "WoWPro Team", "Alliance", 3)
+local guide = WoWPro:RegisterGuide("WOTLK_Borean_Tundra", "Leveling", "Borean Tundra", "WoWPro Team", "Alliance", 3)
 WoWPro:GuideName(guide,"Borean Tundra")
 WoWPro:GuideLevels(guide,70, 72)
-WoWPro:GuideNextGuide(guide, "Howling Fjord")
+WoWPro:GuideNextGuide(guide, "WOTLK_Dragonblight")
 WoWPro:GuideSteps(guide, function()
 return [[
 B Overcharged Capacitor|QID|11650|M|60.80,71.38|Z|Stormwind City|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest leads to two further quests, so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|

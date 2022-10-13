@@ -42,6 +42,7 @@ local continentToXpac = {
     [1414] = _G.LE_EXPANSION_CLASSIC, -- Kalimdor
     [1415] = _G.LE_EXPANSION_CLASSIC, -- Eastern Kingdoms
     [1550] = _G.LE_EXPANSION_SHADOWLANDS, -- The Shadowlands
+	[1978] = _G.LE_EXPANSION_DRAGONFLIGHT, -- Dragonflight
 }
 
 -- /dump C_Map.GetMapInfo(1355)

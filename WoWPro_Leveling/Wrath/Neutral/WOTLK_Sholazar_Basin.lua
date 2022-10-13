@@ -1,12 +1,10 @@
-local guide = WoWPro:RegisterGuide("ScoSho7879", "Leveling", "Sholazar Basin", "WoWPro Team", "Neutral", 3)
+local guide = WoWPro:RegisterGuide("WOTLK_Sholazar_Basin", "Leveling", "Sholazar Basin", "WoWPro Team", "Neutral", 3)
 WoWPro:GuideNickname(guide, "Sholazar Basin")
 WoWPro:GuideName(guide, "Sholazar Basin")
-WoWPro:GuideNextGuide(guide, "The Storm Peaks")
+WoWPro:GuideNextGuide(guide, "WOTLK_Storm_Peaks")
 WoWPro:GuideLevels(guide, 76, 78)
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 F Dalaran|QID|12521|N|Head to Dalaran.|
 A Where in the World is Hemet Nesingwary?|QID|12521|N|From Archmage Pentarus, near the exit from Krasus' Landing.|M|68.68,42.06|Z|Dalaran City@Dalaran|
 T Where in the World is Hemet Nesingwary?|QID|12521|N|Talk to the Archmage again to get a flight. To Monte Muzzleshot. He's hanging from a tree.|M|35.68,58.65|

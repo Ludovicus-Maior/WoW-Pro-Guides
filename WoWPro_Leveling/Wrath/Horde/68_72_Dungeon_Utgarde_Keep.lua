@@ -26,15 +26,15 @@ C Landing the Killing Blow |QID|11233|QO|2|M|83.2,43.1|N|Finally kill Lieutenant
 T Landing the Killing Blow |QID|11233|M|78.63,37.03|N|To Dark Ranger Lyana.|
 A Report to Anselm |QID|11234|PRE|11233|N|From Dark Ranger Lyana.|
 T Report to Anselm |QID|11234|N|To High Executor Anselm.|M|78.7,31.2|
-A A Score to Settle|QID|11272|M|78.7,31.2|Z||N|From High Executor Anselm.|
+A A Score to Settle|QID|11272|M|78.7,31.2|N|From High Executor Anselm.|
 A Disarmament|QID|13206|N|From Dark Ranger Marrah, shes inside the instance. If shes not there immediatly kill first pack, she is stealthed.|
 A Ingvar Must Die!|QID|11262|N|From Dark Ranger Marrah, shes inside the instance. If shes not there immediatly kill first pack, she is stealthed.||
-C Disarmament|QID|13206|l|43513 5|N|Loot 5 Vrykul Weapons from the racks around the instance|S|
+C Disarmament|QID|13206|L|43513 5|N|Loot 5 Vrykul Weapons from the racks around the instance|S|
 C A Score to Settle|QID|11272|N|Kill Prince Kelseth.|
-C Ingvar Must Die!|QID|11262|l|33330|N|Kill Ingvar the Plunderer and loot his head|
-C Disarmament|QID|13206|l|43513 5|N|Loot 5 Vrykul Weapons from the racks around the instance|US|
-T Ingvar Must Die!|QID|11262|M|78.7,31.2|Z||N|To High Executor Anselm.|
-T A Score to Settle|QID|11272|M|78.7,31.2|Z||N|To High Executor Anselm.|
-T Disarmament|QID|13206|M|78.7,31.2|Z||N|To High Executor Anselm.|
+C Ingvar Must Die!|QID|11262|L|33330|N|Kill Ingvar the Plunderer and loot his head|
+C Disarmament|QID|13206|L|43513 5|N|Loot 5 Vrykul Weapons from the racks around the instance|US|
+T Ingvar Must Die!|QID|11262|M|78.7,31.2|N|To High Executor Anselm.|
+T A Score to Settle|QID|11272|M|78.7,31.2|N|To High Executor Anselm.|
+T Disarmament|QID|13206|M|78.7,31.2|N|To High Executor Anselm.|
 ]]
 end)

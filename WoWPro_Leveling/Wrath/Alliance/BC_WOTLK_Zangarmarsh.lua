@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide("JamZan6466", "Leveling", "Zangarmarsh", "WowPro Team", "Alliance", 3)
+local guide = WoWPro:RegisterGuide("CLASSIC_WOTLK_Zangarmarsh", "Leveling", "Zangarmarsh", "WowPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Zangarmarsh")
 WoWPro:GuideName(guide, "Zangarmarsh")
-WoWPro:GuideNextGuide(guide, "Terokkar Forest")
+WoWPro:GuideNextGuide(guide, "CLASSIC_WOTLK_Terokkar")
 WoWPro:GuideLevels(guide, 62, 66)
 WoWPro:GuideSteps(guide, function()
 return [[

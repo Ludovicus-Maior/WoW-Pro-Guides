@@ -140,7 +140,11 @@ function WoWPro:CreateJumpButton(parent, id)
     local jumpicon = jumpbutton:CreateTexture(nil, "ARTWORK")
     jumpicon:SetWidth(24)
     jumpicon:SetHeight(24)
-    jumpicon:SetTexture("Interface\\Icons\\Inv_7xp_inscription_talenttome02")
+	if WoWPro.RETAIL then
+		jumpicon:SetTexture("Interface\\Icons\\Inv_7xp_inscription_talenttome02")
+	else
+		jumpicon:SetTexture("Interface\\Icons\\inv_misc_book_12")
+	end
     jumpicon:SetAllPoints(jumpbutton)
     jumpbutton:RegisterForClicks("anyUp")
     jumpbutton:Hide()

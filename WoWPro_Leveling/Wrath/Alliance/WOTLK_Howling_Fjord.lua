@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide("JamHow7274", "Leveling", "Howling Fjord", "WoWPro Team", "Alliance", 3)
+local guide = WoWPro:RegisterGuide("WOTLK_Howling_Fjord", "Leveling", "Howling Fjord", "WoWPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Howling Fjord")
 WoWPro:GuideName(guide, "Howling Fjord")
-WoWPro:GuideNextGuide(guide, "Dragonblight")
+WoWPro:GuideNextGuide(guide, "WOTLK_Dragonblight")
 WoWPro:GuideLevels(guide, 68, 72)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -390,7 +390,7 @@ T Operation: Skornful Wrath|QID|11248|U|33311|N|Use the Westguard Command Insign
 A Towers of Certain Doom|QID|11245|PRE|11248|M|44.4,26.4|N|From Westguard Sergeant.|
 A Gruesome, But Necessary|QID|11246|PRE|11248|M|44.4,26.4|N|From Westguard Sergeant.|
 A Burn Skorn, Burn!|QID|11247|PRE|11248|M|44.4,26.4|N|From Westguard Sergeant.|
-A Stop the Ascension!|QID|11249|U|33314|N|From UI Alert.|M|45.3,27.0|O|
+A Stop the Ascension!|QID|11249|U|33314|N|Right click the Vrykul Scroll of Ascension.|M|45.3,27.0|O|
 C Gruesome, But Necessary|S|QID|11246|U|33310|N|Dismember Vrykul corpses by using The Sergeant's Machete on them.|M|44.92,34.36|
 U Northwest Longhouse|QID|11247|QO|1|U|33321|N|Go inside the longhouse here and use the Sergeant's Torch.|M|43.62,28.69|
 U Northwest Tower|QID|11245|QO|1|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare.|M|43.61,29.91|

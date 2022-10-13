@@ -24,8 +24,8 @@ h Shattrath City|ACTIVE|10554|M|28.31,49.35|Z|Shattrath City|N|At Minalei on Ald
 T Ishanah|QID|10554|M|23.95,29.69|Z|Shattrath City|N|To Ishanah.|
 A Restoring the Light|QID|10021|M|23.95,29.69|Z|Shattrath City|N|From Ishanah.|PRE|10554|
 ; == Scryers
-A Voren'thal the Seer|QID|10553|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.|PRE|10552|
-h Shattrath City|ACTIVE|10553|M|56.31,81.52|Z|Shattrath City|N|At Innkeeper Haelthol.|REP|Scryers;934|
+A Voren'thal the Seer|QID|10553|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.|PRE|10552|REP|Scryers;934|
+h Shattrath City|ACTIVE|10553|M|56.31,81.52|Z|Shattrath City|N|At Innkeeper Haelthol.|
 T Voren'thal the Seer|QID|10553|M|42.79,91.73|Z|Shattrath City|N|To Voren'thal the Seer|
 ; == ...and we're back
 A Rather Be Fishin'|QID|10037|M|63.94,15.52|Z|Shattrath City|N|From Seth.|
@@ -61,18 +61,17 @@ T News for Rakoria|QID|10105|M|50.13,44.88|N|To Rakoria.|
 A Olemba Seed Oil|QID|9993|M|50.13,44.88|N|From Rakoria.|
 A Vestments of the Wolf Spirit|QID|10018|M|50.17,46.44|N|From Malukaz.|
 C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N|[Coords]Kill Timber Worg (Alpha)s|S|
-C Magical Disturbances|QID|10027|M|56.5,41.4|N|[Coords]Kill Warp Stalkers|S|
-C Olemba Seed Oil|QID|9993|M|56.5,41.4|N|[Coords]Grab Olemba Seeds|
-C Magical Disturbances|QID|10027|M|56.5,41.4|N|[Coords]Kill Warp Stalkers|US|
-C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N[Coords]Kill Timber Worg (Alpha)s|US|
-R Veil Shienor|QID|10847|M|59,27|N|[Coords]Head northeast to Veil Shienor.|
+C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba Cones are found on the ground spread all across Terokkar.|S|
+K Magical Disturbances|ACTIVE|10027|M|56.5,41.4|QO|1|
+C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|N|[Coords]Kill Timber Worg (Alpha)s|US|
+R Veil Shienor|QID|10847|M|59.73,25.51|N|[Verify Coords]Head northeast to Veil Shienor.|
 C Arakkoa War Path|QID|10868|N|Kill Arakkoa until you complete the quest.|S|
 C The Outcast's Plight|QID|10917|N|Kill Arakkoa to get their feathers.|S|
-l Steal the Eye of Shienor|QID|10847|M|57.87,23.14|QO|2|N|The Eye can be found by heading into the eastern tree, going up, and crossing the bridge.|
+C The Eyes of Skettis|QID|10847|M|49.89,16.50;57.87,23.14|CS|L|25642|N|The Eye can be found by heading into the eastern tree, going up, and crossing the bridge.|
 K Ayit|ACTIVE|9987|M|59.4,23.5|QO|2|N|[Coords]He's down in a small hut between two trees.|
 N Eastern Altar|QID|10021|M|49.20,20.30|QO|2|N|Right-click the Eastern Altar here.|REP|Aldor;932|
 K Ashkaz|ACTIVE|9987|M|49.9,16.5|QO|1|N|[Coords]He's on the tree house that can be accessed by a wooden bridge from the ground. Careful, he can knock you off the platform.|
-C The Eyes of Skettis|QID|10847|M|50.1,19.4|QO|1|N|[Coords]Cross the bridge to the next house, the Eye is there.|NC|
+C The Eyes of Skettis|QID|10847|M|50.1,19.4|L|25638|N|[Coords]Cross the bridge to the next house, the Eye is there.|NC|
 N Northern Altar|QID|10021|M|50.70,16.60|QO|1|N|Right-click the northern altar here.|REP|Aldor;932|
 C Restoring the Light|QID|10021|M|48.10,14.50|N|Right-click the Altar here to complete the quest.|REP|Aldor;932|QO|3|
 C Arakkoa War Path|QID|10868|N|Kill Arakkoa until you complete the quest.|US|
@@ -126,6 +125,7 @@ K The Tomb of Lights|ACTIVE|10840|M|46.99,54.62|QO|1;2|S|
 K Vengeful Souls|ACTIVE|10842|M|47.00,55.00|QO|1|
 K The Tomb of Lights|ACTIVE|10840|M|46.99,54.62|QO|1;2|US|
 K Wanted: Bonelashers Dead!|ACTIVE|10034|M|42,51|QO|1|N|[Coords]|US|
+C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba Seeds are found on the ground spread all across Terokkar.|US|
 T The Tomb of Lights|QID|10840|M|37.45,50.77|N|To High Priest Orglum.|
 T Vengeful Souls|QID|10842|M|50.8,54.8|N|[Coords]To Draenei Ascendant.|
 T Before Darkness Falls|QID|10878|M|37.4,51.2|N|[Coords]To Mekeda.|

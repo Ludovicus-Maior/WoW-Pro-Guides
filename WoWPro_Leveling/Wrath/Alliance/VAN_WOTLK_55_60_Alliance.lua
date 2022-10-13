@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('WOTLK_Alliance5560', 'Leveling', 'Tanaris', 'WoWPro Team', 'Alliance', 3)
 WoWPro:GuideName(guide, 'Alliance Ch6')
 WoWPro:GuideLevels(guide,55, 60)
-WoWPro:GuideNextGuide(guide, 'CLASSIC_BC_Hellfire')
+WoWPro:GuideNextGuide(guide, 'CLASSIC_WOTLK_Hellfire')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Taking Back Silithus|QID|8275|M|58.52,47.33|Z|Ironforge|N|From Cenarion Emissary Jademoon.|
