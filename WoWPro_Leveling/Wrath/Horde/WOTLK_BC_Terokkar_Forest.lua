@@ -64,18 +64,19 @@ C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba C
 K Magical Disturbances|ACTIVE|10027|M|57.54,39.69|QO|1|N|[color=FF0000]NOTE: [/color]They can become invisible.|S|
 C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|L|25812 12|N|Any Timber Worg\n[color=FF0000]NOTE: [/color]They spread out over the area and depending on how busy it is, you may have to look for them.|
 K Magical Disturbances|ACTIVE|10027|M|57.54,39.69|QO|1|N|[color=FF0000]NOTE: [/color]They can become invisible.|US|
-R Veil Shienor|QID|10847|M|59.73,25.51|N|mHead northeast to Veil Shienor.|
-K Arakkoa War Path|ACTIVE|10868|QO|1;2|N|They are located at either Veil Shienor or.|S|
-C The Outcast's Plight|QID|10917|N|Kill Arakkoa to get their feathers.|S|
-C The Eyes of Skettis|QID|10847|M|49.89,16.50;57.87,23.14|CS|L|25642|N|The Eye can be found by heading into the eastern tree, going up, and crossing the bridge.|
-K Ayit|ACTIVE|9987|M|59.4,23.5|QO|2|N|[Coords]He's down in a small hut between two trees.|
-N Eastern Altar|QID|10021|M|49.20,20.30|QO|2|N|Right-click the Eastern Altar here.|REP|Aldor;932|
-K Ashkaz|ACTIVE|9987|M|49.9,16.5|QO|1|N|[Coords]He's on the tree house that can be accessed by a wooden bridge from the ground. Careful, he can knock you off the platform.|
-C The Eyes of Skettis|QID|10847|M|50.1,19.4|L|25638|N|[Coords]Cross the bridge to the next house, the Eye is there.|NC|
-N Northern Altar|QID|10021|M|50.70,16.60|QO|1|N|Right-click the northern altar here.|REP|Aldor;932|
+R Veil Shienor|QID|10847|M|59.73,25.51|N|Head northeast to Veil Shienor.|
+K Arakkoa War Path|ACTIVE|10868|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|S|
+C The Outcast's Plight|QID|10917|L|25719 30|ITEM|25719|N|Any Arakkoa|S|
+C The Eyes of Skettis|QID|10847|M|57.89,23.16;57.89,23.16|CS|L|25642|N|Enter the base of the tree and work your way across the bridges to the last tree. The Eye is on the far side of the platform.|FLY|BC|
+C The Eyes of Skettis|QID|10847|M|57.89,23.16|L|25642|N|The Eye is on the far side of the platform.|
+K Ayit|ACTIVE|9987|M|59.41,23.53|QO|2|N|He's down in a small hut between two trees.|
+C Eastern Altar|QID|10021|M|49.25,20.31|QO|2|N|Right-click the Eastern Altar here.|NC|REP|Aldor;932|
+K Ashkaz|ACTIVE|9987|M|49.25,20.31|QO|1|N|He's on the treehouse platform with the ramp from the ground. Careful, he can knock you off the platform.|
+C The Eyes of Skettis|QID|10847|M|50.1,19.4|L|25638|N|[Coords]Cross the bridge to the next house, the Eye is there.|
+C Northern Altar|QID|10021|M|50.70,16.60|QO|1|N|Right-click the northern altar here.|NC|REP|Aldor;932|
 C Restoring the Light|QID|10021|M|48.10,14.50|N|Right-click the Altar here to complete the quest.|REP|Aldor;932|QO|3|
-C Arakkoa War Path|QID|10868|N|Kill Arakkoa until you complete the quest.|US|
-C The Outcast's Plight|QID|10917|N|Kill Arakkoa to get their feathers.|US|
+K Arakkoa War Path|ACTIVE|10868|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|US|
+C The Outcast's Plight|QID|10917|L|25719 30|ITEM|25719|N|Any Arakkoa|US|
 H Shattrath City|ACTIVE|10847|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|ACTIVE|10847|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 T Restoring the Light|QID|10021|M|23.95,29.69|Z|Shattrath City|N|To Ishanah.|REP|Aldor;932|
