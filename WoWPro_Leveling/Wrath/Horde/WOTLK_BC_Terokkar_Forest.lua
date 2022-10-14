@@ -65,21 +65,21 @@ K Magical Disturbances|ACTIVE|10027|M|57.54,39.69|QO|1|N|[color=FF0000]NOTE: [/c
 C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|L|25812 12|N|Any Timber Worg\n[color=FF0000]NOTE: [/color]They spread out over the area and depending on how busy it is, you may have to look for them.|
 K Magical Disturbances|ACTIVE|10027|M|57.54,39.69|QO|1|N|[color=FF0000]NOTE: [/color]They can become invisible.|US|
 R Veil Shienor|QID|10847|M|59.73,25.51|N|Head northeast to Veil Shienor.|
-K Arakkoa War Path|ACTIVE|10868|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|S|
+K Arakkoa War Path|ACTIVE|10868|M|58.78,24.40;49.00,15.57|CN|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|S|
 C The Outcast's Plight|QID|10917|L|25719 30|ITEM|25719|N|Any Arakkoa|S|
 C The Eyes of Skettis|QID|10847|M|57.89,23.16;57.89,23.16|CS|L|25642|N|Enter the base of the tree and work your way across the bridges to the last tree. The Eye is on the far side of the platform.|FLY|BC|
 C The Eyes of Skettis|QID|10847|M|57.89,23.16|L|25642|N|The Eye is on the far side of the platform.|
 K Ayit|ACTIVE|9987|M|59.41,23.53|QO|2|N|He's down in a small hut between two trees.|
-C Eastern Altar|QID|10021|M|49.25,20.31|QO|2|N|Right-click the Eastern Altar here.|NC|REP|Aldor;932|
+C Eastern Altar|QID|10021|M|49.25,20.31|QO|2|N|Right-click on it.|NC|REP|Aldor;932|
 K Ashkaz|ACTIVE|9987|M|49.25,20.31|QO|1|N|He's on the treehouse platform with the ramp from the ground. Careful, he can knock you off the platform.|
 C The Eyes of Skettis|QID|10847|M|50.1,19.4|L|25638|N|[Coords]Cross the bridge to the next house, the Eye is there.|
-C Northern Altar|QID|10021|M|50.70,16.60|QO|1|N|Right-click the northern altar here.|NC|REP|Aldor;932|
-C Restoring the Light|QID|10021|M|48.10,14.50|N|Right-click the Altar here to complete the quest.|REP|Aldor;932|QO|3|
-K Arakkoa War Path|ACTIVE|10868|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|US|
+C Northern Altar|QID|10021|M|50.66,16.55|QO|1|N|Right-click on it.|NC|REP|Aldor;932|
+C Western Altar|QID|10021|M|48.10,14.50|QO|3|N|Right-click on it.|NC|REP|Aldor;932|
+K Arakkoa War Path|ACTIVE|10868|M|58.78,24.40;49.00,15.57|CN|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|US|
 C The Outcast's Plight|QID|10917|L|25719 30|ITEM|25719|N|Any Arakkoa|US|
-H Shattrath City|ACTIVE|10847|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
-H Shattrath City|ACTIVE|10847|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
-T Restoring the Light|QID|10021|M|23.95,29.69|Z|Shattrath City|N|To Ishanah.|REP|Aldor;932|
+H Shattrath City|ACTIVE|10847|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|FLY|BC|
+H Shattrath City|ACTIVE|10847|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|FLY|BC|
+T Restoring the Light|QID|10021|M|23.95,29.69|Z|Shattrath City|N|To Ishanah in Aldor Rise.|REP|Aldor;932|
 T The Eyes of Skettis|QID|10847|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed.|
 A Seek Out Kirrik|QID|10849|M|52.53,21.01|Z|Shattrath City|N|From Rilak the Redeemed.|PRE|10847|
 T The Outcast's Plight|QID|10917|M|52.38,16.42;46.47,19.89|CS|Z|Shattrath City|N|To Vekax.\n[color=FF0000]NOTE: [/color]He wanders between the two treehouses.|
