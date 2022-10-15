@@ -197,13 +197,12 @@ A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From Sendrax
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Primalist forces slain.|S|
 C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|QO|1|NC|N|Books saved.|S|
 A Firava the Rekindler|QID|70648|M|55.60,24.84|Z|2022|N|Bous Objective.|RANK|2|
-C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|N|Firava the Rekindler slain.|S|
+C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|N|Firava the Rekindler slain.|
+t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|
 C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|QO|1|NC|N|Infused dragon eggs found.|
 C Future of the Flights|QID|65998|M|55.01,21.43|Z|2022|QO|2|N|Infused Ruby Whelpling slain.|
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Primalist forces slain.|US|
 C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|QO|1|NC|N|Books saved.|US|
-C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|N|Firava the Rekindler slain.|S|
-t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|
 T Future of the Flights|QID|65998|M|PLAYER|Z|2022|N|To Sendrax.|
 T Red in Tooth and Claw|QID|65999|M|PLAYER|Z|2022|N|To Sendrax.|
 T Library of Alexstrasza|QID|66000|M|PLAYER|Z|2022|N|To Sendrax.|
@@ -221,6 +220,7 @@ A Dragonriding|QID|68795|PRE|66114|M|62.33,73.02|Z|2022|N|From Alexstrasza the L
 A A Ruby Lifecalling|QID|66825|PRE|66114|M|61.93,73.78|Z|2022|N|From Lifecaller Tzadrak.|RANK|2|
 C A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|Pick your callings from the table.|
 T A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|To Lifecaller Tzadrak.|
+h Ruby Lifeshrine|ACTIVE|68795|M|61.79,73.83|Z|2022|N|Set your hearth with Lifecaller Tzadrak.|
 A Nursery Direction|QID|66997|M|61.81,73.65|Z|2022|NC|N|From Vaeros.|RANK|2|
 A Garden Party|QID|70351|M|61.76,73.74|Z|2022|NC|N|From Akora.|RANK|2|
 A Hornstrider Havoc|QID|66879|M|61.81,73.65|Z|2022|NC|N|From Dazakros.|RANK|2|
@@ -229,7 +229,7 @@ C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Speak to Akx
 A Friend on the Mend|QID|70058|M|59.91,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
 C Friend on the Mend|QID|70058|M|59.82,71.35|QO|3|Z|2022|NC|N|Collect the Glass Bead off the table.|
 C Friend on the Mend|QID|70058|M|59.98,72.64|QO|2|Z|2022|CHAT|N|Speak to Rathestrasz and ask him for scraps of cloth.|
-C Friend on the Mend|QID|70058|M|61.59,69.95|QO|1|Z|2022|NC|N|Collect the feathers off the gound around the lake.|
+C Friend on the Mend|QID|70058|M|60.99,95.51|QO|1|Z|2022|NC|N|Collect the feathers off the gound around the lake.|
 C The Mandate of the Red|QID|66115|M|61.60,68.69|Z|2022|QO|3|CHAT|N|Speak to Mother Elion.|
 T Friend on the Mend|QID|70058|M|61.42,70.08|Z|2022|N|To Mahra Treebender.|
 C The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|QO|4|CHAT|N|Speak to Zahkrana.|
@@ -237,7 +237,6 @@ T The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|N|To Zahkrana.|
 A Training Wings|QID|70061|PRE|66115|M|62.18,70.56|Z|2022|N|From Amella.|
 C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|NC|N|Ruby Whelpling chosen.|
 C Training Wings|QID|70061|M|61.92,71.09|Z|2022|N|Use button 1 to attack, button 2 to fly faster, button 3 to heal.|
-T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 f Ruby Lifeshrine|QID|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 ; currently bugged on beta
@@ -275,23 +274,64 @@ A Dragon Glyphs and You|QID|68798|PRE|68797|M|75.15,55.06|Z|2022|N|From Lord And
 C Dragon Glyphs and You|QID|68798|M|74.22,58.07|Z|2022|QO|1|NC|N|Collect the Dragon Glyph by the Rostrum of Transformation.|
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|2|CHAT|N|Speak to Lithragosa.|
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|3|NC|N|View the Dragonriding Skill Track with Lithragosa.|
-C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|4|NC|N|Learn the 'Redirection' Skill with Lithragosa.|
+C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|4|NC|N|Learn the 'Drake and Rider Training' Skill with Lithragosa.|
 C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celormu.|
+A The Waking Shores Tour|QID|72481|M|73.25,52.11|Z|2022|N|From Celormu.|RANK|3|
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
+T Training Wings|QID|70061|M|59.99,67.90|Z|2022|N|To Majordomo Selistra.|
+T Garden Party|QID|70351|M|60.18,66.46|Z|2022|N|To Akora.|RANK|2|
+A Flowers of our Labor|QID|66827|M|60.18,66.46|Z|2022|N|From Akora.|RANK|2|
+C Flowers of our Labor|QID|66827|M|57.87,65.23|Z|2022|NC|QO|1;2;3|N|Use the fork to knock down fruits.|U|193826|
+C Flowers of our Labor|QID|66827|M|60.22,66.52|Z|2022|NC|QO|4;5;6|N|Click the baskets.|U|193826|
+T Flowers of our Labor|QID|66827|M|60.18,66.46|Z|2022|N|To Akora.|
+T A Nursery Direction|QID|66997|M|55.26,63.54|Z|2022|N|To Vaeros.|
+A Leave Bee Alone|QID|66734|M|55.26,63.54|Z|2022|N|From Vaeros.|RANK|2|
+A Just a Trim|QID|66735|M|55.26,63.54|Z|2022|N|From Vaeros.|RANK|2|
+C Leave Bee Alone|QID|66734|QO|1|M|57.87,65.23|Z|2022|NC|N|Use the smoker, it takes a sec they will get mad then go peacful, Click on them to collect.|S|U|193064|
+C Just a Trim|QID|66735|M|55.26,63.54|Z|2022|NC|N|.|
+C Leave Bee Alone|QID|66734|QO|1|M|57.87,65.23|Z|2022|NC|N|Use the smoker, it takes a sec they will get mad then go peacful, Click on them to collect..|US|U|193064|
+C Leave Bee Alone|QID|66734|QO|2|M|57.87,65.23|Z|2022|NC|N|Use the Extra Action Button to release the Bees.|EAB|
+T Leave Bee Alone|QID|66734|M|55.26,63.54|Z|2022|N|To Vaeros.|
+T Just a Trim|QID|66735|M|55.26,63.54|Z|2022|N|To Vaeros.|
+A Huddle at the Hollow|QID|66828|M|60.18,66.46|Z|2022|N|From Keshki.|RANK|2|
+A A Better Start|QID|66737|M|55.22,63.70|Z|2022|N|From Adazius.|RANK|2|
+C A Better Start|QID|66737|QO|1|M|55.78,63.82|Z|2022|NC|N|Click the dirt spots.|
+C A Better Start|QID|66737|QO|2|M|55.78,63.82|Z|2022|NC|N|.|
+T A Better Start|QID|66737|M|60.18,66.46|Z|2022|N|To Akora.|
+T Hornstrider Havoc|QID|66879|M|53.37,58.44|Z|2022|N|To Dazakros.|
+A Deluge Dilemma|QID|66892|M|53.37,58.44|Z|2022|N|From Dazakros.|RANK|2|
+A Beaky Reclamation|QID|66893|M|53.37,58.44|Z|2022|N|From Dazakros.|RANK|2|
+C Deluge Dilemma|QID|66892|M|52.78,56.51|Z|2022|NC|N|Kill da water eles.|S|
+C Beaky Reclamation|QID|66893|M|52.78,56.51|Z|2022|N|Use the Salve on the Hornstriders.|U|194434|
+C Deluge Dilemma|QID|66892|M|52.78,56.51|Z|2022|NC|N|Kill da water eles.|U|194434|US|
+T Beaky Reclamation|QID|66893|M|53.37,58.44|Z|2022|N|To Dazakros.|
+T Deluge Dilemma|QID|66892|M|53.37,58.44|Z|2022|N|To Dazakros.|
+A Disastrous Detour|QID|69896|M|63.55,61.72|Z|2022|N|From Scout Kuvaeth.|
+T Huddle at the Hollow|QID|66828|M|65.37,63.68|Z|2022|N|To Keshki.|
+
+A Hornswoggled!|QID|66830|M|65.37,63.68|Z|2022|N|From Keshki.|RANK|2|
+C Hornswoggled!|QID|66830|M|65.37,63.68|Z|2022|N|.|
+C Hornswoggled!|QID|66830|M|65.37,63.68|Z|2022|N|.|
+T Hornswoggled!|QID|66830|M|65.37,63.68|Z|2022|N|.|
+
+
+
+
+H Ruby Lifeshrine|ACTIVE|68799|M|61.79,73.83|Z|2022|N|Hearth To Ruby Lifeshrine.|
 T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
-T Artisan's Courier|QID|67564|M|60.21,72.24|Z|2022|N|To Thomas Bright.|
-
-A A Gift for Miguel|QID|67100|PRE|67564|M|60.21,72.24|Z|2022|N|From Thomas Bright.|
-C A Gift for Miguel|QID|67100|M|59.49,72.73|Z|2022|CHAT|N|Talk to Thomas About Quality.|
-T A Gift for Miguel|QID|67100|M|59.49,72.66|Z|2022|N|.|
-
-
-
-
 A Who Brought the Ruckus?|QID|66931|PRE|70061|M|62.35,73.01|Z|2022|N|From Alexstrasza the Life-Binder.|
+T Artisan's Courier|QID|67564|M|60.21,72.24|Z|2022|N|To Thomas Bright.|
+A A Gift for Miguel|QID|67100|PRE|67564|M|60.21,72.24|Z|2022|N|From Thomas Bright.|RANK|2|
+C A Gift for Miguel|QID|67100|M|59.49,72.73|Z|2022|QO|1|CHAT|N|Talk to Thomas About Quality.|
+C A Gift for Miguel|QID|67100|M|68.98,62.51|Z|2022|QO|2|N|Kill the fire spirits here.|
+T A Gift for Miguel|QID|67100|M|59.49,72.73|Z|2022|N|To Thomas Bright.|
+
 C Who Brought the Ruckus?|QID|66931|M|59.49,72.73|Z|2022|QO|1|NC|N|Commotion discovered.|
 T Who Brought the Ruckus?|QID|66931|M|59.49,72.66|Z|2022|N|To Majordomo Selistra.|
+
+
+
 A The Primary Threat|QID|66116|PRE|66931|M|59.49,72.66|Z|2022|N|From Majordomo Selistra.|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|2|NC|N|Report to Commander Lethanak.|
