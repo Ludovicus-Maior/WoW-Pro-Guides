@@ -6,7 +6,7 @@
 
 function WoWPro:CreateCheck(parent)
     local check = _G.CreateFrame("CheckButton", nil, parent)
-    check:RegisterForClicks("AnyUp")
+    check:RegisterForClicks("anyDown")
     check:SetPoint("TOPLEFT")
     check:SetWidth(15)
     check:SetHeight(15)
@@ -119,7 +119,7 @@ function WoWPro:CreateItemButton(parent, id)
     itemicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
     itemicon:SetAllPoints(itembutton)
 
-    itembutton:RegisterForClicks("anyUp")
+    itembutton:RegisterForClicks("anyDown")
     itembutton:Hide()
 
     return itembutton, itemicon, itemcooldown
@@ -146,7 +146,7 @@ function WoWPro:CreateJumpButton(parent, id)
 		jumpicon:SetTexture("Interface\\Icons\\inv_misc_book_12")
 	end
     jumpicon:SetAllPoints(jumpbutton)
-    jumpbutton:RegisterForClicks("anyUp")
+    jumpbutton:RegisterForClicks("anyDown")
     jumpbutton:Hide()
 
     return jumpbutton, jumpicon
@@ -187,7 +187,7 @@ function WoWPro:CreateTargetButton(parent, id)
     targeticon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
     targeticon:SetAllPoints(targetbutton)
 
-    targetbutton:RegisterForClicks("anyUp")
+    targetbutton:RegisterForClicks("anyDown")
     targetbutton.SetTarget = function () targetbutton:SetTexture("Interface\\Icons\\Ability_Marksmanship"); end
     targetbutton.SetMacro = function () targetbutton:SetTexture("Interface\\Icons\\INV_Misc_Book_11"); end
     targetbutton.SetEmote = function () targetbutton:SetTexture("Interface\\Icons\\INV_Misc_Toy_07"); end
@@ -216,7 +216,7 @@ function WoWPro:CreateEAButton(parent, id)
     eaicon:SetHeight(36)
     eaicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
     eaicon:SetAllPoints(eabutton)
-    eabutton:RegisterForClicks("anyUp")
+    eabutton:RegisterForClicks("anyDown")
     eabutton:Hide()
 
     return eabutton, eaicon, cooldown
@@ -229,6 +229,7 @@ function WoWPro:CreateEAButtonSecured(id)
     eabutton:SetHeight(32)
     eabutton:SetWidth(32)
     eabutton:Hide()
+    eabutton:RegisterForClicks("anyDown")
     return eabutton
 end
 
@@ -350,7 +351,7 @@ function WoWPro:CreateTab(name, parent)
     else
         tab = _G.CreateFrame('Button', nil, parent, "TabButtonTemplate")
     end
-    tab:RegisterForClicks("anyUp")
+    tab:RegisterForClicks("anyDown")
     tab.Text:SetJustifyH("CENTER")
     tab.Text:SetText(name)
     _G.PanelTemplates_TabResize(tab)

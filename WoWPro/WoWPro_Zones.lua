@@ -251,7 +251,8 @@ local MapType2Name = {
 
 function WoWPro.EmitZones(release)
     local result = ""
-    for id, info in pairs(wip_map_info) do
+    for id = 1, 2500 do
+		local info = wip_map_info[id]
         local temp
         if info then
             WoWPro:Print("%s",ptable(info))
@@ -635,7 +636,7 @@ function WoWPro.GenerateMapCache()
     wip_map_info = {}
     wip_group_info = {}
 
-    for i = 0, 2000 do
+    for i = 0, 2500 do
         WoWPro.CollectMap(i)
     end
     -- Fake void

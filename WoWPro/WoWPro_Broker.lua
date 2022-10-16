@@ -1279,7 +1279,7 @@ function WoWPro:RowUpdate(offset)
 
 		-- EA Button --
 		if eab then
-            local mtext = "/click ExtraActionButton1"
+            local mtext = "/click ExtraActionButton1 MouseButton Down"
             currentRow.eabutton:Show()
             currentRow.eabutton:SetAttribute("macrotext", mtext)
 			currentRow.eaicon.EAB1_IsVisible = nil
