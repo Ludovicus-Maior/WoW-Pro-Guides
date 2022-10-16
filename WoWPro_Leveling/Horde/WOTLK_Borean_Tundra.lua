@@ -376,7 +376,7 @@ R Unu'pe |QID|11574|M|77.5,51|N|Head over to Une'pe.|
 ;change F to f since guide never states to get the Amber ledge FP, get the Unu'pe FP instead.
 f Unu'pe|QID|11587|N|Get the flight point.|M|78.54,51.53|
 ;Then ride to Amber Ledge 
-R Amber Ledge|QID|11587|N|Ride to Amber Ledge.|M|52.08,37.58
+R Amber Ledge|QID|11587|N|Ride to Amber Ledge.|M|52.08,37.58|
 T Too Close For Comfort |QID|11574|M|45.26,33.38|N|To Librarian Donathan.|
 A Prison Break |QID|11587|N|From Librarian Donathan.|M|45.27,33.36|
 A Monitoring the Rift: Cleftcliff Anomaly |QID|11576|N|From Librarian Garren.|M|44.98,33.38|
