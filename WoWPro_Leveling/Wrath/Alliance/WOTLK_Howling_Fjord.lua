@@ -397,13 +397,13 @@ U Northwest Tower|QID|11245|QO|1|U|33323|N|Get within 90 yards of the tower here
 U Northeast Longhouse|QID|11247|QO|2|U|33321|N|Go inside the longhouse here and use the Sergeant's Torch.|M|46.38,28.16|
 C Burn Skorn, Burn!|QID|11247|QO|3|U|33321|N|Go inside the Barracks here and use the Sergeant's Torch.|M|45.80,30.45|
 U East Tower|QID|11245|QO|2|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare.|M|46.70,32.85|
-U Southeast Tower|QID|11245|QO|3|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare.|M|47.10,36.87|
+U Southeast Tower|QID|11245|QO|4|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare.|M|47.10,36.87|
 ;removed next step, because likely now a 100% drop rate and item id changes after accepting the quest
 ;l Vrykul Scroll of Ascension|QID|11249|L|33314|N|Kill Vrykul mobs until you have the Vrykul Scroll of Ascension.|M|44.92,34.36|
 C Stop the Ascension!|QID|11249|U|33339|N|Use the Vrykul Scroll of Ascension at Thane's Pyre to summon Halfdan the Ice-Hearted, then kill him.|M|44.83,34.93|
-C Towers of Certain Doom|QID|11245|QO|4|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare.|M|43.18,36.11|
+C Towers of Certain Doom|QID|11245|QO|3|U|33323|N|Get within 90 yards of the tower here and use the Sergeant's Flare.|M|43.18,36.11|
 C Gruesome, But Necessary|US|QID|11246|U|33310|N|Finish dismembering Vrykul corpses by using The Sergeant's Machete on them.|M|44.92,34.36|
-T Towers of Certain Doom|QID|11245|U|33311|N|Use the Westguard Command Insignia to summon Westguard Sergeant again if he's not still around.|
+T Towers of Certain Doom|QID|11245|U|33311|M|PLAYER|N|Use the Westguard Command Insignia to summon Westguard Sergeant again if he's not still around.|
 T Gruesome, But Necessary|QID|11246|N|To Westguard Sergeant.|
 T Burn Skorn, Burn!|QID|11247|N|To Westguard Sergeant.|
 A All Hail the Conqueror of Skorn!|QID|11250|PRE|11245&11246&11247|N|From Westguard Sergeant.|

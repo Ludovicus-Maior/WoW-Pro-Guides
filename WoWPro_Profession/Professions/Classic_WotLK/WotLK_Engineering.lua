@@ -199,9 +199,6 @@ B [item=23811/Schematic - White Smoke Flare]|QID|202003351|M|72.6,31.6|Z|1955|P|
 U Learn Recipe|QID|202003351|P|Engineering;202;0+335|RECIPE|30341|U|23811|N|Learn [spell=30341/White Smoke Flare] Recipe from [item=23811/Schematic - White Smoke Flare] you just purchased.|
 M [item=23781/Elemental Blasting Powder]|QID|202030303|P|Engineering;202;0+350;1|L|23781 60|ITEM|23781|CRAFT|30303 60|MATS|22574 1;22573 2|N|This is a secondary step to make upto 60 of these, needed for the next step.|
 M [item=23768/White Smoke Flare]|QID|202030341|P|Engineering;202;0+355;1|ITEM|23768|CRAFT|30341 60|MATS|23781 1;21877 1|N|This is an approximate number, you may need to make more or less.|
-
-; WOTLK need checking once prerelease.
-
 = Learn [spell=51306/Grand Master Engineering]|QID|202051306|M|38.49,25.84|Z|125|IZ|4395|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|T|Timofey Oshenko|N|Learn from Timofey Oshenko, Like Clockwork, in Dalaran, Crystalsong Forest.  NOT! Legion, Also, BUY all Recipes available.|
 = Learn [spell=51306/Grand Master Engineering]|QID|202051306|M|42.6,53.6|Z|114|IZ|3537|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|T|Chief Engineer Leveny|N|Learn from Chief Engineer Leveny, in Warsong Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Horde|
 = Learn [spell=51306/Grand Master Engineering]|QID|202051306|M|57.6,72.2|Z|114|IZ|3537|P|Engineering;202;0+350|SPELL|Grand Master Engineering;51306|LVL|65|T|Sock Brightbolt|N|Learn from Sock Brightbolt, in Valiance Keep, Borean Tundra. Also, BUY all Recipes available.|FACTION|Alliance|
@@ -224,21 +221,21 @@ M [item=40536/Explosive Decoy]|QID|202056463|P|Engineering;202;0+390;1|ITEM|4053
 M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;0+400;1|ITEM|39683|CRAFT|56471 15|MATS|36916 8;37705 1|N|You will need 15 of these in a later step.|
 M [item=39683/Froststeel Tube]|QID|202056471|P|Engineering;202;0+400|ITEM|39683|L|39683 15|CRAFT|56471 15|MATS|36916 8;37705 1|N|You'll need 15 in later steps.|
 N Goblin Engineering|QID|202056514|P|Engineering;202;0+396|N|Not SURE if we can test if you have Goblin Engineering, so if a different craft is possible, both will be listed. Just right - click off the one you can not do.|
-= Learn Recipe|QID|202003951|P|Engineering;202;0+395|RECIPE|61471|N|Learn [spell=61471/Diamond-cut Refreactor Scope] Recipe from Trainer.|
-= Learn Recipe|QID|202004001|P|Engineering;202;0+400|RECIPE|56465|N|Learn [spell=56465/Mechanized Snow Goggles] (Cloth) Recipe from Trainer.|
-= Learn Recipe|QID|202004002|P|Engineering;202;0+400|RECIPE|61481|N|Learn [spell=61481/Mechanized Snow Goggles] (Leather) Recipe from Trainer.|
-= Learn Recipe|QID|202004003|P|Engineering;202;0+400|RECIPE|61482|N|Learn [spell=61482/Mechanized Snow Goggles] (Mail) Recipe from Trainer.|
-= Learn Recipe|QID|202004004|P|Engineering;202;0+400|RECIPE|61483|N|Learn [spell=61483/Mechanized Snow Goggles] (Plate) Recipe from Trainer.|
-= Learn Recipe|QID|202004005|P|Engineering;202;0+400|RECIPE|56472|N|Learn [spell=56472/MOLL-E] Recipe from Trainer.|
-= Learn Recipe|QID|202204006|M|39.66,25.13|Z|125|P|Engineering;202;0+400|RECIPE|56514|SPELL|Gnomish Engineering;20219;Flip|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
-= Learn Recipe|QID|202004007|P|Engineering;202;0+400|RECIPE|67326|N|Learn [spell=67326/Goblin Beam Welder] Recipe from Trainer.|
+= Learn Recipe|QID|202003901|P|Engineering;202;0+390|RECIPE|61471|N|Learn [spell=61471/Diamond-cut Refreactor Scope] Recipe from Trainer.|
 M [item=44739/Diamond-cut Refreactor Scope]|QID|202061471|P|Engineering;202;0+405;1|ITEM|44739|CRAFT|61471 5|MATS|39683 1;39681 2|
 = Learn Recipe|QID|202004051|P|Engineering;202;0+405|RECIPE|56468|N|Learn [spell=56468/Box of Bombs] Recipe from Trainer.|
 M [item=44951/Box of Bombs]|QID|202056468|P|Engineering;202;0+410;1|ITEM|44951|CRAFT|56468 5|MATS|36913 5;39690 1|
+= Learn Recipe|QID|202004101|P|Engineering;202;0+410|RECIPE|67326|N|Learn [spell=67326/Goblin Beam Welder] Recipe from Trainer.|
 M [item=47828/Goblin Beam Welder]|QID|202067326|P|Engineering;202;0+415;1|ITEM|47828|CRAFT|67326 5|MATS|36913 6;37702 3;37705 3|
 = Learn Recipe|QID|202004151|P|Engineering;202;0+415|RECIPE|56477|N|Learn [spell=56477/Mana Injector Kit] Recipe from Trainer.|
 = Learn Recipe|QID|202004152|P|Engineering;202;0+415|RECIPE|67920|N|Learn [spell=67920/Wormhole Generator Northrend] Recipe from Trainer.|
 M [item=42546/Mana Injector Kit]|QID|202056477|P|Engineering;202;0+425;1|ITEM|42546|CRAFT|56477 12|MATS|36913 12;37705 2|
+= Learn Recipe|QID|202004201|P|Engineering;202;0+420|RECIPE|56465|N|Learn [spell=56465/Mechanized Snow Goggles] (Cloth) Recipe from Trainer.|
+= Learn Recipe|QID|202004202|P|Engineering;202;0+420|RECIPE|61481|N|Learn [spell=61481/Mechanized Snow Goggles] (Leather) Recipe from Trainer.|
+= Learn Recipe|QID|202004203|P|Engineering;202;0+420|RECIPE|61482|N|Learn [spell=61482/Mechanized Snow Goggles] (Mail) Recipe from Trainer.|
+= Learn Recipe|QID|202004204|P|Engineering;202;0+420|RECIPE|61483|N|Learn [spell=61483/Mechanized Snow Goggles] (Plate) Recipe from Trainer.|
+= Learn Recipe|QID|202204205|M|39.66,25.13|Z|125|P|Engineering;202;0+420|RECIPE|56514|SPELL|Gnomish Engineering;20219;Flip|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
+= Learn Recipe|QID|202004251|P|Engineering;202;0+425|RECIPE|56472|N|Learn [spell=56472/MOLL-E] Recipe from Trainer.|
 
 ; might need to use |SPELL|Gnomish Engineer;20219;Flip| or |SPELL|Goblin Engineer;20222;Flip| to check....
 ; OR might have to use |AVAILIBLE| QIDs .... but need to FLIP  Gnome's QIDs |3641^3643|,  Goblin QID |3639|

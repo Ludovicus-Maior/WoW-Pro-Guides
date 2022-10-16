@@ -176,6 +176,7 @@ A Chasing Sendrax|QID|65997|PRE|65996|M|54.99,30.76|Z|2022|N|From Caretaker Azkr
 C Chasing Sendrax|QID|65997|M|55.15,24.89|Z|2022|CHAT|N|Continue down the road, and talk to Sendrax when you find her.|
 T Chasing Sendrax|QID|65997|M|55.17,24.93|Z|2022|N|To Sendrax.|
 A Future of the Flights|QID|65998|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
+
 A Red in Tooth and Claw|QID|65999|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
 A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From On the Origin of Draconic Species (book on rock).|
 C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|NC|N|Bliz has conveniently marked the books on your minimap, go pick them up.|S|
@@ -209,15 +210,15 @@ A Nursery Direction|QID|66997|PRE|66825|M|61.82,73.58|Z|2022|N|From Vaeros.|RANK
 A Gardem Party|QID|70351|PRE|66825|M|61.74,73.72|Z|2022|N|From Akora.|RANK|2|
 A Hornstrider Havoc|QID|66879|PRE|66825|M|61.73,73.76|Z|2022|N|From Dazakros.|RANK|2|
 C Nursery Direction|QID|66997|M|61.82,73.58|N|From Vaeros.|
-C Gardem Party|QID|70351|M|61.74,73.72|Z|2022|N|To Akora.|RANK|2|
-C Hornstrider Havoc|QID|66879|M|61.73,73.76|Z|2022|N|From Dazakros.|RANK|2|
-T Hornstrider Havoc|QID|66879|M|61.73,73.76|Z|2022|N|From Dazakros.|RANK|2|
-T Nursery Direction|QID|66997|M|61.82,73.58|N|From Vaeros.|RANK|2|
+C Gardem Party|QID|70351|M|61.74,73.72|Z|2022|N|To Akora.|
+C Hornstrider Havoc|QID|66879|M|61.73,73.76|Z|2022|N|From Dazakros.|
+T Hornstrider Havoc|QID|66879|M|61.73,73.76|Z|2022|N|From Dazakros.|
+T Nursery Direction|QID|66997|M|61.82,73.58|N|From Vaeros.|
 C The Mandate of the Red|QID|66115|M|60.69,74.07|Z|2022|QO|1|CHAT|N|Ask Xius what he is doing.|
 C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Ask Akxall why there are so few eggs.|
 A Friend on the Mend|QID|70058|M|59.86,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
-C Friend on the Mend|QID|70058|M|59.81,71.32|Z|2022|NC|N|Glass Bead is lying on the table.|RANK|2|
-C Friend on the Mend|QID|70058|M|60.37,73.15|Z|2022|CHAT|N|Ask the NPCs standing around if they have some spare fabric.|RANK|2|
+C Friend on the Mend|QID|70058|M|59.81,71.32|Z|2022|NC|N|Glass Bead is lying on the table.|
+C Friend on the Mend|QID|70058|M|60.37,73.15|Z|2022|CHAT|N|Ask the NPCs standing around if they have some spare fabric.|
 A Artisan's Courier|QID|67564|M|57.93,68.26|Z|2002|N|From Haephesta.|
 f Ruby Lifeshrine|QID|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
@@ -257,6 +258,7 @@ C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|3|NC|N|View the Dragon
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|4|NC|N|Learn the 'Drake and Rider Training' Skill with Lithragosa.|
 A The Waking Shores Tour|QID|72481|M|73.25,52.11|Z|2022|N|From Celormu. If not available, manually check off.|RANK|3|
 C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celormu.|
+A The Waking Shores Tour|QID|72481|M|73.25,52.11|Z|2022|N|From Celormu.|RANK|3|
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
 T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|You can just glide back to Alexstrasza the Life-Binder on your dragon.|
