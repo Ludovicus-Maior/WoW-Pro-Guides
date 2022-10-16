@@ -5,7 +5,6 @@ WoWPro:GuideLevels(guide,60, 70, 62)
 WoWPro:GuideNextGuide(guide, 'The Azure Span')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Patterns Within Patterns|QID|66042|M|48.79,86.77|Z|2022;The Waking Shores|
 T Ohn'ahran Plains|QID|72267|M|48.27,88.68|Z|2022;The Waking Shores|N|To Ambassador Taurasza.|
 A Into the Plains|QID|65779|PRE|72267|M|48.27,88.68|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|
 C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
