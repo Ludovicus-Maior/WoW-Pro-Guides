@@ -16,27 +16,27 @@ C Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85|QO|1|CHAT|N|Speak with Ebyss
 T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|N|To Wrathion.|FACTION|Alliance|
 T Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85|N|To Ebyssian.|FACTION|Horde|
 A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84|N|From Scalecommander Azurathel.|FACTION|Alliance|
-A The Dark Talons|QID|72256|PRE|65437|M|44.27,38.21|Z|85|N|From Scalecommander Cinderthresh.|FACTION|Horde|
 A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
-A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85|N|From Naleidea Rivergleam.|FACTION|Horde|
 C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|84|QO|1|CHAT|N|Artisans recruited.|FACTION|Alliance|
-C Expeditionary Coordination|QID|65443|M|57.18,54.14|Z|85|QO|1|CHAT|N|Artisans recruited.|FACTION|Horde|
 C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|84|QO|1|CHAT|N|Orders delivered to Dervishian.|FACTION|Alliance|
-C The Dark Talons|QID|72256|M|55.08,89.86|Z|85|QO|1|CHAT|N|Orders delivered to Kodethi.|FACTION|Horde|
 C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|84|QO|3|CHAT|N|Scholars recruited.|FACTION|Alliance|
-C Expeditionary Coordination|QID|65443|M|71.24,50.66|Z|85|QO|3|CHAT|N|Scholars recruited.|FACTION|Horde|
 C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|84|QO|2|CHAT|N|Explorers recruited.|FACTION|Alliance|
-C Expeditionary Coordination|QID|65443|M|38.42,57.02|Z|85|QO|2|CHAT|N|Explorers recruited.|FACTION|Horde|
 T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
-T Expeditionary Coordination|QID|65443|M|55.80,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
 T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
-T The Dark Talons|QID|72256|M|55.80,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
+A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85|N|From Naleidea Rivergleam.|FACTION|Horde|
+A The Dark Talons|QID|72256|PRE|65437|M|44.27,38.21|Z|85|N|From Scalecommander Cinderthresh.|FACTION|Horde|
+C Expeditionary Coordination|QID|65443|M|57.18,54.14|Z|85|QO|1|CHAT|N|The artisans can be found on the fishing dock in The Drag.|FACTION|Horde|
+C Expeditionary Coordination|QID|65443|M|71.24,50.66|Z|85|QO|3|CHAT|N|The scholars can be found upstairs inside The Wyvern's Tail inn.|FACTION|Horde|
+C Expeditionary Coordination|QID|65443|M|38.42,57.02|Z|85|QO|2|CHAT|N|The explorers can be found on top of a rock formation- about equal to the height of the zep towers.|FACTION|Horde|
+C The Dark Talons|QID|72256|M|55.08,89.86|Z|85|QO|1|CHAT|N|Kodethi can be found on top of the front gate.|FACTION|Horde|
+T Expeditionary Coordination|QID|65443|M|55.80,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
+T The Dark Talons|QID|72256|M|55.80,12.63|Z|1|N|To Naleidea Rivergleam at the top of the new zep tower by the harbor.|FACTION|Horde|
 A Whispers on the Winds|QID|66596|PRE|66589&72240|M|22.86,56.25|Z|84|N|From Archmage Khadgar.|FACTION|Alliance|
-A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.80,12.63|Z|1|N|From Archmage Khadgar.|FACTION|Horde|
-C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|84|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
-C Whispers on the Winds|QID|65439|M|55.80,12.63|Z|1|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
+A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.93,12.63|Z|1|N|From Archmage Khadgar.|FACTION|Horde|
+C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|84|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
+C Whispers on the Winds|QID|65439|M|55.93,12.63|Z|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
 T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84|N|To Wrathion.|FACTION|Alliance|
-T Whispers on the Winds|QID|65439|M|55.80,12.63|Z|1|N|To Ebyssian.|FACTION|Horde|
+T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1|N|To Ebyssian.|FACTION|Horde|
 A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
 A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|84|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
@@ -48,222 +48,203 @@ T To the Dragon Isles!|QID|65444|M|80.62,27.58|Z|2022|N|To Naleidea Rivergleam.|
 A Explorers in Peril|QID|70122|PRE|67700|M|82.13,31.90|Z|2022|N|From Toddy Whiskers.|FACTION|Alliance|
 A Explorers in Peril|QID|65452|PRE|65444|M|80.62,27.58|Z|2022|N|From Naleidea Rivergleam.|FACTION|Horde|
 A Primal Pests|QID|70123|PRE|67700|M|82.16,31.86|Z|2022|N|From Scalecommander Azurathel.|FACTION|Alliance|
-A Primal Pests|QID|65453|PRE|65444|M|80.62,27.58|Z|2022|N|From Scalecommander Cinderthresh.|FACTION|Horde|
+A Primal Pests|QID|65453|PRE|65444|M|80.65,27.59|Z|2022|N|From Scalecommander Cinderthresh.|FACTION|Horde|
 A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022|N|From Thaelin Darkanvil.|FACTION|Alliance|
-A Practice Materials|QID|65451|PRE|65444|M|80.62,27.58|Z|2022|N|From Boss Magor.|FACTION|Horde|
-C Practice Materials|QID|70124|M|79.40,32.88|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|S|FACTION|Alliance|
-C Practice Materials|QID|65451|M|79.16,25.71|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|S|FACTION|Horde|
-C Primal Pests|QID|70123|M|83.59,36.12|Z|2022|QO|1|N|Primal Proto-drakes slain.|S|FACTION|Alliance|
-C Primal Pests|QID|65453|M|79.16,25.71|Z|2022|QO|1|N|Primal Proto-drakes slain.|S|FACTION|Horde|
+A Practice Materials|QID|65451|PRE|65444|M|80.60,27.65|Z|2022|N|From Boss Magor.|FACTION|Horde|
+C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022|N|Kill the Proto-Whelp and collect their scales.|S|
+C Primal Pests|QID|70123^65453|M|83.59,36.12|Z|2022|N|Slay Primal Proto-drakes.|S|
 C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye rescued.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|NC|N|Pathfinder Poppy rescued.|FACTION|Horde|
+C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|NC|N|Pathfinder Poppy is trapped under some bones.|FACTION|Horde|
 C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Archivist Rellid rescued.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|NC|N|Archivist Spearblossom rescued.|FACTION|Horde|
-C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|NC|N|Professor Cogcatcher rescued.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|NC|N|Spelunker Lazee.|FACTION|Horde|
-C Practice Materials|QID|70124|M|79.40,32.88|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|US|FACTION|Alliance|
-C Practice Materials|QID|65451|M|79.16,25.71|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|US|FACTION|Horde|
-C Primal Pests|QID|70123|M|83.59,36.12|Z|2022|QO|1|N|Primal Proto-drakes slain.|US|FACTION|Alliance|
-C Primal Pests|QID|65453|M|79.16,25.71|Z|2022|QO|1|N|Primal Proto-drakes slain.|US|FACTION|Horde|
+C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|NC|N|Archivist Spearblossom is being carried away by a Drake.|FACTION|Horde|
+C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|NC|N|Professor Cogcatcher is rescued.|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|NC|N|Spelunker Lazee is suspended over lava.|FACTION|Horde|
+C Primal Pests|QID|70123^65453|M|77.96,29.80|Z|2022|N|Finish slaying the unneeded Primal Proto-drakes.|US|
+C Practice Materials|QID|70124^65451|M|77.96,29.80|Z|2022|NC|N|Continue killing Primal Proto-Whelp until you have enough scales.|US|
 T Explorers in Peril|QID|70122|M|76.62,33.63|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
 T Explorers in Peril|QID|65452|M|76.62,33.63|Z|2022|N|To Naleidea Rivergleam.|FACTION|Horde|
 A Where is Wrathion?|QID|70125|PRE|70122|M|76.62,33.63|Z|2022|N|From Toddy Whiskers.|FACTION|Alliance|
 A Where is Wrathion?|QID|69910|PRE|65452|M|76.62,33.63|Z|2022|N|From Naleidea Rivergleam.|FACTION|Horde|
-C Where is Wrathion?|QID|70125|M|76.61,33.65|Z|2022|QO|1|CHAT|N|Talk to Sendrax.|FACTION|Alliance|
-C Where is Wrathion?|QID|69910|M|76.61,33.65|Z|2022|QO|1|CHAT|N|Talk to Sendrax.|FACTION|Horde|
-T Where is Wrathion?|QID|70125|M|76.57,33.66|Z|2022|N|To Sendrax.|FACTION|Alliance|
-T Where is Wrathion?|QID|69910|M|76.57,33.66|Z|2022|N|To Sendrax.|FACTION|Horde|
-A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|FACTION|Alliance|
+C Where is Wrathion?|QID|70125^69910|M|76.61,33.65|Z|2022|CHAT|N|Ask Sendrax why the Dragons aren't here.|
+T Where is Wrathion?|QID|70125^69910|M|76.61,33.65|Z|2022|N|To Sendrax.|
+A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|
+A Give Peace a Chance|QID|66110|PRE|65451&65453|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|RANK|2|FACTION|Horde|
+T Primal Pests|QID|65453|M|76.29,33.02|Z|2022|N|To Scalecommander Cinderthresh.|FACTION|Horde|
+T Practice Materials|QID|65451|M|75.94,33.23|Z|2022|N|To Boss Magor.|FACTION|Horde|
 T Practice Materials|QID|70124|M|76.50,34.34|Z|2022|N|To Thaelin Darkanvil.|FACTION|Alliance|
 T Practice Materials|QID|65451|M|75.98,33.23|Z|2022|N|To Boss Magor.|FACTION|Horde|
 T Primal Pests|QID|70123|M|76.77,34.42|Z|2022|N|To Scalecommander Azurathel.|FACTION|Alliance|
-T Primal Pests|QID|65453|M|76.29,33.07|Z|2022|N|To Scalecommander Cinderthresh.|FACTION|Horde|
 A Give Peace a Chance|QID|67053|PRE|70124&70123|M|76.74,34.55|Z|2022|N|From Captain Garrick.|RANK|2|FACTION|Alliance|
-A Give Peace a Chance|QID|66110|PRE|65451&65453|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|RANK|2|FACTION|Horde|
 T Give Peace a Chance|QID|67053|M|76.36,33.07|Z|2022|N|To Warlord Breka Grimaxe.|FACTION|Alliance|
 T Give Peace a Chance|QID|66110|M|76.74,34.55|Z|2022|N|To Warlord Captain Garrick.|FACTION|Horde|
 A Encroaching Elementals|QID|70135|PRE|67053|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|FACTION|Alliance|
 A Encroaching Elementals|QID|66111|PRE|66110|M|76.74,34.55|Z|2022|N|From Captain Garrick.|RANK|2|FACTION|Horde|
-A From Such Great Heights|QID|66101|PRE|67053^66110|M|75.82,33.51|Z|2022|N|From Aster Cloudgaze.|RANK|2|
-C From Such Great Heights|QID|66101|M|75.91,33.55|Z|2022|QO|1|NC|N|Hop on the Surveyor's Disc.|
-C From Such Great Heights|QID|66101|M|75.91,33.55|Z|2022|QO|2|NC|N|Use the #1 abilty to Search for Power.|
-C From Such Great Heights|QID|66101|M|75.91,33.55|Z|2022|QO|3|NC|N|Use the #2 abilty to Search for Allies.|
-C From Such Great Heights|QID|66101|M|75.91,33.55|Z|2022|QO|4|NC|N|Use the #3 abilty to Search for Danger.|
-T From Such Great Heights|QID|66101|M|75.91,33.55|Z|2022|N|To Aster Cloudgaze.|
+A From Such Great Heights|QID|66101|PRE|67053^66110|M|75.84,33.50|Z|2022|N|From Aster Cloudgaze.|RANK|2|
+C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|1|V|N|Hop on the Surveyor's Disc.|
+C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|2|NC|N|Use the #1 abilty to Search for Power.|
+C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|3|NC|N|Use the #2 abilty to Search for Allies.|
+C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|4|NC|N|Use the #3 abilty to Search for Danger.|
+T From Such Great Heights|QID|66101|M|75.84,33.50|Z|2022|N|To Aster Cloudgaze.|
 A Quality Assurance|QID|69965|PRE|67053^66110|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|
 A Always Be Crafting|QID|66112|PRE|67053^66110|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|RANK|2|
 f Wingrest Embassy|QID|66112|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|
-C Excuse the Mess|QID|69911|M|76.34,35.65|Z|2022|QO|1|CHAT|N|Speak with Ambassador Fastrasz.|
-C Excuse the Mess|QID|69911|M|76.29,35.56|Z|2022|QO|2|NC|N|Embassy Visitor Log signed.|
-C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022|QO|3|NC|N|Welcome Message read.|
-C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|QO|1|NC|N|Volcanic Geodes excavated.|S|
-C Encroaching Elementals|QID|70135|M|73.98,33.91|Z|2022|QO|1|N|Primal elementals slain.|S|FACTION|Alliance|
-C Encroaching Elementals|QID|66111|M|73.98,33.91|Z|2022|QO|1|N|Primal elementals slain.|S|FACTION|Horde|
-C Always Be Crafting|QID|66112|M|75.01,39.20|Z|2022|QO|2|NC|N|Primal Earthen Core.|
-C Always Be Crafting|QID|66112|M|73.15,33.01|Z|2022|QO|1|NC|N|Primal Molten Core.|
-C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|QO|1|NC|N|Volcanic Geodes excavated.|US|
-C Encroaching Elementals|QID|70135|M|73.98,33.91|Z|2022|QO|1|N|Primal elementals slain.|US|FACTION|Alliance|
-C Encroaching Elementals|QID|66111|M|73.98,33.91|Z|2022|QO|1|N|Primal elementals slain.|US|FACTION|Horde|
+C Excuse the Mess|QID|69911|M|76.33,35.62|Z|2022|QO|1|CHAT|N|Tell Ambassador Fastrasz that you are a new visitor.|
+C Excuse the Mess|QID|69911|M|76.29,35.59|Z|2022|QO|2|NC|N|Embassy Visitor Log signed. It doesn't matter which options you choose, Have Fun!|
+C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022|QO|3|NC|N|Read the stone tablet.|
+C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|NC|N|Click on the glowing rocks to excavate.|S|
+C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022|N|Slay Primal elementals.|S|
+C Always Be Crafting|QID|66112|M|75.01,39.20|Z|2022|QO|2|NC|N|This is dropped by Baron Crustcord at the bottom of Quaking Cavern.|T|Baron Crustcore|
+C Always Be Crafting|QID|66112|M|73.15,33.01|Z|2022|QO|1|NC|N|This is dropped by Baron Ashflow in a small lava pool up the hillside.|T|Baron Ashflow|
+C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|NC|N|Finish excavating the glowing Volcanic Geodes.|US|
+C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022|N|Finish slaying the Primal elementals.|US|
 T Encroaching Elementals|QID|70135|M|76.37,33.07|Z|2022|N|To Warlord Breka Grimaxe.|FACTION|Alliance|
 T Encroaching Elementals|QID|66111|M|76.71,34.55|Z|2022|N|To Captain Garrick.|FACTION|Horde|
 T Quality Assurance|QID|69965|M|76.41,34.47|Z|2022|N|To Haephesta.|
 T Always Be Crafting|QID|66112|M|76.35,34.65|Z|2022|N|To Grun Ashbeard.|
-C Excuse the Mess|QID|69911|M|78.42,31.82|Z|2022|QO|4|NC|N|Brazier of Kinship relit.|
+C Excuse the Mess|QID|69911|M|78.42,31.82|Z|2022|QO|4|NC|N|Relight the Brazier of Kinship.|
 T Excuse the Mess|QID|69911|M|76.58,33.66|Z|2022|N|To Sendrax.|
 A My First Real Emergency!|QID|69912|PRE|69911|M|76.58,33.66|Z|2022|N|From Sendrax.|
-C My First Real Emergency!|QID|69912|M|76.58,33.66|Z|2022|QO|1|CHAT|N|Signal flare sent.|
-C My First Real Emergency!|QID|69912|M|76.22,34.33|Z|2022|QO|2|NC|N|Wait for the dragons' arrival.|
+C My First Real Emergency!|QID|69912|M|76.58,33.66|Z|2022|QO|1|CHAT|N|Tell Sendrax to send the signal flare.|
+C My First Real Emergency!|QID|69912|M|76.22,34.45|Z|2022|QO|2|NC|N|Wait for the dragons' arrival.|
 T My First Real Emergency!|QID|69912|M|76.19,34.50|Z|2022|N|To Wrathion.|
 A The Djaradin Have Awoken|QID|69914|PRE|69912|M|76.22,34.51|Z|2022|N|From Majordomo Selistra.|
-C The Djaradin Have Awoken|QID|69914|M|76.27,34.53|Z|2022|QO|1|CHAT|N|Orders received from Majordomo Selistra.|
+C The Djaradin Have Awoken|QID|69914|M|76.27,34.53|Z|2022|CHAT|N|Ask Majordomo Selistra how you can help.|
 T The Djaradin Have Awoken|QID|69914|M|76.27,34.40|Z|2022|N|To Sendrax.|
 A Reporting for Duty|QID|65760|PRE|69914|M|76.27,34.40|Z|2022|N|From Sendrax.|
 C Reporting for Duty|QID|65760|M|76.27,34.40|Z|2022|QO|1|CHAT|N|Ask Sendrax to lead you to the outpost.|
-C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|Follow Sendrax to the outpost.|
+C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|You need to stay somewhat close to Sendrax or he will stop.|
 T Reporting for Duty|QID|65760|M|71.21,40.75|Z|2022|N|To Commander Lethanak.|
 A Invader Djaradin|QID|65989|PRE|65760|M|71.21,40.75|Z|2022|N|From Commander Lethanak.|
 A Deliver Whelps From Evil|QID|65990|PRE|65760|M|71.21,40.75|Z|2022|N|From Commander Lethanak.|
-C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|QO|1|N|Djaradin slain.|S|
-C Deliver Whelps From Evil|QID|65990|M|69.35,43.45|Z|2022|QO|1<1|NC|N|Whimpering Whelplings saved.|
-C Deliver Whelps From Evil|QID|65990|M|69.87,45.25|Z|2022|QO|1<2|NC|N|Whimpering Whelplings saved.|
-C Deliver Whelps From Evil|QID|65990|M|70.98,46.65|Z|2022|QO|1<3|NC|N|Whimpering Whelplings saved.|
-C Deliver Whelps From Evil|QID|65990|M|71.38,44.70|Z|2022|QO|1<4|NC|N|Whimpering Whelplings saved.|
-C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|QO|1|N|Djaradin slain.|US|
+C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|N|Slay Djaradin.|S|
+C Deliver Whelps From Evil|QID|65990|M|69.86,45.31|Z|2022|NC|N|Bliz has conveniently marked them on your map for easier locating.|
+C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|N|Finish slaying Djaradin.|US|
 T Invader Djaradin|QID|65989|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
 T Deliver Whelps From Evil|QID|65990|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
 A Time for a Reckoning|QID|65991|PRE|65989&65990|M|71.20,40.77|Z|2022|N|From Commander Lethanak.|
 A Erstwhile Ecologists|QID|72122|PRE|65989&65990|M|71.11,40.46|Z|2022|N|From Mender Eskros.|RANK|2|
 T Erstwhile Ecologists|QID|72122|M|74.43,42.15|Z|2022|N|To Ecologist Iskha.|
 A A Scalpel of a Solution|QID|66105|PRE|72122|M|74.41,42.12|Z|2022|N|From Ecologist Iskha.|RANK|2|
-A Wildlife Rescue|QID|66107|PRE|72122|M|74.49,42.17|Z|2022|N|From Ecologist Tharu.|RANK|2|
-C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|QO|1|NC|N|Wildlife rescued.|S|
-C A Scalpel of a Solution|QID|66105|M|75.87,48.34|Z|2022|QO|1|N|Rampaging Water slain.|S|
-C A Scalpel of a Solution|QID|66105|M|76.33,46.27|Z|2022|QO|2|N|Rampaging Wind slain.|
-C A Scalpel of a Solution|QID|66105|M|75.87,48.34|Z|2022|QO|1|N|Rampaging Water slain.|US|
-C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|QO|1|NC|N|Wildlife rescued.|US|
+A Wildlife Rescue|QID|66107|M|74.49,42.17|Z|2022|N|From Ecologist Tharu.|RANK|2|
+C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|NC|N|Rescue wildlife.|S|
+C A Scalpel of a Solution|QID|66105|M|75.87,48.34|Z|2022|N|Slay Rampaging Winds and Waters while you go about rescuing the wildlife.|
+C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|NC|N|Finish rescuing wildlife.|US|
 T Wildlife Rescue|QID|66107|M|74.50,42.18|Z|2022|N|To Ecologist Tharu.|
 T A Scalpel of a Solution|QID|66105|M|74.43,42.16|Z|2022|N|To Ecologist Iskha.|
 A Forensic Ecology|QID|66104|PRE|66107&66105|M|74.43,42.16|Z|2022|N|From Ecologist Iskha.|RANK|2|
-C Forensic Ecology|QID|66104|M|74.47,42.17|Z|2022|QO|2|NC|N|Windyfin Gorloc Corpse Dissected.|
-C Forensic Ecology|QID|66104|M|74.47,42.17|Z|2022|QO|1|NC|N|Soggymaw Gorloc Corpse Dissected.|
-C Forensic Ecology|QID|66104|M|74.47,42.17|Z|2022|QO|3|NC|N|Glistening Shells Examined.|
+C Forensic Ecology|QID|66104|M|74.47,42.17|Z|2022|NC|N|Click on the items on the table beside you to disect the corpses then to examine the shells.|
 T Forensic Ecology|QID|66104|M|74.43,42.14|Z|2022|N|To Ecologist Iskha.|
 A A Sledgehammer of a Solution|QID|66108|PRE|66104|M|74.43,42.14|Z|2022|N|From Ecologist Iskha.|RANK|2|
 A Don't Be So Shellfish|QID|66106|PRE|66104|M|74.52,42.16|Z|2022|N|From Ecologist Tharu.|RANK|2|
-C A Sledgehammer of a Solution|QID|66108|M|79.69,44.02|Z|2022|QO|1|N|Sogglmoggl slain.|S|
-C A Sledgehammer of a Solution|QID|66108|M|79.60,40.53|Z|2022|QO|2|N|Whirglgurgl slain.|S|
-C Don't Be So Shellfish|QID|66106|M|79.37,41.53|Z|2022|QO|1|NC|N|Wind-Infused Shells collected.|S|
-C Don't Be So Shellfish|QID|66106|M|74.72,42.21|Z|2022|QO|2|NC|N|Water-Infused Shells collected.|S|
-A A Quack For Help|QID|66196|PRE|66104|M|80.12,42.87|Z|2022|N|From Unknown.|RANK|2|
-C A Sledgehammer of a Solution|QID|66108|M|79.69,44.02|Z|2022|QO|1|N|Sogglmoggl slain.|US|
-C A Sledgehammer of a Solution|QID|66108|M|79.60,40.53|Z|2022|QO|2|N|Whirglgurgl slain.|US|
+C Don't Be So Shellfish|QID|66106|M|79.37,41.53|Z|2022|NC|N|Collect the piles of shells. These also drop from the murlocs in the area. The wind ones are above.|S|
+A A Quack For Help|QID|66196|PRE|66104|M|80.12,42.87|Z|2022|N|From Bubbled Duckling.|RANK|2|
+C A Sledgehammer of a Solution|QID|66108|M|79.69,44.02|Z|2022|QO|1|N|Sogglmoggl respawns almost instantly, so move after you kill him.|T|Sogglmoggl|
+C A Sledgehammer of a Solution|QID|66108|M|79.60,40.53|Z|2022|QO|2|N|Whirglgurgl respawns almost instantly, so move after you kill him.|T|Whirglgurgl|
 C Don't Be So Shellfish|QID|66106|M|79.37,41.53|Z|2022|NC|N|Finish collecting the shells.|US|
-C A Quack For Help|QID|66196|M|74.72,42.21|Z|2022|QO|1|NC|N|Bubbled Duckling brought to the Ecologist's Camp.|
+C A Quack For Help|QID|66196|M|74.72,42.21|Z|2022|NC|N|Bubbled Duckling brought to the Ecologist's Camp.|
 T Don't Be So Shellfish|QID|66106|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Quack For Help|QID|66196|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Sledgehammer of a Solution|QID|66108|M|74.41,42.14|Z|2022|N|To Ecologist Iskha.|
-A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
-C Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Murder all the doods around this area.|S!US|
-C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|QO|1|NC|N|Wrathion met at Scalecracker Keep.|
+;A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|IZ|13723|RANK|2|
+C Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Stick around to do the bonus objective if you want.|S|
+C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|NC|N|Wrathion met at Scalecracker Keep.|
 T Time for a Reckoning|QID|65991|M|66.36,34.99|Z|2022|N|To Wrathion.|
 A Killjoy|QID|65993|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 A Blacktalon Intel|QID|65992|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 A Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Bonus Objective - Autoaccepted.|
-C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Dragonhunter Igordan slain.|S!US|
-C Killjoy|QID|65993|M|63.22,29.66|Z|2022|QO|1|N|Meatgrinder Sotok slain.|S|
-C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Talonstalker Kavia consulted.|
-C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Right consulted.|
-C Blacktalon Intel|QID|65992|M|63.43,28.86|Z|2022|QO|2|CHAT|N|Left consulted.|
-C Killjoy|QID|65993|M|63.22,29.66|Z|2022|QO|1|N|Meatgrinder Sotok slain.|US|
+C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Slay Dragonhunter Igordan.|S!US|T|Dragonhunter Igordan|
+C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Consult Talonstalker Kavia.|
+C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Consult Right.|
+C Killjoy|QID|65993|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok when convenient.|S|T|Meatgrinder Sotok|
+C Blacktalon Intel|QID|65992|M|63.43,28.86|Z|2022|QO|2|CHAT|N|Consult Left.|
+C Killjoy|QID|65993|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok.|US|T|Meatgrinder Sotok|
+A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|O|U|193874|
 T Killjoy|QID|65993|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T Blacktalon Intel|QID|65992|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T The Obsidian Citadel|QID|65995|M|62.65,33.19|Z|2022|N|To Wrathion.|
 A Veteran Reinforcements|QID|65996|PRE|65993&65992&65995|M|62.77,33.10|Z|2022|N|From Majordomo Selistra.|
-C Veteran Reinforcements|QID|65996|M|60.99,35.76|Z|2022|QO|1<1|NC|U|193917|N|Injured drakonids healed.|
-C Veteran Reinforcements|QID|65996|M|61.10,36.69|Z|2022|QO|1<2|NC|U|193917|N|Injured drakonids healed.|
-C Veteran Reinforcements|QID|65996|M|59.10,34.86|Z|2022|QO|1<3|NC|U|193917|N|Injured drakonids healed.|
+C Djaradin Djustice|QID|65994|M|61.24,36.24|Z|2022|N|If you are planning to do the bonus objective, finish it up before you get to the injured drakonids.|US|
+T Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autocompleted.|IZ|13723|
+C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|N|Click the drakonids to heal them.|S|
 A Fighting Fire with... Water|QID|66998|PRE|65993&65992&65995|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|RANK|2|
-C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1<4|NC|U|193917|N|Injured drakonids healed.|
-C Fighting Fire with... Water|QID|66998||M|59.35,33.17|Z|2022|N|Kill the stuff fill the bar.|U|194441|
-T Fighting Fire with... Water|QID|66998|M|59.10,34.86|Z|2022|N|To Caretaker Ventraz.|
-C Veteran Reinforcements|QID|65996|M|55.14,31.32|Z|2022|QO|2|NC|U|193917|N|Meet Sendrax at the Conservatory Outpost.|
+C Fighting Fire with... Water|QID|66998|M|59.10,34.86|Z|2022|U|194441|N|Take a brief break from healing to kill the droplets. Use the bottled water elemental for a bit of extra help.|
+T Fighting Fire with... Water|QID|66998|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|
+C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|N|Finish finding and healing the Injured drakonids.|US|
+C Veteran Reinforcements|QID|65996|M|55.14,31.32|Z|2022|QO|2|NC|N|Meet Sendrax at the Conservatory Outpost.|
 T Veteran Reinforcements|QID|65996|M|54.99,30.76|Z|2022|N|To Caretaker Azkra.|
 A Chasing Sendrax|QID|65997|PRE|65996|M|54.99,30.76|Z|2022|N|From Caretaker Azkra.|
-C Chasing Sendrax|QID|65997|M|55.15,24.89|Z|2022|QO|1|CHAT|N|Sendrax found.|
+C Chasing Sendrax|QID|65997|M|55.15,24.89|Z|2022|CHAT|N|Continue down the road, and talk to Sendrax when you find her.|
 T Chasing Sendrax|QID|65997|M|55.17,24.93|Z|2022|N|To Sendrax.|
 A Future of the Flights|QID|65998|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
-A Red in Tooth and Claw|QID|65999|PRE|65997|M|55.17,24.93|Z|2022|N|From Unknown.|
-A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From Sendrax.|
-C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Primalist forces slain.|S|
-C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|QO|1|NC|N|Books saved.|S|
-A Firava the Rekindler|QID|70648|M|55.60,24.84|Z|2022|N|Bous Objective.|RANK|2|
-C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|QO|1|N|Firava the Rekindler slain.|
-t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|
-C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|QO|1|NC|N|Infused dragon eggs found.|
-C Future of the Flights|QID|65998|M|55.01,21.43|Z|2022|QO|2|N|Infused Ruby Whelpling slain.|
-C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Primalist forces slain.|US|
-C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|QO|1|NC|N|Books saved.|US|
-T Future of the Flights|QID|65998|M|PLAYER|Z|2022|N|To Sendrax.|
+
+A Red in Tooth and Claw|QID|65999|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
+A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From On the Origin of Draconic Species (book on rock).|
+C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|NC|N|Bliz has conveniently marked the books on your minimap, go pick them up.|S|
+C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Find the Infused dragon eggs. Kill the nearly helpless whelps.|S|
+C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Slay Primalist forces.|S|
+A Firava the Rekindler|QID|70648|PRE|65997|M|55.60,24.84|Z|2022|N|Bonus Objective - Autoaccepted.|
+C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Slay Firava the Rekindler.|T|Firava the Rekindler|
+t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Bonus Objective - Autocompleted.|
+C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Finish up with the unfortunate whelplings.|US|
+C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|N|Finish up slaying Primalist forces.|US|
+C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|NC|N|Find the Books.|US|
 T Red in Tooth and Claw|QID|65999|M|PLAYER|Z|2022|N|To Sendrax.|
+T Future of the Flights|QID|65998|M|PLAYER|Z|2022|N|To Sendrax.|
 T Library of Alexstrasza|QID|66000|M|PLAYER|Z|2022|N|To Sendrax.|
-A A Last Hope|QID|66001|PRE|70648&65999&65998&66000|M|PLAYER|Z|2022|N|From Sendrax.|
-C A Last Hope|QID|66001|M|56.23,22.06|Z|2022|QO|1|CHAT|N|Meet Sendrax by the ritual site.|
+A A Last Hope|QID|66001|PRE|70648&65999&65998&66000|M|57.13,23.63|Z|2022|N|From Sendrax.|
+C A Last Hope|QID|66001|M|56.23,22.06|Z|2022|QO|1|NC|N|Meet Sendrax by the ritual site.|
 C A Last Hope|QID|66001|M|56.89,21.60|Z|2022|QO|2|NC|N|Pick up the Infused Dragon Egg.|
-C A Last Hope|QID|66001|M|55.07,30.62|Z|2022|QO|3|NC|N|Carry the egg to safety.|
+C A Last Hope|QID|66001|M|55.07,30.62|Z|2022|QO|3|NC|N|Carry the egg to safety. Note you can't mount up.|
 T A Last Hope|QID|66001|M|55.10,31.00|Z|2022|N|To Majordomo Selistra.|
 A For the Benefit of the Queen|QID|66114|PRE|66001|M|55.10,31.00|Z|2022|N|From Majordomo Selistra.|
-C For the Benefit of the Queen|QID|66114|M|62.26,72.88|Z|2022|QO|1|CHAT|N|Ride with Majordomo Selistra to the Ruby Lifeshrine.|
+C For the Benefit of the Queen|QID|66114|M|62.26,72.88|Z|2022|QO|1|CHAT|N|Ask Majordomo Selistra to take you to the Ruby Lifeshrine.|
 C For the Benefit of the Queen|QID|66114|M|62.33,73.02|Z|2022|QO|2|CHAT|N|Show Queen Alexstrasza the infused egg.|
 T For the Benefit of the Queen|QID|66114|M|62.33,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
 A The Mandate of the Red|QID|66115|PRE|66114|M|62.33,73.02|Z|2022|N|From Alexstrasza the Life-Binder.|
 A Dragonriding|QID|68795|PRE|66114|M|62.33,73.02|Z|2022|N|From Alexstrasza the Life-Binder.|
-A A Ruby Lifecalling|QID|66825|PRE|66114|M|61.93,73.78|Z|2022|N|From Lifecaller Tzadrak.|RANK|2|
-C A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|Pick your callings from the table.|
-T A Ruby Lifecalling|QID|66825|M|61.79,73.83|Z|2022|NC|N|To Lifecaller Tzadrak.|
+A A Ruby Lifecalling|QID|66825|M|61.89,73.84|Z|2022|N|From Lifecaller Tzadrak.|RANK|2|
+C A Ruby Lifecalling|QID|66825|M|61.87,73.83|Z|2022|NC|N|Click on the items from the table, and after each item Lifecaller Tzadrak will call a one of the young dragons forward to pick up the item.|
+T A Ruby Lifecalling|QID|66825|M|61.89,73.84|Z|2022|N|From Lifecaller Tzadrak.|
 h Ruby Lifeshrine|ACTIVE|68795|M|61.79,73.83|Z|2022|N|Set your hearth with Lifecaller Tzadrak.|
-A Nursery Direction|QID|66997|M|61.81,73.65|Z|2022|NC|N|From Vaeros.|RANK|2|
-A Garden Party|QID|70351|M|61.76,73.74|Z|2022|NC|N|From Akora.|RANK|2|
-A Hornstrider Havoc|QID|66879|M|61.81,73.65|Z|2022|NC|N|From Dazakros.|RANK|2|
-C The Mandate of the Red|QID|66115|M|60.69,74.07|Z|2022|QO|1|CHAT|N|Speak to Xius.|
-C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Speak to Akxall.|
-A Friend on the Mend|QID|70058|M|59.91,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
-C Friend on the Mend|QID|70058|M|59.82,71.35|QO|3|Z|2022|NC|N|Collect the Glass Bead off the table.|
-C Friend on the Mend|QID|70058|M|59.98,72.64|QO|2|Z|2022|CHAT|N|Speak to Rathestrasz and ask him for scraps of cloth.|
-C Friend on the Mend|QID|70058|M|60.99,95.51|QO|1|Z|2022|NC|N|Collect the feathers off the gound around the lake.|
-C The Mandate of the Red|QID|66115|M|61.60,68.69|Z|2022|QO|3|CHAT|N|Speak to Mother Elion.|
-T Friend on the Mend|QID|70058|M|61.42,70.08|Z|2022|N|To Mahra Treebender.|
-C The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|QO|4|CHAT|N|Speak to Zahkrana.|
-T The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|N|To Zahkrana.|
-A Training Wings|QID|70061|PRE|66115|M|62.18,70.56|Z|2022|N|From Amella.|
-C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|NC|N|Ruby Whelpling chosen.|
-C Training Wings|QID|70061|M|61.92,71.09|Z|2022|N|Use button 1 to attack, button 2 to fly faster, button 3 to heal.|
-C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
+A Nursery Direction|QID|66997|PRE|66825|M|61.82,73.58|Z|2022|N|From Vaeros.|RANK|2|
+A Gardem Party|QID|70351|PRE|66825|M|61.74,73.72|Z|2022|N|From Akora.|RANK|2|
+A Hornstrider Havoc|QID|66879|PRE|66825|M|61.73,73.76|Z|2022|N|From Dazakros.|RANK|2|
+C Nursery Direction|QID|66997|M|61.82,73.58|N|From Vaeros.|
+C Gardem Party|QID|70351|M|61.74,73.72|Z|2022|N|To Akora.|
+C Hornstrider Havoc|QID|66879|M|61.73,73.76|Z|2022|N|From Dazakros.|
+T Hornstrider Havoc|QID|66879|M|61.73,73.76|Z|2022|N|From Dazakros.|
+T Nursery Direction|QID|66997|M|61.82,73.58|N|From Vaeros.|
+C The Mandate of the Red|QID|66115|M|60.69,74.07|Z|2022|QO|1|CHAT|N|Ask Xius what he is doing.|
+C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Ask Akxall why there are so few eggs.|
+A Friend on the Mend|QID|70058|M|59.86,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
+C Friend on the Mend|QID|70058|M|59.81,71.32|Z|2022|NC|N|Glass Bead is lying on the table.|
+C Friend on the Mend|QID|70058|M|60.37,73.15|Z|2022|CHAT|N|Ask the NPCs standing around if they have some spare fabric.|
+A Artisan's Courier|QID|67564|M|57.93,68.26|Z|2002|N|From Haephesta.|
 f Ruby Lifeshrine|QID|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
-; currently bugged on beta
-;A Stay a While|QID|70132|PRE|68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
-;C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|1|N|Use Extra Action Button to sit and look at the view then talk to him.|EAB|
-;C Stay a While|QID|70132|M|57.82,66.85|Z|2022|QO|2|N|talk to him and listen to his stories.|
-;T Stay a While|QID|70132|M|57.82,66.85|Z|2022|N|To Veritistrasz.|
-A Artisan's Courier|QID|67564|M|57.93,68.21|Z|2022|N|From Haephesta|RANK|2|
+C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|66115&68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
-C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|NC|N|Hop on your Renewed Proto-Drake mount (Optional).|
-C How to Glide with Your Dragon|QID|65118|M|57.48,61.28|Z|2022|QO|2|NC|N|Glide Through The Rings.|
+C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|SPELL|368896|
+A Stay a While|QID|70132|PRE|66115&68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|
+C Stay a While|QID|70132|M|57.82,66.79|Z|2022;The Waking Shores|EAB|QO|1|NC|N|Use the Extra Action Button to Sit and look at the view, then use chat option with Veritistrasz.|
+C Stay a While|QID|70132|M|57.82,66.81|Z|2022;The Waking Shores|QO|2|CHAT|N|Listen to Veritistrasz's Stories.|
+T Stay a While|QID|70132|M|57.85,66.80|Z|2022;The Waking Shores|N|To Veritistrasz.|
+C How to Glide with Your Dragon|QID|65118|M|57.48,61.28|Z|2022|QO|2|NC|N|Glide Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
 C How to Glide with Your Dragon|QID|65118|M|57.38,59.17|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Glide with Your Dragon|QID|65118|M|57.46,59.09|Z|2022|N|To Celormu.|
 A How To Dive with Your Dragon|QID|65120|PRE|65118|M|57.67,66.90|Z|2022|N|From Lord Andestrasz.|
-C How To Dive with Your Dragon|QID|65120|M|57.43,59.98|Z|2022|QO|2|NC|U|188139|N|Glide Through The Rings.|
-C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|1|NC|U|188139|N|Hop on a Dragonriding Mount (Optional).|
-C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|3|NC|U|188139|N|Land in the Target Area.|
+C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|
+C How To Dive with Your Dragon|QID|65120|M|57.43,59.98|Z|2022|QO|2|NC|N|Glide Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
+C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|3|NC|N|Land in the Target Area. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
 T How To Dive with Your Dragon|QID|65120|M|57.47,59.09|Z|2022|N|To Celormu.|
 A How to Use Momentum with Your Dragon|QID|65133|PRE|65120|M|57.65,66.88|Z|2022|N|From Lord Andestrasz.|
-C How to Use Momentum with Your Dragon|QID|65133|M|57.65,66.87|Z|2022|QO|1|NC|U|188169|N|Hop on a Dragonriding Mount (Optional).|
-C How to Use Momentum with Your Dragon|QID|65133|M|57.43,60.03|Z|2022|QO|2|NC|U|188169|N|Pass Through The Rings.|
-C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.09|Z|2022|QO|3|NC|U|188169|N|Land in the Target Area.|
+C How to Use Momentum with Your Dragon|QID|65133|M|57.65,66.87|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|
+C How to Use Momentum with Your Dragon|QID|65133|M|57.43,60.03|Z|2022|QO|2|NC|N|Pass Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188169|
+C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.09|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Use Momentum with Your Dragon|QID|65133|M|57.47,59.10|Z|2022|N|To Celormu.|
-f Ruby Lifeshrine|QID|65133|M|57.68,66.91|Z|2022|
 A The Skytop Observatory|QID|68796|PRE|65133|M|57.68,66.91|Z|2022|N|From Lord Andestrasz.|
 C The Skytop Observatory|QID|68796|M|57.76,66.75|Z|2022|QO|1|CHAT|N|Speak with Celormu to start the race.|
+A To Skytop Observatory|QID|72089|PRE|65133|M|57.76,66.75|Z|2022|N|From Celormu.|LEAD|68796|; not sure about this i wasn't offered it. LEAD maybe?
 C The Skytop Observatory|QID|68796|M|73.24,55.56|Z|2022|QO|2|NC|N|Race to the Skytop Observatory.|
 T The Skytop Observatory|QID|68796|M|75.17,54.97|Z|2022|N|To Lord Andestrasz.|
 A A New Set of Horns|QID|68797|PRE|68796|M|75.17,54.97|Z|2022|N|From Lord Andestrasz.|
@@ -275,145 +256,194 @@ C Dragon Glyphs and You|QID|68798|M|74.22,58.07|Z|2022|QO|1|NC|N|Collect the Dra
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|2|CHAT|N|Speak to Lithragosa.|
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|3|NC|N|View the Dragonriding Skill Track with Lithragosa.|
 C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|4|NC|N|Learn the 'Drake and Rider Training' Skill with Lithragosa.|
+A The Waking Shores Tour|QID|72481|M|73.25,52.11|Z|2022|N|From Celormu. If not available, manually check off.|RANK|3|
 C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celormu.|
 A The Waking Shores Tour|QID|72481|M|73.25,52.11|Z|2022|N|From Celormu.|RANK|3|
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
-T Training Wings|QID|70061|M|59.99,67.90|Z|2022|N|To Majordomo Selistra.|
-T Garden Party|QID|70351|M|60.18,66.46|Z|2022|N|To Akora.|RANK|2|
-A Flowers of our Labor|QID|66827|M|60.18,66.46|Z|2022|N|From Akora.|RANK|2|
-C Flowers of our Labor|QID|66827|M|57.87,65.23|Z|2022|NC|QO|1;2;3|N|Use the fork to knock down fruits.|U|193826|
-C Flowers of our Labor|QID|66827|M|60.22,66.52|Z|2022|NC|QO|4;5;6|N|Click the baskets.|U|193826|
-T Flowers of our Labor|QID|66827|M|60.18,66.46|Z|2022|N|To Akora.|
-T A Nursery Direction|QID|66997|M|55.26,63.54|Z|2022|N|To Vaeros.|
-A Leave Bee Alone|QID|66734|M|55.26,63.54|Z|2022|N|From Vaeros.|RANK|2|
-A Just a Trim|QID|66735|M|55.26,63.54|Z|2022|N|From Vaeros.|RANK|2|
-C Leave Bee Alone|QID|66734|QO|1|M|57.87,65.23|Z|2022|NC|N|Use the smoker, it takes a sec they will get mad then go peacful, Click on them to collect.|S|U|193064|
-C Just a Trim|QID|66735|M|55.26,63.54|Z|2022|NC|N|.|
-C Leave Bee Alone|QID|66734|QO|1|M|57.87,65.23|Z|2022|NC|N|Use the smoker, it takes a sec they will get mad then go peacful, Click on them to collect..|US|U|193064|
-C Leave Bee Alone|QID|66734|QO|2|M|57.87,65.23|Z|2022|NC|N|Use the Extra Action Button to release the Bees.|EAB|
-T Leave Bee Alone|QID|66734|M|55.26,63.54|Z|2022|N|To Vaeros.|
-T Just a Trim|QID|66735|M|55.26,63.54|Z|2022|N|To Vaeros.|
-A Huddle at the Hollow|QID|66828|M|60.18,66.46|Z|2022|N|From Keshki.|RANK|2|
-A A Better Start|QID|66737|M|55.22,63.70|Z|2022|N|From Adazius.|RANK|2|
-C A Better Start|QID|66737|QO|1|M|55.78,63.82|Z|2022|NC|N|Click the dirt spots.|
-C A Better Start|QID|66737|QO|2|M|55.78,63.82|Z|2022|NC|N|.|
-T A Better Start|QID|66737|M|60.18,66.46|Z|2022|N|To Akora.|
-T Hornstrider Havoc|QID|66879|M|53.37,58.44|Z|2022|N|To Dazakros.|
-A Deluge Dilemma|QID|66892|M|53.37,58.44|Z|2022|N|From Dazakros.|RANK|2|
-A Beaky Reclamation|QID|66893|M|53.37,58.44|Z|2022|N|From Dazakros.|RANK|2|
-C Deluge Dilemma|QID|66892|M|52.78,56.51|Z|2022|NC|N|Kill da water eles.|S|
-C Beaky Reclamation|QID|66893|M|52.78,56.51|Z|2022|N|Use the Salve on the Hornstriders.|U|194434|
-C Deluge Dilemma|QID|66892|M|52.78,56.51|Z|2022|NC|N|Kill da water eles.|U|194434|US|
-T Beaky Reclamation|QID|66893|M|53.37,58.44|Z|2022|N|To Dazakros.|
-T Deluge Dilemma|QID|66892|M|53.37,58.44|Z|2022|N|To Dazakros.|
-A Disastrous Detour|QID|69896|M|63.55,61.72|Z|2022|N|From Scout Kuvaeth.|
-T Huddle at the Hollow|QID|66828|M|65.37,63.68|Z|2022|N|To Keshki.|
-
-A Hornswoggled!|QID|66830|M|65.37,63.68|Z|2022|N|From Keshki.|RANK|2|
-C Hornswoggled!|QID|66830|M|65.37,63.68|Z|2022|N|.|
-C Hornswoggled!|QID|66830|M|65.37,63.68|Z|2022|N|.|
-T Hornswoggled!|QID|66830|M|65.37,63.68|Z|2022|N|.|
-
-
-
-
-H Ruby Lifeshrine|ACTIVE|68799|M|61.79,73.83|Z|2022|N|Hearth To Ruby Lifeshrine.|
-T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
+T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|You can just glide back to Alexstrasza the Life-Binder on your dragon.|
+C Friend on the Mend|QID|70058|M|60.88,69.37|Z|2022|NC|N|Ruby feathers are scattered around the pool near Mother Elion.|
+T Friend on the Mend|QID|70058|M|61.44,70.15|Z|2022|N|To Mahra Treebender.|
+T Artisan's Courier|QID|67564|M|60.24,72.19|Z|2022|N|To Thomas Bright.|
+A A Gift for Miguel|QID|67100|PRE|67564|M|60.24,72.19|Z|2022|N|From Thomas Bright.|RANK|2|
+C A Gift for Miguel|QID|1|QO|67100|M|60.24,72.19|Z|2022|CHAT|N|Ask Thomas Bright about crafting materials quality.|
+C The Mandate of the Red|QID|66115|M|61.60,68.69|Z|2022|QO|3|CHAT|N|Ask Mother Elion why she stays here.|
+C The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|QO|4|CHAT|N|Ask Zahkrana how to care for the eggs.|
+T The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|N|To Zahkrana.|
+A Training Wings|QID|70061|PRE|68799|M|62.18,70.56|Z|2022|N|From Amella.|
+C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|V|N|Hop on the Ruby Whelpling.|
+C Training Wings|QID|70061|M|61.92,71.09|Z|2022|QO|4|N|Slay Relentless Gust.|
+C Training Wings|QID|70061|M|61.77,72.40|Z|2022|QO|3|N|Slay Intrusive Pupstinger.|S|
+C Training Wings|QID|70061|M|61.29,71.51|Z|2022|QO|2|N|Slay Agitated Weedling. If you end up at the bottom of the lifeshrine, you can exit the vehicle UI and ask Urlostrasz <Ferry> for a ride back to the top.|
+C Training Wings|QID|70061|M|61.77,72.40|Z|2022|QO|3|N|Slay Intrusive Pupstinger.|US|
+T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|
 A Who Brought the Ruckus?|QID|66931|PRE|70061|M|62.35,73.01|Z|2022|N|From Alexstrasza the Life-Binder.|
-T Artisan's Courier|QID|67564|M|60.21,72.24|Z|2022|N|To Thomas Bright.|
-A A Gift for Miguel|QID|67100|PRE|67564|M|60.21,72.24|Z|2022|N|From Thomas Bright.|RANK|2|
-C A Gift for Miguel|QID|67100|M|59.49,72.73|Z|2022|QO|1|CHAT|N|Talk to Thomas About Quality.|
-C A Gift for Miguel|QID|67100|M|68.98,62.51|Z|2022|QO|2|N|Kill the fire spirits here.|
-T A Gift for Miguel|QID|67100|M|59.49,72.73|Z|2022|N|To Thomas Bright.|
-
-C Who Brought the Ruckus?|QID|66931|M|59.49,72.73|Z|2022|QO|1|NC|N|Commotion discovered.|
+C Who Brought the Ruckus?|QID|66931|M|59.35,72.65|Z|2022|NC|N|Investigate the pool near Akxall to discover the commotion.|
 T Who Brought the Ruckus?|QID|66931|M|59.49,72.66|Z|2022|N|To Majordomo Selistra.|
-
-
-
 A The Primary Threat|QID|66116|PRE|66931|M|59.49,72.66|Z|2022|N|From Majordomo Selistra.|
+T Garden Party|QID|70351|M|60.19,66.46|Z|2022;The Waking Shores|N|To Akora.|
+A Flowers of our Labor|QID|66827|PRE|70351|M|60.19,66.46|Z|2022;The Waking Shores|N|From Akora.|RANK|2|
+C Flowers of our Labor|QID|66827|M|59.60,64.86|Z|2022;The Waking Shores|NC|U|193826|N|Use the provided rake to knock down the dragonfruit, pods are picked up from the ground and the flowers come from killing the flowers in the area.|
+T Flowers of our Labor|QID|66827|M|60.16,66.43|Z|2022;The Waking Shores|N|To Akora.|
+A Huddle at the Hollow|QID|66828|PRE|66827|M|60.19,66.38|Z|2022;The Waking Shores|N|From Keshki.|RANK|2|
+A Disastrous Detour|QID|69896|PRE|66827|M|63.58,61.76|Z|2022;The Waking Shores|N|From Scout Kuvaeth.|RANK|2|
+T Huddle at the Hollow|QID|66828|M|65.35,63.69|Z|2022;The Waking Shores|N|To Keshki.|
+A Hornswoggled!|QID|66830|PRE|66828|M|65.35,63.69|Z|2022;The Waking Shores|N|From Keshki.|RANK|2|
+C Hornswoggled!|QID|66830|M|67.25,64.11|Z|2022;The Waking Shores|NC|U|193918|N|Use the provided jar of fireflies to turn the bullied frogs into pacified frogs, then collect.|
+T Disastrous Detour|QID|69896|M|66.04,58.14|Z|2022;The Waking Shores|N|To Elementalist Taiyang.|
+A Unearthed Troublemakers|QID|66436|PRE|69896|M|66.04,58.14|Z|2022;The Waking Shores|N|From Elementalist Taiyang.|RANK|2|
+A Site Salvage|QID|66435|PRE|69896|M|66.04,58.14|Z|2022;The Waking Shores|N|From Elementalist Taiyang.|RANK|2|
+f Life Vault Ruins|QID|66435|M|65.01,57.35|Z|2022;The Waking Shores|N|At Tallevia Mistsong.|RANK|2|
+A A Key Element|QID|66437|PRE|69896|M|67.45,57.86|Z|2022;The Waking Shores|RANK|2|O|U|191904|N|From Orb of Primal Stone - just looted.|
+C Site Salvage|QID|66435|M|67.65,54.89|Z|2022;The Waking Shores|NC|N|Rescue Explorers.|S|
+C Unearthed Troublemakers|QID|66436|M|67.92,56.86|Z|2022;The Waking Shores|N|Slay Earth Elementals.|
+C Site Salvage|QID|66435|M|67.65,54.89|Z|2022;The Waking Shores|NC|N|Finish rescuing Explorers.|US|
+T Site Salvage|QID|66435|M|66.58,56.06|Z|2022;The Waking Shores|N|To Elementalist Taiyang.|
+T A Key Element|QID|66437|M|66.58,56.06|Z|2022;The Waking Shores|N|To Elementalist Taiyang.|
+A Distilled Effort|QID|66441|PRE|66435&66437|M|66.58,56.06|Z|2022;The Waking Shores|N|From Elementalist Taiyang.|RANK|2|
+A Rapid Fire Plans|QID|66439|PRE|66435&66437|M|66.62,56.05|Z|2022;The Waking Shores|N|From Acadia Chistlestone.|RANK|2|
+A Drainage Solutions|QID|70994|PRE|66435&66437|M|69.64,58.09;70.51,56.85|CS|Z|2022;The Waking Shores|N|From Zikkori.|RANK|2|
+C Drainage Solutions|QID|70994|M|72.29,56.58|Z|2022;The Waking Shores|NC|U|200747|N|Use provided item to siphon the glittery streams.|S|
+C Distilled Effort|QID|66441|M|71.78,56.76|Z|2022;The Waking Shores|NC|N|Kill the large water elemental to loot Orb of Primal Waves.|T|Aquilon|
+C Drainage Solutions|QID|70994|M|72.29,56.58|Z|2022;The Waking Shores|NC|U|200747|N|Use provided item to siphon the glittery streams.|US|
+T Drainage Solutions|QID|70994|M|70.50,56.85|Z|2022;The Waking Shores|N|To Zikkori.|
+C Rapid Fire Plans|QID|66439|M|69.96,65.74|Z|2022;The Waking Shores|QO|1|N|Kill elementals to get the primal flame fragments.|
+C Rapid Fire Plans|QID|66439|M|69.96,65.74|Z|2022;The Waking Shores|QO|2|NC|U|193918|N|Click the fragments to combine into Orb of Primal Flames.|
+C A Gift for Miguel|QID|67100|M|68.86,64.69|Z|2022;The Waking Shores|QO|2|N|Keep killing the Elementals to loot the Fiery Spirits.|
+C Lofty Goals|QID|66438|M|70.62,63.13|Z|2022;The Waking Shores|QO|1|CHAT|U|193918|N|Speak to Scout Ri'tal.|
+C Lofty Goals|QID|66438|M|70.12,61.53|Z|2022;The Waking Shores|QO|2|CHAT|U|193918|N|Run thru the guantlet of whirlwinds to speak to Scout Francisco.|
+R Lofty Goals|ACTIVE|66438|M|69.16,61.63|Z|2022;The Waking Shores|N|Go to the circle on the edge of the cliff to teleport across to where the orb is.|RANK|2|
+C Lofty Goals|QID|66438|M|68.27,61.53|Z|2022;The Waking Shores|QO|3|NC|U|193918|N|Pick up Orb of Primal Gales then stand in the circle just beyond it.|
+T Lofty Goals|QID|66438|M|66.60,56.07|Z|2022;The Waking Shores|N|To Elementalist Taiyang.|
+T Rapid Fire Plans|QID|66439|M|66.60,56.07|Z|2022;The Waking Shores|N|To Elementalist Taiyang.|
+A Let's Get Theoretical|QID|66442|PRE|70994&66438&66439|M|66.60,56.07|Z|2022;The Waking Shores|N|From Elementalist Taiyang.|RANK|2|
+C Let's Get Theoretical|QID|66442|M|66.60,56.07|Z|2022;The Waking Shores|QO|1|CHAT|N|Speak to Elementalist Taiyang.|
+C Let's Get Theoretical|QID|66442|M|66.60,56.07|Z|2022;The Waking Shores|QO|2|NC|N|Watch while they test Fire and Air Orbs.|
+C Let's Get Theoretical|QID|66442|M|66.55,56.06|Z|2022;The Waking Shores|QO|3|NC|U|193918|N|Move to the circle and click your extra action button to test Earth Orbs.|EAB|
+C Let's Get Theoretical|QID|66442|M|66.55,56.06|Z|2022;The Waking Shores|QO|4|NC|U|193918|N|Barrier destroyed.|
+T Let's Get Theoretical|QID|66442|M|66.51,55.96|Z|2022;The Waking Shores|N|To Elementalist Taiyang.|
+A Beyond the Barrier|QID|66447|PRE|66442|M|66.51,55.96|Z|2022;The Waking Shores|N|From Unknown.|RANK|2|
+C Beyond the Barrier|QID|66447|M|66.31,55.62|Z|2022;The Waking Shores|QO|1|N|Slay the Discordant Watcher.|
+C Beyond the Barrier|QID|66447|M|66.11,54.94|Z|2022;The Waking Shores|QO|2|NC|N|Click stone to collect Fragmented Record rubbing.|
+T Hornswoggled!|QID|66830|M|65.35,63.69|Z|2022;The Waking Shores|N|To Keshki.|
+A Home Is Where the Frogs Are|QID|66831|PRE|66830|M|65.35,63.69|Z|2022;The Waking Shores|N|From Keshki.|RANK|2|
+C Home Is Where the Frogs Are|QID|66831|M|60.23,66.45|Z|2022;The Waking Shores|EAB|NC|N|Use Extra Action Button to release the frogs.|
+T Home Is Where the Frogs Are|QID|66831|M|60.18,66.38|Z|2022;The Waking Shores|N|To Keshki.|
+T Nursery Direction|QID|66997|M|55.25,63.45|Z|2022;The Waking Shores|N|To Vaeros.|
+A Leave Bee Alone|QID|66734|PRE|66831&66997|M|55.25,63.45|Z|2022;The Waking Shores|N|From Vaeros.|RANK|2|
+A Just a Trim|QID|66735|PRE|66831&66997|M|55.25,63.45|Z|2022;The Waking Shores|N|From Vaeros.|RANK|2|
+C Just a Trim|QID|66735|M|57.19,64.47|Z|2022;The Waking Shores|N|Click the glowing shrubs to prune them.|S|
+C Leave Bee Alone|QID|66734|M|55.72,64.46|Z|2022;The Waking Shores|QO|1|NC|N|Bothersome Bees bagged.|
+C Just a Trim|QID|66735|M|57.19,64.47|Z|2022;The Waking Shores|N|Finish pruning the shrubs before you head over to release the bees.|US|
+C Leave Bee Alone|QID|66734|M|57.13,70.35|Z|2022;The Waking Shores|QO|2|NC|EAB|N|Use Extra Action button to release the Bothersome Bees at their new home.|
+T Just a Trim|QID|66735|M|55.26,63.48|Z|2022;The Waking Shores|N|To Vaeros.|
+T Hornstrider Havoc|QID|66879|M|53.43,58.40|Z|2022;The Waking Shores|N|To Dazakros.|
+A Deluge Dilemma|QID|66892|PRE|66735&66879|M|53.43,58.40|Z|2022;The Waking Shores|N|From Dazakros.|RANK|2|
+A Beaky Reclamation|QID|66893|PRE|66735&66879|M|53.43,58.40|Z|2022;The Waking Shores|N|From Dazakros.|RANK|2|
+C Beaky Reclamation|QID|66893|M|52.61,57.95|Z|2022;The Waking Shores|U|194434|NC|N|Use the provided potion to heal the Injured Hornstriders healed.|S|
+C Deluge Dilemma|QID|66892|M|51.49,58.30|Z|2022;The Waking Shores|N|Slay Water Elementals.|
+C Beaky Reclamation|QID|66893|M|52.61,57.95|Z|2022;The Waking Shores|U|194434|NC|N|Use the provided potion to heal the Injured Hornstriders healed.|US|
+T Deluge Dilemma|QID|66892|M|53.42,58.36|Z|2022;The Waking Shores|N|To Dazakros.|
+T Beaky Reclamation|QID|66893|M|53.42,58.36|Z|2022;The Waking Shores|N|To Dazakros.|
+; did i miss this and it was available with <leave bee alone> and <just a trim>?
+A A Better Start|QID|66737|PRE|66892&66893|M|55.19,63.68|Z|2022;The Waking Shores|N|From Adazius.|RANK|2|
+C A Better Start|QID|66737|M|55.64,64.63|Z|2022;The Waking Shores|QO|1|NC|N|Seeds matured.|
+T A Better Start|QID|66737|M|55.20,63.70|Z|2022;The Waking Shores|N|To Adazius.|
+R Holthkastrasz <Ferry>|ACTIVE|67100|M|56.87,66.55|Z|2022|N|Take the Ferry up to the Ruby Lifeshrine.|RANK|2|
+T A Gift for Miguel|QID|67100|M|60.23,72.19|Z|2022;The Waking Shores|N|To Thomas Bright.|
+A Professionally Equipped|QID|67137|PRE|66737&70132&67100|M|59.86,71.60|Z|2022;The Waking Shores|N|From Miguel Bright.|RANK|2|
+C Professionally Equipped|QID|67137|M|61.45,70.15|Z|2022;The Waking Shores|QO|1|CHAT|N|Speak with Mahra Treebender.|
+C Professionally Equipped|QID|67137|M|61.45,70.15|Z|2022;The Waking Shores|QO|2|NC|N|Wait for Mahra to Craft Your Gear.|
+T Professionally Equipped|QID|67137|M|61.45,70.17|Z|2022;The Waking Shores|N|To Mahra Treebender.|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|2|NC|N|Report to Commander Lethanak.|
 T The Primary Threat|QID|66116|M|59.41,75.89|Z|2022|N|To Commander Lethanak.|
-A Clear the Battlefield|QID|66117|PRE|66116|M|59.41,75.89|Z|2022|N|From Commander Lethanak.|
+A Clear the Battlefield|QID|66117|PRE|66116|M|59.41,75.89|Z|2022|N|Bonus Objective - Autoaccepted.|
 A Basalt Assault|QID|66118|PRE|66116|M|59.41,75.89|Z|2022|N|From Commander Lethanak.|
-C Basalt Assault|QID|66118|M|60.99,79.21|Z|2022|QO|1|N|Enraged Cliff slain.|
+C Basalt Assault|QID|66118|M|60.99,79.21|Z|2022|N|Slay Enraged Cliffs.|
 T Basalt Assault|QID|66118|M|59.41,75.89|Z|2022|N|To Commander Lethanak.|
 A Proto-Fight|QID|66122|PRE|66118|M|59.41,75.89|Z|2022|N|From Commander Lethanak.|
 A Egg Evac|QID|66121|PRE|66118|M|59.47,76.14|Z|2022|N|From Majordomo Selistra.|
-A Klozicc the Ascended|QID|66960|PRE|66118|M|55.96,81.39|Z|2022|N|From Galestrike Primalist.|
-C Egg Evac|QID|66121|M|56.10,81.30|Z|2022|QO|1|NC|N|Bronze Egg rescued.|
-C Egg Evac|QID|66121|M|54.98,81.01|Z|2022|QO|4|NC|N|Ruby Egg rescued.|
-C Egg Evac|QID|66121|M|55.32,83.24|Z|2022|QO|3|NC|N|Emerald Egg rescued.|
-C Egg Evac|QID|66121|M|57.32,83.23|Z|2022|QO|2|NC|N|Azure Egg rescued.|
-T Egg Evac|QID|66121|M|53.69,80.19|Z|2022|N|To Majordomo Selistra.|
+A Ruby Life Pools: Primalist Invasion|QID|66119|M|59.96,75.96|N|Dungeon Quest, Accept or not as you choose.|
 C Proto-Fight|QID|66122|M|54.29,81.38|Z|2022|QO|1|NC|U|192436|N|Use the Ruby Harpoon on a proto-dragon (Optional).|
-C Proto-Fight|QID|66122|M|56.13,80.88|Z|2022|QO|2|U|192436|N|Proto-dragons slain.|
+C Proto-Fight|QID|66122|M|56.13,80.88|Z|2022|QO|2|U|192436|N|Slay Proto-dragons.|S|
+C Egg Evac|QID|66121|M|56.10,81.30|Z|2022|QO|1|NC|N|Rescue Bronze Egg.|
+C Egg Evac|QID|66121|M|54.98,81.01|Z|2022|QO|4|NC|N|Rescue Ruby Egg.|
+A Klozicc the Ascended|QID|66960|PRE|66118|M|55.96,81.39|Z|2022|N|Bonus Objective - Autoaccepted.|
+K Klozicc the Ascended|ACTIVE|66960|QO|1|M|55.96,81.39|Z|2022|T|Klozicc the Ascended|
+C Egg Evac|QID|66121|M|56.10,81.30|Z|2022|QO|1|NC|N|Rescue Bronze Egg.|
+C Egg Evac|QID|66121|M|54.98,81.01|Z|2022|QO|4|NC|N|Rescue Ruby Egg.|
+C Egg Evac|QID|66121|M|55.32,83.24|Z|2022|QO|3|NC|N|Rescue Emerald Egg.|
+C Egg Evac|QID|66121|M|57.32,83.23|Z|2022|QO|2|NC|N|Rescue Azure Egg.|
+C Proto-Fight|QID|66122|M|56.13,80.88|Z|2022|QO|2|U|192436|N|Slay Proto-dragons.|US|
 T Proto-Fight|QID|66122|M|53.68,80.17|Z|2022|N|To Majordomo Selistra.|
+T Egg Evac|QID|66121|M|53.69,80.19|Z|2022|N|To Majordomo Selistra.|
 A Cut Off the Head|QID|66123|PRE|66122|M|53.68,80.17|Z|2022|N|From Majordomo Selistra.|
-C Cut Off the Head|QID|66123|M|53.55,82.68|Z|2022|QO|1|U|192436|N|Jadzigeth slain.|
+C Cut Off the Head|QID|66123|M|53.55,82.68|Z|2022|U|192436|N|Slay Jadzigeth.|T|Jadzigeth|
 T Cut Off the Head|QID|66123|M|53.68,80.15|Z|2022|N|To Majordomo Selistra.|
 A Exeunt, Triumphant|QID|66124|PRE|66123|M|53.68,80.15|Z|2022|N|From Majordomo Selistra.|
-C Exeunt, Triumphant|QID|66124|M|46.13,78.51|Z|2022|QO|1|CHAT|N|Speak to Majordomo Selistra at the Wild Hatchery.|
+; not sure this is really a good place. i found it because I was doing stuff out of order and mining -- A Out for Delivery|QID|66963|M|48.48,78.86|Z|2022|N|From Hauler Bennet.|RANK|2|
+C Exeunt, Triumphant|QID|66124|M|46.13,78.51|Z|2022|QO|1|CHAT|N|Check in with Majordomo Selistra at the Wild Hatchery.|
 T Exeunt, Triumphant|QID|66124|M|46.15,78.52|Z|2022|N|To Majordomo Selistra.|
 A Wrathion Awaits|QID|66079|PRE|66124|M|46.09,78.28|Z|2022|N|From Alexstrasza the Life-Binder.|
-T Wrathion Awaits|QID|66079|M|42.47,66.82|Z|2022|N|To Wrathion.|
+T Wrathion Awaits|QID|66079|M|47.77,67.11;42.47,66.82|CS|Z|2022|N|To Wrathion.|
 A Lessons from Our Past|QID|72241|PRE|66079|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
 C Lessons from Our Past|QID|72241|M|42.47,66.82|Z|2022|QO|1|CHAT|N|Speak with Scalecommander Emberthal to learn of past events.|
 T Lessons from Our Past|QID|72241|M|42.46,66.80|Z|2022|N|To Scalecommander Emberthal.|
-A Best Plans and Intentions|QID|66048|PRE|72241|M|42.46,66.80|Z|2022|N|From Unknown.|
-A Sharp Practice|QID|66078|PRE|72241|M|42.47,66.84|Z|2022|
+A Best Plans and Intentions|QID|66048|PRE|72241|M|42.46,66.80|Z|2022|N|From Scalecommander Emberthal.|
+A Sharp Practice|QID|66078|PRE|72241|M|42.47,66.84|Z|2022|N|From Wrathion.|
 f Obsidian Bulwark|QID|66078|M|42.26,66.22|Z|2022|N|At Do-Yeon Shadowrider.|
-C Best Plans and Intentions|QID|66048|M|43.76,67.30|Z|2022|QO|2|CHAT|N|Archivist Edres consulted.|
-C Best Plans and Intentions|QID|66048|M|42.23,69.31|Z|2022|QO|3|CHAT|N|Talonstalker Kavia consulted.|
-C Best Plans and Intentions|QID|66048|M|42.41,66.06|Z|2022|QO|1|CHAT|N|Fao the Relentless consulted.|
-C Best Plans and Intentions|QID|66048|M|42.83,66.85|Z|2022|QO|4|CHAT|N|Forgemaster Bazentus consulted.|
+C Best Plans and Intentions|QID|66048|M|42.41,66.06|Z|2022|QO|1|CHAT|N|Consult Fao the Relentless and then click on the plans in his tent.|
+C Sharp Practice|QID|66078|M|42.61,67.45|Z|2022|N|Invite the Blacktalon Avengers and Assasins in the area to fight with you.|S|
+C Best Plans and Intentions|QID|66048|M|42.83,66.85|Z|2022|QO|4|CHAT|N|Consult Forgemaster Bazentus.|
+C Best Plans and Intentions|QID|66048|M|43.76,67.30|Z|2022|QO|2|CHAT|N|Ask Archivist Edres about her research.|
+C Best Plans and Intentions|QID|66048|M|42.29,69.29|Z|2022|QO|3|CHAT|N|Ask Talonstalker Kavia what she has observed and then look thru her spyglass.|
+C Sharp Practice|QID|66078|M|42.61,67.45|Z|2022|N|Finish up testing the Blacktalon.|US|
 T Best Plans and Intentions|QID|66048|M|42.47,66.85|Z|2022|N|To Wrathion.|
-C Sharp Practice|QID|66078|M|42.61,67.45|Z|2022|QO|1|NC|N|Blacktalon tested.|
-T Sharp Practice|QID|66078|M|42.47,66.86|Z|2022|
-A Talon Strike|QID|65956|PRE|66048&66078|M|42.47,66.86|Z|2022|N|From Wrathion.|
+T Sharp Practice|QID|66078|M|42.47,66.86|Z|2022|N|To Wrathion.|
+A Talon Strike|QID|65956|PRE|66048&66078|M|42.47,66.86|Z|2022|N|From Wrathion (after a bit of dialog).|
 A No Time For Heroes|QID|65957|PRE|66048&66078|M|42.47,66.86|Z|2022|
-C No Time For Heroes|QID|65957|M|34.91,67.08|Z|2022|QO|3|N|Olphis the Molten slain.|
-C No Time For Heroes|QID|65957|M|35.31,66.83|Z|2022|QO|1|N|Piercer Gigra slain.|
-C No Time For Heroes|QID|65957|M|35.59,60.85|Z|2022|QO|2|N|Modak Flamespit slain.|
+C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|S|
+C No Time For Heroes|QID|65957|M|34.82,66.91|Z|2022|QO|3|N|Slay Olphis the Molten.|T|Olphis the Molten|
+C No Time For Heroes|QID|65957|M|35.53,68.52|Z|2022|QO|1|N|Slay Piercer Gigra on the top of the tower.|T|Piercer Gigra|
+C No Time For Heroes|QID|65957|M|35.59,60.85|Z|2022|QO|2|N|Slay Modak Flamespit on the top of the tower.|T|Modak Flamespit|
+C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|US|
 T No Time For Heroes|QID|65957|M|34.01,61.29|Z|2022|N|To Wrathion.|
-C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|QO|1|NC|N|Djaradin defenses disrupted (100%).|
 T Talon Strike|QID|65956|M|33.98,61.30|Z|2022|N|To Wrathion.|
 A The Courage of One's Convictions|QID|65939|PRE|65957&65956|M|33.98,61.30|Z|2022|N|From Wrathion.|
 C The Courage of One's Convictions|QID|65939|M|33.98,61.30|Z|2022|QO|1|CHAT|N|Speak with Wrathion to begin the assault.|
-C The Courage of One's Convictions|QID|65939|M|30.55,60.89|Z|2022;The Waking Shores|QO|2|NC|N|Obsidian Citadel entered.|
+C The Courage of One's Convictions|QID|65939|M|30.55,60.89|Z|2022;The Waking Shores|QO|2|NC|N|Walk forward to enter the Obsidian Citadel.|
 A Taking the Walls|QID|66044|PRE|65957&65956|M|29.15,58.80|Z|2022;The Waking Shores|N|From Wrathion.|
-C Taking the Walls|QID|66044|M|29.13,58.85|Z|2022;The Waking Shores|QO|1|NC|N|Assist Wrathion.|
-C Taking the Walls|QID|66044|M|26.80,59.88|Z|2022;The Waking Shores|QO|2|NC|N|South Siege Arbalast destroyed.|
-C Taking the Walls|QID|66044|M|29.50,61.05|Z|2022;The Waking Shores|QO|3|NC|N|East Siege Arbalast destroyed.|
-C Taking the Walls|QID|66044|M|27.75,56.44|Z|2022;The Waking Shores|QO|4|NC|N|North Siege Arbalast destroyed.|
-C Taking the Walls|QID|66044|M|27.22,56.31|Z|2022;The Waking Shores|QO|5|N|Champion Choruk slain.|
-C The Courage of One's Convictions|QID|65939|M|26.66,58.52|Z|2022;The Waking Shores|QO|3|N|Qalashi Forces slain.|
+C Taking the Walls|QID|66044|M|29.13,58.85|Z|2022;The Waking Shores|QO|1|CHAT|N|Assist Wrathion.|
+C The Courage of One's Convictions|QID|65939|M|26.66,58.52|Z|2022;The Waking Shores|QO|3|N|Slay Qalashi Forces.|S|
+C Taking the Walls|QID|66044|M|26.80,59.88|Z|2022;The Waking Shores|QO|2|NC|N|Destroy south siege arbalast and then ask Wration for a ride to the next arbalast.|
+C Taking the Walls|QID|66044|M|29.50,61.05|Z|2022;The Waking Shores|QO|3|NC|N|Destroy East Siege Arbalast.|
+C Taking the Walls|QID|66044|M|27.75,56.44|Z|2022;The Waking Shores|QO|4|NC|N|Destroy North Siege Arbalast.|
+C Taking the Walls|QID|66044|M|26.41,58.79|Z|2022;The Waking Shores|QO|5|N|Slay Champion Choruk.|T|Champion Choruk|
+C The Courage of One's Convictions|QID|65939|M|26.57,58.74|Z|2022;The Waking Shores|QO|3|N|Finish slaying Qalashi Forces.|US|
 T The Courage of One's Convictions|QID|65939|M|26.45,58.76|Z|2022;The Waking Shores|N|To Wrathion.|
 T Taking the Walls|QID|66044|M|26.45,58.76|Z|2022;The Waking Shores|N|To Wrathion.|
 A Obsidian Oathstone|QID|66049|PRE|65939&66044|M|26.45,58.76|Z|2022;The Waking Shores|N|From Wrathion.|
 C Obsidian Oathstone|QID|66049|M|27.30,62.57|Z|2022;The Waking Shores|QO|1|CHAT|N|Speak with Wrathion at the Oathstone.|
-C Obsidian Oathstone|QID|66049|M|27.60,63.29|Z|2022;The Waking Shores|QO|2|NC|N|Oathstone examined.|
+C Obsidian Oathstone|QID|66049|M|27.60,63.29|Z|2022;The Waking Shores|QO|2|NC|N|Examine the Oathstone.|
 T Obsidian Oathstone|QID|66049|M|27.30,62.57|Z|2022;The Waking Shores|N|To Wrathion.|
 A A Shattered Past|QID|66055|PRE|66049|M|27.26,62.80|Z|2022;The Waking Shores|N|From Forgemaster Bazentus.|
 C A Shattered Past|QID|66055|M|27.08,60.79|Z|2022;The Waking Shores|QO|1|NC|N|Enter vaults beneath the Citadel.|
-C A Shattered Past|QID|66055|M|24.97,54.61|Z|2022;The Waking Shores|QO|2|NC|N|Oathstone Fragment.|
+C A Shattered Past|QID|66055|M|24.97,54.61|Z|2022;The Waking Shores|QO|2|NC|N|Pick up Oathstone Fragments throughout the vaults.|
 T A Shattered Past|QID|66055|M|27.26,62.80|Z|2022;The Waking Shores|N|To Forgemaster Bazentus.|
 A Forging A New Future|QID|66056|PRE|66055|M|27.26,62.80|Z|2022;The Waking Shores|N|From Forgemaster Bazentus.|
-C Forging A New Future|QID|66056|M|24.64,60.87|Z|2022;The Waking Shores|QO|1|NC|N|Earth-Warder's Forge Activated.|
-C Forging A New Future|QID|66056|M|24.40,60.16|Z|2022;The Waking Shores|QO|2|NC|N|Cindershard Coal collected.|
+C Forging A New Future|QID|66056|M|24.64,60.87|Z|2022;The Waking Shores|QO|1|NC|N|Activate Earth-Warder's Forge.|
+C Forging A New Future|QID|66056|M|24.40,60.16|Z|2022;The Waking Shores|QO|2|NC|N|Collect cindershard coal.|
 T Forging A New Future|QID|66056|M|24.67,61.10|Z|2022;The Waking Shores|N|To Forgemaster Bazentus.|
 A The Spark|QID|66354|PRE|66056|M|24.67,61.10|Z|2022;The Waking Shores|N|From Forgemaster Bazentus.|
-C The Spark|QID|66354|M|24.62,60.92|Z|2022;The Waking Shores|QO|1|NC|N|Fragments placed on forge.|
-C The Spark|QID|66354|M|24.65,60.91|Z|2022;The Waking Shores|QO|2|NC|N|Fragments repaired.|
-C The Spark|QID|66354|M|24.62,60.91|Z|2022;The Waking Shores|QO|3|NC|N|Reformed Pieces collected.|
+C The Spark|QID|66354|M|24.62,60.92|Z|2022;The Waking Shores|QO|1|NC|N|Place fragments on forge.|
+C The Spark|QID|66354|M|24.65,60.91|Z|2022;The Waking Shores|QO|2|NC|N|Watch and wait.|
+C The Spark|QID|66354|M|24.62,60.91|Z|2022;The Waking Shores|QO|3|NC|N|Collect reformed pieces.|
 T The Spark|QID|66354|M|24.68,61.12|Z|2022;The Waking Shores|N|To Forgemaster Bazentus.|
 A Restoring the Faith|QID|66057|PRE|66354|M|24.68,61.12|Z|2022;The Waking Shores|N|From Forgemaster Bazentus.|
 C Restoring the Faith|QID|66057|M|27.31,62.59|Z|2022;The Waking Shores|QO|1|CHAT|N|Speak with Wrathion.|
-C Restoring the Faith|QID|66057|M|27.09,62.21|Z|2022;The Waking Shores|QO|2|NC|N|Travel with Wrathion to the Throne.|
+C Restoring the Faith|QID|66057|M|27.09,62.21|Z|2022;The Waking Shores|QO|2|V|N|Travel with Wrathion to the Throne.|
 C Restoring the Faith|QID|66057|M|25.10,56.41|Z|2022;The Waking Shores|QO|3|NC|N|Approach Wrathion and Sabellian.|
-f Obsidian Throne|QID|66057|M|24.41,55.48|Z|2022;The Waking Shores|N|At Wrathion.|
 T Restoring the Faith|QID|66057|M|24.41,55.48|Z|2022;The Waking Shores|N|To Wrathion.|
 A Claimant to the Throne|QID|66780|PRE|66057|M|24.41,55.48|Z|2022;The Waking Shores|N|From Wrathion.|
 A Heir Apparent|QID|66779|PRE|66057|M|24.25,55.84|Z|2022;The Waking Shores|N|From Sabellian.|
@@ -426,25 +456,25 @@ C Claimant to the Throne|QID|66780|M|25.02,55.18|Z|2022;The Waking Shores|QO|2|C
 T Claimant to the Throne|QID|66780|M|24.42,55.49|Z|2022;The Waking Shores|N|To Wrathion.|
 T Heir Apparent|QID|66779|M|24.28,55.86|Z|2022;The Waking Shores|N|To Sabellian.|
 A Black Wagon Flight|QID|65793|PRE|66780&66779|M|24.28,55.86|Z|2022;The Waking Shores|N|From Sabellian.|
-C Black Wagon Flight|QID|65793|M|25.28,56.81|Z|2022;The Waking Shores|QO|1|NC|N|Hop on a dragonriding mount (Optional).|
+C Black Wagon Flight|QID|65793|M|25.28,56.81|Z|2022;The Waking Shores|QO|1|N|Hop on your own dragonriding mount. (Optional).|
 C Black Wagon Flight|QID|65793|M|43.85,66.42|Z|2022;The Waking Shores|QO|2|CHAT|N|Speak with Sabellian to begin moving the eggs.|
 C Black Wagon Flight|QID|65793|M|52.48,66.89|Z|2022;The Waking Shores|QO|3|NC|N|Escort the wagon.|
 T Black Wagon Flight|QID|65793|M|57.95,67.30|Z|2022;The Waking Shores|N|To Sabellian.|
 A The Last Eggtender|QID|66785|PRE|65793|M|57.95,67.30|Z|2022;The Waking Shores|N|From Sabellian.|
 T The Last Eggtender|QID|66785|M|61.60,68.71|Z|2022;The Waking Shores|N|To Mother Elion.|
 A Egg-cited for the Future|QID|66788|PRE|66785|M|61.60,68.71|Z|2022;The Waking Shores|N|From Mother Elion.|
-C Egg-cited for the Future|QID|66788|M|61.41,68.41|Z|2022;The Waking Shores|QO|1|NC|N|Sweep Fallen Leaves.|
-C Egg-cited for the Future|QID|66788|M|61.52,69.10|Z|2022;The Waking Shores|QO|2|NC|N|Pull Overgrown Weeds.|
+C Egg-cited for the Future|QID|66788|M|61.52,69.10|Z|2022;The Waking Shores|QO|2|NC|N|Click the green piles and walk away to pull Overgrown Weeds.|S|
+C Egg-cited for the Future|QID|66788|M|61.41,68.41|Z|2022;The Waking Shores|QO|1|NC|N|Click on the red piles of Fallen Leaves.|
+C Egg-cited for the Future|QID|66788|M|61.52,69.10|Z|2022;The Waking Shores|QO|2|NC|N|Click the green piles and walk away to pull Overgrown Weeds.|US|
 C Egg-cited for the Future|QID|66788|M|61.44,69.05|Z|2022;The Waking Shores|QO|3|NC|N|Polish Ruby Shrineguard.|
-L Level 63|QID|66788|LVL|63|N|You should be around level 63 by this point.|
 T Egg-cited for the Future|QID|66788|M|61.60,68.72|Z|2022;The Waking Shores|N|To Mother Elion.|
 A Life-Binder on Duty|QID|65791|PRE|66788|M|61.60,68.72|Z|2022;The Waking Shores|N|From Mother Elion.|
 T Life-Binder on Duty|QID|65791|M|62.35,73.02|Z|2022;The Waking Shores|N|To Alexstrasza the Life-Binder.|
 A A Charge of Care|QID|65794|PRE|65791|M|62.35,73.02|Z|2022;The Waking Shores|N|From Alexstrasza the Life-Binder.|
-C A Charge of Care|QID|65794|M|61.52,68.59|Z|2022;The Waking Shores|QO|1|NC|N|Ruby Oathstone empowered.|
+C A Charge of Care|QID|65794|M|61.52,68.59|Z|2022;The Waking Shores|CHAT|N|Watch the cutscene as the Ruby Oathstone becomes empowered.|
 T A Charge of Care|QID|65794|M|61.57,68.54|Z|2022;The Waking Shores|N|To Alexstrasza the Life-Binder.|
 A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022;The Waking Shores|N|From Alexstrasza the Life-Binder.|
-T Next Steppes|QID|65795|M|48.27,88.67|Z|2022;The Waking Shores|N|To Ambassador Taurasza.|
+T Next Steppes|QID|65795|M|48.27,88.67|Z|2022;The Waking Shores|N|To Ambassador Taurasza. You can run or glide on your dragon to get to him.|
 A Into the Plains|QID|65779|PRE|65795|M|48.27,88.67|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|
 ]]
 
