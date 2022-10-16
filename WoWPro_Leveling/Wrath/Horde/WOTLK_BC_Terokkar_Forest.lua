@@ -90,29 +90,30 @@ A A Personal Favor|QID|10112|M|72.21,30.76|Z|Shattrath City|N|From Wind Trader L
 T Speak with Scout Neftis|QID|10039|M|39.03,43.74|N|To Scout Neftis.|
 N Dismount|AVAILABLE|10041|N|You can't be on your mount for the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Who Are They?|QID|10041|M|39.03,43.74|N|From Scout Neftis.|PRE|10039|
-C Shadowy Disguise|ACTIVE|10041|M|39.03,43.74|QO|1;2;3|N|You lost your disguise. Speak with Scout Neftis to get another.|CHAT|BUFF|32756|
-C Who Are They?|QID|10041|M|39.02,39.61|QO|1|N|The Initiate is by the pond.\n[color=FF0000]NOTE: [/color]Your disguise will be removed if you cast ANY spell or use a mount to ride.|T|Shadowy Initiate|CHAT|BUFF|-32756|
-C Who Are They?|QID|10041|M|38.24,41.02|QO|2|N|The Laborer wanders all over the place.|T|Shadowy Laborer|CHAT|BUFF|-32756|
-C Who Are They?|QID|10041|M|40.29,38.98|QO|3|N|The Advisor is inside the large building.|T|Shadowy Advisor|CHAT|BUFF|-32756|
+N Protect your disguise|ACTIVE|10041|N|Do not do anything except talk to the intended targets while disguised or you'll lose it.\n[color=FF0000]NOTE: [/color]Speak with Scout Neftis to get another one if you do.\nManually check this step off to continue.|
+C Who Are They?|QID|10041|M|38.24,41.02|QO|2|N|The Laborer wanders all over the place.|CHAT|S|
+C Who Are They?|QID|10041|M|39.03,39.67|QO|1|N|The Initiate is by the pond.\n[color=FF0000]NOTE: [/color]The Hunters can see through your disguise; avoid them.|T|Shadowy Initiate|CHAT|
+C Who Are They?|QID|10041|M|40.31,39.04|QO|3|N|The Advisor is inside the large building.\n[color=FF0000]NOTE: [/color]There shouldn't be any Hunters inside.|T|Shadowy Advisor|CHAT|
+C Who Are They?|QID|10041|M|39.80,41.97;38.08,41.12|CS|QO|2|N|The Laborer pathes between the tower on the east and the one on the west (with the ladder).\n[color=FF0000]NOTE: [/color]The Hunters can see through your disguise; avoid them.|T|Shadowy Laborer|CHAT|US|
 T Who Are They?|QID|10041|M|39.03,43.74|N|To Scout Neftis.|
 A Kill the Shadow Council!|QID|10043|M|39.03,43.74|N|From Scout Neftis.|PRE|10041|
-K Kill the Shadow Council!|QID|10043|M|40.3,39.0|QO|1|N|[Coords]Shadowmaster Grieve is inside the big building where you found the Shadowy Advisor.|
-T Seek Out Kirrik|QID|10849|M|37.4,51.5|N|[Coords]To Kirrik the Awakened.|
-A Veil Skith: Darkstone of Terokk|QID|10839|M|37.4,51.5|N|[Coords]From Kirrik the Awakened.|PRE|10849|
-A Before Darkness Falls|QID|10878|M|37.4,51.2|N|[Coords]From Mekeda. He tends to wander around.|
+K Kill the Shadow Council!|ACTIVE|10043|M|40.30,39.04|QO|1;2|N|They are all over Grangol'var Village.|S|
+K Shadowmaster Grieve|ACTIVE|10043|M|40.30,39.04|QO|3|N|Shadowmaster Grieve is inside the big building where you found the Shadowy Advisor.|
+K Kill the Shadow Council!|ACTIVE|10043|M|40.30,39.04|QO|1;2|N|They are all over Grangol'var Village.|US|
+T Seek Out Kirrik|QID|10849|M|37.26,50.86|N|To Kirrik the Awakened in Refugee Caravan pacing back and forth in front the broken down wagon.|
+A Veil Skith: Darkstone of Terokk|QID|10839|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10849|
 A Missing Friends|QID|10852|M|37.74,51.34|N|From Ethan.|PRE|10849|
 A The Infested Protectors|QID|10896|M|37.86,51.69|N|From Lakotae.|
-T Seek Out Kirrik|QID|10849|M|37.4,51.5|N|[Coords]To Kirrik the Awakened.|
-A Veil Skith: Darkstone of Terokk|QID|10839|M|37.4,51.5|N|[Coords]From Kirrik the Awakened.|PRE|10849|
-A Before Darkness Falls|QID|10878|M|37.4,51.2|N|[Coords]From Mekeda. He tends to wander around.|
-C Missing Friends|QID|10852|M|32.3,41.7|N|[Coords]Kill bird mobs and get Prison Keys. Use the keys on the cages until you finish this quest.|S|
-C A Personal Favor|QID|10112|M|32.3,41.7|N|[Coords]Kill bird mobs until you finish this quest.|S|
-C Veil Skith: Darkstone of Terokk|QID|10839|M|30.80,42.00|N|Use the Rod of Purification.|U|31610|
-K Stymying the Arakkoa|ACTIVE|9987|M|31.00,43.00|QO|3|N|Urdak is in the trees.|
-C Missing Friends|QID|10852|M|32.3,41.7|N|[Coords]Kill bird mobs and get Prison Keys. Use the keys on the cages until you finish this quest.|US|
-C A Personal Favor|QID|10112|M|32.3,41.7|N|[Coords]Kill bird mobs until you finish this quest.|US|
-T Veil Skith: Darkstone of Terokk|QID|10839|M|37.4,51.5|N|[Coords]To Kirrik the Awakened.|
-A Veil Rhaze: Unliving Evil|QID|10848|M|37.4,51.5|N|[Coords]From Kirrik the Awakened.|PRE|10839|
+A Before Darkness Falls|QID|10878|M|37.26,50.86|N|From Mekeda circling the broken down wagon.|
+l Prison Key|ACTIVE|10852|M|31.05,42.29|L|31655|ITEM|31655|N|Skithian Dreadhawk or Windripper|S!US|
+C Missing Friends|QID|10852|M|31.05,42.29|QO|1|N|To release the children, unlock the Veil Skith Cages with Prison keys looted from the Skithian Dreadhawks or Windrippers.|NC|S|
+C A Personal Favor|QID|10112|M|31.05,42.29|L|27861 5|ITEM|27861|N|Skithian Dreadhawk or Windripper|S|
+C Veil Skith: Darkstone of Terokk|QID|10839|M|30.82,42.03|N|Clear the area and use the Rod of Purification on the stone.|U|31610|NC|
+K Stymying the Arakkoa|ACTIVE|9987|M|31.48,41.95|QO|3|N|Urdak circles the platform.|
+C A Personal Favor|QID|10112|M|31.05,42.29|L|27861 5|ITEM|27861|N|Skithian Dreadhawk or Windripper|US|
+C Missing Friends|QID|10852|M|31.05,42.29|QO|1|N|To release the children, unlock the Veil Skith Cages with Prison keys looted from the Skithian Dreadhawks or Windrippers.|NC|US|
+T Veil Skith: Darkstone of Terokk|QID|10839|M|37.26,50.86|N|To Kirrik the Awakened.|
+A Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10839|
 T Missing Friends|QID|10852|M|37.74,51.34|N|To Ethan.|
 A The Tomb of Lights|QID|10840|M|37.45,50.77|N|From High Priest Orglum.|PRE|10852|
 A Vengeful Souls|QID|10842|M|37.45,50.77|N|From Hight Priest Orglum.|PRE|10852|
@@ -130,9 +131,9 @@ K Wanted: Bonelashers Dead!|ACTIVE|10034|M|42,51|QO|1|N|[Coords]|US|
 C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba Seeds are found on the ground spread all across Terokkar.|US|
 T The Tomb of Lights|QID|10840|M|37.45,50.77|N|To High Priest Orglum.|
 T Vengeful Souls|QID|10842|M|50.8,54.8|N|[Coords]To Draenei Ascendant.|
-T Before Darkness Falls|QID|10878|M|37.4,51.2|N|[Coords]To Mekeda.|
-T Cabal Orders|QID|10880|M|37.4,51.2|N|[Coords]To Mekeda.|
-A The Shadow Tomb|QID|10881|M|37.4,51.2|N|[Coords]From Mekeda.|PRE|10880|
+T Before Darkness Falls|QID|10878|M|37.26,50.86|N|To Mekeda.|
+T Cabal Orders|QID|10880|M|37.26,50.86|N|To Mekeda.|
+A The Shadow Tomb|QID|10881|M|37.26,50.86|N|From Mekeda.|PRE|10880|
 A Recover the Bones|QID|10030|M|37.05,49.52|N|From Soolaveen.|PRE|10840&10842|
 H Shattrath City|ACTIVE|10112|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|ACTIVE|10112|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
@@ -203,9 +204,9 @@ C The Shadow Tomb|QID|10881|M|32.10,51.20|QO|1|N|Loot the Drape from the chest h
 C The Shadow Tomb|QID|10881|M|31.20,46.70|QO|3|N|Loot the scroll from the chest here, then accept the escort quest.|NC|
 A Escaping the Tomb|QID|10887|M|30.60,49.00|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Akuno.|
 C Escaping the Tomb|QID|10887|M|33.92,51.47|N|Do this escort quest.|
-T Veil Rhaze: Unliving Evil|QID|10848|M|37.4,51.5|N|[Coords]To Kirrik the Awakened.|
-A Veil Lithic: Preemptive Strike|QID|10861|M|37.4,51.5|N|[Coords]From Kirrik the Awakened.|PRE|10848|
-T The Shadow Tomb|QID|10881|M|37.4,51.2|N|[Coords]To Mekeda.|
+T Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|To Kirrik the Awakened.|
+A Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10848|
+T The Shadow Tomb|QID|10881|M|37.26,50.86|N|To Mekeda.|
 T Escaping the Tomb|QID|10887|N|To Mekeda.|
 C Veil Lithic: Preemptive Strike|QID|10861|M|26.00,71.00|N|Loot Cursed Eggs here until you finish this quest.|NC|
 A An Improper Burial|QID|10913|M|31.01,76.12|N|From Commander Ra'vaj.|
@@ -233,8 +234,8 @@ C What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|N|Ta
 T What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|N|To "Dirty" Larry.|
 A The Master's Grand Design?|QID|10251|M|43.58,29.36|Z|Shattrath City|N|From "Dirty" Larry, this leads into Nagrand.|PRE|10231|
 T Letting Earthbinder Tavgren Know|QID|10006|M|44.34,26.31|N|To Earthbinder Tavgren.|
-T Veil Lithic: Preemptive Strike|QID|10861|M|37.4,51.5|N|[Coords]To Kirrik the Awakened.|
-A Veil Shalas: Signal Fires|QID|10874|M|37.4,51.5|N|[Coords]From Kirrik the Awakened.|PRE|10861|
+T Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|To Kirrik the Awakened.|
+A Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10861|
 C Fumping|QID|10929|M|35.05,51.5|N|[Coords]Go here (make sure the map says "The Bone Wastes"), use the fumper to possibly spawn a sifter. Kill and loot sifters this way until you get all the items for this quest. Do not be too close to the caravan as the level 50 guards will kill it too quick, but you can use them to help kill the Gnomes.|U|31810|
 C Helping the Lost Find Their Way|QID|10031|N|Kill Lost spirits, and Broken skeletons.|S|
 T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz.|
@@ -275,8 +276,8 @@ C Evil Draws Near|QID|10923|M|48.68,67.16|N|Go to the rune in the middle and use
 T Evil Draws Near|QID|10923|M|31.06,76.54|N|To Oakun.|
 T The Fallen Exarch|QID|10915|M|31.0,76.1|N|[Coords]To Commander Ra'vaj.|
 C Helping the Lost Find Their Way|QID|10031|N|Kill Lost spirits, and Broken skeletons.|US|
-T Veil Shalas: Signal Fires|QID|10874|M|37.4,51.5|N|[Coords]To Kirrik the Awakened.|
-A Return to Shattrath|QID|10889|M|37.4,51.5|N|[Coords]From Kirrik the Awakened.|PRE|10874|
+T Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|To Kirrik the Awakened.|
+A Return to Shattrath|QID|10889|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10874|
 T Helping the Lost Find Their Way|QID|10031|M|37.05,49.52|N|To Soolaveen.|
 T Torgos!|QID|10036|M|49.25,45.88|N|To Mawg Grimshot.|
 H Shattrath City|QID|10228|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
