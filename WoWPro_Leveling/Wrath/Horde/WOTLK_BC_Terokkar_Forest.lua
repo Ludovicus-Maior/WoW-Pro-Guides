@@ -106,28 +106,29 @@ A Missing Friends|QID|10852|M|37.74,51.34|N|From Ethan.|PRE|10849|
 A The Infested Protectors|QID|10896|M|37.86,51.69|N|From Lakotae.|
 A Before Darkness Falls|QID|10878|M|37.26,50.86|N|From Mekeda circling the broken down wagon.|
 l Prison Key|ACTIVE|10852|M|31.05,42.29|L|31655|ITEM|31655|N|Skithian Dreadhawk or Windripper|S!US|
-C Missing Friends|QID|10852|M|31.05,42.29|QO|1|N|To release the children, unlock the Veil Skith Cages with Prison keys looted from the Skithian Dreadhawks or Windrippers.|NC|S|
+C Missing Friends|QID|10852|M|31.05,42.29|QO|1|N|To release the children, unlock the Veil Skith Cages with Prison Keys looted from the Skithian Dreadhawks or Windrippers.|NC|S|
 C A Personal Favor|QID|10112|M|31.05,42.29|L|27861 5|ITEM|27861|N|Skithian Dreadhawk or Windripper|S|
 C Veil Skith: Darkstone of Terokk|QID|10839|M|30.82,42.03|N|Clear the area and use the Rod of Purification on the stone.|U|31610|NC|
 K Stymying the Arakkoa|ACTIVE|9987|M|31.48,41.95|QO|3|N|Urdak circles the platform.|
 C A Personal Favor|QID|10112|M|31.05,42.29|L|27861 5|ITEM|27861|N|Skithian Dreadhawk or Windripper|US|
-C Missing Friends|QID|10852|M|31.05,42.29|QO|1|N|To release the children, unlock the Veil Skith Cages with Prison keys looted from the Skithian Dreadhawks or Windrippers.|NC|US|
+C Missing Friends|QID|10852|M|31.05,42.29|QO|1|N|To release the children, unlock the Veil Skith Cages with Prison Keys looted from the Skithian Dreadhawks or Windrippers.|NC|US|
 T Veil Skith: Darkstone of Terokk|QID|10839|M|37.26,50.86|N|To Kirrik the Awakened.|
 A Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10839|
 T Missing Friends|QID|10852|M|37.74,51.34|N|To Ethan.|
 A The Tomb of Lights|QID|10840|M|37.45,50.77|N|From High Priest Orglum.|PRE|10852|
 A Vengeful Souls|QID|10842|M|37.45,50.77|N|From Hight Priest Orglum.|PRE|10852|
 K Wanted: Bonelashers Dead!|ACTIVE|10034|M|42.64,50.40|QO|1|S|
-l Mark of Kil'jaeden|AVAILABLE|10325|M|40.00,56.00|L|29425 10|ITEM|29425|N|Any Orc|S|REP|Aldor;932|
+l Mark of Kil'jaeden|AVAILABLE|10325|M|39.66,58.16|L|29425 10|ITEM|29425|N|Any Orc|S|REP|Aldor;932|
 A Cabal Orders|QID|10880|U|31707|O|
 l Cabal Orders|AVAILABLE|10880|M|40.00,56.00|L|31707|ITEM|31707|N|Any Orc|S|
-C Before Darkness Falls|QID|10878|M|40.00,56.00|QO|1|
+K Before Darkness Falls|ACTIVE|10878|M|40.00,56.00|QO|1;2;3|
 l Cabal Orders|AVAILABLE|10880|M|40.00,56.00|L|31707|ITEM|31707|N|Any Orc|US|
-l Mark of Kil'jaeden|AVAILABLE|10325|M|40.00,56.00|L|29425 10|ITEM|29425|N|Any Orc|US|REP|Aldor;932|
-K The Tomb of Lights|ACTIVE|10840|M|46.99,54.62|QO|1;2|S|
-K Vengeful Souls|ACTIVE|10842|M|47.00,55.00|QO|1|
-K The Tomb of Lights|ACTIVE|10840|M|46.99,54.62|QO|1;2|US|
-K Wanted: Bonelashers Dead!|ACTIVE|10034|M|42,51|QO|1|N|[Coords]|US|
+l Mark of Kil'jaeden|AVAILABLE|10325|M|39.66,58.16|L|29425 10|ITEM|29425|N|Any Orc|US|REP|Aldor;932|
+K The Tomb of Lights|ACTIVE|10840|M|46.99,54.62|QO|1;2|N|They are found above and below ground.\n[color=FF0000]NOTE: [/color]Avoid the Arcanists if you can; they are useless kills.|S|
+K Vengeful Souls|ACTIVE|10842|M|47.00,55.00|QO|1|N|They are spread throughout the Tomb of Lights.|
+K The Tomb of Lights|ACTIVE|10840|M|46.99,54.62|QO|1;2|N|They are found above and below ground.\n[color=FF0000]NOTE: [/color]Avoid the Arcanists if you can; they are useless kills.|US|
+K The Infested Protectors|QID|10896|M|52.00,58.00|QO|1|N|Kill the Treant mobs to spawn the required Wood Mites.|S|IZ|The Bone Wastes|
+K Wanted: Bonelashers Dead!|ACTIVE|10034|M|41.67,51.18|QO|1|N|[color=FF0000]NOTE: [/color]Ignore Trachela, for now.|US|
 C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba Seeds are found on the ground spread all across Terokkar.|US|
 T The Tomb of Lights|QID|10840|M|37.45,50.77|N|To High Priest Orglum.|
 T Vengeful Souls|QID|10842|M|50.8,54.8|N|[Coords]To Draenei Ascendant.|
@@ -135,8 +136,8 @@ T Before Darkness Falls|QID|10878|M|37.26,50.86|N|To Mekeda.|
 T Cabal Orders|QID|10880|M|37.26,50.86|N|To Mekeda.|
 A The Shadow Tomb|QID|10881|M|37.26,50.86|N|From Mekeda.|PRE|10880|
 A Recover the Bones|QID|10030|M|37.05,49.52|N|From Soolaveen.|PRE|10840&10842|
-H Shattrath City|ACTIVE|10112|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
-H Shattrath City|ACTIVE|10112|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+H Shattrath City|ACTIVE|10112|M|28.09,48.88|Z|Shattrath City|N|Hearth or fly back.|REP|Aldor;932|
+H Shattrath City|ACTIVE|10112|M|56.35,81.55|Z|Shattrath City|N|Hearth or fly back.|REP|Scryers;934|
 A Marks of Kil'jaeden|QID|10325|M|30.7,34.6|Z|Shattrath City|N|[Coords]From Adyen the Lightwarden.|REP|Aldor;932|
 T Marks of Kil'jaeden|QID|10325|M|30.7,34.6|Z|Shattrath City|N|[Coords]To Adyen the Lightwarden.|REP|Aldor;932|
 T A Personal Favor|QID|10112|M|72.21,30.76|Z|Shattrath City|N|To Wind Trader Lathrai.|
@@ -193,7 +194,7 @@ A Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|From Malukaz.|
 C Welcoming the Wolf Spirit|QID|10791|M|50.2,46.4|N|[Coords]Use the incense.|U|31344|NC|
 T Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|To Malukaz.|
 C Recover the Bones|QID|10030|M|52.00,58.00|N|Loot the bones needed for this quest.|S|NC|
-C The Infested Protectors|QID|10896|M|52.00,58.00|N|Kill treant mobs and then the spawned wood mites until you finish this quest.|
+K The Infested Protectors|QID|10896|M|52.00,58.00|N|Kill the Treant mobs to spawn the required Wood Mites.|US|
 l Trachela's Carcass|ACTIVE|10036|M|43.00,51.00|L|30618|N|Kill Trachela and loot the carcass.|
 T The Infested Protectors|QID|10896|M|37.86,51.69|N|To Lakotae.|
 C Veil Rhaze: Unliving Evil|QID|10848|M|28.00,56.00|N|Kill the mobs needed for this quest here.|
