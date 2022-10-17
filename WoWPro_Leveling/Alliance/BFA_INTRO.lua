@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('BurnTedrazilSTrek', 'Leveling', 'Azeroth', 'STrek', 'Alliance')
-WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideLevels(guide, 10, 60, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Battle for Azeroth")
 WoWPro:GuideName(guide,'Battle for Azeroth: Intro')

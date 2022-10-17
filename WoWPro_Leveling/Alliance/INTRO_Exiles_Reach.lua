@@ -7,14 +7,14 @@ WoWPro:GuideNextGuide(guide, 'BurnTedrazilSTrek')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
-A Warming Up|QID|56775|N|From Captain Garrick.|
-C Warming Up|QID|56775|N|Attack a Combat Dummy until it's destroyed.|
-T Warming Up|QID|56775|N|Turn into Captain Garrick.|
-A Stand Your Ground|QID|58209|PRE|56775|N|From Private Cole.|
-C Stand Your Ground|QID|58209|N|Spar with Private Cole.|
-T Stand Your Ground|QID|58209|N|Turn into Private Cole.|
-A Brace for Impact|QID|58208|PRE|58209|N|From Private Cole.|
-T Brace for Impact|QID|58208|N|Turn into Captain Garrick.|
+A Warming Up|QID|56775|Z|1726;The North Sea|N|From Captain Garrick.|
+C Warming Up|QID|56775|Z|1726;The North Sea|N|Attack a Combat Dummy until it's destroyed.|
+T Warming Up|QID|56775|Z|1726;The North Sea|N|Turn into Captain Garrick.|
+A Stand Your Ground|QID|58209|PRE|56775|Z|1726;The North Sea|N|From Private Cole.|
+C Stand Your Ground|QID|58209|Z|1726;The North Sea|N|Spar with Private Cole.|
+T Stand Your Ground|QID|58209|Z|1726;The North Sea|N|Turn into Private Cole.|
+A Brace for Impact|QID|58208|PRE|58209|Z|1726;The North Sea|N|From Private Cole.|
+T Brace for Impact|QID|58208|Z|1726;The North Sea|N|Turn into Captain Garrick.|
 A Murloc Mania|QID|55122|PRE|58208|M|61.89,82.92|N|From Captain Garrick.|
 C Murloc Mania|QID|55122|M|61.40,80.57|N|Kill Murlocs in the area.|
 T Murloc Mania|QID|55122|M|61.89,82.92|N|Turn into Captain Garrick.|
@@ -32,8 +32,8 @@ C Cooking Meat|QID|55174|M|58.35,74.67|QO|2|N|Click on the fire.|NC|
 T Cooking Meat|QID|55174|M|58.35,74.67|N|Turn into Alaria.|
 A Enhanced Combat Tactics|QID|59254|PRE|55174|M|58.33,74.51|N|From Captain Garrick.|C|-Hunter,-Monk|
 A Enhanced Combat Tactics|QID|59339|PRE|55174|M|58.33,74.51|N|From Captain Garrick.|C|Monk|
-C Enhanced Combat Tactics|ACTIVE|59254|M|57.86,72.58|N|Look around, to find Captain Garrick, then go spar with her to learn some basic rotations about your class.|
-C Enhanced Combat Tactics|ACTIVE|59339|M|58.96,72.71|N|Spar with Captain Garrick to learn some basic rotations about your class.|
+C Enhanced Combat Tactics|QID|59254|M|57.86,72.58|N|Look around, to find Captain Garrick, then go spar with her to learn some basic rotations about your class.|
+C Enhanced Combat Tactics|QID|59339|M|58.96,72.71|N|Spar with Captain Garrick to learn some basic rotations about your class.|
 T Enhanced Combat Tactics|QID|59254|M|58.33,74.51|N|Turn into Captain Garrick.|
 T Enhanced Combat Tactics|QID|59339|M|58.33,74.51|N|Turn into Captain Garrick.|
 A Northbound|QID|55173|PRE|55174|M|58.37,74.47|N|From Alaria.|

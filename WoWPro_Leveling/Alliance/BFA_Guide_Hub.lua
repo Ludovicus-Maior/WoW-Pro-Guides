@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('BFAGuideHub', 'Leveling', "Kul Tiras", 'Elidion', 'Alliance')
-WoWPro:GuideLevels(guide, 25, 50)
+WoWPro:GuideLevels(guide, 25, 60)
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "Battle for Azeroth: Guide Hub")
 WoWPro:GuideName(guide,"BFA: Guide Hub")
