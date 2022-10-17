@@ -130,16 +130,16 @@ K The Tomb of Lights|ACTIVE|10840|M|46.99,54.62|QO|1;2|N|They are found above an
 K The Infested Protectors|QID|10896|M|52.00,58.00|QO|1|N|Kill the Treant mobs to spawn the required Wood Mites.|S|IZ|The Bone Wastes|
 K Wanted: Bonelashers Dead!|ACTIVE|10034|M|41.67,51.18|QO|1|N|[color=FF0000]NOTE: [/color]Ignore Trachela, for now.|US|
 C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba Seeds are found on the ground spread all across Terokkar.|US|
-T The Tomb of Lights|QID|10840|M|37.45,50.77|N|To High Priest Orglum.|
-T Vengeful Souls|QID|10842|M|50.8,54.8|N|[Coords]To Draenei Ascendant.|
+T The Tomb of Lights|QID|10840|M|37.45,50.77|N|To High Priest Orglum at Refugee Caravan.|
+T Vengeful Souls|QID|10842|M|37.45,50.77|N|To Hight Priest Orglum.|
 T Before Darkness Falls|QID|10878|M|37.26,50.86|N|To Mekeda.|
 T Cabal Orders|QID|10880|M|37.26,50.86|N|To Mekeda.|
 A The Shadow Tomb|QID|10881|M|37.26,50.86|N|From Mekeda.|PRE|10880|
 A Recover the Bones|QID|10030|M|37.05,49.52|N|From Soolaveen.|PRE|10840&10842|
 H Shattrath City|ACTIVE|10112|M|28.09,48.88|Z|Shattrath City|N|Hearth or fly back.|REP|Aldor;932|
 H Shattrath City|ACTIVE|10112|M|56.35,81.55|Z|Shattrath City|N|Hearth or fly back.|REP|Scryers;934|
-A Marks of Kil'jaeden|QID|10325|M|30.7,34.6|Z|Shattrath City|N|[Coords]From Adyen the Lightwarden.|REP|Aldor;932|
-T Marks of Kil'jaeden|QID|10325|M|30.7,34.6|Z|Shattrath City|N|[Coords]To Adyen the Lightwarden.|REP|Aldor;932|
+A Marks of Kil'jaeden|QID|10325|M|30.73,34.62|Z|Shattrath City|N|From Adyen the Lightwarden on Aldor Rise.|REP|Aldor;932|
+T Marks of Kil'jaeden|QID|10325|M|30.73,34.62|Z|Shattrath City|N|To Adyen the Lightwarden.|REP|Aldor;932|
 T A Personal Favor|QID|10112|M|72.21,30.76|Z|Shattrath City|N|To Wind Trader Lathrai.|
 A Investigate Tuurem|QID|9990|M|72.21,30.76|Z|Shattrath City|N|From Wind Trader Lathrai.|PRE|10112|
 F Stonebreaker Hold|ACTIVE|10043|M|64.07,41.11|Z|Shattrath City|FLY|BC|
@@ -153,10 +153,10 @@ T Vestments of the Wolf Spirit|QID|10018|M|50.17,46.44|N|To Malukaz.|
 A Patriarch Ironjaw|QID|10023|M|50.17,46.44|N|From Malukaz.|PRE|10018|
 T Olemba Seed Oil|QID|9993|M|50.13,44.88|N|To Rakoria.|
 A And Now, the Moment of Truth|QID|10201|M|50.13,44.88|N|From Rakoria.|PRE|9993|
-C And Now, the Moment of Truth|QID|10201|M|49.9,45.3|N|[Coords]Talk to Grek, he stands in front of the WANTED poster. Ask him to try the oil and wait until you get the complete message.|CHAT|
+C And Now, the Moment of Truth|QID|10201|M|49.85,45.31|N|Talk to Grek standing in front of the WANTED poster. Ask him to try the oil and wait until you get the complete message.|CHAT|
 T And Now, the Moment of Truth|QID|10201|M|50.13,44.88|N|To Rakoria.|
-K An Unwelcome Presence|ACTIVE|10000|M|67,52|QO|1|N|[Coords]|
-T An Unwelcome Presence|QID|10000|M|63.38,42.73|N|To Shadowstalker Kaide.|
+K An Unwelcome Presence|ACTIVE|10000|M|66.38,50.31|QO|1|N|They are around the Bonechewer Ruins.|
+T An Unwelcome Presence|QID|10000|M|63.38,42.73|N|To Shadowstalker Kaide at Stonebreaker Camp.|
 A The Firewing Liaison|QID|10003|M|63.38,42.73|N|From Shadowstalker Kaide.|PRE|10000|
 A What Happens in Terokkar Stays in Terokkar|QID|10008|M|63.38,42.73|N|From Shadowstalker Kaide.|
 K What Happens in Terokkar Stays in Terokkar|ACTIVE|10008|QO|1;2|S|
