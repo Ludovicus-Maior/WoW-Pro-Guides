@@ -420,7 +420,7 @@ T It's a Scourge Device|QID|11395|M|24.2,32.5|N|To Explorer Jaren.|
 A Bring Down Those Shields|QID|11396|PRE|11395|M|24.2,32.5|N|From Explorer Jaren.|
 C Bring Down Those Shields|QID|11396|U|33960|N|Find the 3 Scourging Crystals and use the Scourging Crystal Controller on them, then kill them. Pet kills do not count.|M|22.69,31.14;21.92,28.75;21.52,24.60|CN|
 A Trident of the Son|QID|11422|M|19.8,22.2|N|From Old Icefin.|
-C Trident of the Son|QID|11422|N|Find Rotgill patrolling the coast here and kill him for Rotgill's Trident.|M|24.24,35.67|
+C Trident of the Son|QID|11422|N|Find Rotgill patrolling the coast here and kill him for Rotgill's Trident.|M|24.24,35.67|T|Rotgill|
 C And You Thought Murlocs Smelled Bad!|US|QID|11394|N|Kill any remaining Scourge mobs you need for this quest.|M|22.78,31.13|
 T And You Thought Murlocs Smelled Bad!|QID|11394|M|24.2,32.5|N|To Explorer Jaren.|
 T Bring Down Those Shields|QID|11396|M|24.2,32.5|N|To Explorer Jaren.|
@@ -432,7 +432,6 @@ A Leader of the Deranged|QID|11240|PRE|11218|M|29.1,41.8|N|From Sapper Steelring
 T Stop the Ascension!|QID|11249|M|28.9,44.0|N|To Father Levariol.|
 T All Hail the Conqueror of Skorn!|QID|11250|M|28.8,44.1|N|To Captain Adams.|
 A Dealing With Gjalerbron|QID|11235|PRE|11250|M|28.8,44.1|N|From Captain Adams.|
-A Of Traitors and Treason|QID|12297|PRE|11250|N|From Captain Adams.|
 A Of Keys and Cages|QID|11231|PRE|11250|M|28.9,44.0|N|From Father Levariol.|
 r Sell junk, repair, re-stock food/drink.|QID|11416|M|29.83,42.60|
 C Dealing With Gjalerbron|S|QID|11235|N|Kill the Vrykul you need for this quest.|M|34.68,15.28|
@@ -452,7 +451,7 @@ A In Service to the Light|QID|11239|PRE|11231|M|28.9,44.0|N|From Father Levariol
 T Dealing With Gjalerbron|QID|11235|M|28.8,44.1|N|To Captain Adams.|
 A Necro Overlord Mezhen|QID|11236|PRE|11235|M|28.8,44.1|N|From Captain Adams.|
 T Gjalerbron Attack Plans|QID|11237|M|28.9,44.2|N|To Mage-Lieutenant Malister.|
-A The Frost Wyrm and its Master|QID|11238|PRE|11237|N|From Mage-Lieutenant Malister.|
+A The Frost Wyrm and its Master|QID|11238|PRE|11237|M|28.9,44.2|N|From Mage-Lieutenant Malister.|
 A Sleeping Giants|QID|11432|PRE|11231|M|28.9,44.2|N|From Mage-Lieutenant Malister.|
 r Sell junk, repair, re-stock food/drink.|QID|11239|M|29.83,42.60|
 K Deathless Watchers|S|QID|11239|QO|1|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
@@ -475,7 +474,6 @@ T The Slumbering King|QID|11452|M|28.8,44.1|N|To Captain Adams.|
 T Sleeping Giants|QID|11432|M|28.9,44.2|N|To Mage-Lieutenant Malister.|
 T The Frost Wyrm and its Master|QID|11238|N|To Mage-Lieutenant Malister.|
 r Sell junk, repair, re-stock food/drink.|QID|12297|M|29.83,42.60|
-T Of Traitors and Treason|QID|12297|N|To Greer Orehammer.|
 A High Commander Halford Wyrmbane|QID|12298|PRE|12297|N|From Greer Orehammer, this quest leads into Dragonblight.|
 F Wintergarde Keep|QID|12298|N|Talk to Greer Orehammer and choose to fly to Wintergarde Keep.|
 ]]
