@@ -159,36 +159,36 @@ K An Unwelcome Presence|ACTIVE|10000|M|66.38,50.31|QO|1|N|They are around the Bo
 T An Unwelcome Presence|QID|10000|M|63.38,42.73|N|To Shadowstalker Kaide at Stonebreaker Camp.|
 A The Firewing Liaison|QID|10003|M|63.38,42.73|N|From Shadowstalker Kaide.|PRE|10000|
 A What Happens in Terokkar Stays in Terokkar|QID|10008|M|63.38,42.73|N|From Shadowstalker Kaide.|
-K What Happens in Terokkar Stays in Terokkar|ACTIVE|10008|QO|1;2|S|
-A An Unseen Hand|QID|10013|M|67.9,53.6|N|[Coords]Right-click the plans on the floor next to Lisaile.|
-C The Firewing Liaison|QID|10003|M|67.8,53.3|N|[Coords]Lisaile Fireweaver is in the main building.|
-K What Happens in Terokkar Stays in Terokkar|ACTIVE|10008|QO|1;2|US|
-T The Firewing Liaison|QID|10003|M|63.38,42.73|N|To Shadowstalker Kaide.|
+K What Happens in Terokkar Stays in Terokkar|ACTIVE|10008|M|65.97,52.54|QO|1;2|S|
+K The Firewing Liaison|ACTIVE|10003|M|67.84,53.28|QO|1|N|Lisaile Fireweaver is in the main building.|
+A An Unseen Hand|QID|10013|M|67.92,53.56|N|Click the Fel Orc Plans on the floor near Lisaile Fireweaver.|
+K What Happens in Terokkar Stays in Terokkar|ACTIVE|10008|M|65.97,52.54|QO|1;2|US|
+T The Firewing Liaison|QID|10003|M|63.38,42.73|N|To Shadowstalker Kaide at Stonebreaker Camp.|
 T What Happens in Terokkar Stays in Terokkar|QID|10008|M|63.38,42.73|N|To Shadowstalker Kaide.|
-T An Unseen Hand|QID|10013|M|48.97,44.64|N|To Rokag.|
+T An Unseen Hand|QID|10013|M|48.97,44.64|N|To Rokag at Stonebreaker Hold.|
 T Magical Disturbances|QID|10027|M|48.77,45.69|N|To Kurgatok.|
-C Investigate Tuurem|QID|9990|M|53.95,29.98|N|Head northwest into Tuurem, the sealed box is next to the Firewing Courier on the northeastern island.|NC|
+C Investigate Tuurem|QID|9990|M|54.00,29.99|N|Located to the northwest in Tuurem, the sealed box is guarded by the Firewing Courier.|NC|
 T Investigate Tuurem|QID|9990|M|44.34,26.31|N|To Earthbinder Tavgren at Cenarion Thicket.|
 A What Are These Things?|QID|9995|M|44.34,26.31|N|From Earthbinder Tavgren.|PRE|9990|
-T What Are These Things?|QID|9995|M|50.0,45.9|N|[Coords]To Tooki.|
-A Report to Stonebreaker Camp|QID|10448|M|50.0,45.9|N|[Coords]From Tooki.|PRE|9995|
-T Report to Stonebreaker Camp|QID|10448|M|63.29,42.02|N|To Sergeant Chawni.|
-A Attack on Firewing Point|QID|9997|M|63.29,42.02|N|From Sergeant Chawni.|PRE|10448|
-l Firewing Signets|QID|10412|M|70.00,39.00|L|29426 10|N|Kill the mobs until you get 10 Firewing Signets.|S|REP|Scryers;934|
-C Attack on Firewing Point|QID|9997|M|71.32,38.11|N|Kill the Firewing Defenders, Bloodwarders and Warlocks.|
-C Patriarch Ironjaw|QID|10023|M|69,32|N|Ironjaw roams east and west of here.|T|Ironjaw|
-C A Cure for Zahlia|QID|10020|M|63.97,29.71|N|Stonegazer patrols along the edge of Terokkar just north of you.|REP|Aldor;932|T|Stonegazer|
-T Attack on Firewing Point|QID|9997|M|63.29,42.02|N|To Sergeant Chawni.|
-A The Final Code|QID|10447|M|63.29,42.02|N|From Sergeant Chawni.|PRE|9997|
+T What Are These Things?|QID|9995|M|50.04,45.93|N|To Tooki in Stonebreaker Hold.|
+A Report to Stonebreaker Camp|QID|10448|M|50.04,45.93|N|From Tooki.|PRE|9995|
+T Report to Stonebreaker Camp|QID|10448|M|63.30,41.99|N|To Sergeant Chawni.\n[color=FF0000]NOTE: [/color]She wanders around the camp.|
+A Attack on Firewing Point|QID|9997|M|63.30,41.99|N|From Sergeant Chawni.|PRE|10448|
+l Firewing Signets|QID|10412|M|70.00,39.00|L|29426 10|N|Any Firewing mob|S|REP|Scryers;934|
+K Attack on Firewing Point|ACTIVE|9997|M|71.27,37.37|QO|1;2;3|
+K Patriarch Ironjaw|ACTIVE|10023|M|69.19,33.06;63.87,35.33|CS|L|25837|N|Ironjaw paths back and forth to the west of Firewing Point.\n[color=FF0000]NOTE: [/color]IronJaw is a brownish-colored wolf.|T|Ironjaw|
+K A Cure for Zahlia|ACTIVE|10020|M|71.16,28.74;60.78,23.35|CS|L|25815|N|Stonegazer patrols east-west along the northern edge of Terokkar just to the north of you.\n[color=FF0000]NOTE: [/color]Stonegazer is an Elite lv 64 red colored Basilisk|T|Stonegazer|REP|Aldor;932|
+T Attack on Firewing Point|QID|9997|M|63.30,41.99|N|To Sergeant Chawni.|
+A The Final Code|QID|10447|M|63.30,41.99|N|From Sergeant Chawni.|PRE|9997|
 N Obtain the Final Code|QID|10447|M|73.8,35.7|L|29912|N|[Coords]He's on top of the northeastern building. It has the highest tower. Fight (or fly) your way up the ramp and translocate up. Sharth Voldoun has a lot of HP and heals on low HP, so be careful.|
 N READ THIS|QID|10052|N|This is a semi-tough escort. Be very careful, you'll need to pull the warlocks back to her, don't let Isla just walk, or she'll grab 3-4 mobs at some points. The warlock pairs are not chained, but tend to sit still and shadowbolt. There is also a few mobs that patrol around the centre, they basically mean death for her.|
 A Escape from Firewing Point!|QID|10052|M|73.9,35.2|N|[Coords]From Isla Starmane.|
 C Escape from Firewing Point!|QID|10052|N|Follow and protect Isla.|
 C The Final Code|QID|10447|M|71.3,37.3|N|[Coords]Clear to the mana bomb in the centre, and right click to set it off. You get about 10 seconds to get clear, the only thing that happens if you don't, is you get knocked down.|
-l Firewing Signets|QID|10412|M|70.00,39.00|L|29426 10|N|Kill the mobs until you get 10 Firewing Signets.|US|REP|Scryers;934|
-T Escape from Firewing Point!|QID|10052|M|48.93,44.59|N|To Advisor Faila.|
-T The Final Code|QID|10447|M|50.0,45.9|N|[Coords]To Tooki.|
-A Letting Earthbinder Tavgren Know|QID|10006|M|50.0,45.9|N|[Coords]From Tooki.|PRE|10447|
+l Firewing Signets|QID|10412|M|71.27,37.37|L|29426 10|N|Any Firewing mob|US|REP|Scryers;934|
+T Escape from Firewing Point!|QID|10052|M|48.93,44.59|N|To Advisor Faila in Stonebreaker Hold.|
+T The Final Code|QID|10447|M|50.04,45.93|N|To Tooki.|
+A Letting Earthbinder Tavgren Know|QID|10006|M|50.04,45.93|N|From Tooki.|PRE|10447|
 T Patriarch Ironjaw|QID|10023|M|50.17,46.44|N|To Malukaz.|PRE|10023|
 A Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|From Malukaz.|
 C Welcoming the Wolf Spirit|QID|10791|M|50.2,46.4|N|[Coords]Use the incense.|U|31344|NC|
