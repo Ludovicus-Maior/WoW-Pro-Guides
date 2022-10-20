@@ -174,10 +174,10 @@ T What Are These Things?|QID|9995|M|50.04,45.93|N|To Tooki in Stonebreaker Hold.
 A Report to Stonebreaker Camp|QID|10448|M|50.04,45.93|N|From Tooki.|PRE|9995|
 T Report to Stonebreaker Camp|QID|10448|M|63.30,41.99|N|To Sergeant Chawni.\n[color=FF0000]NOTE: [/color]She wanders around the camp.|
 A Attack on Firewing Point|QID|9997|M|63.30,41.99|N|From Sergeant Chawni.|PRE|10448|
-l Firewing Signets|QID|10412|M|70.00,39.00|L|29426 10|N|Kill the mobs until you get 10 Firewing Signets.|S|REP|Scryers;934|
-K Attack on Firewing Point|ACTIVE|9997|M|71.32,38.11|N|Kill the Firewing Defenders, Bloodwarders and Warlocks.|
-C Patriarch Ironjaw|QID|10023|M|69,32|N|Ironjaw roams east and west of here.|T|Ironjaw|
-C A Cure for Zahlia|QID|10020|M|63.97,29.71|N|Stonegazer patrols along the edge of Terokkar just north of you.|REP|Aldor;932|T|Stonegazer|
+l Firewing Signets|QID|10412|M|70.00,39.00|L|29426 10|N|Any Firewing mob|S|REP|Scryers;934|
+K Attack on Firewing Point|ACTIVE|9997|M|71.27,37.37|QO|1;2;3|
+K Patriarch Ironjaw|ACTIVE|10023|M|69.19,33.06;63.87,35.33|CS|L|25837|N|Ironjaw paths back and forth to the west of Firewing Point.\n[color=FF0000]NOTE: [/color]IronJaw is a brownish-colored wolf.|T|Ironjaw|
+K A Cure for Zahlia|ACTIVE|10020|M|71.16,28.74;60.78,23.35|CS|L|25815|N|Stonegazer patrols east-west along the northern edge of Terokkar just to the north of you.\n[color=FF0000]NOTE: [/color]Stonegazer is an Elite lv 64 red colored Basilisk|T|Stonegazer|REP|Aldor;932|
 T Attack on Firewing Point|QID|9997|M|63.30,41.99|N|To Sergeant Chawni.|
 A The Final Code|QID|10447|M|63.30,41.99|N|From Sergeant Chawni.|PRE|9997|
 N Obtain the Final Code|QID|10447|M|73.8,35.7|L|29912|N|[Coords]He's on top of the northeastern building. It has the highest tower. Fight (or fly) your way up the ramp and translocate up. Sharth Voldoun has a lot of HP and heals on low HP, so be careful.|
@@ -185,7 +185,7 @@ N READ THIS|QID|10052|N|This is a semi-tough escort. Be very careful, you'll nee
 A Escape from Firewing Point!|QID|10052|M|73.9,35.2|N|[Coords]From Isla Starmane.|
 C Escape from Firewing Point!|QID|10052|N|Follow and protect Isla.|
 C The Final Code|QID|10447|M|71.3,37.3|N|[Coords]Clear to the mana bomb in the centre, and right click to set it off. You get about 10 seconds to get clear, the only thing that happens if you don't, is you get knocked down.|
-l Firewing Signets|QID|10412|M|70.00,39.00|L|29426 10|N|Kill the mobs until you get 10 Firewing Signets.|US|REP|Scryers;934|
+l Firewing Signets|QID|10412|M|71.27,37.37|L|29426 10|N|Any Firewing mob|US|REP|Scryers;934|
 T Escape from Firewing Point!|QID|10052|M|48.93,44.59|N|To Advisor Faila in Stonebreaker Hold.|
 T The Final Code|QID|10447|M|50.04,45.93|N|To Tooki.|
 A Letting Earthbinder Tavgren Know|QID|10006|M|50.04,45.93|N|From Tooki.|PRE|10447|
