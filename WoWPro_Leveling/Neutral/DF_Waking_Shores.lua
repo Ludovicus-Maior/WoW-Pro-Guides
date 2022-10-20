@@ -385,10 +385,73 @@ C Cut Off the Head|QID|66123|M|53.55,82.68|Z|2022|U|192436|N|Slay Jadzigeth.|T|J
 T Cut Off the Head|QID|66123|M|53.68,80.15|Z|2022|N|To Majordomo Selistra.|
 A Exeunt, Triumphant|QID|66124|PRE|66123|M|53.68,80.15|Z|2022|N|From Majordomo Selistra.|
 A Out for Delivery|QID|66963|M|48.48,78.86|Z|2022|N|From Hauler Bennet.|RANK|2|
-;^%&(()$% wow crashed. lost all this recording :(
+T Out for Delivery|QID|66963|M|48.54,82.68|Z|2022|N|To Cataloger Wulferd.|
+A Amateur Protography|QID|66524|M|48.49,82.67|Z|2022|N|From Cataloger Wulferd.|
+f Dragonscale Basecamp|ACTIVE|66524|M|47.9,83.33|Z|2022|N|At Art Raskins.|
+A Welcome to the Basecamp|QID|72397|M|47.89,82.41|Z|2022|N|From Naleidea Rivergleam.|
+C Welcome to the Basecamp|QID|72397|QO|1|M|47.92,82.09|Z|2022|CHAT|N|Rae'ana is the scholars supplier.|
+C Welcome to the Basecamp|QID|72397|QO|2|M|47.9,83.33|Z|2022|CHAT|N|Granpap Whiskers is the catalogers supplier.|
+C Welcome to the Basecamp|QID|72397|QO|3|M|47.32,83.41|Z|2022|CHAT|N|Pathfinder Jeb is the explorers supplier.|
+C Welcome to the Basecamp|QID|72397|QO|4|M|46.94,82.90|Z|2022|CHAT|N|Boss Magor is the artisans supplier.|
+C Welcome to the Basecamp|QID|72397|QO|5|M|47.10,82.58|Z|2022|CHAT|N|Cataloger Jakes is the Keeper of Renown.|
+T Welcome to the Basecamp|QID|72397|M|47.22,82.72|Z|2022|N|To Toddy Whiskers.|
+; quest missing here?|N|tried dropping all quests after game crash and re-recording but I m afraid I had turned something in.|
+A Behavior Analysis "Homework"|QID|69897|M|45.91,81.45|Z|2022|N|From Iyali.|RANK|2|
+A Scientific Meat-thod|QID|69898|M|45.91,81.45|Z|2022|N|From Iyali.|RANK|2|
+A Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
+C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Kill stuff as you go about the other objectives.|S|
+C Scientific Meat-thod|QID|69898|M|47.68,77.68|Z|2022|N|Kill the Riverbeast's to collect some meat.|S!US|
 C Exeunt, Triumphant|QID|66124|M|46.13,78.51|Z|2022|QO|1|CHAT|N|Check in with Majordomo Selistra at the Wild Hatchery.|
 T Exeunt, Triumphant|QID|66124|M|46.15,78.52|Z|2022|N|To Majordomo Selistra.|
 A Wrathion Awaits|QID|66079|PRE|66124|M|46.09,78.28|Z|2022|N|From Alexstrasza the Life-Binder.|
+C Amateur Protography|QID|66524|M|45.11,77.35|Z|2022|QO|2|NC|U|192465|N|Photograph an Optimistic Whelp learning to fly.|
+C Amateur Protography|QID|66524|M|44.07,78.04|Z|2022|QO|3|NC|U|192465|N|Photograph a Hungry Proto-Drake catching a fish.|
+C Behavior Analysis "Homework"|QID|69897|M|42.56,79.34|Z|2022|QO|1<1|NC|N|Click the Sleeping Whelp to pet it.|
+C Behavior Analysis "Homework"|QID|69897|M|42.40,82.57|Z|2022|QO|1<2|NC|N|Pet the Sleeping Whelps.|
+C Amateur Protography|QID|66524|M|43.38,82.70|Z|2022|QO|1|NC|U|192465|N|Photograph a Proto-Dragon Egg.|
+C Behavior Analysis "Homework"|QID|69897|QO|2|M|43.53,84.94|Z|2022|NC|N|And here is the last Sleeping Whelp to pet.|
+T Amateur Protography|QID|66524|M|39.03,83.23|Z|2022|N|To Cataloger Wulferd.|
+A Competitive Protography|QID|66525|PRE|66524|M|39.03,83.23|Z|2022|N|From Cataloger Wulferd.|RANK|2|
+A Preserving the Wilds|QID|66526|PRE|66524|M|39.09,83.26|Z|2022|N|From Dervishian.|RANK|2|
+C Preserving the Wilds|QID|66526|M|38.30,80.50|Z|2022|N|Kill the Primalists on the small island who are capturing the Proto-Whelps and Proto-Drakes.|S|
+C Competitive Protography|QID|66525|M|39.06,82.30|Z|2022|QO|2|NC|U|192465|N|Photograph an Infused Proto-Drake.|
+C Competitive Protography|QID|66525|M|38.28,80.78|Z|2022|QO|1|NC|U|192465|N|Photograph an Infused Proto-Dragon Egg.|
+C Preserving the Wilds|QID|66526|M|38.30,80.50|Z|2022|N|Finish freeing the quota of Proto-Whelps or Proto-Drakes.|US|
+T Preserving the Wilds|QID|66526|M|39.08,83.27|Z|2022|N|To Dervishian.|
+T Competitive Protography|QID|66525|M|39.03,83.23|Z|2022|N|To Cataloger Wulferd.|
+A Professional Protography|QID|66527|PRE|66526&66525|M|39.03,83.23|Z|2022|N|From Cataloger Wulferd.|RANK|2|
+C Professional Protography|QID|66527|M|38.94,83.40|Z|2022|QO|1|NC|U|192465|N|Jump on the Vertical Enhancement Apparatus (Optional).|
+C Professional Protography|QID|66527|M|38.77,84.05|Z|2022|QO|2|NC|U|192465|N|Step into the spotlight, move forward, next spotlight, then the next one, finally Wulferd is ready for you to take the picture.|
+T Professional Protography|QID|66527|M|39.02,83.24|Z|2022|N|To Cataloger Wulferd.|
+A King Without a Crown|QID|66528|PRE|66527|M|39.09,83.27|Z|2022|N|From Dervishian.|RANK|2|
+C King Without a Crown|QID|66528|M|39.40,84.01|Z|2022|QO|3|NC|N|Investigate the Cracked Rib.|
+C King Without a Crown|QID|66528|M|39.12,83.98|Z|2022|QO|1|NC|N|Investigate the Severed Spine.|
+C King Without a Crown|QID|66528|M|38.83,83.52|Z|2022|QO|2|NC|N|Investigate the Charred Foreclaw.|
+T King Without a Crown|QID|66528|M|39.08,83.27|Z|2022|N|To Dervishian.|
+A A Thousand Words|QID|66529|PRE|66528|M|39.08,83.27|Z|2022|N|From Dervishian.|RANK|2|
+C A Thousand Words|QID|66529|M|38.75,83.61|Z|2022|NC|U|192465|N|Photograph Dervishian near the Proto-Dragon Skeleton.|
+T A Thousand Words|QID|66529|M|38.72,83.69|Z|2022|N|To Dervishian.|
+C Behavior Analysis "Homework"|QID|69897|M|45.92,81.45|Z|2022|QO|2|CHAT|N|Report back to Iyali.|
+T Behavior Analysis "Homework"|QID|69897|M|45.92,81.45|Z|2022|N|To Iyali.|
+A Secret Research|QID|69899|PRE|69897|M|45.92,81.45|Z|2022|N|From Iyali.|RANK|2|
+C Secret Research|QID|69899|M|45.92,81.45|Z|2022|CHAT|N|Listen, nod appropriately, at some point open the box, listen some more.|
+T Secret Research|QID|69899|M|45.95,81.49|Z|2022|N|To Tyrgon.|
+A Identifying the Source|QID|69900|PRE|69899|M|45.95,81.49|Z|2022|N|From Tyrgon.|RANK|2|
+A Bring In the Expert|QID|69901|PRE|69899|M|45.95,81.49|Z|2022|N|From Tyrgon.|RANK|2|
+C Bring In the Expert|QID|69901|M|43.45,82.98;43.04,79.43;42.05,77.60;40.56,80.03;38.68,82.27|CS|Z|2022|N|The first one is the hardest. It's on a ledge pretty high up, with Grod the Ancient and I saw no way to get it without getting in a fight with him. (and potentially losing).|
+T Identifying the Source|QID|69900|M|45.95,81.50|Z|2022|N|To Tyrgon.|
+T Bring In the Expert|QID|69901|M|45.95,81.50|Z|2022|N|To Tyrgon.|
+A Theory in Practice|QID|69902|PRE|69900&69901|M|45.95,81.50|Z|2022|N|From Tyrgon.|RANK|2|
+C Theory in Practice|QID|69902|M|45.91,81.44|Z|2022|QO|1|NC|N|Click on the  whelpling.|
+C Theory in Practice|QID|69902|M|45.96,81.50|Z|2022|QO|2|CHAT|N|Pick a name any name.|
+T Theory in Practice|QID|69902|M|45.96,81.50|Z|2022|N|To Tyrgon.|
+A Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|From Ree'ana.|RANK|2|;dont know if this is pre on finishing quests in the area?, renown?
+T Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|To Ree'ana.|
+A Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|REN|3|RANK|2|
+T Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|To Cataloger Jakes.|
+C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Its now time to finish the Bonus Objective if you are planning to.|US|
+t Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autocompleted.|
+R Obsidian Bulwark|ACTIVE|66079|M|47.77,67.11;42.47,66.82|CS|Z|2022|N|Mount up and head off to find Wrathion.|
 T Wrathion Awaits|QID|66079|M|47.77,67.11;42.47,66.82|CS|Z|2022|N|To Wrathion.|
 A Lessons from Our Past|QID|72241|PRE|66079|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
 C Lessons from Our Past|QID|72241|M|42.47,66.82|Z|2022|QO|1|CHAT|N|Speak with Scalecommander Emberthal to learn of past events.|
@@ -407,8 +470,8 @@ T Sharp Practice|QID|66078|M|42.47,66.86|Z|2022|N|To Wrathion.|
 A Talon Strike|QID|65956|PRE|66048&66078|M|42.47,66.86|Z|2022|N|From Wrathion (after a bit of dialog).|
 A No Time For Heroes|QID|65957|PRE|66048&66078|M|42.47,66.86|Z|2022|
 C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|S|
-C No Time For Heroes|QID|65957|M|34.82,66.91|Z|2022|QO|3|N|Slay Olphis the Molten.|T|Olphis the Molten|
 C No Time For Heroes|QID|65957|M|35.53,68.52|Z|2022|QO|1|N|Slay Piercer Gigra on the top of the tower.|T|Piercer Gigra|
+C No Time For Heroes|QID|65957|M|34.82,66.91|Z|2022|QO|3|N|Slay Olphis the Molten.|T|Olphis the Molten|
 C No Time For Heroes|QID|65957|M|35.59,60.85|Z|2022|QO|2|N|Slay Modak Flamespit on the top of the tower.|T|Modak Flamespit|
 C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|US|
 T No Time For Heroes|QID|65957|M|34.01,61.29|Z|2022|N|To Wrathion.|
