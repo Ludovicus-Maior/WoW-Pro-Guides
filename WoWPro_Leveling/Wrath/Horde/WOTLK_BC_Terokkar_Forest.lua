@@ -180,11 +180,12 @@ K Patriarch Ironjaw|ACTIVE|10023|M|69.19,33.06;63.87,35.33|CS|L|25837|N|Ironjaw 
 K A Cure for Zahlia|ACTIVE|10020|M|71.16,28.74;60.78,23.35|CS|L|25815|N|Stonegazer patrols east-west along the northern edge of Terokkar just to the north of you.\n[color=FF0000]NOTE: [/color]Stonegazer is an Elite lv 64 red colored Basilisk|T|Stonegazer|REP|Aldor;932|
 T Attack on Firewing Point|QID|9997|M|63.30,41.99|N|To Sergeant Chawni.|
 A The Final Code|QID|10447|M|63.30,41.99|N|From Sergeant Chawni.|PRE|9997|
-N Obtain the Final Code|QID|10447|M|73.8,35.7|L|29912|N|[Coords]He's on top of the northeastern building. It has the highest tower. Fight (or fly) your way up the ramp and translocate up. Sharth Voldoun has a lot of HP and heals on low HP, so be careful.|
-N READ THIS|QID|10052|N|This is a semi-tough escort. Be very careful, you'll need to pull the warlocks back to her, don't let Isla just walk, or she'll grab 3-4 mobs at some points. The warlock pairs are not chained, but tend to sit still and shadowbolt. There is also a few mobs that patrol around the centre, they basically mean death for her.|
+C The Final Code|ACTIVE|10447|M|73.93,35.80|L|29912|ITEM|29912|N|Sharth Voldoun\nHe's at the top of the highest tower in Firewing Point. Fight your way up the ramp and translocate up, or fly.\n[color=FF0000]NOTE: [/color]Sharth has a lot of HP and heals on low HP.|
+N READ THIS FIRST|AVAILABLE|10052|N|The next quest is a semi-tough escort. Unlike most escorts, don't let Isla just walk ahead and pull aggro, or she'll grab 3-4 mobs at a time. The warlock pairs are not chained, but tend to sit still and shadowbolt. There is also a few mobs that patrol around the centre, they basically mean death for her.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Escape from Firewing Point!|QID|10052|M|73.9,35.2|N|[Coords]From Isla Starmane.|
-C Escape from Firewing Point!|QID|10052|N|Follow and protect Isla.|
-C The Final Code|QID|10447|M|71.3,37.3|N|[Coords]Clear to the mana bomb in the centre, and right click to set it off. You get about 10 seconds to get clear, the only thing that happens if you don't, is you get knocked down.|
+A Escape from Firewing Point!|QID|10052|M|73.9,35.2|N|[Coords]Go back to Isla Starmane to restart.|FAIL|
+C Escape from Firewing Point!|QID|10052|N|Follow and protect Isla.\n[color=FF0000]NOTE: [/color]Grab aggro as quickly as you can.|
+C The Final Code|QID|10447|M|71.3,37.3|N|[Coords]Clear the area around the mana bomb in the centre, and right click to set it off.\n[color=FF0000]NOTE: [/color]You have about 10 seconds to get clear and if you don't, the only thing that happens is that you get knocked down.|
 l Firewing Signets|QID|10412|M|71.27,37.37|L|29426 10|N|Any Firewing mob|US|REP|Scryers;934|
 T Escape from Firewing Point!|QID|10052|M|48.93,44.59|N|To Advisor Faila in Stonebreaker Hold.|
 T The Final Code|QID|10447|M|50.04,45.93|N|To Tooki.|
