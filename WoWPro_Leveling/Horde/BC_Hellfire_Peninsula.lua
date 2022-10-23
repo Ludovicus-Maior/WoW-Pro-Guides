@@ -129,9 +129,9 @@ K Crust Bursters|QID|9373|US|L|23338|M|49,67|N|Kill the Crust Bursters on this a
 A Missing Missive|QID|9373|U|23338|M|48.0,66.0|N|From Eroded Leather Case.|
 T Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|To Legassi.|
 A Smooth as Butter|QID|9356|PRE|9361|M|49.24,74.84|N|From Legassi.|
-C Make Them Listen|QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|S|
+C Make Them Listen|QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|M|53.32,78.15|S|
 l A Mysterious Tome|QID|10229|N|Kill Unyielding Knights at the Expedition Armory until they drop the item "A Mysterious Tome".|L|28552|M|55,76|
-C Make Them Listen|QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|US|
+C Make Them Listen|QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|M|53.32,78.15|US|
 A Decipher the Tome|QID|10229|U|28552|M|58.0,79.0|N|From A Mysterious Tome.|
 C Smooth as Butter|QID|9356|N|Kill and loot Bonstripper Buzzard until you have 12 wings.|M|63.4,66.3|
 C In Case of Emergency...|QID|10161|NC|N|Pick up Zepplin Debris.|M|58.0,71.5|US|
