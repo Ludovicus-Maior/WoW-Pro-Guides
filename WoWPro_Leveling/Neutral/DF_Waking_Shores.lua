@@ -151,7 +151,7 @@ C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|NC|N|Wrathion met at Scale
 T Time for a Reckoning|QID|65991|M|66.36,34.99|Z|2022|N|To Wrathion.|
 A Killjoy|QID|65993|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 A Blacktalon Intel|QID|65992|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
-A Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Bonus Objective - Autoaccepted.|
+A Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
 C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Slay Dragonhunter Igordan.|S!US|T|Dragonhunter Igordan|
 C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Consult Talonstalker Kavia.|
 C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Consult Right.|
@@ -181,7 +181,7 @@ A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From On the 
 C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|NC|N|Bliz has conveniently marked the books on your minimap, go pick them up.|S|
 C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Find the Infused dragon eggs. Kill the nearly helpless whelps.|S|
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Slay Primalist forces.|S|
-A Firava the Rekindler|QID|70648|PRE|65997|M|55.60,24.84|Z|2022|N|Bonus Objective - Autoaccepted.|
+A Firava the Rekindler|QID|70648|PRE|65997|M|55.60,24.84|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
 C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Slay Firava the Rekindler.|T|Firava the Rekindler|
 t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Bonus Objective - Autocompleted.|
 C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Finish up with the unfortunate whelplings.|US|
@@ -213,13 +213,13 @@ C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Ask Akxall w
 A Friend on the Mend|QID|70058|PRE|66196|M|59.86,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
 C Friend on the Mend|QID|70058|QO|3|M|59.81,71.32|Z|2022|NC|N|Glass Bead is lying on the table.|RANK|2|
 C Friend on the Mend|QID|70058|QO|2|M|60.37,73.15|Z|2022|CHAT|N|Ask the NPCs standing around if they have some spare fabric.|RANK|2|
-A Artisan's Courier|QID|67564|M|57.93,68.26|Z|2002|N|From Haephesta.|
+A Artisan's Courier|QID|67564|M|57.93,68.26|Z|2022|N|From Haephesta.|RANK|2|
 f Ruby Lifeshrine|ACTIVE|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
 C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|SPELL|368896|
-A Stay a While|QID|70132|PRE|68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|
+A Stay a While|QID|70132|PRE|68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
 C Stay a While|QID|70132|M|57.82,66.79|Z|2022|EAB|QO|1|NC|N|Use the Extra Action Button to Sit and look at the view, then use chat option with Veritistrasz.|
 C Stay a While|QID|70132|M|57.82,66.81|Z|2022|QO|2|CHAT|N|Listen to Veritistrasz's Stories.|
 T Stay a While|QID|70132|M|57.85,66.80|Z|2022|N|To Veritistrasz.|
@@ -358,19 +358,19 @@ H Ruby Lifeshrine|ACTIVE|66116|M|55.20,63.70|Z|2022|N|And back to the hub.|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|2|NC|N|Report to Commander Lethanak.|
 T The Primary Threat|QID|66116|M|59.41,75.89|Z|2022|N|To Commander Lethanak.|
-A Clear the Battlefield|QID|66117|PRE|66116|M|59.41,75.89|Z|2022|N|Bonus Objective - Autoaccepted.|
+A Clear the Battlefield|QID|66117|PRE|66116|M|59.41,75.89|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
 A Basalt Assault|QID|66118|PRE|66116|M|59.41,75.89|Z|2022|N|From Commander Lethanak.|
 C Clear the Battlefield|QID|66117|PRE|66116|M|59.41,75.89|Z|2022|N|Kill other stuff in the area if you want to also do the bonus objective.|S|
 C Basalt Assault|QID|66118|M|60.99,79.21|Z|2022|N|Slay Enraged Cliffs.|
 T Basalt Assault|QID|66118|M|59.41,75.89|Z|2022|N|To Commander Lethanak.|
 A Proto-Fight|QID|66122|PRE|66118|M|59.41,75.89|Z|2022|N|From Commander Lethanak.|
 A Egg Evac|QID|66121|PRE|66118|M|59.47,76.14|Z|2022|N|From Majordomo Selistra.|
-A Ruby Life Pools: Primalist Invasion|QID|66119|PRE|66118|M|59.96,75.96|N|Dungeon Quest, Accept or not as you choose.|
+A Ruby Life Pools: Primalist Invasion|QID|66119|PRE|66118|M|59.96,75.96|N|Dungeon Quest, Accept or not as you choose.|RANK|2|
 C Proto-Fight|QID|66122|M|54.29,81.38|Z|2022|QO|1|NC|U|192436|N|Use the Ruby Harpoon on a proto-dragon (Optional).|
 C Proto-Fight|QID|66122|M|56.13,80.88|Z|2022|QO|2|U|192436|N|Slay Proto-dragons.|S|
 C Egg Evac|QID|66121|M|56.10,81.30|Z|2022|QO|1|NC|N|Rescue Bronze Egg.|
 C Egg Evac|QID|66121|M|54.98,81.01|Z|2022|QO|4|NC|N|Rescue Ruby Egg.|
-A Klozicc the Ascended|QID|66960|PRE|66118|M|55.96,81.39|Z|2022|N|Bonus Objective - Autoaccepted.|
+A Klozicc the Ascended|QID|66960|PRE|66118|M|55.96,81.39|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
 K Klozicc the Ascended|ACTIVE|66960|QO|1|M|55.96,81.39|Z|2022|T|Klozicc the Ascended|
 t Klozicc the Ascended|ACTIVE|66960|M|55.96,81.39|Z|2022|N|Bonus Objective - Auto turned in.|
 C Egg Evac|QID|66121|M|56.10,81.30|Z|2022|QO|1|NC|N|Rescue Bronze Egg.|
@@ -385,10 +385,72 @@ C Cut Off the Head|QID|66123|M|53.55,82.68|Z|2022|U|192436|N|Slay Jadzigeth.|T|J
 T Cut Off the Head|QID|66123|M|53.68,80.15|Z|2022|N|To Majordomo Selistra.|
 A Exeunt, Triumphant|QID|66124|PRE|66123|M|53.68,80.15|Z|2022|N|From Majordomo Selistra.|
 A Out for Delivery|QID|66963|M|48.48,78.86|Z|2022|N|From Hauler Bennet.|RANK|2|
-;^%&(()$% wow crashed. lost all this recording :(
+T Out for Delivery|QID|66963|M|48.54,82.68|Z|2022|N|To Cataloger Wulferd.|
+A Amateur Protography|QID|66524|M|48.49,82.67|Z|2022|N|From Cataloger Wulferd.|RANK|2|
+f Dragonscale Basecamp|ACTIVE|66524|M|47.9,83.33|Z|2022|N|At Art Raskins.|
+A Orientation: Dragonscale Basecamp|QID|72397|M|47.89,82.41|Z|2022|N|From Naleidea Rivergleam.|RANK|2|
+C Orientation: Dragonscale Basecamp|QID|72397|QO|1|M|47.92,82.09|Z|2022|CHAT|N|Rae'ana is the scholars supplier.|
+C Orientation: Dragonscale Basecamp|QID|72397|QO|2|M|47.9,83.33|Z|2022|CHAT|N|Granpap Whiskers is the catalogers supplier.|
+C Orientation: Dragonscale Basecamp|QID|72397|QO|3|M|47.32,83.41|Z|2022|CHAT|N|Pathfinder Jeb is the explorers supplier.|
+C Orientation: Dragonscale Basecamp|QID|72397|QO|4|M|46.94,82.90|Z|2022|CHAT|N|Boss Magor is the artisans supplier.|
+C Orientation: Dragonscale Basecamp|QID|72397|QO|5|M|47.10,82.58|Z|2022|CHAT|N|Cataloger Jakes is the Keeper of Renown.|
+T Orientation: Dragonscale Basecamp|QID|72397|M|47.22,82.72|Z|2022|N|To Toddy Whiskers.|
+A Behavior Analysis "Homework"|QID|69897|M|45.91,81.45|Z|2022|N|From Iyali.|RANK|2|
+A Scientific Meat-thod|QID|69898|M|45.91,81.45|Z|2022|N|From Iyali.|RANK|2|
+A Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
+C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Kill stuff as you go about the other objectives.|S|
+C Scientific Meat-thod|QID|69898|M|47.68,77.68|Z|2022|N|Kill the Riverbeast's to collect some meat.|S!US|
 C Exeunt, Triumphant|QID|66124|M|46.13,78.51|Z|2022|QO|1|CHAT|N|Check in with Majordomo Selistra at the Wild Hatchery.|
 T Exeunt, Triumphant|QID|66124|M|46.15,78.52|Z|2022|N|To Majordomo Selistra.|
 A Wrathion Awaits|QID|66079|PRE|66124|M|46.09,78.28|Z|2022|N|From Alexstrasza the Life-Binder.|
+C Amateur Protography|QID|66524|M|45.11,77.35|Z|2022|QO|2|NC|U|192465|N|Photograph an Optimistic Whelp learning to fly.|
+C Amateur Protography|QID|66524|M|44.07,78.04|Z|2022|QO|3|NC|U|192465|N|Photograph a Hungry Proto-Drake catching a fish.|
+C Behavior Analysis "Homework"|QID|69897|M|42.56,79.34|Z|2022|QO|1<1|NC|N|Click the Sleeping Whelp to pet it.|
+C Behavior Analysis "Homework"|QID|69897|M|42.40,82.57|Z|2022|QO|1<2|NC|N|Pet the Sleeping Whelps.|
+C Amateur Protography|QID|66524|M|43.38,82.70|Z|2022|QO|1|NC|U|192465|N|Photograph a Proto-Dragon Egg.|
+C Behavior Analysis "Homework"|QID|69897|QO|2|M|43.53,84.94|Z|2022|NC|N|And here is the last Sleeping Whelp to pet.|
+T Amateur Protography|QID|66524|M|39.03,83.23|Z|2022|N|To Cataloger Wulferd.|
+A Competitive Protography|QID|66525|PRE|66524|M|39.03,83.23|Z|2022|N|From Cataloger Wulferd.|RANK|2|
+A Preserving the Wilds|QID|66526|PRE|66524|M|39.09,83.26|Z|2022|N|From Dervishian.|RANK|2|
+C Preserving the Wilds|QID|66526|M|38.30,80.50|Z|2022|N|Kill the Primalists on the small island who are capturing the Proto-Whelps and Proto-Drakes.|S|
+C Competitive Protography|QID|66525|M|39.06,82.30|Z|2022|QO|2|NC|U|192465|N|Photograph an Infused Proto-Drake.|
+C Competitive Protography|QID|66525|M|38.28,80.78|Z|2022|QO|1|NC|U|192465|N|Photograph an Infused Proto-Dragon Egg.|
+C Preserving the Wilds|QID|66526|M|38.30,80.50|Z|2022|N|Finish freeing the quota of Proto-Whelps or Proto-Drakes.|US|
+T Preserving the Wilds|QID|66526|M|39.08,83.27|Z|2022|N|To Dervishian.|
+T Competitive Protography|QID|66525|M|39.03,83.23|Z|2022|N|To Cataloger Wulferd.|
+A Professional Protography|QID|66527|PRE|66526&66525|M|39.03,83.23|Z|2022|N|From Cataloger Wulferd.|RANK|2|
+C Professional Protography|QID|66527|M|38.94,83.40|Z|2022|QO|1|NC|U|192465|N|Jump on the Vertical Enhancement Apparatus (Optional).|
+C Professional Protography|QID|66527|M|38.77,84.05|Z|2022|QO|2|NC|U|192465|N|Step into the spotlight, move forward, next spotlight, then the next one, finally Wulferd is ready for you to take the picture.|
+T Professional Protography|QID|66527|M|39.02,83.24|Z|2022|N|To Cataloger Wulferd.|
+A King Without a Crown|QID|66528|PRE|66527|M|39.09,83.27|Z|2022|N|From Dervishian.|RANK|2|
+C King Without a Crown|QID|66528|M|39.40,84.01|Z|2022|QO|3|NC|N|Investigate the Cracked Rib.|
+C King Without a Crown|QID|66528|M|39.12,83.98|Z|2022|QO|1|NC|N|Investigate the Severed Spine.|
+C King Without a Crown|QID|66528|M|38.83,83.52|Z|2022|QO|2|NC|N|Investigate the Charred Foreclaw.|
+T King Without a Crown|QID|66528|M|39.08,83.27|Z|2022|N|To Dervishian.|
+A A Thousand Words|QID|66529|PRE|66528|M|39.08,83.27|Z|2022|N|From Dervishian.|RANK|2|
+C A Thousand Words|QID|66529|M|38.75,83.61|Z|2022|NC|U|192465|N|Photograph Dervishian near the Proto-Dragon Skeleton.|
+T A Thousand Words|QID|66529|M|38.72,83.69|Z|2022|N|To Dervishian.|
+C Behavior Analysis "Homework"|QID|69897|M|45.92,81.45|Z|2022|QO|2|CHAT|N|Report back to Iyali.|
+T Behavior Analysis "Homework"|QID|69897|M|45.92,81.45|Z|2022|N|To Iyali.|
+A Secret Research|QID|69899|PRE|69897|M|45.92,81.45|Z|2022|N|From Iyali.|RANK|2|
+C Secret Research|QID|69899|M|45.92,81.45|Z|2022|CHAT|N|Listen, nod appropriately, at some point open the box, listen some more.|
+T Secret Research|QID|69899|M|45.95,81.49|Z|2022|N|To Tyrgon.|
+A Identifying the Source|QID|69900|PRE|69899|M|45.95,81.49|Z|2022|N|From Tyrgon.|RANK|2|
+A Bring In the Expert|QID|69901|PRE|69899|M|45.95,81.49|Z|2022|N|From Tyrgon.|RANK|2|
+C Bring In the Expert|QID|69901|M|43.45,82.98;43.04,79.43;42.05,77.60;40.56,80.03;38.68,82.27|CS|Z|2022|N|The first one is the hardest. It's on a ledge pretty high up, with Grod the Ancient and I saw no way to get it without getting in a fight with him. (and potentially losing).|
+T Identifying the Source|QID|69900|M|45.95,81.50|Z|2022|N|To Tyrgon.|
+T Bring In the Expert|QID|69901|M|45.95,81.50|Z|2022|N|To Tyrgon.|
+A Theory in Practice|QID|69902|PRE|69900&69901|M|45.95,81.50|Z|2022|N|From Tyrgon.|RANK|2|
+C Theory in Practice|QID|69902|M|45.91,81.44|Z|2022|QO|1|NC|N|Click on the  whelpling.|
+C Theory in Practice|QID|69902|M|45.96,81.50|Z|2022|QO|2|CHAT|N|Pick a name any name.|
+T Theory in Practice|QID|69902|M|45.96,81.50|Z|2022|N|To Tyrgon.|
+A Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|From Ree'ana.|RANK|2|;dont know if this is pre on finishing quests in the area?, renown?
+T Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|To Ree'ana.|
+A Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|REN|3|RANK|2|
+T Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|To Cataloger Jakes.|
+C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Its now time to finish the Bonus Objective if you are planning to.|US|
+t Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autocompleted.|
+R Obsidian Bulwark|ACTIVE|66079|M|47.77,67.11;42.47,66.82|CS|Z|2022|N|Mount up and head off to find Wrathion.|
 T Wrathion Awaits|QID|66079|M|47.77,67.11;42.47,66.82|CS|Z|2022|N|To Wrathion.|
 A Lessons from Our Past|QID|72241|PRE|66079|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
 C Lessons from Our Past|QID|72241|M|42.47,66.82|Z|2022|QO|1|CHAT|N|Speak with Scalecommander Emberthal to learn of past events.|
@@ -407,8 +469,8 @@ T Sharp Practice|QID|66078|M|42.47,66.86|Z|2022|N|To Wrathion.|
 A Talon Strike|QID|65956|PRE|66048&66078|M|42.47,66.86|Z|2022|N|From Wrathion (after a bit of dialog).|
 A No Time For Heroes|QID|65957|PRE|66048&66078|M|42.47,66.86|Z|2022|
 C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|S|
-C No Time For Heroes|QID|65957|M|34.82,66.91|Z|2022|QO|3|N|Slay Olphis the Molten.|T|Olphis the Molten|
 C No Time For Heroes|QID|65957|M|35.53,68.52|Z|2022|QO|1|N|Slay Piercer Gigra on the top of the tower.|T|Piercer Gigra|
+C No Time For Heroes|QID|65957|M|34.82,66.91|Z|2022|QO|3|N|Slay Olphis the Molten.|T|Olphis the Molten|
 C No Time For Heroes|QID|65957|M|35.59,60.85|Z|2022|QO|2|N|Slay Modak Flamespit on the top of the tower.|T|Modak Flamespit|
 C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|US|
 T No Time For Heroes|QID|65957|M|34.01,61.29|Z|2022|N|To Wrathion.|

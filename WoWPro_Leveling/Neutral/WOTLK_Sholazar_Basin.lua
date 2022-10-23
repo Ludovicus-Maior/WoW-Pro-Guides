@@ -9,7 +9,7 @@ N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 F Dalaran|QID|12521|N|Head to Dalaran.|
 A Where in the World is Hemet Nesingwary?|QID|12521|N|From Archmage Pentarus, near the exit from Krasus' Landing.|M|68.68,42.06|Z|Dalaran City@Dalaran|
-T Where in the World is Hemet Nesingwary?|QID|12521|N|Talk to the Archmage again to get a flight. To Monte Muzzleshot. He's hanging from a tree.|M|35.68,58.65|
+T Where in the World is Hemet Nesingwary?|QID|12521|N|Talk to the Archmage again to get a flight. To Monte Muzzleshot. He's hanging from a tree.|M|39.69,58.60|
 A Welcome to Sholazar Basin|QID|12489|PRE|12521|M|39.7,58.7|N|From Monte Muzzleshot.|
 T Welcome to Sholazar Basin|QID|12489|N|To Hemet Nesingwary. Find Hemet at, where else, Nesingwary Base Camp, to the West.|M|27.09,58.72|
 A It Could Be Anywhere!|QID|12624|N|From Chad. He's right: it really could be anywhere. Turn it in when you find it.|M|26.95,58.92|

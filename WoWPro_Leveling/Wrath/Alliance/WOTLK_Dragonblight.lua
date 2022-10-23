@@ -24,9 +24,9 @@ T The Demo-gnome|QID|12275|N|Go south to Siege Engineer Quarterflash.|M|77.84,50
 A The Search for Slinkin|QID|12276|PRE|12275|M|77.84,50.28|N|From Siege Engineer Quarterflash.|
 A The Bleeding Ore|QID|12272|PRE|12275|M|77.84,50.28|N|From Siege Engineer Quarterflash.|
 A Not In Our Mine|QID|12269|PRE|12275|N|From Highlord Leoric Von Zeldig.|M|77.80,50.30|
-A WANTED: Kreug Oathbreaker|QID|12438|PRE|12251|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
-A WANTED: High Shaman Bloodpaw|QID|12441|PRE|12251|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
-A WANTED: Onslaught Commander Iustus|QID|12442|PRE|12251|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
+A Wanted: Kreug Oathbreaker|QID|12438|PRE|12251|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
+A Wanted: High Shaman Bloodpaw|QID|12441|PRE|12251|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
+A Wanted: Onslaught Commander Iustus|QID|12442|PRE|12251|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
 h Wintergarde Keep|QID|12253|N|Make this inn your home location with Illusia Lune.|M|77.50,51.50|
 K Vengeful Geists|ACTIVE|12258|QO|1|M|79.9,49.7|S|N|Kill any Vengeful Geist you see.|
 C Rescue from Town Square|QID|12253|S|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|
