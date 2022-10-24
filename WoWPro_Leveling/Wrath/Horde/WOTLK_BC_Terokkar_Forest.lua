@@ -211,7 +211,7 @@ T Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|To Kirrik the Awakened in 
 A Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10848|
 T The Shadow Tomb|QID|10881|M|37.26,50.86|N|To Mekeda.|
 T Escaping the Tomb|QID|10887|N|To Mekeda.|
-C Veil Lithic: Preemptive Strike|QID|10861|M|26.00,71.00|N|Loot Cursed Eggs here until you finish this quest.|NC|
+C Veil Lithic: Preemptive Strike|QID|10861|M|26.00,71.00|QO|1;2|N|After opening a Cursed Egg, you'll either kill the Malevolent Hatchling or collect the Hatchling (depending upon which one spawns).\n[color=FF0000]NOTE: [/color]The Cursed Eggs are found in nests throughout Veil Lithic.|
 A An Improper Burial|QID|10913|M|31.01,76.12|N|From Commander Ra'vaj.|
 A The Dread Relic|QID|10877|M|31.07,76.53|N|From Oakun.|
 A Taken in the Night|QID|10873|M|31.44,75.66|N|From Scout Navrin.|
