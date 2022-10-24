@@ -43,11 +43,6 @@ T Seeking Solvent|QID|12433|O|N|To Gurtor, you've got 3 minutes. Try not to figh
 T Smoke 'Em Out|QID|12324|O|M|11.3,76.7|N|To Stone Guard Ragetotem.|
 T Keep Them at Bay|QID|12317|O|M|10.1,77.3|N|To Centurion Kaggrum.|
 T Crush Captain Brightwater!|QID|12315|O|M|10.1,77.2|N|To General Khazgar.|
-A Riding the Red Rocket|QID|12432|M|14.82,86.54|N|From General Gorlok. This quest requires the Horde to fully control Venture Bay. If the Horde doesn't, just stand by the lighthouse until they do. This is one needed for an achievment.|
-l Element 115|QID|12432|O|M|16.4,80.3|N|Grab some Element 115, same as before kill everything as you get the debuff.|
-R Run here|QID|12432|O|M|13.7,88.95|CC|N|And hop on a Rocket Propelled Warhead. You can mount and fly over the water if you wish.|
-C Riding the Red Rocket|QID|12432|O|M|21.47,84.59|N|Carefully work your way to this waypoint. If you fail, just get another Element 115 and try again.|
-T Riding the Red Rocket|QID|12432|O|M|14.82,86.54|N|To General Gorlok.|
 H Conquest Hold|QID|12259|O|U|6948|N|Hearth to Conquest Hold.|
 N READ THIS|QID|12259|N|Time to engage a vrykul from dragonback, grab the dragon (Flamebringer) where the waypoint is. When you take control of the drake, you get 3 abilities. When you engage the Thane, move in really close on his right (doesn't necessarily matter, just orientation purposes) and open with ability 3. Then use ability 2. Then spam ability 1 until 2 or 3 come off cooldown and then use them. When he volleys, move to his other side and continue.|M|26,80|
 C The Thane of Voldrune|QID|12259|N|Kill Thane Torvald Eriksson.|M|27.1,73.0|
