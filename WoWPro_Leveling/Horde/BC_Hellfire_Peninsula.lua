@@ -216,7 +216,7 @@ A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren, on the
 C Trueflight Arrows|QID|9381|N|Go between the points killing and looting Bonestripper Vultures until you have 8 tail feathers.|M|29,56;24.28,44.91|CN|
 C Arelion's Secret|QID|10286|CHAT|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health. Just to warn you, you will be put into PVP.|M|18.0,50.0|
 T Arelion's Secret|QID|10286|M|18.0,50.0|N|To Magister Aledis.|
-A The Mistress Revealed|QID|10287|PRE|10286|M|18.0,50.0|N|From Magister Aledis.|
+A The Mistress Revealed|QID|10287|PRE|10286|M|18.0,50.0|N|From Magister Aledis. He travels the road between Falcon Watch and the waypoint.|
 T Missing Missive|QID|9373|M|15.70,52.09|N|To Thiah Redmane.|
 T Helping the Cenarion Post|QID|10442|M|15.70,52.09|N|To Thiah Redmane.|
 A Demonic Contamination|QID|9372|M|15.70,52.09|N|From Thiah Redmane.|
