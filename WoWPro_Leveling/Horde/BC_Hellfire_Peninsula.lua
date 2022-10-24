@@ -183,7 +183,7 @@ H Thrallmar|QID|10238|U|6948|N|Hearth to Thrallmar.|
 T How to Serve Goblins|QID|10238|M|51.4,30.5|N|To Foreman Razelcraz.|
 A Shizz Work|QID|10629|PRE|10238|M|51.5,30.5|N|From Foreman Razelcraz.|
 C Shizz Work|QID|10629|N|Use the Felhound Whistle. Then take your pet and kill the helboars to the west. Each time a boar dies, the Fel Puppy chows down and leaves some remains. Right click the leavings, and eventually one with contain the Shredder Key.|U|30803|M|50.0,29.5|
-T Shizz Work|QID|10629|M|51.5,30.5|N|To Foreman Razelcraz. Make sure you dismiss the Felhound before turning in the quest.|
+T Shizz Work|QID|10629|M|51.5,30.5|N|To Foreman Razelcraz. The hound may stick around untill your hearth or leave the zone.|
 A Beneath Thrallmar|QID|10630|PRE|10629|M|51.5,30.5|N|From Foreman Razelcraz.|
 C Beneath Thrallmar|QID|10630|N|Enter the mine, Urga'zz is in the back of the cave.|M|54.09,31.64|
 T Beneath Thrallmar|QID|10630|M|51.5,30.5|N|To Foreman Razelcraz.|
