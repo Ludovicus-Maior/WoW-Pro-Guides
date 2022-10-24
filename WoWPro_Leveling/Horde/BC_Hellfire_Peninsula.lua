@@ -171,7 +171,7 @@ C Zeth'Gor Must Burn!|NC|QID|10792|QO|2|U|31346|N|Head to the building next to t
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|4|U|31346|N|Head to the building where you killed the Worg Master, and use the torch.|M|68.2,73.4|
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|3|U|31346|N|Head to the Western Hovel, and use the torch.|M|67.1,75.8|
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|1|U|31346|N|Head to the Barracks, and use the torch.|M|69,75.9|
-C The Eyes of Grillok|QID|10813|N|Find an Eye of Grillok, and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|U|31463|
+C The Eyes of Grillok|QID|10813|N|Find an Eye of Grillok, and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|U|31463|M|61.70,81.77|
 T The Eyes of Grillok|QID|10813|M|61.66,81.86|N|To Zezzak.|
 A Grillok "Darkeye"|QID|10834|PRE|10813|M|61.66,81.86|N|From Zezzak.|
 T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
