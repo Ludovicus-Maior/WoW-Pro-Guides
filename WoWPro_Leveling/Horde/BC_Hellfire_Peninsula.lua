@@ -165,7 +165,7 @@ A Bloody Vengeance|QID|10250|PRE|10230|M|61.74,81.79|N|From Althen the Historian
 T The Warp Rifts|QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
 A Void Ridge|QID|10294|PRE|10278|M|61.87,81.53|N|From Ogath the Mad.|
 C Bloody Vengeance|QID|10250|U|28651|N|Head to the semi-destroyed tower. Use the Unyielding Battle Horn and kill Urtrak when he spawns.|M|63.5,77.6|
-K Bleeding Hollow Peon|QID|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|
+K Bleeding Hollow Peon|QID|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|M|63.15,74.10|
 C Light it up|NC|QID|10792|U|31347|L|31346 4|M|69.2,69.2|N|Find the Bleeding Hollow forge, it's directly to the left after you enter the north gate. Use the torch at the forge to light all four.|
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|2|U|31346|N|Head to the building next to the forge, and use the torch.|M|69.7,70.3|
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|4|U|31346|N|Head to the building where you killed the Worg Master, and use the torch.|M|68.2,73.4|
