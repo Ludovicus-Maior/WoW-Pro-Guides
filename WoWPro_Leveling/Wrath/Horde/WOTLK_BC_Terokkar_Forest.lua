@@ -194,19 +194,20 @@ T Patriarch Ironjaw|QID|10023|M|50.17,46.44|N|To Malukaz.|
 A Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|From Malukaz.|PRE|10023|
 C Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|Use the incense.|U|31344|NC|
 T Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|To Malukaz.|
-C Recover the Bones|QID|10030|M|52.00,58.00|L|25842 10|N|Loot the bones needed for this quest.|S|
+C Recover the Bones|QID|10030|M|52.00,58.00|L|25842 10|N|The Restless Bones are found on the ground around Bone Wastes.|S|
 K The Infested Protectors|QID|10896|M|52.00,58.00|QO|1|N|Kill the Treant mobs to spawn the required Wood Mites.|US|IZ|The Bone Wastes|
 C Trachela's Carcass|ACTIVE|10036|M|43.12,51.58|L|30618|N|Kill Trachela and loot the carcass.|
 T The Infested Protectors|QID|10896|M|37.86,51.69|N|To Lakotae in Refugee Caravan.|
 K Veil Rhaze: Unliving Evil|ACTIVE|10848|M|28.00,56.00|QO|1;2;3|
-K Torgos!|ACTVE|10036|M|26.93,55.64|L|25852|ELITE|N|[color=00FFFF]Group of 2 or level up to solo[/color]\nHead to the scarecrow called Torgos' Bane and use Trachela's Carcass to summon Torgo.\n[color=FF0000]NOTE: [/color]If you die, you'll have to get another carcass.|U|30618|
-R Shadow Tomb|QID|10887|M|32.00,53.00|N|Go to the Shadow Tomb.|
-C The Shadow Tomb|QID|10881|M|29.70,51.70|QO|2|N|Loot the Gavel from the chest here.|NC|
-C The Shadow Tomb|QID|10881|M|32.10,51.20|QO|1|N|Loot the Drape from the chest here.|NC|
-C The Shadow Tomb|QID|10881|M|31.20,46.70|QO|3|N|Loot the scroll from the chest here, then accept the escort quest.|NC|
-A Escaping the Tomb|QID|10887|M|30.60,49.00|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Akuno.|
-C Escaping the Tomb|QID|10887|M|33.92,51.47|N|Do this escort quest.|
-T Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|To Kirrik the Awakened.|
+K Torgos!|ACTIVE|10036|M|26.93,55.64|L|25852|ELITE|N|[color=00FFFF]Group of 2 or level up to solo[/color]\nHead to the scarecrow called Torgos' Bane and use Trachela's Carcass to summon Torgo.\n[color=FF0000]NOTE: [/color]If you die, you'll have to get another carcass.|U|30618|
+R Shadow Tomb|ACTIVE|10881|AVAILABLE|10887|M|32.00,53.00|
+C Gavel of K'alen|QID|10881|M|29.67,51.68|L|31710|N|Clear the room and loot it from the Cabal Chest.|
+C Drape of Arunen|QID|10881|M|32.09,51.19|L|31709|N|Clear the room and loot it from the Cabal Chest.|
+C Scroll of Atalor|QID|10881|M|31.16,46.69|L|31708|N|Clear the room and loot it from the Cabal Chest.\n[color=FF0000]NOTE: [/color]If done right, you can reach the chest without aggroing Hathyss the Wicked.|
+A Escaping the Tomb|QID|10887|M|30.60,49.00|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Akuno.\n[color=FF0000]NOTE: [/color]You may have to kill the Cabal Interrogator|
+A Escaping the Tomb|QID|10887|M|30.60,49.00|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Akuno to restart.|FAIL|
+C Escaping the Tomb|QID|10887|M|33.77,51.62|N|Escort Akuno out of the tomb and a short distance across The Bone Wastes.\n[color=FF0000]NOTE: [/color]If they are close enough, he will aggro them. Leave it to him to pick the fights.|
+T Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|To Kirrik the Awakened in Refugee Caravan.|
 A Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10848|
 T The Shadow Tomb|QID|10881|M|37.26,50.86|N|To Mekeda.|
 T Escaping the Tomb|QID|10887|N|To Mekeda.|
