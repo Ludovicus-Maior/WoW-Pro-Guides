@@ -346,7 +346,7 @@ end
 
 function WoWPro:CreateTab(name, parent)
     local tab
-    if WoWPro.DF then
+    if WoWPro.RETAIL then
         tab = _G.CreateFrame('Button', nil, parent, "PanelTabButtonTemplate")
     else
         tab = _G.CreateFrame('Button', nil, parent, "TabButtonTemplate")
