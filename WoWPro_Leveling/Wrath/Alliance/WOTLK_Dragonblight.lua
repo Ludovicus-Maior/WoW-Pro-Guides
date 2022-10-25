@@ -56,7 +56,7 @@ T Not In Our Mine|QID|12269|M|77.8,50.3|N|From Highlord Leoric Von Zeldig.|
 T Understanding the Scourge War Machine|QID|12281|N|To High Commander Halford Wyrmbane.|M|78.58,48.26|
 T Find Durkon!|QID|12309|N|From the gate, go down, take a right-turn, past the tall building we went in earlier for the Scrying Orb. A little further south you'll find Cavalier Durkon.|M|79.00,53.00|
 A The Noble's Crypt|QID|12311|PRE|12309|M|79.1,53.2|N|From Cavalier Durkon.|
-K Necrolord Amarion|QID|12311|QO|1|N|Enter the crypt, go to the bottom of it, kill Necrolord Amarion.|
+K Necrolord Amarion|QID|12311|QO|1|M|78.60,52.46|N|Enter the crypt, go to the bottom of it, kill Necrolord Amarion.|
 A Secrets of the Scourge|QID|12312|PRE|12309|N|Right-click the Flesh Bound Tome which should be on the floor behind where you found Necrolord Amarion. Get the quest and get out of the crypt as fast as you can to stop those annoying ghouls from spawning.|M|78.6,52.4|
 T The Noble's Crypt|QID|12311|M|79.1,53.2|N|To Cavalier Durkon.|
 T Secrets of the Scourge|QID|12312|M|79.1,53.2|N|To Cavalier Durkon.|
@@ -72,7 +72,7 @@ T A Righteous Sermon|QID|12321|N|Go back to High Commander Halford Wyrmbane.|M|7
 A Into Hostile Territory|QID|12325|PRE|12281|M|78.52,48.28|N|From High Commander Halford Wyrmbane.|
 T A Disturbance In The West|QID|12439|N|To Rodney Wells.|M|77.00,49.80|
 A To Stars' Rest!|QID|12440|LEAD|12000|PRE|12439|N|Dismount, then accept this quest from Rodney Wells. This will fly you to Stars' Rest.|M|77,49.8|
-f Stars' Rest|QID|12440|N|Get the new flight path.|
+f Stars' Rest|QID|12440|N|Get the new flight path.|M|29.16,55.34|
 T To Stars' Rest!|QID|12440|N|To the Image of Archmage Modera.|M|29.00,55.50|
 A Rifle the Bodies|QID|12000|M|29.0,55.5|N|From the Image of Archmage Modera.|
 A The Liquid Fire of Elune|QID|12166|N|From Warden Jodi Moonsong.|M|29.20,55.60|

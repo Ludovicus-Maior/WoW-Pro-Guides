@@ -5,6 +5,27 @@ WoWPro:GuideLevels(guide,60, 70, 60)
 WoWPro:GuideNextGuide(guide, 'Ohnahran_Plains')
 WoWPro:GuideSteps(guide, function()
 return [[
+
+;Dragon Riding Glyphs that need to be worked into the guide.
+;F Skytop Observatory Rostrum|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|
+;F Dragonheart Outpost|N|Inside the broken tower, around mid level.|M|69,46|Z|2022;The Waking Shores!Dragonflight|
+;F Wingrest Embassy|N|On the east side of the tower, look around it's base.|M|75.0,37.0|Z|2022;The Waking Shores!Dragonflight|
+;F Scalecracker Peak|N|This one is on the peak of the mountan.|M|73.2,20.0|Z|2022;The Waking Shores!Dragonflight|
+;F Life-Binder Observatory|N|Over the tower.|M|52.68,17.19|Z|2022;The Waking Shores!Dragonflight|
+;F The Overflowing Spring|N|Over the mountain top.|M|46.4,52.1|Z|2022;The Waking Shores!Dragonflight|
+;F Crumbling Life Archway|N|Inside the actual archway, at the top of it.|M|57.6,55.0|Z|2022;The Waking Shores!Dragonflight|
+;F Ruby Life Pools|N|Over the hill top.|M|54.5,74.2|Z|2022;The Waking Shores!Dragonflight|
+;F Flashfrost Enclave|N|Just above the ground.|M|58.10,78.63|Z|2022;The Waking Shores!Dragonflight|
+;F Rubyscale Outpost|N|It's floating above the lake.|M|48.82,86.64|Z|2022;The Waking Shores!Dragonflight|
+;F Obsidian Bulwark|N|Back to Waking Shores for this one, floating above the mountain pillar.|M|41.0,72.0|Z|2022;The Waking Shores!Dragonflight|
+;F Obsidian Throne|N|Behind the tower floating over the lava.|M|21.0,51.0|Z|2022;The Waking Shores!Dragonflight|
+
+;Rares that need to be worked into guide.
+;A Primal Scythid Queen|QID||M|81.36,37.58|This a rare Bonus quest, AUto pushed.|
+
+;treasures that need to be worked into the guide.
+;T SMemories|QID|70134|M|57.82,66.85|Z|2022|N|From Veritistrasz.|
+
 A The Dragon Isles Await|QID|65436|M|PLAYER|Z|84|N|From UI Alert.|FACTION|Alliance|
 A The Dragon Isles Await|QID|65435|M|PLAYER|Z|85|N|From UI Alert.|FACTION|Horde|
 T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84|N|To Wrathion.|FACTION|Alliance|
@@ -51,6 +72,9 @@ A Primal Pests|QID|70123|PRE|67700|M|82.16,31.86|Z|2022|N|From Scalecommander Az
 A Primal Pests|QID|65453|PRE|65444|M|80.65,27.59|Z|2022|N|From Scalecommander Cinderthresh.|FACTION|Horde|
 A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022|N|From Thaelin Darkanvil.|FACTION|Alliance|
 A Practice Materials|QID|65451|PRE|65444|M|80.60,27.65|Z|2022|N|From Boss Magor.|FACTION|Horde|
+l Dragon Isles Supply Bag|QID|72708|L|202081|N|Kill Proto Drakes till the item drops|S!US|
+;Currently bugged on Beta. Cant accept the quest.
+;A Dragon Isles Supplies|QID|72708|M|PLAYER|N|Use the Dragon Isles Supply Bag from your inventroy.|U|202081|
 C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022|N|Kill the Proto-Whelp and collect their scales.|S|
 C Primal Pests|QID|70123^65453|M|83.59,36.12|Z|2022|N|Slay Primal Proto-drakes.|S|
 C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye is suspended above some lava.|FACTION|Alliance|
@@ -85,6 +109,7 @@ C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|2|NC|N|Use the #1 ab
 C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|3|NC|N|Use the #2 abilty to Search for Allies.|
 C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|4|NC|N|Use the #3 abilty to Search for Danger.|
 T From Such Great Heights|QID|66101|M|75.84,33.50|Z|2022|N|To Aster Cloudgaze.|
+;T Dragon Isles Supplies|QID|72708|M|76.43,34.50|N|Turn into Haephesta.|
 A Quality Assurance|QID|69965|PRE|67053^66110|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|
 A Always Be Crafting|QID|66112|PRE|67053^66110|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|RANK|2|
 f Wingrest Embassy|QID|66112|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|
@@ -213,16 +238,17 @@ C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Ask Akxall w
 A Friend on the Mend|QID|70058|PRE|66196|M|59.86,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
 C Friend on the Mend|QID|70058|QO|3|M|59.81,71.32|Z|2022|NC|N|Glass Bead is lying on the table.|RANK|2|
 C Friend on the Mend|QID|70058|QO|2|M|60.37,73.15|Z|2022|CHAT|N|Ask the NPCs standing around if they have some spare fabric.|RANK|2|
+A Stay a While|QID|70132|PRE|68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
+C Stay a While|QID|70132|M|57.82,66.79|Z|2022|EAB|QO|1|NC|N|Use the Extra Action Button to Sit and look at the view, then use chat option with Veritistrasz.|
+C Stay a While|QID|70132|M|57.82,66.81|Z|2022|QO|2|CHAT|N|Listen to Veritistrasz's Stories.|
+T Stay a While|QID|70132|M|57.85,66.80|Z|2022|N|To Veritistrasz.|
+A Memories|QID|70134|PRE|70132|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
 A Artisan's Courier|QID|67564|M|57.93,68.26|Z|2022|N|From Haephesta.|RANK|2|
 f Ruby Lifeshrine|ACTIVE|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
-C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|SPELL|368896|
-A Stay a While|QID|70132|PRE|68795|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
-C Stay a While|QID|70132|M|57.82,66.79|Z|2022|EAB|QO|1|NC|N|Use the Extra Action Button to Sit and look at the view, then use chat option with Veritistrasz.|
-C Stay a While|QID|70132|M|57.82,66.81|Z|2022|QO|2|CHAT|N|Listen to Veritistrasz's Stories.|
-T Stay a While|QID|70132|M|57.85,66.80|Z|2022|N|To Veritistrasz.|
+C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|
 C How to Glide with Your Dragon|QID|65118|M|57.48,61.28|Z|2022|QO|2|NC|N|Glide Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188134|
 C How to Glide with Your Dragon|QID|65118|M|57.38,59.17|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Glide with Your Dragon|QID|65118|M|57.46,59.09|Z|2022|N|To Celormu.|
@@ -232,7 +258,7 @@ C How To Dive with Your Dragon|QID|65120|M|57.43,59.98|Z|2022|QO|2|NC|N|Glide Th
 C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|3|NC|N|Land in the Target Area. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
 T How To Dive with Your Dragon|QID|65120|M|57.47,59.09|Z|2022|N|To Celormu.|
 A How to Use Momentum with Your Dragon|QID|65133|PRE|65120|M|57.65,66.88|Z|2022|N|From Lord Andestrasz.|
-C How to Use Momentum with Your Dragon|QID|65133|M|57.65,66.87|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|
+C How to Use Momentum with Your Dragon|QID|65133|M|57.65,66.87|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896|
 C How to Use Momentum with Your Dragon|QID|65133|M|57.43,60.03|Z|2022|QO|2|NC|N|Pass Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188169|
 C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.09|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Use Momentum with Your Dragon|QID|65133|M|57.47,59.10|Z|2022|N|To Celormu.|
@@ -263,12 +289,14 @@ T The Mandate of the Red|QID|66115|M|62.78,70.43|Z|2022|N|To Zahkrana.|
 A Training Wings|QID|70061|PRE|68799|M|62.18,70.56|Z|2022|N|From Amella.|
 T Artisan's Courier|QID|67564|M|60.24,72.19|Z|2022|N|To Thomas Bright.|
 A A Gift for Miguel|QID|67100|PRE|67564|M|60.24,72.19|Z|2022|N|From Thomas Bright.|RANK|2|
-C A Gift for Miguel|QID|1|QO|67100|M|60.24,72.19|Z|2022|CHAT|N|Ask Thomas Bright about crafting materials quality.|
+C A Gift for Miguel|QID|67100|QO|1|M|60.24,72.19|Z|2022|CHAT|N|Ask Thomas Bright about crafting materials quality.|
 C Training Wings|QID|70061|M|61.09,71.46|Z|2022|QO|1|V|N|Hop on the Ruby Whelpling.|
 C Training Wings|QID|70061|M|61.92,71.09|Z|2022|QO|4|N|Slay Relentless Gust.|
 C Training Wings|QID|70061|M|61.77,72.40|Z|2022|QO|3|N|Slay Intrusive Pupstinger.|S|
 C Training Wings|QID|70061|M|61.29,71.51|Z|2022|QO|2|N|Slay Agitated Weedling. If you end up at the bottom of the lifeshrine, you can exit the vehicle UI and ask Urlostrasz <Ferry> for a ride back to the top.|
 C Training Wings|QID|70061|M|61.77,72.40|Z|2022|QO|3|N|Slay Intrusive Pupstinger.|US|
+C Memories|QID|70134|M|61.98,72.21|Z|2022|N|Behind the pillar at the bottom of the lifeshrine.|NC|
+T Memories|QID|70134|M|57.82,66.85|Z|2022|N|To Veritistrasz.|
 T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|;moved currently at 59.94,67.82 bug?
 A Who Brought the Ruckus?|QID|66931|PRE|70061|M|62.35,73.01|Z|2022|N|From Alexstrasza the Life-Binder.|
 C Who Brought the Ruckus?|QID|66931|M|59.35,72.65|Z|2022|NC|N|Investigate the pool near Akxall to discover the commotion.|
@@ -298,14 +326,15 @@ T Site Salvage|QID|66435|M|66.58,56.06|Z|2022|N|To Elementalist Taiyang.|
 T A Key Element|QID|66437|M|66.58,56.06|Z|2022|N|To Elementalist Taiyang.|
 A Distilled Effort|QID|66441|PRE|66435&66437|M|66.58,56.06|Z|2022|N|From Elementalist Taiyang.|RANK|2|
 A Rapid Fire Plans|QID|66439|PRE|66435&66437|M|66.62,56.05|Z|2022|N|From Acadia Chistlestone.|RANK|2|
+A Lofty Goals|QID|66438|PRE|66435&66437|M|66.62,56.05|Z|2022|N|From Examiner Tae'shara Bloodwatcher.|RANK|2|
 A Drainage Solutions|QID|70994|PRE|66435&66437|M|69.64,58.09;70.51,56.85|CS|Z|2022|N|From Zikkori.|RANK|2|
 C Drainage Solutions|QID|70994|M|72.29,56.58|Z|2022|NC|U|200747|N|Use provided item to siphon the glittery streams.|S|
-C Distilled Effort|QID|66441|M|71.78,56.76|Z|2022|NC|N|Kill the large water elemental to loot Orb of Primal Waves.|T|Aquilon|
+C Distilled Effort|QID|66441|M|71.78,56.76|Z|2022|NC|N|Kill the large water elemental to loot Orb of Primal Waves.|T|Acequian|
 C Drainage Solutions|QID|70994|M|72.29,56.58|Z|2022|NC|U|200747|N|Use provided item to siphon the glittery streams.|US|
 T Drainage Solutions|QID|70994|M|70.50,56.85|Z|2022|N|To Zikkori.|
 R Hornswog Hollow|ACTIVE|66439|M|69.00,62.47|Z|2022|N|Continue on your way to Hornswog Hollow.|
 C Rapid Fire Plans|QID|66439|M|69.96,65.74|Z|2022|QO|1|N|Kill elementals to get the primal flame fragments.|
-C Rapid Fire Plans|QID|66439|M|69.96,65.74|Z|2022|QO|2|NC|U|193918|N|Click the fragments to combine into Orb of Primal Flames.|
+C Rapid Fire Plans|QID|66439|M|69.96,65.74|Z|2022|QO|2|NC|U|192545|N|Click the fragments to combine into Orb of Primal Flames.|
 C A Gift for Miguel|QID|67100|M|68.86,64.69|Z|2022|QO|2|N|Keep killing the Elementals to loot the Fiery Spirits.|
 C Lofty Goals|QID|66438|M|70.62,63.13|Z|2022|QO|1|CHAT|N|Speak to Scout Ri'tal.|
 C Lofty Goals|QID|66438|M|70.12,61.53|Z|2022|QO|2|CHAT|N|Run thru the guantlet of whirlwinds to speak to Scout Francisco.|
@@ -313,6 +342,7 @@ R Lofty Goals|ACTIVE|66438|M|69.16,61.63|CC|Z|2022|N|Go to the circle on the edg
 C Lofty Goals|QID|66438|M|68.27,61.53|Z|2022|QO|3|NC|N|Pick up Orb of Primal Gales then stand in the circle just beyond it.|
 T Lofty Goals|QID|66438|M|66.60,56.07|Z|2022|N|To Elementalist Taiyang.|
 T Rapid Fire Plans|QID|66439|M|66.60,56.07|Z|2022|N|To Elementalist Taiyang.|
+T Distilled Effort|QID|66441|M|66.58,56.06|Z|2022|N|To Elementalist Taiyang.|
 A Let's Get Theoretical|QID|66442|PRE|70994&66438&66439|M|66.60,56.07|Z|2022|N|From Elementalist Taiyang.|RANK|2|
 C Let's Get Theoretical|QID|66442|M|66.60,56.07|Z|2022|QO|1|CHAT|N|Speak to Elementalist Taiyang.|
 C Let's Get Theoretical|QID|66442|M|66.60,56.07|Z|2022|QO|2|NC|N|Watch while they test Fire and Air Orbs.|
@@ -397,18 +427,18 @@ C Orientation: Dragonscale Basecamp|QID|72397|QO|5|M|47.10,82.58|Z|2022|CHAT|N|C
 T Orientation: Dragonscale Basecamp|QID|72397|M|47.22,82.72|Z|2022|N|To Toddy Whiskers.|
 A Behavior Analysis "Homework"|QID|69897|M|45.91,81.45|Z|2022|N|From Iyali.|RANK|2|
 A Scientific Meat-thod|QID|69898|M|45.91,81.45|Z|2022|N|From Iyali.|RANK|2|
-A Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
-C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Kill stuff as you go about the other objectives.|S|
-C Scientific Meat-thod|QID|69898|M|47.68,77.68|Z|2022|N|Kill the Riverbeast's to collect some meat.|S!US|
+C Scientific Meat-thod|QID|69898|M|47.68,77.68|Z|2022|N|Kill the Riverbeast's to collect some meat.|S|
 C Exeunt, Triumphant|QID|66124|M|46.13,78.51|Z|2022|QO|1|CHAT|N|Check in with Majordomo Selistra at the Wild Hatchery.|
 T Exeunt, Triumphant|QID|66124|M|46.15,78.52|Z|2022|N|To Majordomo Selistra.|
 A Wrathion Awaits|QID|66079|PRE|66124|M|46.09,78.28|Z|2022|N|From Alexstrasza the Life-Binder.|
+A Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
+C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Kill stuff as you go about the other objectives.|S!US|
 C Amateur Protography|QID|66524|M|45.11,77.35|Z|2022|QO|2|NC|U|192465|N|Photograph an Optimistic Whelp learning to fly.|
 C Amateur Protography|QID|66524|M|44.07,78.04|Z|2022|QO|3|NC|U|192465|N|Photograph a Hungry Proto-Drake catching a fish.|
 C Behavior Analysis "Homework"|QID|69897|M|42.56,79.34|Z|2022|QO|1<1|NC|N|Click the Sleeping Whelp to pet it.|
 C Behavior Analysis "Homework"|QID|69897|M|42.40,82.57|Z|2022|QO|1<2|NC|N|Pet the Sleeping Whelps.|
 C Amateur Protography|QID|66524|M|43.38,82.70|Z|2022|QO|1|NC|U|192465|N|Photograph a Proto-Dragon Egg.|
-C Behavior Analysis "Homework"|QID|69897|QO|2|M|43.53,84.94|Z|2022|NC|N|And here is the last Sleeping Whelp to pet.|
+C Behavior Analysis "Homework"|QID|69897|QO|1<3|M|43.53,84.94|Z|2022|NC|N|And here is the last Sleeping Whelp to pet.|
 T Amateur Protography|QID|66524|M|39.03,83.23|Z|2022|N|To Cataloger Wulferd.|
 A Competitive Protography|QID|66525|PRE|66524|M|39.03,83.23|Z|2022|N|From Cataloger Wulferd.|RANK|2|
 A Preserving the Wilds|QID|66526|PRE|66524|M|39.09,83.26|Z|2022|N|From Dervishian.|RANK|2|
@@ -430,14 +460,18 @@ T King Without a Crown|QID|66528|M|39.08,83.27|Z|2022|N|To Dervishian.|
 A A Thousand Words|QID|66529|PRE|66528|M|39.08,83.27|Z|2022|N|From Dervishian.|RANK|2|
 C A Thousand Words|QID|66529|M|38.75,83.61|Z|2022|NC|U|192465|N|Photograph Dervishian near the Proto-Dragon Skeleton.|
 T A Thousand Words|QID|66529|M|38.72,83.69|Z|2022|N|To Dervishian.|
+C Scientific Meat-thod|QID|69898|M|47.68,77.68|Z|2022|N|Kill the Riverbeast's to collect some meat.|US|
 C Behavior Analysis "Homework"|QID|69897|M|45.92,81.45|Z|2022|QO|2|CHAT|N|Report back to Iyali.|
 T Behavior Analysis "Homework"|QID|69897|M|45.92,81.45|Z|2022|N|To Iyali.|
-A Secret Research|QID|69899|PRE|69897|M|45.92,81.45|Z|2022|N|From Iyali.|RANK|2|
+T Scientific Meat-thod|QID|69898|M|45.92,81.45|Z|2022|N|To Iyali.|
+A Secret Research|QID|69899|PRE|69897&69898|M|45.92,81.45|Z|2022|N|From Iyali.|RANK|2|
 C Secret Research|QID|69899|M|45.92,81.45|Z|2022|CHAT|N|Listen, nod appropriately, at some point open the box, listen some more.|
 T Secret Research|QID|69899|M|45.95,81.49|Z|2022|N|To Tyrgon.|
 A Identifying the Source|QID|69900|PRE|69899|M|45.95,81.49|Z|2022|N|From Tyrgon.|RANK|2|
 A Bring In the Expert|QID|69901|PRE|69899|M|45.95,81.49|Z|2022|N|From Tyrgon.|RANK|2|
+C Identifying the Source|QID|69900|M|44.54,80.29|Z|2022|N|Kill Trakhan.|S|
 C Bring In the Expert|QID|69901|M|43.45,82.98;43.04,79.43;42.05,77.60;40.56,80.03;38.68,82.27|CS|Z|2022|N|The first one is the hardest. It's on a ledge pretty high up, with Grod the Ancient and I saw no way to get it without getting in a fight with him. (and potentially losing).|
+C Identifying the Source|QID|69900|M|44.54,80.29|Z|2022|N|Kill Trakhan.|US|
 T Identifying the Source|QID|69900|M|45.95,81.50|Z|2022|N|To Tyrgon.|
 T Bring In the Expert|QID|69901|M|45.95,81.50|Z|2022|N|To Tyrgon.|
 A Theory in Practice|QID|69902|PRE|69900&69901|M|45.95,81.50|Z|2022|N|From Tyrgon.|RANK|2|
