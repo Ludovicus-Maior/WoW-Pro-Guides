@@ -303,7 +303,7 @@ A Checking Up|QID|29566|M|78.40,62.10|Z|Zangarmarsh|N|From Ysiel Windsinger. Thi
 T Warden Hamoot|QID|9778|Z|Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
 A A Warm Welcome|QID|9728|Z|Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
 R Swamprat Post|ACTIVE|10103|N|To Swamprat Post in the northeast.|Z|Zangarmarsh|M|85,55|
-f Swamprat Post|ACTIVE|10103|N|Grab the flight path From Gur'zil.|M|84.77,55.11|
+f Swamprat Post|ACTIVE|10103|N|Grab the flight path From Gur'zil.|Z|Zangarmarsh|M|84.77,55.11|
 T Report to Zurai|QID|10103|Z|Zangarmarsh|M|85.5,55.0|N|To Zurai.|
 H Falcon Watch|QID|9387|N|Hearth (or Fly) to Falcon Watch.|
 T Source of the Corruption|QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|
