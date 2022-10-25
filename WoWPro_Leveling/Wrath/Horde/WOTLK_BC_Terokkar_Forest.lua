@@ -148,7 +148,7 @@ T Arakkoa War Path|QID|10868|M|48.93,44.59|N|To Advisor Faila.|
 T Stymying the Arakkoa|QID|9987|M|48.97,44.64|N|To Rokag.|
 T Magical Disturbances|QID|10027|M|48.77,45.69|N|To Kurgatok.|
 T Wanted: Bonelashers Dead!|QID|10034|M|49.25,45.88|N|To Mawg Grimshot.|
-A Torgos!|QID|10036|M|49.25,45.88|N|From Mawg Grimshot.|PRE|10034|
+A Torgos!|QID|10036|M|49.25,45.88|ELITE|N|[color=00FFFF]Group of 2 or level up to solo[/color]\nFrom Mawg Grimshot.|PRE|10034|
 T Vestments of the Wolf Spirit|QID|10018|M|50.17,46.44|N|To Malukaz.|
 A Patriarch Ironjaw|QID|10023|M|50.17,46.44|N|From Malukaz.|PRE|10018|
 T Olemba Seed Oil|QID|9993|M|50.13,44.88|N|To Rakoria.|
@@ -182,35 +182,36 @@ T Attack on Firewing Point|QID|9997|M|63.30,41.99|N|To Sergeant Chawni.|
 A The Final Code|QID|10447|M|63.30,41.99|N|From Sergeant Chawni.|PRE|9997|
 C The Final Code|ACTIVE|10447|M|73.93,35.80|L|29912|ITEM|29912|N|Sharth Voldoun\nHe's at the top of the highest tower in Firewing Point. Fight your way up the ramp and translocate up, or fly.\n[color=FF0000]NOTE: [/color]Sharth has a lot of HP and heals on low HP.|
 N READ THIS FIRST|AVAILABLE|10052|N|The next quest is a semi-tough escort. Unlike most escorts, don't let Isla just walk ahead and pull aggro, or she'll grab 3-4 mobs at a time. The warlock pairs are not chained, but tend to sit still and shadowbolt. There is also a few mobs that patrol around the centre, they basically mean death for her.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A Escape from Firewing Point!|QID|10052|M|73.9,35.2|N|[Coords]From Isla Starmane.|
-A Escape from Firewing Point!|QID|10052|M|73.9,35.2|N|[Coords]Go back to Isla Starmane to restart.|FAIL|
-C Escape from Firewing Point!|QID|10052|N|Follow and protect Isla.\n[color=FF0000]NOTE: [/color]Grab aggro as quickly as you can.|
-C The Final Code|QID|10447|M|71.3,37.3|N|[Coords]Clear the area around the mana bomb in the centre, and right click to set it off.\n[color=FF0000]NOTE: [/color]You have about 10 seconds to get clear and if you don't, the only thing that happens is that you get knocked down.|
+A Escape from Firewing Point!|QID|10052|M|73.93,35.16|N|From Isla Starmane in the cage on the main floor of the tower.\n[color=FF0000]NOTE: [/color]Fly down or use the Translocation Orb to be teleported to the entrance of the tower.|
+A Escape from Firewing Point!|QID|10052|M|73.93,35.16|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Isla Starmane to restart.|FAIL|
+C Escape from Firewing Point!|QID|10052|M|67.51,37.27|N|Follow and protect Isla along the road until you exit Firewing POint.\n[color=FF0000]NOTE: [/color]Grab aggro as quickly as you can. Be prepared for a big fight if she starts to aggro the Warlocks in the center court.|
+C The Final Code|QID|10447|M|71.27,37.36|N|Clear the Firewing Warlocks on at least one side of the mana bomb in the centre and click on it to set it off.\n[color=FF0000]NOTE: [/color]You have about 10 seconds to get clear and if you don't, the only thing that happens is that you get knocked down and debuffed for a few minutes.|
 l Firewing Signets|QID|10412|M|71.27,37.37|L|29426 10|N|Any Firewing mob|US|REP|Scryers;934|
 T Escape from Firewing Point!|QID|10052|M|48.93,44.59|N|To Advisor Faila in Stonebreaker Hold.|
 T The Final Code|QID|10447|M|50.04,45.93|N|To Tooki.|
 A Letting Earthbinder Tavgren Know|QID|10006|M|50.04,45.93|N|From Tooki.|PRE|10447|
-T Patriarch Ironjaw|QID|10023|M|50.17,46.44|N|To Malukaz.|PRE|10023|
-A Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|From Malukaz.|
-C Welcoming the Wolf Spirit|QID|10791|M|50.2,46.4|N|[Coords]Use the incense.|U|31344|NC|
+T Patriarch Ironjaw|QID|10023|M|50.17,46.44|N|To Malukaz.|
+A Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|From Malukaz.|PRE|10023|
+C Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|Use the incense.|U|31344|NC|
 T Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|To Malukaz.|
-C Recover the Bones|QID|10030|M|52.00,58.00|N|Loot the bones needed for this quest.|S|NC|
-K The Infested Protectors|QID|10896|M|52.00,58.00|N|Kill the Treant mobs to spawn the required Wood Mites.|US|
-l Trachela's Carcass|ACTIVE|10036|M|43.00,51.00|L|30618|N|Kill Trachela and loot the carcass.|
-T The Infested Protectors|QID|10896|M|37.86,51.69|N|To Lakotae.|
-C Veil Rhaze: Unliving Evil|QID|10848|M|28.00,56.00|N|Kill the mobs needed for this quest here.|
-C Torgos!|QID|10036|M|27,56|N|To kill Torgos, head to the scarecrow called Torgos' Bane, and use Trachela's Carcass.|U|30618|
-R Shadow Tomb|QID|10887|M|32.00,53.00|N|Go to the Shadow Tomb.|
-C The Shadow Tomb|QID|10881|M|29.70,51.70|QO|2|N|Loot the Gavel from the chest here.|NC|
-C The Shadow Tomb|QID|10881|M|32.10,51.20|QO|1|N|Loot the Drape from the chest here.|NC|
-C The Shadow Tomb|QID|10881|M|31.20,46.70|QO|3|N|Loot the scroll from the chest here, then accept the escort quest.|NC|
-A Escaping the Tomb|QID|10887|M|30.60,49.00|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Akuno.|
-C Escaping the Tomb|QID|10887|M|33.92,51.47|N|Do this escort quest.|
-T Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|To Kirrik the Awakened.|
+C Recover the Bones|QID|10030|M|52.00,58.00|L|25842 10|N|The Restless Bones are found on the ground around Bone Wastes.|S|
+K The Infested Protectors|QID|10896|M|52.00,58.00|QO|1|N|Kill the Treant mobs to spawn the required Wood Mites.|US|IZ|The Bone Wastes|
+C Trachela's Carcass|ACTIVE|10036|M|43.12,51.58|L|30618|N|Kill Trachela and loot the carcass.|
+T The Infested Protectors|QID|10896|M|37.86,51.69|N|To Lakotae in Refugee Caravan.|
+K Veil Rhaze: Unliving Evil|ACTIVE|10848|M|28.00,56.00|QO|1;2;3|
+K Torgos!|ACTIVE|10036|M|26.93,55.64|L|25852|ELITE|N|[color=00FFFF]Group of 2 or level up to solo[/color]\nHead to the scarecrow called Torgos' Bane and use Trachela's Carcass to summon Torgo.\n[color=FF0000]NOTE: [/color]If you die, you'll have to get another carcass.|U|30618|
+R Shadow Tomb|ACTIVE|10881|AVAILABLE|10887|M|32.00,53.00|
+C Gavel of K'alen|QID|10881|M|29.67,51.68|L|31710|N|Clear the room and loot it from the Cabal Chest.|
+C Drape of Arunen|QID|10881|M|32.09,51.19|L|31709|N|Clear the room and loot it from the Cabal Chest.|
+C Scroll of Atalor|QID|10881|M|31.16,46.69|L|31708|N|Clear the room and loot it from the Cabal Chest.\n[color=FF0000]NOTE: [/color]If done right, you can reach the chest without aggroing Hathyss the Wicked.|
+A Escaping the Tomb|QID|10887|M|30.60,49.00|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Akuno.\n[color=FF0000]NOTE: [/color]You may have to kill the Cabal Interrogator|
+A Escaping the Tomb|QID|10887|M|30.60,49.00|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Akuno to restart.|FAIL|
+C Escaping the Tomb|QID|10887|M|33.77,51.62|N|Escort Akuno out of the tomb and a short distance across The Bone Wastes.\n[color=FF0000]NOTE: [/color]If they are close enough, he will aggro them. Leave it to him to pick the fights.|
+T Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|To Kirrik the Awakened in Refugee Caravan.|
 A Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10848|
 T The Shadow Tomb|QID|10881|M|37.26,50.86|N|To Mekeda.|
 T Escaping the Tomb|QID|10887|N|To Mekeda.|
-C Veil Lithic: Preemptive Strike|QID|10861|M|26.00,71.00|N|Loot Cursed Eggs here until you finish this quest.|NC|
+C Veil Lithic: Preemptive Strike|QID|10861|M|26.00,71.00|QO|1;2|N|After opening a Cursed Egg, you'll either kill the Malevolent Hatchling or collect the Hatchling (depending upon which one spawns).\n[color=FF0000]NOTE: [/color]The Cursed Eggs are found in nests throughout Veil Lithic.|
 A An Improper Burial|QID|10913|M|31.01,76.12|N|From Commander Ra'vaj.|
 A The Dread Relic|QID|10877|M|31.07,76.53|N|From Oakun.|
 A Taken in the Night|QID|10873|M|31.44,75.66|N|From Scout Navrin.|
@@ -218,7 +219,7 @@ A Digging Through Bones|QID|10922|M|31.10,76.14|ELITE|N|[color=80FF00]Escort Que
 C Digging Through Bones|QID|10922|M|31.0,76.1|N|[Coords]Do this escort quest.|
 T Digging Through Bones|QID|10922|M|30.98,76.19|N|To Dwarfowitz.|
 A Fumping|QID|10929|M|30.98,76.19|N|From Dwarfowitz.|PRE|10922|
-C Recover the Bones|QID|10030|M|52.00,58.00|N|Loot the rest of the bones needed for this quest.|US|
+C Recover the Bones|QID|10030|M|52.00,58.00|L|25842 10|US|
 R Auchindoun|QID|10227|M|33.00,66.00|N|Enter Auchindoun from this location.|
 A I See Dead Draenei|QID|10227|M|35.12,65.13|N|From Ha'lei.|
 T I See Dead Draenei|QID|10227|M|35.12,66.23|N|To Ramdor the Mad.|
