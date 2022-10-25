@@ -255,7 +255,7 @@ T Marking the Path|QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 R Den of Haal'esh|QID|9396|N|It's to the south.|M|26,71|
 C Birds of a Feather|QID|9397|U|23485|M|25.5,71.5|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|S|
 C Magic of the Arakkoa|QID|9396|M|25.5,70.5|N|Kill Haal'eshi Talonguards and Windwalkers until you have 4 Haal'esh Scrolls.|S|
-K Avruu|QID|9418|L|23580|N|Kill and loot Avruu. Careful, he has a very quick respawn, so move after you kill him.|M|26,76|
+K Avruu|QID|9418|L|23580|N|Kill and loot Avruu, he is on the platform above. Careful, he has a very quick respawn, so move after you kill him.|M|26.04, 77.50;25.50,74.99|CS|
 A Avruu's Orb|QID|9418|U|23580|N|From Avruu's Orb.|M|25.5,75.0|
 T Avruu's Orb|QID|9418|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|M|29,81|
 C Birds of a Feather|QID|9397|U|23485|M|25.5,71.5|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|US|
