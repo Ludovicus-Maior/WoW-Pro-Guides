@@ -749,11 +749,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     -- Set a default release, if not specified
     if not release then
-        if WoWPro.DF then
             release = 10
-        else
-            release = 9  -- No release, make it the current one.
-        end
     end
 
     local guide = {
@@ -1409,9 +1405,7 @@ WoWPro.Client = floor(WoWPro.TocVersion / 10000)
 WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
 WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
--- Both DF and RETAIL are true for DF for now.
-WoWPro.DF = (WoWPro.TocVersion >= 100000)
-WoWPro.RETAIL = (WoWPro.TocVersion > 90000)
+WoWPro.RETAIL = (WoWPro.TocVersion >= 100000)
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false

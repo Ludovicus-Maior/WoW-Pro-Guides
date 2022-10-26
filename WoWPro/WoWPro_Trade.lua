@@ -313,7 +313,7 @@ if not WoWPro.RETAIL then
         WoWPro.UpdateTradeSkillsTable(tradeskills)
         WoWPro:dbp("UpdateTradeSkills() for Classic scanned %d tradeskills", scanned)
     end
-elseif WoWPro.DF then
+elseif WoWPro.RETAIL then
     -- Currently 10.X, will be retail sometime!
     function WoWPro.UpdateTradeSkills()
         local scanned = 0
@@ -361,7 +361,7 @@ elseif WoWPro.DF then
         WoWPro:dbp("UpdateTradeSkills() scanned %d tradeskills", scanned)
     end
 else
-    -- Currently 9.X
+    -- Currently 9.X Legacy
     -- get tradeskill information from GetProfession/GetProfessionInfo
     function WoWPro.UpdateTradeSkills()
         local scanned = 0
