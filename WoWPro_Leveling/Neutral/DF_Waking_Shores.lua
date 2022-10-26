@@ -7,29 +7,18 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
-;F Skytop Observatory Rostrum|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|
-;F Dragonheart Outpost|N|Inside the broken tower, around mid level.|M|69,46|Z|2022;The Waking Shores!Dragonflight|
-;F Wingrest Embassy|N|On the east side of the tower, look around it's base.|M|75.0,37.0|Z|2022;The Waking Shores!Dragonflight|
-;F Scalecracker Peak|N|This one is on the peak of the mountan.|M|73.2,20.0|Z|2022;The Waking Shores!Dragonflight|
-;F Life-Binder Observatory|N|Over the tower.|M|52.68,17.19|Z|2022;The Waking Shores!Dragonflight|
-;F The Overflowing Spring|N|Over the mountain top.|M|46.4,52.1|Z|2022;The Waking Shores!Dragonflight|
-;F Crumbling Life Archway|N|Inside the actual archway, at the top of it.|M|57.6,55.0|Z|2022;The Waking Shores!Dragonflight|
-;F Ruby Life Pools|N|Over the hill top.|M|54.5,74.2|Z|2022;The Waking Shores!Dragonflight|
-;F Flashfrost Enclave|N|Just above the ground.|M|58.10,78.63|Z|2022;The Waking Shores!Dragonflight|
-;F Rubyscale Outpost|N|It's floating above the lake.|M|48.82,86.64|Z|2022;The Waking Shores!Dragonflight|
-;F Obsidian Bulwark|N|Back to Waking Shores for this one, floating above the mountain pillar.|M|41.0,72.0|Z|2022;The Waking Shores!Dragonflight|
-;F Obsidian Throne|N|Behind the tower floating over the lava.|M|21.0,51.0|Z|2022;The Waking Shores!Dragonflight|
+;
 
 ;Rares that need to be worked into guide.
-;A Primal Scythid Queen|QID||M|81.36,37.58|This a rare Bonus quest, AUto pushed.|
+;
 
 ;treasures that need to be worked into the guide.
-;T SMemories|QID|70134|M|57.82,66.85|Z|2022|N|From Veritistrasz.|
+
 
 A The Dragon Isles Await|QID|65436|M|PLAYER|Z|84|N|From UI Alert.|FACTION|Alliance|
 A The Dragon Isles Await|QID|65435|M|PLAYER|Z|85|N|From UI Alert.|FACTION|Horde|
-T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84|N|To Wrathion.|FACTION|Alliance|
-T The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85|N|To Ebyssian.|FACTION|Horde|
+T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84|N|To Wrathion in Stormwind.|FACTION|Alliance|
+T The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85|N|To Ebyssian in Orgrimmar.|FACTION|Horde|
 A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84|N|From Wrathion.|FACTION|Alliance|
 A Aspectral Invitation|QID|65437|PRE|65435|M|44.22,38.11|Z|85|N|From Ebyssian.|FACTION|Horde|
 C Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|QO|1|CHAT|N|Speak with Wrathion.|FACTION|Alliance|
@@ -39,8 +28,8 @@ T Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85|N|To Ebyssian.|FACTION|Horde
 A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
 C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|84|QO|1|CHAT|N|Artisans can be found in the Dwarven District near the forge.|FACTION|Alliance|
-C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|84|QO|1|CHAT|N|Orders delivered to Dervishian who is on the top of the tower above the Stockades.|FACTION|Alliance|
 C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|84|QO|3|CHAT|N|Scholars can be found in front of Weller's arsenal in the Trade District.|FACTION|Alliance|
+C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|84|QO|1|CHAT|N|Orders delivered to Dervishian who is on the top of the tower above the Stockades.|FACTION|Alliance|
 C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|84|QO|2|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
 T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
 T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
@@ -61,7 +50,7 @@ T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1|N|To Ebyssian.|FACTION|Horde
 A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
 A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|84|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
-C To the Dragon Isles!|QID|65444|M|22.49,56.45|Z|1|QO|1|NC|N|Wait for the Defiant Dragonscale at Stormwind docks.|FACTION|Horde|
+C To the Dragon Isles!|QID|65444|M|22.49,56.45|Z|1|QO|1|NC|N|Wait for the Defiant Dragonscale at Durotar Zepplin Tower.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
 C To the Dragon Isles!|QID|65444|M|80.83,27.67|Z|2022|QO|2|NC|N|Ride the Defiant Dragonscale to Dragon Isles.|FACTION|Horde|
 T To the Dragon Isles!|QID|67700|M|82.13,31.90|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
@@ -77,12 +66,14 @@ l Dragon Isles Supply Bag|QID|72708|L|202081|N|Kill Proto Drakes till the item d
 ;A Dragon Isles Supplies|QID|72708|M|PLAYER|N|Use the Dragon Isles Supply Bag from your inventroy.|U|202081|
 C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022|N|Kill the Proto-Whelp and collect their scales.|S|
 C Primal Pests|QID|70123^65453|M|83.59,36.12|Z|2022|N|Slay Primal Proto-drakes.|S|
-C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye is suspended above some lava.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|NC|N|Pathfinder Poppy is trapped under some bones.|FACTION|Horde|
-C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Archivist Rellid is being carried around by a low flying drake.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|NC|N|Archivist Spearblossom is being carried away by a Drake.|FACTION|Horde|
+C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye is suspended above some lava enter the area on the left side.|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|NC|N|Spelunker Lazee is suspended over lava enter the area on the left side.|FACTION|Horde|
+A Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
+C Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Slay Primal Scythid Queen.|S!US|T|Primal Scythid Queen|
+C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Click on Archivist Rellid who is being carried around by low flying drakes.|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|NC|N|Click Archivist Spearblossom who is being carried around by low flying drakes.|FACTION|Horde|
 C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|NC|N|Professor Cogcatcher is trapped under some bones.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|NC|N|Spelunker Lazee is suspended over lava.|FACTION|Horde|
+C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|NC|N|Pathfinder Poppy is trapped under some bones.|FACTION|Horde|
 C Primal Pests|QID|70123^65453|M|77.96,29.80|Z|2022|N|Finish slaying the unneeded Primal Proto-drakes.|US|
 C Practice Materials|QID|70124^65451|M|77.96,29.80|Z|2022|NC|N|Continue killing Primal Proto-Whelp until you have enough scales.|US|
 T Explorers in Peril|QID|70122|M|76.62,33.63|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
@@ -137,12 +128,12 @@ C The Djaradin Have Awoken|QID|69914|M|76.27,34.53|Z|2022|CHAT|N|Ask Majordomo S
 T The Djaradin Have Awoken|QID|69914|M|76.27,34.40|Z|2022|N|To Sendrax.|
 A Reporting for Duty|QID|65760|PRE|69914|M|76.27,34.40|Z|2022|N|From Sendrax.|
 C Reporting for Duty|QID|65760|M|76.27,34.40|Z|2022|QO|1|CHAT|N|Ask Sendrax to lead you to the outpost.|
-C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|You need to stay somewhat close to Sendrax or he will stop.|
+C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|You need to stay somewhat close to Sendrax or she will stop.|
 T Reporting for Duty|QID|65760|M|71.21,40.75|Z|2022|N|To Commander Lethanak.|
 A Invader Djaradin|QID|65989|PRE|65760|M|71.21,40.75|Z|2022|N|From Commander Lethanak.|
 A Deliver Whelps From Evil|QID|65990|PRE|65760|M|71.21,40.75|Z|2022|N|From Commander Lethanak.|
 C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|N|Slay Djaradin.|S|
-C Deliver Whelps From Evil|QID|65990|M|69.33,43.44;69.86,45.31;71.38,44.72;70.98,46.71|CN|Z|2022|NC|N|Bliz has conveniently marked them on your map for easier locating.|
+C Deliver Whelps From Evil|QID|65990|M|69.33,43.44;69.86,45.31;71.38,44.72;70.98,46.71|CS|Z|2022|NC|N|Bliz has conveniently marked them on your map for easier locating.|
 C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|N|Finish slaying Djaradin.|US|
 T Invader Djaradin|QID|65989|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
 T Deliver Whelps From Evil|QID|65990|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
@@ -181,6 +172,7 @@ C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Slay Dragonhunter Igorda
 C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Consult Talonstalker Kavia.|
 C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Consult Right.|
 C Killjoy|QID|65993|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok when convenient.|S|T|Meatgrinder Sotok|
+A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|O|U|193874|
 C Blacktalon Intel|QID|65992|M|63.43,28.86|Z|2022|QO|2|CHAT|N|Consult Left.|
 C Killjoy|QID|65993|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok.|US|T|Meatgrinder Sotok|
 A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|O|U|193874|
@@ -209,16 +201,16 @@ C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Slay Primalist for
 A Firava the Rekindler|QID|70648|PRE|65997|M|55.60,24.84|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
 C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Slay Firava the Rekindler.|T|Firava the Rekindler|
 t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Bonus Objective - Autocompleted.|
-C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Finish up with the unfortunate whelplings.|US|
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|N|Finish up slaying Primalist forces.|US|
 C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|NC|N|Find the Books.|US|
+C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Finish up with the unfortunate whelplings.|US|
 T Red in Tooth and Claw|QID|65999|M|PLAYER|Z|2022|N|To Sendrax.|
 T Future of the Flights|QID|65998|M|PLAYER|Z|2022|N|To Sendrax.|
 T Library of Alexstrasza|QID|66000|M|PLAYER|Z|2022|N|To Sendrax.|
 A A Last Hope|QID|66001|PRE|70648&65999&65998&66000|M|57.13,23.63|Z|2022|N|From Sendrax.|
 C A Last Hope|QID|66001|M|56.23,22.06|Z|2022|QO|1|CHAT|N|Meet Sendrax by the ritual site, then tell her you are ready.|
 C A Last Hope|QID|66001|M|56.89,21.60|Z|2022|QO|2|NC|N|Pick up the Infused Dragon Egg.|
-C A Last Hope|QID|66001|M|55.07,30.62|Z|2022|QO|3|NC|N|Carry the egg to safety. Note you can't mount up.|
+C A Last Hope|QID|66001|M|55.07,30.62|Z|2022|QO|3|NC|N|Carry the egg to safety. Note you can't mount up, or use skills, just run.|
 T A Last Hope|QID|66001|M|55.10,31.00|Z|2022|N|To Majordomo Selistra.|
 A For the Benefit of the Queen|QID|66114|PRE|66001|M|55.10,31.00|Z|2022|N|From Majordomo Selistra.|
 C For the Benefit of the Queen|QID|66114|M|62.26,72.88|Z|2022|QO|1|CHAT|N|Ask Majordomo Selistra to take you to the Ruby Lifeshrine.|
@@ -248,12 +240,12 @@ f Ruby Lifeshrine|ACTIVE|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
-C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|
+C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|BUFF|368896|
 C How to Glide with Your Dragon|QID|65118|M|57.48,61.28|Z|2022|QO|2|NC|N|Glide Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188134|
 C How to Glide with Your Dragon|QID|65118|M|57.38,59.17|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Glide with Your Dragon|QID|65118|M|57.46,59.09|Z|2022|N|To Celormu.|
 A How To Dive with Your Dragon|QID|65120|PRE|65118|M|57.67,66.90|Z|2022|N|From Lord Andestrasz.|
-C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|
+C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896|
 C How To Dive with Your Dragon|QID|65120|M|57.43,59.98|Z|2022|QO|2|NC|N|Glide Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
 C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|3|NC|N|Land in the Target Area. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
 T How To Dive with Your Dragon|QID|65120|M|57.47,59.09|Z|2022|N|To Celormu.|
@@ -264,11 +256,10 @@ C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.09|Z|2022|QO|3|NC|N|
 T How to Use Momentum with Your Dragon|QID|65133|M|57.47,59.10|Z|2022|N|To Celormu.|
 A The Skytop Observatory|QID|68796|PRE|65133|M|57.68,66.91|Z|2022|N|From Lord Andestrasz.|
 C The Skytop Observatory|QID|68796|M|57.76,66.75|Z|2022|QO|1|CHAT|N|Speak with Celormu to start the race.|
-A To Skytop Observatory|QID|72089|PRE|65133|M|57.76,66.75|Z|2022|N|From Celormu.|LEAD|68796|; not sure about this i wasn't offered it. LEAD maybe?
 C The Skytop Observatory|QID|68796|M|73.24,55.56|Z|2022|QO|2|NC|N|Race to the Skytop Observatory.|
 T The Skytop Observatory|QID|68796|M|75.17,54.97|Z|2022|N|To Lord Andestrasz.|
 A A New Set of Horns|QID|68797|PRE|68796|M|75.17,54.97|Z|2022|N|From Lord Andestrasz.|
-C A New Set of Horns|QID|68797|M|74.11,57.94|Z|2022|QO|1|NC|N|Meet Glensera in the Skytop Observatory.|
+C A New Set of Horns|QID|68797|M|74.11,57.94|Z|2022|QO|1|CHAT|N|Meet Glensera in the Skytop Observatory.|
 C A New Set of Horns|QID|68797|M|74.03,58.13|Z|2022|QO|2|NC|N|Step onto the 5 sided rug just beyond Glensera and click on it.|
 T A New Set of Horns|QID|68797|M|75.15,55.06|Z|2022|N|To Lord Andestrasz.|
 A Dragon Glyphs and You|QID|68798|PRE|68797|M|75.15,55.06|Z|2022|N|From Lord Andestrasz.|
@@ -280,7 +271,21 @@ A The Waking Shores Tour|QID|72481|M|73.25,52.11|Z|2022|N|From Celormu. If not a
 C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celormu.|
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
-T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|You can just glide back to Alexstrasza the Life-Binder on your dragon.|
+
+N This next section is a tour around the zone collection Dragonriding Glyphs. If you are not interested in making your dragon better just skip over them.
+$ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
+$ Flashfrost Enclave|N|Just above the ground.|M|58.10,78.63|Z|2022;The Waking Shores!Dragonflight|ACH|16669|
+$ Ruby Life Pools|N|Over the hill top.|M|54.5,74.2|Z|2022;The Waking Shores!Dragonflight|ACH|15988|
+$ Obsidian Bulwark|N|Floating above the mountain pillar.|M|41.0,72.0|Z|2022;The Waking Shores!Dragonflight|ACH|15987|
+$ Obsidian Throne|N|Behind the tower floating over the lava.|M|21.0,51.0|Z|2022;The Waking Shores!Dragonflight|ACH|16053|
+$ The Overflowing Spring|N|Over the mountain top.|M|46.4,52.1|Z|2022;The Waking Shores!Dragonflight|ACH|15989|
+$ Crumbling Life Archway|N|Inside the actual archway, at the top of it.|M|57.6,55.0|Z|2022;The Waking Shores!Dragonflight|ACH|15991|
+$ Dragonheart Outpost|N|Inside the broken tower, around mid level.|M|69,46|Z|2022;The Waking Shores!Dragonflight|ACH|16051|
+$ Wingrest Embassy|N|On the east side of the tower, look around it's base.|M|75.0,37.0|Z|2022;The Waking Shores!Dragonflight|ACH|15986|
+$ Scalecracker Peak|N|This one is on the peak of the mountan. This one is tough to get, if you have patience use your vigor to find a place to land to regen.|M|73.2,20.0|Z|2022;The Waking Shores!Dragonflight|ACH|16052|
+$ Life-Binder Observatory|N|Over the tower.|M|52.68,17.19|Z|2022;The Waking Shores!Dragonflight|ACH|15990|
+
+T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|You can just glide back to Alexstrasza the Life-Binder on your dragon, this will take between 2 and 3 vigor at this distance.|
 C Friend on the Mend|QID|70058|QO|1|M|60.88,69.37|Z|2022|NC|N|Ruby feathers are scattered around the edge of the pool near Mother Elion.|
 T Friend on the Mend|QID|70058|M|61.44,70.15|Z|2022|N|To Mahra Treebender.|
 C The Mandate of the Red|QID|66115|M|61.60,68.69|Z|2022|QO|3|CHAT|N|Ask Mother Elion why she stays here.|
@@ -385,7 +390,7 @@ T Deluge Dilemma|QID|66892|M|53.42,58.36|Z|2022|N|To Dazakros.|
 T Beaky Reclamation|QID|66893|M|53.42,58.36|Z|2022|N|To Dazakros.|
 T A Better Start|QID|66737|M|55.20,63.70|Z|2022|N|To Adazius.|
 H Ruby Lifeshrine|ACTIVE|66116|M|55.20,63.70|Z|2022|N|And back to the hub.|
-C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|
+C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|BUFF|368896|
 C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|2|NC|N|Report to Commander Lethanak.|
 T The Primary Threat|QID|66116|M|59.41,75.89|Z|2022|N|To Commander Lethanak.|
 A Clear the Battlefield|QID|66117|PRE|66116|M|59.41,75.89|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
@@ -484,7 +489,7 @@ A Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|REN|3|R
 T Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|To Cataloger Jakes.|
 C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Its now time to finish the Bonus Objective if you are planning to.|US|
 t Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autocompleted.|
-R Obsidian Bulwark|ACTIVE|66079|M|47.77,67.11;42.47,66.82|CS|Z|2022|N|Mount up and head off to find Wrathion.|
+R Obsidian Bulwark|ACTIVE|66079|M|47.7,67.1;42.47,66.82|CS|Z|2022|N|Mount up and head off to find Wrathion.|
 T Wrathion Awaits|QID|66079|M|47.77,67.11;42.47,66.82|CS|Z|2022|N|To Wrathion.|
 A Lessons from Our Past|QID|72241|PRE|66079|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
 C Lessons from Our Past|QID|72241|M|42.47,66.82|Z|2022|QO|1|CHAT|N|Speak with Scalecommander Emberthal to learn of past events.|
@@ -503,7 +508,7 @@ T Sharp Practice|QID|66078|M|42.47,66.86|Z|2022|N|To Wrathion.|
 A Talon Strike|QID|65956|PRE|66048&66078|M|42.47,66.86|Z|2022|N|From Wrathion (after a bit of dialog).|
 A No Time For Heroes|QID|65957|PRE|66048&66078|M|42.47,66.86|Z|2022|
 C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|S|
-C No Time For Heroes|QID|65957|M|35.53,68.52|Z|2022|QO|1|N|Slay Piercer Gigra on the top of the tower.|T|Piercer Gigra|
+C No Time For Heroes|QID|65957|M|35.53,68.52|Z|2022|QO|1|N|Slay Piercer Gigra on the top of the tower. Watch out for the orange circle on the ground. It will knock you off the tower.|T|Piercer Gigra|
 C No Time For Heroes|QID|65957|M|34.82,66.91|Z|2022|QO|3|N|Slay Olphis the Molten.|T|Olphis the Molten|
 C No Time For Heroes|QID|65957|M|35.59,60.85|Z|2022|QO|2|N|Slay Modak Flamespit on the top of the tower.|T|Modak Flamespit|
 C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|US|
@@ -555,10 +560,10 @@ C Claimant to the Throne|QID|66780|M|25.02,55.18|Z|2022|QO|2|CHAT|N|Speak with L
 T Claimant to the Throne|QID|66780|M|24.42,55.49|Z|2022|N|To Wrathion.|
 T Heir Apparent|QID|66779|M|24.28,55.86|Z|2022|N|To Sabellian.|
 A Black Wagon Flight|QID|65793|PRE|66780&66779|M|24.28,55.86|Z|2022|N|From Sabellian.|
-C Black Wagon Flight|QID|65793|M|25.28,56.81|Z|2022|QO|1|N|Hop on your own dragonriding mount. (Optional).|
+C Black Wagon Flight|QID|65793|M|25.28,56.81|Z|2022|QO|1|N|Hop on your own dragonriding mount. (Optional).|BUFF|368896|
 C Black Wagon Flight|QID|65793|M|43.85,66.42|Z|2022|QO|2|CHAT|N|Speak with Sabellian to begin moving the eggs.|
-C Black Wagon Flight|QID|65793|M|52.48,66.89|Z|2022|QO|3|NC|N|Escort the wagon.|
-T Black Wagon Flight|QID|65793|M|57.95,67.30|Z|2022|N|To Sabellian.|
+C Black Wagon Flight|QID|65793|M|52.48,66.89|Z|2022|QO|3|NC|N|Escort the wagon. If you get to far away the wagon will stop.|
+T Black Wagon Flight|QID|65793|M|57.95,67.30|Z|2022|N|To Sabellian. Talk to the dragon he will give you a lift up to the top. Other wise just fly up. |
 A The Last Eggtender|QID|66785|PRE|65793|M|57.95,67.30|Z|2022|N|From Sabellian.|
 T The Last Eggtender|QID|66785|M|61.60,68.71|Z|2022|N|To Mother Elion.|
 A Egg-cited for the Future|QID|66788|PRE|66785|M|61.60,68.71|Z|2022|N|From Mother Elion.|
