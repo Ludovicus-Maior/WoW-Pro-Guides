@@ -89,13 +89,13 @@ A Seared Scourge|QID|12029|PRE|12484|M|16.7,48.3|N|From Mack Fearson, after his 
 A Shimmercap Stew|QID|12483|PRE|12484|M|15.7,46.7|N|From Prigmon.|
 l Ice Serpent Eyes|QID|12483|QO|1|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|S|
 l Get 5 Shimmering Snowcaps|QID|12483|QO|2|N|From the Shimmering Snowcaps, to the west, near the river.|S|
-l Frozen Mojos|QID|11991|L|35799 5|N|Drop from Krakkari Warriors and Shamans, you need 5 mojos.|M|12.9,59.2|
+l Frozen Mojos|QID|11991|L|35799 5|N|Drop from Drakkari Warriors and Shamans, you need 5 mojos.|M|12.9,59.2|
 T Subject to Interpretation|QID|11991|M|13.2,60.9|U|35797|N|Use the [Drakuru's Elixir] near the Drakuru's Brazier. Turn the quest into the Image of Drakuru.|
 A Sacrifices Must be Made|QID|12007|PRE|11991|M|13.2,60.9|N|From the Image of Drakuru.|
 l Get 5 Shimmering Snowcaps|QID|12483|QO|2|N|From the Shimmering Snowcaps, to the west, near the river.|US|
 l Ice Serpent Eyes|QID|12483|QO|1|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|US|
 C Shimmercap Stew|QID|12483|N|Loot Sweetroots from the ground.|M|16.1,34.8|S|
-K Warlord Zim'bo|L|35836|QID|12007|N|Kill and loot Warlord Zim'bo.|M|15,37|
+K Warlord Zim'bo|L|35836|QID|12007|N|Kill and loot Warlord Zim'bo.|M|14.50,38.05|
 C Sacrifices Must be Made|QID|12007|N|Get the "Eye of the Prophets" from the Seer of Zeb'Halak (statue), up the stairs.|M|17.92,36.51|
 T Sacrifices Must be Made|QID|12007|U|35797|N|Use the Drakuru's Elixir near the Drakuru's Brazier. Then turn the quest into the Image of Drakuru.|M|17.46,36.42|
 A Heart of the Ancients|QID|12042|PRE|12007|M|17.4,36.4|N|From the Image of Drakuru.|
