@@ -84,10 +84,10 @@ frame:SetScript("OnShow", function()
 
             if completion[index] then
                 row.check:SetChecked(true)
-                row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+                row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
             else
                 row.check:SetChecked(false)
-                row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+                row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
             end
 
             local step = steplist[index]
@@ -144,7 +144,7 @@ frame:SetScript("OnShow", function()
 
             -- On Click - Complete Step Clicked --
             row.check:SetScript("OnClick", function(self, button, down)
-                row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+                row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
                 if row.check:GetChecked() then
                     completion[row.index] = true
                 else
