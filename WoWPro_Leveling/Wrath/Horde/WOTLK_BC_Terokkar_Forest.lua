@@ -215,7 +215,7 @@ C Veil Lithic: Preemptive Strike|QID|10861|M|24.25,72.13|QO|1;2|N|After opening 
 A An Improper Burial|QID|10913|M|31.01,76.12|N|From Commander Ra'vaj at Sha'tari Base Camp.|
 A The Dread Relic|QID|10877|M|31.07,76.53|N|From Oakun.|
 A Taken in the Night|QID|10873|M|31.44,75.66|N|From Scout Navrin.|
-A Digging Through Bones|QID|10922|M|31.10,76.14|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\n[color=80FF00]Escort Quest:[/color]\nFrom Chief Archaelogist Letoll.\n[color=FF0000]NOTE: [/color]If he's not there, someone is already own the quest and you have to wait.|
+A Digging Through Bones|QID|10922|M|31.10,76.14|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\n[color=80FF00]Escort Quest:[/color]\nFrom Chief Archaelogist Letoll.\n[color=FF0000]NOTE: [/color]If he's not there, someone is already on the quest and you have to wait.|
 C Digging Through Bones|QID|10922|M|30.10,70.81|N|Follow the dwarves to the dig site.\n[color=FF0000]NOTE: [/color]You can sit back and watch if you like. They can pretty much handle everything on their own.|
 T Digging Through Bones|QID|10922|M|30.98,76.19|N|To Dwarfowitz at Sha'tari Base Camp.|
 A Fumping|QID|10929|M|30.98,76.19|N|From Dwarfowitz.|PRE|10922|
