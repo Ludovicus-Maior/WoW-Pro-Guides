@@ -196,7 +196,7 @@ C Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|Use the incense.|U|31344|N
 T Welcoming the Wolf Spirit|QID|10791|M|50.17,46.44|N|To Malukaz.|
 C Recover the Bones|QID|10030|M|52.00,58.00|L|25842 10|N|The Restless Bones are found on the ground around Bone Wastes.|S|
 K The Infested Protectors|QID|10896|M|52.00,58.00|QO|1|N|Kill the Treant mobs to spawn the required Wood Mites.|US|IZ|The Bone Wastes|
-C Trachela's Carcass|ACTIVE|10036|M|43.12,51.58|L|30618|N|Kill Trachela and loot the carcass.|
+C Trachela's Carcass|ACTIVE|10036|M|43.12,51.58|L|30618|QO|1|N|Kill Trachela and loot the carcass.|
 T The Infested Protectors|QID|10896|M|37.86,51.69|N|To Lakotae in Refugee Caravan.|
 K Veil Rhaze: Unliving Evil|ACTIVE|10848|M|28.00,56.00|QO|1;2;3|
 K Torgos!|ACTIVE|10036|M|26.93,55.64|L|25852|ELITE|N|[color=00FFFF]Group of 2 or level up to solo[/color]\nHead to the scarecrow called Torgos' Bane and use Trachela's Carcass to summon Torgo.\n[color=FF0000]NOTE: [/color]If you die, you'll have to get another carcass.|U|30618|
@@ -211,24 +211,26 @@ T Veil Rhaze: Unliving Evil|QID|10848|M|37.26,50.86|N|To Kirrik the Awakened in 
 A Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10848|
 T The Shadow Tomb|QID|10881|M|37.26,50.86|N|To Mekeda.|
 T Escaping the Tomb|QID|10887|N|To Mekeda.|
-C Veil Lithic: Preemptive Strike|QID|10861|M|26.00,71.00|QO|1;2|N|After opening a Cursed Egg, you'll either kill the Malevolent Hatchling or collect the Hatchling (depending upon which one spawns).\n[color=FF0000]NOTE: [/color]The Cursed Eggs are found in nests throughout Veil Lithic.|
-A An Improper Burial|QID|10913|M|31.01,76.12|N|From Commander Ra'vaj.|
+C Veil Lithic: Preemptive Strike|QID|10861|M|24.25,72.13|QO|1;2|N|After opening a Cursed Egg, you'll either kill the Malevolent Hatchling or collect the Hatchling (depending upon which one spawns).\n[color=FF0000]NOTE: [/color]The Cursed Eggs are found in nests throughout Veil Lithic.|
+A An Improper Burial|QID|10913|M|31.01,76.12|N|From Commander Ra'vaj at Sha'tari Base Camp.|
 A The Dread Relic|QID|10877|M|31.07,76.53|N|From Oakun.|
 A Taken in the Night|QID|10873|M|31.44,75.66|N|From Scout Navrin.|
-A Digging Through Bones|QID|10922|M|31.10,76.14|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Chief Archaelogist Letoll.|
-C Digging Through Bones|QID|10922|M|31.0,76.1|N|[Coords]Do this escort quest.|
-T Digging Through Bones|QID|10922|M|30.98,76.19|N|To Dwarfowitz.|
+A Digging Through Bones|QID|10922|M|31.10,76.14|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\n[color=80FF00]Escort Quest:[/color]\nFrom Chief Archaelogist Letoll.\n[color=FF0000]NOTE: [/color]If he's not there, someone is already on the quest and you have to wait.|
+C Digging Through Bones|QID|10922|M|30.10,70.81|N|Follow the dwarves to the dig site.\n[color=FF0000]NOTE: [/color]You can sit back and watch if you like. They can pretty much handle everything on their own.|
+T Digging Through Bones|QID|10922|M|30.98,76.19|N|To Dwarfowitz at Sha'tari Base Camp.|
 A Fumping|QID|10929|M|30.98,76.19|N|From Dwarfowitz.|PRE|10922|
 C Recover the Bones|QID|10030|M|52.00,58.00|L|25842 10|US|
-R Auchindoun|QID|10227|M|33.00,66.00|N|Enter Auchindoun from this location.|
-A I See Dead Draenei|QID|10227|M|35.12,65.13|N|From Ha'lei.|
-T I See Dead Draenei|QID|10227|M|35.12,66.23|N|To Ramdor the Mad.|
-A Ezekiel|QID|10228|M|35.12,66.23|N|From Ramdor the Mad.|PRE|10227|
-T Recover the Bones|QID|10030|M|35.12,66.23|N|To Ramdor the Mad.|
-A Helping the Lost Find Their Way|QID|10031|M|35.12,66.23|N|From Ramdor the Mad.|PRE|10030|
-H Shattrath City|QID|10228|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
-H Shattrath City|QID|10228|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+R Auchindoun|AVAILABLE|10227|M|33.00,66.00|N|Enter Auchindoun from this location.|
+R Ring of Observance|AVAILABLE|10227|M|35.47,59.35;38.50,60.35|CS|N|Head down into the tunnel and go to the right at each fork you encounter.|
+R Auchenai Crypts|AVAILABLE|10227|M|37.26,65.59;35.94,65.61|CS|N|The entrance is at the 'pink torches' to your left (right if you went the other way).|
+A I See Dead Draenei|QID|10227|M|35.09,65.09|N|From Ha'lei.|
+T I See Dead Draenei|QID|10227|M|35.15,66.24|N|To Ramdor the Mad (He moves around a little bit).|
+A Ezekiel|QID|10228|M|35.15,66.24|N|From Ramdor the Mad.|PRE|10227|
+T Recover the Bones|QID|10030|M|35.15,66.24|N|To Ramdor the Mad.|
+A Helping the Lost Find Their Way|QID|10031|M|35.15,66.24|N|From Ramdor the Mad.|PRE|10030|
+H Shattrath City|ACTIVE|10228|M|28.09,48.88|Z|Shattrath City|N|Hearth, or exit Auchenai Crypts and fly back.|REP|Aldor;932|
 A Firewing Signets|QID|10412|M|45.35,81.23|Z|Shattrath City|N|From Magistriz Fyalenn.|REP|Scryers;934|
+H Shattrath City|ACTIVE|10228|M|56.35,81.55|Z|Shattrath City|N|Hearth, or exit Auchenai Crypts and fly back.|REP|Scryers;934|
 T Firewing Signets|QID|10412|M|45.35,81.23|Z|Shattrath City|N|To Magistriz Fyalenn.|REP|Scryers;934|
 T A Cure for Zahlia|QID|10020|M|64.37,15.55|Z|Shattrath City|N|To Sha'nir.|REP|Aldor;932|
 T Ezekiel|QID|10228|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|Shattrath City|N|To Ezekiel. He wanders around the Terrace of Light.|
