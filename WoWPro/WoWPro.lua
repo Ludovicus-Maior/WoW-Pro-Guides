@@ -1377,6 +1377,7 @@ end
 function WoWPro.LoadAllGuidesDone()
     WoWPro.LoadAllGuidesActive = nil
     WoWPro:Print("%d Done! %d A, %d N, %d H guides present", WoWPro.LoadAll.Count, WoWPro.LoadAll.aCount, WoWPro.LoadAll.nCount, WoWPro.LoadAll.hCount)
+    WoWPro:LogShow()
     WoWPro.DevMode = false
 end
 

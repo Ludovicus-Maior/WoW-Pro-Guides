@@ -4,17 +4,25 @@
 --      WoWPro_Widgets.lua      --
 ----------------------------------
 
+local texture_prefix = "Interface\\AddOns\\WoWPro\\Textures\\"
+WoWPro.UI_CheckBox_Up = texture_prefix .. "UI-CheckBox-Up" -- 130755 ?
+WoWPro.UI_CheckBox_Down = texture_prefix .. "UI-CheckBox-Down" -- 130752
+WoWPro.UI_CheckBox_Highlight = texture_prefix .. "UI-CheckBox-Highlight" -- 130753 ?
+WoWPro.UI_CheckBox_Check_Disabled = texture_prefix .. "UI-CheckBox-Check-Disabled" -- 130750 ?
+WoWPro.UI_CheckBox_Check = texture_prefix .. "UI-CheckBox-Check" -- 130751?
+
+
 function WoWPro:CreateCheck(parent)
     local check = _G.CreateFrame("CheckButton", nil, parent)
     check:RegisterForClicks("anyDown")
     check:SetPoint("TOPLEFT")
     check:SetWidth(15)
     check:SetHeight(15)
-    check:SetNormalTexture("Interface\\Buttons\\UI-CheckBox-Up")
-    check:SetPushedTexture("Interface\\Buttons\\UI-CheckBox-Down")
-    check:SetHighlightTexture("Interface\\Buttons\\UI-CheckBox-Highlight")
-    check:SetDisabledCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
-    check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+    check:SetNormalTexture(WoWPro.UI_CheckBox_Up)
+    check:SetPushedTexture(WoWPro.UI_CheckBox_Down)
+    check:SetHighlightTexture(WoWPro.UI_CheckBox_Highlight)
+    check:SetDisabledCheckedTexture(WoWPro.UI_CheckBox_Check_Disabled)
+    check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
     check:Hide()
 
     return check
@@ -240,6 +248,7 @@ function WoWPro:CreateTargetButtonSecured(id)
     targetbutton:SetHeight(32)
     targetbutton:SetWidth(32)
     targetbutton:Hide()
+	targetbutton:RegisterForClicks("anyDown")
     return targetbutton
 end
 
@@ -250,6 +259,7 @@ function WoWPro:CreateItemButtonSecured(id)
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
     itembutton:Hide()
+	itembutton:RegisterForClicks("anyDown")
     return itembutton
 end
 

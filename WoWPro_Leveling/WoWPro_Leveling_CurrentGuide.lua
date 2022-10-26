@@ -14,6 +14,7 @@ local frame = _G.CreateFrame("Frame", "WoWPro_Leveling_CurrentGuide", _G.Interfa
 frame.name = L["Current Guide"]
 frame.parent = "WoW-Pro Leveling"
 frame:Hide()
+WoWPro.Leveling.Frame = frame
 
 -- Frame Contents --
 frame:SetScript("OnShow", function()
@@ -67,6 +68,7 @@ frame:SetScript("OnShow", function()
 
         rows[i] = row
     end
+    frame.rows = rows
 
     function WoWPro.Leveling.UpdateCurrentGuidePanel()
         if not frame:IsVisible() then return end
@@ -85,13 +87,13 @@ frame:SetScript("OnShow", function()
             if completion[index] or WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
                 row.check:SetChecked(true)
                 if WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
-                    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+                    row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check_Disabled)
                 else
-                    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+                    row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
                 end
             else
                 row.check:SetChecked(false)
-                row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+                row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
             end
 
             local step = steplist[index]
@@ -148,10 +150,10 @@ frame:SetScript("OnShow", function()
 
             -- On Click - Complete Step Clicked --
             row.check:SetScript("OnClick", function(self, button, down)
-                row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
+                row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
                 if button == "LeftButton" and row.check:GetChecked() then
                     local list = WoWPro.SkipStep(row.index)
-                    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
+                    row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check_Disabled)
                     if list ~= "" then
                         WoWPro.SkipStepDialogCall(row.index, list)
                     end

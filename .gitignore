@@ -3,6 +3,7 @@ WoWPro*.zip
 *~
 *.pyc
 *.pkl
+*.png
 .s3cfg
 .ipynb_checkpoints
 .idea

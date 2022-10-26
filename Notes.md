@@ -1,3 +1,40 @@
+# Release 2022.10.26.A
+## Bug Fixes
+* Update to Ace3 Release-r1294
+* Update to HereBeDragons 2.10
+* Updated Retail interface to 100000
+* Removed all DF hackery
+* Added FLY tag support for Wrath
+* Incomplete support for DF Professions scanning
+* Incomplete fix for invisible checkmarks in "Current Guide" displays
+* Target or action buttons for steps do not work
+
+## Guide Updates
+### Retail Achievemnts
+* Dragon Riding Glyphs
+
+
+### Retail Leveling
+* Alliance:
+* Horde:
+* Neutral: Azure Span, Ohnahran Plains, Thaldraszus, Waking Shores, Dracthyr Intro, Spires of Arak, Sholazar Basin
+
+### Classic
+* Nothing
+
+### WotLK
+* Alliance: Blades Edge, Hellfire, Nagrand, Shadowmoon, Terokkar, Zangarmarsh, Borean Tundra, Dragonblight, Grizzly Hills, Howling Fjord, Icecrown, Storm Peaks
+* Neutral: Hodir Dailies,  Netherstorm, Sholazar Basin, ZulDrak
+* Horde: Terokkar Forest, Zangarmarsh, Borean Tundra, Dragonblight, Grizzly Hills, Orc/Troll Intro, Storm Peaks, Horde Chapter 3, Ungoro Crater
+
+### Professions
+* Classic: None
+* BC: None
+* Wrath: Engineering, Tailoring
+
+### World Events
+Alliance: Hallows End update
+
 # Release 2020.09.29.A
 ## Bug Fixes
 * Update ACE3 Library to r1280

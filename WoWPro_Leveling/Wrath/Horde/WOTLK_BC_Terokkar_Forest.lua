@@ -232,10 +232,10 @@ H Shattrath City|ACTIVE|10228|M|28.09,48.88|Z|Shattrath City|N|Hearth, or exit A
 A Firewing Signets|QID|10412|M|45.35,81.23|Z|Shattrath City|N|From Magistriz Fyalenn.|REP|Scryers;934|
 H Shattrath City|ACTIVE|10228|M|56.35,81.55|Z|Shattrath City|N|Hearth, or exit Auchenai Crypts and fly back.|REP|Scryers;934|
 T Firewing Signets|QID|10412|M|45.35,81.23|Z|Shattrath City|N|To Magistriz Fyalenn.|REP|Scryers;934|
-T A Cure for Zahlia|QID|10020|M|64.37,15.55|Z|Shattrath City|N|To Sha'nir.|REP|Aldor;932|
-T Ezekiel|QID|10228|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|Shattrath City|N|To Ezekiel. He wanders around the Terrace of Light.|
-A What Book? I Don't See Any Book.|QID|10231|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|Shattrath City|N|From Ezekiel.|PRE|10228|
-C What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|N|Talk to "Dirty" Larry in Lower City and then get him down to 1% health.|
+T A Cure for Zahlia|QID|10020|M|64.49,15.09|Z|Shattrath City|N|To Sha'nir in Lower City.|REP|Aldor;932|
+T Ezekiel|QID|10228|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|Shattrath City|N|To Ezekiel.\n[color=FF0000]NOTE: [/color]He wanders around the Terrace of Light. Use the 'target' button to make finding him easier.|T|Ezekiel|
+A What Book? I Don't See Any Book.|QID|10231|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Ezekiel.\n[color=FF0000]NOTE: [/color]He wanders around the Terrace of Light. Use the 'target' button to make finding him easier.|T|Ezekiel|PRE|10228|
+C What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nTalk to "Dirty" Larry in Lower City and after he attacks you, he'll surrender when you get him down to 1% health.|
 T What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|N|To "Dirty" Larry.|
 A The Master's Grand Design?|QID|10251|M|43.58,29.36|Z|Shattrath City|N|From "Dirty" Larry, this leads into Nagrand.|PRE|10231|
 T Letting Earthbinder Tavgren Know|QID|10006|M|44.34,26.31|N|To Earthbinder Tavgren.|
