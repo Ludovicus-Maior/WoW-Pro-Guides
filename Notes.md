@@ -7,6 +7,7 @@
 * Added FLY tag support for Wrath
 * Incomplete support for DF Professions scanning
 * Incomplete fix for invisible checkmarks in "Current Guide" displays
+* Target or action buttons for steps do not work
 
 ## Guide Updates
 ### Retail Achievemnts
