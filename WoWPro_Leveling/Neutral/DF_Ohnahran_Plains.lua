@@ -5,9 +5,24 @@ WoWPro:GuideLevels(guide,60, 70, 62)
 WoWPro:GuideNextGuide(guide, 'The Azure Span')
 WoWPro:GuideSteps(guide, function()
 return [[
-T Ohn'ahran Plains|QID|72267|M|48.27,88.68|Z|2022;The Waking Shores|N|To Ambassador Taurasza.|
+
+;Dragon Riding Glyphs that need to be worked into the guide.
+;F Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Ohn'ahra's Roost|N|Over the Eagle statue.|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Nokhudon Hold|N|Over the mountain top.|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Emerald Gardens|N|Just below the tree line at the top of the water falls.|M|30,61|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F The Eternal Kurgans|N|Just to the east of the mountain side.|M|29.5,75.1|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Brackenhide Hollow|N|Around the top of the tree on top of the hill.|M|10.63,36.37|Z|2024;The Azure Plains!Dragonflight|
+;F Creektooth Den|N|On top of the dead tree.|M|26.74,31.66|Z|2024;The Azure Plains!Dragonflight|
+;F Forkriver Crossing|N|Just above the road.|M|70.15,86.78|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Ohn'iri Springs|N|Next to the mountain.|M|57.3,80.3|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Mirror of the Sky|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Szar Skeleth|N|At the top of the tower.|M|44.6,64.8|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Windsong Rise|N|Just after the swirly things on the ground, over the mountain top.|M|61.5,64.3|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Dragonspring Summit|N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Aran Plains!Dragonflight|
+;F Rusza'thar Reach|N|Floating above the tower.|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|
+
 A Into the Plains|QID|65779|PRE|72267|M|48.27,88.68|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|
-C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
 T Into the Plains|QID|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Proving Oneself|QID|65780|PRE|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Proving Oneself|QID|65780|M|78.55,26.65|Z|2023;Ohn'ahran Plains|QO|1|N|Blazing Proto-Dragon slain.|
@@ -17,23 +32,22 @@ A Welcome at Our Fire|QID|65783|PRE|65780|M|78.61,25.39|Z|2023;Ohn'ahran Plains|
 T Welcome at Our Fire|QID|65783|M|85.33,25.40|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A The Shikaar|QID|70174|PRE|65783|M|85.33,25.40|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 f Timberstep Outpost|QID|70174|M|85.27,24.11|Z|2023;Ohn'ahran Plains|N|At Flightmaster Baqir.|
-A Nergazurai|QID|70319|PRE|65783|M|84.54,25.25|Z|2023;Ohn'ahran Plains|N|From Muqur Rain-Touched.|
-A Thieving Gorlocs|QID|65950|PRE|65783|M|84.41,25.00|Z|2023;Ohn'ahran Plains|N|From Farrier Roscha.|
-A Sole Supplier|QID|65951|PRE|65783|M|84.34,25.01|Z|2023;Ohn'ahran Plains|N|From Apprentice Ehri.|
+A Nergazurai|QID|70319|PRE|65783|M|84.54,25.25|Z|2023;Ohn'ahran Plains|N|From Muqur Rain-Touched.|RANK|2|
+A Thieving Gorlocs|QID|65950|PRE|65783|M|84.41,25.00|Z|2023;Ohn'ahran Plains|N|From Farrier Roscha.|RANK|2|
+A Sole Supplier|QID|65951|PRE|65783|M|84.34,25.01|Z|2023;Ohn'ahran Plains|N|From Apprentice Ehri.|RANK|2|
 C The Shikaar|QID|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Sansok Khan.|
 T The Shikaar|QID|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|N|To Sansok Khan.|
 A Making Introductions|QID|65801|PRE|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
 A Supplies for the Journey|QID|65802|PRE|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
+C Supplies for the Journey|QID|65802|M|84.26,25.77|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Feralbloom Pod.|S|
+C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Camp Provisions.|S|
+C Making Introductions|QID|65801|M|85.71,26.57|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Ohn Seshteng.|
 C Making Introductions|QID|65801|M|85.71,26.57|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Speak to Aru and Belika.|
 C Making Introductions|QID|65801|M|83.93,25.90|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Speak to Beastmaster Nuqut.|
-C Supplies for the Journey|QID|65802|M|84.26,25.77|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Feralbloom Pod.|
-C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
-C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
-C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Camp Provisions.|
-T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
+C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|NC|N|Finish up collecting what you are missing.|US|
 C Nergazurai|QID|70319|M|85.03,15.03|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Rockfang Femur.|
 C Nergazurai|QID|70319|M|85.91,17.21|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Vulture Gizzard.|
-C Making Introductions|QID|65801|M|85.61,20.87|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Ohn Seshteng.|
+T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 T Making Introductions|QID|65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Toward the City|QID|65803|PRE|65802&65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Toward the City|QID|65803|M|83.15,23.78|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Meet with the caravan.|
