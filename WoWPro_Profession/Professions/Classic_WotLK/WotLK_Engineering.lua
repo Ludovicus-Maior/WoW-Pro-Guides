@@ -239,6 +239,8 @@ N Gnomish Engineering|QID|2029920222|PRE|3639|P|Engineering;202;0+200|SPELL|Gobl
 N Goblin Engineering|QID|2029920222|PRE|3643|P|Engineering;202;0+200|SPELL|Gnomish Engineering;20219;Flip|N|You have Goblin Engineering!|
 = Learn Recipe|QID|202204006|M|39.66,25.13|Z|125|P|Engineering;202;0+426|RECIPE|56514|SPELL|Gnomish Engineering;20219;Flip|T|Didi the Wrench|N|Learn [spell=56514/Global Thermal Sapper Charge] from Didi the Wrench.\n[color=FF0000]NOTE: [/color]Goblin Engineers only.|
 M [item=42641/Global Thermal Sapper Charge]|QID|202056514|P|Engineering;202;0+430;1|SPELL|Gnomish Engineering;20219;Flip|ITEM|42641|CRAFT|56514 8|MATS|36913 1;39690 1|N|[color=FF0000]NOTE: [/color]Goblin Engineer Only, Right-click to skip.|
+= Learn Recipe|QID|202061481|P|Engineering;202;0+426|RECIPE|61481|N|Learn [spell=61481/Snow Goggles] Recipe from Trainer.|
+M [item=44740/Snow Goggles]|QID|202061481|P|Engineering;202;0+430;1|ITEM|44740|CRAFT|61481 5|MATS|36913 8;33568 2;35627 1|
 = Learn Recipe|QID|202056467|P|Engineering;202;0+420|RECIPE|56467|N|Learn [spell=56467/Noise Machine] Recipe from Trainer.|
 M [item=40865/Noise Machine]|QID|202056467|P|Engineering;202;0+435;1|ITEM|40865|CRAFT|56467 5|MATS|39683 2;39682 2;39681 8|
 = Learn Recipe|QID|202004351|P|Engineering;202;0+435|RECIPE|56462|N|Learn [spell=56462/Gnomish Army Knife] Recipe from Trainer.|
