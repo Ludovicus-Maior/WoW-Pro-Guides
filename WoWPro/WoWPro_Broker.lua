@@ -1337,7 +1337,7 @@ function WoWPro:RowUpdate(offset)
                 mtext = "/target "..tar.."\n/"..emote
             else
                 mtext = "/cleartarget\n/target "..tar.."\n"
-                mtext = mtext .. "/run if not GetRaidTargetIndex('target') == 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
+                mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
             end
             currentRow.targetbutton:SetAttribute("macrotext", mtext)
             -- Run Module specific RowUpdateTarget() to override macrotext
