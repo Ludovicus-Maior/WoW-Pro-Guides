@@ -787,11 +787,11 @@ function WoWPro:CheckFunction(row, button, down)
             WoWPro:SkipStepDialogCall(row.index, steplist, row.check)
         else
             WoWPro.SkipStep(row.index, false)
-            row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check_Disabled)
+            row.check:SetSilver()
             WoWPro:UpdateGuide("CheckFunction:Skip1Step")
         end
     elseif button == "RightButton" and row.check:GetChecked() then
-        row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
+        row.check:SetGold()
         WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
         if WoWProDB.profile.checksound then
             _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
@@ -988,15 +988,13 @@ function WoWPro:RowUpdate(offset)
 
         if step then currentRow.check:Show() else currentRow.check:Hide() end
         if completion[k] or WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k],WoWProCharDB.skippedQIDs) then
-            currentRow.check:SetChecked(true)
             if WoWProCharDB.Guide[GID].skipped[k] or WoWPro:QIDsInTable(WoWPro.QID[k],WoWProCharDB.skippedQIDs) then
-                currentRow.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check_Disabled)
+                currentRow.check:SetSilver()
             else
-                currentRow.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
+                currentRow.check:SetGold()
             end
         else
-            currentRow.check:SetChecked(false)
-            currentRow.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
+            currentRow.check:SetBlank()
         end
 
         if note then
