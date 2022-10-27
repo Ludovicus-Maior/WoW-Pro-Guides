@@ -128,6 +128,7 @@ frame:SetScript("OnShow", function()
 
         rows[i] = row
     end
+    frame.rows = rows
 
     function WoWPro.UpdateCurrentGuidePanel()
         if not frame:IsVisible() then return end
@@ -147,15 +148,13 @@ frame:SetScript("OnShow", function()
             row.index = index
 
             if completion[index] or WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
-                row.check:SetChecked(true)
                 if WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
-                    row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check_Disabled)
+                    row.check:SetSilver()
                 else
-                    row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
+                    row.check:SetGold()
                 end
             else
-                row.check:SetChecked(false)
-                row.check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
+                row.check:SetBlank()
             end
 
             local step = steplist[index]

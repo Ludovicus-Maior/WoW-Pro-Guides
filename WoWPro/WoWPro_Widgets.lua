@@ -12,19 +12,37 @@ WoWPro.UI_CheckBox_Check_Disabled = texture_prefix .. "UI-CheckBox-Check-Disable
 WoWPro.UI_CheckBox_Check = texture_prefix .. "UI-CheckBox-Check" -- 130751?
 
 
+local function SetBlank(self)
+    self:SetChecked(false)
+    self:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
+end
+
+local function SetGold(self)
+    self:SetBlank()
+    self:SetChecked(true)
+end
+
+local function SetSilver(self)
+    self:SetChecked(false)
+    self:SetCheckedTexture(WoWPro.UI_CheckBox_Check_Disabled)
+    self:SetChecked(true)
+end
+
 function WoWPro:CreateCheck(parent)
     local check = _G.CreateFrame("CheckButton", nil, parent)
     check:RegisterForClicks("anyDown")
     check:SetPoint("TOPLEFT")
-    check:SetWidth(15)
-    check:SetHeight(15)
+    check:SetWidth(16)
+    check:SetHeight(16)
     check:SetNormalTexture(WoWPro.UI_CheckBox_Up)
     check:SetPushedTexture(WoWPro.UI_CheckBox_Down)
     check:SetHighlightTexture(WoWPro.UI_CheckBox_Highlight)
     check:SetDisabledCheckedTexture(WoWPro.UI_CheckBox_Check_Disabled)
     check:SetCheckedTexture(WoWPro.UI_CheckBox_Check)
     check:Hide()
-
+    check.SetBlank = SetBlank
+    check.SetGold = SetGold
+    check.SetSilver = SetSilver
     return check
 end
 
