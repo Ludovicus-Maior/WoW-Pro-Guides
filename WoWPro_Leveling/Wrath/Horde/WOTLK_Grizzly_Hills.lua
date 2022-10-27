@@ -183,8 +183,8 @@ A Vordrassil's Seeds|QID|12242|M|22.5,63.0|N|From Windseer Grayhorn.|
 F Camp Oneqwah|QID|12054|M|22.0,64.5|N|Fly to Camp Oneqwah.|
 T Deciphering the Journal|QID|12054|M|65.2,47.8|N|To Sage Paluna.|
 A Pounding the Iron|QID|12073|M|65.1,47.7|N|From Scout Vor'takh.|
-A The Runic Prophecies|QID|12058|M|65.2,47.8|N|From Sage Paluna.|
-T An Expedient Ally|QID|12074|N|To Kurun.|M|65.7,17.8|
+A The Runic Prophecies|QID|12058|M|65.2,47.8|N|From Sage Paluna. Wait for her to finish talking about the Journal.|
+T An Expedient Ally|QID|12074|N|To Kurun. Take the path on the north side of Thor Modan and come up behind the quest objective.|M|65.7,17.8|
 A Raining Down Destruction |QID|11982|M|65.8,17.8|N|From Kurun.|
 C Raining Down Destruction|QID|11982|N|Northeast of Kurun you should see Giants throwing boulders down into the trench below. Loot a boulder, go to the edge of the trench, and use it on a dwarf. Repeat.|U|35734|M|71.1,15.4;71.6,11.8|CN|
 T Raining Down Destruction |QID|11982|N|To Kurun.|M|65.65,17.79|
@@ -256,7 +256,7 @@ A Drak'aguul's Mallet |QID|12120|PRE|12116|M|73.9,34.1|N|From Kraz.|
 N READ THIS|QID|12164|O|N|We're about to attempt a 3 man quest, Hour of the Worg. Some classes, ranged especially (and Death Knights) will be able to solo it, nevertheless if you can get a group it becomes much quicker and less time consuming.|
 R Bloodmoon Isle|QID|12164|O|N|Swim northeast to Bloodmoon Isle.|M|83,28|
 K Selas|QID|12164|O|QO|2|N|Head up the path and to the right, Selas is a worgen in the camp.|M|85.8,27.7|; Selas slain: 1/1
-K Varlam|QID|12164|O|QO|1|N|A wolf rider, gead back to the path and further up on the left there's another camp, Varlam is here.|M|85.1,23.4|; Varlam slain: 1/1
+K Varlam|QID|12164|O|QO|1|N|A wolf rider, head back to the path and further up on the left there's another camp, Varlam is here.|M|85.1,23.4|; Varlam slain: 1/1
 K Goremaw|QID|12164|O|QO|3|N|A large wolf; he's on the southern side of the tower.|M|86.9,26.8|; Goremaw slain: 1/1
 C Hour of the Worg|QID|12164|O|N|Arugal is on top of the tower. He has 4 phases. Phase one he shadowbolts for ~1500 damage. At 75% HP, he goes into P2, summoning 3 adds. Kill them to return to P1, which lasts until 50%. Then he'll MC someone, who you bring down to 35%, then he goes back to P1. At 25%, he repeats P2, except with 9 adds. Sasha helps in the final phase. If you're ranged, you can probably kill him by LoSing his shadowbolts, if you're far enough down the adds won't aggro on you, but will despawn instead. Good luck!|M|87.5,26.5|
 T Hour of the Worg|QID|12164|O|M|64.9,43.5;87.2,25.6|CS|N|To Sasha. If she despawns before you can turn the quest in, you can find her back where you accepted the quest at.|
