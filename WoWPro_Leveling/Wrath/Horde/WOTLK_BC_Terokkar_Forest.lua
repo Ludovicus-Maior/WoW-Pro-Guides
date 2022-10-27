@@ -235,15 +235,15 @@ T Firewing Signets|QID|10412|M|45.35,81.23|Z|Shattrath City|N|To Magistriz Fyale
 T A Cure for Zahlia|QID|10020|M|64.49,15.09|Z|Shattrath City|N|To Sha'nir in Lower City.|REP|Aldor;932|
 T Ezekiel|QID|10228|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|Shattrath City|N|To Ezekiel.\n[color=FF0000]NOTE: [/color]He wanders around the Terrace of Light. Use the 'target' button to make finding him easier.|T|Ezekiel|
 A What Book? I Don't See Any Book.|QID|10231|M|54.6,59.95;61.57,36.2;62.95,49.67;57.45,57.12;50.48,57.44;45.52,52.05;44.14,40.16;48.26,33.83|CN|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Ezekiel.\n[color=FF0000]NOTE: [/color]He wanders around the Terrace of Light. Use the 'target' button to make finding him easier.|T|Ezekiel|PRE|10228|
-C What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nTalk to "Dirty" Larry in Lower City and after he attacks you, he'll surrender when you get him down to 1% health.|
+C What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nTalk to "Dirty" Larry in Lower City and after he attacks you, he'll surrender when you get him down to 1% health.\n[color=FF0000]NOTE: [/color]If someone else starts and finishes the quest, you can get credit as long as you stick around.|
 T What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|N|To "Dirty" Larry.|
 A The Master's Grand Design?|QID|10251|M|43.58,29.36|Z|Shattrath City|N|From "Dirty" Larry, this leads into Nagrand.|PRE|10231|
-T Letting Earthbinder Tavgren Know|QID|10006|M|44.34,26.31|N|To Earthbinder Tavgren.|
-T Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|To Kirrik the Awakened.|
+T Letting Earthbinder Tavgren Know|QID|10006|M|44.34,26.31|N|To Earthbinder Tavgren at Cenarion Thicket.|
+T Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|To Kirrik the Awakened at Refugee Caravan.|
 A Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10861|
-C Fumping|QID|10929|M|35.05,51.5|N|[Coords]Go here (make sure the map says "The Bone Wastes"), use the fumper to possibly spawn a sifter. Kill and loot sifters this way until you get all the items for this quest. Do not be too close to the caravan as the level 50 guards will kill it too quick, but you can use them to help kill the Gnomes.|U|31810|
-C Helping the Lost Find Their Way|QID|10031|N|Kill Lost spirits, and Broken skeletons.|S|
-T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz.|
+C Fumping|QID|10929|M|35.05,51.50|L|31814 8|ITEM|31814|N|Mature Bone Sifter\nUsing the fumper will spawn either a Sifter or a Sand Gnome.\n[color=FF0000]NOTE: [/color]You can use the Refugee Caravan Guards to help kill the Gnomes.|U|31810|
+K Helping the Lost Find Their Way|ACTIVE|10031|QO|1;2|S|
+T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz at Sha'tari Base Camp.|
 A The Big Bone Worm|QID|10930|M|30.98,76.19|N|From Dwarfowitz.|PRE|10929|
 C An Improper Burial|QID|10913|M|35.0,76.5|N|[Coords]Head east and use your Sha'tari Torch on the corpses.|U|31769|
 C The Dread Relic|QID|10877|M|44.00,76.00|N|Go here and loot the relic from the chest. A bunch of weak undead will spawn, but if you are quick enough, you can get away.|
