@@ -16,7 +16,7 @@ T Pinned Down|QID|27670|M|34.10,32.22|Z|The Old Dormitory|N|To Nevin Twistwrench
 A Report to Carvo Blastbolt|PRE|27670|QID|28167|M|34.10,32.22|Z|The Old Dormitory|N|From Nevin Twistwrench.|
 T Report to Carvo Blastbolt|QID|28167|M|50.99,31.92|Z|The Old Dormitory|N|To Carvo Blastbolt, at the top of the ramp.|
 A See to the Survivors|PRE|28167|QID|27671|M|50.99,31.92|Z|The Old Dormitory|N|From Carvo Blastbolt.|
-C See to the Survivors|QID|27671|M|45.6,28.6|Z|The Old Dormitory|N|Use the Teleport Beacon on the survivors around the lower level of the room.|U|62057|NC|
+C See to the Survivors|QID|27671|M|45.6,28.6|Z|The Old Dormitory|N|Use the Teleport Beacon on the survivors around the lower level of the room.|NC|U|62057|T|Survivor|
 T See to the Survivors|QID|27671|M|50.99,31.92|Z|The Old Dormitory|N|To Carvo Blastbolt.|
 A Withdraw to the Loading Room!|PRE|27671|QID|28169|M|50.99,31.92|Z|The Old Dormitory|N|From Carvo Blastbolt.|
 T Withdraw to the Loading Room!|QID|28169|M|53.07,82.36|Z|The Old Dormitory|N|To Gaffer Coilspring.|
