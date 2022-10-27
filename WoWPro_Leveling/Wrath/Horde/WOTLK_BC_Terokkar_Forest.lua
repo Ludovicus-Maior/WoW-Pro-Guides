@@ -241,13 +241,13 @@ A The Master's Grand Design?|QID|10251|M|43.58,29.36|Z|Shattrath City|N|From "Di
 T Letting Earthbinder Tavgren Know|QID|10006|M|44.34,26.31|N|To Earthbinder Tavgren at Cenarion Thicket.|
 T Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|To Kirrik the Awakened at Refugee Caravan.|
 A Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10861|
-C Fumping|QID|10929|M|35.05,51.50|L|31814 8|ITEM|31814|N|Mature Bone Sifter\nUsing the fumper will spawn either a Sifter or a Sand Gnome.\n[color=FF0000]NOTE: [/color]You can use the Refugee Caravan Guards to help kill the Gnomes.|U|31810|
+C Fumping|QID|10929|M|35.05,51.50|L|31814 8|ITEM|31814|N|Mature Bone Sifter\nUsing the Fumper will spawn either a Sifter or a Sand Gnome.\n[color=FF0000]NOTE: [/color]You can use the Refugee Caravan Guards to help kill the Gnomes.|U|31810|
 K Helping the Lost Find Their Way|ACTIVE|10031|QO|1;2|S|
 T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz at Sha'tari Base Camp.|
 A The Big Bone Worm|QID|10930|M|30.98,76.19|N|From Dwarfowitz.|PRE|10929|
-C An Improper Burial|QID|10913|M|35.0,76.5|N|[Coords]Head east and use your Sha'tari Torch on the corpses.|U|31769|
-C The Dread Relic|QID|10877|M|44.00,76.00|N|Go here and loot the relic from the chest. A bunch of weak undead will spawn, but if you are quick enough, you can get away.|
-C The Big Bone Worm|QID|10930|M|44,73|N|Kill a Decrepit Clefthoof. Use the Fumper on it's corpse, run if you get Bone Worms, kill Gnomes. Eventually, you'll get Hai'shulud, kill it.|U|31825|
+C An Improper Burial|QID|10913|M|34.52,76.44|N|Use your Sha'tari Torch on the corpses.|U|31769|NC|
+C The Dread Relic|QID|10877|M|43.92,76.37|N|Loot the relic from the Massive Treasure Chest.\n[color=FF0000]NOTE: [/color]A bunch of weak undead will spawn, but if you are quick enough, you can get away.|
+K The Big Bone Worm|ACTIVE|10930|M|44,73|L|31826|N|[coords]Kill a Decrepit Clefthoof. Use the Fumper on it's corpse, run if you get Bone Worms, kill Gnomes. Rinse and repeat until Hai'shulud spawns.|U|31825|
 A For the Fallen|QID|10920|M|49.71,76.18|N|From Vindicator Haylen.|
 C Taken in the Night|QID|10873|M|52.00,77.00|N|Free Netherweb Victims until you finish this quest. Can be an aggressive mob.|S|
 C For the Fallen|QID|10920|M|52.00,77.00|N|Kill spiders until you finish this quest.|
