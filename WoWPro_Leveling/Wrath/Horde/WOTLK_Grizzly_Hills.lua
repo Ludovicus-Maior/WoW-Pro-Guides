@@ -296,8 +296,8 @@ T Cultivating an Image|QID|12202|N|To Scout Vor'takh.|M|65.1,47.7|
 A Loken's Orders|QID|12203|PRE|12202|M|65.1,47.7|N|From Scout Vor'takh.|
 T From the Ground Up|QID|12196|M|65.1,47.3|N|To Prospector Rokar.|
 A We Have the Power |QID|12197|PRE|12196|M|65.1,47.3|N|From Prospector Rokar.|
-R Dun Argol|QID|12198|U|37071|N|Mount up and ride back to Dun'Argol. Use the disguise (can not be used while mounted anymore).|M|75,55|
-l Durar's Power Cell|QID|12197|QO|1|U|37071|N|Head up to the next tier, it has two buildings. Go to the building on your left, Durar is inside. Drop the buff and kill him. Loot the power cell off his body.|M|75.0,57.1|
+R Dun Argol|QID|12198|U|37071|N|Mount up and ride back to Dun'Argol. Use the disguise. Can be used while mounted.|M|75,55|
+l Durar's Power Cell|QID|12197|QO|1|U|37071|N|Head up to the next tier, it has two buildings. Go to the building on your right, Durar is inside. Drop the buff and kill him. Loot the power cell off his body.|M|75.0,57.1|
 l Kathorn's Power Cell|QID|12197|QO|2|U|37071|N|He's inside the next building.|M|76.8,59.1|
 C Loken's Orders|QID|12203|U|37071|N|Head north and take the path east. Follow it to the building. Go inside and right click the Loken's Pedestal, wait till you get a quest update.|M|81.6,60.5|
 N READ THIS|QID|12197|U|37071|N|Do NOT turn in Loken's Orders, the disguise comes in handy shortly.|M|65.1,47.3|
