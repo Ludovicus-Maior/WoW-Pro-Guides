@@ -7,10 +7,10 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
-;
+
 
 ;Rares that need to be worked into guide.
-;
+
 
 ;treasures that need to be worked into the guide.
 
@@ -68,7 +68,7 @@ C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022|N|Kill the Proto-Whelp
 C Primal Pests|QID|70123^65453|M|83.59,36.12|Z|2022|N|Slay Primal Proto-drakes.|S|
 C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye is suspended above some lava enter the area on the left side.|FACTION|Alliance|
 C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|NC|N|Spelunker Lazee is suspended over lava enter the area on the left side.|FACTION|Horde|
-A Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
+A Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|FACTION|Alliance|
 C Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Slay Primal Scythid Queen.|S!US|T|Primal Scythid Queen|
 C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Click on Archivist Rellid who is being carried around by low flying drakes.|FACTION|Alliance|
 C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|NC|N|Click Archivist Spearblossom who is being carried around by low flying drakes.|FACTION|Horde|
@@ -85,7 +85,6 @@ T Where is Wrathion?|QID|70125^69910|M|76.61,33.65|Z|2022|N|To Sendrax.|
 A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|
 A Give Peace a Chance|QID|66110|PRE|65451&65453|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|RANK|2|FACTION|Horde|
 T Primal Pests|QID|65453|M|76.29,33.02|Z|2022|N|To Scalecommander Cinderthresh.|FACTION|Horde|
-T Practice Materials|QID|65451|M|75.94,33.23|Z|2022|N|To Boss Magor.|FACTION|Horde|
 T Practice Materials|QID|70124|M|76.50,34.34|Z|2022|N|To Thaelin Darkanvil.|FACTION|Alliance|
 T Practice Materials|QID|65451|M|75.98,33.23|Z|2022|N|To Boss Magor.|FACTION|Horde|
 T Primal Pests|QID|70123|M|76.77,34.42|Z|2022|N|To Scalecommander Azurathel.|FACTION|Alliance|
@@ -272,7 +271,7 @@ C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celo
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
 
-N This next section is a tour around the zone collection Dragonriding Glyphs. If you are not interested in making your dragon better just skip over them.
+N This next section is a tour around the zone collection Dragonriding Glyphs. \nIf you are not interested in making your dragon better just skip over them.|ACH|16575|
 $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
 $ Flashfrost Enclave|N|Just above the ground.|M|58.10,78.63|Z|2022;The Waking Shores!Dragonflight|ACH|16669|
 $ Ruby Life Pools|N|Over the hill top.|M|54.5,74.2|Z|2022;The Waking Shores!Dragonflight|ACH|15988|
@@ -490,7 +489,7 @@ T Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|To Cataloger Jakes.|
 C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Its now time to finish the Bonus Objective if you are planning to.|US|
 t Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autocompleted.|
 R Obsidian Bulwark|ACTIVE|66079|M|47.7,67.1;42.47,66.82|CS|Z|2022|N|Mount up and head off to find Wrathion.|
-T Wrathion Awaits|QID|66079|M|47.77,67.11;42.47,66.82|CS|Z|2022|N|To Wrathion.|
+T Wrathion Awaits|QID|66079|M|42.47,66.82|CS|Z|2022|N|To Wrathion.|
 A Lessons from Our Past|QID|72241|PRE|66079|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
 C Lessons from Our Past|QID|72241|M|42.47,66.82|Z|2022|QO|1|CHAT|N|Speak with Scalecommander Emberthal to learn of past events.|
 T Lessons from Our Past|QID|72241|M|42.46,66.80|Z|2022|N|To Scalecommander Emberthal.|
