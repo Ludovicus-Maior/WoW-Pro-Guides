@@ -41,57 +41,57 @@ A Making Introductions|QID|65801|PRE|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains
 A Supplies for the Journey|QID|65802|PRE|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
 C Supplies for the Journey|QID|65802|M|84.26,25.77|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Feralbloom Pod.|S|
 C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Camp Provisions.|S|
-C Making Introductions|QID|65801|M|85.71,26.57|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Ohn Seshteng.|
 C Making Introductions|QID|65801|M|85.71,26.57|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Speak to Aru and Belika.|
 C Making Introductions|QID|65801|M|83.93,25.90|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Speak to Beastmaster Nuqut.|
+C Making Introductions|QID|65801|M|85.71,26.57|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Ohn Seshteng.|
 C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|NC|N|Finish up collecting what you are missing.|US|
+C Nergazurai|QID|70319|M|85.91,17.21|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Vulture Gizzard.|S|
 C Nergazurai|QID|70319|M|85.03,15.03|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Rockfang Femur.|
-C Nergazurai|QID|70319|M|85.91,17.21|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Vulture Gizzard.|
-T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
-T Making Introductions|QID|65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
-A Toward the City|QID|65803|PRE|65802&65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
-C Toward the City|QID|65803|M|83.15,23.78|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Meet with the caravan.|
-C Toward the City|QID|65803|M|76.70,19.34|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Listen to the Shikaar stories (Optional).|
-C Toward the City|QID|65803|M|76.70,19.34|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Arrive at the first stop.|
+C Nergazurai|QID|70319|M|85.91,17.21|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Vulture Gizzard.|US|
+C Nergazurai|QID|70319|M|72.96,24.87|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Ottuk Heart.|S|
 C Nergazurai|QID|70319|M|76.16,20.24|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Hornstrider Scale.|
-C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
-C Nergazurai|QID|70319|M|72.96,24.87|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Ottuk Heart.|
-C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
-C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
-C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
-T Nergazurai|QID|70319|M|84.56,25.27|Z|2023;Ohn'ahran Plains|N|To Muqur Rain-Touched.|
+C Nergazurai|QID|70319|M|72.96,24.87|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Ottuk Heart.|US|
+C Thieving Gorlocs|QID|65950|M|81.08,30.77|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Shikaar Supplies.|
 C Sole Supplier|QID|65951|M|80.69,30.64|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Khasar found.|
 T Sole Supplier|QID|65951|M|80.56,30.73|Z|2023;Ohn'ahran Plains|N|To Khasar.|
-C Thieving Gorlocs|QID|65950|M|81.08,30.77|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Shikaar Supplies.|
 T Thieving Gorlocs|QID|65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|To Khasar.|
-A The Ora-cull|QID|65953|PRE|70319&65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|
-A Release the Hounds|QID|65954|PRE|70319&65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|
-A A Centaur's Best Friend|QID|65955|PRE|70319&65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|
-C Release the Hounds|QID|65954|M|81.18,29.75|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Bakar freed.|
+A The Ora-cull|QID|65953|PRE|70319&65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
+A Release the Hounds|QID|65954|PRE|70319&65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
+A A Centaur's Best Friend|QID|65955|PRE|70319&65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
+C Release the Hounds|QID|65954|M|81.18,29.75|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Bakar freed.|S|
+C Release the Hounds|QID|65954|M|80.63,30.71|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Bakar Collar.|S|
+C The Ora-cull|QID|65953|M|81.26,29.79|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Mudfin Totem.|S|
 C A Centaur's Best Friend|QID|65955|M|80.59,30.74|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Free Khasar.|
-C Release the Hounds|QID|65954|M|80.63,30.71|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Bakar Collar.|
-C The Ora-cull|QID|65953|M|81.26,29.79|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Mudfin Totem.|
 C A Centaur's Best Friend|QID|65955|M|83.38,32.41|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Free Baba.|
+C Release the Hounds|QID|65954|M|81.18,29.75|Z|2023;Ohn'ahran Plains|NC|N|Finish up collecting the collars and freeing the bakers.|US|
+T Medallion of a Fallen Friend|QID|66005|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|To Khasar.|
 T The Ora-cull|QID|65953|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|To Khasar.|
 T Release the Hounds|QID|65954|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|To Khasar.|
 T A Centaur's Best Friend|QID|65955|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|To Khasar.|
-A A Chief of Legends|QID|65952|PRE|65953&65954&65955|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|From Khasar.|
+A A Chief of Legends|QID|65952|PRE|65953&65954&65955|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
 C A Chief of Legends|QID|65952|M|82.12,31.56|Z|2023;Ohn'ahran Plains|QO|1|N|Chief Grrlgllmesh slain.|
-A Medallion of a Fallen Friend|QID|66005|PRE|65953&65954&65955|M|82.12,31.50|Z|2023;Ohn'ahran Plains|
+l Medallion of a Fallen Friend|QID|66005|M|81.88,31.33|L|191127|N|This is a drop off Cheif Grrlgllmesh|S!US|RANK|2|
+A Medallion of a Fallen Friend|QID|66005|M|PLAYER|N|This is from Medallion of a Fallen Friend. Off Cheif Grrlgllmesh|U|191127|S!US|RANK|2|
 T A Chief of Legends|QID|65952|M|83.43,32.32|Z|2023;Ohn'ahran Plains|N|To Khasar.|
 T Medallion of a Fallen Friend|QID|66005|M|83.43,32.32|Z|2023;Ohn'ahran Plains|N|To Khasar.|
-A The Sole Mender|QID|65949|PRE|65952&66005|M|83.43,32.32|Z|2023;Ohn'ahran Plains|N|From Khasar.|
-A Return to Roscha|QID|66006|PRE|65952&66005|M|83.43,32.32|Z|2023;Ohn'ahran Plains|N|From Khasar.|
+A The Sole Mender|QID|65949|PRE|65952&66005|M|83.43,32.32|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
+A Return to Roscha|QID|66006|PRE|65952&66005|M|83.43,32.32|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
 C Return to Roscha|QID|66006|M|83.50,32.19|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Supplies.|
-C A Dangerous Tusk|Z|Ohn'ahran Plains|SO|6|S|N|Find and defeat Blitztusk.|
 T The Sole Mender|QID|65949|M|84.40,25.03|Z|2023;Ohn'ahran Plains|N|To Farrier Roscha.|
 T Return to Roscha|QID|66006|M|84.40,25.03|Z|2023;Ohn'ahran Plains|N|To Farrier Roscha.|
+T Nergazurai|QID|70319|M|84.56,25.27|Z|2023;Ohn'ahran Plains|N|To Muqur Rain-Touched.|
+T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
+T Making Introductions|QID|65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
+A Toward the City|QID|65803|PRE|65802&65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
+C Toward the City|QID|65803|M|83.15,23.78|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Meet with the caravan.|
+C Toward the City|QID|65803|M|76.70,19.34|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Listen to the Shikaar stories (Optional).|
+C Toward the City|QID|65803|M|76.70,19.34|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Arrive at the first stop.|
 T Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A For Food and Rivalry|QID|65804|PRE|65949&66006&65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 A Mysterious Beast|QID|70185|PRE|65949&66006&65803|M|76.72,31.88|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
+C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Fresh Game Meat.|S|
 C Mysterious Beast|QID|70185|M|78.32,35.13|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Pelt of Konkhular.|
-L Level 63|QID|70185|LVL|63|N|You should be around level 63 by this point.|
-C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Fresh Game Meat.|
+C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Fresh Game Meat.|US|
 T For Food and Rivalry|QID|65804|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A By Broken Road|QID|65940|PRE|65804|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C By Broken Road|QID|65940|M|70.02,37.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Arrive at the second stop.|
