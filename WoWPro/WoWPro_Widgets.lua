@@ -145,7 +145,7 @@ function WoWPro:CreateItemButton(parent, id)
     itemicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
     itemicon:SetAllPoints(itembutton)
 
-    itembutton:RegisterForClicks("anyDown")
+    itembutton:RegisterForClicks("anyDown","anyUp")
     itembutton:Hide()
 
     return itembutton, itemicon, itemcooldown
@@ -172,7 +172,7 @@ function WoWPro:CreateJumpButton(parent, id)
 		jumpicon:SetTexture("Interface\\Icons\\inv_misc_book_12")
 	end
     jumpicon:SetAllPoints(jumpbutton)
-    jumpbutton:RegisterForClicks("anyDown")
+    jumpbutton:RegisterForClicks("anyDown","anyUp")
     jumpbutton:Hide()
 
     return jumpbutton, jumpicon
@@ -213,7 +213,7 @@ function WoWPro:CreateTargetButton(parent, id)
     targeticon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
     targeticon:SetAllPoints(targetbutton)
 
-    targetbutton:RegisterForClicks("anyDown")
+    targetbutton:RegisterForClicks("anyDown","anyUp")
     targetbutton.SetTarget = function () targetbutton:SetTexture("Interface\\Icons\\Ability_Marksmanship"); end
     targetbutton.SetMacro = function () targetbutton:SetTexture("Interface\\Icons\\INV_Misc_Book_11"); end
     targetbutton.SetEmote = function () targetbutton:SetTexture("Interface\\Icons\\INV_Misc_Toy_07"); end
@@ -242,7 +242,7 @@ function WoWPro:CreateEAButton(parent, id)
     eaicon:SetHeight(36)
     eaicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
     eaicon:SetAllPoints(eabutton)
-    eabutton:RegisterForClicks("anyDown")
+    eabutton:RegisterForClicks("anyDown","anyUp")
     eabutton:Hide()
 
     return eabutton, eaicon, cooldown
@@ -255,7 +255,7 @@ function WoWPro:CreateEAButtonSecured(id)
     eabutton:SetHeight(32)
     eabutton:SetWidth(32)
     eabutton:Hide()
-    eabutton:RegisterForClicks("anyDown")
+	eabutton:RegisterForClicks("anyDown","anyUp")
     return eabutton
 end
 
@@ -266,7 +266,7 @@ function WoWPro:CreateTargetButtonSecured(id)
     targetbutton:SetHeight(32)
     targetbutton:SetWidth(32)
     targetbutton:Hide()
-	targetbutton:RegisterForClicks("anyDown")
+	targetbutton:RegisterForClicks("anyDown","anyUp")
     return targetbutton
 end
 
@@ -277,7 +277,7 @@ function WoWPro:CreateItemButtonSecured(id)
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
     itembutton:Hide()
-	itembutton:RegisterForClicks("anyDown")
+	itembutton:RegisterForClicks("anyDown","anyUp")
     return itembutton
 end
 
