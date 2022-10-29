@@ -27,7 +27,7 @@ T Sniff Out the Enemy |QID|11253|N|Head north along the coast. The Dragonskin Sc
 A The Dragonskin Map |QID|11254|PRE|11253|N|From the Dragonskin Scroll.|
 C Spiking the Mix |QID|11168|M|78,24|N|Kill the Giant Tidecrawlers.|US|
 T Spiking the Mix |QID|11168|M|78.5,29.0|N|To Apothecary Lysander.|
-A Test at Sea |QID|11170|PRE|11168|N|From Apothecary Lysander. This quest may be bugged so you won't get the followup either.|M|78.5,29.0| ;quest may be bugged
+A Test at Sea |QID|11170|PRE|11168|N|From Apothecary Lysander.|M|78.5,29.0|
 T The Dragonskin Map |QID|11254|M|78.6,31.2|N|To High Executor Anselm.|
 A The Offensive Begins |QID|11295|PRE|11254|N|From High Executor Anselm.|M|78.6,31.2|
 C Test at Sea |QID|11170|U|33349|N|Talk to Bat Handler Camille. Then aim for the Alliance boats.|M|79.1,29.8|
@@ -49,7 +49,7 @@ K Captain Olster slain |QID|11233|QO|1|M|81.5,43.4|N|Kill Captain Olster.|
 K Sergeant Lorric slain |QID|11233|QO|3|M|82.2,40.9|N|Now kill Sergeant Lorric.|
 C Landing the Killing Blow |QID|11233|QO|2|M|83.2,43.1|N|Finally kill Lieutenant Celeyne.|
 A Trail of Fire |QID|11241|N|From Apothecary Hanes. He spawns near Lieutenant Celeyne.|M|83.2,43.1|
-C Trail of Fire |QID|11241|N|Straightforward escort. You'll end up in front of Dark Ranger Lyana.|
+C Trail of Fire |QID|11241|M|78.63,37.03|N|Straightforward escort. You'll end up in front of Dark Ranger Lyana.|
 T Landing the Killing Blow |QID|11233|M|78.63,37.03|N|To Dark Ranger Lyana.|
 A Report to Anselm |QID|11234|PRE|11233|N|From Dark Ranger Lyana.|
 T Report to Anselm |QID|11234|N|To High Executor Anselm.|M|78.7,31.2|
@@ -58,16 +58,16 @@ A New Agamand |QID|11304|N|From Apothecary Lysander.|M|78.5,29.0|PRE|11170|
 T The Offensive Begins |QID|11295|N|Head southwest to the Vengeance Lift, take it up and ride further southwest. To Sergeant Gorth.|M|71.1,39.1|
 A A Lesson in Fear |QID|11282|PRE|11295|N|From Sergeant Gorth.|M|71.1,39.1|
 A Help for Camp Winterhoof |QID|12566|M|71.5,39.2|N|From Longrunner Nanik.|
-C A Lesson in Fear |QID|11282|U|33563|N|Head just southwest, kill the Winterskorn Defenders until their respective bosses spawn, Oric the Baelful spawns near the house in rubbles to the north; Ulf the Bloodletter spawns in the middle; Gunnar Thorvardsson spawns next to the tower. Kill them and plant the Forsaken Banner on their corspes. You don't actually have to tag them, just plant the banner.|
+C A Lesson in Fear |QID|11282|U|33563|M|70,39.3|N|Head just southwest, kill the Winterskorn Defenders until their respective bosses spawn, Oric the Baelful spawns near the house in rubbles to the north; Ulf the Bloodletter spawns in the middle; Gunnar Thorvardsson spawns next to the tower. Kill them and plant the Forsaken Banner on their corspes. You don't actually have to tag them, just plant the banner.|
 T A Lesson in Fear |QID|11282|M|71.1,39.1|N|To Sergeant Gorth.|
 A Baleheim Bodycount |QID|11283|PRE|11282|N|From Sergeant Gorth.|M|71.1,39.1|
 A Baleheim Must Burn! |QID|11285|PRE|11282|N|From Sergeant Gorth.|M|71.1,39.1|
-C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|S|
+C Baleheim Bodycount |QID|11283|M|66.62,39.01|N|Make sure you're in Baleheim when you kill them or you won't get credit.|S|
 N Watchtower Burned |QID|11285|QO|2|U|33472|N|The watchtower is directly to your west, burn it.|M|67.3,39.7|
 N Bridge Burned |QID|11285|QO|3|U|33472|N|Head behind the tower and go west to the bridge, burn it.|M|66.0,39.9|
 N Dwelling Burned |QID|11285|QO|1|U|33472|N| Over the bridge, just west, is a small building, set it alight as well.|M|65,41|
 C Baleheim Must Burn! |QID|11285|QO|4|U|33472|N| The final structure is to the northwest, careful not to aggro the elite when you light it up.|M|64,40|
-C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|US|
+C Baleheim Bodycount |QID|11283|M|64.77,40.29|N|Make sure you're in Baleheim when you kill them or you won't get credit.|US|
 T Baleheim Bodycount |QID|11283|M|71.1,39.1|N|To Sergeant Gorth.|
 T Baleheim Must Burn! |QID|11285|N|To Sergeant Gorth.|M|71.1,39.1|
 A The Ambush |QID|11303|PRE|11283&11285|N|From Sergeant Gorth.|M|71.1,39.1|
@@ -78,13 +78,13 @@ T Adding Injury to Insult |QID|12481|M|65.9,36.8|N|To Lydell.|
 T Help for Camp Winterhoof |QID|12566|M|48.0,10.8|N|To Chieftain Ashtotem.|
 A Hasty Preparations |QID|11271|M|48.4,11.0|N|From Ahota Whitefrost.|
 A Making the Horn |QID|11275|M|49.3,12.0|N|From Nokoma Snowseer.|
-f Camp Winterhoof|QID|11271|N|Get the flight point at Celea Frozenmane.|
+f Camp Winterhoof|ACTIVE|11271|M|49.56,11.58|N|Get the flight point at Celea Frozenmane.|TAXI|
 A Suppressing the Elements |QID|11311|M|49.0,12.0|N|From Windtamer Kagan.|
 h Camp Winterhoof|QID|11311|M|49.4,10.8|N|At Bori Wintertotem.|
-C Hasty Preparations |QID|11271|S|N|Grab any Spotted Hippogryph Down you see.|
-C Making the Horn |QID|11275|S|N|In the snowy hills northeast of Camp Winterhoof. The elementals tend to be higher in the hills, while the rams are lower.|
-C Suppressing the Elements |QID|11311|N|In the snowy hills northeast of Camp Winterhoof. The elementals tend to be higher in the hills, while the rams are lower.|M|52,3|
-C Making the Horn |QID|11275|US|N|In the snowy hills northeast of Camp Winterhoof. The elementals tend to be higher in the hills, while the rams are lower.|
+C Hasty Preparations |QID|11271|S|M|54.96,2.59|N|Grab any Spotted Hippogryph Down you see.|
+C Making the Horn |QID|11275|S|M|51,8.96|N|In the snowy hills northeast of Camp Winterhoof.|
+C Suppressing the Elements |QID|11311|N|In the snowy hills northeast of Camp Winterhoof.|M|52,3|
+C Making the Horn |QID|11275|US|M|51,8.96|N|In the snowy hills northeast of Camp Winterhoof.|
 T Suppressing the Elements |QID|11311|N|To Windtamer Kagan.|M|49.0,12.0|
 T Making the Horn |QID|11275|M|49.3,12.0|N|To Nokoma Snowseer.|
 A Mimicking Nature's Call |QID|11281|PRE|11275|M|49.3,12.0|N|From Nokoma Snowseer.|
@@ -100,13 +100,16 @@ T Spirits of the Ice |QID|11313|M|61.5,22.8|N|To Lurielle.|
 A The Fallen Sisters |QID|11314|PRE|11313|M|61.5,22.8|N|From Lurielle.|
 A Wild Vines |QID|11315|PRE|11313|M|61.5,22.8|N|From Lurielle.|
 C The Book of Runes |QID|11350|U|33778|N|Kill the Iron Rune Stonecallers/Binders. Once you have all three, use one of the chapters to create the book of runes.|M|68,24|
-C March of the Giants |QID|11365|U|33806|N|Find Runed Stone Giants in the area here and kill them, then use your Pick on their remains.|
+C March of the Giants |QID|11365|U|33806|M|70.98,26.74|N|Find Runed Stone Giants in the area here and kill them, then use your Pick on their remains.|
 T Mimicking Nature's Call |QID|11281|N|To Nokoma Snowseer.|M|49.3,12.0|
 T The Book of Runes |QID|11350|M|49.2,12.2|N|To Longrunner Pembe.|
 A Mastering the Runes |QID|11351|PRE|11350|N|From Longrunner Pembe.|
 T March of the Giants |QID|11365|M|48.1,10.5|N|To Sage Edan.|
 A The Lodestone |QID|11366|PRE|11365|N|From Sage Edan.|
 A Skorn Must Fall! |QID|11256|PRE|11281|M|48.1,10.8|N|From Chieftain Ashtotem.|
+
+;HerniaOG Audit... so far
+
 R Skorn |QID|11258|N|Run to Skorn.|M|44,26|
 T Skorn Must Fall! |QID|11256|U|33340|N|Use the Winterhoof Emblem and speak to the Winterhoof Brave.|
 A Stop the Ascension!|QID|11260|U|33345|N|From UI Alert.|O|
