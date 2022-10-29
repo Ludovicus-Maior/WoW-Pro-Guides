@@ -105,8 +105,8 @@ T The Assassin|QID|9400|M|34.83,45.91;33.62,43.56|CC|N|Follow the road west thro
 A A Strange Weapon|QID|9401|PRE|9400|M|33.5,43.5|N|From the Fel Orc Corpse.|
 T Falcon Watch|QID|9499|R|Blood Elf|M|28.49,60.26|N|To Ranger Captain Venn'ren. He is on top of the tower. Use the orb, or fly up.|
 T Falcon Watch|QID|9498|R|Orc,Undead,Tauren,Troll,Goblin,Pandaren,Nighborne,HighmountainTauren,MagharOrc,ZandalariTroll,Vulpera|M|28.49,60.26|N|To Ranger Captain Venn'ren. He is on top of the tower. Use the orb, or fly up.|
-f Falcon Watch|QID|9387|M|27.8,59.98|N|At Innalia. Get the Flight path.|
 A The Great Fissure|QID|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
+f Falcon Watch|QID|9387|M|27.8,59.98|N|At Innalia. Get the Flight path.|
 A WANTED: Blacktalon the Savage|QID|9466|M|28.03,60.31|N|From the Wanted Poster.|
 A Birds of a Feather|QID|9397|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
@@ -114,7 +114,7 @@ A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar
 A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
 A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
 C The Great Fissure|QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|S|
-C Wanted: Blacktalon the Savage|QID|9466|N|Kill Blacktalon inside the cave.|M|33,63|
+C Wanted: Blacktalon the Savage|QID|9466|N|Kill Blacktalon inside the cave.|M|34.22,62.90;33.50,64.81|CS|
 C The Great Fissure|QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|US|
 T Investigate the Crash|QID|10213|N|To "Sreaming" Screed Luckheed.|M|49.15,74.87|
 A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|
@@ -131,7 +131,7 @@ T Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|To Legassi.|
 A Smooth as Butter|QID|9356|PRE|9361|M|49.24,74.84|N|From Legassi.|
 C Make Them Listen|QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|S|
 l A Mysterious Tome|QID|10229|N|Kill Unyielding Knights at the Expedition Armory until they drop the item "A Mysterious Tome".|L|28552|M|55,76|
-C Make Them Listen|QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|US|
+C Make Them Listen|QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|M|53.32,78.15|US|
 A Decipher the Tome|QID|10229|U|28552|M|58.0,79.0|N|From A Mysterious Tome.|
 C Smooth as Butter|QID|9356|N|Kill and loot Bonstripper Buzzard until you have 12 wings.|M|63.4,66.3|
 C In Case of Emergency...|QID|10161|NC|N|Pick up Zepplin Debris.|M|58.0,71.5|US|
@@ -165,13 +165,13 @@ A Bloody Vengeance|QID|10250|PRE|10230|M|61.74,81.79|N|From Althen the Historian
 T The Warp Rifts|QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
 A Void Ridge|QID|10294|PRE|10278|M|61.87,81.53|N|From Ogath the Mad.|
 C Bloody Vengeance|QID|10250|U|28651|N|Head to the semi-destroyed tower. Use the Unyielding Battle Horn and kill Urtrak when he spawns.|M|63.5,77.6|
-K Bleeding Hollow Peon|QID|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|
+K Bleeding Hollow Peon|QID|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|M|63.15,74.10|
 C Light it up|NC|QID|10792|U|31347|L|31346 4|M|69.2,69.2|N|Find the Bleeding Hollow forge, it's directly to the left after you enter the north gate. Use the torch at the forge to light all four.|
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|2|U|31346|N|Head to the building next to the forge, and use the torch.|M|69.7,70.3|
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|4|U|31346|N|Head to the building where you killed the Worg Master, and use the torch.|M|68.2,73.4|
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|3|U|31346|N|Head to the Western Hovel, and use the torch.|M|67.1,75.8|
 C Zeth'Gor Must Burn!|NC|QID|10792|QO|1|U|31346|N|Head to the Barracks, and use the torch.|M|69,75.9|
-C The Eyes of Grillok|QID|10813|N|Find an Eye of Grillok, and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|U|31463|
+C The Eyes of Grillok|QID|10813|N|Find an Eye of Grillok, and use Zezzak's Shard on it. Then get the hell out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|U|31463|M|61.70,81.77|
 T The Eyes of Grillok|QID|10813|M|61.66,81.86|N|To Zezzak.|
 A Grillok "Darkeye"|QID|10834|PRE|10813|M|61.66,81.86|N|From Zezzak.|
 T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
@@ -183,7 +183,7 @@ H Thrallmar|QID|10238|U|6948|N|Hearth to Thrallmar.|
 T How to Serve Goblins|QID|10238|M|51.4,30.5|N|To Foreman Razelcraz.|
 A Shizz Work|QID|10629|PRE|10238|M|51.5,30.5|N|From Foreman Razelcraz.|
 C Shizz Work|QID|10629|N|Use the Felhound Whistle. Then take your pet and kill the helboars to the west. Each time a boar dies, the Fel Puppy chows down and leaves some remains. Right click the leavings, and eventually one with contain the Shredder Key.|U|30803|M|50.0,29.5|
-T Shizz Work|QID|10629|M|51.5,30.5|N|To Foreman Razelcraz. Make sure you dismiss the Felhound before turning in the quest.|
+T Shizz Work|QID|10629|M|51.5,30.5|N|To Foreman Razelcraz. The hound may stick around untill your hearth or leave the zone.|
 A Beneath Thrallmar|QID|10630|PRE|10629|M|51.5,30.5|N|From Foreman Razelcraz.|
 C Beneath Thrallmar|QID|10630|N|Enter the mine, Urga'zz is in the back of the cave.|M|54.09,31.64|
 T Beneath Thrallmar|QID|10630|M|51.5,30.5|N|To Foreman Razelcraz.|
@@ -216,7 +216,7 @@ A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren, on the
 C Trueflight Arrows|QID|9381|N|Go between the points killing and looting Bonestripper Vultures until you have 8 tail feathers.|M|29,56;24.28,44.91|CN|
 C Arelion's Secret|QID|10286|CHAT|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health. Just to warn you, you will be put into PVP.|M|18.0,50.0|
 T Arelion's Secret|QID|10286|M|18.0,50.0|N|To Magister Aledis.|
-A The Mistress Revealed|QID|10287|PRE|10286|M|18.0,50.0|N|From Magister Aledis.|
+A The Mistress Revealed|QID|10287|PRE|10286|M|18.0,50.0|N|From Magister Aledis. He travels the road between Falcon Watch and the waypoint.|
 T Missing Missive|QID|9373|M|15.70,52.09|N|To Thiah Redmane.|
 T Helping the Cenarion Post|QID|10442|M|15.70,52.09|N|To Thiah Redmane.|
 A Demonic Contamination|QID|9372|M|15.70,52.09|N|From Thiah Redmane.|
@@ -255,7 +255,7 @@ T Marking the Path|QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 R Den of Haal'esh|QID|9396|N|It's to the south.|M|26,71|
 C Birds of a Feather|QID|9397|U|23485|M|25.5,71.5|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|S|
 C Magic of the Arakkoa|QID|9396|M|25.5,70.5|N|Kill Haal'eshi Talonguards and Windwalkers until you have 4 Haal'esh Scrolls.|S|
-K Avruu|QID|9418|L|23580|N|Kill and loot Avruu. Careful, he has a very quick respawn, so move after you kill him.|M|26,76|
+K Avruu|QID|9418|L|23580|N|Kill and loot Avruu, he is on the platform above. Careful, he has a very quick respawn, so move after you kill him.|M|26.04, 77.50;25.50,74.99|CS|
 A Avruu's Orb|QID|9418|U|23580|N|From Avruu's Orb.|M|25.5,75.0|
 T Avruu's Orb|QID|9418|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get him down to about 50%, then turn the quest in to it.|M|29,81|
 C Birds of a Feather|QID|9397|U|23485|M|25.5,71.5|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|US|
@@ -303,7 +303,7 @@ A Checking Up|QID|29566|M|78.40,62.10|Z|Zangarmarsh|N|From Ysiel Windsinger. Thi
 T Warden Hamoot|QID|9778|Z|Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
 A A Warm Welcome|QID|9728|Z|Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
 R Swamprat Post|ACTIVE|10103|N|To Swamprat Post in the northeast.|Z|Zangarmarsh|M|85,55|
-f Swamprat Post|ACTIVE|10103|N|Grab the flight path From Gur'zil.|M|84.77,55.11|
+f Swamprat Post|ACTIVE|10103|N|Grab the flight path From Gur'zil.|Z|Zangarmarsh|M|84.77,55.11|
 T Report to Zurai|QID|10103|Z|Zangarmarsh|M|85.5,55.0|N|To Zurai.|
 H Falcon Watch|QID|9387|N|Hearth (or Fly) to Falcon Watch.|
 T Source of the Corruption|QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|

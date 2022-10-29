@@ -12,7 +12,7 @@ A The New Plague |QID|11167|M|78.5,29.0|N|From Apothecary Lysander.|
 A Let Them Eat Crow |QID|11227|M|79.1,31.2|N|From Pontius.|
 A War is Hell |QID|11270|M|78.6,31.2|N|From High Executor Anselm.|
 C War is Hell |QID|11270|U|33278|S|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|M|75.23,32.84|
-l Crow meat |QID|11227|L|33238 5|N|Kill and loot Fjord Crows. Repeat until you have 5 Crow meat.|M|75.23,32.84|U|33221|
+l Crow meat |ACTIVE|11227|M|75.23,32.84|L|33238 5|N|Summon the Hungry Plaguehound. Kill and loot Fjord Crows. Repeat until you have 5 Crow meat.|U|33221|
 C Let Them Eat Crow |QID|11227|U|33238|N|Use the Crow Meat 5 times.|M|75.23,32.84|
 C War is Hell |QID|11270|U|33278|US|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|M|75.23,32.84|
 C The New Plague |QID|11167|N|Head southeast to the wrecked ship. The containers are on and around the ship.|M|81,35|
@@ -23,22 +23,22 @@ A Sniff Out the Enemy |QID|11253|PRE|11227|N|From Pontius.|M|79.1,31.2|
 T The New Plague |QID|11167|M|78.5,29.0|N|To Apothecary Lysander.|
 A Spiking the Mix |QID|11168|PRE|11167|N|From Apothecary Lysander.|M|78.5,29.0|
 C Spiking the Mix |QID|11168|N|Kill the Giant Tidecrawlers.|S|
-T Sniff Out the Enemy |QID|11253|N|Head north along the coast, killing Giant Tidecrawlers along the way. The Dragonskin Scroll is inside the cave.|M|75.9,19.7|
+T Sniff Out the Enemy |QID|11253|N|Head north along the coast. The Dragonskin Scroll is inside the cave.|M|75.9,19.7|
 A The Dragonskin Map |QID|11254|PRE|11253|N|From the Dragonskin Scroll.|
-C Spiking the Mix |QID|11168|N|Kill the Giant Tidecrawlers.|US|
+C Spiking the Mix |QID|11168|M|78,24|N|Kill the Giant Tidecrawlers.|US|
 T Spiking the Mix |QID|11168|M|78.5,29.0|N|To Apothecary Lysander.|
 A Test at Sea |QID|11170|PRE|11168|N|From Apothecary Lysander. This quest may be bugged so you won't get the followup either.|M|78.5,29.0| ;quest may be bugged
 T The Dragonskin Map |QID|11254|M|78.6,31.2|N|To High Executor Anselm.|
 A The Offensive Begins |QID|11295|PRE|11254|N|From High Executor Anselm.|M|78.6,31.2|
-C Test at Sea |QID|11170|U|33349|N|Talk to the flightmaster, Bat Handler Camille. You have to be dismounted to start the flight. Then aim for the Alliance boats.|M|79.1,29.8|
+C Test at Sea |QID|11170|U|33349|N|Talk to Bat Handler Camille. Then aim for the Alliance boats.|M|79.1,29.8|
 T Test at Sea |QID|11170|M|78.5,29.0|N|To Apothecary Lysander.|
 N Listen to Razael's Report|QID|11221|QO|1|M|77.54,34.61|N|Talk to Razael.|
 C Reports from the Field |QID|11221|QO|2|N|Dark Ranger Lyana occasionally attacks the alliance forces, the assaults last about 30-60 seconds. If she's not at the coords, just wait for her to get back.|M|78.63,37.03|
 T Reports from the Field |QID|11221|N|To High Executor Anselm.|M|78.6,31.2|
 A The Windrunner Fleet |QID|11229|PRE|11221|N|From High Executor Anselm.|M|78.6,31.2|
-T The Windrunner Fleet |QID|11229|N|Talk to Bat Handler Camille again, have her fly you down to the fleet. To Captain Harker.|M|79.1,29.8|
+T The Windrunner Fleet |QID|11229|N|Talk to Bat Handler Camille again. Have her fly you down to the fleet. To Captain Harker.|M|79.1,29.8|
 A Ambushed! |QID|11230|PRE|11229|M|84.7,36.5|N|From Captain Harker.|
-C Ambushed! |QID|11230|N|Kill 15 North Fleet Marines.|
+C Ambushed! |QID|11230|M|84.40,35.89|N|Kill 15 North Fleet Marines.|
 T Ambushed! |QID|11230|M|84.7,36.5|N|To Captain Harker.|
 A Guide Our Sights |QID|11232|PRE|11230|N|From Captain Harker.|M|84.7,36.5|
 N Mark Eastern Cannon |QID|11232|QO|1|U|33335|N|Use the flares next while standing next to the cannon. The cannon doesn't actually have to be there for you to get quest credit, you just have to use the flare standing where the cannon usually is.|M|80.3,38.2|
