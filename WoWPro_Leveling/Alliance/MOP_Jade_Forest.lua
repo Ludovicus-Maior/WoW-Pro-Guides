@@ -109,7 +109,7 @@ T The Path of War|QID|29558|M|54.15,82.42|N|To Bold Karasshi.|
 T Freeing Our Brothers|QID|29559|M|54.15,82.42|N|To Bold Karasshi.|
 T Ancient Power|QID|29560|M|54.15,82.42|N|To Bold Karasshi.|
 A Kung Din|QID|29759|PRE|29558&29559&29560|M|54.15,82.42|N|From Bold Karasshi.|
-K Kung Din|QID|29759|T|Kung Din|M|54.56,79.99|N|Two phase fight, switches between normal fighting and Vehicle UI where you need to press 1 to "hang on for life".  Remember the Key!|L|79753|
+K Kung Din|ACTIVE|29759|QO|1|T|Kung Din|M|54.56,79.99|N|Two phase fight, switches between normal fighting and Vehicle UI where you need to press 1 to "hang on for life".  Remember the Key!|L|79753|
 T Kung Din|QID|29759|M|54.15,82.42|N|To Bold Karasshi.|
 A Jailbreak|QID|29562|PRE|29759|M|54.15,82.42|N|From Bold Karasshi.|
 C Jailbreak|QID|29562|M|56.18,81.41|
@@ -153,7 +153,7 @@ C Inspect Suspicious Jade Statue|QID|29726|QO|3|M|38.95,46.36|
 C Speak with Widow Greenpaw|QID|29726|QO|4|CHAT|M|39.25,46.22|N|Talk to Widow Greenpaw and then walk away before she turns you to stone.|
 T SI:7 Report: Hostile Natives|QID|29726|M|59.04,81.90|N|To Little Lu.|
 A SI:7 Report: Take No Prisoners|QID|29727|PRE|29726|M|58.93,81.93|N|From Amber Kearnen. "See" her report as soon as you accept.|
-C SI:7 Report: Take No Prisoners|QID|29727|M|28.6,54.4|N|It's shooting time! Target the Hozen that have a yellow triangle over their head first.  Don't let anybody shoot at Amber when he runs off to the orcs! Only kill orcs, when all the Hozen are gone.|
+C SI:7 Report: Take No Prisoners|QID|29727|M|28.6,54.4|N|It's shooting time! Target the Hozen that have a yellow triangle over their head first.  Don't let anybody shoot at Sully when he runs off to the orcs! Only kill orcs, when all the Hozen are gone.|
 T SI:7 Report: Take No Prisoners|QID|29727|M|58.93,81.93|N|To Amber Kearnen.|
 A A Perfect Match|QID|29903|PRE|29727|M|58.87,81.68|N|From Admiral Taylor.|
 A Seek Out the Lorewalker|QID|29888|PRE|29727|M|58.96,81.68|N|From Bold Karasshi.|
@@ -214,12 +214,11 @@ T An Ancient Legend|QID|29900|M|65.94,79.22|N|To Ren Whitepaw.|
 A Anduin's Decision|QID|29901|PRE|29898&29899&29900|M|65.94,79.22|N|From Ren Whitepaw.|
 C Anduin's Decision|QID|29901|M|65.91,79.24|CHAT|N|Talk to Anduin and learn of his decision in case you didn't guess it already.|
 T Anduin's Decision|QID|29901|M|58.87,81.68|N|To Admiral Taylor, back in *Pearlfin Village*.|
-A In Search of Wisdom|QID|29922|PRE|29901|M|58.1,80.6|N|From Elder Lusshan.|
+A In Search of Wisdom|QID|29922|PRE|29901|M|58.87,81.49|N|From Elder Lusshan.|
 C In Search of Wisdom|QID|29922|CHAT|M|57.95,82.52|N|Speak to Kitemaster Ut-Nam and have him send you to Dawn's Blossom|
 f Dawn's Blossom|QID|29922|M|47.05,46.24|N|At Keg Runner Lee.|
 T In Search of Wisdom|QID|29922|M|46.81,46.14|N|To Lorewalker Cho.|
-; [aldavor] added rank 3 since it's achiev not quest.
-R The Emperor's Burden - Part 1|QID|968550001|M|47.08, 45.14|ACH|6855;1|N|Exploration>The Seven Burdens of Shaohao.|RANK|3|
+$ The Emperor's Burden - Part 1|QID|968550001|M|47.08,45.14|ACH|6855;1|N|Exploration>The Seven Burdens of Shaohao.|
 A Welcome to Dawn's Blossom|QID|31230|PRE|29922^30015|M|47.16,46.17|N|From Toya.|
 C Welcome to Dawn's Blossom|QID|31230|M|47.04,46.02|N|Wanderbrew wanders about near here.|QO|3|CHAT|
 C Welcome to Dawn's Blossom|QID|31230|M|45.77,43.67|QO|2|N|Speak with Peiji Goldendraft.|CHAT|

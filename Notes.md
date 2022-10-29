@@ -1,3 +1,31 @@
+# Release 2022.10.29.A
+## Bug Fixes
+* Retail Crash when opening professions from spells tab fixed
+* Use/Target button works again in Retail
+* Current Guide checkmarks are back!
+* Got rid of rogue addon specific CurrentGuide code
+
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Gnome Intro, Jade Forest
+* Horde: Hellfire Peninsula
+* Neutral: Ohnahran Plains,  Waking Shores
+
+### Classic
+* Nothing
+
+### WotLK
+* Alliance:
+* Neutral:
+* Horde: Terrokae Forest, Grizzly Hills, Howling Fjord
+
+### Professions
+* Classic: None
+* BC: None
+* Wrath: Engineering
+
+
 # Release 2022.10.26.A
 ## Bug Fixes
 * Update to Ace3 Release-r1294
