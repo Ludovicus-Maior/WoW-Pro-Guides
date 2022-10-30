@@ -4,6 +4,7 @@
     <Script file="SL_RaresTreasures.lua"/>
     <Script file="Blanc_BI_Treasures.lua"/>
     <Script file="Emmaleah_Jani.lua"/>
+    <Script file="Emm_Tortollan.lua"/>
 	<Script file="Emmaleah_LostFound.lua"/>
 	<Script file="Emmaleah_Lorewalkers.lua"/>
 	<Script file="Emmaleah_Hippogryph.lua"/>
