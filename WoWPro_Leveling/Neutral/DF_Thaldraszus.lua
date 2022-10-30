@@ -7,20 +7,18 @@ return [[
 
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
-;F South Hold Gate|N|This one is inside one of the towers, but not the highest tower, the one just below it.|M|35.60,85.66|Z|2025;Thaldraszus!Dragonflight|
-;F Valdrakken|N|Above the highest tower over Valdrakken.|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|
-;F Stormshroud Peak|N|On top of the mountain.|M|45.81,73.97|Z|2025;Thaldraszus!Dragonflight|
-;F Passage of Time|N|Floating just under the mountain archway, just behind the viaducts.|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|
-;F Temporal Conflux|N|Inside the tower.|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|
-;F Gelikyr Overlook|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|
-;F Algeth’era|N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|
-;F Algeth’ar Academy|N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|
-;F Veiled Ossuary|N|Inside the tower.|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|
-;F Vault of the Incarnates|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|
-;F Tyrhold|N|This one is on the mountain ledge.|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|
-;F Thaldraszus Apex|N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|
-
-
+;F South Hold Gate|N|This one is inside one of the towers, but not the highest tower, the one just below it.|M|35.60,85.66|Z|2025;Thaldraszus!Dragonflight|ACH|16100|
+;F Valdrakken|N|Above the highest tower over Valdrakken.|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|ACH|16101|
+;F Stormshroud Peak|N|On top of the mountain.|M|45.81,73.97|Z|2025;Thaldraszus!Dragonflight|ACH|16099|
+;F Passage of Time|N|Floating just under the mountain archway, just behind the viaducts.|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|ACH|16667|
+;F Temporal Conflux|N|Inside the tower.|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|ACH|16098|
+;F Gelikyr Overlook|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|ACH|16666|
+;F Algeth’era|N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|ACH|16102|
+;F Algeth’ar Academy|N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|ACH|16104|
+;F Veiled Ossuary|N|Inside the tower.|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|ACH|16105|
+;F Vault of the Incarnates|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|ACH|16106|
+;F Tyrhold|N|This one is on the mountain ledge.|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|ACH|16103|
+;F Thaldraszus Apex|N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|ACH|16107|
 
 
 
