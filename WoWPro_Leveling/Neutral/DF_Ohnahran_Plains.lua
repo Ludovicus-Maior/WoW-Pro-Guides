@@ -289,7 +289,7 @@ C A Promise Is A Promise|QID|65770|QO|2|M|52.60,64.20|Z|2023;Ohn'ahran Plains|NC
 T A Promise Is A Promise|QID|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|To Godoloto.|
 A More Adventure than Expected|QID|65761|PRE|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|From Godoloto.|RANK|2|
 C More Adventure than Expected|QID|65761|QO|2|M|51.09,62.19|Z|2023;Ohn'ahran Plains|CHAT|N|You have followed Godoloto, you can optionally ask her for a buff too, if so tell Godoloto you are ready.|
-C More Adventure than Expected|QID|65761|QO|3|M|47.51,54.11|Z|2023;Ohn'ahran Plains|NC|N|Congrats you found Radiya.| 
+C More Adventure than Expected|QID|65761|QO|3|M|47.51,54.11|Z|2023;Ohn'ahran Plains|NC|N|Congrats you found Radiya.|
 T More Adventure than Expected|QID|65761|M|47.51,54.11|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Stealing Its Thunder|QID|65711|PRE|65761|M|47.51,54.11|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C Stealing Its Thunder|QID|65711|QO|1|M|47.28,54.11|Z|2023;Ohn'ahran Plains|N|Into the cave to kill the Storm Extractor holding Lizi hostage.|
@@ -460,7 +460,7 @@ R Nokhudon Hold|ACH|16457|M|34.79,43.53|Z|2023;Ohn'ahran Plains|N|This is the on
 R Shady Sanctuary|QID|70070|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|And back to finish up the quests.|RANK|3|
 T But... I Am the Hero of Ducks|QID|70070|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|To Gracus.|
 C The Lonely Scout|QID|70985|QO|1|M|29.60,56.71|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to both sisters.|
-C The Lonely Scout|QID|70985|QO|2|M|29.54,56.68|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Erynna, who is between the sisters.| 
+C The Lonely Scout|QID|70985|QO|2|M|29.54,56.68|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Erynna, who is between the sisters.|
 T The Lonely Scout|QID|70985|M|34.23,53.96|Z|2023;Ohn'ahran Plains|N|To Scout Santuun.|
 T Shady Sanctuary|QID|70220|M|28.26,57.70|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A The Primalist Front|QID|66331|PRE|70220|M|28.26,57.70|Z|2023;Ohn'ahran Plains|N|From Merithra.|
