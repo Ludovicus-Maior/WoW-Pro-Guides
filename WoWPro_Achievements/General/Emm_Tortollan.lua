@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('Tortollan', 'Achievements', 'Zuldazar', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,50, 50)
-WoWPro:GuideIcon(guide,"FACTION",12956)
 WoWPro.Achievements:GuideMisc(guide, "Tortollan", "Faction", "Battle for Azeroth")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -409,7 +408,7 @@ T Trixie Business|QID|49407|M|76.90,85.98|Z|Tiragarde Sound|N|To Carentan.|
 A Carentan's Payment|QID|49522|M|76.90,85.98|Z|Tiragarde Sound|N|From Carentan.|PRE|49407|
 C Carentan's Payment|QID|49522|M|76.81,85.97|Z|Tiragarde Sound|NC|N|Open the Dusty Crate.|
 T Carentan's Payment|QID|49522|M|76.88,86.02|Z|Tiragarde Sound|N|To UI Alert.|
-A A Bad Deal|QID|49523|M|76.88,86.02|Z|Tiragarde Sound|N|From UI Alert.|PRE|49522| 
+A A Bad Deal|QID|49523|M|76.88,86.02|Z|Tiragarde Sound|N|From UI Alert.|PRE|49522|
 H Tradewinds Market|ACTIVE|49523|TZ|Snug Harbor Inn|N|Hearth or take the nearby ferry back to Boralus.|
 T A Bad Deal|QID|49523|M|76.88,86.02|Z|Tiragarde Sound|N|To Roko.|
 A The Long Con|QID|49223|LVL|120|M|75.47,22.18|Z|Boralus|N|From Roko.|PRE|49523|
