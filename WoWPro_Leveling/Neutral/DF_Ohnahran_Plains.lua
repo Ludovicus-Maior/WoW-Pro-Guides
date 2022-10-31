@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Ohnahran_Plains', 'Leveling', "Ohn'ahran Pla
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideName(guide,"Ohnahran Plains")
 WoWPro:GuideLevels(guide,60, 70, 62)
-WoWPro:GuideNextGuide(guide, 'The Azure Span')
+WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -619,6 +619,6 @@ T The Master of Their Craft|QID|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To
 A A Worthy Hunt|QID|69979|PRE|9946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|From Khadin.|
 K Thousandmile|ACTIVE|69979|M|49.41,37.10|Z|2023;Ohn'ahran Plains|N|Go out and kill and loot Thousandmile.|T|Thousandmile|
 T A Worthy Hunt|QID|69979|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To Khadin. This is to show you the repeatable quest to turn your Shards of Dragon Knowledge into tradeskill knowlege.|
-N Onward to Azure Span|N|This ends your tour of Ohn'ahran Plains|N|Click this off to load the next guide.|
+N Onward to Azure Span|N|This ends your tour of Ohn'ahran Plains. Click this off to load the next guide.|
 ]]
 end)
