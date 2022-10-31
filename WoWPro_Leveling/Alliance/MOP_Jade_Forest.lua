@@ -232,11 +232,11 @@ C The Silkwood Road|QID|29865|S|M|43.26,49.23|N|Kill silkwood stalkers until you
 A Down Kitty!|QID|29717|M|39.82,48.05|N|Little An followed you to Forest Heart and has a new quest for you, once you get there.|
 C Down Kitty!|QID|29717|S|M|37.11,47.72|N|Kill eight Jade Guardians|
 C The Double Hozen Dare|QID|29716|M|37.31,48.19|N|Talk to the frightened cubs found around the trees|CHAT|
-T The Double Hozen Dare|QID|29716|N|To An Windfur. (she should be following you)|
-A The Jade Witch|QID|29723|PRE|29716|N|From An Windfur.|
+T The Double Hozen Dare|QID|29716|M|PLAYER|N|To An Windfur. (she should be following you)|
+A The Jade Witch|QID|29723|PRE|29716|M|PLAYER|N|From An Windfur.|
 C The Jade Witch|QID|29723|M|39.23,46.17|N|Before you talk to the widow, look around for a 'Jade Warrior Statue' in her front yard, if it is there talk to it for a BoA treasure. Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|CHAT|
 C Down Kitty!|QID|29717|US|M|37.11,47.72|N|Kill eight Jade Guardians|
-T Down Kitty!|QID|29717|N|To An Windfur.|
+T Down Kitty!|QID|29717|M|PLAYER|N|To An Windfur.|
 C The Silkwood Road|QID|29865|US|M|43.26,49.23|N|Keep killing silkwood stalkers until you have slain eight of them.|
 C The Threads that Stick|NC|QID|29866|US|M|43.68,48.32|N|Keep looting the eggs to get Pristine Silk Strands|
 T The Silkwood Road|QID|29865|M|46.46,45.81|N|To Tzu the Ironbelly.|
@@ -248,7 +248,7 @@ A An Air of Worry|QID|29576|LEAD|29578|M|48.33,46.06|N|From Old Man Misteyes.|
 A Tian Monastery|QID|29617|LEAD|29618|M|49.65,45.83|N|From Apprentice Yufi.|
 R The Arboretum|QID|29993|M|49.02,46.27;49.14,47.32;50.43,46.41|CC|N|The path is just down the stairs you passed to get the last quest.|
 A The Perfect Color|QID|29881|M|54.89,45.31|N|From Inkmaster Glenzu.|
-T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.|
+T Find the Boy|QID|29993|M|54.92,45.11;54.67,44.11|CN|N|To Inkmaster Wei.|
 A Shrine of the Dawn|QID|29995|PRE|29993|M|54.92,45.11;54.67,44.11|CN|N|From Inkmaster Wei, who walks around between these two chairs.|
 = Learn [spell=264502/Pandaria Inscription]|QID|773264502|M|54.91,44.95|Z|371|IZ|5785|P|Inscription;773;*;0;0|SPELL|Pandaria Inscription;264502|T|Inkmaster Wei|N|Learn from Inkmaster Wei, The Arboretum, Jade Forest. Also, BUY all Recipes available.|
 A Quill of Stingers|QID|29882|M|55.40,45.29|N|From Inkmaster Jo Po, who wanders a bit.|
@@ -261,9 +261,9 @@ T Quill of Stingers|QID|29882|M|55.28,45.20|N|To Inkmaster Jo Po.|
 R Shrine of the Dawn|QID|29995|M|54.93,45.81;54.48,47.14;51.34,45.45;51.14,39.46; 52.54,38.30|CC|N|Mount up!|
 T Shrine of the Dawn|QID|29995|M|52.57,38.12|N|To Syra Goldendraft.|
 A Getting Permission|QID|29920|PRE|29995|M|52.57,38.12|N|From Syra Goldendraft.|
-K Defeat Pandriarch Bramblestaff|QID|29920|T|Pandriarch Bramblestaff|QO|2|M|54.09,38.46|; Shrine of the Dawn
-K Defeat Pandriarch Goldendraft|QID|29920|T|Pandriarch Goldendraft|QO|3|M|53.59,36.73|; Shrine of the Dawn
-K Defeat Pandriarch Windfur|QID|29920|T|Pandriarch Windfur|QO|1|M|52.54,35.57|; Shrine of the Dawn
+K Defeat Pandriarch Bramblestaff|ACTIVE|29920|T|Pandriarch Bramblestaff|QO|2|M|54.09,38.46|; Shrine of the Dawn
+K Defeat Pandriarch Goldendraft|ACTIVE|29920|T|Pandriarch Goldendraft|QO|3|M|53.59,36.73|; Shrine of the Dawn
+K Defeat Pandriarch Windfur|ACTIVE|29920|T|Pandriarch Windfur|QO|1|M|52.54,35.57|; Shrine of the Dawn
 T Getting Permission|QID|29920|M|52.59,38.13|N|To Lo Wanderbrew.|
 R Dawn's Blossom|QID|29925|M|51.17,39.47;51.28,45.45;47.90,47.30;46.68,46.58|CC|N|Mount up and head back to Toya at Dawn's Blossom.|
 R Emperor's Omen|QID|29925|M|47.15,46.17|N|Ask Toya for a ride.|

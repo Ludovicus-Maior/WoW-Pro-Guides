@@ -412,9 +412,9 @@ C Proto-Fight|QID|66122|M|54.29,81.38|Z|2022|QO|1|NC|U|192436|N|Use the Ruby Har
 C Proto-Fight|QID|66122|M|56.13,80.88|Z|2022|QO|2|U|192436|N|Slay Proto-dragons.|S|
 C Egg Evac|QID|66121|M|56.10,81.30|Z|2022|QO|1|NC|N|Rescue Bronze Egg.|
 C Egg Evac|QID|66121|M|54.98,81.01|Z|2022|QO|4|NC|N|Rescue Ruby Egg.|
-A Klozicc the Ascended|QID|66960|PRE|66118|M|55.96,81.39|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
-K Klozicc the Ascended|ACTIVE|66960|QO|1|M|55.96,81.39|Z|2022|T|Klozicc the Ascended|
-t Klozicc the Ascended|ACTIVE|66960|M|55.96,81.39|Z|2022|N|Bonus Objective - Auto turned in.|
+A Klozicc the Ascended|QID|66960|PRE|66118|M|54.90,82.23|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
+K Klozicc the Ascended|ACTIVE|66960|QO|1|M|54.90,82.23|Z|2022|T|Klozicc the Ascended|
+t Klozicc the Ascended|ACTIVE|66960|M|54.90,82.23|Z|2022|N|Bonus Objective - Auto turned in.|
 C Egg Evac|QID|66121|M|56.10,81.30|Z|2022|QO|1|NC|N|Rescue Bronze Egg.|
 C Egg Evac|QID|66121|M|54.98,81.01|Z|2022|QO|4|NC|N|Rescue Ruby Egg.|
 C Egg Evac|QID|66121|M|55.32,83.24|Z|2022|QO|3|NC|N|Rescue Emerald Egg.|

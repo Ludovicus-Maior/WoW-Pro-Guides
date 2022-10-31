@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('Tortollan', 'Achievements', 'Zuldazar', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,50, 50)
-WoWPro:GuideIcon(guide,"FACTION",12956)
 WoWPro.Achievements:GuideMisc(guide, "Tortollan", "Faction", "Battle for Azeroth")
 WoWPro:GuideSteps(guide, function()
 return [[

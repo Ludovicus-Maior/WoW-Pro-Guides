@@ -775,10 +775,11 @@ L Level 40|ACTIVE|1273|N|Grind out on mobs in the area until you are 1 bar of lv
 R Brackenwall Village|ACTIVE|1273|M|37.63,31.69|Z|1445|N|Make your way back to Brackenwall Village.|
 T Questioning Reethe|QID|1273|M|36.42,31.89|Z|1445|N|To Krog.|
 A The Black Shield|QID|1276|M|36.42,31.88|Z|1445|N|From Krog.|PRE|1323&1273|
-N First Aid|ACTIVE|1276|N|if you wish to level your First Aid, there are 3 books you need to buy before you leave.\n[color=FF0000]NOTE: [/color]Skip the following 3 steps if you're not interested.\n\nThese books aren't BoP and you can send them to alts if you need/want to.|IZ|1445|
-B Expert First Aid|ACTIVE|1276|M|36.49,30.35|Z|1445|L|16084|IZ|1445|
-B Manual: Heavy Silk Bandage|ACTIVE|1276|M|36.49,30.35|Z|1445|L|16112|IZ|1445|
-B Manual: Mageweave Bandage|ACTIVE|1276|M|36.49,30.35|Z|1445|L|16113|IZ|1445|
+;These books are not longer sold on the vendor. They are not on the trainer as of 3.1
+;N First Aid|ACTIVE|1276|N|if you wish to level your First Aid, there are 3 books you need to buy before you leave.\n[color=FF0000]NOTE: [/color]Skip the following 3 steps if you're not interested.\n\nThese books aren't BoP and you can send them to alts if you need/want to.|IZ|1445|
+;B Expert First Aid|ACTIVE|1276|M|36.49,30.35|Z|1445|L|16084|IZ|1445|
+;B Manual: Heavy Silk Bandage|ACTIVE|1276|M|36.49,30.35|Z|1445|L|16112|IZ|1445|
+;B Manual: Mageweave Bandage|ACTIVE|1276|M|36.49,30.35|Z|1445|L|16113|IZ|1445|
 F Thunder Bluff|ACTIVE|1276|M|35.56,31.88|Z|1445|
 R Hunter Rise|ACTIVE|1276|M|51.78,74.30|Z|1456|
 T The Black Shield|QID|1276|M|54.01,80.74|Z|1456|N|To Mosarn.|
