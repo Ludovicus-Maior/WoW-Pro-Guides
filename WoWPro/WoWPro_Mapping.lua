@@ -439,12 +439,17 @@ function WoWPro:MapPoint(row)
 			if uiMapPoint then
 				_G.C_Map.SetUserWaypoint(uiMapPoint)
 				_G.C_SuperTrack.SetSuperTrackedUserWaypoint(true)
+				WoWProCharDB.SetWaypoint = true
 			end
 		end
 	elseif WoWPro.QID and WoWPro.QID[stepIndex] then
         local qid = tonumber(WoWPro.QID[stepIndex])
         if qid then
-            WoWPro.SuperTrack_SetSuperTrackedQuestID(qid)
+			if WoWProCharDB.SetWaypoint then
+				_G.C_Map.ClearUserWaypoint()
+				WoWProCharDB.SetWaypoint = false
+			end
+			WoWPro.SuperTrack_SetSuperTrackedQuestID(qid)
         end
     end
 
