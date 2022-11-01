@@ -107,31 +107,28 @@ A Mastering the Runes |QID|11351|PRE|11350|N|From Longrunner Pembe.|
 T March of the Giants |QID|11365|M|48.1,10.5|N|To Sage Edan.|
 A The Lodestone |QID|11366|PRE|11365|N|From Sage Edan.|
 A Skorn Must Fall! |QID|11256|PRE|11281|M|48.1,10.8|N|From Chieftain Ashtotem.|
-
-;HerniaOG Audit... so far
-
 R Skorn |QID|11258|N|Run to Skorn.|M|44,26|
-T Skorn Must Fall! |QID|11256|U|33340|N|Use the Winterhoof Emblem and speak to the Winterhoof Brave.|
-A Stop the Ascension!|QID|11260|U|33345|N|From UI Alert.|O|
+T Skorn Must Fall! |QID|11256|U|33340|M|44.33,26.27|N|Use the Winterhoof Emblem and speak to the Winterhoof Brave.|
 A Gruesome, But Necessary |QID|11257|PRE|11256|N|From the Winterhoof Brave.|
 A Burn Skorn, Burn! |QID|11258|PRE|11256|N|From the Winterhoof Brave.|
 A Towers of Certain Doom |QID|11259|PRE|11256|N|From the Winterhoof Brave.|
-;l Vrykul Scroll of Ascension |QID|11260|S|L|33345|N|Until you get the Vrykul Scroll of Ascension.|
-C Gruesome, But Necessary |QID|11257|U|33342|S|N|When you kill a Vrykul, use The Brave's Machete on the corpse.|
+l Vrykul Scroll of Ascension |AVAILABLE|11260|S|L|33345|M|44.33,26.27|N|Until you get the Vrykul Scroll of Ascension.|
+C Gruesome, But Necessary |QID|11257|U|33342|S|M|44.33,26.27|N|When you kill a Vrykul, use The Brave's Machete on the corpse.|
 N Burn the Northwest Longhouse |QID|11258|QO|1|U|33343|N|Just to the southwest. Go inside and use the Brave's Torch.|M|43.7,28.6|
 N Target the Northwest Tower |QID|11259|QO|1|U|33344|N|It's just south. Don't get too close or the mages on it will attack you. The Brave's Flare has a 90 yard range.|M|44.4,28.6|
 N Burn the Northeast Longhouse |QID|11258|QO|2|U|33343|N|It's east on the other side of the village.|M|46.4,28.2|
 C Burn Skorn, Burn! |QID|11258|QO|3|U|33343|N|The final structure, the Barracks, is south.|M|45.9,30.7|
-N Target the East Tower |QID|11259|QO|2|U|33344|N|Head southwest and follow the trail up. East of here, the East Tower.|M|46.8,32.8|
+N Target the East Tower |QID|11259|QO|2|U|33344|N|Head out of the barracks and head east up the path and follow it around to here.|M|46.47,33.12|
 N Target the Southeast Tower |QID|11259|QO|4|U|33344|N|Further south, the Southeast Tower.|M|47,36|
-;l Vrykul Scroll of Ascension |QID|11260|US|L|33345|N|Until you get the Vrykul Scroll of Ascension.|
+l Vrykul Scroll of Ascension |AVAILABLE|11260|US|L|33345|M|44.33,26.27|N|Until you get the Vrykul Scroll of Ascension.|
+A Stop the Ascension!|QID|11260|U|33345|M|PLAYER|N|From UI Alert.|O|
 C Stop the Ascension! |QID|11260|U|33346|N|Stand next to the Pyre and use the Vrykul Scroll of Ascension. Kill Halfdan the Ice-Hearted when he spawns.|M|44.9,35.3|
 C Towers of Certain Doom |QID|11259|QO|3|U|33344|N|The final tower is southwest.|M|43,36|
 C Gruesome, But Necessary |QID|11257|U|33342|US|N|When you kill a Vrykul, use The Brave's Machete on the corpse.|
-T Gruesome, But Necessary |QID|11257|U|33340|N|Summon the Brave if he's died or disappeared, then turn it in.|
+T Gruesome, But Necessary |QID|11257|U|33340|M|PLAYER|N|Summon the Brave if he's died or disappeared, then turn it in.|
 T Burn Skorn, Burn! |QID|11258|N|To the Winterhoof Brave.|
-T Towers of Certain Doom |QID|11259|N|To the Winterhoof Brave.|
-A The Conqueror of Skorn! |QID|11261|PRE|11257&11258&11259|N|From the Winterhoof Brave.|
+T Towers of Certain Doom |QID|11259|M|PLAYER|N|To the Winterhoof Brave.|
+A The Conqueror of Skorn! |QID|11261|PRE|11257&11258&11259|M|PLAYER|N|From the Winterhoof Brave.|
 C Wild Vines |QID|11315|N|Kill Scarlet Ivy mobs until you complete this quest. |M|51.14,26.57|S|
 C The Fallen Sisters |QID|11314|U|33606|N|Use Lurielle's Pendant on Chill Nymphs until you complete the quest.|M|51.14,26.57|
 C Wild Vines |QID|11315|N|Kill Scarlet Ivy mobs until you complete this quest. |M|51.14,26.57|US|
@@ -139,24 +136,30 @@ T The Fallen Sisters |QID|11314|M|61.5,22.8|N|To Lurielle.|
 T Wild Vines |QID|11315|M|61.5,22.8|N|To Lurielle.|
 A Spawn of the Twisted Glade |QID|11316|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
 A Seeds of the Blacksouled Keepers |QID|11319|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
-C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|72,17|
-C Mastering the Runes |QID|11351|N|Look for a little box called Iron Rune Carving Tools, they spawn under one of the 5 'tent' canopies.|
+C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|71.6,17.58|
+C Mastering the Runes |QID|11351|M|73.26,24.89|N|Look for a little box called Iron Rune Carving Tools, they spawn under one of the 5 'tent' canopies.|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|S|
-C Seeds of the Blacksouled Keepers |QID|11319|U|33607|N|Kill Spores here and use the Enchanted Ice Core on their remains until you complete this quest.|M|53.71,18.56|
+C Seeds of the Blacksouled Keepers |QID|11319|U|33607|N|Kill Spores here and use the Enchanted Ice Core on their remains until you complete this quest. Spores you don't have loot rights too won't work.|M|53.71,18.56|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|US|
 T Spawn of the Twisted Glade |QID|11316|M|61.5,22.8|N|To Lurielle.|
 T Seeds of the Blacksouled Keepers |QID|11319|M|61.5,22.8|N|To Lurielle.|
 A Keeper Witherleaf |QID|11428|PRE|11316|M|61.5,22.8|N|From Lurielle.|
-C Keeper Witherleaf |QID|11428|N|Kill Keeper Witherleaf in the area.|M|53.82,17.48|
+C Keeper Witherleaf |QID|11428|N|Kill Keeper Witherleaf in the area.|M|53.82,17.48|T|Keeper Witherleaf|
 T Mastering the Runes |QID|11351|N|To Longrunner Pembe.|M|49.2,12.2|
-A The Rune of Command |QID|11352|PRE|11351|N|From Longrunner Pembe.|
+A The Rune of Command |QID|11352|PRE|11351|N|From Longrunner Pembe.|M|49.2,12.2|
 T The Lodestone |QID|11366|M|48.1,10.5|N|To Sage Edan.|
-A Demolishing Megalith |QID|11367|PRE|11366|N|From Sage Edan.|
+A Demolishing Megalith |QID|11367|PRE|11366|N|From Sage Edan.|M|48.1,10.5|
 T The Conqueror of Skorn! |QID|11261|M|48.1,10.8|N|To Chieftain Ashtotem.|
-A Dealing With Gjalerbron |QID|11263|PRE|11261|N|From Chieftain Ashtotem.|
-T Stop the Ascension! |QID|11260|N|To Greatmother Ankha.|
-A Find Sage Mistwalker |QID|11287|PRE|11261|N|From Greatmother Ankha.|
-A Of Keys and Cages |QID|11265|PRE|11261|N|From Greatmother Ankha.|
+A Dealing With Gjalerbron |QID|11263|PRE|11261|N|From Chieftain Ashtotem.|M|48.1,10.8|
+T Stop the Ascension! |QID|11260|N|To Greatmother Ankha.|M|48.13,10.65|
+A Find Sage Mistwalker |QID|11287|PRE|11261|N|From Greatmother Ankha.|M|48.13,10.65|
+A Of Keys and Cages |QID|11265|PRE|11261|N|From Greatmother Ankha.|M|48.13,10.65|
+R Time to Travel |FLY|WOTLK|ACTIVE|11265|M|51.86,23.15|N|Follow the road south out of town.|CC|
+R More Traveling |FLY|WOTLK|ACTIVE|11265|M|36.63,28.88|N|Follow the road west and over the two bridges.|CC|
+R Short leg of the Trip |FLY|WOTLK|ACTIVE|11265|M|36.16,27.12|N|Follow the road north.|CC|
+R Just a bit further |FLY|WOTLK|ACTIVE|11265|M|34.34,26.49|N|Take the left in the fork and head north west.|CC|
+R Seriously almost there |FLY|WOTLK|ACTIVE|11265|M|33.27,24.37|N|Take the right in the fork and head over the bridge to the north.|CC|
+R Last turn I promise |FLY|WOTLK|ACTIVE|11265|M|31.64,23.88|N|Take the left at the fork.|CC|
 T Find Sage Mistwalker |QID|11287|N|To Sage Mistwalker.|M|31.2,24.5|
 A The Artifacts of Steel Gate |QID|11286|PRE|11287|N|From Sage Mistwalker.|
 A Rivenwood Captives |QID|11296|M|31.3,24.3|N|From Longrunner Skycloud.|
@@ -170,9 +173,9 @@ A Brains! Brains! Brains! |QID|11301|M|26.0,24.4|N|From Apothecary Grick.|
 F Camp Winterhoof|QID|11323|M|26.0,25.1|N|Fly to Camp Winterhoof.|
 T Keeper Witherleaf |QID|11428|M|61.5,22.9|N|To Lurielle.|
 C Hasty Preparations |QID|11271|N|Pick up any feathers you still need on the way.|US|M|72,25|
-K Binder Murdis |QID|11352|QO|2|M|72,25|
+K Binder Murdis |QID|11352|QO|2|M|72,25|T|Binder Murdis|
 C The Rune of Command |QID|11352|QO|1|U|33796|N|Use the Rune of Command on a Stone Giant, it's non-aggressive, should be just to the northwest.|M|71.95,23.2|
-C Demolishing Megalith |QID|11367|N|Kill Megalith.|M|69.13,11.38|
+C Demolishing Megalith |QID|11367|N|Kill Megalith.|M|69.13,11.38|T|Megalith|
 C The Cleansing |QID|11317|N|Go west through the mountains, stay as far north as you can. There's a small path. Take it to the summit of the mountain, there's a shrine there. Right click it and kill your Inner Turmoil.|M|61.18,2.08|
 R Camp Winterhoof |QID|11323|N|You've got a levitation buff, so mount up, aim at Camp Winterhoof (use the world map; hold down the right mouse button and open it up) and run off the edge.|M|49.6,11.6|
 T Demolishing Megalith |QID|11367|M|48.1,10.5|N|To Sage Edan.|
@@ -181,29 +184,29 @@ T The Rune of Command |QID|11352|M|49.2,12.2|N|To Longrunner Pembe.|
 F Apothecary Camp|QID|11323|M|49.6,11.6|N|Fly to the Apothecary Camp.|
 T The Cleansing |QID|11317|N|To Sage Mistwalker.|M|31.2,24.5|
 A In Worg's Clothing |QID|11323|PRE|11317|N|From Sage Mistwalker.|M|31.2,24.5|
-A Gjalerbron Attack Plans |QID|11266|U|33347|N|From the Gjalerbron Attack Plans.|O|
-C Rivenwood Captives |QID|11296|S|N|In the Rivenwood, open the Riven Widow Cocoons until you complete the quest.|M|29.64,17.04|
+A Gjalerbron Attack Plans |QID|11266|U|33347|M|PLAYER|N|From the Gjalerbron Attack Plans.|O|
+C Rivenwood Captives |QID|11296|S|N|In the Rivenwood, open the Riven Widow Cocoons until you complete the quest.\n\n You might get Keys while doing this quest. Keep them you will need them shortly.|M|29.64,17.04|T|Riven Widow Cocoon|
 T In Worg's Clothing |QID|11323|N|To Ulfang.|U|33618|M|29.64,5.72|
 A Brother Betrayers |QID|11415|PRE|11323|N|From Ulfang.|M|29.64,5.72|
 K Bjomolf |QID|11415|QO|1|U|33618|N|Bjomolf is southwest. You can use the disguise to make it a bit easier to find him.|M|27,21|T|Bjomolf|
 C Brother Betrayers |QID|11415|QO|2|U|33618|N|Varg is then east.|M|34,29|T|Varg|
-C Rivenwood Captives |QID|11296|US|N|In the Rivenwood, open the Riven Widow Cocoons until you complete the quest.|M|29.64,17.04|
+C Rivenwood Captives |QID|11296|US|N|In the Rivenwood, open the Riven Widow Cocoons until you complete the quest.\n\n You might get Keys while doing this quest. Keep them you will need them shortly.|M|29.64,17.04|T|Riven Widow Cocoon|
 R Gjalerbron |QID|11266|N|Head North to Gjalerbron.|M|35,15|
-C Of Keys and Cages |QID|11265|N|You want to kill any Vrykul, and you'll get Cage Keys. Use them on the cages to free the prisoners. The rarer Large Gjalerbron Cage Key is used on the Large Gjalerbron Cage at the center of Gjalerbron, it will spawn up to 5 prisoners at a time.|S|
-;l Gjalerbron Attack Plans |QID|11266|L|33347|N|Kill Vrykul until the attack plans drop.|S|
+C Of Keys and Cages |QID|11265|M|33.92,14.38|N|You want to kill any Vrykul, and you'll get Cage Keys. Use them on the cages to free the prisoners. The rarer Large Gjalerbron Cage Key is used on the Large Gjalerbron Cage at the center of Gjalerbron, it will spawn up to 5 prisoners at a time.|S|
+l Gjalerbron Attack Plans |QID|11266|L|33347|N|Kill Vrykul until the attack plans drop.|S|
 C Dealing With Gjalerbron |QID|11263|N|Kill the Vrykul you need for this quest. |M|34.68,15.28|
 l Gjalerbron Attack Plans |QID|11266|L|33347|N|Kill Vrykul until the attack plans drop.|
 C Of Keys and Cages |QID|11265|N|Get any prisoners you still need.|US|
 T Brother Betrayers |QID|11415|U|33618|N|To Ulfang.|M|29.64,5.72|
 A Eyes of the Eagle |QID|11417|PRE|11415|N|From Ulfang.|
 l Scourge Device |QID|11398|L|33962|N|Head to the beach and kill Scourge until you get a Scourge Device.|M|22,17|
-A It's a Scourge Device |QID|11398|U|33962|N|From the Scourge Device.|
+A It's a Scourge Device |QID|11398|U|33962|M|PLAYER|N|From the Scourge Device.|
 A Trident of the Son |QID|11422|N|From the murloc Old Icefin.|M|20,22|
 T It's a Scourge Device |QID|11398|N|To Apothecary Anastasia.|M|26.2,24.5|
-A Bring Down Those Shields |QID|11399|PRE|11398|N|From Apothecary Anastasia.|
+A Bring Down Those Shields |QID|11399|PRE|11398|M|26.2,24.5|N|From Apothecary Anastasia.|
 F Camp Winterhoof|QID|11266|M|26.0,25.0|N|Fly to Camp Winterhoof.|
 T Gjalerbron Attack Plans |QID|11266|M|49.6,11.6|N|To Celea Frozenmane.|
-A The Frost Wyrm and its Master |QID|11267|PRE|11266|N|From Celea Frozenmane.|
+A The Frost Wyrm and its Master |QID|11267|PRE|11266|M|49.6,11.6|N|From Celea Frozenmane.|
 T Dealing With Gjalerbron |QID|11263|M|48.0,10.7|N|To Chieftain Ashtotem.|
 A Necro Overlord Mezhen |QID|11264|PRE|11263|N|From Chieftain Ashtotem.|
 T Of Keys and Cages |QID|11265|M|48.1,10.7|N|To Greatmother Ankha.|
@@ -214,7 +217,7 @@ C What's in That Brew? |QID|11298|M|37.68,36.0|N|Click on the sparkling kegs and
 C Brains! Brains! Brains! |QID|11301|U|33554|N|Kill the Deranged Explorers and use the Bonesaw on them. |M|37.68,36.0|
 C What's in That Brew? |QID|11298|M|37.68,36.0|N|Click on the sparkling kegs and pick them up.|US|
 C And You Thought Murlocs Smelled Bad! |QID|11397|N|Kill any type of Scourge you see.|S|M|21.75,25.11|
-C Trident of the Son |QID|11422|N|Rotgill patrols between the Wrecked Ship and the murloc camp just to the north.|M|23,35|
+C Trident of the Son |QID|11422|N|Rotgill patrols between the Wrecked Ship and the murloc camp just to the north.|M|23,35|T|Rotgill|
 C Bring Down Those Shields |QID|11399|U|33960|N|Head north to the Scourging Crystal. Clear around it, then use the Scourging Crystal Controller on it, this'll lower the shield; destroy the crystal. If you have a pet, make sure it's on passive, you need to destroy it yourself to get credit. Head to the next ones to do the same.|M|22.69,31.15;21.91,28.75;21.51,24.61|CS|
 T Trident of the Son |QID|11422|M|19.78,22.23|N|To Old Icefin.|
 C And You Thought Murlocs Smelled Bad! |QID|11397|N|Kill any type of Scourge you see.|US|M|21.75,25.11|
@@ -227,17 +230,17 @@ A Alpha Worg |QID|11324|PRE|11417|N|From Ulfang.|M|29.64,5.72|
 C Alpha Worg |QID|11324|N|Look for Garwal. You don't have to be in the Worg disguise.|M|29.2,17;27,12.8;26.4,8.4|T|Garwal|CS|
 K Deathless Watchers|S|QID|11268|QO|1|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
 K Putrid Wights|S|QID|11268|QO|3|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
-l Awakening Rods|QID|11433|L|34083 5|S|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
-A The Slumbering King |QID|11453|U|34091|N|From Mezhen's Writings.|O|
+l Awakening Rods|AVAILABLE|11433|L|34083 5|S|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
+A The Slumbering King |QID|11453|U|34091|M|PLAYER|N|From Mezhen's Writings.|O|
 l Mezhen's Writings |QID|11453|L|34091|N|Kill Necro Overlord Mezhen here and loot Mezhen's Writings.|M|38.80,13.09|
 C The Slumbering King |QID|11453|M|40.88,6.49|N|Head north into the big gate. Head round the back and up onto the platform and kill Queen Angerboda. You won't get attacked by the Necrolords.|
 C The Frost Wyrm and its Master |QID|11267|U|33282|N|Kill Wyrmcaller Vile here last and loot the Wyrmcaller's Horn. Use it and kill Glacion when he arrives. |M|36.43,7.33|
 K Putrid Wights|US|QID|11268|QO|3|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
 K Deathless Watchers|US|QID|11268|QO|1|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
-l Awakening Rods|QID|11433|L|34083 5|US|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
-C Sleeping Giants |QID|11433|U|34083|N|Use the Awakening Rods on the sleeping Vrykul.|S|
+l Awakening Rods|AVAILABLE|11433|L|34083 5|US|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
+C Sleeping Giants |QID|11433|U|34083|M|34.31,13.27|N|Enter the caves here.\n\n Use the Awakening Rods on the sleeping Vrykul.|S|
 C The Walking Dead |QID|11268|QO|2|N|Enter The Waking Halls. Kill Fearsome Horrors to complete this quest.|M|34.44,13.16|
-C Sleeping Giants |QID|11433|U|34083|N|Use the Awakening Rods on the sleeping Vrykul.|US|
+C Sleeping Giants |QID|11433|U|34083|M|34.31,13.27|N|Use the Awakening Rods on the sleeping Vrykul.|US|T|Dormant Vrykul|
 T Alpha Worg |QID|11324|N|To Sage Mistwalker.|M|31.17,24.50|
 T Rivenwood Captives |QID|11296|M|31.26,24.35|N|To Longrunner Skycloud.|
 A Root Causes |QID|11182|N|Southeast in Ember Clutch, the Ember Clutch Ancient patrols around. It won't give the quest if it is fighting.|M|37,47|
@@ -248,12 +251,15 @@ A Give it a Name |QID|12181|N|From Chief Plaguebringer Harris.|
 A Shield Hill |QID|11424|M|53.66,65.27|N|From "Hacksaw" Jenny.|
 A Green Eggs and Whelps |QID|11279|M|53.10,66.90|N|From Plaguebringer Tillinghast.|
 T Give it a Name |QID|12181|N|To Tobias Sarkhoff. Ignore the follow up.|M|52.01,67.39|
-C A Tailor-Made Formula |QID|11305|N|Kill and loot Thorvald.|M|46.77,68.24|
+C A Tailor-Made Formula |QID|11305|N|Kill and loot Thorvald.|M|46.77,68.24|T|Thorvald|
 T A Tailor-Made Formula |QID|11305|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
-A Apply Heat and Stir |QID|11306|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11305|U|34023|
-C Apply Heat and Stir |QID|11306|N|Use the Empty Apothecary Flask next to the cauldron to the Apothecary's right. Then use the Flask of Vrykul Blood on the table on the other side. It can take a while, as the fail rate is kind of bad. It can also proc a blast which hits you you 3k and can crit.|
+A Apply Heat and Stir |QID|11306|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11305|
+C Apply Heat and Stir |QID|11306|M|PLAYER|U|34023^34024^33614^33615|N|Use the Empty Apothecary Flask next to the cauldron to the Apothecary's right. Then use the Flask of Vrykul Blood on the table on the other side. It can take a while, as the fail rate is kind of bad. It can also proc a blast which hits you for 3k and can crit.|
 T Apply Heat and Stir |QID|11306|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Field Test |QID|11307|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11306|
+
+;HerniaOG Updates So Far...
+
 C Field Test |QID|11307|U|33621|N|Head north to Halgrind. Use the Plague Spray on the Vrykuls.|M|49.56,57.21|
 C Green Eggs and Whelps |QID|11279|S|U|33418|N|Use the Plague Canister on the eggs, kill the whelp, loot the specimen.|
 C Root Causes |QID|11182|N|Skeld Drakeson is in the southern building at the waypoint. The Dragonflayer Handlers are all around the area.|M|41.5,52.3|
