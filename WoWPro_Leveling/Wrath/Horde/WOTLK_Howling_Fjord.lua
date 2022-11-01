@@ -372,8 +372,6 @@ C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill H
 C The Frozen Heart of Isuldof |QID|11512|N|Loot The Frozen Heart of Isuldof from the ground here. |M|32.33,78.67|
 T The Jig is Up |QID|11471|N|To Annie Bonn.|M|35.40,79.41|
 C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|CC|
-
-
 F Scalawag Point |QID|11469|N|Fly back to Scalawag Isle using the flying machine. |M|80.91,75.13|
 T Swabbin' Soap |QID|11469|M|37.8,79.6|N|To Scuttle Frostprow.|
 T Sorlof's Booty |QID|11529|M|37.2,74.8|N|To Captain Ellis.|
@@ -386,10 +384,10 @@ A A Return to Resting |QID|11568|PRE|11530&11567&11512&11511|M|40.3,60.3|N|From 
 R Ember Clutch |QID|11280|N|Head to Ember Clutch to the north.|M|41.39,55.18|
 C Draconis Gastritis |QID|11280|U|33441|N|Use Tillinghast's Plagued Meat near a Proto-Drake, wait till you get the complete message. You will probably have to kill the drake.|M|41.39,55.18|
 R Halgrind |QID|11280|N|Go to Halgrind.|M|48.00,57.91|ACTIVE|11310|
-C Warning: Some Assembly Required |QID|11310|U|33613|N|Use the Abomination Kit. Ability 2 is a thunderclap, use it to round up Vrykul and keep them on you. When you've got ~5, use ability 1 to detonate the abomination, then resummon it and rinse/repeat.|
+C Warning: Some Assembly Required |QID|11310|U|33613|M|PLAYER|N|Use the Abomination Kit. Ability 2 is a thunderclap, use it to round up Vrykul and keep them on you. When you've got ~5, use ability 1 to detonate the abomination, then resummon it and rinse/repeat.|
 T Draconis Gastritis |QID|11280|N|To Plaguebringer Tillinghast.|M|53.10,66.90|
 T Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|To "Hacksaw" Jenny.|
-R Shield Hill |QID|11568|N|Go to Shield Hill.|M|56.44,75.58|
+R Shield Hill |ACTIVE|11568|N|Go to Shield Hill.|M|56.44,75.58|
 N Shield of the Aesirites |QID|11568|QO|1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|57.67,77.62|
 N Staff of Storm's Fury |QID|11568|QO|2|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.27,77.00|
 N Frozen Heart of Isuldof |QID|11568|QO|3|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.79,79.39|
