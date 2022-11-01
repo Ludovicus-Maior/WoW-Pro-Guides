@@ -66,6 +66,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 	else
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },
+			[2822] = { exp = 9, parent = 164, name = 'Dragon Isles Blacksmithing' },
 			[2751] = { exp = 8, parent = 164, name = 'Shadowlands Blacksmithing' },
 			[2437] = { exp = 7, parent = 164, name = 'Battle for Azeroth Blacksmithing' },
 			[2454] = { exp = 6, parent = 164, name = 'Legion Blacksmithing' },
@@ -77,6 +78,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2477] = { exp = 0, parent = 164, name = 'Blacksmithing' },
 
 		[165] = { name = 'Leatherworking' },
+			[2830] = { exp = 9, parent = 165, name = 'Dragon Isles Leatherworking' },
 			[2758] = { exp = 8, parent = 165, name = 'Shadowlands Leatherworking' },
 			[2525] = { exp = 7, parent = 165, name = 'Battle for Azeroth Leatherworking' },
 			[2526] = { exp = 6, parent = 165, name = 'Legion Leatherworking' },
@@ -88,6 +90,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2532] = { exp = 0, parent = 165, name = 'Leatherworking' },
 
 		[171] = { name = 'Alchemy' },
+			[2823] = { exp = 9, parent = 171, name = 'Dragon Isles Alchemy' },
 			[2750] = { exp = 8, parent = 171, name = 'Shadowlands Alchemy' },
 			[2478] = { exp = 7, parent = 171, name = 'Battle for Azeroth Alchemy' },
 			[2479] = { exp = 6, parent = 171, name = 'Legion Alchemy' },
@@ -99,6 +102,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2485] = { exp = 0, parent = 171, name = 'Alchemy' },
 
 		[182] = { name = 'Herbalism' },
+			[2832] = { exp = 9, parent = 182, name = 'Dragon Isles Herbalism' },
 			[2760] = { exp = 8, parent = 182, name = 'Shadowlands Herbalism' },
 			[2549] = { exp = 7, parent = 182, name = 'Battle for Azeroth Herbalism' },
 			[2550] = { exp = 6, parent = 182, name = 'Legion Herbalism' },
@@ -111,6 +115,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 
 		-- Cooking is not included in GetTradeSkillLineInfoByID()
 		[185] = { name = 'Cooking' },
+			[2824] = { exp = 9, parent = 185, name = 'Dragon Isles Cooking' },
 			[2752] = { exp = 8, parent = 185, name = 'Shadowlands Cooking' },
 			[2541] = { exp = 7, parent = 185, name = 'Battle for Azeroth Cooking' },
 			[2542] = { exp = 6, parent = 185, name = 'Legion Cooking' },
@@ -129,6 +134,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2548] = { exp = 0, parent = 185, name = 'Cooking' },
 
 		[186] = { name = 'Mining' },
+			[2833] = { exp = 9, parent = 186, name = 'Dragon Isles Mining' },
 			[2761] = { exp = 8, parent = 186, name = 'Shadowlands Mining' },
 			[2565] = { exp = 7, parent = 186, name = 'Battle for Azeroth Mining' },
 			[2566] = { exp = 6, parent = 186, name = 'Legion Mining' },
@@ -140,6 +146,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2572] = { exp = 0, parent = 186, name = 'Mining' },
 
 		[197] = { name = 'Tailoring' },
+			[2831] = { exp = 9, parent = 197, name = 'Dragon Isles Tailoring' },
 			[2759] = { exp = 8, parent = 197, name = 'Shadowlands Tailoring' },
 			[2533] = { exp = 7, parent = 197, name = 'Battle for Azeroth Tailoring' },
 			[2534] = { exp = 6, parent = 197, name = 'Legion Tailoring' },
@@ -151,6 +158,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2540] = { exp = 0, parent = 197, name = 'Tailoring' },
 
 		[202] = { name = 'Engineering' },
+			[2827] = { exp = 9, parent = 202, name = 'Dragon Isles Engineering' },
 			[2755] = { exp = 8, parent = 202, name = 'Shadowlands Engineering' },
 			[2499] = { exp = 7, parent = 202, name = 'Battle for Azeroth Engineering' },
 			[2500] = { exp = 6, parent = 202, name = 'Legion Engineering' },
@@ -162,6 +170,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2506] = { exp = 0, parent = 202, name = 'Engineering' },
 
 		[333] = { name = 'Enchanting' },
+			[2825] = { exp = 9, parent = 333, name = 'Dragon Isles Enchanting' },
 			[2753] = { exp = 8, parent = 333, name = 'Shadowlands Enchanting' },
 			[2486] = { exp = 7, parent = 333, name = 'Battle for Azeroth Enchanting' },
 			[2487] = { exp = 6, parent = 333, name = 'Legion Enchanting' },
@@ -174,6 +183,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 
 		-- Fishing is not included in GetTradeSkillLineInfoByID()
 		[356] = { name = 'Fishing' },
+			[2826] = { exp = 9, parent = 356, name = 'Dragon Isles Fishing' },
 			[2754] = { exp = 8, parent = 356, name = 'Shadowlands Fishing' },
 			[2585] = { exp = 8, parent = 356, name = 'Battle for Azeroth Fishing' },
 			[2586] = { exp = 7, parent = 356, name = 'Legion Fishing' },
@@ -185,6 +195,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2592] = { exp = 0, parent = 356, name = 'Fishing' },
 
 		[393] = { name = 'Skinning' },
+			[2834] = { exp = 9, parent = 393, name = 'Dragon Isles Skinning' },
 			[2762] = { exp = 8, parent = 393, name = 'Shadowlands Skinning' },
 			[2557] = { exp = 7, parent = 393, name = 'Battle for Azeroth Skinning' },
 			[2558] = { exp = 6, parent = 393, name = 'Legion Skinning' },
@@ -196,6 +207,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2564] = { exp = 0, parent = 393, name = 'Skinning' },
 
 		[755] = { name = 'Jewelcrafting' },
+			[2829] = { exp = 9, parent = 755, name = 'Dragon Isles Jewelcrafting' },
 			[2757] = { exp = 8, parent = 755, name = 'Shadowlands Jewelcrafting' },
 			[2517] = { exp = 7, parent = 755, name = 'Battle for Azeroth Jewelcrafting' },
 			[2518] = { exp = 6, parent = 755, name = 'Legion Jewelcrafting' },
@@ -207,6 +219,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 			[2524] = { exp = 0, parent = 755, name = 'Jewelcrafting' },
 
 		[773] = { name = 'Inscription' },
+			[2828] = { exp = 9, parent = 773, name = 'Dragon Isles Inscription' },
 			[2756] = { exp = 8, parent = 773, name = 'Shadowlands Inscription' },
 			[2507] = { exp = 7, parent = 773, name = 'Battle for Azeroth Inscription' },
 			[2508] = { exp = 6, parent = 773, name = 'Legion Inscription' },
@@ -314,7 +327,6 @@ if not WoWPro.RETAIL then
         WoWPro:dbp("UpdateTradeSkills() for Classic scanned %d tradeskills", scanned)
     end
 elseif WoWPro.RETAIL then
-    -- Currently 10.X, will be retail sometime!
     function WoWPro.UpdateTradeSkills()
         local scanned = 0
         local tradeskills = {}
@@ -322,10 +334,9 @@ elseif WoWPro.RETAIL then
         -- first scan all profession tradeskill lines that are learned
         local tradeSkills = _G.C_TradeSkillUI.GetAllProfessionTradeSkillLines()
         for _, skillLineID in pairs(tradeSkills) do
-            WoWPro:dbp("UpdateTradeSkills() scanning %d", skillLineID)
+            -- WoWPro:dbp("UpdateTradeSkills() scanning %d", skillLineID)
             local professionInfo = _G.C_TradeSkillUI.GetProfessionInfoBySkillLineID(skillLineID)
-            -- LUDO: Comment out before release
-            WoWPro:dbp("UpdateTradeSkills() scanned %d/%s", skillLineID, professionInfo.professionName)
+            -- WoWPro:dbp("UpdateTradeSkills() scanned %d/%s", skillLineID, professionInfo.professionName)
             if professionInfo.skillLevel > 0 and WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,
@@ -333,65 +344,16 @@ elseif WoWPro.RETAIL then
                     skillMax = professionInfo.maxSkillLevel,
                     skillMod = professionInfo.skillModifier
                 }
-                -- LUDO: Comment out before release
                 WoWPro:dbp("UpdateTradeSkills() added %d/%s skillLvl=%d skillMax=%d", skillLineID, professionInfo.professionName, professionInfo.skillLevel, professionInfo.maxSkillLevel)
                 scanned = scanned + 1
             end
         end
 
         -- scan with GetProfessions()
-        -- for _, profID in pairs({_G.GetProfessions()}) do
-        --     WoWPro:dbp("UpdateTradeSkills() scan profession %d", profID)
-        --     local name, _, skillLineRank, skillLineMaxRank, _, _, skillLineID, skillLineModifier, _, _, subName = _G.GetProfessionInfo(profID)
-        --     WoWPro:dbp("UpdateTradeSkills() scanning %s/%s/%d", name, tostring(subName), skillLineID)
-        --     -- skillLineID is always the parent ID, so once you learn an expansion, ...
-        --     if WoWPro.ProfessionSkillLines[skillLineID] then
-        --         tradeskills[skillLineID] = {
-        --             name = WoWPro.ProfessionSkillLines[skillLineID].name,
-        --             skillLvl = skillLineRank,
-        --             skillMax = skillLineMaxRank,
-        --             skillMod = skillLineModifier
-        --         }
-        --         WoWPro:dbp("UpdateTradeSkills() added %d/%s", skillLineID, name)
-        --         scanned = scanned + 1
-        --     end
-        -- end
-
-        WoWPro.UpdateTradeSkillsTable(tradeskills)
-        WoWPro:dbp("UpdateTradeSkills() scanned %d tradeskills", scanned)
-    end
-else
-    -- Currently 9.X Legacy
-    -- get tradeskill information from GetProfession/GetProfessionInfo
-    function WoWPro.UpdateTradeSkills()
-        local scanned = 0
-        local tradeskills = {}
-
-        -- first scan all profession tradeskill lines that are learned
-        -- LUDO: Does this actually do anything?  GetAllProfessionTradeSkillLines() seems to return 100 random lines and is not used in Blizzard code.
-        for _, skillLineID in ipairs(_G.C_TradeSkillUI.GetAllProfessionTradeSkillLines()) do
-            -- WoWPro:dbp("UpdateTradeSkills() scanning %d", skillLineID)
-            local displayName, skillLineRank, skillLineMaxRank, skillLineModifier = _G.C_TradeSkillUI.GetTradeSkillLineInfoByID(skillLineID)
-            -- LUDO: Comment out before release
-            WoWPro:dbp("UpdateTradeSkills() scanned %d/%s", skillLineID, displayName)
-            if skillLineRank > 0 and WoWPro.ProfessionSkillLines[skillLineID] then
-                tradeskills[skillLineID] = {
-                    name = WoWPro.ProfessionSkillLines[skillLineID].name,
-                    skillLvl = skillLineRank,
-                    skillMax = skillLineMaxRank,
-                    skillMod = skillLineModifier
-                }
-                -- LUDO: Comment out before release
-                WoWPro:dbp("UpdateTradeSkills() added %d/%s skillLvl=%d skillMax=%d", skillLineID, displayName, skillLineRank, skillLineMaxRank)
-                scanned = scanned + 1
-            end
-        end
-
-        -- scan with GetProfessions()
         for _, profID in pairs({_G.GetProfessions()}) do
-            WoWPro:dbp("UpdateTradeSkills() scan profession %d", profID)
-            local name, _, skillLineRank, skillLineMaxRank, _, _, skillLineID, skillLineModifier, _, _, subName = _G.GetProfessionInfo(profID)
-            WoWPro:dbp("UpdateTradeSkills() scanning %s/%s/%d", name, tostring(subName), skillLineID)
+            -- WoWPro:dbp("UpdateTradeSkills() scan profession %d", profID)
+            local name, _, skillLineRank, skillLineMaxRank, _, _, skillLineID, skillLineModifier = _G.GetProfessionInfo(profID)
+            -- WoWPro:dbp("UpdateTradeSkills() scanning %s/%s/%d", name, tostring(subName), skillLineID)
             -- skillLineID is always the parent ID, so once you learn an expansion, ...
             if WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
@@ -408,6 +370,8 @@ else
         WoWPro.UpdateTradeSkillsTable(tradeskills)
         WoWPro:dbp("UpdateTradeSkills() scanned %d tradeskills", scanned)
     end
+else
+    WoWPro:Error("UpdateTradeSkills(): Release Confusion!")
 end
 
 
@@ -452,47 +416,51 @@ if not WoWPro.RETAIL then
 else
     -- scan Tradeskill information and recipes on Live
     function WoWPro.ScanTrade()
-        -- read tradeskill information from GetTradeSkillLine()
-        local skillLineID, skillLineName, skillLineRank, skillLineMaxRank, skillLineModifier = _G.C_TradeSkillUI.GetTradeSkillLine();
-        if not skillLineID then
+        WoWPro:dbp("ScanTrade() checking environment.")
+        -- read tradeskill information, if the window is open
+        local baseInfo = _G.C_TradeSkillUI.GetBaseProfessionInfo();
+        if baseInfo.professsionID == 0 then
+            WoWPro:dbp("ScanTrade() No window.")
             return
         end
+
+        local childInfo =  _G.C_TradeSkillUI.GetChildProfessionInfo();
         -- Check for missing table entry
-        if not WoWPro.ProfessionSkillLines[skillLineID] then
-            WoWPro:Warning("Please report that WoWPro is missing Skill ID %d aka %q", skillLineID, skillLineName )
+        if not WoWPro.ProfessionSkillLines[childInfo.professionID] then
+            WoWPro:Warning("Please report that WoWPro is missing Skill ID %d aka %q", childInfo.professionID, childInfo.professionName )
             -- Fake it for now
-            WoWPro.ProfessionSkillLines[skillLineID] = {}
-            WoWPro.ProfessionSkillLines[skillLineID].name = skillLineName
+            WoWPro.ProfessionSkillLines[childInfo.professionID] = {}
+            WoWPro.ProfessionSkillLines[childInfo.professionID].name = childInfo.professionName
         end
 
         -- don't scan other players tradeskills
         if _G.C_TradeSkillUI.IsTradeSkillLinked() then
+            WoWPro:dbp("ScanTrade() No link windows, please.")
             return
         end
-        WoWPro:dbp("ScanTrade() opened %s/%d window", skillLineName, skillLineID)
+        WoWPro:dbp("ScanTrade() opened %s/%d window", childInfo.professionName, childInfo.professionID)
 
         -- update tradeskill information directly
-        local tradeInfo = WoWProCharDB.Tradeskills[skillLineID] or {}
-        tradeInfo.name = WoWPro.ProfessionSkillLines[skillLineID].name
-        tradeInfo.skillLvl = skillLineRank
-        tradeInfo.skillMax = skillLineMaxRank
-        tradeInfo.skillMod = skillLineModifier
-        WoWProCharDB.Tradeskills[skillLineID] = tradeInfo
+        local tradeInfo = WoWProCharDB.Tradeskills[childInfo.professionID] or {}
+        tradeInfo.name = WoWPro.ProfessionSkillLines[childInfo.professionID].name
+        tradeInfo.skillLvl = childInfo.skillLevel
+        tradeInfo.skillMax = childInfo.maxSkillLevel
+        tradeInfo.skillMod = childInfo.skillModifier
+        WoWProCharDB.Tradeskills[childInfo.professionID] = tradeInfo
 
         -- scan catgegories
         local catInfo = {}
         for _, catID in ipairs({_G.C_TradeSkillUI.GetCategories()}) do
-
             -- only scan category IDs we are interested in
-            skillLineID = WoWPro.ProfessionSkillLines[catID]
+            local skillLineID = WoWPro.ProfessionSkillLines[catID]
             if skillLineID then
                 _G.C_TradeSkillUI.GetCategoryInfo(catID, catInfo)
                 if catInfo.hasProgressBar and catInfo.skillLineCurrentLevel and catInfo.skillLineMaxLevel then
                     tradeInfo = WoWProCharDB.Tradeskills[skillLineID] or {}
                     tradeInfo.name = WoWPro.ProfessionSkillLines[skillLineID].name
-                    tradeInfo.skillLvl = skillLineRank
-                    tradeInfo.skillMax = skillLineMaxRank
-                    tradeInfo.skillMod = skillLineModifier
+                    tradeInfo.skillLvl = catInfo.skillLineCurrentLevel
+                    tradeInfo.skillMax = catInfo.skillLineMaxLevel
+                    tradeInfo.skillMod = childInfo.skillModifier
                     WoWProCharDB.Tradeskills[skillLineID] = tradeInfo
                 end
             end
@@ -505,7 +473,7 @@ else
         local learned = 0
         for _, recipeID in pairs(_G.C_TradeSkillUI.GetAllRecipeIDs()) do
             local recipeInfo = _G.C_TradeSkillUI.GetRecipeInfo(recipeID)
-            if recipeInfo.type == 'recipe' and recipeInfo.learned then
+            if recipeInfo.learned then
                 local link = _G.C_TradeSkillUI.GetRecipeLink(recipeID)
                 local _, _, spellId = link:find("^|%x+|Henchant:(.+)|h%[.+%]")
                 spellId = tonumber(spellId)
@@ -518,11 +486,11 @@ else
                         WoWPro:dbp("Newly learned %s:%d", recipeInfo.name, spellId)
                         learned = learned + 1
                     end
-                    recipes = recipes + 1
                 end
             end
+            recipes = recipes + 1
         end
-        WoWPro:dbp("ScanTrade() recorded %d known recipes, %d learned", recipes, learned)
+        WoWPro:dbp("ScanTrade() scanned %d recipes, %d learned", recipes, learned)
     end
 end
 
