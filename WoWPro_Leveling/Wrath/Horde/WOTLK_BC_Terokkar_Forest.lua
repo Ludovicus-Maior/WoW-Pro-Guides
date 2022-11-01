@@ -247,24 +247,26 @@ T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz at Sha'tari Base Camp.|
 A The Big Bone Worm|QID|10930|M|30.98,76.19|N|From Dwarfowitz.|PRE|10929|
 C An Improper Burial|QID|10913|M|34.52,76.44|N|Use your Sha'tari Torch on the corpses.|U|31769|NC|
 C The Dread Relic|QID|10877|M|43.92,76.37|N|Loot the relic from the Massive Treasure Chest.\n[color=FF0000]NOTE: [/color]A bunch of weak undead will spawn, but if you are quick enough, you can get away.|
-K The Big Bone Worm|ACTIVE|10930|M|44,73|L|31826|N|[coords]Kill a Decrepit Clefthoof. Use the Fumper on it's corpse, run if you get Bone Worms, kill Gnomes. Rinse and repeat until Hai'shulud spawns.|U|31825|
+K The Big Bone Worm|ACTIVE|10930|M|46.48,75.50|L|31826|N|Kill a Decrepit Clefthoof and use the Fumper on it's corpse. Run if a Bone Worm spawns; stay and kill Gnomes. Rinse and repeat until Hai'shulud spawns.|U|31825|
 A For the Fallen|QID|10920|M|49.71,76.18|N|From Vindicator Haylen.|
-C Taken in the Night|QID|10873|M|52.00,77.00|N|Free Netherweb Victims until you finish this quest. Can be an aggressive mob.|S|
-C For the Fallen|QID|10920|M|52.00,77.00|N|Kill spiders until you finish this quest.|
+C Taken in the Night|QID|10873|M|51.50,79.79|QO|1|N|Click on the Netherweb Victims to free them.\n[color=FF0000]NOTE: [/color]Not every one will contain Sha'tar Warrior or even a friendly.|NC|S|
+K For the Fallen|ACTIVE|10920|M|51.50,79.79|QO|1|
 T For the Fallen|QID|10920|M|49.71,76.18|N|To Vindicator Haylen.|
-A Terokkarantula|QID|10921|M|49.71,76.18|N|From Vindicator Haylen.|PRE|10920|
-K Terokkarantula|QID|10921|M|54.2,81.69|QO|1|
-C Taken in the Night|QID|10873|M|52.00,77.00|N|Free Netherweb Victims until you finish this quest. Can be an aggressive mob.|US|
+A Terokkarantula|QID|10921|M|49.71,76.18|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Vindicator Haylen.|PRE|10920|
+K Terokkarantula|QID|10921|M|54.2,81.69|QO|1|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nLevel 65 elite.|
+C Taken in the Night|QID|10873|M|51.50,79.79|QO|1|N|Click on the Netherweb Victims to free them.\n[color=FF0000]NOTE: [/color]Not every one will contain Sha'tar Warrior or even a friendly.|NC|US|
 T Terokkarantula|QID|10921|M|49.71,76.18|N|To Vindicator Haylen.|
 A Return to Sha'tari Base Camp|QID|10926|N|From Vindicator Haylen.|PRE|10921|
-N READ THIS|QID|10898|N|Time for an escort quest. Let Skywing go first, he can take a beating and give you time to eat and drink. Don't ever fight with your back facing off the edge, because you can and will get punted. You can disable three of the Signal Fires during the escort, in order, they are: Bloodstone, Violet, Emerald. After the second fire, Skywing jumps down to a lower platform and an elite spawns, who doesn't hit hard but has a nasty Chain Lightning. Interrupt it if you can. The final fire is just next to him.|
-A Skywing|QID|10898|M|53.8,72.20|N|From Skywing.|
-C Skywing|QID|10898|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge.|S|
-C Veil Shalas: Signal Fires|QID|10874|M|56.12,72.49|QO|4|N|Keep following Skywing, click on the Bloodstone Signal Fire to extinguish it.|NC|
-C Veil Shalas: Signal Fires|QID|10874|M|56.63,69.19|QO|3|N|Keep following Skywing, click on the Violet Signal Fire to extinguish it.|NC|
-C Veil Shalas: Signal Fires|QID|10874|M|55.47,69.80|QO|2|N|Keep following Skywing, click on the Emerald Signal Fire to extinguish it.|NC|
-C Veil Shalas: Signal Fires|QID|10874|M|55.20,67.10|QO|1|N|After getting all of the signal fires except sapphire, mount and fly to the next treehouse where the Sapphire Signal Fire is, then extinguish it.|
-C Skywing|QID|10898|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge. Turn off the fires when you get near them for the other quest.|US|
+N READ THIS|AVAILABLE|10898|N|Time for an escort quest. Let Skywing go first, he can take a beating and give you time to eat and drink. Don't ever fight with your back facing off the edge, because you can and will get punted. You can disable three of the Signal Fires during the escort, in order, they are: Bloodstone, Violet, Emerald. After the second fire, Skywing jumps down to a lower platform and an elite spawns, who doesn't hit hard but has a nasty Chain Lightning. Interrupt it if you can. The final fire is just next to him.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Skywing|QID|10898|M|53.80,72.33|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Skywing.|
+A Skywing|QID|10898|M|53.80,72.33|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Skywing to restart the quest.|FAIL|
+C Skywing|QID|10898|N|As was Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge.|S|
+C Veil Shalas: Signal Fires|QID|10874|M|56.12,72.49|QO|4|N|Keep following Skywing and as you pass it, click on the Bloodstone Signal Fire to extinguish it.|NC|
+C Veil Shalas: Signal Fires|QID|10874|M|56.63,69.19|QO|3|N|Keep following Skywing and as you pass it, click on the Violet Signal Fire to extinguish it.|NC|
+C Veil Shalas: Signal Fires|QID|10874|M|55.47,69.80|QO|2|N|Keep following Skywing and as you pass it, click on the Emerald Signal Fire to extinguish it.|NC|
+C Skywing|QID|10898|M|55.70,69.60|N|Continue following Skywing to the waypoint. Upon reaching it, Luanga the Imprisoner (lv 65 elite) will spawn. Defeat him to complete the quest.|US|
+C Veil Shalas: Signal Fires|QID|10874|M|57.26,65.09;55.20,67.10|CS|QO|1|N|The Sapphire Signal Fire is at next set of treehouses to the north. Make your way to the ground and head north to the ramp leading up to the string of treehouse platforms. Click on the Sapphire Signal Fire to extinguish it.|NC|FLY|BC|
+C Veil Shalas: Signal Fires|QID|10874|M|55.20,67.10|QO|1|N|This one requires that you fly to the next treehouse to where the Sapphire Signal Fire is and extinguish it.\n[color=FF0000]NOTE: [/color]You do not want to take the scenic route and walk there. There is no direct connection to it.|NC|
 T Taken in the Night|QID|10873|M|31.44,75.66|N|To Scout Navrin.|
 T Return to Sha'tari Base Camp|QID|10926|M|31.44,75.66|N|To Scout Navrin.|
 T An Improper Burial|QID|10913|M|31.01,76.12|N|To Commander Ra'vaj.|
