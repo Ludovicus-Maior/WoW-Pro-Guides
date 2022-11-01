@@ -242,44 +242,47 @@ T Letting Earthbinder Tavgren Know|QID|10006|M|44.34,26.31|N|To Earthbinder Tavg
 T Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|To Kirrik the Awakened at Refugee Caravan.|
 A Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10861|
 C Fumping|QID|10929|M|35.05,51.50|L|31814 8|ITEM|31814|N|Mature Bone Sifter\nUsing the Fumper will spawn either a Sifter or a Sand Gnome.\n[color=FF0000]NOTE: [/color]You can use the Refugee Caravan Guards to help kill the Gnomes.|U|31810|
-K Helping the Lost Find Their Way|ACTIVE|10031|QO|1;2|S|
+K Helping the Lost Find Their Way|ACTIVE|10031|M|38.72,78.59|QO|1;2|S|
 T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz at Sha'tari Base Camp.|
 A The Big Bone Worm|QID|10930|M|30.98,76.19|N|From Dwarfowitz.|PRE|10929|
 C An Improper Burial|QID|10913|M|34.52,76.44|N|Use your Sha'tari Torch on the corpses.|U|31769|NC|
 C The Dread Relic|QID|10877|M|43.92,76.37|N|Loot the relic from the Massive Treasure Chest.\n[color=FF0000]NOTE: [/color]A bunch of weak undead will spawn, but if you are quick enough, you can get away.|
-K The Big Bone Worm|ACTIVE|10930|M|44,73|L|31826|N|[coords]Kill a Decrepit Clefthoof. Use the Fumper on it's corpse, run if you get Bone Worms, kill Gnomes. Rinse and repeat until Hai'shulud spawns.|U|31825|
+K The Big Bone Worm|ACTIVE|10930|M|46.48,75.50|L|31826|N|Kill a Decrepit Clefthoof and use the Fumper on it's corpse. Run if a Bone Worm spawns; stay and kill Gnomes. Rinse and repeat until Hai'shulud spawns.|U|31825|
 A For the Fallen|QID|10920|M|49.71,76.18|N|From Vindicator Haylen.|
-C Taken in the Night|QID|10873|M|52.00,77.00|N|Free Netherweb Victims until you finish this quest. Can be an aggressive mob.|S|
-C For the Fallen|QID|10920|M|52.00,77.00|N|Kill spiders until you finish this quest.|
+C Taken in the Night|QID|10873|M|51.50,79.79|QO|1|N|Click on the Netherweb Victims to free them.\n[color=FF0000]NOTE: [/color]Not every one will contain Sha'tar Warrior or even a friendly.|NC|S|
+K For the Fallen|ACTIVE|10920|M|51.50,79.79|QO|1|
 T For the Fallen|QID|10920|M|49.71,76.18|N|To Vindicator Haylen.|
-A Terokkarantula|QID|10921|M|49.71,76.18|N|From Vindicator Haylen.|PRE|10920|
-K Terokkarantula|QID|10921|M|54.2,81.69|QO|1|
-C Taken in the Night|QID|10873|M|52.00,77.00|N|Free Netherweb Victims until you finish this quest. Can be an aggressive mob.|US|
+A Terokkarantula|QID|10921|M|49.71,76.18|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Vindicator Haylen.|PRE|10920|
+K Terokkarantula|QID|10921|M|54.2,81.69|QO|1|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nLevel 65 elite.|
+C Taken in the Night|QID|10873|M|51.50,79.79|QO|1|N|Click on the Netherweb Victims to free them.\n[color=FF0000]NOTE: [/color]Not every one will contain Sha'tar Warrior or even a friendly.|NC|US|
 T Terokkarantula|QID|10921|M|49.71,76.18|N|To Vindicator Haylen.|
 A Return to Sha'tari Base Camp|QID|10926|N|From Vindicator Haylen.|PRE|10921|
-N READ THIS|QID|10898|N|Time for an escort quest. Let Skywing go first, he can take a beating and give you time to eat and drink. Don't ever fight with your back facing off the edge, because you can and will get punted. You can disable three of the Signal Fires during the escort, in order, they are: Bloodstone, Violet, Emerald. After the second fire, Skywing jumps down to a lower platform and an elite spawns, who doesn't hit hard but has a nasty Chain Lightning. Interrupt it if you can. The final fire is just next to him.|
-A Skywing|QID|10898|M|53.8,72.20|N|From Skywing.|
-C Skywing|QID|10898|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge.|S|
-C Veil Shalas: Signal Fires|QID|10874|M|56.12,72.49|QO|4|N|Keep following Skywing, click on the Bloodstone Signal Fire to extinguish it.|NC|
-C Veil Shalas: Signal Fires|QID|10874|M|56.63,69.19|QO|3|N|Keep following Skywing, click on the Violet Signal Fire to extinguish it.|NC|
-C Veil Shalas: Signal Fires|QID|10874|M|55.47,69.80|QO|2|N|Keep following Skywing, click on the Emerald Signal Fire to extinguish it.|NC|
-C Veil Shalas: Signal Fires|QID|10874|M|55.20,67.10|QO|1|N|After getting all of the signal fires except sapphire, mount and fly to the next treehouse where the Sapphire Signal Fire is, then extinguish it.|
-C Skywing|QID|10898|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge. Turn off the fires when you get near them for the other quest.|US|
-T Taken in the Night|QID|10873|M|31.44,75.66|N|To Scout Navrin.|
+N READ THIS|AVAILABLE|10898|N|Time for an escort quest. Let Skywing go first, he can take a beating and give you time to eat and drink. Don't ever fight with your back facing off the edge, because you can and will get punted. You can disable three of the Signal Fires during the escort, in order, they are: Bloodstone, Violet, Emerald. After the second fire, Skywing jumps down to a lower platform and an elite spawns, who doesn't hit hard but has a nasty Chain Lightning. Interrupt it if you can. The final fire is just next to him.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Skywing|QID|10898|M|53.80,72.33|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Skywing.|
+A Skywing|QID|10898|M|53.80,72.33|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Skywing to restart the quest.|FAIL|
+C Skywing|QID|10898|N|As was Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge.|S|
+C Veil Shalas: Signal Fires|QID|10874|M|56.12,72.49|QO|4|N|Keep following Skywing and as you pass it, click on the Bloodstone Signal Fire to extinguish it.|NC|
+C Veil Shalas: Signal Fires|QID|10874|M|56.63,69.19|QO|3|N|Keep following Skywing and as you pass it, click on the Violet Signal Fire to extinguish it.|NC|
+C Veil Shalas: Signal Fires|QID|10874|M|55.47,69.80|QO|2|N|Keep following Skywing and as you pass it, click on the Emerald Signal Fire to extinguish it.|NC|
+C Skywing|QID|10898|M|55.70,69.60|N|Continue following Skywing to the waypoint. Upon reaching it, Luanga the Imprisoner (lv 65 elite) will spawn. Defeat him to complete the quest.|US|
+C Veil Shalas: Signal Fires|QID|10874|M|57.26,65.09;55.18,67.21|CS|QO|1|N|The Sapphire Signal Fire is at next set of treehouses to the north. Make your way to the ground and head north to the ramp leading up to the string of treehouse platforms. Click on the Sapphire Signal Fire to extinguish it.|NC|FLY|BC|
+C Veil Shalas: Signal Fires|QID|10874|M|55.18,67.21|QO|1|N|This one requires that you fly to the next treehouse to where the Sapphire Signal Fire is and extinguish it.\n[color=FF0000]NOTE: [/color]You do not want to take the scenic route and walk there. There is no direct connection to it.|NC|
+T Taken in the Night|QID|10873|M|31.44,75.66|N|To Scout Navrin at Sha'tari Base Camp.|
 T Return to Sha'tari Base Camp|QID|10926|M|31.44,75.66|N|To Scout Navrin.|
 T An Improper Burial|QID|10913|M|31.01,76.12|N|To Commander Ra'vaj.|
 T The Big Bone Worm|QID|10930|N|To Dwarfowitz.|
 A A Hero Is Needed|QID|10914|M|31.01,76.12|N|From Commander Ra'vaj.|PRE|10913|
 T The Dread Relic|QID|10877|M|31.06,76.54|N|To Oakun.|
 A Evil Draws Near|QID|10923|M|31.06,76.54|N|From Oakun.|PRE|10877|
-C A Hero Is Needed|QID|10914|M|36.04,74.78|N|Kill Auchenai Initiates and Doomsayers.|
-T A Hero Is Needed|QID|10914|M|31.0,76.1|N|[Coords]To Commander Ra'vaj.|
-A The Fallen Exarch|QID|10915|M|31.0,76.1|N|[Coords]From Commander Ra'vaj.|PRE|10914|
-C The Fallen Exarch|QID|10915|M|36.00,65.50|N|Go here from the west gate and use the coffin at this location, then kill the mob that spawns.|
-l Doom Skulls|QID|10923|M|48,67|L|31812 20|N|Kill Auchenai mobs until you have 20 Doom Skulls.|
-C Evil Draws Near|QID|10923|M|48.68,67.16|N|Go to the rune in the middle and use the Dread Relic. This will summon Teribus the Cursed.|U|31811|
+C Doom Skulls|QID|10923|M|33.92,73.80|L|31812 20|ITEM|31812|N|Any Auchenai mob|S|
+K A Hero Is Needed|ACTIVE|10914|M|36.04,74.78|QO|1;2|
+T A Hero Is Needed|QID|10914|M|31.01,76.12|N|To Commander Ra'vaj at Sha'tari Base Camp.|
+A The Fallen Exarch|QID|10915|M|31.01,76.12|N|From Commander Ra'vaj.|PRE|10914|
+C The Fallen Exarch|QID|10915|M|35.81,65.61|N|Enter Auchindoun and locate the coffin. After clearing the area, click on the coffin and kill the Reanimated Exarch that spawns.\n[color=FF0000]NOTE: [/color]If you stand on the coffin, you will take damage (like standing in the fire).|
+C Doom Skulls|QID|10923|M|48.68,67.16|L|31812 20|ITEM|31812|N|Any Auchenai mob\nYou can get these elsewhere, but you'll want to be in this area when you finish.|US|
+K Evil Draws Near|ACTIVE|10923|M|48.68,67.16|QO|1|N|Go to the rune in the middle of Writhing Mound and after clearing the area, use the Dread Relic to summon Teribus the Cursed.|U|31811|
 T Evil Draws Near|QID|10923|M|31.06,76.54|N|To Oakun.|
-T The Fallen Exarch|QID|10915|M|31.0,76.1|N|[Coords]To Commander Ra'vaj.|
+T The Fallen Exarch|QID|10915|M|31.01,76.12|N|To Commander Ra'vaj.|
 C Helping the Lost Find Their Way|QID|10031|N|Kill Lost spirits, and Broken skeletons.|US|
 T Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|To Kirrik the Awakened.|
 A Return to Shattrath|QID|10889|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10874|
