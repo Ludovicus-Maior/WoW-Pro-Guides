@@ -251,17 +251,15 @@ A Give it a Name |QID|12181|N|From Chief Plaguebringer Harris.|
 A Shield Hill |QID|11424|M|53.66,65.27|N|From "Hacksaw" Jenny.|
 A Green Eggs and Whelps |QID|11279|M|53.10,66.90|N|From Plaguebringer Tillinghast.|
 T Give it a Name |QID|12181|N|To Tobias Sarkhoff. Ignore the follow up.|M|52.01,67.39|
+f New Agamand|M|52.01,67.39|N|Get the flight point at Tobias Sarkhoff.|TAXI|
 C A Tailor-Made Formula |QID|11305|N|Kill and loot Thorvald.|M|46.77,68.24|T|Thorvald|
 T A Tailor-Made Formula |QID|11305|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Apply Heat and Stir |QID|11306|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11305|
 C Apply Heat and Stir |QID|11306|M|PLAYER|U|34023^34024^33614^33615|N|Use the Empty Apothecary Flask next to the cauldron to the Apothecary's right. Then use the Flask of Vrykul Blood on the table on the other side. It can take a while, as the fail rate is kind of bad. It can also proc a blast which hits you for 3k and can crit.|
 T Apply Heat and Stir |QID|11306|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Field Test |QID|11307|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11306|
-
-;HerniaOG Updates So Far...
-
 C Field Test |QID|11307|U|33621|N|Head north to Halgrind. Use the Plague Spray on the Vrykuls.|M|49.56,57.21|
-C Green Eggs and Whelps |QID|11279|S|U|33418|N|Use the Plague Canister on the eggs, kill the whelp, loot the specimen.|
+C Green Eggs and Whelps |QID|11279|S|U|33418|M|42.50,53.16|N|Use the Plague Canister on the eggs, kill the whelp, loot the specimen.|
 C Root Causes |QID|11182|N|Skeld Drakeson is in the southern building at the waypoint. The Dragonflayer Handlers are all around the area.|M|41.5,52.3|
 C Green Eggs and Whelps |QID|11279|US|M|39.95,51.14|U|33418|N|Use the Plague Canister on the eggs, kill the whelp, loot the specimen.|
 T Root Causes |QID|11182|N|To Ember Clutch Ancient. It won't accept the quest if it is fighting.|M|37.6,52|
@@ -271,13 +269,13 @@ T Field Test |QID|11307|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Time for Cleanup |QID|11308|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11307|
 T Time for Cleanup |QID|11308|M|53.67,65.25|N|To "Hacksaw" Jenny.|
 A Parts for the Job |QID|11309|M|53.67,65.25|N|From "Hacksaw" Jenny.|PRE|11308|
-N Things to do |ACTIVE|11309|N|Kill Shoveltusks on sight, they're the things that look vaguely like moose.|
+C Parts for the Job|ACTIVE|11309|M|52.26,70.72|QO|1|L|33611 6|N|Kill Shoveltusks for Ligaments.|S|
 C Shield Hill |QID|11424|M|59.00,78.00|N|Kill and loot Risen Vrykul.|S|
 l Fengir's Clue |QID|11504|QO|1|N|Loot Fengir's Clue here. |M|57.67,77.62|
 l Rodin's Clue |QID|11504|QO|2|N|Loot Rodin's Clue here. |M|59.27,77.00|
 l Isuldof's Clue |QID|11504|QO|3|N|Loot Isuldof's Clue here. |M|59.79,79.39|
 C The Dead Rise! |QID|11504|QO|4|N|Loot Windan's Clue here. |M|61.97,80.06|
-C Shield Hill |QID|11424|M|59.00,78.00|N|Kill and loot Risen Vrykul.|US|
+C Shield Hill |QID|11424|M|59.00,78.00|N|Kill and loot Risen Vrykul.|US|T|Risen Vrykul Ancestor|
 A Against Nifflevar |QID|12482|N|From Ranger Captain Areiel.|M|67.45,60.59|
 A The Enemy's Legacy |QID|11423|M|67.35,60.31|N|From Scribe Seguine.|
 C Against Nifflevar |QID|12482|N|Kill Dragonflayer Warriors, Rune-Seers, and Hunting Hounds.|S|M|68.27,54.25|
@@ -287,12 +285,11 @@ C The Enemy's Legacy |QID|11423|QO|1|N|The Saga of the Twins is in the longhouse
 C Against Nifflevar |QID|12482|N|Kill Dragonflayer Warriors, Rune-Seers, and Hunting Hounds.|US|M|68.27,54.25|
 T Against Nifflevar |QID|12482|N|To Ranger Captain Areiel.|M|67.45,60.59|
 T The Enemy's Legacy |QID|11423|M|67.35,60.31|N|To Scribe Seguine.|
-l Shoveltusk Ligament |QID|11309|L|33611 6|N|Go kill Shoveltusks if you haven't finished this already.|M|67.69,62.81|ACTIVE|11309|
-C Parts for the Job |QID|11309|N|Anton patrols along the road between New Agamand and the Ancient Lift. If he's dead, he respawns at the waypoint.|M|53,74|
+C Parts for the Job |QID|11309|M|53,74|N|Anton patrols along the road between New Agamand and the Ancient Lift. If he's dead, he respawns at the waypoint. \n\nFinish killing shoveltusks till you collect all the Ligaments.\n |T|Anton|US|
 T Shield Hill |QID|11424|N|To "Hacksaw" Jenny.|M|53.68,65.22|
 T Parts for the Job |QID|11309|N|To "Hacksaw" Jenny.|M|53.68,65.22|
 A Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|From "Hacksaw" Jenny.|PRE|11309|
-A To Venomspite!|QID|12182|PRE|12181|M|52.03,67.38|N|This will take you to Dragonblight. Accept it to get the flightpoint there.|
+A To Venomspite!|QID|12182|PRE|12181|LEAD|12189|M|52.03,67.38|N|This will take you to Dragonblight. Accept it to get the flightpoint there.|
 f Venomspite|QID|12182|M|76.52,62.23|Z|Dragonblight|N|Get the flightpoint at Junter Weiss.|
 T To Venomspite!|QID|12182|M|77.68,62.78|N|To Chief Plaguebringer Middleton.|Z|Dragonblight|
 H Camp Winterhoof |QID|11267|N|Hearth to Camp Winterhoof.|
@@ -301,13 +298,14 @@ T Sleeping Giants |QID|11433|N|To Ahota Whitefrost.|M|48.38,11.04|
 T Necro Overlord Mezhen |QID|11264|N|To Chieftain Ashtotem.|M|48.05,10.74|
 T The Slumbering King |QID|11453|N|To Chieftain Ashtotem.|M|48.05,10.74|
 T The Walking Dead |QID|11268|N|To Greatmother Ankha.|M|48.16,10.66|
-F New Agamand|QID|11507|M|49.6,11.6|N|Fly to New Agamand.|
+F New Agamand|ACTIVE|11504|M|49.6,11.6|N|Fly to New Agamand.|
 T The Dead Rise! |QID|11504|N|To Orfus of Kamagua.|M|40.3,60.3|
 A Elder Atuik and Kamagua |QID|11507|PRE|11504|M|40.3,60.3|N|From Orfus of Kamagua.|
 R Kamagua |QID|11507|N|Go to the Ancient Lift and take it across to the island. When the lift stops, ride north to Kamagua. |M|25.12,57.98|
 T Elder Atuik and Kamagua |QID|11507|M|25.0,57.0|N|To Elder Atuik.|
 A Grezzix Spindlesnap |QID|11508|PRE|11507|M|25.0,57.0|N|From Elder Atuik.|
 A Feeding the Survivors |QID|11456|M|25.0,57.0|N|From Elder Atuik.|
+f Kamaguna|ACTIVE|11456|M|49.56,11.58|N|Get the flight point at Celea Frozenmane.|TAXI|
 C Feeding the Survivors |QID|11456|N|Kill Island Shoveltusks until you get 6 Island Shoveltusk Meat. Kill the Spearfang Worgs too because if you don't, they will kill the Shoveltusks. |M|30.28,60.26|
 T Feeding the Survivors |QID|11456|M|25.0,57.0|N|To Elder Atuik.|
 A Arming Kamagua |QID|11457|PRE|11456|M|25.0,57.0|N|From Elder Atuik.|
@@ -320,7 +318,7 @@ b Scalawag Point |QID|11509|N|Talk to Lou the Cabin Boy and choose his chat bubb
 T Street "Cred" |QID|11509|M|35.1,80.9|N|To "Silvermoon" Harry.|
 A "Scoodles" |QID|11510|PRE|11509|M|35.1,80.9|N|From "Silvermoon" Harry.|
 A Forgotten Treasure |QID|11434|PRE|11509|M|35.6,80.2|N|From Handsome Terry.|
-C "Scoodles" |QID|11510|N|Find and kill "Scoodles" and loot his Sin'dorei Scrying Crystal. |M|36.40,85.27|
+C "Scoodles" |QID|11510|N|Find and kill "Scoodles" and loot his Sin'dorei Scrying Crystal.|M|36.40,85.27|T|"Scoodles"|
 l Eagle Figurine |QID|11434|QO|2|U|34076|N|Use the Fish Bladder for underwater breathing, then dive down and loot the Eagle Figurine inside the ship here. |M|37.77,84.62|
 C Forgotten Treasure |QID|11434|QO|1|N|Swim to the other ship here and loot the Amani Vase. |M|37.14,85.53|
 T Forgotten Treasure |QID|11434|M|35.6,80.2|N|To Handsome Terry.|
@@ -342,8 +340,9 @@ C The Fragrance of Money |QID|11455|N|Kill Rabid Brown Bears here until you get 
 T The Lost Shield of the Aesirites |QID|11519|N|Wait for the boat on the island here and when it arrives, hop on to turn this quest in to the captain.|M|37.2,74.8|
 A Mutiny on the Mercy |QID|11527|PRE|11519|M|37.2,74.8|N|From Captain Ellis.|
 C Mutiny on the Mercy |QID|11527|N|Go downstairs and kill Mutinous Sea Dogs to get 5 Barrels of Blasting Powder.|
-T Mutiny on the Mercy |QID|11527|N|To Captain Ellis.|
-A Sorlof's Booty |QID|11529|PRE|11527|N|From Captain Ellis.|
+;HerniaOG Updates
+T Mutiny on the Mercy |QID|11527|M|37.2,74.8|N|To Captain Ellis.|
+A Sorlof's Booty |QID|11529|PRE|11527|M|37.2,74.8|N|From Captain Ellis.|
 C Sorlof's Booty |QID|11529|N|Go to The Big Gun on the other side of the ship and click on the gun when the the ship engages Sorlof. Jump off when he dies and loot Sorlof's Booty. |M|39.18,67.77|
 C The Staff of Storm's Fury |QID|11511|N|Get on the ship here, but be careful of the elite. Downstairs, loot The Staff of Storm's Fury. |M|35.26,64.84|
 C Avenge Iskaal |QID|11458|U|36777|N|Summon a Tuskarr using the Horn of Kamagua to help you kill 8 Crazed Northsea Slavers. |M|33.84,63.65|
@@ -363,16 +362,18 @@ l Scalawag Frog |QID|11476|QO|1|N|Click on a Scalawag Frog nearby. |M|35.90,80.6
 C A Carver and a Croaker |QID|11476|QO|2|N|Buy a Shiny Knife from "Silvermoon" Harry here. |M|35.10,80.94|
 T A Carver and a Croaker |QID|11476|M|35.6,80.6|N|To Zeh'gehn.|
 A "Crowleg" Dan |QID|11479|PRE|11476|M|35.6,80.6|N|From Zeh'gehn.|
-C "Crowleg" Dan |QID|11479|N|Defeat "Crowleg" Dan on the ship here. |M|35.95,83.60|
+C "Crowleg" Dan |QID|11479|N|Defeat "Crowleg" Dan on the ship here.|M|35.95,83.60|T|"Crowleg" Dan|
 T "Crowleg" Dan |QID|11479|M|35.6,80.2|N|To Handsome Terry.|
 A Meet Number Two |QID|11480|PRE|11479|M|35.6,80.2|N|From Handsome Terry.|
 T Meet Number Two |QID|11480|M|35.4,79.4|N|To Annie Bonn.|
 A The Jig is Up |QID|11471|PRE|11480|N|From Annie Bonn.|
-C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31.33,78.68|
+C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31.33,78.68|T|Big Roy|
 C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.57,75.6;33.60,78.18|CS|
 C The Frozen Heart of Isuldof |QID|11512|N|Loot The Frozen Heart of Isuldof from the ground here. |M|32.33,78.67|
 T The Jig is Up |QID|11471|N|To Annie Bonn.|M|35.40,79.41|
 C The Ancient Armor of the Kvaldir |QID|11567|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|CC|
+
+
 F Scalawag Point |QID|11469|N|Fly back to Scalawag Isle using the flying machine. |M|80.91,75.13|
 T Swabbin' Soap |QID|11469|M|37.8,79.6|N|To Scuttle Frostprow.|
 T Sorlof's Booty |QID|11529|M|37.2,74.8|N|To Captain Ellis.|
