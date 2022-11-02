@@ -16,8 +16,8 @@ A City of Light|QID|10211|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.|PRE|102
 C City of Light|ACTIVE|10211|M|50.88,42.28|Z|Shattrath City|QO|1|N|When Khadgar's Servant starts to move, go stand by G'eras on the 2nd level.\n[color=FF0000]NOTE: [/color]As long as you can see the comments from the NPC, you'll get the completion notice after ~8 minutes.|NC|
 T City of Light|QID|10211|M|54.75,44.34|Z|Shattrath City|N|To Kadgar.|
 N Aldor or Scryers?|AVAILABLE|10551&10552|N|You now have to choose which Faction you want to join.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A Allegiance to the Aldor.|QID|10551|AVAILABLE|10552|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to join the Scryers.| ; == Breaking auto-accept - Hendo72
-A Allegiance to the Scryers.|QID|10552|ACTIVE|-10551|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.|; == Breaking auto-accept - Hendo72
+A Allegiance to the Aldor.|QID|10551|AVAILABLE|10552|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to join the Scryers.| ; == Breaking auto-accept ~ Hendo72
+A Allegiance to the Scryers.|QID|10552|ACTIVE|-10551|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.|; == Breaking auto-accept ~ Hendo72
 ; == Aldor
 A Ishanah|QID|10554|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.|REP|Aldor;932|
 h Shattrath City|ACTIVE|10554|M|28.31,49.35|Z|Shattrath City|N|At Minalei on Aldor Rise.|
@@ -48,9 +48,9 @@ C Strange Energy|QID|9968|M|44.00,28.00|L|25672 4|ITEM|25672|N|Teromoths|
 T Strange Energy|QID|9968|M|44.34,26.31|N|To Earthbinder Tavgren.|
 A By Any Means Necessary|QID|9978|M|44.34,26.31|N|From Earthbinder Tavgren.|PRE|9968^9971|
 T By Any Means Necessary|QID|9978|M|51.29,29.29;37.62,25.75|CS|N|Locate Empoor (and his bodyguard) on the road between Shattrath City and Tuurem and speak with him. They'll attack you until Empoor's low on health; at which time, he'll surrender and you can turn the quest in.|
-A Wind Trader Lathrai|QID|9979|N|From Empoor.|PRE|9978| ; == No coordinates because it'll be where you found him - Hendo72
+A Wind Trader Lathrai|QID|9979|N|From Empoor.|PRE|9978| ; == No coordinates because it'll be where you found him ~ Hendo72
 f Stonebreaker Hold|AVAILABLE|9987|M|49.20,43.42|N|At Kerna.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-T News from Zangarmarsh|QID|9796|M|49.71,43.32|N|To Mokasa.| ; == In case they picked it up - Hendo72
+T News from Zangarmarsh|QID|9796|M|49.71,43.32|N|To Mokasa.| ; == In case they picked it up ~ Hendo72
 A Stymying the Arakkoa|QID|9987|M|48.97,44.64|N|From Rokag.|
 A Speak with Scout Neftis|QID|10039|M|48.93,44.59|N|From Advisor Faila.|
 A Arakkoa War Path|QID|10868|M|48.93,44.59|N|From Advisor Faila.|
@@ -130,7 +130,7 @@ K The Tomb of Lights|ACTIVE|10840|M|46.99,54.62|QO|1;2|N|They are found above an
 K The Infested Protectors|QID|10896|M|52.00,58.00|QO|1|N|Kill the Treant mobs to spawn the required Wood Mites.|S|IZ|The Bone Wastes|
 K Wanted: Bonelashers Dead!|ACTIVE|10034|M|41.67,51.18|QO|1|N|[color=FF0000]NOTE: [/color]Ignore Trachela, for now.|US|
 C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba Seeds are found on the ground spread all across Terokkar.|US|
-T The Tomb of Lights|QID|10840|M|37.45,50.77|N|To High Priest Orglum at Refugee Caravan.|
+T The Tomb of Lights|QID|10840|M|37.45,50.77|N|To High Priest Orglum in Refugee Caravan.|
 T Vengeful Souls|QID|10842|M|37.45,50.77|N|To Hight Priest Orglum.|
 T Before Darkness Falls|QID|10878|M|37.26,50.86|N|To Mekeda.|
 T Cabal Orders|QID|10880|M|37.26,50.86|N|To Mekeda.|
@@ -156,19 +156,19 @@ A And Now, the Moment of Truth|QID|10201|M|50.13,44.88|N|From Rakoria.|PRE|9993|
 C And Now, the Moment of Truth|QID|10201|M|49.85,45.31|N|Talk to Grek standing in front of the WANTED poster. Ask him to try the oil and wait until you get the complete message.|CHAT|
 T And Now, the Moment of Truth|QID|10201|M|50.13,44.88|N|To Rakoria.|
 K An Unwelcome Presence|ACTIVE|10000|M|66.38,50.31|QO|1|N|They are around the Bonechewer Ruins.|
-T An Unwelcome Presence|QID|10000|M|63.38,42.73|N|To Shadowstalker Kaide at Stonebreaker Camp.|
+T An Unwelcome Presence|QID|10000|M|63.38,42.73|N|To Shadowstalker Kaide in Stonebreaker Camp.|
 A The Firewing Liaison|QID|10003|M|63.38,42.73|N|From Shadowstalker Kaide.|PRE|10000|
 A What Happens in Terokkar Stays in Terokkar|QID|10008|M|63.38,42.73|N|From Shadowstalker Kaide.|
 K What Happens in Terokkar Stays in Terokkar|ACTIVE|10008|M|65.97,52.54|QO|1;2|S|
 K The Firewing Liaison|ACTIVE|10003|M|67.84,53.28|QO|1|N|Lisaile Fireweaver is in the main building.|
 A An Unseen Hand|QID|10013|M|67.92,53.56|N|Click the Fel Orc Plans on the floor near Lisaile Fireweaver.|
 K What Happens in Terokkar Stays in Terokkar|ACTIVE|10008|M|65.97,52.54|QO|1;2|US|
-T The Firewing Liaison|QID|10003|M|63.38,42.73|N|To Shadowstalker Kaide at Stonebreaker Camp.|
+T The Firewing Liaison|QID|10003|M|63.38,42.73|N|To Shadowstalker Kaide in Stonebreaker Camp.|
 T What Happens in Terokkar Stays in Terokkar|QID|10008|M|63.38,42.73|N|To Shadowstalker Kaide.|
-T An Unseen Hand|QID|10013|M|48.97,44.64|N|To Rokag at Stonebreaker Hold.|
+T An Unseen Hand|QID|10013|M|48.97,44.64|N|To Rokag in Stonebreaker Hold.|
 T Magical Disturbances|QID|10027|M|48.77,45.69|N|To Kurgatok.|
 C Investigate Tuurem|QID|9990|M|54.00,29.99|N|Located to the northwest in Tuurem, the sealed box is guarded by the Firewing Courier.|NC|
-T Investigate Tuurem|QID|9990|M|44.34,26.31|N|To Earthbinder Tavgren at Cenarion Thicket.|
+T Investigate Tuurem|QID|9990|M|44.34,26.31|N|To Earthbinder Tavgren in Cenarion Thicket.|
 A What Are These Things?|QID|9995|M|44.34,26.31|N|From Earthbinder Tavgren.|PRE|9990|
 T What Are These Things?|QID|9995|M|50.04,45.93|N|To Tooki in Stonebreaker Hold.|
 A Report to Stonebreaker Camp|QID|10448|M|50.04,45.93|N|From Tooki.|PRE|9995|
@@ -212,12 +212,12 @@ A Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|From Kirrik the Awake
 T The Shadow Tomb|QID|10881|M|37.26,50.86|N|To Mekeda.|
 T Escaping the Tomb|QID|10887|N|To Mekeda.|
 C Veil Lithic: Preemptive Strike|QID|10861|M|24.25,72.13|QO|1;2|N|After opening a Cursed Egg, you'll either kill the Malevolent Hatchling or collect the Hatchling (depending upon which one spawns).\n[color=FF0000]NOTE: [/color]The Cursed Eggs are found in nests throughout Veil Lithic.|
-A An Improper Burial|QID|10913|M|31.01,76.12|N|From Commander Ra'vaj at Sha'tari Base Camp.|
+A An Improper Burial|QID|10913|M|31.01,76.12|N|From Commander Ra'vaj in Sha'tari Base Camp.|
 A The Dread Relic|QID|10877|M|31.07,76.53|N|From Oakun.|
 A Taken in the Night|QID|10873|M|31.44,75.66|N|From Scout Navrin.|
 A Digging Through Bones|QID|10922|M|31.10,76.14|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\n[color=80FF00]Escort Quest:[/color]\nFrom Chief Archaelogist Letoll.\n[color=FF0000]NOTE: [/color]If he's not there, someone is already on the quest and you have to wait.|
 C Digging Through Bones|QID|10922|M|30.10,70.81|N|Follow the dwarves to the dig site.\n[color=FF0000]NOTE: [/color]You can sit back and watch if you like. They can pretty much handle everything on their own.|
-T Digging Through Bones|QID|10922|M|30.98,76.19|N|To Dwarfowitz at Sha'tari Base Camp.|
+T Digging Through Bones|QID|10922|M|30.98,76.19|N|To Dwarfowitz in Sha'tari Base Camp.|
 A Fumping|QID|10929|M|30.98,76.19|N|From Dwarfowitz.|PRE|10922|
 C Recover the Bones|QID|10030|M|52.00,58.00|L|25842 10|US|
 R Auchindoun|AVAILABLE|10227|M|33.00,66.00|N|Enter Auchindoun from this location.|
@@ -238,12 +238,12 @@ A What Book? I Don't See Any Book.|QID|10231|M|54.6,59.95;61.57,36.2;62.95,49.67
 C What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nTalk to "Dirty" Larry in Lower City and after he attacks you, he'll surrender when you get him down to 1% health.\n[color=FF0000]NOTE: [/color]If someone else starts and finishes the quest, you can get credit as long as you stick around.|
 T What Book? I Don't See Any Book.|QID|10231|M|43.58,29.36|Z|Shattrath City|N|To "Dirty" Larry.|
 A The Master's Grand Design?|QID|10251|M|43.58,29.36|Z|Shattrath City|N|From "Dirty" Larry, this leads into Nagrand.|PRE|10231|
-T Letting Earthbinder Tavgren Know|QID|10006|M|44.34,26.31|N|To Earthbinder Tavgren at Cenarion Thicket.|
-T Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|To Kirrik the Awakened at Refugee Caravan.|
+T Letting Earthbinder Tavgren Know|QID|10006|M|44.34,26.31|N|To Earthbinder Tavgren in Cenarion Thicket.|
+T Veil Lithic: Preemptive Strike|QID|10861|M|37.26,50.86|N|To Kirrik the Awakened in Refugee Caravan.|
 A Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10861|
 C Fumping|QID|10929|M|35.05,51.50|L|31814 8|ITEM|31814|N|Mature Bone Sifter\nUsing the Fumper will spawn either a Sifter or a Sand Gnome.\n[color=FF0000]NOTE: [/color]You can use the Refugee Caravan Guards to help kill the Gnomes.|U|31810|
 K Helping the Lost Find Their Way|ACTIVE|10031|M|38.72,78.59|QO|1;2|S|
-T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz at Sha'tari Base Camp.|
+T Fumping|QID|10929|M|30.98,76.19|N|To Dwarfowitz in Sha'tari Base Camp.|
 A The Big Bone Worm|QID|10930|M|30.98,76.19|N|From Dwarfowitz.|PRE|10929|
 C An Improper Burial|QID|10913|M|34.52,76.44|N|Use your Sha'tari Torch on the corpses.|U|31769|NC|
 C The Dread Relic|QID|10877|M|43.92,76.37|N|Loot the relic from the Massive Treasure Chest.\n[color=FF0000]NOTE: [/color]A bunch of weak undead will spawn, but if you are quick enough, you can get away.|
@@ -267,33 +267,33 @@ C Veil Shalas: Signal Fires|QID|10874|M|55.47,69.80|QO|2|N|Keep following Skywin
 C Skywing|QID|10898|M|55.70,69.60|N|Continue following Skywing to the waypoint. Upon reaching it, Luanga the Imprisoner (lv 65 elite) will spawn. Defeat him to complete the quest.|US|
 C Veil Shalas: Signal Fires|QID|10874|M|57.26,65.09;55.18,67.21|CS|QO|1|N|The Sapphire Signal Fire is at next set of treehouses to the north. Make your way to the ground and head north to the ramp leading up to the string of treehouse platforms. Click on the Sapphire Signal Fire to extinguish it.|NC|FLY|BC|
 C Veil Shalas: Signal Fires|QID|10874|M|55.18,67.21|QO|1|N|This one requires that you fly to the next treehouse to where the Sapphire Signal Fire is and extinguish it.\n[color=FF0000]NOTE: [/color]You do not want to take the scenic route and walk there. There is no direct connection to it.|NC|
-T Taken in the Night|QID|10873|M|31.44,75.66|N|To Scout Navrin at Sha'tari Base Camp.|
+T Taken in the Night|QID|10873|M|31.44,75.66|N|To Scout Navrin in Sha'tari Base Camp.|
 T Return to Sha'tari Base Camp|QID|10926|M|31.44,75.66|N|To Scout Navrin.|
 T An Improper Burial|QID|10913|M|31.01,76.12|N|To Commander Ra'vaj.|
 T The Big Bone Worm|QID|10930|N|To Dwarfowitz.|
 A A Hero Is Needed|QID|10914|M|31.01,76.12|N|From Commander Ra'vaj.|PRE|10913|
 T The Dread Relic|QID|10877|M|31.06,76.54|N|To Oakun.|
-A Evil Draws Near|QID|10923|M|31.06,76.54|N|From Oakun.|PRE|10877|
-C Doom Skulls|QID|10923|M|33.92,73.80|L|31812 20|ITEM|31812|N|Any Auchenai mob|S|
+A Evil Draws Near|QID|10923|M|31.06,76.54|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Oakun.|PRE|10877|
+C Doom Skulls|QID|10923|M|33.92,73.80|L|31812 20|ITEM|31812|N|Only Auchenai Death-Speakers and Doomsayers|S|
 K A Hero Is Needed|ACTIVE|10914|M|36.04,74.78|QO|1;2|
-T A Hero Is Needed|QID|10914|M|31.01,76.12|N|To Commander Ra'vaj at Sha'tari Base Camp.|
+T A Hero Is Needed|QID|10914|M|31.01,76.12|N|To Commander Ra'vaj in Sha'tari Base Camp.|
 A The Fallen Exarch|QID|10915|M|31.01,76.12|N|From Commander Ra'vaj.|PRE|10914|
 C The Fallen Exarch|QID|10915|M|35.81,65.61|N|Enter Auchindoun and locate the coffin. After clearing the area, click on the coffin and kill the Reanimated Exarch that spawns.\n[color=FF0000]NOTE: [/color]If you stand on the coffin, you will take damage (like standing in the fire).|
-C Doom Skulls|QID|10923|M|48.68,67.16|L|31812 20|ITEM|31812|N|Any Auchenai mob\nYou can get these elsewhere, but you'll want to be in this area when you finish.|US|
-K Evil Draws Near|ACTIVE|10923|M|48.68,67.16|QO|1|N|Go to the rune in the middle of Writhing Mound and after clearing the area, use the Dread Relic to summon Teribus the Cursed.|U|31811|
-T Evil Draws Near|QID|10923|M|31.06,76.54|N|To Oakun.|
+C Doom Skulls|QID|10923|M|48.68,67.16|L|31812 20|ITEM|31812|N|Only Auchenai Death-Speakers and Doomsayers\n[color=FF0000]NOTE: [/color]You can get these elsewhere, but you'll want to be in this area when you finish.|US|
+K Evil Draws Near|ACTIVE|10923|M|48.68,67.16|QO|1|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nGo to the rune in the middle of Writhing Mound and after clearing the area, use the Dread Relic to summon Teribus the Cursed.|U|31811|
+T Evil Draws Near|QID|10923|M|31.06,76.54|N|To Oakun in Sha'tari Base Camp.|
 T The Fallen Exarch|QID|10915|M|31.01,76.12|N|To Commander Ra'vaj.|
-C Helping the Lost Find Their Way|QID|10031|N|Kill Lost spirits, and Broken skeletons.|US|
-T Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|To Kirrik the Awakened.|
+K Helping the Lost Find Their Way|ACTIVE|10031|M|30.84,65.57|QO|1;2|US|
+T Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|To Kirrik the Awakened in Refugee Caravan.|
 A Return to Shattrath|QID|10889|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10874|
 T Helping the Lost Find Their Way|QID|10031|M|37.05,49.52|N|To Soolaveen.|
-T Torgos!|QID|10036|M|49.25,45.88|N|To Mawg Grimshot.|
+T Torgos!|QID|10036|M|49.25,45.88|N|To Mawg Grimshot in Stonebreaker Hold.|
 H Shattrath City|QID|10228|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|QID|10228|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
-T Return to Shattrath|QID|10889|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed.|
+T Return to Shattrath|QID|10889|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed in Lower City.|
 T Skywing|QID|10898|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed.|
-A The Skettis Offensive|QID|10879|M|51.76,20.78|Z|Shattrath City|N|From Defender Grashna.|PRE|10889|
-C The Skettis Offensive|N|Kill the mobs (Two birds, Two Birds, Three Birds, One bird 4700 health) until this quest is finished.|QID|10879|M|52.53,21.01|Z|Shattrath City|
+A The Skettis Offensive.|QID|10879|M|51.76,20.78|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Defender Grashna.\n[color=FF0000]NOTE: [/color]The attack waves begin the moment you accept the quest; be prepared before accepting.|PRE|10889| ; ** breaking auto-accept ~ Hendo72
+K The Skettis Offensive|ACTIVE|10879|M|52.53,21.01|Z|Shattrath City|N|Survive four waves of attack.\n[color=FF0000]NOTE: [/color]Two birds in the first 2 waves, Three Birds in the 3rd wave,and Avatar of Terrok in the final wave.|
 T The Skettis Offensive|QID|10879|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed.|
 ]]
 end)
