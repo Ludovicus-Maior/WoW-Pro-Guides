@@ -10,6 +10,15 @@ F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|TAXI|Shattrath|
 R Terokkar Forest|AVAILABLE|10210|M|34.33,7.85|TAXI|-Shattrath|
 R Shattrath City|AVAILABLE|10210|M|70.31,3.64|TAXI|-Shattrath|
 f Shattrath|AVAILABLE|10210|M|64.07,41.11|Z|1955; Shattrath City|N|At Nutral on the Terrace of Light.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.
+P Orgrimmar|ACTIVE|9438|N|Use the portal.|
+T Messenger to Thrall|QID|9438|M|31.64,37.83|Z|Orgrimmar|N|To Thrall in Grommash Hold.|
+A Envoy to the Mag'har|QID|9441|M|31.64,37.83|Z|Orgrimmar|N|From Thrall.\n[color=FF0000]NOTE: [/color]If you don't accept the quest right away, a narrative starts and you'll have to wait for it to finish.|PRE|9438|
+P The Dark Portal|ACTIVE|9441|M|38.06,85.72|Z|Orgrimmar|N|Use the portal in Valley of Spirits.|IZ|Orgrimmar|
+R The Stair of Destiny|ACTIVE|9441|M|58.74,60.78|Z|1419; Blasted Lands|N|Go through the Dark Portal.|IZ|Blasted Lands|
+F Thrallmar|ACTIVE|9441|M|87.33,48.17|Z|1944|FLY|BC|
+R Mag'har Post|ACTIVE|9441|M|29.96,34.72;33.48,28.96|CS|Z|1944|FLY|BC|
+T Envoy to the Mag'har|QID|9441|M|32.01,27.79|Z|1944; Hellfire Peninsula|N|To Gorkan Bloodfist.|
+F Shattrath|AVAILABLE|10210|M|27.79,59.98|Z|1944; Hellfire Peninsula|N|At Innalia in Falcon Watch.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 A A'dal|QID|10210|M|59.70,41.45|Z|Shattrath City|N|From Haggard War Veteran.|
 T A'dal|QID|10210|M|54.02,44.75|Z|Shattrath City|N|To A'dal.|
 A City of Light|QID|10211|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.|PRE|10210|
