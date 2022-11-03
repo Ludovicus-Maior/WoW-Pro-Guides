@@ -114,9 +114,9 @@ A Burn Skorn, Burn! |QID|11258|PRE|11256|N|From the Winterhoof Brave.|
 A Towers of Certain Doom |QID|11259|PRE|11256|N|From the Winterhoof Brave.|
 l Vrykul Scroll of Ascension |AVAILABLE|11260|S|L|33345|M|44.33,26.27|N|Until you get the Vrykul Scroll of Ascension.|
 C Gruesome, But Necessary |QID|11257|U|33342|S|M|44.33,26.27|N|When you kill a Vrykul, use The Brave's Machete on the corpse.|
-N Burn the Northwest Longhouse |QID|11258|QO|1|U|33343|N|Just to the southwest. Go inside and use the Brave's Torch.|M|43.7,28.6|
-N Target the Northwest Tower |QID|11259|QO|1|U|33344|N|It's just south. Don't get too close or the mages on it will attack you. The Brave's Flare has a 90 yard range.|M|44.4,28.6|
-N Burn the Northeast Longhouse |QID|11258|QO|2|U|33343|N|It's east on the other side of the village.|M|46.4,28.2|
+C Burn the Northwest Longhouse |QID|11258|QO|1|U|33343|N|Just to the southwest. Go inside and use the Brave's Torch.|M|43.7,28.6|
+C Target the Northwest Tower |QID|11259|QO|1|U|33344|N|It's just south. Don't get too close or the mages on it will attack you. The Brave's Flare has a 90 yard range.|M|44.4,28.6|
+C Burn the Northeast Longhouse |QID|11258|QO|2|U|33343|N|It's east on the other side of the village.|M|46.4,28.2|
 C Burn Skorn, Burn! |QID|11258|QO|3|U|33343|N|The final structure, the Barracks, is south.|M|45.9,30.7|
 N Target the East Tower |QID|11259|QO|2|U|33344|N|Head out of the barracks and head east up the path and follow it around to here.|M|46.47,33.12|
 N Target the Southeast Tower |QID|11259|QO|4|U|33344|N|Further south, the Southeast Tower.|M|47,36|
