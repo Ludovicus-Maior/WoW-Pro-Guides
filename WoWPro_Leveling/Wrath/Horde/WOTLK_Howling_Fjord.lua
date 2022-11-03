@@ -107,7 +107,7 @@ A Mastering the Runes |QID|11351|PRE|11350|N|From Longrunner Pembe.|
 T March of the Giants |QID|11365|M|48.1,10.5|N|To Sage Edan.|
 A The Lodestone |QID|11366|PRE|11365|N|From Sage Edan.|
 A Skorn Must Fall! |QID|11256|PRE|11281|M|48.1,10.8|N|From Chieftain Ashtotem.|
-R Skorn |QID|11258|N|Run to Skorn.|M|44,26|
+R Skorn |ACTIVE|11256|N|Run to Skorn.|M|44,26|
 T Skorn Must Fall! |QID|11256|U|33340|M|44.33,26.27|N|Use the Winterhoof Emblem and speak to the Winterhoof Brave.|
 A Gruesome, But Necessary |QID|11257|PRE|11256|N|From the Winterhoof Brave.|
 A Burn Skorn, Burn! |QID|11258|PRE|11256|N|From the Winterhoof Brave.|
@@ -170,14 +170,14 @@ T Keeping Watch on the Interlopers |QID|11297|N|To Apothecary Malthus.|M|26.43,2
 A What's in That Brew? |QID|11298|PRE|11297|N|From Apothecary Malthus.|
 A And You Thought Murlocs Smelled Bad! |QID|11397|M|26.23,24.55|N|From Apothecary Anastasia.|
 A Brains! Brains! Brains! |QID|11301|M|26.0,24.4|N|From Apothecary Grick.|
-F Camp Winterhoof|QID|11323|M|26.0,25.1|N|Fly to Camp Winterhoof.|
+F Camp Winterhoof|QID|11428|M|26.0,25.1|N|Fly to Camp Winterhoof.|
 T Keeper Witherleaf |QID|11428|M|61.5,22.9|N|To Lurielle.|
 C Hasty Preparations |QID|11271|N|Pick up any feathers you still need on the way.|US|M|72,25|
 K Binder Murdis |QID|11352|QO|2|M|72,25|T|Binder Murdis|
 C The Rune of Command |QID|11352|QO|1|U|33796|N|Use the Rune of Command on a Stone Giant, it's non-aggressive, should be just to the northwest.|M|71.95,23.2|
 C Demolishing Megalith |QID|11367|N|Kill Megalith.|M|69.13,11.38|T|Megalith|
 C The Cleansing |QID|11317|N|Go west through the mountains, stay as far north as you can. There's a small path. Take it to the summit of the mountain, there's a shrine there. Right click it and kill your Inner Turmoil.|M|61.18,2.08|
-R Camp Winterhoof |QID|11323|N|You've got a levitation buff, so mount up, aim at Camp Winterhoof (use the world map; hold down the right mouse button and open it up) and run off the edge.|M|49.6,11.6|
+R Camp Winterhoof |ACTIVE|11367|N|You've got a levitation buff, so mount up, aim at Camp Winterhoof (use the world map; hold down the right mouse button and open it up) and run off the edge.|M|49.6,11.6|
 T Demolishing Megalith |QID|11367|M|48.1,10.5|N|To Sage Edan.|
 T Hasty Preparations |QID|11271|M|48.4,11.0|N|To Ahota Whitefrost.|
 T The Rune of Command |QID|11352|M|49.2,12.2|N|To Longrunner Pembe.|
@@ -301,7 +301,7 @@ T The Walking Dead |QID|11268|N|To Greatmother Ankha.|M|48.16,10.66|
 F New Agamand|ACTIVE|11504|M|49.6,11.6|N|Fly to New Agamand.|
 T The Dead Rise! |QID|11504|N|To Orfus of Kamagua.|M|40.3,60.3|
 A Elder Atuik and Kamagua |QID|11507|PRE|11504|M|40.3,60.3|N|From Orfus of Kamagua.|
-R Kamagua |QID|11507|N|Go to the Ancient Lift and take it across to the island. When the lift stops, ride north to Kamagua. |M|25.12,57.98|
+R Kamagua |ACTIVE|11507|N|Go to the Ancient Lift and take it across to the island. When the lift stops, ride north to Kamagua. |M|25.12,57.98|
 T Elder Atuik and Kamagua |QID|11507|M|25.0,57.0|N|To Elder Atuik.|
 A Grezzix Spindlesnap |QID|11508|PRE|11507|M|25.0,57.0|N|From Elder Atuik.|
 A Feeding the Survivors |QID|11456|M|25.0,57.0|N|From Elder Atuik.|
@@ -381,9 +381,9 @@ T The Frozen Heart of Isuldof |QID|11512|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Shield of the Aesirites |QID|11530|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Staff of Storm's Fury |QID|11511|M|40.3,60.3|N|To Orfus of Kamagua.|
 A A Return to Resting |QID|11568|PRE|11530&11567&11512&11511|M|40.3,60.3|N|From Orfus of Kamagua.|
-R Ember Clutch |QID|11280|N|Head to Ember Clutch to the north.|M|41.39,55.18|
+R Ember Clutch |ACTIVE|11280|N|Head to Ember Clutch to the north.|M|41.39,55.18|
 C Draconis Gastritis |QID|11280|U|33441|N|Use Tillinghast's Plagued Meat near a Proto-Drake, wait till you get the complete message. You will probably have to kill the drake.|M|41.39,55.18|
-R Halgrind |QID|11280|N|Go to Halgrind.|M|48.00,57.91|ACTIVE|11310|
+R Halgrind |ACTIVE|11310|N|Go to Halgrind.|M|48.00,57.91|
 C Warning: Some Assembly Required |QID|11310|U|33613|M|PLAYER|N|Use the Abomination Kit. Ability 2 is a thunderclap, use it to round up Vrykul and keep them on you. When you've got ~5, use ability 1 to detonate the abomination, then resummon it and rinse/repeat.|
 T Draconis Gastritis |QID|11280|N|To Plaguebringer Tillinghast.|M|53.10,66.90|
 T Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|To "Hacksaw" Jenny.|
