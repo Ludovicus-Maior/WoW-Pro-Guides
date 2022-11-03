@@ -112,11 +112,10 @@ T Missing Friends|QID|10852|M|37.74,51.34|N|To Ethan.|
 A The Tomb of Lights|QID|10840|PRE|10852|M|37.45,50.77|N|From High Priest Orglum.|
 A Vengeful Souls|QID|10842|PRE|10852|M|37.45,50.77|N|From Hight Priest Orglum.|
 C WANTED: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10034|M|42.64,50.40|S|
-l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|S|
+;l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 -10|M|40.00,56.00|REP|Aldor;932|S!US|LVL|-37|;Needs testing
 A Cabal Orders|N|Right-click the orders to start the quest.|QID|10880|M|32.2,52.8|U|31707|O|
 C Before Darkness Falls|N|Kill Orcs until you finish this quest.|QID|10878|M|40.00,56.00|
 l Cabal Orders|QID|10880|N|Kill Orcs until you get the Cabal Orders.|L|31707|M|40.00,56.00|
-l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|US|
 C The Tomb of Lights|M|46.99,54.62|N|Kill the Ethereal Nethermancers and Plunderers needed for this quest.|QID|10840|S|
 C Vengeful Souls|N|Kill the 5 Vengeful Draenei you need to finish this quest.|QID|10842|M|47.00,55.00|
 C The Tomb of Lights|M|46.99,54.62|N|Kill the rest of the mobs needed for this quest.|QID|10840|US|
@@ -131,8 +130,8 @@ H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath
 r Sell junk, Repair, restock|QID|10112|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 r Sell junk, Repair, restock, train skills|QID|10112|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
-A Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|From Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor;932|
-T Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|To Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor;932|
+;A Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|From Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor;932|L|29425 -10|;Needs testing
+;t Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|To Adyen the Lightwarden.|Z|Shattrath City|REP|Aldor;932|
 T A Personal Favor|QID|10112|M|72.2,30.7|N|To Wind Trader Lathrai.|Z|Shattrath City|
 A Investigate Tuurem|QID|9990|PRE|10112|M|72.2,30.7|N|From Wind Trader Lathrai.|Z|Shattrath City|
 F Stonebreaker Hold|QID|10043|Z|Shattrath City|M|64.1,41.1|N|Fly to Stonebreaker Hold.|
