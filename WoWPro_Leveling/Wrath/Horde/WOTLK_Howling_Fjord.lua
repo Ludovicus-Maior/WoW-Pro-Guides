@@ -45,9 +45,9 @@ C Mark Eastern Cannon |QID|11232|QO|1|U|33335|N|Use the flares next while standi
 C Guide Our Sights |QID|11232|QO|2|U|33335|M|79.3,40.2|N|Use the flare next to the cannon.|
 T Guide Our Sights |QID|11232|N|Back at Dark Ranger Lyana.|M|78.63,37.03|
 A Landing the Killing Blow |QID|11233|PRE|11232|N|From Dark Ranger Lyana.|M|78.63,37.03|
-K Captain Olster slain |QID|11233|QO|1|M|81.5,43.4|N|Kill Captain Olster.|
-K Sergeant Lorric slain |QID|11233|QO|3|M|82.2,40.9|N|Now kill Sergeant Lorric.|
-C Landing the Killing Blow |QID|11233|QO|2|M|83.2,43.1|N|Finally kill Lieutenant Celeyne.|
+K Captain Olster slain |ACTIVE|11233|QO|1|M|81.5,43.4|N|Kill Captain Olster.|
+K Sergeant Lorric slain |ACTIVE|11233|QO|3|M|82.2,40.9|N|Now kill Sergeant Lorric.|
+K Lieutenant Celeyne |ACTIVE|11233|QO|2|M|83.2,43.1|N|Finally kill Lieutenant Celeyne.|
 A Trail of Fire |QID|11241|N|From Apothecary Hanes. He spawns near Lieutenant Celeyne.|M|83.2,43.1|
 C Trail of Fire |QID|11241|M|78.63,37.03|N|Straightforward escort. You'll end up in front of Dark Ranger Lyana.|
 T Landing the Killing Blow |QID|11233|M|78.63,37.03|N|To Dark Ranger Lyana.|
@@ -144,7 +144,7 @@ C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest
 T Spawn of the Twisted Glade |QID|11316|M|61.5,22.8|N|To Lurielle.|
 T Seeds of the Blacksouled Keepers |QID|11319|M|61.5,22.8|N|To Lurielle.|
 A Keeper Witherleaf |QID|11428|PRE|11316|M|61.5,22.8|N|From Lurielle.|
-C Keeper Witherleaf |QID|11428|N|Kill Keeper Witherleaf in the area.|M|53.82,17.48|T|Keeper Witherleaf|
+K Keeper Witherleaf |ACTIVE|11428|QO|1|N|Kill Keeper Witherleaf in the area.|M|53.82,17.48|T|Keeper Witherleaf|
 T Mastering the Runes |QID|11351|N|To Longrunner Pembe.|M|49.2,12.2|
 A The Rune of Command |QID|11352|PRE|11351|N|From Longrunner Pembe.|M|49.2,12.2|
 T The Lodestone |QID|11366|M|48.1,10.5|N|To Sage Edan.|
@@ -175,7 +175,7 @@ T Keeper Witherleaf |QID|11428|M|61.5,22.9|N|To Lurielle.|
 C Hasty Preparations |QID|11271|N|Pick up any feathers you still need on the way.|US|M|72,25|
 K Binder Murdis |QID|11352|QO|2|M|72,25|T|Binder Murdis|
 C The Rune of Command |QID|11352|QO|1|U|33796|N|Use the Rune of Command on a Stone Giant, it's non-aggressive, should be just to the northwest.|M|71.95,23.2|
-C Demolishing Megalith |QID|11367|N|Kill Megalith.|M|69.13,11.38|T|Megalith|
+K Megalith |QID|11367|N|Kill Megalith.|M|69.13,11.38|T|Megalith|
 C The Cleansing |QID|11317|N|Go west through the mountains, stay as far north as you can. There's a small path. Take it to the summit of the mountain, there's a shrine there. Right click it and kill your Inner Turmoil.|M|61.18,2.08|
 R Camp Winterhoof |ACTIVE|11367|N|You've got a levitation buff, so mount up, aim at Camp Winterhoof (use the world map; hold down the right mouse button and open it up) and run off the edge.|M|49.6,11.6|
 T Demolishing Megalith |QID|11367|M|48.1,10.5|N|To Sage Edan.|
@@ -230,7 +230,7 @@ A Alpha Worg |QID|11324|PRE|11417|N|From Ulfang.|M|29.64,5.72|
 C Alpha Worg |QID|11324|N|Look for Garwal. You don't have to be in the Worg disguise.|M|29.2,17;27,12.8;26.4,8.4|T|Garwal|CS|
 K Deathless Watchers|S|QID|11268|QO|1|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
 K Putrid Wights|S|QID|11268|QO|3|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
-l Awakening Rods|AVAILABLE|11433|L|34083 5|S|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
+l Awakening Rods|ACTIVE|11433|L|34083 5|S|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
 A The Slumbering King |QID|11453|U|34091|M|PLAYER|N|From Mezhen's Writings.|O|
 l Mezhen's Writings |QID|11453|L|34091|N|Kill Necro Overlord Mezhen here and loot Mezhen's Writings.|M|38.80,13.09|
 C The Slumbering King |QID|11453|M|40.88,6.49|N|Head north into the big gate. Head round the back and up onto the platform and kill Queen Angerboda. You won't get attacked by the Necrolords.|
@@ -252,7 +252,7 @@ A Shield Hill |QID|11424|M|53.66,65.27|N|From "Hacksaw" Jenny.|
 A Green Eggs and Whelps |QID|11279|M|53.10,66.90|N|From Plaguebringer Tillinghast.|
 T Give it a Name |QID|12181|N|To Tobias Sarkhoff. Ignore the follow up.|M|52.01,67.39|
 f New Agamand|M|52.01,67.39|N|Get the flight point at Tobias Sarkhoff.|TAXI|New Agamand|
-C A Tailor-Made Formula |QID|11305|N|Kill and loot Thorvald.|M|46.77,68.24|T|Thorvald|
+K Thorvald |QID|11305|QO|1|N|Kill and loot Thorvald.|M|46.77,68.24|T|Thorvald|
 T A Tailor-Made Formula |QID|11305|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Apply Heat and Stir |QID|11306|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11305|
 C Apply Heat and Stir |QID|11306|M|PLAYER|U|34023^34024^33614^33615|N|Use the Empty Apothecary Flask next to the cauldron to the Apothecary's right. Then use the Flask of Vrykul Blood on the table on the other side. It can take a while, as the fail rate is kind of bad. It can also proc a blast which hits you for 3k and can crit.|
@@ -367,7 +367,7 @@ T "Crowleg" Dan |QID|11479|M|35.6,80.2|N|To Handsome Terry.|
 A Meet Number Two |QID|11480|PRE|11479|M|35.6,80.2|N|From Handsome Terry.|
 T Meet Number Two |QID|11480|M|35.4,79.4|N|To Annie Bonn.|
 A The Jig is Up |QID|11471|PRE|11480|N|From Annie Bonn.|
-C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31.33,78.68|T|Big Roy|
+K Big Roy |QID|11469|QO|1|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31.33,78.68|T|Big Roy|
 C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.57,75.6;33.60,78.18|CS|
 C The Frozen Heart of Isuldof |QID|11512|N|Loot The Frozen Heart of Isuldof from the ground here. |M|32.33,78.67|
 T The Jig is Up |QID|11471|N|To Annie Bonn.|M|35.40,79.41|
