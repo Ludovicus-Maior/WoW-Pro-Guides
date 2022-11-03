@@ -41,7 +41,7 @@ A Ambushed! |QID|11230|PRE|11229|M|84.7,36.5|N|From Captain Harker.|
 C Ambushed! |QID|11230|M|84.40,35.89|N|Kill 15 North Fleet Marines.|
 T Ambushed! |QID|11230|M|84.7,36.5|N|To Captain Harker.|
 A Guide Our Sights |QID|11232|PRE|11230|N|From Captain Harker.|M|84.7,36.5|
-N Mark Eastern Cannon |QID|11232|QO|1|U|33335|N|Use the flares next while standing next to the cannon. The cannon doesn't actually have to be there for you to get quest credit, you just have to use the flare standing where the cannon usually is.|M|80.3,38.2|
+C Mark Eastern Cannon |QID|11232|QO|1|U|33335|N|Use the flares next while standing next to the cannon. The cannon doesn't actually have to be there for you to get quest credit, you just have to use the flare standing where the cannon usually is.|M|80.3,38.2|
 C Guide Our Sights |QID|11232|QO|2|U|33335|M|79.3,40.2|N|Use the flare next to the cannon.|
 T Guide Our Sights |QID|11232|N|Back at Dark Ranger Lyana.|M|78.63,37.03|
 A Landing the Killing Blow |QID|11233|PRE|11232|N|From Dark Ranger Lyana.|M|78.63,37.03|
@@ -63,9 +63,9 @@ T A Lesson in Fear |QID|11282|M|71.1,39.1|N|To Sergeant Gorth.|
 A Baleheim Bodycount |QID|11283|PRE|11282|N|From Sergeant Gorth.|M|71.1,39.1|
 A Baleheim Must Burn! |QID|11285|PRE|11282|N|From Sergeant Gorth.|M|71.1,39.1|
 C Baleheim Bodycount |QID|11283|M|66.62,39.01|N|Make sure you're in Baleheim when you kill them or you won't get credit.|S|
-N Watchtower Burned |QID|11285|QO|2|U|33472|N|The watchtower is directly to your west, burn it.|M|67.3,39.7|
-N Bridge Burned |QID|11285|QO|3|U|33472|N|Head behind the tower and go west to the bridge, burn it.|M|66.0,39.9|
-N Dwelling Burned |QID|11285|QO|1|U|33472|N| Over the bridge, just west, is a small building, set it alight as well.|M|65,41|
+C Watchtower Burned |QID|11285|QO|2|U|33472|N|The watchtower is directly to your west, burn it.|M|67.3,39.7|
+C Bridge Burned |QID|11285|QO|3|U|33472|N|Head behind the tower and go west to the bridge, burn it.|M|66.0,39.9|
+C Dwelling Burned |QID|11285|QO|1|U|33472|N| Over the bridge, just west, is a small building, set it alight as well.|M|65,41|
 C Baleheim Must Burn! |QID|11285|QO|4|U|33472|N| The final structure is to the northwest, careful not to aggro the elite when you light it up.|M|64,40|
 C Baleheim Bodycount |QID|11283|M|64.77,40.29|N|Make sure you're in Baleheim when you kill them or you won't get credit.|US|
 T Baleheim Bodycount |QID|11283|M|71.1,39.1|N|To Sergeant Gorth.|
@@ -118,8 +118,8 @@ C Burn the Northwest Longhouse |QID|11258|QO|1|U|33343|N|Just to the southwest. 
 C Target the Northwest Tower |QID|11259|QO|1|U|33344|N|It's just south. Don't get too close or the mages on it will attack you. The Brave's Flare has a 90 yard range.|M|44.4,28.6|
 C Burn the Northeast Longhouse |QID|11258|QO|2|U|33343|N|It's east on the other side of the village.|M|46.4,28.2|
 C Burn Skorn, Burn! |QID|11258|QO|3|U|33343|N|The final structure, the Barracks, is south.|M|45.9,30.7|
-N Target the East Tower |QID|11259|QO|2|U|33344|N|Head out of the barracks and head east up the path and follow it around to here.|M|46.47,33.12|
-N Target the Southeast Tower |QID|11259|QO|4|U|33344|N|Further south, the Southeast Tower.|M|47,36|
+C Target the East Tower |QID|11259|QO|2|U|33344|N|Head out of the barracks and head east up the path and follow it around to here.|M|46.47,33.12|
+C Target the Southeast Tower |QID|11259|QO|4|U|33344|N|Further south, the Southeast Tower.|M|47,36|
 l Vrykul Scroll of Ascension |AVAILABLE|11260|US|L|33345|M|44.33,26.27|N|Until you get the Vrykul Scroll of Ascension.|
 A Stop the Ascension!|QID|11260|U|33345|M|PLAYER|N|From UI Alert.|O|
 C Stop the Ascension! |QID|11260|U|33346|N|Stand next to the Pyre and use the Vrykul Scroll of Ascension. Kill Halfdan the Ice-Hearted when he spawns.|M|44.9,35.3|
@@ -279,8 +279,8 @@ C Shield Hill |QID|11424|M|59.00,78.00|N|Kill and loot Risen Vrykul.|US|T|Risen 
 A Against Nifflevar |QID|12482|N|From Ranger Captain Areiel.|M|67.45,60.59|
 A The Enemy's Legacy |QID|11423|M|67.35,60.31|N|From Scribe Seguine.|
 C Against Nifflevar |QID|12482|N|Kill Dragonflayer Warriors, Rune-Seers, and Hunting Hounds.|S|M|68.27,54.25|
-N Saga of the Val'kyr |QID|11423|QO|2|N|The Saga of the Val'kyr is in the first buildling.|M|67.42,57.16|
-N Saga of the Winter Curse |QID|11423|QO|3|N|The Saga of Saga of Winter Curse is northeast, in a small building east of the bonfire.|M|68.94,52.62|
+C Saga of the Val'kyr |QID|11423|QO|2|N|The Saga of the Val'kyr is in the first buildling.|M|67.42,57.16|
+C Saga of the Winter Curse |QID|11423|QO|3|N|The Saga of Saga of Winter Curse is northeast, in a small building east of the bonfire.|M|68.94,52.62|
 C The Enemy's Legacy |QID|11423|QO|1|N|The Saga of the Twins is in the longhouse west of the bonfire.|M|64.67,53.57|
 C Against Nifflevar |QID|12482|N|Kill Dragonflayer Warriors, Rune-Seers, and Hunting Hounds.|US|M|68.27,54.25|
 T Against Nifflevar |QID|12482|N|To Ranger Captain Areiel.|M|67.45,60.59|
@@ -388,9 +388,9 @@ C Warning: Some Assembly Required |QID|11310|U|33613|M|PLAYER|N|Use the Abominat
 T Draconis Gastritis |QID|11280|N|To Plaguebringer Tillinghast.|M|53.10,66.90|
 T Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|To "Hacksaw" Jenny.|
 R Shield Hill |ACTIVE|11568|N|Go to Shield Hill.|M|56.44,75.58|
-N Shield of the Aesirites |QID|11568|QO|1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|57.67,77.62|
-N Staff of Storm's Fury |QID|11568|QO|2|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.27,77.00|
-N Frozen Heart of Isuldof |QID|11568|QO|3|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.79,79.39|
+C Shield of the Aesirites |QID|11568|QO|1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|57.67,77.62|
+C Staff of Storm's Fury |QID|11568|QO|2|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.27,77.00|
+C Frozen Heart of Isuldof |QID|11568|QO|3|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.79,79.39|
 C A Return to Resting |QID|11568|QO|4|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|61.97,80.06|
 T A Return to Resting |QID|11568|M|40.3,60.3|N|To Orfus of Kamagua.|
 A Return to Atuik |QID|11572|PRE|11568|M|40.3,60.3|N|From Orfus of Kamagua.|
