@@ -78,7 +78,7 @@ T Adding Injury to Insult |QID|12481|M|65.9,36.8|N|To Lydell.|
 T Help for Camp Winterhoof |QID|12566|M|48.0,10.8|N|To Chieftain Ashtotem.|
 A Hasty Preparations |QID|11271|M|48.4,11.0|N|From Ahota Whitefrost.|
 A Making the Horn |QID|11275|M|49.3,12.0|N|From Nokoma Snowseer.|
-f Camp Winterhoof|ACTIVE|11271|M|49.56,11.58|N|Get the flight point at Celea Frozenmane.|TAXI|
+f Camp Winterhoof|ACTIVE|11271|M|49.56,11.58|N|Get the flight point at Celea Frozenmane.|TAXI|Camp Winterhoof
 A Suppressing the Elements |QID|11311|M|49.0,12.0|N|From Windtamer Kagan.|
 h Camp Winterhoof|QID|11311|M|49.4,10.8|N|At Bori Wintertotem.|
 C Hasty Preparations |QID|11271|S|M|54.96,2.59|N|Grab any Spotted Hippogryph Down you see.|
@@ -251,7 +251,7 @@ A Give it a Name |QID|12181|N|From Chief Plaguebringer Harris.|
 A Shield Hill |QID|11424|M|53.66,65.27|N|From "Hacksaw" Jenny.|
 A Green Eggs and Whelps |QID|11279|M|53.10,66.90|N|From Plaguebringer Tillinghast.|
 T Give it a Name |QID|12181|N|To Tobias Sarkhoff. Ignore the follow up.|M|52.01,67.39|
-f New Agamand|M|52.01,67.39|N|Get the flight point at Tobias Sarkhoff.|TAXI|
+f New Agamand|M|52.01,67.39|N|Get the flight point at Tobias Sarkhoff.|TAXI|New Agamand
 C A Tailor-Made Formula |QID|11305|N|Kill and loot Thorvald.|M|46.77,68.24|T|Thorvald|
 T A Tailor-Made Formula |QID|11305|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Apply Heat and Stir |QID|11306|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11305|
@@ -305,7 +305,7 @@ R Kamagua |QID|11507|N|Go to the Ancient Lift and take it across to the island. 
 T Elder Atuik and Kamagua |QID|11507|M|25.0,57.0|N|To Elder Atuik.|
 A Grezzix Spindlesnap |QID|11508|PRE|11507|M|25.0,57.0|N|From Elder Atuik.|
 A Feeding the Survivors |QID|11456|M|25.0,57.0|N|From Elder Atuik.|
-f Kamaguna|ACTIVE|11456|M|49.56,11.58|N|Get the flight point at Celea Frozenmane.|TAXI|
+f Kamaguna|ACTIVE|11456|M|49.56,11.58|N|Get the flight point at Celea Frozenmane.|TAXI|Kamaguna
 C Feeding the Survivors |QID|11456|N|Kill Island Shoveltusks until you get 6 Island Shoveltusk Meat. Kill the Spearfang Worgs too because if you don't, they will kill the Shoveltusks. |M|30.28,60.26|
 T Feeding the Survivors |QID|11456|M|25.0,57.0|N|To Elder Atuik.|
 A Arming Kamagua |QID|11457|PRE|11456|M|25.0,57.0|N|From Elder Atuik.|
