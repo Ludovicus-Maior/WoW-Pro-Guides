@@ -302,7 +302,7 @@ H Shattrath City|QID|10228|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 T Return to Shattrath|QID|10889|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed in Lower City.|
 T Skywing|QID|10898|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed.|
 A The Skettis Offensive.|QID|10879|M|51.76,20.78|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Defender Grashna.\n[color=FF0000]NOTE: [/color]The attack waves begin the moment you accept the quest; be prepared before accepting.|PRE|10889| ; ** breaking auto-accept ~ Hendo72
-K The Skettis Offensive|ACTIVE|10879|M|52.53,21.01|Z|Shattrath City|N|Survive four waves of attack.\n[color=FF0000]NOTE: [/color]Two birds in the first 2 waves, Three Birds in the 3rd wave,and Avatar of Terrok in the final wave.|
+K The Skettis Offensive|ACTIVE|10879|M|52.53,21.01|Z|Shattrath City|N|Survive four waves of attack.\n[color=FF0000]NOTE: [/color]Two birds in the first 2 waves, three Birds in the 3rd wave, and Avatar of Terrok in the final wave.|
 T The Skettis Offensive|QID|10879|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed.|
 ]]
 end)
