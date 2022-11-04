@@ -1,3 +1,31 @@
+# Release 2022.11.03.A
+## Bug Fixes
+* Excess map pins are now gone
+* Add support for professions and crafting recipies using the new DF APIs
+* Add DI professions data
+
+
+## Guide Updates
+### Retail 
+* Achievements: Tortollan
+* Alliance: Terrokkar, Jade Forest
+* Horde: Terrokkar
+* Neutral: Azure Span, Ohnahran Plains, Thaldraszus, Waking Shores
+
+### Classic
+* Nothing
+
+### WotLK
+* Alliance: Alliance 50-55
+* Neutral:
+* Horde: Nagrand, Terrokkar, Howling Fjord, Horde Chapter 2
+
+### Professions
+* Classic: None
+* BC: None
+* Wrath: Engineering
+
+
 # Release 2022.10.29.A
 ## Bug Fixes
 * Retail Crash when opening professions from spells tab fixed
