@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("JamGri7577", "Leveling", "Grizzly Hills", "WowPro Team", "Horde", 3)
 WoWPro:GuideNickname(guide, "Grizzly Hills")
 WoWPro:GuideName(guide, "Grizzly Hills")
-WoWPro:GuideNextGuide(guide, "ScoZul7778")
+WoWPro:GuideNextGuide(guide, "Zul'Drak")
 WoWPro:GuideLevels(guide, 75, 77)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -317,6 +317,5 @@ C Free at Last|QID|12099|N|Head southwest to the plains area. Look for Runed Gia
 C Nice to Meat You |QID|12113|N|If you are not done already, kill Longhoof Grazers and Duskhowl Prowlers to finishing this quest.|M|72.7,37.6|US|
 T Nice to Meat You |QID|12113|N|To Harkor.|M|73.70,34.06|
 T Free at Last |QID|12099|N|To Gavrock.|M|79.70,33.59|
-N Thus ends Grizzly Hills|N|Close this step to go to the next guide.|QID|99999|
 ]]
 end)

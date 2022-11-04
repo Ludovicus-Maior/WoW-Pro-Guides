@@ -121,13 +121,13 @@ A Search Indu'le Village |QID|12106|M|38.1,46.2|PRE|12084|N|From the Image of Ar
 T A Letter for Home |QID|12085|M|38.1,46.3|N|To Overlord Agmar.|
 F Moa'ki Harbor|QID|11958|M|37.5,45.7|N|Fly to Moa'ki Harbor.|
 A Planning for the Future |QID|11960|N|From Trapper Mau'i.|M|48.30,74.30|
-h Moa'ki Harbor |QID|11960|N|Make this inn your home location.|
+h Moa'ki Harbor |ACTIVE|11960|N|Make this inn your home location.|M|48.15,74.76|
 A Let Nothing Go To Waste |QID|11958|N|From Elder Ko'nani.|M|48.10,74.90|
-l Snowfall Glade Pups |QID|11960|S|QO|1|N|Right-click 12 Snowfall Glade Pups, try not to do AoEs near them as it can kill the pups.|M|43.6,71.3|; Snowfall Glade Pup: 12/12
+C Snowfall Glade Pups |QID|11960|QO|1|N|Right-click 12 Snowfall Glade Pups, try not to do AoEs near them as it can kill the pups.|M|43.6,71.3|S|
 C Let Nothing Go To Waste|QID|11958|N|Kill and loot Snowfall Glade Wolvars or Denmothers until you get 6 Stolen Moa'ki Goods.|M|43.6,71.3|S|
 C WANTED: Gigantaur |QID|12090|N|Kill Gigantuar. He wanders around the Snowfall Glade.|M|47,65|T|Gigantaur|
 C Let Nothing Go To Waste|QID|11958|N|Kill and loot Snowfall Glade Wolvars or Denmothers until you get 6 Stolen Moa'ki Goods.|M|43.6,71.3|US|
-l Snowfall Glade Pups |QID|11960|US|QO|1|N|Finishing getting Snowfall Glade Pups.|M|43.6,71.3|; Snowfall Glade Pup: 12/12
+C Snowfall Glade Pups |QID|11960|QO|1|N|Finishing getting Snowfall Glade Pups.|M|43.6,71.3|US|
 T Planning for the Future |QID|11960|N|To Trapper Mau'i.|M|48.30,74.30|
 T Let Nothing Go To Waste |QID|11958|N|To Elder Ko'nani.|M|48.10,74.90|
 A Slay Loguhn |QID|11959|PRE|11958|M|48.0,74.9|N|From Elder Ko'nani.|
@@ -144,7 +144,7 @@ A Freedom for the Lingering |QID|12031|PRE|12030|M|36.62,64.98|N|From the statue
 C Freedom for the Lingering |QID|12031|S|N|Kill Indu'le Fishermen/Warriors/Mystics until you finish this quest.|M|37.2,65.5|
 T Search Indu'le Village |QID|12106|N|Clear to the centre of the village to the Mage-Commander corpse.|M|40,67|
 A The End of the Line |QID|12110|M|40.3,66.9|PRE|12106|N|From the corpse of Mage-Commander Evenstar.|
-N Ley Line Focus information retrieved |QID|12110|QO|1|U|36815|N|Stand next to the Ley Line Focus, and use the Talisman.|; Ley Line Focus information retrieved: 1/1
+C Ley Line Focus information retrieved |QID|12110|QO|1|U|36815|N|Stand next to the Ley Line Focus, and use the Talisman.|; Ley Line Focus information retrieved: 1/1
 C Freedom for the Lingering |QID|12031|US|N|Get out of the lake, and finish kill Indu'le Fishermen/Warriors/Mystics until you finish up.|M|37.2,65.5|
 T Freedom for the Lingering |QID|12031|N|To Elder Mana'loa.|M|36.62,64.98|
 A Conversing With the Depths |QID|12032|PRE|12031|M|36.62,64.98|N|From Elder Mana'loa.|
@@ -301,7 +301,7 @@ A The Perfect Dissemblance |QID|12260|M|73.6,73.5|PRE|12254|N|From Argent Skully
 C The Perfect Dissemblance |QID|12260|N|Go find a Onslaught Raven Priest, then use the mirror on him.|U|37381|
 T The Perfect Dissemblance |QID|12260|M|73.6,73.5|N|To Argent Skully.|
 A A Fall From Grace |QID|12274|M|73.6,73.5|PRE|12260|N|From Argent Skully.|
-N Ring the Bell |QID|12274|QO|1|N|The Onslaught Knights can see through your disguise, so be careful. Head into the abbey. Go right, enter the main hall and take the spiral steps up, right-click the Abbey Bell Rope.|M|72.3,73.5;73.0,73.7;72.9,73.5|CS|; Abbey bell rung: 1/1
+C Ring the Bell |QID|12274|QO|1|N|The Onslaught Knights can see through your disguise, so be careful. Head into the abbey. Go right, enter the main hall and take the spiral steps up, right-click the Abbey Bell Rope.|M|72.3,73.5;73.0,73.7;72.9,73.5|CS|; Abbey bell rung: 1/1
 C A Fall From Grace |QID|12274|N|Head downstairs, talk to the abbot, he's to the left at the tip of the southeastern wing. Once you're done, head outside and follow the High Abbot.|M|73,74|
 C Fire Upon the Waters |QID|12243|N|Head down to the docks, stand next to the plank. Use the Apothecary's Burning Water, shoot for the sails. You've got 2 minutes of distracted deckhands now. Head into the ship, go downstairs and take 2 rights, kill Captain Shely and loot his Rutters, then get the hell out of there.|U|37304|M|71,83|
 T A Fall From Grace |QID|12274|N|To Argent Skully.|M|73.6,73.5|
@@ -316,9 +316,9 @@ A The Denouncement |QID|12273|M|76.8,63.3|PRE|12271|N|From High Executor Wroth.|
 T The Truth Will Out |QID|12283|M|76.8,63.3|N|To High Executor Wroth.|
 A Do Unto Others |QID|12285|N|From High Executor Wroth.|M|76.0,63.0|PRE|12283|
 C Do Unto Others|QID|12285|N|Kill and loot High General Abbendis. Don't worry about the Admiral.|M|71,76|
-N Blacksmith Goodman |QID|12273|QO|3|U|37438|N|Use the rod of compulsion, then finish him off. He's at the blacksmith. |M|71,70|; Blacksmith Goodman's denouncement & death: 1/1
-N Commander Jordan |QID|12273|QO|1|U|37438|N|Use the rod of compulsion, then finish him off. He's upstairs in the barracks. |M|69.7,71.8|; Commander Jordan's denouncement & death: 1/1
-N Stable Master Mercer |QID|12273|QO|4|U|37438|N|Use the rod of compulsion, then finish him off. He's at the stables. |M|68,75|; Stable Master Mercer's denouncement & death: 1/1
+C Blacksmith Goodman |QID|12273|QO|3|U|37438|N|Use the rod of compulsion, then finish him off. He's at the blacksmith. |M|71,70|; Blacksmith Goodman's denouncement & death: 1/1
+C Commander Jordan |QID|12273|QO|1|U|37438|N|Use the rod of compulsion, then finish him off. He's upstairs in the barracks. |M|69.7,71.8|; Commander Jordan's denouncement & death: 1/1
+C Stable Master Mercer |QID|12273|QO|4|U|37438|N|Use the rod of compulsion, then finish him off. He's at the stables. |M|68,75|; Stable Master Mercer's denouncement & death: 1/1
 C The Denouncement |QID|12273|U|37438|N|Use the rod of compulsion, then finish him off. He's halfway down to the coast by all the cannons. |M|73,78|
 l Onslaught Riding Crop |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|T|Onslaught Knight|
 C Fresh Remounts |QID|12214|U|37202|NC|N|Use the Riding crop on the horse and ride it back to Hansel Bauer. Use ability 1 to hand the final horse in. |M|75.9,61.9|
@@ -476,6 +476,5 @@ H Agmar's Hammer|QID|12097|N|Hearth to Agmar's Hammer.|
 T Sarathstra, Scourge of the North|QID|12097|N|To Captain Gort.|M|35.81,48.38|
 F Kor'kron Vanguard|QID|12500|N|Fly to Kor'kron Vanguard.|M|37.5,45.8|
 T Return To Angrathar |QID|12500|N|To Saurfang the Younger. Enjoy the cinematic. :D|M|40.7,18.1|
-N Thus ends Dragonblight|N|Close this step to continue onto Grizzly Hills.|
 ]]
 end)
