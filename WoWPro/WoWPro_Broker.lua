@@ -1201,10 +1201,10 @@ function WoWPro:RowUpdate(offset)
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
                 if key1 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembutton"..i..":LeftButton")
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
                 end
                 if key2 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembutton"..i..":LeftButton")
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
                 end
                 itemkb = true
             end
@@ -1361,10 +1361,10 @@ function WoWPro:RowUpdate(offset)
             if not targetkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
                 if key1 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbutton"..i..":LeftButton")
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbuttonSecure"..i..":LeftButton")
                 end
                 if key2 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_targetbutton"..i..":LeftButton")
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_targetbuttonSecure"..i..":LeftButton")
                 end
                 targetkb = true
             end
