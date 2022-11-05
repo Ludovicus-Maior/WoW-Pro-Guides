@@ -209,7 +209,7 @@ h Taunka'le Village|QID|11695|M|76.27,37.19|N|At Pahu Frosthoof.|
 T The Horn of Elemental Fury |QID|11695|M|75.6,35.8|N|To Wind Tamer Barah.|
 A The Collapse |QID|11706|PRE|11695|M|75.6,35.8|N|From Wind Tamer Barah. Wait a moment until she finishes her spell.|
 C The Collapse |QID|11706|U|34968|N|Head to the sinkhole then use the horn. Kill the Nerubian who shows up.|M|70.2,36.11|
-K The Grinder slain |QID|11907|QO|4|N|Use the valve at South Point Station then kill The Grinder.|M|65.2,28.7|
+K The Grinder slain |ACTIVE|11907|QO|4|N|Use the valve at South Point Station then kill The Grinder.|M|65.2,28.7|
 K Twonky slain |QID|11907|QO|1|N|Use the valve at West Point Station and kill Twonky.|M|60.2,20.4|
 K ED-210 slain |QID|11907|QO|2|N|Use the valve at North Point Station and kill ED-102.|M|65.4,17.5|
 C The Sub-Chieftains |QID|11907|QO|3|N|Use the valve at Mid Point Station and kill Max Blasto.|M|63.7,22.5|
@@ -228,7 +228,7 @@ A Fallen Necropolis |QID|11683|M|74.7,23.7|N|From Sage Highmesa.|
 C Fallen Necropolis |QID|11683|N|Kill any undead you see.|S|M|68.2,17.0|
 T Find Bristlehorn |QID|11678|N|To Longerunner Bristlehorn. Head NW to the necropolis, go in the lower entrance on the SW side. Stay left, the NPC is on a small balcony.|M|69.77,12.62|
 A The Doctor and the Lich-Lord |QID|11687|PRE|11678|M|69.8,12.6|N|From Longerunner Bristlehorn.|
-K Lich-Lord Chillwinter |QID|11687|QO|2|N|Go outside and go around to the back entrance to the necropolis. The Lich is on the outside ring all the way at the top.|M|69.6,13.9|
+K Lich-Lord Chillwinter |ACTIVE|11687|QO|2|N|Go outside and go around to the back entrance to the necropolis. The Lich is on the outside ring all the way at the top.|M|69.6,13.9|
 C The Doctor and the Lich-Lord |QID|11687|QO|1|N|The Doctor is in the room below, just drop down.|M|69.9,13.3|
 C Fallen Necropolis |QID|11683|N|Kill any undead you still need.|US|M|68.2,17.0|
 T Fallen Necropolis |QID|11683|N|To Sage Highmesa.|M|74.66,23.63|
@@ -259,7 +259,7 @@ T The Spire of Blood |QID|11654|N|To Snow Tracker Grumm. He's on the lower floor
 A Shatter the Orbs! |QID|11659|PRE|11654|M|87.6,20.0|N|From Snow Tracker Grumm.|
 C Shatter the Orbs! |QID|11659|N|There's a bunch on the first floor and one on the second.|
 K High Priest Andorath |QID|11640|QO|3|N|He's on the upper floor, loot the scroll off his body.|M|88.09,20.91|
-C Neutralize the Central Cauldron |QID|11647|QO|2|U|34806|N|Head a bit SW when you exit the Spire of Blood.|M|86,23|
+C Neutralize the Central Cauldron |QID|11647|QO|2|U|34806|N|Head a bit SW when you exit the Spire of Blood.|M|86.01,23.02|
 C Neutralizing the Cauldrons|QID|11647|U|34806|QO|3|N|The final Cauldron is to the NW.|M|85,20|
 C Words of Power |QID|11640|QO|1|N|He's in the Spire of Decay, upstairs. Head upstairs and kill the 3 necromancers and he'll attack. Do NOT kill the necromancers before he spawns or he will bug.|
 C A Courageous Strike |QID|11641|N|Kill En'kilah Ghouls and Necromancers.|US|M|85.76,26.79|
@@ -269,7 +269,7 @@ T A Courageous Strike |QID|11641|M|76.0,37.3|N|To Durm Icehide.|
 T Words of Power |QID|11640|M|75.9,37.2|N|To Chieftain Wintergale.|
 A Breaking Through |QID|11898|N|From Chieftain Wintergale.|M|75.8,37.2|
 R Go to|QID|11898|M|86.5,28.5|CC|N|the teleporter at the waypoint.|
-K Luthion the Vile|QID|11898|QO|2|M|87.9,29.0|N|Kill Luthion the Vile.|
+K Luthion the Vile|ACTIVE|11898|QO|2|M|87.9,29.0|N|Kill Luthion the Vile.|
 K Vanthryn the Merciless|QID|11898|QO|3|M|85.61,27.48|N|Kill Vanthryn the Merciless.|
 C Breaking Through |QID|11898|QO|1|N|Head to the teleporter above where you teleported in. Head to the western exit from this room, then head upstairs and kill Prince Valanar. Remember, when he channels violet beams, STOP ATTACKING, or your attacks will be reflected.|M|86.3,28.6|
 H Taunka'le Village|QID|11898|U|6948|N|Hearth back to Taunka'le Village.|
@@ -305,8 +305,8 @@ C Kaw the Mammoth Destroyer |QID|11879|N|Find a Wooly Mammoth Bull and right-cli
 A The Honored Ancestors |QID|11605|N|From Elder Atkanok at the Coldrock Quarry.|M|54.69,35.69|
 A Reclaiming the Quarry |QID|11612|N|From Etaruk.|M|54.3,36.1|
 C Reclaiming the Quarry |QID|11612|N|Kill Beryl Treasure Hunters.|S|
-C Elder Sagani |QID|11605|QO|2|N|Click the Elder here.|M|52.84,34.05|
-C Elder Kesuk |QID|11605|QO|1|N|Click the Elder here.|M|50.81,32.38|
+C Elder Sagani |QID|11605|QO|2|N|Identify Elder Sagani.|M|52.84,34.05|T|Elder Sagani|
+C Elder Kesuk |QID|11605|QO|1|N|Identify Elder Kesuk.|M|50.81,32.38|T|Elder Kesuk|
 C The Honored Ancestors |QID|11605|QO|3|N|Click the Elder here.|M|52.32,31.19|
 T The Honored Ancestors |QID|11605|N|To Elder Atkanok.|M|54.69,35.69|
 A The Lost Spirits |QID|11607|PRE|11605|N|From Elder Atkanok.|M|54.69,35.69|
@@ -317,8 +317,8 @@ A Picking Up the Pieces |QID|11609|PRE|11607|N|From Elder Atkanok|M|54.69,35.69|
 C Picking Up the Pieces |QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|S|
 T Reclaiming the Quarry |QID|11612|N|To Etaruk|M|54.3,36.1|
 A Hampering Their Escape |QID|11617|PRE|11612|N|From Etaruk|M|54.3,36.1|
-C East Platform |QID|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform here.|M|52.44,35.31|
-C West Platform |QID|11617|QO|3|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform here.|M|50.48,34.84|
+C East Platform |ACTIVE|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform here.|M|52.44,35.31|
+C West Platform |ACTIVE|11617|QO|3|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform here.|M|50.48,34.84|
 C Hampering Their Escape |QID|11617|QO|2|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the North Platform here.|M|51.91,31.86|
 C Picking Up the Pieces |QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|US|
 T Picking Up the Pieces |QID|11609|N|To Elder Atkanok|M|54.69,35.69|
@@ -459,7 +459,7 @@ A The Sky Will Know |QID|11624|M|50.3,9.7|N|From Spirit Talker Snarlfang.|
 A King Mrgl-Mrgl |QID|11702|N|From Supply Master Taz'ishi.|M|48.96,10.26|
 T The Sky Will Know |QID|11624|N|To Imperean.|M|46.54,9.27|
 A Boiling Point |QID|11627|PRE|11624|M|46.6,9.3|N|From Imperean.|
-C Churn has submitted|QID|11627|QO|2|M|46,13|
+C Churn has submitted|QID|11627|QO|2|M|46.01,13.01|N|Churn is immune to Frost damage.|
 C Boiling Point |QID|11627|QO|1|N|Go east to Charred Rise and defeat Simmer.|M|51,15|
 T Boiling Point |QID|11627|M|46.6,9.3|N|To Imperean.|
 A Motes of the Enraged |QID|11649|PRE|11627|M|46.6,9.3|N|From Imperean.|
