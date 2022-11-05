@@ -22,8 +22,10 @@ return [[
 ;PLACED F Windsong Rise|N|Just after the swirly things on the ground, over the mountain top.|M|61.5,64.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16063|
 ;F Dragonspring Summit|N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16061|
 ;PLACED F Rusza'thar Reach|N|Floating above the tower.|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16062|
-
+;PLACED F Rubyscale Outpost|M|48.84 86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16054|
+        
 A Into the Plains|QID|65779|PRE|72267|M|48.27,88.68|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|
+$ Rubyscale Outpost Glyph|M|48.84 86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16054|
 T Into the Plains|QID|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Proving Oneself|QID|65780|PRE|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Proving Oneself|QID|65780|M|78.55,26.65|Z|2023;Ohn'ahran Plains|QO|1|N|Blazing Proto-Dragon slain.|
@@ -51,7 +53,7 @@ T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To 
 T Making Introductions|QID|65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Toward the City|QID|65803|PRE|65802&65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Toward the City|QID|65803|M|83.15,23.78|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Let Tomul know you are ready to go.|
-C Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|NC|N|Listen to the Shikaar stories (Optional)There is a 'dog', named [color=0060ee]Stout Riding Baker[/color] walking in the caravan you can ride if you want to afk or have your hands free for chatting. Or if you wanna just go fast make it to the 1st stop.|
+C Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|NC|N|Listen to the Shikaar stories. (Optional)There is a 'dog', named [color=0060ee]Stout Riding Baker[/color] walking in the caravan you can ride if you want to afk or have your hands free for chatting. Or if you wanna just go fast, ride/fly on your own directly to the 1st stop.|
 T Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A For Food and Rivalry|QID|65804|PRE|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|N|Kill animals as you pass thru their area and collect the fresh game meat. Don't try to get them all, we will be back.|S|IZ|14094|
