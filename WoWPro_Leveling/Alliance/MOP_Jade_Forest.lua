@@ -310,7 +310,7 @@ C Vessels of the Spirit|QID|29750|S|M|40.69,14.85|N|Kill Shan'ze Spiritclaws for
 C Ritual Artifacts|QID|29751|QO|2|M|41.62,14.27|NC|N|Get the Chipped Ritual Bowl|
 C Ritual Artifacts|QID|29751|QO|1|M|42.63,15.74|NC|N|Get the Jade Cong|
 ; [aldavor] added rank 3 since it's achiev not quest.
-R Spirit Binders|QID|967540003|M|42.26, 17.47|ACH|6754;3|N|Exploration>The Dark Heart of the Mogu.|RANK|3|
+$ Spirit Binders|QID|967540003|M|42.26, 17.47|ACH|6754;3|N|Exploration>The Dark Heart of the Mogu.|RANK|3|
 C Ritual Artifacts|QID|29751|QO|3|M|42.3,17.09|NC|N|Get the Pungent Ritual Candle|
 C Vessels of the Spirit|QID|29750|US|M|40.69,14.85|N|Kill Shan'ze Spiritclaws for Spirit Bottles.|
 C The Wayward Dead|QID|29752|US|U|74771|M|40.38,14.76|N|Use Pei-Zhi's staff to release the Wandering Spirits.|
