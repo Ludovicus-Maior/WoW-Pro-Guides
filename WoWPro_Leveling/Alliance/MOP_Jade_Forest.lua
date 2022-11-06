@@ -365,7 +365,7 @@ A Burning Bright|QID|29631|PRE|29627|M|38.02,23.80|N|From Guard Shan Long, outsi
 C Burning Bright|QID|29631|S|M|36,21|N|Kill six Waxwood Hunters.|
 C A Steady Hand|QID|29629|NC|S|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
 R Owen's Wishing Well|QID|29628|M|39.4,7.3|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found.|RANK|3|
-C A Steady Hand|QID|29629|US|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
+C A Steady Hand|QID|29629|US|NC|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
 C Burning Bright|QID|29631|US|M|36,21|N|Kill six Waxwood Hunters.|
 C And a Heavy Fist|QID|29630|S|M|37,17|N|Kill Greenwood Tricksters as you approach the next objective|
 C A Strong Back|QID|29628|NC|QO|1|M|37.8,17.6|N|Obtain the Boiling Cauldron.|

@@ -61,7 +61,7 @@ A Primal Pests|QID|70123|PRE|67700|M|82.16,31.86|Z|2022|N|From Scalecommander Az
 A Primal Pests|QID|65453|PRE|65444|M|80.65,27.59|Z|2022|N|From Scalecommander Cinderthresh.|FACTION|Horde|
 A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022|N|From Thaelin Darkanvil.|FACTION|Alliance|
 A Practice Materials|QID|65451|PRE|65444|M|80.60,27.65|Z|2022|N|From Boss Magor.|FACTION|Horde|
-l Dragon Isles Supply Bag|QID|72708|L|202081|N|Kill Proto Drakes till the item drops|S!US|
+;l Dragon Isles Supply Bag|QID|72708|L|202081|N|Kill Proto Drakes till the item drops|S!US|
 ;Currently bugged on Beta. Cant accept the quest.
 ;A Dragon Isles Supplies|QID|72708|M|PLAYER|N|Use the Dragon Isles Supply Bag from your inventroy.|U|202081|
 C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022|N|Kill the Proto-Whelp and collect their scales.|S|
@@ -110,7 +110,7 @@ T From Such Great Heights|QID|66101|M|75.84,33.50|Z|2022|N|To Aster Cloudgaze.|F
 ;T Dragon Isles Supplies|QID|72708|M|76.43,34.50|N|Turn into Haephesta.|
 A Quality Assurance|QID|69965|PRE|67053^66110|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|
 A Always Be Crafting|QID|66112|PRE|67053^66110|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|RANK|2|
-f Wingrest Embassy|QID|66112|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|
+f Wingrest Embassy|ACTIVE|66112|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|
 C Excuse the Mess|QID|69911|M|76.33,35.62|Z|2022|QO|1|CHAT|N|Tell Ambassador Fastrasz that you are a new visitor.|
 C Excuse the Mess|QID|69911|M|76.29,35.59|Z|2022|QO|2|NC|N|Embassy Visitor Log signed. It doesn't matter which options you choose, Have Fun!|
 C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022|QO|3|NC|N|Read the stone tablet.|
@@ -168,7 +168,7 @@ C A Quack For Help|QID|66196|M|74.72,42.21|Z|2022|NC|N|Bubbled Duckling brought 
 T Don't Be So Shellfish|QID|66106|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Quack For Help|QID|66196|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Sledgehammer of a Solution|QID|66108|M|74.41,42.14|Z|2022|N|To Ecologist Iskha.|
-A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|IZ|13723|RANK|2|
+A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|IZ|13723|RANK|2|LVL|-70|
 C Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Stick around to do the bonus objective if you want.|S|
 C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|NC|N|Wrathion met at Scalecracker Keep.|
 T Time for a Reckoning|QID|65991|M|66.36,34.99|Z|2022|N|To Wrathion.|
@@ -187,7 +187,7 @@ T Killjoy|QID|65993|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T Blacktalon Intel|QID|65992|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T The Obsidian Citadel|QID|65995|M|62.65,33.19|Z|2022|N|To Wrathion.|
 A Veteran Reinforcements|QID|65996|PRE|65993&65992&65995|M|62.77,33.10|Z|2022|N|From Majordomo Selistra.|
-C Djaradin Djustice|QID|65994|M|61.24,36.24|Z|2022|N|If you are planning to do the bonus objective, finish it up before you get to the injured drakonids.|US|
+C Djaradin Djustice|QID|65994|M|61.24,36.24|Z|2022|N|If you are planning to do the bonus objective, finish it up before you get to the injured drakonids.|US|LVL|-70|
 T Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autocompleted.|IZ|13723|
 C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|N|Click the drakonids to heal them.|S|
 A Fighting Fire with... Water|QID|66998|PRE|65993&65992&65995|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|RANK|2|
