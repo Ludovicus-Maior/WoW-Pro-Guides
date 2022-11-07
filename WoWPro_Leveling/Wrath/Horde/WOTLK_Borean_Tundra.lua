@@ -6,7 +6,7 @@ WoWPro:GuideLevels(guide, 71, 73)
 WoWPro:GuideSteps(guide, function()
 return [[
 b Borean Tundra|QID|11167|M|44.82,62.19|Z|Orgrimmar|N|Ride up the elevators and hop in the zeppelin to Borean Tundra.|
-t To Northrend!|QID|60097|M|PLAYER|N|Quest turn-in on quest tracker once you enter Howling Fjord.|
+t To Northrend!|QID|60097|M|PLAYER|N|Quest turn-in on quest tracker once you enter Borean Tundra.|
 A Hellscream's Vigil |QID|11585|M|41.6,54.0|N|From Warsong Recruitment Officer.|
 T Hellscream's Vigil |QID|11585|M|41.3,53.6|N|To Garrosh Hellscream.|
 A The Defense of Warsong Hold |QID|11596|PRE|11585|M|41.3,53.6|N|From High Overlord Saurfang.|
@@ -26,12 +26,11 @@ T Patience is a Virtue that We Don't Need |QID|11606|M|43.3,55.4|N|To Quartermas
 A Bury Those Cockroaches! |QID|11608|PRE|11606|M|43.3,55.4|N|From Quartermaster Holgoth.|
 T Taking Back Mightstone Quarry |QID|11598|M|43.2,55.0|N|To Overlord Razgor.|
 A Cutting Off the Source |QID|11602|PRE|11598|M|43.2,55.0|N|From Overlord Razgor.|
-A Untold Truths |QID|11614|PRE|11598|M|43.2,55.0|N|From Shadowstalker Barthus.|
-;QO
-N Blast the Eastern Sinkhole |QID|11608|QO|2|U|34710|N|Go down to the left of the barricades, you'll find a hole blocked by webs. Stand on it and use your Depth Charge.|M|44.23,56.75|
+A Untold Truths |QID|11614|PRE|11598|M|43.2,55.0|N|From Shadowstalker Barthus.
+C Blast the Eastern Sinkhole |QID|11608|QO|2|U|34710|N|Go down to the left of the barricades, you'll find a hole blocked by webs. Stand on it and use your Depth Charge.|M|44.23,56.75|
 C Cutting Off the Source|QID|11602|N|Head SW to a set of scaffolds. The Nerub'kar Egg Sacks are on then, they look like eggs in a cup. Go up the scaffold, destroying the eggs, then continue SW and head down the other scaffold, destroying eggs. Continue till you finish the quest.|M|43,59|
-N Blast the Southern Sinkhole |QID|11608|QO|1|U|34710|N|It's about 20 paces NW of the scaffolds.|M|41.6,58.3|
-N Blast the Western Sinkhole |QID|11608|QO|3|U|34710|N|Go NW, there's a narrow path.|M|39.8,52.5|
+C Blast the Southern Sinkhole |QID|11608|QO|1|U|34710|N|It's about 20 paces NW of the scaffolds.|M|41.6,58.3|
+C Blast the Western Sinkhole |QID|11608|QO|3|U|34710|N|Go NW, there's a narrow path.|M|39.8,52.5|
 T Untold Truths |QID|11614|N|To Shadowstalker Luther's corpse. He's just next to the sinkhole.|M|40.1,52.1|
 A Nerub'ar Secrets|QID|11615|PRE|11614|M|40.1,52.1|N|From Shadowstalker Luther's corpse.|
 C Bury Those Cockroaches!|QID|11608|QO|4|U|34710|N|The final sinkhole is to the NE.|M|41.3,50.4|
@@ -73,9 +72,9 @@ T Horn of the Ancient Mariner |QID|11660|M|32.3,54.3|N|To Waltor of Pal'ea.|
 A Orabus the Helmsman |QID|11661|PRE|11660|M|32.3,54.3|N|From Waltor of Pal'ea.|
 T Tanks a lot... |QID|11651|M|32.2,54.1|N|To Annihilator Grek'lor.|
 A The Plains of Nasam |QID|11652|PRE|11651|M|32.2,54.1|N|From Annihilator Grek'lor.|
-N Burn Bor's Hammer |QID|11656|QO|3|U|34830|N|Head into the mist, the first ship is at .|M|30,53|
-N Burn The Kur Drakkar |QID|11656|QO|2|U|34830|N|To the north, just next to The Serpent's Maw. |M|31,49|
-N Burn the Serpent's Maw |QID|11656|QO|1|U|34830|N|Next to the ship you just burned. |M|31.5,48.2|
+C Burn Bor's Hammer |QID|11656|QO|3|U|34830|N|Head into the mist, the first ship is at .|M|30,53|
+C Burn The Kur Drakkar |QID|11656|QO|2|U|34830|N|To the north, just next to The Serpent's Maw. |M|31,49|
+C Burn the Serpent's Maw |QID|11656|QO|1|U|34830|N|Next to the ship you just burned. |M|31.5,48.2|
 C Orabus the Helmsman |QID|11661|U|34844|N|Head south to the Warsong Jetty. Head to the end of the jetty and use the Horn. Kill all comers till you complete the quest. |M|26.7,54.6|
 C Burn in Effigy |QID|11656|QO|4|U|34830|N|The final ship is just to the south.|M|30,62|
 T Burn in Effigy |QID|11656|M|32.3,54.3|N|To Waltor of Pal'ea.|
@@ -108,8 +107,8 @@ A Merciful Freedom |QID|11676|PRE|11618|M|37.9,52.6|N|From Shadowstalker Canariu
 A Damned Filthy Swine |QID|11688|M|37.9,52.3|N|From Farmer Torp.|
 C Merciful Freedom|QID|11676|N|Collect keys from Warsong Aberrations and En'kilah Necrolords to free prisoners.|S|
 C Damned Filthy Swine|QID|11688|N|Kill 10 Unliving Swine.|S|
-N Torp's Farm|QID|11686|QO|2|N|Head over to Torp's Farm, next to the sparkling flag.|M|36,53|
-N Warsong Granary|QID|11686|QO|1|N|Now head to the Warsong Granary.|M|35,55|
+C Torp's Farm|QID|11686|QO|2|N|Head over to Torp's Farm, next to the sparkling flag.|M|36,53|
+C Warsong Granary|QID|11686|QO|1|N|Now head to the Warsong Granary.|M|35,55|
 C The Warsong Farms|QID|11686|QO|3|N|Finally head to the Slaughterhouse.|M|39.51,47.37|
 C Merciful Freedom|QID|11676|N|Collect keys from Warsong Aberrations and En'kilah Necrolords to free prisoners.|US|M|36.4,48.1|
 C Damned Filthy Swine|QID|11688|N|Finish killing the 10 Unliving Swine.|US|
@@ -162,9 +161,8 @@ A Scouting the Sinkholes |QID|11684|M|77.1,37.8|N|From Greatfather Mahan.|
 T Hellscream's Champion |QID|11916|M|75.9,37.2|N|To Chieftain Wintergale.|
 A Load'er Up! |QID|11881|M|77.5,37.0|N|From Fezzix Geartwist.|
 A Sage Highmesa is Missing |QID|11674|M|77.3,36.9|N|From Greatmother Taiga.|
-;QO
-N Mark Location of South Sinkhole|QID|11684|U|34920|QO|1|N|Go to the first sinkhole.|M|70.36,36.67|
-N Mark Location of Northeast Sinkhole|QID|11684|U|34920|QO|2|N|Now the second one.|M|69.66,32.54|
+C Mark Location of South Sinkhole|QID|11684|U|34920|QO|1|N|Go to the first sinkhole.|M|70.36,36.67|
+C Mark Location of Northeast Sinkhole|QID|11684|U|34920|QO|2|N|Now the second one.|M|69.66,32.54|
 C Scouting the Sinkholes |QID|11684|U|34920|QO|3|N|Now mark the final sinkhole.|M|66.36,32.51|
 A Emergency Supplies |QID|11887|N|Head SW and look for a dead gnome.|M|64,36|
 C Emergency Supplies |QID|11887|N|You're looking for gnome bodies identical to the one we just got the quest from. They're all over the southern half of the Scaling Pools. You don't need to dismount.|M|62.9,35.8|
@@ -190,11 +188,9 @@ C The Heart of the Elements |QID|11685|N|Head SE to the shore. Kill and loot the
 T The Heart of the Elements |QID|11685|M|75.6,35.8|N|To Wind Tamer Barah.|
 A The Horn of Elemental Fury |QID|11695|PRE|11685|M|75.6,35.8|N|From Wind Tamer Barah.|
 K Chieftain Gurgleboggle |QID|11695|L|34962|N|He's in the gorloc camp to the North. Kill and loot him.|M|78,29|
-;QO
 l Lower Horn Half |QID|11695|QO|2|N|Gurglebobble's Bauble should be in a pond nearby.|M|78.71,28.39|
 l 5 Uncured Hides|QID|11894|L|35288 5|N|Kill Marsh Caribou until you have 5 Uncured hides.|US|
 C Patching Up |QID|11894|U|35288|N|Head to the steam vent. Use the hides on top of the vent.|M|75.85,32.48|
-;add U, change order of stickies
 C Weakness to Lightning |QID|11896|N|Use the Sage's Lightning Rod on robots and destroy them.|M|65,23|S|U|35352|
 C Souls of the Decursed |QID|11899|U|35401|N|Use Greatmother's Soulcatcher on dead Mechagnomes.|M|65,23|S|
 C Cleaning Up the Pools |QID|11906|N|Pick up Spare Parts off the ground.|M|65,23|
@@ -211,11 +207,9 @@ A Defeat the Gearmaster |QID|11909|M|77.3,36.9|N|From Greatmother Taiga.|
 A Shrouds of the Scourge |QID|11628|M|75.9,37.2|N|From Chieftain Wintergale.|
 h Taunka'le Village|QID|11695|M|76.27,37.19|N|At Pahu Frosthoof.|
 T The Horn of Elemental Fury |QID|11695|M|75.6,35.8|N|To Wind Tamer Barah.|
-;expand N
 A The Collapse |QID|11706|PRE|11695|M|75.6,35.8|N|From Wind Tamer Barah. Wait a moment until she finishes her spell.|
 C The Collapse |QID|11706|U|34968|N|Head to the sinkhole then use the horn. Kill the Nerubian who shows up.|M|70.2,36.11|
-;fix QO
-K The Grinder slain |QID|11907|QO|4|N|Use the valve at South Point Station then kill The Grinder.|M|65.2,28.7|
+K The Grinder slain |ACTIVE|11907|QO|4|N|Use the valve at South Point Station then kill The Grinder.|M|65.2,28.7|
 K Twonky slain |QID|11907|QO|1|N|Use the valve at West Point Station and kill Twonky.|M|60.2,20.4|
 K ED-210 slain |QID|11907|QO|2|N|Use the valve at North Point Station and kill ED-102.|M|65.4,17.5|
 C The Sub-Chieftains |QID|11907|QO|3|N|Use the valve at Mid Point Station and kill Max Blasto.|M|63.7,22.5|
@@ -234,11 +228,9 @@ A Fallen Necropolis |QID|11683|M|74.7,23.7|N|From Sage Highmesa.|
 C Fallen Necropolis |QID|11683|N|Kill any undead you see.|S|M|68.2,17.0|
 T Find Bristlehorn |QID|11678|N|To Longerunner Bristlehorn. Head NW to the necropolis, go in the lower entrance on the SW side. Stay left, the NPC is on a small balcony.|M|69.77,12.62|
 A The Doctor and the Lich-Lord |QID|11687|PRE|11678|M|69.8,12.6|N|From Longerunner Bristlehorn.|
-;QO
-K Lich-Lord Chillwinter |QID|11687|QO|2|N|Go outside and go around to the back entrance to the necropolis. The Lich is on the outside ring all the way at the top.|M|69.6,13.9|
+K Lich-Lord Chillwinter |ACTIVE|11687|QO|2|N|Go outside and go around to the back entrance to the necropolis. The Lich is on the outside ring all the way at the top.|M|69.6,13.9|
 C The Doctor and the Lich-Lord |QID|11687|QO|1|N|The Doctor is in the room below, just drop down.|M|69.9,13.3|
 C Fallen Necropolis |QID|11683|N|Kill any undead you still need.|US|M|68.2,17.0|
-; fix M
 T Fallen Necropolis |QID|11683|N|To Sage Highmesa.|M|74.66,23.63|
 T The Doctor and the Lich-Lord |QID|11687|M|74.7,23.7|N|To Sage Highmesa.|
 A Return with the Bad News |QID|11689|PRE|11687|M|74.7,23.7|N|From Sage Highmesa.|
@@ -251,26 +243,23 @@ T Defeat the Gearmaster |QID|11909|M|77.3,36.9|N|To Greatmother Taiga.|
 C The Bad Earth |QID|11630|N|Ride NE, the earth can be found in the area west and south of the Temple City of En'kilah (that's north, NE, and east of Taunka'le Village). You're looking for little patches of soil on the ground.|M|76.1,28.0|
 T The Bad Earth |QID|11630|M|75.9,37.2|N|To Chieftain Wintergale.|
 A Blending In |QID|11633|PRE|11630|M|75.9,37.2|N|From Chieftain Wintergale.|
-;QO
-N Scout Spire of Pain |QID|11633|QO|3|U|34782|N|Head to the city and use the cloak. You're invisible to everything except abominations. If they get in the way or detect you, kill them and re-equip the cloak. Go east to the Spire of Pain. You can be mounted while using the cloak.|M|89.2,28.7|
-N Scout Spire of Blood |QID|11633|QO|2|U|34782|N|Go east to the Spire of Blood - you need to climb the outside stairs to either side of the normal doorway. |M|88,21|
+C Scout Spire of Pain |QID|11633|QO|3|U|34782|N|Head to the city and use the cloak. You're invisible to everything except abominations. If they get in the way or detect you, kill them and re-equip the cloak. Go east to the Spire of Pain. You can be mounted while using the cloak.|M|89.2,28.7|
+C Scout Spire of Blood |QID|11633|QO|2|U|34782|N|Go east to the Spire of Blood - you need to climb the outside stairs to either side of the normal doorway. |M|88,21|
 C Blending In |QID|11633|QO|1|U|34782|N|Go east to the Spire of Decay. |M|84,22|
-;N
 T Blending In |QID|11633|M|75.9,37.2|N|To Chieftain Wintergale. Don't forget to equip your regular cloak again.|
 A Words of Power |QID|11640|PRE|11633|M|75.9,37.2|N|From Chieftain Wintergale.|
 A Neutralizing the Cauldrons |QID|11647|M|76.0,37.3|N|From Sage Aeire.|
 A A Courageous Strike |QID|11641|M|76.0,37.3|N|From Durm Icehide.|
 C A Courageous Strike |QID|11641|N|Kill En'kilah Ghouls and Necromancers.|S|M|85.76,26.79|
-;QO
 K High Priest Talet-Kha |QID|11640|QO|2|N|Head into En'kilah again. Go east to the Spire of Pain, kill the Mystical Webbings and the priest will attack you. Loot the scroll off his body.|M|89,29|
-N Neutralize the East Cauldron |QID|11647|QO|1|U|34806|N|It's just to the south as you exit the spire. Walk up to it and use the totem.|M|87.68,29.96|
+C Neutralize the East Cauldron |QID|11647|QO|1|U|34806|N|It's just to the south as you exit the spire. Walk up to it and use the totem.|M|87.68,29.96|
 K Darkfallen Bloodbearer |QID|11654|L|34815|N|Kill and loot Darkfallen Bloodbearer. He patrols between the Spire of Blood and the entrance.|M|88,22|T|Darkfallen Bloodbearer|
 A The Spire of Blood |QID|11654|U|34815|M|87.7,22.0|N|Right click the Vial of Fresh Blood to accept the quest.|
 T The Spire of Blood |QID|11654|N|To Snow Tracker Grumm. He's on the lower floor of the Spire of Blood.|M|87.6,20.0|
 A Shatter the Orbs! |QID|11659|PRE|11654|M|87.6,20.0|N|From Snow Tracker Grumm.|
 C Shatter the Orbs! |QID|11659|N|There's a bunch on the first floor and one on the second.|
 K High Priest Andorath |QID|11640|QO|3|N|He's on the upper floor, loot the scroll off his body.|M|88.09,20.91|
-N Neutralize the Central Cauldron |QID|11647|QO|2|U|34806|N|Head a bit SW when you exit the Spire of Blood.|M|86,23|
+C Neutralize the Central Cauldron |QID|11647|QO|2|U|34806|N|Head a bit SW when you exit the Spire of Blood.|M|86.01,23.02|
 C Neutralizing the Cauldrons|QID|11647|U|34806|QO|3|N|The final Cauldron is to the NW.|M|85,20|
 C Words of Power |QID|11640|QO|1|N|He's in the Spire of Decay, upstairs. Head upstairs and kill the 3 necromancers and he'll attack. Do NOT kill the necromancers before he spawns or he will bug.|
 C A Courageous Strike |QID|11641|N|Kill En'kilah Ghouls and Necromancers.|US|M|85.76,26.79|
@@ -279,9 +268,8 @@ T Neutralizing the Cauldrons |QID|11647|M|76.0,37.3|N|To Sage Aeire.|
 T A Courageous Strike |QID|11641|M|76.0,37.3|N|To Durm Icehide.|
 T Words of Power |QID|11640|M|75.9,37.2|N|To Chieftain Wintergale.|
 A Breaking Through |QID|11898|N|From Chieftain Wintergale.|M|75.8,37.2|
-R Go to|QID|11898|M|86.5,28.5|CC|N|the teleporter at the waypoint.|
-;QO
-K Luthion the Vile|QID|11898|QO|2|M|87.9,29.0|N|Kill Luthion the Vile.|
+R Go to|ACTIVE|11898|M|86.5,28.5|CC|N|the teleporter at the waypoint.|
+K Luthion the Vile|ACTIVE|11898|QO|2|M|87.9,29.0|N|Kill Luthion the Vile.|
 K Vanthryn the Merciless|QID|11898|QO|3|M|85.61,27.48|N|Kill Vanthryn the Merciless.|
 C Breaking Through |QID|11898|QO|1|N|Head to the teleporter above where you teleported in. Head to the western exit from this room, then head upstairs and kill Prince Valanar. Remember, when he channels violet beams, STOP ATTACKING, or your attacks will be reflected.|M|86.3,28.6|
 H Taunka'le Village|QID|11898|U|6948|N|Hearth back to Taunka'le Village.|
@@ -317,9 +305,8 @@ C Kaw the Mammoth Destroyer |QID|11879|N|Find a Wooly Mammoth Bull and right-cli
 A The Honored Ancestors |QID|11605|N|From Elder Atkanok at the Coldrock Quarry.|M|54.69,35.69|
 A Reclaiming the Quarry |QID|11612|N|From Etaruk.|M|54.3,36.1|
 C Reclaiming the Quarry |QID|11612|N|Kill Beryl Treasure Hunters.|S|
-;QO
-N Elder Sagani |QID|11605|QO|2|N|Click the Elder here.|M|52.84,34.05|
-N Elder Kesuk |QID|11605|QO|1|N|Click the Elder here.|M|50.81,32.38|
+C Elder Sagani |QID|11605|QO|2|N|Identify Elder Sagani.|M|52.84,34.05|T|Elder Sagani|
+C Elder Kesuk |QID|11605|QO|1|N|Identify Elder Kesuk.|M|50.81,32.38|T|Elder Kesuk|
 C The Honored Ancestors |QID|11605|QO|3|N|Click the Elder here.|M|52.32,31.19|
 T The Honored Ancestors |QID|11605|N|To Elder Atkanok.|M|54.69,35.69|
 A The Lost Spirits |QID|11607|PRE|11605|N|From Elder Atkanok.|M|54.69,35.69|
@@ -330,9 +317,8 @@ A Picking Up the Pieces |QID|11609|PRE|11607|N|From Elder Atkanok|M|54.69,35.69|
 C Picking Up the Pieces |QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|S|
 T Reclaiming the Quarry |QID|11612|N|To Etaruk|M|54.3,36.1|
 A Hampering Their Escape |QID|11617|PRE|11612|N|From Etaruk|M|54.3,36.1|
-;QO
-N East Platform |QID|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform here.|M|52.44,35.31|
-N West Platform |QID|11617|QO|3|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform here.|M|50.48,34.84|
+C East Platform |ACTIVE|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform here.|M|52.44,35.31|
+C West Platform |ACTIVE|11617|QO|3|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform here.|M|50.48,34.84|
 C Hampering Their Escape |QID|11617|QO|2|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the North Platform here.|M|51.91,31.86|
 C Picking Up the Pieces |QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|US|
 T Picking Up the Pieces |QID|11609|N|To Elder Atkanok|M|54.69,35.69|
@@ -357,7 +343,7 @@ A The Assassination of Harold Lane |QID|11892|PRE|11879|N|From Arch Druid Lathor
 C The Assassination of Harold Lane |QID|11892|U|35293|N|Use the Cenarion Horn at the start of the fight to take out a lot of his Health.|M|49.91,41.54|
 T The Assassination of Harold Lane |QID|11892|N|To Arch Druid Lathorius.|M|57.04,44.25|
 A Not Without a Fight! |QID|11949|N|From Ataika.|M|63.81,46.10|
-A Preparing for the Worst |QID|11945|N|From Utaik.|M|64.0,45.7|
+A Preparing for the Worst |QID|11945|N|From Utaik.\n\n Can be skipped (Daily)|M|64.0,45.7|
 C Preparing for the Worst |QID|11945|N|Pick up these supplies off the ground.|M|65.76,47.55|S|
 C Not Without a Fight! |QID|11949|N|Kill Kvaldir Raiders.|M|65.76,47.55|
 T Not Without a Fight! |QID|11949|N|To Ataika.|M|63.81,46.10|
@@ -372,9 +358,7 @@ A The Tides Turn |QID|11968|PRE|11961|N|From Elder Muahit.|M|67.21,54.84|
 C The Tides Turn |QID|11968|N|Kill Heigarr the Horrible.|M|67.5,56.7|
 T The Tides Turn |QID|11968|N|To Elder Muahit.|M|67.21,54.84|
 R Unu'pe |QID|11574|M|77.5,51|N|Head over to Une'pe.|
-;change F to f since guide never states to get the Amber ledge FP, get the Unu'pe FP instead.
 f Unu'pe|QID|11587|N|Get the flight point.|M|78.54,51.53|
-;Then ride to Amber Ledge
 R Amber Ledge|QID|11587|N|Ride to Amber Ledge.|M|45,3|
 T Too Close For Comfort |QID|11574|M|45.26,33.38|N|To Librarian Donathan.|
 A Prison Break |QID|11587|N|From Librarian Donathan.|M|45.27,33.36|
@@ -422,12 +406,11 @@ K Coldarra Spellbinders |QID|11941|L|35648|N|Kill Coldarra Spellbinders until on
 A Puzzling... |QID|11941|U|35648|N|(UI Alert)|M|35.0,28.0|
 T Puzzling... |QID|11941|N|To Raelorasz.|M|33.31,34.53|
 A The Cell |QID|11943|PRE|11941|N|From Raelorasz.|M|33.31,34.53|
-;QO
-N Southern Coldarra Reading |QID|11900|QO|2|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|
+C Southern Coldarra Reading |QID|11900|QO|2|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|
 l Energy Core |QID|11943|QO|1|N|Kill Warbringer Goredrak and loot the Energy Core.|M|24.24,28.92|
-N Western Coldarra Reading |QID|11900|QO|4|N|Go northwest to find another Coldarra Geological Monitor and click it.|M|22.36,24.17|
+C Western Coldarra Reading |QID|11900|QO|4|N|Go northwest to find another Coldarra Geological Monitor and click it.|M|22.36,24.17|
 C The Cell |QID|11943|QO|2|N|Kill General Cerulean and loot the Prison Casing.|M|27.31,20.40|
-N Northern Coldarra Reading |QID|11900|QO|3|N|Go east to find another Coldarra Geological Monitor and click it.|M|31.31,20.29|
+C Northern Coldarra Reading |QID|11900|QO|3|N|Go east to find another Coldarra Geological Monitor and click it.|M|31.31,20.29|
 T The Cell |QID|11943|N|To Raelorasz.|M|33.31,34.53|
 A Keristrasza |QID|11946|PRE|11943|U|35671|N|Use your Augmented Arcane Prison to make Keristrasza appear.|M|33.1,34.11|
 T Keristrasza |QID|11946|N|To Keristraza.|M|33.1,34.11|
@@ -467,7 +450,6 @@ A Cracking the Code |QID|11931|PRE|11919|N|From Raelorasz.|M|33.31,34.53|
 N Drake Hunt |QID|11931|N|Drake Hunt is now a repeatable daily quest. You may pick it up again and if you wish and do it again after the next step.|
 C Cracking the Code |QID|11931|N|Kill Inquisitor Caleras to the north and loot the Azure Codex. Kill Coldarra Spellbinders around him until you get 3 Shimmering Runes.|M|32.77,27.84|
 T Cracking the Code |QID|11931|N|To Raelorasz.|M|33.31,34.53|
-;Change FP, not picked up outpost yet
 F Amber Ledge|QID|12486|N|Fly back to Amber Ledge.|M|33.12,34.46|
 R Bor'gorok Outpost|QID|12486|N|Ride to Bor'gorok Outpost.|M|49.62,10.58|
 f Bor'gorok Outpost|QID|12486|N|Get the flightpoint as Kimbiza|M|49.59,10.99|
@@ -475,11 +457,9 @@ A Report to Steeljaw's Caravan |QID|11591|LEAD|11594|N|From Overlord Bor'gorok.|
 T To Bor'gorok Outpost, Quickly! |QID|12486|M|50.3,9.7|N|To Spirit Talker Snarlfang.|
 A The Sky Will Know |QID|11624|M|50.3,9.7|N|From Spirit Talker Snarlfang.|
 A King Mrgl-Mrgl |QID|11702|N|From Supply Master Taz'ishi.|M|48.96,10.26|
-;fix M
 T The Sky Will Know |QID|11624|N|To Imperean.|M|46.54,9.27|
 A Boiling Point |QID|11627|PRE|11624|M|46.6,9.3|N|From Imperean.|
-;QO
-N Churn has submitted|QID|11627|QO|2|M|46,13|
+C Churn has submitted|QID|11627|QO|2|M|46.01,13.01|N|Churn is immune to Frost damage.|
 C Boiling Point |QID|11627|QO|1|N|Go east to Charred Rise and defeat Simmer.|M|51,15|
 T Boiling Point |QID|11627|M|46.6,9.3|N|To Imperean.|
 A Motes of the Enraged |QID|11649|PRE|11627|M|46.6,9.3|N|From Imperean.|
@@ -499,7 +479,6 @@ C Monitoring the Rift: Winterfin Cavern |QID|12728|U|34669|N|Use the Arcanometer
 A Keymaster Urmgrgl |QID|11569|N|Get this quest from Glrglrglr.|M|37.8,23.2|
 C Keymaster Urmgrgl |QID|11569|N|Go downstairs and kill Urmgrgl for his key.|M|38.75,22.71|
 T Keymaster Urmgrgl |QID|11569|N|To Glrglrglr.|M|37.8,23.2|
-;N
 A Escape from the Winterfin Caverns |QID|11570|N|From Lurgglbr. He may not be around if somebody else is working on the quest.|M|37.8,23.0|
 C Escape from the Winterfin Caverns |QID|11570|N|Escort Lurgglbr outside.|M|38.27,21.94;39.72,21.51;39.50,18.46;40.11,16.70;40.90,16.89;41.36,16.33|CS|
 C Oh Noes, the Tadpoles! |QID|11560|N|Free Murloc Tadpoles by clicking on the cages.|M|40.6,17.5|US|
