@@ -12,13 +12,14 @@ return [[
 
 
 A A Timely Invitation|QID|57249|M|PLAYER|U|171177|N|Use the [Invitation from the Timewalkers] and accept this quest|
-P Caverns of Time|ACTIVE|57249|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room and get to the Caverns of Time|FACTION|Horde|
+U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!|
+
+P Caverns of Time|ACTIVE|57249|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room on the side and get to the Caverns of Time|FACTION|Horde|
 P Caverns of Time|ACTIVE|57249|M|49.36,86.91;43.72,85.36|Z|Stormwind City|CS|N|Go to the portal room on the right and get to the Caverns of Time|FACTION|Alliance|
 
-U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!|
 T A Timely Invitation|QID|57249|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|Turn into Chromie!|
-A A Time to Reflect|QID|43461|M|51.74,38.73|Z|Caverns of Time@Tanaris|N|From Ju'Pa|FACTION|Horde|
-A A Time to Reflect|QID|43323|M|51.51,38.56|Z|Caverns of Time@Tanaris|N|From Llore|FACTION|Alliance|
+A A Time to Reflect|QID|43461|M|51.74,38.73|Z|Caverns of Time@Tanaris|N|From Ju'Pa|FACTION|Horde|NOCACHE|
+A A Time to Reflect|QID|43323|M|51.51,38.56|Z|Caverns of Time@Tanaris|N|From Llore|FACTION|Alliance|NOCACHE|
 
 C A Time to Reflect|QID|43323^43461|CHAT|QG|The Historian|N|Chat with the Historian to get your question. The question will change each time you chat with him, but we have a cheat sheet.|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Arthas's death knights were trained in a floating citadel that was taken by force|N|Acherus|
