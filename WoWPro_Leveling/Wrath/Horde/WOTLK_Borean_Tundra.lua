@@ -268,7 +268,7 @@ T Neutralizing the Cauldrons |QID|11647|M|76.0,37.3|N|To Sage Aeire.|
 T A Courageous Strike |QID|11641|M|76.0,37.3|N|To Durm Icehide.|
 T Words of Power |QID|11640|M|75.9,37.2|N|To Chieftain Wintergale.|
 A Breaking Through |QID|11898|N|From Chieftain Wintergale.|M|75.8,37.2|
-R Go to|QID|11898|M|86.5,28.5|CC|N|the teleporter at the waypoint.|
+R Go to|ACTIVE|11898|M|86.5,28.5|CC|N|the teleporter at the waypoint.|
 K Luthion the Vile|ACTIVE|11898|QO|2|M|87.9,29.0|N|Kill Luthion the Vile.|
 K Vanthryn the Merciless|QID|11898|QO|3|M|85.61,27.48|N|Kill Vanthryn the Merciless.|
 C Breaking Through |QID|11898|QO|1|N|Head to the teleporter above where you teleported in. Head to the western exit from this room, then head upstairs and kill Prince Valanar. Remember, when he channels violet beams, STOP ATTACKING, or your attacks will be reflected.|M|86.3,28.6|
