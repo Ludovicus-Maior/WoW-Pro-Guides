@@ -99,15 +99,23 @@ function WoWPro.GossipInfo_GetText()
 end
 function WoWPro.GossipInfo_SelectActiveQuest(index)
     if WoWPro.RETAIL then
-        return _G.C_GossipInfo.SelectActiveQuest(index)
+        local aQuests = _G.C_GossipInfo.GetActiveQuests()
+        local qid = aQuests[index].questID
+        WoWPro:dbp("GossipInfo_SelectActiveQuest(RETAIL): pick %d/%d", index, qid)
+        return _G.C_GossipInfo.SelectActiveQuest(qid)
     else
+        WoWPro:dbp("GossipInfo_SelectActiveQuest(~RETAIL): pick %d", index)
         return _G.SelectGossipActiveQuest(index)
     end
 end
 function WoWPro.GossipInfo_SelectAvailableQuest(index)
     if WoWPro.RETAIL then
-        return _G.C_GossipInfo.SelectAvailableQuest(index)
+        local aQuests = _G.C_GossipInfo.GetAvailableQuests()
+        local qid = aQuests[index].questID
+        WoWPro:dbp("GossipInfo_SelectAvailableQuest(RETAIL): pick %d/%d", index, qid)
+        return _G.C_GossipInfo.SelectAvailableQuest(qid)
     else
+        WoWPro:dbp("GossipInfo_SelectAvailableQuest(~RETAIL): pick %d", index)
         return _G.SelectGossipAvailableQuest(index)
     end
 end
