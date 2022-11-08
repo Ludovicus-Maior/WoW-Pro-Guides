@@ -958,6 +958,8 @@ function WoWPro.ParseSteps(steps)
         if fini then
           WoWPro.ParseQuestLine(myFaction, zone, i, fini)
           WoWPro.stepcount = i
+        else
+          WoWPro.stepcount = i - 1
         end
     else
         WoWPro.stepcount = i - 1
