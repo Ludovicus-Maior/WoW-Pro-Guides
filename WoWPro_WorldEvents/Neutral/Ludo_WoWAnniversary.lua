@@ -11,14 +11,15 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 
-A A Timely Invitation|QID|57249|M|PLAYER|U|171177|N|Use the [Invitation from the Timewalkers] and accept this quest|
-U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!|
+A A Timely Invitation|LVL|10|QID|57249|M|PLAYER|U|171177|N|Use the [Invitation from the Timewalkers] and accept this quest|
+U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!| ; 18th!
+; U Celebration Package|U|185907|BUFF|359530|N|Hey, use your Celebration Package!| ; 17th
 
 P Caverns of Time|ACTIVE|57249|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room on the side and get to the Caverns of Time|FACTION|Horde|
 P Caverns of Time|ACTIVE|57249|M|49.36,86.91;43.72,85.36|Z|Stormwind City|CS|N|Go to the portal room on the right and get to the Caverns of Time|FACTION|Alliance|
 
-# Only offer on initial entrance.
-A To The Master's Lair|QID|10279|ACTIVE|57249|M|55.26,27.87|Z|Timeless Tunnel@Caverns of Time|N|Get a free ride from the Steward of Time|
+; Only offer on initial entrance.
+A To The Master's Lair|LVL|15|QID|10279|ACTIVE|57249|M|55.26,27.87|Z|Timeless Tunnel@Caverns of Time|N|Get a free ride from the Steward of Time|
 T To The Master's Lair|QID|10279|ACTIVE|57249|M|41.55,38.52|Z|Caverns of Time@Tanaris|N|Turn into Andormu|
 T A Timely Invitation|QID|57249|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|Turn into Chromie!|
 A A Time to Reflect|QID|43461|M|51.74,38.73|Z|Caverns of Time@Tanaris|N|From Ju'Pa|FACTION|Horde|NOCACHE|
@@ -127,6 +128,6 @@ K Seradane|ACTIVE|47253^47254|M|62.9, 26.0|Z|The Hinterlands|QO|3|T|Seradane|
 T The Originals|QID|47254|M|51.75,38.78|Z|Caverns of Time@Tanaris|LVL|30|N|To Ju'Pa|FACTION|Horde|
 T The Originals|QID|47253|M|51.47,38.56|Z|Caverns of Time@Tanaris|LVL|30|N|To Llore|FACTION|Alliance|
 
-N Tomorrow|N|Come back tomorrow for another set of quests.|
+N Tomorrow|N|Come back tomorrow for another set of quests.  There are portals at the entrace to the cave back to the capitol cities.|
 ]]
 end)
