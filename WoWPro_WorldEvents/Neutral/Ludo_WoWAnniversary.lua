@@ -5,24 +5,25 @@
 local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth", "Ludo", "Neutral")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WOW Anniversary")
-WoWPro:GuideQuestTriggers(guide, 43471,43472,47251,47252,43323,43461,47253,47254)
+WoWPro:GuideQuestTriggers(guide, 57249,43461,43323)
 WoWPro:NoCache(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;A The Historians|QID|43472|N|UI From WoW Anniversary Token|FACTION|Horde|
-;A The Historians|QID|43471|N|UI From WoW Anniversary Token|FACTION|Alliance|
-T The Historians|QID|43472|M|36.36,74.25|Z|Orgrimmar@Orgrimmar|N|To Ju'Pa, in the Valley of Spirits|FACTION|Horde|
-T The Historians|QID|43471|M|84.65,24.88|Z|Stormwind City|N|To Llore, in the library in Stormwind Keep|FACTION|Alliance|
 
-;A Interesting Times|QID|47251|N|UI From WoW Anniversary Token|FACTION|Horde|
-T Interesting Times|QID|47251|M|36.36,74.25|Z|Orgrimmar@Orgrimmar|N|To Ju'Pa, in the Valley of Spirits|FACTION|Horde|
-;A Interesting Times|QID|47252|N|UI From WoW Anniversary Token|FACTION|Alliance|
-T Interesting Times|QID|47252|M|84.65,24.88|Z|Stormwind City|N|To Llore, in the library in Stormwind Keep|FACTION|Alliance|
+A A Timely Invitation|LVL|10|QID|57249|M|PLAYER|U|171177|N|Use the [Invitation from the Timewalkers] and accept this quest|
+U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!| ; 18th!
+; U Celebration Package|U|185907|BUFF|359530|N|Hey, use your Celebration Package!| ; 17th
 
-U Celebration Package|U|162636|BUFF|351490|N|Hey, use your Celebration Package!|
-A A Time to Reflect|QID|43461|M|51.75,38.78|Z|Caverns of Time@Tanaris|N|From Ju'Pa|FACTION|Horde|
-A A Time to Reflect|QID|43323|M|51.47,38.56|Z|Caverns of Time@Tanaris|N|From Llore|FACTION|Alliance|
+P Caverns of Time|ACTIVE|57249|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room on the side and get to the Caverns of Time|FACTION|Horde|
+P Caverns of Time|ACTIVE|57249|M|49.36,86.91;43.72,85.36|Z|Stormwind City|CS|N|Go to the portal room on the right and get to the Caverns of Time|FACTION|Alliance|
+
+; Only offer on initial entrance.
+A To The Master's Lair|LVL|15|QID|10279|ACTIVE|57249|M|55.26,27.87|Z|Timeless Tunnel@Caverns of Time|N|Get a free ride from the Steward of Time|
+T To The Master's Lair|QID|10279|ACTIVE|57249|M|41.55,38.52|Z|Caverns of Time@Tanaris|N|Turn into Andormu|
+T A Timely Invitation|QID|57249|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|Turn into Chromie!|
+A A Time to Reflect|QID|43461|M|51.74,38.73|Z|Caverns of Time@Tanaris|N|From Ju'Pa|FACTION|Horde|NOCACHE|
+A A Time to Reflect|QID|43323|M|51.51,38.56|Z|Caverns of Time@Tanaris|N|From Llore|FACTION|Alliance|NOCACHE|
 
 C A Time to Reflect|QID|43323^43461|CHAT|QG|The Historian|N|Chat with the Historian to get your question. The question will change each time you chat with him, but we have a cheat sheet.|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Arthas's death knights were trained in a floating citadel that was taken by force|N|Acherus|
@@ -111,7 +112,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|N|Hmm.  The question lookup failed. 
 T A Time to Reflect|QID|43461|M|51.75,38.78|Z|Caverns of Time@Tanaris|N|To Ju'Pa|FACTION|Horde|
 T A Time to Reflect|QID|43323|M|51.47,38.56|Z|Caverns of Time@Tanaris|N|To Llore|FACTION|Alliance|
 
-N Tomorrow|LVL|-60|N|Come back tomorrow for the next question.|
+N Tomorrow|LVL|-30|N|Come back tomorrow for the next question.|
 
 N The Originals|AVAILABLE|47254|FACTION|Horde|N|The next daily involves a bit of traveling.|
 N The Originals|AVAILABLE|47253|FACTION|Alliance|N|The next daily involves a bit of traveling.|
@@ -127,6 +128,6 @@ K Seradane|ACTIVE|47253^47254|M|62.9, 26.0|Z|The Hinterlands|QO|3|T|Seradane|
 T The Originals|QID|47254|M|51.75,38.78|Z|Caverns of Time@Tanaris|LVL|30|N|To Ju'Pa|FACTION|Horde|
 T The Originals|QID|47253|M|51.47,38.56|Z|Caverns of Time@Tanaris|LVL|30|N|To Llore|FACTION|Alliance|
 
-N Tomorrow|N|Come back tomorrow for another set of quests.|
+N Tomorrow|N|Come back tomorrow for another set of quests.  There are portals at the entrace to the cave back to the capitol cities.|
 ]]
 end)

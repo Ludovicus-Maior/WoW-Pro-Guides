@@ -61,7 +61,7 @@ A Primal Pests|QID|70123|PRE|67700|M|82.16,31.86|Z|2022|N|From Scalecommander Az
 A Primal Pests|QID|65453|PRE|65444|M|80.65,27.59|Z|2022|N|From Scalecommander Cinderthresh.|FACTION|Horde|
 A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022|N|From Thaelin Darkanvil.|FACTION|Alliance|
 A Practice Materials|QID|65451|PRE|65444|M|80.60,27.65|Z|2022|N|From Boss Magor.|FACTION|Horde|
-l Dragon Isles Supply Bag|QID|72708|L|202081|N|Kill Proto Drakes till the item drops|S!US|
+;l Dragon Isles Supply Bag|QID|72708|L|202081|N|Kill Proto Drakes till the item drops|S!US|
 ;Currently bugged on Beta. Cant accept the quest.
 ;A Dragon Isles Supplies|QID|72708|M|PLAYER|N|Use the Dragon Isles Supply Bag from your inventroy.|U|202081|
 C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022|N|Kill the Proto-Whelp and collect their scales.|S|
@@ -110,7 +110,7 @@ T From Such Great Heights|QID|66101|M|75.84,33.50|Z|2022|N|To Aster Cloudgaze.|F
 ;T Dragon Isles Supplies|QID|72708|M|76.43,34.50|N|Turn into Haephesta.|
 A Quality Assurance|QID|69965|PRE|67053^66110|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|
 A Always Be Crafting|QID|66112|PRE|67053^66110|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|RANK|2|
-f Wingrest Embassy|QID|66112|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|
+f Wingrest Embassy|ACTIVE|66112|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|
 C Excuse the Mess|QID|69911|M|76.33,35.62|Z|2022|QO|1|CHAT|N|Tell Ambassador Fastrasz that you are a new visitor.|
 C Excuse the Mess|QID|69911|M|76.29,35.59|Z|2022|QO|2|NC|N|Embassy Visitor Log signed. It doesn't matter which options you choose, Have Fun!|
 C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022|QO|3|NC|N|Read the stone tablet.|
@@ -168,7 +168,7 @@ C A Quack For Help|QID|66196|M|74.72,42.21|Z|2022|NC|N|Bubbled Duckling brought 
 T Don't Be So Shellfish|QID|66106|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Quack For Help|QID|66196|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Sledgehammer of a Solution|QID|66108|M|74.41,42.14|Z|2022|N|To Ecologist Iskha.|
-A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|IZ|13723|RANK|2|
+A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|IZ|13723|RANK|2|LVL|-70|
 C Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Stick around to do the bonus objective if you want.|S|
 C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|NC|N|Wrathion met at Scalecracker Keep.|
 T Time for a Reckoning|QID|65991|M|66.36,34.99|Z|2022|N|To Wrathion.|
@@ -187,7 +187,7 @@ T Killjoy|QID|65993|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T Blacktalon Intel|QID|65992|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T The Obsidian Citadel|QID|65995|M|62.65,33.19|Z|2022|N|To Wrathion.|
 A Veteran Reinforcements|QID|65996|PRE|65993&65992&65995|M|62.77,33.10|Z|2022|N|From Majordomo Selistra.|
-C Djaradin Djustice|QID|65994|M|61.24,36.24|Z|2022|N|If you are planning to do the bonus objective, finish it up before you get to the injured drakonids.|US|
+C Djaradin Djustice|QID|65994|M|61.24,36.24|Z|2022|N|If you are planning to do the bonus objective, finish it up before you get to the injured drakonids.|US|LVL|-70|
 T Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autocompleted.|IZ|13723|
 C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|NC|N|Click the drakonids to heal them.|S|
 A Fighting Fire with... Water|QID|66998|PRE|65993&65992&65995|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|RANK|2|
@@ -251,11 +251,11 @@ C How to Glide with Your Dragon|QID|65118|M|57.66,66.89|Z|2022|QO|1|N|Learn the 
 C How to Glide with Your Dragon|QID|65118|M|57.48,61.28|Z|2022|QO|2|NC|N|Glide Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188134|
 C How to Glide with Your Dragon|QID|65118|M|57.38,59.17|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T How to Glide with Your Dragon|QID|65118|M|57.46,59.09|Z|2022|N|To Celormu.|
-A How To Dive with Your Dragon|QID|65120|PRE|65118|M|57.67,66.90|Z|2022|N|From Lord Andestrasz.|
-C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896|
-C How To Dive with Your Dragon|QID|65120|M|57.43,59.98|Z|2022|QO|2|NC|N|Glide Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
-C How To Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|3|NC|N|Land in the Target Area. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
-T How To Dive with Your Dragon|QID|65120|M|57.47,59.09|Z|2022|N|To Celormu.|
+A How to Dive with Your Dragon|QID|65120|PRE|65118|M|57.67,66.90|Z|2022|N|From Lord Andestrasz.|
+C How to Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896|
+C How to Dive with Your Dragon|QID|65120|M|57.43,59.98|Z|2022|QO|2|NC|N|Glide Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
+C How to Dive with Your Dragon|QID|65120|M|57.40,59.03|Z|2022|QO|3|NC|N|Land in the Target Area. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188139|
+T How to Dive with Your Dragon|QID|65120|M|57.47,59.09|Z|2022|N|To Celormu.|
 A How to Use Momentum with Your Dragon|QID|65133|PRE|65120|M|57.65,66.88|Z|2022|N|From Lord Andestrasz.|
 C How to Use Momentum with Your Dragon|QID|65133|M|57.65,66.87|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896|
 C How to Use Momentum with Your Dragon|QID|65133|M|57.43,60.03|Z|2022|QO|2|NC|N|Pass Through The Rings. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188169|
@@ -498,9 +498,9 @@ C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Its now time to finish t
 t Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autocompleted.|
 R Obsidian Bulwark|ACTIVE|66079|M|47.7,67.1;42.47,66.82|CS|Z|2022|N|Mount up and head off to find Wrathion.|
 T Wrathion Awaits|QID|66079|M|42.47,66.82|CS|Z|2022|N|To Wrathion.|
-A Lessons from Our Past|QID|72241|PRE|66079|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
-C Lessons from Our Past|QID|72241|M|42.47,66.82|Z|2022|QO|1|CHAT|N|Speak with Scalecommander Emberthal to learn of past events.|
-T Lessons from Our Past|QID|72241|M|42.46,66.80|Z|2022|N|To Scalecommander Emberthal.|
+A Lessons From Our Past|QID|72241|PRE|66079|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
+C Lessons From Our Past|QID|72241|M|42.47,66.82|Z|2022|QO|1|CHAT|N|Speak with Scalecommander Emberthal to learn of past events.|
+T Lessons From Our Past|QID|72241|M|42.46,66.80|Z|2022|N|To Scalecommander Emberthal.|
 A Best Plans and Intentions|QID|66048|PRE|72241|M|42.46,66.80|Z|2022|N|From Scalecommander Emberthal.|
 A Sharp Practice|QID|66078|PRE|72241|M|42.47,66.84|Z|2022|N|From Wrathion.|
 f Obsidian Bulwark|QID|66078|M|42.26,66.22|Z|2022|N|At Do-Yeon Shadowrider.|

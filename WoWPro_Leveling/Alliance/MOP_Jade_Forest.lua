@@ -310,7 +310,7 @@ C Vessels of the Spirit|QID|29750|S|M|40.69,14.85|N|Kill Shan'ze Spiritclaws for
 C Ritual Artifacts|QID|29751|QO|2|M|41.62,14.27|NC|N|Get the Chipped Ritual Bowl|
 C Ritual Artifacts|QID|29751|QO|1|M|42.63,15.74|NC|N|Get the Jade Cong|
 ; [aldavor] added rank 3 since it's achiev not quest.
-R Spirit Binders|QID|967540003|M|42.26, 17.47|ACH|6754;3|N|Exploration>The Dark Heart of the Mogu.|RANK|3|
+$ Spirit Binders|QID|967540003|M|42.26, 17.47|ACH|6754;3|N|Exploration>The Dark Heart of the Mogu.|RANK|3|
 C Ritual Artifacts|QID|29751|QO|3|M|42.3,17.09|NC|N|Get the Pungent Ritual Candle|
 C Vessels of the Spirit|QID|29750|US|M|40.69,14.85|N|Kill Shan'ze Spiritclaws for Spirit Bottles.|
 C The Wayward Dead|QID|29752|US|U|74771|M|40.38,14.76|N|Use Pei-Zhi's staff to release the Wandering Spirits.|
@@ -365,7 +365,7 @@ A Burning Bright|QID|29631|PRE|29627|M|38.02,23.80|N|From Guard Shan Long, outsi
 C Burning Bright|QID|29631|S|M|36,21|N|Kill six Waxwood Hunters.|
 C A Steady Hand|QID|29629|NC|S|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
 R Owen's Wishing Well|QID|29628|M|39.4,7.3|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found.|RANK|3|
-C A Steady Hand|QID|29629|US|NC|L|73193 80|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
+C A Steady Hand|QID|29629|US|NC|M|34.92,22.53|N|Any movement (including panning the camera angle) will end the gathering.|
 C Burning Bright|QID|29631|US|M|36,21|N|Kill six Waxwood Hunters.|
 C And a Heavy Fist|QID|29630|S|M|37,17|N|Kill Greenwood Tricksters as you approach the next objective|
 C A Strong Back|QID|29628|NC|QO|1|M|37.8,17.6|N|Obtain the Boiling Cauldron.|

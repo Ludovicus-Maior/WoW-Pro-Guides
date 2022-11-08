@@ -10,11 +10,11 @@ return [[
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;F PLACED Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
 ;F Ohn'ahra's Roost|N|Over the Eagle statue.|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16054|
-;F Nokhudon Hold|N|Over the mountain top.|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16055|
-;F Emerald Gardens|N|Just below the tree line at the top of the water falls.|M|30,61|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16056|
+;F PLACED Nokhudon Hold|N|Over the mountain top.|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16055|
+;F PLACED Emerald Gardens|N|Just below the tree line at the top of the water falls.|M|30,61|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16056|
 ;F The Eternal Kurgans|N|Just to the east of the mountain side.|M|29.5,75.1|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16057|
-;F Brackenhide Hollow|N|Around the top of the tree on top of the hill.|M|10.63,36.37|Z|2024;The Azure Plains!Dragonflight|ACH|16068|
-;F Creektooth Den|N|On top of the dead tree.|M|26.74,31.66|Z|2024;The Azure Plains!Dragonflight|ACH|16069|
+;PLACED (in AS) F Brackenhide Hollow|N|Around the top of the tree on top of the hill.|M|10.63,36.37|Z|2024;The Azure Plains!Dragonflight|ACH|16068|
+;PLACED (in AS) F Creektooth Den|N|On top of the dead tree.|M|26.74,31.66|Z|2024;The Azure Plains!Dragonflight|ACH|16069|
 ;PLACED F Forkriver Crossing|N|Just above the road.|M|70.15,86.78|Z|2024;The Azure Plains!Dragonflight|ACH|16672|
 ;F Ohn'iri Springs|N|Next to the mountain.|M|57.3,80.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16060|
 ;PLACED F Mirror of the Sky|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
@@ -22,8 +22,10 @@ return [[
 ;PLACED F Windsong Rise|N|Just after the swirly things on the ground, over the mountain top.|M|61.5,64.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16063|
 ;F Dragonspring Summit|N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16061|
 ;PLACED F Rusza'thar Reach|N|Floating above the tower.|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16062|
+;PLACED F Rubyscale Outpost|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 
 A Into the Plains|QID|65779|PRE|72267|M|48.27,88.68|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|
+$ Rubyscale Outpost Glyph|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 T Into the Plains|QID|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Proving Oneself|QID|65780|PRE|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Proving Oneself|QID|65780|M|78.55,26.65|Z|2023;Ohn'ahran Plains|QO|1|N|Blazing Proto-Dragon slain.|
@@ -51,7 +53,7 @@ T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To 
 T Making Introductions|QID|65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Toward the City|QID|65803|PRE|65802&65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Toward the City|QID|65803|M|83.15,23.78|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Let Tomul know you are ready to go.|
-C Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|NC|N|Listen to the Shikaar stories (Optional)There is a 'dog', named [color=0060ee]Stout Riding Baker[/color] walking in the caravan you can ride if you want to afk or have your hands free for chatting. Or if you wanna just go fast make it to the 1st stop.|
+C Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|NC|N|Listen to the Shikaar stories. (Optional)There is a 'dog', named [color=0060ee]Stout Riding Baker[/color] walking in the caravan you can ride if you want to afk or have your hands free for chatting. Or if you wanna just go fast, ride/fly on your own directly to the 1st stop.|
 T Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A For Food and Rivalry|QID|65804|PRE|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|N|Kill animals as you pass thru their area and collect the fresh game meat. Don't try to get them all, we will be back.|S|IZ|14094|
@@ -121,7 +123,7 @@ A The Fields of Ferocity|QID|70444|PRE|65805|M|62.31,42.33|Z|2023;Ohn'ahran Plai
 C Bloodlines, Sweets, and Teerai|QID|70739|M|60.04,37.39|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask Elder Odgerel about Norman's plan.|
 C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.|
 C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.|
-;A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|;not available on my last run thru? (and level and renown are lower now)
+;A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|;not available on my last run thru? (and level and renown are lower now)Renown 3
 T Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
 T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.|
 T Clan Teerai|QID|66016|M|59.15,37.61|Z|2023;Ohn'ahran Plains|N|To Qariin Dotur.|
@@ -164,22 +166,22 @@ C Bloodlines, Sweets, and Teerai|QID|70739|M|56.21,38.14|Z|2023;Ohn'ahran Plains
 C Bloodlines, Sweets, and Teerai|QID|70739|M|56.74,38.78|Z|2023;Ohn'ahran Plains|QO|5|NC|N|Click the outline of the flower on the stone to make an offering.|
 T The Fields of Ferocity|QID|70444|M|53.15,37.28|Z|2023;Ohn'ahran Plains|N|To Gurgthock.|
 A The Field of Ferocity: Terror of the Swamp!|QID|66459|PRE|70444|M|53.15,37.28|Z|2023;Ohn'ahran Plains|N|From Gurgthock.|
-C The Field of Ferocity: Terror of the Swamp!|QID|66459|M|53.29,38.24|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock the jump down and fight Maneet.|
+C The Field of Ferocity: Terror of the Swamp!|QID|66459|M|53.29,38.24|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock then jump down and fight Maneet.|
 T The Field of Ferocity: Terror of the Swamp!|QID|66459|M|53.16,37.29|Z|2023;Ohn'ahran Plains|N|To Wodin the Troll-Servant.|
 A The Field of Ferocity: Lord of Decay!|QID|66460|PRE|66459|M|53.16,37.29|Z|2023;Ohn'ahran Plains|N|From Gurgthock.|
-C The Field of Ferocity: Lord of Decay!|QID|66460|M|53.18,37.28|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock the jump down and fight Nightrot.|
+C The Field of Ferocity: Lord of Decay!|QID|66460|M|53.18,37.28|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock then jump down and fight Nightrot.|
 T The Field of Ferocity: Lord of Decay!|QID|66460|M|53.18,37.28|Z|2023;Ohn'ahran Plains|N|To Wodin the Troll-Servant.|
 A The Field of Ferocity: Foe from the Volcano!|QID|66461|PRE|66460|M|53.18,37.28|Z|2023;Ohn'ahran Plains|N|From Gurgthock.|
-C The Field of Ferocity: Foe from the Volcano!|QID|66461|M|53.23,37.46|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock the jump down and fight Ceeqa the Peacetaker.|
+C The Field of Ferocity: Foe from the Volcano!|QID|66461|M|53.23,37.46|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock then jump down and fight Ceeqa the Peacetaker.|
 T The Field of Ferocity: Foe from the Volcano!|QID|66461|M|53.17,37.29|Z|2023;Ohn'ahran Plains|N|To Wodin the Troll-Servant.|
 A The Field of Ferocity: Lost in the Dream!|QID|66462|PRE|66461|M|53.15,37.30|Z|2023;Ohn'ahran Plains|N|From Gurgthock.|
-C The Field of Ferocity: Lost in the Dream!|QID|66462|M|53.23,37.46|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock the jump down and fight Sherath and Taresh.|
+C The Field of Ferocity: Lost in the Dream!|QID|66462|M|53.23,37.46|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock then jump down and fight Sherath and Taresh.|
 T The Field of Ferocity: Lost in the Dream!|QID|66462|M|53.17,37.31|Z|2023;Ohn'ahran Plains|N|To Wodin the Troll-Servant.|
 A The Field of Ferocity: Elemental Revenge Round!|QID|66463|PRE|66462|M|53.15,37.35|Z|2023;Ohn'ahran Plains|N|From Gurgthock.|
-C The Field of Ferocity: Elemental Revenge Round!|QID|66463|M|53.24,37.45|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock the jump down and fight Primalist champion.|
+C The Field of Ferocity: Elemental Revenge Round!|QID|66463|M|53.24,37.45|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock then jump down and fight Primalist champion.|
 T The Field of Ferocity: Elemental Revenge Round!|QID|66463|M|53.19,37.31|Z|2023;Ohn'ahran Plains|N|To Wodin the Troll-Servant.|
 A The Field of Ferocity: Master of the Hunt!|QID|66464|PRE|66463|M|53.19,37.31|Z|2023;Ohn'ahran Plains|N|From Gurgthock.|
-C The Field of Ferocity: Master of the Hunt!|QID|66464|M|53.35,37.95|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock the jump down and fight Huntmaster Amaa.|
+C The Field of Ferocity: Master of the Hunt!|QID|66464|M|53.35,37.95|Z|2023;Ohn'ahran Plains|N|Talk to Gurgthock then jump down and fight Huntmaster Amaa.|
 T The Field of Ferocity: Master of the Hunt!|QID|66464|M|53.19,37.31|Z|2023;Ohn'ahran Plains|N|To Wodin the Troll-Servant.|
 
 H Maruukai|ACTIVE|70337|M|PLAYER|N|Hearth back to Maruukai for a bit of a time savings on your run to Emberwatch.|RANK|2|
@@ -212,7 +214,7 @@ R Emberwatch|ACTIVE|70337|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|Mount up and h
 T Emberwatch|QID|70337|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|To Telemancer Aerilyn.|
 A The Nelthazan Ruins|QID|65890|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|From Telemancer Aerilyn.|
 f Emberwatch|ACTIVE|65890|M|66.78,25.18|Z|2023;Ohn'ahran Plains|N|At Volebel.|
-A The Sundered Asunder|QID|65892|M|64.00,19.20|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autoaccepted.|RANK|2|
+A The Sundered Asunder|QID|65892|M|64.00,19.20|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autoaccepted.|RANK|2|LVL|-70|
 T The Nelthazan Ruins|QID|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal.|
 A Tools of the Tirade|QID|65891|PRE|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
 A The Relic Inquiry|QID|65893|PRE|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
@@ -290,14 +292,14 @@ C More Adventure than Expected|QID|65761|QO|2|M|51.09,62.19|Z|2023;Ohn'ahran Pla
 C More Adventure than Expected|QID|65761|QO|3|M|47.51,54.11|Z|2023;Ohn'ahran Plains|NC|N|Congrats you found Radiya.|
 T More Adventure than Expected|QID|65761|M|47.51,54.11|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Stealing Its Thunder|QID|65711|PRE|65761|M|47.51,54.11|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
-C Stealing Its Thunder|QID|65711|QO|1|M|47.28,54.11|Z|2023;Ohn'ahran Plains|N|Into the cave to kill the Storm Extractor holding Lizi hostage.|
-C Stealing Its Thunder|QID|65711|QO|2|M|48.34,56.62|Z|2023;Ohn'ahran Plains|CHAT|N|Offer Lizi a Bushruit.|
+C Stealing Its Thunder|QID|65711|QO|1|M|47.31,56.60|Z|2023;Ohn'ahran Plains|N|Into the cave to kill the Storm Extractor holding Lizi hostage.|
+C Stealing Its Thunder|QID|65711|QO|2|M|48.34,56.62|Z|2023;Ohn'ahran Plains|CHAT|N|Offer Lizi a Bushfruit.|
 T Stealing Its Thunder|QID|65711|M|48.27,56.50|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Sneaking In|QID|66676|PRE|65711|M|48.27,56.50|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C After My Ohn Heart|QID|70721|M|46.52,60.22|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Meet Narman and Dawa by the water..|
 T After My Ohn Heart|QID|70721|M|46.70,60.51|Z|2023;Ohn'ahran Plains|N|To Hunter Narman.|
-F Mirror of the Sky Glyph|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
-F Szar  Skeleth Glyph|ACTIVE|66201|N|As usual, it's good to have full vigor before taking off, but 2 will probably do. Glyph is just inside the top of the broken tower.|M|44.6,64.8|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16058|
+$ Mirror of the Sky Glyph|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
+$ Szar  Skeleth Glyph|ACTIVE|66201|N|As usual, it's good to have full vigor before taking off, but 2 will probably do. Glyph is just inside the top of the broken tower.|M|44.6,64.8|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16058|
 
 F Teerakai|ACTIVE|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|Continue on into Teerakai.|
 T Hooves of War|QID|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|To Khansguard Jebotai.|
@@ -354,9 +356,9 @@ A Desecrator Annihilator|QID|66654|PRE|66652|M|39.03,66.01|Z|2023;Ohn'ahran Plai
 A Reagents of De-Necromancy|QID|66655|PRE|66652|M|39.03,66.01|Z|2023;Ohn'ahran Plains|N|From Initiate Zorig.|
 C Desecrator Annihilator|QID|66654|M|34.78,67.84|Z|2023;Ohn'ahran Plains|QO|1|N|Slay Nokhud centaurs.|S|
 C Reagents of De-Necromancy|QID|66655|M|35.93,68.70|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click the piles of dirt in the area to loot Clumps of Sacred Soil.|
-C Desecrator Annihilator|QID|66654|M|34.78,67.84|Z|2023;Ohn'ahran Plains|QO|1|N|Slay Nokhud centaurs.|S|
 C Reagents of De-Necromancy|QID|66655|M|34.85,67.72|Z|2023;Ohn'ahran Plains|QO|1|N|Intact Skulls are looted from the Risen Ohunas. Keep killing them if you don't have enough.|
 C Desecrator Annihilator|QID|66654|M|34.09,68.52|Z|2023;Ohn'ahran Plains|QO|2|N|The Risen Hero's Weapon come from the Desecrating Centaurs Keep killing them if you do not have enough.|
+C Desecrator Annihilator|QID|66654|M|34.78,67.84|Z|2023;Ohn'ahran Plains|QO|1|N|Slay Nokhud centaurs.|US|
 T Desecrator Annihilator|QID|66654|M|33.76,65.37|Z|2023;Ohn'ahran Plains|N|To Initiate Zorig.|
 T Reagents of De-Necromancy|QID|66655|M|33.76,65.37|Z|2023;Ohn'ahran Plains|N|To Initiate Zorig.|
 A Zambul, Head Vandal|QID|69936|PRE|66654&66655|M|33.76,65.37|Z|2023;Ohn'ahran Plains|N|From Initiate Zorig.|
@@ -393,10 +395,11 @@ A Eagle-itarian|QID|66256|PRE|66236|M|58.12,68.98|Z|2023;Ohn'ahran Plains|N|From
 A Fowl Sorcery|QID|66257|PRE|66236|M|58.12,68.98|Z|2023;Ohn'ahran Plains|N|From Initiate Boku.|
 C Weather Control|QID|66242|M|61.44,67.28|Z|2023;Ohn'ahran Plains|N|Kill the Stormbound as you free the birds and destroy the wagons.|S|
 C Eagle-itarian|QID|66256|M|58.02,67.47|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the Binding Totems to free the Children of Ohn'ahra.|S|
-C Fowl Sorcery|QID|66257|M|58.14,67.31;59.21,65.54;61.74,66.05;58.84,61.85|CN|Z|2023;Ohn'ahran Plains|NC|N|Click the wind totems to destroy the Wagons.|
-A Prozela Galeshot|QID|69968|M|59.04,68.10|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|
+C Fowl Sorcery|QID|66257|M|58.1,67.3;59.2,65.5;61.7,66.0;58.8,61.8|CN|Z|2023;Ohn'ahran Plains|NC|N|Click the wind totems to destroy the Wagons.|S|
+A Prozela Galeshot|QID|69968|M|59.04,68.10|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
 K Prozela Galeshot|ACTIVE|69968|QO|1|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Kill the bonus objective as you choose.|
 t Prozela Galeshot|QID|69968|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autocompleted.|
+C Fowl Sorcery|QID|66257|M|58.1,67.3;59.2,65.5;61.7,66.0;58.8,61.8|CN|Z|2023;Ohn'ahran Plains|NC|N|Click the wind totems to destroy the Wagons.|US|
 C Eagle-itarian|QID|66256|M|58.02,67.47|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the Binding Totems to free the Children of Ohn'ahra.|US|
 C Weather Control|QID|66242|M|61.44,67.28|Z|2023;Ohn'ahran Plains|N|Continue killing the Stormbound until you finish the quest.|US|
 C Eagle-itarian|QID|66256|M|57.96,67.49|Z|2023;Ohn'ahran Plains|QO|2|N|Continue killing Primalists until the quest is done.|
@@ -407,7 +410,7 @@ A Oh No, Ohn'ahra!|QID|66258|PRE|66242&66256&66257|M|60.65,63.58|Z|2023;Ohn'ahra
 C Oh No, Ohn'ahra!|QID|66258|M|60.26,64.95|Z|2023;Ohn'ahran Plains|N|Protect Boku from enemies (100%).|
 T Oh No, Ohn'ahra!|QID|66258|M|61.40,62.79|Z|2023;Ohn'ahran Plains|N|To Initiate Boku.|
 A A Storm of Ill Tidings|QID|66259|PRE|66258|M|61.40,62.79|Z|2023;Ohn'ahran Plains|N|From Initiate Boku.|
-F Windsong Rise Glyph|ACTIVE|66259|N|Just after the swirly things on the ground, over the mountain top.|M|61.5,64.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16063|
+$ Windsong Rise Glyph|ACTIVE|66259|N|Just after the swirly things on the ground, over the mountain top.|M|61.5,64.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16063|
 F Ohn'iri Springs|ACTIVE|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|And continue on to Ohn'iri Springs.|
 C Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|CHAT|N|Talk to Radiya.|
 T Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|To Initiate Radiya.|
@@ -418,48 +421,44 @@ T Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quart
 C A Storm of Ill Tidings|QID|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to the Khanam Matra (top floor).|
 T A Storm of Ill Tidings|QID|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Chasing the Wind|QID|66327|PRE|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
-C Chasing the Wind|QID|66327|M|60.04,37.50|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Report heard.|
+C Chasing the Wind|QID|66327|M|60.04,37.50|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Wait and listen.|
 C Chasing the Wind|QID|66327|M|60.04,37.50|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Khanam Matra Sarest.|
-C Chasing the Wind|QID|66327|M|61.13,40.01|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Taivan ridden (Optional).|
+C Chasing the Wind|QID|66327|M|61.13,40.01|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Ride Taivan (Optional).|
 C Chasing the Wind|QID|66327|M|72.93,40.51|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Meet Khanam Matra Sarest outside the Horn of Drusahl.|
 T Chasing the Wind|QID|66327|M|73.02,40.59|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Nokhud Can Come of This|QID|70244|PRE|66327|M|73.02,40.59|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
 C Nokhud Can Come of This|QID|70244|M|74.97,39.79|Z|2023;Ohn'ahran Plains|QO|1|N|Retake the village from the Nokhud.|
 C Nokhud Can Come of This|QID|70244|M|75.89,40.86|Z|2023;Ohn'ahran Plains|QO|2|N|Slay Warmonger Kharad.|T|Warmonger Kharad|
+T Nokhud Can Come of This|QID|70244|M|75.89,40.86|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Blowing of the Horn|QID|66329|PRE|66327|M|76.68,40.94|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
-C Blowing of the Horn|QID|66329|M|76.69,40.99|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Talk to Khanam Matra Sarest.|
+C Blowing of the Horn|QID|66329|M|76.69,40.99|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Tell her you are ready.|
 T Blowing of the Horn|QID|66329|M|76.69,40.99|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Green Dragon Down|QID|66328|PRE|66329|M|76.69,40.99|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
-C Green Dragon Down|QID|66328|M|72.49,49.81|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Green dragons found.|
+C Green Dragon Down|QID|66328|M|72.49,49.81|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Wait and watch.|
 C Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Offer to help Khanam Matra explain to the situation to the dragons.|
 C Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Listen to the discussion.|
 T Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A With the Wind At Our Backs|QID|66344|PRE|66328|M|72.45,50.72|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-C With the Wind At Our Backs|QID|66344|M|72.30,50.72|Z|2023;Ohn'ahran Plains|CHAT|N|Fly with Gerithus.|
+C With the Wind At Our Backs|QID|66344|M|72.30,50.72|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Gerithus you are ready to go.|
 T With the Wind At Our Backs|QID|66344|M|28.26,57.69|Z|2023;Ohn'ahran Plains|N|To Merithra.|
-A Shady Sanctuary|QID|70220|PRE|66344|M|28.26,57.69|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-C Shady Sanctuary|QID|70220|M|29.07,55.25|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Guard-Captain Alowen.|
-C Shady Sanctuary|QID|70220|M|29.30,56.43|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Speak to Aronus to visit Merithra's Watch (Optional).|
-C Shady Sanctuary|QID|70220|M|29.74,59.98|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Tell Viranikus to Rally the troops.|
-f Shady Sanctuary|ACTIVE|70220|M|29.82,57.63|Z|2023;Ohn'ahran Plains|N|Hop on your dragon and glide down to Sariosa.|
+C Some Call Me Bug Catcher|QID|70062|M|29.46,58.47|Z|2023;Ohn'ahran Plains|N|Kill and loot Flyspawn Beetles to collect Parts.|S|
+
+f Shady Sanctuary|ACTIVE|70220|M|29.82,57.63|Z|2023;Ohn'ahran Plains|N|At Sariosa.|
 C Shady Sanctuary|QID|70220|M|29.82,57.63|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Tell Sariosa the Bough is in danger.|
-C Shady Sanctuary|QID|70220|M|30.20,55.72|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Tell Sidra she is needed at the front.|
-A Some Call Me Bug Catcher|QID|70062|PRE|66344|M|29.94,58.34|Z|2023;Ohn'ahran Plains|N|From Gracus.|
-C Some Call Me Bug Catcher|QID|70062|M|29.46,58.47|Z|2023;Ohn'ahran Plains|N|Kill and loot Flyspawn Beetles to collect Parts.|
+C Some Call Me Bug Catcher|QID|70062|M|29.46,58.47|Z|2023;Ohn'ahran Plains|N|Kill and loot Flyspawn Beetles to collect Parts.|US|
 T Some Call Me Bug Catcher|QID|70062|M|30.63,58.02|Z|2023;Ohn'ahran Plains|N|To Gracus.|
 A Others Call Me Duck Herder|QID|70069|PRE|70062|M|30.63,58.02|Z|2023;Ohn'ahran Plains|N|From Gracus.|RANK|2|
+C Shady Sanctuary|QID|70220|M|30.20,55.72|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Tell Sidra she is needed at the front.|
 C Others Call Me Duck Herder|QID|70069|M|30.65,55.94|Z|2023;Ohn'ahran Plains|NC|N|Click on the Ducklings to feed them.|
-T Others Call Me Duck Herder|QID|70069|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|To Gracus.|
+C Shady Sanctuary|QID|70220|M|29.30,56.43|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Speak to Aronus to visit Merithra's Watch (Optional).|
+C Shady Sanctuary|QID|70220|M|29.74,59.98|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Tell Viranikus to Rally the troops.|
+$ Emerald Gardens Glyph|N|Just below the tree line at the top of the water falls.|M|30,61|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16056|
+T Others Call Me Duck Herder|QID|70069|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|Hop on your drake and fly back down to Gracus.|
 A But... I Am the Hero of Ducks|QID|70070|PRE|70069|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|From Gracus.|RANK|2|
+C Shady Sanctuary|QID|70220|M|29.07,55.25|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Guard-Captain Alowen.|
 C But... I Am the Hero of Ducks|QID|70070|M|27.87,56.63|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Search for Firequackers..|
 C But... I Am the Hero of Ducks|QID|70070|M|27.11,56.50|Z|2023;Ohn'ahran Plains|QO|2|N|Beat on the Queasy Hornswog until he throws up.|
-A The Lonely Scout|QID|70985|M|34.23,53.96|Z|2023;Ohn'ahran Plains|N|From Scout Santuun.|RANK|3|
-R Nokhudon Hold|ACH|16457|M|34.79,43.53|Z|2023;Ohn'ahran Plains|N|This is the only spot the guide doesn't take you to, run over here if you want to explore the zone.|RANK|3|
-R Shady Sanctuary|QID|70070|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|And back to finish up the quests.|RANK|3|
 T But... I Am the Hero of Ducks|QID|70070|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|To Gracus.|
-C The Lonely Scout|QID|70985|QO|1|M|29.60,56.71|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to both sisters.|
-C The Lonely Scout|QID|70985|QO|2|M|29.54,56.68|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Erynna, who is between the sisters.|
-T The Lonely Scout|QID|70985|M|34.23,53.96|Z|2023;Ohn'ahran Plains|N|To Scout Santuun.|
 T Shady Sanctuary|QID|70220|M|28.26,57.70|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A The Primalist Front|QID|66331|PRE|70220|M|28.26,57.70|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 C The Primalist Front|QID|66331|M|28.15,57.35|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Ride Dragonriding Mount into Winds of the Isles (Optional).|
@@ -468,10 +467,10 @@ C The Primalist Front|QID|66331|M|25.74,44.25|Z|2023;Ohn'ahran Plains|QO|2|CHAT|
 C The Primalist Front|QID|66331|M|26.18,40.10|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Tell Ohn you are ready to watch his report.|
 C The Primalist Front|QID|66331|M|25.63,40.52|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Ask Merithra what she sees.|
 T The Primalist Front|QID|66331|M|25.68,40.41|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-A Bonus Objective: The Storm Scar|QID|66421|PRE|66331|M|25.68,40.41|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|
+A Bonus Objective: The Storm Scar|QID|66421|PRE|66331|M|25.68,40.41|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|LVL|-70|
 A Justice for Solethus|QID|66333|PRE|66331|M|25.65,40.52|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 C Justice for Solethus|QID|66333|M|23.87,36.28|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Nokhud Warmongers.|S|
-C Justice for Solethus|QID|66333|M|24.80,39.82;24.39,38.39;25.41,37.69|CN|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Dragon-Killer Ballista destroyed.|
+C Justice for Solethus|QID|66333|M|24.8,39.8;24.4,38.4;25.4,37.7|CN|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Dragon-Killer Ballista destroyed.|
 C Justice for Solethus|QID|66333|M|23.87,36.28|Z|2023;Ohn'ahran Plains|QO|1|N|Find any more needed Nokhud Warmongers.|US|
 T Justice for Solethus|QID|66333|M|23.89,36.28|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Deconstruct Additional Pylons|QID|66335|PRE|66333|M|23.89,36.28|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
@@ -481,41 +480,40 @@ T Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|To Khanam M
 A Bonus Objective: Ty'foon the Ascended|QID|66970|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autoaccepted.|
 K Ty'foon the Ascended|ACTIVE|66970|QO|1|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Go up the hill and kill Ty'foon if you want to.|T|Ty'foon the Ascended|
 t Ty'foon the Ascended|ACTIVE|66970|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
-C Deconstruct Additional Pylons|QID|66335|M|23.89,39.46|Z|2023;Ohn'ahran Plains|QO|1|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the first pylon.|
-C Deconstruct Additional Pylons|QID|66335|M|23.12,37.36|Z|2023;Ohn'ahran Plains|QO|2|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the second pylon.|
 C Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|QO|3|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the third pylon.|
+C Deconstruct Additional Pylons|QID|66335|M|23.12,37.36|Z|2023;Ohn'ahran Plains|QO|2|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the second pylon.|
+C Deconstruct Additional Pylons|QID|66335|M|23.89,39.46|Z|2023;Ohn'ahran Plains|QO|1|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the first pylon.|
 T Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|
 A Stormbreaker|QID|66337|PRE|66784&66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
+C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|LVL|-70|
+K Stormbound Proto-Drake and Koroleth|ACTIVE|66337|QO|1|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Attack the Stormboud Proto-Drake to get Koroleth's attention, Then kill Koroleth.|;T|Stormboud Proto-Drake|target button wouldnt work... perhaps because I ran up to an in progress fight. figured i'd just leave it off.
 C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|
 t Bonus Objective: The Storm Scar|QID|66421|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autocompleted.|
-K Stormbound Proto-Drake and Koroleth|ACTIVE|66337|QO|1|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Attack the Stormboud Proto-Drake to get Koroleth's attention, Then kill Koroleth.|T|Stormboud Proto-Drake|
-C Stormbreaker|QID|66337|QO|2|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Ask Gerithus for a ride to Marithra.|
+C Stormbreaker|QID|66337|QO|2|M|22.55,39.61|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Gerithus for a ride to Marithra.|
 T Stormbreaker|QID|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|To Marithra.|
 A The Isle of Emerald|QID|66336|PRE|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|From Marithra.|
 T The Isle of Emerald|QID|66336|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Marithra.|
 A Renewal of Vows|QID|66783|PRE|66336|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|From Marithra.|
-C Renewal of Vows|QID|66783|QO|1<1|M|22.31,50.85|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Sansok Khan give a token from his first hunt.|
-C Renewal of Vows|QID|66783|QO|1<1|M|22.28,50.91|Z|2023;Ohn'ahran Plains|NC|N|Click the spear to accept it.|
-C Renewal of Vows|QID|66783|QO|1|M|22.13,50.97|Z|2023;Ohn'ahran Plains|CHAT|N|Offer Marithra the spear.|
-C Renewal of Vows|QID|66783|QO|2<1|M|22.38,51.04|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Tegari that she give a feather.|
-C Renewal of Vows|QID|66783|QO|2<1|M|22.38,51.04|Z|2023;Ohn'ahran Plains|NC|N|Click the feather to pick it up.|
-C Renewal of Vows|QID|66783|QO|2|M|22.13,50.97|Z|2023;Ohn'ahran Plains|CHAT|N|Offer Marithra the feather.|
-C Renewal of Vows|QID|66783|QO|3<1|M|22.33,50.94|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Khanam Matra offer her blood.|
-C Renewal of Vows|QID|66783|QO|3<1|M|22.33,50.94|Z|2023;Ohn'ahran Plains|NC|N|Click the blood to collect.|
-C Renewal of Vows|QID|66783|QO|3|M|22.13,50.97|Z|2023;Ohn'ahran Plains|CHAT|N|Offer Marithra the blood.|
-C Renewal of Vows|QID|66783|QO|4<1|M|22.13,50.97|Z|2023;Ohn'ahran Plains|NC|N|Click Marithra to take her offering.|
-C Renewal of Vows|QID|66783|QO|4|M|22.33,50.94|Z|2023;Ohn'ahran Plains|CHAT|N|Offer Marithra gift to Khanam Matra.|
+C Renewal of Vows|QID|66783|QO|1|M|22.31,50.85|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Sansok Khan give a trophy from his first hunt, then pick up the spear and take it to Marithra.|
+C Renewal of Vows|QID|66783|QO|2|M|22.38,51.04|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Tegari that she give a feather., then click to pick of the feather and take it to Marithra.|
+C Renewal of Vows|QID|66783|QO|3|M|22.33,50.94|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Khanam Matra offer her blood, then take the blood to Marithra.|
+C Renewal of Vows|QID|66783|QO|4|M|22.33,50.94|Z|2023;Ohn'ahran Plains|CHAT|N|Take the gift from Marithra and offer it to Khanam Matra.|
 T Renewal of Vows|QID|66783|M|22.13,50.97|Z|2023;Ohn'ahran Plains|N|To Marithra.|
 A Into the Azure|QID|66340|PRE|66783|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Marithra.|
 A The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|PRE|66783|N|[color=e6cc80]Dungeon: [/color]This is a dungeon quest and beyond the scope of this guide. Pick up or not as you choose.|
-
+R Nokhudon Hold|ACH|16457|M|34.79,43.53|Z|2023;Ohn'ahran Plains|N|This is the only spot the guide doesn't take you to, run/fly over here if you want to explore the zone.|RANK|3|
+$ Nokhudon Hold|N|Over the mountain top.|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16055|
+A The Lonely Scout|QID|70985|M|34.23,53.96|Z|2023;Ohn'ahran Plains|N|From Scout Santuun.|RANK|3|
+R Shady Sanctuary|ACTIVE|70985|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|And back to finish up the quest.|RANK|3|
+C The Lonely Scout|QID|70985|QO|1|M|29.60,56.71|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to both sisters.|
+C The Lonely Scout|QID|70985|QO|2|M|29.54,56.68|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Erynna, who is between the sisters.|
+T The Lonely Scout|QID|70985|M|34.23,53.96|Z|2023;Ohn'ahran Plains|N|To Scout Santuun.|
 H Maruukai|ACTIVE|66340|M|PLAYER|N|Take a shortcut back across the zone for the last quest area or to move on to the next zone.|
 T Call of the Hunt|QID|71231|M|62.49,41.63|Z|2023;Ohn'ahran Plains|N|To Trainer Frodrum.|
 A The Trouble with Taivan|QID|67772|M|61.22,40.00|Z|2023;Ohn'ahran Plains|N|From Healer Selbekh.|RANK|3|
-C The Trouble with Taivan|QID|67772|QO|1|M|61.13,40.02|Z|2023;Ohn'ahran Plains|N|Click on Taivan to pet him, this is a pretty long channelled spell.|
-C The Trouble with Taivan|QID|67772|QO|2|M|61.13,40.02|Z|2023;Ohn'ahran Plains|N|Click on Taivan's back to place the bundles.|
-C The Trouble with Taivan|QID|67772|QO|3|M|61.19,39.70|Z|2023;Ohn'ahran Plains|N|Pick up the bundle of pelts.|
+C The Trouble with Taivan|QID|67772|QO|1|M|61.13,40.02|Z|2023;Ohn'ahran Plains|NC|N|Click on Taivan to pet him, this is a pretty long channelled spell.|
+C The Trouble with Taivan|QID|67772|QO|2|M|61.18,39.74|Z|2023;Ohn'ahran Plains|NC|N|Click on pelt bundle lying on the ground.|
+C The Trouble with Taivan|QID|67772|QO|3|M|61.13,40.02|Z|2023;Ohn'ahran Plains|NC|N|Click on Taivan's back to place the bundles.|
 C The Trouble with Taivan|QID|67772|QO|4|M|61.19,39.70|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Taivan to head over to see Hunter Jadar.|
 A Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|
 T Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
@@ -526,16 +524,18 @@ C The Hunting Hound|QID|67921|QO|1|M|71.43,49.42|Z|2023;Ohn'ahran Plains|CHAT|N|
 C The Hunting Hound|QID|67921|QO|2|M|71.43,49.42|Z|2023;Ohn'ahran Plains|CHAT|N|Go out and kill the beasts in the area with Taivan.|
 C The Hunting Hound|QID|67921|QO|3|M|73.30,48.86|Z|2023;Ohn'ahran Plains|CHAT|N|Go out and kill the Ravenous Proto-Drake that flys around the area with Taivan and a pack of bakar.|
 T The Hunting Hound|QID|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|To Hunter Jadar.|RANK|3|
-A Try Again Taivan!|QID|68083|PRE|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
+A Part of a Pack|QID|70989|PRE|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
+C Part of a Pack|QID|70989|M|74.35,48.59|Z|2023;Ohn'ahran Plains|N|Kill the Ravenous Proto-Drake.|
+T Part of a Pack|QID|70989|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
+A Try Again, Taivan!|QID|68083|PRE|70989|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
 R Rusza'thar Reach|ACTIVE|68083|M|84.66,36.88|Z|2023;Ohn'ahran Plains|N|Head over to get this flight path and Glyph.|RANK|3|
-f Rusza'thar Reach|ACTIVE|68083|M|84.66,36.88|Z|2023;Ohn'ahran Plains|N|At Melakesh.|RANK|3|
-F Rusza'thar Reach Glyph|ACTIVE|68083|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|N|Floating above the tower, at the top of the highest mountain in the area.|ACH|16062|RANK|3|
+$ Rusza'thar Reach Glyph|ACTIVE|68083|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|N|Floating above the tower, at the top of the highest mountain in the area.|ACH|16062|RANK|3|
 f Rusza'thar Reach|ACTIVE|68083|M|84.66,36.88|Z|2023;Ohn'ahran Plains|N|At Melakesh.|RANK|3|
 F Maruukai|ACTIVE|68083|M|84.66,36.88|Z|2023;Ohn'ahran Plains|N|At Melakesh.|RANK|3|
-T Try Again Taivan!|QID|68083|M|61.22,40.00|Z|2023;Ohn'ahran Plains|N|To Healer Selbekh.|
+T Try Again, Taivan!|QID|68083|M|61.22,40.00|Z|2023;Ohn'ahran Plains|N|To Healer Selbekh.|
 A The Gentle Giant|QID|68084|PRE|68083|M|61.22,40.00|Z|2023;Ohn'ahran Plains|N|From Healer Selbekh.|
-C The Gentle Giant|QID|68084|M|61.13,40.02|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Taivan to find Shepherd Tevatei.|
-R The Mallakh|ACTIVE|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|Fly over to Shapherd Mallakh.|RANK|3|
+C The Gentle Giant|QID|68084|M|61.13,40.02|Z|2023;Ohn'ahran Plains|CHAT|QO|1|N|Tell Taivan to find Shepherd Tevatei.|
+R The Mallakh|ACTIVE|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|QO|2|N|Fly over to Shapherd Mallakh.|RANK|3|
 T The Gentle Giant|QID|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|To Shephed Tevatei.|
 A Shaping a Shepherd|QID|68085|PRE|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|From Shephed Tevatei.|
 C Shaping a Shepherd|QID|68085|QO|1|M|48.98,40.93|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Taivan if he is ready to try this.|
@@ -548,14 +548,14 @@ T Reign of the Ram|QID|71022|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|To Shephed 
 A Danger in Daruukhan|QID|68087|PRE|71022|M|49.07,40.95|Z|2023;Ohn'ahran Plains|N|From Shephed Tevatei.|
 C Danger in Daruukhan|QID|68087|M|49.07,40.95|Z|2023;Ohn'ahran Plains|CHAT|N|Tell the Teerai Messenger you will leave at once.|
 f Broadhoof Outpost|ACTIVE|68087|M|46.56,41.31|Z|2023;Ohn'ahran Plains|N|At Flightmaster Washengtu.|
-F Duruukhan|ACTIVE|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|N|You can fly back to Maruukai, Hearth or just fly with your own dragon, whatever you prefer.|
+F Duruukhan|ACTIVE|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|QO|2|N|You can fly back to Maruukai, Hearth or just fly with your own dragon, whatever you prefer.|U|6948|
 T Danger in Daruukhan|QID|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|N|To Healer Selbekh.|
 A Saving Centaur|QID|69094|PRE|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|N|From Healer Selbekh.|
 C Saving Centaur|QID|69094|QO|1|M|52.11,29.63|Z|2023;Ohn'ahran Plains|NC|N|Click on the Heavy Beam lying on Weaver Daavu.|
 C Saving Centaur|QID|69094|QO|2|M|52.11,29.63|Z|2023;Ohn'ahran Plains|NC|N|Click on Weaver Daavu.|
-C Saving Centaur|QID|69094|QO|61|M|52.17,30.41|Z|2023;Ohn'ahran Plains|NC|N|Click on the Heavy Beam. Once you get the glowing hand curser back, click on Fletcher Nisekh.|
+C Saving Centaur|QID|69094|QO|6|M|52.17,30.41|Z|2023;Ohn'ahran Plains|NC|N|Click on the Heavy Beam. Once you get the glowing hand curser back, click on Fletcher Nisekh.|
 C Saving Centaur|QID|69094|QO|3|M|51.50,30.37|Z|2023;Ohn'ahran Plains|NC|N|Click on Smith Gaan.|
-C Saving Centaur|QID|69094|QO|51|M|51.62,29.161|Z|2023;Ohn'ahran Plains|NC|N|Click on the Heavy Beam.Once the icon changes back to the glowing hand, Click on Fletcher Nisekh.|
+C Saving Centaur|QID|69094|QO|5|M|51.62,29.161|Z|2023;Ohn'ahran Plains|NC|N|Click on the Heavy Beam.Once the icon changes back to the glowing hand, Click on Weaver Sagaa.|
 C Saving Centaur|QID|69094|QO|4|M|52.25,29.15|Z|2023;Ohn'ahran Plains|NC|N|Click on Leatherworker Tukhtai.|
 T Saving Centaur|QID|69094|M|52.84,29.86|Z|2023;Ohn'ahran Plains|N|To Healer Selbekh.|
 A Homeward Hound|QID|69095|PRE|69094|M|52.84,29.86|Z|2023;Ohn'ahran Plains|N|From Healer Selbekh.|
@@ -566,7 +566,7 @@ C Taivan's Purpose|QID|69096|QO|1|M|61.81,38.55|Z|2023;Ohn'ahran Plains|CHAT|N|T
 C Taivan's Purpose|QID|69096|QO|2|M|61.81,38.55|Z|2023;Ohn'ahran Plains|CHAT|N|Try to talk to Chimel again.|
 C Taivan's Purpose|QID|69096|QO|3|M|61.81,38.55|Z|2023;Ohn'ahran Plains|NC|N|Wait and watch.|
 T Taivan's Purpose|QID|69096|M|61.81,38.72|Z|2023;Ohn'ahran Plains|N|To Healer Selbekh.|
-A Dormant Discovery|QID|66595|M|PLAYER|N|Autoaccepted|;REN 7 with Maruuk?
+;A Dormant Discovery|QID|66595|M|PLAYER|N|Autoaccepted|;REN 7 with Maruuk?
 R Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|And we are off to the last area, you probably need a full vigor bar if you are going to take your dragon.|RANK|2|
 f Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|2|
 T Into the Azure|QID|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|To Masud the Wise.|
@@ -574,34 +574,28 @@ A To the Azure Span|QID|65686|PRE|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|
 
 ;T A Gift for Miguel|QID|67100|M|71.75,81.21|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|-this is in the Waking shore guide
 ;A Professionally Equipped|QID|67137|PRE|67100|M|71.93,81.03|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.| - this is in the waking shore guide
-A Targeted Ads|QID|69915|PRE|67100|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|
-A A Craft in Need|QID|69919|PRE|67100|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|;not offered PRE?
+A Targeted Ads|QID|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|;removed the PRE cuz it was wrong. IDK the correct one
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|;removed the PRE cuz it was wrong. IDK the correct one
 C A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Azley about the Artisan's Consortium rules.|
-T Customer Satisfaction|QID|69981|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|To Azley.|
-A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|;perhaps based on mining skill,. mines about 40
+T A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|To Azley.|
+;A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|;perhaps based on mining skill,. mines about 40
 C That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|CHAT|N|All the answers work.|
 T That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|To Miguel Bright.|
-A The Wonders of the World|QID|67298|PRE|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|3|
+;A The Wonders of the World|QID|67298|PRE|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|3|
 C The Wonders of the World|QID|67298|QO|1|M|71.73,81.24|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Thomas about where he gets his inspiration.|
 A The Master of Their Craft|QID|69946|PRE|67295|M|71.73,81.24|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|RANK|3|
-C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill goats in the marked area outside of camp to recover Azley's missing books.|S|
-C Customer Satisfaction|QID|69981|M|74.59,81.01|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Bree'jo found.|
-C Customer Satisfaction|QID|69981|M|77.25,73.13|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Duncan Ironeye found.|
-C Customer Satisfaction|QID|69981|M|67.02,80.85|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Eznuu found.|
-C Customer Satisfaction|QID|69981|M|72.03,81.11|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Return to Azley.|
-F Forkriver Crossing Glyph|N|Just above the road.|M|70.15,86.78|Z|2024;The Azure Plains!Dragonflight|ACH|16672|
-C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill mobs in the marked area to recover Azley's missing books.|US|
-T Customer Satisfaction|QID|69981|M|71.84,81.27|Z|2023;Ohn'ahran Plains|N|To Mahra Treebender.|
+$ Forkriver Crossing Glyph|N|Just above the road.|M|70.15,86.78|Z|2023;Ohn'ahran Plains|ACH|16672|
+C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill mobs in the marked area to recover Azley's missing books.|
 T Targeted Ads|QID|69915|M|72.03,81.10|Z|2023;Ohn'ahran Plains|N|To Azley.|
 A Customer Satisfaction|QID|69981|PRE|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|
-A Show Your Mettle|QID|70221|PRE|69915|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|
-T Show Your Mettle|QID|70221|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|
 C Customer Satisfaction|QID|69981|M|74.59,81.01|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask her about her crafting order.|
 C Customer Satisfaction|QID|69981|M|77.25,73.13|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Ask him about his crafting order.|
 C Customer Satisfaction|QID|69981|M|67.02,80.85|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Well, he isn't talking, so return his armour, since he doesn't need it anymore.|
 C Customer Satisfaction|QID|69981|M|72.03,81.11|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Show Azley what you found.|
 T Customer Satisfaction|QID|69981|M|71.84,81.27|Z|2023;Ohn'ahran Plains|N|To Mahra Treebender.|
 
+;A Show Your Mettle|QID|70221|PRE|69915|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|;possible profession requirement
+T Show Your Mettle|QID|70221|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|
 F Terrakai|ACTIVE|67298|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|3|
 C The Wonders of the World|QID|67298|QO|2|M|46.09,59.93|Z|2023;Ohn'ahran Plains|N|Fly over and pick up the Ancient Scrap of Draconic Wisdom in the nest.|
 T The Wonders of the World|QID|67298|M|46.04,59.92|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|
@@ -610,6 +604,5 @@ T The Master of Their Craft|QID|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To
 A A Worthy Hunt|QID|69979|PRE|9946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|From Khadin.|
 K Thousandmile|ACTIVE|69979|M|49.41,37.10|Z|2023;Ohn'ahran Plains|N|Go out and kill and loot Thousandmile.|T|Thousandmile|
 T A Worthy Hunt|QID|69979|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To Khadin. This is to show you the repeatable quest to turn your Shards of Dragon Knowledge into tradeskill knowlege.|
-N Onward to Azure Span|N|This ends your tour of Ohn'ahran Plains. Click this off to load the next guide.|
 ]]
 end)
