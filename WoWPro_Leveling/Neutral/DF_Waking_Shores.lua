@@ -540,11 +540,11 @@ C Obsidian Oathstone|QID|66049|M|27.60,63.29|Z|2022|QO|2|NC|N|Examine the Oathst
 T Obsidian Oathstone|QID|66049|M|27.30,62.57|Z|2022|N|To Wrathion.|
 A A Shattered Past|QID|66055|PRE|66049|M|27.26,62.80|Z|2022|N|From Forgemaster Bazentus.|
 C A Shattered Past|QID|66055|M|27.08,60.79|Z|2022|QO|1|NC|N|Enter vaults beneath the Citadel.|
-l A Shattered Past|ACTIVE|66055|M|24.97,54.61|Z|2022|QO|2|NC|N|Pick up Oathstone Fragments throughout the vaults.|
+l A Shattered Past|ACTIVE|66055|M|24.97,54.61|Z|2022|QO|2|N|Pick up Oathstone Fragments throughout the vaults.|
 T A Shattered Past|QID|66055|M|27.26,62.80|Z|2022|N|To Forgemaster Bazentus.|
 A Forging a New Future|QID|66056|PRE|66055|M|27.26,62.80|Z|2022|N|From Forgemaster Bazentus.|
 C Forging a New Future|QID|66056|M|24.64,60.87|Z|2022|QO|1|NC|N|Activate Earth-Warder's Forge.|
-C Forging a New Future|QID|66056|M|24.40,60.16|Z|2022|QO|2|NC|N|Collect cindershard coal.|
+l Forging a New Future|QID|66056|M|24.40,60.16|Z|2022|QO|2|N|Collect cindershard coal.|
 T Forging a New Future|QID|66056|M|24.67,61.10|Z|2022|N|To Forgemaster Bazentus.|
 A The Spark|QID|66354|PRE|66056|M|24.67,61.10|Z|2022|N|From Forgemaster Bazentus.|
 C The Spark|QID|66354|M|24.62,60.92|Z|2022|QO|1|NC|N|Place fragments on forge.|
