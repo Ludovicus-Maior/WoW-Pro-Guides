@@ -85,7 +85,7 @@ local function handler(msg, editbox)
         for i=1,40 do
             local name, _, _, _, _, _, _, _, _, spellId = _G.UnitAura("player", i, nil)
             if name then
-                local text = ("|r#%d |cFF0000FFName: |cFFFF0000%q, |cFF0000FFspellId: |cFFFF0000%d"):format(i, name, spellId)
+                local text = ("|r#%d |cFF8080FFName: |cFFFF8080%q, |cFF8080FFspellId: |cFFFF8080%d"):format(i, name, spellId)
                 _G.ChatFrame1:AddMessage(text)
             end
         end
