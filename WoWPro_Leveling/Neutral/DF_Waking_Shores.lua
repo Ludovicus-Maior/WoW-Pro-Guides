@@ -544,12 +544,12 @@ l A Shattered Past|ACTIVE|66055|M|24.97,54.61|Z|2022|QO|2|N|Pick up Oathstone Fr
 T A Shattered Past|QID|66055|M|27.26,62.80|Z|2022|N|To Forgemaster Bazentus.|
 A Forging a New Future|QID|66056|PRE|66055|M|27.26,62.80|Z|2022|N|From Forgemaster Bazentus.|
 C Forging a New Future|QID|66056|M|24.64,60.87|Z|2022|QO|1|NC|N|Activate Earth-Warder's Forge.|
-l Forging a New Future|QID|66056|M|24.40,60.16|Z|2022|QO|2|N|Collect cindershard coal.|
+l Forging a New Future|ACTIVE|66056|M|24.40,60.16|Z|2022|QO|2|N|Collect cindershard coal.|
 T Forging a New Future|QID|66056|M|24.67,61.10|Z|2022|N|To Forgemaster Bazentus.|
 A The Spark|QID|66354|PRE|66056|M|24.67,61.10|Z|2022|N|From Forgemaster Bazentus.|
 C The Spark|QID|66354|M|24.62,60.92|Z|2022|QO|1|NC|N|Place fragments on forge.|
 C The Spark|QID|66354|M|24.65,60.91|Z|2022|QO|2|NC|N|Watch and wait.|
-C The Spark|QID|66354|M|24.62,60.91|Z|2022|QO|3|NC|N|Collect reformed pieces.|
+l The Spark|ACTIVE|66354|M|24.62,60.91|Z|2022|QO|3|N|Collect reformed pieces.|
 T The Spark|QID|66354|M|24.68,61.12|Z|2022|N|To Forgemaster Bazentus.|
 A Restoring the Faith|QID|66057|PRE|66354|M|24.68,61.12|Z|2022|N|From Forgemaster Bazentus.|
 C Restoring the Faith|QID|66057|M|27.31,62.59|Z|2022|QO|1|CHAT|N|Speak with Wrathion.|
@@ -568,7 +568,7 @@ T Claimant to the Throne|QID|66780|M|24.42,55.49|Z|2022|N|To Wrathion.|
 T Heir Apparent|QID|66779|M|24.28,55.86|Z|2022|N|To Sabellian.|
 A Black Wagon Flight|QID|65793|PRE|66780&66779|M|24.28,55.86|Z|2022|N|From Sabellian.|
 C Black Wagon Flight|QID|65793|M|25.28,56.81|Z|2022|QO|1|N|Hop on your own dragonriding mount. (Optional).|BUFF|368896|
-C Black Wagon Flight|QID|65793|M|43.85,66.42|Z|2022|QO|2|CHAT|N|Speak with Sabellian to begin moving the eggs.|
+C Black Wagon Flight|QID|65793|M|43.85,66.42|Z|2022|QO|2|CHAT|N|Speak with Sabellian at the Inconspicuous Wagon to begin moving the eggs.|
 C Black Wagon Flight|QID|65793|M|52.48,66.89|Z|2022|QO|3|NC|N|Escort the wagon. If you get to far away the wagon will stop.|
 T Black Wagon Flight|QID|65793|M|57.95,67.30|Z|2022|N|To Sabellian. Talk to the dragon he will give you a lift up to the top. Other wise just fly up. |
 A The Last Eggtender|QID|66785|PRE|65793|M|57.95,67.30|Z|2022|N|From Sabellian.|
