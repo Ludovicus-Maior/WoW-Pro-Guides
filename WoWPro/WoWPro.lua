@@ -87,7 +87,7 @@ WoWPro:Export("Print")
 -- WoWPro warning function, log and console --
 function WoWPro:Warning(message, ...)
     if message ~= nil then
-        local msg = ("|cffffff00%s|r: "..message):format(self.name or "Wow-Pro", ...)
+        local msg = ("|cffFFA500%s|r: "..message):format(self.name or "Wow-Pro", ...)
         WoWPro:Add2Log(0, msg)
     end
 end
@@ -1300,7 +1300,7 @@ WoWPro.LoadAll.hCount=0
 WoWPro.LoadAll.nCount=0
 WoWPro.LoadAll.Count=0
 
-local function TestGuideLoad(guidID)
+function WoWPro.TestGuideLoad(guidID)
     if not guidID then
         WoWPro:Print("Finished loading guides.")
         return
@@ -1316,18 +1316,21 @@ local function TestGuideLoad(guidID)
     WoWProCharDB.Guide[guidID].completion =  {}
     WoWProCharDB.Guide[guidID].skipped =  {}
     WoWPro:LoadGuideStepsReal()
-    local nextG = WoWPro:NextGuide(guidID)
-    if WoWPro.Guides[guidID].zone then
-        local zed = WoWPro.Guides[guidID].zone
-        if not WoWPro:ValidZone(zed) then
-            WoWPro:Warning("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
+    if WoWPro.Guides[guidID].guidetype == "Leveling" then
+        if WoWPro.Guides[guidID].zone then
+            local zed = WoWPro.Guides[guidID].zone
+            if not WoWPro:ValidZone(zed) then
+                WoWPro:Warning("TestGuideLoad: Invalid zone: "..(WoWPro.Guides[guidID].zone).." for guide "..guidID)
+            end
         end
-    end
-    if nextG and WoWPro.Guides[nextG] == nil then
-        WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
-    end
-    if not WoWPro.Guides[guidID].icon and WoWPro.DebugLevel > 0 then
-        WoWPro:dbp("Guide %s has no icon.",guidID)
+        if not WoWPro.Guides[guidID].nextGID then
+            WoWPro:Warning("TestGuideLoad: No Next Guide defined for "..guidID)
+        else
+            local nextG = WoWPro:NextGuide(guidID)
+            if nextG and (WoWPro.Guides[nextG] == nil) then
+                WoWPro:Warning("TestGuideLoad: Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
+            end
+        end
     end
     if WoWPro.Guides[guidID].faction then
         if WoWPro.Guides[guidID].faction == "Alliance" then WoWPro.LoadAll.aCount = WoWPro.LoadAll.aCount + 1 end
@@ -1344,7 +1347,7 @@ local function LoadNext(frame, elapsed)
             local guidID
             repeat
                 guidID = tremove(WoWPro.LoadAll.List)
-                TestGuideLoad(guidID)
+                WoWPro.TestGuideLoad(guidID)
                 coroutine.yield(guidID)
             until not guidID
             WoWPro:Print("Exiting coroutine.")
