@@ -11,7 +11,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 
-A A Timely Invitation|LVL|10|QID|57249|M|PLAYER|U|171177|N|Use the [Invitation from the Timewalkers] and accept this quest|
+A A Timely Invitation|LVL|11|QID|57249|M|PLAYER|U|171177|O|N|Use the [Invitation from the Timewalkers] and accept this quest|
 U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!| ; 18th!
 ; U Celebration Package|U|185907|BUFF|359530|N|Hey, use your Celebration Package!| ; 17th
 
@@ -51,7 +51,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Thane Kurdran Wildhammer recently
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The draenei like to joke that in the language of the naaru|N|Defective elekk turd|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The Ironforge library features a replica of an unusually large ram's skeleton|N|Toothgnasher|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|against the armies of the Qiraji in what war|N|War of the Shifting Sands|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This cult was affiliated with the orcish Shadow Council|N|Argus Wake|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|cult was affiliated with the orcish Shadow Council|N|Argus Wake|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This defender of the Scarlet Crusade was killed while slaying the dreadlord Beltheris|N|Holla Sunshield|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This emissary of the Horde felt that Silvermoon City was a little too bright and clean|N|Tatal|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Originally intended to bring Thrall and Aggra to the Maelstrom|N|Draka's Fury|
