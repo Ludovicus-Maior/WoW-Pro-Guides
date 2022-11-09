@@ -120,7 +120,7 @@ T Atop the Woodlands |QID|12084|M|38.1,46.2|N|To the Image of Archmage Aethas Su
 A Search Indu'le Village |QID|12106|M|38.1,46.2|PRE|12084|N|From the Image of Archmage Aethas Sunreaver.|
 T A Letter for Home |QID|12085|M|38.1,46.3|N|To Overlord Agmar.|
 F Moa'ki Harbor|QID|11958|M|37.5,45.7|N|Fly to Moa'ki Harbor.|
-A Planning for the Future |QID|11960|N|From Trapper Mau'i.|M|48.30,74.30|
+A Planning for the Future |QID|11960|N|From Trapper Mau'i. (Daily)|M|48.30,74.30|
 h Moa'ki Harbor |ACTIVE|11960|N|Make this inn your home location.|M|48.15,74.76|
 A Let Nothing Go To Waste |QID|11958|N|From Elder Ko'nani.|M|48.10,74.90|
 C Snowfall Glade Pups |QID|11960|QO|1|N|Right-click 12 Snowfall Glade Pups, try not to do AoEs near them as it can kill the pups.|M|43.6,71.3|S|
@@ -466,11 +466,11 @@ A Report to Lord Devrestrasz |QID|12435|PRE|12123^12124|M|59.8,54.7|N|From Alexs
 T On Ruby Wings |QID|12498|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 A Return To Angrathar |QID|12500|M|59.8,54.7|PRE|12498|N|From Alexstrasza the Life-Binder.|
 T Report to Lord Devrestrasz |QID|12435|N|Ask Torastrasza to fly you down to the middle floor. Turn the quest into Lord Devrestrasz.|M|59.2,54.3|
-A Defending Wyrmrest Temple |QID|12372|PRE|12435|M|59.2,54.3|N|From Lord Devrestrasz.|
+A Defending Wyrmrest Temple |QID|12372|PRE|12435|M|59.2,54.3|N|From Lord Devrestrasz. (Daily)|
 N Instructions |QID|12372|N|Go on the balcony and talk to a Wyrmrest Defender, click on the text and you'll ride it. Ability #1: Direct damage, use everytime it's up. Ability #2: DoT. Use it once at the start of a fight. Ability #3: Self heal. Ability #4: Use it to escape when you get attacked by several dragons at the same time. Ability #5: Go inside the big beam in the Azure Dragonshrine (just southwest of Wyrmrest Temple) and use it once. Fun quest, kill dragons. Not much else to say, it's rather easy, just escape and heal up if things get dangerous.|
-C Defending Wyrmrest Temple |QID|12372|N|This is a daily quest by the way, and you get an achievement if you finish it in under 2 minutes.|M|55.1,66.4|
+C Defending Wyrmrest Temple |QID|12372|N|You get an achievement if you finish it in under 2 minutes.|M|55.1,66.4|
 T Defending Wyrmrest Temple |QID|12372|N|Go back to Lord Devrestrasz.|M|59.2,54.3|
-C Mystery of the Infinite, Redux |QID|13343|U|37923|N|Right-click the Hourglass of Eternity from your inventory to start the event.|M|71.7,38.9|
+C Mystery of the Infinite, Redux |QID|13343|U|44450|N|Use the Hourglass of Eternity to start the event.\n\nThere are 5 waves to defeat.\n\nEach wave is progressivly harder.|M|71.7,38.9|
 T Mystery of the Infinite, Redux |QID|13343|N|To Chromie.|M|60.0,54.49|
 H Agmar's Hammer|QID|12097|N|Hearth to Agmar's Hammer.|
 T Sarathstra, Scourge of the North|QID|12097|N|To Captain Gort.|M|35.81,48.38|
