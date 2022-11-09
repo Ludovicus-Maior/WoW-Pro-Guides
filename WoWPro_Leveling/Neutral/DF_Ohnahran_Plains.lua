@@ -59,8 +59,9 @@ A For Food and Rivalry|QID|65804|PRE|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains
 C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|N|Kill animals as you pass thru their area and collect the fresh game meat. Don't try to get them all, we will be back.|S|IZ|14094|
 A Mysterious Beast|QID|70185|PRE|65803|M|76.72,31.88|Z|2023;Ohn'ahran Plains|N|From Mysterious Paw Print.|
 $ Mirewood Fen|N|If you aren't on your Dragon, mount up and get the glyph floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
+C Nergazurai|QID|70319|M|75.09,25.01|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Ottuk's in and around the water to loot an Ottuk Heart.|S|
 C Nergazurai|QID|70319|M|76.16,20.24|Z|2023;Ohn'ahran Plains|QO|3|N|Kill Swift Hornstriders to collect a scale.|
-C Nergazurai|QID|70319|M|75.09,25.01|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Ottuk's in and around the water to loot an Ottuk Heart.|
+C Nergazurai|QID|70319|M|75.09,25.01|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Ottuk's in and around the water to loot an Ottuk Heart.|US|
 K Konkhular|ACTIVE|70185|M|78.32,35.13|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Konkhular can be found in a cave. It is the lowest cave in the area. Kill him to loot his pelt.|T|Konkhular|
 C Thieving Gorlocs|QID|65950|M|81.08,30.77|Z|2023;Ohn'ahran Plains|N|Kill Gorlocs and loot to reclaim the Shikaar supplies.|
 C Sole Supplier|QID|65951|M|80.69,30.64|Z|2023;Ohn'ahran Plains|NC|N|Khasar can be found in a cage in the Mudfin Village.|

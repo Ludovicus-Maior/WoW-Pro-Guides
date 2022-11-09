@@ -949,12 +949,18 @@ function WoWPro.ParseSteps(steps)
     if (not  WoWPro.Recorder) and WoWPro.action[last_i] ~= "D" and WoWPro.Guides[GID].guidetype == "Leveling" then
         nguide = WoWPro:NextGuide(GID)
         if nguide then
-            fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|NOCACHE|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
+            if not WoWProDB.profile.autoload then
+                fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|NOCACHE|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
+            end
         else
             fini = ("D Finished|N|This ends %s. There is no next guide, so you can pick the next from the Guide List.|NOCACHE|"):format(WoWPro:GetGuideName(GID))
         end
-        WoWPro.ParseQuestLine(myFaction, zone, i, fini)
-        WoWPro.stepcount = i
+        if fini then
+          WoWPro.ParseQuestLine(myFaction, zone, i, fini)
+          WoWPro.stepcount = i
+        else
+          WoWPro.stepcount = i - 1
+        end
     else
         WoWPro.stepcount = i - 1
     end

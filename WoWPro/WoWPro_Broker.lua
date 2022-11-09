@@ -608,7 +608,7 @@ end
 function WoWPro:GuideFormalName(GID)
     if WoWPro.Guides[GID] then
         -- GID is a proper guide ID
-         WoWPro:dbp("WoWPro:GuideFormalName(%s):  GID", GID)
+         WoWPro:dbp("WoWPro:GuideFormalName(%s): is GID", GID)
         return GID
     end
     if type(WoWPro.Nickname2Guide[GID]) == 'string' then
