@@ -48,8 +48,8 @@ C Gymer's Salvation|QID|12914|QO|2|N|Now head to the area around Ebon Watch and 
 f Ebon Watch|QID|12914|M|14.01,73.59|N|Get the flightpoint from Baneflight|
 T The Ebon Watch|QID|12884|M|14.12,73.79|N|To Stefan Vadu.|
 A Kickin' Nass and Takin' Manes|QID|12630|PRE|12884|M|14.1,73.8|N|From Stefan Vadu.|
-A An Invitation, of Sorts...|QID|12631|LEAD|12238|O|M|PLAYER|N|From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills.|U|38660|
-A Darkness Calling|QID|12633|PRE|12238|O|N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.|U|38673|M|PLAYER|
+A An Invitation, of Sorts...|QID|12631|PRE|-12238|M|PLAYER|N|From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills.|U|38660|
+A Darkness Calling|QID|12633|PRE|12238|N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.|U|38673|M|PLAYER|
 C Kickin' Nass and Takin' Manes|QID|12630|N|Kill the trolls, put the boot to Nass!|U|38659|M|15.5,69.8|
 T Kickin' Nass and Takin' Manes|QID|12630|N|Back to Stefan Vadu at Ebon Watch.|M|14.12,73.79|
 T Darkness Calling|QID|12633|N|To Stefan Vadu.|M|14.12,73.79|
@@ -149,7 +149,7 @@ C Trouble at the Altar of Sseratus|QID|12506|N|Avoid the Prophet in front and go
 C Argent Crusade, We Are Leaving!|QID|12504|M|40.4,47.0|US|N|Finish telling Argent Soldiers to pull back.|
 C Mopping Up|QID|12508|M|40.4,47.0|US|N|Finish killing trolls.|
 l Strange Mojo|AVAILABLE|12507|M|40.4,47.0|L|38321|N|Kill trolls in the area till this drops.|
-A Strange Mojo|QID|12507|N|It's a drop. Keep killing trolls until you get it.|M|40.4,47.0|O|U|38321|
+A Strange Mojo|QID|12507|N|It's a drop. Keep killing trolls until you get it.|M|40.4,47.0|U|38321|
 T Argent Crusade, We Are Leaving!|QID|12504|N|Back to Sergeant Stackhammer.|M|40.41,48.27|
 T Mopping Up|QID|12508|M|40.4,48.2|N|From Corporal Maga.|
 A Lab Work|QID|12557|N|Inside the building at Heb'Valok.|M|35.08,52.09|
