@@ -7,9 +7,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 A The Champion's Call!|QID|12974|Z|The Underbelly@Dalaran|M|53.2,48.8|N|In the Underbelly in Dalaran, find Shifty Vickers. This breadcrumb quest is not availible if you do ANY of the Amphitheater line and it counts to Loremaster.|LEAD|12954|T|Shifty Vickers|
 f Light's Breach|QID|12883|N|Fly to Light's Breach.|Z|Zul'Drak|M|32.05,74.50|
-T Into the Breach!|QID|12789|O|N|To Sargent Riannah, who is next to the Flightmaster.|M|32.05,74.50|
-A Reallocating Resources|QID|12770|O|N|From Captain Gryan Stoutmantle.|Z|Grizzly Hills|M|59.51,26.15|FACTION|Alliance|
-T Reallocating Resources|QID|12770|O|N|To Sergeant Riannah. Talk to the Flightmaster; he'll send you to Light's Breach.|FACTION|Alliance|
+T Into the Breach!|QID|12789|N|To Sargent Riannah, who is next to the Flightmaster.|M|32.05,74.50|
+A Reallocating Resources|QID|12770|N|From Captain Gryan Stoutmantle.|Z|Grizzly Hills|M|59.51,26.15|FACTION|Alliance|
+T Reallocating Resources|QID|12770|N|To Sergeant Riannah. Talk to the Flightmaster; he'll send you to Light's Breach.|FACTION|Alliance|
 A This Just In: Fire Still Hot!|QID|12859|M|32.0,75.6|N|From Elder Shaman Moky.|
 A Trolls Is Gone Crazy!|QID|12861|M|32.2,75.7|N|From Chief Rageclaw.|
 A In Search Of Answers|QID|12902|M|32.2,75.7|N|From Crusader Lord Lantinga.|
@@ -43,23 +43,23 @@ T That's What Friends Are For...|QID|12903|N|Back to Crusader MacKellar at Crusa
 T Making Something Out Of Nothing|QID|12901|M|25.3,64.0|N|To Engineer Reed.|
 T A Great Storm Approaches|QID|12912|M|25.3,64.0|N|To Engineer Reed.|
 A Gymer's Salvation|QID|12914|PRE|12912|M|25.3,64.0|N|From Engineer Reed.|
-K Banshees|QID|12914|M|26.34,60|N|Kill the banshees in The Dead Fields for their essence. They are floating so you will probably have to pull them to you.|QO|1|T|Banshee|
+K Banshees|ACTIVE|12914|M|26.34,60|N|Kill the banshees in The Dead Fields for their essence. They are floating so you will probably have to pull them to you.|QO|1|T|Banshee|
 C Gymer's Salvation|QID|12914|QO|2|N|Now head to the area around Ebon Watch and kill the Icetouched Earthragers.|M|14.26,73.60|
 f Ebon Watch|QID|12914|M|14.01,73.59|N|Get the flightpoint from Baneflight|
 T The Ebon Watch|QID|12884|M|14.12,73.79|N|To Stefan Vadu.|
 A Kickin' Nass and Takin' Manes|QID|12630|PRE|12884|M|14.1,73.8|N|From Stefan Vadu.|
-A An Invitation, of Sorts...|QID|12631|O|N|(UI Alert) From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills.|
-A Darkness Calling|QID|12633|O|N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.|U|38673|M|PLAYER|
+A An Invitation, of Sorts...|QID|12631|LEAD|12238|O|M|PLAYER|N|From the Unliving Choker. You get this quest chain if you didn't complete the Drakuru quest chain in Grizzly Hills.|U|38660|
+A Darkness Calling|QID|12633|PRE|12238|O|N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.|U|38673|M|PLAYER|
 C Kickin' Nass and Takin' Manes|QID|12630|N|Kill the trolls, put the boot to Nass!|U|38659|M|15.5,69.8|
 T Kickin' Nass and Takin' Manes|QID|12630|N|Back to Stefan Vadu at Ebon Watch.|M|14.12,73.79|
-T Darkness Calling|QID|12633|O|N|To Stefan Vadu.|M|14.12,73.79|
-T An Invitation, of Sorts...|QID|12631|O|M|14.1,73.8|N|To Stefan Vadu.|
-A Near Miss|QID|12637|O|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
-C Near Miss|QID|12637|O|N|Talk to Bloodrose Datura and choose her chat option.|M|14.29,74.03|
-A Close Call|QID|12638|O|PRE|12633|N|From Stefan Vadu.|
-C Close Call|QID|12638|O|N|Talk to Bloodrose Datura and choose her chat option.|M|14.29,74.03|
+T Darkness Calling|QID|12633|N|To Stefan Vadu.|M|14.12,73.79|
+T An Invitation, of Sorts...|QID|12631|M|14.1,73.8|N|To Stefan Vadu.|
+A Near Miss|QID|12637|PRE|12631|M|14.1,73.8|N|From Stefan Vadu.|
+C Near Miss|QID|12637|CHAT|N|Talk to Bloodrose Datura and choose her chat option.|M|14.29,74.03|
+A Close Call|QID|12638|PRE|12633|N|From Stefan Vadu.|
+C Close Call|QID|12638|CHAT|N|Talk to Bloodrose Datura and choose her chat option.|M|14.29,74.03|
 A Taking a Stand|QID|12795|LEAD|12503|PRE|12630|M|14.3,74.0|N|From Bloodrose Datura.|
-T Near Miss|QID|12637|O|M|14.1,73.8|N|To Stefan Vadu.|
+T Near Miss|QID|12637|M|14.1,73.8|N|To Stefan Vadu.|
 A You Can Run, But You Can't Hide|QID|12629|PRE|12637|M|14.1,73.8|N|From Stefan Vadu.|
 C You Can Run, But You Can't Hide|QID|12629|N|Around the Reliquary of Agony. Pick up the Drool from the ground. Kill and loot the Abominations.|M|21.24,75.01|
 T You Can Run, But You Can't Hide|QID|12629|N|Back to Stefan Vadu at Ebon Watch.|M|14.26,73.60|
@@ -69,26 +69,27 @@ T Close Call|QID|12638|M|14.1,73.8|N|To Stefan Vadu.|
 A Silver Lining|QID|12643|PRE|12638|N|From Stefan Vadu.|
 C Silver Lining|QID|12643|N|Around the Reliquary of Agony . Pick up the Drool from the ground. Kill the Abominations.|M|21.24,75.01|
 T Silver Lining|QID|12643|N|Back to Stefan Vadu.|M|14.12,73.79|
-A Suit Up!|QID|12649|O|PRE|12643|N|From Stefan Vadu.|
-C Suit Up!|QID|12649|O|N|Return to the Reliquary of Agony and use the choker. You cannot use while shapeshifted. Buy the plasma from Gristlegut.|U|38699|M|19.91,75.44|
+A Suit Up!|QID|12649|PRE|12643|N|From Stefan Vadu.|
+C Suit Up!|QID|12649|N|Return to the Reliquary of Agony and use the choker. You cannot use while shapeshifted. Buy the plasma from Gristlegut.|U|38699|M|19.91,75.44|
 A Feedin' Da Goolz|QID|12652|M|19.9,75.5|N|From Gristlegut.|FACTION|Horde|
 C Feedin' Da Goolz|QID|12652|N|Use the bowl near the ghouls. Be careful of the Blightguards, they see through your disguise. You should hotkey the chocker because your diguise will fail at some point.|U|38701|M|21.24,75.01|
 T Feedin' Da Goolz|QID|12652|N|Back to Gristlegut.|M|19.9,75.5|U|38699|
-T Dressing Down|QID|12648|O|N|Back to Ebon Watch.|M|14.12,73.79|
-T Suit Up!|QID|12649|O|N|Back to Stefan Vadu.|M|14.12,73.79|
+T Dressing Down|QID|12648|N|Back to Ebon Watch.|M|14.12,73.79|
+T Suit Up!|QID|12649|N|Back to Stefan Vadu.|M|14.12,73.79|
 A Infiltrating Voltarus|QID|12661|PRE|12648^12649|M|14.1,73.8|N|From Stefan Vadu.|
 T Gymer's Salvation|QID|12914|N|Back to Crusader Forward Camp.|M|25.34,63.97|
 A Our Only Hope|QID|12916|PRE|12914|M|25.3,64.0|N|From Engineer Reed.|
 C Our Only Hope|QID|12916|N|Use the Jumbo Seaforium Charge on the cage.|M|19.65,56.47|
 T Our Only Hope|QID|12916|M|19.7,56.4|N|To Gymer.|
 A The Storm King's Vengeance|QID|12919|PRE|12916|N|From Gymer.|M|19.7,56.4|
-C The Storm King's Vengeance|QID|12919|N|Talk to Gymer to mount him and go! (Option 3)|M|19.7,56.4|S!US|QO|1|
-K Algar the Chosen|QID|12919|QO|2|M|29.2,46|N|He flies in circles underneath Volatrus, above the circular platform on the ground.|
-K Prince Navarius|QID|12919|QO|4|M|29.8,65.4;32.4,63.6|CN|N|At one of these two spots.|
-K Thrym|QID|12919|QO|3|N|He will spawn after killing the Prince. Snack on clouds and wait.|M|PLAYER|
+C The Storm King's Vengeance|QID|12919|QO|1|CHAT|N|Talk to Gymer and kill all the scourge.|M|19.7,56.4|S|
+K Algar the Chosen|ACTIVE|12919|QO|2|M|29.2,46|N|He flies in circles underneath Volatrus, above the circular platform on the ground.|
+K Prince Navarius|ACTIVE|12919|QO|4|M|29.8,65.4;32.4,63.6|CN|N|At one of these two spots.|
+K Thrym|ACTIVE|12919|QO|3|N|He will spawn after killing the Prince. Snack on clouds and wait.|M|PLAYER|
+C The Storm King's Vengeance|QID|12919|N|Finish killing all the required scourge.|M|19.7,56.4|US|
 T The Storm King's Vengeance|QID|12919|N|Back to Crusader Forward Camp.|M|25.43,63.97|
 R Volatrus|ACTIVE|12661|M|28.16,44.84|N|Use the Choker and step onto the center of the pedestal|U|38699|CC|
-A Dark Horizon|PRE|-12238|QID|12664|N|You got this because you didn't finish the Drakuru quest chain in Grizzly Hills.|M|27.1,46.2|
+A Dark Horizon|QID|12664|LEAD|12238|N|You got this because you didn't finish the Drakuru quest chain in Grizzly Hills.|M|27.1,46.2|
 C Dark Horizon|QID|12664|N|Circle around the platform until you find a ramp on the outer ring. Gorebag is up there. Enjoy the ride.|M|29.76,47.90|
 T Dark Horizon|QID|12664|M|27.1,46.2|N|To Overlord Drakuru.|
 A Reunited|PRE|12238|QID|12663|N|You got this because you finished the Drakuru quest chain in Grizzly Hills.|M|27.1,46.2|
@@ -96,8 +97,8 @@ C Reunited|QID|12663|N|Circle around the platform until you find a ramp on the o
 T Reunited|QID|12663|N|To Overlord Drakuru.|M|27.1,46.2|
 T Infiltrating Voltarus|QID|12661|N|Port back down, blow the horn.|U|41390|M|28.25,45|
 A So Far, So Bad|QID|12669|PRE|12661|N|From Stefan Vadu.|
-C So Far, So Bad|ACTIVE|12669|QO|2|N|Use the Diluting Additive near the cauldrons. Blightguards will spawn mobs, run away to try to avoid aggro. The Cauldrons are at the waypoints.|U|39154|M|31.29,43.2;31.16,44.31;31.04,45.16;29.6,47.43;26.80,46.92|CS|
-R So Far, So Bad|ACTIVE|12669|N|Use the Choker again and go up into the Spire|U|38699|M|28.37,44.88|CC|
+C So Far, So Bad|QID|12669|QO|2|N|Use the Diluting Additive near the cauldrons. Blightguards will spawn mobs, run away to try to avoid aggro. The Cauldrons are at the waypoints.|U|39154|M|31.29,43.2;31.16,44.31;31.04,45.16;29.6,47.43;26.80,46.92|CS|
+R So Far, So Bad|QID|12669|N|Use the Choker again and go up into the Spire|U|38699|M|28.37,44.88|
 A It Rolls Downhill|QID|12673|N|From Overlord Drakuru.|M|27.12,46.10|
 C It Rolls Downhill|QID|12673|N|Port back down, target a geist, use the scepter to charm it and send it for a crystal (the button is on the pet bar, get close they're not too bright). You MUST wait until the geist ports up to get credit, so don't get in a rush to charm another one.|U|39157|M|27.2,45.1|T|Blight Geist|
 T It Rolls Downhill|QID|12673|N|Back to Overlord Drakuru.|M|27.12,46.10|
@@ -142,13 +143,13 @@ T The Blessing of Zim'Abwa|QID|12565|N|Big statue to the SW.|M|36.71,72.78|
 T New Orders for Sergeant Stackhammer|QID|12505|N|Straight North from the Argent Stand. Just follow the road.|M|40.41,48.27|
 A Argent Crusade, We Are Leaving!|QID|12504|PRE|12505|M|40.4,48.2|N|From Sergeant Stackhammer.|
 A Mopping Up|QID|12508|PRE|12505|M|40.4,48.2|N|From Corporal Maga.|
-A Strange Mojo|QID|12507|N|It's a drop. Keep killing trolls until you get it.\n\n Accept the quest as soon as you get it or the item will continue to drop.|M|40.4,47.0|U|38321|S|
 C Argent Crusade, We Are Leaving!|QID|12504|M|40.4,47.0|S|N|Talk to Argent Soldiers and tell them to pack it. They can be killed by the trolls.|
 C Mopping Up|QID|12508|M|40.4,47.0|S|N|Kill 10 Followers of Sseratus.|
 C Trouble at the Altar of Sseratus|QID|12506|N|Avoid the Prophet in front and go into the temple. Kill Trolls and give Argents their orders on the way.|M|40.0,39.0|
 C Argent Crusade, We Are Leaving!|QID|12504|M|40.4,47.0|US|N|Finish telling Argent Soldiers to pull back.|
 C Mopping Up|QID|12508|M|40.4,47.0|US|N|Finish killing trolls.|
-A Strange Mojo|QID|12507|N|It's a drop. Keep killing trolls until you get it.|M|40.4,47.0|U|38321|US|
+l Strange Mojo|AVAILABLE|12507|M|40.4,47.0|L|38321|N|Kill trolls in the area till this drops.|
+A Strange Mojo|QID|12507|N|It's a drop. Keep killing trolls until you get it.|M|40.4,47.0|O|U|38321|
 T Argent Crusade, We Are Leaving!|QID|12504|N|Back to Sergeant Stackhammer.|M|40.41,48.27|
 T Mopping Up|QID|12508|M|40.4,48.2|N|From Corporal Maga.|
 A Lab Work|QID|12557|N|Inside the building at Heb'Valok.|M|35.08,52.09|
@@ -250,16 +251,16 @@ h Zim'Torga|ACTIVE|12615|M|59.34,57.31|N|At Pan'ya.|T|Pan'ya|
 T The Blessing of Zim'Torga|QID|12615|N|Big statue in the middle.|M|59.4,57.2|
 A The Leaders at Jin'Alai|QID|12622|M|59.2,56.2|N|From Scalper Ahunae.|
 C The Leaders at Jin'Alai|QID|12622|M|57.34,63.52|N|Kill all the trolls in the area to get the named trolls to spawn.|S|
-l Kutube'sa|ACTIVE|12622|QO|1|M|57.46,63.75|T|Kutube'sa|N|Kill Kutube'sa, and loot his treasure.|S|
-l Gawanil|ACTIVE|12622|QO|2|M|58.10,61.91|T|Gawanil|N|Kill Gawanil, and loot his treasure.|S|
-l Chulo the Mad|ACTIVE|12622|QO|3|M|56.35,64.83|T|Chulo the Mad|N|Kill Chulo the Mad, and loot his treasure.|S|
+l Treasure of Kutube'sa|ACTIVE|12622|QO|1|M|57.46,63.75|L|38637|N|Kill Kutube'sa, and loot his treasure.|T|Kutube'sa|S|
+l Treasure of Gawanil|ACTIVE|12622|QO|2|M|58.10,61.91|L|38639|N|Kill Gawanil, and loot his treasure.|T|Gawanil|S|
+l Treasure of Chulo the Mad|ACTIVE|12622|QO|3|M|56.35,64.83|L|38638|N|Kill Chulo the Mad, and loot his treasure.|T|Chulo the Mad|S|
 C Breaking Through Jin'Alai|QID|12627|N|Click on the Purple cauldron.|M|57.62,61.72|QO|3|
 C Breaking Through Jin'Alai|QID|12627|N|Click on the Red cauldron.|M|58.78,62.71|QO|4|
 C Breaking Through Jin'Alai|QID|12627|N|Click on the Blue cauldron.|M|57.20,65.34|QO|1|
 C Breaking Through Jin'Alai|QID|12627|N|Click on the Green cauldron.|M|55.70,64.31|QO|2|
-l Kutube'sa|ACTIVE|12622|QO|1|M|57.46,63.75|T|Kutube'sa|N|Kill Kutube'sa, and loot his treasure.|US|
-l Gawanil|ACTIVE|12622|QO|2|M|58.10,61.91|T|Gawanil|N|Kill Gawanil, and loot his treasure.|US|
-l Chulo the Mad|ACTIVE|12622|QO|3|M|56.35,64.83|T|Chulo the Mad|N|Kill Chulo the Mad, and loot his treasure.|US|
+l Treasure of Kutube'sa|ACTIVE|12622|QO|1|M|57.46,63.75|L|12662|N|Kill Kutube'sa, and loot his treasure.|T|Kutube'sa|US|
+l Treasure of Gawanil|ACTIVE|12622|QO|2|M|58.10,61.91|L|38639|N|Kill Gawanil, and loot his treasure.|T|Gawanil|US|
+l Treasure of Chulo the Mad|ACTIVE|12622|QO|3|M|56.35,64.83|L|38638|N|Kill Chulo the Mad, and loot his treasure.|T|Chulo the Mad|US|
 C The Leaders at Jin'Alai|QID|12622|M|57.34,63.52|N|Kill all the trolls in the area to get the named trolls to spawn.|US|
 T Breaking Through Jin'Alai|QID|12627|N|To Witch Doctor Khufu.|M|59.51,57.99|
 A To Speak With Har'koa|QID|12628|PRE|12627|M|59.5,58.1|N|From Witch Doctor Khufu.|
