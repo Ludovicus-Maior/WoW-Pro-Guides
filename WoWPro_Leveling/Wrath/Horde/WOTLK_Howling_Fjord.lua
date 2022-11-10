@@ -5,9 +5,7 @@ WoWPro:GuideNextGuide(guide, "JamBor7173")
 WoWPro:GuideLevels(guide, 70, 71)
 WoWPro:GuideSteps(guide, function()
 return [[
-P Undercity|QID|11167|M|50.72,55.56|Z|Orgrimmar|N|Take portal to Undercity, then run out to Tristfall Glades and take Zeppelin to Howling Fjord.|
-P Vengeance Landing|QID|11167|N|Take the Howling Fjord portal on top of the Zeppelin tower.|Z|Tirisfal Glades|M|59.08,58.91|
-t To Northrend!|QID|60097|M|PLAYER|N|Quest turn-in on quest tracker once you enter Howling Fjord.|
+b Undercity|AVAILABLE|11167|M|50.72,55.56|Z|Undercity|N|Run out to Tristfall Glades and take Zeppelin to Howling Fjord.|
 A The New Plague |QID|11167|M|78.5,29.0|N|From Apothecary Lysander.|
 A Let Them Eat Crow |QID|11227|M|79.1,31.2|N|From Pontius.|
 A War is Hell |QID|11270|M|78.6,31.2|N|From High Executor Anselm.|
