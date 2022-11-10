@@ -953,7 +953,7 @@ function WoWPro.ParseSteps(steps)
     if (not  WoWPro.Recorder) and WoWPro.action[last_i] ~= "D" and WoWPro.Guides[GID].guidetype == "Leveling" then
         nguide = WoWPro:NextGuide(GID)
         if nguide then
-            if not WoWProDB.profile.autoload then
+            if WoWProDB.profile.autoload then
                 fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|NOCACHE|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
             end
         else
