@@ -15,7 +15,7 @@ A The Flamebinders' Secrets|QID|12256|M|21.0,64.1|N|From Sergeant Nazgrim.|
 A Gray Worg Hides|QID|12175|M|22.0,65.1|N|From Hidetrader Jun'ik.|
 A Supplemental Income|QID|12436|M|22.6,66.1|N|From Provisioner Lorkran.|
 C Gray Worg Hides|QID|12175|N|Kill and loot Graymist Hunters.|S|
-A Blackriver Brawl|QID|12170|N|Optional PvP Daily quest. Part of the Grizzled Veteran achievement. From Raider Captain Kronn.|M|26.5,65.7|
+A Blackriver Brawl|QID|12170|N|Optional PvP quest. Part of the Grizzled Veteran achievement.\n\nFrom Raider Captain Kronn.\n\n(Repeatable)|M|26.5,65.7|
 C Blackriver Brawl|QID|12170|O|N|Kill 10 Alliance NPCs or players.|M|28,63|
 T Blackriver Brawl|QID|12170|O|M|26.5,65.7|N|To Raider Captain Kronn.|
 C Supplemental Income|QID|12436|N|Kill and loot Tallhorn Stags.|M|34,65|
@@ -31,9 +31,9 @@ T The Flamebinders' Secrets|QID|12256|M|21.0,64.1|N|To Sergeant Nazgrim.|
 A The Thane of Voldrune|QID|12259|M|21.0,64.1|N|From Sergeant Nazgrim.|
 N READ THIS|QID|12433|N|The following circuit involves PvP quests. You can skip them if you really must. But they're quick and they give a lot of XP, and one counts toward the zone quest achievement. If you must skip, go down to the next "READ THIS" note.|
 A Seeking Solvent|QID|12433|N|From Gurtor.|M|11.2,76.6|
-A Smoke 'Em Out|QID|12324|M|11.3,76.7|N|From Stone Guard Ragetotem.|
-A Keep Them at Bay|QID|12317|M|10.1,77.3|N|From Centurion Kaggrum.|
-A Crush Captain Brightwater!|QID|12315|M|10.1,77.2|N|From General Khazgar.|
+A Smoke 'Em Out|QID|12324|M|11.3,76.7|N|From Stone Guard Ragetotem.\n\n(Repeatable)|
+A Keep Them at Bay|QID|12317|M|10.1,77.3|N|From Centurion Kaggrum.\n\n(Repeatable)|
+A Crush Captain Brightwater!|QID|12315|M|10.1,77.2|N|From General Khazgar.\n\n(Repeatable)|
 C Keep Them at Bay|QID|12317|O|N|Kill any Alliance NPCs or players you see.|S|
 C Smoke 'Em Out|QID|12324|O|N|Gather everything and then use the Smoke Bomb on them. Repeat in the next two buildings.|U|37621|M|14,77|
 C Crush Captain Brightwater!|QID|12315|O|N|Elite but easily soloable as long as you pull him solo.|M|17.0,81.9|
@@ -104,8 +104,8 @@ C Seared Scourge|QID|12029|N|Go north to Drak'Tharon Keep. Go to the area west o
 T Tactical Clemency |QID|12422|N|To Captured Trapper.|M|21.9,30.0|
 C Attack on Silverbrook|QID|12413|N|Ride east to Silverbrook Hills. Kill 8 Silverbrook Defenders.|M|26,31|
 N Warning|QID|12284|N|There might be some PvP action involved in the following circuit. So if you want to avoid PvP at all costs, skip it. They don't count for the zone quest achievement, but they do give nice XP and are quickly done and count for a different achievment.|M|34,33|
-A Keep 'Em on Their Heels|QID|12284|M|34.5,32.9|N|From Commander Bargok.|
-A Overwhelmed!|QID|12288|M|33.9,32.8|N|From Aumana.|
+A Keep 'Em on Their Heels|QID|12284|M|34.5,32.9|N|From Commander Bargok.\n\n(Repeatable)|
+A Overwhelmed!|QID|12288|M|33.9,32.8|N|From Aumana.\n\n(Repeatable)|
 A Making Repairs|QID|12280|M|34.5,32.6|N|From Lurz.|
 A Shred the Alliance|QID|12270|M|34.5,32.6|N|From Grekk.|
 C Keep 'Em on Their Heels|QID|12284|O|N|Kill 15 Alliance Units.|S|
