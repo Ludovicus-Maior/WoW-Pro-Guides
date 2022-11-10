@@ -42,10 +42,10 @@ K Gorger|ACTIVE|67177|M|40.09,37.39|Z|2024|N|Kill the big Thunderlizard.|T|Gorge
 T How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
 T WANTED: Gorger|QID|67177|M|41.42,36.41|Z|2024|N|To Shala.|
 
-R Camp Antonidas|ACTIVE|66228|M|45.94,40.65|Z|2024|N|Continue up the road to Camp Antonidas.\n\n[color=FF0000]NOTE: [/color]Our good friend Hemit Nesingwary drives a wagon around the zone, his full route take a bit over an hour, stopping 3 times in Camp Antonidas offering a different kill quest each time. Keep your eye out for him and grab those quests if you want them. Guide won't tell you when to pick them up, but the kill and Turn in steps are here. 
+R Camp Antonidas|ACTIVE|66228|M|45.94,40.65|Z|2024|N|Continue up the road to Camp Antonidas.\n\n[color=FF0000]NOTE: [/color]Our good friend Hemit Nesingwary drives a wagon around the zone, his full route take a bit over an hour, stopping 3 times in Camp Antonidas offering a different kill quest each time. Keep your eye out for him and grab those quests if you want them. Guide won't tell you when to pick them up, but the kill and Turn in steps are here.|
 T Nightborne Knowhow|QID|66598|M|45.94,40.65|Z|2024|N|To Warpcaster Delandra.|; where did this quest come from. I didnt have it for my first run thru?? Apparently from Dropped Dormant Discovery. Triggered by REN 7 with Valdrakken most likely, or QID|66105 in WS
 A Curiosity is Key|QID|70215|PRE|66598|M|45.94,40.65|Z|2024|N|From Warpcaster Delandra.|
-C Curiosity is Key|QID|70215|M|45.94,40.65|Z|2024|N|Ask her about the stones and runes.| 
+C Curiosity is Key|QID|70215|M|45.94,40.65|Z|2024|N|Ask her about the stones and runes.|
 T Curiosity is Key|QID|70215|M|45.94,40.65|Z|2024|N|To Warpcaster Delandra.|
 A Power Procurement|QID|66582|PRE|70215|M|45.94,40.65|Z|2024|N|From Warpcaster Delandra.|
 T Camp Antonidas|QID|66228|M|46.65,40.17|Z|2024|N|To Noriko the All-Remembering.|
