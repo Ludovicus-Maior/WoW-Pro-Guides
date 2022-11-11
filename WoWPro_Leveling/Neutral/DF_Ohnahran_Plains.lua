@@ -299,7 +299,7 @@ T Stealing Its Thunder|QID|65711|M|48.27,56.50|Z|2023;Ohn'ahran Plains|N|To Init
 A Sneaking In|QID|66676|PRE|65711|M|48.27,56.50|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C After My Ohn Heart|QID|70721|M|46.52,60.22|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Meet Narman and Dawa by the water..|
 T After My Ohn Heart|QID|70721|M|46.70,60.51|Z|2023;Ohn'ahran Plains|N|To Hunter Narman.|
-$ Mirror of the Sky Glyph|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
+$ Mirror of the Sky Glyph|ACTIVE|66201|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
 $ Szar  Skeleth Glyph|ACTIVE|66201|N|As usual, it's good to have full vigor before taking off, but 2 will probably do. Glyph is just inside the top of the broken tower.|M|44.6,64.8|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16058|
 
 F Teerakai|ACTIVE|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|Continue on into Teerakai.|
