@@ -278,7 +278,7 @@ A The Waking Shores Tour|QID|72481|M|73.25,52.11|Z|2022|N|From Celormu. We will 
 C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celormu.|
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz|
-C Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.02,55.57|Z|2022|V||N|Hop on Relastrasza for a ride into the Skytop launch tower.|
+C Return to the Ruby Lifeshrine|QID|68799|M|75.02,55.57|Z|2022|V||N|Hop on Relastrasza for a ride into the Skytop launch tower.|
 
 N This next section is a tour around the zone collection Dragonriding Glyphs. \nIf you are not interested in making your dragon better just skip over them.|ACH|16575|
 $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
