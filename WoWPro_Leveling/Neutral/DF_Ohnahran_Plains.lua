@@ -299,7 +299,7 @@ T Stealing Its Thunder|QID|65711|M|48.27,56.50|Z|2023;Ohn'ahran Plains|N|To Init
 A Sneaking In|QID|66676|PRE|65711|M|48.27,56.50|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C After My Ohn Heart|QID|70721|M|46.52,60.22|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Meet Narman and Dawa by the water..|
 T After My Ohn Heart|QID|70721|M|46.70,60.51|Z|2023;Ohn'ahran Plains|N|To Hunter Narman.|
-$ Mirror of the Sky Glyph|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
+$ Mirror of the Sky Glyph|ACTIVE|66201|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
 $ Szar  Skeleth Glyph|ACTIVE|66201|N|As usual, it's good to have full vigor before taking off, but 2 will probably do. Glyph is just inside the top of the broken tower.|M|44.6,64.8|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16058|
 
 F Teerakai|ACTIVE|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|Continue on into Teerakai.|
@@ -324,7 +324,7 @@ C Land of the Apex|QID|66687|M|49.87,50.86|Z|2023;Ohn'ahran Plains|QO|3|N|Contin
 A Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|
 K Skaara|ACTIVE|70783|QO|1|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Don't worry about killing the smaller bakar in advance, they just respawn. Bonus Ojective - Do it if you want to.|
 t Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
-C Land of the Apex|QID|66687|M|44.06,49.35|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot spidars to collect Shadespinner's Web.|
+C Land of the Apex|QID|66687|M|44.06,49.35|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot the spiders in and around Deadsnare Caverns to collect Shadespinner's Web. You can also get it from the Eggs.\n[color=FF0000]NOTE: [/color]The entrance is at the base of the mountain.|
 C Land of the Apex|QID|66687|M|41.75,46.30|Z|2023;Ohn'ahran Plains|QO|2|N|Kill and loot the bats to collect Slyvern Talons.|S|
 K Mara'nar the Thunderous|QID|71027|M|42.24,47.09|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot Mara'nar to collect his  Thunderous Plate.|T|Mara'nar the Thunderous|
 C Land of the Apex|QID|66687|M|41.75,46.30|Z|2023;Ohn'ahran Plains|QO|2|N|Kill and loot the bats to collect Slyvern Talons.|US|
