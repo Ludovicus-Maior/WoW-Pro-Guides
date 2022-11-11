@@ -63,7 +63,7 @@ B [item=11128/Golden Rod]|QID|333000015|ITEM|11128|N|You'll need to either buy f
 B [item=11144/Truesilver Rod]|QID|333000015|ITEM|11144|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=6037/Truesilver Bar] x1, [item=3486/Heavy Grinding Stone] x1|
 B [item=16206/Arcanite Rod]|QID|333000015|ITEM|16206|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=12360/Arcanite Bar] x3, [item=12644/Dense Grinding Stone] x1|
 B [item=25843/Fel Iron Rod]|QID|333000015|ITEM|25843|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=23445/Fel Iron Bar] x6|
-B [item=32656/Adamantite Rod]|QID|333000015|ITEM|32656|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=23446/Adamantite Bar] x10|
+B [item=25844/Adamantite Rod]|QID|333000015|ITEM|25844|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=23446/Adamantite Bar] x10|
 B [item=25845/Eternium Rod]|QID|333000015|ITEM|25845|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=23447/Eternium Bar] x4|
 B [item=41745/Titanium Rod]|QID|333000015|ITEM|41745|N|You'll need to either buy from the AH or find a Blacksmith to craft for you.  MATS: [item=36913/Saronite Bar] x2, [item=41163/Titanium Bar] x1|
 l [item=5500/Iridescent Pearl]|QID|333000015|ITEM|5500|N|You'll need 1 Iridescent Pearl, either from looting clams/fishing or purchase from the AH.|
