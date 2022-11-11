@@ -5,8 +5,7 @@ WoWPro:GuideNextGuide(guide, "JamDra7375")
 WoWPro:GuideLevels(guide, 71, 73)
 WoWPro:GuideSteps(guide, function()
 return [[
-b Borean Tundra|QID|11167|M|44.82,62.19|Z|Orgrimmar|N|Ride up the elevators and hop in the zeppelin to Borean Tundra.|
-t To Northrend!|QID|60097|M|PLAYER|N|Quest turn-in on quest tracker once you enter Borean Tundra.|
+b Borean Tundra|AVAILABLE|11585|M|44.82,62.19|Z|Orgrimmar|N|Ride up the elevators and hop in the zeppelin to Borean Tundra.|
 A Hellscream's Vigil |QID|11585|M|41.6,54.0|N|From Warsong Recruitment Officer.|
 T Hellscream's Vigil |QID|11585|M|41.3,53.6|N|To Garrosh Hellscream.|
 A The Defense of Warsong Hold |QID|11596|PRE|11585|M|41.3,53.6|N|From High Overlord Saurfang.|
@@ -268,7 +267,7 @@ T Neutralizing the Cauldrons |QID|11647|M|76.0,37.3|N|To Sage Aeire.|
 T A Courageous Strike |QID|11641|M|76.0,37.3|N|To Durm Icehide.|
 T Words of Power |QID|11640|M|75.9,37.2|N|To Chieftain Wintergale.|
 A Breaking Through |QID|11898|N|From Chieftain Wintergale.|M|75.8,37.2|
-R Go to|ACTIVE|11898|M|86.5,28.5|CC|N|the teleporter at the waypoint.|
+R Go to|ACTIVE|11898|M|86.5,28.5|N|the teleporter at the waypoint.|
 K Luthion the Vile|ACTIVE|11898|QO|2|M|87.9,29.0|N|Kill Luthion the Vile.|
 K Vanthryn the Merciless|QID|11898|QO|3|M|85.61,27.48|N|Kill Vanthryn the Merciless.|
 C Breaking Through |QID|11898|QO|1|N|Head to the teleporter above where you teleported in. Head to the western exit from this room, then head upstairs and kill Prince Valanar. Remember, when he channels violet beams, STOP ATTACKING, or your attacks will be reflected.|M|86.3,28.6|

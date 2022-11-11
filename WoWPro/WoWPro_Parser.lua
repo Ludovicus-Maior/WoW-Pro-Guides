@@ -10,8 +10,10 @@ local L = WoWPro_Locale
 WoWPro.actiontypes = {
     A = "Interface\\GossipFrame\\AvailableQuestIcon",
     ["A ELITE"] = "Interface\\GossipFrame\\AvailableLegendaryQuestIcon",
+    ["A Campaign"] = "Interface\\GossipFrame\\CampaignAvailableQuestIcon",
     C = "Interface\\Icons\\Ability_DualWield",
     T = "Interface\\GossipFrame\\ActiveQuestIcon",
+    ["T Campaign"] = "Interface\\GossipFrame\\CampaignActiveQuestIcon",
     t = "Interface\\GossipFrame\\ActiveQuestIcon",
     K = "Interface\\Icons\\Ability_Creature_Cursed_02",
     R = "Interface\\Icons\\Ability_Tracking",
@@ -49,8 +51,10 @@ end
 WoWPro.actionlabels = {
     A = "Accept",
     ["A ELITE"] = "Accept elite quest",
+    ["A Campaign"] = "Accept Campaign quest",
     C = "Complete",
     T = "Turn in",
+    ["T Campaign"] = "Turn in Campaign quest",
     t = "Turn in when complete",
     K = "Kill",
     R = "Run to",
@@ -949,7 +953,7 @@ function WoWPro.ParseSteps(steps)
     if (not  WoWPro.Recorder) and WoWPro.action[last_i] ~= "D" and WoWPro.Guides[GID].guidetype == "Leveling" then
         nguide = WoWPro:NextGuide(GID)
         if nguide then
-            if not WoWProDB.profile.autoload then
+            if WoWProDB.profile.autoload then
                 fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|NOCACHE|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
             end
         else

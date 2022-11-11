@@ -948,8 +948,11 @@ function WoWPro:RowUpdate(offset)
         local item = WoWPro.item[k]
         local completion = WoWProCharDB.Guide[GID].completion
 
+        if (i == 1) and not step then
+            WoWProCharDB.Guide[GID].done = true
+        end
 
-		 if coord then
+		if coord then
 			if (coord == "PLAYER") then
 				local x, y, m  = WoWPro:GetPlayerZonePosition()
 				if (x and y) then
@@ -1018,6 +1021,8 @@ function WoWPro:RowUpdate(offset)
             note = note.."\n(No coordinates)"
         end
 
+        local mapID = _G.C_Map.GetBestMapForUnit("player")
+        local isCampaign = _G.C_QuestLine and tonumber(QID) and mapID and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID) and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID).isCampaign
         currentRow.note:SetText(note)
         currentRow.action:SetTexture(WoWPro.actiontypes[action])
         currentRow.action.tooltip.text:SetText(WoWPro.actionlabels[action])
@@ -1040,6 +1045,12 @@ function WoWPro:RowUpdate(offset)
         elseif WoWPro.elite[k] and WoWPro.action[k] == "A" then
             currentRow.action:SetTexture(WoWPro.actiontypes[action.." ELITE"])
             currentRow.action.tooltip.text:SetText("Elite Quest")
+        elseif isCampaign and WoWPro.action[k] == "A" then
+            currentRow.action:SetTexture(WoWPro.actiontypes[action.." Campaign"])
+            currentRow.action.tooltip.text:SetText("Campaign Quest")
+        elseif isCampaign and WoWPro.action[k] == "T" then
+            currentRow.action:SetTexture(WoWPro.actiontypes[action.." Campaign"])
+            currentRow.action.tooltip.text:SetText("Campaign Quest")
         end
 
         currentRow.check:SetScript("OnClick", function(this, button, down)
@@ -1524,8 +1535,7 @@ function WoWPro.UpdateGuideReal(From)
 	end
 
     -- If the guide is complete, loading the next guide --
-    if WoWProCharDB.Guide[GID].progress and tonumber(WoWProCharDB.Guide[GID].progress) > 0 and (WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total or WoWProCharDB.Guide[GID].done)
-    and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
+    if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
         if WoWProDB.profile.autoload then
             WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
             WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
