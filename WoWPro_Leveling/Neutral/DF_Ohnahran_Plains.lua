@@ -24,7 +24,7 @@ return [[
 ;PLACED F Rusza'thar Reach|N|Floating above the tower.|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16062|
 ;PLACED F Rubyscale Outpost|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 
-A Into the Plains|QID|65779|PRE|72267|M|48.27,88.68|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|
+A Into the Plains|QID|65779|M|48.27,88.68|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|
 $ Rubyscale Outpost Glyph|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 T Into the Plains|QID|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Proving Oneself|QID|65780|PRE|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
@@ -151,7 +151,7 @@ T Clan Ohn'ir|QID|66017|M|62.99,33.64|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.
 A Omens and Incense|QID|66020|PRE|66017|M|62.99,33.64|Z|2023;Ohn'ahran Plains|N|From Ohn Seshteng.|
 l Sweetsuckle Bloom|ACTIVE|66020|M|63.09,36.07|Z|2023;Ohn'ahran Plains|L|191160 5|N|Gather 5 Sweetsuckle Blooms.|S!US|
 C Shikaar Giver|QID|70730|M|63.82,35.91|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ohn Arasara consulted.|
-h Maruukai|QID|66020|M|62.18,35.72|Z|2023;Ohn'ahran Plains|N|At Hearthkeeper Erden.|
+h Maruukai|ACTIVE|66020|M|62.18,35.72|Z|2023;Ohn'ahran Plains|N|At Hearthkeeper Erden.|
 B Honey Plum Tart|ACTIVE|70739|M|62.18,35.72|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Buy a Honey Plum Tart from the innkeeper.|
 B Yak Milk Pudding|ACTIVE|70730|M|62.18,35.72|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Buy a Yak Milk Pudding from the innkeeper.|
 A Emberwatch|QID|70337|PRE|66021&66016|M|62.14,36.40|Z|2023;Ohn'ahran Plains|N|From Windsage Kven.|RANK|2|
@@ -321,7 +321,7 @@ A Himia, the Blessed|QID|70374|PRE|66688|M|49.32,49.41|Z|2023;Ohn'ahran Plains|N
 C Himia, the Blessed|QID|70374|M|49.11,49.46|Z|2023;Ohn'ahran Plains|N|Tell Himia you are ready, then fight the elements.|
 C Land of the Apex|QID|66687|M|49.87,50.86|Z|2023;Ohn'ahran Plains|QO|3|N|Continue killing the overgrown lizards until you have enough Thunderspine Scales.|US|
 ;A Call of the Plains|QID|71229|M|47.85,47.33|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you after you cross the bridge. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|;REN 3?
-A Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|
+A Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
 K Skaara|ACTIVE|70783|QO|1|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Don't worry about killing the smaller bakar in advance, they just respawn. Bonus Ojective - Do it if you want to.|
 t Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 C Land of the Apex|QID|66687|M|44.06,49.35|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot spidars to collect Shadespinner's Web.|
