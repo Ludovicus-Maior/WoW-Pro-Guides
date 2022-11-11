@@ -66,16 +66,16 @@ A Practice Materials|QID|65451|PRE|65444|M|80.60,27.65|Z|2022|N|From Boss Magor.
 ;A Dragon Isles Supplies|QID|72708|M|PLAYER|N|Use the Dragon Isles Supply Bag from your inventroy.|U|202081|
 C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022|N|Kill the Proto-Whelp and collect their scales.|S|
 C Primal Pests|QID|70123^65453|M|83.59,36.12|Z|2022|N|Slay Primal Proto-drakes.|S|
-C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye is suspended above some lava enter the area on the left side.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|NC|N|Spelunker Lazee is suspended over lava enter the area on the Right side.|FACTION|Horde|
+C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye is suspended above some lava enter the area on the left side.|T|Spelunker Lockeye|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|NC|N|Spelunker Lazee is suspended over lava enter the area on the Right side.|T|Spelunker Lazeew|FACTION|Horde|
 A Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|FACTION|Alliance|
 C Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Slay Primal Scythid Queen.|T|Primal Scythid Queen|
-C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Click on Archivist Rellid who is being carried around by low flying drakes.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|NC|N|Click Archivist Spearblossom who is being carried around by low flying drakes.|FACTION|Horde|
+C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Click on Archivist Rellid who is being carried around by low flying drakes.|T|Archivist Rellid||FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|NC|N|Click Archivist Spearblossom who is being carried around by low flying drakes.|T|Archivist Spearblossom|FACTION|Horde|
 A Ancient Hornswog|QID|66076|M|77.67,22.41|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|FACTION|Horde|IZ|13722|
 C Ancient Hornswog|QID|66076|M|77.67,22.41|Z|2022|N|Slay Ancient Hornswog.|T|Ancient Hornswog|
-C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|NC|N|Professor Cogcatcher is trapped under some bones.|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|NC|N|Pathfinder Poppy is trapped under some bones.|FACTION|Horde|
+C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|NC|N|Professor Cogcatcher is trapped under some bones.|T|Professor Cogcatcher|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|NC|N|Pathfinder Poppy is trapped under some bones.|T|Pathfinder Poppy|FACTION|Horde|
 C Primal Pests|QID|70123^65453|M|77.96,29.80|Z|2022|N|Finish slaying the unneeded Primal Proto-drakes.|US|
 C Practice Materials|QID|70124^65451|M|77.96,29.80|Z|2022|NC|N|Continue killing Primal Proto-Whelp until you have enough scales.|US|
 T Explorers in Peril|QID|70122|M|76.62,33.63|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
@@ -176,11 +176,11 @@ A Killjoy|QID|65993|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 A Blacktalon Intel|QID|65992|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 A Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
 C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Slay Dragonhunter Igordan.|S!US|T|Dragonhunter Igordan|
-C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Consult Talonstalker Kavia.|
-C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Consult Right.|
+C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Consult Talonstalker Kavia.|T|Talonstalker Kavia|
+C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Consult Right.|T|Right|
 C Killjoy|QID|65993|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok when convenient.|S|T|Meatgrinder Sotok|
 A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|O|U|193874|
-C Blacktalon Intel|QID|65992|M|63.43,28.86|Z|2022|QO|2|CHAT|N|Consult Left.|
+C Blacktalon Intel|QID|65992|M|63.43,28.86|Z|2022|QO|2|CHAT|N|Consult Left.|T|Left|
 C Killjoy|QID|65993|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok.|US|T|Meatgrinder Sotok|
 A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|O|U|193874|
 T Killjoy|QID|65993|M|62.65,33.19|Z|2022|N|To Wrathion.|
@@ -277,7 +277,8 @@ C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|4|NC|N|Learn the 'Drak
 A The Waking Shores Tour|QID|72481|M|73.25,52.11|Z|2022|N|From Celormu. We will not be covering this quest in this guide.|RANK|3|
 C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celormu.|
 T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
-A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz.|
+A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz|
+C Return to the Ruby Lifeshrine|QID|68799|M|75.02,55.57|Z|2022|V||N|Hop on Relastrasza for a ride into the Skytop launch tower.|
 
 N This next section is a tour around the zone collection Dragonriding Glyphs. \nIf you are not interested in making your dragon better just skip over them.|ACH|16575|
 $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
