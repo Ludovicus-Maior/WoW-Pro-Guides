@@ -2716,7 +2716,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     local expansion = WoWPro.fly[guideIndex]
                     local spellName
                     local spellKnown
-					local canFly
+                    local canFly
                     local flyFlip = false
                     if (expansion:sub(1, 1) == "-") then
                         expansion = expansion:sub(2)
@@ -2724,7 +2724,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
 					local eSkill = _G.GetSpellInfo(34090)
 					if WoWPro.WRATH then
-						if WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
+						if WoWProCharDB.Tradeskills[762] and WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
 							canFly = true
 						end
 						if expansion == "BC" and canFly then

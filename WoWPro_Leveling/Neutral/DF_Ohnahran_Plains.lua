@@ -62,7 +62,7 @@ $ Mirewood Fen|N|If you aren't on your Dragon, mount up and get the glyph floati
 C Nergazurai|QID|70319|M|75.09,25.01|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Ottuk's in and around the water to loot an Ottuk Heart.|S|
 C Nergazurai|QID|70319|M|76.16,20.24|Z|2023;Ohn'ahran Plains|QO|3|N|Kill Swift Hornstriders to collect a scale.|
 C Nergazurai|QID|70319|M|75.09,25.01|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Ottuk's in and around the water to loot an Ottuk Heart.|US|
-K Konkhular|ACTIVE|70185|M|78.32,35.13|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Konkhular can be found in a cave. It is the lowest cave in the area. Kill him to loot his pelt.|T|Konkhular|
+K Konkhular|ACTIVE|70185|M|77.67,35.45;78.32,35.13|CS|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Konkhular can be found in a cave. It is the lowest cave in the area. Kill him to loot his pelt.|T|Konkhular|
 C Thieving Gorlocs|QID|65950|M|81.08,30.77|Z|2023;Ohn'ahran Plains|N|Kill Gorlocs and loot to reclaim the Shikaar supplies.|
 C Sole Supplier|QID|65951|M|80.69,30.64|Z|2023;Ohn'ahran Plains|NC|N|Khasar can be found in a cage in the Mudfin Village.|
 T Sole Supplier|QID|65951|M|80.56,30.73|Z|2023;Ohn'ahran Plains|N|To Khasar.|
@@ -149,20 +149,21 @@ A Shikaar Giver|QID|70730|PRE|66021&66016|M|62.81,35.46|Z|2023;Ohn'ahran Plains|
 A A Disgruntled Initiate|QID|65906|PRE|66021&66016|M|63.11,34.09|Z|2023;Ohn'ahran Plains|N|From Windsage Ordven.|RANK|2|
 T Clan Ohn'ir|QID|66017|M|62.99,33.64|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Omens and Incense|QID|66020|PRE|66017|M|62.99,33.64|Z|2023;Ohn'ahran Plains|N|From Ohn Seshteng.|
-l Sweetsuckle Bloom|ACTIVE|66020|M|63.09,36.07|Z|2023;Ohn'ahran Plains|L|191160 5|N|Gather 5 Sweetsuckle Blooms.|S!US|
+l Sweetsuckle Bloom|ACTIVE|66020|M|63.09,36.07|Z|2023;Ohn'ahran Plains|L|191160 5|N|Gather 5 Sweetsuckle Blooms.|S|
 C Shikaar Giver|QID|70730|M|63.82,35.91|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ohn Arasara consulted.|
-h Maruukai|QID|66020|M|62.18,35.72|Z|2023;Ohn'ahran Plains|N|At Hearthkeeper Erden.|
+h Maruukai|ACTIVE|66020|M|62.18,35.72|Z|2023;Ohn'ahran Plains|N|At Hearthkeeper Erden.|
 B Honey Plum Tart|ACTIVE|70739|M|62.18,35.72|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Buy a Honey Plum Tart from the innkeeper.|
 B Yak Milk Pudding|ACTIVE|70730|M|62.18,35.72|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Buy a Yak Milk Pudding from the innkeeper.|
 A Emberwatch|QID|70337|PRE|66021&66016|M|62.14,36.40|Z|2023;Ohn'ahran Plains|N|From Windsage Kven.|RANK|2|
-C Omens and Incense|QID|66020|M|63.09,36.07|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Finish collecting the blooms and click to turn them into Incense.|U|191160|
+l Sweetsuckle Bloom|ACTIVE|66020|M|63.09,36.07|Z|2023;Ohn'ahran Plains|L|191160 5|N|Gather 5 Sweetsuckle Blooms.|US|
+C Omens and Incense|QID|66020|M|PLAYER|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Finish collecting the blooms and click to turn them into Incense.|U|191160|
 C Omens and Incense|QID|66020|M|62.83,33.72|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click the large incense burner.|
 T Omens and Incense|QID|66020|M|62.99,33.66|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Clans of the Plains|QID|66969|PRE|66020|M|62.88,34.16|Z|2023;Ohn'ahran Plains|N|From Aru. (wait a moment while he runs in.)|
 C Shikaar Giver|QID|70730|M|63.54,41.06|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Provisioner Zara consulted.|
 C Bloodlines, Sweets, and Teerai|QID|70739|M|55.33,38.38|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Matchmaker encouraged.|
 C Bloodlines, Sweets, and Teerai|QID|70739|M|56.21,38.14|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Pick the Cirrus Flowers growing around the area.|S|
-C Shikaar Giver|QID|70730|M|57.10,42.55|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Arbhog's Horns.|
+C Shikaar Giver|QID|70730|M|57.10,42.55|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Arbhog's Horns.|T|Old Arbhog|
 C Bloodlines, Sweets, and Teerai|QID|70739|M|56.21,38.14|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Pick the Cirrus Flowers growing around the area.|US|
 C Bloodlines, Sweets, and Teerai|QID|70739|M|56.74,38.78|Z|2023;Ohn'ahran Plains|QO|5|NC|N|Click the outline of the flower on the stone to make an offering.|
 T The Fields of Ferocity|QID|70444|M|53.15,37.28|Z|2023;Ohn'ahran Plains|N|To Gurgthock.|
@@ -213,7 +214,7 @@ A Hooves of War|QID|66201|PRE|66025|M|60.00,37.49|Z|2023;Ohn'ahran Plains|N|From
 
 R Emberwatch|ACTIVE|70337|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|Mount up and head to Emberwatch.|RANK|2|
 T Emberwatch|QID|70337|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|To Telemancer Aerilyn.|
-A The Nelthazan Ruins|QID|65890|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|From Telemancer Aerilyn.|
+A The Nelthazan Ruins|QID|65890|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|From Telemancer Aerilyn.|RANK|2|
 f Emberwatch|ACTIVE|65890|M|66.78,25.18|Z|2023;Ohn'ahran Plains|N|At Volebel.|
 A The Sundered Asunder|QID|65892|M|64.00,19.20|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autoaccepted.|RANK|2|LVL|-70|
 T The Nelthazan Ruins|QID|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal.|
@@ -300,20 +301,20 @@ A Sneaking In|QID|66676|PRE|65711|M|48.27,56.50|Z|2023;Ohn'ahran Plains|N|From I
 C After My Ohn Heart|QID|70721|M|46.52,60.22|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Meet Narman and Dawa by the water..|
 T After My Ohn Heart|QID|70721|M|46.70,60.51|Z|2023;Ohn'ahran Plains|N|To Hunter Narman.|
 $ Mirror of the Sky Glyph|N|In the air next to the mountain.|M|47,72|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16059|
-$ Szar  Skeleth Glyph|ACTIVE|66201|N|As usual, it's good to have full vigor before taking off, but 2 will probably do. Glyph is just inside the top of the broken tower.|M|44.6,64.8|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16058|
+$ Szar Skeleth Glyph|M|44.6,64.8|Z|2023;Ohn'Aran Plains!Dragonflight|N|As usual, it's good to have full vigor before taking off, but 2 will probably do. Glyph is just inside the top of the broken tower.|ACH|16058|
 
-F Teerakai|ACTIVE|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|Continue on into Teerakai.|
+R Teerakai|ACTIVE|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|Continue on into Teerakai.|
 T Hooves of War|QID|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|To Khansguard Jebotai.|
 A The Calm Before the Storm|QID|66222|PRE|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|From Khansguard Jebotai.|
-A Up to No-khud|QID|66651|PRE|66201|M|40.94,61.61|Z|2023;Ohn'ahran Plains|N|From Elder Yuvari.|
+A Up to No-khud|QID|66651|PRE|66201|M|40.94,61.61|Z|2023;Ohn'ahran Plains|N|From Elder Yuvari.|RANK|2|
 f Teerakai|QID|66651|M|40.03,61.15|Z|2023;Ohn'ahran Plains|N|At Flightmaster Carseng.|
 C The Calm Before the Storm|QID|66222|M|37.57,59.45|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Let Scout Khenyug know the Nokhud are attacking.|
 C The Calm Before the Storm|QID|66222|M|38.51,57.42|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Let Herbalist Agura know to prepare for war casualties.|
 C The Calm Before the Storm|QID|66222|M|39.51,55.39|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Ask him to ready the khansguard.|
-A WANTED: Mara'nar the Thunderous|QID|71027|PRE|66201|M|39.56,56.44|Z|2023;Ohn'ahran Plains|N|From Wanted Poster. This is a [color=ff8000]group[/color] quest.|
+A WANTED: Mara'nar the Thunderous|QID|71027|PRE|66201|M|39.56,56.44|Z|2023;Ohn'ahran Plains|N|From Wanted Poster. This is a [color=ff8000]group[/color] quest.|RANK|2|
 C The Calm Before the Storm|QID|66222|M|40.74,56.36|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Ask the quartermaster for help with provisions.|
-A Land of the Apex|QID|66687|PRE|66201|M|41.62,56.75|Z|2023;Ohn'ahran Plains|N|From Elder Nazuun.|
-A Signs of the Wind|QID|66688|PRE|66201|M|41.62,56.75|Z|2023;Ohn'ahran Plains|N|From Elder Nazuun.|
+A Land of the Apex|QID|66687|PRE|66201|M|41.62,56.75|Z|2023;Ohn'ahran Plains|N|From Elder Nazuun.|RANK|2|
+A Signs of the Wind|QID|66688|PRE|66201|M|41.62,56.75|Z|2023;Ohn'ahran Plains|N|From Elder Nazuun.|RANK|2|
 C Signs of the Wind|QID|66688|M|49.07,52.62|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Wind Tokens are the glowing feathers on the rocks and also ferns and reeds down by the water.|
 C Land of the Apex|QID|66687|M|49.87,50.86|Z|2023;Ohn'ahran Plains|QO|3|N|Kill and loot the Thunderspines to collect the Scales.|S|
 T Signs of the Wind|QID|66688|M|49.35,49.54|Z|2023;Ohn'ahran Plains|N|To Offering Vessal.|
@@ -321,12 +322,12 @@ A Himia, the Blessed|QID|70374|PRE|66688|M|49.32,49.41|Z|2023;Ohn'ahran Plains|N
 C Himia, the Blessed|QID|70374|M|49.11,49.46|Z|2023;Ohn'ahran Plains|N|Tell Himia you are ready, then fight the elements.|
 C Land of the Apex|QID|66687|M|49.87,50.86|Z|2023;Ohn'ahran Plains|QO|3|N|Continue killing the overgrown lizards until you have enough Thunderspine Scales.|US|
 ;A Call of the Plains|QID|71229|M|47.85,47.33|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you after you cross the bridge. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|;REN 3?
-A Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|
+A Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
 K Skaara|ACTIVE|70783|QO|1|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Don't worry about killing the smaller bakar in advance, they just respawn. Bonus Ojective - Do it if you want to.|
 t Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
-C Land of the Apex|QID|66687|M|44.06,49.35|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot spidars to collect Shadespinner's Web.|
+C Land of the Apex|QID|66687|M|44.06,49.35|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot the spiders in and around Deadsnare Caverns to collect Shadespinner's Web. You can also get it from the Eggs.\n[color=FF0000]NOTE: [/color]The entrance is at the base of the mountain.|
 C Land of the Apex|QID|66687|M|41.75,46.30|Z|2023;Ohn'ahran Plains|QO|2|N|Kill and loot the bats to collect Slyvern Talons.|S|
-K Mara'nar the Thunderous|QID|71027|M|42.24,47.09|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot Mara'nar to collect his  Thunderous Plate.|T|Mara'nar the Thunderous|
+K Mara'nar the Thunderous|ACTIVE|71027|M|42.24,47.09|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot Mara'nar to collect his  Thunderous Plate.|T|Mara'nar the Thunderous|
 C Land of the Apex|QID|66687|M|41.75,46.30|Z|2023;Ohn'ahran Plains|QO|2|N|Kill and loot the bats to collect Slyvern Talons.|US|
 T Land of the Apex|QID|66687|M|41.62,56.74|Z|2023;Ohn'ahran Plains|N|To Elder Nazuun.|
 A Rellen, the Learned|QID|66834|PRE|66687|M|41.62,56.74|Z|2023;Ohn'ahran Plains|N|From Elder Nazuun.|
@@ -375,7 +376,7 @@ A And Stay Dead!|QID|66657|PRE|66656|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Ini
 C And Stay Dead!|QID|66657|M|31.37,71.05|Z|2023;Ohn'ahran Plains|N|Kill Tombcaller Arban, then investigate the side rooms in his tomb.|T|Tombcaller Arban|
 T And Stay Dead!|QID|66657|M|PLAYER|Z|2023;Ohn'ahran Plains|N|To Initiate Zorig.|
 A The Nokhud Offensive: Founders Keepers|QID|66658|PRE|66657|M|PLAYER|Z|2023;Ohn'ahran Plains|N|[color=e6cc80]Dungeon Quest[/color]From Initiate Zorig. Pick it up or not as you choose, it is not covered in the guide.|
-A Call of the Hunt|QID|71231|PRE|70220|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to your shortly after you leave the tomb.|RANK|2|
+A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to your shortly after you leave the tomb.|RANK|2|
 C Mystic Mystery|QID|66224|M|44.62,61.58|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Meet Boku outside Teerakai.|
 C Mystic Mystery|QID|66224|M|44.55,61.91|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click on the assorted items on the ground to collect Boku's Belongings.|
 C Mystic Mystery|QID|66224|M|46.27,63.24|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Search for Boku.|
@@ -398,7 +399,7 @@ C Weather Control|QID|66242|M|61.44,67.28|Z|2023;Ohn'ahran Plains|N|Kill the Sto
 C Eagle-itarian|QID|66256|M|58.02,67.47|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the Binding Totems to free the Children of Ohn'ahra.|S|
 C Fowl Sorcery|QID|66257|M|58.1,67.3;59.2,65.5;61.7,66.0;58.8,61.8|CN|Z|2023;Ohn'ahran Plains|NC|N|Click the wind totems to destroy the Wagons.|S|
 A Prozela Galeshot|QID|69968|M|59.04,68.10|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
-K Prozela Galeshot|ACTIVE|69968|QO|1|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Kill the bonus objective as you choose.|
+K Prozela Galeshot|ACTIVE|69968|QO|1|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Kill the bonus objective as you choose.|S!US|
 t Prozela Galeshot|QID|69968|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autocompleted.|
 C Fowl Sorcery|QID|66257|M|58.1,67.3;59.2,65.5;61.7,66.0;58.8,61.8|CN|Z|2023;Ohn'ahran Plains|NC|N|Click the wind totems to destroy the Wagons.|US|
 C Eagle-itarian|QID|66256|M|58.02,67.47|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the Binding Totems to free the Children of Ohn'ahra.|US|
@@ -439,11 +440,13 @@ C Green Dragon Down|QID|66328|M|72.49,49.81|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Wa
 C Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Offer to help Khanam Matra explain to the situation to the dragons.|
 C Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Listen to the discussion.|
 T Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-A With the Wind At Our Backs|QID|66344|PRE|66328|M|72.45,50.72|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-C With the Wind At Our Backs|QID|66344|M|72.30,50.72|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Gerithus you are ready to go.|
-T With the Wind At Our Backs|QID|66344|M|28.26,57.69|Z|2023;Ohn'ahran Plains|N|To Merithra.|
+A With the Wind at Our Backs|QID|66344|PRE|66328|M|72.45,50.72|Z|2023;Ohn'ahran Plains|N|From Merithra.|
+C With the Wind at Our Backs|QID|66344|M|72.30,50.72|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Gerithus you are ready to go.|
+T With the Wind at Our Backs|QID|66344|M|28.26,57.69|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 C Some Call Me Bug Catcher|QID|70062|M|29.46,58.47|Z|2023;Ohn'ahran Plains|N|Kill and loot Flyspawn Beetles to collect Parts.|S|
 
+
+A Shady Sanctuary|QID|70220|M|28.32,57.73|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 f Shady Sanctuary|ACTIVE|70220|M|29.82,57.63|Z|2023;Ohn'ahran Plains|N|At Sariosa.|
 C Shady Sanctuary|QID|70220|M|29.82,57.63|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Tell Sariosa the Bough is in danger.|
 C Some Call Me Bug Catcher|QID|70062|M|29.46,58.47|Z|2023;Ohn'ahran Plains|N|Kill and loot Flyspawn Beetles to collect Parts.|US|
@@ -478,15 +481,15 @@ A Deconstruct Additional Pylons|QID|66335|PRE|66333|M|23.89,36.28|Z|2023;Ohn'ahr
 A Starve the Storm|QID|66784|PRE|66333|M|23.89,36.28|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
 C Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Kill the Summoners around the Storm Corridor portal to deactivate it.|
 T Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-A Bonus Objective: Ty'foon the Ascended|QID|66970|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autoaccepted.|
-K Ty'foon the Ascended|ACTIVE|66970|QO|1|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Go up the hill and kill Ty'foon if you want to.|T|Ty'foon the Ascended|
+A Bonus Objective: Ty'foon the Ascended|QID|66970|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autoaccepted.|RANK|2|
+K Ty'foon the Ascended|ACTIVE|66970|QO|1|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Go up the hill and kill Ty'foon if you want to.|T|Ty'foon the Ascended|S!US|
 t Ty'foon the Ascended|ACTIVE|66970|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 C Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|QO|3|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the third pylon.|
 C Deconstruct Additional Pylons|QID|66335|M|23.12,37.36|Z|2023;Ohn'ahran Plains|QO|2|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the second pylon.|
 C Deconstruct Additional Pylons|QID|66335|M|23.89,39.46|Z|2023;Ohn'ahran Plains|QO|1|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the first pylon.|
 T Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Stormbreaker|QID|66337|PRE|66784&66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
-C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|LVL|-70|
+C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|S!US|LVL|-70|
 K Stormbound Proto-Drake and Koroleth|ACTIVE|66337|QO|1|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Attack the Stormboud Proto-Drake to get Koroleth's attention, Then kill Koroleth.|;T|Stormboud Proto-Drake|target button wouldnt work... perhaps because I ran up to an in progress fight. figured i'd just leave it off.
 C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|
 t Bonus Objective: The Storm Scar|QID|66421|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autocompleted.|
@@ -575,8 +578,8 @@ A To the Azure Span|QID|65686|PRE|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|
 
 ;T A Gift for Miguel|QID|67100|M|71.75,81.21|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|-this is in the Waking shore guide
 ;A Professionally Equipped|QID|67137|PRE|67100|M|71.93,81.03|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.| - this is in the waking shore guide
-A Targeted Ads|QID|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|;removed the PRE cuz it was wrong. IDK the correct one
-A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|;removed the PRE cuz it was wrong. IDK the correct one
+A Targeted Ads|QID|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|;removed the PRE cuz it was wrong. IDK the correct one
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|;removed the PRE cuz it was wrong. IDK the correct one
 C A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Azley about the Artisan's Consortium rules.|
 T A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|To Azley.|
 ;A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|;perhaps based on mining skill,. mines about 40
