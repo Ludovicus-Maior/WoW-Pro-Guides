@@ -934,9 +934,9 @@ function WoWPro:RowUpdate(offset)
         end
 
         --Loading Variables --
-        local step = WoWPro.step[k]
+        local step = WoWPro.ExpandMarkup(WoWPro.step[k])
         local action = WoWPro.action[k]
-        local note = WoWPro.note[k] or ""
+        local note = (WoWPro.note[k] and WoWPro.ExpandMarkup(WoWPro.note[k])) or ""
         local QID = tonumber(WoWPro.QID[k])
         local coord = WoWPro.map[k]
         local sticky = WoWPro.sticky[k]

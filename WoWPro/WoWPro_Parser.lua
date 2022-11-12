@@ -604,10 +604,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         end
     end
 
-    if WoWProCharDB.EnableGrailBreadcrumbs and (not WoWPro.leadin[i]) and WoWPro.action[i] == "A"  then
+    if WoWProCharDB.EnableGrailBreadcrumbs and WoWPro.leadin[i] and WoWPro.action[i] == "A" and WoWPro.DebugLevel > 0 then
         local new_leadin = WoWPro.GrailBreadcrumbsFor(WoWPro.QID[i])
-        if WoWPro.DebugLevel > 0 and new_leadin then
-            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin)
+        if new_leadin then
+            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦ but has  LEAD¦%s¦ .",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin)
         end
         WoWPro.leadin[i] = new_leadin
     end
@@ -682,12 +682,12 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 
 
-    -- Expand markup in the step, for professions.
-    WoWPro.step[i] = WoWPro.ExpandMarkup(WoWPro.step[i])
+    -- Expand markup in the step, for professions to prime the client cache
+    WoWPro.ExpandMarkup(WoWPro.step[i])
 
-    -- If there is a note, expand any markup.
+    -- If there is a note, pre-expand any markup to prime the client cache
     if WoWPro.note[i] then
-        WoWPro.note[i] = WoWPro.ExpandMarkup(WoWPro.note[i])
+        WoWPro.ExpandMarkup(WoWPro.note[i])
     end
 
     -- If the step is "Achievement" there is no note use the name and description from the server ...
