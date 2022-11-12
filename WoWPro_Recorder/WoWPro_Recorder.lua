@@ -81,8 +81,8 @@ function WoWPro.Recorder:RegisterSavedGuides()
         -- Change the ||'s into |'s like the real guides
         local sequence_string = (guideInfo.sequence):gsub("||", "|")
         WoWPro.Guides[GID].sequence = function () return sequence_string; end
-        WoWPro.Guides[GID].startlevel = tonumber(WoWPro.Guides[GID].startlevel)
-        WoWPro.Guides[GID].endlevel = tonumber(WoWPro.Guides[GID].endlevel)
+        WoWPro.Guides[GID].startlevel = tonumber(WoWPro.Guides[GID].startlevel) or 1
+        WoWPro.Guides[GID].endlevel = tonumber(WoWPro.Guides[GID].endlevel) or 100
     end
 end
 
@@ -722,6 +722,8 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
             return "'"..tostring(str).."'"
         end
     end
+    WoWPro.Guides[GID].startlevel = WoWPro.Guides[GID].startlevel or 1
+    WoWPro.Guides[GID].endlevel = WoWPro.Guides[GID].endlevel or 100
     local header = "local guide = WoWPro:RegisterGuide('"
         ..GID.."', '"
         ..WoWPro.Guides[GID].guidetype.."', '"
