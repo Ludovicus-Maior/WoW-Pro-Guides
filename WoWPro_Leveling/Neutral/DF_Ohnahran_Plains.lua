@@ -376,7 +376,7 @@ A And Stay Dead!|QID|66657|PRE|66656|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Ini
 C And Stay Dead!|QID|66657|M|31.37,71.05|Z|2023;Ohn'ahran Plains|N|Kill Tombcaller Arban, then investigate the side rooms in his tomb.|T|Tombcaller Arban|
 T And Stay Dead!|QID|66657|M|PLAYER|Z|2023;Ohn'ahran Plains|N|To Initiate Zorig.|
 A The Nokhud Offensive: Founders Keepers|QID|66658|PRE|66657|M|PLAYER|Z|2023;Ohn'ahran Plains|N|[color=e6cc80]Dungeon Quest[/color]From Initiate Zorig. Pick it up or not as you choose, it is not covered in the guide.|
-A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to your shortly after you leave the tomb.|RANK|2|
+A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you shortly after you leave the tomb.|RANK|2|
 C Mystic Mystery|QID|66224|M|44.62,61.58|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Meet Boku outside Teerakai.|
 C Mystic Mystery|QID|66224|M|44.55,61.91|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click on the assorted items on the ground to collect Boku's Belongings.|
 C Mystic Mystery|QID|66224|M|46.27,63.24|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Search for Boku.|
@@ -443,32 +443,31 @@ T Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|N|To Khanam 
 A With the Wind at Our Backs|QID|66344|PRE|66328|M|72.45,50.72|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 C With the Wind at Our Backs|QID|66344|M|72.30,50.72|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Gerithus you are ready to go.|
 T With the Wind at Our Backs|QID|66344|M|28.26,57.69|Z|2023;Ohn'ahran Plains|N|To Merithra.|
+A Some Call Me Bug Catcher|QID|70062|PRE|66344|M|29.94,58.34|Z|2023;Ohn'ahran Plains|N|From Gracus, who paths thru the area.|
 C Some Call Me Bug Catcher|QID|70062|M|29.46,58.47|Z|2023;Ohn'ahran Plains|N|Kill and loot Flyspawn Beetles to collect Parts.|S|
-
-
 A Shady Sanctuary|QID|70220|M|28.32,57.73|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 f Shady Sanctuary|ACTIVE|70220|M|29.82,57.63|Z|2023;Ohn'ahran Plains|N|At Sariosa.|
 C Shady Sanctuary|QID|70220|M|29.82,57.63|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Tell Sariosa the Bough is in danger.|
 C Some Call Me Bug Catcher|QID|70062|M|29.46,58.47|Z|2023;Ohn'ahran Plains|N|Kill and loot Flyspawn Beetles to collect Parts.|US|
 T Some Call Me Bug Catcher|QID|70062|M|30.63,58.02|Z|2023;Ohn'ahran Plains|N|To Gracus.|
 A Others Call Me Duck Herder|QID|70069|PRE|70062|M|30.63,58.02|Z|2023;Ohn'ahran Plains|N|From Gracus.|RANK|2|
-C Shady Sanctuary|QID|70220|M|30.20,55.72|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Tell Sidra she is needed at the front.|
+C Shady Sanctuary|QID|70220|M|30.19,55.68|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Tell Sidra she is needed at the front.|
 C Others Call Me Duck Herder|QID|70069|M|30.65,55.94|Z|2023;Ohn'ahran Plains|NC|N|Click on the Ducklings to feed them.|
 C Shady Sanctuary|QID|70220|M|29.30,56.43|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Speak to Aronus to visit Merithra's Watch (Optional).|
-C Shady Sanctuary|QID|70220|M|29.74,59.98|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Tell Viranikus to Rally the troops.|
+C Shady Sanctuary|QID|70220|M|29.77,59.96|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Tell Viranikus to Rally the troops.|
 $ Emerald Gardens Glyph|N|Just below the tree line at the top of the water falls.|M|30,61|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16056|
 T Others Call Me Duck Herder|QID|70069|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|Hop on your drake and fly back down to Gracus.|
 A But... I Am the Hero of Ducks|QID|70070|PRE|70069|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|From Gracus.|RANK|2|
-C Shady Sanctuary|QID|70220|M|29.07,55.25|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Guard-Captain Alowen.|
+C Shady Sanctuary|QID|70220|M|29.08,55.26|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Guard-Captain Alowen.|
 C But... I Am the Hero of Ducks|QID|70070|M|27.87,56.63|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Search for Firequackers..|
 C But... I Am the Hero of Ducks|QID|70070|M|27.11,56.50|Z|2023;Ohn'ahran Plains|QO|2|N|Beat on the Queasy Hornswog until he throws up.|
 T But... I Am the Hero of Ducks|QID|70070|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|To Gracus.|
 T Shady Sanctuary|QID|70220|M|28.26,57.70|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A The Primalist Front|QID|66331|PRE|70220|M|28.26,57.70|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-C The Primalist Front|QID|66331|M|28.15,57.35|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Ride Dragonriding Mount into Winds of the Isles (Optional).|
-C The Primalist Front|QID|66331|M|27.56,46.03|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Aru and Belika's report heard.|
-C The Primalist Front|QID|66331|M|25.74,44.25|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Boku's report heard.|
-C The Primalist Front|QID|66331|M|26.18,40.10|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Tell Ohn you are ready to watch his report.|
+;C The Primalist Front|QID|66331|M|28.15,57.35|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Ride Dragonriding Mount into Winds of the Isles (Optional).|
+C The Primalist Front|QID|66331|M|27.55,46.00|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Fly or walk down and talk to Belika to hear their report.|
+C The Primalist Front|QID|66331|M|25.72,44.26|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Boku's report heard.|
+C The Primalist Front|QID|66331|M|26.18,40.06|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Tell Ohn you are ready to watch his report.|
 C The Primalist Front|QID|66331|M|25.63,40.52|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Ask Merithra what she sees.|
 T The Primalist Front|QID|66331|M|25.68,40.41|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Bonus Objective: The Storm Scar|QID|66421|PRE|66331|M|25.68,40.41|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|LVL|-70|
