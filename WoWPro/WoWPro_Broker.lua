@@ -934,7 +934,7 @@ function WoWPro:RowUpdate(offset)
         end
 
         --Loading Variables --
-        local step = WoWPro.ExpandMarkup(WoWPro.step[k])
+        local step = (WoWPro.step[k] and WoWPro.ExpandMarkup(WoWPro.step[k])) or ""
         local action = WoWPro.action[k]
         local note = (WoWPro.note[k] and WoWPro.ExpandMarkup(WoWPro.note[k])) or ""
         local QID = tonumber(WoWPro.QID[k])
