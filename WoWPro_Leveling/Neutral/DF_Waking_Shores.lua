@@ -70,12 +70,12 @@ C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|NC|N|Pathfinder Poppy i
 C Primal Pests|QID|70123^65453|M|77.96,29.80|Z|2022|N|Finish slaying the unneeded Primal Proto-drakes.|US|
 C Practice Materials|QID|70124^65451|M|77.96,29.80|Z|2022|NC|N|Continue killing Primal Proto-Whelp until you have enough scales.|US|
 T Explorers in Peril|QID|70122|M|76.62,33.63|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
-T Explorers in Peril|QID|65452|M|76.62,33.63|Z|2022|N|To Naleidea Rivergleam.|FACTION|Horde|
+T Explorers in Peril|QID|65452|M|76.62,33.60|Z|2022|N|To Naleidea Rivergleam.|FACTION|Horde|
 A Where is Wrathion?|QID|70125|PRE|70122|M|76.62,33.63|Z|2022|N|From Toddy Whiskers.|FACTION|Alliance|
-A Where is Wrathion?|QID|69910|PRE|65452|M|76.62,33.63|Z|2022|N|From Naleidea Rivergleam.|FACTION|Horde|
-C Where is Wrathion?|QID|70125^69910|M|76.61,33.65|Z|2022|CHAT|N|Ask Sendrax why the Dragons aren't here.|
-T Where is Wrathion?|QID|70125^69910|M|76.61,33.65|Z|2022|N|To Sendrax.|
-A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|
+A Where is Wrathion?|QID|69910|PRE|65452|M|76.62,33.60|Z|2022|N|From Naleidea Rivergleam.|FACTION|Horde|
+C Where is Wrathion?|QID|70125^69910|M|76.57,33.68|Z|2022|CHAT|N|Ask Sendrax why the Dragons aren't here.|
+T Where is Wrathion?|QID|70125^69910|M|76.57,33.68|Z|2022|N|To Sendrax.|
+A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.68|Z|2022|N|From Sendrax.|
 A Give Peace a Chance|QID|66110|PRE|69910|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|RANK|2|FACTION|Horde|
 T Primal Pests|QID|65453|M|76.29,33.02|Z|2022|N|To Scalecommander Cinderthresh.|FACTION|Horde|
 T Practice Materials|QID|70124|M|76.50,34.34|Z|2022|N|To Thaelin Darkanvil.|FACTION|Alliance|
@@ -116,9 +116,9 @@ T Quality Assurance|QID|69965|M|76.41,34.47|Z|2022|N|To Haephesta.|
 T Always Be Crafting|QID|66112|M|76.35,34.65|Z|2022|N|To Grun Ashbeard.|
 T Encroaching Elementals|QID|70135|M|76.37,33.07|Z|2022|N|To Warlord Breka Grimaxe.|FACTION|Alliance|
 C Excuse the Mess|QID|69911|M|78.42,31.82|Z|2022|QO|4|NC|N|Relight the Brazier of Kinship.|
-T Excuse the Mess|QID|69911|M|76.58,33.66|Z|2022|N|To Sendrax.|
-A My First Real Emergency!|QID|69912|PRE|69911|M|76.58,33.66|Z|2022|N|From Sendrax.|
-C My First Real Emergency!|QID|69912|M|76.58,33.66|Z|2022|QO|1|CHAT|N|Tell Sendrax to send the signal flare.|
+T Excuse the Mess|QID|69911|M|76.57,33.68|Z|2022|N|To Sendrax.|
+A My First Real Emergency!|QID|69912|PRE|69911|M|76.57,33.68|Z|2022|N|From Sendrax.|
+C My First Real Emergency!|QID|69912|M|76.57,33.68|Z|2022|QO|1|CHAT|N|Tell Sendrax to send the signal flare.|
 C My First Real Emergency!|QID|69912|M|76.22,34.45|Z|2022|QO|2|NC|N|Wait for the dragons' arrival.|
 T My First Real Emergency!|QID|69912|M|76.19,34.50|Z|2022|N|To Wrathion.|
 A The Djaradin Have Awoken|QID|69914|PRE|69912|M|76.22,34.51|Z|2022|N|From Majordomo Selistra.|

@@ -479,15 +479,15 @@ T Justice for Solethus|QID|66333|M|PLAYER|Z|2023;Ohn'ahran Plains|N|To Khanam Ma
 A Deconstruct Additional Pylons|QID|66335|PRE|66333|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
 A Starve the Storm|QID|66784|PRE|66333|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
 C Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Kill the Summoners around the Storm Corridor portal to deactivate it.|
-T Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
+T Starve the Storm|QID|66784|M|PLAYER|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Bonus Objective: Ty'foon the Ascended|QID|66970|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autoaccepted.|RANK|2|
 K Ty'foon the Ascended|ACTIVE|66970|QO|1|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Go up the hill and kill Ty'foon if you want to.|T|Ty'foon the Ascended|S!US|
 t Ty'foon the Ascended|ACTIVE|66970|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 C Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|QO|3|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the third pylon.|
 C Deconstruct Additional Pylons|QID|66335|M|23.12,37.36|Z|2023;Ohn'ahran Plains|QO|2|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the second pylon.|
 C Deconstruct Additional Pylons|QID|66335|M|23.89,39.46|Z|2023;Ohn'ahran Plains|QO|1|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the first pylon.|
-T Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-A Stormbreaker|QID|66337|PRE|66784&66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
+T Deconstruct Additional Pylons|QID|66335|M|PLAYER|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
+A Stormbreaker|QID|66337|PRE|66784&66335|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
 C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|S!US|LVL|-70|
 K Stormbound Proto-Drake and Koroleth|ACTIVE|66337|QO|1|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Attack the Stormboud Proto-Drake to get Koroleth's attention, Then kill Koroleth.|;T|Stormboud Proto-Drake|target button wouldnt work... perhaps because I ran up to an in progress fight. figured i'd just leave it off.
 C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|
@@ -499,8 +499,8 @@ T The Isle of Emerald|QID|66336|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Marit
 A Renewal of Vows|QID|66783|PRE|66336|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|From Marithra.|
 C Renewal of Vows|QID|66783|QO|1|M|22.31,50.85|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Sansok Khan give a trophy from his first hunt, then pick up the spear and take it to Marithra.|
 C Renewal of Vows|QID|66783|QO|2|M|22.38,51.04|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Tegari that she give a feather., then click to pick of the feather and take it to Marithra.|
-C Renewal of Vows|QID|66783|QO|3|M|22.33,50.94|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Khanam Matra offer her blood, then take the blood to Marithra.|
-C Renewal of Vows|QID|66783|QO|4|M|22.33,50.94|Z|2023;Ohn'ahran Plains|CHAT|N|Take the gift from Marithra and offer it to Khanam Matra.|
+C Renewal of Vows|QID|66783|QO|3|M|PLAYER|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Khanam Matra offer her blood, then take the blood to Marithra.|
+C Renewal of Vows|QID|66783|QO|4|M|PLAYER|Z|2023;Ohn'ahran Plains|CHAT|N|Take the gift from Marithra and offer it to Khanam Matra.|
 T Renewal of Vows|QID|66783|M|22.13,50.97|Z|2023;Ohn'ahran Plains|N|To Marithra.|
 A Into the Azure|QID|66340|PRE|66783|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Marithra.|
 A The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|PRE|66783|N|[color=e6cc80]Dungeon: [/color]This is a dungeon quest and beyond the scope of this guide. Pick up or not as you choose.|
