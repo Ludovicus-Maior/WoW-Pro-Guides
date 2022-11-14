@@ -2592,7 +2592,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 					skip = true
 				end
 			end
-			
+
 			if WoWPro.dfrenown and WoWPro.dfrenown[guideIndex] and WoWPro.RETAIL then
 				local _, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
 				local dfrenownFlip = false
@@ -2619,7 +2619,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 					skip = true
                 end
             end
-			
+
             if WoWPro.renown and WoWPro.renown[guideIndex] and WoWPro.RETAIL then
 				local renownID = WoWPro.renown[guideIndex]
 				local renownFlip = false
