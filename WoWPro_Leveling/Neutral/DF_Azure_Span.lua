@@ -166,9 +166,9 @@ C Ask the Locals|QID|66699|M|46.75,38.61|Z|2024|QO|1|CHAT|N|Ask Korrikunit if he
 C Ask the Locals|QID|66699|M|46.33,38.15|Z|2024|QO|2|CHAT|N|Ask Jokomuupat about pockets of magic in the area..|
 C Ask the Locals|QID|66699|M|45.72,38.84|Z|2024|QO|3|CHAT|N|Ask Babunituk about purple crystals.|
 T Ask the Locals|QID|66699|M|45.72,38.84|Z|2024|N|To Babunituk.|
-A Catch the Caravan|QID|65864|PRE|69904&66699|M|45.72,38.84|Z|2024|N|From Babunituk.|
+A Catch the Caravan|QID|65864|PRE|66699|M|45.72,38.84|Z|2024|N|From Babunituk.|
 T Ways of Seeing|QID|66500|M|47.67,40.25|Z|2024|N|To Apprentice Scrumpy.|
-A For the Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|From Noriko the All-Remembering.|
+A For the Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|From Noriko the All-Remembering.|RANK|2|
 C For the Love of Others|QID|66503|QO|1|M|46.65,40.16|Z|2024|CHAT|N|Ask Noriko to take you to the top.|
 C For the Love of Others|QID|66503|QO|2|M|47.14,40.29|Z|2024|NC|N|Click on Divo's remains (skull on the floor).|
 C For the Love of Others|QID|66503|QO|3|M|47.14,40.29|Z|2024|N|Ask Divo why he can't rest?. After that Echo of Loss spawns on the floor below you, jump/fly down and kill it.|
