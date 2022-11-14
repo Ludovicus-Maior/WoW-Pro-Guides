@@ -43,7 +43,7 @@ C How To Stop An Exploding Toy Boat|QID|67175|QO|2|M|41.19,35.90|Z|2024|NC|N|Pic
 C How To Stop An Exploding Toy Boat|QID|67175|QO|3|M|40.59,36.55|Z|2024|NC|N|Click on the boat to dispell the arcane magic.|
 K Gorger|ACTIVE|67177|M|40.09,37.39|Z|2024|N|Kill the big Thunderlizard.|T|Gorger|
 T How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
-T WANTED: Gorger|QID|67177|M|41.42,36.41|Z|2024|N|To Shala.|
+T WANTED: Gorger|QID|67177|M|41.42,36.41|Z|2024|N|To Shala.|RANK|2|
 
 R Camp Antonidas|ACTIVE|66228|M|45.94,40.65|Z|2024|N|Continue up the road to Camp Antonidas.\n\n[color=FF0000]NOTE: [/color]Our good friend Hemet Nesingwary drives a wagon around the zone, his full route take a bit over an hour, stopping 3 times in Camp Antonidas offering a different kill quest each time. Keep your eye out for him and grab those quests if you want them. Guide won't tell you when to pick them up, but the kill and Turn in steps are here. It might be worth asking in zone chat for someone to share them with you as he is a pain to find.|
 T Nightborne Knowhow|QID|66598|M|45.94,40.65|Z|2024|N|To Warpcaster Delandra.|;add IZ so this doesnt pop up while out and about -- then copy this step (+ next 4) to other places in the guide where you are in Camp Antonidas, in case they get it later.
@@ -166,9 +166,9 @@ C Ask the Locals|QID|66699|M|46.75,38.61|Z|2024|QO|1|CHAT|N|Ask Korrikunit if he
 C Ask the Locals|QID|66699|M|46.33,38.15|Z|2024|QO|2|CHAT|N|Ask Jokomuupat about pockets of magic in the area..|
 C Ask the Locals|QID|66699|M|45.72,38.84|Z|2024|QO|3|CHAT|N|Ask Babunituk about purple crystals.|
 T Ask the Locals|QID|66699|M|45.72,38.84|Z|2024|N|To Babunituk.|
-A Catch the Caravan|QID|65864|PRE|69904&66699|M|45.72,38.84|Z|2024|N|From Babunituk.|
+A Catch the Caravan|QID|65864|PRE|66699|M|45.72,38.84|Z|2024|N|From Babunituk.|
 T Ways of Seeing|QID|66500|M|47.67,40.25|Z|2024|N|To Apprentice Scrumpy.|
-A For the Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|From Noriko the All-Remembering.|
+A For the Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|From Noriko the All-Remembering.|RANK|2|
 C For the Love of Others|QID|66503|QO|1|M|46.65,40.16|Z|2024|CHAT|N|Ask Noriko to take you to the top.|
 C For the Love of Others|QID|66503|QO|2|M|47.14,40.29|Z|2024|NC|N|Click on Divo's remains (skull on the floor).|
 C For the Love of Others|QID|66503|QO|3|M|47.14,40.29|Z|2024|N|Ask Divo why he can't rest?. After that Echo of Loss spawns on the floor below you, jump/fly down and kill it.|
@@ -190,7 +190,7 @@ C Those Aren't for Chewing|QID|65868|M|34.63,33.49|Z|2024|N|Keep killing them un
 T Snap the Traps|QID|65866|M|34.27,31.30|Z|2024|N|To Hanu.|
 T Howling in the Big Tree Hills|QID|65867|M|34.27,31.30|Z|2024|N|To Hanu.|
 T Those Aren't for Chewing|QID|65868|M|34.26,31.30|Z|2024|N|To Hanu.|
-A Gnoll Way Out|QID|65871|PRE|65866&65867&65868|M|34.41,31.11|Z|2024|N|From Hanu.|
+A Gnoll Way Out|QID|65871|PRE|65866&65867&65868|M|34.41,31.11|Z|2024|N|From Hanu. You need to wait a few seconds.|
 A Leader of the Shadepaw Pack|QID|65873|PRE|65866&65867&65868|M|34.37,31.03|Z|2024|N|From Brena.|
 A Ill Gnolls with Ill Intent|QID|65872|PRE|65866&65867&65868|M|34.37,31.03|Z|2024|N|From Brena.|
 A Supplies!|QID|65870|PRE|65866&65867&65868|M|34.34,31.00|Z|2024|N|From Elder Poa.|
@@ -211,7 +211,7 @@ A Spreading Decay|QID|66239|PRE|65871&65872&65873&65870|M|34.38,31.02|Z|2024|N|F
 T Spreading Decay|QID|66239|M|28.69,34.83|Z|2024|N|To Brena.|
 A Another Ambush|QID|65869|PRE|66239|M|28.69,34.83|Z|2024|N|From Brena.|
 C Another Ambush|QID|65869|M|28.69,34.75|Z|2024|QO|1|CHAT|N|Speak to Akiun.|
-A Falling Water|QID|71233|PRE|66239|M|28.47,35.11|Z|2024|N|From Unkimi.|
+A Falling Water|QID|71233|PRE|66239|M|28.47,35.11|Z|2024|N|From Unkimi.|RANK|2|
 C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|NC|N|Bodies examined.|
 T Another Ambush|QID|65869|M|28.78,34.74|Z|2024|N|To Brena.|
 A Urgent Action Required|QID|66026|PRE|65869|M|28.78,34.74|Z|2024|N|From Brena.|
@@ -256,19 +256,19 @@ A Gather the Family|QID|66210|PRE|65849|M|13.24,49.55|Z|2024|N|From Brena.|
 A Brackenhide Hollow: To the Source|QID|66211|PRE|65849|M|13.24,49.55|Z|2024|N|From Brena. This is a [color=c9c1ab]Dungeon [/color]quest. Accept or not as you choose.|RANK|2|
 A Orientation: Iskaara|QID|72435|PRE|65849|M|13.14,49.27|Z|2024|N|From Murik.|RANK|2|
 C Gather the Family|QID|66210|QO|1<1|M|12.79,49.33;12.49,49.45|CS|Z|2024|NC|N|Pick up the stone sculpture in the underground inn.|
-A The Weave of a Tale|QID|66213|PRE|65849|M|12.41,49.40|Z|2024|N|From Elder Nappa.|
+A The Weave of a Tale|QID|66213|PRE|65849|M|12.41,49.40|Z|2024|N|From Elder Nappa.|RANK|2|
 C The Weave of a Tale|QID|66213|M|12.41,49.34|Z|2024|CHAT|N|Tell Elder Poa a made up a story about a fish.|
 A Stolen Tuskarr Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|L|200071 -1|;maybe a REN thing?
 T The Weave of a Tale|QID|66213|M|12.41,49.40|Z|2024|N|To Elder Nappa.|
 C Gather the Family|QID|66210|QO|1<2|M|12.46,50.31|Z|2024|NC|N|Pick up the shield by the docks.|
-A Scampering Scamps|QID|66218|PRE|65849|M|12.90,48.70|Z|2024|N|From Hanu.|
+A Scampering Scamps|QID|66218|PRE|65849|M|12.90,48.70|Z|2024|N|From Hanu.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.62|Z|2024|CHAT|N|Say Hello to Norukk.|
-A WANTED: Krojek the Shoreprowler|QID|66217|PRE|65849|M|13.19,48.76|Z|2024|N|From Bukarakikk.|
+A WANTED: Krojek the Shoreprowler|QID|66217|PRE|65849|M|13.19,48.76|Z|2024|N|From Bukarakikk.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|3|M|13.19,48.82|Z|2024|NC|N|Click on Tatto to discover he supplies mounts.|
 C Orientation: Iskaara|QID|72435|QO|1|M|13.17,48.53|Z|2024|NC|N|Check out what Arvik has for sale.|
 C Gather the Family|QID|66210|QO|1<3|M|13.49,48.55|Z|2024|NC|N|Pick up the teapot beside Kinook's cookpot.|
 C Gather the Family|QID|66210|QO|1|M|13.87,49.49|Z|2024|NC|N|Pick up the boat from on the piling beside Jinkutuk.|
-A Fishing: Aileron Seamoth|QID|66212|PRE|65849|M|14.08,49.44|Z|2024|N|From Lukoturukk.|
+A Fishing: Aileron Seamoth|QID|66212|PRE|65849|M|14.08,49.44|Z|2024|N|From Lukoturukk.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024|NC|N|Click on Rokkutuk to discover he supplies recipes.|
 C Fishing: Aileron Seamoth|QID|66212|M|13.91,50.08|Z|2024|NC|N|Take a break and fish. (or manually close this).|
 K Krojek the Shoreprowler|ACTIVE|66217|M|10.91,55.11|Z|2024|QO|1|N|Run/Fly/Swim out to find Krojek The Shoreprowler who swims around this island.|T|Krojek the Shoreprowler|
@@ -277,14 +277,14 @@ C Gather the Family|QID|66210|M|13.13,48.54|Z|2024|QO|2|NC|N|Offerings placed in
 T Orientation: Iskaara|QID|72435|M|13.14,49.27|Z|2024|N|To Murik.|
 T Gather the Family|QID|66210|M|13.24,49.54|Z|2024|N|To Brena.|
 A The Cycle of the Sea|QID|65850|PRE|66210|M|13.25,49.52|Z|2024|N|From Kalecgos.|
-C The Cycle of the Sea|QID|65850|M|12.94,50.39|Z|2024|QO|1|CHAT|N|Tell Brena you are ready to begin the funeral. Wait a bit/follow along, until you get the quest update.|
+C The Cycle of the Sea|QID|65850|M|13.24,49.55|Z|2024|QO|1|CHAT|N|Tell Brena you are ready to begin the funeral. Wait a bit/follow along, until you get the quest update.|
 ;I got Community Feasts from Rowie (who follows you till you accept), REN 3 i think. I don't know if we want to put it in the guide or not.
 C The Cycle of the Sea|QID|65850|M|13.16,50.14|Z|2024|QO|2|NC|N|Click on the Boat to push it` out to sea.|
 T The Cycle of the Sea|QID|65850|M|12.95,50.39|Z|2024|N|To Kalecgos.|
 A Azure Alignment|QID|65911|PRE|65850|M|12.95,50.39|Z|2024|N|From Kalecgos.|
 T Fishing: Aileron Seamoth|QID|66212|M|14.08,49.44|Z|2024|N|To Lukoturukk.|
-A Nook News|QID|71234|PRE|65849|M|14.07,49.44|Z|2024|N|From Lukoturukk.|
-A Rowie|QID|66558|PRE|65849|M|13.76,47.62|Z|2024|N|From Auntie Kaunnie.|
+A Nook News|QID|71234|PRE|65849|M|14.07,49.44|Z|2024|N|From Lukoturukk.|RANK|2|
+A Rowie|QID|66558|PRE|65849|M|13.76,47.62|Z|2024|N|From Auntie Kaunnie.|RANK|2|
 C Rowie|QID|66558|M|16.10,50.42|Z|2024|CHAT|N|Tell Rowie about his mother's last words, then send him home.|
 T Rowie|QID|66558|M|16.12,50.43|Z|2024|N|To Rowie.|
 A Toejam the Terrible|QID|70129|PRE|66558|M|16.12,50.43|Z|2024|N|From Rowie.|
@@ -308,7 +308,7 @@ T Crystals in the Water|QID|66147|M|7.62,44.23|Z|2024|N|To Aelnara.|
 T Salivatory Samples|QID|66154|M|7.66,44.27|Z|2024|N|To Examiner Rowe.|
 T Fishy Fingers|QID|66164|M|7.66,44.30|Z|2024|N|To LOU-C Fitzcog.|
 A Field Experiment|QID|66175|PRE|66147&66154&66164|M|7.66,44.30|Z|2024|N|From LOU-C Fitzcog.|
-A Community Feasts|QID|70938|M|7.66,44.30|Z|2024|N|From Rowie.|;i got this much earlier REN 3?
+A Community Feasts|QID|70938|M|7.66,44.30|Z|2024|N|From Rowie.|RANK|2|;i got this much earlier REN 3?
 C Field Experiment|QID|66175|M|7.63,44.34|Z|2024|NC|N|Activate the Geoscanner.|
 T Field Experiment|QID|66175|M|7.65,44.34|Z|2024|N|To LOU-C Fitzcog, after waiting a bit for the Geoscanner to be become fully activated.|
 A No Dwarf Left Behind|QID|66177|PRE|66175|M|7.65,44.34|Z|2024|N|From LOU-C Fitzcog.|
@@ -334,11 +334,11 @@ R Iskaara|ACTIVE|66223|M|12,48|N|Head back to town.|
 t Community Feasts|QID|70938|M|13.48,48.61|Z|2024|N|To Big Kinook.|
 B Can We Keep It?|ACTIVE|66223|M|13.85,49.46|Z|2024|QO|1|N|Purchase Frigidfish from Jinkutuk or fish them up yourself.|
 T Can We Keep It?|QID|66223|M|10.59,46.87|Z|2024|N|To Neelo.|
-H Azure Archives|ACTIVE|65911|M|PLAYER|TZ|The Conjured Biscuit Inn|N|And hearth or fly back to Kalecgos.|
+H Azure Archives|ACTIVE|65911|M|PLAYER|TZ|The Conjured Biscuit Inn|N|Hearth or fly back to Kalecgos.|
 
 A The Azure Vaults|QID|71155|M|39.48,63.07|Z|2024|LVL|70|N|Wait for all the conversation to end, then Sindragosa offers this [color=c9c1ab]Dungeon [/color]quest.|
 T Azure Alignment|QID|65911|M|39.47,63.01|Z|2024|N|To Kalecgos.|
-A Calling the Blue Dragons|QID|66027|PRE|66559&66232&66217&70938&66223&65911|M|39.47,63.01|Z|2024|N|From Kalecgos.|
+A Calling the Blue Dragons|QID|66027|PRE|65911|M|39.47,63.01|Z|2024|N|From Kalecgos.|
 C Calling the Blue Dragons|QID|66027|M|39.47,63.01|Z|2024|CHAT|N|Tell Kalecgos you are ready.|
 T Calling the Blue Dragons|QID|66027|M|39.47,63.01|Z|2024|N|To Kalecgos.|
 A To Rhonin's Shield|QID|65886|PRE|66027|M|39.47,63.01|Z|2024|N|From Kalecgos.|
@@ -347,10 +347,10 @@ F Zelthrak Outpost Glyph|N|This one is hidden between the trees, might have to l
 R Rhonin's Shield|ACTIVE|65886|M|65.53,25.76|Z|2024|N|Fly over to Rhonin's Shield.|
 T To Rhonin's Shield|QID|65886|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 A To the Mountain|QID|65887|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|
-A Drakes be Gone|QID|67299|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|
-A Artifacts in the Wrong Hands|QID|66964|PRE|65886|M|65.94,25.27|Z|2024|N|From Polky Cogzapper.|
+A Drakes be Gone|QID|67299|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|RANK|2|
+A Artifacts in the Wrong Hands|QID|66964|PRE|65886|M|65.94,25.27|Z|2024|N|From Polky Cogzapper.|RANK|2|
 f Rhonin's Shield|ACTIVE|67299|M|66.00,25.39|Z|2024|N|At Portia Striat.|
-A Riders in the Snow|QID|66708|PRE|65886|M|65.90,25.47|Z|2024|N|From Tuskarr Elder.|
+A Riders in the Snow|QID|66708|PRE|65886|M|65.90,25.47|Z|2024|N|From Tuskarr Elder.|RANK|2|
 C Drakes be Gone|QID|67299|M|65.73,25.72|Z|2024|V|N|Use one of the Arcane Blasters to shoot Proto-Drakes out of the sky.|
 T Drakes be Gone|QID|67299|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 A Pruning The Pack|QID|66968|PRE|67299|M|65.80,26.46|Z|2024|N|From Hemet Nesingwary, if he happens to be here, if not check off and move along.|
@@ -371,8 +371,8 @@ C Primal Offensive|QID|65943|M|74.15,38.05|Z|2024|N|Keep killing Primalist force
 T Lava Burst|QID|65944|M|74.47,37.83|Z|2024|N|To Archmage Khadgar.|
 T Elemental Unfocus|QID|66647|M|74.47,37.83|Z|2024|N|To Archmage Khadgar.|
 T Primal Offensive|QID|65943|M|74.48,37.81|Z|2024|N|To Kalecgos.|
-A Kirin Tor Recovery|QID|65977|PRE|65944&66647&65943|M|74.46,37.86|Z|2024|N|From Archmage Khadgar.|
 A Primal Power|QID|65958|PRE|65944&66647&65943|M|74.47,37.82|Z|2024|N|From Kalecgos.|
+A Kirin Tor Recovery|QID|65977|PRE|65944&66647&65943|M|74.46,37.86|Z|2024|N|From Archmage Khadgar.|
 C Primal Power|QID|65958|M|75.68,37.63|Z|2024|QO|1|NC|U|192479|N|Kill the mobs and then use the [color=33fff9]Elemental Focus [/color]on the bodies of the defeated.|S|
 C Kirin Tor Recovery|QID|65977|M|75.27,37.25|Z|2024|NC|N|Rescue Kirin Tor mages, Bliz has conveniently marked their location.|
 C Primal Power|QID|65958|M|75.68,37.63|Z|2024|NC|U|192479|N|Kill the mobs and then use the [color=33fff9]Elemental Focus [/color]on the bodies of the defeated.|US|
