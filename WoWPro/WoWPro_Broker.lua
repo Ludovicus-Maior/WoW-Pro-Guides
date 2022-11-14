@@ -2592,7 +2592,34 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 					skip = true
 				end
 			end
-
+			
+			if WoWPro.dfrenown and WoWPro.dfrenown[guideIndex] and WoWPro.RETAIL then
+				local _, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
+				local dfrenownFlip = false
+                local dfrenownMatch
+                local dfrenown = _G.C_MajorFactions.GetMajorFactionData(dfrenownID).renownLevel
+				if (dfrenownLevel:sub(1, 1) == "-") then
+                    dfrenownLevel = dfrenownLevel:sub(2)
+                    dfrenownFlip = true
+                end
+                if dfrenown >= tonumber(dfrenownLevel) then
+                    dfrenownMatch = true
+                end
+                if dfrenownFlip then
+                    dfrenownMatch = not dfrenownMatch
+                end
+                if dfrenownMatch then
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] met condition with "..dfrenownLevel.."."
+                else
+					if dfrenownFlip then
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is greater than  "..dfrenownLevel.."."
+					else
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is less than  "..dfrenownLevel.."."
+					end
+					skip = true
+                end
+            end
+			
             if WoWPro.renown and WoWPro.renown[guideIndex] and WoWPro.RETAIL then
 				local renownID = WoWPro.renown[guideIndex]
 				local renownFlip = false
