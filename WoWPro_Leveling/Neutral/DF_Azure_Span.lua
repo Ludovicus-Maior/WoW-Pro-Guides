@@ -11,6 +11,7 @@ return [[
 ;Rowie showed up again and offered me Tuskarr Fishing Gear|QID|71230|LEAD|70871| just after I got Tuskarr REN 5
 ;A To Dragonbone Keep|QID|71210|M|PLAYER|N|From Herald Flaps.|;Valdrakken Accord REN 5
 ;Dormant Discovery - this dropped when you hit ValdrakkenREN 7 and starts the waygates questline. first turn in prolly s/b in WS guide since that is when the item will drop and the first turnin is there, resulting in sending you to Camp Antonidas, and I put that questline here, starting with T Nightborne Knowhow|QID|66598
+;A Community Feasts|QID|70938|M|7.66,44.30|Z|2024|N|From Rowie.|RANK|2|;i got this much earlier REN 3?; I got Community Feasts from Rowie (who follows you till you accept), REN 3 i think. I don't know if we want to put it in the guide or not.
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F Cobalt Assembly|N|On top of the high tower.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
@@ -138,7 +139,7 @@ C Arcane Annoyances|QID|65752|M|40.07,62.28|Z|2024|U|194891|N|Target the Feastin
 T Platform Adjustments|QID|65751|M|39.97,61.47|Z|2024|N|To Kalecgos.|
 T Arcane Annoyances|QID|65752|M|39.97,61.47|Z|2024|N|To Kalecgos.|
 A Reclaiming the Oathstone|QID|65854|PRE|65751&65752|M|39.97,61.47|Z|2024|N|From Kalecgos.|
-F Azure Archive Glyph|M|39.23,63.03|Z|2024;The Azure Plains!Dragonflight|N|This is just above you while you are dispelling the unstable energy.|ACH|16065|
+F Azure Archive Glyph|QID|99999|M|39.23,63.03|Z|2024;The Azure Plains!Dragonflight|N|This is just above you while you are dispelling the unstable energy.|ACH|16065|
 C Reclaiming the Oathstone|QID|65854|M|39.44,63.18|Z|2024|CHAT|N|Fly down to the ground and tell Kalecgos you are ready to reclaim the Oathstone.|
 T Reclaiming the Oathstone|QID|65854|M|39.48,63.06|Z|2024|N|To Sindragosa.|
 A Aiding Azure Span|QID|65855|PRE|65854|M|39.48,63.06|Z|2024|N|From Sindragosa.|
@@ -215,7 +216,7 @@ A Falling Water|QID|71233|PRE|66239|M|28.47,35.11|Z|2024|N|From Unkimi.|RANK|2|
 C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|NC|N|Bodies examined.|
 T Another Ambush|QID|65869|M|28.78,34.74|Z|2024|N|To Brena.|
 A Urgent Action Required|QID|66026|PRE|65869|M|28.78,34.74|Z|2024|N|From Brena.|
-F Creektooth Den Glyph|M|26.76,31.64|Z|2024;The Azure Plains!Dragonflight|N|Mount up and grab the glyph, just above a tree snag, Then fly over to Brena.|ACH|16069|
+F Creektooth Den Glyph|QID|99999|M|26.76,31.64|Z|2024;The Azure Plains!Dragonflight|N|Mount up and grab the glyph, just above a tree snag, Then fly over to Brena.|ACH|16069|
 T Urgent Action Required|QID|66026|M|20.60,35.67|Z|2024|N|To Brena.|
 A Breaching the Brackenhide|QID|65838|PRE|66026|M|20.54,35.68|Z|2024|N|From Kalecgos.|
 A Stop the Spread|QID|65841|PRE|66026|M|20.01,35.97|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|LVL|-70|
@@ -244,7 +245,7 @@ T Tome-ward Bound|QID|65848|M|15.30,39.43|Z|2024|N|To Kalecgos.|
 A Realignment|QID|65847|PRE|65848|M|15.30,39.43|Z|2024|N|From Kalecgos.|
 C Realignment|QID|65847|M|15.34,39.47|Z|2024|QO|1|NC|N|Click the ley crystal to focus the ley line.|
 C Realignment|QID|65847|M|15.48,39.29|Z|2024|QO|2|NC|N|Click on the mounds of decay in the cave.|
-F Brackenhide Hollow Glyph|M|10.40,35.89|Z|2024;The Azure Plains!Dragonflight|N|Mount up and get the glyph near the top of the highest tree|ACH|16068|
+F Brackenhide Hollow Glyph|QID|99999|M|10.40,35.89|Z|2024;The Azure Plains!Dragonflight|N|Mount up and get the glyph near the top of the highest tree|ACH|16068|
 C Stop the Spread|QID|65841|M|20.01,35.97|Z|2024|N|Bonus Objective - Now is the time to finish this if you wanted to.|US|
 t Stop the Spread|QID|65841|M|16.64,38.18|Z|2024|N|Bonus Objective - Autocompleted.|
 T Realignment|QID|65847|M|16.10,41.39|Z|2024|N|To Kalecgos.|
@@ -278,7 +279,6 @@ T Orientation: Iskaara|QID|72435|M|13.14,49.27|Z|2024|N|To Murik.|
 T Gather the Family|QID|66210|M|13.24,49.54|Z|2024|N|To Brena.|
 A The Cycle of the Sea|QID|65850|PRE|66210|M|13.25,49.52|Z|2024|N|From Kalecgos.|
 C The Cycle of the Sea|QID|65850|M|13.24,49.55|Z|2024|QO|1|CHAT|N|Tell Brena you are ready to begin the funeral. Wait a bit/follow along, until you get the quest update.|
-;I got Community Feasts from Rowie (who follows you till you accept), REN 3 i think. I don't know if we want to put it in the guide or not.
 C The Cycle of the Sea|QID|65850|M|13.16,50.14|Z|2024|QO|2|NC|N|Click on the Boat to push it` out to sea.|
 T The Cycle of the Sea|QID|65850|M|12.95,50.39|Z|2024|N|To Kalecgos.|
 A Azure Alignment|QID|65911|PRE|65850|M|12.95,50.39|Z|2024|N|From Kalecgos.|
@@ -308,7 +308,6 @@ T Crystals in the Water|QID|66147|M|7.62,44.23|Z|2024|N|To Aelnara.|
 T Salivatory Samples|QID|66154|M|7.66,44.27|Z|2024|N|To Examiner Rowe.|
 T Fishy Fingers|QID|66164|M|7.66,44.30|Z|2024|N|To LOU-C Fitzcog.|
 A Field Experiment|QID|66175|PRE|66147&66154&66164|M|7.66,44.30|Z|2024|N|From LOU-C Fitzcog.|
-A Community Feasts|QID|70938|M|7.66,44.30|Z|2024|N|From Rowie.|RANK|2|;i got this much earlier REN 3?
 C Field Experiment|QID|66175|M|7.63,44.34|Z|2024|NC|N|Activate the Geoscanner.|
 T Field Experiment|QID|66175|M|7.65,44.34|Z|2024|N|To LOU-C Fitzcog, after waiting a bit for the Geoscanner to be become fully activated.|
 A No Dwarf Left Behind|QID|66177|PRE|66175|M|7.65,44.34|Z|2024|N|From LOU-C Fitzcog.|
@@ -343,7 +342,7 @@ C Calling the Blue Dragons|QID|66027|M|39.47,63.01|Z|2024|CHAT|N|Tell Kalecgos y
 T Calling the Blue Dragons|QID|66027|M|39.47,63.01|Z|2024|N|To Kalecgos.|
 A To Rhonin's Shield|QID|65886|PRE|66027|M|39.47,63.01|Z|2024|N|From Kalecgos.|
 C To Rhonin's Shield|QID|65886|M|39.93,61.55|Z|2024|QO|2|NC|EAB|N|(Optional). Go stand in the water near the blue piller and an [color=33fff9]Extra Action Button [/color] will pop up. Clicking it will take you to the top ring, which makes it much easier to fly nearly all the way to Rhonin's Shield.|
-F Zelthrak Outpost Glyph|N|This one is hidden between the trees, might have to look around a bit for it.|M|52.91,48.70|Z|2024;The Azure Plains!Dragonflight|ACH|16071|
+F Zelthrak Outpost Glyph|QID|99999|N|This one is hidden between the trees, might have to look around a bit for it.|M|52.91,48.70|Z|2024;The Azure Plains!Dragonflight|ACH|16071|
 R Rhonin's Shield|ACTIVE|65886|M|65.53,25.76|Z|2024|N|Fly over to Rhonin's Shield.|
 T To Rhonin's Shield|QID|65886|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 A To the Mountain|QID|65887|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|
@@ -395,7 +394,7 @@ A The Blue Dragon Oathstone|QID|66015|PRE|70041|M|78.22,33.34|Z|2024|N|From Kale
 ;R Rhonin's Shield|AVAILABLE|68639|M|65.81,25.32|Z|2024|N|Use the updraft to get a headstart for you flight back to Rhonin's Shield.|
 ;A Field Mages|QID|71235|PRE|70041|M|65.81,25.32|Z|2024|N|From Drok Scrollstabber.|RANK|2|
 ;T Field Mages|QID|71235|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
-A Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|; commented out Field mages and renived the PRE, as they werent around right now, and this is available without it.
+A Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|; commented out Field mages and removed the PRE, as they werent around right now, and this is available without it.
 A Mossing the Mark|QID|68641|M|63.61,28.82|Z|2024|N|From Steria Duskgrove.|RANK|2|
 C Prowling Polar Predators|QID|68639|M|62.94,31.12|Z|2024|N|Kill the Infected Bears.|S|
 C Mossing the Mark|QID|68641|M|62.94,31.12|Z|2024|N|Click the moss to pick it up. If its all been picked clean, there is a nother patch east of here just a little ways.|
@@ -421,9 +420,9 @@ A They Took the Kits|QID|70338|PRE|69862|M|65.70,30.86|Z|2024|N|From Steria Dusk
 C They Took the Kits|QID|70338|QO|1|M|66.57,30.87|Z|2024|U|200526|NC|N|Steria gave you an invis charm, I suggest you use it. Go in and rescue the kits.|
 C They Took the Kits|QID|70338|QO|2|M|65.72,30.78|Z|2024|CHAT|N|Offer Sylvie the kits.|
 T They Took the Kits|QID|70338|M|65.70,30.86|Z|2024|N|To Steria Duskgrove.|
-F Kalthraz Fortress|N|This glyph is inside the very top of the tower, you probably want to land on the outside and then drop down inside.|M|67.67,29.11|Z|2024;The Azure Plains!Dragonflight|ACH|16072|
+F Kalthraz Fortress|QID|99999|N|This glyph is inside the very top of the tower, you probably want to land on the outside and then drop down inside.|M|67.67,29.11|Z|2024;The Azure Plains!Dragonflight|ACH|16072|
 
-F Vakthros Range Glyph|N|Floating above the ground as you head for the missing archeologist.|M|72.57,39.77|Z|2024;The Azure Plains!Dragonflight|ACH|16073|
+F Vakthros Range Glyph|QID|99999|N|Floating above the ground as you head for the missing archeologist.|M|72.57,39.77|Z|2024;The Azure Plains!Dragonflight|ACH|16073|
 R Lost Ruins|ACTIVE|66964|M|67.22,44.42|Z|2024|N|Continue flying to Lost Ruins to find Kattigat.|
 T Artifacts in the Wrong Hands|QID|66964|M|67.22,44.42|Z|2024|N|To Kattigat.|
 A The Ailing Apprentice|QID|67111|PRE|66964|M|67.24,44.40|Z|2024|N|From Kattigat.|
@@ -442,7 +441,7 @@ C Back into the Action|QID|70858|M|67.23,44.37|Z|2024|NC|N|Click on Alia to admi
 T Back into the Action|QID|70858|M|67.30,44.34|Z|2024|N|To Alia Sunsoar.|
 A What the Guardian Beholds|QID|70859|PRE|70858|M|67.30,44.34|Z|2024|N|From Alia Sunsoar.|
 C What the Guardian Beholds|QID|70859|M|69.55,43.159|Z|2024|N|You will need to fly up to the tower to find Edavix and kill him to loot the Whispering Shard.|
-F Lost Ruins Glyph|N|This one is inside the highest tower, just across the valley, you might have to land for this.|M|70.57,46.26|Z|2024;The Azure Plains!Dragonflight|ACH|16067|
+F Lost Ruins Glyph|QID|99999|N|This one is inside the highest tower, just across the valley, you might have to land for this.|M|70.57,46.26|Z|2024;The Azure Plains!Dragonflight|ACH|16067|
 T What the Guardian Beholds|QID|70859|M|67.30,44.34|Z|2024|N|To Alia Sunsoar.|
 A Whispered Fragments|QID|70931|PRE|70859|M|67.30,44.34|Z|2024|N|From Alia Sunsoar.|
 A What Valthrux Once Was|QID|70937|PRE|70859|M|67.33,44.37|Z|2024|N|From To'tik.|
@@ -517,7 +516,7 @@ C What the Enemy Knows|QID|66352|M|65.82,59.78|Z|2024|N|Continue killing and loo
 T R.A.D. Anomalies|QID|66353|M|65.03,58.62|Z|2024|N|To Rannan Korren.|
 T What the Enemy Knows|QID|66352|M|65.01,58.62|Z|2024|N|To Lathos Sunband.|
 A The Expedition Continues!|QID|66422|PRE|66352&66353|M|65.01,58.63|Z|2024|N|From Lathos Sunband.|
-F Ruins of Karnthar Glyph|N|On top of the ruins of the tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
+F Ruins of Karnthar Glyph|QID|99999|N|On top of the ruins of the tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
 T The Expedition Continues!|QID|66422|M|65.63,60.80|Z|2024|N|To Lathos Sunband.|
 A Worries and Validations|QID|66423|PRE|66422|M|65.63,60.80|Z|2024|N|From Lathos Sunband.|
 C Worries and Validations|QID|66423|M|65.33,60.79|Z|2024|QO|1<1|NC|N|Click on the Ruined Draconic Tablet partially obscured by bushes.|
@@ -536,7 +535,7 @@ A Friendship For Granted|QID|66428|PRE|66427|M|68.48,60.42|Z|2024|N|From Rannan 
 C Friendship For Granted|QID|66428|M|68.60,60.39|Z|2024|QO|1|NC|U|192475|N|Use the[color=33fff9]R.A.D.D.E.R.E.R. [/color] on the Arcane bubble surrounding the Dragon consoles.|
 T Friendship For Granted|QID|66428|M|68.49,60.46|Z|2024|N|To Rannan Korren, after the scene ends.|
 A I Will Remember|QID|66429|PRE|66428|M|68.49,60.46|Z|2024|N|From Rannan Korren.|
-F Ruins of Karnthar Glyph|N|On top of this tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
+F Ruins of Karnthar Glyph|QID|99999|N|On top of this tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
 T I Will Remember|QID|66429|M|63.68,58.90|Z|2024|N|To Rannan Korren.|
 R Rustpine Den|ACTIVE|66141|M|65.63,54.83|CC|Z|2024|N|Fly to Narn, just outside of Rustpine Den.|
 C Broken Traditions, Broken Bodies|QID|66141|M|65.63,54.83|Z|2024|CHAT|N|Ask Narn what happened.|
@@ -578,13 +577,13 @@ C An Ancient Awakening|QID|70156|QO|2|M|48.33,30.13|NC|N|Clicking the little pin
 C An Ancient Awakening|QID|70156|QO|3|M|48.33,30.13|NC|N|Click the waygate.|
 T An Ancient Awakening|QID|70156|M|47.20,90.25|Z|2022|N|To Thaelin Darkanvil. Congratulations, you have now unlocked Waygates.|
 F Cobalt Assembly|ACTIVE|72784|M|49.39,24.87|Z|2024|N|We are now going to see what the Cobalt Assembly is up to.|
-F Cobalt Assembly Glyph|N|On top of the highest tower. You may need to land on the lower tower to regen vigor first.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
+F Cobalt Assembly Glyph|QID|99999|N|On top of the highest tower. You may need to land on the lower tower to regen vigor first.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 T Supporting the Cobalt Assembly|QID|72784|M|49.03,23.15|Z|2024|N|To Venthi.|
 A Welcome to the Assembly|QID|70550|PRE|72784|M|49.03,23.15|Z|2024|N|From Venthi.|
 f Cobalt Assembly|ACTIVE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.|
 C Welcome to the Assembly|QID|70550|M|49.47,22.60|Z|2024|CHAT|N|View the Assembly abilities.|
 T Welcome to the Assembly|QID|70550|M|49.03,23.15|Z|2024|N|To Venthi.|
-F The Fallen Course Glyph|N|Floating just above the broken bridge.|M|56.82,16.05|Z|2024;The Azure Plains!Dragonflight|ACH|16673|
+F The Fallen Course Glyph|QID|99999|N|Floating just above the broken bridge.|M|56.82,16.05|Z|2024;The Azure Plains!Dragonflight|ACH|16673|
 
 R Theron's Watch|ACTIVE|70627|M|65.39,15.96|Z|2024|N|Continue on to Theron's Watch.|RANK|2|
 T What of the Winterpelt Clan?|QID|70627|M|65.39,15.96|Z|2024|N|To Sonova Snowden.|
