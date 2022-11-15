@@ -2600,7 +2600,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 			end
 
 			if WoWPro.dfrenown and WoWPro.dfrenown[guideIndex] and WoWPro.RETAIL then
-				local _, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
+				local dfrenownName, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
 				local dfrenownFlip = false
                 local dfrenownMatch
                 local dfrenown = _G.C_MajorFactions.GetMajorFactionData(dfrenownID).renownLevel
@@ -2615,12 +2615,12 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     dfrenownMatch = not dfrenownMatch
                 end
                 if dfrenownMatch then
-						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] met condition with "..dfrenownLevel.."."
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] met condition with ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
                 else
 					if dfrenownFlip then
-						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is greater than  "..dfrenownLevel.."."
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is greater than ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
 					else
-						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is less than  "..dfrenownLevel.."."
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is less than ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
 					end
 					skip = true
                 end
