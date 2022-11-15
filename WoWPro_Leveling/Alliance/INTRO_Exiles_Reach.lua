@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach!Instance", 'Cagomei', 'Alliance')
+local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach!Instance", 'WoWPro Team', 'Alliance')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Exile's Reach")
@@ -7,14 +7,14 @@ WoWPro:GuideNextGuide(guide, 'BurnTedrazilSTrek')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
-A Warming Up|QID|56775|N|From Captain Garrick.|
-C Warming Up|QID|56775|N|Attack a Combat Dummy until it's destroyed.|
-T Warming Up|QID|56775|N|Turn into Captain Garrick.|
-A Stand Your Ground|QID|58209|PRE|56775|N|From Private Cole.|
-C Stand Your Ground|QID|58209|N|Spar with Private Cole.|
-T Stand Your Ground|QID|58209|N|Turn into Private Cole.|
-A Brace for Impact|QID|58208|PRE|58209|N|From Private Cole.|
-T Brace for Impact|QID|58208|N|Turn into Captain Garrick.|
+A Warming Up|QID|56775|Z|1726;The North Sea|N|From Captain Garrick.|
+C Warming Up|QID|56775|Z|1726;The North Sea|N|Attack a Combat Dummy until it's destroyed.|
+T Warming Up|QID|56775|Z|1726;The North Sea|N|Turn into Captain Garrick.|
+A Stand Your Ground|QID|58209|PRE|56775|Z|1726;The North Sea|N|From Private Cole.|
+C Stand Your Ground|QID|58209|Z|1726;The North Sea|N|Spar with Private Cole.|
+T Stand Your Ground|QID|58209|Z|1726;The North Sea|N|Turn into Private Cole.|
+A Brace for Impact|QID|58208|PRE|58209|Z|1726;The North Sea|N|From Private Cole.|
+T Brace for Impact|QID|58208|Z|1726;The North Sea|N|Turn into Captain Garrick.|
 A Murloc Mania|QID|55122|PRE|58208|M|61.89,82.92|N|From Captain Garrick.|
 C Murloc Mania|QID|55122|M|61.40,80.57|N|Kill Murlocs in the area.|
 T Murloc Mania|QID|55122|M|61.89,82.92|N|Turn into Captain Garrick.|
@@ -32,8 +32,8 @@ C Cooking Meat|QID|55174|M|58.35,74.67|QO|2|N|Click on the fire.|NC|
 T Cooking Meat|QID|55174|M|58.35,74.67|N|Turn into Alaria.|
 A Enhanced Combat Tactics|QID|59254|PRE|55174|M|58.33,74.51|N|From Captain Garrick.|C|-Hunter,-Monk|
 A Enhanced Combat Tactics|QID|59339|PRE|55174|M|58.33,74.51|N|From Captain Garrick.|C|Monk|
-C Enhanced Combat Tactics|ACTIVE|59254|M|57.86,72.58|N|Look around, to find Captain Garrick, then go spar with her to learn some basic rotations about your class.|
-C Enhanced Combat Tactics|ACTIVE|59339|M|58.96,72.71|N|Spar with Captain Garrick to learn some basic rotations about your class.|
+C Enhanced Combat Tactics|QID|59254|M|57.86,72.58|N|Look around, to find Captain Garrick, then go spar with her to learn some basic rotations about your class.|
+C Enhanced Combat Tactics|QID|59339|M|58.96,72.71|N|Spar with Captain Garrick to learn some basic rotations about your class.|
 T Enhanced Combat Tactics|QID|59254|M|58.33,74.51|N|Turn into Captain Garrick.|
 T Enhanced Combat Tactics|QID|59339|M|58.33,74.51|N|Turn into Captain Garrick.|
 A Northbound|QID|55173|PRE|55174|M|58.37,74.47|N|From Alaria.|
@@ -199,10 +199,10 @@ A An End to Beginnings|QID|55991|PRE|55992|M|39.66,31.99|N|From Captain Garrick.
 C An End to Beginnings|QID|55991|M|40.38,32.65|N|Click on the highlighted gryphon to ride back to Stormwind.|V|
 T An End to Beginnings|QID|55991|M|73.69,91.31|Z|Stormwind City|N|Turn in to Captain Garrick.|
 A Welcome to Stormwind|QID|59583|PRE|55991|M|73.69,91.31|Z|Stormwind City|N|From Captain Garrick.|
-T Welcome to Stormwind|QID|59583|M|66.38,78.23|Z|Stormwind City|N|Turn into Lindie Springsstock.|
-A Finding Your Way|QID|58908|PRE|59583|M|66.38,78.23|Z|Stormwind City|N|From Lindie Springsstock.|
-C Finding Your Way|QID|58908|M|66.06,77.64|Z|Stormwind City|QO|1|N|Ask a guard for directions to the Stable Master in Old Town (next to bottom on the list).|CHAT|
-C Finding Your Way|QID|58908|M|66.19,77.01|Z|Stormwind City|QO|2|N|Speak with Lindie Springstock to lead the way.|CHAT|
+T Welcome to Stormwind|QID|59583|M|70.21,85.39|Z|Stormwind City|N|Turn into Lindie Springsstock.|
+A Finding Your Way|QID|58908|PRE|59583|M|70.21,85.39|Z|Stormwind City|N|From Lindie Springsstock.|
+C Finding Your Way|QID|58908|M|70.28,83.72|Z|Stormwind City|QO|1|N|Ask a guard for directions to the Stable Master in Old Town (next to bottom on the list).|CHAT|
+C Finding Your Way|QID|58908|M|69.86,83.95|Z|Stormwind City|QO|2|N|Speak with Lindie Springstock to lead the way.|CHAT|
 C Finding Your Way|QID|58908|M|77.36,67.06|Z|Stormwind City|QO|3|N|Follow Lindie Springstock to the Stables. Stay right with him, he stops if you get too far ahead or behind.|NC|
 T Finding Your Way|QID|58908|M|77.28,66.95|Z|Stormwind City|N|Turn into Curly.|
 A License to Ride|QID|58909|PRE|58908|M|77.28,66.95|Z|Stormwind City|N|From Curly.|
@@ -258,10 +258,12 @@ T An Urgent Meeting|QID|58912|M|85.22,32.04|Z|Stormwind City|N|Turn into Captain
 A Battle for Azeroth: Tides of War|QID|58983|PRE|58912|M|85.22,32.04|Z|Stormwind City|N|From Captain Garrick|
 C Battle for Azeroth: Tides of War|QID|58983|M|85.27,32.30|Z|Stormwind City|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
 T Battle for Azeroth: Tides of War|QID|58983|M|85.91,31.56|Z|Stormwind City|N|Turn into Anduin Wrynn.|
-A The Nation of Kul Tiras|QID|59641|PRE|58983|M|85.91,31.56|Z|Stormwind City|N|From Anduin Wrynn|
+A The Nation of Kul Tiras|QID|59641^46728|PRE|58983|M|85.91,31.56|Z|Stormwind City|N|From Anduin Wrynn. Pick the bottom option if you would like a ride.|
 C The Nation of Kul Tiras|QID|59641|M|85.30,32.01|Z|Stormwind City|QO|1|N|Speak with Captain Garrick.|CHAT|
 C The Nation of Kul Tiras|QID|59641|M|77.68,39.26|Z|Stormwind City|QO|2|N|Run out of the keep and you will find Loretta Banks for a free ride to the Docks.|CHAT|
 C The Nation of Kul Tiras|QID|59641|M|22.78,24.87|Z|Stormwind City|QO|3|N|Speak with Jaina to set sail.|CHAT|
 T The Nation of Kul Tiras|QID|59641|Z|Boralus|M|65.59,50.72|N|Turn into Lady Jaina Proudmoore.|
+C The Nation of Kul Tiras|QID|46728|M|22.78,24.87|Z|Stormwind City|QO|1|N|Speak with Jaina to set sail.|CHAT|
+T The Nation of Kul Tiras|QID|46728|Z|Boralus|M|65.59,50.72|N|Turn into Lady Jaina Proudmoore.|
 ]]
 end)

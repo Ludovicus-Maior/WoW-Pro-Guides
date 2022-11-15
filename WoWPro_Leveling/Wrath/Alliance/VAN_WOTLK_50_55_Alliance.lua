@@ -379,7 +379,7 @@ C Target: Writhing Haunt|QID|5222|M|53.01,66.06|Z|Western Plaguelands|N|Kill Lor
 T Target: Writhing Haunt|QID|5222|M|53.03,65.72|Z|Western Plaguelands|N|To Scourge Cauldron.|
 A Return to Chillwind Camp|QID|5223|M|53.03,65.72|Z|Western Plaguelands|N|From Scourge Cauldron.|PRE|5222|
 A The Wildlife Suffers Too|QID|4984|M|53.73,64.66|Z|Western Plaguelands|N|From Mulgris Deepriver.|
-C The Wildlife Suffers Too|QID|4984|Z|Western Plaguelands|S|N|Kill Diseased Wolves.|T|Diseased Wolf|
+C The Wildlife Suffers Too|QID|4984|Z|Western Plaguelands|S|N|Kill Diseased Wolves. Spiders share spanws, if you cant find wolfs take out spiders.|T|Diseased Wolf|
 C Tower Three|QID|5097|M|44.25,63.11|Z|Western Plaguelands|QO|3|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
 C Tower Two|QID|5097|M|42.44,66.24|Z|Western Plaguelands|QO|2|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
 T A Matter of Time|QID|4971|M|39.45,66.77|Z|Western Plaguelands|N|To Chromie. In the building upstairs.|
@@ -402,7 +402,7 @@ T Unfinished Business|QID|6023|M|51.92,28.06|Z|Western Plaguelands|N|To Kirsta D
 A Unfinished Business|QID|6025|M|51.92,28.06|Z|Western Plaguelands|N|From Kirsta Deepshadow.|PRE|6023|
 C Unfinished Business|QID|6025|M|45.82,18.41|Z|Western Plaguelands|N|Run up to the top of the tower. This is an Elite Area, the entrance has guards you can just mount and run through, the back part is non elite and you have enough space to run off agro. The tower itself has 2 elite guards you can single pull so it isn't too tough. You could also take off your clothes, mount up and run straight to it and take the death, either way it's easy experience.|
 T Unfinished Business|QID|6025|M|51.92,28.06|Z|Western Plaguelands|N|To Kirsta Deepshadow.|
-C The Wildlife Suffers Too|QID|4984|M|43.21,56.03|Z|Western Plaguelands|US|N|Kill Diseased Wolves.|T|Diseased Wolf|
+C The Wildlife Suffers Too|QID|4984|M|43.21,56.03|Z|Western Plaguelands|US|N|Kill Diseased Wolves. Spiders share spanws, if you cant find wolfs take out spiders.|T|Diseased Wolf|
 T The Wildlife Suffers Too|QID|4984|M|53.73,64.66|Z|Western Plaguelands|N|To Mulgris Deepriver.|
 A The Wildlife Suffers Too|QID|4985|M|53.73,64.66|Z|Western Plaguelands|N|From Mulgris Deepriver.|PRE|4984|
 
@@ -423,8 +423,8 @@ H Ironforge|QID|6761|M|PLAYER|Z|Western Plaguelands|N|Hearth or otherwise make y
 = City Stuff|QID|6761|Z|Ironforge|N|Train up and take care of your other city needs. Manually skip when you're ready to move on.|
 A The New Frontier|QID|1019|M|47.75,54.81|Z|Ironforge|N|From Courier Hammerfall. He roams around Everywhere in Ironforge.|T|Courier Hammerfall|
 
-F Menethil Harbor|QID|6761|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|
-b Darkshore|QID|6761|M|4.59,57.13|Z|Wetlands|N|Take the boat to Darkshore.|
+F Stormwind|QID|6761|M|55.54,47.75|Z|Ironforge|N|Fly to Stormwind.|
+b Darkshore|QID|6761|M|22.72,55.99|Z|Stormwind City|N|Take the boat to Darkshore.|
 F Rut'theran Village|QID|6761|M|36.34,45.58|Z|Darkshore|N|Fly to  Rut'theran Village and head to Darnassus.|
 R Darnassus|QID|6761|M|55.89,89.60|Z|Teldrassil|N|Run into the portal.|
 T Prayer to Elune|QID|3378|M|38.33,80.92|Z|Darnassus|N|To Astarii Starseeker.|
@@ -434,10 +434,11 @@ T Glyphed Oaken Branch|QID|4986|M|35.37,8.41|Z|Darnassus|N|To Mathrengyl Bearwal
 T The New Frontier|QID|6761|M|35.37,8.41|Z|Darnassus|N|To Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|
 A Rabine Saturna|QID|6762|M|35.37,8.41|Z|Darnassus|N|From Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|PRE|6761|
 
-R Rut'theran Village|QID|6762|M|30.04,41.32|Z|Darnassus|N|Run through the portal into Rut'theran Village.|
+R Rut'theran Village|ACTIVE|6762|M|30.04,41.32|Z|Darnassus|N|Run through the portal into Rut'theran Village.|
 A Moontouched Wildkin|QID|978|M|55.50,92.05|Z|Teldrassil|N|From Erelas Ambersky.|PRE|3661|
 A Starfall|QID|5250|M|55.41,92.23|Z|Teldrassil|N|From Daryn Lightwind upstairs.|
-F Moonglade|QID|6762|M|58.39,94.01|Z|Teldrassil|N|Fly to Moonglade.|
+P Moonglade|ACTIVE|6762|M|58.69,94.01|Z|Teldrassil|N|Portal to Moonglade.|C|Druid|
+F Moonglade|ACTIVE|6762|M|58.39,94.01|Z|Teldrassil|N|Fly to Moonglade.|
 T Rabine Saturna|QID|6762|M|51.69,45.09|Z|Moonglade|N|To Rabine Saturna.|
 A Wasteland|QID|1124|M|51.69,45.09|Z|Moonglade|N|From Rabine Saturna.|PRE|6762|
 
@@ -462,13 +463,16 @@ A Meet at the Grave|QID|3912|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.
 T Trouble in Winterspring!|QID|6603|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
 A Threat of the Winterfall|QID|5082|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.|PRE|6603|
 C Threat of the Winterfall|QID|5082|M|31.00,36.00|Z|Winterspring|N|Kill the needed Winterfall Furbolgs.|
+l Winterfall Ritual Totem|QID|8471|N|Continue to kill Furbolgs until you get an Winterfall Ritual Totem.|L|20742|
 l Empty Firewater Flask|QID|5083|N|Continue to kill Furbolgs until you get an Empty Firewater Flask.|L|12771|
 A Winterfall Firewater|QID|5083|M|PLAYER|Z|Winterspring|N|Click the flask and accept this quest.|U|12771|
+A Winterfall Ritual Totem|QID|8471|M|PLAYER|Z|Winterspring|N|Click the Totem and accept this quest.|U|20742|
 T Threat of the Winterfall|QID|5082|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
 T Winterfall Firewater|QID|5083|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
 A Falling to Corruption|QID|5084|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.|PRE|5083|
 
 R Felwood|ACTIVE|5084|M|27.90,34.44|Z|Winterspring|N|Head back to Felwood through Timbermaw Hold.|
+T Winterfall Ritual Totem|QID|8471|M|65.44,3.03|Z|Felwood|N|To Kernda.|
 R Continue to Felwood|ACTIVE|5084|M|67.86,4.37;64.88,3.00;64.61,3.81;65.14,7.91|Z|Felwood|CS|N|Run through Timbermaw Hold to the Felwood Entrance.|
 T Falling to Corruption|QID|5084|M|60.20,5.85|Z|Felwood|N|To Deadwood Cauldron guarded by 4 Furbolgs. This is instant click, you can run in and complete/accept quest then run off agro, or any other way that suits your class.|
 A Mystery Goo|QID|5085|M|60.20,5.85|Z|Felwood|N|From Deadwood Cauldron.|PRE|5084|
@@ -506,8 +510,6 @@ T Linken's Sword|QID|3914|M|44.66,8.11|Z|Un'Goro Crater|N|To Linken.|
 A A Gnome's Assistance|QID|3941|M|44.66,8.11|Z|Un'Goro Crater|N|From Linken.|PRE|3914|
 T A Gnome's Assistance|QID|3941|M|41.9,2.7|Z|Un'Goro Crater|N|To J.D. Collie.|
 A Linken's Memory|QID|3942|M|41.9,2.7|Z|Un'Goro Crater|N|From J.D. Collie.|PRE|3941|
-H Ironforge|M|PLAYER|Z|Un'Goro Crater|N|Hearth to Ironforge. And that is the end of Chapter 3!.
-
-N The End|M|PLAYER|N|This is the end. You are left with about 11 quests going into chapter 4 which isn't complete yet if you are seeing this message. Unfortunately all these quests are chains and needed without having to travel all over the place to collect them again.\n\nFor now I recommend running Blackrock Depths Dungeon, goto Burning Steppes and get all the quests that we unlocked. After that, head up to Eastern Plaguelands before heading to Ratchet where you will continue your felwood chain, and then wrap up felwood, winterspring and ungoro before going to Silithus. |
+H Ironforge|M|PLAYER|Z|Un'Goro Crater|N|Hearth to Ironforge. And that is the end of Chapter 5!.
 ]]
 end)
