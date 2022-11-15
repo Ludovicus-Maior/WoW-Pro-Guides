@@ -56,18 +56,18 @@ l Dragon Isles Supply Bag|AVAILABLE|72708|L|202081|N|Kill Proto Drakes till the 
 A Dragon Isles Supplies|QID|72708|M|PLAYER|N|Use the Dragon Isles Supply Bag from your inventroy.|O|U|202081|RANK|2|
 C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022|N|Kill the Proto-Whelp and collect their scales.|S|
 C Primal Pests|QID|70123^65453|M|83.59,36.12|Z|2022|N|Slay Primal Proto-drakes.|S|
-C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye is suspended above some lava enter the area on the left side.|T|Spelunker Lockeye|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|NC|N|Spelunker Lazee is suspended over lava enter the area on the Right side.|T|Spelunker Lazee|FACTION|Horde|
+C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|H|N|Spelunker Lockeye is suspended above some lava enter the area on the left side.|T|Spelunker Lockeye|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022|QO|3|H|N|Spelunker Lazee is suspended over lava enter the area on the Right side.|T|Spelunker Lazee|FACTION|Horde|
 ;A Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|FACTION|Alliance|
 ;C Primal Scythid Queen|QID|66074|M|81.36,37.58|Z|2022|N|Slay Primal Scythid Queen.|T|Primal Scythid Queen|
-C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Click on Archivist Rellid who is being carried around by low flying drakes.|T|Archivist Rellid||FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|NC|N|Click Archivist Spearblossom who is being carried around by low flying drakes.|T|Archivist Spearblossom|FACTION|Horde|
+C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|H|N|Click on Archivist Rellid who is being carried around by low flying drakes.|T|Archivist Rellid||FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022|QO|2|H|N|Click Archivist Spearblossom who is being carried around by low flying drakes.|T|Archivist Spearblossom|FACTION|Horde|
 ;A Ancient Hornswog|QID|66076|M|77.67,22.41|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|FACTION|Horde|IZ|13722|
 ;C Ancient Hornswog|QID|66076|M|77.67,22.41|Z|2022|N|Slay Ancient Hornswog.|T|Ancient Hornswog|
-C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|NC|N|Professor Cogcatcher is trapped under some bones.|T|Professor Cogcatcher|FACTION|Alliance|
-C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|NC|N|Pathfinder Poppy is trapped under some bones.|T|Pathfinder Poppy|FACTION|Horde|
+C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|H|N|Professor Cogcatcher is trapped under some bones.|T|Professor Cogcatcher|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022|QO|1|H|N|Pathfinder Poppy is trapped under some bones.|T|Pathfinder Poppy|FACTION|Horde|
 C Primal Pests|QID|70123^65453|M|77.96,29.80|Z|2022|N|Finish slaying the remaining Primal Proto-drakes.|US|
-C Practice Materials|QID|70124^65451|M|77.96,29.80|Z|2022|NC|N|Continue killing Primal Proto-Whelp until you have enough scales.|US|
+C Practice Materials|QID|70124^65451|M|77.96,29.80|Z|2022|N|Continue killing Primal Proto-Whelp until you have enough scales.|US|
 T Explorers in Peril|QID|70122|M|76.62,33.63|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
 T Explorers in Peril|QID|65452|M|76.62,33.63|Z|2022|N|To Naleidea Rivergleam.|FACTION|Horde|
 A Where is Wrathion?|QID|70125|PRE|70122|M|76.62,33.63|Z|2022|N|From Toddy Whiskers.|FACTION|Alliance|
@@ -98,23 +98,23 @@ C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|3|NC|N|Use the #2 ab
 C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|4|NC|N|Use the #3 abilty to Search for Danger.|FACTION|Alliance|
 T From Such Great Heights|QID|66101|M|75.84,33.50|Z|2022|N|To Aster Cloudgaze.|FACTION|Alliance|
 T Dragon Isles Supplies|QID|72708|M|76.43,34.50|N|Turn into Haephesta.|
-A Quality Assurance|QID|69965|PRE|66110|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|
-A Always Be Crafting|QID|66112|PRE|66110|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|RANK|2|
+A Quality Assurance|QID|69965|PRE|66110^67053|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|
+A Always Be Crafting|QID|66112|PRE|66110^67053|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|RANK|2|
 f Wingrest Embassy|ACTIVE|69911|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|
 C Excuse the Mess|QID|69911|M|76.33,35.62|Z|2022|QO|1|CHAT|N|Tell Ambassador Fastrasz that you are a new visitor.|
-C Excuse the Mess|QID|69911|M|76.29,35.59|Z|2022|QO|2|NC|N|Embassy Visitor Log signed. It doesn't matter which options you choose, Have Fun!|
-C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022|QO|3|NC|N|Read the stone tablet.|
-C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|NC|N|Click on the glowing rocks to excavate.|S|
+C Excuse the Mess|QID|69911|M|76.29,35.59|Z|2022|QO|2|H|N|Embassy Visitor Log signed. It doesn't matter which options you choose, Have Fun!|
+C Excuse the Mess|QID|69911|M|75.61,34.14|Z|2022|QO|3|H|N|Read the stone tablet.|
+C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|H|N|Click on the glowing rocks to excavate.|S|
 C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022|N|Slay Primal elementals.|S|
 C Always Be Crafting|QID|66112|M|75.01,39.20|Z|2022|QO|2|NC|N|This is dropped by Baron Crustcord at the bottom of Quaking Cavern.|T|Baron Crustcore|
 C Always Be Crafting|QID|66112|M|73.15,33.01|Z|2022|QO|1|NC|N|This is dropped by Baron Ashflow in a small lava pool up the hillside.|T|Baron Ashflow|
-C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|NC|N|Finish excavating the glowing Volcanic Geodes.|US|
+C Quality Assurance|QID|69965|M|74.52,35.19|Z|2022|H|N|Finish excavating the glowing Volcanic Geodes.|US|
 C Encroaching Elementals|QID|70135^66111|M|73.98,33.91|Z|2022|N|Finish slaying the Primal elementals.|US|
 T Encroaching Elementals|QID|66111|M|76.71,34.55|Z|2022|N|To Captain Garrick.|FACTION|Horde|
 T Quality Assurance|QID|69965|M|76.41,34.47|Z|2022|N|To Haephesta.|
 T Always Be Crafting|QID|66112|M|76.35,34.65|Z|2022|N|To Grun Ashbeard.|
 T Encroaching Elementals|QID|70135|M|76.37,33.07|Z|2022|N|To Warlord Breka Grimaxe.|FACTION|Alliance|
-C Excuse the Mess|QID|69911|M|78.42,31.82|Z|2022|QO|4|NC|N|Relight the Brazier of Kinship.|
+C Excuse the Mess|QID|69911|M|78.42,31.82|Z|2022|QO|4|H|N|Relight the Brazier of Kinship.|
 T Excuse the Mess|QID|69911|M|76.58,33.66|Z|2022|N|To Sendrax.|
 A My First Real Emergency!|QID|69912|PRE|69911|M|76.58,33.66|Z|2022|N|From Sendrax.|
 C My First Real Emergency!|QID|69912|M|76.58,33.66|Z|2022|QO|1|CHAT|N|Tell Sendrax to send the signal flare.|
