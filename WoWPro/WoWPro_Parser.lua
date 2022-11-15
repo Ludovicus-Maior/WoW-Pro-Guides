@@ -34,6 +34,8 @@ WoWPro.actiontypes = {
 	["V TAG"] = "Interface\\CURSOR\\vehichleCursor",
 	["JUMP TAG"] = "Interface\\Icons\\spell_arcane_teleportironforge",
 	["CHAT TAG"] = "Interface\\GossipFrame\\Gossipgossipicon",
+    ["INSPECT TAG"] = "Interface\\CURSOR\\Inspect",
+    ["HAND TAG"] = "Interface\\CURSOR\\QuestInteract",
     ["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
     ["$"] = "Interface\\Worldmap\\TreasureChest_64",
     ["="] = "Interface\\Icons\\Spell_lightning_lightningbolt01",
@@ -76,6 +78,8 @@ WoWPro.actionlabels = {
 	["V TAG"] = "Use Vehicle",
 	["JUMP TAG"] = "Jump Button Available",
 	["CHAT TAG"] = "Interact and Chat",
+    ["HAND TAG"] = "Click on or Pick up",
+    ["INSPECT TAG"] = "Inspect or Examine",
     ["!"] = "Declare",
     ["$"] = "Treasure",
     ["="] = "Train",
@@ -294,6 +298,8 @@ DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("EAB","eab","boolean",nil,nil)
 DefineTag("ELITE", "elite","boolean",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
+DefineTag("I","inspect","boolean",nil,nil)
+DefineTag("H","hand","boolean",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("NA","noauto","boolean",nil,nil)
 DefineTag("NOCACHE", "nocache","boolean",nil,nil)
@@ -310,6 +316,7 @@ DefineTag("BUFF","buff","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("COV","covenant","string",nil,nil)
 DefineTag("DATE", "serverdate","string",nil,nil)
+DefineTag("DFREN","dfrenown","string",nil,nil)
 DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
 DefineTag("FAIL","fail","boolean",nil,nil)
 DefineTag("FLY","fly","string",nil,nil)

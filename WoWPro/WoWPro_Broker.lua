@@ -934,7 +934,7 @@ function WoWPro:RowUpdate(offset)
         end
 
         --Loading Variables --
-        local step = WoWPro.ExpandMarkup(WoWPro.step[k])
+        local step = (WoWPro.step[k] and WoWPro.ExpandMarkup(WoWPro.step[k])) or ""
         local action = WoWPro.action[k]
         local note = (WoWPro.note[k] and WoWPro.ExpandMarkup(WoWPro.note[k])) or ""
         local QID = tonumber(WoWPro.QID[k])
@@ -1029,6 +1029,12 @@ function WoWPro:RowUpdate(offset)
         if WoWPro.noncombat[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
             currentRow.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
             currentRow.action.tooltip.text:SetText("No Combat")
+        elseif WoWPro.hand[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
+            currentRow.action:SetTexture(WoWPro.actiontypes["HAND TAG"])
+            currentRow.action.tooltip.text:SetText(WoWPro.actionlabels["HAND TAG"])
+        elseif WoWPro.inspect[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
+            currentRow.action:SetTexture(WoWPro.actiontypes["INSPECT TAG"])
+            currentRow.action.tooltip.text:SetText(WoWPro.actionlabels["INSPECT TAG"])
         elseif WoWPro.lootitem[k] and WoWPro.action[k] == "C" then
             currentRow.action:SetTexture(WoWPro.actiontypes['l'])
             currentRow.action.tooltip.text:SetText("Loot Complete")
@@ -2592,6 +2598,33 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 					skip = true
 				end
 			end
+
+			if WoWPro.dfrenown and WoWPro.dfrenown[guideIndex] and WoWPro.RETAIL then
+				local dfrenownName, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
+				local dfrenownFlip = false
+                local dfrenownMatch
+                local dfrenown = _G.C_MajorFactions.GetMajorFactionData(dfrenownID).renownLevel
+				if (dfrenownLevel:sub(1, 1) == "-") then
+                    dfrenownLevel = dfrenownLevel:sub(2)
+                    dfrenownFlip = true
+                end
+                if dfrenown >= tonumber(dfrenownLevel) then
+                    dfrenownMatch = true
+                end
+                if dfrenownFlip then
+                    dfrenownMatch = not dfrenownMatch
+                end
+                if dfrenownMatch then
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] met condition with ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
+                else
+					if dfrenownFlip then
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is greater than ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
+					else
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is less than ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
+					end
+					skip = true
+                end
+            end
 
             if WoWPro.renown and WoWPro.renown[guideIndex] and WoWPro.RETAIL then
 				local renownID = WoWPro.renown[guideIndex]

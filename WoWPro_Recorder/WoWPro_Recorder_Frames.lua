@@ -12,40 +12,32 @@ local dialog = _G.LibStub("AceConfigDialog-3.0")
 local initSpecs = {}
 
 -- [0] UI Name , [1] UI Desc, [2]UI Var, [3] guide Var, Register ordinal
-if WoWPro.Recorder.Advanced then
-	initSpecs["Leveling"] = {
-		{ "GID:", "The ID for this guide.", "GID" , nil},
-		{ "Author Name:", "The author of the original guide.", "Author" , "author"},
-		{ "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
-		{ "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
-		{ "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
-		{ "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
-		{ "Faction:", "The Faction for the guide", "Faction", "faction"}
-	}
-	initSpecs["Dailies"] = {
-		{ "GID:", "The ID for this guide.", "GID" , nil},
-		{ "Author Name:", "The author of the original guide.", "Author" , "author"},
-		{ "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
-		{ "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
-		{ "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
-		{ "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
-		{ "Faction:", "The Faction for the guide", "Faction", "faction"}
-	}
-	initSpecs["Achievements"] = {
-		{ "GID:", "The ID for this guide.", "GID" , nil },
-		{ "Author Name:", "The author of the original guide.", "Author" , "author" },
-		{ "Name:", "The Name for this guide.", "Name" , "name" },
-		{ "Zone Name:", "The zone where the guide takes place.", "Zone", "zone" },
-		{ "Category:", "The Category for the guide.", "Category", "category" },
-		{ "Subcategory:", "The subcategory for the guide.", "Subcategory"  , "sub" },
-	}
-else
-	initSpecs["Leveling"] = {{ "Guide Name:", "The name of your Guide.", "GID" , nil}}
-	initSpecs["Dailies"] = {{ "Guide Name:", "The name of your Guide.", "GID" , nil}}
-	initSpecs["Achievements"] = {{ "Guide Name:", "The name of your Guide.", "GID" , nil},
-		{ "Category:", "The Category for the guide.", "Category", "category" },
-		{ "Subcategory:", "The subcategory for the guide.", "Subcategory"  , "sub" }}
-end
+initSpecs["Leveling"] = {
+    { "GID:", "The ID for this guide.", "GID" , nil},
+    { "Author Name:", "The author of the original guide.", "Author" , "author"},
+    { "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
+    { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
+    { "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
+    { "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
+    { "Faction:", "The Faction for the guide", "Faction", "faction"}
+}
+initSpecs["Dailies"] = {
+    { "GID:", "The ID for this guide.", "GID" , nil},
+    { "Author Name:", "The author of the original guide.", "Author" , "author"},
+    { "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
+    { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
+    { "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
+    { "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
+    { "Faction:", "The Faction for the guide", "Faction", "faction"}
+}
+initSpecs["Achievements"] = {
+    { "GID:", "The ID for this guide.", "GID" , nil },
+    { "Author Name:", "The author of the original guide.", "Author" , "author" },
+    { "Name:", "The Name for this guide.", "Name" , "name" },
+    { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone" },
+    { "Category:", "The Category for the guide.", "Category", "category" },
+    { "Subcategory:", "The subcategory for the guide.", "Subcategory"  , "sub" },
+}
 WoWPro.Recorder.initSpecs = initSpecs
 
 local function CreateInitSpecMenu(module)
@@ -127,26 +119,24 @@ local function CreateInitSpecMenu(module)
                 end
             end
 
-			if not WoWPro.Recorder.Advanced  then
-				local UnitFaction = WoWPro.Faction
-				if UnitFaction == "Horde" then
-					WoWPro.Recorder.CurrentGuide["Zone"] = "Orgrimmar"
-					WoWPro.Recorder.CurrentGuide["Faction"] = "Horde"
-				else
-					WoWPro.Recorder.CurrentGuide["Zone"] = "Stormwind City"
-					WoWPro.Recorder.CurrentGuide["Faction"] = "Alliance"
-				end
-				WoWPro.Recorder.CurrentGuide["Author"] = "Tester"
-				WoWPro.Recorder.CurrentGuide["NextGID"] = "ChromieTime"
-				WoWPro.Recorder.CurrentGuide["StartLvl"] = "1"
-				WoWPro.Recorder.CurrentGuide["EndLvl"] = "60"
-				optArgs["zone"] = WoWPro.Recorder.CurrentGuide["Zone"]
-				optArgs["author"] = WoWPro.Recorder.CurrentGuide["Author"]
-				optArgs["nextGID"] = WoWPro.Recorder.CurrentGuide["NextGID"]
-				optArgs["startlevel"] = WoWPro.Recorder.CurrentGuide["StartLvl"]
-				optArgs["endlevel"] = WoWPro.Recorder.CurrentGuide["EndLvl"]
-				optArgs["faction"] = WoWPro.Recorder.CurrentGuide["Faction"]
-			end
+            local UnitFaction = WoWPro.Faction
+            if UnitFaction == "Horde" then
+                WoWPro.Recorder.CurrentGuide["Zone"] = "Orgrimmar"
+                WoWPro.Recorder.CurrentGuide["Faction"] = "Horde"
+            else
+                WoWPro.Recorder.CurrentGuide["Zone"] = "Stormwind City"
+                WoWPro.Recorder.CurrentGuide["Faction"] = "Alliance"
+            end
+            WoWPro.Recorder.CurrentGuide["Author"] = "WoWPro Team"
+            WoWPro.Recorder.CurrentGuide["NextGID"] = "ChromieTime"
+            WoWPro.Recorder.CurrentGuide["StartLvl"] = "1"
+            WoWPro.Recorder.CurrentGuide["EndLvl"] = "60"
+            optArgs["zone"] = WoWPro.Recorder.CurrentGuide["Zone"]
+            optArgs["author"] = WoWPro.Recorder.CurrentGuide["Author"]
+            optArgs["nextGID"] = WoWPro.Recorder.CurrentGuide["NextGID"]
+            optArgs["startlevel"] = WoWPro.Recorder.CurrentGuide["StartLvl"]
+            optArgs["endlevel"] = WoWPro.Recorder.CurrentGuide["EndLvl"]
+            optArgs["faction"] = WoWPro.Recorder.CurrentGuide["Faction"]
 
             WoWPro.Recorder:InitGuide(WoWPro.Recorder.CurrentGuide.GID,WoWPro.Recorder.CurrentGuide.Type, optArgs)
             WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
