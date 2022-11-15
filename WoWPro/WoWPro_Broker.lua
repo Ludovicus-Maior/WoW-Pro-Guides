@@ -1029,6 +1029,12 @@ function WoWPro:RowUpdate(offset)
         if WoWPro.noncombat[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
             currentRow.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
             currentRow.action.tooltip.text:SetText("No Combat")
+        elseif WoWPro.hand[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
+            currentRow.action:SetTexture(WoWPro.actiontypes["HAND TAG"])
+            currentRow.action.tooltip.text:SetText(WoWPro.actionlabels["HAND TAG"])
+        elseif WoWPro.inspect[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
+            currentRow.action:SetTexture(WoWPro.actiontypes["INSPECT TAG"])
+            currentRow.action.tooltip.text:SetText(WoWPro.actionlabels["INSPECT TAG"])
         elseif WoWPro.lootitem[k] and WoWPro.action[k] == "C" then
             currentRow.action:SetTexture(WoWPro.actiontypes['l'])
             currentRow.action.tooltip.text:SetText("Loot Complete")
