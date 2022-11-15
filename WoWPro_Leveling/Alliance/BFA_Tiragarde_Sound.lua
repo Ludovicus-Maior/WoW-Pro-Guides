@@ -27,7 +27,7 @@ A Suspicious Shipments|QID|47486|M|76.83,43.43|N|From Cagney.|PRE|47485|
 A Labor Dispute|QID|47487|M|76.83,43.43|N|From Cagney.|PRE|47485|
 A Small Haulers|QID|47488|M|76.82,43.49|N|From Olive.|PRE|47485|
 C Labor Dispute|QID|47487|M|78.77,78.92|S|N|Kill the mobs that attack you as you go about the other objectives (as if you had a choice.)|EAB|
-A Message from the Management|QID|50573|M|79.02,45.77|N|from the posted notice.|PRE|47485|
+A Message from the Management|QID|50573|M|79.02,45.77|N|from the Posted Notice.|PRE|47485|
 C Suspicious Shipments|QID|47486|M|80.76,48.86|NC|S|N|Click on the glowing boxes to inspect them.|
 C Small Haulers|QID|47488|M|78.77,78.92|CHAT|S|N|Tell the urchins they are free to go.|
 K Taskmaster Williams|ACTIVE|50573|M|79.18,46.69|QO|2|T|Taskmaster Williams|N|Kill and loot Taskmaster Williams inside this warehouse.|
