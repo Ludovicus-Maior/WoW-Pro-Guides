@@ -2694,8 +2694,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 			end
 
 			if WoWPro.serverdate and WoWPro.serverdate[guideIndex] then
-				local serverdate = WoWPro.serverdate[guideIndex]
-				local epoch = _G.C_DateAndTime.GetServerTimeLocal()
+				local serverdate, _ = (";"):split(WoWPro.serverdate[guideIndex])
+				local epoch = _G.GetServerTime()
 				local dateFlip
 				local timeMet
 				if (serverdate:sub(1, 1) == "-") then

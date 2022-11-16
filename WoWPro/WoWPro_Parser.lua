@@ -837,6 +837,8 @@ function WoWPro.ParseSteps(steps)
     local mycovenant = ""
     local myFaction = WoWPro.Faction:upper()
     local zone = WoWPro.Guides[GID].zone
+	local guidelock = false
+	local guidetime
 
     if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
         mycovenant = _G.C_Covenants.GetActiveCovenantID()
@@ -867,7 +869,34 @@ function WoWPro.ParseSteps(steps)
         text = text:trim()
         if text ~= "" then
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
-            local gender, faction, ms, tof = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|")
+            local gender, faction, ms, tof, serverdate = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|"), text:match("|DATE|([^|]*)|?")
+			if guidelock then
+				text = text .. "DATE|" .. guidetime .. "|"
+			end
+			if serverdate then
+				local epochttime, timelock = (";"):split(serverdate)
+				if timelock == "1" then
+					local epoch = _G.GetServerTime()
+					local dateFlip
+					local timeMet
+					if (epochttime:sub(1, 1) == "-") then
+							epochttime = epochttime:sub(2)
+							dateFlip = true
+					 end
+					if tonumber(epochttime) >= epoch then
+						timeMet = true
+					end
+					if timeMet == dateFlip then
+						guidelock = true
+						if dateFlip then
+							guidetime = epochttime
+						else
+							guidetime = "-" .. epochttime
+						end
+					end
+				end
+			end
+
             if class then
                 -- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
                 class = class:gsub(" ", ""):upper()
