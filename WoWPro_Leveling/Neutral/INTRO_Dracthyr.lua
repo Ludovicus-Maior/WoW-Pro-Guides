@@ -160,10 +160,6 @@ T Expeditionary Coordination|QID|66589|M|22.83,55.72|Z|84; Stormwind City|N|Turn
 A Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|From Khadgar.|FACTION|Alliance|
 C Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|Speak to Khadgar.|CHAT|FACTION|Alliance|
 T Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
-A To the Dragon Isles!|QID|67700|M|22.89,55.61|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
-C To the Dragon Isles!|QID|67700|M|22.44,56.26|Z|84; Stormwind City|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
-C To the Dragon Isles!|QID|67700|M|82.07,31.57|Z|2022;The Waking Shores|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
-T To the Dragon Isles!|QID|67700|M|82.12,31.84|Z|2022;The Waking Shores|N|To Toddy Whiskers.|FACTION|Alliance|
 ; Horde quests
 A Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|From Spiritwalker Ebonhorn.|FACTION|Horde|
 T Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
@@ -194,9 +190,5 @@ T The Dark Talons|QID|72256|M|55.84,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|
 A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.84,12.63|Z|1|N|From Archmage Khadgar.|FACTION|Horde|
 C Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
 T Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|N|To Ebyssian.|FACTION|Horde|
-A To the Dragon Isles!|QID|65444|PRE|65439|M|55.84,12.63|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
-C To the Dragon Isles!|QID|65444|M|55.98,13.15|Z|1|QO|1|NC|N|Wait for the Defiant Dragonscale at the zeppelin tower.|FACTION|Horde|
-C To the Dragon Isles!|QID|65444|M|80.79,27.86|Z|2022;The Waking Shores|QO|2|NC|N|Ride the Defiant Dragonscale to Dragon Isles.|FACTION|Horde|
-T To the Dragon Isles!|QID|65444|M|80.61,27.63|Z|2022;The Waking Shores|N|To Naleidea Rivergleam.|FACTION|Horde|
 ]]
 end)

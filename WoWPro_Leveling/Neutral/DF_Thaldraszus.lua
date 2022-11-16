@@ -5,7 +5,7 @@ WoWPro:GuideLevels(guide,60, 70, 68)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
+N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currently not active, please come back after 3pm PST on 11/28.|
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F South Hold Gate|N|This one is inside one of the towers, but not the highest tower, the one just below it.|M|35.60,85.66|Z|2025;Thaldraszus!Dragonflight|ACH|16100|
 ;PLACED F Valdrakken|N|Above the highest tower over Valdrakken.|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|ACH|16101|
@@ -24,7 +24,7 @@ return [[
 
 A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|
 C Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|This comment is really just here to see if RARE tag will suppress the comment!|
-t Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|Bonus Objective - Autocompleted.|
+t Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autocompleted.|
 F South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower|ACH|16100|
 f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|
 f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2025|N|At Aluri.|
@@ -60,7 +60,8 @@ C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|NC|N|Examine the Storage Che
 C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|NC|N|Pick up the goblet.|
 h Valdrakken|QID|72192|M|47.26,46.47|Z|2112|N|At Tithris.|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|
-A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|;REN 7 valdrakken
+;REN 7 valdrakken
+A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
@@ -68,7 +69,8 @@ T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.|
 T Eyes and Ears|QID|66166|M|54.72,47.33|Z|2112|N|To Captain Drine.|
 A Southern Exposure|QID|66167|PRE|66166&66163|M|54.89,47.01|Z|2112|N|From Captain Drine.|
 T Orientation: Valdrakken|QID|72406|M|58.21,35.09|Z|2112|N|To Unatos.|
-A Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|From Jyhanna.|; quest not offered, must have PRE?
+; quest not offered, must have PRE?
+A Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|From Jyhanna.|
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|U|194441|N|Find Lubbins.|
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025|QO|2|NC|U|194441|N|Help Lubbins.|
 A An Expert Opinion|QID|70697|PRE|70647|M|10.41,58.26|Z|2112|N|From Jyhanna.|
@@ -185,7 +187,7 @@ F Stormshroud Peak Glyph|QID|99999|N|On top of the mountain. Way, Way, Up!|M|45.
 F Gelikyr Overlook Glyph|QID|99999|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|ACH|16666|
 T Look to the Overlook|QID|71179|M|52.66,67.30|Z|2025|N|To Commander Thadezus.|
 A What Once Was Ours|QID|66468|PRE|71179|M|52.66,67.30|Z|2025|N|From Commander Thadezus.|
-C What Once Was Ours|QID|66468|M|53.57,63.91;53.91,63.94|CR|Z|2025|N|Work your way down the path, until you get to the first waypoint, then up the stairs to the tower there. Kill Primalists and and destroy totems as you go.|
+C What Once Was Ours|QID|66468|M|53.57,63.91;53.91,63.94|CS|Z|2025|N|Work your way down the path, until you get to the first waypoint, then up the stairs to the tower there. Kill Primalists and and destroy totems as you go.|
 T What Once Was Ours|QID|66468|M|54.44,65.15|Z|2025|N|To Sharnax.|
 A The Forward Push|QID|66470|PRE|66468|M|54.44,65.15|Z|2025|N|From Sharnax.|
 A Prime Planning|QID|66471|PRE|66468|M|54.44,65.15|Z|2025|N|From Sharnax.|

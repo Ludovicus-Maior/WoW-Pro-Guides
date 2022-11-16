@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
+N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currently not active, please come back after 3pm PST on 11/28.|
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;F PLACED Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
 ;F Ohn'ahra's Roost|N|Over the Eagle statue.|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16054|
@@ -420,7 +420,8 @@ C Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|CHAT|N
 T Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|To Initiate Radiya.|
 
 H Maruukai|ACTIVE|66259|M|PLAYER|N|Hearth back to Maruukai. If you hearth is set elsewhere or not available, there is a flight path here, or you can fly/run.|
-A Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|;REN3? not sure what triggered this
+;REN3? not sure what triggered this
+A Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|
 T Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
 C A Storm of Ill Tidings|QID|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to the Khanam Matra (top floor).|
 T A Storm of Ill Tidings|QID|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
@@ -579,8 +580,8 @@ A To the Azure Span|QID|65686|PRE|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|
 
 ;T A Gift for Miguel|QID|67100|M|71.75,81.21|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|-this is in the Waking shore guide
 ;A Professionally Equipped|QID|67137|PRE|67100|M|71.93,81.03|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.| - this is in the waking shore guide
-A Targeted Ads|QID|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|;removed the PRE cuz it was wrong. IDK the correct one
-A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|;removed the PRE cuz it was wrong. IDK the correct one
+A Targeted Ads|QID|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|
 C A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Azley about the Artisan's Consortium rules.|
 T A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|To Azley.|
 ;A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|;perhaps based on mining skill,. mines about 40

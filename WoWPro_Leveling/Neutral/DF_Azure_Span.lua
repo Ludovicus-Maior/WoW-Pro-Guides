@@ -5,7 +5,7 @@ WoWPro:GuideLevels(guide,60, 70, 65)
 WoWPro:GuideNextGuide(guide, 'Thaldraszus')
 WoWPro:GuideSteps(guide, function()
 return [[
-
+N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currently not active, please come back after 3pm PST on 11/28.|
 ;Renown stuff -- I think since they are all based on someone showing up whereever you are, they should be put at the top of the guide, once we have the REN stuff worked out since everyone will receive those quests at a little bit diff time based on what they have done to earn REN.
 ;Rowie offers a quest at Tuskaar 3 REN also, its down below, but forgot to add to this section
 ;Rowie showed up again and offered me Tuskarr Fishing Gear|QID|71230|LEAD|70871| just after I got Tuskarr REN 5
@@ -395,7 +395,7 @@ A The Blue Dragon Oathstone|QID|66015|PRE|70041|M|78.22,33.34|Z|2024|N|From Kale
 ;R Rhonin's Shield|AVAILABLE|68639|M|65.81,25.32|Z|2024|N|Use the updraft to get a headstart for you flight back to Rhonin's Shield.|
 ;A Field Mages|QID|71235|PRE|70041|M|65.81,25.32|Z|2024|N|From Drok Scrollstabber.|RANK|2|
 ;T Field Mages|QID|71235|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
-A Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|RANK|2|; commented out Field mages and removed the PRE, as they werent around right now, and this is available without it.
+A Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|RANK|2|
 A Mossing the Mark|QID|68641|M|63.61,28.82|Z|2024|N|From Steria Duskgrove.|RANK|2|
 C Prowling Polar Predators|QID|68639|M|62.94,31.12|Z|2024|N|Kill the Infected Bears.|S|
 C Mossing the Mark|QID|68641|M|62.94,31.12|Z|2024|N|Click the moss to pick it up. If its all been picked clean, there is a nother patch east of here just a little ways.|
@@ -447,7 +447,7 @@ T What the Guardian Beholds|QID|70859|M|67.30,44.34|Z|2024|N|To Alia Sunsoar.|
 A Whispered Fragments|QID|70931|PRE|70859|M|67.30,44.34|Z|2024|N|From Alia Sunsoar.|
 A What Valthrux Once Was|QID|70937|PRE|70859|M|67.33,44.37|Z|2024|N|From To'tik.|
 C Whispered Fragments|QID|70931|M|70.07,44.08|Z|2024|N|Kill the plunderers and loot Whispering Fragments as you find the journals.|S|
-C What Valthrux Once Was|QID|70937|M|69.53,44.12|Z|2024|QO|4|NC|N|Pick up the Discarded Journal.
+C What Valthrux Once Was|QID|70937|M|69.53,44.12|Z|2024|QO|4|NC|N|Pick up the Discarded Journal.|
 C What Valthrux Once Was|QID|70937|M|70.18,43.28|Z|2024|QO|1|NC|N|Pick up the Crumbling Tablet.|
 C What Valthrux Once Was|QID|70937|M|70.01,46.09|Z|2024|QO|3|NC|N|Pick up the Sundered Flame Journal.|
 C What Valthrux Once Was|QID|70937|M|70.24,46.17|Z|2024|QO|2|NC|N|Go up a floor in the same tower to pick up the Scratched Tablet.|
@@ -480,7 +480,8 @@ K Snoll the Icebreaker|ACTIVE|66718|M|57.89,44.99|Z|2024|QO|2|N|Snoll the Icebre
 C Snowball Effect|QID|66703|M|57.66,41.59|Z|2024|N|Kill and loot the shamans to get totems.|
 T Snowball Effect|QID|66703|M|58.36,42.05|Z|2024|N|To Frostbite.|
 A Frostbite: Causes and Symptoms|QID|67050|PRE|66703|M|58.36,42.05|Z|2024|N|From Frostbite.|
-A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|;i got a minute or so after after turning 70 (not here-earlier), but i dont think that was the trigger, Rowie follows you areound until you accept it.-REN4?
+;i got a minute or so after after turning 70 (not here-earlier), but i dont think that was the trigger, Rowie follows you areound until you accept it.-REN4?
+A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|
 C Frostbite: Causes and Symptoms|QID|67050|M|58.27,41.96|Z|2024|QO|1|NC|N|Click on the glowy outlines to place the Snowhide totems.|
 C Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|QO|1|NC|N|Time to finish up disrupting if you plan to.|US|
 t Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|N|Bonus Objective - Autocompleted.|
@@ -612,7 +613,8 @@ F Iskaara|ACTIVE|71014|M|65.38,16.35|Z|2024|N|At Taelmyr Blazewing.|RANK|3|
 A Cooking Utensils|QID|70939|M|13.57,48.68|Z|2024|N|At Lil Ki.|RANK|2|
 T Fishing Holes|QID|70941|M|13.94,49.24|Z|2024|N|To Nunvuq.|
 T Tuskarr Fishing Gear|QID|71230|M|12.82,49.18|N|To Tavio.|
-A Iskaaran Fishing Net|QID|70871|M|12.82,49.18|N|From Tavio.|RANK|3|;REN 7 Tuskarr
+;REN 7 Tuskarr
+A Iskaaran Fishing Net|QID|70871|M|12.82,49.18|N|From Tavio.|RANK|3|
 C Iskaaran Fishing Net|QID|70871|QO|1|M|13.55,50.20|NC|N|Pick up the Sea Kelp in town.|
 C Iskaaran Fishing Net|QID|70871|QO|2|M|13.26,47.22|NC|N|Pick up the Stones with holes just outside of town along the shore.|
 C Iskaaran Fishing Net|QID|70871|QO|3|M|12.82,49.18|NC|N|Open the crafting menu with Tavio.|
@@ -706,7 +708,7 @@ C The Heart of the Deck|QID|66846|M|18.76,24.43|Z|2024|CHAT|N|Offer to help him 
 T The Heart of the Deck|QID|66846|M|18.77,24.45|Z|2024|N|To Mysterious Apparition.|
 
 R Creektooth Den|AVAILABLE|65279|M|16.21,20.89|Z|2024|N|Go west out of the camp and then turn north at the crossroad to find Creektooth Den.|RANK|3|
-A By Royal Decree|QID|65279|M|16.21,20.89|Z|2024|N|From Gnoll Mon-Ark.|RANK|3|;may have a pre, prolly something in Iskaara.
+A By Royal Decree|QID|65279|M|16.21,20.89|Z|2024|N|From Gnoll Mon-Ark.|RANK|3|
 A Rot Rancher|QID|65306|M|16.21,20.89|Z|2024|N|From Gnoll Mon-Ark.|RANK|3|
 C By Royal Decree|QID|65279|M|14.84,21.02|Z|2024|S|N|Kill the Brackenhide Warriors as you go, the Shamans are deeper in where the goo is.|
 C Rot Rancher|QID|65306|M|13.88,21.19|Z|2024|NC|N|Pick up thhe smelly ooze, hanging in bags and also drops in small quantities from the errant rots.|
@@ -770,7 +772,7 @@ C Loose Ends|QID|71135|M|59.05,44.25|Z|2024;The Azure Span|QO|1|NC|N|Click the c
 C Loose Ends|QID|71135|M|58.89,44.16|Z|2024;The Azure Span|QO|2|N|Kill the two gnolls behind him first to get rid of the shield. Then, kill Frostbite.|
 T Loose Ends|QID|71135|M|58.78,34.90|Z|2024;The Azure Span|N|To Old Grimtusk.|
 
-R The Fallen Course|ACTIVE|66244|M|56.8,15.5|Z|2024|N|And we are off to Thaldraszus
+R The Fallen Course|ACTIVE|66244|M|56.8,15.5|Z|2024|N|And we are off to Thaldraszus.|
 R South Hold Gate|ACTIVE|66244|M|37.6,84.7|Z|2025|N|Fly across the broken bridge to enter Thaldraszus.|
 ]]
 end)
