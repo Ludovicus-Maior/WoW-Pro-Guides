@@ -3,6 +3,7 @@ WoWPro:GuideName(guide,"Dracthyr Intro")
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideSort(guide, 19)
 WoWPro:GuideLevels(guide,58, 60)
+WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Zone Ids for this guide
