@@ -24,8 +24,9 @@ return [[
 ;PLACED F Rusza'thar Reach|N|Floating above the tower.|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16062|
 ;PLACED F Rubyscale Outpost|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 
-A Into the Plains|QID|65779|PRE|65795|M|48.27,88.67|Z|2022|N|From Ambassador Taurasza.|
-;A Into the Plains|QID|65779|PRE|72267|M|48.27,88.68|Z|2022;The Waking Shores|N|From Ambassador Taurasza.|;I have no idea what 72267 quest is, wowhead doesnt have it neither does ATT.
+A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022|N|From Alexstrasza the Life-Binder.|
+T Next Steppes|QID|65795|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza. You can run or glide on your dragon to get to him.|
+A Into the Plains|QID|65779|PRE|65795^72267|M|48.27,88.67|Z|2022|N|From Ambassador Taurasza.|
 $ Rubyscale Outpost Glyph|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 T Into the Plains|QID|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Proving Oneself|QID|65780|PRE|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
