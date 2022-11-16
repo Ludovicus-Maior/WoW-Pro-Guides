@@ -614,7 +614,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     if WoWProCharDB.EnableGrailBreadcrumbs and WoWPro.leadin[i] and WoWPro.action[i] == "A" and WoWPro.DebugLevel > 0 then
         local new_leadin = WoWPro.GrailBreadcrumbsFor(WoWPro.QID[i])
         if new_leadin then
-            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦ but has  LEAD¦%s¦ .",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin)
+            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦ but has LEAD¦%s¦ .",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin, WoWPro.leadin[i])
         end
         WoWPro.leadin[i] = new_leadin
     end
