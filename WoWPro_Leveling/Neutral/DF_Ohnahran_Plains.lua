@@ -498,8 +498,8 @@ T Stormbreaker|QID|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A The Isle of Emerald|QID|66336|PRE|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 T The Isle of Emerald|QID|66336|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A Renewal of Vows|QID|66783|PRE|66336|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-C Renewal of Vows|QID|66783|QO|1|M|22.29,50.88;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Sansok Khan give a trophy from her first hunt.\nPick up the spear and give it to Merithra.|
-C Renewal of Vows|QID|66783|QO|2|M|22.38,51.04;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Tegari that she give a feather.\nPick up the feather and take it to Merithra.|
+C Renewal of Vows|QID|66783|QO|1|M|22.29,50.88;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Sansok Khan give a trophy from her first hunt.\nTake the spear and bring it to Merithra.|
+C Renewal of Vows|QID|66783|QO|2|M|22.38,51.04;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Tegari that she give a feather.\nTake the feather and bring it to Merithra.|
 C Renewal of Vows|QID|66783|QO|3|M|22.33,50.94;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Khanam Matra offer her blood.\nTake the cup of blood and bring it to Merithra.|
 C Renewal of Vows|QID|66783|QO|4|M|22.13,50.98;22.33,50.94|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Take the Everblooming Soil from Merithra and bring it to Khanam Matra.|
 T Renewal of Vows|QID|66783|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Merithra.|
