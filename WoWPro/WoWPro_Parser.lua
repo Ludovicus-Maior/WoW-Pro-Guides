@@ -839,7 +839,7 @@ function WoWPro.ParseSteps(steps)
     local zone = WoWPro.Guides[GID].zone
 	local guidelock = false
 	local guidelockdetected = false
-	
+
     if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
         mycovenant = _G.C_Covenants.GetActiveCovenantID()
 		if mycovenant == 1 then
