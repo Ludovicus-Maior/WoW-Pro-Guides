@@ -38,8 +38,9 @@ C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|84|CHAT|N|Speak with Archmage 
 C Whispers on the Winds|QID|65439|M|55.93,12.63|Z|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
 T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84|N|To Wrathion.|FACTION|Alliance|
 T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1|N|To Ebyssian.|FACTION|Horde|
-A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
-A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
+N Wait for November 28th|N|The rest of this guide will release when Dragon Flight drops.|DATE|-1669676400|
+A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|DATE|1669676400|
+A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|DATE|1669676400|
 C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|84|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
 C To the Dragon Isles!|QID|65444|M|55.95,13.02|Z|1|QO|1|NC|N|Wait for the Defiant Dragonscale at Durotar Zepplin Tower.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
@@ -138,7 +139,7 @@ A Time for a Reckoning|QID|65991|PRE|65989&65990|M|71.20,40.77|Z|2022|N|From Com
 A Erstwhile Ecologists|QID|72122|PRE|65989&65990|M|71.11,40.46|Z|2022|N|From Mender Eskros.|RANK|2|
 T Erstwhile Ecologists|QID|72122|M|74.43,42.15|Z|2022|N|To Ecologist Iskha.|
 A A Scalpel of a Solution|QID|66105|PRE|72122|M|74.41,42.12|Z|2022|N|From Ecologist Iskha.|RANK|2|
-A Wildlife Rescue|QID|66107|M|74.49,42.17|Z|2022|N|From Ecologist Tharu.|RANK|2|
+A Wildlife Rescue|QID|66107|PRE|72122|M|74.49,42.17|Z|2022|N|From Ecologist Tharu.|RANK|2|
 C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|H|N|Rescue wildlife.|S|
 C A Scalpel of a Solution|QID|66105|M|75.87,48.34|Z|2022|N|Slay Rampaging Winds and Waters while you go about rescuing the wildlife.|
 C Wildlife Rescue|QID|66107|M|76.16,43.05|Z|2022|H|N|Finish rescuing wildlife.|US|
@@ -231,7 +232,7 @@ C Stay a While|QID|70132|M|57.82,66.79|Z|2022|EAB|QO|1|NC|N|Use the Extra Action
 C Stay a While|QID|70132|M|57.82,66.81|Z|2022|QO|2|CHAT|N|Listen to Veritistrasz's Stories.|
 T Stay a While|QID|70132|M|57.85,66.80|Z|2022|N|To Veritistrasz.|
 A Memories|QID|70134|PRE|70132|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
-A Artisan's Courier|QID|67564|M|57.93,68.26|Z|2022|N|From Haephesta.|RANK|2|
+A Artisan's Courier|QID|67564|M|57.93,68.26|Z|2022|N|From Haephesta.|RANK|2|DATE|1669676400|
 f Ruby Lifeshrine|ACTIVE|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
@@ -268,18 +269,18 @@ T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz|
 C Return to the Ruby Lifeshrine|QID|68799|M|75.02,55.57|Z|2022|V|N|Hop on Relastrasza for a ride into the Skytop launch tower.|
 
-N This next section is a tour around the zone collection Dragonriding Glyphs. \nIf you are not interested in making your dragon better just skip over them.|ACH|16575|
-$ Skytop Observatory Tower|QID|99999|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|N|Over the tower.|ACH|15985|
-$ Flashfrost Enclave|QID|99999|M|58.10,78.63|Z|2022;The Waking Shores!Dragonflight|N|Just above the ground.|ACH|16669|
-$ Ruby Life Pools Peaks|QID|99999|M|54.5,74.2|Z|2022;The Waking Shores!Dragonflight|N|Over the hill top.|ACH|15988|
-$ Obsidian Bulwark|QID|99999|M|41.0,72.0|Z|2022;The Waking Shores!Dragonflight|N|Floating above the mountain pillar.|ACH|15987|
-$ Obsidian Throne|QID|99999|M|21.0,51.0|Z|2022;The Waking Shores!Dragonflight|N|Behind the tower floating over the lava.|ACH|16053|
-$ The Overflowing Spring|QID|99999|M|46.4,52.|Z|2022;The Waking Shores!Dragonflight|N|Over the mountain top.|ACH|15989|
-$ Crumbling Life Archway|QID|99999|M|57.6,55.0|Z|2022;The Waking Shores!Dragonflight|N|Inside the actual archway, at the top of it.|ACH|15991|
-$ Dragonheart Outpost|QID|99999|M|69,46|Z|2022;The Waking Shores!Dragonflight|N|Inside the broken tower, around mid level.|ACH|16051|
-$ Wingrest Embassy|QID|99999|M|75.0,37.0|Z|2022;The Waking Shores!Dragonflight|N|On the east side of the tower, look around it's base.|ACH|15986|
-$ Scalecracker Peak|QID|99999|M|73.2,20.0|Z|2022;The Waking Shores!Dragonflight|N|This one is on the peak of the mountan. This one is tough to get, if you have patience use your vigor to find a place to land to regen.|ACH|16052|
-$ Life-Binder Observatory|QID|99999|M|52.68,17.19|Z|2022;The Waking Shores!Dragonflight|N|Over the tower.|ACH|15990|
+N This next section is a tour around the zone collection Dragonriding Glyphs. \nIf you are not interested in making your dragon better just skip over them.|ACH|16575|DATE|1669676400|
+$ Skytop Observatory Tower|QID|99999|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|N|Over the tower.|ACH|15985|DATE|1669676400|
+$ Flashfrost Enclave|QID|99999|M|58.10,78.63|Z|2022;The Waking Shores!Dragonflight|N|Just above the ground.|ACH|16669|DATE|1669676400|
+$ Ruby Life Pools Peaks|QID|99999|M|54.5,74.2|Z|2022;The Waking Shores!Dragonflight|N|Over the hill top.|ACH|15988|DATE|1669676400|
+$ Obsidian Bulwark|QID|99999|M|41.0,72.0|Z|2022;The Waking Shores!Dragonflight|N|Floating above the mountain pillar.|ACH|15987|DATE|1669676400|
+$ Obsidian Throne|QID|99999|M|21.0,51.0|Z|2022;The Waking Shores!Dragonflight|N|Behind the tower floating over the lava.|ACH|16053|DATE|1669676400|
+$ The Overflowing Spring|QID|99999|M|46.4,52.|Z|2022;The Waking Shores!Dragonflight|N|Over the mountain top.|ACH|15989|DATE|1669676400|
+$ Crumbling Life Archway|QID|99999|M|57.6,55.0|Z|2022;The Waking Shores!Dragonflight|N|Inside the actual archway, at the top of it.|ACH|15991|DATE|1669676400|
+$ Dragonheart Outpost|QID|99999|M|69,46|Z|2022;The Waking Shores!Dragonflight|N|Inside the broken tower, around mid level.|ACH|16051|DATE|1669676400|
+$ Wingrest Embassy|QID|99999|M|75.0,37.0|Z|2022;The Waking Shores!Dragonflight|N|On the east side of the tower, look around it's base.|ACH|15986|DATE|1669676400|
+$ Scalecracker Peak|QID|99999|M|73.2,20.0|Z|2022;The Waking Shores!Dragonflight|N|This one is on the peak of the mountan. This one is tough to get, if you have patience use your vigor to find a place to land to regen.|ACH|16052|DATE|1669676400|
+$ Life-Binder Observatory|QID|99999|M|52.68,17.19|Z|2022;The Waking Shores!Dragonflight|N|Over the tower.|ACH|15990|DATE|1669676400|
 
 H Ruby Lifeshrine|ACTIVE|68799|M|61.90,73.87|Z|2022|N|Hearth or you can just glide back to Alexstrasza the Life-Binder on your dragon, this will take between 2 and 3 vigor at this distance.|
 T Return to the Ruby Lifeshrine|QID|68799|M|62.35,73.02|Z|2022|N|To Alexstrasza the Life-Binder.|
@@ -447,7 +448,7 @@ A Out For Delivery|QID|66963|PRE|66123|M|48.48,78.86|Z|2022|N|From Hauler Bennet
 T Out For Delivery|QID|66963|M|48.54,82.68|Z|2022|N|To Cataloger Wulferd.|
 A Amateur Protography|QID|66524|PRE|66963|M|48.49,82.67|Z|2022|N|From Cataloger Wulferd.|RANK|2|
 f Dragonscale Basecamp|ACTIVE|66524|M|47.9,83.33|Z|2022|N|At Art Raskins.|
-A Orientation: Dragonscale Basecamp|QID|72397|M|47.89,82.41|Z|2022|N|From Naleidea Rivergleam.|RANK|2|
+A Orientation: Dragonscale Basecamp|QID|72397|PRE|66963|M|47.89,82.41|Z|2022|N|From Naleidea Rivergleam.|RANK|2|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|1|M|47.92,82.09|Z|2022|CHAT|N|Rae'ana is the scholars supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|2|M|47.74,83.22|Z|2022|CHAT|N|Granpap Whiskers is the catalogers supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|3|M|47.32,83.41|Z|2022|CHAT|N|Pathfinder Jeb is the explorers supplier.|
@@ -510,9 +511,9 @@ A Theory in Practice|QID|69902|PRE|69900&69901|M|45.95,81.50|Z|2022|N|From Tyrgo
 C Theory in Practice|QID|69902|M|45.91,81.44|Z|2022|QO|1|H|N|Click on the whelpling.|
 C Theory in Practice|QID|69902|M|45.96,81.50|Z|2022|QO|2|CHAT|N|Pick a name any name.|
 T Theory in Practice|QID|69902|M|45.96,81.50|Z|2022|N|To Tyrgon.|
-A Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|From Ree'ana.|RANK|2|;dont know if this is pre on finishing quests in the area?, renown?
+A Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|From Ree'ana.|RANK|2|DATE|1669676400|;dont know if this is pre on finishing quests in the area?, renown?
 T Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|To Ree'ana.|
-A Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|REN|3|RANK|2|
+A Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|REN|3|RANK|2|DATE|1669676400|
 T Renown Supplies|QID|72024|M|47.11,82.59|Z|2022|N|To Cataloger Jakes.|
 ;t Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autocompleted.|
 R Obsidian Bulwark|ACTIVE|66079|M|47.7,67.1;42.47,66.82|CS|Z|2022|N|Mount up and head off to find Wrathion.|
