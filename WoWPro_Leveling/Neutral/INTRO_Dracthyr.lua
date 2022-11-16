@@ -18,7 +18,6 @@ C Awaken, Dracthyr|QID|64864|M|32.53,82.52|Z|2109; The War Creche|QO|4|NC|N|Azur
 T Awaken, Dracthyr|QID|64864|M|32.94,81.85|Z|2109; The War Creche|N|To Scalecommander Azurathel.|
 A Gear Up|QID|64865|PRE|64864|M|32.78,81.75|Z|2109; The War Creche|N|From Scalecommander Azurathel.|
 A Arcane Guardians|QID|64863|PRE|64864|M|33.01,80.70|Z|2109; The War Creche|N|From Dervishian.|
-$ Mysterious Wand|M|38.12,74.54|Z|2109; The War Creche|N|Grab the crystal aginst the wall, put it in the brazier. Loot the wand off the table for a blue magic buff.|ITEM|376213|
 C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N|Guardians or Constructs slain.|S|
 C Gear Up|QID|64865|M|34.48,61.64|Z|2109; The War Creche|QO|3|NC|N|Bundle of Rations collected.|
 C Gear Up|QID|64865|M|38.84,51.90|Z|2109; The War Creche|QO|2|NC|N|Crate of Warscales.|
