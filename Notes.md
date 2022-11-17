@@ -1,3 +1,43 @@
+# Release 2022.11.16.A
+## Bug Fixes
+* Target and Item keybinds now work in Combat!
+* Add support for qids in GOSSIP automation
+* Add some, ahem, fixes, for Professions
+* Tone down use of garish colors in buff display
+* Allow AutoLoad to  inhibit the terminal Onwards step
+* Fixed setting of WoWPro.stepcount, which resulted in wierd step counts
+* Fixed bugs in Leveling guide checks
+* Added special Campaign A/T icons
+* Fixed EndOfGuide detection when leveling guides have dailies
+* Fixed possible bug with flight ability detection when you did not have it
+* Added guide DragonFlight Renown/Reputation detection for better guides
+* Updated to HereBeDragons 2.11
+* Enhanced DATE tag for timelocked content control
+## Known Bugs
+* Switching to the correct options pane/subpane is wonky
+* Frame size settings are not preserved across reloads
+* Something I forgot
+
+
+## Guide Updates
+### Retail 
+* The last DF patch forced us to update EVERY retail guide, so I'm not going to guess on the scope
+* WorldEvents: WoWAnniversary touchup
+
+### Classic
+* No Classic guides were harmed during this release
+
+### WotLK
+* Alliance: Alliance 50-55, 55-60
+* Neutral:
+* Horde: Borean Tundra, Dragonblight, Grizzly Hills, Howling Fjord ZulDrak
+* Horde Note:  The newly fixed guide checker pointed out dozens of errors in various horde guides.  We will be looking at them all.
+
+### Professions
+* Classic: None
+* BC: None
+* Wrath: Enchanting
+
 # Release 2022.11.03.A
 ## Bug Fixes
 * Excess map pins are now gone
