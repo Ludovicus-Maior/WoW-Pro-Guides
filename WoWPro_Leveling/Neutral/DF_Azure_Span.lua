@@ -5,7 +5,6 @@ WoWPro:GuideLevels(guide,60, 70, 65)
 WoWPro:GuideNextGuide(guide, 'Thaldraszus')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currently not active, please come back after 3pm PST on 11/28.|
 ;Renown stuff -- I think since they are all based on someone showing up whereever you are, they should be put at the top of the guide, once we have the REN stuff worked out since everyone will receive those quests at a little bit diff time based on what they have done to earn REN.
 ;Rowie offers a quest at Tuskaar 3 REN also, its down below, but forgot to add to this section
 ;Rowie showed up again and offered me Tuskarr Fishing Gear|QID|71230|LEAD|70871| just after I got Tuskarr REN 5
@@ -36,12 +35,12 @@ A Arcane Detection|QID|67174|PRE|65686|M|41.22,35.88|Z|2024|N|From Miva Star-Eye
 C Arcane Detection|QID|67174|QO|1|M|41.39,35.697|Z|2024|NC|N|The Unassuming flask in next to the bedroll. Click it to examine.|
 C Arcane Detection|QID|67174|QO|2|M|41.41,35.79|Z|2024|NC|N|The Dusty teapot is in a basket next to the tent. Click it next.|
 C Arcane Detection|QID|67174|QO|3|M|41.23,36.40|Z|2024|NC|N|The Toy Boat is with a yound tuskaar. Click it too.|
-A WANTED: Gorger|QID|67177|PRE|65686|M|41.42,36.41|Z|2024|N|[color=ff8000]Elite: [/color]From Shala.||RANK|2|
+A WANTED: Gorger|QID|67177|PRE|65686|M|41.42,36.41|Z|2024|N|[color=ff8000]Elite: [/color]From Shala.|RANK|2|
 T Arcane Detection|QID|67174|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
 A How To Stop An Exploding Toy Boat|QID|67175|PRE|67174|M|41.22,35.88|Z|2024|N|From Miva Star-Eye.|RANK|2|
 C How To Stop An Exploding Toy Boat|QID|67175|QO|1|M|41.20,35.86|Z|2024|CHAT|N|Eplain the problem to Julk.|
 C How To Stop An Exploding Toy Boat|QID|67175|QO|2|M|41.19,35.90|Z|2024|NC|N|Pick up Miva's Dispelling Wand from the table.|
-C How To Stop An Exploding Toy Boat|QID|67175|QO|3|M|40.59,36.55|Z|2024|NC|N|Click on the boat to dispell the arcane magic.|
+C How To Stop An Exploding Toy Boat|QID|67175|QO|3|M|40.59,36.55|Z|2024|NC|N|Click on the boat to dispel the arcane magic.|
 K Gorger|ACTIVE|67177|M|40.09,37.39|Z|2024|N|Kill the big Thunderlizard.|T|Gorger|
 T How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
 T WANTED: Gorger|QID|67177|M|41.42,36.41|Z|2024|N|To Shala.|
@@ -57,13 +56,13 @@ A Assemble the Defenses|QID|67033|PRE|66228|M|46.69,39.76|Z|2024|N|From Noriko t
 A Preservation of Knowledge|QID|67035|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|
 A Supporting the Cobalt Assembly|QID|72784|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|RANK|2|
 C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024|NC|N|Beware of the bombardment. Pick the first device up here.|
-C Preservation of Knowledge|QID|67035|M|46.01,38.35|Z|2024|NC|N|Pick up the tomes in the pavilion.|
-C Assemble the Defenses|QID|67033|M|46.1,40.8;45.8,40.2|CS|Z|2024|NC|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
+C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024|NC|N|Pick up the tomes in the pavilion.|
+C Assemble the Defenses|QID|67033|M|46.07,40.81;45.85,40.17|CS|Z|2024|NC|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
 T Preservation of Knowledge|QID|67035|M|46.67,39.74|Z|2024|N|To Althanus.|
 T Assemble the Defenses|QID|67033|M|46.70,39.76|Z|2024|N|To Noriko the All-Remembering.|
 A Wrath of the Kirin Tor|QID|67036|PRE|67033&67035|M|46.69,39.76|Z|2024|N|From Noriko the All-Remembering.|
 f Camp Antonidas|ACTIVE|67036|M|46.71,39.58|Z|2024|N|At Steward Argalos.|
-C Wrath of the Kirin Tor|QID|67036|QO|1|M|46.31,38.85|Z|2024|V|N|Use the Arcane Blaster to shoot down the invading army.|
+C Wrath of the Kirin Tor|QID|67036|QO|1|M|46.32,38.85|Z|2024|V|N|Use the Arcane Blaster to shoot down all of the Drakes.|
 T Wrath of the Kirin Tor|QID|67036|M|46.64,40.15|Z|2024|N|To Noriko the All-Remembering.|
 A Meeting Kalecgos|QID|65688|PRE|67036|M|46.63,40.19|Z|2024|N|From Archmage Khadgar.|
 ;h Mage's Rest|QID|65688|M|46.94,40.34|Z|2024|N|At Arcanist Tysha.| - taking this out, because we don't use it.
@@ -117,24 +116,24 @@ R Azure Archives|ACTIVE|65688|M|40.92,55.01|CC|Z|2024|N|Fly back up the river or
 T Meeting Kalecgos|QID|65688|M|40.92,55.01|Z|2024|N|To Kalecgos.|
 A The Many Images of Kalecgos|QID|65689|PRE|65688|M|40.92,55.01|Z|2024|N|From Kalecgos.|
 C The Many Images of Kalecgos|QID|65689|M|41.13,55.38|Z|2024|QO|1|NC|N|Click the crystal pylon to be transported to the Azure Archives.|
-T The Many Images of Kalecgos|QID|65689|M|40.73,59.05|Z|2024|N|To Kalecgos.|
-A Driven Mad|QID|65702|PRE|65689|M|40.73,59.05|Z|2024|N|From Kalecgos.|
-A Arcane Pruning|QID|65709|PRE|65689|M|40.69,59.11|Z|2024|N|From Kalecgos.|
-C Arcane Pruning|QID|65709|M|40.72,59.14|Z|2024|QO|1|EAB|NC|N|Use [color=33fff9]Extra Action Button [/color] to find the Ley Scepter.|
+T The Many Images of Kalecgos|QID|65689|M|40.74,59.04|Z|2024|N|To Kalecgos.|
+A Driven Mad|QID|65702|PRE|65689|M|40.74,59.04|Z|2024|N|From Kalecgos.|
+A Arcane Pruning|QID|65709|PRE|65689|M|40.69,59.10|Z|2024|N|From Kalecgos.|
+C Arcane Pruning|QID|65709|M|PLAYER|Z|2024|QO|1|EAB|NC|N|Use [color=33fff9]Extra Action Button [/color] to find the Ley Scepter.|
 C Driven Mad|QID|65702|M|40.52,59.96|Z|2024|N|Nearly everything around drops the unstable arcana, kill and loot as you go to the arcane fields.|S|
 C Arcane Pruning|QID|65709|M|41.18,62.23|Z|2024|QO|3|NC|U|191952|N|Stand in the middle of the circle and use the [color=33fff9]Ley Scepter [/color] to repair the East arcane field.|
 C Arcane Pruning|QID|65709|M|39.62,60.22|Z|2024|QO|2|NC|U|191952|N|Stand in the middle of the circle and use the [color=33fff9]Ley Scepter [/color] to repair the North arcane field.|
 C Driven Mad|QID|65702|M|39.34,60.68|Z|2024|N|Finish collecting the Unstable Arcana.|US|
-T Arcane Pruning|QID|65709|M|40.70,59.11|Z|2024|N|To Kalecgos.|
-T Driven Mad|QID|65702|M|40.74,59.05|Z|2024|N|To (the other) Kalecgos.|
+T Arcane Pruning|QID|65709|M|40.69,59.10|Z|2024|N|To Kalecgos.|
+T Driven Mad|QID|65702|M|40.74,59.04|Z|2024|N|To (the other) Kalecgos.|
 A Straight to the Top|QID|65852|PRE|65702&65709|M|40.74,59.04|Z|2024|N|From Kalecgos.|
-C Straight to the Top|QID|65852|M|39.58,60.28|Z|2024|QO|1|U|191978|NC|N|Go back to the arcane field and use the [color=33fff9]Bag of Helpful Goods [/color] again to find more helpul stuff.|
-C Straight to the Top|QID|65852|M|39.58,60.28|Z|2024|QO|2|NC|EAB|N|Use the [color=33fff9]extra action button [/color] that appears to reach the Azure Archives apex.|
+C Straight to the Top|QID|65852|M|39.58,60.27|Z|2024|QO|1|U|191978|NC|N|Go back to the arcane field and use the [color=33fff9]Bag of Helpful Goods [/color] again to find more helpul stuff.|
+C Straight to the Top|QID|65852|M|39.58,60.27|Z|2024|QO|2|NC|EAB|N|Use the [color=33fff9]extra action button [/color] that appears to reach the Azure Archives apex.|
 T Straight to the Top|QID|65852|M|39.97,61.46|Z|2024|N|To Kalecgos.|
 A Platform Adjustments|QID|65751|PRE|65852|M|39.97,61.46|Z|2024|N|From Kalecgos.|
 A Arcane Annoyances|QID|65752|PRE|65852|M|39.97,61.46|Z|2024|N|From Kalecgos.|
 C Arcane Annoyances|QID|65752|M|40.07,62.28|Z|2024|U|194891|N|Target the Feasting Wyrms and use the item to pull them down.|T|Feasting Wyrm|S|
-C Platform Adjustments|QID|65751|M|39.51,61.55;39.61,62.68;40.21,62.04|CS|Z|2024|NC|N|Click the Unstable arcane energy fields to dispell.|
+C Platform Adjustments|QID|65751|M|39.51,61.55;39.61,62.68;40.21,62.04|CS|Z|2024|NC|N|Click the Unstable arcane energy fields to dispel.\n[color=FF0000]NOTE: [/color]Watch out for the bombardments|
 C Arcane Annoyances|QID|65752|M|40.07,62.28|Z|2024|U|194891|N|Target the Feasting Wyrms and use the item to pull them down.|US|T|Feasting Wyrm|
 T Platform Adjustments|QID|65751|M|39.97,61.47|Z|2024|N|To Kalecgos.|
 T Arcane Annoyances|QID|65752|M|39.97,61.47|Z|2024|N|To Kalecgos.|
@@ -676,7 +675,7 @@ T Whack-a-Gnoll|QID|66270|N|To Detry Hornswald.|
 R Three Falls Lookout|ACTIVE|71233|M|18.74,24.47|Z|2024|N|Its a bit of a journey, if you wanted you could take flight path to Ohn'iri Springs and fly from there.|
 T Falling Water|QID|71233|M|18.74,24.47|Z|2024|N|To Willa Stronghinge.|
 A Nothing for Breakfast|QID|66837|PRE|71233|M|18.74,24.47|Z|2024|N|From Willa Stronghinge.|
-A It's Cold Up Here|QID|66838|M|18.74,24.47|Z|2024|N|From Willa Stronghinge.||RANK|2|
+A It's Cold Up Here|QID|66838|M|18.74,24.47|Z|2024|N|From Willa Stronghinge.|RANK|2|
 A The Great Shokhari|QID|66844|M|19.04,23.98|Z|2024|N|From Zon'Wogi.|RANK|2|
 A It's Brew Time!|QID|66839|M|18.98,23.29|Z|2024|N|From Modurun Sixtoes.|RANK|2|
 f Three-Falls Lookout|ACTIVE|66839|M|19.15,23.78|Z|2024|N|At Bergede Broadchin.|
