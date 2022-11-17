@@ -19,7 +19,7 @@ C Awaken, Dracthyr|QID|64864|M|32.53,82.52|Z|2109; The War Creche|QO|4|NC|N|Righ
 T Awaken, Dracthyr|QID|64864|M|32.94,81.85|Z|2109; The War Creche|N|To Scalecommander Azurathel.|
 A Gear Up|QID|64865|PRE|64864|M|32.78,81.75|Z|2109; The War Creche|N|From Scalecommander Azurathel.|
 A Arcane Guardians|QID|64863|PRE|64864|M|33.01,80.70|Z|2109; The War Creche|N|From Dervishian.|
-C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N||S|
+C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|S|
 C Gear Up|QID|64865|M|34.48,61.64|Z|2109; The War Creche|QO|3|NC|
 C Gear Up|QID|64865|M|38.84,51.90|Z|2109; The War Creche|QO|2|NC|N|Crate of Warscales.|
 C Gear Up|QID|64865|M|44.74,65.87|Z|2109; The War Creche|QO|1|NC|N|Stack of Weapons.|
@@ -93,8 +93,8 @@ T Stormsunder Crater|QID|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|To Sc
 A Tangle with the Tarasek|QID|65049|PRE|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
 A Conjured Army|QID|65050|PRE|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
 A The Primalists|QID|65046|PRE|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|From Dervishian.|
-C Tangle with the Tarasek|QID|65049|M|72.23,55.63|Z|2118; The Forbidden Reach|QO|1|N||S|
-C Conjured Army|QID|65050|M|75.00,56.51|Z|2118; The Forbidden Reach|QO|1||S|
+C Tangle with the Tarasek|QID|65049|M|72.23,55.63|Z|2118; The Forbidden Reach|QO|1|S|
+C Conjured Army|QID|65050|M|75.00,56.51|Z|2118; The Forbidden Reach|QO|1|S|
 C The Primalists|QID|65046|M|72.03,60.31|Z|2118; The Forbidden Reach|QO|1|NC|
 C The Primalists|QID|65046|M|78.17,66.38|Z|2118; The Forbidden Reach|QO|2|NC|N|Primalist motivations discovered.|
 C The Primalists|QID|65046|M|71.96,54.64|Z|2118; The Forbidden Reach|QO|3|NC|N|Primalist leaders discovered.|
@@ -166,30 +166,30 @@ A Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|From Spiritwalker Ebonh
 T Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
 A Ground Leave|QID|66534|M|45.64,12.88|Z|1;Durotar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
 A I Believe You Can Fly|QID|32674|M|49.51,93.86|Z|85;Orgrimmar|N|From UI popup as you enter the gates of orgrimmar.|FACTION|Horde|
-C Ground Leave|QID|66534|M|55.70,90.05|Z|85;Orgrimmar|QO|4|NC||FACTION|Horde|
-C Ground Leave|QID|66534|M|49.05,82.43|Z|85;Orgrimmar|QO|2|NC||FACTION|Horde|
-C Ground Leave|QID|66534|M|53.59,73.75|Z|85;Orgrimmar|QO|1|NC||FACTION|Horde|
-C Ground Leave|QID|66534|M|38.18,80.62|Z|85;Orgrimmar|QO|3|NC||FACTION|Horde|
+C Ground Leave|QID|66534|M|55.70,90.05|Z|85;Orgrimmar|QO|4|NC|FACTION|Horde|
+C Ground Leave|QID|66534|M|49.05,82.43|Z|85;Orgrimmar|QO|2|NC|FACTION|Horde|
+C Ground Leave|QID|66534|M|53.59,73.75|Z|85;Orgrimmar|QO|1|NC|FACTION|Horde|
+C Ground Leave|QID|66534|M|38.18,80.62|Z|85;Orgrimmar|QO|3|NC|FACTION|Horde|
 T Ground Leave|QID|66534|M|44.18,38.40|Z|85;Orgrimmar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
 A Aspectral Invitation|QID|65437|PRE|66534|M|44.18,38.40|Z|85;Orgrimmar|N|From Ebyssian.|FACTION|Horde|
-C Aspectral Invitation|QID|65437|M|44.18,38.40|Z|85;Orgrimmar|QO|1|CHAT||FACTION|Horde|
+C Aspectral Invitation|QID|65437|M|44.18,38.40|Z|85;Orgrimmar|QO|1|CHAT|FACTION|Horde|
 T Aspectral Invitation|QID|65437|M|44.18,38.40|Z|85;Orgrimmar|N|To Ebyssian.|FACTION|Horde|
 A An Iconic, Draconic Look|QID|65613|PRE|65437|M|44.10,38.00|Z|85;Orgrimmar|N|From Ebyssian.|FACTION|Horde|
 C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|1|NC|N|Ask Ebyssian about Visage Form.|FACTION|Horde|
-C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|2|NC||FACTION|Horde|
-C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|3|NC||FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|2|NC|FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|3|NC|FACTION|Horde|
 T An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|N|To Ebyssian.|FACTION|Horde|
 A The Dark Talons|QID|72256|PRE|65613|M|44.18,38.40|Z|85;Orgrimmar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
 A Expeditionary Coordination|QID|65443|PRE|65613|M|44.30,38.09|Z|85;Orgrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
-C The Dark Talons|QID|72256|M|55.13,89.27|Z|85|QO|1|NC||S|FACTION|Horde|
-C Expeditionary Coordination|QID|65443|M|57.27,54.09|Z|85;Orgrimmar|QO|1|NC||FACTION|Horde|
+C The Dark Talons|QID|72256|M|55.13,89.27|Z|85|QO|1|NC|S|FACTION|Horde|
+C Expeditionary Coordination|QID|65443|M|57.27,54.09|Z|85;Orgrimmar|QO|1|NC|FACTION|Horde|
 C Expeditionary Coordination|QID|65443|M|71.28,50.83|Z|85;Valley of Honor|QO|3|NC|N|On the upper floor|FACTION|Horde|
-C Expeditionary Coordination|QID|65443|M|38.51,56.94|Z|85|QO|2|NC||FACTION|Horde|
-C The Dark Talons|QID|72256|M|55.13,89.27|Z|85|QO|1|NC|N||US|FACTION|Horde|
+C Expeditionary Coordination|QID|65443|M|38.51,56.94|Z|85|QO|2|NC|FACTION|Horde|
+C The Dark Talons|QID|72256|M|55.13,89.27|Z|85|QO|1|NC|N|US|FACTION|Horde|
 T Expeditionary Coordination|QID|65443|M|55.84,12.63|Z|1|N|To Naleidea Rivergleam.\n She is upstairs|FACTION|Horde|
 T The Dark Talons|QID|72256|M|55.84,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
 A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.84,12.63|Z|1|N|From Archmage Khadgar.|FACTION|Horde|
-C Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|QO|1|CHAT||FACTION|Horde|
+C Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|QO|1|CHAT|FACTION|Horde|
 T Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|N|To Ebyssian.|FACTION|Horde|
 ]]
 end)
