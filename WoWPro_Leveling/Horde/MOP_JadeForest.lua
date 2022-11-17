@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"The Jade Forest")
 WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|
 ; -- Ignore Hero Board quests A Warchief's Command: Jade Forest!|QID|49538|M|49.69,76.44|Z|Orgrimmar|N|Seek out the nearest Warchief's Command Board, and select Report to Grommash Hold under The Jade Forest. Quest not there? Skip this step for an alternative one.|
 R Grommash Hold|ACTIVE|49538|M|49.69,76.44|Z|Orgrimmar|N|Walk into Grommash Hold, then wait for the cut-scene to finish.|
 T Warchief's Command: Jade Forest!|QID|49538|M|48.66,70.32|Z|Orgrimmar|N|To General Nazgrim.|
@@ -308,10 +308,10 @@ T Simulacrumble|QID|29748|M|PLAYER|N|To UI Alert.|
 A An Urgent Plea|QID|29749|M|PLAYER|N|From UI Alert.|PRE|29747&29748|
 C An Urgent Plea|QID|29749|M|44.23,14.91|QO|1|N|Get the staff|
 C An Urgent Plea|QID|29749|M|44.36,15.89|QO|2|N|Kill Ancient Spirits drifting towards the center to destroy the ritual.|
-T An Urgent Plea|QID|29749|M|44.23,15.03|N|To Pei-Zhi. Wait for him to come down.|
-A Ritual Artifacts|QID|29751|M|44.23,15.03|N|From Pei-Zhi.|PRE|29749|
-A Vessels of the Spirit|QID|29750|M|44.23,15.03|N|From Pei-Zhi.|PRE|29749|
-A The Wayward Dead|QID|29752|M|44.23,15.03|N|From Pei-Zhi.|PRE|29749|
+T An Urgent Plea|QID|29749|M|43.82,12.55|N|To Pei-Zhi. Wait for him to come down.|
+A Ritual Artifacts|QID|29751|M|43.82,12.55|N|From Pei-Zhi.|PRE|29749|
+A Vessels of the Spirit|QID|29750|M|43.82,12.55|N|From Pei-Zhi.|PRE|29749|
+A The Wayward Dead|QID|29752|M|43.82,12.55|N|From Pei-Zhi.|PRE|29749|
 ; --- [Hendo72] Not sure how to handle the 4 possible locations.
 $ Hammer of the Ten Thunders|QID|31403|M|43.0,11.6;40.2,13.7;41.2,13.8;41.8,17.7|CC|N|It has 4 different spawn points and may not always be there. Click this off when it's not around here.|S!US|RANK|3|
 C Vessels of the Spirit|QID|29750|M|40.69,14.85|N|Kill and loot the Shan'ze Spiritclaws to get the spirit bottles.|S|
@@ -321,23 +321,23 @@ C Ritual Artifacts|QID|29751|M|42.68,15.75|QO|1|N|White Vase on the ground.|NC|
 C Ritual Artifacts|QID|29751|M|42.26,17.07|QO|3|N|White candle sitting on crate.|NC|
 C The Wayward Dead|QID|29752|M|40.38,14.76|T|Wayward Ancestor|U|74771|US|
 C Vessels of the Spirit|QID|29750|M|40.69,14.85|N|Kill and loot the Shan'ze Spiritclaws to get the spirit bottles.|US|
-T Ritual Artifacts|QID|29751|M|44.23,15.03|N|To Pei-Zhi.|
-T Vessels of the Spirit|QID|29750|M|44.23,15.03|N|To Pei-Zhi.|
-T The Wayward Dead|QID|29752|M|44.23,15.03|N|To Pei-Zhi.|
-A Back to Nature|QID|29753|M|44.23,15.03|N|From Pei-Zhi.|PRE|29750|
-A A Humble Offering|QID|29756|M|44.23,15.03|N|From Pei-Zhi.|PRE|29750&29751&29752|
+T Ritual Artifacts|QID|29751|M|43.82,12.55|N|To Pei-Zhi.|
+T Vessels of the Spirit|QID|29750|M|43.82,12.55|N|To Pei-Zhi.|
+T The Wayward Dead|QID|29752|M|43.82,12.553|N|To Pei-Zhi.|
+A Back to Nature|QID|29753|M|43.82,12.55|N|From Pei-Zhi.|PRE|29750|
+A A Humble Offering|QID|29756|M|43.82,12.55|N|From Pei-Zhi.|PRE|29750&29751&29752|
 C A Humble Offering|QID|29756|M|39.71,10.98|N|Pick the mushrooms sparkling in this area.|NC|S|
 $ Wodin's Mantid Shanker|QID|31397|M|39.37,7.20|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found. Click this off when it's not there. Click the Lucky Golden Coin for a 10 minute luck buff|S!US|RANK|3|
 C Back to Nature|QID|29753|M|39.88,10.43|N|Throw the jar to release the spirit. The spirit may be hostile. You have to be in Tideview Thicket.|U|74808|
 C A Humble Offering|QID|29756|M|39.71,10.98|N|Finish picking the mushrooms you need.|NC|US|
-T Back to Nature|QID|29753|M|44.23,15.03|N|To Pei-Zhi.|
-T A Humble Offering|QID|29756|M|44.23,15.03|N|To Pei-Zhi.|
-A To Bridge Earth and Sky|QID|29754|M|44.23,15.03|N|From Pei-Zhi.|PRE|29753&29756|
+T Back to Nature|QID|29753|M|43.82,12.55|N|To Pei-Zhi.|
+T A Humble Offering|QID|29756|M|43.82,12.55|N|To Pei-Zhi.|
+A To Bridge Earth and Sky|QID|29754|M|43.82,12.55|N|From Pei-Zhi.|PRE|29753&29756|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|PLAYER|N|To UI Alert.|
 A Pei-Back|QID|29755|M|PLAYER|N|From UI Alert.|PRE|29754|
 C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight.\nFirst Phase:\n  - kill Stonebound Colossus. When you get seperated from your body, you need to run back and click on it to rejoin it; then try to interrupt the Colossus healing.\nSecond phase:\n  - run to Shan Jitong and kill him.|
-T Pei-Back|QID|29755|M|44.23,15.03|N|To Pei-Zhi.|
+T Pei-Back|QID|29755|M|43.82,12.55|N|To Pei-Zhi.|
 R Tian Monastery|QID|29617|M|38.17,24.17|N|Run counter-clockwise around the mountain to the waypoint.|FLY|OLD|
 f Banquet Grounds|QID|29617|M|43.57,24.53|N|Get the flightpoint at Studious Chu.|
 T Tian Monastery|QID|29617|M|44.99,24.95|N|To Lin Tenderpaw|

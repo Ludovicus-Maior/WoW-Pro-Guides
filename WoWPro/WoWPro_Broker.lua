@@ -934,9 +934,9 @@ function WoWPro:RowUpdate(offset)
         end
 
         --Loading Variables --
-        local step = WoWPro.step[k]
+        local step = (WoWPro.step[k] and WoWPro.ExpandMarkup(WoWPro.step[k])) or ""
         local action = WoWPro.action[k]
-        local note = WoWPro.note[k] or ""
+        local note = (WoWPro.note[k] and WoWPro.ExpandMarkup(WoWPro.note[k])) or ""
         local QID = tonumber(WoWPro.QID[k])
         local coord = WoWPro.map[k]
         local sticky = WoWPro.sticky[k]
@@ -1029,6 +1029,12 @@ function WoWPro:RowUpdate(offset)
         if WoWPro.noncombat[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
             currentRow.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
             currentRow.action.tooltip.text:SetText("No Combat")
+        elseif WoWPro.hand[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
+            currentRow.action:SetTexture(WoWPro.actiontypes["HAND TAG"])
+            currentRow.action.tooltip.text:SetText(WoWPro.actionlabels["HAND TAG"])
+        elseif WoWPro.inspect[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
+            currentRow.action:SetTexture(WoWPro.actiontypes["INSPECT TAG"])
+            currentRow.action.tooltip.text:SetText(WoWPro.actionlabels["INSPECT TAG"])
         elseif WoWPro.lootitem[k] and WoWPro.action[k] == "C" then
             currentRow.action:SetTexture(WoWPro.actiontypes['l'])
             currentRow.action.tooltip.text:SetText("Loot Complete")
@@ -2593,6 +2599,33 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				end
 			end
 
+			if WoWPro.dfrenown and WoWPro.dfrenown[guideIndex] and WoWPro.RETAIL then
+				local dfrenownName, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
+				local dfrenownFlip = false
+                local dfrenownMatch
+                local dfrenown = _G.C_MajorFactions.GetMajorFactionData(dfrenownID).renownLevel
+				if (dfrenownLevel:sub(1, 1) == "-") then
+                    dfrenownLevel = dfrenownLevel:sub(2)
+                    dfrenownFlip = true
+                end
+                if dfrenown >= tonumber(dfrenownLevel) then
+                    dfrenownMatch = true
+                end
+                if dfrenownFlip then
+                    dfrenownMatch = not dfrenownMatch
+                end
+                if dfrenownMatch then
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] met condition with ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
+                else
+					if dfrenownFlip then
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is greater than ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
+					else
+						WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..dfrenown.."] is less than ["..dfrenownLevel.."] with faction ["..dfrenownName..";"..dfrenownID.."]."
+					end
+					skip = true
+                end
+            end
+
             if WoWPro.renown and WoWPro.renown[guideIndex] and WoWPro.RETAIL then
 				local renownID = WoWPro.renown[guideIndex]
 				local renownFlip = false
@@ -2661,8 +2694,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 			end
 
 			if WoWPro.serverdate and WoWPro.serverdate[guideIndex] then
-				local serverdate = WoWPro.serverdate[guideIndex]
-				local epoch = _G.C_DateAndTime.GetServerTimeLocal()
+				local serverdate, _ = (";"):split(WoWPro.serverdate[guideIndex])
+				local epoch = _G.GetServerTime()
 				local dateFlip
 				local timeMet
 				if (serverdate:sub(1, 1) == "-") then
@@ -2716,7 +2749,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     local expansion = WoWPro.fly[guideIndex]
                     local spellName
                     local spellKnown
-					local canFly
+                    local canFly
                     local flyFlip = false
                     if (expansion:sub(1, 1) == "-") then
                         expansion = expansion:sub(2)
@@ -2724,7 +2757,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
 					local eSkill = _G.GetSpellInfo(34090)
 					if WoWPro.WRATH then
-						if WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
+						if WoWProCharDB.Tradeskills[762] and WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
 							canFly = true
 						end
 						if expansion == "BC" and canFly then

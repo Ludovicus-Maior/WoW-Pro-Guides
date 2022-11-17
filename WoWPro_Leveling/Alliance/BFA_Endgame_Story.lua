@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('JoviJaina', 'Leveling', 'Kul Tiras', 'Jovieve', 'Alliance')
-WoWPro:GuideLevels(guide, 50, 50, 50)
+WoWPro:GuideLevels(guide, 60, 60, 60)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideName(guide,'Endgame Storylines')
 WoWPro:GuideNextGuide(guide, 'TBD')

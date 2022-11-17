@@ -53,7 +53,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The Ironforge library features a 
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|against the armies of the Qiraji in what war|N|War of the Shifting Sands|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|cult was affiliated with the orcish Shadow Council|N|Argus Wake|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This defender of the Scarlet Crusade was killed while slaying the dreadlord Beltheris|N|Holla Sunshield|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This emissary of the Horde felt that Silvermoon City was a little too bright and clean|N|Tatal|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This emissary of the Horde felt that Silvermoon City was a little too bright and clean|N|Tatai|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Originally intended to bring Thrall and Aggra to the Maelstrom|N|Draka's Fury|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This queen oversaw the evacuation of her people after the Cataclysm struck|N|Queen Mia Greymane|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This structure, located in Zangarmarsh, was controlled by naga who sought to drain a precious and limited resource|N|Coilfang Reservoir|

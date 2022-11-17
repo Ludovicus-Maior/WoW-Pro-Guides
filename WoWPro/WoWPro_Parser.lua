@@ -34,6 +34,8 @@ WoWPro.actiontypes = {
 	["V TAG"] = "Interface\\CURSOR\\vehichleCursor",
 	["JUMP TAG"] = "Interface\\Icons\\spell_arcane_teleportironforge",
 	["CHAT TAG"] = "Interface\\GossipFrame\\Gossipgossipicon",
+    ["INSPECT TAG"] = "Interface\\CURSOR\\Inspect",
+    ["HAND TAG"] = "Interface\\CURSOR\\QuestInteract",
     ["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
     ["$"] = "Interface\\Worldmap\\TreasureChest_64",
     ["="] = "Interface\\Icons\\Spell_lightning_lightningbolt01",
@@ -76,6 +78,8 @@ WoWPro.actionlabels = {
 	["V TAG"] = "Use Vehicle",
 	["JUMP TAG"] = "Jump Button Available",
 	["CHAT TAG"] = "Interact and Chat",
+    ["HAND TAG"] = "Click on or Pick up",
+    ["INSPECT TAG"] = "Inspect or Examine",
     ["!"] = "Declare",
     ["$"] = "Treasure",
     ["="] = "Train",
@@ -294,6 +298,8 @@ DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("EAB","eab","boolean",nil,nil)
 DefineTag("ELITE", "elite","boolean",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
+DefineTag("I","inspect","boolean",nil,nil)
+DefineTag("H","hand","boolean",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("NA","noauto","boolean",nil,nil)
 DefineTag("NOCACHE", "nocache","boolean",nil,nil)
@@ -310,6 +316,7 @@ DefineTag("BUFF","buff","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("COV","covenant","string",nil,nil)
 DefineTag("DATE", "serverdate","string",nil,nil)
+DefineTag("DFREN","dfrenown","string",nil,nil)
 DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
 DefineTag("FAIL","fail","boolean",nil,nil)
 DefineTag("FLY","fly","string",nil,nil)
@@ -604,10 +611,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         end
     end
 
-    if WoWProCharDB.EnableGrailBreadcrumbs and (not WoWPro.leadin[i]) and WoWPro.action[i] == "A"  then
+    if WoWProCharDB.EnableGrailBreadcrumbs and WoWPro.leadin[i] and WoWPro.action[i] == "A" and WoWPro.DebugLevel > 0 then
         local new_leadin = WoWPro.GrailBreadcrumbsFor(WoWPro.QID[i])
-        if WoWPro.DebugLevel > 0 and new_leadin then
-            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin)
+        if new_leadin then
+            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦ but has LEAD¦%s¦ .",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin, WoWPro.leadin[i])
         end
         WoWPro.leadin[i] = new_leadin
     end
@@ -682,12 +689,12 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 
 
-    -- Expand markup in the step, for professions.
-    WoWPro.step[i] = WoWPro.ExpandMarkup(WoWPro.step[i])
+    -- Expand markup in the step, for professions to prime the client cache
+    WoWPro.ExpandMarkup(WoWPro.step[i])
 
-    -- If there is a note, expand any markup.
+    -- If there is a note, pre-expand any markup to prime the client cache
     if WoWPro.note[i] then
-        WoWPro.note[i] = WoWPro.ExpandMarkup(WoWPro.note[i])
+        WoWPro.ExpandMarkup(WoWPro.note[i])
     end
 
     -- If the step is "Achievement" there is no note use the name and description from the server ...
@@ -830,6 +837,8 @@ function WoWPro.ParseSteps(steps)
     local mycovenant = ""
     local myFaction = WoWPro.Faction:upper()
     local zone = WoWPro.Guides[GID].zone
+	local guidelock = false
+	local guidelockdetected = false
 
     if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
         mycovenant = _G.C_Covenants.GetActiveCovenantID()
@@ -860,7 +869,31 @@ function WoWPro.ParseSteps(steps)
         text = text:trim()
         if text ~= "" then
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
-            local gender, faction, ms, tof = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|")
+            local gender, faction, ms, tof, serverdate = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|"), text:match("|DATE|([^|]*)|?")
+			if serverdate then
+				local epochttime, timelock = (";"):split(serverdate)
+				if timelock == "1" then
+					local epoch = _G.GetServerTime()
+					local dateFlip
+					local timeMet
+					guidelockdetected = true
+					if (epochttime:sub(1, 1) == "-") then
+							epochttime = epochttime:sub(2)
+							dateFlip = true
+					 end
+					if tonumber(epochttime) >= epoch then
+						timeMet = true
+					end
+					if timeMet == dateFlip then
+						if dateFlip then
+							guidelock = epochttime
+						else
+							guidelock = "-" .. epochttime
+						end
+					end
+				end
+			end
+
             if class then
                 -- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
                 class = class:gsub(" ", ""):upper()
@@ -924,6 +957,13 @@ function WoWPro.ParseSteps(steps)
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not ms and not tof then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
+					if guidelock then
+						if guidelockdetected then
+							guidelockdetected = false
+						else
+							WoWPro.serverdate[i] = guidelock
+						end
+					end
                     WoWPro.RecordStuff(i)
                     i = i + 1
                 end
@@ -932,6 +972,13 @@ function WoWPro.ParseSteps(steps)
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
+					if guidelock then
+						if guidelockdetected then
+							guidelockdetected = false
+						else
+							WoWPro.serverdate[i] = guidelock
+						end
+					end
                     WoWPro.RecordStuff(i)
                     i = i + 1
                 end

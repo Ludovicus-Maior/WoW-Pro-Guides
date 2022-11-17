@@ -3,7 +3,7 @@ WoWPro:GuideSort(guide, 50)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 F New Thalanaar|QID|28503|N|Take the flightpath to New Thalanaar|Z|Feralas|M|86,45.2|TAXI|New Thalanaar|
 C To New Thalanaar|ACTIVE|25479|O|M|42.84,72.42|N|Choose the speech bubble from Dyslix Silvergrub.|Z|Dustwallow Marsh|
 H Feathermoon|ACTIVE|25479|U|6948|N|Hearth back to Feathermoon Stronghold.|O|Z|Feralas|

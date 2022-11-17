@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('BurnTedrazilSTrek', 'Leveling', 'Azeroth', 'STrek', 'Alliance')
-WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideLevels(guide, 10, 60, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Battle for Azeroth")
 WoWPro:GuideName(guide,'Battle for Azeroth: Intro')
@@ -22,10 +22,10 @@ C Battle for Azeroth: Tides of War |QID|58983|M|80.5,33.5|Z|Stormwind City|QO|1|
 C Battle for Azeroth: Tides of War |QID|58983|M|80.5,33.5|Z|Stormwind City|QO|2|NC|N|Click on the Vision of Sailor's Memory portal.|
 T Battle for Azeroth: Tides of War |QID|58983|M|80.27,33.13|Z|Stormwind City|N|To Anduin Wrynn.|
 
-A Tides of War|QID|46727|M|62.82,71.75|Z|Stormwind City|N|From Hero's Herald standing near Hero's Call Boards.|LEAD|58983|
-C Tides of War|QID|46727|M|80.27,33.13|Z|Stormwind City|QO|1|NC|N|Listen to the council while they discuss their plans.|LEAD|58983|
-C Tides of War|QID|46727|M|80.49,33.50|Z|Stormwind City|QO|2|NC|N|Click on the portal to watch the sailors vision.|LEAD|58983|
-T Tides of War|QID|46727|M|80.27,33.12|Z|Stormwind City|N|To Anduin Wrynn.|LEAD|58983|
+A Battle for Azeroth: Tides of War|QID|46727|M|62.82,71.75|Z|Stormwind City|N|From Hero's Herald standing near Hero's Call Boards.|LEAD|58983|
+C Battle for Azeroth: Tides of War|QID|46727|M|80.27,33.13|Z|Stormwind City|QO|1|NC|N|Listen to the council while they discuss their plans.|LEAD|58983|
+C Battle for Azeroth: Tides of War|QID|46727|M|80.49,33.50|Z|Stormwind City|QO|2|NC|N|Click on the portal to watch the sailors vision.|LEAD|58983|
+T Battle for Azeroth: Tides of War|QID|46727|M|80.27,33.12|Z|Stormwind City|N|To Anduin Wrynn.|LEAD|58983|
 
 A The Nation of Kul Tiras |QID|46728^59641|M|80.27,33.12|Z|Stormwind City|N|From Anduin Wrynn.|PRE|46727^58983|
 R Stormwind Harbor|ACTIVE|46728^59641|M|22.15,24.32|Z|Stormwind City|N|Head towards Stormwind Harbor|

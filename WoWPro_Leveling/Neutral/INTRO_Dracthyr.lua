@@ -3,6 +3,7 @@ WoWPro:GuideName(guide,"Dracthyr Intro")
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideSort(guide, 19)
 WoWPro:GuideLevels(guide,58, 60)
+WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Zone Ids for this guide
@@ -18,7 +19,6 @@ C Awaken, Dracthyr|QID|64864|M|32.53,82.52|Z|2109; The War Creche|QO|4|NC|N|Azur
 T Awaken, Dracthyr|QID|64864|M|32.94,81.85|Z|2109; The War Creche|N|To Scalecommander Azurathel.|
 A Gear Up|QID|64865|PRE|64864|M|32.78,81.75|Z|2109; The War Creche|N|From Scalecommander Azurathel.|
 A Arcane Guardians|QID|64863|PRE|64864|M|33.01,80.70|Z|2109; The War Creche|N|From Dervishian.|
-$ Mysterious Wand|M|38.12,74.54|Z|2109; The War Creche|N|Grab the crystal aginst the wall, put it in the brazier. Loot the wand off the table for a blue magic buff.|ITEM|376213|
 C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N|Guardians or Constructs slain.|S|
 C Gear Up|QID|64865|M|34.48,61.64|Z|2109; The War Creche|QO|3|NC|N|Bundle of Rations collected.|
 C Gear Up|QID|64865|M|38.84,51.90|Z|2109; The War Creche|QO|2|NC|N|Crate of Warscales.|
@@ -161,10 +161,6 @@ T Expeditionary Coordination|QID|66589|M|22.83,55.72|Z|84; Stormwind City|N|Turn
 A Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|From Khadgar.|FACTION|Alliance|
 C Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|Speak to Khadgar.|CHAT|FACTION|Alliance|
 T Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
-A To the Dragon Isles!|QID|67700|M|22.89,55.61|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
-C To the Dragon Isles!|QID|67700|M|22.44,56.26|Z|84; Stormwind City|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
-C To the Dragon Isles!|QID|67700|M|82.07,31.57|Z|2022;The Waking Shores|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
-T To the Dragon Isles!|QID|67700|M|82.12,31.84|Z|2022;The Waking Shores|N|To Toddy Whiskers.|FACTION|Alliance|
 ; Horde quests
 A Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|From Spiritwalker Ebonhorn.|FACTION|Horde|
 T Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
@@ -195,9 +191,5 @@ T The Dark Talons|QID|72256|M|55.84,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|
 A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.84,12.63|Z|1|N|From Archmage Khadgar.|FACTION|Horde|
 C Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
 T Whispers on the Winds|QID|65439|M|55.84,12.63|Z|1|N|To Ebyssian.|FACTION|Horde|
-A To the Dragon Isles!|QID|65444|PRE|65439|M|55.84,12.63|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
-C To the Dragon Isles!|QID|65444|M|55.98,13.15|Z|1|QO|1|NC|N|Wait for the Defiant Dragonscale at the zeppelin tower.|FACTION|Horde|
-C To the Dragon Isles!|QID|65444|M|80.79,27.86|Z|2022;The Waking Shores|QO|2|NC|N|Ride the Defiant Dragonscale to Dragon Isles.|FACTION|Horde|
-T To the Dragon Isles!|QID|65444|M|80.61,27.63|Z|2022;The Waking Shores|N|To Naleidea Rivergleam.|FACTION|Horde|
 ]]
 end)

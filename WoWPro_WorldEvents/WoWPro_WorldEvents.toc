@@ -1,9 +1,9 @@
-## Interface: 100000
+## Interface: 100002
 ## Title: |cffFF9900WoW-|r|cff46921APro|r WorldEvents
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 2022.11.03.A
+## Version: 2022.11.16.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_WorldEvents.lua
