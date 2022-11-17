@@ -994,7 +994,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event, ...)
         end
         WoWPro:dbp("Searching for %s from %d",questtitle,qidx)
         for j=0,5 do
-            if questtitle == WoWPro.step[qidx+j] then
+            if (questtitle == WoWPro.step[qidx+j]) and not WoWPro.noauto[qidx+j] then
                 qidx = qidx+j
                 break
             end
@@ -1057,7 +1057,7 @@ WoWPro.RegisterEventHandler("QUEST_COMPLETE", function(event, ...)
     -- Some quests are auto-turnin on accept
     if WoWProCharDB.AutoAccept == true and
        WoWPro.action[qidx] == "A" and
-       questtitle == WoWPro.step[qidx] then
+       questtitle == WoWPro.step[qidx] and not WoWPro.noauto[qidx] then
         if (_G.GetNumQuestChoices() <= 1) then
             _G.GetQuestReward(1)
         end
