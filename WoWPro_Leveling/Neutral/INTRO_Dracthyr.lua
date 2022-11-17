@@ -20,7 +20,7 @@ T Awaken, Dracthyr|QID|64864|M|32.94,81.85|Z|2109; The War Creche|N|To Scalecomm
 A Gear Up|QID|64865|PRE|64864|M|32.78,81.75|Z|2109; The War Creche|N|From Scalecommander Azurathel.|
 A Arcane Guardians|QID|64863|PRE|64864|M|33.01,80.70|Z|2109; The War Creche|N|From Dervishian.|
 C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N||S|
-C Gear Up|QID|64865|M|34.48,61.64|Z|2109; The War Creche|QO|3|NC|N|
+C Gear Up|QID|64865|M|34.48,61.64|Z|2109; The War Creche|QO|3|NC|
 C Gear Up|QID|64865|M|38.84,51.90|Z|2109; The War Creche|QO|2|NC|N|Crate of Warscales.|
 C Gear Up|QID|64865|M|44.74,65.87|Z|2109; The War Creche|QO|1|NC|N|Stack of Weapons.|
 C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N|Guardians or Constructs slain.|US|
@@ -28,7 +28,7 @@ T Arcane Guardians|QID|64863|M|45.65,58.82|Z|2109; The War Creche|N|To Dervishia
 T Gear Up|QID|64865|M|46.37,57.44|Z|2109; The War Creche|N|To Scalecommander Azurathel.|
 A Into the Cauldron|QID|64866|PRE|64863&64865|M|46.37,57.44|Z|2109; The War Creche|N|From Scalecommander Azurathel.|
 C Into the Cauldron|QID|64866|M|46.00,46.87|Z|2109; The War Creche|QO|1|NC|N|Glide into the Earth-Warder's Cauldron.|
-C Into the Cauldron|QID|64866|M|54.70,42.57|Z|2109; The War Creche|QO|2|NC|N|
+C Into the Cauldron|QID|64866|M|54.70,42.57|Z|2109; The War Creche|QO|2|NC|
 T Into the Cauldron|QID|64866|M|61.91,36.45|Z|2109; The War Creche|N|To Scalecommander Azurathel.|
 A The Dragon at the Door|QID|64871|PRE|64866|M|61.91,36.45|Z|2109; The War Creche|N|From Scalecommander Cindrethresh.|
 C The Dragon at the Door|QID|64871|M|65.77,14.64|Z|2109; The War Creche|QO|1|NC|
@@ -60,14 +60,14 @@ A Caldera of the Menders|QID|65060|PRE|65036|M|44.28,60.96|Z|2118; The Forbidden
 C Caldera of the Menders|QID|65060|M|36.60,32.72|Z|2118; The Forbidden Reach|QO|1|N|Use your newly acquired skills to get there and speak to Cindrethresh once you land.|CHAT|
 T Caldera of the Menders|QID|65060|M|18.90,16.02|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.|
 A Into the Hive|QID|65063|PRE|65060|M|18.90,16.02|Z|2118; The Forbidden Reach|N|From Scalecommander Cindrethresh.|
-C Into the Hive|QID|65063|M|50.07,50.29|Z|2110|QO|1|NC|N|
+C Into the Hive|QID|65063|M|50.07,50.29|Z|2110|QO|1|NC|
 T Into the Hive|QID|65063|M|20.29,19.19|Z|2118; The Forbidden Reach|N|To Scalecommander Viridia.|
 A A Toxic Problem|QID|65073|PRE|65063|M|20.29,19.19|Z|2118; The Forbidden Reach|N|From Scalecommander Viridia.|
 A Easy Prey|QID|65074|PRE|65063|M|20.29,19.19|Z|2118; The Forbidden Reach|N|From Scalecommander Cindrethresh.|
 C Easy Prey|QID|65074|M|34.14,32.06|Z|2118; The Forbidden Reach|QO|1|N|Scythid slain.|S|
 C A Toxic Problem|QID|65073|M|33.14,31.61|Z|2118; The Forbidden Reach|QO|1|N|Toxin Glands collected.|S|
 A Halp!|QID|65071|PRE|65063|M|33.55,33.22|Z|2118; The Forbidden Reach|N|From To'no.|RANK|2|
-C Halp!|QID|65071|M|27.41,36.44|Z|2118; The Forbidden Reach|QO|1|NC|N|
+C Halp!|QID|65071|M|27.41,36.44|Z|2118; The Forbidden Reach|QO|1|NC|
 C A Toxic Problem|QID|65073|M|33.14,31.61|Z|2118; The Forbidden Reach|QO|1|N|Toxin Glands collected.|US|
 C Easy Prey|QID|65074|M|34.14,32.06|Z|2118; The Forbidden Reach|QO|1|N|Scythid slain.|US|
 T Halp!|QID|65071|M|21.77,29.54|Z|2118; The Forbidden Reach|N|To Explorer Ko'nali.|
@@ -94,8 +94,8 @@ A Tangle with the Tarasek|QID|65049|PRE|65045|M|70.37,64.47|Z|2118; The Forbidde
 A Conjured Army|QID|65050|PRE|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
 A The Primalists|QID|65046|PRE|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|From Dervishian.|
 C Tangle with the Tarasek|QID|65049|M|72.23,55.63|Z|2118; The Forbidden Reach|QO|1|N||S|
-C Conjured Army|QID|65050|M|75.00,56.51|Z|2118; The Forbidden Reach|QO|1|N||S|
-C The Primalists|QID|65046|M|72.03,60.31|Z|2118; The Forbidden Reach|QO|1|NC|N|
+C Conjured Army|QID|65050|M|75.00,56.51|Z|2118; The Forbidden Reach|QO|1||S|
+C The Primalists|QID|65046|M|72.03,60.31|Z|2118; The Forbidden Reach|QO|1|NC|
 C The Primalists|QID|65046|M|78.17,66.38|Z|2118; The Forbidden Reach|QO|2|NC|N|Primalist motivations discovered.|
 C The Primalists|QID|65046|M|71.96,54.64|Z|2118; The Forbidden Reach|QO|3|NC|N|Primalist leaders discovered.|
 C Tangle with the Tarasek|QID|65049|M|72.23,55.63|Z|2118; The Forbidden Reach|QO|1|N|Tarasek slain.|US|
@@ -117,9 +117,9 @@ A The Prize Inside|QID|65087|PRE|65084|M|56.78,28.31|Z|2118; The Forbidden Reach
 C The Prize Inside|QID|65087|M|54.92,30.96|Z|2118; The Forbidden Reach|QO|1|NC|N|Froststone Vault defended (100%).|
 T The Prize Inside|QID|65087|M|56.30,28.70|Z|2118; The Forbidden Reach|N|To Scalecommander Sarkareth.|
 A Run!|QID|65097|PRE|65087|M|54.21,32.16|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
-C Run!|QID|65097|M|47.96,34.48|Z|2118; The Forbidden Reach|QO|1|NC|N|
-C Run!|QID|65097|M|47.61,35.05|Z|2118; The Forbidden Reach|QO|2|NC|N|
-C Run!|QID|65097|M|47.23,35.34|Z|2118; The Forbidden Reach|QO|3|NC|N|
+C Run!|QID|65097|M|47.96,34.48|Z|2118; The Forbidden Reach|QO|1|NC|
+C Run!|QID|65097|M|47.61,35.05|Z|2118; The Forbidden Reach|QO|2|NC|
+C Run!|QID|65097|M|47.23,35.34|Z|2118; The Forbidden Reach|QO|3|NC|
 T Run!|QID|65097|M|47.23,35.34|Z|2118; The Forbidden Reach|N|To Wrathion.|
 A The Consequence of Courage|QID|65098|PRE|65097|M|47.23,35.34|Z|2118; The Forbidden Reach|N|From Wrathion.|
 C The Consequence of Courage|QID|65098|M|47.84,38.97|Z|2118; The Forbidden Reach|QO|1|NC|
@@ -167,17 +167,17 @@ T Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|To Scalecommander Cindr
 A Ground Leave|QID|66534|M|45.64,12.88|Z|1;Durotar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
 A I Believe You Can Fly|QID|32674|M|49.51,93.86|Z|85;Orgrimmar|N|From UI popup as you enter the gates of orgrimmar.|FACTION|Horde|
 C Ground Leave|QID|66534|M|55.70,90.05|Z|85;Orgrimmar|QO|4|NC||FACTION|Horde|
-C Ground Leave|QID|66534|M|49.05,82.43|Z|85;Orgrimmar|QO|2|NC|N||FACTION|Horde|
-C Ground Leave|QID|66534|M|53.59,73.75|Z|85;Orgrimmar|QO|1|NC|N||FACTION|Horde|
-C Ground Leave|QID|66534|M|38.18,80.62|Z|85;Orgrimmar|QO|3|NC|N||FACTION|Horde|
+C Ground Leave|QID|66534|M|49.05,82.43|Z|85;Orgrimmar|QO|2|NC||FACTION|Horde|
+C Ground Leave|QID|66534|M|53.59,73.75|Z|85;Orgrimmar|QO|1|NC||FACTION|Horde|
+C Ground Leave|QID|66534|M|38.18,80.62|Z|85;Orgrimmar|QO|3|NC||FACTION|Horde|
 T Ground Leave|QID|66534|M|44.18,38.40|Z|85;Orgrimmar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
 A Aspectral Invitation|QID|65437|PRE|66534|M|44.18,38.40|Z|85;Orgrimmar|N|From Ebyssian.|FACTION|Horde|
-C Aspectral Invitation|QID|65437|M|44.18,38.40|Z|85;Orgrimmar|QO|1|CHAT|N||FACTION|Horde|
+C Aspectral Invitation|QID|65437|M|44.18,38.40|Z|85;Orgrimmar|QO|1|CHAT||FACTION|Horde|
 T Aspectral Invitation|QID|65437|M|44.18,38.40|Z|85;Orgrimmar|N|To Ebyssian.|FACTION|Horde|
 A An Iconic, Draconic Look|QID|65613|PRE|65437|M|44.10,38.00|Z|85;Orgrimmar|N|From Ebyssian.|FACTION|Horde|
 C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|1|NC|N|Ask Ebyssian about Visage Form.|FACTION|Horde|
-C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|2|NC|N||FACTION|Horde|
-C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|3|NC|N||FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|2|NC||FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|3|NC||FACTION|Horde|
 T An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|N|To Ebyssian.|FACTION|Horde|
 A The Dark Talons|QID|72256|PRE|65613|M|44.18,38.40|Z|85;Orgrimmar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
 A Expeditionary Coordination|QID|65443|PRE|65613|M|44.30,38.09|Z|85;Orgrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
