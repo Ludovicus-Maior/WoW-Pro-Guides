@@ -11,7 +11,7 @@ N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currentl
 ;PLACED F Valdrakken|N|Above the highest tower over Valdrakken.|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|ACH|16101|
 ;PLACED F Stormshroud Peak|N|On top of the mountain.|M|45.81,73.97|Z|2025;Thaldraszus!Dragonflight|ACH|16099|
 ;PLACED F Passage of Time|N|Floating just under the mountain archway, just behind the viaducts.|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|ACH|16667|
-;F Temporal Conflux|N|Inside the tower.|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|ACH|16098|
+;PLACED F Temporal Conflux|N|Inside the tower.|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|ACH|16098|
 ;PLACED F Gelikyr Overlook|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|ACH|16666|
 ;F Algeth’era|N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|ACH|16102|
 ;F Algeth’ar Academy|N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|ACH|16104|
@@ -20,11 +20,8 @@ N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currentl
 ;F Tyrhold|N|This one is on the mountain ledge.|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|ACH|16103|
 ;F Thaldraszus Apex|N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|ACH|16107|
 
-
-
 A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|
 C Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|This comment is really just here to see if RARE tag will suppress the comment!|
-t Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autocompleted.|
 F South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower|ACH|16100|
 f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|
 f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2025|N|At Aluri.|
@@ -60,8 +57,7 @@ C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|NC|N|Examine the Storage Che
 C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|NC|N|Pick up the goblet.|
 h Valdrakken|QID|72192|M|47.26,46.47|Z|2112|N|At Tithris.|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|
-;REN 7 valdrakken
-A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|
+A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|2511;valdrakken;7|;add iz?
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
@@ -69,8 +65,7 @@ T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.|
 T Eyes and Ears|QID|66166|M|54.72,47.33|Z|2112|N|To Captain Drine.|
 A Southern Exposure|QID|66167|PRE|66166&66163|M|54.89,47.01|Z|2112|N|From Captain Drine.|
 T Orientation: Valdrakken|QID|72406|M|58.21,35.09|Z|2112|N|To Unatos.|
-; quest not offered, must have PRE?
-A Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|From Jyhanna.|
+A Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|From Jyhanna.|; quest not offered, must have PRE?
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|U|194441|N|Find Lubbins.|
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025|QO|2|NC|U|194441|N|Help Lubbins.|
 A An Expert Opinion|QID|70697|PRE|70647|M|10.41,58.26|Z|2112|N|From Jyhanna.|
@@ -218,17 +213,17 @@ T Supplying in Weight|QID|66100|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 T A Sketchy Request|QID|66230|M|56.96,67.69|Z|2025|N|To Waywatcher Alvi.|
 A A Poisonous Palette|QID|66456|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
 A Ending the Blue Period|QID|66457|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
-C A Poisonous Palette|QID|66456|M|55.68,70.47|Z|2025|N|Envenomed Spear.|S|
+C A Poisonous Palette|QID|66456|M|55.68,70.47|Z|2025|N|Kill and loot the Embertooth mobs to find the Envenomed Spears.|S|
 C Ending the Blue Period|QID|66457|M|55.89,71.18|Z|2025|N|Bluescale is in a small cave.|
 F Passage of Time Glyph|ACTIVE|99999|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|N|Floating just under the mountain archway, just behind the viaducts.|ACH|16667|
-C A Poisonous Palette|QID|66456|M|56.73,69.09|Z|2025|N|Envenomed Spear.|US|
+C A Poisonous Palette|QID|66456|M|56.73,69.09|Z|2025|N|Continue wiping out the inhabitants of the area until you have enough Envenomed Spears.|US|
 T A Poisonous Palette|QID|66456|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 T Ending the Blue Period|QID|66457|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 A Cache and Release|QID|66465|PRE|66456&66457|M|56.95,67.69|Z|2025|N|From Waywatcher Alvi.|
 A Art Imitates Life|QID|66467|PRE|66456&66457|M|56.95,67.69|Z|2025|N|From Waywatcher Alvi.|
-C Cache and Release|QID|66465|M|58.14,66.73|Z|2025|QO|1|NC|N|Spear Caches Destroyed.|S|
-C Art Imitates Life|QID|66467|M|56.83,67.39;58.31,87.21|CS|Z|2025|QO|1|N|Greater Venomsprout slain.|
-C Cache and Release|QID|66465|M|58.14,66.73|Z|2025|QO|1|NC|N|Spear Caches Destroyed.|US|
+C Cache and Release|QID|66465|M|58.14,66.73|Z|2025|NC|N|Destroy the Spear Caches.|S|
+C Art Imitates Life|QID|66467|M|56.83,67.39;58.31,87.21|CS|Z|2025|N|Kill Greater Venomsprout.|
+C Cache and Release|QID|66465|M|58.14,66.73|Z|2025|NC|N|Fisnish destroying Spear Caches.|US|
 T Cache and Release|QID|66465|M|54.64,69.51|Z|2025|N|To Waywatcher Alvi.|
 T Art Imitates Life|QID|66467|M|54.64,69.51|Z|2025|N|To Waywatcher Alvi.|
 
@@ -236,75 +231,81 @@ f Shifting Sands|ACTIVE|66320|M|57.61,78.98|Z|2025|N|At Azim.|
 C The Flow of Time|QID|66320|M|57.47,78.91|Z|2025|CHAT|N|Tell Chromie that Nozdormu sent you to help.|
 T The Flow of Time|QID|66320|M|57.47,78.91|Z|2025|N|To Chromie.|
 A Temporal Difficulties|QID|66080|PRE|66320|M|57.52,78.82|Z|2025|N|From Andantenormu.|
-C Temporal Difficulties|QID|66080|M|55.01,75.63|Z|2025|QO|1|NC|N|Missing recruit found.|
+C Temporal Difficulties|QID|66080|M|55.01,75.63|Z|2025|NC|N|Run northwest to find the missing recruit.|
 A Haven't Got Time For the Pain|QID|70136|PRE|66320|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
-C Haven't Got Time For the Pain|QID|70136|M|53.17,77.39|Z|2025|QO|2|NC|N|Timewalker Notes.|
-C Haven't Got Time For the Pain|QID|70136|M|54.23,75.52|Z|2025|QO|3|N|Crazed Alpha slain.|
-C Haven't Got Time For the Pain|QID|70136|M|52.71,76.85|Z|2025|QO|1|NC|N|Timewalker Staff.|
+C Haven't Got Time For the Pain|QID|70136|M|53.17,77.39|Z|2025|QO|2|H|N|Pick up the Timewalker Notes from the ground.|
+C Haven't Got Time For the Pain|QID|70136|M|54.23,75.52|Z|2025|QO|3|N|The Crazed Alpha can be found in a small cave.|
+C Haven't Got Time For the Pain|QID|70136|M|52.71,76.85|Z|2025|QO|1|H|N|The Timewalker Staff is in the cave with the Crazed Alpha.|
 T Haven't Got Time For the Pain|QID|70136|M|54.96,75.64|Z|2025|N|To Siaszerathel.|
 A Time is Running Out|QID|66081|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
 A Time in a Bottle|QID|66082|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
-A Henlare|QID|69873|PRE|70136|M|55.39,77.38|Z|2025|
-C Time is Running Out|QID|66081|M|55.07,76.73|Z|2025|QO|1|NC|N|Temporal Collector.|
-C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|QO|1|NC|N|Energy collected (100%).|
+A Henlare|QID|69873|M|55.39,77.38|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
+K Henlare|ACTIVE|69873|M|55.39,77.38|Z|2025|N|Henlare is flying just above a flat mesa like place in the midle of the area.|RARE|
+C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Kill mobs that have glowing balls of energy and these are released when they die, run thru the energy orgs to collect them.|
+C Time is Running Out|QID|66081|M|55.07,76.73|Z|2025|H|N|Pick up the Blue floating Temporal Collector.|
+C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Keep killing and collecting energy until you get enough.|
 T Time is Running Out|QID|66081|M|57.44,78.90|Z|2025|N|To Siaszerathel.|
 T Time in a Bottle|QID|66082|M|57.44,78.90|Z|2025|N|To Siaszerathel.|
-A Feels Like the First Time|QID|66083|PRE|66081&66082|M|57.52,78.83|Z|2025|
-C Feels Like the First Time|QID|66083|M|57.61,78.36|Z|2025|QO|1|CHAT|N|Speak with Andantenormu.|
-C Feels Like the First Time|QID|66083|M|57.66,78.34|Z|2025|QO|2|NC|N|Collector drained.|
-C Feels Like the First Time|QID|66083|M|57.65,78.38|Z|2025|QO|3|NC|N|Conduit empowered.|
-C Feels Like the First Time|QID|66083|M|57.63,78.44|Z|2025|QO|4|NC|N|Artifact returned.|
-C Feels Like the First Time|QID|66083|M|57.58,78.32|Z|2025|QO|5|NC|N|Personal timeline restored.|
+A Feels Like the First Time|QID|66083|PRE|66081&66082|M|57.52,78.83|Z|2025|N|From Andantenormu.|
+C Feels Like the First Time|QID|66083|M|57.61,78.36|Z|2025|QO|1|CHAT|N|Tell Andantenormu you are ready to begin.|
+C Feels Like the First Time|QID|66083|M|57.66,78.34|Z|2025|QO|2|H|N|Click on the Collector.|
+C Feels Like the First Time|QID|66083|M|57.65,78.38|Z|2025|QO|3|H|N|Click on the Blue Crystal Focus.|
+C Feels Like the First Time|QID|66083|M|57.63,78.44|Z|2025|QO|4|H|N|Click on the gold Artifact floating to the right of the Crystal Focus.|
+C Feels Like the First Time|QID|66083|M|57.58,78.32|Z|2025|QO|5|NC|N|Wait for Andantenormu to restore your personal timeline.|
 T Feels Like the First Time|QID|66083|M|57.52,78.80|Z|2025|N|To Andantenormu.|
 A Times Like These|QID|66084|PRE|66083|M|57.52,78.80|Z|2025|N|From Andantenormu.|
 A If We Could Turn Back Time|QID|66085|PRE|66083|M|57.45,78.93|Z|2025|N|From Siaszerathel.|
-C If We Could Turn Back Time|QID|66085|M|58.61,78.21|Z|2025|QO|1|NC|N|First rift closed.|
-C If We Could Turn Back Time|QID|66085|M|59.81,79.31|Z|2025|QO|2|NC|N|Zera observed.|
-C If We Could Turn Back Time|QID|66085|M|60.01,79.28|Z|2025|QO|3|NC|N|Second rift closed.|
-C If We Could Turn Back Time|QID|66085|M|59.97,77.19|Z|2025|QO|4|NC|N|Third rift closed.|
-C If We Could Turn Back Time|QID|66085|M|59.95,77.22|Z|2025|QO|5|NC|N|Stranger met.|
-C Times Like These|QID|66084|M|59.04,78.71|Z|2025|QO|1|NC|N|Temporal Residue.|
+C Times Like These|QID|66084|M|59.04,78.71|Z|2025|N|Kill and loot the Time Lost  mobs to collect the Temporal Residue.|S|
+C If We Could Turn Back Time|QID|66085|M|58.61,78.21|Z|2025|QO|1|H|N|Click on the rift.|
+C If We Could Turn Back Time|QID|66085|M|59.81,79.31|Z|2025|QO|2|CHAT|N|Talk to Zera.|
+C If We Could Turn Back Time|QID|66085|M|60.01,79.28|Z|2025|QO|3|H|N|Click on the second rift.|
+C If We Could Turn Back Time|QID|66085|M|59.97,77.19|Z|2025|QO|4|H|N|Click on the last rift.|
+C If We Could Turn Back Time|QID|66085|M|59.95,77.22|Z|2025|QO|5|CHAT|N|Ask the stranger if he is a timewalker.|
+C Times Like These|QID|66084|M|59.04,78.71|Z|2025|N|Continue killing the Time-Lost mobs until you have enough Temporal Residue.|US|
 T If We Could Turn Back Time|QID|66085|M|57.46,78.92|Z|2025|N|To Siaszerathel.|
 T Times Like These|QID|66084|M|57.53,78.84|Z|2025|N|To Andantenormu.|
 A Closing Time|QID|66087|PRE|66085&66084|M|57.54,78.88|Z|2025|N|From Aeonormu.|
-C Closing Time|QID|66087|M|56.98,83.29|Z|2025|QO|1|NC|N|Timeline preserved (100%).|
+C Closing Time|QID|66087|M|56.98,83.29|Z|2025|N|Go to the marked area and kill Time Lost mobs, Use your [color=33fff9]Extra Action Button [/color] to emplower your Bronze allies, and do some damage to the time-lost mobs as well. Click on the marked items to pick up, close the rifts, etc in order to preserve the timeline.|
 T Closing Time|QID|66087|M|57.54,78.86|Z|2025|N|To Aeonormu.|
 A Catching Up to Chromie|QID|65935|PRE|66087|M|57.53,78.81|Z|2025|N|From Andantenormu.|
-C Catching Up to Chromie|QID|65935|M|59.69,81.04|Z|2025|QO|1|NC|N|Meet Chromie at the Bronze Temple.|
+C Catching Up to Chromie|QID|65935|M|59.69,81.04|Z|2025|NC|N|Meet Chromie at the Bronze Temple.|
 T Catching Up to Chromie|QID|65935|M|59.57,81.63|Z|2025|N|To Chromie.|
 A Time-Locked Timewalkers|QID|65947|PRE|65935|M|59.57,81.63|Z|2025|N|From Chromie.|
 A Cracks in Time|QID|65948|PRE|65935|M|59.57,81.63|Z|2025|N|From Chromie.|
 A Quelling Causalities|QID|66646|PRE|65935|M|59.57,82.66|Z|2025|N|From Andantenormu.|
-C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|2|NC|N|East Crystal yanked.|
-C Cracks in Time|QID|65948|M|58.26,82.90|Z|2025|QO|1|NC|N|West Crystal yanked.|
-C Cracks in Time|QID|65948|M|58.25,82.87|Z|2025|QO|3|NC|N|Temporal energy collected.|
-C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025|QO|1|N|Time Elementals slain (100%).|
-C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025|QO|1|NC|N|Timewalkers Freed.|
+C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025|N|Kill the Time Elementals as you go.|S|
+C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025|NC|EAB|N|Use your [color=33fff9]Extra Action Button [/color] to free the Timewalkers. There are exactly 8, so don't skip any.|S|
+C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|2|H|N|Also use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
+C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|3<50|H|N|Pick up the shards from the ground.|
+C Cracks in Time|QID|65948|M|58.26,82.90|Z|2025|QO|1|H|N|Again use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
+C Cracks in Time|QID|65948|M|58.25,82.87|Z|2025|QO|3|H|N|Pick up the shards.|
+C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025|NC|EAB|N|Continue using your [color=33fff9]Extra Action Button [/color] until all the Timewalkers are free.|US|
+C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025|N|Keep killing the Time Elementals until this step closes.|US|
 T Quelling Causalities|QID|66646|M|59.57,82.66|Z|2025|N|To Andantenormu.|
 T Time-Locked Timewalkers|QID|65947|M|59.58,81.73|Z|2025|N|To Chromie.|
 T Cracks in Time|QID|65948|M|59.58,81.73|Z|2025|N|To Chromie.|
 A The Once and Future Team|QID|65938|PRE|66646&65947&65948|M|59.58,81.73|Z|2025|N|From Chromie.|
-C The Once and Future Team|QID|65938|M|60.33,83.11|Z|2025|QO|1|NC|N|Use Timewalker Staff on the Temple Door Bubble.|
-C The Once and Future Team|QID|65938|M|60.52,83.55|Z|2025|QO|2|NC|N|Giant Time Elemental.|
+C The Once and Future Team|QID|65938|M|60.59,83.45|Z|2025|QO|1|EAB|NC|N|Go to the top of the ramp and use the[color=33fff9]Extra Action Button [/color] to break the shield on the Temple Door Bubble.|
+C The Once and Future Team|QID|65938|M|60.52,83.55|Z|2025|QO|2|N|Fight the Giant Time Elemental.|
 T The Once and Future Team|QID|65938|M|59.59,81.70|Z|2025|N|To Chromie.|
 A The Never-Final Countdown|QID|65962|PRE|65938|M|59.59,81.70|Z|2025|N|From Chromie.|
-C The Never-Final Countdown|QID|65962|M|59.58,81.72|Z|2025|QO|1|CHAT|N|Speak to Chromie.|
-C The Never-Final Countdown|QID|65962|M|60.20,82.33|Z|2025|QO|2|CHAT|N|[PH] Speak with Capatain Exposition.|
-A An Anomalous Shrine|QID|67093|PRE|65938|M|60.27,82.02|Z|2025|N|From Archivist Areniel.|
-A Entropic Remnants|QID|67154|PRE|65938|M|60.27,82.02|Z|2025|N|From Archivist Areniel.|
+C The Never-Final Countdown|QID|65962|M|59.58,81.72|Z|2025|QO|1|CHAT|N|Tell Chromie you are ready.|
+f Temporal Conflux|ACTIVE|65962|M|59.91,81.37|Z|2025|N|At Warden Dialash.|
+A Entropic Remnants|QID|67154|PRE|65938|M|60.29,82.04|Z|2025|N|From Archivist Areniel.|
+A An Anomalous Shrine|QID|67093|PRE|65938|M|60.29,82.04|Z|2025|N|From Archivist Areniel.|
 T The Never-Final Countdown|QID|65962|M|60.05,82.45|Z|2025|N|To Nozdormu.|
 A Tumbling Through Time|QID|70040|PRE|65962|M|60.05,82.45|Z|2025|N|From Nozdormu.|
-C Tumbling Through Time|QID|70040|M|59.52,82.54|Z|2025|QO|1|CHAT|N|Speak with Soridormi.|
-C Tumbling Through Time|QID|70040|M|59.32,82.19|Z|2025|QO|3|CHAT|N|Speak with Siaszerathel.|
-C Tumbling Through Time|QID|70040|M|60.18,81.77|Z|2025|QO|2|CHAT|N|Speak with Andantenormu.|
-f Temporal Conflux|QID|70040|M|59.91,81.37|Z|2025|N|At Warden Dialash.|
-C Tumbling Through Time|QID|70040|M|60.07,82.44|Z|2025|QO|4|CHAT|N|Speak with Nozdormu.|
+C Tumbling Through Time|QID|70040|M|59.52,82.54|Z|2025|QO|1|CHAT|N|Tell Soridormi that Nozdormu wants to see her.|
+C Tumbling Through Time|QID|70040|M|59.32,82.19|Z|2025|QO|3|CHAT|N|Tell Siaszerathel that Nozdormu wants to see him.|
+C Tumbling Through Time|QID|70040|M|60.18,81.77|Z|2025|QO|2|CHAT|N|Tell Andantenormu that Nozdormu wants to see him.|
+C Tumbling Through Time|QID|70040|M|60.07,82.44|Z|2025|QO|4|CHAT|N|Tell Nozdormu tthat everyone is ready.|
 T Tumbling Through Time|QID|70040|M|60.06,82.44|Z|2025|N|To Nozdormu.|
 A To the Future!|QID|66028|PRE|70040|M|60.06,82.44|Z|2025|N|From Nozdormu.|
 A Temporal Tuning|QID|66029|PRE|70040|M|60.06,82.44|Z|2025|N|From Nozdormu.|
 T To the Future!|QID|66028|M|61.11,50.87|Z|2085|N|To Soridormi.|
 A Resistance Isn't Futile|QID|66030|PRE|66028|M|61.11,50.87|Z|2085|N|From Soridormi.|
 A Making Time|QID|66031|PRE|66028|M|61.46,50.22|Z|2085|N|From Soridormi.|
+F Temporal Conflux Glyph|ACTIVE|99999|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|N|Just under the roof of the tower behind the Bronze Temple.|ACH|16098|
 C Making Time|QID|66031|M|51.28,25.75|Z|2085|QO|1|NC|N|Essence Collected.|
 C Resistance Isn't Futile|QID|66030|M|44.79,43.52|Z|2085|QO|1|NC|U|192467|N|Injured Resistance Fighters healed.|
 T Resistance Isn't Futile|QID|66030|M|61.09,50.82|Z|2085|N|To Soridormi.|
