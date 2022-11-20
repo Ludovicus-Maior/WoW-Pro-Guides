@@ -198,7 +198,7 @@ C Supplies!|QID|65870|M|33.90,30.47|Z|2024|QO|3|NC|N|Pick up the basket of hunti
 C Ill Gnolls With Ill Intent|QID|65872|M|60.20,41.41|Z|2132|N|Shadepaw gnolls slain.|S|
 C Gnoll Way Out|QID|65871|QO|1|M|46.60,42.33|Z|2132|NC|N|Click on the cages to rescue the Tuskarr.|S|
 C Supplies!|QID|65870|QO|1|M|28.94,75.19|Z|2132|NC|N|Pick up the barrel Salt.|
-C Gnoll Way Out|QID|65871|QO|2|M|41.60,64.52|Z|2132|NC|N|Click on Norukk who is lying on the ground here.|
+C Gnoll Way Out|QID|65871|QO|2|M|41.60,64.52|Z|2132|NC|N|Click on Norukk who is lying on the ground deeper down in the cave.|
 C Supplies!|QID|65870|QO|2|M|51.66,36.67|Z|2132|NC|N|Click the barrel of skinning tools.|
 K Kargpaw the Fetid|ACTIVE|65873|QO|1|M|40.44,17.97|Z|2132|N|Kill and loot Kargpaw.|T|Kargpaw the Fetid|
 C Gnoll Way Out|QID|65871|QO|1|M|46.60,42.33|Z|2132|NC|N|Finish letting the Tuskarr free.|US|
@@ -210,9 +210,9 @@ T Ill Gnolls with Ill Intent|QID|65872|M|34.37,31.02|Z|2024|N|To Brena.|
 A Spreading Decay|QID|66239|PRE|65871&65872&65873&65870|M|34.38,31.02|Z|2024|N|From Brena.|
 T Spreading Decay|QID|66239|M|28.69,34.83|Z|2024|N|To Brena.|
 A Another Ambush|QID|65869|PRE|66239|M|28.69,34.83|Z|2024|N|From Brena.|
-C Another Ambush|QID|65869|M|28.69,34.75|Z|2024|QO|1|CHAT|N|Speak to Akiun.|
+C Another Ambush|QID|65869|M|28.68,34.75|Z|2024|QO|1|CHAT|
 A Falling Water|QID|71233|PRE|66239|M|28.47,35.11|Z|2024|N|From Unkimi.|RANK|2|
-C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|NC|N|Bodies examined.|
+C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|NC|N|A couple Oozing Decay will spawn after you examine the body.|
 T Another Ambush|QID|65869|M|28.78,34.74|Z|2024|N|To Brena.|
 A Urgent Action Required|QID|66026|PRE|65869|M|28.78,34.74|Z|2024|N|From Brena.|
 F Creektooth Den Glyph|QID|99999|M|26.76,31.64|Z|2024;The Azure Plains!Dragonflight|N|Mount up and grab the glyph, just above a tree snag, Then fly over to Brena.|ACH|16069|
