@@ -2334,11 +2334,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 WoWPro.why[guideIndex] = "NextStep(): Reputation steps skipped by default"
                 local standingId, earnedValue, hasBonusRepGain
                 if Friendship then
-                    local _, friendRep, _, name, _, _, friendTextLevel, friendThreshold = _G.GetFriendshipReputation(factionIndex);
-                    friendTextLevel = friendTextLevel:lower()
+                    local reputationInfo = _G.C_GossipInfo.GetFriendshipReputation(factionIndex)
+                    local friendTextLevel = reputationInfo.reaction:lower()
                     standingId = Rep2IdAndClass[friendTextLevel][1]
-                    earnedValue = friendRep - friendThreshold
-                    WoWPro:dbp("NPC %s is a %s: standing %d, earned %d", name, friendTextLevel, standingId, earnedValue)
+                    earnedValue = reputationInfo.standing - reputationInfo.nextThreshold
+                    WoWPro:dbp("NPC %s is a %s: standing %d, earned %d", reputationInfo.name, friendTextLevel, standingId, earnedValue)
                 else
                     local name, bottomValue, _
                     name, _, standingId, bottomValue, _, earnedValue, _, _, _, _, _, _, _, _, hasBonusRepGain = _G.GetFactionInfoByID(factionIndex)
