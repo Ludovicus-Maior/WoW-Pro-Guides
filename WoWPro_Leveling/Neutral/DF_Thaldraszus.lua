@@ -6,6 +6,14 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currently not active, please come back after 3pm PST on 11/28.|
+
+;Renown Quests
+A To Dragonbane Keep!|QID|71210|PRE|66465&66467|M|PLAYER|N|From Herald Flaps.|DFREN|2511;valdrakken;5|;may be earlier
+A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|2511;valdrakken;7|
+A Continued Waygate Exploration|QID|70702|PRE||M|PLAYER|N|From Doc Nanners.|DFREN|2507;dragonscale exp;8|
+A A Cataloger's Paradise|QID|69869|M|PLAYER|N|From Doc Nanners.|DFREN|2507;dragonscale exp;8|
+A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|2507;dragonscale exp;7|
+
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F South Hold Gate|N|This one is inside one of the towers, but not the highest tower, the one just below it.|M|35.60,85.66|Z|2025;Thaldraszus!Dragonflight|ACH|16100|
 ;PLACED F Valdrakken|N|Above the highest tower over Valdrakken.|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|ACH|16101|
@@ -13,6 +21,7 @@ N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currentl
 ;PLACED F Passage of Time|N|Floating just under the mountain archway, just behind the viaducts.|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|ACH|16667|
 ;PLACED F Temporal Conflux|N|Inside the tower.|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|ACH|16098|
 ;PLACED F Gelikyr Overlook|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|ACH|16666|
+;Put the remainder at the end of the guide, just in case someone hasn't gotten them yet.
 ;F Algeth’era|N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|ACH|16102|
 ;F Algeth’ar Academy|N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|ACH|16104|
 ;F Veiled Ossuary|N|Inside the tower.|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|ACH|16105|
@@ -53,22 +62,18 @@ C Orientation: Valdrakken|QID|72406|QO|3|M|36.43,62.83|Z|2112|N|Open Dothenos' s
 C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger.|
 C Orientation: Valdrakken|QID|72406|QO|2|M|46.59,79.09|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
 C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|NC|U|194441|N|Hungry Hatchling Fed. He in above the bank, not in it.|
-C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|NC|N|Examine the Storage Chest inside the bank.|
-C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|NC|N|Pick up the goblet.|
-h Valdrakken|QID|72192|M|47.26,46.47|Z|2112|N|At Tithris.|
+C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank.|
+C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Pick up the goblet.|
+h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|
 A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|2511;valdrakken;7|;add iz?
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
-C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|N|Click on Provisioner Thom.|
+C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|H|N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
 T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.|
 T Eyes and Ears|QID|66166|M|54.72,47.33|Z|2112|N|To Captain Drine.|
 A Southern Exposure|QID|66167|PRE|66166&66163|M|54.89,47.01|Z|2112|N|From Captain Drine.|
 T Orientation: Valdrakken|QID|72406|M|58.21,35.09|Z|2112|N|To Unatos.|
-A Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|From Jyhanna.|; quest not offered, must have PRE?
-C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|U|194441|N|Find Lubbins.|
-C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025|QO|2|NC|U|194441|N|Help Lubbins.|
-A An Expert Opinion|QID|70697|PRE|70647|M|10.41,58.26|Z|2112|N|From Jyhanna.|
 C Southern Exposure|QID|66167|M|35.69,81.93|Z|2025|QO|1|NC|N|Travel to South Hold Gate.|
 C Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|QO|2|NC|N|Click on Guardian Velomir.|
 T Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|N|To Guardian Velomir.|
@@ -105,7 +110,7 @@ T Fire Fighter|QID|66251|M|40.15,85.13|Z|2025|N|To Guardian Velomir.|
 A Reporting In|QID|66252|PRE|66251|M|40.15,85.13|Z|2025|N|From Guardian Velomir.|
 T Garden Variety|QID|72189|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
 A Azeroth Pest Control|QID|66134|PRE|72189|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
-C Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|Kill the Agitated Seedlings around the Gardem.|
+C Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|Kill the Agitated Seedlings around the Garden.|
 T Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
 A The Gardener's Apprentice|QID|66135|PRE|66134|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
 C The Gardener's Apprentice|QID|66135|M|38.92,74.20|Z|2025|NC|N|Click on the junk in this room.|S|
@@ -200,7 +205,7 @@ C The Land Awakens|QID|66473|M|55.33,65.27|Z|2025|QO|1|N|You have to kill the Cr
 T The Land Awakens|QID|66473|M|54.79,64.37|Z|2025|N|To Sharnax.|
 A Primal List|QID|66472|PRE|66473|M|54.79,64.37|Z|2025|N|From Sharnax.|
 T Primal List|QID|66472|M|52.65,67.30|Z|2025|N|To Commander Thadezus.|
-A The Hermit's Garden|QID|72399|M|52.58,69.91|N|From Agues.|
+A The Hermit's Garden|QID|72399|M|52.58,69.91|N|From Agues.|LEAD|69933|
 T The Wayward Watcher|QID|71219|M|54.70,69.47|Z|2025|N|To Waywatcher Alvi.|
 A Supplying in Weight|QID|66100|PRE|71219|M|54.70,69.47|Z|2025|N|From Waywatcher Alvi.|
 A A Sketchy Request|QID|66230|M|54.70,69.47|Z|2025|N|From Waywatcher Alvi.|RANK|2|
@@ -275,7 +280,7 @@ A Cracks in Time|QID|65948|PRE|65935|M|59.57,81.63|Z|2025|N|From Chromie.|
 A Quelling Causalities|QID|66646|PRE|65935|M|59.57,82.66|Z|2025|N|From Andantenormu.|
 C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025|N|Kill the Time Elementals as you go.|S|
 C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025|NC|EAB|N|Use your [color=33fff9]Extra Action Button [/color] to free the Timewalkers. There are exactly 8, so don't skip any.|S|
-C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|2|H|N|Also use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
+C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|2|EAB|N|Also use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
 C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|3<50|H|N|Pick up the shards from the ground.|
 C Cracks in Time|QID|65948|M|58.26,82.90|Z|2025|QO|1|H|N|Again use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
 C Cracks in Time|QID|65948|M|58.25,82.87|Z|2025|QO|3|H|N|Pick up the shards.|
@@ -302,132 +307,239 @@ C Tumbling Through Time|QID|70040|M|60.07,82.44|Z|2025|QO|4|CHAT|N|Tell Nozdormu
 T Tumbling Through Time|QID|70040|M|60.06,82.44|Z|2025|N|To Nozdormu.|
 A To the Future!|QID|66028|PRE|70040|M|60.06,82.44|Z|2025|N|From Nozdormu.|
 A Temporal Tuning|QID|66029|PRE|70040|M|60.06,82.44|Z|2025|N|From Nozdormu.|
+P The Primalist Future|ACTIVE|66028|M|59.82,82.24|Z|Thaldraszus|N|Take the portal to future Temporal Conflux.|
 T To the Future!|QID|66028|M|61.11,50.87|Z|2085|N|To Soridormi.|
 A Resistance Isn't Futile|QID|66030|PRE|66028|M|61.11,50.87|Z|2085|N|From Soridormi.|
-A Making Time|QID|66031|PRE|66028|M|61.46,50.22|Z|2085|N|From Soridormi.|
-F Temporal Conflux Glyph|ACTIVE|99999|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|N|Just under the roof of the tower behind the Bronze Temple.|ACH|16098|
-C Making Time|QID|66031|M|51.28,25.75|Z|2085|QO|1|NC|N|Essence Collected.|
-C Resistance Isn't Futile|QID|66030|M|44.79,43.52|Z|2085|QO|1|NC|U|192467|N|Injured Resistance Fighters healed.|
+A Making Time|QID|66031|PRE|66028|M|61.46,50.22|Z|2085|N|From Possible Future You.|
+C Making Time|QID|66031|M|51.28,25.75|Z|2085|EAB|N|Kill and loot mobs as you look for the injured. The various clicky balls of energy in the area are NOT what you are looking for (or that's a bug).\n\n[color=FF0000]NOTE: [/color]Use the [color=33fff9]Extra Action Button [/color] for summoning Zera to assist you. She is pretty helpful.|S|
+C Resistance Isn't Futile|QID|66030|M|44.79,43.52|Z|2085|U|192467|H|N|Click the Injured Resistance Fighters.|S|
+C Temporal Tuning|QID|66029|M|47.61,41.57|Z|2085|NC|U|192749|N|Use the [color=33fff9]Chrono Crystal [/color]while standing under Chromie and Eternus.|
+C Resistance Isn't Futile|QID|66030|M|44.79,43.52|Z|2085|U|192467|H|N|Click the Injured Resistance Fighters.|US|
+C Making Time|QID|66031|M|51.28,25.75|Z|2085|EAB|N|Continue to kill and loot mobs until you have enough essence.|US|
+T Making Time|QID|66031|M|61.48,50.18|Z|2085|N|Mount up and fly up to the platform to turn quest back in to Possible Future You.|
 T Resistance Isn't Futile|QID|66030|M|61.09,50.82|Z|2085|N|To Soridormi.|
-T Making Time|QID|66031|M|61.48,50.18|Z|2085|N|To Soridormi.|
 A Return to the Present|QID|66032|PRE|66030&66031|M|61.11,50.81|Z|2085|N|From Soridormi.|
+P Temporal Conflux Portal|ACTIVE|66032|M|61.04,50.53|Z|2085|N|Take the portal to the present Temporal Conflux.|IZ|2085|
 T Return to the Present|QID|66032|M|60.06,82.46|Z|2025|N|To Nozdormu.|
 A To the... Past?|QID|66033|PRE|66032|M|60.06,82.46|Z|2025|N|From Nozdormu.|
-P Temporal Conflux|ACTIVE|66033|M|59.98,82.08|Z|Thaldraszus|N|Take the portal to Temporal Conflux.|
+A Temporal Two-ning|QID|72519|PRE|66032|M|60.06,82.46|Z|2025|N|From Nozdormu.|
+P Azmerloth|ACTIVE|66033|M|59.98,82.08|Z|2025|N|Take the portal to Temporal Conflux.|
 T To the... Past?|QID|66033|M|59.83,66.14|Z|2092|N|To Andantenormu.|
 A Murloc Motes|QID|66035|PRE|66033|M|59.83,66.14|Z|2092|N|From Andantenormu.|
-A Mugurlglrlgl!|QID|66036|PRE|66033|M|59.91,66.01|Z|2092|N|From Varian Wryngrrlgulgll.|
-C Temporal Tuning|QID|66029|M|61.52,61.82|Z|2092|QO|1|NC|U|192749|N|Temporal Position Fixed (100%).|
-C Murloc Motes|QID|66035|M|58.47,64.15|Z|2092|QO|1|NC|N|Temprgrlglr Motes collected.|
-C Mugurlglrlgl!|QID|66036|M|59.71,64.82|Z|2092|QO|1|N|Deathling slain.|
+A Mugurlglrlgl!|QID|66036|PRE|66033|M|59.91,65.99|Z|2092|N|From Varian Wryngrrlgulgll.|
+C Murloc Motes|QID|66035|M|58.47,64.15|Z|2092|NC|N|Run near the glowing golden balls to collect the Temprgrlglr Motes.|S|
+C Mugurlglrlgl!|QID|66036|M|59.71,64.82|Z|2092|N|Kill Deathling.|S|
+C Temporal Two-ning|QID|72519|M|47.61,41.57|Z|2085|NC|U|192749|N|Use the [color=33fff9]Chrono Crystal [/color]while standing under Chromie and Eternus.|
+C Mugurlglrlgl!|QID|66036|M|59.71,62.82|Z|2092|N|Kill Deathling.|US|
+C Murloc Motes|QID|66035|M|58.47,62.15|Z|2092|NC|N|Finish collecting the Temprgrlglr Motes (you just have to get close to them.)|US|
 T Murloc Motes|QID|66035|M|59.83,66.15|Z|2092|N|To Andantenormu.|
-T Temporal Tuning|QID|66029|M|60.06,82.46|Z|2025|N|To Nozdormu.|
-C Mugurlglrlgl!|QID|66036|M|59.83,66.02|Z|2092|QO|2|N|Deathling Destroyer slain.|
 T Mugurlglrlgl!|QID|66036|M|59.90,65.97|Z|2092|N|To Varian Wryngrrlgulgll.|
-A Deathwingurlugull!|QID|70373|PRE|66035&66029&66036|M|59.90,65.97|Z|2092|N|From Varian Wryngrrlgulgll.|
-C Deathwingurlugull!|QID|70373|M|59.81,65.70|Z|2092|QO|1|NC|N|Enter Hopper.|
-C Deathwingurlugull!|QID|70373|M|61.12,60.38|Z|2092|QO|2|N|Deathwingurlugull slain.|
+A Deathwingurlugull!|QID|70373|PRE|66035&66036|M|59.90,65.97|Z|2092|N|From Varian Wryngrrlgulgll.|
+C Deathwingurlugull!|QID|70373|M|59.81,65.70|Z|2092|QO|1|V|N|Hop on the Murloc Hopper (airplane).|
+C Deathwingurlugull!|QID|70373|M|61.12,60.38|Z|2092|QO|2|N|Use the vehicle UI to kill Deathwingurlugull. You must target him, You have no control over the route, you just fly in circles around him until he dies. The 4th button is a heal.|T|Deathwingurlugull|
 T Deathwingurlugull!|QID|70373|M|59.91,65.96|Z|2092|N|To Varian Wryngrrlgulgll.|
 A Back to Reality|QID|66037|PRE|70373|M|59.84,66.13|Z|2092|N|From Andantenormu.|
+P Temporal Conflux Portal|ACTIVE|66037|M|59.71,66.11|Z|2092|N|Take the portal to the present Temporal Conflux.|IZ|2092|
 T Back to Reality|QID|66037|M|60.06,82.46|Z|2025|N|To Nozdormu.|
+T Temporal Two-ning|QID|72519|M|60.06,82.46|Z|2025|N|To Nozdormu.|
 A On Your Mark... Get Set...|QID|66660|PRE|66037|M|60.06,82.46|Z|2025|N|From Nozdormu.|
+P Gnoll Wars Portal|ACTIVE|66660|M|59.92,82.18|Z|2025|N|Take the portal to the Gnoll Wars.|IZ|2025|
 T On Your Mark... Get Set...|QID|66660|M|43.39,69.21|Z|2090|N|To Andantenormu.|
-A Race Through Time!|QID|66038|PRE|66660|M|43.39,69.21|Z|2090|N|From Unknown.|
-C Race Through Time!|QID|66038|Z|2088|QO|1|NC|N|Race Through Time.|
+A Race Through Time!|QID|66038|PRE|66660|FAIL|M|43.39,69.21|Z|2090|N|You failed that time, you can talk to Andantenormu to skip the race or give it another try.|;quest bugged right now, cant succeed as pandaria area doesnt work. also FAIL appears not to work here
+A Race Through Time!|QID|66038|PRE|66660|M|43.39,69.21|Z|2090|N|From Andantenormu.\n\n[color=FF0000]NOTE: [/color] This is a timed quest, Mount up, run thru the boots for speedup, avoid the puddles, dont  stop to fight, follow the road and go thru the portal when you see it.|
+C Race Through Time!|QID|66038|M|43.1,67.9;43,66.8;42.6,65.1;41.9,63.8;41.6,61.9;40.6,59.6;40.3,57.7;39.6,56.3;38,54;36.9,54.4;35.7,53.6;34.6,53.1;33.7,52;32.8,50.4;32.5,49.9|CS|Z|2090|NC|N|Follow the road to Stormwind.|IZ|2090|
+C Race Through Time!|QID|66038|M|47.2,66.7;46.6,67.6;45.9,68.3;45.1,69.6;44.4,69.6;43.2,70.6;42,72.3;41.4,73.5;40.9,75;40.3,76;39.9,76.7;39.6,76.8|CS|Z|2091|NC|N|Follow the road towards Ahn'Qiraj.|IZ|2091|
+C Race Through Time!|M|32.1,63.5|Z|2088|NC|N|Follow the road towards the Gate of the Setting Sun.|IZ|2088|
 T Race Through Time!|QID|66038|M|52.34,73.64|Z|2089|N|To Andantenormu.|
 A Chromie Time|QID|66039|PRE|66038|M|52.34,73.64|Z|2089|N|From Andantenormu.|
-C Chromie Time|QID|66039|M|53.63,43.24|Z|2089|QO|1|NC|U|192749|N|Temporal Position Fixed (100%).|
+R Chromie and Eternus|ACTIVE|66039|M|53.63,43.24|CC|Z|2089|EAB|N|Run along the ramparts to where Chromie and Eternus are stuck. You have an [color=33fff9]Extra Action Button [/color] that can provide some assistance along the way.|
+C Chromie Time|QID|66039|M|53.63,43.24|Z|2089|NC|U|192749|N|When close to Chromie use the Chrono Crystal.|
 T Chromie Time|QID|66039|M|53.31,43.62|Z|2089|N|To Chromie.|
 A Back to the Future|QID|66040|PRE|66039|M|53.31,43.62|Z|2089|N|From Chromie.|
-C Back to the Future|QID|66040|M|53.31,43.62|Z|2089|QO|1|CHAT|N|Speak with Chromie (Optional).|
-C Back to the Future|QID|66040|M|52.93,42.44|Z|2089|QO|2|NC|N|Allies defended (100%).|
-C Back to the Future|QID|66040|M|60.20,82.32|Z|2025|QO|3|NC|N|[PH] Talk to Captain Exposition!.|
-C Back to the Future|QID|66040|M|60.09,82.42|Z|2025|QO|4|NC|N|Check in with Chromie.|
+C Back to the Future|QID|66040|M|53.31,43.62|Z|2089|QO|1|CHAT|N|Speak with Chromie (Optional if someone else has).|
+C Back to the Future|QID|66040|M|52.93,42.44|Z|2089|QO|2|N|Kill the mobs that are incoming.|
+C Back to the Future|QID|66040|M|60.09,82.42|Z|2025|QO|3|CHAT|N|Ask Chromie if Nozdormu is ok.|
 T Back to the Future|QID|66040|M|60.06,82.45|Z|2025|N|To Nozdormu.|
 A Moving On|QID|66221|PRE|66040|M|60.06,82.45|Z|2025|N|From Nozdormu.|
-C Entropic Remnants|QID|67154|M|56.27,82.47|Z|2025|QO|1|NC|N|Vitrified Sand.|
-C An Anomalous Shrine|QID|67093|M|59.35,75.02|Z|2025|QO|1|N|Ancient Timekeeper slain (Optional).|
-C An Anomalous Shrine|QID|67093|M|59.35,75.09|Z|2025|QO|2|NC|N|Anomalous Mote inspected.|
-C An Anomalous Shrine|QID|67093|M|59.39,75.34|Z|2025|QO|3|NC|N|Echo of Duty.|
-A To Dragonbane Keep!|QID|71210|PRE|66465&66467|M|54.60,69.47|Z|2025|N|From Herald Flaps.|
-A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112|N|From Aspiring Goblin Engineer.|
-T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu.|
+F Temporal Conflux Glyph|ACTIVE|99999|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|N|Just under the roof of the tower behind the Bronze Temple.|ACH|16098|
+C Entropic Remnants|QID|67154|M|57.8,77.9|Z|2025|N|Kill and loot mobs in the Shifting sands to get the Vitrified Sand.|
+C An Anomalous Shrine|QID|67093|M|59.35,75.02|Z|2025|QO|1;2|N|Kill the Ancient Timekeeper or sneak past him(Optional, as in if he isnt here, you don't have to wait for him) Inspect the anomalous mote by the doors.|
+C An Anomalous Shrine|QID|67093|M|59.49,71.86|Z|2025|QO|3|H|N|Everything stuns, so avoid it all. Work your way to the Cache of the timeless and loot it for the Echo of Duty.|
+T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
+;A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112|N|From Aspiring Goblin Engineer.|;Deleted? LEAD?
+
+H Valdrakken|ACTIVE|66221|M|PLAYER|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|
+A Renown Supplies|QID|72672|M|58.18,35.01|Z|2112|DFREN|2511;Valdrakken;7|N|From Unatos.|
+T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
+C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza that all the Oathstones have been restored.|
+T Moving On|QID|66221|M|57.97,36.04|Z|2112|N|To Alexstrasza.|
+A Renown of the Dragon Isles|QID|71232|PRE|66221|M|57.97,36.04|Z|2112|N|From Alexstrasza.|
 T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112|N|To Captain Drine.|
-C Moving On|QID|66221|M|57.97,36.04|Z|2112|QO|1|CHAT|N|Speak with Alexstrasza.|
-A Making a Name|QID|70750|M|50.64,57.95|Z|2112|N|From Therazal.|
-T Dragonscale Expedition: Help Needed!|QID|70846|M|84.20,54.33|Z|2112|N|To Greyzik Cobblefinger.|
-A Jump-Start? Jump-Starting!|QID|70180|PRE|70846|M|84.20,54.33|Z|2112|N|From Greyzik Cobblefinger.|
-C Jump-Start? Jump-Starting!|QID|70180|M|84.74,54.78|Z|2112|QO|1|NC|U|194441|N|Pilot the Goblin Gyrocopter.|
+T Renown of the Dragon Isles|QID|71232|M|50.64,57.95|Z|2112|N|To Therazal.|
+A Aiding the Accord|QID|70750|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
+A Open Orientation|QID|72585|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal.|
+C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones and guides to get acuainted with the other factions.|S!US|
+t Open Orientation|QID|72585|M|50.64,57.95|Z|2112|N|To Therazal.|
+A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal.|
+A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112|N|From Jyhanna.|; quest not offered, must have PRE?
+C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|N|Find Lubbins in a ravine in the Petitioner's Concourse.|
+C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025|QO|2|H|N|Help Lubbins.|
+T Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|To Jyhanna.|
+A An Expert Opinion|QID|70697|PRE|70647|M|10.41,58.26|Z|2112|N|From Jyhanna.|
+
 T A Dryad's Work Is Never Done|QID|67094|M|72.89,66.17|Z|2112|N|To Thalendra.|
 A A Dryadic Remedy|QID|67606|PRE|67094|M|72.89,66.17|Z|2112|N|From Thalendra.|
-C Jump-Start? Jump-Starting!|QID|70180|M|85.51,55.41|Z|2112|QO|2|NC|U|194441|N|Super-charge the device (100%).|
-C Jump-Start? Jump-Starting!|QID|70180|M|86.36,51.75|Z|2112|QO|3|NC|U|194441|N|Eject from the Gyrocopter.|
-C Jump-Start? Jump-Starting!|QID|70180|M|84.32,53.76|Z|2112|QO|4|NC|U|194441|N|Activate the Engine of Innovation.|
+T Learning Ingenuity|QID|72773|M|84.12,54.35|Z|2112|N|To Greyzik Cobblefinger.|
+;T Dragonscale Expedition: Help Needed!|QID|70846|M|84.20,54.33|Z|2112|N|To Greyzik Cobblefinger.|
+A Jump-Start? Jump-Starting!|QID|70180|PRE|72773^70846|M|84.20,54.33|Z|2112|N|From Greyzik Cobblefinger.|
+C Jump-Start? Jump-Starting!|QID|70180|QO|1|M|84.74,54.78|Z|2112|V|N|Hop in the Goblin Gyrocopter.|
+C Jump-Start? Jump-Starting!|QID|70180|QO|2|M|85.51,55.41|Z|2112|NC|N|After a bit, a button while show up on your vehicle UI, Use it and target the Console below. Repeatedly|
+C Jump-Start? Jump-Starting!|QID|70180|QO|3|M|86.36,51.75|Z|2112|NC|U|194441|N|When the charging button changes to Eject, press it and float down. Aim for the platform if you don't want a long flight back.|
+C Jump-Start? Jump-Starting!|QID|70180|QO|4|M|84.32,53.76|Z|2112|H|N|Activate the Engine of Innovation.|
 T Jump-Start? Jump-Starting!|QID|70180|M|84.31,53.54|Z|2112|N|To Maiden of Inspiration.|
 A In Tyr's Footsteps|QID|70845|PRE|70180|M|84.31,53.54|Z|2112|N|From Maiden of Inspiration.|
 T Archival Assistance|QID|67007|M|34.95,28.15|Z|2112|N|To Kemora.|
-A Preserving the Past: Halls of Infusion|QID|66874|PRE|67007|M|34.95,28.15|Z|2112|N|From Kemora.|
-A Relic Recovery: Algeth'ar Academy|QID|66867|PRE|67007|M|35.04,27.60|Z|2112|N|From Theldren.|
-T Relaxation Time!|QID|72067|M|40.42,49.55|Z|2025|N|To Spa Concierge.|
+A Preserving the Past|QID|66868^66870^66871^66872^66873^66874^66875|PRE|67007|M|34.95,28.15|Z|2112|N|From Kemora. This is your weekly dungeon quest, it will vary each week.|LVL|70|
+A Relic Recovery|QID|66860^66861^66863^66864^66865^66866^66867|PRE|67007|M|35.04,27.60|Z|2112|N|From Theldren. This is your other weekly dungeon quest, it will vary each week.|LVL|70|
+T Relaxation Time!|QID|72067|M|34.09,31.29;40.42,49.55|CS|Z|2025|N|To Spa Concierge.|
 A Serene Dreams|QID|72246|PRE|72067|M|40.42,49.55|Z|2025|N|From Spa Concierge.|
 T Serene Dreams|QID|72246|M|40.49,48.91|Z|2025|N|To Xijan Thornpaw.|
 A Good Reviews|QID|70738|PRE|72246|M|40.49,48.91|Z|2025|N|From Xijan Thornpaw.|
 A Steam Cleaning|QID|70740|PRE|72246|M|40.46,48.88|Z|2025|N|From Quilius.|
-A Some Favorite Things|QID|70741|PRE|72246|M|41.48,47.45|Z|2025|N|From Steam Jet.|
-C Good Reviews|QID|70738|M|41.19,47.46|Z|2025|QO|2|NC|N|Youga Instructor Rescued.|
-A Derelict Fashion|QID|70377|PRE|72246|M|40.35,45.66|Z|2025|N|From Mudgatu.|
-C Some Favorite Things|QID|70741|M|40.94,46.07|Z|2025|QO|1|NC|N|Belongings Found.|
-C Steam Cleaning|QID|70740|M|40.97,45.65|Z|2025|QO|1|N|Elementals Slain.|
-C Good Reviews|QID|70738|M|40.95,45.21|Z|2025|QO|1|NC|N|Youga Students Rescued.|
-T Derelict Fashion|QID|70377|M|39.50,48.48|Z|2025|N|To Zeldis.|
+C Steam Cleaning|QID|70740|M|40.97,45.65|Z|2025|N|Kill the Elementals wandering around.|S|
+A Some Favorite Things|QID|70741|PRE|72246|M|41.48,47.45|Z|2025|N|From Misplaced Luggage.|
+C Good Reviews|QID|70738|M|40.95,45.21|Z|2025|QO|1|H|N|Rescue the tramatized Youga Students. Blizzard has conveniently marked their location on your mini-map.|S|
+C Some Favorite Things|QID|70741|M|40.94,46.07|Z|2025|H|N|Pick up misplaced belongings. Blizzard has conveniently marked their location on your mini-map.|S|
+C Good Reviews|QID|70738|M|41.19,47.46|Z|2025|QO|2|H|N|Rescue the Youga Instructor too.|S|
+K Mudgatu|AVAILABLE|70377|PRE|72246|M|40.35,45.66|Z|2025|N|Kill Mudgatu for a quest starting item.|T|Mudgatu|
+A Derelict Fashion|QID|70377|PRE|72246|M|40.35,45.66|Z|2025|N|From Derelict Sunglasses jut looted from Mudgatu.|O|U|280586|
+C Some Favorite Things|QID|70741|M|40.94,46.07|Z|2025|H|N|Pick up misplaced belongings.|US|
+C Good Reviews|QID|70738|M|40.95,45.21|Z|2025|H|N|Rescue the tramatized Youga Students.|US|
+C Steam Cleaning|QID|70740|M|40.97,45.65|Z|2025|N|CHECK TO SEE IF THIS IS REALLY A PRE - EDIT IF NEEDED Kill the Elementals wandering around.|US|
 T Steam Cleaning|QID|70740|M|40.46,48.88|Z|2025|N|To Quilius.|
 T Good Reviews|QID|70738|M|40.48,48.92|Z|2025|N|To Xijan Thornpaw.|
 T Some Favorite Things|QID|70741|M|40.48,48.92|Z|2025|N|To Xijan Thornpaw.|
-A Precious Baby|QID|70743|PRE|70377&70740&70738&70741|M|40.49,48.97|Z|2025|N|From Elzara.|
+A Precious Baby|QID|70743|PRE|70740&70738&70741|M|40.49,48.97|Z|2025|N|From Elzara.|
+T Derelict Fashion|QID|70377|M|39.50,48.48|Z|2025|N|To Zeldis.|
 C Precious Baby|QID|70743|M|38.94,45.28|Z|2025|QO|1|NC|N|Find the baby.|
-C Precious Baby|QID|70743|M|38.91,45.22|Z|2025|QO|2|NC|N|Comfort Baby.|
-A Look at the Bones!|QID|70744|PRE|70377&70740&70738&70741|M|38.90,45.24|Z|2025|N|From Baby.|
-C Look at the Bones!|QID|70744|M|38.87,45.20|Z|2025|QO|1|NC|N|Cleaned Messes.|
-T Look at the Bones!|QID|70744|M|40.50,48.92|Z|2025|N|To Xijan Thornpaw.|
+C Precious Baby|QID|70743|M|38.91,45.22|Z|2025|QO|2|H|N|Click on Baby to Comfort It.|
+A Look at the Bones!|QID|70744|PRE|70740&70738&70741|M|38.90,45.24|Z|2025|N|From Horrible Mess.|
+C Look at the Bones!|QID|70744|M|39.14,47.39|Z|2025|H|N|Click on the messes around the spa grounds.|
+;see if C Steam Cleaning Unsticky can be moved to here.
 T Precious Baby|QID|70743|M|40.48,48.98|Z|2025|N|To Elzara.|
+T Look at the Bones!|QID|70744|M|40.50,48.92|Z|2025|N|To Xijan Thornpaw.|
 A Enforced Relaxation|QID|70745|PRE|70744&70743|M|40.46,48.88|Z|2025|N|From Quilius.|
-C Enforced Relaxation|QID|70745|M|40.11,49.02|Z|2025|QO|1|N|Vadne Bleakheart slain.|
-T Enforced Relaxation|QID|70745|M|40.46,48.87|Z|2025|N|To Quilius.|
-A Clear the Battlefield|QID|66117|PRE|70745|M|59.14,74.14|Z|2022|
-A Ruby Life Pools: Primalist Invasion|QID|66119|PRE|70745|M|59.97,75.98|Z|2022|N|From Kildrumeh.|
-C Clear the Battlefield|QID|66117|M|59.02,76.71|Z|2022|QO|1|NC|U|194441|N|Stop the primalist assault (100%).|
-T Clear the Battlefield|QID|66117|M|59.02,76.71|Z|2022|
+K Vadne Bleakheart|ACTIVE|70745|QO|1|M|40.11,49.02|Z|2025|N|Vadne Bleakheart can be found in a small cave down below where you were killing elementals.|T|Vadne Bleakheart|
+T Enforced Relaxation|QID|70745|M|40.46,48.87|Z|2025|N|To Quilius. (back up top)|
 
-A Temple Treasures|QID|70111|PRE|66412|M|50.00,60.58|Z|2025|
 A Wotcher, Watcher?|QID|65913|PRE|66412|M|49.54,58.85|Z|2025|N|From Zuttiki.|
-C Wotcher, Watcher?|QID|65913|M|46.85,59.86|Z|2025|QO|1|NC|N|Mara found.|
-C Wotcher, Watcher?|QID|65913|M|46.51,60.01|Z|2025|QO|2|NC|N|Mara awoken.|
-C Temple Treasures|QID|70111|M|49.84,57.71|Z|2025|QO|1|NC|N|Titan Temple Relic.|
+C Wotcher, Watcher?|QID|65913|M|46.85,59.86|Z|2025|QO|1|H|N|Mara can be found inside Tyrhold Resevoir.|
+C Wotcher, Watcher?|QID|65913|M|46.51,60.01|Z|2025|QO|2|H|N|Click Mara.|
 T Wotcher, Watcher?|QID|65913|M|49.60,58.78|Z|2025|N|To Mara.|
 A Where There's a Ward, There's a Way|QID|70139|PRE|65913|M|49.60,58.78|Z|2025|N|From Mara.|
-C Where There's a Ward, There's a Way|QID|70139|M|51.34,56.52|Z|2025|QO|1|NC|N|North hall entered.|
-C Where There's a Ward, There's a Way|QID|70139|M|52.25,54.75|Z|2025|QO|2|NC|N|North ward checked.|
-C Where There's a Ward, There's a Way|QID|70139|M|51.48,61.35|Z|2025|QO|3|NC|N|East hall entered.|
-C Where There's a Ward, There's a Way|QID|70139|M|52.51,62.81|Z|2025|QO|4|NC|N|East ward checked.|
-T Where There's a Ward, There's a Way|QID|70139|M|49.61,58.76|Z|2025|N|To Mara.|
 A Preventative Maintenance|QID|65918|PRE|70139|M|49.55,58.86|Z|2025|N|From Zuttiki.|
-C Preventative Maintenance|QID|65918|M|49.08,56.59|Z|2025|QO|1|N|Unleashed Elementals slain.|
+C Preventative Maintenance|QID|65918|M|49.08,56.59|Z|2025|N|Kill the Unleashed Elementals as you go.|S|
+C Where There's a Ward, There's a Way|QID|70139|M|51.34,56.52|Z|2025|QO|1|NC|N|Enter the North hall, its up above a bit.|
+C Where There's a Ward, There's a Way|QID|70139|M|52.25,54.75|Z|2025|QO|2|H|N|Click the broken North ward.|
+C Where There's a Ward, There's a Way|QID|70139|M|51.48,61.35|Z|2025|QO|3|NC|N|you will find the East hall across the valley, at about the same hight as the North hall.|
+C Where There's a Ward, There's a Way|QID|70139|M|52.51,62.81|Z|2025|QO|4|H|N|Click the broken East ward.|
+T Where There's a Ward, There's a Way|QID|70139|M|49.61,58.76|Z|2025|N|To Mara.|
+C Preventative Maintenance|QID|65918|M|49.08,56.59|Z|2025|QO|1|N|Unleashed Elementals slain.|US|
 T Preventative Maintenance|QID|65918|M|49.54,58.86|Z|2025|N|To Zuttiki.|
 A Refti Retribution|QID|65921|PRE|65918|M|49.54,58.86|Z|2025|N|From Zuttiki.|
-A We Don't Negotiate with Primalists|QID|65916|PRE|65918|M|49.61,58.78|Z|2025|N|From Mara.|
-C We Don't Negotiate with Primalists|QID|65916|M|53.37,56.19|Z|2025|QO|2|N|Ko'jo slain.|
-C We Don't Negotiate with Primalists|QID|65916|M|53.41,56.24|Z|2025|QO|1|NC|N|Missing ward pieces retrieved.|
-C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025|QO|1|NC|N|Take Revenge against the Primalists (100%).|
+A We Don't Negotiate with Primalists|QID|65916|PRE|65918&70139|M|49.61,58.78|Z|2025|N|From Mara.|
+C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025|N|Take Revenge against the Primalists and examine any Refti you come across to find a few survivors.|S|
+K Ko'jo|ACTIVE|65916|M|53.37,56.19|Z|2025|QO|2|N|Ko'jo is in the small cave up the ramp and in the back.|
+C We Don't Negotiate with Primalists|QID|65916|M|53.41,56.24|Z|2025|QO|1|H|N|After you kill Ko'jo, click the Missing ward pieces to retrieve them.|
+;try not finishing this, maybe can be done while on For the Ward
+C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025|N|Continue killing Primalists and examining Refti bodies until the step completes.|
+T Refti Retribution|QID|65921|M|49.54,58.86|Z|2025|N|To Zuttiki.|
 T We Don't Negotiate with Primalists|QID|65916|M|49.62,58.75|Z|2025|N|To Mara.|
-A Thieving Tarasek|QID|70057|PRE|65916|M|55.84,67.71|Z|2025|
-C Thieving Tarasek|QID|70057|M|55.46,68.99|Z|2025|QO|1|NC|N|Stolen Dragonscale Supplies.|
-T Thieving Tarasek|QID|70057|M|55.46,68.99|Z|2025|
-T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
-A Alchemical Thesis Defense|QID|70160|PRE|70057&67154|M|62.51,37.12|Z|2025|
-C Alchemical Thesis Defense|QID|70160|M|62.94,36.74|Z|2025|QO|1|NC|N|Sample the Alchemical Concoction.|
-C Alchemical Thesis Defense|QID|70160|M|63.11,36.67|Z|2025|QO|2|N|Evil You slain.|
-T Alchemical Thesis Defense|QID|70160|M|63.11,36.67|Z|2025|N|To Evil You.|
-A Forgotten Grotto Relics|QID|71181|PRE|70160|M|57.15,37.65|Z|2025|
+A For the Ward!|QID|65920|PRE|65916&65921|M|49.62,58.75|Z|2025|N|From Mara.|
+C For the Ward!|QID|65920|QO|1|M|46.44,60.00|Z|2025|H|N|This one is on ground level where you first found Mara. Click the broken West ward.|
+C For the Ward!|QID|65920|QO|2|M|52.25,54.75|Z|2025|H|N|Click the broken North ward.|
+C For the Ward!|QID|65920|QO|3|M|52.51,62.81|Z|2025|H|N|Click the broken East ward.|
+C For the Ward!|QID|65920|QO|4|M|49.54,58.76|Z|2025|H|N|Click the console.|
+T For the Ward!|QID|65920|M|49.62,58.75|Z|2025|N|To Mara.|
+
+T The Hermit's Garden|QID|72399|M|50.27,67.62|Z|2025;Thaldraszus|N|To Szareth, up on the next platform above you.|
+A Every Life Counts|QID|69932|PRE|72399|M|50.27,67.62|Z|2025;Thaldraszus|N|From Szareth.|
+A Curiosity's Price|QID|69933|PRE|66221|M|50.27,67.62|Z|2025;Thaldraszus|N|From Szareth.|
+C Every Life Counts|QID|69932|M|49.10,66.52|Z|2025;Thaldraszus|H|N|Pick up the Anesthetic Pollen and the Sun Baked Linens as you go.|S|
+C Curiosity's Price|QID|69933|M|48.97,66.93|Z|2025;Thaldraszus|H|N|Click the vine and pull. This is considered optional as only one person has to do it to start the fight. Kill and loot the snipped vine.|
+C Every Life Counts|QID|69932|QO|1;2|M|49.10,66.52|Z|2025;Thaldraszus|H|N|Finish picking up the Anesthetic Pollen and the Sun Baked Linens as you go. The bees also drop pollen.|S|
+C Every Life Counts|QID|69932|QO|3|M|49.41,67.91|Z|2025;Thaldraszus|H|N|Click on 'Little Jetstream' inside the building.|
+T Curiosity's Price|QID|69933|M|50.14,67.78|Z|2025;Thaldraszus|N|To Szareth.|
+T Every Life Counts|QID|69932|M|50.14,67.78|Z|2025;Thaldraszus|N|To Szareth.|
+A Bleeding Hearts|QID|69934|PRE|69932&69933|M|50.14,67.78|Z|2025;Thaldraszus|N|From Szareth.|
+C Bleeding Hearts|QID|69934|QO|1|M|53.00,67.54|Z|2025;Thaldraszus|NC|N|The cave entrance is all the way down on the valley floor.|
+C Bleeding Hearts|QID|69934|QO|2|M|53.32,67.51|Z|2025;Thaldraszus|H|N|Click on the glowing box outline to leave the medicine.|
+f Gelikyr Post|ACTIVE|69934|M|51.16,67.09|Z|2025;Thaldraszus|N|At Talon Smoht.|
+A Out of the Blue|QID|70781|PRE|66221|M|50.51,67.42|Z|2025;Thaldraszus|N|From Lieutenant Conure.|
+C Bleeding Hearts|QID|69934|QO|3|M|51.76,69.14|Z|2025;Thaldraszus|NC|N|The infirmery is a small tower, inset into the cliff wall in Gelikyr Post.|
+C Bleeding Hearts|QID|69934|QO|4|M|51.69,69.18|Z|2025;Thaldraszus|H|N|Place the box against the wall to the right of the door.|
+T Bleeding Hearts|QID|69934|M|51.73,69.32|Z|2025;Thaldraszus|N|To Timetender Athekk.|
+R Bluefeather Cliffs|ACTIVE|70781|M|51.11,69.99|Z|2025;Thaldraszus|N|Use the updrafts to get to the top of the Bluefeather Cliffs and find Harleen Chirpsnide.|
+T Out of the Blue|QID|70781|M|49.95,69.81|Z|2025;Thaldraszus|N|To Harleen Chirpsnide who is inside a small cave.|
+A Flying Rocs|QID|66071|PRE|69933&70781|M|49.96,69.80|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
+A Smash 'Em to Feathereens|QID|65267|PRE|70781|M|49.99,69.77|Z|2025;Thaldraszus|N|From Segallia.|;not actually the PRE as it was available before I turned in 70781
+C Flying Rocs|QID|66071|M|51.51,71.60|Z|2025;Thaldraszus|NC|U|189384|N|Mend Injured Bluefeather Roc.|S|
+C Smash 'Em to Feathereens|QID|65267|M|48.78,71.72|Z|2025;Thaldraszus|N|Kill Screechflight mobs.|
+C Flying Rocs|QID|66071|M|51.51,71.60|Z|2025;Thaldraszus|NC|U|189384|N|Mend Injured Bluefeather Roc.|US|
+T Flying Rocs|QID|66071|M|49.96,69.79|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
+T Smash 'Em to Feathereens|QID|65267|M|49.98,69.81|Z|2025;Thaldraszus|N|To Segallia.|
+A Plucking Parts|QID|65373|PRE|66071&65267|M|49.98,69.81|Z|2025;Thaldraszus|N|From Segallia.|
+A A Roc-ing Appetite|QID|65313|PRE|66071&65267|M|49.95,69.80|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
+A Explosive Excrement|QID|65490|PRE|66071&65267|M|49.95,69.80|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
+C Explosive Excrement|QID|65490|M|49.62,75.25|Z|2025;Thaldraszus|NC|U|190188|N|Use the provided [color=33fff9]Chirpsnide Auto-Excre-Collector [/color]constantly after you enter the cave to fill up the bar.|S|
+C Plucking Parts|QID|65373|M|51.47,73.58|Z|2025;Thaldraszus|QO|2|H|N|Pick up the Gasket just after you enter the cave.|
+C Plucking Parts|QID|65373|M|51.03,74.66|Z|2025;Thaldraszus|QO|4|H|N|Take the first right, down to the lower level of the cave and then there is an alcove on your right with the Bolts.|
+C Plucking Parts|QID|65373|M|49.89,76.02|Z|2025;Thaldraszus|QO|3|H|N|Follow the right wall until you see an up, and go straight across the "hallway" into another alcove to find the Exhaust Pipe.|
+K Hawthia Roc Muncher|ACTIVE|65313|M|48.81,75.30|Z|2025;Thaldraszus|QO|1|N|Continue following the left wall to find Hawthia Roc-Muncher.|T|Hawthia Roc-Muncher|
+A Rolling in the Screech|QID|65475|PRE|66071&65267|M|48.81,75.23|Z|2025;Thaldraszus|N|From Screechflight Scroll you just looted from Hawthia Roc-Muncher.|
+C Plucking Parts|QID|65373|M|48.80,75.37|Z|2025;Thaldraszus|QO|1|H|N|The Gears are in the alcove with Hawthia.|
+C Explosive Excrement|QID|65490|M|49.62,75.25|Z|2025;Thaldraszus|NC|U|190188|N|Use the provided [color=33fff9]Chirpsnide Auto-Excre-Collector [/color]when it comes off cooldown.|US|
+T Plucking Parts|QID|65373|M|49.99,69.80|Z|2025;Thaldraszus|N|To Segallia.|
+T A Roc-ing Appetite|QID|65313|M|49.95,69.81|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
+T Rolling in the Screech|QID|65475|M|49.95,69.81|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
+T Explosive Excrement|QID|65490|M|49.95,69.81|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
+A Separating the Yolk|QID|65287|PRE|65373&65313&65475&65490|M|49.95,69.81|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
+A A Nest of Our Own|QID|65371|PRE|65373&65313&65475&65490|M|49.95,69.81|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
+A It's Plucking Time|QID|65374|PRE|65373&65313&65475&65490|M|49.98,69.81|Z|2025;Thaldraszus|N|From Segallia.|
+C A Nest of Our Own|QID|65371|M|44.09,70.42|Z|2025;Thaldraszus|QO|1;2|N|Kill Harpies to collect the talons and Staff, i think only Cursewife ones have a staff.|S|
+C It's Plucking Time|QID|65374|M|44.28,70.57|Z|2025;Thaldraszus|H|U|189454|N|Target the hatchlings and click on them or use the provided [color=33fff9]Feather Plucker 3300[/color] to get the feathers.|S|
+C Separating the Yolk|QID|65287|M|46.09,69.74|Z|2025;Thaldraszus|H|N|Pick up the eggs.|S|
+C A Nest of Our Own|QID|65371|M|46.35,70.28|Z|2025;Thaldraszus|QO|3|N|Kill and loot water elementals to get Streamborne's Core.|
+C It's Plucking Time|QID|65374|M|44.28,70.57|Z|2025;Thaldraszus|H|U|189454|N|Continue pulling down the Hatchlings.|US|
+C A Nest of Our Own|QID|65371|M|44.09,70.42|Z|2025;Thaldraszus|QO|1;2|N|Continue to kill Harpies to collect the talons and Staves until the step closes, i think only Cursewife ones have the staff.|US|
+T It's Plucking Time|QID|65374|M|43.45,70.69|Z|2025;Thaldraszus|N|To Segallia.|
+T Separating the Yolk|QID|65287|M|43.45,70.69|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
+T A Nest of Our Own|QID|65371|M|43.45,70.69|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
+A Screechflight Potluck|QID|65778|PRE|65374&65287&65371|M|43.45,70.69|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
+C Screechflight Potluck|QID|65778|QO|1|M|43.45,70.69|Z|2025;Thaldraszus|U|191681|N|Use the provided [color=33fff9] Screechflight Disguise [/color] and head into to the small cave around the corner.|
+C Screechflight Potluck|QID|65778|QO|2|M|43.57,72.09|Z|2025;Thaldraszus|CHAT|N|Show Chef Fry-Aerie the egg.|
+C Screechflight Potluck|QID|65778|QO|3|M|43.57,72.09|Z|2025;Thaldraszus|EAB|H|N|Use your [color=33fff9]Extra Action Button [/color]to toss the egg into the cauldron.|
+T Screechflight Potluck|QID|65778|M|43.52,72.11|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
+A The Awaited Egg-splosion|QID|66299|PRE|65778|M|43.52,72.11|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
+C The Awaited Egg-splosion|QID|66299|QO|1|M|43.52,72.11|Z|2025;Thaldraszus|N|Put on your new and improved [color=33fff9] Screechflight Disguise [/color].|
+C The Awaited Egg-splosion|QID|66299|QO|2|M|43.52,72.11|Z|2025;Thaldraszus|H|N|Click the cauldron.|
+C The Awaited Egg-splosion|QID|66299|QO|3|M|43.29,71.27|Z|2025;Thaldraszus|V|N|Hop on the "Taxi".|
+C The Awaited Egg-splosion|QID|66299|QO|4|M|44.48,73.01|Z|2025;Thaldraszus|H|N|Click on the egg bowl.|
+C The Awaited Egg-splosion|QID|66299|QO|6|M|44.48,73.01|Z|2025;Thaldraszus|N|Wait, watch, when the egg explodes, kill the Matriarch.|
+C The Awaited Egg-splosion|QID|66299|QO|7|M|44.48,73.01|Z|2025;Thaldraszus|EAB|N|Optionally you can use the provided Glider. It will take you directly to Harleen.|
+T The Awaited Egg-splosion|QID|66299|M|43.45,70.53|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
+H Valdrakken|ACTIVE|70750|M|PLAYER|N|Hearth back to Valdrakken or fly back on your own as you choose.|
+t Aiding the Accord|QID|70750|M|50.21,56.25|Z|2025;Thaldraszus|N|To Therazal.|
+
+N The Remaining Glyphs|QID|99999|M|55.52,45.26|Z|2112|ACH|16578|N|If by some miracle, you still have glyphs to get, here are the rest of them in Thandraszus. These are areas you will visit in Max level questing/World Quests. Head up to the Seat of the Aspects to get some height for the journey.|RANK|3|
+F Algeth’era Glyph|QID|99999|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|N|Over the tower.|ACH|16102|RANK|3|
+F Veiled Ossuary Glyph|QID|99999|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|N|Inside the top level of the tower.|ACH|16105|RANK|3|
+F Algeth’ar Academy Glyph|QID|99999|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|N|This one is kinda hidden inside of the roof of the tower with a big crystal above the tower.|ACH|16104|RANK|3|
+F Vault of the Incarnates Glyph|QID|99999|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|ACH|16106|RANK|3|
+F Thaldraszus Apex Glyph|QID|99999|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|N|This is high above the mountain, the highest point.|ACH|16107|RANK|3|
+F Tyrhold Glyph|QID|99999|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|N|This one is on the mountain ledge.|ACH|16103|RANK|3|
+
+;from here on belongs in a separate guide for the Campaign
 T In Tyr's Footsteps|QID|70845|M|67.15,30.68|Z|2024|
 A First Challenge of Tyr: Finesse|QID|70181|PRE|70845|M|67.15,30.68|Z|2024|
 C First Challenge of Tyr: Finesse|QID|70181|M|67.12,30.92|Z|2024|QO|1|CHAT|N|Speak with Maiden of Inspiration to begin.|
@@ -439,47 +551,6 @@ T The Sweet Taste of Victory|QID|70182|M|84.36,53.59|Z|2112;Valdrakken|N|To Maid
 A Fueling the Engine|QID|70633|PRE|70182|M|84.36,53.59|Z|2112;Valdrakken|N|From Maiden of Inspiration.|
 C Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|QO|1|NC|U|194441|N|Use the Bottled Essence to power up Engine.|
 T Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|N|To Maiden of Inspiration.|
-f Gelikyr Post|QID|70633|M|51.16,67.09|Z|2025;Thaldraszus|N|At Talon Smoht.|
-A Out of the Blue|QID|70781|PRE|70633|M|50.51,67.42|Z|2025;Thaldraszus|N|From Lieutenant Conure.|
-A Every Life Counts|QID|69932|PRE|70633|M|50.27,67.62|Z|2025;Thaldraszus|N|From Szareth.|
-A Curiosity's Price|QID|69933|PRE|70633|M|50.27,67.62|Z|2025;Thaldraszus|N|From Szareth.|
-C Every Life Counts|QID|69932|M|49.10,66.52|Z|2025;Thaldraszus|QO|2|NC|N|Anesthetic Pollen.|
-C Curiosity's Price|QID|69933|M|48.85,67.11|Z|2025;Thaldraszus|QO|1|NC|N|Stubborn Vine uprooted (Optional).|
-C Curiosity's Price|QID|69933|M|48.96,66.93|Z|2025;Thaldraszus|QO|2|NC|N|Stubborn Vine snipped.|
-T Curiosity's Price|QID|69933|M|50.14,67.78|Z|2025;Thaldraszus|N|To Szareth.|
-T Out of the Blue|QID|70781|M|49.95,69.81|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
-A Smash 'Em to Feathereens|QID|65267|PRE|69933&70781|M|49.99,69.77|Z|2025;Thaldraszus|N|From Segallia.|
-A Flying Rocs|QID|66071|PRE|69933&70781|M|49.96,69.80|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
-C Flying Rocs|QID|66071|M|51.51,71.60|Z|2025;Thaldraszus|QO|1|NC|U|189384|N|Mend Injured Bluefeather Roc.|
-C Smash 'Em to Feathereens|QID|65267|M|48.78,71.72|Z|2025;Thaldraszus|QO|2|U|189384|N|Screechflight Hexclaw slain.|
-C Smash 'Em to Feathereens|QID|65267|M|48.78,71.72|Z|2025;Thaldraszus|QO|1|U|189384|N|Screechflight Witherer slain.|
-T Flying Rocs|QID|66071|M|49.96,69.79|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
-T Smash 'Em to Feathereens|QID|65267|M|49.98,69.81|Z|2025;Thaldraszus|N|To Segallia.|
-A Plucking Parts|QID|65373|PRE|66071&65267|M|49.98,69.81|Z|2025;Thaldraszus|N|From Segallia.|
-A A Roc-ing Appetite|QID|65313|PRE|66071&65267|M|49.95,69.80|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
-A Explosive Excrement|QID|65490|PRE|66071&65267|M|49.95,69.80|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
-C Plucking Parts|QID|65373|M|51.47,73.58|Z|2025;Thaldraszus|QO|2|NC|U|190188|N|Feather-Plucker 3300 Gasket.|
-C Explosive Excrement|QID|65490|M|49.62,75.25|Z|2025;Thaldraszus|QO|1|NC|U|190188|N|Chirpsnide Auto-Excre-Collector filled (100%).|
-C Plucking Parts|QID|65373|M|49.89,76.02|Z|2025;Thaldraszus|QO|3|NC|U|190188|N|Feather-Plucker 3300 Exhaust Pipe.|
-C Plucking Parts|QID|65373|M|48.80,75.37|Z|2025;Thaldraszus|QO|1|NC|U|190188|N|Feather-Plucker 3300 Gears.|
-C A Roc-ing Appetite|QID|65313|M|48.81,75.30|Z|2025;Thaldraszus|QO|1|N|Hawthia Roc Muncher slain.|
-A Rolling in the Screech|QID|65475|PRE|66071&65267|M|48.81,75.23|Z|2025;Thaldraszus|N|From Hawthia Roc-Muncher.|
-C Plucking Parts|QID|65373|M|51.03,74.66|Z|2025;Thaldraszus|QO|4|NC|U|190188|N|Feather-Plucker 3300 Bolts.|
-T Plucking Parts|QID|65373|M|49.99,69.80|Z|2025;Thaldraszus|N|To Segallia.|
-T A Roc-ing Appetite|QID|65313|M|49.95,69.81|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
-T Rolling in the Screech|QID|65475|M|49.95,69.81|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
-T Explosive Excrement|QID|65490|M|49.95,69.81|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
-A Separating the Yolk|QID|65287|PRE|65373&65313&65475&65490|M|49.95,69.81|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
-A A Nest of Our Own|QID|65371|PRE|65373&65313&65475&65490|M|49.95,69.81|Z|2025;Thaldraszus|N|From Harleen Chirpsnide.|
-A It's Plucking Time|QID|65374|PRE|65373&65313&65475&65490|M|49.98,69.81|Z|2025;Thaldraszus|N|From Segallia.|
-C Separating the Yolk|QID|65287|M|46.09,69.74|Z|2025;Thaldraszus|QO|1|NC|U|189454|N|Bluefeather Eggs saved.|
-C A Nest of Our Own|QID|65371|M|44.09,70.42|Z|2025;Thaldraszus|QO|2|NC|N|Screechflight Staff.|
-C It's Plucking Time|QID|65374|M|44.28,70.57|Z|2025;Thaldraszus|QO|1|NC|U|189454|N|Hatchling Feathers plucked.|
-C A Nest of Our Own|QID|65371|M|46.23,70.33|Z|2025;Thaldraszus|QO|1|NC|N|Screechflight Talons.|
-C A Nest of Our Own|QID|65371|M|46.35,70.28|Z|2025;Thaldraszus|QO|3|NC|N|Streamborne's Core.|
-T Separating the Yolk|QID|65287|M|43.45,70.69|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
-T A Nest of Our Own|QID|65371|M|43.45,70.69|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
-T It's Plucking Time|QID|65374|M|43.45,70.69|Z|2025;Thaldraszus|N|To Segallia.|
 ]]
 
 end)
