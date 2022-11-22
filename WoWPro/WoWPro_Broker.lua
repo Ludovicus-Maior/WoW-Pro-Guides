@@ -1697,7 +1697,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         skip = false
                         WoWPro:dbp("Activating FAIL for all steps with QID %q", QID)
                         WoWPro.why[guideIndex] = "NextStep(): noskip, FAIL and quest failed!"
-                        for i=1, WoWPro.stepcount do
+                        for i=guideIndex, WoWPro.stepcount do
                             if WoWProCharDB.Guide[GID].completion[i] and (WoWPro.QID[i] == QID) then
                                 WoWPro.UnSkipStep(i)
                             end
