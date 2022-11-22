@@ -343,7 +343,7 @@ F Crossroads|ACTIVE|868^906|M|44.44,59.15|Z|1413|
 T Egg Hunt|QID|868|M|51.07,29.63|Z|1413|N|To Korran.|
 * Silithid Eggs|AVAILABLE|-868|N|Destroy any Silithid eggs you have leftover.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|U|5058|O|
 T Betrayal from Within|QID|906|M|51.50,30.87|Z|1413|N|To Thork.|
-F Orgrimmar|ACTIVE|6571|M|51.50,30.33|Z|1413|IZ|Crossroads|
+F Orgrimmar|ACTIVE|6571|M|51.50,30.33|Z|1413|IZ|The Crossroads|
 C Deadly Blunderbuss|ACTIVE|6571|AVAILABLE|6581|L|4369|N|Beg, borrow, or steal... Before leaving, make sure you bring one of these with you.\nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't need it.|
 
 ; --- Ashenvale
@@ -357,7 +357,7 @@ A The Lost Pages|QID|6504|M|70.01,71.15|Z|1440|N|From Gurda Ragescar.|
 l Chapter 1|ACTIVE|6504|L|16642|N|Combine Pages 1-4|S|NC|IZ|Splintertree Post|
 l Chapter 2|ACTIVE|6504|L|16643|N|Combine Pages 5-8|S|NC|IZ|Splintertree Post|
 l Chapter 3|ACTIVE|6504|L|16644|N|Combine Pages 9-12|S|NC|IZ|Splintertree Post|
-t The Lost Pages|QID|6504|M|70.01,71.15|Z|1440|N|To Gurda Ragescar.|IZ|Splintertree Post|
+t The Lost Pages|QID|6504|M|70.01,71.15|Z|1440|N|To Gurda Ragescar.|
 K Ashenvale Outrunners|ACTIVE|6503|M|73.65,72.01|Z|1440|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|S|
 R The Dor'Danil Barrow Den|AVAILABLE|2|M|72.85,70.56|Z|1440|PRE|6383^235^742^6382|
 K Sharptalon|AVAILABLE|2|M|71.48,70.03;76.85,68.01|CN|Z|1440|L|16305|N|Sharptalon is a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest with a respawn rate of @ 15-20 minutes.\n[color=FF0000]NOTE: [/color]If you draw him towards the Forsaken by the tents, they'll help you kill him. At your current level, this may be your only choice.|PRE|6383^235^742^6382|
@@ -366,14 +366,14 @@ K Ashenvale Outrunners|ACTIVE|6503|M|73.65,72.01|Z|1440|QO|1|N|Kill Ashenvale Ou
 A Torek's Assault|QID|6544|M|68.34,75.30|Z|1440|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of.\nBasically, you follow him and his troops as they kill things.\n[color=FF0000]NOTE: [/color]If he's not there, someone is on the quest and you'll have to wait for him to respawn.|
 A Torek's Assault|QID|6544|M|68.34,75.30|Z|1440|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Torek to restart the quest. If he's not there, someone is on the quest or he hasn't respawned yet. Just wait for him to respawn.|FAIL|
 C Torek's Assault|QID|6544|M|65.35,75.28|CC|Z|1440|QO|1|N|Follow Torek and his men into Silverwing Outpost. You don't have to do anything. However, You will get some grind xp if you give them a hand.\nStay with group or the quest could fail.\n[color=FF0000]NOTE: [/color]If Torek dies, the quest fails and his men will despawn leaving you alone to fight all of them. If this happens, jump off the balcony and run away.|
-R Greenpaw Village|ACTIVE|6571|M|64.3,70.4;58.4,61.4;56.89,62.47|CC|Z|1440|L|16743|
+R Greenpaw Village|ACTIVE|6571|M|64.3,70.4;58.4,61.4;56.89,62.47|CC|Z|1440|
 C Warsong Supplies|QID|6571|M|55.29,62.75|Z|1440|L|16743|N|Kill Foulweald Furbolgs to loot the Logging Rope. This could take quite a few kills to get. Work your way west through the village until you get it.|
 R Mystral Lake|ACTIVE|25|M|50.6,64.6;51.6,66.5;51.47,67.83|CC|Z|1440|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
-K Stonetalon Standstill|ACTIVE|25|M|47.99,69.88|Z|1440|QO|1|N|Kill Befouled Water Elementals|S|
+K Stonetalon Standstill|ACTIVE|25|M|47.99,69.88|Z|1440|QO|1|N|Kill Befouled Water Elementals.\n\nThey are immune to Frost damage.|S|
 R Stonetalon Standstill|ACTIVE|25|M|49.03,69.65|Z|1440|QO|2|N|Go to the gazebo on the island in Mystral Lake.|
-K Tideress|AVAILABLE|1918|L|16408|N|Kill Tideress for a drop quest item, Befouled Water Globe.\n[color=FF0000]NOTE: [/color]You can either wait for her to get the island or figure out where she is on her path in the lake.|T|Tideress|
+K Tideress|AVAILABLE|1918|L|16408|N|Kill Tideress for a drop quest item, Befouled Water Globe.\n\nShe is immune to Frost damage.\n\n[color=FF0000]NOTE: [/color]You can either wait for her to get the island or figure out where she is on her path in the lake.|T|Tideress|
 A The Befouled Element|QID|1918|N|Click the item to activate the quest.|U|16408|O|
-K Stonetalon Standstill|ACTIVE|25|M|47.99,69.88|Z|1440|QO|1|N|Finish killing Befouled Water Elementals|US|
+K Stonetalon Standstill|ACTIVE|25|M|47.99,69.88|Z|1440|QO|1|N|Finish killing Befouled Water Elementals.\n\nThey are immune to Frost damage.|US|
 R The Talondeep Path|AVAILABLE|23|M|42.65,70.10|Z|1440|PRE|6383^235^742^6382|
 K Ursangous|AVAILABLE|23|M|41.67,68.92|Z|1440|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|T|Ursangous|PRE|6383^235^742^6382|
 A Ursangous's Paw|QID|23|N|Click the item to activate the quest.|U|16303|PRE|6383^235^742^6382|O|
