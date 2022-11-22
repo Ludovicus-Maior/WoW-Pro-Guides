@@ -7,10 +7,11 @@ WoWPro:GuideSteps(guide, function()
 return [[
 F Dalaran|QID|12521|N|Head to Dalaran.|
 A Where in the World is Hemet Nesingwary?|QID|12521|N|From Archmage Pentarus, near the exit from Krasus' Landing.|M|68.68,42.06|Z|Dalaran City@Dalaran|
-T Where in the World is Hemet Nesingwary?|QID|12521|N|Talk to the Archmage again to get a flight. To Monte Muzzleshot. He's hanging from a tree.|M|35.68,58.65|
+T Where in the World is Hemet Nesingwary?|QID|12521|N|Talk to the Archmage again to get a flight. To Monte Muzzleshot. He's hanging from a tree.|M|39.66,58.63|
 A Welcome to Sholazar Basin|QID|12489|PRE|12521|M|39.7,58.7|N|From Monte Muzzleshot.|
 T Welcome to Sholazar Basin|QID|12489|N|To Hemet Nesingwary. Find Hemet at, where else, Nesingwary Base Camp, to the West.|M|27.09,58.72|
 A It Could Be Anywhere!|QID|12624|N|From Chad. He's right: it really could be anywhere. Turn it in when you find it.|M|26.95,58.92|
+l Zone Wide Drop|ACTIVE|12624|N|Just quest in zone and eventually it will drop|S!US|QO|1|
 A Venture Co. Misadventure|QID|12524|N|From Debaar.|M|27.21,59.86|
 A Need an Engine, Take an Engine|QID|12522|N|From Weslex Quickwrench. Go down the path to the other side of the wrecked boat.|M|25.38,58.35|
 C Need an Engine, Take an Engine|QID|12522|N|At the crash site where you landed when you first got here.|M|38.64,56.75|NC|
@@ -19,26 +20,27 @@ A Have a Part, Give a Part|QID|12523|PRE|12522|M|25.4,58.5|N|From Weslex Quickwr
 C Have a Part, Give a Part|QID|12523|N|Collect the parts all over the ground.|M|32.7,46.9|S|NC|
 C Venture Co. Misadventure|QID|12524|N|Kill Ventrue Company Members.|M|37.4,46.1|S|
 A Engineering a Disaster|QID|12688|N|From Engineer Helice. On the other side of The Suntouched Pillar. It's an escort. He's on a platform next to the huge yellow crystal.|M|35.51,47.45|
-C Engineering a Disaster|QID|12688|M|35.5,47.4|N|Keep Engineer Helice safe.|
+C Engineering a Disaster|QID|12688|M|37.28,50.61|N|Keep Engineer Helice safe.|
 C Have a Part, Give a Part|QID|12523|N|Collect the parts all over the ground.|M|32.7,46.9|US|NC|
 C Venture Co. Misadventure|QID|12524|N|Kill any more Ventrue Company Members you need.|M|37.4,46.1|US|
 T Engineering a Disaster|QID|12688|N|To Hemet Nesingwary, at Nesingwary Base Camp.|M|27.09,58.72|
 T Venture Co. Misadventure|QID|12524|N|From Debaar.|M|27.21,59.86|
 A Wipe That Grin Off His Face|QID|12525|PRE|12524|N|From Debaar.|M|27.2,59.9|
 T Have a Part, Give a Part|QID|12523|N|To Weslex Quickwrench. Back around the broken boat.|M|25.38,58.35|
-f Nesingwary Base Camp|QID|12696|N|At The Spirit of Gnomeregan.|
+f Nesingwary Base Camp|QID|12696|N|At The Spirit of Gnomeregan.|M|25.27,58.45|
 A Aerial Surveillance|QID|12696|PRE|12523|N|From Professor Calvert.|M|25.4,58.5|
-C Wipe That Grin Off His Face|QID|12525|N|Go to the platform in the dig site.|M|35.72,50.24|
+K Wipe That Grin Off His Face|ACTIVE|12525|N|Kill Meatpie. He walks up and down the ramp|M|35.19,49.18|QO|2|T|Meatpie|
+K Wipe That Grin Off His Face|ACTIVE|12525|N|Kill Foreman Swindlegrin. On the platform above.|M|35.72,50.24|QO|1|T|Foreman Swindlegrin|
 T Wipe That Grin Off His Face|QID|12525|N|To Debaar, Nesingwary Base Camp.|M|27.21,59.86|
 A Kick, What Kick?|QID|12589|PRE|12525&12523|N|From Drostan, in the base camp.|M|27.07,59.82|
-C Kick, What Kick?|QID|12589|T|Lucky Wilhelm|N|Target Lucky Wilhelm and use the gun until you hit the apple.|U|38573|
+C Kick, What Kick?|QID|12589|T|Lucky Wilhelm|N|Target Lucky Wilhelm and use the gun until you hit the apple.|U|38573|M|PLAYER|
 T Kick, What Kick?|QID|12589|M|27.1,59.9|N|To Drostan.|
 A The Great Hunter's Challenge|QID|12592|PRE|12589|N|From Drostan.|M|27.1,59.9|
 A Dreadsaber Mastery: Becoming a Predator|QID|12549|PRE|12525&12523|N|From Buck Cantwell. He's under the tent.|M|26.7,59.0|
 A Rhino Mastery: The Test|QID|12520|PRE|12525&12523|N|From Hemet Nesingwary.|M|27.09,58.72|
-C Dreadsaber Mastery: Becoming a Predator|QID|12549|N|Kill Dreadsabers.|S|
-C Rhino Mastery: The Test|QID|12520|N|Head North and NW. You'll see Rhinos all around.|M|29.0,57.0|
-C Dreadsaber Mastery: Becoming a Predator|QID|12549|N|Kill any more Dreadsabers you need.|US|M|29.0,57.0|
+C Dreadsaber Mastery: Becoming a Predator|QID|12549|N|Kill Dreadsabers.|S|M|29.0,57.0|T|Dreadsaber|
+C Rhino Mastery: The Test|QID|12520|N|Head North and NW. You'll see Rhinos all around.|M|29.0,57.0|T|Shardhorn Rhino|
+C Dreadsaber Mastery: Becoming a Predator|QID|12549|N|Kill any more Dreadsabers you need.|US|M|29.0,57.0|T|Dreadsaber|
 T Dreadsaber Mastery: Becoming a Predator|QID|12549|N|To Buck Cantwell, at Nesingwary Base Camp.|M|26.71,59.12|
 A Dreadsaber Mastery: Stalking the Prey|QID|12550|PRE|12549|N|From Buck Cantwell.|M|26.7,59.0|
 T Rhino Mastery: The Test|QID|12520|N|To Hemet Nesingwary.|M|27.09,58.72|
@@ -46,19 +48,19 @@ A Rhino Mastery: The Chase|QID|12526|PRE|12520|N|From Hemet Nesingwary.|M|27.1,5
 A A Steak Fit for a Hunter|QID|12804|PRE|12520|N|From Korg the Cleaver.|M|26.73,59.59|
 A Some Make Lemonade, Some Make Liquor|QID|12634|PRE|12520&12549|N|From Grimbooze Thunderbrew.|M|26.86,60.01|
 A Crocolisk Mastery: The Trial|QID|12551|PRE|12520&12549|N|From Debaar.|M|27.21,59.86|
-C A Steak Fit for a Hunter|QID|12804|N|Kill and loot Longneck Grazers. The Dreadsabers will kill them, so kill them as well.|M|29.5,66.4|S|
+C A Steak Fit for a Hunter|QID|12804|N|Kill and loot Longneck Grazers. The Dreadsabers will kill them, so kill them as well.|M|29.5,66.4|S|T|Longneck Grazer|
 T Rhino Mastery: The Chase|QID|12526|N|To Oracle Soo-rahm, in a camp to the south, by the Bones of Nozronn.|M|25.55,66.45|
 A An Offering for Soo-rahm|QID|12543|PRE|12526|N|From Oracle Soo-rahm.|M|25.6,66.5|
 C Dreadsaber Mastery: Stalking the Prey|QID|12550|N|North of Swindlegrin's Dig, on and near the shore of Bittertide Lake. Click on the Dreadsaber tracks until you have 3 Shango Tracks identified.|M|36.15,40.70|
-C An Offering for Soo-rahm|QID|12543|N|Kill and loot Cobras.|M|36.3,65.8|S|
-C Crocolisk Mastery: The Trial|QID|12551|N|Kill Mangal Crocolisks.|S|
-C Some Make Lemonade, Some Make Liquor|QID|12634|N|Pull the hanging Sturdy Vines in the Wildgrowth Mangal. They can be hard to see, so use your mouseover. If you get a Dorf, talk to it and choose what you need.|M|37.6,61.8|
-C An Offering for Soo-rahm|QID|12543|N|Kill more Cobras.|M|36.3,65.8|US|
-C Crocolisk Mastery: The Trial|QID|12551|N|Kill the rest you need.|US|
+C An Offering for Soo-rahm|QID|12543|N|Kill and loot Cobras.|M|36.3,65.8|S|T|Emperor Cobra|
+C Crocolisk Mastery: The Trial|QID|12551|N|Kill Mangal Crocolisks.|S|T|Mangal Crocolisk|M|37.64,61.85|
+C Some Make Lemonade, Some Make Liquor|QID|12634|N|Pull the hanging Sturdy Vines in the Wildgrowth Mangal. They can be hard to see, so use your mouseover. If you get a Dwarf, talk to it and choose what you need.|M|37.6,61.8|
+C An Offering for Soo-rahm|QID|12543|N|Kill more Cobras.|M|36.3,65.8|US|T|Emperor Cobra|
+C Crocolisk Mastery: The Trial|QID|12551|N|Kill the rest you need.|US|T|Mangal Crocolisk|M|37.64,61.85|
 T An Offering for Soo-rahm|QID|12543|N|To Oracle Soo-rahm.|M|25.55,66.45|
 A The Bones of Nozronn|QID|12544|PRE|12543|N|From Oracle Soo-rahm.|M|25.6,66.5|
 C The Bones of Nozronn|QID|12544|N|To the South, the offering bowl is in front of the giant skull.|U|38519|M|26.12,71.59|
-C A Steak Fit for a Hunter|QID|12804|N|Kill and loot Longneck Grazers. The Dreadsabers will kill them, so kill them as well.|M|29.5,66.4|US|
+C A Steak Fit for a Hunter|QID|12804|N|Kill and loot Longneck Grazers. The Dreadsabers will kill them, so kill them as well.|M|29.5,66.4|US|T|Longneck Grazer|
 C The Great Hunter's Challenge|QID|12592|N|At this point you should be fairly close to finish this quest, so kill Dreadsabers and Longneck Grazers until you do.|M|29.5,66.4|
 T The Bones of Nozronn|QID|12544|N|To Hemet Nesingwary, at Nesingwary Base Camp.|M|27.1,58.6|
 A Rhino Mastery: The Kill|QID|12556|PRE|12544|N|From Hemet Nesingwary.|M|27.1,58.6|
@@ -82,6 +84,10 @@ C Rhino Mastery: The Kill|QID|12556|N|You'll find Farunn around the Glimmering P
 C Dreadsaber Mastery: Ready to Pounce|QID|12558|N|At the top of Bittertide Lake, look for Shango.|M|32.49,35.16|
 T Rhino Mastery: The Kill|QID|12556|N|To Hemet Nesingwary, in Nesingwary Base Camp.|M|27.09,58.72|
 T Dreadsaber Mastery: Ready to Pounce|QID|12558|N|To Buck Cantwell.|M|26.7,59.0|
+
+;Placing the turn in here. May end up moving it again.
+t It Could Be Anywhere!|QID|12624|N|To Chad.|M|26.9,58.9|
+
 A Lakeside Landing|QID|12651|LEAD|12654|PRE|12560&12526&12550|N|From Hemet Nesingwary.|
 C Tamara's taste test|QID|12645|N|Give a sample to Tamara at Lakeside Landing.|U|38697|M|50.44,62.10|QO|3|
 T Lakeside Landing|QID|12651|N|To Tamara Wobblesprocket.|
@@ -265,6 +271,5 @@ K Scourge Minions|QID|12546|M|70.3,28.4;72.6,40.4;73.6,40.8|CN|QO|1|US|N|Destroy
 T Reclamation|QID|12546|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 T It Could Be Anywhere!|QID|12624|N|To Chad. I know you found it a long time ago. Turn it in now if you haven't already.|M|26.9,58.9|
 T A Hero's Burden|QID|12581|N|Artruis's Phylactery. If you have it, turn it in.|U|38624|
-N The End|N|End of Sholazar Basin. Move on to The Storm Peaks or Icecrown.|
 ]]
 end)
