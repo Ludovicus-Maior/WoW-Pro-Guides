@@ -254,7 +254,7 @@ N First Aid|ACTIVE|840|M|34.17,84.55|Z|Orgrimmar|N|Arnok, First Aid Trainer, The
 
 ; --- Class quests in Orgrimmar
 ; --- Mage
-A Speak with Un'thuwa|QID|1883|M|39.15,86.27|Z|Orgrimmar|N|From Uthel'nay, Valley of the Spirits.|R|Troll|C|Mage|
+A Speak with Un'thuwa|QID|1883|LEAD|1884|M|39.15,86.27|Z|Orgrimmar|N|From Uthel'nay, Valley of the Spirits.|R|Troll|C|Mage|
 ; --- Hunter
 T Training the Beast|QID|6081|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|R|Orc,Troll|C|Hunter|
 ; --- Rogue
