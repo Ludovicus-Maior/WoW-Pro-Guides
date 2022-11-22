@@ -1691,9 +1691,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- A/$ Steps --
             if (stepAction == "A" or stepAction == "$") and WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
                 if WoWPro.fail[guideIndex] then
+                    WoWPro:dbp("Considering FAIL on %s [%s]", stepAction, step)
                     if WoWPro:QuestFailed(QID) then
                         -- Time to turn this on!
                         skip = false
+                        WoWPro:dbp("Activating FAIL for all steps with QID %q", QID)
                         WoWPro.why[guideIndex] = "NextStep(): noskip, FAIL and quest failed!"
                         for i=1, WoWPro.stepcount do
                             if WoWProCharDB.Guide[GID].completion[i] and (WoWPro.QID[i] == QID) then
@@ -1702,6 +1704,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                     else
                         skip = true
+                        WoWPro:dbp("No FAIL, so skipping for now.")
                         WoWPro.why[guideIndex] = "NextStep(): skip, FAIL and quest not failed."
                         break
                     end

@@ -57,7 +57,7 @@ A Preservation of Knowledge|QID|67035|PRE|66228|M|46.66,39.74|Z|2024|N|From Alth
 A Supporting the Cobalt Assembly|QID|72784|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|RANK|2|
 C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024|NC|N|Beware of the bombardment. Pick the first device up here.|
 C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024|NC|N|Pick up the tomes in the pavilion.|
-C Assemble the Defenses|QID|67033|M|46.07,40.81;45.85,40.17|CS|Z|2024|NC|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
+C Assemble the Defenses|QID|67033|M|46.1,40.8;45.85,40.17|CS|Z|2024|NC|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
 T Preservation of Knowledge|QID|67035|M|46.67,39.74|Z|2024|N|To Althanus.|
 T Assemble the Defenses|QID|67033|M|46.70,39.76|Z|2024|N|To Noriko the All-Remembering.|
 A Wrath of the Kirin Tor|QID|67036|PRE|67033&67035|M|46.69,39.76|Z|2024|N|From Noriko the All-Remembering.|
@@ -162,8 +162,8 @@ A Send It!|QID|66493|PRE|69904|M|45.99,38.78|Z|2024|N|From Supply Portal.|
 C Send It!|QID|66493|QO|1|M|45.99,38.78|Z|2024|CHAT|N|Tell the portal you are ready to deliver mail.|
 C Send It!|QID|66493|QO|2|M|45.99,38.78|Z|2024|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color] to deliver mail when you see apprentices about town.|S|
 C Ways of Seeing|QID|66500|QO|4|M|46.01,38.62|Z|2024|NC|N|The last Lingering Image is on the backside of the piller right behind the supply portal.|
-C Ask the Locals|QID|66699|M|46.75,38.61|Z|2024|QO|1|CHAT|N|Ask Korrikunit if he knows where any ley lines are.|
-C Ask the Locals|QID|66699|M|46.33,38.15|Z|2024|QO|2|CHAT|N|Ask Jokomuupat about pockets of magic in the area..|
+C Ask the Locals|QID|66699|M|46.76,38.60|Z|2024|QO|1|CHAT|N|Ask Korrikunit if he knows where any ley lines are.|
+C Ask the Locals|QID|66699|M|46.33,38.15|Z|2024|QO|2|CHAT|N|Ask Jokomuupat about pockets of magic in the area.|
 C Ask the Locals|QID|66699|M|45.72,38.84|Z|2024|QO|3|CHAT|N|Ask Babunituk about purple crystals.|
 T Ask the Locals|QID|66699|M|45.72,38.84|Z|2024|N|To Babunituk.|
 A Catch the Caravan|QID|65864|PRE|66699|M|45.72,38.84|Z|2024|N|From Babunituk.|
@@ -175,15 +175,15 @@ C For the Love of Others|QID|66503|QO|3|M|47.14,40.29|Z|2024|N|Ask Divo why he c
 C Send It!|QID|66493|QO|2|M|45.99,38.78|Z|2024|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color] to deliver mail when you see apprentices about town.|US|
 T Send It!|QID|66493|M|45.99,38.78|Z|2024|N|To Supply Portal.|
 T For the Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|To Noriko the All-Remembering.|
-C Catch the Caravan|QID|65864|M|35.26,36.98|Z|2024|CHAT|N|Head out of town following the road to the northwest to find Brena.\n\nSpeak to Brena when you land|
-T Catch the Caravan|QID|65864|M|35.25,36.97|Z|2024|N|To Brena. Wait for dialogue to finish|
+C Catch the Caravan|QID|65864|M|35.25,36.98|Z|2024|CHAT|N|Head out of town following the road to the northwest to find Brena.\n\nSpeak to Brena when you land|
+T Catch the Caravan|QID|65864|M|35.25,36.98|Z|2024|N|To Brena. Wait for dialogue to finish|
 A Howling in the Big Tree Hills|QID|65867|PRE|65864|M|35.29,36.95|Z|2024|N|From Brena.|
 A Snap the Traps|QID|65866|PRE|65864|M|35.29,36.95|Z|2024|N|From Brena.|
 A Those Aren't for Chewing|QID|65868|PRE|65864|M|35.36,36.94|Z|2024|N|From Elder Poa.|
 C Those Aren't for Chewing|QID|65868|M|34.63,33.49|Z|2024|N|Kill and loot the gnolls in the area to collect the funerary offerings.|S|
 C Snap the Traps|QID|65866|M|34.47,33.62|Z|2024|NC|N|Click the glowing traps around the area.|S|
 K Hyenamaster Durgun|ACTIVE|65867|QO|1|M|35.68,35.02|Z|2024|N|Kill Hyenamaster Durgun.|T|Hyenamaster Durgun|
-K Bakra the Bully|ACTIVE|65867|QO|3|M|34.14,32.95|Z|2024|N|Kill Bakra the Bully. He has an annoying fear.|T|Bakra the Bully|
+K Bakra the Bully|ACTIVE|65867|QO|3|M|33.92,33.17|Z|2024|N|Kill Bakra the Bully. He has an annoying fear.|T|Bakra the Bully|
 K Trap-Layer Kerwal|ACTIVE|65867|QO|2|M|35.00,32.40|Z|2024|N|Kill Trap-Layer Kerwal.|T|Trap-Layer Kerwal|
 C Snap the Traps|QID|65866|M|34.47,33.62|Z|2024|NC|N|Click the glowing traps.|US|
 C Those Aren't for Chewing|QID|65868|M|34.63,33.49|Z|2024|N|Keep killing them until you have enough Funerary Offerings.|US|
@@ -198,7 +198,7 @@ C Supplies!|QID|65870|M|33.90,30.47|Z|2024|QO|3|NC|N|Pick up the basket of hunti
 C Ill Gnolls With Ill Intent|QID|65872|M|60.20,41.41|Z|2132|N|Shadepaw gnolls slain.|S|
 C Gnoll Way Out|QID|65871|QO|1|M|46.60,42.33|Z|2132|NC|N|Click on the cages to rescue the Tuskarr.|S|
 C Supplies!|QID|65870|QO|1|M|28.94,75.19|Z|2132|NC|N|Pick up the barrel Salt.|
-C Gnoll Way Out|QID|65871|QO|2|M|41.60,64.52|Z|2132|NC|N|Click on Norukk who is lying on the ground here.|
+C Gnoll Way Out|QID|65871|QO|2|M|41.60,64.52|Z|2132|NC|N|Click on Norukk who is lying on the ground deeper down in the cave.|
 C Supplies!|QID|65870|QO|2|M|51.66,36.67|Z|2132|NC|N|Click the barrel of skinning tools.|
 K Kargpaw the Fetid|ACTIVE|65873|QO|1|M|40.44,17.97|Z|2132|N|Kill and loot Kargpaw.|T|Kargpaw the Fetid|
 C Gnoll Way Out|QID|65871|QO|1|M|46.60,42.33|Z|2132|NC|N|Finish letting the Tuskarr free.|US|
@@ -210,9 +210,9 @@ T Ill Gnolls with Ill Intent|QID|65872|M|34.37,31.02|Z|2024|N|To Brena.|
 A Spreading Decay|QID|66239|PRE|65871&65872&65873&65870|M|34.38,31.02|Z|2024|N|From Brena.|
 T Spreading Decay|QID|66239|M|28.69,34.83|Z|2024|N|To Brena.|
 A Another Ambush|QID|65869|PRE|66239|M|28.69,34.83|Z|2024|N|From Brena.|
-C Another Ambush|QID|65869|M|28.69,34.75|Z|2024|QO|1|CHAT|N|Speak to Akiun.|
+C Another Ambush|QID|65869|M|28.68,34.75|Z|2024|QO|1|CHAT|
 A Falling Water|QID|71233|PRE|66239|M|28.47,35.11|Z|2024|N|From Unkimi.|RANK|2|
-C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|NC|N|Bodies examined.|
+C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|NC|N|A couple Oozing Decay will spawn after you examine the body.|
 T Another Ambush|QID|65869|M|28.78,34.74|Z|2024|N|To Brena.|
 A Urgent Action Required|QID|66026|PRE|65869|M|28.78,34.74|Z|2024|N|From Brena.|
 F Creektooth Den Glyph|QID|99999|M|26.76,31.64|Z|2024;The Azure Plains!Dragonflight|N|Mount up and grab the glyph, just above a tree snag, Then fly over to Brena.|ACH|16069|

@@ -38,7 +38,6 @@ C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|84|CHAT|N|Speak with Archmage 
 C Whispers on the Winds|QID|65439|M|55.93,12.63|Z|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
 T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84|N|To Wrathion.|FACTION|Alliance|
 T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1|N|To Ebyssian.|FACTION|Horde|
-N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currently not active, please come back after 3pm PST on 11/28.|
 A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
 A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|84|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|

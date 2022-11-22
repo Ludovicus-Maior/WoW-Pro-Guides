@@ -6,7 +6,6 @@ WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currently not active, please come back after 3pm PST on 11/28.|
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;F PLACED Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
 ;F Ohn'ahra's Roost|N|Over the Eagle statue.|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16054|
@@ -35,7 +34,7 @@ T Proving Oneself|QID|65780|M|78.61,25.39|Z|2023;Ohn'ahran Plains|N|To Scout Tom
 A Welcome at Our Fire|QID|65783|PRE|65780|M|78.61,25.39|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 T Welcome at Our Fire|QID|65783|M|85.33,25.40|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A The Shikaar|QID|70174|PRE|65783|M|85.33,25.40|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
-f Timberstep Outpost|QID|70174|M|85.27,24.11|Z|2023;Ohn'ahran Plains|N|At Flightmaster Baqir.|
+f Timberstep Outpost|ACTIVE|70174|M|85.27,24.11|Z|2023;Ohn'ahran Plains|N|At Flightmaster Baqir.|
 A Nergazurai|QID|70319|PRE|65783|M|84.54,25.25|Z|2023;Ohn'ahran Plains|N|From Muqur Rain-Touched.|RANK|2|
 A Thieving Gorlocs|QID|65950|PRE|65783|M|84.41,25.00|Z|2023;Ohn'ahran Plains|N|From Farrier Roscha.|RANK|2|
 A Sole Supplier|QID|65951|PRE|65783|M|84.34,25.01|Z|2023;Ohn'ahran Plains|N|From Apprentice Ehri.|RANK|2|
@@ -43,14 +42,15 @@ C The Shikaar|QID|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|CHAT|N|Speak to Sa
 T The Shikaar|QID|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|N|To Sansok Khan.|
 A Making Introductions|QID|65801|PRE|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
 A Supplies for the Journey|QID|65802|PRE|70174|M|85.73,25.32|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
-C Supplies for the Journey|QID|65802|M|84.26,25.77|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Pick the highlighted flowers around the camp.|S|
-C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Pick up Camp Provisions. Blizzard has conveniently given you dots to find them, then covered them up with townspeople's icons.|S|
+C Supplies for the Journey|QID|65802|M|84.26,25.77|Z|2023;Ohn'ahran Plains|QO|1|H|N|Pick the highlighted flowers around the camp.|S|
+C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|QO|2|H|N|Pick up Camp Provisions. Blizzard has conveniently given you dots to find them, then covered them up with townspeople's icons.|S|
 C Making Introductions|QID|65801|M|85.75,26.62|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Let Aru and Belika know you will be joining them.|
 C Making Introductions|QID|65801|M|83.93,25.90|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Let Beastmaster Nuqut know you will be joining the caravan.|
-C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|NC|N|Finish up collecting what you are missing.|US|
+C Supplies for the Journey|QID|65802|M|84.34,23.08|Z|2023;Ohn'ahran Plains|H|N|Finish up collecting what you are missing.|US|
 C Making Introductions|QID|65801|M|85.64,20.84|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Let Ohn Seshteng know you are traveling with the clan.|
+C Nergazurai|QID|70319|M|85.91,17.21|Z|2023;Ohn'ahran Plains|QO|4|N|Kill Ravine Vultures until you loot a  Gizzard.|S|
 C Nergazurai|QID|70319|M|85.03,15.03|Z|2023;Ohn'ahran Plains|QO|2|N|Kill Ravenous Rockfangs until you collect a Femur.|
-C Nergazurai|QID|70319|M|85.91,17.21|Z|2023;Ohn'ahran Plains|QO|4|N|Kill Ravine Vultures until you loot a  Gizzard.|
+C Nergazurai|QID|70319|M|85.91,17.21|Z|2023;Ohn'ahran Plains|QO|4|N|Kill Ravine Vultures until you loot a  Gizzard.|US|
 T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 T Making Introductions|QID|65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Toward the City|QID|65803|PRE|65802&65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
