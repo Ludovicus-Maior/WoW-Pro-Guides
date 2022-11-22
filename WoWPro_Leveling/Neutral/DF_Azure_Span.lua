@@ -225,7 +225,7 @@ C Breaching the Brackenhide|QID|65838|M|17.54,36.97|Z|2024|QO|3|CHAT|N|Click the
 C Breaching the Brackenhide|QID|65838|M|18.43,34.79|Z|2024|QO|1|CHAT|N|Click the root, and then the chat option to cut the root.|
 T Breaching the Brackenhide|QID|65838|M|16.74,37.32|Z|2024|N|To Kalecgos.|
 A Ley Litter|QID|65846|PRE|65838|M|16.74,37.32|Z|2024|N|From Kalecgos.|
-A Cut Out the Rot|QID|65844|PRE|65838|M|16.77,37.24|Z|2024|N|From Norukk.|
+A Cut Out the Rot|QID|65844|PRE|65838|M|16.76,37.25|Z|2024|N|From Norukk.|
 A Echoes of the Fallen|QID|65845|PRE|65838|M|16.75,37.22|Z|2024|N|From Brena.|
 A Ley Litter|QID|65846|PRE|65838|M|16.74,37.32|Z|2024|N|From Kalecgos.|
 C Ley Litter|QID|65846|M|18.73,36.63|Z|2024|NC|N|Pick up the Ley Crystals lying around.|S|
@@ -234,7 +234,7 @@ C Echoes of the Fallen|QID|65845|M|17.45,37.07;17.54,37.96;17.40,38.65;18.52,37.
 C Cut Out the Rot|QID|65844|M|17.35,38.22|Z|2024|N|Finish off the mobs needed.|US|
 C Ley Litter|QID|65846|M|16.75,37.31|Z|2024|N|Finish collecting Ley Crystals.|US|
 T Echoes of the Fallen|QID|65845|M|16.75,37.22|Z|2024|N|To Brena.|
-T Cut Out the Rot|QID|65844|M|16.77,37.25|Z|2024|N|To Norukk.|
+T Cut Out the Rot|QID|65844|M|16.76,37.25|Z|2024|N|To Norukk.|
 T Ley Litter|QID|65846|M|16.75,37.33|Z|2024|N|To Kalecgos.|
 A Tome-ward Bound|QID|65848|PRE|65844&65845&65846|M|16.75,37.33|Z|2024|N|From Kalecgos.|
 C Tome-ward Bound|QID|65848|M|16.75,37.33|Z|2024|QO|1|CHAT|N|Tell Kalecgos you are ready and then wait abit while he rummages through his stuff.|
