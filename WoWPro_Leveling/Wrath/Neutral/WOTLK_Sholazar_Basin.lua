@@ -12,10 +12,6 @@ A Welcome to Sholazar Basin|QID|12489|PRE|12521|M|39.7,58.7|N|From Monte Muzzles
 T Welcome to Sholazar Basin|QID|12489|N|To Hemet Nesingwary. Find Hemet at, where else, Nesingwary Base Camp, to the West.|M|27.09,58.72|
 A It Could Be Anywhere!|QID|12624|N|From Chad. He's right: it really could be anywhere. Turn it in when you find it.|M|26.95,58.92|
 l Zone Wide Drop|ACTIVE|12624|N|Just quest in zone and eventually it will drop|S!US|QO|1|
-
-;Removing the turn in for this quest until I can find a better time for the player to turn it in.
-;t It Could Be Anywhere!|QID|12624|N|To Chad.|M|26.9,58.9|
-
 A Venture Co. Misadventure|QID|12524|N|From Debaar.|M|27.21,59.86|
 A Need an Engine, Take an Engine|QID|12522|N|From Weslex Quickwrench. Go down the path to the other side of the wrecked boat.|M|25.38,58.35|
 C Need an Engine, Take an Engine|QID|12522|N|At the crash site where you landed when you first got here.|M|38.64,56.75|NC|
@@ -88,6 +84,10 @@ C Rhino Mastery: The Kill|QID|12556|N|You'll find Farunn around the Glimmering P
 C Dreadsaber Mastery: Ready to Pounce|QID|12558|N|At the top of Bittertide Lake, look for Shango.|M|32.49,35.16|
 T Rhino Mastery: The Kill|QID|12556|N|To Hemet Nesingwary, in Nesingwary Base Camp.|M|27.09,58.72|
 T Dreadsaber Mastery: Ready to Pounce|QID|12558|N|To Buck Cantwell.|M|26.7,59.0|
+
+;Placing the turn in here. May end up moving it again.
+t It Could Be Anywhere!|QID|12624|N|To Chad.|M|26.9,58.9|
+
 A Lakeside Landing|QID|12651|LEAD|12654|PRE|12560&12526&12550|N|From Hemet Nesingwary.|
 C Tamara's taste test|QID|12645|N|Give a sample to Tamara at Lakeside Landing.|U|38697|M|50.44,62.10|QO|3|
 T Lakeside Landing|QID|12651|N|To Tamara Wobblesprocket.|
