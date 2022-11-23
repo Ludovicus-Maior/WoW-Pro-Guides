@@ -224,7 +224,7 @@ R Sun Rock Retreat|ACTIVE|6393^6282|M|37.9,67.9;44.54,63.43|CC|Z|1442|
 T Elemental War|QID|6393|M|47.29,64.25|Z|1442|N|To Tsunaman.|
 T Harpies Threaten|QID|6282|M|47.20,61.16|Z|1442|N|To Maggran Earthbinder.|
 A Bloodfury Bloodline|QID|6283|M|47.20,61.16|Z|1442|N|From Maggran Earthbinder.|PRE|6282|
-A Calling in the Reserves|QID|5881|M|47.20,61.16|Z|1442|N|From Maggran Earthbinder.|
+A Calling in the Reserves|QID|5881|M|47.20,61.16|Z|1442|N|From Maggran Earthbinder.\n\nThis will get completed in Horde Ch2 Guide.\n\nIt is just eaiser to pick it up now.|
 A Cenarius' Legacy|QID|1087|M|45.95,60.43|Z|1442|N|From Braelyn Firehand.|
 T New Life|QID|6381|M|47.46,58.37|Z|1442|N|To Tammra Windfield.|
 R Mirkfallon Lake|ACTIVE|1058^1087|M|50.8,60.0;49.20,43.39|CC|Z|1442|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
@@ -457,7 +457,7 @@ F Sun Rock Retreat|ACTIVE|1088|M|12.24,33.80|Z|1440|IZ|Zoram'gar Outpost|
 F Sun Rock Retreat|ACTIVE|1088|IZ|-Zoram'gar Outpost|
 T Ordanus|QID|1088|M|45.95,60.43|Z|1442|N|To Braelyn Firehand.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 R The Charred Vale|ACTIVE|6283|M|34.51,60.13|Z|1442|N|Choose your own path to get there. I suggest going over the mountain.|
-K Bloodfury Bloodline|ACTIVE|6283|M|30.71,61.15|Z|1442|QO|1|N|Clear any potential adds in the area. When you're ready, kill Bloodfury Ripper and loot her remains. She paths around a little. I highly recommend kiting her into the mountains away from the others.|
+K Bloodfury Bloodline|ACTIVE|6283|M|30.71,61.15|Z|1442|QO|1|N|Clear any potential adds in the area. When you're ready, kill Bloodfury Ripper and loot her remains. She paths around a little. I highly recommend kiting her into the mountains away from the others.|T|Bloodfury Ripper|
 R Sun Rock Retreat|ACTIVE|6283|M|38.0,68.1;49.58,60.99|CC|Z|1442|N|Head back to Sun Rock Retreat.|
 T Bloodfury Bloodline|QID|6283|M|47.20,61.16|Z|1442|N|To Maggran Earthbinder.|
 
@@ -473,9 +473,9 @@ F Tarren Mill|ACTIVE|515|M|63.26,48.54|Z|1458|
 R Hillsbrad Fields|ACTIVE|515^532^567|M|31.94,48.33|Z|1424|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
 K Battle of Hillsbrad|ACTIVE|532|QO|2|N|Kill Hillsbrad Councilmen.|S|
 K Clerk Horrace Whitesteed|ACTIVE|567|M|30.08,42.01|Z|1424|QO|1|N|Kill Clerk Horrace Whitesteed inside the Townhall. He's just inside the main room against the near wall to the right of the doorway.|T|Clerk Horrace Whitesteed|
-K Magistrate Burnside|ACTIVE|532|M|29.65,41.70|Z|1424|QO|1;3;4|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|T|Magistrate Burnside|
-K Battle of Hillsbrad|ACTIVE|532|M|29.73,41.75|Z|1424|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
-K Battle of Hillsbrad|ACTIVE|532|M|29.53,41.53|Z|1424|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
+K Magistrate Burnside|ACTIVE|532|M|29.65,41.70|Z|1424|QO|1|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|T|Magistrate Burnside|
+C Battle of Hillsbrad|ACTIVE|532|M|29.73,41.75|Z|1424|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
+C Battle of Hillsbrad|ACTIVE|532|M|29.53,41.53|Z|1424|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
 K Battle of Hillsbrad|ACTIVE|532|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
 K Citizen Wilkes|ACTIVE|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]Being that this the last time you will be here, go find him.|US|
 C Souvenirs of Death|QID|546|M|33.03,46.78|Z|1424|L|3692 30|N|Finish collecting the Hillsbrad Human Skulls.\n[color=FF0000]NOTE: [/color]The Peasants, Blacksmiths, and Footmen offer the best drop rate; Farmers and Farmhands offer the worst. Your results may vary.|US|

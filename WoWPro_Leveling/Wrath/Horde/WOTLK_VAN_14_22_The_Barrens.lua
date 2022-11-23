@@ -557,7 +557,7 @@ A The Ashenvale Hunt|QID|6382^235^742|M|44.86,59.14|N|From Jorn Skyseer.|LEAD|63
 A Melor Sends Word|QID|1130|M|44.86,59.14|N|From Jorn Skyseer.|LEAD|1131|
 F Thunder Bluff|ACTIVE|1130|M|44.44,59.15|
 T Melor Sends Word|QID|1130|M|61.49,80.83|Z|Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.|
-A Steelsnap|QID|1131|M|61.49,80.83|Z|Thunder Bluff|N|From Melor Stonehoof.|
+A Steelsnap|QID|1131|M|61.49,80.83|Z|Thunder Bluff|N|From Melor Stonehoof.\n\nThis will get completed in a Horde Ch2 Guide.\n\nIt is just easier to pick it up now.|
 F Orgrimmar|QID|3924|M|47.02,49.83|Z|Thunder Bluff|
 R Valley of Honor|QID|3924|M|65.54,40.00|Z|Orgrimmar|N|Make your way to the Valley of Honor.|
 T Samophlange Manual|QID|3924|M|76.51,24.43|Z|Orgrimmar|N|To Rilli Greasygob inside Nogg's Machine Shop (in Valley of Honor).|
