@@ -385,7 +385,7 @@ K Shadumbra|AVAILABLE|24|L|16304|N|While you are in the area of Raynewood Retrea
 K Ordanus|ACTIVE|1088|M|62.09,51.18|Z|1440|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. That way, if you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
 l Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't need it.|US|
 R Moonwell|ACTIVE|1195|M|61.5,68.3;59.8,69.7;60.10,72.85|CC|Z|1440|L|5868|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|
-C The Sacred Flame|QID|1195|M|60.10,72.85|Z|1440|L|5868|N|Fill the Etched Phial from the Moonwell.|U|5867|NC|
+C The Sacred Flame|QID|1195|M|60.10,72.85|Z|1440|L|5868|N|Fill the Etched Phial from the Moonwell.\n\nThis will get completed in Horde Ch2 Guide.|U|5867|NC|
 R Splintertree Post|ACTIVE|6503|M|71.16,69.13|Z|1440|N|S|LVL|28;-16550|
 L Level 28|ACTIVE|6503|N|You'll want to grind out until you're at least halfway to level 28.|LVL|28;-16550|
 R Splintertree Post|ACTIVE|6503|M|71.16,69.13|Z|1440|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|US|
