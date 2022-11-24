@@ -103,7 +103,7 @@ t Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441|N|To Wizlo Bearingshiner.|I
 C Incendia Agave|QID|5062|M|35.56,34.63|Z|1441|L|12732 10|N|Loot these in and around the pond below Darkcloud Pinnacle.\n\nThe mobs here are immune to Frost damage and deal Fire Melee Damage.|
 R Freewind Post|ACTIVE|4767|M|46.84,47.18|Z|1441|N|Make your way towards Frewwind Post as you grind.|S|
 L Level 32|ACTIVE|4767|N|Grind until you're within 5 bars of lvl 32.|LVL|31;-10950|
-H Freewind Post|ACTIVE|4767|M|PLAYER|Z|1441||US|
+H Freewind Post|ACTIVE|4767|M|PLAYER|Z|1441|US|
 T Wanted - Arnak Grimtotem|QID|5147|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Grimtotem Spying|QID|5064|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Free at Last|QID|4904|M|45.97,51.61|Z|1441|N|To Thalia Amberhide.|
