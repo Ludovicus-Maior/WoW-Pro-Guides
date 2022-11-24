@@ -249,8 +249,8 @@ F Brackenhide Hollow Glyph|QID|99999|M|10.40,35.89|Z|2024;The Azure Plains!Drago
 ;C Stop the Spread|QID|65841|M|20.01,35.97|Z|2024|N|Bonus Objective - Now is the time to finish this if you wanted to.|US|
 ;t Stop the Spread|QID|65841|M|16.64,38.18|Z|2024|N|Bonus Objective - Autocompleted.|
 T Realignment|QID|65847|M|16.10,41.39|Z|2024|N|To Kalecgos.|
-A To Iskarra|QID|65849|PRE|65847|M|16.08,41.44|Z|2024|N|From Brena.|
-R Iskarra|ACTIVE|65849|M|13.29,48.76|Z|2024|N|Iskarra is another of Hemet's stops, so if you see him, and want it, grab the quest he offers.|
+A To Iskaara|QID|65849|PRE|65847|M|16.08,41.44|Z|2024|N|From Brena.|
+R Iskaara|ACTIVE|65849|M|13.29,48.76|Z|2024|N|Iskaara is another of Hemet's stops, so if you see him, and want it, grab the quest he offers.|
 f Iskaara|ACTIVE|65849|M|13.29,48.76|Z|2024|N|At Skygazer Paatu.|
 T To Iskaara|QID|65849|M|13.24,49.55|Z|2024|N|To Brena.|
 A Gather the Family|QID|66210|PRE|65849|M|13.24,49.55|Z|2024|N|From Brena.|
