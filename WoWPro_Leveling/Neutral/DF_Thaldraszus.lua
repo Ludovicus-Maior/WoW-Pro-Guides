@@ -7,12 +7,13 @@ return [[
 
 N Guide Locked|QID|99999|DATE|-1669676400;1|N|The rest of this guide is currently not active, please come back after 3pm PST on 11/28.|
 
+
 ;Renown Quests
-A To Dragonbane Keep!|QID|71210|PRE|66465&66467|M|PLAYER|N|From Herald Flaps.|DFREN|2511;valdrakken;5|;may be earlier
-A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|2511;valdrakken;7|
-A Continued Waygate Exploration|QID|70702|PRE||M|PLAYER|N|From Doc Nanners.|DFREN|2507;dragonscale exp;8|
-A A Cataloger's Paradise|QID|69869|M|PLAYER|N|From Doc Nanners.|DFREN|2507;dragonscale exp;8|
-A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|2507;dragonscale exp;7|
+A To Dragonbane Keep!|QID|71210|PRE|66465&66467|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2511;5|;may be earlier
+A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2511;7|
+A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|
+A A Cataloger's Paradise|QID|69869|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
+A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F South Hold Gate|N|This one is inside one of the towers, but not the highest tower, the one just below it.|M|35.60,85.66|Z|2025;Thaldraszus!Dragonflight|ACH|16100|
@@ -29,48 +30,50 @@ A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you
 ;F Tyrhold|N|This one is on the mountain ledge.|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|ACH|16103|
 ;F Thaldraszus Apex|N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|ACH|16107|
 
-A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|
-C Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|This comment is really just here to see if RARE tag will suppress the comment!|
+A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|IZ|13813|
+C Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|This comment is really just here to see if RARE tag will suppress the comment!|IZ|13813|
 F South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower|ACH|16100|
 f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|
-f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2025|N|At Aluri.|
+f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2112|N|At Aluri.|
 C To Valdrakken|QID|66244|M|47.64,69.16|Z|2112|QO|1|NC|N|Make your way to Valdrakken.|
 ;A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren.| - not here, at least not now.
-A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112|N|From Waywatcher Lorin.|
-A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promoter.|
-C To Valdrakken|QID|66244|M|52.20,53.02|Z|2112|QO|1|NC|N|Make your way to Valdrakken.|
-A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|
-C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional).|
+A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promoter.|RANK|2|
+A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112|N|From Waywatcher Lorin.|RANK|2|
+A Aiding the Accord|QID|70750|M|50.64,57.95|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
+C To Valdrakken|QID|66244|M|52.20,53.02|Z|2112|QO|1|NC|N|Head up the steps for the quest update.|
+A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
+C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own).|
 T To Valdrakken|QID|66244|M|57.97,35.84|Z|2112|N|To Alexstrasza the Life-Binder.|
 A A Message Most Dire|QID|66159|PRE|66244|M|57.97,35.84|Z|2112|N|From Alexstrasza the Life-Binder.|
 C A Message Most Dire|QID|66159|M|57.97,35.84|Z|2112|CHAT|N|Information delivered.|
 T A Message Most Dire|QID|66159|M|57.97,35.84|Z|2112|N|To Alexstrasza the Life-Binder.|
 A Nowhere to Hide|QID|66163|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine, who runs up to join the meeting.|
 A Eyes and Ears|QID|66166|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine.|
-A The Algeth'ar Academy|QID|72193|PRE|66159|M|61.39,36.46|Z|2112|N|From Kalecgos.|
-A Halls of Infusion: Entropy to Order|QID|72192|PRE|66159|M|54.34,40.94|Z|2112|N|From Watcher Koranos.|
+A The Algeth'ar Academy|QID|72193|PRE|66159|M|61.39,36.46|Z|2112|N|From Kalecgos.|RANK|2|
+A Halls of Infusion: Entropy to Order|QID|72192|PRE|66159|M|54.34,40.94|Z|2112|N|From Watcher Koranos.|RANK|3|
 C Nowhere to Hide|QID|66163|M|58.90,36.29|Z|2112|QO|1|NC|U|198859|N|Use the Revealing Dragon's Eye to allow you to detect the Infiltrators.|
+C Nowhere to Hide|QID|66163|M|PLAYER|NC|U|198859|N|Looks like your Revealing Dragon's Eye buff is gone, reuse it to allow you to detect the Infiltrators.|BUFF|385996|
 F Valdrakken Glyph|QID|99999|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|N|Above the highest tower over Valdrakken.|ACH|16101|
-C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|CHAT|N|As you go about finding the people and places of interest, Question Valdrakken Citizens, to find the infiltrators, when you find one, kill it. Reuse the gem if you should lose the Revealing Dragon's Eye Buff.|S|
+C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|CHAT|N|As you go about finding the people and places of interest, Question Valdrakken Citizens, to find the infiltrators, when you find one, kill it. Reuse the gem if you should lose the Revealing Dragon's Eye Buff.|S|
 A Garden Variety|QID|72189|M|77.49,66.03|Z|2112|N|From Tender Xina.|RANK|2|
 A A Dryad's Work Is Never Done|QID|67094|M|72.83,66.19|Z|2112|N|From Thalendra.|RANK|2|
-C A Dryad's Work Is Never Done|QID|67094|M|67.21,70.25|Z|2112|QO|1|NC|U|194441|N|Hungry Swoglet Fed.|
-C A Dryad's Work Is Never Done|QID|67094|M|57.08,80.21|Z|2112|QO|3|NC|U|194441|N|Hungry Slyvern Kit Fed.|
-C A Dryad's Work Is Never Done|QID|67094|M|51.23,71.16|Z|2112|QO|5|NC|U|194441|N|Hungry Eft Fed.|
-C A Dryad's Work Is Never Done|QID|67094|M|42.87,74.97|Z|2112|QO|2|NC|U|194441|N|Hungry Otter Pup Fed.|
+C A Dryad's Work Is Never Done|QID|67094|M|67.21,70.25|Z|2112|QO|1|H|N|Click the Hungry Swoglet.|
+C A Dryad's Work Is Never Done|QID|67094|M|57.08,80.21|Z|2112|QO|3|H|N|Click the Hungry Slyvern Kit.|
+C A Dryad's Work Is Never Done|QID|67094|M|51.23,71.16|Z|2112|QO|5|H|N|Click the Hungry Eft at the top of the waterfall.|
+C Orientation: Valdrakken|QID|72406|QO|2|M|46.59,79.09|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
+C A Dryad's Work Is Never Done|QID|67094|M|42.87,74.97|Z|2112|QO|2|H|N|Click the Hungry Otter Pup.|
 C Orientation: Valdrakken|QID|72406|QO|3|M|36.43,62.83|Z|2112|N|Open Dothenos' store to get quest update.|
 C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger.|
-C Orientation: Valdrakken|QID|72406|QO|2|M|46.59,79.09|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
-C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|NC|U|194441|N|Hungry Hatchling Fed. He in above the bank, not in it.|
+C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|H|N|Click the Hungry Hatchling is above the bank, not in it.|
 C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank.|
-C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Pick up the goblet.|
-h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
-A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|
-A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|2511;valdrakken;7|;add iz?
+C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet.|
+A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdrakken;2511;7|RANK|2|;add iz?
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
+h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
+A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|
 C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|H|N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
-T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.|
+T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.(at the top of the stairs, not the top of the building where you last saw him.)|
 T Eyes and Ears|QID|66166|M|54.72,47.33|Z|2112|N|To Captain Drine.|
 A Southern Exposure|QID|66167|PRE|66166&66163|M|54.89,47.01|Z|2112|N|From Captain Drine.|
 T Orientation: Valdrakken|QID|72406|M|58.21,35.09|Z|2112|N|To Unatos.|
@@ -369,14 +372,13 @@ T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
 ;A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112|N|From Aspiring Goblin Engineer.|;Deleted? LEAD?
 
 H Valdrakken|ACTIVE|66221|M|PLAYER|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|
-A Renown Supplies|QID|72672|M|58.18,35.01|Z|2112|DFREN|2511;Valdrakken;7|N|From Unatos.|
+A Renown Supplies|QID|72672|M|58.18,35.01|Z|2112|DFREN|Valdrakken;2511;7|N|From Unatos.|
 T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
 C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza that all the Oathstones have been restored.|
 T Moving On|QID|66221|M|57.97,36.04|Z|2112|N|To Alexstrasza.|
 A Renown of the Dragon Isles|QID|71232|PRE|66221|M|57.97,36.04|Z|2112|N|From Alexstrasza.|
 T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112|N|To Captain Drine.|
 T Renown of the Dragon Isles|QID|71232|M|50.64,57.95|Z|2112|N|To Therazal.|
-A Aiding the Accord|QID|70750|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
 A Open Orientation|QID|72585|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal.|
 C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones and guides to get acuainted with the other factions.|S!US|
 t Open Orientation|QID|72585|M|50.64,57.95|Z|2112|N|To Therazal.|
