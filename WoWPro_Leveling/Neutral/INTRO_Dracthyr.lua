@@ -23,6 +23,7 @@ $ Mysterious Wand|ACTIVE|64863|M|38.12,74.54|Z|2109; The War Creche|N|Grab the c
 C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N|Guardians or Constructs slain.|S|
 C Gear Up|QID|64865|M|34.48,61.64|Z|2109; The War Creche|QO|3|H|N|Click the chest in the back of the room.|
 C Gear Up|QID|64865|M|38.84,51.90|Z|2109; The War Creche|QO|2|H|N|Click on the crate at the back of the room.|
+
 C Gear Up|QID|64865|M|44.74,65.87|Z|2109; The War Creche|QO|1|H|N|Click the rack of weapons in back of the room.|
 C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N|Guardians or Constructs slain.|US|
 T Arcane Guardians|QID|64863|M|45.65,58.82|Z|2109; The War Creche|N|To Dervishian.|
@@ -165,7 +166,6 @@ T Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|To Wrathi
 A Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|From Spiritwalker Ebonhorn.|FACTION|Horde|
 T Spiritual Allies|QID|66237|M|45.64,12.88|Z|1;Durotar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
 A Ground Leave|QID|66534|M|45.64,12.88|Z|1;Durotar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
-A I Believe You Can Fly|QID|32674|M|49.51,93.86|Z|85;Orgrimmar|N|From UI popup as you enter the gates of orgrimmar.|FACTION|Horde|
 C Ground Leave|QID|66534|M|55.70,90.05|Z|85;Orgrimmar|QO|4|NC|N|Visit the Portal Room.|FACTION|Horde|
 C Ground Leave|QID|66534|M|49.05,82.43|Z|85;Orgrimmar|QO|2|NC|N|Visit the Bank.|FACTION|Horde|
 C Ground Leave|QID|66534|M|53.59,73.75|Z|85;Orgrimmar|QO|1|NC|N|Visit the Auction House.|FACTION|Horde|
@@ -179,8 +179,10 @@ C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|1|NC|N|Ask 
 C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|2|NC|N|Learn about Visage Form.|FACTION|Horde|
 C An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|QO|3|NC|N|Adopt a Visage Form.|FACTION|Horde|
 T An Iconic, Draconic Look|QID|65613|M|44.18,38.40|Z|85;Orgrimmar|N|To Ebyssian.|FACTION|Horde|
+A I Believe You Can Fly|QID|32674|PRE|65613|M|49.51,93.86|Z|85;Orgrimmar|N|From UI popup.|FACTION|Horde|
 A The Dark Talons|QID|72256|PRE|65613|M|44.18,38.40|Z|85;Orgrimmar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
 A Expeditionary Coordination|QID|65443|PRE|65613|M|44.30,38.09|Z|85;Orgrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
+T I Believe You Can Fly|QID|32674|M|48.90,59.28|Z|85;Orgrimmar|N|To Maztha, and train flying from her.|FACTION|Horde|
 C The Dark Talons|QID|72256|M|55.13,89.27|Z|85|QO|1|NC|N|Orders delivered to Kodethi.|S|FACTION|Horde|
 C Expeditionary Coordination|QID|65443|M|57.27,54.09|Z|85;Orgrimmar|QO|1|NC|N|Artisans recruited.|FACTION|Horde|
 C Expeditionary Coordination|QID|65443|M|71.28,50.83|Z|85;Valley of Honor|QO|3|NC|N|On the upper floor.|FACTION|Horde|
