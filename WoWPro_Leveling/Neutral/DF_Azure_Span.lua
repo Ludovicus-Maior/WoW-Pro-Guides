@@ -235,28 +235,28 @@ C Cut Out the Rot|QID|65844|M|17.35,38.22|Z|2024|N|Finish off the mobs needed.|U
 C Ley Litter|QID|65846|M|16.75,37.31|Z|2024|N|Finish collecting Ley Crystals.|US|
 T Echoes of the Fallen|QID|65845|M|16.75,37.22|Z|2024|N|To Brena.|
 T Cut Out the Rot|QID|65844|M|16.76,37.25|Z|2024|N|To Norukk.|
-T Ley Litter|QID|65846|M|16.75,37.33|Z|2024|N|To Kalecgos.|
-A Tome-ward Bound|QID|65848|PRE|65844&65845&65846|M|16.75,37.33|Z|2024|N|From Kalecgos.|
-C Tome-ward Bound|QID|65848|M|16.75,37.33|Z|2024|QO|1|CHAT|N|Tell Kalecgos you are ready and then wait abit while he rummages through his stuff.|
+T Ley Litter|QID|65846|M|16.75,37.32|Z|2024|N|To Kalecgos.|
+A Tome-ward Bound|QID|65848|PRE|65844&65845&65846|M|16.75,37.32|Z|2024|N|From Kalecgos.|
+C Tome-ward Bound|QID|65848|M|16.75,37.32|Z|2024|QO|1|CHAT|N|Tell Kalecgos you are ready and then wait abit while he rummages through his stuff.|
 C Tome-ward Bound|QID|65848|M|16.72,37.29|Z|2024|QO|2|V|N|Hop on the Tome of Spellflinging.|
 C Tome-ward Bound|QID|65848|M|15.93,38.42;15.14,38.00;15.64,37.33|CS|Z|2024|QO|3|N|The first button on the UI moves you forward very fast, running over and doing damage to the smaller mobs and the "2" gives you a target reticle and shoots them. Kill the Brackenhide Putrifiers.|
 C Tome-ward Bound|QID|65848|M|15.38,38.61|Z|2024|QO|4|N|Now you only have one button. Use it on the Twisted Ancient.|
 T Tome-ward Bound|QID|65848|M|15.30,39.43|Z|2024|N|To Kalecgos.|
 A Realignment|QID|65847|PRE|65848|M|15.30,39.43|Z|2024|N|From Kalecgos.|
-C Realignment|QID|65847|M|15.34,39.47|Z|2024|QO|1|NC|N|Click the ley crystal to focus the ley line.|
-C Realignment|QID|65847|M|15.48,39.29|Z|2024|QO|2|NC|N|Click on the mounds of decay in the cave.|
+C Realignment|QID|65847|M|15.36,39.50|Z|2024|QO|1|NC|N|Click the ley crystal to focus the ley line.|
+C Realignment|QID|65847|M|15.51,39.30;15.30,39.12;15.06,39.53|CN|Z|2024|QO|2|NC|N|Click on the mounds of decay in the cave.|
 F Brackenhide Hollow Glyph|QID|99999|M|10.40,35.89|Z|2024;The Azure Plains!Dragonflight|N|Mount up and get the glyph near the top of the highest tree|ACH|16068|
 ;C Stop the Spread|QID|65841|M|20.01,35.97|Z|2024|N|Bonus Objective - Now is the time to finish this if you wanted to.|US|
 ;t Stop the Spread|QID|65841|M|16.64,38.18|Z|2024|N|Bonus Objective - Autocompleted.|
 T Realignment|QID|65847|M|16.10,41.39|Z|2024|N|To Kalecgos.|
-A To Iskarra|QID|65849|PRE|65847|M|16.08,41.44|Z|2024|N|From Brena.|
-R Iskarra|ACTIVE|65849|M|13.29,48.76|Z|2024|N|Iskarra is another of Hemet's stops, so if you see him, and want it, grab the quest he offers.|
+A To Iskaara|QID|65849|PRE|65847|M|16.08,41.44|Z|2024|N|From Brena.|
+R Iskaara|ACTIVE|65849|M|13.29,48.76|Z|2024|N|Iskaara is another of Hemet's stops, so if you see him, and want it, grab the quest he offers.|
 f Iskaara|ACTIVE|65849|M|13.29,48.76|Z|2024|N|At Skygazer Paatu.|
 T To Iskaara|QID|65849|M|13.24,49.55|Z|2024|N|To Brena.|
 A Gather the Family|QID|66210|PRE|65849|M|13.24,49.55|Z|2024|N|From Brena.|
 A Brackenhide Hollow: To the Source|QID|66211|PRE|65849|M|13.24,49.55|Z|2024|N|From Brena. This is a [color=c9c1ab]Dungeon [/color]quest. Accept or not as you choose.|RANK|2|
 A Orientation: Iskaara|QID|72435|PRE|65849|M|13.14,49.27|Z|2024|N|From Murik.|RANK|2|
-C Gather the Family|QID|66210|QO|1<1|M|12.79,49.33;12.49,49.45|CS|Z|2024|NC|N|Pick up the stone sculpture in the underground inn.|
+C Gather the Family|QID|66210|QO|1<1|M|12.79,49.33;12.49,49.45|CS|Z|2024|NC|N|Pick up the stone sculpture in The Filled Bowl (the underground inn).|
 A The Weave of a Tale|QID|66213|PRE|65849|M|12.41,49.40|Z|2024|N|From Elder Nappa.|RANK|2|
 C The Weave of a Tale|QID|66213|M|12.41,49.34|Z|2024|CHAT|N|Tell Elder Poa a made up a story about a fish.|
 A Stolen Tuskarr Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|L|200071 -1|;maybe a REN thing?
@@ -278,7 +278,7 @@ C Gather the Family|QID|66210|M|13.13,48.54|Z|2024|QO|2|NC|N|Offerings placed in
 T Orientation: Iskaara|QID|72435|M|13.14,49.27|Z|2024|N|To Murik.|
 T Gather the Family|QID|66210|M|13.24,49.54|Z|2024|N|To Brena.|
 A The Cycle of the Sea|QID|65850|PRE|66210|M|13.25,49.52|Z|2024|N|From Kalecgos.|
-C The Cycle of the Sea|QID|65850|M|13.24,49.55|Z|2024|QO|1|CHAT|N|Tell Brena you are ready to begin the funeral. Wait a bit/follow along, until you get the quest update.|
+C The Cycle of the Sea|QID|65850|M|13.24,49.55;12.93,50.43|CS|Z|2024|QO|1|CHAT|N|Tell Brena you are ready to begin the funeral. Wait a bit/follow along, until you get the quest update.|
 C The Cycle of the Sea|QID|65850|M|13.16,50.14|Z|2024|QO|2|NC|N|Click on the Boat to push it` out to sea.|
 T The Cycle of the Sea|QID|65850|M|12.95,50.39|Z|2024|N|To Kalecgos.|
 A Azure Alignment|QID|65911|PRE|65850|M|12.95,50.39|Z|2024|N|From Kalecgos.|
@@ -341,14 +341,14 @@ A Calling the Blue Dragons|QID|66027|PRE|65911|M|39.47,63.01|Z|2024|N|From Kalec
 C Calling the Blue Dragons|QID|66027|M|39.47,63.01|Z|2024|CHAT|N|Tell Kalecgos you are ready.|
 T Calling the Blue Dragons|QID|66027|M|39.47,63.01|Z|2024|N|To Kalecgos.|
 A To Rhonin's Shield|QID|65886|PRE|66027|M|39.47,63.01|Z|2024|N|From Kalecgos.|
-C To Rhonin's Shield|QID|65886|M|39.93,61.55|Z|2024|QO|2|NC|EAB|N|(Optional). Go stand in the water near the blue piller and an [color=33fff9]Extra Action Button [/color] will pop up. Clicking it will take you to the top ring, which makes it much easier to fly nearly all the way to Rhonin's Shield.|
-F Zelthrak Outpost Glyph|QID|99999|N|This one is hidden between the trees, might have to look around a bit for it.|M|52.91,48.70|Z|2024;The Azure Plains!Dragonflight|ACH|16071|
+C To Rhonin's Shield|QID|65886|M|38.26,61.52;39.58,60.27;41.18,62.27|CN|Z|2024|QO|2|NC|EAB|N|(Optional)\nGo stand in one of the three Arcane Stepping Stones and an [color=33fff9]Extra Action Button [/color] will pop up. Clicking it will take you to the top ring, which makes it much easier to fly nearly all the way to Rhonin's Shield.|
+F Zelthrak Outpost Glyph|QID|99999|M|52.91,48.70|Z|2024;The Azure Plains!Dragonflight|N|This one is hidden amongst the tree branches. You might have to look around for it a bit.|ACH|16071|
 R Rhonin's Shield|ACTIVE|65886|M|65.53,25.76|Z|2024|N|Fly over to Rhonin's Shield.|
 T To Rhonin's Shield|QID|65886|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 A To the Mountain|QID|65887|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|
 A Drakes be Gone|QID|67299|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|RANK|2|
 A Artifacts in the Wrong Hands|QID|66964|PRE|65886|M|65.94,25.27|Z|2024|N|From Polky Cogzapper.|RANK|2|
-f Rhonin's Shield|ACTIVE|67299|M|66.00,25.39|Z|2024|N|At Portia Striat.|
+f Rhonin's Shield|ACTIVE|65887|M|66.00,25.39|Z|2024|N|At Portia Striat.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 A Riders in the Snow|QID|66708|PRE|65886|M|65.90,25.47|Z|2024|N|From Tuskarr Elder.|RANK|2|
 C Drakes be Gone|QID|67299|M|65.73,25.72|Z|2024|V|N|Use one of the Arcane Blasters to shoot Proto-Drakes out of the sky.|
 T Drakes be Gone|QID|67299|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
