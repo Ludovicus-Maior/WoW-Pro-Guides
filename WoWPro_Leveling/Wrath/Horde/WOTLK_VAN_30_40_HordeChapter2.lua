@@ -32,14 +32,12 @@ A The Sacred Flame|QID|1196|M|54.94,51.42|Z|1456|N|From Zangen Stonehoof.|PRE|11
 l Maggran's Reserve Letter|ACTIVE|5881|L|16189|N|You need this to turn in the quest.\n[color=FF0000]NOTE: [/color]Go grab it or you'll have to get a replacement from Maggran Earthbinder in Thunder Bluff.|
 
 ; --- The Barrens
-F Camp Taurajo|AVAILABLE|1153|M|47.02,49.83|Z|1456|
-A A New Ore Sample|QID|1153|M|45.10,57.69|Z|1413|N|From Tatternack Steelforge.|PRE|893|
+F Camp Taurajo|ACTIVE|5881|M|47.02,49.83|Z|1456|
 
 ; --- Thousand Needles
 R The Great Lift|ACTIVE|5881|M|32.23,20.46|Z|1441|N|Leave Camp Taurajo and follow the Southern Gold Road south to the bottom of The Barrens.|
 T Calling in the Reserves|QID|5881|M|31.87,21.65|Z|1441|N|To Grish Longrunner.|
 A Message to Freewind Post|QID|4542|M|32.24,22.17|Z|1441|N|From Brave Moonhorn.\n[color=FF0000]NOTE: [/color]If he's not here, check the bottom of The Great Lift or wait for him to respawn because he's dead.|
-C A New Ore Sample|QID|1153|L|5842|ITEM|5842|N|Gravelsnout Surveyor/Digger\n[color=FF0000]NOTE: [/color]They're spread out over the east and west ends of Thousand Needles.|S|
 R Freewind Post|ACTIVE|4542|M|31.5,25.3;29.5,34.5;46.84,47.18|CC|Z|1441|N|Take the lift down to the bottom and follow the road (signs) to Freewind Post.|
 T Message to Freewind Post|QID|4542|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.\n[color=FF0000]NOTE: [/color]The lift to go up is a little further down the road.|
 A Pacify the Centaur|QID|4841|M|45.66,50.79|Z|1441|N|From Cliffwatcher Longhorn.|PRE|4542|
@@ -65,8 +63,8 @@ R Test of Faith|ACTIVE|1149|M|26.43,32.39|CC|Z|1441|N|Run and jump off the plank
 N Failed|ACTIVE|1149|N|If you died, you jumped from the wrong spot. Abandon the quest to restart it.|IZ|-The Weathered Nook|
 T Test of Faith|QID|1149|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
 A Test of Endurance|QID|1150|M|53.94,41.49|Z|1441|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
-C Alien Egg|QID|4821|M|56.34,50.39;52.35,55.22|CN|Z|1441|L|12467|N|Look for the Alien Egg on the ground at one of two locations. There is a rumor of a third location. They have a fairly long respawn timer.|
-R Freewind Post|ACTIVE|4821|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|
+C Alien Egg|QID|4821|M|56.34,50.39;52.35,55.22;37.62,56.10|CN|Z|1441|L|12467|N|Look for the Alien Egg on the ground at one of three locations.\n\nThey have a fairly long respawn timer.|
+H Freewind Post|ACTIVE|4821|M|PLAYER|
 T Alien Egg|QID|4821|M|44.64,50.30|Z|1441|N|To Hagar Lightninghoof.|
 A Serpent Wild|QID|4865|M|44.64,50.30|Z|1441|N|From Hagar Lightninghoof.|PRE|4821|
 T Pacify the Centaur|QID|4841|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
@@ -102,10 +100,10 @@ A Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|From Kanati Greycloud
 C Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|A group of 3 Galak Assassins will spawn and attack you and Kanati. Defeat them to complete the quest.|
 T Protect Kanati Greycloud|QID|4966|M|21.26,32.06|Z|1441|N|To Kanati Greycloud.|
 t Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441|N|To Wizlo Bearingshiner.|IZ|Whitereach Post|
-C Incendia Agave|QID|5062|M|35.56,34.63|Z|1441|L|12732 10|N|Loot these in and around the pond below Darkcloud Pinnacle.|
+C Incendia Agave|QID|5062|M|35.56,34.63|Z|1441|L|12732 10|N|Loot these in and around the pond below Darkcloud Pinnacle.\n\nThe mobs here are immune to Frost damage and deal Fire Melee Damage.|
 R Freewind Post|ACTIVE|4767|M|46.84,47.18|Z|1441|N|Make your way towards Frewwind Post as you grind.|S|
 L Level 32|ACTIVE|4767|N|Grind until you're within 5 bars of lvl 32.|LVL|31;-10950|
-R Freewind Post|ACTIVE|4767|M|46.84,47.18|Z|1441|N|Run back to Freewind and take the lift up.|US|
+H Freewind Post|ACTIVE|4767|M|PLAYER|Z|1441|US|
 T Wanted - Arnak Grimtotem|QID|5147|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Grimtotem Spying|QID|5064|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
 T Free at Last|QID|4904|M|45.97,51.61|Z|1441|N|To Thalia Amberhide.|
@@ -153,21 +151,20 @@ R The Weathered Nook|ACTIVE|1150|M|53.67,42.74|
 T Test of Endurance|QID|1150|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
 A Test of Strength|QID|1151|M|53.94,41.49|Z|1441|N|From Dorn Plainstalker.|PRE|1150|
 R Highperch area|ACTIVE|1151|M|44.85,58.81;29.67,51.23;18.04,37.81|CC|Z|1441|N|\n[color=FF0000]NOTE: [/color]If you stay high up on the south edge of the canyon wall, you can avoid most of the fights.|
-K Rok'Alim the Pounder|QID|1151|M|17.27,37.07|Z|1441|L|5844|ITEM|5844|N|Rok'Alim the Pounder\nContinue west until you find him.|
+K Rok'Alim the Pounder|QID|1151|M|17.27,37.07|Z|1441|L|5844|ITEM|5844|N|Continue west until you get to the Alliance camp in Feralas then turn around and run back.|T|Rok'Alim the Pounder|
 R The Weathered Nook|ACTIVE|1151|M|53.67,42.74|Z|1441|N|Choose your own path back.|
 T Test of Strength|QID|1151|M|53.94,41.49|Z|1441|N|To Dorn Plainstalker.|
 A Test of Lore|QID|1152|M|53.94,41.49|Z|1441|N|From Dorn Plainstalker.|PRE|1151|
-C A New Ore Sample|QID|1153|L|5842|ITEM|5842|N|Gravelsnout Surveyor/Digger\n[color=FF0000]NOTE: [/color]They're spread out over the east and west ends of Thousand Needles.|US|
-
-; --- The Barrens
-R Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441|
-F Camp Taurajo|ACTIVE|1153|M|45.14,49.10|Z|1441|
-T A New Ore Sample|QID|1153|M|45.10,57.69|Z|1413|N|To Tatternack Steelforge.|
+H Freewind Post|ACTIVE|1131|M|46.84,47.18|Z|1441|
 
 ; --- Thunder Bluff
 F Thunder Bluff|ACTIVE|1131|M|44.44,59.15|Z|1413|
 T Steelsnap|QID|1131|M|61.53,80.89|Z|1456|N|To Melor Stonehoof.|
 A Frostmaw|QID|1136|M|61.53,80.89|Z|1456|N|From Melor Stonehoof.|PRE|1131|
+
+
+;HerniaOG Progress
+
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1152|M|47.02,49.83|Z|1456|
