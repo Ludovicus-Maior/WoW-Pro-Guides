@@ -161,13 +161,21 @@ function WoWPro.QuestLog_GetNumQuestLogEntries()
         return _G.GetNumQuestLogEntries()
     end
 end
+
 function WoWPro.QuestLog_IsComplete(questID)
+    -- Note this needs to return the old trinary return result!
     if WoWPro.RETAIL then
-        return _G.C_QuestLog.IsComplete(questID)
+        if _G.C_QuestLog.IsComplete(questID) then
+            return 1
+        elseif _G.C_QuestLog.IsFailed(questID) then
+            return -1
+        end
+        return nil
     else
         return select(6, _G.GetQuestLogTitle(_G.GetQuestLogIndexByID(questID)))
     end
 end
+
 function WoWPro.QuestLog_IsQuestFlaggedCompleted(questID)
     return _G.C_QuestLog.IsQuestFlaggedCompleted(questID)
 end
