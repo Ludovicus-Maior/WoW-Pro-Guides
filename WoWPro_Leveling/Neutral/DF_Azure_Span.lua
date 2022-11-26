@@ -578,10 +578,13 @@ C An Ancient Awakening|QID|70156|QO|2|M|48.33,30.13|NC|N|Clicking the little pin
 C An Ancient Awakening|QID|70156|QO|3|M|48.33,30.13|NC|N|Click the waygate.|
 T An Ancient Awakening|QID|70156|M|47.20,90.25|Z|2022|N|To Thaelin Darkanvil. Congratulations, you have now unlocked Waygates.|
 F Cobalt Assembly|ACTIVE|72784|M|49.39,24.87|Z|2024|N|We are now going to see what the Cobalt Assembly is up to.|
+F Cobalt Assembly|AVAILABLE|72784|M|39.92,61.54;49.39,24.87|CS|Z|2024|N|We're now headed to grab the Cobalt Assembly Glyph.\n[color=FF0000]NOTE: [/color]Use one of the Arcane Stepping Stones to get to the top of the Azure Archives. This will give you some extra height considering the distance you are about travel.|EAB|RANK|-1|ACH|16064|
+
 F Cobalt Assembly Glyph|QID|99999|N|On top of the highest tower. You may need to land on the lower tower to regen vigor first.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 T Supporting the Cobalt Assembly|QID|72784|M|49.03,23.15|Z|2024|N|To Venthi.|
 A Welcome to the Assembly|QID|70550|PRE|72784|M|49.03,23.15|Z|2024|N|From Venthi.|
-f Cobalt Assembly|ACTIVE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.|
+f Cobalt Assembly|ACTIVE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+f Cobalt Assembly|AVAILABLE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|-1|
 C Welcome to the Assembly|QID|70550|M|49.47,22.60|Z|2024|CHAT|N|View the Assembly abilities.|
 T Welcome to the Assembly|QID|70550|M|49.03,23.15|Z|2024|N|To Venthi.|
 F The Fallen Course Glyph|QID|99999|N|Floating just above the broken bridge.|M|56.82,16.05|Z|2024;The Azure Plains!Dragonflight|ACH|16673|
