@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('Ohnahran_Plains', 'Leveling', "Ohn'ahran Plains", 'WoWPro Team', 'Neutral')
-WoWPro:GuideSort(guide, 2)
+WoWPro:GuideSort(guide, 3)
 WoWPro:GuideName(guide,"Ohnahran Plains")
 WoWPro:GuideLevels(guide,60, 70, 62)
 WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
@@ -23,7 +23,6 @@ return [[
 ;PLACED F Rusza'thar Reach|N|Floating above the tower.|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16062|
 ;PLACED F Rubyscale Outpost|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 
-A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022|N|From Alexstrasza the Life-Binder.|
 T Next Steppes|QID|65795|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza. You can run or glide on your dragon to get to him.|
 A Into the Plains|QID|65779|PRE|65795^72267|M|48.27,88.67|Z|2022|N|From Ambassador Taurasza.|
 $ Rubyscale Outpost Glyph|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
