@@ -480,7 +480,7 @@ C Snowball Effect|QID|66703|M|57.66,41.59|Z|2024|N|Kill and loot the shamans to 
 T Snowball Effect|QID|66703|M|58.36,42.05|Z|2024|N|To Frostbite.|
 A Frostbite: Causes and Symptoms|QID|67050|PRE|66703|M|58.36,42.05|Z|2024|N|From Frostbite.|
 ;i got a minute or so after after turning 70 (not here-earlier), but i dont think that was the trigger, Rowie follows you areound until you accept it.-REN4?
-A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|
+A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2510;4| ; Update with correct REN level - Hendo72
 C Frostbite: Causes and Symptoms|QID|67050|M|58.27,41.96|Z|2024|QO|1|NC|N|Click on the glowy outlines to place the Snowhide totems.|
 C Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|QO|1|NC|N|Time to finish up disrupting if you plan to.|US|
 t Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|N|Bonus Objective - Autocompleted.|
@@ -506,7 +506,7 @@ t Old Stonetusk|QID|66972|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|1385
 T Path to Nowhere|QID|66671|M|63.22,58.42|Z|2024|N|To Maddy Scattershot.|
 A Broken Traditions, Broken Bodies|QID|66141|PRE|66671|M|63.21,58.62|Z|2024|N|From Garz.|
 f Camp Nowhere|ACTIVE|66141|M|63.41,58.64|Z|2024|N|At Camilla Highwind.|
-A Hunting the Huntmaster|AVAILABLE|66939|M|63.81,59.05|CC|Z|2024|N|Hemet stops here if you haven't gotten his quest, this is one of his shorter stops.|
+A Hunting the Huntmaster|AVAILABLE|66939|M|63.81,59.05|CC|Z|2024|N|Hemet stops here if you haven't gotten his quest, this is one of his shorter stops.|RANK|2|
 A To the Ruins!|QID|66391|PRE|66671|M|63.43,58.01|Z|2024|N|From Rannan Korren.|
 T To the Ruins!|QID|66391|M|65.02,58.61|Z|2024|N|To Rannan Korren.|
 A R.A.D. Anomalies|QID|66353|PRE|66391|M|65.02,58.62|Z|2024|N|From Rannan Korren.|
@@ -517,7 +517,7 @@ C What the Enemy Knows|QID|66352|M|65.82,59.78|Z|2024|N|Continue killing and loo
 T R.A.D. Anomalies|QID|66353|M|65.03,58.62|Z|2024|N|To Rannan Korren.|
 T What the Enemy Knows|QID|66352|M|65.01,58.62|Z|2024|N|To Lathos Sunband.|
 A The Expedition Continues!|QID|66422|PRE|66352&66353|M|65.01,58.63|Z|2024|N|From Lathos Sunband.|
-F Ruins of Karnthar Glyph|QID|99999|N|On top of the ruins of the tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
+F Ruins of Karnthar Glyph|QID|99999|N|On top of the ruins of the tower.|M|68.68,60.41|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
 T The Expedition Continues!|QID|66422|M|65.63,60.80|Z|2024|N|To Lathos Sunband.|
 A Worries and Validations|QID|66423|PRE|66422|M|65.63,60.80|Z|2024|N|From Lathos Sunband.|
 C Worries and Validations|QID|66423|M|65.33,60.79|Z|2024|QO|1<1|NC|N|Click on the Ruined Draconic Tablet partially obscured by bushes.|
