@@ -162,10 +162,6 @@ F Thunder Bluff|ACTIVE|1131|M|44.44,59.15|Z|1413|
 T Steelsnap|QID|1131|M|61.53,80.89|Z|1456|N|To Melor Stonehoof.|
 A Frostmaw|QID|1136|M|61.53,80.89|Z|1456|N|From Melor Stonehoof.|PRE|1131|
 
-
-;HerniaOG Progress
-
-
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1152|M|47.02,49.83|Z|1456|
 R Windshear Crag|ACTIVE|1152|M|53.2,61.7;59.97,71.14|CC|Z|1442|N|Exit Sun Rock Retreat and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|
@@ -198,7 +194,7 @@ T The Swarm Grows|QID|1145|M|75.23,34.23|Z|1454|N|To Belgrom Rockmaul.|
 A The Swarm Grows|QID|1146|M|75.23,34.23|Z|1454|N|From Belgrom Rockmaul.|PRE|1145|
 A Regthar Deathgate|QID|1361|M|75.23,34.23|Z|1454|N|From Belgrom Rockmaul.|
 R Cleft of Shadow|AVAILABLE|1431|M|52.61,42.41|Z|1454|
-A Alliance Relations|QID|1431|M|51.99,45.41|Z|1454|N|From Craven Drok.\n[color=FF0000]NOTE: [/color]If he's not here, he circles around the buildings at the bottom and up the ramp on the opposite side before returning.|
+A Alliance Relations|QID|1431|M|51.99,45.41|Z|1454|N|From Craven Drok.\n[color=FF0000]NOTE: [/color]If he's not here, he circles around the buildings at the bottom and up the ramp on the opposite side before returning.|T|Craven Drok|
 R Valley of Spirits|ACTIVE|1431|M|38.18,73.56|Z|1454|N|Exit and make your way to the Valley of Spirits.|
 T Alliance Relations|QID|1431|M|22.28,53.92|Z|1454|N|To Keldran, in the building just before the west entrance/exit.|
 A Alliance Relations|QID|1432|M|22.28,53.92|Z|1454|N|From Keldran.|PRE|1431|
@@ -216,25 +212,24 @@ A Hardened Shells|QID|1105|M|78.15,77.12|Z|1441|N|From Wizzle Brassbolts.|
 A Load Lightening|QID|1176|M|80.18,75.89|Z|1441|N|From Pozzik.|
 A A Bump in the Road|QID|1175|M|81.63,77.95|Z|1441|N|From Trackmaster Zherin.|
 r Repair/Restock|ACTIVE|1175|M|80.40,77.01|Z|1441|N|At Synge.\n[color=FF0000]NOTE: [/color]You've just picked up a number of collection quests. It would be in your best interest to free up as much bag space as feasible.|
-N Mob Location|ACTIVE|1104^1105^1110^1175^1176|N|All of the mobs involved in the quests you just picked up are scattered around the Shimmering Flats.\nThere is no real dividing line between levels. You'll find lv 30s mixed with lv 35s.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Salt Flat Venom|QID|1104|L|5794 6|ITEM|5794|N|Reavers (lv 31-32) in the north and Terrors (33-34) in the south.|S|
 C Rocket Car Parts|QID|1110|L|5798 30|N|Pick these up as you see them.|S|
 K Basilisks|ACTIVE|1175|QO|3;2;1|N|The Basilisks (lv 30-31) are in the NW quadrant, the Crystalhides (32-33) all over, and the Gazers (34-35) in the SE quadrant.|S|
-C Hollow Vulture Bone|QID|1176|M|87.82,65.57|Z|1441|L|5848 10|N|Kill Scavengers (30-32) Vultures (32-34) to loot these.\n[color=FF0000]NOTE: [/color]The 6 Scavengers at this location have a respawn timer of 10 minutes.|
-l Turtle Meat|AVAILABLE|7321|L|3712 10|ITEM|3712|N|Any Turtle|S|
+C Hollow Vulture Bone|QID|1176|M|87.82,65.57|Z|1441|L|5848 10|N|Kill Scavengers (30-32) Vultures (32-34) to loot these.\n[color=FF0000]NOTE: [/color]The 6 Scavengers at this location have a respawn timer of 10 minutes.|S|
+l Turtle Meat|AVAILABLE|7321|L|3712 10|ITEM|3712|N|Any Turtle.\n\nKeep these for later in the guide.|S|
 C Hardened Tortoise Shell|QID|1105|M|82.37,54.62|Z|1441|L|5795 9|ITEM|5795|N|Any Sparkleshell Tortoise|
-l Turtle Meat|AVAILABLE|7321|M|82.37,54.62|Z|1441|L|3712 10|ITEM|3712|N|Any Turtle|US|
 K A Bump in the Road|ACTIVE|1175|M|73.85,57.34|Z|1441|QO|1|N|Kill the Basilisks. Kill any Crystalhides you come across.|US|
 K A Bump in the Road|ACTIVE|1175|M|77.54,67.81|Z|1441|QO|2|N|Kill the Crystalhides.|
-r Repair/Restock|ACTIVE|1175|M|80.40,77.01|Z|1441|N|While you're in the area, visit Synge.|
+r Repair/Restock|ACTIVE|1175|M|80.40,77.01|Z|1441|N|If you need to clear your bags, visit Synge, or skip this step.|
 K A Bump in the Road|ACTIVE|1175|M|78.94,87.57|Z|1441|QO|3|N|Kill the Gazers.|
-;L Level 33|QID|1147|N|You should be around level 33 by this point.|LVL|33|
-A Parts of the Swarm|QID|1148|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|PRE|
-* Extra Cracked Silithid Carapace|AVAILABLE|-1148|N|Dispose of these if you pick up anymore.|U|5877|O|
-l Parts of the Swarm|ACTIVE|1148|QO|1;2;3|N|Kill Silithids to collect the items.|S|
-N The Swarm Grows|ACTIVE|1147|N|The Searchers are around the outside edge of the pit. The Invaders are inside the hive. The Drones are spread around the area and non-aggressive as long as you don't attack them or any mobs around them. If you leave them roaming inside the hive; you will die from being overwhelmed.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-K The Swarm Grows|ACTIVE|1147|M|71.33,83.15;66.52,86.15|CC|Z|1441|QO|1;2;3|N|At the Rustmaul Dig Site in the south, kill Silithid Searchers, Hive Drones, and Invaders.|
-C Parts of the Swarm|QID|1148|QO|1;2;3|N|Kill Silithids to collect the items.|US|
+L Level 33|QID|1147|N|You should be around level 33 by this point.|LVL|33|
+A Parts of the Swarm|QID|1148|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|O|M|PLAYER|
+C Parts of the Swarm|ACTIVE|1148|N|Kill Silithids to collect the items.|S|QO|1;2;3|
+C The Swarm Grows|ACTIVE|1147|M|71.33,83.15|N|At the Rustmaul Dig Site in the south, kill Silithid Searchers and Hive Drones.|QO|1;2|
+C The Swarm Grows|ACTIVE|1147|M|66.52,86.15|N|Go inside the Hive to kill Silithid Invaders.\n\nTake care in the Hive. Fighting near Drones will cause them to attack you, even tho they are Neutral.|QO|3|
+C Parts of the Swarm|ACTIVE|1148|N|Kill Silithids to collect the items.|US|QO|1;2;3|
+C Hollow Vulture Bone|QID|1176|M|87.82,65.57|Z|1441|L|5848 10|N|Kill Scavengers (30-32) Vultures (32-34) to loot these.\n[color=FF0000]NOTE: [/color]The 6 Scavengers at this location have a respawn timer of 10 minutes.|US|
+l Turtle Meat|AVAILABLE|7321|M|82.37,54.62|Z|1441|L|3712 10|ITEM|3712|N|Any Turtle.\n\nKeep these for later in the guide.|US|
 C Rocket Car Parts|QID|1110|L|5798 30|N|Leave Rustmaul Dig Site heading north and begin a clockwise circle around Shimmering Flats looking for the vultures.\n[color=FF0000]NOTE: [/color]This shouldn't take long to complete.|US|
 T A Bump in the Road|QID|1175|M|81.63,77.95|Z|1441|N|To Trackmaster Zherin.|
 T Load Lightening|QID|1176|M|80.18,75.89|Z|1441|N|To Pozzik.|
@@ -246,65 +241,65 @@ A Encrusted Tail Fins|QID|1107|M|78.15,77.12|Z|1441|N|From Wizzle Brassbolts.|PR
 T Rocket Car Parts|QID|1110|M|77.79,77.27|Z|1441|N|To Kravel Koalbeard.|
 A Hemet Nesingwary Jr.|QID|5762|M|77.79,77.27|Z|1441|N|From Kravel Koalbeard.|
 T The Swarm Grows|QID|1147|M|67.59,63.93|Z|1441|N|To Moktar Krin in Ironstone Camp.|
-R Freewind Post|AVAILABLE|5361|M|47.63,49.04|Z|1441|
+H Freewind Post|AVAILABLE|5361|M|PLAYER|Z|1441|
 A Family Tree|QID|5361|M|45.66,50.79|Z|1441|N|From Cliffwatcher Longhorn.|
 
 ; --- The Barrens/Orgrimmar
 F Crossroads|ACTIVE|1148|M|45.14,49.10|Z|1441|TZ|The Crossroads|
-T Parts of the Swarm|QID|1148|M|51.07,29.63|Z|1413|N|To Korran.|; 3300
+T Parts of the Swarm|QID|1148|M|51.07,29.63|Z|1413|N|To Korran.|
 A Parts of the Swarm|QID|1184|M|51.07,29.63|Z|1413|N|From Korran.|
-T Regthar Deathgate|QID|1361|M|45.34,28.40|Z|1413|N|To Regthar Deathgate.|;670
+T Regthar Deathgate|QID|1361|M|45.34,28.40|Z|1413|N|To Regthar Deathgate.|
 A The Kolkar of Desolace|QID|1362|M|45.34,28.40|Z|1413|N|From Regthar Deathgate.|
 R The Crossroads|ACTIVE|1184|M|50.81,29.07|Z|1413|
 F Orgrimmar|ACTIVE|1184|M|51.50,30.33|Z|1413|
 R Valley of Honor|ACTIVE|1184|M|67.41,39.39|Z|1454|
-T Parts of the Swarm|QID|1184|M|75.21,34.23|Z|1454|N|To Belgrom Rockmaul.|;1650
+T Parts of the Swarm|QID|1184|M|75.21,34.23|Z|1454|N|To Belgrom Rockmaul.|
 F Ratchet|ACTIVE|1178|M|45.13,63.90|Z|1454|
-T Goblin Sponsorship|QID|1178|M|62.68,36.23|Z|1413|N|To Gazlowe.|;920
+T Goblin Sponsorship|QID|1178|M|62.68,36.23|Z|1413|N|To Gazlowe.|
 A Goblin Sponsorship|QID|1180|M|62.68,36.23|Z|1413|N|From Gazlowe.|PRE|1178|
-T Wharfmaster Dizzywig|QID|1111|M|63.35,38.45|Z|1413|N|To Wharfmaster Dizzywig.|;1750
+T Wharfmaster Dizzywig|QID|1111|M|63.35,38.45|Z|1413|N|To Wharfmaster Dizzywig.|
 A Parts for Kravel|QID|1112|M|63.35,38.45|Z|1413|N|From Wharfmaster Dizzywig.|PRE|1111|
 
 ; --- Booty Bay
 b Booty Bay|ACTIVE|1180|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
-T Goblin Sponsorship|QID|1180|M|26.35,73.56|Z|1434|N|To Wharfmaster Lozgil.|;920
+T Goblin Sponsorship|QID|1180|M|26.35,73.56|Z|1434|N|To Wharfmaster Lozgil.|
 A Goblin Sponsorship|QID|1181|M|26.35,73.56|Z|1434|N|From Wharfmaster Lozgil.|PRE|1180|
 R The Salty Sailor Tavern|ACTIVE|1181|M|27.07,77.60|Z|1434|N|Make your way around the dock to the Inn on the opposite side.|
-T Goblin Sponsorship|QID|1181|M|27.23,76.88|Z|1434|N|To Baron Revilgaz.\n[color=FF0000]NOTE: [/color]Work your way through the Salty Sailor Tavern up to the deck.|;370
+T Goblin Sponsorship|QID|1181|M|27.23,76.88|Z|1434|N|To Baron Revilgaz.\n[color=FF0000]NOTE: [/color]Work your way through the Salty Sailor Tavern up to the deck.|
 A Goblin Sponsorship|QID|1182|M|27.23,76.88|Z|1434|N|From Baron Revilgaz.|PRE|1181|
-f Booty Bay|ACTIVE|1112|M|26.87,77.09|Z|1434|N|At Gringer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue if it doesn't auto-complete.|TAXI|-Booty Bay|
-b Ratchet|ACTIVE|1112|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
+f Booty Bay|ACTIVE|1112|M|26.87,77.09|Z|1434|N|At Gringer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue if it doesn't auto-complete.|TAXI|Booty Bay|
+b Ratchet|ACTIVE|1159|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
 
 ; --- Undercity
-N Test of Lore|ACTIVE|1159|N|Making a side trip to unload a quest while we are in the area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+F Orgrimmar|ACTIVE|1159|M|63.01,37.1|
 b Tirisfal Glades|ACTIVE|1159|M|50.88,13.83|Z|1411|N|Exit Orgrimmar and take the zeppelin to Tirisfal Glades.|
 R Undercity|ACTIVE|1159|M|61.86,65.04|Z|1420|
 R The Apothecarium|ACTIVE|1159|M|56.35,58.33|Z|1458|N|Make your way inside and head to the Apothecarium.|
-T Test of Lore|QID|1159|M|57.78,65.41|Z|1458|N|To Parqual Fintallas.|;1200
+T Test of Lore|QID|1159|M|57.78,65.41|Z|1458|N|To Parqual Fintallas.|
 t Tome of the Cabal|QID|1803|M|75.90,37.91|Z|1458|N|To Jorah Annison, at the inner ring of the Magic Quarter.|IZ|1458|
 A Tome of the Cabal|QID|1805|M|75.90,37.91|Z|1458|N|From Jorah Annison.|PRE|1803|C|Warlock|
 
 ; --- Thousand Needles
-H Freewind Post|AVAILABLE|1145|N|This is much faster than taking the Zeppelin back.\n[color=FF0000]NOTE: [/color]If your hearth is on CD, you have no choice but to use the zeppelin and fly to Freewind Post.|
+H Freewind Post|ACTIVE|1112|
 R Ironstone Camp|ACTIVE|1112|M|67.72,63.73|Z|1441|N|Exit Freewind Post and follow the road to the east.\n[color=FF0000]NOTE: [/color]You'll get to a point where the road veers left. Stick to the right and follow the canyon wall from here.|
 R Mirage Raceway|ACTIVE|1112|M|80.34,77.10|Z|1441|N|Make your way east across the Shimmering Flats to the Mirage Raceway in the middle of it.|
-T Parts for Kravel|QID|1112|M|77.79,77.25|Z|1441|N|To Kravel Koalbeard at Mirage Raceway.|;1750
-A Delivery to the Gnomes|QID|1114|M|77.79,77.26|Z|1441|N|From Kravel Koalbeard.\n[color=FF0000]NOTE: [/color]This one takes a few to show up. Not really sure what he's waiting for.|PRE|1112|
-T Delivery to the Gnomes|QID|1114|M|78.06,77.13|Z|1441|N|To Fizzle Brassbolts.|;870
-N Desolace|AVAILABLE|5501|N|We're now going to make our way to Desolace via Stonetalon Mountains.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T Parts for Kravel|QID|1112|M|77.79,77.25|Z|1441|N|To Kravel Koalbeard at Mirage Raceway.|
+A Delivery to the Gnomes|QID|1114|M|77.79,77.26|Z|1441|N|From Kravel Koalbeard.\n[color=FF0000]NOTE: [/color]This one takes a few to show up. You have to wait for him to dig thru the box.|PRE|1112|
+T Delivery to the Gnomes|QID|1114|M|78.06,77.13|Z|1441|N|To Fizzle Brassbolts.|
 
 ; --- Orgrimmar
 R Freewind Post|AVAILABLE|5501|M|47.63,49.04|Z|1441|S|
 L Level 34|AVAILABLE|5501|N|Grind until you are Level 34.|LVL|34|
 R Freewind Post|AVAILABLE|5501|M|47.63,49.04|Z|1441|US|
-F Orgrimmar|AVAILABLE|5501|M|45.05,49.16|Z|1441|N|A pit stop in Orgrimmar to change our hearthstone.|
+F Thunder Bluff|AVAILABLE|5501|M|45.13,48.6|Z|1441|C|Druid|
+= Level 34 training|AVAILABLE|5501|N|Do your lv 34 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|34|C|DRUID|
+F Orgrimmar|AVAILABLE|5501|M|46.9,49.8|C|DRUID|
+F Orgrimmar|AVAILABLE|5501|M|45.1,48.6|Z|1441|C|-DRUID|
+= Level 34 training|AVAILABLE|5501|N|Do your lv 34 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|34|C|-DRUID|
 h Orgrimmar|AVAILABLE|5501|M|54.10,68.38|Z|1454|N|At Innkeeper Gryshka.|
-F Thunder Bluff|AVAILABLE|5501|M|45.13,63.90|Z|1454|C|Druid|
-= Level 34 training|AVAILABLE|5501|N|Do your lv 34 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|34|
 
 ; --- Desolace/Stonetalon Mountains
-F Sun Rock Retreat|AVAILABLE|5501|M|45.13,63.88|Z|1454|C|-Druid|
-F Sun Rock Retreat|AVAILABLE|5501|M|47.02,49.83|Z|1456|C|Druid|
+F Sun Rock Retreat|AVAILABLE|5501|M|45.13,63.88|Z|1454|
 R The Charred Vale|AVAILABLE|5501|M|44.4,63.6;39.84,70.02|CC|Z|1442|N|Follow the torch-marked path south over the mountain.|
 R Desolace|AVAILABLE|5501|M|54.16,2.87|Z|1443|N|Continue to the bottom and make your way through the Charred Vale to the Desolace border in the south.|
 R Kormek's Hut|AVAILABLE|5501|M|62.0,32.4;62.02,39.38|CC|Z|1443|
@@ -313,7 +308,6 @@ A Kodo Roundup|QID|5561|M|60.86,61.86|Z|1443|N|From Smeed Scrabblescrew at Scrab
 R Ghost Walker Post|ACTIVE|1362|M|57.49,56.38|Z|1443|
 T The Kolkar of Desolace|QID|1362|M|56.19,59.57|Z|1443|N|To Felgur Twocuts.|
 A Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|1443|N|From Felgur Twocuts.|
-N Gelkis or Magram|AVAILABLE|1367&1368|N|[color=FF0000]NOTE: [/color]\nThis guide will not being completing either chain. We're using Gelkis Alliance as a means to an end.\nManually check this step off to continue.|
 A Gelkis Alliance|QID|1368|M|56.29,59.68|Z|1443|N|From Gurda Wildmane.|
 T Family Tree|QID|5361|M|55.41,55.80|Z|1443|N|To Nataka Longhorn.|
 A Catch of the Day|QID|5386|M|55.41,55.80|Z|1443|N|From Nataka Longhorn.|
@@ -322,6 +316,10 @@ A Alliance Relations|QID|1433|M|52.57,54.39|Z|1443|N|From Takata Steelblade.|PRE
 A Befouled by Satyr|QID|1434|M|52.57,54.39|Z|1443|N|From Takata Steelblade.|
 T Alliance Relations|QID|1433|M|52.25,53.44|Z|1443|N|To Maurin Bonesplitter.|
 A The Burning of Spirits|QID|1435|M|52.25,53.44|Z|1443|N|From Maurin Bonesplitter.|PRE|1433|
+
+;HerniaOG
+
+
 C Bone Collector|ACTIVE|5501|L|13703 10|N|While you are in the Kodo Graveyard, collect any Kodo Bones you come across.\n[color=FF0000]NOTE: [/color]Be aware, there is a chance of a lv 37-38 Kodo Apparation appearing and attacking you. You can stand and fight or run. If you run, the Kodo will return to its spawn point and despawn after a couple minutes.\nUnless you want the added challenge, make sure you clear any Vultures in the area before looting the bones.|S|
 C Kodo Roundup|QID|5561|N|Go into the Kodo Graveyard and target one of the Kodos. Using the kombobulator, tame the kodo and have it follow you back to Scrabblescrew's Camp. After Scrabblescrew speaks with you, talk to the Kodo to get credit for it.\n[color=FF0000]NOTE: [/color]You can only do this one at a time and you have 5 minutes to bring the Kodo to Scrabblescrew.|U|13892|
 T Kodo Roundup|QID|5561|M|60.86,61.86|Z|1443|N|To Smeed Scrabblescrew.|
@@ -333,9 +331,8 @@ T Bone Collector|QID|5501|M|62.31,38.96|Z|1443|N|To Bibbly F'utzbuckle.|
 C The Burning of Spirits|QID|1435|L|6435 15|ITEM|6435|N|Any Burning Blade\nAttack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem on them. The debuff does 100 damage every 3 seconds for 9 seconds.\n[color=FF0000]NOTE: [/color]They MUST die from the 'Capture Spirit' debuff to collect the gem. Using DOTs when they're near death could disrupt the Burning Gem debuff.|U|6436|C|-Druid|S|
 C The Burning of Spirits|QID|1435|L|6435 15|ITEM|6435|N|Any Burning Blade\nAttack a Burning Blade mob and when they are almost dead (<300 hp), use the Burning Gem on them. The debuff does 100 damage every 3 seconds for 9 seconds.\n[color=FF0000]NOTE: [/color]They MUST die from the 'Capture Spirit' debuff to collect the gem. Using DOTs when they're near death could disrupt the Burning Gem debuff.\nYou cannot use the gem while shapeshifted.|U|6436|C|Druid|S|
 A The Corrupter|QID|1480|N|Click on the Flayed Demon Skin to start the quest.\n[color=FF0000]NOTE: [/color]This item is dropped by Burning Blade mobs.|U|20310|O|
-; --- destroy excess quest starter item
 * Excess Flayed Demon Skin|AVAILABLE|-1480|N|Once you've accepted the quest, you no longer need to loot these items. If you loot any more, safely destroy them.|U|20310|
-;L Level 34|QID|1107|N|You should be around level 34 by this point.|
+L Level 34|QID|1107|N|You should be around level 34 by this point.|LVL|34|
 C Sceptre of Light|QID|5741|M|55.17,30.09|Z|1443|L|15750|ITEM|15750|N|Burning Blade Seer\n[color=FF0000]NOTE: [/color]You'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
 C The Burning of Spirits|QID|1435|L|6435 15|ITEM|6435|N|Any Burning Blade|U|6436|US|
 T Sceptre of Light|QID|5741|M|38.89,27.16|Z|1443|N|Make your way west back to Azore Aldamort in Ethel Rethor.|
@@ -399,17 +396,17 @@ T Book of the Ancients|QID|6027|M|40.9,29.0;38.88,27.16|CC|Z|1443|N|To Azore Ald
 R Ghost Walker Post|ACTIVE|1482|M|58.59,57.04|Z|1443|N|Head towards Ghost Walker as you grind.|S|
 L Level 36|ACTIVE|1482|N|Grind until you're within 5 bars (76%) of Level 36.|LVL|35;-13290|
 R Ghost Walker Post|ACTIVE|1482|M|58.59,57.04|Z|1443|US|
-T The Corrupter|QID|1482|M|52.24,53.44|Z|1443|N|To Maurin Bonesplitter.| ;3300
+T The Corrupter|QID|1482|M|52.24,53.44|Z|1443|N|To Maurin Bonesplitter.|
 A The Corrupter|QID|1484|M|52.24,53.44|Z|1443|N|After a brief 'event', accept the follow-up quest from Maurin Bonesplitter.|PRE|1482|
-T The Corrupter|QID|1484|M|52.57,54.39|Z|1443|N|To Takata Steelblade.To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.| ;290
+T The Corrupter|QID|1484|M|52.57,54.39|Z|1443|N|To Takata Steelblade.To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.|
 R Shadowprey Village|ACTIVE|6142^6143|M|26.50,75.15|Z|1443|N|Return to Shadowprey Village.|
 A Hunting in Stranglethorn|QID|5763|M|25.05,72.26|Z|1443|N|From Roon Wildmane.|
-T Other Fish to Fry|QID|6143|M|23.32,72.88|Z|1443|N|To Drulzegar Skraghook.| ;3500
-T Clam Bait|QID|6142|M|22.64,71.97|Z|1443|N|To Mai'Lahii.| ;3300
+T Other Fish to Fry|QID|6143|M|23.32,72.88|Z|1443|N|To Drulzegar Skraghook.|
+T Clam Bait|QID|6142|M|22.64,71.97|Z|1443|N|To Mai'Lahii.|
 
 ; --- Hillsbrad Foothills/Alterac
 F Orgrimmar|ACTIVE|1436|M|21.60,74.13|Z|1443|
-T Alliance Relations|QID|1436|M|22.27,53.74|Z|1454|N|To Keldran.| ;2900
+T Alliance Relations|QID|1436|M|22.27,53.74|Z|1454|N|To Keldran.|
 F Thunder Bluff|AVAILABLE|544|M|21.60,74.13|Z|1443|C|Druid|
 = Level 36 training|AVAILABLE|544|N|Do your lv 36 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|36|
 A Knowledge of the Orb of Orahil|QID|4967|M|48.46,45.44|Z|1454|N|From Zevrost.\n[color=FF0000]NOTE: [/color]This is the quest chain to earn your Shadow/Fire Orb or Staff.|C|Warlock|
@@ -434,7 +431,6 @@ b Booty Bay|ACTIVE|4785|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
 A Fine Gold Thread|QID|4785|AVAILABLE|4786|M|28.71,76.89|Z|1434|L|12293|N|From Xizk Goodstitch.\n[color=FF0000]NOTE: [/color]This quest is repeatable in case you lose your Thread.|PRE|4783|C|Warlock|
 T Fine Gold Thread|QID|4785|M|28.71,76.89|Z|1434|N|To Xizk Goodstitch.|C|Warlock|
 b Ratchet|ACTIVE|4785|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
-
 F Orgrimmar|AVAILABLE|544|M|47.02,49.83|Z|1456|C|Druid|
 F Orgrimmar|AVAILABLE|544|M|63.09,37.16|Z|1413|C|Warlock|
 l Turtle Meat|AVAILABLE|7321|L|3712 10|N|Grab the 10 pieces of Turtle Meat you were told to keep earlier.\n[color=FF0000]NOTE: [/color]Don't worry if you didn't keep it; you'll have a chance to get more.\nManually check this step off to continue.|
@@ -523,12 +519,15 @@ A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|1434|N|From Fa
 A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|
 f Grom'gol|AVAILABLE|575|M|32.54,29.36|Z|1434|N|At Thysta.|
 N Flight Map|AVAILABLE|575|N|Speak with Thysta again to open the flight map to load all known FPs.\n[color=FF0000]NOTE: [/color]Manually check this step off once you've done this.|TAXI|-Booty Bay|
+
 ; --- Has Booty Bay FP
 F Booty Bay|ACTIVE|568|AVAILABLE|575|M|32.54,29.35|Z|1434|TAXI|Booty Bay|
+
 ; --- Missing Booty Bay FP
 b Durotar|ACTIVE|568|AVAILABLE|575|M|31.37,30.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Durotar.|TAXI|-Booty Bay|
 F Ratchet|ACTIVE|568|AVAILABLE|575|M|47.02,49.83|Z|1456|N|Enter Orgrimmar and fly to Ratchet.|TAXI|-Booty Bay|
 b Booty Bay|ACTIVE|568|AVAILABLE|575|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|TAXI|-Booty Bay|
+
 ; --- Back on track
 A Supply and Demand|QID|575|M|28.1,76.5;28.29,77.59|CC|Z|1434|N|From Drizzlik, inside Tan-Your-Hide Leatherworks.|
 R The Salty Sailor Tavern|AVAILABLE|201^213|M|27.10,77.66|Z|1434|N|Make your way to the upper entrance to the Inn.|
@@ -602,21 +601,21 @@ K The Defense of Grom'gol|ACTIVE|568|M|32.53,23.50|Z|1434|QO|1|N|Kill Lashtail R
 R Grom'gol Base Camp|ACTIVE|581|M|32.87,28.73|Z|1434|N|Grind as you return to Grom'gol.|S|
 L Level 38|ACTIVE|581|N|Grind until you're within 8 bars of level 38.|LVL|37;-24260|
 R Grom'gol Base Camp|ACTIVE|581|M|32.87,28.73|Z|1434|US|
-T Hunt for Yenniku|QID|581|M|32.16,27.72|Z|1434|N|To Nimboya.| ;2300
+T Hunt for Yenniku|QID|581|M|32.16,27.72|Z|1434|N|To Nimboya.|
 A Headhunting|QID|582|M|32.16,27.72|Z|1434|N|From Nimboya.|PRE|581|
-T Bloodscalp Insight|QID|9436|M|31.97,28.60|Z|1434|N|To Nemeth Hawkeye.| ;3100
+T Bloodscalp Insight|QID|9436|M|31.97,28.60|Z|1434|N|To Nemeth Hawkeye.|
 A An Unusual Patron|QID|9457|M|31.97,28.60|Z|1434|N|From Nemeth Hawkeye.|PRE|9436|
-T The Defense of Grom'gol|QID|568|M|32.20,28.83|Z|1434|N|To Commander Aggro'gosh.| ;3500
+T The Defense of Grom'gol|QID|568|M|32.20,28.83|Z|1434|N|To Commander Aggro'gosh.|
 A The Defense of Grom'gol|QID|569|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|PRE|568|
-T Mok'thardin's Enchantment|QID|570|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.| ;2900
+T Mok'thardin's Enchantment|QID|570|M|32.12,29.24|Z|1434|N|To Far Seer Mok'thardin.|
 A Mok'thardin's Enchantment|QID|572|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|PRE|570|
 F Booty Bay|ACTIVE|1182|M|32.54,29.35|Z|1434|
-T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|1434|N|To Baron Revilgaz.| ;3700
+T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|1434|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|1434|N|From Baron Revilgaz.|PRE|1182|
-T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|To Kebok.| ;2450
-T Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|To Kebok.| ;3500
-T Investigate the Camp|QID|201|M|26.94,77.21|Z|1434|N|To Krazek.| ;270
-T Supply and Demand|QID|575|M|28.29,77.59|Z|1434|N|To Drizzlik.| ;1250
+T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|To Kebok.|
+T Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|To Kebok.|
+T Investigate the Camp|QID|201|M|26.94,77.21|Z|1434|N|To Krazek.|
+T Supply and Demand|QID|575|M|28.29,77.59|Z|1434|N|To Drizzlik.|
 A Some Assembly Required|QID|577|M|28.29,77.59|Z|1434|N|From Drizzlik.|PRE|575|
 A Singing Blue Shards|QID|605|M|27.12,77.22|Z|1434|N|From Crank Fizzlebub.\n[color=FF0000]NOTE: [/color]He's standing beside the bar in the Tavern.|
 
@@ -624,9 +623,9 @@ A Singing Blue Shards|QID|605|M|27.12,77.22|Z|1434|N|From Crank Fizzlebub.\n[col
 b Ratchet|ACTIVE|1183|M|25.87,73.12|Z|1434|N|Take the boat to Ratchet.|
 F Freewind Post|ACTIVE|1183|M|63.09,37.16|Z|1413|
 R Mirage Raceway|ACTIVE|1183|M|80.34,77.10|Z|1441|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
-T Goblin Sponsorship|QID|1183|M|80.18,75.89|Z|1441|N|To Pozzik.| ;920
+T Goblin Sponsorship|QID|1183|M|80.18,75.89|Z|1441|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|Z|1441|N|From Pozzik.|PRE|1183|
-T The Eighteenth Pilot|QID|1186|M|80.31,76.06|Z|1441|N|To Razzeric.| ;370
+T The Eighteenth Pilot|QID|1186|M|80.31,76.06|Z|1441|N|To Razzeric.|
 A Razzeric's Tweaking|QID|1187|M|80.99,76.09|Z|1441|N|From Razzeric.|PRE|1186|
 
 ; --- The Barrens
@@ -634,6 +633,7 @@ H Orgrimmar|ACTIVE|569|
 F Thunder Bluff|ACTIVE|569|M|45.13,63.90|Z|1454|C|Druid|
 = Level 38 training|ACTIVE|569|N|Do your lv 38 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|38|
 F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|1456|C|Druid|
+
 ; --- STV
 b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|
 R Mizjah Ruins|ACTIVE|569|M|37.02,28.39|Z|1434|N|Use the east exit and follow the road.|
