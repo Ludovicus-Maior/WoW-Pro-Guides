@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('The_Azure_Span', 'Leveling', 'The Azure Span!Dragon Isles', 'WoWPro Team', 'Neutral')
-WoWPro:GuideSort(guide, 3)
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideName(guide,"The Azure Span")
 WoWPro:GuideLevels(guide,60, 70, 65)
 WoWPro:GuideNextGuide(guide, 'Thaldraszus')
@@ -26,6 +26,9 @@ return [[
 ;PLACED F Brackenhide Hollow|M|10.40,35.89|Z|2024;The Azure Plains!Dragonflight|N|Near the top of the highest tree|ACH|16068|
 ;PLACED (in OP) F Forkriver Crossing|N|Just above the road.|M|70.15,86.78|Z|2024;The Azure Plains!Dragonflight|ACH|16672|
 
+F Forkriver Crossing|ACTIVE|72268^65686|M|71.66,80.59|Z|2023|N|Fly to Forkriver either on your own or at a flight master.|
+T Azure Span|QID|72268|M|71.66,80.59|Z|2023|N|To Masud the Wise.|
+A To the Azure Span|QID|65686|PRE|72268|M|71.66,80.59|Z|2023|N|From Masud the Wise.|
 T To the Azure Span|QID|65686|M|41.44,35.60|Z|2024|NC|N|To Glania of the Blessed Ones.|
 A Camp Antonidas|QID|66228|PRE|65686|M|41.44,35.60|Z|2024|N|From Glania of the Blessed Ones.|
 A Some Good Fishing|QID|66227|PRE|65686|M|41.46,35.63|Z|2024|N|From Khuri.|RANK|3|;add profession check. or a step telling them to train fishing if they havent?
