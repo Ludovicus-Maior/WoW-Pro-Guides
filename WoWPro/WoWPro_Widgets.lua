@@ -49,8 +49,8 @@ end
 function WoWPro:CreateAction(parent, anchor)
     local frame = _G.CreateFrame("Frame", nil, parent)
     frame:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
-    frame:SetWidth(15)
-    frame:SetHeight(15)
+    frame:SetWidth(16)
+    frame:SetHeight(16)
 
     local action = frame:CreateTexture()
     action.frame = frame
