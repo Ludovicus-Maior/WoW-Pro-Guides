@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("Mazz", "Achievements", "Dragonflight", "Mazz", "Neutral")
+local guide = WoWPro:RegisterGuide("Dragonriding_Glyphs", "Achievements", "Dragonflight", "WowPro Team", "Neutral")
 WoWPro:GuideNextGuide(guide, "Dragonflight")
 WoWPro:GuideLevels(guide,50,60)
 WoWPro.Achievements:GuideMisc(guide, "Dragonflight Flying Glyphs", "Exploration", "Dragonflight")

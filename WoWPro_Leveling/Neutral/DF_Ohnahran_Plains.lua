@@ -5,6 +5,9 @@ WoWPro:GuideLevels(guide,60, 70, 62)
 WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[
+;Renown stuff -- I think since they are all based on someone showing up whereever you are, they should be put at the top of the guide, once we have the REN stuff worked out since everyone will receive those quests at a little bit diff time based on what they have done to earn REN.
+;A Call of the Plains|QID|71229|M|47.85,47.33|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you after you cross the bridge. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|DFREN|Maruuk Centaur;2503;3|;REN 3?
+
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;F PLACED Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
@@ -217,7 +220,7 @@ R Emberwatch|ACTIVE|70337|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|Mount up and h
 T Emberwatch|QID|70337|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|To Telemancer Aerilyn.|
 A The Nelthazan Ruins|QID|65890|M|65.99,25.09|Z|2023;Ohn'ahran Plains|N|From Telemancer Aerilyn.|RANK|2|
 f Emberwatch|ACTIVE|65890|M|66.78,25.18|Z|2023;Ohn'ahran Plains|N|At Volebel.|
-A The Sundered Asunder|QID|65892|M|64.00,19.20|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autoaccepted.|RANK|2|LVL|-70|
+;A The Sundered Asunder|QID|65892|M|64.00,19.20|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autoaccepted.|RANK|2|LVL|-70|
 T The Nelthazan Ruins|QID|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal.|
 A Tools of the Tirade|QID|65891|PRE|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
 A The Relic Inquiry|QID|65893|PRE|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
@@ -232,8 +235,8 @@ l Remains of Xalgaz|ACTIVE|65895|QO|1<1|M|61.72,18.65|Z|2023;Ohn'ahran Plains|N|
 K Sootscale the Indomitable|ACTIVE|65895|QO|1<2|M|62.45,18.60|Z|2023;Ohn'ahran Plains|N|Kill and loot Sootscale to find your next clue.|T|Sootscale the Indomitable|
 K Tserasor the Preserver|ACTIVE|65895|QO|1<3|M|62.92,18.71|Z|2023;Ohn'ahran Plains|N|Kill and loot Tserasor to find your last clue.|T|Tserasor the Preserver.|
 K Malifron|ACTIVE|65895|QO|1|M|62.70,16.39|Z|2023;Ohn'ahran Plains|N|Kill and loot Malifron to find your first clue.|T|Malifron|
-C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Stick around to finish this bonus objective or walk out of the area as you choose.|US|IZ|13766|
-t The Sundered Asunder|QID|65892|M|PLAYER|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
+;C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Stick around to finish this bonus objective or walk out of the area as you choose.|US|IZ|13766|
+;t The Sundered Asunder|QID|65892|M|PLAYER|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 T Competing Company|QID|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal, who has moved to just below Malifron in a broken tower.|
 A Proto Problems|QID|65898|PRE|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
 C Proto Problems|QID|65898|M|60.65,17.37|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click The Black Locus which will summon Hypoxicron.|
@@ -322,10 +325,10 @@ T Signs of the Wind|QID|66688|M|49.35,49.54|Z|2023;Ohn'ahran Plains|N|To Offerin
 A Himia, the Blessed|QID|70374|PRE|66688|M|49.32,49.41|Z|2023;Ohn'ahran Plains|N|From Himia, The Blessed.|
 C Himia, the Blessed|QID|70374|M|49.11,49.46|Z|2023;Ohn'ahran Plains|N|Tell Himia you are ready, then fight the elements.|
 C Land of the Apex|QID|66687|M|49.87,50.86|Z|2023;Ohn'ahran Plains|QO|3|N|Continue killing the overgrown lizards until you have enough Thunderspine Scales.|US|
-;A Call of the Plains|QID|71229|M|47.85,47.33|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you after you cross the bridge. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|;REN 3?
-A Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
-K Skaara|ACTIVE|70783|QO|1|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Don't worry about killing the smaller bakar in advance, they just respawn. Bonus Ojective - Do it if you want to.|
-t Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
+
+;A Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
+;K Skaara|ACTIVE|70783|QO|1|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Don't worry about killing the smaller bakar in advance, they just respawn. Bonus Ojective - Do it if you want to.|
+;t Skaara|QID|70783|M|46.13,48.38|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 C Land of the Apex|QID|66687|M|44.06,49.35|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot the spiders in and around Deadsnare Caverns to collect Shadespinner's Web. You can also get it from the Eggs.\n[color=FF0000]NOTE: [/color]The entrance is at the base of the mountain.|
 C Land of the Apex|QID|66687|M|41.75,46.30|Z|2023;Ohn'ahran Plains|QO|2|N|Kill and loot the bats to collect Slyvern Talons.|S|
 K Mara'nar the Thunderous|ACTIVE|71027|M|42.24,47.09|Z|2023;Ohn'ahran Plains|QO|1|N|Kill and loot Mara'nar to collect his  Thunderous Plate.|T|Mara'nar the Thunderous|
@@ -399,9 +402,9 @@ A Fowl Sorcery|QID|66257|PRE|66236|M|58.12,68.98|Z|2023;Ohn'ahran Plains|N|From 
 C Weather Control|QID|66242|M|61.44,67.28|Z|2023;Ohn'ahran Plains|N|Kill the Stormbound as you free the birds and destroy the wagons.|S|
 C Eagle-itarian|QID|66256|M|58.02,67.47|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the Binding Totems to free the Children of Ohn'ahra.|S|
 C Fowl Sorcery|QID|66257|M|58.1,67.3;59.2,65.5;61.7,66.0;58.8,61.8|CN|Z|2023;Ohn'ahran Plains|NC|N|Click the wind totems to destroy the Wagons.|S|
-A Prozela Galeshot|QID|69968|M|59.04,68.10|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
-K Prozela Galeshot|ACTIVE|69968|QO|1|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Kill the bonus objective as you choose.|S!US|
-t Prozela Galeshot|QID|69968|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autocompleted.|
+;A Prozela Galeshot|QID|69968|M|59.04,68.10|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
+;K Prozela Galeshot|ACTIVE|69968|QO|1|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Kill the bonus objective as you choose.|S!US|
+;t Prozela Galeshot|QID|69968|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autocompleted.|
 C Fowl Sorcery|QID|66257|M|58.1,67.3;59.2,65.5;61.7,66.0;58.8,61.8|CN|Z|2023;Ohn'ahran Plains|NC|N|Click the wind totems to destroy the Wagons.|US|
 C Eagle-itarian|QID|66256|M|58.02,67.47|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the Binding Totems to free the Children of Ohn'ahra.|US|
 C Weather Control|QID|66242|M|61.44,67.28|Z|2023;Ohn'ahran Plains|N|Continue killing the Stormbound until you finish the quest.|US|
@@ -472,7 +475,7 @@ C The Primalist Front|QID|66331|M|25.72,44.26|Z|2023;Ohn'ahran Plains|QO|2|CHAT|
 C The Primalist Front|QID|66331|M|26.18,40.06|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Tell Ohn you are ready to watch his report.|
 C The Primalist Front|QID|66331|M|25.63,40.52|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Ask Merithra what she sees.|
 T The Primalist Front|QID|66331|M|25.68,40.41|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-A Bonus Objective: The Storm Scar|QID|66421|PRE|66331|M|25.68,40.41|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|LVL|-70|
+;A Bonus Objective: The Storm Scar|QID|66421|PRE|66331|M|25.68,40.41|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|LVL|-70|
 A Justice for Solethus|QID|66333|PRE|66331|M|25.65,40.52|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 C Justice for Solethus|QID|66333|M|23.87,36.28|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Nokhud Warmongers.|S|
 C Justice for Solethus|QID|66333|M|24.8,39.8;24.4,38.4;25.4,37.7|CN|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Dragon-Killer Ballista destroyed.|
@@ -482,18 +485,18 @@ A Deconstruct Additional Pylons|QID|66335|PRE|66333|M|23.89,36.28|Z|2023;Ohn'ahr
 A Starve the Storm|QID|66784|PRE|66333|M|23.89,36.28|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
 C Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Kill the Summoners around the Storm Corridor portal to deactivate it.|
 T Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-A Bonus Objective: Ty'foon the Ascended|QID|66970|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autoaccepted.|RANK|2|
-K Ty'foon the Ascended|ACTIVE|66970|QO|1|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Go up the hill and kill Ty'foon if you want to.|T|Ty'foon the Ascended|S!US|
-t Ty'foon the Ascended|ACTIVE|66970|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
+;A Bonus Objective: Ty'foon the Ascended|QID|66970|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autoaccepted.|RANK|2|
+;K Ty'foon the Ascended|ACTIVE|66970|QO|1|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Go up the hill and kill Ty'foon if you want to.|T|Ty'foon the Ascended|S!US|
+;t Ty'foon the Ascended|ACTIVE|66970|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 C Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|QO|3|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the third pylon.|
 C Deconstruct Additional Pylons|QID|66335|M|23.12,37.36|Z|2023;Ohn'ahran Plains|QO|2|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the second pylon.|
 C Deconstruct Additional Pylons|QID|66335|M|23.89,39.46|Z|2023;Ohn'ahran Plains|QO|1|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the first pylon.|
 T Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Stormbreaker|QID|66337|PRE|66784&66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
-C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|S!US|LVL|-70|
+;C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|S!US|LVL|-70|
 K Stormbound Proto-Drake and Koroleth|ACTIVE|66337|QO|1|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Attack the Stormboud Proto-Drake to get Koroleth's attention, Then kill Koroleth.|;T|Stormboud Proto-Drake|target button wouldnt work... perhaps because I ran up to an in progress fight. figured i'd just leave it off.
-C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|
-t Bonus Objective: The Storm Scar|QID|66421|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autocompleted.|
+;C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|
+;t Bonus Objective: The Storm Scar|QID|66421|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autocompleted.|
 C Stormbreaker|QID|66337|QO|2|M|22.55,39.61|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Gerithus for a ride to Merithra.|
 T Stormbreaker|QID|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A The Isle of Emerald|QID|66336|PRE|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|From Merithra.|
