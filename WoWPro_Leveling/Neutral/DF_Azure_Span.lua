@@ -17,7 +17,7 @@ A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2510;4|;no
 ;PLACED F Cobalt Assembly|N|On top of the high tower.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 ;PLACED F Zelthrak Outpost|N|This one is hidden between the trees, might have to look around a bit for it.|M|52.94,48.68|Z|2024;The Azure Plains!Dragonflight|ACH|16071|
 ;PLACED F Azure Archive|N|This is behind the purple light beam, kinda high up, fly to the highest crystal pairs and look right behind them.|M|39.23,63.03|Z|2024;The Azure Plains!Dragonflight|ACH|16065|
-;F Imbu|N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|ACH|16070| ;-- not in an area the guide takes us to. Closest is Camp Nowhere
+;PLACED F Imbu|N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|ACH|16070| ;-- not in an area the guide takes us to. Closest is Camp Nowhere
 ;PLACED F Ruins of Karnthar|N|On top of the ruins of the tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
 ;PLACED F Lost Ruins|N|This one is inside the tower, might have to land for this.|M|70.57,46.26|Z|2024;The Azure Plains!Dragonflight|ACH|16067|
 ;PLACED F Vakthros Range|N|Floating above the ground.|M|72.57,39.77|Z|2024;The Azure Plains!Dragonflight|ACH|16073|
@@ -558,7 +558,7 @@ A His Stone Heart|QID|66151|PRE|66150&66149&66148|M|60.89,50.50|Z|2024|N|From Ra
 C His Stone Heart|QID|66151|M|60.43,49.35|Z|2024|N|Slay Stoneheart.|
 T His Stone Heart|QID|66151|M|60.91,50.50|Z|2024|N|To Radza Thunderclaw.|
 A Nowhere to Go|QID|66152|PRE|66151|M|60.98,50.57|Z|2024|N|From Garz.|
-K Huntmaster Krakle|ACTIVE|66939|M|56.57,53.64|N|The huntmaster patrols around this little glade.|
+K Huntmaster Krakle|ACTIVE|66939|QO|1|M|56.57,53.64|N|The huntmaster patrols around this little glade.|
 T Nowhere to Go|QID|66152|M|63.20,58.67|Z|2024|N|To Garz.|
 A What of the Winterpelt Clan?|QID|70627|PRE|66152|M|63.16,58.69|Z|2024|N|From Radza Thunderclaw.|
 H Azure Archives|ACTIVE|66015|M|PLAYER|N|And back to witness the Blue Oathstone go active.|TZ|The Conjured Biscuit Inn|
@@ -580,13 +580,13 @@ C An Ancient Awakening|QID|70156|QO|2|M|48.33,30.13|NC|N|Clicking the little pin
 C An Ancient Awakening|QID|70156|QO|3|M|48.33,30.13|NC|N|Click the waygate.|
 T An Ancient Awakening|QID|70156|M|47.20,90.25|Z|2022|N|To Thaelin Darkanvil. Congratulations, you have now unlocked Waygates.|
 R Cobalt Assembly|ACTIVE|72784|M|49.39,24.87|Z|2024|N|We are now going to see what the Cobalt Assembly is up to.|
-R Cobalt Assembly|ACTIVE|66015|M|39.92,61.54;49.39,24.87|CS|Z|2024|N|We're now headed to grab the Cobalt Assembly Glyph on our way to Thaldraszus.\n[color=FF0000]NOTE: [/color]Use one of the Arcane Stepping Stones to get to the top of the Azure Archives. This will give you some extra height considering the distance you are about travel.|EAB|RANK|-1|ACH|16064|
+R Cobalt Assembly|ACTIVE|66244|M|39.92,61.54;49.39,24.87|CS|Z|2024|N|We're now headed to grab the Cobalt Assembly Glyph on our way to Thaldraszus.\n[color=FF0000]NOTE: [/color]Use one of the Arcane Stepping Stones to get to the top of the Azure Archives. This will give you some extra height considering the distance you are about travel.|EAB|RANK|-1|ACH|16064|
 
 $ Cobalt Assembly Glyph|QID|99999|N|On top of the highest tower. You may need to land on the lower tower to regen vigor first.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 T Supporting the Cobalt Assembly|QID|72784|M|49.03,23.15|Z|2024|N|To Venthi.|
 A Welcome to the Assembly|QID|70550|PRE|72784|M|49.03,23.15|Z|2024|N|From Venthi.|
 f Cobalt Assembly|ACTIVE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-f Cobalt Assembly|ACTIVE|66015|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|-1|
+f Cobalt Assembly|ACTIVE|66244|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|-1|
 C Welcome to the Assembly|QID|70550|M|49.47,22.60|Z|2024|CHAT|N|View the Assembly abilities.|
 T Welcome to the Assembly|QID|70550|M|49.03,23.15|Z|2024|N|To Venthi.|
 $ The Fallen Course Glyph|QID|99999|N|Floating just above the broken bridge.|M|56.82,16.05|Z|2024;The Azure Plains!Dragonflight|ACH|16673|
@@ -765,8 +765,8 @@ A Kill the Queen|QID|65834|PRE|65832&65833|M|48.99,64.22|Z|2024;The Azure Span|N
 C Kill the Queen|QID|65834|M|47.24,65.58|Z|2024;The Azure Span|U|191044|N|Grungir has provided you with a [color=33fff9]Spider Squasher [/color]to make the job easier.|
 T Kill the Queen|QID|65834|M|49.00,64.27|Z|2024;The Azure Span|N|To Grungir Ironspout.|
 
-R Camp Nowhere|ACTIVE|66939^66957^66958^66968^66971^66972|N|Over to see Nesingwary and turn in all of the kill quests.|
-
+R Camp Nowhere|ACTIVE|66939^66957^66958^66968^66971^66972|M|62.92,58.38|N|Over to see Nesingwary and turn in any completed kill quests.|
+$ Imbu Glyph|QID|99999|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|ACH|16070|RANK|3| ;-- not in an area the guide takes us to. Closest is Camp Nowhere
 F Grimtusk's Hideaway|ACTIVE|71000^71017^71012|M|58.79,34.90|Z|2024;The Azure Span|N|Hop on your dragon and let's go to the last spot in the zone.|RANK|3|
 T Naluki's Letter|QID|71017|M|58.79,34.90|Z|2024;The Azure Span|N|To Old Grimtusk.|
 T Varsek Recruited|QID|71012|M|58.79,34.90|Z|2024;The Azure Span|N|To Old Grimtusk.|
@@ -780,9 +780,9 @@ R The Fallen Course|ACTIVE|66244|M|56.8,15.5|Z|2024|N|And we are off to Thaldras
 R South Hold Gate|ACTIVE|66244|M|37.6,84.7|Z|2025|N|Fly across the broken bridge to enter Thaldraszus.|
 
 ;adventure mode
-N Adventure Mode|ACTIVE|72269^66015|PRE|72268|S!US|N|If you want to go on to Thaldraszus next, fly to Valdrakken to meet Alexstrasza, If you want to choose a different zone, manually check off this step and the next one and return to Wingrest Embassy and the scouting map to pick a new zone if needed, or go directly to the new guide if you already have the lead in quest.|
+N Adventure Mode|ACTIVE|72269^66244|PRE|72268|S!US|N|If you want to go on to Thaldraszus next, fly to Valdrakken to meet Alexstrasza, If you want to choose a different zone, manually check off this step and the next one and return to Wingrest Embassy and the scouting map to pick a new zone if needed, or go directly to the new guide if you already have the lead in quest.|
 F Valdrakken|ACTIVE|72269|PRE|72268|M|37.06,60.82|Z|2024|N|At Arc Tel XVII.|
-N Choose Thaldraszus|ACTIVE|72269^66015|PRE|72268|JUMP|Thaldraszus|
+N Choose Thaldraszus|ACTIVE|72269^66244|PRE|72268|JUMP|Thaldraszus|
 F Wingrest Embassy|AVAILABLE|72266^72267|PRE|72268|M|57.50,68.13|Z|2022|N|At Vaknai.|
 N Scouting Map|AVAILABLE|72266^72267|PRE|72268|M|76.52,34.24|Z|2022|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
 N Carry on!|ACTIVE|72266^72267|S!US|N|Finish your business and when you are ready, click on the book icon to load the next guide.|
