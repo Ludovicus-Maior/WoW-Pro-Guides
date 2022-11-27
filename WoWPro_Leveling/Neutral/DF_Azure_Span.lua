@@ -213,7 +213,7 @@ T Ill Gnolls with Ill Intent|QID|65872|M|34.37,31.02|Z|2024|N|To Brena.|
 A Spreading Decay|QID|66239|PRE|65871&65872&65873&65870|M|34.38,31.02|Z|2024|N|From Brena.|
 T Spreading Decay|QID|66239|M|28.69,34.83|Z|2024|N|To Brena.|
 A Another Ambush|QID|65869|PRE|66239|M|28.69,34.83|Z|2024|N|From Brena.|
-C Another Ambush|QID|65869|M|28.68,34.75|Z|2024|QO|1|CHAT|N|Speak to Akiun.|
+C Another Ambush|QID|65869|M|28.68,34.75|Z|2024|QO|1|CHAT|
 A Falling Water|QID|71233|PRE|66239|M|28.47,35.11|Z|2024|N|From Unkimi.|RANK|2|
 C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|NC|N|A couple Oozing Decay will spawn after you examine the body.|
 T Another Ambush|QID|65869|M|28.78,34.74|Z|2024|N|To Brena.|
@@ -357,13 +357,13 @@ C Drakes be Gone|QID|67299|M|65.73,25.72|Z|2024|V|N|Use one of the Arcane Blaste
 T Drakes be Gone|QID|67299|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 A Pruning The Pack|QID|66968|PRE|67299|M|65.80,26.46|Z|2024|N|From Hemet Nesingwary, if he happens to be here, if not check off and move along.|
 K Yetor|ACTIVE|66968|M|70.53,26.46|Z|2024|QO|1|N|Yetor can be found in a small cave with Yetis outside.|
-T To the Mountain|QID|65887|M|70.02,35.24|Z|2024|N|To Kalecgos.|
+T To the Mountain|QID|65887|M|70.02,35.24|Z|2024|N|To Kalecgos.\n[color=FF0000]NOTE: [/color]He'll appear when you reach Vakthros Range.|
 A Primal Offensive|QID|65943|PRE|65887|M|70.02,35.24|Z|2024|N|From Kalecgos.|
-A Lava Burst|QID|65944|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
-A Elemental Unfocus|QID|66647|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
-;A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
-;K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|
-;t Summoned Destroyer|QID|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Autocompleted.|
+A Lava Burst|QID|65944|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.\n[color=FF0000]NOTE: [/color]He'll appear after you accept Primal Offensive.|
+A Elemental Unfocus|QID|66647|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
+; A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
+K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|
+t Summoned Destroyer|QID|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Autocompleted.|
 C Primal Offensive|QID|65943|M|73.33,38.07|Z|2024|N|Kill Primalist forces as you head deaper into the cavern.|S|
 C Lava Burst|QID|65944|QO|1<1|M|72.25,37.28|Z|2024|NC|N|Click on the Lava orbs.|; one decimal precision doesnt seem to make a diff??
 C Lava Burst|QID|65944|QO|1<2|M|73.12,37.78|Z|2024|NC|N|Click on the Lava orbs.|;so broke up using QO|1<
@@ -386,7 +386,7 @@ C Free Air|QID|66007|M|78.21,37.73|Z|2024|EAB|NC|N|Use the [color=33fff9]Extra A
 T Free Air|QID|66007|M|78.74,39.39;78.38,39.98|CS|Z|2024|N|To Kalecgos, inside a mini-cave.|
 A In Defense of Vakthros|QID|66009|PRE|66007|M|78.38,39.98|Z|2024|N|From Kalecgos.|
 C In Defense of Vakthros|QID|66009|M|79.61,35.65|Z|2024|N|Korthrox the Destroyer slain.|
-T In Defense of Vakthros|QID|66009|M|77.99,32.49|Z|2024|N|You will need to use your drake to get to Archmage Khadgar.|
+T In Defense of Vakthros|QID|66009|M|78.17,34.50;77.99,32.49|CS|Z|2024|N|Exit Vakthros Summit and make your way over to Archmage Khadgar.|
 A The Storm-Eater's Fury|QID|70041|PRE|66009|M|77.99,32.49|Z|2024|N|From Archmage Khadgar.|
 C The Storm-Eater's Fury|QID|70041|M|78.05,32.44|Z|2024|QO|1|V|N|Arcane Disc boarded.|
 C The Storm-Eater's Fury|QID|70041|M|78.06,32.73|Z|2024|QO|2|N|Use the Disc's abilities to take out the Primalist army.\n[color=FF0000]NOTE: [/color]First Button is your main attack, 2nd one is a bigger blast from Kalecgos, when it becomes available, the third button should be used to target the black swirly updrafts.|
@@ -483,7 +483,7 @@ C Snowball Effect|QID|66703|M|57.66,41.59|Z|2024|N|Kill and loot the shamans to 
 T Snowball Effect|QID|66703|M|58.36,42.05|Z|2024|N|To Frostbite.|
 A Frostbite: Causes and Symptoms|QID|67050|PRE|66703|M|58.36,42.05|Z|2024|N|From Frostbite.|
 ;i got a minute or so after after turning 70 (not here-earlier), but i dont think that was the trigger, Rowie follows you areound until you accept it.-REN4?
-A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|
+A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2510;4| ; Update with correct REN level - Hendo72
 C Frostbite: Causes and Symptoms|QID|67050|M|58.27,41.96|Z|2024|QO|1|NC|N|Click on the glowy outlines to place the Snowhide totems.|
 ;C Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|QO|1|NC|N|Time to finish up disrupting if you plan to.|US|
 ;t Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|N|Bonus Objective - Autocompleted.|
@@ -509,7 +509,7 @@ t Old Stonetusk|QID|66972|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|1385
 T Path to Nowhere|QID|66671|M|63.22,58.42|Z|2024|N|To Maddy Scattershot.|
 A Broken Traditions, Broken Bodies|QID|66141|PRE|66671|M|63.21,58.62|Z|2024|N|From Garz.|
 f Camp Nowhere|ACTIVE|66141|M|63.41,58.64|Z|2024|N|At Camilla Highwind.|
-A Hunting the Huntmaster|AVAILABLE|66939|M|63.81,59.05|CC|Z|2024|N|Hemet stops here if you haven't gotten his quest, this is one of his shorter stops.|
+A Hunting the Huntmaster|AVAILABLE|66939|M|63.81,59.05|CC|Z|2024|N|Hemet stops here if you haven't gotten his quest, this is one of his shorter stops.|RANK|2|
 A To the Ruins!|QID|66391|PRE|66671|M|63.43,58.01|Z|2024|N|From Rannan Korren.|
 T To the Ruins!|QID|66391|M|65.02,58.61|Z|2024|N|To Rannan Korren.|
 A R.A.D. Anomalies|QID|66353|PRE|66391|M|65.02,58.62|Z|2024|N|From Rannan Korren.|
@@ -520,7 +520,7 @@ C What the Enemy Knows|QID|66352|M|65.82,59.78|Z|2024|N|Continue killing and loo
 T R.A.D. Anomalies|QID|66353|M|65.03,58.62|Z|2024|N|To Rannan Korren.|
 T What the Enemy Knows|QID|66352|M|65.01,58.62|Z|2024|N|To Lathos Sunband.|
 A The Expedition Continues!|QID|66422|PRE|66352&66353|M|65.01,58.63|Z|2024|N|From Lathos Sunband.|
-F Ruins of Karnthar Glyph|QID|99999|N|On top of the ruins of the tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
+F Ruins of Karnthar Glyph|QID|99999|N|On top of the ruins of the tower.|M|68.68,60.41|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
 T The Expedition Continues!|QID|66422|M|65.63,60.80|Z|2024|N|To Lathos Sunband.|
 A Worries and Validations|QID|66423|PRE|66422|M|65.63,60.80|Z|2024|N|From Lathos Sunband.|
 C Worries and Validations|QID|66423|M|65.33,60.79|Z|2024|QO|1<1|NC|N|Click on the Ruined Draconic Tablet partially obscured by bushes.|
@@ -581,10 +581,13 @@ C An Ancient Awakening|QID|70156|QO|2|M|48.33,30.13|NC|N|Clicking the little pin
 C An Ancient Awakening|QID|70156|QO|3|M|48.33,30.13|NC|N|Click the waygate.|
 T An Ancient Awakening|QID|70156|M|47.20,90.25|Z|2022|N|To Thaelin Darkanvil. Congratulations, you have now unlocked Waygates.|
 F Cobalt Assembly|ACTIVE|72784|M|49.39,24.87|Z|2024|N|We are now going to see what the Cobalt Assembly is up to.|
+F Cobalt Assembly|AVAILABLE|72784|M|39.92,61.54;49.39,24.87|CS|Z|2024|N|We're now headed to grab the Cobalt Assembly Glyph.\n[color=FF0000]NOTE: [/color]Use one of the Arcane Stepping Stones to get to the top of the Azure Archives. This will give you some extra height considering the distance you are about travel.|EAB|RANK|-1|ACH|16064|
+
 F Cobalt Assembly Glyph|QID|99999|N|On top of the highest tower. You may need to land on the lower tower to regen vigor first.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 T Supporting the Cobalt Assembly|QID|72784|M|49.03,23.15|Z|2024|N|To Venthi.|
 A Welcome to the Assembly|QID|70550|PRE|72784|M|49.03,23.15|Z|2024|N|From Venthi.|
-f Cobalt Assembly|ACTIVE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.|
+f Cobalt Assembly|ACTIVE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+f Cobalt Assembly|AVAILABLE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|-1|
 C Welcome to the Assembly|QID|70550|M|49.47,22.60|Z|2024|CHAT|N|View the Assembly abilities.|
 T Welcome to the Assembly|QID|70550|M|49.03,23.15|Z|2024|N|To Venthi.|
 F The Fallen Course Glyph|QID|99999|N|Floating just above the broken bridge.|M|56.82,16.05|Z|2024;The Azure Plains!Dragonflight|ACH|16673|
