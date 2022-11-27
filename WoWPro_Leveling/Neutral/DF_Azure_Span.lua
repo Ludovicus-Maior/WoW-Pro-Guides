@@ -361,9 +361,9 @@ T To the Mountain|QID|65887|M|70.02,35.24|Z|2024|N|To Kalecgos.|
 A Primal Offensive|QID|65943|PRE|65887|M|70.02,35.24|Z|2024|N|From Kalecgos.|
 A Lava Burst|QID|65944|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
 A Elemental Unfocus|QID|66647|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
-A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
-K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|
-t Summoned Destroyer|QID|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Autocompleted.|
+;A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
+;K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|
+;t Summoned Destroyer|QID|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Autocompleted.|
 C Primal Offensive|QID|65943|M|73.33,38.07|Z|2024|N|Kill Primalist forces as you head deaper into the cavern.|S|
 C Lava Burst|QID|65944|QO|1<1|M|72.25,37.28|Z|2024|NC|N|Click on the Lava orbs.|; one decimal precision doesnt seem to make a diff??
 C Lava Burst|QID|65944|QO|1<2|M|73.12,37.78|Z|2024|NC|N|Click on the Lava orbs.|;so broke up using QO|1<
@@ -475,7 +475,7 @@ T Field Medic 101|QID|66709|M|59.27,39.72|Z|2024|N|To Old Grimtusk.|
 A The Extraction|QID|66715|PRE|66709|M|59.27,39.72|Z|2024|N|From Old Grimtusk.|
 C The Extraction|QID|66715|M|58.24,41.93|Z|2024|NC|N|Walk into the gnoll camp..|
 ;A Gnolls Must Die|QID|66718|M|58.41,42.01|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|LVL|-70|
-C Gnolls Must Die|QID|66718|M|57.89,44.99|Z|2024|QO|1|N|Kill gnolls while you do other stuff, as if you had a choice.|S|
+;C Gnolls Must Die|QID|66718|M|57.89,44.99|Z|2024|QO|1|N|Kill gnolls while you do other stuff, as if you had a choice.|S|
 T The Extraction|QID|66715|M|58.35,41.99|Z|2024|N|To Frostbite.|
 A Snowball Effect|QID|66703|PRE|66715|M|58.35,41.99|Z|2024|N|From Frostbite.|
 K Snoll the Icebreaker|ACTIVE|66718|M|57.89,44.99|Z|2024|QO|2|N|Snoll the Icebreaker slain.|
@@ -485,8 +485,8 @@ A Frostbite: Causes and Symptoms|QID|67050|PRE|66703|M|58.36,42.05|Z|2024|N|From
 ;i got a minute or so after after turning 70 (not here-earlier), but i dont think that was the trigger, Rowie follows you areound until you accept it.-REN4?
 A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|
 C Frostbite: Causes and Symptoms|QID|67050|M|58.27,41.96|Z|2024|QO|1|NC|N|Click on the glowy outlines to place the Snowhide totems.|
-C Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|QO|1|NC|N|Time to finish up disrupting if you plan to.|US|
-t Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|N|Bonus Objective - Autocompleted.|
+;C Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|QO|1|NC|N|Time to finish up disrupting if you plan to.|US|
+;t Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|N|Bonus Objective - Autocompleted.|
 C Frostbite: Causes and Symptoms|QID|67050|M|58.48,40.52|Z|2024|QO|2|CHAT|N|There is no chat option, but you click on Old Grimtusk like you were going to chat to get the quest update.|
 T Frostbite: Causes and Symptoms|QID|67050|M|58.48,40.52|Z|2024|N|To Old Grimtusk.|
 A True Survivors|QID|66730|PRE|67050|M|58.48,40.52|Z|2024|N|From Old Grimtusk.|

@@ -515,11 +515,11 @@ C Bone Collector|QID|5501|M|49.00,58.00|Z|Desolace|US|NC|N|Get Kodo Bones from t
 C Aged Kodos|QID|1459|M|66.2,9.6|Z|Desolace|QO|2|US|N|Kill Aged Kodos in the area, collect 3 of their hide.|
 C Kodo Roundup|QID|5561|M|60.85,61.85|CN|Z|Desolace|US|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to the Smeed Scrabblescrew with it.  Do this five times to complete the quest.|U|13892|
 T Kodo Roundup|QID|5561|M|60.9,61.9|Z|Desolace|N|To Smeed Scrabblescrew.|
-C Centaur Bounty|QID|1387|M|70.00,70.00|Z|Desolace|S|N|Kill Magrim Centaurs and loot their Ears.|
+C Centaur Bounty|QID|1387|M|70.00,70.00|Z|Desolace|S|N|Kill Magram Centaurs and loot their Ears.|
 C Down the Scarlet Path|QID|261|M|63.40,91.40|Z|Desolace|S|N|Kill Undead Ravagers near this location.|
 C Ghost-o-plasm Round Up|QID|6134|M|64.22,91.46|Z|Desolace|N|Clear the area around you, click the crate and run back to a safe spot where you can pull the spectres from range.\n\nThey will clump up eventually and pulling just 1 can get difficult at times, if there is too many you can wait for them to despawn.|U|15848|
 C Down the Scarlet Path|QID|261|M|63.40,91.40|Z|Desolace|US|N|Kill 30 Undead Ravagers near this location.|
-C Strange Alliance|QID|1382|M|70.00,70.00|Z|Desolace|REP|Gelkis Clan Centaur;91;hated-neutral|N|Kill Magrim Centaurs until you are friendly with the Gelkis faction. It will take 50 centaurs, 46 if you are human.|
+C Strange Alliance|QID|1382|M|70.00,70.00|Z|Desolace|REP|Gelkis Clan Centaur;91;hated-neutral|N|Kill Magram Centaurs until you are friendly with the Gelkis faction. It will take 50 centaurs, 46 if you are human.|
 C Centaur Bounty|QID|1387|M|70.00,70.00|Z|Desolace|US|N|Get the rest of the Centaur Ears if you haven't already.|
 C Reagents for Reclaimers Inc.|QID|1459|M|66.2,9.6|Z|Desolace|N|Time to finish this up if you haven't already.|
 L Level Check|N|You should be over level 37 by now.|LVL|37|
