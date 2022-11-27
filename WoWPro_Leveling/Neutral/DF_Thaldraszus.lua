@@ -41,11 +41,11 @@ A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker 
 C To Valdrakken|QID|66244|M|52.20,53.02|Z|2112|QO|1|NC|N|Head up the steps for the quest update.|
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
 C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own).|
-T Thaldraszsus|QID|72269|M|57.97,35.84|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
-T To Valdrakken|QID|66244|M|57.97,35.84|Z|2112|N|To Alexstrasza the Life-Binder.|
-A A Message Most Dire|QID|66159^72269|PRE|66244|M|57.97,35.84|Z|2112|N|From Alexstrasza the Life-Binder.|
-C A Message Most Dire|QID|66159|M|57.97,35.84|Z|2112|CHAT|N|Information delivered.|
-T A Message Most Dire|QID|66159|M|57.97,35.84|Z|2112|N|To Alexstrasza the Life-Binder.|
+T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
+T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder.|
+A A Message Most Dire|QID|66159^72269|PRE|66244|M|58.11,34.88|Z|2112|N|From Alexstrasza the Life-Binder.|
+C A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|CHAT|N|Information delivered.|
+T A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder.|
 A Nowhere to Hide|QID|66163|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine, who runs up to join the meeting.|
 A Eyes and Ears|QID|66166|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine.|
 A The Algeth'ar Academy|QID|72193|PRE|66159|M|61.39,36.46|Z|2112|N|From Kalecgos.|RANK|2|
@@ -91,9 +91,9 @@ T The Fog of Battle|QID|66246|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
 T Vengeance, Served Hot|QID|66169|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
 A Remember the Fallen|QID|66245|PRE|66246&66169|M|37.61,83.08|Z|2025|N|From Guardian Velomir.|
 A Slightly Used Weapons|QID|66247|PRE|66246&66169|M|37.85,83.26|Z|2025|N|From Magmasworn Spear.|
-A Tying Things Together|QID|66248|PRE|66246&66169|M|38.55,83.40|Z|2025|N|From Coil of Rope.|
 C Slightly Used Weapons|QID|66247|M|39.60,82.15|Z|2025|N|Kill and loot Rockcleaver's to get the Magmasworn Spears.|S|
 C Remember the Fallen|QID|66245|M|39.22,83.14|Z|2025|H|N|Inspect the guardian's bodies to collect the signets.|S|
+A Tying Things Together|QID|66248|PRE|66246&66169|M|38.55,83.40|Z|2025|N|From Coil of Rope.|
 C Tying Things Together|QID|66248|M|39.46,83.81|Z|2025|H|N|Click to pick up the Coils of Heavy Rope.|
 C Remember the Fallen|QID|66245|M|39.22,83.14|Z|2025|H|N|Continue inspecting bodies till you have enough signets.|US|
 C Slightly Used Weapons|QID|66247|M|38.79,83.92|Z|2025|N|Continue to kill Rockcleaver's until you have enough Magmasworn Spears.|US|
