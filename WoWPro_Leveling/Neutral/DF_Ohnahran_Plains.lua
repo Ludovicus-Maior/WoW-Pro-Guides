@@ -23,6 +23,11 @@ return [[
 ;PLACED F Rusza'thar Reach|N|Floating above the tower.|M|86.5,39.4|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16062|
 ;PLACED F Rubyscale Outpost|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 
+;adventure mode
+F Dragonscale Basecamp|ACTIVE|72267|M|48.27,88.67|Z|2022|N|Fly, either on your own or by flightpath to Dragonscale Basecamp.|IZ|-13732|
+R Rubyscale Outpost|ACTIVE|72267|M|48.27,88.67|Z|2022|N|Exit town on the west side and follow the road generally north to meet Ambassador Taurasza at Rubyscale Outpost.|
+T Ohn'arran Plains|QID|72267|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza.|
+
 T Next Steppes|QID|65795|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza. You can run or glide on your dragon to get to him.|
 A Into the Plains|QID|65779|PRE|65795^72267|M|48.27,88.67|Z|2022|N|From Ambassador Taurasza.|
 $ Rubyscale Outpost Glyph|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
@@ -575,7 +580,7 @@ T Taivan's Purpose|QID|69096|M|61.81,38.72|Z|2023;Ohn'ahran Plains|N|To Healer S
 R Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|And we are off to the last area, you probably need a full vigor bar if you are going to take your dragon.|RANK|2|
 f Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|2|
 T Into the Azure|QID|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|To Masud the Wise.|
-A To the Azure Span|QID|65686|PRE|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|From Masud the Wise.|
+A To the Azure Span|QID|65686|PRE|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|From Masud the Wise.|LEAD|72267|
 
 ;T A Gift for Miguel|QID|67100|M|71.75,81.21|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|-this is in the Waking shore guide
 ;A Professionally Equipped|QID|67137|PRE|67100|M|71.93,81.03|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.| - this is in the waking shore guide
@@ -609,5 +614,15 @@ T The Master of Their Craft|QID|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To
 A A Worthy Hunt|QID|69979|PRE|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|From Khadin.|
 K Thousandmile|ACTIVE|69979|M|49.41,37.10|Z|2023;Ohn'ahran Plains|N|Go out and kill and loot Thousandmile.|T|Thousandmile|
 T A Worthy Hunt|QID|69979|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To Khadin. This is to show you the repeatable quest to turn your Shards of Dragon Knowledge into tradeskill knowlege.|
+
+;adventure mode
+N Adventure Mode|ACTIVE|72268^65686|PRE|72267|S!US|N|If you want to go on to Azure Span, travel to Forkriver Crossing to meet Masud the Wise, If you want to choose a different zone, manually check off this step and the next one and return to Wingrest Embassy and the scouting map to pick a new zone if needed, or go directly to the new guide if you already have the lead in quest.|
+F Forkriver Crossing|ACTIVE|72268^65686|PRE|72267|M|37.06,60.82|Z|2024|N|At Arc Tel XVII.|
+N Choose Azure Span|ACTIVE|72268^65686|PRE|72267|JUMP|The_Azure_Span|
+F Wingrest Embassy|AVAILABLE|72266^72268^72269|PRE|72267|M|57.50,68.13|Z|2022|N|At Vaknai.|
+N Scouting Map|AVAILABLE|72266^72268^72269|PRE|72267|M|76.52,34.24|Z|2022|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
+N Carry on!|ACTIVE|72266^72269|S!US|N|Finish your business and when you are ready, click on the book icon to load the next guide.|
+N Choose Waking Shore|ACTIVE|72266|JUMP|The_Waking_Shores|S!US|
+N Choose Thaldraszus|ACTIVE|72269|JUMP|Thaldraszus|S!US|
 ]]
 end)
