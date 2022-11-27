@@ -68,7 +68,7 @@ H Freewind Post|ACTIVE|4821|M|PLAYER|
 T Alien Egg|QID|4821|M|44.64,50.30|Z|1441|N|To Hagar Lightninghoof.|
 A Serpent Wild|QID|4865|M|44.64,50.30|Z|1441|N|From Hagar Lightninghoof.|PRE|4821|
 T Pacify the Centaur|QID|4841|M|45.66,50.79|Z|1441|N|To Cliffwatcher Longhorn.|
-;L Level 31|QID|4841|LVL|31|N|You should be around level 31 by this point.|
+L Level 31|QID|4841|LVL|31|N|You should be around level 31 by this point.|
 A Grimtotem Spying|QID|5064|M|45.66,50.79|Z|1441|N|From Cliffwatcher Longhorn.|PRE|4841|
 T The Sacred Flame|QID|1197|M|46.14,51.70|Z|1441|N|To Rau Cliffrunner.|
 R Sky path access|ACTIVE|5064|M|31.22,36.91|CC|Z|1441|N|Take the elevator down and run to the base of the ramp leading up to the sky path.|
@@ -316,10 +316,6 @@ A Alliance Relations|QID|1433|M|52.57,54.39|Z|1443|N|From Takata Steelblade.|PRE
 A Befouled by Satyr|QID|1434|M|52.57,54.39|Z|1443|N|From Takata Steelblade.|
 T Alliance Relations|QID|1433|M|52.25,53.44|Z|1443|N|To Maurin Bonesplitter.|
 A The Burning of Spirits|QID|1435|M|52.25,53.44|Z|1443|N|From Maurin Bonesplitter.|PRE|1433|
-
-;HerniaOG
-
-
 C Bone Collector|ACTIVE|5501|L|13703 10|N|While you are in the Kodo Graveyard, collect any Kodo Bones you come across.\n[color=FF0000]NOTE: [/color]Be aware, there is a chance of a lv 37-38 Kodo Apparation appearing and attacking you. You can stand and fight or run. If you run, the Kodo will return to its spawn point and despawn after a couple minutes.\nUnless you want the added challenge, make sure you clear any Vultures in the area before looting the bones.|S|
 C Kodo Roundup|QID|5561|N|Go into the Kodo Graveyard and target one of the Kodos. Using the kombobulator, tame the kodo and have it follow you back to Scrabblescrew's Camp. After Scrabblescrew speaks with you, talk to the Kodo to get credit for it.\n[color=FF0000]NOTE: [/color]You can only do this one at a time and you have 5 minutes to bring the Kodo to Scrabblescrew.|U|13892|
 T Kodo Roundup|QID|5561|M|60.86,61.86|Z|1443|N|To Smeed Scrabblescrew.|
@@ -367,9 +363,8 @@ l Shellfish|ACTIVE|5386|M|20.10,79.10|Z|1443|L|13545 5|N|Drop into the water and
 A Fish in a Bucket|QID|5421|ACTIVE|5386|M|22.46,73.11|Z|1443|L|13546 2|N|From Jinar'Zillen on the pier.\n[color=FF0000]NOTE: [/color]You have to do this a second time.|NOCACHE|
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|1443|L|13546 2|N|To Jinar'Zillen on the pier.|NOCACHE|
 C Centaur Bounty|QID|1366|M|70.76,75.30|Z|1443|L|6067 15|ITEM|6067|N|Any Centaur|S|
-N Reputation Monitoring|ACTIVE|1367^1368|N|Open the Reputation Tab (<U>) and locate the Faction you want to track. Check the box 'Show as Experience Bar' and it will appear above the Exp bar.\n[color=FF0000]NOTE: [/color]Some factions will only show in the list once there's been a change in your rep with them.\n\nResults may vary depending upon your UI layout and other Addons.\nManually check this step off to continue.|
-R Magram Village|ACTIVE|1368|M|69.30,72.67|Z|1443|N|Follow the main road as far east as it goes. The village is on the south side of the road.|
-K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|1443|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take 75 kills to reach it.|REP|Gelkis Clan Centaur;92;Neutral|
+R Magram Village|ACTIVE|1368|M|68.21,64.93;69.30,72.67|CC|Z|1443|N|Follow the main road as far east as it goes. The village is on the south side of the road.|
+K Magram Clan Centaurs|ACTIVE|1368|M|70.76,75.30|Z|1443|N|Kill Magram Clan Centaurs.|REP|Gelkis Clan Centaur;92;Neutral|
 C Centaur Bounty|QID|1366|M|70.76,75.30|Z|1443|L|6067 15|ITEM|6067|N|Any Centaur|US|
 R Ghost Walker Post|ACTIVE|1366|M|56.74,56.79|Z|1443|
 T Centaur Bounty|QID|1366|M|56.20,59.55|Z|1443|N|To Felgur Twocuts.|
@@ -377,16 +372,16 @@ T Catch of the Day|QID|5386|M|55.41,55.80|Z|1443|N|To Nataka Longhorn.|
 R Gelkis Village|ACTIVE|1368|M|37.64,78.95|Z|1443|
 T Gelkis Alliance|QID|1368|M|36.24,79.25|Z|1443|N|To Uthek the Wise.|
 R Shadowprey Village|AVAILABLE|6161|M|26.50,75.15|Z|1443|
-N Shortcut|AVAILABLE|6161|N|Instead of running all the way around to get to the shoreline in the north, you are going to swim up from Shadowprey Village.\n[color=FF0000]NOTE: [/color]Use this opportunity to collect your Soft-shelled Clam Meat.\nManually check this step off to continue.|
-C Clam Bait|QID|6142|M|33.20,31.66|Z|1443|L|15924 10|N|You can get them from opening the Giant Soft Clams from the ocean floor.\n[color=FF0000]NOTE: [/color]You can also get them from killing Drysnap Crawlers/Pincers and Reef Crawlers.|U|15874|S|
-R Ethel Rethor|AVAILABLE|6161|M|30.5,34.2;35.66,30.67|CC|Z|1443|N|Walk into the water and swim north.|
+C Clam Bait|QID|6142|M|33.20,31.66|Z|1443|L|15924 10|N|You can get them from opening the Giant Soft Clams from the ocean floor.\n[color=FF0000]NOTE: [/color]You can also get them from killing Reef Crawlers.|U|15874|S|
+R Ethel Rethor|AVAILABLE|6161|M|22.37,71.21;22.72,59.19;22.72,59.19;30.5,34.2;35.66,30.67|CC|Z|1443|N|Walk into the water and swim north.|
 A Claim Rackmore's Treasure!|QID|6161|M|36.07,30.43|Z|1443|N|Find Rackmore's Log on top of the barrel beside the wreckage of the boat on shore. Click on it to start the quest.|
 C Rackmore's Golden Key|QID|6161|L|15881|ITEM|15881|N|Any Naga|S|
+K Other Fish to Fry|ACTIVE|6143|M|32.54,22.41|Z|1443|QO|1;2;3|N|Slay Slitherblade Myrmidons, Nagas, and Sorceresses.|S|
 C Oracle Crystal|QID|1482|L|6442|ITEM|6442|N|Slitherblade Oracle|S|
 C Rackmore's Silver Key|QID|6161|M|33.20,31.66|Z|1443|L|15878|ITEM|15878|N|Drysnap Crawler/Pincer\n[color=FF0000]NOTE: [/color]Stick around the bubbling fissure so you don't have to keep swimming to the surface for air. They will come to you.|
-C Clam Bait|QID|6142|M|33.20,31.66|Z|1443|L|15924 10|N|You can get them from opening the Giant Soft Clams from the ocean floor.\n[color=FF0000]NOTE: [/color]You can also get them from killing Drysnap Crawlers/Pincers and Reef Crawlers.|U|15874|US|
-K Other Fish to Fry|ACTIVE|6143|M|32.54,22.41|Z|1443|QO|1;2;3|N|Slay Slitherblade Myrmidons, Nagas, and Sorceresses.|
+C Clam Bait|QID|6142|M|33.20,31.66|Z|1443|L|15924 10|N|You can get them from opening the Giant Soft Clams from the ocean floor.\n[color=FF0000]NOTE: [/color]You can also get them from killing Reef Crawlers.|U|15874|US|
 C Rackmore's Golden Key|QID|6161|L|15881|ITEM|15881|N|Any Naga|US|
+K Other Fish to Fry|ACTIVE|6143|M|32.54,22.41|Z|1443|QO|1;2;3|N|Slay Slitherblade Myrmidons, Nagas, and Sorceresses.|US|
 R Ranazjar Isle|ACTIVE|6161|M|30.56,9.19|Z|1443|N|Swim to the big island to the north.|
 T Claim Rackmore's Treasure!|QID|6161|M|30.01,8.70|Z|1443|N|After clearing the area around the chest, open it to complete the quest.|
 K Lord Kargaru|ACTIVE|6027|M|28.27,6.70|Z|1443|L|15803|ITEM|15803|N|Lord Kargaru\nAfter clearing the area, click on the Serpent Statue to summon Lord Kargaru.|
@@ -398,14 +393,14 @@ L Level 36|ACTIVE|1482|N|Grind until you're within 5 bars (76%) of Level 36.|LVL
 R Ghost Walker Post|ACTIVE|1482|M|58.59,57.04|Z|1443|US|
 T The Corrupter|QID|1482|M|52.24,53.44|Z|1443|N|To Maurin Bonesplitter.|
 A The Corrupter|QID|1484|M|52.24,53.44|Z|1443|N|After a brief 'event', accept the follow-up quest from Maurin Bonesplitter.|PRE|1482|
-T The Corrupter|QID|1484|M|52.57,54.39|Z|1443|N|To Takata Steelblade.To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.|
+T The Corrupter|QID|1484|M|52.57,54.39|Z|1443|N|To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.|
 R Shadowprey Village|ACTIVE|6142^6143|M|26.50,75.15|Z|1443|N|Return to Shadowprey Village.|
 A Hunting in Stranglethorn|QID|5763|M|25.05,72.26|Z|1443|N|From Roon Wildmane.|
 T Other Fish to Fry|QID|6143|M|23.32,72.88|Z|1443|N|To Drulzegar Skraghook.|
 T Clam Bait|QID|6142|M|22.64,71.97|Z|1443|N|To Mai'Lahii.|
 
 ; --- Hillsbrad Foothills/Alterac
-F Orgrimmar|ACTIVE|1436|M|21.60,74.13|Z|1443|
+H Orgrimmar|ACTIVE|1436|M|PLAYER|
 T Alliance Relations|QID|1436|M|22.27,53.74|Z|1454|N|To Keldran.|
 F Thunder Bluff|AVAILABLE|544|M|21.60,74.13|Z|1443|C|Druid|
 = Level 36 training|AVAILABLE|544|N|Do your lv 36 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|36|
@@ -439,8 +434,12 @@ F Tarren Mill|AVAILABLE|544|M|63.26,48.54|Z|1458|N|Enter Undercity and fly to Ta
 A Prison Break In|QID|544|M|61.59,20.83|Z|1424|N|From Magus Wordeen Voidglare.|
 A Stone Tokens|QID|556|M|61.50,20.94|Z|1424|N|From Keeper Bel'varil.|
 A Soothing Turtle Bisque|QID|7321|M|62.30,19.09|Z|1424|N|From Christoph Jeffcoat, inside the Inn.|
-B Soothing Spices|ACTIVE|7321|M|62.30,19.09|Z|1424|L|3713|N|From Christoph Jeffcoat.|
-t Soothing Turtle Bisque|QID|7321|M|62.30,19.09|Z|1424|N|To Christoph Jeffcoat.|IZ|272|
+T Soothing Turtle Bisque|QID|7321|M|62.30,19.09|Z|1424|N|To Christoph Jeffcoat.|IZ|272|
+
+;HerniaOG
+
+;HerniaOG
+
 A Helcular's Revenge|QID|552|M|63.88,19.67|Z|1424|N|From Novice Thaivand, standing in the cemetary.|
 A Infiltration|QID|533|M|63.23,20.66|Z|1424|N|From Krusk.|
 R Darrow Hill|ACTIVE|552|M|49.10,32.22|Z|1424|N|Run to the Cave in Darrow Hill.|
@@ -474,10 +473,8 @@ T Prison Break In|QID|544|M|61.60,20.84|Z|1424|N|To Magus Wordeen Voidglare.\n[c
 T Stone Tokens|QID|556|M|61.49,20.94|Z|1424|N|To Keeper Bel'varil.\n[color=FF0000]NOTE: [/color]Do not get the follow-up.|
 T Infiltration|QID|533|M|63.24,20.66|Z|1424|N|To Krusk.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 R The River|ACTIVE|7321^553|M|67.66,19.73|CC|Z|1424|N|Head east to the river.|
-C Turtle Meat|QID|7321|L|3712 10|ITEM|3712|N|Any Turtle|S|
 R Southshore|ACTIVE|553|M|54.47,51.56|Z|1424|N|Follow the river south to Southshore.\n[color=FF0000]NOTE: [/color]Keep your distance from the Alliance guards patroling the edge of Southshore.|
 T Helcular's Revenge|QID|553|M|52.76,53.34|Z|1424|N|Click on Helcular's tombstone to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not stick around as this area is patrolled by a couple Alliance guards.|
-C Turtle Meat|QID|7321|L|3712 10|ITEM|3712|N|Any Turtle\n[color=FF0000]NOTE: [/color]You may have to travel up and down the river to kill enough turtles.|US|
 
 ; --- Arathi Highlands
 R Arathi Highlands|AVAILABLE|655|M|20.04,29.38|Z|1417|N|Before leaving the area, we are going to make the run through Arathi Highlands to get the FP at Hammerfall.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
