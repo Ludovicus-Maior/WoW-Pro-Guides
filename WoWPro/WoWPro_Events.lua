@@ -527,7 +527,6 @@ WoWPro.RegisterModernEventHandler("UNIT_AURA", function(event, ...)
         WoWPro.AutoCompleteBuff(...)
     end
     end)
-
 -- Naughty People!
 WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function(event, ...)
     -- Its has been logged by LogEvent, so just return

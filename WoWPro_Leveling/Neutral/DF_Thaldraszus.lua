@@ -22,15 +22,15 @@ A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you
 ;PLACED F Temporal Conflux|N|Inside the tower.|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|ACH|16098|
 ;PLACED F Gelikyr Overlook|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|ACH|16666|
 ;Put the remainder at the end of the guide, just in case someone hasn't gotten them yet.
-;F Algeth’era|N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|ACH|16102|
-;F Algeth’ar Academy|N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|ACH|16104|
+;F Algeth'era|N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|ACH|16102|
+;F Algeth'ar Academy|N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|ACH|16104|
 ;F Veiled Ossuary|N|Inside the tower.|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|ACH|16105|
 ;F Vault of the Incarnates|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|ACH|16106|
 ;F Tyrhold|N|This one is on the mountain ledge.|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|ACH|16103|
 ;F Thaldraszus Apex|N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|ACH|16107|
 
-A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|IZ|13813|
-C Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|This comment is really just here to see if RARE tag will suppress the comment!|IZ|13813|
+;A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|IZ|13813|
+;C Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|This comment is really just here to see if RARE tag will suppress the comment!|IZ|13813|
 F South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower|ACH|16100|
 f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|
 f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2112|N|At Aluri.|
@@ -41,11 +41,11 @@ A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker 
 C To Valdrakken|QID|66244|M|52.20,53.02|Z|2112|QO|1|NC|N|Head up the steps for the quest update.|
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
 C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own).|
-T Thaldraszsus|QID|72269|M|57.97,35.84|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
-T To Valdrakken|QID|66244|M|57.97,35.84|Z|2112|N|To Alexstrasza the Life-Binder.|
-A A Message Most Dire|QID|66159^72269|PRE|66244|M|57.97,35.84|Z|2112|N|From Alexstrasza the Life-Binder.|
-C A Message Most Dire|QID|66159|M|57.97,35.84|Z|2112|CHAT|N|Information delivered.|
-T A Message Most Dire|QID|66159|M|57.97,35.84|Z|2112|N|To Alexstrasza the Life-Binder.|
+T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
+T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder.|
+A A Message Most Dire|QID|66159^72269|PRE|66244|M|58.11,34.88|Z|2112|N|From Alexstrasza the Life-Binder.|
+C A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|CHAT|N|Information delivered.|
+T A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder.|
 A Nowhere to Hide|QID|66163|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine, who runs up to join the meeting.|
 A Eyes and Ears|QID|66166|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine.|
 A The Algeth'ar Academy|QID|72193|PRE|66159|M|61.39,36.46|Z|2112|N|From Kalecgos.|RANK|2|
@@ -91,9 +91,9 @@ T The Fog of Battle|QID|66246|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
 T Vengeance, Served Hot|QID|66169|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
 A Remember the Fallen|QID|66245|PRE|66246&66169|M|37.61,83.08|Z|2025|N|From Guardian Velomir.|
 A Slightly Used Weapons|QID|66247|PRE|66246&66169|M|37.85,83.26|Z|2025|N|From Magmasworn Spear.|
-A Tying Things Together|QID|66248|PRE|66246&66169|M|38.55,83.40|Z|2025|N|From Coil of Rope.|
 C Slightly Used Weapons|QID|66247|M|39.60,82.15|Z|2025|N|Kill and loot Rockcleaver's to get the Magmasworn Spears.|S|
 C Remember the Fallen|QID|66245|M|39.22,83.14|Z|2025|H|N|Inspect the guardian's bodies to collect the signets.|S|
+A Tying Things Together|QID|66248|PRE|66246&66169|M|38.55,83.40|Z|2025|N|From Coil of Rope.|
 C Tying Things Together|QID|66248|M|39.46,83.81|Z|2025|H|N|Click to pick up the Coils of Heavy Rope.|
 C Remember the Fallen|QID|66245|M|39.22,83.14|Z|2025|H|N|Continue inspecting bodies till you have enough signets.|US|
 C Slightly Used Weapons|QID|66247|M|38.79,83.92|Z|2025|N|Continue to kill Rockcleaver's until you have enough Magmasworn Spears.|US|
@@ -125,7 +125,7 @@ A Elemental Extract|QID|66136|PRE|66135&66278|M|37.86,75.48|Z|2025|N|From Gryrmp
 A Lashing Out|QID|66137|PRE|66135&66278|M|37.86,75.48|Z|2025|N|From Gryrmpech.|
 A New Kid on the Clock|QID|66279|PRE|66135&66278|M|37.86,75.48|Z|2025|N|From Gryrmpech.|
 C New Kid on the Clock|QID|66279|M|37.88,75.47|Z|2025|QO|1|H|N|Click Basilton so he can sniff your hand.|
-A Liskron the Dazzling|QID|72116|M|37.06,74.02|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
+;A Liskron the Dazzling|QID|72116|M|37.06,74.02|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
 C New Kid on the Clock|QID|66279|M|35.24,72.64|Z|2025|QO|2|NC|N|Take the pocket watch to Orizmu in the Gardens.|
 T New Kid on the Clock|QID|66279|M|35.24,72.64|Z|2025|N|To Orizmu.|
 A Like Sands Through the Hourglass|QID|66138|PRE|66279|M|35.22,72.63|Z|2025|N|From Orizmu.|
@@ -250,8 +250,8 @@ C Haven't Got Time For the Pain|QID|70136|M|52.71,76.85|Z|2025|QO|1|H|N|The Time
 T Haven't Got Time For the Pain|QID|70136|M|54.96,75.64|Z|2025|N|To Siaszerathel.|
 A Time in a Bottle|QID|66082|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
 A Time is Running Out|QID|66081|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
-A Henlare|QID|69873|M|55.39,77.38|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
-K Henlare|ACTIVE|69873|M|55.39,77.38|Z|2025|N|Henlare is flying just above a flat mesa like place in the midle of the area.|RARE|
+;A Henlare|QID|69873|M|55.39,77.38|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
+;K Henlare|ACTIVE|69873|M|55.39,77.38|Z|2025|N|Henlare is flying just above a flat mesa like place in the midle of the area.|RARE|
 C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Kill mobs that have glowing balls of energy and these are released when they die, run thru the energy orgs to collect them.|S|
 C Time is Running Out|QID|66081|M|55.07,76.73|Z|2025|H|N|Pick up the Blue floating Temporal Collector.|
 C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Keep killing and collecting energy until you get enough.|US|
@@ -554,9 +554,9 @@ N Choose Ohn'ahran Plains|ACTIVE|72267|JUMP|Ohnahran_Plains|
 N Choose Azure Span|ACTIVE|72268|S!US|M|PLAYER|JUMP|The_Azure_Span|
 
 N The Remaining Glyphs|QID|99999|M|55.52,45.26|Z|2112|ACH|16578|N|If by some miracle, you still have glyphs to get, here are the rest of them in Thandraszus. These are areas you will visit in Max level questing/World Quests. Head up to the Seat of the Aspects to get some height for the journey.|RANK|3|
-F Algeth’era Glyph|QID|99999|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|N|Over the tower.|ACH|16102|RANK|3|
+F Algeth'era Glyph|QID|99999|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|N|Over the tower.|ACH|16102|RANK|3|
 F Veiled Ossuary Glyph|QID|99999|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|N|Inside the top level of the tower.|ACH|16105|RANK|3|
-F Algeth’ar Academy Glyph|QID|99999|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|N|This one is kinda hidden inside of the roof of the tower with a big crystal above the tower.|ACH|16104|RANK|3|
+F Algeth'ar Academy Glyph|QID|99999|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|N|This one is kinda hidden inside of the roof of the tower with a big crystal above the tower.|ACH|16104|RANK|3|
 F Vault of the Incarnates Glyph|QID|99999|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|ACH|16106|RANK|3|
 F Thaldraszus Apex Glyph|QID|99999|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|N|This is high above the mountain, the highest point.|ACH|16107|RANK|3|
 F Tyrhold Glyph|QID|99999|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|N|This one is on the mountain ledge.|ACH|16103|RANK|3|
