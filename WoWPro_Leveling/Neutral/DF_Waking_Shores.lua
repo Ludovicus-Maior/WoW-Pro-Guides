@@ -541,15 +541,13 @@ T Life-Binder on Duty|QID|65791|M|62.35,73.02|Z|2022|N|To Alexstrasza the Life-B
 A A Charge of Care|QID|65794|PRE|65791|M|62.35,73.02|Z|2022|N|From Alexstrasza the Life-Binder.|
 C A Charge of Care|QID|65794|M|62.35,73.02|Z|2022|CHAT|N|Watch the cutscene as the Ruby Oathstone becomes empowered.|
 T A Charge of Care|QID|65794|M|61.57,68.54|Z|2022|N|To Alexstrasza the Life-Binder.|
-A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022|N|From Alexstrasza the Life-Binder.|
+A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022|N|From Alexstrasza the Life-Binder.|LEAD|72267|
 
 N Adventure Mode|AVAILABLE|72268^72269|PRE|72266|S!US|N|If you want to go on to Ohn'ahran Plains next, fly to meet Ambassador Taurasza, If you want to choose a different zone, manually check off the next two steps and return to Wingrest Embassy and the scouting map.|
 F Dragonscale Basecamp|ACTIVE|65794|PRE|72266|M|57.50,68.13|Z|2022|N|At Vaknai.|
 N Choose Ohn'ahran Plains|ACTIVE|65794|PRE|72266|JUMP|Ohnahran_Plains|
 F Wingrest Embassy|AVAILABLE|72268^72269|PRE|72266|M|57.50,68.13|Z|2022|N|At Vaknai.|
 N Scouting Map|AVAILABLE|72268^72269|PRE|72266|M|76.52,34.24|Z|2022|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
-;A Azure Span|QID|72268|M|76.52,34.22|Z|2022|N|From Scouting Map UI.|
-;A Thaldraszus|QID|72269|M|76.52,34.22|Z|2022|N|From Scouting Map UI.|
 N Carry on!|ACTIVE|72268^72269|S!US|N|Finish your business in Wingrest Embassy, train tradeskills if you want and when you are ready, click on the book icon to load the next guide.|
 N Choose Azure Span|ACTIVE|72268|S!US|JUMP|The_Azure_Span|
 N Choose Thaldraszus|ACTIVE|72269|S!US|JUMP|Thaldraszus|
