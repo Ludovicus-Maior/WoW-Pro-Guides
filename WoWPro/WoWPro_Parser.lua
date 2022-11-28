@@ -10,10 +10,8 @@ local L = WoWPro_Locale
 WoWPro.actiontypes = {
     A = "Interface\\GossipFrame\\AvailableQuestIcon",
     ["A ELITE"] = "Interface\\GossipFrame\\AvailableLegendaryQuestIcon",
-    ["A Campaign"] = "Interface\\GossipFrame\\CampaignAvailableQuestIcon",
     C = "Interface\\Icons\\Ability_DualWield",
     T = "Interface\\GossipFrame\\ActiveQuestIcon",
-    ["T Campaign"] = "Interface\\GossipFrame\\CampaignActiveQuestIcon",
     t = "Interface\\GossipFrame\\ActiveQuestIcon",
     K = "Interface\\Icons\\Ability_Creature_Cursed_02",
     R = "Interface\\Icons\\Ability_Tracking",
@@ -53,10 +51,9 @@ end
 WoWPro.actionlabels = {
     A = "Accept",
     ["A ELITE"] = "Accept elite quest",
-    ["A Campaign"] = "Accept Campaign quest",
     C = "Complete",
     T = "Turn in",
-    ["T Campaign"] = "Turn in Campaign quest",
+
     t = "Turn in when complete",
     K = "Kill",
     R = "Run to",
@@ -88,6 +85,13 @@ WoWPro.actionlabels = {
     d = "Die",
     s = "Take Spirit Healer",
 }
+
+if WoWPro.RETAIL then
+    WoWPro.actiontypes["A Campaign"] = "Interface\\GossipFrame\\CampaignAvailableQuestIcon"
+    WoWPro.actiontypes["T Campaign"] = "Interface\\GossipFrame\\CampaignActiveQuestIcon"
+    WoWPro.actionlabels["A Campaign"] = "Accept Campaign quest"
+    WoWPro.actionlabels["T Campaign"] = "Turn in Campaign quest"
+end
 
 ---accept = {
 --- order = 7,

@@ -895,7 +895,8 @@ function WoWPro.SetActionTexture(currentRow)
     local action = WoWPro.action[k]
     local QID = tonumber(WoWPro.QID[k])
     local mapID = _G.C_Map.GetBestMapForUnit("player")
-    local isCampaign = _G.C_QuestLine and tonumber(QID) and mapID and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID) and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID).isCampaign
+    local isCampaign = WoWPro.RETAIL and _G.C_QuestLine and tonumber(QID) and mapID and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID) and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID).isCampaign
+
     -- Set default Texture
     currentRow.action:SetTexture(WoWPro.actiontypes[action])
     -- Set custom Texure
