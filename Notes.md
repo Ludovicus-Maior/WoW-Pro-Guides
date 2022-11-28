@@ -1,3 +1,37 @@
+# Release 2022.11.28.A
+## Bug Fixes
+* Updated to HereBeDragons 2.12
+* Faster detection of Achievement updates
+* New icons for Campaign A/T steps
+* Fixed a few minor bug on handling FAILed quests
+* "Current guide" now uses the same icons that the guide window uses
+* Added a tag (NOAUTO) to disable quest auto-accept, for optional quests
+* Tweaked the texture size for step icons so they look better.
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* Achievement: Dragon Riding Glyphs
+* Leveling: Azure Span, Campaign, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, Dracthyr INTRO, Zereth Mortis
+
+### Classic
+* No Classic guides were harmed during this release
+
+### WotLK
+* Alliance: Alliance 30-41
+* Neutral:
+* Horde: Orc/Troll Intro, Barrens 14-22, Chapter 1 (21-30), Chapter 2 (30-40), Sholazar Basin
+* Horde Note:  The newly fixed guide checker pointed out dozens of errors in various horde guides.  We will be looking at them all.
+
+### Professions
+* Classic: None
+* BC: None
+* Wrath: None
+
+
 # Release 2022.11.16.A
 ## Bug Fixes
 * Target and Item keybinds now work in Combat!
