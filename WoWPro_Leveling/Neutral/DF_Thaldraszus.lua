@@ -31,7 +31,7 @@ A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you
 
 ;A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|IZ|13813|
 ;C Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|This comment is really just here to see if RARE tag will suppress the comment!|IZ|13813|
-F South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower|ACH|16100|
+$ South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower|ACH|16100|
 f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|
 f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2112|N|At Aluri.|
 A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promoter.|RANK|2|
@@ -186,8 +186,8 @@ T Ring of Fire|QID|70878|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 T Worst of the Worst|QID|70875|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 T Fracture the Foci|QID|70876|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 A Report on the Rebels|QID|70879|PRE|70878&70875&70876|M|42.45,78.84|Z|2025|N|From Investigator Erima.|
-F Stormshroud Peak Glyph|QID|99999|N|On top of the mountain. Way, Way, Up!|M|45.81,73.97|Z|2025;Thaldraszus!Dragonflight|ACH|16099|
-F Gelikyr Overlook Glyph|QID|99999|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|ACH|16666|
+$ Stormshroud Peak Glyph|QID|99999|N|On top of the mountain. Way, Way, Up!|M|45.81,73.97|Z|2025;Thaldraszus!Dragonflight|ACH|16099|
+$ Gelikyr Overlook Glyph|QID|99999|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|ACH|16666|
 T Look to the Overlook|QID|71179|M|52.66,67.30|Z|2025|N|To Commander Thadezus.|
 A What Once Was Ours|QID|66468|PRE|71179|M|52.66,67.30|Z|2025|N|From Commander Thadezus.|
 C What Once Was Ours|QID|66468|M|53.57,63.91;53.91,63.94|CS|Z|2025|N|Work your way down the path, until you get to the first waypoint, then up the stairs to the tower there. Kill Primalists,Heal the injured and and destroy totems as you go.|
@@ -225,7 +225,7 @@ A A Poisonous Palette|QID|66456|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Wayw
 A Ending the Blue Period|QID|66457|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
 C A Poisonous Palette|QID|66456|M|55.68,70.47|Z|2025|N|Kill and loot the Embertooth mobs to find the Envenomed Spears.|S|
 K Bluescale|ACTIVE|66457|QO|1|M|55.89,71.18|Z|2025|N|Bluescale is in a small cave. The plants around him will also agro.|
-F Passage of Time Glyph|ACTIVE|99999|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|N|Floating just under the mountain archway, just behind the viaducts.|ACH|16667|
+$ Passage of Time Glyph|ACTIVE|99999|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|N|Floating just under the mountain archway, just behind the viaducts.|ACH|16667|
 C A Poisonous Palette|QID|66456|M|56.73,69.09|Z|2025|N|Continue wiping out the inhabitants of the area until you have enough Envenomed Spears.|US|
 T A Poisonous Palette|QID|66456|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 T Ending the Blue Period|QID|66457|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
@@ -372,7 +372,7 @@ C Back to the Future|QID|66040|M|52.93,42.44|Z|2089|QO|2|N|Kill the mobs that ar
 C Back to the Future|QID|66040|M|60.09,82.42|Z|2025|QO|3|CHAT|N|Ask Chromie if Nozdormu is ok.|
 T Back to the Future|QID|66040|M|60.06,82.45|Z|2025|N|To Nozdormu.|
 A Moving On|QID|66221|PRE|66040|M|60.06,82.45|Z|2025|N|From Nozdormu.|
-F Temporal Conflux Glyph|ACTIVE|99999|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|N|Just under the roof of the tower behind the Bronze Temple.|ACH|16098|
+$ Temporal Conflux Glyph|ACTIVE|99999|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|N|Just under the roof of the tower behind the Bronze Temple.|ACH|16098|
 C Entropic Remnants|QID|67154|M|57.8,77.9|Z|2025|N|Kill and loot mobs in the Shifting sands to get the Vitrified Sand.|S|
 C An Anomalous Shrine|QID|67093|M|59.35,75.02|Z|2025|QO|1;2|N|Kill the Ancient Timekeeper or sneak past him(Optional, as in if he isnt here, you don't have to wait for him) Inspect the anomalous mote by the doors.|
 C An Anomalous Shrine|QID|67093|M|59.49,71.86|Z|2025|QO|3|H|N|Everything stuns, so avoid it all. Work your way to the Cache of the timeless and loot it for the Echo of Duty.|
@@ -393,7 +393,7 @@ T Renown of the Dragon Isles|QID|71232|M|50.64,57.95|Z|2112|N|To Therazal.|
 C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones and guides to get acuainted with the other factions.|S!US|
 t Open Orientation|QID|72585|M|50.64,57.95|Z|2112|N|To Therazal.|
 A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal. She may also offer the quest Open Orientation, if you haven't done it on another character, take it too.|
-A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112|N|From Jyhanna.|; quest not offered, must have PRE? this is probably not the right one.
+A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112|N|From Jyhanna.|; this is probably not the right pre.
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|N|Find Lubbins in a ravine in the Petitioner's Concourse.|
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025|QO|2|H|N|Help Lubbins.|
 T Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|To Jyhanna.|
@@ -554,12 +554,12 @@ N Choose Ohn'ahran Plains|ACTIVE|72267|JUMP|Ohnahran_Plains|
 N Choose Azure Span|ACTIVE|72268|S!US|M|PLAYER|JUMP|The_Azure_Span|
 
 N The Remaining Glyphs|QID|99999|M|55.52,45.26|Z|2112|ACH|16578|N|If by some miracle, you still have glyphs to get, here are the rest of them in Thandraszus. These are areas you will visit in Max level questing/World Quests. Head up to the Seat of the Aspects to get some height for the journey.|RANK|3|
-F Algeth'era Glyph|QID|99999|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|N|Over the tower.|ACH|16102|RANK|3|
-F Veiled Ossuary Glyph|QID|99999|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|N|Inside the top level of the tower.|ACH|16105|RANK|3|
-F Algeth'ar Academy Glyph|QID|99999|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|N|This one is kinda hidden inside of the roof of the tower with a big crystal above the tower.|ACH|16104|RANK|3|
-F Vault of the Incarnates Glyph|QID|99999|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|ACH|16106|RANK|3|
-F Thaldraszus Apex Glyph|QID|99999|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|N|This is high above the mountain, the highest point.|ACH|16107|RANK|3|
-F Tyrhold Glyph|QID|99999|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|N|This one is on the mountain ledge.|ACH|16103|RANK|3|
+$ Algeth'era Glyph|QID|99999|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|N|Over the tower.|ACH|16102|RANK|3|
+$ Veiled Ossuary Glyph|QID|99999|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|N|Inside the top level of the tower.|ACH|16105|RANK|3|
+$ Algeth'ar Academy Glyph|QID|99999|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|N|This one is kinda hidden inside of the roof of the tower with a big crystal above the tower.|ACH|16104|RANK|3|
+$ Vault of the Incarnates Glyph|QID|99999|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|ACH|16106|RANK|3|
+$ Thaldraszus Apex Glyph|QID|99999|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|N|This is high above the mountain, the highest point.|ACH|16107|RANK|3|
+$ Tyrhold Glyph|QID|99999|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|N|This one is on the mountain ledge.|ACH|16103|RANK|3|
 
 ]]
 end)
