@@ -229,7 +229,7 @@ f Emberwatch|ACTIVE|65890|M|66.78,25.18|Z|2023;Ohn'ahran Plains|N|At Volebel.|
 T The Nelthazan Ruins|QID|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal.|
 A Tools of the Tirade|QID|65891|PRE|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
 A The Relic Inquiry|QID|65893|PRE|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
-C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Disrupt the Reclaimers however is convenient for you.|S|
+;C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Disrupt the Reclaimers however is convenient for you.|S|
 C The Relic Inquiry|QID|65893|M|64.06,15.56|Z|2023;Ohn'ahran Plains|N|Kill and loot mobs in the area to collect the Nelthazan Artifact Fragments.|S|
 C Tools of the Tirade|QID|65891|M|62.81,15.63|Z|2023;Ohn'ahran Plains|NC|N|Click the piles of Waygate Rubble to deploy the tools.|
 C The Relic Inquiry|QID|65893|M|64.06,15.56|Z|2023;Ohn'ahran Plains|N|Kill and loot mobs in the area to collect the Nelthazan Artifact Fragments.|US|
