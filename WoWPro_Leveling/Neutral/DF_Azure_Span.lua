@@ -583,6 +583,7 @@ R Cobalt Assembly|ACTIVE|72784|M|49.39,24.87|Z|2024|N|We are now going to see wh
 R Cobalt Assembly|ACTIVE|66244|M|39.92,61.54;49.39,24.87|CS|Z|2024|N|We're now headed to grab the Cobalt Assembly Glyph on our way to Thaldraszus.\n[color=FF0000]NOTE: [/color]Use one of the Arcane Stepping Stones to get to the top of the Azure Archives. This will give you some extra height considering the distance you are about travel.|EAB|RANK|-1|ACH|16064|
 
 $ Cobalt Assembly Glyph|QID|99999|N|On top of the highest tower. You may need to land on the lower tower to regen vigor first.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
+$ Dragonspring Summit Glyph|QID|99999|N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16061|
 T Supporting the Cobalt Assembly|QID|72784|M|49.03,23.15|Z|2024|N|To Venthi.|
 A Welcome to the Assembly|QID|70550|PRE|72784|M|49.03,23.15|Z|2024|N|From Venthi.|
 f Cobalt Assembly|ACTIVE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
