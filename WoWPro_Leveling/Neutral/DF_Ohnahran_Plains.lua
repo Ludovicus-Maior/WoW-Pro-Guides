@@ -564,7 +564,6 @@ A Enough Is Enough|QID|65904|PRE|65905&65937|M|24.45,63.04|Z|2023;Ohn'ahran Plai
 C Enough Is Enough|QID|65904|M|24.58,64.15|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Tell Theramus he needs to see this.|
 T Enough Is Enough|QID|65904|M|24.56,63.96|Z|2023;Ohn'ahran Plains|N|To Celina Crunchyleaves.|
 A In Memory of Ysera|QID|66011|PRE|65904|M|24.53,63.97|Z|2023;Ohn'ahran Plains|N|From Felina Starrunner.|
-A Ripsaw the Stalker|QID|69851|PRE|65904|M|25.66,64.38|Z|2023;Ohn'ahran Plains|N|From Felina Starrunner.|
 C In Memory of Ysera|QID|66011|M|24.94,65.89|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Speak to Theramus.|
 C In Memory of Ysera|QID|66011|M|24.94,65.89|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Tell Theramus you understand.||
 T In Memory of Ysera|QID|66011|M|24.94,65.89|Z|2023;Ohn'ahran Plains|N|To Theramus.|
