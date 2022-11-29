@@ -3,7 +3,7 @@ WoWPro:GuideName(guide,"Dracthyr Intro")
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideSort(guide, 19)
 WoWPro:GuideLevels(guide,58, 60)
-WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
+WoWPro:GuideNextGuide(guide, 'Dragonflight_Intro')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Zone Ids for this guide
@@ -19,7 +19,7 @@ C Awaken, Dracthyr|QID|64864|M|32.53,82.52|Z|2109; The War Creche|QO|4|H|N|You g
 T Awaken, Dracthyr|QID|64864|M|32.94,81.85|Z|2109; The War Creche|N|To Scalecommander Azurathel.|
 A Gear Up|QID|64865|PRE|64864|M|32.78,81.75|Z|2109; The War Creche|N|From Scalecommander Azurathel.|
 A Arcane Guardians|QID|64863|PRE|64864|M|33.01,80.70|Z|2109; The War Creche|N|From Dervishian.|
-$ Mysterious Wand|ACTIVE|64863|M|38.12,74.54|Z|2109; The War Creche|N|Grab the crystal aginst the wall, put it in the brazier. Loot the wand off the table for a blue magic buff.|BUFF|375607|
+$ Mysterious Wand|ACTIVE|64863|M|38.12,74.54|Z|2109; The War Creche|N|Grab the crystal against the wall, put it in the brazier. Loot the wand off the table for a blue magic buff.|BUFF|375607|
 C Arcane Guardians|QID|64863|M|35.82,61.27|Z|2109; The War Creche|QO|1|N|Guardians or Constructs slain.|S|
 C Gear Up|QID|64865|M|34.48,61.64|Z|2109; The War Creche|QO|3|H|N|Click the chest in the back of the room.|
 C Gear Up|QID|64865|M|38.84,51.90|Z|2109; The War Creche|QO|2|H|N|Click on the crate at the back of the room.|
@@ -38,12 +38,12 @@ C The Dragon at the Door|QID|64871|M|67.90,11.88|Z|2109; The War Creche|QO|2|N|L
 T The Dragon at the Door|QID|64871|M|44.35,61.36|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.|
 A The Fire Within|QID|64872|PRE|64871|M|44.35,61.36|Z|2118; The Forbidden Reach|N|From Scalecommander Cindrethresh.|
 A Arcane Intrusion|QID|65615|PRE|64871|M|44.19,61.35|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
-C Arcane Intrusion|QID|65615|M|45.06,54.08|Z|2118; The Forbidden Reach|QO|1|NC|N|Beacon investigated.\n\nBig blue beacon in front of you, you can glide down to investigate.\nRight click on the beacon|S|
+C Arcane Intrusion|QID|65615|M|45.06,54.08|Z|2118; The Forbidden Reach|QO|1|H|N|Beacon investigated.\n\nBig blue beacon in front of you, you can glide down to investigate.\nRight click on the beacon|S|
 C The Fire Within|QID|64872|M|43.82,61.15|Z|2118; The Forbidden Reach|QO|4|NC|N|Use Infusers to reset Fire Breath Cooldown (Optional).|
 C The Fire Within|QID|64872|M|42.67,56.80|Z|2118; The Forbidden Reach|QO|1|NC|N|Cast an Empowered I Fire Breath.\n\nEach section of the cast bar represents 1 rank.|
 C The Fire Within|QID|64872|M|46.70,58.19|Z|2118; The Forbidden Reach|QO|2|NC|N|Cast an Empowered II Fire Breath.\n\nEach section of the cast bar represents 1 rank.|
 C The Fire Within|QID|64872|M|46.94,58.07|Z|2118; The Forbidden Reach|QO|3|NC|N|Cast an Empowered III Fire Breath.\n\nEach section of the cast bar represents 1 rank.|
-C Arcane Intrusion|QID|65615|M|45.06,54.08|Z|2118; The Forbidden Reach|QO|1|NC|N|Beacon investigated.|US|
+C Arcane Intrusion|QID|65615|M|45.06,54.08|Z|2118; The Forbidden Reach|QO|1|H|N|Beacon investigated.|US|
 T Arcane Intrusion|QID|65615|PRE|64871|M|44.19,61.35|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
 T The Fire Within|QID|64872|M|44.43,61.39|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.|
 A Stretch Your Wings|QID|64873|PRE|64872|M|44.41,61.08|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
@@ -81,15 +81,15 @@ C Mercy First|QID|65307|M|24.59,14.04|Z|2118; The Forbidden Reach|QO|3;4|NC|N|Us
 C Mercy First|QID|65307|M|25.47,13.50|Z|2118; The Forbidden Reach|QO|2;4|NC|N|Use your Emerald Blossom to heal the Injured drakonid. You can use the infusers to reset your Emeral Blossom.|
 T Mercy First|QID|65307|M|20.10,18.87|Z|2118; The Forbidden Reach|N|To Scalecommander Viridia.|
 A Never Forgotten|QID|66324|PRE|65307|M|20.10,18.87|Z|2118; The Forbidden Reach|N|From Scalecommander Viridia.|
-C Never Forgotten|QID|66324|M|67.65,69.13|Z|2110|QO|2|H|U|191729|N|Go down the stair case into the den.\n\nRemember to use the extra action button on cooldown to keep toxicity low|
-C Never Forgotten|QID|66324|M|26.10,35.33|Z|2110|QO|3|H|U|191729|N|Survivors Rescued.\n\nRemember to use the extra action button on cooldown to keep toxicity low|
-C Never Forgotten|QID|66324|M|20.04,49.65|Z|2110|QO|1|H|U|191729|N|Horn signets collected.|
-T Never Forgotten|QID|66324|M|20.09,18.91|Z|2118; The Forbidden Reach|N|To Scalecommander Viridia.|
+C Never Forgotten|QID|66324|M|67.65,69.13|Z|2110|QO|2|H|EAB|N|Go down the stair case into the den.\n\nRemember to use the extra action button on cooldown to keep toxicity low|
+C Never Forgotten|QID|66324|M|26.10,35.33|Z|2110|QO|3|H|EAB|N|Survivors Rescued.\n\nRemember to use the extra action button on cooldown to keep toxicity low|
+C Never Forgotten|QID|66324|M|20.04,49.65|Z|2110|QO|1|H|EAB|N|Horn signets collected.|
+T Never Forgotten|QID|66324|M|20.09,18.91|Z|2118; The Forbidden Reach|EAB|N|To Scalecommander Viridia.\n[color=FF0000]NOTE: [/color]Use the EAB or just wait until you're teleported when the toxicity meter fills up.|
 A The Healing Wings|QID|65075|PRE|66324|M|20.09,18.91|Z|2118; The Forbidden Reach|N|From Scalecommander Viridia.|
 T The Healing Wings|QID|65075|M|44.31,60.99|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
 A Stormsunder Crater|QID|65045|PRE|65075|M|44.31,60.99|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
 r Sell and Repair|ACTIVE|65045|M|44.80,61.29|Z|2118; The Forbidden Reach|N|Sell and Repair at Tethalash.|
-A Cavalry Has Its Place|QID|72263|M|45.18,61.24|Z|2118; The Forbidden Reach|N|Turn in at Treysh.|
+A Cavalry Has Its Place|QID|72263|M|45.18,61.24|Z|2118; The Forbidden Reach|N|Turn in at Treysh.|NOAUTO|
 T Stormsunder Crater|QID|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|To Scalecommander Azurathel.|
 A Tangle with the Tarasek|QID|65049|PRE|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
 A Conjured Army|QID|65050|PRE|65045|M|70.37,64.47|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
@@ -147,12 +147,12 @@ T Aspectral Invitation|QID|66577|M|79.94,27.07|Z|84; Stormwind City|N|To Wrathio
 A An Iconic, Draconic Look|QID|65101|PRE|66577|M|79.94,27.07|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|
 C An Iconic, Draconic Look|QID|65101|M|79.94,27.07|Z|84; Stormwind City|QO|1|CHAT|N|Speak to Wrathion.|FACTION|Alliance|
 C An Iconic, Draconic Look|QID|65101|M|83.01,24.13|Z|84; Stormwind City|QO|2|NC|N|Learn about visage form.|FACTION|Alliance|
-C An Iconic, Draconic Look|QID|65101|M|82.77,24.02|Z|84; Stormwind City|QO|3|NC|N|Assume your mortal visage.|FACTION|Alliance|
+C An Iconic, Draconic Look|QID|65101|M|82.77,24.02|Z|84; Stormwind City|QO|3|NC|EAB|N|Assume your mortal visage.|FACTION|Alliance|
 T An Iconic, Draconic Look|QID|65101|M|82.66,24.00|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
 A I Believe You Can Fly|QID|32675|PRE|65101|M|82.66,24.00|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|
 A The Obsidian Warders|QID|72240|PRE|65101|M|80.00,27.10|Z|84; Stormwind City|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Expeditionary Coordination|QID|66589|PRE|65101|M|79.82,27.26|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
-C The Obsidian Warders|QID|72240|M|51.05,67.42|Z|84; Stormwind City|NC|N|Deliver the scalecommander's orders to Dervishian and the Obsidian Warders.|FACTION|Alliance|
+C The Obsidian Warders|QID|72240|M|51.05,67.42|Z|84; Stormwind City|NC|N|Deliver the scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|
 C Expeditionary Coordination|QID|66589|QO|1|M|64.11,37.40|Z|84; Stormwind City|N|Talk to Thaelin Darkanvil in Dwarven District.|CHAT|FACTION|Alliance|
 C Expeditionary Coordination|QID|66589|QO|3|M|63.36,70.02|Z|84; Stormwind City|N|Talk to Cataloger Wulfered in Trade District.|CHAT|FACTION|Alliance|
 C The Obsidian Warders|QID|72240|M|51.05,67.42|Z|84; Stormwind City|NC|N|Deliver the scalecommander's orders to Dervishian and the Obsidian Warders.|US|FACTION|Alliance|
