@@ -2616,7 +2616,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				local dfrenownName, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
 				local dfrenownFlip = false
                 local dfrenownMatch
-                local dfrenown = _G.C_MajorFactions.GetMajorFactionData(dfrenownID).renownLevel
+                local dfrenownData = _G.C_MajorFactions.GetMajorFactionData(dfrenownID)
+                local dfrenown = (dfrenownData and dfrenownData.renownLevel) or 0
 				if (dfrenownLevel:sub(1, 1) == "-") then
                     dfrenownLevel = dfrenownLevel:sub(2)
                     dfrenownFlip = true
