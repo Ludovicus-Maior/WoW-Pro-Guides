@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Renown stuff -- all based on someone showing up whereever you are
-A Call of the Plains|QID|71229|M|47.85,47.33|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you after you cross the bridge. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|DFREN|Maruuk Centaur;2503;3|
+A Call of the Plains|QID|71229|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you after you cross the bridge. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|DFREN|Maruuk Centaur;2503;4|
 A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you shortly after you leave the tomb.|RANK|2|DFREN|Maruuk Centaur;2503;5|
 A Dormant Discovery|QID|66595|M|PLAYER|N|Autoaccepted from item looted.|O|U|198538|DFREN|Dragonscale Exp;2507;7|;from item looted reletively soon after getting the rep.
 
@@ -78,14 +78,14 @@ T Thieving Gorlocs|QID|65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|To Khasar.|
 A The Ora-cull|QID|65953|PRE|65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
 A Release the Hounds|QID|65954|PRE|65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
 A A Centaur's Best Friend|QID|65955|PRE|65951&65950|M|80.56,30.74|Z|2023;Ohn'ahran Plains|N|From Khasar.|RANK|2|
-C A Centaur's Best Friend|QID|65955|M|80.59,30.74|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Free Khasar.|
-C Release the Hounds|QID|65954|M|80.63,30.71|Z|2023;Ohn'ahran Plains|QO|2<1|NC|N|Click the Bakar to collect his collar.|
+C A Centaur's Best Friend|QID|65955|M|80.59,30.74|Z|2023;Ohn'ahran Plains|QO|1|H|N|Free Khasar.|
+C Release the Hounds|QID|65954|M|80.63,30.71|Z|2023;Ohn'ahran Plains|QO|2<1|H|N|Click the Bakar to collect his collar.|
 C The Ora-cull|QID|65953|M|81.26,29.79|Z|2023;Ohn'ahran Plains|N|Kill Mudfin Shamans and loot their totems.|S|
-C Release the Hounds|QID|65954|M|81.18,29.75|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the cages to free the rest of the dogs.|S|
-C Release the Hounds|QID|65954|M|82.20,30.43|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click Sarnai to collect the second Collar.|
-C Release the Hounds|QID|65954|M|81.18,29.75|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the cages to free the rest of the dogs.|US|
+C Release the Hounds|QID|65954|M|81.18,29.75|Z|2023;Ohn'ahran Plains|QO|1|H|N|Click the cages to free the rest of the dogs.|S|
+C Release the Hounds|QID|65954|M|82.20,30.43|Z|2023;Ohn'ahran Plains|QO|2|H|N|Click Sarnai to collect the second Collar.|
+C Release the Hounds|QID|65954|M|81.18,29.75|Z|2023;Ohn'ahran Plains|QO|1|H|N|Click the cages to free the rest of the dogs.|US|
 C The Ora-cull|QID|65953|M|81.26,29.79|Z|2023;Ohn'ahran Plains|N|Kill more shamans to collect your remaining Mudfin Totems.|US|
-C A Centaur's Best Friend|QID|65955|M|83.38,32.41|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Baba's cage is down in a cave, click to free him too.|
+C A Centaur's Best Friend|QID|65955|M|83.38,32.41|Z|2023;Ohn'ahran Plains|QO|2|H|N|Baba's cage is down in a cave, click to free him too.|
 T The Ora-cull|QID|65953|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|To Khasar.|
 T Release the Hounds|QID|65954|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|To Khasar.|
 T A Centaur's Best Friend|QID|65955|M|83.42,32.34|Z|2023;Ohn'ahran Plains|N|To Khasar.|
@@ -108,14 +108,14 @@ C By Broken Road|QID|65940|M|70.02,37.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Arriv
 T By Broken Road|QID|65940|M|69.97,37.98|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Connection to Ohn'ahra|QID|65805|PRE|65940|M|69.97,37.98|Z|2023;Ohn'ahran Plains|N|From Ohn Seshteng.|
 C Connection to Ohn'ahra|QID|65805|M|68.69,41.49|Z|2023;Ohn'ahran Plains|QO|3|N|Kill Salamanthers until you loot a Heart.|S|
-C Connection to Ohn'ahra|QID|65805|M|70.42,39.68|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click River Reeds growing along the water's edge.|S|
-C Connection to Ohn'ahra|QID|65805|M|69.32,36.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click Jadethroat Mallards to collect their tailfeathers. Sometimes they will agro and you will need to kill and loot to get the feathers.|
-C Connection to Ohn'ahra|QID|65805|M|70.42,39.68|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click River Reeds growing along the water's edge.|US|
+C Connection to Ohn'ahra|QID|65805|M|70.42,39.68|Z|2023;Ohn'ahran Plains|QO|1|H|N|Click River Reeds growing along the water's edge.|S|
+C Connection to Ohn'ahra|QID|65805|M|69.32,36.88|Z|2023;Ohn'ahran Plains|QO|2|H|N|Click Jadethroat Mallards to collect their tailfeathers. Sometimes they will agro and you will need to kill and loot to get the feathers.|
+C Connection to Ohn'ahra|QID|65805|M|70.42,39.68|Z|2023;Ohn'ahran Plains|QO|1|H|N|Click River Reeds growing along the water's edge.|US|
 C Connection to Ohn'ahra|QID|65805|M|68.69,41.49|Z|2023;Ohn'ahran Plains|QO|3|N|Kill Salamanthers until you loot a Heart.|US|
 T Connection to Ohn'ahra|QID|65805|M|69.96,37.96|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Omens on the Wind|QID|66848|PRE|65805|M|69.96,37.96|Z|2023;Ohn'ahran Plains|N|From Ohn Seshteng.|
 C Omens on the Wind|QID|66848|M|69.96,37.96|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Tell Ohn Seshteng that you are ready.|
-C Omens on the Wind|QID|66848|M|69.88,37.64|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click on the outlines to place the Totems.|
+C Omens on the Wind|QID|66848|M|69.88,37.64|Z|2023;Ohn'ahran Plains|QO|2|H|N|Click on the outlines to place the Totems.|
 C Omens on the Wind|QID|66848|M|69.98,37.72|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Wait and watch while the Ritual completes.|
 T Omens on the Wind|QID|66848|M|69.96,37.96|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Maruukai|QID|65806|PRE|65805|M|70.01,38.01|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
@@ -132,23 +132,23 @@ A The Fields of Ferocity|QID|70444|PRE|65805|M|62.31,42.33|Z|2023;Ohn'ahran Plai
 C Bloodlines, Sweets, and Teerai|QID|70739|M|60.04,37.39|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask Elder Odgerel about Norman's plan.|
 C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.|
 C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.|
-A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruukai;2507;3|IZ|13764|;not available on my last run thru? (and level and renown are lower now)Renown 3
+A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruukai;2503;3|IZ|13764|;not available on my last run thru? (and level and renown are lower now)Renown 3
 T Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
 T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.|
 $ Ohn'ahra's Roost Glyph|QID|99999|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|N|Behind/Above the Maruukai Embassy, very high up the mountain, glyph is just above statue of Ohn'ara.|ACH|16054|
 T Clan Teerai|QID|66016|M|59.15,37.61|Z|2023;Ohn'ahran Plains|N|To Qariin Dotur.|
 A Honoring Our Ancestors|QID|66019|PRE|66016|M|59.15,37.61|Z|2023;Ohn'ahran Plains|N|From Qariin Dotur.|
-C Honoring Our Ancestors|QID|66019|M|59.37,37.78|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click to pick up the Raw Game Meat from the cart.|
-C Honoring Our Ancestors|QID|66019|M|59.12,37.56|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click to place it on the table.|
-C Honoring Our Ancestors|QID|66019|M|59.31,37.29|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Over to the oven to pick up the Jar of Spices.|
-C Honoring Our Ancestors|QID|66019|M|59.12,37.56|Z|2023;Ohn'ahran Plains|QO|4|NC|EAB|N|Back to the meat and use [color=33fff9]Extra Action Button [/color]to apply the spices.|
-C Honoring Our Ancestors|QID|66019|M|59.38,37.37|Z|2023;Ohn'ahran Plains|QO|5|NC|N|Go to table, next to the oven and click the Basket of Spices.|
-C Honoring Our Ancestors|QID|66019|M|59.12,37.56|Z|2023;Ohn'ahran Plains|QO|6|NC|EAB|N|Back to the meat and use [color=33fff9]Extra Action Button [/color]to apply more spices.|
-C Honoring Our Ancestors|QID|66019|M|59.06,37.88|Z|2023;Ohn'ahran Plains|QO|7|NC|N|Over to another cart to pick up the Pot of Spices.|
-C Honoring Our Ancestors|QID|66019|M|59.14,37.58|Z|2023;Ohn'ahran Plains|QO|8|NC|EAB|N|Back to the meat and use [color=33fff9]Extra Action Button [/color]to apply even more spices.|
-C Honoring Our Ancestors|QID|66019|M|59.14,37.58|Z|2023;Ohn'ahran Plains|QO|9|NC|N|Click to pick up the Spiced Game Meat.|
-C Honoring Our Ancestors|QID|66019|M|58.90,37.27|Z|2023;Ohn'ahran Plains|QO|10|NC|EAB|N|Over to the row of cooking fires and use[color=33fff9]Extra Action Button [/color]to cook the Spiced Game Meat.|
-C Honoring Our Ancestors|QID|66019|M|59.16,37.10|Z|2023;Ohn'ahran Plains|QO|11|NC|N|Place offering on table.|
+C Honoring Our Ancestors|QID|66019|M|59.37,37.78|Z|2023;Ohn'ahran Plains|QO|1|H|N|Click to pick up the Raw Game Meat from the cart.|
+C Honoring Our Ancestors|QID|66019|M|59.12,37.56|Z|2023;Ohn'ahran Plains|QO|2|H|N|Click to place it on the table.|
+C Honoring Our Ancestors|QID|66019|M|59.31,37.29|Z|2023;Ohn'ahran Plains|QO|3|H|N|Over to the oven to pick up the Jar of Spices.|
+C Honoring Our Ancestors|QID|66019|M|59.12,37.56|Z|2023;Ohn'ahran Plains|QO|4|H|EAB|N|Back to the meat and use [color=33fff9]Extra Action Button [/color]to apply the spices.|
+C Honoring Our Ancestors|QID|66019|M|59.38,37.37|Z|2023;Ohn'ahran Plains|QO|5|H|N|Go to table, next to the oven and click the Basket of Spices.|
+C Honoring Our Ancestors|QID|66019|M|59.12,37.56|Z|2023;Ohn'ahran Plains|QO|6|H|EAB|N|Back to the meat and use [color=33fff9]Extra Action Button [/color]to apply more spices.|
+C Honoring Our Ancestors|QID|66019|M|59.06,37.88|Z|2023;Ohn'ahran Plains|QO|7|H|N|Over to another cart to pick up the Pot of Spices.|
+C Honoring Our Ancestors|QID|66019|M|59.14,37.58|Z|2023;Ohn'ahran Plains|QO|8|H|EAB|N|Back to the meat and use [color=33fff9]Extra Action Button [/color]to apply even more spices.|
+C Honoring Our Ancestors|QID|66019|M|59.14,37.58|Z|2023;Ohn'ahran Plains|QO|9|H|N|Click to pick up the Spiced Game Meat.|
+C Honoring Our Ancestors|QID|66019|M|58.90,37.27|Z|2023;Ohn'ahran Plains|QO|10|H|EAB|N|Over to the row of cooking fires and use[color=33fff9]Extra Action Button [/color]to cook the Spiced Game Meat.|
+C Honoring Our Ancestors|QID|66019|M|59.16,37.10|Z|2023;Ohn'ahran Plains|QO|11|H|N|Place offering on table.|
 T Honoring Our Ancestors|QID|66019|M|59.15,37.61|Z|2023;Ohn'ahran Plains|N|To Qariin Dotur.|
 T Clan Nokhud|QID|66018|M|60.38,40.72|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Unwelcome Outsider|QID|66021|PRE|66018|M|60.30,40.75|Z|2023;Ohn'ahran Plains|N|From Guard Bahir.|
@@ -171,9 +171,9 @@ T Omens and Incense|QID|66020|M|62.99,33.66|Z|2023;Ohn'ahran Plains|N|To Ohn Ses
 A Clans of the Plains|QID|66969|PRE|66020|M|62.88,34.16|Z|2023;Ohn'ahran Plains|N|From Aru. (wait a moment while he runs in.)|
 C Shikaar Giver|QID|70730|M|63.54,41.06|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Provisioner Zara consulted.|
 C Bloodlines, Sweets, and Teerai|QID|70739|M|55.33,38.38|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Matchmaker encouraged.|
-C Bloodlines, Sweets, and Teerai|QID|70739|M|56.21,38.14|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Pick the Cirrus Flowers growing around the area.|S|
-C Shikaar Giver|QID|70730|M|57.10,42.55|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Arbhog's Horns.|T|Old Arbhog|
-C Bloodlines, Sweets, and Teerai|QID|70739|M|56.21,38.14|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Pick the Cirrus Flowers growing around the area.|US|
+C Bloodlines, Sweets, and Teerai|QID|70739|M|56.21,38.14|Z|2023;Ohn'ahran Plains|QO|4|H|N|Pick the Cirrus Flowers growing around the area.|S|
+K Old Arbhog|ACTIVE|70730|M|57.10,42.55|Z|2023;Ohn'ahran Plains|QO|4|L|200258|N|Kill Old Arbhog and loot his horns.|T|Old Arbhog|
+C Bloodlines, Sweets, and Teerai|QID|70739|M|56.21,38.14|Z|2023;Ohn'ahran Plains|QO|4|H|N|Pick the Cirrus Flowers growing around the area.|US|
 C Bloodlines, Sweets, and Teerai|QID|70739|M|56.74,38.78|Z|2023;Ohn'ahran Plains|QO|5|NC|N|Click the outline of the flower on the stone to make an offering.|
 T The Fields of Ferocity|QID|70444|M|53.15,37.28|Z|2023;Ohn'ahran Plains|N|To Gurgthock.|
 A The Field of Ferocity: Terror of the Swamp!|QID|66459|PRE|70444|M|53.15,37.28|Z|2023;Ohn'ahran Plains|N|From Gurgthock.|
@@ -231,7 +231,7 @@ A Tools of the Tirade|QID|65891|PRE|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|
 A The Relic Inquiry|QID|65893|PRE|65890|M|64.00,18.29|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
 C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Disrupt the Reclaimers however is convenient for you.|S|
 C The Relic Inquiry|QID|65893|M|64.06,15.56|Z|2023;Ohn'ahran Plains|N|Kill and loot mobs in the area to collect the Nelthazan Artifact Fragments.|S|
-C Tools of the Tirade|QID|65891|M|62.81,15.63|Z|2023;Ohn'ahran Plains|NC|N|Click the piles of Waygate Rubble to deploy the tools.|
+C Tools of the Tirade|QID|65891|M|62.81,15.63|Z|2023;Ohn'ahran Plains|H|N|Click the piles of Waygate Rubble to deploy the tools.|
 C The Relic Inquiry|QID|65893|M|64.06,15.56|Z|2023;Ohn'ahran Plains|N|Kill and loot mobs in the area to collect the Nelthazan Artifact Fragments.|US|
 T Tools of the Tirade|QID|65891|M|64.01,18.25|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal.|
 T The Relic Inquiry|QID|65893|M|64.01,18.25|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal.|
@@ -254,7 +254,7 @@ A After My Ohn Heart|QID|70721|PRE|70739&70730|M|62.81,35.45|Z|2023;Ohn'ahran Pl
 C After My Ohn Heart|QID|70721|M|63.61,40.48|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Hunter Narman.|
 
 R Pinewood Post|ACTIVE|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|You will want to be at full vigor to make the glide all the way over there.|
-T Trouble in the Pines|QID|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|To Sentinel Olekk.|
+T Trouble In The Pines|QID|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|To Sentinel Olekk.|
 A Tempests Abound|QID|66681|PRE|65837|M|81.02,58.92|Z|2023;Ohn'ahran Plains|N|From Sentinel Olekk.|
 A Counting Sheep|QID|66680|PRE|65837|M|81.01,58.97|Z|2023;Ohn'ahran Plains|N|From Scout Watu.|
 f Pinewood Post|ACTIVE|66680|M|80.45,57.91|Z|2023;Ohn'ahran Plains|N|At Flightmaster Nakeena.|
@@ -286,21 +286,21 @@ R Ohn'iri Springs|ACTIVE|66201|M|56.69,76.57|Z|2023;Ohn'ahran Plains|N|You'll pr
 f Ohn'iri Springs|ACTIVE|66201|M|56.69,76.57|Z|2023;Ohn'ahran Plains|N|At Flightmaster Huraq.|
 T A Disgruntled Initiate|QID|65906|M|56.24,75.95|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Sneaking Out|QID|65901|PRE|65906|M|56.24,75.95|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
-C Sneaking Out|QID|65901|QO|1|M|57.01,75.47;57.37,76.34;56.66,76.29|CN|Z|2023;Ohn'ahran Plains|N|Click on the 3 glowing outlines of totems around the camp.|
+C Sneaking Out|QID|65901|QO|1|M|57.01,75.47;57.37,76.34;56.66,76.29|CN|Z|2023;Ohn'ahran Plains|H|N|Click on the 3 glowing outlines of totems around the camp.|
 C Sneaking Out|QID|65901|QO|2|M|56.24,75.95|Z|2023;Ohn'ahran Plains|CHAT|N|Back to Radiya to tell her the Totems are placed.|
 T Sneaking Out|QID|65901|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Favorite Fruit|QID|65907|PRE|65901|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
-C Favorite Fruit|QID|65907|QO|1|M|53.5,71.05|Z|2023;Ohn'ahran Plains|NC|N|Click to gather Bushruit from the glowing bushes.|
+C Favorite Fruit|QID|65907|QO|1|M|53.5,71.05|Z|2023;Ohn'ahran Plains|H|N|Click to gather Bushruit from the glowing bushes.|
 C Favorite Fruit|QID|65907|QO|2|M|54.47,63.38|Z|2023;Ohn'ahran Plains|NC|N|Target the Mudstompers and then use the fruit to feed them. (sorry target button only autotargets the calves|U|192743|T|Mudstomper|
 T Favorite Fruit|QID|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A A Promise Is A Promise|QID|65770|PRE|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C A Promise Is A Promise|QID|65770|QO|1|M|54.79,66.68|Z|2023;Ohn'ahran Plains|CHAT|N|Promise her you will keep her secret.|
 C A Promise Is A Promise|QID|65770|QO|2|M|52.60,64.20|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing.|
 T A Promise Is A Promise|QID|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|To Godoloto.|
-A More Adventure than Expected|QID|65761|PRE|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|From Godoloto.|RANK|2|
-C More Adventure than Expected|QID|65761|QO|2|M|51.09,62.19|Z|2023;Ohn'ahran Plains|CHAT|N|You have followed Godoloto, you can optionally ask her for a buff too, if so tell Godoloto you are ready.|
-C More Adventure than Expected|QID|65761|QO|3|M|47.51,54.11|Z|2023;Ohn'ahran Plains|NC|N|Congrats you found Radiya.|
-T More Adventure than Expected|QID|65761|M|47.51,54.11|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
+A More Adventure Than Expected|QID|65761|PRE|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|From Godoloto.|RANK|2|
+C More Adventure Than Expected|QID|65761|QO|2|M|51.09,62.19|Z|2023;Ohn'ahran Plains|CHAT|N|You have followed Godoloto, you can optionally ask her for a buff too, if so tell Godoloto you are ready.|
+C More Adventure Than Expected|QID|65761|QO|3|M|47.51,54.11|Z|2023;Ohn'ahran Plains|NC|N|Congrats you found Radiya.|
+T More Adventure Than Expected|QID|65761|M|47.51,54.11|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Stealing Its Thunder|QID|65711|PRE|65761|M|47.51,54.11|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C Stealing Its Thunder|QID|65711|QO|1|M|47.31,56.60|Z|2023;Ohn'ahran Plains|N|Into the cave to kill the Storm Extractor holding Lizi hostage.|
 C Stealing Its Thunder|QID|65711|QO|2|M|48.34,56.62|Z|2023;Ohn'ahran Plains|CHAT|N|Offer Lizi a Bushfruit.|
