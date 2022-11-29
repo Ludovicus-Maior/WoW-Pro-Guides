@@ -94,13 +94,13 @@ T Don't Be So Shellfish|QID|66106|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Quack For Help|QID|66196|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
 T A Sledgehammer of a Solution|QID|66108|M|74.41,42.14|Z|2022|N|To Ecologist Iskha.|
 ;A Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autoaccepted.|IZ|13723|RANK|2|LVL|-70|
-;C Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Stick around to do the bonus objective if you want.|S!US|
+C Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Stick around to do the bonus objective if you want.|S!US|
 C Time for a Reckoning|QID|65991|M|66.58,34.57|Z|2022|NC|N|Wrathion met at Scalecracker Keep.|
 T Time for a Reckoning|QID|65991|M|66.36,34.99|Z|2022|N|To Wrathion.|
 A Killjoy|QID|65993|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 A Blacktalon Intel|QID|65992|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 ;A Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
-;C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Slay Dragonhunter Igordan.|S!US|T|Dragonhunter Igordan|
+C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Slay Dragonhunter Igordan.|S!US|T|Dragonhunter Igordan|RARE|
 C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Consult Talonstalker Kavia.|T|Talonstalker Kavia|
 C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Consult Right.|T|Right|
 K Meatgrinder Sotok|ACTIVE|65993|QO|1|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok when convenient.|S|T|Meatgrinder Sotok|
@@ -130,7 +130,7 @@ C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|H|N|Bliz has convenientl
 C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Find the Infused dragon eggs. Kill the nearly helpless whelps.|S|
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Slay Primalist forces.|S|
 ;A Firava the Rekindler|QID|70648|PRE|65997|M|55.60,24.84|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
-;C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Slay Firava the Rekindler.|T|Firava the Rekindler|
+C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Slay Firava the Rekindler.|T|Firava the Rekindler|RARE|
 ;t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Bonus Objective - Autocompleted.|
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|N|Finish up slaying Primalist forces.|US|
 C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|NC|N|Find the Books.|US|
@@ -356,9 +356,9 @@ C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|2|NC|N|Report to Commande
 T The Primary Threat|QID|66116|M|59.41,75.89|Z|2022|N|To Commander Lethanak.|
 ;A Clear the Battlefield|QID|66117|PRE|66116|M|59.41,75.89|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|LVL|-70|
 A Basalt Assault|QID|66118|PRE|66116|M|59.41,75.89|Z|2022|N|From Commander Lethanak.|
-;C Clear the Battlefield|QID|66117|PRE|66116|M|59.41,75.89|Z|2022|N|Kill other stuff in the area if you want to also do the bonus objective.|S|
+C Clear the Battlefield|QID|66117|M|59.41,75.89|Z|2022|N|Kill other stuff in the area if you want to also do the bonus objective.|S!US||
 ;A Terillod the Devout|QID|70751|M|60.59,83.67|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
-;K Terillod the Devout|ACTIVE|70751|QO|1|M|60.59,83.67|Z|2022|T|Terillod the Devout|
+K Terillod the Devout|ACTIVE|70751|QO|1|M|60.59,83.67|Z|2022|T|Terillod the Devout|S!US|RARE|
 ;t Terillod the Devout|ACTIVE|70751|M|60.59,83.67|Z|2022|N|Bonus Objective - Auto turned in.|
 C Basalt Assault|QID|66118|M|60.99,79.21|Z|2022|N|Slay Enraged Cliffs.|
 T Basalt Assault|QID|66118|M|59.41,75.89|Z|2022|N|To Commander Lethanak.|
@@ -368,7 +368,7 @@ A Ruby Life Pools: Primalist Invasion|QID|66119|PRE|66118|M|59.96,75.96|N|Dungeo
 C Proto-Fight|QID|66122|M|54.29,81.38|Z|2022|QO|1|NC|U|192436|N|Use the Ruby Harpoon on a proto-dragon (Optional).|
 C Proto-Fight|QID|66122|M|56.13,80.88|Z|2022|QO|2|U|192436|N|Slay Proto-dragons.|S|
 ;A Klozicc the Ascended|QID|66960|PRE|66118|M|54.90,82.23|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|
-;K Klozicc the Ascended|ACTIVE|66960|QO|1|M|54.90,82.23|Z|2022|T|Klozicc the Ascended|S!US|
+K Klozicc the Ascended|ACTIVE|66960|QO|1|M|54.90,82.23|Z|2022|T|Klozicc the Ascended|S!US|RARE|
 ;t Klozicc the Ascended|QID|66960|M|54.90,82.23|Z|2022|N|Bonus Objective - Auto turned in.|
 C Egg Evac|QID|66121|M|56.10,81.30|Z|2022|QO|1|H|N|Rescue Bronze Egg.|
 C Egg Evac|QID|66121|M|54.98,81.01|Z|2022|QO|4|H|N|Rescue Ruby Egg.|
@@ -399,7 +399,7 @@ C Exeunt, Triumphant|QID|66124|M|46.13,78.51|Z|2022|QO|1|CHAT|N|Check in with Ma
 T Exeunt, Triumphant|QID|66124|M|46.15,78.52|Z|2022|N|To Majordomo Selistra.|
 A Wrathion Awaits|QID|66079|PRE|66124|M|46.09,78.28|Z|2022|N|From Alexstrasza the Life-Binder.|
 ;A Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|LVL|-70|
-;C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Kill stuff as you go about the other objectives.|S!US|
+C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Kill stuff as you go about the other objectives.|S!US|
 C Amateur Protography|QID|66524|M|45.11,77.35|Z|2022|QO|2|NC|U|192465|N|Photograph an Optimistic Whelp learning to fly.|
 C Amateur Protography|QID|66524|M|44.07,78.04|Z|2022|QO|3|NC|U|192465|N|Photograph a Hungry Proto-Drake catching a fish.|
 C Behavior Analysis "Homework"|QID|69897|M|42.56,79.34|Z|2022|QO|1<1|H|N|Click the Sleeping Whelp to pet it.|
@@ -420,9 +420,9 @@ C Professional Protography|QID|66527|M|38.94,83.40|Z|2022|QO|1|NC|U|192465|N|Jum
 C Professional Protography|QID|66527|M|38.77,84.05|Z|2022|QO|2|NC|U|192465|N|Step into the spotlight, move forward, next spotlight, then the next one, finally Wulferd is ready for you to take the picture.|
 T Professional Protography|QID|66527|M|39.02,83.24|Z|2022|N|To Cataloger Wulferd.|
 A King Without a Crown|QID|66528|PRE|66527|M|39.09,83.27|Z|2022|N|From Dervishian.|RANK|2|
-C King Without a Crown|QID|66528|M|39.40,84.01|Z|2022|QO|3|NC|N|Investigate the Cracked Rib.|
-C King Without a Crown|QID|66528|M|39.12,83.98|Z|2022|QO|1|NC|N|Investigate the Severed Spine.|
-C King Without a Crown|QID|66528|M|38.83,83.52|Z|2022|QO|2|NC|N|Investigate the Charred Foreclaw.|
+C King Without a Crown|QID|66528|M|39.40,84.01|Z|2022|QO|3|I|N|Investigate the Cracked Rib.|
+C King Without a Crown|QID|66528|M|39.12,83.98|Z|2022|QO|1|I|N|Investigate the Severed Spine.|
+C King Without a Crown|QID|66528|M|38.83,83.52|Z|2022|QO|2|I|N|Investigate the Charred Foreclaw.|
 T King Without a Crown|QID|66528|M|39.08,83.27|Z|2022|N|To Dervishian.|
 A A Thousand Words|QID|66529|PRE|66528|M|39.08,83.27|Z|2022|N|From Dervishian.|RANK|2|
 C A Thousand Words|QID|66529|M|38.75,83.61|Z|2022|NC|U|192465|N|Photograph Dervishian near the Proto-Dragon Skeleton.|
