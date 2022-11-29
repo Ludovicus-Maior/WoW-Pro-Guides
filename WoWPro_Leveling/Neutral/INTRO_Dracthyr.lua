@@ -3,7 +3,7 @@ WoWPro:GuideName(guide,"Dracthyr Intro")
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideSort(guide, 19)
 WoWPro:GuideLevels(guide,58, 60)
-WoWPro:GuideNextGuide(guide, 'Dragonflight_Intro')
+WoWPro:GuideNextGuide(guide, 'Dragonflight Intro')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Zone Ids for this guide
