@@ -2612,13 +2612,20 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				end
 			end
 
-			if WoWPro.dfrenown and WoWPro.dfrenown[guideIndex] and WoWPro.RETAIL then
-				local dfrenownName, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
-				local dfrenownFlip = false
+            if WoWPro.dfrenown and WoWPro.dfrenown[guideIndex] and WoWPro.RETAIL then
+                local dfrenownName, dfrenownID, dfrenownLevel = (";"):split(WoWPro.dfrenown[guideIndex])
+                if (not dfrenownName) or (not dfrenownID) or (not dfrenownLevel) then
+                    WoWPro.why[guideIndex] = ("NextStep(): Malformed DFREN¦%s¦ tag in step [%s:%s]."):format(WoWPro.dfrenown[guideIndex], stepAction, step)
+                    WoWPro:Warning(WoWPro.why[guideIndex])
+                    skip = true
+                    break
+                end
+
+                local dfrenownFlip = false
                 local dfrenownMatch
                 local dfrenownData = _G.C_MajorFactions.GetMajorFactionData(dfrenownID)
                 local dfrenown = (dfrenownData and dfrenownData.renownLevel) or 0
-				if (dfrenownLevel:sub(1, 1) == "-") then
+                if (dfrenownLevel:sub(1, 1) == "-") then
                     dfrenownLevel = dfrenownLevel:sub(2)
                     dfrenownFlip = true
                 end
