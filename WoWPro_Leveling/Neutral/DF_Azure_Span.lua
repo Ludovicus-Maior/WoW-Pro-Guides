@@ -225,7 +225,7 @@ $ Creektooth Den Glyph|QID|99999|M|26.76,31.64|Z|2024;The Azure Plains!Dragonfli
 T Urgent Action Required|QID|66026|M|20.60,35.67|Z|2024|N|To Brena.|
 A Breaching the Brackenhide|QID|65838|PRE|66026|M|20.54,35.68|Z|2024|N|From Kalecgos.|
 ;A Stop the Spread|QID|65841|PRE|66026|M|20.01,35.97|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|LVL|-70|
-;C Stop the Spread|QID|65841|M|20.01,35.97|Z|2024|N|Bonus Objective - Destroy the totems and kill gnolls, dont worry about getting it done right away, there are several quests here.|S|
+C Stop the Spread|QID|65841|M|20.01,35.97|Z|2024|N|Bonus Objective - Destroy the totems and kill gnolls, dont worry about getting it done right away, there are several quests here.|S|
 C Breaching the Brackenhide|QID|65838|M|18.89,36.97|Z|2024|QO|2|CHAT|N|Click the root, and then the chat option to cut the root.|
 C Breaching the Brackenhide|QID|65838|M|17.54,36.97|Z|2024|QO|3|CHAT|N|Click the root, and then the chat option to cut the root.|
 C Breaching the Brackenhide|QID|65838|M|18.43,34.79|Z|2024|QO|1|CHAT|N|Click the root, and then the chat option to cut the root.|
@@ -252,7 +252,7 @@ A Realignment|QID|65847|PRE|65848|M|15.30,39.43|Z|2024|N|From Kalecgos.|
 C Realignment|QID|65847|M|15.36,39.50|Z|2024|QO|1|H|N|Click the ley crystal to focus the ley line.|
 C Realignment|QID|65847|M|15.51,39.30;15.30,39.12;15.06,39.53|CN|Z|2024|QO|2|H|N|Click on the mounds of decay in the cave.|
 $ Brackenhide Hollow Glyph|QID|99999|M|10.40,35.89|Z|2024;The Azure Plains!Dragonflight|N|Mount up and get the glyph near the top of the highest tree|ACH|16068|
-;C Stop the Spread|QID|65841|M|20.01,35.97|Z|2024|N|Bonus Objective - Now is the time to finish this if you wanted to.|US|
+C Stop the Spread|QID|65841|M|20.01,35.97|Z|2024|N|Bonus Objective - Now is the time to finish this if you wanted to.|US|
 ;t Stop the Spread|QID|65841|M|16.64,38.18|Z|2024|N|Bonus Objective - Autocompleted.|
 T Realignment|QID|65847|M|16.10,41.39|Z|2024|N|To Kalecgos.|
 A To Iskaara|QID|65849|PRE|65847|M|16.08,41.44|Z|2024|N|From Brena.|
@@ -364,8 +364,8 @@ T To the Mountain|QID|65887|M|70.02,35.24|Z|2024|N|To Kalecgos.\n[color=FF0000]N
 A Primal Offensive|QID|65943|PRE|65887|M|70.02,35.24|Z|2024|N|From Kalecgos.|
 A Lava Burst|QID|65944|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.\n[color=FF0000]NOTE: [/color]He'll appear after you accept Primal Offensive.|
 A Elemental Unfocus|QID|66647|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
-; A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
-;K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|
+;A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
+K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|RARE|
 ;t Summoned Destroyer|QID|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Autocompleted.|
 C Primal Offensive|QID|65943|M|73.33,38.07|Z|2024|N|Kill Primalist forces as you head deaper into the cavern.|S|
 C Lava Burst|QID|65944|QO|1<1|M|72.25,37.28|Z|2024|H|N|Click on first Lava orb.|
@@ -477,7 +477,7 @@ T Field Medic 101|QID|66709|M|59.27,39.72|Z|2024|N|To Old Grimtusk.|
 A The Extraction|QID|66715|PRE|66709|M|59.27,39.72|Z|2024|N|From Old Grimtusk.|
 C The Extraction|QID|66715|M|58.24,41.93|Z|2024|NC|N|Walk into the gnoll camp..|
 ;A Gnolls Must Die|QID|66718|M|58.41,42.01|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|LVL|-70|
-;C Gnolls Must Die|QID|66718|M|57.89,44.99|Z|2024|QO|1|N|Kill gnolls while you do other stuff, as if you had a choice.|S|
+C Gnolls Must Die|QID|66718|M|57.89,44.99|Z|2024|QO|1|N|Kill gnolls while you do other stuff, as if you had a choice.|S|
 T The Extraction|QID|66715|M|58.35,41.99|Z|2024|N|To Frostbite.|
 A Snowball Effect|QID|66703|PRE|66715|M|58.35,41.99|Z|2024|N|From Frostbite.|
 K Snoll the Icebreaker|ACTIVE|66718|M|57.89,44.99|Z|2024|QO|2|N|Snoll the Icebreaker slain.|
@@ -485,7 +485,7 @@ C Snowball Effect|QID|66703|M|57.66,41.59|Z|2024|N|Kill and loot the shamans to 
 T Snowball Effect|QID|66703|M|58.36,42.05|Z|2024|N|To Frostbite.|
 A Frostbite: Causes and Symptoms|QID|67050|PRE|66703|M|58.36,42.05|Z|2024|N|From Frostbite.|
 C Frostbite: Causes and Symptoms|QID|67050|M|58.27,41.96|Z|2024|QO|1|NC|N|Click on the glowy outlines to place the Snowhide totems.|
-;C Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|QO|1|NC|N|Time to finish up disrupting if you plan to.|US|
+C Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|QO|1|NC|N|Time to finish up disrupting if you plan to.|US|
 ;t Gnolls Must Die|QID|66718|M|57.60,41.47|Z|2024|N|Bonus Objective - Autocompleted.|
 C Frostbite: Causes and Symptoms|QID|67050|M|58.48,40.52|Z|2024|QO|2|CHAT|N|There is no chat option, but you click on Old Grimtusk like you were going to chat to get the quest update.|
 T Frostbite: Causes and Symptoms|QID|67050|M|58.48,40.52|Z|2024|N|To Old Grimtusk.|

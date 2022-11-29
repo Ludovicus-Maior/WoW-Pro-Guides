@@ -30,7 +30,7 @@ A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you
 ;F Thaldraszus Apex|N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|ACH|16107|
 
 ;A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|IZ|13813|
-;C Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|This comment is really just here to see if RARE tag will suppress the comment!|IZ|13813|
+K Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Kill it or not as you choose.|IZ|13813|
 $ South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower|ACH|16100|
 f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|
 f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2112|N|At Aluri.|
@@ -126,6 +126,8 @@ A Lashing Out|QID|66137|PRE|66135&66278|M|37.86,75.48|Z|2025|N|From Gryrmpech.|
 A New Kid on the Clock|QID|66279|PRE|66135&66278|M|37.86,75.48|Z|2025|N|From Gryrmpech.|
 C New Kid on the Clock|QID|66279|M|37.88,75.47|Z|2025|QO|1|H|N|Click Basilton so he can sniff your hand.|
 ;A Liskron the Dazzling|QID|72116|M|37.06,74.02|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
+K Liskron the Dazzling|ACTIVE|72116|M|37.06,74.02|Z|2025|N|Bonus Objective - Kill it or not as you choose.|RARE|
+;t Liskron the Dazzling|QID|72116|M|37.06,74.02|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
 C New Kid on the Clock|QID|66279|M|35.24,72.64|Z|2025|QO|2|NC|N|Take the pocket watch to Orizmu in the Gardens.|
 T New Kid on the Clock|QID|66279|M|35.24,72.64|Z|2025|N|To Orizmu.|
 A Like Sands Through the Hourglass|QID|66138|PRE|66279|M|35.22,72.63|Z|2025|N|From Orizmu.|
@@ -251,7 +253,7 @@ T Haven't Got Time For the Pain|QID|70136|M|54.96,75.64|Z|2025|N|To Siaszerathel
 A Time in a Bottle|QID|66082|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
 A Time is Running Out|QID|66081|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
 ;A Henlare|QID|69873|M|55.39,77.38|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
-;K Henlare|ACTIVE|69873|M|55.39,77.38|Z|2025|N|Henlare is flying just above a flat mesa like place in the midle of the area.|RARE|
+K Henlare|ACTIVE|69873|M|55.39,77.38|Z|2025|N|Henlare is flying just above a flat mesa like place in the midle of the area.|RARE|
 C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Kill mobs that have glowing balls of energy and these are released when they die, run thru the energy orgs to collect them.|S|
 C Time is Running Out|QID|66081|M|55.07,76.73|Z|2025|H|N|Pick up the Blue floating Temporal Collector.|
 C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Keep killing and collecting energy until you get enough.|US|

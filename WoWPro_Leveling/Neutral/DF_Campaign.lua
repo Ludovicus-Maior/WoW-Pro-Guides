@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Dragonflight Campaign', 'Leveling', 'Campaign', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('Dragonflight Campaign', 'Leveling', 'Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,"DF Campaign")
 WoWPro:GuideLevels(guide,70, 70, 70)
