@@ -40,7 +40,7 @@ T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84|N|To Wrathion.|FACTION|Alli
 T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1|N|To Ebyssian.|FACTION|Horde|
 ;A The Call of the Isles|QID|70197^70198|M|PLAYER|N|Autoaccepted - UI Pushed.|
 t The Call of the Isles|QID|70197|M|22.71,55.66|N|To Toddy Whiskers.|FACTION|Alliance|
-t The Call of the Isles|QID|70198|M|PLAYER|N|To Naleidea Rivergleam.|FACTION|Horde|
+t The Call of the Isles|QID|70198|M|55.81,12.67|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
 A To the Dragon Isles!|QID|67700|PRE|70197|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
 A To the Dragon Isles!|QID|65444|PRE|70198|M|22.67,55.72|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|84|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks. \n\n[color=FF0000](NOTE: [/color] , the boat to Boralas is also a Kul Tiran Style boat and docks here too, get on the right one.)|FACTION|Alliance|
