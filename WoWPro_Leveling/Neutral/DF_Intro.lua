@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide,"Dragonflight Intro")
 WoWPro:GuideLevels(guide,60, 60, 60)
 WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
+WoWPro:GuideQuestTriggers(guide, 65435, 65436, 70197, 70198)
 WoWPro:GuideSteps(guide, function()
 return [[
 
