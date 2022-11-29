@@ -1,3 +1,24 @@
+# Release 2022.11.29.A
+## Bug Fixes
+* Bug with badly formed DFREN causing Lua errors
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* Leveling: Azure Span, Campaign, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, Dracthyr INTRO
+
+### Classic
+* No Classic guides were harmed during this release
+
+### WotLK
+* No Wrath guides were harmed during this release
+
+### Professions
+* No Professions guides were harmed during this release
+
 # Release 2022.11.28.A
 ## Bug Fixes
 * Updated to HereBeDragons 2.12
