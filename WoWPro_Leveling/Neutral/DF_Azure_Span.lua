@@ -106,9 +106,9 @@ C The Gleamfisher|QID|66724|QO|2|M|45.48,54.19|Z|2024|H|N|Click on the offering 
 T The Gleamfisher|QID|66724|M|45.41,54.18|Z|2024|N|To Ruriq.|
 A Ice Breakers|QID|65929|PRE|66724|M|45.41,54.18|Z|2024|N|From Ruriq.|
 A Wayward Winds|QID|65928|PRE|66724|M|45.52,54.18|Z|2024|N|From Kauj.|
-C Wayward Winds|QID|65928|M|46.28,57.72|Z|2024|N|Kill and loot the Restless Wind.|
-C Ice Breakers|QID|65929|M|46.75,57.56|Z|2024|NC|N|Click the Freezing Water.|
-C Wayward Winds|QID|65928|M|45.97,56.15|Z|2024|N|Finish up collecting restless motes by killing and looting the Restless Winds.|
+C Wayward Winds|QID|65928|M|46.28,57.72|Z|2024|N|Kill and loot the Restless Wind.|S|
+C Ice Breakers|QID|65929|M|46.75,57.56|Z|2024|H|N|Click the Freezing Water.|
+C Wayward Winds|QID|65928|M|45.97,56.15|Z|2024|N|Finish up collecting restless motes by killing and looting the Restless Winds.|US|
 T Ice Breakers|QID|65929|M|45.41,54.18|Z|2024|N|To Ruriq.|
 T Wayward Winds|QID|65928|M|45.52,54.18|Z|2024|N|To Kauj.|
 A A Wrestle of Wind and Water|QID|65930|PRE|65928&65929|M|45.52,54.18|Z|2024|N|From Kauj.|
@@ -116,12 +116,13 @@ C A Wrestle of Wind and Water|QID|65930|M|45.59,57.63|Z|2024|N|The spirits can b
 T A Wrestle of Wind and Water|QID|65930|M|44.99,54.04|Z|2024|N|To Ruriq.|
 A Ruriq's River Rapids Ride|QID|66155|PRE|65930|M|44.99,54.04|Z|2024|N|From Ruriq.|
 C Ruriq's River Rapids Ride|QID|66155|M|44.92,54.09|V|N|Hop in the boat, UI Changes to let you catch fish as you go down the river.|
-T Ruriq's River Rapids Ride|QID|66155|M|34.26,53.33|Z|2024|N|To Ruriq.|
-R Azure Archives|ACTIVE|65688|M|40.92,55.01|CC|Z|2024|N|Fly back up the river or ask Ruriq for a ride to continue your trip to the Azure Archives.|
+T Ruriq's River Rapids Ride|QID|66155|M|44.99,54.04|Z|2024|N|To Ruriq.|
+R Azure Archives|ACTIVE|65688|M|40.92,55.01|CC|Z|2024|N|Fly back up the river to the Azure Archives.|
+
 
 T Meeting Kalecgos|QID|65688|M|40.92,55.01|Z|2024|N|To Kalecgos.|
 A The Many Images of Kalecgos|QID|65689|PRE|65688|M|40.92,55.01|Z|2024|N|From Kalecgos.|
-C The Many Images of Kalecgos|QID|65689|M|41.13,55.38|Z|2024|QO|1|NC|N|Click the crystal pylon to be transported to the Azure Archives.|
+C The Many Images of Kalecgos|QID|65689|M|41.13,55.38|Z|2024|QO|1|H|N|Click the crystal pylon to be transported to the Azure Archives.|
 T The Many Images of Kalecgos|QID|65689|M|40.74,59.04|Z|2024|N|To Kalecgos.|
 A Driven Mad|QID|65702|PRE|65689|M|40.74,59.04|Z|2024|N|From Kalecgos.|
 A Arcane Pruning|QID|65709|PRE|65689|M|40.69,59.10|Z|2024|N|From Kalecgos.|
@@ -159,28 +160,28 @@ A Suspiciously Quiet|QID|69904|PRE|65855|M|46.65,40.16|Z|2024|N|From Noriko the 
 C Suspiciously Quiet|QID|69904|M|47.67,40.25|Z|2024|NC|U|192471|N|Click on Apprentice Scrumpy to "find" him.|
 T Suspiciously Quiet|QID|69904|M|47.67,40.25|Z|2024|N|To Apprentice Scrumpy.|
 A Ways of Seeing|QID|66500|PRE|69904|M|47.67,40.25|Z|2024|N|From Apprentice Scrumpy.|RANK|2|
-C Ways of Seeing|QID|66500|QO|1|M|47.77,39.98|Z|2024|NC|N|Click on the Lingering Image to investigate the mosiac.|
-C Ways of Seeing|QID|66500|QO|2|M|47.11,40.36|Z|2024|NC|N|Click on the Lingering Image to investigate the tower.|
-C Ways of Seeing|QID|66500|QO|3|M|46.03,40.99|Z|2024|NC|N|Click on the Lingering Image to investigate the workshop.|
+C Ways of Seeing|QID|66500|QO|1|M|47.77,39.98|Z|2024|H|N|Click on the Lingering Image to investigate the mosiac.|
+C Ways of Seeing|QID|66500|QO|2|M|47.11,40.36|Z|2024|H|N|Click on the Lingering Image to investigate the tower.|
+C Ways of Seeing|QID|66500|QO|3|M|46.03,40.99|Z|2024|H|N|Click on the Lingering Image to investigate the workshop.|
 T Power Procurement|QID|66582|M|45.93,40.66|Z|2024|N|To Delandra.|
 A A Gateway to Somewhere|QID|70154|PRE|66582|M|45.93,40.66|N|From Delandra. Unless you can't stand secrets, wait to take her portal till later, we will be back.|
 A Send It!|QID|66493|PRE|69904|M|45.99,38.78|Z|2024|N|From Supply Portal.|
 C Send It!|QID|66493|QO|1|M|45.99,38.78|Z|2024|CHAT|N|Tell the portal you are ready to deliver mail.|
 C Send It!|QID|66493|QO|2|M|45.99,38.78|Z|2024|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color] to deliver mail when you see apprentices about town.|S|
-C Ways of Seeing|QID|66500|QO|4|M|46.01,38.62|Z|2024|NC|N|The last Lingering Image is on the backside of the piller right behind the supply portal.|
+C Ways of Seeing|QID|66500|QO|4|M|46.01,38.62|Z|2024|H|N|The last Lingering Image is on the backside of the piller right behind the supply portal.|
 C Ask the Locals|QID|66699|M|46.76,38.60|Z|2024|QO|1|CHAT|N|Ask Korrikunit if he knows where any ley lines are.|
 C Ask the Locals|QID|66699|M|46.33,38.15|Z|2024|QO|2|CHAT|N|Ask Jokomuupat about pockets of magic in the area.|
 C Ask the Locals|QID|66699|M|45.72,38.84|Z|2024|QO|3|CHAT|N|Ask Babunituk about purple crystals.|
 T Ask the Locals|QID|66699|M|45.72,38.84|Z|2024|N|To Babunituk.|
 A Catch the Caravan|QID|65864|PRE|66699|M|45.72,38.84|Z|2024|N|From Babunituk.|
 T Ways of Seeing|QID|66500|M|47.67,40.25|Z|2024|N|To Apprentice Scrumpy.|
-A For the Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|From Noriko the All-Remembering.|RANK|2|
-C For the Love of Others|QID|66503|QO|1|M|46.65,40.16|Z|2024|CHAT|N|Ask Noriko to take you to the top.|
-C For the Love of Others|QID|66503|QO|2|M|47.14,40.29|Z|2024|NC|N|Click on Divo's remains (skull on the floor).|
-C For the Love of Others|QID|66503|QO|3|M|47.14,40.29|Z|2024|N|Ask Divo why he can't rest?. After that Echo of Loss spawns on the floor below you, jump/fly down and kill it.|
+A For The Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|From Noriko the All-Remembering.|RANK|2|
+C For The Love of Others|QID|66503|QO|1|M|46.65,40.16|Z|2024|CHAT|N|Ask Noriko to take you to the top.|
+C For The Love of Others|QID|66503|QO|2|M|47.14,40.29|Z|2024|NC|N|Click on Divo's remains (skull on the floor).|
+C For The Love of Others|QID|66503|QO|3|M|47.14,40.29|Z|2024|N|Ask Divo why he can't rest?. After that Echo of Loss spawns on the floor below you, jump/fly down and kill it.|
 C Send It!|QID|66493|QO|2|M|45.99,38.78|Z|2024|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color] to deliver mail when you see apprentices about town.|US|
 T Send It!|QID|66493|M|45.99,38.78|Z|2024|N|To Supply Portal.|
-T For the Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|To Noriko the All-Remembering.|
+T For The Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|To Noriko the All-Remembering.|
 C Catch the Caravan|QID|65864|M|35.25,36.98|Z|2024|CHAT|N|Head out of town following the road to the northwest to find Brena.\n\nSpeak to Brena when you land|
 T Catch the Caravan|QID|65864|M|35.25,36.98|Z|2024|N|To Brena. Wait for dialogue to finish|
 A Howling in the Big Tree Hills|QID|65867|PRE|65864|M|35.29,36.95|Z|2024|N|From Brena.|
@@ -218,7 +219,7 @@ T Spreading Decay|QID|66239|M|28.69,34.83|Z|2024|N|To Brena.|
 A Another Ambush|QID|65869|PRE|66239|M|28.69,34.83|Z|2024|N|From Brena.|
 C Another Ambush|QID|65869|M|28.68,34.75|Z|2024|QO|1|CHAT|N|Ask Akiun what happened.|
 A Falling Water|QID|71233|PRE|66239|M|28.47,35.11|Z|2024|N|From Unkimi.|RANK|2|
-C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|NC|N|A couple Oozing Decay will spawn after you examine the body.|
+C Another Ambush|QID|65869|M|29.25,33.58;29.17,32.56;28.21,31.88;27.96,32.81|CS|Z|2024|QO|2|H|N|A couple Oozing Decay will spawn after you examine the body.|
 T Another Ambush|QID|65869|M|28.78,34.74|Z|2024|N|To Brena.|
 A Urgent Action Required|QID|66026|PRE|65869|M|28.78,34.74|Z|2024|N|From Brena.|
 $ Creektooth Den Glyph|QID|99999|M|26.76,31.64|Z|2024;The Azure Plains!Dragonflight|N|Mount up and grab the glyph, just above a tree snag, Then fly over to Brena.|ACH|16069|
