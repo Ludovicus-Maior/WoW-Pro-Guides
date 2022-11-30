@@ -113,11 +113,11 @@ T Blacktalon Intel|QID|65992|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T The Obsidian Citadel|QID|65995|M|62.65,33.19|Z|2022|N|To Wrathion.|
 A Veteran Reinforcements|QID|65996|PRE|65995|M|62.77,33.10|Z|2022|N|From Majordomo Selistra.|
 ;t Djaradin Djustice|QID|65994|M|68.44,39.10|Z|2022|N|Bonus Objective - Autocompleted.|IZ|13723|
-C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|H|N|Click the drakonids to heal them.|S|U|193917|
+C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|H|N|Click the drakonids to heal them.|S|U|193917|T|Injured|
 A Fighting Fire with... Water|QID|66998|PRE|65995|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|RANK|2|
 C Fighting Fire with... Water|QID|66998|M|59.10,34.86|Z|2022|U|194441|N|Take a brief break from healing to kill the droplets. Use the bottled water elemental for a bit of extra help.|
 T Fighting Fire with... Water|QID|66998|M|59.10,34.86|Z|2022|N|From Caretaker Ventraz.|
-C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|H|N|Finish finding and healing the Injured drakonids.|US|U|193917|
+C Veteran Reinforcements|QID|65996|M|56.67,34.79|Z|2022|QO|1|H|N|Finish finding and healing the Injured drakonids.|US|U|193917|T|Injured|
 C Veteran Reinforcements|QID|65996|M|55.14,31.32|Z|2022|QO|2|NC|N|Meet Sendrax at the Conservatory Outpost.|
 T Veteran Reinforcements|QID|65996|M|54.99,30.76|Z|2022|N|To Caretaker Azkra.|
 A Chasing Sendrax|QID|65997|PRE|65996|M|54.99,30.76|Z|2022|N|From Caretaker Azkra.|
@@ -126,6 +126,9 @@ T Chasing Sendrax|QID|65997|M|55.17,24.93|Z|2022|N|To Sendrax.|
 A Future of the Flights|QID|65998|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
 A Red in Tooth and Claw|QID|65999|PRE|65997|M|55.17,24.93|Z|2022|N|From Sendrax.|
 A Library of Alexstrasza|QID|66000|PRE|65997|M|55.25,24.70|Z|2022|N|From On the Origin of Draconic Species (book on rock).|
+t Red in Tooth and Claw|QID|65999|M|PLAYER|Z|2022|N|To Sendrax.|
+t Future of the Flights|QID|65998|M|PLAYER|Z|2022|N|To Sendrax.|
+t Library of Alexstrasza|QID|66000|M|PLAYER|Z|2022|N|To Sendrax.|
 C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|H|N|Bliz has conveniently marked the books on your minimap, go pick them up.|S|
 C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Find the Infused dragon eggs. Kill the nearly helpless whelps.|S|
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Slay Primalist forces.|S|
@@ -133,11 +136,8 @@ C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|QO|1|N|Slay Primalist for
 C Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Slay Firava the Rekindler.|T|Firava the Rekindler|RARE|
 ;t Firava the Rekindler|QID|70648|M|55.70,22.18|Z|2022|N|Bonus Objective - Autocompleted.|
 C Red in Tooth and Claw|QID|65999|M|54.66,20.76|Z|2022|N|Finish up slaying Primalist forces.|US|
-C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|NC|N|Find the Books.|US|
+C Library of Alexstrasza|QID|66000|M|57.08,23.75|Z|2022|H|N|Find the Books.|US|
 C Future of the Flights|QID|65998|M|54.94,21.45|Z|2022|N|Finish up with the unfortunate whelplings.|US|
-T Red in Tooth and Claw|QID|65999|M|PLAYER|Z|2022|N|To Sendrax.|
-T Future of the Flights|QID|65998|M|PLAYER|Z|2022|N|To Sendrax.|
-T Library of Alexstrasza|QID|66000|M|PLAYER|Z|2022|N|To Sendrax.|
 A A Last Hope|QID|66001|PRE|65998&66000&65999|M|57.13,23.63|Z|2022|N|From Sendrax.|
 C A Last Hope|QID|66001|M|56.23,22.06|Z|2022|QO|1|CHAT|N|Meet Sendrax by the ritual site, then tell her you are ready.|
 C A Last Hope|QID|66001|M|56.89,21.60|Z|2022|QO|2|H|N|Pick up the Infused Dragon Egg.|
