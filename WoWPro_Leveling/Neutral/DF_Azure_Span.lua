@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ;Renown stuff -- I think since they are all based on someone showing up whereever you are, they should be put at the top of the guide, once we have the REN stuff worked out since everyone will receive those quests at a little bit diff time based on what they have done to earn REN.
 ;Rowie offers a quest at Tuskaar 3 REN also, its down below, but forgot to add to this section
-A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2510;4|;not positive of the REN
+A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2511;4|;not positive of the REN
 ;Rowie showed up again and offered me Tuskarr Fishing Gear|QID|71230|LEAD|70871| just after I got Tuskarr REN 5
 ;A To Dragonbone Keep|QID|71210|M|PLAYER|N|From Herald Flaps.|;Valdrakken Accord REN 5
 ;Dormant Discovery - this dropped when you hit ValdrakkenREN 7 and starts the waygates questline. first turn in prolly s/b in WS guide since that is when the item will drop and the first turnin is there, resulting in sending you to Camp Antonidas, and I put that questline here, starting with T Nightborne Knowhow|QID|66598
@@ -44,7 +44,7 @@ C Arcane Detection|QID|67174|QO|3|M|41.23,36.40|Z|2024|NC|N|The Toy Boat is with
 A WANTED: Gorger|QID|67177|PRE|65686|M|41.42,36.41|Z|2024|N|[color=ff8000]Elite: [/color]From Shala.|RANK|2|
 T Arcane Detection|QID|67174|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
 A How To Stop An Exploding Toy Boat|QID|67175|PRE|67174|M|41.22,35.88|Z|2024|N|From Miva Star-Eye.|RANK|2|
-C How To Stop An Exploding Toy Boat|QID|67175|QO|1|M|41.20,35.86|Z|2024|CHAT|N|Eplain the problem to Julk.|
+C How To Stop An Exploding Toy Boat|QID|67175|QO|1|M|41.20,35.86|Z|2024|CHAT|N|Explain the problem to Julk.|
 C How To Stop An Exploding Toy Boat|QID|67175|QO|2|M|41.19,35.90|Z|2024|NC|N|Pick up Miva's Dispelling Wand from the table.|
 C How To Stop An Exploding Toy Boat|QID|67175|QO|3|M|40.59,36.55|Z|2024|NC|N|Click on the boat to dispel the arcane magic.|
 K Gorger|ACTIVE|67177|M|40.09,37.39|Z|2024|N|Kill the big Thunderlizard.|T|Gorger|
