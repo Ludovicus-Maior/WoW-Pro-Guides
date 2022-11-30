@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ;Renown stuff -- I think since they are all based on someone showing up whereever you are, they should be put at the top of the guide, once we have the REN stuff worked out since everyone will receive those quests at a little bit diff time based on what they have done to earn REN.
 ;Rowie offers a quest at Tuskaar 3 REN also, its down below, but forgot to add to this section
-A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2510;4|;not positive of the REN
+A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2511;4|;not positive of the REN
 ;Rowie showed up again and offered me Tuskarr Fishing Gear|QID|71230|LEAD|70871| just after I got Tuskarr REN 5
 ;A To Dragonbone Keep|QID|71210|M|PLAYER|N|From Herald Flaps.|;Valdrakken Accord REN 5
 ;Dormant Discovery - this dropped when you hit ValdrakkenREN 7 and starts the waygates questline. first turn in prolly s/b in WS guide since that is when the item will drop and the first turnin is there, resulting in sending you to Camp Antonidas, and I put that questline here, starting with T Nightborne Knowhow|QID|66598
@@ -38,16 +38,16 @@ A Some Good Fishing|QID|66227|PRE|65686|M|41.46,35.63|Z|2024|N|From Khuri.|RANK|
 C Some Good Fishing|QID|66227|M|41.46,35.63|Z|2024|N|Take a moment to catch some fish. It's for a good cause.|
 T Some Good Fishing|QID|66227|M|41.46,35.63|Z|2024|N|To Khuri.|
 A Arcane Detection|QID|67174|PRE|65686|M|41.22,35.88|Z|2024|N|From Miva Star-Eye. BTW, DON'T click the scroll of blinding speed on her table, it makes you blind for a few seconds.|RANK|2|
-C Arcane Detection|QID|67174|QO|1|M|41.39,35.697|Z|2024|NC|N|The Unassuming flask in next to the bedroll. Click it to examine.|
-C Arcane Detection|QID|67174|QO|2|M|41.41,35.79|Z|2024|NC|N|The Dusty teapot is in a basket next to the tent. Click it next.|
-C Arcane Detection|QID|67174|QO|3|M|41.23,36.40|Z|2024|NC|N|The Toy Boat is with a yound tuskaar. Click it too.|
+C Arcane Detection|QID|67174|QO|1|M|41.39,35.697|Z|2024|H|N|The Unassuming flask in next to the bedroll. Click it to examine.|
+C Arcane Detection|QID|67174|QO|2|M|41.41,35.79|Z|2024|H|N|The Dusty teapot is in a basket next to the tent. Click it next.|
+C Arcane Detection|QID|67174|QO|3|M|41.23,36.40|Z|2024|H|N|The Toy Boat is with a yound tuskaar. Click it too.|
 A WANTED: Gorger|QID|67177|PRE|65686|M|41.42,36.41|Z|2024|N|[color=ff8000]Elite: [/color]From Shala.|RANK|2|
 T Arcane Detection|QID|67174|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
 A How To Stop An Exploding Toy Boat|QID|67175|PRE|67174|M|41.22,35.88|Z|2024|N|From Miva Star-Eye.|RANK|2|
-C How To Stop An Exploding Toy Boat|QID|67175|QO|1|M|41.20,35.86|Z|2024|CHAT|N|Eplain the problem to Julk.|
+C How To Stop An Exploding Toy Boat|QID|67175|QO|1|M|41.20,35.86|Z|2024|CHAT|N|Explain the problem to Julk.|
 C How To Stop An Exploding Toy Boat|QID|67175|QO|2|M|41.19,35.90|Z|2024|NC|N|Pick up Miva's Dispelling Wand from the table.|
 C How To Stop An Exploding Toy Boat|QID|67175|QO|3|M|40.59,36.55|Z|2024|NC|N|Click on the boat to dispel the arcane magic.|
-K Gorger|ACTIVE|67177|M|40.09,37.39|Z|2024|N|Kill the big Thunderlizard.|T|Gorger|
+K Gorger|ACTIVE|67177|M|40.09,37.39|QO|1|Z|2024|L|194901|N|Kill the big Thunderlizard.|T|Gorger|
 T How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
 T WANTED: Gorger|QID|67177|M|41.42,36.41|Z|2024|N|To Shala.|
 
@@ -61,9 +61,9 @@ T Camp Antonidas|QID|66228|M|46.65,40.17|Z|2024|N|To Noriko the All-Remembering.
 A Assemble the Defenses|QID|67033|PRE|66228|M|46.69,39.76|Z|2024|N|From Noriko the All-Remembering.|
 A Preservation of Knowledge|QID|67035|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|
 A Supporting the Cobalt Assembly|QID|72784|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|RANK|2|
-C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024|NC|N|Beware of the bombardment. Pick the first device up here.|
-C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024|NC|N|Pick up the tomes in the pavilion.|
-C Assemble the Defenses|QID|67033|M|46.1,40.8;45.85,40.17|CS|Z|2024|NC|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
+C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024|H|N|Beware of the bombardment. Pick the first device up here.|
+C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024|H|N|Pick up the tomes in the pavilion.|
+C Assemble the Defenses|QID|67033|M|46.1,40.8;45.85,40.17|CS|Z|2024|H|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
 T Preservation of Knowledge|QID|67035|M|46.67,39.74|Z|2024|N|To Althanus.|
 T Assemble the Defenses|QID|67033|M|46.70,39.76|Z|2024|N|To Noriko the All-Remembering.|
 A Wrath of the Kirin Tor|QID|67036|PRE|67033&67035|M|46.69,39.76|Z|2024|N|From Noriko the All-Remembering.|
@@ -74,11 +74,11 @@ A Meeting Kalecgos|QID|65688|PRE|67036|M|46.63,40.19|Z|2024|N|From Archmage Khad
 A WANTED: Frigellus|QID|66488|PRE|67036|M|46.16,39.62|Z|2024|N|From WANTED poster.|RANK|2|
 A Path to Nowhere|QID|66671|PRE|67036|M|45.69,39.79|Z|2024|N|From Caddy Scattershot.|RANK|2|
 C Meeting Kalecgos|QID|65688|QO|1|M|45.98,38.78|Z|2024|CHAT|N|Click on the Supply Portal and ask if the quartermaster can help you.|
-C Meeting Kalecgos|QID|65688|QO|2|M|45.95,38.91|Z|2024|NC|N|Pick up the Bag from the ground.|
+C Meeting Kalecgos|QID|65688|QO|2|M|45.95,38.91|Z|2024|H|N|Pick up the Bag from the ground.|
 A Tending the Forge|QID|66523|PRE|67036|M|46.12,40.99|Z|2024|N|From Custodian Vernagos.|RANK|2|
-C Tending the Forge|QID|66523|QO|3|M|45.66,40.72|Z|2024|NC|N|Pick up the embercones from the ground behind Custodian Vernagos' house.|S|
+C Tending the Forge|QID|66523|QO|3|M|45.66,40.72|Z|2024|H|N|Pick up the embercones from the ground behind Custodian Vernagos' house.|S|
 C Tending the Forge|QID|66523|QO|2|M|45.66,40.72|Z|2024|N|Kill Hornswogs to collect their hides.|
-C Tending the Forge|QID|66523|QO|3|M|47.01,41.26|Z|2024|NC|N|Finish picking up the embercones.|US|
+C Tending the Forge|QID|66523|QO|3|M|47.01,41.26|Z|2024|H|N|Finish picking up the embercones.|US|
 C Tending the Forge|QID|66523|QO|1|M|47.77,37.98|Z|2024|N|Kill and loot some of the smaller elementals near Frigellus to get the frozen cores.|S|
 K Frigellus|ACTIVE|66488|QO|1|M|47.77,37.98|Z|2024|N|Slay Frigellus.|T|Frigellus|
 K Frostfist|ACTIVE|66957|QO|1|M|49.04,36.48|Z|2024|N|Kill and loot Frostfist, He is on the ice flow, fly up and North of Camp Antonidas.|
@@ -92,17 +92,17 @@ T Tending the Forge|QID|66523|M|46.12,40.99|Z|2024|N|To Custodian Vernagos.|
 R Azure Archives|ACTIVE|65688|M|45,49.2|CC|Z|2024|N|Follow the road generally south out of town to find Kalecgos.|RANK|-1|
 A Mammoths Matter|QID|65914|M|44.77,50.65|Z|2024|N|From Ruriq.|RANK|2|
 A Culling the Cullers|QID|65925|M|44.77,50.65|Z|2024|N|From Ruriq.|RANK|2|
-C Mammoths Matter|QID|65914|M|46.52,51.22|Z|2024|NC|N|Click on the already dead mammoths to collect the parts.|S|
+C Mammoths Matter|QID|65914|M|46.52,51.22|Z|2024|H|N|Click on the already dead mammoths to collect the parts.|S|
 C Culling the Cullers|QID|65925|M|46.52,51.22|Z|2024|N|Kill the wyrms.|
-C Mammoths Matter|QID|65914|M|46.52,51.22|Z|2024|NC|N|Finish collecting the mammoth parts.|US|
+C Mammoths Matter|QID|65914|M|46.52,51.22|Z|2024|H|N|Finish collecting the mammoth parts.|US|
 T Culling the Cullers|QID|65925|M|45.41,54.18|Z|2024|N|To Ruriq.|
 T Mammoths Matter|QID|65914|M|45.41,54.18|Z|2024|N|To Ruriq.|
 A Tackling the Falls|QID|65926|PRE|65914&65925|M|45.41,54.18|Z|2024|N|From Ruriq.|
-C Tackling the Falls|QID|65926|M|45.39,54.12|Z|2024|NC|N|Click on Ruriq's boat to help him.|
+C Tackling the Falls|QID|65926|M|45.39,54.12|Z|2024|H|N|Click on Ruriq's boat to help him.|
 T Tackling the Falls|QID|65926|M|45.52,54.18|Z|2024|N|To Kauj.|
 A The Gleamfisher|QID|66724|PRE|65926|M|45.52,54.18|Z|2024|N|From Kauj.|
-C The Gleamfisher|QID|66724|QO|1|M|44.92,53.75;45.15,54.91|CS|Z|2024|NC|N|Click on the fish caught in the nets.|
-C The Gleamfisher|QID|66724|QO|2|M|45.48,54.19|Z|2024|N|Click on the offering basket.|
+C The Gleamfisher|QID|66724|QO|1|M|44.92,53.75;45.15,54.91|CS|Z|2024|H|N|Click on the fish caught in the nets.|
+C The Gleamfisher|QID|66724|QO|2|M|45.48,54.19|Z|2024|H|N|Click on the offering basket.|
 T The Gleamfisher|QID|66724|M|45.41,54.18|Z|2024|N|To Ruriq.|
 A Ice Breakers|QID|65929|PRE|66724|M|45.41,54.18|Z|2024|N|From Ruriq.|
 A Wayward Winds|QID|65928|PRE|66724|M|45.52,54.18|Z|2024|N|From Kauj.|
