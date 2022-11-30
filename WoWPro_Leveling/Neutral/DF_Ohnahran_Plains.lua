@@ -132,7 +132,7 @@ A The Fields of Ferocity|QID|70444|PRE|65805|M|62.31,42.33|Z|2023;Ohn'ahran Plai
 C Bloodlines, Sweets, and Teerai|QID|70739|M|60.04,37.39|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask Elder Odgerel about Norman's plan.|
 C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.|
 C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.|
-A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruukai;2503;3|IZ|13764|;not available on my last run thru? (and level and renown are lower now)Renown 3
+A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruukai;2503;7|IZ|13764|;not available on my last run thru? (and level and renown are lower now)Renown 3
 T Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
 T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.|
 $ Ohn'ahra's Roost Glyph|QID|99999|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|N|Behind/Above the Maruukai Embassy, very high up the mountain, glyph is just above statue of Ohn'ara.|ACH|16054|
@@ -243,7 +243,12 @@ K Malifron|ACTIVE|65895|QO|1|M|62.70,16.39|Z|2023;Ohn'ahran Plains|N|Kill and lo
 C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Stick around to finish this bonus objective or walk out of the area as you choose.|US|IZ|13766|
 ;t The Sundered Asunder|QID|65892|M|PLAYER|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 T Competing Company|QID|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal, who has moved to just below Malifron in a broken tower.|
-A Proto Problems|QID|65898|PRE|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
+
+A One Step Backwards|QID|66719||M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal|
+C One Step Backwards|QID|66719||M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|Open the bag you just received, use the mana gem twice.|
+T One Step Backwards|QID|66719||M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal|
+
+A Proto Problems|QID|65898|PRE|66719|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
 C Proto Problems|QID|65898|M|60.65,17.37|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click The Black Locus which will summon Hypoxicron.|
 C Proto Problems|QID|65898|M|60.82,17.36|Z|2023;Ohn'ahran Plains|QO|2|N|Kill Hypoxicron. Be careful where you stand, he had a knockback and it's a long ways down.|
 T Proto Problems|QID|65898|M|66.32,24.32|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal, back in Emberwatch.|
@@ -580,7 +585,7 @@ C The Trouble with Taivan|QID|67772|QO|1|M|61.13,40.02|Z|2023;Ohn'ahran Plains|H
 C The Trouble with Taivan|QID|67772|QO|2|M|61.18,39.74|Z|2023;Ohn'ahran Plains|H|N|Click on pelt bundle lying on the ground.|
 C The Trouble with Taivan|QID|67772|QO|3|M|61.13,40.02|Z|2023;Ohn'ahran Plains|H|N|Click on Taivan's back to place the bundles.|
 C The Trouble with Taivan|QID|67772|QO|4|M|61.19,39.70|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Taivan to head over to see Hunter Jadar.|
-A Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|
+A Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruuk Centaur;2503;6|
 T Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
 R The Watering Hole|ACTIVE|67772|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|Fly over to the Wattering Hole to meet up with Hunter Jadar.|RANK|3|
 T The Trouble with Taivan|QID|67772|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|To Hunter Jadar.|
