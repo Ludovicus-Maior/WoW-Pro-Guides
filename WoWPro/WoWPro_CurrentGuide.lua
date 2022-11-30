@@ -44,7 +44,8 @@ frame:SetScript("OnShow", function()
     else
         local faction = WoWPro.Faction
         local guide = WoWProDB.char.currentguide
-        subtitle:SetText("Faction: "..faction.."\nGuide ID: "..guide)
+        local rank, rankSource = WoWPro.GuideRank(guide)
+        subtitle:SetText("Faction: "..faction.."\nGuide ID: "..guide.."\nRank: "..tostring(rank).." ("..rankSource..")")
     end
 
     local box = WoWPro:CreateBG(frame)
