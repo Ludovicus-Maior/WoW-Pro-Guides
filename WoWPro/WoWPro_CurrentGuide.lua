@@ -145,15 +145,18 @@ frame:SetScript("OnShow", function()
         local maxh = box:GetHeight() - 12
         local index = 1 + offset
         shownrows = NUMROWS
+        -- Let us be paranoid
+        WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
+        WoWProCharDB.Guide[GID].skipped = WoWProCharDB.Guide[GID].skipped or {}
+        WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
+
         for i, row in ipairs(rows) do
             row.index = index
 
-            if completion[index] or WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
-                if WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
-                    row.check:SetSilver()
-                else
-                    row.check:SetGold()
-                end
+            if WoWProCharDB.Guide[GID].skipped[index] or WoWPro:QIDsInTable(WoWPro.QID[index],WoWProCharDB.skippedQIDs) then
+                row.check:SetSilver()
+            elseif completion[index] then
+                row.check:SetGold()
             else
                 row.check:SetBlank()
             end
