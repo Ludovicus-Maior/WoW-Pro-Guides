@@ -2274,12 +2274,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro:dbp("PROF: "..WoWPro.why[guideIndex])
                         skip = false
 
-                        -- If they do not have the profession, mark the step and quest as skipped
+                        -- If they do not have the profession, mark the step as skipped
                     elseif stepAction == "A" then
                         WoWPro.why[guideIndex] = "NextStep(prof): Permanently skipping step because player does not have the profession."
                         guide.skipped[guideIndex] = true
-                        WoWPro:SetQIDsInTable(QID, WoWProCharDB.skippedQIDs)
-                        WoWPro:dbp("PROF: permaskip qid %s for no %s", (WoWPro.QID[guideIndex] or "NONE"), profName)
+                        WoWPro:dbp("PROF: permaskip step [%s:%s] for no %s", stepAction, step, WoWPro.prof[guideIndex])
                         skip = true
                         break
                     else
