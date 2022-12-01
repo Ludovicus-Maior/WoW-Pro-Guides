@@ -9,7 +9,7 @@ return [[
 
 ;Renown Quests
 A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier
-A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|
+;A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;did not show up till i picked up wheres the cheif.
 A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|
 A A Cataloger's Paradise|QID|69869|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
 ;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|;WH comment says its at dragonsclae basecamp. cant confirm.
@@ -52,14 +52,14 @@ A The Algeth'ar Academy|QID|72193|PRE|66159|M|61.39,36.46|Z|2112|N|From Kalecgos
 A Halls of Infusion: Entropy to Order|QID|72192|PRE|66159|M|54.34,40.94|Z|2112|N|From Watcher Koranos.|RANK|3|
 C Nowhere to Hide|QID|66163|M|58.90,36.29|Z|2112|QO|1|NC|U|198859|N|Use the Revealing Dragon's Eye to allow you to detect the Infiltrators.|
 C Nowhere to Hide|QID|66163|M|PLAYER|NC|U|198859|N|Looks like your Revealing Dragon's Eye buff is gone, reuse it to allow you to detect the Infiltrators.|BUFF|385996|
-F Valdrakken Glyph|QID|99999|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|N|Above the highest tower over Valdrakken.|ACH|16101|
+$ Valdrakken Glyph|QID|99999|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|N|Above the highest tower over Valdrakken.|ACH|16101|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|CHAT|N|As you go about finding the people and places of interest, Question Valdrakken Citizens, (the ones who look a little odd, surrounded by a misty nimbus) to find the infiltrators, when you find one, kill it. Reuse the gem if you should lose the Revealing Dragon's Eye Buff.|S|
 A Garden Variety|QID|72189|M|77.49,66.03|Z|2112|N|From Tender Xina.|RANK|2|
 A A Dryad's Work Is Never Done|QID|67094|M|72.83,66.19|Z|2112|N|From Thalendra.|RANK|2|
 C A Dryad's Work Is Never Done|QID|67094|M|67.21,70.25|Z|2112|QO|1|H|N|Click the Hungry Swoglet.|
 C A Dryad's Work Is Never Done|QID|67094|M|57.08,80.21|Z|2112|QO|3|H|N|Click the Hungry Slyvern Kit.|
 C A Dryad's Work Is Never Done|QID|67094|M|51.23,71.16|Z|2112|QO|5|H|N|Click the Hungry Eft at the top of the waterfall.|
-C Orientation: Valdrakken|QID|72406|QO|2|M|46.59,79.09|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
+C Orientation: Valdrakken|QID|72406|QO|2|M|46.92,78.70|Z|2112|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
 C A Dryad's Work Is Never Done|QID|67094|M|42.87,74.97|Z|2112|QO|2|H|N|Click the Hungry Otter Pup.|
 C Orientation: Valdrakken|QID|72406|QO|3|M|36.43,62.83|Z|2112|N|Open Dothenos' store to get quest update.|
 C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger.|
@@ -213,14 +213,13 @@ T The Land Awakens|QID|66473|M|54.79,64.37|Z|2025|N|To Sharnax.|
 A Primal List|QID|66472|PRE|66473|M|54.79,64.37|Z|2025|N|From Sharnax.|
 T Primal List|QID|66472|M|52.65,67.30|Z|2025|N|To Commander Thadezus.|
 A The Hermit's Garden|QID|72399|M|52.58,69.91|N|From Agues.|LEAD|69933|RANK|2|
-T The Wayward Watcher|QID|71219|M|54.70,69.47|Z|2025|N|To Waywatcher Alvi.|
+T The Wayward Waywatcher|QID|71219|M|54.70,69.47|Z|2025|N|To Waywatcher Alvi.|
 A Supplying in Weight|QID|66100|PRE|71219|M|54.70,69.47|Z|2025|N|From Waywatcher Alvi.|RANK|2|
 A A Sketchy Request|QID|66230|PRE|71219|M|54.70,69.47|Z|2025|N|From Waywatcher Alvi.|RANK|2|;not actually the pre. but here for guide flow
-C A Sketchy Request|QID|66230|QO|1|M|55.20,68.10|Z|2025|N|Kill the Embertooth mobs to loot a Crude Tarasek Key.|S|
 C Supplying in Weight|QID|66100|M|55.93,68.63|Z|2025|H|N|Pick up the small bags of Waywatcher Supplies from the ground.|S|
+C A Sketchy Request|QID|66230|QO|1|M|55.20,68.10|Z|2025|N|Kill the Embertooth mobs to loot a Crude Tarasek Key.|
 C A Sketchy Request|QID|66230|QO|2|M|55.62,69.34|Z|2025|H|N|Open the chest to get Alvi's journal.|
 C Supplying in Weight|QID|66100|M|55.93,68.63|Z|2025|H|N|Pick up the small bags of Waywatcher Supplies from the ground.|US|
-C A Sketchy Request|QID|66230|QO|2|M|55.20,68.10|Z|2025|N|Continue killing the Embertooth, until you have finally get a key.|US|
 T Supplying in Weight|QID|66100|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 T A Sketchy Request|QID|66230|M|56.96,67.69|Z|2025|N|To Waywatcher Alvi.|
 A A Poisonous Palette|QID|66456|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
