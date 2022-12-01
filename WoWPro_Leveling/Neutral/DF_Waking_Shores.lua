@@ -381,9 +381,9 @@ A Cut Off the Head|QID|66123|PRE|66121&66122|M|53.68,80.17|Z|2022|N|From Majordo
 C Cut Off the Head|QID|66123|M|53.55,82.68|Z|2022|U|192436|N|Slay Jadzigeth.|T|Jadzigeth|
 T Cut Off the Head|QID|66123|M|53.68,80.15|Z|2022|N|To Majordomo Selistra.|
 A Exeunt, Triumphant|QID|66124|PRE|66123|M|53.68,80.15|Z|2022|N|From Majordomo Selistra.|
-A Out For Delivery|QID|66963|PRE|66123|M|48.48,78.86|Z|2022|N|From Hauler Bennet.|RANK|2|
+A Out For Delivery|QID|66963|LEAD|66524|M|48.48,78.86|Z|2022|N|From Hauler Bennet.|RANK|2|
 T Out For Delivery|QID|66963|M|48.54,82.68|Z|2022|N|To Cataloger Wulferd.|
-A Amateur Protography|QID|66524|PRE|66963|M|48.49,82.67|Z|2022|N|From Cataloger Wulferd.|RANK|2|
+A Amateur Protography|QID|66524|PRE|66123|M|48.49,82.67|Z|2022|N|From Cataloger Wulferd.|RANK|2|
 f Dragonscale Basecamp|ACTIVE|66524|M|47.9,83.33|Z|2022|N|At Art Raskins.|
 A Orientation: Dragonscale Basecamp|QID|72397|PRE|66963|M|47.89,82.41|Z|2022|N|From Naleidea Rivergleam.|RANK|2|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|1|M|47.92,82.09|Z|2022|CHAT|N|Rae'ana is the scholars supplier.|
