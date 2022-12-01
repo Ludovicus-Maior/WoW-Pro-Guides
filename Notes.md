@@ -1,3 +1,28 @@
+# Release 2022.12.01.A
+## Bug Fixes
+* Add active Rank and Rank Source to CurrentGuide display
+* Fixed crash in CurrentGuide display
+* The P tag should skip steps, not QIDs if you lack the profession
+* fureeous: What can I say i am a snitch! (missing Skill Id 0)
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* Leveling: Azure Span, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores
+
+### Classic
+* No Classic guides were harmed during this release
+
+### WotLK
+* No Wrath guides were harmed during this release
+
+### Professions
+* No Professions guides were harmed during this release
+
+
 # Release 2022.11.29.A
 ## Bug Fixes
 * Bug with badly formed DFREN causing Lua errors
