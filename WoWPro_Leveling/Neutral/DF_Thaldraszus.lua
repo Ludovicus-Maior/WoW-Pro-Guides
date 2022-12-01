@@ -12,7 +12,7 @@ A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2
 A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|
 A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|
 A A Cataloger's Paradise|QID|69869|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
-;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|;WH comment says its at dragonsclae basecamp. cant confirm. 
+;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|;WH comment says its at dragonsclae basecamp. cant confirm.
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F South Hold Gate|N|This one is inside one of the towers, but not the highest tower, the one just below it.|M|35.60,85.66|Z|2025;Thaldraszus!Dragonflight|ACH|16100|
