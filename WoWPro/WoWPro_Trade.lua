@@ -427,7 +427,13 @@ else
         local childInfo =  _G.C_TradeSkillUI.GetChildProfessionInfo();
         -- Check for missing table entry
         if not WoWPro.ProfessionSkillLines[childInfo.professionID] then
-            WoWPro:Warning("Please report that WoWPro is missing Skill ID %d aka %q", childInfo.professionID, childInfo.professionName )
+            if childInfo.professionID > 0 then
+                -- if we get an unknown professionID, gripe
+                WoWPro:Warning("Please report that WoWPro is missing Skill ID %d aka %q", childInfo.professionID, childInfo.professionName )
+            else
+                -- if we get an odd one, just log and go on ...
+                WoWPro:dbp("WoWPro is missing Skill ID %d aka %q", childInfo.professionID, childInfo.professionName )
+            end
             -- Fake it for now
             WoWPro.ProfessionSkillLines[childInfo.professionID] = {}
             WoWPro.ProfessionSkillLines[childInfo.professionID].name = childInfo.professionName
