@@ -9,10 +9,10 @@ return [[
 
 ;Renown Quests
 A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier
-;A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;did not show up till i picked up wheres the cheif.
-A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|
-A A Cataloger's Paradise|QID|69869|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
-;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|;WH comment says its at dragonsclae basecamp. cant confirm.
+A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;did not show up till i picked up wheres the cheif.
+;A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|
+A A Cataloger's Paradise|QID|69869|ACTIVE|65490|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
+A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|-16363|
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F South Hold Gate|N|This one is inside one of the towers, but not the highest tower, the one just below it.|M|35.60,85.66|Z|2025;Thaldraszus!Dragonflight|ACH|16100|
@@ -67,7 +67,7 @@ A Lost to the Skies|QID|71239|M|25.17,66.27|Z|2112|N|From Gimla Fizzlecrank.|RAN
 C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|H|N|Click the Hungry Hatchling, it is above the bank, not in it.|
 C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank.|
 C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet.|
-A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdrakken;2511;7|RANK|2|;add iz?
+A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdrakken;2510;7|RANK|2|;add iz?
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|
@@ -244,9 +244,10 @@ C The Flow of Time|QID|66320|M|57.47,78.91|Z|2025|CHAT|N|Tell Chromie that Nozdo
 T The Flow of Time|QID|66320|M|57.47,78.91|Z|2025|N|To Chromie.|
 A Temporal Difficulties|QID|66080|PRE|66320|M|57.52,78.82|Z|2025|N|From Andantenormu.|
 C Temporal Difficulties|QID|66080|M|55.01,75.63|Z|2025|NC|N|Run northwest to find the missing recruit.|
+T Temporal Difficulties|QID|66080|M|54.96,75.64|Z|2025|N|To Siaszerathel|
 A Haven't Got Time For the Pain|QID|70136|PRE|66320|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
 C Haven't Got Time For the Pain|QID|70136|M|53.17,77.39|Z|2025|QO|2|H|N|Pick up the Timewalker Notes from the ground.|
-K Crazed Alpha|ACTIVE|70136|M|52.69,76.84|Z|2025|QO|3|N|The Crazed Alpha can be found in a small cave.|
+K Crazed Alpha|ACTIVE|70136|M|52.69,76.84|Z|2025|QO|3|N|The Crazed Alpha can be found in a small cave.|T|Crazed Alpha|
 C Haven't Got Time For the Pain|QID|70136|M|52.71,76.85|Z|2025|QO|1|H|N|The Timewalker Staff is in the cave with the Crazed Alpha.|
 T Haven't Got Time For the Pain|QID|70136|M|54.96,75.64|Z|2025|N|To Siaszerathel.|
 A Time in a Bottle|QID|66082|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
@@ -289,7 +290,7 @@ C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025|N|Kill the Time Elementals
 C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025|NC|EAB|N|Use your [color=33fff9]Extra Action Button [/color] to free the Timewalkers. There are exactly 8, so don't skip any.|S|
 C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|2|EAB|N|Also use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
 C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|3<50|H|N|Pick up the shards from the ground.|
-C Cracks in Time|QID|65948|M|58.43,83.09|Z|2025|QO|1|H|N|Again use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
+C Cracks in Time|QID|65948|M|58.43,83.09|Z|2025|QO|1|EAB|N|Again use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
 C Cracks in Time|QID|65948|M|58.25,82.87|Z|2025|QO|3|H|N|Pick up the shards.|
 C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025|NC|EAB|N|Continue using your [color=33fff9]Extra Action Button [/color] until all the Timewalkers are free.|US|
 C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025|N|Keep killing the Time Elementals until this step closes.|US|
@@ -318,7 +319,7 @@ P The Primalist Future|ACTIVE|66028|M|59.82,82.24|Z|Thaldraszus|N|Take the porta
 T To the Future!|QID|66028|M|61.11,50.87|Z|2085|N|To Soridormi.|
 A Resistance Isn't Futile|QID|66030|PRE|66028|M|61.11,50.87|Z|2085|N|From Soridormi.|
 A Making Time|QID|66031|PRE|66028|M|61.46,50.22|Z|2085|N|From Possible Future You.|
-C Making Time|QID|66031|M|51.28,25.75|Z|2085|EAB|N|Kill and loot mobs as you look for the injured. The various clicky balls of energy in the area are NOT what you are looking for (or that's a bug).\n\n[color=FF0000]NOTE: [/color]Use the [color=33fff9]Extra Action Button [/color] for summoning Zera to assist you. She is pretty helpful.|S|
+C Making Time|QID|66031|M|51.28,25.75|Z|2085|EAB|N|Kill and loot mobs as you look for the injured. The various clicky balls of energy in the area are NOT what you are looking for, they give you a small buff.\n\n[color=FF0000]NOTE: [/color]Use the [color=33fff9]Extra Action Button [/color] for summoning Zera to assist you. She is pretty helpful.|S|
 C Resistance Isn't Futile|QID|66030|M|44.79,43.52|Z|2085|U|192467|H|N|Click the Injured Resistance Fighters.|S|
 C Temporal Tuning|QID|66029|M|47.61,41.57|Z|2085|NC|U|192749|N|Use the [color=33fff9]Chrono Crystal [/color]while standing under Chromie and Eternus.|
 C Resistance Isn't Futile|QID|66030|M|44.79,43.52|Z|2085|U|192467|H|N|Click the Injured Resistance Fighters.|US|
@@ -373,7 +374,7 @@ C Back to the Future|QID|66040|M|52.93,42.44|Z|2089|QO|2|N|Kill the mobs that ar
 C Back to the Future|QID|66040|M|60.09,82.42|Z|2025|QO|3|CHAT|N|Ask Chromie if Nozdormu is ok.|
 T Back to the Future|QID|66040|M|60.06,82.45|Z|2025|N|To Nozdormu.|
 A Moving On|QID|66221|PRE|66040|M|60.06,82.45|Z|2025|N|From Nozdormu.|
-$ Temporal Conflux Glyph|ACTIVE|99999|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|N|Just under the roof of the tower behind the Bronze Temple.|ACH|16098|
+$ Temporal Conflux Glyph|QID|99999|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|N|Just under the roof of the tower behind the Bronze Temple.|ACH|16098|
 C Entropic Remnants|QID|67154|M|57.8,77.9|Z|2025|N|Kill and loot mobs in the Shifting sands to get the Vitrified Sand.|S|
 C An Anomalous Shrine|QID|67093|M|59.35,75.02|Z|2025|QO|1;2|N|Kill the Ancient Timekeeper or sneak past him(Optional, as in if he isnt here, you don't have to wait for him) Inspect the anomalous mote by the doors.|
 C An Anomalous Shrine|QID|67093|M|59.49,71.86|Z|2025|QO|3|H|N|Everything stuns, so avoid it all. Work your way to the Cache of the timeless and loot it for the Echo of Duty.|
@@ -381,9 +382,8 @@ C Entropic Remnants|QID|67154|M|57.8,77.9|Z|2025|N|Kill and loot mobs in the Shi
 T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
 ;A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112|N|From Aspiring Goblin Engineer.|;Deleted? LEAD?
 
-H Valdrakken|ACTIVE|66221|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|
+F Valdrakken|ACTIVE|66221|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
-A Renown Supplies|QID|72672|M|58.18,35.01|Z|2112|DFREN|Valdrakken;2511;7|N|From Unatos.|
 T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
 C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza that all the Oathstones have been restored.|
 T Moving On|QID|66221|M|57.97,36.04|Z|2112|N|To Alexstrasza.|
@@ -414,7 +414,7 @@ A In Tyr's Footsteps|QID|70845|PRE|70180|M|84.31,53.54|Z|2112|N|From Maiden of I
 T Archival Assistance|QID|67007|M|34.95,28.15|Z|2112|N|To Kemora.|
 A Preserving the Past|QID|66868^66870^66871^66872^66873^66874^66875|PRE|67007|M|34.95,28.15|Z|2112|N|From Kemora. This is your weekly dungeon quest, it will vary each week.|LVL|70|
 A Relic Recovery|QID|66860^66861^66863^66864^66865^66866^66867|PRE|67007|M|35.04,27.60|Z|2112|N|From Theldren. This is your other weekly dungeon quest, it will vary each week.|LVL|70|
-T Relaxation Time!|QID|72067|M|34.09,31.29;40.42,49.55|CS|Z|2025|N|To Spa Concierge.|
+T Relaxation Time!|QID|72067|M|40.42,49.55|Z|2025|N|To Spa Concierge.|
 A Serene Dreams|QID|72246|PRE|72067|M|40.42,49.55|Z|2025|N|From Spa Concierge.|
 T Serene Dreams|QID|72246|M|40.49,48.91|Z|2025|N|To Xijan Thornpaw.|
 A The You-ga Class|QID|70738|PRE|72246|M|40.49,48.91|Z|2025|N|From Xijan Thornpaw.|
@@ -465,7 +465,7 @@ A We Don't Negotiate with Primalists|QID|65916|PRE|65918&70139|M|49.61,58.78|Z|2
 C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025|N|Take Revenge against the Primalists and examine any Refti you come across to find a few survivors.|S|
 K Ko'jo|ACTIVE|65916|M|53.37,56.19|Z|2025|QO|2|N|Ko'jo is in the small cave up the ramp and in the back.|
 C We Don't Negotiate with Primalists|QID|65916|M|53.41,56.24|Z|2025|QO|1|H|N|After you kill Ko'jo, click the Missing ward pieces to retrieve them.|
-C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025|N|Continue killing Primalists and examining Refti bodies until the step completes. You need to find 4 still alive, they glow a little more obviously than the dead ones.|
+C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025|N|Continue killing Primalists and examining Refti bodies until the step completes. You need to find 4 still alive, they glow a little more obviously than the dead ones.|US|
 T Refti Retribution|QID|65921|M|49.54,58.86|Z|2025|N|To Zuttiki.|
 T We Don't Negotiate with Primalists|QID|65916|M|49.62,58.75|Z|2025|N|To Mara.|
 A For the Ward!|QID|65920|PRE|65916&65921|M|49.62,58.75|Z|2025|N|From Mara.|
@@ -489,7 +489,7 @@ A Bleeding Hearts|QID|69934|PRE|69932&69933|M|50.14,67.78|Z|2025;Thaldraszus|N|F
 C Bleeding Hearts|QID|69934|QO|1|M|53.00,67.54|Z|2025;Thaldraszus|NC|N|The cave entrance is all the way down on the valley floor.|
 C Bleeding Hearts|QID|69934|QO|2|M|53.32,67.51|Z|2025;Thaldraszus|H|N|Click on the glowing box outline to leave the medicine.|
 f Gelikyr Post|ACTIVE|69934|M|51.16,67.09|Z|2025;Thaldraszus|N|At Talon Smoht.|
-A Out of the Blue|QID|70781|PRE|66221|M|50.51,67.42|Z|2025;Thaldraszus|N|From Lieutenant Conure.|RANK|2|LEAD|71239|
+A Out of the Blue|QID|70781|ACTIVE|-71239|PRE|66221|M|50.51,67.42|Z|2025;Thaldraszus|N|From Lieutenant Conure.|RANK|2|LEAD|71239|
 C Bleeding Hearts|QID|69934|QO|3|M|51.76,69.14|Z|2025;Thaldraszus|NC|N|The infirmery is a small tower, up the stairs from the flightmaster in Gelikyr Post.|
 C Bleeding Hearts|QID|69934|QO|4|M|51.69,69.18|Z|2025;Thaldraszus|H|N|Place the box against the wall to the right of the door.|
 T Bleeding Hearts|QID|69934|M|51.73,69.32|Z|2025;Thaldraszus|N|To Timetender Athekk.|
@@ -540,10 +540,11 @@ C The Awaited Egg-splosion|QID|66299|QO|1|M|43.52,72.11|Z|2025;Thaldraszus|U|191
 C The Awaited Egg-splosion|QID|66299|QO|2|M|43.52,72.11|Z|2025;Thaldraszus|H|N|Click the cauldron.|
 C The Awaited Egg-splosion|QID|66299|QO|3|M|43.29,71.27|Z|2025;Thaldraszus|V|N|Hop on the "Taxi".|
 C The Awaited Egg-splosion|QID|66299|QO|4|M|44.48,73.01|Z|2025;Thaldraszus|H|N|Click on the egg bowl.|
-C The Awaited Egg-splosion|QID|66299|QO|6|M|44.48,73.01|Z|2025;Thaldraszus|N|Wait, watch, when the egg explodes, kill the Matriarch. Interrupt her Devour Essense spell as it will heal her.|
-C The Awaited Egg-splosion|QID|66299|QO|7|M|44.48,73.01|Z|2025;Thaldraszus|EAB|N|Optionally you can use the provided Glider. It will take you directly to Harleen.|
+C The Awaited Egg-splosion|QID|66299|QO|5|M|44.48,73.01|Z|2025;Thaldraszus|N|Wait, watch, when the egg explodes, kill the Matriarch. Interrupt her Devour Essense spell as it will heal her.|
+C The Awaited Egg-splosion|QID|66299|QO|6|M|44.48,73.01|Z|2025;Thaldraszus|EAB|N|Optionally you can use the provided Glider. It will take you directly to Harleen.|
 T The Awaited Egg-splosion|QID|66299|M|43.45,70.53|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
 H Valdrakken|ACTIVE|70750^72068^72373^72374^72375|M|PLAYER|N|Hearth back to Valdrakken or fly back on your own as you choose.|
+A Renown Supplies|QID|72672|M|58.18,35.01|Z|2112|DFREN|Valdrakken;2510;11|N|From Unatos.|;At 10 Renown this is not active.
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
 
 N Adventure Mode|AVAILABLE|72266^72267^72268|PRE|72269|S!US|N|If you want to go on to the max level Dragonflight Campaign (currently very sketch Work in Progress, Manually check off all remaining steps and it will load. If you want to choose a different zone fly back to Wingrest Embassy and grab the new area from the scouting map.|
