@@ -1646,7 +1646,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local jqid = WoWPro.QuestCompleted(QID, false, "Skip Completed Quests")
                 if jqid then
                     skip = true -- If quest complete, step is skipped.
-                    WoWPro.why[guideIndex] = "NextStep(): QID is complete: " .. jqid
+                    WoWPro.why[guideIndex] = "NextStep(): QID is complete: " .. tostring(QID)
                     guide.completion[guideIndex] = jqid
                     break
                 end
