@@ -8,9 +8,9 @@ return [[
 ;Renown stuff -- I think since they are all based on someone showing up whereever you are, they should be put at the top of the guide, once we have the REN stuff worked out since everyone will receive those quests at a little bit diff time based on what they have done to earn REN.
 ;Rowie offers a quest at Tuskaar 3 REN also, its down below, but forgot to add to this section
 A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2511;4|;not positive of the REN
-;Rowie showed up again and offered me Tuskarr Fishing Gear|QID|71230|LEAD|70871| just after I got Tuskarr REN 5
-;A To Dragonbone Keep|QID|71210|M|PLAYER|N|From Herald Flaps.|;Valdrakken Accord REN 5
-;Dormant Discovery - this dropped when you hit ValdrakkenREN 7 and starts the waygates questline. first turn in prolly s/b in WS guide since that is when the item will drop and the first turnin is there, resulting in sending you to Camp Antonidas, and I put that questline here, starting with T Nightborne Knowhow|QID|66598
+A Tuskarr Fishing Gear|QID|71230|LEAD|70871|N|From Rowie|DFREN|Iskaara;2511;5|
+A To Dragonbone Keep|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|
+;Dormant Discovery - this dropped when you hit Valdrakken REN 7 and starts the waygates questline. first turn in prolly s/b in WS guide since that is when the item will drop and the first turnin is there, resulting in sending you to Camp Antonidas, and I put that questline here, starting with T Nightborne Knowhow|QID|66598
 ;A Community Feasts|QID|70938|M|7.66,44.30|Z|2024|N|From Rowie.|RANK|2|;i got this much earlier REN 3?; I got Community Feasts from Rowie (who follows you till you accept), REN 3 i think. I don't know if we want to put it in the guide or not.
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
