@@ -28,7 +28,7 @@ T Venture Co. Misadventure|QID|12524|N|From Debaar.|M|27.21,59.86|
 A Wipe That Grin Off His Face|QID|12525|PRE|12524|N|From Debaar.|M|27.2,59.9|
 T Have a Part, Give a Part|QID|12523|N|To Weslex Quickwrench. Back around the broken boat.|M|25.38,58.35|
 f Nesingwary Base Camp|QID|12696|N|At The Spirit of Gnomeregan.|M|25.27,58.45|
-A Aerial Surveillance|QID|12696|PRE|12523|N|From Professor Calvert.|M|25.4,58.5|
+A Aerial Surveillance|QID|12696|PRE|12523|N|From Professor Calvert.|M|25.4,58.5|LVL|77|
 K Wipe That Grin Off His Face|ACTIVE|12525|N|Kill Meatpie. He walks up and down the ramp|M|35.19,49.18|QO|2|T|Meatpie|
 K Wipe That Grin Off His Face|ACTIVE|12525|N|Kill Foreman Swindlegrin. On the platform above.|M|35.72,50.24|QO|1|T|Foreman Swindlegrin|
 T Wipe That Grin Off His Face|QID|12525|N|To Debaar, Nesingwary Base Camp.|M|27.21,59.86|

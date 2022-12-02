@@ -245,10 +245,11 @@ K Malifron|ACTIVE|65895|QO|1|M|62.70,16.39|Z|2023;Ohn'ahran Plains|N|Kill and lo
 C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Stick around to finish this bonus objective or walk out of the area as you choose.|US|IZ|13766|
 ;t The Sundered Asunder|QID|65892|M|PLAYER|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 T Competing Company|QID|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal, who has moved to just below Malifron in a broken tower.|
-A One Step Backwards|QID|66719|PRE|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal|RANK|2|
+A One Step Backwards|QID|66719|PRE|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal|RANK|2|C|EVOKER|
 C One Step Backwards|QID|66719|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|Open the bag you just received, use the mana gem twice.|
 T One Step Backwards|QID|66719|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal|
-A Proto Problems|QID|65898|PRE|66719|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
+A Proto Problems|QID|65898|PRE|66719|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|C|EVOKER|
+A Proto Problems|QID|65898|PRE|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|C|-EVOKER|
 C Proto Problems|QID|65898|M|60.65,17.37|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click The Black Locus which will summon Hypoxicron.|
 C Proto Problems|QID|65898|M|60.82,17.36|Z|2023;Ohn'ahran Plains|QO|2|N|Kill Hypoxicron. Be careful where you stand, he had a knockback and it's a long ways down.|
 T Proto Problems|QID|65898|M|66.32,24.32|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal, back in Emberwatch.|
