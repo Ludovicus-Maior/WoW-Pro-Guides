@@ -33,9 +33,9 @@ R Rubyscale Outpost|ACTIVE|72267|M|48.27,88.67|Z|2022|N|Exit town on the west si
 T Ohn'arran Plains|QID|72267|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza.|
 
 T Next Steppes|QID|65795|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza. You can run or glide on your dragon to get to him.|
-$ Mirewood Fen Glyph|N|If you aren't on your Dragon, mount up and get the glyph floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
 A Into the Plains|QID|65779|PRE|65795^72267|M|48.27,88.67|Z|2022|N|From Ambassador Taurasza.|
 $ Rubyscale Outpost Glyph|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
+$ Mirewood Fen Glyph|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|N|If you aren't on your Dragon, mount up and get the glyph floating just above the ground.|ACH|16671|
 T Into the Plains|QID|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Proving Oneself|QID|65780|PRE|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Proving Oneself|QID|65780|M|78.55,26.65|Z|2023;Ohn'ahran Plains|QO|1|N|Blazing Proto-Dragon slain.|
@@ -245,9 +245,9 @@ K Malifron|ACTIVE|65895|QO|1|M|62.70,16.39|Z|2023;Ohn'ahran Plains|N|Kill and lo
 C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Stick around to finish this bonus objective or walk out of the area as you choose.|US|IZ|13766|
 ;t The Sundered Asunder|QID|65892|M|PLAYER|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 T Competing Company|QID|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal, who has moved to just below Malifron in a broken tower.|
-A One Step Backwards|QID|66719||M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal|
-C One Step Backwards|QID|66719||M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|Open the bag you just received, use the mana gem twice.|
-T One Step Backwards|QID|66719||M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal|
+A One Step Backwards|QID|66719|PRE|65895|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal|RANK|2|
+C One Step Backwards|QID|66719|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|Open the bag you just received, use the mana gem twice.|
+T One Step Backwards|QID|66719|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|To Skyscribe Adenedal|
 A Proto Problems|QID|65898|PRE|66719|M|62.14,16.31|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
 C Proto Problems|QID|65898|M|60.65,17.37|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click The Black Locus which will summon Hypoxicron.|
 C Proto Problems|QID|65898|M|60.82,17.36|Z|2023;Ohn'ahran Plains|QO|2|N|Kill Hypoxicron. Be careful where you stand, he had a knockback and it's a long ways down.|
@@ -287,8 +287,8 @@ C Storm Chasing|QID|66684|M|85.02,64.19|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click 
 C Storm Chasing|QID|66684|M|85.03,62.37|Z|2023;Ohn'ahran Plains|QO|1|N|Finish off the Primalist Forces.|US|
 T Storm Chasing|QID|66684|M|80.87,58.94|Z|2023;Ohn'ahran Plains|N|To Scout Watu.|
 
-R Ohn'iri Springs|ACTIVE|66201|M|56.69,76.57|Z|2023;Ohn'ahran Plains|N|You'll probably want to be a full vigor if you are using your dragon.|
-f Ohn'iri Springs|ACTIVE|66201|M|56.69,76.57|Z|2023;Ohn'ahran Plains|N|At Flightmaster Huraq.|
+R Ohn'iri Springs|ACTIVE|65906|M|56.69,76.57|Z|2023;Ohn'ahran Plains|N|You'll probably want to be a full vigor if you are using your dragon.|RANK|2|
+f Ohn'iri Springs|ACTIVE|65906|M|56.69,76.57|Z|2023;Ohn'ahran Plains|N|At Flightmaster Huraq.|RANK|2|
 T A Disgruntled Initiate|QID|65906|M|56.24,75.95|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Sneaking Out|QID|65901|PRE|65906|M|56.24,75.95|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C Sneaking Out|QID|65901|QO|1|M|57.01,75.47;57.37,76.34;56.66,76.29|CN|Z|2023;Ohn'ahran Plains|H|N|Click on the 3 glowing outlines of totems around the camp.|
@@ -427,7 +427,7 @@ T Weather Control|QID|66242|M|60.65,63.58|Z|2023;Ohn'ahran Plains|N|To Initiate 
 T Eagle-itarian|QID|66256|M|60.65,63.58|Z|2023;Ohn'ahran Plains|N|To Initiate Boku.|
 T Fowl Sorcery|QID|66257|M|60.65,63.58|Z|2023;Ohn'ahran Plains|N|To Initiate Boku.|
 A Oh No, Ohn'ahra!|QID|66258|PRE|66242&66256&66257|M|60.65,63.58|Z|2023;Ohn'ahran Plains|N|From Initiate Boku.|
-C Oh No, Ohn'ahra!|QID|66258|M|60.26,64.95|Z|2023;Ohn'ahran Plains|N|Protect Boku from enemies (100%).|
+C Oh No, Ohn'ahra!|QID|66258|M|60.26,64.95|Z|2023;Ohn'ahran Plains|N|Follow Boku around the circle, protecting him as he channels at the runestones holding Oh'ara.|
 T Oh No, Ohn'ahra!|QID|66258|M|61.40,62.79|Z|2023;Ohn'ahran Plains|N|To Initiate Boku.|
 A A Storm of Ill Tidings|QID|66259|PRE|66258|M|61.40,62.79|Z|2023;Ohn'ahran Plains|N|From Initiate Boku.|
 $ Windsong Rise Glyph|QID|99999|N|Just after the swirly things on the ground, over the mountain top.|M|61.5,64.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16063|
@@ -436,15 +436,15 @@ F Ohn'iri Springs|ACTIVE|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight
 C Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|CHAT|N|Talk to Radiya.|
 T Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|To Initiate Radiya.|
 
-H Maruukai|ACTIVE|66259|M|PLAYER|N|Hearth back to Maruukai. If you hearth is set elsewhere or not available, there is a flight path here, or you can fly/run.|
+H Maruukai|ACTIVE|66259|M|PLAYER|N|Hearth back to Maruukai. If you hearth is set elsewhere or not available, there is a flight path in Ohn'iri Springs, or you can fly/run.|
 ;REN3? not sure what triggered this
 A Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruuk;2503;3|IZ|13764|
 T Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
-C A Storm of Ill Tidings|QID|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to the Khanam Matra (top floor).|
+C A Storm of Ill Tidings|QID|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Tell the Khanam Matra about Ohn'ara. (top floor).|
 T A Storm of Ill Tidings|QID|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Chasing the Wind|QID|66327|PRE|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
 C Chasing the Wind|QID|66327|M|60.04,37.50|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Wait and listen.|
-C Chasing the Wind|QID|66327|M|60.04,37.50|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Khanam Matra Sarest.|
+C Chasing the Wind|QID|66327|M|60.04,37.50|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Tell Khanam Matra Sarest you understand.|
 C Chasing the Wind|QID|66327|M|61.13,40.01|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Ride Taivan (Optional).|
 C Chasing the Wind|QID|66327|M|72.93,40.51|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Meet Khanam Matra Sarest outside the Horn of Drusahl.|
 T Chasing the Wind|QID|66327|M|73.02,40.59|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
@@ -456,14 +456,14 @@ A Blowing of the Horn|QID|66329|PRE|66327|M|76.68,40.94|Z|2023;Ohn'ahran Plains|
 C Blowing of the Horn|QID|66329|M|76.68,40.94|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Tell her you are ready.|
 T Blowing of the Horn|QID|66329|M|76.68,40.94|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Green Dragon Down|QID|66328|PRE|66329|M|76.68,40.94|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
-C Green Dragon Down|QID|66328|M|72.49,49.81|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Wait and watch.|
+C Green Dragon Down|QID|66328|M|72.49,49.81|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Head over to the waypoint, then wait and watch.|
 C Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Offer to help Khanam Matra explain to the situation to the dragons.|
 C Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Listen to the discussion.|
 T Green Dragon Down|QID|66328|M|72.35,50.33|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A With the Wind at Our Backs|QID|66344|PRE|66328|M|72.45,50.72|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 C With the Wind at Our Backs|QID|66344|M|72.30,50.72|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Gerithus you are ready to go.|
 T With the Wind at Our Backs|QID|66344|M|28.26,57.69|Z|2023;Ohn'ahran Plains|N|To Merithra.|
-A Some Call Me Bug Catcher|QID|70062|PRE|66344|M|29.94,58.34|Z|2023;Ohn'ahran Plains|N|From Gracus, who paths thru the area.|
+A Some Call Me Bug Catcher|QID|70062|PRE|66344|M|29.94,58.34|Z|2023;Ohn'ahran Plains|N|From Gracus, who paths thru the area.|RANK|2|
 C Some Call Me Bug Catcher|QID|70062|M|29.46,58.47|Z|2023;Ohn'ahran Plains|N|Kill and loot Flyspawn Beetles to collect Parts.|S|
 A Shady Sanctuary|QID|70220|M|28.32,57.73|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 f Shady Sanctuary|ACTIVE|70220|M|29.82,57.63|Z|2023;Ohn'ahran Plains|N|At Sariosa.|
@@ -526,10 +526,10 @@ C Renewal of Vows|QID|66783|QO|3|M|22.33,50.94;22.13,50.98|CS|Z|2023;Ohn'ahran P
 C Renewal of Vows|QID|66783|QO|4|M|22.13,50.98;22.33,50.94|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Take the Everblooming Soil from Merithra and bring it to Khanam Matra.|
 T Renewal of Vows|QID|66783|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A Into the Azure|QID|66340|PRE|66783|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-A The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|PRE|66783|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Merithra. This is a [color=e6cc80]dungeon [/color] quest and beyond the scope of this guide. Pick up or not as you choose.|
+A The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|PRE|66783|M|21.34,50.96|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest. This is a [color=e6cc80]dungeon [/color] quest and beyond the scope of this guide. Pick up or not as you choose.|
 t The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|M|59.99,37.46|Z|2023|N|To Khanam Matra Sarest.|
 R Nokhudon Hold|ACH|16457|M|34.79,43.53|Z|2023;Ohn'ahran Plains|N|This is the only spot the guide doesn't take you to, run/fly over here if you want to explore the zone.|RANK|3|
-$ Nokhudon Hold Glyph|QID|99999|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|N|Over the mountain top.|ACH|16055|
+$ Nokhudon Hold Glyph|QID|99999|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|N|Over the mountain top.|ACH|16055|RANK|3|
 A The Lonely Scout|QID|70985|M|34.23,53.96|Z|2023;Ohn'ahran Plains|N|From Scout Santuun.|RANK|3|
 R Shady Sanctuary|ACTIVE|70985|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|And back to finish up the quest.|RANK|3|
 C The Lonely Scout|QID|70985|QO|1|M|29.60,56.71|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to both sisters.|
@@ -537,8 +537,8 @@ C The Lonely Scout|QID|70985|QO|2|M|29.54,56.68|Z|2023;Ohn'ahran Plains|CHAT|N|T
 T The Lonely Scout|QID|70985|M|34.23,53.96|Z|2023;Ohn'ahran Plains|N|To Scout Santuun.|
 
 ;no clue of PRE for this chain but im using 66783/Renewal of Vows
-R Lilac Ramble|AVAILABLE|65899|PRE|66783|M|25.06,56.89|Z|2023;Ohn'ahran Plains|N|Over to Lilac Rumble to see Ysera's friend.|
-A Find Theramus|QID|65899|M|25.06,56.89|Z|2023;Ohn'ahran Plains|N|From Celina Crunchyleaves.|
+R Lilac Ramble|AVAILABLE|65899|PRE|66783|M|25.06,56.89|Z|2023;Ohn'ahran Plains|N|Over to Lilac Rumble to see Ysera's friend.|RANK|2|
+A Find Theramus|QID|65899|M|25.06,56.89|Z|2023;Ohn'ahran Plains|N|From Celina Crunchyleaves.|RANK|2|
 C Find Theramus|QID|65899|M|24.86,64.46|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|You don't have to search all the caves, just go inside this one to find him.|
 T Find Theramus|QID|65899|M|24.43,63.01|Z|2023;Ohn'ahran Plains|N|To Celina Crunchyleaves.|
 A Can't Beat Fluffy|QID|65903|PRE|65899|M|24.43,63.01|Z|2023;Ohn'ahran Plains|N|From Celina Crunchyleaves.|
@@ -578,7 +578,7 @@ C In Memory of Ysera|QID|66011|M|24.94,65.89|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N
 C In Memory of Ysera|QID|66011|M|24.94,65.89|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Tell Theramus you understand.||
 T In Memory of Ysera|QID|66011|M|24.94,65.89|Z|2023;Ohn'ahran Plains|N|To Theramus.|
 
-H Maruukai|ACTIVE|66340|M|PLAYER|N|Take a shortcut back across the zone for the last quest area or to move on to the next zone.|
+H Maruukai|ACTIVE|66340|M|PLAYER|N|Take a shortcut back across the zone for the last quest area or to move on to the next zone.|RANK|2|
 T Call of the Hunt|QID|71231|M|62.49,41.63|Z|2023;Ohn'ahran Plains|N|To Trainer Frodrum.|
 A The Trouble with Taivan|QID|67772|M|61.22,40.00|Z|2023;Ohn'ahran Plains|N|From Healer Selbekh.|RANK|3|
 C The Trouble with Taivan|QID|67772|QO|1|M|61.13,40.02|Z|2023;Ohn'ahran Plains|H|N|Click on Taivan to brush him, this is a pretty long channelled spell.|
@@ -637,8 +637,8 @@ C Taivan's Purpose|QID|69096|QO|1|M|61.81,38.55|Z|2023;Ohn'ahran Plains|CHAT|N|T
 C Taivan's Purpose|QID|69096|QO|2|M|61.81,38.55|Z|2023;Ohn'ahran Plains|CHAT|N|Try to talk to Chimel again.|
 C Taivan's Purpose|QID|69096|QO|3|M|61.81,38.55|Z|2023;Ohn'ahran Plains|NC|N|Wait and watch.|
 T Taivan's Purpose|QID|69096|M|61.81,38.72|Z|2023;Ohn'ahran Plains|N|To Healer Selbekh.|
-R Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|And we are off to the last area, you probably need a full vigor bar if you are going to take your dragon.|RANK|2|
-f Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|2|
+R Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|And we are off to the last area, you probably need a full vigor bar if you are going to take your dragon.|
+f Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|
 T Into the Azure|QID|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|To Masud the Wise.|
 A To the Azure Span|QID|65686|PRE|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|From Masud the Wise.|LEAD|72267|
 
@@ -677,7 +677,7 @@ T A Worthy Hunt|QID|69979|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To Khadin. Thi
 
 ;adventure mode
 N Adventure Mode|ACTIVE|72268^65686|PRE|72267|S!US|N|If you want to go on to Azure Span, travel to Forkriver Crossing to meet Masud the Wise, If you want to choose a different zone, manually check off this step and the next one and return to Wingrest Embassy and the scouting map to pick a new zone if needed, or go directly to the new guide if you already have the lead in quest.|
-F Forkriver Crossing|ACTIVE|72268^65686|PRE|72267|M|37.06,60.82|Z|2024|N|At Arc Tel XVII.|
+F Forkriver Crossing|ACTIVE|72268^65686|PRE|72267|
 N Choose Azure Span|ACTIVE|72268^65686|PRE|72267|JUMP|The_Azure_Span|
 F Wingrest Embassy|AVAILABLE|72266^72268^72269|PRE|72267|M|57.50,68.13|Z|2022|N|At Vaknai.|
 N Scouting Map|AVAILABLE|72266^72268^72269|PRE|72267|M|76.52,34.24|Z|2022|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
