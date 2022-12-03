@@ -339,7 +339,7 @@ C Leave Bee Alone|QID|66734|M|57.13,70.35|Z|2022|QO|2|NC|EAB|N|Use Extra Action 
 T Just a Trim|QID|66735|M|55.26,63.48|Z|2022|N|To Vaeros.|
 T Leave Bee Alone|QID|66734|M|55.26,63.48|Z|2022|N|To Vaeros.|
 A A Better Start|QID|66737|PRE|66734&66735|M|55.19,63.68|Z|2022|N|From Adazius.|RANK|2|
-C A Better Start|QID|66737|M|55.64,64.63;56.03,66.37;56.41,66.02;57.29,64.72;56.86,63.69;55.73,63.73|CS|Z|2022|H|N|Click on the piles of dirt around the pool and watch the pland mature.|
+C A Better Start|QID|66737|M|55.64,64.63;56.03,66.37;56.41,66.02;57.29,64.72;56.86,63.69;55.73,63.73|CS|Z|2022|H|N|Click on the piles of dirt around the pool and watch the plant mature.|
 T A Better Start|QID|66737|M|55.20,63.70|Z|2022|N|To Adazius.|
 R Overflowing Rapids|ACTIVE|66879|M|53.43,58.40|Z|2022|N|Hop on your dragon and glide across the river to see Dazakros.|RANK|2|
 T Hornstrider Havoc|QID|66879|M|53.43,58.40|Z|2022|N|To Dazakros.|
@@ -389,6 +389,7 @@ A Orientation: Dragonscale Basecamp|QID|72397|PRE|66963|M|47.89,82.41|Z|2022|N|F
 C Orientation: Dragonscale Basecamp|QID|72397|QO|1|M|47.92,82.09|Z|2022|CHAT|N|Rae'ana is the scholars supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|2|M|47.74,83.22|Z|2022|CHAT|N|Granpap Whiskers is the catalogers supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|3|M|47.32,83.41|Z|2022|CHAT|N|Pathfinder Jeb is the explorers supplier.|
+A Lost Expedition Scouts|QID|70822|M|47.32,83.41|Z|2022|N|From Pathfinder Jeb.|DFREN|Valdrakken;2510;3|IZ|13732|;not sure of this pre - may be dragonscale exp 2?
 C Orientation: Dragonscale Basecamp|QID|72397|QO|4|M|46.94,82.90|Z|2022|CHAT|N|Boss Magor is the artisans supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|5|M|47.10,82.58|Z|2022|CHAT|N|Cataloger Jakes is the Keeper of Renown.|
 T Orientation: Dragonscale Basecamp|QID|72397|M|47.22,82.72|Z|2022|N|To Toddy Whiskers.|
@@ -459,22 +460,6 @@ A Dragon Isles Supplies|QID|72032|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|D
 
 ;t Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autocompleted.|
 
-R Smoldering Perch|AVAILABLE|65687|M|39.43,48.33|Z|2022|N|We are going to take a side trip to get a quest line for Sojourner of the Waking Shores.|RANK|3|;why is there no leadin quest for this?
-A Punching Up|QID|65687|M|39.43,48.33|Z|2022|N|From Ingot.|RANK|3|
-A A Cultist's Misgivings|QID|65690|M|39.43,48.33|Z|2022|N|From Ingot.|RANK|3|
-C Punching Up|QID|65687|M|37.43,46.66|Z|2022|N|Kill the Worldbreaker Dragonkin as you search for Ayasanth.|S|
-T A Cultist's Misgivings|QID|65690|M|37.45,46.67|Z|2022|N|To Ayasanth.|
-A Under Lock and Key|QID|65782|PRE|65690|M|37.45,45.67|Z|2022|N|From Ayasanth.|RANK|3|
-C Under Lock and Key|QID|65782|QO|1|M|38.20,48.36|Z|2022|N|The key drops from the Worldbreaker Guards, so prioritize killing them until you get the key.|
-C Punching Up|QID|65687|M|38.20,48.36|Z|2022|N|Keep killing the Worldbreaker Dragonkin until the step completes.|US|
-C Under Lock and Key|QID|65782|QO|2|M|37.45,46.67|Z|2022|H|N|Unlock her cage.|
-T Punching Up|QID|65687|M|37.32,46.65|Z|2022|N|To Ingot.|
-T Under Lock and Key|QID|65782|M|37.35,46.62|Z|2022|N|To Ayasanth.|
-A The Shadow of His Wings|QID|65691|PRE|65687&65782|M|37.35,46.62|Z|2022|N|From Ayasanth.|RANK|3|
-C The Shadow of His Wings|QID|65691|QO|1|M|35.59,47.95|Z|2022|N|Go into the cave, most of the mobs are "orange" (neutral) and will clear out. Kill the hostiles and go stand by Cygenoth.|
-K Cygenoth|ACTIVE|65691|QO|2|M|35.03,45.44|Z|2022|N|Kill Cygenoth the Corrupted.|T|Cygenoth|
-T The Shadow of His Wings|QID|65691|M|39.56,48.40|Z|2022|N|To Ayasanth.|
-
 R Obsidian Bulwark|ACTIVE|66079|M|47.7,67.1;42.47,66.82|CS|Z|2022|N|Mount up and head off to find Wrathion.|
 T Wrathion Awaits|QID|66079|M|42.47,66.82|CS|Z|2022|N|To Wrathion.|
 A Lessons From Our Past|QID|72241|PRE|66124|M|42.47,66.82|Z|2022|N|From Scalecommander Emberthal.|
@@ -493,6 +478,23 @@ T Best Plans and Intentions|QID|66048|M|42.47,66.85|Z|2022|N|To Wrathion.|
 T Sharp Practice|QID|66078|M|42.47,66.86|Z|2022|N|To Wrathion.|
 A Talon Strike|QID|65956|PRE|66048&66078|M|42.47,66.86|Z|2022|N|From Wrathion (after a bit of dialog).|
 A No Time for Heroes|QID|65957|PRE|66048&66078|M|42.47,66.86|Z|2022|N|From Wrathion (after a bit of dialog).|
+
+R Smoldering Perch|AVAILABLE|65687|M|39.43,48.33|Z|2022|N|We are going to take a side trip to get a quest line for Sojourner of the Waking Shores.|RANK|3|;why is there no leadin quest for this?
+A Punching Up|QID|65687|M|39.43,48.33|Z|2022|N|From Ingot.|RANK|3|
+A A Cultist's Misgivings|QID|65690|M|39.43,48.33|Z|2022|N|From Ingot.|RANK|3|
+C Punching Up|QID|65687|M|37.43,46.66|Z|2022|N|Kill the Worldbreaker Dragonkin as you search for Ayasanth.|S|
+T A Cultist's Misgivings|QID|65690|M|37.45,46.67|Z|2022|N|To Ayasanth.|
+A Under Lock and Key|QID|65782|PRE|65690|M|37.45,45.67|Z|2022|N|From Ayasanth.|RANK|3|
+C Under Lock and Key|QID|65782|QO|1|M|38.20,48.36|Z|2022|N|The key drops from the Worldbreaker Guards, so prioritize killing them until you get the key.|
+C Punching Up|QID|65687|M|38.20,48.36|Z|2022|N|Keep killing the Worldbreaker Dragonkin until the step completes.|US|
+C Under Lock and Key|QID|65782|QO|2|M|37.45,46.67|Z|2022|H|N|Unlock her cage.|
+T Punching Up|QID|65687|M|37.32,46.65|Z|2022|N|To Ingot.|
+T Under Lock and Key|QID|65782|M|37.35,46.62|Z|2022|N|To Ayasanth.|
+A The Shadow of His Wings|QID|65691|PRE|65687&65782|M|37.35,46.62|Z|2022|N|From Ayasanth.|RANK|3|
+C The Shadow of His Wings|QID|65691|QO|1|M|35.59,47.95|Z|2022|N|Go into the cave, most of the mobs are "orange" (neutral) and will clear out. Kill the hostiles and go stand by Cygenoth.|
+K Cygenoth|ACTIVE|65691|QO|2|M|35.03,45.44|Z|2022|N|Kill Cygenoth the Corrupted.|T|Cygenoth|
+T The Shadow of His Wings|QID|65691|M|39.56,48.40|Z|2022|N|To Ayasanth.|
+
 C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|S|
 C No Time for Heroes|QID|65957|M|35.53,68.52|Z|2022|QO|1|N|Slay Piercer Gigra on the top of the tower. Watch out for the orange circle on the ground. It will knock you off the tower.|T|Piercer Gigra|
 C No Time for Heroes|QID|65957|M|34.82,66.91|Z|2022|QO|3|N|Slay Olphis the Molten.|T|Olphis the Molten|
