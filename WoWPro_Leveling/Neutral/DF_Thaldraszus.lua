@@ -10,7 +10,7 @@ return [[
 ;Renown Quests
 A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier
 A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;did not show up till i picked up wheres the cheif.
-;A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|
+A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|PRE|70156|
 A A Cataloger's Paradise|QID|69869|ACTIVE|65490|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
 A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|-16363|
 
@@ -32,7 +32,7 @@ A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you
 ;A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Autoaccepted.|IZ|13813|
 K Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Kill it or not as you choose.|IZ|13813|
 $ South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower|ACH|16100|
-f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|
+f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|RANK|2|
 f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2112|N|At Aluri.|
 A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promoter.|RANK|2|
 A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112|N|From Waywatcher Lorin.|RANK|2|
@@ -40,9 +40,15 @@ A Aiding the Accord|QID|70750^72068^72373^72374^72375|PRE|71232^72293|M|50.14,56
 A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around...
 C To Valdrakken|QID|66244|M|52.20,53.02|Z|2112|QO|1|NC|N|Head up the steps for the quest update.|
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
+A Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
+T Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+T Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
+T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own).|
 T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
-T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder.|
+T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
 A A Message Most Dire|QID|66159^72269|PRE|66244|M|58.11,34.88|Z|2112|N|From Alexstrasza the Life-Binder.|
 C A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|CHAT|N|Information delivered.|
 T A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder.|
@@ -62,21 +68,25 @@ C A Dryad's Work Is Never Done|QID|67094|M|51.23,71.16|Z|2112|QO|5|H|N|Click the
 C Orientation: Valdrakken|QID|72406|QO|2|M|46.92,78.70|Z|2112|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
 C A Dryad's Work Is Never Done|QID|67094|M|42.87,74.97|Z|2112|QO|2|H|N|Click the Hungry Otter Pup.|
 C Orientation: Valdrakken|QID|72406|QO|3|M|36.43,62.83|Z|2112|N|Open Dothenos' store to get quest update.|
-C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger.|
+A A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|From Azley.|RANK|2|; -- if you havent already done it. dont know that I want to actually add to the guide tho
+C A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|CHAT|N|Ask Azley about crafting orders.|
+T A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|To Azley.|
+C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger. Don't leave the area until you get quest update.|
 A Lost to the Skies|QID|71239|M|25.17,66.27|Z|2112|N|From Gimla Fizzlecrank.|RANK|2|
 C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|H|N|Click the Hungry Hatchling, it is above the bank, not in it.|
-C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank.|
-C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet.|
+C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank. Don't leave the area until you get quest update.|
+C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet. Don't leave the area until you get quest update.|
 A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdrakken;2510;7|RANK|2|;add iz?
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|
 C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|H|N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
-T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.(at the top of the stairs, not the top of the building where you last saw him.)|
+T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.(at the top of the stairs, not the top of the building where you last saw her.)|
 T Eyes and Ears|QID|66166|M|54.72,47.33|Z|2112|N|To Captain Drine.|
 A Southern Exposure|QID|66167|PRE|66166&66163|M|54.89,47.01|Z|2112|N|From Captain Drine.|
 T Orientation: Valdrakken|QID|72406|M|58.21,35.09|Z|2112|N|To Unatos.|
+R South Hold Gate|ACTIVE|66167|M|35.69,81.93|Z|2025|N|Travel to South Hold Gate.|
 C Southern Exposure|QID|66167|M|35.69,81.93|Z|2025|QO|1|NC|N|Travel to South Hold Gate.|
 C Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|QO|2|H|N|Click on Guardian Velomir.|
 T Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|N|To Guardian Velomir.|
@@ -288,9 +298,9 @@ A Cracks in Time|QID|65948|PRE|65935|M|59.57,81.63|Z|2025|N|From Chromie.|
 A Quelling Causalities|QID|66646|PRE|65935|M|59.57,82.66|Z|2025|N|From Andantenormu.|
 C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025|N|Kill the Time Elementals as you go.|S|
 C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025|NC|EAB|N|Use your [color=33fff9]Extra Action Button [/color] to free the Timewalkers. There are exactly 8, so don't skip any.|S|
-C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|2|EAB|N|Also use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
+C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|2|NC|EAB|N|Also use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
 C Cracks in Time|QID|65948|M|60.58,80.56|Z|2025|QO|3<50|H|N|Pick up the shards from the ground.|
-C Cracks in Time|QID|65948|M|58.43,83.09|Z|2025|QO|1|EAB|N|Again use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
+C Cracks in Time|QID|65948|M|58.43,83.09|Z|2025|QO|1|NC|EAB|N|Again use your [color=33fff9]Extra Action Button [/color] to break the shield around the Crystal, then back up (a'la pulling weeds).|
 C Cracks in Time|QID|65948|M|58.25,82.87|Z|2025|QO|3|H|N|Pick up the shards.|
 C Time-Locked Timewalkers|QID|65947|M|58.73,82.47|Z|2025|NC|EAB|N|Continue using your [color=33fff9]Extra Action Button [/color] until all the Timewalkers are free.|US|
 C Quelling Causalities|QID|66646|M|58.35,82.19|Z|2025|N|Keep killing the Time Elementals until this step closes.|US|
@@ -380,10 +390,16 @@ C An Anomalous Shrine|QID|67093|M|59.35,75.02|Z|2025|QO|1;2|N|Kill the Ancient T
 C An Anomalous Shrine|QID|67093|M|59.49,71.86|Z|2025|QO|3|H|N|Everything stuns, so avoid it all. Work your way to the Cache of the timeless and loot it for the Echo of Duty.|
 C Entropic Remnants|QID|67154|M|57.8,77.9|Z|2025|N|Kill and loot mobs in the Shifting sands to get the Vitrified Sand.|US|
 T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
-;A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112|N|From Aspiring Goblin Engineer.|;Deleted? LEAD?
+;A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112|N|From Aspiring Goblin Engineer.|IZ|2112|;Per WH this is deleted
 
-F Valdrakken|ACTIVE|66221|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|
+H Valdrakken|ACTIVE|66221|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
+A Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
+T Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+T Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
+T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
 C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza that all the Oathstones have been restored.|
 T Moving On|QID|66221|M|57.97,36.04|Z|2112|N|To Alexstrasza.|
@@ -489,7 +505,7 @@ A Bleeding Hearts|QID|69934|PRE|69932&69933|M|50.14,67.78|Z|2025;Thaldraszus|N|F
 C Bleeding Hearts|QID|69934|QO|1|M|53.00,67.54|Z|2025;Thaldraszus|NC|N|The cave entrance is all the way down on the valley floor.|
 C Bleeding Hearts|QID|69934|QO|2|M|53.32,67.51|Z|2025;Thaldraszus|H|N|Click on the glowing box outline to leave the medicine.|
 f Gelikyr Post|ACTIVE|69934|M|51.16,67.09|Z|2025;Thaldraszus|N|At Talon Smoht.|
-A Out of the Blue|QID|70781|ACTIVE|-71239|PRE|66221|M|50.51,67.42|Z|2025;Thaldraszus|N|From Lieutenant Conure.|RANK|2|LEAD|71239|
+A Out of the Blue|QID|70781|PRE|66221|ACTIVE|-71239|M|50.51,67.42|Z|2025;Thaldraszus|N|From Lieutenant Conure.|RANK|2|LEAD|71239|
 C Bleeding Hearts|QID|69934|QO|3|M|51.76,69.14|Z|2025;Thaldraszus|NC|N|The infirmery is a small tower, up the stairs from the flightmaster in Gelikyr Post.|
 C Bleeding Hearts|QID|69934|QO|4|M|51.69,69.18|Z|2025;Thaldraszus|H|N|Place the box against the wall to the right of the door.|
 T Bleeding Hearts|QID|69934|M|51.73,69.32|Z|2025;Thaldraszus|N|To Timetender Athekk.|
@@ -544,8 +560,13 @@ C The Awaited Egg-splosion|QID|66299|QO|5|M|44.48,73.01|Z|2025;Thaldraszus|N|Wai
 C The Awaited Egg-splosion|QID|66299|QO|6|M|44.48,73.01|Z|2025;Thaldraszus|EAB|N|Optionally you can use the provided Glider. It will take you directly to Harleen.|
 T The Awaited Egg-splosion|QID|66299|M|43.45,70.53|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
 H Valdrakken|ACTIVE|70750^72068^72373^72374^72375|M|PLAYER|N|Hearth back to Valdrakken or fly back on your own as you choose.|
-A Renown Supplies|QID|72672|M|58.18,35.01|Z|2112|DFREN|Valdrakken;2510;11|N|From Unatos.|;At 10 Renown this is not active.
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
+A Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
+T Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+T Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
+T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 
 N Adventure Mode|AVAILABLE|72266^72267^72268|PRE|72269|S!US|N|If you want to go on to the max level Dragonflight Campaign (currently very sketch Work in Progress, Manually check off all remaining steps and it will load. If you want to choose a different zone fly back to Wingrest Embassy and grab the new area from the scouting map.|
 F Wingrest Embassy|AVAILABLE|72266^72267^72268|PRE|72269|M|76.03,35.04|Z|2022|
