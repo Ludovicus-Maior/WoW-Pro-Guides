@@ -271,7 +271,7 @@ T The Weave of a Tale|QID|66213|M|12.41,49.40|Z|2024|N|To Elder Nappa.|
 C Gather the Family|QID|66210|QO|1<2|M|12.46,50.31|Z|2024|H|N|Pick up the shield by the docks.|
 A Scampering Scamps|QID|66218|PRE|65849|M|12.90,48.70|Z|2024|N|From Hanu.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.62|Z|2024|CHAT|N|Say Hello to Norukk.|
-A WANTED: Krojek the Shoreprowler|QID|66217|PRE|65849|M|13.19,48.76|Z|2024|N|From Bukarakikk.|RANK|2|
+A WANTED: Krojek the Shoreprowler|QID|66217|PRE|65849|M|12.53,49.83|Z|2024|N|From Bukarakikk.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|3|M|13.19,48.82|Z|2024|NC|N|Click on Tatto to discover he supplies mounts.|
 C Orientation: Iskaara|QID|72435|QO|1|M|13.17,48.53|Z|2024|NC|N|Check out what Arvik has for sale.|
 C Gather the Family|QID|66210|QO|1<3|M|13.87,49.49|Z|2024|H|N|Pick up the boat from on the piling beside Jinkutuk.|
@@ -357,7 +357,7 @@ A To the Mountain|QID|65887|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollsta
 A Drakes be Gone|QID|67299|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|RANK|2|
 A Artifacts in the Wrong Hands|QID|66964|PRE|65886|M|65.94,25.27|Z|2024|N|From Polky Cogzapper.|RANK|2|
 f Rhonin's Shield|ACTIVE|65887|M|66.00,25.39|Z|2024|N|At Portia Striat.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-A Riders in the Snow|QID|66708|PRE|65886|M|65.90,25.47|Z|2024|N|From Tuskarr Elder.|RANK|2|
+A Riders in the Snow|QID|66708|PRE|65886|M|65.90,25.47|Z|2024|N|From Tuskarr Elder.|RANK|2|LEAD||
 C Drakes be Gone|QID|67299|M|65.73,25.72|Z|2024|V|N|Use one of the Arcane Blasters to shoot Proto-Drakes out of the sky.|
 T Drakes be Gone|QID|67299|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 K Yetor|ACTIVE|66968|M|70.53,26.46|Z|2024|QO|1|N|Yetor can be found in a small cave with Yetis outside.|
@@ -649,7 +649,7 @@ C Elementary, My Dear Drakonid|QID|71009|M|21.62,35.34|Z|2024|QO|2|NC|N|This is 
 T Elementary, My Dear Drakonid|QID|71009|M|21.52,35.46|Z|2024|N|To Varsek.|
 A Varsek Recruited|QID|71012|PRE|71009|M|21.52,35.46|Z|2024|N|From Varsek.|
 A The Joy of Painting|QID|70166|PRE|71009|M|22.11,36.79|Z|2024|N|From Rauvros who is on an upper floor of the tower.|
-A A Minor Setback|QID|66261|M|21.01,38.91|Z|2024|N|From Illusory Mage.|RANK|2|
+A A Minor Setback|QID|66261|PRE|66026|M|21.01,38.91|Z|2024|N|From Illusory Mage.|RANK|2|LEAD|66262|
 T A Minor Setback|QID|66261|M|22.73,41.67|Z|2024;The Azure Span|N|To Detry Hornswald.|
 A Waste Water Cleanup|QID|66262|PRE|66261|M|22.73,41.67|Z|2024;The Azure Span|N|From Detry Hornswald.|RANK|2|
 C Waste Water Cleanup|QID|66262|M|23.13,41.21|Z|2024;The Azure Span|QO|1|N|Click on each rotting pile, usually a waste elemental will spawn, after you kill it, quest updates.|
