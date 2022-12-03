@@ -450,7 +450,7 @@ A Theory in Practice|QID|69902|PRE|69900&69901|M|45.95,81.50|Z|2022|N|From Tyrgo
 C Theory in Practice|QID|69902|M|45.91,81.44|Z|2022|QO|1|H|N|Click on the whelpling.|
 C Theory in Practice|QID|69902|M|45.96,81.50|Z|2022|QO|2|CHAT|N|Pick a name any name.|
 T Theory in Practice|QID|69902|M|45.96,81.50|Z|2022|N|To Tyrgon.|
-A Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|From Ree'ana.|DFREN|Dragonscale Exp;2507;3|RANK|2|
+A Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|From Rea'ana.|DFREN|Dragonscale Exp;2507;3|RANK|2|C|DEMONHUNTER|
 T Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|To Ree'ana.|
 ;guessing at matching levels to QIDs REN level from UI, quest id from questschanged in order completed, should match up
 A Dragon Isles Supplies|QID|72024|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|DFREN|Dragonscale Exp;2507;2|IZ|13732|RANK|2|;at 3 when picking this up
