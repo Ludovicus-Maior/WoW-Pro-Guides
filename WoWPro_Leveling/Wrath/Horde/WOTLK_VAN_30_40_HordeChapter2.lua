@@ -435,11 +435,6 @@ A Prison Break In|QID|544|M|61.59,20.83|Z|1424|N|From Magus Wordeen Voidglare.|
 A Stone Tokens|QID|556|M|61.50,20.94|Z|1424|N|From Keeper Bel'varil.|
 A Soothing Turtle Bisque|QID|7321|M|62.30,19.09|Z|1424|N|From Christoph Jeffcoat, inside the Inn.|
 T Soothing Turtle Bisque|QID|7321|M|62.30,19.09|Z|1424|N|To Christoph Jeffcoat.|IZ|272|
-
-;HerniaOG
-
-;HerniaOG
-
 A Helcular's Revenge|QID|552|M|63.88,19.67|Z|1424|N|From Novice Thaivand, standing in the cemetary.|
 A Infiltration|QID|533|M|63.23,20.66|Z|1424|N|From Krusk.|
 R Darrow Hill|ACTIVE|552|M|49.10,32.22|Z|1424|N|Run to the Cave in Darrow Hill.|
@@ -453,9 +448,8 @@ C Flame of Azel|QID|553|M|43.89,28.06|Z|1424|QO|1|N|Make your way to the top of 
 R Alterac Mountains|ACTIVE|1136^553|M|44.60,87.21|Z|1416|N|Exit the cave and head north up the hill.|
 l Mountain Lion Carcass|ACTIVE|1136|M|43.03,80.38|Z|1416|L|5810|ITEM|5810|N|Any Mountain Lion\nYou'll need this to spawn Frostmaw.\n[color=FF0000]NOTE: [/color]The Fresh Carcass has a time limit of 30 minutes before it despawns and you have to get another one.|
 R Growless Cave|ACTIVE|1136|M|37.58,68.29|Z|1416|N|Giving the Alliance outpost on your left a wide berth, continue north to Growless Cave.|
-N Flame of Uzel|ACTIVE|1136&553|N|This item is used for both 'Frostmaw' and 'Helcular's Revenge'. That being said, if you click on it, I cannot say for certain which quest will activate first. Clicking on the 'Fresh Carcass' will guarantee you start Frostmaw.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 l Fresh Carcass|ACTIVE|1136|M|41.99,77.39|Z|1416|L|5810|ITEM|5810|N|Any Mountain Lion\n[color=FF0000]NOTE: [/color]Remember, the Fresh Carcass has a time limit of 30 minutes before it despawns.|
-K Frostmaw|ACTIVE|1136|M|37.54,66.24|Z|1416|L|5811|ITEM|1416|N|Frostmaw\nClear the cave and click on (use) the Fresh Carcass at Flame of Uzel to spawn Frostmaw.|U|5810|
+K Frostmaw|ACTIVE|1136|M|37.54,66.24|Z|1416|L|5811|N|Frostmaw\nClear the cave and click on (use) the Fresh Carcass at Flame of Uzel to spawn Frostmaw.|U|5810|
 C Flame of Uzel|QID|553|M|37.54,66.24|Z|1416|QO|3|N|Click on Flame of Uzel to charge Helcular's Rod.|
 R Lordamere Internment Camp|ACTIVE|544^556|M|21.93,82.32|Z|1416|N|Exit the cave and head west to Dalaran.|
 C Stone Tokens|QID|556|M|21.70,82.83|Z|1416|L|3714 10|ITEM|3714|N|Dalaran Shield Guard/Theurgist\n[color=FF0000]NOTE: [/color]Keep an eye on your health because the Shield Guards can hit quite hard.|S|
@@ -466,7 +460,6 @@ K Kegan Darkmar|ACTIVE|544|M|17.86,83.10|Z|1416|L|3688|ITEM|3688|N|Kegan Darkmar
 * Belamoore's Research Journal|QID|9999|N|This item is useless and unsellable. You can safely delete it.|U|3711|
 C Stone Tokens|QID|556|M|21.05,84.03|Z|1416|L|3714 10|ITEM|3714|N|Dalaran Shield Guard/Theurgist\n[color=FF0000]NOTE: [/color]If they are hard to find, you can head to Dalaran and kill Summoners.|US|
 R Corrahn's Dagger|ACTIVE|533|M|29.0,79.4;40.5,84.5;44.09,77.70|CC|Z|1416|N|Leave the camp and head east into the hills. Continue east making sure to stay clear of the Alliance fort at The Headlands.|
-N Sofera's Naze|ACTIVE|533|N|If you find this area busy, you can find more mobs east of here, across the road.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Infiltration|QID|533|M|48.10,81.89|Z|1416|L|3601|ITEM|3601|N|Syndicate Thief/Footpad|
 R Tarren Mill|ACTIVE|533^544^556|M|60.35,21.10|Z|1424|N|Make your way back to Tarren Mill.|
 T Prison Break In|QID|544|M|61.60,20.84|Z|1424|N|To Magus Wordeen Voidglare.\n[color=FF0000]NOTE: [/color]Do not get the follow-up.|
@@ -477,10 +470,10 @@ R Southshore|ACTIVE|553|M|54.47,51.56|Z|1424|N|Follow the river south to Southsh
 T Helcular's Revenge|QID|553|M|52.76,53.34|Z|1424|N|Click on Helcular's tombstone to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not stick around as this area is patrolled by a couple Alliance guards.|
 
 ; --- Arathi Highlands
-R Arathi Highlands|AVAILABLE|655|M|20.04,29.38|Z|1417|N|Before leaving the area, we are going to make the run through Arathi Highlands to get the FP at Hammerfall.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Arathi Highlands|AVAILABLE|655|M|20.04,29.38;63.8,41.8|CC|Z|1417|N|Before leaving the area, we are going to make the run through Arathi Highlands to get the FP at Hammerfall.|
 C Smoldering Coal|ACTIVE|4784|M|25.45,30.26|Z|1417|L|6991 2|ITEM|6991|N|Burning Exile in Circle of West Binding.\n[color=FF0000]NOTE: [/color]They are immune to fire damage.|
-R Hammerfall|AVAILABLE|655|M|45.3,58.9;25.45,30.26|CC|Z|1417|N|Continue eastward along the road until you reach the signpost for Hammerfall. Head northeast as indicated by the sign, keeping an eye out for more signs as you follow the road along.|
-f Hammerfall|AVAILABLE|655|M|73.07,32.61|Z|1417|N|From Urda.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+R Hammerfall|AVAILABLE|655|M|45.3,58.9;22.6,34.12;23.97,43.96;27.24,49.71;43.47,55.71;45.27,58.94;50.83,59.86;59.44,47.69;68.15,43.18;74.61,39.09|CC|N|Continue eastward along the road until you reach the signpost for Hammerfall. Head northeast as indicated by the sign, keeping an eye out for more signs as you follow the road along.|
+f Hammerfall|AVAILABLE|655|M|73.07,32.61|N|From Urda.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 A Hammerfall|QID|655|M|72.63,33.93|Z|1417|N|From Gor'mul.|
 T Hammerfall|QID|655|M|74.72,36.29|Z|1417|N|To Tor'gan.|
 
@@ -508,35 +501,30 @@ A The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE
 T The Completed Robe|QID|4786|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 
 ; --- Stranglethorn Vale
-N Stranglethorn Vale|AVAILABLE|575|N|If you have the Booty Bay FP already, this is going to be a lot quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Orgrimmar|AVAILABLE|570^568|M|63.09,37.16|Z|1413|C|Warlock|
 F Orgrimmar|AVAILABLE|570^568|M|47.02,49.83|Z|1456|
 b Grom'gol Base Camp|QID|5762|AVAILABLE|201|M|50.59,12.67|Z|1411|N|Take the Zeppelin to Grom'gol Base Camp.|
 A Mok'thardin's Enchantment|QID|570|AVAILABLE|201|M|32.12,29.24|Z|1434|N|From Far Seer Mok'thardin.|
 A The Defense of Grom'gol|QID|568|AVAILABLE|201|M|32.20,28.83|Z|1434|N|From Commander Aggro'gosh.|
-f Grom'gol|AVAILABLE|575|M|32.54,29.36|Z|1434|N|At Thysta.|
-N Flight Map|AVAILABLE|575|N|Speak with Thysta again to open the flight map to load all known FPs.\n[color=FF0000]NOTE: [/color]Manually check this step off once you've done this.|TAXI|-Booty Bay|
-
-; --- Has Booty Bay FP
+f Grom'gol|AVAILABLE|575|M|32.54,29.36|Z|1434|N|At Thysta. Make sure you open the map all the way.|
 F Booty Bay|ACTIVE|568|AVAILABLE|575|M|32.54,29.35|Z|1434|TAXI|Booty Bay|
-
-; --- Missing Booty Bay FP
-b Durotar|ACTIVE|568|AVAILABLE|575|M|31.37,30.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Durotar.|TAXI|-Booty Bay|
-F Ratchet|ACTIVE|568|AVAILABLE|575|M|47.02,49.83|Z|1456|N|Enter Orgrimmar and fly to Ratchet.|TAXI|-Booty Bay|
-b Booty Bay|ACTIVE|568|AVAILABLE|575|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|TAXI|-Booty Bay|
-
-; --- Back on track
-A Supply and Demand|QID|575|M|28.1,76.5;28.29,77.59|CC|Z|1434|N|From Drizzlik, inside Tan-Your-Hide Leatherworks.|
+A Supply and Demand|QID|575|M|28.1,76.5;28.29,77.59|CC|Z|1434|N|From Drizzlik, inside Tan-Your-Hide Leatherworks.\n[color=FF0000]NOTE: [/color]If you are not already flying to Booty Bay reset this guide.|
 R The Salty Sailor Tavern|AVAILABLE|201^213|M|27.10,77.66|Z|1434|N|Make your way to the upper entrance to the Inn.|
-A Investigate the Camp|QID|201|M|26.95,77.21|Z|1434|N|From Krazek.|
+A Investigate the Camp|QID|201|M|26.95,77.21|Z|1434|N|From Krazek. On the 3rd floor.|
 A Hostile Takeover|QID|213|M|27.00,77.13|Z|1434|N|From Kebok, who is standing beside Krazek.|
 A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|1434|N|From Kebok.|
-f Booty Bay|ACTIVE|189|M|26.87,77.09|Z|1434|N|Go around the corner to Gringer and pick up the flight path.\n[color=FF0000]NOTE: [/color]Manually check this step off if it doesn't auto-complete.|IZ|Booty Bay|
 F Grom'gol|ACTIVE|5762|AVAILABLE|9436|M|26.87,77.09|Z|1434|TAXI|Grom'gol|
 A Bloodscalp Insight|QID|9436|M|31.97,28.60|Z|1434|N|From Nemeth Hawkeye.|
 A The Vile Reef|QID|629|M|32.28,27.70|Z|1434|N|From Kin'weelay.|
 A Bloody Bone Necklaces|QID|596|M|32.28,27.70|Z|1434|N|From Kin'weelay.|
 A Hunt for Yenniku|QID|581|M|32.16,27.72|Z|1434|N|From Nimboya.|
+
+
+;HerniaOG
+
+;HerniaOG
+
+
 R Nesingwary's Expedition|AVAILABLE|583|M|38.6,23.3;35.2,14.5;35.65,10.66|CC|Z|1434|N|Go east from Grom'gol and follow the road to the main road. Head north from here until you're almost at the river. The camp should be just off the road to the west.|
 A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|1434|N|From Barnil Stonepot.|
 T Hemet Nesingwary Jr.|QID|5762|M|35.66,10.81|Z|1434|N|To Hemet Nesingwary Jr.|
