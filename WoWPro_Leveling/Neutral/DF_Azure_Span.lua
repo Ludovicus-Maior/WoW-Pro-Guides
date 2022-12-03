@@ -135,7 +135,7 @@ T Arcane Pruning|QID|65709|M|40.69,59.10|Z|2024|N|To Kalecgos.|
 T Driven Mad|QID|65702|M|40.74,59.04|Z|2024|N|To (the other) Kalecgos.|
 A Straight to the Top|QID|65852|PRE|65702&65709|M|40.74,59.04|Z|2024|N|From Kalecgos.|
 C Straight to the Top|QID|65852|M|39.58,60.27|Z|2024|QO|1|U|191978|NC|N|Go back to the arcane field and use the [color=33fff9]Bag of Helpful Goods [/color] again to find more helpul stuff.|
-C Straight to the Top|QID|65852|M|39.58,60.27|Z|2024|QO|2|NC|EAB|N|Use the [color=33fff9]extra action button [/color] that appears to reach the Azure Archives apex.|
+C Straight to the Top|QID|65852|M|39.58,60.27|Z|2024|QO|2|NC|EAB|N|When the [color=33fff9]extra action button [/color] appears, use it to reach the Azure Archives apex.|
 T Straight to the Top|QID|65852|M|39.97,61.46|Z|2024|N|To Kalecgos.|
 A Platform Adjustments|QID|65751|PRE|65852|M|39.97,61.46|Z|2024|N|From Kalecgos.|
 A Arcane Annoyances|QID|65752|PRE|65852|M|39.97,61.46|Z|2024|N|From Kalecgos.|
@@ -202,9 +202,9 @@ A Leader of the Shadepaw Pack|QID|65873|PRE|65866&65867&65868|M|34.37,31.03|Z|20
 A Ill Gnolls with Ill Intent|QID|65872|PRE|65866&65867&65868|M|34.37,31.03|Z|2024|N|From Brena.|
 A Supplies!|QID|65870|PRE|65866&65867&65868|M|34.34,31.00|Z|2024|N|From Elder Poa.|
 C Supplies!|QID|65870|M|33.90,30.47|Z|2024|QO|3|H|N|Pick up the basket of hunting game calls, just inside the cave.|
-C Ill Gnolls With Ill Intent|QID|65872|M|60.20,41.41|Z|2132|N|Shadepaw gnolls slain.|S|
+C Ill Gnolls with Ill Intent|QID|65872|M|60.20,41.41|Z|2132|N|Shadepaw gnolls slain.|S|
 C Gnoll Way Out|QID|65871|QO|1|M|46.60,42.33|Z|2132|H|N|Click on the cages to rescue the Tuskarr.|S|
-C Supplies!|QID|65870|QO|1|M|28.94,75.19|Z|2132|H|N|Pick up the barrel Salt.|
+C Supplies!|QID|65870|QO|1|M|28.94,75.19|Z|2132|H|N|Pick up the Barrel of Salt.|
 C Gnoll Way Out|QID|65871|QO|2|M|41.60,64.52|Z|2132|H|N|Click on Norukk who is lying on the ground deeper down in the cave.|
 C Supplies!|QID|65870|QO|2|M|51.66,36.67|Z|2132|H|N|Click the barrel of skinning tools.|
 K Kargpaw the Fetid|ACTIVE|65873|QO|1|M|40.44,17.97|Z|2132|N|Kill and loot Kargpaw.|T|Kargpaw the Fetid|
@@ -357,7 +357,7 @@ A To the Mountain|QID|65887|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollsta
 A Drakes be Gone|QID|67299|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|RANK|2|
 A Artifacts in the Wrong Hands|QID|66964|PRE|65886|M|65.94,25.27|Z|2024|N|From Polky Cogzapper.|RANK|2|
 f Rhonin's Shield|ACTIVE|65887|M|66.00,25.39|Z|2024|N|At Portia Striat.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-A Riders in the Snow|QID|66708|PRE|65886|M|65.90,25.47|Z|2024|N|From Tuskarr Elder.|RANK|2|LEAD||
+A Riders in the Snow|QID|66708|PRE|65886|M|65.90,25.47|Z|2024|N|From Tuskarr Elder.|LEAD|66709|RANK|2|
 C Drakes be Gone|QID|67299|M|65.73,25.72|Z|2024|V|N|Use one of the Arcane Blasters to shoot Proto-Drakes out of the sky.|
 T Drakes be Gone|QID|67299|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 K Yetor|ACTIVE|66968|M|70.53,26.46|Z|2024|QO|1|N|Yetor can be found in a small cave with Yetis outside.|
@@ -582,7 +582,7 @@ C An Ancient Awakening|QID|70156|QO|2|M|48.33,30.13|NC|N|Clicking the little pin
 C An Ancient Awakening|QID|70156|QO|3|M|48.33,30.13|NC|N|Click the waygate.|
 T An Ancient Awakening|QID|70156|M|47.20,90.25|Z|2022|N|To Thaelin Darkanvil. Congratulations, you have now unlocked Waygates.|
 R Cobalt Assembly|ACTIVE|72784|M|49.39,24.87|Z|2024|N|We are now going to see what the Cobalt Assembly is up to.|
-R Cobalt Assembly|ACTIVE|66244|M|39.92,61.54;49.39,24.87|CS|Z|2024|N|We're now headed to grab the Cobalt Assembly Glyph on our way to Thaldraszus.\n[color=FF0000]NOTE: [/color]Use one of the Arcane Stepping Stones to get to the top of the Azure Archives. This will give you some extra height considering the distance you are about travel.|EAB|RANK|-1|ACH|16064|
+R Cobalt Assembly|ACTIVE|66244|M|38.25,61.48;49.39,24.87|CS|Z|2024|N|We're now headed to grab the Cobalt Assembly Glyph on our way to Thaldraszus.\n[color=FF0000]NOTE: [/color]Use one of the Arcane Stepping Stones to get to the top of the Azure Archives. This will give you some extra height considering the distance you are about travel.|EAB|RANK|-1|ACH|16064|
 
 $ Cobalt Assembly Glyph|QID|99999|N|On top of the highest tower. You may need to land on the lower tower to regen vigor first.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 $ Dragonspring Summit Glyph|QID|99999|N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16061|
@@ -772,7 +772,7 @@ A Kill the Queen|QID|65834|PRE|65832&65833|M|48.99,64.22|Z|2024;The Azure Span|N
 C Kill the Queen|QID|65834|M|47.24,65.58|Z|2024;The Azure Span|U|191044|N|Grungir has provided you with a [color=33fff9]Spider Squasher [/color]to make the job easier.|
 T Kill the Queen|QID|65834|M|49.00,64.27|Z|2024;The Azure Span|N|To Grungir Ironspout.|
 
-R Camp Nowhere|ACTIVE|66939^66957^66958^66968^66971^66972|M|62.92,58.38|N|Over to see Nesingwary and turn in any completed kill quests.|
+R Camp Nowhere|ACTIVE|66939^66957^66958^66968^66971^66972|M|62.92,58.38|N|Over to see Nesingwary and turn in any completed kill quests.|RANK|2|
 $ Imbu Glyph|QID|99999|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|ACH|16070|RANK|3| ;-- not in an area the guide takes us to. Closest is Camp Nowhere
 F Grimtusk's Hideaway|ACTIVE|71000^71017^71012|M|58.79,34.90|Z|2024;The Azure Span|N|Hop on your dragon and let's go to the last spot in the zone.|RANK|3|
 T Naluki's Letter|QID|71017|M|58.79,34.90|Z|2024;The Azure Span|N|To Old Grimtusk.|
