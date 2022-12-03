@@ -1,3 +1,27 @@
+# Release 2022.12.03.A
+## Bug Fixes
+* ookami313:  Crash with attempt to concatenate local 'jqid' (a boolean value)
+* Start using SetResizeBounds now that it works in 10.0.2
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* Leveling: Azure Span, Ohnahran Plains, Thaldraszus, Waking Shores
+
+### Classic
+* No Classic guides were harmed during this release
+
+### WotLK
+* Horde: Chapter 2 30-40
+* Neutral: Sholazar Basin
+
+### Professions
+* No Professions guides were harmed during this release
+
+
 # Release 2022.12.01.A
 ## Bug Fixes
 * Add active Rank and Rank Source to CurrentGuide display
