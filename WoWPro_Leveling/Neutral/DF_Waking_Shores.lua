@@ -455,7 +455,7 @@ A Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|From Rea'ana.|DFREN|D
 T Simple Excavation Tools|QID|70335|M|47.92,82.07|Z|2022|N|To Ree'ana.|
 ;guessing at matching levels to QIDs REN level from UI, quest id from questschanged in order completed, should match up
 A Dragon Isles Supplies|QID|72024|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|DFREN|Dragonscale Exp;2507;2|IZ|13732|RANK|2|;at 3 when picking this up
-A Dragon Isles Supplies|QID|70026|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|DFREN|Dragonscale Exp;2507;5|IZ|13732|RANK|2|;at 8 when picking this up
+A Dragon Isles Supplies|QID|72026|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|DFREN|Dragonscale Exp;2507;5|IZ|13732|RANK|2|;at 8 when picking this up
 A Dragon Isles Supplies|QID|72032|M|47.11,82.59|Z|2022|N|From Cataloger Jakes.|DFREN|Dragonscale Exp;2507;6|IZ|13732|RANK|2|;at 8 when picking this up
 
 ;t Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autocompleted.|
