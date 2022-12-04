@@ -78,7 +78,7 @@ A Where is Wrathion?|QID|70125|PRE|70122|M|76.62,33.63|Z|2022|N|From Toddy Whisk
 A Where is Wrathion?|QID|69910|PRE|65452|M|76.62,33.63|Z|2022|N|From Naleidea Rivergleam.|FACTION|Horde|
 C Where is Wrathion?|QID|70125^69910|M|76.61,33.65|Z|2022|CHAT|N|Ask Sendrax why the Dragons aren't here.|
 T Where is Wrathion?|QID|70125^69910|M|76.61,33.65|Z|2022|N|To Sendrax.|
-A Adventuring in the Dragon Isles|QID|72293|M|76.61,33.65|Z|2022|N|From Sendrax.|ACH|16759;;;true|
+A Adventuring in the Dragon Isles|QID|72293|M|76.61,33.65|Z|2022|N|From Sendrax.|ACH|-16759;;;true|
 T Dragon Isles Supplies|QID|72708|M|76.54,34.25|N|To Cartographer Jakes.|
 A Funding a Treasure Hunt|QID|72709|PRE|72708|M|76.54,34.25|N|From Cartographer Jakes.|
 B Archeologist Artifact Notes|ACTIVE|72709|QO|1|M|76.54,34.25|N|Buy the notes from Cartographer Jakes.|

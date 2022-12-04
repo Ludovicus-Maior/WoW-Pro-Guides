@@ -11,7 +11,6 @@ A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who wi
 A Dormant Discovery|QID|66595|M|PLAYER|N|Autoaccepted from item looted.|O|U|198538|DFREN|Dragonscale Exp;2507;7|;from item looted reletively soon after getting the rep.
 A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier
 
-
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
 ;PLACED F Ohn'ahra's Roost|N|Over the Eagle statue.|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16054|
@@ -28,13 +27,13 @@ A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2
 ;PLACED F Rubyscale Outpost|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 
 ;adventure mode
-F Dragonscale Basecamp|ACTIVE|72267|M|48.27,88.67|Z|2022|N|Fly, either on your own or by flightpath to Dragonscale Basecamp.|IZ|-13732|
-R Rubyscale Outpost|ACTIVE|72267|M|48.27,88.67|Z|2022|N|Exit town on the west side and follow the road generally north to meet Ambassador Taurasza at Rubyscale Outpost.|
+F Dragonscale Basecamp|ACTIVE|65795^72267|M|57.81,68.13|Z|2022|N|Take the flightpath to Dragonscale Basecamp. Skip this step if you wish to use your Dragon to fly directly to Rubyscale Outpost.|;Needs a FLY DF once its been implemented. 
+R Rubyscale Outpost|ACTIVE|65795^72267|M|48.27,88.67|Z|2022|N|Exit to the east and follow the road generally south to meet Ambassador Taurasza at Rubyscale Outpost.|
 T Ohn'arran Plains|QID|72267|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza.|
 
 T Next Steppes|QID|65795|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza. You can run or glide on your dragon to get to him.|
-A Into the Plains|QID|65779|PRE|65795^72267|M|48.27,88.67|Z|2022|N|From Ambassador Taurasza.|
 $ Rubyscale Outpost Glyph|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
+A Into the Plains|QID|65779|PRE|65795^72267|M|48.27,88.67|Z|2022|N|From Ambassador Taurasza.|
 $ Mirewood Fen Glyph|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|N|If you aren't on your Dragon, mount up and get the glyph floating just above the ground.|ACH|16671|
 T Into the Plains|QID|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Proving Oneself|QID|65780|PRE|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
@@ -667,7 +666,7 @@ T Customer Satisfaction|QID|69981|M|71.84,81.27|Z|2023;Ohn'ahran Plains|N|To Mah
 
 ;A Show Your Mettle|QID|70221|PRE|69915|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|;possible profession requirement
 T Show Your Mettle|QID|70221|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|
-F Terrakai|ACTIVE|67298|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|3|
+F Teerakai|ACTIVE|67298|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|3|
 C The Wonders of the World|QID|67298|QO|2|M|46.09,59.93|Z|2023;Ohn'ahran Plains|N|Fly over and pick up the Ancient Scrap of Draconic Wisdom in the nest.|
 T The Wonders of the World|QID|67298|M|46.04,59.92|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|
 F Khadin's Cave|ACTIVE|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|And then hop back on your dragon and fly over to see Khadin.|

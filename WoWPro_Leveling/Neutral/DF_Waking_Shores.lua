@@ -384,7 +384,7 @@ A Exeunt, Triumphant|QID|66124|PRE|66123|M|53.68,80.15|Z|2022|N|From Majordomo S
 A Out For Delivery|QID|66963|LEAD|66524|M|48.48,78.86|Z|2022|N|From Hauler Bennet.|RANK|2|
 T Out For Delivery|QID|66963|M|48.54,82.68|Z|2022|N|To Cataloger Wulferd.|
 A Amateur Protography|QID|66524|PRE|66123|M|48.49,82.67|Z|2022|N|From Cataloger Wulferd.|RANK|2|
-f Dragonscale Basecamp|ACTIVE|66524|M|47.9,83.33|Z|2022|N|At Art Raskins.|
+f Dragonscale Basecamp|ACTIVE|66124|M|47.9,83.33|Z|2022|N|At Art Raskins.|
 A Orientation: Dragonscale Basecamp|QID|72397|PRE|66963|M|47.89,82.41|Z|2022|N|From Naleidea Rivergleam.|RANK|2|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|1|M|47.92,82.09|Z|2022|CHAT|N|Rae'ana is the scholars supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|2|M|47.74,83.22|Z|2022|CHAT|N|Granpap Whiskers is the catalogers supplier.|
@@ -566,8 +566,8 @@ A A Charge of Care|QID|65794|PRE|65791|M|62.35,73.02|Z|2022|N|From Alexstrasza t
 C A Charge of Care|QID|65794|M|62.35,73.02|Z|2022|CHAT|N|Watch the cutscene as the Ruby Oathstone becomes empowered.|
 T A Charge of Care|QID|65794|M|61.57,68.54|Z|2022|N|To Alexstrasza the Life-Binder.|
 A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022|N|From Alexstrasza the Life-Binder.|LEAD|72267|
-F Dragonscale Basecamp|ACTIVE|65795^72267|M|48.27,88.67|Z|2022|N|Fly, either on your own or by flightpath to Dragonscale Basecamp.|
-R Rubyscale Outpost|ACTIVE|65795^72267|M|48.27,88.67|Z|2022|N|Exit town on the west side and follow the road generally north to meet Ambassador Taurasza at Rubyscale Outpost.|
+F Dragonscale Basecamp|ACTIVE|65795^72267|M|57.81,68.13|Z|2022|N|Take the flightpath to Dragonscale Basecamp. Skip this step if you wish to use your Dragon to fly directly to Rubyscale Outpost.|;Needs a FLY DF once its been implemented. 
+R Rubyscale Outpost|ACTIVE|65795^72267|M|48.27,88.67|Z|2022|N|Exit to the east and follow the road generally south to meet Ambassador Taurasza at Rubyscale Outpost.|
 
 N Adventure Mode|AVAILABLE|72268^72269|PRE|72266|S!US|N|If you want to go on to Ohn'ahran Plains next, fly to meet Ambassador Taurasza, If you want to choose a different zone, manually check off the next two steps and return to Wingrest Embassy and the scouting map.|
 F Dragonscale Basecamp|ACTIVE|65794|PRE|72266|M|57.50,68.13|Z|2022|N|At Vaknai.|
