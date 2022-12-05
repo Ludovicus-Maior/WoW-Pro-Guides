@@ -106,7 +106,7 @@ C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|N|Finish 
 T For Food and Rivalry|QID|65804|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 T Mysterious Beast|QID|70185|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A By Broken Road|QID|65940|PRE|65804&70185|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
-C By Broken Road|QID|65940|M|70.02,37.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Arrive at the second stop. Again you can ride the[color=0060ee]Stout Riding Baker[/color]if you want.|
+C By Broken Road|QID|65940|M|70.02,37.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Arrive at the second stop. Again you can ride the [color=0060ee]Stout Riding Baker[/color] if you want.|
 T By Broken Road|QID|65940|M|69.97,37.98|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Connection to Ohn'ahra|QID|65805|PRE|65940|M|69.97,37.98|Z|2023;Ohn'ahran Plains|N|From Ohn Seshteng.|
 C Connection to Ohn'ahra|QID|65805|M|68.69,41.49|Z|2023;Ohn'ahran Plains|QO|3|N|Kill Salamanthers until you loot a Heart.|S|
@@ -121,7 +121,7 @@ C Omens on the Wind|QID|66848|M|69.88,37.64|Z|2023;Ohn'ahran Plains|QO|2|H|N|Cli
 C Omens on the Wind|QID|66848|M|69.98,37.72|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Wait and watch while the Ritual completes.|
 T Omens on the Wind|QID|66848|M|69.96,37.96|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Maruukai|QID|65806|PRE|65805|M|70.01,38.01|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
-C Maruukai|QID|65806|M|61.48,39.56|Z|2023;Ohn'ahran Plains|NC|N|(Optional) The Bakar is again avialable to ride, if you want to travel along with them. Otherwise, just get to Maruukai.|
+C Maruukai|QID|65806|M|61.48,39.56|Z|2023;Ohn'ahran Plains|NC|N|(Optional) The Bakar is again available to ride, if you want to travel along with them. Otherwise, just get to Maruukai.|
 T Maruukai|QID|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|To Sansok Khan.|
 A Clan Teerai|QID|66016|PRE|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
 A Clan Ohn'ir|QID|66017|PRE|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|
