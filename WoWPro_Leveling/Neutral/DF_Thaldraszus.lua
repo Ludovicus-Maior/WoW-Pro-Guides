@@ -37,13 +37,13 @@ f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2112|N|At Aluri.|
 A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promoter.|RANK|2|
 A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112|N|From Waywatcher Lorin.|RANK|2|
 A Aiding the Accord|QID|70750^72068^72373^72374^72375|PRE|71232^72293|M|50.14,56.28|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
-A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around...
+;A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around... not sure what the trigger is. but as it's done in WS still... leaving out of this guide entirely
 C To Valdrakken|QID|66244|M|52.20,53.02|Z|2112|QO|1|NC|N|Head up the steps for the quest update.|
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
-A Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
-T Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|To Unatos.|
-A Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
-T Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
+T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own).|
@@ -54,7 +54,7 @@ C A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|CHAT|N|Information delivere
 T A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder.|
 A Nowhere to Hide|QID|66163|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine, who runs up to join the meeting.|
 A Eyes and Ears|QID|66166|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine.|
-A The Algeth'ar Academy|QID|72193|PRE|66159|M|61.39,36.46|Z|2112|N|From Kalecgos.|RANK|2|
+A The Algeth'ar Academy|QID|72193|PRE|66159|M|61.39,36.46|Z|2112|N|From Kalecgos.|RANK|2|LVL|70|IZ|2112|
 A Halls of Infusion: Entropy to Order|QID|72192|PRE|66159|M|54.34,40.94|Z|2112|N|From Watcher Koranos.|RANK|3|
 C Nowhere to Hide|QID|66163|M|58.90,36.29|Z|2112|QO|1|NC|U|198859|N|Use the Revealing Dragon's Eye to allow you to detect the Infiltrators.|
 C Nowhere to Hide|QID|66163|M|PLAYER|NC|U|198859|N|Looks like your Revealing Dragon's Eye buff is gone, reuse it to allow you to detect the Infiltrators.|BUFF|385996|
@@ -68,7 +68,7 @@ C A Dryad's Work Is Never Done|QID|67094|M|51.23,71.16|Z|2112|QO|5|H|N|Click the
 C Orientation: Valdrakken|QID|72406|QO|2|M|46.92,78.70|Z|2112|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
 C A Dryad's Work Is Never Done|QID|67094|M|42.87,74.97|Z|2112|QO|2|H|N|Click the Hungry Otter Pup.|
 C Orientation: Valdrakken|QID|72406|QO|3|M|36.43,62.83|Z|2112|N|Open Dothenos' store to get quest update.|
-A A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|From Azley.|RANK|2|; -- if you havent already done it. dont know that I want to actually add to the guide tho
+A A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|From Azley.|RANK|2| ;-- if you havent already done it. dont know that I want to actually add to the guide tho
 C A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|CHAT|N|Ask Azley about crafting orders.|
 T A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|To Azley.|
 C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger. Don't leave the area until you get quest update.|
@@ -76,10 +76,10 @@ A Lost to the Skies|QID|71239|M|25.17,66.27|Z|2112|N|From Gimla Fizzlecrank.|RAN
 C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|H|N|Click the Hungry Hatchling, it is above the bank, not in it.|
 C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank. Don't leave the area until you get quest update.|
 C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet. Don't leave the area until you get quest update.|
-A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdrakken;2510;7|RANK|2|;add iz?
+A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdrakken;2510;7|RANK|2|IZ|2112|
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
-A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|
+A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|LVL|70|IZ|2112|
 C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|H|N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
 T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.(at the top of the stairs, not the top of the building where you last saw her.)|
@@ -242,8 +242,8 @@ T A Poisonous Palette|QID|66456|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 T Ending the Blue Period|QID|66457|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 A Cache and Release|QID|66465|PRE|66456&66457|M|56.95,67.69|Z|2025|N|From Waywatcher Alvi.|
 A Art Imitates Life|QID|66467|PRE|66456&66457|M|56.95,67.69|Z|2025|N|From Waywatcher Alvi.|
-C Cache and Release|QID|66465|M|58.14,66.73|Z|2025|NC|N|Destroy the Spear Caches.|S|
-C Art Imitates Life|QID|66467|M|56.83,67.39;58.31,67.21|CS|Z|2025|N|Kill Greater Venomsprout.|
+C Cache and Release|QID|66465|M|58.14,66.73|Z|2025|NC|N|Head into the cave and destroy the Spear Caches as you head deeper.|S|
+C Art Imitates Life|QID|66467|M|56.83,67.39;58.31,67.21|CS|Z|2025|N|Greater Venomsprout is all the way at the end of the cave.|
 C Cache and Release|QID|66465|M|58.14,66.73|Z|2025|NC|N|Finish destroying Spear Caches.|US|
 T Cache and Release|QID|66465|M|54.64,69.51|Z|2025|N|To Waywatcher Alvi.|
 T Art Imitates Life|QID|66467|M|54.64,69.51|Z|2025|N|To Waywatcher Alvi.|
@@ -264,7 +264,7 @@ A Time in a Bottle|QID|66082|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.
 A Time is Running Out|QID|66081|PRE|70136|M|54.96,75.64|Z|2025|N|From Siaszerathel.|
 ;A Henlare|QID|69873|M|55.39,77.38|Z|2025|N|Bonus Objective - Autoaccepted.|RARE|
 K Henlare|ACTIVE|69873|M|55.39,77.38|Z|2025|N|Henlare is flying just above a flat mesa like place in the midle of the area.|RARE|
-C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Kill mobs that have glowing balls of energy and these are released when they die, run thru the energy orgs to collect them.|S|
+C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Kill mobs that have glowing balls of energy and these are released when they die, run thru the energy orbs to collect them.|S|
 C Time is Running Out|QID|66081|M|55.07,76.73|Z|2025|H|N|Pick up the Blue floating Temporal Collector.|
 C Time in a Bottle|QID|66082|M|55.50,78.55|Z|2025|N|Keep killing and collecting energy until you get enough.|US|
 T Time is Running Out|QID|66081|M|57.44,78.90|Z|2025|N|To Siaszerathel.|
@@ -313,13 +313,13 @@ C The Once and Future Team|QID|65938|M|60.52,83.55|Z|2025|QO|2|N|Fight the Giant
 T The Once and Future Team|QID|65938|M|59.59,81.70|Z|2025|N|To Chromie.|
 A The Never-Final Countdown|QID|65962|PRE|65938|M|59.59,81.70|Z|2025|N|From Chromie.|
 C The Never-Final Countdown|QID|65962|M|59.58,81.72|Z|2025|QO|1|CHAT|N|Tell Chromie you are ready.|
-f Temporal Conflux|ACTIVE|65962|M|59.91,81.37|Z|2025|N|At Warden Dialash.|
 A Entropic Remnants|QID|67154|PRE|65938|M|60.29,82.04|Z|2025|N|From Archivist Areniel.|RANK|2|
 A An Anomalous Shrine|QID|67093|PRE|65938|M|60.29,82.04|Z|2025|N|From Archivist Areniel.|RANK|2|
 T The Never-Final Countdown|QID|65962|M|60.05,82.45|Z|2025|N|To Nozdormu.|
 A Tumbling Through Time|QID|70040|PRE|65962|M|60.05,82.45|Z|2025|N|From Nozdormu.|
 C Tumbling Through Time|QID|70040|M|59.52,82.54|Z|2025|QO|1|CHAT|N|Tell Soridormi that Nozdormu wants to see her.|
 C Tumbling Through Time|QID|70040|M|59.32,82.19|Z|2025|QO|3|CHAT|N|Tell Siaszerathel that Nozdormu wants to see him.|
+f Temporal Conflux|ACTIVE|65962|M|59.91,81.37|Z|2025|N|At Warden Dialash.|
 C Tumbling Through Time|QID|70040|M|60.18,81.77|Z|2025|QO|2|CHAT|N|Tell Andantenormu that Nozdormu wants to see him.|
 C Tumbling Through Time|QID|70040|M|60.07,82.44|Z|2025|QO|4|CHAT|N|Tell Nozdormu tthat everyone is ready.|
 T Tumbling Through Time|QID|70040|M|60.06,82.44|Z|2025|N|To Nozdormu.|
@@ -329,7 +329,7 @@ P The Primalist Future|ACTIVE|66028|M|59.82,82.24|Z|Thaldraszus|N|Take the porta
 T To the Future!|QID|66028|M|61.11,50.87|Z|2085|N|To Soridormi.|
 A Resistance Isn't Futile|QID|66030|PRE|66028|M|61.11,50.87|Z|2085|N|From Soridormi.|
 A Making Time|QID|66031|PRE|66028|M|61.46,50.22|Z|2085|N|From Possible Future You.|
-C Making Time|QID|66031|M|51.28,25.75|Z|2085|EAB|N|Kill and loot mobs as you look for the injured. The various clicky balls of energy in the area are NOT what you are looking for, they give you a small buff.\n\n[color=FF0000]NOTE: [/color]Use the [color=33fff9]Extra Action Button [/color] for summoning Zera to assist you. She is pretty helpful.|S|
+C Making Time|QID|66031|M|51.28,25.75|Z|2085|EAB|N|Kill and loot mobs as you look for the injured. The various clicky balls of energy in the area are NOT what you are looking for but they give you a small buff.\n\n[color=FF0000]NOTE: [/color]Use the [color=33fff9]Extra Action Button [/color] for summoning Zera to assist you. She is pretty helpful.|S|
 C Resistance Isn't Futile|QID|66030|M|44.79,43.52|Z|2085|U|192467|H|N|Click the Injured Resistance Fighters.|S|
 C Temporal Tuning|QID|66029|M|47.61,41.57|Z|2085|NC|U|192749|N|Use the [color=33fff9]Chrono Crystal [/color]while standing under Chromie and Eternus.|
 C Resistance Isn't Futile|QID|66030|M|44.79,43.52|Z|2085|U|192467|H|N|Click the Injured Resistance Fighters.|US|
@@ -368,8 +368,8 @@ T Temporal Two-ning|QID|72519|M|60.06,82.46|Z|2025|N|To Nozdormu.|
 A On Your Mark... Get Set...|QID|66660|PRE|66037|M|60.06,82.46|Z|2025|N|From Nozdormu.|
 P Gnoll Wars Portal|ACTIVE|66660|M|59.92,82.18|Z|2025|N|Take the portal to the Gnoll Wars.|IZ|2025|
 T On Your Mark... Get Set...|QID|66660|M|43.39,69.21|Z|2090|N|To Andantenormu.|
-A Race Through Time!.|QID|66038|PRE|66660|M|43.39,69.21|Z|2090|N|From Andantenormu.\n\n[color=FF0000]NOTE: [/color] This is a timed quest, Don't Mount, it will slow you down. Run thru the boots for speedup, avoid the puddles, dont  stop to fight, follow the road and go thru the portal when you see it.|;intentianally broke auto accept - since it is timed
-A Race Through Time!.|QID|66038|PRE|66660|FAIL|M|43.39,69.21|Z|2090|N|You failed that time, you can talk to Andantenormu to skip the race or give it another try.|
+A Race Through Time!|QID|66038|PRE|66660|M|43.39,69.21|Z|2090|N|From Andantenormu.\n\n[color=FF0000]NOTE: [/color] This is a timed quest, Don't Mount, it will slow you down. Run thru the boots for speedup, avoid the puddles, don't stop to fight, follow the road and go thru the portal when you see it.|NOAUTO|
+A Race Through Time!|QID|66038|PRE|66660|FAIL|M|43.39,69.21|Z|2090|N|You failed that time, you can talk to Andantenormu to skip the race or give it another try.|NOAUTO|
 R Race Through Time!-Stormwind|ACTIVE|66038|M|43.1,67.9;43,66.8;42.6,65.1;41.9,63.8;41.6,61.9;40.6,59.6;40.3,57.7;39.6,56.3;38,54;36.9,54.4;35.7,53.6;34.6,53.1;33.7,52;32.8,50.4;32.5,49.9|CS|Z|2090|NC|N|Follow the road to Stormwind.|IZ|2090|
 R Race Through Time!-Ahn Qiraj|ACTIVE|66038|M|47.2,66.7;46.6,67.6;45.9,68.3;45.1,69.6;44.4,69.6;43.2,70.6;42,72.3;41.4,73.5;40.9,75;40.3,76;39.9,76.7;39.6,76.8|CS|Z|2091|NC|N|Follow the road towards Ahn'Qiraj.|IZ|2091|
 R Race Through Time!-Setting Sun|ACTIVE|66038|M|31.2,63.5;30.1,63.5;29.5,61.9;28.5,63.1;27.6,62.7;26.0,63.4;25.6,61.4;23.9,60.4;22.9,60.2;22,60.3;21.4,59.1;18.7,59.8;17.9,59.2;17.2,58.6;18.7,59.9;17.8,59.2;17.2,58.6;15.8,58.6;15.2,58.5|CS|Z|2088|NC|N|Follow the road towards the Gate ofthe Setting Sun.|IZ|2088|
@@ -386,18 +386,18 @@ T Back to the Future|QID|66040|M|60.06,82.45|Z|2025|N|To Nozdormu.|
 A Moving On|QID|66221|PRE|66040|M|60.06,82.45|Z|2025|N|From Nozdormu.|
 $ Temporal Conflux Glyph|QID|99999|M|64.91,82.05|Z|2025;Thaldraszus!Dragonflight|N|Just under the roof of the tower behind the Bronze Temple.|ACH|16098|
 C Entropic Remnants|QID|67154|M|57.8,77.9|Z|2025|N|Kill and loot mobs in the Shifting sands to get the Vitrified Sand.|S|
-C An Anomalous Shrine|QID|67093|M|59.35,75.02|Z|2025|QO|1;2|N|Kill the Ancient Timekeeper or sneak past him(Optional, as in if he isnt here, you don't have to wait for him) Inspect the anomalous mote by the doors.|
+C An Anomalous Shrine|QID|67093|M|59.49,71.86|Z|2025|QO|1;2|N|Kill the Ancient Timekeeper or sneak past him(Optional, as in if he isnt here, you don't have to wait for him) Inspect the anomalous mote by the doors.|
 C An Anomalous Shrine|QID|67093|M|59.49,71.86|Z|2025|QO|3|H|N|Everything stuns, so avoid it all. Work your way to the Cache of the timeless and loot it for the Echo of Duty.|
 C Entropic Remnants|QID|67154|M|57.8,77.9|Z|2025|N|Kill and loot mobs in the Shifting sands to get the Vitrified Sand.|US|
 T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
 ;A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112|N|From Aspiring Goblin Engineer.|IZ|2112|;Per WH this is deleted
 
-H Valdrakken|ACTIVE|66221|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|
+H Valdrakken|ACTIVE|66221^67093|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|TZ|The Roasted Ram|
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
-A Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
-T Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|To Unatos.|
-A Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
-T Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
+T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
@@ -406,11 +406,11 @@ T Moving On|QID|66221|M|57.97,36.04|Z|2112|N|To Alexstrasza.|
 A Renown of the Dragon Isles|QID|71232|PRE|66221|M|57.97,36.04|Z|2112|N|From Alexstrasza.|
 T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112|N|To Captain Drine.|
 T Renown of the Dragon Isles|QID|71232|M|50.64,57.95|Z|2112|N|To Therazal.|
-;A Open Orientation|QID|72585|PRE|72366|M|50.64,57.95|Z|2112|N|From Therazal.| only available to first char who gets it-- not offered to subsequent characters, can't find right PRE or ACH to limit it, so taking out of guide and adding note to A Learning Ingenuity
-C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones and guides to get acuainted with the other factions.|S!US|
+A Open Orientation|QID|72585|PRE|72366|M|50.64,57.95|Z|2112|N|From Therazal. This quest only available once per account, check it off manually if you already did it with a diff character.|; only available to first char who gets it-- not offered to subsequent characters, can't find right PRE or ACH to limit it, so taking out of guide and adding note to A Learning Ingenuity
 t Open Orientation|QID|72585|M|50.64,57.95|Z|2112|N|To Therazal.|
-A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal. She may also offer the quest Open Orientation, if you haven't done it on another character, take it too.|
-A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112|N|From Jyhanna.|; this is probably not the right pre.
+C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones to get acuainted with the other factions. Switch to Campaign guide now if you want to do that. If not, Make sure your guide is set to Rank 2 or 3 and stick around for Sojourner of Thaldraszus.|S!US|
+A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal. This is the opening of the campaign, switch to that guide for the rest of the steps.|
+A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112|N|From Jyhanna.|RANK|2|; this is probably not the right pre.
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|N|Find Lubbins in a ravine in the Petitioner's Concourse.|
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025|QO|2|H|N|Help Lubbins.|
 T Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|To Jyhanna.|
@@ -418,15 +418,7 @@ A An Expert Opinion|QID|70697|PRE|70647|M|10.41,58.26|Z|2112|N|From Jyhanna.|
 
 T A Dryad's Work Is Never Done|QID|67094|M|72.89,66.17|Z|2112|N|To Thalendra.|
 A A Dryadic Remedy|QID|67606|PRE|67094|M|72.89,66.17|Z|2112|N|From Thalendra.|
-T Learning Ingenuity|QID|72773|M|84.12,54.35|Z|2112|N|To Greyzik Cobblefinger.|
-;T Dragonscale Expedition: Help Needed!|QID|70846|M|84.20,54.33|Z|2112|N|To Greyzik Cobblefinger.|
-A Jump-Start? Jump-Starting!|QID|70180|PRE|72773^70846|M|84.20,54.33|Z|2112|N|From Greyzik Cobblefinger.|
-C Jump-Start? Jump-Starting!|QID|70180|QO|1|M|84.74,54.78|Z|2112|V|N|Hop in the Goblin Gyrocopter.|
-C Jump-Start? Jump-Starting!|QID|70180|QO|2|M|85.51,55.41|Z|2112|NC|N|After a bit, a button while show up on your vehicle UI, Use it and target the Console below. Repeatedly|
-C Jump-Start? Jump-Starting!|QID|70180|QO|3|M|86.36,51.75|Z|2112|NC|U|194441|N|When the charging button changes to Eject, press it and float down. Aim for the platform if you don't want a long flight back.|
-C Jump-Start? Jump-Starting!|QID|70180|QO|4|M|84.32,53.76|Z|2112|H|N|Activate the Engine of Innovation.|
-T Jump-Start? Jump-Starting!|QID|70180|M|84.31,53.54|Z|2112|N|To Maiden of Inspiration.|
-A In Tyr's Footsteps|QID|70845|PRE|70180|M|84.31,53.54|Z|2112|N|From Maiden of Inspiration. The remainder of this questline is in the Campaign guide.|
+
 T Archival Assistance|QID|67007|M|34.95,28.15|Z|2112|N|To Kemora.|
 A Preserving the Past|QID|66868^66870^66871^66872^66873^66874^66875|PRE|67007|M|34.95,28.15|Z|2112|N|From Kemora. This is your weekly dungeon quest, it will vary each week.|LVL|70|
 A Relic Recovery|QID|66860^66861^66863^66864^66865^66866^66867|PRE|67007|M|35.04,27.60|Z|2112|N|From Theldren. This is your other weekly dungeon quest, it will vary each week.|LVL|70|
@@ -440,7 +432,7 @@ A Some Favorite Things|QID|70741|PRE|72246|M|41.48,47.45|Z|2025|N|From Misplaced
 C The You-ga Class|QID|70738|M|40.95,45.21|Z|2025|QO|1|H|N|Rescue the tramatized Youga Students. Blizzard has conveniently marked their location on your mini-map.|S|
 C Some Favorite Things|QID|70741|M|40.94,46.07|Z|2025|H|N|Pick up misplaced belongings. Blizzard has conveniently marked their location on your mini-map.|S|
 C The You-ga Class|QID|70738|M|41.19,47.46|Z|2025|QO|2|H|N|Rescue the Youga Instructor too.|
-K Mudgatu|AVAILABLE|70377|PRE|72246|M|40.35,45.66|Z|2025|N|Kill Mudgatu for a quest starting item.|T|Mudgatu|
+K Mudgatu|AVAILABLE|70377|PRE|72246|M|40.35,45.66|Z|2025|N|Kill Mudgatu for a quest starting item.|T|Mudgatu|S!US|
 A Derelict Fashion|QID|70377|PRE|72246|M|40.35,45.66|Z|2025|N|From Derelict Sunglasses jut looted from Mudgatu.|O|U|280586|
 C Some Favorite Things|QID|70741|M|40.94,46.07|Z|2025|H|N|Pick up misplaced belongings.|US|
 C The You-ga Class|QID|70738|QO|2|M|40.95,45.21|Z|2025|H|N|Rescue the tramatized Youga Students.|US|
@@ -480,8 +472,9 @@ A Refti Retribution|QID|65921|PRE|65918|M|49.54,58.86|Z|2025|N|From Zuttiki.|
 A We Don't Negotiate with Primalists|QID|65916|PRE|65918&70139|M|49.61,58.78|Z|2025|N|From Mara.|
 C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025|N|Take Revenge against the Primalists and examine any Refti you come across to find a few survivors.|S|
 K Ko'jo|ACTIVE|65916|M|53.37,56.19|Z|2025|QO|2|N|Ko'jo is in the small cave up the ramp and in the back.|
-C We Don't Negotiate with Primalists|QID|65916|M|53.41,56.24|Z|2025|QO|1|H|N|After you kill Ko'jo, click the Missing ward pieces to retrieve them.|
-C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025|N|Continue killing Primalists and examining Refti bodies until the step completes. You need to find 4 still alive, they glow a little more obviously than the dead ones.|US|
+C We Don't Negotiate with Primalists|QID|65916|M|53.41,56.24|Z|2025|QO|1|NC|N|After you kill Ko'jo, click the Missing ward pieces to retrieve them.|
+C Refti Retribution|QID|65921|QO|1|M|52.41,58.12|Z|2025|N|Keep checking corpses to locate survivors. They have a yellower outline on the bodies.|
+C Refti Retribution|QID|65921|QO|2|M|52.41,58.12|Z|2025|N|Continue killing Primalists and examining Refti bodies until the step completes. You need to find 4 still alive, they glow a little more obviously than the dead ones.|
 T Refti Retribution|QID|65921|M|49.54,58.86|Z|2025|N|To Zuttiki.|
 T We Don't Negotiate with Primalists|QID|65916|M|49.62,58.75|Z|2025|N|To Mara.|
 A For the Ward!|QID|65920|PRE|65916&65921|M|49.62,58.75|Z|2025|N|From Mara.|
@@ -505,7 +498,7 @@ A Bleeding Hearts|QID|69934|PRE|69932&69933|M|50.14,67.78|Z|2025;Thaldraszus|N|F
 C Bleeding Hearts|QID|69934|QO|1|M|53.00,67.54|Z|2025;Thaldraszus|NC|N|The cave entrance is all the way down on the valley floor.|
 C Bleeding Hearts|QID|69934|QO|2|M|53.32,67.51|Z|2025;Thaldraszus|H|N|Click on the glowing box outline to leave the medicine.|
 f Gelikyr Post|ACTIVE|69934|M|51.16,67.09|Z|2025;Thaldraszus|N|At Talon Smoht.|
-A Out of the Blue|QID|70781|PRE|66221|ACTIVE|-71239|M|50.51,67.42|Z|2025;Thaldraszus|N|From Lieutenant Conure.|RANK|2|LEAD|71239|
+A Out of the Blue|QID|70781|PRE|66221|M|50.51,67.42|Z|2025;Thaldraszus|N|From Lieutenant Conure.|RANK|2|LEAD|71239|ACTIVE|-71239|
 C Bleeding Hearts|QID|69934|QO|3|M|51.76,69.14|Z|2025;Thaldraszus|NC|N|The infirmery is a small tower, up the stairs from the flightmaster in Gelikyr Post.|
 C Bleeding Hearts|QID|69934|QO|4|M|51.69,69.18|Z|2025;Thaldraszus|H|N|Place the box against the wall to the right of the door.|
 T Bleeding Hearts|QID|69934|M|51.73,69.32|Z|2025;Thaldraszus|N|To Timetender Athekk.|
@@ -556,15 +549,15 @@ C The Awaited Egg-splosion|QID|66299|QO|1|M|43.52,72.11|Z|2025;Thaldraszus|U|191
 C The Awaited Egg-splosion|QID|66299|QO|2|M|43.52,72.11|Z|2025;Thaldraszus|H|N|Click the cauldron.|
 C The Awaited Egg-splosion|QID|66299|QO|3|M|43.29,71.27|Z|2025;Thaldraszus|V|N|Hop on the "Taxi".|
 C The Awaited Egg-splosion|QID|66299|QO|4|M|44.48,73.01|Z|2025;Thaldraszus|H|N|Click on the egg bowl.|
-C The Awaited Egg-splosion|QID|66299|QO|5|M|44.48,73.01|Z|2025;Thaldraszus|N|Wait, watch, when the egg explodes, kill the Matriarch. Interrupt her Devour Essense spell as it will heal her.|
-C The Awaited Egg-splosion|QID|66299|QO|6|M|44.48,73.01|Z|2025;Thaldraszus|EAB|N|Optionally you can use the provided Glider. It will take you directly to Harleen.|
+C The Awaited Egg-splosion|QID|66299|QO|5;6|M|44.48,73.01|Z|2025;Thaldraszus|N|Wait, watch, when the egg explodes, kill the Matriarch. Interrupt her Devour Essense spell as it will heal her.|
+C The Awaited Egg-splosion|QID|66299|QO|7|M|44.48,73.01|Z|2025;Thaldraszus|EAB|N|Optionally you can use the provided Glider. It will take you directly to Harleen.|
 T The Awaited Egg-splosion|QID|66299|M|43.45,70.53|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
-H Valdrakken|ACTIVE|70750^72068^72373^72374^72375|M|PLAYER|N|Hearth back to Valdrakken or fly back on your own as you choose.|
+H Valdrakken|ACTIVE|70750^72068^72373^72374^72375|M|PLAYER|N|Hearth back to Valdrakken or fly back on your own as you choose.|TZ|The Roasted Ram|
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
-A Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
-T Renown Supplies|QID|72672|M|58.18,35.17|Z|2112|N|To Unatos.|
-A Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
-T Renown Supplies|QID|72673|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
+T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 
@@ -572,9 +565,9 @@ N Adventure Mode|AVAILABLE|72266^72267^72268|PRE|72269|S!US|N|If you want to go 
 F Wingrest Embassy|AVAILABLE|72266^72267^72268|PRE|72269|M|76.03,35.04|Z|2022|
 A Use Scouting Map|AVAILABLE|72266^72267^72268|PRE|72269|M|76.52,34.24|Z|2022|QID|72266^72267^72268|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
 N Adventure Mode|ACTIVE|72266^72267^72268|S!US|N|Finish your business in town and when you are ready, click on the book icon to load the next guide.|
-N Choose Waking Shore|ACTIVE|72266|JUMP|The_Waking_Shores|
-N Choose Ohn'ahran Plains|ACTIVE|72267|JUMP|Ohnahran_Plains|
-N Choose Azure Span|ACTIVE|72268|S!US|M|PLAYER|JUMP|The_Azure_Span|
+N Choose Waking Shore|ACTIVE|72266|S!US|JUMP|The_Waking_Shores|
+N Choose Ohn'ahran Plains|ACTIVE|72267|S!US|JUMP|Ohnahran_Plains|
+N Choose Azure Span|ACTIVE|72268|S!US|JUMP|The_Azure_Span|
 
 N The Remaining Glyphs|QID|99999|M|55.52,45.26|Z|2112|ACH|16578|N|If by some miracle, you still have glyphs to get, here are the rest of them in Thandraszus. These are areas you will visit in Max level questing/World Quests. Head up to the Seat of the Aspects to get some height for the journey.|RANK|3|
 $ Algeth'era Glyph|QID|99999|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|N|Over the tower.|ACH|16102|RANK|3|
@@ -583,6 +576,6 @@ $ Algeth'ar Academy Glyph|QID|99999|M|62.50,40.52|Z|2025;Thaldraszus!Dragonfligh
 $ Vault of the Incarnates Glyph|QID|99999|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|ACH|16106|RANK|3|
 $ Thaldraszus Apex Glyph|QID|99999|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|N|This is high above the mountain, the highest point.|ACH|16107|RANK|3|
 $ Tyrhold Glyph|QID|99999|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|N|This one is on the mountain ledge.|ACH|16103|RANK|3|
-
+D Congrats|N|Time to move on to the Campaign guide.|
 ]]
 end)
