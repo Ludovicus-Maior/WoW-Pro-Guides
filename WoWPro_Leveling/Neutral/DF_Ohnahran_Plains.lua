@@ -9,7 +9,8 @@ return [[
 A Call of the Plains|QID|71229|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|DFREN|Maruuk Centaur;2503;4|
 A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you shortly after you leave the tomb.|RANK|2|DFREN|Maruuk Centaur;2503;5|
 A Dormant Discovery|QID|66595|M|PLAYER|N|Autoaccepted from item looted.|O|U|198538|DFREN|Dragonscale Exp;2507;7|;from item looted reletively soon after getting the rep.
-A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier
+A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier may require lvl 70?
+
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
@@ -27,7 +28,7 @@ A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2
 ;PLACED F Rubyscale Outpost|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 
 ;adventure mode
-F Dragonscale Basecamp|ACTIVE|65795^72267|M|57.81,68.13|Z|2022|N|Take the flightpath to Dragonscale Basecamp. Skip this step if you wish to use your Dragon to fly directly to Rubyscale Outpost.|;Needs a FLY DF once its been implemented.
+F Dragonscale Basecamp|ACTIVE|65795^72267|M|57.81,68.13|Z|2022|N|Take the flightpath to Dragonscale Basecamp. Skip this step if you wish to use your Dragon to fly directly to Rubyscale Outpost.|IZ|-13732|;Needs a FLY DF once its been implemented.
 R Rubyscale Outpost|ACTIVE|65795^72267|M|48.27,88.67|Z|2022|N|Exit to the east and follow the road generally south to meet Ambassador Taurasza at Rubyscale Outpost.|
 T Ohn'arran Plains|QID|72267|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza.|
 
@@ -133,7 +134,9 @@ A The Fields of Ferocity|QID|70444|PRE|65805|M|62.31,42.33|Z|2023;Ohn'ahran Plai
 C Bloodlines, Sweets, and Teerai|QID|70739|M|60.04,37.39|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask Elder Odgerel about Norman's plan.|
 C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.|
 C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.|
-A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruukai;2503;7|IZ|13764|;not available on my last run thru? (and level and renown are lower now)Renown 3
+A Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|DFREN|Maruuk;2503:2|IZ|13764|
+T Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
+A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruukai;2503;7|IZ|13764|
 T Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
 T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.|
 $ Ohn'ahra's Roost Glyph|QID|99999|M|57.8,31|Z|2023;Ohn'Aran Plains!Dragonflight|N|Behind/Above the Maruukai Embassy, very high up the mountain, glyph is just above statue of Ohn'ara.|ACH|16054|
@@ -353,7 +356,7 @@ C Rellen, the Learned|QID|66834|M|40.11,57.79|Z|2023;Ohn'ahran Plains|QO|5|EAB|N
 C Rellen, the Learned|QID|66834|M|40.07,57.75|Z|2023;Ohn'ahran Plains|QO|6|NC|N|Bow acquired.|
 C Rellen, the Learned|QID|66834|M|40.11,57.80|Z|2023;Ohn'ahran Plains|QO|7|EAB|NC|N|Click [color=33fff9]Extra Action Button [/color]to witness Slyvern slain.|
 T Rellen, the Learned|QID|66834|M|41.63,56.74|Z|2023;Ohn'ahran Plains|N|To Elder Nazuun.|
-A The Nokhud Offensive: The Final Ancestor|QID|66690|PRE|66834|M|41.63,56.74|Z|2023;Ohn'ahran Plains|N|[color=e6cc80]Dungeon Quest [/color]From Elder Nazuun. Pick it up or not as you choose, it is not covered in the guide That being said, it is the final quest for the Elder Nazuun part of Sojourners of Ohn'ahran Plains.|
+A The Nokhud Offensive: The Final Ancestor|QID|66690|PRE|66834|M|41.63,56.74|Z|2023;Ohn'ahran Plains|N|[color=e6cc80]Dungeon Quest [/color]From Elder Nazuun. Pick it up or not as you choose, it is not covered in the guide That being said, it is the final quest for the Elder Nazuun part of Sojourners of Ohn'ahran Plains. You may want to wait on queueing until you have the second dungeon quest here in Teerakai, as both are needed for Sojourner achievement.|
 t The Nokhud Offensive: The Final Ancestor|QID|66690|M|41.63,56.74|Z|2023;Ohn'ahran Plains|N|To Elder Nazuun.|
 
 T The Calm Before the Storm|QID|66222|M|41.88,61.77|Z|2023;Ohn'ahran Plains|N|To Khansguard Jebotai.|
@@ -520,9 +523,12 @@ T Stormbreaker|QID|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A The Isle of Emerald|QID|66336|PRE|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 T The Isle of Emerald|QID|66336|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A Renewal of Vows|QID|66783|PRE|66336|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-C Renewal of Vows|QID|66783|QO|1|M|22.29,50.88;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Sansok Khan give a trophy from her first hunt.\nTake the spear and bring it to Merithra.|
-C Renewal of Vows|QID|66783|QO|2|M|22.38,51.04;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Tegari that she give a feather.\nTake the feather and bring it to Merithra.|
-C Renewal of Vows|QID|66783|QO|3|M|22.33,50.94;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Khanam Matra offer her blood.\nTake the cup of blood and bring it to Merithra.|
+C Renewal of Vows|LEAD|66887|ACTIVE|66783|M|22.29,50.88|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Sansok Khan give a trophy from her first hunt.|
+C Renewal of Vows|QID|66783|QO|1|M|22.29,50.88;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|H|N|Take the spear and bring it to Merithra.|
+C Renewal of Vows|LEAD|66889|ACTIVE|66783|M|22.38,51.04|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Tegari that she give a feather.|
+C Renewal of Vows|QID|66783|QO|2|M|22.38,51.04;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|H|N|Take the feather and bring it to Merithra.|
+C Renewal of Vows|LEAD|66888|ACTIVE|66783|M|22.33,50.94|Z|2023;Ohn'ahran Plains|CHAT|N|Suggest Khanam Matra offer her blood.|
+C Renewal of Vows|QID|66783|QO|3|M|22.33,50.94;22.13,50.98|CS|Z|2023;Ohn'ahran Plains|H|N|Take the cup of blood and bring it to Merithra.|
 C Renewal of Vows|QID|66783|QO|4|M|22.13,50.98;22.33,50.94|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Take the Everblooming Soil from Merithra and bring it to Khanam Matra.|
 T Renewal of Vows|QID|66783|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A Into the Azure|QID|66340|PRE|66783|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Merithra.|
