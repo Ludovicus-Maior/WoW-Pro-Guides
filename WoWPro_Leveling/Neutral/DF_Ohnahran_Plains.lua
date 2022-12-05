@@ -474,7 +474,7 @@ A Others Call Me Duck Herder|QID|70069|PRE|70062|M|30.63,58.02|Z|2023;Ohn'ahran 
 C Shady Sanctuary|QID|70220|M|30.19,55.68|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Tell Sidra she is needed at the front.|
 C Others Call Me Duck Herder|QID|70069|M|30.65,55.94|Z|2023;Ohn'ahran Plains|H|N|Click on the Ducklings to feed them.|
 C Shady Sanctuary|QID|70220|M|29.30,56.43|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Speak to Aronus to visit Merithra's Watch (Optional).|
-C Shady Sanctuary|QID|70220|M|29.77,59.96|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Tell Viranikus to Rally the troops.|
+C Shady Sanctuary|QID|70220|M|30.00,60.21|Z|2023;Ohn'ahran Plains|QO|5|CHAT|N|Tell Viranikus to Rally the troops.|
 $ Emerald Gardens Glyph|QID|99999|M|30,61|Z|2023;Ohn'Aran Plains!Dragonflight|N|Just below the tree line at the top of the water falls.|ACH|16056|
 T Others Call Me Duck Herder|QID|70069|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|Hop on your drake and fly back down to Gracus.|
 A But... I Am the Hero of Ducks|QID|70070|PRE|70069|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|From Gracus.|RANK|2|
