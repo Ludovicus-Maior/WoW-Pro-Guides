@@ -33,7 +33,13 @@ T Azure Span|QID|72268|M|71.66,80.59|Z|2023|N|To Masud the Wise.|
 
 A To the Azure Span|QID|65686|PRE|72268|M|71.66,80.59|Z|2023|N|From Masud the Wise.|
 T To the Azure Span|QID|65686|M|41.44,35.60|Z|2024|NC|N|To Glania of the Blessed Ones.|
-A Camp Antonidas|QID|66228|PRE|65686|M|41.44,35.60|Z|2024|N|From Glania of the Blessed Ones.|
+A Shades of Blue|QID|70746|PRE|72268|M|41.45,35.90|Z|2024|N|From Scalecommander Emberthal.|C|EVOKER|
+C Shades of Blue|QID|70746|M|45.61,41.25|Z|2024|N|Meet Emberthal and Telash at Camp Antonidas.You can just fly there and don't need to walk with them.|
+T Shades of Blue|QID|70746|M|45.61,41.25|Z|2024|N|To Scalecommander Emberthal.|
+A The Azure Wizard|QID|70747|PRE|70746|M|45.6,41.2|Z|2024|N|From Telash Greywing.\n\nMight take a while for quest to appear|C|EVOKER|
+C The Azure Wizard|QID|70747|M|46.64,40.19|Z|2024|CHAT|N|Ask him if he serves the blue dragonflight|
+T The Azure Wizard|QID|70747|M|46.64,40.19|Z|2024|N|To Archmage Khadgar.|
+A Camp Antonidas|QID|66228|PRE|65686|M|41.44,35.60|Z|2024|N|From Glania of the Blessed Ones.|C|-EVOKER|;Possibly not an evoker quest
 A Some Good Fishing|QID|66227|PRE|65686|M|41.46,35.63|Z|2024|N|From Khuri.|RANK|3|;add profession check. or a step telling them to train fishing if they havent?
 C Some Good Fishing|QID|66227|M|41.46,35.63|Z|2024|N|Take a moment to catch some fish. It's for a good cause.|
 T Some Good Fishing|QID|66227|M|41.46,35.63|Z|2024|N|To Khuri.|
