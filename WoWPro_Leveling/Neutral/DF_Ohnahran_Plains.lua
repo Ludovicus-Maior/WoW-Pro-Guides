@@ -320,7 +320,7 @@ R Teerakai|ACTIVE|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|Continue on into
 T Hooves of War|QID|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|To Khansguard Jebotai.|
 A The Calm Before the Storm|QID|66222|PRE|66201|M|41.90,61.79|Z|2023;Ohn'ahran Plains|N|From Khansguard Jebotai.|
 A Up to No-khud|QID|66651|PRE|66201|M|40.94,61.61|Z|2023;Ohn'ahran Plains|N|From Elder Yuvari.|RANK|2|
-f Teerakai|QID|66651|M|40.03,61.15|Z|2023;Ohn'ahran Plains|N|At Flightmaster Carseng.|
+f Teerakai|ACTIVE|66201|M|40.03,61.15|Z|2023;Ohn'ahran Plains|N|At Flightmaster Carseng.|
 C The Calm Before the Storm|QID|66222|M|37.57,59.45|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Let Scout Khenyug know the Nokhud are attacking.|
 C The Calm Before the Storm|QID|66222|M|38.51,57.42|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Let Herbalist Agura know to prepare for war casualties.|
 C The Calm Before the Storm|QID|66222|M|39.51,55.39|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Ask him to ready the khansguard.|
@@ -395,11 +395,11 @@ $ The Eternal Kurgans Glyph|QID|99999|M|29.5,75.1|Z|2023;Ohn'Aran Plains!Dragonf
 ;U The Nokhud Offensive: Founders Keepers|QID|66658|QO|3|M|40.08,54.44|Z|2023|O|U|200115|N|Go into Zorig's parents' tomb and place Teera's bow on her grave.|;--commented out till we can figure out how to suppress until they have the items.
 ;U The Nokhud Offensive: Founders Keepers|QID|66658|QO|4|M|39.62,59.02|Z|2023|O|U|200100|N|Go across to the other alcove and place Maruuk's spear on his grave.|--commented out till we can figure out how to suppress until they have the items.
 t The Nokhud Offensive: Founders Keepers|QID|66658|M|40.99,61.62|Z|2023|N|To Initiate Zorig.|
-C Mystic Mystery|QID|66224|M|44.62,61.58|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Meet Boku outside Teerakai.|
-C Mystic Mystery|QID|66224|M|44.55,61.91|Z|2023;Ohn'ahran Plains|QO|2|I|N|Click on the assorted items on the ground to collect Boku's Belongings.|
-C Mystic Mystery|QID|66224|M|46.27,63.24|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Search for Boku.|
-N Mystic Mystery|QID|66224|M|46.50,63.26|Z|2023;Ohn'ahran Plains|QO|4|I|N|Click the body to investigate.|
-C Mystic Mystery|QID|66224|M|49.15,63.46|Z|2023;Ohn'ahran Plains|QO|5|NC|N|Continue searching for Boku.|
+R Mystic Mystery|QID|66224|M|44.62,61.58|Z|2023;Ohn'ahran Plains|QO|1|N|Meet Boku outside Teerakai.|
+C Mystic Mystery|QID|66224|M|44.55,61.91|Z|2023;Ohn'ahran Plains|QO|2|H|N|Click on the assorted items on the ground to collect Boku's Belongings.|
+R Mystic Mystery|QID|66224|M|46.20,63.19|Z|2023;Ohn'ahran Plains|QO|3|N|Search for Boku.|
+C Mystic Mystery|QID|66224|M|46.50,63.26|Z|2023;Ohn'ahran Plains|QO|4|I|N|While mounted, click the body to investigate.\n[color=FF0000]NOTE: [/color]If you're quick enough, you can get away before you get ambushed by the 2 Marauders.\nBe aware that someone may have left those 2 for you when you get there.|
+R Mystic Mystery|QID|66224|M|49.15,63.46|Z|2023;Ohn'ahran Plains|QO|5|N|Continue searching for Boku.|
 T Mystic Mystery|QID|66224|M|49.32,63.21|Z|2023;Ohn'ahran Plains|N|To Initiate Boku.|
 A Toting Totems|QID|66225|PRE|66224|M|49.36,63.15|Z|2023;Ohn'ahran Plains|N|From Tigari Khan.|
 A Taken By Storm|QID|70195|PRE|66224|M|49.36,63.15|Z|2023;Ohn'ahran Plains|N|From Tigari Khan.|
@@ -415,11 +415,11 @@ A Eagle-itarian|QID|66256|PRE|66236|M|58.12,68.98|Z|2023;Ohn'ahran Plains|N|From
 A Fowl Sorcery|QID|66257|PRE|66236|M|58.12,68.98|Z|2023;Ohn'ahran Plains|N|From Initiate Boku.|
 C Weather Control|QID|66242|M|61.44,67.28|Z|2023;Ohn'ahran Plains|N|Kill the Stormbound as you free the birds and destroy the wagons.|S|
 C Eagle-itarian|QID|66256|M|58.02,67.47|Z|2023;Ohn'ahran Plains|QO|1|H|N|Click the Binding Totems to free the Children of Ohn'ahra.|S|
-C Fowl Sorcery|QID|66257|M|58.1,67.3;59.2,65.5;61.7,66.0;58.8,61.8|CN|Z|2023;Ohn'ahran Plains|H|N|Click the wind totems to destroy the Wagons.|S|
+C Fowl Sorcery|QID|66257|M|58.17,67.35;59.22,65.52;61.73,66.65;58.85,61.85|CN|Z|2023;Ohn'ahran Plains|H|N|Click the wind totems to destroy the Wagons.|S|
 ;A Prozela Galeshot|QID|69968|M|59.04,68.10|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autoaccepted.|RANK|2|
 K Prozela Galeshot|ACTIVE|69968|QO|1|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Kill the bonus objective as you choose.|S!US|RARE|
 ;t Prozela Galeshot|QID|69968|M|59.86,66.96|Z|2023;Ohn'ahran Plains|N|Bonus Objective - autocompleted.|
-C Fowl Sorcery|QID|66257|M|58.1,67.3;59.2,65.5;61.7,66.0;58.8,61.8|CN|Z|2023;Ohn'ahran Plains|H|N|Click the wind totems to destroy the Wagons.|US|
+C Fowl Sorcery|QID|66257|M|58.17,67.35;59.22,65.52;61.73,66.65;58.85,61.85|CN|Z|2023;Ohn'ahran Plains|H|N|Click the wind totems to destroy the Wagons.|US|
 C Eagle-itarian|QID|66256|M|58.02,67.47|Z|2023;Ohn'ahran Plains|QO|1|H|N|Click the Binding Totems to free the Children of Ohn'ahra.|US|
 C Weather Control|QID|66242|M|61.44,67.28|Z|2023;Ohn'ahran Plains|N|Continue killing the Stormbound until you finish the quest.|US|
 C Eagle-itarian|QID|66256|M|57.96,67.49|Z|2023;Ohn'ahran Plains|QO|2|N|Continue killing Primalists until the quest is done.|
