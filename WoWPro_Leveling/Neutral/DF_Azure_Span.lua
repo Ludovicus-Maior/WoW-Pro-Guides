@@ -28,13 +28,13 @@ A To Dragonbone Keep|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;25
 ;PLACED (in OP) F Forkriver Crossing|N|Just above the road.|M|70.15,86.78|Z|2024;The Azure Plains!Dragonflight|ACH|16672|
 
 ;adventure mode
-F Forkriver Crossing|ACTIVE|72268^65686|M|71.66,80.59|Z|2023|N|Fly to Forkriver either on your own or at a flight master.|
+F Forkriver Crossing|ACTIVE|72268|M|71.66,80.59|Z|2023|N|Fly to Forkriver either on your own or at a flight master.|
 T Azure Span|QID|72268|M|71.66,80.59|Z|2023|N|To Masud the Wise.|
 
 A To the Azure Span|QID|65686|PRE|72268|M|71.66,80.59|Z|2023|N|From Masud the Wise.|
 T To the Azure Span|QID|65686|M|41.44,35.60|Z|2024|NC|N|To Glania of the Blessed Ones.|
 A Camp Antonidas|QID|66228|PRE|65686|M|41.44,35.60|Z|2024|N|From Glania of the Blessed Ones.|C|-EVOKER|;Possibly not an evoker quest
-A Shades of Blue|QID|70746|PRE|72268|M|41.45,35.90|Z|2024|N|From Scalecommander Emberthal.|C|EVOKER|
+A Shades of Blue|QID|70746|PRE|65686|M|41.45,35.90|Z|2024|N|From Scalecommander Emberthal.|C|EVOKER| ; 72268 wrong PRE - Hendo72
 A Some Good Fishing|QID|66227|PRE|65686|M|41.46,35.63|Z|2024|N|From Khuri.|RANK|3|;add profession check. or a step telling them to train fishing if they havent?
 C Some Good Fishing|QID|66227|M|41.46,35.63|Z|2024|N|Take a moment to catch some fish. It's for a good cause.|
 T Some Good Fishing|QID|66227|M|41.46,35.63|Z|2024|N|To Khuri.|
@@ -55,7 +55,7 @@ T WANTED: Gorger|QID|67177|M|41.42,36.41|Z|2024|N|To Shala.|
 R Camp Antonidas|ACTIVE|66228^70746|M|45.94,40.65|Z|2024|N|Continue up the road to Camp Antonidas.\n\n[color=FF0000]NOTE: [/color]Our good friend Hemet Nesingwary drives a wagon around the zone, his full route take a bit over an hour, stopping 3 times in Camp Antonidas offering a different kill quest each time. Keep your eye out for him and grab those quests if you want them. Guide won't tell you when to pick them up, but the kill and Turn in steps are here. It might be worth asking in zone chat for someone to share them with you as he is a pain to find.|;not rank 2. the info about Hemet is. but everyone has to run here. and extra info doesnt hurt.
 C Shades of Blue|QID|70746|M|45.61,41.25|Z|2024|N|Meet Emberthal and Telash at Camp Antonidas.You can just fly there and don't need to walk with them.|
 T Shades of Blue|QID|70746|M|45.61,41.25|Z|2024|N|To Scalecommander Emberthal.|
-A The Azure Wizard|QID|70747|PRE|70746|M|45.6,41.2|Z|2024|N|From Telash Greywing.\n\nMight take a while for quest to appear|C|EVOKER|
+A The Azure Wizard|QID|70747|PRE|70746|M|45.6,41.2|Z|2024|N|From Telash Greywing.\nWait for them to finish their dialogue.|C|EVOKER|
 C The Azure Wizard|QID|70747|M|46.64,40.19|Z|2024|CHAT|N|Ask him if he serves the blue dragonflight|
 T The Azure Wizard|QID|70747|M|46.64,40.19|Z|2024|N|To Archmage Khadgar.|
 
