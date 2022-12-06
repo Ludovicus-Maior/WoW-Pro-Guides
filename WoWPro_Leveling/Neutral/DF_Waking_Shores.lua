@@ -94,7 +94,7 @@ A Don't Be So Shellfish|QID|66106|PRE|66104|M|74.52,42.16|Z|2022|N|From Ecologis
 C Don't Be So Shellfish|QID|66106|M|79.37,41.53|Z|2022|H|N|Collect the piles of shells. These also drop from the murlocs in the area. The wind ones are above.|S|
 A A Quack For Help|QID|66196|PRE|66104|M|80.12,42.87|Z|2022|N|From Bubbled Duckling.|RANK|2|
 C A Sledgehammer of a Solution|QID|66108|M|79.69,44.02|Z|2022|QO|1|N|Sogglmoggl respawns almost instantly, so move after you kill him.|T|Sogglmoggl|
-C A Sledgehammer of a Solution|QID|66108|M|79.60,40.53|Z|2022|QO|2|N|Whirglgurgl respawns almost instantly, so move after you kill him.|T|Whirglgurgl|
+C A Sledgehammer of a Solution|QID|66108|M|79.79,39.79|Z|2022|QO|2|N|Whirglgurgl respawns almost instantly, so move after you kill him.|T|Whirglgurgl|
 C Don't Be So Shellfish|QID|66106|M|79.37,41.53|Z|2022|H|N|Finish collecting the shells.|US|
 C A Quack For Help|QID|66196|M|74.72,42.21|Z|2022|NC|N|Bubbled Duckling brought to the Ecologist's Camp.|
 T Don't Be So Shellfish|QID|66106|M|74.51,42.17|Z|2022|N|To Ecologist Tharu.|
