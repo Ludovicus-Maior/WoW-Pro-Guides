@@ -347,11 +347,11 @@ A Rellen, the Learned|QID|66834|PRE|66687|M|41.62,56.74|Z|2023;Ohn'ahran Plains|
 T Himia, the Blessed|QID|70374|M|41.62,56.74|Z|2023;Ohn'ahran Plains|N|To Elder Nazuun.|
 C Rellen, the Learned|QID|66834|M|40.12,57.86|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the offering basket to summon Rellen.|
 C Rellen, the Learned|QID|66834|M|40.20,57.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Torch acquired.|
-C Rellen, the Learned|QID|66834|M|40.11,57.79|Z|2023;Ohn'ahran Plains|QO|3|EAB|NC|N|Click [color=33fff9]Extra Action Button [/color]to witness Shadespinner slain.|
+C Rellen, the Learned|QID|66834|M|40.11,57.79|Z|2023;Ohn'ahran Plains|QO|3|EAB|N|Click [color=33fff9]Extra Action Button [/color]to witness Shadespinner slain.|
 C Rellen, the Learned|QID|66834|M|40.08,57.76|Z|2023;Ohn'ahran Plains|QO|4|NC|N|Spear acquired.|
-C Rellen, the Learned|QID|66834|M|40.11,57.79|Z|2023;Ohn'ahran Plains|QO|5|EAB|NC|N|Click [color=33fff9]Extra Action Button [/color]to witness Thunderspine slain.|
+C Rellen, the Learned|QID|66834|M|40.11,57.79|Z|2023;Ohn'ahran Plains|QO|5|EAB|N|Click [color=33fff9]Extra Action Button [/color]to witness Thunderspine slain.|
 C Rellen, the Learned|QID|66834|M|40.07,57.75|Z|2023;Ohn'ahran Plains|QO|6|NC|N|Bow acquired.|
-C Rellen, the Learned|QID|66834|M|40.11,57.80|Z|2023;Ohn'ahran Plains|QO|7|EAB|NC|N|Click [color=33fff9]Extra Action Button [/color]to witness Slyvern slain.|
+C Rellen, the Learned|QID|66834|M|40.11,57.80|Z|2023;Ohn'ahran Plains|QO|7|EAB|N|Click [color=33fff9]Extra Action Button [/color]to witness Slyvern slain.|
 T Rellen, the Learned|QID|66834|M|41.63,56.74|Z|2023;Ohn'ahran Plains|N|To Elder Nazuun.|
 A The Nokhud Offensive: The Final Ancestor|QID|66690|PRE|66834|M|41.63,56.74|Z|2023;Ohn'ahran Plains|N|[color=e6cc80]Dungeon Quest [/color]From Elder Nazuun. Pick it up or not as you choose, it is not covered in the guide That being said, it is the final quest for the Elder Nazuun part of Sojourners of Ohn'ahran Plains.|
 t The Nokhud Offensive: The Final Ancestor|QID|66690|M|41.63,56.74|Z|2023;Ohn'ahran Plains|N|To Elder Nazuun.|
@@ -497,7 +497,7 @@ C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plain
 ;C Bonus Objective: The Storm Scar|QID|66421|M|23.87,36.28|Z|2023;Ohn'ahran Plains|N|Stay and finish if you want, or leave the area.|
 ;t Bonus Objective: The Storm Scar|QID|66421|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Bonus Objective-autocompleted.|
 C Justice for Solethus|QID|66333|M|23.87,36.28|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Nokhud Warmongers.|S|
-C Justice for Solethus|QID|66333|M|24.8,39.8;24.4,38.4;25.4,37.7|CN|Z|2023;Ohn'ahran Plains|QO|2|H|N|Dragon-Killer Ballista destroyed.|
+C Justice for Solethus|QID|66333|M|24.8,39.8;24.4,38.4;25.4,37.7|CN|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Dragon-Killer Ballista destroyed.|
 C Justice for Solethus|QID|66333|M|23.87,36.28|Z|2023;Ohn'ahran Plains|QO|1|N|Find any more needed Nokhud Warmongers.|US|
 T Justice for Solethus|QID|66333|M|23.89,36.28|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 A Deconstruct Additional Pylons|QID|66335|PRE|66333|M|23.89,36.28|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
@@ -506,14 +506,14 @@ A Starve the Storm|QID|66784|PRE|66333|M|23.89,36.28|Z|2023;Ohn'ahran Plains|N|F
 K Ty'foon the Ascended|ACTIVE|66970|QO|1|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Go up the hill and kill Ty'foon if you want to.|T|Ty'foon the Ascended|S!US|RARE|IZ|14105|
 ;t Ty'foon the Ascended|ACTIVE|66970|M|26.07,34.14|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
 C Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|Kill the Summoners around the Storm Corridor portal to deactivate it.|
-T Starve the Storm|QID|66784|M|24.91,35.15|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-C Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|QO|3|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the third pylon.|
-C Deconstruct Additional Pylons|QID|66335|M|23.12,37.36|Z|2023;Ohn'ahran Plains|QO|2|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the second pylon.|
-C Deconstruct Additional Pylons|QID|66335|M|23.89,39.46|Z|2023;Ohn'ahran Plains|QO|1|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color]to mark the first pylon.|
-T Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
-A Stormbreaker|QID|66337|PRE|66784&66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
+T Starve the Storm|QID|66784|M|PLAYER|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
+C Deconstruct Additional Pylons|QID|66335|M|21.44,37.56|Z|2023;Ohn'ahran Plains|QO|3|EAB|N|Use your [color=33fff9]Extra Action Button [/color]to mark the third pylon.|
+C Deconstruct Additional Pylons|QID|66335|M|23.12,37.36|Z|2023;Ohn'ahran Plains|QO|2|EAB|N|Use your [color=33fff9]Extra Action Button [/color]to mark the second pylon.|
+C Deconstruct Additional Pylons|QID|66335|M|23.89,39.46|Z|2023;Ohn'ahran Plains|QO|1|EAB|N|Use your [color=33fff9]Extra Action Button [/color]to mark the first pylon.|
+T Deconstruct Additional Pylons|QID|66335|M|PLAYER|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest, who's following you.|
+A Stormbreaker|QID|66337|PRE|66784&66335|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest.|
 
-K Stormbound Proto-Drake and Koroleth|ACTIVE|66337|QO|1|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Attack the Stormboud Proto-Drake to get Koroleth's attention, Then kill Koroleth.|;T|Stormboud Proto-Drake|target button wouldnt work... perhaps because I ran up to an in progress fight. figured i'd just leave it off.
+K Stormbound Proto-Drake and Koroleth|ACTIVE|66337|QO|1|M|22.55,39.61|Z|2023;Ohn'ahran Plains|N|Attack the Stormboud Proto-Drake to get Koroleth's attention, Then kill Koroleth.|T|Stormbound Proto-Drake|
 
 C Stormbreaker|QID|66337|QO|2|M|22.91,40.19|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Gerithus for a ride to Merithra.|
 T Stormbreaker|QID|66337|M|25.65,48.40|Z|2023;Ohn'ahran Plains|N|To Merithra.|
@@ -609,11 +609,11 @@ R The Mallakh|ACTIVE|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|QO|2|N|Fly over
 T The Gentle Giant|QID|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|To Shephed Tevatei.|
 A Shaping a Shepherd|QID|68085|PRE|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|From Shephed Tevatei.|
 C Shaping a Shepherd|QID|68085|QO|1|M|48.98,40.93|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Taivan if he is ready to try this.|
-C Shaping a Shepherd|QID|68085|QO|2|M|48.83,40.00|Z|2023;Ohn'ahran Plains|EAB|NC|N|Target an Argali and use your[color=33fff9]Extra Action Button [/color]to direct Taivan.|T|Aylaag Argali|
-C Shaping a Shepherd|QID|68085|QO|3|M|48.83,40.00|Z|2023;Ohn'ahran Plains|EAB|NC|N|Target an Argali and use your [color=33fff9]Extra Action Button [/color]and then case them into the pen.|T|Aylaag Argali|
+C Shaping a Shepherd|QID|68085|QO|2|M|48.83,40.00|Z|2023;Ohn'ahran Plains|EAB|N|Target an Argali and use your[color=33fff9]Extra Action Button [/color]to direct Taivan.|T|Aylaag Argali|
+C Shaping a Shepherd|QID|68085|QO|3|M|48.83,40.00|Z|2023;Ohn'ahran Plains|EAB|N|Target an Argali and use your [color=33fff9]Extra Action Button [/color]and then case them into the pen.|T|Aylaag Argali|
 T Shaping a Shepherd|QID|68085|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|To Shephed Tevatei.|
 A Reign of the Ram|QID|71022|PRE|68085|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|From Shephed Tevatei.|
-C Reign of the Ram|QID|71022|M|49.66,39.42|Z|2023;Ohn'ahran Plains|EAB|NC|N|Target the Stubborn Ram and use your [color=33fff9]Extra Action Button [/color]to direct Taivan. When the Stubborn Ram becomes angry, fight him.|T|Stubborn Ram|
+C Reign of the Ram|QID|71022|M|49.66,39.42|Z|2023;Ohn'ahran Plains|EAB|N|Target the Stubborn Ram and use your [color=33fff9]Extra Action Button [/color]to direct Taivan. When the Stubborn Ram becomes angry, fight him.|T|Stubborn Ram|
 T Reign of the Ram|QID|71022|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|To Shephed Tevatei.|
 A Danger in Daruukhan|QID|68087|PRE|71022|M|49.07,40.95|Z|2023;Ohn'ahran Plains|N|From Shephed Tevatei.|
 C Danger in Daruukhan|QID|68087|M|49.07,40.95|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Tell the Teerai Messenger you will leave at once.|
