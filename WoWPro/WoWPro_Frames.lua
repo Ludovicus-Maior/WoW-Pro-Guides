@@ -846,8 +846,12 @@ end
 
 function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
     -- Hack!
-    _G.InterfaceOptionsFrame_OpenToCategory(menu)
-    _G.InterfaceOptionsFrame_OpenToCategory(menu)
+    if _G.Settings and _G.Settings.OpenToCategory then
+        _G.Settings.OpenToCategory("WoW-Pro", menu)
+    else
+        _G.InterfaceOptionsFrame_OpenToCategory(menu)
+        _G.InterfaceOptionsFrame_OpenToCategory(menu)
+    end
 end
 
 -- Dropdown Menu --
