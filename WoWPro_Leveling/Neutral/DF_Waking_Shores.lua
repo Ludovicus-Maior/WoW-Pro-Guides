@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, 'Ohnahran_Plains')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-T The Waking Shore|QID|72266|M|76.57,33.66|Z|2022|N|To Sendrax.|
+T The Waking Shores|QID|72266|M|76.57,33.66|Z|2022|N|To Sendrax.|
 A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|
 
 A Give Peace a Chance|QID|66110|PRE|65452|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|RANK|2|FACTION|Horde|
