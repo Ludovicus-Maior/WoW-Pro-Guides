@@ -340,16 +340,31 @@ function WoWPro.AnchorStore()
             WoWProDB.profile.position = pos
             WoWPro:dbp("AnchorStore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f",
                         pos[1], pos[2], pos[3], pos[4], pos[5])
+            local size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
+            WoWPro:dbp("AnchorStore: Height=%.2f Width=%.2f", size[1], size[2])
+            WoWProDB.profile.size = size
             WoWPro.MainFrame:SetScript("OnUpdate", nil)
         end
     end)
 end
 
-function WoWPro.AnchorRestore()
+function WoWPro.AnchorRestore(reset_size)
     WoWPro.MainFrame:ClearAllPoints()
     local pos = WoWProDB.profile.position
     WoWPro:dbp("AnchorRestore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f", unpack(pos))
     WoWPro.MainFrame:SetPoint(unpack(pos))
+    local size = WoWProDB.profile.size
+    if size and not reset_size then
+        WoWPro.MainFrame:SetHeight(size[1])
+        WoWPro.MainFrame:SetWidth(size[2])
+        WoWPro:dbp("AnchorRestore: Height=%.2f Width=%.2f restored.", size[1], size[2])
+    elseif reset_size then
+        size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
+        WoWPro:dbp("AnchorRestore: Height=%.2f Width=%.2f reset.", size[1], size[2])
+        WoWProDB.profile.size = size
+    else
+        WoWPro:dbp("AnchorRestore: No size set.")
+    end
     WoWPro.SetMouseNotesPoints()
 end
 
@@ -358,7 +373,7 @@ function WoWPro.RowSet()
     WoWPro.RowColorSet()
     WoWPro.RowFontSet()
     WoWPro.RowSizeSet()
-    WoWPro.AnchorRestore()
+    WoWPro.AnchorRestore(true)
 end
 
 function WoWPro.CustomizeFrames()
@@ -375,7 +390,7 @@ function WoWPro.CustomizeFrames()
     for name, module in WoWPro:IterateModules() do
         if WoWPro[name].CustomizeFrames then WoWPro[name]:CustomizeFrames() end
     end
-    WoWPro.AnchorRestore() -- Just in case a module jiggled something
+    WoWPro.AnchorRestore(true) -- Just in case a module jiggled something
 end
 
 -- Create Dialog Box --
