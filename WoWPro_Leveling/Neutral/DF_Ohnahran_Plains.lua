@@ -615,7 +615,7 @@ T The Gentle Giant|QID|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|To Shephed 
 A Shaping a Shepherd|QID|68085|PRE|68084|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|From Shephed Tevatei.|
 C Shaping a Shepherd|QID|68085|QO|1|M|48.98,40.93|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Taivan if he is ready to try this.|
 C Shaping a Shepherd|QID|68085|QO|2|M|48.83,40.00|Z|2023;Ohn'ahran Plains|EAB|N|Target an Argali and use your[color=33fff9]Extra Action Button [/color]to direct Taivan.|T|Aylaag Argali|
-C Shaping a Shepherd|QID|68085|QO|3|M|48.83,40.00|Z|2023;Ohn'ahran Plains|EAB|N|Target an Argali and use your [color=33fff9]Extra Action Button [/color]and then case them into the pen.|T|Aylaag Argali|
+C Shaping a Shepherd|QID|68085|QO|3|M|48.83,40.00|Z|2023;Ohn'ahran Plains|EAB|N|Target an Argali and use your [color=33fff9]Extra Action Button [/color]and then chase them into the pen.|T|Aylaag Argali|
 T Shaping a Shepherd|QID|68085|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|To Shephed Tevatei.|
 A Reign of the Ram|QID|71022|PRE|68085|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|From Shephed Tevatei.|
 C Reign of the Ram|QID|71022|M|49.66,39.42|Z|2023;Ohn'ahran Plains|EAB|N|Target the Stubborn Ram and use your [color=33fff9]Extra Action Button [/color]to direct Taivan. When the Stubborn Ram becomes angry, fight him.|T|Stubborn Ram|
