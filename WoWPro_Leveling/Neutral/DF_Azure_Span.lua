@@ -234,9 +234,9 @@ T Urgent Action Required|QID|66026|M|20.60,35.67|Z|2024|N|To Brena.|
 A Breaching the Brackenhide|QID|65838|PRE|66026|M|20.54,35.68|Z|2024|N|From Kalecgos.|
 ;A Stop the Spread|QID|65841|PRE|66026|M|20.01,35.97|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|LVL|-70|
 C Stop the Spread|QID|65841|M|20.01,35.97|Z|2024|N|Bonus Objective - Destroy the totems and kill gnolls, dont worry about getting it done right away, there are several quests here.|S|
-C Breaching the Brackenhide|QID|65838|M|18.89,36.97|Z|2024|QO|2|CHAT|N|Click the root, and then the chat option to cut the root.|
-C Breaching the Brackenhide|QID|65838|M|17.54,36.97|Z|2024|QO|3|CHAT|N|Click the root, and then the chat option to cut the root.|
-C Breaching the Brackenhide|QID|65838|M|18.43,34.79|Z|2024|QO|1|CHAT|N|Click the root, and then the chat option to cut the root.|
+C Breaching the Brackenhide|QID|65838|M|18.89,36.97|Z|2024|QO|2|H|N|Click the root, and then the chat option to cut the root.|
+C Breaching the Brackenhide|QID|65838|M|17.54,36.97|Z|2024|QO|3|H|N|Click the root, and then the chat option to cut the root.|
+C Breaching the Brackenhide|QID|65838|M|18.43,34.79|Z|2024|QO|1|H|N|Click the root, and then the chat option to cut the root.|
 T Breaching the Brackenhide|QID|65838|M|16.74,37.32|Z|2024|N|To Kalecgos.|
 A Ley Litter|QID|65846|PRE|65838|M|16.74,37.32|Z|2024|N|From Kalecgos.|
 A Cut Out the Rot|QID|65844|PRE|65838|M|16.76,37.25|Z|2024|N|From Norukk.|
@@ -251,7 +251,7 @@ T Echoes of the Fallen|QID|65845|M|16.75,37.22|Z|2024|N|To Brena.|
 T Cut Out the Rot|QID|65844|M|16.76,37.25|Z|2024|N|To Norukk.|
 T Ley Litter|QID|65846|M|16.75,37.32|Z|2024|N|To Kalecgos.|
 A Tome-ward Bound|QID|65848|PRE|65844&65845&65846|M|16.75,37.32|Z|2024|N|From Kalecgos.|
-C Tome-ward Bound|QID|65848|M|16.75,37.32|Z|2024|QO|1|CHAT|N|Tell Kalecgos you are ready and then wait abit while he rummages through his stuff.|
+C Tome-ward Bound|QID|65848|M|16.75,37.32|Z|2024|QO|1|CHAT|N|Tell Kalecgos you are ready and then wait a bit while he rummages through his stuff.|
 C Tome-ward Bound|QID|65848|M|16.72,37.29|Z|2024|QO|2|V|N|Hop on the Tome of Spellflinging.|
 C Tome-ward Bound|QID|65848|M|15.93,38.42;15.14,38.00;15.64,37.33|CS|Z|2024|QO|3|N|The first button on the UI moves you forward very fast, running over and doing damage to the smaller mobs and the "2" gives you a target reticle and shoots them. Kill the Brackenhide Putrifiers.|
 C Tome-ward Bound|QID|65848|M|15.38,38.61|Z|2024|QO|4|N|Now you only have one button. Use it on the Twisted Ancient.|
