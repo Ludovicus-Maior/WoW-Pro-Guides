@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiDarkmoon",'WorldEvents',"DarkmoonFaireIsland", "Twists", "Neutral")
-WoWPro:GuideLevels(guide)
+WoWPro:GuideLevels(guide,1,70)
 WoWPro.WorldEvents:GuideHoliday(guide,"Darkmoon Faire")
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_MISC_Cape_DarkmoonFaire_C_01")
 WoWPro:GuidePetBattle(guide)
@@ -13,19 +13,19 @@ WoWPro:GuideQuestTriggers(guide, 7905, 7926, 29443, 29444, 29445, 29446, 29451, 
 WoWPro:GuideSteps(guide, function()
 return [[
 
-B Fossil Archeology Fragments|QID|29507|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;0+75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|35|RANK|3|
+B Fossil Archeology Fragments|QID|29507|M|83.6,61|Z|Vale of Eternal Blossoms|L|393 15|P|Archaeology;794;0+75|N|If you have some spare crated artifacts, You can use them to buy crates of fossil archeology fragments from Brann Bronzebeard at Mogu'shan palace, otherwise, you have to dig them up yourself.|LVL|20|RANK|3|
 
 B Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|PET|14878;1|ITEM|11325|N|If you want the mini pet "Jubling" you need to have several Dark Iron Ale in order to lure and then get the quest, skip this step if you are uninterested. You can buy the ale from Plugger Spazzring in the Bar area of Blackrock Depths. Grab your Direbrew remote for a quick trip there. (Note: Jubling isn't tradeable)|RANK|3|
-B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|LVL|7|RANK|3|ITEM|71635|
-B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|LVL|7|RANK|3|ITEM|71636|
-B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|LVL|7|RANK|3|ITEM|71637|
-B Ornate Weapon|QID|29446|N|Consider buying an "Ornate Weapon" in the AH if you don't have one.|L|71638|LVL|7|RANK|3|ITEM|71638|
-B A Treatise on Strategy|QID|29451|N|Consider buying an "A Treatise on Strategy" in the AH if you don't have one.|L|71715|LVL|32|RANK|3|ITEM|71715|
-B Soothsayer's Runes|QID|29464|N|Consider buying an "Soothsayer's Runes" in the AH if you don't have one.|L|71716|LVL|32|RANK|3|ITEM|71716|
+B Imbued Crystal|QID|29443|N|Consider buying an "Imbued Crystal" in the AH if you don't have one.|L|71635|RANK|3|ITEM|71635|
+B Monstrous Egg|QID|29444|N|Consider buying a "Monstrous Egg" in the AH if you don't have one.|L|71636|RANK|3|ITEM|71636|
+B Mysterious Grimoire|QID|29445|N|Consider buying a "Mysterious Grimoire" in the AH if you don't have one.|L|71637|RANK|3|ITEM|71637|
+B Ornate Weapon|QID|29446|N|Consider buying an "Ornate Weapon" in the AH if you don't have one.|L|71638|RANK|3|ITEM|71638|
+B A Treatise on Strategy|QID|29451|N|Consider buying an "A Treatise on Strategy" in the AH if you don't have one.|L|71715|RANK|3|ITEM|71715|
+B Soothsayer's Runes|QID|29464|N|Consider buying an "Soothsayer's Runes" in the AH if you don't have one.|L|71716|RANK|3|ITEM|71716|
 
-B Banner of the Fallen|QID|29456|N|Consider buying a "Banner of the Fallen" in the AH if you don't have one.|L|71951|LVL|7|RANK|3|ITEM|71951|
-B Captured Insignia|QID|29457|N|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71952|LVL|7|RANK|3|ITEM|71952|
-B Fallen Adventurer's Journal|QID|29458|N|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71953|LVL|7|RANK|3|ITEM|71953|
+B Banner of the Fallen|QID|29456|N|Consider buying a "Banner of the Fallen" in the AH if you don't have one.|L|71951|RANK|3|ITEM|71951|
+B Captured Insignia|QID|29457|N|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71952|RANK|3|ITEM|71952|
+B Fallen Adventurer's Journal|QID|29458|N|Consider buying a "Fallen Adventurer's Journal" in the AH if you don't have one.|L|71953|RANK|3|ITEM|71953|
 
 A The Darkmoon Faire|QID|7905|M|62.20,32.29;62.41,73.03|CN|N|From Darkmoon Faire Mystic Mage who's near Dwarven District or the Trade District in Stormwind.|Z|Stormwind City|FACTION|Alliance|
 A The Darkmoon Faire|QID|7926|M|48.22,62.14|N|From Darkmoon Faire Mystic Mage who's near the flying trainer in Orgrimmar.|Z|Orgrimmar|FACTION|Horde|
@@ -62,7 +62,7 @@ B Blue Dye|QID|29520|M|40.28,63.41|L|6260 1|N|Purchase 1 from Shadi Mistrunner.|
 B Sack o'Tokens|QID|29463|M|54.59,53.33|N|From Zina Sharpworth after you enter the portal. Open the bag in your inventory, we can't automate it yet!|L|71083|
 
 A Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|From Selina Dourman.|P|Tailoring;197;0+75|
-N Create your Banner|QID|29520|N|Use your Darkmoon Banner Kit.|U|72048|L|72049|
+C Create your Banner|QID|29520|N|Use your Darkmoon Banner Kit.|U|72048|L|72049|
 C Banners, Banners Everywhere!|QID|29520|M|50.99,86.23|U|72049|NC|N|Look for a sparkling dirt pile "base" for the banner.|
 T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|
 
@@ -143,7 +143,7 @@ A Test Your Strength|QID|29433|M|47.91,67.12|N|From Kerri Hicks.|
 A Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|N|From Stamp Thunderhorn.|P|Cooking;185;0+75|
 A Spoilin' for Salty Sea Dogs|QID|29513|M|52.89,67.94|N|From Stamp Thunderhorn.|P|Fishing;356;0+75|
 
-U Coat the Frogs in Flour|QID|29509|M|52.89,67.94|L|72057|U|72056|
+U Coat the Frogs in Flour|ACTIVE|29509|M|52.89,67.94|L|72057|U|72056|
 C Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|NC|N|Throw the breaded frogs into the green bubbling pot next to Stamp Thunderhorn.|U|72057|
 T Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|N|To Stamp Thunderhorn.|
 
@@ -190,7 +190,7 @@ T An Intriguing Grimoire|QID|29445|M|53.24,75.83|N|To Sayge.|
 A Putting Trash to Good Use|QID|29510|M|53.24,75.83|N|From Sayge.|P|Enchanting;333;0+75|
 A Writing the Future|QID|29515|M|53.24,75.83|N|From Sayge.|P|Inscription;773;0+75|
 
-N Create 5 Prophetic Ink|QID|29515|N|Use the Bundle of Exotic Herbs.|L|71972|U|71971|
+C Create 5 Prophetic Ink|QID|29515|N|Use the Bundle of Exotic Herbs.|L|71972|U|71971|
 C Writing the Future|QID|29515|NC|N|Use the Prophetic Ink. Repeat until completed.|U|71972|
 T Writing the Future|QID|29515|M|53.24,75.83|N|To Sayge.|
 
