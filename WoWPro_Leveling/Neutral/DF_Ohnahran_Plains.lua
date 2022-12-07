@@ -675,19 +675,20 @@ F Teerakai|ACTIVE|67298|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|
 C The Wonders of the World|QID|67298|QO|2|M|46.09,59.93|Z|2023;Ohn'ahran Plains|N|Fly over and pick up the Ancient Scrap of Draconic Wisdom in the nest.|
 T The Wonders of the World|QID|67298|M|46.04,59.92|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|
 F Khadin's Cave|ACTIVE|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|And then hop back on your dragon and fly over to see Khadin.|
+C The Master of Their Craft|QID|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Khadin to teach you their wisdom.|
 T The Master of Their Craft|QID|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To Khadin.|
 A A Worthy Hunt|QID|69979|PRE|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|From Khadin.|
-K Thousandmile|ACTIVE|69979|M|49.41,37.10|Z|2023;Ohn'ahran Plains|N|Go out and kill and loot Thousandmile.|T|Thousandmile|
+K Thousandmile|ACTIVE|69979|M|49.41,37.10|QO|1|Z|2023;Ohn'ahran Plains|N|Go out and kill and loot Thousandmile.|T|Thousandmile|
 T A Worthy Hunt|QID|69979|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To Khadin. This is to show you the repeatable quest to turn your Shards of Dragon Knowledge into tradeskill knowlege.|
 
 ;adventure mode
 N Adventure Mode|ACTIVE|72268^65686|PRE|72267|S!US|N|If you want to go on to Azure Span, travel to Forkriver Crossing to meet Masud the Wise, If you want to choose a different zone, manually check off this step and the next one and return to Wingrest Embassy and the scouting map to pick a new zone if needed, or go directly to the new guide if you already have the lead in quest.|
-F Forkriver Crossing|ACTIVE|72268^65686|PRE|72267|
+;F Forkriver Crossing|ACTIVE|72268^65686|PRE|72267|
+N Choose Waking Shore|ACTIVE|72266|JUMP|The_Waking_Shores|S!US|
+N Choose Thaldraszus|ACTIVE|72269|JUMP|Thaldraszus|S!US|
 N Choose Azure Span|ACTIVE|72268^65686|PRE|72267|JUMP|The_Azure_Span|
 F Wingrest Embassy|AVAILABLE|72266^72268^72269|PRE|72267|M|57.50,68.13|Z|2022|N|At Vaknai.|
 N Scouting Map|AVAILABLE|72266^72268^72269|PRE|72267|M|76.52,34.24|Z|2022|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
 N Carry on!|ACTIVE|72266^72269|S!US|N|Finish your business and when you are ready, click on the book icon to load the next guide.|
-N Choose Waking Shore|ACTIVE|72266|JUMP|The_Waking_Shores|S!US|
-N Choose Thaldraszus|ACTIVE|72269|JUMP|Thaldraszus|S!US|
 ]]
 end)
