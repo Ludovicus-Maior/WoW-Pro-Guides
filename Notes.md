@@ -9,7 +9,7 @@
 
 ## Guide Updates
 ### Retail
-* Leveling: Azure Span, DF Campaign, Ohnahran Plains, Thaldraszus, Waking Shores, SL Maw Intro
+* Leveling: Azure Span, DF Campaign, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, SL Maw Intro
 
 ### Classic
 * No Classic guides were harmed during this release
