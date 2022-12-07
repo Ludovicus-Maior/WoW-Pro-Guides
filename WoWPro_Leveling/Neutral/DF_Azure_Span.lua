@@ -30,11 +30,11 @@ A To Dragonbone Keep|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;25
 ;adventure mode
 F Forkriver Crossing|ACTIVE|72268|M|71.66,80.59|Z|2023|N|Fly to Forkriver either on your own or at a flight master.|
 T Azure Span|QID|72268|M|71.66,80.59|Z|2023|N|To Masud the Wise.|
-
 A To the Azure Span|QID|65686|PRE|72268|M|71.66,80.59|Z|2023|N|From Masud the Wise.|
 T To the Azure Span|QID|65686|M|41.44,35.60|Z|2024|NC|N|To Glania of the Blessed Ones.|
-A Camp Antonidas|QID|66228|PRE|65686|M|41.44,35.60|Z|2024|N|From Glania of the Blessed Ones.|C|-EVOKER|;Possibly not an evoker quest
-A Shades of Blue|QID|70746|PRE|65686|M|41.45,35.90|Z|2024|N|From Scalecommander Emberthal.|C|EVOKER| ; 72268 wrong PRE - Hendo72
+
+A Camp Antonidas|QID|66228|PRE|65686|M|41.44,35.60|Z|2024|N|From Glania of the Blessed Ones.|C|-EVOKER|
+A Shades of Blue|QID|70746|PRE|65686|M|41.45,35.90|Z|2024|N|From Scalecommander Emberthal.|C|EVOKER|
 A Some Good Fishing|QID|66227|PRE|65686|M|41.46,35.63|Z|2024|N|From Khuri.|RANK|3|;add profession check. or a step telling them to train fishing if they havent?
 C Some Good Fishing|QID|66227|M|41.46,35.63|Z|2024|N|Take a moment to catch some fish. It's for a good cause.|
 T Some Good Fishing|QID|66227|M|41.46,35.63|Z|2024|N|To Khuri.|
