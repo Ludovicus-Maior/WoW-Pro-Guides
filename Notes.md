@@ -10,6 +10,7 @@
 ## Guide Updates
 ### Retail
 * Leveling: Azure Span, DF Campaign, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, SL Maw Intro
+* Achievements: Added a Dragon Riding Glyphs for assisting others
 
 ### Classic
 * No Classic guides were harmed during this release
