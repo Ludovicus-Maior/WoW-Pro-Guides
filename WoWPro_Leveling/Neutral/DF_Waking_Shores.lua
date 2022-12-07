@@ -242,8 +242,8 @@ C Training Wings|QID|70061|M|61.92,71.09|Z|2022|QO|4|N|Slay Relentless Gust.|
 C Training Wings|QID|70061|M|61.77,72.40|Z|2022|QO|3|N|Slay Intrusive Pupstinger.|S|
 C Training Wings|QID|70061|M|61.29,71.51|Z|2022|QO|2|N|Slay Agitated Weedling. If you end up at the bottom of the lifeshrine, you can exit the vehicle UI and ask Urlostrasz <Ferry> for a ride back to the top.|
 C Training Wings|QID|70061|M|61.77,72.40|Z|2022|QO|3|N|Slay Intrusive Pupstinger.|US|
-C Memories|QID|70134|M|61.98,72.21|Z|2022|QO|1|N|Behind the pillar at the bottom of the lifeshrine.|H|
-C Memories|QID|70134|M|61.98,72.21|Z|2022|QO|2|N|Behind the pillar at the bottom of the lifeshrine.|H|
+C Memories|QID|70134|M|61.98,72.21|Z|2022|QO|1|N|Behind the pillar at the bottom of the lifeshrine.\n\nThe Golden Glyph.|H|
+C Memories|QID|70134|M|61.98,72.21|Z|2022|QO|2|N|Behind the pillar at the bottom of the lifeshrine.\n\nThe little box on the ledge right belowe the glyph.|H|
 T Memories|QID|70134|M|61.06,71.48;57.82,66.85|CS|Z|2022|N|Talk to Urlostrasz to return to the top. Then turn in to Veritistrasz.|
 T Training Wings|QID|70061|M|62.34,72.80|Z|2022|N|To Majordomo Selistra.|
 A Who Brought the Ruckus?|QID|66931|PRE|68799&70061|M|62.35,73.01|Z|2022|N|From Alexstrasza the Life-Binder.|
