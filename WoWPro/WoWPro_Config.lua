@@ -876,7 +876,7 @@ local function createBlizzOptions()
                 fontSize = "medium",
                 name =
                     "The WoW-Pro addon has brought many of the guides we've built as a community into the game, "..
-                    "and built on them since WoLK to BFA and now Classic. Drop Discord and say hello!"
+                    "and built on them since WoLK to Classic(s) and Dragonflight. Drop by on Discord and say hello!"
             },
             blank19 = {
                 order = 102,
