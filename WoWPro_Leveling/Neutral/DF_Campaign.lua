@@ -1,11 +1,13 @@
 local guide = WoWPro:RegisterGuide('DF_Campaign', 'Leveling', 'Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,"Dragonflight Campaign")
-WoWPro:GuideLevels(guide,68, 70, 70)
+WoWPro:GuideQuestTriggers(guide, 72585,70180) -- add starting quest for each chapter
+WoWPro:GuideLevels(guide,60, 70, 70)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;adventure mode check |SPELL|393788|?
+;adventure mode check |PRE|72293|
+;adventure mode available check |ACH|16326;;1;true|
 N Work in Progress|N|This is a HUGE WIP, feel free to submit additions if you come to them. I just ran out of time.|
 N Renown|N|Many of the quest chains in this guide will not open up until you reach higher levels of renown. So, besides what you can see here, your goal should be to participate in events (Community Feasts, Hunts, etc) and make sure you do the Aiding the Accord Quest each week as it is 500 renown with each faction.|
 
@@ -39,22 +41,23 @@ H Valdrakken|ACTIVE|72585|M|50.21,56.14|Z|2112|N|Hearth or otherwise travel back
 T Open Orientation|QID|72585|M|50.21,56.14|Z|2112|N|To Therazal.|
 
 ;Ch 2 - The Mother Oathstone - Final Questline in Leveling Campaign? - seems to currently be bugged, alegedly followup from Moving On/66221
-;To Tyrhold -- used to be lvl 68 , on retail, not available at fresh 70 (and all 4 zone ach done|
+;To Tyrhold -- used to be lvl 68 , i know on beta it still wasn't there at 70. WH says 70 now; checked in at 70 on retail. MIA
 ;Aspect Power
 ;Red Dawn
 ;Vault of the Incarnates: Fury of the Storm-Eater
 
-;Ch 3 - The Chieftain's Duty - DFREN|Iskaara;2503;11|
-;Ch 4 - A Mystery, Sealed - DFREN|Dragonscale Exp;2507;13|
-;Ch 5 - The Silver Purpose - DFREN|Valdrakken;2510;12|
-;Ch 6 - In the Halls of Titans - DFREN|Dragonscale Exp;2507;24|
-;Ch 7 - Garden of Secrets - DFREN|Valdrakken;2510;19|
-;Ch 8 - The Dreamer - currently locked, unknown what requirements are
+; Ch 3 - The Chieftain's Duty - |DFREN|Iskaara;2503;11|-- or maybe 9 per comments
+; Ch 4 - A Mystery, Sealed - |DFREN|Dragonscale Exp;2507;13|
+; Ch 5 - The Silver Purpose - |DFREN|Valdrakken;2510;12|
+; Ch 6 - In the Halls of Titans - |DFREN|Dragonscale Exp;2507;24|
+; Ch 7 - Garden of Secrets - |DFREN|Valdrakken;2510;19|
+; Ch 8 - The Dreamer - currently locked, unknown what requirements are presumed Maruuk and quite high
 
 ; Chapter 9|Spark of Ingenuity
-A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal.|
+A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal.|LEAD|70180|
 T Learning Ingenuity|QID|72773|M|84.12,54.35|Z|2112|N|To Greyzik Cobblefinger.|
 A Jump-Start? Jump-Starting!|QID|70180|PRE|72773^70846|M|84.20,54.33|Z|2112|N|From Greyzik Cobblefinger.|
+A Jump-Start? Jump-Starting!|QID|70180|M|84.20,54.33|Z|2112|N|From Greyzik Cobblefinger.|ACH|16326;;1;true|
 C Jump-Start? Jump-Starting!|QID|70180|QO|1|M|84.74,54.78|Z|2112|V|N|Hop in the Goblin Gyrocopter.|
 C Jump-Start? Jump-Starting!|QID|70180|QO|2|M|85.51,55.41|Z|2112|NC|N|After a bit, a button will show up on your vehicle UI, Use it and target the Console below. Repeatedly|
 C Jump-Start? Jump-Starting!|QID|70180|QO|3|M|86.36,51.75|Z|2112|NC|U|194441|N|When the charging button changes to Eject, press it and float down. Aim for the platform if you don't want a long flight back.|
@@ -76,5 +79,8 @@ T Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|N|To Maiden of In
 A Crafting Orders|QID|72783|PRE|70633|M|85.04,54.43|Z|2112|N|From Greyzik Cobblefinger.|
 C Crafting Orders|QID|72783|M|34.61,63.20|Z|2112|N|Go to Head Clerk, Mimzy Sprazzlerock and click to open the crafting orders UI.|
 T Crafting Orders|QID|72783|M|34.61,63.20|Z|2112|N|This turns in on your quest log UI.|
+; not finished
+
+
 ]]
 end)
