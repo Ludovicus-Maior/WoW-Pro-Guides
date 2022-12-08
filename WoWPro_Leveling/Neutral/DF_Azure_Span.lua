@@ -370,7 +370,7 @@ T Drakes be Gone|QID|67299|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 K Yetor|ACTIVE|66968|M|70.53,26.46|Z|2024|QO|1|N|Yetor can be found in a small cave with Yetis outside.|
 T To the Mountain|QID|65887|M|70.02,35.24|Z|2024|N|To Kalecgos.\n[color=FF0000]NOTE: [/color]He'll appear when you reach Vakthros Range.|
 A Primal Offensive|QID|65943|PRE|65887|M|70.02,35.24|Z|2024|N|From Kalecgos.|
-A Lava Burst|QID|65944|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.\n[color=FF0000]NOTE: [/color]He'll appear after you accept Primal Offensive.|
+A Lava Burst|QID|65944|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
 A Elemental Unfocus|QID|66647|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
 ;A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
 K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|RARE|
