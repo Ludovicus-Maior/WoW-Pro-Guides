@@ -567,7 +567,7 @@ A His Stone Heart|QID|66151|PRE|66150&66149&66148|M|60.89,50.50|Z|2024|N|From Ra
 C His Stone Heart|QID|66151|M|60.43,49.35|Z|2024|N|Slay Stoneheart.|
 T His Stone Heart|QID|66151|M|60.91,50.50|Z|2024|N|To Radza Thunderclaw.|
 A Nowhere to Go|QID|66152|PRE|66151|M|60.98,50.57|Z|2024|N|From Garz.|
-K Huntmaster Krakle|ACTIVE|66939|QO|1|M|56.57,53.64|N|The huntmaster patrols around this little glade.|
+K Huntmaster Krakle|ACTIVE|66939|QO|1|M|56.57,53.64|N|The huntmaster patrols around this little glade.|T|Huntmaster Krakle|
 T Nowhere to Go|QID|66152|M|63.20,58.67|Z|2024|N|To Garz.|
 A What of the Winterpelt Clan?|QID|70627|PRE|66152|M|63.16,58.69|Z|2024|N|From Radza Thunderclaw.|
 H Azure Archives|ACTIVE|66015|M|PLAYER|N|And back to witness the Blue Oathstone go active.|TZ|The Conjured Biscuit Inn|
