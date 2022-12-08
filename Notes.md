@@ -1,3 +1,27 @@
+# Release 2022.12.07.A
+## Bug Fixes
+* NOAUTO accept was not working on GOSSIP NPCs
+* Partial fix to the options pane issues
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* Leveling: Azure Span, DF Campaign, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, SL Maw Intro
+* Achievements: Added a Dragon Riding Glyphs for assisting others
+
+### Classic
+* No Classic guides were harmed during this release
+
+### WotLK
+* No Wrath guides were harmed during this release
+
+### Professions
+* No Professions guides were harmed during this release
+
+
 # Release 2022.12.03.A
 ## Bug Fixes
 * ookami313:  Crash with attempt to concatenate local 'jqid' (a boolean value)

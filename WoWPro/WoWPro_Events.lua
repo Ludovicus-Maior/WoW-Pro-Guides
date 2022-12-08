@@ -874,7 +874,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
                     WoWPro.QuestStep = qidx
                     return WoWPro.GossipInfo_SelectAvailableQuest(index)
                 end
-                if questInfo.title == WoWPro.step[qidx] then
+                if questInfo.title == WoWPro.step[qidx] and not WoWPro.noauto[qidx] then
                     WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.", index, event, questInfo.title)
                     return WoWPro.GossipInfo_SelectAvailableQuest(index)
                 end
