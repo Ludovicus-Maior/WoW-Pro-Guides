@@ -370,7 +370,7 @@ T Drakes be Gone|QID|67299|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 K Yetor|ACTIVE|66968|M|70.53,26.46|Z|2024|QO|1|N|Yetor can be found in a small cave with Yetis outside.|
 T To the Mountain|QID|65887|M|70.02,35.24|Z|2024|N|To Kalecgos.\n[color=FF0000]NOTE: [/color]He'll appear when you reach Vakthros Range.|
 A Primal Offensive|QID|65943|PRE|65887|M|70.02,35.24|Z|2024|N|From Kalecgos.|
-A Lava Burst|QID|65944|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.\n[color=FF0000]NOTE: [/color]He'll appear after you accept Primal Offensive.|
+A Lava Burst|QID|65944|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
 A Elemental Unfocus|QID|66647|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
 ;A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
 K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|RARE|
@@ -567,7 +567,7 @@ A His Stone Heart|QID|66151|PRE|66150&66149&66148|M|60.89,50.50|Z|2024|N|From Ra
 C His Stone Heart|QID|66151|M|60.43,49.35|Z|2024|N|Slay Stoneheart.|
 T His Stone Heart|QID|66151|M|60.91,50.50|Z|2024|N|To Radza Thunderclaw.|
 A Nowhere to Go|QID|66152|PRE|66151|M|60.98,50.57|Z|2024|N|From Garz.|
-K Huntmaster Krakle|ACTIVE|66939|QO|1|M|56.57,53.64|N|The huntmaster patrols around this little glade.|
+K Huntmaster Krakle|ACTIVE|66939|QO|1|M|56.57,53.64|N|The huntmaster patrols around this little glade.|T|Huntmaster Krakle|
 T Nowhere to Go|QID|66152|M|63.20,58.67|Z|2024|N|To Garz.|
 A What of the Winterpelt Clan?|QID|70627|PRE|66152|M|63.16,58.69|Z|2024|N|From Radza Thunderclaw.|
 H Azure Archives|ACTIVE|66015|M|PLAYER|N|And back to witness the Blue Oathstone go active.|TZ|The Conjured Biscuit Inn|
