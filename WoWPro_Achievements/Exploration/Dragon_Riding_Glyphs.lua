@@ -48,7 +48,7 @@ F Gelikyr Overlook Glyph |N|This one is just above the overlook, fly through the
 F Algeth’era Glyph |N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|ACH|16102|
 F Algeth’ar Academy Glyph |N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|ACH|16104|
 F Veiled Ossuary Glyph |N|Inside the tower.|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|ACH|16105|
-F Vault of the Incarnates Glyph |N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|M|72.18,50.79|Z|2025;Thaldraszus!Dragonflight|ACH|16106|
+F Vault of the Incarnates Glyph |N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|M|72.41,50.79|Z|2025;Thaldraszus!Dragonflight|ACH|16106|
 F Tyrhold Glyph |N|This one is on the mountain ledge.|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|ACH|16103|
 F Thaldraszus Apex Glyph |N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|ACH|16107|
 ]]
