@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("Dragonriding_Glyphs-noAC", "Achievements", "Dragonflight", "WowPro Team", "Neutral")
 WoWPro:GuideNextGuide(guide, "Dragonflight")
-WoWPro:GuideLevels(guide,50,60)
+WoWPro:GuideLevels(guide,60,70)
 WoWPro.Achievements:GuideMisc(guide, "Dragonflight Flying Glyphs-NoAC", "Exploration", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -44,12 +44,12 @@ F Rusza'thar Reach Glyph|N|Floating above the tower.|M|86.5,39.4|CC|Z|2023;Ohn'A
 F Valdrakken Glyph|N|Above the highest tower over Valdrakken.|M|41.26,58.27|CC|Z|2025;Thaldraszus!Dragonflight|
 F Stormshroud Peak Glyph|N|On top of the mountain.|M|45.81,73.97|CC|Z|2025;Thaldraszus!Dragonflight|
 F Passage of Time Glyph|N|Floating just under the mountain archway, just behind the viaducts.|M|55.63,72.22|CC|Z|2025;Thaldraszus!Dragonflight|
-F Temporal Conflux Glyph|N|Inside the tower.|M|64.91,82.05|CC|Z|2025;Thaldraszus!Dragonflight|
+F Temporal Conflux Glyph|N|Inside the tower.|M|66.01,82.33|CC|Z|2025;Thaldraszus!Dragonflight|
 F Gelikyr Overlook Glyph|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|M|51.22,67.41|CC|Z|2025;Thaldraszus!Dragonflight|
 F Algeth’era Glyph|N|Over the tower.|M|49.90,40.20|CC|Z|2025;Thaldraszus!Dragonflight|
 F Algeth’ar Academy Glyph|N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|CC|Z|2025;Thaldraszus!Dragonflight|
 F Veiled Ossuary Glyph|N|Inside the tower.|M|67.10,11.80|CC|Z|2025;Thaldraszus!Dragonflight|
-F Vault of the Incarnates Glyph|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|M|72.18,50.79|CC|Z|2025;Thaldraszus!Dragonflight|
+F Vault of the Incarnates Glyph|N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|M|72.41,50.79|CC|Z|2025;Thaldraszus!Dragonflight|
 F Tyrhold Glyph|N|This one is on the mountain ledge.|M|61.48,56.61|CC|Z|2025;Thaldraszus!Dragonflight|
 F Thaldraszus Apex Glyph|N|This is high above the mountain, the highest point.|M|72.82,69.20|CC|Z|2025;Thaldraszus!Dragonflight|
 ]]
