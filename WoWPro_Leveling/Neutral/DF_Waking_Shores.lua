@@ -314,7 +314,7 @@ A To Give One's Heart|QID|67143|PRE|67100|M|60.23,72.19|Z|2022|N|From Thomas Bri
 A To Give One's Heart|QID|67143|PRE|67100|M|60.23,72.19|Z|2022|N|From Thomas Bright.|P|Inscription;773;9+1|
 A To Give One's Heart|QID|67143|PRE|67100|M|60.23,72.19|Z|2022|N|From Thomas Bright.|P|Tailoring;197;9+1|
 C To Give One's Heart|QID|67143|M|60.23,72.19|Z|2022|QO|1|NC|N|Stand next to Thomas's table, open your crafting profession and craft a Heart in a Bottle with any crafting profession.|
-C To Give One's Heart|QID|67143|M|60.23,72.19|Z|2022|QO|2|CHAT|N|Talk to Thomas and give him the gift.| 
+C To Give One's Heart|QID|67143|M|60.23,72.19|Z|2022|QO|2|CHAT|N|Talk to Thomas and give him the gift.|
 T To Give One's Heart|QID|67143|M|59.89,71.58|Z|2022|N|To Miguel Bright Thomas Bright.|
 
 A Professionally Equipped|QID|67137|PRE|67100|M|59.86,71.60|Z|2022|N|From Miguel Bright.|RANK|2|P|Blacksmithing;164;9+1|
