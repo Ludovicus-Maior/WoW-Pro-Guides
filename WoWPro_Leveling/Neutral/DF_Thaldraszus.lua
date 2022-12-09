@@ -48,7 +48,7 @@ A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Val
 T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
-C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own).|
+C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
 T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|;adventure mode
 
 T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
@@ -95,10 +95,10 @@ C Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|QO|2|H|N|Click on Guardian Ve
 T Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|N|To Guardian Velomir.|
 A The Fog of Battle|QID|66246|PRE|66167|M|35.84,82.52|Z|2025|N|From Guardian Velomir.|
 A Vengeance, Served Hot|QID|66169|PRE|66167|M|35.84,82.52|Z|2025|N|From Guardian Velomir.|
-C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025|N|Kill Magmasworn Primalists  as you are searching for Velomir's unit.|S|
-C Kaora|QID|66246|M|36.24,83.78|Z|2025|QO|1<1|CHAT|N|Inspect the mangled corpse.|
-C Sargeant Tagrik|QID|66246|M|36.44,85.41|Z|2025|QO|1<2|CHAT|N|Inspect the mangled corpse.|
-C Mikor|QID|66246|M|35.74,84.21|Z|2025|QO|1<3|CHAT|N|Inspect the mangled corpse.|
+C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025|N|Kill Magmasworn Primalists as you are searching for Velomir's unit.|S|
+C Kaora|QID|66246|M|36.24,83.78|Z|2025|QO|1<1|I|N|Inspect the mangled corpse.|
+C Sargeant Tagrik|QID|66246|M|36.44,85.41|Z|2025|QO|1<2|I|N|Inspect the mangled corpse.|
+C Mikor|QID|66246|M|35.74,84.21|Z|2025|QO|1<3|I|N|Inspect the mangled corpse.|
 C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025|N|Keep killing Magmasworn Primalists until step closes.|US|
 T The Fog of Battle|QID|66246|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
 T Vengeance, Served Hot|QID|66169|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
