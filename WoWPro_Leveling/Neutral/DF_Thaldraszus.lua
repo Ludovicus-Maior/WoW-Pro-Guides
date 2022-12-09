@@ -201,11 +201,11 @@ T Ring of Fire|QID|70878|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 T Worst of the Worst|QID|70875|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 T Fracture the Foci|QID|70876|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 A Report on the Rebels|QID|70879|PRE|70878&70875&70876|M|42.45,78.84|Z|2025|N|From Investigator Erima.|
-$ Stormshroud Peak Glyph|QID|99999|N|On top of the mountain. Way, Way, Up!|M|45.81,73.97|Z|2025;Thaldraszus!Dragonflight|ACH|16099|
-$ Gelikyr Overlook Glyph|QID|99999|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|ACH|16666|
+$ Stormshroud Peak Glyph|QID|99999|M|46.09,73.97|Z|2025;Thaldraszus!Dragonflight|N|On top of the mountain. Way, way up there!|ACH|16099|
+$ Gelikyr Overlook Glyph|QID|99999|M|52.71,67.40|Z|2025;Thaldraszus!Dragonflight|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|ACH|16666|
 T Look to the Overlook|QID|71179|M|52.66,67.30|Z|2025|N|To Commander Thadezus.|
 A What Once Was Ours|QID|66468|PRE|71179|M|52.66,67.30|Z|2025|N|From Commander Thadezus.|
-C What Once Was Ours|QID|66468|M|53.57,63.91;53.91,63.94|CS|Z|2025|N|Work your way down the path, until you get to the first waypoint, then up the stairs to the tower there. Kill Primalists,Heal the injured and and destroy totems as you go.|
+C What Once Was Ours|QID|66468|M|53.57,63.91;53.91,63.94|CS|Z|2025|N|Work your way down the path until you get to the first waypoint and then up the stairs to the tower there. Kill Primalists, heal the injured and destroy totems as you go.|
 T What Once Was Ours|QID|66468|M|54.44,65.15|Z|2025|N|To Sharnax.|
 A The Forward Push|QID|66470|PRE|66468|M|54.44,65.15|Z|2025|N|From Sharnax.|
 A Prime Planning|QID|66471|PRE|66468|M|54.44,65.15|Z|2025|N|From Sharnax.|
@@ -239,7 +239,7 @@ A A Poisonous Palette|QID|66456|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Wayw
 A Ending the Blue Period|QID|66457|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
 C A Poisonous Palette|QID|66456|M|55.68,70.47|Z|2025|N|Kill and loot the Embertooth mobs to find the Envenomed Spears.|S|
 K Bluescale|ACTIVE|66457|QO|1|M|55.89,71.18|Z|2025|N|Bluescale is in a small cave. The plants around him will also agro.|
-$ Passage of Time Glyph|ACTIVE|99999|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|N|Floating just under the mountain archway, just behind the viaducts.|ACH|16667|
+$ Passage of Time Glyph|QID|99999|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|N|Floating just under the mountain archway, just behind the viaducts.|ACH|16667|
 C A Poisonous Palette|QID|66456|M|56.73,69.09|Z|2025|N|Continue wiping out the inhabitants of the area until you have enough Envenomed Spears.|US|
 T A Poisonous Palette|QID|66456|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 T Ending the Blue Period|QID|66457|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
