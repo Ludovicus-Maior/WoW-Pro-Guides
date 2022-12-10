@@ -685,10 +685,8 @@ C Customer Satisfaction|QID|69981|M|67.02,80.85|Z|2023;Ohn'ahran Plains|QO|3|NC|
 C Customer Satisfaction|QID|69981|M|72.03,81.11|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Show Azley what you found.|
 T Customer Satisfaction|QID|69981|M|71.84,81.27|Z|2023;Ohn'ahran Plains|N|To Mahra Treebender.|
 
-;Disabled until back end programming for faction levels are done.
-;A Show Your Mettle|QID|70221|PRE|69915|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|REP|Artisan's Consortium - Dragon Isles Branch;2544;Preferred|
+A Show Your Mettle|QID|70221|PRE|70034|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|
 t Show Your Mettle|QID|70221|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|IZ|13755|
-
 
 F Teerakai|ACTIVE|67298|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|3|
 C The Wonders of the World|QID|67298|QO|2|M|46.09,59.93|Z|2023;Ohn'ahran Plains|N|Fly over and pick up the Ancient Scrap of Draconic Wisdom in the nest.|
