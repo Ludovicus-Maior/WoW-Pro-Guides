@@ -133,8 +133,8 @@ A The Fields of Ferocity|QID|70444|PRE|65805|M|62.31,42.33|Z|2023;Ohn'ahran Plai
 C Bloodlines, Sweets, and Teerai|QID|70739|M|60.04,37.39|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask Elder Odgerel about Norman's plan.|
 C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.|
 C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.|
-A Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;2|IZ|13764|
-T Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
+;A Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;2|IZ|13764|
+t Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
 A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruukai;2503;7|IZ|13764|
 T Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
 T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.|
