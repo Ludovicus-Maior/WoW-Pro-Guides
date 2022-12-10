@@ -589,6 +589,9 @@ C The Trouble with Taivan|QID|67772|QO|3|M|61.13,40.02|Z|2023;Ohn'ahran Plains|H
 C The Trouble with Taivan|QID|67772|QO|4|M|61.19,39.70|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Taivan to head over to see Hunter Jadar.|
 A Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruuk Centaur;2503;6|
 T Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
+R Farrier Rondare|QID|71060|M|62.53,42.47|CC|N|Stop by Farrier Rondare and pick out a free helm cosmetic.|DFREN|Maruuk;2503;7|IZ|13764|
+A To Adorn Your Head|QID|71060|M|62.53,42.47|N|From Farrier Rondare|DFREN|Maruuk;2503;7|IZ|13764|
+T To Adorn Your Head|QID|71060|M|62.53,42.47|N|[color=FF0000]NOTE: [/color] Pick which one you want. All of the cosmetics can be obtained from Farrier Rondare after completing this quest.|DFREN|Maruuk;2503;7|IZ|13764|
 R The Watering Hole|ACTIVE|67772|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|Fly over to the Wattering Hole to meet up with Hunter Jadar.|RANK|3|
 T The Trouble with Taivan|QID|67772|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|To Hunter Jadar.|
 A The Hunting Hound|QID|67921|PRE|67772|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|RANK|3|
@@ -597,7 +600,7 @@ C The Hunting Hound|QID|67921|QO|2|M|71.43,49.42|Z|2023;Ohn'ahran Plains|CHAT|N|
 C The Hunting Hound|QID|67921|QO|3|M|73.30,48.86|Z|2023;Ohn'ahran Plains|CHAT|N|Go out and kill the Ravenous Proto-Drake that flys around the area with Taivan and a pack of bakar.|
 T The Hunting Hound|QID|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|To Hunter Jadar.|RANK|3|
 A Part of a Pack|QID|70989|PRE|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
-C Part of a Pack|QID|70989|M|74.35,48.59|Z|2023;Ohn'ahran Plains|N|Kill the Ravenous Proto-Drake.|
+C Part of a Pack|QID|70989|M|74.35,48.59|Z|2023;Ohn'ahran Plains|N|Kill the Ravenous Proto-Drake.\n\nIt flys around the area.|T|Ravenous Proto-Drake|
 T Part of a Pack|QID|70989|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
 A Try Again, Taivan!|QID|68083|PRE|70989|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
 R Rusza'thar Reach|ACTIVE|68083|M|84.66,36.88|Z|2023;Ohn'ahran Plains|N|Head over to get this flight path and Glyph.|RANK|3|

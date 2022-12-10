@@ -48,7 +48,7 @@ A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Val
 T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
-C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own).|
+C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
 T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|;adventure mode
 
 T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
@@ -95,10 +95,10 @@ C Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|QO|2|H|N|Click on Guardian Ve
 T Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|N|To Guardian Velomir.|
 A The Fog of Battle|QID|66246|PRE|66167|M|35.84,82.52|Z|2025|N|From Guardian Velomir.|
 A Vengeance, Served Hot|QID|66169|PRE|66167|M|35.84,82.52|Z|2025|N|From Guardian Velomir.|
-C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025|N|Kill Magmasworn Primalists  as you are searching for Velomir's unit.|S|
-C Kaora|QID|66246|M|36.24,83.78|Z|2025|QO|1<1|CHAT|N|Inspect the mangled corpse.|
-C Sargeant Tagrik|QID|66246|M|36.44,85.41|Z|2025|QO|1<2|CHAT|N|Inspect the mangled corpse.|
-C Mikor|QID|66246|M|35.74,84.21|Z|2025|QO|1<3|CHAT|N|Inspect the mangled corpse.|
+C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025|N|Kill Magmasworn Primalists as you are searching for Velomir's unit.|S|
+C Kaora|QID|66246|M|36.24,83.78|Z|2025|QO|1<1|I|N|Inspect the mangled corpse.|
+C Sargeant Tagrik|QID|66246|M|36.44,85.41|Z|2025|QO|1<2|I|N|Inspect the mangled corpse.|
+C Mikor|QID|66246|M|35.74,84.21|Z|2025|QO|1<3|I|N|Inspect the mangled corpse.|
 C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025|N|Keep killing Magmasworn Primalists until step closes.|US|
 T The Fog of Battle|QID|66246|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
 T Vengeance, Served Hot|QID|66169|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
@@ -201,11 +201,11 @@ T Ring of Fire|QID|70878|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 T Worst of the Worst|QID|70875|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 T Fracture the Foci|QID|70876|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 A Report on the Rebels|QID|70879|PRE|70878&70875&70876|M|42.45,78.84|Z|2025|N|From Investigator Erima.|
-$ Stormshroud Peak Glyph|QID|99999|N|On top of the mountain. Way, Way, Up!|M|45.81,73.97|Z|2025;Thaldraszus!Dragonflight|ACH|16099|
-$ Gelikyr Overlook Glyph|QID|99999|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|ACH|16666|
+$ Stormshroud Peak Glyph|QID|99999|M|46.09,73.97|Z|2025;Thaldraszus!Dragonflight|N|On top of the mountain. Way, way up there!|ACH|16099|
+$ Gelikyr Overlook Glyph|QID|99999|M|52.71,67.40|Z|2025;Thaldraszus!Dragonflight|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|ACH|16666|
 T Look to the Overlook|QID|71179|M|52.66,67.30|Z|2025|N|To Commander Thadezus.|
 A What Once Was Ours|QID|66468|PRE|71179|M|52.66,67.30|Z|2025|N|From Commander Thadezus.|
-C What Once Was Ours|QID|66468|M|53.57,63.91;53.91,63.94|CS|Z|2025|N|Work your way down the path, until you get to the first waypoint, then up the stairs to the tower there. Kill Primalists,Heal the injured and and destroy totems as you go.|
+C What Once Was Ours|QID|66468|M|53.57,63.91;53.91,63.94|CS|Z|2025|N|Work your way down the path until you get to the first waypoint and then up the stairs to the tower there. Kill Primalists, heal the injured and destroy totems as you go.|
 T What Once Was Ours|QID|66468|M|54.44,65.15|Z|2025|N|To Sharnax.|
 A The Forward Push|QID|66470|PRE|66468|M|54.44,65.15|Z|2025|N|From Sharnax.|
 A Prime Planning|QID|66471|PRE|66468|M|54.44,65.15|Z|2025|N|From Sharnax.|
@@ -239,7 +239,7 @@ A A Poisonous Palette|QID|66456|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Wayw
 A Ending the Blue Period|QID|66457|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
 C A Poisonous Palette|QID|66456|M|55.68,70.47|Z|2025|N|Kill and loot the Embertooth mobs to find the Envenomed Spears.|S|
 K Bluescale|ACTIVE|66457|QO|1|M|55.89,71.18|Z|2025|N|Bluescale is in a small cave. The plants around him will also agro.|
-$ Passage of Time Glyph|ACTIVE|99999|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|N|Floating just under the mountain archway, just behind the viaducts.|ACH|16667|
+$ Passage of Time Glyph|QID|99999|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|N|Floating just under the mountain archway, just behind the viaducts.|ACH|16667|
 C A Poisonous Palette|QID|66456|M|56.73,69.09|Z|2025|N|Continue wiping out the inhabitants of the area until you have enough Envenomed Spears.|US|
 T A Poisonous Palette|QID|66456|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
 T Ending the Blue Period|QID|66457|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
