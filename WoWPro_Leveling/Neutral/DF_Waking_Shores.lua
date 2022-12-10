@@ -62,9 +62,9 @@ A My First Real Emergency!|QID|69912|PRE|69911|M|76.58,33.66|Z|2022|N|From Sendr
 C My First Real Emergency!|QID|69912|M|76.58,33.66|Z|2022|QO|1|CHAT|N|Tell Sendrax to send the signal flare.|
 C My First Real Emergency!|QID|69912|M|76.22,34.45|Z|2022|QO|2|NC|N|Wait for the dragons' arrival.|
 T My First Real Emergency!|QID|69912|M|76.19,34.50|Z|2022|N|To Wrathion.|
-A The Djaradin Have Awoken|QID|69914|PRE|69912|M|76.22,34.51|Z|2022|N|From Majordomo Selistra.|
-C The Djaradin Have Awoken|QID|69914|M|76.27,34.53|Z|2022|CHAT|N|Ask Majordomo Selistra how you can help.|
-T The Djaradin Have Awoken|QID|69914|M|76.27,34.40|Z|2022|N|To Sendrax.|
+A The Djaradin Have Awoken|QID|69914|PRE|69912|M|76.22,34.53|Z|2022|N|From Majordomo Selistra.|
+C The Djaradin Have Awoken|QID|69914|M|76.22,34.53|Z|2022|CHAT|N|Ask Majordomo Selistra how you can help.|
+T The Djaradin Have Awoken|QID|69914|M|76.26,34.40|Z|2022|N|To Sendrax.|
 A Reporting for Duty|QID|65760|PRE|69914|M|76.27,34.40|Z|2022|N|From Sendrax.|
 C Reporting for Duty|QID|65760|M|76.27,34.40|Z|2022|QO|1|CHAT|N|Ask Sendrax to lead you to the outpost.|
 C Reporting for Duty|QID|65760|M|71.30,40.52|Z|2022|QO|2|NC|N|You need to stay somewhat close to Sendrax or she will stop.|
@@ -77,7 +77,7 @@ C Invader Djaradin|QID|65989|M|70.82,45.73|Z|2022|N|Finish slaying Djaradin.|US|
 T Invader Djaradin|QID|65989|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
 T Deliver Whelps From Evil|QID|65990|M|71.20,40.77|Z|2022|N|To Commander Lethanak.|
 A Time for a Reckoning|QID|65991|PRE|65989&65990|M|71.20,40.77|Z|2022|N|From Commander Lethanak.|
-A Erstwhile Ecologists|QID|72122|PRE|65989&65990|M|71.11,40.46|Z|2022|N|From Mender Eskros.|RANK|2|
+A Erstwhile Ecologists|QID|72122|PRE|65989&65990|M|71.20,40.51|Z|2022|N|From Mender Eskros.|RANK|2|
 T Erstwhile Ecologists|QID|72122|M|74.43,42.15|Z|2022|N|To Ecologist Iskha.|
 A A Scalpel of a Solution|QID|66105|PRE|72122|M|74.41,42.12|Z|2022|N|From Ecologist Iskha.|RANK|2|
 A Wildlife Rescue|QID|66107|PRE|72122|M|74.49,42.17|Z|2022|N|From Ecologist Tharu.|RANK|2|
@@ -177,7 +177,7 @@ C Stay a While|QID|70132|M|57.82,66.81|Z|2022|QO|2|CHAT|N|Listen to Veritistrasz
 T Stay a While|QID|70132|M|57.85,66.80|Z|2022|N|To Veritistrasz.|
 A Memories|QID|70134|PRE|70132|M|57.82,66.85|Z|2022|N|From Veritistrasz.|RANK|2|
 A Artisan's Courier|QID|67564|M|57.93,68.26|Z|2022|N|From Haephesta.|RANK|2|
-f Ruby Lifeshrine|ACTIVE|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
+f Ruby Life Pools|ACTIVE|68795|M|57.79,68.13|Z|2022|N|At Vaknai.|
 C Dragonriding|QID|68795|M|58.37,67.12|Z|2022|QO|1|CHAT|N|Speak to Lord Andestrasz about Dragonriding.|
 T Dragonriding|QID|68795|M|57.66,66.89|Z|2022|N|To Lord Andestrasz.|
 A How to Glide with Your Dragon|QID|65118|PRE|68795|M|57.66,66.89|Z|2022|N|From Lord Andestrasz.|
@@ -313,7 +313,8 @@ A To Give One's Heart|QID|67143|PRE|67100|M|60.23,72.19|Z|2022|N|From Thomas Bri
 A To Give One's Heart|QID|67143|PRE|67100|M|60.23,72.19|Z|2022|N|From Thomas Bright.|P|Jewelcrafting;755;9+1|
 A To Give One's Heart|QID|67143|PRE|67100|M|60.23,72.19|Z|2022|N|From Thomas Bright.|P|Inscription;773;9+1|
 A To Give One's Heart|QID|67143|PRE|67100|M|60.23,72.19|Z|2022|N|From Thomas Bright.|P|Tailoring;197;9+1|
-C To Give One's Heart|QID|67143|M|60.23,72.19|Z|2022|NC|N|Stand next to Thomas's table, open your crafting profession and craft a Heart in a Bottle with any crafting profession.|
+C To Give One's Heart|QID|67143|M|60.23,72.19|Z|2022|QO|1|NC|N|Stand next to Thomas's table, open your crafting profession and craft a Heart in a Bottle with any crafting profession.|
+C To Give One's Heart|QID|67143|M|60.23,72.19|Z|2022|QO|2|CHAT|N|Talk to Thomas and give him the gift.|
 T To Give One's Heart|QID|67143|M|59.89,71.58|Z|2022|N|To Miguel Bright Thomas Bright.|
 
 A Professionally Equipped|QID|67137|PRE|67100|M|59.86,71.60|Z|2022|N|From Miguel Bright.|RANK|2|P|Blacksmithing;164;9+1|
@@ -407,7 +408,7 @@ C Exeunt, Triumphant|QID|66124|M|46.13,78.51|Z|2022|QO|1|CHAT|N|Check in with Ma
 T Exeunt, Triumphant|QID|66124|M|46.15,78.52|Z|2022|N|To Majordomo Selistra.|
 A Wrathion Awaits|QID|66079|PRE|66124|M|46.09,78.28|Z|2022|N|From Alexstrasza the Life-Binder.|
 ;A Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Bonus Objective - Autoaccepted.|RANK|2|LVL|-70|
-C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Kill stuff as you go about the other objectives.|S!US|
+C Pruning the Preserve|QID|70196|M|46.28,79.60|Z|2022|N|Kill stuff as you go about the other objectives.|S!US|IZ|13733|
 C Amateur Protography|QID|66524|M|45.11,77.35|Z|2022|QO|2|NC|U|192465|N|Photograph an Optimistic Whelp learning to fly.|
 C Amateur Protography|QID|66524|M|44.07,78.04|Z|2022|QO|3|NC|U|192465|N|Photograph a Hungry Proto-Drake catching a fish.|
 C Behavior Analysis "Homework"|QID|69897|M|42.56,79.34|Z|2022|QO|1<1|H|N|Click the Sleeping Whelp to pet it.|

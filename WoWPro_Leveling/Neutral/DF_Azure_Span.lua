@@ -9,7 +9,7 @@ return [[
 ;Rowie offers a quest at Tuskaar 3 REN also, its down below, but forgot to add to this section
 A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2511;4|;not positive of the REN
 A Tuskarr Fishing Gear|QID|71230|LEAD|70871|N|From Rowie|DFREN|Iskaara;2511;5|
-A To Dragonbone Keep|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|
+A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|
 ;Dormant Discovery - this dropped when you hit Valdrakken REN 7 and starts the waygates questline. first turn in prolly s/b in WS guide since that is when the item will drop and the first turnin is there, resulting in sending you to Camp Antonidas, and I put that questline here, starting with T Nightborne Knowhow|QID|66598
 ;A Community Feasts|QID|70938|M|7.66,44.30|Z|2024|N|From Rowie.|RANK|2|;i got this much earlier REN 3?; I got Community Feasts from Rowie (who follows you till you accept), REN 3 i think. I don't know if we want to put it in the guide or not.
 
@@ -59,7 +59,7 @@ A The Azure Wizard|QID|70747|PRE|70746|M|45.6,41.2|Z|2024|N|From Telash Greywing
 C The Azure Wizard|QID|70747|M|46.64,40.19|Z|2024|CHAT|N|Ask him if he serves the blue dragonflight|
 T The Azure Wizard|QID|70747|M|46.64,40.19|Z|2024|N|To Archmage Khadgar.|
 
-T Nightborne Knowhow|QID|66598|M|45.94,40.65|Z|2024|N|To Warpcaster Delandra.|;add IZ so this doesnt pop up while out and about -- then copy this step (+ next 4) to other places in the guide where you are in Camp Antonidas, in case they get it later.
+T Nightborne Know-How|QID|66598|M|45.94,40.65|Z|2024|N|To Warpcaster Delandra.|;add IZ so this doesnt pop up while out and about -- then copy this step (+ next 4) to other places in the guide where you are in Camp Antonidas, in case they get it later.
 A Curiosity is Key|QID|70215|PRE|66598|M|45.94,40.65|Z|2024|N|From Warpcaster Delandra.|
 C Curiosity is Key|QID|70215|M|45.94,40.65|Z|2024|N|Ask her about the stones and runes.|
 T Curiosity is Key|QID|70215|M|45.94,40.65|Z|2024|N|To Warpcaster Delandra.|
@@ -638,7 +638,7 @@ t Setting Your Very Own Net|QID|72584|PRE|70871|M|12.82,49.18|N|To Tavio.|
 T Grimtusk's Sister|QID|71016|M|12.47,49.23|Z|2024|N|To Naluki, in the below groundlevel inn.|
 A Naluki's Letter|QID|71017|PRE|71016|M|12.47,49.23|Z|2024|N|From Naluki.|
 A Stolen Tuskarr Totems|QID|70936|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|L|200071 -1|;step not showing - not sure why.
-T Tuskar Champion's Tales|QID|70940|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|;forgot to get the item number of the thing.
+T Tuskarr Champion's Tales|QID|70940|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|;forgot to get the item number of the thing.
 T Story of a Memorable Victory|QID|72291|M|12.41,49.34|Z|2024|N|At Elder Poa.|;from randomly dropped item of same name-201470
 K Bloodhorn|ACTIVE|66958|QO|1|M|18.94,49.28|N|Kill and Loot Bloodhorn.|
 
