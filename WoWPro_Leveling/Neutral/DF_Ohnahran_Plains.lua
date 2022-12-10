@@ -600,7 +600,7 @@ C The Hunting Hound|QID|67921|QO|2|M|71.43,49.42|Z|2023;Ohn'ahran Plains|CHAT|N|
 C The Hunting Hound|QID|67921|QO|3|M|73.30,48.86|Z|2023;Ohn'ahran Plains|CHAT|N|Go out and kill the Ravenous Proto-Drake that flys around the area with Taivan and a pack of bakar.|
 T The Hunting Hound|QID|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|To Hunter Jadar.|RANK|3|
 A Part of a Pack|QID|70989|PRE|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
-C Part of a Pack|QID|70989|M|74.35,48.59|Z|2023;Ohn'ahran Plains|N|Kill the Ravenous Proto-Drake.|
+C Part of a Pack|QID|70989|M|74.35,48.59|Z|2023;Ohn'ahran Plains|N|Kill the Ravenous Proto-Drake.\n\nIt flys around the area.|T|Ravenous Proto-Drake|
 T Part of a Pack|QID|70989|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
 A Try Again, Taivan!|QID|68083|PRE|70989|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
 R Rusza'thar Reach|ACTIVE|68083|M|84.66,36.88|Z|2023;Ohn'ahran Plains|N|Head over to get this flight path and Glyph.|RANK|3|
