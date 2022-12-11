@@ -63,7 +63,7 @@ T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To 
 T Making Introductions|QID|65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Toward the City|QID|65803|PRE|65802&65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Toward the City|QID|65803|M|83.15,23.78|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Let Tomul know you are ready to go.|
-C Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|NC|N|Listen to the Shikaar stories. (Optional)There is a 'dog', named [color=0060ee]Stout Riding Baker[/color] walking in the caravan you can ride if you want to afk or have your hands free for chatting. Or if you wanna just go fast, ride/fly on your own directly to the 1st stop.|
+C Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|NC|N|Listen to the Shikaar stories. (Optional)There is a 'dog', named [color=0060ee]Stout Riding Bakar[/color] walking in the caravan you can ride if you want to afk or have your hands free for chatting. Or if you wanna just go fast, ride/fly on your own directly to the 1st stop.|T|Stout Riding Bakar|
 T Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A For Food and Rivalry|QID|65804|PRE|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|N|Kill animals as you pass thru their area and collect the fresh game meat. Don't try to get them all, we will be back.|S|IZ|14094|
@@ -105,7 +105,7 @@ C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|N|Finish 
 T For Food and Rivalry|QID|65804|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 T Mysterious Beast|QID|70185|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A By Broken Road|QID|65940|PRE|65804&70185|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
-C By Broken Road|QID|65940|M|70.02,37.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Arrive at the second stop. Again you can ride the [color=0060ee]Stout Riding Baker[/color] if you want.|
+C By Broken Road|QID|65940|M|70.02,37.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Arrive at the second stop. Again you can ride the [color=0060ee]Stout Riding Bakar[/color] if you want.|T|Stout Riding Bakar|
 T By Broken Road|QID|65940|M|69.97,37.98|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Connection to Ohn'ahra|QID|65805|PRE|65940|M|69.97,37.98|Z|2023;Ohn'ahran Plains|N|From Ohn Seshteng.|
 C Connection to Ohn'ahra|QID|65805|M|68.69,41.49|Z|2023;Ohn'ahran Plains|QO|3|N|Kill Salamanthers until you loot a Heart.|S|
@@ -133,8 +133,11 @@ A The Fields of Ferocity|QID|70444|PRE|65805|M|62.31,42.33|Z|2023;Ohn'ahran Plai
 C Bloodlines, Sweets, and Teerai|QID|70739|M|60.04,37.39|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask Elder Odgerel about Norman's plan.|
 C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.|
 C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.|
-A Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;2|IZ|13764|
-T Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
+
+;Quest never showed up. Completed guide and at Renown level 8.
+;A Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;2|IZ|13764|
+t Sharing the Bounty|QID|72762|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
+
 A Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruukai;2503;7|IZ|13764|
 T Good at Doings, Not Understandings|QID|72363|M|60.39,37.73|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
 T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.|
@@ -241,7 +244,7 @@ T The Relic Inquiry|QID|65893|M|64.01,18.25|Z|2023;Ohn'ahran Plains|N|To Skyscri
 A Competing Company|QID|65895|PRE|65891&65893|M|64.01,18.25|Z|2023;Ohn'ahran Plains|N|From Skyscribe Adenedal.|RANK|2|
 l Remains of Xalgaz|ACTIVE|65895|QO|1<1|M|61.72,18.65|Z|2023;Ohn'ahran Plains|N|Examine the corpse to find your next clue. Avoid the eggs to avoid unnecesary fighting.|
 K Sootscale the Indomitable|ACTIVE|65895|QO|1<2|M|62.45,18.60|Z|2023;Ohn'ahran Plains|N|Kill and loot Sootscale to find your next clue.|T|Sootscale the Indomitable|
-K Tserasor the Preserver|ACTIVE|65895|QO|1<3|M|62.92,18.71|Z|2023;Ohn'ahran Plains|N|Kill and loot Tserasor to find your last clue.|T|Tserasor the Preserver.|
+K Tserasor the Preserver|ACTIVE|65895|QO|1<3|M|62.92,18.71|Z|2023;Ohn'ahran Plains|N|Kill and loot Tserasor to find your last clue.|T|Tserasor the Preserver|
 K Malifron|ACTIVE|65895|QO|1|M|62.70,16.39|Z|2023;Ohn'ahran Plains|N|Kill and loot Malifron to find your first clue.|T|Malifron|
 C The Sundered Asunder|QID|65892|M|63.33,16.39|Z|2023;Ohn'ahran Plains|N|Stick around to finish this bonus objective or walk out of the area as you choose.|US|IZ|13766|
 ;t The Sundered Asunder|QID|65892|M|PLAYER|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Autocompleted.|
@@ -259,7 +262,6 @@ T The Black Locus|QID|66700|M|65.99,25.08|Z|2023;Ohn'ahran Plains|N|To Telemance
 H Maruukai|ACTIVE|65837|M|PLAYER|N|Hearth back to Maruukai for a bit of a time savings on your run to Pinewood Post.|RANK|2|
 A After My Ohn Heart|QID|70721|PRE|70739&70730|M|62.81,35.45|Z|2023;Ohn'ahran Plains|N|From Windsage Dawa.|
 C After My Ohn Heart|QID|70721|M|63.61,40.48|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Hunter Narman.|
-
 R Pinewood Post|ACTIVE|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|You will want to be at full vigor to make the glide all the way over there.|
 T Trouble In The Pines|QID|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|To Sentinel Olekk.|
 A Tempests Abound|QID|66681|PRE|65837|M|81.02,58.92|Z|2023;Ohn'ahran Plains|N|From Sentinel Olekk.|
@@ -437,9 +439,7 @@ $ Ohn'iri Springs Glyph|QID|99999|M|57.3,80.3|Z|2023|N|Next to the mountain.|ACH
 F Ohn'iri Springs|ACTIVE|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|And continue on to Ohn'iri Springs.|
 C Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|CHAT|N|Talk to Radiya.|
 T Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|To Initiate Radiya.|
-
 H Maruukai|ACTIVE|66259|M|PLAYER|N|Hearth back to Maruukai. If you hearth is set elsewhere or not available, there is a flight path in Ohn'iri Springs, or you can fly/run.|
-;REN3? not sure what triggered this
 A Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruuk;2503;3|IZ|13764|
 T Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
 C A Storm of Ill Tidings|QID|66259|M|60.02,37.51|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Tell the Khanam Matra about Ohn'ara. (top floor).|
@@ -592,6 +592,9 @@ C The Trouble with Taivan|QID|67772|QO|3|M|61.13,40.02|Z|2023;Ohn'ahran Plains|H
 C The Trouble with Taivan|QID|67772|QO|4|M|61.19,39.70|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Taivan to head over to see Hunter Jadar.|
 A Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruuk Centaur;2503;6|
 T Observing the Wind|QID|71058|M|60.41,37.72|Z|2023;Ohn'ahran Plains|N|To Quartermaster Huseng.|
+R Farrier Rondare|QID|71060|M|62.53,42.47|CC|N|Stop by Farrier Rondare and pick out a free helm cosmetic.|DFREN|Maruuk;2503;7|IZ|13764|
+A To Adorn Your Head|QID|71060|M|62.53,42.47|N|[color=FF0000]NOTE: [/color] Pick which one you want. All of the cosmetics can be obtained from Farrier Rondare after completing this quest.|DFREN|Maruuk;2503;7|IZ|13764|
+T To Adorn Your Head|QID|71060|M|62.53,42.47|DFREN|Maruuk;2503;7|IZ|13764|
 R The Watering Hole|ACTIVE|67772|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|Fly over to the Wattering Hole to meet up with Hunter Jadar.|RANK|3|
 T The Trouble with Taivan|QID|67772|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|To Hunter Jadar.|
 A The Hunting Hound|QID|67921|PRE|67772|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|RANK|3|
@@ -600,7 +603,7 @@ C The Hunting Hound|QID|67921|QO|2|M|71.43,49.42|Z|2023;Ohn'ahran Plains|CHAT|N|
 C The Hunting Hound|QID|67921|QO|3|M|73.30,48.86|Z|2023;Ohn'ahran Plains|CHAT|N|Go out and kill the Ravenous Proto-Drake that flys around the area with Taivan and a pack of bakar.|
 T The Hunting Hound|QID|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|To Hunter Jadar.|RANK|3|
 A Part of a Pack|QID|70989|PRE|67921|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
-C Part of a Pack|QID|70989|M|74.35,48.59|Z|2023;Ohn'ahran Plains|N|Kill the Ravenous Proto-Drake.|
+C Part of a Pack|QID|70989|M|74.35,48.59|Z|2023;Ohn'ahran Plains|N|Kill the Ravenous Proto-Drake.\n\nIt flys around the area.|T|Ravenous Proto-Drake|
 T Part of a Pack|QID|70989|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
 A Try Again, Taivan!|QID|68083|PRE|70989|M|71.41,49.59|Z|2023;Ohn'ahran Plains|N|From Hunter Jadar.|
 R Rusza'thar Reach|ACTIVE|68083|M|84.66,36.88|Z|2023;Ohn'ahran Plains|N|Head over to get this flight path and Glyph.|RANK|3|
@@ -642,25 +645,38 @@ C Taivan's Purpose|QID|69096|QO|1|M|61.81,38.55|Z|2023;Ohn'ahran Plains|CHAT|N|T
 C Taivan's Purpose|QID|69096|QO|2|M|61.81,38.55|Z|2023;Ohn'ahran Plains|CHAT|N|Try to talk to Chimel again.|
 C Taivan's Purpose|QID|69096|QO|3|M|61.81,38.55|Z|2023;Ohn'ahran Plains|NC|N|Wait and watch.|
 T Taivan's Purpose|QID|69096|M|61.81,38.72|Z|2023;Ohn'ahran Plains|N|To Healer Selbekh.|
+R Quartermaster Huseng|QID|72137|M|60.33,38.06|CC|N|Fly up to the Quartermaster.|DFREN|Maruuk;2503;8|IZ|13764|
+A Hatchling Plans|QID|72137|M|60.41,37.72|N|This "quest" allows you to buy [color=33fff9]Hoofhelper[/color] from the quartermaster.|ITEM|193618|DFREN|Maruuk;2503;8|IZ|13764|
+T Hatchling Plans|QID|72137|M|60.41,37.72|DFREN|Maruuk;2503;8|IZ|13764|
 R Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|And we are off to the last area, you probably need a full vigor bar if you are going to take your dragon.|
 f Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|
 T Into the Azure|QID|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|To Masud the Wise.|
 A To the Azure Span|QID|65686|PRE|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|From Masud the Wise.|LEAD|72267|
-
 ;T A Gift for Miguel|QID|67100|M|71.75,81.21|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|-this is in the Waking shore guide
 ;A Professionally Equipped|QID|67137|PRE|67100|M|71.93,81.03|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.| - this is in the waking shore guide
 A Targeted Ads|QID|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|
 A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|
 C A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Azley about the Artisan's Consortium rules.|
 T A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|To Azley.|
-;A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|;perhaps based on mining skill,. mines about 40
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Blacksmithing;164;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Leatherworking;165;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Alchemy;171;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Herbalism;182;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Cooking;185;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Mining;186;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Tailoring;197;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Engineering;202;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Enchanting;333;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Skinning;393;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Jewelcrafting;755;9+25|
+A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Inscription;773;9+25|
 C That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|CHAT|N|All the answers work.|
 T That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|To Miguel Bright.|
-;A The Wonders of the World|QID|67298|PRE|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|3|
+A The Wonders of the World|QID|67298|PRE|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|
 C The Wonders of the World|QID|67298|QO|1|M|71.73,81.24|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Thomas about where he gets his inspiration.|
-A The Master of Their Craft|QID|69946|PRE|67295|M|71.73,81.24|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|RANK|3|
+A The Master of Their Craft|QID|69946|PRE|67295|M|71.73,81.24|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|RANK|2|
 $ Forkriver Crossing Glyph|QID|99999|M|70.15,86.78|Z|2023;Ohn'ahran Plains|N|Just above the road.|ACH|16672|
-C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill mobs in the marked area to recover Azley's missing books.|
+C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill [color=0060ee]goats[/color] in the marked area to recover Azley's missing books.|
 T Targeted Ads|QID|69915|M|72.03,81.10|Z|2023;Ohn'ahran Plains|N|To Azley.|
 A Customer Satisfaction|QID|69981|PRE|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|
 C Customer Satisfaction|QID|69981|M|74.59,81.01|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask her about her crafting order.|
@@ -669,8 +685,9 @@ C Customer Satisfaction|QID|69981|M|67.02,80.85|Z|2023;Ohn'ahran Plains|QO|3|NC|
 C Customer Satisfaction|QID|69981|M|72.03,81.11|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Show Azley what you found.|
 T Customer Satisfaction|QID|69981|M|71.84,81.27|Z|2023;Ohn'ahran Plains|N|To Mahra Treebender.|
 
-;A Show Your Mettle|QID|70221|PRE|69915|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|;possible profession requirement
-T Show Your Mettle|QID|70221|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|
+A Show Your Mettle|QID|70221|PRE|70034|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|
+t Show Your Mettle|QID|70221|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|IZ|13755|
+
 F Teerakai|ACTIVE|67298|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|RANK|3|
 C The Wonders of the World|QID|67298|QO|2|M|46.09,59.93|Z|2023;Ohn'ahran Plains|N|Fly over and pick up the Ancient Scrap of Draconic Wisdom in the nest.|
 T The Wonders of the World|QID|67298|M|46.04,59.92|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|
