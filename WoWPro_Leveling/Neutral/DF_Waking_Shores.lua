@@ -149,6 +149,7 @@ A A Last Hope|QID|66001|PRE|65998&66000&65999|M|57.13,23.63|Z|2022|N|From Sendra
 C A Last Hope|QID|66001|M|56.23,22.06|Z|2022|QO|1|CHAT|N|Meet Sendrax by the ritual site, then tell her you are ready.|
 C A Last Hope|QID|66001|M|56.89,21.60|Z|2022|QO|2|H|N|Pick up the Infused Dragon Egg.|
 C A Last Hope|QID|66001|M|55.07,30.62|Z|2022|QO|3|NC|N|Carry the egg to safety. Note you can't mount up, or use skills, just run.|
+; T A Last Hope|QID|66001|M|55.08,31.01|Z|2022|N|To Majordomo Selistra.| postponed deliberatly
 A A Two for One Deal|QID|70179|M|54.46,30.86|Z|2022|N|From Apprentice Caretaker Zefren.|RANK|2|;Not sure what triggers this quest, per ATT it was available after 66001 *and not before 66997* so putting here since leaving the egg unguarded while killing rock elementals seems wrong.
 C A Two for One Deal|QID|70179|M|53.05,32.36|Z|2022|N|Remove the life from the rock elementals, then remove the rocks.|
 T A Two for One Deal|QID|70179|M|54.46,30.86|Z|2022|N|To Apprentice Caretaker Zefren|
@@ -162,7 +163,7 @@ A Dragonriding|QID|68795|PRE|66114|M|62.33,73.02|Z|2022|N|From Alexstrasza the L
 A A Ruby Lifecalling|QID|66825|PRE|66114|M|61.89,73.84|Z|2022|N|From Lifecaller Tzadrak.|RANK|2|
 C A Ruby Lifecalling|QID|66825|M|61.87,73.83|Z|2022|H|N|Click on the items from the table, and after each item Lifecaller Tzadrak will call a one of the young dragons forward to pick up the item.|
 T A Ruby Lifecalling|QID|66825|M|61.89,73.84|Z|2022|N|From Lifecaller Tzadrak.|
-h Ruby Lifeshrine|ACTIVE|68795|M|61.79,73.83|Z|2022|N|Set your hearth with Lifecaller Tzadrak.|
+h Ruby Lifeshrine|ACTIVE|68795|M|61.89,73.84|Z|2022|N|Set your hearth with Lifecaller Tzadrak.|
 A Nursery Direction|QID|66997|PRE|66825|M|61.82,73.58|Z|2022|N|From Vaeros.|RANK|2|
 A Garden Party|QID|70351|PRE|66825|M|61.74,73.72|Z|2022|N|From Akora.|RANK|2|
 A Hornstrider Havoc|QID|66879|PRE|66825|M|61.73,73.76|Z|2022|N|From Dazakros.|RANK|2|
