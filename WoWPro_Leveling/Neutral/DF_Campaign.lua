@@ -32,8 +32,8 @@ C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHA
 T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.|
 F Iskaara|ACTIVE|72585|AVAILABLE|72435|M|13.14,49.27|Z|2024|N|Head to your nearest flightmaster or otherwise travel to Iskaara.|
 A Orientation: Iskaara|QID|72435|ACTIVE|72585|M|13.14,49.27|Z|2024|N|From Murik.|
-C Orientation: Iskaara|QID|72435|QO|1|M|13.17,48.53|Z|2024|NC|N|Check out what Arvik has for sale.|
-C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.62|Z|2024|CHAT|N|Say Hello to Norukk.|
+C Orientation: Iskaara|QID|72435|QO|1|M|12.90,48.82|Z|2024|NC|N|Check out what Arvik has for sale.|
+C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.63|Z|2024|CHAT|N|Say Hello to Norukk.|
 C Orientation: Iskaara|QID|72435|QO|3|M|13.80,49.74|Z|2024|NC|N|Click on Tatto to discover he supplies mounts.|
 C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024|NC|N|Click on Rokkutuk to discover he supplies recipes.|
 T Orientation: Iskaara|QID|72435|M|13.14,49.27|Z|2024|N|To Murik.|
@@ -64,7 +64,7 @@ C Jump-Start? Jump-Starting!|QID|70180|QO|3|M|86.36,51.75|Z|2112|NC|U|194441|N|W
 C Jump-Start? Jump-Starting!|QID|70180|QO|4|M|84.32,53.76|Z|2112|H|N|Activate the Engine of Innovation.|
 T Jump-Start? Jump-Starting!|QID|70180|M|84.31,53.54|Z|2112|N|To Maiden of Inspiration.|
 A In Tyr's Footsteps|QID|70845|PRE|70180|M|84.31,53.54|Z|2112|N|From Maiden of Inspiration. The remainder of this questline is in the Campaign guide.|
-F Rhonin's Shield|ACTIVE|70845|M|67.15,30.68|Z|2024|N|Take a flight path to Rhonin's Shield or otherwise travel that direction.|
+F Rhonin's Shield|ACTIVE|70845|M|66.01,25.38|Z|2024|N|Take a flight path to Rhonin's Shield or otherwise travel that direction.|
 R Upper Frostlands|ACTIVE|70845|M|67.19,30.77|Z|2024|
 T In Tyr's Footsteps|QID|70845|M|67.15,30.68|Z|2024|
 A First Challenge of Tyr: Finesse|QID|70181|PRE|70845|M|67.15,30.68|Z|2024|
@@ -74,7 +74,7 @@ T First Challenge of Tyr: Finesse|QID|70181|M|67.13,30.92|Z|2024|N|To Maiden of 
 A The Sweet Taste of Victory|QID|70182|PRE|70181|M|67.13,30.92|Z|2024|N|From Maiden of Inspiration.|
 T The Sweet Taste of Victory|QID|70182|M|84.36,53.59|Z|2112;Valdrakken|N|To Maiden of Inspiration, who is back in Valdrakken. There is a portal if you want to use it for a quick trip back.|
 A Fueling the Engine|QID|70633|PRE|70182|M|84.36,53.59|Z|2112;Valdrakken|N|From Maiden of Inspiration.|
-C Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|QO|1|NC|U|194441|N|Use the [color=33fff9]Extra Action Button [/color]to power up Engine.|
+C Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|QO|1|NC|EAB|N|Use the [color=33fff9]Extra Action Button [/color]to power up Engine.|
 T Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|N|To Maiden of Inspiration.|
 A Crafting Orders|QID|72783|PRE|70633|M|85.04,54.43|Z|2112|N|From Greyzik Cobblefinger.|
 C Crafting Orders|QID|72783|M|34.61,63.20|Z|2112|N|Go to Head Clerk, Mimzy Sprazzlerock and click to open the crafting orders UI.|
