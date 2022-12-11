@@ -273,12 +273,12 @@ A Orientation: Iskaara|QID|72435|PRE|65849|M|13.14,49.27|Z|2024|N|From Murik.|RA
 C Gather the Family|QID|66210|QO|1<1|M|12.79,49.33;12.49,49.45|CS|Z|2024|H|N|Pick up the stone sculpture in The Filled Bowl (the underground inn).|
 A The Weave of a Tale|QID|66213|PRE|65849|M|12.41,49.40|Z|2024|N|From Elder Nappa.|RANK|2|
 C The Weave of a Tale|QID|66213|M|12.41,49.34|Z|2024|CHAT|N|Tell Elder Poa a made up a story about a fish.|
-A Stolen Tuskarr Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|L|200071 -1|;maybe a REN thing?
+;A Stolen Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|IZ|13837|;This is a item turn in quest.
 T The Weave of a Tale|QID|66213|M|12.41,49.40|Z|2024|N|To Elder Nappa.|
 C Gather the Family|QID|66210|QO|1<2|M|12.46,50.31|Z|2024|H|N|Pick up the shield by the docks.|
 A Scampering Scamps|QID|66218|PRE|65849|M|12.90,48.70|Z|2024|N|From Hanu.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.62|Z|2024|CHAT|N|Say Hello to Norukk.|
-A WANTED: Krojek the Shoreprowler|QID|66217|PRE|65849|M|12.53,49.83|Z|2024|N|From Bukarakikk.|RANK|2|
+A WANTED: Krojek the Shoreprowler|QID|66217|PRE|65849|M|12.53,49.83;13.18,48.76|CN|Z|2024|N|From Bukarakikk. He could be in one of two places.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|3|M|13.19,48.82|Z|2024|NC|N|Click on Tatto to discover he supplies mounts.|
 C Orientation: Iskaara|QID|72435|QO|1|M|13.17,48.53|Z|2024|NC|N|Check out what Arvik has for sale.|
 C Gather the Family|QID|66210|QO|1<3|M|13.87,49.49|Z|2024|H|N|Pick up the boat from on the piling beside Jinkutuk.|
@@ -516,7 +516,7 @@ t Pruning The Pack|QID|66968|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr..|IZ|
 t The Face of Death|QID|66971|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|13859|
 t Old Stonetusk|QID|66972|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|13859|
 T Path to Nowhere|QID|66671|M|63.22,58.42|Z|2024|N|To Maddy Scattershot.|
-A Broken Traditions, Broken Bodies|QID|66141|PRE|66671|M|63.21,58.62|Z|2024|N|From Garz.|
+A Broken Traditions, Broken Bodies|QID|66141|PRE|66671|M|63.21,58.62|Z|2024|N|From Garz.|RANK|2|
 f Camp Nowhere|ACTIVE|66141|M|63.41,58.64|Z|2024|N|At Camilla Highwind.|
 A Hunting the Huntmaster|AVAILABLE|66939|M|63.81,59.05|CC|Z|2024|N|Hemet stops here if you haven't gotten his quest, this is one of his shorter stops.|RANK|3|
 A To the Ruins!|QID|66391|PRE|66671|M|63.43,58.01|Z|2024|N|From Rannan Korren.|
@@ -637,7 +637,7 @@ A Setting Your Very Own Net|QID|72584|PRE|70871|M|12.82,49.18|N|From Tavio. This
 t Setting Your Very Own Net|QID|72584|PRE|70871|M|12.82,49.18|N|To Tavio.|
 T Grimtusk's Sister|QID|71016|M|12.47,49.23|Z|2024|N|To Naluki, in the below groundlevel inn.|
 A Naluki's Letter|QID|71017|PRE|71016|M|12.47,49.23|Z|2024|N|From Naluki.|
-A Stolen Tuskarr Totems|QID|70936|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|L|200071 -1|;step not showing - not sure why.
+;A Stolen Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|IZ|13837|;This is a item turn in quest.
 T Tuskarr Champion's Tales|QID|70940|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|;forgot to get the item number of the thing.
 T Story of a Memorable Victory|QID|72291|M|12.41,49.34|Z|2024|N|At Elder Poa.|;from randomly dropped item of same name-201470
 K Bloodhorn|ACTIVE|66958|QO|1|M|18.94,49.28|N|Kill and Loot Bloodhorn.|
