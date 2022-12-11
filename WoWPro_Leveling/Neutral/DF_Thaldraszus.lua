@@ -52,7 +52,7 @@ C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Se
 T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|;adventure mode
 
 T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
-A A Message Most Dire|QID|66159^72269|PRE|66244|M|58.11,34.88|Z|2112|N|From Alexstrasza the Life-Binder.|
+A A Message Most Dire|QID|66159|PRE|66244^72269|M|58.11,34.88|Z|2112|N|From Alexstrasza the Life-Binder.|
 C A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|CHAT|N|Information delivered.|
 T A Message Most Dire|QID|66159|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder.|
 A Nowhere to Hide|QID|66163|PRE|66159|M|59.34,34.83|Z|2112|N|From Captain Drine, who runs up to join the meeting.|
@@ -277,7 +277,7 @@ C Feels Like the First Time|QID|66083|M|57.61,78.36|Z|2025|QO|1|CHAT|N|Tell Anda
 C Feels Like the First Time|QID|66083|M|57.66,78.34|Z|2025|QO|2|H|N|Click on the Collector.|
 C Feels Like the First Time|QID|66083|M|57.65,78.38|Z|2025|QO|3|H|N|Click on the Blue Crystal Focus.|
 C Feels Like the First Time|QID|66083|M|57.63,78.44|Z|2025|QO|4|H|N|Click on the gold Artifact floating to the right of the Crystal Focus.|
-C Feels Like the First Time|QID|66083|M|57.58,78.32|Z|2025|QO|5|NC|N|Wait for Andantenormu to restore your personal timeline.|
+P Feels Like the First Time|QID|66083|M|57.58,78.32|Z|2025|QO|5|N|Wait for Andantenormu to restore your personal timeline, or when you can, walk into the portal to speed up the process.|
 T Feels Like the First Time|QID|66083|M|57.52,78.80|Z|2025|N|To Andantenormu.|
 A Times Like These|QID|66084|PRE|66083|M|57.52,78.80|Z|2025|N|From Andantenormu.|
 A If We Could Turn Back Time|QID|66085|PRE|66083|M|57.45,78.93|Z|2025|N|From Siaszerathel.|
@@ -291,7 +291,7 @@ C Times Like These|QID|66084|M|59.04,78.71|Z|2025|N|Continue killing the Time-Lo
 T If We Could Turn Back Time|QID|66085|M|57.46,78.92|Z|2025|N|To Siaszerathel.|
 T Times Like These|QID|66084|M|57.53,78.84|Z|2025|N|To Andantenormu.|
 A Closing Time|QID|66087|PRE|66085&66084|M|57.54,78.88|Z|2025|N|From Aeonormu.|
-C Closing Time|QID|66087|M|56.98,83.29|Z|2025|N|Go to the marked area and kill Time Lost mobs, Use your [color=33fff9]Extra Action Button [/color] to emplower your Bronze allies, and do some damage to the time-lost mobs as well. Click on the marked items to pick up, close the rifts, etc in order to preserve the timeline.|
+C Closing Time|QID|66087|M|56.98,83.29|Z|2025|EAB|N|Go to the marked area and kill Time Lost mobs, Use your [color=33fff9]Extra Action Button [/color] to emplower your Bronze allies, and do some damage to the time-lost mobs as well. Click on the marked items to pick up, close the rifts, etc in order to preserve the timeline.|
 T Closing Time|QID|66087|M|57.54,78.86|Z|2025|N|To Aeonormu.|
 A Catching Up to Chromie|QID|65935|PRE|66087|M|57.53,78.81|Z|2025|N|From Andantenormu.|
 C Catching Up to Chromie|QID|65935|M|59.69,81.04|Z|2025|NC|N|Meet Chromie at the Bronze Temple. Remember you can use the updrafts to help get to the Bronze Temple.|
@@ -311,8 +311,8 @@ T Quelling Causalities|QID|66646|M|59.57,82.66|Z|2025|N|To Andantenormu.|
 T Time-Locked Timewalkers|QID|65947|M|59.58,81.73|Z|2025|N|To Chromie.|
 T Cracks in Time|QID|65948|M|59.58,81.73|Z|2025|N|To Chromie.|
 A The Once and Future Team|QID|65938|PRE|66646&65947&65948|M|59.58,81.73|Z|2025|N|From Chromie.|
-C The Once and Future Team|QID|65938|M|60.59,83.45|Z|2025|QO|1|EAB|NC|N|Go to the top of the ramp and use the[color=33fff9]Extra Action Button [/color] to break the shield on the Temple Door Bubble.|
-C The Once and Future Team|QID|65938|M|60.52,83.55|Z|2025|QO|2|N|Fight the Giant Time Elemental.|
+C The Once and Future Team|QID|65938|M|60.59,83.45|Z|2025|QO|1|EAB|NC|N|When you reach the top of the ramp, use the [color=33fff9]Extra Action Button [/color] and walk back down the ramp until the shield on the Temple Door Bubble breaks.|
+C The Once and Future Team|QID|65938|M|60.52,83.55|Z|2025|QO|2|N|Fight the Giant Time Elemental.\n[color=FF0000]NOTE: [/color]Your participation is optional; just speeds up the process.|
 T The Once and Future Team|QID|65938|M|59.59,81.70|Z|2025|N|To Chromie.|
 A The Never-Final Countdown|QID|65962|PRE|65938|M|59.59,81.70|Z|2025|N|From Chromie.|
 C The Never-Final Countdown|QID|65962|M|59.58,81.72|Z|2025|QO|1|CHAT|N|Tell Chromie you are ready.|
@@ -324,7 +324,7 @@ C Tumbling Through Time|QID|70040|M|59.52,82.54|Z|2025|QO|1|CHAT|N|Tell Soridorm
 C Tumbling Through Time|QID|70040|M|59.32,82.19|Z|2025|QO|3|CHAT|N|Tell Siaszerathel that Nozdormu wants to see him.|
 f Temporal Conflux|ACTIVE|65962|M|59.91,81.37|Z|2025|N|At Warden Dialash.|
 C Tumbling Through Time|QID|70040|M|60.18,81.77|Z|2025|QO|2|CHAT|N|Tell Andantenormu that Nozdormu wants to see him.|
-C Tumbling Through Time|QID|70040|M|60.07,82.44|Z|2025|QO|4|CHAT|N|Tell Nozdormu tthat everyone is ready.|
+C Tumbling Through Time|QID|70040|M|60.07,82.44|Z|2025|QO|4|CHAT|N|Tell Nozdormu that everyone is ready.|
 T Tumbling Through Time|QID|70040|M|60.06,82.44|Z|2025|N|To Nozdormu.|
 A To the Future!|QID|66028|PRE|70040|M|60.06,82.44|Z|2025|N|From Nozdormu.|
 A Temporal Tuning|QID|66029|PRE|70040|M|60.06,82.44|Z|2025|N|From Nozdormu.|
@@ -404,15 +404,15 @@ T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
-C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza that all the Oathstones have been restored.|
+C Moving On|QID|66221|M|61.94,32.13;57.97,36.04|CS|Z|2112|CHAT|N|Take the telporter up and tell Alexstrasza that all the Oathstones have been restored.|
 T Moving On|QID|66221|M|57.97,36.04|Z|2112|N|To Alexstrasza.|
 A Renown of the Dragon Isles|QID|71232|PRE|66221|M|57.97,36.04|Z|2112|N|From Alexstrasza.|
 T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112|N|To Captain Drine.|
-T Renown of the Dragon Isles|QID|71232|M|50.64,57.95|Z|2112|N|To Therazal.|
-A Open Orientation|QID|72585|PRE|72366|M|50.64,57.95|Z|2112|N|From Therazal. This quest only available once per account, check it off manually if you already did it with a diff character.|; only available to first char who gets it-- not offered to subsequent characters, can't find right PRE or ACH to limit it, so taking out of guide and adding note to A Learning Ingenuity
-t Open Orientation|QID|72585|M|50.64,57.95|Z|2112|N|To Therazal.|
+T Renown of the Dragon Isles|QID|71232|M|50.18,56.29|Z|2112|N|To Therazal standing in front of the fountain at the base of the tower. Take the teleporter down or just fly.|
+A Open Orientation|QID|72585|PRE|72366|M|50.18,56.29|Z|2112|N|From Therazal. This quest only available once per account, check it off manually if you already did it with a diff character.|; only available to first char who gets it-- not offered to subsequent characters, can't find right PRE or ACH to limit it, so taking out of guide and adding note to A Learning Ingenuity
+t Open Orientation|QID|72585|M|50.18,56.29|Z|2112|N|To Therazal.|
 C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones to get acuainted with the other factions. Switch to Campaign guide now if you want to do that. If not, Make sure your guide is set to Rank 2 or 3 and stick around for Sojourner of Thaldraszus.|S!US|
-A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal. This is the opening of the campaign, switch to that guide for the rest of the steps.|
+A Learning Ingenuity|QID|72773|PRE|71232|M|50.18,56.29|Z|2112|N|From Therazal. This is the opening of the campaign, switch to that guide for the rest of the steps.|
 A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112|N|From Jyhanna.|RANK|2|; this is probably not the right pre.
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|N|Find Lubbins in a ravine in the Petitioner's Concourse.|
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025|QO|2|H|N|Help Lubbins.|
