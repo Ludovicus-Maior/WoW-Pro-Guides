@@ -770,8 +770,8 @@ R Shiverweb Vale|AVAILABLE|65750|M|51.71,61.97|Z|2024|EAB|N|Remember the Extra A
 A Eight-Legged Menace|QID|65750|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|RANK|3|
 A Icy Webs|QID|65769|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|RANK|3|
 T All Tea, No Shadeleaf|QID|70930|M|51.73,61.98|Z|2024;The Azure Span|N|To Lilial Dawnburst.|
-A Warm Away These Shivers|67047|PRE|70930|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|
-C Warm Away These Shivers|67047|M|51.3,61.55|Z|2024|H|N|Gather Coldsnap Sagittates from the reddish bushes in the area.|S|
+A Warm Away These Shivers|QID|67047|PRE|70930|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|
+C Warm Away These Shivers|QID|67047|M|51.3,61.55|Z|2024|H|N|Gather Coldsnap Sagittates from the reddish bushes in the area.|S|
 C Eight-Legged Menace|QID|65750|M|50.03,60.41|Z|2024;The Azure Span|S|N|Kill the Primalists and the Spiders while you look for survivors.|
 C Icy Webs|QID|65769|M|50.17,59.54|Z|2024;The Azure Span|H|N|Free the cocooned survivors.|
 C Eight-Legged Menace|QID|65750|M|50.44,61.33|Z|2024;The Azure Span|US|N|Keep killing Spiders and Primalists until done.|
@@ -791,7 +791,7 @@ T Primalist Tampering|QID|65833|M|48.99,64.22|Z|2024;The Azure Span|N|To Grungir
 A Kill the Queen|QID|65834|PRE|65832&65833|M|48.99,64.22|Z|2024;The Azure Span|N|From Grungir Ironspout.|RANK|2|
 C Kill the Queen|QID|65834|M|47.24,65.58|Z|2024;The Azure Span|U|191044|N|Grungir has provided you with a [color=33fff9]Spider Squasher [/color]to make the job easier.|
 T Kill the Queen|QID|65834|M|49.00,64.27|Z|2024;The Azure Span|N|To Grungir Ironspout.|
-C Warm Away These Shivers|67047|M|51.3,61.55|Z|2024|H|N|Time to finish up gathering Coldsnap Sagittates from the reddish bushes in the area.|US|
+C Warm Away These Shivers|QID|67047|M|51.3,61.55|Z|2024|H|N|Time to finish up gathering Coldsnap Sagittates from the reddish bushes in the area.|US|
 
 R Camp Nowhere|ACTIVE|66939^66957^66958^66968^66971^66972|M|62.92,58.38|N|Over to see Nesingwary and turn in any completed kill quests.|RANK|2|
 $ Imbu Glyph|QID|99999|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|ACH|16070|RANK|3| ;-- not in an area the guide takes us to. Closest is Camp Nowhere
