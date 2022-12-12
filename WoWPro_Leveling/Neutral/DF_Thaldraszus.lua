@@ -411,7 +411,7 @@ T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112|N|To Captain Drine.|
 T Renown of the Dragon Isles|QID|71232|M|50.18,56.29|Z|2112|N|To Therazal standing in front of the fountain at the base of the tower. Take the teleporter down or just fly.|
 A Open Orientation|QID|72585|PRE|72366|M|50.18,56.29|Z|2112|N|From Therazal. This quest only available once per account, check it off manually if you already did it with a diff character.|; only available to first char who gets it-- not offered to subsequent characters, can't find right PRE or ACH to limit it, so taking out of guide and adding note to A Learning Ingenuity
 t Open Orientation|QID|72585|M|50.18,56.29|Z|2112|N|To Therazal.|
-C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones to get acuainted with the other factions. Switch to Campaign guide now if you want to do that. If not, Make sure your guide is set to Rank 2 or 3 and stick around for Sojourner of Thaldraszus.|S!US|
+C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones to get acquainted with the other factions. Switch to Campaign guide now if you want to do that. If not, make sure your guide is set to Rank 2 or 3 and stick around for Sojourner of Thaldraszus.|S!US|
 A Learning Ingenuity|QID|72773|PRE|71232|M|50.18,56.29|Z|2112|N|From Therazal. This is the opening of the campaign, switch to that guide for the rest of the steps.|
 A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112|N|From Jyhanna.|RANK|2|; this is probably not the right pre.
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|N|Find Lubbins in a ravine in the Petitioner's Concourse.|
@@ -572,7 +572,7 @@ N Choose Waking Shore|ACTIVE|72266|S!US|JUMP|The_Waking_Shores|
 N Choose Ohn'ahran Plains|ACTIVE|72267|S!US|JUMP|Ohnahran_Plains|
 N Choose Azure Span|ACTIVE|72268|S!US|JUMP|The_Azure_Span|
 
-N The Remaining Glyphs|QID|99999|M|55.52,45.26|Z|2112|ACH|16578|N|If by some miracle, you still have glyphs to get, here are the rest of them in Thandraszus. These are areas you will visit in Max level questing/World Quests. Head up to the Seat of the Aspects to get some height for the journey.|RANK|3|
+N The Remaining Glyphs|QID|99999|M|55.52,45.26|Z|2112|ACH|16578|N|If by some miracle, you still have glyphs to get, here are the rest of them in Thaldraszus. These are areas you will visit in Max level questing/World Quests. Head up to the Seat of the Aspects to get some height for the journey.|RANK|3|
 $ Algeth'era Glyph|QID|99999|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|N|Over the tower.|ACH|16102|RANK|3|
 $ Veiled Ossuary Glyph|QID|99999|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|N|Inside the top level of the tower.|ACH|16105|RANK|3|
 $ Algeth'ar Academy Glyph|QID|99999|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|N|This one is kinda hidden inside of the roof of the tower with a big crystal above the tower.|ACH|16104|RANK|3|
