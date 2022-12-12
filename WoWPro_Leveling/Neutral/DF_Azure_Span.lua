@@ -55,7 +55,7 @@ K Gorger|ACTIVE|67177|M|40.09,37.39|QO|1|Z|2024|L|194901|N|Kill the big Thunderl
 T How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
 T WANTED: Gorger|QID|67177|M|41.42,36.41|Z|2024|N|To Shala.|
 
-R Camp Antonidas|ACTIVE|66228^70746|M|45.94,40.65|Z|2024|N|Continue up the road to Camp Antonidas.\n\n[color=FF0000]NOTE: [/color]Our good friend Hemet Nesingwary drives a wagon around the zone, his full route take a bit over an hour, stopping 3 times in Camp Antonidas offering a different kill quest each time. Keep your eye out for him and grab those quests if you want them. Guide won't tell you when to pick them up, but the kill and Turn in steps are here. It might be worth asking in zone chat for someone to share them with you as he is a pain to find.|;not rank 2. the info about Hemet is. but everyone has to run here. and extra info doesnt hurt.
+R Camp Antonidas|ACTIVE|66228^70746|M|45.94,40.65|Z|2024|N|Continue up the road to Camp Antonidas.\n\n[color=FF0000]NOTE: [/color]Our good friend Hemet Nesingwary drives a wagon around the zone, his full route take a bit over an hour, stopping 6 times offering a different kill quest each time. Keep your eye out for him and grab those quests if you want them. Guide won't tell you when to pick them up, but the kill and Turn in steps are here. It might be worth asking in zone chat for someone to share them with you as he is a pain to find.\n\nYou can also hop on his cart and ride around with him and grab the quests as they pop up.|;not rank 2. the info about Hemet is. but everyone has to run here. and extra info doesnt hurt.
 C Shades of Blue|QID|70746|M|45.61,41.25|Z|2024|N|Meet Emberthal and Telash at Camp Antonidas.You can just fly there and don't need to walk with them.|
 T Shades of Blue|QID|70746|M|45.61,41.25|Z|2024|N|To Scalecommander Emberthal.|
 A The Azure Wizard|QID|70747|PRE|70746|M|45.6,41.2|Z|2024|N|From Telash Greywing.\nWait for them to finish their dialogue.|C|EVOKER|
@@ -78,7 +78,7 @@ T Preservation of Knowledge|QID|67035|M|46.67,39.74|Z|2024|N|To Althanus.|
 T Assemble the Defenses|QID|67033|M|46.70,39.76|Z|2024|N|To Noriko the All-Remembering.|
 A Wrath of the Kirin Tor|QID|67036|PRE|67033&67035|M|46.69,39.76|Z|2024|N|From Noriko the All-Remembering.|
 f Camp Antonidas|ACTIVE|67036|M|46.71,39.58|Z|2024|N|At Steward Argalos.|
-C Wrath of the Kirin Tor|QID|67036|QO|1|M|46.32,38.85|Z|2024|V|N|Use the Arcane Blaster to shoot down all of the Drakes.|
+C Wrath of the Kirin Tor|QID|67036|QO|1|M|46.32,38.85|Z|2024|V|N|Use the Arcane Blaster to shoot down all of the Drakes.\n\n[color=FF0000]NOTE: [/color] DO NOT LEAVE THE GUN. Let the game kick you out or you will have to restart.|
 T Wrath of the Kirin Tor|QID|67036|M|46.64,40.15|Z|2024|N|To Noriko the All-Remembering.|
 A Meeting Kalecgos|QID|65688|PRE|67036|M|46.63,40.19|Z|2024|N|From Archmage Khadgar.|
 A WANTED: Frigellus|QID|66488|PRE|67036|M|46.16,39.62|Z|2024|N|From WANTED poster.|RANK|2|
@@ -91,7 +91,7 @@ C Tending the Forge|QID|66523|QO|2|M|45.66,40.72|Z|2024|N|Kill Hornswogs to coll
 C Tending the Forge|QID|66523|QO|3|M|47.01,41.26|Z|2024|H|N|Finish picking up the embercones.|US|
 C Tending the Forge|QID|66523|QO|1|M|47.77,37.98|Z|2024|N|Kill and loot some of the smaller elementals near Frigellus to get the frozen cores.|S|
 K Frigellus|ACTIVE|66488|QO|1|M|47.77,37.98|Z|2024|N|Slay Frigellus.|T|Frigellus|
-K Frostfist|ACTIVE|66957|QO|1|M|49.04,36.48|Z|2024|N|Kill and loot Frostfist, He is on the ice flow, fly up and North of Camp Antonidas.|
+K Frostfist|ACTIVE|66957|QO|1|M|49.04,36.48|Z|2024|N|Kill and loot Frostfist, He is on the ice flow, fly up and North of Camp Antonidas.|T|Frostfist|
 C Tending the Forge|QID|66523|QO|1|M|48.04,38.38|Z|2024|N|Finish collecting the frozen cores.|US|
 T WANTED: Frigellus|QID|66488|M|45.99,38.31|Z|2024|N|To Custodian Cynegos.|RANK|2|
 A Setting the Defense|QID|66489|PRE|66488|M|46.00,38.41|Z|2024|N|From Arch Enchanter Celeste.|RANK|2|
@@ -122,7 +122,7 @@ C Wayward Winds|QID|65928|M|45.97,56.15|Z|2024|N|Finish up collecting restless m
 T Ice Breakers|QID|65929|M|45.41,54.18|Z|2024|N|To Ruriq.|
 T Wayward Winds|QID|65928|M|45.52,54.18|Z|2024|N|To Kauj.|
 A A Wrestle of Wind and Water|QID|65930|PRE|65928&65929|M|45.52,54.18|Z|2024|N|From Kauj.|
-C A Wrestle of Wind and Water|QID|65930|M|45.59,57.63|Z|2024|N|The spirits can be found in a cave under/behind the waterfall. Attack them.|
+C A Wrestle of Wind and Water|QID|65930|M|45.59,57.63|Z|2024|N|The spirits can be found in a cave under/behind the waterfall.\n\nYou only have to fight Kraunot.|T|Kraunot|
 T A Wrestle of Wind and Water|QID|65930|M|44.99,54.04|Z|2024|N|To Ruriq.|
 A Ruriq's River Rapids Ride|QID|66155|PRE|65930|M|44.99,54.04|Z|2024|N|From Ruriq.|
 C Ruriq's River Rapids Ride|QID|66155|M|44.92,54.09|V|N|Hop in the boat, UI Changes to let you catch fish as you go down the river.|
@@ -770,8 +770,8 @@ R Shiverweb Vale|AVAILABLE|65750|M|51.71,61.97|Z|2024|EAB|N|Remember the Extra A
 A Eight-Legged Menace|QID|65750|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|RANK|3|
 A Icy Webs|QID|65769|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|RANK|3|
 T All Tea, No Shadeleaf|QID|70930|M|51.73,61.98|Z|2024;The Azure Span|N|To Lilial Dawnburst.|
-A Warm Away These Shivers|67047|PRE|70930|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|
-C Warm Away These Shivers|67047|M|51.3,61.55|Z|2024|H|N|Gather Coldsnap Sagittates from the reddish bushes in the area.|S|
+A Warm Away These Shivers|QID|67047|PRE|70930|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|
+C Warm Away These Shivers|QID|67047|M|51.3,61.55|Z|2024|H|N|Gather Coldsnap Sagittates from the reddish bushes in the area.|S|
 C Eight-Legged Menace|QID|65750|M|50.03,60.41|Z|2024;The Azure Span|S|N|Kill the Primalists and the Spiders while you look for survivors.|
 C Icy Webs|QID|65769|M|50.17,59.54|Z|2024;The Azure Span|H|N|Free the cocooned survivors.|
 C Eight-Legged Menace|QID|65750|M|50.44,61.33|Z|2024;The Azure Span|US|N|Keep killing Spiders and Primalists until done.|
@@ -791,7 +791,7 @@ T Primalist Tampering|QID|65833|M|48.99,64.22|Z|2024;The Azure Span|N|To Grungir
 A Kill the Queen|QID|65834|PRE|65832&65833|M|48.99,64.22|Z|2024;The Azure Span|N|From Grungir Ironspout.|RANK|2|
 C Kill the Queen|QID|65834|M|47.24,65.58|Z|2024;The Azure Span|U|191044|N|Grungir has provided you with a [color=33fff9]Spider Squasher [/color]to make the job easier.|
 T Kill the Queen|QID|65834|M|49.00,64.27|Z|2024;The Azure Span|N|To Grungir Ironspout.|
-C Warm Away These Shivers|67047|M|51.3,61.55|Z|2024|H|N|Time to finish up gathering Coldsnap Sagittates from the reddish bushes in the area.|US|
+C Warm Away These Shivers|QID|67047|M|51.3,61.55|Z|2024|H|N|Time to finish up gathering Coldsnap Sagittates from the reddish bushes in the area.|US|
 
 R Camp Nowhere|ACTIVE|66939^66957^66958^66968^66971^66972|M|62.92,58.38|N|Over to see Nesingwary and turn in any completed kill quests.|RANK|2|
 $ Imbu Glyph|QID|99999|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|ACH|16070|RANK|3| ;-- not in an area the guide takes us to. Closest is Camp Nowhere
