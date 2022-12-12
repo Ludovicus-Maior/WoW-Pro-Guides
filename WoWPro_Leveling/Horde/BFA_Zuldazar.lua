@@ -36,13 +36,13 @@ T The Red Market|QID|48452|M|44.25,82.15|Z|Dazar'alor|N|To Witch Doctor Jala.|
 A Evidence of Evil|QID|48454|M|44.25,82.15|Z|Dazar'alor|N|From Witch Doctor Jala.|PRE|48452|
 C The Word of Zul|QID|46846|M|53.88,91.10|Z|Dazar'alor|QO|2|CHAT|N|Volkini is down stairs. Show her the message.|
 A The Scamps|QID|48404|M|55.95,88.83|Z|Dazar'alor|N|From Scrollsage Rooka.|RANK|2|
-C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|S|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels.|T|Street Scamp|
-A Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|N|From Toki.|RANK|2|
-C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|1|CHAT|N|Speak with Toki.|
-C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|2|NC|N|Guide Loh to the First Goal.|
-C Make Loh Go|QID|52472|M|56.39,91.69|Z|Dazar'alor|QO|3|NC|N|Guide Loh Through All the Points Without Crossing His Own Path.|
+C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|S|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels.| ; |T| tag here messes with one on Da White Shark - Hendo72
+A Make Loh Go|QID|52472|M|56.16,91.59|Z|Dazar'alor|N|From Toki.|RANK|2|
+C Make Loh Go|QID|52472|M|56.16,91.59|Z|Dazar'alor|QO|1|CHAT|N|Speak with Toki.|
+C Make Loh Go|QID|52472|QO|2|NC|N|Guide Loh to the First Goal.|
+C Make Loh Go|QID|52472|QO|3|NC|N|Guide Loh Through All the Points Without Crossing His Own Path.|
 T Make Loh Go|QID|52472|M|56.57,91.69|Z|Dazar'alor|N|To UI Alert.|
-K Da White Shark|QID|50948|QO|1|M|59.36,88.80|Z|Dazar'alor|N|Head to the top of the stairs and stand next to Da White Shark until she attacks you. After she is dead, you can loot her treasure.|T|Da White Shark|
+K Da White Shark|QID|50948|QO|1|M|59.36,88.80|Z|Dazar'alor|N|Head to the top of the stairs and stand next to Da White Shark until she attacks you with 2 adds. After she is dead, you can loot her treasure.|T|Da White Shark|
 $ Da White Shark's Bounty|QID|50947|M|59.36,88.80|Z|Dazar'alor|N|After you kill Da White Shark, her treasure appears. Loot for azerite power and resources.|RANK|2|
 C The Word of Zul|QID|46846|M|51.53,91.14|Z|Dazar'alor|CHAT|QO|1|N|Show Nokali the message, he is on the upper level.|
 C The Scamps|QID|48404|US|M|53.16,88.49|Z|Dazar'alor|QO|1|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels. If the disappear in front of you, wait a couple seconds as they will respawn and run back to the same place.|T|Street Scamp|
@@ -77,19 +77,19 @@ A Royal Report|QID|50881|M|50.02,85.13|Z|Dazar'alor|N|From Zolani.|PRE|46929&469
 
 F The Sliver|ACTIVE|47445|M|52.09,90.13|Z|Dazar'alor|N|At Ripa.|TAXI|The Sliver|
 H The Great Seal|ACTIVE|47445|M|52.08,90.09|Z|Dazar'alor|N|Hearthstone back to The Great Seal, or use the flight master on the upper level of the Grand Bazaar to go to The Great Seal.|TAXI|-The Sliver|
-R The Sliver|ACTIVE|47445|M|50.99,39.99;50.42,37.00;51.78,36.33;50.14,35.30;52.43,35.18;54.46,37.55;54.66,31.88;58.16,25.67|Z|Dazar'alor|CS|N|Run down many MANY staircases until you arrive in The Sliver|TAXI|-The Sliver|
+R The Sliver|ACTIVE|47445|M|50.99,39.99;50.42,37.00;52.30,38.88;54.46,37.55;55.64,30.59;52.90,28.84;46.96,28.91;47.28,26.73|Z|Dazar'alor|CS|N|Run down staircases until you arrive on the bridge over the second waterfall. Jump off the waterfall into the water below.|TAXI|-The Sliver|
 $ Cache of Secrets|QID|51338|M|44.47,26.90|Z|Dazar'alor|N|Swim over to the Hall of Golems to recover a treasure.|RANK|2|
 f The Sliver|ACTIVE|47445|M|51.30,22.67;53.20,19.33|CS|Z|Dazar'alor|N|At Zena the Feeder.|
 T The Zanchuli Council|QID|47445|M|45.23,24.06|Z|Dazar'alor|N|To Wardruid Loti.|
 A Forbidden Practices|QID|47423|M|45.23,24.06|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47445|
 A Pests|QID|47441|M|40.23,19.07|Z|Dazar'alor|N|From Nokano.|RANK|2|
-C Pests|QID|47441|M|36.91,14.66|Z|Dazar'alor|QO|1|N|Kill Thieving Snappers.|
-C Pests|QID|47441|M|35.36,7.67|Z|Dazar'alor|NC|QO|2|N|Follow the Big One.|
+C Pests|QID|47441|M|36.91,14.66|Z|Dazar'alor|QO|1|N|Kill Thieving Snappers.|T|Thieving Snapper|
+C Pests|QID|47441|M|35.36,7.67|Z|Dazar'alor|NC|QO|2|N|Follow the Big One and click on the Mysterious Trashpile near where it disappears.|
 T Pests|QID|47441|M|35.36,7.67|Z|Dazar'alor|N|To Jani.|
 A Curse of Jani|QID|47442|M|35.36,7.67|Z|Dazar'alor|N|From Jani.|RANK|2|PRE|47441|
-C Curse of Jani|QID|47442|M|38.62,17.84|Z|Dazar'alor|QO|1|NC|N|Run to Nokano, staying as far from the Agro (red name)NPCs as possible and sprinting when you can't avoid them (1 key)|
-C Curse of Jani|QID|47442|M|40.10,19.27|Z|Dazar'alor|QO|2|NC|N|Click on Nokona before he aggros on you.|
-T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani.|
+C Curse of Jani|QID|47442|M|38.62,17.84|Z|Dazar'alor|QO|1|NC|N|Run to Nokano, staying as far from the aggro (red name) NPCs as possible and sprinting when you can't avoid them (1 key)|
+C Curse of Jani|QID|47442|M|40.10,19.27|Z|Dazar'alor|QO|2|NC|N|Click on Nokano before he aggros on you.|
+T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani.\n[color=FF0000]NOTE: [/color]Click on the Mysterious Trashpile if he despawns.|
 C Forbidden Practices|QID|47423|M|51.25,14.07|Z|Dazar'alor|U|152627|N|Use the totem to identify the cultists and then kill them.|
 T Forbidden Practices|QID|47423|M|51.90,11.86|Z|Dazar'alor|N|To Hexlord Raal.|
 A Offensively Defensive|QID|47433|M|51.90,11.86|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47423|
