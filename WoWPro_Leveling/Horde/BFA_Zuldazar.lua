@@ -90,6 +90,7 @@ A Curse of Jani|QID|47442|M|35.36,7.67|Z|Dazar'alor|N|From Jani.|RANK|2|PRE|4744
 C Curse of Jani|QID|47442|M|38.62,17.84|Z|Dazar'alor|QO|1|NC|N|Run to Nokano, staying as far from the aggro (red name) NPCs as possible and sprinting when you can't avoid them (1 key)|
 C Curse of Jani|QID|47442|M|40.10,19.27|Z|Dazar'alor|QO|2|NC|N|Click on Nokano before he aggros on you.|
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani.\n[color=FF0000]NOTE: [/color]Click on the Mysterious Trashpile if he despawns.|
+R Terrace of the Chosen|ACTIVE|47423|M|45.41,23.77|Z|Dazar'alor|QO|1|N|Make your way to the Terrace of the Chosen.|
 C Forbidden Practices|QID|47423|M|51.25,14.07|Z|Dazar'alor|U|152627|N|Use the totem to identify the cultists and then kill them.|
 T Forbidden Practices|QID|47423|M|51.90,11.86|Z|Dazar'alor|N|To Hexlord Raal.|
 A Offensively Defensive|QID|47433|M|51.90,11.86|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47423|
