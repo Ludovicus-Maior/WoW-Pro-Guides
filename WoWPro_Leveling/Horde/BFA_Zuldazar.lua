@@ -107,7 +107,7 @@ T Pterrortorial Dispute|QID|47435|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 T Restraining Order|QID|47434|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 A Competitive Devotion|QID|47437|M|40.91,11.29|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47435&47434|
 K Guardian of the Tombs|ACTIVE|47437|M|63.24,67.00|Z|Hall of the High Priests!Zanchul!Dungeon|QO|1|T|Guardian of the Tombs|N|Kill Guardian of the Tombs.|
-K Guardian of the Rites|ACTIVE|47437|M|44.84,37.07|Z|Hall of the High Priests!Zanchul!Dungeon|QO|2|T|Guardian of the Rites|N|Up the stairs to find and kill Guardian of the Rites.|
+K Guardian of the Rites|ACTIVE|47437|M|66.78,29.69|Z|Hall of the High Priests!Zanchul!Dungeon|QO|2|T|Guardian of the Rites|N|Up the stairs to find and kill Guardian of the Rites.|
 $ Offering of the Chosen|QID|48938|M|43.80,15.24;38.27,7.14|Z|Dazar'alor|CS|N|A little bit out of the way is a treasure to loot for resources.|RANK|2|
 K Guardian of the Dead|ACTIVE|47437|M|44.42,17.10|Z|Dazar'alor|QO|3|T|Guardian of the Dead|N|Kill Guardian of the Dead.|
 T Competitive Devotion|QID|47437|M|45.98,16.29;46.10,13.06|Z|Dazar'alor|CS|N|Up the stairs to find Wardruid Loti.|
@@ -124,7 +124,7 @@ C Pa'ku, Master of Winds|QID|47440|M|71.48,49.34|QO|2|CHAT|N|Attempt to bargain 
 C Pa'ku, Master of Winds|QID|47440|M|71.06,49.16|QO|3|NC|N|Jump off the cliff.|
 T Pa'ku, Master of Winds|QID|47440|M|49.92,33.38|Z|Dazar'alor|N|To Hexlord Raal.|
 A The Bargain is Struck|QID|47432|M|49.92,33.38|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47440|
-R Flightmaster, The Great Seal|ACTIVE|47432|PRE|47440|M|49.92,33.38|Z|Dazar'alor|TZ|Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster.|
+R Flightmaster, The Great Seal|ACTIVE|47432|PRE|47440|M|49.54,32.83;49.91,39.56|CS|Z|Dazar'alor|TZ|Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster area.|
 H The Great Seal|ACTIVE|47439|N|Use your hearthstone (or run) to return to the Great Seal.|
 A Nesingwary's Trek|QID|49768|M|52.03,41.40|Z|Dazar'alor|N|From Huntmaster Kil'ja.|RANK|2|
 F The Sliver|ACTIVE|49488|M|51.89,41.21|Z|Dazar'alor|N|At Paku'ai Rokota.|
@@ -135,7 +135,7 @@ A The Urn of Voices|QID|49490|M|62.83,32.58|N|From Zul the Prophet.|PRE|49488|
 A Fuel for the Voodoo|QID|49491|M|63.62,31.78|N|From Izita's Spirit.|PRE|49488|
 C The Urn of Voices|QID|49490|M|62.70,28.39|S|N|Kill mobs in the area to collect 30 Ounces of Soul.|
 C Fuel for the Voodoo|QID|49491|M|63.75,30.89|S|NC|N|Pick up the Voodoo Totems scattered about.|
-C Needs a Little Body|QID|49489|M|65.05,32.94;63.19,29.07|CS|NC|N|Tip the troll stirring the poition into the cauldron.|
+C Needs a Little Body|QID|49489|M|65.05,32.94;63.19,29.07|CS|NC|N|Push each troll into the cauldron.|
 C The Urn of Voices|QID|49490|M|62.70,28.39|US|N|Finish collecting the needed souls.|
 C Fuel for the Voodoo|QID|49491|M|63.75,30.89|US|NC|N|Finish picking up the Voodoo Totems.|
 T Fuel for the Voodoo|QID|49491|M|62.75,28.47|N|To Brazier at bottom of stairs near Zul the Prophet.|
