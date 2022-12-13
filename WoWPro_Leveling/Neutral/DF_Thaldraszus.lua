@@ -83,7 +83,7 @@ A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdr
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|LVL|70|IZ|2112|
-C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|H|N|Click on Provisioner Thom.|
+C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|NC||N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
 T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.(at the top of the stairs, not the top of the building where you last saw her.)|
 T Eyes and Ears|QID|66166|M|54.72,47.33|Z|2112|N|To Captain Drine.|
@@ -96,9 +96,9 @@ T Southern Exposure|QID|66167|M|35.84,82.52|Z|2025|N|To Guardian Velomir.|
 A The Fog of Battle|QID|66246|PRE|66167|M|35.84,82.52|Z|2025|N|From Guardian Velomir.|
 A Vengeance, Served Hot|QID|66169|PRE|66167|M|35.84,82.52|Z|2025|N|From Guardian Velomir.|
 C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025|N|Kill Magmasworn Primalists as you are searching for Velomir's unit.|S|
-C Kaora|QID|66246|M|36.24,83.78|Z|2025|QO|1<1|I|N|Inspect the mangled corpse.|
-C Sargeant Tagrik|QID|66246|M|36.44,85.41|Z|2025|QO|1<2|I|N|Inspect the mangled corpse.|
-C Mikor|QID|66246|M|35.74,84.21|Z|2025|QO|1<3|I|N|Inspect the mangled corpse.|
+C Kaora|QID|66246|M|36.24,83.78|Z|2025|QO|1<1|CHAT|N|Inspect the mangled corpse.|
+C Sargeant Tagrik|QID|66246|M|36.44,85.41|Z|2025|QO|1<2|CHAT|N|Inspect the mangled corpse.|
+C Mikor|QID|66246|M|35.74,84.21|Z|2025|QO|1<3|CHAT|N|Inspect the mangled corpse.|
 C Vengeance, Served Hot|QID|66169|M|36.66,83.49|Z|2025|N|Keep killing Magmasworn Primalists until step closes.|US|
 T The Fog of Battle|QID|66246|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
 T Vengeance, Served Hot|QID|66169|M|37.61,83.08|Z|2025|N|To Guardian Velomir.|
