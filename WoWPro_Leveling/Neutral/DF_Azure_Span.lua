@@ -641,7 +641,7 @@ T Bear With Me|QID|66555|M|65.38,15.94|Z|2024|N|To Sonova Snowden.|
 A Ice Cave Ya Got There|QID|66556|PRE|66555|M|65.38,15.94|Z|2024|N|From Sonova Snowden.|
 C Ice Cave Ya Got There|QID|66556|M|66.23,11.12|Z|2024|QO|1|NC|N|Walk into the cave in Winterpelt Hollow.|
 K Stormshackler Rynea|ACTIVE|66556|M|65.95,10.74|Z|2024|QO|2|N|Kill Stormshackler Rynea.|
-K Frostjaw|ACTIVE|66971|QO|1|M|70.13,70.59|Z|2024|N|Kill Frostjaw.|
+K Frostjaw|ACTIVE|66971|QO|1|M|70.4,17.4|Z|2024|N|Kill Frostjaw.|;Needs pin point coords
 T Ice Cave Ya Got There|QID|66556|M|65.38,15.94|Z|2024|N|To Sonova Snowden.|
 
 F Iskaara|ACTIVE|71014|M|65.38,16.35|Z|2024|N|At Taelmyr Blazewing.|RANK|3|
@@ -761,7 +761,7 @@ C One Bad Apple|QID|65595|M|12.86,22.75|Z|2024|QO|4|CHAT|N|Open cage, talk to fr
 C One Bad Apple|QID|65595|M|12.99,22.71|Z|2024|QO|5|NC|N|Click on the rotting root and drag it out of the cave. (a'la pulling weeds).|
 C One Bad Apple|QID|65595|M|12.92,22.66|Z|2024|QO|6|N|Kill the Root of Decay that you have unearthed.|
 T One Bad Apple|QID|65595|M|12.92,22.66|Z|2024|N|To Gnoll Mon-Ark.|
-F Hudson's Rock|ACTIVE|70166|M|7.86,53.48|Z|2024|N|To visit Hudson and get a dungeon quest, skip if you want|RANK|3|
+R Hudson's Rock|ACTIVE|70166|M|7.86,53.48|Z|2024|N|To visit Hudson and get a dungeon quest, skip if you want|RANK|3|
 T The Joy of Painting|QID|70166|M|7.86,53.48|Z|2024|N|To Hudson.|RANK|3|
 A Sad Little Accidents|QID|70168|PRE|70166|M|7.87,53.47|Z|2024|N|Wait a moment for this to become available from Ranpiata. The actual doing of this quest is not in this guide as it requires dungeons. (Paintings drop from bosses in the 3 dungeons named.)|RANK|2|
 
@@ -795,7 +795,7 @@ C Warm Away These Shivers|QID|67047|M|51.3,61.55|Z|2024|H|N|Time to finish up ga
 
 R Camp Nowhere|ACTIVE|66939^66957^66958^66968^66971^66972|M|62.92,58.38|N|Over to see Nesingwary and turn in any completed kill quests.|RANK|2|
 $ Imbu Glyph|QID|99999|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|ACH|16070|RANK|3| ;-- not in an area the guide takes us to. Closest is Camp Nowhere
-F Grimtusk's Hideaway|ACTIVE|71000^71017^71012|M|58.79,34.90|Z|2024;The Azure Span|N|Hop on your dragon and let's go to the last spot in the zone.|RANK|3|
+R Grimtusk's Hideaway|ACTIVE|71000^71017^71012|M|58.79,34.90|Z|2024;The Azure Span|N|Hop on your dragon and let's go to the last spot in the zone.|RANK|3|
 T Naluki's Letter|QID|71017|M|58.79,34.90|Z|2024;The Azure Span|N|To Old Grimtusk.|
 T Varsek Recruited|QID|71012|M|58.79,34.90|Z|2024;The Azure Span|N|To Old Grimtusk.|
 T Barst Recruited|QID|71000|M|58.79,34.90|Z|2024;The Azure Span|N|To Old Grimtusk.|
