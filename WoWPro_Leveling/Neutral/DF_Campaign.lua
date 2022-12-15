@@ -60,19 +60,20 @@ A Jump-Start? Jump-Starting!|QID|70180|PRE|72773^70846|M|84.20,54.33|Z|2112|N|Fr
 A Jump-Start? Jump-Starting!|QID|70180|M|84.20,54.33|Z|2112|N|From Greyzik Cobblefinger.|ACH|16326;;1;true|
 C Jump-Start? Jump-Starting!|QID|70180|QO|1|M|84.74,54.78|Z|2112|V|N|Hop in the Goblin Gyrocopter.|
 C Jump-Start? Jump-Starting!|QID|70180|QO|2|M|85.51,55.41|Z|2112|NC|N|After a bit, a button will show up on your vehicle UI, Use it and target the Console below. Repeatedly|
-C Jump-Start? Jump-Starting!|QID|70180|QO|3|M|86.36,51.75|Z|2112|NC|U|194441|N|When the charging button changes to Eject, press it and float down. Aim for the platform if you don't want a long flight back.|
+C Jump-Start? Jump-Starting!|QID|70180|QO|3|M|86.36,51.75|Z|2112|NC|N|When the charging button changes to Eject, press it and float down. Aim for the platform if you don't want a long flight back.|
 C Jump-Start? Jump-Starting!|QID|70180|QO|4|M|84.32,53.76|Z|2112|H|N|Activate the Engine of Innovation.|
 T Jump-Start? Jump-Starting!|QID|70180|M|84.31,53.54|Z|2112|N|To Maiden of Inspiration.|
 A In Tyr's Footsteps|QID|70845|PRE|70180|M|84.31,53.54|Z|2112|N|From Maiden of Inspiration. The remainder of this questline is in the Campaign guide.|
 F Rhonin's Shield|ACTIVE|70845|M|66.01,25.38|Z|2024|N|Take a flight path to Rhonin's Shield or otherwise travel that direction.|
 R Upper Frostlands|ACTIVE|70845|M|67.19,30.77|Z|2024|
-T In Tyr's Footsteps|QID|70845|M|67.15,30.68|Z|2024|
+T In Tyr's Footsteps|QID|70845|M|67.15,30.68|Z|2024|N|Find Tyrs first challange.| 
 A First Challenge of Tyr: Finesse|QID|70181|PRE|70845|M|67.15,30.68|Z|2024|
-C First Challenge of Tyr: Finesse|QID|70181|M|67.12,30.92|Z|2024|QO|1|CHAT|N|Speak with Maiden of Inspiration to begin.|
-C First Challenge of Tyr: Finesse|QID|70181|M|67.24,30.92|Z|2024|QO|2|NC|N|This shoots you up in the air and you float down there are MANY many rings, float down thru them. There is an [color=33fff9]Extra Action Button [/color] which will send you up a little ways if you just missed one.|
+C First Challenge of Tyr: Finesse|QID|70181|M|67.12,30.92|Z|2024|QO|1|H|N|Speak with Maiden of Inspiration to begin.|
+C First Challenge of Tyr: Finesse|QID|70181|M|67.24,30.92|Z|2024|QO|2|NC|EAB|N|This shoots you up in the air and you float down there are MANY many rings, float down thru them. There is an [color=33fff9]Extra Action Button [/color] which will send you up a little ways if you just missed one.|
 T First Challenge of Tyr: Finesse|QID|70181|M|67.13,30.92|Z|2024|N|To Maiden of Inspiration.|
 A The Sweet Taste of Victory|QID|70182|PRE|70181|M|67.13,30.92|Z|2024|N|From Maiden of Inspiration.|
-T The Sweet Taste of Victory|QID|70182|M|84.36,53.59|Z|2112;Valdrakken|N|To Maiden of Inspiration, who is back in Valdrakken. There is a portal if you want to use it for a quick trip back.|
+P Valdrakken|ACTIVE|70182|M|67.18,30.93|Z|2024|NC|N|Take the portal to Valdrakken.|IZ|2024|
+T The Sweet Taste of Victory|QID|70182|M|84.36,53.59|Z|2112;Valdrakken|N|To Maiden of Inspiration, who is back in Valdrakken.|
 A Fueling the Engine|QID|70633|PRE|70182|M|84.36,53.59|Z|2112;Valdrakken|N|From Maiden of Inspiration.|
 C Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|QO|1|NC|EAB|N|Use the [color=33fff9]Extra Action Button [/color]to power up Engine.|
 T Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|N|To Maiden of Inspiration.|

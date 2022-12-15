@@ -322,7 +322,7 @@ T The Never-Final Countdown|QID|65962|M|60.05,82.45|Z|2025|N|To Nozdormu.|
 A Tumbling Through Time|QID|70040|PRE|65962|M|60.05,82.45|Z|2025|N|From Nozdormu.|
 C Tumbling Through Time|QID|70040|M|59.52,82.54|Z|2025|QO|1|CHAT|N|Tell Soridormi that Nozdormu wants to see her.|
 C Tumbling Through Time|QID|70040|M|59.32,82.19|Z|2025|QO|3|CHAT|N|Tell Siaszerathel that Nozdormu wants to see him.|
-f Temporal Conflux|ACTIVE|65962|M|59.91,81.37|Z|2025|N|At Warden Dialash.|
+f Temporal Conflux|ACTIVE|70040|M|59.91,81.37|Z|2025|N|At Warden Dialash.|
 C Tumbling Through Time|QID|70040|M|60.18,81.77|Z|2025|QO|2|CHAT|N|Tell Andantenormu that Nozdormu wants to see him.|
 C Tumbling Through Time|QID|70040|M|60.07,82.44|Z|2025|QO|4|CHAT|N|Tell Nozdormu that everyone is ready.|
 T Tumbling Through Time|QID|70040|M|60.06,82.44|Z|2025|N|To Nozdormu.|
@@ -404,7 +404,7 @@ T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
-C Moving On|QID|66221|M|61.94,32.13;57.97,36.04|CS|Z|2112|CHAT|N|Take the telporter up and tell Alexstrasza that all the Oathstones have been restored.|
+C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza at the top of the tower that all the Oathstones have been restored.|
 T Moving On|QID|66221|M|57.97,36.04|Z|2112|N|To Alexstrasza.|
 A Renown of the Dragon Isles|QID|71232|PRE|66221|M|57.97,36.04|Z|2112|N|From Alexstrasza.|
 T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112|N|To Captain Drine.|
@@ -552,8 +552,9 @@ C The Awaited Egg-splosion|QID|66299|QO|1|M|43.52,72.11|Z|2025;Thaldraszus|U|191
 C The Awaited Egg-splosion|QID|66299|QO|2|M|43.52,72.11|Z|2025;Thaldraszus|H|N|Click the cauldron.|
 C The Awaited Egg-splosion|QID|66299|QO|3|M|43.29,71.27|Z|2025;Thaldraszus|V|N|Hop on the "Taxi".|
 C The Awaited Egg-splosion|QID|66299|QO|4|M|44.48,73.01|Z|2025;Thaldraszus|H|N|Click on the egg bowl.|
-C The Awaited Egg-splosion|QID|66299|QO|5;6|M|44.48,73.01|Z|2025;Thaldraszus|N|Wait, watch, when the egg explodes, kill the Matriarch. Interrupt her Devour Essense spell as it will heal her.|
-C The Awaited Egg-splosion|QID|66299|QO|7|M|44.48,73.01|Z|2025;Thaldraszus|EAB|N|Optionally you can use the provided Glider. It will take you directly to Harleen.|
+C The Awaited Egg-splosion|QID|66299|QO|5|M|44.48,73.01|Z|2025;Thaldraszus|N|Wait, watch, when the egg explodes.|
+C The Awaited Egg-splosion|QID|66299|QO|6|M|44.48,73.01|Z|2025;Thaldraszus|N|Kill the Matriarch. Interrupt her Devour Essense spell as it will heal her.|
+C The Awaited Egg-splosion|QID|66299|QO|7|M|44.72,72.68|Z|2025;Thaldraszus|EAB|N|Walk back outside the cave and use the provided Glider. It will take you directly to Harleen.|
 T The Awaited Egg-splosion|QID|66299|M|43.45,70.53|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
 H Valdrakken|ACTIVE|70750^72068^72373^72374^72375|M|PLAYER|N|Hearth back to Valdrakken or fly back on your own as you choose.|TZ|The Roasted Ram|
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
