@@ -173,7 +173,7 @@ K Umbra'jin|QID|47567|M|70.31,32.98;71.46,32.35|CS|QO|1|RARE|ITEM|161091|T|Umbra
 R Scaletrader Post|AVAILABLE|49810|M|70.79,29.60|N|Up the hill to grab the flightpoint.|RANK|2|
 f Scaletrader Post|AVAILABLE|49810|M|70.78,29.58|N|At Scroll of Flight.|RANK|2|
 F The Sliver|AVAILABLE|49810|M|70.78,29.58|N|At Scroll of Flight.|RANK|2|
-K Gahz'ralka|QID|50439|M|62.61,32.86;66.32,32.84;64.28,32.70|CS|RARE|ITEM|161043|QO|1|T|Gahz'ralka|N|Silver Elite can be found under the bridge. Loot for azerite power and resources.|RANK|2|
+K Gahz'ralka|QID|50439|M|62.61,32.86;63.22,32.56;64.28,32.70|CS|RARE|ITEM|161043|QO|1|T|Gahz'ralka|N|Silver Elite can be found under the bridge. Loot for azerite power and resources.|RANK|2|
 A Monstrous Matchmaker|QID|49810|M|62.96,33.81;64.13,35.37|CS|N|From Witch Doctor Jangalar.|RANK|2|
 C Monstrous Matchmaker|QID|49810|M|63.06,36.96|QO|1|U|155911|NC|N|Place voodoo totem by Gentle Ben'jin.|
 C Monstrous Matchmaker|QID|49810|M|64.19,39.35|QO|2|U|155911|NC|N|Place voodoo totem by Irritable Maka-fon.|
