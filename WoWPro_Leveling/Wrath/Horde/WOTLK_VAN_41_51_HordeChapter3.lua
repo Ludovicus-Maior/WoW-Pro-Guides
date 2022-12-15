@@ -453,7 +453,7 @@ T Return to Witch Doctor Uzer'i|QID|3122|M|74.42,43.36|Z|1444|N|To Witch Doctor 
 A Testing the Vessel|QID|3123|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.\n[color=FF0000]NOTE: [/color]There is a brief interlude before he offers this quest.|PRE|3122|
 A Natural Materials|QID|3128|M|74.42,43.36|Z|1444|N|From Witch Doctor Uzer'i.|PRE|3122|
 R Woodpaw Hills|ACTIVE|2862|M|71.3,49.0;70.45,49.82|CC|Z|1444|N|Exit Camp Mojache from the west and follow the road a short distance.|
-C Testing the Vessel|QID|3123|M|M|70.16,54.59|Z|1444|L|9594 10|N|Kill Ironfur Bears or Longtooth Runners and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|S|
+C Testing the Vessel|QID|3123|M|70.16,54.59|Z|1444|L|9594 10|N|Kill Ironfur Bears or Longtooth Runners and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|S|
 C War on the Woodpaw|QID|2862|M|70.16,54.59|Z|1444|L|9237 10|ITEM|9237|N|Any Woodpaw Gnoll|
 R Camp Mojache|ACTIVE|2862|M|73.12,47.44|Z|1444|N|Run to Camp Mojache|
 C Testing the Vessel|QID|3123|M|70.16,54.59|Z|1444|L|9594 10|N|Kill Ironfur Bears or Longtooth Runners and use the Muisek Vessel on their bodies to collect the muisek.|U|9618|US|
