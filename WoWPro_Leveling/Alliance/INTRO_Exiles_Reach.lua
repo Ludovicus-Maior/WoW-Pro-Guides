@@ -4,7 +4,7 @@ WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Exile's Reach")
 WoWPro:GuideName(guide,"Exile's Reach")
 WoWPro:GuideNextGuide(guide, 'BurnTedrazilSTrek')
-WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
+WoWPro:GuideQuestTriggers(guide, 56775)
 WoWPro:GuideSteps(guide, function()
 return [[
 A Warming Up|QID|56775|Z|1726;The North Sea|N|From Captain Garrick.|
@@ -28,7 +28,7 @@ C Finding the Lost Expedition|QID|54952|M|58.36,74.47|N|Head toward the camp to 
 T Finding the Lost Expedition|QID|54952|M|58.36,74.47|N|Turn into Alaria.|
 A Cooking Meat|QID|55174|PRE|54952|M|58.35,74.67|N|From Captain Garrick.|
 C Cooking Meat|QID|55174|M|58.35,74.67|QO|1|N|Kill animals around the area, be sure to loot the meat.|
-C Cooking Meat|QID|55174|M|58.35,74.67|QO|2|N|Click on the fire.|NC|
+C Cooking Meat|QID|55174|M|58.35,74.67|QO|2|N|Click on the fire.|H|
 T Cooking Meat|QID|55174|M|58.35,74.67|N|Turn into Alaria.|
 A Enhanced Combat Tactics|QID|59254|PRE|55174|M|58.33,74.51|N|From Captain Garrick.|C|-Hunter,-Monk|
 A Enhanced Combat Tactics|QID|59339|PRE|55174|M|58.33,74.51|N|From Captain Garrick.|C|Monk|
@@ -45,7 +45,7 @@ T Taming the Wilds|QID|59342|M|62.73,69.84|N|Turn into Captain Garrick.|
 A Down with the Quilboar|QID|55186|PRE|55173|M|62.73,69.84|N|From Austin Huxworth.|
 A Forbidden Quilboar Necromancy|QID|55184|PRE|55173|M|62.73,69.84|N|From Austin Huxworth.|
 C Forbidden Quilboar Necromancy|QID|55184|N|Kill Quilboar in the area.|S|
-K Ogre Overseer|QID|56051|M|60.52,59.86|Z|Exile's Reach!Instance|RARE|N|Silver Elite to kill and loot.|T|Ogre Overseer|
+K Ogre Overseer|QID|55184|M|60.52,59.86|Z|Exile's Reach!Instance|RARE|N|Silver Elite to kill and loot.|T|Ogre Overseer|
 C Forbidden Quilboar Necromancy|QID|55184|M|61.60,62.88|N|Kill Quilboar in the area.|US|
 C Down with the Quilboar|QID|55186|M|58.91,62.96|N|End Geolord Grek'og and rescue Lindie.|
 $ Quilboar Treasures|QID|56579|M|58.52,59.30|Z|Exile's Reach!Instance|N|Loot the treasure chest.|
@@ -68,7 +68,7 @@ T Stocking Up on Supplies|QID|55194|M|52.34,55.34|N|Turn into Captain Garrick.|
 A A Rogue's End|QID|58917|PRE|55194|M|52.10,55.21|N|From Private Cole.|C|Rogue|
 A A Shaman's Duty|QID|59002|PRE|55194|M|52.30,55.50|N|From Ghost Wolf.|C|Shaman|
 C A Rogue's End|QID|58917|M|45.69,56.08|QO|1|N|Stealth and find Coulston Nereus.|CHAT|
-C A Rogue's End|QID|58917|M|45.69,56.08|QO|2|N|Collect Withering Hemlock.|NC|
+C A Rogue's End|QID|58917|M|45.69,56.08|QO|2|N|Collect Withering Hemlock.|H|
 T A Rogue's End|QID|58917|M|52.10,55.21|N|To Coulston Nereus.|
 A The Deadliest of Poisons|QID|58933|PRE|58917|M|45.69,56.08|N|From Coulston Nereus.|C|Rogue|
 C The Deadliest of Poisons|QID|58933|M|45.69,56.08|QO|1|N|Cast instant poison before you go.|NC|
@@ -84,7 +84,7 @@ T A Shaman's Duty|QID|59002|M|52.30,55.50|N|To Ghost Wolf.|
 A Westward Bound|QID|55965|PRE|55194|M|53.02,55.05|N|From Bjorn Stouthands.|
 T Westward Bound|QID|55965|M|51.18,59.60|N|Turn into Bjorn Stouthands.|
 A Who Lurks in the Pit|QID|55639|PRE|55965|M|51.11,59.50|N|From Alaria.|
-C Who Lurks in the Pit|QID|55639|M|52.06,60.01;50.23,58.67;49.70,61.97;52.00,60.71;50.90,58.10|CS|QO|1|N|Rescue Trapped Expedition Members from the cocoons.|NC|
+C Who Lurks in the Pit|QID|55639|M|52.06,60.01;50.23,58.67;49.70,61.97;52.00,60.71;50.90,58.10|CS|QO|1|N|Rescue Trapped Expedition Members from the cocoons.|H|
 C Who Lurks in the Pit|QID|55639|QO|2|M|47.58,60.38|N|Kill Hrun the Exiled.|
 C Who Lurks in the Pit|QID|55639|QO|3|M|47.78,60.29|N|Click on Ralia for a ride out of the pit.|V|
 T Who Lurks in the Pit|QID|55639|M|52.36,55.34|N|Turn into Captain Garrick.|
@@ -108,10 +108,10 @@ T A Warrior's End|QID|58914|M|52.29,47.52|N|Turn into Hjalmar the Undying.|
 A Hjalmar's Final Execution|QID|58915|PRE|58914|M|52.29,47.52|N|From Hjalmar the Undying.|C|Warrior|
 C Hjalmar's Final Execution|QID|58915|M|52.29,47.52||N|Chat to trigger the fight with Hjalmar the Undying and finish him off with the Execute ability.|
 A Freeing the Light|QID|54933|M|55.29,47.98;58.20,50.22|CS|N|From Lightspawn.|
-C Freeing the Light|QID|54933|M|57.42,49.68|QO|1|N|Click the first Ritual Pedestal to disperse the energy.|NC|
-C Freeing the Light|QID|54933|M|58.49,49.15|QO|2|N|Click the second Ritual Pedestal to disperse the energy.|NC|
-C Freeing the Light|QID|54933|M|59.00,50.69|QO|3|N|Click the third Ritual Pedestal to disperse the energy.|NC|
-C Freeing the Light|QID|54933|M|57.82,51.19|QO|4|N|Click the fourth Ritual Pedestal to disperse the energy.|NC|
+C Freeing the Light|QID|54933|M|57.42,49.68|QO|1|N|Click the first Ritual Pedestal to disperse the energy.|H|
+C Freeing the Light|QID|54933|M|58.49,49.15|QO|2|N|Click the second Ritual Pedestal to disperse the energy.|H|
+C Freeing the Light|QID|54933|M|59.00,50.69|QO|3|N|Click the third Ritual Pedestal to disperse the energy.|H|
+C Freeing the Light|QID|54933|M|57.82,51.19|QO|4|N|Click the fourth Ritual Pedestal to disperse the energy.|H|
 T Freeing the Light|QID|54933|M|58.18,50.23|N|To Lightspawn.|
 C A Paladin's Service|QID|58923|M|57.57,52.21|N|Speak with the Ghost of Yorah.|CHAT|
 T A Paladin's Service|QID|58923|M|57.57,52.21|C|Paladin|N|Turn into Yorah.|
@@ -124,11 +124,11 @@ A The Rescue of Meredy Huntswell|QID|55763|PRE|55196|M|56.83,46.18|N|From Henry 
 A Purge the Totems|QID|55881|PRE|55196|M|56.83,46.29|N|From Henry Garrick.|
 A Harpy Culling|QID|55764|PRE|55196|M|56.92,46.26|N|From Kee-La.|
 C Harpy Culling|QID|55764|M|56.84,46.29|N|Kill Harpies and Worgs. Don't focus on them as you will finish it in the main quest.|S|
-C Purge the Totems|QID|55881|M|56.84,46.29|N|Burn the Harpy Totems.|NC|S|
+C Purge the Totems|QID|55881|M|56.84,46.29|N|Burn the Harpy Totems.|H|S|
 K Ogre Taskmaster|QID|59611|M|58.74,40.87|RARE|N|Silver Elite to kill and loot.|T|Ogre Taskmaster|
 $ Stolen Supplies|QID|56581|M|59.30,37.61|N|Loot the treasure chest.|
 C The Rescue of Meredy Huntswell|QID|55763|M|54.32,41.48|N|Chat with Herbert Gloomburst to start the 5 waves of attack. The first 4 waves are a mix of 2-3 Harpy Ambushers and Hunting Worgs. The 5th and final wave is Bloodbeak. Kill him to finish the quest.|CHAT|
-C Purge the Totems|QID|55881|M|56.84,46.29|N|Finish burning the Harpy Totems.|NC|US|
+C Purge the Totems|QID|55881|M|56.84,46.29|N|Finish burning the Harpy Totems.|H|US|
 C Harpy Culling|QID|55764|M|56.84,46.29|N|Finish killing Harpies and Worgs.|US|
 T Harpy Culling|QID|55764|M|56.92,46.24|N|Turn into Kee-La.|
 T The Rescue of Meredy Huntswell|QID|55763|M|56.91,46.14|N|Turn into Meredy Huntswell.|
@@ -172,22 +172,22 @@ C Right Beneath Their Eyes|QID|55981|M|49.04,49.19|QO|1|N|Ask Meredy to perform 
 C Right Beneath Their Eyes|QID|55981|M|45.79,44.76|QO|2|N|Enter Darkmaul Citadel.|NC|
 C Right Beneath Their Eyes|QID|55981|M|45.90,38.57|QO|3|N|Find the ogre cooking area.|NC|
 C Right Beneath Their Eyes|QID|55981|M|45.68,37.54|QO|4|N|Use the wow-pro target button to target and wave at Gor'groth; then /dance afterward if you feel up to it.|T|Gor'groth,wave|NC|
-C Right Beneath Their Eyes|QID|55981|M|40.98,32.90|QO|5|N|Reach the citadel entrance.|NC|
+C Right Beneath Their Eyes|QID|55981|M|40.98,32.90|QO|6|N|Reach the citadel entrance.|NC|
 T Right Beneath Their Eyes|QID|55981|M|40.16,32.35|N|Turn into Captain Garrick.|
 A Controlling their Stones|QID|55990|PRE|55981|M|40.16,32.35|N|From Captain Garrick.|
 A Like Ogres to the Slaughter|QID|55988|PRE|55981|M|40.22,32.36|N|From Henry Garrick.|
 A Catapult Destruction|QID|55989|PRE|55981|M|40.26,32.34|N|From Meredy Huntswell.|
 C Like Ogres to the Slaughter|QID|55988|M|40.12,32.32|N|Kill Ogres.|S|
-C Catapult Destruction|QID|55989|M|40.12,32.32|N|Click on Catapults to destroy them.|NC|S|
+C Catapult Destruction|QID|55989|M|40.12,32.32|N|Click on Catapults to destroy them.|H|S|
 C Controlling their Stones|QID|55990|M|44.21,36.09|QO|2|N|Kill Wug and loot his ward stone.|T|Wug|
 $ Precious Ogre Stash|QID|56088|M|41.78,42.92|L|169821|N|Loot the treasure chest.|
 C Controlling their Stones|QID|55990|M|43.46,41.23|QO|3|N|Kill Grunk and loot his ward stone.|T|Grunk|
 C Controlling their Stones|QID|55990|M|47.06,35.13|QO|1|N|Kill Jugnug and loot his ward stone.|T|Jugnug|
-C Catapult Destruction|QID|55989|M|40.12,32.32|N|Click on Catapults to destroy them.|NC|US|
+C Catapult Destruction|QID|55989|M|40.12,32.32|N|Click on Catapults to destroy them.|H|US|
 C Like Ogres to the Slaughter|QID|55988|M|40.12,32.32|N|Kill Ogres.|US|
 T Catapult Destruction|QID|55989|M|40.27,32.32|N|Turn into Meredy Huntswell.|
 T Like Ogres to the Slaughter|QID|55988|M|40.22,32.34|N|Turn into Henry Garrick.|
-C Controlling their Stones|QID|55990|M|39.92,32.18|QO|4|N|Click on the Ogre Runestones to disable the wards holding Captain Kelra.|NC|
+C Controlling their Stones|QID|55990|M|39.92,32.18|QO|4|N|Click on the Ogre Runestones to disable the wards holding Captain Kelra.|H|
 T Controlling their Stones|QID|55990|M|39.92,32.14|N|Turn into Captain Kelra.|
 A Dungeon: Darkmaul Citadel|QID|55992|PRE|55988&55989&55990|M|39.92,32.14|N|From Captain Kelra.|
 C Dungeon: Darkmaul Citadel|QID|55992|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio. (although you may not end up solo).|NC|

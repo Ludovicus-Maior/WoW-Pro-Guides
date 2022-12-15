@@ -9,31 +9,31 @@ return [[
 R Orgrimmar|AVAILABLE|61874|IZ|-85|N|If you aren't in Orgrimmar, go there to get the starting quest.|FACTION|Horde|
 A Shadowlands: A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine.|FACTION|Horde|LVL|10|
 C Shadowlands: A Chilling Summons|QID|61874|M|50.38,76.58|Z|Orgrimmar|QO|1|CHAT|N|Speak with Nazgrim outside Grommash Hold and he will open a gate.|FACTION|Horde|
-C Shadowlands: A Chilling Summons|QID|61874|M|49.16,78.13|Z|Orgrimmar|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Horde|
+C Shadowlands: A Chilling Summons|QID|61874|M|49.16,78.13|Z|Orgrimmar|QO|2|H|N|Enter the Death gate to Acherus.|FACTION|Horde|
 R Stormwind|AVAILABLE|60545|IZ|-84|N|If you aren't in Stormwind, go there to get the starting quest.|FACTION|Alliance|
 A Shadowlands: A Chilling Summons|QID|60545|M|76.55,42.72|Z|Stormwind City|N|From Highlord Darion Mograine.|FACTION|Alliance|LVL|10|
 C Shadowlands: A Chilling Summons|QID|60545|M|76.70,42.75|Z|Stormwind City|QO|1|CHAT|N|Speak with High Inquisitor Whitemane and she will open a gate.|FACTION|Alliance|
-C Shadowlands: A Chilling Summons|QID|60545|M|77.08,42.08|Z|Stormwind City|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Alliance|
+C Shadowlands: A Chilling Summons|QID|60545|M|77.08,42.08|Z|Stormwind City|QO|2|H|N|Enter the Death gate to Acherus.|FACTION|Alliance|
 C Shadowlands: A Chilling Summons|QID|60545^61874|M|59.78,19.36|Z|Lower Acherus@Icecrown Citadel!Dungeon1681|QO|3|NC|N|Run toward Icecrown Citadel and stand on the teleporter to the Frozen Throne.|
 T Shadowlands: A Chilling Summons|QID|60545^61874|M|50.85,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|To Highlord Bolvar Fordragon.|
-A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874
+A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874|
 C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|1|NC|N|Listen to them squabble and wait for Bolvar to have the last word.|
-N First Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Click on the First Shard of Domination.|BUFF|329185|
-C Through the Shattered Sky|QID|59751|M|54.87,44.81|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Place the shard above the rune.|
-N Second Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|3|NC|N|Click on the Second Shard of Domination.|BUFF|329254|
-C Through the Shattered Sky|QID|59751|M|54.80,59.59|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|3|NC|N|Place the shard above the rune.|
-N Third Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|4|NC|N|Click on the Third Shard of Domination.|BUFF|329255|
-C Through the Shattered Sky|QID|59751|M|45.19,59.38|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|4|NC|N|Place the shard above the rune.|
-N Fourth Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|5|NC|N|Click on the Fourth Shard of Domination.|BUFF|329257|
-C Through the Shattered Sky|QID|59751|M|45.05,45.11|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|5|NC|N|Place the shard above the rune.|
-C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|6|NC|N|Grab the final shard from the middle and stand still to complete the ritual.|
+N First Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|H|N|Click on the First Shard of Domination.|BUFF|329185|
+C Through the Shattered Sky|QID|59751|M|54.87,44.81|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|H|N|Place the shard above the rune.|
+N Second Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|3|H|N|Click on the Second Shard of Domination.|BUFF|329254|
+C Through the Shattered Sky|QID|59751|M|54.80,59.59|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|3|H|N|Place the shard above the rune.|
+N Third Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|4|H|N|Click on the Third Shard of Domination.|BUFF|329255|
+C Through the Shattered Sky|QID|59751|M|45.19,59.38|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|4|H|N|Place the shard above the rune.|
+N Fourth Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|5|H|N|Click on the Fourth Shard of Domination.|BUFF|329257|
+C Through the Shattered Sky|QID|59751|M|45.05,45.11|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|5|H|N|Place the shard above the rune.|
+C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|6|H|N|Grab the final shard from the middle and stand still to complete the ritual.|
 T Through the Shattered Sky|QID|59751|M|19.31,57.22|Z|1648|N|To Highlord Darion Mograine.|
 A A Fractured Blade|QID|59752|M|PLAYER|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751
 A Mawsworn Menace|QID|59907|M|19.31,57.22|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751
-C A Fractured Blade|QID|59752|M|22.57,49.31|Z|The Maw!Instance|NC|S|N|Rally the Knights of the Ebon Blade.|
+C A Fractured Blade|QID|59752|M|22.57,49.31|Z|The Maw!Instance|H|S|N|Rally the Knights of the Ebon Blade.|
 C Mawsworn Menace|QID|59907|M|22.57,49.31|Z|The Maw!Instance|S|N|Kill the Mawsworn forces in the area.|
 A Ruiner's End|QID|59753|M|22.96,51.99|Z|The Maw!Instance|N|From Wilona Thorne.|PRE|59751
-C A Fractured Blade|QID|59752|M|22.57,49.31|Z|The Maw!Instance|NC|US|N|Rally the Knights of the Ebon Blade.|
+C A Fractured Blade|QID|59752|M|22.57,49.31|Z|The Maw!Instance|H|US|N|Rally the Knights of the Ebon Blade.|
 C Ruiner's End|QID|59753|M|19.35,46.24|Z|The Maw!Instance|QO|1|N|Ruiner Maroth slain.|
 C Mawsworn Menace|QID|59907|M|22.57,49.31|Z|The Maw!Instance|US|N|Kill the Mawsworn forces in the area.|
 T A Fractured Blade|QID|59752|M|21.50,41.98|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
