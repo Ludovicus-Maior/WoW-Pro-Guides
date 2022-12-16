@@ -321,15 +321,15 @@ T Predatory|QID|47585|M|67.50,17.62|N|To Huntmaster Vol'ka.|
 A Hunting the Hunter|QID|47586|M|67.50,17.62|N|From Huntmaster Vol'ka.|RANK|2|PRE|50466&47583&47584&47585|
 T Hunt for King K'tal|QID|47706|M|67.50,17.62|N|To Huntmaster Vol'ka.|
 T He's Gone Mad!|QID|50466|M|67.50,17.62|N|To Huntmaster Vol'ka.|
-f Nesingwary's Trek|ACTIVE|47586|M|66.18,17.57|N|At Lasa the Galerider.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|2|
+f Nesingwary's Gameland|ACTIVE|47586|M|66.18,17.57|N|At Lasa the Galerider.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|2|
 $ Mysterious Trashpile|QID|50332|M|66.20,16.59|N|Click on the Mysterious Trashpile to attract Jani who has a quest for you.|RANK|2|BUFF|262409|
 A Big Hunter Mon|QID|50332|M|66.20,16.59|N|From Jani.|RANK|2|
-C Big Hunter Mon|QID|50332|M|67.73,17.86|QO|1|NC|N|Nesingwary's Stores reached. Use sprint and avoid the Eyes of Yazma.|
-C Big Hunter Mon|QID|50332|M|67.46,17.71|QO|2|NC|N|Click on the box of ammo.|
+R Big Hunter Mon|QID|50332|M|67.73,17.86|QO|1|N|Nesingwary's Stores reached. Use sprint and avoid the Eyes of Yazma.|
+C Big Hunter Mon|QID|50332|M|67.46,17.71|QO|2|H|N|Enter the basement from the east side and click on the Bullet Box inside.|
 C Big Hunter Mon|QID|50332|M|67.70,17.71|QO|3|NC|N|Wait for Nesingwary to trigger stink bombs.|
-C Big Hunter Mon|QID|50332|M|67.49,17.68|QO|4|NC|N|Click on Nesingwary to steal his Boot.|
-C Big Hunter Mon|QID|50332|M|66.23,16.77|QO|5|NC|N|Bring the Boot to Jani. (avoiding the Eye of Yazma mobs).|
-T Big Hunter Mon|QID|50332|M|66.23,16.67|N|To Jani.|
+C Big Hunter Mon|QID|50332|M|67.70,17.71|QO|4|H|N|Click on Nesingwary to steal his Boot.|
+R Big Hunter Mon|QID|50332|M|66.23,16.67|QO|5|N|Bring the Boot to Jani.\n[color=FF0000]NOTE: [/color]Running into an Eye of Yazma will speed up the process.|
+T Big Hunter Mon|QID|50332|M|66.23,16.67|N|To Jani.\n[color=FF0000]NOTE: [/color]Click on the Trashpile if necessary.|
 A Trouble in the Rootway|QID|50178|M|65.88,19.97|N|Bonus Objective. Autoaccepted.|LVL|-50|RANK|2|
 C Trouble in the Rootway|QID|50178|M|65.88,19.97|S|N|Bonus Objective - Kill the invasive animals in the area.|
 $ Witch Doctor's Stash|QID|50259|M|65.57,22.51;64.72,21.70|CS|N|Follow this path to get up to the Treasure.|RANK|2|
