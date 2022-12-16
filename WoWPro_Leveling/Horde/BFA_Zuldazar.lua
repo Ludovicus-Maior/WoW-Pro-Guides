@@ -285,8 +285,8 @@ T A Good Spanking|QID|48581|M|66.81,42.51|N|To Beastlord L'kala.|
 A Naptime|QID|47310|M|66.81,42.51|N|From Beastlord L'kala.|RANK|2|PRE|48581|
 C Naptime|QID|47310|M|68.29,42.05|NC|N|Click on the gates to send your Juvenile Direhorn into the "stable"|
 T Naptime|QID|47310|M|66.79,42.50|N|To Beastlord L'kala.|
-N Pet Opportunity|QID|47260|N|After you are lvl 50, you will get a letter inviting you back and in 3 more quests you will have your new pet.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|PRE|47310| ; Level may be different - Hendo72
-A Side Effects May Include...|QID|47260|M|68.14,41.81|N|From Direhorn Juvinile where you left him taking a nap.|PRE|47310|
+N Pet Opportunity|AVAILABLE|47260|N|After you reach lvl 50, you will get a letter inviting you back to complete 3 more quests for a new pet.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|PRE|47310| ; Level may be different - Hendo72
+A Side Effects May Include...|QID|47260|M|68.14,41.81|N|From Direhorn Juvinile where you left him taking a nap.|PRE|47310|LVL|50|
 T Side Effects May Include...|QID|47260|M|66.81,42.56|N|To Beastlord L'kala.|
 A Alchemy is an Inexact Science|QID|52855|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|47260|
 R Savagelands|ACTIVE|52855|M|70.50,35.27|N|Mount up its a bit of a run to find the needed reagents.|
@@ -298,20 +298,21 @@ C Held For Observation|QID|52857|M|68.14,41.81|U|162589|NC|N|Give your Direhorn 
 T Held For Observation|QID|52857|M|66.81,42.56|N|To Beastlord L'kala.|
 F Scaletrader Post|ACTIVE|49768|M|67.26,43.03|N|At Paku'ai Verraki.|
 R Nesingwary's Trek|ACTIVE|49768|M|69.23,27.56;68.53,23.01;67.91,21.19;67.54,18.00|CS|N|And on to find Nesingwary.|RANK|2|
-A Hunt for King K'tal|QID|47706|M|67.46,17.92|N|From Hunter's Board.|RANK|2|PRE|49768|
-A WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.46,17.92|N|From Hunter's Board.|RANK|2|PRE|49768|
 T Nesingwary's Trek|QID|49768|M|67.50,17.70|N|To Hemet Nesingwary.|
 A He's Gone Mad!|QID|50466|M|67.50,17.70|N|From Hemet Nesingwary.|RANK|2|
 A Die, Die, Diemetradon|QID|47583|M|67.56,17.73|N|From Hemet Nesingwary.|RANK|2|PRE|49768|
+A Hunt for King K'tal|QID|47706|M|67.46,17.92|N|From Hunter's Board.|RANK|2|PRE|49768|
+A WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.46,17.92|N|From Hunter's Board.|RANK|2|PRE|49768|
 A A Thorn in the Side|QID|47584|M|67.45,17.72|N|From Erak the Aloof.|RANK|2|PRE|49768|
 A Predatory|QID|47585|M|68.85,19.44|QO|1|N|From Trapper Custer. (or what's left of him.|RANK|2|
 C Die, Die, Diemetradon|QID|47583|M|67.85,24.11|S|N|Kill Venomous Diemetradons.|
 C A Thorn in the Side|QID|47584|M|68.32,21.65|S|N|Kill Ankylodons.|
 $ The Exile's Lament|QID|50949|M|71.28,17.45;71.83,16.77|CS|N|Inside the cave you can find a chest to loot for azerite power and resources.|RANK|2|
-C Predatory|QID|47585|M|70.63,22.01|QO|1|NC|N|Ranger Paalu can be found here.|
-C Predatory|QID|47585|M|67.81,25.06|QO|2|NC|N|Marksman Julyen is lying here.|
+K King K'tal|ACTIVE|47706|QO|1|M|69.88,22.79|S|N|Kill K'tal and loot his skull. This is a group quest so you may need help.|
+C Predatory|QID|47585|M|70.63,22.01|QO|1|I|N|Ranger Paalu can be found here.|
+C Predatory|QID|47585|M|67.81,25.06|QO|2|I|N|Marksman Julyen is lying here.|
 K Wildtusk|ACTIVE|50466|QO|1|M|71.00,26.38|T|Wildtusk|N|Kill Wildtusk.|
-K King K'tal|ACTIVE|47706|QO|1|M|69.88,22.79|T|King K'tal|N|Kill K'tal and loot his skull. This is a group quest so you may need help.|
+K King K'tal|ACTIVE|47706|QO|1|M|69.88,22.79|T|King K'tal|US|N|Kill K'tal and loot his skull.This is a group quest so you may need help.|
 C A Thorn in the Side|QID|47584|M|68.32,21.65|US|N|Finish your quota of Ankylodons.|
 C Die, Die, Diemetradon|QID|47583|M|67.85,24.11|US|N|Finish your quota of Venomous Diemetradons.|
 T Die, Die, Diemetradon|QID|47583|M|67.49,18.89|N|To Tracker Burke's Hat.|
@@ -320,8 +321,8 @@ T Predatory|QID|47585|M|67.50,17.62|N|To Huntmaster Vol'ka.|
 A Hunting the Hunter|QID|47586|M|67.50,17.62|N|From Huntmaster Vol'ka.|RANK|2|PRE|50466&47583&47584&47585|
 T Hunt for King K'tal|QID|47706|M|67.50,17.62|N|To Huntmaster Vol'ka.|
 T He's Gone Mad!|QID|50466|M|67.50,17.62|N|To Huntmaster Vol'ka.|
-f Nesingwary's Trek|ACTIVE|47586|M|66.18,17.57|N|At Lasa the Galerider.|RANK|2|
-$ Mysterious Trashpile|QID|50332|M|66.20,16.59|N|Click on the Mysterious Trashpile to attract Jani who has a quest for you.|RANK|2|
+f Nesingwary's Trek|ACTIVE|47586|M|66.18,17.57|N|At Lasa the Galerider.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|2|
+$ Mysterious Trashpile|QID|50332|M|66.20,16.59|N|Click on the Mysterious Trashpile to attract Jani who has a quest for you.|RANK|2|BUFF|262409|
 A Big Hunter Mon|QID|50332|M|66.20,16.59|N|From Jani.|RANK|2|
 C Big Hunter Mon|QID|50332|M|67.73,17.86|QO|1|NC|N|Nesingwary's Stores reached. Use sprint and avoid the Eyes of Yazma.|
 C Big Hunter Mon|QID|50332|M|67.46,17.71|QO|2|NC|N|Click on the box of ammo.|
