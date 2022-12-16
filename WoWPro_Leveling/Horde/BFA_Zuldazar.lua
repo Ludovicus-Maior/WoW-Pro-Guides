@@ -115,7 +115,7 @@ A Dire Situation|QID|47422|M|46.10,13.06|Z|Dazar'alor|N|From Wardruid Loti.|PRE|
 K Dregada|ACTIVE|47422|M|43.82,7.83|Z|Dazar'alor|QO|1|T|Dregada|N|Up the central stairs to find and kill Dregada.|
 T Dire Situation|QID|47422|M|42.29,9.12|Z|Dazar'alor|N|To Wardruid Loti.|
 A Picking a Side|QID|47438|M|42.29,9.12|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47422|
-C Picking a Side|QID|47438|M|42.63,9.26|Z|Dazar'alor|NC|N|Gonk has totems that (while in range) give faster run speed. Pa'ka has totems that allow you to temporarily fly bypassing some of the endless stairs in the city. Pick one. (It's personal preferance -- no questing difference)|
+C Picking a Side|QID|47438|M|42.63,9.26|Z|Dazar'alor|NC|N|Gonk or Pa'ku, the choice is yours.\nGonk's totems give a 40% speed boost and Pa'ku's totems are tiny flightpaths that connect to another totem.\nOther than their mini quest chain, it only changes how you move about and not how the guide works.|
 T Picking a Side|QID|47438|M|42.31,9.09|Z|Dazar'alor|N|To Wardruid Loti.|
 A Pa'ku, Master of Winds|QID|47440|PRE|47436&47438|M|42.56,9.49|Z|Dazar'alor|N|From Hexlord Raal.|
 A Gonk, Lord of the Pack|QID|47439|PRE|47443&47438|M|42.31,9.09|Z|Dazar'alor|N|From Wardruid Loti.|
@@ -124,7 +124,7 @@ C Pa'ku, Master of Winds|QID|47440|M|71.48,49.34|QO|2|CHAT|N|Attempt to bargain 
 C Pa'ku, Master of Winds|QID|47440|M|71.06,49.16|QO|3|NC|N|Jump off the cliff.|
 T Pa'ku, Master of Winds|QID|47440|M|49.92,33.38|Z|Dazar'alor|N|To Hexlord Raal.|
 A The Bargain is Struck|QID|47432|M|49.92,33.38|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47440|
-R Flightmaster, The Great Seal|ACTIVE|47432|PRE|47440|M|49.54,32.83;49.91,39.56|CS|Z|Dazar'alor|TZ|Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster area.|
+R Flightmaster, The Great Seal|ACTIVE|47432|M|49.54,32.83;49.91,39.56|CS|Z|Dazar'alor|TZ|Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster area.|
 H The Great Seal|ACTIVE|47439|N|Use your hearthstone (or run) to return to the Great Seal.|
 A Nesingwary's Trek|QID|49768|M|52.03,41.40|Z|Dazar'alor|N|From Huntmaster Kil'ja.|RANK|2|
 F The Sliver|ACTIVE|49488|M|51.89,41.21|Z|Dazar'alor|N|At Paku'ai Rokota.|
@@ -182,7 +182,7 @@ A The Scent for a Brutosaur|QID|49814|M|64.13,35.37|N|From Witch Doctor Jangalar
 A They Say It's a Delicacy|QID|50154|M|64.13,35.37|N|From Witch Doctor Jangalar.|RANK|2|PRE|49810|
 A Aggressive Mating Strategy|QID|49801|M|64.07,35.47|N|From Cala Cruzpot.|RANK|2|PRE|49810|
 C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|NC|S|N|Collect Fragrant Rushes as you go.|
-C They Say It's a Delicacy|QID|50154|M|62.74,39.69|S|N|Kill Dimetradons and loot to collect the Partially-Digested Pods.|
+C They Say It's a Delicacy|QID|50154|M|62.74,39.69|S|N|Kill Diemetradons and loot to collect the Partially-Digested Pods.\n[color=FF0000]NOTE: [/color]Be aware of the lv 120 Lurking Diemetradons among the lower level mobs.|
 C Aggressive Mating Strategy|QID|49801|M|63.70,41.19|N|Kill the Razorwing mobs to obtain the Bile Sacs.|
 C They Say It's a Delicacy|QID|50154|M|62.74,39.69|US|N|Finish collecting the Partially-Digested Pods.|
 C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|NC|US|N|Finish collecting Fragrant Rushes as you go back.|
@@ -192,8 +192,8 @@ T The Scent for a Brutosaur|QID|49814|M|64.13,35.37|N|To Witch Doctor Jangalar.|
 A Setting the Mood|QID|50150|M|64.13,35.37|N|From Witch Doctor Jangalar.|RANK|2|PRE|49814&50154&49801|
 A Brutal Boost|QID|50074|M|64.07,35.47|N|From Cala Cruzpot.|RANK|2|PRE|49814&50154&49801|
 C Brutal Boost|QID|50074|M|63.10,37.06|QO|1|U|156475|NC|N|Administer the Aggression Formula.|
-C Setting the Mood|QID|50150|M|64.03,39.03|QO|2|NC|N|Place the Romantic Meal.|
-C Setting the Mood|QID|50150|M|64.31,38.92|QO|1|NC|N|Light the Voodoo Love Incense.|
+C Setting the Mood|QID|50150|M|64.03,39.03|QO|2|H|N|Place the Romantic Meal.|
+C Setting the Mood|QID|50150|M|64.31,38.92|QO|1|H|N|Light the Voodoo Love Incense.|
 T Brutal Boost|QID|50074|M|64.07,35.47|N|To Cala Cruzpot.|
 T Setting the Mood|QID|50150|M|64.12,35.37|N|To Witch Doctor Jangalar.|
 A Mating Season Halftime|QID|50252|M|64.12,35.38|N|From Witch Doctor Jangalar.|RANK|2|PRE|50150&50074|
@@ -201,42 +201,45 @@ C Mating Season Halftime|QID|50252|M|64.12,35.38|QO|2|CHAT|N|Speak to Jangalar|
 C Mating Season Halftime|QID|50252|M|64.07,35.47|QO|1|CHAT|N|Speak to Cala|
 T Mating Season Halftime|QID|50252|M|64.12,35.37|N|To Witch Doctor Jangalar.|
 A Give it a Little Juice|QID|50268|M|64.07,35.46|N|From Cala Cruzpot.|RANK|2|PRE|50252|
-C Give it a Little Juice|QID|50268|M|64.13,35.32|NC|N|Click on the voodoo cauldron|
+C Give it a Little Juice|QID|50268|M|64.13,35.32|H|N|Click on the voodoo cauldron|
 T Give it a Little Juice|QID|50268|M|64.07,35.46|N|To Cala Cruzpot.|
 A Size Matters|QID|49870|M|64.07,35.46|N|From Cala Cruzpot.|RANK|2|PRE|50268|
 C Size Matters|QID|49870|M|63.03,37.12|QO|1|U|156867|NC|N|Give Ben'jin the Voodoo'ed Aggression Formula.|
-C Size Matters|QID|49870|M|63.87,41.89|QO|2|NC|N|Travel to Gloomtail's Cave.|
-C Size Matters|QID|49870|M|64.61,42.16|QO|3|N|Take out the adds while Ben'jin softens up Gloomtail for an easier fight. Once you attack Gloomtail, he forgets all about Ben'jin and focuses on you. Finish off Gloomtail and loot his head.|
+R Gloomtail's Cave|QID|49870|M|63.87,41.89|QO|2|N|Travel to Gloomtail's Cave.|
+C Size Matters|QID|49870|M|64.96,42.07|QO|3|N|Take out the adds while Ben'jin softens up Gloomtail for an easier fight. Once you attack Gloomtail, he forgets all about Ben'jin and focuses on you. Finish off Gloomtail and loot his head.|
 T Size Matters|QID|49870|M|64.12,35.37|N|To Witch Doctor Jangalar.|
 A The Head of Her Enemy|QID|50297|M|64.12,35.37|N|From Witch Doctor Jangalar.|RANK|2|PRE|49870|
-C The Head of Her Enemy|QID|50297|M|64.15,38.82|QO|1|NC|N|Follow Jangalar and Cala to Maka'fon.|
-C The Head of Her Enemy|QID|50297|M|64.15,38.82|QO|2|NC|N|Click on the box.|
-C The Head of Her Enemy|QID|50297|M|64.17,38.99|QO|3|NC|N|Watch them fall in love (hearts appear)|
+R The Head of Her Enemy|QID|50297|M|64.20,38.80|QO|1|N|Meet Jangalar and Cala at Maka'fon.|
+C The Head of Her Enemy|QID|50297|M|64.17,39.10|QO|2|H|N|Click on the box.|
+C The Head of Her Enemy|QID|50297|M|64.17,39.10|QO|3|NC|N|Watch them fall in love (hearts appear)|
 T The Head of Her Enemy|QID|50297|M|64.13,35.37|N|To Witch Doctor Jangalar.|
 H The Great Seal|ACTIVE|50881|M|52.09,90.14|N|Hearth or run over to The Sliver and fly back at Ripa the WInd Ripper.|
+R The Golden Throne|ACTIVE|50881&47432|M|51.36,40.95|Z|Dazar'alor|N|Use the Pa'ku Totem to the Golden Throne.|
 R The Golden Throne|ACTIVE|50881|M|74.39,72.17;68.22,59.67|Z|Hall of Croniclers!Dazar'alor|CS|N|Up the Elevator to the Golden Throne.|
 T Royal Report|QID|50881|M|50.02,46.55|Z|Dazar'alor|N|To Habutu.|
 T False Prophecies|QID|49663|M|49.92,46.66|Z|Dazar'alor|N|To King Rastakhan.|
+T The Bargain is Struck|QID|47432|M|49.92,46.66|Z|Dazar'alor|N|To King Rastakhan.|
+A A Port in Peril|QID|49122|M|49.92,46.66|Z|Dazar'alor|N|From King Rastakhan.|PRE|50881|
 A The Missing Handler|QID|50538|M|67.17,71.58|Z|Hall of Croniclers!Dazar'alor|N|Back down the elevator, from Natal'hakata.|RANK|2|PRE|50881|LEAD|47226|
 F Port of Zandalar|ACTIVE|50538|M|51.92,41.21|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|
-R The Slough|ACTIVE|50538|M|83,72.87;56.10,71.77|Z|Dazar'alor|CS|N|Run up the stairs and turn right on the Terrace of the Speakers and circle around the outside edge of Dazar'alor.|
+R Slough|ACTIVE|50538|M|50.54,73.74;60.69,64.51|Z|Dazar'alor|CS|N|Head up the stairs into the Terrace of the Speakers and turn right at the second landing. Continue climbing stairs until you reach the arch.| ; Name changed to prevent auto-complete during flight - Hendo72
+$ Mysterious Trashpile|AVAILABLE|50381|M|61.91,46.89|N|Click on the Mysterious Trashpile to summon Jani.|RANK|2|BUFF|262563|
+A The Great Hat Robbery|QID|50381|M|61.91,46.89|N|From Jani.|RANK|2|
+C The Great Hat Robbery|QID|50381|QO|1|M|62.53,48.52;64.49,43.38|CS|N|After Jani gives you a disguise, locate the Caravan Brutosaur traveling along the road and click on it to 'bite' it.\nUse the Sprint (1) to get away if it tries to stomp you.\nBite him 3 times.\n[color=FF0000]NOTE: [/color]If you get stomped, you'll be ported back to the Trashpile.|
+C The Great Hat Robbery|QID|50381|QO|2|M|62.91,47.30|H|N|After the third bite, Tik'su will dismount. Click on him to steal his hat.|
+R The Great Hat Robbery|ACTIVE|50381|QO|3|M|61.91,46.89|N|Run back to Jani with the hat.|
+T The Great Hat Robbery|QID|50381|M|61.91,46.89|N|To Jani.\n[color=FF0000]NOTE: [/color]It takes a moment for him to appear.|
 $ Strange Egg|QID|50508|M|61.90,46.22|RARE|ITEM|162613|T|Vukuba|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a Silver Elite to kill for azerite power and resources.|RANK|3|
-$ Mysterious Trashpile|QID|50381|M|61.93,46.95|N|Click on the mysterious trashpile to attract Jani who has a quest for you.|RANK|3|
-A The Great Hat Robbery|QID|50381|M|61.93,46.95|N|From Jani.|RANK|2|
-C The Great Hat Robbery|QID|50381|QO|1|M|61.93,46.95|NC|N|Ask Jani for a disguise than run out and click on the brutasaur caravaner that wonders up and down the road. Do this 3 times. If you get stomped, you can ask Jani for a new disguise.|
-C The Great Hat Robbery|QID|50381|QO|2|M|62.91,47.30|NC|N|After the third bite, Tik'su will dismount. Click on him to steal his hat.|
-C The Great Hat Robbery|QID|50381|QO|3|M|61.93,46.95|NC|N|Run back to Jani with the hat.|
-T The Great Hat Robbery|QID|50381|M|61.93,46.95|N|To Jani.|
 T The Missing Handler|QID|50538|M|64.25,44.58|N|To Handler Bazkoji.|LEAD|47226|
 A The Orphaned Hatchling|QID|47226|M|64.33,44.69|N|From Direhorn Hatchling.|RANK|2|
-f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|N|At Paku'ai Verraki.|
+f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|N|At Paku'ai Verraki, on top of the hill.|
 T The Orphaned Hatchling|QID|47226|M|66.80,42.51|N|To Beastlord L'kala.|
 A Direhorn Daycare|QID|47259|M|66.80,42.51|N|From Beastlord L'kala.|RANK|2|PRE|47226|
 A Ravenous Landsharks|QID|48527|M|66.80,42.51|N|From Beastlord L'kala.|RANK|2|PRE|47226|
 C Ravenous Landsharks|QID|48527|M|68.81,48.09|S|N|Kill Irritable Diemetradons as you go.|
-C Direhorn Daycare|QID|47259|M|69.10,44.91|S|NC|N|Click on the soothing lilybud bushes to feed your Direhorn Hatchling as you go.|
+C Direhorn Daycare|QID|47259|M|69.10,44.91|S|H|N|Click on the soothing lilybud bushes to feed your Direhorn Hatchling as you go.|
 K Kandak|QID|48543|M|68.66,48.72|QO|1|RARE|ITEM|160984|T|Kandak|N|Silver Elite to kill for azerite power and resources.|RANK|2|
-C Direhorn Daycare|QID|47259|M|69.10,44.91|US|NC|N|Finish satiating your hatchling.|
+C Direhorn Daycare|QID|47259|M|69.10,44.91|US|H|N|Finish satiating your hatchling.|
 C Ravenous Landsharks|QID|48527|M|68.81,48.09|US|N|Finish your quota of Irritable Diemetradons.|
 T Direhorn Daycare|QID|47259|M|66.81,42.51|N|To Beastlord L'kala.|
 T Ravenous Landsharks|QID|48527|M|66.81,42.51|N|To Beastlord L'kala.|
@@ -248,7 +251,7 @@ C Headbutting 101|QID|47311|M|70.42,40.31|S|N|Use the Extra Action button to com
 C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|S|NC|N|Pick up the Steaming Fresh Carrion from the ground as you go.|
 C Queenfeather|QID|47312|M|71.37,40.69|N|Kill Queenfeather and loot her Plume.|
 K Ravasaurs|QID|50311^50308|M|71.69,41.28|L|156963|N|Keep looting the ravasaur mobs until you pick up a "Golden Ravasaur Egg."|RANK|2|
-$ Mysterious Trashpile|QID|50311^50308|M|71.69,41.28|ITEM|156963|N|Click on the trashpile to attract Jani. when he arrives offer to give him the shiny. He leaves a treasure for you in exchange.|RANK|2|
+$ Mysterious Trashpile|QID|50311^50308|M|71.69,41.28|CHAT|N|Click on the Trashpile to summon Jani. Offer to give Jani the Golden Egg and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|RANK|2|BUFF|262169|
 C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|US|NC|N|Finish collecting the Steaming Fresh Carrion.|
 C Headbutting 101|QID|47311|M|70.42,40.31|US|N|Command your Hatchling to fight|
 T Queenfeather|QID|47312|M|69.01,40.71|N|To Wingrider Nivek.|
@@ -282,7 +285,7 @@ T A Good Spanking|QID|48581|M|66.81,42.51|N|To Beastlord L'kala.|
 A Naptime|QID|47310|M|66.81,42.51|N|From Beastlord L'kala.|RANK|2|PRE|48581|
 C Naptime|QID|47310|M|68.29,42.05|NC|N|Click on the gates to send your Juvenile Direhorn into the "stable"|
 T Naptime|QID|47310|M|66.79,42.50|N|To Beastlord L'kala.|
-N Pet Opportunity|QID|47260|N|After you are lvl 120, you will get a letter inviting you back and in 3 more quests you will have your new pet.|PRE|47310|
+N Pet Opportunity|QID|47260|N|After you are lvl 50, you will get a letter inviting you back and in 3 more quests you will have your new pet.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|PRE|47310| ; Level may be different - Hendo72
 A Side Effects May Include...|QID|47260|M|68.14,41.81|N|From Direhorn Juvinile where you left him taking a nap.|PRE|47310|
 T Side Effects May Include...|QID|47260|M|66.81,42.56|N|To Beastlord L'kala.|
 A Alchemy is an Inexact Science|QID|52855|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|47260|
@@ -337,7 +340,7 @@ A Headhunter Jo|QID|47587|M|63.49,16.16|N|From Hemet Nesingwary.|RANK|2|PRE|4758
 C Headhunter Jo|QID|47587|M|63.03,15.89|N|Kill Headhunter Jo.|
 T Headhunter Jo|QID|47587|M|63.50,16.14|N|To Hemet Nesingwary.|
 K Feathered Viper|QID|50431|M|62.73,20.58|L|157794|N|Kill the feathered vipers in the area until you get a "Feathered Viper Scale" and hear Jani's guttural voice.|RANK|3|
-$ Mysterious Trashpile|QID|50431|M|62.73,20.58|ITEM|157794|N|Click on the trashpile to attract Jani. Give him the Shiny and he will give a treasure in return.|RANK|3|
+$ Mysterious Trashpile|QID|50431|M|62.73,20.58|ITEM|157794|N|Click on the trashpile to attract Jani. Give him the Shiny and he will give a treasure in return.|RANK|3|BUFF|262933|
 C Trouble in the Rootway|QID|50178|M|62.87,19.95|US|N|Finish the Bonus Objective or move on.|
 T Trouble in the Rootway|QID|50178|M|62.87,19.95|N|Bonus Objective - Autocompleted.|
 A WANTED: Darkspeaker Jo'la|QID|51069|M|63.740,10.18|N|From Wanted Poster.|RANK|3|
@@ -354,7 +357,6 @@ T Gonk, Lord of the Pack|QID|47439|M|49.89,33.34|Z|Dazar'alor|N|To Wardruid Loti
 A The Bargain is Struck|QID|48897|M|49.89,33.34|Z|Dazar'alor|N|To Wardruid Loti.|PRE|47439|
 R The Golden Throne|ACTIVE|48897|M|49.92,46.66|Z|Dazar'alor|N|Run up to see King Rastakhan.|
 T The Bargain is Struck|QID|47432^48897|M|49.92,46.66|Z|Dazar'alor|N|To King Rastakhan.|
-A A Port in Peril|QID|49122|M|49.92,46.66|Z|Dazar'alor|N|From King Rastakhan.|PRE|50881|
 F Warport Rastari|ACTIVE|49122|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|TAXI|Warport Rastari|RANK|-1|
 ; If you used your BOA map of all FPs, skip these
 F Port of Zandalar|ACTIVE|49122|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|TAXI|-Warport Rastari|
