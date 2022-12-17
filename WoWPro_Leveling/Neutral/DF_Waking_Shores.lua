@@ -6,6 +6,18 @@ WoWPro:GuideNextGuide(guide, 'Ohnahran_Plains')
 WoWPro:GuideSteps(guide, function()
 return [[
 
+
+;Needs to be added into guide. HERNIAOG
+
+;A Crabtender's Quandry|QID|66612|M|59.6,51.2|Z|2022|N|From Crabtender Kad'irsza|RANK|3|
+;A Gills with Gall|QID|71141|M|59.6,51.2|Z|2022|N|From Ru'kroszk|RANK|3|
+;C Crabtender's Quandry|QID|66612|M|59.8,48.5|N|Kill Cliffdrip Murlocs in the area.|QO|1|S|
+;C Gills with Gall|QID|71141|M|58.4,46.6|N|Kill Gurblbrblr the Invader.\n\nHe is at the back of the cave.|T|Gurblbrblr the Invader|
+;C Crabtender's Quandry|QID|66612|M|59.8,48.5|N|Kill Cliffdrip Murlocs in the area.|QO|1|US|
+;T Crabtender's Quandry|QID|66612|M|59.6,51.2|Z|2022|N|To Crabtender Kad'irsza|
+;T Gills with Gall|QID|71141|M|59.6,51.2|Z|2022|N|To Ru'kroszk|
+
+
 T The Waking Shores|QID|72266|M|76.57,33.66|Z|2022|N|To Sendrax.|
 A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|
 
@@ -444,6 +456,15 @@ T King Without a Crown|QID|66528|M|39.08,83.27|Z|2022|N|To Dervishian.|
 A A Thousand Words|QID|66529|PRE|66528|M|39.08,83.27|Z|2022|N|From Dervishian.|RANK|2|
 C A Thousand Words|QID|66529|M|38.75,83.61|Z|2022|NC|U|192465|N|Photograph Dervishian near the Proto-Dragon Skeleton.|
 T A Thousand Words|QID|66529|M|38.72,83.69|Z|2022|N|To Dervishian.|
+T This Calls for a Specialist|QID|70849|M|38.90,83.30|Z|2022|N|To Haniko.|
+A Born to Be Wilder|QID|70851|PRE|70849|M|38.90,83.30|Z|2022|N|From Haniko.|
+C Born to Be Wilder|QID|70851|M|38.90,83.30|Z|2022|CHAT|N|Ask Haniko how you get Lubbins a buddy.|
+T Born to Be Wilder|QID|70851|M|38.90,83.30|Z|2022|N|To Haniko.|
+A A Friend for Lubbins|QID|70853|PRE|70851|M|38.90,83.30|Z|2022|N|From Haniko.|
+C A Friend for Lubbins|QID|70853|M|39.34,85.73|Z|2022|N|Go capture a Shyfly, they are all around the area.|T|Shyfly|
+T A Friend for Lubbins|QID|70853|M|38.90,83.30|Z|2022|N|To Haniko.|
+A So How Did It Go?|QID|70854|PRE|70853|M|38.90,83.30|Z|2022|N|From Haniko.|
+
 R Apex Canopy|ACTIVE|69897|M|26.70,83.70|Z|2022|N|Running here just to get the flight point and explore credit.|RANK|3|
 f Apex Observatory|ACTIVE|69897|M|23.79,83.15|Z|2022|N|At Hjorik.|RANK|3|
 C Scientific Meat-thod|QID|69898|M|47.68,77.68|Z|2022|N|Kill the Riverbeast's to collect some meat.|US|
