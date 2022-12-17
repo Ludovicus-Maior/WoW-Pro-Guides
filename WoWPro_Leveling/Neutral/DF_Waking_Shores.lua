@@ -444,6 +444,15 @@ T King Without a Crown|QID|66528|M|39.08,83.27|Z|2022|N|To Dervishian.|
 A A Thousand Words|QID|66529|PRE|66528|M|39.08,83.27|Z|2022|N|From Dervishian.|RANK|2|
 C A Thousand Words|QID|66529|M|38.75,83.61|Z|2022|NC|U|192465|N|Photograph Dervishian near the Proto-Dragon Skeleton.|
 T A Thousand Words|QID|66529|M|38.72,83.69|Z|2022|N|To Dervishian.|
+T This Calls for a Specialist|QID|70849|M|38.90,83.30|Z|2022|N|To Haniko.|
+A Born to Be Wilder|QID|70851|PRE|70849|M|38.90,83.30|Z|2022|N|From Haniko.|
+C Born to Be Wilder|QID|70851|M|38.90,83.30|Z|2022|CHAT|N|Ask Haniko how you get Lubbins a buddy.|
+T Born to Be Wilder|QID|70851|M|38.90,83.30|Z|2022|N|To Haniko.|
+A A Friend for Lubbins|QID|70853|PRE|70851|M|38.90,83.30|Z|2022|N|From Haniko.|
+C A Friend for Lubbins|QID|70853|M|39.34,85.73|Z|2022|N|Go capture a Shyfly, they are all around the area.|T|Shyfly|
+T A Friend for Lubbins|QID|70853|M|38.90,83.30|Z|2022|N|To Haniko.|
+A So How Did It Go?|QID|70854|PRE|70853|M|38.90,83.30|Z|2022|N|From Haniko.|
+
 R Apex Canopy|ACTIVE|69897|M|26.70,83.70|Z|2022|N|Running here just to get the flight point and explore credit.|RANK|3|
 f Apex Observatory|ACTIVE|69897|M|23.79,83.15|Z|2022|N|At Hjorik.|RANK|3|
 C Scientific Meat-thod|QID|69898|M|47.68,77.68|Z|2022|N|Kill the Riverbeast's to collect some meat.|US|
