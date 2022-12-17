@@ -6,6 +6,18 @@ WoWPro:GuideNextGuide(guide, 'Ohnahran_Plains')
 WoWPro:GuideSteps(guide, function()
 return [[
 
+
+;Needs to be added into guide. HERNIAOG
+
+;A Crabtender's Quandry|QID|66612|M|59.6,51.2|Z|2022|N|From Crabtender Kad'irsza|RANK|3|
+;A Gills with Gall|QID|71141|M|59.6,51.2|Z|2022|N|From Ru'kroszk|RANK|3|
+;C Crabtender's Quandry|QID|66612|M|59.8,48.5|N|Kill Cliffdrip Murlocs in the area.|QO|1|S|
+;C Gills with Gall|QID|71141|M|58.4,46.6|N|Kill Gurblbrblr the Invader.\n\nHe is at the back of the cave.|T|Gurblbrblr the Invader|
+;C Crabtender's Quandry|QID|66612|M|59.8,48.5|N|Kill Cliffdrip Murlocs in the area.|QO|1|US|
+;T Crabtender's Quandry|QID|66612|M|59.6,51.2|Z|2022|N|To Crabtender Kad'irsza|
+;T Gills with Gall|QID|71141|M|59.6,51.2|Z|2022|N|To Ru'kroszk|
+
+
 T The Waking Shores|QID|72266|M|76.57,33.66|Z|2022|N|To Sendrax.|
 A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|
 
