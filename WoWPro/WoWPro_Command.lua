@@ -83,13 +83,21 @@ local function handler(msg, editbox)
         _G.ChatFrame1:AddMessage("Global taint log in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua")
     elseif ltoken == "buffs" then
         for i=1,40 do
-            local name, _, _, _, _, _, _, _, _, spellId = _G.UnitAura("player", i, nil)
+            local name, _, _, _, _, _, _, _, _, spellId = _G.UnitAura("player", i, "HELPFUL")
+            if name then
+                local text = ("|r#%d |cFF8080FFName: |cFFFF8080%q, |cFF8080FFspellId: |cFF8080FF%d"):format(i, name, spellId)
+                _G.ChatFrame1:AddMessage(text)
+            end
+        end
+        _G.ChatFrame1:AddMessage("|rEnd_of_Buffs")
+        for i=1,40 do
+            local name, _, _, _, _, _, _, _, _, spellId = _G.UnitAura("player", i, "HARMFUL")
             if name then
                 local text = ("|r#%d |cFF8080FFName: |cFFFF8080%q, |cFF8080FFspellId: |cFFFF8080%d"):format(i, name, spellId)
                 _G.ChatFrame1:AddMessage(text)
             end
         end
-        _G.ChatFrame1:AddMessage("|rEnd_of_Buffs")
+        _G.ChatFrame1:AddMessage("|rEnd_of_DeBuffs")
     elseif ltoken == "api_probe" then
         WoWProDB.global.Blizz = {}
         for key in pairs(_G) do

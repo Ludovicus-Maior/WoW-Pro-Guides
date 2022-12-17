@@ -1,3 +1,27 @@
+# Release 2022.12.15.A
+## Bug Fixes
+* Incomplete fix to moving window issue
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* Horde Leveling: Zuldazar
+* Leveling: Azure Span, DF Campaign, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, SL Maw Intro
+* Achievements: Dragon Riding Glyphs guides updated
+
+### Classic
+* No Classic guides were harmed during this release
+
+### WotLK
+* Horde: Horde Chapter 3 (41-51)
+
+### Professions
+* No Professions guides were harmed during this release
+
+
 # Release 2022.12.07.A
 ## Bug Fixes
 * NOAUTO accept was not working on GOSSIP NPCs
@@ -148,7 +172,7 @@
 
 
 ## Guide Updates
-### Retail 
+### Retail
 * The last DF patch forced us to update EVERY retail guide, so I'm not going to guess on the scope
 * WorldEvents: WoWAnniversary touchup
 
@@ -174,7 +198,7 @@
 
 
 ## Guide Updates
-### Retail 
+### Retail
 * Achievements: Tortollan
 * Alliance: Terrokkar, Jade Forest
 * Horde: Terrokkar
@@ -357,7 +381,7 @@ Alliance: Hallows End update
 * Nothing
 
 ### Burning Crusade Classic Leveling
-* Alliance: Draenai Intro, Human Intro, Nelf Intro, Eastern Kingdom 10-19, 
+* Alliance: Draenai Intro, Human Intro, Nelf Intro, Eastern Kingdom 10-19,
 * Horde: Hellfire Peninsula, Barrens 12-22, HordeChapter1 HordeChapter3, Azshara 51-53, Ungoro Crater 51-53, Burning Steppes 53-54, Felwood 54-55, Winterspring 54-55
 
 ### WotLK
@@ -779,7 +803,7 @@ BCC: Midsummer (Alliance)
 * Neutral: Pandaren Intro
 ### Classic
 * Alliance: Dun Morogh, Elwynn, Teldrassil, Darkshore, Eastern_Kingdom (12-20), Deadmines, Alliance(19-60), Uldaman, Zul Farrak, Blackrock Depths
-* Horde: Hendo (Durotar, Silverpine Forest, The Barrens, HordeChapter1, HordeChapter2), Jame (21-30) 
+* Horde: Hendo (Durotar, Silverpine Forest, The Barrens, HordeChapter1, HordeChapter2), Jame (21-30)
 ### Burning Crusade Classic
 * 59 guides were updated.  Too many to list out!
 
@@ -811,7 +835,7 @@ BCC: Midsummer (Alliance)
 * Leveling Alliance: N/A
 * Leveling Horde: Exiles Reach, Jade Forest, Twilight Highlands
 * Leveling Neutral: BlackEmpire Outro, Demon Hunter Order Hall, Druid Order Hall, Demon Hunter Intro
-* Leveling Shadowlands: Covenant 
+* Leveling Shadowlands: Covenant
 * Professions: Nearly every guide received some sort of update/tweak/bugfix.
 ### Classic
 * Classic guides more streamlined/merged and trimmed some of junk guides that were left behind.
@@ -1047,7 +1071,7 @@ BCC: Midsummer (Alliance)
 
 # Release A3/C3
 ### Bug Fixes:
-* Fixed bug that caused guides to endlessly load when in a group with another wowpro user.  
+* Fixed bug that caused guides to endlessly load when in a group with another wowpro user.
 * Objective Formatting fixes
 * Few minor bug fixes to prevent errors.
 
