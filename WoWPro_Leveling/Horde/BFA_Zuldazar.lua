@@ -594,13 +594,13 @@ A The Wreckoning|QID|51246|M|76.61,48.54|N|From Lieutenant Dennis Grimtale.|RANK
 A The Things They Carried|QID|51247|M|76.61,48.54|N|From Lieutenant Dennis Grimtale.|RANK|2|
 A Productive Pests|QID|51248|M|76.43,48.72|N|From Teekay Treadlebobbin.|RANK|2|
 A Crabulous Feast|QID|51249|M|76.38,48.74|N|From J'eebi.|RANK|2|
-C Productive Pests|QID|51248|M|74.44,51.45|S|NC|N|Collect Mosquitos and Sand Borers by clicking on them as you go.|
+C Productive Pests|QID|51248|M|74.44,51.45|S|H|N|Collect Mosquitos and Sand Borers by clicking on them as you go.|
 C Crabulous Feast|QID|51249|M|74.45,51.11|S|N|Kill and loot the Derelict Hexapods as you go.|
 C The Wreckoning|QID|51246|M|74.92,51.07|S|N|Kill 7th Legion Sailors as you go.|
 K Sailer Jaseon|ACTIVE|51247|M|76.67,50.99|QO|2|T|Sailer Jaseon|N|Kill Sailer Jaseon to loot the scouting map.|RANK|2|
 K Medic Hunt|ACTIVE|51247|M|76.46,52.68|QO|1|T|Medic Hunt|N|Kill Medic Hunt and loot the Unsent Letter.|RANK|2|
 K Sergeant Wayne|ACTIVE|51247|M|74.54,51.73|QO|3|T|Sergeant Wayne|N|Sergeant Wayne to loot the Ship's Manifest.|RANK|2|
-C Productive Pests|QID|51248|M|74.44,51.45|US|NC|N|Finish collecting Mosquitos and Sand Borers by clicking on them.|
+C Productive Pests|QID|51248|M|74.44,51.45|US|H|N|Finish collecting Mosquitos and Sand Borers by clicking on them.|
 C Crabulous Feast|QID|51249|M|74.45,51.11|US|N|Finish collecting the crab meat.|
 C The Wreckoning|QID|51246|M|74.92,51.07|US|N|Fulfill your quota of 7th Legion Sailors.|
 T Crabulous Feast|QID|51249|M|76.38,48.74|N|To J'eebi.|
@@ -609,7 +609,7 @@ T The Wreckoning|QID|51246|M|76.61,48.52|N|To Lieutenant Dennis Grimtale.|
 T The Things They Carried|QID|51247|M|76.61,48.52|N|To Lieutenant Dennis Grimtale.|
 A Stop the Evacuation|QID|51286|M|76.61,48.52|N|From Lieutenant Dennis Grimtale.|RANK|2|
 K Captain Sarai Naut|ACTIVE|51286|M|80.16,57.05|QO|2|T|Captain Sarai Naut|N|Kill Captain Sarai Naut.|
-C Stop the Evacuation|QID|51286|M|80.16,57.05|QO|1|NC|N|Place Seaforium Bomb in the rowboat.|
+C Stop the Evacuation|QID|51286|M|80.16,57.05|QO|1|H|N|Place Seaforium Bomb in the rowboat.|
 T Stop the Evacuation|QID|51286|M|76.61,48.52|N|To Lieutenant Dennis Grimtale.|
 R Atal'Gral|ACTIVE|51101|M|82.44,46.83|N|Run back to the beach to catch a boat ride to Zeb'ahari.|RANK|2|
 b Zeb'ahari|ACTIVE|51101|M|82.44,46.83|N|Ask Wavesinger Rekan for a ride on his boat.|RANK|-1|TAXI|-Zeb'ahari|
@@ -624,12 +624,12 @@ T In Bwonsamdi's Shadow|QID|51680|M|76.45,16.16|N|To Jol the Ancient.|
 A Ancient Tortollan Remedies|QID|47735|M|76.45,16.16|N|From Jol the Ancient.|PRE|51680|
 A The Scent of Vengeance|QID|47739|M|76.47,15.99|N|From Jamil Abul'housin.|PRE|51680|
 A No Safe Haven|QID|50235|M|76.69,16.27|N|From Zolani.|PRE|51680|
-C No Safe Haven|QID|50235|M|79.50,16.30|S|NC|N|Click on the Zeb'ahari villagers to rescue them as you go.|
+C No Safe Haven|QID|50235|M|79.50,16.30|S|H|N|Click on the Zeb'ahari villagers to rescue them as you go.|
 C The Scent of Vengeance|QID|47739|M|79.78,16.52|S|N|Kill traitor's and collect their blood as you go.|
-C Ancient Tortollan Remedies|QID|47735|M|78.63,13.22|QO|2|NC|N|Click on the Brutosaur to (gently) extract a scale.|
-C Ancient Tortollan Remedies|QID|47735|M|79.78,16.52|QO|1|NC|N|Click on the Spiney Puffer.|
-A The Loa-Speaker's Betrayal|QID|47733|M|79.37,16.78|N|From Zeb'ahari Villager.|
-C No Safe Haven|QID|50235|M|79.50,16.30|NC|N|Click on the Zeb'ahari villagers to rescue them as you go.|
+C Ancient Tortollan Remedies|QID|47735|M|78.60,13.13|QO|2|H|N|Click on the Brutosaur to (gently) extract a scale.|
+C Ancient Tortollan Remedies|QID|47735|M|79.78,16.52|QO|1|H|N|Click on the Spiney Puffer.|
+A The Loa-Speaker's Betrayal|QID|47733|M|79.35,16.78|N|From Zeb'ahari Villager.|
+C No Safe Haven|QID|50235|M|79.50,16.30|H|N|Click on the Zeb'ahari villagers to rescue them as you go.|
 K Ol'Bubbly|ACTIVE|47735|M|79.54,21.67|QO|3|T|Ol'Bubbly|N|Kill ol'Bubbly to loot the Aged Crab Foam.|
 K Loa-Speaker Kihara|ACTIVE|47733|M|78.54,20.29|QO|1|T|Loa-Speaker Kihara|N|Kill Loa-Speaker Kihara.|
 C The Scent of Vengeance|QID|47739|M|79.78,16.52|US|N|Finish collecting the traitor's blood.|
