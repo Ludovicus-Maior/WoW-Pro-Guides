@@ -34,13 +34,13 @@ T The Reason for the Season|QID|7062|M|77.52,11.83|Z|Ironforge|N|To Historian Ka
 A The Feast of Winter Veil|QID|7063|PRE|7062|M|77.52,11.83|Z|Ironforge|N|From Historian Karnik, in the Hall of Explorers.|
 T The Feast of Winter Veil|QID|7063|M|39.18,56.10|Z|Ironforge|N|To Muradin Bronzebeard, in the room of thrones.|
 
-N Free Metzen|QID|7043|LVL|80|N|This new pair of daily quests are only for level 80 and above.|
-A You're a Mean One...|QID|7043|LVL|80|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket.|
-K The Abominable Greench|QID|7043|LVL|80|M|45.26,40.32|Z|Hillsbrad Foothills|N|Go to Growless Cave in the Foothills. Loot the Treats from the bags (fast) and talk to Metzen (fast) to complete if you were not around for the kill.  Yes, if you get there at the right time, you can complete the quest!|
-N Snowballs near Greench|ACTIVE|6983|LVL|80|N|BTW, pick up some snowballs from the mounds around the cave.|
-T You're a Mean One...|QID|7043|LVL|80|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket.|
-A A Smokywood Pastures' Thank You!|QID|7045|PRE|7043|LVL|80|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket.|
-T A Smokywood Pastures' Thank You!|QID|7045|LVL|80|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
+N Free Metzen|QID|7043|LVL|30|N|This new pair of daily quests are only for level 30 and above.|
+A You're a Mean One...|QID|7043|LVL|30|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket.|
+K The Abominable Greench|QID|7043|M|45.26,40.32|Z|Hillsbrad Foothills|N|Go to Growless Cave in the Foothills. Loot the Treats from the bags (fast) and talk to Metzen (fast) to complete if you were not around for the kill.  Yes, if you get there at the right time, you can complete the quest!|
+N Snowballs near Greench|ACTIVE|6983|N|BTW, pick up some snowballs from the mounds around the cave. If there are no snow mounds, manually check off this step.|
+T You're a Mean One...|QID|7043|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket.|
+A A Smokywood Pastures' Thank You!|QID|7045|PRE|7043|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket.|
+T A Smokywood Pastures' Thank You!|QID|7045|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
 
 N Time to wait, again!|QID|8827|N|Wait till Dec 25th.|
 b Ironforge|QID|8767|N|Go see Greatfather Winter in Ironforge|
@@ -49,7 +49,7 @@ T Winter's Presents|QID|8827|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
 
 A A Gently Shaken Gift|QID|8767^8788|M|33.48,65.54|Z|Ironforge|N|Your first gift!|
 A A Carefully Wrapped Present|QID|8744|M|33.84,65.75|Z|Ironforge|N|Your second gift!|
-A A Festive Gift|QID|8803|LVL|10|M|33.87,65.93|Z|Ironforge|N|Your third gift!|
+A A Festive Gift|QID|8303|LVL|10|M|33.87,65.93|Z|Ironforge|N|Your third gift!|
 ; A A Winter Veil Gift|QID|11528^13203^13966^28878^29385^32106|LVL|10|M|33.64,65.63|Z|Ironforge|N|Your fourth gift!|
 A A Gaily Wrapped Present|QID|8768|LVL|20|M|33.76,66.31|Z|Ironforge|N|Your fifth gift!|
 A A Ticking Present|QID|8769|LVL|40|M|33.84,66.66|Z|Ironforge|N|Your sixth gift!|
