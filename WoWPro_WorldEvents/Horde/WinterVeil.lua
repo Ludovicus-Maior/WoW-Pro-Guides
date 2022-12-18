@@ -33,13 +33,13 @@ T The Reason for the Season|QID|6964|M|39.54,47.33|Z|Orgrimmar|N|To Sagorne Cres
 A The Feast of Winter Veil|QID|7061|PRE|6964|M|39.54,47.33|Z|Orgrimmar|N|From Sagorne Creststrider, in the Valley of Wisdom.|
 T The Feast of Winter Veil|QID|7061|M|60.29,51.66|Z|Thunder Bluff|N|To Baine Bloodhoof, Thunder Bluff|
 
-N Free Metzen|QID|6983|LVL|80|N|This new pair of daily quests are only for level 80 and above.|
-A You're a Mean One...|QID|6983|LVL|80|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
-K The Abominable Greench|QID|6983|LVL|80|M|45.26,40.32|Z|Hillsbrad Foothills|N|Go to Growless Cave in the Foothills. Loot the Treats from the bags (fast) and talk to Metzen (fast) to complete if you were not around for the kill.  Yes, if you get there at the right time, you can complete the quest!|
-N Snowballs near Greench|ACTIVE|6983|LVL|80|N|BTW, pick up some snowballs from the mounds around the cave.|
-T You're a Mean One...|QID|6983|LVL|80|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
-A A Smokywood Pastures' Thank You!|QID|6984|PRE|6983|LVL|80|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
-T A Smokywood Pastures' Thank You!|QID|6984|LVL|80|M|49.61,77.98|Z|Orgrimmar|N|To Great-father Winter.|
+N Free Metzen|QID|6983|LVL|30|N|This new pair of daily quests are only for level 30 and above.|
+A You're a Mean One...|QID|6983|LVL|30|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
+K The Abominable Greench|QID|6983|LVL|30|M|45.26,40.32|Z|Hillsbrad Foothills|N|Go to Growless Cave in the Hillsbrad Foothills. Loot the Treats from the bags (fast) and talk to Metzen (fast) to complete if you were not around for the kill.  Yes, if you get there at the right time, you can complete the quest!|
+N Snowballs near Greench|ACTIVE|6983|LVL|30|N|BTW, pick up some snowballs from the mounds around the cave. If there are no snow mounds, manually check off this step.|
+T You're a Mean One...|QID|6983|LVL|30|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
+A A Smokywood Pastures' Thank You!|QID|6984|PRE|6983|LVL|30|M|52.55,77.04|Z|Orgrimmar|N|From Kaymard Copperpinch.|
+T A Smokywood Pastures' Thank You!|QID|6984|LVL|30|M|49.61,77.98|Z|Orgrimmar|N|To Great-father Winter.|
 
 N Time to wait|QID|8828|N|Wait till Dec 25th!|
 b Orgrimmar|QID|8744|N|Go see Great-father Winter in Orgrimmar|
