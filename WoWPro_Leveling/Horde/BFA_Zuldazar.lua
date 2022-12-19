@@ -640,27 +640,27 @@ T The Scent of Vengeance|QID|47739|M|76.47,16.00|N|To Jamil Abul'housin.|
 T Ancient Tortollan Remedies|QID|47735|M|76.44,16.17|N|To Jol the Ancient.|
 A Mending Body and Soul|QID|51677|M|76.44,16.17|N|From Jol the Ancient.|PRE|50235&47739&47735&47733|
 C Mending Body and Soul|QID|51677|M|76.44,16.17|QO|1|CHAT|N|Tell Jol you are ready.|
-C Mending Body and Soul|QID|51677|M|76.46,16.07|QO|2|NC|N|Get the thing Jol asks for, they are all in this room and light up when he asks for it.  Click on item, then click on Jol.|
+C Mending Body and Soul|QID|51677|M|76.46,16.07|QO|2|H|N|Get the thing Jol asks for, they are all in this room and light up when he asks for it.  Click on item, then click on Jol.|
 T Mending Body and Soul|QID|51677|M|76.44,16.16|N|To Jol the Ancient.|
 A The Will of the Loa|QID|47738|M|76.47,15.99|N|From Jamil Abul'housin.|PRE|51677|
 K Tambano|QID|50013|M|77.65,10.40|QO|1|T|Tambano|RARE|N|Silver Elite to kill for azerite power and resources.|RANK|2|;item dropped not on wowhead at this time
-C The Will of the Loa|QID|47738|M|77.97,12.98;76.84,13.24|CS|QO|1|NC|N|Place the Idol of Rezan|
+C The Will of the Loa|QID|47738|M|77.97,12.98;76.85,13.23|CS|QO|1|H|N|Place the Idol of Rezan.|
 C The Will of the Loa|QID|47738|M|77.12,13.23|QO|2|CHAT|N|Speak to Rezan|
-C The Will of the Loa|QID|47738|M|76.90,13.22|QO|3|NC|N|Click on Rastakhan's body, when it appears, to retreive his soul|
-C The Will of the Loa|QID|47738|M|76.45,16.09|QO|4|NC|N|Click on Rastakhan to restore his soul to his body|
+C The Will of the Loa|QID|47738|M|76.90,13.22|QO|3|H|N|Click on Rastakhan's body, when it appears, to retrieve his soul.|
+C The Will of the Loa|QID|47738|M|76.45,16.09|QO|4|H|N|Click on Rastakhan to restore his soul to his body|
 T The Will of the Loa|QID|47738|M|76.66,16.13|N|To King Rastakhan.|
 A Zul's Mutiny|QID|47742|M|76.66,16.13|N|From King Rastakhan.|PRE|47738|
 A Rastakhan's Might|QID|51678|M|76.66,16.13|N|From King Rastakhan.|PRE|47738|
 A A Strange Port of Call|QID|51679|M|76.64,16.18|N|From Zolani.|PRE|47738|
-R Rastakhan's Might|ACTIVE|51678|M|80.83,20.43|N|Run to Rastakhan's Might (ship in Harbor) and click on the ropes looped down the side to board.|
+R Rastakhan's Might|ACTIVE|51678|M|80.77,20.37|N|Swim to Rastakhan's Might (ship off shore) and click the 2 ropes hanging down the side of the boat to get on board.|
 C Zul's Mutiny|QID|47742|M|81.28,19.74|S|N|Kill the Mutinous Zandalari as you go.|
+C A Strange Port of Call|QID|51679|M|81.10,20.20;81.27,19.73|CS|QO|1|H|N|Go through the doorway into the Navigation Chamber and click on the Temple of Rezan Map on the desk in the second room.|
+R A Strange Port of Call|QID|51679|M|52.97,27.08;51.57,75.61|Z|Upper Decks!Rastakhan's Might|CS|QO|2|N|Go down the stairs and search the Hold.|
+C A Strange Port of Call|QID|51679|M|43.60,82.84;47.40,43.98|Z|Lower Decks!Rastakhan's Might|CS|QO|3|H|N|Go down the stairs into the Crew quarters and then click on Chronicler To'kini.|
 K Atal'zul Gotaka|QID|50280|M|80.93,21.66|QO|1|RARE|ITEM|161042|T|Atal'zul Gotaka|N|Silver Elite to kill for azerite power and resources.|RANK|2|
-K Windcaller Ula'jan|ACTIVE|51678|M|81.29,19.67|QO|1|N|Kill Windcaller Ula'jan located at the top of the ship.|T|Windcaller Ula'jan|
-C A Strange Port of Call|QID|51679|M|84.19,20.15;81.25,19.71|CS|QO|1|NC|N|Down the stairs to the main deck and thru the doorway to the captain's cabin. Click on the Navigation chart.|
-C A Strange Port of Call|QID|51679|M|53.04,26.40;51.67,77.87|Z|Upper Decks!Rastakhan's Might|CS|QO|2|NC|N|Go down the stairs and search the Hold.|
-C A Strange Port of Call|QID|51679|M|43.67,81.80;47.44,45.53|Z|Lower Decks!Rastakhan's Might|CS|QO|3|NC|N|Go down the stairs here to find the Crew quarters and then click on Chronicler To'kini.|
+K Windcaller Ula'jan|ACTIVE|51678|M|81.29,19.67|QO|1|N|Kill Windcaller Ula'jan located at the very top of the stairs at the stern of the boat.|T|Windcaller Ula'jan|
 C Zul's Mutiny|QID|47742|M|81.28,19.74|US|N|Finish killing the Mutinous Zandalari as you leave the ship.|
-T Zul's Mutiny|QID|47742|M|76.66,16.13|N|Up out of the ship and back to King Rastakhan, on the porch where you last saw him.|
+T Zul's Mutiny|QID|47742|M|76.66,16.13|N|Jump off the ship and head back to King Rastakhan.|
 T Rastakhan's Might|QID|51678|M|76.66,16.13|N|To King Rastakhan.|
 T A Strange Port of Call|QID|51679|M|76.66,16.13|N|To King Rastakhan.|
 A The Temple of Rezan|QID|47737|M|76.66,16.13|N|From King Rastakhan.|PRE|51679&51678&47742|
