@@ -671,12 +671,12 @@ A Heads Will Roll|QID|47736|M|72.09,21.20|N|From Zolani.|PRE|47737|
 ;A Occupation Hazard|QID|47797|M|71.97,23.88|LVL|-50|N|Bonus Objective - Autoaccepted.|
 C Occupation Hazard|QID|47797|M|71.97,23.88|S|N|Bonus Objective - Kill the zandalari infesting the temple and otherwise liberate the temple.|
 C Heads Will Roll|QID|47736|M|74.04,23.94|S|N|Kill Zandalari and loot their heads.|
-C House of the King|QID|47740|M|72.31,23.96|QO|1|NC|N|Click on the corrupting totems to cleanse Rezan the Hunter.|
-C House of the King|QID|47740|M|74.00,22.96|QO|3|NC|N|Click on the corrupting totems to cleanse Rezan the King.|
-C House of the King|QID|47740|M|73.89,25.80|QO|2|NC|N|Up one level of the terrace to find and then click the corrupting totems surrounding Rezan the Conqueror.|
+C House of the King|QID|47740|M|72.31,23.96|QO|1|H|N|Click on the corrupting totems to cleanse Rezan the Hunter.|
+C House of the King|QID|47740|M|74.00,22.96|QO|3|H|N|Click on the corrupting totems to cleanse Rezan the King.|
+C House of the King|QID|47740|M|73.89,25.80|QO|2|H|N|Up one level of the terrace to find and then click the corrupting totems surrounding Rezan the Conqueror.|
 K Golrakahn|QID|47792|M|74.10,28.48|QO|1|RARE|ITEM|161034|T|Golrakahn|N|Up one more terrace to find this Silver Elite to kill for azerite power and resources.|RANK|2|
 C Heads Will Roll|QID|47736|M|74.35,27.71|US|N|Finish collecting heads from the Traiterous Zandalari.|
-T Heads Will Roll|QID|47736|M|74.87,24.90|N|To Zolani.|
+T Heads Will Roll|QID|47736|M|74.85,24.91|N|To Zolani.|
 T House of the King|QID|47740|M|74.88,24.96|N|To King Rastakhan.|
 A Partners in Heresy|QID|47734|M|74.88,24.96|N|From King Rastakhan.|PRE|47736&47740|
 K Darkweaver Ji'tan|ACTIVE|47734|M|75.22,23.23|QO|1|T|Darkweaver Ji'tan|N|Kill Darkweaver Ji'tan.|
@@ -685,19 +685,19 @@ T Partners in Heresy|QID|47734|M|74.87,24.93|N|To King Rastakhan.|
 A To Sacrifice a Loa|QID|47741|M|74.87,24.93|N|From King Rastakhan.|PRE|47734|
 K Vilnak'dor|ACTIVE|47741|M|75.95,24.85|QO|1|T|Vilnak'dor|N|Kill Vilnak'dor.|
 C To Sacrifice a Loa|QID|47741|M|76.07,24.89|QO|2|NC|N|Disrupt the Loa Sacrifice Ritual.|
-C To Sacrifice a Loa|QID|47741|M|73.92,27.31|QO|3|CHAT|N|Tell the King it is time to go.|
-C Occupation Hazard|QID|47797|M|74.07,26.93|US|N|Finish up the bonus objective.|
+C To Sacrifice a Loa|QID|47741|M|73.92,27.31|QO|3|CHAT|N|Tell the King it is time to go and make a run for it.\n[color=FF0000]NOTE: [/color]No need to follow Rezan. He'll go when you go (for the most part).|
+C Occupation Hazard|QID|47797|M|74.07,26.93|US|N|Go back and finish up the bonus objective.|
 ;T Occupation Hazard|QID|47797|M|74.07,26.93|N|Bonus Objective - Autocompleted.|
 T To Sacrifice a Loa|QID|47741|M|70.82,29.90|N|To Rezan.|
 A King or Prey|QID|51111|M|70.98,29.90|N|From King Rastakhan.|PRE|47741|
-t The Great Sea Scrolls|QID|53476|M|71.50,30.38|N|To Collector Kojo|
+;t The Great Sea Scrolls|QID|53476|M|71.50,30.38|N|To Collector Kojo| Already have a t step at the top - Hendo72
 f Scaletrader Post|ACTIVE|51111|M|70.77,29.59|N|At Scroll of Flight.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|RANK|-1|
 H The Great Seal|ACTIVE|51111|M|70.77,29.59|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]Manually check this step off to take the flightpath at Scroll of Flight.|
 F The Great Seal|ACTIVE|51111|M|70.77,29.59|N|Take the flightpath at Scroll of Flight.|
 T Inform the Horde!|QID|51539|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|RANK|2|
 T King or Prey|QID|51111|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A Hunting Zul|QID|49421|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|
-R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|Dazar'alor|N|Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|
+R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|Dazar'alor|N|Weave your way down the stairs until you get to the bottom and cross the bridge to The Zocalo.\n[color=FF0000]NOTE: [/color]If you can handle the fall damage, drop from each tier to make this faster.|
 A The Warpack|QID|49965|M|38.93,27.13|Z|Dazar'alor|N|From King Rastakhan.|PRE|51111&49421|  ; current run through (09152020), didn't show up till I turned in 49421
 T Hunting Zul|QID|49421|M|38.93,27.13|Z|Dazar'alor|N|To King Rastakhan.|
 C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|V|N|Hop on the Saurid with Wardruid Loti (and wait for the King to finish his speech) then ride with the Warpack|
