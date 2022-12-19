@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 N Nazmir Available|AVAILABLE|47103|M|PLAYER|LVL|25|S!US|N|Now that you have reached level 25, you can now continue your journey in [color=00FF96]Nazmir[/color].\n\nYou now have access to the guide hub to help you navigate between guides.|
-N Rares (aka\nSilver Elite)|ACTIVE|47514|ACH|12944|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+N Rares (aka Silver Elite)|ACTIVE|47514|ACH|12944|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Treasure|ACTIVE|47514|ACH|12851|N|The majority of the treasure chests in Zuldazar are first come, respawning randomly.  There are a few one time treasures. If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).|
 N Use of Ranks|ACTIVE|47514|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement.\nSet guide to Rank 2 to also do the quests, treasures, and rares that are conveniently located.\nSet the guide to Rank 3 to get all the quests, rares, and named treasures in the zone. To get rares and treasures, you need to enable those options.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
@@ -232,7 +232,7 @@ C The Great Hat Robbery|QID|50381|QO|1|M|62.53,48.52;64.49,43.38|CS|N|After Jani
 C The Great Hat Robbery|QID|50381|QO|2|M|62.91,47.30|H|N|After the third bite, Tik'su will dismount. Click on him to steal his hat.|
 R The Great Hat Robbery|ACTIVE|50381|QO|3|M|61.91,46.89|N|Run back to Jani with the hat.|
 T The Great Hat Robbery|QID|50381|M|61.91,46.89|N|To Jani.\n[color=FF0000]NOTE: [/color]It takes a moment for him to appear.|
-$ Strange Egg|QID|50508|M|61.90,46.22|RARE|ITEM|162613|T|Vukuba|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a\nSilver Elite to kill for azerite power and resources.|RANK|3|
+$ Strange Egg|QID|50508|M|61.90,46.22|RARE|ITEM|162613|T|Vukuba|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a Silver Elite to kill for azerite power and resources.|RANK|3|
 T The Missing Handler|QID|50538|M|64.25,44.58|N|To Handler Bazkoji.|LEAD|47226|
 A The Orphaned Hatchling|QID|47226|M|64.33,44.69|N|From Direhorn Hatchling.|RANK|2|
 f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|N|At Paku'ai Verraki, on top of the hill.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
@@ -372,7 +372,7 @@ R The Mugambala|ACTIVE|49122|M|53.73,56.29|N|Run thru Mugambala and continue on 
 f The Mugambala|ACTIVE|49122|M|53.34,57.33|N|At Paku'ai Chal.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|TAXI|-Warport Rastari|
 ; If running Rank 2/3, and used BOA Map of FPs, to get you close to the Silver on your way to Warport Rastari
 F The Mugambala|ACTIVE|49122|M|53.34,57.33|N|At Paku'ai Rokota.|RANK|2|TAXI|The Mugambala|
-K Avatar of Xolotal|QID|49410|M|50.66,57.13;49.80,59.22;49.85,57.40|CS|QO|1|RARE|ITEM|161034|T|Avatar of Xolotal|N|This\nSilver Elite can be found in his den just off the path here. Kill and loot for azerite power and resources.|RANK|2|
+K Avatar of Xolotal|QID|49410|M|50.66,57.13;49.80,59.22;49.85,57.40|CS|QO|1|RARE|ITEM|161034|T|Avatar of Xolotal|N|This Silver Elite can be found in his den just off the path here. Kill and loot for azerite power and resources.|RANK|2|
 f Warport Rastari|ACTIVE|49122|M|49.14,57.73;48.22,60.34|CS|N|At Paku'ai Ja'nessa.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 T A Port in Peril|QID|49122|M|47.92,60.44|N|To Zolani.|
 A Wrath of the Zandalari|QID|49144|M|47.92,60.44|N|From Zolani.|PRE|49122|
@@ -438,7 +438,7 @@ C The Ancient One|QID|47963|M|50.30,31.17;52.15,32.59|CS|QO|1|N|Kill the Shadra 
 T The Ancient One|QID|47963|M|52.11,32.84|N|To Pa'ku.|
 C The Hunter|QID|47522|M|48.78,31.77|NC|N|It appears Gonk didn't really need our help. But check in with him anyeay.|
 T The Hunter|QID|47522|M|48.39,32.11|N|To Gonk.|
-A Mistress of Lies|QID|47528|M|48.38,32.05|N|From Acolyte Mali when runs up and joins you.|PRE|47522&47963|
+A Mistress of Lies|QID|47528|M|48.38,32.05|N|From Acolyte Mali when she runs up and joins you.|PRE|47522&47963|
 K Vol'kaal|ACTIVE|47528|QO|1|M|46.91,28.00|T|Vol'kaal|N|Locate Vol'kaal inside the Shrine of Shadra and defeat him.|
 C Mistress of Lies|QID|47528|M|46.80,28.01|QO|2|NC|N|Yazma apparently doesn't have time for you and leaves.|
 C Rituals of Heresy|QID|47527|M|48.23,29.24|US|N|Time to finish up the Bonus Objective.\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish to move on.|
@@ -456,14 +456,14 @@ A WANTED: Prime Thumpknuckle|QID|51072|M|49.18,44.91;52.28,43.95;51.62,45.43|CS|
 A WANTED: Sabertusk Empress|QID|51071|M|51.62,45.43|N|From Wanted Poster.|RANK|2|
 K Prime Thumpknuckle|ACTIVE|51072|M|52.32,45.12|QO|1|T|Prime Thumpknuckle|N|Kill Prime Thumpknuckle. He wanders around a bit, his cave is located here.  This is meant to be a group quest.|RANK|2|
 K Sabertusk Empress|ACTIVE|51071|M|46.78,56.16|QO|1|T|Sabertusk Empress|N|Kill Sabertusk Empress. She may wander, but this is where she usually is. This is meant to be a group quest and may be challenging to solo.|RANK|2|
-$ Riches of Tor'Nowa|QID|51624|M|52.12,48.16;52.96,47.20|CS|N|Pass between the two trees and follow the small path (ledge) to find some treasure. Loot for azerite power and resources.|RANK|2|
+$ Riches of Tor'Nowa|QID|51624|M|52.12,48.16;52.96,47.20|CS|N|Pass between the two trees and follow the small path (ledge) to find some treasure.\nLoot for azerite power and resources.|RANK|2|
 R Village in the Vines|ACTIVE|49917|M|52.88,50.54|N|Run back to the Old Merchant Road and continue following it roughly south to The Village in the Vines.|
 T Kaja'mite? Kaja'must!|QID|49917|M|51.60,50.58|N|To Bently Greaseflare.|
 A Kaja'mite Ore Bust|QID|49919|M|51.60,50.58|N|From Bently Greaseflare.|RANK|2|
 A King Da'ka|QID|49922|M|51.60,50.58|N|From Bently Greaseflare.|RANK|2|
 T WANTED: Prime Thumpknuckle|QID|51072|M|51.65,50.54|N|To Shaz'ki.|
 T WANTED: Sabertusk Empress|QID|51071|M|51.65,50.54|N|To Shaz'ki.|
-K Syrawon the Dominus|QID|51080|M|53.43,48.20;53.93,44.84;53.42,44.67|CS|QO|1|RARE|ITEM|161047|T|Syrawon the Dominus|N|Follow the footpath up the Kingsmouth River to assist our good friends Tehd and Marius with a\nSilver Elite demon. Kill her for azerite power and resources.|RANK|3|
+K Syrawon the Dominus|QID|51080|M|53.43,48.20;53.93,44.84;53.42,44.67|CS|QO|1|RARE|ITEM|161047|T|Syrawon the Dominus|N|Follow the footpath up the Kingsmouth River to assist our good friends Tehd and Marius with a Silver Elite demon. Kill her for azerite power and resources.|RANK|3|
 R Gorilla Gorge|ACTIVE|49919|M|52.47,51.84;51.36,53.83|CS|N|A little farther down the road and around the corner.|
 ;A Gorilla Gorge|QID|49918|M|51.54,52.97|N|Bonus Objective. Autoaccepted.|LVL|-50|RANK|2|
 C Gorilla Gorge|QID|49918|M|51.54,52.97|S|N|Bonus Objective. Kill Gorillas as you go.|
@@ -674,7 +674,7 @@ C Heads Will Roll|QID|47736|M|74.04,23.94|S|N|Kill Zandalari and loot their head
 C House of the King|QID|47740|M|72.31,23.96|QO|1|NC|N|Click on the corrupting totems to cleanse Rezan the Hunter.|
 C House of the King|QID|47740|M|74.00,22.96|QO|3|NC|N|Click on the corrupting totems to cleanse Rezan the King.|
 C House of the King|QID|47740|M|73.89,25.80|QO|2|NC|N|Up one level of the terrace to find and then click the corrupting totems surrounding Rezan the Conqueror.|
-K Golrakahn|QID|47792|M|74.10,28.48|QO|1|RARE|ITEM|161034|T|Golrakahn|N|Up one more terrace to find this\nSilver Elite to kill for azerite power and resources.|RANK|2|
+K Golrakahn|QID|47792|M|74.10,28.48|QO|1|RARE|ITEM|161034|T|Golrakahn|N|Up one more terrace to find this Silver Elite to kill for azerite power and resources.|RANK|2|
 C Heads Will Roll|QID|47736|M|74.35,27.71|US|N|Finish collecting heads from the Traiterous Zandalari.|
 T Heads Will Roll|QID|47736|M|74.87,24.90|N|To Zolani.|
 T House of the King|QID|47740|M|74.88,24.96|N|To King Rastakhan.|
