@@ -65,7 +65,7 @@ C Nowhere to Hide|QID|66163|M|58.90,36.29|Z|2112|QO|1|NC|U|198859|N|Use the Reve
 C Nowhere to Hide|QID|66163|M|PLAYER|NC|U|198859|N|Looks like your Revealing Dragon's Eye buff is gone, reuse it to allow you to detect the Infiltrators.|BUFF|385996|
 $ Valdrakken Glyph|QID|99999|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|N|Above the highest tower over Valdrakken.|ACH|16101|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|CHAT|N|As you go about finding the people and places of interest, Question Valdrakken Citizens, (the ones who look a little odd, surrounded by a misty nimbus) to find the infiltrators, when you find one, kill it. Reuse the gem if you should lose the Revealing Dragon's Eye Buff.|S|
-A Garden Variety|QID|72189|M|77.49,66.03|Z|2112|N|From Tender Xina.|RANK|2|
+A Garden Variety|QID|72189|M|77.49,66.03|Z|2112|N|From Tender Xina.|RANK|2|LEAD|66134|
 A A Dryad's Work Is Never Done|QID|67094|M|72.83,66.19|Z|2112|N|From Thalendra.|RANK|2|
 C A Dryad's Work Is Never Done|QID|67094|M|67.21,70.25|Z|2112|QO|1|H|N|Click the Hungry Swoglet.|
 C A Dryad's Work Is Never Done|QID|67094|M|57.08,80.21|Z|2112|QO|3|H|N|Click the Hungry Slyvern Kit.|
@@ -127,7 +127,7 @@ C Fire Fighter|QID|66251|M|40.12,86.68|Z|2025|N|Kill Magmatalon.|
 T Fire Fighter|QID|66251|M|40.15,85.13|Z|2025|N|To Guardian Velomir.|
 A Reporting In|QID|66252|PRE|66251|M|40.15,85.13|Z|2025|N|From Guardian Velomir.|
 T Garden Variety|QID|72189|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
-A Azeroth Pest Control|QID|66134|PRE|72189|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
+A Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
 C Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|Kill the Agitated Seedlings around the Garden.|
 T Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
 A The Gardener's Apprentice|QID|66135|PRE|66134|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
