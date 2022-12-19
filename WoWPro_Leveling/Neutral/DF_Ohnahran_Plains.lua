@@ -655,7 +655,15 @@ A To the Azure Span|QID|65686|PRE|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|
 ;T A Gift for Miguel|QID|67100|M|71.75,81.21|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|-this is in the Waking shore guide
 ;A Professionally Equipped|QID|67137|PRE|67100|M|71.93,81.03|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.| - this is in the waking shore guide
 A Targeted Ads|QID|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|
-A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Blacksmithing;164;9+25|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Leatherworking;165;9+25|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Alchemy;171;9+25|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Cooking;185;9+25|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Tailoring;197;9+25|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Engineering;202;9+25|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Enchanting;333;9+25|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Jewelcrafting;755;9+25|
+A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|RANK|2|P|Inscription;773;9+25|
 C A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Azley about the Artisan's Consortium rules.|
 T A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|To Azley.|
 A That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|P|Blacksmithing;164;9+25|

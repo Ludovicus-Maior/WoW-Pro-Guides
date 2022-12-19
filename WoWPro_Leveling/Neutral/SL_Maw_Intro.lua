@@ -73,14 +73,14 @@ C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|3|CHAT|N|Speak t
 T The Lion's Cage|QID|59759|M|25.09,13.48|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A The Afflictor's Key|QID|59760|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759
 A An Undeserved Fate|QID|59761|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759
-C An Undeserved Fate|QID|59761|M|25.77,17.34|Z|The Maw!Instance|S|N|Go back to the teleport pad and use it to go down below to collect the Mawsworn Keys from Mawsworn forces in the Tremaculum. Use the keys to free Shackled Souls from the Mawsteel Cages.|
+C An Undeserved Fate|QID|59761|M|25.77,17.34|Z|The Maw!Instance|S|H|N|Go back to the teleport pad and use it to go down below to collect the Mawsworn Keys from Mawsworn forces in the Tremaculum. Use the keys to free Shackled Souls from the Mawsteel Cages.|
 C The Afflictor's Key|QID|59760|CS|M|28.18,18.89;27.52,14.50;28.02,11.06|Z|The Maw!Instance|QO|1|N|Up the broad spiral ramp to find and kill the Afflictor to get the Key.|T|Phael the Afflictor|
 C An Undeserved Fate|QID|59761|M|PLAYER|Z|The Maw!Instance|US|N|Finish collecting Mawsworn Keys and freeing the Shackled Souls.|
-C The Afflictor's Key|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|NC|QO|2|N|Open Anduin's Locks.|
+C The Afflictor's Key|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|H|QO|2|N|Open Anduin's Locks.|
 T The Afflictor's Key|QID|59760|M|25.08,13.49|Z|The Maw!Instance|N|To Anduin Wrynn.|
 T An Undeserved Fate|QID|59761|M|25.35,13.93|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A From the Mouths of Madness|QID|59776|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin.|PRE|59760&59761
-C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|NC|N|Wait for Jaina to make a portal then click on it to portal to Forlorn Respite.|
+P Forlorn Respite|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|H|N|Wait for Jaina to make a portal then click on it to portal to Forlorn Respite.|
 C From the Mouths of Madness|QID|59776|M|24.31,37.18|Z|The Maw!Instance|QO|2|CHAT|N|Ask Darion to make it talk.|
 T From the Mouths of Madness|QID|59776|M|24.31,37.18|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 A By and Down the River|QID|59762|M|24.28,37.04|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59776
@@ -90,7 +90,7 @@ T By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|N|To Lady Jai
 A A Good Axe|QID|59766|M|29.50,43.79|Z|The Maw!Instance|N|From Thrall.|PRE|59762
 A Wounds Beyond Flesh|QID|59765|M|29.50,43.79|Z|The Maw!Instance|N|From Thrall.|PRE|59762
 C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|S|N|Kill Mawsworn Soulrenders until you get the Wither Blade.|
-C A Good Axe|QID|59766|M|31.59,42.67|Z|The Maw!Instance|NC|N|Click on the weapon racks until Thrall finds a suitable weapon.|
+C A Good Axe|QID|59766|M|31.59,42.67|Z|The Maw!Instance|H|N|Click on the weapon racks until Thrall finds a suitable weapon.|
 C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|US|N|Kill Mawsworn Soulrenders until you get the Wither Blade.|
 T Wounds Beyond Flesh|QID|59765|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
 T A Good Axe|QID|59766|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
@@ -103,13 +103,13 @@ C The Path to Salvation|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Sta
 C The Path to Salvation|QID|59767|M|42.16,42.14|Z|The Maw!Instance|QO|3|NC|N|Reach the Eroded Waygate.|
 T The Path to Salvation|QID|59767|M|42.47,42.18|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A Stand as One|QID|59770|M|42.47,42.23|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59767
-C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|NC|N|Touch the Eroded Waystone.|
+C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|H|N|Touch the Eroded Waystone.|
 C Stand as One 2|QID|59770|M|42.38,42.18|Z|The Maw!Instance|QO|2|N|Survive the Jailer's Onslaught.|
 T Stand as One|QID|59770|M|42.38,42.16|Z|The Maw!Instance|N|To Eroded Waystone.|
 ; This should only show if you have completed Achievement "Choosing Your Purpose" ID:(14627) on any character account-wide (currently in beta flag seems to be yes without the ach)
-A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|59770|ACH|14627;;true;true|
-C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|ACH|14627;;true;true|
-T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|ACH|14627;;true;true|
+;A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|59770|ACH|14627;;true;true|;No longer in game
+;C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|ACH|14627;;true;true|
+;T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|ACH|14627;;true;true|
 A Stranger in an Even Stranger Land|QID|60129|M|19.25,50.31|Z|Ring of Fates@Oribos|N|Auto Accepted.|PRE|59770|;pre for threads of fate too?
 C Stranger in an Even Stranger Land|QID|60129|M|23.82,49.71|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Protector Captain.|MS|
 C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|2|NC|N|Follow Protector Captain.|MS|
@@ -126,7 +126,7 @@ C Audience with the Arbiter|QID|60149|M|50.78,51.54|Z|The Crucible@Oribos!Dungeo
 C Audience with the Arbiter|QID|60149|M|50.78,51.54|Z|The Crucible@Oribos!Dungeon|QO|4|CHAT|N|Ask Tal-Inara to return to the bottom level.|MS|
 T Audience with the Arbiter|QID|60149|M|39.87,66.29|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
 A Tether to Home|QID|60150|M|39.87,66.29|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|60149|MS|
-C Tether to Home|QID|60150|M|39.46,69.28|Z|Ring of Fates@Oribos|NC|N|Click the Shadowlands Map to affix the Helm of Domination.|MS|
+C Tether to Home|QID|60150|M|39.46,69.28|Z|Ring of Fates@Oribos|H|N|Click the Shadowlands Map to affix the Helm of Domination.|MS|
 T Tether to Home|QID|60150|M|40.31,64.84|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Doorway Through the Veil|QID|60151|M|40.23,65.14|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60150|MS|
 C A Doorway Through the Veil|QID|60151|M|40.00,63.93|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to the Ebon Blade Acolyte.|MS|
@@ -150,7 +150,7 @@ C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|Q
 T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|Ring of Transference@Oribos||N|To Overseer Kah-Sher.|MS|
 A The Path to Bastion|QID|60156|M|50.50,61.98|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|60154|MS|
 C The Path to Bastion|QID|60156|M|64.56,53.54|Z|Ring of Transference@Oribos|QO|1|NC|N|Follow Kah-Sher to the gate.|MS|
-C The Path to Bastion|QID|60156|M|63.86,51.55|Z|Ring of Transference@Oribos|QO|2|NC|N|Click the Blue Sword in front of you.|MS|
+C The Path to Bastion|QID|60156|M|63.86,51.55|Z|Ring of Transference@Oribos|QO|2|H|N|Click the Blue Sword in front of you.|MS|
 T The Path to Bastion|QID|60156|M|64.49,53.52|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
 f Oribos|ACTIVE|60154|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|MS|
 A Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|PRE|60156|MS|
