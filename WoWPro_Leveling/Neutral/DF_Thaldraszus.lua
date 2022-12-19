@@ -12,9 +12,7 @@ A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2
 A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;did not show up till i picked up wheres the cheif.
 A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|PRE|70156|
 A A Cataloger's Paradise|QID|69869|ACTIVE|65490|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
-
-;Doc Nanners didn't follow me. You have to have world quests unlocked.
-;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|-16363|
+A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|16326;;1;true|
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F South Hold Gate|N|This one is inside one of the towers, but not the highest tower, the one just below it.|M|35.60,85.66|Z|2025;Thaldraszus!Dragonflight|ACH|16100|
@@ -65,7 +63,7 @@ C Nowhere to Hide|QID|66163|M|58.90,36.29|Z|2112|QO|1|NC|U|198859|N|Use the Reve
 C Nowhere to Hide|QID|66163|M|PLAYER|NC|U|198859|N|Looks like your Revealing Dragon's Eye buff is gone, reuse it to allow you to detect the Infiltrators.|BUFF|385996|
 $ Valdrakken Glyph|QID|99999|M|41.26,58.27|Z|2025;Thaldraszus!Dragonflight|N|Above the highest tower over Valdrakken.|ACH|16101|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|CHAT|N|As you go about finding the people and places of interest, Question Valdrakken Citizens, (the ones who look a little odd, surrounded by a misty nimbus) to find the infiltrators, when you find one, kill it. Reuse the gem if you should lose the Revealing Dragon's Eye Buff.|S|
-A Garden Variety|QID|72189|M|77.49,66.03|Z|2112|N|From Tender Xina.|RANK|2|
+A Garden Variety|QID|72189|M|77.49,66.03|Z|2112|N|From Tender Xina.|RANK|2|LEAD|66134|
 A A Dryad's Work Is Never Done|QID|67094|M|72.83,66.19|Z|2112|N|From Thalendra.|RANK|2|
 C A Dryad's Work Is Never Done|QID|67094|M|67.21,70.25|Z|2112|QO|1|H|N|Click the Hungry Swoglet.|
 C A Dryad's Work Is Never Done|QID|67094|M|57.08,80.21|Z|2112|QO|3|H|N|Click the Hungry Slyvern Kit.|
@@ -127,7 +125,7 @@ C Fire Fighter|QID|66251|M|40.12,86.68|Z|2025|N|Kill Magmatalon.|
 T Fire Fighter|QID|66251|M|40.15,85.13|Z|2025|N|To Guardian Velomir.|
 A Reporting In|QID|66252|PRE|66251|M|40.15,85.13|Z|2025|N|From Guardian Velomir.|
 T Garden Variety|QID|72189|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
-A Azeroth Pest Control|QID|66134|PRE|72189|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
+A Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
 C Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|Kill the Agitated Seedlings around the Garden.|
 T Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
 A The Gardener's Apprentice|QID|66135|PRE|66134|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
@@ -399,11 +397,11 @@ T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
 
 H Valdrakken|ACTIVE|66221^67093|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|TZ|The Roasted Ram|
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
-A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
-T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
-A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
 T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
-A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
+A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;7|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
 C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza at the top of the tower that all the Oathstones have been restored.|

@@ -11,10 +11,7 @@ A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2511;4|
 A Tuskarr Fishing Gear|QID|71230|LEAD|70871|M|PLAYER|N|From Rowie|DFREN|Iskaara;2511;5|
 A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|
 A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;didnt show up till just after I picked up next quest after obtaining REN7 (dont know a 1 minute or so delay, or just picking up any quest then causes them to notice you?
-
-;Doc Nanners didn't follow me. You have to have world quests unlocked.
-;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|-16363|
-
+A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|16326;;1;true|
 A Dormant Discovery|QID|66595|N|UI accepted at Dragonscale Expedition Renown 7|DFREN|Dragonscale Exp;2507;7|
 A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|PRE|70156|
 A A Cataloger's Paradise|QID|69869|ACTIVE|65490|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
