@@ -418,7 +418,7 @@ l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Eleme
 U Divined Scroll|QID|1016|U|5456|L|5455|N|Use the Divined Scroll.|Z|Ashenvale|
 T Elemental Bracers|QID|1016|M|49.79,67.21|N|To Sentinel Velene Starstrike.|Z|Ashenvale|
 A Mage Summoner|QID|1017|M|49.79,67.21|N|From Sentinel Velene Starstrike.|PRE|1016|Z|Ashenvale|
-B Expert Cooking|QID|1025|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|Z|Ashenvale|
+;B Expert Cooking|QID|1025|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|Z|Ashenvale|
 C An Aggressive Defense|QID|1025|M|50.00,61.00|N|Kill mobs until you finish this quest.|Z|Ashenvale|
 
 R The Barrens|QID|1017|ACTIVE|1094|M|63.30,70.00;69.01,86.80|CS|N|Run for the barrens. We will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.\nBe aware that The Barrens is Horde territory and you will become PvP flagged.|Z|Ashenvale|
