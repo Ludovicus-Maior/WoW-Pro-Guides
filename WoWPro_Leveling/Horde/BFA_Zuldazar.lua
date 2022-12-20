@@ -698,24 +698,24 @@ T Inform the Horde!|QID|51539|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To
 T King or Prey|QID|51111|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A Hunting Zul|QID|49421|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|
 R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|Dazar'alor|N|Weave your way down the stairs until you get to the bottom and cross the bridge to The Zocalo.\n[color=FF0000]NOTE: [/color]If you can handle the fall damage, drop from each tier to make this faster.|
-A The Warpack|QID|49965|M|38.93,27.13|Z|Dazar'alor|N|From King Rastakhan.|PRE|51111&49421|  ; current run through (09152020), didn't show up till I turned in 49421
 T Hunting Zul|QID|49421|M|38.93,27.13|Z|Dazar'alor|N|To King Rastakhan.|
-C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|V|N|Hop on the Saurid with Wardruid Loti (and wait for the King to finish his speech) then ride with the Warpack|
+A The Warpack|QID|49965|M|38.93,27.13|Z|Dazar'alor|N|From King Rastakhan.|PRE|51111&49421|
+C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|V|N|Hop on Wardruid Loti's back. You'll start moving as soon as the King to finishes his speech.|
 T The Warpack|QID|49965|M|49.28,44.32|N|To Gonk.|
 A Heretics|QID|49422|M|49.28,44.32|N|From Gonk.|PRE|49965|
 A The Full Prophecy|QID|49424|M|49.34,44.34|N|From Wardruid Loti.|PRE|49965|
 f Temple of the Prophet|ACTIVE|49422|M|49.82,44.59|N|At Kaza the Skyblade.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 C Heretics|QID|49422|M|49.09,40.80|N|Wreak Ruin as you go.|S|
-C The Full Prophecy|QID|49424|M|48.81,42.75|QO|3|NC|N|Read The Word of Zul III.|
-C The Full Prophecy|QID|49424|M|49.01,40.60|QO|2|NC|N|Read The Word of Zul II.|
-C The Full Prophecy|QID|49424|M|48.75,39.42|QO|1|NC|N|Read The Word of Zul I.|
+C The Full Prophecy|QID|49424|M|48.81,42.75|QO|3|H|N|Read The Word of Zul III.|
+C The Full Prophecy|QID|49424|M|49.75,41.87;49.01,40.60|CS|QO|2|H|N|Read The Word of Zul II.|
+C The Full Prophecy|QID|49424|M|49.74,40.16;48.75,39.42|CS|QO|1|H|N|Read The Word of Zul I.|
 C Heretics|QID|49422|M|48.75,39.42|N|Ruin wrought.|US|
 T The Full Prophecy|QID|49424|M|PLAYER|N|To Wardruid Loti.|
 T Heretics|QID|49422|M|49.65,37.97|N|To Hexlord Raal.|
 A City of Gold|QID|49425|M|49.65,37.97|N|From Hexlord Raal.|PRE|49422&49424|
 C City of Gold|QID|49425|M|49.64,37.91|V|N|Hop on Ata the Winglord. Use "1" key to bomb the forces below.|
-T City of Gold|QID|49425|M|43.75,39.45|N|To Rezan.|
-A The King's Gambit|QID|49426|M|43.75,39.45|N|From Rezan.|PRE|49425|
+T City of Gold|QID|49425|M|43.69,39.44|N|To Rezan.|
+A The King's Gambit|QID|49426|M|43.69,39.44|N|From Rezan.|PRE|49425|
 C The King's Gambit|QID|49426|M|42.16,39.26|QO|1|NC|N|Follow Rezan into Atal'Dazar.|
 C The King's Gambit|QID|49426|M|42.03,39.44|QO|2|CHAT|N|Ask Rastakhan what next?, then watch the scene play out.|
 C The King's Gambit|QID|49426|M|42.76,37.45|QO|3|NC|N|Don't stop running until you get to Gonk.|
