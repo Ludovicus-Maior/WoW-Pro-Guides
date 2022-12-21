@@ -716,14 +716,14 @@ A City of Gold|QID|49425|M|49.65,37.97|N|From Hexlord Raal.|PRE|49422&49424|
 C City of Gold|QID|49425|M|49.64,37.91|V|N|Hop on Ata the Winglord. Use "1" key to bomb the forces below.|
 T City of Gold|QID|49425|M|43.69,39.44|N|To Rezan.|
 A The King's Gambit|QID|49426|M|43.69,39.44|N|From Rezan.|PRE|49425|
-C The King's Gambit|QID|49426|M|42.16,39.26|QO|1|NC|N|Follow Rezan into Atal'Dazar.|
+R The King's Gambit|ACTIVE|49426|M|42.16,39.26|QO|1|N|Follow Rezan into Atal'Dazar.|
 C The King's Gambit|QID|49426|M|42.03,39.44|QO|2|CHAT|N|Ask Rastakhan what next?, then watch the scene play out.|
-C The King's Gambit|QID|49426|M|42.76,37.45|QO|3|NC|N|Don't stop running until you get to Gonk.|
+R The King's Gambit|ACTIVE|49426|M|42.07,37.63;42.72,37.66|CS|QO|3|N|Talk to the King to start running and don't stop until you get to Gonk.|
 T The King's Gambit|QID|49426|M|42.72,37.66|N|To King Rastakhan.|
 A Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|42.72,37.66|NA|N|From King Rastakhan.|PRE|49426|
 A Of Dark Deeds and Dark Days|QID|50963|M|42.72,37.66|N|From King Rastakhan.|PRE|49426|
 K Hakbi the Risen|QID|50677|M|42.00,36.19|QO|1|RARE|ITEM|160978|T|Hakbi the Risen|N|Silver Elite to kill for azerite power and resources.|RANK|2|
-$ Dazar's Forgotten Chest|QID|50707|M|41.07,33.41;38.80,34.41|CS|N|Follow this nearly hidden path to a Chest to loot for azerite power and resources.|RANK|2|
+$ Dazar's Forgotten Chest|QID|50707|M|41.07,33.41;38.80,34.41|CS|N|Follow this nearly hidden path through the rock and under the waterfall to a Chest to loot for azerite power and resources.|RANK|2|
 R The Golden Road|ACTIVE|50963|M|43.60,36.72|N|Follow the Golden Road down to the flightmaster.|
 f Atal'Dazar|ACTIVE|50963|M|46.16,35.82|N|At Loz the Paku'ai.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 H The Great Seal|ACTIVE|50963|M|46.16,35.82|N|Hearth (or fly) back to the Great Seal.|
