@@ -11,7 +11,7 @@ return [[
 A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier
 A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;did not show up till i picked up wheres the cheif.
 A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|PRE|70156|
-A A Cataloger's Paradise|QID|69869|ACTIVE|65490|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
+;A A Cataloger's Paradise|QID|69869|ACTIVE|65490|M|PLAYER|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
 A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|16326;;1;true|
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
@@ -238,7 +238,7 @@ T A Sketchy Request|QID|66230|M|56.96,67.69|Z|2025|N|To Waywatcher Alvi.|
 A A Poisonous Palette|QID|66456|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
 A Ending the Blue Period|QID|66457|PRE|66230&66100|M|56.96,67.69|Z|2025|N|From Waywatcher Alvi.|
 C A Poisonous Palette|QID|66456|M|55.68,70.47|Z|2025|N|Kill and loot the Embertooth mobs to find the Envenomed Spears.|S|
-K Bluescale|ACTIVE|66457|QO|1|M|55.89,71.18|Z|2025|N|Bluescale is in a small cave. The plants around him will also agro.|
+K Bluescale|ACTIVE|66457|QO|1|M|55.89,71.18|Z|2025|N|Bluescale is in a small cave. The plants around him will also agro.|T|Bluescale|
 $ Passage of Time Glyph|QID|99999|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|N|Floating just under the mountain archway, just behind the viaducts.|ACH|16667|
 C A Poisonous Palette|QID|66456|M|56.73,69.09|Z|2025|N|Continue wiping out the inhabitants of the area until you have enough Envenomed Spears.|US|
 T A Poisonous Palette|QID|66456|M|56.95,67.69|Z|2025|N|To Waywatcher Alvi.|
