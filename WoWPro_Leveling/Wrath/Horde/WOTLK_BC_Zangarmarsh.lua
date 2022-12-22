@@ -185,6 +185,7 @@ A Sporeggar|QID|9919|M|19.20,64.52;19.03,62.38|CC|N|From Fahssn.|REP|Sporeggar;9
 C Fertile Spores|AVAILABLE|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat and Strider/Walker|
 T Sporeggar|QID|9919|M|19.68,52.07|N|To Msshi'fn.|
 A Glowcap Mushrooms|QID|9808|M|19.68,52.07|N|From Msshi'fn.|REP|Sporeggar;970;neutral|
+C Glowcap Mushrooms|N|Get the rest of the glowcaps needed for this quest.|M|40.00,36.3|QID|9808|
 T Glowcap Mushrooms|QID|9808|M|19.68,52.07|N|To Msshi'fn.|
 A Fertile Spores|QID|9806|M|19.14,49.38|N|From Gshaff.|
 C Fertile Spores|ACTIVE|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat and Strider/Walker|
