@@ -783,13 +783,13 @@ A I Spy a Spire|QID|49678|M|47.24,24.95|N|From Bladeguard Sonji.|RANK|2|PRE|4994
 A Skycaller Soltok|QID|49680|M|47.24,24.95|N|From Bladeguard Sonji.|RANK|2|PRE|49940|
 A The Sethrak Incursion|QID|49679|M|47.33,25.17|N|From Beastmother Jabati.|RANK|2|PRE|49940|
 C The Sethrak Incursion|QID|49679|M|44.45,25.00|S|N|Kill Sethrak Invaders as you go.|
-C I Spy a Spire|QID|49678|M|45.14,24.06|S|NC|N|Destroy Sethrak Spires.|
+C I Spy a Spire|QID|49678|M|45.14,24.06|S|H|N|Destroy Sethrak Spires.|
 A Lil' Tika|QID|49681|M|46.22,23.34|N|From Lil' Tika.|RANK|2|
-C Lil' Tika|QID|49681|M|46.22,23.34|QO|1|NC|N|Release Lil' Tika.|
+C Lil' Tika|QID|49681|M|46.22,23.34|QO|1|H|N|Release Lil' Tika.|
 K Warcrawler Karkithiss|QID|50438|M|43.95,25.48|QO|1|T|Warcrawler Karkithiss|RARE|N|Silver Elite to kill for azerite power and resources.|RANK|2|;no drop listed on wowhead
-C Lil' Tika|QID|49681|M|45.36,26.40|QO|2|NC|N|Find Lil' Tika's master inside the house that Skycaller Soltok is at the top of.|
+C Lil' Tika|QID|49681|M|45.36,26.40|QO|2|H|N|Find Lil' Tika's master inside the house that Skycaller Soltok is at the top of.\n[color=FF0000]NOTE: [/color]Watch your back as you'll get rushed by 2 mobs when you do it.|
 K Skycaller Soltok|ACTIVE|49680|M|45.06,26.15;45.31,26.25|CS|QO|1|T|Skycaller Soltok|N|Kill Skycaller Soltok.|RANK|2|
-C I Spy a Spire|QID|49678|M|45.14,24.06|US|NC|N|Finish destroying Sethrak Spires.|
+C I Spy a Spire|QID|49678|M|45.14,24.06|US|H|N|Finish destroying Sethrak Spires.|
 C The Sethrak Incursion|QID|49679|M|44.45,25.00|US|N|Finish your quota of Sethrak Invaders.|
 T I Spy a Spire|QID|49678|M|47.25,24.95|N|To Bladeguard Sonji.|
 T Skycaller Soltok|QID|49680|M|47.25,24.95|N|To Bladeguard Sonji.|
