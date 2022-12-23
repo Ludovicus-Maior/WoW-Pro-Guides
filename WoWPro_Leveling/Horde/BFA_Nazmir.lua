@@ -9,9 +9,9 @@ N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|
 N Vol'Dun Available|AVAILABLE|47313|M|PLAYER|LVL|35|S!US|N|Now that you have reached level 35, you can now continue your journey in [color=00FF96]Vol'Dun[/color] and the [color=ff8000]War Campaign[/color] . \n\nYou can use the guide hub to help you navigate between all accessible guides.|
 N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|M|71.50,30.36|S!US|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
-N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
-N Rares (aka Silver Elite)|ACH|12942|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
-N Treasure|ACH|12771|N|The majority of the treasure chests in Nazmir are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
+N Use of Ranks|AVAILABLE|47105|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
+N Rares (aka Silver Elite)|AVAILABLE|47105|ACH|12942|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
+N Treasure|AVAILABLE|47105|ACH|12771|N|The majority of the treasure chests in Nazmir are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
 ;A Nazmir|QID|47512|N|From Scouting map
 T Nazmir|QID|47512|M|41.32,66.49|Z|Dazar'alor|N|To Princess Talanji.|
 A Journey to Nazmir|QID|47103|M|41.32,66.49|Z|Dazar'alor|N|From Princess Talanji.|PRE|47512|
@@ -24,17 +24,17 @@ T Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|N|To Jani.|
 A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|PRE|47441|
 C Curse of Jani|QID|47442|M|38.57,17.70|Z|Dazar'alor|QO|1|NC|N|Run back to Nokano.|
 C Curse of Jani|QID|47442|M|40.10,19.30|Z|Dazar'alor|QO|2|NC|N|Bite Nokano.|
-T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now opened up Jani's cursed treasure quests all over Zandalar.|
+T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now open Jani's cursed treasure quests all over Zandalar.|
 ;  Deep in the Swamp
 T Journey to Nazmir|QID|47103|Z|Dazar'alor|M|51.66,41.31|N|To Rokhan.|
 A Nazmir, the Forbidden Swamp|QID|48535|M|51.66,41.31|Z|Dazar'alor|N|From Rokhan.|PRE|47103|LEAD|47105|
 C Nazmir, the Forbidden Swamp|QID|48535|M|51.94,41.20|Z|Dazar'alor|QO|1|CHAT|N|Ask Paku'ai Rokota for a ride (chat, not flight path)|
-R Nazmir|ACTIVE|48535|M|53.75,19.19|Z|Zuldazar|N|Run down to the waypoint and cross the bridge to enter Nazmir.|
+R Nazmir|AVAILABLE|47105|M|53.75,19.19|Z|Zuldazar|N|Run down to the waypoint and cross the bridge to enter Nazmir.|
 C Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|QO|2|NC|N|Meet with Princess Talanji.|
 T Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|N|To Princess Talanji.|
 A Into The Darkness|QID|47105|M|42.99,86.03|N|From Princess Talanji.|
-$ Venomous Seal|QID|49889|M|46.21,82.92|N|Treasure to loot for resources and artifact power.|RANK|2|
-C Into The Darkness|QID|47105|M|46.62,80.32|NC|N|Scout ahead.|
+$ Venomous Seal|QID|49889|M|46.21,82.92|N|Located inside the building.\nTreasure to loot for resources and artifact power.\n[color=FF0000]NOTE: [/color]Do this quick because the room is filled with poison gas.|RANK|2|
+R Into The Darkness|QID|47105|M|46.71,80.37|N|Scout ahead to The Fallen Outpost.|
 T Into The Darkness|QID|47105|M|47.24,79.74|N|To Princess Talanji.|
 A Leave None Standing|QID|47264|M|47.24,79.74|N|From Princess Talanji.|PRE|47105|
 A Improper Burial|QID|47130|M|47.24,79.74|N|From Princess Talanji.|PRE|47105|
@@ -44,32 +44,33 @@ C Leave None Standing|QID|47264|M|48.27,76.53|US|N|Finish off your share of the 
 T Leave None Standing|QID|47264|M|45.64,74.77|N|To Princess Talanji.|
 T Improper Burial|QID|47130|M|45.64,74.77|N|To Princess Talanji.|
 A Ending the Blood Trolls|QID|47262|M|45.64,74.77|N|From Princess Talanji.|PRE|47130&47264|
-C Ending the Blood Trolls|QID|47262|M|45.05,71.53|N|Face off against Grand Ma'da Ateena.|
+C Ending the Blood Trolls|QID|47262|M|44.91,71.66|N|Face off against Grand Ma'da Ateena.|
 T Ending the Blood Trolls|QID|47262|M|45.21,71.05|N|To Princess Talanji.|
 A A Time of Revelation|QID|47263|M|45.21,71.05|N|From Princess Talanji.|PRE|47262|
-C A Time of Revelation|QID|47263|M|45.58,68.66|CHAT|N|Speak with Talanji at the overlook|
+C A Time of Revelation|QID|47263|M|45.58,68.66|CHAT|N|Speak with Talanji at the overlook to begin a cut-scene.|
 f Zul'jan Ruins|ACTIVE|47263|M|38.85,78.14|N|At Zabar.|
 T A Time of Revelation|QID|47263|M|39.14,79.08|N|To Princess Talanji.|
 A The Aid of the Loa|QID|47188|M|39.14,79.08|N|From Princess Talanji.|PRE|47263|
 C The Aid of the Loa|QID|47188|M|39.14,79.08|CHAT|N|Listen to Talanji and Rokhan|
 T The Aid of the Loa|QID|47188|M|39.14,79.08|N|To Princess Talanji.|
 A The Shadow of Death|QID|47241|M|39.14,79.08|N|From Princess Talanji.|PRE|47188|
-A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From Scouting Map.|RANK|2|
+A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From the Scouting Report hanging on the wall.|RANK|2|
 A Urok, Terror of the Wetlands|QID|48669|M|38.84,77.70|N|From Sur'jan.|RANK|2|PRE|47188|
-C Urok, Terror of the Wetlands|QID|48669|M|38.55,77.36|NC|N|Observe Urok, Terror of the Wetlands.|
-T Urok, Terror of the Wetlands|QID|48669|M|38.83,77.71|N|To Sur'jan.|
-A Crocolisk Life|QID|48573|M|38.83,77.71|N|From Sur'jan.|RANK|2|PRE|48669|
-A Pulling Fangs|QID|48574|M|38.83,77.71|N|From Sur'jan.|RANK|2|PRE|48669|
+C Urok, Terror of the Wetlands|QID|48669|M|38.84,77.70|CHAT|N|Ask Sur'jan to show you Urok, Terror of the Wetlands for a short cut-scene.|
+T Urok, Terror of the Wetlands|QID|48669|M|38.84,77.70|N|To Sur'jan.|
+A Crocolisk Life|QID|48573|M|38.84,77.70|N|From Sur'jan.|RANK|2|PRE|48669|
+A Pulling Fangs|QID|48574|M|38.84,77.70|N|From Sur'jan.|RANK|2|PRE|48669|
 C Pulling Fangs|QID|48574|M|36.44,71.39|S|N|Kill the little Saurid's and collect their Teeth as you go.|
 C Crocolisk Life|QID|48573|M|34.38,77.47|U|152596|S|N|After killing them, use the wand to absorb Snapjaw mojo as you go.|
 K Zanxib|QID|50423|M|38.94,71.45|QO|1|T|Zanxib|RARE|ITEM|161092|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-C Crocolisk Life|QID|48573|M|34.38,77.47|U|152596|US|N|Finish absorbing Snapjaw mojo.|
+C Crocolisk Life|QID|48573|M|34.38,77.47|U|152596|US|N|Finish absorbing Snapjaw mojo from dead Snapjaws.|
 C Pulling Fangs|QID|48574|M|36.44,71.39|US|N|Finish collecting the Saurid Teeth.|
-K Primal Snapjaw|QID|50437|L|157801|M|34,75|N|Kill the crockolisk until you loot a Snapjaw Tail.|RANK|3|PRE|47442|
-$ Mysterious Trashpile|QID|50437|M|33.99,75.10|N|If you heard Jani's guttural voice (which means you found the Snapjaw Tail around here), Jani wants the shiny.|ITEM|157801|RANK|2|PRE|47442|
+K Primal Snapjaw|QID|50437|L|157801|M|34.38,77.47|N|Kill the crockolisk until you loot a Snapjaw Tail.|RANK|3|PRE|47442|
+$ Mysterious Trashpile|AVAILABLE|50437|M|33.99,75.10|H|N|Click on the Trashpile to summon Jani.|U|157801|RANK|2|PRE|47442|BUFF|262971|O|
+$ Get Hek'd|QID|50437|M|33.99,75.10|CHAT|N|Offer to give Jani the [color=33fff9]Snapjaw Tail[/color] and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|RANK|2|PRE|47442|BUFF|-262971|
 T Crocolisk Life|QID|48573|M|34.10,78.56|N|To Sur'jan.|
 T Pulling Fangs|QID|48574|M|34.10,78.56|N|To Sur'jan.|
-A Safe Flying|QID|48576|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
+A Safe Flying|QID|48576|M|34.08,78.57|N|From Sur'jan when it becomes available.|RANK|2|PRE|48574&48573|
 A Terrorizing their Eggs|QID|48577|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
 A There's No Eye in Skyterror|QID|48578|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
 C Safe Flying|QID|48576|M|33.50,84.91|S|U|152610|N|Use Grappling Hook to pull them down from the sky or just kill the skyterrors on the ground.|
