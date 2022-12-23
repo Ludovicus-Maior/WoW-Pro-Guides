@@ -133,7 +133,7 @@ A WANTED: Boss Grog'ak|QID|9820|M|32.00,49.33|N|From the Wanted Poster.|
 A Wanted: Chieftain Mummaki|QID|10117|M|32.00,49.33|N|From the Wanted Poster.|
 A Stinging the Stingers|QID|9841|M|31.63,49.19|N|From Gambarinka.|
 A Burstcap Mushrooms, Mon!|QID|9814|M|32.89,48.89|N|From Witch Doctor Tor'gash.|
-C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|L|24668 6|N|They are large mushrooms found on the ground around Zabra'jin.|S|
+C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|L|24468 6|N|They are large mushrooms found on the ground around Zabra'jin.|S|
 K "Count" Ungula|AVAILABLE|9911|M|32.91,59.55|L|25459|N|Kill "Count" Ungula, a named Marshfang, to loot a quest starter item.|
 A The Count of the Marshes|QID|9911|N|From "Count" Ungula's Mandible.|U|25459|O|
 C Spirits of the Feralfen|QID|9846|M|43.71,62.57|L|24497 10|ITEM|24497|N|Feralfen mobs|
@@ -141,7 +141,7 @@ K Angling to Beat the Competition|ACTIVE|9845|M|50.40,40.89|N|They're located ar
 C Familiar Fungi|QID|9708|M|32,38|L|24238 15|ITEM|24238|N|Ango'rosh Ogres in the Hewn Bog.|S|
 C WANTED: Boss Grog'ak|QID|9820|M|35,35|N|Head north to find Boss Grog'ak. He's not tough, but he does do a knockback, so be careful.|
 C Familiar Fungi|QID|9708|M|32,38|L|24238 15|ITEM|24238|N|Ango'rosh Ogres in the Hewn Bog.|US|
-C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|L|24668 6|N|They are large mushrooms found on the ground around Zabra'jin.|US|
+C Burstcap Mushrooms, Mon!|QID|9814|M|26.95,52.54|L|24468 6|N|They are large mushrooms found on the ground around Zabra'jin.|US|
 T Angling to Beat the Competition|QID|9845|M|32.26,49.61|N|To Zurjaya.|
 A The Biggest of Them All|QID|9903|M|32.26,49.61|N|From Zurjaya.|PRE|9845|
 A Pursuing Terrorclaw|QID|9904|M|32.26,49.61|N|From Zurjaya.|
@@ -185,6 +185,7 @@ A Sporeggar|QID|9919|M|19.20,64.52;19.03,62.38|CC|N|From Fahssn.|REP|Sporeggar;9
 C Fertile Spores|AVAILABLE|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat and Strider/Walker|
 T Sporeggar|QID|9919|M|19.68,52.07|N|To Msshi'fn.|
 A Glowcap Mushrooms|QID|9808|M|19.68,52.07|N|From Msshi'fn.|REP|Sporeggar;970;neutral|
+C Glowcap Mushrooms|N|Get the rest of the glowcaps needed for this quest.|M|40.00,36.3|QID|9808|
 T Glowcap Mushrooms|QID|9808|M|19.68,52.07|N|To Msshi'fn.|
 A Fertile Spores|QID|9806|M|19.14,49.38|N|From Gshaff.|
 C Fertile Spores|ACTIVE|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat and Strider/Walker|

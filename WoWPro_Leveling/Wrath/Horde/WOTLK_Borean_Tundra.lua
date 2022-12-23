@@ -358,7 +358,7 @@ C The Tides Turn |QID|11968|N|Kill Heigarr the Horrible.|M|67.5,56.7|
 T The Tides Turn |QID|11968|N|To Elder Muahit.|M|67.21,54.84|
 R Unu'pe |QID|11574|M|77.5,51|N|Head over to Une'pe.|
 f Unu'pe|QID|11587|N|Get the flight point.|M|78.54,51.53|
-R Amber Ledge|QID|11587|N|Ride to Amber Ledge.|M|45,3|
+R Amber Ledge|QID|11587|N|Ride to Amber Ledge.|M|45.2,33.4|
 T Too Close For Comfort |QID|11574|M|45.26,33.38|N|To Librarian Donathan.|
 A Prison Break |QID|11587|N|From Librarian Donathan.|M|45.27,33.36|
 A Monitoring the Rift: Cleftcliff Anomaly |QID|11576|N|From Librarian Garren.|M|44.98,33.38|
