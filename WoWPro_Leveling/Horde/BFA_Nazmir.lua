@@ -74,12 +74,12 @@ A Safe Flying|QID|48576|M|34.08,78.57|N|From Sur'jan when it becomes available.|
 A Terrorizing their Eggs|QID|48577|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
 A There's No Eye in Skyterror|QID|48578|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
 C Safe Flying|QID|48576|M|33.50,84.91|S|U|152610|N|Use Grappling Hook to pull them down from the sky or just kill the skyterrors on the ground.|
-C Terrorizing their Eggs|QID|48577|M|33.78,84.81|S|NC|N|Click to destroy the Skyterror eggs.|
-$ Cleverly Disguised Chest|QID|49885|M|35.63,85.58|N|There is a small cave at the base of the cliff, kill the skyterror inside, to find ths treasure.|RANK|2|
+C Terrorizing their Eggs|QID|48577|M|33.78,84.81|S|H|N|Click to destroy the Skyterror eggs.|
+$ Cleverly Disguised Chest|QID|49885|M|35.64,85.62|N|There is a small cave at the base of the cliff. Kill the Skyterror inside to access ths treasure.|RANK|2|
 C There's No Eye in Skyterror|QID|48578|M|33.90,85.98|QO|1|N|Kill Jarkadiax and take his Eye.|T|Jarkadiax|
-K Gwugnug the Cursed|QID|48638|M|34.93,86.44;33.75,86.28|CS|QO|1|RARE|ITEM|162614|T|Gwugnug the Cursed|N|This silver elite can be found down a path behind and below Jarkadiax.|RANK|2|
-C Terrorizing their Eggs|QID|48577|M|33.78,84.81|US|NC|N|Finish destroyjing the Skyterror eggs.|
-C Safe Flying|QID|48576|M|33.50,84.91|US|U|152610|N|Finish kill the Skyterrors.|
+K Gwugnug the Cursed|QID|48638|M|32.88,85.81;33.75,86.28|CS|QO|1|RARE|ITEM|162614|T|Gwugnug the Cursed|N|This silver elite can be found in a cave below Jarkadiax, accessed by a path that runs behind the hill.|RANK|2|
+C Terrorizing their Eggs|QID|48577|M|33.78,84.81|US|H|N|Finish destroying the Skyterror eggs.|
+C Safe Flying|QID|48576|M|33.50,84.91|US|T|Skyterror|U|152610|N|Finish kill the Skyterrors.|
 T Safe Flying|QID|48576|M|34.10,78.60|N|To Sur'jan.|
 T Terrorizing their Eggs|QID|48577|M|34.10,78.60|N|To Sur'jan.|
 T There's No Eye in Skyterror|QID|48578|M|34.10,78.60|N|To Sur'jan.|
