@@ -29,12 +29,12 @@ T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now open
 T Journey to Nazmir|QID|47103|Z|Dazar'alor|M|51.66,41.31|N|To Rokhan.|
 A Nazmir, the Forbidden Swamp|QID|48535|M|51.66,41.31|Z|Dazar'alor|N|From Rokhan.|PRE|47103|LEAD|47105|
 C Nazmir, the Forbidden Swamp|QID|48535|M|51.94,41.20|Z|Dazar'alor|QO|1|CHAT|N|Ask Paku'ai Rokota for a ride (chat, not flight path)|
-R Nazmir|ACTIVE|48535|M|53.75,19.19|Z|Zuldazar|N|Run down to the waypoint and cross the bridge to enter Nazmir.|
+R Nazmir|AVAILABLE|47105|M|53.75,19.19|Z|Zuldazar|N|Run down to the waypoint and cross the bridge to enter Nazmir.|
 C Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|QO|2|NC|N|Meet with Princess Talanji.|
 T Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|N|To Princess Talanji.|
 A Into The Darkness|QID|47105|M|42.99,86.03|N|From Princess Talanji.|
-$ Venomous Seal|QID|49889|M|46.21,82.92|N|Treasure to loot for resources and artifact power.|RANK|2|
-C Into The Darkness|QID|47105|M|46.62,80.32|NC|N|Scout ahead.|
+$ Venomous Seal|QID|49889|M|46.21,82.92|N|Located inside the building.\nTreasure to loot for resources and artifact power.\n[color=FF0000]NOTE: [/color]Do this quick because the room is filled with poison gas.|RANK|2|
+R Into The Darkness|QID|47105|M|46.71,80.37|N|Scout ahead to The Fallen Outpost.|
 T Into The Darkness|QID|47105|M|47.24,79.74|N|To Princess Talanji.|
 A Leave None Standing|QID|47264|M|47.24,79.74|N|From Princess Talanji.|PRE|47105|
 A Improper Burial|QID|47130|M|47.24,79.74|N|From Princess Talanji.|PRE|47105|
@@ -44,17 +44,17 @@ C Leave None Standing|QID|47264|M|48.27,76.53|US|N|Finish off your share of the 
 T Leave None Standing|QID|47264|M|45.64,74.77|N|To Princess Talanji.|
 T Improper Burial|QID|47130|M|45.64,74.77|N|To Princess Talanji.|
 A Ending the Blood Trolls|QID|47262|M|45.64,74.77|N|From Princess Talanji.|PRE|47130&47264|
-C Ending the Blood Trolls|QID|47262|M|45.05,71.53|N|Face off against Grand Ma'da Ateena.|
+C Ending the Blood Trolls|QID|47262|M|44.91,71.66|N|Face off against Grand Ma'da Ateena.|
 T Ending the Blood Trolls|QID|47262|M|45.21,71.05|N|To Princess Talanji.|
 A A Time of Revelation|QID|47263|M|45.21,71.05|N|From Princess Talanji.|PRE|47262|
-C A Time of Revelation|QID|47263|M|45.58,68.66|CHAT|N|Speak with Talanji at the overlook|
+C A Time of Revelation|QID|47263|M|45.58,68.66|CHAT|N|Speak with Talanji at the overlook to begin a cut-scene.|
 f Zul'jan Ruins|ACTIVE|47263|M|38.85,78.14|N|At Zabar.|
 T A Time of Revelation|QID|47263|M|39.14,79.08|N|To Princess Talanji.|
 A The Aid of the Loa|QID|47188|M|39.14,79.08|N|From Princess Talanji.|PRE|47263|
 C The Aid of the Loa|QID|47188|M|39.14,79.08|CHAT|N|Listen to Talanji and Rokhan|
 T The Aid of the Loa|QID|47188|M|39.14,79.08|N|To Princess Talanji.|
 A The Shadow of Death|QID|47241|M|39.14,79.08|N|From Princess Talanji.|PRE|47188|
-A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From Scouting Map.|RANK|2|
+A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From the Scouting Report hanging on the wall.|RANK|2|
 A Urok, Terror of the Wetlands|QID|48669|M|38.84,77.70|N|From Sur'jan.|RANK|2|PRE|47188|
 C Urok, Terror of the Wetlands|QID|48669|M|38.55,77.36|NC|N|Observe Urok, Terror of the Wetlands.|
 T Urok, Terror of the Wetlands|QID|48669|M|38.83,77.71|N|To Sur'jan.|
