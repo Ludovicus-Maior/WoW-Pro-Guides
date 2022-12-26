@@ -73,24 +73,24 @@ T Pulling Fangs|QID|48574|M|34.10,78.56|N|To Sur'jan.|
 A Safe Flying|QID|48576|M|34.08,78.57|N|From Sur'jan when it becomes available.|RANK|2|PRE|48574&48573|
 A Terrorizing their Eggs|QID|48577|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
 A There's No Eye in Skyterror|QID|48578|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
-C Safe Flying|QID|48576|M|33.50,84.91|S|U|152610|N|Use Grappling Hook to pull them down from the sky or just kill the skyterrors on the ground.|
+C Safe Flying|QID|48576|M|33.50,84.91|S|U|152610|N|Use Grappling Hook to pull them down from the sky or just kill the Primal Skyterrors on the ground.|
 C Terrorizing their Eggs|QID|48577|M|33.78,84.81|S|H|N|Click to destroy the Skyterror eggs.|
 $ Cleverly Disguised Chest|QID|49885|M|35.64,85.62|N|There is a small cave at the base of the cliff. Kill the Skyterror inside to access ths treasure.|RANK|2|
 C There's No Eye in Skyterror|QID|48578|M|33.90,85.98|QO|1|N|Kill Jarkadiax and take his Eye.|T|Jarkadiax|
-K Gwugnug the Cursed|QID|48638|M|32.88,85.81;33.75,86.28|CS|QO|1|RARE|ITEM|162614|T|Gwugnug the Cursed|N|This silver elite can be found in a cave below Jarkadiax, accessed by a path that runs behind the hill.|RANK|2|
+K Gwugnug the Cursed|QID|48638|M|32.88,85.81;33.75,86.28|CS|QO|1|RARE|ITEM|162614|T|Gwugnug the Cursed|N|This silver elite can be found in a cave below Jarkadiax, accessed by a path that runs behind the hill.\n[color=FF0000]NOTE: [/color]This quest is currently bugged and you will not credit for the kill. You can either skip it or manually check it off for now.|RANK|2|
 C Terrorizing their Eggs|QID|48577|M|33.78,84.81|US|H|N|Finish destroying the Skyterror eggs.|
-C Safe Flying|QID|48576|M|33.50,84.91|US|T|Skyterror|U|152610|N|Finish kill the Skyterrors.|
-T Safe Flying|QID|48576|M|34.10,78.60|N|To Sur'jan.|
-T Terrorizing their Eggs|QID|48577|M|34.10,78.60|N|To Sur'jan.|
-T There's No Eye in Skyterror|QID|48578|M|34.10,78.60|N|To Sur'jan.|
-A The Blood of My Enemies|QID|48584|M|34.07,78.58|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
-A My Head and Shoulders|QID|48590|M|34.07,78.58|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
-A Purge the Infection|QID|48588|M|34.07,78.58|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|
-C Purge the Infection|QID|48588|M|34.07,78.58|N|Bonus Objective, complete as you go.|S|
+C Safe Flying|QID|48576|M|33.50,84.91|US|T|Primal Skyterror|U|152610|N|Finish killing the Primal Skyterrors.|
+T Safe Flying|QID|48576|M|34.10,78.56|N|To Sur'jan.|
+T Terrorizing their Eggs|QID|48577|M|34.10,78.56|N|To Sur'jan.|
+T There's No Eye in Skyterror|QID|48578|M|34.10,78.56|N|To Sur'jan.|
+A The Blood of My Enemies|QID|48584|M|34.10,78.56|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
+A My Head and Shoulders|QID|48590|M|34.10,78.56|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
+A Purge the Infection|QID|48588|M|34.10,78.56|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|
+C Purge the Infection|QID|48588|M|34.10,78.56|N|Bonus Objective, complete as you go.|S|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|S|N|Kill Dreadticks and loot their blood as you go.|
-C My Head and Shoulders|QID|48590|M|31.62,73.49|QO|1|NC|N|Pick up Sur'jan's Helm.|
-C My Head and Shoulders|QID|48590|M|31.05,71.38|QO|2|NC|N|Pick up Sur'jan's Left Shoulderpad.|
-C My Head and Shoulders|QID|48590|M|28.79,76.75|QO|3|NC|N|Pick up Sur'jan's Right Shoulderpad.|
+C My Head and Shoulders|QID|48590|M|31.62,73.49|QO|1|H|N|Pick up Sur'jan's Helm.|
+C My Head and Shoulders|QID|48590|M|31.05,71.38|QO|2|H|N|Pick up Sur'jan's Left Shoulderpad.|
+C My Head and Shoulders|QID|48590|M|28.79,76.75|QO|3|H|N|Pick up Sur'jan's Right Shoulderpad.|
 K Infected Direhorn|QID|47877|M|24.53,78.09|QO|1|RARE|ITEM|161218|T|Infected Direhorn|N|You can find this Silver Elite in a cave under a waterfall.|RANK|2|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|US|N|Finish collecting the Dreadtick blood.|
 C Purge the Infection|QID|48588|M|28.29,75.53|US|N|Now is a good time to finish this bonus objective if you plan to.|
