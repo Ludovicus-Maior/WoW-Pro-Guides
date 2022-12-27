@@ -163,7 +163,7 @@ T Isolating Zalamar|QID|48801|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 T How to Be a Blood Troll.|QID|48890|M|33.35,45.77|N|To Bloodseeker Jo'chunga.\n[color=FF0000]NOTE: [/color]Once you turn in this quest, you'll no longer have a disguise.| ; Auto-complete broken so they can see the disguise note - Hendo72
 A Poisoning the Brood|QID|49078|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801&48890|
 A Mark of the Bat|QID|48800|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801&48890|
-A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-50|  ;  only active once you get 49078 and 48800
+;A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-50|  ;  only active once you get 49078 and 48800
 C Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective.|S|
 C Poisoning the Brood|QID|49078|M|32.13,48.71|U|153012|NC|T|Tamed Warspawn|S|N|Target the Tamed Warspawn and use the poison.|
 K Vashera|ACTIVE|48800|M|30.99,45.12|QO|2|T|Vashera|N|Kill Vashera and loot her Talisman.|
@@ -174,31 +174,32 @@ T Poisoning the Brood|QID|49078|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 T Mark of the Bat|QID|48800|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 A Hir'eek, the Bat Loa|QID|49079|M|33.35,45.76|N|From Jo'chunga.|PRE|48800&49078|
 C Zalamar Slaughter|QID|49406|M|32,47|US|N|If you plan to complete the bonus objective now is the time.|
-T Zalamar Slaughter|QID|49406|M|32,47|N|Bonus Obective - Autocompleted.|
+;T Zalamar Slaughter|QID|49406|M|32,47|N|Bonus Obective - Autocompleted.| Not required - Hendo72
 C Hir'eek, the Bat Loa|QID|49079|M|31.72,46.75|QO|1|CHAT|N|Speak with Jo'chunga within the blood ritual pool.|
-C Hir'eek, the Bat Loa|QID|49079|M|32.09,46.88|QO|2|NC|N|Press the "1" key to use the poisoned dagger that Jo'chunga gave you while Hir'eek flies around.|
-T Hir'eek, the Bat Loa|QID|49079|M|31.23,46.81|N|To Jo'chunga.|
+C Hir'eek, the Bat Loa|QID|49079|M|32.09,46.88|QO|2|NC|N|Press the "1" key to use the poisoned dagger that Jo'chunga gave you while Hir'eek flies around.\n[color=FF0000]NOTE: [/color]Hopefully, you survive the landing.|
+T Hir'eek, the Bat Loa|QID|49079|M|31.23,46.81|N|To Jo'chunga when you can move again.|
 A To Kill a Loa|QID|49081|M|31.23,46.81|N|From Jo'chunga.|PRE|49079|
 K Hir'eek|ACTIVE|49081|M|29.75,46.75|QO|1|T|Hir'eek|N|Kill Hir'eek. Go behind the pillers in the room when he casts Blood Horror.|
 T To Kill a Loa|QID|49081|M|31.25,46.81|N|To Jo'chunga.|
 A Upward and Onward|QID|49082|M|31.25,46.81|N|From Jo'chunga.|PRE|49081|
-C Upward and Onward|QID|49082|M|31.27,46.83|QO|1|NC|N|Take the proffered Flight out of Hir'eek's Lair(Optional).|
-C Upward and Onward|QID|49082|M|39.64,43.82|QO|2|CHAT|N|Inform Witch Doctor Kejabu.|
-T Upward and Onward|QID|49082|M|39.64,43.82|N|To Witch Doctor Kejabu.|
+C Upward and Onward|QID|49082|M|31.27,46.71|QO|1|V|N|Take the proffered ride out of Hir'eek's Lair on the Hir'eek Spawnling.(Optional)\n[color=FF0000]NOTE: [/color]Skip this step if you wish to do it on your own.|
+C Upward and Onward|QID|49082|M|39.63,43.87|QO|2|CHAT|N|Inform Witch Doctor Kejabu at the Zo'bal Ruins of the outcome.|
+T Upward and Onward|QID|49082|M|39.63,43.87|N|To Witch Doctor Kejabu.|
+R The Necropolis|ACTIVE|47868|M|39.58,41.62;39.58,34.92|CS|N|Head north out of Zo'bal Ruins and make your way across the Dreadmire to The Necropolis on the other side.|
 T The Necropolis|QID|47868|M|39.58,32.57|N|To Hanzabu.|
 A A Tribute for Death|QID|47880|M|39.58,32.57|N|From Hanzabu.|PRE|47868|
-C A Tribute for Death|QID|47880|M|39.54,32.25|QO|1|NC|N|Run around the circle following the lines.|
-C A Tribute for Death|QID|47880|M|39.59,31.84|QO|2|NC|N|Click the drum Drum of Spirits.|
-T A Tribute for Death|QID|47880|M|39.49,24.62|N|To Bwonsamdi.|
-A Remnants of the Damned|QID|47491|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
-A A Desecrated Temple|QID|49348|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
-A That Which Haunts the Dead|QID|47247|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
-A Mark of the Damned|QID|48934|M|39.57,25.41|LVL|-50|N|Bonus Objective - Auto-accepted.|  ;  only active once you get 47491, 49348, 47247
+R A Tribute for Death|QID|47880|M|39.54,32.25|QO|1|N|Run around the circle following the lines.\n[color=FF0000]NOTE: [/color]If you toggle 'walk' ([/] on the number pad by default), it'll make it a lot easier to do. Don't forget to turn it back on.|
+C A Tribute for Death|QID|47880|M|39.59,31.84|QO|2|H|N|Click the drum Drum of Spirits.|
+T A Tribute for Death|QID|47880|M|39.57,24.72|N|To Bwonsamdi inside the very dark Edge of Oblivion on the north side of The Necropolis.|
+A Remnants of the Damned|QID|47491|M|39.57,24.72|N|From Bwonsamdi.|PRE|47880|
+A A Desecrated Temple|QID|49348|M|39.57,24.72|N|From Bwonsamdi.|PRE|47880|
+A That Which Haunts the Dead|QID|47247|M|39.57,24.72|N|From Bwonsamdi.|PRE|47880|
+;A Mark of the Damned|QID|48934|M|39.57,25.41|LVL|-50|N|Bonus Objective - Auto-accepted.|  ;  only active once you get 47491, 49348, 47247
 C Mark of the Damned|QID|48934|M|39.57,25.41|S|N|Bonus Objective.|
 C A Desecrated Temple|QID|49348|M|43.95,30.05|S|NC|N|Click on the red blobs of Vile Desecration to destroy them.|
 $ Offering to Bwonsamdi|QID|49484|M|42.39,26.13;42.79,26.20|CS|N|Go up the tree trunk then onto the walls of the ruins and down inside to find this treasure.|RANK|2|
 C That Which Haunts the Dead|QID|47247|M|43.35,30.02|QO|1|N|Kill Warlord Malaja.|
-A The Forlorn Soul|QID|49432|M|42.60,31.47|N|From Keula.|
+A The Forlorn Soul|QID|49432|M|42.58,31.46|N|From Keula.|
 A 'Til Death Do Us Part|QID|47248|M|36.66,27.39|N|From Theurgist Salazae.|RANK|2|
 C That Which Haunts the Dead|QID|47247|M|36.12,29.87|QO|2|N|Kill Hex Priestess Tizeja.|
 K Azerite-Infused Slag|QID|50563|M|37.30,26.24;33.34,27.53|CS|QO|1|T|Azerite-Infused Slag|N|Silver Elite to kill for resources and artifact power.|RANK|2|RARE|;item unknown
@@ -209,7 +210,7 @@ K Za'amar the Queen's Blade|QID|49469|M|38.77,28.76;38.84,26.72|CS|RARE|ITEM|161
 C 'Til Death Do Us Part|QID|47248|M|40.37,26.52|QO|1|NC|N|Into the last catacomb you will find a box with Valjabu's Tusk Ring, Kill Gee'dee the Cursed if he is in the way.|
 C Remnants of the Damned|QID|47491|M|40.46,30.25|US|N|Finish collecting the Decaying Bloodstones.|
 C Mark of the Damned|QID|48934|M|37.17,27.83|US|N|Finish up this bonus objective before going into the temple to turn in the quests.|
-T Mark of the Damned|QID|48934|M|37.17,27.83|N|Bonus Objective - Autocompleted.|
+;T Mark of the Damned|QID|48934|M|37.17,27.83|N|Bonus Objective - Autocompleted.|
 T Remnants of the Damned|QID|47491|M|39.57,24.65|N|To Bwonsamdi.|
 T A Desecrated Temple|QID|49348|M|39.57,24.65|N|To Bwonsamdi.|
 T That Which Haunts the Dead|QID|47247|M|39.57,24.65|N|To Bwonsamdi.|
@@ -221,7 +222,7 @@ T Soulbound|QID|47249|M|39.59,30.23|N|To Bwonsamdi.|
 A We'll Meet Again|QID|47250|M|39.59,30.23|N|From Bwonsamdi.|PRE|47249|
 T 'Til Death Do Us Part|QID|47248|M|36.65,27.39|N|To Theurgist Salazae.|
 T We'll Meet Again|QID|47250|M|39.52,43.85|N|To Hanzabu.|
-A Hunting Zardrax|QID|49314|M|39.66,43.86|N|From Witch Doctor Kejabu.|LEAD|48854|RANK|2|
+A Hunting Zardrax|QID|49314|M|39.63,43.87|N|From Witch Doctor Kejabu.|LEAD|48854|RANK|2|
 A Catching Up|QID|49185|M|39.39,44.02|N|From Princess Talanji.|PRE|47250|
 C Catching Up|QID|49185|M|39.39,44.02|CHAT|N|Tell Talanji about Bwonsamdi and Hir'eek|
 T Catching Up|QID|49185|M|39.39,44.02|N|To Princess Talanji.|
