@@ -85,7 +85,7 @@ T Terrorizing their Eggs|QID|48577|M|34.10,78.56|N|To Sur'jan.|
 T There's No Eye in Skyterror|QID|48578|M|34.10,78.56|N|To Sur'jan.|
 A The Blood of My Enemies|QID|48584|M|34.10,78.56|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
 A My Head and Shoulders|QID|48590|M|34.10,78.56|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
-A Purge the Infection|QID|48588|M|34.10,78.56|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|
+;A Purge the Infection|QID|48588|M|34.10,78.56|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2| ** Not required - Hendo72
 C Purge the Infection|QID|48588|M|34.10,78.56|N|Bonus Objective, complete as you go.|S|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|S|N|Kill Dreadticks and loot their blood as you go.|
 C My Head and Shoulders|QID|48590|M|31.62,73.49|QO|1|H|N|Pick up Sur'jan's Helm.|
@@ -163,7 +163,7 @@ T Isolating Zalamar|QID|48801|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 T How to Be a Blood Troll.|QID|48890|M|33.35,45.77|N|To Bloodseeker Jo'chunga.\n[color=FF0000]NOTE: [/color]Once you turn in this quest, you'll no longer have a disguise.| ; Auto-complete broken so they can see the disguise note - Hendo72
 A Poisoning the Brood|QID|49078|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801&48890|
 A Mark of the Bat|QID|48800|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801&48890|
-;A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-50|  ;  only active once you get 49078 and 48800
+;A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-50|  ;  only active once you get 49078 and 48800 ** Not required - Hendo72
 C Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective.|S|
 C Poisoning the Brood|QID|49078|M|32.13,48.71|U|153012|NC|T|Tamed Warspawn|S|N|Target the Tamed Warspawn and use the poison.|
 K Vashera|ACTIVE|48800|M|30.99,45.12|QO|2|T|Vashera|N|Kill Vashera and loot her Talisman.|
@@ -174,7 +174,7 @@ T Poisoning the Brood|QID|49078|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 T Mark of the Bat|QID|48800|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 A Hir'eek, the Bat Loa|QID|49079|M|33.35,45.76|N|From Jo'chunga.|PRE|48800&49078|
 C Zalamar Slaughter|QID|49406|M|32,47|US|N|If you plan to complete the bonus objective now is the time.|
-;T Zalamar Slaughter|QID|49406|M|32,47|N|Bonus Obective - Autocompleted.| Not required - Hendo72
+;T Zalamar Slaughter|QID|49406|M|32,47|N|Bonus Obective - Autocompleted.| ** Not required - Hendo72
 C Hir'eek, the Bat Loa|QID|49079|M|31.72,46.75|QO|1|CHAT|N|Speak with Jo'chunga within the blood ritual pool.|
 C Hir'eek, the Bat Loa|QID|49079|M|32.09,46.88|QO|2|NC|N|Press the "1" key to use the poisoned dagger that Jo'chunga gave you while Hir'eek flies around.\n[color=FF0000]NOTE: [/color]Hopefully, you survive the landing.|
 T Hir'eek, the Bat Loa|QID|49079|M|31.23,46.81|N|To Jo'chunga when you can move again.|
@@ -211,7 +211,7 @@ C 'Til Death Do Us Part|QID|47248|M|40.37,26.48|QO|1|H|N|Using the northeast ent
 C Remnants of the Damned|QID|47491|M|40.46,30.25|US|N|Finish collecting the Decaying Bloodstones.|
 C A Desecrated Temple|QID|49348|M|43.95,30.05|US|H|N|Finish destroying the red blobs of Vile Desecration.|
 C Mark of the Damned|QID|48934|M|37.17,27.83|US|N|Finish up this bonus objective before going into the temple to turn in the quests.|
-;T Mark of the Damned|QID|48934|M|37.17,27.83|N|Bonus Objective - Autocompleted.|
+;T Mark of the Damned|QID|48934|M|37.17,27.83|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 T Remnants of the Damned|QID|47491|M|39.57,24.65|N|To Bwonsamdi.|
 T A Desecrated Temple|QID|49348|M|39.57,24.65|N|To Bwonsamdi.|
 T That Which Haunts the Dead|QID|47247|M|39.57,24.65|N|To Bwonsamdi.|
@@ -266,7 +266,7 @@ C Offer of Power|QID|48854|M|30.97,52.18|QO|2|H|N|Click on the bubble to break f
 T Offer of Power|QID|48854|M|31.05,52.08|N|To Shadow Hunter Da'jul.|
 A Projection Destruction|QID|48823|M|31.05,52.08|N|From Shadow Hunter Da'jul.|RANK|2|PRE|48854|
 C Projection Destruction|QID|48823|QO|1|CHAT|M|31.05,52.08|N|Tell Da'jul you are ready to gain the Fire mojo.|
-;A Stopping Zardrax|QID|48852|M|31.05,52.08|LVL|-50|N|Bonus Objective.|RANK|2| Not required - Hendo72
+;A Stopping Zardrax|QID|48852|M|31.05,52.08|LVL|-50|N|Bonus Objective.|RANK|2| ** Not required - Hendo72
 A Power Denied|QID|48825|M|30.91,52.02|N|From Kal'dran.|RANK|2|PRE|48854|
 C Stopping Zardrax|QID|48852|M|31.05,52.08|S|N|Bonus Objective. - Most things in the area will help in finishing the bonus objective.|
 C Projection Destruction|QID|48823|M|30.91,55.19;32.20,55.45;32.91,56.76|CN|NC|QO|2|U|152727|N|Use the burning mojo to destroy the Skeletal Mounds.|
@@ -284,7 +284,7 @@ C All Hope is Lost|QID|48857|M|29.08,56.79|QO|2|N|Empowered Kal'dran can be foun
 C Humbling the Terrors|QID|48855|M|29.97,60.15|U|153483|US|N|Finish of the Reconstructed Terrors.|
 C Conduit Interruption|QID|48856|M|29.68,59.50|QO|1|US|N|Finish off the Zardrax Conduits.|
 C Stopping Zardrax|QID|48852|M|32.41,56.13|US|N|Finish up the Bonus objective before you leave the area.|
-T Stopping Zardrax|QID|48852|M|32.41,56.13|N|Bonus Objective - Autocompleted.|
+;T Stopping Zardrax|QID|48852|M|32.41,56.13|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 T Humbling the Terrors|QID|48855|M|30.95,52.13|N|To Shadow Hunter Da'jul.|
 T Conduit Interruption|QID|48856|M|30.95,52.13|N|To Shadow Hunter Da'jul.|
 T All Hope is Lost|QID|48857|M|30.95,52.13|N|To Shadow Hunter Da'jul.|
@@ -330,7 +330,7 @@ K King Kooba|QID|49317|M|53.63,42.64|QO|1|RARE|ITEM|161221|T|King Kooba|N|Silver
 R Natha'vor|ACTIVE|49064|M|53.31,39.30|N|Follow the road east to Nath'vor.|
 C Torga, the Turtle Loa|QID|49064|M|55.65,39.41|CHAT|QO|1|N|Meet Kisha.\n[color=FF0000]NOTE: [/color]Either chat choice will work (second one leads to a humerous response).|
 A Profanity Filter|QID|47924|M|55.15,36.70|N|From Kajosh.|RANK|2|
-;A Mawfiend Extermination|QID|47996|M|54.16,35.64|LVL|-50|N|Bonus Objective - Autoaccepted.|RANK|2| Not required - Hendo72
+;A Mawfiend Extermination|QID|47996|M|54.16,35.64|LVL|-50|N|Bonus Objective - Autoaccepted.|RANK|2| ** Not required - Hendo72
 C Mawfiend Extermination|QID|47996|M|54.16,35.64|S|N|Kill mawfiends and otherwise clear the area to accomplish the bonus objective.|
 C Profanity Filter|QID|47924|M|54.31,33.27|QO|1|U|151849|NC|N|Use the Scroll of Inferno to destroy the Profane Totems.|
 C Profanity Filter|QID|47924|M|51.76,33.24|QO|2|CHAT|N|Ask Kajosh if it will work now?|
@@ -346,20 +346,21 @@ C Shoak's on the Menu|QID|47925|M|49.51,39.27|CHAT|N|Talk to Shoak to start. Sev
 K Corpse Monger Yon'gi|ACTIVE|47919|M|50.60,35.56|QO|2|T|Corpse Monger Yon'gi|N|Corpse Monger Yon'gi's hut is by itself just east of the village.|RANK|2|
 C Killing Cannibals|QID|47998|M|49.82,34.68|US|N|Finish your quota of Natha'vor Cannibals.|
 C Mawfiend Extermination|QID|47996|M|52.44,31.49|US|N|Bonus Objective - Finish eliminating the Mawfiend threat.|
-T Mawfiend Extermination|QID|47996|M|52.44,31.49|N|Bonus Objective - Autocompleted.|
+;T Mawfiend Extermination|QID|47996|M|52.44,31.49|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 T Shoak's on the Menu|QID|47925|M|55.81,32.24|N|To Shoak.|
 T Killing Cannibals|QID|47998|M|55.85,32.36|N|To Kajosh.|
 T Just Say No to Cannibalism|QID|47919|M|55.85,32.36|N|To Kajosh.|
-C Torga, the Turtle Loa|QID|49064|M|55.53,28.83|NC|QO|2|N|View Torga.|
+R Torga, the Turtle Loa|ACTIVE|49064|M|55.53,28.83|QO|2|N|Walk over and view Torga.|
 T Torga, the Turtle Loa|QID|49064|M|56.58,26.70|N|To Princess Talanji.|
 A Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|N|From Princess Talanji.|PRE|49064|
 C Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|CHAT|N|Tell Talanji you are ready.|
 T Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|N|To Princess Talanji.|
 A Cease all Summoning|QID|49080|M|56.58,26.70|N|From Princess Talanji.|PRE|49067|
 A Dreadtick Combustion|QID|49071|M|56.51,26.65|N|From Lashk.|PRE|49067|
-A Souls for the Death Loa|QID|49070|M|56.62,26.57|N|From Bwonsamdi.|PRE|49067|
+A Souls for the Death Loa|QID|49070|M|56.65,26.53|N|From Bwonsamdi.|PRE|49067|
 C Souls for the Death Loa|QID|49070|M|59.54,19.28|S|N|Kill Blood troll drudges as you go.|
 C Dreadtick Combustion|QID|49071|M|60.80,23.11|QO|1|U|153024|NC|S|N|Use the scroll to blow up Dreadtick Leechers. (or just kill them)|
+R Torga's Innards|ACTIVE|49080^49071^49070|M|58.04,21.40|N|Work your way around and climb up.|
 K Summoner Yarz|ACTIVE|49080|M|61.01,18.15|QO|1|T|Summoner Yarz|N|Kill Summoner Yarz.|
 C Dreadtick Combustion|QID|49071|M|60.80,23.11|QO|1|U|153024|NC|US|N|Use the scroll to blow up Dreadtick Leechers. (or just kill them)|
 C Souls for the Death Loa|QID|49070|M|58.20,20.41|US|N|Finish claiming the Blood troll souls.|
@@ -370,16 +371,16 @@ A Speaking with the Dead|QID|49120|M|56.63,26.54|N|From Bwonsamdi.|PRE|49080&490
 C Speaking with the Dead|QID|49120|M|56.63,26.54|CHAT|N|Ask, then listen to Torga's Wisdom.|
 T Speaking with the Dead|QID|49120|M|56.56,26.68|N|To Princess Talanji.|
 A Negative Blood|QID|49125|M|56.59,26.76|N|From Kisha.|PRE|49120|
-A Tortollan Rescue|QID|51689|M|56.59,26.76|LVL|-50|N|Bonus Objective - Autoaccepted.| ; you get it after 49125 accepted, and a slight delay
+;A Tortollan Rescue|QID|51689|M|56.59,26.76|LVL|-50|N|Bonus Objective - Autoaccepted.| ; you get it after 49125 accepted, and a slight delay ** Not required - Hendo72
 C Tortollan Rescue|QID|51689|M|56.59,26.76|S|N|Bonus Objective - Free the Tortollan's and kill the guards as you go.|
-C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|S|N|Target the Corrupted Loa Blood and use the scroll to destroy it.|
-C Negative Blood|QID|49125|M|62.27,24.56|QO|2|NC|N|Pick up Scroll of Fate's Hand lying on the ground.|
-C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|US|N|Finish destroying the Corrupted Loa Blood.|
+C Negative Blood|QID|49125|M|62.82,23.14|QO|1|T|Corrupted Loa Blood|U|160559|NC|S|N|Target the Corrupted Loa Blood and use the scroll to destroy it.|
+C Negative Blood|QID|49125|M|62.27,24.56|QO|2|H|N|Pick up Scroll of Fate's Hand lying on the ground.|
+C Negative Blood|QID|49125|M|62.82,23.14|QO|1|T|Corrupted Loa Blood|U|160559|NC|US|N|Finish destroying the Corrupted Loa Blood.|
 C Tortollan Rescue|QID|51689|M|64.91,20.93|US|N|Bonus Objective - Finish up rescuing Tortollans.|
-T Tortollan Rescue|QID|51689|M|64.91,20.93|N|Bonus Objective - Autocompleted.|
+;T Tortollan Rescue|QID|51689|M|64.91,20.93|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 $ Chag's Challenge|QID|50567|M|67.97,19.80|QO|1|RARE|ITEM|161046|T|Lucille|N|Tell Chag you will kill his summoned creature. Silver Elite to kill for artifact power and resources.|RANK|2|
 $ Shipwreaked Chest|QID|49483|M|67.81,16.80;66.78,17.33|CS|N|Starting at this waypoint, run up the fallen tree to find a long forgotten shipwreck. Up another branch takes you to the top deck where you will find some treasure to loot for resources and artifact power.|RANK|2|
-T Negative Blood|QID|49125|M|65.72,17.97|N|To Kisha.|
+T Negative Blood|QID|49125|M|65.72,17.97|N|To Kisha in the cave under the tree.|
 A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125&49123&49124|
 C Forcing Fate's Hand|QID|49126|M|65.73,17.87|QO|1|NC|N|Use Extra Action button to summon Hand of Fate.|
 C Forcing Fate's Hand|QID|49126|M|63.30,15.31|QO|2|N|1 is a single target attack \n2 is an AOE attack \n3 is a heal. \nGo forth and destroy the undead.|
@@ -456,7 +457,7 @@ A To Serve Krag'wa|QID|47918|M|75.45,56.73|N|From Krag'wa the Huge.|RANK|2|
 A Krag'wa's Aid|QID|47697|M|75.18,56.64|N|From Shadow Hunter Mutumba.|PRE|47696|
 T To Serve Krag'wa|QID|47918|M|77.78,53.18|N|To Shadow Hunter Narez.|
 A Krag'wa's Chosen|QID|48090|M|77.78,53.18|N|From Shadow Hunter Narez.|RANK|2|PRE|47918|
-A Nagating the Threat|QID|48093|M|77.78,53.18|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|PRE|47918|
+;A Nagating the Threat|QID|48093|M|77.78,53.18|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|PRE|47918| ** Not required - Hendo72
 A Vengeance of the Frogs|QID|48092|M|77.78,53.18|N|From Shadow Hunter Narez.|RANK|2|PRE|47918|
 C Nagating the Threat|QID|48093|M|77.78,53.18|S|N|Bonus Objective - Kill Naga, release frogs from the cages, etc to complete the bonus objective.|
 C Krag'wa's Chosen|QID|48090|M|79.38,53.84|QO|3|U|158071|NC|N|Throw the potion at Wok'grug the Clever.|
@@ -467,7 +468,7 @@ C Krag'wa's Chosen|QID|48090|M|80.37,50.27|QO|2|U|158071|NC|N|Throw the potion o
 K Naga|QID|50435|M|80.91,46.77|L|157797|N|Kill the Vilescale Naga in the area until you get a Vilescale Pearl.|RANK|3|PRE|47442|
 $ Mysterious Trash Pile|QID|50435|M|80.91,46.77|ITEM|157797|N|If you heard Jani's guttural voice (which means you found the Vilescale Pearl here), Jani wants the shiny.|RANK|2|PRE|47442|
 C Nagating the Threat|QID|48093|M|80.35,54.85|US|N|Time to finish up the Bonus Objective.|
-T Nagating the Threat|QID|48093|M|80.35,54.85|N|Bonus Objective - Autocompleted.|
+;T Nagating the Threat|QID|48093|M|80.35,54.85|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 T Krag'wa's Chosen|QID|48090|M|77.74,53.17|N|To Shadow Hunter Narez.|
 T Vengeance of the Frogs|QID|48092|M|77.74,53.17|N|To Shadow Hunter Narez.|
 $ Swallowed Naga Treasure|QID|50045|M|76.86,62.12|N|Inside a fish skeleton. Loot for artifact power and resources.|RANK|2|
@@ -510,7 +511,7 @@ R Wayward Shoals|ACTIVE|47631|M|73.57,54.13;68.94,44.62|CS|N|Run generally north
 T Rendezvous with the Libation|QID|47631|M|74.58,38.84|N|To Patch.|
 A No Goblin Left Behind|QID|47597|M|74.58,38.84|N|From Patch.|PRE|47631|
 A Revenge: Served Hot|QID|47599|M|74.78,39.04|N|From Tickler.|PRE|47631|
-A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL|-50|  ; Comes available after accepting 47597 and 47599
+;A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL|-50|  ; Comes available after accepting 47597 and 47599 ** Not required - Hendo72
 C The Libation's Liberation|QID|47756|M|75.05,37.17|S|N|Bonus Objective - Kill Naga and bandage injured soldiers to complete.|
 C Revenge: Served Hot|QID|47599|M|79.96,32.26|QO|1|U|151363|NC|S|N|Target a Vilescale Behemoth and use the provided Rocket Laucher as you go.|
 K Krubbs|QID|48052|M|75.85,36.22|QO|1|RARE|ITEM|161110|T|Krubbs|N|Silver Elite to kill for resources and artifact power.|RANK|2|
@@ -521,7 +522,7 @@ C No Goblin Left Behind|QID|47597|M|76.99,32.66|QO|1|NC|N|Kill his torturers, th
 C Revenge: Served Hot|QID|47599|M|79.96,32.26|NC|U|151363|US|N|Target a Vileschale Behemoth and use the Rocket Launcher.|
 $ Cused Treasure Chest|QID|48057|M|81.78,30.53|QO|1|T|Captain Mu'kala|N|Attempting to open the chest summons Silver Elite, Captain Mu'kala, apon killing him, the chest can be opened. Loot it for resources and artifact power.|RARE|ITEM|161115|RANK|2|
 C The Libation's Liberation|QID|47756|M|78.37,30.34|US|N|Bonus Obective - Complete by killing Naga and Bandaging Sailors.|
-T The Libation's Liberation|QID|47756|M|78.37,30.34|N|Bonus Objective - Autocompleted.|
+;T The Libation's Liberation|QID|47756|M|78.37,30.34|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 f Forlorn Ruins|ACTIVE|47599|M|82.15,26.70|N|At Zibir the Wingmaster.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Revenge: Served Hot|QID|47599|M|82.39,27.18|N|To Ticker.|
 T No Goblin Left Behind|QID|47597|M|82.37,27.31|N|To Patch.|
@@ -637,13 +638,13 @@ A The Crawg Ma'da|QID|50083|M|45.34,58.59|N|From Rokhan.|RANK|3|PRE|50323|
 K Amaka the Crawg Ma'da|ACTIVE|50083|QO|2|M|46.99,54.11|U|156868|T|Amaka the Crawg Ma'da|N|Optionally, if you have one, you can use the poison gland to weaken and do additional damage to Amaka.|
 T The Crawg Ma'da|QID|50083|M|48.53,53.54|N|To Rokhan.|
 A A Message of Blood and Fire|QID|50085|M|48.53,53.54|N|From Rokhan.|PRE|50083|RANK|3|;may be spurious, but quest isnt avail until you turn in The Crawg Ma'da
-A Raiding the Raiders|QID|50080|M|48.46,52.69|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|3|PRE|50079&50081|
+;A Raiding the Raiders|QID|50080|M|48.46,52.69|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|3|PRE|50079&50081| ** Not required - Hendo72
 C Raiding the Raiders|QID|50080|M|48.46,52.69|S|N|Bonus Objective - Kill blood trolls, rescue captives and pick up the crates to complete.|
 C A Message of Blood and Fire|QID|50085|M|48.85,52.58|U|156931|S|NC|N|Use the wand to set huts on fire, some will take more than one torching to find the right spot.|
 K Wardrummer Zurula|QID|48623|M|48.96,50.83|QO|1|T|Wardrummer Zurula|N|Up this tower to find yet another Silver Elite to kill for artifact power and resources.|RANK|3|RARE|;item unknown
 C A Message of Blood and Fire|QID|50085|M|48.85,52.58|U|156931|US|NC|N|Use the wand to set huts on fire, some will take more than one torching to find the right spot.|
 C Raiding the Raiders|QID|50080|M|45.34,58.59|US|N|Bonus Objective - Finish this up before you leave (or not as you choose).|
-T Raiding the Raiders|QID|50080|M|45.34,58.59|N|Bonus Objective - Autocompleted.|
+;T Raiding the Raiders|QID|50080|M|45.34,58.59|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 K Jax'teb the Reanimated|QID|50307|M|45.17,51.79|QO|1|RARE|ITEM|160969|T|Jax'teb the Reanimated|N|One more Silver Elite to kill and loot for artifact power and resources.|RANK|3|
 T A Message of Blood and Fire|QID|50085|M|44.28,54.06|N|To Rokhan. The path up from Jax'teb takes you to Rokhan.|
 K Mala'kili|QID|50040|M|45.67,56.83;50.17,53.91;53.06,54.30|CS|QO|1|RARE|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet crawg, Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources. After you kill it, back up the hill to find Krag'wa.|RANK|3|;there is not any very good place for this. I think this is the closest. ... Although perhaps after picking up the dungeon quest is better.
