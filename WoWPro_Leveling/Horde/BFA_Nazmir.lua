@@ -48,7 +48,7 @@ C Ending the Blood Trolls|QID|47262|M|44.91,71.66|N|Face off against Grand Ma'da
 T Ending the Blood Trolls|QID|47262|M|45.21,71.05|N|To Princess Talanji.|
 A A Time of Revelation|QID|47263|M|45.21,71.05|N|From Princess Talanji.|PRE|47262|
 C A Time of Revelation|QID|47263|M|45.58,68.66|CHAT|N|Speak with Talanji at the overlook to begin a cut-scene.|
-f Zul'jan Ruins|ACTIVE|47263|M|38.85,78.14|N|At Zabar.|
+f Zul'jan Ruins|ACTIVE|47263|M|38.85,78.14|N|At Zabar.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T A Time of Revelation|QID|47263|M|39.14,79.08|N|To Princess Talanji.|
 A The Aid of the Loa|QID|47188|M|39.14,79.08|N|From Princess Talanji.|PRE|47263|
 C The Aid of the Loa|QID|47188|M|39.14,79.08|CHAT|N|Listen to Talanji and Rokhan|
@@ -73,24 +73,24 @@ T Pulling Fangs|QID|48574|M|34.10,78.56|N|To Sur'jan.|
 A Safe Flying|QID|48576|M|34.08,78.57|N|From Sur'jan when it becomes available.|RANK|2|PRE|48574&48573|
 A Terrorizing their Eggs|QID|48577|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
 A There's No Eye in Skyterror|QID|48578|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
-C Safe Flying|QID|48576|M|33.50,84.91|S|U|152610|N|Use Grappling Hook to pull them down from the sky or just kill the skyterrors on the ground.|
+C Safe Flying|QID|48576|M|33.50,84.91|S|U|152610|N|Use Grappling Hook to pull them down from the sky or just kill the Primal Skyterrors on the ground.|
 C Terrorizing their Eggs|QID|48577|M|33.78,84.81|S|H|N|Click to destroy the Skyterror eggs.|
 $ Cleverly Disguised Chest|QID|49885|M|35.64,85.62|N|There is a small cave at the base of the cliff. Kill the Skyterror inside to access ths treasure.|RANK|2|
 C There's No Eye in Skyterror|QID|48578|M|33.90,85.98|QO|1|N|Kill Jarkadiax and take his Eye.|T|Jarkadiax|
-K Gwugnug the Cursed|QID|48638|M|32.88,85.81;33.75,86.28|CS|QO|1|RARE|ITEM|162614|T|Gwugnug the Cursed|N|This silver elite can be found in a cave below Jarkadiax, accessed by a path that runs behind the hill.|RANK|2|
+K Gwugnug the Cursed|QID|48638|M|32.88,85.81;33.75,86.28|CS|QO|1|RARE|ITEM|162614|T|Gwugnug the Cursed|N|This silver elite can be found in a cave below Jarkadiax, accessed by a path that runs behind the hill.\n[color=FF0000]NOTE: [/color]This quest is currently bugged and you will not get credit for the kill. You can either skip it or manually check it off for now.|RANK|2|
 C Terrorizing their Eggs|QID|48577|M|33.78,84.81|US|H|N|Finish destroying the Skyterror eggs.|
-C Safe Flying|QID|48576|M|33.50,84.91|US|T|Skyterror|U|152610|N|Finish kill the Skyterrors.|
-T Safe Flying|QID|48576|M|34.10,78.60|N|To Sur'jan.|
-T Terrorizing their Eggs|QID|48577|M|34.10,78.60|N|To Sur'jan.|
-T There's No Eye in Skyterror|QID|48578|M|34.10,78.60|N|To Sur'jan.|
-A The Blood of My Enemies|QID|48584|M|34.07,78.58|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
-A My Head and Shoulders|QID|48590|M|34.07,78.58|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
-A Purge the Infection|QID|48588|M|34.07,78.58|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|
-C Purge the Infection|QID|48588|M|34.07,78.58|N|Bonus Objective, complete as you go.|S|
+C Safe Flying|QID|48576|M|33.50,84.91|US|T|Primal Skyterror|U|152610|N|Finish killing the Primal Skyterrors.|
+T Safe Flying|QID|48576|M|34.10,78.56|N|To Sur'jan.|
+T Terrorizing their Eggs|QID|48577|M|34.10,78.56|N|To Sur'jan.|
+T There's No Eye in Skyterror|QID|48578|M|34.10,78.56|N|To Sur'jan.|
+A The Blood of My Enemies|QID|48584|M|34.10,78.56|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
+A My Head and Shoulders|QID|48590|M|34.10,78.56|N|From Sur'jan.|RANK|2|PRE|48576&48577&48578|
+A Purge the Infection|QID|48588|M|34.10,78.56|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|
+C Purge the Infection|QID|48588|M|34.10,78.56|N|Bonus Objective, complete as you go.|S|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|S|N|Kill Dreadticks and loot their blood as you go.|
-C My Head and Shoulders|QID|48590|M|31.62,73.49|QO|1|NC|N|Pick up Sur'jan's Helm.|
-C My Head and Shoulders|QID|48590|M|31.05,71.38|QO|2|NC|N|Pick up Sur'jan's Left Shoulderpad.|
-C My Head and Shoulders|QID|48590|M|28.79,76.75|QO|3|NC|N|Pick up Sur'jan's Right Shoulderpad.|
+C My Head and Shoulders|QID|48590|M|31.62,73.49|QO|1|H|N|Pick up Sur'jan's Helm.|
+C My Head and Shoulders|QID|48590|M|31.05,71.38|QO|2|H|N|Pick up Sur'jan's Left Shoulderpad.|
+C My Head and Shoulders|QID|48590|M|28.79,76.75|QO|3|H|N|Pick up Sur'jan's Right Shoulderpad.|
 K Infected Direhorn|QID|47877|M|24.53,78.09|QO|1|RARE|ITEM|161218|T|Infected Direhorn|N|You can find this Silver Elite in a cave under a waterfall.|RANK|2|
 C The Blood of My Enemies|QID|48584|M|30.19,75.26|US|N|Finish collecting the Dreadtick blood.|
 C Purge the Infection|QID|48588|M|28.29,75.53|US|N|Now is a good time to finish this bonus objective if you plan to.|
@@ -102,67 +102,68 @@ C Urok's True Death|QID|48591|M|26.01,73.49|N|Kill Urok.|T|Urok|
 T Urok's True Death|QID|48591|M|28.78,72.64|N|To Sur'jan.|
 K Tojek|ACTIVE|51089|QO|1|M|27.30,67.41|T|Tojek|N|You can use the group finder if you need help for this, recommended 3 person quest to kill Tojek.|
 ;  A Pact with Death
-C The Shadow of Death|QID|47241|M|39.63,65.00|NC|QO|1|N|Click to investigate the Weathered Shrine.|
-C The Shadow of Death|QID|47241|M|37.48,63.07|QO|2|NC|N|Pick up the spear from inside the ruins.|
-C The Shadow of Death|QID|47241|M|35.64,58.55|QO|3|NC|N|Click to investigate the Shrine of Bones.|
-$ Urn of Agussu|QID|50888|M|38.12,57.68|N|Click the Urn to summon the guardians, Defeat them and loot the treasure.|RANK|2|RARE|
-A Bwonsamdi's Deliverance|QID|48468|M|39.07,60.62|N|From Shinga Deathwalker.|RANK|2|
-A Respecting the Rites|QID|48473|M|39.07,60.62|N|From Shinga Deathwalker.|RANK|2|
+C The Shadow of Death|QID|47241|M|39.63,65.00|H|QO|1|N|Click to investigate the Weathered Shrine.|
+C The Shadow of Death|QID|47241|M|37.48,63.07|QO|2|H|N|Pick up the spear from inside the ruins.|
+C The Shadow of Death|QID|47241|M|35.64,58.55|QO|3|H|N|Click to investigate the Shrine of Bones.\n[color=FF0000]NOTE: [/color]Be ready for an ambush as you leave.|
+$ Urn of Agussu|QID|50888|M|38.12,57.68|N|Click the Urn to summon the three guardians and defeat them to loot the treasure.|RANK|2|RARE|
+A Bwonsamdi's Deliverance|QID|48468|M|39.07,60.67|N|From Shinga Deathwalker.|RANK|2|
+A Respecting the Rites|QID|48473|M|39.07,60.67|N|From Shinga Deathwalker.|RANK|2|
 C Bwonsamdi's Deliverance|QID|48468|M|41.37,61.63|U|153178|S|N|Kill the defiled worshipers and burn thier corpses as you go.|
-C Respecting the Rites|QID|48473|M|42.20,64.61|QO|1|NC|S|N|Click on the ritual torches to light them as you go.|
-C Respecting the Rites|QID|48473|M|41.29,62.57|QO|2|NC|N|Ritual Powder is outside at the corner of the building.|
-C Respecting the Rites|QID|48473|M|42.20,64.61|US|NC|QO|1|N|Finish lighting the Ritual Torches.|
+C Respecting the Rites|QID|48473|M|42.20,64.61|QO|1|H|S|N|Click on the ritual torches to light them as you go.|
+C Respecting the Rites|QID|48473|M|41.29,62.57|QO|2|H|N|Ritual Powder is outside at the corner of the building.|
+C Respecting the Rites|QID|48473|M|42.20,64.61|US|H|QO|1|N|Finish lighting the Ritual Torches.|
 C Bwonsamdi's Deliverance|QID|48468|M|41.37,61.63|U|153178|US|N|Finish burning the necesary corpses.|
-T Bwonsamdi's Deliverance|QID|48468|M|38.95,59.93|N|To Shinga Deathwalker.|
-T Respecting the Rites|QID|48473|M|38.95,59.93|N|To Shinga Deathwalker.|
-A Kel'vax's Home|QID|48478|M|38.95,59.93|N|From Shinga Deathwalker.|RANK|2|PRE|48473&48468|
+T Bwonsamdi's Deliverance|QID|48468|M|38.93,59.91|N|To Shinga Deathwalker.|
+T Respecting the Rites|QID|48473|M|38.93,59.91|N|To Shinga Deathwalker.|
+A Kel'vax's Home|QID|48478|M|38.93,59.91|N|From Shinga Deathwalker.|RANK|2|PRE|48473&48468|
 A Bones for Protection|QID|48479|M|39.01,59.91|N|From Kol'jun Deathwalker.|RANK|2|PRE|48473&48468|
 C Bones for Protection|QID|48479|M|39.92,53.98|S|N|Kill the undead mobs in the area for Cursed Bones as you go.|
-C Kel'vax's Home|QID|48478|M|39.39,57.50|QO|2|U|154130|NC|N|Use the powder then pick up the Ancient Phylactery.|
-C Kel'vax's Home|QID|48478|M|38.31,54.44|QO|3|U|154130|NC|N|Pick up the Pristine Phylactery.|
-C Kel'vax's Home|QID|48478|M|40.99,51.97|QO|1|U|154130|NC|N|Pick up the Repaired Phylactery acquired.|
-$ Cursed Nazmani Chest|QID|49979|M|42.35,50.53;43.05,50.76|CS|N|In a tiny "cave" made from the roots of a tree you can find this chest to loot for resources and artifact power.|RANK|2|
+C Kel'vax's Home|QID|48478|M|39.39,57.50|QO|2|U|154130|H|N|After killing the Phylactery Guardian (if required), use the powder on the Ancient Phylactery and pick it up.|
+C Kel'vax's Home|QID|48478|M|38.31,54.40|QO|3|U|154130|H|N|After killing the Phylactery Guardian (if required), use the powder on the Pristine Phylactery and pick it up.|
+C Kel'vax's Home|QID|48478|M|40.99,51.97|QO|1|U|154130|NC|N|After killing the Phylactery Guardians (if required), use the powder on the Repaired Phylactery and pick it up.|
+$ Cursed Nazmani Chest|QID|49979|M|42.35,50.53;43.06,50.79|CS|N|Inside a tiny "cave" formed in the roots of a tree, you can find this chest to loot for resources and artifact power.|RANK|2|
 K Uroku the Bound|QID|49305|M|44.25,48.77|QO|1|RARE|ITEM|161094|T|Uroku the Bound|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 K Corpse Bringer Yal'kar|QID|48462|M|41.33,53.41|QO|1|RARE|ITEM|161102|T|Corpse Bringer Yal'kar|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 C Bones for Protection|QID|48479|M|39.92,53.98|US|N|Finish up collecting the Cursed Bones.|
 T Bones for Protection|QID|48479|M|38.99,59.92|N|To Kol'jun Deathwalker.|
-T Kel'vax's Home|QID|48478|M|38.94,59.94|N|To Shinga Deathwalker.|
-A The Fall of Kel'vax|QID|48480|M|38.94,59.94|N|From Shinga Deathwalker.|RANK|2|PRE|48479&48478|
-K Kel'vax Deathwalker|ACTIVE|48480|M|41.75,57.49|T|Kel'vax Deathwalker|N|Kill Kel'vax Deathwalker.|
+T Kel'vax's Home|QID|48478|M|38.93,59.91|N|To Shinga Deathwalker.|
+A The Fall of Kel'vax|QID|48480|M|38.93,59.91|N|From Shinga Deathwalker.|RANK|2|PRE|48479&48478|
+K Kel'vax Deathwalker|ACTIVE|48480|M|41.75,57.49|T|Kel'vax Deathwalker|QO|1|N|Kill Kel'vax Deathwalker.|
 K Bajiatha|QID|48439|M|42.70,60.47|QO|1|RARE|ITEM|161093|T|Bajiatha|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 T The Fall of Kel'vax|QID|48480|M|38.93,59.92|N|To Shinga Deathwalker.|
-T The Shadow of Death|QID|47241|M|36.64,53.91|N|To Hanzabu.|
-A A Culling of Souls|QID|47244|M|36.64,53.91|N|From Hanzabu.|PRE|47241|
-$ Wunja's Trove|QID|49313|M|34.67,54.98;35.41,54.97|CS|N|Stealing from the Blind, For Shame! Treasure to loot and Wunja is a vendor if you want to sell some junk.|RANK|2|
-K Xu'ba|QID|50348|M|36.72,50.81|QO|1|RARE|ITEM|162619|T|Xu'ba|N|Silver Elite for resources and artifact power.|RANK|2|
-K Blood Witch Najima|ACTIVE|47244|M|38.46,50.12|T|Blood Witch Najima|N|Kill Blood Witch Najima.|
-T A Culling of Souls|QID|47244|M|39.52,43.87|N|To Hanzabu.|
-A Spiritual Restoration|QID|49278|M|39.52,43.87|N|From Hanzabu.|PRE|47244|
-f Zo'bal Ruins|ACTIVE|49278|M|40.18,42.81|N|At Du'ba.|
-C Spiritual Restoration|QID|49278|M|40.89,43.54;39.03,43.92;38.86,43.49|CN|NC|N|Click on the glowing balls to restore the Drained Spirits.|
+T The Shadow of Death|QID|47241|M|36.62,53.92|N|To Hanzabu.|
+A A Culling of Souls|QID|47244|M|36.62,53.92|N|From Hanzabu.|PRE|47241|
+$ Wunja's Trove|QID|49313|M|34.67,54.98;35.43,54.98|CS|N|Located inside the Burial Mound, open for treasure and resources to loot.\n[color=FF0000]NOTE: [/color]Wunja is a vendor if you want to sell some junk.|RANK|2|
+K Xu'ba|QID|50348|M|36.72,50.81|QO|1|RARE|ITEM|162619|T|Xu'ba|N|Silver Elite for resources and artifact power.\n[color=FF0000]NOTE: [/color]This quest is currently bugged and you will not get credit for the kill. You can either skip it or manually check it off for now.|RANK|2|
+K Blood Witch Najima|ACTIVE|47244|M|38.54,49.98|T|Blood Witch Najima|QO|1|N|Kill Blood Witch Najima.\n[color=FF0000]NOTE: [/color]Hanzabu will appear to collect her soul and the step complete upon him doing so.|
+T A Culling of Souls|QID|47244|M|39.52,43.84|N|To Hanzabu.|
+A Spiritual Restoration|QID|49278|M|39.52,43.84|N|From Hanzabu.|PRE|47244|
+f Zo'bal Ruins|ACTIVE|49278|M|40.18,42.81|N|At Du'ba.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+C Spiritual Restoration|QID|49278|M|40.89,43.54;39.03,43.92;38.86,43.49|CN|H|N|Click on the glowing balls to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|
 T Spiritual Restoration|QID|49278|M|39.53,43.83|N|To Hanzabu.|
-A The Necropolis|QID|47868|M|39.50,43.83|N|From Hanzabu.|PRE|49278|
+A The Necropolis|QID|47868|M|39.53,43.83|N|From Hanzabu.|PRE|49278|
 ;  Undercover Sista
-A Blood Troll on the Outside|QID|49440|M|39.65,43.85|N|From Witch Doctor Kejabu.|PRE|49278|
-C Blood Troll on the Outside|QID|49440|M|39.74,43.52|QO|1|NC|N|Click on the Ritual components around the circle.|
-C Blood Troll on the Outside|QID|49440|M|39.63,43.87|QO|2|CHAT|N|Speak to Witch Doctor Kejabu to complete the ritual|
+A Blood Troll on the Outside|QID|49440|M|39.65,43.85|N|From Witch Doctor Kejabu after he appears beside you.|PRE|49278|
+C Blood Troll on the Outside|QID|49440|M|39.74,43.52|QO|1|H|N|Click on the three (3) spots around the circle to place the Blood Troll Skulls.|
+C Blood Troll on the Outside|QID|49440|M|39.63,43.87|QO|2|CHAT|N|Speak to Witch Doctor Kejabu to complete the ritual.|
 T Blood Troll on the Outside|QID|49440|M|39.63,43.87|N|To Witch Doctor Kejabu.|
 A Sneaking into Zalamar|QID|48699|M|39.63,43.87|N|From Witch Doctor Kejabu.|PRE|49440|
+R Zalamar|ACTIVE|48699|M|36.26,47.67|N|Make your way to Zalamar.\n[color=FF0000]NOTE: [/color]As long as you're within Zalamar, your disguise will hold (except where noted) and will be restored upon resurrection should you die.|
 C Sneaking into Zalamar|QID|48699|M|32.38,46.16|CHAT|N|Find Bloodseeker Jo'chunga|
 T Sneaking into Zalamar|QID|48699|M|33.35,45.76|N|To Bloodseeker Jo'chunga.|
 A Isolating Zalamar|QID|48801|M|33.35,45.76|N|From Bloodseeker Jo'chunga.|PRE|48699|
 A How to Be a Blood Troll|QID|48890|M|33.35,45.76|N|From Bloodseeker Jo'chunga.|PRE|48699|
-C How to Be a Blood Troll|QID|48890|M|33.05,44.21|NC|S|N|Click the Unproven Drudges as you go.|
-C Isolating Zalamar|QID|48801|M|35.28,46.83|CHAT|QO|2|N|Go to the top of the tower and send Wardrummer Sheej off.|
-C Isolating Zalamar|QID|48801|M|31.14,49.73|CHAT|QO|3|N|Go to the top of the tower and send Wardrummer Gix on an errand.|
-C Isolating Zalamar|QID|48801|M|31.51,43.29|CHAT|QO|1|N|Go to the top of the tower and send Wardrummer Saljo to get firewood.|
-K Gutrip|QID|49231|M|32.56,43.24|QO|1|RARE|ITEM|161041|T|Gutrip|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-C How to Be a Blood Troll|QID|48890|M|33.05,44.21|US|NC|N|Finish testing your disguise on the Unproven Drudges.|
+C How to Be a Blood Troll|QID|48890|M|33.05,44.21|H|S|N|Click the Unproven Drudges as you go.|
+C Isolating Zalamar|QID|48801|M|35.30,46.81|CHAT|QO|2|N|Go to the top of the tower and send Wardrummer Sheej off.|
+C Isolating Zalamar|QID|48801|M|31.16,49.75|CHAT|QO|3|N|Go to the top of the tower and send Wardrummer Gix on an errand.|
+C Isolating Zalamar|QID|48801|M|31.48,43.26|CHAT|QO|1|N|Go to the top of the tower and send Wardrummer Saljo to get firewood.|
+K Gutrip|QID|49231|M|32.56,43.24|QO|1|RARE|ITEM|161041|T|Gutrip|N|Silver Elite to kill for resources and artifact power.\n[color=FF0000]NOTE: [/color]While doing this, your disguise will drop and the locals will attack you until the battle ends and your disguise is restored.|RANK|2|
+C How to Be a Blood Troll|QID|48890|M|33.05,44.21|US|H|N|Finish testing your disguise on the Unproven Drudges.|
 T Isolating Zalamar|QID|48801|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
-T How to Be a Blood Troll|QID|48890|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
+T How to Be a Blood Troll.|QID|48890|M|33.35,45.77|N|To Bloodseeker Jo'chunga.\n[color=FF0000]NOTE: [/color]Once you turn in this quest, you'll no longer have a disguise.| ; Auto-complete broken so they can see the disguise note - Hendo72
 A Poisoning the Brood|QID|49078|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801&48890|
 A Mark of the Bat|QID|48800|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801&48890|
-A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-50|  ;  only active once you get 49078 and 48800
+;A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-50|  ;  only active once you get 49078 and 48800
 C Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective.|S|
 C Poisoning the Brood|QID|49078|M|32.13,48.71|U|153012|NC|T|Tamed Warspawn|S|N|Target the Tamed Warspawn and use the poison.|
 K Vashera|ACTIVE|48800|M|30.99,45.12|QO|2|T|Vashera|N|Kill Vashera and loot her Talisman.|
@@ -173,31 +174,32 @@ T Poisoning the Brood|QID|49078|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 T Mark of the Bat|QID|48800|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 A Hir'eek, the Bat Loa|QID|49079|M|33.35,45.76|N|From Jo'chunga.|PRE|48800&49078|
 C Zalamar Slaughter|QID|49406|M|32,47|US|N|If you plan to complete the bonus objective now is the time.|
-T Zalamar Slaughter|QID|49406|M|32,47|N|Bonus Obective - Autocompleted.|
+;T Zalamar Slaughter|QID|49406|M|32,47|N|Bonus Obective - Autocompleted.| Not required - Hendo72
 C Hir'eek, the Bat Loa|QID|49079|M|31.72,46.75|QO|1|CHAT|N|Speak with Jo'chunga within the blood ritual pool.|
-C Hir'eek, the Bat Loa|QID|49079|M|32.09,46.88|QO|2|NC|N|Press the "1" key to use the poisoned dagger that Jo'chunga gave you while Hir'eek flies around.|
-T Hir'eek, the Bat Loa|QID|49079|M|31.23,46.81|N|To Jo'chunga.|
+C Hir'eek, the Bat Loa|QID|49079|M|32.09,46.88|QO|2|NC|N|Press the "1" key to use the poisoned dagger that Jo'chunga gave you while Hir'eek flies around.\n[color=FF0000]NOTE: [/color]Hopefully, you survive the landing.|
+T Hir'eek, the Bat Loa|QID|49079|M|31.23,46.81|N|To Jo'chunga when you can move again.|
 A To Kill a Loa|QID|49081|M|31.23,46.81|N|From Jo'chunga.|PRE|49079|
 K Hir'eek|ACTIVE|49081|M|29.75,46.75|QO|1|T|Hir'eek|N|Kill Hir'eek. Go behind the pillers in the room when he casts Blood Horror.|
 T To Kill a Loa|QID|49081|M|31.25,46.81|N|To Jo'chunga.|
 A Upward and Onward|QID|49082|M|31.25,46.81|N|From Jo'chunga.|PRE|49081|
-C Upward and Onward|QID|49082|M|31.27,46.83|QO|1|NC|N|Take the proffered Flight out of Hir'eek's Lair(Optional).|
-C Upward and Onward|QID|49082|M|39.64,43.82|QO|2|CHAT|N|Inform Witch Doctor Kejabu.|
-T Upward and Onward|QID|49082|M|39.64,43.82|N|To Witch Doctor Kejabu.|
+C Upward and Onward|QID|49082|M|31.27,46.71|QO|1|V|N|Take the proffered ride out of Hir'eek's Lair on the Hir'eek Spawnling.(Optional)\n[color=FF0000]NOTE: [/color]Skip this step if you wish to do it on your own.|
+C Upward and Onward|QID|49082|M|39.63,43.87|QO|2|CHAT|N|Inform Witch Doctor Kejabu at the Zo'bal Ruins of the outcome.|
+T Upward and Onward|QID|49082|M|39.63,43.87|N|To Witch Doctor Kejabu.|
+R The Necropolis|ACTIVE|47868|M|39.58,41.62;39.58,34.92|CS|N|Head north out of Zo'bal Ruins and make your way across the Dreadmire to The Necropolis on the other side.|
 T The Necropolis|QID|47868|M|39.58,32.57|N|To Hanzabu.|
 A A Tribute for Death|QID|47880|M|39.58,32.57|N|From Hanzabu.|PRE|47868|
-C A Tribute for Death|QID|47880|M|39.54,32.25|QO|1|NC|N|Run around the circle following the lines.|
-C A Tribute for Death|QID|47880|M|39.59,31.84|QO|2|NC|N|Click the drum Drum of Spirits.|
-T A Tribute for Death|QID|47880|M|39.49,24.62|N|To Bwonsamdi.|
-A Remnants of the Damned|QID|47491|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
-A A Desecrated Temple|QID|49348|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
-A That Which Haunts the Dead|QID|47247|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
-A Mark of the Damned|QID|48934|M|39.57,25.41|LVL|-50|N|Bonus Objective - Auto-accepted.|  ;  only active once you get 47491, 49348, 47247
+R A Tribute for Death|QID|47880|M|39.54,32.25|QO|1|N|Run around the circle following the lines.\n[color=FF0000]NOTE: [/color]If you toggle 'walk' ([/] on the number pad by default), it'll make it a lot easier to do. Don't forget to turn it back on.|
+C A Tribute for Death|QID|47880|M|39.59,31.84|QO|2|H|N|Click the drum Drum of Spirits.|
+T A Tribute for Death|QID|47880|M|39.57,24.72|N|To Bwonsamdi inside the very dark Edge of Oblivion on the north side of The Necropolis.|
+A Remnants of the Damned|QID|47491|M|39.57,24.72|N|From Bwonsamdi.|PRE|47880|
+A A Desecrated Temple|QID|49348|M|39.57,24.72|N|From Bwonsamdi.|PRE|47880|
+A That Which Haunts the Dead|QID|47247|M|39.57,24.72|N|From Bwonsamdi.|PRE|47880|
+;A Mark of the Damned|QID|48934|M|39.57,25.41|LVL|-50|N|Bonus Objective - Auto-accepted.|  ;  only active once you get 47491, 49348, 47247
 C Mark of the Damned|QID|48934|M|39.57,25.41|S|N|Bonus Objective.|
 C A Desecrated Temple|QID|49348|M|43.95,30.05|S|NC|N|Click on the red blobs of Vile Desecration to destroy them.|
 $ Offering to Bwonsamdi|QID|49484|M|42.39,26.13;42.79,26.20|CS|N|Go up the tree trunk then onto the walls of the ruins and down inside to find this treasure.|RANK|2|
 C That Which Haunts the Dead|QID|47247|M|43.35,30.02|QO|1|N|Kill Warlord Malaja.|
-A The Forlorn Soul|QID|49432|M|42.60,31.47|N|From Keula.|
+A The Forlorn Soul|QID|49432|M|42.58,31.46|N|From Keula.|
 A 'Til Death Do Us Part|QID|47248|M|36.66,27.39|N|From Theurgist Salazae.|RANK|2|
 C That Which Haunts the Dead|QID|47247|M|36.12,29.87|QO|2|N|Kill Hex Priestess Tizeja.|
 K Azerite-Infused Slag|QID|50563|M|37.30,26.24;33.34,27.53|CS|QO|1|T|Azerite-Infused Slag|N|Silver Elite to kill for resources and artifact power.|RANK|2|RARE|;item unknown
@@ -208,7 +210,7 @@ K Za'amar the Queen's Blade|QID|49469|M|38.77,28.76;38.84,26.72|CS|RARE|ITEM|161
 C 'Til Death Do Us Part|QID|47248|M|40.37,26.52|QO|1|NC|N|Into the last catacomb you will find a box with Valjabu's Tusk Ring, Kill Gee'dee the Cursed if he is in the way.|
 C Remnants of the Damned|QID|47491|M|40.46,30.25|US|N|Finish collecting the Decaying Bloodstones.|
 C Mark of the Damned|QID|48934|M|37.17,27.83|US|N|Finish up this bonus objective before going into the temple to turn in the quests.|
-T Mark of the Damned|QID|48934|M|37.17,27.83|N|Bonus Objective - Autocompleted.|
+;T Mark of the Damned|QID|48934|M|37.17,27.83|N|Bonus Objective - Autocompleted.|
 T Remnants of the Damned|QID|47491|M|39.57,24.65|N|To Bwonsamdi.|
 T A Desecrated Temple|QID|49348|M|39.57,24.65|N|To Bwonsamdi.|
 T That Which Haunts the Dead|QID|47247|M|39.57,24.65|N|To Bwonsamdi.|
@@ -220,7 +222,7 @@ T Soulbound|QID|47249|M|39.59,30.23|N|To Bwonsamdi.|
 A We'll Meet Again|QID|47250|M|39.59,30.23|N|From Bwonsamdi.|PRE|47249|
 T 'Til Death Do Us Part|QID|47248|M|36.65,27.39|N|To Theurgist Salazae.|
 T We'll Meet Again|QID|47250|M|39.52,43.85|N|To Hanzabu.|
-A Hunting Zardrax|QID|49314|M|39.66,43.86|N|From Witch Doctor Kejabu.|LEAD|48854|RANK|2|
+A Hunting Zardrax|QID|49314|M|39.63,43.87|N|From Witch Doctor Kejabu.|LEAD|48854|RANK|2|
 A Catching Up|QID|49185|M|39.39,44.02|N|From Princess Talanji.|PRE|47250|
 C Catching Up|QID|49185|M|39.39,44.02|CHAT|N|Tell Talanji about Bwonsamdi and Hir'eek|
 T Catching Up|QID|49185|M|39.39,44.02|N|To Princess Talanji.|
@@ -397,7 +399,7 @@ R Towards Gloom Hollow and Crez|QID|49902|M|55.65,39.40|CC|CHAT|N|Talk to Crez.|
 K Scout Skrasniss|QID|48972|M|58.84,38.98|QO|1|RARE|ITEM|160951|T|Scout Skrasniss|N|Silver Elite to kill and loot for resources and artifact power.|RANK|2|
 R Continue on, to Gloom Hollow and Korkrush|QID|49902|M|60.24,46.18|CC|CHAT|N|Talk to Korkrush.|
 C To Gloom Hollow|QID|49902|M|63.88,47.75|CHAT|N|Talk to Yash.|
-f Gloom Hollow|ACTIVE|49902|M|66.95,43.84|N|At Cuja.|
+f Gloom Hollow|ACTIVE|49902|M|66.95,43.84|N|At Cuja.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T To Gloom Hollow|QID|49902|M|67.44,42.30|N|To Rokhan.|
 A Getting the Message|QID|47245|M|67.44,42.30|N|From Rokhan.|PRE|49902|
 A Staying Hidden|QID|47525|M|67.40,42.03|N|From Shadow Hunter Mutumba.|PRE|49902|
@@ -510,7 +512,7 @@ C Revenge: Served Hot|QID|47599|M|79.96,32.26|NC|U|151363|US|N|Target a Vilescha
 $ Cused Treasure Chest|QID|48057|M|81.78,30.53|QO|1|T|Captain Mu'kala|N|Attempting to open the chest summons Silver Elite, Captain Mu'kala, apon killing him, the chest can be opened. Loot it for resources and artifact power.|RARE|ITEM|161115|RANK|2|
 C The Libation's Liberation|QID|47756|M|78.37,30.34|US|N|Bonus Obective - Complete by killing Naga and Bandaging Sailors.|
 T The Libation's Liberation|QID|47756|M|78.37,30.34|N|Bonus Objective - Autocompleted.|
-f Forlorn Ruins|ACTIVE|47599|M|82.15,26.70|N|At Zibir the Wingmaster.|
+f Forlorn Ruins|ACTIVE|47599|M|82.15,26.70|N|At Zibir the Wingmaster.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Revenge: Served Hot|QID|47599|M|82.39,27.18|N|To Ticker.|
 T No Goblin Left Behind|QID|47597|M|82.37,27.31|N|To Patch.|
 A Head of the Viper|QID|47711|M|82.37,27.31|N|From Patch.|PRE|47599&47597|
