@@ -85,15 +85,15 @@ C Welcome to Eternity|QID|59774|M|37.47,76.44|QO|1|Z|1533;Bastion!The Shadowland
 C Welcome to Eternity|QID|59774|M|42.06,78.22|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Follow Kleia.|MS|
 T Welcome to Eternity|QID|59774|M|42.09,78.30|Z|1533;Bastion!The Shadowlands|N|To Kleia.|MS|
 A Pardon Our Dust|QID|57102|M|42.06,78.22|Z|1533;Bastion!The Shadowlands|N|From Kleia.|PRE|59774|MS|
-C Pardon Our Dust|QID|57102|M|42.50,78.41|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Pick up the Anima Canister.|MS|
-C Pardon Our Dust|QID|57102|CS|M|42.67,78.04;42.74,78.51;42.51,78.84|Z|1533;Bastion!The Shadowlands|QO|2|NC|N|Recover the Anima by clicking on centurions on the platform with you (the giant at the center back of the platform is a centurion too).|MS|
+C Pardon Our Dust|QID|57102|M|42.50,78.41|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Pick up the Anima Canister.|MS|
+C Pardon Our Dust|QID|57102|CS|M|42.67,78.04;42.74,78.51;42.51,78.84|Z|1533;Bastion!The Shadowlands|QO|2|H|N|Recover the Anima by clicking on centurions on the platform with you (the giant at the center back of the platform is a centurion too).|MS|
 T Pardon Our Dust|QID|57102|M|42.13,78.25|Z|1533;Bastion!The Shadowlands|N|To Greeter Mnemis.|MS|
 A A Fate Most Noble|QID|57584|M|42.13,78.25|Z|1533;Bastion!The Shadowlands|N|From Greeter Mnemis.|PRE|57102|MS|
 C A Fate Most Noble|QID|57584|M|42.13,78.25|QO|1|Z|1533;Bastion!The Shadowlands|CHAT|N|Speak to Greeter Mnemis and go through his series of conversation.\n[color=FF0000]NOTE: [/color]Choose the top chat option each time.|MS|
 C A Fate Most Noble|QID|57584|M|43.39,77.02|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Step into the pool and click the "[color=40C7EB]Ritual Cleansing[/color]" Action Ability.|EAB|MS|
-C A Fate Most Noble|QID|57584|M|41.87,76.50|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click on a bench to take a seat.|MS|
-C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|1533;Bastion!The Shadowlands|NC|N|Click the giant bell.|MS|
-C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|1533;Bastion!The Shadowlands|NC|N|Click on one of the floating scrolls.|MS|
+C A Fate Most Noble|QID|57584|M|41.87,76.50|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Click on a bench to take a seat.|MS|
+C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|1533;Bastion!The Shadowlands|H|N|Click the giant bell.|MS|
+C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|1533;Bastion!The Shadowlands|H|N|Click on one of the floating scrolls.|MS|
 l Weak Anima Mote|QID|57705|L|172451 10|M|42.52,80.57|Z|1533;Bastion!The Shadowlands|RARE|N|Pick up 10 Weak Anima Motes from the Depleated Anima Canisters outside the doorway and inside the room with Hurculon.|ACH|14307;1|
 K Herculon|QID|57705|QO|1|M|42.88,80.62|Z|1533;Bastion!The Shadowlands|T|Herculon|N|Interact with Herculon, "Supply Weak Anima Mote" 10 times to activate him. Defeat him to gain access to the Aspirant Chest. The chest, behind where Herculon was, contains your reward and a quest starter.|RARE|ACH|14307;1|
 A Functioning Anima Core|QID|62200|PRE|62201|M|42.94,83.00|Z|1533;Bastion!The Shadowlands|N|From item just looted from Herculon's Aspirant Chest.|
@@ -131,8 +131,8 @@ A A Gift for an Acolyte|QID|62714|M|47.88,73.50|Z|1533;Bastion!The Shadowlands|N
 C The Aspirant's Crucible|QID|57709|M|47.96,74.09|Z|1533;Bastion!The Shadowlands|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
 T The Aspirant's Crucible|QID|57709|M|56.14,81.73|Z|1533;Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Life of Service|QID|57710|M|56.14,81.73|Z|1533;Bastion!The Shadowlands|N|From Forgelite Sophone|PRE|57709|MS|
-C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click on the Eternal Flame, (big bowl of glowing blue fire) in front of you.|MS|
-C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|1533;Bastion!The Shadowlands|N|Relive each act of service by killing all of the mobs that appear. Click the flame to trigger the next memory (act of service).|MS|
+C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click on the Eternal Flame, (big bowl of glowing blue fire) in front of you.|MS|
+C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Relive each act of service by killing all of the mobs that appear. Click the flame to trigger the next memory (act of service).|MS|
 T A Life of Service|QID|57710|M|56.41,81.59|Z|1533;Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A A Forge Gone Cold|QID|57711|M|56.41,81.59|Z|1533;Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57710|MS|
 K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|1533;Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179486|ACH|14307;3|
