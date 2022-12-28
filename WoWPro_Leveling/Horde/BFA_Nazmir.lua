@@ -382,7 +382,7 @@ $ Chag's Challenge|QID|50567|M|67.97,19.80|QO|1|RARE|ITEM|161046|T|Lucille|N|Tel
 $ Shipwreaked Chest|QID|49483|M|67.81,16.80;66.78,17.33|CS|N|Starting at this waypoint, run up the fallen tree to find a long forgotten shipwreck. Up another branch takes you to the top deck where you will find some treasure to loot for resources and artifact power.|RANK|2|
 T Negative Blood|QID|49125|M|65.72,17.97|N|To Kisha in the cave under the tree.|
 ;A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125&49123&49124| ; ** Appears PRE|49123| doesn't exist. Duplicated and commented out for now - Hendo72
-A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125&49124| ; ** Removed unavailable PRE - Hendo72
+A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125| ; ** Removed unavailable PREs - Hendo72
 C Forcing Fate's Hand|QID|49126|M|65.73,17.87|QO|1|NC|N|Use Extra Action button to summon Hand of Fate.|
 C Forcing Fate's Hand|QID|49126|M|63.30,15.31|QO|2|N|1 is a single target attack \n2 is an AOE attack \n3 is a heal. \nGo forth and destroy the undead.|
 T Forcing Fate's Hand|QID|49126|M|58.48,13.78|N|To Kisha.|
