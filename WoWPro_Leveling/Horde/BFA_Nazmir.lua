@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 N Vol'Dun Available|AVAILABLE|47313|M|PLAYER|LVL|35|S!US|N|Now that you have reached level 35, you can now continue your journey in [color=00FF96]Vol'Dun[/color] and the [color=ff8000]War Campaign[/color] . \n\nYou can use the guide hub to help you navigate between all accessible guides.|
-N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
+N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|M|71.50,30.36|S!US|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 N Use of Ranks|AVAILABLE|47105|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|AVAILABLE|47105|ACH|12942|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
@@ -204,11 +204,12 @@ A 'Til Death Do Us Part|QID|47248|M|36.66,27.39|N|From Theurgist Salazae.|RANK|2
 C That Which Haunts the Dead|QID|47247|M|36.12,29.87|QO|2|N|Kill Hex Priestess Tizeja.|
 K Azerite-Infused Slag|QID|50563|M|37.30,26.24;33.34,27.53|CS|QO|1|T|Azerite-Infused Slag|N|Silver Elite to kill for resources and artifact power.|RANK|2|RARE|;item unknown
 C Remnants of the Damned|QID|47491|M|40.46,30.25|S|N|Decaying Bloodstones drop from the skeletal Reanimated and Bound Horrors. Kill them as you go.|
-C The Forlorn Soul|QID|49432|M|39.58,31.56;39.58,34.95|CS|QO|1|NC|N|Head down into the catacombs to find Keula's mother. Click on the sarcophagus lid.|
+C The Forlorn Soul|QID|49432|M|39.58,31.56;39.59,34.99|CS|QO|1|H|N|Enter the Catacomb entrance through the Court of Spirits to find Keula's mother in the room at the bottom of the stairs. Click on the sarcophagus lid to open it.\n[color=FF0000]NOTE: [/color]You'll be ambushed by 2 mobs when you enter the room.|
 K The Matron Shaazula|ACTIVE|49432|M|39.65,34.94|QO|2|T|The Matron Shaazula|N|Subdue Matron Shaazula.|
-K Za'amar the Queen's Blade|QID|49469|M|38.77,28.76;38.84,26.72|CS|RARE|ITEM|161095|QO|1|T|Za'amar the Queen's Blade|N|In the Necropolis Catacombs you can find this Silver Elite to kill and loot for a bit of resources and artifact power.|RANK|2|
-C 'Til Death Do Us Part|QID|47248|M|40.37,26.52|QO|1|NC|N|Into the last catacomb you will find a box with Valjabu's Tusk Ring, Kill Gee'dee the Cursed if he is in the way.|
+K Za'amar the Queen's Blade|QID|49469|M|38.77,28.76;38.84,26.72|CS|RARE|ITEM|161095|QO|1|T|Za'amar the Queen's Blade|N|Using the northwest entrance in Court of Spirits, enter the Necropolis Catacombs to find this Silver Elite to kill and loot for a bit of resources and artifact power.|RANK|2|
+C 'Til Death Do Us Part|QID|47248|M|40.37,26.48|QO|1|H|N|Using the northeast entrance in Court of Spirits, enter the Necropolis Catacombs to find a box with Valjabu's Tusk Ring.\n[color=FF0000]NOTE: [/color]Kill Gee'dee the Cursed if he is in the way.|
 C Remnants of the Damned|QID|47491|M|40.46,30.25|US|N|Finish collecting the Decaying Bloodstones.|
+C A Desecrated Temple|QID|49348|M|43.95,30.05|US|H|N|Finish destroying the red blobs of Vile Desecration.|
 C Mark of the Damned|QID|48934|M|37.17,27.83|US|N|Finish up this bonus objective before going into the temple to turn in the quests.|
 ;T Mark of the Damned|QID|48934|M|37.17,27.83|N|Bonus Objective - Autocompleted.|
 T Remnants of the Damned|QID|47491|M|39.57,24.65|N|To Bwonsamdi.|
@@ -216,17 +217,18 @@ T A Desecrated Temple|QID|49348|M|39.57,24.65|N|To Bwonsamdi.|
 T That Which Haunts the Dead|QID|47247|M|39.57,24.65|N|To Bwonsamdi.|
 T The Forlorn Soul|QID|49432|M|39.57,24.65|N|To Bwonsamdi.|
 A Soulbound|QID|47249|M|39.57,24.65|N|From Bwonsamdi.|PRE|49432&49348&47491&47247|
-C Soulbound|QID|47249|M|39.58,29.79|QO|1|CHAT|N|Go down to the alter in the middle of the lower courtyart and tell Bwonsamdi you are ready.|
-K Grand Ma'da Ateena|ACTIVE|47249|M|39.72,30.23|QO|2|N|Kill Grand Ma'da Ateena.|T|Grand Ma'da Ateena|
+C Soulbound|QID|47249|M|39.60,30.09|QO|1|CHAT|N|Go down to the alter in the middle of the Court of Sprits and tell Bwonsamdi you're ready.|
+K Grand Ma'da Ateena|ACTIVE|47249|M|39.57,30.65|QO|2|N|Kill Grand Ma'da Ateena.|T|Grand Ma'da Ateena|
 T Soulbound|QID|47249|M|39.59,30.23|N|To Bwonsamdi.|
 A We'll Meet Again|QID|47250|M|39.59,30.23|N|From Bwonsamdi.|PRE|47249|
 T 'Til Death Do Us Part|QID|47248|M|36.65,27.39|N|To Theurgist Salazae.|
-T We'll Meet Again|QID|47250|M|39.52,43.85|N|To Hanzabu.|
-A Hunting Zardrax|QID|49314|M|39.63,43.87|N|From Witch Doctor Kejabu.|LEAD|48854|RANK|2|
+T We'll Meet Again|QID|47250|M|39.52,43.85|N|To Hanzabu in Zo'bal Ruins.|
+A Hunting Zardrax|QID|49314|M|39.63,43.87|N|From Witch Doctor Kejabu.|LEAD|48854|PRE|47250|RANK|2| ; This quest doesn't show until you turn in the PRE - Hendo72
 A Catching Up|QID|49185|M|39.39,44.02|N|From Princess Talanji.|PRE|47250|
 C Catching Up|QID|49185|M|39.39,44.02|CHAT|N|Tell Talanji about Bwonsamdi and Hir'eek|
 T Catching Up|QID|49185|M|39.39,44.02|N|To Princess Talanji.|
 A Torga, the Turtle Loa|QID|49064|M|39.45,44.01|N|From Lashk.|PRE|49185|
+; R3 quest chain begins
 A Surprise Backup|QID|49477|M|33.97,39.62|N|From Torn Horde Missive.|RANK|3|
 K Tainted Guardian|QID|48508|QO|1|M|31.40,38.15|T|Tainted Guardian|N|Silver Elite to kill for resources and artifact power.|RANK|3|RARE|;item unknown
 T Surprise Backup|QID|49477|M|28.63,43.74|N|To Chadwick Paxton.|
@@ -254,15 +256,17 @@ T Didn't Stop to Think if They Should|QID|49479|M|25.82,36.03|N|To Chadwick Paxt
 A Return to Dust|QID|48499|M|25.82,36.03|N|From Chadwick Paxton.|RANK|3|PRE|49479|
 C Return to Dust|QID|48499|M|26.25,37.27|NC|N|Head down into the sethrak camp and use your special action button till the Sethrak are ALL dead.|
 T Return to Dust|QID|48499|M|25.82,36.03|N|To Chadwick Paxton.|
+; R3 quest chain ends
+R Burial Mound|ACTIVE|49314|M|37.06,51.96;35.75,52.44|CS|N|Head southwest out of Zo'bal Ruins.|RANK|2|
 K Venomjaw|QID|48626|M|30.59,51.36|QO|1|T|Venomjaw|RARE|ITEM|161028|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 T Hunting Zardrax|QID|49314|M|31.05,52.08|N|To Shadow Hunter Da'jul.|
 A Offer of Power|QID|48854|M|30.97,52.18|N|From Zardrax the Empowerer.|RANK|2|PRE|49314|
 C Offer of Power|QID|48854|M|30.97,52.18|QO|1|CHAT|N|Wait and listen to Zardrax.|
-C Offer of Power|QID|48854|M|30.97,52.18|QO|2|NC|N|Click on the bubble to break free of Zardrax's control.|
+C Offer of Power|QID|48854|M|30.97,52.18|QO|2|H|N|Click on the bubble to break free of Zardrax's control.|
 T Offer of Power|QID|48854|M|31.05,52.08|N|To Shadow Hunter Da'jul.|
 A Projection Destruction|QID|48823|M|31.05,52.08|N|From Shadow Hunter Da'jul.|RANK|2|PRE|48854|
 C Projection Destruction|QID|48823|QO|1|CHAT|M|31.05,52.08|N|Tell Da'jul you are ready to gain the Fire mojo.|
-A Stopping Zardrax|QID|48852|M|31.05,52.08|LVL|-50|N|Bonus Objective.|RANK|2|
+;A Stopping Zardrax|QID|48852|M|31.05,52.08|LVL|-50|N|Bonus Objective.|RANK|2| Not required - Hendo72
 A Power Denied|QID|48825|M|30.91,52.02|N|From Kal'dran.|RANK|2|PRE|48854|
 C Stopping Zardrax|QID|48852|M|31.05,52.08|S|N|Bonus Objective. - Most things in the area will help in finishing the bonus objective.|
 C Projection Destruction|QID|48823|M|30.91,55.19;32.20,55.45;32.91,56.76|CN|NC|QO|2|U|152727|N|Use the burning mojo to destroy the Skeletal Mounds.|
@@ -292,39 +296,45 @@ T An Unfortunate Event|QID|50933|M|24.12,53.20|N|To Zaluto.|
 A On The Run|QID|49777|M|24.12,53.20|N|From Zaluto.|RANK|2|PRE|50933|
 A Won't Leaf Him to Die|QID|49774|M|24.10,53.14|N|From Jin'Tiki.|RANK|2|
 A No Problem Tar Can't Solve|QID|49776|M|24.10,53.14|N|From Jin'Tiki.|RANK|2|
-C Won't Leaf Him to Die|QID|49774|M|23.48,54.63|NC|S|N|Gather Sweetleaf as you go.|
+C Won't Leaf Him to Die|QID|49774|M|23.48,54.63|H|S|N|Gather Sweetleaf as you go.|
 C No Problem Tar Can't Solve|QID|49776|M|23.87,55.35|S|N|Kill the Tar Oozes to gather their Sticky Tar as you go.|
 C On The Run|QID|49777|M|21.57,55.04|QO|1|CHAT|N|Tell Razjuto he is exiled.|
 C On The Run|QID|49777|M|21.32,50.40|QO|3|CHAT|N|Tell Teshyambi he is exiled. At least he doesn't argue with you.|
-C On The Run|QID|49777|M|23.59,47.67|QO|2|CHAT|N|Mojoba takes offense at being exiled, so then you have to kill him.|
-C Won't Leaf Him to Die|QID|49774|M|23.48,54.63|NC|US|N|Finish collecting the Sweetleaf.|
+C On The Run|QID|49777|M|23.59,47.67|QO|2|CHAT|N|Mojoba will take offense at being exiled and attack you.\n[color=FF0000]NOTE: [/color]You get credit for talking; killing is optional.|
+C Won't Leaf Him to Die|QID|49774|M|23.48,54.63|H|US|N|Finish collecting the Sweetleaf.|
 C No Problem Tar Can't Solve|QID|49776|M|23.87,55.35|US|N|Finish collecting the Sticky Tar.|
 T On The Run|QID|49777|M|24.13,53.20|N|To Zaluto.|
 T Won't Leaf Him to Die|QID|49774|M|24.11,53.16|N|To Jin'Tiki.|
 T No Problem Tar Can't Solve|QID|49776|M|24.11,53.16|N|To Jin'Tiki.|
 A Don't Go into the Light|QID|49778|M|24.11,53.16|N|From Jin'Tiki.|RANK|2|PRE|49776&49774&49777|
-C Don't Go into the Light|QID|49778|M|24.13,53.19|NC|N|Click on Zaluto.|
+C Don't Go into the Light|QID|49778|M|24.13,53.19|CHAT|N|Click on Zaluto.|
 T Don't Go into the Light|QID|49778|M|24.10,53.13|N|To Jin'Tiki.|
 A Recovering Ancient Fire|QID|49780|M|24.10,53.13|N|From Jin'Tiki.|RANK|2|PRE|49778|
 A Bad To The Bone|QID|49779|M|24.13,53.21|N|From Zaluto.|RANK|2|PRE|49778|
 C Bad To The Bone|QID|49779|M|24.70,45.35|S|N|Kill Bone Raptors as you go.|
-C Recovering Ancient Fire|QID|49780|M|25.63,51.56;24.61,50.05;24.75,45.23;26.07,47.71|U|156480|CS|NC|N|Click on the stones at these locations to absorb the Fire mojo.|
+C Recovering Ancient Fire|QID|49780|M|25.63,51.56;24.61,50.05;24.75,45.23;26.07,47.71|U|156480|CS|NC|N|Use the Fetish at each Cursed Stone to absorb the Fire mojo.|
 C Bad To The Bone|QID|49779|M|24.70,45.35|N|Finish off the quota of Bone Raptors.|
 T Recovering Ancient Fire|QID|49780|M|24.11,53.15|N|To Jin'Tiki.|
 T Bad To The Bone|QID|49779|M|24.13,53.23|N|To Zaluto.|
 A Catch Me if You Can|QID|49781|M|24.13,53.21|N|From Zaluto.|RANK|2|PRE|49780&49779|
-C Catch Me if You Can|QID|49781|M|28.18,53.39|V|N|Hop on Zaluto's raptor. After a bit he stops -- facing Zulajin -- use the "1" key. the rapter will run towards the puddle of tar, in a little while 2 key becomes available, use it. Run away some more and then when the 3 key becomes avaiable -- use it repeatedly until Zulajin is dead.|T|Zulajin|
+C Catch Me if You Can|QID|49781|M|28.18,53.39|V|N|After you hop Zaluto's raptor, it'll run towards Zulajin and stop. Use the "1" key to get Zulajin to chase you towards the puddle of tar. When the '1' key becomes available again, use it. Retarget Zulajin again and when the '1' key becomes available again, spam it until Zulajin is dead.|T|Zulajin|
 T Catch Me if You Can|QID|49781|M|28.36,52.03|N|To Jin'Tiki.|
+N Expert Riding|AVAILABLE|32674|SPELL|Expert Riding;34090|N|Now is a good time to go visit your Riding Trainer.\nHearth and use the portal to get to Orgrimmar.|
+T I Believe You Can Fly|ACTIVE|32674|M|48.91,59.25|Z|Orgrimmar|SPELL|Expert Riding;34090|N|To the flying trainer, Maztha, at the Skyway in Orgrimmar.\n[color=FF0000]NOTE: [/color]This quest is auto-accepted when you arrive in Orgrimmar.|
+= Expert Riding|AVAILABLE|-32674|ACTIVE|-32674|M|48.91,59.25|Z|Orgrimmar|SPELL|Expert Riding;34090|N|Learn Expert Riding from Maztha.\n[color=FF0000]NOTE: [/color]Don't forget to buy a flying mount if you don't have one.|
+H The Great Seal|ACTIVE|49064|N|Use your hearth to get back to on track.\n[color=FF0000]NOTE: [/color]Skip this step if your hearth is on cooldown or to a different location.|
+P Zuldazar|ACTIVE|49064|M|58.54,91.33|Z|Orgrimmar|N|Take the portal in the Pathfinder's Den to get back to the Great Seal.|IZ|Orgrimmar|
+F Zo'bal Ruins|ACTIVE|49064|M|51.90,41.22|Z|Dazar'alor|N|Fly to Zo'bal Ruins in Nazmir.|IZ|-Nazmir|
 K King Kooba|QID|49317|M|53.63,42.64|QO|1|RARE|ITEM|161221|T|King Kooba|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 ;  Turtle Power
 R Natha'vor|ACTIVE|49064|M|53.31,39.30|N|Follow the road east to Nath'vor.|
-C Torga, the Turtle Loa|QID|49064|M|55.67,39.37|CHAT|QO|1|N|Meet Kisha.|
+C Torga, the Turtle Loa|QID|49064|M|55.65,39.41|CHAT|QO|1|N|Meet Kisha.\n[color=FF0000]NOTE: [/color]Either chat choice will work (second one leads to a humerous response).|
 A Profanity Filter|QID|47924|M|55.15,36.70|N|From Kajosh.|RANK|2|
-A Mawfiend Extermination|QID|47996|M|54.16,35.64|LVL|-50|N|Bonus Objective - Autoaccepted.|RANK|2|
+;A Mawfiend Extermination|QID|47996|M|54.16,35.64|LVL|-50|N|Bonus Objective - Autoaccepted.|RANK|2| Not required - Hendo72
 C Mawfiend Extermination|QID|47996|M|54.16,35.64|S|N|Kill mawfiends and otherwise clear the area to accomplish the bonus objective.|
-C Profanity Filter|QID|47924|M|54.31,33.27|QO|1|U|151849|NC|N|Use the scroll to destroy the Profane Totems.|
+C Profanity Filter|QID|47924|M|54.31,33.27|QO|1|U|151849|NC|N|Use the Scroll of Inferno to destroy the Profane Totems.|
 C Profanity Filter|QID|47924|M|51.76,33.24|QO|2|CHAT|N|Ask Kajosh if it will work now?|
-T Profanity Filter|QID|47924|M|51.76,33.24|N|To Kajosh.|
+T Profanity Filter|QID|47924|M|51.76,33.24|N|To Kajosh when you can.|
 A Killing Cannibals|QID|47998|M|51.76,33.24|N|From Kajosh.|RANK|2|PRE|47924|
 A Just Say No to Cannibalism|QID|47919|M|51.76,33.24|N|From Kajosh.|RANK|2|PRE|47924|
 A Shoak's on the Menu|QID|47925|M|51.76,33.24|N|From Kajosh.|RANK|2|PRE|47924|
