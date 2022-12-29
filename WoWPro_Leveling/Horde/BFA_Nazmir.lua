@@ -383,17 +383,17 @@ $ Shipwreaked Chest|QID|49483|M|67.81,16.80;66.78,17.33|CS|N|Starting at this wa
 T Negative Blood|QID|49125|M|65.72,17.97|N|To Kisha in the cave under the tree.|
 ;A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125&49123&49124| ; ** Appears PRE|49123| doesn't exist. Duplicated and commented out for now - Hendo72
 A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125| ; ** Removed unavailable PREs - Hendo72
-C Forcing Fate's Hand|QID|49126|M|65.73,17.87|QO|1|NC|N|Use Extra Action button to summon Hand of Fate.|
+C Forcing Fate's Hand|QID|49126|M|65.73,17.87|QO|1|EAB|N|Take a few steps forward until the Extra Action button activates and use it to summon Hand of Fate.|
 C Forcing Fate's Hand|QID|49126|M|63.30,15.31|QO|2|N|1 is a single target attack \n2 is an AOE attack \n3 is a heal. \nGo forth and destroy the undead.|
 T Forcing Fate's Hand|QID|49126|M|58.48,13.78|N|To Kisha.|
 A Loa-Free Diet|QID|49130|M|58.48,13.78|N|From Kisha.|PRE|49126|
 A Sanctifying Ground|QID|49131|M|58.48,13.85|N|From Princess Talanji.|PRE|49126|
 A Crushing the Skullcrushers|QID|49132|M|58.52,13.89|N|From Lashk.|PRE|49126|
-K Scrounger Patriarch|QID|48980|QO|1|M|58.37,8.50|RARE|ITEM|161219|T|Scrounger Patriarch|N|Silver Elite to kill for artifact power and resources.|RANK|2|
-K Kal'draxa|QID|47843|M|53.12,13.55|QO|1|RARE|ITEM|161018|T|Kal'draxa|N|Silver Elite to kill for artifact power and resources.|RANK|2|
+K Scrounger Patriarch|QID|48980|QO|1|M|58.37,8.50|RARE|ITEM|161219|T|Scrounger Patriarch|N|Silver Elite to kill for artifact power and resources.\n[color=FF0000]NOTE: [/color]Clear the Younglings as best you can before you approach.|RANK|2|
+K Kal'draxa|QID|47843|M|53.12,13.55|QO|1|RARE|ITEM|161018|T|Kal'draxa|N|Silver Elite to kill for artifact power and resources.\n[color=FF0000]NOTE: [/color]Keep an eye on her casting bar for her Noxious Breath ability (it hurts).|RANK|2|
 C Crushing the Skullcrushers|QID|49132|M|54.99,21.50|S|N|Kill the Loa-Gutter Skullcrushers.|
 C Loa-Free Diet|QID|49130|M|54.99,21.50|S|N|Kill the Loa Butchers to collect Parts of Torga.|
-C Sanctifying Ground|QID|49131|M|56.61,22.09|QO|1|NC|N|Click the Sanctifying Totems scattered around.|
+C Sanctifying Ground|QID|49131|M|56.61,22.09|QO|1|H|N|Click the Sanctifying Totems scattered around.\n[color=FF0000]NOTE: [/color]You can't miss them; look for the column of flames.|
 C Loa-Free Diet|QID|49130|M|54.99,21.50|US|N|Finish recovering Parts of Torga.|
 C Crushing the Skullcrushers|QID|49132|M|54.99,21.50|US|N|Finish your quota of Loa-Gutter Skullcrushers.|
 T Crushing the Skullcrushers|QID|49132|M|56.51,26.67|N|To Lashk.|
@@ -406,46 +406,47 @@ A Torga's Eternal Return|QID|49160|M|56.51,26.64|N|From Lashk.|PRE|49136|
 C Torga's Eternal Return|QID|49160|M|56.51,26.64|U|153131|NC|N|Use the scroll to put Torga's spirit to rest.|
 T Torga's Eternal Return|QID|49160|M|56.59,26.75|N|To Kisha.|
 A To Gloom Hollow|QID|49902|M|56.59,26.75|N|From Kisha.|PRE|49160|
-R Razorjaw River|ACTIVE|49902|M|55.79,34.32|N|Follow whats left of the road across the Razorjaw river to find the Tortollans.|
-R Towards Gloom Hollow and Crez|QID|49902|M|55.65,39.40|CC|CHAT|N|Talk to Crez.|
+R Razorjaw River|ACTIVE|49902|M|55.79,34.32|N|Follow whats left of the road across the Razorjaw River to find the Tortollans.|
+C Crez|QID|49902|M|55.73,39.72|QO|1<1|CHAT|N|Walk over and talk to Crez.|
 K Scout Skrasniss|QID|48972|M|58.84,38.98|QO|1|RARE|ITEM|160951|T|Scout Skrasniss|N|Silver Elite to kill and loot for resources and artifact power.|RANK|2|
-R Continue on, to Gloom Hollow and Korkrush|QID|49902|M|60.24,46.18|CC|CHAT|N|Talk to Korkrush.|
-C To Gloom Hollow|QID|49902|M|63.88,47.75|CHAT|N|Talk to Yash.|
-f Gloom Hollow|ACTIVE|49902|M|66.95,43.84|N|At Cuja.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+C Korkrush|QID|49902|M|60.24,46.18|QO|1<2|CHAT|N|Continue on and talk to Korkrush.|
+C Yash|QID|49902|M|63.88,47.75|QO|1<3|CHAT|N|Head over and talk to Yash.|
+R Gloom Hollow|ACTIVE|49902|M|66.42,42.98|N|Follow the road across Razorjaw River.|
+f Gloom Hollow|ACTIVE|49902|M|66.98,43.77|N|At Cuja.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T To Gloom Hollow|QID|49902|M|67.44,42.30|N|To Rokhan.|
 A Getting the Message|QID|47245|M|67.44,42.30|N|From Rokhan.|PRE|49902|
 A Staying Hidden|QID|47525|M|67.40,42.03|N|From Shadow Hunter Mutumba.|PRE|49902|
 A WANTED: Ayame|QID|52477|M|67.22,40.83|N|From Wanted Poster.|RANK|2|
-C Getting the Message|QID|47245|M|68.53,43.82|QO|1|NC|N|Click on the rocket to read the message.|
+C Getting the Message|QID|47245|M|68.53,43.82|QO|1|H|N|Click on the rocket to read the message.|
 ;A friend of the frogs
-C Staying Hidden|QID|47525|M|68.62,46.50|NC|N|Investigate the Frogmarsh.|
+R Staying Hidden|ACTIVE|47525|M|68.57,46.17|QO|1|N|Investigate the Frogmarsh.|
 T Staying Hidden|QID|47525|M|68.59,46.75|N|To Witch Doctor Zentimo.|
 A Hunt the Hunter|QID|47659|M|68.59,46.75|N|From Witch Doctor Zentimo.|PRE|47525|
 A Fallen Idols|QID|47660|M|68.59,46.75|N|From Witch Doctor Zentimo.|PRE|47525|
-C Fallen Idols|QID|47660|M|68.92,51.66|QO|1|NC|S|N|Retrieve the Stolen Idols of Krag'wa as you go.|
-A A Poisonous Touch|QID|48402|M|69.16,50.51|N|From Mag'ash the Poisonous.|
-C A Poisonous Touch|QID|48402|M|68.71,49.57|QO|1|S|N|Use special action button to poison trolls (preferably from a distance so they don't interrupt you.)|
+C Fallen Idols|QID|47660|M|68.92,51.66|QO|1|H|S|N|Retrieve the Stolen Idols of Krag'wa as you go.|
+A A Poisonous Touch|QID|48402|M|69.15,50.45|N|From Mag'ash the Poisonous.|
+C A Poisonous Touch|QID|48402|M|68.71,49.57|QO|1|S|EAB|N|Use the extra action button to poison trolls (preferably from a distance so they don't interrupt you.)|
 K Warmother Boatema|ACTIVE|47659|M|68.28,51.75|QO|1|T|Warmother Boatema|N|Kill Warmother Boatema.|
-C A Poisonous Touch|QID|48402|M|68.71,49.57|QO|1|US|N|Finish poisoning the Bloodhunter Trolls.|
-C Fallen Idols|QID|47660|M|68.92,51.66|NC|US|N|Finish retrieving the Stolen Idols.|
-T Hunt the Hunter|QID|47659|M|75.49,56.69|N|To Krag'wa the Huge.|
-T Fallen Idols|QID|47660|M|75.49,56.69|N|To Krag'wa the Huge.|
-A The Last Witch Doctor of Krag'wa|QID|47623|M|75.49,56.69|N|From Krag'wa the Huge.|PRE|47660&47659|
-T A Poisonous Touch|QID|48402|M|75.49,56.69|N|To Krag'wa the Huge.|
-C The Last Witch Doctor of Krag'wa|QID|47623|M|75.13,56.68|QO|1|NC|N|Click the Scepter of Rebirth.|
-C The Last Witch Doctor of Krag'wa|QID|47623|M|75.13,56.68|QO|2|NC|N|Click Zintimo to perform the Ritual.|
-T The Last Witch Doctor of Krag'wa|QID|47623|M|75.46,56.79|N|To Krag'wa the Huge.|
-A A True Loa Feast|QID|47621|M|75.46,56.79|N|From Krag'wa the Huge.|PRE|47623|
-A A Magical Glow|QID|47622|M|75.46,56.79|N|From Krag'wa the Huge.|PRE|47623|
+C A Poisonous Touch|QID|48402|M|68.71,49.57|T|Bloodhunter|QO|1|US|EAB|N|Finish poisoning the Bloodhunter Trolls.|
+C Fallen Idols|QID|47660|M|68.92,51.66|H|US|N|Finish retrieving the Stolen Idols.|
+T Hunt the Hunter|QID|47659|M|75.50,56.81|N|To Krag'wa the Huge.|
+T Fallen Idols|QID|47660|M|75.50,56.81|N|To Krag'wa the Huge.|
+A The Last Witch Doctor of Krag'wa|QID|47623|M|75.50,56.81|N|From Krag'wa the Huge.|PRE|47660&47659|
+T A Poisonous Touch|QID|48402|M|75.50,56.81|N|To Krag'wa the Huge.|
+C The Last Witch Doctor of Krag'wa|QID|47623|M|75.13,56.68|QO|1|H|N|Click the Scepter of Rebirth.|
+C The Last Witch Doctor of Krag'wa|QID|47623|M|75.13,56.68|QO|2|H|N|Click on Witch Doctor Zentimo to perform the Ritual.|
+T The Last Witch Doctor of Krag'wa|QID|47623|M|75.50,56.81|N|To Krag'wa the Huge.|
+A A True Loa Feast|QID|47621|M|75.50,56.81|N|From Krag'wa the Huge.|PRE|47623|
+A A Magical Glow|QID|47622|M|75.50,56.81|N|From Krag'wa the Huge.|PRE|47623|
 C A True Loa Feast|QID|47621|M|75.95,45.97|QO|1|S|N|Kill creatures in the area and loot their meat as you go.|
-C A Magical Glow|QID|47622|M|74.25,48.19|QO|1|U|151237|NC|S|N|Use the Glowfly bottle to capture the Beautiful Glowflies.|
+C A Magical Glow|QID|47622|M|74.25,48.19|QO|1|U|151237|H|S|N|Use the Glowfly bottle to capture the Beautiful Glowflies.|
 K Lo'kuno|QID|50355|M|77.26,45.92|QO|1|RARE|ITEM|161111|T|Lo'kuno|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 $ Partially Digested Treasure|QID|50061|M|77.89,46.38|QO|1|N|This chest is found beside a dead Riverbeast. Loot for resources and artifact power.|RANK|2|
 C A Magical Glow|QID|47622|M|74.25,48.19|QO|1|U|151237|NC|US|N|Finish collecting the Beautiful Glowflies.|
 C A True Loa Feast|QID|47621|M|75.95,45.97|US|N|Finish collecting meat for Krag'wa.|
-T A True Loa Feast|QID|47621|M|75.44,56.72|N|To Krag'wa the Huge.|
-T A Magical Glow|QID|47622|M|75.44,56.72|N|To Krag'wa the Huge.|
-A Totemic Restoration|QID|47540|M|75.44,56.72|N|From Krag'wa the Huge.|PRE|48092&48090&47621&47622|
+T A True Loa Feast|QID|47621|M|75.50,56.81|N|To Krag'wa the Huge.|
+T A Magical Glow|QID|47622|M|75.50,56.81|N|To Krag'wa the Huge.|
+A Totemic Restoration|QID|47540|M|75.50,56.81|N|From Krag'wa the Huge.|PRE|48092&48090&47621&47622|
 C Totemic Restoration|QID|47540|M|75.17,56.68;75.32,56.37;75.66,56.36|CC|QO|1|NC|N|Click on the 3 Frog Totem Piles around Krag'wa.|
 T Totemic Restoration|QID|47540|M|75.52,56.74|N|To Krag'wa the Huge.|
 A Krag'wa the Terrible|QID|47696|M|75.52,56.74|N|From Krag'wa the Huge.|PRE|47540|
