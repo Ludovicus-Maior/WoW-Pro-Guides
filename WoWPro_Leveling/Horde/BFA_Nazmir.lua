@@ -447,38 +447,41 @@ C A True Loa Feast|QID|47621|M|75.95,45.97|US|N|Finish collecting meat for Krag'
 T A True Loa Feast|QID|47621|M|75.50,56.81|N|To Krag'wa the Huge.|
 T A Magical Glow|QID|47622|M|75.50,56.81|N|To Krag'wa the Huge.|
 A Totemic Restoration|QID|47540|M|75.50,56.81|N|From Krag'wa the Huge.|PRE|47621&47622|
-C Totemic Restoration|QID|47540|M|75.17,56.68;75.32,56.37;75.66,56.36|CC|QO|1|NC|N|Click on the 3 Frog Totem Piles around Krag'wa.|
-T Totemic Restoration|QID|47540|M|75.52,56.74|N|To Krag'wa the Huge.|
-A Krag'wa the Terrible|QID|47696|M|75.52,56.74|N|From Krag'wa the Huge.|PRE|47540|
-R The Frogmarsh|ACTIVE|47696|M|67.40,55.90|N|Run out of Krag'wa's pond and catch up to him in the Frogmarsh.|
-C Krag'wa the Terrible|QID|47696|M|67.40,55.90|QO|1|CHAT|N|Tell Krag'wa that you are ready to help him wreak vengeance.|
-C Krag'wa the Terrible|QID|47696|M|64.28,58.57|QO|2|NC|N|"1" lets you jump forward causing AOE damage where you land. \n"2" does AOE damage in a cone in front of you.|
-C Krag'wa the Terrible|QID|47696|M|59.88,53.34|QO|3|NC|N|One final target.|
+C Totemic Restoration|QID|47540|M|75.17,56.68|QO|1<1|H|N|Click on the Frog Totem Pile to activate it.|
+C Totemic Restoration|QID|47540|M|75.32,56.37|QO|1<2|H|N|Click on the Frog Totem Pile to activate it.|
+C Totemic Restoration|QID|47540|M|75.66,56.36|QO|1<3|H|N|Click on the Frog Totem Pile to activate it.|
+T Totemic Restoration|QID|47540|M|75.50,56.81|N|To Krag'wa the Huge.|
+A Krag'wa the Terrible|QID|47696|M|75.50,56.81|N|From Krag'wa the Huge.|PRE|47540|
+R Meet Krag'wa|ACTIVE|47696|M|67.31,55.92|QO|1|N|Exit Krag'wa's Lair meet him in the Frogmarsh.|
+N Krag'wa the Terrible|QID|47696|M|67.11,56.24|BUFF|245831|CHAT|N|Tell Krag'wa that you're ready.|
+C Krag'wa the Terrible|QID|47696|M|64.28,58.57|QO|2|V|N|"1" lets you jump forward causing AOE damage where you land. \n"2" does AOE damage in a cone in front of you.|
+C Krag'wa the Terrible|QID|47696|M|59.88,53.34|QO|3|V|N|One final target.|
 T Krag'wa the Terrible|QID|47696|M|75.45,56.73|N|To Krag'wa the Huge.|
 A To Serve Krag'wa|QID|47918|M|75.45,56.73|N|From Krag'wa the Huge.|RANK|2|
 A Krag'wa's Aid|QID|47697|M|75.18,56.64|N|From Shadow Hunter Mutumba.|PRE|47696|
-T To Serve Krag'wa|QID|47918|M|77.78,53.18|N|To Shadow Hunter Narez.|
-A Krag'wa's Chosen|QID|48090|M|77.78,53.18|N|From Shadow Hunter Narez.|RANK|2|PRE|47918|
-;A Nagating the Threat|QID|48093|M|77.78,53.18|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|PRE|47918| ** Not required - Hendo72
-A Vengeance of the Frogs|QID|48092|M|77.78,53.18|N|From Shadow Hunter Narez.|RANK|2|PRE|47918|
-C Nagating the Threat|QID|48093|M|77.78,53.18|S|N|Bonus Objective - Kill Naga, release frogs from the cages, etc to complete the bonus objective.|
+T To Serve Krag'wa|QID|47918|M|77.73,53.17|N|To Shadow Hunter Narez.|
+A Krag'wa's Chosen|QID|48090|M|77.73,53.17|N|From Shadow Hunter Narez.|RANK|2|PRE|47918|
+A Vengeance of the Frogs|QID|48092|M|77.73,53.17|N|From Shadow Hunter Narez.|RANK|2|PRE|47918|
+;A Nagating the Threat|QID|48093|M|77.73,53.17|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|PRE|47918| ** Not required - Hendo72
+C Nagating the Threat|QID|48093|M|77.73,53.17|S|N|Bonus Objective - Kill Naga, release frogs from the cages, etc to complete the bonus objective.|
 C Krag'wa's Chosen|QID|48090|M|79.38,53.84|QO|3|U|158071|NC|N|Throw the potion at Wok'grug the Clever.|
 C Krag'wa's Chosen|QID|48090|M|82.35,55.68|QO|1|U|158071|NC|N|Throw the potion on Wag'shash the Bold.|
 $ Lost Scroll|QID|50565|M|81.68,61.08|QO|1|T|Enraged Water Elemental|N|Click on the nearly invisible Lost Scroll lying on this island to summon a Silver Elite to kill and loot for resources and artifact power.|RANK|2|RARE|;ITEM unknown
 K Priestess Zaldraxia|ACTIVE|48092|M|85.11,54.95|QO|1|T|Priestess Zaldraxia|N|Kill Priestess Zaldraxia.|
 C Krag'wa's Chosen|QID|48090|M|80.37,50.27|QO|2|U|158071|NC|N|Throw the potion on Krol'dra the Wise.|
-K Naga|QID|50435|M|80.91,46.77|L|157797|N|Kill the Vilescale Naga in the area until you get a Vilescale Pearl.|RANK|3|PRE|47442|
-$ Mysterious Trash Pile|QID|50435|M|80.91,46.77|ITEM|157797|N|If you heard Jani's guttural voice (which means you found the Vilescale Pearl here), Jani wants the shiny.|RANK|2|PRE|47442|
+K Naga|AVAILABLE|50435|M|80.37,52.25|L|157797|N|Kill the Vilescale Naga in the area until you get a Vilescale Pearl.|RANK|3|PRE|47442|
+$ Mysterious Trashpile|AVAILABLE|50435|M|80.91,46.80|H|N|Click on the Trashpile to summon Jani.|U|157797|RANK|2|PRE|47442|BUFF|262954|O|
+N Get Hek'd|QID|50435|M|33.99,75.10|CHAT|N|Offer to give Jani the [color=33fff9]Vilescale Pearl[/color] and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|RANK|2|PRE|47442|BUFF|-262954|
 C Nagating the Threat|QID|48093|M|80.35,54.85|US|N|Time to finish up the Bonus Objective.|
 ;T Nagating the Threat|QID|48093|M|80.35,54.85|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 T Krag'wa's Chosen|QID|48090|M|77.74,53.17|N|To Shadow Hunter Narez.|
 T Vengeance of the Frogs|QID|48092|M|77.74,53.17|N|To Shadow Hunter Narez.|
 $ Swallowed Naga Treasure|QID|50045|M|76.86,62.12|N|Inside a fish skeleton. Loot for artifact power and resources.|RANK|2|
-C Krag'wa's Aid|QID|47697|M|67.53,42.98|NC|N|Return to Gloom Hollow.|
+R Gloom Hollow|ACTIVE|47697|M|67.53,42.98|QO|1|N|Return to Gloom Hollow.|
 T Getting the Message|QID|47245|M|67.44,42.31|N|To Rokhan.|
 A Rendezvous with the Libation|QID|47631|M|67.44,42.31|N|From Rokhan.|PRE|47245|
 T Krag'wa's Aid|QID|47697|M|67.43,42.21|N|To Princess Talanji.|
-;side trip for a battle pet
+; Rank # quest chain begins (side trip for a battle pet)
 A A Chance Sighting|QID|50934|M|66.82,41.91|N|From Yash.|RANK|3|
 T A Chance Sighting|QID|50934|M|64.00,50.40|N|A Vial of Antidote.|
 A Aid the Wounded|QID|49366|M|64.00,50.40|N|From a vial of antidote.|PRE|50934|RANK|3|
@@ -508,34 +511,35 @@ A It Seems You've Made a Friend|QID|49382|M|63.18,52.73|N|From Chronicler Jabari
 K Glompmaw|QID|50361|M|68.94,55.84|T|Glompmaw|QO|1|RARE|ITEM|160985|N|Silver Elite to kill for resources and artifact power.|RANK|3|
 C It Seems You've Made a Friend|QID|49382|M|74.71,55.89|NC|N|Run to Krag'wa.|
 T It Seems You've Made a Friend|QID|49382|M|75.46,56.72|N|To Krag'wa the Huge. Note, the pet is cage-able if you already have one.|
+; Rank 3 quest chain ends
 ;  Bring the Boom
-R Wayward Shoals|ACTIVE|47631|M|73.57,54.13;68.94,44.62|CS|N|Run generally northeast towards Wayward Shoals.|
-T Rendezvous with the Libation|QID|47631|M|74.58,38.84|N|To Patch.|
-A No Goblin Left Behind|QID|47597|M|74.58,38.84|N|From Patch.|PRE|47631|
-A Revenge: Served Hot|QID|47599|M|74.78,39.04|N|From Tickler.|PRE|47631|
+R Locate Patch|ACTIVE|47631|M|68.30,44.23;74.48,39.30|CS|QO|1|N|Run northeast through Wayward Shoals until you find him.|
+T Rendezvous with the Libation|QID|47631|M|74.59,38.87|N|To Patch.|
+A No Goblin Left Behind|QID|47597|M|74.59,38.87|N|From Patch.|PRE|47631|
+A Revenge: Served Hot|QID|47599|M|74.76,39.01|N|From Tickler.|PRE|47631|
 ;A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL|-50|  ; Comes available after accepting 47597 and 47599 ** Not required - Hendo72
 C The Libation's Liberation|QID|47756|M|75.05,37.17|S|N|Bonus Objective - Kill Naga and bandage injured soldiers to complete.|
-C Revenge: Served Hot|QID|47599|M|79.96,32.26|QO|1|U|151363|NC|S|N|Target a Vilescale Behemoth and use the provided Rocket Laucher as you go.|
+C Revenge: Served Hot|QID|47599|M|79.96,32.26|QO|1|T|Vilescale Behemoth|U|151363|S|N|Target a Vilescale Behemoth and use the provided Rocket Laucher as you go.|
 K Krubbs|QID|48052|M|75.85,36.22|QO|1|RARE|ITEM|161110|T|Krubbs|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-$ Lucky Horace's Lucky Chest|QID|49867|M|77.66,36.14|N|Loot for resources and artifact power.|RANK|2|
-C No Goblin Left Behind|QID|47597|M|79.30,36.73|QO|2|NC|N|Click on the escape pod to rescue Newt.|
-C No Goblin Left Behind|QID|47597|M|79.97,32.35|QO|3|NC|N|Click on the cage to recuse Volt.|
-C No Goblin Left Behind|QID|47597|M|76.99,32.66|QO|1|NC|N|Kill his torturers, then click on Grit to rescue.|
-C Revenge: Served Hot|QID|47599|M|79.96,32.26|NC|U|151363|US|N|Target a Vileschale Behemoth and use the Rocket Launcher.|
-$ Cused Treasure Chest|QID|48057|M|81.78,30.53|QO|1|T|Captain Mu'kala|N|Attempting to open the chest summons Silver Elite, Captain Mu'kala, apon killing him, the chest can be opened. Loot it for resources and artifact power.|RARE|ITEM|161115|RANK|2|
+$ Lucky Horace's Lucky Chest|QID|49867|M|77.68,36.15|N|Loot for resources and artifact power.|RANK|2|
+C No Goblin Left Behind|QID|47597|M|79.30,36.73|QO|2|H|N|Click on the Airtight Escape Pod to rescue Newt.|
+C No Goblin Left Behind|QID|47597|M|79.97,32.35|QO|3|H|N|Click on the cage to rescue Volt.|
+C No Goblin Left Behind|QID|47597|M|76.99,32.66|QO|1|N|After killig his guards, click on Grit to rescue him.|
+C Revenge: Served Hot|QID|47599|M|79.96,32.26|T|Vilescale Behemoth|U|151363|US|N|Target a Vilescale Behemoth and use the Rocket Launcher.|
+$ Cursed Chest|QID|48057|M|81.78,30.53|QO|1|T|Captain Mu'kala|N|Attempting to open the chest will summon Silver Elite, Captain Mu'kala. Upon killing him, the chest can be opened.\nLoot it for resources and artifact power.|RARE|ITEM|161115|RANK|2|
 C The Libation's Liberation|QID|47756|M|78.37,30.34|US|N|Bonus Obective - Complete by killing Naga and Bandaging Sailors.|
 ;T The Libation's Liberation|QID|47756|M|78.37,30.34|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
 f Forlorn Ruins|ACTIVE|47599|M|82.15,26.70|N|At Zibir the Wingmaster.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Revenge: Served Hot|QID|47599|M|82.39,27.18|N|To Ticker.|
 T No Goblin Left Behind|QID|47597|M|82.37,27.31|N|To Patch.|
 A Head of the Viper|QID|47711|M|82.37,27.31|N|From Patch.|PRE|47599&47597|
-A Pilfering and Fencing|QID|47598|M|82.27,27.42|N|From Newt.|PRE|47599&47597|
 A There Is No Plan "B"|QID|47596|M|82.38,27.21|N|From Ticker.|PRE|47599&47597|
+A Pilfering and Fencing|QID|47598|M|82.27,27.42|N|From Newt.|PRE|47599&47597|
 C Pilfering and Fencing|QID|47598|M|77.90,24.88|QO|1|S|N|Kill Naga and loot them to obtain the Ancient Titan Relics as you go.|
-C There Is No Plan "B"|QID|47596|M|79.16,27.42|QO|2|NC|N|Pick up Broken Elevating Gears.|
+C There Is No Plan "B"|QID|47596|M|79.16,27.42|QO|2|H|N|Pick up Broken Elevating Gears.|
 K Lord Slithin|ACTIVE|47711|QO|1|M|78.67,25.28|T|Lord Slithin|N|Kill Lord Slithin.|
-C There Is No Plan "B"|QID|47596|M|77.63,25.28|QO|1|NC|N|Pick up the Damaged A.M.O.D. Barrel|
-C There Is No Plan "B"|QID|47596|M|79.55,22.23|QO|3|NC|N|Pick up the Shattered Firing Mechanism.|
+C There Is No Plan "B"|QID|47596|M|77.63,25.28|QO|1|H|N|Pick up the Damaged A.M.O.D. Barrel|
+C There Is No Plan "B"|QID|47596|M|79.55,22.23|QO|3|H|N|Pick up the Shattered Firing Mechanism.|
 C Pilfering and Fencing|QID|47598|M|80.45,23.86|US|N|Finish collecting the Ancient Titan Relics.|
 T Pilfering and Fencing|QID|47598|M|82.28,27.41|N|To Newt.|
 T There Is No Plan "B"|QID|47596|M|82.40,27.22|N|To Ticker.|
@@ -545,42 +549,43 @@ C Field Evaluation|QID|47601|M|81.45,26.02|QO|1|V|N|Hop on the A.M.O.D.|
 C Field Evaluation|QID|47601|M|81.45,26.02|NC|N|Target groups of Naga and use the "1" key until it quits being active, then use the "2" key. Once Grobathan appears. Target him and use the 3 key.|
 T Field Evaluation|QID|47601|M|81.35,26.09|N|To Patch.|
 A Ready For Action|QID|47602|M|81.35,26.09|N|From Patch.|PRE|47601|
-C Ready For Action|QID|47602|M|81.27,26.28|QO|1|V|N|Obtain ride from Newt's Emergency Rocket (Optional)|
+C Ready For Action|QID|47602|M|81.31,26.23|QO|1|V|N|Obtain ride from Newt's Emergency Rocket (Optional)|
 C Ready For Action|QID|47602|M|67.27,42.78|QO|2|NC|N|Return to Talanji|
 T Ready For Action|QID|47602|M|67.42,42.24|N|To Princess Talanji.|
 ;  Everything Contained
 A Slumber No More|QID|49932|M|67.50,41.95|N|From Lashk.|PRE|47602|
 K Ayame|ACTIVE|52477|M|60.04,33.79|QO|1|S|T|Ayame|N|Kill Ayame. Avoid, interrupt or dispell the acid spit and its not too hard. You may want to be on the lookout for a partner while you are doing this next set of quests for the Titan.|
-$ Lost Nazmani Treasure|QID|49891|M|62.32,36.18;62.09,34.92|CS|S|N|Pick up this treasure, in an underwater cave, while running to or from Ayame. Loot to finish the treasure achievement and of course for resources.|RANK|2|
-C Slumber No More|QID|49932|M|66.91,38.83|QO|1|NC|N|Click on the Deactivated titan keeper.|
-C Slumber No More|QID|49932|M|66.98,38.81|QO|2|NC|N|Click on the Damaged Core.|
-C Slumber No More|QID|49932|M|66.92,38.86|QO|3|NC|N|Click on the now Awakened Titan Keeper Hezrel.|
+$ Lost Nazmani Treasure|QID|49891|M|62.32,36.18;62.10,34.86|CS|S|N|Pick up this treasure, in an underwater cave, while running to or from Ayame. Loot to finish the treasure achievement and of course for resources.|RANK|2|
+C Slumber No More|QID|49932|M|66.91,38.83|QO|1|H|N|Click on the Deactivated titan keeper.|
+C Slumber No More|QID|49932|M|66.96,38.79|QO|2|H|N|Click on the Damaged Core.|
+C Slumber No More|QID|49932|M|66.92,38.86|QO|3|H|N|Click on the now Awakened Titan Keeper Hezrel.|
 T Slumber No More|QID|49932|M|66.89,38.92|N|To Titan Keeper Hezrel.|
 A Recovering Remnants|QID|49937|M|66.89,38.92|N|From Titan Keeper Hezrel.|PRE|49932|
 A Corrupted Earth|QID|49938|M|66.89,38.92|N|From Titan Keeper Hezrel.|PRE|49932|
 A How to Repair a Titan Keeper|QID|49935|M|66.89,38.92|N|From Titan Keeper Hezrel.|PRE|49932|
 C Recovering Remnants|QID|49937|M|67.51,33.74|S|N|Kill the Nazwathan Spectres to collect the titan plating.|
 C Corrupted Earth|QID|49938|M|65.75,35.00|S|N|Kill Blood-Infused Lashers as you go.|
-C How to Repair a Titan Keeper|QID|49935|M|69.25,39.77|QO|1|NC|N|Pick up Keeper Shavras's core.|
+C How to Repair a Titan Keeper|QID|49935|M|69.25,39.77|QO|1|H|N|Pick up Keeper Shavras's core.|
 K Keeper Bolcan|ACTIVE|49935|M|66.20,33.66|QO|2|T|Keeper Bolcan|N|Defeat Keeper Bolcan and then collect his core.|
 C Corrupted Earth|QID|49938|M|65.75,35.00|US|N|Finish wiping out the Blood-Infused Lashers.|
 C Recovering Remnants|QID|49937|M|67.51,33.74|US|N|Finish collecting the Titan Plating.|
-$ Lost Nazmani Treasure|QID|49891|M|62.32,36.18;62.09,34.92|CS|US|N|Pick up this treasure, in an underwater cave, while running to or from Ayame. Loot to finish the treasure achievement and of course for resources.|RANK|2|
+$ Lost Nazmani Treasure|QID|49891|M|62.32,36.18;62.10,34.86|CS|US|N|Pick up this treasure, in an underwater cave, while running to or from Ayame. Loot to finish the treasure achievement and of course for resources.|RANK|2|
 K Ayame|ACTIVE|52477|M|60.04,33.79|QO|1|US|T|Ayame|N|Kill Ayame. Avoid, interrupt or dispell the acid spit and its not too hard. You may want to be on the lookout for a partner while you are doing this next set of quests for the Titan.|
 T Recovering Remnants|QID|49937|M|68.69,35.12|N|To Titan Keeper Hezrel.|
 T Corrupted Earth|QID|49938|M|68.69,35.12|N|To Titan Keeper Hezrel.|
 T How to Repair a Titan Keeper|QID|49935|M|68.69,35.12|N|To Titan Keeper Hezrel.|
 A Bone Procession|QID|49941|M|68.69,35.12|N|From Titan Keeper Hezrel.|PRE|49938&49937&49935|
 A Unwelcome Undead|QID|49949|M|68.69,35.12|N|From Titan Keeper Hezrel.|PRE|49938&49937&49935|
-A Blood Purification|QID|49950|M|69.22,33.77|N|From Minor Corruption.|PRE|49938&49937&49935|
+A Blood Purification|QID|49950|M|69.25,33.80|N|From Minor Corruption.|PRE|49938&49937&49935|
 K Ancient Jawbreaker|QID|48063|M|67.58,29.77|QO|1|RARE|ITEM|161113|T|Ancient Jawbreaker|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-C Blood Purification|QID|49950|M|71.71,32.65|S|NC|N|Click on the floating balls of Corrupted Energy to destroy them as you go.|
+C Blood Purification|QID|49950|M|71.71,32.65|S|H|N|Click on the floating balls of Corrupted Energy to destroy them as you go.|
 C Unwelcome Undead|QID|49949|M|70.23,33.75|S|N|Kill Nazwathan undead as you go.|
-C Bone Procession|QID|49941|M|71.58,32.83|U|156528|N|Use the Titan Manipulater to weaken the Reanimated Monstrosities and collect thier bones when dead.|
-C Unwelcome Undead|QID|49949|M|70.23,33.75|S|N|Finish your quota of Nazwathan undead.|
-C Blood Purification|QID|49950|M|71.71,32.65|S|NC|N|Finish destroying the Corrupted Energy.|
-K Nazwathan undead|QID|50441|M|68.53,32.85|L|157802|N|Continue killing the undead until you get a Nazwathan Relic for Jani.|RANK|3|PRE|47442|
-$ Mysterious Trashpile|QID|50441|M|68.53,32.85|N|If you heard Jani's guttural voice (which means you found the Nazwathan Relic around here), Jani wants the shiny.|ITEM|157802|RANK|2|PRE|47442|
+C Bone Procession|QID|49941|M|71.58,32.83|T|Reanimated|U|156528|N|Use the Titan Manipulater to weaken the Reanimated Monstrosities and collect thier bones when dead.|
+C Unwelcome Undead|QID|49949|M|70.23,33.75|US|N|Finish your quota of Nazwathan undead.|
+C Blood Purification|QID|49950|M|71.71,32.65|US|H|N|Finish destroying the Corrupted Energy.|
+K Nazwathan Undead|QID|50441|M|68.53,32.85|L|157802|N|Continue killing them until you get a Nazwathan Relic.|RANK|3|PRE|47442|
+$ Mysterious Trashpile|QID|50441|M|68.53,32.85|H|N|Click on the Trashpile to summon Jani.|U|157802|RANK|2|PRE|47442|BUFF|262978|O|
+N Get Hek'd|QID|50441|M|33.99,75.10|CHAT|N|Offer to give Jani the [color=33fff9]Nazwathan Relic[/color] and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|RANK|2|PRE|47442|BUFF|-262978|
 T Bone Procession|QID|49941|M|68.66,35.12|N|To Titan Keeper Hezrel.|
 T Unwelcome Undead|QID|49949|M|68.66,35.12|N|To Titan Keeper Hezrel.|
 T Blood Purification|QID|49950|M|68.66,35.12|N|To Titan Keeper Hezrel.|
