@@ -446,7 +446,7 @@ C A Magical Glow|QID|47622|M|74.25,48.19|QO|1|U|151237|NC|US|N|Finish collecting
 C A True Loa Feast|QID|47621|M|75.95,45.97|US|N|Finish collecting meat for Krag'wa.|
 T A True Loa Feast|QID|47621|M|75.50,56.81|N|To Krag'wa the Huge.|
 T A Magical Glow|QID|47622|M|75.50,56.81|N|To Krag'wa the Huge.|
-A Totemic Restoration|QID|47540|M|75.50,56.81|N|From Krag'wa the Huge.|PRE|48092&48090&47621&47622|
+A Totemic Restoration|QID|47540|M|75.50,56.81|N|From Krag'wa the Huge.|PRE|47621&47622|
 C Totemic Restoration|QID|47540|M|75.17,56.68;75.32,56.37;75.66,56.36|CC|QO|1|NC|N|Click on the 3 Frog Totem Piles around Krag'wa.|
 T Totemic Restoration|QID|47540|M|75.52,56.74|N|To Krag'wa the Huge.|
 A Krag'wa the Terrible|QID|47696|M|75.52,56.74|N|From Krag'wa the Huge.|PRE|47540|
