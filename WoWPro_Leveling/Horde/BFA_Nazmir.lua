@@ -595,7 +595,7 @@ A Protocol Recovery|QID|49957|M|68.66,35.12|N|From Titan Keeper Hezrel.|PRE|4995
 C Not Fit for This Plane|QID|49955|M|71.10,29.58|S|N|Kill Faceless Ones as you proceed towards the Seal of Nazmir. *large building*|
 C Void is Prohibited|QID|49956|M|70.95,29.09|U|156542|NC|N|Use the Void Disrupter to seal the Void Portals.|
 C Not Fit for This Plane|QID|49955|M|71.10,29.58|US|N|Finish off the Faceless Ones before you go inside.|
-K Overlord Kraxis|ACTIVE|49957|M|72.58,29.16|QO|1|T|Overlord Kraxis|N|Kill Overlord Kraxis to recover the Containment Protocol.|
+K Overlord Kraxis|ACTIVE|49957|M|72.73,29.02|QO|1|T|Overlord Kraxis|N|Kill Overlord Kraxis to recover the Containment Protocol.|
 T Not Fit for This Plane|QID|49955|M|72.47,29.38|N|To Titan Keeper Hezrel.|
 T Void is Prohibited|QID|49956|M|72.47,29.38|N|To Titan Keeper Hezrel.|
 T Protocol Recovery|QID|49957|M|72.47,29.38|N|To Titan Keeper Hezrel.|
@@ -604,39 +604,39 @@ C Containment Procedure|QID|49980|M|72.47,29.38|QO|1|CHAT|N|Tell Titan Keeper He
 K Grand Ma'da Ateena|ACTIVE|49980|M|72.85,28.99|QO|2|T|Grand Ma'da Ateena|N|Attempt to defeat Grand Ma'da Ateena.|
 T Containment Procedure|QID|49980|M|72.47,29.37|N|To Titan Keeper Hezrel.|
 A Return to Gloom Hollow|QID|49985|M|72.47,29.37|N|From Titan Keeper Hezrel.|PRE|49980|
-C Return to Gloom Hollow|QID|49985|M|66.01,39.13|QO|1|V|N|Hop on Titan Keeper Hezrel for a ride back to Gloom Hollow.|
+C Return to Gloom Hollow|QID|49985|M|71.84,30.38;66.01,39.13|CS|QO|1|V|N|Follow Titan Keeper Hezrel outside and hop on for a free ride back to Gloom Hollow.|
 T Return to Gloom Hollow|QID|49985|M|67.43,42.23|N|To Princess Talanji.|
 A Down by the Riverside|QID|49569|M|67.43,42.23|N|From Princess Talanji.|PRE|49985|
 t WANTED: Ayame|QID|52477|M|67.76,41.85|N|To Korkush.|
 ;  Bleeding the Blood Trolls
 C Down by the Riverside|QID|49569|M|65.70,45.09|QO|1|CHAT|N|Speak with Patch to board the barge|
-C Down by the Riverside|QID|49569|M|39.89,84.92|QO|2|NC|N|Use the "1" key to destroy enemies as you sail down the river, at one point, near zuldazar, use the "2" key to destroy the big water serpent.|
-K Blood Priest Xak'lar|QID|48541|M|43.20,90.55;43.27,91.37|CS|QO|1|T|Blood Priest Xak'lar|N|Into this cave to kill a Silver Elite for artifact power and resources.|RANK|2|RARE|;item unknown
+C Down by the Riverside|QID|49569|M|39.89,84.92|QO|2|T|Dominated Hydra|N|When the serpent shows up, target it and use the "2" key to kill it.\n[color=FF0000]NOTE: [/color]The Blood trolls do nothing and can be ignored. The Serpent is the only thing that will stop you.|
+K Blood Priest Xak'lar|QID|48541|M|43.20,90.55;43.27,91.37|CS|QO|1|T|Blood Priest Xak'lar|N|Enter the cave between the waterfalls to kill a Silver Elite for artifact power and resources.|RANK|2|RARE|;item unknown
 t WANTED: Tojek|QID|51089|M|39.12,79.87|N|To Rovash the One Eyed.|
-T Down by the Riverside|QID|49569|M|39.41,78.17|N|To Princess Talanji.|
-A Rally the Warriors|QID|50076|M|39.41,78.17|N|From Princess Talanji.|PRE|49569|
-C Rally the Warriors|QID|50076|M|39.37,77.48|QO|1|NC|N|Click the Ancient Gong; then listen to the Princess' speech.|
+T Down by the Riverside|QID|49569|M|39.40,78.14|N|To Princess Talanji.|
+A Rally the Warriors|QID|50076|M|39.40,78.14|N|From Princess Talanji.|PRE|49569|
+C Rally the Warriors|QID|50076|M|39.37,77.48|QO|1|H|N|Click the Ancient Gong and then listen to the Princess' speech.|
 T Rally the Warriors|QID|50076|M|39.33,77.68|N|To Princess Talanji.|
 A The Battle of Bloodfire Ravine|QID|50138|M|39.33,77.68|N|From Princess Talanji.|PRE|50076|
-R Bloodfire Ravine|ACTIVE|50138|M|41.93,74.12|
-C The Battle of Bloodfire Ravine|QID|50138|M|42.25,72.63|QO|1|NC|N|Meet Talanji at Bloodfire Ravine.|
-A Undying Totems|QID|50078|M|42.29,72.64|N|From Princess Talanji.|PRE|50076|
+R Bloodfire Ravine|ACTIVE|50138|M|41.93,74.12|N|Exit by the north and head northeast from the stairs.|
+R The Battle of Bloodfire Ravine|ACTIVE|50138|M|42.25,72.63|QO|1|N|Meet Talanji at Bloodfire Ravine.|
+A Undying Totems|QID|50078|M|42.21,72.75|N|From Princess Talanji.|PRE|50076|
 C The Battle of Bloodfire Ravine|QID|50138|M|43.18,72.56|QO|2|S|N|Kill Blood Trolls as you go.|
-C Undying Totems|QID|50078|M|43.99,69.77|N|Destroy the Reanimating Totems.|
-T Undying Totems|QID|50078|M|44.03,70.02|N|To Princess Talanji.|
-C The Battle of Bloodfire Ravine|QID|50138|M|43.18,72.56|QO|2|US|N|Finish your quota of Blood Trolls.|
+C Undying Totems|QID|50078|M|43.38,71.53|H|N|Destroy the Reanimating Totems.|
+T Undying Totems|QID|50078|M|PLAYER|N|To Princess Talanji beside you.|
+C The Battle of Bloodfire Ravine|QID|50138|M|43.18,72.56|QO|2|US|N|Finish up killing the Blood Trolls.|
 K Warmother Molaka|ACTIVE|50138|M|44.80,68.91|QO|3|T|Warmother Molaka|N|Kill Warmother Molaka.|
 T The Battle of Bloodfire Ravine|QID|50138|M|44.96,68.60|N|To Princess Talanji.|
 A The Road of Pain|QID|50081|M|44.96,68.60|N|From Princess Talanji.|PRE|50138&50078|
 A Boom goes the Bomb|QID|50079|M|44.98,68.34|N|From Patch.|PRE|50138&50078|
-C The Road of Pain|QID|50081|M|44.02,63.98|NC|S|N|Click on the prostrate Zandalari Soldiers to heal them.|
-C Boom goes the Bomb|QID|50079|M|44.37,67.21|QO|1|U|156847|NC|N|Use the smoke grenade to mark the first barricade.|
-C Boom goes the Bomb|QID|50079|M|44.07,65.52|QO|2|U|156847|NC|N|Use the smoke grenade to mark the second barricade.|
-C The Road of Pain|QID|50081|M|44.02,63.98|NC|US|N|Finish healing the Zandalari Soldiers.|
-C Boom goes the Bomb|QID|50079|M|44.02,63.98|QO|3|U|156847|NC|N|Use the smoke grenade to mark the third Barricade.|
+C The Road of Pain|QID|50081|M|44.02,63.98|H|S|N|Click on the prostrate Zandalari Soldiers to heal them.|
+C Boom goes the Bomb|QID|50079|M|44.48,66.88|QO|1|U|156847|NC|N|Use the smoke grenade to mark the first barricade.\n[color=FF0000]NOTE: [/color]The air strike won't do anything to you.|
+C Boom goes the Bomb|QID|50079|M|44.18,64.98|QO|2|U|156847|NC|N|Use the smoke grenade to mark the second barricade.|
+C The Road of Pain|QID|50081|M|44.02,63.98|H|US|N|Finish healing the Zandalari Soldiers.|
+C Boom goes the Bomb|QID|50079|M|44.16,63.59|QO|3|U|156847|NC|N|Use the smoke grenade to mark the third Barricade.|
 T The Road of Pain|QID|50081|M|44.19,62.85|N|To Princess Talanji.|
 T Boom goes the Bomb|QID|50079|M|44.19,62.85|N|To Princess Talanji.|
-A Target of Opportunity|QID|50082|M|44.19,62.85|N|From Princess Talanji.|PRE|50321&50080|
+A Target of Opportunity|QID|50082|M|44.19,62.85|N|From Princess Talanji.|PRE|50079|
 C Target of Opportunity|QID|50082|M|44.98,60.97|QO|1|CHAT|N|Tell Talanji you are ready.|
 C Target of Opportunity|QID|50082|M|45.47,60.24|QO|2|N|Confront Grand Ma'da Ateena. You kill the adds while Talanji duels with Ateena.|
 T Target of Opportunity|QID|50082|M|45.21,60.54|N|To Princess Talanji.|
@@ -644,7 +644,7 @@ A Petitioning Krag'wa|QID|52073|M|45.21,60.54|N|From Princess Talanji.|
 A The Crawg Ma'da|QID|50083|M|45.34,58.59|N|From Rokhan.|RANK|3|PRE|50323|
 K Amaka the Crawg Ma'da|ACTIVE|50083|QO|2|M|46.99,54.11|U|156868|T|Amaka the Crawg Ma'da|N|Optionally, if you have one, you can use the poison gland to weaken and do additional damage to Amaka.|
 T The Crawg Ma'da|QID|50083|M|48.53,53.54|N|To Rokhan.|
-A A Message of Blood and Fire|QID|50085|M|48.53,53.54|N|From Rokhan.|PRE|50083|RANK|3|;may be spurious, but quest isnt avail until you turn in The Crawg Ma'da
+A A Message of Blood and Fire|QID|50085|M|48.53,53.54|N|From Rokhan.|PRE|50083|RANK|3|;may be spurious, but quest isnt avail until you turn in The Crawg Ma'da ** This quest is the follow-up to The Crawg Ma'da... not spurious. - Hendo72
 ;A Raiding the Raiders|QID|50080|M|48.46,52.69|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|3|PRE|50079&50081| ** Not required - Hendo72
 C Raiding the Raiders|QID|50080|M|48.46,52.69|S|N|Bonus Objective - Kill blood trolls, rescue captives and pick up the crates to complete.|
 C A Message of Blood and Fire|QID|50085|M|48.85,52.58|U|156931|S|NC|N|Use the wand to set huts on fire, some will take more than one torching to find the right spot.|
@@ -655,16 +655,16 @@ C Raiding the Raiders|QID|50080|M|45.34,58.59|US|N|Bonus Objective - Finish this
 K Jax'teb the Reanimated|QID|50307|M|45.17,51.79|QO|1|RARE|ITEM|160969|T|Jax'teb the Reanimated|N|One more Silver Elite to kill and loot for artifact power and resources.|RANK|3|
 T A Message of Blood and Fire|QID|50085|M|44.28,54.06|N|To Rokhan. The path up from Jax'teb takes you to Rokhan.|
 K Mala'kili|QID|50040|M|45.67,56.83;50.17,53.91;53.06,54.30|CS|QO|1|RARE|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet crawg, Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources. After you kill it, back up the hill to find Krag'wa.|RANK|3|;there is not any very good place for this. I think this is the closest. ... Although perhaps after picking up the dungeon quest is better.
-C Petitioning Krag'wa|QID|52073|M|45.18,60.70|CHAT|N|Petition Krag'wa for aid. (you need to be dismounted)|
+C Petitioning Krag'wa|QID|52073|M|45.14,60.80|CHAT|N|Petition Krag'wa for aid.\n[color=FF0000]NOTE: [/color]You need to be dismounted.|
 T Petitioning Krag'wa|QID|52073|M|49.39,57.19|N|To Princess Talanji.|
-A Ateena's Fall|QID|50087|M|49.39,57.19|N|From Princess Talanji.|;pres per Grail not correct
+A Ateena's Fall|QID|50087|M|49.39,57.19|N|From Princess Talanji.|PRE|52073|;pres per Grail not correct ** This PRE activates the step - Hendo72
 K Grand Ma'da Ateena|ACTIVE|50087|M|51.88,60.59|QO|1|T|Grand Ma'da Ateena|N|Chase Grand Ma'da Ateena around the top of the building avoiding the pools of corruption and damaging her.|
 T Ateena's Fall|QID|50087|M|50.60,58.46|N|To Princess Talanji.|
 A What Rots Beneath|QID|51244|M|50.51,58.34|N|From Rokhan.|PRE|50087|
 C What Rots Beneath|QID|51244|M|50.51,58.34|QO|1|CHAT|N|Ask Rokhan for a ride down to the Altar of Rot.|
-C What Rots Beneath|QID|51244|M|51.73,65.69|QO|2|NC|N|Run down the hill to find Titan Keeper Hezrel and speak to him.|
+C What Rots Beneath|QID|51244|M|53.15,70.61;51.73,65.69|CS|QO|2|CHAT|N|Run down the hill to find Titan Keeper Hezrel and speak to him.|
 T What Rots Beneath|QID|51244|M|51.73,65.69|N|To Titan Keeper Hezrel.|
-A The Underrot: Sealing G'huun's Corruption|QID|51302|M|51.73,65.69|NA|N|From Titan Keeper Hezrel. This is a dungeon quest.|RANK|2|PRE|51244|
+A The Underrot:Sealing G'huun's Corruption|QID|51302|M|51.73,65.69|ELITE|N|[color=E6CC80]Dungeon: 'The Underrot'[/color]\nFrom Titan Keeper Hezrel.|RANK|3|PRE|51244|;DUNGEON|
 A Halting the Empire's Fall|QID|50808|M|51.91,65.56|N|From Rokhan. If you are sticking around for the remainder of the quests and rares, don't take Rokhan's offered flight.|PRE|51244|RANK|3|
 A Halting the Empire's Fall|QID|50808|M|51.91,65.56|N|From Rokhan.|PRE|51244|
 F Zul'jan Ruins|ACTIVE|50808|M|51.91,65.56|N|Queue if you want to do the dugeon now or ask Rokhan for a ride back to Zul'jan. Alternatively check this off manually and hearth to The Great Seal.|RANK|-1|

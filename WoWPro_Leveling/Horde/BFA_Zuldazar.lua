@@ -244,9 +244,9 @@ C Direhorn Daycare|QID|47259|M|69.10,44.91|S|H|N|Click on the soothing lilybud b
 K Kandak|QID|48543|M|68.66,48.72|QO|1|RARE|ITEM|160984|T|Kandak|N|Silver Elite to kill for azerite power and resources.|RANK|2|
 C Direhorn Daycare|QID|47259|M|69.10,44.91|US|H|N|Finish satiating your hatchling.|
 C Ravenous Landsharks|QID|48527|M|68.81,48.09|US|N|Finish your quota of Irritable Diemetradons.|
-T Direhorn Daycare|QID|47259|M|66.81,42.51|N|To Beastlord L'kala.|
-T Ravenous Landsharks|QID|48527|M|66.81,42.51|N|To Beastlord L'kala.|
-A Headbutting 101|QID|47311|M|66.81,42.51|N|From Beastlord L'kala.|RANK|2|PRE|47259&48527|
+T Direhorn Daycare|QID|47259|M|66.80,42.55|N|To Beastlord L'kala.|
+T Ravenous Landsharks|QID|48527|M|66.80,42.55|N|To Beastlord L'kala.|
+A Headbutting 101|QID|47311|M|66.80,42.55|N|From Beastlord L'kala.|RANK|2|PRE|47259&48527|
 A Direhorn Growth Hormone|QID|47272|M|66.81,42.58|N|From Trader Alexxi Cruzpot.|RANK|2|PRE|47259&48527|
 A WANTED: Jabra'kan|QID|51980|M|69.05,40.83|N|From Wanted Poster.|RANK|2|
 A Queenfeather|QID|47312|M|69.02,40.72|N|From Wingrider Nivek.|RANK|2|
@@ -259,8 +259,8 @@ C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|US|NC|N|Finish collecting the 
 C Headbutting 101|QID|47311|M|70.42,40.31|US|N|Command your Hatchling to fight|
 T Queenfeather|QID|47312|M|69.01,40.71|N|To Wingrider Nivek.|
 T Direhorn Growth Hormone|QID|47272|M|66.81,42.58|N|To Trader Alexxi Cruzpot.|
-T Headbutting 101|QID|47311|M|66.81,42.51|N|To Beastlord L'kala.|
-A Wings for the Kraal|QID|51990|M|66.81,42.51|N|From Beastlord L'kala.|RANK|2|PRE|47311|
+T Headbutting 101|QID|47311|M|66.80,42.55|N|To Beastlord L'kala.|
+A Wings for the Kraal|QID|51990|M|66.80,42.55|N|From Beastlord L'kala.|RANK|2|PRE|47311|
 A DGH: Now With Real Direhorn|QID|51998|M|66.81,42.58|N|From Trader Alexxi Cruzpot.|RANK|2|PRE|47311|
 C DGH: Now With Real Direhorn|QID|51998|M|66.79,34.09|S|N|Kill Pterrordax' and loot to collect the Partially Digested Direhorn Flesh.|
 C Wings for the Kraal|QID|51990|M|66.72,34.46|S|NC|N|Pick up the nearly-hatching Pterrordax Egg.|
@@ -271,10 +271,10 @@ C WANTED: Jabra'kan|QID|51980|M|67.07,37.15|T|Jabra'kan|N|Kill Jabra'kan the Poa
 t WANTED: Jabra'kan|QID|51980|M|69.01,40.71|N|To Wingrider Nivek.|
 T DGH: Now With Real Direhorn|QID|51998|M|66.81,42.58|N|To Trader Alexxi Cruzpot.|
 T Wings for the Kraal|QID|51990|M|66.80,42.51|N|To Beastlord L'kala.|
-A Growing Pains|QID|47418|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|RANK|2|PRE|47272|
+A Growing Pains|QID|47418|M|66.80,42.55|N|From Trader Alexxi Cruzpot.|RANK|2|PRE|47272|
 C Growing Pains|QID|47418|M|66.85,42.44|QO|1|U|147897|NC|N|Feed the DGH to your Hatchling.|
 T Growing Pains|QID|47418|M|66.81,42.58|N|To Trader Alexxi Cruzpot.|
-A How to Train Your Direhorn|QID|47261|M|66.81,42.51|N|From Beastlord L'kala.|RANK|2|PRE|47418&47311|
+A How to Train Your Direhorn|QID|47261|M|66.80,42.55|N|From Beastlord L'kala.|RANK|2|PRE|47418&47311|
 C How to Train Your Direhorn|QID|47261|M|67.56,43.45|QO|1|CHAT|N|Talk to Training Master B'khor.|
 C How to Train Your Direhorn|QID|47261|M|69.12,45.08|QO|2|NC|N|Go into the training pen to meet Pinky.|
 C How to Train Your Direhorn|QID|47261|M|69.76,43.83|QO|3|NC|N|Use the "1" key to sprint away from Pinky towards the North gate.|
@@ -284,21 +284,22 @@ C How to Train Your Direhorn|QID|47261|M|67.60,43.41|QO|6|NC|N|Return to Kraal M
 T How to Train Your Direhorn|QID|47261|M|67.55,43.44|N|To Kraal Master B'khor.|
 A A Good Spanking|QID|48581|M|67.55,43.44|N|From Kraal Master B'khor.|RANK|2|PRE|47261|
 C A Good Spanking|QID|48581|M|67.87,44.97|N|Go beat up on Pinky to tire him out.|
-T A Good Spanking|QID|48581|M|66.81,42.51|N|To Beastlord L'kala.|
-A Naptime|QID|47310|M|66.81,42.51|N|From Beastlord L'kala.|RANK|2|PRE|48581|
-C Naptime|QID|47310|M|68.29,42.05|NC|N|Click on the gates to send your Juvenile Direhorn into the "stable"|
+T A Good Spanking|QID|48581|M|66.80,42.55|N|To Beastlord L'kala.|
+A Naptime|QID|47310|M|66.80,42.55|N|From Beastlord L'kala.|RANK|2|PRE|48581|
+C Naptime|QID|47310|M|68.29,42.05|NC|N|Click on the gates to send your Direhorn Juvenile into the "stable"|
 T Naptime|QID|47310|M|66.79,42.50|N|To Beastlord L'kala.|
 N Pet Opportunity|AVAILABLE|47260|N|After you reach lvl 50, you will get a letter inviting you back to complete 3 more quests for a new pet.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|PRE|47310| ; Level may be different - Hendo72
-A Side Effects May Include...|QID|47260|M|68.14,41.81|N|From Direhorn Juvinile where you left him taking a nap.|PRE|47310|LVL|50|
-T Side Effects May Include...|QID|47260|M|66.81,42.56|N|To Beastlord L'kala.|
-A Alchemy is an Inexact Science|QID|52855|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|47260|
-R Savagelands|ACTIVE|52855|M|70.50,35.27|N|Mount up its a bit of a run to find the needed reagents.|
-C Alchemy is an Inexact Science|QID|52855|M|70.50,35.27|NC|N|Click on Incandescent Duskwings to collect the dust.|
-C Alchemy is an Inexact Science|QID|52855|M|70.45,34.59|NC|N|Pick the flower after you have all the duskwings, it sometimes bugs out otherwise.|
-T Alchemy is an Inexact Science|QID|52855|M|66.81,42.58|N|To Trader Alexxi Cruzpot.|
-A Held For Observation|QID|52857|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|52855|
-C Held For Observation|QID|52857|M|68.14,41.81|U|162589|NC|N|Give your Direhorn Juvenile the remedy.|
-T Held For Observation|QID|52857|M|66.81,42.56|N|To Beastlord L'kala.|
+F Warbeast Kraal|ACTIVE|47199|AVAILABLE|47260|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.| ; ** Nazmir joins here - Hendo72
+A Side Effects May Include...|QID|47260|M|68.17,41.74|N|From Direhorn Juvenile where you left him taking a nap.\n[color=FF0000]NOTE: [/color]Click on the gate to open it.|PRE|47310|LVL|50|
+T Side Effects May Include...|QID|47260|M|66.80,42.55|N|To Beastlord L'kala.|
+A Alchemy is an Inexact Science|QID|52855|M|66.74,42.70|N|From Trader Alexxi Cruzpot.|PRE|47260|
+R Savagelands|ACTIVE|52855|M|66.74,42.70|N|Mount up its a bit of a run to find the needed reagents.|
+C Alchemy is an Inexact Science|QID|52855|M|70.50,35.27|QO|2|H|N|Click on Incandescent Duskwings to collect the dust.\n[color=FF0000]NOTE: [/color]Do not pick the flower until you are done this. It may bug out you.|
+C Alchemy is an Inexact Science|QID|52855|M|70.48,34.59|QO|1|H|N|Pick the flower.|
+T Alchemy is an Inexact Science|QID|52855|M|66.74,42.70|N|To Trader Alexxi Cruzpot.|
+A Held For Observation|QID|52857|M|66.74,42.70|N|From Trader Alexxi Cruzpot.|PRE|52855|
+C Held For Observation|QID|52857|M|68.17,41.74|T|Direhorn Juvenile|U|162589|NC|N|Give your Direhorn Juvenile the remedy.|
+T Held For Observation|QID|52857|M|66.80,42.55|N|To Beastlord L'kala.|
 F Scaletrader Post|ACTIVE|49768|M|67.26,43.03|N|At Paku'ai Verraki.|
 R Nesingwary's Trek|ACTIVE|49768|M|69.23,27.56;68.53,23.01;67.91,21.19;67.54,18.00|CS|N|And on to find Nesingwary.|RANK|2|
 T Nesingwary's Trek|QID|49768|M|67.50,17.70|N|To Hemet Nesingwary.|
@@ -730,7 +731,7 @@ H The Great Seal|ACTIVE|50963|M|70.77,29.59|N|Use your hearthstone.\n[color=FF00
 F The Great Seal|ACTIVE|50963|M|70.77,29.59|N|Take the flightpath at Loz the Paku'ai.|
 T Of Dark Deeds and Dark Days|QID|50963|M|41.22,66.92|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 t Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|41.22,66.92|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
-A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|PRE|50963&50808|;not spurious - necesary for guide flow
+A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|PRE|50963&50808|;not spurious - necessary for guide flow
 A Sandscar Breach|QID|49940|M|67.00,71.58|Z|Hall of Croniclers!Dazar'alor|N|From Natal'hakata.|RANK|2|
 ; R3 quest chain begins and R1 will drop to the end of the guide from here.
 A The Bones of Xibala|QID|47257|M|69.89,47.50|Z|Hall of Croniclers!Dazar'alor|N|From Chronicler To'kini.|RANK|3|
@@ -797,7 +798,7 @@ T The Sethrak Incursion|QID|49679|M|47.33,25.14|N|To Beastmother Jabati.|
 T Lil' Tika|QID|49681|M|47.33,25.14|N|To Beastmother Jabati.|
 ;A Bargain of Blood
 F The Sliver|ACTIVE|47199|M|49.72,26.28|N|At Paku'ai Rip'nata.|
-J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|GUIDE|EliEndgame|
+J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|JUMP|EliEndgame|
 D The End.|N|This Concludes Zuldazar. The war campaign guide will automatically load when you check this step off. If instead you want to go elsewhere, select the next area and let that guide autoload.|GUIDE|EmmHWarCampaign|
 ]]
 end)
