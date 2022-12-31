@@ -366,7 +366,7 @@ A Can We Keep It?|QID|66223|PRE|66218|M|10.60,46.88|Z|2024|N|From Neelo.|
 R Iskaara|ACTIVE|66223|M|12,48|N|Head back to town.|
 B Can We Keep It?|ACTIVE|66223|M|13.85,49.46|Z|2024|QO|1|N|Purchase Frigidfish from Jinkutuk or fish them up yourself.|
 T A Practice Bout|QID|70732|M|13.89,49.85|Z|2024|N|To Patchu.|
-A This Calls for a Specialist.|QID|70849|PRE|70732|M|13.89,49.85|Z|2024|N|From Patchu.|
+A This Calls for a Specialist|QID|70849|PRE|70732|M|13.89,49.85|Z|2024|N|From Patchu.|
 T Can We Keep It?|QID|66223|M|10.59,46.87|Z|2024|N|To Neelo.|
 H Azure Archives|ACTIVE|65911|M|PLAYER|TZ|The Conjured Biscuit Inn|N|Hearth or fly back to Kalecgos.|
 
