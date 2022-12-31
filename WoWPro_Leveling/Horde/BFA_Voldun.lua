@@ -6,12 +6,13 @@ WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
-A Vol'dun|QID|47513|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick Vol'dun from Scouting Map.|PRE|52131|
+A Vol'dun|QID|47513|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick Vol'dun from the Scouting Map.|PRE|52131|
 t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
+N Secrets in the Sands|AVAILABLE|47513|N|If you're intent is to only complete the zone achievement, right-click on the guide title bar and select 'About'. From here, set the 'Toon Rank' to 1 and uncheck Treasures and Rares.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Discreet Discussions|QID|47313|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|
-C Discreet Discussions|QID|47313|M|50.12,37.41|Z|Dazar'alor|QO|1<1|NC|N|Outside and down either long set of stairs to find first, Enforcer Sekal.|
-C Discreet Discussions|QID|47313|M|52.20,37.54|Z|Dazar'alor|QO|1<2|NC|N|Continue down to find the next Enforcer Gortok.|
-C Discreet Discussions|QID|47313|M|54.26,35.85|Z|Dazar'alor|QO|1<3|NC|N|And down some more to find Enforcer Dakanji.|
+C Discreet Discussions|QID|47313|M|50.12,37.41|Z|Dazar'alor|QO|1<1|CHAT|N|Outside and down either long set of stairs to find Enforcer Sekal.\n[color=FF0000]NOTE: [/color]Be on alert for ambushes by a Sandfury Assassin when you walk around the corners.|
+C Discreet Discussions|QID|47313|M|52.20,37.54|Z|Dazar'alor|QO|1<2|CHAT|N|Continue down to find Enforcer Gortok.|
+C Discreet Discussions|QID|47313|M|54.49,37.46;54.26,35.85|CS|Z|Dazar'alor|QO|1<3|CHAT|N|And down some more to find Enforcer Dakanji.|
 ;  to open up Jani's mysterious trashpiles
 R The Zocalo|AVAILABLE|47441|M|42.58,27.97|Z|Dazar'alor|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd".|RANK|3|
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
@@ -25,44 +26,44 @@ T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now open
 ;  Unlikely Allies
 T Discreet Discussions|QID|47313|M|51.57,31.82|Z|Dazar'alor|N|To Bladeguard Kaja.|
 A Rumors of Exile|QID|47314|M|51.57,31.82|Z|Dazar'alor|N|From Bladeguard Kaja.|PRE|47313|
-T Rumors of Exile|QID|47314|M|51.17,29.59;49.90,31.63|CS|Z|Dazar'alor|N|To Bladeguard Kaja who went down the stairs and around the corner to your left.|
+T Rumors of Exile|QID|47314|M|51.17,29.59;49.90,31.63|CS|Z|Dazar'alor|N|To Bladeguard Kaja who moved down to the stairs of The Royal Armory.|
 A Into the Dunes|QID|47315|M|49.90,31.63|Z|Dazar'alor|N|From Bladeguard Kaja.|PRE|47314|
 C Into the Dunes|QID|47315|M|50.04,31.69|Z|Dazar'alor|QO|1|V|N|Hop on the Pterrordax.|
 T Into the Dunes|QID|47315|M|65.98,36.65|N|To Nisha.|
 A Armed and Ready|QID|51357|M|65.98,36.65|N|From Nisha.|PRE|47315|
-C Armed and Ready|QID|51357|M|65.95,36.64|NC|N|Select a Weapon.|
+C Armed and Ready|QID|51357|M|65.95,36.64|H|N|Select a Weapon.|
 T Armed and Ready|QID|51357|M|65.98,36.65|N|To Nisha.|
-A Answering Their Attacks|QID|47327|M|65.94,36.71|N|From Nisha.|PRE|51357|
-A Dressed for Battle|QID|49676|M|65.94,36.71|N|From Nisha.|PRE|51357|
+A Answering Their Attacks|QID|47327|M|65.98,36.65|N|From Nisha.|PRE|51357|
+A Dressed for Battle|QID|49676|M|65.98,36.65|N|From Nisha.|PRE|51357|
 C Answering Their Attacks|QID|47327|M|62.20,32.88|S|N|Kill Sethrak as you go.|
-C Dressed for Battle|QID|49676|M|65.14,37.26;64.67,33.91|CS|QO|1|NC|N|Pick up the Banner.|
-C Dressed for Battle|QID|49676|M|63.63,32.72|QO|2|NC|N|Pick up the Helmet.|
-C Dressed for Battle|QID|49676|M|61.87,33.78|QO|3|NC|N|Pick up the box of Explosives.|
-T Dressed for Battle|QID|49676|M|61.87,33.73|N|To Nisha.|
-A Plans for Attack|QID|49677|M|61.87,33.73|N|From Nisha.|PRE|49676|
+C Dressed for Battle|QID|49676|M|65.14,37.26;64.67,33.91|CS|QO|1|H|N|Pick up the Banner.|
+C Dressed for Battle|QID|49676|M|63.63,32.72|QO|2|H|N|Pick up the Sethrak Skull.|
+C Dressed for Battle|QID|49676|M|61.87,33.78|QO|3|H|N|Pick up the box of Explosives.|
+T Dressed for Battle|QID|49676|M|PLAYER|N|To Nisha.|
+A Plans for Attack|QID|49677|M|PLAYER|N|From Nisha.|PRE|49676|
 K Fangcaller Sraka|ACTIVE|49677|QO|1|M|61.14,32.89|N|Kill Fangcaller Sraka and loot Nisha's Attack Plans.|T|Fangcaller Sraka|
-T Plans for Attack|QID|49677|M|60.87,32.60|N|To Nisha.|
+T Plans for Attack|QID|49677|M|PLAYER|N|To Nisha.|
 C Answering Their Attacks|QID|47327|M|60.87,32.60|US|N|Finish up the Sethrak.|
-T Answering Their Attacks|QID|47327|M|60.87,32.60|N|To Nisha.|
-A An Explosive Exit|QID|51364|M|60.87,32.60|N|From Nisha.|PRE|49677&47327|
+T Answering Their Attacks|QID|47327|M|PLAYER|N|To Nisha.|
+A An Explosive Exit|QID|51364|M|PLAYER|N|From Nisha.|PRE|49677&47327|
 C An Explosive Exit|QID|51364|M|60.04,34.60|QO|1|V|N|Hop on Nisha's wagon.|
 C An Explosive Exit|QID|51364|M|60.04,34.60|QO|2|V|N|Hop on Nisha's wagon.|
-C An Explosive Exit|QID|51364|M|59.15,37.06|QO|3|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|EAB|
-C An Explosive Exit|QID|51364|M|59.15,37.06|QO|4|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|EAB|
+C An Explosive Exit|QID|51364|M|59.15,37.06|QO|3|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.\n[color=FF0000]NOTE: [/color]Or do nothing because they don't hurt you.|EAB|
+C An Explosive Exit|QID|51364|M|59.15,37.06|QO|4|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.\n[color=FF0000]NOTE: [/color]Or do nothing because they don't hurt you.|EAB|
 T An Explosive Exit|QID|51364|M|56.79,50.53|N|To Kiro.|
+;  Dangers in the Desert
 A Restorative Venom|QID|47319|M|56.79,50.53|N|From Kiro.|PRE|51364|
 A Freshly Squeezed|QID|51574|M|56.76,50.53|N|From Meerah.|PRE|51364|
-f Vulpera Hideaway|ACTIVE|51574|M|56.97,49.26|N|At Narishi.|
-;  Dangers in the Desert
+f Vulpera Hideaway|ACTIVE|51574|M|56.97,49.26|N|At Narishi.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 K Bloodwing Bonepicker|QID|51079|M|59.59,50.68;57.21,53.25;56.09,53.59|CS|QO|1|RARE|ITEM|161019|T|Bloodwing Bonepicker|N|Click on the Enormous Egg to summon the momma bird. Kill this Silver Elite for artifact power and resources.|RANK|3|
 K Gut-Gut the Glutton|QID|49270|M|61.98,47.61;62.70,47.29;63.95,48.10;64.03,47.60|CS|RARE|QO|1|T|Gut-Gut the Glutton|N|You have to be dedicated to getting adventurer of Vol'dun to run up and get this one. Up the side of the mountain, in the middle of nowhere lives this silver elite eating birds and foolish adventurers. Kill and loot for artifact power and resources (or just check off and move on.)|RANK|3|
-C Freshly Squeezed|QID|51574|M|53.73,49.02|NC|S|N|Collect Pricklevine Juice from the plants.|
-C Restorative Venom|QID|47319|M|54.69,48.37|S|N|Kill Sandstingers for their Venom Glands. If you lack ranged attacks, you can pick up the "loose rock" and use special action button to bring them down.|
+C Freshly Squeezed|QID|51574|M|53.73,49.02|H|S|N|Collect Pricklevine Juice from the plants.|
+C Restorative Venom|QID|47319|M|54.69,48.37|S|N|Kill Sandstingers for their Venom Glands.\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use special action button to bring them down.|
 A Missing Business|QID|50739|M|55.21,48.40|N|From Vivi.|RANK|2|
 C Missing Business|QID|50739|M|53.57,51.57|S|NC|N|Revive the Sable Polecats.|
 K Hivemother Kraxi|QID|47533|QO|1|M|53.83,51.43;53.78,53.19|CS|RARE|ITEM|161027|T|Hivemother Kraxi|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
-C Restorative Venom|QID|47319|M|54.69,48.37|US|N|Kill Sandstingers for their Venom Glands.|
-C Freshly Squeezed|QID|51574|M|53.73,49.02|NC|US|N|Collect Pricklevine Juice from the plants.|
+C Freshly Squeezed|QID|51574|M|53.73,49.02|H|US|N|Collect Pricklevine Juice from the plants.|
+C Restorative Venom|QID|47319|M|54.69,48.37|US|N|Kill Sandstingers for their Venom Glands.\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use special action button to bring them down.|
 C Missing Business|QID|50739|M|53.57,51.57|US|NC|N|Revive the Sable Polecats.|
 T Missing Business|QID|50739|M|55.20,48.38|N|To Vivi.|
 T Freshly Squeezed|QID|51574|M|56.76,50.53|N|To Meerah.|
@@ -73,20 +74,20 @@ T A Balm to Calm|QID|47320|M|56.84,50.52|N|To Bladeguard Kaja.|
 A Searching for Survivors|QID|47317|M|56.84,50.52|N|From Bladeguard Kaja.|PRE|47320|
 A Knickknack Takeback|QID|47321|M|56.79,50.53|N|From Kiro.|PRE|47320|
 A Secrets in the Sand|QID|47316|M|56.76,50.53|N|From Meerah.|PRE|47320|
-C Secrets in the Sand|QID|47316|QO|1<1|M|55.81,48.68|NC|N|Page 1 is lying near the rock.|
-C Secrets in the Sand|QID|47316|QO|1<2|M|52.78,46.37|NC|N|Page 4 is lying on the sand in the middle of nowhere.|
-C Secrets in the Sand|QID|47316|QO|1<3|M|52.79,41.77|NC|N|Page 3 is lying just beyond the colapsed bridge.|
+C Secrets in the Sand|QID|47316|QO|1<1|M|55.79,48.68|H|N|Page 1 is lying near the rock.|
+C Secrets in the Sand|QID|47316|QO|1<2|M|52.80,46.41|H|N|Page 4 is lying on the sand in the middle of nowhere.|
+C Secrets in the Sand|QID|47316|QO|1<3|M|52.78,41.79|H|N|Page 3 is lying just beyond the colapsed bridge.|
 A Aided Escape|QID|47322|M|54.69,42.48|N|From Neri.|RANK|2|
 A A Meal for Birds|QID|50755|M|54.75,42.40|N|From Mekaru.|RANK|2|
 C Knickknack Takeback|QID|47321|M|55.35,39.28|S|N|Kill the Faithless and reclaim the Knickknacks.|
-C Aided Escape|QID|47322|M|54.76,40.31|QO|2|NC|N|Click on the cage to rescue Kipp.|
-C Searching for Survivors|QID|47317|M|54.63,39.37|QO|1|NC|N|Examine the sword just inside this cave complex.|
+C Aided Escape|QID|47322|M|54.76,40.31|QO|2|H|N|Click on the cage to rescue Kipp.|
+C Searching for Survivors|QID|47317|M|54.63,39.37|QO|1|I|N|Examine Tarkaj's Warblade just inside this cave complex.|
 C Aided Escape|QID|47322|M|56.41,39.28|QO|1|NC|N|Click on the cage to rescue Hakasi.|
 C Knickknack Takeback|QID|47321|M|55.35,39.28|US|N|Finish collecting knicknacks.|
 C A Meal for Birds|QID|50755|M|57.09,41.88|S|N|Kill Vultures and Krolusk so the Buzzards can eat.|
 K Enraged Krolusk|QID|51077|M|62.10,37.87|QO|1|RARE|T|Enraged Krolusk|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
-C Searching for Survivors|QID|47317|M|57.43,40.64|QO|2|NC|N|Inspect Jorana.|
-C Secrets in the Sand|QID|47316|M|56.30,43.90|NC|N|The last Journal page (#2) is here on the flat area.|
+C Searching for Survivors|QID|47317|M|57.43,40.64|QO|2|H|N|Inspect Jorana.|
+C Secrets in the Sand|QID|47316|M|56.33,43.90|H|N|The last Journal page (#2) is here on the flat area.|
 C A Meal for Birds|QID|50755|M|57.09,41.88|US|N|Finish feeding the Buzzards.|
 T Aided Escape|QID|47322|M|54.70,42.47|N|To Neri.|
 T A Meal for Birds|QID|50755|M|54.75,42.40|N|To Mekaru.|
@@ -129,7 +130,7 @@ $ Excavator's Greed|QID|51136|M|57.73,64.63|N|A short backtrack for some treasur
 C On the Move|QID|48684|M|53.22,66.03|CHAT|N|Tell Meerah you are ready to go.|
 T On the Move|QID|48684|M|52.82,89.23|N|To Jorak.|
 A The Perfect Offering|QID|48895|M|52.82,89.23|N|From Jorak.|PRE|48684|
-f Temple of Akunda|ACTIVE|48895|M|53.73,89.17|N|At Akunda the Tamer.|
+f Temple of Akunda|ACTIVE|48895|M|53.73,89.17|N|At Akunda the Tamer.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T The Perfect Offering|QID|48895|M|53.18,90.30|N|To Akunda the Exalted.|
 A Powerful Conductors|QID|48993|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48895|
 A Sacred Remains|QID|48992|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48895|
@@ -238,7 +239,7 @@ C I've Got Your Back|QID|51573|M|43.39,75.37|CHAT|N|Tell Razgaji you are ready, 
 T I've Got Your Back|QID|51573|M|43.39,75.37|N|To Razgaji.|
 A Hungry Mouths To Feed|QID|48529|M|43.39,75.37|N|From Razgaji.|RANK|2|PRE|51573|
 A I Heard You Lost the Herd|QID|48530|M|43.39,75.37|N|From Razgaji.|RANK|2|PRE|51573|
-f Scorched Sands Outpost|ACTIVE|48529|M|43.90,75.92|N|At Makaanji.|
+f Scorched Sands Outpost|ACTIVE|48529|M|43.90,75.92|N|At Makaanji.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Hungry Mouths To Feed|QID|48529|M|43.69,76.77|N|To Sezahjin.|
 A Mystery Meat|QID|48531|M|43.69,76.77|N|From Sezahjin.|RANK|2|PRE|48529|
 A Vol'duni Fried Chicken|QID|48533|M|43.69,76.77|N|From Sezahjin.|RANK|2|PRE|48529|
@@ -422,7 +423,7 @@ C A Powerful Prisoner|QID|49334|M|30.00,51.98|NC|N|Let Vorrik out of the cage.|
 C Push Them Back!|QID|49327|M|29.41,51.17|QO|1|US|NC|N|Finish burning Banners.|
 C Push Them Back!|QID|49327|M|28.87,51.41|QO|3|US|NC|N|Finish shattering spires.|
 C Break Their Ranks|QID|50641|M|29.78,52.02|US|N|Finish killing the Faithless.|
-f Sanctuary of the Devoted|ACTIVE|50641|M|27.65,50.33|N|At Vethiss.|
+f Sanctuary of the Devoted|ACTIVE|50641|M|27.65,50.33|N|At Vethiss.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Break Their Ranks|QID|50641|M|27.20,53.85|N|To Zissiah.|
 T Push Them Back!|QID|49327|M|27.20,53.85|N|To Zissiah.|
 T A Powerful Prisoner|QID|49334|M|27.61,52.57|N|To Vorrik.|
@@ -512,7 +513,7 @@ C Creative Marketing|QID|48321|M|42.50,63.67|QO|1|N|When you get close to the ro
 C Restocking the Buffet|QID|47564|M|40.39,61.54|QO|1|NC|US|N|Finish collecting the Whistlebloom Juicy Fruit.|
 C The Best Kill is Overkill|QID|48320|M|43.26,61.58|US|N|Finish the quota of Whistlebloom predators.|
 T The Best Kill is Overkill|QID|48320|M|42.75,61.07|N|To Volni.|
-f Whistlebloom Oasis|ACTIVE|47564|M|42.75,61.06|N|At Volni.|RANK|2|
+f Whistlebloom Oasis|ACTIVE|47564|M|42.75,61.06|N|At Volni.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|2|
 T Restocking the Buffet|QID|47564|M|43.71,60.22|N|To Zulsan.|
 T Creative Marketing|QID|48321|M|43.58,59.88|N|To Man'zul.|
 A A Goldtusk Greeting|QID|48322|M|43.51,60.20|N|From Rhan'ka.|RANK|2|PRE|48320&47564&48321|
@@ -564,7 +565,7 @@ R Bwoljiin's Fall|ACTIVE|49662|M|42.86,37.48|RANK|2|N|Follow the road to Vorrik.
 T The Missing Key|QID|49662|M|42.92,35.77|N|To Vorrik.|
 A Infiltrating the Empire|QID|50745|M|42.92,35.77|N|From Vorrik.|PRE|49662|
 R Conqueror's Path|ACTIVE|50745|M|42.90,33.89;44.02,34.51;45.09,34.77|CS|N|Up the stairs, and across the bridge to follow Vorrik.|
-f Vorrik's Sanctum|ACTIVE|50745|M|47.30,35.25|N|At Lugo the Windrider.|
+f Vorrik's Sanctum|ACTIVE|50745|M|47.30,35.25|N|At Lugo the Windrider.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Infiltrating the Empire|QID|50745|M|47.94,35.57;47.96,36.38|CS|N|To Vorrik.|
 A Allies in Anarchy|QID|49664|M|47.96,36.38|N|From Vorrik.|PRE|50745|
 A The Little Ones|QID|49667|M|47.98,36.51|N|From Meerah.|RANK|2|PRE|50745|
@@ -686,7 +687,7 @@ K Captain Stef "Marrow" Quin|QID|51073|M|41.53,23.71|QO|1|RARE|T|Captain Stef "M
 $ Stranded Cache|QID|51135|M|44.71,24.82;44.50,26.14|CS|N|Run up the fallen log to get to this treasure.|RANK|3|
 K Skycaller Teskris|QID|50637|M|46.56,27.14;46.99,25.17|CS|QO|1|RARE|ITEM|160968|T|Skycaller Teskris|N|Inside a cave you can find this Silver Elite to kill for artifact power and resources.|RANK|3|
 R Tortaka Refuge|ACTIVE|51772|M|46.93,20.32;59.73,20.22;61.05,21.04|CS|N|Continue down the road. Eventually you will come to a bridge on your left. Follow it to Tortaka Refuge.|RANK|3|
-f Tortaka Refuge|ACTIVE|51772|M|61.92,21.67|N|At Scroll of Flight.|RANK|3|
+f Tortaka Refuge|ACTIVE|51772|M|61.92,21.67|N|At Scroll of Flight.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|3|
 T The Tortaka Tribe|QID|51772|M|62.03,22.33|N|To Torka.|
 A They Came From The Sea|QID|47577|M|62.03,22.33|N|From Torka.|RANK|3|PRE|51772|
 A Hidden Motives|QID|47570|M|62.03,22.33|N|From Torka.|RANK|3|PRE|51772|
