@@ -98,6 +98,22 @@ T Second Challenge of Tyr: Might|QID|70376|M|66.27,55.37|Z|2023|N|To Maiden of I
 A Well Earned Victory|QID|70341|PRE|70376|M|66.27,55.37|Z|2023|N|From Maiden of Inspiration.|
 P Valdrakken|ACTIVE|70341|M|66.25,55.44|Z|Ohn'ahran Plains|N|Take the portal to The Bronze Enclave (or travel back at your leisure).|
 T Well Earned Victory|QID|70341|M|83.96,53.57|Z|2112;Valdrakken|N|To Maiden of Inspiration.|
+A In Tyr's Footsteps: The Waking Shores|QID|70650|PRE|70341|M|83.96,53.57|Z|2112;Valdrakken|N|From Maiden of Inspiration.|
+R Waking Shore|QID|70650|M|63.86,40.90|CC|Z|2022|N|The maiden is located in a cave, marker is at entrance.|;not "The Waking Shore", so won't autocomplete till you get there
+T In Tyr's Footsteps: The Waking Shores|QID|70650|M|64.02,41.44|Z|2022|N|To Maiden of Inspiration.|
+A The Third Challenge of Tyr: Persistence|QID|70509|PRE|70650|M|64.02,41.44|Z|2022|N|From Maiden of Inspiration.|
+C The Third Challenge of Tyr: Persistence|QID|70509|QO|1|M|64.09,41.39|Z|2022|CHAT|N|Ask the Maiden What Happened?.|
+C The Third Challenge of Tyr: Persistence|QID|70509|QO|2|M|64.09,41.39|Z|2022|I|N|Watch the vignette.|
+C The Third Challenge of Tyr: Persistence|QID|70509|QO|4|M|64.38,34.27|Z|2022|H|N|Pick up the broken arm.|
+C The Third Challenge of Tyr: Persistence|QID|70509|QO|3|M|66.35,34.87|Z|2022|H|N|Pick up the broken head inside the tower.|
+C The Third Challenge of Tyr: Persistence|QID|70509|QO|5|M|65.92,32.51|Z|2022|N|Kill the Qalashi Marauder, and loot the broken orb.|
+C The Third Challenge of Tyr: Persistence|QID|70509|QO|6|M|64.05,41.43|Z|2022|H|N|And back to the statue, then click on it to repair.|
+T The Third Challenge of Tyr: Persistence|QID|70509|M|64.02,41.44|Z|2022|N|To Maiden of Inspiration.|
+A The Third Challenge of Tyr: Persistence Embodied|QID|70621|PRE|70509|M|64.02,41.44|Z|2022|N|From Maiden of Inspiration.|
+T The Third Challenge of Tyr: Persistence Embodied|QID|70621|M|64.02,41.44|Z|2022|N|To Maiden of Inspiration.|
+A Victorious|QID|70510|PRE|70621|M|64.02,41.44|Z|2022|N|From Maiden of Inspiration.|
+P Valdrakken|ACTIVE|70510|M|64.05,41.36|Z|2022|N|Take the portal or otherwise travel back to Valdrakken to turn in.|
+T Victorious|QID|70510|M|83.96,53.57|Z|2112;Valdrakken|N|To Maiden of Inspiration.|
 ; not finished
 
 ]]
