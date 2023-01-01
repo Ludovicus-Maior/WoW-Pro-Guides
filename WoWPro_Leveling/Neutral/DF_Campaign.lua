@@ -99,7 +99,7 @@ A Well Earned Victory|QID|70341|PRE|70376|M|66.27,55.37|Z|2023|N|From Maiden of 
 P Valdrakken|ACTIVE|70341|M|66.25,55.44|Z|Ohn'ahran Plains|N|Take the portal to The Bronze Enclave (or travel back at your leisure).|
 T Well Earned Victory|QID|70341|M|83.96,53.57|Z|2112;Valdrakken|N|To Maiden of Inspiration.|
 A In Tyr's Footsteps: The Waking Shores|QID|70650|PRE|70341|M|83.96,53.57|Z|2112;Valdrakken|N|From Maiden of Inspiration.|
-R Waking Shore|QID|70650|M|63.86,40.90|CC|Z|2022|N|The maiden is located in a cave, marker is at entrance.|;not "The Waking Shore", so won't autocomplete till you get there
+R Waking Shore|ACTIVE|70650|M|63.86,40.90|CC|Z|2022|N|The maiden is located in a cave, marker is at entrance.|;not "The Waking Shore", so won't autocomplete till you get there
 T In Tyr's Footsteps: The Waking Shores|QID|70650|M|64.02,41.44|Z|2022|N|To Maiden of Inspiration.|
 A The Third Challenge of Tyr: Persistence|QID|70509|PRE|70650|M|64.02,41.44|Z|2022|N|From Maiden of Inspiration.|
 C The Third Challenge of Tyr: Persistence|QID|70509|QO|1|M|64.09,41.39|Z|2022|CHAT|N|Ask the Maiden What Happened?.|
