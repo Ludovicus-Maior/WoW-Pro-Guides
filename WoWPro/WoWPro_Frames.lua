@@ -243,6 +243,7 @@ function WoWPro.RowSizeSet()
         if (row.jumpbutton:IsShown() and row.step:GetText() ~= "It's Chromie Time!") or (WoWProDB.profile.mousenotes and row.index and (WoWPro.note[row.index] or (WoWPro.map[row.index] and WoWProDB.profile.showcoords))) then
             noteh = 1
             row.note:Hide()
+            WoWPro.mousenotes[i]:Hide()
             WoWPro.mousenotes[i].note:SetText(row.note:GetText())
             local mnh = WoWPro.mousenotes[i].note:GetHeight()
             WoWPro.mousenotes[i]:SetHeight(mnh+20)
