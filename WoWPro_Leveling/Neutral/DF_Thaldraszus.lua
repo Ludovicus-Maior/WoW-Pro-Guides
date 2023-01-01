@@ -279,7 +279,7 @@ C Feels Like the First Time|QID|66083|M|57.61,78.36|Z|2025|QO|1|CHAT|N|Tell Anda
 C Feels Like the First Time|QID|66083|M|57.66,78.34|Z|2025|QO|2|H|N|Click on the Collector.|
 C Feels Like the First Time|QID|66083|M|57.65,78.38|Z|2025|QO|3|H|N|Click on the Blue Crystal Focus.|
 C Feels Like the First Time|QID|66083|M|57.63,78.44|Z|2025|QO|4|H|N|Click on the gold Artifact floating to the right of the Crystal Focus.|
-P Feels Like the First Time|QID|66083|M|57.58,78.32|Z|2025|QO|5|N|Wait for Andantenormu to restore your personal timeline, or when you can, walk into the portal to speed up the process.|
+P Feels Like the First Time|ACTIVE|66083|M|57.58,78.32|Z|2025|QO|5|N|Wait for Andantenormu to restore your personal timeline, or when you can, walk into the portal to speed up the process.|
 T Feels Like the First Time|QID|66083|M|57.52,78.80|Z|2025|N|To Andantenormu.|
 A Times Like These|QID|66084|PRE|66083|M|57.52,78.80|Z|2025|N|From Andantenormu.|
 A If We Could Turn Back Time|QID|66085|PRE|66083|M|57.45,78.93|Z|2025|N|From Siaszerathel.|
