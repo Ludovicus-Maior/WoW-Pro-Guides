@@ -580,9 +580,12 @@ T Allies in Anarchy|QID|49664|M|46.14,33.22|N|To Nisha at Crater of Conquerors.|
 A Ready to Riot|QID|49665|PRE|49664|M|46.14,33.22|N|From Nisha.|
 A Make Them Fear Us|QID|49666|PRE|49664|M|46.14,33.22|N|From Nisha.|
 C Make Them Fear Us|QID|49666|M|48.27,33.03|NC|S|U|158884|N|Kill Faithless and then plant a Vulpera Banner on their corpse.|
-C Ready to Riot|QID|49665|M|49.10,33.11|H|S!US|N|Click on the weapon racks to acquire weapons. When you have a weapon, click on a Vulpera Slave to free and arm them.\n[color=FF0000]NOTE: [/color]You get 2 weapons from each rack.|
+l Faithless Scimitar|ACTIVE|49665|QO|1|M|47.80,31.50|H|S|L|159470 8|ITEM|159470|N|[color=FF0000]NOTE: [/color]You can get 2 from each Weapon Rack, but only once per rack.|
 C The Little Ones|QID|49667|M|48.48,32.24|N|Kill Appraiser Versik.|
+l Faithless Scimitar|ACTIVE|49665|QO|1|M|47.80,31.50|H|US|L|159470 8|ITEM|159470|N|Faithless Weapon Rack\n[color=FF0000]NOTE: [/color]You get two from each Weapon Rack, but only once per rack.|
+C Ready to Riot|QID|49665|QO|1|M|49.10,33.11|CHAT|S|N|Talk to a Vulpera Slave to free and arm them.|
 C Make Them Fear Us|QID|49666|M|48.27,33.03|NC|US|U|158884|N|Kill Faithless and plant a Vulpera Banner on their corpse.|
+C Ready to Riot|QID|49665|QO|1|M|49.10,33.11|CHAT|N|Talk to a Vulpera Slave to free and arm them.|
 T Ready to Riot|QID|49665|M|46.14,33.23|N|To Nisha.|
 T Make Them Fear Us|QID|49666|M|46.14,33.23|N|To Nisha.|
 A Crater Conquered|QID|50746|PRE|49665&49666|M|46.14,33.23|N|From Nisha.|
@@ -591,43 +594,45 @@ T The Little Ones|QID|49667|M|47.98,36.50|N|To Meerah.|
 T Crater Conquered|QID|50746|M|47.96,36.39|N|To Vorrik.|
 A Diplomacy and Dominance|QID|49141|PRE|50746|M|47.96,36.39|N|From Vorrik.|;grail is confused 50749 comes much later
 A Don't Drop It... Yet|QID|50748|PRE|50746|M|47.96,36.39|N|From Vorrik.|
-C Don't Drop It... Yet|QID|50748|M|47.04,37.22|S|N|Kill Faithless for the occasional Lightning bomb dropped.|
-C Diplomacy and Dominance|QID|49141|M|47.36,36.55|NC|S|N|Click on the Suppression Spires to drain them as you go.|
+R Crackling Ridge|ACTIVE|49141^50748|M|49.63,35.17;48.65,36.11|CS|N|It's located above Vorrik's Sanctum.|
+C Don't Drop It... Yet|QID|50748|M|47.04,37.22|S|ITEM|154896|N|Any Ridge mob in Crackling Ridge.|
+C Diplomacy and Dominance|QID|49141|M|49.06,36.98;48.14,37.75;47.36,36.55;46.10,37.63;45.00,37.90;44.70,39.39|CN|H|S|N|Click on the Suppression Spires to drain them as you go.|
 K Beastbreaker Hakid|QID|48329|ACTIVE|-48329|M|49.09,38.48;48.15,39.40|CS|T|Beastbreaker Hakid|N|Inside this cave to Kill Beastbreaker Hakid to get an item to start a quest.|RANK|2|
 A Beaten But Not Broken|QID|48329|M|48.15,39.40|N|From Hakid's cage key.|RANK|2|
 C Beaten But Not Broken|QID|48329|QO|1|M|47.93,39.78|NC|N|Click on the cage to free the Scion of Rakjan.|
-C Diplomacy and Dominance|QID|49141|M|47.36,36.55|NC|US|N|Finish draining the Suppression Spires.|
-C Don't Drop It... Yet|QID|50748|M|47.04,37.22|US|N|Finish collecting the Volatile Lightning Bombs.|
-C Beaten But Not Broken|QID|48329|QO|2|M|47.84,37.64;47.47,38.90|CS|NC|N|Head up the hill to take Scion of Rakjan to Rakjan.|
-T Diplomacy and Dominance|QID|49141|M|47.21,39.15|N|To Vorrik up top of Rakjan's Peak.|
-T Don't Drop It... Yet|QID|50748|M|47.21,39.15|N|To Vorrik up top of Rakjan's Peak.|
+C Diplomacy and Dominance|QID|49141|M|49.06,36.98;48.14,37.75;47.36,36.55;46.10,37.63;45.00,37.90;44.70,39.39|CN|H|US|N|Click on the Suppression Spires to drain them.\n[color=FF0000]NOTE: [/color]There are more than 6 of them.|
+C Don't Drop It... Yet|QID|50748|M|47.04,37.22|US|ITEM|154896|N|Any Ridge mob in Crackling Ridge.|
+R Rakjan's Peak|ACTIVE|48329^49141^50748|M|47.76,37.84;47.77,39.07|CS|N|Head up the hill to Rakjan's Peak.|
+R Beaten But Not Broken|ACTIVE|48329|QO|2|M|47.84,37.64;47.47,38.90|CS|N|Take Scion of Rakjan to Rakjan's Peak.|
+T Diplomacy and Dominance|QID|49141|M|47.21,39.15|N|To Vorrik atop of Rakjan's Peak.|
+T Don't Drop It... Yet|QID|50748|M|47.21,39.15|N|To Vorrik.|
 A Vengeance From Above|QID|49003|PRE|50748&49141|M|47.21,39.15|N|From Vorrik.|
 A Forced Grounding|QID|49002|M|47.10,38.71|N|From Faithless Trapper's Spear.|RANK|2|
 K Fangcaller Hrillik|ACTIVE|49002|QO|1|M|47.08,38.70|T|Hrillik's Pterrordax|U|154893|N|Click the spear to pull Fangcaller Hrillik down from the sky and kill him.|
 T Forced Grounding|QID|49002|M|47.16,39.36|N|To Rakjan the Unbroken.|
 T Beaten But Not Broken|QID|48329|M|47.19,39.40|N|To Rakjan the Unbroken.|
-C Vengeance From Above|QID|49003|QO|1|M|47.16,39.34|CHAT|N|Hop on Rakjan the Unbroken for a bombing run.|
-C Vengeance From Above|QID|49003|QO|2|M|51.63,33.33|NC|N|Use the one button to drop lightning bombs on the Faithless below.|
-C Vengeance From Above|QID|49003|QO|3|M|51.96,29.02|NC|N|When he stops in front of the barrier (and the button is active) use the 2 button to destroy the barrier.|
-T Vengeance From Above|QID|49003|M|51.95,28.71|N|To Vorrik.|
-A Infuriating the Emperor|QID|50750|PRE|49003|M|51.95,28.71|N|From Vorrik.|
-A Relics of Sethraliss|QID|50752|PRE|49003|M|51.95,28.71|N|From Vorrik.|
-C Infuriating the Emperor|QID|50750|M|50.23,26.70|NC|S|N|All the faithless that come near you die... pretty cool.|
-C Relics of Sethraliss|QID|50752|QO|1|M|49.90,28.48|NC|N|Pick up the Rebirth Creed.|
-C Relics of Sethraliss|QID|50752|QO|2|M|50.23,26.70|NC|N|Pick up Skull of the First Skycaller.|
-C Relics of Sethraliss|QID|50752|QO|3|M|48.26,26.16|NC|N|Pick up Sethraliss Sight Stone.|
-C Relics of Sethraliss|QID|50752|QO|4|M|49.57,24.35|NC|N|Pick up Blood of the Fallen Loa.|
-C Infuriating the Emperor|QID|50750|M|50.23,26.70|NC|US|N|If you still need to purge more, now is the time to finish.|
+C Vengeance From Above|QID|49003|QO|1|M|47.16,39.34|V|N|Hop on Rakjan the Unbroken to start the bombing run.|
+C Vengeance From Above|QID|49003|QO|2|M|51.63,33.33|N|Use the '1' button to drop Lightning Bombs on the Faithless below.|
+C Vengeance From Above|QID|49003|QO|3|M|51.96,29.02|N|When '2' button becomes active, use it to destroy the barrier.|
+T Vengeance From Above|QID|49003|M|51.95,28.68|N|To Vorrik.|
+A Infuriating the Emperor|QID|50750|PRE|49003|M|51.95,28.68|N|From Vorrik.|
+A Relics of Sethraliss|QID|50752|PRE|49003|M|51.95,28.68|N|From Vorrik.|
+C Infuriating the Emperor|QID|50750|M|50.23,26.70|NC|S|N|All the faithless that come near you die... pretty cool.\n[color=FF0000]NOTE: [/color]Make sure to walk over the small orbs that are dropped by the mobs when they die to recharge your energy bar.\nAlso, keep moving; only stopping to pick up orbs and the relics.|
+C Relics of Sethraliss|QID|50752|QO|1|M|49.90,28.48|H|N|Pick up the Rebirth Creed.|
+C Relics of Sethraliss|QID|50752|QO|2|M|50.27,26.70|H|N|Pick up Skull of the First Skycaller.|
+C Relics of Sethraliss|QID|50752|QO|3|M|48.26,26.16|H|N|Pick up Sethraliss Sight Stone.|
+C Relics of Sethraliss|QID|50752|QO|4|M|49.57,24.35|H|N|Pick up Blood of the Fallen Loa.|
+C Infuriating the Emperor|QID|50750|M|50.23,26.70|NC|US|N|If you still need to purge more, now is the time to finish.\n[color=FF0000]NOTE: [/color]Make sure to walk over the small orbs that are dropped by the mobs when they die to recharge your energy bar.\nAlso, keep moving; only stopping to pick up orbs and the relics.|
 T Infuriating the Emperor|QID|50750|M|51.95,28.68|N|To Vorrik.|
 T Relics of Sethraliss|QID|50752|M|51.95,28.68|N|To Vorrik.|
-A The Fall of Emperor Korthek|QID|50550|PRE|50750&50752|M|51.95,28.68|N|From Vorrik.|
+A The Fall of Emperor Korthek|QID|50550|PRE|50750&50752|M|51.95,28.68|N|From Vorrik (when it becomes available).|
 C The Fall of Emperor Korthek|QID|50550|QO|1|M|51.95,28.68|CHAT|N|Tell Vorrik you are ready.|
 K Emperor Korthek|ACTIVE|50550|QO|2|M|52.04,27.33|T|Emperor Korthek|N|Kill Emperor Korthek.|
 T The Fall of Emperor Korthek|QID|50550|M|51.99,27.72|N|To Vorrik.|
-;
 A Sanctuary Under Siege|QID|50751|PRE|50550|M|51.99,27.72|N|From Vorrik.|
+; R1 Skips the following section - Hendo72
 ;A Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|LVL|-50|N|Autoaccepted.|RANK|2| ** Not required - Hendo72
-C Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|EAB|N|Kill Faithless and pickup focus items as you work your way out of Skycaller's Spire. Note you get a special action button (once you pick up a staff) that will do damage to the faithless.|
+C Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|EAB|N|Kill Faithless and pickup focus items as you work your way out of Skycaller's Spire.\n[color=FF0000]NOTE: [/color]You get a special action button once you pick up a staff that will do damage to the faithless.|
 ;t Skycaller Shutdown|QID|50805|M|54.39,25.26|N|Autocompleted.| ** Not required - Hendo72
 K Warmother Captive|AVAILABLE|50658|QO|1|M|51.50,31.50;50.80,30.97|CS|T|Warmother Captive|N|Silver Elite to kill for artifact power and resources.|ITEM|161103|RANK|2|RARE|
 K Skycarver Krakit|AVAILABLE|50686|M|51.35,36.38|T|Skycarver Krakit|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|RARE|
@@ -650,27 +655,29 @@ C Free Ride|QID|50749|QO|1|M|55.24,35.22|V|N|Hop on the Battle Krolusk and guide
 R Vorrik's Sanctum|ACTIVE|50749|M|47.98,36.51|;adding a Path would probably be useful here
 T Tattered Note|QID|49437|M|47.98,36.51|N|To Meerah.|
 T Free Ride|QID|50749|M|48.02,36.44|N|To Kiro.|
+; R1 resumes here - Hendo72
 ;Atul'Aman
 F Sanctuary of the Devoted|ACTIVE|50751|M|47.30,35.24|TZ|Terrace of the Devoted|N|at Lugo the Windrider.|
 t WANTED: Sandscout Vesarik|QID|51165|M|26.87,52.87|N|To Zareen.|
 T Sanctuary Under Siege|QID|50751|M|26.98,53.11;26.53,52.57;27.09,52.56|CS|N|Vorrik is on the upper level.|
 A Atul'Aman|QID|50617|PRE|50751|M|27.09,52.56|N|From Vorrik.|
 F Goldtusk Inn|ACTIVE|50617|M|27.65,50.33|TZ|Whistlebloom Oasis|N|Take a flight to Goldtusk Inn from Flightmaster Vethiss.|RANK|2|
-R Abandoned Passage|ACTIVE|50617|M|31.70,56.52;36.67,60.22;37.16,67.21;42.50,68.44|CS|N|Head over to the Abandoned Passage to meet up with Vorrik.|RANK|-1|
-R Abandoned Passage|ACTIVE|50617|M|42.50,68.44|N|Head over to the Abandoned Passage to meet up with Vorrik.|RANK|2|
+R Abandoned Passage|ACTIVE|50617|M|31.70,56.52;36.67,60.22;36.81,68.97;42.48,68.63|CS|N|Exit Terrace of the Devoted via the southern bridge and follow the road east to the end. Continue south (right) up the stairs and turn east (left) when you get to the ruins.|RANK|-1|
+R Abandoned Passage|ACTIVE|50617|M|42.48,68.63|N|Head over to the Abandoned Passage to meet up with Vorrik.|RANK|2|
 T Atul'Aman|QID|50617|M|43.06,68.21|N|To Vorrik.|
 A The Abandoned Passage|QID|50904|PRE|50617|M|43.06,68.21|N|From Vorrik.|
 C The Abandoned Passage|QID|50904|QO|1|M|43.06,68.20|CHAT|N|Tell Vorrik you are ready.|
-C The Abandoned Passage|QID|50904|QO|2|M|42.81,91.95|Z|Atul'Aman|NC|N|If present, kill the Faceless Tendrils then you can click on the Entangling tendrils to free Kaja.|
-C The Abandoned Passage|QID|50904|QO|3|M|51.74,67.35|Z|Atul'Aman|NC|N|If present, kill the Faceless Tendrils then you can click on the Entangling tendrils to free Rakera.|
-T The Abandoned Passage|QID|50904|M|55.64,36.33|Z|Atul'Aman|N|To Warguard Rakera.|
+C Bladeguard Kaja|QID|50904|QO|2|M|42.81,91.95|Z|Atul'Aman|H|N|Kill the Faceless Tendrils (if required) and free Kaja.|
+C Warguard Rakera|QID|50904|QO|3|M|51.74,67.35|Z|Atul'Aman|H|N|Kill the Faceless Tendrils (if required) and free Rakera.|
+T The Abandoned Passage|QID|50904|M|55.64,36.33|Z|Atul'Aman|N|To Warguard Rakera at The Blood Font.|
 A Defeat Jakra'zet|QID|50702|PRE|50904|M|55.64,36.33|Z|Atul'Aman|N|From Warguard Rakera.|
-K General Jakra'zet|ACTIVE|50702|QO|1|M|64.45,36.91|Z|Atul'Aman|T|General Jakra'zet|N|After he becomes attackable, Kill Jakra'zet.|
+K General Jakra'zet|ACTIVE|50702|QO|1|M|64.45,36.91|Z|Atul'Aman|T|General Jakra'zet|N|After he becomes attackable, Kill Jakra'zet.\n[color=FF0000]NOTE: [/color]Collect the orbs to regen your health and take out the Sanguine Ward when it spawns (50% damage reduction).|
 T Defeat Jakra'zet|QID|50702|M|27.09,52.64|N|To Warguard Rakera.|
 A Informing the Horde|QID|50703|PRE|50702|M|27.09,52.64|N|From Warguard Rakera.\n[color=FF0000]NOTE: [/color]Not technically part of the zone achievement but may as well get it in case it's tied to a future questline.|
 A Avatar of the Loa|QID|50551|PRE|50702|M|27.09,52.56|NA|ELITE|N|[color=E6CC80]Dungeon: 'Temple of Sethraliss'[/color]\nFrom Vorrik.|;DUNGEON| ** Auto broken to give choice - Hendo72
 H The Great Seal|ACTIVE|50703|M|27.65,50.32|N|Hearth or take a flight to Zuldazar from Vethiss.|RANK|-1|
-R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|N|If you wanna finish out the rest of the quests / rares/ treasures in the zone Head over to Vorrik's Sanctum for more adventure.|RANK|3|
+; R1/R2 Skips the following section - Hendo72
+R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|N|If you wanna finish out the rest of the quests / rares/ treasures in the zone, head over to Vorrik's Sanctum for more adventure.|RANK|3|
 $ Abandaned Bobber|QID|53004^53005|M|26.49,45.35|N|Inspect the abandoned bobber, which pulls up the Sandsunken Treasure.|RANK|3|
 R Forward Camp|ACTIVE|51772|M|32.71,49.17|N|Go back up to the temple or run thru all the murlocks, you choice, but next area is Sethrak Foward Camp.|RANK|3|
 A Risky Rescue|QID|50656|M|32.68,48.45|N|From Seriah.|RANK|3|
@@ -752,10 +759,11 @@ R Tortaka Refuge|ACTIVE|50703|M|57.25,13.83;57.64,16.74;59.91,20.26;61.10,21.02|
 F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|TZ|Whistlebloom Oasis|N|At Scroll of Flight.|RANK|3|
 $ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,64.66;48.20,64.69|CS|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
-A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
+; R1/R2 resumes here - Hendo72
 T Informing the Horde|QID|50703|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 T Fond Farewells|QID|49040|M|40.37,19.08|Z|Dazar'alor|N|To B'wizati who can be found in the Zocalo.|RANK|2|
-N Zandalar Forever|N|If you have finished all three zones. This quest is offered by King Rastakhan at the Blood Gate in Zuldazar. The quest is included in the Endgame Story guide.|
-D War Campaign|N|When you check off this step the war campaign guide will open.|
+J Zandalar Forever!|AVAILABLE|50954|N|Now that you're done 'Loremaster of Zandalar', you can now continue working on the main achievement.\n[color=FF0000]NOTE: [/color]AFTER you've changed guides, don't forget to change your guide settings back if you changed them.|JUMP|EliEndgame|ACH|11861;;true+11868;;true+12478;;true|
+A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to start the War Campaign guide instead.|
+D War Campaign|N|When you check off this step the War Campaign guide will open.|
 ]]
 end)
