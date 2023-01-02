@@ -38,17 +38,17 @@ N Secrets in the Sands|AVAILABLE|50954|N|You must finish the Vol'dun storyline a
 F The Sliver|AVAILABLE|50954|M|51.89,41.21|Z|Dazar'alor|N|At Paku'ai Rokota or from the closest flight master to you.|ACH|13294;;true|
 R Blood Gate|AVAILABLE|50954|M|61.12,27.60;60.62,23.68|CS|Z|Zuldazar|N|Make your way out of the city and up the road.|ACH|13294;;true|
 A Zandalar Forever!|QID|50954|PRE|47229|ACH|13294;;true|M|60.05,22.23|Z|Zuldazar|N|From King Rastakhan.|
-C Zandalar Forever!|QID|50954|M|60.05,22.23|Z|Zuldazar|CHAT|N|Talk to the King to start the scenario.|
-C Prepare the Assault|ACTIVE|50954|SO|1;1|NC|N|Click on Old K'zlotec in front of you to mount.|
-C Blood Troll Army slain|ACTIVE|50954|M|60.96,22.17|Z|Zuldazar!Instance|SO|2;1|N|Destroy the Nazmani invaders in the Sliver.\nAll three buttons are AoE attacks.\n#3 requires a target.|
-C Secure the bridge to Dazar'alor|ACTIVE|50954|M|60.62,31.86|Z|Zuldazar!Instance|SO|3;1|NC|N|Just enjoy the ride to the next area.|
-C Reach the Zocalo|ACTIVE|50954|M|60.42,34.12;53.41,31.66|Z|Zuldazar!Instance|CS|SO|4;1|NC|N|Click on Pa'ku so she can fly you to the Zocalo.|
-C Slay the attackers|ACTIVE|50954|M|54.75,35.43|Z|Zuldazar!Instance|SO|5;2|S|N|Kill the Sethrak as you're rescusing the civilians.|
-C Liberate the Zocalo|ACTIVE|50954|M|54.75,35.43|Z|Zuldazar!Instance|SO|5;1|NC|N|Rescue the civilians.|
-C Slay the attackers|ACTIVE|50954|M|54.75,35.43|Z|Zuldazar!Instance|SO|5;2|US|N|Finish killing the Sethrak.|
-C Reach Dazar'alor|ACTIVE|50954|M|54.75,35.98|Z|Zuldazar!Instance|SO|6;1|NC|N|Join Gonk and his pack at the bridge to Dazar'alor.|
-C Find King Rastakhan at the entrance to Dazar'alor.|ACTIVE|50954|M|55.27,38.09|Z|Zuldazar!Instance|SO|7;1|NC|N| Find King Rastakhan at the entrance to Dazar'alor.|
-C Reach Zul|ACTIVE|50954|M|56.40,39.67;56.43,41.52;57.03,41.48;57.90,40.60|Z|Zuldazar!Instance|SO|8;1|CS|N|Keep going up stairs, until you find one blocked by the bluish flames. Go left and Wait for King Rastakhan before you fight Ma'da Renkala.  The scenario ends with a cutscene as you finish off Ma'da.|
+C Zandalar Forever!|QID|50954|M|60.05,22.23|Z|Zuldazar|CHAT|N|Talk to the King to start the scenario.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Prepare the Assault|ACTIVE|50954|SO|1;1|V|N|Click on Old K'zlotec in front of you to mount.|
+C Blood Troll Army slain|ACTIVE|50954|SO|2;1|M|60.96,22.17|Z|Zuldazar!Instance|N|Destroy the Nazmani invaders in the Sliver.\nAll three buttons are AoE attacks.\n#3 requires a target.|
+R Secure the bridge to Dazar'alor|ACTIVE|50954|SO|3;1|M|60.62,31.86|Z|Zuldazar!Instance|NC|N|Just enjoy the ride to the next area.|
+C Reach the Zocalo|ACTIVE|50954|SO|4;1|M|60.42,34.12;53.41,31.66|CS|Z|Zuldazar!Instance|V|N|Click on Pa'ku so she can fly you to the Zocalo.|
+C Slay the attackers|ACTIVE|50954|SO|5;2|M|54.75,35.43|Z|Zuldazar!Instance|S|N|Kill the Sethrak as you're rescuing the civilians.|
+C Liberate the Zocalo|ACTIVE|50954|SO|5;1|M|54.75,35.43|Z|Zuldazar!Instance|CHAT|N|Rescue the civilians.|
+C Slay the attackers|ACTIVE|50954|SO|5;2|M|54.75,35.43|Z|Zuldazar!Instance|US|N|Finish killing the Sethrak.|
+C Reach Dazar'alor|ACTIVE|50954|SO|6;1|M|54.75,35.98|Z|Zuldazar!Instance|NC|N|Join Gonk and his pack at the bridge to Dazar'alor.|
+C Find King Rastakhan at the entrance to Dazar'alor.|ACTIVE|50954|SO|7;1|M|55.27,38.09|Z|Zuldazar!Instance|NC|N| Find King Rastakhan at the entrance to Dazar'alor.|
+C Reach Zul|ACTIVE|50954|SO|8;1|M|56.40,39.67;56.43,41.52;57.03,41.48;57.95,40.56|CS|Z|Zuldazar!Instance|N|Keep going up stairs, until you find one blocked by the bluish flames. Go left and Wait for King Rastakhan before you fight Ma'da Renkala.  The scenario ends with a cutscene as you finish off Ma'da.|
 T Zandalar Forever!|QID|50954|M|49.94,46.63|Z|Dazar'alor|N|To King Rastakhan.|
 A Zalazane Returns|QID|51513|PRE|50954|M|39.44,72.50|Z|Hall of Croniclers!Dazar'alor|N|From Rokhan.|REP|Zandalari Empire;2103;revered;0|
 b Darkspear Isle|ACTIVE|51513|M|57.98,64.96|Z|Zuldazar|N|Get down to the docks and wait for the boat to arrive and step on once it does.|
