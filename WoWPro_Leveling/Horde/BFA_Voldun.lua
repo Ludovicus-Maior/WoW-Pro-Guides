@@ -214,10 +214,10 @@ A Hollow, Empty Eyes|QID|48315|PRE|50539|M|48.91,74.49|N|From the Crumbling Stat
 A Exterminate the Vermin|QID|50596|M|49.76,75.90|N|From Foreman Jethek.|RANK|2|
 C Exterminate the Vermin|QID|50596|M|51.34,73.55|NC|S|N|Click on the ball to free the Excavators.(Note, must be in snake form)|
 C Hollow, Empty Eyes|QID|48315|M|49.85,73.18|QO|1<1|H|N|Pick up the Glittering Sapphire on the ground, near the wall.|  ;  doesn't work after first toon
-C Hollow, Empty Eyes|QID|48315|M|50.65,73.66;51.05,72.34|CS|QO|1<2|H|N|Find the second Glittering Sapphire on the rubble at the corner of the building.|  ;  doesn't work after first toon
+C Hollow, Empty Eyes|QID|48315|M|50.65,73.66;51.05,72.34|CS|QO|1<2|H|N|The second Glittering Sapphire is the second tier on the rubble at the corner of the building.\n[color=FF0000]NOTE: [/color]You can get up there using the 'dirt' ramp in the corner.|  ;  doesn't work after first toon
 C Exterminate the Vermin|QID|50596|M|51.34,73.55|NC|US|N|Click on the ball to free the Excavators.|
 T Hollow, Empty Eyes|QID|48315|M|48.90,74.49|N|To the Crumbling Statue.|
-A Sulthis' Stone|QID|50561|PRE|48315|M|48.90,74.26|N|To Ancient Reliquary.|
+A Sulthis' Stone|QID|50561|PRE|48315|M|48.90,74.26|N|From Ancient Reliquary.|
 T Magic Decoder Device|QID|50536|M|47.32,72.74|N|To Maaz.|
 A Rescue the Relics|QID|48871|PRE|50536|M|47.32,72.74|N|From Maaz.|RANK|2|
 A Expedite the Excavation|QID|48872|PRE|50536|M|47.40,72.74|N|From Amre.|RANK|2|
@@ -231,10 +231,9 @@ A Power of the Overseer|QID|50535|PRE|48871&48872|M|47.31,72.73|N|From Maaz.|RAN
 K Overseer Nerzet|ACTIVE|50535|QO|1|M|48.89,76.67|T|Overseer Nerzet|N|Kill Overseer Nerzet to obtain the Azerite Shard.|
 T Power of the Overseer|QID|50535|M|47.32,72.72|N|To Maaz.|
 T Sulthis' Stone|QID|50561|M|47.06,75.72|N|To Serrik.|
-A Unlikely Allies|QID|47324|PRE|50561|M|47.06,75.72|N|From Serrik.|
+; R1 Skips this following section - Hendo72
 A Seeking Shelter|QID|50794|PRE|50561|M|47.07,75.66|N|From Julwaba.|RANK|2|
 T Seeking Shelter|QID|50794|M|43.39,75.37|N|To Razgaji.|
-;
 A I've Got Your Back|QID|51573|M|43.39,75.37|N|From Razgaji.|RANK|2|  ;  Pre not needed PRE|50794|
 C I've Got Your Back|QID|51573|M|43.39,75.37|CHAT|N|Tell Razgaji you are ready, then walk down with him, look menacing and listen to the dialog.|
 T I've Got Your Back|QID|51573|M|43.39,75.37|N|To Razgaji.|
@@ -253,7 +252,7 @@ C Alpacas Gone Wild|QID|48532|M|40.43,73.62|NC|S|U|152570|N|Use the Alpeca Whist
 C Mystery Meat|QID|48531|M|38.76,68.83|S|N|Kill Dung Beetles and loot their Innards as you go.|
 A Wasteland Survivor|QID|48585|M|40.43,73.62|N|From a Backpack still worn by a dead adventurer.|RANK|2|
 C Wasteland Survivor|QID|48585|M|37.31,73.44|NC|S|N|Pick up Scavenged Supplies as you go.|
-K Taz'raka the Traitor|ACTIVE|51162|QO|1|M|35.54,70.80||T|Taz'raka the TraitorN|Kill Taz'raka the Traitor.|
+K Taz'raka the Traitor|ACTIVE|51162|QO|1|M|35.54,70.80|T|Taz'raka the Traitor|N|Kill Taz'raka the Traitor.|
 C Wasteland Survivor|QID|48585|M|37.31,73.44|NC|US|N|Finish scavenging the supplies.|
 C Mystery Meat|QID|48531|M|38.76,68.83|US|N|Finish collecting Dung Beetle Innards as you head back.|
 C Alpacas Gone Wild|QID|48532|M|39.02,75.21|NC|US|U|152570|N|Finish sending the Alpacas home.|
@@ -280,31 +279,31 @@ T Snarltooth's Last Laugh|QID|48534|M|42.13,76.17|N|To Mugjabu.|
 A Liquid Motivation|QID|48846|PRE|48657&48656&48534|M|43.23,76.96|N|From Taz'jin.|RANK|2|
 B Zanchuli Reserve|ACTIVE|48846|M|42.87,76.31|L|160499|N|Buy a bottle of Zanchuli Reserve from  Taz'gin for the drunk around the corner.|RANK|2|
 C Liquid Motivation|QID|48846|M|43.23,76.96|CHAT|N|Give the bottle to Zauljin.|
-T Liquid Motivation|QID|48846|M|43.39,75.36|N|To Razgari.|
-A Tongo|QID|48850|PRE|48846|M|43.39,75.36|N|From Razgari.|RANK|2|
-A Stolen Goods|QID|48790|PRE|48846|M|43.39,75.36|N|From Razgari.|RANK|2|
-A Bandit Blades|QID|51602|PRE|48846|M|43.39,75.36|N|From Razgari.|RANK|2|
+T Liquid Motivation|QID|48846|M|43.39,75.36|N|To Razgaji.|
+A Tongo|QID|48850|PRE|48846|M|43.39,75.36|N|From Razgaji.|RANK|2|
+A Stolen Goods|QID|48790|PRE|48846|M|43.39,75.36|N|From Razgaji.|RANK|2|
+A Bandit Blades|QID|51602|PRE|48846|M|43.39,75.36|N|From Razgaji.|RANK|2|
 C Bandit Blades|QID|51602|M|40.44,76.37|NC|S|N|Pick up the blades from the ground, they also can drop from the mobs in the area.|
 K Tongo|ACTIVE|48850|QO|1|M|40.65,76.02|T|Tongo|N|Kill Tongo and loot his head.|RANK|2|
 C Stolen Goods|QID|48790|M|40.74,74.76|QO|1<3|NC|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|
 C Stolen Goods|QID|48790|M|40.42,75.29|QO|1<5|NC|N|Hyena Jerky and Medicinal Herbs can be found thru this underground entrance.|
 C Stolen Goods|QID|48790|M|40.02,75.67|QO|1<6|NC|N|Pick up the Fresh Water here (last of the stolen supplies).|
 C Bandit Blades|QID|51602|M|40.79,76.04|S|N|Finish collecting the blades.|
-T Tongo|QID|48850|M|43.39,75.36|N|To Razgari.|
-T Stolen Goods|QID|48790|M|43.39,75.36|N|To Razgari.|
-T Bandit Blades|QID|51602|M|43.39,75.36|N|To Razgari.|
-A Arming the Tribe|QID|48847|PRE|48850&51602&48790|M|43.39,75.36|N|From Razgari.|RANK|2|
+T Tongo|QID|48850|M|43.39,75.36|N|To Razgaji.|
+T Stolen Goods|QID|48790|M|43.39,75.36|N|To Razgaji.|
+T Bandit Blades|QID|51602|M|43.39,75.36|N|To Razgaji.|
+A Arming the Tribe|QID|48847|PRE|48850&51602&48790|M|43.39,75.36|N|From Razgaji.|RANK|2|
 C Arming the Tribe|QID|48847|M|42.40,76.26|CHAT|N|Run around the outpost arming villagers.|
-T Arming the Tribe|QID|48847|M|43.39,75.36|N|To Razgari.|
-A Mojambo|QID|51668|PRE|48847|M|43.39,75.36|N|From Razgari.|RANK|2|
+T Arming the Tribe|QID|48847|M|43.39,75.36|N|To Razgaji.|
+A Mojambo|QID|51668|PRE|48847|M|43.39,75.36|N|From Razgaji.|RANK|2|
 K Mojambo|ACTIVE|51668|QO|1|M|43.39,73.84|T|Mojambo|U|160525|N|Target Mojambo and throw down Tongo's head to start fight with Mojambo. You do not need to worry about the rest of the NPCs in the arena.|
 A Saurid Surprise|QID|50901|PRE|47442|M|42.19,72.06|N|From Jani, after rummaging in her mysterious trash pile.|RANK|3|
 C Saurid Surprise|QID|50901|QO|1|M|42.19,72.06|CHAT|N|Ask Jani for the disguise.|
 C Saurid Surprise|QID|50901|QO|2|M|43.71,76.80|N|Run to Sezahjin (the chef), avoiding, or outrunning everything and right click on him to steal his hat.|
 C Saurid Surprise|QID|50901|QO|3|M|42.19,72.06|N|Return to Jani.|
 T Saurid Surprise|QID|50901|M|42.19,72.06|N|To Jani.|
-T Mojambo|QID|51668|M|43.39,75.36|N|To Razgari.|
-A The Ashvane Threat|QID|51773|PRE|51668|M|43.39,75.36|N|From Razgari.|RANK|2|
+T Mojambo|QID|51668|M|43.39,75.36|N|To Razgaji.|
+A The Ashvane Threat|QID|51773|PRE|51668|M|43.39,75.36|N|From Razgaji.|RANK|2|
 A WANTED: Za'roco|QID|51161|PRE|51668|M|43.14,76.57|N|From Wanted Poster.|RANK|2|
 A The Tortaka Tribe|QID|51772|PRE|51668|M|43.70,76.79|N|From Sezahjin.|RANK|3|
 K Za'roco|ACTIVE|51161|QO|1|M|47.30,73.69|T|Za'roco the Drifter|N|Kill Za'roco the Drifter.|RANK|2|
@@ -405,24 +404,26 @@ $ Deadwood Chest|QID|52994|M|38.84,82.90;40.57,85.74|CS|N|Follow this path to fi
 T WANTED: Taz'raka the Traitor|QID|51162|M|38.88,77.32|N|To Norah.|
 T Escaping Zem'lan|QID|51062|M|38.88,77.29|N|To Norah.|
 A A Strange Delivery|QID|48327|PRE|51062|M|38.88,77.29|N|From Norah.|RANK|2|
-T WANTED: Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
-R Zul'Ahjin|ACTIVE|47324|M|46.73,71.85|N|Run back to Zul'Ahjin to take a ride to your next area.|RANK|2|
+T WANTED: Za'roco|QID|51161|M|43.41,75.36|N|To Razgaji.|
+R Zul'Ahjin|AVAILABLE|47324|M|46.73,71.85|N|Run back to Zul'Ahjin to take a ride to your next area.|RANK|2|
+; R1 resumes here - Hendo72
 ;  The Three Keepers
-C Unlikely Allies|QID|47324|M|46.79,75.45|V|N|Hop on the Pterrordax and take a ride.|
-T Unlikely Allies|QID|47324|M|27.22,53.94|N|To Serrik.|
+A Unlikely Allies|QID|47324|PRE|50561|M|47.06,75.72|N|From Serrik.|
+C Unlikely Allies|QID|47324|M|46.79,75.45|V|N|Hop on Serrik's Pterrordax and take a ride.|
+T Unlikely Allies|QID|47324|M|27.22,53.94|N|To Serrik after you land at Terrace of the Devoted.|
 A A Powerful Prisoner|QID|49334|PRE|47324|M|27.22,53.94|N|From Serrik.|
 A Break Their Ranks|QID|50641|PRE|47324|M|27.20,53.85|N|From Zissiah.|
 A Push Them Back!|QID|49327|PRE|47324|M|27.20,53.85|N|From Zissiah.|
 A WANTED: Sandscout Vesarik|QID|51165|M|26.98,52.71|N|From Wanted Poster.|RANK|2|
 C Break Their Ranks|QID|50641|M|29.78,52.02|S|N|Kill the Faithless as you go.|
 A A Lost Flute|QID|50818|M|27.40,53.95;28.97,54.65|CS|N|From a Desert Flute lying on the ground.|RANK|2|
-C Push Them Back!|QID|49327|QO|3|M|28.87,51.41|NC|S|N|Click the spires to shatter them.|
-C Push Them Back!|QID|49327|QO|1|M|29.41,51.17|NC|S|N|Click the Banners to burn.|
-C Push Them Back!|QID|49327|QO|2|M|29.63,53.70|N|Click the Cannons to crush them.|
+C Push Them Back!|QID|49327|QO|3|M|28.87,51.41|H|S|N|Click the spires to shatter them.|
+C Push Them Back!|QID|49327|QO|1|M|29.41,51.17|H|S|N|Click the Banners to burn.|
+C Push Them Back!|QID|49327|QO|2|M|29.63,53.70|H|N|Click the Cannons to crush them.|
 K Warlord Zothix|AVAILABLE|50662|M|30.08,52.55|T|Warlord Zothix|N|Silver Elite to kill for artifact power and resources.|ITEM|161031|RANK|2|RARE|
-C A Powerful Prisoner|QID|49334|M|30.00,51.98|NC|N|Let Vorrik out of the cage.|
-C Push Them Back!|QID|49327|QO|1|M|29.41,51.17|NC|US|N|Finish burning Banners.|
-C Push Them Back!|QID|49327|QO|3|M|28.87,51.41|NC|US|N|Finish shattering spires.|
+C A Powerful Prisoner|QID|49334|M|30.02,51.99|H|N|Let Vorrik out of the cage.|
+C Push Them Back!|QID|49327|QO|1|M|29.41,51.17|H|US|N|Finish burning Banners.|
+C Push Them Back!|QID|49327|QO|3|M|28.87,51.41|H|US|N|Finish shattering spires.|
 C Break Their Ranks|QID|50641|M|29.78,52.02|US|N|Finish killing the Faithless.|
 f Sanctuary of the Devoted|ACTIVE|50641|M|27.65,50.33|N|At Vethiss.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Break Their Ranks|QID|50641|M|27.20,53.85|N|To Zissiah.|
@@ -432,6 +433,7 @@ A The Keepers' Keys|QID|49340|PRE|49334&49327&50641|M|27.62,52.57|N|From Vorrik.
 C The Keepers' Keys|QID|49340|M|27.62,52.57|CHAT|N|Give Vorrik Sulthis' stone.|
 T The Keepers' Keys|QID|49340|M|27.12,52.57|N|To Vorrik.|
 A The Missing Key|QID|49662|PRE|49340|M|27.12,52.57|N|From Vorrik.|
+; R1 Skips the following section - Hendo72
 R The Cracked Coast|ACTIVE|50818|M|26.73,52.57;26.59,53.17;27.64,54.80|CS|N|Down the stairs, thru the lower level and down to the water.|
 T A Lost Flute|QID|50818|M|29.52,59.36|N|To Jenoh.|
 A A Charming Tail|QID|50817|PRE|50818|M|29.52,59.36|N|From Jenoh.|RANK|2|
@@ -560,23 +562,27 @@ K Ranishu Ravager|AVAILABLE|50883|PRE|47442|M|45.90,47.68|L|158910|N|Kill the Ra
 $ Mysterious Trashpile|QID|50883|PRE|47442|M|46.98,46.55|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|ITEM|158910|RANK|2|
 T Zandalari Treasure Trove|QID|48330|M|45.37,46.15|N|To Omi.|
 K Sandscout Vesarik|ACTIVE|51165|QO|1|M|43.23,45.90|US|T|Sandscout Vesarik|N|If you are going to do this quest, now is the time, because we are leaving this area.|
+; R1 resumes here - Hendo72
 ;  Storming the Spire
-R Bwoljiin's Fall|ACTIVE|49662|M|29.52,50.50;40.20,44.79;42.95,37.32|CS|N|Follow the road thru the Forward Camp, Temple Incursion and Bonetrail Gulch to find Vorrik.|RANK|-1|
-R Bwoljiin's Fall|ACTIVE|49662|M|42.86,37.48|RANK|2|N|Follow the road to Vorrik.|
-T The Missing Key|QID|49662|M|42.92,35.77|N|To Vorrik.|
-A Infiltrating the Empire|QID|50745|PRE|49662|M|42.92,35.77|N|From Vorrik.|
-R Conqueror's Path|ACTIVE|50745|M|42.90,33.89;44.02,34.51;45.09,34.77|CS|N|Up the stairs, and across the bridge to follow Vorrik.|
+R Forward Camp|ACTIVE|49662|M|29.43,50.48;31.76,48.57|CS|N|Make your way down the stairs and follow the road across the bridge to Forward Camp.|RANK|-1|
+R Temple Incursion|ACTIVE|49662|M|34.72,45.31|N|Continue following the road to Temple Incursion.|RANK|-1|
+R Bonetrail Gulch|ACTIVE|49662|M|36.11,44.85|N|Continue on to Bonetrail Gulch.|RANK|-1|
+R Bwoljiin's Fall|ACTIVE|49662|M|40.30,44.64;42.95,37.32|CS|N|Follow the road straight through Bonetrail Gulch and turn left when the road widens.|RANK|-1|
+R Bwoljiin's Fall|ACTIVE|49662|M|42.95,37.32|N|Follow the road.|RANK|2|
+T The Missing Key|QID|49662|M|42.91,35.73|N|To Vorrik just ahead of you.|
+A Infiltrating the Empire|QID|50745|PRE|49662|M|42.91,35.73|N|From Vorrik.|
+R Conqueror's Path|ACTIVE|50745|M|42.90,33.89;44.02,34.51;45.09,34.77|CS|N|Head up the stairs and across the bridge.|
 f Vorrik's Sanctum|ACTIVE|50745|M|47.30,35.25|N|At Lugo the Windrider.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-T Infiltrating the Empire|QID|50745|M|47.94,35.57;47.96,36.38|CS|N|To Vorrik.|
+T Infiltrating the Empire|QID|50745|M|47.94,35.57;47.96,36.38|CS|N|To Vorrik inside the cave.|
 A Allies in Anarchy|QID|49664|PRE|50745|M|47.96,36.38|N|From Vorrik.|
 A The Little Ones|QID|49667|PRE|50745|M|47.98,36.51|N|From Meerah.|RANK|2|
-T Allies in Anarchy|QID|49664|M|46.14,33.22|N|To Nisha.|
+T Allies in Anarchy|QID|49664|M|46.14,33.22|N|To Nisha at Crater of Conquerors.|
 A Ready to Riot|QID|49665|PRE|49664|M|46.14,33.22|N|From Nisha.|
 A Make Them Fear Us|QID|49666|PRE|49664|M|46.14,33.22|N|From Nisha.|
 C Make Them Fear Us|QID|49666|M|48.27,33.03|NC|S|U|158884|N|Kill Faithless and then plant a Vulpera Banner on their corpse.|
-C Ready to Riot|QID|49665|M|49.10,33.11|NC|S!US|N|Click on the weapon racks to acquire weapons.  When you have a weapon, click on a captive Vulpera to free and arm them.|
+C Ready to Riot|QID|49665|M|49.10,33.11|H|S!US|N|Click on the weapon racks to acquire weapons. When you have a weapon, click on a Vulpera Slave to free and arm them.\n[color=FF0000]NOTE: [/color]You get 2 weapons from each rack.|
 C The Little Ones|QID|49667|M|48.48,32.24|N|Kill Appraiser Versik.|
-C Make Them Fear Us|QID|49666|M|48.27,33.03|NC|US|U|158884|N|Finish planting the banners.|
+C Make Them Fear Us|QID|49666|M|48.27,33.03|NC|US|U|158884|N|Kill Faithless and plant a Vulpera Banner on their corpse.|
 T Ready to Riot|QID|49665|M|46.14,33.23|N|To Nisha.|
 T Make Them Fear Us|QID|49666|M|46.14,33.23|N|To Nisha.|
 A Crater Conquered|QID|50746|PRE|49665&49666|M|46.14,33.23|N|From Nisha.|
