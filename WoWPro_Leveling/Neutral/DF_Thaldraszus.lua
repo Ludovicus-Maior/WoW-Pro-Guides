@@ -50,7 +50,7 @@ A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Val
 T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
-C To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|QO|2|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
+P To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
 T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|;adventure mode
 
 T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
@@ -85,7 +85,7 @@ A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdr
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|LVL|70|IZ|2112|
-C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|NC||N|Click on Provisioner Thom.|
+C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|H||N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
 T Nowhere to Hide|QID|66163|M|54.89,47.01|Z|2112|N|To Captain Drine.(at the top of the stairs, not the top of the building where you last saw her.)|
 T Eyes and Ears|QID|66166|M|54.72,47.33|Z|2112|N|To Captain Drine.|
@@ -120,14 +120,14 @@ C Clear the Sky|QID|66249|M|40.88,83.86|Z|2025|QO|1|V|N|The Siege Scorpions are 
 C Clear the Sky|QID|66249|M|40.88,83.86|Z|2025|QO|2|N|Using the vehicle's UI kill the Magmasworn.|
 T Clear the Sky|QID|66249|M|40.57,85.48|Z|2025|N|To Guardian Velomir.|
 A Where's The Chief?|QID|66250|PRE|66249|M|40.57,85.48|Z|2025|N|From Guardian Velomir.|
-C Where's The Chief?|QID|66250|M|40.19,85.16|Z|2025|CHAT|N|Tell Velomir you are ready to investigat the Lookout Tower.|
+C Where's The Chief?|QID|66250|M|40.19,85.16|Z|2025|CHAT|N|Tell Velomir you are ready to investigate the Lookout Tower.|
 T Where's The Chief?|QID|66250|M|40.15,85.14|Z|2025|N|To Guardian Velomir.|
 A Fire Fighter|QID|66251|PRE|66250|M|40.15,85.14|Z|2025|N|From Guardian Velomir.|
 C Fire Fighter|QID|66251|M|40.12,86.68|Z|2025|N|Kill Magmatalon.|
 T Fire Fighter|QID|66251|M|40.15,85.13|Z|2025|N|To Guardian Velomir.|
 A Reporting In|QID|66252|PRE|66251|M|40.15,85.13|Z|2025|N|From Guardian Velomir.|
 T Garden Variety|QID|72189|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
-A Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
+A Azeroth Pest Control|QID|66134|PRE|72189|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
 C Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|Kill the Agitated Seedlings around the Garden.|
 T Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
 A The Gardener's Apprentice|QID|66135|PRE|66134|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
@@ -279,7 +279,7 @@ C Feels Like the First Time|QID|66083|M|57.61,78.36|Z|2025|QO|1|CHAT|N|Tell Anda
 C Feels Like the First Time|QID|66083|M|57.66,78.34|Z|2025|QO|2|H|N|Click on the Collector.|
 C Feels Like the First Time|QID|66083|M|57.65,78.38|Z|2025|QO|3|H|N|Click on the Blue Crystal Focus.|
 C Feels Like the First Time|QID|66083|M|57.63,78.44|Z|2025|QO|4|H|N|Click on the gold Artifact floating to the right of the Crystal Focus.|
-P Feels Like the First Time|QID|66083|M|57.58,78.32|Z|2025|QO|5|N|Wait for Andantenormu to restore your personal timeline, or when you can, walk into the portal to speed up the process.|
+P Feels Like the First Time|ACTIVE|66083|M|57.58,78.32|Z|2025|QO|5|N|Wait for Andantenormu to restore your personal timeline, or when you can, walk into the portal to speed up the process.|
 T Feels Like the First Time|QID|66083|M|57.52,78.80|Z|2025|N|To Andantenormu.|
 A Times Like These|QID|66084|PRE|66083|M|57.52,78.80|Z|2025|N|From Andantenormu.|
 A If We Could Turn Back Time|QID|66085|PRE|66083|M|57.45,78.93|Z|2025|N|From Siaszerathel.|
@@ -399,14 +399,14 @@ T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
 
 H Valdrakken|ACTIVE|66221^67093|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|TZ|The Roasted Ram|
 t Aiding the Accord|QID|70750^72068^72373^72374^72375|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
-A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
-T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
-A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
-T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
-A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;7|IZ|2112|
-T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
+;A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
+;T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
+;A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+;T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
+;A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
+;T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 T An Anomalous Shrine|QID|67093|M|60.98,40.22|Z|2112|N|To Nozdormu, who is on the top level of the Seat of the Aspects.|
-C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza at the top of the tower that all the Oathstones have been restored.|
+C Moving On|QID|66221|M|57.97,36.04|Z|2112|CHAT|N|Tell Alexstrasza (at the top of the tower) that all the Oathstones have been restored.|
 T Moving On|QID|66221|M|57.97,36.04|Z|2112|N|To Alexstrasza.|
 A Renown of the Dragon Isles|QID|71232|PRE|66221|M|57.97,36.04|Z|2112|N|From Alexstrasza.|
 T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112|N|To Captain Drine.|
@@ -419,7 +419,8 @@ A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112|N|From 
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025|QO|1|NC|N|Find Lubbins in a ravine in the Petitioner's Concourse.|
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025|QO|2|H|N|Help Lubbins.|
 T Oh Where, Oh Where Can He Be?|QID|70647|M|10.36,58.27|Z|2112|N|To Jyhanna.|
-A An Expert Opinion|QID|70697|PRE|70647|M|10.41,58.26|Z|2112|N|From Jyhanna.|
+A An Expert Opinion|QID|70697|PRE|70647|M|10.41,58.26|Z|2112|N|From Jyhanna. This quest is account wide and covered in other zone guides.|
+t So How Did It Go?|QID|70854|M|10.32,58.37|Z|2112|N|To Jyhanna.|
 
 T A Dryad's Work Is Never Done|QID|67094|M|72.89,66.17|Z|2112|N|To Thalendra.|
 A A Dryadic Remedy|QID|67606|PRE|67094|M|72.89,66.17|Z|2112|N|From Thalendra.|

@@ -6,15 +6,18 @@ WoWPro:GuideNextGuide(guide, 'Thaldraszus')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Renown stuff -- I think since they are all based on someone showing up whereever you are, they should be put at the top of the guide, once we have the REN stuff worked out since everyone will receive those quests at a little bit diff time based on what they have done to earn REN.
-A Community Feasts|QID|70938|M|7.66,44.30|Z|2024|N|From Rowie.|RANK|2|DFREN|Iskaara;2511;3|
-A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2511;4|
-A Tuskarr Fishing Gear|QID|71230|LEAD|70871|M|PLAYER|N|From Rowie|DFREN|Iskaara;2511;5|
-A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|
-A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;didnt show up till just after I picked up next quest after obtaining REN7 (dont know a 1 minute or so delay, or just picking up any quest then causes them to notice you?
-A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|16326;;1;true|
-A Dormant Discovery|QID|66595|N|UI accepted at Dragonscale Expedition Renown 7|DFREN|Dragonscale Exp;2507;7|
-A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|PRE|70156|
-A A Cataloger's Paradise|QID|69869|ACTIVE|65490|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
+;A Community Feasts|QID|70938|M|7.66,44.30|Z|2024|N|From Rowie.|RANK|2|DFREN|Iskaara;2511;3|
+;A Fishing Holes|QID|70941|M|PLAYER|Z|2024|N|From Rowie.|DFREN|Iskaara;2511;4|
+;A Tuskarr Fishing Gear|QID|71230|LEAD|70871|N|From Rowie|DFREN|Iskaara;2511;5|
+;A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|
+;A Dormant Discovery|QID|66595|N|UI accepted at Dragonscale Expedition Renown 7|DFREN|Dragonscale Exp;2507;7|
+;A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;didnt show up till just after I picked up next quest after obtaining REN7 (dont know a 1 minute or so delay, or just picking up any quest then causes them to notice you?
+
+;Doc Nanners didn't follow me. You have to have world quests unlocked.
+;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|-16363|
+;A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|PRE|70156|
+;A A Climber's Calling|QID|69855|M|PLAYER|N|From Doc Nanners, who will follow you and get in your way until you accept the quest.|DFREN|Dragonscale Exp;2507;6|ACH|-16363|
+;A A Cataloger's Paradise|QID|69869|ACTIVE|65490|N|From Doc Nanners.|DFREN|Dragonscale Expedition;2507;8|
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F Cobalt Assembly|N|On top of the high tower.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
@@ -55,7 +58,7 @@ K Gorger|ACTIVE|67177|M|40.09,37.39|QO|1|Z|2024|L|194901|N|Kill the big Thunderl
 T How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|Z|2024|N|To Miva Star-Eye.|
 T WANTED: Gorger|QID|67177|M|41.42,36.41|Z|2024|N|To Shala.|
 
-R Camp Antonidas|ACTIVE|66228^70746|M|45.94,40.65|Z|2024|N|Continue up the road to Camp Antonidas.\n\n[color=FF0000]NOTE: [/color]Our good friend Hemet Nesingwary drives a wagon around the zone, his full route take a bit over an hour, stopping 6 times offering a different kill quest each time. Keep your eye out for him and grab those quests if you want them. Guide won't tell you when to pick them up, but the kill and Turn in steps are here. It might be worth asking in zone chat for someone to share them with you as he is a pain to find.\n\nYou can also hop on his cart and ride around with him and grab the quests as they pop up.|;not rank 2. the info about Hemet is. but everyone has to run here. and extra info doesnt hurt.
+R Camp Antonidas|ACTIVE|66228^70746|M|45.94,40.65|Z|2024|N|Continue up the road to Camp Antonidas.\n\n[color=FF0000]NOTE: [/color]Our good friend Hemet Nesingwary drives a wagon around the zone, his full route take a bit over an hour, stopping 3 times in Camp Antonidas offering a different kill quest each time. Keep your eye out for him and grab those quests if you want them. Guide won't tell you when to pick them up, but the kill and Turn in steps are here. It might be worth asking in zone chat for someone to share them with you as he is a pain to find.\n\nYou can also hop on his cart and ride around with him and grab the quests as they pop up.|;not rank 2. the info about Hemet is. but everyone has to run here. and extra info doesnt hurt.
 C Shades of Blue|QID|70746|M|45.61,41.25|Z|2024|N|Meet Emberthal and Telash at Camp Antonidas.You can just fly there and don't need to walk with them.|
 T Shades of Blue|QID|70746|M|45.61,41.25|Z|2024|N|To Scalecommander Emberthal.|
 A The Azure Wizard|QID|70747|PRE|70746|M|45.6,41.2|Z|2024|N|From Telash Greywing.\nWait for them to finish their dialogue.|C|EVOKER|
@@ -286,6 +289,9 @@ C Orientation: Iskaara|QID|72435|QO|1|M|13.17,48.53|Z|2024|NC|N|Check out what A
 C Gather the Family|QID|66210|QO|1<3|M|13.87,49.49|Z|2024|H|N|Pick up the boat from on the piling beside Jinkutuk.|
 C Gather the Family|QID|66210|QO|1|M|13.49,48.55|Z|2024|H|N|Pick up the teapot beside Kinook's cookpot.|
 t Community Feasts|QID|70938|M|13.48,48.61|Z|2024|N|To Big Kinook.|IZ|13837|
+A Cooking Utensils|QID|70939|PRE|70938|M|13.57,48.68|Z|2024|N|At Lil Ki.|RANK|2|
+T Cooking Utensils|QID|70939|M|13.57,48.68|Z|2024|N|At Lil Ki.|
+T Fishing Holes|QID|70941|M|13.94,49.24|Z|2024|N|To Nunvuq.|IZ|13837|
 T Tuskarr Fishing Gear|QID|71230|M|12.82,49.18|N|To Tavio.|IZ|13837|
 A Iskaaran Fishing Net|QID|70871|PRE|71230|M|12.82,49.18|N|From Tavio.|RANK|3|
 C Iskaaran Fishing Net|QID|70871|QO|1|M|13.55,50.20|Z|2024|H|N|Pick up the Sea Kelp in town.|
@@ -303,7 +309,7 @@ A Fishing: Aileron Seamoth|QID|66212|PRE|65849|M|14.08,49.44|Z|2024|N|From Lukot
 C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024|NC|N|Click on Rokkutuk to discover he supplies recipes.|
 C Fishing: Aileron Seamoth|QID|66212|M|13.91,50.08|Z|2024|NC|N|Take a break and fish. (or manually close this).|
 K Krojek the Shoreprowler|ACTIVE|66217|M|10.91,55.11|Z|2024|QO|1|N|Run/Fly/Swim out to find Krojek The Shoreprowler who swims around this island.|T|Krojek the Shoreprowler|
-T WANTED: Krojek the Shoreprowler|QID|66217|M|12.53,49.83;13.18,48.76|CN|Z|2024|N|To Bukarakikk. He could be in one of two places
+T WANTED: Krojek the Shoreprowler|QID|66217|M|12.53,49.83;13.18,48.76|CN|Z|2024|N|To Bukarakikk. He could be in one of two places.|
 C Gather the Family|QID|66210|M|13.13,48.54|Z|2024|QO|2|H|N|Offerings placed in the boat.|
 T Orientation: Iskaara|QID|72435|M|13.14,49.27|Z|2024|N|To Murik.|
 T Gather the Family|QID|66210|M|13.24,49.54|Z|2024|N|To Brena.|
@@ -322,9 +328,7 @@ A Toejam the Terrible|QID|70129|PRE|66558|M|16.12,50.43|Z|2024|N|From Rowie.|
 C Toejam the Terrible|QID|70129|M|16.75,49.31|Z|2024|CHAT|N|Have a chat with Toejam and explain the situation, then watch.|
 K Bloodhorn|ACTIVE|66958|M|18.88,49.42|Z|2024|QO|1|N|Bloodhorn's Horn.|
 T Toejam the Terrible|QID|70129|M|13.80,49.00|Z|2024|N|To Auntie Kaunnie.|
-A Cooking Utensils|QID|70939|PRE|70938|M|13.57,48.68|Z|2024|N|At Lil Ki.|RANK|2|DFREN|Iskaara;2511;4|
-T Cooking Utensils|QID|70939|M|13.57,48.68|Z|2024|N|At Lil Ki.|
-T Fishing Holes|QID|70941|M|13.94,49.24|Z|2024|N|To Nunvuq.|IZ|13837||DFREN|Iskaara;2511;4|
+
 R Whaler's Nook|ACTIVE|71234|M|8.75,45.74|Z|2024|N|Follow the road west out of town.|
 T Nook News|QID|71234|M|7.46,44.28|Z|2024|N|To Wayun.|
 A A Matter of Taste|QID|66781|PRE|71234|M|7.64,44.35|Z|2024|N|From Mordigan Ironjaw.|
@@ -533,7 +537,7 @@ R Camp Nowhere|ACTIVE|66671|M|63.19,58.37|Z|2024|N|And we are off to see the Nes
 t Hunting the Huntmaster|QID|66939|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|13859|
 t A Shadow In The Ice|QID|66957|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|13859|
 t Protect And Herd|QID|66958|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|13859|
-t Pruning The Pack|QID|66968|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr..|IZ|13859|
+t Pruning The Pack|QID|66968|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|13859|
 t The Face of Death|QID|66971|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|13859|
 t Old Stonetusk|QID|66972|M|63.19,58.37|Z|2024|N|To Hemet Nesingwary Jr.|IZ|13859|
 T Path to Nowhere|QID|66671|M|63.22,58.42|Z|2024|N|To Maddy Scattershot.|
@@ -569,6 +573,7 @@ T Friendship For Granted|QID|66428|M|68.49,60.46|Z|2024|N|To Rannan Korren, afte
 A I Will Remember|QID|66429|PRE|66428|M|68.49,60.46|Z|2024|N|From Rannan Korren.|
 $ Ruins of Karnthar Glyph|QID|99999|N|On top of this tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
 T I Will Remember|QID|66429|M|63.68,58.90|Z|2024|N|To Rannan Korren.|
+
 R Rustpine Den|ACTIVE|66141|M|65.63,54.83|CC|Z|2024|N|Fly to Narn, just outside of Rustpine Den.|
 C Broken Traditions, Broken Bodies|QID|66141|M|65.63,54.83|Z|2024|CHAT|N|Ask Narn what happened.|
 T Broken Traditions, Broken Bodies|QID|66141|M|63.50,52.95|Z|2024|N|To Garz.|
@@ -652,7 +657,7 @@ T Tuskarr Champion's Tales|QID|70940|M|12.41,49.34|Z|2024|N|At Elder Poa.|
 T Story of a Memorable Victory|QID|72291|M|12.41,49.34|Z|2024|N|At Elder Poa.|IZ|13837|;from randomly dropped item of same name-201470
 K Bloodhorn|ACTIVE|66958|QO|1|M|18.94,49.28|N|Kill and Loot Bloodhorn.|
 
-F Longclaw Island|ACTIVE|71014|M|1.20,39.22|Z|2024|N|Make sure your vigor is full before you head out, no good place to land over the ocean.|
+R Longclaw Island|ACTIVE|71014|M|1.20,39.22|Z|2024|N|Make sure your vigor is full before you head out, no good place to land over the ocean.|
 T A Far Furbolg Friend|QID|71014|M|1.20,39.22|Z|2024|N|To Barst.|
 A A Little Kelp for My Friends|QID|70996|PRE|71014|M|1.20,39.22|Z|2024|N|From Barst.|
 C A Little Kelp for My Friends|QID|70996|M|.49,38.97;0.85,39.04|CS|Z|2024|N|Kill the Wild Kelp Elemental found in a cave at water's edge.|
