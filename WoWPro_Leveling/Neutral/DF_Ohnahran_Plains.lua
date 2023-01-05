@@ -6,10 +6,10 @@ WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Renown stuff -- all based on someone showing up whereever you are
-A Call of the Plains|QID|71229|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|DFREN|Maruuk Centaur;2503;4|
-A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you shortly after you leave the tomb.|RANK|2|DFREN|Maruuk Centaur;2503;5|
-A Dormant Discovery|QID|66595|M|PLAYER|N|Autoaccepted from item looted.|O|U|198538|DFREN|Dragonscale Exp;2507;7|;from item looted reletively soon after getting the rep.
-A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier may require lvl 70?
+;A Call of the Plains|QID|71229|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you. This leads to daily quests which will earn Maruuk Rep and is beyond the scope of this guide.|DFREN|Maruuk Centaur;2503;4|
+;A Call of the Hunt|QID|71231|M|PLAYER|Z|2023;Ohn'ahran Plains|N|From Roki who will fly up to you shortly after you leave the tomb.|RANK|2|DFREN|Maruuk Centaur;2503;5|
+;A Dormant Discovery|QID|66595|M|PLAYER|N|Autoaccepted from item looted.|O|U|198538|DFREN|Dragonscale Exp;2507;7|;from item looted reletively soon after getting the rep.
+;A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier may require lvl 70?
 
 ;Dragon Riding Glyphs that need to be worked into the guide.
 ;PLACED F Mirewood Fen|N|Floating just above the ground.|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16671|
@@ -34,6 +34,11 @@ T Ohn'ahran Plains|QID|72267|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza.|
 T Next Steppes|QID|65795|M|48.27,88.67|Z|2022|N|To Ambassador Taurasza. You can run or glide on your dragon to get to him.|
 $ Rubyscale Outpost Glyph|M|48.84,86.80|Z|2022|N|Just off the ground as you cross the bridge into Ohnahran Plains.|ACH|16670|
 A Into the Plains|QID|65779|PRE|65795^72267|M|48.27,88.67|Z|2022|N|From Ambassador Taurasza.|
+T Dormant Discovery|QID|66595|M|47.19,90.25|Z|2022|N|To Thaelin Darkanvil.|
+A This Old Stone|QID|66597|PRE|66595|M|47.19,90.25|Z|2022|N|From Thaelin Darkanvil.|
+C This Old Stone|QID|66597|M|47.28,90.31|Z|2022|I|N|Inspect the floor in the middle of this tower.|
+T This Old Stone|QID|66597|M|47.19,90.25|Z|2022|N|To Thaelin Darkanvil.|
+A Nightborne Know-How|QID|66598|PRE|66597|M|47.19,90.25|Z|2022|N|From Thaelin Darkanvil.|
 $ Mirewood Fen Glyph|M|78.35,21.31|Z|2023;Ohn'Aran Plains!Dragonflight|N|If you aren't on your Dragon, mount up and get the glyph floating just above the ground.|ACH|16671|
 T Into the Plains|QID|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Proving Oneself|QID|65780|PRE|65779|M|77.72,23.94|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
@@ -63,7 +68,7 @@ T Supplies for the Journey|QID|65802|M|84.69,22.84|Z|2023;Ohn'ahran Plains|N|To 
 T Making Introductions|QID|65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A Toward the City|QID|65803|PRE|65802&65801|M|84.69,22.87|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C Toward the City|QID|65803|M|83.15,23.78|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Let Tomul know you are ready to go.|
-C Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|NC|N|Listen to the Shikaar stories. (Optional)There is a 'dog', named [color=0060ee]Stout Riding Bakar[/color] walking in the caravan you can ride if you want to afk or have your hands free for chatting. Or if you wanna just go fast, ride/fly on your own directly to the 1st stop.|T|Stout Riding Bakar|
+C Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|NC|N|Listen to the Shikaar stories. (Optional)There is a 'dog', named [color=0060ee]Stout Riding Bakar [/color]walking in the caravan you can ride if you want to afk or have your hands free for chatting. Or if you wanna just go fast, ride/fly on your own directly to the 1st stop.|T|Stout Riding Bakar|
 T Toward the City|QID|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A For Food and Rivalry|QID|65804|PRE|65803|M|75.68,31.67|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
 C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|N|Kill animals as you pass thru their area and collect the fresh game meat. Don't try to get them all, we will be back.|S|IZ|14094|
@@ -105,7 +110,7 @@ C For Food and Rivalry|QID|65804|M|76.37,33.05|Z|2023;Ohn'ahran Plains|N|Finish 
 T For Food and Rivalry|QID|65804|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 T Mysterious Beast|QID|70185|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|To Scout Tomul.|
 A By Broken Road|QID|65940|PRE|65804&70185|M|75.67,31.69|Z|2023;Ohn'ahran Plains|N|From Scout Tomul.|
-C By Broken Road|QID|65940|M|70.02,37.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Arrive at the second stop. Again you can ride the [color=0060ee]Stout Riding Bakar[/color] if you want.|T|Stout Riding Bakar|
+C By Broken Road|QID|65940|M|70.02,37.88|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Arrive at the second stop. Again you can ride the [color=0060ee]Stout Riding Bakar [/color]if you want.|T|Stout Riding Bakar|
 T By Broken Road|QID|65940|M|69.97,37.98|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.|
 A Connection to Ohn'ahra|QID|65805|PRE|65940|M|69.97,37.98|Z|2023;Ohn'ahran Plains|N|From Ohn Seshteng.|
 C Connection to Ohn'ahra|QID|65805|M|68.69,41.49|Z|2023;Ohn'ahran Plains|QO|3|N|Kill Salamanthers until you loot a Heart.|S|
@@ -128,8 +133,9 @@ A Clan Nokhud|QID|66018|PRE|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|From S
 A Orientation: Maruukai|QID|72429|PRE|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.|RANK|2|
 A Bloodlines, Sweets, and Teerai|QID|70739|PRE|65805|M|63.61,40.46|Z|2023;Ohn'ahran Plains|N|From Hunter Narman.|RANK|2|
 f Maruukai|ACTIVE|66016^66017^66018|M|62.98,42.12|Z|2023;Ohn'ahran Plains|N|At Flightmaster Salukan.|
-A Trouble In The Pines|QID|65837|PRE|65805|M|61.99,41.81|Z|2023;Ohn'ahran Plains|N|From Beastmaster Tirren.|RANK|2|
-A The Fields of Ferocity|QID|70444|PRE|65805|M|62.31,42.33|Z|2023;Ohn'ahran Plains|N|From Fields of Ferocity Wanted Poster.This is an [color=ff8000]Elite[/color] group quest.|RANK|3|
+A Trouble In The Pines|QID|65837|PRE|65805|M|61.99,41.81|Z|2023;Ohn'ahran Plains|N|From Beastmaster Tirren.|RANK|2|LEAD|66681^66680|
+A The Fields of Ferocity|QID|70444|PRE|65805|M|62.31,42.33|Z|2023;Ohn'ahran Plains|N|From Fields of Ferocity Wanted Poster. This is a[color=ff8000] Elite [/color]group quest.|RANK|3|LEAD|66459|
+h Maruukai|ACTIVE|66016^66017^66018|M|62.80,40.66|Z|2023;Ohn'ahran Plains|N|At Hearthkeeper Berulan.|
 C Bloodlines, Sweets, and Teerai|QID|70739|M|60.04,37.39|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask Elder Odgerel about Norman's plan.|
 C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.|
 C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.|
@@ -166,7 +172,7 @@ T Clan Ohn'ir|QID|66017|M|62.99,33.64|Z|2023;Ohn'ahran Plains|N|To Ohn Seshteng.
 A Omens and Incense|QID|66020|PRE|66017|M|62.99,33.64|Z|2023;Ohn'ahran Plains|N|From Ohn Seshteng.|
 l Sweetsuckle Bloom|ACTIVE|66020|M|63.09,36.07|Z|2023;Ohn'ahran Plains|L|191160 5|N|Gather 5 Sweetsuckle Blooms.|S|
 C Shikaar Giver|QID|70730|M|63.82,35.91|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ohn Arasara consulted.|
-h Maruukai|ACTIVE|66020|M|62.18,35.72|Z|2023;Ohn'ahran Plains|N|At Hearthkeeper Erden.|
+;h Maruukai|ACTIVE|66020|M|62.18,35.72|Z|2023;Ohn'ahran Plains|N|At Hearthkeeper Erden.|--moved to other inn as it feels more central when hearthing back
 B Honey Plum Tart|ACTIVE|70739|M|62.18,35.72|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Buy a Honey Plum Tart from the innkeeper.|
 B Yak Milk Pudding|ACTIVE|70730|M|62.18,35.72|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Buy a Yak Milk Pudding from the innkeeper.|
 A Emberwatch|QID|70337|PRE|66021&66016|M|62.14,36.40|Z|2023;Ohn'ahran Plains|N|From Windsage Kven.|RANK|2|
@@ -262,6 +268,7 @@ T The Black Locus|QID|66700|M|65.99,25.08|Z|2023;Ohn'ahran Plains|N|To Telemance
 H Maruukai|ACTIVE|65837|M|PLAYER|N|Hearth back to Maruukai for a bit of a time savings on your run to Pinewood Post.|RANK|2|
 A After My Ohn Heart|QID|70721|PRE|70739&70730|M|62.81,35.45|Z|2023;Ohn'ahran Plains|N|From Windsage Dawa.|
 C After My Ohn Heart|QID|70721|M|63.61,40.48|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Speak to Hunter Narman.|
+
 R Pinewood Post|ACTIVE|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|You will want to be at full vigor to make the glide all the way over there.|
 T Trouble In The Pines|QID|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|To Sentinel Olekk.|
 A Tempests Abound|QID|66681|PRE|65837|M|81.02,58.92|Z|2023;Ohn'ahran Plains|N|From Sentinel Olekk.|
@@ -439,6 +446,7 @@ $ Ohn'iri Springs Glyph|QID|99999|M|57.3,80.3|Z|2023|N|Next to the mountain.|ACH
 F Ohn'iri Springs|ACTIVE|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|And continue on to Ohn'iri Springs.|
 C Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|CHAT|N|Talk to Radiya.|
 T Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|To Initiate Radiya.|
+
 H Maruukai|ACTIVE|66259|M|PLAYER|N|Hearth back to Maruukai. If you hearth is set elsewhere or not available, there is a flight path in Ohn'iri Springs, or you can fly/run.|
 A Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|RANK|2|DFREN|Maruuk;2503;3|IZ|13764|
 T Cultural Exchange|QID|72117|M|60.39,37.72|Z|2023;Ohn'ahran Plains|N|From Quartermaster Huseng.|
@@ -648,6 +656,7 @@ T Taivan's Purpose|QID|69096|M|61.81,38.72|Z|2023;Ohn'ahran Plains|N|To Healer S
 R Quartermaster Huseng|QID|72137|M|60.33,38.06|CC|N|Fly up to the Quartermaster.|DFREN|Maruuk;2503;8|IZ|13764|
 A Hatchling Plans|QID|72137|M|60.41,37.72|N|This "quest" allows you to buy [color=33fff9]Hoofhelper[/color] from the quartermaster.|ITEM|193618|DFREN|Maruuk;2503;8|IZ|13764|
 T Hatchling Plans|QID|72137|M|60.41,37.72|DFREN|Maruuk;2503;8|IZ|13764|
+
 R Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|And we are off to the last area, you probably need a full vigor bar if you are going to take your dragon.|
 f Forkriver Crossing|ACTIVE|66340|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|
 T Into the Azure|QID|66340|M|71.67,80.62|Z|2023;Ohn'ahran Plains|N|To Masud the Wise.|
@@ -683,8 +692,9 @@ T That's My Specialty|QID|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|To Migue
 A The Wonders of the World|QID|67298|PRE|67295|M|72.05,81.06|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|RANK|2|
 C The Wonders of the World|QID|67298|QO|1|M|71.73,81.24|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Thomas about where he gets his inspiration.|
 A The Master of Their Craft|QID|69946|PRE|67295|M|71.73,81.24|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|RANK|2|
+C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill[color=0060ee] goats [/color]in the marked area to recover Azley's missing books.|S|
 $ Forkriver Crossing Glyph|QID|99999|M|70.15,86.78|Z|2023;Ohn'ahran Plains|N|Just above the road.|ACH|16672|
-C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill [color=0060ee]goats[/color] in the marked area to recover Azley's missing books.|
+C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill[color=0060ee] goats [/color]in the marked area to recover Azley's missing books.|US|
 T Targeted Ads|QID|69915|M|72.03,81.10|Z|2023;Ohn'ahran Plains|N|To Azley.|
 A Customer Satisfaction|QID|69981|PRE|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|
 C Customer Satisfaction|QID|69981|M|74.59,81.01|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask her about her crafting order.|
@@ -707,12 +717,11 @@ K Thousandmile|ACTIVE|69979|M|49.41,37.10|QO|1|Z|2023;Ohn'ahran Plains|N|Go out 
 T A Worthy Hunt|QID|69979|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To Khadin. This is to show you the repeatable quest to turn your Shards of Dragon Knowledge into tradeskill knowlege.|
 
 ;adventure mode
-N Adventure Mode|ACTIVE|72268^65686|PRE|72267|S!US|N|If you want to go on to Azure Span, travel to Forkriver Crossing to meet Masud the Wise, If you want to choose a different zone, manually check off this step and the next one and return to Wingrest Embassy and the scouting map to pick a new zone if needed, or go directly to the new guide if you already have the lead in quest.|
-;F Forkriver Crossing|ACTIVE|72268^65686|PRE|72267|
+N Adventure Mode|ACTIVE|72268^65686|PRE|72267|S!US|N|If you want to go on to Azure Span, travel to Forkriver Crossing to meet Masud the Wise, If you want to choose a different zone, manually check off this step and return to Wingrest Embassy and the scouting map to pick a new zone if needed, or go directly to the new guide if you already have the lead in quest.|
 N Choose Waking Shore|ACTIVE|72266|JUMP|The_Waking_Shores|S!US|
 N Choose Thaldraszus|ACTIVE|72269|JUMP|Thaldraszus|S!US|
 N Choose Azure Span|ACTIVE|72268^65686|PRE|72267|JUMP|The_Azure_Span|
-F Wingrest Embassy|AVAILABLE|72266^72268^72269|PRE|72267|M|57.50,68.13|Z|2022|N|At Vaknai.|
+F Wingrest Embassy|AVAILABLE|72266^72268^72269|PRE|72267|
 N Scouting Map|AVAILABLE|72266^72268^72269|PRE|72267|M|76.52,34.24|Z|2022|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
 N Carry on!|ACTIVE|72266^72269|S!US|N|Finish your business and when you are ready, click on the book icon to load the next guide.|
 ]]
