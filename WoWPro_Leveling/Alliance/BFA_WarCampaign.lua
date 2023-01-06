@@ -57,7 +57,7 @@ C Escape!|QID|51904|M|75.71,70.62|Z|Islands!Instance|SO|7|N|Escape from Uncharte
 T Island Expedition|QID|51904|M|66.83,33.28|Z|Boralus|N|To Flynn Fairwind.|
 
 ;Level 40 Foothold
-A The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|51961|LVL|40|CCOUNT|2;51968;51968;51967|
+A The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|51961|LVL|40|CCOUNT|2;51967;51968;51969|
 C Pick last Foothold|QID|52443|M|69.27,27.02|NC|Z|Boralus|N|Choose the last available zone to build a foothold at the Zandalar Campaign Table.|
 T The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane.|;118 Turn in
 
