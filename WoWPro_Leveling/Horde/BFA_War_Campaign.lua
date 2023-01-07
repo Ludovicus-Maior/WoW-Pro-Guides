@@ -6,7 +6,7 @@ WoWPro:GuideNickname(guide, "War Campaign")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
+N Guide Hub|AVAILABLE|52749|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 ;Starter Notes
 N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts. Currently, there is no rank 2/3 content in this guide, but when it is added in, Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
 N The Banshee's Wail|QID|53079|N|All of these quest arcs start on The Banshee's Wail, a ship in Zandalar's harbor. It can be reached by taking the flightpath to the Port of Zandalar.|
@@ -61,7 +61,7 @@ C Escape!|QID|51888|M|75.71,70.62|Z|Islands!Instance|SO|7|N|Escape from Uncharte
 T Island Expedition|QID|51888|M|44.48,95.45|Z|Dazar'alor|N|To Captain Rez'okum.|
 
 ;Level 40 Foothold
-A The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51979|LVL|40|
+A The Final Foothold|QID|52444|PRE|51979|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|40|CCOUNT|2;51984;51985;51986|
 t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
@@ -71,14 +71,14 @@ T The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcall
 ;Foothold: Drustvar
 A A Trip Across the Ocean|QID|51332|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51801|
 T A Trip Across the Ocean|QID|51332|M|58.45,62.64|Z|Zuldazar|N|To Trade Prince Gallywix below deck.|
-A Drustvar Ho!|QID|51340|M|58.45,62.64|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|51332|
-C Drustvar Ho!|QID|51340|M|58.55,62.72|Z|Zuldazar|QO|1|CHAT|N|Speak with Eitrigg, who is one level above you.|
-C Drustvar Ho!|QID|51340|M|58.46,62.99|Z|Zuldazar|QO|2|CHAT|N|Tell Tattersail you are ready to sail to Drustvar.|
+A Drustvar Ho!|QID|51340|PRE|51332|M|58.45,62.64|Z|Zuldazar|N|From Trade Prince Gallywix.|
+C Drustvar Ho!|QID|51340|QO|1|M|58.55,62.72|Z|Zuldazar|CHAT|N|Speak with Eitrigg, who is one level above you.|
+C Drustvar Ho!|QID|51340|QO|2|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail you are ready to sail to Drustvar.|
 T Drustvar Ho!|QID|51340|M|20.79,43.85|Z|Drustvar|N|To Eitrigg.|
 A Profit and Reconnaissance|QID|51224|M|20.79,43.85|Z|Drustvar|N|From Eitrigg.|PRE|51340|
-f Anyport|ACTIVE|51224|M|19.12,43.32|Z|Drustvar|N|At Tan Lotuswind.|
-C Profit and Reconnaissance|QID|51224|M|20.71,43.72|Z|Drustvar|CS|QO|1|V|N|Hop onto Gallywix's War Trike|BUFF|269564|
-C Profit and Reconnaissance|QID|51224|M|20.40,47.37;22.30,46.37|Z|Drustvar|CS|QO|1|NC|N|Drive up the hill. Inspect the scout when you arrive.|
+f Anyport|ACTIVE|51224|M|19.14,43.31|Z|Drustvar|N|At Tan Lotuswind (top of the ship).\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+C Profit and Reconnaissance|QID|51224|QO|1|M|20.71,43.72|Z|Drustvar|CS|V|N|Hop onto Gallywix's War Trike|BUFF|269564|
+C Profit and Reconnaissance|QID|51224|M|20.40,47.37;22.30,46.37|Z|Drustvar|CS|QO|1|H|N|Drive up the hill. Inspect the scout when you arrive.|
 C Profit and Reconnaissance|QID|51224|M|25.47,46.40|Z|Drustvar|QO|2|V|N|Hop back on the trike and head for the next Drudge a little further into the woods. Kill the Wildwood Slaverer which will appear shortly.|
 C Profit and Reconnaissance|QID|51224|M|29.47,54.90|Z|Drustvar|QO|3|V|N|Hop back on and find yet another goblin scout. Inspect him.|
 C Profit and Reconnaissance|QID|51224|M|32.11,54.43|Z|Drustvar|QO|4|V|N|Hop back on to Find the final goblin scout.|
