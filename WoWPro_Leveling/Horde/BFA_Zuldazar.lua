@@ -137,34 +137,34 @@ A Needs a Little Body|QID|49489|M|62.83,32.58|N|From Zul the Prophet.|PRE|49488|
 A The Urn of Voices|QID|49490|M|62.83,32.58|N|From Zul the Prophet.|PRE|49488|
 A Fuel for the Voodoo|QID|49491|M|63.62,31.78|N|From Izita's Spirit.|PRE|49488|
 C The Urn of Voices|QID|49490|M|62.70,28.39|S|N|Kill mobs in the area to collect 30 Ounces of Soul.|
-C Fuel for the Voodoo|QID|49491|M|63.75,30.89|S|NC|N|Pick up the Voodoo Totems scattered about.|
-C Needs a Little Body|QID|49489|M|65.05,32.94;63.19,29.07|CS|NC|N|Push each troll into the cauldron.|
+C Fuel for the Voodoo|QID|49491|M|63.75,30.89|S|H|N|Pick up the Voodoo Totems scattered about.|
+C Needs a Little Body|QID|49489|M|65.05,32.94;63.19,29.07|CS|H|N|Push each troll into the cauldron.|
 C The Urn of Voices|QID|49490|M|62.70,28.39|US|N|Finish collecting the needed souls.|
-C Fuel for the Voodoo|QID|49491|M|63.75,30.89|US|NC|N|Finish picking up the Voodoo Totems.|
+C Fuel for the Voodoo|QID|49491|M|63.75,30.89|US|H|N|Finish picking up the Voodoo Totems.|
 T Fuel for the Voodoo|QID|49491|M|62.75,28.47|N|To Brazier at bottom of stairs near Zul the Prophet.|
 T Needs a Little Body|QID|49489|M|62.86,28.24|N|To Zul the Prophet.|
 T The Urn of Voices|QID|49490|M|62.86,28.24|N|To Zul the Prophet.|
 A Arrogance of Vol'jamba|QID|49492|M|62.86,28.24|N|From Zul the Prophet.|PRE|49490&49489&49491|
-C Arrogance of Vol'jamba|QID|49492|M|62.92,28.06|QO|1|NC|N|Click on the mask on the wall.|
-C Arrogance of Vol'jamba|QID|49492|M|63.51,28.10|QO|2|NC|N|Click on the mask on the wall.|
-C Arrogance of Vol'jamba|QID|49492|M|64.17,28.39|QO|3|NC|N|Click on the mask at the top of the stairs.|
+C Arrogance of Vol'jamba|QID|49492|M|62.92,28.06|QO|1|H|N|Click on the mask on the wall.|
+C Arrogance of Vol'jamba|QID|49492|M|63.51,28.10|QO|2|H|N|Click on the mask on the wall.|
+C Arrogance of Vol'jamba|QID|49492|M|64.17,28.39|QO|3|H|N|Click on the mask at the top of the stairs.|
 T Arrogance of Vol'jamba|QID|49492|M|64.38,28.55|N|To Zul the Prophet.|
 A Zul's Ethical Dilemma|QID|49493|M|64.38,28.55|N|From Zul the Prophet.|PRE|49492|
 A Zuvembi Brew|QID|49494|M|64.38,28.55|N|From Zul the Prophet.|PRE|49492|
-C Zul's Ethical Dilemma|QID|49493|M|65.43,28.01|QO|1|U|155458|NC|S|N|Use the potion to free some Mindslaves. It doesnt work on "The Chosen" you will have to kill them.|
+C Zul's Ethical Dilemma|QID|49493|M|65.43,28.01|QO|1|U|155458|NC|S|N|Use the scroll to free some Mindslaves. It doesnt work on "The Chosen" you will have to kill them.|
 A Preparing for the Fall|QID|51663|M|65.28,28.22|N|From Jambani Stockpile.|
-C Preparing for the Fall|QID|51663|M|65.82,27.85|QO|1|NC|S|N|Destroy Jambani stockpiles.|
+C Preparing for the Fall|QID|51663|M|65.82,27.85|QO|1|H|S|N|Destroy Jambani stockpiles.|
 K Zuvembi Brewer Zekal|ACTIVE|49494|M|64.88,26.98|QO|1|T|Zuvembi Brewer Zekal|N|Kill Zuvembi Brewer Zekal.|
-C Preparing for the Fall|QID|51663|M|65.82,27.85|NC|US|N|Finish destroying the Jambani stockpiles.|
+C Preparing for the Fall|QID|51663|M|65.82,27.85|H|US|N|Finish destroying the Jambani stockpiles.|
 C Zul's Ethical Dilemma|QID|49493|M|65.43,28.01|QO|1|U|155458|NC|US|N|Finish freeing the Mindslaves.|
 T Zul's Ethical Dilemma|QID|49493|M|65.71,30.22|N|To Zul the Prophet.|
 T Zuvembi Brew|QID|49494|M|65.71,30.22|N|To Zul the Prophet.|
 T Preparing for the Fall|QID|51663|M|65.71,30.22|N|To Zul the Prophet.|
 A Enforcing Fate|QID|49495|M|65.71,30.22|N|From Zul the Prophet.|PRE|49494&49493|
-C Enforcing Fate|QID|49495|M|65.89,31.08|QO|1|NC|N|Place Seal of Implacable Fate, Statue will attack.|
-C Enforcing Fate|QID|49495|M|65.90,30.69|QO|2|NC|N|Place Urn of Voices, 3 trolls will attack.|
-C Enforcing Fate|QID|49495|M|65.85,30.65|QO|3|NC|N|Click on the urn about 3 feet from where it was, 3 voodoo masks will attack.|
-C Enforcing Fate|QID|49495|M|65.55,31.28|QO|4|NC|N|Click on the potion, statue will attack.|
+C Enforcing Fate|QID|49495|M|65.89,31.08|QO|1|H|N|Place Seal of Implacable Fate, Statue will attack.|
+C Enforcing Fate|QID|49495|M|65.90,30.69|QO|2|H|N|Place Urn of Voices, 3 trolls will attack.|
+C Enforcing Fate|QID|49495|M|65.85,30.65|QO|3|H|N|Click on the urn about 3 feet from where it was, 3 voodoo masks will attack.|
+C Enforcing Fate|QID|49495|M|65.55,31.28|QO|4|H|N|Click on the potion, statue will attack.|
 T Enforcing Fate|QID|49495|M|65.70,30.20|N|To Zul the Prophet.|
 A Plot Twist|QID|49905|M|65.70,30.20|N|From Zul the Prophet.|PRE|49495|
 C Plot Twist|QID|49905|M|65.63,30.75|QO|1|NC|N|Wait for speechifying to end.|
@@ -184,11 +184,11 @@ T Monstrous Matchmaker|QID|49810|M|64.13,35.37|N|From Witch Doctor Jangalar.|
 A The Scent for a Brutosaur|QID|49814|M|64.13,35.37|N|From Witch Doctor Jangalar.|RANK|2|PRE|49810|
 A They Say It's a Delicacy|QID|50154|M|64.13,35.37|N|From Witch Doctor Jangalar.|RANK|2|PRE|49810|
 A Aggressive Mating Strategy|QID|49801|M|64.07,35.47|N|From Cala Cruzpot.|RANK|2|PRE|49810|
-C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|NC|S|N|Collect Fragrant Rushes as you go.|
+C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|H|S|N|Collect Fragrant Rushes as you go.|
 C They Say It's a Delicacy|QID|50154|M|62.74,39.69|S|N|Kill Diemetradons and loot to collect the Partially-Digested Pods.\n[color=FF0000]NOTE: [/color]Be aware of the lv 120 Lurking Diemetradons among the lower level mobs.|
 C Aggressive Mating Strategy|QID|49801|M|63.70,41.19|N|Kill the Razorwing mobs to obtain the Bile Sacs.|
 C They Say It's a Delicacy|QID|50154|M|62.74,39.69|US|N|Finish collecting the Partially-Digested Pods.|
-C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|NC|US|N|Finish collecting Fragrant Rushes as you go back.|
+C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|H|US|N|Finish collecting Fragrant Rushes as you go back.|
 T Aggressive Mating Strategy|QID|49801|M|64.07,35.47|N|To Cala Cruzpot.|
 T They Say It's a Delicacy|QID|50154|M|64.13,35.37|N|To Witch Doctor Jangalar.|
 T The Scent for a Brutosaur|QID|49814|M|64.13,35.37|N|To Witch Doctor Jangalar.|
