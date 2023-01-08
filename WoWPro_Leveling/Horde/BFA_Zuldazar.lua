@@ -33,13 +33,13 @@ C Shakedown|QID|46926|M|56.71,93.51|Z|Dazar'alor|S|N|Kill Amani Thugs, Gurubashi
 C The Word of Zul|QID|46846|M|45.30,79.79|Z|Dazar'alor|QO|3|CHAT|N|Show Dockmaster Cobo the message|
 A The Red Market|QID|48452|M|44.25,82.15|Z|Dazar'alor|N|From Witch Doctor Jala.|
 C The Red Market|QID|48452|M|43.11,83.33|Z|Dazar'alor|S|QO|1|N|Kill the cultists to collect the Dark Fetishes.|
-C The Red Market|QID|48452|M|42.50,78.25;43.10,83.16|CS|Z|Dazar'alor|QO|2|NC|N|Head down the stairs of The Old Seawall, and destroy Chalice of Calling under the stairs|
+C The Red Market|QID|48452|M|42.50,78.25;43.10,83.16|CS|Z|Dazar'alor|QO|2|H|N|Head down the stairs of The Old Seawall, and destroy Chalice of Calling under the stairs|
 C The Red Market|QID|48452|M|43.11,83.33|Z|Dazar'alor|US|QO|1|N|Finish collecting Dark Fetishes.|
 T The Red Market|QID|48452|M|44.25,82.15|Z|Dazar'alor|N|To Witch Doctor Jala.|
 A Evidence of Evil|QID|48454|M|44.25,82.15|Z|Dazar'alor|N|From Witch Doctor Jala.|PRE|48452|
 C The Word of Zul|QID|46846|M|53.88,91.10|Z|Dazar'alor|QO|2|CHAT|N|Volkini is down stairs. Show her the message.|
 A The Scamps|QID|48404|M|55.95,88.83|Z|Dazar'alor|N|From Scrollsage Rooka.|RANK|2|
-C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|S|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels.| ; |T| tag here messes with one on Da White Shark - Hendo72
+C The Scamps|QID|48404|M|53.16,88.49|Z|Dazar'alor|S|H|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels.| ; |T| tag here messes with one on Da White Shark - Hendo72
 A Make Loh Go|QID|52472|M|56.16,91.59|Z|Dazar'alor|N|From Toki.|RANK|2|
 C Make Loh Go|QID|52472|M|56.16,91.59|Z|Dazar'alor|QO|1|CHAT|N|Speak with Toki.|
 C Make Loh Go|QID|52472|QO|2|NC|N|Guide Loh to the First Goal.|
@@ -48,7 +48,7 @@ T Make Loh Go|QID|52472|M|56.57,91.69|Z|Dazar'alor|N|To UI Alert.|
 K Da White Shark|QID|50948|QO|1|M|59.36,88.80|Z|Dazar'alor|N|Head to the top of the stairs and stand next to Da White Shark until she attacks you with 2 adds. After she is dead, you can loot her treasure.|T|Da White Shark|
 $ Da White Shark's Bounty|QID|50947|M|59.36,88.80|Z|Dazar'alor|N|After you kill Da White Shark, her treasure appears. Loot for azerite power and resources.|RANK|2|
 C The Word of Zul|QID|46846|M|51.53,91.14|Z|Dazar'alor|CHAT|QO|1|N|Show Nokali the message, he is on the upper level.|
-C The Scamps|QID|48404|US|M|53.16,88.49|Z|Dazar'alor|QO|1|NC|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels. If the disappear in front of you, wait a couple seconds as they will respawn and run back to the same place.|T|Street Scamp|
+C The Scamps|QID|48404|US|M|53.16,88.49|Z|Dazar'alor|QO|1|H|N|Click on the Street Scamps as they run by to stop them. They can be found on both levels. If the disappear in front of you, wait a couple seconds as they will respawn and run back to the same place.|T|Street Scamp|
 T The Scamps|QID|48404|M|55.96,88.84|Z|Dazar'alor|N|To Scrollsage Rooka.|
 A Mista Nice|QID|48405|M|55.96,88.84|Z|Dazar'alor|N|From Scrollsage Rooka.|RANK|2|PRE|48404|
 C Mista Nice|QID|48405|M|58.78,90.53;57.20,87.88|Z|Dazar'alor|CS|NC|N|Speak to Scrollsage Rooka and ask him for a disguise.|BUFF|250337^250284|

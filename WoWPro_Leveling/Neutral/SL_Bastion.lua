@@ -96,7 +96,7 @@ C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|1533;Bastion!The Shadowlands|
 C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|1533;Bastion!The Shadowlands|H|N|Click on one of the floating scrolls.|MS|
 l Weak Anima Mote|QID|57705|L|172451 10|M|42.52,80.57|Z|1533;Bastion!The Shadowlands|RARE|N|Pick up 10 Weak Anima Motes from the Depleated Anima Canisters outside the doorway and inside the room with Hurculon.|ACH|14307;1|
 K Herculon|QID|57705|QO|1|M|42.88,80.62|Z|1533;Bastion!The Shadowlands|T|Herculon|N|Interact with Herculon, "Supply Weak Anima Mote" 10 times to activate him. Defeat him to gain access to the Aspirant Chest. The chest, behind where Herculon was, contains your reward and a quest starter.|RARE|ACH|14307;1|
-A Functioning Anima Core|QID|62200|PRE|62201|M|42.94,83.00|Z|1533;Bastion!The Shadowlands|N|From item just looted from Herculon's Aspirant Chest.|
+A Functioning Anima Core|QID|62200|M|42.94,83.00|Z|1533;Bastion!The Shadowlands|N|From item just looted from Herculon's Aspirant Chest.|U|182759|O|
 T A Fate Most Noble|QID|57584|M|42.09,78.30|Z|1533;Bastion!The Shadowlands|N|To Kleia.|MS|
 A Trouble in Paradise|QID|60735|M|42.09,78.30|Z|1533;Bastion!The Shadowlands|N|From Kleia.|PRE|57584|MS|
 C Trouble in Paradise|QID|60735|M|42.10,78.31|Z|1533;Bastion!The Shadowlands|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
@@ -139,7 +139,7 @@ K Sigilback|QID|60570|QO|1|M|55.33,80.14|Z|1533;Bastion!The Shadowlands|N|Talk t
 K Aethon|QID|58526|QO|1|M|55.33,80.14|Z|1533;Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179487|ACH|14307;26|
 K Cloudtail|QID|60571|QO|1|M|55.33,80.14|Z|1533;Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179488|ACH|14307;4|
 K Nemaeus|QID|60569|QO|1|M|55.33,80.14|Z|1533;Bastion!The Shadowlands|N|Talk to Orator Kloe to activate the Beast currently displayed on the platform beside her. Cycles thru all 4.|RARE|ITEM|179485|ACH|14307;5|
-$ Scroll of Aeons 1|QID|58294|M|54.37,82.64|Z|1533;Bastion!The Shadowlands|N|Loot Purians from bowl on table in Aspirant's Crucible.|ITEM|173984|ACH|14311;1|
+$ Scroll of Aeons 1|QID|58294|M|54.37,82.64|Z|1533;Bastion!The Shadowlands|N|Loot Purians from bowl on table in Aspirant's Crucible.|L|173973 2|ACH|14311;1|
 $ Scroll of Aeons 2|QID|54293^53298|CS|M|56.17,83.06;54.43,83.88;53.50,80.37|Z|1533;Bastion!The Shadowlands|N|Click on the bowls to place fruit at the first two locations, then go to last coord to loot treasure and learn toy.|ITEM|173984|ACH|14311;1|
 C A Forge Gone Cold|QID|57711|M|52.65,82.59|Z|1533;Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
 T A Forge Gone Cold|QID|57711|M|52.65,82.59|Z|1533;Bastion!The Shadowlands|N|To Sika.|MS|
@@ -150,11 +150,11 @@ A Suggested Reading|QID|57712|M|55.36,83.42|Z|1533;Bastion!The Shadowlands|N|Fro
 C Suggested Reading|QID|57712|M|56.04,82.81|QO|2|Z|1533;Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Leda for "Worlds Beyond Counting".|
 C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|1533;Bastion!The Shadowlands|N|Kill Etherwyrms until "Bear Witness: The Watcher's Code" drops.|S|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|1533;Bastion!The Shadowlands|N|Slay Etherwyrms to collect Glowing Viscera.|S|MS|
-C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|1533;Bastion!The Shadowlands|NC|N|Collect Adrima's Lily, a blue flower growing in the area.|S|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|2|Z|1533;Bastion!The Shadowlands|N|Click anywhere in the anima extractor to start the fight, then defend the Anima Extractor.|MS|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
-C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|1533;Bastion!The Shadowlands|NC|N|Finish collecting Adrima's Lily.|US|MS|
+C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|1533;Bastion!The Shadowlands|H|N|Collect Adrima's Lily, a blue flower growing in the area.|S|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|2|Z|1533;Bastion!The Shadowlands|N|Defend the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.98,79.29|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Collect a Condensed Anima Mote from the Anima Canister on the ground in the middle of the square.|MS|
+C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|1533;Bastion!The Shadowlands|H|N|Finish collecting Adrima's Lily.|US|MS|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|1533;Bastion!The Shadowlands|N|Finish collecting the needed Glowing Viscera from Etherwyrms.|US|MS|
 C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|1533;Bastion!The Shadowlands|N|Keep killing Etherwyrms till "Bear Witness: The Watcher's Code" drops.|US|
 C Suggested Reading|QID|57712|M|52.94,82.38|QO|1|Z|1533;Bastion!The Shadowlands|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
@@ -162,16 +162,16 @@ T The Cycle of Anima: Etherwyrms|QID|57263|M|52.65,82.59|Z|1533;Bastion!The Shad
 T The Cycle of Anima: Flower Power|QID|57267|M|52.65,82.59|Z|1533;Bastion!The Shadowlands|N|To Sika.|MS|
 T The Cycle of Anima: Drought Conditions|QID|57265|M|52.68,82.78|Z|1533;Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A Light the Forge, Forgelite|QID|59920|M|52.68,82.78|Z|1533;Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57265&57263&57267|MS|
-C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|1533;Bastion!The Shadowlands|QO|1|NC|N|Before you follow Sophone, click on the Raw Materials on the ground near you and carry them to the Basin. Click on the Basin to complete this step.|MS|
-C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the vents on either side of the forge.|MS|
-C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click the rubbish piles and broken barrels on the ground.|MS|
+C Light the Forge, Forgelite|QID|59920|CS|M|52.63,82.70;52.81,83.46|Z|1533;Bastion!The Shadowlands|QO|1|H|N|Before you follow Sophone, click on the Raw Materials on the ground near you and carry them to the Basin. Click on the Basin to complete this step.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Click the vents on either side of the forge.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.81,83.37|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Click the rubbish piles and broken barrels on the ground.|MS|
 T Light the Forge, Forgelite|QID|59920|M|52.95,83.50|Z|1533;Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A The Work of One's Hands|QID|57713|M|52.95,83.50|Z|1533;Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|59920|MS|
 C The Work of One's Hands|QID|57713|M|52.80,83.38|QO|1|Z|1533;Bastion!The Shadowlands|CHAT|N|Speak to Sika.|MS|
-C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click on the Raw Materials in the Basin.|MS|
-C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click on one of the vents.|MS|
-C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|4|Z|1533;Bastion!The Shadowlands|NC|N|Keep bar in middle, if it goes left, click the Raw Materials; if it goes right, click the vent.|MS|
-C The Work of One's Hands|QID|57713|M|52.85,83.33|QO|5|Z|1533;Bastion!The Shadowlands|NC|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Click on the Raw Materials in the Basin.|MS|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Click on one of the vents.|MS|
+C The Work of One's Hands|QID|57713|M|52.77,83.53|QO|4|Z|1533;Bastion!The Shadowlands|H|N|Keep bar in middle, if it goes left, click the Raw Materials; if it goes right, click the vent.|MS|
+C The Work of One's Hands|QID|57713|M|52.85,83.33|QO|5|Z|1533;Bastion!The Shadowlands|H|N|Click on the armor that is resting atop the anvil and wait for the step to complete.|MS|
 T The Work of One's Hands|QID|57713|M|52.95,83.50|Z|1533;Bastion!The Shadowlands|N|To Forgelite Sophone.|MS|
 A The True Crucible Awaits|QID|57908|M|52.95,83.50|Z|1533;Bastion!The Shadowlands|N|From Forgelite Sophone.|PRE|57713|MS|
 T Suggested Reading|QID|57712|M|55.39,83.43|Z|1533;Bastion!The Shadowlands|N|To Aspirant Akimos.|
@@ -193,12 +193,12 @@ A The Chamber of First Reflection|QID|57291|M|51.64,80.90|Z|1533;Bastion!The Sha
 C The Chamber of First Reflection|QID|57291|M|55.95,86.46|Z|1533;Bastion!The Shadowlands|NC|N|Enter the Chamber of First Reflection.|MS|
 T The Chamber of First Reflection|QID|57291|M|57.22,86.58|Z|1533;Bastion!The Shadowlands|N|To Kleia.|MS|
 A The First Cleansing|QID|57266|M|57.22,86.58|Z|1533;Bastion!The Shadowlands|N|From Kleia.|PRE|57291|MS|
-C The First Cleansing|QID|57266|M|58.10,85.74|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the box.|MS|
+C The First Cleansing|QID|57266|M|58.10,85.74|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click the box.|MS|
 C The First Cleansing|QID|57266|M|57.71,85.47|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Stand in the water and click the "[color=40C7EB]Bathe[/color]" Action Ability.|EAB|MS|
-C The First Cleansing|QID|57266|M|58.03,85.38|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click on the Vespers of Clarity.|MS|
+C The First Cleansing|QID|57266|M|58.03,85.38|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Click on the Vespers of Clarity.|MS|
 C The First Cleansing|QID|57266|M|57.22,86.58|QO|4|Z|1533;Bastion!The Shadowlands|CHAT|N|Speak to Kleia.|MS|
 C The First Cleansing|QID|57266|M|58.81,88.15|QO|5|Z|1533;Bastion!The Shadowlands|N|Stand on one of the platforms in front of the mirrors, click on the mirror and then defeat the Malignant Reflection that spawns. Rinse and repeat with a second one. The third one will complete this step.|MS|
-C The First Cleansing|QID|57266|M|55.95,86.46|QO|6|Z|1533;Bastion!The Shadowlands|N|Fight your Anguished Memory.|MS|
+C The First Cleansing|QID|57266|M|58.92,88.16|QO|6|Z|1533;Bastion!The Shadowlands|N|Fight your Anguished Memory.|MS|
 T The First Cleansing|QID|57266|M|55.65,86.43|Z|1533;Bastion!The Shadowlands|N|To Kleia.|MS|
 A The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|55.67,86.40|Z|1533;Bastion!The Shadowlands|N|From Kleia.|PRE|57266|MS|
 C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.52,87.06|Z|1533;Bastion!The Shadowlands|CHAT|QO|1|N|Talk to Kalisthene.|MS|
@@ -214,7 +214,7 @@ T All An Aspirant Can Do|QID|58174|M|48.28,72.86|Z|1533;Bastion!The Shadowlands|
 
 ; The Temple of Purity Storyline
 A The Temple of Purity|QID|57270|M|48.36,72.80|Z|1533;Bastion!The Shadowlands|N|From Disciple Kosmas|PRE|58174|MS|
-A Hero's Rest|QID|62718|M|48.79,73.26|Z|1533;Bastion!The Shadowlands|N|From the Scroll hanging on the wall.|RANK|2|LEAD|62275|LVL|-60|
+A Hero's Rest|QID|62718|M|48.79,73.26|Z|1533;Bastion!The Shadowlands|N|From the Scroll hanging on the wall.|RANK|2|LEAD|57266|LVL|-60|
 A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|1533;Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|RANK|2|
 C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|1533;Bastion!The Shadowlands|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.\n[color=FF0000]NOTE: [/color]Despite being yellow, it will attack you as soon as you step within the colored area.|
 C A Gift for an Acolyte|QID|62714|M|54.10,73.62|Z|1533;Bastion!The Shadowlands|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
@@ -245,18 +245,18 @@ C Step Back From That Ledge, My Friend|QID|57717|M|60.15,79.03|Z|1533;Bastion!Th
 T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|1533;Bastion!The Shadowlands|N|To Eridia.|MS|
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|From Eridia.|PRE|57717|MS|
-C The Hand of Purification|QID|59147|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|S|MS|
+C The Hand of Purification|QID|59147|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|Cleanse the Temple by killing all the hostile mobs and rescuing the terrified stewards.|EAB|S|MS|
 A An Inspired Moral Inventory|QID|57444|M|54.02,73.95|Z|1533;Bastion!The Shadowlands|N|From Acolyte Galistos.|MS| ; needs to be moved upwards..
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|1533;Bastion!The Shadowlands|N|From The Scroll in front of the Vespar of Harmony.|PRE|57717|MS|
 C An Inspired Moral Inventory|QID|57444|M|57.98,75.81|Z|1533;Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
-C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|1533;Bastion!The Shadowlands|NC|N|Find the scrolls around the area.|S|MS|
-C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|1533;Bastion!The Shadowlands|QO|2|NC|N|Click the bell to cleanse the Vesper of Harmony.|MS|
+C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|1533;Bastion!The Shadowlands|H|N|Find the scrolls around the area.|S|MS|
+C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|1533;Bastion!The Shadowlands|QO|2|H|N|Click the bell to cleanse the Vesper of Harmony.|MS|
 K Fallen Acolyte Erisne|QID|58222|QO|1|RARE|M|60.20,72.99|Z|1533;Bastion!The Shadowlands|N|This silver elite paths around the Vesper of Harmony.|ITEM|180444|ACH|14307;2|
-C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|1533;Bastion!The Shadowlands|NC|QO|1|N|Click the bell to cleanse the Vesper of Purity.|MS|
+C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|1533;Bastion!The Shadowlands|H|QO|1|N|Click the bell to cleanse the Vesper of Purity.|MS|
 $ Vesper of Virtues|QID|62841^60478|M|58.66,71.39|Z|1533;Bastion!The Shadowlands|N|Treasure is an item that buffs and gives small Heal.|ITEM|179982|ACH|14311;2|
-C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|1533;Bastion!The Shadowlands|NC|N|Finish reading the scrolls around the area.|US|MS|
+C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|1533;Bastion!The Shadowlands|H|N|Finish reading the scrolls around the area.|US|MS|
 C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|1533;Bastion!The Shadowlands|T|Forsworn Ascended|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|
-C The Hand of Purification|QID|59147|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|Finish cleansing the temple by killing hostiles and rescuing terrified stewards.|US|MS|
+C The Hand of Purification|QID|59147|M|59.31,77.06|Z|1533;Bastion!The Shadowlands|N|Finish cleansing the temple by killing hostiles and rescuing terrified stewards.|EAB|US|MS|
 T Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|1533;Bastion!The Shadowlands|N|Finish this up before you leave the temple grounds.|TOF|
 T A Once Sweet Sound|QID|57037|M|61.27,74.37|Z|1533;Bastion!The Shadowlands|N|To Eridia.|MS|
 T The Hand of Purification|QID|59147|M|61.27,74.37|Z|1533;Bastion!The Shadowlands|N|To Eridia.|MS|
@@ -285,7 +285,7 @@ T Chasing a Memory|QID|58976|M|54.72,64.14|Z|1533;Bastion!The Shadowlands|N|Trav
 A Directions Not Included|QID|58771|M|54.72,64.14|Z|1533;Bastion!The Shadowlands|N|From Mikanikos.|PRE|58976|MS|
 A The Prime's Directive|QID|58799|M|54.72,64.14|Z|1533;Bastion!The Shadowlands|N|From Mikanikos.|PRE|58976|MS|
 C The Prime's Directive|QID|58799|M|55.83,62.47|Z|1533;Bastion!The Shadowlands|N|Kill mobs till you have all the cores.|S|MS|
-C Directions Not Included|QID|58771|CS|M|55.97,64.05;55.19,62.24;55.84,62.08;55.37,60.75|Z|1533;Bastion!The Shadowlands|NC|N|Click the papers till you find the manual.|MS|
+C Directions Not Included|QID|58771|CS|M|55.97,64.05;55.19,62.24;55.84,62.08;55.37,60.75|Z|1533;Bastion!The Shadowlands|H|N|Click the papers till you find the manual.|MS|
 K Bookkeeper Mnemis|QID|59022|QO|1|M|55.70,61.89|Z|1533;Bastion!The Shadowlands|RARE|ITEM|182682|N|Silver Elite paths in this area.|ACH|14307;21|T|Bookkeeper|
 C The Prime's Directive|QID|58799|M|55.83,62.47|Z|1533;Bastion!The Shadowlands|N|Kill mobs till you have all the cores.|US|MS|
 T Directions Not Included|QID|58771|M|57.17,61.66|Z|1533;Bastion!The Shadowlands|N|To Mikanikos.|MS|
@@ -295,37 +295,39 @@ C The Mnemonic Locus|QID|58800|M|57.37,61.76|Z|1533;Bastion!The Shadowlands|NC|N
 T The Mnemonic Locus|QID|58800|M|57.54,61.83|Z|1533;Bastion!The Shadowlands|N|To Mikanikos.|MS|
 A What's In a Memory?|QID|58977|M|57.54,61.83|Z|1533;Bastion!The Shadowlands|N|From Mikanikos.|PRE|58800|MS|
 C What's In a Memory?|QID|58977|M|57.54,61.83|QO|1|Z|1533;Bastion!The Shadowlands|CHAT|N|Tell Mikanikos you are ready.|MS|
-C What's In a Memory?|QID|58977|M|PLAYER|QO|2|Z|1533;Bastion!The Shadowlands|N|kill the hostiles to collect the memories.|MS|
-C What's In a Memory?|QID|58977|M|57.61,61.70|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click the Fragment of Lysonia.|MS|
+C What's In a Memory?|QID|58977|M|PLAYER|QO|2|Z|1533;Bastion!The Shadowlands|N|Kill the hostiles to collect the memories.|MS|
+C What's In a Memory?|QID|58977|M|57.61,61.70|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Click the Fragment of Lysonia.|MS|
 T What's In a Memory?|QID|58977|M|57.51,61.72|Z|1533;Bastion!The Shadowlands|N|To Kleia.|MS|
 A Lysonia's Truth|QID|58978|M|57.51,61.72|Z|1533;Bastion!The Shadowlands|N|From Kleia.|PRE|58977|MS|
-A Hostile Recollection|QID|59015^62735|M|57.98,64.22|Z|1533;Bastion!The Shadowlands|N|Bonus Objective - Autoaccepted.|RANK|2|
-C Hostile Recollection|QID|59015^62735|M|PLAYER|Z|1533;Bastion!The Shadowlands|N|Kill enemies as you go, click on things laying around, and set the purian you picked up on the ground near misled stewards.|S!US|U|178915|
-C Lysonia's Truth|QID|58978|M|58.09,64.43|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the Soul Mirror.|MS|
-C Lysonia's Truth|QID|58978|M|58.93,62.72|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the Soul Mirror.|MS|
-C Lysonia's Truth|QID|58978|M|59.52,59.64|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click the Soul Mirror.|MS|
-C Lysonia's Truth|QID|58978|M|57.17,54.41|QO|4|Z|1533;Bastion!The Shadowlands|NC|N|Click the Soul Mirror.|MS|
+;A Hostile Recollection|QID|59015^62735|M|57.98,64.22|Z|1533;Bastion!The Shadowlands|N|Bonus Objective - Autoaccepted.|RANK|2|
+C Hostile Recollection|QID|59015^62735|M|PLAYER|Z|1533;Bastion!The Shadowlands|N|Kill enemies as you go, click on things laying around, and set the purian you picked up on the ground near misled stewards.|S!US|U|178150|
+C Lysonia's Truth|QID|58978|M|58.09,64.43|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click the Soul Mirror.|MS|
+C Lysonia's Truth|QID|58978|M|58.93,62.72|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Click the Soul Mirror.|MS|
+C Lysonia's Truth|QID|58978|M|59.52,59.64|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Click the Soul Mirror.|MS|
+C Lysonia's Truth|QID|58978|M|57.17,54.41|QO|4|Z|1533;Bastion!The Shadowlands|H|N|Click the Soul Mirror.|MS|
 T Lysonia's Truth|QID|58978|M|57.25,55.36|Z|1533;Bastion!The Shadowlands|N|To Mikanikos.|MS|
 A I MADE You!|QID|58979|M|57.25,55.36|Z|1533;Bastion!The Shadowlands|N|From Mikanikos.|PRE|58978|MS|
 C I MADE You!|QID|58979|M|57.25,55.36|QO|1|Z|1533;Bastion!The Shadowlands|CHAT|N|Speak to Mikanikos.|MS|
 C I MADE You!|QID|58979|M|57.22,54.95|QO|2|Z|1533;Bastion!The Shadowlands|N|Locus-Keeper Mnemis defeated.|MS|
 T I MADE You!|QID|58979|M|57.26,55.26|Z|1533;Bastion!The Shadowlands|N|To Locus-Keeper Mnemis.|MS|
 A Mnemis, At Your Service|QID|58980|M|57.26,55.26|Z|1533;Bastion!The Shadowlands|N|From Locus-Keeper Mnemis.|PRE|58979|MS|
-C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
+C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
+C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Loot the chest.|MS|
 ;$ Lost Disciple's Notes|QID|61048|M|59.33,60.92|Z|1533;Bastion!The Shadowlands|N|Treasure for you. Midway down waterfall on a rock.|ACH|14311;4
 A You'll Never Walk Alone|QID|62170|M|59.33,60.92|N|From Lost Disciple's Notes found midway down waterfall.|RANK|2|;$
-C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|4|Z|1533;Bastion!The Shadowlands|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
-C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|1533;Bastion!The Shadowlands|N|Finish repelling the threat before turning in the next quest if you like having Kleia tanking for you.|US|
-t Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|1533;Bastion!The Shadowlands|N|Auto Turn-in.|
+C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
+C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|4|Z|1533;Bastion!The Shadowlands|H|N|Loot the chest.|MS|
+C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|1533;Bastion!The Shadowlands|N|Finish repelling the threat before turning in the next quest if you like having Kleia tanking for you.|US|U|178150|
+;t Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|1533;Bastion!The Shadowlands|N|Auto Turn-in.|
 T Mnemis, At Your Service|QID|58980|M|58.87,65.25|Z|1533;Bastion!The Shadowlands|N|To Locus-Keeper Mnemis.|MS|
 A The Vault of the Archon|QID|58843|M|58.87,65.25|Z|1533;Bastion!The Shadowlands|N|From Locus-Keeper Mnemis.|PRE|58980|MS|
-C The Vault of the Archon|QID|58843|M|58.87,65.25|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the two Vault Guardian statues behind you to gain entry.|MS|
+C The Vault of the Archon|QID|58843|M|58.87,65.25|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click the two Vault Guardian statues behind you to gain entry.|MS|
 C The Vault of the Archon|QID|58843|M|57.93,68.58|QO|2|Z|1533;Bastion!The Shadowlands|CHAT|N|Run into the vault, talk with Mikanikos once you find him toward the back.|MS|
 C The Vault of the Archon|QID|58843|M|57.70,67.16|QO|3|Z|1533;Bastion!The Shadowlands|N|Help Kleia kill the waves of enemies attacking her.|MS|
 C The Vault of the Archon|QID|58843|M|56.16,67.64|QO|4|Z|1533;Bastion!The Shadowlands|NC|N|Go down the tunnel into the inner vault.|MS|
 T The Vault of the Archon|QID|58843|M|56.16,67.64|Z|1533;Bastion!The Shadowlands|N|To Locus-Keeper Mnemis.|MS|
 A A Paragon's Reflection|QID|60180|M|56.16,67.64|Z|1533;Bastion!The Shadowlands|N|From Locus-Keeper Mnemis.|PRE|58843|MS|
-C A Paragon's Reflection|QID|60180|M|PLAYER|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the eyes around the room.|MS|
+C A Paragon's Reflection|QID|60180|M|55.73,68.12|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click the eye next to the big statue.|MS|
 T A Paragon's Reflection|QID|60180|M|56.16,67.64|Z|1533;Bastion!The Shadowlands|N|To Locus-Keeper Mnemis.|MS|
 A Leave it to Mnemis|QID|60013|M|56.16,67.64|Z|1533;Bastion!The Shadowlands|N|From Locus-Keeper Mnemis.|PRE|60180|MS|
 C Leave it to Mnemis|QID|60013|M|57.70,67.17|Z|1533;Bastion!The Shadowlands|NC|N|Click the transport pad.|MS|
@@ -334,27 +336,27 @@ A Go in Service|QID|59196|M|54.42,64.27|Z|1533;Bastion!The Shadowlands|N|From Kl
 R Hero's Rest|ACTIVE|59196|CS|M|52.75,62.42;55.97,52.75|Z|1533;Bastion!The Shadowlands|N|Follow the road northeast to the anima gateway, click it to be transported into Hero's Rest.|RANK|-1|
 
 ; Side Quest stuff - In Agthia's Memory
-C More Than A Gift|QID|62715|M|45.56,59.70|Z|1533;Bastion!The Shadowlands|NC|N|Follow the road northwest to find Amalthina's flower.|
+C More Than A Gift|QID|62715|M|45.56,59.70|Z|1533;Bastion!The Shadowlands|H|N|Follow the road northwest to find Amalthina's flower.|
 A A Fine Journey|QID|59554|M|45.28,59.85|Z|1533;Bastion!The Shadowlands|N|From the scroll on the pillar.|RANK|2|
 R Agthia's Repose|ACTIVE|59554|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|Follow the path up the hill to Agthia's Repose.|
 T A Fine Journey|QID|59554|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|To Keeper Mnemis.|
 K Vesper Repair: Sophia's Aria|QID|58319|M|51.46,68.61|Z|1533;Bastion!The Shadowlands|T|Nikara Blackheart|N|Need 3 player to summon (either Faction), Each of you must click the Ancient Incense on the blue platforms.  Once started Sophia arrives to tune the vesper, 3 waves, low level, elites, then rare.|ITEM|183608|RARE|ACH|14307;8|  ; QID|63411| is when you kill Nikara, QID in line is when looting chest.
-A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|From Keeper Mnemis.|PRE|59554|LVL|52|RANK|2|
-C In Agthia's Memory|QID|57549|M|47.45,66.05|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the bell, kill a few things.|
-C In Agthia's Memory|QID|57549|M|44.84,68.75|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the scroll and then help her.|
-C In Agthia's Memory|QID|57549|M|44.68,64.37|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click the scroll.|
+A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|From Keeper Mnemis.|PRE|59554|RANK|2|
+C In Agthia's Memory|QID|57549|M|47.45,66.05|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click the bell, kill a few things.|
+C In Agthia's Memory|QID|57549|M|44.84,68.75|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Click the scroll and then help her.|
+C In Agthia's Memory|QID|57549|M|44.68,64.37|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Click the scroll.|
 T In Agthia's Memory|QID|57549|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|To Keeper Mnemis.|
 A Agthia's Path|QID|57551|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|From Keeper Mnemis.|PRE|57549|RANK|2|
-C Agthia's Path|QID|57551|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|NC|N|Click the bell right next to you.|
+C Agthia's Path|QID|57551|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|H|N|Click the bell right next to you.|
 T Agthia's Path|QID|57551|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|N|To Agthia.|
 A Warriors of the Void|QID|57552|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|N|From Agthia.|PRE|57551|RANK|2|
 A Wicked Gateways|QID|57554|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|N|From Agthia.|PRE|57551|RANK|2|
 N Witness the Past |QID|57553|M|47.00,63.38|Z|1533;Bastion!The Shadowlands|N|You need to have take on the guise of a kyrian in battle from eons ago to continue. Click on the Vesper of History to acquire this buff.|PRE|57551|RANK|2|BUFF|308243^308239^345527|
 A On Wounded Wings|QID|57553|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|N|From Agthian Defender.|PRE|57551|RANK|2|
 C Warriors of the Void|QID|57552|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|N|Kill all the mobs. There are scattered spears on the ground that are worth picking up and using for the AE Damage.|S|
-C On Wounded Wings|QID|57553|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|NC|N|Click the Wounded Defenders to heal them.|S|
-C Wicked Gateways|QID|57554|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|NC|N|Click the void portals to close them.|
-C On Wounded Wings|QID|57553|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|NC|N|Click the Wounded Defenders to heal them.|US|
+C On Wounded Wings|QID|57553|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|H|N|Click the Wounded Defenders to heal them.|S|
+C Wicked Gateways|QID|57554|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|H|N|Click the void portals to close them.|
+C On Wounded Wings|QID|57553|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|H|N|Click the Wounded Defenders to heal them.|US|
 C Warriors of the Void|QID|57552|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|N|Kill all the mobs.|US|
 T Warriors of the Void|QID|57552|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|N|To Agthia.|
 T Wicked Gateways|QID|57554|M|46.59,63.37|Z|1533;Bastion!The Shadowlands|N|To Agthia.|
@@ -363,7 +365,7 @@ A Shadow's Fall|QID|57555|M|46.96,63.44|Z|1533;Bastion!The Shadowlands|N|From Ag
 C Shadow's Fall|QID|57555|M|44.86,68.68|Z|1533;Bastion!The Shadowlands|N|Kill Tezulat the Annihilator, the big void guy.|T|Tezulat the Annihilator|
 $ Worthy Aspirant's Cache|QID|61091|M|46.98,63.43|Z|1533;Bastion!The Shadowlands|N|Challenge Echo of Aella to a fight.(paths around this area), After dueling, he leaves behind a treasure for you. Check off manually if you can't find him or don't want to wait.|ITEM|180062|RARE|RANK|2|ACH|14307;23|
 T Shadow's Fall|QID|57555|M|46.99,63.45|Z|1533;Bastion!The Shadowlands|N|To Keeper Mnemis.|
-K Basilofos, King of the Hill|QID|62158|QO|1|M|48.48,50.17|Z|1533;Bastion!The Shadowlands|T|Basilofos|N|Move around this area until you get a Mark above you that looks like "Purple Eyes".\nKeep it for a while, then the rare's mark will appear on map.  About 30 seconds later, the mob will fly down.\nInterupt: Call Packmate|ITEM|182655|RARE|ACH|14307;11|  ; or qid 60897 ?  both show up in QuestChanged.
+K Basilofos, King of the Hill|QID|62158|QO|1|M|48.48,50.17|Z|1533;Bastion!The Shadowlands|T|Basilofos|N|Move around this area until you get a Mark above you that looks like "Purple Eyes".\nKeep it for a while, then the rare's mark will appear on map.  About 30 seconds later, the mob will fly down.\nInterupt: Call Packmate|RARE|ACH|14307;11|  ; or qid 60897 ?  both show up in QuestChanged.
 
 ; Side Quest stuff - In the Garden of Respite
 A Garden in Turmoil|QID|57529|LEAD|57538|M|52.34,61.38|Z|1533;Bastion!The Shadowlands|N|From Tamesis.|RANK|2|
@@ -371,16 +373,16 @@ T Garden in Turmoil|QID|57529|M|51.34,59.57|Z|1533;Bastion!The Shadowlands|N|To 
 A Disturbing the Peace|QID|57538|M|51.34,59.57|Z|1533;Bastion!The Shadowlands|N|From Zosime.|RANK|2|
 A Distractions for Kala|QID|57545|M|51.34,59.57|Z|1533;Bastion!The Shadowlands|N|From Zosime.|RANK|2|
 C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|1533;Bastion!The Shadowlands|N|Kill the Anima-Starved creatures in the area.|S|
-C Disctractions for Kala|QID|57545|M|49.62,60.00|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the teddy bear on the ground.|
-C Disctractions for Kala|QID|57545|M|51.10,58.75|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click on the ball on the ground.|
-C Disctractions for Kala|QID|57545|M|52.84,58.17|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click the pillow on the ground.|
+C Disctractions for Kala|QID|57545|M|49.62,60.00|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Click the teddy bear on the ground.|
+C Disctractions for Kala|QID|57545|M|51.10,58.75|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click on the ball on the ground.|
+C Disctractions for Kala|QID|57545|M|52.84,58.17|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Click the pillow on the ground.|
 K Cloudfeather Guardian|QID|60978|QO|1|M|50.82,58.28|Z|1533;Bastion!The Shadowlands|RARE|ITEM|180812|N|Kill Anima Starved Wyrm's in the area, until he comes and lands beside you then kill him.|ACH|14307;13|
 C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|1533;Bastion!The Shadowlands|N|Kill the Anima-Starved creatures in the area.|US|
 T Disturbing the Peace|QID|57538|M|51.33,59.56|Z|1533;Bastion!The Shadowlands|N|To Zosime.|
 T Distractions for Kala|QID|57545|M|51.33,59.56|Z|1533;Bastion!The Shadowlands|N|To Zosime.|
 A A Test of Courage|QID|57547|M|51.33,59.56|Z|1533;Bastion!The Shadowlands|N|From Zosime.|PRE|57538&57545|RANK|2|
 R Korinna's Reliquary|ACTIVE|57547|M|51.19,56.41|Z|1533;Bastion!The Shadowlands|N|Run across the Garden of Respite into Korinna's Reliquary.|
-C A Test of Courage|QID|57547|M|51.84,54.69|QO|1|NC|Z|1533;Bastion!The Shadowlands|N|Hit that little bell.|
+C A Test of Courage|QID|57547|M|51.84,54.69|QO|1|H|Z|1533;Bastion!The Shadowlands|N|Hit that little bell.|
 C A Test of Courage|QID|57547|M|51.84,54.69|QO|2|Z|1533;Bastion!The Shadowlands|N|Defend Zosime from waves of attackers.|
 T A Test of Courage|QID|57547|M|51.19,56.78|Z|1533;Bastion!The Shadowlands|N|To Zosime.|
 A Tough Love|QID|57568|M|51.19,56.78|Z|1533;Bastion!The Shadowlands|N|From Zosime.|PRE|57547|RANK|2|
@@ -404,7 +406,7 @@ C Steward at Work|QID|59197|M|PLAYER|Z|1533;Bastion!The Shadowlands|QO|2|CHAT|N|
 h Hero's Rest|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|1533;Bastion!The Shadowlands|N|To shorten the run later, set your Hearth at Inkiep.|
 T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|1533;Bastion!The Shadowlands|N|To Inkiep|IZ|11381|
 T Functioning Anima Core|QID|62200|M|51.12,46.79|Z|1533;Bastion!The Shadowlands|N|To Kalisthene|IZ|11381|
-C Steward at Work|QID|59197|M|53.24,46.82|Z|1533;Bastion!The Shadowlands|QO|3|NC|N|Click to activate the Beacon of Invocation.|MS|
+C Steward at Work|QID|59197|M|53.24,46.82|Z|1533;Bastion!The Shadowlands|QO|3|H|N|Click to activate the Beacon of Invocation.|MS|
 
 A WANTED: Gorgebeak|QID|60315|M|53.27,46.43|Z|1533;Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
 A WANTED: Darkwing|QID|60366|M|53.27,46.43|Z|1533;Bastion!The Shadowlands|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
@@ -417,7 +419,7 @@ H Hero's Rest|ACTIVE|59197^59198|M|48.13,74.16|Z|1533;Bastion!The Shadowlands|N|
 ; Your Personal Assistant Storyline continues
 T Steward at Work|QID|59197|M|52.86,45.66|Z|1533;Bastion!The Shadowlands|N|To Polemarch Adrestes.|MS|
 A On Swift Wings|QID|59198|M|52.86,45.66|Z|1533;Bastion!The Shadowlands|N|From Polemarch Adrestes.|PRE|59197|MS|
-L Nearly Level 53|QID|60005|M|PLAYER|LVL|52;-9000|N|You need to be less than 9000 points from 53 before you fly away or you won't be able to do the last quest in Elysian Hold. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
+;L Nearly Level 53|QID|60005|M|PLAYER|LVL|52;-9000|N|You need to be less than 9000 points from 53 before you fly away or you won't be able to do the last quest in Elysian Hold. So, go do a sidequest, rare, dungeon, something to get a little more XP first.|
 C On Swift Wings|QID|59198|M|52.86,45.66|Z|1533;Bastion!The Shadowlands|CHAT|N|Speak to Polemarch Adrestes for a ride to Elysian Hold.|MS|
 f Elysian Hold|ACTIVE|59198|M|50.96,49.08|Z|1707|N|At Cassius.|MS|
 T On Swift Wings|QID|59198|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|MS|
@@ -425,15 +427,15 @@ A Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|From Polemarch Adres
 C Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|CHAT|N|Speak to Polemarch Adrestes.|MS|
 T Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|MS|
 A The Wards of Bastion|QID|59200|M|55.49,42.17|Z|1707|N|From Polemarch Adrestes.|PRE|59199|MS|
-C Ward of Purity|QID|59200|M|52.11,78.70|Z|1707|QO|1|NC|N|Check Ward of Purity.|MS|
-C Ward of Loyalty|QID|59200|M|53.99,75.70|Z|1707|QO|4|NC|N|Check Ward of Loyalty.|MS|
-C Ward of Humility|QID|59200|M|58.79,88.12|Z|1707|QO|2|NC|N|Check Ward of Humility.|MS|
-C Ward of Wisdom|QID|59200|M|59.38,89.15|Z|1707|QO|3|NC|N|Check Ward of Wisdom .|MS|
-C Ward of Courage|QID|59200|M|61.03,85.90|Z|1707|QO|5|NC|N|Check Ward of Courage.|MS|
+C Ward of Purity|QID|59200|M|52.11,78.70|Z|1707|QO|1|H|N|Check Ward of Purity.|MS|
+C Ward of Loyalty|QID|59200|M|53.99,75.70|Z|1707|QO|4|H|N|Check Ward of Loyalty.|MS|
+C Ward of Humility|QID|59200|M|58.79,88.12|Z|1707|QO|2|H|N|Check Ward of Humility.|MS|
+C Ward of Wisdom|QID|59200|M|59.38,89.15|Z|1707|QO|3|H|N|Check Ward of Wisdom .|MS|
+C Ward of Courage|QID|59200|M|61.03,85.90|Z|1707|QO|5|H|N|Check Ward of Courage.|MS|
 T The Wards of Bastion|QID|59200|M|55.48,42.12|Z|1707|N|To Polemarch Adrestes.|MS|
 
 ; Time for Courage Storyline
-A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|PRE|59200|MS|LVL|53|
+A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|PRE|59200|MS|
 C Imminent Danger|QID|60005|M|51.10,48.82|Z|1707|CHAT|N|Speak to Cassius for a flight to the Temple of Courage.|MS|
 T Imminent Danger|QID|60005|M|41.79,55.18|Z|1533;Bastion!The Shadowlands|N|To Thanikos.|MS|
 R Xandria's Vigil|QID|62736|M|41.79,55.19|Z|1533;Bastion!The Shadowlands|N|Take the west exit out of Hero's Rest and run generally west towards Xandria's Vigil.|TOF|
@@ -446,22 +448,22 @@ T Now or Never|QID|60006|M|40.61,55.20|Z|1533;Bastion!The Shadowlands|N|To Thani
 A Rip and Tear|QID|60008|M|40.61,55.20|Z|1533;Bastion!The Shadowlands|N|From Thanikos.|PRE|60006|MS|
 A Stay Scrappy|QID|60007|M|40.72,55.48|Z|1533;Bastion!The Shadowlands|N|From Mikanikos.|PRE|60006|MS|
 A Fight Another Day|QID|60009|M|41.30,54.36|Z|1533;Bastion!The Shadowlands|N|From Disciple Apolon.|PRE|60006|MS|
+t Rip and Tear|QID|60008|M|PLAYER|Z|1533;Bastion!The Shadowlands|N|To Thanikos.|MS|
 C Rip and Tear|QID|60008|M|40.25,51.07|Z|1533;Bastion!The Shadowlands|N|Kill all the hostile mobs.|S|MS|
-C Fight Another Day|QID|60009|M|40.25,51.07|Z|1533;Bastion!The Shadowlands|NC|N|Free the Ascended.|S|MS|
-C Stay Scrappy|QID|60007|M|40.76,52.21|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click on the Anima Conflux.|MS|
+C Fight Another Day|QID|60009|M|40.25,51.07|Z|1533;Bastion!The Shadowlands|H|N|Free the Ascended.|S|MS|
+C Stay Scrappy|QID|60007|M|40.76,52.21|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click on the Anima Conflux.|MS|
 $ Stolen Equipment|QID|61044|M|40.51,49.81|Z|1533;Bastion!The Shadowlands|N|Click for another of the treasures of Bastion.|ACH|14311;6|
-C Stay Scrappy|QID|60007|M|39.48,48.99|QO|3|Z|1533;Bastion!The Shadowlands|NC|N|Click the Archonic Resonator.|MS|
-C Stay Scrappy|QID|60007|M|39.69,52.66|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the Eternity Plating.|MS|
-C Fight Another Day|QID|60009|M|40.25,51.07|Z|1533;Bastion!The Shadowlands|NC|N|Free the Ascended.|US|MS|
+C Stay Scrappy|QID|60007|M|39.48,48.99|QO|3|Z|1533;Bastion!The Shadowlands|H|N|Click the Archonic Resonator.|MS|
+C Stay Scrappy|QID|60007|M|39.69,52.66|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Click the Eternity Plating.|MS|
+C Fight Another Day|QID|60009|M|40.25,51.07|Z|1533;Bastion!The Shadowlands|H|N|Free the Ascended.|US|MS|
 C Rip and Tear|QID|60008|M|40.25,51.07|Z|1533;Bastion!The Shadowlands|N|Kill all the hostile mobs.|US|MS|
-T Rip and Tear|QID|60008|M|PLAYER|Z|1533;Bastion!The Shadowlands|N|To Thanikos.|MS|
 T Fight Another Day|QID|60009|M|41.30,54.42|Z|1533;Bastion!The Shadowlands|N|To Disciple Apolon.|MS|
 T Stay Scrappy|QID|60007|M|40.72,55.48|Z|1533;Bastion!The Shadowlands|N|To Mikanikos.|MS|
 A Clear as Crystal|QID|60053|M|40.72,55.48|Z|1533;Bastion!The Shadowlands|N|From Mikanikos.|PRE|60007&60008&60009|MS|
 A Double Tap|QID|60052|M|PLAYER|Z|1533;Bastion!The Shadowlands|N|From Thanikos.|PRE|60007&60008&60009|MS|
-C Clear as Crystal|QID|60053|M|40.33,57.85|Z|1533;Bastion!The Shadowlands|NC|N|Click on the green crystlas littered around to empower the anima conflux.|S|MS|
+C Clear as Crystal|QID|60053|M|40.33,57.85|Z|1533;Bastion!The Shadowlands|H|N|Click on the green crystlas littered around to empower the anima conflux.|S|MS|
 C Double Tap|QID|60052|M|40.33,57.85|Z|1533;Bastion!The Shadowlands|N|Kill the mobs then use the Archonic Resonator crystal to burn the bodies.|U|178140|MS|
-C Clear as Crystal|QID|60053|M|40.33,57.85|Z|1533;Bastion!The Shadowlands|NC|N|Click on the green crystlas littered around to empower the anima conflux.|US|MS|
+C Clear as Crystal|QID|60053|M|40.33,57.85|Z|1533;Bastion!The Shadowlands|H|N|Click on the green crystlas littered around to empower the anima conflux.|US|MS|
 T Clear as Crystal|QID|60053|M|39.78,55.17|Z|1533;Bastion!The Shadowlands|N|To Mikanikos|MS|
 T Double Tap|QID|60052|M|39.48,55.25|Z|1533;Bastion!The Shadowlands|N|To Thanikos.|MS|
 A The Final Countdown|QID|60054|M|39.48,55.25|Z|1533;Bastion!The Shadowlands|N|From Thanikos.|PRE|60052|MS|
@@ -492,24 +494,24 @@ A Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|1533;Bastion!The Shadowlands|N|F
 A Resource Drain|QID|57932|M|54.79,41.24|Z|1533;Bastion!The Shadowlands|N|From Hopo.|PRE|59674|RANK|2|
 R The Golden Pasture|ACTIVE|57932|M|56.62,43.17|Z|1533;Bastion!The Shadowlands|N|Run down into the Golden Pasture to find Gatamatos and the Gilded Cloudstriders.|
 C Resource Drain|QID|57932|M|56.17,45.56|Z|1533;Bastion!The Shadowlands|N|Use the item provided on Gilded Cloudstrider.|S|U|173691|
-C Phalynx Malfunction|QID|57931|M|54.89,43.58|Z|1533;Bastion!The Shadowlands|QO|1|NC|N|Click on Gatamatos.|
+C Phalynx Malfunction|QID|57931|M|54.89,43.58|Z|1533;Bastion!The Shadowlands|QO|1|H|N|Click on Gatamatos.|
 C Resource Drain|QID|57932|M|56.17,45.56|Z|1533;Bastion!The Shadowlands|N|Use the item on the deer.|US|U|173691|
-C Phalynx Malfunction|QID|57931|M|55.39,42.04|Z|1533;Bastion!The Shadowlands|QO|2|NC|N|Bring Gatamatos to the pedestal. You will have to periodically click to reactivate them as you run up.|
+C Phalynx Malfunction|QID|57931|M|55.39,42.04|Z|1533;Bastion!The Shadowlands|QO|2|H|N|Bring Gatamatos to the pedestal. You will have to periodically click to reactivate them as you run up.|
 T Resource Drain|QID|57932|M|54.78,41.25|Z|1533;Bastion!The Shadowlands|N|To Hopo.|
 T Phalynx Malfunction|QID|57931|M|54.78,41.17|Z|1533;Bastion!The Shadowlands|N|To Pelodis.|
 A We Can Rebuild Him|QID|57933|M|54.78,41.17|Z|1533;Bastion!The Shadowlands|N|From Pelodis.|PRE|57932^57931|RANK|2|
-C We Can Rebuild Him|QID|57933|M|55.34,42.00|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click the kitty.|
-C We Can Rebuild Him|QID|57933|M|54.62,40.44|QO|2|Z|1533;Bastion!The Shadowlands|NC|N|Click the platform.|
-C We Can Rebuild Him 3|QID|57933|QO|3;5|CS|M|54.50,41.57;54.62,40.44|Z|1533;Bastion!The Shadowlands|S|NC|N|Click on the engineers, and armour pieces around the area.|
-C We Can Rebuild Him|QID|57933|CS|M|54.47,41.37;54.62,40.44|Z|1533;Bastion!The Shadowlands|QO|4|NC|N|Click on the barrel and bring it back to beside the build rig.|
-C We Can Rebuild Him 3|QID|57933|QO|3;5|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|Z|1533;Bastion!The Shadowlands|US|NC|N|Finish gathering the engineers and armor pieces and bring all back to the platform.|
-C We Can Rebuild Him|QID|57933|M|54.49,40.38|QO|6|Z|1533;Bastion!The Shadowlands|NC|N|Place all the armor scraps.|
+C We Can Rebuild Him|QID|57933|M|55.34,42.00|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click the kitty.|
+C We Can Rebuild Him|QID|57933|M|54.62,40.44|QO|2|Z|1533;Bastion!The Shadowlands|H|N|Click the platform.|
+C We Can Rebuild Him 3|QID|57933|QO|3;5|CS|M|54.50,41.57;54.62,40.44|Z|1533;Bastion!The Shadowlands|S|H|N|Click on the engineers, and armour pieces around the area.|
+C We Can Rebuild Him|QID|57933|CS|M|54.47,41.37;54.62,40.44|Z|1533;Bastion!The Shadowlands|QO|4|H|N|Click on the barrel and bring it back to beside the build rig.|
+C We Can Rebuild Him 3|QID|57933|QO|3;5|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|Z|1533;Bastion!The Shadowlands|US|H|N|Finish gathering the engineers and armor pieces and bring all back to the platform.|
+C We Can Rebuild Him|QID|57933|M|54.49,40.38|QO|6|Z|1533;Bastion!The Shadowlands|H|N|Place all the armor scraps.|
 C We Can Rebuild Him|QID|57933|M|54.71,40.40|QO|7|Z|1533;Bastion!The Shadowlands|CHAT|N|Talk to Pelodis.|
 T We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|1533;Bastion!The Shadowlands|N|To Pelodis.|
 A Combat Drills|QID|57934|M|54.81,41.19|Z|1533;Bastion!The Shadowlands|N|From Pelodis.|PRE|57933|RANK|2|
-A Laser Location|QID|57935|M|55.93,47.21|Z|1533;Bastion!The Shadowlands|N|From Pelodis.|PRE|57933|RANK|2|
+A Laser Location|QID|57935|M|54.81,41.19|Z|1533;Bastion!The Shadowlands|N|From Pelodis.|PRE|57933|RANK|2|
 A Superior Programming|QID|57936|M|54.78,41.25|Z|1533;Bastion!The Shadowlands|N|From Hopo.|PRE|57933|RANK|2|
-C Combat Drills|QID|57934|M|55.35,42.02|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click on Gatamatos.|
+C Combat Drills|QID|57934|M|55.35,42.02|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click on Gatamatos.|
 C Laser Location|QID|57935|M|55.78,42.59|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click on Gatamatos.|
 C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|1533;Bastion!The Shadowlands|N|Kill the Etherwyrms with Gatamatos at your side.|S|
 R Hall of Beasts|ACTIVE|57935|CS|M|56.71,42.68;56.13,40.28|Z|1533;Bastion!The Shadowlands|N|Run into the Hall of Beasts.|
@@ -524,18 +526,19 @@ T Superior Programming|QID|57936|M|54.81,41.19|Z|1533;Bastion!The Shadowlands|N|
 T Combat Drills|QID|57934|M|54.81,41.19|Z|1533;Bastion!The Shadowlands|N|To Pelodis.|
 T Laser Location|QID|57935|M|54.81,41.19|Z|1533;Bastion!The Shadowlands|N|To Pelodis.|
 A Tactical Formation|QID|57937|M|54.80,41.16|Z|1533;Bastion!The Shadowlands|N|From Pelodis.|PRE|57934&57935&57936|RANK|2|
-C Tactical Formation|QID|57937|M|55.37,42.01|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Gatamatos retrieved.|
-C Tactical Formation|QID|57937|M|55.10,41.61|Z|1533;Bastion!The Shadowlands|NC|N|Pick the Correct Gatamatos image to make the requested formation.|
+C Tactical Formation|QID|57937|M|55.37,42.01|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Gatamatos retrieved.|
+C Tactical Formation|QID|57937|M|55.10,41.61|QO|2;3;4|Z|1533;Bastion!The Shadowlands|H|N|Pick the Correct Gatamatos image to make the requested formation.|
+C Tactical Formation|QID|57937|M|55.37,42.01|QO|5|Z|1533;Bastion!The Shadowlands|H|N|Gatamatos returned.|
 T Tactical Formation|QID|57937|M|54.80,41.16|Z|1533;Bastion!The Shadowlands|N|To Pelodis.|
 A Antiquated Methodology|QID|58184|M|54.80,41.16|Z|1533;Bastion!The Shadowlands|N|From Pelodis.|AVAILABLE|58037|PRE|57937|RANK|2|
 t Antiquated Methodology|QID|58184|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|N|To Nemea.|
 A Part of the Pride|QID|58037|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|N|From Nemea.|PRE|59674|RANK|2|
-C Part of the Pride|QID|58037|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|NC|N|Click on the flying lions.|
+C Part of the Pride|QID|58037|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|H|N|Click on the flying lions.|
 T Part of the Pride|QID|58037|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|N|To Nemea.|
 A Larion at Large|QID|58039|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|N|From Nemea.|PRE|58037|RANK|2|
 A All Natural Chews|QID|58038|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|N|From Nemea.|PRE|58037|RANK|2|
 C All Natural Chews|QID|58038|M|56.17,45.56|Z|1533;Bastion!The Shadowlands|N|Kill the cloudstriders in the area.|S|
-C Larion at Large|QID|58039|QO|1|M|56.00,44.18|Z|1533;Bastion!The Shadowlands|NC|N|Follow Andira till she stops moving and then click on her to remove the thorn.|
+C Larion at Large|QID|58039|QO|1|M|56.00,44.18|Z|1533;Bastion!The Shadowlands|H|N|Follow Andira till she stops moving and then click on her to remove the thorn.|
 C Larion at Large|QID|58039|QO|2|M|57.18,39.40|NC|Z|1533;Bastion!The Shadowlands|N|Bring Andira back.|
 C All Natural Chews|QID|58038|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|N|Kill the cloudstriders in the area.|US|
 T All Natural Chews|QID|58038|M|57.26,39.24|Z|1533;Bastion!The Shadowlands|N|To Nemea.|
