@@ -126,6 +126,12 @@ C Pa'ku, Master of Winds|QID|47440|M|70.45,49.07|QO|1|V|N|Ride Ata the Winglord.
 C Pa'ku, Master of Winds|QID|47440|M|71.48,49.34|QO|2|CHAT|N|Attempt to bargain with Pa'ku.|
 C Pa'ku, Master of Winds|QID|47440|M|71.06,49.16|QO|3|NC|N|Jump off the cliff.|
 T Pa'ku, Master of Winds|QID|47440|M|49.92,33.38|Z|Dazar'alor|N|To Hexlord Raal.|
+
+F The Sliver|ACTIVE|47439|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|-Garden of the Loa|
+F Garden of the Loa|ACTIVE|47439|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|Garden of the Loa|
+R Garden of the Loa|ACTIVE|47439|M|35.47,4.88;52.40,30.70|CS|N|Run generally NW, up the stairs, through The Zocalo and out of the city.|
+C Gonk, Lord of the Pack|QID|47439|M|48.19,32.27|QO|1|CHAT|N|Tell Gonk you will bargain.|
+
 A The Bargain is Struck|QID|47432|M|49.92,33.38|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47440|
 R Flightmaster, The Great Seal|ACTIVE|47432|M|49.54,32.83;49.91,39.56|CS|Z|Dazar'alor|TZ|Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster area.|
 H The Great Seal|ACTIVE|47439|M|48.78,71.83|Z|The Great Seal!Dazar'alor|N|Use your hearthstone (or run) to return to the Great Seal.|
@@ -222,7 +228,8 @@ R The Golden Throne|ACTIVE|50881|M|74.39,72.17;68.22,59.67|Z|Hall of Croniclers!
 T Royal Report|QID|50881|M|50.02,46.55|Z|Dazar'alor|N|To Habutu.|
 T False Prophecies|QID|49663|M|49.92,46.66|Z|Dazar'alor|N|To King Rastakhan.|
 T The Bargain is Struck|QID|47432|M|49.92,46.66|Z|Dazar'alor|N|To King Rastakhan.|
-A A Port in Peril|QID|49122|M|49.92,46.66|Z|Dazar'alor|N|From King Rastakhan.|PRE|50881|
+A A Port in Peril|QID|49122|M|49.92,46.66|Z|Dazar'alor|N|From King Rastakhan.|PRE|50881&47440|
+A A Port in Peril|QID|49122|M|49.92,46.66|Z|Dazar'alor|N|From King Rastakhan.|PRE|50881&47439|
 A The Missing Handler|QID|50538|M|67.17,71.58|Z|Hall of Croniclers!Dazar'alor|N|Back down the elevator, from Natal'hakata.|RANK|2|PRE|50881|LEAD|47226|
 F Port of Zandalar|ACTIVE|50538|M|51.92,41.21|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|
 R Slough|ACTIVE|50538|M|50.54,73.74;60.69,64.51|Z|Dazar'alor|CS|N|Head up the stairs into the Terrace of the Speakers and turn right at the second landing. Continue climbing stairs until you reach the arch.| ; Name changed to prevent auto-complete during flight - Hendo72
@@ -251,11 +258,11 @@ A Direhorn Growth Hormone|QID|47272|M|66.81,42.58|N|From Trader Alexxi Cruzpot.|
 A WANTED: Jabra'kan|QID|51980|M|69.05,40.83|N|From Wanted Poster.|RANK|2|
 A Queenfeather|QID|47312|M|69.02,40.72|N|From Wingrider Nivek.|RANK|2|
 C Headbutting 101|QID|47311|M|70.42,40.31|S|N|Use the Extra Action button to command your Hatchling to fight your target.|
-C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|S|NC|N|Pick up the Steaming Fresh Carrion from the ground as you go.|
+C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|S|H|N|Pick up the Steaming Fresh Carrion from the ground as you go.|
 C Queenfeather|QID|47312|M|71.37,40.69|N|Kill Queenfeather and loot her Plume.|
 K Ravasaurs|QID|50311^50308|M|71.69,41.28|L|156963|N|Keep looting the ravasaur mobs until you pick up a "Golden Ravasaur Egg."|RANK|2|
 $ Mysterious Trashpile|QID|50311^50308|M|71.69,41.28|CHAT|N|Click on the Trashpile to summon Jani. Offer to give Jani the Golden Egg and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|RANK|2|BUFF|262169|
-C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|US|NC|N|Finish collecting the Steaming Fresh Carrion.|
+C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|US|H|N|Finish collecting the Steaming Fresh Carrion.|
 C Headbutting 101|QID|47311|M|70.42,40.31|US|N|Command your Hatchling to fight|
 T Queenfeather|QID|47312|M|69.01,40.71|N|To Wingrider Nivek.|
 T Direhorn Growth Hormone|QID|47272|M|66.81,42.58|N|To Trader Alexxi Cruzpot.|
@@ -263,16 +270,16 @@ T Headbutting 101|QID|47311|M|66.80,42.55|N|To Beastlord L'kala.|
 A Wings for the Kraal|QID|51990|M|66.80,42.55|N|From Beastlord L'kala.|RANK|2|PRE|47311|
 A DGH: Now With Real Direhorn|QID|51998|M|66.81,42.58|N|From Trader Alexxi Cruzpot.|RANK|2|PRE|47311|
 C DGH: Now With Real Direhorn|QID|51998|M|66.79,34.09|S|N|Kill Pterrordax' and loot to collect the Partially Digested Direhorn Flesh.|
-C Wings for the Kraal|QID|51990|M|66.72,34.46|S|NC|N|Pick up the nearly-hatching Pterrordax Egg.|
+C Wings for the Kraal|QID|51990|M|66.72,34.46|S|H|N|Pick up the nearly-hatching Pterrordax Egg.|
 K Bramblewing|QID|50034|M|66.70,32.24|QO|1|RARE|ITEM|161020|T|Bramblewing|N|Silver Elite to kill for azerite power and resources.|RANK|2|
-C Wings for the Kraal|QID|51990|M|66.72,34.46|US|NC|N|Finish picking up the nearly-hatching Pterrordax Egg.|
+C Wings for the Kraal|QID|51990|M|66.72,34.46|US|H|N|Finish picking up the nearly-hatching Pterrordax Egg.|
 C DGH: Now With Real Direhorn|QID|51998|M|66.79,34.09|US|N|Finish collecting the Partially Digested Direhorn Flesh.|
 C WANTED: Jabra'kan|QID|51980|M|67.07,37.15|T|Jabra'kan|N|Kill Jabra'kan the Poacher.|
 t WANTED: Jabra'kan|QID|51980|M|69.01,40.71|N|To Wingrider Nivek.|
 T DGH: Now With Real Direhorn|QID|51998|M|66.81,42.58|N|To Trader Alexxi Cruzpot.|
 T Wings for the Kraal|QID|51990|M|66.80,42.51|N|To Beastlord L'kala.|
 A Growing Pains|QID|47418|M|66.80,42.55|N|From Trader Alexxi Cruzpot.|RANK|2|PRE|47272|
-C Growing Pains|QID|47418|M|66.85,42.44|QO|1|U|147897|NC|N|Feed the DGH to your Hatchling.|
+C Growing Pains|QID|47418|M|66.85,42.44|QO|1|U|147897|H|N|Feed the DGH to your Hatchling.|
 T Growing Pains|QID|47418|M|66.81,42.58|N|To Trader Alexxi Cruzpot.|
 A How to Train Your Direhorn|QID|47261|M|66.80,42.55|N|From Beastlord L'kala.|RANK|2|PRE|47418&47311|
 C How to Train Your Direhorn|QID|47261|M|67.56,43.45|QO|1|CHAT|N|Talk to Training Master B'khor.|
@@ -286,7 +293,7 @@ A A Good Spanking|QID|48581|M|67.55,43.44|N|From Kraal Master B'khor.|RANK|2|PRE
 C A Good Spanking|QID|48581|M|67.87,44.97|N|Go beat up on Pinky to tire him out.|
 T A Good Spanking|QID|48581|M|66.80,42.55|N|To Beastlord L'kala.|
 A Naptime|QID|47310|M|66.80,42.55|N|From Beastlord L'kala.|RANK|2|PRE|48581|
-C Naptime|QID|47310|M|68.29,42.05|NC|N|Click on the gates to send your Direhorn Juvenile into the "stable"|
+C Naptime|QID|47310|M|68.29,42.05|H|N|Click on the gates to send your Direhorn Juvenile into the "stable"|
 T Naptime|QID|47310|M|66.79,42.50|N|To Beastlord L'kala.|
 N Pet Opportunity|AVAILABLE|47260|N|After you reach lvl 50, you will get a letter inviting you back to complete 3 more quests for a new pet.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|PRE|47310| ; Level may be different - Hendo72
 F Warbeast Kraal|ACTIVE|47199|AVAILABLE|47260|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.| ; ** Nazmir joins here - Hendo72
@@ -304,7 +311,7 @@ F Scaletrader Post|ACTIVE|49768|M|67.26,43.03|N|At Paku'ai Verraki.|
 R Nesingwary's Trek|ACTIVE|49768|M|69.23,27.56;68.53,23.01;67.91,21.19;67.54,18.00|CS|N|And on to find Nesingwary.|RANK|2|
 T Nesingwary's Trek|QID|49768|M|67.50,17.70|N|To Hemet Nesingwary.|
 A He's Gone Mad!|QID|50466|M|67.50,17.70|N|From Hemet Nesingwary.|RANK|2|
-A Die, Die, Diemetradon|QID|47583|M|67.56,17.73|N|From Hemet Nesingwary.|RANK|2|PRE|49768|
+A Die, Die, Diemetradon|QID|47583|M|67.56,17.73|N|From Tracker Burke.|RANK|2|PRE|49768|
 A Hunt for King K'tal|QID|47706|M|67.46,17.92|N|From Hunter's Board.|RANK|2|PRE|49768|
 A WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.46,17.92|N|From Hunter's Board.|RANK|2|PRE|49768|
 A A Thorn in the Side|QID|47584|M|67.45,17.72|N|From Erak the Aloof.|RANK|2|PRE|49768|
@@ -343,7 +350,7 @@ C Hunting the Hunter|QID|47586|M|61.49,17.96|QO|2|I|N|Inspect the Suspicious tra
 C Hunting the Hunter|QID|47586|M|62.32,16.87|QO|3|I|N|Inspect Nesingwary's gun.|
 T Hunting the Hunter|QID|47586|M|63.49,16.16|N|To Hemet Nesingwary at Headhunter Lodge.|
 A Headhunter Jo|QID|47587|M|63.49,16.16|N|From Hemet Nesingwary.|RANK|2|PRE|47586|
-K Headhunter Jo|ACTIVE|47587|M|63.03,15.89|N|Kill Headhunter Jo.|
+K Headhunter Jo|ACTIVE|47587|QO|1|M|63.03,15.89|N|Kill Headhunter Jo.|
 T Headhunter Jo|QID|47587|M|63.50,16.14|N|To Hemet Nesingwary.|
 K Feathered Viper|QID|50431|M|62.73,20.58|L|157794|US|N|Kill the feathered vipers in the area until you get a [color=33fff9]Feathered Viper Scale[/color] and hear Jani's guttural voice.|RANK|2|
 $ Mysterious Trashpile|AVAILABLE|50431|M|62.73,20.58|ITEM|157794|N|Click on the Trashpile to summon Jani.|RANK|2|BUFF|262933|
