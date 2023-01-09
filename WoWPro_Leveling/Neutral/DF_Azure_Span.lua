@@ -73,7 +73,7 @@ A Power Procurement|QID|66582|PRE|70215|M|45.94,40.65|Z|2024|N|From Warpcaster D
 T Camp Antonidas|QID|66228|M|46.65,40.17|Z|2024|N|To Noriko the All-Remembering.|
 A Assemble the Defenses|QID|67033|PRE|66228^70747|M|46.69,39.76|Z|2024|N|From Noriko the All-Remembering.|
 A Preservation of Knowledge|QID|67035|PRE|66228^70747|M|46.66,39.74|Z|2024|N|From Althanus.|
-A Supporting the Cobalt Assembly|QID|72784|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|RANK|2|
+A Supporting the Cobalt Assembly|QID|72784|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|LVL|68|RANK|2|
 C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024|H|N|Beware of the bombardment. Pick the first device up here.|
 C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024|H|N|Pick up the tomes in the pavilion.|
 C Assemble the Defenses|QID|67033|M|46.1,40.8;45.85,40.17|CS|Z|2024|H|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
