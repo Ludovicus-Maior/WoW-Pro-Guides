@@ -10,6 +10,41 @@ N Guide Hub|AVAILABLE|52749|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S
 ;Starter Notes
 N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts. Currently, there is no rank 2/3 content in this guide, but when it is added in, Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
 N The Banshee's Wail|QID|53079|N|All of these quest arcs start on The Banshee's Wail, a ship in Zandalar's harbor. It can be reached by taking the flightpath to the Port of Zandalar.|
+; Heart of Azeroth
+N Heart of Azeroth|AVAILABLE|52428|N|You have to complete the Storyline for Heart of Azeroth to continue further. We will do that now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|50|
+A A Dying World|QID|53028|M|50.37,41.80|Z|Dazar'alor|N|From Earthen Guardian standing just outside the door.|ACH|12918;;;TRUE|
+P Magni's Encampment|ACTIVE|53028|M|73.47,85.34|Z|The Great Seal!Dazar'alor|N|Use the Silithis portal.|
+T A Dying World|QID|53028|M|42.22,44.28|Z|81;Silithus|N|To Magni Bronzebeard.|
+A The Heart of Azeroth|QID|51211|PRE|53028|M|42.22,44.28|Z|81;Silithus|N|From Magni Bronzebeard.|
+C The Heart of Azeroth|ACTIVE|51211|QO|1|M|43.20,44.49|Z|81;Silithus|H|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
+C The Heart of Azeroth|ACTIVE|51211|QO|2|M|50.18,55.39|Z|Chamber of Heart!Dungeon1021|NC|N|Click on the Titan Console to witness past events (optional).|
+C The Heart of Azeroth|ACTIVE|51211|QO|3|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|CHAT|N|Speak to Magni Bronzebeard.|
+T The Heart of Azeroth|QID|51211|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|PRE|51211|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|
+C Infusing the Heart|QID|52428|QO|2|M|53.37,56.35;55.55,60.66;52.57,71.89;50.01,74.36;45.30,62.69|CN|Z|Chamber of Heart!Dungeon1021|EAB|N|While within the Chamber of Heart, use the 'Extra Activity Button' near an Azerite Crack.|
+C Infusing the Heart|QID|52428|M|50.31,64.73|Z|Chamber of Heart!Dungeon1021|EAB|QO|3|N|Use the 'Extra Activity Button' in the center of the room.\n[color=FF0000]NOTE: [/color]Once you start this, you are locked until it finishes.|
+T Infusing the Heart|QID|52428|PRE|51211|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A A Brother's Help|QID|54938|PRE|52428|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|
+P Magni's Encampment|ACTIVE|54938|M|50.12,30.56|Z|Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
+P Hall of Ancient Paths|ACTIVE|54938|M|41.61,45.21|Z|81;Silithus|N|Click on the portal to travel back to Zuldazar.|
+F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
+T A Brother's Help|QID|54938|M|57.88,50.46|Z|Nazmir|N|To Magni Bronzebeard.\n[color=FF0000]NOTE: [/color]Magni is southwest of your current location, between Zul'Nazman and Zal'amak.|
+A Stubborn as a Bronzebeard|QID|54939|M|57.89,50.48|Z|Nazmir|N|From Magni Bronzebeard.|
+C Stubborn as a Bronzebeard|QID|54939|QO|1|M|58.07,50.70|Z|Nazmir|V|N|Hop on Brann's Flying Machine.\n[color=FF0000]NOTE: [/color]This will fly you into an Uldir instance.|
+; Using the old map floors
+T Stubborn as a Bronzebeard|QID|54939|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon1150|N|To Magni Bronzebeard.|
+A Necessity is the MOTHER|QID|54940|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon1150|N|From Magni Bronzebeard.|
+C Necessity is the MOTHER|QID|54940|QO|1|M|60.96,53.58|Z|The Oblivion Door@Uldir!Dungeon1154|H|N|Activate the East Console.\n[color=FF0000]NOTE: [/color]If you can take the damage, ignore the blood globules and run to the other console.|
+C Necessity is the MOTHER|QID|54940|QO|2|M|41.09,53.12|Z|The Oblivion Door@Uldir!Dungeon1154|H|N|Activate the West Console. If it's survivable, continue to ignore the blood globules and go turn in the quest.|
+T Necessity is the MOTHER|QID|54940|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon1154|N|To Magni Bronzebeard.|
+A A One-Way Ticket to the Heart|QID|54964|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon1154|N|From Magni Bronzebeard.|
+C A One-Way Ticket to the Heart|QID|54964|QO|1|M|49.91,58.21|Z|The Oblivion Door@Uldir!Dungeon1154|N|Fight the creatures from the void, culminating with K'thxx the Void Hunter to open the waygate.|
+C A One-Way Ticket to the Heart|QID|54964|QO|2|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon1154|H|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
+; Dungeon1021 or Dungeon1473
+T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
+H The Great Seal|AVAILABLE|52749|M|58.40,62.71|Z|Zuldazar|N|Hearth or use the portals.|
+
+N Pause Guide|QID|99999|
 
 ;Start of the Campaign
 A The War Campaign|QID|52749|PRE|46931|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|NA|N|From Nathanos Blightcaller.|LVL|35|
@@ -186,7 +221,7 @@ C Return to Zuldazar|QID|51984|M|87.84,51.18|Z|Tiragarde Sound|CHAT|N|Speak to E
 T Return to Zuldazar|QID|51984|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ;First Assault
-A Breaking Kul Tiran Will|QID|51589|PRE|52444|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|60|
+A Breaking Kul Tiran Will|QID|51589|PRE|52444&52428|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|60|
 C Breaking Kul Tiran Will|QID|51589|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Tiragarde Sound.|
 T Breaking Kul Tiran Will|QID|51589|M|87.38,50.52|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A Into the Heart of Tiragarde|QID|51590|M|87.38,50.52|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|51589|
@@ -229,32 +264,6 @@ A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Vo
 C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|V|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
 
-;Heart of Azeroth questline - gone as of 8.2.5
-P Silithis|QID|50973|M|73.97,85.62|Z|The Great Seal!Dazar'alor|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
-A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
-T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
-T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
-T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-; This may be obsolete:https://www.wowhead.com/quest=54938/a-brothers-help
-A A Brother's Help|QID|54938|N|Autoaccepted when entering Dazar'alor.|PRE|53406|ACH|12955;;;true|
-F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
-R Zul'Nazman|ACTIVE|54938|M|57.89,50.48|CC|Z|Nazmir|N|Magni is actually just in generic Nazmir between Zul'Nazman and Zal'amak.|
-T A Brother's Help|QID|54938|M|57.88,50.46|Z|Nazmir|N|To Magni Bronzebeard.|
-A Stubborn as a Bronzebeard|QID|54939|M|57.89,50.48|Z|Nazmir|N|From Magni Bronzebeard.|
-C Stubborn as a Bronzebeard|QID|54939|M|58.07,50.70|Z|Nazmir|QO|1|V|N|Hop on Brann's Flying Machine.This will fly you into an Uldir instance.|
-; Using the old map floors
-T Stubborn as a Bronzebeard|QID|54939|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon1150|N|To Magni Bronzebeard.|
-A Necessity is the MOTHER|QID|54940|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon1150|N|From Magni Bronzebeard.|
-C Necessity is the MOTHER|QID|54940|M|60.96,53.58|Z|The Oblivion Door@Uldir!Dungeon1154|QO|1|NC|N|Activate the East Console. You don't have to stay and fight the blood globules if you can take the damage and run to the other console.|
-C Necessity is the MOTHER|QID|54940|M|41.09,53.12|Z|The Oblivion Door@Uldir!Dungeon1154|QO|2|NC|N|Activate the West Console. If its survivable, you can continue to ignore the blood globules and go turn in the quest.|
-T Necessity is the MOTHER|QID|54940|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon1154|N|To Magni Bronzebeard.|
-A A One-Way Ticket to the Heart|QID|54964|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon1154|N|From Magni Bronzebeard.|
-C A One-Way Ticket to the Heart|QID|54964|M|49.91,58.21|Z|The Oblivion Door@Uldir!Dungeon1154|QO|1|N|Fight the creatures from the void, culminating with K'thxx the Void Hunter to open the waygate.|
-C A One-Way Ticket to the Heart|QID|54964|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon1154|QO|2|NC|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
-; Dungeon1021 or Dungeon1473
-T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
 A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|LEAD|51784|REP|The Honorbound;2157;friendly;4000|O|
 T Operation: Grave Digger|QID|53065|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -911,7 +920,7 @@ P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|TZ|Magni's Enc
 T Return to the Heart|QID|55522|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
 A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56161| ; removed 55522, changed to 56161 - unconfirmed PRE, but 55522 is not needed.
 A In Darkness, I Dream|QID|55390|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos, after getting your necklace to 54.|PRE|56161|  ; pre is Back out to Sea--from Najzatar guide
-P Zuldazar|ACTIVE|55390|M|41.60,45.19|Z|Silithus|TZ|Dazar'alor|N|Return to Zuldazar.|
+P Zuldazar|ACTIVE|55390|M|41.60,45.19|Z|81;Silithus|TZ|Dazar'alor|N|Return to Zuldazar.|
 P Orgrimmar|ACTIVE|55390|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take Portal to Orgrimmar.|
 P Azsuna|ACTIVE|55390|M|58.87,89.54|Z|Orgrimmar|N|Take the Portal to Azsuna.|
 F Garden of the Moon|ACTIVE|55390|M|44.60,43.86|Z|Azsuna|N|At Izal Whitemoon.|
@@ -960,7 +969,7 @@ T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N
 T The Long Awake|QID|55398|M|53.92,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra.|
 A Investigating the Highlands|QID|56167|M|52.63,70.21|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. After your Necklace has reached Lvl 60.|PRE|55521|
 P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|N|Travel by method of choice to Twilight Highlands.|
-P Dazar'alor|ACTIVE|56167|M|41.62,45.21|Z|Silithus|N|Travel by method of choice to Twilight Highlands.|
+P Dazar'alor|ACTIVE|56167|M|41.62,45.21|Z|81;Silithus|N|Travel by method of choice to Twilight Highlands.|
 P Orgrimmar|ACTIVE|56167|M|73.72,69.75|Z|The Great Seal!Dazar'alor|N|Travel by method of choice to Twilight Highlands.|
 P Twilight Highlands|ACTIVE|56167|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|
 T Investigating the Highlands|QID|56167|M|35.94,50.50|Z|Twilight Highlands|N|To Kalecgos.|
