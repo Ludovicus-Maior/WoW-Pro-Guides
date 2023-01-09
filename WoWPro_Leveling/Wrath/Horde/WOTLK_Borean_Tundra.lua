@@ -136,7 +136,7 @@ A The Wondrous Bloodspore |QID|11716|M|52,53|N|From Bloodmage Laurith.|
 C The Wondrous Bloodspore |QID|11716|N|Loot Bloodspore Carpels, they're all around the camp.|M|52.7,52.7|
 T The Wondrous Bloodspore |QID|11716|M|52.1,52.5|N|To Bloodmage Laurith.|
 A Pollen from the Source |QID|11717|PRE|11716|M|52.1,52.5|N|From Bloodmage Laurith.|
-C Pollen from the Source |QID|11717|N|Kill and loot Bloodwspore moths.|
+C Pollen from the Source |QID|11717|M|48.5,58.9|N|Kill and loot Bloodwspore moths.|
 T Pollen from the Source |QID|11717|M|52.1,52.5|N|To Bloodmage Laurith.|
 A A Suitable Test Subject |QID|11719|PRE|11717|M|52.1,52.5|N|From Bloodmage Laurith.|
 C A Suitable Test Subject |QID|11719|N|Use the item, wait 10 seconds, then turn it in.|U|34978|
@@ -145,7 +145,7 @@ A The Invasion of Gammoth |QID|11720|PRE|11719|M|52.1,52.5|N|From Bloodmage Laur
 T The Invasion of Gammoth |QID|11720|M|52.2,52.8|N|To Primal Mighthorn.|
 A Gammothra the Tormentor |QID|11721|PRE|11720|M|52.2,52.8|N|From Primal Mighthorn.|
 C Gammothra the Tormentor |QID|11721|N|Head to the cave entrance at  to the SW. Enter the cave, use the item on the mobs and they will become easy to kill. The mob is at the bottom, in a cavity to your left.|U|34979|M|50,59|
-A Massive Moth Omelet? |QID|11724|N|On the way out of the cave, take a left turn at the fork near the top. There will be a path heading up. Follow the ledge south and then SE till you reach the egg. There are a lot of moths in the area and a big, white, aggressive one on top of the massive egg. |M|48.5,59.1|U|34979|
+A Massive Moth Omelet? |QID|11724|N|On the way out of the cave, take a left turn at the fork near the top. There will be a path heading up. Follow the ledge south and then SE till you reach the egg. There are a lot of moths in the area and a big, white, aggressive one on top of the massive egg.|M|48.5,59.1|U|34979|
 T Gammothra the Tormentor |QID|11721|M|52,53|N|To Primal Mighthorn.|
 A Trophies of Gammoth |QID|11722|PRE|11721|M|52.2,52.8|N|From Primal Mighthorn.|
 T Massive Moth Omelet? |QID|11724|M|52.2,52.8|N|To Bloodmage Laurith.|
