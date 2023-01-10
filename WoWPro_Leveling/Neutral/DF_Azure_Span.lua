@@ -618,7 +618,7 @@ K Stormshackler Rynea|ACTIVE|66556|M|65.95,10.74|Z|2024|QO|2|N|Kill Stormshackle
 K Frostjaw|ACTIVE|66971|QO|1|M|70.22,17.56|Z|2024|N|Kill Frostjaw.|T|Frostjaw|
 T Ice Cave Ya Got There|QID|66556|M|65.38,15.94|Z|2024|N|To Sonova Snowden.|
 
-R Rhonin's Shield|AVAILABLE|71235|M|65.81,25.32|Z|2024|N|Head back to Rhonin's Shield for one more quest chain that wasn't available earlier.|;moved because bliz made the lead in quest dependant on rescuing Old Grimtusk 
+R Rhonin's Shield|AVAILABLE|71235|M|65.81,25.32|Z|2024|N|Head back to Rhonin's Shield for one more quest chain that wasn't available earlier.|;moved because bliz made the lead in quest dependant on rescuing Old Grimtusk
 A Field Mages|QID|71235|PRE|71135|M|65.81,25.32|Z|2024|N|From Drok Scrollstabber.|RANK|2|LEAD|68639^68641|
 T Field Mages|QID|71235|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
 A Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|RANK|2|
