@@ -44,8 +44,6 @@ C A One-Way Ticket to the Heart|QID|54964|QO|2|M|50.76,53.72|Z|The Oblivion Door
 T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
 H The Great Seal|AVAILABLE|52749|M|58.40,62.71|Z|Zuldazar|N|Hearth or use the portals.|
 
-N Pause Guide|QID|99999|
-
 ;Start of the Campaign
 A The War Campaign|QID|52749|PRE|46931|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|NA|N|From Nathanos Blightcaller.|LVL|35|
 T The War Campaign|QID|52749|M|58.44,62.67|NA|Z|Zuldazar|N|To Nathanos Blightcaller. For travel efficiency, Wait to turn this in until you have 100 War Resources.|;accepted when you pick your first zone
@@ -220,49 +218,61 @@ A Return to Zuldazar|QID|51984|PRE|51975|M|87.28,50.01|Z|Tiragarde Sound|N|From 
 C Return to Zuldazar|QID|51984|M|87.84,51.18|Z|Tiragarde Sound|CHAT|N|Speak to Erul Dawnbrook.|
 T Return to Zuldazar|QID|51984|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
+; Uniting Zandalar
+N Uniting Zandalar|QID|99999|AVAILABLE|51589|N|You must complete this storyline to continue further.\n'A Mission of Unity' will be automatically pushed to you when you are level 60 and have reached 'Friendly' status with Zandalari Empire, Talanji's Expedition, and Voldunai.|
+T A Mission of Unity|QID|53064|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller onboard the Banshee's Wail.|
+A Uniting Zandalar|QID|51916|PRE|53064|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
+T Uniting Zandalar|QID|51916|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.\n[color=FF0000]NOTE: [/color]This will unlock World Quests in Zandalar and Kul Tiras.|
+
 ;First Assault
 A Breaking Kul Tiran Will|QID|51589|PRE|52444&52428|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|60|
 C Breaking Kul Tiran Will|QID|51589|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Tiragarde Sound.|
 T Breaking Kul Tiran Will|QID|51589|M|87.38,50.52|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
-A Into the Heart of Tiragarde|QID|51590|M|87.38,50.52|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|51589|
-R Timberfell Outpost|ACTIVE|51590|M|87.02,51.87;83.31,50.20;76.62,50.31;70.65,49.03;71.20,50.90|Z|Tiragarde Sound|CS|N|Follow the road out of the port up to our new Outpost in Tiragarde Sound. There are guards on the bridge over Bridgeport, so be prepared to outrun them, avoid them, or kill them.|
+A Into the Heart of Tiragarde|QID|51590|PRE|51589|M|87.38,50.52|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|
+R Timberfell Outpost|ACTIVE|51590|M|83.31,50.20;76.62,50.31;70.65,49.03;71.20,50.90|Z|Tiragarde Sound|CS|N|Follow the road out of the port up to our new Outpost in Tiragarde Sound. There are guards on the bridge over Bridgeport, so be prepared to outrun them, avoid them, or kill them.|
+R Ashvane Foundary|ACTIVE|51590|M|87.02,51.87;83.40,50.13|CS|Z|Tiragarde Sound|N|Leave Plunder Harbor and follow the west road to the first fork.|
+R Bridgeport|ACTIVE|51590|M|76.95,51.44|Z|Tiragarde Sound|N|Continue west along the road to the next intersection, keeping your distance from Ashvane Foundary.|
+R Old Drust Road|ACTIVE|51590|M|76.02,53.40;74.17,53.13;72.91,49.31|CS|Z|Tiragarde Sound|N|Avoid the guards by crossing the river a little south of the bridges and then north along the road on the other side.\n[color=FF0000]NOTE: [/color]Approaching the 3 stationary guards on the first bridge will flag you for PvP and probably get you killed by them.|
+R Timberfell Outpost|ACTIVE|51590|M|70.61,48.97;71.19,50.81|CS|Z|Tiragarde Sound|N|Continue west until the fork where you'll veer left (south) and take the upward road.|
 T Into the Heart of Tiragarde|QID|51590|M|71.19,50.91|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
-A Our Mountain Now|QID|51591|M|71.19,50.91|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|51590|
-C Our Mountain Now|QID|51591|M|72.06,52.10|Z|Tiragarde Sound|QO|1|N|Kill the roughnecks.|
+A Our Mountain Now|QID|51591|PRE|51590|M|71.19,50.91|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|
+C Our Mountain Now|QID|51591|QO|1|M|72.06,52.10|Z|Tiragarde Sound|N|Kill the roughnecks.|
 T Our Mountain Now|QID|51591|M|72.02,51.85|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
-A Making Ourselves at Home|QID|51592|M|72.02,51.85|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|51591|
-A Bridgeport Investigation|QID|51593|M|72.04,51.76|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51591|
+A Making Ourselves at Home|QID|51592|PRE|51591|M|72.02,51.85|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|
+A Bridgeport Investigation|QID|51593|ACTIVE|51592|PRE|51591|M|72.04,51.76|Z|Tiragarde Sound|N|From Lilian Voss.|
 f Timberfell Outpost|ACTIVE|51593|M|72.18,51.91|Z|Tiragarde Sound|N|At Michaela Reed.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-C Making Ourselves at Home|QID|51592|M|75.13,51.16|Z|Tiragarde Sound|NC|S|N|Click on the crates, rolls of sail and anchor chains to collect.|
-C Bridgeport Investigation|QID|51593|M|73.45,48.27|Z|Tiragarde Sound|QO|2|NC|N|Stand here and evesdrop on the conversation on the other side of the wall.|
-C Bridgeport Investigation|QID|51593|M|74.63,49.68|Z|Tiragarde Sound|QO|1|NC|N|Stand here and evesdrop on the conversation in the harbor terrace.|
-C Bridgeport Investigation|QID|51593|M|75.32,51.12|Z|Tiragarde Sound|QO|3|NC|N|Stand here to evesdrop on the conversation in the outdoor workshop|
-C Making Ourselves at Home|QID|51592|M|75.08,51.11|Z|Tiragarde Sound|NC|US|N|Finish collecting the canvas and chain.|
-T Making Ourselves at Home|QID|51592|M|72.02,51.84|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
-T Bridgeport Investigation|QID|51593|M|72.05,51.77|Z|Tiragarde Sound|N|To Lilian Voss.|
-A Explosives in the Foundry|QID|51594|M|72.05,51.77|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51592&51593|
+C Making Ourselves at Home|QID|51592|QO|1;2|M|75.13,51.16|Z|Tiragarde Sound|H|S|N|Click on the crates, rolls of sail and anchor chains to collect.|
+C Bridgeport Investigation|QID|51593|QO|2|M|73.45,48.27|Z|Tiragarde Sound|NC|N|Go inside the building and stand on the spot to evesdrop on the conversation.\n[color=FF0000]NOTE: [/color]Look for the yellow 'ghost image' of yourself.|
+C Bridgeport Investigation|QID|51593|QO|1|M|74.63,49.68|Z|Tiragarde Sound|NC|N|Rinse and repeat in the Harbor Terrace by jumping off the bridge into the water and swimming over.\n[color=FF0000]NOTE: [/color]Remember the 3 guards we avoided the first time? They don't move, but you may run into 3 that do just outside the building,|
+C Bridgeport Investigation|QID|51593|M|75.32,51.12|Z|Tiragarde Sound|QO|3|NC|N|One last time in the Outdoor workshop.\n[color=FF0000]NOTE: [/color]Swimmming around to the other side of the dock will avoid most of the fights.\nThis one will flag you for PvP because of where you're standing.|
+C Making Ourselves at Home|QID|51592|M|75.08,51.11|Z|Tiragarde Sound|H|US|N|Finish collecting the canvas and chain.|
+T Making Ourselves at Home|QID|51592|M|72.02,51.84|Z|Tiragarde Sound|N|To Nathanos Blightcaller in Timberfell Outpost.|
+T Bridgeport Investigation|QID|51593|M|72.05,51.77|Z|Tiragarde Sound|N|To Lilian Voss.\n[color=FF0000]NOTE: [/color]She's by the Plunder Harbor road east of Bridgeport, close to the Foundary.|
+A Explosives in the Foundry|QID|51594|PRE|51592&51593|M|72.05,51.77|Z|Tiragarde Sound|N|From Lilian Voss.|
 T Explosives in the Foundry|QID|51594|M|77.51,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
-A Explosivity|QID|51595|M|77.51,49.93|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51594|
-C Explosivity|QID|51595|M|77.56,49.80|Z|Tiragarde Sound|N|Face the banner at the foundry entrance and use your special action button to test bomb explosiveness.|
+A Explosivity|QID|51595|PRE|51594|M|77.51,49.93|Z|Tiragarde Sound|N|From Lilian Voss.|
+C Explosivity|QID|51595|M|77.56,49.80|Z|Tiragarde Sound|EAB|N|Face the banner at the Foundry entrance and use your special action button to test bomb explosiveness.|
 T Explosivity|QID|51595|M|77.50,49.92|Z|Tiragarde Sound|N|To Lilian Voss.|
-A Ammunition Acquisition|QID|51596|M|77.50,49.92|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51595|
-A Gunpowder Research|QID|51597|M|77.50,49.92|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51595|
-A A Bit of Chaos|QID|51598|M|77.50,49.92|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51595|
-C A Bit of Chaos|QID|51598|M|82.16,48.61|Z|Tiragarde Sound|S|N|Kill Ashvane workers as you go. (you can most likely get enough without attacking the nuetral NPCs)|
-C Ammunition Acquisition|QID|51596|M|82.06,48.81|Z|Tiragarde Sound|NC|S|N|Pick up Ashvane Explosives as you go.|
-K Taskmaster Williams|QID|51597|M|79.13,46.83|Z|Tiragarde Sound|QO|2|T|Taskmaster Williams|N|Kill Taskmaster Williams to loot the Gunpowder Manufacturing Guide.|ACTIVE|51597|
-K Forgemaster Farthing|QID|51597|M|82.16,48.61|Z|Tiragarde Sound|QO|1|T|Forgemaster Farthing|N|Kill Forgemaster Farthing and loot the Ashvane Explosives Formula.|ACTIVE|51597|
-C Ammunition Acquisition|QID|51596|M|82.06,48.81|Z|Tiragarde Sound|US|N|Finish collecting the Ashvane Explosives|
+A Ammunition Acquisition|QID|51596|PRE|51595|M|77.50,49.92|Z|Tiragarde Sound|N|From Lilian Voss.|
+A Gunpowder Research|QID|51597|PRE|51595|M|77.50,49.92|Z|Tiragarde Sound|N|From Lilian Voss.|
+A A Bit of Chaos|QID|51598|PRE|51595|M|77.50,49.92|Z|Tiragarde Sound|N|From Lilian Voss.|
+C A Bit of Chaos|QID|51598|M|82.16,48.61|Z|Tiragarde Sound|S|N|Kill Ashvane workers as you go. (you can most likely get enough without attacking the neutral NPCs)|
+C Ammunition Acquisition|QID|51596|M|82.06,48.81|Z|Tiragarde Sound|H|S|N|Pick up Ashvane Explosives as you go.|
+K Taskmaster Williams|ACTIVE|51597|QO|2|M|79.13,46.83|Z|Tiragarde Sound|T|Taskmaster Williams|N|Kill Taskmaster Williams to loot the Gunpowder Manufacturing Guide.|
+K Forgemaster Farthing|ACTIVE|51597|QO|1|M|82.16,48.61|Z|Tiragarde Sound|T|Forgemaster Farthing|N|Kill Forgemaster Farthing and loot the Ashvane Explosives Formula.|
+C Ammunition Acquisition|QID|51596|M|82.06,48.81|Z|Tiragarde Sound|H|US|N|Finish collecting the Ashvane Explosives|
 C A Bit of Chaos|QID|51598|M|82.16,48.61|Z|Tiragarde Sound|US|N|Finish killing the Ashvane workers.|
 T Ammunition Acquisition|QID|51596|M|77.50,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
 T Gunpowder Research|QID|51597|M|77.50,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
 T A Bit of Chaos|QID|51598|M|77.50,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
-A Death Trap|QID|51599|M|77.50,49.93|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51596&51597&51598|
-C Death Trap|QID|51599|M|74.24,52.88|Z|Tiragarde Sound|NC|N|Click on all the crates here.|
+A Death Trap|QID|51599|PRE|51596&51597&51598|M|77.50,49.93|Z|Tiragarde Sound|N|From Lilian Voss.|
+C Death Trap|QID|51599|M|74.24,52.88|Z|Tiragarde Sound|H|N|Click on all the crates here.|
 T Death Trap|QID|51599|M|77.01,49.19|Z|Tiragarde Sound|N|To Lilian Voss.|
-A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51599|
-C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|V|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
-T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
+A The Bridgeport Ride|QID|51601|PRE|51599|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|
+A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Lilian Voss to start again.|FAIL|
+C The Bridgeport Ride|QID|51601|QO|1;2;3|M|75.49,49.86;75.55,51.96;74.22,52.88|CS|Z|Tiragarde Sound|V|N|Hop on the horse and ride through town. When you have the Captain and 10 guards chasing you, ride out across the low bridge to where you set the bombs.\n[color=FF0000]NOTE: [/color]If the horse takes too much damage, you fail.|
+T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
+N Pause Guide|QID|99999|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
 A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|LEAD|51784|REP|The Honorbound;2157;friendly;4000|O|
@@ -722,7 +732,7 @@ A Ride of the Zandalari|QID|54140|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|
 C Ride of the Zandalari|QID|54140|M|49.08,41.28|Z|Dazar'alor|QO|1|CHAT|N|Speak with Captain Rez'okun to mobilize the fleet.|
 R The Zocalo|ACTIVE|54140|M|41.98,26.99|Z|Dazar'alor|N|Head down the stairs, through the Terrace of Crafters and The Zocalo to the bridge where Rakera awaits.|
 C Ride of the Zandalari|QID|54140|M|52.94,40.16|Z|Zuldazar|QO|2|CHAT|N|Speak with General Rakera to mobilize the army.|
-R House of Pa'ku|ACTIVE|54140|M|43.52,24.16;51.35,12.53|Z|Dazar'alor|CS|N|Run back thru The Zacolo and Terrace of the Chosen to directly above The Sliver to find Hexloar Raal.|
+R House of Pa'ku|ACTIVE|54140|M|43.52,24.16;51.35,12.53|Z|Dazar'alor|CS|N|Run back through The Zacolo and Terrace of the Chosen to directly above The Sliver to find Hexloar Raal.|
 C Ride of the Zandalari|QID|54140|M|52.82,11.90|Z|Dazar'alor|QO|3|CHAT|N|Speak with Hexlord Raal to mobilize the aerial forces.|
 F Blood Gate|ACTIVE|54140|M|52.94,11.69|Z|Dazar'alor|V|N|Hop on Ata the Winglord for a ride to Talanji and the Blood Gate.|
 T Ride of the Zandalari|QID|54140|M|57.95,21.26|Z|Zuldazar|N|To Princess Talanji.|
@@ -1058,7 +1068,7 @@ T A Display of Power|QID|55051|M|50.75,32.33|Z|Stormsong Valley|N|To Lor'themar 
 ;Visions of Danger
 H Dazar'alor|AVAILABLE|55778|M|PLAYER|N|Hearth or otherwise return to Dazar'alor.|PRE|55051|
 P Nazjatar|AVAILABLE|55778|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|PRE|55051|
-N Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to progress thru Nazjatar, to the point where you find Lady Ashvane and the weapons cache.|LVL|50|;55869 is end of Nazjatar opening (Clearing out the Cache)
+N Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to progress through Nazjatar, to the point where you find Lady Ashvane and the weapons cache.|LVL|50|;55869 is end of Nazjatar opening (Clearing out the Cache)
 A Visions of Danger|QID|55778|M|48.51,62.18|Z|Nazjatar|N|From Lor'themar Theron.|PRE|55051&55869|
 C Visions of Danger|QID|55778|M|48.36,62.16|Z|Nazjatar|QO|1|CHAT|N|Speak with Spiritwalker Ussoh, then watch his vision unfold.|
 T Visions of Danger|QID|55778|M|48.50,62.18|Z|Nazjatar|N|To Lor'themar Theron.|
