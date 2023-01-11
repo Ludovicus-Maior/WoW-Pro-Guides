@@ -272,10 +272,12 @@ A The Bridgeport Ride|QID|51601|PRE|51599|M|77.01,49.19|Z|Tiragarde Sound|N|From
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Lilian Voss to start again.|FAIL|
 C The Bridgeport Ride|QID|51601|QO|1;2;3|M|75.49,49.86;75.55,51.96;74.22,52.88|CS|Z|Tiragarde Sound|V|N|Hop on the horse and ride through town. When you have the Captain and 10 guards chasing you, ride out across the low bridge to where you set the bombs.\n[color=FF0000]NOTE: [/color]If the horse takes too much damage, you fail.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
+F Plunder Harbor|AVAILABLE|51784|M|72.18,51.91|Z|Tiragarde Sound|N|At Michaela Reed.|
+b The Banshee's Wail|AVAILABLE|51784|M|87.85,51.18|Z|Tiragarde Sound|N|Ask Erul DawnBrook, the Dockmaster, for ride to Zuldazar.|
 N Pause Guide|QID|99999|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
-A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|LEAD|51784|REP|The Honorbound;2157;friendly;4000|O|
+A Operation: Grave Digger|QID|53065|PRE|51601|LEAD|51784|N|Autoaccepted|REP|The Honorbound;2157;friendly;4000|
 T Operation: Grave Digger|QID|53065|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A A Stroll Through a Cemetery|QID|51784|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51601| ; rep gate removed. REP|The Honorbound;2157;friendly;4000|
 C A Stroll Through a Cemetery|QID|51784|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Drustvar.|
