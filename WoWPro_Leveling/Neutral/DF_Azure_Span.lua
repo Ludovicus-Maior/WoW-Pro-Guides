@@ -73,7 +73,7 @@ A Power Procurement|QID|66582|PRE|70215|M|45.94,40.65|Z|2024|N|From Warpcaster D
 T Camp Antonidas|QID|66228|M|46.65,40.17|Z|2024|N|To Noriko the All-Remembering.|
 A Assemble the Defenses|QID|67033|PRE|66228^70747|M|46.69,39.76|Z|2024|N|From Noriko the All-Remembering.|
 A Preservation of Knowledge|QID|67035|PRE|66228^70747|M|46.66,39.74|Z|2024|N|From Althanus.|
-A Supporting the Cobalt Assembly|QID|72784|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|RANK|2|
+A Supporting the Cobalt Assembly|QID|72784|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|LVL|68|RANK|2|
 C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024|H|N|Beware of the bombardment. Pick the first device up here.|
 C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024|H|N|Pick up the tomes in the pavilion.|
 C Assemble the Defenses|QID|67033|M|46.1,40.8;45.85,40.17|CS|Z|2024|H|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
@@ -382,8 +382,9 @@ T Calling the Blue Dragons|QID|66027|M|39.47,63.01|Z|2024|N|To Kalecgos.|
 A To Rhonin's Shield|QID|65886|PRE|66027|M|39.47,63.01|Z|2024|N|From Kalecgos.|
 C To Rhonin's Shield|QID|65886|M|38.26,61.52;39.58,60.27;41.18,62.27|CN|Z|2024|QO|2|NC|EAB|N|(Optional)\nGo stand in one of the three Arcane Stepping Stones and an [color=33fff9]Extra Action Button [/color] will pop up. Clicking it will take you to the top ring, which makes it much easier to fly nearly all the way to Rhonin's Shield.|
 $ Zelthrak Outpost Glyph|QID|99999|M|52.91,48.70|Z|2024;The Azure Plains!Dragonflight|N|This one is hidden amongst the tree branches. You might have to look around for it a bit.|ACH|16071|
+
+;think about moving Riders in the Snow here - so Field Mages will be available when you get to Rhonin's shield.
 R Rhonin's Shield|ACTIVE|65886|M|65.53,25.76|Z|2024|N|Fly over to Rhonin's Shield. Hemet stops here too if you are interested in getting his quests, keep an eye out for him while you are around.|
-;A Pruning The Pack|QID|66968|PRE|67299|M|65.80,26.46|Z|2024|N|From Hemet Nesingwary, if he happens to be here, if not check off and move along.|RANK|2|
 T To Rhonin's Shield|QID|65886|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 A To the Mountain|QID|65887|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|
 A Drakes be Gone|QID|67299|PRE|65886|M|65.81,25.31|Z|2024|N|From Drok Scrollstabber.|RANK|2|
@@ -429,37 +430,6 @@ C The Storm-Eater's Fury|QID|70041|M|78.06,32.73|Z|2024|QO|3|N|Use ability #3 to
 C The Storm-Eater's Fury|QID|70041|M|78.06,32.73|Z|2024|QO|4|N|And keep after it, 200 more to kill.|
 T The Storm-Eater's Fury|QID|70041|M|78.22,33.34|Z|2024|N|To Kalecgos.|
 A The Blue Dragon Oathstone|QID|66015|PRE|70041|M|78.22,33.34|Z|2024|N|From Kalecgos.|
-
-;R Rhonin's Shield|AVAILABLE|68639|M|65.81,25.32|Z|2024|N|Use the updraft to get a headstart for you flight back to Rhonin's Shield.|
-;A Field Mages|QID|71235|PRE|70041|M|65.81,25.32|Z|2024|N|From Drok Scrollstabber.|RANK|2|
-;T Field Mages|QID|71235|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
-A Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|RANK|2|
-A Mossing the Mark|QID|68641|M|63.61,28.82|Z|2024|N|From Steria Duskgrove.|RANK|2|
-C Prowling Polar Predators|QID|68639|M|62.94,31.12|Z|2024|N|Kill the Infected Bears.|S|
-C Mossing the Mark|QID|68641|M|62.94,31.12|Z|2024|H|N|Click the moss to pick it up. If its all been picked clean, there is a nother patch east of here just a little ways.|
-C Prowling Polar Predators|QID|68639|M|62.94,31.12|Z|2024|N|Kill the Infected Bears.|US|
-T Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
-T Mossing the Mark|QID|68641|M|63.61,28.82|Z|2024|N|To Steria Duskgrove.|
-A Needles to Say|QID|68642|PRE|68639&68641|M|63.61,28.82|Z|2024|N|From Steria Duskgrove.|RANK|2|
-A Vitamins and Minerals|QID|68643|PRE|68639&68641|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|RANK|2|
-C Needles to Say|QID|68642|M|64.91,29.91|Z|2024|H|N|Click on the Prickly Crystalspines to extract quills. They also rarely drop from Bakar.|S|
-C Vitamins and Minerals|QID|68643|M|64.92,29.84|Z|2024|H|N|Click on the Strange Ice Crystals.|
-C Needles to Say|QID|68642|M|64.91,29.91|Z|2024|H|N|Continue to click on the Prickly Crystalspines until you have enough quills.|US|
-T Vitamins and Minerals|QID|68643|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
-T Needles to Say|QID|68642|M|63.61,28.82|Z|2024|N|To Steria Duskgrove.|
-A Sugar, Spice, and Everything Nice|QID|68644|PRE|68642&68643|M|63.61,28.82|Z|2024|N|From Steria Duskgrove.|RANK|2|
-C Sugar, Spice, and Everything Nice|QID|68644|QO|1|M|63.58,28.90|Z|2024|CHAT|N|Let Steria know you are ready to begin.|
-C Sugar, Spice, and Everything Nice|QID|68644|QO|2|M|63.59,28.83|Z|2024|H|N|Click on the morter and pestle on the ground.|
-C Sugar, Spice, and Everything Nice|QID|68644|QO|3|M|63.58,28.90|Z|2024|CHAT|N|Ask Callisto for help (either option).|
-C Sugar, Spice, and Everything Nice|QID|68644|QO|4|M|63.59,28.83|Z|2024|CHAT|N|Administer the Medicine to Sylvie.|
-T Sugar, Spice, and Everything Nice|QID|68644|M|63.58,28.83|Z|2024|N|To Steria Duskgrove.|
-A Save a Slyvern|QID|69862|PRE|68644|M|63.58,28.83|Z|2024|N|From Steria Duskgrove.|RANK|2|
-T Save a Slyvern|QID|69862|M|65.70,30.86|Z|2024|N|To Steria Duskgrove.|
-A They Took the Kits|QID|70338|PRE|69862|M|65.70,30.86|Z|2024|N|From Steria Duskgrove.|RANK|2|
-C They Took the Kits|QID|70338|QO|1|M|66.57,30.87|Z|2024|U|200526|H|N|Steria gave you an invis charm, I suggest you use it. Go in and rescue the kits.|
-C They Took the Kits|QID|70338|QO|2|M|65.72,30.78|Z|2024|CHAT|N|Offer Sylvie the kits.|
-T They Took the Kits|QID|70338|M|65.70,30.86|Z|2024|N|To Steria Duskgrove.|
-$ Rhonin's Shield Glyph|QID|99999|N|Inside the very top of the tower, you probably want to land on the outside and then drop down inside.|M|67.67,29.11|Z|2024;The Azure Plains!Dragonflight|ACH|16072|
 
 $ Vakthros Range Glyph|QID|99999|N|Floating above the ground as you head for the missing archeologist.|M|72.57,39.77|Z|2024;The Azure Plains!Dragonflight|ACH|16073|
 R Lost Ruins|ACTIVE|66964|M|67.22,44.42|Z|2024|N|Continue flying to Lost Ruins to find Kattigat.|
@@ -647,6 +617,37 @@ C Ice Cave Ya Got There|QID|66556|M|66.23,11.12|Z|2024|QO|1|NC|N|Walk into the c
 K Stormshackler Rynea|ACTIVE|66556|M|65.95,10.74|Z|2024|QO|2|N|Kill Stormshackler Rynea.\n\nYou have to kill her two rock bodyguards first.|T|Stormshackler Rynea|
 K Frostjaw|ACTIVE|66971|QO|1|M|70.22,17.56|Z|2024|N|Kill Frostjaw.|T|Frostjaw|
 T Ice Cave Ya Got There|QID|66556|M|65.38,15.94|Z|2024|N|To Sonova Snowden.|
+
+R Rhonin's Shield|AVAILABLE|71235|M|65.81,25.32|Z|2024|N|Head back to Rhonin's Shield for one more quest chain that wasn't available earlier.|;moved because bliz made the lead in quest dependant on rescuing Old Grimtusk
+A Field Mages|QID|71235|PRE|71135|M|65.81,25.32|Z|2024|N|From Drok Scrollstabber.|RANK|2|LEAD|68639^68641|
+T Field Mages|QID|71235|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
+A Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|RANK|2|
+A Mossing the Mark|QID|68641|M|63.61,28.82|Z|2024|N|From Steria Duskgrove.|RANK|2|
+C Prowling Polar Predators|QID|68639|M|62.94,31.12|Z|2024|N|Kill the Infected Bears.|S|
+C Mossing the Mark|QID|68641|M|62.94,31.12|Z|2024|H|N|Click the moss to pick it up. If its all been picked clean, there is a nother patch east of here just a little ways.|
+C Prowling Polar Predators|QID|68639|M|62.94,31.12|Z|2024|N|Kill the Infected Bears.|US|
+T Prowling Polar Predators|QID|68639|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
+T Mossing the Mark|QID|68641|M|63.61,28.82|Z|2024|N|To Steria Duskgrove.|
+A Needles to Say|QID|68642|PRE|68639&68641|M|63.61,28.82|Z|2024|N|From Steria Duskgrove.|RANK|2|
+A Vitamins and Minerals|QID|68643|PRE|68639&68641|M|63.58,28.90|Z|2024|N|From Callisto Windsor.|RANK|2|
+C Needles to Say|QID|68642|M|64.91,29.91|Z|2024|H|N|Click on the Prickly Crystalspines to extract quills. They also rarely drop from Bakar.|S|
+C Vitamins and Minerals|QID|68643|M|64.92,29.84|Z|2024|H|N|Click on the Strange Ice Crystals.|
+C Needles to Say|QID|68642|M|64.91,29.91|Z|2024|H|N|Continue to click on the Prickly Crystalspines until you have enough quills.|US|
+T Vitamins and Minerals|QID|68643|M|63.58,28.90|Z|2024|N|To Callisto Windsor.|
+T Needles to Say|QID|68642|M|63.61,28.82|Z|2024|N|To Steria Duskgrove.|
+A Sugar, Spice, and Everything Nice|QID|68644|PRE|68642&68643|M|63.61,28.82|Z|2024|N|From Steria Duskgrove.|RANK|2|
+C Sugar, Spice, and Everything Nice|QID|68644|QO|1|M|63.58,28.90|Z|2024|CHAT|N|Let Steria know you are ready to begin.|
+C Sugar, Spice, and Everything Nice|QID|68644|QO|2|M|63.59,28.83|Z|2024|H|N|Click on the morter and pestle on the ground.|
+C Sugar, Spice, and Everything Nice|QID|68644|QO|3|M|63.58,28.90|Z|2024|CHAT|N|Ask Callisto for help (either option).|
+C Sugar, Spice, and Everything Nice|QID|68644|QO|4|M|63.59,28.83|Z|2024|CHAT|N|Administer the Medicine to Sylvie.|
+T Sugar, Spice, and Everything Nice|QID|68644|M|63.58,28.83|Z|2024|N|To Steria Duskgrove.|
+A Save a Slyvern|QID|69862|PRE|68644|M|63.58,28.83|Z|2024|N|From Steria Duskgrove.|RANK|2|
+T Save a Slyvern|QID|69862|M|65.70,30.86|Z|2024|N|To Steria Duskgrove.|
+A They Took the Kits|QID|70338|PRE|69862|M|65.70,30.86|Z|2024|N|From Steria Duskgrove.|RANK|2|
+C They Took the Kits|QID|70338|QO|1|M|66.57,30.87|Z|2024|U|200526|H|N|Steria gave you an invis charm, I suggest you use it. Go in and rescue the kits.|
+C They Took the Kits|QID|70338|QO|2|M|65.72,30.78|Z|2024|CHAT|N|Offer Sylvie the kits.|
+T They Took the Kits|QID|70338|M|65.70,30.86|Z|2024|N|To Steria Duskgrove.|
+$ Rhonin's Shield Glyph|QID|99999|N|Inside the very top of the tower, you probably want to land on the outside and then drop down inside.|M|67.67,29.11|Z|2024;The Azure Plains!Dragonflight|ACH|16072|
 
 F Iskaara|ACTIVE|71014|M|65.38,16.35|Z|2024|N|At Taelmyr Blazewing.|RANK|3|
 T Grimtusk's Sister|QID|71016|M|12.47,49.23|Z|2024|N|To Naluki, in the below groundlevel inn.|
