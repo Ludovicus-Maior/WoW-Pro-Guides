@@ -1,3 +1,28 @@
+# Release 2023.01.12.A
+## Bug Fixes
+* No code changes this release
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail Leveling
+* Alliance: BFA War Campaign, Intro Exiles Reach,
+* Horde Leveling: BFA Endgame, Intro, Nazmir, Voldun, War Campaign, Zuldazar
+* Neutral: Azure Span, DF Campaign, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, Demon Hunter Intro, Bastion, Maw Intro
+* World Events:  Winterveil
+### Classic
+* No Classic guides were harmed during this release
+
+### WotLK
+* Alliance: Alliance 19-25
+* Horde: Zangarmarsh, Borean Tundra
+
+### Professions
+* No Professions guides were harmed during this release
+
+
 # Release 2022.12.15.A
 ## Bug Fixes
 * Incomplete fix to moving window issue
