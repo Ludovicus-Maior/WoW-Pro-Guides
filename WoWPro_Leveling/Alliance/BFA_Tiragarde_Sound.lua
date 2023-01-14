@@ -586,7 +586,7 @@ A Captured and Enraptured|QID|47755|M|50.31,37.24|N|From Henry Hardwick.|PRE|500
 A A Very Precious Cargo|QID|50002|M|50.31,37.24|N|From Henry Hardwick.|PRE|50026|RANK|2|
 A Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|N|Bonus Objective - Autoaccepted.|LVL|-50|PRE|50026|RANK|2|
 C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|S|N|Bonus Objective - Pick up shipwrecked supplies, kill sirens and saurolisks, you know the drill.|
-C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|S|NC|N|Target an Entralled Sailer and use the Grog to break the enchantment - can be done at ranged distances.|
+C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|S|NC|N|Target an Entralled Sailor and use the Grog to break the enchantment - can be done at ranged distances.|
 A Can't Hear A Thing|QID|50059|M|51.08,35.79|N|From Earless Joe.|PRE|50026|RANK|2|
 C Can't Hear A Thing|QID|50059|M|53.65,32.89|N|Kill Anthemusa slain.|T|Anthemusa|
 K Shiverscale the Toxic|QID|51876|QO|1|M|55.18,32.51|T|Shiverscale the Toxic|RARE|ITEM|155278|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
