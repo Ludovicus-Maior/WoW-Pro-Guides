@@ -144,12 +144,12 @@ A Storming In|QID|51532|PRE|51526|M|58.44,62.45|Z|Zuldazar|N|From High Warlord C
 C Storming In|QID|51532|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail you are ready to sail to Stormsong Valley.|
 T Storming In|QID|51532|M|51.11,21.16|Z|Stormsong Valley|N|To High Warlord Cromush.|
 A A Wall of Iron|QID|51643|PRE|51532|M|51.11,21.16|Z|Stormsong Valley|N|From High Warlord Cromush.|
-C A Wall of Iron|QID|51643|M|51.18,21.12|Z|Stormsong Valley|QO|1|V|N|Go down below-decks and hop onto one of the Banshee's Wail Cannon.|
-C A Wall of Iron|QID|51643|M|51.18,21.12|Z|Stormsong Valley|QO|2|N|Use "1" key to fire at enemy troops (tho ones not carrying red flags) on the shore.|
+C A Wall of Iron|QID|51643|QO|1|M|51.18,21.12|Z|Stormsong Valley|V|N|Go down below-decks and hop onto one of the Banshee's Wail Cannon.|
+C A Wall of Iron|QID|51643|QO|2|M|51.18,21.12|Z|Stormsong Valley|N|Use "1" key to fire at enemy troops (tho ones not carrying red flags) on the shore.|
 T A Wall of Iron|QID|51643|M|51.11,21.16|Z|Stormsong Valley|N|To High Warlord Cromush.|
 A On the Hunt|QID|51536|PRE|51643|M|51.11,21.16|Z|Stormsong Valley|N|From High Warlord Cromush.|
-C On the Hunt|QID|51536|M|51.05,21.47|Z|Stormsong Valley|QO|1|NC|N|Click on the rope for a ride to the docks.(Optional)|
-C On the Hunt|QID|51536|M|50.39,26.18|Z|Stormsong Valley|QO|2|NC|N|Go up to the plaza, and pull the spear out of the wolf.|
+C On the Hunt|QID|51536|QO|1|M|51.05,21.47|Z|Stormsong Valley|NC|N|Click on the rope for a ride to the docks.(Optional)|
+C On the Hunt|QID|51536|QO|2|M|50.39,26.18|Z|Stormsong Valley|NC|N|Go up to the plaza, and pull the spear out of the wolf.|
 T On the Hunt|QID|51536|M|50.41,26.17|Z|Stormsong Valley|N|Wait for the dialog to complete, then To Rexxar.|
 A Onward!|QID|51587|M|50.41,26.17|Z|Stormsong Valley|N|From Rexxar.|PRE|51536|
 C Onward!|QID|51587|M|51.91,30.17|Z|Stormsong Valley|NC|N|Rexxar will mount up and head up the hill, follow him.|
@@ -157,40 +157,40 @@ T Onward!|QID|51587|M|51.66,29.83|Z|Stormsong Valley|N|To Centurion Kaga Warmsto
 A Hunt Them Down|QID|51675|M|51.66,29.83|Z|Stormsong Valley|N|From Centurion Kaga Warmstone.|PRE|51587|
 A Almost Worth Saving|QID|51691|M|51.66,29.83|Z|Stormsong Valley|N|From Centurion Kaga Warmstone.|PRE|51587|
 A Douse the Flames|QID|51674|M|51.67,29.94|Z|Stormsong Valley|N|From Rexxar.|PRE|51587|
-C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|QO|1|S|NC|N|Rescue Frightened Peons as you go.|
-C Hunt Them Down|QID|51675|M|51.80,32.43|Z|Stormsong Valley|S|QO|2|N|Kill footman as you go.|
+C Almost Worth Saving|QID|51691|QO|1|M|51.80,32.43|Z|Stormsong Valley|S|NC|N|Rescue Frightened Peons as you go.|
+C Hunt Them Down|QID|51675|QO|2|M|51.80,32.43|Z|Stormsong Valley|S|N|Kill footman as you go.|
 C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|S|N|The mages drop the wands you need to douse the flames.|U|160565|
-K Captain Ara|ACTIVE|51675|M|51.85,33.63|Z|Stormsong Valley|QO|1|N|Kill Captain Ara.|T|Captain Ara.|
-C Almost Worth Saving|QID|51691|M|51.85,32.63|Z|Stormsong Valley|QO|1<3|NC|N|Click on the barricade behind Captain Ara.|
-C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|US|N|Finish putting out the fires. The mages drop the wands you need to douse the flames.|U|160565|
-C Hunt Them Down|QID|51675|M|49.29,32.84|Z|Stormsong Valley|US|QO|2|N|Finish your quota of footman.|
-C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|QO|1|US|NC|N|Finish rescuing Frightened Peons.|
+K Captain Ara|ACTIVE|51675|QO|1|M|51.85,33.63|Z|Stormsong Valley|N|Kill Captain Ara.|T|Captain Ara.|
+C Almost Worth Saving|QID|51691|QO|1<3|M|51.85,32.63|Z|Stormsong Valley|NC|N|Click on the barricade behind Captain Ara.|
+C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|US|U|160565|N|Finish putting out the fires. The mages drop the wands you need to douse the flames.|
+C Hunt Them Down|QID|51675|QO|2|M|49.29,32.84|Z|Stormsong Valley|US|N|Finish your quota of footman.|
+C Almost Worth Saving|QID|51691|QO|1|M|51.80,32.43|Z|Stormsong Valley|US|NC|N|Finish rescuing Frightened Peons.|
 T Hunt Them Down|QID|51675|M|49.18,34.22|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
 T Almost Worth Saving|QID|51691|M|49.18,34.22|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
 T Douse the Flames|QID|51674|M|49.26,34.29|Z|Stormsong Valley|N|To Rexxar.|
-A Reclaiming What's Ours|QID|51696|M|49.26,34.29|Z|Stormsong Valley|N|From Rexxar.|PRE|51675&51691&51674|
+A Reclaiming What's Ours|QID|51696|PRE|51675&51691&51674|M|49.26,34.29|Z|Stormsong Valley|N|From Rexxar.|
 C Reclaiming What's Ours|QID|51696|M|49.58,34.77|Z|Stormsong Valley|NC|N|Go up to the top of the tower and sound the Warhorn.|
 T Reclaiming What's Ours|QID|51696|M|52.13,33.66|Z|Stormsong Valley|N|To Rexxar.|
-A Champion: Rexxar|QID|51753|M|52.13,53.66|Z|Stormsong Valley|N|From Rexxar.|PRE|51696|
+A Champion: Rexxar|QID|51753|PRE|51696|M|52.13,53.66|Z|Stormsong Valley|N|From Rexxar.|
 T Champion: Rexxar|QID|51753|M|52.13,53.66|Z|Stormsong Valley|N|To Rexxar.|
-A Return to Zuldazar|QID|51986|M|52.13,33.66|Z|Stormsong Valley|N|From Rexxar.|PRE|51753|
+A Return to Zuldazar|QID|51986|PRE|51753|M|52.13,33.66|Z|Stormsong Valley|N|From Rexxar.|
 f Warfang Hold|ACTIVE|51986|M|51.43,33.74|Z|Stormsong Valley|N|At Muka Stormbreaker.|
 C Return to Zuldazar|QID|51986|M|51.43,33.74|Z|Stormsong Valley|CHAT|N|Ask Muka Stormbreaker for a flight back to Zuldazar.|
 T Return to Zuldazar|QID|51986|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; A Foothold: Tiraguard Sound
-A Shiver Me Timbers|QID|51421|M|58.45,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51800|
+A Shiver Me Timbers|QID|51421|PRE|51800|M|58.45,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C Shiver Me Timbers|QID|51421|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Tiragarde Sound.|
 T Shiver Me Timbers|QID|51421|M|89.34,53.38|Z|Tiragarde Sound|N|To Shadow Hunter Ty'jin.|
-A Swashbuckling in Style|QID|51435|M|89.34,53.38|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|PRE|51421|
+A Swashbuckling in Style|QID|51435|PRE|51421|M|89.34,53.38|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|
 C Swashbuckling in Style|QID|51435|M|89.45,53.65|Z|Tiragarde Sound|H|N|Click the chest full of pirate garb.|
 T Swashbuckling in Style|QID|51435|M|89.34,53.39|Z|Tiragarde Sound|N|To Shadow Hunter Ty'jin.|
-A Parleyin' Wit Pirates|QID|51436|M|89.34,53.39|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|PRE|51435|
-C Parleyin' Wit Pirates|QID|51436|M|89.34,53.39|Z|Tiragarde Sound|QO|1|H|N|Use the Mala's Fortune Rope|
-C Parleyin' Wit Pirates|QID|51436|M|88.22,51.17;87.30,50.01|Z|Tiragarde Sound|CS|QO|2|CHAT|N|Tell Ty'jin that you are ready, and then walk with him.|
+A Parleyin' Wit Pirates|QID|51436|PRE|51435|M|89.34,53.39|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|
+C Parleyin' Wit Pirates|QID|51436|QO|1|M|89.34,53.39|Z|Tiragarde Sound|H|N|Use the Mala's Fortune Rope|
+C Parleyin' Wit Pirates|QID|51436|QO|2|M|88.22,51.17;87.30,50.01|CS|Z|Tiragarde Sound|CHAT|N|Tell Ty'jin that you are ready, and then walk with him.|
 T Parleyin' Wit Pirates|QID|51436|M|87.31,49.98|Z|Tiragarde Sound|N|To First Mate Owings.|
-A Spike the Punch|QID|51437|M|87.31,49.98|Z|Tiragarde Sound|N|From First Mate Owings.|PRE|51436|
-A Cannonball Collection|QID|51439|M|87.27,50.00|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|PRE|51436|
+A Spike the Punch|QID|51437|PRE|51436|M|87.31,49.98|Z|Tiragarde Sound|N|From First Mate Owings.|
+A Cannonball Collection|QID|51439|PRE|51436|M|87.27,50.00|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|
 C Spike the Punch|QID|51437|M|88.03,50.76|Z|Tiragarde Sound|H|S|N|Click on the Kegs of Grog to spike.\n[color=FF0000]NOTE: [/color]Any pirates around it won't appreciate that and will attack you.|
 C Cannonball Collection|QID|51439|M|87.85,50.96|Z|Tiragarde Sound|N|Kill Cannoneers to collect the Fogsail Cannonballs.|
 C Spike the Punch|QID|51437|M|87.77,50.56|Z|Tiragarde Sound|H|US|N|Finish spiking the kegs.\n[color=FF0000]NOTE: [/color]Any pirates around it won't appreciate that and will attack you.|
@@ -272,37 +272,47 @@ A The Bridgeport Ride|QID|51601|PRE|51599|M|77.01,49.19|Z|Tiragarde Sound|N|From
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Lilian Voss to start again.|FAIL|
 C The Bridgeport Ride|QID|51601|QO|1;2;3|M|75.49,49.86;75.55,51.96;74.22,52.88|CS|Z|Tiragarde Sound|V|N|Hop on the horse and ride through town. When you have the Captain and 10 guards chasing you, ride out across the low bridge to where you set the bombs.\n[color=FF0000]NOTE: [/color]If the horse takes too much damage, you fail.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
+F Plunder Harbor|AVAILABLE|51784|M|72.18,51.91|Z|Tiragarde Sound|N|At Michaela Reed.|
+b The Banshee's Wail|AVAILABLE|51784|M|87.85,51.18|Z|Tiragarde Sound|N|Ask Erul DawnBrook, the Dockmaster, for ride to Zuldazar.|
 N Pause Guide|QID|99999|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
-A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|LEAD|51784|REP|The Honorbound;2157;friendly;4000|O|
+A Operation: Grave Digger|QID|53065|PRE|51601|LEAD|51784|N|Autoaccepted|REP|The Honorbound;2157;friendly;4000|
 T Operation: Grave Digger|QID|53065|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A A Stroll Through a Cemetery|QID|51784|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51601| ; rep gate removed. REP|The Honorbound;2157;friendly;4000|
+A A Stroll Through a Cemetery|QID|51784|PRE|51601|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C A Stroll Through a Cemetery|QID|51784|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Drustvar.|
-F Krazzlefrazz Outpost|ACTIVE|51784|M|19.16,43.31|Z|Drustvar|N|Fly to Krazzlefrazz Outpost.|
-R Barrowknoll Cemetery|ACTIVE|51784|M|37.69,33.30;48.19,32.30;52.61,39.67|CS|Z|Drustvar|N|Across the river, run generally east towards Barrowknoll cemetery|
+F Krazzlefrazz Outpost|ACTIVE|51784|QO|1|M|19.16,43.31|Z|Drustvar|N|Fly to Krazzlefrazz Outpost.|
+N Barrowknoll Cemetery|ACTIVE|51784|QO|1|N|As you make this run, you may come across a few WQ events. As they won't be mentioned in the guide due to the fact that they may not always be available, feel free to do them on your own.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Arom's Crossing|ACTIVE|51784|QO|1|M|37.69,33.30|Z|Drustvar|N|Leave the Outpost and head south.|
+R Alpine Rise|ACTIVE|51784|QO|1|M|42.02,35.64|Z|Drustvar|N|Cut through Arom's Crossing to get around the mountain.\n[color=FF0000]NOTE: [/color]If it's up, you might as well do the HoA WQ in here because it's easy and you'll be passing the objectives.|
+R Highroad Pass|ACTIVE|51784|QO|1|M|46.14,33.58|Z|Drustvar|N|Make your way east down the hill to the road.|
+R Fallhaven|ACTIVE|51784|QO|1|M|52.27,37.92|Z|Drustvar|N|Follow the winding road east or run cross country.|
+R Glenbrook Homestead|ACTIVE|51784|QO|1|M|54.55,37.68|Z|Drustvar|N|A little down the road, cross the bridge over the river.|
+R Glenbrook Hunting Grounds|ACTIVE|51784|QO|1|M|57.08,51.43|Z|Drustvar|N|Follow the road east through the village to the other side.|
+R Barrowknoll Cemetery|ACTIVE|51784|M|62.99,41.45|Z|Drustvar|N|Continue following the road east to the first waypoint where you'll turn and continue south.\n[color=FF0000]NOTE: [/color]The road is a lot quicker than trying to cut through the Hunting Grounds and stopping every few seconds to fight a random mob that hits you with a DoT that causes damage when you move.|
+R Nathanos Blightcaller|ACTIVE|51784|QO|1|M|60.41,48.88;61.37,51.09|CS|Z|Drustvar|N|Work your way south along the road through the Cemetery and across the waterfall.\n[color=FF0000]NOTE: [/color]This won't be an uneventful run.|
 T A Stroll Through a Cemetery|QID|51784|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
-A Examining the Epitaphs|QID|51785|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51784|
-A State of Unrest|QID|51786|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51784|
-A Our Lot in Life|QID|51787|M|61.32,51.11|Z|Drustvar|N|From Lilian Voss.|PRE|51784|
+A Examining the Epitaphs|QID|51785|PRE|51784|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|
+A State of Unrest|QID|51786|PRE|51784|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|
+A Our Lot in Life|QID|51787|PRE|51784|M|61.32,51.03|Z|Drustvar|N|From Lilian Voss (beside you).|
 C State of Unrest|QID|51786|M|61.20,47.28|Z|Drustvar|S|N|Kill the Enraged Spirits as you go.|
-C Our Lot in Life|QID|51787|M|61.20,47.28|Z|Drustvar|S|NC|N|Pick Gravebloom as you go.|
-C Examining the Epitaphs|QID|51785|M|61.11,48.83;61.89,47.86;59.57,47.29;60.34,44.99|CN|Z|Drustvar|NC|N|Click on the epitaths upove the mauseleoms.|
-C Our Lot in Life|QID|51787|M|61.20,47.28|Z|Drustvar|US|NC|N|Finish collecting the Gravebloom|
+C Our Lot in Life|QID|51787|M|61.20,47.28|Z|Drustvar|S|H|N|Pick Gravebloom as you go.|
+C Examining the Epitaphs|QID|51785|M|61.11,48.83;61.89,47.86;59.57,47.29;60.34,44.99|CN|Z|Drustvar|I|N|Click on the epitaphs above the mausoleums.|
+C Our Lot in Life|QID|51787|M|61.20,47.28|Z|Drustvar|US|H|N|Finish collecting the Gravebloom|
 C State of Unrest|QID|51786|M|61.20,47.28|Z|Drustvar|US|N|Finish killing your quota of Enraged Spirits.|
-T Our Lot in Life|QID|51787|M|61.32,51.11|Z|Drustvar|N|To Lilian Voss.|
+T Our Lot in Life|QID|51787|M|61.32,51.03|Z|Drustvar|N|To Lilian Voss.|
 T Examining the Epitaphs|QID|51785|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 T State of Unrest|QID|51786|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
-A The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51785&51786&51787|
+A The Crypt Keeper|QID|51788|PRE|51785&51786&51787|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|
 K Brutus Thornton|ACTIVE|51788|M|59.38,49.12|Z|Drustvar|QO|1|T|Brutus Thornton|N|Find Brutus and kill him to collect the key.|
 T The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
-A What Remains of Marshal M. Valentine|QID|51789|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51788|
-C What Remains of Marshal M. Valentine|QID|51789|QO|1|M|61.12,48.87|Z|Drustvar|NC|N|Click on the door to open.|
-C What Remains of Marshal M. Valentine|QID|51789|QO|2|M|61.11,48.45|Z|Drustvar|N|Several undead come to investigate, kill them, keep at it until Echo of Marshall M. Valentine shows up and kill him too.|
-C What Remains of Marshal M. Valentine|QID|51789|QO|3|M|61.11,48.99|Z|Drustvar|NC|N|Go inside the Crypt.|
-C What Remains of Marshal M. Valentine|QID|51789|QO|4|M|61.11,48.99|Z|Drustvar|NC|N|Wait for the dialog to complete.|
-C What Remains of Marshal M. Valentine|QID|51789|QO|5|M|61.11,48.99|Z|Drustvar|NC|N|pick up the book when it becomes interactive.|
-T What Remains of Marshal M. Valentine|QID|51789|M|61.17,48.73|Z|Drustvar|N|To Nathanos Blightcaller, who is with you at the crypt.|
+A What Remains of Marshal M. Valentine|QID|51789|PRE|51788|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|
+C What Remains of Marshal M. Valentine|QID|51789|QO|1|M|61.12,48.87|Z|Drustvar|H|N|Click on the door to open.|
+C What Remains of Marshal M. Valentine|QID|51789|QO|2|M|61.11,48.45|Z|Drustvar|N|Several undead will come to investigate. Kill them (and any adds) until Echo of Marshall M. Valentine shows up (kill him too).|
+R What Remains of Marshal M. Valentine|ACTIVE|51789|QO|3|M|61.11,48.99|Z|Drustvar|N|Go inside the Crypt.|
+C What Remains of Marshal M. Valentine|QID|51789|QO|4|M|61.11,48.99|Z|Drustvar|N|Wait for the dialog to complete.|
+C What Remains of Marshal M. Valentine|QID|51789|QO|5|M|61.11,48.99|Z|Drustvar|H|N|Pick up the book when it becomes interactive.\n[color=FF0000]NOTE: [/color]Due to the camera angle, the book may be hard to see while standing inside the crypt.|
+T What Remains of Marshal M. Valentine|QID|51789|M|61.17,48.73|Z|Drustvar|N|To Nathanos Blightcaller, standing just outside the crypt.|
 A Expanding our Influence|QID|54494|M|58.06,62.65|Z|Zuldazar|N|From Ransa Greyfeather.|REP|The Honorbound;2157;honored;0|
 T Expanding our Influence|QID|54494|M|58.06,62.65|Z|Zuldazar|N|To Ransa Greyfeather.|
 B Scounting Missions|AVAILABLE|53739^53744|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase two Scouting Reports from Ransa Greyfeather (Emissary) that become available at Honored. Use the Scouting Reports to cause a mission to be available at your table. Complete the table missions to start quest chains that unlock outposts (additional flight paths!).\nNOTE:You will have to right click this step off, till you complete the missions.|REP|The Honorbound;2157;honored-exalted|
@@ -338,30 +348,33 @@ R Tiragarde Sound|ACTIVE|53152|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail t
 F Wolf's Den|ACTIVE|53152|M|87.27,50.67|Z|Tiragarde Sound|N|At Skrash.|
 T Wolves for the Den|QID|53152|M|62.49,12.48|Z|Tiragarde Sound|N|To Mukkral Blackvein in Tiragarde sound. It should be easier now that you have the flight path directly there.|
 ; Death of a Tidesage - 3k/12k Honored The Honorbound
-A Operation: Water Wise|QID|53066|N|Autoaccepted|PRE|51789|LEAD|51797|REP|The Honorbound;2157;honored;3000|O|  ; You dont get until 3000, but you can do the rest of the chain without this LEAD
-T Operation: Water Wise|QID|53066|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Tracking Tidesages|QID|51797|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51789|  ; rep gate removed. REP|The Honorbound;2157;honored;3000|
+A Operation: Water Wise|QID|53066|PRE|51789|LEAD|51797|N|Autoaccepted|REP|The Honorbound;2157;honored;3000|O|  ; You dont get until 3000, but you can do the rest of the chain without this LEAD
+H The Great Seal|AVAILABLE|51797|PRE|51789|M|58.40,62.71|Z|Zuldazar|N|Hearth or use the portal in Anyport.|
+F Port of Zandalar|AVAILABLE|51797|PRE|51789|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|IZ|-The Banshee's Wail|
+T Operation: Water Wise|QID|53066|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller onboard the Banshee's Wail.|
+A Tracking Tidesages|QID|51797|PRE|51789|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C Tracking Tidesages|QID|51797|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Stormsong Valley|
-T Tracking Tidesages|QID|51797|M|52.08,33.64|Z|Stormsong Valley|N|To Rexxar.|
-A No Price Too High|QID|51798|M|52.08,33.65|Z|Stormsong Valley|N|From Rexxar.|PRE|51797|
-R Tidebreak Summit|ACTIVE|51798|M|59.29,30.18|Z|Stormsong Valley|N|Run east following the road up the hill and across the bridge. You aren't actually running to the summit, just to where the subzone name changes.|
+T Tracking Tidesages|QID|51797|M|52.13,33.66|Z|Stormsong Valley|N|To Rexxar.|
+A No Price Too High|QID|51798|PRE|51797|M|52.13,33.66|Z|Stormsong Valley|N|From Rexxar.|
+R Tidebreak Summit|ACTIVE|51798|QO|1|M|59.04,30.38|Z|Stormsong Valley|N|Exit Warfang Hold and follow the road east up the hill and across the bridges.|
 C No Price Too High|QID|51798|QO|1|M|59.29,30.18|Z|Stormsong Valley|CHAT|N|Ask Rexxar "Any Clues on where we can find a tidesage?".|
-R To the top of the waterfall|ACTIVE|51798|M|62.64,31.87|Z|Stormsong Valley|CC|N|Continue past the camp and down the road to find Thomas Zelling and talk to him.|
+R Thomas Zelling|ACTIVE|51798|QO|2|M|62.64,31.87|Z|Stormsong Valley|CC|N|He's located east of you by the top of the waterfall.|
 C No Price Too High|QID|51798|QO|2|M|62.64,31.87|Z|Stormsong Valley|CHAT|N|Ask Thomas for his help.|
 T No Price Too High|QID|51798|M|62.64,31.94|Z|Stormsong Valley|N|To Lilian Voss.|
-A They Will Know Fear|QID|51805|M|62.64,31.94|Z|Stormsong Valley|N|From Lilian Voss.|PRE|51798|
-A Commander and Captain|QID|51818|M|62.64,31.87|Z|Stormsong Valley|N|From Thomas Zelling.|PRE|51798|
-A Scattering Our Enemies|QID|51819|M|62.69,31.81|Z|Stormsong Valley|N|From Rexxar.|PRE|51798|
-C They Will Know Fear|QID|51805|U|160901|M|62.62,39.89|Z|Stormsong Valley|S|NC|N|Run near the civilians and blow the Val'kyr Horn to terrorize them as you go.|
+A They Will Know Fear|QID|51805|PRE|51798|M|62.64,31.94|Z|Stormsong Valley|N|From Lilian Voss.|
+A Commander and Captain|QID|51818|PRE|51798|M|62.64,31.87|Z|Stormsong Valley|N|From Thomas Zelling.|
+A Scattering Our Enemies|QID|51819|PRE|51798|M|62.69,31.81|Z|Stormsong Valley|N|From Rexxar.|
+C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|S|NC|U|160901|N|Run near the civilians and blow the Val'kyr Horn to terrorize them as you go.|
 C Scattering Our Enemies|QID|51819|M|62.62,39.89|Z|Stormsong Valley|S|N|Kill the agro mobs as you go.|
-K Commander Augustine|QID|51818|QO|2|M|58.38,35.65|Z|Stormsong Valley|T|Commander Augustine|N|Kill Commander Augustine and loot the book.|ACTIVE|51818|
-K Captian Malia|QID|51818|QO|1|M|62.62,39.89|Z|Stormsong Valley|T|Captain Malia|N|Kill Catain Malia.|ACTIVE|51818|
+R Sagehold|ACTIVE|51805^51818^51819|M|61.30,37.07|Z|Stormsong Valley|N|Make your way down to the town below the waterfall.|
+K Commander Augustine|ACTIVE|51818|QO|2|M|58.38,35.65|Z|Stormsong Valley|T|Commander Augustine|N|Kill Commander Augustine and loot the book.|
+K Captian Malia|ACTIVE|51818|QO|1|M|62.62,39.89|Z|Stormsong Valley|T|Captain Malia|N|Kill Catain Malia.|
 C Scattering Our Enemies|QID|51819|M|62.62,39.89|Z|Stormsong Valley|US|NC|N|Finish your quota of enemies.|
 C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|US|N|Finish terrorizing the civilians.|
 T They Will Know Fear|QID|51805|M|62.64,31.94|Z|Stormsong Valley|N|To Lilian Voss.|
 T Scattering Our Enemies|QID|51819|M|62.69,31.81|Z|Stormsong Valley|N|To Rexxar.|
 T Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
-A Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|From Thomas Zelling.|PRE|51805&51818&51819|
+A Zelling's Potential|QID|51830|PRE|51805&51818&51819|M|62.62,31.83|Z|Stormsong Valley|N|From Thomas Zelling.|
 R Port Fogtide|ACTIVE|51830|M|61.90,34.14;65.16,38.12;66.94,38.82|CS|Z|Stormsong Valley|N|Follow the path to Port Fogtide.|
 C Zelling's Potential|QID|51830|QO|1|M|66.80,42.31|Z|Stormsong Valley|N|Go to Port Fogtide and kill enemies to fill the void font.|
 C Zelling's Potential|QID|51830|QO|2|M|66.80,42.31|Z|Stormsong Valley|NC|N|Use Special Action Button to release Zellings' wind spell and get a ride out of town.|
