@@ -367,22 +367,22 @@ A Scattering Our Enemies|QID|51819|PRE|51798|M|62.69,31.81|Z|Stormsong Valley|N|
 C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|S|NC|U|160901|N|Run near the civilians and blow the Val'kyr Horn to terrorize them as you go.|
 C Scattering Our Enemies|QID|51819|M|62.62,39.89|Z|Stormsong Valley|S|N|Kill the agro mobs as you go.|
 R Sagehold|ACTIVE|51805^51818^51819|M|61.30,37.07|Z|Stormsong Valley|N|Make your way down to the town below the waterfall.|
-K Commander Augustine|ACTIVE|51818|QO|2|M|58.38,35.65|Z|Stormsong Valley|T|Commander Augustine|N|Kill Commander Augustine and loot the book.|
-K Captian Malia|ACTIVE|51818|QO|1|M|62.62,39.89|Z|Stormsong Valley|T|Captain Malia|N|Kill Catain Malia.|
+K Commander Augustine|ACTIVE|51818|QO|2|M|58.38,35.65|Z|Stormsong Valley|T|Commander Augustine|N|Locate Commander Augustine in the building under the upper waterfall to kill him and loot the book.|
+K Captian Malia|ACTIVE|51818|QO|1|M|62.62,39.89|Z|Stormsong Valley|T|Captain Malia|N|Captain Malia is in front of the building down by the dock below the waterfalls.|
 C Scattering Our Enemies|QID|51819|M|62.62,39.89|Z|Stormsong Valley|US|NC|N|Finish your quota of enemies.|
-C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|US|N|Finish terrorizing the civilians.|
-T They Will Know Fear|QID|51805|M|62.64,31.94|Z|Stormsong Valley|N|To Lilian Voss.|
+C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|US|U|160901|N|Finish terrorizing the civilians.|
+T They Will Know Fear|QID|51805|M|62.64,31.94|Z|Stormsong Valley|N|To Lilian Voss back at the top of the waterfall.|
 T Scattering Our Enemies|QID|51819|M|62.69,31.81|Z|Stormsong Valley|N|To Rexxar.|
 T Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
 A Zelling's Potential|QID|51830|PRE|51805&51818&51819|M|62.62,31.83|Z|Stormsong Valley|N|From Thomas Zelling.|
-R Port Fogtide|ACTIVE|51830|M|61.90,34.14;65.16,38.12;66.94,38.82|CS|Z|Stormsong Valley|N|Follow the path to Port Fogtide.|
+R Port Fogtide|ACTIVE|51830|M|61.90,34.14;65.16,38.12;66.94,38.82|CS|Z|Stormsong Valley|N|Follow the path to Port Fogtide.\n[color=FF0000]NOTE: [/color]The last leg of the path is a ledge along the side of the cliff.|
 C Zelling's Potential|QID|51830|QO|1|M|66.80,42.31|Z|Stormsong Valley|N|Go to Port Fogtide and kill enemies to fill the void font.|
 C Zelling's Potential|QID|51830|QO|2|M|66.80,42.31|Z|Stormsong Valley|NC|N|Use Special Action Button to release Zellings' wind spell and get a ride out of town.|
 T Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
-A Whatever Will Be|QID|51837|M|62.64,31.94|Z|Stormsong Valley|N|From Lilian Voss.|PRE|51830|
+A Whatever Will Be|QID|51837|PRE|51830|M|62.64,31.94|Z|Stormsong Valley|N|From Lilian Voss.|
 C Whatever Will Be|QID|51837|M|62.62,31.83|Z|Stormsong Valley|CHAT|N|Talk to Thomas, then watch and wait for the scene to play out.|
 T Whatever Will Be|QID|51837|M|62.64,31.94|Z|Stormsong Valley|N|To Lilian Voss.|
-A To Be Forsaken|QID|52122|M|62.64,31.94|Z|Stormsong Valley|N|From Lilian Voss.|PRE|51837|
+A To Be Forsaken|QID|52122|PRE|51837|M|62.64,31.94|Z|Stormsong Valley|N|From Lilian Voss.|
 R Tidebreak Summit|ACTIVE|52122|M|59.91,30.49|Z|Stormsong Valley|N|Run back to the Zelling family's camp.|
 C To Be Forsaken|QID|52122|M|59.91,30.49|Z|Stormsong Valley|CHAT|N|Tell Lilian you want to watch the encounter.|
 H The Great Seal|ACTIVE|52122|M|51.45, 33.67|Z|Stormsong Valley|N|Hearth or tell Muka you want to return to Zandalar. (or stick around and do WQs)|
