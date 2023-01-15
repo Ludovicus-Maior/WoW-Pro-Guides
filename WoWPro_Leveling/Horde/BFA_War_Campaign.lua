@@ -383,7 +383,7 @@ A Whatever Will Be|QID|51837|PRE|51830|M|62.64,31.94|Z|Stormsong Valley|N|From L
 C Whatever Will Be|QID|51837|M|62.62,31.83|Z|Stormsong Valley|CHAT|N|Talk to Thomas, then watch and wait for the scene to play out.|
 T Whatever Will Be|QID|51837|M|62.64,31.94|Z|Stormsong Valley|N|To Lilian Voss.|
 A To Be Forsaken|QID|52122|PRE|51837|M|62.64,31.94|Z|Stormsong Valley|N|From Lilian Voss.|
-R Tidebreak Summit|ACTIVE|52122|M|59.91,30.49|Z|Stormsong Valley|N|Run back to the Zelling family's camp.|
+R Zelling Family Camp|ACTIVE|52122|M|59.91,30.49|Z|Stormsong Valley|CC|N|Run back to the Zelling Family Camp on the hill.|
 C To Be Forsaken|QID|52122|M|59.91,30.49|Z|Stormsong Valley|CHAT|N|Tell Lilian you want to watch the encounter.|
 H The Great Seal|ACTIVE|52122|M|51.45, 33.67|Z|Stormsong Valley|N|Hearth or tell Muka you want to return to Zandalar. (or stick around and do WQs)|
 T To Be Forsaken|QID|52122|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
