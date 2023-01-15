@@ -384,49 +384,53 @@ C Whatever Will Be|QID|51837|M|62.62,31.83|Z|Stormsong Valley|CHAT|N|Talk to Tho
 T Whatever Will Be|QID|51837|M|62.64,31.94|Z|Stormsong Valley|N|To Lilian Voss.|
 A To Be Forsaken|QID|52122|PRE|51837|M|62.64,31.94|Z|Stormsong Valley|N|From Lilian Voss.|
 R Zelling Family Camp|ACTIVE|52122|M|59.91,30.49|Z|Stormsong Valley|CC|N|Run back to the Zelling Family Camp on the hill.|
-C To Be Forsaken|QID|52122|M|59.91,30.49|Z|Stormsong Valley|CHAT|N|Tell Lilian you want to watch the encounter.|
-H The Great Seal|ACTIVE|52122|M|51.45, 33.67|Z|Stormsong Valley|N|Hearth or tell Muka you want to return to Zandalar. (or stick around and do WQs)|
-T To Be Forsaken|QID|52122|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+C To Be Forsaken|QID|52122|M|59.94,30.44|Z|Stormsong Valley|CHAT|N|Tell Lilian you want to watch the encounter.|
+R Warfang Hold|ACTIVE|52122|M|51.42,33.74|Z|Stormsong Valley|N|This is faster than hearthing and making your back to the ship.|
+F The Banshee's Wail|ACTIVE|52122|M|51.42,33.74|Z|Stormsong Valley|CHAT|N|Tell Muka you want to return to Zandalar.\n[color=FF0000]NOTE: [/color]Ignore this step for now if you want to stick around and do WQs.|
+T To Be Forsaken|QID|52122|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller on the Banshee's Wail.|
 ; At the Bottom of the Sea - 7.5k/12k The Honorbound
 A Operation: Bottom Feeder|QID|53067|N|Autoaccepted|PRE|52122|LEAD|52764|REP|The Honorbound;2157;honored;7500|O|  ; dont get until you hit 7500, but you can do the chain without this LEAD
 T Operation: Bottom Feeder|QID|53067|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Journey to the Middle of Nowhere|QID|52764|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52122|  ;  Rep Gate Removed REP|The Honorbound;2157;honored;7500|
+A Journey to the Middle of Nowhere|QID|52764|PRE|52122|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|  ;  Rep Gate Removed REP|The Honorbound;2157;honored;7500|
 C Journey to the Middle of Nowhere|QID|52764|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to the middle of the Great Sea.|
-T Journey to the Middle of Nowhere|QID|52764|M|40.52,67.31|Z|The Great Sea!Instance!Azeroth|N|To Nathanos Blightcaller.|;need correct zone name|
-A Deep Dive|QID|52765|M|40.52,67.13|Z|The Great Sea!Instance!Azeroth|N|From Nathanos Blightcaller.|PRE|52764|
-C Deep Dive|QID|52765|QO|1|M|41.59,67.47|Z|The Great Sea!Instance!Azeroth|CHAT|N|Talk to Hobart about the dive.|
-C Deep Dive|QID|52765|QO|2|M|41.52,68.45|Z|The Great Sea!Instance!Azeroth|CHAT|N|Swim down, down, down. The special action button turns your headlamp on and off.|
-T Deep Dive|QID|52765|M|41.52,68.45|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
-A Seafloor Shipwreck|QID|52766|M|41.52,68.45|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52765|
-T Seafloor Shipwreck|QID|52766|M|46.37,68.87|Z|The Great Sea!Instance!Azeroth|N|Swim to the shipwreak and it will autocomplete|
-A Checking Dog Tags|QID|52767|M|41.81,67.96|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52766|
-C Checking Dog Tags|QID|52767|M|48.70,70.80|Z|The Great Sea!Instance!Azeroth|N|Click on corpses until you find the captain.|
-T Checking Dog Tags|QID|52767|M|48.70,70.80|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
-A The Sunken Graveyard|QID|52768|M|48.70,70.80|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52767|
-T The Sunken Graveyard|QID|52768|M|54.85,51.14|Z|The Great Sea!Instance!Azeroth|N|Swim to the other shipwreck while looking out for sharks and it will autocomplete|
-A Captain By Captain|QID|52769|M|54.45,51.14|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52768|
-A Biolumi-Nuisance|QID|52770|M|54.45,51.14|Z|The Great Sea!Instance!Azeroth|N| Should autoaccept, swim a bit further in if it hasn't appeared for you yet.|PRE|52768|
-C Biolumi-Nuisance|QID|52770|M|54.45,51.14|Z|The Great Sea!Instance!Azeroth|S|NC|N|Kill the Bioluminescent creatures as you go.|
-C Captain By Captain|QID|52769|QO|1|M|54.43,49.71|Z|The Great Sea!Instance!Azeroth|N|Click on corpses until you find the captain. First captain is up on the spar arm.|
-C Captain By Captain|QID|52769|QO|2|M|56.49,45.08|Z|The Great Sea!Instance!Azeroth|N|Second captain is on the deck of his ship.|
-C Captain By Captain|QID|52769|QO|3|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|The third captain is on a rotted out hull of a ship.|
-C Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|US|NC|N|Finish off the quota of Bioluminescent creatures.|
-T Captain By Captain|QID|52769|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
-T Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
-A The Undersea Ledge|QID|52772|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52769&52770|
-T The Undersea Ledge|QID|52772|M|67.77,55.40|Z|The Great Sea!Instance!Azeroth|N|Swim to the next waypoint and the quest will autocomplete.|
-A Water-Breathing Dragon|QID|52773|M|67.77,55.40|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52772|
-K Daenistrasz|QID|52773|QO|1|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|T|Daenistrasz|N|Kill the water breathing dragon.|ACTIVE|52773|
-T Water-Breathing Dragon|QID|52773|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
-A Grab and Go|QID|52774|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52773|
-C Grab and Go|QID|52774|QO|1|M|68.23,55.61|Z|The Great Sea!Instance!Azeroth|N|Pick up Valentine's body|
-C Grab and Go|QID|52774|QO|2|M|68.62,55.88|Z|The Great Sea!Instance!Azeroth|N|Oh, look this body may prove useful too, take it.|
-C Grab and Go|QID|52774|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|Head back to Banshee's Wail.|   ; hope this step works added as after thought during edit, to get you back to the ship to continue, since T step moved.
-A Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|From Lilian Voss.|PRE|52773|  ; Avail before turning in 52774, changed to 52773, as this one needs to be turned in (any toon), before you get 52978.
-T Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|To Lilian Voss. This unlocks mythic Siege of Boralus.|
-T Grab and Go|QID|52774|M|40.11,67.98|Z|The Great Sea!Instance!Azeroth|N|To Nathanos Blightcaller, back on the Banshee's Wail UNDER the deck.|
-A With Prince in Tow|QID|52978|M|40.10,67.99|Z|The Great Sea!Instance!Azeroth|N|From Nathanos Blightcaller still under the main deck.|PRE|52774|  ; Need to have 53121 turned in to get this quest, on ANY toon.  Reverted PRE to 52774
-C With Prince in Tow|ACTIVE|52978|M|39.90,68.31|Z|The Great Sea!Instance!Azeroth|CHAT|N|Tell Tattersail you want to return to Zandalar.|
+T Journey to the Middle of Nowhere|QID|52764|M|40.29,67.26|Z|The Great Sea!Instance1157|N|To Nathanos Blightcaller.|
+A Deep Dive|QID|52765|PRE|52764|M|40.52,67.13|Z|The Great Sea!Instance1157|N|From Nathanos Blightcaller.|
+C Deep Dive|QID|52765|QO|1|M|41.62,67.64|Z|The Great Sea!Instance1157|CHAT|N|Talk to Hobart about the dive.|
+N Headlamp|AVAILABLE|53121&-52764|S!US|N|When you are told to turn off your light, DO IT!\n[color=FF0000]NOTE: [/color]If you leave it on too long, you will be killed by the Colossal Whale Shark that attacks you (800,000+ dmg/hit).|BUFF|-277129| ; ** Still tweaking this step - Hendo72
+C Deep Dive|QID|52765|QO|2|M|41.52,68.45|Z|The Great Sea!Instance1157|CHAT|N|Swim down, down, down. The special action button turns your headlamp on and off.|
+T Deep Dive|QID|52765|M|41.52,68.45|Z|The Great Sea!Instance1157|N|Click the UI Alert to turn in the quest.|
+A Seafloor Shipwreck|QID|52766|PRE|52765|M|41.52,68.45|Z|The Great Sea!Instance1157|N|Click 'Accept' in the UI Alert or <ESC>.|
+R Seafloor Shipwreck|QID|52766|QO|1|M|46.37,68.87|Z|The Great Sea!Instance1157|N|Swim to the shipwreck.|
+T Seafloor Shipwreck|QID|52766|M|46.37,68.87|Z|The Great Sea!Instance1157|N|Click the UI Alert to turn in the quest.|
+A Checking Dog Tags|QID|52767|PRE|52766|M|41.81,67.96|Z|The Great Sea!Instance1157|N|Click 'Accept' in the UI Alert or <ESC>.|
+C Checking Dog Tags|QID|52767|QO|1|M|48.70,70.80|Z|The Great Sea!Instance1157|CHAT|N|Click on corpses until you find the captain.|
+T Checking Dog Tags|QID|52767|M|48.70,70.80|Z|The Great Sea!Instance1157|N|Click the UI Alert to turn in the quest.|
+A The Sunken Graveyard|QID|52768|PRE|52767|M|48.70,70.80|Z|The Great Sea!Instance1157|N|Click 'Accept' in the UI Alert or <ESC>.|
+R The Sunken Graveyard|QID|52768|QO|1|M|54.85,51.14|Z|The Great Sea!Instance1157|N|Swim to the other shipwreck while looking out for Colossal Whale Sharks.|
+T The Sunken Graveyard|QID|52768|M|54.85,51.14|Z|The Great Sea!Instance1157|N|Click the UI Alert to turn in the quest.|
+A Captain By Captain|QID|52769|PRE|52768|M|54.45,51.14|Z|The Great Sea!Instance1157|N|Click 'Accept' in the UI Alert or <ESC>.|
+A Biolumi-Nuisance|QID|52770|PRE|52768|M|54.45,51.14|Z|The Great Sea!Instance1157|N|Should autoaccept, swim a bit further in if it hasn't appeared for you yet.|
+C Biolumi-Nuisance|QID|52770|M|54.45,51.14|Z|The Great Sea!Instance1157|S|N|Kill the Bioluminescent creatures as you go.|
+C Captain By Captain|QID|52769|QO|1|M|54.43,49.71|Z|The Great Sea!Instance1157|N|Click on corpses until you find the captain. First captain is up on the spar arm.|
+C Captain By Captain|QID|52769|QO|2|M|56.49,45.08|Z|The Great Sea!Instance1157|N|Second captain is on the deck of his ship.|
+C Captain By Captain|QID|52769|QO|3|M|66.51,42.33|Z|The Great Sea!Instance1157|N|The third captain is on a rotted out hull of a ship.|
+C Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance1157|US|N|Finish off the quota of Bioluminescent creatures.|
+T Captain By Captain|QID|52769|M|66.51,42.33|Z|The Great Sea!Instance1157|N|Click the UI Alert to turn in the quest.|
+T Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance1157|N|Click the UI Alert to turn in the quest.|
+A The Undersea Ledge|QID|52772|M|66.51,42.33|Z|The Great Sea!Instance1157|N|Autoaccepted|PRE|52769&52770|
+T The Undersea Ledge|QID|52772|M|67.77,55.40|Z|The Great Sea!Instance1157|N|Swim to the next waypoint and the quest will autocomplete.|
+A Water-Breathing Dragon|QID|52773|M|67.77,55.40|Z|The Great Sea!Instance1157|N|Autoaccepted|PRE|52772|
+K Daenistrasz|ACTIVE|52773|QO|1|M|68.33,54.76|Z|The Great Sea!Instance1157|T|Daenistrasz|N|Kill the water breathing dragon.|
+T Water-Breathing Dragon|QID|52773|M|68.33,54.76|Z|The Great Sea!Instance1157|N|Autocompleted|
+A Grab and Go|QID|52774|M|68.33,54.76|Z|The Great Sea!Instance1157|N|Autoaccepted|PRE|52773|
+C Grab and Go|QID|52774|QO|1|M|68.23,55.61|Z|The Great Sea!Instance1157|N|Pick up Valentine's body|
+C Grab and Go|QID|52774|QO|2|M|68.62,55.88|Z|The Great Sea!Instance1157|N|Oh, look this body may prove useful too, take it.|
+C Grab and Go|QID|52774|M|41.47,66.57|Z|The Great Sea!Instance1157|N|Head back to Banshee's Wail.|   ; hope this step works added as after thought during edit, to get you back to the ship to continue, since T step moved.
+A Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance1157|N|From Lilian Voss.|PRE|52773|  ; Avail before turning in 52774, changed to 52773, as this one needs to be turned in (any toon), before you get 52978.
+T Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance1157|N|To Lilian Voss. This unlocks mythic Siege of Boralus.|
+T Grab and Go|QID|52774|M|40.11,67.98|Z|The Great Sea!Instance1157|N|To Nathanos Blightcaller, back on the Banshee's Wail UNDER the deck.|
+A With Prince in Tow|QID|52978|M|40.10,67.99|Z|The Great Sea!Instance1157|N|From Nathanos Blightcaller still under the main deck.|PRE|52774|  ; Need to have 53121 turned in to get this quest, on ANY toon.  Reverted PRE to 52774
+C With Prince in Tow|ACTIVE|52978|M|39.90,68.31|Z|The Great Sea!Instance1157|CHAT|N|Tell Tattersail you want to return to Zandalar.|
 T With Prince in Tow|QID|52978|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 B More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|S!US|N|Now that you're Revered you can purchase 5 more Scouting Reports from the Emissary to unlock outposts (additional flight paths!).The sooner you start those missions, the sooner you will have more flightpoints in Kul Tiras.|REP|The Honorbound;2157;revered-exalted|AVAILABLE|53739^53740^53741^53742^53743^53744^53745|
 ; The Revered Repuation Mission Report: Hillcrest Pasture
