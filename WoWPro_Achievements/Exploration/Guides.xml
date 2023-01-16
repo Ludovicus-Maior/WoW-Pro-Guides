@@ -10,4 +10,5 @@
     <Script file="BattleForAzeroth.lua"/>
 	<Script file="Dragon_Riding_Glyphs.lua"/>
     <Script file="Dragon_Riding_Glyphs-noACHcomplete.lua"/>
+   	<Script file="DFHighestPeaks.lua"/>
 </Ui>
