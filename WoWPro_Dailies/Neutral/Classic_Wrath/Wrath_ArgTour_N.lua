@@ -2,9 +2,9 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide("WotLK_ArgTour_N",'Dailies', "Icecrown", "Ludovicus", "Neutral")
+local guide = WoWPro:RegisterGuide("Wrath_ArgTour_N",'Dailies', "Icecrown", "WoWPro Team", "Neutral", 3)
+WoWPro:GuideLevels(guide,78,79,80)
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
-WoWPro.Dailies:GuideName(guide, "Argent Tourney Dailies")
 WoWPro:GuideSteps(guide, function()
 return [[
 
