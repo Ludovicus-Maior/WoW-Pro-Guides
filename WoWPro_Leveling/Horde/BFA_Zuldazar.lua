@@ -69,10 +69,10 @@ C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<1|Z|Dazar'alor|N|Click the
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<2|Z|Dazar'alor|N|Click the gong to release the Disciple of Halazzi, then kill him.|
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<3|Z|Dazar'alor|N|Click the gong to release the Disciple of Jan'alai, then kill him.|
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<4|Z|Dazar'alor|N|Click the gong to release the Disciple of Nalorakk, then kill him.|
-C Deterrent|QID|46929|M|50.00,78.00|Z|Dazar'alor|QO|1|S|N|Finish killing and looting the heads from the Amani mobs.|
+C Deterrent|QID|46929|M|50.00,78.00|Z|Dazar'alor|QO|1|US|N|Finish killing and looting the heads from the Amani mobs.|
 C Deterrent|QID|46929|M|56.17,81.12|Z|Dazar'alor|QO|2|S|N|Kill and loot the heads from the Sandfury mobs.|
 C Punishment of Tal'farrak|QID|46928|M|46.61,73.92|Z|Dazar'alor|N|Click the Ancient Gong to summon Gahz'ragon. Kill and loot his tongues.|
-C Deterrent|QID|46929|M|46.66,77.75|Z|Dazar'alor|US|N|Finish killing and looting the heads from the Sandfury and Amani mobs.|
+C Deterrent|QID|46929|M|46.66,77.75|Z|Dazar'alor|US|N|Finish killing and looting the heads from the Sandfury.|
 T Punishment of Tal'aman|QID|46927|M|50.02,84.76|Z|Dazar'alor|N|To Yazma.|
 T Punishment of Tal'farrak|QID|46928|M|50.10,84.78|Z|Dazar'alor|N|To Yazma.|
 T Deterrent|QID|46929|M|50.02,85.13|Z|Dazar'alor|N|To Zolani.|
@@ -103,9 +103,9 @@ C Offensively Defensive|QID|47433|M|59.66,23.77|QO|3|NC|N|Use the "1" key and pl
 T Offensively Defensive|QID|47433|M|46.20,19.29|Z|Dazar'alor|N|To Wardruid Loti.|
 A Pterrortorial Dispute|QID|47435|M|46.20,19.29|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47433|
 A Restraining Order|QID|47434|M|46.20,19.29|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47433|
-C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Run up to Pterrordax Hatchling to shoo them off.|
+C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Run up to Pterrordax Hatchling to shoo them off.|S|
 C Pterrortorial Dispute|QID|47435|M|38.67,13.04|Z|Dazar'alor|N|Kill the Big ones. (Bloodraged Pterrordax).|
-C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Finish shooing the Pterrordax Hatchlings.|
+C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Finish shooing the Pterrordax Hatchlings.|US|
 T Pterrortorial Dispute|QID|47435|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 T Restraining Order|QID|47434|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 A Competitive Devotion|QID|47437|M|40.91,11.29|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47435&47434|
@@ -239,7 +239,7 @@ C The Great Hat Robbery|QID|50381|QO|1|M|62.53,48.52;64.49,43.38|CS|N|After Jani
 C The Great Hat Robbery|QID|50381|QO|2|M|62.91,47.30|H|N|After the third bite, Tik'su will dismount. Click on him to steal his hat.|
 R The Great Hat Robbery|ACTIVE|50381|QO|3|M|61.91,46.89|N|Run back to Jani with the hat.|
 T The Great Hat Robbery|QID|50381|M|61.91,46.89|N|To Jani.\n[color=FF0000]NOTE: [/color]It takes a moment for him to appear.|
-$ Strange Egg|QID|50508|M|61.90,46.22|RARE|ITEM|162613|T|Vukuba|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a Silver Elite to kill for azerite power and resources.|RANK|3|
+$ Strange Egg|QID|50508|M|61.90,46.22|RARE|ITEM|162613|T|Vukuba|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a Silver Elite to kill for azerite power and resources.|RANK|3|LVL|50|
 T The Missing Handler|QID|50538|M|64.25,44.58|N|To Handler Bazkoji.|LEAD|47226|
 A The Orphaned Hatchling|QID|47226|M|64.33,44.69|N|From Direhorn Hatchling.|RANK|2|
 f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|N|At Paku'ai Verraki, on top of the hill.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
