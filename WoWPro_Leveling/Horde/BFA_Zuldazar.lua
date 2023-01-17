@@ -69,10 +69,10 @@ C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<1|Z|Dazar'alor|N|Click the
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<2|Z|Dazar'alor|N|Click the gong to release the Disciple of Halazzi, then kill him.|
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<3|Z|Dazar'alor|N|Click the gong to release the Disciple of Jan'alai, then kill him.|
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<4|Z|Dazar'alor|N|Click the gong to release the Disciple of Nalorakk, then kill him.|
-C Deterrent|QID|46929|M|50.00,78.00|Z|Dazar'alor|QO|1|S|N|Finish killing and looting the heads from the Amani mobs.|
+C Deterrent|QID|46929|M|50.00,78.00|Z|Dazar'alor|QO|1|US|N|Finish killing and looting the heads from the Amani mobs.|
 C Deterrent|QID|46929|M|56.17,81.12|Z|Dazar'alor|QO|2|S|N|Kill and loot the heads from the Sandfury mobs.|
 C Punishment of Tal'farrak|QID|46928|M|46.61,73.92|Z|Dazar'alor|N|Click the Ancient Gong to summon Gahz'ragon. Kill and loot his tongues.|
-C Deterrent|QID|46929|M|46.66,77.75|Z|Dazar'alor|US|N|Finish killing and looting the heads from the Sandfury and Amani mobs.|
+C Deterrent|QID|46929|M|46.66,77.75|Z|Dazar'alor|US|N|Finish killing and looting the heads from the Sandfury.|
 T Punishment of Tal'aman|QID|46927|M|50.02,84.76|Z|Dazar'alor|N|To Yazma.|
 T Punishment of Tal'farrak|QID|46928|M|50.10,84.78|Z|Dazar'alor|N|To Yazma.|
 T Deterrent|QID|46929|M|50.02,85.13|Z|Dazar'alor|N|To Zolani.|
@@ -103,9 +103,9 @@ C Offensively Defensive|QID|47433|M|59.66,23.77|QO|3|NC|N|Use the "1" key and pl
 T Offensively Defensive|QID|47433|M|46.20,19.29|Z|Dazar'alor|N|To Wardruid Loti.|
 A Pterrortorial Dispute|QID|47435|M|46.20,19.29|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47433|
 A Restraining Order|QID|47434|M|46.20,19.29|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47433|
-C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Run up to Pterrordax Hatchling to shoo them off.|
+C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Run up to Pterrordax Hatchling to shoo them off.|S|
 C Pterrortorial Dispute|QID|47435|M|38.67,13.04|Z|Dazar'alor|N|Kill the Big ones. (Bloodraged Pterrordax).|
-C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Finish shooing the Pterrordax Hatchlings.|
+C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Finish shooing the Pterrordax Hatchlings.|US|
 T Pterrortorial Dispute|QID|47435|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 T Restraining Order|QID|47434|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 A Competitive Devotion|QID|47437|M|40.91,11.29|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47435&47434|
