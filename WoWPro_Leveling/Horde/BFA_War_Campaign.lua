@@ -42,7 +42,7 @@ C A One-Way Ticket to the Heart|QID|54964|QO|1|M|49.91,58.21|Z|The Oblivion Door
 C A One-Way Ticket to the Heart|QID|54964|QO|2|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon1154|H|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
 ; Dungeon1021 or Dungeon1473
 T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
-H The Great Seal|AVAILABLE|52749|M|58.40,62.71|Z|Zuldazar|N|Hearth or use the portals.|
+H The Great Seal|AVAILABLE|52749|M|58.41,62.73|Z|Zuldazar|N|Hearth or use the portals.|
 
 ;Start of the Campaign
 A The War Campaign|QID|52749|PRE|46931|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|NA|N|From Nathanos Blightcaller.|LVL|35|
@@ -349,7 +349,7 @@ F Wolf's Den|ACTIVE|53152|M|87.27,50.67|Z|Tiragarde Sound|N|At Skrash.|
 T Wolves for the Den|QID|53152|M|62.49,12.48|Z|Tiragarde Sound|N|To Mukkral Blackvein in Tiragarde sound. It should be easier now that you have the flight path directly there.|
 ; Death of a Tidesage - 3k/12k Honored The Honorbound
 A Operation: Water Wise|QID|53066|PRE|51789|LEAD|51797|N|Autoaccepted|REP|The Honorbound;2157;honored;3000|O|  ; You dont get until 3000, but you can do the rest of the chain without this LEAD
-H The Great Seal|AVAILABLE|51797|PRE|51789|M|58.40,62.71|Z|Zuldazar|N|Hearth or use the portal in Anyport.|
+H The Great Seal|AVAILABLE|51797|PRE|51789|M|58.41,62.73|Z|Zuldazar|N|Hearth or use the portal in Anyport.|
 F Port of Zandalar|AVAILABLE|51797|PRE|51789|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|IZ|-The Banshee's Wail|
 T Operation: Water Wise|QID|53066|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller onboard the Banshee's Wail.|
 A Tracking Tidesages|QID|51797|PRE|51789|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
@@ -508,7 +508,7 @@ T Operation: Hook and Line|QID|53068|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blig
 A When a Plan Comes Together|QID|52183|PRE|52978|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C When a Plan Comes Together|QID|52183|QO|1|M|58.44,62.67|Z|Zuldazar|CHAT|N|Listen to Nathanos' plans.|
 C When a Plan Comes Together|QID|52183|QO|2|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to the middle of Tiragarde Sound|
-R When a Plan Comes Together|QID|52183|QO|3|M|86.95,53.08|Z|Tiragarde Sound|N|Meet Nathanos in Plunder Harbor|
+R When a Plan Comes Together|QID|52183|QO|3|M|86.91,53.14|Z|Tiragarde Sound|N|Meet Nathanos in Plunder Harbor|
 T When a Plan Comes Together|QID|52183|M|86.91,53.14|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A The Bulk of the Guard|QID|52186|PRE|52183|M|86.91,53.14|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|
 A Old Colleagues|QID|52187|PRE|52183|M|86.96,53.12|Z|Tiragarde Sound|N|From Captain Amalia Stone.|
@@ -540,72 +540,73 @@ T Relics of Ritual|QID|52184|M|71.18,84.78|Z|Boralus|N|To Thomas Zelling.|
 T Forfeit Souls|QID|52189|M|71.18,84.78|Z|Boralus|N|To Thomas Zelling.|
 T Tidesage Teachings|QID|52188|M|71.18,84.78|Z|Tiragarde Sound|N|To Thomas Zelling.|
 A Gaining the Upper Hand|QID|52190|PRE|52184&52188&52189|M|71.18,84.78|Z|Boralus|N|From Thomas Zelling.|
-C Gaining the Upper Hand|QID|52190|QO|1|M|71.18,84.78|Z|Boralus|CHAT|N|Tell Zelling you are ready|
-C Gaining the Upper Hand|QID|52190|QO|2|M|71.12,82.54|Z|Boralus|NC|N|Go up the stairs to get outside and find the building next to you. Go DOWN into its' basement and click on the Key of the Sea, in the scrying dish, to begin the ritual.|
+C Gaining the Upper Hand|QID|52190|QO|1|M|71.18,84.78|Z|Boralus|CHAT|N|Tell Zelling you are ready.|
+C Gaining the Upper Hand|QID|52190|QO|2|M|71.12,82.54|Z|Boralus|H|N|Exit the building and enter the building to your right. Go down into the basement and click on the Key of the Sea, in the scrying dish, to begin the ritual.|
 C Gaining the Upper Hand|QID|52190|QO|3|M|71.12,82.54|Z|Boralus|N|Kill the things that attack to protect Zelling while he performs the ritual.|
-C Gaining the Upper Hand|QID|52190|QO|4|M|71.12,82.54|Z|Boralus|NC|N|Grab the Abyssal Scepter.|
+C Gaining the Upper Hand|QID|52190|QO|4|M|71.12,82.54|Z|Boralus|H|N|Grab the Abyssal Scepter.|
 T Gaining the Upper Hand|QID|52190|M|71.12,82.54|Z|Boralus|N|To Thomas Zelling.|
-A Return to the Harbor|QID|52990|M|71.12,82.54|Z|Boralus|N|From Thomas Zelling.|PRE|52190|
-C Return to the Harbor|QID|52990|M|70.82,84.55|Z|Boralus|NC|N|Return to the Harbor via the same portal you used to get here.|
-T Return to the Harbor|QID|52990|M|86.95,53.08|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
-A Life Held Hostage|QID|52191|M|86.95,53.08|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52990|
-C Life Held Hostage|QID|52191|QO|1|M|87.14,52.38|Z|Tiragarde Sound|NC|N|Go outside and down the stairs.|
-K General Cadarin|QID|52191|QO|2|M|87.44,52.29|Z|Tiragarde Sound|T|General Cadarin|N|Kill General Cadarin.|ACTIVE|52191|
-T Life Held Hostage|QID|52191|M|86.95,53.08|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
-A The Aid of the Tides|QID|52192|M|86.95,53.08|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52191|
-C The Aid of the Tides|QID|52192|QO|1|M|86.95,53.08|Z|Tiragarde Sound|CHAT|N|Talk with Nathanos and tell him to get out of here.|
+A Return to the Harbor|QID|52990|PRE|52190|M|71.12,82.54|Z|Boralus|N|From Thomas Zelling.|
+P Return to the Harbor|ACTIVE|52990|QO|1|M|70.88,84.31|Z|Boralus|N|Return to the Harbor via the same portal you used to get here.|
+T Return to the Harbor|QID|52990|M|86.91,53.14|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
+A Life Held Hostage|QID|52191|PRE|52990|M|86.91,53.14|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|
+R Life Held Hostage|ACTIVE|52191|QO|1|M|87.19,52.17|Z|Tiragarde Sound|N|Go outside and down the stairs.|
+K General Cadarin|ACTIVE|52191|QO|2|M|87.44,52.29|Z|Tiragarde Sound|T|General Cadarin|N|Kill General Cadarin.|
+T Life Held Hostage|QID|52191|M|86.91,53.14|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
+A The Aid of the Tides|QID|52192|PRE|52191|M|86.91,53.14|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|
+C The Aid of the Tides|QID|52192|QO|1|M|86.91,53.14|Z|Tiragarde Sound|CHAT|N|Talk with Nathanos and tell him to get out of here.\nEnjoy the cut-scene.|
 T The Aid of the Tides|QID|52192|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A A Cycle of Hatred|QID|53003|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52192|
-A Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|From Lilian Voss.|PRE|52192|
-T Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|To Lilian Voss.|
-H The Great Seal|ACTIVE|53003|M|58.40,62.71|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
+A A Cycle of Hatred|QID|53003|PRE|52192|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
+A Champion: Lilian Voss|QID|52861|PRE|52192|M|58.41,62.73|Z|Zuldazar|N|From Lilian Voss.|
+T Champion: Lilian Voss|QID|52861|M|58.41,62.73|Z|Zuldazar|N|To Lilian Voss.|
+H The Great Seal|ACTIVE|53003|M|58.41,62.73|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
 P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
-T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner. If you just received the quest, A Way Out from Sylvanas, you will need to exit Grommash Hold, then return to turn this one in.|
-A Our War Continues|QID|53850^53851|M|48.39,71.16|Z|Orgrimmar|N|From Sylvanas Windrunner. \n\nIf she doesn't offer it, go back to Zuldazar and Nathanos (on the ship) will offer it.\nRight Click to Skip.|PRE|53003|
-P Dazar'alor|ACTIVE|53850|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
-P Dazar'alor|AVAILABLE|53851|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
+T A Cycle of Hatred|QID|53003|M|48.32,71.15|Z|Orgrimmar|N|To Sylvanas Windrunner. If you just received the quest, A Way Out from Sylvanas, you will need to exit Grommash Hold, then return to turn this one in.|
+A Our War Continues|QID|53850^53851|PRE|53003|M|48.32,71.15|Z|Orgrimmar|N|From Sylvanas Windrunner.\n[color=FF0000]NOTE: [/color]If she doesn't offer it, manually check this step off to continue.|
+P Dazar'alor|ACTIVE|53850|PRE|53003|M|58.56,91.34|Z|Orgrimmar|N|Use the Zuldazar portal or otherwise return to Zandalar|
+P Dazar'alor|AVAILABLE|53851|PRE|53003|M|58.56,91.34|Z|Orgrimmar|N|Use the Zuldazar portal or otherwise return to Zandalar|
 ; 8.1 Quests
-A Trouble in Darkshore|QID|54042|M|52.98,94.33|Z|Dazar'alor|N|From Dark Ranger Velonara.|PRE|53003|
-A Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53003|LEAD|53850|  ;  may have a rep requirement beyond revered, but I don't think so ... so no tag as 53003 also required revered.
-C Our War Continues|QID|53851|M|58.44,62.45|Z|Zuldazar|CHAT|N|Speak with Sylvanas Windrunner on the Banshee's Wail.|
+F Port of Zandalar|AVAILABLE|54042|M|51.92,41.20|Z|Dazar'alor|TZ|Grand Bazaar|N|At Paku'ai Rokota.|
+A Trouble in Darkshore|QID|54042|PRE|53003|M|52.98,94.33|Z|Dazar'alor|N|From Dark Ranger Velonara.|
+A Our War Continues|QID|53851|PRE|53003|LEAD|53850|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
+C Our War Continues|QID|53851|QO|1|M|58.44,62.55|Z|Zuldazar|CHAT|N|Speak with Lady Sylvanas Windrunner on the Banshee's Wail.|
 T Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53850^53851|
 C Talk to Dread-Admiral Tattersail|ACTIVE|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quest you want to do first.|
 ; Darkshore opening
 T Trouble in Darkshore|QID|54042|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
-A Black Moon Rising|QID|54044|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54042|
-A Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54042|
-A Quit Vining!|QID|54045|M|54.70,21.99|Z|Darkshore!Instance1333|N|From Shredmaster Blix.|PRE|54042|
-C Dark Ranger Round-Up|QID|54043|M|53.69,29.69|Z|Darkshore!Instance1333|S|NC|N|Use your extra action button to target a night elf corpse.|
-C Quit Vining!|QID|54045|M|53.69,29.69|Z|Darkshore!Instance1333|S|NC|N|Free Goblin Harvesters.|
-K Lieutenant Golras|ACTIVE|54044|M|56.42,35.21|Z|Darkshore!Instance1333|QO|1|T|Lieutenant Golras|N|Kill Lieutenant Golras.|
-K Lieutenant Maliyra|ACTIVE|54044|M|47.00,42.21|Z|Darkshore!Instance1333|QO|3|T|Lieutenant Maliyra|N|Kill Lieutenant Maliyra.|
+A Black Moon Rising|QID|54044|PRE|54042|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|
+A Dark Ranger Round-Up|QID|54043|PRE|54042|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|
+A Quit Vining!|QID|54045|PRE|54042|M|54.70,21.99|Z|Darkshore!Instance1333|N|From Shredmaster Blix.|
+C Dark Ranger Round-Up|QID|54043|M|53.69,29.69|Z|Darkshore!Instance1333|S|EAB|N|Kill any Night Elf and use your extra action button to target the corpse.\n[color=FF0000]NOTE: [/color]You can do multiple at a time; just keep them within the circle.|
+C Quit Vining!|QID|54045|M|53.69,29.69|Z|Darkshore!Instance1333|S|H|N|Free Goblin Harvesters.|
+K Lieutenant Golras|ACTIVE|54044|QO|1|M|56.42,35.21|Z|Darkshore!Instance1333|T|Lieutenant Golras|N|Kill Lieutenant Golras.|
+K Lieutenant Maliyra|ACTIVE|54044|QO|3|M|47.00,42.21|Z|Darkshore!Instance1333|T|Lieutenant Maliyra|N|Kill Lieutenant Maliyra.|
 K Lieutenant Ivyth|ACTIVE|54044|M|46.06,27.38|Z|Darkshore!Instance1333|QO|2|T|Lieutenant Ivyth|N|Kill Lieutenant Ivyth.|
-T Black Moon Rising|QID|54044|M|46.06,27.38|Z|Darkshore!Instance1333|N|To Lost Wisp.|
-A We're Not Out of the Woods Yet|QID|54046|M|46.06,27.38|Z|Darkshore!Instance1333|N|From Lost Wisp.|PRE|54044|
-C Quit Vining!|QID|54045|M|48.57,27.65|Z|Darkshore!Instance1333|US|NC|N|Finish freeing Goblin Harvesters.|
+T Black Moon Rising|QID|54044|M|PLAYER|N|To Lost Wisp.|
+A We're Not Out of the Woods Yet|QID|54046|PRE|54044|M|PLAYER|N|From Lost Wisp.|
+C Quit Vining!|QID|54045|M|48.57,27.65|Z|Darkshore!Instance1333|US|H|N|Finish freeing Goblin Harvesters.|
 C Dark Ranger Round-Up|QID|54043|M|48.57,27.65|Z|Darkshore!Instance1333|US|NC|N|Finish raising the Dark Rangers.|
 T Quit Vining!|QID|54045|M|54.70,21.99|Z|Darkshore!Instance1333|N|To Shredmaster Blix.|
-C We're Not Out of the Woods Yet|QID|54046|M|53.62,20.41|Z|Darkshore!Instance1333|NC|N|Bring Lost Wisp to Nathanos.|
+R We're Not Out of the Woods Yet|ACTIVE|54046|QO|1|M|58.44,62.55|Z|Darkshore!Instance1333|N|Bring Lost Wisp to Nathanos.|
 T We're Not Out of the Woods Yet|QID|54046|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
 T Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
-A The Night Warrior|QID|54059|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54043&54045&54046|
-C The Night Warrior|QID|54059|M|53.50,21.33|Z|Darkshore!Instance1333|QO|1|CHAT|T|Lost Wisp|N|Click on the Lost Wisp to see it's memory.|
+A The Night Warrior|QID|54059|PRE|54043&54045&54046|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|
+C The Night Warrior|QID|54059|QO|1|M|53.50,21.33|Z|Darkshore!Instance1333|CHAT|T|Lost Wisp|N|Click on the Lost Wisp to see it's memory.|
 T The Night Warrior|QID|54059|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
-A Where Hope Dies|QID|54047|M|53.63,20.40|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54059|
-C Where Hope Dies|QID|54047|M|47.48,20.59|Z|Darkshore!Instance1333|QO|1|NC|N|Use your extra action button to signal Nathanos at Delaryn's Corpse.|
-C Where Hope Dies|QID|54047|M|47.75,21.04|Z|Darkshore!Instance1333|QO|2|T|Sira Moonwarden|N|Defeat Sira Moonwarden.|
-C Where Hope Dies|QID|54047|M|47.75,21.04|Z|Darkshore!Instance1333|QO|3|CHAT|N|Click on Sira and decide her fate.|
+A Where Hope Dies|QID|54047|PRE|54059|M|53.63,20.40|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|
+C Where Hope Dies|QID|54047|QO|1|M|47.48,20.59|Z|Darkshore!Instance1333|CHAT|EAB|N|Use your extra action button to signal Nathanos at Delaryn's Corpse.|
+C Where Hope Dies|QID|54047|QO|2|M|47.75,21.04|Z|Darkshore!Instance1333|T|Sira Moonwarden|N|Defeat Sira Moonwarden.|
+C Where Hope Dies|QID|54047|QO|3|M|47.75,21.04|Z|Darkshore!Instance1333|CHAT|N|Click on Sira and decide her fate.|
 T Where Hope Dies|QID|54047|M|47.87,21.24|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
-A The Dead of Night|QID|54049|M|47.87,21.24|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54047|
-C The Dead of Night|QID|54049|M|47.87,21.24|Z|Darkshore!Instance1333|QO|1|CHAT|N|Speak to Nathanos when ready.|
-C The Dead of Night|QID|54049|M|47.91,21.55|Z|Darkshore!Instance1333|QO|2|N|Val'kyr Ritual survived.|
-T The Dead of Night|QID|54049|M|54.63,20.83|Z|Darkshore!Instance1333|N|To Sira Moonwarden.|
-A Aftermath|QID|54050|M|54.63,20.83|Z|Darkshore!Instance1333|N|From Sira Moonwarden.|PRE|54049|
-C Aftermath|QID|54050|M|51.74,21.63|Z|Darkshore!Instance1333|QO|1|CHAT|N|Speak to Nathanos.|
+A The Dead of Night|QID|54049|PRE|54047|M|47.87,21.24|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|
+C The Dead of Night|QID|54049|QO|1|M|47.87,21.24|Z|Darkshore!Instance1333|CHAT|N|Speak to Nathanos when you're able and ready to begin.|
+C The Dead of Night|QID|54049|QO|2|M|47.91,21.55|Z|Darkshore!Instance1333|N|Val'kyr Ritual survived.\n[color=FF0000]NOTE: [/color]You do not need to participate; just stay alive until the NPCs end the fight.|
+T The Dead of Night|QID|54049|M|54.63,20.83|Z|Darkshore!Instance1333|N|To Sira Moonwarden in Lor'danel Landing.|
+A Aftermath|QID|54050|PRE|54049|M|54.63,20.83|Z|Darkshore!Instance1333|N|From Sira Moonwarden.|
+C Aftermath|QID|54050|QO|1|M|51.74,21.63|Z|Darkshore!Instance1333|CHAT|N|Speak to Nathanos.|
 T Aftermath|QID|54050|M|51.74,21.64|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
-A Warfront Preparations|QID|54416|M|51.74,21.64|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54050|
-P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|Z|Darkshore!Instance1333|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
+A Warfront Preparations|QID|54416|PRE|54050|M|51.74,21.64|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|
+P Warfront Preparations|ACTIVE|54416|QO|1|M|52.71,21.26|Z|Darkshore!Instance1333|N|Take the portal provided or otherwise return to the Port of Zandalar.|
 T Warfront Preparations|QID|54416|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
 N War Table|AVAILABLE|53955^53416|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|PRE|54416|
 ; darkshore quests
