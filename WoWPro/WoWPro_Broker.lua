@@ -1186,7 +1186,7 @@ function WoWPro:RowUpdate(offset)
             currentRow.itembutton:SetAttribute("item1", "item:".._use)
 			currentRow.itembutton:SetScript("OnUpdate", function()
 				local itemtexture = _G.GetItemIcon(_use)
-				local start, duration, enabled = _G.GetItemCooldown(_use)
+				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
 				if _G.GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true
 					currentRow.itemicon:SetTexture(itemtexture)
