@@ -1409,6 +1409,7 @@ WoWPro.Client = floor(WoWPro.TocVersion / 10000)
 
 WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
+WoWPro.POST_BC = (WoWPro.TocVersion >= 30000)
 WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
 WoWPro.RETAIL = (WoWPro.TocVersion >= 100000)
 

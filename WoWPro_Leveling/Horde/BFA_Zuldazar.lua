@@ -69,10 +69,10 @@ C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<1|Z|Dazar'alor|N|Click the
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<2|Z|Dazar'alor|N|Click the gong to release the Disciple of Halazzi, then kill him.|
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<3|Z|Dazar'alor|N|Click the gong to release the Disciple of Jan'alai, then kill him.|
 C Punishment of Tal'aman|QID|46927|M|56.18,87.47|QO|1<4|Z|Dazar'alor|N|Click the gong to release the Disciple of Nalorakk, then kill him.|
-C Deterrent|QID|46929|M|50.00,78.00|Z|Dazar'alor|QO|1|S|N|Finish killing and looting the heads from the Amani mobs.|
+C Deterrent|QID|46929|M|50.00,78.00|Z|Dazar'alor|QO|1|US|N|Finish killing and looting the heads from the Amani mobs.|
 C Deterrent|QID|46929|M|56.17,81.12|Z|Dazar'alor|QO|2|S|N|Kill and loot the heads from the Sandfury mobs.|
 C Punishment of Tal'farrak|QID|46928|M|46.61,73.92|Z|Dazar'alor|N|Click the Ancient Gong to summon Gahz'ragon. Kill and loot his tongues.|
-C Deterrent|QID|46929|M|46.66,77.75|Z|Dazar'alor|US|N|Finish killing and looting the heads from the Sandfury and Amani mobs.|
+C Deterrent|QID|46929|M|46.66,77.75|Z|Dazar'alor|US|N|Finish killing and looting the heads from the Sandfury.|
 T Punishment of Tal'aman|QID|46927|M|50.02,84.76|Z|Dazar'alor|N|To Yazma.|
 T Punishment of Tal'farrak|QID|46928|M|50.10,84.78|Z|Dazar'alor|N|To Yazma.|
 T Deterrent|QID|46929|M|50.02,85.13|Z|Dazar'alor|N|To Zolani.|
@@ -103,9 +103,9 @@ C Offensively Defensive|QID|47433|M|59.66,23.77|QO|3|NC|N|Use the "1" key and pl
 T Offensively Defensive|QID|47433|M|46.20,19.29|Z|Dazar'alor|N|To Wardruid Loti.|
 A Pterrortorial Dispute|QID|47435|M|46.20,19.29|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47433|
 A Restraining Order|QID|47434|M|46.20,19.29|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47433|
-C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Run up to Pterrordax Hatchling to shoo them off.|
+C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Run up to Pterrordax Hatchling to shoo them off.|S|
 C Pterrortorial Dispute|QID|47435|M|38.67,13.04|Z|Dazar'alor|N|Kill the Big ones. (Bloodraged Pterrordax).|
-C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Finish shooing the Pterrordax Hatchlings.|
+C Restraining Order|QID|47434|M|38.58,15.73|Z|Dazar'alor|NC|N|Finish shooing the Pterrordax Hatchlings.|US|
 T Pterrortorial Dispute|QID|47435|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 T Restraining Order|QID|47434|M|40.91,11.29|Z|Dazar'alor|N|To Hexlord Raal.|
 A Competitive Devotion|QID|47437|M|40.91,11.29|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47435&47434|
@@ -239,7 +239,7 @@ C The Great Hat Robbery|QID|50381|QO|1|M|62.53,48.52;64.49,43.38|CS|N|After Jani
 C The Great Hat Robbery|QID|50381|QO|2|M|62.91,47.30|H|N|After the third bite, Tik'su will dismount. Click on him to steal his hat.|
 R The Great Hat Robbery|ACTIVE|50381|QO|3|M|61.91,46.89|N|Run back to Jani with the hat.|
 T The Great Hat Robbery|QID|50381|M|61.91,46.89|N|To Jani.\n[color=FF0000]NOTE: [/color]It takes a moment for him to appear.|
-$ Strange Egg|QID|50508|M|61.90,46.22|RARE|ITEM|162613|T|Vukuba|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a Silver Elite to kill for azerite power and resources.|RANK|3|
+$ Strange Egg|QID|50508|M|61.90,46.22|RARE|ITEM|162613|T|Vukuba|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a Silver Elite to kill for azerite power and resources.|RANK|3|LVL|50|
 T The Missing Handler|QID|50538|M|64.25,44.58|N|To Handler Bazkoji.|LEAD|47226|
 A The Orphaned Hatchling|QID|47226|M|64.33,44.69|N|From Direhorn Hatchling.|RANK|2|
 f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|N|At Paku'ai Verraki, on top of the hill.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
@@ -362,13 +362,13 @@ K Darkspeaker Jo'la|QID|50693^51069|M|65.28,10.28|QO|1|RARE|ITEM|160958|T|Darksp
 K Ten'gor and Nol'ixwan|ACTIVE|51091|M|61.55,24.98|QO|1;2|T|Ten'gor|N|They are fighting each other. So, attack whomever is losing and turn on the winner.\n[color=FF0000]NOTE: [/color]This is meant to be a group quest, so you may want help.|RANK|2|
 t WANTED: Darkspeaker Jo'la|QID|51069|M|67.51,17.63|N|To Huntmaster Vol'ka.|
 t WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.51,17.63|N|To Huntmaster Vol'ka.|
-F The Sliver|ACTIVE|49122|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|-Garden of the Loa|
-F Garden of the Loa|ACTIVE|49122|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|Garden of the Loa|
-R Garden of the Loa|ACTIVE|49122|M|35.47,4.88;52.40,30.70|CS|N|Run generally NW, up the stairs, through The Zocalo and out of the city.|
+;F The Sliver|ACTIVE|49122|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|-Garden of the Loa|
+F Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|Garden of the Loa|
+R Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|35.47,4.88;52.40,30.70|CS|N|Run generally NW, up the stairs, through The Zocalo and out of the city.|
 ;C Gonk, Lord of the Pack|QID|47439|M|48.19,32.27|QO|1|CHAT|N|Tell Gonk you will bargain.|
-f Garden of the Loa|ACTIVE|49122|M|49.30,28.49;48.03,28.97;48.39,27.26;49.72,26.28|CS|N|At Paku'ai Rip'nata.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
+f Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|49.30,28.49;48.03,28.97;48.39,27.26;49.72,26.28|CS|N|At Paku'ai Rip'nata.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 F Port of Zandalar|ACTIVE|49122&-47439|AVAILABLE|-47440|M|49.72,26.28|N|At Paku'ai Rip'nata.|TZ|Grand Bazaar|TAXI|-Warport Rastari| ; Take this flight if you chose Pa'ku
-F The Great Seal|ACTIVE|47439|M|49.72,26.28|N|At Paku'ai Rip'nata.|
+;F The Great Seal|ACTIVE|47439|M|49.72,26.28|N|At Paku'ai Rip'nata.|
 ;T Gonk, Lord of the Pack|QID|47439|M|49.89,33.34|Z|Dazar'alor|N|To Wardruid Loti.|
 ;A The Bargain is Struck|QID|48897|M|49.89,33.34|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47439|
 ;R The Golden Throne|ACTIVE|48897|M|49.92,46.66|Z|Dazar'alor|N|Run up to see King Rastakhan.|
@@ -463,7 +463,7 @@ f Temple of the Prophet|ACTIVE|49917|M|49.82,44.59|N|At Kaza the Skyblade by the
 A WANTED: Prime Thumpknuckle|QID|51072|M|49.18,44.91;52.28,43.95;51.62,45.43|CS|N|From the Wanted: Dangerous Beasts poster.|RANK|2|
 A WANTED: Sabertusk Empress|QID|51071|M|51.62,45.43|N|From Wanted Poster.|RANK|2|
 K Prime Thumpknuckle|ACTIVE|51072|M|52.32,45.12|QO|1|T|Prime Thumpknuckle|N|Kill Prime Thumpknuckle. He wanders around a bit, his cave is located here.  This is meant to be a group quest.|RANK|2|
-K Sabertusk Empress|ACTIVE|51071|M|46.78,56.16|QO|1|T|Sabertusk Empress|N|Kill Sabertusk Empress. She may wander, but this is where she usually is. This is meant to be a group quest and may be challenging to solo.|RANK|2|
+K Sabertusk Empress|ACTIVE|51071|M|52.26,47.46;46.78,56.16|CN|QO|1|T|Sabertusk Empress|N|Kill Sabertusk Empress. She will be in one of the two places marked on your map. This is meant to be a group quest and may be challenging to solo.|RANK|2|
 $ Riches of Tor'Nowa|QID|51624|M|52.12,48.16;52.96,47.20|CS|N|Pass between the two trees and follow the small path (ledge) to find some treasure.\nLoot for azerite power and resources.|RANK|2|
 R Village in the Vines|ACTIVE|49917|M|52.88,50.54|N|Run back to the Old Merchant Road and continue following it roughly south to The Village in the Vines.|
 T Kaja'mite? Kaja'must!|QID|49917|M|51.60,50.58|N|To Bently Greaseflare.|
@@ -493,7 +493,7 @@ A Sending Out An SOS|QID|52210|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|F
 A Keep Them On Task|QID|51555|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|RANK|2|
 F Port of Zandalar|ACTIVE|52210|M|51.91,41.20|Z|Dazar'alor|N|At Paku'ai Rokata.|
 T Sending Out An SOS|QID|52210|M|46.15,94.60|Z|Dazar'alor|N|To Captain Grez'ko.|
-A Send the Signal!|QID|49758|M|46.15,94.60|Z|Dazar'alor|RANK|2|
+A Send the Signal!|QID|49758|M|46.15,94.60|Z|Dazar'alor|N|From Captain Grez'ko.|RANK|2|
 C Send the Signal!|QID|49758|M|46.41,94.63|Z|Dazar'alor|NC|N|Take the Fleet Scout to the far island.|
 f Isle of Fangs|ACTIVE|49758|M|54.45,87.06|N|At Paku'ai Leti.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 T Send the Signal!|QID|49758|M|54.42,87.00|N|To Bo'tzun Maset.|
@@ -547,7 +547,7 @@ T Caged Wisdom|QID|49286|M|73.66,60.97|N|To Deyon.|
 A Lost Chelonians|QID|49287|M|73.66,60.97|N|From Deyon.|RANK|2|PRE|49286|
 A Scrollhunters|QID|49288|M|73.66,60.97|N|From Deyon.|RANK|2|PRE|49286|
 C Scrollhunters|QID|49288|M|77.95,64.40|S|N|Kill the Naga casters to recover the Tortollan scrolls as you go.|
-C Lost Chelonians|QID|49287|M|73.10,64.85|QO|1|H|N|Free Kono.|
+C Lost Chelonians|QID|49287|M|73.89,65.85|QO|1|H|N|Free Kono.|
 C Lost Chelonians|QID|49287|M|75.13,66.53|QO|2|H|N|Free Rauloo.|
 C Lost Chelonians|QID|49287|M|77.05,66.44|QO|3|H|N|Free Akru.|
 C Lost Chelonians|QID|49287|M|77.30,64.36|QO|4|H|N|Free Crosh.|
@@ -605,7 +605,7 @@ A Crabulous Feast|QID|51249|M|76.38,48.74|N|From J'eebi.|RANK|2|
 C Productive Pests|QID|51248|M|74.44,51.45|S|H|N|Collect Mosquitos and Sand Borers by clicking on them as you go.|
 C Crabulous Feast|QID|51249|M|74.45,51.11|S|N|Kill and loot the Derelict Hexapods as you go.|
 C The Wreckoning|QID|51246|M|74.92,51.07|S|N|Kill 7th Legion Sailors as you go.|
-K Sailer Jaseon|ACTIVE|51247|M|76.67,50.99|QO|2|T|Sailer Jaseon|N|Kill Sailer Jaseon to loot the scouting map.|RANK|2|
+K Sailor Jaseon|ACTIVE|51247|M|76.67,50.99|QO|2|T|Sailor Jaseon|N|Kill Sailor Jaseon to loot the scouting map.|RANK|2|
 K Medic Hunt|ACTIVE|51247|M|76.46,52.68|QO|1|T|Medic Hunt|N|Kill Medic Hunt and loot the Unsent Letter.|RANK|2|
 K Sergeant Wayne|ACTIVE|51247|M|74.54,51.73|QO|3|T|Sergeant Wayne|N|Sergeant Wayne to loot the Ship's Manifest.|RANK|2|
 C Productive Pests|QID|51248|M|74.44,51.45|US|H|N|Finish collecting Mosquitos and Sand Borers by clicking on them.|
@@ -741,24 +741,24 @@ t Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|41.22,66.92|Z|Hall of Croni
 A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|PRE|50963&50808|;not spurious - necessary for guide flow
 A Sandscar Breach|QID|49940|M|67.00,71.58|Z|Hall of Croniclers!Dazar'alor|N|From Natal'hakata.|RANK|2|
 ; R3 quest chain begins and R1 will drop to the end of the guide from here.
-A The Bones of Xibala|QID|47257|M|69.89,47.50|Z|Hall of Croniclers!Dazar'alor|N|From Chronicler To'kini.|RANK|3|
+A The Bones of Xibala|QID|47257|M|32.28,45.08|Z|Hall of Croniclers!Dazar'alor|N|From Chronicler To'kini.|RANK|3|
 F Warport Rastari|ACTIVE|47257|M|51.89,41.21|Z|Dazar'alor|N|At Paku'ai Rokota.|RANK|3|
 b Xibala|ACTIVE|47257|M|53.69,61.56|N|Ask Wavesinger Amon for a ride to Xibala|RANK|3|
 f Xibala|ACTIVE|47257|M|44.84,72.25|N|At Eliara Duskwing.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|RANK|3|
 A WANTED: Dark Chronicler|QID|51087|M|44.30,72.17|N|From Wanted Poster.|RANK|3|
 T The Bones of Xibala|QID|47257|M|43.92,72.11|N|To Examiner Tae'shara Bloodwatcher.|
 A The Bloodwatcher Legacy|QID|47329|M|43.92,72.11|N|From Examiner Tae'shara Bloodwatcher.|RANK|3|
-C The Bloodwatcher Legacy|QID|47329|M|44.01,72.21|QO|1|NC|N|Keep clicking on the dirt pile until the Fossil is all revealed|
+C The Bloodwatcher Legacy|QID|47329|M|44.01,72.21|QO|1|H|N|Keep clicking on the dirt pile until the Fossil is all revealed|
 T The Bloodwatcher Legacy|QID|47329|M|43.90,72.14|N|To Apprentice Telemancer Astrandis.|
 A Scrying for the Eye|QID|47235|M|43.90,72.14|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|47329|
 A Archaeological Efficiency|QID|50043|M|43.90,72.14|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|47329|
 A Xibalan Ecology|QID|47228|M|43.91,72.11|N|From Examiner Tae'shara Bloodwatcher.|RANK|3|PRE|47329|
 C Xibalan Ecology|QID|47228|M|42.99,74.43|S|N|Kill Xibalan predators as you go.|
-C Archaeological Efficiency|QID|50043|M|41.73,75.25|U|156596|S|NC|N|Use the sweeper beacon to expose the fragments, click on them to pick up.|
-C Scrying for the Eye|QID|47235|M|42.82,73.90|QO|2|NC|N|Scry at the Inner ruins.|
-C Scrying for the Eye|QID|47235|M|41.37,75.40|QO|3|NC|N|Scry at "The Foot".|
-C Scrying for the Eye|QID|47235|M|42.48,72.27|QO|1|NC|N|Scry at the Outer ruins.|
-C Archaeological Efficiency|QID|50043|M|41.73,75.25|U|156596|US|NC|N|Finsih collecting Fossil Fragments.|
+C Archaeological Efficiency|QID|50043|M|41.73,75.25|U|156596|S|H|N|Use the sweeper beacon to expose the fragments, click on them to pick up.|
+C Scrying for the Eye|QID|47235|M|42.82,73.90|QO|2|H|N|Scry at the Inner ruins.|
+C Scrying for the Eye|QID|47235|M|41.37,75.40|QO|3|H|N|Scry at "The Foot".|
+C Scrying for the Eye|QID|47235|M|42.48,72.27|QO|1|H|N|Scry at the Outer ruins.|
+C Archaeological Efficiency|QID|50043|M|41.73,75.25|U|156596|US|H|N|Finsih collecting Fossil Fragments.|
 C Xibalan Ecology|QID|47228|M|42.99,74.43|US|N|Finish killing the Xibalan predators.|
 T Xibalan Ecology|QID|47228|M|43.91,72.11|N|To Examiner Tae'shara Bloodwatcher.|
 T Scrying for the Eye|QID|47235|M|43.89,72.14|N|To Apprentice Telemancer Astrandis.|
@@ -766,18 +766,18 @@ T Archaeological Efficiency|QID|50043|M|43.89,72.14|N|To Apprentice Telemancer A
 A A Nose for Magic|QID|48317|M|43.91,72.11|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|47228&50043&47235|
 K Dark Chronicler|ACTIVE|51087|M|42.00,76.12;42.35,77.34;43.29,76.38;44.16,76.53|CS|QO|1|T|Dark Chronicler|N|Kill the Dark Chronicler.|RANK|3|
 C A Nose for Magic|QID|48317|M|41.04,77.15|QO|1|CHAT|N|Speak to Astrandis in the western ruins.|
-C A Nose for Magic|QID|48317|M|40.70,76.87|QO|2|NC|N|Click on the essence collector.|
+C A Nose for Magic|QID|48317|M|40.70,76.87|QO|2|H|N|Click on the essence collector.|
 C A Nose for Magic|QID|48317|M|40.70,76.87|QO|3|N|Kill the Dark Iron Sabateur.|
-C A Nose for Magic|QID|48317|M|40.32,77.24|QO|5|NC|N|Click on the essence collector.|
+C A Nose for Magic|QID|48317|M|40.32,77.24|QO|4|H|N|Click on the essence collector.|
 C A Nose for Magic|QID|48317|M|40.29,77.09|QO|5|N|Kill the Dark Iron Sabateur.|
-C A Nose for Magic|QID|48317|M|39.92,77.06|QO|6|N|Click on the essence collector.|
+C A Nose for Magic|QID|48317|M|39.92,77.06|QO|6|H|N|Click on the essence collector.|
 C A Nose for Magic|QID|48317|M|39.90,77.10|QO|7|N|Kill the Dark Iron Sabateurs.|
 T A Nose for Magic|QID|48317|M|40.03,76.53|N|To Apprentice Telemancer Astrandis.|
 A A Dark (Iron) Tide|QID|48399|M|40.03,76.53|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|48317|
 A Grand Theft Telemancy|QID|48400|M|40.03,76.53|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|48317|
 C A Dark (Iron) Tide|QID|48399|M|40.00,72.51|S|N|Kill Dark Iron dwarves as you go.|
 K Urda Direflame|ACTIVE|48400|M|39.12,72.32|QO|1|T|Urda Direflame|N|Kill Urda Direflame.|RANK|3|
-C Grand Theft Telemancy|QID|48400|M|39.09,72.45|QO|2|NC|N|Place Telemancy beacon.|
+C Grand Theft Telemancy|QID|48400|M|39.09,72.45|QO|2|H|N|Place Telemancy beacon.|
 C A Dark (Iron) Tide|QID|48399|M|40.00,72.51|US|N|Finish off your share of the Dark Iron dwarves.|
 t WANTED: Dark Chronicler|QID|51087|M|43.91,72.11|N|To Examiner Tae'shara Bloodwatcher.|
 T A Dark (Iron) Tide|QID|48399|M|44.41,72.11|N|To Apprentice Telemancer Astrandis.|
@@ -806,6 +806,6 @@ T Lil' Tika|QID|49681|M|47.33,25.14|N|To Beastmother Jabati.|
 ;A Bargain of Blood
 F The Sliver|ACTIVE|47199|M|49.72,26.28|N|At Paku'ai Rip'nata.|
 J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|JUMP|EliEndgame|
-D The End.|N|This Concludes Zuldazar. The war campaign guide will automatically load when you check this step off. If instead you want to go elsewhere, select the next area and let that guide autoload.|GUIDE|EmmHWarCampaign|
+D The End.|N|This concludes Zuldazar. The Nazmir guide will automatically load when you check this step off. You can start the War Campaign at level 35. If instead you want to go elsewhere, select the next area and let that guide autoload.|
 ]]
 end)
