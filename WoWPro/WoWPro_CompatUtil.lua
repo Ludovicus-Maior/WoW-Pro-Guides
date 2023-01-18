@@ -9,7 +9,7 @@
 
 --[[ C_GossipInfo ]]--
 function WoWPro.GossipInfo_GetActiveQuests()
-    if WoWPro.RETAIL then
+    if WoWPro.POST_BC then
         return _G.C_GossipInfo.GetActiveQuests()
     else
         local result = {}
@@ -43,7 +43,7 @@ function WoWPro.GossipInfo_GetActiveQuests()
     end
 end
 function WoWPro.GossipInfo_GetAvailableQuests()
-    if WoWPro.RETAIL then
+    if WoWPro.POST_BC then
         return _G.C_GossipInfo.GetAvailableQuests()
     else
         local result = {}
