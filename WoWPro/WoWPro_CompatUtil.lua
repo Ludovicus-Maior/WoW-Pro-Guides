@@ -84,7 +84,7 @@ function WoWPro.GossipInfo_GetNumActiveQuests()
     end
 end
 function WoWPro.GossipInfo_GetNumAvailableQuests()
-    if not WoWPro.POST_BC then
+    if WoWPro.POST_BC then
         return _G.C_GossipInfo.GetNumAvailableQuests()
     else
         return _G.GetNumGossipAvailableQuests()
