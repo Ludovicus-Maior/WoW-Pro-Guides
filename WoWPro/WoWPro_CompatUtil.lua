@@ -77,28 +77,28 @@ function WoWPro.GossipInfo_GetAvailableQuests()
     end
 end
 function WoWPro.GossipInfo_GetNumActiveQuests()
-    if WoWPro.RETAIL then
+    if WoWPro.POST_BC then
         return _G.C_GossipInfo.GetNumActiveQuests()
     else
         return _G.GetNumGossipActiveQuests()
     end
 end
 function WoWPro.GossipInfo_GetNumAvailableQuests()
-    if WoWPro.RETAIL then
+    if not WoWPro.POST_BC then
         return _G.C_GossipInfo.GetNumAvailableQuests()
     else
         return _G.GetNumGossipAvailableQuests()
     end
 end
 function WoWPro.GossipInfo_GetText()
-    if WoWPro.RETAIL then
+    if WoWPro.POST_BC then
         return _G.C_GossipInfo.GetText()
     else
         return _G.GetGossipText()
     end
 end
 function WoWPro.GossipInfo_SelectActiveQuest(index)
-    if WoWPro.RETAIL then
+    if WoWPro.POST_BC then
         local aQuests = _G.C_GossipInfo.GetActiveQuests()
         local qid = aQuests[index].questID
         WoWPro:dbp("GossipInfo_SelectActiveQuest(RETAIL): pick %d/%d", index, qid)
@@ -109,7 +109,7 @@ function WoWPro.GossipInfo_SelectActiveQuest(index)
     end
 end
 function WoWPro.GossipInfo_SelectAvailableQuest(index)
-    if WoWPro.RETAIL then
+    if WoWPro.POST_BC then
         local aQuests = _G.C_GossipInfo.GetAvailableQuests()
         local qid = aQuests[index].questID
         WoWPro:dbp("GossipInfo_SelectAvailableQuest(RETAIL): pick %d/%d", index, qid)
@@ -198,5 +198,13 @@ function WoWPro.SetResizeBounds(frame, minWidth, minHeight, maxWidth, maxHeight)
         if maxWidth then
             frame:SetMaxResize(maxWidth, maxHeight)
         end
+    end
+end
+
+function WoWPro.GetItemCooldown(itemID)
+    if WoWPro.POST_BC then
+        return _G.C_Container.GetItemCooldown(itemID)
+    else
+        return _G.GetItemCooldown(itemID)
     end
 end
