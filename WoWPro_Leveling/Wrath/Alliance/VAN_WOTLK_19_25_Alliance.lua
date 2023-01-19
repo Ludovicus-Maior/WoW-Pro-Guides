@@ -27,8 +27,8 @@ A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starbl
 F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
 R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
 T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind, Elwynn|
-F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind, Elwynn|
+H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind|
+F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|15.28,71.46|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|Redridge Mountains|
@@ -45,7 +45,7 @@ T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|Z|Redridge Mountains|
 F Sentinel Hill|ACTIVE|132|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|Redridge Mountains|
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
-F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind, Elwynn|
+F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind|
 T The Defias Brotherhood|QID|135|M|78.38,70.77|Z|Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|78.38,70.77|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 F Sentinel Hill|ACTIVE|141|U|6948|N|Fly or Hearth to Westfall|Z|Stormwind City|M|71.00,72.50|
