@@ -1,3 +1,29 @@
+# Release 2023.01.18.A
+## Bug Fixes
+* Add new `POST_BC` version flag for Wrath and Retail.
+* Use new compat layer WoWPro.GetItemCooldown()
+* Update Compat functions for `POST_BC` changes for`C_GossipInfo` and `C_Container`
+* Add GetActiveQuests() and GetAvailableQuests() to the `POST_BC` list.
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail Leveling
+* Alliance: Tiragarde Sound
+* Horde: BFA War Campaign, Zuldazar
+* Neutral: Azure Span, DF Campaign, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, Demon Hunter Intro, Bastion, Maw Intro
+* Exploration:  Highest Peaks
+### Classic
+* Neutral: Argent Tournament
+
+### WotLK
+* No Wrath guides were harmed during this release
+
+### Professions
+* No Professions guides were harmed during this release
+
 # Release 2023.01.12.A
 ## Bug Fixes
 * No code changes this release
