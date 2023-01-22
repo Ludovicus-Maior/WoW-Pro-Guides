@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('DF_Campaign', 'Leveling', 'Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,"Dragonflight Campaign")
-WoWPro:GuideQuestTriggers(guide, 72585,70180) -- add starting quest for each chapter
+WoWPro:GuideQuestTriggers(guide, 72585,70180,68863) -- add starting quest for each chapter
 WoWPro:GuideLevels(guide,60, 70, 70)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -54,7 +54,68 @@ A Vault of the Incarnates: Fury of the Storm-Eater|QID|66847|PRE|67073|M|72.52,5
 f Vault of the Incarnates|ACTIVE|66847|M|72.12,56.47|Z|2025|N|At Nirazal.|
 t Vault of the Incarnates: Fury of the Storm-Eater|QID|66847|M|57.46,58.73|Z|2025|N|To Alexstrasza.|
 
-; Ch 3 - The Chieftain's Duty - |DFREN|Iskaara;2503;11|-- or maybe 9 per comments
+; Ch 3 - The Chieftain's Duty - |DFREN|Iskaara;2511;11|
+A A Lost Tribe|QID|68863|N|From Rowie will appear when You will reach Renown Level 11 with Iskaara Tuskarr.|DFREN|Iskaara;2511;11|
+T A Lost Tribe|QID|68863|M|13.15,49.24|Z|2024|N|To Murik.|
+A Sudden Isolation|QID|68640|PRE|68863|M|13.15,49.24|Z|2024|N|From Murik.|
+C Sudden Isolation|QID|68640|M|55.07,38.22|Z|2022|N|Speak with Guard Hakota.|
+T Sudden Isolation|QID|68640|M|55.07,38.22|Z|2022|N|To Guard Hakota.|
+A Pressing Matters|QID|66409|PRE|68640|M|55.07,38.22|Z|2022|N|From Guard Hakota.|
+C Pressing Matters|QID|66409|M|65.56,31.47|Z|2022|N|Kill and loot Flameshaper Lorak.|
+T Pressing Matters|QID|66409|M|55.07,38.22|Z|2022|N|To Guard Hakota.|
+A Worst Impressions|QID|66410|PRE|66409|M|55.07,38.22|Z|2022|N|From Guard Hakota.|
+C Worst Impressions|QID|66410|M|53.66,37.96|Z|2022|CHAT|N|Follow Guard Hakota then You can speak with Tutaqan to skip conversation and finish quest.|
+T Worst Impressions|QID|66410|M|53.66,37.96|Z|2022|N|To Elder Unujaak.|
+A Troubled Waters|QID|66411|PRE|66410|M|53.66,37.96|Z|2022|N|From Elder Unujaak.|
+A Salvaging Supplies|QID|66417|PRE|66410|M|53.66,37.96|Z|2022|N|From Crafter Kuliqa.|
+C Troubled Waters|QID|66411|QO|2|M|53.11,35.32|Z|2022|N|Succulent Snapper Meat drop from Agitated Snapper.|S|
+C Salvaging Supplies|QID|66417|QO|1;2|M|53.11,35.32|Z|2022|H|N|Pick up the Whalebone Fragments and Waterlogged wood.|S|
+A Encroaching Heat|QID|66413|PRE|66444|M|53.11,35.32|Z|2022|N|From half boiled fish in the river.|RANK|2|
+C Troubled Waters|QID|66411|QO|1|M|53.11,35.32|Z|2022|U|192191|N|Use[color=33fff9] Tuskarr Fishing Net [/color]to catch the Warmwater Riverfish.|
+C Salvaging Supplies|QID|66417|QO|1;2|M|53.11,35.32|Z|2022|H|N|Finish collecting the Whalebone Fragments and Waterlogged Wood.|US|
+C Troubled Waters|QID|66411|QO|2|M|53.11,35.32|Z|2022|N|Keep killing and looting Agitated Snappers till you have enough meat.|US|
+T Troubled Waters|QID|66411|M|54.10,38.23|Z|2022|N|To Elder Unujaak.|
+T Encroaching Heat|QID|66413|M|54.90,36.45|Z|2022|N|To Elder Unujaak.|
+C Salvaging Supplies|QID|66417|QO|3|M|54.23,38.62|Z|2022|CHAT|N|Then speak with Crafter Kuliqa and give him first materials then finish quest.
+T Salvaging Supplies|QID|66417|M|54.23,38.62|Z|2022|N|To Crafter Kuliqa.|
+
+A Testing the Tuskarrsenal|QID|66418|PRE|66411&66417|M|54.23,38.62|Z|2022|N|From Crafter Kuliqa.|
+C Testing the Tuskarrsenal|QID|66418|QO|1|M|54.23,38.62|Z|2022|N|First pick up Uktulut Bone Spear is on front of Kuliqa.|
+C Testing the Tuskarrsenal|QID|66418|QO|2|M|54.07,36.92|Z|2022|EAB|N|Target the training dummies, then use[color=33fff9] Extra Action Button [/color] on each one.|
+T Testing the Tuskarrsenal|QID|66418|M|54.23,38.62|Z|2022|N|Turn in to Crafter Kuliqa.|
+A All But One|QID|66414|PRE|66418|M|53.73,37.97|Z|2022|N|From Tutagan.|
+C All But One|QID|66414|QO|1|M|56.12,35.51|Z|2022|N|pick up Ipko. [color=FF0000]NOTE: [/color]YOU CAN'T FLY OR USE SPEED SKILLS - You will drop Ipko.|
+C All But One|QID|66414|QO|2|M|54.90,36.45|Z|2022|N|There will be fights on the way, don't forget to pick Ipko back up.|
+T All But One|QID|66414|M|54.90,36.45|Z|2022|N|To Tutagan.|
+A Closure|QID|66440|PRE|66414|M|54.90,36.45|Z|2022|N|From Elder Unujaak.|
+C Closure|QID|66440|QO|1|M|53.57,39.17|Z|2022|CHAT|N|Talk to Tutagan.|
+C Closure|QID|66440|QO|2;3;4;5|M|53.58,39.24|Z|2022|H|N|Click on the three items on the table, then wait while the ritual will finishes.|
+T Closure|QID|66440|M|53.66,39.24|Z|2022|N|To Tutagan.|
+A In Mourning|QID|66431|PRE|66440|M|53.66,39.24|Z|2022|N|From Elder Unujaak.|
+C In Mourning|QID|66431|M|53.89,41.24|Z|2022|CHAT|N|Fly up/over next waterfall and speak with Tutaqan.|
+T In Mourning|QID|66431|M|53.89,41.24|Z|2022|N|To Tutagan.|
+A The Only Way Past Is Through|QID|66415|PRE|66431|M|53.89,41.24|Z|2022|N|From Tutagan.|
+C The Only Way Past Is Through|QID|66415|QO|2|M|52.87,41.02|Z|2022|CHAT|N|Pet Peaceful Ottuk by speaking with him.[color=FF0000]NOTE: [/color]Dismount first.|
+C The Only Way Past Is Through|QID|66415|QO|3|M|53.89,41.24|Z|2022|NC|N|Go back to Tutagan and the Ottuk will follow.|
+C The Only Way Past Is Through|QID|66415|QO|4|M|54.10,40.28|Z|2022|CHAT|N|Click on Territorial Ottuk.|
+C The Only Way Past Is Through|QID|66415|QO|5|M|54.45,41.01|Z|2022|H|N|Realize it will take more than petting and go to seek a toy. Pick Up Broken Fishing Pole.|
+C The Only Way Past Is Through|QID|66415|QO|6|M|52.92,39.32|Z|2022|H|N|Pick Up small Stuffed Duckling Toy.|
+C The Only Way Past Is Through|QID|66415|QO|7|M|PLAYER|EAB|NC|N|Use [color=33fff9] Extra Action Button [/color]to create Ottuk Lure.|
+C The Only Way Past Is Through|QID|66415|QO|8|M|54.10,40.28|Z|2022|CHAT|N|Go back to Territorial Ottuk and choose chat option to lure him out, then he will follow you to Tutagan.[color=FF0000] NOTE: [/color]Dismount first.||
+C The Only Way Past Is Through|QID|66415|QO|9|M|54.26,42.02|Z|2022|H|N|Fly to tiny cave. It is beyond and to the right from Tutagan. Click on Dutiful Ottuk.|
+C The Only Way Past Is Through|QID|66415|QO|10|M|53.30,41.54|Z|2022|H|N|Pick up Meaty Crab. Again, dismount.|
+C The Only Way Past Is Through|QID|66415|QO|11|M|54.26,42.02|Z|2022|CHAT|N|Fly back to Dutiful Ottuk and speak with it to offer the tidbit.[color=FF0000]NOTE: [/color]Dismount first.|
+C The Only Way Past Is Through|QID|66415|QO|12|M|53.89,41.24|Z|2022|NC|N|Back to Tutaqan and wait until conversation finishes.|
+T The Only Way Past Is Through|QID|66415|M|53.89,41.24|Z|2022|N|To Tutagan.|
+A Calling the Hunting Party|QID|66443|PRE|66415|N|Auto pushed to UI.|
+C Calling the Hunting Party|QID|66443|M|53.91,38.14|Z|2022|CHAT|N|Talk to Guard Hakota then wait until conversation finishes.|
+T Calling the Hunting Party|QID|66443|M|53.91,38.14|Z|2022|N|To Guard Hakota.|
+A While the Iron Is Hot|QID|66444|PRE|66443|M|53.91,38.14|Z|2022|N|From Tutagan.|
+K Zhurtan the Riverboiler|ACTIVE|66444|QO|1|M|48.72,45.33|Z|2022|N|Kill Zhurtan the Riverboiler.|T|Zhurtan the Riverboiler|
+T While the Iron Is Hot|QID|66444|M|53.91,38.14|Z|2022|N|To Guard Hakota.|
+f Uktulut Backwater|PRE|66444|M|54.33,36.97|Z|2022|N|You will unlock this Village and Fly point at Janatak.|;what to use for QID??
+
+
 ; Ch 4 - A Mystery, Sealed - |DFREN|Dragonscale Exp;2507;13|
 ; Ch 5 - The Silver Purpose - |DFREN|Valdrakken;2510;12|
 ; Ch 6 - In the Halls of Titans - |DFREN|Dragonscale Exp;2507;24|
@@ -114,6 +175,9 @@ T The Third Challenge of Tyr: Persistence Embodied|QID|70621|M|64.02,41.44|Z|202
 A Victorious|QID|70510|PRE|70621|M|64.02,41.44|Z|2022|N|From Maiden of Inspiration.|
 P Valdrakken|ACTIVE|70510|M|64.05,41.36|Z|2022|N|Take the portal or otherwise travel back to Valdrakken to turn in.|
 T Victorious|QID|70510|M|83.96,53.57|Z|2112;Valdrakken|N|To Maiden of Inspiration.|
+A Fourth Challenge of Tyr: Resourcefulness|QID|70881|M|84.33,53.52|Z|2112|N|From Maiden of Inspiration.|
+C Halls of Infusion|N|Investigate the Halls of Infusion i.e. run the dungeon, loot the bosses.|
+T Fourth Challenge of Tyr: Resourcefulness|QID|70881|M|84.33,53.56|Z|2112|N|To Maiden of Inspiration.|
 ; not finished
 
 ]]
