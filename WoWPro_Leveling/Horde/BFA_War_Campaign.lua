@@ -24,7 +24,7 @@ A Infusing the Heart|QID|52428|PRE|51211|M|50.13,53.67|Z|Chamber of Heart!Dungeo
 C Infusing the Heart|QID|52428|QO|2|M|53.37,56.35;55.55,60.66;52.57,71.89;50.01,74.36;45.30,62.69|CN|Z|Chamber of Heart!Dungeon1021|EAB|N|While within the Chamber of Heart, use the 'Extra Activity Button' near an Azerite Crack.|
 C Infusing the Heart|QID|52428|M|50.31,64.73|Z|Chamber of Heart!Dungeon1021|EAB|QO|3|N|Use the 'Extra Activity Button' in the center of the room.\n[color=FF0000]NOTE: [/color]Once you start this, you are locked until it finishes.|
 T Infusing the Heart|QID|52428|PRE|51211|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
-A A Brother's Help|QID|54938|PRE|52428|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|
+;A A Brother's Help|QID|54938|PRE|52428|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|;Looks like this quest was removed in 8.2
 P Magni's Encampment|ACTIVE|54938|M|50.12,30.56|Z|Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
 P Hall of Ancient Paths|ACTIVE|54938|M|41.61,45.21|Z|81;Silithus|N|Click on the portal to travel back to Zuldazar.|
 F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
