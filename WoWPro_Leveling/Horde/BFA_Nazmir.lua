@@ -12,9 +12,9 @@ t The Great Sea Scrolls|QID|53476|M|71.50,30.36|S!US|N|When it's convenient, fly
 N Use of Ranks|AVAILABLE|47105|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|AVAILABLE|47105|ACH|12942|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
 N Treasure|AVAILABLE|47105|ACH|12771|N|The majority of the treasure chests in Nazmir are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
-;A Nazmir|QID|47512|N|From Scouting map
-T Nazmir|QID|47512|M|41.32,66.49|Z|Dazar'alor|N|To Princess Talanji.|
-A Journey to Nazmir|QID|47103|M|41.32,66.49|Z|Dazar'alor|N|From Princess Talanji.|PRE|47512|
+A Nazmir|QID|47512|M|40.44,69.08|Z|1164||N|From Scouting map
+T Nazmir|QID|47512|M|41.32,66.49|Z|1164|N|To Princess Talanji.|
+A Journey to Nazmir|QID|47103|M|41.32,66.49|Z|1164|N|From Princess Talanji.|PRE|47512|
 ;to open up Jani's mysterious trashpiles
 R The Zocalo|AVAILABLE|47441|M|42.58,27.97|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd". Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|RANK|3|
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
@@ -34,7 +34,7 @@ C Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|QO|2|NC|N|Meet with Prince
 T Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|N|To Princess Talanji.|
 A Into The Darkness|QID|47105|M|42.99,86.03|N|From Princess Talanji.|
 $ Venomous Seal|QID|49889|M|46.21,82.92|N|Located inside the building.\nTreasure to loot for resources and artifact power.\n[color=FF0000]NOTE: [/color]Do this quick because the room is filled with poison gas.|RANK|2|
-R Into The Darkness|QID|47105|M|46.71,80.37|N|Scout ahead to The Fallen Outpost.|
+R The Fallen Outpost|QID|47105|M|46.71,80.37|N|Scout ahead to The Fallen Outpost.|
 T Into The Darkness|QID|47105|M|47.24,79.74|N|To Princess Talanji.|
 A Leave None Standing|QID|47264|M|47.24,79.74|N|From Princess Talanji.|PRE|47105|
 A Improper Burial|QID|47130|M|47.24,79.74|N|From Princess Talanji.|PRE|47105|

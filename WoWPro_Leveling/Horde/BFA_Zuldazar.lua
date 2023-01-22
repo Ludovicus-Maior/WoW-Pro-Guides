@@ -363,11 +363,11 @@ K Ten'gor and Nol'ixwan|ACTIVE|51091|M|61.55,24.98|QO|1;2|T|Ten'gor|N|They are f
 t WANTED: Darkspeaker Jo'la|QID|51069|M|67.51,17.63|N|To Huntmaster Vol'ka.|
 t WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.51,17.63|N|To Huntmaster Vol'ka.|
 ;F The Sliver|ACTIVE|49122|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|-Garden of the Loa|
-F Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|Garden of the Loa|
-R Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|35.47,4.88;52.40,30.70|CS|N|Run generally NW, up the stairs, through The Zocalo and out of the city.|
+;F Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|Garden of the Loa|
+;R Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|35.47,4.88;52.40,30.70|CS|N|Run generally NW, up the stairs, through The Zocalo and out of the city.|
 ;C Gonk, Lord of the Pack|QID|47439|M|48.19,32.27|QO|1|CHAT|N|Tell Gonk you will bargain.|
-f Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|49.30,28.49;48.03,28.97;48.39,27.26;49.72,26.28|CS|N|At Paku'ai Rip'nata.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
-F Port of Zandalar|ACTIVE|49122&-47439|AVAILABLE|-47440|M|49.72,26.28|N|At Paku'ai Rip'nata.|TZ|Grand Bazaar|TAXI|-Warport Rastari| ; Take this flight if you chose Pa'ku
+;f Garden of the Loa|ACTIVE|49122|AVAILABLE|-47439|M|49.30,28.49;48.03,28.97;48.39,27.26;49.72,26.28|CS|N|At Paku'ai Rip'nata.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
+;F Port of Zandalar|ACTIVE|49122|AVAILABLE|-47439|M|49.72,26.28|N|At Paku'ai Rip'nata.|TZ|Grand Bazaar|TAXI|-Warport Rastari| ; Take this flight if you chose Pa'ku
 ;F The Great Seal|ACTIVE|47439|M|49.72,26.28|N|At Paku'ai Rip'nata.|
 ;T Gonk, Lord of the Pack|QID|47439|M|49.89,33.34|Z|Dazar'alor|N|To Wardruid Loti.|
 ;A The Bargain is Struck|QID|48897|M|49.89,33.34|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47439|
@@ -375,7 +375,7 @@ F Port of Zandalar|ACTIVE|49122&-47439|AVAILABLE|-47440|M|49.72,26.28|N|At Paku'
 ;T The Bargain is Struck|QID|47432^48897|M|49.92,46.66|Z|Dazar'alor|N|To King Rastakhan.|
 F Warport Rastari|ACTIVE|49122|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|TAXI|Warport Rastari|RANK|-1|
 ; If you used your BOA map of all FPs, skip these
-F Port of Zandalar|ACTIVE|49122|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|TAXI|-Warport Rastari|
+F Port of Zandalar|ACTIVE|49122|M|66.25,17.59|Z|862|N|At Paku'ai Rokota.|TZ|Grand Bazaar|TAXI|-Warport Rastari|
 R The Mugambala|ACTIVE|49122|M|53.73,56.29|N|Run thru Mugambala and continue on the path to find Habutu and Zolani at Warport Rastari.|TAXI|-Warport Rastari|
 f The Mugambala|ACTIVE|49122|M|53.34,57.33|N|At Paku'ai Chal.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|TAXI|-Warport Rastari|
 ; If running Rank 2/3, and used BOA Map of FPs, to get you close to the Silver on your way to Warport Rastari
@@ -482,7 +482,7 @@ K Zayoos|QID|49972|M|47.98,54.24|QO|1|RARE|ITEM|161125|T|Zayoos|N|Silver Elite t
 K King Da'ka|ACTIVE|49922|M|46.73,50.43|QO|1|T|King Da'ka|N|King Da'ka is in a small cave at the top of the hill.|RANK|2|
 C Gorilla Warfare|QID|49920|M|48.03,52.34|US|H|N|Finish releasing the Peace-Loving Gorillas.|
 T Gorilla Warfare|QID|49920|M|47.42,52.42|N|To Tsunga.|
-C Kaja'mite Ore Bust|QID|49919|M|48.03,52.68|US|H|N|Finish scanning the Kaja'mite Steam Vents.|
+C Kaja'mite Ore Bust|QID|49919|M|48.03,52.68;48.95,52.54;48.18,54.00;49.15,54.37;49.51,54.70|CN|US|H|N|Finish scanning the Kaja'mite Steam Vents.|
 C Gorilla Gorge|QID|49918|M|48.13,54.89|N|Head back down the hill and finish the bonus objective by the time you get to the other turn-ins.|
 ;T Gorilla Gorge|QID|49918|M|48.13,54.89|N|Bonus Objective - Autocompleted.|
 T Kaja'mite Ore Bust|QID|49919|M|51.79,53.57;51.60,50.57|CS|N|To Bently Greaseflare in Village in the Vines.|
@@ -804,8 +804,9 @@ T Skycaller Soltok|QID|49680|M|47.25,24.95|N|To Bladeguard Sonji.|
 T The Sethrak Incursion|QID|49679|M|47.33,25.14|N|To Beastmother Jabati.|
 T Lil' Tika|QID|49681|M|47.33,25.14|N|To Beastmother Jabati.|
 ;A Bargain of Blood
-F The Sliver|ACTIVE|47199|M|49.72,26.28|N|At Paku'ai Rip'nata.|
-J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|JUMP|EliEndgame|
-D The End.|N|This concludes Zuldazar. The Nazmir guide will automatically load when you check this step off. You can start the War Campaign at level 35. If instead you want to go elsewhere, select the next area and let that guide autoload.|
+H The Great Seal|AVAILABLE|47512|M|70.77,29.59|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]Manually check this step off to take the flightpath at Scroll of Flight.|
+;J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|JUMP|EliEndgame|
+J War Campaign|AVAILABLE|52749|N|You can start the War Campaign at level 35 and do the introduction questline.\n[color=FF0000]NOTE: [/color]Click here to open that guide or manually check this step off to continue.|JUMP|EmmHWarCampaign|LVL|35|
+D The End.|N|This concludes Zuldazar. The Nazmir guide will automatically load when you check this step off.|
 ]]
 end)
