@@ -3,7 +3,7 @@
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: Release 2023.01.25.A
+## Version: 2023.01.18.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_WorldEvents.lua
