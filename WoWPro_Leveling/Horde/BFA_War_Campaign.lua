@@ -331,12 +331,12 @@ F Xibala|ACTIVE|53941|M|52.10,90.16|Z|Dazar'alor|N|Xibala is as close as you can
 F Warport Rastari|ACTIVE|53941|M|52.10,90.16|Z|Dazar'alor|N|Warport Rastari is as close as you can fly and then you have to run the rest of the way.|TAXI|-Xibala|FLY|BFA|
 R Xibala|ACTIVE|53941|M|44.56,64.16;43.17,70.02|CS|Z|Zuldazar|N|Exit via the Rastari Passage and follow the road west.|TAXI|-Xibala|FLY|BFA|
 f Xibala|ACTIVE|53941|M|44.84,72.25|Z|Zuldazar|N|At Eliara Duskwing.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
-
-T A Mech for a Goblin|QID|53941|M|36.30,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
-A It Belongs in My Mech!|QID|54123|PRE|53941|M|36.30,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|
+R Bilgewater Bonanza|ACTIVE|53941|M|37.04,72.11|Z|Zuldazar|N|Head west towards the water and follow the shoreline north.\n[color=FF0000]NOTE: [/color]The Dark Iron mobs around the dig site to the north of you are equal a corpse run.\nThe ones by the water are a lot easier to handle.|
+T A Mech for a Goblin|QID|53941|M|36.31,72.03|Z|Zuldazar|N|To Trade Prince Gallywix.|
+A It Belongs in My Mech!|QID|54123|PRE|53941|M|36.31,72.03|Z|Zuldazar|N|From Trade Prince Gallywix.|
 A Avoiding Lawsuits 101|QID|54124|PRE|53941|M|36.25,72.03|Z|Zuldazar|N|From Patch.|
 C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|S|NC|T|Azerite Muck|U|166309|N|Target the mucks and use the vacuumizer on living mobs.|
-C Avoiding Lawsuits 101|QID|54124|M|34.13,69.77|Z|Zuldazar|NC|U|166309|N|Uninsured Goblin Worker healed.The vacuumizer still works even if the quest is done.|
+C Avoiding Lawsuits 101|QID|54124|M|34.13,69.77|Z|Zuldazar|H|U|166309|N|Uninsured Goblin Worker healed.\n[color=FF0000]NOTE: [/color]You can continue to clear mucks with the vacuumizer even if the quest is done.|
 C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|US|NC|T|Azerite Muck|U|166309|N|Finish fueling up the azerite pack by using the vacuumizer on the groups of azerite mucks.|
 T Avoiding Lawsuits 101|QID|54124|M|36.25,72.02|Z|Zuldazar|N|To Patch.|
 T It Belongs in My Mech!|QID|54123|M|36.31,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
@@ -483,7 +483,7 @@ T Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|NC|N|To Princess Talanji.|
 A Fly Out to Meet Them|QID|54280|PRE|54275|M|31.35,31.97|Z|Nazmir|N|From General Rakera.|
 C Fly Out to Meet Them|QID|54280|M|31.47,32.06|Z|Nazmir|V|N|Hop on for a ride back to Zuldazar with Hexlord Raal|
 T Fly Out to Meet Them|QID|54280|M|37.04,5.23|Z|Dazar'alor|N|To Princess Talanji.|
-A Battle of Dazar'alor|QID|54282|M|37.04,5.23|Z|Dazar'alor|N|From Princess Talanji. This is a raid quest. Accept or not as you choose.|
+;A Battle of Dazar'alor|QID|54282|M|37.04,5.23|Z|Dazar'alor|N|From Princess Talanji. This is a raid quest. Accept or not as you choose.|
 
 ; Warfronts - Level 50
 T The Warfront Looms|QID|53207|M|52.92,94.52|Z|Dazar'alor|N|To Throk at the War Table in Port of Vandalar.\n[color=FF0000]NOTE: [/color]This quest should've been pushed to you by a UI Alert when you reached level 50.|
