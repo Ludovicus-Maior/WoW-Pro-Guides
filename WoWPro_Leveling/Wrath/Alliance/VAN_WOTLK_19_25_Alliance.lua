@@ -27,8 +27,8 @@ A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starbl
 F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
 R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
 T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind City|
-F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind City|
+H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind|
+F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|15.28,71.46|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|Redridge Mountains|
@@ -45,7 +45,7 @@ T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|Z|Redridge Mountains|
 F Sentinel Hill|ACTIVE|132|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|Z|Redridge Mountains|
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
-F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
+F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind|
 T The Defias Brotherhood|QID|135|M|78.38,70.77|Z|Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|78.38,70.77|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 F Sentinel Hill|ACTIVE|141|U|6948|N|Fly or Hearth to Westfall|Z|Stormwind City|M|71.00,72.50|
@@ -99,10 +99,10 @@ T The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|Z|Westfal
 A The Defias Brotherhood|QID|155|M|55.68, 47.51|N|From The Defias Traitor. May have to wait for him to spawn. He takes off running as soon as you accept.|PRE|142|Z|Westfall|
 C The Defias Brotherhood|QID|155|M|42.53,71.69|N|Escort the NPC to the end of Moonbrook. Do not let him die.|Z|Westfall|
 T The Defias Brotherhood|QID|155|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|Westfall|
-F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|Westfall|
-T Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|To Baros Alexston.|
+F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind, Elwynn|Z|Westfall|
+T Humble Beginnings|QID|399|M|57.61,47.85|Z|Stormwind City|N|To Baros Alexston.|
 
-F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|Stormwind City|N|Fly to Redridge.|
+F Lakeshire|ACTIVE|116|M|70.92,72.61|Z|Stormwind City|N|Fly to Redridge.|
 t Return to Verner|QID|119|M|30.97,47.27|Z|Redridge Mountains|N|To Verner Osgood.|;if not done elwynn guide --
 t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
@@ -125,7 +125,7 @@ T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|To Agent Kearnen. You
 A Klaven's Tower|QID|2359|M|68.4,70.2|Z|Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
 C Klaven's Tower|QID|2359|M|70,75|Z|Westfall|QO|2|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
 C Klaven's Tower|QID|2359|M|70.4,73.93|Z|Westfall|QO|1|N|Sneak to the top of the tower, sap the boss and lockpick the box.|C|Rogue|
-F Stormwind City|QID|2359|M|56.55,52.65|Z|Westfall|N|Fly or run to Stormwind.|C|Rogue|P|Lockpicking;633;0+70;0|
+F Stormwind|QID|2359|M|56.55,52.65|Z|Westfall|N|Fly or run to Stormwind.|C|Rogue|P|Lockpicking;633;0+70;0|
 T Klaven's Tower|QID|2359|M|76,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
 A The Touch of Zanzil|QID|2607|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
 T The Touch of Zanzil|QID|2607|M|78,59|Z|Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
@@ -133,7 +133,7 @@ A The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.
 C The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
 T The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
-C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
+C The Touch of Zanzil|QID|2609|M|50.59,60.14;69.38,71.40|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
 T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
 ; Redridge 20-21
@@ -223,19 +223,19 @@ T Return the Comb|QID|154|M|75.77,45.29|N|To Madame Eva.|Z|Duskwood|
 F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
 A The Corruption Abroad|QID|3765|M|36.41,67.42|Z|Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
-A The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|
-T The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Valor|QID|1793|M|50.54,47.42|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|
+T The Tome of Valor|QID|1793|M|50.54,47.42|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Tome of Valor|QID|1649|C|Paladin|U|6776|N|Click the Tome to get the follow up quest.|PRE|1793|
-T The Tome of Valor|QID|1649|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Valor|QID|1650|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1649|
+T The Tome of Valor|QID|1649|M|50.54,47.42|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Valor|QID|1650|M|50.54,47.42|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1649|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1650|C|Paladin|
 C The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|Protect her from 3 waves of enemies.|C|Paladin|
 T The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1652|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
-T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
+T The Tome of Valor|QID|1652|M|50.54,47.42|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Test of Righteousness|QID|1653|M|50.54,47.42|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 
 N Sell junk and repair|AVAILABLE|1078|S|N|Hold onto any Lean Wolf Flanks you currently have. We'll need 10 for a cooking quest later on, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables.|
 A Retrieval for Mauren|QID|1078|M|53.09,86.60|Z|Stormwind City|N|To Collin Mauren.|
@@ -317,7 +317,7 @@ T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|Z|Wetlands|
 P Moonglade|ACTIVE|3765|C|Druid|M|PLAYER|N|Use your Moonglade portal spell.|
 F Rut'theran Village|ACTIVE|3765|C|Druid|Z|Moonglade|M|44.19,45.26|N|Take the flightpath to Teldrassil.|
 F Auberdine|ACTIVE|3765|C|Druid|Z|Teldrassil|M|58.40,93.93|N|Take the flightpath to Auberdine.|
-F Stormwind City|ACTIVE|3765|M|9.59,59.66|N|Take flightpath to Stormwind.|Z|Wetlands|C|-Druid|
+f Stormwind|ACTIVE|3765|M|9.59,59.66|N|Take flightpath to Stormwind.|Z|Wetlands|C|-Druid|
 b Auberdine|ACTIVE|3765|M|22.74,56.19|N|Take the boat to Auberdine.|Z|Stormwind City|C|-Druid|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|Z|Darkshore|
 f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|Darkshore|
@@ -333,13 +333,13 @@ A The Tower of Althalaxx|QID|966|M|54.9, 24.9|Z|Darkshore|N|From Balthule Shadow
 C The Tower of Althalaxx|QID|966|M|55.41,26.86|Z|Darkshore|N|Do not enter the tower. Kill fanatics around the outside.|
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|Z|Darkshore|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|967|M|54.9,24.9|Z|Darkshore|N|From Balthule Shadowstrike.|PRE|966|
-A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|Z|Darkshore|N|Get to the road and travel south, occasionally he will start to sleep, just use your Horn of Awakening on him. You'll face two ambushes, both will consist of three Twilight mobs. They can be very hard to solo, and that is why this is optional. Keep escorting him south along the road until you get to Maestra's Post.|
+A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|Z|Darkshore|N|Get to the road and travel south, occasionally he will start to sleep, just use your Horn of Awakening on him. You'll face two ambushes, both will consist of three Twilight mobs. They can be very hard to solo, and that is why this is optional. Keep escorting him south along the road until you get to Maestra's Post. Stay a bit off the road to avoid the ambushes|
 C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|Z|Darkshore|QO|1|N|Loot the Horn of awakening from the box on the ground|
 C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Escort Kerlonian, use the horn if he falls asleep.|
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|If you took it, otherwise close this step.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
 F Astranaar|AVAILABLE|1008|N|Fly to Astranar|M|58.40,93.94|Z|Teldrassil|TAXI|Astranaar|
-f Astranaar|N|Get the flight path.|M|35.15,41.04|Z|Ashenvale|TAXI|-Astranaar|
+f Astranaar|N|Get the flight path.|M|34.42,48.02|Z|Ashenvale|TAXI|-Astranaar|
 A The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire. This is a pre-req for the stonetalon quests.|
 A Raene's Cleansing |QID|991|M|36.6,49.6|N|From Raene Wolfrunner|Z|Ashenvale|
 h Astranaar|QID|991|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
@@ -418,7 +418,6 @@ l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Eleme
 U Divined Scroll|QID|1016|U|5456|L|5455|N|Use the Divined Scroll.|Z|Ashenvale|
 T Elemental Bracers|QID|1016|M|49.79,67.21|N|To Sentinel Velene Starstrike.|Z|Ashenvale|
 A Mage Summoner|QID|1017|M|49.79,67.21|N|From Sentinel Velene Starstrike.|PRE|1016|Z|Ashenvale|
-;B Expert Cooking|QID|1025|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|Z|Ashenvale|
 C An Aggressive Defense|QID|1025|M|50.00,61.00|N|Kill mobs until you finish this quest.|Z|Ashenvale|
 
 R The Barrens|QID|1017|ACTIVE|1094|M|63.30,70.00;69.01,86.80|CS|N|Run for the barrens. We will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.\nBe aware that The Barrens is Horde territory and you will become PvP flagged.|Z|Ashenvale|

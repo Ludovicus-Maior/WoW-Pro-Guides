@@ -1,3 +1,25 @@
+# Release 2023.01.25.A
+## Bug Fixes
+* Update Retail interface to 100005
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* Achievements: Highest Peaks
+* Alliance: Nothing
+* Horde: BFA War Campaign, Nazmir, Zuldazar
+* Neutral: Azure Span, DF Campaign, Waking Shores
+### Classic
+* No Classic guides were harmed during this release
+### WotLK
+* Alliance: Guide 19-25
+### Professions
+* No Professions guides were harmed during this release
+
+
 # Release 2023.01.18.A
 ## Bug Fixes
 * Add new `POST_BC` version flag for Wrath and Retail.
