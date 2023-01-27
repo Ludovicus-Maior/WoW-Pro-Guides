@@ -53,7 +53,7 @@ T Bearers of the Plague|QID|9158|M|72.49,32.14|Z|Ghostlands|N|To Farstrider Sedi
 A Curbing the Plague|QID|9159|PRE|9158|M|72.49,32.10|Z|Ghostlands|N|From Farstrider Sedina.|
 T Attack on Zeb'Tela|QID|9276|M|72.33,31.28|Z|Ghostlands|N|To Farstrider Solanna.|
 A Assault on Zeb'Nowa|QID|9277|PRE|9276|M|72.33,31.28|Z|Ghostlands|N|From Farstrider Solanna.|
-A Bring Me Kel'gash's Head!|QID|9215|PRE|9276|M|72.22,31.18|Z|Ghostlands|N|From Farstrider Solanna.|
+A Bring Me Kel'gash's Head!|QID|9215|PRE|9276|M|72.22,31.18|Z|Ghostlands|N|From Wanted Poster.|
 A Spirits of the Drowned|QID|9274|M|75.66,30.69|Z|Ghostlands|
 A Forgotten Rituals|QID|9157|M|72.30,19.08|Z|Ghostlands|N|From Geranis Whitemorn.|
 C Spirits of the Drowned|QID|9274|M|71.98,16.44|Z|Ghostlands|N|Vengeful Apparition slain.|S|
@@ -64,12 +64,13 @@ A Vanquishing Aquantion|QID|9174|PRE|9157|M|72.31,19.08|Z|Ghostlands|N|From Gera
 C Vanquishing Aquantion|QID|9174|M|71.33,15.04|Z|Ghostlands|QO|1|U|22675|N|Aquantion slain.|
 T Vanquishing Aquantion|QID|9174|M|72.29,19.11|Z|Ghostlands|N|To Geranis Whitemorn.|
 T Spirits of the Drowned|QID|9274|M|72.20,29.83|Z|Ghostlands|N|To Ranger Krenn'an.|
-C Curbing the Plague|QID|9159|M|77.08,28.12|Z|Ghostlands|QO|1|N|Vampiric Mistbat slain.|
 A A Little Dash of Seasoning|QID|9275|PRE|9174&9274|M|72.66,31.57|Z|Ghostlands|N|From Apothecary Venustus.|
+C Curbing the Plague|QID|9159|M|77.08,28.12|Z|Ghostlands|QO|1|N|Vampiric Mistbat slain.|
 C Investigate the Amani Catacombs|QID|9193|M|58.91,63.25|Z|Amani Catacombs|QO|2|NC|N|Investigate the Amani Catacombs.|
 C Investigate the Amani Catacombs|QID|9193|M|68.39,33.80|Z|Amani Catacombs|QO|1|NC|U|22755|N|Mummified Troll Remains Burned.|S|
 C Troll Juju|QID|9199|M|57.62,66.20|Z|Amani Catacombs|QO|1|NC|N|Troll Juju.|S|
 A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|Amani Catacombs|N|From Ranger Lilatha.|
+A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|Amani Catacombs|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for them to respawn.|FAIL|
 T Escape from the Catacombs|QID|9212|M|72.36,29.63|Z|Ghostlands|N|To Captain Helios.|
 C Investigate the Amani Catacombs|QID|9193|M|68.39,33.80|Z|Amani Catacombs|QO|1|NC|U|22755|N|Mummified Troll Remains Burned.|US|
 C Troll Juju|QID|9199|M|57.62,66.20|Z|Amani Catacombs|QO|1|NC|N|Troll Juju.|US|
@@ -104,13 +105,12 @@ C Underlight Ore Samples|QID|9207|M|25.89,47.48|Z|Ghostlands|QO|1|NC|N|Underligh
 C The Plagued Coast|QID|9149|M|12.20,38.22|Z|Ghostlands|NC|N|Plagued Murloc Spine.|
 C Culinary Crunch|QID|9171|M|23.43,39.72|Z|Ghostlands|N|Crunchy Spider Leg.|
 C Salvaging the Past|QID|9150|M|34.53,32.55|Z|Ghostlands|N|Crystallized Mana Essence.|
-C Tomber's Supplies|QID|9152|M|33.56,26.50|Z|Ghostlands|N|Rathis Tomber's Supplies.|
+C Tomber's Supplies|QID|9152|M|33.56,26.50|Z|Ghostlands|NC|N|Rathis Tomber's Supplies.|
 C Goldenmist Village|QID|9139|M|25.93,14.54|Z|Ghostlands|N|Quel'dorei Wraith slain.|
 C Investigate An'daroth|QID|9160|M|36.06,12.72|Z|Ghostlands|N|Sentinel Spys slain.|
 C Curbing the Plague|QID|9159|M|23.43,39.72|Z|Ghostlands|QO|2|N|Spindleweb Lurker slain.|US|
 C WANTED: Knucklerot and Luzran|QID|9156|M|37.28,49.96|Z|Ghostlands|N|Luzran's Head.|US|
 H Tranquillien|QID|9214|U|6948|N|Hearth to Tranquillien.|
-T Shadowpine Weaponry|QID|9214|M|72.35,29.71|Z|Ghostlands|N|To Captain Helios.|
 T The Plagued Coast|QID|9149|M|47.66,34.94|Z|Ghostlands|N|To Apothecary Renzithen.|
 T Salvaging the Past|QID|9150|M|46.06,32.06|Z|Ghostlands|N|To Magister Darenis.|
 T Investigate An'daroth|QID|9160|M|44.88,32.51|Z|Ghostlands|N|To Dame Auriferous.|
@@ -125,8 +125,9 @@ T WANTED: Knucklerot and Luzran|QID|9156|M|46.00,33.55|Z|Ghostlands|N|To Deathst
 C Into Occupied Territory|QID|9163|M|12.76,25.11|Z|Ghostlands|QO|2|NC|N|Night Elf Plans: An'owyn.|
 C Into Occupied Territory|QID|9163|M|12.53,26.48|Z|Ghostlands|QO|1|NC|N|Night Elf Plans: An'daroth.|
 C Into Occupied Territory|QID|9163|M|10.47,22.58|Z|Ghostlands|QO|3|NC|N|Night Elf Plans: Scrying on the Sin'dorei.|
+C Windrunner Village|QID|9140|M|20.28,42.74|Z|Ghostlands|QO|1|NC|N|Phantasmal Substance.|S|
 C Windrunner Village|QID|9140|M|21.26,49.75|Z|Ghostlands|QO|2|NC|N|Gargoyle Fragment.|
-C Windrunner Village|QID|9140|M|20.28,42.74|Z|Ghostlands|QO|1|NC|N|Phantasmal Substance.|
+C Windrunner Village|QID|9140|M|20.28,42.74|Z|Ghostlands|QO|1|NC|N|Phantasmal Substance.|US|
 l The Lady's Necklace|QID|9175|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|S|
 C Retaking Windrunner Spire|QID|9173|M|11.97,55.52|Z|Ghostlands|N|Deatholme Acolyte & Fallen Rangers slain.|
 l The Lady's Necklace|QID|9175|L|22597|N|Kill Acolytes and Fallen Rangers until this drops.|US|
@@ -146,17 +147,19 @@ T Deliver the Plans to An'telas|QID|9166|M|60.30,35.76|Z|Ghostlands|N|To Magiste
 A Deactivate An'owyn|QID|9169|PRE|9166|M|60.30,35.76|Z|Ghostlands|N|From Magister Sylastor.|
 T Curbing the Plague|QID|9159|M|72.50,32.13|Z|Ghostlands|N|To Farstrider Sedina.|
 T Assault on Zeb'Nowa|QID|9277|M|72.32,31.25|Z|Ghostlands|N|To Farstrider Solanna.|
+T Shadowpine Weaponry|QID|9214|M|72.35,29.71|Z|Ghostlands|N|To Captain Helios.|
 T Bring Me Kel'gash's Head!|QID|9215|M|72.37,29.64|Z|Ghostlands|N|To Captain Helios.|
 T The Farstrider Enclave|QID|9282|M|71.96,32.63|Z|Ghostlands|N|To Ranger Vynna.|
 A The Traitor's Shadow|QID|9161|PRE|9159&9277&9215&9282|M|71.96,32.63|Z|Ghostlands|N|From Ranger Vynna.|
 T A Little Dash of Seasoning|QID|9275|M|72.63,31.56|Z|Ghostlands|N|To Apothecary Venustus.|
-T The Traitor's Shadow|QID|9161|M|79.62,17.56|Z|Ghostlands|N|To Hanki.|
+T The Traitor's Shadow|QID|9161|M|79.62,17.56|Z|Ghostlands|N|To Dusty Journal.|
 A Hints of the Past|QID|9162|PRE|9275&9161|M|79.62,17.56|Z|Ghostlands|N|From Hanki.|
 T Hints of the Past|QID|9162|M|71.94,32.63|Z|Ghostlands|N|To Ranger Vynna.|
 A Report to Magister Kaendris|QID|9172|PRE|9162|M|71.94,32.63|Z|Ghostlands|N|From Ranger Vynna.|
 T Report to Magister Kaendris|QID|9172|M|55.06,48.83|Z|Ghostlands|N|To Magister Kaendris.|
 A The Twin Ziggurats|QID|9176|PRE|9172|M|55.06,48.83|Z|Ghostlands|N|From Magister Kaendris.|
 C Clearing the Way|QID|9281|M|42.89,56.78|Z|Ghostlands|N|Ghostclaw Ravager slain.|S|
+l Crystal Controlling Orb|ACTIVE|9169|M|58.06,65.01|Z|Ghostlands|QO|1|L|23191|N|Kill the Sentinel Infiltrator till you loot a Crystal Controlling Orb.|
 C Deactivate An'owyn|QID|9169|M|58.06,65.01|Z|Ghostlands|QO|1|NC|N|Night Elf Moon Crystal Deactivated.|
 C The Twin Ziggurats|QID|9176|M|40.34,49.78|Z|Ghostlands|QO|1|NC|N|Stone of Flame.|
 C The Twin Ziggurats|QID|9176|M|34.31,47.57|Z|Ghostlands|QO|2|NC|N|Stone of Light.|
@@ -178,6 +181,7 @@ C Dar'Khan's Lieutenants|QID|9170|M|32.15,73.85|Z|Ghostlands|QO|3|N|Jurion the D
 C The Traitor's Destruction|QID|9167|M|32.47,82.27|Z|Ghostlands|NC|N|Dar'Khan's Head.|
 T The Traitor's Destruction|QID|9167|M|55.07,48.81|Z|Ghostlands|N|To Magister Kaendris.|
 A Friend of the Sin'dorei|QID|9811|PRE|9167|M|55.07,48.81|Z|Ghostlands|N|From Magister Kaendris.|R|-BloodElf|
+A Hero of the Sin'dorei|QID|9328|PRE|9167|M|55.07,48.81|Z|Ghostlands|N|From Magister Kaendris.|R|BloodElf|
 T Captives at Deatholme|QID|9164|M|54.84,48.36|Z|Ghostlands|N|To Arcanist Janeda.|
 T War on Deatholme|QID|9220|M|54.92,48.49|Z|Ghostlands|N|To Magister Idonis.|
 T Dar'Khan's Lieutenants|QID|9170|M|54.92,48.49|Z|Ghostlands|N|To Magister Idonis.|
@@ -192,10 +196,14 @@ C Rotting Hearts|QID|9216|M|38.49,61.78|Z|Ghostlands|QO|1|NC|N|Rotting Heart.|
 C Spinal Dust|QID|9218|M|39.03,56.33|Z|Ghostlands|QO|1|NC|N|Spinal Dust.|
 T Spinal Dust|QID|9218|M|48.93,31.37|Z|Ghostlands|N|To Magistrix Aminel.|
 T Rotting Hearts|QID|9216|M|48.93,31.37|Z|Ghostlands|N|To Magistrix Aminel.|
-T Friend of the Sin'dorei|QID|9811|M|53.84,20.29|Z|Silvermoon City|N|To Lor'themar Theron.|
-A Envoy to the Horde|QID|9812|PRE|9218&9216&9811|M|53.84,20.29|Z|Silvermoon City|N|From Lor'themar Theron.|
-P Ruins of Lordaeron|ACTIVE|9812|M|49.47,14.81|Z|Silvermoon City|N|Take the portal to Ruins of Lordaeron.|
-T Envoy to the Horde|QID|9812|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
+F Silvermoon City|ACTIVE|9328^9811|Z|Ghostlands|M|45.52,30.55|N|Fly to Silvermoon City.|
+T Hero of the Sin'dorei|QID|9328|M|53.84,20.29|Z|Silvermoon City|N|To Lor'themar Theron.|R|BloodElf|
+T Friend of the Sin'dorei|QID|9811|M|53.84,20.29|Z|Silvermoon City|N|To Lor'themar Theron.|R|-BloodElf|
+A Envoy to the Horde|QID|9621|PRE|9218&9216&9328|M|53.84,20.29|Z|Silvermoon City|N|From Lor'themar Theron.|R|BloodElf|
+A Envoy to the Horde|QID|9812|PRE|9218&9216&9811|M|53.84,20.29|Z|Silvermoon City|N|From Lor'themar Theron.|R|-BloodElf|
+P Ruins of Lordaeron|ACTIVE|9812^9621|M|49.47,14.81|Z|Silvermoon City|N|Take the portal to Ruins of Lordaeron.|
+T Envoy to the Horde|QID|9621|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|BloodElf|
+T Envoy to the Horde|QID|9812|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
 T Journey to Undercity|QID|9180|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
 ]]
 end)
