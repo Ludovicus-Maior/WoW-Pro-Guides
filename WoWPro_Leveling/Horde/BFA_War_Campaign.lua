@@ -488,16 +488,16 @@ T Fly Out to Meet Them|QID|54280|M|37.04,5.23|Z|Dazar'alor|N|To Princess Talanji
 ; Warfronts - Level 50
 T The Warfront Looms|QID|53207|M|52.92,94.52|Z|Dazar'alor|N|To Throk at the War Table in Port of Vandalar.\n[color=FF0000]NOTE: [/color]This quest should've been pushed to you by a UI Alert when you reached level 50.|
 A To the Front|QID|53208|M|52.92,94.52|Z|Dazar'alor|N|From Throk.|LVL|50|
-A Warfront Contribution|QID|53209|M|52.92,94.52|Z|Dazar'alor|N|From Throk.|LVL|50|
-P Arathi Highlands|ACTIVE|53208|M|51.83,94.46|Z|Dazar'alor|CHAT|N|Talk to Druza Netherfang for a port to Arathi Highlands|
-T To the Front|QID|53208|M|26.07,35.56|Z|Arathi Highlands|N|To Wistel Silversnitch.|
-A Touring the Front|QID|53210|PRE|53208|M|26.07,35.57|Z|Arathi Highlands|
-C Touring the Front|QID|53210|QO|3|M|25.96,36.11|Z|Arathi Highlands|CHAT|N|View the battleground with Flightgineer Krazzle|
-C Touring the Front|QID|53210|QO|2|M|20.91,25.90|Z|Arathi Highlands|CHAT|N|Check on Graul|
-C Touring the Front|QID|53210|QO|1|M|33.31,36.30|Z|Arathi Highlands|CHAT|N|Check on Foreman Drogg|
-T Touring the Front|QID|53210|M|26.07,35.56|Z|Arathi Highlands|N|To Wistel Silversnitch.|
-A Back to Zuldazar|QID|53212|PRE|53210|M|26.07,35.56|Z|Arathi Highlands|N|From Wistel Silversnitch.|
-P Zuldazar|ACTIVE|53212|M|26.68,35.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Netherfang for a port back to Zuldazar|
+; A Warfront Contribution|QID|53209|M|52.92,94.52|Z|Dazar'alor|N|From Throk.|LVL|50|
+P Arathi Highlands|ACTIVE|53208|M|51.76,94.44|Z|Dazar'alor|CHAT|N|Talk to Druza Netherfang for a port to Arathi Highlands|
+T To the Front|QID|53208|M|27.52,31.84|Z|Arathi Highlands|N|To Wistel Silversnitch.|
+A Touring the Front|QID|53210|PRE|53208|M|27.52,31.84|Z|Arathi Highlands|
+C Touring the Front|QID|53210|QO|3|M|25.88,29.63|Z|Arathi Highlands|CHAT|N|Chat with Flightgineer Krazzle.|
+C Touring the Front|QID|53210|QO|2|M|18.14,28.75|Z|Arathi Highlands|CHAT|N|Chat with Graul at Hatchet Ridge.|
+C Touring the Front|QID|53210|QO|1|M|33.31,36.30|Z|Arathi Highlands|CHAT|N|Chat with Foreman Drogg inside Drywhisker Mine.|
+T Touring the Front|QID|53210|M|27.52,31.84|Z|Arathi Highlands|N|To Wistel Silversnitch.\n[color=FF0000]NOTE: [/color]You can do the World Quests first if you so choose.|
+A Back to Zuldazar|QID|53212|PRE|53210|M|27.52,31.84|Z|Arathi Highlands|N|From Wistel Silversnitch.|
+P Zuldazar|ACTIVE|53212|M|27.30,29.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Netherfang for a port back to Zuldazar.\n[color=FF0000]NOTE: [/color]Or just use the portal beside her.|
 T Back to Zuldazar|QID|53212|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
 C Warfront Contribution|QID|53209|QO|1|M|51.74,95.44|Z|Dazar'alor|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
 T Warfront Contribution|QID|53209|M|52.92,94.52|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
@@ -1040,13 +1040,13 @@ C In the Shadow of Crimson Wings|QID|55657|M|35.94,50.50|Z|Twilight Highlands|N|
 C Defending the Vermillion Redoubt|SO|1|ACTIVE|55657|M|64.15,29.96|Z|Twilight Highlands!Instance|N|Head up the hill towards Alexstrasza, killing stuff as you go.|
 C The Life Binder|ACTIVE|55657|SO|2|M|64.15,29.96|Z|Twilight Highlands!Instance|N|Mount up and continue up the hill to Alexstraxza. Chat with Alex when you arrive.|CHAT|
 C Stemming the Corruption|ACTIVE|55657|SO|3|M|60.80,42.22|Z|Twilight Highlands!Instance|N|You can find the sentinals further up the hill, kill the void dragonkin guarding them and then click on the sentinals to rescue them.|
-C Take to the Skies|ACTIVE|55657|SO|4|M|63.05,44.01|Z|Twilight Highlands!Instance|N|Back to Kalecgos for a ride up to Vexiona.|V|
+C Take to the Skies|ACTIVE|55657|SO|4|M|63.05,44.01|Z|Twilight Highlands!Instance|V|N|Back to Kalecgos for a ride up to Vexiona.|
 C From the Shadows|ACTIVE|55657|SO|5|M|46.41,86.27|Z|Twilight Highlands!Instance|N|Mount up and run over to Vexiona and fight thr void touched invaders that are preventing Alexstraza from fighting Vexiona.|
-C In the Shadow of Crimson Wings|QID|55657|M|45.80,86.32|Z|Twilight Highlands!Instance|N|Pick up the Lost Red Scale.|NC|
-C In the Shadow of Crimson Wings|QID|55657|QO|6|M|46.38,86.44|Z|Twilight Highlands!Instance|N|Hop on Corastrasza for a ride out or otherwise return to the Chamber of Heart.|V|
+C In the Shadow of Crimson Wings|QID|55657|M|45.80,86.32|Z|Twilight Highlands!Instance|NC|N|Pick up the Lost Red Scale.|
+C In the Shadow of Crimson Wings|QID|55657|QO|6|M|46.38,86.44|Z|Twilight Highlands!Instance|V|N|Hop on Corastrasza for a ride out or otherwise return to the Chamber of Heart.|
 T In the Shadow of Crimson Wings|QID|55657|M|54.25,66.28|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza.|
 A An Old Scar|QID|55732|PRE|55398|M|50.15,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard. Necklace needs to be level 65.|
-C An Old Scar|QID|55732|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|Tell MOTHER you are ready to travel to the Maelstrom.|CHAT|
+C An Old Scar|QID|55732|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|CHAT|N|Tell MOTHER you are ready to travel to the Maelstrom.|
 T An Old Scar|QID|55732|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
 A Defending the Maelstrom|QID|55735|PRE|55732|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|
 C Defending the Maelstrom|QID|55735|M|29.63,52.91|Z|The Maelstrom|N|Defend the Maelstrom by defeating the Azerite Giant and the other Azerite creatures and healing azerite wounds.|
@@ -1120,7 +1120,11 @@ T A Display of Power|QID|55051|M|50.75,32.33|Z|Stormsong Valley|N|To Lor'themar 
 ;Visions of Danger
 H Dazar'alor|AVAILABLE|55778|PRE|55051|M|PLAYER|N|Hearth or otherwise return to Dazar'alor.|
 P Nazjatar|AVAILABLE|55778|PRE|55051|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|
-N Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to progress through Nazjatar, to the point where you find Lady Ashvane and the weapons cache.|LVL|50|;55869 is end of Nazjatar opening (Clearing out the Cache)
+N Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to have progressed through Nazjatar to the point where you find Lady Ashvane and the weapons cache.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|50| ;55869 is end of Nazjatar opening (Clearing out the Cache)
+A Send the Fleet|QID|56044|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller aboard The Banshee's Wail.|
+
+P Nazjatar|AVAILABLE|55778|PRE|55051|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|
+
 A Visions of Danger|QID|55778|PRE|55051&55869|M|48.51,62.18|Z|Nazjatar|N|From Lor'themar Theron.|
 C Visions of Danger|QID|55778|QO|1|M|48.36,62.16|Z|Nazjatar|CHAT|N|Speak with Spiritwalker Ussoh, then watch his vision unfold.|
 T Visions of Danger|QID|55778|M|48.50,62.18|Z|Nazjatar|N|To Lor'themar Theron.|
