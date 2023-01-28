@@ -1119,17 +1119,16 @@ C A Display of Power|QID|55051|QO|1|M|50.62,32.67|Z|Stormsong Valley|CHAT|N|Spea
 T A Display of Power|QID|55051|M|50.75,32.33|Z|Stormsong Valley|N|To Lor'themar Theron.|
 ;Visions of Danger
 H Dazar'alor|AVAILABLE|55778|PRE|55051|M|PLAYER|N|Hearth or otherwise return to Dazar'alor.|
-P Nazjatar|AVAILABLE|55778|PRE|55051|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|
+;P Nazjatar|AVAILABLE|55778|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|
 N Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to have progressed through Nazjatar to the point where you find Lady Ashvane and the weapons cache.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|50| ;55869 is end of Nazjatar opening (Clearing out the Cache)
 A Send the Fleet|QID|56044|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller aboard The Banshee's Wail.|
-
-P Nazjatar|AVAILABLE|55778|PRE|55051|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|
-
+C Talk to Captain Rez'okum|ACTIVE|56044|QO|1|M|44.48,95.45|Z|Dazar'alor|CHAT|N|Tell Captain Rez'okum you're ready to go.|
+J Nazjatar|ACTIVE|56044|AVAILABLE|55778|N|Click here to switch to the Nazjatar guide.|JUMP|EmmNazj|
 A Visions of Danger|QID|55778|PRE|55051&55869|M|48.51,62.18|Z|Nazjatar|N|From Lor'themar Theron.|
 C Visions of Danger|QID|55778|QO|1|M|48.36,62.16|Z|Nazjatar|CHAT|N|Speak with Spiritwalker Ussoh, then watch his vision unfold.|
 T Visions of Danger|QID|55778|M|48.50,62.18|Z|Nazjatar|N|To Lor'themar Theron.|
 A Old Allies|QID|55780^55781|PRE|55778|M|48.50,62.18|Z|Nazjatar|N|From Lor'themar Theron.|
-C Old Allies|QID|55780|QO|1|M|50.90,45.61|Z|Nazjatar|CHAT|N|OPTIONAL, If you choose to, go tell Nathonos what Lor'themar is up to.|
+C Old Allies|QID|55780|QO|1|M|50.90,45.61|Z|Nazjatar|CHAT|N|If you choose to, go tell Nathonos what Lor'themar is up to (OPTIONAL).|
 P Dazar'alor|ACTIVE|55780^55781|M|47.26,62.78|Z|Nazjatar|N|Take the portal back to Dazar'alor.|
 P Orgrimmar|ACTIVE|55780&55781|M|73.94,70.17|Z|Dazar'alor|N|Take the portal to Orgrimmar.|
 C Old Allies|QID|55780^55781|M|55.96,68.12|Z|Cleft of Shadow@Orgrimmar!Instance|CHAT|N|Talk to Thrall in the Cleft of Shadows.|
