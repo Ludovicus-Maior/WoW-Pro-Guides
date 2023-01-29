@@ -150,7 +150,7 @@ K Maiden of Patience|ACTIVE|67079|QO|2|M|57.61,63.68|Z|2025|U|198355|N|Kill the 
 K Maiden of Diligence|ACTIVE|67079|QO|1|M|58.02,53.41|Z|2025|U|198355|N|Kill the Maiden of Diligence to loot the Primary Security Disc. Don't forget the [color=33fff9] Extra Action Button [/color] to make the fight much easier.|T|Maiden of Diligence|
 T Hard Lock Life|QID|67079|M|60.36,58.87|Z|2025|N|To Watcher Koranos.|
 A An Infusion of Materials|QID|67081|PRE|67079|M|60.55,58.62|Z|2025|N|From Keeper Tyr.|
-C Halls of Infusion Dugeon|ACTIVE|67081|QO|1|Z|2083|N|Run the Halls of Infusion dungeon, the items you need drop from the first boss and you also need to kill the final boss.|
+C Halls of Infusion Dungeon|ACTIVE|67081|QO|1|Z|2083|N|Run the Halls of Infusion dungeon, the items you need drop from the first boss and you also need to kill the final boss.|
 t An Infusion of Materials|QID|67081|M|60.55,58.62|Z|2025;Thaldraszus|N|To Keeper Tyr.|
 A The Silver Purpose|QID|67084|PRE|67081|M|60.55,58.62|Z|2025;Thaldraszus|N|From Keeper Tyr.|
 C The Silver Purpose|QID|67084|QO|1|M|60.78,58.74|Z|Thaldraszus|H|N|Place the Ingots on the gold outline.|
