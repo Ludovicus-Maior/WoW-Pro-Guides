@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('DF_Campaign', 'Leveling', 'Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,"Dragonflight Campaign")
-WoWPro:GuideQuestTriggers(guide, 72585,70180,68863) -- add starting quest for each chapter
+WoWPro:GuideQuestTriggers(guide, 72585,70437,68863,70180,71184,72773,70180) -- add starting quest for each chapter
 WoWPro:GuideLevels(guide,60, 70, 70)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -40,8 +40,8 @@ T Orientation: Iskaara|QID|72435|M|13.14,49.27|Z|2024|N|To Murik.|
 H Valdrakken|ACTIVE|72585|M|50.21,56.14|Z|2112|N|Hearth or otherwise travel back to Valdrakken.|TZ|The Roasted Ram|
 T Open Orientation|QID|72585|M|50.21,56.14|Z|2112|N|To Therazal.|
 
-;Ch 2 - The Mother Oathstone - Final Questline in Leveling Campaign? - seems to currently be bugged, alegedly followup from Moving On/66221
-A To Tyrhold|QID|70437|PRE|66221|M|57.79,35.01|Z|2112|N|From Alexstrasza.|
+;Ch 2|The Mother Oathstone - Final Questline in Leveling Campaign allegedly followup from Moving On/66221 - wasn't available until 10.02
+A To Tyrhold|QID|70437|M|57.79,35.01|Z|2112|N|From Alexstrasza.|
 C To Tyrhold|QID|70437|QO|1|M|57.79,35.01|Z|2112|CHAT|N|Tell Alexstrasza you are ready.|
 T To Tyrhold|QID|70437|M|57.46,58.73|Z|2025|N|To Alexstrasza.|
 A Aspect Power|QID|66675|PRE|70437|M|57.46,58.73|Z|2025|N|From Alexstrasza.|
@@ -54,7 +54,7 @@ A Vault of the Incarnates: Fury of the Storm-Eater|QID|66847|PRE|67073|M|72.52,5
 f Vault of the Incarnates|ACTIVE|66847|M|72.12,56.47|Z|2025|N|At Nirazal.|
 t Vault of the Incarnates: Fury of the Storm-Eater|QID|66847|M|57.46,58.73|Z|2025|N|To Alexstrasza.|
 
-; Ch 3 - The Chieftain's Duty - |DFREN|Iskaara;2511;11|
+; Ch 3|The Chieftain's Duty - |DFREN|Iskaara;2511;11|
 A A Lost Tribe|QID|68863|N|From Rowie will appear when You will reach Renown Level 11 with Iskaara Tuskarr.|DFREN|Iskaara;2511;11|
 T A Lost Tribe|QID|68863|M|13.15,49.24|Z|2024|N|To Murik.|
 A Sudden Isolation|QID|68640|PRE|68863|M|13.15,49.24|Z|2024|N|From Murik.|
@@ -78,7 +78,6 @@ T Troubled Waters|QID|66411|M|54.10,38.23|Z|2022|N|To Elder Unujaak.|
 T Encroaching Heat|QID|66413|M|54.90,36.45|Z|2022|N|To Elder Unujaak.|
 C Salvaging Supplies|QID|66417|QO|3|M|54.23,38.62|Z|2022|CHAT|N|Then speak with Crafter Kuliqa and give him first materials then finish quest.
 T Salvaging Supplies|QID|66417|M|54.23,38.62|Z|2022|N|To Crafter Kuliqa.|
-
 A Testing the Tuskarrsenal|QID|66418|PRE|66411&66417|M|54.23,38.62|Z|2022|N|From Crafter Kuliqa.|
 C Testing the Tuskarrsenal|QID|66418|QO|1|M|54.23,38.62|Z|2022|N|First pick up Uktulut Bone Spear is on front of Kuliqa.|
 C Testing the Tuskarrsenal|QID|66418|QO|2|M|54.07,36.92|Z|2022|EAB|N|Target the training dummies, then use[color=33fff9] Extra Action Button [/color] on each one.|
@@ -115,12 +114,53 @@ K Zhurtan the Riverboiler|ACTIVE|66444|QO|1|M|48.72,45.33|Z|2022|N|Kill Zhurtan 
 T While the Iron Is Hot|QID|66444|M|53.91,38.14|Z|2022|N|To Guard Hakota.|
 f Uktulut Backwater|PRE|66444|M|54.33,36.97|Z|2022|N|You will unlock this Village and Fly point at Janatak.|;what to use for QID??
 
+; Ch 4|A Mystery, Sealed - |DFREN|Dragonscale Exp;2507;13|
 
-; Ch 4 - A Mystery, Sealed - |DFREN|Dragonscale Exp;2507;13|
-; Ch 5 - The Silver Purpose - |DFREN|Valdrakken;2510;12|
-; Ch 6 - In the Halls of Titans - |DFREN|Dragonscale Exp;2507;24|
-; Ch 7 - Garden of Secrets - |DFREN|Valdrakken;2510;19|
-; Ch 8 - The Dreamer - currently locked, unknown what requirements are presumed Maruuk and quite high
+; Ch 5|The Silver Purpose - |DFREN|Valdrakken;2510;12|
+A Ally of Dragons|QID|71184|N|From Herald Flaps who will find you when you have the reached renown 12 with Valdrakken.|
+t Ally of Dragons|QID|71184|M|58.12,34.89|Z|2112|N|To Alexstrasza at The Seat of the Aspects.|
+A The Gift of Silver|QID|67074|PRE|71184|M|58.12,34.89|Z|2112|N|From Alexstrasza the Life-Binder.|DFREN|Valdrakken;2510;12|
+C The Gift of Silver|QID|67074|QO|1;2|M|58.12,34.89|Z|2112|CHAT|N|Talk to Alexstrasza, then wait for the vignette to finish.|
+C The Gift of Silver|QID|67074|QO|3|M|59.24,37.91|Z|2112|H|N|Collect the Silver Scale.|
+T The Gift of Silver|QID|67074|M|58.10,34.89|Z|2112|N|To Alexstrasza the Life-Binder.|
+A The Legacy of Tyrhold|QID|70703|PRE|67074|M|58.10,34.89|Z|2112|N|From Alexstrasza the Life-Binder.|
+C The Legacy of Tyrhold|QID|70703|QO|1;2|M|58.18,58.73|Z|2025|H|N|Fly up to Tyrhold and Place the Silver Scale.|
+C The Legacy of Tyrhold|QID|70703|QO|3|M|58.18,58.73|Z|2025|H|N|Click the console to activate Tyrhold device.|
+T The Legacy of Tyrhold|QID|70703|M|58.16,58.83|Z|2025|N|To Watcher Koranos.|
+A The Magic Within|QID|67075|PRE|70703|M|58.16,58.83|Z|2025|N|From Watcher Koranos.|
+C The Magic Within|QID|67075|QO|1|M|57.87,55.56;58.33,57.75;58.32,59.57;59.80,56.36;59.85,61.18;57.85,61.93;57.65,63.63;57.91,53.65|CS|Z|2025|H|U|198355|N|Find hidden magic. You have an [color=33fff9] Extra Action Button [/color]you can use to weaken any elites.|;While Blizard has marked all of the spots, when you are at the far end, you can't see all the marks, so I put them in to give an arrow back
+C The Magic Within|QID|67075|QO|2|M|58.18,58.74|Z|2025|NC|U|198355|N|And back to the original console to place the Silver Scale again.|
+T The Magic Within|QID|67075|M|58.15,58.84|Z|2025|N|To Watcher Koranos.|
+A A Spark of Discovery|QID|67076|PRE|67075|M|58.15,58.84|Z|2025|N|From Watcher Koranos.|
+C A Spark of Discovery|QID|67076|QO|1|M|58.13,58.55|Z|2025|CHAT|N|Use the chat option to Investigate the Spark.|
+C A Spark of Discovery|QID|67076|QO|2|M|62.18,59.26|Z|2025|NC|N|Follow the Spark, if you can take the hits (tank or tank pet), you can ignore the mobs beating on you and eventually they will stop pursuit. Spark leads you around behind Tyrhold and you have to stay somewhat close to it. Also, you still have the [color=33fff9] Extra Action Button [/color] to weaken elites.|
+T A Spark of Discovery|QID|67076|M|62.20,59.38|Z|2025|N|To Kalecgos.|
+A Memories of the Past|QID|67077|PRE|67076|M|62.12,59.28|Z|2025|N|From Alexstrasza the Life-Binder.|
+C Memories of the Past|QID|67077|QO|1;2|M|62.13,59.42|Z|2025|CHAT|N|Talk to Nozdormu to share in Timeless Sight then wait for vignette to finish.|
+C Memories of the Past|QID|67077|QO|4|M|62.13,59.42|Z|2025|CHAT|N|Talk to Nozdormu.|
+C Memories of the Past|QID|67077|QO|3|M|62.20,59.38|Z|2025|CHAT|N|Talk to Kalecgos.|
+C Memories of the Past|QID|67077|QO|5|M|62.13,59.29|Z|2025|CHAT|N|Talk to Alexstrasza.|
+T Memories of the Past|QID|67077|M|62.12,59.28|Z|2025|N|To Alexstrasza the Life-Binder.|
+A Parting Instructions|QID|67078|PRE|67077|M|62.21,59.19|Z|2025|N|From Keeper Tyr, after a fair bit of talking.|
+C Parting Instructions|QID|67078|QO|1|M|60.55,58.75|Z|2025|H|N|Fly around Tyrhold, then into the lower level of the center of the hold and place the Silver Scale on the central console there.|
+C Parting Instructions|QID|67078|QO|2|M|60.55,58.75|Z|2025|H|N|Click the Console to activate the forge.|
+T Parting Instructions|QID|67078|M|60.37,58.86|Z|2025|N|To Watcher Koranos.|
+A Hard Lock Life|QID|67079|PRE|67078|M|60.37,58.86|Z|2025|N|From Watcher Koranos.|
+K Maiden of Patience|ACTIVE|67079|QO|2|M|57.61,63.68|Z|2025|U|198355|N|Kill the Maiden of Patience to loot the Secondary Security Disc. Don't forget the [color=33fff9] Extra Action Button [/color] to make the fight much easier.|T|Maiden of Patience|
+K Maiden of Diligence|ACTIVE|67079|QO|1|M|58.02,53.41|Z|2025|U|198355|N|Kill the Maiden of Diligence to loot the Primary Security Disc. Don't forget the [color=33fff9] Extra Action Button [/color] to make the fight much easier.|T|Maiden of Diligence|
+T Hard Lock Life|QID|67079|M|60.36,58.87|Z|2025|N|To Watcher Koranos.|
+A An Infusion of Materials|QID|67081|PRE|67079|M|60.55,58.62|Z|2025|N|From Keeper Tyr.|
+C Halls of Infusion Dugeon|ACTIVE|67081|Z|2083|N|Run the Halls of Infusion dungeon, the items you need drop from the first boss and you also need to kill the final boss.|
+t An Infusion of Materials|QID|67081|M|60.55,58.62|Z|2025;Thaldraszus|N|To Keeper Tyr.|
+A The Silver Purpose|QID|67084|PRE|67081|M|60.55,58.62|Z|2025;Thaldraszus|N|From Keeper Tyr.|
+C The Silver Purpose|QID|67084|QO|1|M|60.78,58.74|Z|Thaldraszus|H|N|Place the Ingots on the gold outline.|
+C The Silver Purpose|QID|67084|QO|2|M|60.64,59.16|Z|2025;Thaldraszus|H|N|Click the secondary consoles on each side of the central console to activate them.|
+C The Silver Purpose|QID|67084|QO|3|M|60.54,58.74|Z|2025;Thaldraszus|NC|N|Activate the Silver Scale.|
+T The Silver Purpose|QID|67084|M|60.19,58.65|Z|Thaldraszus|NC|N|To Alexstrasza.|
+
+; Ch 6|In the Halls of Titans - |DFREN|Dragonscale Exp;2507;24|
+; Ch 7|Garden of Secrets - |DFREN|Valdrakken;2510;19|
+; Ch 8|The Dreamer - currently locked, unknown what requirements are presumed Maruuk and quite high
 
 ; Chapter 9|Spark of Ingenuity
 A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal.|LEAD|70180|
@@ -132,10 +172,10 @@ C Jump-Start? Jump-Starting!|QID|70180|QO|2|M|85.51,55.41|Z|2112|NC|N|After a bi
 C Jump-Start? Jump-Starting!|QID|70180|QO|3|M|86.36,51.75|Z|2112|NC|N|When the charging button changes to Eject, press it and float down. Aim for the platform if you don't want a long flight back.|
 C Jump-Start? Jump-Starting!|QID|70180|QO|4|M|84.32,53.76|Z|2112|H|N|Activate the Engine of Innovation.|
 T Jump-Start? Jump-Starting!|QID|70180|M|84.31,53.54|Z|2112|N|To Maiden of Inspiration.|
-A In Tyr's Footsteps|QID|70845|PRE|70180|M|84.31,53.54|Z|2112|N|From Maiden of Inspiration. The remainder of this questline is in the Campaign guide.|
+A In Tyr's Footsteps|QID|70845|PRE|70180|M|84.31,53.54|Z|2112|N|From Maiden of Inspiration.|
 F Rhonin's Shield|ACTIVE|70845|M|66.01,25.38|Z|2024|N|Take a flight path to Rhonin's Shield or otherwise travel that direction.|
 R Upper Frostlands|ACTIVE|70845|M|67.19,30.77|Z|2024|
-T In Tyr's Footsteps|QID|70845|M|67.15,30.68|Z|2024|N|Find Tyrs first challange.|
+T In Tyr's Footsteps|QID|70845|M|67.15,30.68|Z|2024|N|Find Tyr's first challange.|
 A First Challenge of Tyr: Finesse|QID|70181|PRE|70845|M|67.15,30.68|Z|2024|
 C First Challenge of Tyr: Finesse|QID|70181|M|67.12,30.92|Z|2024|QO|1|H|N|Speak with Maiden of Inspiration to begin.|
 C First Challenge of Tyr: Finesse|QID|70181|M|67.24,30.92|Z|2024|QO|2|NC|EAB|N|This shoots you up in the air and you float down there are MANY many rings, float down thru them. There is an [color=33fff9]Extra Action Button [/color] which will send you up a little ways if you just missed one.|
