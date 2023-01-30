@@ -6,7 +6,7 @@ WoWPro:GuideNickname(guide, "Nazjatar")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
+N Guide Hub|QID|56044|M|PLAYER|S!US|N|Jump to the Guide Hub\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|25|NOCACHE|JUMP|Battle for Azeroth: Guide Hub|
 ;quest chain upon getting follower to level 3
 t Down Into Nazjatar|QID|56235|M|48.50,62.17|N|To Lor'themar Theron.|
 A Insight into Our Enemies|QID|55862|M|48.50,62.17|N|From Lor'themar Theron.|PRE|56235|
@@ -96,59 +96,59 @@ T The Tide Turns|QID|55799|M|50.62,23.37|N|To First Arcanist Thalyssra. \nLocati
 A The Eternal Palace: Queen's Gambit|QID|56356|M|50.62,24.14|NA|N|From Lor'themar Theron.|PRE|55799|
 f The Tidal Conflux|QID|56356|M|51.11,23.61|N|At Kobo Rayfriend.|PRE|55799|
 ;zone intro
-A The Warchief's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
-T The Warchief's Order|QID|56030|M|58.44,62.66|Z|Zuldazar|N|To Nathanos Blightcaller.|
+;A The Warchief's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.| ** Quest no longer exists - Hendo72
+t The Warchief's Order|QID|56030|M|58.44,62.66|Z|Zuldazar|N|To Nathanos Blightcaller.| ; ** Leaving this step in case the have it lingering - Hendo72
 A Send the Fleet|QID|56044|M|58.44,62.66|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|56030|
-C Send the Fleet|QID|56044|M|44.49,95.42|Z|Dazar'alor|CHAT|N|Speak to Captain Rez'okun to set sail. This starts a cut scene that ends with you in Nazjatar.|
+C Send the Fleet|QID|56044|QO|1|M|44.49,95.42|Z|Dazar'alor|CHAT|N|Speak to Captain Rez'okun to set sail. This starts a cut scene that ends with you in Nazjatar.|
 T Send the Fleet|QID|56044|M|36.80,93.50|N|To Nathanos Blightcaller.|
-A Upheaval|QID|55054|M|36.80,93.50|N|From Nathanos Blightcaller.|PRE|56044|
-T Upheaval|QID|55054|M|36.69,86.94|N|To Chief Telemancer Oculeth.|
-A Descent|QID|54018|M|36.69,86.94|N|From Chief Telemancer Oculeth.|PRE|54054|
+A Upheaval|QID|55054|PRE|56044|M|36.80,93.50|N|From Nathanos Blightcaller.|
+T Upheaval|QID|55054|M|36.69,86.94|N|To Chief Telemancer Oculeth.\n[color=FF0000]NOTE: [/color]Not for the faint of heart.n ;)|
+A Descent|QID|54018|PRE|55054|M|36.69,86.94|N|From Chief Telemancer Oculeth.|
 T Descent|QID|54018|M|36.33,82.11|N|To Lor'themar Theron.|
-A The First Arcanist|QID|54021|M|36.33,82.11|N|From Lor'themar Theron.|PRE|54018|
+A The First Arcanist|QID|54021|PRE|54018|M|36.33,82.11|N|From Lor'themar Theron.|
 T The First Arcanist|QID|54021|M|41.84,79.80;41.96,80.68|CS|N|To First Arcanist Thalyssra.|
-A Fortunate Souls|QID|54012|M|41.96,80.68|N|From First Arcanist Thalyssra.|PRE|54021|
-A Disruption of Power|QID|55092|M|41.96,80.68|N|From First Arcanist Thalyssra.|PRE|54021|
-A Dark Tides|QID|56063|M|41.96,80.68|N|From First Arcanist Thalyssra.|PRE|54021|
-C Disruption of Power|QID|55092|M|44.97,78.63|NC|S|N|Click on the Ley Line Accumulators to destroy them.|
+A Fortunate Souls|QID|54012|PRE|54021|M|41.96,80.68|N|From First Arcanist Thalyssra.|
+A Disruption of Power|QID|55092|PRE|54021|M|41.96,80.68|N|From First Arcanist Thalyssra.|
+A Dark Tides|QID|56063|M|41.96,80.68|PRE|54021|N|From First Arcanist Thalyssra.|
+C Disruption of Power|QID|55092|M|44.97,78.63|S|H|N|Click on the Ley Line Accumulators to destroy them.|
 C Fortunate Souls|QID|54012|M|43.54,79.18|S|N|Kill the Zanj'ir trappers to rescue the Honorbound Captives.|
-K Tidemistress Ethendris|ACTIVE|56063|M|42.87,76.50|QO|1|T|Tidemistress Ethendris|N|Kill Tidemistress Ethendris.|
+K Tidemistress Ethendris|ACTIVE|56063|QO|1|M|42.87,76.50|T|Tidemistress Ethendris|N|Kill Tidemistress Ethendris.|
 C Fortunate Souls|QID|54012|M|43.54,79.18|US|N|Finish rescuing the Honorbound Captives.|
-C Disruption of Power|QID|55092|M|44.97,78.63|NC|US|N|Finish destroying the Ley Line Accumulators.|
+C Disruption of Power|QID|55092|M|44.97,78.63|US|H|N|Finish destroying the Ley Line Accumulators.|
 T Fortunate Souls|QID|54012|M|41.97,80.71|N|To First Arcanist Thalyssra.|
 T Disruption of Power|QID|55092|M|41.97,80.71|N|To First Arcanist Thalyssra.|
 T Dark Tides|QID|56063|M|41.97,80.71|N|To First Arcanist Thalyssra.|
-A In Deep|QID|54015|M|41.97,80.71|N|From First Arcanist Thalyssra.|PRE|54012&55092&56063|
+A In Deep|QID|54015|M|41.97,80.71|PRE|54012&55092&56063|N|From First Arcanist Thalyssra.|
 T In Deep|QID|54015|M|38.56,76.15|N|To First Arcanist Thalyssra.|
-A Up Against It|QID|56429|M|38.56,76.15|N|From First Arcanist Thalyssra.|PRE|54015|
-C Up Against It|QID|56429|M|38.46,73.90|QO|1|NC|N|Investigate the noise.|
-C Up Against It|QID|56429|M|38.70,66.72|QO|2|NC|N|Move ahead with Thalyssra and Lor'themar.|
-C Up Against It|QID|56429|M|36.23,67.94|QO|3|NC|N|Inspect the scepter.|
-T Up Against It|QID|56429|M|36.25,68.04|N|To First Arcanist Thalyssra.|
-A Stay Low, Stay Fast!|QID|55094|M|37.29,67.36|N|From Neri Sharpfin.|PRE|56429|
-C Stay Low, Stay Fast!|QID|55094|M|41.77,61.72|QO|1|NC|N|Move out and Neri will follow.|
-C Stay Low, Stay Fast!|QID|55094|M|43.70,61.30|QO|2|NC|N|Continue up this little hill.|
-C Stay Low, Stay Fast!|QID|55094|M|44.13,60.54;47.85,62.02|CS|QO|3|NC|N|Go to Newhome.|
-T Stay Low, Stay Fast!|QID|55094|M|48.54,62.30|N|To First Arcanist Thalyssra.|
-A A Way Home|QID|55053|M|48.50,62.37|N|From Chief Telemancer Oculeth.|PRE|55094
-C A Way Home|QID|55053|M|47.26,62.81|NC|N|Stand on the defunct portal and use your special action button to assist Occuleth.|
-f Newhome|ACTIVE|55053|M|47.48,63.24|N|At Iina Bluegill.|
+A Up Against It|QID|56429|PRE|54015|M|38.56,76.15|N|From First Arcanist Thalyssra.|
+R Up Against It|ACTIVE|56429|QO|1|M|38.46,73.90|N|Investigate the noise.|
+R Up Against It|ACTIVE|56429|QO|2|M|38.70,66.72|N|Move ahead with Thalyssra and Lor'themar.|
+C Up Against It|QID|56429|QO|3|M|36.23,67.94|H|N|Inspect the scepter.|
+T Up Against It|QID|56429|M|PLAYER|N|To First Arcanist Thalyssra.|
+A Stay Low, Stay Fast!|QID|55094|PRE|56429|M|37.29,67.35|N|From Neri Sharpfin.|
+R Stay Low, Stay Fast!|ACTIVE|55094|QO|1|M|41.77,61.72|N|Move out and Neri will follow.|
+R Stay Low, Stay Fast!|ACTIVE|55094|QO|2|M|43.70,61.30|N|Continue up this little hill.|
+R Stay Low, Stay Fast!|ACTIVE|55094|QO|3|M|44.13,60.54;47.85,62.02|CS|N|Go to Newhome.|
+T Stay Low, Stay Fast!|QID|55094|M|48.54,62.29|N|To First Arcanist Thalyssra.|
+A A Way Home|QID|55053|PRE|55094|M|48.50,62.37|N|From Chief Telemancer Oculeth.|
+C A Way Home|QID|55053|M|47.26,62.81|NC|EAB|N|Stand on the defunct portal and use your special action button to assist Occuleth.\n[color=FF0000]NOTE: [/color]This will activate the portal to Nazjatar from the Hall of Ancient Paths at The Great Seal.|
+f Newhome|ACTIVE|55053|M|47.48,63.24|N|At Iina Bluegill.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T A Way Home|QID|55053|M|48.50,62.37|N|To Chief Telemancer Oculeth.|
 ;heart of azeroth
-A Essential Empowerment|QID|55851|M|48.27,62.47|N|From Magni Bronzebeard.|PRE|55053|
+A Essential Empowerment|QID|55851|PRE|55053|M|48.27,62.47|N|From Magni Bronzebeard.|
 P The Great Seal|QID|55851|ACTIVE|55851|M|47.27,62.77|TZ|Hall of Ancient Paths|N|Take the portal or otherwise travel to Zuldazar.|
-P Silithus|ACTIVE|55851|M|73.72,85.37|Z|Dazar'alor|TZ|Magni's Encampment|N|Take the portal or otherwise travel to Silithus.|
-P Chamber of Heart|ACTIVE|55851|M|43.19,44.48|Z|Silithus|TZ|Chamber of Heart|N|Take the portal or otherwise travel to the Chamber of Heart.|
+P Silithus|ACTIVE|55851|M|73.82,85.64|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal or otherwise travel to Silithus.|
+P Chamber of Heart|ACTIVE|55851|M|43.20,44.50|Z|Silithus|TZ|Chamber of Heart|N|Click on the Titan Translocator to portal to the Chamber of Heart.|
 T Essential Empowerment|QID|55851|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
-A MOTHER Knows Best|QID|55533|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55851|
-C MOTHER Knows Best|QID|55533|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER.|
-T MOTHER Knows Best|QID|55533|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
-A A Disturbance Beneath the Earth|QID|55374|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|PRE|55533|
-C A Disturbance Beneath the Earth|QID|55374|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|QO|1|CHAT|N|Speak to MOTHER to travel to Highmountain (Optional).|
-C A Disturbance Beneath the Earth|QID|55374|M|49.54,68.37|Z|Highmountain|QO|2|CHAT|N|Ask Spiritwalker Ebonhorn to help you investigate.|
+A MOTHER Knows Best|QID|55533|PRE|55851|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|
+C MOTHER Knows Best|QID|55533|M|48.14,72.50|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER.|
+T MOTHER Knows Best|QID|55533|M|48.14,72.50|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+A A Disturbance Beneath the Earth|QID|55374|PRE|55533|M|48.14,72.50|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|
+C A Disturbance Beneath the Earth|QID|55374|QO|1|M|48.14,72.50|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER to travel to Highmountain (Optional).|
+C A Disturbance Beneath the Earth|QID|55374|QO|2|M|49.54,68.37|Z|Highmountain|CHAT|N|Ask Spiritwalker Ebonhorn to help you investigate.|
 T A Disturbance Beneath the Earth|QID|55374|M|49.54,68.37|Z|Highmountain|N|To Spiritwalker Ebonhorn.|
-A Take My Hand|QID|55400|M|49.54,68.37|Z|Highmountain|N|From Spiritwalker Ebonhorn.|PRE|55374|
-C Take My Hand|QID|55400|M|49.63,68.41|Z|Highmountain|CHAT|N|Speak to Navarrogg|
+A Take My Hand|QID|55400|PRE|55374|M|49.54,68.37|Z|Highmountain|N|From Spiritwalker Ebonhorn.|
+C Take My Hand|QID|55400|M|49.63,68.41|Z|Highmountain|CHAT|N|Speak to Navarrogg.|
 T Take My Hand|QID|55400|M|26.72,46.20|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
 A Calming the Spine|QID|55407|M|26.72,46.20|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55400|
 C Calming the Spine|QID|55407|M|17.36,49.30;24.57,50.69;19.71,55.70;17.54,62.21|Z|The Dragon's Spine!Instance|CS|NC|N|Seal the fissures by standing in them and using your special action button.|
@@ -195,7 +195,7 @@ A Save A Friend|QID|55500|M|38.88,42.43|N|From Poen Gillbrack.|PRE|55385|
 K Herald of the Queen|ACTIVE|55500|M|37.51,42.66;35.70,42.98|CS|QO|1|T|Herald of the Queen|N|Kill Herald of the Queen.|
 C Save A Friend|QID|55500|M|35.54,43.46|QO|2|NC|N|Click on Mak to heal.|
 T Save A Friend|QID|55500|M|39.48,46.79;41.13,50.51;52.03,53.22;50.11,65.27|CS|N|To Poen Gillbrack. This is the quest that opens up world quests.|
-N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
+N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 U Calling Conch|QID|57040^57041^57042|M|49.81,64.59|N|Be sure and stop by the Calling Conch to pick up your companion.|PRE|55500|
 N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
 A Becoming a Friend|QID|57005|M|50.97,65.22|N|From Atolia Seapearl.|PRE|55500|
