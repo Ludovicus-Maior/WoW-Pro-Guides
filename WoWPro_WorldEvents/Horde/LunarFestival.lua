@@ -103,14 +103,14 @@ R Burning Steppes|N|Time to head to Burning Steppes.|QID|8636|M|70.1,45.4|Z|Burn
 A Rumblerock the Elder|N|From Elder Rumblerock.|QID|8636|M|70.11,45.39|Z|Burning Steppes|
 A Dawnstrider the Elder|N|From Elder Dawnstrider.|QID|8683|M|52.37,23.94|Z|Burning Steppes|
 R Blackrock Mountain|N|Run to Blackrock Mountain.|QID|8644|M|20.39,34.56|Z|Burning Steppes|RANK|2|
-R Do you have a flying mount?|N|If yes, fly up to the ledge at this waypoint. If not pass this step and follow the next steps.|QID|8644|M|63.89,44.21|Z|Blackrock Spire@Blackrock Mountain|RANK|2|
-R Follow the series of waypoints|N|To get into the instance. If you flew up, manually check this off.|QID|8644|CS|M|64.80,54.27;67.70,53.89;70.38,40.33|Z|Blackrock Spire@Blackrock Mountain|RANK|2|
-R Lower Blackrock Spires|QID|8644|N|With WOD, the entrance you are looking for has moved slightly, go straight forward and it will be on your right, under the walkway.|M|80.36,40.51|Z|Blackrock Spire@Blackrock Mountain|RANK|2|TZ|The Black Hand!Blackrock Spire!Dungeon|
-A Stonefort the Elder|N|Head in the instance. From Elder Stonefort.|QID|8644|M|42.31,45.00;52.18,36.98;61.82,40.08|CS|Z|Skitterweb Tunnels@Blackrock Spire!Dungeon|RANK|2|
+R Do you have a flying mount?|N|If yes, fly up to the ledge at this waypoint. If not pass this step and follow the next steps.|QID|8644|M|63.89,44.21|CC|Z|Blackrock Spire@Blackrock Mountain|RANK|2|
+R Follow the series of waypoints|N|To get into the instance. If you flew up, manually check this off.|QID|8644|CS|M|64.80,54.27;67.70,53.89;70.38,40.33|Z|Blackrock Spire@Blackrock Mountain|RANK|2|FLY|OLD|
+R Lower Blackrock Spires|QID|8644|N|With WOD, the entrance you are looking for has moved slightly, go straight forward and it will be on your right, under the walkway.|M|80.36,40.51|Z|Blackrock Spire@Blackrock Mountain|RANK|2|IZ|33|
+A Stonefort the Elder|N|Head in the instance. From Elder Stonefort.|QID|8644|RANK|2|;M|42.31,45.00;52.18,36.98;61.82,40.08|CS|Z|Skitterweb Tunnels@Blackrock Spire!Dungeon|
 R The Molten Span|N|Head back out of the instance and run (fly) to this waypoint at the bottom near the lava.|CS|QID|8619|M|18.59,25.03|Z|Burning Steppes|RANK|2|
 R Blackrock Depths|N|Follow the waypoints to get into Blackrock Depths instance.|CS|QID|8619|M|56.03,82.19;49.34,65.06;38.02,47.34;37.87,19.41|Z|Blackrock Depths@Blackrock Mountain|RANK|2|
 
-A Morndeep the Elder|N|From Elder Morndeep Go directly across the entrance thru the large first room and into the detention block. Leave quickly or be stuck doing that event when the doors shut.|QID|8619|M|50.55,62.90|Z|Detention Block@BlackrockDepths|RANK|2|
+A Morndeep the Elder|N|From Elder Morndeep Go directly across the entrance thru the large first room and into the detention block. Leave quickly or be stuck doing that event when the doors shut.|QID|8619|RANK|2|;M|50.55,62.90|Z|Detention Block@BlackrockDepths|
 R Searing Gorge|N|Head out of the instance, and run North to Searing Gorge.|QID|8651|M|34.56,83.46|CC|Z|Searing Gorge|RANK|2|
 A Ironband the Elder|N|From Elder Ironband.|QID|8651|M|21.29,79.11|Z|Searing Gorge|
 R Loch Modan|N|Head towards Loch Modan.|QID|8642|M|33,46.5|Z|Loch Modan|
@@ -120,7 +120,7 @@ A Goldwell the Elder|N|From Elder Goldwell.|QID|8653|M|53.90,49.91|Z|Dun Morogh|
 R Ironforge|N|Run into Ironforge.|QID|8866|M|29.4,14|Z|Ironforge|
 A Bronzebeard the Elder|N|From Elder Bronzebeard.|QID|8866|M|29.20,17.06|Z|Ironforge|T|Elder Bronzebeard|
 
-R Edge of Don Morogh|N|Fly over to the easternmost point of Dun Morogh|M|3.15,28.99|CC|Z|Dun Morogh|QID|29738|
+R Edge of Don Morogh|N|Fly over to the westernmost point of Dun Morogh|M|3.15,28.99|CC|Z|Dun Morogh|QID|29738|
 R Vashj'ir|QID|29738|M|39.33,59.22;37.74,59.42|CS|Z|Eastern Kingdoms|N|Fly across the narrowest part of the fatigue water and then when you get into Vashj'ir head south towards the elder.|
 A Moonlance the Elder|QID|29738|M|57.25,86.14|Z|Shimmering Expanse|N|From Elder Moonlance, Near Biel'Aran Ridge.|
 R Sandy Beach|QID|8645|M|61.03,28.43|CC|Z|Shimmering Expanse|N|Fly over to Sandy Beach to catch a flight point back to the mainland. This is a REALLY LONG flight, good time for an AFK.|
@@ -191,9 +191,9 @@ A Sandrene the Elder|N|From Elder Sandrene.|QID|13018|M|49.78,63.62|Z|Sholazar B
 A Wanikaya the Elder|N|From Elder Wanikaya.|QID|13024|M|63.80,49.02|Z|Sholazar Basin|
 
 F Transitus Shield|FLY|OLD|N|Fly to the Transitus Shield in Colderra.|QID|13016|M|50,61.4|Z|Sholazar Basin|
-A Northal the Elder|N|From Elder Northal. Before the first boss. Nothing needs to die, but due to mob density, you probably will find it easier to kill a few.|QID|13016|M|33.80,34.36|Z|Borean Tundra|
+A Northal the Elder|N|From Elder Northal.QID|13016|M|33.80,34.36|Z|Borean Tundra|
 R The Nexus|N|Run into The Nexus.|QID|13021|M|27.5,26.09|Z|Borean Tundra|RANK|3|
-A Igasho the Elder|N|From Elder Igasho.|QID|13021|M|55.19,64.72|Z|The Nexus@TheNexus|RANK|3|
+A Igasho the Elder|N|From Elder Igasho. Before the first boss. Nothing needs to die, but due to mob density, you probably will find it easier to kill a few.|QID|13021|M|55.19,64.72|Z|The Nexus@TheNexus|RANK|3|
 R D.E.H.T.A Encampment|N|Head out of The Nexus and go to the D.H.E.T.A Encampment.|QID|13033|M|57.4,43.6|Z|Borean Tundra|
 A Arp the Elder|N|From Elder Arp.|QID|13033|M|57.41,43.72|Z|Borean Tundra|
 A Sardis the Elder|N|From Elder Sardis.|QID|13012|M|59.10,65.63|Z|Borean Tundra|T|Elder Sardis|

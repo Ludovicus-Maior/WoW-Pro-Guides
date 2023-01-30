@@ -1,4 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="Ludo_WoWAnniversary.lua"/>
 	<Script file="Twists_Darkmoon_Faire.lua"/>
+	<Script file="DF_LunarFestival.lua"/>
 </Ui>
