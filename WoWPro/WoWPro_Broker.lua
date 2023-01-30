@@ -1822,7 +1822,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         local jprereq = select(numprereqs-j+1, ("&"):split(pre))
                         if not WoWPro:IsQuestFlaggedCompleted(jprereq, true) then
                             skip = true -- If one of the prereqs is NOT complete, step is skipped.
-                            WoWPro.why[guideIndex] = ("NextStep:PRE&(%d): A mandatory prereq was not met: %s"):format(guideIndex, tostring(jprereq))
+                            WoWPro.why[guideIndex] = ("NextStep:PRE&(%s): A mandatory prereq was not met: %s"):format(pre, tostring(jprereq))
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             break
                         end
