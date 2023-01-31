@@ -463,8 +463,8 @@ b Moa'ki Harbor|QID|12117|N|Take the turtle to Moa'ki Harbor in Dragonblight.|M|
 T Travel to Moa'ki Harbor|QID|12117|N|To Ko'nani|Z|Dragonblight|M|48.01,74.88|
 b Kamagua|QID|11228|N|Use the pier on your left-hand side to travel to Kamagua.|Z|Dragonblight|M|49.63,78.42|
 R Valgarde|QID|11228|N|Take the Ancient Lift, then follow the waypoint arrows.|Z|Howling Fjord|M|24.70,62.27;44.3,59.1;46,50;51,44.67;52.3,47.8;59.6,61.0|CC|
-A High Commander Halford Wyrmbane|QID|12298|PRE|12297|N|From Greer Orehammer, this quest leads into Dragonblight.|
-F Wintergarde Keep|QID|12298|N|Talk to Greer Orehammer and choose to fly to Wintergarde Keep.|
+A High Commander Halford Wyrmbane|QID|12298|ACTIVE|-12157|PRE|12297|N|From Greer Orehammer, this quest leads into Dragonblight.|
+F Wintergarde Keep|ACTIVE|12298|N|Talk to Greer Orehammer and choose to fly to Wintergarde Keep.|CHAT|
 N Done with Borean Tundra, but...|N|That concludes Borean Tundra.|
 ; Level 80 quests need alot of work.
 A Corastrasza|QID|13412|PRE|11919|N|From Librarian Serra|M|33.48,34.38|LVL|80|

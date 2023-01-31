@@ -151,55 +151,63 @@ A Take My Hand|QID|55400|PRE|55374|M|49.54,68.37|Z|Highmountain|N|From Spiritwal
 C Take My Hand|QID|55400|M|49.63,68.41|Z|Highmountain|CHAT|N|Speak to Navarrogg.|
 T Take My Hand|QID|55400|M|26.72,46.20|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
 A Calming the Spine|QID|55407|M|26.72,46.20|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55400|
-C Calming the Spine|QID|55407|M|17.36,49.30;24.57,50.69;19.71,55.70;17.54,62.21|Z|The Dragon's Spine!Instance|CS|NC|N|Seal the fissures by standing in them and using your special action button.|
-T Calming the Spine|QID|55407|M|17.67,62.47|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
-A Dominating the Indomitable|QID|55425|M|17.67,62.47|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55407|
-C Dominating the Indomitable|QID|55425|M|18.13,63.44|Z|The Dragon's Spine!Instance|QO|1|NC|N|Confront Ma'haat the Indomitable.|
-C Dominating the Indomitable|QID|55425|M|18.33,61.93|Z|The Dragon's Spine!Instance|QO|2|T|Ma'haat the Indomitable|N|Defeat Ma'haat the Indomitable. You will have to wait a bit for dialog before you can start combat.|
-C Dominating the Indomitable|QID|55425|M|18.95,58.08|Z|The Dragon's Spine!Instance|QO|3|NC|N|Pick up the Petrified Ebony Scale.|
-T Dominating the Indomitable|QID|55425|M|18.95,58.08|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
-A A Friendly Face|QID|55497|M|18.95,58.08|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55425|
-H The Great Seal|ACTIVE|55497|N|Hearth or otherwise return to The Great Seal, Silithus and The Chamber of Heart.|
+C Calming the Spine|QID|55407|M|17.36,49.30;24.57,50.69;19.71,55.70;17.54,62.21|Z|The Dragon's Spine!Instance|CN|NC|EAB|N|Seal the fissures by standing in them and using your special action button.|
+T Calming the Spine|QID|55407|M|PLAYER|N|To Spiritwalker Ebonhorn.|
+A Dominating the Indomitable|QID|55425|PRE|55407|M|PLAYER|N|From Spiritwalker Ebonhorn.|
+R Dominating the Indomitable|QID|55425|QO|1|M|18.13,63.44|Z|The Dragon's Spine!Instance|N|Confront Ma'haat the Indomitable.|
+K Dominating the Indomitable|ACTIVE|55425|QO|2|M|18.33,61.93|Z|The Dragon's Spine!Instance|T|Ma'haat the Indomitable|N|Defeat Ma'haat the Indomitable.\n[color=FF0000]NOTE: [/color]You will have to wait a bit for dialog before you can start combat.|
+C Dominating the Indomitable|QID|55425|QO|3|M|18.95,58.08|Z|The Dragon's Spine!Instance|H|N|Pick up the Petrified Ebony Scale.|
+T Dominating the Indomitable|QID|55425|M|PLAYER|N|To Spiritwalker Ebonhorn.|
+A A Friendly Face|QID|55497|PRE|55425|M|PLAYER|N|From Spiritwalker Ebonhorn.|
+H The Great Seal|ACTIVE|55497|N|Hearth or otherwise return to The Great Seal.|
+P Silithus|ACTIVE|55497|M|73.82,85.64|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal or otherwise travel to Silithus.|
+P Chamber of Heart|ACTIVE|55497|M|43.20,44.50|Z|Silithus|TZ|Chamber of Heart|N|Click on the Titan Translocator to portal to the Chamber of Heart.|
 C A Friendly Face|QID|55497|M|48.17,39.03|Z|Chamber of Heart!Dungeon1473|QO|2|CHAT|N|Meet Spiritwalker Ebonhorn in Chamber of Heart.|
 T A Friendly Face|QID|55497|M|50.24,59.14|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A The Heart Forge|QID|55618|M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|PRE|55497|
 C The Heart Forge|QID|55618|M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|QO|1|CHAT|N|Speak with MOTHER.|
 C The Heart Forge|QID|55618|M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|QO|2|NC|N|Wait while MOTHER activates the Heart Forge.|
 T The Heart Forge|QID|55618|M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
-A Harnessing the Power|QID|57010|M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|PRE|55618|
-C Harnessing the Power|QID|57010|M|50.58,65.25|Z|Chamber of Heart!Dungeon1473|QO|1|U|168611|NC|N|Use the Petrified Ebony Scale.|
-C Harnessing the Power|QID|57010|M|50.58,65.25|Z|Chamber of Heart!Dungeon1473|QO|2|NC|N|Use the Forge UI to infused the Heart of Azeroth with the Essence.|
+A Harnessing the Power|QID|57010|PRE|55618||M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|
+C Harnessing the Power|QID|57010|QO|1|M|50.58,65.25|Z|Chamber of Heart!Dungeon1473|NC|U|168611|N|Use the Petrified Ebony Scale.|
+C Harnessing the Power|QID|57010|QO|2|M|50.58,65.25|Z|Chamber of Heart!Dungeon1473|NC|N|Use the Forge UI to infused the Heart of Azeroth with the Essence.|
 T Harnessing the Power|QID|57010|M|50.09,59.09|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 ;finalize zone intro
-A Back Out to Sea|QID|56161|M|50.09,59.09|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|57010|
-P Newhome|ACTIVE|56161|M|62.83,85.67|Z|The Great Seal!Dazar'alor|N|Return to the Great Seal, and then use the newly activated portal to Nazjatar.|
+A Back Out to Sea|QID|56161|PRE|57010|M|50.09,59.09|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|
+P Magni's Encampment|ACTIVE|56161|M|50.12,30.56|Z|Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
+P Hall of Ancient Paths|ACTIVE|56161|M|41.61,45.21|Z|81;Silithus|N|Click on the portal to travel back to Zuldazar.|
+P Nazjatar|ACTIVE|56161|M|62.83,85.67|Z|The Great Seal!Dazar'alor|N|Return to the Great Seal, and then use the newly activated portal to Nazjatar.|
 T Back Out to Sea|QID|56161|M|48.51,62.18|N|To Lor'themar Theron (back in Nazjatar).|
-A Scouting the Palace|QID|55481|M|48.51,62.18|N|From Lor'themar Theron.|PRE|56161|
+A Scouting the Palace|QID|55481|PRE|56161|M|48.51,62.18|N|From Lor'themar Theron.|
 C Scouting the Palace|QID|55481|M|48.36,62.15|CHAT|N|Ask Spiritwalker Ussoh to show you vision.|
-T Scouting the Palace|QID|55481|M|48.51,62.18|N|To Lor'themar Theron. The reward will be immediately upped to ilvl 400 in the next step, if that makes a diff to your choice.|
-A Create Your Own Strength|QID|57003|M|48.51,62.18|N|From Lor'themar Theron.|PRE|55481|
-C Create Your Own Strength|QID|57003|M|49.10,61.95|NC|N|Click on the piece of Benthic armor you just received to make it usable. Then click on the Voidbinder to use the Voidbinder's UI to Upgrade a piece of Benthic Armor.||
-T Create Your Own Strength|QID|57003|M|50.99,65.24|N|To Atolia Seapearl.|
-A Settling In|QID|55384|M|49.74,64.65|N|From Neri Sharpfin.|PRE|57003|
-C Settling In|QID|55384|M|49.20,63.01|QO|1|CHAT|N|Ask Telur to move the Calling Conch.|
-C Settling In|QID|55384|M|50.84,64.90|QO|2|NC|N|Take a Swig of Slen's Elixir.|
-C Settling In|QID|55384|M|49.47,65.32|QO|3|CHAT|N|Check in with Vim.|
-C Settling In|QID|55384|M|49.85,64.65|QO|4|NC|N|Test the Calling Conch.|
-T Settling In|QID|55384|M|49.80,64.56|N|To Neri Sharpfin.|
-A Scouting the Pens|QID|55385|M|49.80,64.56|N|From Neri Sharpfin.|PRE|55384|  ; Had PRE of 55385, which is QID
-C Scouting the Pens|QID|55385|M|51.79,54.74;50.58,45.51;43.67,43.47|CS|QO|1|NC|N|Follow the road NE, then W to find Nelu Darkclaw.|  ; extra coord had you backtracking
-C Scouting the Pens|QID|55385|M|40.69,45.40|QO|2|NC|N|Sandel Fin found.|  ; coord missing digit.
-C Scouting the Pens|QID|55385|M|38.86,42.43|QO|3|NC|N|Find Poen Gillbrack.|
-T Scouting the Pens|QID|55385|M|38.86,42.43|N|To Neri Sharpfin.|
+T Scouting the Palace|QID|55481|M|48.51,62.18|N|To Lor'themar Theron.\n[color=FF0000]NOTE: [/color]The reward will be immediately upped to ilvl 400 in the next step, if that makes a difference to your choice.|
+A Create Your Own Strength|QID|57003|PRE|55481|M|48.51,62.18|N|From Lor'themar Theron.|
+C Create Your Own Strength|QID|57003|QO|1|M|49.10,61.95|NC|N|Click on the piece of Benthic Armor you just received to make it usable. (optional)|
+B Create Your Own Strength|QID|57003|QO|2|M|49.10,61.95|N|Talk to Voidbinder Zorlan to use the Voidbinder's UI to upgrade the piece of Benthic Armor.\n[color=FF0000]NOTE: [/color]There is a bug that may prevent this step from being able to complete. If that happens, make this step a sticky and carry on for now. You'll need to wait until you get another piece of armor from a WQ.|
+t Create Your Own Strength|QID|57003|M|50.99,65.24|N|To Atolia Seapearl.|
+A Settling In|QID|55384|M|49.74,64.65|N|From Neri Sharpfin.|;PRE|57003| ** This PRE does not apply here - Hendo72
+C Settling In|QID|55384|QO|1|M|49.24,62.99|CHAT|N|Ask Telur to move the Calling Conch.|
+C Settling In|QID|55384|QO|2|M|50.87,64.90|H|N|Take a Swig of Slen's Elixir.|
+C Settling In|QID|55384|QO|3|M|49.47,65.32|CHAT|N|Check in with Vim Brineheart.|
+C Settling In|QID|55384|QO|4|M|49.85,64.65|NC|N|Test the Calling Conch.|
+T Settling In|QID|55384|M|PLAYER|N|To Neri Sharpfin.|
+A Scouting the Pens|QID|55385|PRE|55384|M|PLAYER|N|From Neri Sharpfin.|
+R Scouting the Pens|QID|55385|QO|1|M|51.79,54.74;50.58,45.51;43.65,43.48|CS|N|Follow the road northeast and then west to find Nelu Darkclaw.|
+C Scouting the Pens|QID|55385|QO|1|M|43.65,43.48|I|N|Click on Nelu Darkclaw.|
+R Scouting the Pens|QID|55385|QO|2|M|41.27,45.53|N|Sandel Fin found.|
+R Scouting the Pens|QID|55385|QO|3|M|39.07,43.26|N|Find Poen Gillbrack.|
+T Scouting the Pens|QID|55385|M|PLAYER|N|To Neri Sharpfin.|
 A Save A Friend|QID|55500|M|38.88,42.43|N|From Poen Gillbrack.|PRE|55385|
-K Herald of the Queen|ACTIVE|55500|M|37.51,42.66;35.70,42.98|CS|QO|1|T|Herald of the Queen|N|Kill Herald of the Queen.|
-C Save A Friend|QID|55500|M|35.54,43.46|QO|2|NC|N|Click on Mak to heal.|
-T Save A Friend|QID|55500|M|39.48,46.79;41.13,50.51;52.03,53.22;50.11,65.27|CS|N|To Poen Gillbrack. This is the quest that opens up world quests.|
+K Herald of the Queen|ACTIVE|55500|QO|1|M|37.51,42.66;35.70,42.98|CS|T|Herald of the Queen|N|Find Herald of the Queen inside the Void Chamber and kill her.|
+C Save A Friend|QID|55500|QO|2|M|35.54,43.46|H|N|Click on Mak to heal her.|
+R Newhome|ACTIVE|55500|M|39.48,46.79;41.13,50.51;52.03,53.22;49.01,60.78|CS|N|Follow the road back to Newhome.|
+T Save A Friend|QID|55500|M|50.11,65.27|N|To Poen Gillbrack.\n[color=FF0000]NOTE: [/color]This will unlock world quests.|
 N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-U Calling Conch|QID|57040^57041^57042|M|49.81,64.59|N|Be sure and stop by the Calling Conch to pick up your companion.|PRE|55500|
+U Calling Conch|QID|57040^57041^57042|PRE|55500|M|49.81,64.59|N|Use the Calling Conch to pick a companion for the day(each one has a specific purpose... DPS/Healer/Tank) and to activate the daily quests.|
 N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
-A Becoming a Friend|QID|57005|M|50.97,65.22|N|From Atolia Seapearl.|PRE|55500|
-A Down Into Nazjatar|QID|56235|M|48.51,62.18|N|From Lor'themar Theron. You will now see dailies available. The guide has no way to predict which ones are available. So, pick them all up and if they are in the guide it will direct you.|PRE|55500|
+A Becoming a Friend|QID|57005|PRE|55500|M|50.98,65.26|N|From Atolia Seapearl.|
+A Down Into Nazjatar|QID|56235|PRE|55500|M|48.51,62.18|N|From Lor'themar Theron.
+N Dailies|AVAILABLE|57024|PRE|55500|N|You'll now see dailies available. The guide has no way to predict which ones are available.\nSo, pick them all up and if they're in the guide, it'll direct you. Otherwise, you're on your own.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Bounty: A Few Snapdragons|QID|55824|M|50.99,65.34|N|From Asme Seapearl.|O|
 A Bounty: More Snapdragons|QID|55833|M|50.95,65.30|N|From Asme Seapearl.|O|
 A Requisition: We Need It All|QID|55801|M|50.97,65.30|N|From Asme Seapearl.|O|
@@ -219,7 +227,7 @@ A Requisition: A Few Carp|QID|55723|M|47.39,62.01|N|From Lily Bopip.|O|
 A Bounty: A Few Murlocs|QID|55819|M|47.40,61.98|N|From Lily Bopip.|O|
 A Bounty: A Few Makrura|QID|55822|M|47.40,61.98|N|From Lily Bopip.|O|
 A Bounty: Dangerous Creatures|QID|55837|M|47.39,61.97|N|From Lily Bopip.|O|
-A Scrying Stones|QID|56210|M|49.06,62.21|N|From Finder Pruc.|PRE|55500|
+A Scrying Stones|QID|56210|PRE|55500|M|49.20,62.25|N|From Finder Pruc.|
 A Requisition: More Flotsam|QID|55793|M|49.09,62.18|N|From Finder Pruc.|O|
 A Bounty: A Few Coral Ancients|QID|55821|M|49.20,62.26|N|From Finder Pruc.|O|
 A WANTED: Lady Naz'jess|QID|56222|M|47.97,61.41|N|From Bounty Board.|O|
@@ -234,12 +242,13 @@ A Requisition: More Cone Shells|QID|55792|M|49.37,61.57|N|From Karn Deepweld.|O|
 A Requisition: A Few Deepcoral Buds|QID|55724|M|47.49,63.21|N|From Iina Bluegill.|O|
 A Requisition: More Deepcoral Buds|QID|55790|M|47.48,63.25|N|From Iina Bluegill.|O|
 A Bounty: More Fathom Rays|QID|55834|M|47.47,63.26|N|From Iina Bluegill.|O|
-A Rumors of Mechagon|QID|57024|M|48.41,60.63|PRE|55500|N|Disgruntled Laborer. This is the quest that opens up Mechagon if you are wanting to head there.|
-A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|Check this off manually (and pick it up later) if you aren't headed off to Mechagon now or don't find Champions important). From Dread-Admiral Tattersail. This quest is completed in Nazjatar.|NA|
-C Scrying Stones|QID|56210|M|49.23,62.06|QO|1|N|Use the Scrying Stone.|
-C Scrying Stones|QID|56210|M|46.81,55.99;43.48,53.65;40.28,49.00|CS|QO|2|N|Keep using the scrying stone (extra action button) until you find 3 Hidden Treasures.|
-A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found. Watch OUT! mods turn red as you approach!|PRE|55500|
-C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|NA|
+A Rumors of Mechagon|QID|57024|PRE|55500|M|48.44,60.64|N|From Disgruntled Laborer.\n[color=FF0000]NOTE: [/color]This quest opens up Mechagon.|
+;A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|From Dread-Admiral Tattersail.|
+C Scrying Stones|QID|56210|QO|1|M|49.23,62.06|NC|U|169817|N|Use the Scrying Stone.|
+C Scrying Stones|QID|56210|QO|2|M|51.66,55.34;46.81,55.99;43.48,53.65;40.28,49.00|CS|NC|EAB|N|Keep using the scrying stone (extra action button) until you find 3 Hidden Treasures.\n[color=FF0000]NOTE: [/color]Don't forget to open the chest.|
+l Silver Knife|AVAILABLE|56240|PRE|55500|M|39.76,49.17|L|169216|N|Loot this quest starter item from the chest.|
+A Strange Silver Knife|QID|56240|PRE|55500|M|PLAYER|U|169216|N|From the Silver Knife you just looted.|O|
+C The Unshackled|QID|56120|S!US|N|The Unshackled emmisary is up, so Complete 4 world quests in Nazjatar.|NA|
 C Bounty: Naga|QID|55827^55818|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
 C Bounty: Coral Ancients|QID|55821^55830|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
 C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a bounty for killing Rares, so don't avoid them in your travels.|
@@ -260,8 +269,8 @@ C Plug the Geysers|QID|55874|M|62.53,53.55|U|168482|NC|N|Use the sealant provide
 K Disturbed Algan|ACTIVE|55874|M|62.45,53.20|QO|2|T|Disturbed Algan|N|Disturbed Algan will spawn when you plug the last geyser. Kill him.|
 T Plug the Geysers|QID|55874|M|60.64,52.86|N|To Scout Kleda.|
 K Lord Ha'kass|ACTIVE|56224|M|44,37|QO|1|T|Lord Ha'kass|N|Kill Lord Ha'kass and take his head.|
-A A Safer Place|QID|55530|M|48.11,45.44|N|From Mrrl.|PRE|55500|
-C A Safer Place|QID|55530|M|47.41,61.61|S!US|QO|1|N|Escort Mrrl to Newhome. Note you can mount or use a flight path without losing Mrrl.|
+A A Safer Place|QID|55530|PRE|55500|M|48.19,45.34|N|From Mrrl.|
+C A Safer Place|QID|55530|QO|1|M|47.41,61.61|S!US|N|Escort Mrrl to Newhome.\n[color=FF0000]NOTE: [/color]You can mount or use a flight path without losing Mrrl.|
 C Pearlhusk Crawler|QID|56385|M|50.55,50.10|N|Defeat the Pearlhusk Crawler in a pet battle.|
 A Pearlescent Shell|QID|56461|M|50.55,50.10|N|From item dropped the first time you defeat the Pearlhusk Crawler in a pet battle.|PRE|56385|
 K Inquisitor Ithriza|ACTIVE|56227|M|48.37,47.56|QO|1|T|Inquisitor Ithriza|N|Loot Inquisitor Ithriza's Head.|
@@ -278,14 +287,14 @@ C Making Kelpberry Wine|QID|55638|M|63.74,42.78|NC|QO|1|N|Pick up Kelpberries.|
 C Making Kelpberry Wine|QID|55638|M|57.84,40.83|QO|2|N|Deliver the Kelpberries to pile of Kelpberries beside Gniden.|
 C Making Kelpberry Wine|QID|55638|M|57.84,40.83|QO|3|N|Pick up Cask of Kelpberry Juice.|
 T Making Kelpberry Wine|QID|55638|M|57.21,39.52;58.15,35.22|CS|N|To Maedin in underwater cave.|
-f Ekka's Hideaway|ACTIVE|55530|M|64.00,51.77|N|At Ekka Crimsonscale.  This seems out of the way, but will make things easier later.|  ; added note, as during play through I thought WTF, didnt realize till later.
-F Newhome|ACTIVE|55530|M|64.00,51.77|N|At Ekka Crimsonscale.|
+f Ekka's Hideaway|ACTIVE|55530|M|63.98,51.82|N|At Ekka Crimsonscale.\n[color=FF0000]NOTE: [/color]This seems out of the way, but it'll make things easier later.\nOpen the flight map to populate the FPs.|
+F Newhome|ACTIVE|55530|M|63.98,51.82|N|At Ekka Crimsonscale.|
 T Scrying Stones|QID|56210|M|49.11,62.16|N|To Finder Pruc.|
 T Strange Silver Knife|QID|56240|M|49.22,62.08|N|To Finder Palta.|
-A Preserved Clues|QID|56242|M|49.22,62.08|N|From Finder Palta.|PRE|56240|
+A Preserved Clues|QID|56242|PRE|56240|M|49.22,62.08|N|From Finder Palta.|
 C A Safer Place|QID|55530|M|47.28,61.17|N|Be sure and swing by the road into Newhome, so Mrrl will notice he is safely here.|
 T A Safer Place|QID|55530|M|46.94,61.45|N|To Mrrl.|
-A No Backs|QID|55529|M|46.94,61.45|N|From Mrrl.|PRE|55530|
+A No Backs|QID|55529|PRE|55530|M|46.94,61.45|N|From Mrrl.|
 B No Backs|ACTIVE|55529|M|46.97,62.38|QO|2|T|Flrgrrl|N|Purchase the Unidentified Mass from Flrgrrl who is swimming in the pond nearby.|
 B No Backs|ACTIVE|55529|M|47.72,61.44|QO|3|T|Grrmrlg|N|Purchase the Flatulent Fish from Grrmrlg nearby.|
 B No Backs|ACTIVE|55529|M|47.78,63.12|QO|1|T|Hurlgrl|N|Purchase a Sweet Sea Vegetable from Hurlgrl nearby.|
@@ -293,30 +302,30 @@ B No Backs|ACTIVE|55529|M|48.28,62.58|QO|4|T|Mrrglrlr|N|Purchase Slimy Naga Eyeb
 T No Backs|QID|55529|M|46.95,61.44|N|To Mrrl.|
 F Ekka's Hideaway|QID|56118|M|47.48,63.24|N|At Iina Bluegill.|
 A Fighting Venomous With Venom|QID|55661|M|64.54,48.58|N|From Cando Mikfin.|O|
-C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|S|N|Kill Snapdragons until you get the 10 Venom Droplets.|L|168198 10|
-A Snap Back|QID|56118|M|66.43,47.24|N|From Collector Kojo.|PRE|55500|
-A Legacy of Nar'anan|QID|56095|M|66.43,47.24|N|From Collector Kojo.|PRE|55500|
+C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|S|L|168198 10|N|Kill Snapdragons until you get the 10 Venom Droplets.|
+A Snap Back|QID|56118|PRE|55500|M|66.43,47.24|N|From Collector Kojo.|
+A Legacy of Nar'anan|QID|56095|PRE|55500|M|66.43,47.24|N|From Collector Kojo.|
 C Snap Back|QID|56118|M|69.57,49.73|S|U|168947|N|Kill snapdragons. use the Scroll of Bursting Power on the Elite Terrormaw Snapdragons before you agro them.|
 C Legacy of Nar'anan|QID|56095|M|67.45,47.14;70.66,50.85;71.87,50.47|CS|N|Click on the pylons to witness the memories.|
 C Snap Back|QID|56118|M|69.57,49.73|US|U|168947|N|Finish killing snapdragons.|
 T Snap Back|QID|56118|M|66.50,47.46|N|To Collector Kojo.|
 T Legacy of Nar'anan|QID|56095|M|66.50,47.46|N|To Collector Kojo.|
-A The Fate of Professor Elryna|QID|56143|M|66.50,47.46|N|From Collector Kojo.|PRE|56118&56095|
-K Snapdragon Matriarch|ACTIVE|56143|M|68.72,50.26|QO|1|T|Snapdragon Matriarch|N|Kill the Snapdragon Matriarch.|
-C The Fate of Professor Elryna|QID|56143|M|68.32,50.65|QO|2|NC|N|Pick up the Memory Core.|
-C The Fate of Professor Elryna|QID|56143|M|66.51,47.28|QO|3|NC|N|Witness the fate of Professor Elryna.|
+A The Fate of Professor Elryna|QID|56143|PRE|56118&56095|M|66.50,47.46|N|From Collector Kojo.|
+K Snapdragon Matriarch|ACTIVE|56143|QO|1|M|68.72,50.26|T|Snapdragon Matriarch|N|Kill the Snapdragon Matriarch.|
+C The Fate of Professor Elryna|QID|56143|QO|2|M|68.32,50.65|H|N|Pick up the Memory Core.|
+C The Fate of Professor Elryna|QID|56143|QO|3|M|66.51,47.28|NC|N|Witness the fate of Professor Elryna.|
 T The Fate of Professor Elryna|QID|56143|M|66.46,47.40|N|To Collector Kojo.|
-K The Zanj'ir Brutalizer|ACTIVE|55886|M|64.12,57.02|QO|1|T|Zanj'ir Brutalizer|N|Kill the Zanj'ir Brutalizer.|
+K The Zanj'ir Brutalizer|ACTIVE|55886|QO|1|M|64.12,57.02|T|Zanj'ir Brutalizer|N|Kill the Zanj'ir Brutalizer.|
 C Time to Krill|QID|56078|M|63.68,50.38;70.69,47.62;72.36,48.69|CN|N|Click Murky's Egg tp enter.|
 C Time to Krill|QID|56078|M|63.70,50.41|N|Use Murky's abilities to kill snapdragons.|
-C Bounty: Snapdragons|QID|55824^55833|M|69.15,46.89|QO|1|N|Kill Snapdragons.|
-C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|US|N|Kill Snapdragons until you get 10 Venom Droplets|L|168198 10|
-U Veneom Droplet|ACTIVE|55661|M|PLAYER|U|168198|N|Click the droplets to turn into a Poison Globule.|L|168525|
+C Bounty: Snapdragons|QID|55824^55833|QO|1|M|69.15,46.89|N|Kill Snapdragons.|
+C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|US|L|168198 10|N|Kill Snapdragons until you get 10 Venom Droplets|
+U Veneom Droplet|ACTIVE|55661|M|PLAYER|L|168525|U|168198|N|Click the droplets to turn into a Poison Globule.|
 C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|U|168525|N|Use the Poison Globule to weaken a Terrormaw, then kill it for the Envenomed Fangs.|
 T Fighting Venomous With Venom|QID|55661|M|64.54,48.58|N|To Cando Mikfin.|
-C Bounty: Makrura|QID|55822^55831|M|64.59,39.09|QO|1|N|Kill makrura.|
-C Infestation of Madness|QID|55884|M|64.59,39.09|QO|1|N|Kill Kil'karrok makrura.|;WQ
-C Infestation of Madness|QID|55884|M|64.96,34.19|QO|2|N|Use special action button to teleport to the Infestation of Madness and kill it. There is a thing that will give you a levitating buff to get down afterwards.|
+C Bounty: Makrura|QID|55822^55831|QO|1|M|64.59,39.09|N|Kill makrura.|
+C Infestation of Madness|QID|55884|QO|1|M|64.59,39.09|N|Kill Kil'karrok makrura.|;WQ
+C Infestation of Madness|QID|55884|QO|2|M|64.96,34.19|N|Use special action button to teleport to the Infestation of Madness and kill it. There is a thing that will give you a levitating buff to get down afterwards.|
 A Kill the Kritch|QID|55873|M|44.93,76.84|QO|1|N|From Rlgmrr.|O|;follower q
 K Kill the Kritch|ACTIVE|55873|M|36.32,79.94|T|Kritch|QO|1|N|Kill Kritch.|
 T Kill the Kritch|QID|55873|M|44.91,76.86|N|To Rlgmrr.|
