@@ -52,10 +52,10 @@ A Swoop Hunting|QID|761|Z|Mulgore|M|48.71,58.82|N|From Harken Windtotem.|
 A Kyle's Gone Missing!|QID|11129|Z|Mulgore|M|48.34,53.18|N|From Ahab Wheathoof.|
 C Tender Strider Meat|S|QID|11129|N|Kill any Plainstrider you see, until you have a Tender Strider Meat.|L|33009 1|
 C Poison Water|S|QID|20440|R|Tauren|N|Kill and loot any Plainstriders and Praire Wolves you see.|
-C Swoop Hunting|S|QID|761|N|Kill any Swoops you see.|
+C Swoop Hunting|S|QID|761|N|Kill any Swoops you see.|M|37.72,57.08|
 C Sharing the Land|QID|14438|Z|Mulgore|M|36.1,61.4|N|Kill Gnolls around the camp and in the cave behind it.|
 C Poison Water|US|QID|20440|R|Tauren|N|Finish killing and looting any Plainstriders and Praire Wolves you see.|
-C Swoop Hunting|US|QID|761|N|Finish killing any Swoops you see.|
+C Swoop Hunting|US|QID|761|N|Finish killing any Swoops you see.|M|37.72,57.08|
 H Bloodhoof Village|QID|14438|Z|Mulgore|M|48.19,59.59|N|Hearth to Bloodhoof Village, and sell any junk you might have to Innkeeper Kauth.|
 T Sharing the Land|QID|14438|Z|Mulgore|M|47.60,59.58|N|To Ahmo Thunderhorn.|
 A The Restless Earth|QID|14491|PRE|14438|Z|Mulgore|M|47.60,59.58|N|From Ahmo Thunderhorn.|
@@ -79,8 +79,8 @@ A The Venture Co.|QID|26179|PRE|751|Z|Mulgore|M|57.05,60.24|N|From Morin Cloudst
 A Supervisor Fizsprocket|QID|26180|PRE|751|Z|Mulgore|M|57.05,60.24|N|From Morin Cloudstalker.|
 C The Venture Co.|S|QID|26179|N|Kill Workers as you make your way up the hill to the mine.|QO|1|; Venture Co. Worker slain: 7/7
 K Supervisor Fizsprocket|QID|26180|Z|Mulgore|M|60.92,47.07|N|Kill Supervisor Fizsprocket inside the mine and loot his clipboard.|T|Supervisor Fizsprocket|QO|1|
-C The Venture Co.|US|QID|26179|N|Kill Workers you still need as you make your way back down the hill.|QO|1|; Venture Co. Worker slain: 7/7
-C Mazzranache|S|QID|26188|N|Kill Flatland Cougars you see until you get a femur.|QO|1|; Flatland Cougar Femur: 1/1
+C The Venture Co.|US|QID|26179|Z|Mulgore|M|60.92,47.07|N|Kill Workers you still need as you make your way back down the hill.|QO|1|; Venture Co. Worker slain: 7/7
+C Mazzranache|US|QID|26188|M|57.38,65.61|Z|Mulgore|N|Kill Flatland Cougars you see until you get a femur.|QO|1|; Flatland Cougar Femur: 1/1
 C Thunderhorn Totem|US|QID|24441|R|Tauren|N|Finish killing and looting the Flatland Cougars and Prairie Stalkers for their claws.|
 C Tender Strider Meat|US|QID|11129|N|Kill any Plainstrider you see, until you have a Tender Strider Meat.|L|33009 1|
 T The Venture Co.|QID|26179|Z|Mulgore|M|57.06,60.32|N|To Morin Cloudstalker.|
