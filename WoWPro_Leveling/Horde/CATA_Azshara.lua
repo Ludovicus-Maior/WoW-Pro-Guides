@@ -86,11 +86,11 @@ A Private Chat|QID|24453|M|29.46,57.67|N|From Commander Molotov.|PRE|24452| ; St
 T Private Chat|QID|24453|M|29.52,66.84|N|To Private Worcester back at the Orgrimmar Rocketway Exchange.|
 A A Thousand Stories in the Sand|QID|14201|M|29.68,66.88|N|From Malynea Skyreaver.|PRE|24453| ; Storyline - Redirecting the Ley Lines
 A Survey the Lakeshore|QID|14202|M|29.59,66.85|N|From Custer Clubnik (he moves around a bit).|PRE|24453| ; Storyline
-l A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|QO|1|N|Collect Recovered Artifacts.|S|
+l A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|QO|1|NC|N|Collect Recovered Artifacts.|S|
 C Survey North Marker|QID|14202|M|34.69,71.57|QO|2|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
 C Survey East Marker|QID|14202|M|37.37,74.61|QO|3|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
 C Survey the Lakeshore|QID|14202|M|34.29,76.62|QO|1|N|Stand next to the Survey Equipment and protect the Surveyor until you get the completion for that section.|U|48665|
-C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|N|Collect Recovered Artifacts.|US|
+C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|NC|N|Collect Recovered Artifacts.|US|
 T A Thousand Stories in the Sand|QID|14201|M|29.68,66.88|N|To Malynea Skyreaver.|
 A Memories of the Dead|QID|14215|M|29.64,66.86|N|From Malynea Skyreaver.|PRE|14201| ; Storyline - Redirecting the Ley Lines
 T Survey the Lakeshore|QID|14202|M|29.59,66.85|N|To Custer Clubnik, who wanders.|
@@ -99,7 +99,7 @@ C Memories of the Dead|QID|14215|M|37.52,74.53|N|Once you've done that, continue
 T Memories of the Dead|QID|14215|M|PLAYER|N|(UI Alert)|
 A Mystery of the Sarcen Stone|QID|14216|M|PLAYER|N|(UI Alert)\n[color=FF0000]NOTE: [/color]This quest is currently bugged and the UI Alert may not give you the quest. If this does happen, close this step manually.|PRE|14215| ; Storyline - Redirecting the Ley Lines
 A Mystery of the Sarcen Stone|AVAILABLE|14216|M|29.67,66.88|N|(UI Alert)\n[color=FF0000]NOTE: [/color]This quest is currently bugged. You have to go to Malynea Skyreaver in Orgrimmar Rocketway Exchange to get it.|PRE|14215| ; Storyline - Redirecting the Ley Lines
-C Mystery of the Sarcen Stone|QID|14216|M|35.57,75.30|N|Open the Ancient Stone Cask at the bottom of the Lake.|
+C Mystery of the Sarcen Stone|QID|14216|M|35.57,75.30|NC|N|Open the Ancient Stone Cask at the bottom of the Lake.|
 T Mystery of the Sarcen Stone|QID|14216|M|29.66,66.88|N|To Malynea Skyreaver in Orgrimmar Rocketway Exchange.|
 A Gunk in the Trunk|QID|14209|M|29.71,67.11|N|From Custer Clubnik.|PRE|14202| ; Storyline
 C Gunk in the Trunk|QID|14209|M|30.10,67.23|N|Click on the Dozer and kill the Ectoplasmic Exhaust that appears. Loot the sample.|
@@ -109,7 +109,7 @@ C Dozercism|QID|14423|M|29.65,66.97|N|Use the Blessed Flaregun to start the ques
 T Dozercism|QID|14423|M|29.65,66.97|N|To Custer Clubnik, who wanders.|
 A Need More Science|QID|14424|M|29.39,66.63|N|From Custer Clubnik.|LEAD|14308|PRE|14423|
 F Southern Rocketway Terminus|QID|14424|M|29.47,66.22|N|Take the lift up the tower and ask the Bilgewater Rocket-jockey for a ride to Southern Rocketway Terminus.|
-f Southern Rocketway|QID|14424|M|51.49,74.28|N|Get flight point from Friz Groundspin|
+f Southern Rocketway|QID|14424|M|51.49,74.28|N|Get flight point from Friz Groundspin|FLY|OLD|
 T Need More Science|QID|14424|M|50.41,74.29|N|To Assistant Greely.|
 A When Science Attacks|QID|14308|M|50.41,74.29|N|From Assistant Greely.| ; Storyline
 A Mortar the Point|QID|14258|M|52.22,74.23|N|From Bombardier Captain Smooks.| ; Storyline
