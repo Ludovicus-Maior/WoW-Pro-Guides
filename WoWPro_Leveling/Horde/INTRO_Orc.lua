@@ -14,7 +14,7 @@ C Cutting Teeth|QID|25126|M|51.82,54.74|N|Kill boars in the nearby boar pen.|
 T Cutting Teeth|QID|25126|M|44.94,66.43|N|To Gornek.|
 A Invaders in Our Home|QID|25172|M|44.94,66.43|N|From Gornek.|PRE|25126|
 A Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|From Galgar.|PRE|25126|
-C Galgar's Cactus Apple Surprise|QID|25136|NC|N|Loot cactus apples from cactuses.|S|
+C Galgar's Cactus Apple Surprise|QID|25136|H|N|Loot cactus apples from cactuses.|S|
 C Invaders in Our Home|QID|25172|M|47.60,83.19|N|Kill Northwatch scouts to the south.|
 T Invaders in Our Home|QID|25172|M|44.94,66.43|N|To Gornek.|
 A Sting of the Scorpid|QID|25127|M|44.94,66.43|N|From Gornek.|PRE|25172|
@@ -22,7 +22,7 @@ A Lazy Peons|QID|37446|M|46.03,63.33|N|From Foreman Thazz'ril.|PRE|25172|
 C Lazy Peons|QID|37446|M|57.74,45.82|S|NC|U|16114|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
 C Sting of the Scorpid|QID|25127|M|57.74,45.82|N|Kill and loot scorpids.|
 C Lazy Peons|QID|37446|M|57.74,45.82|US|NC|U|16114|N|Hit the Lazy Peons with the Foreman's Blackjack when they are lying down with Zzzz's coming from their head.|T|Lazy Peon|
-C Galgar's Cactus Apple Surprise|QID|25136|M|50.81,31.78|NC|N|Finish looting cactus apples from cactuses.|US|
+C Galgar's Cactus Apple Surprise|QID|25136|M|50.81,31.78|H|N|Finish looting cactus apples from cactuses.|US|
 T Lazy Peons|QID|37446|M|46.15,63.37|N|To Foreman Thazz'ril.|
 T Sting of the Scorpid|QID|25127|M|44.94,66.43|N|To Gornek.|
 T Galgar's Cactus Apple Surprise|QID|25136|M|42.97,62.42|N|To Galgar.|
@@ -39,10 +39,10 @@ T Vile Familiars|QID|25131|M|45.87,63.37|N|To Zureetha Fargaze.|
 A Burning Blade Medallion|QID|25132|M|45.87,63.37|N|From Zureetha Fargaze.|PRE|25131&37446|
 A Thazz'ril's Pick|QID|25135|M|45.87,63.37|N|From Foreman Thazz'ril.|PRE|25131&37446|
 C Burning Blade Medallion|QID|25132|M|41.80,8.73|N|Kill felstalkers as you go through the cave.|S|QO|1|
-C Thazz'ril's Pick|QID|25135|NC|M|53.10,21.01;46.97,9.67|CC|N|Enter the cave here, Inside the cave, central passage.|
+C Thazz'ril's Pick|QID|25135|H|M|53.10,21.01;46.97,9.67|CC|N|Enter the cave here, Inside the cave, central passage.|
 K Yarrog Baneshadow|QID|25132|M|41.80,8.73|N|Kill Yarrog Baneshadow, then loot the Burning Blade Medallion.  On entering the cave, he's at the end of the left tunnel, from Thazz'ril's Pick, take the tunnels to the right.|QO|2|T|Yarrog Baneshadow|
 C Burning Blade Medallion|QID|25132|M|42.08,15.47|N|Finish killing the felstalkers as you leave the cave|US|QO|1|
-H Valley of Trials|QID|25132|M|52.61,68.23|N|Hearth or run back to the Den.|
+H Valley of Trials|ACTIVE|25132|M|52.61,68.23|N|Hearth or run back to the Den.|R|Orc|
 T Thazz'ril's Pick|QID|25135|M|46.03,63.41|N|To Foreman Thazz'ril at the starting area.|
 T Burning Blade Medallion|QID|25132|M|45.91,63.49|N|To Zureetha Fargaze.|
 A Report to Sen'jin Village|QID|25133|LEAD|25167|M|45.91,63.49|N|From Zureetha Fargaze.|PRE|25132|

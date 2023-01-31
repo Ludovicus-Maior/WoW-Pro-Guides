@@ -30,8 +30,8 @@ C Recruitment|QID|26800|NC|M|52.50,42.50|R|Undead|N|Click on the Scarlet Corpses
 C Scourge on our Perimeter|QID|26801|US|M|57.00,51.00|N|Kill zombies and skeletons.|
 T Recruitment|QID|26800|M|49.93,56.22|R|Undead|N|To Deathguard Saltain.|
 T Scourge on our Perimeter|QID|26801|M|46.61,58.83|N|To Shadow Priest Sarvis.|
-A Novice Elreth|QID|28651|LEAD|24961|PRE|28601|R|Undead|M|46.61,58.83|N|From Shadow Priest Sarvis.|
-T Novice Elreth|QID|28651|R|Undead|M|46.75,58.21|N|To Novice Elreth.|
+A Novice Elreth|QID|28651|LEAD|24961|PRE|28601|M|46.61,58.83|N|From Shadow Priest Sarvis.|
+T Novice Elreth|QID|28651|M|46.75,58.21|N|To Novice Elreth.|
 A The Truth of the Grave|QID|24961|M|46.73,58.20|N|From Novice Elreth.|PRE|26801|
 C The Truth of the Grave|QID|24961|NC|M|54.31,57.11|N|She's in the inn, though the location inside is random. Right-click the cowering woman and choose the gossip option.|
 T The Truth of the Grave|QID|24961|M|46.85,58.31|N|To Novice Elreth.|
@@ -187,13 +187,14 @@ A A Deadly New Ally|QID|25010|Z|Tirisfal Glades|M|83.23,69.01|N|From High Execut
 C A Little Oomph|QID|25013|Z|Tirisfal Glades|M|85.97,53.00|N|Kill and loot spiders in the Venomwood Vale.|
 T A Deadly New Ally|QID|25010|Z|Tirisfal Glades|M|87.49,43.29|N|To Lieutenant Sanders.|
 A A Daughter's Embrace|QID|25046|Z|Tirisfal Glades|M|87.49,43.29|N|From Lieutenant Sanders.|PRE|25010|
-C A Daughter's Embrace|QID|25046|Z|Tirisfal Glades|M|79.59,25.25|N|Head north, and take the left fork in the road towards Scarlet Watch Post. There are a lot of crusade members up here, but Lilian has a knack for getting rid of them quickly. Head to the tower and watch the scene.|
+C A Daughter's Embrace|QID|25046|Z|Tirisfal Glades|M|81.53,43.48;81.07,39.47;79.59,25.25|CS|N|Head north, and take the left fork in the road towards Scarlet Watch Post. There are a lot of crusade members up here, but Lilian has a knack for getting rid of them quickly. Head to the tower and watch the scene.|
 H The Bulwark|ACTIVE|25013|N|Run back if your hearth is down.|
 T A Little Oomph|QID|25013|Z|Tirisfal Glades|M|83.26,69.29|N|To Apothecary Dithers.|
 T A Daughter's Embrace|QID|25046|Z|Tirisfal Glades|M|83.23,69.04|N|To High Executor Derrington.|
 A To Bigger and Better Things|QID|25011|Z|Tirisfal Glades|M|83.23,69.04|N|From High Executor Derrington.|PRE|25046|
 T To Bigger and Better Things|QID|25011|Z|Tirisfal Glades|M|83.55,69.94|N|To Timothy Cunningham.|
 A Take to the Skies|QID|25012|Z|Tirisfal Glades|M|83.55,69.94|N|From Timothy Cunningham.|PRE|25011|
-T Take to the Skies|QID|25012|Z|Tirisfal Glades|M|60.49,51.90|N|To Executor Zygand. Talk to Timothy again for a free ride back to Brill.|
+R Brill|ACTIVE|25012|Z|Tirisfal Glades|M|83.55,69.94|N|Talk to Timothy again for a free ride back to Brill.|CHAT|
+T Take to the Skies|QID|25012|Z|Tirisfal Glades|M|60.49,51.90|N|To Executor Zygand.|
 ]]
 end)

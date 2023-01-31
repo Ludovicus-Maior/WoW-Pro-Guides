@@ -106,7 +106,7 @@ T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|
 A The Dead Scar|QID|8475|N|From Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
 C Swift Discipline - Apprentice Ralen|QID|9066|U|22473|NC|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|Z|Eversong Woods|M|45.20,56.40|QO|2|T|Apprentice Ralen|
 C Swift Discipline - Apprentice Meledor|QID|9066|U|22473|NC|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|Z|Eversong Woods|M|44.9,61.0|QO|1|T|Apprentice Meledor|
-C The Dead Scar|QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. \n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an in-level player to survive. |Z|Eversong Woods|M|51.2,56.3|
+C The Dead Scar|QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. \n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an on-level player to survive. |Z|Eversong Woods|M|51.2,56.3|
 T The Dead Scar|QID|8475|N|To Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
 T Swift Discipline|QID|9066|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
 F Falconwing Square|QID|8483|Z|Eversong Woods|M|54.37,50.73|N|Fly to Falconwing Square.|
@@ -119,7 +119,7 @@ A The Wayward Apprentice|QID|9254|LEAD|8487|N|From Magistrix Landra Dawnstrider.
 T Fairbreeze Village|QID|9256|N|To Ranger Degolien. Up the ramp.|Z|Eversong Woods|M|43.4,70.8|
 A Situation at Sunsail Anchorage|QID|8892|N|From Ranger Degolien|Z|Eversong Woods|M|43.3,70.8|
 A Ranger Sareyn|QID|9358|LEAD|9252|N|From Marniel Amberlight. If you've already done Defending Fairbreeze Village this quest won't be available so just skip it.|Z|Eversong Woods|M|43.7,71.2|
-h Fairbreeze Village|QID|9395|N|With Marniel Amberlight.|
+h Fairbreeze Village|QID|9395|N|With Marniel Amberlight.|Z|Eversong Woods|M|43.7,71.2|
 A Goods from Silvermoon City|QID|9130|R|BloodElf|Z|Eversong Woods|M|43.7,71.54|N|From Sathiel.|
 r Repair/Sell Junk|QID|9395|Z|Eversong Woods|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
 C Pelt Collection|QID|8491|N|Kill springpaws.|Z|Eversong Woods|M|46.00,67.00|S|
@@ -162,7 +162,7 @@ A Defending Fairbreeze Village|QID|9252|N|From Ranger Sareyn.|Z|Eversong Woods|M
 C Defending Fairbreeze Village|QID|9252|N|4 of each: Rotlimb marauder, Darkwraith. Follow the road southeast until you hit the Dead Scar. Then head south. |Z|Eversong Woods|M|50.00,75.00|
 T The Wayward Apprentice|QID|9254|N|To Apprentice Mirveda. Go north along the Dead Scar until you reach Mivenda.|Z|Eversong Woods|M|54.3,71.0|
 A Corrupted Soil|QID|8487|N|From Apprentice Mirveda.|Z|Eversong Woods|M|54.3,71.0|
-C Corrupted Soil|QID|8487|N|Loot 8 Tainted Soil Samples, they are green looking.|Z|Eversong Woods|M|52.60,68.40|
+C Corrupted Soil|QID|8487|NC|N|Loot 8 Tainted Soil Samples, they are green looking.|Z|Eversong Woods|M|52.60,68.40|
 T Corrupted Soil|QID|8487|N|To Apprentice Mirveda.|Z|Eversong Woods|M|54.3,71.0|
 A Unexpected Results|QID|8488|PRE|8487|N|From Apprentice Mirveda. Get to full HP/Mana and take the follow up. Protect Mivenda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|Z|Eversong Woods|M|54.3,71.0|
 C Unexpected Results|QID|8488|N|Protect Mirveda.|

@@ -51,8 +51,7 @@ T Return to Razor Hill|QID|6386|M|50.73,42.83|N|To Grimtak.|
 C Northwatch Marines|QID|25173|M|57.45,55.24|QO|1|N|Kill the Northwatch Marine.|S|
 C Northwatch Sharpshooters|QID|25173|M|57.45,55.24|QO|2|N|Kill the Northwatch Sharpshooter.|S|
 C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Loot the Kul Tiras Treasure scattered inside Tiragarde Keep.|NC|S|
-K Sergeant Curtis|ACTIVE|25173^25176|M|32.51,60.05|N|He is a silver rare and you'll find him in the same room as Lieutenant Palliter. Dispatch him before attempting to kill Palliter. Priests may find him quite challenging (or nearly impossible) to solo.\n[color=FF0000]NOTE: [/color]On occassion, he may spawn on the main floor. He has a respawn rate of 1-2 hours.|RARE|
-K Lieutenant Palliter|ACTIVE|25173|M|51.52,53.68|QO|3|N|Kill Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|T|Lieutenant Palliter|
+K Lieutenant Palliter|ACTIVE|25173|M|55.28,53.60|QO|3|N|Kill Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|T|Lieutenant Palliter|
 C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Finish looting the Kul Tiras Treasure scattered around Tiragarde Keep.|NC|US|
 C Northwatch Sharpshooters|QID|25173|M|57.45,55.24|QO|2|N|Finish killing the Northwatch Sharpshooters|T|Northwatch Sharpshooter|US|
 C Northwatch Marines|QID|25173|M|57.45,55.24|QO|1|N|Finish killing the Northwatch Marines|T|Northwatch Marine|US|
