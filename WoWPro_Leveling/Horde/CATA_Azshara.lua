@@ -113,7 +113,7 @@ f Southern Rocketway|QID|14424|M|51.49,74.28|N|Get flight point from Friz Ground
 T Need More Science|QID|14424|M|50.41,74.29|N|To Assistant Greely.|
 A When Science Attacks|QID|14308|M|50.41,74.29|N|From Assistant Greely.| ; Storyline
 A Mortar the Point|QID|14258|M|52.22,74.23|N|From Bombardier Captain Smooks.| ; Storyline
-l Mortar the Point|QID|14258|M|43.11,77.18|QO|1|N|Collect Mortar shells.|S|
+l Mortar the Point|QID|14258|M|43.11,77.18|QO|1|NC|N|Collect Mortar shells.|S|
 C When Science Attacks|QID|14308|M|43.39,76.07|N|Put out Lab fires, and put out Research Interns that are on fire.|U|49132|S|NC|
 A Bad Science! Bad!|QID|14322|M|45.09,75.46|N|From Twistex Happytongs.|
 A Nine's Plan|QID|14408|M|42.23,76.09|N|From Subject Nine.\n[color=FF0000]NOTE: [/color]Cut through the Secret lab and climb the hill on the other side. Go out the right side if you want to avoid "Subject Fear".| ; Storyline - Subject Nine from Space!
@@ -125,7 +125,7 @@ T Nine's Plan|QID|14408|M|42.22,76.12|N|To Subject Nine.|
 A Raptor Raptor Rocket|QID|14422|M|42.22,76.12|N|From Subject Nine.|PRE|14408| ; Storyline - Subject Nine from Space!
 C Raptor Raptor Rocket|QID|14422|M|43.27,77.44|N|Go back down to the Secret Lab and click on a Specimen Cage to free a Raptor. Once you have 5 of them, return to Subject Nine.|NC|
 T Raptor Raptor Rocket|QID|14422|M|42.21,76.09|N|To Subject Nine.| ; Completes Subject Nine from Space!
-l Mortar the Point|QID|14258|M|43.11,77.18|QO|1|N|Collect Mortar shells.|US|
+l Mortar the Point|QID|14258|M|43.11,77.18|QO|1|NC|N|Collect Mortar shells.|US|
 C When Science Attacks|QID|14308|M|43.39,76.07|N|Put out Lab fires, and put out Research Interns that are on fire.|U|49132|US|NC|
 T When Science Attacks|QID|14308|M|43.80,77.36|N|To the Secret Lab Squawkbox.|
 A Segmentation Fault: Core Dumped|QID|14310|M|43.80,77.36|N|From the Secret Lab Squawkbox.|PRE|14308| ; Storyline
@@ -137,7 +137,7 @@ T Mortar the Point|QID|14258|M|52.22,74.23|N|To Bombardier Captain Smooks.|
 A To Gut a Fish|QID|14262|M|50.68,75.30|N|From Torg Twocrush.|PRE|14258| ; Storyline
 A Investigating the Sea Shrine|QID|14267|M|50.68,75.30|N|From Torg Twocrush.|PRE|14258| ; Storyline - Sisters of the Sea
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|S|
-C Mysterious Azsharite|QID|14370|M|50.55,82.10|N|Loot Azsharite Formations off the ground. If you come across a "Crystallized Note" while looting the formations, I would recommend reading it for a laugh and a hint on what Azsharite is.\n[color=FF0000]NOTE: [/color]These may be a little spread out.|
+C Mysterious Azsharite|QID|14370|M|50.55,82.10|NC|N|Loot Azsharite Formations off the ground. If you come across a "Crystallized Note" while looting the formations, I would recommend reading it for a laugh and a hint on what Azsharite is.\n[color=FF0000]NOTE: [/color]These may be a little spread out.|
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|US|
 C To Gut a Fish|QID|14262|M|55.49,76.45|N|Kill Spitelash Stormfuries and Seacallers.|S|
 T Investigating the Sea Shrine|QID|14267|M|58.98,71.85|N|To the Naga Power Stone.|
@@ -170,7 +170,7 @@ C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk 
 C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan. Chat with him to complete the quest.|V|
 T Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|To Assistant Greely.| ; Completes Storyline 'The Rarest Substance on Azeroth'
 A A Hello to Arms|QID|24458|M|50.53,74.77|N|From Hobart Grapplehammer.\nHe paces around a bit.|PRE|14383&14388|
-F Bilgewater Harbor|QID|24458|M|51.48,74.28|N|Speak with Friz Groundspin for a free airlift.|IZ|4828|
+F Bilgewater Harbor|QID|24458|M|51.48,74.28|N|Speak with Friz Groundspin for a free airlift.|IZ|4828|FLY|OLD|
 f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|TAXI|-Bilgewater Harbor|
 A Operation Fishgut|QID|14478|M|52.31,50.30|N|From the Wrenchmen Recruitment Poster on the column.|PRE|24452| ; Storyline - Heart of Arkkoroc
 h Bilgewater Harbor|QID|24458|M|57.02,50.29|N|At Grimy Greasefingers.|
@@ -214,13 +214,13 @@ T Ticker Required|QID|14485|M|34.46,44.73|N|To Sergeant Zelks.|
 T Extermination|QID|14480|M|34.46,44.73|N|From Sergeant Zelks.|
 T Handling the Goods|QID|14486|M|34.52,44.68|N|To Tora Halotrix.|
 A Shore Leave|QID|24449|M|34.31,44.90|N|From Captain Tork.|PRE|14480&14484&14485&14486&14487| ; Storyline - Heart of Arkkoroc
-F Bilgewater Harbor|ACTIVE|24449|M|34.51,44.52|N|Hop into the Military Gyrocopter when ready to leave.|IZ|1221|V|
+F Bilgewater Harbor|ACTIVE|24449|M|34.51,44.52|N|Hop into the Military Gyrocopter when ready to leave.|V|
 T Shore Leave|QID|24449|M|60.61,50.53|N|To Uncle Bedlam.| ; Completes Storyline - Heart of Arkkoroc
 A Azshara Blues|QID|14407|M|59.33,50.74|N|From Teemo.| ; Storyline
 T Azshara Blues|QID|14407|M|55.49,52.14|N|To Kalec. He's in the tunnel under the road.|
 A Friends Come In All Colors|QID|14130|M|55.49,52.14|N|From Kalec.\n[color=FF0000]NOTE: [/color]When you accept this quest, Kalec will give you a 5 minute water walking buff.|PRE|14407| ; Storyline
-R Bitter Reaches|ACTIVE|14130|M|60.43,30.94|N|Bitter Reaches is to the north of Bilgewater Harbor and you need to cross the Bay of Storms to get there.\nThe buff from Kalec makes this really easy.\n[color=FF0000]NOTE: [/color]If you lose the buff before you get there, abandon 'Friends Come In All Sizes' and you'll get the buff again when you re-accept it.|
-R Ruins of Arkkoran|ACTIVE|14130|M|70.33,36.28|N|Follow the shoreline to the east.|
+R Bitter Reaches|ACTIVE|14130|M|60.43,30.94|N|Bitter Reaches is to the north of Bilgewater Harbor and you need to cross the Bay of Storms to get there.\nThe buff from Kalec makes this really easy.\n[color=FF0000]NOTE: [/color]If you lose the buff before you get there, abandon 'Friends Come In All Sizes' and you'll get the buff again when you re-accept it.|FLY|OLD|
+R Ruins of Arkkoran|ACTIVE|14130|M|70.33,36.28|N|Follow the shoreline to the east.|FLY|OLD|
 T Friends Come In All Colors|QID|14130|M|70.36,36.25|N|To Ergll.|
 A A Little Pick-me-up|QID|14131|M|70.36,36.25|N|From Ergll.|PRE|14130| ; Storyline
 A That's Just Rude!|QID|14132|M|70.36,36.25|N|From Ergll.|PRE|14130| ; Storyline
@@ -345,8 +345,8 @@ A Where's My Head?|QID|14462|M|14.01,64.85|N|From Chawg.| ; Storyline
 A Let Them Feast on Fear|QID|24433|M|14.01,64.85|N|From Chawg.| ; Storyline - Heart of Arkkoroc
 A Commando Drop|QID|24434|M|13.87,64.50|N|From Andorel Sunsworn.| ; Storyline
 A Grounded!|QID|14475|M|14.35,65.03|N|From Kroum.| ; Storyline
-F Orgrimmar|QID|14462|M|14.35,65.03|N|Train, repair, sell, etc. if you wish.\n[color=FF0000]NOTE: [/color]Skip this step if you don't want/need to go.|
-F Valormok|QID|14462|M|49.67,59.24|Z|Orgrimmar|N|Fly back to Valormok.|IZ|85|
+F Orgrimmar|ACTIVE|14462|M|14.35,65.03|N|Train, repair, sell, etc. if you wish.\n[color=FF0000]NOTE: [/color]Skip this step if you don't want/need to go.|FLY|OLD|
+F Valormok|ACTIVE|14462|M|49.67,59.24|Z|Orgrimmar|N|Fly back to Valormok.|IZ|85|FLY|OLD|
 K Let Them Feast on Fear|QID|24433|M|12.74,74.19|QO|1;2|N|Slay 12 Talrendis Defenders and 6 Talrendis Sentinels.|S|
 K Commando Drop|QID|24434|M|10.06,71.18|QO|1|N|Slay 5 Talrendis Lorekeepers.|
 T Commando Drop|QID|24434|M|10.56,69.85|N|To the Lorekeeper's Summoning Stone.|
