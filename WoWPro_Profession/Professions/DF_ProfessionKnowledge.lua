@@ -10,21 +10,39 @@ N Purpose|QID|9999999|N|This guide is to help you maximize your profession knowl
 N Work In Process|QID|9999999|N|Eventually I plan to resort the list so they are all intermixed, rather than current sort by prof. to make it easier to go to all the items for both your profs. If you find stuff missing, please #open a ticket on Discord.|
 N Alt Skip|QID|67564|ITEM|191784|N|You can skip the quest chain that opens up Khadin's Wisdom, but you only get one chance. It's before you turn in Artisan's Courier (drop that quest if you have it). You will get one less of the Dragon Shard of Knowledge items than the quest chain, but it saves you a bit of running around. This was disabled for awhile due to a bug, and while some people have been able to do the skip, it doesn't show up for everyone for reasons unknown.|
 
-N Renown 14/24|QID|9999999|N|The Maruuk Centaurs offers profession knowledge to Alchemists, Blacksmiths, Herbalists, Leatherworkers and Skinners at renown level 14 and 24. I couldnt find the method but I suspect quests like the other two factions. So be on the lookout for that|DFREN|Maruuk;2503;13|
-N Renown 14/24|QID|9999999|N|Iskaara offers profession knowledge to Enchanters, Herbalists, Jewelcrafters, Leatherworkers and Skinners at renown level 14 and 24. I couldnt find the method but I suspect quests like the other two factions. So be on the lookout for that|DFREN|Iskaara;2511;13|
 ;may have rep switched for which one requires 14 vs 24 for the rest of these since WH doesnt specify. PLEASE report errors.
-A Crafting for Expertise|QID|70889|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Alchemy;171;9+25|
-A Crafting for Expertise|QID|70902|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Engineering;202;9+25|
-A Crafting for Expertise|QID|70909|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Blacksmithing;164;9+25|
-A Crafting for Expertise|QID|72334|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Inscription;773;9+25|
-A Crafting for Expertise|QID|72335|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Mining;186;9+25|
-A Crafting for Expertise|QID|72336|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Tailoring;197;9+25|
+A A Gift of Knowledge|QID|72296|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;14|P|Leatherworking;165;9+25|
+A A Gift of Knowledge|QID|72310|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;14|P|Skinning;393;9+25|
+A A Gift of Knowledge|QID|72311|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;14|P|Alchemy;171;9+25|
+A A Gift of Knowledge|QID|72312|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;14|P|Blacksmithing;164;9+25|
+A A Gift of Knowledge|QID|72313|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;14|P|Herbalism;182;9+25|
+A A Gift of Secrets|QID|72297|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;24|P|Leatherworking;165;9+25|
+A A Gift of Secrets|QID|72314|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;24|P|Alchemy;171;9+25|
+A A Gift of Secrets|QID|72315|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;24|P|Blacksmithing;164;9+25|
+A A Gift of Secrets|QID|72316|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;24|P|Herbalism;182;9+25|
+A A Gift of Secrets|QID|72317|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;24|P|Skinning;393;9+25|
+A Iskaaran Crafter's Knowledge|QID|72318|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Enchanting;333;9+25|
+A Iskaaran Crafter's Knowledge|QID|72319|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Herbalism;182;9+25|
+A Iskaaran Crafter's Knowledge|QID|72320|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Jewelcrafting;755;9+25|
+A Iskaaran Crafter's Knowledge|QID|72321|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Leatherworking;165;9+25|
+A Iskaaran Crafter's Knowledge|QID|72322|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Skinning;393;9+25|
+A Iskaaran Crafter's Mastery|QID|72323|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Enchanting;333;9+25|
+A Iskaaran Crafter's Mastery|QID|72324|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Herbalism;182;9+25|
+A Iskaaran Crafter's Mastery|QID|72325|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Jewelcrafting;755;9+25|
+A Iskaaran Crafter's Mastery|QID|72326|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Leatherworking;165;9+25|
+A Iskaaran Crafter's Mastery|QID|72327|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Skinning;393;9+25|
 A Crafting Your Start|QID|70892|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Alchemy;171;9+25|
 A Crafting Your Start|QID|72329|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Blacksmithing;164;9+25|
 A Crafting Your Start|QID|72330|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Engineering;202;9+25|
 A Crafting Your Start|QID|72331|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Inscription;773;9+25|
 A Crafting Your Start|QID|72332|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Mining;186;9+25|
 A Crafting Your Start|QID|72333|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Tailoring;197;9+25|
+A Crafting for Expertise|QID|70889|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Alchemy;171;9+25|
+A Crafting for Expertise|QID|70902|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Engineering;202;9+25|
+A Crafting for Expertise|QID|70909|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Blacksmithing;164;9+25|
+A Crafting for Expertise|QID|72334|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Inscription;773;9+25|
+A Crafting for Expertise|QID|72335|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Mining;186;9+25|
+A Crafting for Expertise|QID|72336|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;24|P|Tailoring;197;9+25|
 A Expedition Crafting Knowledge|QID|72294|M|47.0,82.8|Z|2022|N|From Boss Magor.|DFREN|Dragonscale Exp;2507;14|P|Inscription;773;9+25|
 A Expedition Crafting Knowledge|QID|72295|M|47.0,82.8|Z|2022|N|From Boss Magor.|DFREN|Dragonscale Exp;2507;24|P|Inscription;773;9+25|
 A Expedition Crafting Knowledge|QID|72299|M|47.0,82.8|Z|2022|N|From Boss Magor.|DFREN|Dragonscale Exp;2507;14|P|Enchanting;333;9+25|
