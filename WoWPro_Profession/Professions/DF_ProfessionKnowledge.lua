@@ -111,8 +111,8 @@ $ Fragmented Key|QID|70263|Z|2023|M|61.8,13.0|ITEM|198660|N|Look under the roots
 A Erden|QID|70256|Z|2023|M|82.45,50.67|CHAT|N|At base of a waterfall near Mountain View Post|P|Leatherworking;165;9+25|
 $ Wind-Blessed Hide|QID|70300|Z|2023|M|86.4,53.7|ITEM|198696|N|Inside Shikaar Highlands Centaur camp.|P|Leatherworking;165;9+25|
 $ Treated Hides|QID|70286|Z|2023|M|57.5,41.3|ITEM|198683|N|In the Snowhide camp.|P|Leatherworking;165;9+25|
-$ Silky Surprise|QID|70303|Z|2023|M|66.1,52.9|ITEM|201020|N|Find the Catnip Frond and collect it.|P|Tailoring;197;9+25|
-$ Noteworthy Scrap of Carpet|QID|70295|Z|2023|M|35.34,40.12|ITEM|198692|N|On the floor of a small hut, with 3 elites, right before entering the arena for the quest fight.|P|Tailoring;197;9+25|
+$ Silky Surprise|QID|70303|Z|2023|M|66.1,52.9|ITEM|201020|N|Gather 5 catnip fronds, then throw them at the Playful Prowler.|P|Tailoring;197;9+25|U|198688|T|Playful Prowler|
+$ Battle Hardened Centaur Carpet|QID|70295|Z|2023|M|35.34,40.12|ITEM|198692|N|On the floor of a small hut, with 3 elites, right before entering the arena for the quest fight. Mobs are level 70 elites(don't scale)|P|Tailoring;197;9+25|
 A Hua Greenpaw|QID|70253|Z|2023|M|58.42,50.04|CHAT|N|Kneeling in middle of Sylvan Glade.|P|Herbalism;182;9+25|
 
 $ Experimental Decay|QID|70208|Z|2024|M|16.4,38.5|ITEM|198599|N|North of Iskaara inside a large green cauldron between gnoll trash.|P|Alchemy;171;9+25|
@@ -131,7 +131,7 @@ $ Harmonic Crystal Harmonizer|QID|70271|Z|2024|M|44.6,61.2|ITEM|201016|P|Jewelcr
 $ Well-Danced Drum|QID|70269|Z|2024|M|12.5,49.4 |ITEM|201018|N|In the underground inn, with Elders Nappa and Poa. Activate the treasure by fixing the drum next to Raq. Once he dances on it, you can loot the item.|P|Leatherworking;165;9+25|
 $ Decay-Infused Tanning Oil|QID|70266|Z|2024|M|16.7,38.8|ITEM|198658|N|In the barrel in a gnoll camp.|P|Leatherworking;165;9+25|
 $ Decaying Brackenhide Blanket|QID|70284|Z|2024|M|16.2,38.8|ITEM|198680|N|Elite mob area. A red carpet hanging on a tree within a makeshift tent.|P|Tailoring;197;9+25|
-$ Intriguing Bolt of Blue Cloth|QID|70267|Z|2024|M|40.7,54.5|ITEM|198662|N|In a small tower-like building full of mirror images of Kalecgos. Blue Cloth lying on the floor when you follow the stairs to the left.|P|Tailoring;197;9+25|
+$ Intriguing Bolt of Blue Cloth|QID|70267|Z|2024|M|40.7,54.5|ITEM|198662|N|In a small tower-like building full of mirror images of Kalecgos. Blue Cloth lying on the lowest shelf after you go up the stairs to the left.|P|Tailoring;197;9+25|
 
 $ Furry Gloop|QID|70278|Z|2025|M|55.2,30.5|ITEM|201003|N|Under a rock overhang. Drop a nearby docile dub on each on each of the three Mysterious Cauldrons. May explode or spawn an Expanded Angry Cub.|P|Alchemy;171;9+25|
 $ Contraband Concoction|QID|70301|Z|2025|M|59.5,38.4|ITEM|198697|N|Small purple glowing potion, hidden in bushes. Difficult to see.|P|Alchemy;171;9+25|
@@ -199,10 +199,15 @@ C A Finishing Touch|QID|70126|QO|1|M|30.6,61.8|Z|2112|CHAT|N|Jimothy wanders dow
 C A Finishing Touch|QID|70126|QO|1|M|39.4,69.8|Z|2112|CHAT|N|Tell Miguel the great news.|
 T A Finishing Touch|QID|70126|M|39.4,69.8|Z|2112|N|To Miguel Bright.|
 
-N Rabul|QID|71894^71896|M|35.6,59|Z|2112|N|Artisan's Cosortium Quartermaster in Valdrakken stocks 3 items, progressively more expensive (and requiring higher faction) to click for 10 Profession Knowledge. They aren't quite as expensive as they seem, since you do get 50 of the mettle back when you click each one. Check off manually.|
+N Rabul|QID|71894^71895^71896^71897^71901^71902|M|35.6,59|Z|2112|N|Artisan's Cosortium Quartermaster in Valdrakken stocks 3 items, progressively more expensive (and requiring higher faction) to click for 10 Profession Knowledge. They aren't quite as expensive as they seem, since you do get 50 of the mettle back when you click each one. Check off manually.|
 ;71894 Blacksmithing
+;71895 Enchanting
 ;71896 Engineering
-A Two Tradeskill Gathering Quests|QID|66363^66364^66516^66517^66884^66890^66891^66897^66900^66935^66937^66938^66940^66941^66942^66943^66944^66950^66951^66952^66953^72396^72407^72410^72423^72427^72428^72438|M|36.8,62.6|Z|2112|N|The group of NPCs here will offer one quest for each of your primary professions weekly to gather some item they need and reward you profession knowledge in return for your effort.|
+;71897 Herbalism
+;71901 Mining
+;71902 Skinning
+
+A Two Tradeskill Gathering Quests|QID|66363^66364^66516^66517^66884^66890^66891^66897^66900^66935^66937^66938^66940^66941^66942^66943^66944^66950^66951^66952^66953^72396^72407^72410^72423^72427^72428^72438|M|36.8,62.6|Z|2112|N|The group of NPCs here will offer one quest for each of your primary professions weekly to gather some item they need and reward you profession knowledge in return for your effort. Sorry gatherers, they don't have quests for you.|
 
 ;A Animated Infusion|QID|72427|M|36.6,63|Z|2112|N|From Dhurrel.|P|Alchemy;171;9+45|
 ;A Mammoth Marrow|QID|66938|M|36.6,63|Z|2112|N|From Dhurrel.|P|Alchemy;171;9+45|
@@ -317,7 +322,7 @@ A Agrikus-Herbalist|QID|70613^70614^70616|M|37.6,67|Z|2112|N|From Agrikus.|P|Her
 C How Many??|QID|70616|H|N|Gather or buy the needed items.|
 t How Many??|QID|70616|M|37.6,67|Z|2112|N|To Agrikus.|
 ;A Bubble Craze|QID|70614|M|37.6,67|Z|2112|N|From Agrikus.|P|Herbalism;182;9+45|
-C Bubble Craze|QID|70614||H|N|Gather or buy  the needed items.|
+C Bubble Craze|QID|70614|M|37.6,67|Z|2112|H|N|Gather or buy the needed items.|
 t Bubble Craze|QID|70614|M|37.6,67|Z|2112|N|To Agrikus.|
 ;A Get Their Bark Before They Bite|QID|70613|M|37.6,67|Z|2112|N|From Agrikus.|P|Herbalism;182;9+45|
 C Get Their Bark Before They Bite|QID|70613|H|N|Gather or buy  the needed items.|
@@ -379,27 +384,34 @@ t Repair Bill|QID|70235|M|37.2,47.2|Z|2112|N|To Metalshaper Kuroko.|
 C Axe Shortage|QID|70233|NC|N|Craft or buy the needed items. It can't be your used, i.e. soulbound item.|
 t Axe Shortage|QID|70233|M|37.2,47.2|Z|2112|N|To Metalshaper Kuroko.|
 
-A Ralathor - Skinning|QID|70619^70620^72159|M|28.8,60.4|Z|2112|N|From Ralathor the Rugged.|P|Skinning;393;9+45|
+A Ralathor - Skinning|QID|70619^70620^72158^72159|M|28.8,60.4|Z|2112|N|From Ralathor the Rugged.|P|Skinning;393;9+45|
+;A A Dense Delivery|QID|72158|M|28.8,60.4|Z|2112|N|From Ralathor the Rugged.|P|Skinning;393;9+45|
+C A Dense Delivery|QID|72158|NC|N|Skin or buy the needed items.|
+t A Dense Delivery|QID|72158|M|28.8,60.4|Z|2112|N|To Ralathor the Rugged.|
 ;A Scaling Down|QID|72159|M|28.8,60.4|Z|2112|N|From Ralathor the Rugged.|P|Skinning;393;9+45|
-C Scaling Down|QID|72159|N|Skin or buy the needed items.|
+C Scaling Down|QID|72159|NC|N|Skin or buy the needed items.|
 t Scaling Down|QID|72159|M|28.8,60.4|Z|2112|N|To Ralathor the Rugged.|
 ;A Scaling Up|QID|70620|M|28.8,60.4|Z|2112|N|From Ralathor the Rugged.|P|Skinning;393;9+45|
-C Scaling Up|QID|70620|N|Skin or buy the needed items.|
+C Scaling Up|QID|70620|NC|N|Skin or buy the needed items.|
 t Scaling Up|QID|70620|M|28.8,60.4|Z|2112|N|To Ralathor the Rugged.|
 ;A A Study of Leather|QID|70619|M|28.8,60.4|Z|2112|N|From Ralathor the Rugged.|P|Skinning;393;9+45|
-C A Study of Leather|QID|70619|N|Skin or buy the needed items.|
+C A Study of Leather|QID|70619|NC|N|Skin or buy the needed items.|
 t A Study of Leather|QID|70619|M|28.8,60.4|Z|2112|N|To Ralathor the Rugged.|
 
-A Sekita - Miner|QID|70617^70618^72157|M|39,51.2|Z|2112|N|From Sekita the Burrower.|P|Mining;186;9+45|
+;unknown after completing 74430 (also after completing the skinning quest)
+A Sekita - Miner|QID|70617^70618^72156^72157|M|39,51.2|Z|2112|N|From Sekita the Burrower.|P|Mining;186;9+45|
 ;A The Weight of Earth|QID|72157|M|39,51.2|Z|2112|N|From Sekita the Burrower.|P|Mining;186;9+45|
-C The Weight of Earth|QID|72157|N|Mine or buy the needed items.|
+C The Weight of Earth|QID|72157|NC|N|Mine or buy the needed items.|
 t The Weight of Earth|QID|72157|M|39,51.2|Z|2112|N|To Sekita the Burrower.|
 ;A All Mine, Mine, Mine|QID|70617|M|39,51.2|Z|2112|N|From Sekita the Burrower.|P|Mining;186;9+45|
-C All Mine, Mine, Mine|QID|70617|N|Mine or buy the needed items.|
+C All Mine, Mine, Mine|QID|70617|NC|N|Mine or buy the needed items.|
 t All Mine, Mine, Mine|QID|70617|M|39,51.2|Z|2112|N|To Sekita the Burrower.|
 ;A The Call of the Forge|QID|70618|M|39,51.2|Z|2112|N|From Sekita the Burrower.|P|Mining;186;9+45|
-C The Call of the Forge|QID|70618|N|Mine or buy the needed items.|
+C The Call of the Forge|QID|70618|NC|N|Mine or buy the needed items.|
 t The Call of the Forge|QID|70618|M|39,51.2|Z|2112|N|To Sekita the Burrower.|
+;A A Fiery Flight|QID|72156|M|39,51.2|Z|2112|N|From Sekita the Burrower.|P|Mining;186;9+45|
+C A Fiery Flight|QID|72156|M|39,51.2|Z|2112|NC|N|Mine or buy the needed items.|
+t A Fiery Flight|QID|72156|M|39,51.2|Z|2112|N|To Sekita the Burrower.|
 
 A Soragosa - Enchanter|QID|72172^72173^72175|M|30.8,61.4|Z|2112|N|From Soragosa.|P|Enchanting;333;9+45|
 ;A Braced for Enchantment|QID|72173|M|30.8,61.4|Z|2112|N|From Soragosa.|P|Enchanting;333;9+45|
@@ -454,7 +466,7 @@ t A Knapsack Problem|QID|70587|M|31.8,67|Z|2112|N|To Threadinder Fulafong.|
 C The Cold Does Bother Them, Actually|QID|70572|NC|N|Craft or buy the needed items. It can't be your used, i.e. soulbound item.|
 t The Cold Does Bother Them, Actually|QID|70572|M|31.8,67|Z|2112|N|To Threadinder Fulafong.|
 
-A Artisan's Mettle|QID|70221|M|39.42,70.20|Z|2112|N|From Thomas Bright. The quantity of mettle rewarded is based on your faction with Artisan's Consortium, so you may want to wait for later in the week if you are close to leveling, but don't forget to do it before the weekly reset.|
+A Show Your Mettle|QID|70221|M|39.42,70.20|Z|2112|N|From Thomas Bright. The quantity of mettle rewarded is based on your faction with Artisan's Consortium, so you may want to wait for later in the week if you are close to leveling, but don't forget to do it before the weekly reset.|
 
 D All Done|N|Check back again next week. Weeklies require you to have WQs open and prof skill of 45.|
 ]]
