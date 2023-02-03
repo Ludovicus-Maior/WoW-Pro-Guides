@@ -209,10 +209,10 @@ C Moonglade Moonwell|QID|56842|M|48.4,33.5|Z|Moonglade|N|Just a short hop away. 
 C Felwood Moonwell|QID|56842|M|44.0, 28.3|Z|Felwood|N|Stop #2. Right click when done.|
 C Ashenvale Moonwell 1|QID|56842|M|53.0, 46.0|Z|Ashenvale|N|Stop #3. Right click when done.|
 C Ashenvale Moonwell 2|QID|56842|M|60.1, 72.8|Z|Ashenvale|N|Stop #4. Right click when done.|
-C Stonetalon Moonwell|QID|56842|M|41.7, 19.0|Z|Stonetalon|N|Stop #5. Right click when done.|
+C Stonetalon Moonwell|QID|56842|M|41.7, 19.0|Z|Stonetalon Mountains|N|Stop #5. Right click when done.|
 C Dire Maul Moonwell|QID|56842|M|60.0, 46.0|Z|Feralas|N|Stop #6. Right click when done.|
 C Duskwood Moonwell|QID|56842|M|49.1, 33.6|Z|Duskwood|N|Stop #7. Right click when done.|
-C Mount Hyjal Moonwell|QID|56842|M|60.0, 24.0|Z|Mount Hyjal| Stop #8. Right click when done.|
+C Mount Hyjal Moonwell|QID|56842|M|60.0, 24.0|Z|Mount Hyjal|N|Stop #8. Right click when done.|
 T Lunar Preservation|QID|56842|M|53.2,36.0|Z|Moonglade|N|To Myrael Lunarbloom|
 
 N The End |N|That's all for this year.|
