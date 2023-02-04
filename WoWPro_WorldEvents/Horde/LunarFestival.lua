@@ -24,7 +24,7 @@ A Stonespire the Elder|N|From Elder Stonespire.|QID|8672|M|59.97,49.95|Z|Winters
 A Brightspear the Elder|N|From Elder Brightspear.|QID|8726|M|53.23,56.75|Z|Winterspring|
 F Whisperwind Grove|FLY|OLD|N|Fly to Whisperwind Grove in Felwood.|QID|8723|M|58.84,48.2|Z|Winterspring|
 A Nightwind the Elder|N|From Elder Nightwind.|QID|8723|M|38.36,52.85|Z|Felwood|
-F Zidormi|N|If you have finished the BFA opening sequence,  you will need to ask Zidormi to show you what it looked like before|QID|8721|M|48.86,44.45|Z|Felwood|CHAT|
+F Zidormi|N|If you have finished the BFA opening sequence,  you will need to ask Zidormi to show you what it looked like before|QID|8721|M|49.9,24.52|Z|Darkshore|CHAT|
 R Lor'danel|N|Run to Lor'danel in Darkshore.|QID|8721|M|49.5,18.9|Z|Darkshore|
 A Starweave the Elder|N|From Elder Starweave.|QID|8721|M|49.54,18.95|Z|Darkshore|T|Elder Starweave|
 R Rut'theran Village|QID|8715|M|56.8,90.6|Z|Teldrassil|N|There is no boat to Rut'theran Village anymore unless you go from Stormwind. You can easily fly across to it though.|
