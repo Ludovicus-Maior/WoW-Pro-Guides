@@ -5,8 +5,8 @@ WoWPro:GuideName(guide,"Vashj'ir")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
-R Stormwind City|QID|28825|M|74.5,19.2|Z|Stormwind City|N|Head to Stormwind City by any means possible.|
+N It's Chromie Time!|AVAILABLE|27724|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
+R Stormwind City|AVAILABLE|27724|M|74.5,19.2|Z|Stormwind City|N|Head to Stormwind City by any means possible.|
 A Hero's Call: Vashj'ir!|QID|27724|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal Vashj'ir.|
 T Hero's Call: Vashj'ir!|QID|27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|
 A Call of Duty|QID|14482|M|27.39,24.16|Z|Stormwind City|N|From Recruiter Burns.|
@@ -26,21 +26,23 @@ A Rest For the Weary|QID|25405|PRE|25281|M|45.2,23.4|Z|Kelp'thar Forest|N|From E
 T Rest For the Weary|QID|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A Buy Us Some Time|QID|25357|PRE|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 A Traveling on Our Stomachs|QID|25546|PRE|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
-C Traveling on Our Stomachs|QID|25546|S|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
-C Buy Us Some Time|QID|25357|M|45.3,28.1;48,21.9;40.86,34.14|Z|Kelp'thar Forest|CN|N|Kill Zin'Jatari Raiders. They are found swimming around and above The Briny Cutter.|
-C Traveling on Our Stomachs|QID|25546|US|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
+C Traveling on Our Stomachs|QID|25546|S|M|42,31.9;48.3,25.8;45.6,28.9|CN|QO|1||Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
+C Buy Us Some Time|QID|25357|S|M|45.3,28.1;48,21.9;40.86,34.14|Z|Kelp'thar Forest|CN|N|Kill Zin'Jatari Raiders. They are found swimming around and above The Briny Cutter.|
+K Slitherfin Eels|AVAILABLE|27729|N|Kill Slitherfin Eels until you get the quest.|S!US|T|Slitherfin|
+C Once More, With Eeling|QID|27729|QO|1|N|Kill Slitherfin Eels|T|Slitherfin|S!US|
+t Once More, With Eeling|QID|27729|N|Turn into UI|
+C Buy Us Some Time|QID|25357|US|M|45.3,28.1;48,21.9;40.86,34.14|Z|Kelp'thar Forest|CN|N|Kill Zin'Jatari Raiders. They are found swimming around and above The Briny Cutter.|
+C Traveling on Our Stomachs|QID|25546|US|M|42,31.9;48.3,25.8;45.6,28.9|CN|QO|1||Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
 T Buy Us Some Time|QID|25357|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 T Traveling on Our Stomachs|QID|25546|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A To Arms!|QID|25545|PRE|25357&25546|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 A Stormwind Elite Aquatic and Land Forces|QID|25564|PRE|25357&25546|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
-C Stormwind Elite Aquatic and Land Forces|QID|25564|S|M|51.1,20.8;50.4,27.7|L|54957 6|Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|NC|
+C Stormwind Elite Aquatic and Land Forces|QID|25564|S|M|51.1,20.8;50.4,27.7|QO|1||Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|NC|
 C To Arms!|QID|25545|M|50.8,22.5|Z|Kelp'thar Forest|S|N|Loot the armaments from the ground. They can also drop from some Goblin Scavengers - check the tooltip for which part(s) they could drop.|
-A Once More, With Eeling|QID|27729|M|48,21|N|Find a Slitherfin Eel and kill it to get this quest (UI Alert).|Z|Kelp'thar Forest|
-C Once More, With Eeling|QID|27729|M|48,21|N|Kill 8 more eels.|S|Z|Kelp'thar Forest|
+K Sabreclaw Skitterer|AVAILABLE|25467|N|Kill Sabreclaw Skitterer for the Crumpled Treasure Map|
+A Kliklak's Craw|QID|25467|
 C To Arms!|QID|25545|M|50.8,22.5|Z|Kelp'thar Forest|US|N|Loot the armaments from the ground. They can also drop from some Goblin Scavengers - check the tooltip for which part(s) they could drop.|
-C Stormwind Elite Aquatic and Land Forces|QID|25564|US|M|51.1,20.8;50.4,27.7|L|54957 6|Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|NC|
-C Once More, With Eeling|QID|27729|M|48,21|N|Finish killing eels.|US|Z|Kelp'thar Forest|
-T Once More, With Eeling|QID|27729|M|48,21|N|An UI Alert will pop-up, turn it in that way.|Z|Kelp'thar Forest|
+C Stormwind Elite Aquatic and Land Forces|QID|25564|US|M|51.1,20.8;50.4,27.7|QO|1||Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|NC|
 T To Arms!|QID|25545|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 T Stormwind Elite Aquatic and Land Forces|QID|25564|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A On Our Own Terms|QID|25547|PRE|25545&25564|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
@@ -73,7 +75,7 @@ A Can't Start a Fire Without a Spark|QID|25602|PRE|25598|M|57.3,28.9|Z|Kelp'thar
 C A Girl's Best Friend|QID|25390|RANK|2|S|M|56.2,37.6;50.8,44.9;46.8,41.6;50.82,31.95|L|53074 6|Z|Kelp'thar Forest|CN|N|While you complete the other quests, look for Adarrah's Jewelry Box on the sea floor. They are small and a little hard to spot.|
 C A Taste For Tail|QID|25389|RANK|2|M|48.77,36.36|Z|Kelp'thar Forest|L|53073 4|N|In the area just east, kill Clacksnap Pincers for A Taste For Tail. You should get a Tattered Treasure Map off one of them.|
 A The Horde's Hoard|QID|25377|RANK|2|Z|Kelp'thar Forest|U|53053|M|48.7,40.7;48.6,32.9;51.9,43.2;46.9,47.2|CN|N|If you don't have a Tattered Treasure Map yet, keep killing Clacksnap Pincers in the area until you get it. Use the map to accept the quest The Horde's Hoard.|
-l Crumpled Treasure Map|QID|25467|RANK|2|Z|Kelp'thar Forest|M|53.2,44.0;53.5,23.9;51.2,47.8|CN|L|54345|N|In the same area, kill Sabreclaw Skitterers until you get a Crumpled Treasure Map. This item will start the quest Kliklak's Craw.|
+K Sabreclaw Skitterer|AVAILABLE|25467|RANK|2|Z|Kelp'thar Forest|M|53.2,44.0;53.5,23.9;51.2,47.8|CN|L|54345|N|In the same area, kill Sabreclaw Skitterers until you get a Crumpled Treasure Map. This item will start the quest Kliklak's Craw.|T|Sabreclaw Skitterer|
 A Kliklak's Craw|QID|25467|Z|Kelp'thar Forest|RANK|2|M|53.2,44.0;53.5,23.9;51.2,47.8|CN|U|54345|N|Use the map.|
 K Kliklak's Craw|QID|25467|RANK|2|M|45,38;43.89,39.85|Z|Kelp'thar Forest|CN|L|54344|N|Kliklak patrols around this area. Kill him and loot the Corroded key.|T|Kliklak|
 T Kliklak's Craw|QID|25467|RANK|2|M|46.6,47.5|Z|Kelp'thar Forest|U|54344|N|Swim to Shallow's End and locate the chest behind the two large shells. Open it to turn in Kliklak's Craw.|
