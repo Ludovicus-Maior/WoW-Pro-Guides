@@ -21,16 +21,16 @@ A A Gift of Secrets|QID|72314|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DF
 A A Gift of Secrets|QID|72315|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;24|P|Blacksmithing;164;9+25|
 A A Gift of Secrets|QID|72316|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;24|P|Herbalism;182;9+25|
 A A Gift of Secrets|QID|72317|M|60.4,37.6|Z|2023|N|From Quartermaster Huseng.|DFREN|Maruuk;2503;24|P|Skinning;393;9+25|
-A Iskaaran Crafter's Knowledge|QID|72318|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Enchanting;333;9+25|
-A Iskaaran Crafter's Knowledge|QID|72319|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Herbalism;182;9+25|
-A Iskaaran Crafter's Knowledge|QID|72320|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Jewelcrafting;755;9+25|
-A Iskaaran Crafter's Knowledge|QID|72321|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Leatherworking;165;9+25|
-A Iskaaran Crafter's Knowledge|QID|72322|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Skinning;393;9+25|
-A Iskaaran Crafter's Mastery|QID|72323|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Enchanting;333;9+25|
-A Iskaaran Crafter's Mastery|QID|72324|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Herbalism;182;9+25|
-A Iskaaran Crafter's Mastery|QID|72325|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Jewelcrafting;755;9+25|
-A Iskaaran Crafter's Mastery|QID|72326|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Leatherworking;165;9+25|
-A Iskaaran Crafter's Mastery|QID|72327|M|13.8,50|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Skinning;393;9+25|
+A Iskaaran Crafter's Knowledge|QID|72318|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Enchanting;333;9+25|
+A Iskaaran Crafter's Knowledge|QID|72319|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Herbalism;182;9+25|
+A Iskaaran Crafter's Knowledge|QID|72320|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Jewelcrafting;755;9+25|
+A Iskaaran Crafter's Knowledge|QID|72321|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Leatherworking;165;9+25|
+A Iskaaran Crafter's Knowledge|QID|72322|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;14|P|Skinning;393;9+25|
+A Iskaaran Crafter's Mastery|QID|72323|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Enchanting;333;9+25|
+A Iskaaran Crafter's Mastery|QID|72324|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Herbalism;182;9+25|
+A Iskaaran Crafter's Mastery|QID|72325|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Jewelcrafting;755;9+25|
+A Iskaaran Crafter's Mastery|QID|72326|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Leatherworking;165;9+25|
+A Iskaaran Crafter's Mastery|QID|72327|M|13.91,50.08|Z|2024|N|From Rokkutuk.|DFREN|Iskaara;2511;24|P|Skinning;393;9+25|
 A Crafting Your Start|QID|70892|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Alchemy;171;9+25|
 A Crafting Your Start|QID|72329|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Blacksmithing;164;9+25|
 A Crafting Your Start|QID|72330|M|36.6,62.6|Z|2112|N|From Dothenos.|DFREN|Valdrakken;2510;14|P|Engineering;202;9+25|
@@ -138,7 +138,7 @@ $ Firewater Powder Sample|QID|70309|Z|2024|M|67.0,13.2|ITEM|198712|N|Outside Tim
 $ Spelltouched Tongs|QID|70314|Z|2024|M|53.1,65.3|ITEM|201011|N|Inside small cave blocked by a rock wall, so if you aren't a miner, you will need one to open it up for you.|P|Blacksmithing;164;9+25|
 $ Forgotten Arcane Tome|QID|70336|Z|2024|M|38.5,59.2|ITEM|198799|N|In one of the rooms built into the rock walls around Azure Archihves. Tome is lying on the floor to the right of the entrance.|P|Enchanting;333;9+25|
 $ Faintly Enchanted Remains|QID|70290|Z|2024|M|45.1,61.2|ITEM|201013|N|Click on Mana-Starved Crystal Cluster to spawn a mob. Kill the mob and click the crystal that spawns.|P|Enchanting;333;9+25|
-$ Enriched Earthen Shard|QID|70298|Z|2024|M|21,45|ITEM|198694|N|Touch the side of the mountain and the node will appear.|P|Enchanting;333;9+25|
+$ Enriched Earthen Shard|QID|70298|Z|2024|M|21.56,45.55|ITEM|198694|N|Touch the side of the mountain and the node will appear.|P|Enchanting;333;9+25|
 A Frizz Buzzcrank|QID|70252|Z|2024|M|17.8,21.7|CHAT|N|Near a shrine NW of Three Falls Lookout|P|Engineering;202;9+25|
 A Lydiara Whisperfeather|QID|70254|Z|2024|M|40.20,64.3|CHAT|N|Azure Archives, on a platform.|P|Inscription;773;9+25|
 $ Dusty Darkmoon Card|QID|70297|Z|2024|M|46.2,23.9|ITEM|198693|N|Upper level, inside a building. Mobs are level 70 and do not scale down.|P|Inscription;773;9+25|
@@ -154,7 +154,7 @@ $ Intriguing Bolt of Blue Cloth|QID|70267|Z|2024|M|40.7,54.5|ITEM|198662|N|In a 
 $ Furry Gloop|QID|70278|Z|2025|M|55.2,30.5|ITEM|201003|N|Under a rock overhang. Drop a nearby docile dub on each on each of the three Mysterious Cauldrons. May explode or spawn an Expanded Angry Cub.|P|Alchemy;171;9+25|
 $ Contraband Concoction|QID|70301|Z|2025|M|59.5,38.4|ITEM|198697|N|Small purple glowing potion, hidden in bushes. Difficult to see.|P|Alchemy;171;9+25|
 $ Draconic Flux|QID|70311|Z|2025|M|52.2,80.5|ITEM|201006|N|Inside a building, up on the cliff.|P|Blacksmithing;164;9+25|
-$ Fractured Titanic Sphere|QID|70342|Z|2025|M|59.9,70.4|ITEM|198800|N|South of Tyrhold.|P|Enchanting;333;9+25|
+$ Fractured Titanic Sphere|QID|70342|Z|2025|M|59.89,70.34|ITEM|198800|N|Inside a room in the rock, behind a piller.|P|Enchanting;333;9+25|
 $ How to Train Your Whelpling|QID|70281|Z|2025|M|34.66,61.79|ITEM|198669|N|[color=FF0000]NOTE: [/color]BUG!!Don't loot the Pulsing Earth at this location, go to its' correct location (Waking Shores 68,58) or you will not be able to get the book here. This is a brown book lying in the sandbox.|P|Inscription;773;9+25|
 $ Forgetful Apprentice's Tome|QID|70264|Z|2025|M|56.3,41.2|ITEM|198659|N|on a table near a big telescope.|P|Inscription;773;9+25|; 2 tomes with the same name.|
 $ Counterfeit Darkmoon Deck|QID|70287|Z|2025|M|56.1,40.9|ITEM|201015|N|Talk to purple-outlined NPC "Siennagosa". Offer to help set back her Darkmoon Deck. Scattered at her feet are 8 Darkmoon cards. Click them in the correct order (Ace through 8). Speak to her afterward to get the deck.|P|Inscription;773;9+25|
@@ -163,7 +163,7 @@ $ Alexstraszite Cluster|QID|70285|Z|2025|M|59.8,65.2|ITEM|198682|P|Jewelcrafting
 $ Painter's Pretty Jewel|QID|70261|Z|2025|M|56.91,43.72|ITEM|198656|N|Inside a vase under a plant. May need to play with camera angles. Some comments on WH indicate it is bugged in warmode.|P|Jewelcrafting;755;9+25|
 $ Decayed Scales|QID|70294|Z|2025|M|56.8,30.5|ITEM|198690|N|Inside a basket within the Fetid's camp.|P|Leatherworking;165;9+25|
 $ Miniature Bronze Dragonflight Banner|QID|70288|Z|2025|M|60.4,79.7|ITEM|198684|N|In the northeasteast platform. It's a small banner inside a pile of sand.on the northeasteast platform -- small banner inside a pile of sand.|P|Tailoring;197;9+25|
-$ Ancient Dragonweave Bolt|QID|70372|Z|2025|M|58.6,45.8|ITEM|201019|N|Clicking the Ancient Dragonweave Loom starts a minigame where you connect the spools of thread to the center gem. Completing the game awards the item.|P|Tailoring;197;9+25|
+$ Ancient Dragonweave Loom|QID|70372|Z|2025|M|58.6,45.8|ITEM|201019|N|Clicking the Ancient Dragonweave Loom starts a minigame where you connect the spools of thread to the center gem in progressively more intricate patterns. Completing the game 8 times awards the item. Wowhead has a pictoral progression that can help.|P|Tailoring;197;9+25|
 A Bridgette Holdug|QID|70258|Z|2025|M|61.42,76.95|CHAT|N|On top of grassy rock pillar NW of Temporal Conflux flight point.|P|Mining;186;9+25|
 A Elysa Raywinder|QID|70260|Z|2112|M|27.96,45.79|CHAT|N|Straight up from the Rostrum of Transformation, on a ledge halfway up the tower at the pointed tip of the hanging banner|P|Tailoring;197;9+25|
 
@@ -173,7 +173,7 @@ T Artisan's Courier|QID|67564|M|60.24,72.19|Z|2022|N|To Thomas Bright.|
 A A Gift for Miguel|QID|67100|PRE|67564|M|60.24,72.19|Z|2022|N|From Thomas Bright.|RANK|2|
 C A Gift for Miguel|QID|67100|QO|1|M|60.24,72.19|Z|2022|CHAT|N|Ask Thomas Bright about crafting materials quality.|
 C A Gift for Miguel|QID|67100|QO|2|N|Collect the fiery spirits from any fire elementals.|S!US|
-T A Gift for Miguel|QID|67100|M|71.75,81.21|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|
+t A Gift for Miguel|QID|67100|M|71.75,81.21|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|
 A Professionally Equipped|QID|67137|PRE|67100|M|71.93,81.03|Z|2023;Ohn'ahran Plains|N|From Miguel Bright.|
 A Targeted Ads|QID|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|
 A A Craft in Need|QID|69919|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|P|Blacksmithing;164;9+25|
@@ -195,7 +195,10 @@ C The Wonders of the World|QID|67298|QO|1|M|71.73,81.24|Z|2023;Ohn'ahran Plains|
 A The Master of Their Craft|QID|69946|PRE|67295|M|71.73,81.24|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|
 A Show Your Mettle|QID|70221|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|;pre seems to be any of the delivery to Haephesta quests
 t Show Your Mettle|QID|70221|M|71.73,81.23|Z|2023;Ohn'ahran Plains|N|From Thomas Bright.|IZ|13755|
-C Targeted Ads|QID|69915|M|75.82,75.40|Z|2023;Ohn'ahran Plains|N|Kill[color=0060ee] goats [/color]in the marked area to recover Azley's missing books.|US|
+t Azure Span|QID|72268|M|71.66,80.58|Z|2023|N|To Masud the Wise.|
+A To the Azure Span|QID|65686|M|71.66,80.58|Z|2023|N|From Masud the Wise.|;per wh this is required, but I don't think it is. Maybe it just can't be in your quest log, so dropping it would also solve the problem.  I was able to get Finishing Touches without turning in Azure Span  or To the Azure Span
+C Targeted Ads|QID|69915|M|70.63,84.77|Z|2023;Ohn'ahran Plains|N|Kill[color=0060ee] goats [/color]in the marked area to recover Azley's missing books.|US|
+T To the Azure Span|QID|65686|M|41.43,35.62|Z|2024|N|To Glania the Blessed. {Only get the followup if you want to).|
 T Targeted Ads|QID|69915|M|72.03,81.10|Z|2023;Ohn'ahran Plains|N|To Azley.|
 A Customer Satisfaction|QID|69981|PRE|69915|M|72.00,81.12|Z|2023;Ohn'ahran Plains|N|From Azley.|
 C Customer Satisfaction|QID|69981|M|74.59,81.01|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask her about her crafting order.|
@@ -203,6 +206,7 @@ C Customer Satisfaction|QID|69981|M|77.25,73.13|Z|2023;Ohn'ahran Plains|QO|2|CHA
 C Customer Satisfaction|QID|69981|M|67.02,80.85|Z|2023;Ohn'ahran Plains|QO|3|NC|N|Well, he isn't talking, so return his armour, since he doesn't need it anymore.|
 C Customer Satisfaction|QID|69981|M|72.03,81.11|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Show Azley what you found.|
 T Customer Satisfaction|QID|69981|M|71.84,81.27|Z|2023;Ohn'ahran Plains|N|To Mahra Treebender.|
+
 F Teerakai|ACTIVE|67298|M|71.64,79.08|Z|2023;Ohn'ahran Plains|N|At Rynaam.|
 C The Wonders of the World|QID|67298|QO|2|M|46.09,59.93|Z|2023;Ohn'ahran Plains|N|Fly over and pick up the Ancient Scrap of Draconic Wisdom in the nest.|
 T The Wonders of the World|QID|67298|M|46.04,59.92|Z|2023;Ohn'ahran Plains|N|To Thomas Bright.|
@@ -212,20 +216,25 @@ T The Master of Their Craft|QID|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To
 A A Worthy Hunt|QID|69979|PRE|69946|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|From Khadin.|
 K Thousandmile|ACTIVE|69979|M|49.41,37.10|QO|1|Z|2023;Ohn'ahran Plains|N|Go out and kill and loot Thousandmile. He is a big Elk type that wanders in the plains SW of Khadin's cave.|T|Thousandmile|
 T A Worthy Hunt|QID|69979|M|51.77,33.00|Z|2023;Ohn'ahran Plains|N|To Khadin. This is to show you the repeatable quest to turn your Shards of Dragon Knowledge into tradeskill knowlege.|
-A A Finishing Touch|QID|70126|PRE|69915|M|39.4,69.8|Z|2112|N|From Miguel Bright.|
+A A Finishing Touch|QID|70126|PRE|69915&65686|M|39.4,69.8|Z|2112|N|From Miguel Bright. BTW, this quest is not available if you don't have a crafting professing. (i.e you are a gatherer) Check this step off manually in that case.|;yes, you have to turn 65686 in to get this quest.
 C A Finishing Touch|QID|70126|QO|1|M|30.6,61.8|Z|2112|CHAT|N|Jimothy wanders down near the leatherworking table.|
-C A Finishing Touch|QID|70126|QO|1|M|39.4,69.8|Z|2112|CHAT|N|Tell Miguel the great news.|
+C A Finishing Touch|QID|70126|QO|2|M|39.4,69.8|Z|2112|CHAT|N|Tell Miguel the great news.|
 T A Finishing Touch|QID|70126|M|39.4,69.8|Z|2112|N|To Miguel Bright.|
 
-N Rabul|QID|71894^71895^71896^71897^71901^71902|M|35.6,59|Z|2112|N|Artisan's Cosortium Quartermaster in Valdrakken stocks 3 items, progressively more expensive (and requiring higher faction) to click for 10 Profession Knowledge. They aren't quite as expensive as they seem, since you do get 50 of the mettle back when you click each one. Check off manually.|
+N Rabul|QID|71894^71895^71896^71897^71898^71901^71902^71903|M|35.6,59|Z|2112|N|Artisan's Cosortium Quartermaster in Valdrakken stocks 3 items, progressively more expensive (and requiring higher faction) to click for 10 Profession Knowledge. They aren't quite as expensive as they seem, since you do get 50 of the mettle back when you click each one. Check off manually.|
+;71893? ?Alc
 ;71894 Blacksmithing
 ;71895 Enchanting
 ;71896 Engineering
 ;71897 Herbalism
+;71898 Inscription
+;71899 ?JC
+;71900 ?LW
 ;71901 Mining
 ;71902 Skinning
+;71903 Tailoring
 
-A Two Tradeskill Gathering Quests|QID|66363^66364^66516^66517^66884^66890^66891^66897^66900^66935^66937^66938^66940^66941^66942^66943^66944^66950^66951^66952^66953^72396^72407^72410^72423^72427^72428^72438|M|36.8,62.6|Z|2112|N|The group of NPCs here will offer one quest for each of your primary professions weekly to gather some item they need and reward you profession knowledge in return for your effort. Sorry gatherers, they don't have quests for you.|
+A Two Tradeskill Gathering Quests|QID|66363^66364^66516^66517^66884^66890^66891^66897^66900^66935^66937^66938^66940^66941^66942^66943^66944^66945^66950^66951^66952^66953^72396^72407^72410^72423^72427^72428^72438|M|36.8,62.6|Z|2112|N|The group of NPCs here will offer one quest for each of your primary professions weekly to gather some item they need and reward you profession knowledge in return for your effort. If you are a duel gatherers, they don't have quests for you, check off manually to close the step.|
 
 ;A Animated Infusion|QID|72427|M|36.6,63|Z|2112|N|From Dhurrel.|P|Alchemy;171;9+45|
 ;A Mammoth Marrow|QID|66938|M|36.6,63|Z|2112|N|From Dhurrel.|P|Alchemy;171;9+45|
@@ -315,7 +324,6 @@ t To Fly a Kite|QID|66364|M|36.8,62.2|Z|2112|N|To Temnaayu.|
 t Population Control|QID|66951|M|36.8,62.2|Z|2112|N|To Temnaayu.|
 t Soaked in Success|QID|72407|M|36.8,62.2|Z|2112|N|To Temnaayu.|
 
-
 A Blacksmithing Services Requested|QID|70589|M|35.4,58.8|Z|2112|N|From Azley.|P|Blacksmithing;164;9+45|
 C Blacksmithing Services Requested|QID|70589|NC|N|Fill crafting orders .|S!US|
 t Blacksmithing Services Requested|QID|70589|M|35.4,58.8|Z|2112|N|To Azley.|
@@ -340,7 +348,7 @@ A Agrikus-Herbalist|QID|70613^70614^70616|M|37.6,67|Z|2112|N|From Agrikus.|P|Her
 C How Many??|QID|70616|H|N|Gather or buy the needed items.|
 t How Many??|QID|70616|M|37.6,67|Z|2112|N|To Agrikus.|
 ;A Bubble Craze|QID|70614|M|37.6,67|Z|2112|N|From Agrikus.|P|Herbalism;182;9+45|
-C Bubble Craze|QID|70614|M|37.6,67|Z|2112|H|N|Gather or buy the needed items.|
+C Bubble Craze|QID|70614|M|37.6,67|Z|2112|N|Gather or buy the needed items.|
 t Bubble Craze|QID|70614|M|37.6,67|Z|2112|N|To Agrikus.|
 ;A Get Their Bark Before They Bite|QID|70613|M|37.6,67|Z|2112|N|From Agrikus.|P|Herbalism;182;9+45|
 C Get Their Bark Before They Bite|QID|70613|H|N|Gather or buy  the needed items.|
@@ -472,7 +480,7 @@ t Spectacular|QID|70564|M|40.6,61.2|Z|2112|N|To Tuluradormi.|
 
 A Fulafong - Tailor|QID|70572^70582^70586^70587|M|31.96,67.19|Z|2112|N|From Threadinder Fulafong.|P|Tailoring;197;9+45|
 ;A Weave Well Enough Alone|QID|70582|M|31.96,67.19|Z|2112|N|From Threadinder Fulafong.|P|Tailoring;197;9+45|
-C Weave Well Enough Alone|QID|70582|NC|N|Craft or buy the needed items. It can't be your used, i.e. soulbound item.|
+C Weave Well Enough Alone|QID|70582|NC|N|Craft or buy the needed items. They must be highest quality (3 gold diamonds).|
 t Weave Well Enough Alone|QID|70582|M|31.96,67.19|Z|2112|N|To Threadinder Fulafong.|
 ;A Sew Many Cooks|QID|70586|M|31.96,67.19|Z|2112|N|From Threadinder Fulafong.|P|Tailoring;197;9+45|
 C Sew Many Cooks|QID|70586|NC|N|Craft or buy the needed items. It can't be your used, i.e. soulbound item.|
