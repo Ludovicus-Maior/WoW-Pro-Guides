@@ -35,11 +35,11 @@ C Darkwing|QID|37207|STRATEGY|Sybreedx@wowhead.com|N|1) [ability=115/breath] unt
 T Vesharr|QID|37207|M|46.2,45.4|Z|Spires of Arak|N|To Vesharr|
 
 F Retribution Point|AVAILABLE|37208|N|Fly to Retribution Point.|M|46.2,44|Z|Spires of Arak|
-N Taralune|AVAILABLE|37208|PET1|Chrominius;68662;2+2+2|PET2|Leveling;;;|PET3|Nexus Whelpling;68845;1+2+2|STRATEGY|Taralune|
+N Taralune|AVAILABLE|37208|PET1|Nexus Whelpling;68845;1+2+2|PET2|Leveling;;;|PET3|Arcane2;;589+489+122;|STRATEGY|Taralune|
 A Taralune|QID|37208|M|49.0,80.4|Z|Talador|N|From Taralune|
-C Serendipity|QID|37208|STRATEGY|Taralune|N|1) [ability=299/ArcaneExp]\n2) [ability=611/ABlessing] (from now on, use it on cooldown)\n3) Spam [ability=299/ArcaneExp]\n4) [ability=593/Surge] when Serendipity can be killed by it.\n5) When Chrominius dies switch in the level pet.|SELECT|1|DEAD|1,1|SWITCH|2|
+C Nexus|QID|37208|STRATEGY|Taralune|N|1) [ability=589/arcane-storm]x2 \n2) [ability=489/mana-surge]\n3) When dead, switch in the level pet.|SELECT|1|DEAD|1,1|SWITCH|2|
 C Leveling Pet|QID|37208|STRATEGY|Taralune|N|1) Switch in the Whelpling.|SELECT|2|SWITCH|3|
-N Mana Surge Purge|QID|37208|STRATEGY|Taralune|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3) Victory!|SELECT|3|DEAD|2,3|
+N Mana Surge Purge|QID|37208|STRATEGY|Taralune|N|1) [ability=589/arcane-storm]\n2) [ability=489/mana-surge]\n3) [ability=122/tail-sweep] and Victory!|SELECT|3|DEAD|2,3|
 T Taralune|QID|37208|M|49.0,80.4|Z|Talador|N|To Taralune|
 
 F Rilzit's Holdfast|AVAILABLE|37206|N|Fly to Rilzit's Holdfast in Nagrand.|M|42,76.8|Z|Talador|
@@ -55,23 +55,13 @@ T Tarr the Terrible|QID|37206|M|56.2,9.8|Z|Nagrand@Draenor|N|To Tarr|
 F Deeproot|AVAILABLE|37201|N|Fly to Deeproot.|M|50.6,30.6|Z|Nagrand@Draenor|FACTION|Alliance|
 F Beastwatch|AVAILABLE|37201|N|Fly to Beastwatch.|M|50.6,30.6|Z|Nagrand@Draenor|FACTION|Horde|
 R The way to Cymre|AVAILABLE|37201|M|49.83,75.08;51.51,71.35|CS|Z|Gorgrond|ACH|10018|N|Follow these waypoints to Cymre.|FACTION|Alliance|
-N Cymre Winter|AVAILABLE|37201|PET1|Leveling;;;H>500U|PET2|Winter Reindeer;15706;1+2+1|PET3|Infinite Whelpling;68820;1+1+1;P>340|STRATEGY|CymreWinter|
-N Cymre Idol|AVAILABLE|37201|PET1|Leveling;;;H>500U|PET2|Anubisath Idol;68659;1+1+1|PET3|Mechanical Pandaren Dragonling;64899;1+2+2|STRATEGY|CymreIdol|
+N Cymre Winter|AVAILABLE|37201|PET1|Nuts;54227;1+2+1|PET2|Fel Flame;62621;1+2+1|PET3|Wild Crimson Hatchling;65321;1+2+2;|STRATEGY|CymreNuts|
 
 A Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|From Cymre|
-; Using Anubisath Idol and Mechanical Pandaren Dragonling
-C Leveling|QID|37201|STRATEGY|CymreIdol|N|1) Hit\n2) Switch to Anubisath Idol.|SELECT|1|SWITCH|2|
-C Idol of Decay|QID|37201|STRATEGY|CymreIdol|N|Follow this sequence until Idol of Decay dies:\n1) [ability=453/sandstorm] on cooldown\n2) Spam [ability=406/crush]\n3) [ability=490/deflection] (basically when he has [ability=476/rot] off cooldown you need to cast to prevent it)\n4) Be careful if he casts Dark Rebirth, do not kill it, Pass the turn instead.\n5) Try to ensure that your Deflection is off cooldown when he dies.|SELECT|2|DEAD|2,1|
-C Wishbright Lantern|QID|37201|STRATEGY|CymreIdol|N|Follow this sequence until your Idol dies:\n1) [ability=490/deflection]\n2) [ability=453/sandstorm] (from now on, use it on cooldown)\n3) Spam [ability=406/crush] and use [ability=490/deflection] against his Arcane Blast.\n4) When Anubisath dies, switch in the Dragonling.|SELECT|2|SWITCH|3|DEAD|1,2|
-C Wishbright Lantern|QID|37201|STRATEGY|CymreIdol|N|1) [ability=779/Thunderbolt]\n2) Spam [ability=115/breath] until the enemy dies.\n3) Save your [ability=334/Decoy] for Gyrexle!|SELECT|2|DEAD|2,2|
-; Something missing here!
-
-; Using Reindeer and Whelpling
-C Leveling|QID|37201|STRATEGY|CymreWinter|N|1) Hit, no stuns!\n2) Switch to Reindeer.|SELECT|1|SWITCH|2|
-C Idol of Decay|QID|37201|STRATEGY|CymreWinter|N|Follow this sequence until Idol of Decay dies:\n1) [ability=574/natures-ward], [ability=493/hoof]\n2) [ability=574/natures-ward], 2x [ability=493/hoof]\n[ability=574/natures-ward] after [ability=476/rot] comes up\n[ability=539/bleat] to kill time if there is a Dark Revival.\nSwitch to Whelp on last resurection.|SELECT|2|SWITCH|3|
-C Wishbright Lantern|QID|37201|STRATEGY|CymreWinter|N|1) [ability=168/healing-flame]\n2) 3x [ability=122/tail-sweep]\n3) Switch to Reindeer|SELECT|3|SWITCH|2|
-C Gyrexle|QID|37201|STRATEGY|CymreWinter|N|1) [ability=539/bleat]\n2) [ability=574/natures-ward]\n3) Switch back to Whelp|SELECT|2|SWITCH|3|
-C Gyrexle|QID|37201|STRATEGY|CymreWinter|N|1) 2x [ability=122/tail-sweep]\n2) [ability=405/early-advantage]\n3) [ability=168/healing-flame]\n4) [ability=122/tail-sweep]\n5) If Whelp dies, use Reindeer to clean up.|SELECT|3|DEAD|2,3|
+; Using Nuts, no reliable leveling pet strategy
+C Nuts|QID|37201|STRATEGY|CymreNuts|N|1) [ability=165/Crouch] [ability=167/nut-barrage]\n2) [ability=119/scratch] [ability=167/nut-barrage]\n3) [ability=119/scratch] [ability=165/Crouch]\n4)[ability=167/nut-barrage] [ability=119/scratch] [ability=167/nut-barrage]\n5) Idol Dies! Switch to Hatchling.|SELECT|1|SWITCH|3|
+C Wild Crimson Hatchling|QID|37201|STRATEGY|CymreNuts|N|1) [ability=172/scorched-earth]\n2) [ability=115/breath]\n3) Switch to Fel Flame.|SELECT|3|SWITCH|2|
+C Fel Flame|QID|37201|STRATEGY|CymreNuts|N|1) [ability=172/scorched-earth]\n2) Lantern Dies, then PASS once.\n3) [ability=179/conflagrate]\n4) [ability=113/burn] till you win!|SELECT|2||DEAD|2,3|
 
 T Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|To Cymre|
 
