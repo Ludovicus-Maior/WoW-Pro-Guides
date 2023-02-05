@@ -78,7 +78,7 @@ R The Dark Portal|N|Head over to the Dark Portal.|QID|8647|M|54.3,49.5|Z|Blasted
 A Bellowrage the Elder|N|From Bellowrage the Elder.|QID|8647|M|54.3,49.5|Z|Blasted Lands|
 F The Temple of Atal'Hakkar|N|Head North to Swamp of Sworrows and into the Temple of Atal'Hakkar.|QID|8713|M|69.37,53.07|Z|Swamp of Sorrows|RANK|2|
 R Hall of Masks|N|Head inside the Temple down into the Hall of Masks|Z|Swamp of Sorrows|M|75.99,45.22|QID|8713|RANK|2|
-A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|8713|M|62.90,34.47|Z|The Temple of Atal' Hakkar!Dungeon|RANK|2|
+A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|8713|M|62.90,34.47|Z|The Temple of Atal'Hakkar!Dungeon|RANK|2|
 F Sentinel Hill|N|Fly to Sentinel Hill.|QID|8675|M|70.04,38.56|Z|Swamp of Sorrows|
 A Skychaser the Elder|N|From Skychaser the Elder.|QID|8675|M|56.64,47.09|Z|Westfall|
 F Stormwind|N|Fly to Stormwind City.|QID|8649|M|56.64,49.44|Z|Westfall|
