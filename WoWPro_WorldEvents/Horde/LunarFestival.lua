@@ -191,7 +191,7 @@ A Sandrene the Elder|N|From Elder Sandrene.|QID|13018|M|49.78,63.62|Z|Sholazar B
 A Wanikaya the Elder|N|From Elder Wanikaya.|QID|13024|M|63.80,49.02|Z|Sholazar Basin|
 
 F Transitus Shield|FLY|OLD|N|Fly to the Transitus Shield in Colderra.|QID|13016|M|50,61.4|Z|Sholazar Basin|
-A Northal the Elder|N|From Elder Northal.QID|13016|M|33.80,34.36|Z|Borean Tundra|
+A Northal the Elder|N|From Elder Northal.|QID|13016|M|33.80,34.36|Z|Borean Tundra|
 R The Nexus|N|Run into The Nexus.|QID|13021|M|27.5,26.09|Z|Borean Tundra|RANK|3|
 A Igasho the Elder|N|From Elder Igasho. Before the first boss. Nothing needs to die, but due to mob density, you probably will find it easier to kill a few.|QID|13021|M|55.19,64.72|Z|The Nexus@TheNexus|RANK|3|
 R D.E.H.T.A Encampment|N|Head out of The Nexus and go to the D.H.E.T.A Encampment.|QID|13033|M|57.4,43.6|Z|Borean Tundra|
