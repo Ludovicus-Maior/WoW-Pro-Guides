@@ -42,7 +42,7 @@ A Wheathoof the Elder|N|From Wheathoof the Elder.|QID|8678|M|73,23.8|Z|Thunder B
 R Bloodhoof Village|N|Gallop on over to Bloodhoof Village.|QID|8673|M|48.5,53.2|Z|Mulgore|
 A Bloodhoof the Elder|N|From Bloodhoof the Elder.|QID|8673|M|48.50,53.24|Z|Mulgore|T|Elder Bloodhoof|
 A High Mountain the Elder|N|From High Mountain the Elder.|QID|8686|M|41.5,47.5|Z|Southern Barrens|T|Elder High Mountain|
-F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|38.8,10.8|Z|Southern Barrens|RANK|2|
+F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|49.20,67.80|Z|Southern Barrens|RANK|2|
 R Maraudon|QID|8635|M|29.12,62.56|N|Head over to Maraudon. This is a long trek. Skip unless you want the achievement.|Z|Desolace|RANK|3|
 R Open the Stone Door|QID|8635|N|And follow the path until you come to a mini-map change.|M|28.23,62.61;28.29,65.08;27.58,62.85;28.09,62.8|CS|Z|Desolace|RANK|3|
 R Follow the dots|QID|8635|N|Until you come to a portal.|M|29.06,62.48;29.97,59.96;29.39,60.94|Z|Desolace|CS|RANK|3|
@@ -78,10 +78,10 @@ R The Dark Portal|N|Head over to the Dark Portal.|QID|8647|M|54.3,49.5|Z|Blasted
 A Bellowrage the Elder|N|From Bellowrage the Elder.|QID|8647|M|54.3,49.5|Z|Blasted Lands|
 F The Temple of Atal'Hakkar|N|Head North to Swamp of Sworrows and into the Temple of Atal'Hakkar.|QID|8713|M|69.37,53.07|Z|Swamp of Sorrows|RANK|2|
 R Hall of Masks|N|Head inside the Temple down into the Hall of Masks|Z|Swamp of Sorrows|M|75.99,45.22|QID|8713|RANK|2|
-A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|8713|M|62.90,34.47|Z|The Temple of Atal' Hakkar|RANK|2|
+A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|8713|M|62.90,34.47|Z|The Temple of Atal' Hakkar!Dungeon|RANK|2|
 F Sentinel Hill|N|Fly to Sentinel Hill.|QID|8675|M|70.04,38.56|Z|Swamp of Sorrows|
 A Skychaser the Elder|N|From Skychaser the Elder.|QID|8675|M|56.64,47.09|Z|Westfall|
-F Stormwind City|N|Fly to Stormwind City.|QID|8649|M|56.64,49.44|Z|Westfall|
+F Stormwind|N|Fly to Stormwind City.|QID|8649|M|56.64,49.44|Z|Westfall|
 A Hammershout the Elder|N|From Hammershout the Elder.|QID|8646|M|34.56,50.25|Z|Elwynn Forest|
 A Stormbrow the Elder|N|From Stormbrow the Elder.|QID|8649|M|39.79,63.67|Z|Elwynn Forest|
 F Morgan's Vigil|N|Fly to Morgan's Vigil.|QID|8636|M|41.72,64.62|Z|Elwynn Forest|
@@ -98,7 +98,7 @@ R Follow the waypoints|N|To get into Blackrock Depths instance.|CS|QID|8619|M|18
 A Morndeep the Elder|N|From Morndeep the Elder at the ring of the law.|QID|8619|M|50.55,62.90|Z|Detention Block@BlackrockDepths|RANK|2|
 R Searing Gorge|N|Head out of the instance, and run North to Searing Gorge.|QID|8651|M|34.56,83.46|Z|Searing Gorge|RANK|2|
 A Ironband the Elder|N|From Ironband the Elder.|QID|8651|M|21.29,79.11|Z|Searing Gorge|
-F Thelsamar|N|Fly to Thelsamar.|QID|8642|M|41.04,68.78|Z|Burning Steppes|
+F Thelsamar|N|Fly to Thelsamar.|QID|8642|M|17.79,52.77|Z|Burning Steppes|
 A Silvervein the Elder|N|From Silvervein the Elder.|QID|8642|M|33.32,46.54|Z|Loch Modan|
 F Kharanos|N|Fly to Kharanos.|QID|8653|M|33.93,50.93|Z|Loch Modan|
 A Goldwell the Elder|N|From Goldwell the Elder.|QID|8653|M|53.90,49.91|Z|Dun Morogh|
@@ -117,7 +117,7 @@ A Snowcrown the Elder|N|From Snowcrown the Elder.|QID|8650|M|75.73,54.56|Z|Easte
 
 F Plaguewood Tower|N|Fly to Plaguewood Tower.|QID|8727|M|75.85,53.41|Z|Eastern Plaguelands|RANK|2|
 R Stratholme|QID|8727|M|26.48,11.62|Z|Eastern Plaguelands|N|Enter Stratholme's main entrance.|RANK|2|
-A Farwhisper the Elder|N|From Farwhisper the Elder, at the far end of Festival Lane.|QID|8727|M|78.59,21.16|Z|Crusader's Square@Stratholme|RANK|2|
+A Farwhisper the Elder|N|From Farwhisper the Elder, at the far end of Festival Lane.|QID|8727|M|78.59,21.16|Z|Crusader's Square@Stratholme!Dungeon|RANK|2|
 
 F The Mender's Stead|N|Fly to The Mender's Stead (or Andorhal if you still have that FP).|QID|8652|M|18.46,27.37|Z|Eastern Plaguelands|
 R Brill|N|Run to Brill.|QID|8652|M|61.7,53.7|Z|Tirisfal Glades|
@@ -176,7 +176,7 @@ A Yurauk the Elder|N|From Yurauk the Elder, in the Crystalline Quarry. May not s
 A Stonebeard the Elder|N|From Stonebeard the Elder, at Bouldercrag's Refuge.|QID|13020|M|31.26,37.61|Z|The Storm Peaks|
 A Fargal the Elder|N|From Fargal the Elder.|QID|13015|M|28.89,73.72|Z|The Storm Peaks|
 A Graymane the Elder|N|From Graymane the Elder.|QID|13028|M|41.16,84.72|Z|The Storm Peaks|
-F Wintergrasp|N|Fly to Wintergrasp.|QID|13026|M|40.6,84.6|Z|The Storm Peaks|
+F Valiance Landing Camp|N|Fly to Wintergrasp.|QID|13026|M|40.6,84.6|Z|The Storm Peaks|
 A Bluewolf the Elder|N|From Bluewolf the Elder. Just a note, if the Alliance does not have Wintergrasp you may not be able to get this Elder. It may be possible though if the Horde is in control, if the main gate is damaged enough to fly into.|QID|13026|M|49.03,13.95|Z|Wintergrasp|
 F River's Heart|N|Fly to River's Heart.|QID|13018|M|72,31|Z|Wintergrasp|
 A Sandrene the Elder|N|From Sandrene the Elder.|QID|13018|M|49.78,63.62|Z|Sholazar Basin|
@@ -192,6 +192,7 @@ F Nordrassil|QID|29740|N|Take the portal to Mount Hyjal.|
 A Evershade the Elder|QID|29740|M|62.54,22.82|Z|Mount Hyjal|N|From Elder Evershade|
 A Windsong the Elder|QID|29739|M|26.69,62.05|Z|Mount Hyjal|N|From Elder Windsong|
 
+F Nordrassil|QID|29738|N|Go the portal to Stormwind.|
 F Darkbreak Cove|QID|29738|N|Take the portal to Vashj'ir.|
 F Voldrin's Hold|QID|29738|M|57.34,15.80|Z|Shimmering Expanse|
 A Moonlance the Elder|QID|29738|M|57.25,86.14|Z|Shimmering Expanse|N|From Elder Moonlance, Near Biel'Aran Ridge|
