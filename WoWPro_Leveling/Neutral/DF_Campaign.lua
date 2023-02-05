@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('DF_Campaign', 'Leveling', 'Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,"Dragonflight Campaign")
-WoWPro:GuideQuestTriggers(guide, 72585,70437,68863,70180,71184,72773,70180) -- add starting quest for each chapter
+WoWPro:GuideQuestTriggers(guide, 72585,70437,68863, 69093, 70180,71184,72773,70180) -- add starting quest for each chapter
 WoWPro:GuideLevels(guide,60, 70, 70)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -55,8 +55,7 @@ f Vault of the Incarnates|ACTIVE|66847|M|72.12,56.47|Z|2025|N|At Nirazal.|
 t Vault of the Incarnates: Fury of the Storm-Eater|QID|66847|M|57.46,58.73|Z|2025|N|To Alexstrasza.|
 
 ; Ch 3|The Chieftain's Duty - |DFREN|Iskaara;2511;11|
-A A Lost Tribe|QID|68863|N|From Rowie will appear when You will reach Renown Level 11 with Iskaara Tuskarr.|DFREN|Iskaara;2511;11|
-T A Lost Tribe|QID|68863|M|13.15,49.24|Z|2024|N|To Murik.|
+t T A Lost Tribe|QID|68863|M|13.15,49.24|Z|2024|N|To Murik.|
 A Sudden Isolation|QID|68640|M|13.15,49.24|Z|2024|N|From Murik.|DFREN|Iskaara;2511;11|;rowie only shows up for first char, subsequent characters start with this quest.
 C Sudden Isolation|QID|68640|M|55.07,38.22|Z|2022|N|Speak with Guard Hakota.|
 T Sudden Isolation|QID|68640|M|55.07,38.22|Z|2022|N|To Guard Hakota.|
@@ -115,9 +114,56 @@ T While the Iron Is Hot|QID|66444|M|53.65,37.96|Z|2022|N|To Tutagan.|
 f Uktulut Backwater|PRE|66444|M|54.33,36.97|Z|2022|N|You will unlock this Village and Fly point at Janatak.|;what to use for QID??
 
 ; Ch 4|A Mystery, Sealed - |DFREN|Dragonscale Exp;2507;13|
+R Dragonscale Basecamp|ACTIVE|69096|M|47.88,82.41|Z|2022|N|Head over to Dragonscale Basecamp to find Naleidea Rivergleam and continue the campaign.|
+t A New Mystery|QID|69096|M|47.88,82.41|Z|2022|N|To Naleidea Rivergleam.|
+A The Sealed Door|QID|66012|PRE|69096|M|47.88,82.41|Z|2022|N|From Naleidea Rivergleam.|
+R Sealed Titan Facility|ACTIVE|66012|M|54.47,55.64|Z|2025|N|This is just below Tyrhold.|
+T The Sealed Door|QID|66012|M|54.48,55.67|Z|2025|N|To Naleidea Rivergleam.|
+A Investigate the Door|QID|66013|PRE|66012|M|54.48,55.67|Z|2025|N|From Naleidea Rivergleam.|
+C Broken Watcher|QID|66013|QO|1|M|54.49,55.70|Z|2025|I|N|Investigate the statue behind Naleidea.|
+C Titan Door|QID|66013|QO|2|M|54.64,55.74|Z|2025|I|N|Investigate the big door just up the stairs from Naleidea.|
+C Broken Watcher Staff|QID|66013|QO|3|M|54.26,55.40|Z|2025|I|N|Investigate the stone sword on ground in front of the broken statue base.|
+T Investigate the Door|QID|66013|M|54.49,55.67|Z|2025|N|To Naleidea Rivergleam.|
+A Speak to Koranos|QID|66673|PRE|66013|M|54.47,55.64|Z|2025|N|From Naleidea Rivergleam.|
+C Speak to Koranos|QID|66673|QO|1|M|54.34,46.87|Z|2112|CHAT|N|Ask Koranos about the sealed Titan facility.|
+R Azure Archives Annex|ACTIVE|66673|QO|7|M|34.25,30.51|N|Go to the archives (where you get the weekly dungeon quests).|
+C Speak to Koranos|QID|66673|QO|2;3;4;5;6|M|37.83,25.05|Z|2112|I|N|Go into the back room and click the book on bookshelf and read all you can.|
+C Speak to Koranos|QID|66673|QO|7|M|34.25,30.51|Z|2112|N|Head out, You will be attacked.|
+C Speak to Koranos|QID|66673|QO|8|M|54.49,55.67|Z|2025|CHAT|N|Tell Naleidea what you found.|
+T Speak to Koranos|QID|66673|M|54.49,55.67|Z|2025|N|To Naleidea Rivergleam.|
+A The City of the Dead|QID|70785|PRE|66673|M|54.47,55.64|Z|2025|N|From Naleidea Rivergleam.|
+A The Ruins of Szar Skeleth|QID|66094|PRE|66673|M|54.47,55.64|Z|2025|N|From Naleidea Rivergleam.|
+A The Abandoned Outpost|QID|70784|PRE|66673|M|54.47,55.64|Z|2025|N|From Naleidea Rivergleam.|
+R Veiled Ossuary|ACTIVE|70784|M|62.24,18.28|Z|2025|N|Off to the Veiled Ossuary to meet up with Naleidea and find the Judgement of Tyr.|
+T The City of the Dead|QID|70785|M|62.24,18.28|Z|2025|N|To Naleidea Rivergleam.|
+A The Judgment of Tyr|QID|66814|PRE|70785|M|62.24,18.28|Z|2025|N|From Naleidea Rivergleam.|
+C The Judgment of Tyr|QID|66814|QO|1|M|62.24,18.28|Z|2025|CHAT|N|Tell Naleidea you are ready to begin.|
+C The Judgment of Tyr|QID|66814|QO|2;3;4;5;6;7;8|M|62.22,18.30;64.02,14.77|CS|Z|2025|N|Follow Naleidea thru the various ambushes killing the mobs as you come to them.|
+C The Judgment of Tyr|QID|66814|QO|9|M|64.47,15.17|Z|2025|H|N|Click on all the glowing junk to find The Judgment of Tyr.|
+T The Judgment of Tyr|QID|66814|M|64.46,15.14|Z|2025|N|To Naleidea Rivergleam.|
+R Szar Skeleth|ACTIVE|66094|M|44.31,64.39|N|You are actually meeting up with Toddy just outside of Szar Skeleth.|
+T The Ruins of Szar Skeleth|QID|66094|M|39.98,67.49|Z|2023|N|To Toddy Whiskers.|
+A The Insight of Tyr|QID|70507|PRE|66094|M|39.98,67.49|Z|2023|N|From Toddy Whiskers.|
+K Reclaimer Makko|ACTIVE|70507|QO|1|M|44.29,64.44|Z|2023|N|Kill and loot Reclaimer Makko. He spawns in the taller tower and wanders around the area.|
+A The Fractured Flame|QID|70766|M|PLAYER|N|From item that will drop probably from the first gorloc you kill.|O|U|199792|
+C The Fractured Flame|QID|70766|M|44.29,64.44|Z|2023|N|Stay and kill gorlocs if you want, or abandon this quest. It is optional and has no reward, other than the completed journal that you can read for a bit of interesting lore. If you choose to finish it, kill them one or two at a time, and loot defore more die, or you will get multiples of the same page if you loot a big pile of them at once.|
+T The Insight of Tyr|QID|70507|M|47.25,82.71|Z|2025|N|To Toddy Whiskers.|
+t The Fractured Flame|QID|70766|M|47.25,82.71|Z|2025|N|To Toddy Whiskers.|
+R Zelthrak Outpost|ACTIVE|70784|M|53.88,50.70|Z|2024|N|Off to Azure Span to meet Naleidea and find the last piece.|
+T The Abandoned Outpost|QID|70784|M|53.88,50.70|Z|2024|N|To Naleidea Rivergleam.|
+A The Vigilance of Tyr.|QID|70503|PRE|70784|M|53.88,50.70|Z|2024|N|From Naleidea Rivergleam.|
+C The Vigilance of Tyr|QID|70503|QO|3|M|53.74,49.38|Z|2024|N|Kill and loot from Tarasek Scavengers for the Tarasek Pillaged Pieces.|S|
+C The Vigilance of Tyr|QID|70503|QO|2|M|53.74,49.38|Z|2024|N|Attack the Crystallized Horror, when an Agitated Shard separates, kill and loot it.|
+C The Vigilance of Tyr|QID|70503|QO|1|M|53.74,49.38|Z|2024|H|N|Also pick up the Manetized Splinters that he is throwing on the ground when You attack the Crystallized Horror.|
+C The Vigilance of Tyr|QID|70503|QO|4|M|54.99,49.75|Z|2024|H|N|The Far-Flung Fragment can be found on top of this tower.|
+C The Vigilance of Tyr|QID|70503|QO|5|M|53.58,49.35|Z|2024|N|Kill the Obstructed Hornswog to free the Tarasek he is eating, then click the Terasek to get the Half Swallowed Sliver.|
+C The Vigilance of Tyr|QID|70503|QO|3|M|53.74,49.38|Z|2024|N|Kill and loot from Tarasek Scavengers for the Tarasek Pillaged Pieces.|US|
+T The Vigilance of Tyr.|QID|70503|M|53.88,50.70|Z|2024|N|To Naleidea Rivergleam.|
+A Next Steps|QID|66128|PRE|66814&70503&70507|M|53.88,50.70|Z|2024|N|From Naleidea Rivergleam.|
+R Dragonscale Basecamp|ACTIVE|66128|M|47.88,82.41|Z|2022|N|Head back to Dragonscale Basecamp to find Naleidea Rivergleam and finish up this storyline.|
+T Next Steps|QID|66128|M|47.25,82.41|Z|2022|N|Wait a bit while they talk, then turn in to Toddy Whiskers.|
 
 ; Ch 5|The Silver Purpose - |DFREN|Valdrakken;2510;12|
-A Ally of Dragons|QID|71184|N|From Herald Flaps who will find you when you have the reached renown 12 with Valdrakken.|
 t Ally of Dragons|QID|71184|M|58.12,34.89|Z|2112|N|To Alexstrasza at The Seat of the Aspects.|
 A The Gift of Silver|QID|67074|PRE|71184|M|58.12,34.89|Z|2112|N|From Alexstrasza the Life-Binder.|DFREN|Valdrakken;2510;12|
 C The Gift of Silver|QID|67074|QO|1;2|M|58.12,34.89|Z|2112|CHAT|N|Talk to Alexstrasza, then wait for the vignette to finish.|
