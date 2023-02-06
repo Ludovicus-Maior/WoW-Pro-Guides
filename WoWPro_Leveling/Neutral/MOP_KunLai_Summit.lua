@@ -10,7 +10,7 @@ N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time
 A The Road to Kun-Lai|QID|31254^31255|N|From Messenger Grummle at the foot of The Veiled Stair in Grassy Cline, Valley of the Four Winds.\n(Also available from other NPCs in Krasarang Wilds and Valley of the Four Winds)|M|70,23.57|Z|Valley of the Four Winds|RANK|2|
 C Speak with the Highroad Grummle|QID|31254^31255|CHAT|QO|1|M|70.08,23.47|Z|Valley of the Four Winds|N|Speak with the Highroad Grummle|RANK|2|
 R Path of a Hundred Steps|AVAILABLE|31286|Z|433;The Veiled Stair|N|Head on up the stairs to the Tavern in the Mists via the Path of a Hundred Steps.|M|53.79,87.25|RANK|2|
-R Tavern in the Mists|AVAILABLE|31286|Z|433;The Veiled StairN|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
+R Tavern in the Mists|AVAILABLE|31286|Z|433;The Veiled Stair|N|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
 f Tavern in the Mists|AVAILABLE|31286|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|RANK|2|
 l The Hammer of Folly|AVAILABLE|31286|M|68.53,79.00;74.83,76.39|CS|Z|The Veiled Stair|L|86473|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and a lot of XP when looted.|RANK|3|
 l Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and a lot of XP when looted.|RANK|3|

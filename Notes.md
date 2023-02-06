@@ -1,3 +1,25 @@
+# Release 2023.02.05.A
+## Bug Fixes
+* Fixed message spam for Recipe's and PRE&
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* World Events: Lunar Festival, DF Lunar Festival
+* Alliance: Twilight Highlands, Vashjir
+* Horde: Nazjatar, War Campaign, Azshara, Ghostlands, Intros for Belf, Forsakem, Orc/Troll, Tauren, WOLK Intro
+* Neutral: DF Campaign, KunLai Summit
+### Classic
+* No Classic guides were harmed during this release
+### WotLK
+* Alliance: Borean Tundra
+* World Events Horde: Love is in the Air, Lunar Festival
+### Professions
+* New DF Guide for Professions
+
 # Release 2023.01.25.A
 ## Bug Fixes
 * Update Retail interface to 100005
