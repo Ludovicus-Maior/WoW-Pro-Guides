@@ -977,10 +977,7 @@ T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunne
 A Battle of Dazar'alor|QID|54282|PRE|54280|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|  ; Offered by Princess Talanji not Nathanos, listed already in guide, added PRE from that line.
 C Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
 
-A Return to the Heart|QID|55522|PRE|56161|LEAD|55519|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|  ; pre is Back out to Sea--from Najzatar guide
-P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal to Silithus.|
-T Return to the Heart|QID|55522|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
-A A Fresh Trauma|QID|55519|PRE|56161|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.| ; removed 55522, changed to 56161 - unconfirmed PRE, but 55522 is not needed.
+N HoA level 54|AVAILABLE|55522&55519|PRE|56161|N|You need your Necklace to be a minimum of level 54 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 54.|
 A In Darkness, I Dream|QID|55390|PRE|56161|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos, after getting your necklace to 54.|  ; pre is Back out to Sea--from Najzatar guide
 P Zuldazar|ACTIVE|55390|M|41.60,45.19|Z|81;Silithus|TZ|Dazar'alor|N|Return to Zuldazar.|
 P Orgrimmar|ACTIVE|55390|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take Portal to Orgrimmar.|
@@ -1019,6 +1016,11 @@ A The Long Awake|QID|55398|PRE|55396|M|46.37,38.73|Z|The Emerald Dream!Instance|
 H The Great Seal|ACTIVE|55398|M|46.37,38.73|Z|The Emerald Dream!Instance|N|Hearth or Ask Merithra for a portal back to Val'Sharah.|
 P Orgrimmar|ACTIVE|55398|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Return to Zuldazar, (or Dalaran if you prefer that route) and then take Portal to Orgrimmar.|
 ;a fresh trauma
+N HoA level 55|AVAILABLE|55522&55519|PRE|56161|N|You need your Necklace to be a minimum of level 55 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 55.|
+A Return to the Heart|QID|55522|PRE|56161|LEAD|55519|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian.|  ; pre is Back out to Sea--from Najzatar guide
+P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+T Return to the Heart|QID|55522|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
+A A Fresh Trauma|QID|55519|PRE|56161|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.| ; removed 55522, changed to 56161 - unconfirmed PRE, but 55522 is not needed.
 P Mount Hyjal|ACTIVE|55519|M|51.18,38.29|Z|Orgrimmar|N|Take the Earthern Ring portal to Mount Hyjal or just fly up to there.|
 T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
 A Healing Nordrassil|QID|55520|PRE|55519|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|
