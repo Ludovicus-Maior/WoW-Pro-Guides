@@ -28,7 +28,7 @@ T Infusing the Heart|QID|52428|PRE|51211|M|50.13,53.67|Z|Chamber of Heart!Dungeo
 ;A A Brother's Help|QID|54938|PRE|52428|M|50.13,53.67|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|;Looks like this quest was removed in 8.2
 
 P Magni's Encampment|ACTIVE|54938|M|50.12,30.56|Z|Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
-P Hall of Ancient Paths|ACTIVE|54938|M|41.61,45.21|Z|81;Silithus|N|Click on the portal to travel back to Zuldazar.|
+P Zuldazar|ACTIVE|54938|M|41.61,45.21|Z|81;Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
 F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
 T A Brother's Help|QID|54938|M|57.88,50.46|Z|Nazmir|N|To Magni Bronzebeard.\n[color=FF0000]NOTE: [/color]Magni is southwest of your current location, between Zul'Nazman and Zal'amak.|
 A Stubborn as a Bronzebeard|QID|54939|M|57.89,50.48|Z|Nazmir|N|From Magni Bronzebeard.|
@@ -977,25 +977,30 @@ T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunne
 A Battle of Dazar'alor|QID|54282|PRE|54280|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|  ; Offered by Princess Talanji not Nathanos, listed already in guide, added PRE from that line.
 C Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
 
-N HoA level 54|AVAILABLE|55522&55519|PRE|56161|N|You need your Necklace to be a minimum of level 54 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 54.|
-A In Darkness, I Dream|QID|55390|PRE|56161|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos, after getting your necklace to 54.|  ; pre is Back out to Sea--from Najzatar guide
-P Zuldazar|ACTIVE|55390|M|41.60,45.19|Z|81;Silithus|TZ|Dazar'alor|N|Return to Zuldazar.|
+N HoA level 54|AVAILABLE|55390|PRE|56161|N|You need your Necklace to be a minimum of level 54 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 54.|
+P Magni's Encampment|AVAILABLE|55390|PRE|56161|M|73.80,85.65|Z|The Great Seal!Dazar'alor|N|Make your way back to The Great Seal and take the portal to Silithus.|
+P Chamber of Heart|AVAILABLE|55390|PRE|56161|M|43.20,44.49|Z|81;Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
+A In Darkness, I Dream|QID|55390|PRE|56161|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos.|
+P Magni's Encampment|ACTIVE|55390|M|50.03,30.46|Z|Chamber of Heart!Dungeon1473|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
+P Zuldazar|ACTIVE|55390|M|41.61,45.21|Z|81;Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
 P Orgrimmar|ACTIVE|55390|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take Portal to Orgrimmar.|
 P Azsuna|ACTIVE|55390|M|58.87,89.54|Z|Orgrimmar|N|Take the Portal to Azsuna.|
-F Garden of the Moon|ACTIVE|55390|M|44.60,43.86|Z|Azsuna|N|At Izal Whitemoon.|
-T In Darkness, I Dream|QID|55390|M|51.61,57.22|Z|Val'sharah|N|To Merithra of the Dream, in the Temple of Elune, in Val'Sharah.|
+f Illidari Stand|ACTIVE|55390|M|44.60,43.86|Z|Azsuna|N|From Izal Whitemoon.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+F Garden of the Moon|ACTIVE|55390|M|44.60,43.86|Z|Azsuna|N|At Izal Whitemoon.|TAXI|Garden of the Moon|FLY|OLD|
+f Garden of the Moon|ACTIVE|55390|M|56.74,57.72|Z|641;Val'sharah|N|From Brinlanya Moonstone.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+T In Darkness, I Dream|QID|55390|M|51.61,57.22|Z|Val'sharah|N|To Merithra of the Dream, inside the Temple of Elune, in Val'Sharah.|
 A Enter the Dreamway|QID|55392|PRE|55390|M|51.61,57.22|Z|Val'sharah|N|From Merithra of the Dream.|
 C Enter the Dreamway|QID|55392|M|51.61,57.22|Z|Val'sharah|CHAT|N|Speak with Merithra to Enter the Dreamway.|
 T Enter the Dreamway|QID|55392|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream.|
 A Shards of Emerald|QID|55394|PRE|55392|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream.|
 A Null the Void|QID|55393|PRE|55392|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream.|
 C Null the Void|QID|55393|M|44.18,46.55|Z|Emerald Dreamway!Instance1471|S|N|Kill Invaders as you head towards the other quest.|
-C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|S|NC|N|Pick up small glowing Emerald Shards.|
+C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|S|H|N|Pick up small glowing Emerald Shards.\n[color=FF0000]NOTE: [/color]You'll find them on the ground near the Drained Emerald Drakes.|
 A Don't Close Your Eyes|QID|55395|PRE|55392|M|27.07,55.86|Z|Emerald Dreamway!Instance1471|N|From Valithria Dreamwalker.|
-C Don't Close Your Eyes|QID|55395|QO|1|M|28.76,75.16|Z|Emerald Dreamway!Instance1471|NC|N|Awaken Thessera.|
-C Don't Close Your Eyes|QID|55395|M|43.98,50.25|Z|Emerald Dreamway!Instance1471|QO|2|NC|N|Awaken Verdisa.|
-C Don't Close Your Eyes|QID|55395|M|70.27,45.00|Z|Emerald Dreamway!Instance1471|QO|3|NC|N|Awaken Karkarius.|
-C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|US|NC|N|Pick up small glowing Emerald Shards.|
+C Don't Close Your Eyes|QID|55395|QO|1|M|28.76,75.16|Z|Emerald Dreamway!Instance1471|H|N|Awaken Thessera.|
+C Don't Close Your Eyes|QID|55395|QO|2|M|43.98,50.25|Z|Emerald Dreamway!Instance1471|H|N|Awaken Verdisa.|
+C Don't Close Your Eyes|QID|55395|QO|3|M|49.67,45.15;71.72,46.34|CS|Z|Emerald Dreamway!Instance1471|H|N|Awaken Karkarius.|
+C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|US|H|N|Pick up small glowing Emerald Shards.\n[color=FF0000]NOTE: [/color]You'll find them on the ground near the Drained Emerald Drakes.|
 C Null the Void|QID|55393|M|44.18,46.55|Z|Emerald Dreamway!Instance1471|US|N|Continue killing Void invaders until quest completes.|
 T Shards of Emerald|QID|55394|M|44.05,30.64|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream.|
 T Null the Void|QID|55393|M|44.05,30.64|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream.|
@@ -1008,33 +1013,41 @@ C Before I Wake|QID|55397|QO|1|M|52.58,70.05|Z|The Emerald Dream!Instance|N|Kill
 C Before I Wake|QID|55397|QO|2|M|50.93,59.21|Z|The Emerald Dream!Instance|N|Keep running in circles around the Void Horror, pausing briefly to get off another hit or spell.|
 T Before I Wake|QID|55397|M|46.53,39.64|Z|The Emerald Dream!Instance|N|To Merithra of the Dream.|
 A The Stuff Dreams Are Made Of|QID|55396|PRE|55397|M|46.53,39.64|Z|The Emerald Dream!Instance|N|From Merithra of the Dream.|
-C The Stuff Dreams Are Made Of|QID|55396|QO|1|M|51.22,47.17|Z|The Emerald Dream!Instance|NC|U|167831|N|Toss Shards in the lake.|
-C The Stuff Dreams Are Made Of|QID|55396|QO|2|M|44.05,41.32|Z|The Emerald Dream!Instance|NC|N|Wait for Merithra to complete the Reforging Ritual.|
-C The Stuff Dreams Are Made Of|QID|55396|QO|3|M|50.41,49.17|Z|The Emerald Dream!Instance|NC|N|Pick up the Reforged Dreamglow Dragonscale.|
+C The Stuff Dreams Are Made Of|QID|55396|QO|1|M|51.22,47.17|Z|The Emerald Dream!Instance|NC|U|167831|N|Toss the Shards into the lake.|
+C The Stuff Dreams Are Made Of|QID|55396|QO|2|M|50.41,49.17|Z|The Emerald Dream!Instance|N|Wait for Merithra to complete the Reforging Ritual.|
+C The Stuff Dreams Are Made Of|QID|55396|QO|3|M|50.41,49.17|Z|The Emerald Dream!Instance|H|N|Pick up the Reforged Dreamglow Dragonscale.|
 T The Stuff Dreams Are Made Of|QID|55396|M|46.37,38.73|Z|The Emerald Dream!Instance|N|To Merithra of the Dream.|
 A The Long Awake|QID|55398|PRE|55396|M|46.37,38.73|Z|The Emerald Dream!Instance|N|From Merithra of the Dream.|
-H The Great Seal|ACTIVE|55398|M|46.37,38.73|Z|The Emerald Dream!Instance|N|Hearth or Ask Merithra for a portal back to Val'Sharah.|
-P Orgrimmar|ACTIVE|55398|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Return to Zuldazar, (or Dalaran if you prefer that route) and then take Portal to Orgrimmar.|
+H The Great Seal|ACTIVE|55398|M|46.37,38.73|Z|The Emerald Dream!Instance|N|Hearth or ask Merithra for a portal back to Val'Sharah and skip this step.|
+F Dalaran|ACTIVE|55398|M|56.74,57.72|Z|641;Val'sharah|N|At Brinlanya Moonstone.|IZ|641;Val'sharah|
+P Orgrimmar|ACTIVE|55398|M|55.27,23.94|Z|627;Dalaran!Broken Isles|N|Take the Portal to Orgrimmar.|IZ|627;Dalaran!Broken Isles|
+P Zuldazar|ACTIVE|55398|M|58.56,91.33|Z|85;Orgrimmar|TZ|Hall of Ancient Paths|N|Take the Portal to Zuldazar.|IZ|85;Orgrimmar|
 ;a fresh trauma
 N HoA level 55|AVAILABLE|55522&55519|PRE|56161|N|You need your Necklace to be a minimum of level 55 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 55.|
-A Return to the Heart|QID|55522|PRE|56161|LEAD|55519|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian.|  ; pre is Back out to Sea--from Najzatar guide
-P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+A Return to the Heart|QID|55522|PRE|56161|LEAD|55519|M|50.37,41.80|Z|Dazar'alor|N|From Earthen Guardian standing just outside the door of the Great Seal.|  ; pre is Back out to Sea--from Najzatar guide
+P Silithus|ACTIVE|55398^55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+P Chamber of Heart|ACTIVE|55398^55522|M|43.20,44.49|Z|81;Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
+T The Long Awake|QID|55398|M|53.92,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra.|
 T Return to the Heart|QID|55522|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
 A A Fresh Trauma|QID|55519|PRE|56161|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.| ; removed 55522, changed to 56161 - unconfirmed PRE, but 55522 is not needed.
+P Magni's Encampment|ACTIVE|55519|M|50.12,30.56|Z|Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
+P Zuldazar|ACTIVE|55519|M|41.61,45.21|Z|81;Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
+P Orgrimmar|ACTIVE|55519|M|41.61,45.21|Z|81;Silithus|N|Click on the Portal to Orgrimmar.|
 P Mount Hyjal|ACTIVE|55519|M|51.18,38.29|Z|Orgrimmar|N|Take the Earthern Ring portal to Mount Hyjal or just fly up to there.|
 T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
 A Healing Nordrassil|QID|55520|PRE|55519|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|
 C Healing Nordrassil|QID|55520|M|60.71,25.84|Z|Mount Hyjal|N|Kill the Azerite Leviathan and other azerite mobs around the lake. You can also sooth fairy dragons and heal azerite wounds for quest credit.|
 T Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
 A Do It the Azerite Way|QID|55521|PRE|55520|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|
-H The Great Seal|ACTIVE|55521|M|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise travel to Silithus and the Chamber of Heart.|
-P Silithus|ACTIVE|55521|M|73.89,85.58|Z|The Great Seal!Dazar'alor|N|Travel to Silithus and then the Chamber of Heart.|
+H The Great Seal|ACTIVE|55521|M|62.03,24.92|Z|Mount Hyjal|N|Hearth back to Zandalar.|
+N HoA level 60|AVAILABLE|55522&55519|PRE|56161|N|You need your Necklace to be a minimum of level 60 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 60.|
+P Silithus|ACTIVE|55521|M|73.80,85.65|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal to Silithus.|
+P Chamber of Heart|ACTIVE|55521|M|43.20,44.49|Z|81;Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
 T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
-T The Long Awake|QID|55398|M|53.92,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra.|
 A Investigating the Highlands|QID|56167|PRE|55521|M|52.63,70.21|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. After your Necklace has reached Lvl 60.|
-P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|N|Travel by method of choice to Twilight Highlands.|
-P Dazar'alor|ACTIVE|56167|M|41.62,45.21|Z|81;Silithus|N|Travel by method of choice to Twilight Highlands.|
-P Orgrimmar|ACTIVE|56167|M|73.72,69.75|Z|The Great Seal!Dazar'alor|N|Travel by method of choice to Twilight Highlands.|
+P Magni's Encampment|ACTIVE|55519|M|50.12,30.56|Z|Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
+P Zuldazar|ACTIVE|55519|M|41.61,45.21|Z|81;Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
+P Orgrimmar|ACTIVE|55519|M|41.61,45.21|Z|81;Silithus|N|Click on the Portal to Orgrimmar.|
 P Twilight Highlands|ACTIVE|56167|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|
 T Investigating the Highlands|QID|56167|M|35.94,50.50|Z|Twilight Highlands|N|To Kalecgos.|
 A In the Shadow of Crimson Wings|QID|55657|PRE|56167|M|35.94,50.50|Z|Twilight Highlands|N|From Kalecgos.|
