@@ -11,12 +11,12 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Start in a capital city other than Stormwind...|QID|24804|LEAD|24655|N|The starter quests are at Darnassus, Exodar, and Ironforge Skip the ones for where you are not!|
-A Uncommon Scents|QID|24804|LEAD|24655|M|45.05,56.42|Z|Darnassus|N|From Junior Inspector, Darnassus|
-A Uncommon Scents|QID|24804|LEAD|24655|M|76.00,57.74|Z|The Exodar|N|From Junior Inspector, The Exodar|
-A Uncommon Scents|QID|24804|LEAD|24655|M|35.38,69.01|Z|Ironforge|N|From Junior Inspector, Ironforge|
+A Uncommon Scents|QID|24804|LEAD|24655|M|45.05,56.42|Z|Darnassus|N|From Junior Inspector, Darnassus|TZ|Darnassus|
+A Uncommon Scents|QID|24804|LEAD|24655|M|76.00,57.74|Z|The Exodar|N|From Junior Inspector, The Exodar|TZ|The Exodar|
+A Uncommon Scents|QID|24804|LEAD|24655|M|35.38,69.01|Z|Ironforge|N|From Junior Inspector, Ironforge|TZ|Ironforge|
 
-F Stormwind City|QID|24804|LEAD|24655|N|Now head to Stormwind City|
-T Uncommon Scents|QID|24804|LEAD|24655|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+F Stormwind City|QID|24804|ACTIVE|24655|N|Now head to Stormwind City|
+T Uncommon Scents|QID|24804|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
 A Something Stinks|QID|24655|M|61.50,75.29|Z|Stormwind City|N|From Inspector Snip Snagglebolt|
 C Heavily Perfumed Guards|QID|24655|Z|Stormwind City|U|50131|N|Find the guards with the clouds and use the analyzer|
@@ -49,7 +49,8 @@ T A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|From Public Relation
 T A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|From Public Relations Agent|
 T Bonbon Blitz|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 
-A Crushing the Crown|QID|24658^24659^24660^24662^24663^24664^24665^24666^28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+A Crushing the Crown|QID|24658^24659^24660^24662^24663^24664^24665^24666^28934^44558|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+C Crushing the Crown|QID|44558|M|43.9,72.4|Z|Silverpine Forest|N|Kill Crown Lackeys in Pyrewoord Villiage and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24658|M|29,65|Z|Elwynn Forest|N|Kill Crown Lackeys near Westbrook Garrison and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24659|M|42.4,79.4|Z|Darkshore|N|Kill Crown Thugs near Grove of the Ancients and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24660|M|76,53|Z|Duskwood|N|Kill Crown Dusters near Darkshire and blow up a a wagon.|U|50130|
