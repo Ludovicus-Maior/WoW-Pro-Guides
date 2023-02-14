@@ -337,6 +337,7 @@ DefineTag("REP","rep","string",nil,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("SPELL","spell","string",nil,nil)
 DefineTag("TAXI","taxi","string",nil,nil)
+DefineTag("HOA","hoa","string",nil,nil)
 
 -- Pet Stuff
 DefineTag("DEAD","dead","string",nil,nil)
