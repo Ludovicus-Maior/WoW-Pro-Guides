@@ -4,8 +4,8 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
-R Rebel Camp|QID|26732|M|48.95,13.55|N|Northern Stranglethorn is to the south of Duskwood. You can obtain one of two breadcrumbs into this zone, Rebels Without a Clue is offered by Sentinel Velene Starstrike at the Stardust Spire in Ashenvale, and from Sister Elsington in Raven Hill, Duskwood.  Alternatively, in-level players can obtain the Hero's Call from Stormwind City.\n\nOnce you have one of these two, head to the Rebel Camp.|
-f Rebel Camp|QID|26740|M|47.87,11.86|N|At James Stillair.|TAXI|-Rebel Camp|
+R Rebel Camp|AVAILABLE|26732|M|48.95,13.55|N|Northern Stranglethorn is to the south of Duskwood. You can obtain one of two breadcrumbs into this zone, Rebels Without a Clue is offered by Sentinel Velene Starstrike at the Stardust Spire in Ashenvale, and from Sister Elsington in Raven Hill, Duskwood.  Alternatively, in-level players can obtain the Hero's Call from Stormwind City.\n\nOnce you have one of these two, head to the Rebel Camp.|
+f Rebel Camp|AVAILABLE|26740|M|47.87,11.86|N|At James Stillair.|TAXI|-Rebel Camp|
 T Rebels Without a Clue|QID|26838|M|47.57,10.25|N|To Lieutenant Doren.|
 T Hero's Call: Northern Stranglethorn!|QID|28699|M|47.57,10.25|N|To Lieutenant Doren.|
 A The Fate of Kurzen|QID|26735|M|47.57,10.25|N|From Lieutenant Doren.|
@@ -14,7 +14,7 @@ C Bad Medicine|QID|26732|M|57.85,20.58|N|Kill and loot Kurzen mobs for the Jungl
 C The Fate of Kurzen|QID|26735|M|57.65,21.21|N|The Record and the Dossiers can be found lying about anywhere within Kurzen's Compound, around the campfire is normally a good place to find them.|NC|
 C Bad Medicine|QID|26732|M|57.85,20.58|N|Finish killing and looting Kurzen mobs for the Jungle Remedies.|US|
 A Just Hatched|QID|26738|M|57.85,20.58|N|UI ALert. You receive this when you get your last Jungle Remedy.\nLoot a Lashtail Raptor Egg Fragment.|PRE|28855|
-R Rebel Camp|QID|26732|M|48.16,24.35;47.56,11.49|CC|N|Head back to the Rebel Camp.|FLY|WOD|
+R Rebel Camp|QID|26732|M|48.16,24.35;47.56,11.49|CC|N|Head back to the Rebel Camp.|FLY|OLD|
 T Bad Medicine|QID|26732|M|47.24,11.10|N|To Brother Nimetz.|
 A Control Sample|QID|26733|M|47.24,11.10|N|From Brother Nimetz.|PRE|26732|
 T The Fate of Kurzen|QID|26735|M|47.57,10.25|N|To Lieutenant Doren.|
@@ -22,7 +22,7 @@ A Spared from Madness|QID|26736|M|47.57,10.25|N|From Lieutenant Doren.|PRE|26735
 T Just Hatched|QID|26738|M|46.98,10.84|N|To Corporal Sethman.|
 A I Think She's Hungry|QID|26739|M|46.98,10.84|N|From Corporal Sethman.|PRE|26738|
 A Krazek's Cookery|QID|26740|M|47.10,10.70|N|From Corporal Kaleb.|
-R Nesingwary's Expedition|QID|583|M|49.33,14.39;50.51,19.15;47.35,25.75;44.16,22.61|CS|N|Head to Nesingwary's Expedition.|FLY|WOD|
+R Nesingwary's Expedition|QID|583|M|49.33,14.39;50.51,19.15;47.35,25.75;44.16,22.61|CS|N|Head to Nesingwary's Expedition.|FLY|OLD|
 A Welcome to the Jungle|QID|583|M|44.24,22.13|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|44.18,22.97|N|To Hemet Nesingwary Jr. He paths between the fire and the table.|
 A Raptor Hunting|QID|194|M|44.18,22.97|N|From Hemet Nesingwary Jr.|PRE|583|
@@ -57,7 +57,7 @@ A Excelsior|QID|26345|M|43.62,23.42|N|From Drizzlik.|PRE|26344|
 T Venture Company Mining|QID|26763|M|43.60,23.14|N|To Krazek.|
 A Return to Corporal Kaleb|QID|26765|M|43.60,23.14|N|From Krazek.|PRE|26763|
 T Return to Corporal Kaleb|QID|26765|M|47.10,10.70|N|To Corporal Kaleb at the Rebel camp.|
-R Kurzen's Compound|ACTIVE|26736|M|56,20|N|Goto Kurzen's Outpost.|FLY|WOD|
+R Kurzen's Compound|ACTIVE|26736|M|56,20|N|Goto Kurzen's Outpost.|FLY|OLD|
 C Spared from Madness|QID|26736|M|56.50,20.28|N|Top floor of this building, click on the cage to free them.|NC|
 C I Think She's Hungry|QID|26739|M|63.22,22.16|N|Kill a Basilisk and let the your Raptor eat it.|U|58165|S|
 C Control Sample|QID|26733|M|63.22,22.16|N|Kill and loot Crystal Spine Basilisk.\n[color=FF0000]NOTE: [/color]Make sure you loot before you raptor eats it all.|
@@ -83,7 +83,7 @@ A Favored Skull|QID|26745|M|33.61,36.74|N|From Lashtail Hatchling.|PRE|26736&267
 C Raptor Stalking|QID|195|M|38.44,43.24|N|Kill Lashtail Raptors until you are done this quest.|
 T Raptor Stalking|QID|195|M|38.46,43.58|N|(UI Alert)|
 A Raptor Prowess|QID|196|M|38.46,43.58|N|(UI Alert)|PRE|195|O|
-R The Stockpile|ACTIVE|26737|M|60.08,17.91|N|The cave at Kurzen's Compound.|FLY|WOD|
+R The Stockpile|ACTIVE|26737|M|60.08,17.91|N|The cave at Kurzen's Compound.|FLY|OLD|
 C The Source of the Madness|QID|26734|M|62.73,17.60|N|Drops off of Kurzen's men in the cave.|S|
 K Chief Anders|QID|26737|M|63.78,16.73|QO|1|N|Kill Chief Anders.|
 K Chief Gaulus|QID|26737|M|62.39,14.14|QO|2|N|Kill Chief Gaulus.|
@@ -97,7 +97,7 @@ A A Nose for This Sort of Thing|QID|26746|M|47.13,10.56|N|From Osborn Obnoticus.
 T Stopping Kurzen's Legacy|QID|26737|M|47.58,10.25|N|To Lieutenant Doren.|
 A Water Elementals|QID|26729|M|47.67,10.34|N|From Emerine Junis.|PRE|26736|
 A Bloodscalp Insight|QID|26742|M|47.98,12.01|N|From Berrin Burnquill.|PRE|26736|
-R Nesingwary's Expedition|ACTIVE|188|M|44.16,22.61|N|Head over to Nesingwary's Expedition.|FLY|WOD|
+R Nesingwary's Expedition|ACTIVE|188|M|44.16,22.61|N|Head over to Nesingwary's Expedition.|FLY|OLD|
 T Tiger Mastery|QID|188|M|44.50,22.67|N|To Ajeck Rouack.|
 C A Nose for This Sort of Thing|QID|26746|M|41.27,29.08|N|Stay close to your Lashtail Hatchling as he runs around digging up the fetishes to complete the quest.|U|58165|
 C Bloodscalp Insight|QID|26742|M|33.63,36.38|N|Kill the shamans and loot the totem.|
@@ -119,16 +119,16 @@ T Panther Prowess|QID|192|M|62.49,48.16|N|(UI Alert)|
 A Panther Mastery|QID|193|M|62.49,48.16|N|(UI Alert)|PRE|192|O|
 K Bhag'thera|ACTIVE|193|M|65.99,43.29;65.51,36.82;32.95,49.91|CN|QO|1|N|Kill Bhag'thera and loot his fang. He is somewhere between the waypoints.|T|Bhag'thera|
 K Tethis|ACTIVE|197|M|60.44,61.49|QO|1|N|Kill Tethis and loot his talon. He can be anywhere in this area.|T|Tethis|
-R Fort Livingston|QID|197|M|52.66,66.18|N|Head to Fort Livingston.|FLY|WOD|
-f Fort Livingston|QID|197|M|52.66,66.18|N|At Robert Rhodes.|TAXI|-Fort Livingston|
-h Fort Livingston|QID|197|M|53.21,66.92|N|From Livingston Marshal.|
-F Rebel Camp|QID|197|M|52.66,66.18|N|At Robert Rhodes.|FLY|WOD|
+R Fort Livingston|ACTIVE|197|M|52.66,66.18|N|Head to Fort Livingston.|FLY|OLD|
+f Fort Livingston|ACTIVE|197|M|52.66,66.18|N|At Robert Rhodes.|TAXI|-Fort Livingston|
+h Fort Livingston|ACTIVE|197|M|53.21,66.92|N|From Livingston Marshal.|
+F Rebel Camp|QID|197|M|52.66,66.18|N|At Robert Rhodes.|FLY|OLD|
 T Bloodscalp Insight|QID|26742|M|47.92,12.02|N|To Berrin Burnquill.|
 A Sacred to the Bloodscalp|QID|26743|M|47.92,12.02|N|From Berrin Burnquill.|PRE|26742|
 T A Nose for This Sort of Thing|QID|26746|M|47.16,10.61|N|To Osborn Obnoticus.|
 A A Physical Specimen|QID|26747|M|47.16,10.61|N|From Osborn Obnoticus.|PRE|26746|
 A Population Con-Troll|QID|26751|M|47.46,10.69|N|From Sergeant Yohwa.|PRE|26746|
-R Nesingwary's Expedition|QID|197|M|44.16,22.61|N|Head to Nesingwary's Expedition.|FLY|WOD|
+R Nesingwary's Expedition|QID|197|M|44.16,22.61|N|Head to Nesingwary's Expedition.|FLY|OLD|
 T Panther Mastery|QID|193|M|43.72,22.29|N|To Sir S. J. Erlgadin.|
 T Raptor Mastery|QID|197|M|44.18,22.97|N|To Hemet Nesingwary Jr.|
 A Big Game Hunter|QID|208|M|44.18,22.97|N|From Hemet Nesingwary Jr.|PRE|188&193&197|
@@ -138,14 +138,14 @@ C Sacred to the Bloodscalp|QID|26743|M|37.30,25.57|N|Kill the Bloodscalp Trolls 
 C Population Con-Troll|QID|26751|M|26.74,21.82|N|Kill Bloodscalps Trolls in the area until the quest is completed.|S|
 K Gan'Zulah|ACTIVE|26747|M|24.92,18.27|QO|1|N|Kill Gan'Zulah and loot his body.|T|Gan'Zulah|U|58165|
 C Population Con-Troll|QID|26751|M|26.74,21.82|N|Kill Bloodscalps Trolls in the area until the quest is completed.|US|
-R Rebel Camp|QID|26743|M|47.56,11.49|N|Head back to the Rebel Camp.|FLY|WOD|
+R Rebel Camp|QID|26743|M|47.56,11.49|N|Head back to the Rebel Camp.|FLY|OLD|
 T Sacred to the Bloodscalp|QID|26743|M|47.87,12.12|N|To Berrin Burnquill.|
 T Population Con-Troll|QID|26751|M|47.44,10.75|N|To Sergeant Yohwa.|
 T A Physical Specimen|QID|26747|M|47.21,10.64|N|To Osborn Obnoticus.|
 A Bloodlord Mandokir|QID|26748|M|47.21,10.64|N|From Bloodlord Mandokir.|PRE|26747|
 T Bloodlord Mandokir|QID|26748|M|47.24,10.75|N|To Bloodlord Mandokir.|
 A Priestess Thaalia|QID|26749|M|47.23,10.70|N|From Osborn Obnoticus.|PRE|26748|
-F Fort Livingston|QID|26749|M|47.86,11.87|N|Fly to Fort Livingston.|FLY|WOD|
+F Fort Livingston|QID|26749|M|47.86,11.87|N|Fly to Fort Livingston.|FLY|OLD|
 T Priestess Thaalia|QID|26749|M|53.40,66.74|N|To Priestess Thaalia.|
 A Mind Vision|QID|26772|M|53.40,66.74|N|From Priestess Thaalia.|PRE|26749|
 A The Mosh'Ogg Bounty|QID|26782|M|53.31,66.38|N|From Wulfred Harrys.|
@@ -153,9 +153,9 @@ A To the Cape!|QID|26805|M|53.31,66.38|N|From Wulfred Harrys.|
 A The Mind's Eye|QID|26781|M|53.28,66.79|N|From Livingston Marshal.|
 K King Bangalash|ACTIVE|208|M|47.79,58.84|QO|1|N|Kill King Bangalash and loot his head. He is usually on top of the mound here.|T|King Bangalash|
 C Mind Vision|QID|26772|M|53.54,47.21|N|Kill Jungle Stalkers here and loot their feathers until the quest is complete.|
-C The Mosh'Ogg Bounty|QID|26782|M|67.16,54.03|N|Make your way here and loot the Bounty.|
+C The Mosh'Ogg Bounty|QID|26782|M|67.16,54.03|NC|N|Make your way here and loot the Bounty.|
 C The Mind's Eye|QID|26781|M|66.68,49.15;70.74,48.54|CS|N|Kill Mai'Zoth and loot the Mind's Eye. He is all the way in the back of the cave.|
-H Fort Livingston|QID|26781|N|Hearth to Fort Livingston.|
+H Fort Livingston|ACTIVE|26781|M|52.78,66.47|N|Hearth to Fort Livingston.|
 T The Mind's Eye|QID|26781|M|53.28,66.79|N|To Livingston Marshal.|
 T Mind Vision|QID|26772|M|53.37,66.81|N|To Priestess Thaalia.|
 A See Raptor|QID|26773|M|53.37,66.81|N|From Priestess Thaalia.|PRE|26772|
@@ -165,17 +165,17 @@ A Mind Control|QID|26774|M|53.40,66.75|N|From Priestess Thaalia.|PRE|26773|
 T The Mosh'Ogg Bounty|QID|26782|M|53.32,66.31|N|To Wulfred Harrys.|
 A Nighttime in the Jungle|QID|26780|M|53.32,66.31|N|From Kinnel. He walks around the camp.|PRE|26773|
 A Zul'Mamwe Mambo|QID|26779|M|52.71,66.72|N|From Ghaliri.|PRE|26773|
-F Rebel Camp|QID|26779|M|52.63,66.1|N|Fly to the Rebel Camp.|FLY|WOD|
-R Nesingwary's Expedition|QID|208|M|44.16,22.61|N|Head back over to Nesingwary's Expedition.|FLY|WOD|
+F Rebel Camp|QID|26779|M|52.63,66.1|N|Fly to the Rebel Camp.|FLY|OLD|
+R Nesingwary's Expedition|QID|208|M|44.16,22.61|N|Head back over to Nesingwary's Expedition.|FLY|OLD|
 T Big Game Hunter|QID|208|M|44.18,22.97|N|To Hemet Nesingwary Jr.|
 r Sell, Repair|QID|26743|M|43.68,23.24|N|To Jaquilina Dramet.|
-R Rebel Camp|QID|26779|M|47.56,11.49|N|Run back to the Rebel Camp.|FLY|WOD|
-F Fort Livingston|QID|26779|M|47.86,11.87|N|Fly to Fort Livingston.|FLY|WOD|
+R Rebel Camp|QID|26779|M|47.56,11.49|N|Run back to the Rebel Camp.|FLY|OLD|
+F Fort Livingston|QID|26779|M|47.86,11.87|N|Fly to Fort Livingston.|FLY|OLD|
 C Zul'Mamwe Mambo|QID|26779|M|59.77,72.01|N|Kill 16 Skullsplitter Trolls.|S|
-C Nighttime in the Jungle|QID|26780|M|58.10,73.17|N|Extinguish 8 Zul'Mamwe Braziers.|S|
+C Nighttime in the Jungle|QID|26780|M|58.10,73.17|NC|N|Extinguish 8 Zul'Mamwe Braziers.|S|
 K Braddok|ACTIVE|26774|M|55.45,65.51;62.45,74.59|CS|QO|1|N|Use the trail here to get up to the ruins. Kill Braddok and loot his brain.|T|Braddok|
 C Zul'Mamwe Mambo|QID|26779|M|59.77,72.01|N|Kill 16 Skullsplitter Trolls.|US|
-C Nighttime in the Jungle|QID|26780|M|58.10,73.17|N|Extinguish 8 Zul'Mamwe Braziers.|US|
+C Nighttime in the Jungle|QID|26780|M|58.10,73.17|NC|N|Extinguish 8 Zul'Mamwe Braziers.|US|
 T Zul'Mamwe Mambo|QID|26779|M|52.70,66.70|N|To Ghaliri.|
 T Nighttime in the Jungle|QID|26780|M|52.82,66.43|N|To Kinnel.|
 T Mind Control|QID|26774|M|53.35,66.64|N|To Priestess Thaalia.|
@@ -187,6 +187,6 @@ C Be Raptor|QID|26775|QO|4|M|73.62,32.88|N|Finally, time to escape Zul'Gurub. To
 T Be Raptor|QID|26775|M|53.40,66.75|N|To Priestess Thaalia.|
 A Ghaliri|QID|26776|M|53.40,66.75|N|From Priestess Thaalia.|PRE|26775|
 T Ghaliri|QID|26776|M|52.75,66.77|N|To Ghaliri.|
-F Explorers' League Digsite|QID|26805|N|Speak to Robert Rhodes and tell him you are ready to fly to the Explorers' League Digsite.|FLY|WOD|
+F Explorers' League Digsite|QID|26805|N|Speak to Robert Rhodes and tell him you are ready to fly to the Explorers' League Digsite.|FLY|OLD|
 ]]
 end)

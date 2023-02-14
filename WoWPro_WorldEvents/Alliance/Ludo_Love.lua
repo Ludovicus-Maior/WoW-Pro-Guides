@@ -10,10 +10,10 @@ WoWPro:GuideIcon(guide,"ACH",1695)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Start in a capital city other than Stormwind...|QID|24804|LEAD|24655|N|The starter quests are at Darnassus, Exodar, and Ironforge Skip the ones for where you are not!|
-A Uncommon Scents|QID|24804|LEAD|24655|M|45.05,56.42|Z|Darnassus|N|From Junior Inspector, Darnassus|TZ|Darnassus|
-A Uncommon Scents|QID|24804|LEAD|24655|M|76.00,57.74|Z|The Exodar|N|From Junior Inspector, The Exodar|TZ|The Exodar|
-A Uncommon Scents|QID|24804|LEAD|24655|M|35.38,69.01|Z|Ironforge|N|From Junior Inspector, Ironforge|TZ|Ironforge|
+N Start in a capital city other than Stormwind...|QID|24804|LEAD|24655|N|The starter quests are at Darnassus, Exodar, and Ironforge.|
+A Uncommon Scents|QID|24804|LEAD|24655|M|76.00,57.74|Z|The Exodar|N|From Junior Inspector, The Exodar|IZ|103;Exodar|
+A Uncommon Scents|QID|24804|LEAD|24655|M|45.05,56.42|Z|Darnassus|N|From Junior Inspector, Darnassus|IZ|89;Darnassus|
+A Uncommon Scents|QID|24804|LEAD|24655|M|35.38,69.01|Z|Ironforge|N|From Junior Inspector, Ironforge|IZ|87;Ironforge|
 
 F Stormwind City|QID|24804|ACTIVE|24655|N|Now head to Stormwind City|
 T Uncommon Scents|QID|24804|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
@@ -60,8 +60,9 @@ C Crushing the Crown|QID|24664|M|63.53,49.29|Z|Winterspring|N|Kill Crown Sprinkl
 C Crushing the Crown|QID|24665|M|41.48,22.46|Z|Terokkar Forest|N|Kill Crown Underlings near Shattrath City and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24666|M|46,40|Z|Crystalsong Forest|N|Kill Crown Sprayers near Dalaran and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|28934|M|66.58,19.65|Z|Uldum|N|Kill Crown Technicians near the Tomb of Khartut and blow up a a wagon.|U|50130|
+C Crushing the Crown|QID|44558|M|66.58,19.65|Z|Uldum|N|Kill Crown Chemical Co. Employees near the Shadowfang Keep and blow up a wagon.|U|50130|
 l Gifts for the Alliance|L|49655 40|N|If you are going to present gifts to all the leaders of the Alliance, you need 40 lovely charms.  Mobs that are closer in level to you drop more frequently.  If people get annoyed at you farming the Crown NPCs, just kill anything that spawns fast and is close to your level.|
-T Crushing the Crown|QID|24658^24659^24660^24662^24663^24664^24665^24666^28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+T Crushing the Crown|QID|24658^24659^24660^24662^24663^24664^24665^24666^28934^44558|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
 A A Gift for the King of Stormwind|QID|24597|M|62.55,74.96|Z|Stormwind City|N|From Kwee Q. Peddlefeet.|
 l Lovely Charm Bracelet|QID|24597|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the King of Stormwind.|
