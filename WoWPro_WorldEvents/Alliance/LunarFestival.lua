@@ -98,7 +98,7 @@ R Follow the waypoints|N|To get into Blackrock Depths instance.|CS|QID|8619|M|18
 A Morndeep the Elder|N|From Morndeep the Elder at the ring of the law.|QID|8619|M|50.55,62.90|Z|Detention Block@BlackrockDepths|RANK|2|
 R Searing Gorge|N|Head out of the instance, and run North to Searing Gorge.|QID|8651|M|34.56,83.46|Z|Searing Gorge|RANK|2|
 A Ironband the Elder|N|From Ironband the Elder.|QID|8651|M|21.29,79.11|Z|Searing Gorge|
-F Thelsamar|N|Fly to Thelsamar.|QID|8642|M|17.79,52.77|Z|Burning Steppes|
+F Thelsamar|N|Fly to Thelsamar.|QID|8642|M|41.06,68.79|Z|Searing Gorge|
 A Silvervein the Elder|N|From Silvervein the Elder.|QID|8642|M|33.32,46.54|Z|Loch Modan|
 F Kharanos|N|Fly to Kharanos.|QID|8653|M|33.93,50.93|Z|Loch Modan|
 A Goldwell the Elder|N|From Goldwell the Elder.|QID|8653|M|53.90,49.91|Z|Dun Morogh|
