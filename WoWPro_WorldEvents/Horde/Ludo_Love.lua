@@ -49,7 +49,10 @@ T A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|M|53.05,77.15|N|To Public Rela
 T Bonbon Blitz|QID|24636|M|53.05,77.15|Z|Orgrimmar|N|To Public Relations Agent|
 
 A Crushing the Crown|QID|24638^24645^24647^24648^24649^24650^24651^24652^28935|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
-
+A Follow the Recipe|QID|44559|M|45.25,73.85|Z|Silverpine Forest|N|From a parchment on the ground.|IZ|21;Silverpine|
+C Pyrewood Chapel|QID|44559|M|46.27,73.51|Z|Silverpine Forest|QO|1|N|Upstairs and turn right.|
+C Pyrewood Inn|QID|44559|M|45.14,71.53|Z|Silverpine Forest|QO|2|N|To the left of the smaller inn, in the back by the tables.|
+C By the Coast|QID|44559|M|42.72,71.13|Z|Silverpine Forest|QO|3|N|On the ground in the packing area, near two boxes by the rocks.|
 C Crushing the Crown|QID|24638|M|40.30,13.45|Z|Durotar|N|Kill Crown Lackeys near Orgrimmar's gates and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24645|M|55.28,61.60|Z|Silverpine Forest|N|Kill Crown Thugs near The Forsaken Front and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24647|M|34.69,58.22|Z|Hillsbrad Foothills|N|Kill Crown Dusters near Southpoint Gate and blow up a a wagon.|U|50130|
@@ -61,6 +64,7 @@ C Crushing the Crown|QID|24652|M|46,40|Z|Crystalsong Forest|N|Kill Crown Sprayer
 C Crushing the Crown|QID|28935|M|66.58,19.65|Z|Uldum|N|Kill Crown Technician near the Tomb of Khartut and blow up a a wagon.|U|50130|
 l Gifts for the Horde|QID|24638^24645^24647^24648^24649^24650^24651^24652^24638^28935|L|49655 40|N|If you are going to present gifts to all the leaders of the Horde, you need 40 lovely charms.  Mobs that are closer in level to you drop more frequently.  If people get annoyed at you farming the Crown NPCs, just kill anything that spawns fast and is close to your level.|
 T Crushing the Crown|QID|24638^24645^24647^24648^24649^24650^24651^24652^24638^28935|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
+T Follow the Recipe|QID|44559|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
 A A Gift for the Warchief|QID|24612|M|52.99,76.81|Z|Orgrimmar|N|From Kwee Q. Peddlefeet, between the AH and Inn.|
 l Lovely Charm Bracelet|QID|24612|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the Warchief.|

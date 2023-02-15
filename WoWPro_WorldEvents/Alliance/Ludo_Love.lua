@@ -50,6 +50,10 @@ T A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|From Public Relations A
 T Bonbon Blitz|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 
 A Crushing the Crown|QID|24658^24659^24660^24662^24663^24664^24665^24666^28934^44558|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+A Follow the Recipe|QID|44560|M|45.25,73.85|Z|Silverpine Forest|N|From a parchment on the ground.|IZ|21;Silverpine|
+C Pyrewood Chapel|QID|44560|M|46.27,73.51|Z|Silverpine Forest|QO|1|N|Upstairs and turn right.|
+C Pyrewood Inn|QID|44560|M|45.14,71.53|Z|Silverpine Forest|QO|2|N|To the left of the smaller inn, in the back by the tables.|
+C By the Coast|QID|44560|M|42.72,71.13|Z|Silverpine Forest|QO|3|N|On the ground in the packing area, near two boxes by the rocks.|
 C Crushing the Crown|QID|44558|M|43.9,72.4|Z|Silverpine Forest|N|Kill Crown Lackeys in Pyrewoord Villiage and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24658|M|29,65|Z|Elwynn Forest|N|Kill Crown Lackeys near Westbrook Garrison and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24659|M|42.4,79.4|Z|Darkshore|N|Kill Crown Thugs near Grove of the Ancients and blow up a a wagon.|U|50130|
@@ -63,10 +67,11 @@ C Crushing the Crown|QID|28934|M|66.58,19.65|Z|Uldum|N|Kill Crown Technicians ne
 C Crushing the Crown|QID|44558|M|66.58,19.65|Z|Uldum|N|Kill Crown Chemical Co. Employees near the Shadowfang Keep and blow up a wagon.|U|50130|
 l Gifts for the Alliance|L|49655 40|N|If you are going to present gifts to all the leaders of the Alliance, you need 40 lovely charms.  Mobs that are closer in level to you drop more frequently.  If people get annoyed at you farming the Crown NPCs, just kill anything that spawns fast and is close to your level.|
 T Crushing the Crown|QID|24658^24659^24660^24662^24663^24664^24665^24666^28934^44558|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+T Follow the Recipe|QID|44560|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
-A A Gift for the King of Stormwind|QID|24597|M|62.55,74.96|Z|Stormwind City|N|From Kwee Q. Peddlefeet.|
+A A Gift for the Emissary of Stormwind|QID|24597|M|62.55,74.96|Z|Stormwind City|N|From Kwee Q. Peddlefeet.|
 l Lovely Charm Bracelet|QID|24597|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the King of Stormwind.|
-T A Gift for the King of Stormwind|QID|24597|M|85.79,31.69|Z|Stormwind City|N|To King Varian Wrynn.|
+T A Gift for the Emissary of Stormwind|QID|24597|M|85.79,31.69|Z|Stormwind City|N|To King Varian Wrynn.|
 A A Gift for a Lord of Ironforge|QID|24609|M|33.60,65.56|Z|Ironforge|N|From Kwee Q. Peddlefeet.|
 l Lovely Charm Bracelet|QID|24597|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the Lord of Ironforge.|
 T A Gift for a Lord of Ironforge|QID|24609|M|39.15,56.14|Z|Ironforge|N|To Muradin Bronzebeard.|
