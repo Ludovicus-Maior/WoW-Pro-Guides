@@ -25,9 +25,9 @@ A Reignite the Wards|QID|37658|PRE|44137^38834|M|43.15,43.60|N|From Jace Darkwea
 K Kill Ravyn-Drath|QID|37537|QO|1|M|41.14,41.89|T|Ravyn-Drath|ITEM|129080|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Demon Souls|QID|37653|U|122100|QO|1|M|41.58,44.85|S|N|Kill demons as you go and use the gem to trap their souls.|
 C The Price of Power|QID|39935|M|41.58,44.85|S|N|And kill more demons to learn the glyph.|P|Inscription;773;6|
-C Reignite the Wards|QID|37658|QO|3|M|42.20,43.32|NC|N|Click the North Ward to reignite.|
-C Reignite the Wards|QID|37658|QO|2|M|41.86,44.89|NC|N|Click the West Ward to reignite.|
-C Reignite the Wards|QID|37658|QO|1|M|42.24,46.42|NC|N|Click the South Ward to reignite.|
+C Reignite the Wards|QID|37658|QO|3|M|42.20,43.32|H|N|Click the North Ward to reignite.|
+C Reignite the Wards|QID|37658|QO|2|M|41.86,44.89|H|N|Click the West Ward to reignite.|
+C Reignite the Wards|QID|37658|QO|1|M|42.24,46.42|H|N|Click the South Ward to reignite.|
 C The Price of Power|QID|39935|M|41.58,44.85|US|N|And kill more demons to learn the glyph.|P|Inscription;773;6|
 C Demon Souls|QID|37653|U|122100|QO|1|M|42.24,46.42|N|Finish up killing demons and use the gem to trap their souls.|US|
 T Reignite the Wards|QID|37658|M|43.14,43.60|N|To Jace Darkweaver.|
@@ -37,13 +37,13 @@ A Scribal Knowledge|QID|39939|M|43.29,43.16|N|From Allari the Souleater.|P|Inscr
 A Inscription of the Body|QID|39936|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773;6|PRE|39935|
 A The Scythe of Souls|QID|37660|PRE|37653|M|43.28,43.16|N|From Allari the Souleater.|
 C The Scythe of Souls|QID|37660|QO|1|M|44.38,44.63|N|Chat with Allari, Tell her you are ready.|CHAT|
-C The Scythe of Souls|QID|37660|QO|2|M|44.56,44.73|N|Click on the crystal to release the demon soul.|NC|
+C The Scythe of Souls|QID|37660|QO|2|M|44.56,44.73|N|Click on the crystal to release the demon soul.|H|
 C The Scythe of Souls|QID|37660|QO|3|M|44.56,44.73|N|Wait a moment for the dialog.|NC|
-C The Scythe of Souls|QID|37660|QO|4|M|44.23,44.84|N|Click on the crystal to release the demon soul.|NC|
+C The Scythe of Souls|QID|37660|QO|4|M|44.23,44.84|N|Click on the crystal to release the demon soul.|H|
 C The Scythe of Souls|QID|37660|QO|5|M|44.35,44.73|N|Wait a moment for the dialog.|NC|
-C The Scythe of Souls|QID|37660|QO|6|M|44.40,44.69|N|Click on the crystal to enter.|NC|
+C The Scythe of Souls|QID|37660|QO|6|M|44.40,44.69|N|Click on the crystal to enter.|H|
 C The Scythe of Souls|QID|37660|QO|7|M|44.40,44.69|N|Fight Arev'naal.|T|Questioner Arev'naal|
-C The Scythe of Souls|QID|37660|QO|8|M|44.26,44.14|N|Click on the crystal to leave.|NC|
+C The Scythe of Souls|QID|37660|QO|8|M|44.26,44.14|N|Click on the crystal to leave.|H|
 C The Scythe of Souls|QID|37660|QO|9|M|43.38,43.36|N|Meet back up with Allari|NC|
 T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
 A From Within|QID|36920^44140^40815|PRE|37660^40375^40374^37658|M|43.56,43.46|N|From Kayn Sunfury / Altruis the Sufferer.|
@@ -55,8 +55,8 @@ C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|S|US|N|Kill demons and
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
 C Saving Stellagosa|QID|37450|QO|2|M|40.48,56.36|N|Kill and Loot Lykill to get the key to Stellagosa's bonds.|T|Overseer Lykill|
 $ Treasure Chest|QID|38316|M|40.57,57.66|N|Loot for a bit of treasure and resources.|RANK|2|
-C Saving Stellagosa|QID|37450|QO|3|M|38.23,57.60;38.01,58.35;37.69,57.62|CN|NC|N|Click on the locks to free Stellagosa.|
-C Fel Machinations|QID|37656|M|40.05,48.80|N|Free the prisoners as you go.|
+C Saving Stellagosa|QID|37450|QO|3|M|38.23,57.60;38.01,58.35;37.69,57.62|CN|H|N|Click on the locks to free Stellagosa.|
+C Fel Machinations|QID|37656|M|40.05,48.80|H|N|Free the prisoners as you go.|
 $ Cache of Infernals|QID|38037|M|35.38,50.37|N|Silver - Click on the pile of rocks to start spawning infernals, 3rd wave is the silver.|RANK|2|
 K Kill Ragemaw|QID|44108|QO|1|M|32.57,48.74|ITEM|129075|T|Ragemaw|N|Silver - Kill and loot for some treasure and resources.|RANK|2|RARE|
 t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon completion.|
@@ -94,17 +94,17 @@ A Agapanthus|QID|37991|PRE|37853|M|47.99,27.13|N|From Emmigosa.|
 C Agapanthus|QID|37991|NC|M|48.77,26.40|N|Investigate the visitors.|
 T Agapanthus|QID|37991|M|48.91,26.40|N|To Agapanthus.|
 A Their Dying Breaths|QID|42271|PRE|37991|M|48.91,26.40|N|From Agapanthus.|
-C Their Dying Breaths|QID|42271|QO|1|M|49.28,25.22|NC|N|These are ground spawn.|
-C Their Dying Breaths|QID|42271|QO|2|M|48.92,26.50|NC|N|Click on the Whelpling to revive them.|
-C Their Dying Breaths|QID|42271|QO|3|M|48.93,26.46|NC|N|And one more whelpling.|
+C Their Dying Breaths|QID|42271|QO|1|M|49.28,25.22|H|N|These are ground spawn.|
+C Their Dying Breaths|QID|42271|QO|2|M|48.92,26.50|H|N|Click on the Whelpling to revive them.|
+C Their Dying Breaths|QID|42271|QO|3|M|48.93,26.46|H|N|And one more whelpling.|
 T Their Dying Breaths|QID|42271|M|47.87,26.89|N|To Senegos.|
 A Those Who Remember|QID|37690|PRE|42271|M|47.87,26.89|N|From Senegos.|
 A The Last of the Last|QID|37855|PRE|42271|M|47.87,26.89|N|From Senegos.|
 T The Last of the Last|QID|37855|M|49.18,26.60;50.44,26.06;49.13,16.57|CS|N|To Projection of Senegos.|
 A The Withered|QID|37856|PRE|37855|M|48.62,16.52|N|From Agapanthus.|
 A The Consumed|QID|37859|PRE|37855|M|49.39,15.54|N|From Mana-Drained Whelpling.|
-C The Consumed|QID|37859|QO|1|M|49.61,15.38|NC|N|Pick up the Dim Ley Crystal|
-C The Consumed|QID|37859|QO|2|M|44.49,16.50|S|NC|N|Click on the Mana-Drained Whelpling to revive.|
+C The Consumed|QID|37859|QO|1|M|49.61,15.38|H|N|Pick up the Dim Ley Crystal|
+C The Consumed|QID|37859|QO|2|M|44.49,16.50|S|H|N|Click on the Mana-Drained Whelpling to revive.|
 C The Withered|QID|37856|QO|1|M|44.83,17.04|N|Kill Withered.|
 C The Consumed|QID|37859|QO|2|M|44.49,16.50|US|N|Finish reviving the Mana-Drained Whelpling.|
 T The Withered|QID|37856|M|48.62,16.48|N|To Agapanthus.|
@@ -116,12 +116,12 @@ C Runas the Shamed|QID|37957|QO|2|M|48.60,16.35|NC|N|Escort Runas to Senegos.|
 T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
 A Runas Knows the Way|QID|37857|PRE|37856&37957&37859|M|49.22,16.08|N|From Runas the Shamed.|
 R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|FLY|LEGION|
-A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-45;CT|
+A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-45|CT|
 C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|US|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
 A Challiane Vineyards|QID|38203|M|47.40,12.44|N|From Cellarman Voodani who shows up when you enter the area and follows you.|RANK|3|
 $ Small Treasure Chest|QID|42295|M|47.85,7.73|N|Loot for a bit of treasure and resources.|RANK|3|
 K Kill Vintner Shalrala|ACTIVE|38203|QO|1|M|47.16,8.30|T|Vintner Shalrala|N|Kill and loot first recipe.|RANK|3|
-K Kill Normantis the Deposed|QID|37928|QO|1|M|50.24,7.63;49.49,8.81|CS|ITEM|129061|T|Normantis the Deposed|N|Silver - In a cave down on the beach. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
+K Kill Normantis the Deposed|ACTIVE|37928|QO|1|M|50.24,7.63;49.49,8.81|CS|ITEM|129061|T|Normantis the Deposed|N|Silver - In a cave down on the beach. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
 K Kill Vintner Liastrin|ACTIVE|38203|QO|2|M|45.58,12.73|T|Vintner Liastrin|N|Kill and loot second recipe.|RANK|3|
 K Kill Grand Vintner Valiana|ACTIVE|38203|QO|3|M|42.91,8.55|T|Grand Vintner Valiana|N|Kill and loot third recipe.|RANK|3|
 $ Glimmering Treasure Chest|QID|38367|M|42.63,8.08|N|Loot for a bit of treasure and resources.|RANK|3|
@@ -143,8 +143,8 @@ $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and 
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773;6|
 C The Hunger Returns|QID|37959|M|55.62,17.50|S|N|Kill and loot the nightfallen for their charged mana jewels.|
 $ Treasure Chest|QID|40711|M|55.56,18.65|N|Click on this ley portal to be teleported to the top of the building where you will find a treasure chest containing an item and some resources.|RANK|2|
-K Leyline Abuse|QID|37960|QO|2|M|56.68,17.60|T|Ishkaneth|N|Kill Ishkaneth.|
-K Leyline Abuse|QID|37960|QO|1|M|57.68,15.94|T|Tyndrissen|N|Kill Tyndrissen.|
+K Leyline Abuse|ACTIVE|37960|QO|2|M|56.68,17.60|T|Ishkaneth|N|Kill Ishkaneth.|
+K Leyline Abuse|ACTIVE|37960|QO|1|M|57.68,15.94|T|Tyndrissen|N|Kill Tyndrissen.|
 $ Treasure Chest|QID|37980|M|58.28,16.07;58.38,15.24;58.69,14.14|CS|N|Take the stairs here, follow the path up, then take the ley portal to find a treasure chest. Loot for treaure and resources.|RANK|2|
 $ Treasure Chest|QID|37832|M|63.23,15.21|N|WAY out of the way, but this is as close as you get to it. Loot for a bit of treasure and resources.|RANK|3|
 $ Unbound Rift|QID|37932|M|59.74,12.29|QO|1|N|Silver - This vignette is located down in the cravasse. Kill and loot for a bit of resources and treasure.|RANK|2|
@@ -219,7 +219,7 @@ C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|N|Kill murlocs to retrieve the pil
 A Bottled Up|QID|38407|M|49.65,39.32|N|From 'Okuna's Message' looted from Salteye mobs.|
 K Kill Mrrgrl the Tide Reaver|QID|37823|QO|1|M|50.09,34.54|ITEM|129072|T|Mrrgrl the Tide Reaver|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|37831|M|49.65,34.47|N|Loot for a bit of treasure and resources.|RANK|2|
-C A Rather Long Walk|QID|37492|QO|1|M|51.74,36.58|NC|N|Aldryth is found underwater.|
+C A Rather Long Walk|QID|37492|QO|1|M|51.74,36.58|H|N|Aldryth is found underwater.|
 C The Magister of Mixology|QID|37727|QO|1|M|52.76,33.12|NC|N|The eggs are ground spawn in nests around Gangamesh's lair.\nShallows Heron's will attack when you loot the eggs.|S|
 C Presentation is Everything|QID|37728|QO|1|M|51.73,32.68|N|Kill and loot Gangamesh.|T|Gangamesh|
 $ Treasure Chest|QID|38251|M|56.45,34.87|N|Yes, its in the middle of those sleeping basilisks. Loot for a bit of treasure and resources.|RANK|2|
@@ -234,7 +234,7 @@ A Infiltrating Shipwreck Arena|QID|37496|PRE|38407|M|47.06,41.45|N|From Lady Iri
 T Our Very Bones|QID|37257|M|47.00,41.34|N|To Prince Farondis.|
 A Trailing the Tidestone|QID|37497|PRE|37257|M|47.00,41.34|N|From Prince Farondis.|
 C Trailing the Tidestone|QID|37497|QO|1|M|47.00,41.34|N|Chat with the prince to start. As with all escort quests, there are a couple of ambushes.|CHAT|
-A The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45;CT|
+A The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45|CT|
 T Trailing the Tidestone|QID|37497|M|51.80,44.28|N|To Prince Farondis.|
 A Nar'thalas Still Suffers|QID|37486|PRE|37497|M|51.80,44.28|N|From Prince Farondis.|
 C The Broken Academy-Bonus Objective|QID|37466|M|51.21,43.95|S|US|N|As you go killing the things you run into and freeing the bound citizens will advance this objective.|RANK|2|
@@ -242,10 +242,10 @@ A You Never Know Until You Scry|QID|42693|M|53.38,45.43|N|From Olothil Starlance
 A Children of Nar'thalas|QID|42692|M|53.27,45.31|N|From Kallistia Starlance.|RANK|2|
 C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|P|Leatherworking;165;6|QO|1|S|N|Kill the Naga for the Shoulderguards|
 C You Never Know Until You Scry|QID|42693|M|55.62,43.57|S|N|Kill the naga to collect the Glyptics.|RANK|2|
-C Children of Nar'thalas|QID|42692|QO|1|M|53.02,43.75|NC|N|The first tome is lying here.|RANK|2|
+C Children of Nar'thalas|QID|42692|QO|1|M|53.02,43.75|I|N|The first tome is lying here.|RANK|2|
 $ Small Treasure Chest|QID|42282|M|53.61,44.15|N|Loot for a bit of treasure and resources. Its between the pillar and the wall.|RANK|2|
-C Children of Nar'thalas|QID|42692|QO|2|M|51.96,43.65|NC|N|The second tome is right inside the building near Prince Farondis.|RANK|2|
-C Children of Nar'thalas|QID|42692|QO|3|M|51.88,44.96|NC|N|The third tome is in the building above Prince Farondis.|RANK|2|
+C Children of Nar'thalas|QID|42692|QO|2|M|51.96,43.65|I|N|The second tome is right inside the building near Prince Farondis.|RANK|2|
+C Children of Nar'thalas|QID|42692|QO|3|M|51.88,44.96|I|N|The third tome is in the building above Prince Farondis.|RANK|2|
 $ Small Treasure Chest|QID|42283|M|53.50,45.47|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Captain Volo'ren|QID|37821|QO|1|ITEM|129066|M|53.45,43.95|T|Captain Volo'ren|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|42281|M|52.00,42.10|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -253,7 +253,7 @@ C You Never Know Until You Scry|QID|42693|M|55.62,43.57|US|N|Finish collecting t
 T Children of Nar'thalas|QID|42692|M|53.27,45.31|N|To Kallistia Starlance.|RANK|2|
 T You Never Know Until You Scry|QID|42693|M|53.37,45.49|N|To Olothil Starlance.|RANK|2|
 A Back from the Dead|QID|42694|PRE|42692&42693|M|53.39,45.45|N|From Olothil Starlance.|RANK|2|
-C Back from the Dead|QID|42694|QO|1|M|53.39,45.44|NC|N|Use Scrying Orb|RANK|2|
+C Back from the Dead|QID|42694|QO|1|M|53.39,45.44|H|N|Use Scrying Orb|RANK|2|
 C Back from the Dead|QID|42694|QO|2|M|55.14,38.57|NC|N|Search near the academy.|RANK|2|
 $ Small Treasure Chest|QID|42287|M|54.40,36.33|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|37596|M|53.03,37.27|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -274,12 +274,12 @@ t The Broken Academy-Bonus Objective|QID|37466|M|55.46,45.76|N|Auto turned in wh
 T Into the Academy|QID|37468|M|59.44,80.34;53.34,47.81|Z|Nar'thalas Academy|CS|N|To Thyrillion.|  ; 1015/17 changed to Nar'thalas Academy (Map ID 631)
 A Dressing With Class|QID|37736|PRE|37468|M|53.34,47.81|Z|Nar'thalas Academy|N|From Thyrillion.|
 A Hit the Books|QID|37678|PRE|37468|M|53.02,47.80|Z|Nar'thalas Academy|N|From Andellis.|
-C Dressing With Class|QID|37736|QO|4|M|55.01,51.52|Z|Nar'thalas Academy|NC|N|The spellbook is in this bookcase.|
+C Dressing With Class|QID|37736|QO|4|M|55.01,51.52|Z|Nar'thalas Academy|H|N|The spellbook is in this bookcase.|
 K Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|Nar'thalas Academy|S|US|T|Ancient Tome|N|Kill the books as you go along.|
-C Dressing With Class|QID|37736|QO|3|M|66.24,72.76|Z|Nar'thalas Academy|NC|N|The wand is lying against the wall.|
+C Dressing With Class|QID|37736|QO|3|M|66.24,72.76|Z|Nar'thalas Academy|H|N|The wand is lying against the wall.|
 $ Small Treasure Chest|QID|42284|M|62.00,83.74|Z|Nar'thalas Academy|N|Loot for a bit of treasure and resources.|RANK|2|
-C Dressing With Class|QID|37736|QO|2|M|59.46,84.76|Z|Nar'thalas Academy|NC|N|Take the robes from the sleeping student.|
-C Dressing With Class|QID|37736|QO|1|M|55.61,56.08|Z|Nar'thalas Academy|NC|N|The hat is on the ground.|
+C Dressing With Class|QID|37736|QO|2|M|59.46,84.76|Z|Nar'thalas Academy|H|N|Take the robes from the sleeping student.|
+C Dressing With Class|QID|37736|QO|1|M|55.61,56.08|Z|Nar'thalas Academy|H|N|The hat is on the ground.|
 T Hit the Books|QID|37678|M|53.13,47.77|Z|Nar'thalas Academy|N|To Andellis.|
 T Dressing With Class|QID|37736|M|53.33,47.69|Z|Nar'thalas Academy|N|To Thyrillion.|
 A The Haunted Halls|QID|37518|PRE|37678&37736|M|53.33,47.69|Z|Nar'thalas Academy|N|From Thyrillion.|
@@ -288,14 +288,14 @@ A Wanding 101|QID|42370|PRE|37518|M|28.85,42.55|Z|Nar'thalas Academy|N|From Inst
 C Wanding 101|QID|42370|NC|M|30.41,42.99|Z|Nar'thalas Academy|T|Wand Target|N|Target the "Wand Targets" and use your special action button.|EAB|
 T Wanding 101|QID|42370|M|28.81,42.27|Z|Nar'thalas Academy|N|To Instructor Nidriel.|
 A Study Hall: Combat Research|QID|42371|PRE|42370|M|30.24,45.51|Z|Nar'thalas Academy|N|From Sythorne.|
-C Study Hall: Combat Research|QID|42371|QO|1|M|26.67,46.70|Z|Nar'thalas Academy|N|Pick up the book.|NC|
-C Study Hall: Combat Research|QID|42371|QO|2|M|30.62,44.95|Z|Nar'thalas Academy|N|Place the book on Sythorne's Podium.|NC|
+C Study Hall: Combat Research|QID|42371|QO|1|M|26.67,46.70|Z|Nar'thalas Academy|N|Pick up the book.|H|
+C Study Hall: Combat Research|QID|42371|QO|2|M|30.62,44.95|Z|Nar'thalas Academy|N|Place the book on Sythorne's Podium.|H|
 C Study Hall: Combat Research|QID|42371|QO|3|M|30.62,44.95|Z|Nar'thalas Academy|N|Kill the Kobold Drawing.|
-C Study Hall: Combat Research|QID|42371|QO|4|M|27.30,48.48|Z|Nar'thalas Academy|N|Pick up the book.|NC|
-C Study Hall: Combat Research|QID|42371|QO|5|M|30.48,44.82|Z|Nar'thalas Academy|N|Place thebook on Sythorne's Podium.|NC|
+C Study Hall: Combat Research|QID|42371|QO|4|M|27.30,48.48|Z|Nar'thalas Academy|N|Pick up the book.|H|
+C Study Hall: Combat Research|QID|42371|QO|5|M|30.48,44.82|Z|Nar'thalas Academy|N|Place thebook on Sythorne's Podium.|H|
 C Study Hall: Combat Research|QID|42371|QO|6|M|31.89,46.18|Z|Nar'thalas Academy|N|Kill the Sea Skrog Drawing.|
-C Study Hall: Combat Research|QID|42371|QO|7|M|26.93,47.12|Z|Nar'thalas Academy|N|Pick up the book.|NC|
-C Study Hall: Combat Research|QID|42371|QO|8|M|30.25,44.67|Z|Nar'thalas Academy|N|Place the book on Sythorne's Podium.|NC|
+C Study Hall: Combat Research|QID|42371|QO|7|M|26.93,47.12|Z|Nar'thalas Academy|N|Pick up the book.|H|
+C Study Hall: Combat Research|QID|42371|QO|8|M|30.25,44.67|Z|Nar'thalas Academy|N|Place the book on Sythorne's Podium.|H|
 C Study Hall: Combat Research|QID|42371|QO|9|M|33.14,46.11|Z|Nar'thalas Academy|N|Kill the Senegos Drawing.|
 T Study Hall: Combat Research|QID|42371|M|30.33,45.32|Z|Nar'thalas Academy|N|To Sythorne.|
 A Pop Quiz: Advanced Rune Drawing|QID|37729|PRE|42371|M|28.92,42.32|Z|Nar'thalas Academy|N|From Instructor Nidriel.|
@@ -307,9 +307,9 @@ A The Headmistress' Keys|QID|37730|PRE|37729|M|28.91,42.32|Z|Nar'thalas Academy|
 C The Headmistress' Keys|QID|37730|QO|1|M|26.87,36.39|Z|Nar'thalas Academy|CHAT|N|When the headmistress becomes hostile, kill her and loot the key.|
 T The Headmistress' Keys|QID|37730|M|53.27,47.69|Z|Nar'thalas Academy|N|To Thyrillion.|
 A The Tidestone: Shattered|QID|37469|PRE|37730|M|53.27,47.69|Z|Nar'thalas Academy|N|From Thyrillion.|
-C The Tidestone: Shattered|QID|37469|U|120960|S|M|69.41,21.94|Z|Nar'thalas Academy|NC|N|The shards are on the ground here.|
+C The Tidestone: Shattered|QID|37469|U|120960|S|M|69.41,21.94|Z|Nar'thalas Academy|H|N|The shards are on the ground here.|
 $ Small Treasure Chest|QID|42285|M|71.76,21.68|Z|Nar'thalas Academy|N|Loot for a bit of treasure and resources.|RANK|2|
-C The Tidestone: Shattered|QID|37469|U|120960|US|M|69.41,21.94|Z|Nar'thalas Academy|NC|N|Finish collecting the shards.|
+C The Tidestone: Shattered|QID|37469|U|120960|US|M|69.41,21.94|Z|Nar'thalas Academy|H|N|Finish collecting the shards.|
 T The Tidestone: Shattered|QID|37469|M|68.79,13.49|Z|Nar'thalas Academy|N|To Tidestone Core.|
 A Save Yourself|QID|37530|PRE|37469|M|57.85,43.35|N|From Prince Farondis.|
 C Save Yourself|QID|37530|QO|1|M|54.31,42.52|N|Speak with Prince Farondis.|CHAT|
@@ -321,7 +321,7 @@ C Save Yourself|QID|37530|QO|6|M|58.60,41.43|NC|N|Defeat Queen Azshara.|
 C Save Yourself|QID|37530|QO|7|M|57.88,43.10|NC|N|Walk forward into the cave.|
 T Save Yourself|QID|37530|M|57.82,43.43|N|To yourself (because you are Prince Farondis at the moment).|
 A The Head of the Snake|QID|37470|PRE|37530|M|57.86,43.36|N|From Prince Farondis.|
-A Tip the Scales-Bonus Objective|QID|37779|LVL|-45;CT|M|58.67,41.22|N|Auto accepted as you enter the area.|RANK|2|
+A Tip the Scales-Bonus Objective|QID|37779|LVL|-45|M|58.67,41.22|N|Auto accepted as you enter the area.|RANK|2|CT|
 C Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|S|US|N|Kill Naga, loot the trident racks to activate an extra action button.|RANK|2|
 C The Head of the Snake|QID|37470|M|62.05,41.57|N|Kill Athissa.|T|Athissa|
 T The Head of the Snake|QID|37470|M|61.70,41.08|N|To Prince Farondis.|
@@ -500,5 +500,6 @@ D On to Class Halls|N|This ends Azsuna and the Rogue order hall guide will load.
 D On to Class Halls|N|This ends Azsuna and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends Azsuna and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends Azsuna and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
+D On to Class Halls|N|This ends Azsuna and the Evoker order hall guide will load.|C|Evoker|GUIDE|CagLegionEvoker|
 ]]
 end)
