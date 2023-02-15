@@ -40,6 +40,7 @@
 	<Script file="LEGION_Order_Hall_Warlock.lua"/>
 	<Script file="LEGION_Order_Hall_Warrior.lua"/>
 	<Script file="LEGION_Suramar.lua"/>
+	<Script file="LEGION_Order_Hall_Evoker.lua"/>
 	<Script file="LEGION_Valsharah.lua"/>
 	<Script file="MOP_Dread_Wastes.lua"/>
 	<Script file="MOP_KunLai_Summit.lua"/>

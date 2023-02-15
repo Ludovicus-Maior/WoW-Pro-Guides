@@ -882,6 +882,7 @@ RegisterClass("MAGE")
 RegisterClass("WARLOCK")
 RegisterClass("MONK")
 RegisterClass("DEMONHUNTER")
+RegisterClass("EVOKER")
 
 function WoWPro:GuideClassSpecific(guide,class)
     local _, engClass = _G.UnitClass("player")
