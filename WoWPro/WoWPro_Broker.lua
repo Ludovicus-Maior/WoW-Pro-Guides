@@ -400,6 +400,11 @@ function WoWPro.ObjectiveOperators.HeartGreater(objective, target)
     return active , status
 end
 
+function WoWPro.ObjectiveOperators.HearStop(objective, target)
+    local status = ("HOA(%s): Invalid"):format(objective)
+    return nil , status
+end
+
 WoWPro.ObjectiveOperators['Q<'] = WoWPro.ObjectiveOperators.QuestLess
 WoWPro.ObjectiveOperators['Q='] = WoWPro.ObjectiveOperators.QuestEqual
 WoWPro.ObjectiveOperators['Q>'] = WoWPro.ObjectiveOperators.QuestGreater
@@ -411,6 +416,8 @@ WoWPro.ObjectiveOperators['S'] = WoWPro.ObjectiveOperators.ScenarioDone
 WoWPro.ObjectiveOperators['H<'] = WoWPro.ObjectiveOperators.HeartLess
 WoWPro.ObjectiveOperators['H='] = WoWPro.ObjectiveOperators.HeartEqual
 WoWPro.ObjectiveOperators['H>'] = WoWPro.ObjectiveOperators.HeartGreater
+WoWPro.ObjectiveOperators['H'] = WoWPro.ObjectiveOperators.HearStop
+
 
 function WoWPro.ParseObjective(questtext, class)
     local objective, operator, target = questtext:match(OBJECTIVE_PATTERN)
