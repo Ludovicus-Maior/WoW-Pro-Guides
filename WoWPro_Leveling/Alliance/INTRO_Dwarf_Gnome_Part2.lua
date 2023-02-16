@@ -7,15 +7,14 @@ WoWPro:GuideName(guide,"Dwarf & Gnome: Intro (Part 2)")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10;-60|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A Beer Basted Boar Ribs|QID|384|M|53.89,50.79|N|From Ragnar Thunderbrew. Kill any boars you see from now on for Tender Boar Meat.|
 T Bound for Kharanos|QID|26380|M|54.47,50.81|N|To Innkeeper Belm.|R|Gnome|
-h Thunderbrew Distillery|QID|26373|M|54.47,50.81|N|Make Thunderbrew Distillery your new home at Innkeeper Belm.|
-N Sell junk|QID|26373|M|54.47,50.81|N|To Innkeeper Belm. Close when done.|
-B Rhapsody Malt|QID|384|M|54.47,50.81|N|From Innkeeper Belm.|L|2894|
+h Thunderbrew Distillery|ACTIVE|26373|M|54.47,50.81|N|Make Thunderbrew Distillery your new home at Innkeeper Belm.|
+N Sell junk|ACTIVE|26373|M|54.47,50.81|N|To Innkeeper Belm. Close when done.|
+B Rhapsody Malt|ACTIVE|384|M|54.47,50.81|N|From Innkeeper Belm.|L|2894|
 N Secondary Profession: Cooking |QID|26373|M|54.73,50.58|N|If you want to learn Cooking, now's the time to start, Gremlock Pilsnor will start you off. Click this step to continue.|R|Gnome,Dwarf,Dark Iron Dwarf|
 A Honor Students |QID|6387|M|54.73,50.58|N|From Gremlock Pilsnor.|R|Gnome,Dwarf,Dark Iron Dwarf|
-; [aldavor] removed references to class training - redundant.
 A The Perfect Stout|QID|315|M|54.12,51.21|N|From Rejold Barleybrew.|
 N Primary Professions |QID|26373|M|53.80,51.95|N|Stop off at Wembil Taskwidget to learn your chosen Primary Professions. Click this step to continue. |R|Gnome,Dwarf,Dark Iron Dwarf|
 T On to Kharanos|QID|26373|M|53.68,52.17|N|To Captain Tharran.|R|Gnome|
@@ -23,38 +22,38 @@ A Frostmane Aggression|QID|25724|M|53.68,52.17|N|From Captain Tharran.|
 T Honor Students |QID|6387|M|53.80,52.75|N|To Brolan Galebeard.|R|Gnome,Dwarf,Dark Iron Dwarf|
 A Bound for Kharanos|QID|26380|M|49.89, 45.01|N|From Ciara Deepstone.|R|-Gnome|
 A Ride to Ironforge |RANK|2|QID|6391|PRE|6387|M|53.80,52.75|N|The next three quests see you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf,Dark Iron Dwarf|
-F Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf,Dark Iron Dwarf|
+F Ironforge |RANK|2|ACTIVE|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf,Dark Iron Dwarf|
 T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
 A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
 T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|Back to the flight master, Gryth Thurden|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
 A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf,Dark Iron Dwarf|Z|Ironforge|
-F Kharanos|RANK|2|QID|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|
+F Kharanos|RANK|2|ACTIVE|6392|M|54.73,50.58|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|
 T Return to Gremlock |RANK|2|QID|6392|M|54.73,50.81|N|To Gremlock Pilsnor|PRE|6391|R|Gnome,Dwarf,Dark Iron Dwarf|
-R Shimmer Ridge|QID|25724|M|49.95,43.90|N|Run to here then head up the hill.|
+R Shimmer Ridge|QID|25724|M|49.95,43.90|N|Run to here then head up the hill.|FLY|OLD|
 C The Perfect Stout|QID|315|NC|N|Collect Shimmerweeds  from the baskets on the ground.|S|
 C Frostmane Aggression|QID|25724|M|49.03,37.87|N|Kill Frostmane Seers and Snowstriders.|
-C The Perfect Stout|QID|315|N|Collect any Shimmerweeds you still need from the baskets on the ground.|US|
+C The Perfect Stout|QID|315|NC|M|49.03,37.87|N|Collect any Shimmerweeds you still need from the baskets on the ground.|US|
 T Bound for Kharanos|QID|26380|M|54.45,50.70|N|To Innkeeper Belm.|R|-Gnome|
 T The Perfect Stout|QID|315|M|54.12,51.21|N|To Rejold Barleybrew.|
 T Frostmane Aggression|QID|25724|M|53.68,52.17|N|To Captain Tharran.|
 A Culling the Wendigos|QID|25667|PRE|25724|M|53.68,52.17|N|From Captain Tharran.|
 A Forced to Watch from Afar|QID|313|PRE|25724|M|53.68,52.17|N|From Captain Tharran.|
 A Pilfered Supplies|QID|25668|PRE|25724|M|53.67,52.14|N|From Quartermaster Glynna.|
-R Grizzled Den|QID|25667|CC|M|49.51,52.90|N|Head into the Grizzled Den.|
+R Grizzled Den|ACTIVE|25667|CC|M|49.51,52.90|N|Head into the Grizzled Den.|
 C Culling the Wendigos|QID|25667|S|M|48.28,47.38|N|Kill Wendigos as you make your way through the cave.|
-C Pilfered Supplies|QID|25668|S|M|49.22,47.77|N|Collect the supplies as you go through the cave.|
+C Pilfered Supplies|QID|25668|S|M|49.22,47.77|NC|N|Collect the supplies as you go through the cave.|
 C Mountaineer Dunstan|QID|313|QO|1|M|48.31,47.12|N|Talk to Mountaineer Dunstan.|CHAT|
 C Mountainer Lewin|QID|313|QO|2|M|49.14,47.75|N|Talk to Mountainer Lewin.|CHAT|
 C Forced to Watch from Afar|QID|313|M|49.30,44.44|N|Talk to Mountainer Valgrum.|QO|3|CHAT|
 C Culling the Wendigos|QID|25667|US|M|48.28,47.38|N|Kill any Wendigos you still need.|
-C Pilfered Supplies|QID|25668|US|M|49.22,47.77|N|Collect any supplies you still need.|
-H Thunderbrew Distillery|QID|25668|U|6948|N|Hearth to Thunderbrew Distillery.|
+C Pilfered Supplies|QID|25668|US|M|49.22,47.77|NC|N|Collect any supplies you still need.|
+H Thunderbrew Distillery|ACTIVE|25668|M|54.37,50.28|Z|27|N|Hearth or run back to Thunderbrew Distillery.|U|6948|
 T Pilfered Supplies|QID|25668|M|53.67,52.11|N|To Quartermaster Glynna.|
 T Culling the Wendigos|QID|25667|M|53.68,52.17|N|To Captain Tharran.|
 T Forced to Watch from Afar|QID|313|M|53.68,52.17|N|To Captain Tharran.|
 A Pushing Forward|QID|25792|PRE|313&25667|M|53.68,52.17|N|From Captain Tharran.|
 A Operation Recombobulation|QID|412|PRE|313&25667|M|53.32,51.98|N|From Razzle Sprysprocket.|
-f Kharanos|M|53.77,52.71|N|At Brolan Galebeard.|QID|412|R|Human,NightElf,Draenei,Worgen|
+f Kharanos|M|53.77,52.71|N|At Brolan Galebeard.|QID|412|R|-Gnome,Dwarf,Dark Iron Dwarf|
 C Beer Basted Boar Ribs|QID|384|S|N|Kill and loot boars you to the Tender Boar Ribs.|
 C Operation Recombobulation|QID|412|S|M|58.00,57.29|N|Kill Frostmane Salvagers and loot Gyromechanic Gears (be prepared to spend time on this; they respawn very slowly).|
 C Pushing Forward|QID|25792|U|56009|M|58.14,57.63|N|Use the Rune of Fire to burn the Constriction Totems.|
@@ -67,7 +66,7 @@ N Sell junk, then train any new skills/spells you need|QID|384|N|Close this step
 T Beer Basted Boar Ribs|QID|384|M|53.91,50.81|N|To Ragnar Thunderbrew.|
 T Help from Steelgrill's Depot|QID|25838|M|56.80,46.97|N|To Delber Cranktoggle.|
 A The Ultrasafe Personnel Launcher|QID|25839|PRE|25838|M|56.80,46.97|N|From Delber Cranktoggle.|
-C The Ultrasafe Personnel Launcher|QID|25839|M|56.75,46.51|N|Right click on the blue electrical fields to use the Ultrasafe Personnel Launcher to transport you to Frostmane Retreat.|
+C The Ultrasafe Personnel Launcher|QID|25839|M|56.75,46.51|N|Right click on the blue electrical fields to use the Ultrasafe Personnel Launcher to transport you to Frostmane Retreat.|V|
 T The Ultrasafe Personnel Launcher|QID|25839|M|62.53,53.62|N|To Slamp Wobblecog.|
 A Eliminate the Resistance|QID|25840|PRE|25839|M|62.53,53.62|N|From Slamp Wobblecog.|
 A Strike From Above|QID|25841|PRE|25839|M|62.53,53.62|N|From Slamp Wobblecog.|
@@ -125,7 +124,7 @@ C Dark Iron Scheming|QID|25997|T|Captain Beld|QO|2|M|85.15,60.61|N|Kill Captain 
 C Dark Iron Scheming|QID|25997|US|QO|1|N|Kill Dark Iron Spies.|
 T Dark Iron Scheming|QID|25997|M|82.76,48.31|N|To Sergeant Bahrum.|
 A Get to the Airfield|QID|25998|PRE|25997|M|82.76,48.31|N|From Sergeant Bahrum.|
-F Ironforge Airfield|QID|25998|M|75.28,52.80|N|Use Mathel's Flying Machine at Gol'Bolar Quarry to fly to Ironforge Airfield.|
+F Ironforge Airfield|QID|25998|M|75.28,52.80|N|Use Mathel's Flying Machine at Gol'Bolar Quarry to fly to Ironforge Airfield.|V|
 T Get to the Airfield|QID|25998|M|78.21,20.48|N|To Commander Stonebreaker.|
 A Extinguish the Fires|QID|26078|PRE|25998|M|78.21,20.48|N|From Commander Stonebreaker.|
 C Extinguish the Fires|QID|26078|U|56803|M|78.37,23.96|N|Use the Firefighting Gear to put out the fires.|
@@ -135,14 +134,14 @@ C Rallying the Defenders|QID|26085|U|56809|M|78.42,29.65|N|Place the Ironforge B
 T Rallying the Defenders|QID|26085|M|78.21,20.47|N|To Commander Stonebreaker.|
 A Striking Back|QID|26094|PRE|26085|M|78.21,20.47|N|From Commander Stonebreaker.|
 R Striking Back|QID|26094|M|77.14,18.52|N|Put the bombs on the action bar. Jump into the Repaired Bomber here.|CC|
-C Striking Back|QID|26094|U|56814|M|78.25,20.50|N|Drop Bombs on the Dark Iron Attackers.|
+C Striking Back|QID|26094|U|56814|M|78.25,20.50|N|Drop Bombs on the Dark Iron Attackers.|V|
 T Striking Back|QID|26094|M|78.20,20.45|N|To Commander Stonebreaker.|
 A Grimaxe's Demise|QID|26102|PRE|26094|M|78.20,20.45|N|From Commander Stonebreaker.|
 C Grimaxe's Demise|QID|26102|T|Dark Iron Golem|M|78.40,34.66|N|Kill the Dark Iron Golem, then Grimaxe will appear - kill him too.|
 T Grimaxe's Demise|QID|26102|M|78.23,20.49|N|To Commander Stonebreaker.|
 A Demanding Answers|QID|26112|PRE|26102|M|78.24,20.50|N|From Commander Stonebreaker.|
-H Thunderbrew Distillery|QID|26112|U|6948|N|Head to Ironforge. Your Hearthstone is probably set to Thunderbrew Distillery and will shorten your distance.|
-F Ironforge|QID|26112|M|53.78,52.72|N|Fly to Ironforge.|
+H Thunderbrew Distillery|QID|26112|U|6948|N|Head to Ironforge. Your Hearthstone is probably set to Thunderbrew Distillery and will shorten your distance.|FLY|OLD|
+F Ironforge|QID|26112|M|53.78,52.72|N|Fly to Ironforge.|FLY|OLD|
 T Demanding Answers|QID|26112|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan.|
 A Seize the Ambassador|QID|26118|PRE|26112|M|39.78,57.23|Z|Ironforge|N|From Moira Thaurissan.|
 A Reinforcements for Loch Modan|QID|26131|Z|Ironforge|M|41.47,52.32|N|From Mountaineer Barleybrew.  Accept if you plan on going to Loch Modan next.|
