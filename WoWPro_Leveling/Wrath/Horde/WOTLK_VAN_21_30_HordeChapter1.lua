@@ -25,7 +25,7 @@ A Boulderslide Ravine|QID|6421|M|47.22,64.05|Z|1442|N|From Mor'rogal. You'll fin
 h Sun Rock Retreat|ACTIVE|6421|M|47.46,62.13|Z|1442|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
 R Windshear Crag|ACTIVE|1483|M|49.5,61.0;53.1,61.6;60.33,70.90|CC|Z|1442|N|Exit Sun Rock Retreat and follow the road south to the Windshear Crag sign.\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can drop off the cliff by the graveyard.|
 T Ziz Fizziks|QID|1483|M|58.99,62.61|Z|1442|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
-A Super Reaper 6000|QID|1093|M|58.99,62.61|Z|1442|N|From Ziz Fizziks.|PRE|1483|
+A Super Reaper 6000|QID|1093|M|58.99,62.61|Z|1442|N|From Ziz Fizziks.|
 C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
 K Goblin Invaders|ACTIVE|1062|QO|1|N|Kill Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|S|
 N Lockpicking|ACTIVE|1062&1093|N|You'll find Battered Footlockers scattered around the area that you can open for some goodies and a skill point.\nCheck this step off to continue.|C|Rogue|

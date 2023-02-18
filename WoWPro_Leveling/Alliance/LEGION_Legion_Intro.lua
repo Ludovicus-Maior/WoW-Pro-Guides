@@ -7,8 +7,8 @@ WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideQuestTriggers(guide, 40519)
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
-A The Legion Returns|QID|40519|N|From Chromie after activating Legion timeline.|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|10;-60|CT|
+A The Legion Returns|QID|40519|N|If you are below level 60 you get this quest from Chromie after activating Legion timeline. If you are above level 60 you get this quest from the heros call board.|
 T The Legion Returns|QID|40519|M|37.10,43.16|Z|Stormwind City|N|To Recruiter Lee.|
 A To Be Prepared|QID|42782|M|37.10,43.16|Z|Stormwind City|N|From Recruiter Lee.|PRE|40519|
 C To Be Prepared|QID|42782|QO|1|M|29.79,42.98|Z|Stormwind City|NC|N|Click on the kegs to polish your armor.|
@@ -49,7 +49,7 @@ T Demons Among Them |QID|44463|M|85.76,31.75|Z|Stormwind City|N|To Anduin Wrynn.
 ; Grail also has [Fel Secrets - Havoc Spec Tracking Event: 39517] as a PRE, but we ignore.
 A Illidari Allies|QID|44120|PRE|40593^44463|M|85.76,31.75|Z|Stormwind City|N|From Anduin Wrynn.|
 T Illidari Allies|QID|44120|M|40.26,77.70|Z|Stormwind City|N|To Elerion Bladedancer, located just outside the Mage Quarter.|
-A In the Blink of an Eye|QID|44663^44184|PRE|44120|M|40.44,77.89|Z|Stormwind City|N|From Elerion Bladedancer.|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Elerion Bladedancer.|
 F Wizard's Sanctum|QID|44663|ACTIVE|44663|M|49.34,86.91|Z|Stormwind City|NC|N|Head up to the Wizard's Sanctum.|
 C In the Blink of an Eye|QID|44663|QO|1|M|48.99,87.58|Z|Stormwind City|CHAT|N|Speak to the Kirin Tor Emissary just inside the doorway to Wizard's sanctum (NOT inside the portal area) and ask to be sent to Dalaran.|
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
@@ -66,5 +66,6 @@ D On to Class Halls|N|This ends the intro scenario and the Rogue order hall guid
 D On to Class Halls|N|This ends the intro scenario and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends the intro scenario and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends the intro scenario and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
+D On to Class Halls|N|This ends the intro scenario and the Evoker order hall guide will load.|C|Evoker|GUIDE|CagLegionEvoker|
 ]]
 end)

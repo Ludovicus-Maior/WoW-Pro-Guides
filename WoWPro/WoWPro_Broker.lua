@@ -270,7 +270,7 @@ function WoWPro:QuestFailed(QIDs, debug, why)
     return value
 end
 
-local OBJECTIVE_PATTERN = "^(%d+)([<=>]*)(%d*)$"
+local OBJECTIVE_PATTERN = "^(%d*)([<=>]*)(%d*)$"
 function WoWPro.ValidObjective(questtext)
     local objective, operator, target = tostring(questtext):match(OBJECTIVE_PATTERN)
     if operator ~= "" then
@@ -372,6 +372,38 @@ function WoWPro.ObjectiveOperators.ScenarioGreater(qid, objective, target)
     return done , status
 end
 
+-- Return true to make step active, false to complete, nil to skip
+function WoWPro.ObjectiveOperators.HeartLess(objective, target)
+    local level = _G.C_AzeriteItem.GetPowerLevel(_G.C_AzeriteItem.FindActiveAzeriteItem())
+    local active = level < target
+    local status = ("HOA(%s): %d<%d %s"):format(objective, level, target, tostring(active))
+    return active , status
+end
+
+function WoWPro.ObjectiveOperators.HeartEqual(objective, target)
+    local level = _G.C_AzeriteItem.GetPowerLevel(_G.C_AzeriteItem.FindActiveAzeriteItem())
+    local active = level == target
+    if level < target then
+        active = nil
+    end
+    local status = ("HOA(%s): %d=%d %s"):format(objective, level, target, tostring(active))
+    return active , status
+end
+
+function WoWPro.ObjectiveOperators.HeartGreater(objective, target)
+    local level = _G.C_AzeriteItem.GetPowerLevel(_G.C_AzeriteItem.FindActiveAzeriteItem())
+    local active = level > target
+    if level <= target then
+        active = nil
+    end
+    local status = ("HOA(%s): %d>%d %s"):format(objective, level, target, tostring(active))
+    return active , status
+end
+
+function WoWPro.ObjectiveOperators.HearStop(objective, target)
+    local status = ("HOA(%s): Invalid"):format(objective)
+    return nil , status
+end
 
 WoWPro.ObjectiveOperators['Q<'] = WoWPro.ObjectiveOperators.QuestLess
 WoWPro.ObjectiveOperators['Q='] = WoWPro.ObjectiveOperators.QuestEqual
@@ -381,11 +413,15 @@ WoWPro.ObjectiveOperators['S<'] = WoWPro.ObjectiveOperators.ScenarioLess
 WoWPro.ObjectiveOperators['S='] = WoWPro.ObjectiveOperators.ScenarioEqual
 WoWPro.ObjectiveOperators['S>'] = WoWPro.ObjectiveOperators.ScenarioGreater
 WoWPro.ObjectiveOperators['S'] = WoWPro.ObjectiveOperators.ScenarioDone
+WoWPro.ObjectiveOperators['H<'] = WoWPro.ObjectiveOperators.HeartLess
+WoWPro.ObjectiveOperators['H='] = WoWPro.ObjectiveOperators.HeartEqual
+WoWPro.ObjectiveOperators['H>'] = WoWPro.ObjectiveOperators.HeartGreater
+WoWPro.ObjectiveOperators['H'] = WoWPro.ObjectiveOperators.HearStop
 
 
 function WoWPro.ParseObjective(questtext, class)
     local objective, operator, target = questtext:match(OBJECTIVE_PATTERN)
-    WoWPro:dbp("ParseObjective(%q,%q): %q %q %q",questtext, class, objective, operator, target)
+    WoWPro:dbp("ParseObjective(%q,%q): %q %q %q",questtext, class, tostring(objective), tostring(operator), tostring(target))
     if operator == "" then
         WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators.done", questtext)
         return tonumber(objective), WoWPro.ObjectiveOperators[class], nil
@@ -421,6 +457,14 @@ function WoWPro.ScenarioObjectiveStatus(stage, objective)
     return predicate(stage, objective, target)
 end
 
+function WoWPro.HeartObjectiveStatus(objective)
+    if not _G.C_AzeriteItem.HasActiveAzeriteItem() then
+        return nil, "Heart of Azeroth not equipped."
+    end
+
+    local _, predicate, target = WoWPro.ParseObjective(objective, "H")
+    return predicate(objective, target)
+end
 
 WoWPro.PetsOwned = nil
 
@@ -2223,6 +2267,25 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                                WoWPro.taxi[guideIndex], stop, tostring(WoWProCharDB.Taxi[stop]))
                     WoWPro.why[guideIndex] = "NextStep(): Skippping because Taxi["..WoWPro.taxi[guideIndex].."] not."
                     guide.skipped[guideIndex] = true
+                    break
+                end
+            end
+
+            -- Heart of Azeroth Level Test
+            if WoWPro.hoa and WoWPro.hoa[guideIndex] and not skip then
+                local active, status = WoWPro.HeartObjectiveStatus(WoWPro.hoa[guideIndex])
+                WoWPro:dbp("HOA: active=%s, status=%q", tostring(active), status)
+                if active == true then
+                    WoWPro:dbp("HOA: Active because [%s]", status)
+                    WoWPro.why[guideIndex] = "NextStep(HOA) active: "..status
+                elseif active == false then
+                    skip = true
+                    WoWPro.CompleteStep(guideIndex, "NextStep():  Completed HOA step because " .. WoWPro.hoa[guideIndex]  .. " was met.")
+                    break
+                else
+                    skip = true
+                    WoWPro:dbp("HOA: Skip because [%s]", status)
+                    WoWPro.why[guideIndex] = "NextStep(HOA) skip: "..status
                     break
                 end
             end

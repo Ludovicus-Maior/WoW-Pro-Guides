@@ -24,7 +24,7 @@ A Stonespire the Elder|N|From Elder Stonespire.|QID|8672|M|59.97,49.95|Z|Winters
 A Brightspear the Elder|N|From Elder Brightspear.|QID|8726|M|53.23,56.75|Z|Winterspring|
 F Whisperwind Grove|FLY|OLD|N|Fly to Whisperwind Grove in Felwood.|QID|8723|M|58.84,48.2|Z|Winterspring|
 A Nightwind the Elder|N|From Elder Nightwind.|QID|8723|M|38.36,52.85|Z|Felwood|
-F Zidormi|N|If you have finished the BFA opening sequence,  you will need to ask Zidormi to show you what it looked like before|QID|8721|M|48.86,44.45|Z|Felwood|CHAT|
+F Zidormi|N|If you have finished the BFA opening sequence,  you will need to ask Zidormi to show you what it looked like before|QID|8721|M|49.9,24.52|Z|Darkshore|CHAT|
 R Lor'danel|N|Run to Lor'danel in Darkshore.|QID|8721|M|49.5,18.9|Z|Darkshore|
 A Starweave the Elder|N|From Elder Starweave.|QID|8721|M|49.54,18.95|Z|Darkshore|T|Elder Starweave|
 R Rut'theran Village|QID|8715|M|56.8,90.6|Z|Teldrassil|N|There is no boat to Rut'theran Village anymore unless you go from Stormwind. You can easily fly across to it though.|
@@ -191,7 +191,7 @@ A Sandrene the Elder|N|From Elder Sandrene.|QID|13018|M|49.78,63.62|Z|Sholazar B
 A Wanikaya the Elder|N|From Elder Wanikaya.|QID|13024|M|63.80,49.02|Z|Sholazar Basin|
 
 F Transitus Shield|FLY|OLD|N|Fly to the Transitus Shield in Colderra.|QID|13016|M|50,61.4|Z|Sholazar Basin|
-A Northal the Elder|N|From Elder Northal.QID|13016|M|33.80,34.36|Z|Borean Tundra|
+A Northal the Elder|N|From Elder Northal.|QID|13016|M|33.80,34.36|Z|Borean Tundra|
 R The Nexus|N|Run into The Nexus.|QID|13021|M|27.5,26.09|Z|Borean Tundra|RANK|3|
 A Igasho the Elder|N|From Elder Igasho. Before the first boss. Nothing needs to die, but due to mob density, you probably will find it easier to kill a few.|QID|13021|M|55.19,64.72|Z|The Nexus@TheNexus|RANK|3|
 R D.E.H.T.A Encampment|N|Head out of The Nexus and go to the D.H.E.T.A Encampment.|QID|13033|M|57.4,43.6|Z|Borean Tundra|

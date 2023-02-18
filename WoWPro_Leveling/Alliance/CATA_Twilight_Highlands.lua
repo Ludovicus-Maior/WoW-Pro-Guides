@@ -25,12 +25,11 @@ T Aiming High|QID|28598|M|78.68,76.85|N|To Fargo Flintlocke.|
 A Kurdran's Waitin'|QID|28599|PRE|28598|M|78.93,76.70|N|From Fargo Flintlocke.|
 T Kurdran's Waitin'|QID|28599|M|79.10,78.32|N|To Kurdran Wildhammer upstairs inside the castle.|
 A Our Boys on the Shore|QID|27338|PRE|28599|M|79.10,78.32|N|From Kurdran Wildhammer.|
-A Salvage Operation|QID|27177|PRE|28599|M|79.28,78.47|N|From Simon Chandler.|S|
-A Naga Reinforcements|QID|27178|PRE|28599|M|78.28,78.47|N|From Simon Chandler.|
-A Salvage Operation|QID|27177|PRE|28599|M|79.28,78.47|N|From Simon Chandler.|US|
-A Siren's Song|QID|27200|M|76.02,79.70|N|From Ephram Hardstone, who's on the sinking ship at the Obsidian Breakers (southwest of Highbank).|
-C Siren's Song|QID|27200|M|76.09,79.69|N|Once you're able to, attack and kill Ophelia. Make sure Ephram doesn't die.|
-T Siren's Song|QID|27200|M|76.01,79.97|N|To Ephram Hardstone.|
+A Salvage Operation|QID|27177|PRE|28599|M|79.29,78.52|N|From Simon Chandler.|
+A Naga Reinforcements|QID|27178|PRE|28599|M|78.29,78.52|N|From Simon Chandler.|
+A Siren's Song|QID|27200|M|75.97,79.95|N|From Ephram Hardstone, who's on the sinking ship at the Obsidian Breakers (southwest of Highbank).|
+C Siren's Song|QID|27200|M|76.08,79.93|N|Once you're able to, attack and kill Ophelia. Make sure Ephram doesn't die.|
+T Siren's Song|QID|27200|M|75.97,79.95|N|To Ephram Hardstone.|
 C Salvage Operation|QID|27177|S|M|75.41,82.83|N|Collect crates around this area.|NC|
 C Naga Reinforcements|QID|27178|M|76.55,83.43|N|Kill Blackscale Myrmidons or Blackscale Seacallers in this area.|
 C Salvage Operation|QID|27177|US|M|75.41,82.83|N|Finish collecting crates around this area.|NC|
@@ -60,16 +59,16 @@ C Roots'll Do 'Er|QID|27515|M|71.98,66.59|N|Collect the roots in the area.|NC|
 T Roots'll Do 'Er|QID|27515|M|67.71,65.90|N|To Thordun Hammerblow.|
 A Wings Over Highbank|QID|27516|PRE|27515|M|67.71,65.90|N|From Thordun Hammerblow.|
 C Wings Over Highbank|QID|27516|M|67.66,65.95|N|Speak to Thordun Hammerblow when you are ready to fly back.|NC|
-T Wings Over Highbank|QID|27516|M|79.12,78.27|N|To Kurdran Wildhammer upstairs.|
-A Any Portal in a Storm|QID|27537|PRE|27516|M|79.12,78.27|N|From Kurdran Wildhammer.|
-A The Perfect Poultice|QID|27538|PRE|27516|M|79.20,78.28|N|From Thordun Hammerblow.|
+T Wings Over Highbank|QID|27516|M|79.09,78.30|N|To Kurdran Wildhammer upstairs.|
+A Any Portal in a Storm|QID|27537|PRE|27516|M|79.09,78.30|N|From Kurdran Wildhammer.|
+A The Perfect Poultice|QID|27538|PRE|27516|M|79.22,78.29|N|From Thordun Hammerblow.|
 C Any Portal in a Storm|QID|27537|M|69.47,48.51|N|Kill water elementals for the cores.|S|
 C The Perfect Poultice|QID|27538|M|69.75,49.10|N|Collect the glittering piles of Verrall River Muck.|NC|
 C Any Portal in a Storm|QID|27537|M|69.47,48.51|N|Kill water elementals for the cores.|US|
-T Any Portal in a Storm|QID|27537|M|79.50,77.62|N|To Talaa in the center courtyard.|S|
-T The Perfect Poultice|QID|27538|M|79.50,77.62|N|To Talaa in the center courtyard.|
-T Any Portal in a Storm|QID|27537|M|79.50,77.62|N|To Talaa in the center courtyard.|US|
-A The Way is Open|QID|27545|PRE|27537|M|79.50,77.62|N|From Talaa in the center courtyard.|
+T Any Portal in a Storm|QID|27537|M|79.42,77.64|N|To Talaa in the center courtyard.|S|
+T The Perfect Poultice|QID|27538|M|79.42,77.64|N|To Talaa in the center courtyard.|
+T Any Portal in a Storm|QID|27537|M|79.42,77.64|N|To Talaa in the center courtyard.|US|
+A The Way is Open|QID|27545|PRE|27537|M|79.42,77.64|N|From Talaa in the center courtyard.|
 T The Way is Open|QID|27545|M|79.09,78.23|N|To Kurdran Wildhammer upstairs.|
 A Firebeard's Patrol|QID|27621|PRE|27545|M|79.21,78.27|N|From Thordun Hammerblow.|
 r Sell junk, Repair/Restock|QID|27621|M|79.11,76.50|N|From Brundall Chiselgut, 	Dorgan Slagfist, or Richard Maschner in the profession trainer area.  Also beef up your profession skills if needed.|

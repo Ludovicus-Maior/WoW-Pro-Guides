@@ -71,10 +71,10 @@ T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
 T Thonk|QID|25227|M|50.92,42.26;49.58,40.17|CS|N|To Thonk at the top of Razor Hill Watchtower.|
 A Lost in the Floods|QID|25187|M|49.58,40.17|N|From Thonk.|
-C Lost in the Floods|QID|25187|QO|1|N|Use Thonk's Spyglass to search for Raggaran.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
-C Lost in the Floods|QID|25187|QO|2|N|Use Thonk's Spyglass again to search for the flooded hut.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
-C Lost in the Floods|QID|25187|QO|3|N|Use Thonk's Spyglass once again to search for Misha.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
-C Lost in the Floods|QID|25187|QO|4|N|Use Thonk's Spyglass one more time to search for Zen'Taji.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
+C Lost in the Floods|QID|25187|QO|1|M|PLAYER|N|Use Thonk's Spyglass to search for Raggaran.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
+C Lost in the Floods|QID|25187|QO|2|M|PLAYER|N|Use Thonk's Spyglass again to search for the flooded hut.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
+C Lost in the Floods|QID|25187|QO|3|M|PLAYER|N|Use Thonk's Spyglass once again to search for Misha.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
+C Lost in the Floods|QID|25187|QO|4|M|PLAYER|N|Use Thonk's Spyglass one more time to search for Zen'Taji.\n[color=FF0000]NOTE: [/color]Do not cancel the cinematic, or it won't count.|U|52514|NC|
 N Rank 2 Quests|ACTIVE|25187|N|After you hand in Lost in the Floods to Thonk, there will be nine quests which involves a lot of running, but has a good storyline and good rewards. Please ensure your difficulty/completeness (located in Display Settings > Guide Display) is set to 2 or 3 if you wish to do these quests.|S!US|
 T Lost in the Floods|QID|25187|M|49.58,40.17|N|To Thonk.|
 A Watershed Patrol|QID|25188|PRE|25187|M|49.58,40.17|N|From Thonk.|RANK|2|
@@ -96,8 +96,8 @@ C Lost But Not Forgotten|QID|25193|M|42.44,33.59|N|Kill and loot Crocolisks unti
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
 T Watershed Patrol|QID|25188|M|49.55,40.17|N|To Thonk.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
-N Riding|ACTIVE|25232|N|Now that you are level 10, go visit the riding trainer.\n[color=FF0000]NOTE: [/color]You may have received a quest through the UI to do this. You get 2 silver for turning it in.|LVL|10|
-R Dustwind Cave|ACTIVE|25232|M|54.13,40.71;55.68,38;52.79,28.53|CS|N|Run to Dustwind Cave.|
+N Riding|ACTIVE|25232|N|Now that you are level 10, go visit the riding trainer.\n[color=FF0000]NOTE: [/color]You may have received a quest through the UI to do this. You get 2 silver for turning it in.|LVL|10|FLY|OLD|
+R Dustwind Cave|ACTIVE|25232|M|54.13,40.71;55.68,38;52.79,28.53|CS|N|Run to Dustwind Cave.|FLY|OLD|
 C The Burning Blade|QID|25232|M|52.79,28.53|N|Kill and loot the Burning Blade thugs, neophytes and cultists for their spellscrolls.|
 H Razor Hill|ACTIVE|25232|M|51.61,41.65|N|Hearth to Razor Hill. Run if your Hearthstone is on cooldown.|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar.|
@@ -142,11 +142,11 @@ T Gaur Icehorn|QID|25259|M|58.77,23.12|N|To Spiketooth.|RANK|2|
 C Skull Rock|QID|25262|M|55.02,9.78|N|Kill and loot the Burning Blade for their Searing Collars|
 T Skull Rock|QID|25262|M|56.41,20.05|N|To Margoz.|
 A Arnak Fireblade|QID|25263|PRE|25262|M|56.41,20.05|N|From Margoz.|
-R Orgrimmar |QID|25263|ACTIVE|25263|N|Head to Orgrimmar|M|45.50,11.43|
+R Orgrimmar |QID|25263|ACTIVE|25263|N|Head to Orgrimmar|M|45.50,11.43|FLY|OLD|
 T Arnak Fireblade|QID|25263|M|58.35,54.18|Z|Cleft of Shadow@Orgrimmar|N|To Neeru Fireblade, in the Cleft of Shadow in Orgrimmar.|
 N Azshara |QID|25648|ACTIVE|25648|N|You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara. Otherwise, please abandon the quest "Beyond Durotar"|
 A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|Orgrimmar|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Neeru Fireblade.|
 N Azshara |QID|28496|ACTIVE|28496|N|Whoops. You have an Azshara quest in your log. If you wish to move onto Azshara zone next, please manually change the guide to Azshara. Otherwise, please abandon the quest "Warchief's Command: Azshara"|
-A Warchief's Command: Northern Barrens!|QID|28494|LEAD|871|M|45.55,5.93|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Warchief's Command Board.|
+;A Warchief's Command: Northern Barrens!|QID|28494|LEAD|871|M|45.55,5.93|N|*Northern Barrens Quest*\n\nAccept this quest as you plan on going to Northern Barrens next. From Warchief's Command Board.|
 ]]
 end)

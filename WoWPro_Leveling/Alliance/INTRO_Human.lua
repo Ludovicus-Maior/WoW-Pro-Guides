@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Human: Intro")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|10|S!US|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|10;-60|S!US|
 A Beating Them Back!|QID|28762|M|33.55,53.00|N|From Marshal McBride.|R|Human|C|Paladin|
 A Beating Them Back!|QID|28766|M|33.55,53.00|N|From Marshal McBride.|R|Human|C|Warrior|
 A Beating Them Back!|QID|28767|M|33.55,53.00|N|From Marshal McBride.|R|Human|C|Hunter|
@@ -15,7 +15,7 @@ A Beating Them Back!|QID|28757|M|33.55,53.00|N|From Marshal McBride.|R|Human|C|M
 A Beating Them Back!|QID|28764|M|33.55,53.00|N|From Marshal McBride.|R|Human|C|Rogue|
 A Beating Them Back!|QID|28765|M|33.55,53.00|N|From Marshal McBride.|R|Human|C|Warlock|
 A Beating Them Back!|QID|31139|M|33.55,53.00|N|From Marshal McBride.|R|Human|C|Monk|
-A Beating Them Back!|QID|29078|M|33.55,53.00|N|From Marshal McBride.|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
+A Beating Them Back!|QID|29078|M|33.55,53.00|N|From Marshal McBride.|R|-Human|
 C Beating Them Back!|QID|28762|M|28.86,42.35|N|Kill worgs around this location.|
 C Beating Them Back!|QID|28766|M|28.86,42.35|N|Kill worgs around this location.|
 C Beating Them Back!|QID|28767|M|28.86,42.35|N|Kill worgs around this location.|
@@ -96,7 +96,7 @@ A Fear No Evil|QID|28812|M|35.31,37.84|N|From Brother Paxton.|PRE|28788|R|Human|
 A They Sent Assassins|QID|31144|M|35.73,39.79|N|From Sergeant Willem.|PRE|31143|R|Human|C|Monk|
 ; Fear No Evil is not offered to Monks!
 A They Sent Assassins|QID|29081|M|35.73,39.79|N|From Sergeant Willem.|PRE|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
-A Fear No Evil|QID|29082|M|34.59,39.02|N|From Brother Paxton.|PRE|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|RANK|2|
+A Fear No Evil|QID|29082|M|34.59,39.02|N|From Brother Paxton.|PRE|29080|R|-Human|RANK|2|
 C They Sent Assassins|QID|28791|M|34.27,30.52|N|Kill goblin assassins.|S|
 C They Sent Assassins|QID|28792|M|34.27,30.52|N|Kill goblin assassins.|S|
 C They Sent Assassins|QID|28797|M|34.27,30.52|N|Kill goblin assassins.|S|
@@ -106,14 +106,14 @@ C They Sent Assassins|QID|28793|M|34.27,30.52|N|Kill goblin assassins.|S|
 C They Sent Assassins|QID|28796|M|34.27,30.52|N|Kill goblin assassins.|S|
 C They Sent Assassins|QID|31144|M|34.27,30.52|N|Kill goblin assassins.|S|
 C They Sent Assassins|QID|29081|M|34.27,30.52|N|Kill goblin assassins.|S|
-C Fear No Evil|QID|28806|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|NC|
-C Fear No Evil|QID|28808|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|NC|
-C Fear No Evil|QID|28813|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|NC|
-C Fear No Evil|QID|28810|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|NC|
-C Fear No Evil|QID|28811|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|NC|
-C Fear No Evil|QID|28809|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|NC|
-C Fear No Evil|QID|28812|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|NC|
-C Fear No Evil|QID|29082|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|US|NC|
+C Fear No Evil|QID|28806|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|H|
+C Fear No Evil|QID|28808|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|H|
+C Fear No Evil|QID|28813|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|H|
+C Fear No Evil|QID|28810|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|H|
+C Fear No Evil|QID|28811|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|H|
+C Fear No Evil|QID|28809|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|H|
+C Fear No Evil|QID|28812|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|H|
+C Fear No Evil|QID|29082|M|34.27,30.52|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|H|
 C They Sent Assassins|QID|28791|M|34.27,30.52|N|Kill goblin assassins.|US|
 C They Sent Assassins|QID|28792|M|34.27,30.52|N|Kill goblin assassins.|US|
 C They Sent Assassins|QID|28797|M|34.27,30.52|N|Kill goblin assassins.|US|
@@ -178,22 +178,22 @@ r Sell Junk/restock/train/repair|ACTIVE|54|M|41.84,65.68|Z|Elwynn Forest|N|Repai
 T Report to Goldshire|QID|54|M|42.11,65.92|Z|Elwynn Forest|N|To Marshal Dughan.|
 A The Fargodeep Mine|QID|62|M|42.11,65.92|Z|Elwynn Forest|N|From Marshal Dughan.|
 A Gold Dust Exchange|QID|47|M|42.14,67.25|Z|Elwynn Forest|N|From Remy "Two Times".|
-R The Stonefield Farm|QID|85|M|34.31,83.67|Z|Elwynn Forest|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|
+R The Stonefield Farm|QID|85|M|34.31,83.67|Z|Elwynn Forest|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|FLY|OLD|
 A Lost Necklace|QID|85|M|34.49,84.25|Z|Elwynn Forest|N|From "Auntie" Bernice Stonefield.|
-R The Maclure Vineyards|ACTIVE|85|M|40.47,86.61|Z|Elwynn Forest|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|
+R The Maclure Vineyards|ACTIVE|85|M|40.47,86.61|Z|Elwynn Forest|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|FLY|OLD|
 T Lost Necklace|QID|85|M|43.13,85.72|Z|Elwynn Forest|N|To Billy Maclure.|
 A Pie for Billy|QID|86|M|43.13,85.72|Z|Elwynn Forest|N|From Billy Maclure.|PRE|85|
 C Pie for Billy|QID|86|M|41.74,87.48|Z|Elwynn Forest|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|S|
 A Young Lovers|QID|106|M|43.15,89.63|Z|Elwynn Forest|N|From Maybell Maclure.|
 C Pie for Billy|QID|86|M|41.74,87.48|Z|Elwynn Forest|N|Kill and loot Stonetusk Boars until you have 4 Tender Boar Meat.|US|
-R The Stonefield Farm|QID|86|ACTIVE|106|M|29.84,86.00|Z|Elwynn Forest|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|
+R The Stonefield Farm|QID|86|ACTIVE|106|M|29.84,86.00|Z|Elwynn Forest|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|FLY|OLD|
 T Young Lovers|QID|106|M|29.84,86.00|Z|Elwynn Forest|N|To Tommy Joe Stonefield.|
 A Speak with Gramma|QID|111|M|29.84,86.00|Z|Elwynn Forest|N|From Tommy Joe Stonefield.|PRE|106|
 T Pie for Billy|QID|86|M|34.49,84.25|Z|Elwynn Forest|N|To "Auntie" Bernice Stonefield.|
 A Back to Billy|QID|84|M|34.49,84.25|Z|Elwynn Forest|N|From "Auntie" Bernice Stonefield.|PRE|86|
 T Speak with Gramma|QID|111|M|34.94,83.86|Z|Elwynn Forest|N|To Gramma Stonefield, inside the hut.|
 A Note to William|QID|107|M|34.94,83.86|Z|Elwynn Forest|N|From Gramma Stonefield.|PRE|111|
-R The Maclure Vineyards|ACTIVE|84|M|40.47,86.61|Z|Elwynn Forest|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|
+R The Maclure Vineyards|ACTIVE|84|M|40.47,86.61|Z|Elwynn Forest|N|Kill and loot Kobold Tunnelers on the way (for Gold Dust and Large Candles).|FLY|OLD|
 T Back to Billy|QID|84|M|43.13,85.72|Z|Elwynn Forest|N|To Billy Maclure.|
 A Goldtooth|QID|87|M|43.13,85.72|Z|Elwynn Forest|N|From Billy Maclure.|PRE|84|
 C Goldtooth|QID|87|M|40.10,80.64|Z|Elwynn Forest|N|Go to Goldtooth's Den (which is located OUTSIDE of the mine), kill Goldtooth and loot Bernice's Necklace.|T|Goldtooth|
@@ -218,7 +218,7 @@ A The Jasperlode Mine|QID|76|M|42.11,65.93|Z|Elwynn Forest|N|From Marshal Dughan
 C Collecting Kelp|QID|112|M|50.93,66.47|Z|Elwynn Forest|N|Kill Murlocs until you have 4 Crystal Kelp Fronds.|
 R Jasperlode Mine|ACTIVE|76|M|61.77,54.00|Z|Elwynn Forest|N|Go to the Jasperlode Mine.|
 C The Jasperlode Mine|QID|76|M|61.74,53.91|Z|Elwynn Forest|N|Go into the mine until you get a quest completed message.|NC|
-H Lion's Pride Inn|ACTIVE|112|M|43.77,65.80|Z|Elwynn Forest|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|
+H Lion's Pride Inn|ACTIVE|112|M|43.77,65.80|Z|Elwynn Forest|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|FLY|OLD|
 T Collecting Kelp|QID|112|M|43.32,65.70|Z|Elwynn Forest|N|To William Pestle.|
 A The Escape|QID|114|M|43.32,65.70|Z|Elwynn Forest|N|From William Pestle. You will need to wait a few seconds after turning in Collecting Kelp before this quest is available.|PRE|112|
 r Sell Junk, Restock, and Repair.|ACTIVE|76|M|42.11,65.93|Z|Elwynn Forest|N|Take this opportunity to sell Junk, Restock, and Repair.|S|
@@ -260,10 +260,10 @@ C Fine Linen Goods|QID|83|M|71.20,78.86|Z|Elwynn Forest|N|Kill Bandits until you
 T Fine Linen Goods|QID|83|M|79.46,68.71|Z|Elwynn Forest|N|To Sara Timberlain.|
 T Cloth and Leather Armor|QID|59|M|79.46,68.71|Z|Elwynn Forest|N|To Sara Timberlain.|
 T Manhunt|QID|147|M|81.86,66.04|Z|Elwynn Forest|N|To Marshal Patterson.|
-F Goldshire|QID|114|M|81.83,66.55|Z|Elwynn Forest|N|Fly to Goldshire.|
+F Goldshire|QID|114|M|81.83,66.55|Z|Elwynn Forest|N|Fly to Goldshire.|FLY|OLD|
 R Jerod's Landing|ACTIVE|114|M|46.42,86.90|Z|Elwynn Forest|N|If you want the exploration achievement for Elwynn Forest head to Jerod's Landing now.|
 T The Escape|QID|114|M|43.15,89.63|Z|Elwynn Forest|N|To Maybell Maclure.|
-H Lion's Pride Inn|QID|26393|M|43.77,65.80|Z|Elwynn Forest|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|
+H Lion's Pride Inn|QID|26393|M|43.77,65.80|Z|Elwynn Forest|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|FLY|OLD|
 A Elmore's Task|QID|1097|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|LEAD|353|RANK|2|
 A A Swift Message|QID|26393|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|R|Human|
 r Sell Junk, Restock, Train and Repair.|ACTIVE|26393|M|41.86,65.68|Z|Elwynn Forest|N|Take this opportunity to sell Junk, Restock, Train and Repair before you leave Goldshire.|S|
@@ -275,7 +275,7 @@ A Dungar Longdrink|QID|26395|M|77.17,60.98|Z|Stormwind City|N|From Osric Strang.
 T Elmore's Task|QID|1097|M|71.39,55.76;70.07,46.97;59.72,33.78|Z|Stormwind City|CC|N|To Grimand Elmore, in the Dwarven District.|
 T Dungar Longdrink|QID|26395|M|70.93,72.48|Z|Stormwind City|N|To Dungar Longdrink back at the Gryphon Roost.|
 A Return to Argus|QID|26396|M|70.93,72.48|Z|Stormwind City|N|From Dungar Longdrink.|PRE|26395|R|Human|
-F Goldshire|ACTIVE|26396|M|70.93,72.48|Z|Stormwind City|N|Fly back to Goldshire.|
+F Goldshire|ACTIVE|26396|M|70.93,72.48|Z|Stormwind City|N|Fly back to Goldshire.|FLY|OLD|
 T Return to Argus|QID|26396|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus.|
 A Westbrook Garrison Needs Help!|QID|239|M|42.10,65.93|Z|Elwynn Forest|N|From Marshal Dughan.|PRE|76|LEAD|11|
 T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|Z|Elwynn Forest|N|To Deputy Rainer.|
@@ -288,6 +288,6 @@ C Riverpaw Gnoll Bounty|QID|11|M|25.94,89.52|Z|Elwynn Forest|N|Kill Gnolls and l
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|Z|Elwynn Forest|N|To Deputy Rainer.|
 T WANTED:  "Hogger"|QID|176|M|42.2,65.9|Z|Elwynn Forest|N|To Marshal Dughan.|
 N If you plan on going to Westfall pick up the next quest. If you dont just skip them.|
-A Hero's Call: Westfall!|AVAILABLE|26378|M|42.2,65.8|Z|Elwynn Forest|N|From Marshal Dughan.|
+;A Hero's Call: Westfall!|AVAILABLE|26378|M|42.2,65.8|Z|Elwynn Forest|N|From Marshal Dughan.|
 ]]
 end)
