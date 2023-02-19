@@ -401,6 +401,24 @@ function WoWPro.UpdateTradeSkillsTable(tradeskills)
     end
 end
 
+function WoWPro.TradeskillsReport()
+        -- Lets display a debug like window with all the right stuff
+        WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Tradeskills Bug Report","Hit escape to dismiss")
+        local LogBox = WoWPro.LogBox
+        local text
+        local GID = WoWProDB.char.currentguide
+        text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
+        text = text .. "_TID Lvl Max ++ Name\n"
+        for tradeID, tradeskill in pairs(WoWProCharDB.Tradeskills) do
+            local line
+            line = ("%04d %03d %03d %02d %q\n"):format(tradeID, tradeskill.skillLvl, tradeskill.skillMax, tradeskill.Mod, tradeskill.name)
+            text = text .. line
+        end
+        LogBox.Box:SetText(text)
+        LogBox.Scroll:UpdateScrollChildRect()
+        LogBox:Show()
+        WoWPro:Print("WoWPro:TradeskillsReport(): ready to copy/paste!")
+end
 
 -- special handling for Classics because of the reduced addon API
 if not WoWPro.RETAIL then

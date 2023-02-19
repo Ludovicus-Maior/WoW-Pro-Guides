@@ -64,6 +64,8 @@ local function handler(msg, editbox)
         WoWPro:LogShow()
     elseif ltoken == 'guide-bug' then
         WoWPro:GuideBugReport()
+    elseif ltoken == 'trade-bug' then
+        WoWPro.TradeskillsReport()
     elseif ltoken == 'reset' then
         WoWPro:RESET()
     elseif ltoken == "taint" then
