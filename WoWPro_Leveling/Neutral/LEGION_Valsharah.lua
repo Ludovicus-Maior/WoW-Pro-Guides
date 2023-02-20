@@ -13,7 +13,7 @@ N Rares (Silver Elite)|QID|39731|N|All of the Silver mobs are listed on rank 2 o
 N Ranks|QID|39731|N|Setting the guide to Rank 1 will get you the minimum nesessary for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there as well as treasure chests and rares that are in the same areas. Rank 3 gets every quest, rare and nearly every treasure in the zone.|
 T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A Tying Up Loose Ends|QID|39861|PRE|39731|M|70.65,43.80|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|
-C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran!Dalaran!Dungeon|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
+C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
 T Tying Up Loose Ends|QID|39861|M|54.69,72.83|N|To Malfurion Stormrage.|
 A Cenarius, Keeper of the Grove|QID|40122|PRE|39861|M|54.69,72.83|N|From Malfurion Stormrage.|
 C Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|Speak to Malfurion|CHAT|
@@ -26,12 +26,12 @@ A Archdruid of Lore|QID|38381^44106|PRE|38384|M|54.38,73.58|N|From Aranelle.|
 $ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39093|M|54.19,70.59|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|38466|M|55.55,77.60|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|ITEM|130147|RANK|2|
-U Thistleleaf Branch|AVAILABLE|39383|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|PRE|38466|
+;U Thistleleaf Branch|AVAILABLE|39383|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|PRE|38466|; look at this again once Ludo implements TOY
 l Companion Pet|QID|38468|M|59.54,77.23|L|130154|N|Chat with Lorel Stagfeather to start a fight with Gorebeak.|ITEM|130154|RANK|2|T|Gorebeak|RARE|
 U Pygmy Owl|QID|38468|M|59.54,77.23|U|130154|N|Click to add the Pygmy Owl to your collection.|RANK|2|RARE|
 T Archdruid of the Vale|QID|38382|M|61.04,73.23|N|To Thaon Moonclaw.|
 A Dishonored|QID|39383|PRE|38382|M|61.04,73.25|N|From Thaon Moonclaw.|
-A Moonclaw Vale-Bonus Objective|QID|39393|PRE|38382|M|61.04,73.23|N|Auto accepted by entering the area.|RANK|2|LVL|-45;CT|
+A Moonclaw Vale-Bonus Objective|QID|39393|PRE|38382|M|61.04,73.23|N|Auto accepted by entering the area.|RANK|2|LVL|-45|
 C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|S|N|Destroy Totems, rescue druids and in general cause meyhem to advance the objective.|RANK|2|
 $ Treasure|QID|38943|M|59.88,72.26|N|Inside the house, up the right staircase. Loot for a bit of resources and treasure.|RANK|2|
 K Kill Perrexx|QID|39596|QO|1|M|61.02,69.36|ITEM|130137|N|Kill for a chance at treasure and resources.|T|Perrexx|RANK|2|RARE|
@@ -44,7 +44,7 @@ C The Corruptor|QID|39384|M|63.77,71.46;62.96,68.71|CS|QO|1|NC|N|Enter Moonclaw 
 C The Corruptor|QID|39384|M|64.90,66.91|QO|2|N|Kagraxxis the Corruptor slain|T|Kagraxxis the Corruptor|
 T The Corruptor|QID|39384|M|65.18,67.03|N|To Evelle Nightwhisper.|
 A The Nightmare Lord|QID|40573|PRE|39384|M|65.18,67.03|N|From Evelle Nightwhisper.|
-C The Nightmare Lord|QID|40573|QO|1|M|65.18,67.03|NC|N|Evelle released|
+C The Nightmare Lord|QID|40573|QO|1|M|65.18,67.03|H|N|Evelle released|
 $ Treasure|QID|39071|M|62.06,67.33|N|Out of the cavern and around the corner up the stream. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39087|M|61.63,73.69|N|Beside the pond, Loot for a bit of treasure and resources.|RANK|2|
 C The Nightmare Lord|QID|40573|M|62.22,76.14|NC|QO|2|N|Enter The Archdruid's Den|
@@ -59,14 +59,14 @@ A All Grell Broke Loose|QID|42883|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grassroots Effort|QID|42884|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grell to Pay|QID|42865|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Moist Around the Hedges|QID|42857|M|66.82,75.66|N|From Moist Grizzlecrumb.|RANK|2|
-C Grassroots Effort|QID|42884|S|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
-C Moist Around the Hedges|QID|42857|NC|S|N|These are scattered around and drop from the Grell.|RANK|2|
+C Grassroots Effort|QID|42884|S|U|138815|H|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
+C Moist Around the Hedges|QID|42857|H|S|N|These are scattered around and drop from the Grell.|RANK|2|
 C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|S|N|Kill Grell while going around clearing doorways.|RANK|2|
 $ Undergrell Attack|QID|43176|M|67.12,69.57|ITEM|130133|N|Help an embattled druid out for some treasure and resources.|RANK|2|
 C Grell to Pay|QID|42865|M|68.13,71.58|N|Kill Enderkind|T|Enderkind|RANK|2|
 C All Grell Broke Loose|QID|42883|M|68.68,73.84|NC|US|N|Kill Grell.|RANK|2|
-C Moist Around the Hedges|QID|42857|M|68.68,73.84|NC|US|N|These are scattered around and drop from the Grell.|RANK|2|
-C Grassroots Effort|QID|42884|M|68.68,73.84|US|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
+C Moist Around the Hedges|QID|42857|M|68.68,73.84|H|US|N|These are scattered around and drop from the Grell.|RANK|2|
+C Grassroots Effort|QID|42884|M|68.68,73.84|US|H|U|138815|N|Use the Old Grizzlebarks staff (provided) to clear the doorways of brambles.|RANK|2|
 T Grell to Pay|QID|42865|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T All Grell Broke Loose|QID|42883|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Grassroots Effort|QID|42884|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
@@ -79,13 +79,13 @@ R Lightsong|QID|42748|M|59.41,84.12|N|Some optional quests and treasure are avai
 A Emerald Sisters|QID|42748|M|59.41,84.12|N|From Guviena Bladesong.|RANK|2|
 A Where the Wildkin Are|QID|42747|M|59.41,84.12|N|From Guviena Bladesong.|RANK|2|
 C Where the Wildkin Are|QID|42747|M|59.46,82.04|S|N|Kill Wildkin and slimes as you go.|RANK|2|
-C Emerald Sisters|QID|42748|M|59.46,82.04|S|N|Rescue Sisters as you go in the Grotto.|RANK|2|
+C Emerald Sisters|QID|42748|M|59.46,82.04|S|H|N|Rescue Sisters as you go in the Grotto.|RANK|2|
 A Dreamcatcher|QID|42750|M|59.46,82.04|N|From Leirana.|RANK|2|
 A Grotesque Remains|QID|42786|U|138441|N|From an item that will randomly drop from the slimes.|RANK|2|
-C Dreamcatcher|QID|42750|M|59.22,81.87|QO|1|NC|N|Click the Shriektalon Totem to siphen.|RANK|2|
-C Dreamcatcher|QID|42750|M|56.30,81.14|QO|2|NC|N|Click the Fearfeather Totem to siphen.|RANK|2|
-C Dreamcatcher|QID|42750|M|59.23,80.44;61.03,80.70|CS|QO|3|NC|N|Go inside the cave with the fish on the outside.\nClick the Reaverbeak Totem to siphen.|RANK|2|
-C Emerald Sisters|QID|42748|M|59.46,82.04|US|N|Finish rescuing Sisters as you leave the grotto.|RANK|2|
+C Dreamcatcher|QID|42750|M|59.22,81.87|QO|1|H|N|Click the Shriektalon Totem to siphen.|RANK|2|
+C Dreamcatcher|QID|42750|M|56.30,81.14|QO|2|H|N|Click the Fearfeather Totem to siphen.|RANK|2|
+C Dreamcatcher|QID|42750|M|59.23,80.44;61.03,80.70|CS|QO|3|H|N|Go inside the cave with the fish on the outside.\nClick the Reaverbeak Totem to siphen.|RANK|2|
+C Emerald Sisters|QID|42748|M|59.46,82.04|US|H|N|Finish rescuing Sisters as you leave the grotto.|RANK|2|
 C Where the Wildkin Are|QID|42747|M|59.46,82.04|US|N|Finish killing Wildkin and slimes as you leave the grotto.|RANK|2|
 T Emerald Sisters|QID|42748|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
 T Where the Wildkin Are|QID|42747|M|59.41,84.13|N|To Guviena Bladesong.|RANK|2|
@@ -103,7 +103,7 @@ $ Treasure|QID|39074|M|65.38,86.25|N|Small cave, below Whispering Bluff. Loot fo
 R Lightsong|QID|42786|M|61.46,87.9;59.52,85.90|CS|N|Back up the hill to turn the quests in.|RANK|2|FLY|LEGION|
 T Moon Reaver|QID|42751|M|59.33,83.99|N|To Keeper Remulos.|RANK|2|
 R Lunarwing Shallows|QID|40221|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|QO|1|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|FLY|LEGION|
-A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|LVL|-45;CT|
+A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|LVL|-45|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|S|N|Kill the thistleleafs and otherwise work towards the objective.|RANK|2|
 A Thorny Dancing|QID|40220|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
 A Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
