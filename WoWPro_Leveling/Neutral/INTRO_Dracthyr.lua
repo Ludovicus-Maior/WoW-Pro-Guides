@@ -157,7 +157,7 @@ A I Believe You Can Fly|QID|32675|PRE|65101|M|82.66,24.00|Z|84; Stormwind City|N
 A The Obsidian Warders|QID|72240|PRE|65101|M|80.00,27.10|Z|84; Stormwind City|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Expeditionary Coordination|QID|66589|PRE|65101|M|79.82,27.26|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
 C Dervishian|QID|72240|M|51.05,67.42|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|
-C Thaelin Darkanvil|QID|66589|QO|1|M|64.11,37.40|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil in Dwarven District.|FACTION|Alliance|
+C Thaelin Darkanvil|QID|66589|QO|1|M|64.11,37.40|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil in the Dwarven District near the forge.|FACTION|Alliance|
 C Cataloger Wulfered|QID|66589|QO|3|M|63.36,70.02|Z|84; Stormwind City|CHAT|N|Talk to Cataloger Wulfered in Trade District.|FACTION|Alliance|
 C Dervishian|QID|72240|M|51.05,67.42|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders.|US|FACTION|Alliance|
 C Pathfinder Jeb|QID|66589|QO|2|M|38.45,45.37|Z|84; Stormwind City|CHAT|N|Talk to Pathfinder Jeb at Stormwind Harbor.|FACTION|Alliance|
@@ -187,12 +187,11 @@ A The Dark Talons|QID|72256|PRE|65613|M|44.01,38.24|Z|85; Orgrimmar|N|From Scale
 A Expeditionary Coordination|QID|65443|PRE|65613|M|44.19,37.79|Z|85; Orgrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
 T I Believe You Can Fly|QID|32674|M|48.90,59.28|Z|85; Orgrimmar|N|To Maztha, and train flying from her.|FACTION|Horde|
 = Flying|ACTIVE|-32674|AVAILABLE|-32674|M|48.90,59.28|Z|85; Orgrimmar|N|Learn your Expert Riding (Flying) skill from Maztha.|SPELL|Expert Riding;34090|FACTION|Horde|
-C Kodethi|QID|72256|QO|1|M|55.07,89.62|Z|85; Orgrimmar|CHAT|N|Deliver the orders to Kodethi.|S|FACTION|Horde|
-C Boss Magor|QID|65443|QO|1|M|57.10,54.12|Z|85; Orgrimmar|CHAT|N|Artisans recruited.|FACTION|Horde|
+C Boss Magor|QID|65443|QO|1|M|57.10,54.12|Z|85; Orgrimmar|CHAT|N|Talk to Boss Magor on the fishing dock in The Drag.|FACTION|Horde|
 C Cataloger Coralie|QID|65443|QO|3|M|71.45,50.64|Z|85; Orgrimmar|CHAT|N|Speak with Cataloger Coralie on the upper floor of the Wyvern's Tail in Valley of Honor.|FACTION|Horde|
-C Pathfinder Tacha|QID|65443|QO|2|M|38.60,56.96|Z|85; Orgrimmar|CHAT|N|Speak with Pathfinder Tacha atop one the rock spires on the border between The Valley of Wisdom and the Valley of Spirits.\n[color=FF0000]NOTE: [/color]You're going to have to fly up there.|FACTION|Horde|
-C Kodethi|QID|72256|QO|1|M|55.07,89.62|Z|85; Orgrimmar|CHAT|N|Deliver the orders to Kodethi.|US|FACTION|Horde|
-T Expeditionary Coordination|QID|65443|M|55.84,12.63|Z|1; Durotar|N|To Naleidea Rivergleam at the Zeppelin tower.\n[color=FF0000]NOTE: [/color]She's upstairs.|FACTION|Horde|
+C Pathfinder Tacha|QID|65443|QO|2|M|38.60,56.96|Z|85; Orgrimmar|CHAT|N|Speak with Pathfinder Tacha atop one of the rock spires on the border between The Valley of Wisdom and the Valley of Spirits.\n[color=FF0000]NOTE: [/color]You're going to have to fly up there.|FACTION|Horde|
+C Kodethi|QID|72256|QO|1|M|55.07,89.62|Z|85; Orgrimmar|CHAT|N|Deliver Scalecommander Cindrethresh's orders to Kodethi on top of the front gate.|FACTION|Horde|
+T Expeditionary Coordination|QID|65443|M|55.84,12.63|Z|1; Durotar|N|To Naleidea Rivergleam at the top of the new zepplin tower by the harbor.|FACTION|Horde|
 T The Dark Talons|QID|72256|M|55.84,12.63|Z|1; Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
 A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.91,12.61|Z|1; Durotar|N|From Archmage Khadgar.|FACTION|Horde|
 C Archmage Khadgar|QID|65439|QO|1|M|55.91,12.61|Z|1; Durotar|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|

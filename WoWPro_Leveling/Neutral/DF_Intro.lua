@@ -7,45 +7,49 @@ WoWPro:GuideQuestTriggers(guide, 65435, 65436, 70197, 70198)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;A The Dragon Isles Await|QID|65436|M|PLAYER|Z|84|N|From UI Alert.|FACTION|Alliance|
-;A The Dragon Isles Await|QID|65435|M|PLAYER|Z|85|N|From UI Alert.|FACTION|Horde|
-t The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84|N|To Wrathion in Stormwind.|FACTION|Alliance|
-t The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85|N|To Ebyssian in Orgrimmar.|FACTION|Horde|
-A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84|N|From Wrathion.|FACTION|Alliance|
-A Aspectral Invitation|QID|65437|PRE|65435|M|44.22,38.11|Z|85|N|From Ebyssian.|FACTION|Horde|
-C Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|QO|1|CHAT|N|Speak with Wrathion.|FACTION|Alliance|
-C Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85|QO|1|CHAT|N|Speak with Ebyssian.|FACTION|Horde|
-T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|N|To Wrathion.|FACTION|Alliance|
-T Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85|N|To Ebyssian.|FACTION|Horde|
-A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84|N|From Scalecommander Azurathel.|FACTION|Alliance|
-A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
-C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|84|QO|1|CHAT|N|Artisans can be found in the Dwarven District near the forge.|FACTION|Alliance|
-C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|84|QO|3|CHAT|N|Scholars can be found in front of Weller's arsenal in the Trade District.|FACTION|Alliance|
-C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|84|QO|1|CHAT|N|Orders delivered to Dervishian who is on the top of the tower above the Stockades.|FACTION|Alliance|
-C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|84|QO|2|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
-T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
-T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
-A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85|N|From Naleidea Rivergleam.|FACTION|Horde|
-A The Dark Talons|QID|72256|PRE|65437|M|44.27,38.21|Z|85|N|From Scalecommander Cinderthresh.|FACTION|Horde|
-C Expeditionary Coordination|QID|65443|M|57.18,54.14|Z|85|QO|1|CHAT|N|The artisans can be found on the fishing dock in The Drag.|FACTION|Horde|
-C Expeditionary Coordination|QID|65443|M|71.24,50.66|Z|85|QO|3|CHAT|N|The scholars can be found upstairs inside The Wyvern's Tail inn.|FACTION|Horde|
-C Expeditionary Coordination|QID|65443|M|38.42,57.02|Z|85|QO|2|CHAT|N|The explorers can be found on top of a rock formation- about equal to the height of the zep towers.|FACTION|Horde|
-C The Dark Talons|QID|72256|M|55.08,89.86|Z|85|QO|1|CHAT|N|Kodethi can be found on top of the front gate.|FACTION|Horde|
-T Expeditionary Coordination|QID|65443|M|55.80,12.63|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
-T The Dark Talons|QID|72256|M|55.80,12.63|Z|1|N|To Naleidea Rivergleam at the top of the new zep tower by the harbor.|FACTION|Horde|
-A Whispers on the Winds|QID|66596|PRE|66589&72240|M|22.86,56.25|Z|84|N|From Archmage Khadgar.|FACTION|Alliance|
-A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.93,12.63|Z|1|N|From Archmage Khadgar.|FACTION|Horde|
-C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|84|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
-C Whispers on the Winds|QID|65439|M|55.93,12.63|Z|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
-T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84|N|To Wrathion.|FACTION|Alliance|
-T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1|N|To Ebyssian.|FACTION|Horde|
+;A The Dragon Isles Await|QID|65436|M|PLAYER|N|From UI Alert.|FACTION|Alliance|
+;A The Dragon Isles Await|QID|65435|M|PLAYER|N|From UI Alert.|FACTION|Horde|
+t The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84; Stormwind City|N|To Wrathion in Stormwind.|FACTION|Alliance|
+t The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85; Ogrimmar|N|To Ebyssian in Orgrimmar.|FACTION|Horde|
+A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|
+A Aspectral Invitation|QID|65437|PRE|65435|M|44.22,38.11|Z|85; Ogrimmar|N|From Ebyssian.|FACTION|Horde|
+C Wrathion|QID|66577|QO|1|M|79.79,27.00|Z|84; Stormwind City|CHAT|N|Speak with Wrathion.|FACTION|Alliance|
+C Ebyssian|QID|65437|QO|1|M|44.22,38.11|Z|85; Ogrimmar|CHAT|N|Speak with Ebyssian.|FACTION|Horde|
+T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
+T Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85; Ogrimmar|N|To Ebyssian.|FACTION|Horde|
+A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84; Stormwind City|N|From Scalecommander Azurathel.|FACTION|Alliance|
+A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
+C Thaelin Darkanvil|QID|66589|QO|1|M|64.09,37.17|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil in the Dwarven District near the forge.|FACTION|Alliance|
+C Cataloger Wulfered|QID|66589|QO|3|M|63.27,69.95|Z|84; Stormwind City|CHAT|N|Talk to Cataloger Wulfered in the Trade District.|FACTION|Alliance|
+C Dervishian|QID|72240|QO|1|M|50.94,67.29|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|
+C Pathfinder Jeb|QID|66589|QO|2|M|38.22,45.51|Z|84; Stormwind City|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
+T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
+T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
+A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
+A The Dark Talons|QID|72256|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Scalecommander Cinderthresh.|FACTION|Horde|
+C Boss Magor|QID|65443|QO|1|M|57.18,54.14|Z|85; Ogrimmar|CHAT|N|Talk to Boss Magor on the fishing dock in The Drag.|FACTION|Horde|
+C Cataloger Coralie|QID|65443|QO|3|M|71.45,50.64|Z|85; Orgrimmar|CHAT|N|Speak with Cataloger Coralie on the upper floor of the Wyvern's Tail in Valley of Honor.|FACTION|Horde|
+C Pathfinder Tacha|QID|65443|QO|2|M|38.60,56.96|Z|85; Orgrimmar|CHAT|N|Speak with Pathfinder Tacha atop one of the rock spires on the border between The Valley of Wisdom and the Valley of Spirits.\n[color=FF0000]NOTE: [/color]You're going to have to fly up there.|FACTION|Horde|
+C Kodethi|QID|72256|QO|1|M|55.07,89.62|Z|85; Orgrimmar|CHAT|N|Deliver the orders to Kodethi on top of the front gate.|FACTION|Horde|
+T Expeditionary Coordination|QID|65443|M|55.80,12.63|Z|1; Durotar|N|To Naleidea Rivergleam at the top of the new zepplin tower by the harbor.|FACTION|Horde|
+T The Dark Talons|QID|72256|M|55.80,12.63|Z|1; Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
+A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.91,12.61|Z|1; Durotar|N|From Archmage Khadgar.|FACTION|Horde|
+C Archmage Khadgar|QID|65439|QO|1|M|55.91,12.61|Z|1; Durotar|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
+T Whispers on the Winds|QID|65439|M|55.85,12.74|Z|1; Durotar|N|To Ebyssian.|FACTION|Horde|
+
+A Whispers on the Winds|QID|66596|PRE|66589&72240|M|22.86,56.25|Z|84; Stormwind City|N|From Archmage Khadgar.|FACTION|Alliance|
+A Whispers on the Winds|QID|65439|PRE|65443&72256|M|55.93,12.63|Z|1; Durotar|N|From Archmage Khadgar.|FACTION|Horde|
+C Archmage Khadgar|QID|66596|M|22.86,56.25|Z|84; Stormwind City|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
+C Archmage Khadgar|QID|65439|M|55.93,12.63|Z|1; Durotar|CHAT|N|Speak with Archmage Khadgar.|FACTION|Horde|
+T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
+T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1; Durotar|N|To Ebyssian.|FACTION|Horde|
 ;A The Call of the Isles|QID|70197^70198|M|PLAYER|N|Autoaccepted - UI Pushed.|
 t The Call of the Isles|QID|70197|M|22.71,55.66|N|To Toddy Whiskers.|FACTION|Alliance|
-t The Call of the Isles|QID|70198|M|55.81,12.67|Z|1|N|To Naleidea Rivergleam.|FACTION|Horde|
-A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
-A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1|N|From Naleidea Rivergleam.|FACTION|Horde|
-C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|84|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks. \n\n[color=FF0000] NOTE: [/color]The boat to Boralas is also a Kul Tiran Style boat and docks here too, get on the right one.|FACTION|Alliance|
-C To the Dragon Isles!|QID|65444|M|55.95,13.02|Z|1|QO|1|NC|N|Wait for the Defiant Dragonscale at Durotar Zepplin Tower.|FACTION|Horde|
+t The Call of the Isles|QID|70198|M|55.81,12.67|Z|1; Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
+A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
+A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1; Durotar|N|From Naleidea Rivergleam.|FACTION|Horde|
+C To the Dragon Isles!|QID|67700|QO|1|M|22.49,56.45|Z|84; Stormwind City|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.\n[color=FF0000] NOTE: [/color]The boat to Boralas is also a Kul Tiran style boat and docks here too; get on the right one.|FACTION|Alliance|
+C To the Dragon Isles!|QID|65444|M|55.95,13.02|Z|1; Durotar|QO|1|NC|N|Wait for the Defiant Dragonscale at Durotar Zepplin Tower.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
 C To the Dragon Isles!|QID|65444|M|80.83,27.67|Z|2022|QO|2|NC|N|Ride the Defiant Dragonscale to Dragon Isles.|FACTION|Horde|
 T To the Dragon Isles!|QID|67700|M|82.13,31.90|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
