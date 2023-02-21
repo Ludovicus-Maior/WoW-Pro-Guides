@@ -50,12 +50,12 @@ A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84; Stormwind City|N|
 A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1; Durotar|N|From Naleidea Rivergleam.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|QO|1|M|22.49,56.45|Z|84; Stormwind City|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.\n[color=FF0000] NOTE: [/color]The boat to Boralas is also a Kul Tiran style boat and docks here too; get on the right one.|FACTION|Alliance|
 C To the Dragon Isles!|QID|65444|M|55.95,13.02|Z|1; Durotar|QO|1|NC|N|Wait for the Defiant Dragonscale at Durotar Zepplin Tower.|FACTION|Horde|
-C To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
-C To the Dragon Isles!|QID|65444|M|80.83,27.67|Z|2022|QO|2|NC|N|Ride the Defiant Dragonscale to Dragon Isles.|FACTION|Horde|
+b To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
+b To the Dragon Isles!|QID|65444|M|80.83,27.67|Z|2022|QO|2|NC|N|Ride the Defiant Dragonscale to Dragon Isles.|FACTION|Horde|
 T To the Dragon Isles!|QID|67700|M|82.13,31.90|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
-T To the Dragon Isles!|QID|65444|M|80.62,27.58|Z|2022|N|To Naleidea Rivergleam.|FACTION|Horde|
+T To the Dragon Isles!|QID|65444|M|80.62,27.61|Z|2022|N|To Naleidea Rivergleam.|FACTION|Horde|
 A Explorers in Peril|QID|70122|PRE|67700|M|82.13,31.90|Z|2022|N|From Toddy Whiskers.|FACTION|Alliance|
-A Explorers in Peril|QID|65452|PRE|65444|M|80.62,27.58|Z|2022|N|From Naleidea Rivergleam.|FACTION|Horde|
+A Explorers in Peril|QID|65452|PRE|65444|M|80.62,27.61|Z|2022|N|From Naleidea Rivergleam.|FACTION|Horde|
 A Primal Pests|QID|70123|PRE|67700|M|82.16,31.86|Z|2022|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Primal Pests|QID|65453|PRE|65444|M|80.65,27.59|Z|2022|N|From Scalecommander Cinderthresh.|FACTION|Horde|
 A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022|N|From Thaelin Darkanvil.|FACTION|Alliance|
