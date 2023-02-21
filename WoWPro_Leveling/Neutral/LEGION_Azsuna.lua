@@ -108,6 +108,7 @@ C The Consumed|QID|37859|QO|2|M|44.49,16.50|S|H|N|Click on the Mana-Drained Whel
 C The Withered|QID|37856|QO|1|M|44.83,17.04|N|Kill Withered.|
 C The Consumed|QID|37859|QO|2|M|44.49,16.50|US|N|Finish reviving the Mana-Drained Whelpling.|
 T The Withered|QID|37856|M|48.62,16.48|N|To Agapanthus.|
+T The Consumed|QID|37859|M|49.12,16.54|N|To Projection of Senegos.|
 A Stellagosa|QID|37858|LEAD|37957|M|49.12,16.54|Z|630;Azsuna|N|From Projection of Senegos.|
 T Stellagosa|QID|37858|M|46.64,15.80|Z|630;Azsuna|N|From Stellagosa.|
 A Runas the Shamed|QID|37957|PRE|37855|M|46.64,15.80|N|From Stellagosa.|
@@ -137,7 +138,7 @@ T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Insc
 A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773;6|PRE|39936|
 $ Treasure Chest|QID|42339|M|51.75,17.36;52.82,20.04;54.03,22.42;52.84,20.58|CS|N|You can walk, avoiding the sleeping bears to get to this treasure. Loot for some resources and treasure.|RANK|3|
 K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|ITEM|129063|T|Cailyn Paledoom|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|RARE|
-A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45;CT|
+A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45|CT|
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|US|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773;6|
@@ -347,7 +348,7 @@ A Arkethrax|QID|42367|PRE|42375|M|63.88,28.88|N|From Marius Felbane.|RANK|3|
 C Quantity Over Quality|QID|42368|M|67.83,26.99|N|Kill demons as you go along.|S|RANK|3|
 $ Small Treasure Chest|QID|42958|M|65.47,29.56|N|Loot for a bit of treasure and resources.|RANK|3|
 C Runes of Power|QID|39940|M|67.85,28.07|S|NC|N|The runes are here on the ground on each side of the portal.|P|Inscription;773;6|
-C They're Doing it Wrong|QID|42369|NC|M|67.85,28.07|N|Two stabilizers need sabatoged on each side of the portal.|RANK|3|
+C They're Doing it Wrong|QID|42369|H|M|67.85,28.07|N|Two stabilizers need sabatoged on each side of the portal.|RANK|3|
 C Runes of Power|QID|39940|M|67.85,28.07|US|NC|N|Finish examining the runes.|P|Inscription;773;6|
 C Control is Key|QID|39941|M|68.46,26.17|T|Overseer Felorax|NC|N|Click on the fel totem to summon Overseer Felorax.|P|Inscription;773;6|
 $ Small Treasure Chest|QID|44103|M|69.16,25.93;69.77,29.57;68.87,29.73|CS|N|In an underwater cave. Loot for a bit of treasure and resources.|RANK|3|
@@ -419,11 +420,11 @@ T Morale Booster|QID|37536|M|47.93,48.67|N|To Sternfathom.|
 A Round 1, Fight!|QID|37538|PRE|37536|M|47.93,48.67|N|From Sternfathom.|
 C Round 1, Fight!|QID|37538|M|47.93,48.67|N|Tell Sternfathom you are ready.|
 T Round 1, Fight!|QID|37538|M|43.62,24.67|Z|Oceanus Cove|N|To Okuna Longtusk's pack.|
-A Plunder the Cove-Bonus Objective|QID|37495|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45;CT|
+A Plunder the Cove-Bonus Objective|QID|37495|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45|CT|
 A The Right Weapon for the Job|QID|37565|PRE|37538|M|43.62,24.67|Z|Oceanus Cove|N|From Okuna's pack.|RANK|2|
 C Reclaimed Cargo|QID|40194|M|46.48,59.32|Z|Oceanus Cove|P|Leatherworking;165;6|QO|1|S|US|N|Find Crates scattered throughout.|
 C Plunder the Cove-Bonus Objective|QID|37495|M|43.62,24.67|Z|Oceanus Cove|S|US|N|Killing mobs, and clicking on the Skrog weapons advances the objective.|RANK|2|
-C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|Oceanus Cove|S|US|N|Click on the quest item whenever you are near some prisoners.|RANK|2|
+C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|Oceanus Cove|S|N|Click on the quest item whenever you are near some prisoners.|RANK|2|
 $ Glimmering Treasure Chest|QID|37649|M|69.22,48.69|Z|Oceanus Cove|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|42291|M|46.36,67.12|Z|Oceanus Cove|N|Loot for a bit of treasure and resources.|RANK|2|
 C A Daring Rescue|QID|40195|M|82.66,85.18|Z|Oceanus Cove|CHAT|N|Talk to Taldranis.|
@@ -431,11 +432,12 @@ T A Daring Rescue|QID|40195|M|82.66,85.18|Z|Oceanus Cove|N|To Taldranis.|
 A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|Oceanus Cove|P|Leatherworking;165;6|N|From Taldranis.|
 C Testing the Metal|QID|40327|M|82.66,85.18|Z|Oceanus Cove|CHAT|N|Talk to Taldranis. Escort him out.|
 A A Favor for Mr. Shackle|QID|38857|M|50.35,60.98|Z|Azsuna!Broken Isles|N|From Seska Seafang.| ; Azsuna!Broken Isles MapID 630
-C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|Z|Azsuna!Broken Isles|N|Grace the Green rescued|
-C A Favor for Mr. Shackle|QID|38857|QO|1|M|48.94,63.02|Z|Azsuna!Broken Isles|N|Cleave Thunderhill rescued|
-C A Favor for Mr. Shackle|QID|38857|QO|2|M|46.16,59.08|Z|Azsuna!Broken Isles|N|Gentle Rosh rescued|
+C A Favor for Mr. Shackle|QID|38857|QO|3|M|51.33,61.06|Z|Azsuna!Broken Isles|H|N|Grace the Green rescued|
+C A Favor for Mr. Shackle|QID|38857|QO|1|M|48.94,63.02|Z|Azsuna!Broken Isles|H|N|Cleave Thunderhill rescued|
+C A Favor for Mr. Shackle|QID|38857|QO|2|M|46.16,59.08|Z|Azsuna!Broken Isles|H|N|Gentle Rosh rescued|
 K Kill Flog the Captain Eater|QID|37824|QO|1|M|45.2,58.0|ITEM|129090|T|Flog the Captain-Eater|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 t Plunder the Cove-Bonus Objective|QID|37495|M|46.54,58.96|N|Auto turned in when complete.|RANK|2|
+C The Right Weapon for the Job|QID|37565|U|118330|M|46.48,59.32|Z|Oceanus Cove|US|N|Click on the quest item whenever you are near some prisoners.|RANK|2|
 T The Right Weapon for the Job|QID|37565|M|53.41,62.95|N|To Okuna Longtusk.|
 A The Prince is Going Down|QID|37566|PRE|37565|M|53.41,62.95|N|From Okuna Longtusk.|
 C The Prince is Going Down|QID|37566|M|53.48,63.52|N|Kill Prince Oceanus.|
@@ -447,8 +449,8 @@ A Maritime Law|QID|37654|M|56.60,59.59|N|From Mr. Shackle.|
 A Making the World Safe for Profit|QID|37657|M|56.60,59.59|N|From Mr. Shackle.|
 A Shipwrecked Sailors|QID|42268^42220|M|57.66,58.07|N|From UI Alert.|
 C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|S|N|Kill Gilblin & Makrura as you go about your other objectives.|
-C Shipwrecked Sailors|QID|42268|M|59.93,58.12|S|US|N|Rescue sailors as you go about your other objectives.|FACTION|Horde|
-C Shipwrecked Sailors|QID|42220|M|59.93,58.12|S|US|T|Queen's Reprisal Sailor|N|Kill sailors as you go about your other objectives.|FACTION|Alliance|
+C Shipwrecked Sailors|QID|42268|M|59.93,58.12|S|N|Rescue sailors as you go about your other objectives.|FACTION|Horde|
+C Shipwrecked Sailors|QID|42220|M|59.93,58.12|S|T|Queen's Reprisal Sailor|N|Kill sailors as you go about your other objectives.|FACTION|Alliance|
 $ Small Treasure Chest|QID|42272|M|59.54,61.99;59.88,63.20|CS|N|Path starts at first coord, treasure is on top of a rocky outcrop. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Tide Behemoth|QID|38217|QO|1|T|Tide Behemoth|M|61.35,61.93|ITEM|129062|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Making the World Safe for Profit|QID|37657|QO|2|M|62.21,61.48;63.52,63.55|CS|N|The queen is in an underwater cave.|
@@ -460,6 +462,8 @@ T The Captain's Foot Locker|QID|37659|M|65.67,56.92|N|To the Captain's Foot Lock
 A Fate of the Queen's Reprisal|QID|42244^40794|PRE|37659|M|65.67,56.92|N|From the Captain's Foot Locker.|
 C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|N|Finish killing Gilblin & Makrura.|US|
 $ Disputed Treasure|QID|38365|M|55.87,56.87|N|Kill the npcs argueing over the treasure chest then you can loot it for a bit of treasure and resources.|RANK|2|
+C Shipwrecked Sailors|QID|42268|M|59.93,58.12|US|N|Rescue sailors as you go about your other objectives.|FACTION|Horde|
+C Shipwrecked Sailors|QID|42220|M|59.93,58.12|US|T|Queen's Reprisal Sailor|N|Kill sailors as you go about your other objectives.|FACTION|Alliance|
 T Shipwrecked Sailors|QID|42268^42220|M|59.93,58.12|N|To UI Alert.|
 T Making the World Safe for Profit|QID|37657|M|56.59,59.58|N|To Mr. Shackle.|
 F Illidari Stand|QID|40327|ACTIVE|40327|M|56.20,58.91|N|Fly to Illidari Stand, from Avaya Farwind.|FLY|LEGION|
@@ -479,10 +483,14 @@ A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dal
 A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
 A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
 A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
-C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Scouring What Remains|QID|44548|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Master of the Isles|QID|44549|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the last strike point at your scouting map.|C|Evoker|
+C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|C|-Evoker|
 t Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
