@@ -6,18 +6,20 @@ WoWPro:GuideName(guide,"Night Elf: Intro")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10;-60|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide by skipping this and continuing to darkshore, or you click the guide button next to this frame to direct you to Chromie in Stormwind!|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|-60|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide by skipping this and continuing to darkshore, or you click the guide button next to this frame to direct you to Chromie in Stormwind!|
 A The Balance of Nature|QID|28713|M|45.63,74.55|Z|460;Shadowglen|N|From Ilthalaine.|
 C The Balance of Nature|QID|28713|M|46.71,78.45|Z|460;Shadowglen|N|Kill Young Nightsabers.|
 T The Balance of Nature|QID|28713|M|45.63,74.55|Z|460;Shadowglen|N|To Ilthalaine.|
 A Fel Moss Corruption|QID|28714|PRE|28713|M|45.63,74.55|Z|460;Shadowglen|N|From Ilthalaine.|
-A Demonic Thieves|QID|28715|PRE|28713|M|45.95,72.88|Z|460;Shadowglen|N|From Melithar Staghelm.|
 C Fel Moss Corruption|QID|28714|S|M|36.38,78.29|Z|460;Shadowglen|N|Kill and loot Grells.|
-C Demonic Thieves|QID|28715|M|36.29,79.38|Z|460;Shadowglen|NC|N|Collect Meltihar's Stolen Bags from the ground.|
 C Fel Moss Corruption|QID|28714|US|M|36.38,78.29|Z|460;Shadowglen|N|Finish killing Grells for Fel Moss.|
-T Demonic Thieves|QID|28715|M|45.95,72.88|Z|460;Shadowglen|N|To Melithar Staghelm.|
 T Fel Moss Corruption|QID|28714|M|46.30,73.50|Z|460;Shadowglen|N|To Ilthalaine.|
-A Priestess of the Moon|QID|28723|PRE|28714|Z|460;Shadowglen|N|From Ilthalaine.|
+A A Favor for Melithar|QID|28734|PRE|28714|M|46.30,73.50|Z|460;Shadowglen|N|From Ilthalaine.|LEAD|28715|
+T A Favor for Melithar|QID|28734|M|45.95,72.88|Z|460;Shadowglen|N|To Melithar Staghelm.|
+A Demonic Thieves|QID|28715|PRE|28713|M|45.95,72.88|Z|460;Shadowglen|N|From Melithar Staghelm.|
+C Demonic Thieves|QID|28715|M|36.29,79.38|Z|460;Shadowglen|NC|N|Collect Meltihar's Stolen Bags from the ground.|
+T Demonic Thieves|QID|28715|M|45.95,72.88|Z|460;Shadowglen|N|To Melithar Staghelm.|
+A Priestess of the Moon|QID|28723|PRE|28714|M|46.2,73.5|Z|460;Shadowglen|N|From Ilthalaine.|
 T Priestess of the Moon|QID|28723|M|42.50,50.49|Z|460;Shadowglen|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|
 A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|Z|460;Shadowglen|N|From Dentaria Silverglade.|
 C Iverron's Antidote|QID|28724|M|43.34,51.71|Z|460;Shadowglen|N|Around the pools.|NC|
@@ -68,7 +70,7 @@ T Seek Redemption!|QID|489|Z|57;Teldrassil|M|59.56,49.19|N|To Zenn Foulhoof.|
 C Teldrassil: The Refusal of the Aspects|QID|929|U|5619|Z|57;Teldrassil|M|62.04,50.74|N|Fill the Jade Phial at the Moonwell.|
 T A Troubling Breeze|QID|475|Z|57;Teldrassil|M|64.58,51.20|N|To Gaerolas Talvethren.|
 A Gnarlpine Corruption|QID|476|PRE|475|Z|57;Teldrassil|M|64.58,51.20|N|From Gaerolas Talvethren.|
-C The Emerald Dreamcatcher|QID|2438|Z|57;Teldrassil|M|66.09,52.05|N|In the dresser.|
+C The Emerald Dreamcatcher|QID|2438|Z|57;Teldrassil|M|66.09,52.05|NC|N|In the dresser.|
 H Dolanaar|QID|2438|NC|Z|57;Teldrassil|M|55.55,49.99|N|Hearth to Dolanaar.|
 T Gnarlpine Corruption|QID|476|Z|57;Teldrassil|M|55.72,52.01|N|To Athridas Bearmantle.|
 A The Relics of Wakening|QID|483|PRE|476|Z|57;Teldrassil|M|55.72,52.01|N|From Athridas Bearmantle.|
@@ -77,7 +79,7 @@ A Nature's Reprisal|QID|13946|PRE|489|Z|57;Teldrassil|M|55.77,50.50|N|From Syral
 T The Emerald Dreamcatcher|QID|2438|Z|57;Teldrassil|M|55.57,50.02|N|To Tallonkai Swiftroot.|
 A Ferocitas the Dream Eater|QID|2459|PRE|2438|Z|57;Teldrassil|M|55.57,50.02|N|From Tallonkai Swiftroot.|
 A Twisted Hatred|QID|932|PRE|489|Z|57;Teldrassil|M|55.52,50.01|N|From Tallonkai Swiftroot.|
-T Teldrassil: The Refusal of the Aspects|QID|929|Z|57;Teldrassil|M|55.85,53.86|N|To Corithras Moonrage.|R|NightElf|
+T Teldrassil: The Refusal of the Aspects|QID|929|Z|57;Teldrassil|M|55.85,53.86|N|To Corithras Moonrage.|
 C Ferocitas the Dream Eater|QID|2459|Z|57;Teldrassil|M|67.09,46.03|N|Kill Gnarlpine Mystics on your way to Ferocitas the Dream Eater.|
 T Ferocitas the Dream Eater|QID|2459|Z|57;Teldrassil|M|55.57,50.05|N|To Tallonkai Swiftroot.|
 C Nature's Reprisal|QID|13946|S|U|46716|Z|57;Teldrassil|M|53.67,47.05;54.46,46.11;53.31,45.31|CN|N|Use the Ironroot Seeds to kill Grellkin.|
@@ -115,11 +117,11 @@ T Denalan's Earth|QID|997|Z|57;Teldrassil|M|59.94,59.76|N|To Denalan.|
 A Timberling Seeds|QID|918|PRE|997|Z|57;Teldrassil|M|59.89,59.79|N|From Denalan.|
 A Timberling Sprouts|QID|919|PRE|997|Z|57;Teldrassil|M|59.89,59.79|N|From Denalan.|
 C Timberling Seeds|QID|918|S|Z|57;Teldrassil|M|59.80,60.80|N|Kill and loot Timberlings to get the seeds.|
-C Timberling Sprouts|QID|919|Z|57;Teldrassil|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|S|
+C Timberling Sprouts|QID|919|Z|57;Teldrassil|M|58.89,62.14|NC|N|Pick up Timberling Sprouts. They look like a ball of vines.|S|
 A The Glowing Fruit|QID|930|Z|57;Teldrassil|M|57.48,62.80|N|From the Strange Fruited Plant.|
 l Moss-Twined Heart|QID|927|Z|57;Teldrassil|M|52.05,63.66|L|5179|N|This is a bit out of the way, so it is optional. Head to the waypoint, if Blackmoss the Fetid is there, kill it and loot the Most-Twined Heart.|
 A The Moss-twined Heart|QID|927|U|5179|N|Accept this quest from the Moss-Twined Heart.|
-C Timberling Sprouts|QID|919|Z|57;Teldrassil|M|58.89,62.14|N|Pick up Timberling Sprouts. They look like a ball of vines.|US|
+C Timberling Sprouts|QID|919|Z|57;Teldrassil|M|58.89,62.14|NC|N|Pick up Timberling Sprouts. They look like a ball of vines.|US|
 C Timberling Seeds|QID|918|US|Z|57;Teldrassil|M|59.80,60.80|N|Kill and loot Timberlings to get the seeds.|
 T Timberling Seeds|QID|918|Z|57;Teldrassil|M|59.89,59.72|N|To Denalan.|
 A Rellian Greenspyre|QID|922|PRE|918|Z|57;Teldrassil|M|59.89,59.72|N|From Denalan.|
