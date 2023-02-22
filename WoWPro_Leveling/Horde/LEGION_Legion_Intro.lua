@@ -7,12 +7,13 @@ WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|
-A The Legion Returns|QID|43926|M|40.82,80.11|Z|Orgrimmar|N|From Chromie after activating Legion timeline.|
-T The Legion Returns|QID|43926|M|46.01,13.94|Z|Durotar|N|To Holgar Stormaxe.|
-A To Be Prepared|QID|44281|M|46.01,13.94|Z|Durotar|N|From Holgar Stormaxe.|PRE|43926|
-C To Be Prepared|QID|44281|NC|QO|3|M|47.76,13.46|Z|Durotar|N|Click on the food to eat your last meal.|
-C To Be Prepared|QID|44281|NC|QO|1|M|49.65,14.20|Z|Durotar|N|Click on the keg to polish your armor.|
-l Optional - consumables|QID|44281|NC|M|50.11,13.77|Z|Durotar|N|Click on the cauldron to pick up 10 +food/+mana/+fdamage items. (optional).|L|141295|ACTIVE|44281|
+A Legion: The Legion Returns|QID|43926|M|40.82,80.11|Z|Orgrimmar|N|From Chromie after activating Legion timeline.|LVL|-60|CT|
+A Legion: The Legion Returns|QID|43926|M|49.67,76.45|Z|Orgrimmar|N|Select 'Fight the Legion' from the Warchief's Command Board.|LVL|60|
+T Legion: The Legion Returns|QID|43926|M|46.01,13.79|Z|Durotar|N|To Holgar Stormaxe.|
+A To Be Prepared|QID|44281|M|46.01,13.79|Z|Durotar|N|From Holgar Stormaxe.|PRE|43926|
+C To Be Prepared|QID|44281|NC|QO|3|M|47.67,13.47|Z|Durotar|N|Click on the food to eat your last meal.|
+C To Be Prepared|QID|44281|NC|QO|1|M|49.63,14.15|Z|Durotar|N|Click on the keg to polish your armor.|
+l Extra Thick Mojo|ACTIVE|44281|M|50.11,13.77|Z|Durotar|NC|L|141295|N|[color=FFFF00]OPTIONAL[/color]\nClick on the cauldron to pick up a buff item.\n[color=FF0000]NOTE: [/color]Skip this step if you wish.|LVL|-50|
 C To Be Prepared|QID|44281|NC|QO|2|M|51.37,12.26|Z|Durotar|N|Click on the sun sphere to empower your weapon.|
 C To Be Prepared|QID|44281|CHAT|QO|4|M|52.50,11.04|Z|Durotar|N|Challenge on of the NPC's standing around here to a duel.|
 T To Be Prepared|QID|44281|M|55.66,11.05|Z|Durotar|N|To Stone Guard Mukar.|
