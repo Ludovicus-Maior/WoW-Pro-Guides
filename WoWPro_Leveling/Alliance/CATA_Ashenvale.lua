@@ -5,18 +5,18 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 N Ashenvale Guide |QID|13594|N|There are two breadcrumb quests to this guide, Ashes in Ashenvale from Balren of the Claw in Darkshore for those who worked through that zone, and Hero's Call: Ashenvale available from Darnassus.\n\nAshenvale has a weird design, so we will be making what seems some odd moves around the zone, this is to provide maximum possible XP. \n\n(Click this step to continue)|
-R Ashenvale|QID|13594|Z|Darkshore|M|46,96|N|This is one zone south of Darkshore. The nearest flight path will be "Grove of the Ancients". |
+R Ashenvale|QID|13594|Z|Darkshore|M|46,96|N|This is one zone south of Darkshore. The nearest flight path will be "Grove of the Ancients". |FLY|OLD|
 T Ashes in Ashenvale |QID|26408|M|26.94,22.30|N|To Sentinel Shyela.|O|
 T Hero's Call: Ashenvale! |QID|28492|M|26.94,22.30|N|To Sentinel Shyela.|O|
 A Don't Forget the Horde|QID|13594|M|26.94,22.30|N|From Sentinel Shyela.|
 A Bathran's Hair|QID|26473|M|26.89,22.00|N|From Evenar Stillwhisper.|
 A Of Their Own Design|QID|13595|M|29.00,24.06|N|From Bathran.|
-C Bathran's Hair|QID|26473|S|M|21.65,14.69|N|They look like orange bushes.|
+C Bathran's Hair|QID|26473|S|M|21.65,14.69|NC|N|They look like orange bushes.|
 C Don't Forget the Horde|QID|13594|S|M|21.65,17.27|N|Kill the Orcs and Herbalists from Bathran's Haunt.|
 l Bottle of Wildfire|QID|13595|M|32.16,23.39|N|Loot the Bottle of Wildfire from the table in Bathran's Haunt.|L|44967|
 C Of Their Own Design|QID|13595|M|32.81,21.38|N|Burn Bathran's corpse with the Bottle of Wildfire.|U|44967|
 C Don't Forget the Horde|QID|13594|US|M|31.99,23.55|N|Finish killing mobs.|
-C Bathran's Hair|QID|26473|US|M|31.36,22.80|N|They look like orange bushes..|
+C Bathran's Hair|QID|26473|US|M|31.36,22.80|NC|N|They look like orange bushes..|
 T Of Their Own Design|QID|13595|M|29.08,24.30|N|To Bathran.|
 T Don't Forget the Horde|QID|13594|M|26.93,22.25|N|To Sentinel Shyela.|
 A West to the Strand|QID|13617|LEAD|26465|PRE|13594|M|26.93,22.25|N|From Sentinel Shyela.|
@@ -26,9 +26,9 @@ T West to the Strand|QID|13617|M|18.28,20.49|N|To Talen.|
 A The Ancient Statuettes|QID|26465|M|18.28,20.49|N|From Talen.|
 A Naga of the Strand|QID|13602|M|18.28,20.49|N|From Shindrell Swiftfire.|
 f Blackfathom Camp|QID|13602|M|18.11,20.64|N|At Solais.|
-C The Ancient Statuettes|QID|26465|S|M|11.69,24.27|N|Loot statuettes off the ground.|
+C The Ancient Statuettes|QID|26465|S|M|11.69,24.27|NC|N|Loot statuettes off the ground.|
 C Naga of the Strand|QID|13602|M|13.58,14.69|N|Kill any type of Naga you see.|
-C The Ancient Statuettes|QID|26465|US|M|12.92,26.45|N|Finish looting statuettes.|
+C The Ancient Statuettes|QID|26465|US|M|12.92,26.45|NC|N|Finish looting statuettes.|
 T Naga of the Strand|QID|13602|M|18.24,20.50|N|To Shindrell Swiftfire.|
 T The Ancient Statuettes|QID|26465|M|18.24,20.50|N|To Talen.|
 A Ruuzel|QID|26466|PRE|26465|M|18.24,20.50|N|From Talen.|RANK|2|
@@ -66,7 +66,7 @@ A Orendil's Cure|QID|26474|PRE|13642|M|26.85,36.69|N|From Orendil Broadleaf.|
 T The Lost Gem|QID|26464|M|26.85,36.69|N|To Orendil Broadleaf.|
 A To Raene Wolfrunner|QID|13645|PRE|26464|M|26.85,36.69|N|From Orendil Broadleaf.|
 A Astranaar Bound|QID|13646|PRE|26464|M|26.75,36.04|N|From Sentinel Avana.|
-R Astranaar|QID|13646|NC|N|Talk to Sentinel Avana. She will give you a free ride on one of her Kitties.|
+R Astranaar|QID|13646|NC|N|Talk to Sentinel Avana. She will give you a free ride on one of her Kitties.|FLY|OLD|
 T Astranaar Bound|QID|13646|M|34.69,48.55|N|To Sentinel Luara.|
 f Astranaar|QID|13849|NC|M|34.41,48.00|N|Accept the Flight Path from Daelyshia.|
 A Astranaar's Burning!|QID|13849|M|34.92,49.77|N|From Sentinel Thenysil.|

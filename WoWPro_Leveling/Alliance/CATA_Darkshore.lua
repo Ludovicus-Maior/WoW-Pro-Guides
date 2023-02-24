@@ -13,18 +13,18 @@ A The Last Wave of Survivors|QID|13518|M|51.80,18.10|N|From Dentaria Silverglade
 A Threat from the Water|QID|13522|M|50.39,18.75|N|From Ranger Glynda Nal'Shea.|
 h Lor'danel|QID|13522|M|50.98,18.61|N|At Innkeeper Kyteran.|
 C Threat from the Water|QID|13522|M|45.50,17.64|S|N|Kill 8 Vile Sprays.|
-C Rescue Volcor|QID|13518|M|45.03,18.20|QO|4|N|Talk to Volcor.|NC|; Volcor rescued: 1/1
-C Rescue Gershala Nightwhisper|QID|13518|M|44.10,17.81|QO|2|N|Talk to Gershala.|NC|; Gershala Nightwhisper rescued: 1/1
-C Rescue Cerellean Whiteclaw|QID|13518|M|44.53,19.93|QO|1|N|Talk to Cerellean.|NC|; Cerellean Whiteclaw rescued: 1/1
-C Rescue Shaldyn|QID|13518|M|42.92,21.48|QO|3|N|Now rescue Shaldyn.|NC|; Shaldyn rescued: 1/1
+C Rescue Volcor|QID|13518|M|45.03,18.20|QO|4|N|Talk to Volcor.|CHAT|; Volcor rescued: 1/1
+C Rescue Gershala Nightwhisper|QID|13518|M|44.10,17.81|QO|2|N|Talk to Gershala.|CHAT|; Gershala Nightwhisper rescued: 1/1
+C Rescue Cerellean Whiteclaw|QID|13518|M|44.53,19.93|QO|1|N|Talk to Cerellean.|CHAT|; Cerellean Whiteclaw rescued: 1/1
+C Rescue Shaldyn|QID|13518|M|42.92,21.48|QO|3|N|Now rescue Shaldyn.|CHAT|; Shaldyn rescued: 1/1
 C Threat from the Water|QID|13522|M|45.50,17.64|US|N|Kill 8 Vile Sprays.|
 T Threat from the Water|QID|13522|M|50.21,19.83|N|To Ranger Glynda Nal'Shea.|
 T The Last Wave of Survivors|QID|13518|M|51.75,18.05|N|To Dentaria Silverglade.|
 A The Boon of the Seas|QID|13520|PRE|13518&13522|M|51.75,18.05|N|From Serendia Oakwhisper.|
 A Buzzbox 413|QID|13521|PRE|13518&13522|M|51.17,19.61|N|From Wizbang Cranktoggle.|
-A A Taste for Grouper |QID|13537|PRE|13518&13522|M|52.38,17.7|P|Fishing;356|N|From Johnathan Staats, will lead to you fishing.|
-C A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|Catch 4 Grouper from the waters by fishing.|NC|
-T A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|To Johnathan Staats.|
+A A Taste for Grouper |QID|13537|PRE|13518&13522|M|52.38,17.7|N|From Johnathan Staats, will lead to you fishing.|P|Fishing;356;*|
+C A Taste for Grouper |QID|13537|M|52.38,17.7|N|Catch 4 Grouper from the waters by fishing.|NC|P|Fishing;356;*|
+T A Taste for Grouper |QID|13537|M|52.38,17.7|N|To Johnathan Staats.|P|Fishing;356;*|
 C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrusted Clams.|S|NC|
 C Buzzbox 413|QID|13521|M|47.13,18.26|N|Kill Corrupted Tide Crawlers.|
 C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrusted Clams.|US|NC|
@@ -50,8 +50,8 @@ C A Cure In The Dark|QID|13554|M|58.86,32.34|N|Kill Vile Grells and Vile Corrupt
 R Bashal'Aran Collapse|QID|28529|M|52.81,32.72|N|Head outside the cave, and jump into the 'Maw of the Void'.|RANK|2|
 l Writings of the Dark Herald|QID|28529|M|52.32,31.03|L|64450|N|Run up the ramp and kill Telarius Voidstrider. Then loot the "Writings of the Dark Herald".|RANK|2|
 A Writings of the Void|QID|28529|U|64450|N|Accept the quest from the writings.|M|52.32,31.03|RANK|2|
-H Lor'danel|QID|13529|U|6948|N|Hearth back to Lor'danel, or run back down to Bielara Ivyshroud and tell her you'd like to leave the place, then run back.|RANK|2|
-H Lor'danel|QID|13529|U|6948|N|Hearth back to or run back to Lor'danel.|
+H Lor'danel|QID|13529|U|6948|M|51.19,19.69|N|Hearth back to Lor'danel, or run back down to Bielara Ivyshroud and tell her you'd like to leave the place, then run back.|RANK|2|
+H Lor'danel|QID|13529|U|6948|M|51.19,19.69|N|Hearth back to or run back to Lor'danel.|
 T The Corruption's Source|QID|13529|M|51.19,19.69|N|To Tharnariun Treetender.|
 T Bearer of Good Fortune|QID|13557|M|51.19,19.69|N|To Tharnariun Treetender.|
 T A Troubling Prescription|QID|13831|M|51.19,19.69|N|To Tharnariun Treetender.|
@@ -61,11 +61,11 @@ A A Lost Companion|QID|13564|PRE|13529|M|50.89,17.98|N|From Volcor.|
 A The Final Flame of Bashal'Aran|QID|13562|PRE|13529|M|50.31,19.59|N|From Ranger Glynda Nal'Shea.|
 T Writings of the Void|QID|28529|M|50.31,19.59|N|To Ranger Glynda Nal'Shea.|RANK|2|
 r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
-R Bashal'Aran|QID|13561|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|
+R Bashal'Aran|QID|13561|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|FLY|OLD|
 A Solace for the Highborne|QID|13561|M|46.80,33.23|N|From Arya Autumnlight.|
 C The Final Flame of Bashal'Aran|QID|13562|NC|M|45.97,34.25|
 C Solace for the Highborne|QID|13561|M|47.27,34.59|N|Kill Cursed and Writhing Highbornes on the way.|S|
-C A Love Eternal|QID|13563|M|48.29,36.54|N|Kill Anaya Dawnrunner, loot her pendant.|
+C A Love Eternal|QID|13563|M|48.29,36.54|N|Kill Anaya Dawnrunner, loot her pendant.|T|Anaya Dawnrunner|
 C Solace for the Highborne|QID|13561|M|47.27,34.59|US|N|Finish killing Cursed and Writhering Highbornes.|
 T Solace for the Highborne|QID|13561|M|46.76,33.28|N|To Arya Autumnlight.|
 C A Lost Companion|QID|13564|NC|M|43.00,38.86|N|Head to the waypoint to find Grimclaw.|
@@ -86,7 +86,7 @@ A The Ritual Bond|QID|13569|PRE|13565&13566&13598|M|42.93,39.02|N|From Keeper Ka
 C The Ritual Bond|QID|13569|NC|M|43.74,40.34|N|Right-click the Keeper's Incense, which is right infront of Keeper Karithus. Then go talk to the Great Stag Spirit, the Great Thistle Bear Spirit, or the Great Moongrazer Spirit. Thistlebear gives a 10% Reduction in damage taken, Moonstalker gives a 10% haste bonus, and Stag gives a 10% increased movement speed. Movement speed does not stack with any other speed buff.|
 T The Ritual Bond|QID|13569|M|42.99,39.10|N|To Keeper Karithus.|
 A Grimclaw's Return|QID|13599|PRE|13569|M|42.99,39.10|N|From Keeper Karithus.|
-H Lor'danel|QID|13599|M|46.83,33.2|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|
+H Lor'danel|QID|13599|M|46.83,33.2|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|FLY|OLD|
 T Grimclaw's Return|QID|13599|M|50.88,18.20|N|To Serendia Oakwhisper.|
 T A Love Eternal|QID|13563|M|50.85,18.00|N|To Cerellean Whiteclaw.|
 T The Final Flame of Bashal'Aran|QID|13562|M|50.82,18.19|N|To Ranger Glynda Nal'Shea.|
@@ -95,15 +95,15 @@ A An Ocean Not So Deep|QID|13560|PRE|13569|M|50.97,19.23|N|From Gorbold Steelhan
 r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
 C An Ocean Not So Deep|QID|13560|M|52.95,11.06|N|Right-click the Decoy Bot Controle Console, walk to a bunch of murlocs and use the abiilty.|
 T An Ocean Not So Deep|QID|13560|M|51.03,19.26|N|To Gorbold Steelhand.|
-R Ruins of Mathystra|QID|13589|N|Talk to the Nightsaber Rider and choose to travel to the Ruins of Mathystra.|M|52.21,22.29|
+R Ruins of Mathystra|QID|13589|N|Talk to the Nightsaber Rider and choose to travel to the Ruins of Mathystra.|M|52.21,22.29|FLY|OLD|
 T The Shatterspear Invaders|QID|13589|M|58.96,19.48|N|To Lieutenant Morra Starbreeze.|
 A Remnants of the Highborne|QID|13505|PRE|13589|M|58.93,19.49|N|From Balthule Shadowstrike.|
 A Shatterspear Laborers|QID|13504|PRE|13589|M|58.93,19.49|N|From Sentinel Tysha Moonblade.|
 C Shatterspear Laborers|QID|13504|M|60.55,22.17|N|Kill Shatterspear Laborers on the way.|S|
-C Remnants of the Highborne|QID|13505|M|60.43,21.54|N|Loot Highborne Relics on the way.|S|
+C Remnants of the Highborne|QID|13505|M|60.43,21.54|NC|N|Loot Highborne Relics on the way.|S|
 K Shatterspear Overseer |QID|13506|QO|1|M|60.67,17.74|N|Kill the Shatterspear Overseer and loot the Overseer's Orders|
 A Reason to Worry|QID|13506|U|44979|M|60.67,17.74|N|Start the quest from the Overseers Orders.|
-C Remnants of the Highborne|QID|13505|M|60.43,21.54|US|N|Finish looting Highborne Relics.|
+C Remnants of the Highborne|QID|13505|M|60.43,21.54|US|NC|N|Finish looting Highborne Relics.|
 C Shatterspear Laborers|QID|13504|M|60.55,22.17|US|N|Finish killing Laborers.|
 T Reason to Worry|QID|13506|M|58.94,19.48|N|To Lieutenant Morra Starbreeze.|
 A Swift Response|QID|13508|PRE|13506|M|58.94,19.48|N|From Lieutenant Morra Starbreeze.|
@@ -146,13 +146,13 @@ l Hellscream's Missive|QID|13591|M|72.21,19.06|N|Loot Jor'kil the Soulripper to 
 A Disturbing Connections|QID|13591|M|72.31,18.90|N|Right-click Hellscream's Missive and accept the quest.|U|46318|
 T Ending the Threat|QID|13515|M|72.35,18.87|N|To Huntress Sandrya Moonfall.|
 T The Ancients' Ire|QID|13514|M|69.14,19.25|N|To Kerlonian Evershade.|
-H Lor'danel|QID|13591|U|6948|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|
+H Lor'danel|QID|13591|U|6948|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|FLY|OLD|
 r Sell Junk and Repair|QID|13591|M|50.76,19.24|N|Close this step when you're done.|
 T Disturbing Connections|QID|13591|M|50.65,19.65|N|To Ranger Glynda Nal'Shea.|
 A The Twilight's Hammer|QID|13519|PRE|13591|M|50.31,20.29|N|From Sentinel Lendra.|
 A Twilight Plans|QID|13596|PRE|13591|M|50.31,20.29|N|From Sentinel Lendra.|
 T Remembrance of Auberdine |QID|13570|M|50.13,19.45|N|To Cerellean Whiteclaw.|
-R Bashal'Aran|QID|13523|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|
+R Bashal'Aran|QID|13523|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|FLY|OLD|
 C Twilight Plans|QID|13596|M|45.10,30.34|N|Loot Twilight Plans, they're small glowing scrolls scattered across this camp.|S|NC|
 C The Twilight's Hammer|QID|13519|M|44.11,32.22|N|Kill Twilight Fanatics.|S|
 A Power Over the Tides|QID|13523|M|44.60,30.83|N|From Moon Priestess Tharill.|
@@ -161,12 +161,12 @@ C Power Over the Tides|QID|13523|U|44975|M|43.97,28.54|N|Kill Enraged Tidal Spir
 C The Twilight's Hammer|QID|13519|M|44.11,32.22|US|N|Kill Twilight Fanatics.|
 C Twilight Plans|QID|13596|M|45.10,30.34|N|Loot Twilight Plans you still need.|US|NC|
 T Power Over the Tides|QID|13523|M|44.62,30.68|N|To Moon Priestess Tharill.|
-R Lor'danel|QID|13523|M|46.84,33.19|N|Talk to the Nightsaber Rider, then choose to travel to Lor'danel.|
+R Lor'danel|QID|13523|M|46.84,33.19|N|Talk to the Nightsaber Rider, then choose to travel to Lor'danel.|FLY|OLD|
 T The Twilight's Hammer|QID|13519|M|50.35,20.35|N|To Sentinel Lendra.|
 T Twilight Plans|QID|13596|M|50.35,20.35|N|To Sentinel Lendra.|
 A In Aid of the Refugees|QID|13601|PRE|13596|M|50.35,20.35|N|From Sentinel Lendra.|
 r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
-R Bashal'Aran|QID|13523|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|
+R Bashal'Aran|QID|13523|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|FLY|OLD|
 T In Aid of the Refugees|QID|13601|M|42.61,45.05|N|To Priestess Alinya.|
 A Against the Wind|QID|13542|M|42.56,45.16|N|From Sentinel Selarin.|
 A Three Hammers to Break|QID|13543|M|42.63,45.16|N|From Corvine Moonrise.|
@@ -197,10 +197,10 @@ A The Last Wildkin|QID|13577|M|43.67,53.51|N|From Malfurion Stormrage.|
 A Protector of Ameth'Aran|QID|13579|M|43.67,53.51|N|From Malfurion Stormrage.|
 T The Last Wildkin|QID|13577|M|45.54,48.50|N|To Aroom.|
 A Aroom's Farewell|QID|13578|PRE|13577|M|45.54,48.50|N|From Aroom.|
-C Aroom's Farewell|QID|13578|M|46.67,46.47|N|The feathers are on the ground, they are small and can be a little hard to see.|
+C Aroom's Farewell|QID|13578|M|46.67,46.47|NC|N|The feathers are on the ground, they are small and can be a little hard to see.|
 T Aroom's Farewell|QID|13578|M|45.53,48.50|N|To Aroom.|
 A Elune's Fire|QID|13582|PRE|13578|M|45.53,48.50|N|From Aroom.|
-C Elune's Fire|QID|13582|M|46.80,50.32|N|Obtain Elune's Torch from Horoo the Flamekeeper. |
+C Elune's Fire|QID|13582|M|46.80,50.32|N|Obtain Elune's Torch from Horoo the Flamekeeper. |T|Horoo the Flamekeeper|
 T Elune's Fire|QID|13582|M|45.53,48.49|N|To Aroom.|
 A The Wildkin's Oath|QID|13583|PRE|13582|M|45.55,48.41|N|From Aroom.|
 T Protector of Ameth'Aran|QID|13579|M|44.48,56.62|N|To Selenn.|
@@ -265,25 +265,25 @@ T Cleansing the Afflicted|QID|13545|M|43.55,80.94|N|To Elder Brolg.|
 A The Defiler|QID|13546|PRE|13545|M|43.55,80.94|N|From Elder Brolg.|
 C The Defiler|QID|13546|M|46.34,83.66|N|Head inside the cave and kill Sharax.|
 T The Defiler|QID|13546|M|43.54,80.93|N|To Elder Brolg.|
-C The Seeds of Life|QID|13882|M|38.06,79.14|N|Look for shells on the beach.|
+C The Seeds of Life|QID|13882|M|38.06,79.14|NC|N|Look for shells on the beach.|
 T Unearthed Knowledge|QID|13896|M|37.69,82.74|N|To Archaeologist Groff.|
 A Soggoth and Kronn|QID|13893|PRE|13896|M|37.69,82.74|N|From Archaeologist Groff.|
 A Sweeping Clean the Ruins|QID|13907|M|37.69,82.74|N|From Archaeologist Groff.|
 A Swamped Secrets|QID|13912|M|37.69,82.93|N|From Jr. Archaeologist Ferd.|
-A The Absent-Minded Prospector|QID|13911|M|37.69,82.93|N|From Prospector Remtravel. If he isn't there then someone else is doing the quest. Either wait or do part of the other quests.|
+A The Absent-Minded Prospector|QID|13911|M|37.69,82.93|N|From Prospector Remtravel. If he isn't there then someone else is doing the quest. Either wait or do part of the other quests.|FAIL|
 C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|N|Kill murlocs to finish the quest.|S|
 C The Absent-Minded Prospector|QID|13911|NC|M|37.68,82.95|N|Follow him and protect him. Kill murlocs as you come across them.|
 T The Absent-Minded Prospector|QID|13911|M|37.73,82.95|N|To Jr. Archaeologist Ferd.|
-C Swamped Secrets|QID|13912|M|36.99,83.37|N|Go down into the water to get the disc.|
+C Swamped Secrets|QID|13912|M|36.99,83.37|NC|N|Go down into the water to get the disc.|
 C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|N|Kill murlocs to finish the quest.|US|
 T Swamped Secrets|QID|13912|M|37.70,82.90|N|To Jr. Archaeologist Ferd.|
 A The Titans' Terminal|QID|13918|PRE|13912|M|37.70,82.90|N|From Jr. Archaeologist Ferd.|
 T Sweeping Clean the Ruins|QID|13907|M|37.70,82.90|N|To Archaeologist Groff.|
 A Got Some Flotsam?|QID|13909|PRE|13907|M|37.70,82.90|N|From Archaeologist Groff.|
-C Got Some Flotsam?|QID|13909|M|37.16,86.91|N|Look all around the beach for the wreckage.|S|
+C Got Some Flotsam?|QID|13909|M|37.16,86.91|NC|N|Look all around the beach for the wreckage.|S|
 l The Titans' Terminal|QID|13918|U|46388|M|37.09,81.24|N|Use the detector, click on the mud piles, and then use it again till you have 5.|L|46702 5|
-U The Titans' Terminal|QID|13918|U|46702|M|37.09,81.24|N|Combine the fragments to complete the quest.|L|46387|
-C Got Some Flotsam?|QID|13909|M|37.16,86.91|N|Look all around the beach for the wreckage.|US|
+U The Titans' Terminal|QID|13918|U|46702|M|37.09,81.24|QO|1|N|Combine the fragments to complete the quest.|L|46387|
+C Got Some Flotsam?|QID|13909|M|37.16,86.91|NC|N|Look all around the beach for the wreckage.|US|
 T The Titans' Terminal|QID|13918|M|37.69,82.92|N|To Jr. Archaeologist Ferd.|
 T Got Some Flotsam?|QID|13909|M|37.68,82.78|N|To Archaeologist Groff.|
 A A New Home|QID|13910|PRE|13909|M|37.68,82.78|N|From Archaeologist Groff.|

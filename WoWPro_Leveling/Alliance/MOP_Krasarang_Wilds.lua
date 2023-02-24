@@ -6,15 +6,15 @@ WoWPro:GuideNextGuide(guide, 'Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
-F Zhu's Watch|QID|30080|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
-T Ken-Ken|QID|29873|M|60.44,67.77|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
-A What's Eating Zhu's Watch?|QID|30079|M|60.44,67.77|N|From Ken-Ken.|
-C Speak with Mei|QID|30079|NC|QO|4|M|79.72,01.52|N|Up the stairs, outside.|; Speak with Mei: 1/1
-A Finding Yi-Mo|QID|30080|M|79.72,01.52|N|From Mei Barrelbottom.|
-C Speak with Yun|QID|30079|NC|QO|3|M|79.35,03.43|N|Up the stairs, inside.|; Speak with Yun: 1/1
-C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|1|M|79.91,02.28|; Speak with Despondent Warden of Zhu: 1/1
-C Speak with Sunni|QID|30079|NC|QO|2|M|81.50,02.52|N|Up the stairs, inside in bed.|; Speak with Sunni: 1/1
-f Zhu's Watch|QID|30078|M|80.72,02.34|N|At Gee Hung.|
+F Zhu's Watch|QID|30080|M|76.72,8.43|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
+t Ken-Ken|QID|29873|M|60.44,67.77|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
+A What's Eating Zhu's Watch?|QID|30079|M|76.24,7.10|N|From Ken-Ken.|
+C Speak with Mei|QID|30079|NC|QO|4|M|75.86,7.64|N|Up the stairs, outside.|; Speak with Mei: 1/1
+A Finding Yi-Mo|QID|30080|M|75.86,7.64|N|From Mei Barrelbottom.|
+C Speak with Yun|QID|30079|NC|QO|3|M|75.49,9.36|CHAT|N|Up the stairs, inside.|; Speak with Yun: 1/1
+C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|1|M|76.70,8.58|CHAT|; Speak with Despondent Warden of Zhu: 1/1
+C Speak with Sunni|QID|30079|NC|QO|2|M|77.47,8.58|CHAT|N|Up the stairs, inside in bed.|; Speak with Sunni: 1/1
+f Zhu's Watch|QID|30078|M|76.73,8.41|N|At Gee Hung.|
 l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;92.17,39.06|CS|Z|Valley of the Four Winds|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 yards, and up into the house, papers are on table.|
 C Finding Yi-Mo|QID|30080|M|85.63,00.69|N|He is lying on the ground.|
 T Finding Yi-Mo|QID|30080|M|85.63,00.69|N|To Yi-Mo Longbrow.|
