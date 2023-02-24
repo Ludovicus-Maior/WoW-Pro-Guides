@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CagLegionEvoker', 'Leveling', 'EvokerOrderHallTerrain', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('CagLegionEvoker', 'Leveling', 'Dalaran', 'WoWPro Team', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideContent(guide, "Legion")
