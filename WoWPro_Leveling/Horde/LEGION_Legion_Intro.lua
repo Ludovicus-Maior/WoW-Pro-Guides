@@ -47,9 +47,9 @@ T Demons Among Us|QID|40607|M|45.67,15.93|Z|1; Durotar|N|To Lady Sylvanas Windru
 A Keep Your Friends Close|QID|40605|PRE|40607|M|45.67,15.93|Z|1; Durotar|N|From Lady Sylvanas Windrunner.|
 T Keep Your Friends Close|QID|40605|M|53.09,57.35|Z|85; Orgrimmar|N|To Elthyn Da'rai.\n[color=FF0000]NOTE: [/color]She tends to wander around the area behind the flight master.|
 A In the Blink of an Eye|QID|44663^44184|M|52.80,56.92|Z|85; Orgrimmar|N|From Elthyn Da'rai.|
-C Kirin Tor Emissary|QID|44663|QO|1|M|58.25,89.99|Z|85; Orgrimmar|CHAT|N|[color=FFFF00]OPTIONAL[/color]\nAsk the Kirin Tor Emissary to send you to Dalaran.|
-C In the Blink of an Eye|QID|44663^44184|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|CHAT|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
+C Kirin Tor Emissary|ACTIVE|44663|QO|1|M|58.25,89.99|Z|85; Orgrimmar|CHAT|N|[color=FFFF00]OPTIONAL[/color]\nAsk the Kirin Tor Emissary to send you to Dalaran.|
+C In the Blink of an Eye|ACTIVE|44663^44184|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|CHAT|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|ACTIVE|44663^44184|M|57.62,45.76|Z|627; Dalaran|N|To Emissary Auldbridge.|
 D On to Class Halls|N|This ends the intro scenario and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends the intro scenario and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends the intro scenario and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|
