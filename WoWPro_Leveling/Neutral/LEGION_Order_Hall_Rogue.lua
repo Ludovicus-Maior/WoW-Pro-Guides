@@ -440,8 +440,8 @@ C Investigate the Broken Shore|QID|45992|M|37.92,45.26|NC|N|Use scouting map to 
 
 ;done on alliance char, coords may not be exact but should be close for Horde
 A The Pirate's Bay|QID|45833^46322|M|41.45,77.88|N|From Lord Jorach Ravenholdt.|ACTIVE|47137|
-R Krasus' Landing|QID|45833|M|65.18,42.73|Z|Dalaran@Dalaran70|N|Run to Krasus' Landing to take a flight (or travel to Black Rook Hold any other way)|ACTIVE|45833|FLY|LEGION|
-F Shackle's Den|QID|45833|M|69.86,51.32|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45833|FLY|LEGION|
+R Krasus' Landing|QID|45833|M|65.18,42.73|Z|Dalaran@Dalaran70|N|Run to Krasus' Landing to take a flight (or travel to Black Rook Hold any other way)|ACTIVE|45833|FLY|OLD|
+F Shackle's Den|QID|45833|M|69.86,51.32|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45833|FLY|OLD|
 t The Pirate's Bay|QID|45833|M|57.66,63.47|Z|Azsuna|N|To Princess Tess Graymane, who can be found along the road to the Temple of a Thousand Lights.|
 t The Pirate's Bay|QID|46322|M|57.66,63.47|Z|Azsuna|N|To Lilian Voss, who can be found along the road to the Temple of a Thousand Lights.|
 A What's the Cache?|QID|44758|M|57.66,63.47|Z|Azsuna|N|From Princess Tess Graymane.|PRE|45833|FACTION|ALLIANCE|

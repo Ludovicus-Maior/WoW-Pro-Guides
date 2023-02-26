@@ -282,7 +282,7 @@ H Highpass|QID|35659|N|Hearthstone to Highpass, or run there if you didn't set y
 T Heart of the Fen|QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
 A Seeking the Scout|QID|36432|LEAD|36437|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
 A News from Talador|QID|36495|LEAD|37183|PRE|36576|N|From Vindicator Maraad, to get to Talador later.|M|52.85,59.68|
-R Cragplume Cauldron|ACTIVE|36432|N|Head up the Cragplume Cauldron|M|50.70,57.02|FLY|WOD|
+R Cragplume Cauldron|ACTIVE|36432|N|Head up the Cragplume Cauldron|M|50.70,57.02|FLY|OLD|
 f Breaker's Crown|ACTIVE|36432|N|With Nisha|M|45.84,54.95|
 $ Unknown Petrified Egg|M|47.23,51.80|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|36432|PRE|35212|
 T Seeking the Scout|QID|36432|N|To Altauur|M|49.39,49.64|
