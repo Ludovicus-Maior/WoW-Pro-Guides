@@ -88,18 +88,18 @@ C Yellow and Red Make Orange|QID|29945|M|67.45,40.01;65.67,43.10;70.06,49.06|CC|
 C Frenzyhop|QID|29944|M|64.64,40.66|QO|3|T|Frenzyhop|
 C Jinanya the Clawblade|QID|29944|M|66.57,38.06|QO|2|N|She paths back and forth through here.|T|Jinanya the Clawblade|
 C Aiyu the Skillet|QID|29944|M|68.25,37.03|QO|1|N|She circles around the grove of trees.|T|Aiyu the Skillet|
-C Yellow and Red Make Orange|QID|29945|M|67.45,40.01;65.67,43.10;70.06,49.06|CC|QO|1|N|Finish collecting the marigolds from the spawn in the areas marked.|US|
+C Yellow and Red Make Orange|QID|29945|M|67.45,40.01;65.67,43.10;70.06,49.06|CC|QO|1|NC|N|Finish collecting the marigolds from the spawn in the areas marked.|US|
 C Yellow and Red Make Orange|QID|29945|M|67.04,41.14|QO|2|N|Finish collecting the vials.|US|
 T Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|To Li Li.|
 T Leaders Among Breeders|QID|29944|M|68.88,43.15|N|To Chen Stormstout.|
 A Crouching Carrot, Hidden Turnip|QID|29947|M|68.89,43.31|N|From Li Li.|PRE|29945|
 A The Warren-Mother|QID|29946|M|68.87,43.17|N|From Chen Stormstout.|PRE|29944|
 A Thieves to the Core|QID|29948|M|68.71,43.11|N|From Mudmug.|PRE|29944|
-C Thieves to the Core|QID|29948|M|67.75,36.37|N|The Stolen Sacks of Hops are in the Twisted Warren.\nIf you keep your distance, you can avoid the Sleepyheads.|S|NC|
+C Thieves to the Core|QID|29948|M|67.75,36.37|NC|N|The Stolen Sacks of Hops are in the Twisted Warren.\nIf you keep your distance, you can avoid the Sleepyheads.|S|NC|
 C Crouching Carrot, Hidden Turnip|QID|29947|M|69.15,39.41|N|Use the painted turnips in the Warren to get rid of the vermin.|U|76370|S|
 C Chufa|QID|29946|M|67.90,37.41|QO|1|N|At ~80% health, she will put on her 'Battle Armor'. Just attack her from behind; she won't hurt you.\nAt ~75%, Chen will come and help finish her off.|T|Chufa|U|76370|
 C Crouching Carrot, Hidden Turnip|QID|29947|M|69.15,39.41|N|Use the painted turnips in the Warren to get rid of the vermin.|U|76370|US|
-C Thieves to the Core|QID|29948|M|67.75,36.37|N|Finish collecting the Stolen Sacks of Hops.|US|
+C Thieves to the Core|QID|29948|M|67.75,36.37|NC|N|Finish collecting the Stolen Sacks of Hops.|US|
 T Crouching Carrot, Hidden Turnip|QID|29947|M|68.89,43.31|N|To Li Li.|
 T Thieves to the Core|QID|29948|M|68.71,43.12|N|To Mudmug.|
 T The Warren-Mother|QID|29946|M|68.87,43.17|N|To Chen Stormstout.|

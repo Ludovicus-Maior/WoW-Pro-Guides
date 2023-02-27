@@ -50,7 +50,7 @@ A From Within|QID|36920^44140^40815|PRE|37660^40375^40374^37658|M|43.56,43.46|N|
 T From Within|QID|36920^44140^40815|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
 A Fel Machinations|QID|37656|PRE|36920^40815^44140|M|41.25,50.51|N|From Kor'vas Bloodthorn who will show up and follow you around.|
 A Saving Stellagosa|QID|37450|PRE|36920^40815^44140|M|41.25,50.51|N|From Kor'vas Bloodthorn.|
-A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920^40815^44140|M|41.24,50.50|N|From Kor'vas Bloodthorn. Auto-Accepted.|RANK|2|LVL|-45;CT|
+A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920^40815^44140|M|41.24,50.50|N|From Kor'vas Bloodthorn. Auto-Accepted.|RANK|2|LVL|-45|CT|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|S|US|N|Kill demons and click on the glowing items as you accomplish the other objectives.|RANK|2|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
 C Saving Stellagosa|QID|37450|QO|2|M|40.48,56.36|N|Kill and Loot Lykill to get the key to Stellagosa's bonds.|T|Overseer Lykill|
@@ -63,25 +63,25 @@ t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon 
 T Saving Stellagosa|QID|37450|M|PLAYER|N|To Kor'vas Bloodthorn following you around.|
 T Fel Machinations|QID|37656|M|PLAYER|N|To Kor'vas Bloodthorn.|
 A Dark Revelations|QID|37449|PRE|37656&37450|M|PLAYER|N|From Kor'vas Bloodthorn.|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S|FLY|LEGION|
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S|FLY|OLD|
 K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|RARE|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US|FLY|LEGION|
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US|FLY|OLD|
 f Illidari Perch|ACTIVE|37449|M|31.81,46.27|N|At Jena Moonrath.|RANK|3|
 K Kill Houndmaster Stroxis|QID|42286|QO|1|M|30.82,47.61|N|Silver - Kill and loot for some treasure and resources. Pull him into Illidari perch to get help from the Illidari|RANK|3|RARE|
 $ Treasure Chest|QID|44105|M|26.25,47.14|N|Loot for a bit of treasure and resources.|RANK|3|
 K Kill Inquistitor Tivos|QID|42376|QO|1|M|26.83,49.07;28.30,51.94|CS|ITEM|141874|T|Inquistitor Tivos|N|Silver - Use the portal located at the first coordinate, to port up to the Soulrender above, he is in the lower level. Kill and loot for some treasure and resources.|RANK|3|RARE|
 K Kill Broodmother Lizax|QID|44670|QO|1|M|33.26,42.21|ITEM|141869|T|Broodmother Lizax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|RARE|
-R Grey Shoals|QID|38238|M|32.43,28.61|N|If you have a glider, gliding across from outside Vorthax's spot is nice. Otherwise run down and swim across.|RANK|3|FLY|LEGION|
+R Grey Shoals|QID|38238|M|32.43,28.61|N|If you have a glider, gliding across from outside Vorthax's spot is nice. Otherwise run down and swim across.|RANK|3|FLY|OLD|
 K Kill Beacher|QID|38238|QO|1|M|32.43,28.61|ITEM|129067|T|Beacher|N|Silver - Paths up and down the beach. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|;probably need a run step in here
 $ Small Treasure Chest|QID|44102|M|34.58,35.55|N|In a alcove under a rocky outcropping. Loot for a bit of treasure and resources.|RANK|3|
-R Traitor's Overlook|QID|37449|M|35.54,52.50|N|And back to the questline. Yes, its a bit of a run, you can use a glider if you have it to save a bit of pain.|RANK|3|FLY|LEGION|
+R Traitor's Overlook|QID|37449|M|35.54,52.50|N|And back to the questline. Yes, its a bit of a run, you can use a glider if you have it to save a bit of pain.|RANK|3|FLY|OLD|
 C Dark Revelations|QID|37449|QO|1|M|35.54,52.50|N|Kill Nightglaive the Traitor.|T|Nightglaive the Traitor|
 C Dark Revelations|QID|37449|QO|2|M|35.11,52.90|NC|N|Click on Stellagosa for a ride back to Illidari Stand (Optional).|
 C Dark Revelations|QID|37449|QO|3|M|43.57,43.28|NC|N|Meet back at Illidari Stand.|
 T Dark Revelations|QID|37449|M|43.56,43.46|N|To Kayn Sunfury / Altruis the Sufferer.|
 A Journey to the Repose|QID|38443|PRE|37449|M|43.55,43.42|N|From Archmage Khadgar.|
 $ Treasure Chest|QID|42292|M|40.85,36.59;42,32;41.39,30.75|CS|N|Loot for a bit of treasure and resources.|RANK|3|
-R Azurewing Repose|QID|38443|M|40.85,36.59;47.71,28.60|CS|N|Ride to Azurewing Repose.|PRE|-42292|FLY|LEGION|
+R Azurewing Repose|QID|38443|M|40.85,36.59;47.71,28.60|CS|N|Ride to Azurewing Repose.|PRE|-42292|FLY|OLD|
 f Azurewing Repose|ACTIVE|38443|M|48.43,28.08|N|At Dagrona.|
 T Journey to the Repose|QID|38443|M|47.94,27.19|N|To Archmage Khadgar.|
 A The Death of the Eldest|QID|37853|PRE|38443|M|47.94,27.19|N|From Archmage Khadgar.|
@@ -116,7 +116,7 @@ C Runas the Shamed|QID|37957|QO|1|M|45.61,15.47;42.98,17.53|CS|N|Attempt to slay
 C Runas the Shamed|QID|37957|QO|2|M|48.60,16.35|NC|N|Escort Runas to Senegos.|
 T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
 A Runas Knows the Way|QID|37857|PRE|37856&37957&37859|M|49.22,16.08|N|From Runas the Shamed.|
-R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|FLY|LEGION|
+R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|FLY|OLD|
 A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-45|CT|
 C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|US|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
 A Challiane Vineyards|QID|38203|M|47.40,12.44|N|From Cellarman Voodani who shows up when you enter the area and follows you.|RANK|3|
@@ -129,7 +129,7 @@ $ Glimmering Treasure Chest|QID|38367|M|42.63,8.08|N|Loot for a bit of treasure 
 t A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto turned in when complete.|RANK|3|
 f Challiane's Terrace|ACTIVE|38203|M|40.81,8.98|N|At Stagtamer Maliana.|RANK|3|
 T Challiane Vineyards|QID|38203|M|40.78,9.33|N|To Cellarman Voodani.|RANK|3|
-R Azurewing Whelplands|QID|37857|M|53.50,16.68|N|Back to the interupted quest line.|RANK|3|FLY|LEGION|
+R Azurewing Whelplands|QID|37857|M|53.50,16.68|N|Back to the interupted quest line.|RANK|3|FLY|OLD|
 C Runas Knows the Way|QID|37857|QO|1|M|53.50,16.68|CHAT|N|Tell Runas, to just lead the way, and then follow along with Runas.|
 T Runas Knows the Way|QID|37857|M|53.38,16.21|N|To Projection of Senegos.|
 A Leyline Abuse|QID|37960|PRE|37857|M|53.38,16.21|N|From Projection of Senegos.|
@@ -190,11 +190,11 @@ C Hunger's End|QID|42756|QO|1|M|48.39,26.79|N|Orbyth slain|
 C Hunger's End|QID|42756|QO|2|M|48.39,26.79|N|Ael'Yith slain|
 T Hunger's End|QID|42756|M|47.86,26.12|N|To Senegos.|
 $ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|129056|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
-R Nor'Danil Wellspring|QID|42505|M|40.30,34.35|N|Another optional sidetrip for the completioinists amongst us.  WAY OUT OF THE WAY.|RANK|3|FLY|LEGION|
+R Nor'Danil Wellspring|QID|42505|M|40.30,34.35|N|Another optional sidetrip for the completioinists amongst us.  WAY OUT OF THE WAY.|RANK|3|FLY|OLD|
 K Kill Arcanist Shal'iman|QID|42505|QO|1|M|40.92,35.03;35.22,34.54|CS|ITEM|141868|T|Arcanist Shal'iman|N|Silver - He paths around this circle. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
 $ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
 $ Glimmering Treasure Chest|QID|42297|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|RANK|3|
-R Llothien Highlands|QID|37690|M|49.32,29.27|N|Run to Llothien Highlands.|FLY|LEGION|
+R Llothien Highlands|QID|37690|M|49.32,29.27|N|Run to Llothien Highlands.|FLY|OLD|
 A Felblaze Ingress|QID|42372|M|50.46,30.73|N|From Marius Felbane.|RANK|3|LEAD|42375|
 A Missing Demon|QID|42238|M|50.41,30.77|N|From Tehd Shoemaker.|RANK|2|LEAD|38460|
 K Kill Daggerbeak|QID|37869|QO|1|M|51.09,31.64|T|Daggerbeak|N|Silver - Kill and loot for a bit of loot and treasure.|RANK|2|RARE|
@@ -207,7 +207,7 @@ $ Small Treasure Chest|QID|37713|M|44.48,39.47|N|Loot for a bit of treasure and 
 C They Came From the Sea|QID|37256|QO|2|M|47.30,35.41|N|Finish killing naga.|US|
 T They Came From the Sea|QID|37256|M|48.39,34.54|N|To Nightwatcher Idri.|
 A Prince Farondis|QID|37733|PRE|37256|M|48.39,34.54|N|From Nightwatcher Idri.|
-R Crumbled Palace|QID|37733|M|46.48,36.53;46.98,41.11|CS|N|Ride over to the Crumbled Palace.|FLY|LEGION|
+R Crumbled Palace|QID|37733|M|46.48,36.53;46.98,41.11|CS|N|Ride over to the Crumbled Palace.|FLY|OLD|
 T Prince Farondis|QID|37733|M|46.97,41.25|N|To Nightwatcher Idri.|
 A Our Very Bones|QID|37257|PRE|37733|M|47.00,41.36|N|From Prince Farondis.|
 A A Rather Long Walk|QID|37492|PRE|37256|M|47.06,41.47|N|From Lady Irisse.|
@@ -226,7 +226,7 @@ C Presentation is Everything|QID|37728|QO|1|M|51.73,32.68|N|Kill and loot Gangam
 $ Treasure Chest|QID|38251|M|56.45,34.87|N|Yes, its in the middle of those sleeping basilisks. Loot for a bit of treasure and resources.|RANK|2|
 C The Magister of Mixology|QID|37727|QO|1|M|52.76,33.12|N|The eggs are ground spawn in nests around Gangamesh's lair.\nShallows Heron's will attack when you loot the eggs.|US|
 C Our Very Bones|QID|37257|QO|1|M|51.09,38.17|N|Finish collecting bones.|US|
-R Crumbled Palace|QID|37727|M|47.11,41.40|N|Ride over to the Crumbled Palace.|FLY|LEGION|
+R Crumbled Palace|QID|37727|M|47.11,41.40|N|Ride over to the Crumbled Palace.|FLY|OLD|
 T The Magister of Mixology|QID|37727|M|47.11,41.40|N|To Magister Garuhod.|
 T Presentation is Everything|QID|37728|M|47.11,41.40|N|To Magister Garuhod.|
 T A Rather Long Walk|QID|37492|M|47.06,41.45|N|To Lady Irisse.|
@@ -331,7 +331,7 @@ $ Small Treasure Chest|QID|42294|M|62.81,44.79|N|Loot for a bit of treasure and 
 $ Small Treasure Chest|QID|42293|M|63.64,39.18|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Golza the Iron Fin|QID|42372|ACH|11261;2|M|65.17,40.02|N|Silver - Blow the 'Horn of the Siren' to summon Golza. Kill two waves of naga and then Golza for some treasure and resources.|ITEM|129091|T|Golza the Iron Fin|RANK|2|RARE|; There are ACH's for all silvers in this zone.
 t Tip the Scales-Bonus Objective|QID|37779|M|58.67,41.22|N|Auto turned in when complete.|RANK|2|
-R Felblaze Ingress|QID|42372|M|63.86,28.92|N|Ride to the Felblaxe Ingress.|RANK|3|FLY|LEGION|
+R Felblaze Ingress|QID|42372|M|63.86,28.92|N|Ride to the Felblaxe Ingress.|RANK|3|FLY|OLD|
 T Scribal Knowledge|QID|39939|M|65.07,25.94|N|To Zarla Shadowheart.|P|Inscription;773;6|
 A Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773;6|PRE|39939|
 A Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773;6|PRE|39939|
@@ -360,8 +360,8 @@ T They're Doing it Wrong|QID|42369|M|63.86,28.94|N|To Tehd Shoemaker.|RANK|3|
 T Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773;6|
 T Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773;6|
 A The Burdens of Hunting|QID|39943|M|65.07,25.96|N|From Zarla Shadowheart.|P|Inscription;773;6|PRE|39941&39940|
-R The Empyrean Society Enclave|QID|38419|M|63.54,33.2|N|Take the road to the left if you want to get through without fighting. Continue on ths road towards Olivian Veil.|RANK|3|FLY|LEGION|
-R The Greenway|QID|38419|M|62.56,34.56|N|Side jaunt for a Silver and 3 chests.|RANK|3|FLY|LEGION|
+R The Empyrean Society Enclave|QID|38419|M|63.54,33.2|N|Take the road to the left if you want to get through without fighting. Continue on ths road towards Olivian Veil.|RANK|3|FLY|OLD|
+R The Greenway|QID|38419|M|62.56,34.56|N|Side jaunt for a Silver and 3 chests.|RANK|3|FLY|OLD|
 T Consult the Locals|QID|38946|M|60.00,34.48|N|To Lyndras.|P|Tailoring;197;6|
 A Runic Catgut|QID|38947|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197;6|PRE|38946|
 A Hard Times|QID|38948|M|60.00,34.48|N|From Lyndras.|P|Tailoring;197;6|PRE|38946|
@@ -371,7 +371,7 @@ K Kill Pridelord Meowl|QID|38061|QO|1|M|56.05,28.91|T|Pridelord Meowl|ITEM|13839
 C Runic Catgut|QID|38947|M|57,31|US|N|Kill cats until you collect the catgut needed.|P|Tailoring;197;6|
 $ Small Treasure Chest|QID|42288|M|55.36,27.74|N|Loot for a bit of treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|CS|N|Loot for a bit of treasure and resources.|RANK|3|
-R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|FLY|LEGION|
+R Olivian Veil|QID|40751|M|60.98,34.67;65.84,37.26;66.06,43.44|CS|N|Back to questing.|RANK|3|FLY|OLD|
 $ Small Treasure Chest|QID|40751|M|66.06,43.44|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Syphonus|QID|37989|QO|1|M|67.19,51.58|T|Syphonus|N|Silver - Kill and loot for a bit of treasure and resources.  Be wary of the lvl 50 mobs nearby.|RANK|2|ITEM|129064|RARE|
 T Missing Demon|QID|42238|M|62.91,51.45|N|To Daglop.|RANK|2|
@@ -398,8 +398,8 @@ T Best Served Cold|QID|40188|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|N|To
 T Naga Know-How|QID|40189|PRE|40187|M|47.52,44.17|P|Leatherworking;165;6|N|To Celea.|
 A A Daring Rescue|QID|40195|PRE|40188&40189|M|47.52,44.17|P|Leatherworking;165;6|N|To Celea.|
 A Reclaimed Cargo|QID|40194|PRE|40188&40189|M|47.52,44.17|P|Leatherworking;165;6|N|To Celea.|
-R Shipwreck Arena|QID|37496|M|50.64,44.27|N|Run back past Narthalas Academy and to the Shipwreck Arena.|RANK|-1|FLY|LEGION|
-R Shipwreck Arena|QID|37496|M|46.14,45.00;47.99,45.51|CS|N|Run Down the Old Coast Path and to the Shipwreck Arena.|RANK|2|FLY|LEGION|
+R Shipwreck Arena|QID|37496|M|50.64,44.27|N|Run back past Narthalas Academy and to the Shipwreck Arena.|RANK|-1|FLY|OLD|
+R Shipwreck Arena|QID|37496|M|46.14,45.00;47.99,45.51|CS|N|Run Down the Old Coast Path and to the Shipwreck Arena.|RANK|2|FLY|OLD|
 T Infiltrating Shipwreck Arena|QID|37496|M|50.00,48.51|N|To Okuna Longtusk.|
 A Boss Whalebelly's in Charge|QID|37507|PRE|37496|M|50.00,48.51|N|From Okuna Longtusk.|
 C Boss Whalebelly's in Charge|QID|37507|QO|1|M|49.14,49.22|N|Speak with Boss Whalebelly.|CHAT|
@@ -466,7 +466,7 @@ C Shipwrecked Sailors|QID|42268|M|59.93,58.12|US|N|Rescue sailors as you go abou
 C Shipwrecked Sailors|QID|42220|M|59.93,58.12|US|T|Queen's Reprisal Sailor|N|Kill sailors as you go about your other objectives.|FACTION|Alliance|
 T Shipwrecked Sailors|QID|42268^42220|M|59.93,58.12|N|To UI Alert.|
 T Making the World Safe for Profit|QID|37657|M|56.59,59.58|N|To Mr. Shackle.|
-F Illidari Stand|QID|40327|ACTIVE|40327|M|56.20,58.91|N|Fly to Illidari Stand, from Avaya Farwind.|FLY|LEGION|
+F Illidari Stand|QID|40327|ACTIVE|40327|M|56.20,58.91|N|Fly to Illidari Stand, from Avaya Farwind.|FLY|OLD|
 T Testing the Metal|QID|40327|M|47.52,44.17|N|To Celea.|
 T Reclaimed Cargo|QID|40194|M|47.52,44.17|N|To Celea.|
 H Dalaran Hearthstone|ACTIVE|42244^40794|M|56.59,59.58|TZ|Dalaran|U|140192|N|Hearth or fly to Dalaran to get the final zone quest completed and receive you zone achievement.|

@@ -62,6 +62,6 @@ D On to Class Halls|N|This ends the intro scenario and the Rogue order hall guid
 D On to Class Halls|N|This ends the intro scenario and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends the intro scenario and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends the intro scenario and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
-D On to Class Halls|N|This ends the intro scenario and the Evoker Breadcrumb Hub will load.\n[color=FF0000]NOTE: [/color]Evokers do not have a Class Hall campaign nor an Order Hall.|C|Evoker|GUIDE|CagLegionEvoker|
+D On to Class Halls|N|This ends Azsuna and the Evoker order hall guide will load.\n[color=FF0000]NOTE: [/color]Evokers do not have a Class Hall campaign nor an Order Hall.|C|Evoker|GUIDE|CagLegionEvoker|
 ]]
 end)

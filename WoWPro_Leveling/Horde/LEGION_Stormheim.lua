@@ -85,7 +85,7 @@ C Havi's Test|QID|38331|QO|2|M|41.60,42.61|H|N|Click on the crabs, face the stew
 C Havi's Test|QID|38331|QO|3|M|41.75,42.72|H|N|Click on the hearty grains, face the stewpot, adjust the angle into the pot (and your view) as needed and press "2".|
 T Havi's Test|QID|38331|M|41.83,43.06|N|To Havi.|
 A Ahead of the Game|QID|39590|PRE|38331|M|41.83,43.06|N|From Havi.|
-A A Worthy Challenger-Bonus Objective|QID|38442|PRE|38331|M|41.83,43.06|N|Auto-accepted upon entering the area.|RANK|2|LVL|-45|CT|
+A A Worthy Challenger-Bonus Objective|QID|38442|PRE|38331|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|RANK|2|
 A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|
 C Blood and Gold|QID|39595|M|42.54,43.08|S|N|Kill the champion types to get the tributes.|
@@ -239,10 +239,10 @@ C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|ACTIVE|39787|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
 F Cullen's Post|ACTIVE|39787|M|51.98,34.81|N|Fly back to Cullen's Post at Hillevi the Scalekeepter.|RANK|2|FLY|OLD|
-T Rigging the Wager|QID|39787|M|51.26,57.21|N|To Snaggle Sixtrigger.|RANK|2|
-T Only the Finest|QID|39793|M|51.46,57.06|N|To Rax Sixtrigger.|RANK|2|
-A A Stack of Racks|QID|39792|PRE|39787&39793|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
-A A Stone Cold Gamble|QID|39786|PRE|39787&39793|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
+T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
+T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
+A A Stack of Racks|QID|39792|PRE|39787&39793|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
+A A Stone Cold Gamble|QID|39786|PRE|39787&39793|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
 $ Small Treasure Chest|QID|38477|M|42.33,61.12|N|If you are careful, you can get without waking the Basilisk. Otherwise kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|RANK|2|
 C A Stone Cold Gamble|QID|39786|M|46.38,60.68|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
 $ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
@@ -250,7 +250,7 @@ $ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterf
 T A Stone Cold Gamble|QID|39786|M|51.97,64.66;51.31,56.99|CS|N|To Snaggle Sixtrigger.|RANK|2|
 ; Back to business - The Trial of Valor
 R Valdisdall|ACTIVE|39803|M|51.31,54.64;57.87,50.47|CS|N|Off to Valdisdall|FLY|OLD|
-h Valdisdall|ACTIVE|39803|M|60.54,50.26|N|At Riala the Hearthwatcher.\n[color=FF0000]NOTE: [/color]This will save you a lot of time.|RANK|2|
+h Valdisdall|ACTIVE|39803|M|60.54,50.26|N|At Riala the Hearthwatcher.\n[color=FF0000]NOTE: [/color]This will save you a lot of time on Rank 2 or 3.|RANK|2|
 T The Trials Continue|QID|39803|M|60.14,50.73|N|To Havi.|
 A Speaking of Bones|QID|39804|PRE|39803|M|60.14,50.73|N|From Havi.|
 C Speaking of Bones|QID|39804|QO|1|M|60.67,51.38|H|N|Click on the buck to butcher.|
@@ -549,14 +549,18 @@ T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|R
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
-A Pressing the Assault|QID|44545|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
-A Isle Hopping|QID|44547|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
-A Scouring What Remains|QID|44548|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
-A Master of the Isles|QID|44549|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
-C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Scouring What Remains|QID|44548|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Master of the Isles|QID|44549|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the last strike point at your scouting map.|C|Evoker|
+C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|C|-Evoker|
 t Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
@@ -574,5 +578,6 @@ D On to Class Halls|N|This ends Stormheim and the Rogue order hall guide will lo
 D On to Class Halls|N|This ends Stormheim and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends Stormheim and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends Stormheim and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
+D On to Class Halls|N|This ends Azsuna and the Evoker order hall guide will load.|C|Evoker|GUIDE|CagLegionEvoker|
 ]]
 end)

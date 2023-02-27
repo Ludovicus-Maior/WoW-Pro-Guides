@@ -54,7 +54,7 @@ C The Nightmare Lord|QID|40573|M|64.03,77.96|QO|4|N|Thaon Moonclaw slain|
 T The Nightmare Lord|QID|40573|M|62.33,76.20|N|To Evelle Nightwhisper.|
 C Moonclaw Vale-Bonus Objective|QID|39393|M|61.04,73.23|US|N|Stay and Finish or check this off manually.|RANK|2|
 t Moonclaw Vale-Bonus Objective|QID|39393|M|63.81,70.05|N|Auto-turn-in when completed.|RANK|2|
-R Grizzleweald|QID|42865|M|64.28,73.44;65.29,77.07|CS|N|Some optional quests and treasure are available over here.|RANK|2|FLY|LEGION|
+R Grizzleweald|QID|42865|M|64.28,73.44;65.29,77.07|CS|N|Some optional quests and treasure are available over here.|RANK|2|FLY|OLD|
 A All Grell Broke Loose|QID|42883|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grassroots Effort|QID|42884|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
 A Grell to Pay|QID|42865|M|66.69,77.28|N|From Old Grizzleback.|RANK|2|
@@ -71,11 +71,11 @@ T Grell to Pay|QID|42865|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T All Grell Broke Loose|QID|42883|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Grassroots Effort|QID|42884|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Moist Around the Hedges|QID|42857|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
-R Whispering Bluffs|QID|38900|M|64.69,81.13|N|Optional treasures in Whispering Bluffs as you make your way towards Steelclaw Vale.|RANK|2|FLY|LEGION|
+R Whispering Bluffs|QID|38900|M|64.69,81.13|N|Optional treasures in Whispering Bluffs as you make your way towards Steelclaw Vale.|RANK|2|FLY|OLD|
 $ Antydas Nightcaller|QID|38903|M|64.36,84.67|CHAT|N|Upstairs, asleep on a bed, click to try to wake.  He won't wake up, but does mumble about where the treasure is (which is next treasure).This is for adventurer of Val'sharah achievement - no actual reward.|RANK|2|
 $ Treasure|QID|38900|M|64.55,85.46|N|Upstairs, under slanting roof. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39089|M|61.01,79.17|N|Small alcove at the base of the cliff. Loot for a bit of treasure and resources.|RANK|3|
-R Lightsong|QID|42748|M|59.41,84.12|N|Some optional quests and treasure are available down here.|RANK|2|FLY|LEGION|
+R Lightsong|QID|42748|M|59.41,84.12|N|Some optional quests and treasure are available down here.|RANK|2|FLY|OLD|
 A Emerald Sisters|QID|42748|M|59.41,84.12|N|From Guviena Bladesong.|RANK|2|
 A Where the Wildkin Are|QID|42747|M|59.41,84.12|N|From Guviena Bladesong.|RANK|2|
 C Where the Wildkin Are|QID|42747|M|59.46,82.04|S|N|Kill Wildkin and slimes as you go.|RANK|2|
@@ -100,9 +100,9 @@ $ Treasure|QID|38893|M|60.48,82.14|N|Loot for a bit of treasure and resources.|R
 $ Treasure|QID|44136|M|62.17,86.23;62.70,85.26|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|38389|M|63.38,88.39|N|Loot for a bit of treasure and resources.|RANK|3|
 $ Treasure|QID|39074|M|65.38,86.25|N|Small cave, below Whispering Bluff. Loot for a bit of treasure and resources.|RANK|3|
-R Lightsong|QID|42786|M|61.46,87.9;59.52,85.90|CS|N|Back up the hill to turn the quests in.|RANK|2|FLY|LEGION|
+R Lightsong|QID|42786|M|61.46,87.9;59.52,85.90|CS|N|Back up the hill to turn the quests in.|RANK|2|FLY|OLD|
 T Moon Reaver|QID|42751|M|59.33,83.99|N|To Keeper Remulos.|RANK|2|
-R Lunarwing Shallows|QID|40221|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|QO|1|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|FLY|LEGION|
+R Lunarwing Shallows|QID|40221|M|57.76,86.68;56.14,78.26;53.77,79.87|CS|QO|1|N|Some optional quests and a bonus objective are available in Lunarwing Shallows.|RANK|2|FLY|OLD|
 A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you enter the area.|RANK|2|LVL|-45|
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|S|N|Kill the thistleleafs and otherwise work towards the objective.|RANK|2|
 A Thorny Dancing|QID|40220|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
@@ -125,9 +125,9 @@ C A Needle Need|QID|38951|PRE|38950|M|53.75,79.82|P|Tailoring;197;6|US|N|Kill an
 T Thieving Thistleleaf|QID|38862|M|53.75,79.82|N|To Saylanna Riverbreeze.|RANK|2|
 T Thorny Dancing|QID|40220|M|53.75,79.82|N|To Saylanna Riverbreeze.|RANK|2|
 T Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|To Saylanna Riverbreeze.|RANK|2|
-R Field of Dreamers|QID|38142|M|52.77,78.98;51.82,75.21|CS|N|You can return to Cenarius Grove and then take the road from there, or just go cross country.|FLY|LEGION|
+R Field of Dreamers|QID|38142|M|52.77,78.98;51.82,75.21|CS|N|You can return to Cenarius Grove and then take the road from there, or just go cross country.|FLY|OLD|
 $ Treasure|QID|38388|M|50.96,77.00;51.49,77.70|CS|N|Small cave, right beside the road. Loot chest for treasure and resources.|RANK|2|
-R Steelclaw Vale|QID|38142|M|49.19,81.06|N|Continue down the road.|FLY|LEGION|
+R Steelclaw Vale|QID|38142|M|49.19,81.06|N|Continue down the road.|FLY|OLD|
 T Archdruid of the Claw|QID|38142|M|49.09,82.33|N|To Rylissa Bearsong.|
 A Frenzied Furbolgs|QID|38455|PRE|38142|M|49.09,82.33|N|From Rylissa Bearsong.|
 A Littlefur|QID|38922|PRE|38142|M|48.40,84.64|N|From Elder Sookh.|;while it could be rank2, you may as well do it while killing the furbolgs.
@@ -135,11 +135,11 @@ C Frenzied Furbolgs|QID|38455|M|46.95,84.40|S|N|Kill the Smolderhide furbolgs th
 T Littlefur|QID|38922|M|46.24,84.56|N|To Littlefur.|
 A Totemic Call|QID|38246|PRE|38142|M|46.24,84.56|N|From Littlefur.|
 $ Treasure|QID|38277|M|46.46,86.33|N|Loot for treasure and resources.|RANK|2|
-R Marrowden|QID|43446|M|46.02,87.22|N|Brief sidetrip for a couple of treasures and a silver.|RANK|3|FLY|LEGION|;can not find the kel'delar treasure and the risk reward is terrible for the one in the hydra cave
+R Marrowden|QID|43446|M|46.02,87.22|N|Brief sidetrip for a couple of treasures and a silver.|RANK|3|FLY|OLD|;can not find the kel'delar treasure and the risk reward is terrible for the one in the hydra cave
 K Kill Bahagar|QID|43446|QO|1|M|45.61,88.84|ITEM|130135|N|Silver - Kill for loot and resources.|RANK|3|RARE|
 $ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|CS|N|In a cave with several unfriendly hydras.  Loot for a bit of treasure and resources.|RANK|3|;if we had such a rank... this would qualify for rank 4
 $ Treasure|QID|38387|M|44.87,79.23;44.35,82.58|CS|N|Run up this path and to a small cave behind and underneath the inn at Sabermaw Bluff for a bit of loot and treasure.|RANK|3|
-R Smolderhide Thicket|QID|38146|M|48.68,88.28|N|And... back to your questing.|RANK|3|FLY|LEGION|
+R Smolderhide Thicket|QID|38146|M|48.68,88.28|N|And... back to your questing.|RANK|3|FLY|OLD|
 K Kill Chieftain Graw|QID|38146|M|48.68,88.28|L|128340|T|Chieftain Graw|
 A The Chieftain's Beads|QID|38146|M|48.71,88.30|U|128340|N|Auto accepted from item you looted from the Cheiftain.|
 C Totemic Call|QID|38246|M|48.87,88.52|N|Destroy the Nightmare Totem behind the Cheiftain.|NC|
@@ -164,7 +164,7 @@ $ Treasure|QID|38366|M|48.69,73.79|N|Surrounded by a circle of tree trunks. Loot
 T Archdruid of Lore|QID|38381^44106|M|48.87,70.18|N|To Elothir.|
 A Solid as a Rock|QID|38235|PRE|44106^38381|M|48.87,70.18|N|From Elothir.|
 A Death to the Witchmother|QID|38225|PRE|44106^38381|M|48.87,70.18|N|From Elothir.|
-A Wretched Sisters-Bonus Objective|QID|38372|M|48.32,68.86;47.25,69.79|CS|N|Auto Accepted when you enter the area.|RANK|2|LVL|-45;CT|
+A Wretched Sisters-Bonus Objective|QID|38372|M|48.32,68.86;47.25,69.79|CS|N|Auto Accepted when you enter the area.|RANK|2|LVL|-45|CT|
 C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Smash eggs, burn nests, rouse acolytes and of course kill harpys to advance the objective.|RANK|2|
 C Solid as a Rock|QID|38235|M|43.84,70.19|QO|1|NC|N|Click Marnor to rescue him.|
 C Solid as a Rock|QID|38235|M|43.85,75.31|QO|3|NC|N|Click Del'thanar to rescue him.|
@@ -181,18 +181,18 @@ A Wisp in the Willows|QID|39354|PRE|38384|M|54.28,68.28|N|From Syndrelle.|RANK|3
 C Wisp in the Willows|QID|39354|M|54.31,68.22|QO|1|NC|N|Click on the wisp to bond.|RANK|2|
 C Wisp in the Willows|QID|39354|M|49.28,63.90|QO|2|NC|N|The wisp will go unerringly to the pools, and then try to get eaten by fish, you need to steer it away from the water circles, and stop at each seedling tree.  Press the "1" key to grow the trees.|RANK|2|
 T Wisp in the Willows|QID|39354|M|54.25,68.30|N|To Syndrelle.|RANK|2|
-R Grove of Cenarius|QID|38322|M|54.74,67.19|N|Follow the road on into the Grove.|FLY|LEGION|
+R Grove of Cenarius|QID|38322|M|54.74,67.19|N|Follow the road on into the Grove.|FLY|OLD|
 T Return to the Grove|QID|38322|M|51.90,64.11|N|To Malfurion Stormrage.|
 A The Emerald Queen|QID|38377|PRE|38322^38323^38148|M|51.90,64.11|N|From Malfurion Stormrage.|
 C The Emerald Queen|QID|38377|M|52.29,64.21|QO|1|N|Ysera Summoned|CHAT|
 T The Emerald Queen|QID|38377|M|52.54,64.15|N|To Malfurion Stormrage.|
 A The Temple of Elune|QID|38641|PRE|38377|M|52.48,63.35|N|From Ysera.|
 $ Treasure|QID|39097|M|54.52,60.47|N|In a small cave, loot for a bit of treasure and resources.|RANK|2|
-R The Crescent Vale|ACTIVE|38641|M|53.70,63.74;56.59,62.13|CS|N|Follow this road towards the temple.|FLY|LEGION|
+R The Crescent Vale|ACTIVE|38641|M|53.70,63.74;56.59,62.13|CS|N|Follow this road towards the temple.|FLY|OLD|
 $ Treasure|QID|39072|M|56.22,57.30|N|Loot for a bit of treasure and resources.|RANK|2|
 f Garden of the Moon|ACTIVE|38641|M|56.74,57.72|N|At Brinlanya Moonstone.|
 T The Temple of Elune|QID|38641|M|51.44,57.01|N|To Lyanis Moonfall.|
-A Defend The Temple-Bonus Objective|QID|39029|PRE|38641|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|RANK|2|LVL|-45;CT|
+A Defend The Temple-Bonus Objective|QID|39029|PRE|38641|M|51.44,57.01|N|Auto Accepted when you enter the inner temple.|RANK|2|LVL|-45|CT|
 A Tears for Fears|QID|38662|PRE|38641|M|51.44,57.01|N|From Lyanis Moonfall.|
 A Root Cause|QID|38655|PRE|38641|M|51.48,56.83|N|From Isoraen Nightstar.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
@@ -208,7 +208,7 @@ T Tears for Fears|QID|38662|M|51.43,57.01|N|To Lyanis Moonfall.|
 A The Die is Cast|QID|38663|PRE|38662|M|51.43,57.01|N|From Lyanis Moonfall.|
 t Mark of the Demon|QID|38656|M|53.71,55.97|N|To Isorarn Nightstar. (If done AFTER turning in the Tears, He is at these coords)|
 A A Village in Peril|QID|38643|M|54.79,52.80|N|From Darcy Heathrow.| ; this quest invalidates 39149, which is not including in guide.
-R Bradensbrook|ACTIVE|38643|M|53.44,50.25;42.35,59.01|CS|N|Follow the road into Bradensbrook.|RANK|-1|FLY|LEGION|
+R Bradensbrook|ACTIVE|38643|M|53.44,50.25;42.35,59.01|CS|N|Follow the road into Bradensbrook.|RANK|-1|FLY|OLD|
 $ Share Marius and Tehd Adventures|QID|44070|M|50.66,49.72;48.94,47.21;49.15,49.54|CS|ITEM|132359|T|Gathenak|N|Follow this path down to find Marius and Tehd and share in their adventures. Silver-Kill for treasure and resources.|RANK|2|
 $ Old Bear Trap|QID|39357|M|47.20,57.99|ITEM|130214|T|Mad Henryk|N|Get close to the trap to start the vignette.|RANK|2|
 $ Treasure|QID|39083|M|44.00,61.57;45.14,61.81;45.12,61.14|CS|N|Jump off the rocky outcropping into the tree to loot chest for treasure and resources.|RANK|2|
@@ -262,7 +262,7 @@ A Maiev's Trail|QID|38714|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadows
 A The Rook's Guard|QID|38715|PRE|38718|M|40.74,53.01|N|From Commander Jarod Shadowsong.|
 R Ravencourt|QID|38715|M|39.06,53.03;38.96,52.44|CS|N|Run out of this chamber and up into the hold courtyard.|RANK|-1|
 U Inscription on tomb|QID|38772|QO|1|M|37.96,52.81|N|Silver - Click on the nameplate to summon Theryssia and put her to rest.|T|Theryssia|RANK|2|RARE|
-A Black Rook Hold-Bonus Objective|QID|38716|PRE|38718|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-45;CT|
+A Black Rook Hold-Bonus Objective|QID|38716|PRE|38718|M|39.25,53.55|N|Auto accepted as you enter this area.|RANK|2|LVL|-45|CT|
 C Black Rook Hold-Bonus Objective|QID|38716|M|39.25,53.55|S|N|Click on the Keldorei Tomes, weapon racks and kill the Black Rook mobs as you go about your other objectives.|RANK|2|
 C The Rook's Guard|QID|38715|M|39.92,52.07|QO|1|N|Kill Starlys Strongbow in the Ravencourt.|T|Starlys Strongbow|
 C Maiev's Trail|QID|38714|M|40.45,51.62|QO|1|NC|N|Click on the girl lying in the prison cages here.|
@@ -293,8 +293,8 @@ $ Treasure|QID|39086|M|41.00,42.68|N|Loot for a bit of treasure and resources.|R
 C Lieutenant of the Tower|QID|38721|M|41.54,41.16|N|Kill Lieutenant Desdel Stareye.|T|Lieutenant Desdel Stareye|
 T Lieutenant of the Tower|QID|38721|M|41.97,40.75;38.86,50.91|CS|N|Click on the gate to go outside, and then you can turn in the quest to Maiev Shadowsong.|
 T Illidari Freedom|QID|38719^44278|M|39.13,51.05|N|To Asha Ravensong.|
-R Bradensbrook|QID|38663|M|38.27,54.75;42.23,58.50|CS|N|Ride back to Bradensbrook and there you can catch a flight path to Garden of the Moon or you can just continue on to Grove of Cenarius.|FLY|LEGION|
-F Garden of the Moon|QID|38663|M|42.23,58.50|N|At Douglass Carrington.|FLY|LEGION|
+R Bradensbrook|QID|38663|M|38.27,54.75;42.23,58.50|CS|N|Ride back to Bradensbrook and there you can catch a flight path to Garden of the Moon or you can just continue on to Grove of Cenarius.|FLY|OLD|
+F Garden of the Moon|QID|38663|M|42.23,58.50|N|At Douglass Carrington.|FLY|OLD|
 T The Die is Cast|QID|38663|M|52.46,63.35|N|To Ysera.|
 A Malfurion's Fury|QID|38595|PRE|38663|M|52.45,63.34|N|From Ysera.|
 C Malfurion's Fury|QID|38595|M|52.45,63.34|CHAT|N|Tell Ysera you are ready.|
@@ -342,7 +342,7 @@ $ Treasure|QID|39073|M|67.16,41.71;68.33,40.61|CS|N|Follow the path down, Chest 
 K Kill Wraithtalon|QID|39856^43447|QO|1|M|66.88,37.38|T|Wraithtalon|ITEM|130116|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Reading the Leaves|QID|38684|M|68.10,35.48|US|N|Finish collecting the petals.|
 C Given to Corruption|QID|41749^41893|M|66.64,36.14;68.69,35.32|CS|N|Kill Varethos.|T|Varethos|
-A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45;CT|
+A Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|S|N|Kill mobs, pick bloodflowers and whatnot, while finding the treasure and rare in the area.|RANK|2|
 $ Treasure|QID|44139|M|63.91,45.57|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Thondrax|QID|38780|QO|1|M|62.99,47.95|ITEM|130121|T|Thondrax|N|Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
@@ -353,7 +353,7 @@ T Reading the Leaves|QID|38684|M|66.20,44.52|N|To Elothir.|
 T Given to Corruption|QID|41749^41893|M|66.20,44.52|N|To Elothir.|
 A Softening the Target|QID|43702|PRE|38684&41893|M|66.20,44.76|N|From Tyrande Whisperwind.|
 C Softening the Target|QID|43702|M|66.34,44.85|N|Hop on the bat for a bombing run.|
-A Ruins of Shala'nir-Bonus Objective|QID|38748|PRE|43702|M|63.28,42.07|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45;CT|
+A Ruins of Shala'nir-Bonus Objective|QID|38748|PRE|43702|M|63.28,42.07|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|S|N|Kill mobs and destroy nightmare totems to complete the objective.|RANK|2|
 T Softening the Target|QID|43702|M|63.19,42.22|N|To Tyrande Whisperwind.|
 A Close Enough to Touch|QID|38687^41763|PRE|43702|M|63.19,42.22|N|From Tyrande Whisperwind.|
@@ -395,14 +395,18 @@ T The Tears of Elune|QID|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|To 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
-A Pressing the Assault|QID|44545|PRE|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
-A Isle Hopping|QID|44547|PRE|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
-A Scouring What Remains|QID|44548|PRE|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
-A Master of the Isles|QID|44549|PRE|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
-C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Scouring What Remains|QID|44548|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Master of the Isles|QID|44549|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the last strike point at your scouting map.|C|Evoker|
+C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|C|-Evoker|
 t Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
@@ -420,5 +424,6 @@ D On to Class Halls|N|This ends Val'sharah and the Rogue order hall guide will l
 D On to Class Halls|N|This ends Val'sharah and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends Val'sharah and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends Val'sharah and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
+D On to Class Halls|N|This ends Azsuna and the Evoker order hall guide will load.|C|Evoker|GUIDE|CagLegionEvoker|
 ]]
 end)
