@@ -116,7 +116,7 @@ A WANTED: Gutsmash the Destroyer|QID|33919|PRE|33527|M|28.9,44.8|N|From Bounty B
 A Mopping Up|QID|33412|PRE|33657|M|28.29,45.72|N|From Snowrunner Rolga.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 A Slavery and Strife|QID|33119|PRE|33657|M|24.36, 37.37|N|From Guse.|RANK|2|
 f Bladespire Citadel|ACTIVE|33412|M|19.9,51.8|N|At Roark the Airwolf.|
-F Wor'gol|ACTIVE|33468|M|24.33,37.24|N|At Roark the Airwolf.|FLY|WOD|
+F Wor'gol|ACTIVE|33468|M|24.33,37.24|N|At Roark the Airwolf.|FLY|OLD|
 C Save Wolf Home|QID|33468|NC|M|21.76,56.39|QO|1|N|Head to Wor'gol, to the south|
 A Free Our Brothers and Sisters|QID|33807|PRE|33527|M|21.76,56.39|N|From Duratan.|
 C Free Our Brothers and Sisters|QID|33807|M|19.03,57.36|S|NC|N|Click on the trapped villagers to free them.|
@@ -155,7 +155,7 @@ C Shivertail's Den|QID|33929|M|21.4,50.2|QO|2|N|Continue into the den, and save 
 $ Pale Loot Sack|QID|34931|M|21.7,50.7|N|Go up the path on the right for minor treasure.|RANK|2|
 T Shivertail's Den|QID|33929|M|19.53,51.01|N|To Shivertail.|RANK|2|
 C Back to Bladespire Fortress|QID|33473|M|21.57,56.15|CHAT|N|Speak with Pul Windcarver to fly back to Bladespire Citadel. Take the chat option, not the flight path.|
-R Frostboar Drifts|ACTIVE|33412|M|17.76,41.96|N|Head away from the Citadel and take a right at Gormaul Tower, down into the valley.|RANK|2|FLY|WOD|
+R Frostboar Drifts|ACTIVE|33412|M|17.76,41.96|N|Head away from the Citadel and take a right at Gormaul Tower, down into the valley.|RANK|2|FLY|OLD|
 C WANTED: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|RANK|2|
 C From Their Cold Dead Hands|QID|36417|M|24.30,28.30|S|P|Tailoring;197|N|From the ogres you have been killing, You don't need to get them all in this area.|
 T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrimar the Resolute.|RANK|2|
@@ -205,15 +205,15 @@ C Dyed in the Fur|QID|36419|M|20.48,60.65|NC|P|Tailoring;197|N|Use the Flytrap I
 T Dyed in the Fur|QID|36419|M|20.47,60.60|P|Tailoring;197|N|To Trega.|
 U Learn Tailoring skill|AVAILABLE|33484|U|115357|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|PRE|36419|
 ;U Learn Tailoring Emporium Blueprints|QID|36706|U|111816|M|20.47,60.60|P|Tailoring;197|N|After you learn check this step off manually.|
-F Bladespire Fortress|AVAILABLE|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Leatherworking;165|FLY|WOD|PRE|36516|
-F Bladespire Fortress|AVAILABLE|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Tailoring;197|LEAD|36516|FLY|WOD|PRE|36419|
+F Bladespire Fortress|AVAILABLE|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Leatherworking;165|FLY|OLD|PRE|36516|
+F Bladespire Fortress|AVAILABLE|33484|M|21.57,56.15|N|At Pul Windcarver. If the chat option flight is available you can save your self a gold, its the same time.|P|Tailoring;197|LEAD|36516|FLY|OLD|PRE|36419|
 T The Slavemaster's Demise|QID|33484|M|18.44,42.12;24.36,37.30|CS|N|To Guse.|RANK|2|
 T The Fall of the Warlord|QID|33467|M|28.29,45.72|N|To Snowrunner Rolga.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|To Durotan.|
 A Ga'nar's Vengeance|QID|32783|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|
 A Securing the South|QID|32989|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|
 T WANTED: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel@FrostfireRidge|N|To Der'shway.|
-R Daggermaw Ravine|ACTIVE|32783|M|30.89,25.84|N|Run roughly northeast from the Ring of Blood to Daggermaw Ravine.|FLY|WOD|
+R Daggermaw Ravine|ACTIVE|32783|M|30.89,25.84|N|Run roughly northeast from the Ring of Blood to Daggermaw Ravine.|FLY|OLD|
 T Ga'nar's Vengeance|QID|32783|M|30.89,25.84|N|To Ga'nar|
 A Let the Hunt Begin!|QID|32791|PRE|32783|M|30.89,25.84|N|From Ga'nar.|
 C Let the Hunt Begin!|QID|32791|M|30.89,25.84|QO|1|CHAT|N|Tell Ga'nar you are ready|
@@ -278,13 +278,13 @@ T Burning Beauty|QID|36709|M|62.14,22.99|Z|Warspear|N|To Vivianne, Note that the
 A The Dark Lady's Gift|QID|35243|PRE|36709|M|62.14,22.99|Z|Warspear|N|From Vivianne.|RANK|2|
 T The Dark Lady's Gift|QID|35243|M|62.14,22.99|Z|Warspear|N|To Vivianne.|RANK|2|
 H Town Hall (Frostwall)|ACTIVE|32989|M|41.58,53.06|U|110560|N|Return to your Garrison.|
-R Icewind Drifts|ACTIVE|32989|M|45.3,50.4|FLY|WOD|
+R Icewind Drifts|ACTIVE|32989|M|45.3,50.4|FLY|OLD|
 $ Help out the Veteran|QID|33011|CHAT|RANK|3|M|43.8,49.3;45.3,50.4|CS|N|Talk to him to start the encounter. Help him defeat the attackers and he will share his most precious treasure with you.|
 T Securing the South|QID|32989|M|38.54,52.46|N|To Lokra.|
 A They Who Held Fast|QID|32990|PRE|32989|M|38.54,52.46|N|From Lokra.|
 f Stonefang Outpost|ACTIVE|32990|M|40.11,51.84|N|At Skyhunter Donmor'gan.|
 ;JC interlude
-F Wor'gal|M|40.11,51.84|N|At Skyhunter Donmor'gan.|ACTIVE|36352|P|Jewelcrafting;755|FLY|WOD|
+F Wor'gal|M|40.11,51.84|N|At Skyhunter Donmor'gan.|ACTIVE|36352|P|Jewelcrafting;755|FLY|OLD|
 T Locating the Lapidarist|QID|36352|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Grinder Orolak.|
 A No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|PRE|36352|N|From Gem Grinder Orolak.|
 F Stonefang Outpost|ACTIVE|36378|M|21.57,56.15|N|At Pul Windcarver.|P|Jewelcrafting;755|
@@ -358,7 +358,7 @@ N Explore Cold Snap Bluffs|ACTIVE|34348|M|51.7,18.7|CC|N|Be careful of the lvl 1
 T The Real Prey|QID|34348|M|52.61,40.42|N|To Shadow Hunter Rala.|RANK|2|
 A Oath of Shadow Hunter Rala|QID|34731|M|52.61,40.42|RANK|2|N|From Shadow Hunter Rala.|PRE|34348|
 ;JC/BS interlude
-F Wor'gal|ACTIVE|36378|M|51.70,41.12|P|Jewelcrafting;755|N|At Ja'kana.|FLY|WOD|
+F Wor'gal|ACTIVE|36378|M|51.70,41.12|P|Jewelcrafting;755|N|At Ja'kana.|FLY|OLD|
 T No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Grinder Orolak.|
 A Diamonds Are Forever|QID|36380|M|20.0,56.4|P|Jewelcrafting;755|PRE|36378|N|From Gem Grinder Orolak.|
 T Diamonds Are Forever|QID|36380|M|20.0,56.4|P|Jewelcrafting;755|N|Wait a moment whiile he crafts it and then turn quest into Gem Grinder Orolak.|
@@ -372,7 +372,7 @@ A Mending A Broken Heart|QID|36238|M|46.08,48.78|PRE|36230|P|Blacksmithing;164|N
 T Mending A Broken Heart|QID|36238|M|41.21,52.89|P|Blacksmithing;164|N|To Axe-Shaper Kurga.|
 U Learn Blacksmithing skill|ACTIVE|32992|U|115356|M|41.21,52.89|P|Blacksmithing;164|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Blacksmith Shop Blueprints|QID|33918|U|111813|M|41.21,52.89|P|Blacksmithing;164|N|After you learn check this step off manually.|
-R Icewind Drifts|ACTIVE|32992|M|54.17,51.86|RANK|2|FLY|WOD|
+R Icewind Drifts|ACTIVE|32992|M|54.17,51.86|RANK|2|FLY|OLD|
 ;enchanting profession quest
 T The Arakkoan Enchanter|QID|36256|M|54.4,51.6|P|Enchanting;333|N|To Arcanist Delath.|
 A Failed Apprentice|QID|36257|PRE|36256|M|54.4,51.6|P|Enchanting;333|N|From Arcanist Delath.|
@@ -507,7 +507,7 @@ C Thunderlord Invasion!|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimja
 t Thunderlord Invasion!|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|Z|Frostwall|
 A The Iron Wolf|QID|33010|PRE|37291|M|50.17,37.82|N|From Durotan.|Z|Frostwall|
 A Services of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654&34651|RANK|2|Z|Frostwall|
-R Grimfrost Hill|ACTIVE|33010|M|65.14,49.45|RANK|3|FLY|WOD|
+R Grimfrost Hill|ACTIVE|33010|M|65.14,49.45|RANK|3|FLY|OLD|
 A A Proper Parting|QID|33125|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
 A Gut Guttra|QID|33132|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
 C Gut Guttra|QID|33132|M|68.02,45.87|T|Guttra Wolfchew|RANK|3|
@@ -517,7 +517,7 @@ C A Proper Parting|QID|33125|M|62.04,50.29|NC|QO|1|RANK|3|
 C A Proper Parting|QID|33125|M|62.55,50.83|NC|QO|3|RANK|3|
 T A Proper Parting|QID|33125|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
 T Gut Guttra|QID|33132|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
-R The Hunter's Hall|ACTIVE|33010|M|63.39,65.67|FLY|WOD|
+R The Hunter's Hall|ACTIVE|33010|M|63.39,65.67|FLY|OLD|
 C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Grom'gar@FrostfireRidge|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|
 T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|To Thrall.|
 A To Thunder Pass|QID|34123|PRE|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|From Thrall.|
@@ -530,7 +530,7 @@ A The Secrets of Gorgrond|QID|34867|M|76.16,55.16|N|From Durotan.|PRE|34124|
 A The Frostwolves Stand Ready|QID|37563|PRE|34124|M|76.32,54.06|N|From Makar Stonebinder.|RANK|2|
 C Pick one|QID|37563|M|76.32,54.06|N|Geyah is a resto shaman, her guarenteed ability is a magic debuff counter, Kal'gor is an elemental shaman and his guarenteed ability is a counter to minion swarms, Lokra is an enhancelent shaman and her guarenteed ability is a counter to danger zones.  Pick the one you want.|RANK|2|
 T The Frostwolves Stand Ready|QID|37563|M|76.32,54.06|N|To Makar Stonebinder.|RANK|2|
-R Bones of Agurak|AVAILABLE|34066|M|78.38,54.95;83.62,60.88|CS|N|There is a passage thru the rocks starting at the first waypoint.|RANK|2|FLY|WOD|PRE|37563|
+R Bones of Agurak|AVAILABLE|34066|M|78.38,54.95;83.62,60.88|CS|N|There is a passage thru the rocks starting at the first waypoint.|RANK|2|FLY|OLD|PRE|37563|
 f Thunder Pass|AVAILABLE|34066|M|83.62,60.88|N|At Bile Warneck.|RANK|2|PRE|37563|
 A Savage Vengeance|QID|34066|M|83.22,62.76|N|From Scout Ruk'Gan. If you happen arrive just as someone else picked up the quest it takes a minute or two for him to come back.|RANK|3|
 C Savage Vengeance|QID|34066|M|83.50,65.90|S|RANK|3|

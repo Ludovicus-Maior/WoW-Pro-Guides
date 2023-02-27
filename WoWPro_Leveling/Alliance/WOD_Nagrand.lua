@@ -27,7 +27,7 @@ C Operation: Surprise Party|QID|34682|N|Mount Thaelin's Copter.|M|63.02,61.97|
 T Operation: Surprise Party|QID|34682|N|To Rangari Ogir in Rangari Overlook.|M|65.88,68.62|
 A Mo'mor Might Know|QID|34716|PRE|34682|N|From Rangari Ogir.|M|65.88,68.62|
 A Operation: Just Arrowhead|QID|34717|PRE|34682|N|From Rangari Ogir.|M|65.88,68.62|
-R Telaar|ACTIVE|34716^34717|NC|N|Click on the Rappelling Rope to get down to Telaar.|M|65.91,68.56|FLY|WOD|
+R Telaar|ACTIVE|34716^34717|NC|N|Click on the Rappelling Rope to get down to Telaar.|M|65.91,68.56|FLY|OLD|
 C Operation: Just Arrowhead|QID|34717|N|Kill Warsong forces at Telaar.|S|
 T Mo'mor Might Know|QID|34716|N|To Vindicator Mo'mor, chained up inside the building.|M|66.74,68.64|
 A The Others|QID|34718|N|From Vindicator Mo'mor|M|66.74,68.64|PRE|34716|
