@@ -13,7 +13,7 @@ N Rares (Silver Elite)|QID|39733|N|A significant number,(21/25) of the Silver mo
 N Ranks|QID|39733|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure in the zone.*no treasures, rares or bonus objectives are included on rank 1*|
 T The Lone Mountain|QID|39733|M|71.13,43.96|Z|Dalaran!Dalaran!Dungeon|N|To Warbrave Oro.|
 A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|Dalaran!Dalaran!Dungeon|N|From Warbrave Oro.|PRE|39733|
-F Thunder Totem|QID|38907|M|69.95,51.20|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|FLY|LEGION|
+F Thunder Totem|QID|38907|M|69.95,51.20|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|FLY|OLD|
 C Keepers of the Hammer|QID|38907|M|45.70,38.88|Z|ThunderTotem|QO|2|NC|N|Meet Warbrave Oro at Thunder Totem.|
 T Tauren Tanning|QID|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|To Hrul Sharphoof|
 A Drogbar Durability|QID|40186|PRE|40184|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165;6|N|From Hrul Sharphoof.|
@@ -37,7 +37,7 @@ T Infestation|QID|39490|M|43.69,59.91|N|To Farmer Maya.|
 T Ormgul the Pestilent|QID|39491|M|43.64,59.92|N|To Jale Rivermane.|
 A The Flow of the River|QID|39496|M|43.64,59.92|N|From Jale Rivermane.|PRE|39272^39490^39491|
 T The Flow of the River|QID|39496|M|42.10,59.34;41.13,61.57|CS|N|To Angler Creel.|
-A Defend the Riverlands-Bonus Objective|QID|39274|PRE|39496|M|41.13,61.57|N|Auto Accepted when you enter the area.|LVL|-45;CT|RANK|2|
+A Defend the Riverlands-Bonus Objective|QID|39274|PRE|39496|M|41.13,61.57|N|Auto Accepted when you enter the area.|LVL|-45|CT|RANK|2|
 C Defend the Riverlands-Bonus Objective|QID|39274|M|41.13,61.57|S|N|You can do this as you do the other objectives in the area.|RANK|2|
 A Trapped Tauren|QID|39316|M|41.13,61.57|N|From Angler Creel.|PRE|39496|
 A Fish Out of Water|QID|39614|M|41.13,61.57|N|From Angler Creel.|PRE|39496|
@@ -74,7 +74,7 @@ T Crystal Fury|QID|39487|M|43.84,27.29|Z|Highmountain/21|N|To Jale Rivermane.|
 A High Water|QID|39498|M|43.84,27.29|Z|Highmountain/21|N|From Jale Rivermane.|PRE|39487|
 $ Glimmering Treasure Chest|QID|40476|M|72.79,55.81|CS|Z|Highmountain/21|N|Go down these stairs for a Glimmering Treasure chest and a shortcut out of the caverns.|RANK|2|
 R Whitewater Wash|QID|39498|M|60.75,18.07;73.25,81.73|CS|Z|Highmountain/20|N|Go down these stairs for a shortcut out of the caverns.|RANK|-1|
-R Riverbend|QID|39498|M|41.97,66.70|N|Continue on the road until you get to Riverbend.|FLY|LEGION|
+R Riverbend|QID|39498|M|41.97,66.70|N|Continue on the road until you get to Riverbend.|FLY|OLD|
 T High Water|QID|39498|M|40.36,71.70|N|To Jale Rivermane.|
 A The Underking Comes|QID|42104|M|40.36,71.70|N|From Jale Rivermane.|PRE|39498|
 C The Underking Comes|QID|42104|M|39.73,69.24|NC|N|Walk around pressing the extra action button near Rivermane Tauren to tell them to evacuate.|
@@ -154,7 +154,7 @@ $ Treasure Chest|QID|40510|M|43.78,72.72|N|Loot for a bit of treasure and resour
 C The Path of Huln|QID|39575|M|45.63,71.15|Z|Highmountain/29|NC|QO|1|N|Escort Spiritwalker Ebonhorn to the Path of Huln.|
 C The Path of Huln|QID|39575|M|46.50,70.98|Z|Highmountain/29|NC|QO|2|N|Jump in to the Vault.|
 T The Path of Huln|QID|39575|M|43.20,28.14|Z|Highmountain/29|N|To Spiritwalker Ebonhorn.|
-A Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|Highmountain/29|N|Auto accepted when you enter the area.|LVL|-45;CT|RANK|2|
+A Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|Highmountain/29|N|Auto accepted when you enter the area.|LVL|-45|CT|RANK|2|
 C Echoes of Deathwing-Bonus Objective|QID|39576|M|47.35,70.26|Z|Highmountain/29|S|N|Kill stuff, (like you have a choice).Note, you can ride your mount in here!|RANK|2|
 A In Defiance of Deathwing|QID|40219|M|47.35,70.26|Z|Highmountain/29|N|From Spiritwalker Ebonhorn.|PRE|39575|
 C In Defiance of Deathwing|QID|40219|M|38.71,47.66|Z|Highmountain/29|QO|1|NC|N|Click on brazier to recieve Vision of Scales.|
@@ -174,13 +174,13 @@ C An Ancient Secret|QID|39577|M|61.52,72.74|Z|Highmountain/29|QO|3|NC|N|Listen t
 T An Ancient Secret|QID|39577|M|61.52,72.74|Z|Highmountain/29|N|To Ebyssian.|
 A The Backdoor|QID|39579|M|61.52,72.74|Z|Highmountain/29|N|From Ebyssian.|PRE|39577|
 $ Treasure Chest|QID|40509|M|40.26,50.09|Z|Highmountain/29|N|Backtrack a little ways to pick up this chest for treasure and resources.|RANK|2|
-R The Backdoor|QID|39579|M|49.71,86.94|CC|Z|Highmountain/29|N|The backdoor is this way. Mount up and ride out.|FLY|LEGION|
+R The Backdoor|QID|39579|M|49.71,86.94|CC|Z|Highmountain/29|N|The backdoor is this way. Mount up and ride out.|FLY|OLD|
 C Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|Highmountain/29|US|N|If you somehow managed to not finish this, kill a few more.|RANK|2|
 t Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|Highmountain/29|N|Auto turned in upon completion.|RANK|2|
 T The Backdoor|QID|39579|M|47.48,84.74|N|To Mayla Highmountain.|
 A The High Chieftain|QID|39580|M|47.47,84.73|N|From Mayla Highmountain.|PRE|39579|
 f Obsidian Overlook|ACTIVE|39579|M|47.26,84.64|N|At Chofa Nighthoof.|
-F Thunder Totem|QID|39580|M|47.26,84.64|N|Fly back to Thunder Totem at Chofa Nighthoof.|FLY|LEGION|
+F Thunder Totem|QID|39580|M|47.26,84.64|N|Fly back to Thunder Totem at Chofa Nighthoof.|FLY|OLD|
 T The High Chieftain|QID|39580|M|54.85,63.11|Z|Highmountain/6|N|Take the elevator down to find Mayla Highmountain.|
 T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 A Wrathshard|QID|39134|PRE|38909|M|49.02,55.26|N|From Warbrave Nava who is back up the elevator and across the bridges.|RANK|2|
@@ -193,7 +193,7 @@ $ Small Treasure Chest|QID|40493|M|53.05,52.21|N|Loot for a bit of treasure and 
 C No Time to Talk|QID|39133|M|52.56,54.71|US|N|Finish off the remaining Enraged Earthshards as you leave.|RANK|2|
 T No Time to Talk|QID|39133|M|49.03,55.27|N|To Warbrave Nava.|RANK|2|
 T Wrathshard|QID|39134|M|49.03,55.27|N|To Warbrave Nava.|RANK|2|
-R Pinerock Basin|QID|38912|M|47.91,52.64|N|Take this road to Find Cliff's Edge.|FLY|LEGION|
+R Pinerock Basin|QID|38912|M|47.91,52.64|N|Take this road to Find Cliff's Edge.|FLY|OLD|
 $ Beastmaster Pao'lek & Arru|QID|39784|M|48.68,50.08|ITEM|131756|N|Beastmaster Pao'lek wants your help taming Arru. After he accomplishes it, and you curse at ungreatful hunters, go inside the now empty cave and loot the Thunder Totem Stolen Goods.|RANK|2|
 $ Floating Treasure|QID|39494|M|42.09,52.68|ITEM|131763|N|You can cross over on this log, or just swim, be on the lookout for a Treasure chest that comes to rest here briefly.|RANK|2|
 A Amateur Hour|QID|40170|M|40.03,52.24|N|From Hemet Nesingwary.|RANK|2|
@@ -214,7 +214,7 @@ C Claw of the Land|QID|40192|M|37.84,48.56|P|Leatherworking;165;6|S|N|Kill Piner
 C Lion Stalkin'|QID|39123|M|37.84,48.56|S|N|Kill Pinerock Stalkers.|RANK|2|
 C Moose Shootin'|QID|39124|M|42.08,48.33|S|N|The moose are mostly on the other side of the river.|RANK|2|
 $ Mara Swiftmane vs Sure Shot Arnie|QID|40612|M|43.47,47.31|N|Assist Mara and you can have the hunter's treasure. |RANK|2|
-R MuckSnout Den|QID|39392|M|41.78,47.26;38.34,42.49|CC|N|Run through Mucksnout Den to get to the Bears. (you can stay mounted.)|RANK|2|FLY|LEGION|
+R MuckSnout Den|QID|39392|M|41.78,47.26;38.34,42.49|CC|N|Run through Mucksnout Den to get to the Bears. (you can stay mounted.)|RANK|2|FLY|OLD|
 C Bear Huntin'|QID|39392|M|37.00,45.78|S|N|Kill and loot the Bristlefur Bears for their Pelts.|RANK|2|
 K Kill Bristlemaul|QID|40405|QO|1|M|38.11,45.68|T|Bristlemaul|N|Kill for a bit of treasure and resources.|ITEM|131761|RANK|2|RARE|
 C Bear Huntin'|QID|39392|M|37.00,45.78|US|N|Finish up collecting pelts before you leave Field of An'she.|RANK|2|
@@ -232,7 +232,7 @@ A I'm Not Lion!|QID|39867|M|40.02,52.36|N|From Ellias.|RANK|2|PRE|39123|
 C I'm Not Lion!|QID|39867|M|37.50,49.12|N|Kill and loot the mountain lion.|T|Rashar|RANK|2|
 C Scout It Out|QID|40228|M|44.18,44.14;43.54,44.83|CS|U|130074|T|Irewing|N|Go up the hillside so you are in range to use the flare gun. Fire it off and the other hunters will come help you.|RANK|2|
 C Moose on the Loose|QID|39178|M|45.78,42.80|T|Morashu|N|Kill and loot the old moose. His guards are not there to help you.|RANK|2|
-A The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|N|Auto-accepted when entering the area.|LVL|-45;CT|RANK|3|
+A The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|N|Auto-accepted when entering the area.|LVL|-45|CT|RANK|3|
 C The Screeching Crag-Bonus Objective|QID|40316|M|45.19,46.34|S|N|Kill harpys and the cursed animals, click on the hexxing fetishs to advance the objective.|RANK|3|
 A Hex-a-Gone|QID|39419|M|47.18,47.99|N|From Maltha Silenthoof|RANK|3|
 C Hex-a-Gone|QID|39419|M|45.56,49.06|T|Hexweaver Akara|N|Kill Heaweaver Akara.|RANK|3|
@@ -246,7 +246,7 @@ A That Guy in the Costume|QID|40244|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|
 A Procuring a Prototype|QID|39386|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|LEAD|39386|
 C That Guy in the Costume|QID|40244|M|40.22,52.69|CHAT|N|Ask Tamara for a ride.|RANK|3|
 f Shipwreck Cove|ACTIVE|40244|M|41.91,10.40|N|At Steven Nelson.|RANK|3|
-A Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|N|Auto accepted when you enter the area.|RANK|3|LVL|-45;CT|
+A Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|N|Auto accepted when you enter the area.|RANK|3|LVL|-45|CT|
 C Shipwreck Cove-Bonus Objective|QID|40050|M|41.88,10.51|S|N|Kill the adult Murlocs and click on the boxes of supplies to advance the objective.|RANK|3|
 T That Guy in the Costume|QID|40244|M|42.74,10.94|N|To King Mrgl-Mrgl.|RANK|3|
 A Nature vs. Nurture|QID|40045|M|42.73,10.94|N|From King Mrgl-Mrgl.|RANK|3|
@@ -272,8 +272,8 @@ C Murlocs: The Next Generation|QID|40102|M|48.86,13.24|QO|2|N|If you go out of t
 C Oh, the Clawdacity!|QID|40230|M|49.52,15.58|N|Kill Clawdayshus.|T|Clawdayshus|RANK|3|
 T Murlocs: The Next Generation|QID|40102|M|49.57,15.96|N|To King Mrgl-Mrgl.|RANK|3|
 T Oh, the Clawdacity!|QID|40230|M|49.57,15.96|N|To King Mrgl-Mrgl.|RANK|3|
-F Nesingwary|QID|38912|M|41.91,10.40|N|At Steven Nelson. Fly back to Nesingwary to continue on our way to Cliff's Edge.|RANK|3|FLY|LEGION|
-R Mucksnout Den|QID|39764|M|41.48,46.76|N|Run to Mucksnout Den. (you can be mounted in the cave)|RANK|2|FLY|LEGION|
+F Nesingwary|QID|38912|M|41.91,10.40|N|At Steven Nelson. Fly back to Nesingwary to continue on our way to Cliff's Edge.|RANK|3|FLY|OLD|
+R Mucksnout Den|QID|39764|M|41.48,46.76|N|Run to Mucksnout Den. (you can be mounted in the cave)|RANK|2|FLY|OLD|
 A Shiny, But Deadly|QID|39764|M|51.86,81.25|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|
 A The Soulkeeper's Fate|QID|39773|M|51.86,81.25|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|
 C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|Highmountain/16|S|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
@@ -287,8 +287,8 @@ C Demon Detainment|QID|39774|M|55.69,13.48|Z|Highmountain/16|QO|1|T|Ezerak|N|Eze
 $ Treasure Chest|QID|40494|M|60.81,25.14|Z|Highmountain/16|N|Loot for a bit of treasure and resources.|RANK|2|
 C Demon Detainment|QID|39774|M|30.16,83.06|Z|Highmountain/16|QO|2|T|Lozar|N|Lozar detained.|RANK|2|
 T Demon Detainment|QID|39774|M|30.39,82.66|Z|Highmountain/16|N|To Apprentice Rosalyn who is with you.|RANK|2|
-R Fields of An'she|QID|38912|M|45.30,83.99;32.66,60.58|CS|Z|Highmountain/16|N|Run thru and out the other side of Mucksnout Den to the Fields of An'she.|FLY|LEGION|
-A Witches of the Sky-Bonus Objective|QID|39371|M|38.87,39.33|LVL|-45;CT|RANK|2|
+R Fields of An'she|QID|38912|M|45.30,83.99;32.66,60.58|CS|Z|Highmountain/16|N|Run thru and out the other side of Mucksnout Den to the Fields of An'she.|FLY|OLD|
+A Witches of the Sky-Bonus Objective|QID|39371|M|38.87,39.33|LVL|-45|CT|RANK|2|
 f The Witchwood|ACTIVE|38912|M|38.34,39.23|N|At Rafat Smokehoof.|
 T The Bloodtotem Tribe|QID|38912|M|39.42,36.96|N|To Oakin Ironbull.|
 A Witch of the Wood|QID|39372|M|39.42,36.96|N|From Oakin Ironbull.|PRE|38912|
@@ -339,7 +339,7 @@ T Pet Rocks|QID|39391|M|45.21,32.51|N|To Navarrogg.|
 T Stonedark Crystal|QID|39425|M|45.21,32.51|N|To Navarrogg.|
 T They Will Pay With Blood|QID|39588|M|45.21,32.51|N|To Navarrogg.|
 A Blood Debt|QID|39426|M|45.21,32.51|N|From Navarrogg.|PRE|39391^39425^39588|
-A Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-45;CT|RANK|2|
+A Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-45|CT|RANK|2|
 C Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|S|N|Click on weapon racks and kill Feltotems to advance the objective.|RANK|2|
 $ Glimmering Treasure Chest|QID|40482|M|48.05,27.31;46.67,28.11|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest.  Loot for a bit of resources and treasure.|RANK|3|
 K Kill Mellok, Son of Torok|QID|40242|M|49.20,27.11|ITEM|131808|QO|1|T|Mellok, Son of Torok|N|Kill this silver for a bit of loot and treasure.|RANK|2|RARE|
@@ -349,7 +349,7 @@ A Step into the Dark|QID|40229|M|49.20,23.81|N|From Navarrogg.|PRE|39426|
 C Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|US|N|Stay and finish or click off manually.|RANK|2|
 t Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto turned in upon completion.|RANK|2|
 $ Small Treasure Chest|QID|44280|M|44.72,25.00;42.79,23.58;46.36,21.63|CS|N|Run up the mountain trail for a great view and to find this chest which contains a bit of loot and treasure. If you don't have a kite/glider, run back down.|RANK|3|
-R Stonedark Grotto|QID|40229|ACTIVE|40229|M|44.39,26.84;42.61,25.54|CS|N|Run to Navarrogg's new hang-out. (Stonedark Grotto).|FLY|LEGION|
+R Stonedark Grotto|QID|40229|ACTIVE|40229|M|44.39,26.84;42.61,25.54|CS|N|Run to Navarrogg's new hang-out. (Stonedark Grotto).|FLY|OLD|
 T Step into the Dark|QID|40229|M|40.32,52.21|Z|Highmountain/31|N|To Navarrogg.|
 A Unexpected Allies|QID|39456|M|40.32,52.21|Z|Highmountain/31|N|From Navarrogg.|PRE|40229|
 A You Lift, Brul?|QID|39440|M|52.50,62.81|Z|Highmountain/31|N|From Damrul the Stronk.|PRE|40229|RANK|2|
@@ -370,7 +370,7 @@ C Deep in the Cavern|QID|39437|M|75.90,57.93|Z|Highmountain/31|US|N|Finish killi
 T Stonedark Relics|QID|39439|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Stronk.|
 T Guhruhlruhlruh|QID|39438|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Stronk.|
 T Deep in the Cavern|QID|39437|M|52.50,62.81|Z|Highmountain/31|N|To Damrul the Stronk.|
-R Rockcrawler Chasm|AVAILABLE|38913|M|48.11,33.86|N|Out of Stonedark Grotto, thru Bloodhunt Highland and into Rockcrawler Chasm.|FLY|LEGION|
+R Rockcrawler Chasm|AVAILABLE|38913|M|48.11,33.86|N|Out of Stonedark Grotto, thru Bloodhunt Highland and into Rockcrawler Chasm.|FLY|OLD|
 A Fledgling Worm Guts|QID|40069|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
 A Eagle Egg Recovery|QID|40070|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
 A Tamer Takedown|QID|40071|M|50.89,36.58|N|From Oren Windstrider.|RANK|2|
@@ -437,7 +437,7 @@ K Kill Hartil the Snatcher|QID|39802|QO|1|M|53.25,47.92;51.12,48.05|CS|N|Go up t
 C Nursing the Wounds|QID|39318|M|53.22,45.94|US|QO|2|N|Finish putting out fires.|
 T Nursing the Wounds|QID|39318|M|52.48,44.70|N|To Lasan Skyhorn.|
 A Rocs vs Eagles|QID|38910|M|52.48,44.70|N|From Lasan Skyhorn.|PRE|39318|
-A Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|N|Auto accepted when you enter the area.|LVL|-45;CT|RANK|2|
+A Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|N|Auto accepted when you enter the area.|LVL|-45|CT|RANK|2|
 C Siege of Crawliac-Bonus Objective|QID|39317|M|50.79,44.25|S|N|Anything you kill inside the boundry line progresses the objective.|RANK|2|
 C Rocs vs Eagles|QID|38910|M|49.59,40.89|S|N|Captive Great Eagle rescued.|
 K Kill Crawshuk the  Hungry|QID|39806|QO|1|M|49.42,39.74;48.38,40.05|CS|T|Crawshuk the Hungry|RANK|2|ITEM|131809|RARE|
@@ -469,7 +469,7 @@ C The Witchqueen|QID|39322|M|46.36,39.97|T|High Crawliac|N|Kill High Crawliac.|
 $ Treasure Chest|QID|40507|M|46.81,40.13|N|Loot for a bit of treasure and resources.|RANK|2|
 T The Witchqueen|QID|39322|M|45.69,39.15|N|To Lasan Skyhorn.|
 A The Skies of Highmountain|QID|39387|M|45.69,39.15|N|From Lasan Skyhorn.|PRE|39322|
-F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Aviash for a quick ride back to Thunder Totem. (check this off manually)|FLY|LEGION|
+F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Aviash for a quick ride back to Thunder Totem. (check this off manually)|FLY|OLD|
 C The Skies of Highmountain|QID|39387|QO|1|M|42.17,32.99|Z|ThunderTotem|CHAT|N|Meet Lasan at Thunder Totem. If you didnt come in by Aviash, he is standing in front of the Path of Sky doorway.|
 C Unexpected Allies|QID|39456|M|35.07,43.55|Z|ThunderTotem|QO|1|CHAT|N|Meet Navarrogg just outside the Path of Earth doorway.|
 T The High Chieftain|QID|39580|M|54.85,63.11|Z|Highmountain/6|N|To Mayla Highmountain.|
@@ -522,7 +522,7 @@ $ Treasure Chest|QID|42453|M|52.54,66.37|N|Loot for some treasure and resources.
 C Neltharion's Lair: Death to the Underking|QID|39781|N|Queue or gather some friends if you wanna do this. The quest bit is dropped (on the ground) after killing the final boss in the instance.|
 T Neltharion's Lair: Death to the Underking|QID|39781|M|18.67,55.75|Z|NeltharionsLair|N|To Hammer of Khaz'goroth.|
 A The Hammer of Khaz'goroth|QID|42454|M|18.67,55.75|Z|NeltharionsLair|N|From Hammer of Khaz'goroth.|PRE|39781|
-R Howling Hills|QID|39386|M|56.06,57.75|N|Just a couple of optional quests left.|RANK|2|FLY|LEGION|
+R Howling Hills|QID|39386|M|56.06,57.75|N|Just a couple of optional quests left.|RANK|2|FLY|OLD|
 T Procuring a Prototype|QID|39386|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
 A Critter Scatter Shot|QID|39670|M|57.64,56.61|N|From Razik Gazbolt.|RANK|2|
 A A True Hunter|QID|40000|M|57.60,56.44|N|From Lorna Stoutfoot.|RANK|2|
@@ -545,14 +545,18 @@ T The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|Aegwynn's Gallery@Dalaran7
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
-A Pressing the Assault|QID|44545|PRE|42454|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
-A Isle Hopping|QID|44547|PRE|42454|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
-A Scouring What Remains|QID|44548|PRE|42454|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
-A Master of the Isles|QID|44549|PRE|42454|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
-C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Scouring What Remains|QID|44548|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Master of the Isles|QID|44549|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the last strike point at your scouting map.|C|Evoker|
+C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|C|-Evoker|
 t Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
@@ -570,5 +574,6 @@ D On to Class Halls|N|This ends Highmountain and the Rogue order hall guide will
 D On to Class Halls|N|This ends Highmountain and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends Highmountain and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends Highmountain and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
+D On to Class Halls|N|This ends Azsuna and the Evoker order hall guide will load.|C|Evoker|GUIDE|CagLegionEvoker|
 ]]
 end)

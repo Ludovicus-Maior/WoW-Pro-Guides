@@ -11,7 +11,7 @@ N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting ach
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest&treasure and rare in the zone.|
 ; Greymane's Gambit Leadin
-R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|At Sky Admiral Rogers.|FLY|LEGION|
+R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|At Sky Admiral Rogers.|FLY|OLD|
 T Stormheim|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|To Sky Admiral Rogers.|
 A A Royal Summons|QID|38035|PRE|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|From Sky Admiral Rogers.|
 C A Royal Summons|QID|38035|M|28.86,46.63|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Read the summons from Anduin Wrynn.|U|128687|
@@ -82,7 +82,7 @@ C Havi's Test|QID|38331|M|42.91,49.41|QO|2|NC|N|Click on the crabs, face the ste
 C Havi's Test|QID|38331|M|43.06,49.45|QO|3|NC|N|Click on the hearty grains, face the stewpot, adjust angle if needed and press "4".|
 T Havi's Test|QID|38331|M|43.14,49.21|N|To Havi.|
 A Ahead of the Game|QID|39590|PRE|38331|M|43.14,49.21|N|From Havi.|
-A A Worthy Challenger-Bonus Objective|QID|38442|PRE|38331|LVL|-45;CT|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|
+A A Worthy Challenger-Bonus Objective|QID|38442|PRE|38331|LVL|-45|CT|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|
 A Blood and Gold|QID|39595|M|42.54,43.08|N|Kill a mob in this area to get a Challengers Tribute and get this quest.|
 C Blood and Gold|QID|39595|M|42.54,43.08|S|N|Kill the champion types to get the tributes.|
@@ -118,7 +118,7 @@ t A Worthy Challenger-Bonus Objective|QID|38442|M|42.99,41.03|N|Auto turned in w
 T The Blessing of the Watchers|QID|39597|M|43.17,49.15|N|To Havi.|
 A Will of the Thorignir|QID|38473|PRE|39597|M|43.17,49.15|N|From Havi.| ; Alliance 38473, Horde 38611
 ; The Trial of Will (Cry Thunder!)
-R Lorna's Watch|ACTIVE|38473|M|40.34,51.45;45.11,54.33;42.85,59.10;38.32,63.60|CS|N|Lets ride on to Hrydshal and then to the Watch.|FLY|LEGION|
+R Lorna's Watch|ACTIVE|38473|M|40.34,51.45;45.11,54.33;42.85,59.10;38.32,63.60|CS|N|Lets ride on to Hrydshal and then to the Watch.|FLY|OLD|
 f Lorna's Watch|ACTIVE|38473|M|37.41,63.99|N|At Donovan.|
 T Will of the Thorignir|QID|38473|M|37.38,63.85|N|To Commander Lorna Crowley.|
 A A Grapple a Day|QID|38312|PRE|38473|M|37.38,63.85|N|From Commander Lorna Crowley.|
@@ -128,7 +128,7 @@ T A Grapple a Day|QID|38312|M|42.02,64.48|N|To Commander Lorna Crowley.|
 A No Wings Required|QID|38318|PRE|38312|M|42.02,64.48|N|From Commander Lorna Crowley.|
 A To Weather the Storm|QID|38405|PRE|38312|M|42.02,64.48|N|From Commander Lorna Crowley.|
 C No Wings Required|QID|38318|M|42.88,64.85|N|Click on the hook with the big Yellow Arrow and grapple over the wall.|
-A Assault the Drekirjar-Bonus Objective|QID|38374|M|42.88,64.85|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45;CT|
+A Assault the Drekirjar-Bonus Objective|QID|38374|M|42.88,64.85|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45|CT|
 C Assault the Drekirjar-Bonus Objective|QID|38374|M|42.88,64.85|S|NOCACHE|N|Go about your quests to advance this objective.|RANK|2|
 C Stormheim Savagery|QID|40179|M|42.88,64.85|Z|Stormheim|P|Leatherworking;165;6|S|N|Kill Vrykul to get the Bindings.|
 A Built to Scale|QID|38337|M|42.88,64.85|N|Kill a Stormwing Drake to get this quest from the UI.|
@@ -196,7 +196,7 @@ A The Trials Continue|QID|39803|PRE|38624|M|47.91,54.63|N|From Huginn.|
 ; Side Excursions
 K Kill Tiptog the Lost|QID|38774|M|46.29,50.01|T|Tiptog the Lost|QO|1|ITEM|129163|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.28|CS|N|Dodge the energy beams, open the chest, be ready to fight.  Loot for a bit of treasure and resources.|RANK|2|
-R Talonrest|ACTIVE|39803|M|50.40,56.45|N|Run to Talonrest, for some quests.|RANK|2|FLY|LEGION|
+R Talonrest|ACTIVE|39803|M|50.40,56.45|N|Run to Talonrest, for some quests.|RANK|2|FLY|OLD|
 A Eating Into Our Business|QID|39789|M|51.46,56.95|N|From Ootasa Galehoof.|RANK|2|
 C Eating Into Our Business|QID|39789|M|48.54,56.93|S|N|Kill Duskpelt worg.|RANK|2|
 $ Small Treasure Chest|QID|43207|M|49.07,60.00|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -204,8 +204,8 @@ C Eating Into Our Business|QID|39789|M|48.54,56.93|US|N|Finish killing Duskpelt 
 T Eating Into Our Business|QID|39789|M|51.46,57.06|N|To Rax Sixtrigger.|RANK|2|
 A Only the Finest|QID|39793|PRE|39789|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|2|
 A Rigging the Wager|QID|39787|PRE|39789|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
-R Nastrondir|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the Sword and into Nastrondir.|RANK|2|FLY|LEGION|
-A The Brood of Nithogg-Bonus Objective|QID|42431|LVL|-45;CT|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
+R Nastrondir|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the Sword and into Nastrondir.|RANK|2|FLY|OLD|
+A The Brood of Nithogg-Bonus Objective|QID|42431|LVL|-45|CT|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|S|N|Kill Drakes, crack eggs and the best way to finish this is to pick up rocks you find on the ground and throw them at the whelplings.|RANK|2|
 C Only the Finest|QID|39793|M|44.14,37.51|S|N|Kill goats to collect the patches of goat hair.|RANK|2|
 $ Small Treasure Chest|QID|43238|M|43.14,39.01;43.17,40.49|CS|N|Hook out to find chest, loot for treasure and resources.|RANK|2|
@@ -239,7 +239,7 @@ A Dances With Ravenbears|QID|42447|PRE|42445&42446|M|49.79,32.64|N|From Cukkaw.|
 C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic their motions 1-raise arms, 2-spin, 3-flap wings.|RANK|2|
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|ACTIVE|39787|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
-F Lorna's Watch|ACTIVE|39787|M|51.98,34.81|N|Fly back to Lorna's Watch at Hillevi the Scalekeepter.|RANK|2|FLY|LEGION|
+F Lorna's Watch|ACTIVE|39787|M|51.98,34.81|N|Fly back to Lorna's Watch at Hillevi the Scalekeepter.|RANK|2|FLY|OLD|
 K Hook&Sinker|QID|38625|M|42.05,57.84|QO|1|ITEM|129109|T|Hook|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|RARE|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
@@ -251,7 +251,7 @@ $ Small Treasure Chest|QID|38681|M|47.25,61.72;47.63,63.29;48.19,64.19;48.18,65.
 $ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|RANK|2|
 T A Stone Cold Gamble|QID|39786|M|51.31,56.99|N|To Snaggle Sixtrigger.|RANK|2|
 ; Back to business - The Trial of Valor
-R Valdisdall|ACTIVE|39803|M|51.12,54.76;57.87,50.47|CS|N|Off to Valdisdall.|FLY|LEGION|
+R Valdisdall|ACTIVE|39803|M|51.12,54.76;57.87,50.47|CS|N|Off to Valdisdall.|FLY|OLD|
 h Set Hearth to Valdisdall|ACTIVE|39803|M|60.54,50.26|N|At Riala the Hearthwatcher. If you are doing this on Rank 2 or 3.  It will save you a lot of time.|RANK|2|
 f Valdisdall|ACTIVE|39803|M|60.73,50.86|N|At Garhal the Scalekeeper.|
 T The Trials Continue|QID|39803|M|60.14,50.74|N|To Havi.|
@@ -259,7 +259,7 @@ A Speaking of Bones|QID|39804|PRE|39803|M|60.14,50.73|N|From Havi.|
 C Speaking of Bones|QID|39804|M|60.67,51.38|NC|N|Click on the buck to butcher.|
 T Speaking of Bones|QID|39804|M|60.15,50.72|N|To Havi.|
 A To Haustvald|QID|39796|PRE|39804|M|60.15,50.72|N|From Havi.|
-R Runewood|ACTIVE|39796|M|61.97,54.96;65.97,53.72|CS|N|Run to Runewood.|FLY|LEGION|
+R Runewood|ACTIVE|39796|M|61.97,54.96;65.97,53.72|CS|N|Run to Runewood.|FLY|OLD|
 T To Haustvald|QID|39796|M|68.50,54.34|N|To Vydhar.|
 A Turn the Keys|QID|38778|PRE|39796|M|68.50,54.34|N|From Vydhar.|
 A The Runewood's Revenge|QID|39788|PRE|39796|M|68.50,54.34|N|From Vydhar.|
@@ -315,7 +315,7 @@ A The Final Judgment|QID|38818|PRE|38815|M|71.45,42.50|N|From Ashildir.|
 $ Small Treasure Chest|QID|40085|M|73.33,41.51|N|Loot for treasure and resources.|RANK|2|
 C The Final Judgment|QID|38818|M|73.12,40.06|N|Confront Runeseer Faljar.|
 T The Final Judgment|QID|38818|M|65.61,47.17|Z|Helheim|N|To Ashildir.|
-A Raze Hel-Bonus Objective|QID|38343|LVL|-45;CT|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|RANK|2|
+A Raze Hel-Bonus Objective|QID|38343|LVL|-45|CT|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|RANK|2|
 A An Unworthy Task|QID|39837|PRE|38818|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
 C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|NOCACHE|N|Freeing captives and killing Kvaldir advance the objective.|
 C An Unworthy Task|QID|39837|M|60.77,43.72|Z|Helheim|NC|N|Find Cooperative spirit.|
@@ -388,7 +388,7 @@ T Cut Out the Heart|QID|39472|M|71.54,59.82|N|To Genn Greymane.|
 A To Skold-Ashil|QID|39062|PRE|39060&39061&39472|M|71.54,59.82|N|From Genn Greymane.|
 T To Skold-Ashil|QID|39062|M|63.56,61.73|N|To Commander Lorna Crowley.|
 A Shielded Secrets|QID|39063|PRE|39062|M|63.56,61.73|N|From Commander Lorna Crowley.|
-A Assault on Skold-Ashil-Bonus Objective|QID|39119|LVL|-45;CT|M|56.76,66.30|N|Auto-accepted when you enter the area.|
+A Assault on Skold-Ashil-Bonus Objective|QID|39119|LVL|-45|CT|M|56.76,66.30|N|Auto-accepted when you enter the area.|
 C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|56.76,66.30|S|NOCACHE|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Four differant buffs, so click all you see.|
 C Shielded Secrets|QID|39063|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
 A Stories of Battle|QID|39405|PRE|39062|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
@@ -410,22 +410,22 @@ C Becoming the Ascendant|QID|39092|M|61.36,66.75|QO|4|NC|N|Recieve Blessing at E
 C Becoming the Ascendant|QID|39092|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
 $ Treasure Chest|QID|40091|M|61.82,70.38;62.12,71.26;62.15,72.48;62.59,73.64|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
 K Inquistor Ernstenbok|QID|37908|M|63.69,74.31|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-R Jotunnwood|ACTIVE|39792|M|58.94,73.97;58.36,74.35;58.20,75.19|CC|N|Run across here, then grapple up to the top.|RANK|2|FLY|LEGION|
+R Jotunnwood|ACTIVE|39792|M|58.94,73.97;58.36,74.35;58.20,75.19|CC|N|Run across here, then grapple up to the top.|RANK|2|FLY|OLD|
 C A Stack of Racks|QID|39792|M|51.97,75.72|S|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
 K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|RARE|
 C A Stack of Racks|QID|39792|M|51.97,75.72|US|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
 $ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|RANK|3|
 f Hafr Fjall|ACTIVE|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
 $ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|
-F Greywatch|ACTIVE|39792|M|52.53,80.11|N|Fly to Greywatch then run back to Skold-Ashil, OR Click off this step and just run back down.|RANK|3|FLY|LEGION|
-R Skold-Ashil|ACTIVE|39092|M|60.96,73.55;60.19,72.11|CC|N|Run back to Skold-Ashil.|RANK|2|FLY|LEGION|
+F Greywatch|ACTIVE|39792|M|52.53,80.11|N|Fly to Greywatch then run back to Skold-Ashil, OR Click off this step and just run back down.|RANK|3|FLY|OLD|
+R Skold-Ashil|ACTIVE|39092|M|60.96,73.55;60.19,72.11|CC|N|Run back to Skold-Ashil.|RANK|2|FLY|OLD|
 C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|61.93,61.46|US|NOCACHE|N|Finish this up or click it off manually.|
 t Assault on Skold-Ashil-Bonus Objective|QID|39119|M|61.93,61.46|N|Auto turned in when completed.|
 T Becoming the Ascendant|QID|39092|M|62.31,68.09|N|To Genn Greymane.|
 A Ending the New Beginning|QID|39122|PRE|39092|M|62.31,68.09|N|From Genn Greymane.|
 C Banshee Queen|QID|39122|N|Follow Greymane and see what the Banshee Queen is up to.|
 T Ending the New Beginning|QID|39122|M|71.46,60.58|N|To Commander Lorna Crowley.|
-R Felskorn Warcamp|ACTIVE|40001|M|62.85,60.42|N|Follow the road up and around into the Felskorn Warcamp.|FLY|LEGION|
+R Felskorn Warcamp|ACTIVE|40001|M|62.85,60.42|N|Follow the road up and around into the Felskorn Warcamp.|FLY|OLD|
 T Knocking on Valor's Door|QID|40001|M|65.91,59.53|N|To Vethir.|
 A A Familiar Fate|QID|40002|PRE|40001|M|65.91,59.53|N|From Vethir.|
 C A Familiar Fate|QID|40002|M|65.29,57.62|QO|1|T|Dravax|N|Kill Dravax and loot the shard.|
@@ -434,7 +434,7 @@ C A Familiar Fate|QID|40002|M|65.94,59.40|QO|2|CHAT|N|Click on the circle of bin
 T A Familiar Fate|QID|40002|M|65.94,59.53|N|To Vethir.|
 A Stem the Tide|QID|40003|PRE|40002|M|65.94,59.53|N|From Vethir.|
 A Break the Spine|QID|40004|PRE|40002|M|65.94,59.53|N|From Vethir. Note the very handy extra action button you get and use it often while at the Gates of Valor.|
-A Drive Back the Tideskorn-Bonus Objective|QID|39998|LVL|-45;CT|M|64.53,60.47|N|Auto accepted upon entering the area.|
+A Drive Back the Tideskorn-Bonus Objective|QID|39998|LVL|-45|CT|M|64.53,60.47|N|Auto accepted upon entering the area.|
 C Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|S|N|Killing tideskorn and destroying the smaller portals advances the objective.|
 C Stem the Tide|QID|40003|M|69.92,64.40|QO|1|U|129161|NC|N|Call Vethir to destroy the North Portal.|
 C Break the Spine|QID|40004|M|71.04,64.90|QO|4|T|Ravathes|N|Kill Ravathes.|
@@ -454,7 +454,7 @@ C Stormheim's Salvation|QID|40005|M|70.94,70.16|N|God-King Skovald defeated.|
 T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back down so you can turn the quest in to Havi.|
 A Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|N|From Havi. This is a dungeon quest, so queue, call friends over or check it off and move on.|
 H Return to Dalaran|QID|40072|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, except for the instance quest, hearth to Dalaran and/or your class hall and continue on your adventuring.|LEAD|39792|RANK|-1|
-R Valdisdall|AVAILABLE|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|PRE|40005|RANK|2|FLY|LEGION|
+R Valdisdall|AVAILABLE|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|PRE|40005|RANK|2|FLY|OLD|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
 C Remnants of the Past|QID|39984|M|60.75,46.12|QO|1|NC|N|Find the first clue.|RANK|2|
 $ Small Treasure Chest|QID|40093|M|61.41,44.41|N|Loot for treasure and resources.|RANK|2|
@@ -485,13 +485,13 @@ T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
 T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
 T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 50.|RANK|2|
 A Piercing the Mists|QID|43596|PRE|40046|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|
-R Talonrest|ACTIVE|39792|M|53.73,53.88;51.36,57.13|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|FLY|LEGION|
+R Talonrest|ACTIVE|39792|M|53.73,53.88;51.36,57.13|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|FLY|OLD|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|PRE|39786&39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
-R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|LEGION|
+R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|OLD|
 K Kill Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|43194|M|73.10,45.72|N|Loot for a bit of treasure and resources.|RANK|2|
-R Dreygrot|ACTIVE|42483|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Dreygrot.|RANK|2|FLY|LEGION|
+R Dreygrot|ACTIVE|42483|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Dreygrot.|RANK|2|FLY|OLD|
 A The Mystery of Dreyrgrot|QID|42635|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 A A Stone of Blood|QID|42639|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|Use the hook point to get onto the nearest ship.  There are two 'Ancient Dreyrgrot Tab;ets' here, move on to the other two ships that have one each.|RANK|2|
@@ -511,7 +511,7 @@ C What the Bonespeakers Buried|QID|42641|M|72.31,51.59|N|You have to click on hi
 C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Finish up the Blood-Crazed Swashbucklers.|RANK|2|
 T What the Bonespeakers Buried|QID|42641|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 T Spilling Bad Blood|QID|42645|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
-A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|LVL|-45;CT|M|80.44,53.11|N|Auto-accepted as you enter the area.|RANK|2|
+A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|LVL|-45|CT|M|80.44,53.11|N|Auto-accepted as you enter the area.|RANK|2|
 A A Murky Fate|QID|40120|M|78.24,58.67|N|From Morheim Ancestor.|RANK|2|
 C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Kill Murlocks, burn the houses, break the spears, etc to advance the objective. Click to proceeed.|RANK|2|
 C A Murky Fate|QID|40120|M|79.61,59.90|U|129725|S|N|Use the provided torch to burn the decaying corpses.|RANK|2|
@@ -529,7 +529,7 @@ C Awakening the Senses|QID|42398|M|80.80,65.63|C|HUNTER|N|Loot the small piles o
 T Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|To Huntsman Blake.|
 A Champion: Huntsman Blake|QID|42412|M|80.13,66.22|C|HUNTER|N|From/To Huntsman Blake.|PRE|42398|
 A Ready to Work|QID|42399|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|
-R Talonrest|ACTIVE|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|FLY|LEGION|
+R Talonrest|ACTIVE|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|FLY|OLD|
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards.|RANK|2|
 U Dalaran|AVAILABLE|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|PRE|42483|
 A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844^44100^43007^44544^42600^42597|Z|Dalaran!Dalaran!Dungeon|N|Someone will follow you around Dalaran until you accept this quest.|
@@ -554,24 +554,28 @@ T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
 A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran!Dalaran!Dungeon|N|From Gazrix Gearlock beside the north bank.|RANK|3|
-F Valdisdall|ACTIVE|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|FLY|LEGION|
-R Loch Varmad|ACTIVE|43331|M|60.52,52.14;67.08,38.84;66.01,25.52|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|FLY|LEGION|
+F Valdisdall|ACTIVE|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|FLY|OLD|
+R Loch Varmad|ACTIVE|43331|M|60.52,52.14;67.08,38.84;66.01,25.52|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|FLY|OLD|
 C Time to Collect|QID|43331|M|69.97,21.96;69,27.5|CS|N|Look straight up from first coordinate, Use Grappling Hook to get onto Island, continuing grappling upward until you are to the top. Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|
 $ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|RANK|3|;doesnt actually require 50, but this is way too remote to come out if you arent doing the sixtriggers quest.
 T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|RANK|3|
-R Shield's Rest|ACTIVE|44545|M|71.93,16.84;76.45,10.28|CS|N|Runing to here will get you the Exploration Achievement.|RANK|3|FLY|LEGION|
+R Shield's Rest|ACTIVE|44545|M|71.93,16.84;76.45,10.28|CS|N|Runing to here will get you the Exploration Achievement.|RANK|3|FLY|OLD|
 f Shield's Rest|ACTIVE|44545|M|90.02,10.28|N|Run around the island - Level 50 Elites, to get this Flight path.|RANK|3|
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
-A Pressing the Assault|QID|44545|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
-A Isle Hopping|QID|44547|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
-A Scouring What Remains|QID|44548|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
-A Master of the Isles|QID|44549|PRE|43349|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
-C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
-C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|
+A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|1;42213;42454;43349;40890|
+A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
+A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
+A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
+C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Scouring What Remains|QID|44548|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
+C Master of the Isles|QID|44549|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the last strike point at your scouting map.|C|Evoker|
+C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|C|-Evoker|
 t Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
@@ -590,5 +594,6 @@ D On to Class Halls|N|This ends Stormheim and the Rogue order hall guide will lo
 D On to Class Halls|N|This ends Stormheim and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends Stormheim and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends Stormheim and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
+D On to Class Halls|N|This ends Azsuna and the Evoker order hall guide will load.|C|Evoker|GUIDE|CagLegionEvoker|
 ]]
 end)

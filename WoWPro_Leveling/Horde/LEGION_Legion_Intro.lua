@@ -20,17 +20,17 @@ T To Be Prepared|QID|44281|M|55.66,11.05|Z|1; Durotar|N|To Stone Guard Mukar.|
 A The Battle for Broken Shore|QID|40518|PRE|44281|M|55.66,11.05|Z|1; Durotar|N|From Stone Guard Mukar.|
 C Captain Russo|QID|40518|QO|1|M|57.77,10.48|Z|1; Durotar|CHAT|N|Talk to Captain Russo to enter an instanced scenario and follow the scenario instructions.\n[color=FF0000]NOTE: [/color]Click 'Accept' to continue.|
 R The Broken Shore|ACTIVE|40518|SO|1;1|Z|BrokenShore|N|Travel to the Broken Shore.|
-C Storm The Beach|QID|40518|SO|2|Z|Broken Shore|S|N|Destroy all demons and structures on the beach.|
+C Storm The Beach|QID|40518|SO|2|Z|Broken Shore|N|Destroy all demons and structures on the beach.|S|
 C Fel Lords slain|QID|40518|SO|2;2|M|53.87,67.73|Z|Broken Shore|N|Fel Lords slain|
 C Demons slain|QID|40518|SO|2;1|M|53.87,67.73|Z|Broken Shore|N|Demons slain|
 C Spires of Woe destroyed|QID|40518|SO|2;3|M|53.87,67.73|Z|Broken Shore|N|Spires of Woe destroyed|
-C Storm The Beach|QID|40518|SO|2|Z|Broken Shore|US|N|Destroy all demons and structures on the beach.|
+C Storm The Beach|QID|40518|SO|2|Z|Broken Shore|N|Destroy all demons and structures on the beach.|US|
 C Defeat the Commander|QID|40518|SO|3|Z|Broken Shore|N|Slay Fel Commander Azgalor.|
 R Find The Others|ACTIVE|40518|SO|4|Z|Broken Shore|N|Locate Sylvanas and Baine.|
 C Destroy the Portal|QID|40518|SO|5|Z|Broken Shore|N|Destroy the demon portal to stop reinforcements.|
 C Raze the Black City|QID|40518|SO|6|Z|Broken Shore|N|Assault the demon city.|
 R The Highlord|ACTIVE|40518|SO|7|Z|Broken Shore|N|Get to Tirion.|
-C Krosus|QID|40518|SO|8|Z|Broken Shore|N|Kill Krosus.|T|Krosus|
+C Krosus|QID|40518|SO|8|Z|Broken Shore|T|Krosus|N|Kill Krosus.|
 C Hold The Ridge|QID|40518|SO|9|Z|BrokenShore|N|Hold the ridge until the Alliance have stopped Gul'dan.|
 T The Battle for Broken Shore|QID|40518|M|57.19,10.53|Z|1; Durotar|N|To Eitrigg.|
 A Fate of the Horde|QID|40522|PRE|40518|M|57.19,10.53|Z|1; Durotar|N|From Eitrigg.|
@@ -39,17 +39,17 @@ C Fate of the Horde|QID|40522|QO|3|M|48.57,71.67|Z|85; Orgrimmar|NC|N|They will 
 C Lady Sylvanas Windrunner|QID|40522|QO|4|M|45.70,15.88|Z|1; Durotar|CHAT|N|Back outside Orgrimmar to pledge to Warchief Lady Sylvanas Windrunner.|
 T Fate of the Horde|QID|40522|M|45.70,15.88|Z|1; Durotar|N|To Lady Sylvanas Windrunner.|
 A Emissary|QID|40760|PRE|40522|M|45.70,15.88|Z|1; Durotar|N|From Lady Sylvanas Windrunner.|
-T Emissary|QID|40760|M|45.84,15.10|Z|1; Durotar|N|To Allari the Souleater.|
-A Demons Among Us|QID|40607|PRE|40760|M|45.84,15.10|Z|1; Durotar|N|From Allari the Souleater.|
-C Demons Among Us|QID|40607|CHAT|QO|1|M|45.82,15.11|Z|1; Durotar|N|Talk to Allari.|
+T Emissary|QID|40760|M|45.82,15.10|Z|1; Durotar|N|To Allari the Souleater.|
+A Demons Among Us|QID|40607|PRE|40760|M|45.82,15.10|Z|1; Durotar|N|From Allari the Souleater.|
+C Allari|QID|40607|QO|1|M|45.82,15.11|Z|1; Durotar|CHAT|N|Talk to Allari.|
 C Demons Among Us|QID|40607|QO|2|M|45.94,15.69|Z|1; Durotar|
 T Demons Among Us|QID|40607|M|45.67,15.93|Z|1; Durotar|N|To Lady Sylvanas Windrunner.|
 A Keep Your Friends Close|QID|40605|PRE|40607|M|45.67,15.93|Z|1; Durotar|N|From Lady Sylvanas Windrunner.|
-T Keep Your Friends Close|QID|40605|M|53.09,57.35|Z|85; Orgrimmar|N|Fly up to the plateau area behind where the flight master is and talk to Elthyn Da'rai.|
-A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|85; Orgrimmar|N|From Khadgar's Upgraded Servant.|
-C In the Blink of an Eye|QID|44663|M|58.25,89.99|Z|85; Orgrimmar|QO|1|CHAT|N|At the Kirin Tor Emissary in the Pathfinder's Den.|
-C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
+T Keep Your Friends Close|QID|40605|M|53.09,57.35|Z|85; Orgrimmar|N|To Elthyn Da'rai.\n[color=FF0000]NOTE: [/color]She tends to wander around the area behind the flight master.|
+A In the Blink of an Eye|QID|44663^44184|M|52.80,56.92|Z|85; Orgrimmar|N|From Elthyn Da'rai.|
+C Kirin Tor Emissary|ACTIVE|44663|QO|1|M|58.25,89.99|Z|85; Orgrimmar|CHAT|N|[color=FFFF00]OPTIONAL[/color]\nAsk the Kirin Tor Emissary to send you to Dalaran.|
+C In the Blink of an Eye|ACTIVE|44663^44184|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|CHAT|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|ACTIVE|44663^44184|M|57.62,45.76|Z|627; Dalaran|N|To Emissary Auldbridge.|
 D On to Class Halls|N|This ends the intro scenario and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends the intro scenario and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends the intro scenario and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|
@@ -62,6 +62,6 @@ D On to Class Halls|N|This ends the intro scenario and the Rogue order hall guid
 D On to Class Halls|N|This ends the intro scenario and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends the intro scenario and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends the intro scenario and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
-D On to Class Halls|N|This ends the intro scenario and the Warrior order hall guide will load.|C|Warrior|GUIDE|CagLegionEvoker|
+D On to Class Halls|N|This ends Azsuna and the Evoker order hall guide will load.\n[color=FF0000]NOTE: [/color]Evokers do not have a Class Hall campaign nor an Order Hall.|C|Evoker|GUIDE|CagLegionEvoker|
 ]]
 end)

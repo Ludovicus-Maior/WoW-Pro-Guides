@@ -79,9 +79,9 @@ T Not In Your House|QID|34804|M|69.60,21.60|N|To Quartermaster O'Riley|
 A Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|From Patrick Messer|RANK|3|PRE|34624^34619|
 A Wanted: Hilaani|QID|34104|M|69.43,21.14|N|From Patrick Messer|RANK|3|PRE|34624^34619|
 ; [aldavor] added arcane sanctum qid
-R The Pilgrim's Road|AVAILABLE|33871|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;72.66,38.06;67.30,42.83|CS|N|Its a long ride.  We will break it up a little. Head out the back.|FLY|WOD|
+R The Pilgrim's Road|AVAILABLE|33871|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;72.66,38.06;67.30,42.83|CS|N|Its a long ride.  We will break it up a little. Head out the back.|FLY|OLD|
 A Seek Out the Seer|QID|33871|LEAD|33872|M|67.50,43.75;70.78,47.38;68.98,45.97|CN|N|From Elumm who walks up and down this road.|
-R Duskfall Island|ACTIVE|33871|M|67.56,44.76;66.29,46.85;65.83,47.53|CS|N|Next, Duskfall!|FLY|WOD|
+R Duskfall Island|ACTIVE|33871|M|67.56,44.76;66.29,46.85;65.83,47.53|CS|N|Next, Duskfall!|FLY|OLD|
 T Seek Out the Seer|QID|33871|M|65.43,50.73|N|To Seer Malune|
 A Dust of the Dead|QID|33872|M|65.43,50.73|N|From Seer Malune.|
 A Cure of Aruunem|QID|33873|M|65.43,50.73|N|From Seer Malune.|
@@ -184,7 +184,7 @@ T Wanted: Kil'uun|QID|34103|M|69.43,21.14|N|To Patrick Messer|
 ; The Plight of the Arakkoa
 ; This quest also requires 34981 or 34711 (end of Gordal Foothills)
 A As the Smoke Rises|QID|34685|LEAD|33740|M|69.45,21.46|N|From Kalaam|PRE|34981^34711|
-R The Road to the Signpost|ACTIVE|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.75|CS|N|Its another long ride (well, almost the same one really...) Head out the back.|FLY|WOD|
+R The Road to the Signpost|ACTIVE|34685|M|71.27,24.07;72.53,24.53;73.13,26.42;74.63,30.75;73.07,38.75|CS|N|Its another long ride (well, almost the same one really...) Head out the back.|FLY|OLD|
 T As the Smoke Rises|QID|34685|M|73.07,38.75|N|To Crystal-Shaper Barum|
 A Burning Sky|QID|33740|M|73.07,38.75|N|From Crystal-Shaper Barum|PRE|34981^34711|
 A Pieces of Us|QID|33734|M|73.07,38.75|N|From Crystal-Shaper Barum|PRE|34981^34711|
@@ -225,7 +225,7 @@ T Kura's Vengeance|QID|33582|M|70.77,56.78|N|To Kura the Blind.|
 ; The Battle for Shattrath
 H Fort Wrynn|AVAILABLE|36801|N|Fly (or hearth if set and off cd) to Fort Wrynn|
 A One Step Ahead|QID|36801|M|69.61,20.80|N|From Sloan McCoy (SI:7 agent)|PRE|34981^34711|
-R Redemption Rise|ACTIVE|36801|M|66.57,22.72;64.79,25.56;63.20,25.90|CS|N|Go out the front door of the fort to the road again.|FLY|WOD|
+R Redemption Rise|ACTIVE|36801|M|66.57,22.72;64.79,25.56;63.20,25.90|CS|N|Go out the front door of the fort to the road again.|FLY|OLD|
 f Redemption Rise|QID|36801|M|63.29,25.71|N|At Nomaeaa|
 T One Step Ahead|QID|36801|M|63.04,25.89|N|To Vindicator Maraad|
 A Through the Looking Glass|QID|34087|PRE|36801|M|63.04,25.89|N|From Vindicator Maraad|
