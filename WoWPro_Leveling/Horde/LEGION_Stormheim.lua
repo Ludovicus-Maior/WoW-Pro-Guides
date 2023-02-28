@@ -395,7 +395,7 @@ A Shielded Secrets|QID|38878|PRE|39154|M|56.76,66.30|N|From Lady Sylvanas Windru
 A Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|N|Auto-accepted when you enter the area.|LVL|-45|CT|RANK|2|
 C Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|S|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Three differant buffs, so click all you see.|RANK|2|
 C Shielded Secrets|QID|38878|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
-A Stories of Battle|QID|39405|PRE|39062|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
+A Stories of Battle|QID|39405|PRE|39154|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
 C Stories of Battle|QID|39405|M|61.93,61.46|S|N|Kill pristesses of Eyir to loot Verses of Ashilvara.|
 $ Small Treasure Chest|QID|40090|M|57.95,63.35|N|It's under the table. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|40089|M|61.83,62.89|N|Loot for a bit of treasure and resources.|RANK|2|
