@@ -316,24 +316,24 @@ T The Final Judgment|QID|38818|M|65.61,47.17|Z|Helheim|N|To Ashildir.|
 A Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|RANK|2|LVL|-45|CT|
 A An Unworthy Task|QID|39837|PRE|38818|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
 C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|N|Freeing captives and killing Kvaldir advance the objective.|
-C An Unworthy Task|QID|39837|M|60.77,43.72|Z|Helheim|NC|N|Find Cooperative spirit.|
+C An Unworthy Task|QID|39837|M|60.59,44.22|Z|Helheim|H|N|Find Cooperative spirit.|
 T An Unworthy Task|QID|39837|M|64.56,43.43|Z|Helheim|N|To Colborn the Unworthy. When you open the door, he shows the "?", but it's hard catch him to turn in until he runs to new location.|
 A A Little Kelp From My Foes|QID|38339|PRE|39837|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
 A Accessories of the Cursed|QID|38324|PRE|39837|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
 C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|S|N|Kill Kvaldir and loot the Seaweed.|
-C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|S|NC|N|Collect the Cursed Bones as you go.|
+C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|S|H|N|Collect the Cursed Bones as you go.|
 $ Treasure Chest|QID|38509^38510|M|79.88,24.72|Z|Helheim|N|Loot for treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38503|M|83.3,24.6|Z|Helheim|N|You can find this chest underwater inside a sunken ship. Loot for treasure and resources.|RANK|2|
 K Fenri|QID|38461|M|84.94,50.05|Z|Helheim|QO|1|ITEM|129291|T|Fenri|N|Silver - Loot for a bit of treasure and resorces.|RANK|2|RARE|
 C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|US|N|Finish collecting the Seaweed.|
-C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|US|NC|N|Finish collecting the bones.|
+C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|US|H|N|Finish collecting the bones.|
 T A Little Kelp From My Foes|QID|38339|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
 T Accessories of the Cursed|QID|38324|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
 A Stealth by Seaweed|QID|38347|PRE|38339&38324|M|64.58,43.40|Z|Helheim|N|From Colborn the Unworthy.|
 C Stealth by Seaweed|QID|38347|M|47.62,33.47|Z|Helheim|NC|N|Sneak past Guarm|
-T Stealth by Seaweed|QID|38347|M|47.24,35.09|Z|Helheim|N|To Ashildir.|
-A A Desperate Bargain|QID|39848|PRE|38347|M|47.24,35.09|Z|Helheim|N|From Ashildir.|
-C A Desperate Bargain|QID|39848|M|34.15,28.01|Z|Helheim|NC|N|Follow Ashildir up to Helya's throne and click on the alter to speak with Helya.|
+T Stealth by Seaweed|QID|38347|M|PLAYER|N|To Ashildir.|
+A A Desperate Bargain|QID|39848|PRE|38347|M|PLAYER|N|From Ashildir.|
+C A Desperate Bargain|QID|39848|M|34.10,27.87|Z|Helheim|H|N|Follow Ashildir up to Helya's throne and click on the alter to speak with Helya.|
 T A Desperate Bargain|QID|39848|M|34.15,28.01|Z|Helheim|N|To Helya's alter.|
 A The Eternal Nemesis|QID|39857|PRE|39848|M|34.15,28.01|Z|Helheim|N|From Helya's alter.|
 T The Eternal Nemesis|QID|39857|M|46.84,49.01|Z|Helheim|N|To Ashildir.|
@@ -345,12 +345,12 @@ C To Light the Way|QID|39849|M|21.69,61.68|Z|Helheim|T|Bloodbeard|N|Bloodbeard d
 T To Light the Way|QID|39849|M|46.80,49.07|Z|Helheim|N|To Ashildir.|
 A Sundered|QID|39850|PRE|39849|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
 A Allies in Death|QID|39851|PRE|39849|M|46.80,49.07|Z|Helheim|N|From Ashildir.|
-C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|NC|S|N|Click on the Bound Valkyra to release.|
-$ Small Treasure Chest|QID|38383|M|60.7,53.3|Z|Helheim|N|Loot for a bit of treasure and resources.|RANK|2|
-C Sundered|QID|39850|M|63.72,60.90|Z|Helheim|QO|1|NC|N|Release Fragment of Will.|
-C Sundered|QID|39850|M|50.98,71.19;50.24,72.47;57.65,77.31|CS|Z|Helheim|QO|2|NC|N|Release Fragment of Might.|
-C Sundered|QID|39850|M|35.29,76.16|Z|Helheim|QO|3|NC|N|Release Fragment of Valor.|
-C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|NC|US|N|Finish releasing the Bound Valkyra.|
+C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|S|H|N|Click on the Bound Valkyra to release.|
+$ Small Treasure Chest|QID|38383|M|60.87,53.29|Z|Helheim|N|Loot for a bit of treasure and resources.|RANK|2|
+C Sundered|QID|39850|QO|1|M|63.72,61.25|Z|Helheim|H|N|Release Fragment of Will.|
+C Sundered|QID|39850|QO|2|M|50.98,71.19;50.24,72.47;57.65,77.31|CS|Z|Helheim|H|N|Release Fragment of Might.|
+C Sundered|QID|39850|QO|3|M|35.29,76.16|Z|Helheim|H|N|Release Fragment of Valor.|
+C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|H|US|N|Finish releasing the Bound Valkyra.|
 T Sundered|QID|39850|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
 T Allies in Death|QID|39851|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
 A Victory is Eternal|QID|39853|PRE|39850&39851|M|46.92,48.88|Z|Helheim|N|From Ashildir.|
@@ -359,10 +359,10 @@ C Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|US|N|Stay and finis
 t Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|N|Auto turned in when complete.|
 T Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|N|To Ashildir.|
 A Paid in Lifeblood|QID|39855|PRE|39853|M|47.04,63.06|Z|Helheim|N|From Ashildir.|
-C Paid in Lifeblood|QID|39855|M|34.15,28.07|Z|Helheim|CHAT|N|Click on the alter, select the chat option and wait for the scene to unfold.|
+C Paid in Lifeblood|QID|39855|M|34.15,28.07|Z|Helheim|CHAT|N|Click on the alter, select either chat option and wait for the scene to unfold.|
 T Paid in Lifeblood|QID|39855|M|60.14,50.74|N|To Havi.|
 A A Heavy Burden|QID|40078|PRE|39855|M|60.14,50.74|N|From Havi.|
-C A Heavy Burden|QID|40078|M|59.97,50.62;60.53,51.22|CS|NC|N|Carry Havi's fish to the fire.|
+C A Heavy Burden|QID|40078|M|59.94,50.60;60.54,51.24|CS|H|N|Carry Havi's fish to the fire.|
 T A Heavy Burden|QID|40078|M|60.13,50.72|N|To Havi.|
 A Knocking on Valor's Door|QID|40001|PRE|40078|M|60.13,50.72|N|From Havi.|
 ; checked to here
@@ -372,19 +372,19 @@ f Dreadwake's Landing|ACTIVE|38872|M|54.52,73.00|N|At Dread-Rider Barnes.|
 T The Dark Lady's Bidding|QID|38872|M|55.05,72.52|N|To Nathanos Blightcaller.|
 A Clear the Deck!|QID|38873|M|55.05,72.52|N|From Nathanos Blightcaller.|
 A Dreadwake's Dilemma|QID|39153|M|55.05,72.52|N|From Nathanos Blightcaller.|
-C Clear the Deck!|QID|38873|M|57.37,73.47;56.60,73.00;57.05,72.38;56.27,71.80|CN|NC|N|You need to fire each of the four different catapults, not one 4 times.|
+C Clear the Deck!|QID|38873|M|57.37,73.47;56.60,73.00;57.05,72.38;56.27,71.80|CN|H|N|You need to fire each of the four different catapults, not one 4 times.|
 A A Gift for Greymane|QID|39385|M|57.63,71.90|N|From Gilnean Heavy Explosives, lying in the boat.|
-C A Gift for Greymane|QID|39385|M|58.28,71.07|QO|1|NC|N|place one on shore side and other 2 on river side.|
+C A Gift for Greymane|QID|39385|QO|1|M|58.28,71.07|H|N|place one on shore side and other 2 on river side.|
 C A Stack of Racks|QID|39792|M|51.97,75.72|S|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
-K Daniel "Boomer" Vorick|QID|39048|M|58.42,75.65|ITEM|129144|QO|1|T|Daniel "Boomer" Vorick|N|Silver - Kill and loot for a bit of treasure and resources and FOR THE HORDE!|RANK|2|RARE|
+K Daniel "Boomer" Vorick|QID|39048|QO|1|M|58.42,75.65|ITEM|129144|T|Daniel "Boomer" Vorick|N|Silver - Kill and loot for a bit of treasure and resources and FOR THE HORDE!\n[color=FF0000]NOTE: [/color]Watch out for his knockback and the ledge.|RANK|2|RARE|
 C A Stack of Racks|QID|39792|M|56.77,78.87|US|N|Finish collectomg Meaty Rack of Musken Ribs.|RANK|2|
 K Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|RANK|3|
 f Hafr Fjall|ACTIVE|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
-$ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|
+$ Small Treasure Chest|QID|43190|M|59.14,87.18;53.21,93.15|CS|N|This is WAY down the trail. Loot for a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|
 F Dreadwake's Landing|ACTIVE|39153|M|55.66,87.46|N|Fly back to Dreadwake's Landing.|RANK|3|FLY|OLD|
 C Dreadwake's Dilemma|QID|39153|M|57.08,73.64|N|Finish killing the Greywatch worgen.|
-C A Gift for Greymane|QID|39385|M|55.16,73.55|QO|2|U|128287|NC|N|Push the big red button!|
+C A Gift for Greymane|QID|39385|QO|2|M|55.16,73.55|U|128287|NC|N|Push the big red button!|
 T Clear the Deck!|QID|38873|M|55.06,72.56|N|To Nathanos Blightcaller.|
 T Dreadwake's Dilemma|QID|39153|M|55.06,72.56|N|To Nathanos Blightcaller.|
 T A Gift for Greymane|QID|39385|M|55.06,72.56|N|To Nathanos Blightcaller.|
