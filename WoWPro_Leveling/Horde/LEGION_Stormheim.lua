@@ -282,7 +282,7 @@ T Bjornharta|QID|38808|M|68.48,54.31|N|To Vydhar.|
 A Judgment Day|QID|38811|PRE|38808&38810|M|68.48,54.31|N|From Vydhar.|
 A Lay Them to Rest|QID|39791|PRE|38808&38810|M|68.48,54.31|N|From Vydhar.|
 C Lay Them to Rest|QID|39791|M|64.71,45.39|S|U|128772|N|Weaken them, below 75% and then use Runewood Branch to return the Restless Ancestors to the earth.|
-C Judgment Day|QID|38811QO|2||M|64.81,46.56|T|Rythas the Oracle|N|Click on the offering bowl and be ready to fight.|
+C Judgment Day|QID|38811|QO|2|M|64.81,46.56|T|Rythas the Oracle|N|Click on the offering bowl and be ready to fight.|
 $ Small Treasure Chest|QID|43205|M|65.37,43.12|N|Loot for a bit of treasure and resources.|RANK|2|
 C Judgment Day|QID|38811|M|67.56,43.00|QO|1|N|Judged by Heimir of the Black Fist.|T|Heimir of the Black Fist|
 K The Nameless King|QID|38685|QO|1|M|67.26,39.93|T|The Nameless King|N|Click on his offering shrine to start the vignette.  Kill him and earn treasure and resources.|RANK|2|RARE|
