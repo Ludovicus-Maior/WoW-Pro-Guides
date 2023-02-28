@@ -212,10 +212,10 @@ R Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Run to Silverwind Refuge.|TAXI|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.78|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
 t Sharptalon's Claw|QID|2|M|49.75,65.08|N|To Senani Thunderheart.|IZ|420|
 f Silverwind Refuge|ACTIVE|13974|M|49.29,65.25|N|Get flightpath from Wind Tamer Shosok.|TAXI|-Silverwind Refuge|
-F Splintertree Post|ACTIVE|6482|M|49.29,65.25|N|Fly to Splintertree Post.|
+F Splintertree Post|ACTIVE|6482|M|49.29,65.25|N|Fly to Splintertree Post.|FLY|OLD|
 T Freedom to Ruul|QID|6482|M|74.11,60.91|N|To Yama Snowhoof.|
 K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving the area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
-F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|
+F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|FLY|OLD|
 A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK|2|
 T Tweedle's Tiny Parcel|QID|13974|M|49.96,67.25|N|To Flooz.|
 A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
@@ -267,22 +267,23 @@ C Stalemate|QID|13962|M|62.06,51.25|N|Go to the top floor of nearby building and
 T Stalemate|QID|13962|M|60.65,52.69|N|To Thagg.|
 K Shadumbra|AVAILABLE|24|M|62.45,49.70|L|16304|N|Locate and kill Shadumbra, a nightsaber cat that paths in that area.\n[color=FF0000]NOTE: [/color]She drops a quest starter item.|T|Shadumbra|US|RANK|2|
 R Greenpaw Village|ACTIVE|6621|M|58.02,61.75|N|Using the main road, make your way south.\n[color=FF0000]NOTE: [/color]Unless you enjoy PvP, avoid getting too close to the Raynewood Tower.|FLY|OLD|
-C King of the Foulweald|QID|6621|M|56.35,63.50|N|Use Senani's Banner at top of the hill and defend it against the mobs that appear. When Chief Murgut appears, kill him and loot Murgut's Totem from the basket he drops.|
+C King of the Foulweald|QID|6621|M|56.35,63.50|N|Use Senani's Banner at top of the hill and defend it against the mobs that appear. When Chief Murgut appears, kill him and loot Murgut's Totem from the basket he drops.|U|16972|
 H Silverwind Refuge|ACTIVE|23^6621|M|50.43,67.16|N|Hearth to Silverwind Refuge.|
 T Ursangous' Paw|QID|23|M|50.13,67.58|N|To Captain Tarkan.|
 T King of the Foulweald|QID|6621|M|49.75,65.08|N|To Senani Thunderheart.|
-F Splintertree Post|ACTIVE|1918|M|49.29,65.25|N|Fly to Splintertree Post.|
+F Splintertree Post|ACTIVE|1918|M|49.29,65.25|N|Fly to Splintertree Post.|FLY|OLD|
 T The Befouled Element|QID|1918|M|74.20,60.72|N|To Mastok Wrilehiss.|
 A Je'neu of the Earthen Ring|QID|824|M|74.20,60.72|ELITE|N|[color=E6CC80]Dungeon: 'Blackfathom Deeps'[/color]\nFrom Mastok Wrilehiss.|PRE|1918|RANK|3|
-F Hellscream's Watch|ACTIVE|24|M|73.18,61.60|N|Fly to Hellscream's Watch|
+F Hellscream's Watch|ACTIVE|24|M|73.18,61.60|N|Fly to Hellscream's Watch|FLY|OLD|
 T Shadumbra's Head|QID|24|M|38.27,43.11|N|To Captain Goggath.|
-F Zoram'gar Outpost|ACTIVE|26894^824|N|Fly to Zoram'gar Outpost.|
+F Zoram'gar Outpost|ACTIVE|26894^824|N|Fly to Zoram'gar Outpost.|FLY|OLD|
 R Blackfathom Deeps|ACTIVE|26894^824|M|16.51,11.00|N|Make your way to Blackfathom Deeps.|FLY|OLD|
 R Blackfathom Deeps Portal|ACTIVE|26894^824|M|16.50,11.01|N|Make your way through the caverns to the instance portal and enter it.|IZ|-221|
 T Blackfathom Deeps|QID|26894|M|10.00,14.00|Z|221|N|To Je'nue Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
 T Je'neu of the Earthen Ring|QID|824|M|10.00,14.00|Z|221|N|To Je'neu Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
 N Blackfathom Deeps|AVAILABLE|34673|M|PLAYER|JUMP|Blackfathom Deeps|N|Load the guide to run through Blackfathom Deeps, if you wish to do it now.|
-F Orgrimmar|ACTIVE|26416|N|Make your way to a Flight Master and fly to Orgrimmar.| ; Depending on RANK and ACTIVE QIDs, location may not be the same at this point.
+H Silverwind Refuge|ACTIVE|26416|M|50.43,67.16|N|Hearth to Silverwind Refuge.|
+F Orgrimmar|ACTIVE|26416|N|Make your way to a Flight Master and fly to Orgrimmar.|FLY|OLD| ; Depending on RANK and ACTIVE QIDs, location may not be the same at this point.
 T Well, Come to the Jungle|QID|26416|M|51.30,56.03|Z|Orgrimmar|N|To Bort.\n[color=FF0000]NOTE: [/color]Periodically, he'll get up and wander over to the edge over-looking the Valley of Honor. After a few moments, he'll walk back and sit down again.|
 A Northern Stranglethorn: The Fallen Empire|QID|26417|M|51.30,56.03|Z|Orgrimmar|N|From Bort.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|LEAD|26278|PRE|26416|RANK|2|
 N Northern Stranglethorn|ACTIVE|26417|M|PLAYER|N|You can switch to the Northern Stranglethorn guide now or skip this step to continue to the Stonetalon guide.|JUMP|WkjNor2530|
