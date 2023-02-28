@@ -430,10 +430,11 @@ F Orgrimmar|AVAILABLE|544|M|47.02,49.83|Z|1456|C|Druid|
 F Orgrimmar|AVAILABLE|544|M|63.09,37.16|Z|1413|C|Warlock|
 l Turtle Meat|AVAILABLE|7321|L|3712 10|N|Grab the 10 pieces of Turtle Meat you were told to keep earlier.\n[color=FF0000]NOTE: [/color]Don't worry if you didn't keep it; you'll have a chance to get more.\nManually check this step off to continue.|
 b Tirisfal Glades|AVAILABLE|544|M|50.89,13.86|Z|1411|N|Take the Zeppelin to Undercity.|
+= Cooking|AVAILABLE|7321|M|62.16,44.87|Z|Undercity|N|Learning your Cooking skill from Eunice Burch in Undercity.\n[color=FF0000]NOTE: [/color]You'll need to have this for an upcoming quest in Tarren Mill.|P|Cooking;185;-1|
 F Tarren Mill|AVAILABLE|544|M|63.26,48.54|Z|1458|N|Enter Undercity and fly to Tarren Mill.|
 A Prison Break In|QID|544|M|61.59,20.83|Z|1424|N|From Magus Wordeen Voidglare.|
 A Stone Tokens|QID|556|M|61.50,20.94|Z|1424|N|From Keeper Bel'varil.|
-A Soothing Turtle Bisque|QID|7321|M|62.30,19.09|Z|1424|N|From Christoph Jeffcoat, inside the Inn.|
+A Soothing Turtle Bisque|QID|7321|M|62.30,19.09|Z|1424|N|From Christoph Jeffcoat, inside the Inn.|P|Cooking;185;0|
 T Soothing Turtle Bisque|QID|7321|M|62.30,19.09|Z|1424|N|To Christoph Jeffcoat.|IZ|272|
 A Helcular's Revenge|QID|552|M|63.88,19.67|Z|1424|N|From Novice Thaivand, standing in the cemetary.|
 A Infiltration|QID|533|M|63.23,20.66|Z|1424|N|From Krusk.|
