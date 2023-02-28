@@ -247,7 +247,7 @@ $ Small Treasure Chest|QID|38477|M|42.33,61.12|N|If you are careful, you can get
 C A Stone Cold Gamble|QID|39786|M|46.38,60.68|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
 $ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|RANK|2|
-T A Stone Cold Gamble|QID|39786|M|51.97,64.66;51.31,56.99|CS|N|To Snaggle Sixtrigger.|RANK|2|
+T A Stone Cold Gamble|QID|39786|M|51.97,64.66;51.32,56.95|CS|N|To Snaggle Sixtrigger.|RANK|2|
 ; Back to business - The Trial of Valor
 R Valdisdall|ACTIVE|39803|M|51.31,54.64;57.87,50.47|CS|N|Off to Valdisdall|FLY|OLD|
 h Valdisdall|ACTIVE|39803|M|60.54,50.26|N|At Riala the Hearthwatcher.\n[color=FF0000]NOTE: [/color]This will save you a lot of time on Rank 2 or 3.|RANK|2|
@@ -397,7 +397,7 @@ C Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|S|N|Kill vrykal
 C Shielded Secrets|QID|38878|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
 A Stories of Battle|QID|39405|PRE|39062|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
 C Stories of Battle|QID|39405|M|61.93,61.46|S|N|Kill pristesses of Eyir to loot Verses of Ashilvara.|
-$ Small Treasure Chest|QID|40090|M|57.95,63.35|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|40090|M|57.95,63.35|N|It's under the table. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|40089|M|61.83,62.89|N|Loot for a bit of treasure and resources.|RANK|2|
 K Isel the Hammer|QID|39120|M|62.02,60.48|QO|1|ITEM|129133|T|Isel the Hammer|N|Silver - Kill and loot for a bit of resources and treasure.|RANK|2|RARE|
 $ Treasure Chest|QID|40088|M|59.25,58.59|N|Loot for a bit of treasure and resources.|RANK|2|
