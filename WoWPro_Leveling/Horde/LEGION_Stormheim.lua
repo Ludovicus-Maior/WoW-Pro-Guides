@@ -399,7 +399,7 @@ A Stories of Battle|QID|39405|PRE|39154|M|58.56,64.21|N|From Verse of Ashilvara 
 C Stories of Battle|QID|39405|M|61.93,61.46|S|N|Kill pristesses of Eyir to loot Verses of Ashilvara.|
 $ Small Treasure Chest|QID|40090|M|57.95,63.35|N|It's under the table. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|40089|M|61.83,62.89|N|Disable the Titan Defence Orbs so you can enter the building. Loot for a bit of treasure and resources.\n[color=FF0000]NOTE: [/color]If you linger too long, the Orbs will respawn.|RANK|2|
-K Isel the Hammer|QID|39120|M|62.02,60.48|QO|1|ITEM|129133|T|Isel the Hammer|N|Silver - Kill and loot for a bit of resources and treasure.|RANK|2|RARE|
+K Isel the Hammer|QID|39120|QO|1|M|62.02,60.48|ITEM|129133|T|Isel the Hammer|N|Silver - Kill and loot for a bit of resources and treasure.|RANK|2|RARE|
 $ Treasure Chest|QID|40088|M|59.31,58.44|N|Loot for a bit of treasure and resources.|RANK|2|
 C Shielded Secrets|QID|38878|M|63.42,64.64|US|I|N|Finish examining the Engraved Shields.|
 C Stories of Battle|QID|39405|M|61.93,61.46|US|N|Finish collecting the Verses of Ashilvara.|
@@ -408,14 +408,14 @@ t Assault on Skold-Ashil-Bonus Objective|QID|38939|M|61.93,61.46|N|Auto turned i
 T Stories of Battle|QID|39405|M|61.93,61.46|N|To UI Alert.|
 T Shielded Secrets|QID|38878|M|60.92,65.32|N|To Lady Sylvanas Windrunner.|
 A Becoming the Ascendant|QID|39155|PRE|38878|M|60.92,65.32|N|From Lady Sylvanas Windrunner.|
-C Becoming the Ascendant|QID|39155|M|60.42,66.71|QO|3|NC|N|Receive Blessing at Eyir's Shield.|
-K Ivory Sentinel|QID|39031|M|59.86,68.07|QO|1|ITEM|132895|T|Ivory Sentinel|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-C Becoming the Ascendant|QID|39155|M|60.49,69.52|QO|2|NC|N|Receive Blessing at Eyir's Pauldron.|
-C Becoming the Ascendant|QID|39155|M|61.33,69.52|QO|1|NC|N|Receive Blessing at Eyir's Helm.|
-C Becoming the Ascendant|QID|39155|M|61.36,66.75|QO|4|NC|N|Receive Blessing at Eyir's Spear.|
-C Becoming the Ascendant|QID|39155|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
+C Becoming the Ascendant|QID|39155|QO|3|M|60.47,66.72|H|N|Receive Blessing at Eyir's Shield.|
+K Ivory Sentinel|QID|39031|QO|1|M|59.86,68.07|ITEM|132895|T|Ivory Sentinel|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+C Becoming the Ascendant|QID|39155|QO|2|M|60.47,69.51|H|N|Receive Blessing at Eyir's Pauldron.|
+C Becoming the Ascendant|QID|39155|QO|1|M|61.33,69.52|H|N|Receive Blessing at Eyir's Helm.|
+C Becoming the Ascendant|QID|39155|QO|4|M|61.34,66.72|H|N|Receive Blessing at Eyir's Spear.|
+C Becoming the Ascendant|QID|39155|QO|5|M|61.72,68.09|CHAT|N|Commune with the statue.|
 $ Treasure Chest|QID|40091|M|61.82,70.38;62.12,71.26;62.15,72.48;62.59,73.64|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
-K Inquisitor Ernstenbok|QID|37908|M|63.66,74.33|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources. In cave under the tower.|RANK|2|RARE|
+K Inquisitor Ernstenbok|QID|37908|QO|1|M|63.66,74.33|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources. In cave under the tower.|RANK|2|RARE|
 T Becoming the Ascendant|QID|39155|M|62.56,68.06|N|To Lady Sylvanas Windrunner.|
 A A New Life for Undeath|QID|38882|PRE|39155|M|62.56,68.06|N|From Lady Sylvanas Windrunner.|
 C A New Life for Undeath|QID|38882|M|63.85,68.07|NC|N|Follow Sylvanas, you will be transported back to Dreadwake Landing.|
