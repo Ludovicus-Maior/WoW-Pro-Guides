@@ -414,7 +414,7 @@ C Becoming the Ascendant|QID|39155|QO|2|M|60.47,69.51|H|N|Receive Blessing at Ey
 C Becoming the Ascendant|QID|39155|QO|1|M|61.33,69.52|H|N|Receive Blessing at Eyir's Helm.|
 C Becoming the Ascendant|QID|39155|QO|4|M|61.34,66.72|H|N|Receive Blessing at Eyir's Spear.|
 C Becoming the Ascendant|QID|39155|QO|5|M|61.72,68.09|CHAT|N|Commune with the statue.|
-$ Treasure Chest|QID|40091|M|61.82,70.38;62.12,71.26;62.15,72.48;62.59,73.64|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|40091|M|62.12,71.26;62.07,72.03;62.19,72.72;62.30,73.39;62.66,73.60|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
 K Inquisitor Ernstenbok|QID|37908|QO|1|M|63.66,74.33|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources. In cave under the tower.|RANK|2|RARE|
 T Becoming the Ascendant|QID|39155|M|62.56,68.06|N|To Lady Sylvanas Windrunner.|
 A A New Life for Undeath|QID|38882|PRE|39155|M|62.56,68.06|N|From Lady Sylvanas Windrunner.|
