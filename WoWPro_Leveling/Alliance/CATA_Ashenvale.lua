@@ -77,11 +77,11 @@ C Return Fire|QID|13853|M|35.70,49.76|N|Grab a glaive thrower and get to shootin
 T Return Fire|QID|13853|M|34.93,49.78|N|To Sentinel Thenysil.|
 T To Raene Wolfrunner|QID|13645|M|36.58,49.58|N|To Raene Wolfrunner.|
 A Culling the Furbolg Threat|QID|13867|M|36.61,49.59|N|From Raene Wolfrunner.|
-h Astranaar|QID|26474|M|37.00,49.17|N|At Innkeeper Kimlya.|
+h Astranaar|QID|26474|M|37.00,49.17|N|At Innkeeper Kimlya.|FLY|OLD|
 T Orendil's Cure|QID|26474|M|37.36,51.79|N|To Pelturas Whitemoon.|
 A Elune's Tear|QID|26475|PRE|26474|M|37.32,51.81|N|From Pelturas Whitemoon. You will need to wait (15 seconds) after handing in Orendil's Cure before Pelturas offers the quest.|
 A A Helping Hand|QID|26453|LEAD|26454|M|35.00,49.96|N|Here is where things may seem odd in our zone flow. This will reap the most XP doing the zone this way. Mob levels are lowest on the East and West of the zone, so we need to do those first for Maximum XP gain.|
-R Forest Song|QID|26453|N| Talk to Vindicator Palanaar to ride the Elekk East to Forest Song.|M|34.98,49.92|
+R Forest Song|QID|26453|N| Talk to Vindicator Palanaar to ride the Elekk East to Forest Song.|M|34.98,49.92|FLY|OLD|
 T A Helping Hand|QID|26453|M|86.86,44.76|N|To Architect Nemos.|
 A A Shameful Waste|QID|26454|M|86.86,44.76|N|From Architect Nemos.|
 A Vile Satyr! Dryads in Danger!|QID|26467|M|86.72,42.98|N|From Illiyana.|
@@ -90,15 +90,15 @@ f Forest Song|QID|26467|M|85.09,43.45|N|At Suralais Farwind.|
 T Vile Satyr! Dryads in Danger!|QID|26467|M|78.35,44.84|N|To Anilia.|
 A The Branch of Cenarius|QID|26468|PRE|26467|M|78.35,44.84|N|From Anilia.|
 C The Branch of Cenarius|QID|26468|M|78.47,42.89|N|Kill and loot Geltharis.|
-C A Shameful Waste|QID|26454|S|M|80.69,52.34|N|Pick up Satyrnaar Fel Wood.|
-C The Lost Chalice|QID|26455|M|81.20,49.19|N|Loot the Chalice of Elune.|
-C A Shameful Waste|QID|26454|US|M|81.60,51.00|N|Finish getting any Fel Wood you need left.|
+C A Shameful Waste|QID|26454|S|M|80.69,52.34|NC|N|Pick up Satyrnaar Fel Wood.|
+C The Lost Chalice|QID|26455|M|81.22,48.71|NC|N|Loot the Chalice of Elune.|
+C A Shameful Waste|QID|26454|US|M|81.60,51.00|NC|N|Finish getting any Fel Wood you need left.|
 T The Lost Chalice|QID|26455|M|85.24,44.53|N|To Kayneth Stillwind.|
 T The Branch of Cenarius|QID|26468|M|86.73,43.16|N|To Illiyana.|
 A Satyr Slaying!|QID|26469|PRE|26468|M|86.73,43.17|N|From Illiyana.|
 A Stopping the Rituals|QID|13683|PRE|26468|M|86.35,43.70|N|From Anchorite Buurq.|
 C Satyr Slaying!|QID|26469|S|M|80.17,48.70|N|Kill and loot Satyrs.|
-C Stopping the Rituals|QID|13683|M|80.12,49.82|N|Clicky clicky on the Purple Gems.|
+C Stopping the Rituals|QID|13683|M|80.12,49.82|NC|N|Clicky clicky on the Purple Gems.|
 C Satyr Slaying!|QID|26469|US|M|81.65,48.18|N|Finish looting Satyr horns.|
 T Stopping the Rituals|QID|13683|M|86.46,43.75|N|To Anchorite Buurq.|
 T Satyr Slaying!|QID|26469|M|86.84,43.21|N|To Illiyana.|
@@ -108,17 +108,17 @@ A Reclaiming Felfire Hill|QID|26446|M|83.95,62.94|N|From Gnarl.|
 A Agents of Destruction|QID|26457|M|84.02,62.71|N|From Sentinel Luciel Starwhisper.|
 A Destroy the Legion|QID|26444|M|84.06,62.74|N|From Vindicator Vedaar.|
 C Agents of Destruction|QID|26457|S|M|88.73,57.88|N|Kill Horde mobs.|
-C Recover the Remains|QID|13869|S|M|88.14,61.47|N|Loot Warsong Lumber off the ground.|
+C Recover the Remains|QID|13869|S|M|88.14,61.47|NC|N|Loot Warsong Lumber off the ground.|
 K Overseer Gorthak|QID|26457|M|89.81,58.05|N|Overseer Gorthak is in this building.|QO|1|; Overseer Gorthak slain: 1/1
 C Agents of Destruction|QID|26457|US|M|90.90,58.98|N|Finish killing any mobs you need.|
-C Recover the Remains|QID|13869|US|M|87.74,58.96|N|Finish looting Warsong Lumber.|
+C Recover the Remains|QID|13869|US|M|87.74,58.96|NC|N|Finish looting Warsong Lumber.|
 T Agents of Destruction|QID|26457|M|83.95,62.65|N|To Sentinel Luciel Starwhisper.|
 A Explosives Shredding|QID|13698|PRE|26457|M|83.93,62.82|N|From Sentinel Luciel Starwhisper.|
 T Recover the Remains|QID|13869|M|83.84,62.98|N|To Gnarl.|
 C Explosives Shredding|QID|13698|M|84.09,62.57|N|Have a hunt for a Shredder with Green Name text. Get in this Vehicle and blow up som Kegs Laughing out loud Boom!. When you have killed the kegs follow the arrow back to the camp.|
 T Explosives Shredding|QID|13698|M|83.93,62.68|N|To Sentinel Luciel Starwhisper.|
 C Destroy the Legion|QID|26444|S|M|82.51,78.23|N|Kill demons. Don't forget to loot these Demons, especially if you are doing Loremaster, they drop a quest item.|
-C Reclaiming Felfire Hill|QID|26446|M|82.12,66.78|N|Click on Fertile Dirt Mounds.|
+C Reclaiming Felfire Hill|QID|26446|M|82.12,66.78|NC|N|Click on Fertile Dirt Mounds.|
 C Destroy the Legion|QID|26444|US|M|83.84,70.40|N|Finish killing demons.|
 A Diabolical Plans|QID|26443|U|23777|M|83.98,70.68|N|Make sure you have looted this item and click it to open up a quest.|
 T Reclaiming Felfire Hill|QID|26446|M|83.72,63.09|N|To Gnarl.|
@@ -127,9 +127,9 @@ T Diabolical Plans|QID|26443|M|84.09,62.77|N|To Vindicator Vedaar.|
 A Never Again!|QID|26445|PRE|26443|M|84.09,62.77|N|From Vindicator Vedaar.|
 T Destroy the Legion|QID|26444|M|84.03,62.83|N|To Vindicator Vedaar.|
 C Closure is Only Natural|QID|13766|S|U|45545|M|82.53,80.62|N|Use the twig on the green portals as you encounter them.|
-R Path to Gorgannon|QID|26445|CC|M|84.25,71.81;84.09,77.06;87.24,79.33;89.39,77.08|N|Follow the waypoints.|
-K Gorgannon|QID|26445|N|Be aware of the mobs close to him, he calls for help. Once you kill him loot his Blade.|QO|1|; Gorgannon's Flaming Blade: 1/1
-R Path to the Seeker.|QID|26445|CC|M|82.64,77.86;78.44,81.59|N|Follow the waypoints.|
+R Path to Gorgannon|QID|26445|CC|M|84.25,71.81;84.09,77.06;87.24,79.33;89.39,77.08|N|Follow the waypoints.|FLY|OLD|
+K Gorgannon|QID|26445|M|89.48,76.96|N|Be aware of the mobs close to him, he calls for help. Once you kill him loot his Blade.|QO|1|; Gorgannon's Flaming Blade: 1/1
+R Path to the Seeker.|QID|26445|CC|M|82.64,77.86;78.44,81.59|N|Follow the waypoints.|FLY|OLD|
 C Never Again!|QID|26445|M|78.28,83.79|N|Look for the skull on the mini-map, kill Diathorus the Seeker and loot his spear.|
 C Closure is Only Natural|QID|13766|US|U|45545|M|81.21,79.87|
 T Closure is Only Natural|QID|13766|M|83.72,63.02|N|To Gnarl.|
@@ -142,8 +142,8 @@ l Untainted Spirits|QID|13796|S|M|75.07,74.22|N|Make sure you kill ATLEAST 7 Sev
 K Taneel Darkwood|QID|26472|M|77.14,74.21|N|Get to the bottom of the Barrow Den, Straight across the first bridge is Taneel Darkwood.|QO|1|; Taneel Darkwood slain: 1/1
 K Uthil Mooncall|QID|26472|M|78.08,72.81|QO|2|N|Follow the dots on the ground in the direction of the waypoint. Kill Uthil Mooncall.|; Uthil Mooncall slain: 1/1
 R Path to the heart|QID|26472|M|77.87,73.54;77.04,74.20;75.86,73.56;75.99,74.05|CC|
-l Untainted Spirits|QID|13796|S|M|75.07,74.22|N|Make sure you kill ATLEAST 7 Severed Druids, and loot 7 Untainted Spirits as you go.|L|45571 7|
-C The Forest Heart|QID|13796|M|83.76,63.11|N|Right click on your 7 Untainted Spirits, then loot the forest heart.|U|45571|
+l Untainted Spirits|QID|13796|US|M|75.07,74.22|N|Make sure you kill ATLEAST 7 Severed Druids, and loot 7 Untainted Spirits as you go.|L|45571 7|
+C The Forest Heart|QID|13796|M|83.76,63.11|NC|N|Right click on your 7 Untainted Spirits, then loot the forest heart.|U|45571|
 C Insane Druids|QID|26472|M|74.82,74.27|N|Kill Mavoris Cloudsbreak.|
 T Insane Druids|QID|26472|M|75.63,75.76|N|To Gaivan Shadewalker. To escape the den follow the green pebbles and always favour the direction heading upwards.|
 T The Forest Heart|QID|13796|M|83.74,63.11|N|To Gnarl.|
@@ -159,20 +159,20 @@ A Worgen Wisdom|QID|13872|PRE|13868|M|36.47,49.71|N|From Raene Wolfrunner.|
 T Worgen Wisdom|QID|13872|M|36.43,49.74|N|To Hephaestus Pilgrim.|
 A A Not-So-Charmed Life|QID|13874|PRE|13872|M|36.41,49.72|N|From Hephaestus Pilgrim.|
 A Too Far Gone|QID|13876|PRE|13868|M|38.03,30.15|N|From Vear Darksnout.|
-C A Not-So-Charmed Life|QID|13874|M|41.77,32.92|N|Little browny yellow boxes in the cave.|S|
-C Too Far Gone|QID|13876|M|41.67,35.67|N|Kill and loot Dal Bloodclaw.|
-C A Not-So-Charmed Life|QID|13874|M|41.77,32.92|N|Little browny yellow boxes in the cave.|US|
+C A Not-So-Charmed Life|QID|13874|M|41.77,32.92|NC|N|Little browny yellow boxes in the cave.|S|
+K Dal Bloodclaw|ACTIVE|13876|QO|1|M|41.67,35.67|N|Kill and loot Dal Bloodclaw.|
+C A Not-So-Charmed Life|QID|13874|M|41.77,32.92|NC|N|Little browny yellow boxes in the cave.|US|
 T Too Far Gone|QID|13876|M|38.00,30.08|N|To Vear Darksnout.|
 T A Not-So-Charmed Life|QID|13874|M|36.47,49.78|N|To Hephaestus Pilgrim.|
 A Go With The Flow|QID|13877|PRE|13874|M|36.47,49.78|N|From Hephaestus Pilgrim.|
-R Remains of Iris Lake|QID|26475|M|43.05,45.83;46.82,46.76|CC|N|Run to the Remains of Iris Lake.|
-C Elune's Tear|QID|26475|M|46.82,46.73|N|Loot an Elune's Tear off the ground.|
+R Remains of Iris Lake|QID|26475|M|43.05,45.83;46.82,46.76|CC|N|Run to the Remains of Iris Lake.|FLY|OLD|
+C Elune's Tear|QID|26475|M|46.82,46.73|NC|N|Loot an Elune's Tear off the ground.|
 T Go With The Flow|QID|13877|M|52.09,56.54|N|To Sabina Pilgrim.|
 A Hot Lava|QID|13880|PRE|13877^13879|M|52.23,56.55|N|From Core.|
 A Put Out The Fire|QID|13884|PRE|13877^13879|M|52.14,56.71|N|From Arctanus.|
-C Hot Lava|QID|13880|S|U|46352|M|50.12,51.85|N|Use the Gift of the Earth, and target a Lava Fissure.|
+C Hot Lava|QID|13880|S|U|46352|M|50.12,51.85|H|N|Use the Gift of the Earth, and target a Lava Fissure.|
 C Put Out The Fire|QID|13884|M|49.78,47.06|N|Kill 10 Lava Ragers.|
-C Hot Lava|QID|13880|US|U|46352|M|49.78,47.06|N|Finish filling Lava Fissures.|
+C Hot Lava|QID|13880|US|U|46352|M|49.78,47.06|H|N|Finish filling Lava Fissures.|
 T Hot Lava|QID|13880|M|52.22,56.47|N|To Core.|
 T Put Out The Fire|QID|13884|M|52.19,56.76|N|To Arctanus.|
 A Vortex|QID|13886|PRE|13880&13884|M|52.33,56.89|N|From The Vortex.|
@@ -186,13 +186,13 @@ A He Who Would Be Forgiven|QID|13921|PRE|13919|M|53.62,46.03|N|(UI Alert)|
 T He Who Would Be Forgiven|QID|13921|M|59.03,59.91|N|To Avrus Illwhisper.|
 A In the Hands of the Perverse|QID|13922|PRE|13921^14018|M|59.03,59.91|N|From Avrus Illwhisper.|
 A Recover the Fallen|QID|13928|M|59.01,58.82|N|From Sentinel Melyria Frostshadow.|
-C Recover the Fallen|QID|13928|M|60.63,51.82|N|Loot dead bodies up to this location, You can do so whilst mounted. Beware an Orc called Thagg, he hits very very hard.|
+C Recover the Fallen|QID|13928|M|60.63,51.82|NC|N|Loot dead bodies up to this location, You can do so whilst mounted. Beware an Orc called Thagg, he hits very very hard.|
 T Recover the Fallen|QID|13928|M|62.23,51.03|N|To Halannia.|
 A Defend the Tree!|QID|13935|PRE|13928|M|62.23,51.03|N|From Halannia.|
 C Defend the Tree!|QID|13935|M|61.09,49.94|N|Speak to the Halannia and tell her you are ready. The Demolishers and mounted units are elite, so if you pull them use Rake (button 2) otherwise spam Swipe (1). Should you need to regen health, run into the tree house, and sit on the moonwell.|
 T Defend the Tree!|QID|13935|M|59.00,58.76|N|To Sentinel Melyria Frostshadow.|
 A Report from the Northern Front|QID|26456|PRE|13935|M|59.00,58.76|N|From Sentinel Melyria Frostshadow. This quest is has no follow ups and low XP, but DOES count toward Loremaster.|RANK|3|
-R Night Run|QID|13922|M|64.8,53.13;66.42,52.57|CC|N|Run to Night Run.|
+R Night Run|QID|13922|M|64.8,53.13;66.42,52.57|CC|N|Run to Night Run.|FLY|OLD|
 C In the Hands of the Perverse|QID|13922|M|66.46,55.86|N|Kill and loot Satyrs.|
 T In the Hands of the Perverse|QID|13922|M|59.10,59.95|N|To Avrus Illwhisper.|
 A All's Well|QID|13924|PRE|13922|M|59.02,59.93|N|From Avrus the Redeemed.|
@@ -203,11 +203,12 @@ T Dryad Delivery|QID|26476|M|59.20,59.67|N|To Shael'dryn.|
 A Search the Bole|QID|26477|PRE|26476|M|59.20,59.67|N|From Shael'dryn.|
 l Wooden Key|QID|26477|M|55.80,33.88|N|Head towards the waypoint. Kill treants as you go, until one drops a Wooden Key.|L|5475|
 R The Howling Vale|QID|26477|M|54.34,36.40;55.8,37|Z|Ashenvale|CC|N|Head towards the Howling Vale.|
-C Search the Bole|QID|26477|M|54.51,37.22;55.02,40.66|CS|N|Head through the cave and open the Worn Chest.|
+C Search the Bole|QID|26477|M|54.51,37.22;55.02,40.66|CS|N|Head through the cave and open the Worn Chest.|FLY|OLD|
+C Search the Bole|QID|26477|M|55.01,40.72|N|Head through the cave and open the Worn Chest.|
 f Emerald Sanctuary|QID|26477|M|51.50,80.54|Z|Felwood|N|Collect the flight path once there.|
 T Search the Bole|QID|26477|M|59.12,59.75|N|To Shael'dryn.|
 A Playing Possum|QID|26478|PRE|26477|M|59.12,59.75|N|From Shael'dryn.|
-C Playing Possum|QID|26478|U|46720|M|62.54,60.26|N|Loot the Pommel from the box in the cave, if you are attcked use the scroll to play possum.|
+C Playing Possum|QID|26478|U|46720|M|62.54,60.26|NC|N|Loot the Pommel from the box in the cave, if you are attcked use the scroll to play possum.|
 T Playing Possum|QID|26478|M|59.17,59.73|N|To Shael'dryn.|
 A Return to Raene|QID|26479|PRE|26478|M|59.17,59.73|N|From Shael'dryn.|
 H Astranaar|QID|26479|U|6948|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
