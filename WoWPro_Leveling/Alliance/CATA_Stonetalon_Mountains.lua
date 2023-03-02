@@ -201,7 +201,7 @@ A Back to the Depths!|QID|25914|PRE|25891|M|39.60,30.64|N|From Sentinel Mistress
 C Back to the Depths!|QID|25914|S|M|40.66,23.22|N|Kill Invading Tendrils and Crushers.|
 C Putting Them to Rest|QID|25913|S|M|42.53,20.17|N|Kill and loot Corrupted Sentinels.|
 K Harbginer Aph'lass|QID|25914|QO|1|N|Kill Harbinger Aph'lass.|M|41.42,22.86|; Harbinger Aph'lass slain: 1/1
-C Seen Better Days|QID|25912|M|40.73,17.28|N|Loot Elder Sareth'na's Sketch Book at the top of the building.|
+C Seen Better Days|QID|25912|M|40.73,17.28|NC|N|Loot Elder Sareth'na's Sketch Book at the top of the building.|
 C Putting Them to Rest|QID|25913|US|M|40.18,19.49|N|Finish getting Santinel's Glaives.|
 C Back to the Depths!|QID|25914|US|M|41.45,22.54|N|Finish kill the Invading Tenticles.|
 T Putting Them to Rest|QID|25913|M|39.62,30.72|N|To Sentinel Mistress Geleneth.|
@@ -213,8 +213,8 @@ A Ascending the Vale|QID|25930|PRE|25925|M|33.12,59.69|N|From Hierophant Malyk.|
 A World First: Gnomegen|QID|25934|PRE|25925|M|33.03,59.58|N|From Salsbury the "Help".|
 A Hungry Pups|QID|25935|PRE|25925|M|32.25,60.12|N|From Houndmaster Jonathan.|
 f Farwatcher's Glen|QID|25935|M|31.95,61.79|N|At Ceyora.|
-h Farwatcher's Glen|QID|25935|M|31.50,60.62|N|At Innkeeper Bernice.|
-R Carefull shimmy down the mountain.|QID|25934|CC|M|31.01,62.13;30.23,63.15;30.06,64.98|
+h Farwatcher's Glen|QID|25935|M|31.50,60.62|N|At Innkeeper Bernice.|FLY|OLD|
+R Carefull shimmy down the mountain.|QID|25934|CC|M|31.01,62.13;30.23,63.15;30.06,64.98|FLY|OLD|
 C World First: Gnomegen|QID|25934|S|M|27.39,70.10|N|Kill every Fire elemental you see. You may need to kill quite a number of them to get the Heart to drop.|
 C Hungry Pups|QID|25935|S|M|30.65,72.39|N|Kill and loot Black Dragon Whelps.|
 C Ascending the Vale|QID|25930|NC|U|56221|M|29.25,71.07|N|Use your boots as needed.|
@@ -225,7 +225,7 @@ C Brood of Seldarria|QID|25931|S|U|56221|M|29.71,73.17|N|Destroy 5 of Seldarria'
 C Hungry Pups|QID|25935|US|M|31.64,69.62|N|Finish getting the filets needed.|
 C Brood of Seldarria|QID|25931|US|U|56221|M|30.32,70.86|N|Destroy 5 of Seldarria's Eggs.|
 C World First: Gnomegen|QID|25934|US|M|30.08,67.82|N|Keep killing Fire elementals until a Blazing Heart of Fire drops.|
-H Farwatcher's Glen|QID|25934|N|Hearth back to Farwatcher's Glen, or run back if your hearth is down.|U|6948|
+H Farwatcher's Glen|QID|25934|M|33.05,59.62|N|Hearth back to Farwatcher's Glen, or run back if your hearth is down.|U|6948|
 T World First: Gnomegen|QID|25934|M|33.05,59.62|N|To Salsbury the "Help".|
 T Brood of Seldarria|QID|25931|M|33.05,59.62|N|To Hierophant Malyk.|
 T Hungry Pups|QID|25935|M|32.47,61.22|N|To Houndmaster Jonathan.|
