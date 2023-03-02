@@ -420,58 +420,59 @@ T Becoming the Ascendant|QID|39155|M|62.56,68.06|N|To Lady Sylvanas Windrunner.|
 A A New Life for Undeath|QID|38882|PRE|39155|M|62.56,68.06|N|From Lady Sylvanas Windrunner.|
 C A New Life for Undeath|QID|38882|M|63.85,68.07|NC|N|Follow Sylvanas, you will be transported back to Dreadwake Landing.|
 T A New Life for Undeath|QID|38882|M|55.09,72.65|N|To Lady Sylvanas Windrunner.|
-R Felskorn Warcamp|AVAILABLE|40001|M|62.85,60.42|N|The easiest way is to fly to Valdisdall, the more adventurous way is to use your grapple hook and go up the rooks at the back of Skol Ashil (near where Isal the Hammer was).  There is also a gate out the back of Skol Ashil then a path thru the Runewoods and finaly into the Felskorn Warcamp.|PRE|38882|FLY|OLD|
+R Felskorn Warcamp|AVAILABLE|40001|PRE|38882|M|62.85,60.42|N|The easiest way is to fly to Valdisdall, the more adventurous way is to use your grapple hook and go up the rooks at the back of Skol Ashil (near where Isal the Hammer was).  There is also a gate out the back of Skol Ashil then a path thru the Runewoods and finaly into the Felskorn Warcamp.|FLY|OLD|
 T Knocking on Valor's Door|QID|40001|M|65.91,59.53|N|To Vethir.|
 A A Familiar Fate|QID|40002|PRE|40001|M|65.91,59.53|N|From Vethir.|
-C A Familiar Fate|QID|40002|M|65.29,57.62|QO|1|T|Dravax|N|Kill Dravax and loot the shard.|
+C A Familiar Fate|QID|40002|QO|1|M|65.29,57.62|T|Dravax|N|Kill Dravax and loot the shard.|
 $ Small Treasure Chest|QID|43187|M|65.58,57.36|N|Loot for a bit of treasure and resources.|RANK|2|
-C A Familiar Fate|QID|40002|M|65.94,59.40|QO|2|CHAT|N|Click on the circle of binding to free Vethir.|
-T A Familiar Fate|QID|40002|M|65.94,59.53|N|To Vethir.|
-A Stem the Tide|QID|40003|PRE|40002|M|65.94,59.53|N|From Vethir.|
-A Break the Spine|QID|40004|PRE|40002|M|65.94,59.53|N|From Vethir. Note the very handy extra action button you get and use it often while at the Gates of Valor.|
+C A Familiar Fate|QID|40002|QO|2|M|65.94,59.40|I|N|Click on the circle of binding to free Vethir.|
+T A Familiar Fate|QID|40002|M|65.91,59.49|N|To Vethir.|
+A Stem the Tide|QID|40003|PRE|40002|M|65.91,59.49|N|From Vethir.|
+A Break the Spine|QID|40004|PRE|40002|M|65.91,59.49|N|From Vethir. Note the very handy extra action button you get and use it often while at the Gates of Valor.|
 A Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|N|Auto accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|S|N|Killing tideskorn and destroying the smaller portals advances the objective.|RANK|2|
-C Stem the Tide|QID|40003|M|69.92,64.40|QO|1|U|129161|NC|N|Call Vethir to destroy the North Portal.|
-C Break the Spine|QID|40004|M|71.04,64.90|QO|4|T|Ravathes|N|Kill Ravathes.|
-C Stem the Tide|QID|40003|M|69.82,66.09|QO|2|U|129161|NC|N|Up the Northeast stairs, call Vethir to destroy the East Portal.|
-C Break the Spine|QID|40004|M|69.52,65.73|QO|1|T|Garzareth|N|Kill Garzareth.|
-C Break the Spine|QID|40004|M|67.43,68.69|QO|2|T|Karuas|N|Kill Karuas.|
-C Stem the Tide|QID|40003|M|68.38,69.82|QO|3|U|129161|NC|N|Call Vethir to destroy the South Portal.|
-C Break the Spine|QID|40004|M|66.99,67.91|QO|3|T|Muorg|N|Down the Southwest stairs, Kill Muorg.|
+C Stem the Tide|QID|40003|QO|1|M|70.03,63.75|NC|U|129161|N|Call Vethir to destroy the North Portal.|
+C Break the Spine|QID|40004|QO|4|M|71.04,64.90|T|Ravathes|N|Kill Ravathes.|
+C Stem the Tide|QID|40003|QO|2|M|69.82,66.09|NC|U|129161|N|Up the Northeast stairs, call Vethir to destroy the East Portal.|
+C Break the Spine|QID|40004|QO|1|M|69.52,65.73|T|Garzareth|N|Kill Garzareth.|
+C Break the Spine|QID|40004|QO|2|M|67.43,68.69|T|Karuas|N|Kill Karuas.|
+C Stem the Tide|QID|40003|QO|3|M|68.38,69.82|NC|U|129161|N|Call Vethir to destroy the South Portal.|
+C Break the Spine|QID|40004|QO|3|M|67.15,69.08|T|Muorg|N|Down the Southwest stairs, Kill Muorg.|
 $ Small Treasure Chest|QID|43188|M|70.00,67.17|N|Before you go back up the central stairs, Loot for a bit of treasure and resources.|RANK|2|
 C Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|US|N|Finish this up or manually click it off.|RANK|2|
 t Drive Back the Tideskorn-Bonus Objective|QID|39998|M|68.41,68.00|N|Auto turned in when complete.|RANK|2|
-T Stem the Tide|QID|40003|M|70.22,69.50|N|To Vethir.|
-T Break the Spine|QID|40004|M|70.22,69.50|N|To Vethir.|
-A Stormheim's Salvation|QID|40005|PRE|40003&40004|M|70.22,69.50|N|From Vethir.|
-C Stormheim's Salvation|QID|40005|M|70.22,69.50|CHAT|N|Ask Vethir for a ride to where Skovald is.|
-C Stormheim's Salvation|QID|40005|M|70.94,70.16|N|God-King Skovald defeated.|
-T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back down so you can turn the quest in to Havi.|
-A Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|N|From Havi. This is a dungeon quest, so queue, call friends over or check it off and move on.|
-H Return to Dalaran|AVAILABLE|39984|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth ot Dalaran or your class hall and continue on your adventuring.|RANK|-1|PRE|40005|
-R Valdisdall|AVAILABLE|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|PRE|40005|RANK|2|FLY|OLD|
+T Stem the Tide|QID|40003|M|70.20,69.48|N|To Vethir.|
+T Break the Spine|QID|40004|M|70.20,69.48|N|To Vethir.|
+A Stormheim's Salvation|QID|40005|PRE|40003&40004|M|70.20,69.48|N|From Vethir.|
+C Vethir|QID|40005|M|70.20,69.48;70.46,69.50|CS|CHAT|N|Ask Vethir for a free ride to where Skovald is.|FLY|OLD|
+C Stormheim's Salvation|QID|40005|QO|1|M|70.94,70.16|N|God-King Skovald defeated.|
+C Vethir|QID|40005|M|70.46,69.49;70.22,69.50|CS|CHAT|N|Ask Vethir for a ride back down.|FLY|OLD|
+T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|To Havi.|
+A Halls of Valor: Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|ELITE|N|[color=E6CC80]Dungeon: 'Halls of Valor'[/color]\nFrom Havi.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue without accepting it.|
+H Return to Dalaran|AVAILABLE|39984|PRE|40005|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth ot Dalaran or your class hall and continue on your adventuring.|RANK|-1|
+R Valdisdall|AVAILABLE|39984|PRE|40005|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|RANK|2|FLY|OLD|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
-C Remnants of the Past|QID|39984|M|60.75,46.12|QO|1|NC|N|Find the first clue.|RANK|2|
-$ Small Treasure Chest|QID|40094|M|60.85,42.73|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
-K Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|QO|1|ITEM|129199|T|Tarben|N|Silver - From the roofbeam, Grapple to the loading dock above and then Kill Tarben for a bit of treasure and resources.|RANK|2|RARE|
+C Sten's Log|QID|39984|QO|1|M|60.75,46.12|I|N|Find the first clue.|RANK|2|
+K Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|ITEM|129199|T|Tarben|N|Silver - From the roofbeam, Grapple to the loading dock above and then Kill Tarben for a bit of treasure and resources.|RANK|2|RARE|
+$ Small Treasure Chest|QID|40094|M|60.81,42.74;60.84,42.74|CS|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
 $ Small Treasure Chest|QID|40093|M|61.41,44.41|N|Loot for treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
-C Remnants of the Past|QID|39984|M|59.14,43.14|QO|2|NC|N|The second clue is back on the tideflats (ground level) on the crates here.|RANK|2|
-C Remnants of the Past|QID|39984|M|59.77,45.05|QO|3|NC|N|Find the third clue.|RANK|2|
-C Remnants of the Past|QID|39984|M|60.43,42.95|QO|4|NC|N|Fourth Clue is on this rotting longboat.|RANK|2|
-C Remnants of the Past|QID|39984|M|58.94,42.81|QO|5|NC|N|Enter the building with the red fog in the doorway.|RANK|2|
+$ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run/fly/grapple up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
+C Sigrid's Journal|QID|39984|QO|2|M|58.33,47.03|I|N|The second clue is back on the tideflats (ground level) on the crates here.|RANK|2|
+C Kjell's Requisition|QID|39984|M|59.77,45.05|QO|3|I|N|Find the third clue attached to the door.|RANK|2|
+C Halvir's Roster|QID|39984|M|60.43,42.95|QO|4|I|N|Fourth Clue is on this rotting longboat.|RANK|2|
+R Remnants of the Past|QID|39984|M|58.94,42.81|QO|5|N|Enter the building with the red fog in the doorway.|RANK|2|
 T Remnants of the Past|QID|39984|M|58.94,42.81|N|To Havi.|RANK|2|
 A Scavenging the Shallows|QID|40046|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
 A Shadows in the Mists|QID|40044|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
 A To Honor the Fallen|QID|43595|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
 C To Honor the Fallen|QID|43595|M|60,43|S|N|Kill Kvaldir and collect the weapons.|
-C Scavenging the Shallows|QID|40046|M|60,43|S|NC|N|Pick up the boat debris until you find the clue.|RANK|2|
-K Captain Brvet|QID|38642|M|57.97,45.28|QO|1|ITEM|129123|N|Silver - Blow the "Horn of the Helmouth", to summon 3 raiders. Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-K Captain Sten|ACTIVE|40044|M|55.83,46.82|QO|1|T|Captain Sten|RANK|2|
+C Scavenging the Shallows|QID|40046|M|60,43|S|H|N|Pick up the boat debris until you find the clue.|RANK|2|
+K Captain Brvet|QID|38642|QO|1|M|58.04,45.21;57.89,44.73|CS|ITEM|129123|N|Silver - Blow the "Horn of the Helmouth" and it'll summon 2 raiders and Captain Brvet. Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Captain Sten|ACTIVE|40044|QO|1|M|55.58,46.91|T|Captain Sten|N|Part way into the fight, 2 crewmen will spawn to assist him.|RANK|2|
 $ Treasure Chest|QID|40095|M|54.98,47.14|N|Underwater on the deck of sunken ship. Loot for a bit of treasure and resources.|RANK|2|
-K Halvir|ACTIVE|40044|M|53.86,42.13|QO|4|T|Halvir|RANK|2|
-K Sigrid|ACTIVE|40044|M|54.43,35.12|QO|2|T|Sigrid|RANK|2|
-K Kjell|ACTIVE|40044|M|57.00,34.81|QO|3|T|Kjell|RANK|2|
+K Halvir|ACTIVE|40044|QO|4|M|53.81,42.13|T|Halvir|RANK|2|
+K Sigrid|ACTIVE|40044|QO|2|M|54.43,35.12|T|Sigrid|RANK|2|
+K Kjell|ACTIVE|40044|QO|3|M|57.00,34.81|T|Kjell|RANK|2|
 K Roteye|QID|43342|QO|1|M|57.73,34.77;58.37,33.96|CS|ITEM|139387|T|Roteye|N|Silver-Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Treasure Chest|QID|38744|M|61.91,32.25|N|Loot for a bit of treasure and resources.|RANK|3|
 C Scavenging the Shallows|QID|40046|M|56.73,39.33|US|NC|N|Keep checking debris till you find the clue.|RANK|2|
