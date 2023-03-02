@@ -13,7 +13,7 @@ T Ak'Zeloth|QID|25264|M|67.81,40.53|O|N|To Ak'Zeloth.|
 C Plainstrider Menace|QID|844|M|67.41,38.77|S|N|Kill and loot Plainstriders.|
 C In Defense of Far Watch|QID|871|S|N|Kill 8 Razormane Plunderer and 3 Razormane Hunter.|
 A Through Fire and Flames|QID|13878|M|67.10,45.52;66.49,45.45|CN|N|From Dorak. He runs between the points.|RANK|2|
-C Through Fire and Flames|QID|13878|M|66.73,47.45|N|Free wolves in the stable by clicking on the chain bases. They look like large horns stuck in the ground.|
+C Through Fire and Flames|QID|13878|M|66.73,47.45|NC|N|Free wolves in the stable by clicking on the chain bases. They look like large horns stuck in the ground.|
 T Through Fire and Flames|QID|13878|M|67.10,45.52;66.49,45.45|CN|N|To Dorak.|
 C In Defense of Far Watch|QID|871|M|67.75,51.21|US|N|Finish slay 8 Razormane Plunderer and 3 Razormane Hunter.|
 C Plainstrider Menace|QID|844|M|67.57,35.5|US|N|Kill and loot Plainstriders.|
