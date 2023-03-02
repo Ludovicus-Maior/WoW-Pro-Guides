@@ -44,16 +44,16 @@ T Hellscream's Legacy|QID|25616|M|72.53,61.40|N|To Sentinel Heliana.|
 T Bombs Away: Windshear Mine!|QID|25640|M|72.53,61.40|N|To Boog the "Gear Whisperer".|
 A Don't Look Them in the Eyes|QID|25642|PRE|25640|M|72.53,61.40|N|From Boog the "Gear Whisperer".|
 A Windshear Mine Cleanup|QID|25646|PRE|25640|M|72.53,61.40|N|From Sentinel Heliana.|
-C Don't Look Them in the Eyes|QID|25642|M|71.54,62.60|N|Kill Peons that are carrying ore, then loot the ore off the ground.|S|
-K Windshear Overseer |QID|25647|N|Kill Windshear Overseers until they drop the Illegible Orc Letter.|L|55181|
-C Windshear Mine Cleanup|QID|25646|S|N|Continue to kill Windshear Overseers.|
-A Illegible Orc Letter |QID|25647|PRE|25640|N|Start the quest Illegible Orc Letter from the item you looted from the Windshear Overseer.|U|55181|
+C Don't Look Them in the Eyes|QID|25642|M|71.54,62.60|NC|N|Kill Peons that are carrying ore, then loot the ore off the ground.|S|
+K Windshear Overseer |QID|25647|M|71.54,62.60|N|Kill Windshear Overseers until they drop the Illegible Orc Letter.|L|55181|
+C Windshear Mine Cleanup|QID|25646|M|71.54,62.60|S|N|Continue to kill Windshear Overseers.|
+A Illegible Orc Letter |QID|25647|PRE|25640|M|PLAYER|N|Start the quest Illegible Orc Letter from the item you looted from the Windshear Overseer.|U|55181|
 T Illegible Orc Letter |QID|25647|M|72.53,61.40|N|To Boog the "Gear Whisperer".|
 A Minx'll Fix It|QID|25649|PRE|25647|M|72.60,61.57|N|From Boog the "Gear Whisperer".|
 T Minx'll Fix It|QID|25649|N|To Minx.|M|72.21,61.52;72.00,62.73;71.26,62.77;70.80,62.96|CS|
 A Orders from High Command|QID|25650|PRE|25649|M|70.80,62.96|N|From Minx.|
 C Windshear Mine Cleanup|QID|25646|US|M|71.23,62.79|N|Finish killing Overseers.|
-C Don't Look Them in the Eyes|QID|25642|US|M|71.24,61.79|N|Finish getting ore.|
+C Don't Look Them in the Eyes|QID|25642|US|NC|M|71.24,61.79|N|Finish getting ore.|
 T Windshear Mine Cleanup|QID|25646|M|72.49,61.49|N|To Sentinel Heliana.|
 T Don't Look Them in the Eyes|QID|25642|M|72.49,61.49|N|To Boog the "Gear Whisperer".|S|
 T Orders from High Command|QID|25650|M|72.49,61.49|N|To Boog the "Gear Whisperer".|
@@ -63,12 +63,12 @@ C Commandeer That Balloon!|QID|25652|M|73.26,61.10|N|Click on the ladder of the 
 T Commandeer That Balloon!|QID|25652|M|59.54,56.92|N|To Lord Fallowmere.|
 A Free Our Sisters|QID|25662|PRE|25652|M|59.54,56.92|N|From Lord Fallowmere.|
 A Thinning the Horde |QID|25671|M|59.54,56.92|N|Daily Quest available from Lord Fallowmere, won't be available to you if your reputation with Darnassus is exalted, or apparently at certain times of the day.  Right click this quest if it's not available to you.|RANK|2|
-h Fallowmere Inn |QID|25729|M|59.0,56.4|N|From Alithina Fallowmere.|
+h Fallowmere Inn |QID|25729|M|59.0,56.4|N|From Alithina Fallowmere.|FLY|OLD|
 r Repair/Sell Junk|QID|25729|M|58.82,56.00|N|From Ol'Irongoat, just outside the inn.|
 A Just Ask Alice|QID|25673|PRE|25652|M|58.53,55.25|N|From Alice.|
 f Windshear Hold|QID|25729|M|58.80,54.30|N|At Allana Swiftglide.|
 C Just Ask Alice - Fire|QID|25673|L|55221|M|63.09,56.70|N|Loot the Mechanised Fire at the top of the large shredder.|QO|2|NC|; Mechanized Fire: 1/1
-C Free Our Sisters|QID|25662|S|M|65.92,54.00|N|Kill the orcs for their keys and free the trapped Sisters.|
+l Horde Cage Key|ACTIVE|25662|M|64.91,52.13|L|55200 5|N|Kill the Krom'gar Infantry and loot the keys|S|
 A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the STAY OUT! sign.\n\nThis is a little tough for a non-heal class to solo - get a group if you can, give it a try, or otherwise skip this quest.|RANK|3|C|DeathKnight,Mage,Rogue,Warrior|
 A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|N|This is a Group quest from the STAY OUT! sign.\n\nAlthough this is a group quest, it should be soloable for you. Skip if you don't want to try.|RANK|3|C|Hunter,Paladin,Shaman,Druid,Priest,Warlock|
 C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|N|Found in Cragpool Lake to the north of the sign. Once killed, loot the Huge Tooth.|RANK|3|O|
@@ -77,7 +77,8 @@ A Gerenzo the Traitor|QID|25729|PRE|25652|M|69.2,48.1;69.5,46.4;68.3,45.4;64.64,
 C Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|Kill Gerenzo.|
 T Gerenzo the Traitor|QID|25729|M|63.10,45.84|N|(UI Alert)|
 C Just Ask Alice - BD-816 War Apparatus|QID|25673|L|55227|M|63.05,45.67|N|Just behind Gerenzo.  Once collected, feel free to jump to the south into the water to get back to Windshear Crag.|QO|1|NC|; BD-816 War Apparatus: 1/1
-C Free Our Sisters|QID|25662|US|M|64.91,52.13|N|Finish freeing the trapped Sisters.|
+l Horde Cage Key|ACTIVE|25662|M|64.91,52.13|L|55200 5|N|Kill the Krom'gar Infantry and loot the keys|US|
+C Free Our Sisters|QID|25662|M|64.91,52.13|NC|N|Finish freeing the trapped Sisters.|
 T Free Our Sisters|QID|25662|M|66.21,54.57|N|To Huntress Illiona.|
 A Rumble in the Lumber... Mill|QID|25669|PRE|25662|M|66.21,54.57|N|From Huntress Illiona.|
 K Warlord Roktrog|QID|25669|M|66.2,54.6|N|Warlord Roktrog will spawn behind you.  Kill him, then loot Huntress Illiona's Cage Key.|L|55213|
@@ -90,16 +91,16 @@ A Preparations for the Future|QID|25741|PRE|25669|M|59.05,56.37|N|From Alithia F
 T BEWARE OF CRAGJAW!|QID|25730|M|58.83,56.01|N|To Ol' Irongoat.|O|
 T Just Ask Alice|QID|25673|M|58.52,55.28|N|To Alice.|
 A Mr. P's Wild Ride|QID|25728|PRE|25673|M|58.38,55.17|N|From Alice.|
-C Thinning the Horde |QID|25671|O|N|Kill any 20 Krom'gar and Goblin in Stonetalon Mountains.|S|
+C Thinning the Horde |QID|25671|N|Kill any 20 Krom'gar and Goblin in Stonetalon Mountains.|S|
 C Mr. P's Wild Ride|QID|25728|M|61.12,55.71|N|Use the abilities to kill what you need for this quest.|
-C Thinning the Horde |QID|25671|O|N|You really shouldn't see this after completing Mr. P's Wild Ride.|US|
+C Thinning the Horde |QID|25671|N|You really shouldn't see this after completing Mr. P's Wild Ride.|US|
 T Thinning the Horde |QID|25671|M|59.58,56.95|O|N|To Lord Fallowmere.|
 T Mr. P's Wild Ride|QID|25728|M|59.58,56.95|N|To Lord Fallowmere.|
 A Capturing Memories|QID|25767|PRE|25669|M|58.73,55.98|N|From Neophyte Starcrest.|
 A Arcane Legacy|QID|25766|PRE|25669|M|58.73,55.91|N|From Arcanist Valdurian.|
-C Capturing Memories|QID|25767|S|M|48.41,74.55|N|Loot Eldre'thar Relics off the ground.|
+C Capturing Memories|QID|25767|S|M|48.41,74.55|NC|N|Loot Eldre'thar Relics off the ground.|
 C Arcane Legacy|QID|25766|U|55972|M|46.77,74.35|N|Use the Highborne Prison on any Highborne. If an Enraged Highborne Spirit spawns kill it.|
-C Capturing Memories|QID|25767|US|M|49.06,77.99|N|Finish looting relices.|
+C Capturing Memories|QID|25767|US|M|49.06,77.99|NC|N|Finish looting relices.|
 C Preparations for the Future|QID|25741|S|M|58.32,70.83|N|Kill and loot Deepmoss Creepers and Venomspitters to get the Venom Sacs.|
 C If the Horde Don't Get You...|QID|25739|M|58.40,70.89|N|Kill Queen Silith. She wanders around.|T|Queen Silith|
 C Preparations for the Future|QID|25741|US|M|58.41,70.86|N|Finish gathering Venom Sacs.|
@@ -111,7 +112,7 @@ T If the Horde Don't Get You...|QID|25739|M|59.47,57.03|N|To Northwatch Captain 
 A Tell 'Em Koko Sent You|QID|25765|PRE|25739|M|59.50,56.94|N|From Northwatch Captain Kosak.|
 T Fallowmere Beckons|QID|25769|M|59.55,56.90|N|To Lord Fallowmere.|
 A Bombs Away: Mirkfallon Post!|QID|25768|PRE|25769|M|59.55,56.90|N|From Lord Fallowmere.|
-R Northwatch Expedition Base Camp|QID|25765|M|60.60,70.84|N|Head to the waypoint, you should see a horse called Blue Steel. When you do, mount him for a free ride.|
+R Northwatch Expedition Base Camp|QID|25765|M|60.60,70.84|N|Head to the waypoint, you should see a horse called Blue Steel. When you do, mount him for a free ride.|FLY|OLD|
 T Tell 'Em Koko Sent You|QID|25765|M|71.07,79.70|N|To Force Commander Valen.|
 A The Deep Reaches|QID|25793|PRE|25765|M|71.07,79.70|N|From Force Commander Valen.|
 f Northwatch Expedition Base Camp|QID|25793|M|70.90,80.57|N|At Kaluna Songflight.|
@@ -120,7 +121,7 @@ A Shuttin Her Down|QID|25811|PRE|25793|M|72.05,75.94|N|From Steeltoe McGee.|
 A Leave No Man Behind!|QID|25809|PRE|25793|M|72.05,75.95|N|From Corporal Wocard.|
 A They Put the Assass in... Never Mind|QID|25806|PRE|25793|M|72.06,76.01|N|From Lieutenant Paulson.|
 C They Put the Assass in... Never Mind|QID|25806|S|U|56014|N|Use your goggles to see the mobs. Kill Krom'gar Assassins.|
-C Leave No Man Behind!|QID|25809|S|M|70.66,72.54|N|Talk to the Frightened Miners to rescue them.|
+C Leave No Man Behind!|QID|25809|S|M|70.66,72.54|I|N|Talk to the Frightened Miners to rescue them.|
 U Plant Explosives at First Beam|QID|25811|U|56018|QO|1|M|70.64,76.04|N|First Beam is here.|; Plant Explosives at First Beam: 1/1
 U Plant Explosives at Second Beam|QID|25811|U|56018|QO|2|M|69.67,75.24|N|Second Beam is here.|; Plant Explosives at Second Beam: 1/1
 U Plant Explosives at Third Beam |QID|25811|U|56018|QO|3|M|68.72,71.30|N|Third Beam is here (on the ground, level, not the track).|; Plant Explosives at Third Beam: 1/1
@@ -129,7 +130,7 @@ C They Put the Assass in... Never Mind|QID|25806|US|U|56014|M|69.47,72.23|N|Fini
 T They Put the Assass in... Never Mind|QID|25806|M|69.47,72.23|N|(UI Alert)|
 A Is This Thing On?|QID|25808|PRE|25806|M|69.47,72.23|N|(UI Alert)|
 C Is This Thing On?|QID|25808|U|56014|M|70.04,72.90|N|Kill Master Assassin Kel'istra.|
-C Leave No Man Behind!|QID|25809|US|M|68.75,72.72|N|Finish rescueing Miners.|
+C Leave No Man Behind!|QID|25809|US|M|68.75,72.72|I|N|Finish rescueing Miners.|
 T Leave No Man Behind!|QID|25809|M|72.05,75.96|N|To Corporal Wocard.|
 T Is This Thing On?|QID|25808|M|72.05,75.96|N|To Lieutenant Paulson.|
 T Shuttin Her Down|QID|25811|M|72.05,75.96|N|To Steeltoe McGee.|
@@ -139,7 +140,7 @@ A Death by Proxy|QID|25834|PRE|25821|M|71.06,79.70|N|From Force Commander Valen.
 T Death by Proxy|QID|25834|M|70.92,79.74|N|To "Cookie" McWeaksauce.|
 A A Proper Peace Offerin'|QID|25837|PRE|25834|M|70.92,79.74|N|From "Cookie" McWeaksauce.|
 C A Proper Peace Offerin'|QID|25837|S|M|60.13,87.08|N|Kill rams and loot nests as you go.|
-R Boulderslide Cavern|QID|25837|M|64.87,89.43;63.44,90.07;62.49,89.65|CS|N|Follow the waypoints to get to Boulderslide Cavern.|
+R Boulderslide Cavern|QID|25837|M|64.87,89.43;63.44,90.07;62.49,89.65|CS|N|Follow the waypoints to get to Boulderslide Cavern.|FLY|OLD|
 l Boulderslide Cheese|QID|25837|QO|3|M|60.13,87.08|N|Kill and loot Kobolds to get the needed cheese.|
 C A Proper Peace Offerin'|QID|25837|US|M|63,80|N|Finish gathering Ram Haunches and Eagle Eggs.|
 T A Proper Peace Offerin'|QID|25837|M|70.91,79.77|N|To "Cookie" McWeaksauce.|
@@ -151,7 +152,7 @@ T Terms of Service|QID|25845|M|71.03,79.73|N|To Force Commander Valen.|
 A Armaments for War|QID|25822|PRE|25845|M|71.03,79.73|N|From Force Commander Valen.|
 A The Unrelenting Horde|QID|25823|PRE|25845|M|71.02,79.75|N|From Force Commander Valen.|
 C The Unrelenting Horde|QID|25823|S|M|76.43,76.17|N|Kill 12 Horde mobs.|
-C Armaments for War|QID|25822|M|77.60,78.94|N|Loot Alliance Weapon Crates.|
+C Armaments for War|QID|25822|M|77.60,78.94|NC|N|Loot Alliance Weapon Crates.|
 C The Unrelenting Horde|QID|25823|US|M|77.21,75.02|N|Finish killing Horde mobs.|
 T Armaments for War|QID|25822|M|71.02,79.75|N|To Force Commander Valen.|
 A Grundig Darkcloud, Chieftain of the Grimtotem|QID|25846|PRE|25822|M|71.18,79.74|N|From Force Commander Valen.|

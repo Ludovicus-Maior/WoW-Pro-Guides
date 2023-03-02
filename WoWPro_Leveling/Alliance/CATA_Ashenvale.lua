@@ -247,7 +247,7 @@ A A New Adornment|QID|26481|PRE|13989|M|50.86,75.20|N|From Krolg.|
 C A New Adornment|QID|26481|M|54.70,79.62|N|Kill and loot Ran Bloodtooth to get his skull.|
 T A New Adornment|QID|26481|M|50.90,75.08|N|To Krolg.|
 A True Power of the Rod|QID|26482|PRE|26481|M|50.90,75.08|N|From Krolg.|
-C True Power of the Rod|QID|26482|NC|U|46781|M|50.01,59.73|N|Run to near the Furblog Cage, kill the guard by that cage, then use the rod. Talk to Ota Wen and then enjoy the carnage.|
+C True Power of the Rod|QID|26482|CHAT|U|46781|M|50.01,59.73|N|Run to near the Furblog Cage, kill the guard by that cage, then use the rod. Talk to Ota Wen and then enjoy the carnage.|
 C Ze Gnomecorder|QID|25607|S|M|47.15,65.01|N|Kill and loot Goblin Technicians, to get the Filthy Goblin Technology.|
 C They Took Our Gnomes|QID|13913|M|43.29,63.52|N|Look for the (badly driven) caravan, and kill the driver.|S|
 C The Goblin Braintrust|QID|13979|M|46.18,61.58|N|Kill and loot Chief Bombgineer Sploder.|
