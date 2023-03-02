@@ -159,7 +159,7 @@ A Grundig Darkcloud, Chieftain of the Grimtotem|QID|25846|PRE|25822|M|71.18,79.7
 T The Unrelenting Horde|QID|25823|M|71.01,79.74|N|To Force Commander Valen.|
 T Grundig Darkcloud, Chieftain of the Grimtotem|QID|25846|M|72.19,83.80|N|To Grundig Darkcloud.|
 A Grimtotem Supremacy|QID|25847|PRE|25846|M|72.19,83.80|N|From Grundig Darkcloud.|
-C Grimtotem Supremacy|QID|25847|U|56069|M|72.87,83.80|N|Target a Grimtotem, then use the crate to arm them.|
+C Grimtotem Supremacy|QID|25847|U|56069|M|72.87,83.80|N|Target a Grimtotem, then use the crate to arm them.|T|Grimtotem|
 T Grimtotem Supremacy|QID|25847|M|72.27,83.87|N|To Grundig Darkcloud.|
 A Downfall|QID|25848|PRE|25847|M|72.21,83.95|N|From Grundig Darkcloud.|
 C Downfall|QID|25848|M|74.35,87.62|N|You will have to kill four generals, (one spawns when the current one dies) then loot the chest that drops.|
@@ -167,7 +167,7 @@ T Downfall|QID|25848|M|72.28,83.75|N|To Grundig Darkcloud.|
 A Dances with Grimtotem|QID|25851|PRE|25848|M|72.28,83.75|N|From Grundig Darkcloud.|
 T Dances with Grimtotem|QID|25851|M|71.08,79.73|N|To Force Commander Valen.|
 A All's Clear|QID|25852|PRE|25851|M|71.08,79.73|N|From Force Commander Valen. If you do not plan on doing Southern Barrens, Abandon this quest. If you are seeking Stonetalon’s Quest achievement, Keep this quest.|
-F Windshear Hold|QID|25768|N|Fly to Windshear Hold.|M|70.92,80.58|
+F Windshear Hold|QID|25768|N|Fly to Windshear Hold.|M|70.92,80.58|FLY|OLD|
 f Mirkfallon Post|QID|25768|M|48.61,51.54|N|At Fiora Moonsoar.|
 T Bombs Away: Mirkfallon Post!|QID|25768|M|48.36,51.85|N|To Scout Commander Barus.|
 A Gnome on the Inside|QID|25875|PRE|25768|M|48.36,51.85|N|From Scout Commander Barus.|
