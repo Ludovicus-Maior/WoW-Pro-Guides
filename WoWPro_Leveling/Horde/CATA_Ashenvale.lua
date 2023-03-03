@@ -47,7 +47,7 @@ F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|Northern Barrens|N|Speak to Kad
 f Splintertree Post|ACTIVE|13712|M|73.18,61.60|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
 T To the Rescue!|QID|13712|M|73.61,62.14|N|To Kadrak in Splintertree Post.|
 A Blood of the Weak|QID|13803|M|73.61,62.14|N|From Kadrak.|PRE|13712|RANK|1|
-h Splintertree Post|ACTIVE|13803|M|73.99,60.64|N|At Innkeeper Kaylisk.|
+h Splintertree Post|ACTIVE|13803|M|73.99,60.64|N|At Innkeeper Kaylisk.|FLY|OLD|
 A Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|From Kuray'bin.|RANK|1|
 A Destroy the Legion|QID|26448|M|73.17,60.11|N|From Valusha.|RANK|1|
 T Blood of the Weak|QID|13803|M|73.30,59.63;72.91,58.03;73.23,57.45;72.20,57.65|CC|N|To Durak inside the Splintertree Mine.|
@@ -58,7 +58,7 @@ A Dead Elves Walking|QID|13801|M|73.86,62.47|N|From Pixel.|PRE|13803|RANK|1|
 K Ashenvale Outrunners|ACTIVE|6503|M|75.52,70.28|QO|1|N|Kill Ashenvale Outrunners while questing.|S|
 C Dead Elves Walking|QID|13801|M|75.64,75.25|N|Destroy any 15 of the night elf ghosts at Dor'danil Barrow Den.|S|
 A Torek's Assault|QID|6544|M|68.34,75.30|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Torek.\n[color=FF0000]NOTE: [/color]If he's not there, it means someone is already on the quest and you'll have to wait a few minutes. The quest doesn't take all that long.|RANK|3|
-C Torek's Assault|QID|6544|M|64.71,75.40|N|Follow Torek and his troops to Silverwing Outpost. Let Torek lead the fight.\n[color=FF0000]NOTE: [/color]Be sure to keep Torek alive. If he dies, it's game over. (the quest is; not the fighting)|
+C Torek's Assault|QID|6544|M|64.71,75.40|N|Follow Torek and his troops to Silverwing Outpost. Let Torek lead the fight.\n[color=FF0000]NOTE: [/color]Be sure to keep Torek alive. If he dies, it's game over. (the quest is; not the fighting)|FAIL|
 R The Dor'Danil Barrow Den|ACTIVE|13805|M|75.91,75.36|N|Make your way to Barrow Den.|FLY|OLD|
 C Pierce Their Heart!|QID|13805|M|75.51,74.20|N|Enter Barrow Den and follow the blood trail. Use the Tainted Blood of the Kaldorei on the Forest Heart.|U|45683|
 K Dead Elves Walking|ACTIVE|13801|M|75.64,75.25|QO|1|N|Destroy any 15 of the Nightelf ghosts at Dor'danil Barrow Den.|US|
@@ -68,7 +68,7 @@ C Playing With Felfire|QID|13730|M|79.84,64.72|N|Use the Reinforced Canister to 
 C Destroy the Legion|QID|26448|US|M|84.07,70.30|N|Slay any 15 demons at Felfire Hill, Demon Fall Canyon, or Demon Fall Ridge.|
 l Diabolical Plans|AVAILABLE|26447|M|80.81,68.51|L|23780|N|Continue killing demons until you loot it.|RANK|1|
 A Diabolical Plans|QID|26447|M|80.81,68.51|N|From the Diabolical Plans.|U|23797|RANK|1|
-H Splintertree Post|ACTIVE|6503|M|PLAYER|
+H Splintertree Post|ACTIVE|6503|M|73.95,60.70|N|Run or hearth back to Splintertree Post.|FLY|OLD|
 T Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|To Kuray'bin.|
 T Destroy the Legion|QID|26448|M|73.17,60.11|N|To Valusha.|
 T Diabolical Plans|QID|26447|M|73.17,60.11|N|To Valusha.|
@@ -90,19 +90,19 @@ C Rain of Destruction|QID|13798|M|74.19,62.95|QO|1;2|N|Climb one of the two guar
 T Rain of Destruction|QID|13798|M|72.20,57.65|N|To Durak.|
 R Exit the mine|AVAILABLE|13841|M|73.31,59.81|N|Head back outside the mine.|IZ|4693|
 A All Apologies|QID|13841|M|73.33,62.13|N|From Splintertree Demolisher.|PRE|13798|RANK|1|
-R Demon Fall Canyon|ACTIVE|26449|M|84.21,72.25|N|Follow the road east out of Splintertree through Felfire Hill. Go south at the fork before the 2nd bridge.|
+R Demon Fall Canyon|ACTIVE|26449|M|84.21,72.25|N|Follow the road east out of Splintertree through Felfire Hill. Go south at the fork before the 2nd bridge.|FLY|OLD|
 K Gorgannon|ACTIVE|26449|M|87.41,78.98;89.57,76.78|CS|QO|1|N|Follow the waypoints to Gorgannon to kill him and loot the Sword.|
-R Demon Fall Ridge|ACTIVE|26449|M|82.65,77.88|N|Head back to the main road into Demon Fall Canyon and follow it west towards the red markers.|
+R Demon Fall Ridge|ACTIVE|26449|M|82.65,77.88|N|Head back to the main road into Demon Fall Canyon and follow it west towards the red markers.|FLY|OLD|
 K Diathorus the Seeker|ACTIVE|26449|M|78.34,81.72;78.38,83.84|CS|QO|2|N|Continue following the markers up the path until you reach the village. Locate the den entrance on the far side of the village and go inside. When you get to the bottom of the entranceway, Diathorus is in the room on the other side of the bridge directly in front of. Cross the bridge and kill him to pick up the quest loot.|
-H Splintertree Post|ACTIVE|26449|M|77.19,82.76|N|Hearth back to Splintertree Post.\n[color=FF0000]NOTE: [/color]If your Hearthstone's still on CD, I suggest waiting up the tunnel for it to finish. Otherwise, it's a very long run back.|
+H Splintertree Post|ACTIVE|26449|M|77.19,82.76|N|Hearth back to Splintertree Post.\n[color=FF0000]NOTE: [/color]If your Hearthstone's still on CD, I suggest waiting up the tunnel for it to finish. Otherwise, it's a very long run back.|FLY|OLD|
 T Never Again!|QID|26449|M|73.17,60.11|N|To Valusha.|
 A Demon Duty|QID|13806|M|73.77,61.62|N|From Locke Okarr.|PRE|26449|RANK|1|
 A Satyr Horns|QID|6441|M|73.86,62.47|N|From Pixel.|PRE|26449|RANK|1|
 l Satyr Horns|ACTIVE|6441|M|81.29,51.24|QO|1|N|Kill Satyrs to collect the horns.|S|
-R Satyrnaar|ACTIVE|13806|M|81.66,53.69|N|Take the north path to Satyrnaar.|
+R Satyrnaar|ACTIVE|13806|M|81.66,53.69|N|Take the north path to Satyrnaar.|FLY|OLD|
 C Demon Duty|QID|13806|M|81.29,51.24|N|Click on the Ritual Gems to close the portals.|NC|
 l Satyr Horns|ACTIVE|6441|M|81.29,51.24|QO|1|N|Kill Satyrs to collect the horns.|US|
-C Mission Improbable|QID|13808|M|82.57,53.65|N|Click on the Smoldering Brazier across the road.|
+C Mission Improbable|QID|13808|M|82.57,53.65|H|N|Click on the Smoldering Brazier across the road.|
 T Mission Improbable|QID|13808|M|82.53,53.80|N|To Krokk.\n[color=FF0000]NOTE: [/color]Clicking on the Smoldering Brazier will summon him.|
 A Making Stumps|QID|13815|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|1|
 A Wet Work|QID|13865|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|1|
@@ -134,7 +134,7 @@ R Grommash Hold|ACTIVE|13841|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the
 T All Apologies|QID|13841|M|49.20,72.27|Z|Orgrimmar|N|Make your way inside Grommash Hold and then turn in to Eitrigg.|
 A Dread Head Redemption|QID|13842|M|49.20,72.27|Z|Orgrimmar|N|From Eitrigg.|PRE|13841|RANK|1|
 F Splintertree Post|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
-C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Head back into the mine and and talk to Durak. Once he is done his little monologue, Durak and his minion will attack you.|
+C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Head back into the mine and talk to Durak. Once he is done his little monologue, Durak and his minion will attack you.|
 F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|
 R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
 T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
@@ -212,10 +212,10 @@ R Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Run to Silverwind Refuge.|TAXI|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.78|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
 t Sharptalon's Claw|QID|2|M|49.75,65.08|N|To Senani Thunderheart.|IZ|420|
 f Silverwind Refuge|ACTIVE|13974|M|49.29,65.25|N|Get flightpath from Wind Tamer Shosok.|TAXI|-Silverwind Refuge|
-F Splintertree Post|ACTIVE|6482|M|49.29,65.25|N|Fly to Splintertree Post.|
+F Splintertree Post|ACTIVE|6482|M|49.29,65.25|N|Fly to Splintertree Post.|FLY|OLD|
 T Freedom to Ruul|QID|6482|M|74.11,60.91|N|To Yama Snowhoof.|
 K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving the area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
-F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|
+F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|FLY|OLD|
 A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK|2|
 T Tweedle's Tiny Parcel|QID|13974|M|49.96,67.25|N|To Flooz.|
 A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
@@ -267,22 +267,23 @@ C Stalemate|QID|13962|M|62.06,51.25|N|Go to the top floor of nearby building and
 T Stalemate|QID|13962|M|60.65,52.69|N|To Thagg.|
 K Shadumbra|AVAILABLE|24|M|62.45,49.70|L|16304|N|Locate and kill Shadumbra, a nightsaber cat that paths in that area.\n[color=FF0000]NOTE: [/color]She drops a quest starter item.|T|Shadumbra|US|RANK|2|
 R Greenpaw Village|ACTIVE|6621|M|58.02,61.75|N|Using the main road, make your way south.\n[color=FF0000]NOTE: [/color]Unless you enjoy PvP, avoid getting too close to the Raynewood Tower.|FLY|OLD|
-C King of the Foulweald|QID|6621|M|56.35,63.50|N|Use Senani's Banner at top of the hill and defend it against the mobs that appear. When Chief Murgut appears, kill him and loot Murgut's Totem from the basket he drops.|
+C King of the Foulweald|QID|6621|M|56.35,63.50|N|Use Senani's Banner at top of the hill and defend it against the mobs that appear. When Chief Murgut appears, kill him and loot Murgut's Totem from the basket he drops.|U|16972|
 H Silverwind Refuge|ACTIVE|23^6621|M|50.43,67.16|N|Hearth to Silverwind Refuge.|
 T Ursangous' Paw|QID|23|M|50.13,67.58|N|To Captain Tarkan.|
 T King of the Foulweald|QID|6621|M|49.75,65.08|N|To Senani Thunderheart.|
-F Splintertree Post|ACTIVE|1918|M|49.29,65.25|N|Fly to Splintertree Post.|
+F Splintertree Post|ACTIVE|1918|M|49.29,65.25|N|Fly to Splintertree Post.|FLY|OLD|
 T The Befouled Element|QID|1918|M|74.20,60.72|N|To Mastok Wrilehiss.|
 A Je'neu of the Earthen Ring|QID|824|M|74.20,60.72|ELITE|N|[color=E6CC80]Dungeon: 'Blackfathom Deeps'[/color]\nFrom Mastok Wrilehiss.|PRE|1918|RANK|3|
-F Hellscream's Watch|ACTIVE|24|M|73.18,61.60|N|Fly to Hellscream's Watch|
+F Hellscream's Watch|ACTIVE|24|M|73.18,61.60|N|Fly to Hellscream's Watch|FLY|OLD|
 T Shadumbra's Head|QID|24|M|38.27,43.11|N|To Captain Goggath.|
-F Zoram'gar Outpost|ACTIVE|26894^824|N|Fly to Zoram'gar Outpost.|
+F Zoram'gar Outpost|ACTIVE|26894^824|N|Fly to Zoram'gar Outpost.|FLY|OLD|
 R Blackfathom Deeps|ACTIVE|26894^824|M|16.51,11.00|N|Make your way to Blackfathom Deeps.|FLY|OLD|
 R Blackfathom Deeps Portal|ACTIVE|26894^824|M|16.50,11.01|N|Make your way through the caverns to the instance portal and enter it.|IZ|-221|
 T Blackfathom Deeps|QID|26894|M|10.00,14.00|Z|221|N|To Je'nue Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
 T Je'neu of the Earthen Ring|QID|824|M|10.00,14.00|Z|221|N|To Je'neu Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
 N Blackfathom Deeps|AVAILABLE|34673|M|PLAYER|JUMP|Blackfathom Deeps|N|Load the guide to run through Blackfathom Deeps, if you wish to do it now.|
-F Orgrimmar|ACTIVE|26416|N|Make your way to a Flight Master and fly to Orgrimmar.| ; Depending on RANK and ACTIVE QIDs, location may not be the same at this point.
+H Silverwind Refuge|ACTIVE|26416|M|50.43,67.16|N|Hearth to Silverwind Refuge.|
+F Orgrimmar|ACTIVE|26416|N|Make your way to a Flight Master and fly to Orgrimmar.|FLY|OLD| ; Depending on RANK and ACTIVE QIDs, location may not be the same at this point.
 T Well, Come to the Jungle|QID|26416|M|51.30,56.03|Z|Orgrimmar|N|To Bort.\n[color=FF0000]NOTE: [/color]Periodically, he'll get up and wander over to the edge over-looking the Valley of Honor. After a few moments, he'll walk back and sit down again.|
 A Northern Stranglethorn: The Fallen Empire|QID|26417|M|51.30,56.03|Z|Orgrimmar|N|From Bort.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|LEAD|26278|PRE|26416|RANK|2|
 N Northern Stranglethorn|ACTIVE|26417|M|PLAYER|N|You can switch to the Northern Stranglethorn guide now or skip this step to continue to the Stonetalon guide.|JUMP|WkjNor2530|
