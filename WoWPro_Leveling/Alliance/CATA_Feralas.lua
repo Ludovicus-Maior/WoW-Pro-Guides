@@ -80,7 +80,7 @@ A Rescue OOX-22/FE!|QID|25476|PRE|25475|M|53.33,55.75|N|From Homing Robot OOX-22
 C Rescue OOX-22/FE!|QID|25476|M|55.58,51.21|N|Escort OOX-22/FE to safety.|O|
 l Pristine Yeti Hide|QID|25451|L|55166|N|Keep killing and looting Yetis until you get this.|M|52.07,58.33|US|
 A Pristine Yeti Hide|QID|25451|PRE|25449|U|55166|N|Accept this quest from the Pristine Yeti Hide.|M|52.07,58.33|
-F Feathermoon|QID|25450|N|Go back to camp and fly out to Feathermoon Stronghold again.|M|57.06,53.95|
+F Feathermoon|QID|25450|N|Go back to camp and fly out to Feathermoon Stronghold again.|M|57.06,53.95|FLY|OLD|
 T Improved Quality|QID|25450|M|45.34,41.33|N|To Pratt McGrubben.|
 T Pristine Yeti Hide|QID|25451|M|45.34,41.33|N|To Pratt McGrubben.|
 F Tower of Estulan|QID|25350|N|Go back to camp and fly out to the tower.|M|46.78,45.34|FLY|OLD|
@@ -126,7 +126,7 @@ H Feathermoon Stronghold|QID|25333|N|Hearth back to Feathermoon.|FLY|OLD|
 F Tower of Estulan|QID|25333|N|Catch a flight path to the Tower.|FLY|OLD|
 T Might of the Sentinels|QID|25333|M|56.89,54.98|N|To Silvia.|
 T Adella's Covert Camp|QID|26574|M|77.21,56.53|N|To Adella it's a long run, be careful of the Horde outpost.|
-f Shadebough|QID|25426|N|Get the flight path.|
+f Shadebough|QID|25426|M|77.28,56.78|N|Get the flight path.|
 A War on the Woodpaw|QID|25426|M|77.21,56.53|N|From Adella.|
 A It's Not "Ogre" Yet|QID|25432|M|77.21,56.53|N|From Adella.|
 A Forces of Nature: Faerie Dragons|QID|25468|PRE|25410|M|76.99,56.59|N|From Handler Jesana.|
@@ -171,5 +171,10 @@ T Ysondre's Farewell|QID|25438|M|77.19,56.54|N|To Adella.|
 A To New Thalanaar |QID|25481|LEAD|25486|M|77.2,56.4|N|From Falfindel Waywarder.|
 C To New Thalanaar|QID|25481|M|77.29,56.78|Z|Feralas|CHAT|N|Talk to Seyala Nightwisp and ask for the hippogryph to New Thalanaar.|
 T To New Thalanaar |QID|25481|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
+A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|M|86.08,45.26|
+C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
+T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|To Rendow.|
+A Two If By Boat|QID|25488|PRE|25486|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
+T Two If By Boat|QID|25488|M|75.93,74.59|Z|64;Thousand Needles|N|To Fizzle Brassbolts (at the top).|
 ]]
 end)
