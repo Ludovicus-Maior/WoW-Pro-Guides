@@ -6,23 +6,23 @@ return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 R Farwatcher's Glen|QID|25938^28531|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
 A Help for Desolace|QID|25938^28531|LEAD|14384|M|33.09,59.63|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
-R The Charred Vale|QID|25938^28531|M|30.95,62.20;30.23,63.15;30.06,64.98|CS|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
+R The Charred Vale|QID|25938^28531|M|30.95,62.20;30.23,63.15;30.06,64.98|CS|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|FLY|OLD|
 T Help for Desolace|QID|25938^28531|M|54.18,9.41|N|To Officer Jankie.|
 A Rerouted!|QID|14384|M|54.18,9.41|N|From Officer Jankie.|
-R Nijel's Point|QID|14384|M|54.18,9.41|N|Mount Jankie's Mount for a ride to Nijel's Point.|
+R Nijel's Point|QID|14384|M|54.18,9.41|N|Mount Jankie's Mount for a ride to Nijel's Point.|FLY|OLD|
 f Nijel's Point|QID|14384|M|64.72,10.39|N|At Baritanas Skyriver.|
-h Nijel's Point|QID|14384|M|66.26,6.64|N|At Innkeeper Lyshaerya. Don't forget to stock up! The food and drink vendor is next to the innkeeper.|
+h Nijel's Point|QID|14384|M|66.26,6.64|N|At Innkeeper Lyshaerya. Don't forget to stock up! The food and drink vendor is next to the innkeeper.|FLY|OLD|
 T Rerouted!|QID|14384|M|66.75,10.90|N|To Corporal Melkins.|
 A Lay of the Land|QID|14387|PRE|14384|M|66.75,10.90|N|From Captain Pentigast.|
 T Lay of the Land|QID|14387|M|66.48,11.76|N|To Vahlarriel Demonslayer.|
 A Elune's Gifts|QID|14354|PRE|14387|M|66.48,11.76|N|From Vahlarriel Demonslayer.|
-N Cup of Elune|QID|14354|M|77.00,18.25|N|Visit the Cup of Elune.|QO|3|
+R Cup of Elune|QID|14354|M|77.00,18.25|N|Visit the Cup of Elune.|QO|3|
 A Nothing a Couple of Melons Won't Fix|QID|14193|M|77.00,18.25|N|Started by the Cup of Elune.|
 l Melonfruit|QID|14193|L|48106 8|M|77.06,18.18|N|Gather 8 Melons from the ground.|S|
-N Elune's Brazier|QID|14354|M|78.77,22.98|N|Visit Elune's Brazier|QO|2|
+R Elune's Brazier|QID|14354|M|78.77,22.98|N|Visit Elune's Brazier|QO|2|
 A Ten Pounds of Flesh|QID|14358|M|78.77,22.98|N|Started by Elune's Brazier.|
 l Ten Pounds of Flesh|QID|14358|S|L|48857 10|N|Kill and loot Satyrs for their flesh, you need 10 total.|
-C Elune's Gifts|QID|14354|M|75.97,26.57|N|Visit Handmaiden Of Elune.|QO|1|
+R Handmaiden Of Elune|QID|14354|M|75.97,26.57|N|Visit Handmaiden Of Elune.|QO|1|
 A To the Hilt!|QID|14357|M|75.97,26.57|N|Started by Elune's Handmaiden.|
 l Satyr Sabers|QID|14357|S|L|48943 20|N|From weapons racks and Satyr kills, you will need 20 total.|
 l Melonfruit|QID|14193|L|48106 8|M|77.06,18.18|N|Gather 8 Melons from the ground.|US|
@@ -51,7 +51,7 @@ C Ears Are Burning|QID|14362|M|53.20,27.48|S|N|Kill and loot Burning Blade mobs 
 C Peace of Mind|QID|14361|M|53.40,33.34|N|Kohor is by a cave south of the fortress.|
 T Peace of Mind|QID|14361|M|53.40,33.34|N|(UI Alert)|
 A You'll Know It When You See It|QID|14363|PRE|14361|M|53.40,33.34|N|(UI Alert)|
-C You'll Know It When You See It|QID|14363|M|52.94,28.96|N|Head up to the building, and loot the Demonic Chest.|
+C You'll Know It When You See It|QID|14363|M|52.94,28.96|NC|N|Head up to the building, and loot the Demonic Chest.|
 T You'll Know It When You See It|QID|14363|M|52.94,28.96|N|(UI Alert)|
 A Putting Their Heads Together|QID|14364|PRE|14363|M|52.94,28.96|N|(UI Alert)|
 l Bleached Skulls|QID|14364|ACTIVE|14364|L|48953 100|N|From piles around the compound.|
@@ -89,7 +89,7 @@ T A Revenant's Vengeance|QID|14284|M|29.04,8.02|N|To Lord Hydronis.|
 A Return and Report|QID|14301|PRE|14284|M|29.04,8.02|N|From Lord Hydronis.|
 T Return and Report|QID|14301|M|38.82,27.02|N|To Cenarion Researcher Korrah.|
 A Official Assessment|QID|14302|PRE|14301|M|38.82,27.02|N|From Cenarion Researcher Korrah.|
-F Nijel's Point|QID|14364|N|Fly back to Nijel's Point.|M|39.04,27.01|
+F Nijel's Point|QID|14364|N|Fly back to Nijel's Point.|M|39.04,27.01|FLY|OLD|
 T Putting Their Heads Together|QID|14364|M|66.61,10.98|N|To Captain Pentigast.|
 T Ears Are Burning|QID|14362|M|66.61,10.98|N|To Captain Pentigast.|
 T The Karnitol Shipwreck |QID|1455|M|66.20,9.70|N|To Kreldig Ungor.|
