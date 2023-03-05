@@ -62,7 +62,7 @@ A To Westguard Keep!|QID|11291|PRE|11290|M|60.5,61.1|N|From Vice Admiral Keller.
 T The Path to Payback|QID|11420|M|60.1,62.4|N|To Guard Captain Zorek.|
 A Locating the Mechanism|QID|11426|PRE|11420|M|60.1,62.4|N|From Guard Captain Zorek.|
 T Guided by Honor|QID|11289|M|59.8,62.4|N|To Lord Irulon Trueblade.|
-C The Echo of Ymiron|QID|11343|U|33637|N|Use the Incense Burner inside this house and two Vrykuls will show up to have a conversation. Wait for the quest complete message, then cancel the buff.|M|60.15,50.84|
+C The Echo of Ymiron|QID|11343|M|60.17,50.80|N|Use the Incense Burner inside this house and two Vrykuls will show up to have a conversation. Wait for the quest complete message, then cancel the buff.|U|33637|
 C Locating the Mechanism|QID|11426|N|Kill a Dragonflayer Harpooner and loot the Harpoon Control Mechanism.|M|60.73,50.90|
 ; The quest 'Fresh Legs' has 'legs' lower-cased so it will not auto-accept, as it is optional.
 T Fresh Legs|QID|11251|N|To Defender Mordun. This quest is optional as Defender Mordun is inside Utgarde Keep now.|M|59.54,48.86|
