@@ -4,7 +4,7 @@ WoWPro:GuideName(guide, "Icecrown")
 WoWPro:GuideLevels(guide, 77, 80)
 WoWPro:GuideSteps(guide, function()
 return [[
-N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
+N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. You can easily solo most of them depending on your class.|
 A Preparations for War|QID|13418|N|From Officer Van Rossem on Krasus Landing in Dalaran.|Z|Dalaran City@Dalaran|M|68.80,46.60|
 T Preparations for War|QID|13418|N|Talk to Officer Van Rossem again to fly to the Skybreaker. Turn the quest in to High Captain Justin Bartlett inside the back/rear/stern/aft part of the ship, just walk straight in from the main deck.|Z|Dalaran City@Dalaran|
 A Judgment Day Comes!|QID|13226|LEAD|13036|N|From Absalan the Pious. He patrols around on the Deck of the Skybreaker.|
