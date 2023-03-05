@@ -485,27 +485,26 @@ R Talonrest|ACTIVE|39792|M|53.30,48.30;51.37,57.15|CS|U|6948|N|Headed back to se
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|PRE|39786&39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|OLD|
-K Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-$ Small Treasure Chest|QID|43194|M|73.10,45.72|N|Loot for a bit of treasure and resources.|RANK|2|
+K Kottr Vondyr|QID|40109|QO|1|M|73.46,47.68|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+$ Small Treasure Chest|QID|43194|M|73.13,45.68|N|Loot for a bit of treasure and resources.|RANK|2|
 R Dreygrot|ACTIVE|42483|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Dreygrot.|RANK|2|FLY|OLD|
-A The Mystery of Dreyrgrot|QID|42635|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
-A A Stone of Blood|QID|42639|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
-C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|Use the hook point to get onto the nearest ship.  There are two 'Ancient Dreyrgrot Tablets' here, move on to the other two ships that have one each.|RANK|2|
-$ Small Treasure Chest|QID|42632|M|75.37,52.11|N|Hook from the ship to piller.  Chest on top of piller. Loot for a bit of treasure and resources.|RANK|2|
-A The Value of Knowledge|QID|42640|M|75.52,50.78|N|From a crate of Ancient Relics floating in the bay.|RANK|2|
-C The Value of Knowledge|QID|42640|M|75.52,50.78|NC|N|Collect the ancient relics while you travel to the next ship.|RANK|2|
-C A Stone of Blood|QID|42639|M|76.21,49.38|QO|1|T|Captain Broketooth|N|Kill Captain Broketooth and take his Ruby Amulet|RANK|2|
-$ Treasure Chest|QID|42629|M|75.17,49.49|N|Hook to the next ship and then up to the crows nest to find a chest. Loot for treasure and resources.|RANK|2|
-C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|One Dreyrgrot Tablet on each of the last two ships.|RANK|2|
+A The Mystery of Dreyrgrot|QID|42635|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
+A A Stone of Blood|QID|42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
+$ Small Treasure Chest|QID|42632|M|74.46,52.75;73.97,52.17;73.96,52.24|CS|N|Use the Grapple Points to reach the chest atop the second rock piller. Loot for a bit of treasure and resources.|RANK|2|
+C The Mystery of Dreyrgrot|QID|42635|QO|1|M|75.28,52.11;75.88,51.91;76.13,49.70;75.44,48.92|CN|H|N|Use the Grapple Point (or the Hanging Rope) to get onto the nearest ship.\n[color=FF0000]NOTE: [/color]There are two 'Ancient Dreyrgrot Tablets' here. The other two ships have one each. Use the Grappling Points to travel to the other ships.|RANK|2|
+$ Treasure Chest|QID|42629|M|75.18,49.52;75.37,52.11|CS|N|Use the Grapple Point to reach the chest in the crow's nest. Loot for a bit of treasure and resources.|RANK|2|
+A The Value of Knowledge|QID|42640|M|75.52,50.78|N|From a Crate of Ancient Relics floating in the bay.|RANK|2|
+C A Stone of Blood|QID|42639|QO|1|M|76.21,49.38|T|Captain Broketooth|N|Kill Captain Broketooth and take his Ruby Amulet|RANK|2|
+C The Value of Knowledge|QID|42640|M|75.52,50.78|NC|N|Collect the Crate of Ancient Relics from the water.|RANK|2|
 T The Value of Knowledge|QID|42640|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 T The Mystery of Dreyrgrot|QID|42635|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 T A Stone of Blood|QID|42639|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 A What the Bonespeakers Buried|QID|42641|PRE|42635&42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
 A Spilling Bad Blood|QID|42645|PRE|42635&42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
-C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Kill Blood-Crazed Swashbuckler as you go.|RANK|2|
-$ Small Treasure Chest|QID|42632|M|73.9,52.2|N|Loot for a bit of treasure and resources.|RANK|2|
-C What the Bonespeakers Buried|QID|42641|M|72.31,51.59|N|You have to click on him to start the fight. Kill Blood-Thane Lucard.|RANK|2|
-C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Finish up the Blood-Crazed Swashbucklers.|RANK|2|
+C Spilling Bad Blood|QID|42645|M|72.53,54.81|S|N|Kill Blood-Crazed Swashbuckler as you go.|RANK|2|
+C What the Bonespeakers Buried|QID|42641|M|72.82,52.15;72.13,51.34|CS|H|N|Use the Grapple Point to get across and kill Blood-Thane Lucard.\n[color=FF0000]NOTE: [/color]You have to click on him to start the fight.|RANK|2|
+$ Small Treasure Chest|QID|42628|M|73.9,52.2|N|Loot for a bit of treasure and resources.|RANK|2|
+C Spilling Bad Blood|QID|42645|M|72.98,55.60|US|N|Finish up the Blood-Crazed Swashbucklers.|RANK|2|
 T What the Bonespeakers Buried|QID|42641|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 T Spilling Bad Blood|QID|42645|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45|CT|
