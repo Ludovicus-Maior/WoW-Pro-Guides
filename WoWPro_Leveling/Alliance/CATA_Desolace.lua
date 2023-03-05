@@ -100,7 +100,7 @@ T New Beginnings|QID|14251|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Good Gold For Bad Tail|QID|14252|M|60.95,28.92|N|To Bizby.|RANK|2|
 T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|RANK|2|
 C The Karnitol Shipwreck|QID|1456|M|30.77,10.92|N|Kill and loot Slitherblade Tidehunters and Sea Witches until the satchel drops.|U|34130|
-H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|
+H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|M|66.30,6.67|
 T The Karnitol Shipwreck |QID|1456|M|66.20,9.70|N|To Kreldig Ungor.|
 A Bone Collector |QID|5501|M|62.36,38.95|N|From Bibbly F'utzbuckle|RANK|3|
 A Blood Theory|QID|14304|M|58.69,46.42|N|From Thressa Amberglen.|
@@ -108,17 +108,17 @@ r Repair and Junk Sell|QID|14302|M|58.63,46.32|N|Stronghoof Gentlebend|
 T Official Assessment|QID|14302|M|57.37,47.75|N|To Karnum Marshweaver.|
 A Stubborn Winds|QID|14307|M|57.37,47.75|N|From Karnum Marshweaver.|
 f Karnum's Glade|QID|14305|M|57.68,49.67|N|At Lastrea Greengale.|
-h Karnum's Glade|QID|14305|M|56.68,50.01|N|At Innkeeper Dessina.|
+h Karnum's Glade|QID|14305|M|56.68,50.01|N|At Innkeeper Dessina.|FLY|OLD|
 A A Time to Reap|QID|14305|M|58.51,48.66|N|From Botanist Ferrah.|
 A Pulling Weeds|QID|14306|M|58.51,48.66|N|From Botanist Ferrah.|
 C Stubborn Winds|QID|14307|S|M|46.85,45.97|N|Destroy 5 Whirlwind Stormwalkers.|
-C A Time to Reap|QID|14305|S|M|63.35,47.27|N|Loot 10 Aloe Thistle.|
+C A Time to Reap|QID|14305|S|M|63.35,47.27|NC|N|Loot 10 Aloe Thistle.|
 C Pulling Weeds|QID|14306|S|N|Kill 7 Uprooted Lashers.|
 C Blood Theory|QID|14304|U|49138|M|50.59,46.5|N|Use the Bottle of Leeches on a Rejuvenated Thunder Lizard then kill it. Pick up the leech afterwards. (Be careful as AoE can kill the leeches.)|
 C Stubborn Winds|QID|14307|US|M|45.21,49.00|N|Finish killing Whirlwind Stormwalkers.|
 C Pulling Weeds|QID|14306|US|M|59.41,56.64|N|Finish killing Uprooted Lashers.|
-C Bone Collector |QID|5501|M|52.2,58.4|N|Kodo Bones from the graveyard, they look like smaller Kodo skulls. A Kodo Apparition can spawn when you pick one up.|RANK|3|
-C A Time to Reap|QID|14305|US|M|54.45,60.72|N|The highest concentration of this seems to be to the South West of the Oasis, the Kodo Graveyard.|
+C Bone Collector |QID|5501|M|52.2,58.4|NC|N|Kodo Bones from the graveyard, they look like smaller Kodo skulls. A Kodo Apparition can spawn when you pick one up.|RANK|3|
+C A Time to Reap|QID|14305|US|M|54.45,60.72|NC|N|The highest concentration of this seems to be to the South West of the Oasis, the Kodo Graveyard.|
 T A Time to Reap|QID|14305|M|58.54,48.66|N|To Botanist Ferrah.|
 T Pulling Weeds|QID|14306|M|58.54,48.66|N|To Botanist Ferrah.|
 A Taking Part|QID|14311|PRE|14305|M|58.62,48.53|N|From Botanist Ferrah.|
@@ -137,9 +137,9 @@ T An Introduction Is In Order|QID|14312|M|58.32,49.99|N|To Khan Leh'Prah.|
 A Breakout!|QID|14314|PRE|14312|M|58.32,49.99|N|From Khan Leh'Prah.|
 A Cenarion Property|QID|14316|PRE|14312|M|58.36,49.73|N|From Garren Darkwind.|
 T Calming the Kodo|QID|14309|M|58.77,46.46|N|To Thressa Amberglen.|
-C Cenarion Property|QID|14316|S|M|71.07,49.57|N|You will find these mostly inside the tents.|
+C Cenarion Property|QID|14316|S|M|71.07,49.57|NC|N|You will find these mostly inside the tents.|
 C Breakout!|QID|14314|M|72.60,55.71|N|Kill the Magram Warden.|
-C Cenarion Property|QID|14316|US|M|72.93,43.30|N|Finish looting supply crates.|
+C Cenarion Property|QID|14316|US|M|72.93,43.30|NC|N|Finish looting supply crates.|
 T Bone Collector|QID|5501|M|62.31,38.93|N|To Bibbly F'utzbuckle.|RANK|3|
 A Early Adoption|QID|14246|M|70.43,32.89|N|From Cenarion Embassador Thunk.|
 A Stubborn Lands|QID|14247|M|70.43,32.89|N|From Cenarion Embassador Thunk.|
@@ -147,15 +147,15 @@ f Thunk's Abode|QID|14246|M|70.64,32.89|N|At Thunk's Wyvern.|
 C Early Adoption|QID|14246|U|49014|M|66.27,22.38|N|Find the swoop nests. Clear the area around it for mobs. Protect the egg from attacking mobs.|
 T Stubborn Lands|QID|14247|M|69.47,21.30|N|To the Smoldering Stone.|
 A Heavy Metal|QID|14254|PRE|14247|M|69.47,21.30|N|From the Smoldering Stone.|
-C Heavy Metal|QID|14254|S|M|64.29,24.79|N|Little red gems on the ground.|
+C Heavy Metal|QID|14254|S|M|64.29,24.79|NC|N|Little red gems on the ground.|
 C Early Adoption|QID|14246|US|U|49014|M|70.28,22.64|N|Find the swoop nests. Clear the area around it for mobs. Protect the egg from attacking mobs.|
-C Heavy Metal|QID|14254|US|M|66.39,19.23|N|Little red gems on the ground.|
+C Heavy Metal|QID|14254|US|M|66.39,19.23|NC|N|Little red gems on the ground.|
 T Heavy Metal|QID|14254|M|61.06,28.95|N|To Bizby.|
 T Early Adoption|QID|14246|M|70.49,32.98|N|To Cenarion Embassador Thunk.|
 T Cenarion Property|QID|14316|M|58.38,49.89|N|To Garren Darkwind.|
 T Breakout!|QID|14314|M|58.30,50.02|N|To Khan Leh'Prah.|
 A Delicate Negotiations|QID|14318|PRE|14314&14316|M|58.30,50.02|N|From Khan Leh'Prah.|
-C Delicate Negotiations|QID|14318|N|Speak to the centaur in the camp, and you will be on your way. Once there, Place the spear, and defend it.|
+C Delicate Negotiations|QID|14318|CHAT|M|58.30,50.02|N|Speak to the centaur in the camp, and you will be on your way. Once there, Place the spear, and defend it.|
 T Delicate Negotiations|QID|14318|M|71.65,45.42|N|To Khan Kammah.|
 A Will Work For Food|QID|14325|PRE|14318|M|71.65,45.42|N|From Khan Kammah.|
 C Will Work For Food|QID|14325|M|65.28,37.62|N|Kill and loot Revitalized Basilisks until you get 5 flanks.|
@@ -169,18 +169,18 @@ f Thargad's Camp|QID|14372|M|36.76,71.68|N|At Moira Steelwing.|
 T Thargad's Camp|QID|14372|M|36.65,71.31|N|To Thargad.|
 A Infernal Encroachment|QID|14373|M|36.65,71.31|N|From Thargad.|
 A Portals of the Legion|QID|14374|M|36.65,71.31|N|From Thargad.|
-K Sherik|QID|14328|QO|2|M|35.55,81.43|N|Kill Sherik.|
-K Rhoho|QID|14328|QO|1|M|41.46,82.91|N|Kill Rhoho.|
-C Three Princes|QID|14328|QO|3|M|35.66,91.21|N|Kill Joreth.|
-R Bolgan's Hole|QID|14328|M|38.51,91.04|N|Go down into the crevice, then around and up to the bridge, cross the bridge and enter the cave.|
+K Sherik|ACTIVE|14328|QO|2|M|35.55,81.43|N|Kill Sherik.|
+K Rhoho|ACTIVE|14328|QO|1|M|41.46,82.91|N|Kill Rhoho.|
+K Jorreth|ACTIVE|14328|QO|3|M|35.66,91.21|N|Kill Joreth.|
+R Bolgan's Hole|QID|14328|M|38.51,91.04|N|Go down into the crevice, then around and up to the bridge, cross the bridge and enter the cave.|FLY|OLD|
 T Three Princes|QID|14328|M|40.42,95.50|N|To Khan Shodo.|
 A Not So Fast!|QID|14329|PRE|14328|M|40.42,95.50|N|From Khan Shodo.|
-H Karnum's Glade|QID|14329|N|If you don't want to hearth, Run back to Thargad's Camp. (Manually check this step off if you do not hearth.)|
-F Thargad's Camp|QID|14329|N|Fly here. Run if you did not Hearth.|M|57.72,49.75;36.76,71.68|CC|
+H Karnum's Glade|QID|14329|N|If you don't want to hearth, Run back to Thargad's Camp. (Manually check this step off if you do not hearth.)|FLY|OLD|
+F Thargad's Camp|QID|14329|N|Fly here. Run if you did not Hearth.|M|57.72,49.75;36.76,71.68|CC|FLY|OLD|
 C Not So Fast!|QID|14329|M|33.86,50.58|N|Kill 10 Maraudine Maulers. Loot the centaurs, they will drop a quest item.|
 T Not So Fast!|QID|14329|M|33.86,50.58|N|(UI Alert)|
 A Behind Closed Doors|QID|14330|PRE|14328|U|38567|M|25.88,77.06|N|From the Maraudine Prisoner Manifest.|
-R Gates of Mauraudon|QID|14330|CC|M|29.89,62.56;28.47,64.17|N|Enter the gates.|
+R Gates of Mauraudon|QID|14330|CC|M|29.89,62.56;28.47,64.17|N|Enter the gates.|FLY|OLD|
 A While You're Here|QID|14333|PRE|14328|M|27.21,63.35|N|From the Broken Relic.|
 T Behind Closed Doors|QID|14330|M|27.3,63|N|To Kherrah.|
 A Time For Change|QID|14332|PRE|14330|M|27.3,63|N|From Kherrah.|
@@ -192,10 +192,10 @@ C Get Me Out of Here!|QID|6132|M|40.22,61.62|N|Follow and protect Melizza. You w
 T Get Me Out of Here!|QID|6132|M|47.85,61.80|N|To Hornizz Brimbuzzle.|
 C Infernal Encroachment|QID|14373|S|M|51.08,79.76|N|Kill 10 Lesser Infernals. Infernals will drop an item for a quest, so make sure you loot them also!|
 C Portals of the Legion|QID|14374|U|14547|M|50.72,80.92|N|Click on the Demon Portals, then kill the Guardian the spawns to close them.|
-A Jugkar's Undoing|QID|14376|U|49220|M|30.81,53.93|N|Accept this quest from the Infernal Power Core.|
+C Infernal Encroachment|QID|14373|US|M|53.18,78.77|N|Finish killing Infernals.|
+A Jugkar's Undoing|QID|14376|U|49220|O|M|30.81,53.93|N|Accept this quest from the Infernal Power Core.|
 C Jugkar's Undoing|QID|14376|U|49199|M|53.66,77.48|N|Target the demon and use his abilities to defeat the warlock. Make sure you are stood in a safe spot as you are "Mind Controlling" and can be attacked.|
 T Jugkar's Undoing|QID|14376|M|36.65,71.31|N|(UI Alert)|
-C Infernal Encroachment|QID|14373|US|M|53.18,78.77|N|Finish killing Infernals.|
 C Ghost-o-plasm Round Up|QID|6134|U|15848|M|63.91,91.78|N|Clear the area then use your gizmo. Kill the ghost centaurs. (They turn aggressive when they get to the gizmo so beware.)|
 T Time For Change|QID|14332|M|72.33,67.29|N|To Khan Leh'Prah.|
 A Into the Fray!|QID|14393|PRE|14332|M|72.33,67.29|N|From Khan Leh'Prah.|
@@ -204,9 +204,9 @@ T Into the Fray!|QID|14393|M|72.30,67.39|N|To Khan Leh'Prah.|
 A Death to Agogridon|QID|14394|PRE|14393|M|72.30,67.39|N|From Khan Leh'Prah.|
 C Death to Agogridon|QID|14394|M|82.14,80.75|N|Get off of the centaur then talk to Khan to get another one. Head to the waypoint and kill Agogridon.|
 T Death to Agogridon|QID|14394|M|82.41,80.80|N|To Khan Leh'Prah.|
-H Karnum's Glade|QID|6134|N|Or Run all the Way to Karnum's Glade camp. If you are running, manually close this step.|
+H Karnum's Glade|QID|6134|N|Or Run all the Way to Karnum's Glade camp. If you are running, manually close this step.|FLY|OLD|
 T Ghost-o-plasm Round Up|QID|6134|N|To Hornizz Brimbuzzle.|M|47.88,61.80|
-F Thargad's Camp|QID|14373|M|57.71,49.75|N|Ask Lastrea Greengale for a flight.|
+F Thargad's Camp|QID|14373|M|57.71,49.75|N|Ask Lastrea Greengale for a flight.|FLY|OLD|
 T Infernal Encroachment|QID|14373|M|36.65,71.29|N|To Thargad.|
 T Portals of the Legion|QID|14374|M|36.65,71.29|N|To Thargad.|
 A Hunting Brendol|QID|14378|PRE|14373&14374|M|36.65,71.29|N|From Thargad.|
@@ -217,7 +217,7 @@ C Rock Lobstrock!|QID|14379|M|22,75;28,78|CN|US|N|Low drop rate, you may need to
 T Hunting Brendol|QID|14378|M|36.66,71.34|N|To Thargad.|
 A An Impactful Discovery|QID|14380|PRE|14378|M|36.69,71.31|N|From Thargad.|
 T Rock Lobstrock!|QID|14379|M|36.45,71.20|N|To Dumti.|
-F Karnum's Glade|QID|14380|N|Fly back to Karnum's Glade.|M|36.76,71.67|
+F Karnum's Glade|QID|14380|N|Fly back to Karnum's Glade.|M|36.76,71.67|FLY|OLD|
 T An Impactful Discovery|QID|14380|M|57.50,47.76|N|To Karnum Marshweaver.|
 A Cleansing Our Crevasse|QID|14381|PRE|14380|M|57.50,47.76|N|From Karnum Marshweaver.|
 C Cleansing Our Crevasse|QID|14381|M|37.66,45.65|N|Jump on the Hippogryph directly behind the quest giver when you are ready. Drop lots of bombs, then fly home.|
