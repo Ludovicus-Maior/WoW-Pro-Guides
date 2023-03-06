@@ -304,7 +304,7 @@ T An Expert Opinion|QID|70697|M|13.88,49.85|Z|2024|N|To Patchu.|
 A What Lubbins Needs|QID|70722|PRE|70697|M|13.88,49.85|Z|2024|N|From Patchu.|RANK|2|
 C What Lubbins Needs|QID|70722|M|13.88,49.85|Z|2024|CHAT|N|Tell Patchu you understand.|
 T What Lubbins Needs|QID|70722|M|13.88,49.85|Z|2024|N|To Patchu.|
-A A Practice Bout|QID|70732|PRE|70722|M|13.88,49.85|Z|2024|N|From Patchu.|
+;A A Practice Bout|QID|70732|PRE|70722|M|13.88,49.85|Z|2024|N|From Patchu.|RANK|3|
 A Fishing: Aileron Seamoth|QID|66212|PRE|65849|M|14.08,49.44|Z|2024|N|From Lukoturukk.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024|NC|N|Click on Rokkutuk to discover he supplies recipes.|
 C Fishing: Aileron Seamoth|QID|66212|M|13.91,50.08|Z|2024|NC|N|Take a break and fish. (or manually close this).|
@@ -652,7 +652,7 @@ $ Rhonin's Shield Glyph|QID|99999|N|Inside the very top of the tower, you probab
 F Iskaara|ACTIVE|71014|M|65.38,16.35|Z|2024|N|At Taelmyr Blazewing.|RANK|3|
 T Grimtusk's Sister|QID|71016|M|12.47,49.23|Z|2024|N|To Naluki, in the below groundlevel inn.|
 A Naluki's Letter|QID|71017|PRE|71016|M|12.47,49.23|Z|2024|N|From Naluki.|
-A Stolen Tuskarr Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|IZ|13837|;This is a item turn in quest.
+A Stolen Tuskarr Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|IZ|13837|U||O|;This is a item turn in quest.
 A Tuskarr Champion's Tales|QID|70940|M|12.41,49.34|Z|2024|N|At Elder Poa.|DFREN|Iskaara;2511;5|
 T Tuskarr Champion's Tales|QID|70940|M|12.41,49.34|Z|2024|N|At Elder Poa.|
 T Story of a Memorable Victory|QID|72291|M|12.41,49.34|Z|2024|N|At Elder Poa.|IZ|13837|;from randomly dropped item of same name-201470
