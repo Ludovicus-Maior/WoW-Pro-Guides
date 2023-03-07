@@ -394,84 +394,85 @@ T To Skold-Ashil|QID|39154|M|56.76,66.30|N|To Lady Sylvanas Windrunner.|
 A Shielded Secrets|QID|38878|PRE|39154|M|56.76,66.30|N|From Lady Sylvanas Windrunner.|
 A Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|N|Auto-accepted when you enter the area.|LVL|-45|CT|RANK|2|
 C Assault on Skold-Ashil-Bonus Objective|QID|38939|M|56.76,66.30|S|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Three differant buffs, so click all you see.|RANK|2|
-C Shielded Secrets|QID|38878|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
+C Shielded Secrets|QID|38878|M|63.42,64.64|S|I|N|Examine Engraved Shields, these are scattered all over the area.|
 A Stories of Battle|QID|39405|PRE|39154|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
 C Stories of Battle|QID|39405|M|61.93,61.46|S|N|Kill pristesses of Eyir to loot Verses of Ashilvara.|
 $ Small Treasure Chest|QID|40090|M|57.95,63.35|N|It's under the table. Loot for a bit of treasure and resources.|RANK|2|
-$ Treasure Chest|QID|40089|M|61.83,62.89|N|Loot for a bit of treasure and resources.|RANK|2|
-K Isel the Hammer|QID|39120|M|62.02,60.48|QO|1|ITEM|129133|T|Isel the Hammer|N|Silver - Kill and loot for a bit of resources and treasure.|RANK|2|RARE|
-$ Treasure Chest|QID|40088|M|59.25,58.59|N|Loot for a bit of treasure and resources.|RANK|2|
-C Shielded Secrets|QID|38878|M|63.42,64.64|US|NC|N|Finish examining the Engraved Shields.|
+$ Treasure Chest|QID|40089|M|61.83,62.89|N|Disable the Titan Defence Orbs so you can enter the building. Loot for a bit of treasure and resources.\n[color=FF0000]NOTE: [/color]If you linger too long, the Orbs will respawn.|RANK|2|
+K Isel the Hammer|QID|39120|QO|1|M|62.02,60.48|ITEM|129133|T|Isel the Hammer|N|Silver - Kill and loot for a bit of resources and treasure.|RANK|2|RARE|
+$ Treasure Chest|QID|40088|M|59.31,58.44|N|Loot for a bit of treasure and resources.|RANK|2|
+C Shielded Secrets|QID|38878|M|63.42,64.64|US|I|N|Finish examining the Engraved Shields.|
 C Stories of Battle|QID|39405|M|61.93,61.46|US|N|Finish collecting the Verses of Ashilvara.|
 C Assault on Skold-Ashil-Bonus Objective|QID|38939|M|61.93,61.46|US|N|Finish this up or click it off manually.|RANK|2|
 t Assault on Skold-Ashil-Bonus Objective|QID|38939|M|61.93,61.46|N|Auto turned in when completed.|RANK|2|
 T Stories of Battle|QID|39405|M|61.93,61.46|N|To UI Alert.|
 T Shielded Secrets|QID|38878|M|60.92,65.32|N|To Lady Sylvanas Windrunner.|
 A Becoming the Ascendant|QID|39155|PRE|38878|M|60.92,65.32|N|From Lady Sylvanas Windrunner.|
-C Becoming the Ascendant|QID|39155|M|60.42,66.71|QO|3|NC|N|Recieve Blessing at Eyir's Shield.|
-K Ivory Sentinel|QID|39031|M|59.86,68.07|QO|1|ITEM|132895|T|Ivory Sentinel|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-C Becoming the Ascendant|QID|39155|M|60.49,69.52|QO|2|NC|N|Recieve Blessing at Eyir's Pauldron.|
-C Becoming the Ascendant|QID|39155|M|61.33,69.52|QO|1|NC|N|Recieve Blessing at Eyir's Helm.|
-C Becoming the Ascendant|QID|39155|M|61.36,66.75|QO|4|NC|N|Recieve Blessing at Eyir's Spear.|
-C Becoming the Ascendant|QID|39155|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
-$ Treasure Chest|QID|40091|M|61.82,70.38;62.12,71.26;62.15,72.48;62.59,73.64|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
-K Inquisitor Ernstenbok|QID|37908|M|63.66,74.33|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources. In cave under the tower.|RANK|2|RARE|
+C Becoming the Ascendant|QID|39155|QO|3|M|60.47,66.72|H|N|Receive Blessing at Eyir's Shield.|
+K Ivory Sentinel|QID|39031|QO|1|M|59.86,68.07|ITEM|132895|T|Ivory Sentinel|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+C Becoming the Ascendant|QID|39155|QO|2|M|60.47,69.51|H|N|Receive Blessing at Eyir's Pauldron.|
+C Becoming the Ascendant|QID|39155|QO|1|M|61.33,69.52|H|N|Receive Blessing at Eyir's Helm.|
+C Becoming the Ascendant|QID|39155|QO|4|M|61.34,66.72|H|N|Receive Blessing at Eyir's Spear.|
+C Becoming the Ascendant|QID|39155|QO|5|M|61.72,68.09|CHAT|N|Commune with the statue.|
+$ Treasure Chest|QID|40091|M|62.12,71.26;62.07,72.03;62.19,72.72;62.30,73.39;62.66,73.60|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
+K Inquisitor Ernstenbok|QID|37908|QO|1|M|63.66,74.33|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources. In cave under the tower.|RANK|2|RARE|
 T Becoming the Ascendant|QID|39155|M|62.56,68.06|N|To Lady Sylvanas Windrunner.|
 A A New Life for Undeath|QID|38882|PRE|39155|M|62.56,68.06|N|From Lady Sylvanas Windrunner.|
 C A New Life for Undeath|QID|38882|M|63.85,68.07|NC|N|Follow Sylvanas, you will be transported back to Dreadwake Landing.|
 T A New Life for Undeath|QID|38882|M|55.09,72.65|N|To Lady Sylvanas Windrunner.|
-R Felskorn Warcamp|AVAILABLE|40001|M|62.85,60.42|N|The easiest way is to fly to Valdisdall, the more adventurous way is to use your grapple hook and go up the rooks at the back of Skol Ashil (near where Isal the Hammer was).  There is also a gate out the back of Skol Ashil then a path thru the Runewoods and finaly into the Felskorn Warcamp.|PRE|38882|FLY|OLD|
+R Felskorn Warcamp|AVAILABLE|40001|PRE|38882|M|62.85,60.42|N|The easiest way is to fly to Valdisdall, the more adventurous way is to use your grapple hook and go up the rooks at the back of Skol Ashil (near where Isal the Hammer was).  There is also a gate out the back of Skol Ashil then a path thru the Runewoods and finaly into the Felskorn Warcamp.|FLY|OLD|
 T Knocking on Valor's Door|QID|40001|M|65.91,59.53|N|To Vethir.|
 A A Familiar Fate|QID|40002|PRE|40001|M|65.91,59.53|N|From Vethir.|
-C A Familiar Fate|QID|40002|M|65.29,57.62|QO|1|T|Dravax|N|Kill Dravax and loot the shard.|
+C A Familiar Fate|QID|40002|QO|1|M|65.29,57.62|T|Dravax|N|Kill Dravax and loot the shard.|
 $ Small Treasure Chest|QID|43187|M|65.58,57.36|N|Loot for a bit of treasure and resources.|RANK|2|
-C A Familiar Fate|QID|40002|M|65.94,59.40|QO|2|CHAT|N|Click on the circle of binding to free Vethir.|
-T A Familiar Fate|QID|40002|M|65.94,59.53|N|To Vethir.|
-A Stem the Tide|QID|40003|PRE|40002|M|65.94,59.53|N|From Vethir.|
-A Break the Spine|QID|40004|PRE|40002|M|65.94,59.53|N|From Vethir. Note the very handy extra action button you get and use it often while at the Gates of Valor.|
+C A Familiar Fate|QID|40002|QO|2|M|65.94,59.40|I|N|Click on the circle of binding to free Vethir.|
+T A Familiar Fate|QID|40002|M|65.91,59.49|N|To Vethir.|
+A Stem the Tide|QID|40003|PRE|40002|M|65.91,59.49|N|From Vethir.|
+A Break the Spine|QID|40004|PRE|40002|M|65.91,59.49|N|From Vethir. Note the very handy extra action button you get and use it often while at the Gates of Valor.|
 A Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|N|Auto accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|S|N|Killing tideskorn and destroying the smaller portals advances the objective.|RANK|2|
-C Stem the Tide|QID|40003|M|69.92,64.40|QO|1|U|129161|NC|N|Call Vethir to destroy the North Portal.|
-C Break the Spine|QID|40004|M|71.04,64.90|QO|4|T|Ravathes|N|Kill Ravathes.|
-C Stem the Tide|QID|40003|M|69.82,66.09|QO|2|U|129161|NC|N|Up the Northeast stairs, call Vethir to destroy the East Portal.|
-C Break the Spine|QID|40004|M|69.52,65.73|QO|1|T|Garzareth|N|Kill Garzareth.|
-C Break the Spine|QID|40004|M|67.43,68.69|QO|2|T|Karuas|N|Kill Karuas.|
-C Stem the Tide|QID|40003|M|68.38,69.82|QO|3|U|129161|NC|N|Call Vethir to destroy the South Portal.|
-C Break the Spine|QID|40004|M|66.99,67.91|QO|3|T|Muorg|N|Down the Southwest stairs, Kill Muorg.|
+C Stem the Tide|QID|40003|QO|1|M|70.03,63.75|NC|U|129161|N|Call Vethir to destroy the North Portal.|
+C Break the Spine|QID|40004|QO|4|M|71.04,64.90|T|Ravathes|N|Kill Ravathes.|
+C Stem the Tide|QID|40003|QO|2|M|69.82,66.09|NC|U|129161|N|Up the Northeast stairs, call Vethir to destroy the East Portal.|
+C Break the Spine|QID|40004|QO|1|M|69.52,65.73|T|Garzareth|N|Kill Garzareth.|
+C Break the Spine|QID|40004|QO|2|M|67.43,68.69|T|Karuas|N|Kill Karuas.|
+C Stem the Tide|QID|40003|QO|3|M|68.38,69.82|NC|U|129161|N|Call Vethir to destroy the South Portal.|
+C Break the Spine|QID|40004|QO|3|M|67.15,69.08|T|Muorg|N|Down the Southwest stairs, Kill Muorg.|
 $ Small Treasure Chest|QID|43188|M|70.00,67.17|N|Before you go back up the central stairs, Loot for a bit of treasure and resources.|RANK|2|
 C Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|US|N|Finish this up or manually click it off.|RANK|2|
 t Drive Back the Tideskorn-Bonus Objective|QID|39998|M|68.41,68.00|N|Auto turned in when complete.|RANK|2|
-T Stem the Tide|QID|40003|M|70.22,69.50|N|To Vethir.|
-T Break the Spine|QID|40004|M|70.22,69.50|N|To Vethir.|
-A Stormheim's Salvation|QID|40005|PRE|40003&40004|M|70.22,69.50|N|From Vethir.|
-C Stormheim's Salvation|QID|40005|M|70.22,69.50|CHAT|N|Ask Vethir for a ride to where Skovald is.|
-C Stormheim's Salvation|QID|40005|M|70.94,70.16|N|God-King Skovald defeated.|
-T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back down so you can turn the quest in to Havi.|
-A Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|N|From Havi. This is a dungeon quest, so queue, call friends over or check it off and move on.|
-H Return to Dalaran|AVAILABLE|39984|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth ot Dalaran or your class hall and continue on your adventuring.|RANK|-1|PRE|40005|
-R Valdisdall|AVAILABLE|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|PRE|40005|RANK|2|FLY|OLD|
+T Stem the Tide|QID|40003|M|70.20,69.48|N|To Vethir.|
+T Break the Spine|QID|40004|M|70.20,69.48|N|To Vethir.|
+A Stormheim's Salvation|QID|40005|PRE|40003&40004|M|70.20,69.48|N|From Vethir.|
+C Vethir|QID|40005|M|70.20,69.48;70.46,69.50|CS|CHAT|N|Ask Vethir for a free ride to where Skovald is.|FLY|OLD|
+C Stormheim's Salvation|QID|40005|QO|1|M|70.94,70.16|N|God-King Skovald defeated.|
+C Vethir|QID|40005|M|70.46,69.49;70.22,69.50|CS|CHAT|N|Ask Vethir for a ride back down.|FLY|OLD|
+T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|To Havi.|
+A Halls of Valor: Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|ELITE|N|[color=E6CC80]Dungeon: 'Halls of Valor'[/color]\nFrom Havi.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue without accepting it.|
+H Return to Dalaran|AVAILABLE|39984|PRE|40005|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth ot Dalaran or your class hall and continue on your adventuring.|RANK|-1|
+R Valdisdall|AVAILABLE|39984|PRE|40005|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|RANK|2|FLY|OLD|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
-C Remnants of the Past|QID|39984|M|60.75,46.12|QO|1|NC|N|Find the first clue.|RANK|2|
-$ Small Treasure Chest|QID|40094|M|60.85,42.73|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
-K Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|QO|1|ITEM|129199|T|Tarben|N|Silver - From the roofbeam, Grapple to the loading dock above and then Kill Tarben for a bit of treasure and resources.|RANK|2|RARE|
+C Sten's Log|QID|39984|QO|1|M|60.75,46.12|I|N|Find the first clue.|RANK|2|
+K Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|ITEM|129199|T|Tarben|N|Silver - From the roofbeam, Grapple to the loading dock above and then Kill Tarben for a bit of treasure and resources.|RANK|2|RARE|
+$ Small Treasure Chest|QID|40094|M|60.81,42.74;60.84,42.74|CS|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
 $ Small Treasure Chest|QID|40093|M|61.41,44.41|N|Loot for treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
-C Remnants of the Past|QID|39984|M|59.14,43.14|QO|2|NC|N|The second clue is back on the tideflats (ground level) on the crates here.|RANK|2|
-C Remnants of the Past|QID|39984|M|59.77,45.05|QO|3|NC|N|Find the third clue.|RANK|2|
-C Remnants of the Past|QID|39984|M|60.43,42.95|QO|4|NC|N|Fourth Clue is on this rotting longboat.|RANK|2|
-C Remnants of the Past|QID|39984|M|58.94,42.81|QO|5|NC|N|Enter the building with the red fog in the doorway.|RANK|2|
+$ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run/fly/grapple up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
+C Sigrid's Journal|QID|39984|QO|2|M|58.33,47.03|I|N|The second clue is back on the tideflats (ground level) on the crates here.|RANK|2|
+C Kjell's Requisition|QID|39984|M|59.77,45.05|QO|3|I|N|Find the third clue attached to the door.|RANK|2|
+C Halvir's Roster|QID|39984|M|60.43,42.95|QO|4|I|N|Fourth Clue is on this rotting longboat.|RANK|2|
+R Remnants of the Past|QID|39984|M|58.94,42.81|QO|5|N|Enter the building with the red fog in the doorway.|RANK|2|
 T Remnants of the Past|QID|39984|M|58.94,42.81|N|To Havi.|RANK|2|
 A Scavenging the Shallows|QID|40046|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
 A Shadows in the Mists|QID|40044|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
 A To Honor the Fallen|QID|43595|PRE|39984|M|58.94,42.81|N|From Havi.|RANK|2|
 C To Honor the Fallen|QID|43595|M|60,43|S|N|Kill Kvaldir and collect the weapons.|
-C Scavenging the Shallows|QID|40046|M|60,43|S|NC|N|Pick up the boat debris until you find the clue.|RANK|2|
-K Captain Brvet|QID|38642|M|57.97,45.28|QO|1|ITEM|129123|N|Silver - Blow the "Horn of the Helmouth", to summon 3 raiders. Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-K Captain Sten|ACTIVE|40044|M|55.83,46.82|QO|1|T|Captain Sten|RANK|2|
+C Scavenging the Shallows|QID|40046|M|60,43|S|H|N|Pick up the boat debris until you find the clue.|RANK|2|
+K Captain Brvet|QID|38642|QO|1|M|58.04,45.21;57.89,44.73|CS|ITEM|129123|N|Silver - Blow the "Horn of the Helmouth" and it'll summon 2 raiders and Captain Brvet. Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Captain Sten|ACTIVE|40044|QO|1|M|55.58,46.91|T|Captain Sten|N|Part way into the fight, 2 crewmen will spawn to assist him.|RANK|2|
 $ Treasure Chest|QID|40095|M|54.98,47.14|N|Underwater on the deck of sunken ship. Loot for a bit of treasure and resources.|RANK|2|
-K Halvir|ACTIVE|40044|M|53.86,42.13|QO|4|T|Halvir|RANK|2|
-K Sigrid|ACTIVE|40044|M|54.43,35.12|QO|2|T|Sigrid|RANK|2|
-K Kjell|ACTIVE|40044|M|57.00,34.81|QO|3|T|Kjell|RANK|2|
+K Halvir|ACTIVE|40044|QO|4|M|53.81,42.13|T|Halvir|RANK|2|
+K Sigrid|ACTIVE|40044|QO|2|M|54.43,35.12|T|Sigrid|RANK|2|
+K Kjell|ACTIVE|40044|QO|3|M|57.00,34.81|T|Kjell|RANK|2|
 K Roteye|QID|43342|QO|1|M|57.73,34.77;58.37,33.96|CS|ITEM|139387|T|Roteye|N|Silver-Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Treasure Chest|QID|38744|M|61.91,32.25|N|Loot for a bit of treasure and resources.|RANK|3|
 C Scavenging the Shallows|QID|40046|M|56.73,39.33|US|NC|N|Keep checking debris till you find the clue.|RANK|2|

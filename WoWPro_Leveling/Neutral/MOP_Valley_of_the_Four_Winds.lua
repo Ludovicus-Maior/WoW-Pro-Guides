@@ -95,7 +95,7 @@ T Leaders Among Breeders|QID|29944|M|68.88,43.15|N|To Chen Stormstout.|
 A Crouching Carrot, Hidden Turnip|QID|29947|M|68.89,43.31|N|From Li Li.|PRE|29945|
 A The Warren-Mother|QID|29946|M|68.87,43.17|N|From Chen Stormstout.|PRE|29944|
 A Thieves to the Core|QID|29948|M|68.71,43.11|N|From Mudmug.|PRE|29944|
-C Thieves to the Core|QID|29948|M|67.75,36.37|NC|N|The Stolen Sacks of Hops are in the Twisted Warren.\nIf you keep your distance, you can avoid the Sleepyheads.|S|NC|
+C Thieves to the Core|QID|29948|M|67.75,36.37|N|The Stolen Sacks of Hops are in the Twisted Warren.\nIf you keep your distance, you can avoid the Sleepyheads.|S|NC|
 C Crouching Carrot, Hidden Turnip|QID|29947|M|69.15,39.41|N|Use the painted turnips in the Warren to get rid of the vermin.|U|76370|S|
 C Chufa|QID|29946|M|67.90,37.41|QO|1|N|At ~80% health, she will put on her 'Battle Armor'. Just attack her from behind; she won't hurt you.\nAt ~75%, Chen will come and help finish her off.|T|Chufa|U|76370|
 C Crouching Carrot, Hidden Turnip|QID|29947|M|69.15,39.41|N|Use the painted turnips in the Warren to get rid of the vermin.|U|76370|US|

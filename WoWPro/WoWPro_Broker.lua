@@ -2293,7 +2293,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skipping profession quests if their requirements aren't met --
             if WoWPro.prof[guideIndex] and not skip then
                 local profName, profID, proflvlmain, profflip, profmaxskill = (";"):split(WoWPro.prof[guideIndex])
-                local profExp, profLvl = ("+"):split(proflvlmain or "0+1")
+                local profExp, profLvl = ("+"):split(proflvlmain or "*+1")
 
                 profID = tonumber(profID) or 0
                 if profLvl == '*' then
@@ -2302,11 +2302,17 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     profLvl = 100+1
                 end
                 local proflvl = tonumber(profLvl or profExp) or 1
-                local profexp = tonumber(profLvl and profExp) or 0
+                local profexp = tonumber(profLvl and profExp) or nil
                 profmaxskill = tonumber(profmaxskill) or 0
                 profflip = WoWPro.toboolean(profflip)
-                local skill = WoWPro.ProfessionExpansion2Skill[profID] and WoWPro.ProfessionExpansion2Skill[profID][profexp]
-                WoWPro:dbp("PROF: Mapped profID=%d/profExp=%d to skill=%s", profID, profexp, tostring(skill))
+                local skill
+                if profID and profexp then
+                    skill = WoWPro.ProfessionExpansion2Skill[profID] and WoWPro.ProfessionExpansion2Skill[profID][profexp]
+                else
+                    -- if profExp is nil, the check the base spell profID instead
+                    skill = profID
+                end
+                WoWPro:dbp("PROF: Mapped profID=%d/profExp=%s to skill=%s", profID, tostring(profexp), tostring(skill))
                 if type(WoWProCharDB.Tradeskills) == 'table' and skill then
                     skip = true -- Profession steps skipped by default
                     WoWPro.why[guideIndex] = "NextStep(prof): skipped by default"

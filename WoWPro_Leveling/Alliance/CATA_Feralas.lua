@@ -4,9 +4,9 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
-R Feralas|QID|14410|M|42.81,97.92|Z|Desolace|N|Run to Feralas.|
+R Feralas|QID|14410|M|42.81,97.92|Z|Desolace|N|This guide starts in Feralas. Make your way there.|
 f Dreamer's Rest|QID|14410|M|50.21,16.72|N|At Selor.|
-h Dreamer's Rest|QID|14410|M|51.02,17.97|N|At Andoril.|
+h Dreamer's Rest|QID|14410|M|51.02,17.97|N|At Andoril.|FLY|OLD|
 T The Wilds of Feralas|QID|14410|M|50.6,17|N|To Telaron Windflight.|
 A Signs of Change|QID|25447|M|50.67,17.11|N|From Telaron Windflight.|
 A The Northspring Menace|QID|25448|M|51.13,17.81|N|From Erina Willowborn.|
@@ -25,9 +25,9 @@ C More Than Illness|QID|25394|M|46.81,9.55|N|Kill 10 Noxious Whelps.|
 T More Than Illness|QID|25394|M|50.63,17.11|N|To Telaron Windflight.|
 A Tears of Stone|QID|25396|PRE|25394|M|50.63,17.11|N|From Telaron Windflight.|
 A The Land, Corrupted|QID|25397|PRE|25394|M|50.63,17.11|N|From Telaron Windflight.|
-C Tears of Stone|QID|25396|S|M|41.71,22.54|N|Loot Stonetears (greenish looking crystals) off of the ground.|
+C Tears of Stone|QID|25396|S|M|41.71,22.54|NC|N|Loot Stonetears (greenish looking crystals) off of the ground.|
 C The Land, Corrupted|QID|25397|M|38.77,24.85|N|Kill Corrupted Cliff Giants.|
-C Tears of Stone|QID|25396|US|M|40.70,24.16|N|Finish gathering Stonetears.|
+C Tears of Stone|QID|25396|US|M|40.70,24.16|NC|N|Finish gathering Stonetears.|
 T Tears of Stone|QID|25396|M|50.66,17.09|N|To Telaron Windflight.|
 T The Land, Corrupted|QID|25397|M|50.66,17.09|N|To Telaron Windflight.|
 A Sealing the Dream|QID|25398|PRE|25396&25397|M|50.66,17.09|N|From Telaron Windflight.|
@@ -36,28 +36,28 @@ T Sealing the Dream|QID|25398|M|50.66,17.20|N|To Telaron Windflight.|
 A General Shandris Feathermoon|QID|26402|LEAD|25304|PRE|25398|M|50.66,17.20|N|From Telaron Windflight.|
 A The Mark of Quality|QID|25449|M|45.31,41.48|N|From Pratt McGrubben.|
 f Feathermoon Stronghold|QID|26402|M|46.80,45.35|N|Get the Flight Path at irela Moonfeather.|
-h Feathermoon Stronghold|QID|26402|M|46.14,45.24|N|At Innkeeper Shyria.|
+h Feathermoon Stronghold|QID|26402|M|46.14,45.24|N|At Innkeeper Shyria.|FLY|OLD|
 T General Shandris Feathermoon|QID|26402|M|46.05,49.09|N|To Shandris Feathermoon, she is at the top of the building.|
 A The Battle of Sardor|QID|25304|M|46.05,49.09|N|From Shandris Feathermoon.|
-F Ruins of Feathermoon|QID|25304|M|46.80,45.35|N|Ask the flightmaster to take you there. (Speech Bubble)|
+F Ruins of Feathermoon|QID|25304|M|46.80,45.35|N|Ask the flightmaster to take you there. (Speech Bubble)|FLY|OLD|
 T The Battle of Sardor|QID|25304|M|32.65,45.61|N|To Tambre.|
 A Hatecrest Forces|QID|25399|M|32.65,45.61|N|From Tambre.|
 A General Skessesh|QID|25458|M|32.65,45.61|N|From Tambre.|
 C Hatecrest Forces|QID|25399|S|M|29.98,50.81|N|Kill 10 Nagas.|
 C General Skessesh|QID|25458|M|30.65,45.46|N|Kill and loot General Skessesh for his head.|
 C Hatecrest Forces|QID|25399|US|M|31.26,45.64|N|Finish killing Nagas.|
-R Feathermoon Stronghold|QID|25399|M|32.60,45.60|N|Run to Tambre, and ask for a ride back to Feathermoon Stronghold.|
+R Feathermoon Stronghold|QID|25399|M|32.60,45.60|N|Run to Tambre, and ask for a ride back to Feathermoon Stronghold.|FLY|OLD|
 T Hatecrest Forces|QID|25399|M|46.03,49.11|N|To Shandris Feathermoon.|
 T General Skessesh|QID|25458|M|46.03,49.11|N|To Shandris Feathermoon.|
 A Report to Silvia|QID|25463|PRE|25458|M|46.03,49.11|N|From Shandris Feathermoon.|
 A Still With The Zapped Giants|QID|25465|M|48.64,44.78|N|From Zorbin Fandazzle.|
 A Even More Fuel for the Zapping|QID|25466|M|48.59,44.60|N|From Zorbin Fandazzle.|
-R Rage Scar Hold|QID|25449|M|51.77,32.07|N|Head to Rage Scar Hold, killing Yetis as you go.|
+R Rage Scar Hold|QID|25449|M|51.77,32.07|N|Head to Rage Scar Hold, killing Yetis as you go.|FLY|OLD|
 C The Mark of Quality|QID|25449|M|54.99,32.28|N|Kill and loot Yetis.|
 C Even More Fuel for the Zapping|QID|25466|S|M|38.89,35.96|N|Kill Water Elementals and loot them.|
 C Still With The Zapped Giants|QID|25465|U|18904|M|37.43,35.98|N|Zap a giant with Zorbin's Ultra-Shrinker, then kill and loot it.|
 C Even More Fuel for the Zapping|QID|25466|US|M|35.97,34.29|N|Finish looting Water Elemental Cores.|
-H Feathermoon Stronghold|QID|25449|N|Hearth back to Feathermoon Stronghold, or run if your hearth is not up.|
+H Feathermoon Stronghold|QID|25449|M|45.36,41.29|N|Hearth back to Feathermoon Stronghold, or run if your hearth is not up.|
 T The Mark of Quality|QID|25449|M|45.36,41.29|N|To Pratt McGrubben.|
 A Improved Quality|QID|25450|PRE|25449|M|45.36,41.50|N|From Pratt McGrubben.|
 T Still With The Zapped Giants|QID|25465|M|48.67,44.83|N|To Zorbin Fandazzle.|
@@ -80,15 +80,15 @@ A Rescue OOX-22/FE!|QID|25476|PRE|25475|M|53.33,55.75|N|From Homing Robot OOX-22
 C Rescue OOX-22/FE!|QID|25476|M|55.58,51.21|N|Escort OOX-22/FE to safety.|O|
 l Pristine Yeti Hide|QID|25451|L|55166|N|Keep killing and looting Yetis until you get this.|M|52.07,58.33|US|
 A Pristine Yeti Hide|QID|25451|PRE|25449|U|55166|N|Accept this quest from the Pristine Yeti Hide.|M|52.07,58.33|
-F Feathermoon|QID|25450|N|Go back to camp and fly out to Feathermoon Stronghold again.|M|57.06,53.95|
+F Feathermoon|QID|25450|N|Go back to camp and fly out to Feathermoon Stronghold again.|M|57.06,53.95|FLY|OLD|
 T Improved Quality|QID|25450|M|45.34,41.33|N|To Pratt McGrubben.|
 T Pristine Yeti Hide|QID|25451|M|45.34,41.33|N|To Pratt McGrubben.|
-F Tower of Estulan|QID|25350|N|Go back to camp and fly out to the tower.|M|46.78,45.34|
+F Tower of Estulan|QID|25350|N|Go back to camp and fly out to the tower.|M|46.78,45.34|FLY|OLD|
 C Forces of Nature: Hippogryphs|QID|25409|U|53104|M|55.28,71.07|N|You can actually stay mounted and do this.|
 C The Gordunni Threat|QID|25400|S|M|58.47,70.02|N|Kill 16 of any type of Gordunni ogres.|
 C The Gordunni Orb|QID|25401|M|57.47,71.00|N|Kill and loot Gordunni magic-casters until they drop an Orb.|
 C The Gordunni Threat|QID|25400|US|M|61.28,71.58|N|Finish killing Gordunni ogres.|
-R Darkmist Ruins|QID|25350|CC|M|62.11,64.06;63.27,62.26;63.91,62.19|N|Head to the Darkmist Ruins.|
+R Darkmist Ruins|QID|25350|CC|M|62.11,64.06;63.27,62.26;63.91,62.19|N|Head to the Darkmist Ruins.|FLY|OLD|
 T The Lost Apprentice|QID|25350|M|65.91,62.84|N|To Lost Apprentice.|
 A The Darkmist Legacy|QID|25422|PRE|25350^25643|M|65.89,62.82|N|From Sensiria.|
 A Ancient Suffering|QID|25423|PRE|25350^25643|M|65.85,62.78|N|From Sensiria.|
@@ -122,11 +122,11 @@ A Tell Silvia|QID|25208|PRE|25403|M|56.95,55.41|N|From Estulan.|
 T Tell Silvia|QID|25208|M|56.85,54.93|N|To Silvia.|
 A Might of the Sentinels|QID|25333|PRE|25208&25406|M|56.85,54.93|N|From Silvia.|
 C Might of the Sentinels|QID|25333|M|62.68,28.97|N|Head into Dire Maul. Go North every chance you can. You will come across an Arena. Drop into it and walk all the way to the north end of the Arena and wait. Kill the 2 Ogres that drop down, then stay alive once Cho'gall decends.|
-H Feathermoon Stronghold|QID|25333|N|Hearth back to Feathermoon.|
-F Tower of Estulan|QID|25333|N|Catch a flight path to the Tower.|
+H Feathermoon Stronghold|QID|25333|N|Hearth back to Feathermoon.|FLY|OLD|
+F Tower of Estulan|QID|25333|N|Catch a flight path to the Tower.|FLY|OLD|
 T Might of the Sentinels|QID|25333|M|56.89,54.98|N|To Silvia.|
 T Adella's Covert Camp|QID|26574|M|77.21,56.53|N|To Adella it's a long run, be careful of the Horde outpost.|
-f Shadebough|QID|25426|N|Get the flight path.|
+f Shadebough|QID|25426|M|77.28,56.78|N|Get the flight path.|
 A War on the Woodpaw|QID|25426|M|77.21,56.53|N|From Adella.|
 A It's Not "Ogre" Yet|QID|25432|M|77.21,56.53|N|From Adella.|
 A Forces of Nature: Faerie Dragons|QID|25468|PRE|25410|M|76.99,56.59|N|From Handler Jesana.|
@@ -142,7 +142,7 @@ A Alpha Strike|QID|25427|PRE|25426|M|77.19,56.52|N|From Adella.|
 T It's Not "Ogre" Yet|QID|25432|M|77.19,56.52|N|To Adella.|
 A Sasquatch Sighting|QID|25433|PRE|25432|M|77.19,56.52|N|From Adella.|
 A Taming The Tamers|QID|25434|PRE|25432|M|77.19,56.52|N|From Adella.|
-R Woodpaw Den|QID|25427|M|68.11,53.70;67.22,52.02|CC|N|Run up to Woodpaw Den.|
+R Woodpaw Den|QID|25427|M|68.11,53.70;67.22,52.02|CC|N|Run up to Woodpaw Den.|FLY|OLD|
 C Alpha Strike|QID|25427|M|65.59,52.17|N|Have fun killing Woodpaw Alphas here.|
 C Taming The Tamers|QID|25434|M|74.94,29.12|N|Kill 6 Gordunni Tamers.|S|
 C Sasquatch Sighting|QID|25433|M|74.79,28.41|N|Kill Bigfist.|
@@ -161,7 +161,7 @@ A Spiteful Sisters|QID|25436|PRE|25429|M|77.18,56.50|N|From Adella.|
 C Spiteful Sisters|QID|25436|M|79.79,45.19|N|Kill 8 Corrupted Dryads.|
 T Spiteful Sisters|QID|25436|M|77.23,56.51|N|To Adella.|
 A Ysondre's Call|QID|25437|PRE|25436|M|77.23,56.51|N|From Adella.|
-R The Emerald Summit|QID|25437|M|80.25,42.81|N|Run to the Emerald Summit.|
+R The Emerald Summit|QID|25437|M|80.25,42.81|N|Run to the Emerald Summit.|FLY|OLD|
 T Ysondre's Call|QID|25437|M|81.53,42.37|N|To Ysondre at the top of the Emerald Summit.|
 A Taerar's Fall|QID|25379|PRE|25378^25437|M|81.53,42.37|N|From Ysondre.|
 C Taerar's Fall|QID|25379|M|81.48,42.46|N|Help Ysondre kill Taerar.|
@@ -171,5 +171,10 @@ T Ysondre's Farewell|QID|25438|M|77.19,56.54|N|To Adella.|
 A To New Thalanaar |QID|25481|LEAD|25486|M|77.2,56.4|N|From Falfindel Waywarder.|
 C To New Thalanaar|QID|25481|M|77.29,56.78|Z|Feralas|CHAT|N|Talk to Seyala Nightwisp and ask for the hippogryph to New Thalanaar.|
 T To New Thalanaar |QID|25481|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
+A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|M|86.08,45.26|
+C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
+T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|To Rendow.|
+A Two If By Boat|QID|25488|PRE|25486|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
+T Two If By Boat|QID|25488|M|75.93,74.59|Z|64;Thousand Needles|N|To Fizzle Brassbolts (at the top).|
 ]]
 end)
