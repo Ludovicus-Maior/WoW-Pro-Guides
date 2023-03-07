@@ -136,9 +136,9 @@ T Still Good!|QID|29770|M|68.13,66.40|N|To Gao Summerdraft.|
 T Rascals|QID|29769|M|68.89,65.00|N|To Ji Firepaw.|
 A Missing Mallet|QID|29768|M|68.89,65.00|N|From Ji Firepaw.|PRE|29769&29770|
 A Stronger Than Wood|QID|29771|M|69.13,66.62|N|From Jojo Ironbrow|PRE|29769&29770|
-C Stronger Than Wood|QID|29771|M|69.13,66.62|N|Collect the Discarded Wood Planks from the floor.|S|
+C Stronger Than Wood|QID|29771|M|69.13,66.62|NC|N|Collect the Discarded Wood Planks from the floor.|S|
 l Missing Mallet|ACTIVE|29768|M|62.53,76.68|QO|1|N|Loot the Mallet from next to Raggis.\nYou can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|
-C Stronger Than Wood|QID|29771|M|69.13,66.62|N|Collect the Discarded Wood Planks from the floor.|US|
+C Stronger Than Wood|QID|29771|M|69.13,66.62|NC|N|Collect the Discarded Wood Planks from the floor.|US|
 T Stronger Than Wood|QID|29771|M|69.13,66.62|N|To Jojo Ironbrow|
 T Missing Mallet|QID|29768|M|68.89,65.00|N|To Ji Firepaw|
 A Raucous Rousing|QID|29772|M|68.89,65.00|N|From Ji Firepaw.|PRE|29768|
@@ -193,7 +193,7 @@ T Worthy of Passing|QID|29787|M|19.33,50.67|N|To Master Shang Xi who is now in T
 A Unwelcome Nature|QID|29788|M|19.33,50.67|N|From Master Shang Xi.|PRE|29787|
 A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi.|PRE|29787|
 K Unwelcome Nature|ACTIVE|29788|M|20.73,46.84|QO|1|N|Kill the Thornbranch Scamp.|S|
-l Small, But Significant|ACTIVE|29789|QO|1|N|Collect the Kun-Pai Ritual Charms hanging from the trees in the area around you.|
+l Small, But Significant|ACTIVE|29789|QO|1|M|19.58,50.92|N|Collect the Kun-Pai Ritual Charms hanging from the trees in the area around you.|
 K Unwelcome Nature|ACTIVE|29788|M|20.73,46.84|QO|1|N|Finish killing the Thornbranch Scamps.\n[color=FF0000]NOTE: [/color]Unless you have really good AoE, stick to the ones that are alone. At some point, it will spawn two more. Ignore them as they will eventually despawn when you defeat the original.|US|
 T Unwelcome Nature|QID|29788|M|19.33,50.67|N|To Master Shang Xi.|
 T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|
