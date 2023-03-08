@@ -46,7 +46,7 @@ $ Small Treasure Chest|QID|38498|M|39.58,19.35|N|Loot for a bit of treasure and 
 C The Windrunner's Fate|QID|38360|QO|2|M|41.72,19.73|H|N|Untie Dread-Captain Tattersail.|
 C Wrath of the Blightcaller|QID|38361|M|43.22,18.06|US|N|Finish up killing alliance forces.|
 C The Windrunner's Fate|QID|38360|QO|3|M|44.15,18.00|H|N|Examine the Plague-Tipped Arrow.|
-A Stormforged Grapple Launcher|QID|39775|M|44.28,17.64|N|You'll need this for the next few quests; as well as to enable getting to some treasure chests.\n[color=FF0000]NOTE: [/color]Location Varies, this is one. If not here, manually check this step off to continue.|
+A Stormforged Grapple Launcher|QID|39775|M|44.28,17.64|N|If you do not have flying yet, you'll need this for the next few quests (and for getting to some treasure chests).\n[color=FF0000]NOTE: [/color]This is one of a few spawn locations. If not here, manually check this step off to continue.|
 $ Treasure Chest|QID|43195|M|50.06,18.16|N|Loot for a bit of treasure and resources.|RANK|3|
 T The Windrunner's Fate|QID|38360|M|44.12,18.20|N|To Nathanos Blightcaller.|
 T Wrath of the Blightcaller|QID|38361|M|44.12,18.20|N|To Nathanos Blightcaller.|
@@ -57,8 +57,8 @@ T Side Effects May Include Mild Undeath|QID|38357|M|36.10,27.35|N|To Apothecary 
 T A Grim Trophy|QID|38362|M|36.58,29.04;36.83,30.95|CS|N|Elevator up is at first coordinate. Turn in to Nathanos Blightcaller.|
 A The Ancient Trials|QID|38459|PRE|38362|M|36.80,31.04|N|From Huginn.|
 A Eyes in the Overlook|QID|38308|PRE|38362|M|36.74,31.12|N|From Cullen's Scouting Report.|
-A Stormforged Grapple Launcher|QID|39775|M|36.95,31.85|N|You will need this for the next few quests as well as to enable getting to some treasure chests.|
-N Grappling Hooks|ACTIVE|39775&38308|N|[color=FF0000]NOTE: [/color]When there is a series Grappling Points, the TomTom arrow will point to the next one.\nManually check this step off to continue.|
+A Stormforged Grapple Launcher|QID|39775|M|36.95,31.85|N|If you do not have flying yet, you'll need this for the next few quests (and for getting to some treasure chests).|
+N Grappling Hooks|ACTIVE|39775&38308|N|[color=FF0000]NOTE: [/color]When there is a series Grappling Points, the TomTom arrow will point to the next one.\nManually check this step off to continue.|FLY|OLD|
 C Eyes in the Overlook|QID|38308|M|33.33,31.47|H|N|Follow the road east to locate and investigate Spymaster Knockwhistle's corpse.|
 T Eyes in the Overlook|QID|38308|M|PLAYER|N|UI Alert.|
 A Masters of Disguise|QID|38317|PRE|38308|M|PLAYER|N|UI Alert.|
@@ -101,12 +101,14 @@ A A Trial of Will|QID|39592|PRE|39590|M|46.74,44.44|N|From Yotnar's Head.|
 A The Shattered Watcher|QID|39593|PRE|39590|M|46.74,44.44|N|From Yotnar's Head.|
 C The Shattered Watcher|QID|39593|QO|3|M|48.76,46.12|H|N|Collect Yotnar's Left Foot.|
 C The Shattered Watcher|QID|39593|QO|2|M|49.23,45.62|H|N|Collect Yotnar's Right Arm.|
-C A Trial of Will|QID|39592|QO|1|M|48.67,47.66|H|N|Click on the Unpowered Console at the top of the hill and defeat the 3 waves of mobs.\nClick on the Powered Console to complete the quest.\n[color=FF0000]NOTE: [/color]You can either click on the grapple point above you to skip mobs or fight your way up.|
+C A Trial of Will|QID|39592|QO|1|M|48.67,47.66|H|N|Click on the Unpowered Console at the top of the hill and defeat the 3 waves of mobs.\nClick on the Powered Console to complete the quest.\n[color=FF0000]NOTE: [/color]You can either click on the grapple point above you to skip mobs or fight your way up.|FLY|OLD|
+C A Trial of Will|QID|39592|QO|1|M|48.67,47.66|H|N|Click on the Unpowered Console at the top of the hill and defeat the 3 waves of mobs.\nClick on the Powered Console to complete the quest.|
 C The Shattered Watcher|QID|39593|QO|1|M|48.04,47.48|H|N|Collect Yotnar's Left Arm.|
 C A Trial of Valor|QID|39591|QO|1|M|50.51,44.83|H|N|Click on the Unpowered Console and defeat the mob that appears.\nClick on the Powered Console to complete the quest.|
 $ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|CS|N|Go inside the cave to loot for a bit of treasure and resources.|RANK|2|
 C The Shattered Watcher|QID|39593|QO|4|M|48.67,41.67|H|N|Collect Yotnar's Right Foot.|
-$ Treasure Chest|QID|43246|M|48.55,41.33;48.89,40.92;49.52,40.96;50.14,40.77;50.43,41.24;50.55,41.24|CS|N|Standing at the first coordinate, locate the lowest Grapple Point and follow the grapple hook path until you reach the chest. Loot for a bit of treasure and resources.\n[color=FF0000]NOTE: [/color]The arrow will actually point you in the direction of the next Grapple Point.|RANK|2|
+$ Treasure Chest|QID|43246|M|48.55,41.33;48.89,40.92;49.52,40.96;50.14,40.77;50.43,41.24;50.55,41.24|CS|N|Standing at the first coordinate, locate the lowest Grapple Point and follow the grapple hook path until you reach the chest. Loot for a bit of treasure and resources.\n[color=FF0000]NOTE: [/color]The arrow will actually point you in the direction of the next Grapple Point.|RANK|2|FLY|OLD|
+$ Treasure Chest|QID|43246|M|50.55,41.24|N|Loot for a bit of treasure and resources.|RANK|2|
 T A Trial of Valor|QID|39591|M|46.74,44.44|N|To Yotnar's Head.|
 T A Trial of Will|QID|39592|M|46.74,44.44|N|To Yotnar's Head.|
 T The Shattered Watcher|QID|39593|M|46.74,44.44|N|To Yotnar's Head.|
@@ -116,7 +118,7 @@ C A Trial of Might|QID|39594|QO|2|M|49.45,43.25|Z|AggramarsVault|N|Defeat Yotnar
 T A Trial of Might|QID|39594|M|46.32,44.83|N|To Yotnar standing outside.|
 A The Blessing of the Watchers|QID|39597|PRE|39594|M|46.32,44.83|N|From Yotnar.|
 C Yotnar|QID|39597|M|46.32,44.83|CHAT|N|Ask Yotnar for his blessing.|
-C A Worthy Challenger-Bonus Objective|US|QID|38442|M|49.73,40.88|N|Finish this up or click it off manually.|RANK|2|
+C A Worthy Challenger-Bonus Objective|QID|38442|M|49.73,40.88|US|N|Finish this up or click it off manually.|RANK|2|
 t A Worthy Challenger-Bonus Objective|QID|38442|M|42.99,41.03|N|Auto turned in when complete.|RANK|2|
 T The Blessing of the Watchers|QID|39597|M|41.84,43.07|N|To Havi.|
 A Will of the Thorignir|QID|38611|PRE|39597|M|41.84,43.07|N|From Havi.| ; Alliance 38473, Horde 38611
@@ -143,15 +145,18 @@ C To Weather the Storm|QID|38614|QO|1|M|43.99,66.97|T|Stormbreaker Reykir|N|Kill
 T No Wings Required|QID|38613|M|43.70,67.86|N|To Dread-Rider Cullen.|
 T To Weather the Storm|QID|38614|M|43.71,67.89|N|To Dread-Rider Cullen.|
 A Impalement Insurance|QID|38615|PRE|38613&38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
-C Impalement Insurance|QID|38615|M|46.09,70.99|S|H|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.\n[color=FF0000]NOTE: [/color]There are more than you need.|
-$ Treasure Chest|QID|38486|M|39.48,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|RANK|2|
-K Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|P|Leatherworking;165;6|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
-$ Treasure Chest|QID|38489|M|44.16,69.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|RANK|2|
-K Thane Irglov the Merciless|QID|38424|M|40.66,72.40|T|Thane Irglov the Merciless|ITEM|129113|N|Silver - Kill the other 3 Champions as the attack you in succession and then you can take on Thane. Kill and loot for some treasure and resources.\n[color=FF0000]NOTE: [/color]Only one will aggro at a time.|RANK|2|RARE|
-$ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|RANK|2|
-C Impalement Insurance|QID|38615|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
+C Impalement Insurance|QID|38615|M|46.09,70.99|S|H|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.\n[color=FF0000]NOTE: [/color]There are more than you need.|FLY|OLD|
+C Impalement Insurance|QID|38615|M|46.09,70.99|S|H|N|Destroy Harpoon Launchers.\n[color=FF0000]NOTE: [/color]There are more than you need.|
+$ Treasure Chest|QID|38486|M|39.48,65.18|N|Loot for a bit of treasure and resorces.|RANK|2|
+K Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|P|Leatherworking;165;6|
+$ Treasure Chest|QID|38489|M|44.16,69.97|N|While you are grappling around, get this chest on a rooftop. Loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Treasure Chest|QID|38489|M|44.16,69.97|N|Loot for a bit of treasure and resources.|RANK|2|
+K Thane Irglov the Merciless|QID|38424|M|40.66,72.40|ITEM|129113|T|Thane Irglov the Merciless|N|Silver - Kill the other 3 Champions as the attack you in succession and then you can take on Thane. Kill and loot for some treasure and resources.\n[color=FF0000]NOTE: [/color]Only one will aggro at a time.|RANK|2|RARE|
+$ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the top of the tower to find a chest and loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|38475|M|40.64,68.52|N|Loot for a bit of treasure and resources.|RANK|2|
+C Impalement Insurance|QID|38615|M|46.09,70.99|US|H|N|Finish destroying Harpoon Launchers.|
 C Built to Scale|QID|38616|M|45.80,70.85|US|N|Finish collecting the scales.|
-C Stormheim Savagery|QID|40179|M|45.86,67.84|Z|Stormheim|P|Leatherworking;165;6|US|QO|1|N|Kill Vrykul to get the Bindings.|
+C Stormheim Savagery|QID|40179|QO|1|M|45.86,67.84|Z|Stormheim|US|N|Kill Vrykul to get the Bindings.|P|Leatherworking;165;6|
 T Impalement Insurance|QID|38615|M|47.00,71.74|N|To Dread-Rider Cullen.|
 A Another Way|QID|38617|PRE|38615|M|47.00,71.74|N|From Dread-Rider Cullen.|
 T Built to Scale|QID|38616|M|47.00,71.74|N|To Dread-Rider Cullen.|
@@ -159,27 +164,34 @@ C Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|US|N|Stay and fi
 t Assault the Drekirjar-Bonus Objective|QID|38374|M|45.86,67.84|N|Auto turned in when complete.|RANK|2|
 K Gunnlaug Scaleheart|ACTIVE|38617|QO|1|M|46.13,72.47|T|Gunnlaug Scaleheart|N|Kill Gunnlaug Scaleheart.|
 C Another Way|QID|38617|QO|2|M|45.75,73.05|N|Climb the Tower.\n[color=FF0000]NOTE: [/color]Flying up still gets you credit.|
-T Another Way|QID|38617|M|PLAYER|N|To Dread-Rider Cullen.\n[color=FF0000]NOTE: [/color]Turn in at top, BEFORE grappling across.|
+T Another Way|QID|38617|M|PLAYER|N|To Dread-Rider Cullen.\n[color=FF0000]NOTE: [/color]Turn in at top, BEFORE grappling across.|FLY|OLD|
+T Another Way|QID|38617|M|PLAYER|N|To Dread-Rider Cullen.\n[color=FF0000]NOTE: [/color]Turn in at top BEFORE leaving.|
 A Above the Winter Moonlight|QID|38618|PRE|38617|M|PLAYER|N|From Dread-Rider Cullen.|
 C Above the Winter Moonlight|QID|38618|QO|1|M|46.36,74.37|NC|N|Click on the grapple point on the path.|
-$ Small Treasure Chest|QID|38476|M|48.09,75.79;49.89,73.72;48.93,72.75;48.13,74.22|CS|N|Beside the waterfall, loot for a bit of treasure and resources.|RANK|2|
-K Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|RANK|2|RARE|
-U Stormwing Whelpling|QID|38423|M|49.6,71.6|U|129208|N|Click to add pet to your collection.|RANK|2|RARE|
+$ Small Treasure Chest|QID|38476|M|48.09,75.79;49.89,73.72;48.93,72.75;48.13,74.22|CS|N|Beside the waterfall, loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|38476|M|48.13,74.22|N|Beside the waterfall, loot for a bit of treasure and resources.|RANK|2|
+K Stormwing Matriarch|QID|38423|QO|1|M|49.6,71.6|ITEM|129110|T|Stormwing Matriarch|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|RANK|2|RARE|
+U Stormwing Whelpling|QID|99999|M|49.6,71.6|U|129208|N|Click to add pet to your collection.|RANK|2|O|
 $ Small Treasure Chest|QID|38485|M|49.24,76.99;49.76,77.99|CS|N|One grapple point off the trail, you will find a chest in this niche. Loot for treasure and resources, then back to traveling upwards on the trail.|RANK|2|
+$ Small Treasure Chest|QID|38485|M|49.76,77.99|N|Just off the trail, you'll find a chest in a niche. Loot for treasure and resources, then back to traveling upwards on the trail.|RANK|2|
 K Bladesquall|QID|38431|M|45.88,77.37|QO|1|ITEM|129048|T|Bladesquall|N|Grapple across the defunct bridge for this silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-C Above the Winter Moonlight|QID|38618|QO|2|M|44.22,77.53|NC|N|Use the Grappling Points to reach the top of the path (or fly/run).|
+C Above the Winter Moonlight|QID|38618|QO|2|M|44.22,77.53|NC|N|Use the Grappling Points to reach the top of the path (or fly/run).|FLY|OLD|
+R Above the Winter Moonlight|QID|38618|QO|2|M|44.22,77.53|N|Fly up to the top of the path.|
 T Above the Winter Moonlight|QID|38618|M|44.82,77.40|N|To Vethir.|
 A Heart of a Dragon|QID|38414|PRE|38618^38412|M|44.82,77.40|N|From Vethir.|
 A Wings of Liberty|QID|38413|PRE|38618^38412|M|44.82,77.40|N|From Vethir.|
 A Fury of the Storm|QID|40568|PRE|38618^38412|M|44.82,77.40|N|From Vethir.|
 C Fury of the Storm|QID|40568|M|44.82,77.40|S|N|Kill Drekirjar vrykyl.|
 C Wings of Liberty|QID|38413|QO|2|M|45.85,78.68|H|N|Free Hrafsir.|
-$ Treasure Chest|QID|38481|M|46.55,79.35;46.77,80.40|CS|N|First point is a hook point, Hook to the chest, loot for treasure and resources.|RANK|2|
+$ Treasure Chest|QID|38481|M|46.55,79.35;46.77,80.40|CS|N|First point is a hook point, Hook to the chest, loot for treasure and resources.|RANK|2|FLY|OLD|
+$ Treasure Chest|QID|38481|M|46.77,80.40|N|Loot for treasure and resources.|RANK|2|
 C Wings of Liberty|QID|38413|QO|1|M|49.07,81.25|H|N|Free Aleifir inside the cave.|
-K Fathnyr|QID|38425|QO|1|M|46.67,83.68|ITEM|129206|T|Fathnyr|N|Silver - In a small cave roughly above Hridmogir, easiert reached from hook points starting at the cave Aleifir was in. Loot for a bit of resources and treasure.|RANK|2|RARE|
+K Fathnyr|QID|38425|QO|1|M|46.67,83.68|ITEM|129206|T|Fathnyr|N|Silver - In a small cave roughly above Hridmogir, easier reached from hook points starting at the cave Aleifir was in. Loot for a bit of resources and treasure.|RANK|2|RARE|FLY|OLD|
+K Fathnyr|QID|38425|QO|1|M|46.67,83.68|ITEM|129206|T|Fathnyr|N|Silver - In a small cave roughly above Hridmogir. Loot for a bit of resources and treasure.|RANK|2|RARE|FLY|-OLD|
 C Wings of Liberty|QID|38413|QO|4|M|45.66,82.18|H|N|Free Hridmogir.|
 C Wings of Liberty|QID|38413|QO|3|M|44.09,80.62|H|N|Free Erilar.|
-$ Small Treasure Chest|QID|43239|M|44.38,80.44;43.77,80.58;43.14,80.46;43.54,80.20;43.70,80.09|CS|N|On the top of the spire, hook you way up and loot for treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43239|M|44.38,80.44;43.77,80.58;43.14,80.46;43.54,80.20;43.70,80.09|CS|N|On the top of the spire, hook you way up and loot for treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|43239|M|43.70,80.09|CS|N|On the top of the spire, hook you way up and loot for treasure and resources.|RANK|2|
 R Heart of a Dragon|QID|38414|QO|1|M|72.88,67.33|Z|Stormheim/25|N|Enter Thoringir Refuge.|
 C Heart of a Dragon|QID|38414|QO|2|M|54.67,51.16|Z|Stormheim/25|T|Azariah|N|Kill Azariah.|
 C Fury of the Storm|QID|40568|M|44.07,82.69|US|N|finish killing the Drekirjar vrykyl.|
@@ -198,7 +210,7 @@ T Cry Thunder!|QID|38624|M|48.03,54.55|N|To Huginn.|
 A The Trials Continue|QID|39803|PRE|38624|M|48.03,54.55|N|From Huginn.|
 ; Side Excursions
 K Tiptog the Lost|QID|38774|M|46.29,50.01|T|Tiptog the Lost|QO|1|ITEM|129163|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-$ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.31|CS|N|Enter the cave and dodge the energy beams. When you try to open the chest, 2 of the Vault Keepers will attack you. Defeat them and resume opening the chest..  Loot for a bit of treasure and resources.|RANK|2|
+$ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.31|CS|N|Enter the cave and dodge the energy beams. When you try to open the chest, 2 of the Vault Keepers will attack you. Defeat them and resume opening the chest.  Loot for a bit of treasure and resources.|RANK|2|
 R Talonrest|ACTIVE|39803|M|50.01,53.91|N|Run to Talonrest, for some quests.|RANK|2|FLY|OLD|
 A Eating Into Our Business|QID|39789|M|51.46,56.95|N|From Ootasa Galehoof.|RANK|2|
 C Eating Into Our Business|QID|39789|M|48.54,56.93|S|N|Kill Duskpelt worg.|RANK|2|
@@ -212,15 +224,18 @@ R Nastrondir|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.38,39.02|CS|N|Run through
 A The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|LVL|-45|CT|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|S|N|Kill the drakes and pick up eggs to advance the objective.|RANK|2|
 C Only the Finest|QID|39793|M|44.14,37.51|S|N|Kill goats to collect the patches of goat hair.|RANK|2|
-$ Small Treasure Chest|QID|43238|M|43.15,39.31;43.23,40.51;43.17,40.49|CS|N|Hook out to find chest, loot for treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|43240|M|42.42,37.91;43.75,38.27;44.26,37.94;44.80,37.91;44.99,38.24|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|43255|M|45.43,37.44;45.30,36.32;45.09,35.54;45.93,34.95;46.49,34.09;47.40,34.08;47.45,34.10|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43238|M|43.15,39.31;43.23,40.51;43.17,40.49|CS|N|Hook out to find chest, loot for treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|43238|M|43.17,40.49|N|Loot for treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43240|M|42.42,37.91;43.75,38.27;44.26,37.94;44.80,37.91;44.99,38.24|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|43240|M|44.99,38.24|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43255|M|45.43,37.44;45.30,36.32;45.09,35.54;45.93,34.95;46.49,34.09;47.40,34.08;47.45,34.10|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|43255|M|47.45,34.10|N|Loot for a bit of treasure and resources.|RANK|2|
 R Nashal the Watcher|AVAILABLE|43189|M|47.40,34.08;46.49,34.09;45.93,34.95;45.09,35.54;45.43,37.44;44.80,37.91;44.26,37.94;43.75,38.27;42.10,35.73;42.26,34.81|CS|N|Use the Grappel Hooks to get to the ground and run to the base of the large statue.|RANK|3|FLY|OLD|
 $ Glimmering Treasure Chest|QID|43189|M|42.26,34.81;42.68,33.67;42.62,34.10;42.46,34.08|CS|N|Long run up the spiral ramp to the chest to loot for treasure and resources.\n[color=FF0000]NOTE: [/color]You get an achievement when you reach the top of the ramp.|RANK|3|
 K Egyl the Enduring|QID|40068|QO|1|M|41.43,31.90;41.77,34.11|CS|ITEM|132898|N|Silver - There is a cave under the statue. Go inside to find Egyl. Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Only the Finest|QID|39793|M|44.14,37.51|US|N|Finish collecting the patches of goat hair.|RANK|2|
 C Rigging the Wager|QID|39787|QO|1|M|44.84,31.03;48.87,34.07;48.31,29.94;48.24,32.81|CS|N|After using the grapple point to reach his nest, click on Spitefeather's Rock to summon and kill him for his beak.\n[color=FF0000]NOTE: [/color]Fight with your back to the wall, so you dont get thrown off./nThere is no way off the ledge without taking fall damage.|RANK|2|FLY|OLD|
-C Rigging the Wager|QID|39787|M|48.24,32.81|QO|1|N|Click on Spitefeather's Rock to summon and kill him for his beak.\n[color=FF0000]NOTE: [/color]Fight with your back to the wall, so you dont get thrown off.|RANK|2|
+C Rigging the Wager|QID|39787|QO|1|M|48.24,32.81|N|Click on Spitefeather's Rock to summon and kill him for his beak.\n[color=FF0000]NOTE: [/color]Fight with your back to the wall, so you dont get thrown off.|RANK|2|
 C The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|US|N|Finish or click off manually.|RANK|2|
 t The Brood of Nithogg-Bonus Objective|QID|42431|M|47.76,32.62|N|Auto turned in upon completion.|RANK|2|
 A Plight of the Blackfeather|QID|42444|M|50.32,34.00|N|From Frightened Ravenbear.|RANK|2|
@@ -229,7 +244,7 @@ A Singed Feathers|QID|42446|PRE|42444|M|49.79,32.63|N|From Cukkaw.|RANK|2|
 A Nithogg's Tribute|QID|42445|PRE|42444|M|49.97,32.65|N|From Intact Greatstag Antler.|RANK|2|
 C Singed Feathers|QID|42446|M|49.68,29.95|S|N|Kill Rampaging Squallhunters.|RANK|2|
 C Nithogg's Tribute|QID|42445|M|50.32,33.21|S|N|Kill (and loot) Greatstags and Eagles in this area.|RANK|2|
-K Starbuck|QID|42437|M|54.70,29.21|QO|1|ITEM|130132|T|Starbuck|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+K Starbuck|QID|42437|QO|1|M|54.70,29.21|ITEM|130132|T|Starbuck|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Nithogg's Tribute|QID|42445|M|50.32,33.21|US|N|Finish collecting feathers and antlers.|RANK|2|
 C Singed Feathers|QID|42446|M|49.68,29.95|US|N|Finish killing Rampaging Squallhunters.|RANK|2|
 T Singed Feathers|QID|42446|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
@@ -246,7 +261,7 @@ A A Stone Cold Gamble|QID|39786|PRE|39787&39793|M|51.32,56.95|N|From Snaggle Six
 $ Small Treasure Chest|QID|38477|M|42.33,61.12|N|If you are careful, you can get without waking the Basilisk. Otherwise kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|RANK|2|
 C A Stone Cold Gamble|QID|39786|M|46.38,60.68|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
 $ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
-$ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater at the base of the waterfall. Loot for a bit of treasure and resources.|RANK|2|
 T A Stone Cold Gamble|QID|39786|M|51.97,64.66;51.32,56.95|CS|N|To Snaggle Sixtrigger.|RANK|2|
 ; Back to business - The Trial of Valor
 R Valdisdall|ACTIVE|39803|M|51.31,54.64;57.87,50.47|CS|N|Off to Valdisdall|FLY|OLD|
@@ -262,10 +277,10 @@ T To Haustvald|QID|39796|M|68.48,54.31|N|To Vydhar.|
 A Turn the Keys|QID|38778|PRE|39796|M|68.48,54.31|N|From Vydhar.|
 A The Runewood's Revenge|QID|39788|PRE|39796|M|68.48,54.31|N|From Vydhar.|
 C Turn the Keys|QID|38778|PRE|39796|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|S|H|N|Click on the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
-C The Runewood's Revenge|QID|39788|M|68.86,52.18|QO|2|N|Kill the Bonespeaker Carver in this area.|
-C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|S|N|The Bonespeaker Runeaxe are around both the remaining runestones.|
-K Urgev the Flayer|QID|38847|M|64.88,51.82|QO|1|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|N|Finish killing Bonespeaker Runeaxe.|
+C The Runewood's Revenge|QID|39788|QO|2|M|68.86,52.18|N|Kill the Bonespeaker Carver in this area.|
+C The Runewood's Revenge|QID|39788|QO|1|M|67.68,58.02|S|N|The Bonespeaker Runeaxe are around both the remaining runestones.|
+K Urgev the Flayer|QID|38847|QO|1|M|64.88,51.82|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+C The Runewood's Revenge|QID|39788|QO|1|M|67.68,58.02|N|Finish killing Bonespeaker Runeaxe.|
 $ Small Treasure Chest|QID|40083|M|67.95,57.76|N|Loot for a bit of resources and treasure.|RANK|2|
 C Turn the Keys|QID|38778|PRE|39796|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|US|H|N|Finish turning the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
 T Turn the Keys|QID|38778|M|68.48,54.31|N|To Vydhar.|
@@ -284,11 +299,11 @@ A Lay Them to Rest|QID|39791|PRE|38808&38810|M|68.48,54.31|N|From Vydhar.|
 C Lay Them to Rest|QID|39791|M|64.71,45.39|S|U|128772|N|Weaken them, below 75% and then use Runewood Branch to return the Restless Ancestors to the earth.|
 C Judgment Day|QID|38811|QO|2|M|64.81,46.56|T|Rythas the Oracle|N|Click on the offering bowl and be ready to fight.|
 $ Small Treasure Chest|QID|43205|M|65.37,43.12|N|Loot for a bit of treasure and resources.|RANK|2|
-C Judgment Day|QID|38811|M|67.56,43.00|QO|1|N|Judged by Heimir of the Black Fist.|T|Heimir of the Black Fist|
+C Judgment Day|QID|38811|QO|1|M|67.56,43.00|T|Heimir of the Black Fist|N|Judged by Heimir of the Black Fist.|
 K The Nameless King|QID|38685|QO|1|M|67.26,39.93|T|The Nameless King|N|Click on his offering shrine to start the vignette.  Kill him and earn treasure and resources.|RANK|2|RARE|
 C Judgment Day|QID|38811|QO|3|M|66.87,45.77|T|Oktel Dragonblood|N|Judged by Oktel Dragonblood|
 $ Small Treasure Chest|QID|43302|M|64.20,41.58;64.29,39.55|CS|N|Loot for a bit of treasure and resources.|RANK|2|
-C Lay Them to Rest|QID|39791|M|64.71,45.39|U|128772|US|N|Finish returning the Restless Ancestors to the earth.|
+C Lay Them to Rest|QID|39791|M|64.71,45.39|US|U|128772|N|Finish returning the Restless Ancestors to the earth.|
 T Judgment Day|QID|38811|M|68.16,48.73|N|To Shieldmaiden Iounn.|
 A Regal Remains|QID|38817|PRE|38811|M|68.16,48.73|N|From Shieldmaiden Iounn.|
 T Lay Them to Rest|QID|39791|M|68.16,48.73|N|To Shieldmaiden Iounn.|
@@ -296,11 +311,14 @@ A Breaking the Bonespeakers|QID|38816|PRE|38811|M|68.16,48.73|N|From Shieldmaide
 C Breaking the Bonespeakers|QID|38816|M|71.58,45.40|S|N|Kill Bonespeaker allies.|
 A The Runes that Bind|QID|38823|M|69.80,45.73|N|From Rune Carved Tablet.|
 C Regal Remains|QID|38817|M|72.97,43.89|S|H|N|Collect Ashildir's Bones.|
-$ Small Treasure Chest|QID|38637|M|69.35,44.97;69.13,44.77|CS|N|Use grapple point to reach chest. Loot for treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|38637|M|69.35,44.97;69.13,44.77|CS|N|Use grapple point to reach chest. Loot for treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|38637|M|69.13,44.77|N|Loot for treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|40086|M|68.97,41.84|N|In the room with the ritual stone. Loot for treasure and resources.|RANK|2|
 C The Runes that Bind|QID|38823|M|69.46,41.96;73.00,44.05;71.42,45.24|CN|H|N|Click on the ritual stones to destroy them.|
-$ Small Treasure Chest|QID|43305|M|72.24,43.75;71.91,44.07;71.93,44.25|CS|N|Use your grappling hook to go up and get this chest. Loot for a bit of treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|43306|M|73.25,42.68;74.12,42.43;74.41,41.84|CS|N|Get this before you complete the next quest or you will have to run a long ways back to get it.  Use Hook to get up to alcove above. Loot for a bit of treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|43305|M|72.24,43.75;71.91,44.07;71.93,44.25|CS|N|Use your grappling hook to go up and get this chest. Loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|43305|M|71.93,44.25|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|43306|M|73.25,42.68;74.12,42.43;74.41,41.84|CS|N|Get this before you complete the next quest or you will have to run a long ways back to get it.  Use Hook to get up to alcove above. Loot for a bit of treasure and resources.|RANK|3|FLY|OLD|
+$ Small Treasure Chest|QID|43306|M|74.41,41.84|N|Get this before you complete the next quest, or you'll have to travel a long ways back to get it. Loot for a bit of treasure and resources.|RANK|3|
 C Breaking the Bonespeakers|QID|38816|M|71.58,45.40|US|N|Finish killing Bonespeaker allies.|
 C Regal Remains|QID|38817|M|72.97,43.89|US|H|N|Finish collecting Ashildir's Bones.|
 T Regal Remains|QID|38817|M|69.89,45.52|N|To Shieldmaiden Iounn.|
@@ -324,13 +342,13 @@ C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|S|N|Kill Kvaldir 
 C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|S|H|N|Collect the Cursed Bones as you go.|
 $ Treasure Chest|QID|38509^38510|M|79.88,24.72|Z|Helheim|N|Loot for treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38503|M|83.3,24.6|Z|Helheim|N|You can find this chest underwater inside a sunken ship. Loot for treasure and resources.|RANK|2|
-K Fenri|QID|38461|M|84.94,50.05|Z|Helheim|QO|1|ITEM|129291|T|Fenri|N|Silver - Loot for a bit of treasure and resorces.|RANK|2|RARE|
+K Fenri|QID|38461|QO|1|M|84.94,50.05|Z|Helheim|ITEM|129291|T|Fenri|N|Silver - Loot for a bit of treasure and resorces.|RANK|2|RARE|
 C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|US|N|Finish collecting the Seaweed.|
 C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|US|H|N|Finish collecting the bones.|
 T A Little Kelp From My Foes|QID|38339|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
 T Accessories of the Cursed|QID|38324|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
 A Stealth by Seaweed|QID|38347|PRE|38339&38324|M|64.58,43.40|Z|Helheim|N|From Colborn the Unworthy.|
-C Stealth by Seaweed|QID|38347|M|47.62,33.47|Z|Helheim|NC|N|Sneak past Guarm|
+C Stealth by Seaweed|QID|38347|M|47.62,33.47|Z|Helheim|NC|N|Sneak past Guarm.|
 T Stealth by Seaweed|QID|38347|M|PLAYER|N|To Ashildir.|
 A A Desperate Bargain|QID|39848|PRE|38347|M|PLAYER|N|From Ashildir.|
 C A Desperate Bargain|QID|39848|M|34.10,27.87|Z|Helheim|H|N|Follow Ashildir up to Helya's throne and click on the alter to speak with Helya.|
@@ -338,8 +356,8 @@ T A Desperate Bargain|QID|39848|M|34.15,28.01|Z|Helheim|N|To Helya's alter.|
 A The Eternal Nemesis|QID|39857|PRE|39848|M|34.15,28.01|Z|Helheim|N|From Helya's alter.|
 T The Eternal Nemesis|QID|39857|M|46.84,49.01|Z|Helheim|N|To Ashildir.|
 A To Light the Way|QID|39849|PRE|39857|M|46.84,49.01|Z|Helheim|N|From Ashildir.|
-K Soulthirster|QID|39870|M|28.27,64.80|Z|Helheim|QO|1|ITEM|129188|T|Soulthirster|N|Silver - Kill for a pet and the usual resources.|RANK|2|RARE|
-U Bleakwater Jelly|QID|39870|M|28.27,64.80|Z|Helheim|U|129188|N|Click to add to your pet collection.|RANK|2|RARE|
+K Soulthirster|QID|39870|QO|1|M|28.27,64.80|Z|Helheim|ITEM|129188|T|Soulthirster|N|Silver - Kill for a pet and the usual resources.|RANK|2|RARE|
+U Bleakwater Jelly|QID|99999|M|28.27,64.80|Z|Helheim|U|129188|N|Click to add to your pet collection.|RANK|2|O|
 $ Treasure Chest|QID|38511^38516|M|19.62,46.98|Z|Helheim|N|Loot for treasure and resources.|RANK|2|
 C To Light the Way|QID|39849|M|21.69,61.68|Z|Helheim|T|Bloodbeard|N|Bloodbeard doesn't appear until after you go up to the top deck, kill him and take his Waylight.|
 T To Light the Way|QID|39849|M|46.80,49.07|Z|Helheim|N|To Ashildir.|
@@ -367,7 +385,7 @@ T A Heavy Burden|QID|40078|M|60.13,50.72|N|To Havi.|
 A Knocking on Valor's Door|QID|40001|PRE|40078|M|60.13,50.72|N|From Havi.|
 ; checked to here
 A The Dark Lady's Bidding|QID|38872|PRE|39855|M|59.97,51.36|N|From Dread-Rider Cullen.|
-C The Dark Lady's Bidding|QID|38872|M|59.97,51.36|QO|1|CHAT|N|Ask Dread-Rider Cullen for a ride to Dreadwake's Landing.|
+C The Dark Lady's Bidding|QID|38872|QO|1|M|59.97,51.36|CHAT|N|Ask Dread-Rider Cullen for a ride to Dreadwake's Landing.|
 f Dreadwake's Landing|ACTIVE|38872|M|54.52,73.00|N|At Dread-Rider Barnes.|
 T The Dark Lady's Bidding|QID|38872|M|55.05,72.52|N|To Nathanos Blightcaller.|
 A Clear the Deck!|QID|38873|M|55.05,72.52|N|From Nathanos Blightcaller.|
@@ -378,13 +396,16 @@ C A Gift for Greymane|QID|39385|QO|1|M|58.28,71.07|H|N|place one on shore side a
 C A Stack of Racks|QID|39792|M|51.97,75.72|S|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
 K Daniel "Boomer" Vorick|QID|39048|QO|1|M|58.42,75.65|ITEM|129144|T|Daniel "Boomer" Vorick|N|Silver - Kill and loot for a bit of treasure and resources and FOR THE HORDE!\n[color=FF0000]NOTE: [/color]Watch out for his knockback and the ledge.|RANK|2|RARE|
 C A Stack of Racks|QID|39792|M|56.77,78.87|US|N|Finish collectomg Meaty Rack of Musken Ribs.|RANK|2|
-K Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|RARE|
-$ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|RANK|3|
-f Hafr Fjall|ACTIVE|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
-$ Small Treasure Chest|QID|43190|M|59.14,87.18;53.21,93.15|CS|N|This is WAY down the trail. Loot for a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|
+K Hannval the Butcher|QID|42591|QO|1|M|51.69,74.50|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|RARE|
+$ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|RANK|3|FLY|OLD|
+$ Small Treasure Chest|QID|38480|M|52.03,80.56|N|Loot for a bit of treasure and resources.|RANK|3|
+f Hafr Fjall|ACTIVE|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N|Continue up this path to find a flightpath at Fluga the Scalekeeper.\n[color=FF0000]NOTE: [/color]This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|FLY|OLD|
+f Hafr Fjall|ACTIVE|39792|M|55.66,87.46|N|At Fluga the Scalekeeper.\n[color=FF0000]NOTE: [/color]This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
+$ Small Treasure Chest|QID|43190|M|59.14,87.18;53.21,93.15|CS|N|This is WAY down the trail. Loot for a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|FLY|OLD|
+$ Small Treasure Chest|QID|43190|M|53.21,93.15|N|Loot for a bit of treasure and resources.|RANK|3|
 F Dreadwake's Landing|ACTIVE|39153|M|55.66,87.46|N|Fly back to Dreadwake's Landing.|RANK|3|FLY|OLD|
 C Dreadwake's Dilemma|QID|39153|M|57.08,73.64|N|Finish killing the Greywatch worgen.|
-C A Gift for Greymane|QID|39385|QO|2|M|55.16,73.55|U|128287|NC|N|Push the big red button!|
+C A Gift for Greymane|QID|39385|QO|2|M|55.16,73.55|NC|U|128287|N|Push the big red button!|
 T Clear the Deck!|QID|38873|M|55.06,72.56|N|To Nathanos Blightcaller.|
 T Dreadwake's Dilemma|QID|39153|M|55.06,72.56|N|To Nathanos Blightcaller.|
 T A Gift for Greymane|QID|39385|M|55.06,72.56|N|To Nathanos Blightcaller.|
@@ -414,8 +435,9 @@ C Becoming the Ascendant|QID|39155|QO|2|M|60.47,69.51|H|N|Receive Blessing at Ey
 C Becoming the Ascendant|QID|39155|QO|1|M|61.33,69.52|H|N|Receive Blessing at Eyir's Helm.|
 C Becoming the Ascendant|QID|39155|QO|4|M|61.34,66.72|H|N|Receive Blessing at Eyir's Spear.|
 C Becoming the Ascendant|QID|39155|QO|5|M|61.72,68.09|CHAT|N|Commune with the statue.|
-$ Treasure Chest|QID|40091|M|62.12,71.26;62.07,72.03;62.19,72.72;62.30,73.39;62.66,73.60|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
-K Inquisitor Ernstenbok|QID|37908|QO|1|M|63.66,74.33|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources. In cave under the tower.|RANK|2|RARE|
+$ Treasure Chest|QID|40091|M|62.12,71.26;62.07,72.03;62.19,72.72;62.30,73.39;62.66,73.60|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Treasure Chest|QID|40091|M|62.66,73.60|N|Loot for a bit of treasure and resources.|RANK|2|
+K Inquisitor Ernstenbok|QID|37908|QO|1|M|63.66,74.33|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver -  In the cave under the tower; kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 T Becoming the Ascendant|QID|39155|M|62.56,68.06|N|To Lady Sylvanas Windrunner.|
 A A New Life for Undeath|QID|38882|PRE|39155|M|62.56,68.06|N|From Lady Sylvanas Windrunner.|
 C A New Life for Undeath|QID|38882|M|63.85,68.07|NC|N|Follow Sylvanas, you will be transported back to Dreadwake Landing.|
@@ -454,9 +476,11 @@ R Valdisdall|AVAILABLE|39984|PRE|40005|M|63.00,48.61|U|6948|N|On to Valdisdall f
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
 C Sten's Log|QID|39984|QO|1|M|60.75,46.12|I|N|Find the first clue.|RANK|2|
 K Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|ITEM|129199|T|Tarben|N|Silver - From the roofbeam, Grapple to the loading dock above and then Kill Tarben for a bit of treasure and resources.|RANK|2|RARE|
-$ Small Treasure Chest|QID|40094|M|60.81,42.74;60.84,42.74|CS|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|
+$ Small Treasure Chest|QID|40094|M|60.81,42.74;60.84,42.74|CS|N|Use grapple to get on roof beam with chest.  Loot for resources and treasure.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|40094|M|60.84,42.74|N|Loot for resources and treasure.|RANK|2|
 $ Small Treasure Chest|QID|40093|M|61.41,44.41|N|Loot for treasure and resources.|RANK|2|
-$ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run/fly/grapple up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
+$ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Run/fly/grapple up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|40082|M|58.04,47.51|N|Fly up to the top of the tower to find a chest. Loot for a bit of treasure and resources.|RANK|2|
 C Sigrid's Journal|QID|39984|QO|2|M|58.33,47.03|I|N|The second clue is back on the tideflats (ground level) on the crates here.|RANK|2|
 C Kjell's Requisition|QID|39984|M|59.77,45.05|QO|3|I|N|Find the third clue attached to the door.|RANK|2|
 C Halvir's Roster|QID|39984|M|60.43,42.95|QO|4|I|N|Fourth Clue is on this rotting longboat.|RANK|2|
@@ -485,57 +509,63 @@ R Talonrest|ACTIVE|39792|M|53.30,48.30;51.37,57.15|CS|U|6948|N|Headed back to se
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|PRE|39786&39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|OLD|
-K Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-$ Small Treasure Chest|QID|43194|M|73.10,45.72|N|Loot for a bit of treasure and resources.|RANK|2|
+K Kottr Vondyr|QID|40109|QO|1|M|73.46,47.68|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+$ Small Treasure Chest|QID|43194|M|73.13,45.68|N|Loot for a bit of treasure and resources.|RANK|2|
 R Dreygrot|ACTIVE|42483|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Dreygrot.|RANK|2|FLY|OLD|
-A The Mystery of Dreyrgrot|QID|42635|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
-A A Stone of Blood|QID|42639|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
-C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|Use the hook point to get onto the nearest ship.  There are two 'Ancient Dreyrgrot Tablets' here, move on to the other two ships that have one each.|RANK|2|
-$ Small Treasure Chest|QID|42632|M|75.37,52.11|N|Hook from the ship to piller.  Chest on top of piller. Loot for a bit of treasure and resources.|RANK|2|
-A The Value of Knowledge|QID|42640|M|75.52,50.78|N|From a crate of Ancient Relics floating in the bay.|RANK|2|
-C The Value of Knowledge|QID|42640|M|75.52,50.78|NC|N|Collect the ancient relics while you travel to the next ship.|RANK|2|
-C A Stone of Blood|QID|42639|M|76.21,49.38|QO|1|T|Captain Broketooth|N|Kill Captain Broketooth and take his Ruby Amulet|RANK|2|
-$ Treasure Chest|QID|42629|M|75.17,49.49|N|Hook to the next ship and then up to the crows nest to find a chest. Loot for treasure and resources.|RANK|2|
-C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|One Dreyrgrot Tablet on each of the last two ships.|RANK|2|
+A The Mystery of Dreyrgrot|QID|42635|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
+A A Stone of Blood|QID|42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
+$ Small Treasure Chest|QID|42632|M|74.46,52.75;73.97,52.17;73.96,52.24|CS|N|Use the Grapple Points to reach the chest atop the second rock piller. Loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Small Treasure Chest|QID|42632|M|73.96,52.24|N|Loot for a bit of treasure and resources.|RANK|2|
+C The Mystery of Dreyrgrot|QID|42635|QO|1|M|75.28,52.11;75.88,51.91;76.13,49.70;75.44,48.92|CN|H|N|Use the Grapple Point (or the Hanging Rope) to get onto the nearest ship.\n[color=FF0000]NOTE: [/color]There are two 'Ancient Dreyrgrot Tablets' here. The other two ships have one each. Use the Grappling Points to travel to the other ships.|RANK|2|FLY|OLD|
+C The Mystery of Dreyrgrot|QID|42635|QO|1|M|75.28,52.11;75.88,51.91;76.13,49.70;75.44,48.92|CN|H|N|There are two 'Ancient Dreyrgrot Tablets' aboardthe ship closetest to shore.\n[color=FF0000]NOTE: [/color]The other two ships have one each.|RANK|2|
+$ Treasure Chest|QID|42629|M|75.18,49.52;75.37,52.11|CS|N|Use the Grapple Point to reach the chest in the crow's nest. Loot for a bit of treasure and resources.|RANK|2|FLY|OLD|
+$ Treasure Chest|QID|42629|M|75.37,52.11|N|The chest is up in the ship's crow's nest. Loot for a bit of treasure and resources.|RANK|2|
+A The Value of Knowledge|QID|42640|M|75.52,50.78|N|From a Crate of Ancient Relics floating in the bay.|RANK|2|
+C A Stone of Blood|QID|42639|QO|1|M|76.21,49.38|T|Captain Broketooth|N|Kill Captain Broketooth and take his Ruby Amulet|RANK|2|
+C The Value of Knowledge|QID|42640|M|75.52,50.78|NC|N|Collect the Crate of Ancient Relics from the water.|RANK|2|
 T The Value of Knowledge|QID|42640|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 T The Mystery of Dreyrgrot|QID|42635|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 T A Stone of Blood|QID|42639|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 A What the Bonespeakers Buried|QID|42641|PRE|42635&42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
 A Spilling Bad Blood|QID|42645|PRE|42635&42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
-C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Kill Blood-Crazed Swashbuckler as you go.|RANK|2|
-$ Small Treasure Chest|QID|42632|M|73.9,52.2|N|Loot for a bit of treasure and resources.|RANK|2|
-C What the Bonespeakers Buried|QID|42641|M|72.31,51.59|N|You have to click on him to start the fight. Kill Blood-Thane Lucard.|RANK|2|
-C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Finish up the Blood-Crazed Swashbucklers.|RANK|2|
+C Spilling Bad Blood|QID|42645|M|72.53,54.81|S|N|Kill Blood-Crazed Swashbuckler as you go.|RANK|2|
+C What the Bonespeakers Buried|QID|42641|M|72.82,52.15;72.13,51.34|CS|H|N|Use the Grapple Point to get across and kill Blood-Thane Lucard.\n[color=FF0000]NOTE: [/color]You have to click on him to start the fight.|RANK|2|FLY|OLD|
+C What the Bonespeakers Buried|QID|42641|M|72.82,52.15;72.13,51.34|CS|H|N|Kill Blood-Thane Lucard.\n[color=FF0000]NOTE: [/color]You have to click on him to start the fight.|RANK|2|
+$ Small Treasure Chest|QID|42628|M|73.9,52.2|N|Loot for a bit of treasure and resources.|RANK|2|
+C Spilling Bad Blood|QID|42645|M|72.98,55.60|US|N|Finish up the Blood-Crazed Swashbucklers.|RANK|2|
 T What the Bonespeakers Buried|QID|42641|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 T Spilling Bad Blood|QID|42645|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45|CT|
 A A Murky Fate|QID|40120|M|78.24,58.67|N|From Morheim Ancestor.|RANK|2|
 C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|S|N|Kill Murlocks, burn the housed, break the spears, etc to advance the objective.|RANK|2|
-C A Murky Fate|QID|40120|M|79.61,59.90|QO|1|U|129725|S|N|Use the provided torch to burn the decaying corpses.|RANK|2|
-K Grrvrgull the Conquerer|QID|40113|M|78.65,61.17|QO|1|ITEM|138421|T|Grrvrgull the Conquerer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
+C A Murky Fate|QID|40120|QO|1|M|79.61,59.90|S|U|129725|N|Use the provided torch to burn the decaying corpses.|RANK|2|
+K Grrvrgull the Conquerer|QID|40113|QO|1|M|78.65,61.17|ITEM|138421|T|Grrvrgull the Conquerer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Treasure Chest|QID|40099|M|80.58,67.04;81.86,67.49|CS|N|Loot for a bit of treasure and resources.|RANK|3|
-C A Murky Fate|QID|40120|M|79.61,59.90|QO|1|U|129725|US|N|Finish up burning the decaying corpses.|RANK|2|
+C A Murky Fate|QID|40120|QO|1|M|79.61,59.90|US|U|129725|N|Finish up burning the decaying corpses.|RANK|2|
 C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|US|N|Stay and finish this up or click off manually and move on.|RANK|2|
 t Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|81.12,61.30|N|Auto turned in upon completion.|RANK|2|
 T A Murky Fate|QID|40120|M|78.24,58.64|N|To Morheim Ancestor.|RANK|2|
 $ Small Treasure Chest|QID|43191|M|82.40,54.51|N|Loot for a bit of treasure and resources.|RANK|2|
-T Baron and the Huntsman|QID|42397|M|80.62,63.14;80.13,66.22|CS|C|HUNTER|N|To Huntsman Blake. This quest comes from Trueshot Lodge, it maybe a leadin and as such unrequired and you can go to Awakening the Senses without it.|
-A Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|
-C Awakening the Senses|QID|42398|M|80.80,65.63|C|HUNTER|N|Loot the small piles of bones scattered around. Rarely, looting one will cause a skeleton to spawn which will also drop a bone or two.|
-T Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|To Huntsman Blake.|
-A Champion: Huntsman Blake|QID|42412|M|80.13,66.22|C|HUNTER|N|From/To Huntsman Blake.|PRE|42398|
-A Ready to Work|QID|42399|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|
+T Baron and the Huntsman|QID|42397|M|80.62,63.14;80.13,66.22|CS|N|To Huntsman Blake. This quest comes from Trueshot Lodge, it maybe a leadin and as such unrequired and you can go to Awakening the Senses without it.|C|HUNTER|
+A Awakening the Senses|QID|42398|PRE|42397|M|80.13,66.22|N|From Huntsman Blake.|C|HUNTER|
+C Awakening the Senses|QID|42398|M|80.80,65.63|N|Loot the small piles of bones scattered around. Rarely, looting one will cause a skeleton to spawn which will also drop a bone or two.|C|HUNTER|
+T Awakening the Senses|QID|42398|M|80.13,66.22|N|To Huntsman Blake.|C|HUNTER|
+A Champion: Huntsman Blake|QID|42412|PRE|42398|M|80.13,66.22|N|From/To Huntsman Blake.|C|HUNTER|
+A Ready to Work|QID|42399|PRE|42397|M|80.13,66.22|N|From Huntsman Blake.|C|HUNTER|
 C Put It All on Red|QID|42483|M|81.58,52.56|T|Steelscale|N|This is difficult to solo for most classes. You may want to bring a friend. Kill Steelscale and loot his fin.|RANK|2|
 R Bronzeleaf Thicket|ACTIVE|42483|M|79.51,62.85;77.31,63.72|CS|N|Three more treasure chests up here.|RANK|3|FLY|OLD|
-$ Small Treasure Chest|QID|43307|M|76.05,65.05;76.91,66.17;77.25,67.18;77.31,68.16;77.12,69.29;78.57,70.33;78.43,71.38|CS|N|Very time comsuming to get to. About 5 hook points and a couple of jump downs.  Loot for a bit of treasure and resources. (or decide you dont want to.)|RANK|3|
-$ Small Treasure Chest|QID|43304|M|75.49,60.10;75.62,60.63|CS|N|Look up from first coord. Use Hook Point. Loot for treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|43307|M|76.05,65.05;76.91,66.17;77.25,67.18;77.31,68.16;77.28,68.06;77.12,69.29;78.57,70.33;78.43,71.38|CS|N|Very time comsuming to get to. About 5 Grapple Points and a couple of drop downs (stick close to the wall to reduce the height). Loot for a bit of treasure and resources.\n[color=FF0000]NOTE: [/color]There's only one way down and that's a swan dive into the water below.\nManually check this step off if you decide you don't want to.|RANK|3|FLY|OLD|
+$ Small Treasure Chest|QID|43304|M|75.49,60.10;75.68,60.63|CS|N|Look up from first coord. Use Hook Point. Loot for treasure and resources.|RANK|3|FLY|OLD|
+$ Small Treasure Chest|QID|43237|M|73.98,58.59|N|Loot for treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|43307|M|78.43,71.38|N|Loot for treasure and resources.|RANK|3|
+$ Small Treasure Chest|QID|43304|M|75.68,60.63|N|Loot for treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|43237|M|73.98,58.59|N|Loot for treasure and resources.|RANK|3|
 R Talonrest|ACTIVE|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|FLY|OLD|
-T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards. There is a followup in Dalaran to take care of these goblins at level 50.|RANK|2|
-U Dalaran|AVAILABLE|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|PRE|42483|
+T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note.\n[color=FFFF00]OPTIONAL[/color]\nUse your reward (magnifying glass) to determine the true value of the other quest rewards.\n[color=FF0000]NOTE: [/color]There is a follow-up in Dalaran to take care of these goblins at level 50.|RANK|2|
+R Dalaran|AVAILABLE|43331|PRE|42483|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|
 C Halls of Valor: Securing the Aegis|QID|40072|N|If you havent yet done Halls of Valor, its a great time to queue for it and get your ilvl 800 legs (static ilvl even if you are lvl 100). Defeat Odyn (final boss in instance).|
 T Halls of Valor: Securing the Aegis|QID|40072|N|To the Aegis of Aggramar.|
-A The Aegis of Aggramar|QID|43349|N|From the Aegis of Aggramar.|PRE|40072|
+A The Aegis of Aggramar|QID|43349|PRE|40072|N|From the Aegis of Aggramar.|
 C The Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used.|
 T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Aegis of Aggramar" on the wall.|
 
@@ -544,9 +574,11 @@ N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide H
 A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran!Dalaran!Dungeon|N|From Gazrix Gearlock beside the north bank.|RANK|3|
 F Valdisdall|ACTIVE|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|FLY|OLD|
 R Loch Varmad|ACTIVE|43331|M|60.52,52.14;67.08,38.84;68.07,31.11|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|FLY|OLD|
-C Time to Collect|QID|43331|M|69.97,21.96;69,27.5|CS|N|Look straight up from first coordinate, Use Grappling Hook to get onto Island, continuing grappling upward until you are to the top. Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|
-$ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|RANK|3|;doesnt actually require 50, but this is way too remote to come out if you arent doing the sixtriggers quest.
+C Time to Collect|QID|43331|M|69.97,21.96;69.25,27.92|CS|N|Look straight up from first coordinate, Use Grappling Hook to get onto Island, continuing grappling upward until you are to the top. Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|FLY|OLD|
+C Time to Collect|QID|43331|M|69.25,27.92|N|Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|
+$ Treasure Chest|QID|40108|M|68.46,29.60|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|RANK|3|;doesnt actually require 50, but this is way too remote to come out if you arent doing the sixtriggers quest.
 T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|RANK|3|
+
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
 
 ; Quests that Emma said should be at end of all Legion Guides, 11/11/2020
