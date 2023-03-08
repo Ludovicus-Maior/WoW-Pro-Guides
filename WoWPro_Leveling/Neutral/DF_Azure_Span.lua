@@ -304,7 +304,7 @@ T An Expert Opinion|QID|70697|M|13.88,49.85|Z|2024|N|To Patchu.|
 A What Lubbins Needs|QID|70722|PRE|70697|M|13.88,49.85|Z|2024|N|From Patchu.|RANK|2|
 C What Lubbins Needs|QID|70722|M|13.88,49.85|Z|2024|CHAT|N|Tell Patchu you understand.|
 T What Lubbins Needs|QID|70722|M|13.88,49.85|Z|2024|N|To Patchu.|
-A A Practice Bout|QID|70732|PRE|70722|M|13.88,49.85|Z|2024|N|From Patchu.|
+;A A Practice Bout|QID|70732|PRE|70722|M|13.88,49.85|Z|2024|N|From Patchu.|RANK|3|
 A Fishing: Aileron Seamoth|QID|66212|PRE|65849|M|14.08,49.44|Z|2024|N|From Lukoturukk.|RANK|2|
 C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024|NC|N|Click on Rokkutuk to discover he supplies recipes.|
 C Fishing: Aileron Seamoth|QID|66212|M|13.91,50.08|Z|2024|NC|N|Take a break and fish. (or manually close this).|
@@ -396,8 +396,8 @@ T Drakes be Gone|QID|67299|M|65.81,25.31|Z|2024|N|To Drok Scrollstabber.|
 K Yetor|ACTIVE|66968|M|70.53,26.46|Z|2024|QO|1|N|Yetor can be found in a small cave with Yetis outside.|
 T To the Mountain|QID|65887|M|70.02,35.24|Z|2024|N|To Kalecgos.\n[color=FF0000]NOTE: [/color]He'll appear when you reach Vakthros Range.|
 A Primal Offensive|QID|65943|PRE|65887|M|70.02,35.24|Z|2024|N|From Kalecgos.|
-A Lava Burst|QID|65944|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.\n[color=FF0000]NOTE: [/color]He'll appear after you accept Primal Offensive.|
-A Elemental Unfocus|QID|66647|ACTIVE|65943|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
+A Lava Burst|QID|65944|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.\n[color=FF0000]NOTE: [/color]He'll appear after you accept Primal Offensive.|
+A Elemental Unfocus|QID|66647|PRE|65887|M|70.02,35.32|Z|2024|N|From Khadgar.|
 ;A Summoned Destroyer|QID|69895|PRE|67299|M|69.79,32.78|Z|2024|N|[Color=7eff8a]Bonus Objective [/color] - Autoaccepted.|IZ|13853|
 K Summoned Destroyer|ACTIVE|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Kill it or not as you choose.|RARE|
 ;t Summoned Destroyer|QID|69895|M|69.79,32.78|Z|2024|N|Bonus Objective - Autocompleted.|
@@ -652,7 +652,7 @@ $ Rhonin's Shield Glyph|QID|99999|N|Inside the very top of the tower, you probab
 F Iskaara|ACTIVE|71014|M|65.38,16.35|Z|2024|N|At Taelmyr Blazewing.|RANK|3|
 T Grimtusk's Sister|QID|71016|M|12.47,49.23|Z|2024|N|To Naluki, in the below groundlevel inn.|
 A Naluki's Letter|QID|71017|PRE|71016|M|12.47,49.23|Z|2024|N|From Naluki.|
-A Stolen Tuskarr Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|IZ|13837|;This is a item turn in quest.
+A Stolen Tuskarr Totems|QID|70936|PRE|65849|M|12.41,49.34|Z|2024|N|At Elder Poa. This is a repeatable quest for faction|IZ|13837|U||O|;This is a item turn in quest.
 A Tuskarr Champion's Tales|QID|70940|M|12.41,49.34|Z|2024|N|At Elder Poa.|DFREN|Iskaara;2511;5|
 T Tuskarr Champion's Tales|QID|70940|M|12.41,49.34|Z|2024|N|At Elder Poa.|
 T Story of a Memorable Victory|QID|72291|M|12.41,49.34|Z|2024|N|At Elder Poa.|IZ|13837|;from randomly dropped item of same name-201470
