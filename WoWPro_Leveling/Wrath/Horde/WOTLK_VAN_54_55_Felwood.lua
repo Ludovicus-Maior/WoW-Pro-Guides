@@ -15,7 +15,7 @@ f Emerald Sanctuary|AVAILABLE|5156|M|51.53,82.21|Z|Felwood|N|At Gorrim.|
 A Verifying the Corruption|QID|5156|M|50.89,81.62|Z|Felwood|N|From Taronn Redfeather.|
 A Forces of Jaedenar|QID|5155|M|51.14,82.16|Z|Felwood|N|From Greta Mosshoof.|
 A Cleansing Felwood|QID|4102|M|46.75,83.04|Z|Felwood|N|From Maybess Riverbreeze.|
-C Corrupted Felwood Sample|QID|4293|L|12230 30|ITEM|12230|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them. The drop rate is almost 100%.|S|
+C Corrupted Felwood Sample|QID|4293|L|12230 15|ITEM|12230|N|Any type of Ooze\nKill the Oozes as you make your way around Un'Goro.\n[color=FF0000]NOTE: [/color]It's recommended you gather 15 of them. The drop rate is almost 100%.|S|
 R Bloodvenom Post|AVAILABLE|4505|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|
 f Bloodvenom Post|AVAILABLE|4505|M|34.44,53.97|Z|Felwood|N|At Brakkar.|
 A Well of Corruption|QID|4505|M|34.20,52.34|Z|Felwood|N|From Winna Hazzard.|
