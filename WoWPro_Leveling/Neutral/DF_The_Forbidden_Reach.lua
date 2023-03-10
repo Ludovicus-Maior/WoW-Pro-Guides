@@ -12,7 +12,7 @@ t Journal Entry: Silence|QID|73115|M|35.49,58.80|Z|2151;The Forbidden Reach|N|To
 
 
 
-P Valdrakken|AVAILABLE|74381|M|61.03,26.33|Z|2112;Valdrakken|N|This guide starts in Valdrakken. Make your way there by any means possible. 
+P Valdrakken|AVAILABLE|74381|M|61.03,26.33|Z|2112;Valdrakken|N|This guide starts in Valdrakken. Make your way there by any means possible.
 A Hidden Legacies|QID|74381|M|61.03,26.33|Z|2112;Valdrakken|N|From UI Alert.|
 P The Seat of the Aspects|ACTIVE|74381|M|61.95,32.16|Z|2112;Valdrakken|N|Take the portal to The Seat of the Aspects.|
 C Hidden Legacies|QID|74381|M|61.03,26.33|Z|2112;Valdrakken|CHAT|N|Talk to Kurazidaia.|
