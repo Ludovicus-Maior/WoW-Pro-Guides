@@ -25,13 +25,13 @@ C Whiskers .vs. Crow|QID|31958|STRATEGY|Elfuego/Aki|N|1) [ability=256/call-darkn
 T Grand Master Aki|QID|31958|M|31.2,74.2|Z|Vale of Eternal Blossoms|N|To Aki the Chosen|
 
 N Grand Master Mo'ruk|AVAILABLE|31954|PET1|Emerald Proto-Whelp;68850;2+2+2|PET2|Anubisath Idol;68659;1+1+1|PET3|Leveling;;;|STRATEGY|BroBeforeFoe@wowhead.com|
-A Grand Master Mo'ruk|QID|31954|M|65.11,42.73|Z|Krasarang Wilds|N|From Mo'ruk|
+A Grand Master Mo'ruk|QID|31954|M|62.23,45.91|Z|Krasarang Wilds|N|From Mo'ruk|
 C Woodcarver|QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|1) [ability=525/emerald-bite]\n2) Repeat until Woodcarver dies:\n  A) [ability=597/emerald-presence]\n  B) [ability=598/emerald-dream]\n  C) [ability=525/emerald-bite]\n  D) [ability=525/emerald-bite]\n|SELECT|1|DEAD|2,1|
 C Lightstalker|QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|1) Repeat this rotation:\nA) [ability=597/emerald-presence] on refresh\nB) [ability=525/emerald-bite] until Lightstalker dies.|SELECT|1|DEAD|2,2|
 C Needleback .vs. Whelp|QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|1) [ability=525/emerald-bite] until your Emerald Proto-Whelp dies.\n2) Switch to Level Pet|SELECT|1|DEAD|1,1|SWITCH|3|
 C Leveling |QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|1) Switch to Anubisath Idol|SELECT|3|SWITCH|2|
 C Needleback .vs. Idol|QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|From here on, cast:\n1) [ability=490/deflection] when Needleback has Headbutt off cooldown,\n2) [ability=453/sandstorm] when off cooldown,\n3) [ability=406/crush] as a filler.|SELECT|2|DEAD|2,3|
-T Grand Master Mo'ruk|QID|31954|M|65.11,42.73|Z|Krasarang Wilds|N|To Mo'ruk|
+T Grand Master Mo'ruk|QID|31954|M|65.23,45.91|Z|Krasarang Wilds|N|To Mo'ruk|
 
 N Grand Master Nishi|AVAILABLE|31955|PET1|Leveling;;;H>200E|PET2|Eternal Strider;61088;1+2+2;P>270|PET3|Darkmoon Tonk;55356;1+1+2|STRATEGY|sirinad@wowhead.com/Nishi|
 A Grand Master Nishi|QID|31955|M|46.0,43.6|Z|Valley of the Four Winds|N|From Farmer Nishi|
@@ -44,14 +44,14 @@ T Grand Master Nishi|QID|31955|M|46.0,43.6|Z|Valley of the Four Winds|N|To Farme
 
 N Flowing Pandaren Spirit|AVAILABLE|32439|PET1|Gilnean Raven;63098;2+2+1|PET2|Anubisath Idol;68659;1+1+1|PET3|Leveling;;;H>800A|STRATEGY|Elfuego/Flowing|
 N Flowing Pandaren Spirit|AVAILABLE|32439|PET1|Crow;67443;2+2+2|PET2|Anubisath Idol;68659;1+1+1|PET3|Leveling;;;H>800A|STRATEGY|Elfuego/Flowing|
-A Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|From Flowing Pandaren Spirit|
+A Flowing Pandaren Spirit|QID|32439|M|61.13,87.50|Z|Dread Wastes|N|From Flowing Pandaren Spirit|
 C Marley|QID|32439|STRATEGY|Elfuego/Flowing|N|1) [ability=256/call-darkness].\n2) [ability=517/nocturnal-strike]\n3) [ability=504/alpha-strike] spam until the fish is dead, re-upping the [ability=256/call-darkness] and [ability=517/nocturnal-strike] when you can.|SELECT|1|DEAD|2,1|
 C Tiptoe|QID|32439|STRATEGY|Elfuego/Flowing|N|1) Tiptoe will usually start with AOE waves, so use the raven as far as you can into the fight.\n2) When it goes down, switch into Anubisath.\n|SELECT|1|DEAD|1,1|SWITCH|2|
 C Tiptoe|QID|32439|STRATEGY|Elfuego/Flowing|N|1) Start with [ability=453/sandstorm].\n2) From here, just re-up [ability=453/sandstorm] and [ability=406/crush] spam until he’s dead.|SELECT|2|DEAD|2,2|
 C Anubisath => Leveling|QID|32439|STRATEGY|Elfuego/Flowing|N|Flip to your Level Pet.|SWITCH|3|
 C Leveling => Anubisath|QID|32439|STRATEGY|Elfuego/Flowing|N|Flip back into Anubisath after she sets [ability=513/whirlpool].|SWITCH|2|
 C Spirit|QID|32439|STRATEGY|Elfuego/Flowing|N|1) [ability=490/deflection] when you have 1 round left before [ability=418/geyser] resolves.\n2) She will re-up her [ability=513/whirlpool] and [ability=418/geyser] and spam [ability=419/tidal-wave].\nFrom here on out it's [ability=406/crush] spam and [ability=453/sandstorm] on CD.|SELECT|2|DEAD|2,3|
-T Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|To Flowing Pandaren Spirit|
+T Flowing Pandaren Spirit|QID|32439|M|61.13,87.50|Z|Dread Wastes|N|To Flowing Pandaren Spirit|
 
 N Grand Master Shu|AVAILABLE|31957|PET1|Leveling;;;H>800M|PET2|Szechuan Chicken;63585;1+1+2|PET3|Red Cricket;63370;1+2+1|STRATEGY|Ludovicus/Shu|RANK|3|
 A Grand Master Shu|QID|31957|M|55.10,37.56|Z|Dread Wastes|N|From Wastewalker Shu|RANK|3|STRATEGY|Ludovicus/Shu|
