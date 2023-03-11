@@ -60,9 +60,10 @@ A What Niby Commands|QID|7601|M|41.55,45.00|Z|Felwood|N|From Niby the Almighty. 
 T What Niby Commands|QID|7601|M|41.55,45.00|Z|Felwood|N|To Impsy.|C|Warlock|
 A Flawless Fel Essence|QID|7602|PRE|7601|M|41.55,45.00|Z|Felwood|N|From Impsy.|C|Warlock|
 t An Imp's Request|QID|8419|M|41.55,45.00|Z|Felwood|N|To Impsy.|IZ|Shatter Scar Vale|C|Warlock|
-A Hot and Itchy|QID|8420|ACTIVE|-8419|AVAILABLE|8419|M|41.55,45.00|Z|Felwood|N|From Impsy.|C|Warlock|
+A Hot and Itchy|QID|8420|AVAILABLE|8419|M|41.55,45.00|Z|Felwood|N|From Impsy.|C|Warlock|
 t Hot and Itchy|QID|8420|M|41.55,45.00|Z|Felwood|N|To Impsy.|IZ|Shatter Scar Vale|C|Warlock|
 A The Wrong Stuff|QID|8421|PRE|8419^8420|M|41.55,45.00|Z|Felwood|N|From Impsy.|C|Warlock|
+C Bloodvenom Essence|QID|8421|QO|2|M|49.70,19.61|Z|Felwood|L|20614 4|ITEM|20614|N|Tainted Ooze in and around the lake near Niby and Impsy.|C|Warlock|
 K Verifying the Corruption|ACTIVE|5156|QO|1;2|M|42.42,40.57|Z|Felwood|N|Kill the required Entropic mobs.|S|
 R Explore the craters|ACTIVE|5156|QO|3|M|41.29,43.42|Z|Felwood|N|Any crater will do.|
 K Verifying the Corruption|ACTIVE|5156|QO|1;2|M|42.42,40.57|Z|Felwood|N|Kill the required Entropic mobs.|US|
