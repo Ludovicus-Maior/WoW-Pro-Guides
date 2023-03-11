@@ -874,13 +874,13 @@ _G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
 function WoWPro.TrashItem(use, step)
     use = tonumber(use) -- needs to be a number
     for bag=_G.BACKPACK_CONTAINER, _G.NUM_BAG_SLOTS do
-        local slots = _G.GetContainerNumSlots(bag)
+        local slots = _G.C_Container.GetContainerNumSlots(bag)
         for slot=1,slots do
-            local id=_G.GetContainerItemID(bag,slot)
+            local id=_G.C_Container.GetContainerItemID(bag,slot)
             if id == use then
                 local itemName = _G.GetItemInfo(id)
                 _G.ClearCursor()
-                _G.PickupContainerItem(bag,slot)
+                _G.C_Container.PickupContainerItem(bag,slot)
                 local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
                 dialog.data = step
                 dialog.data2 = itemName
