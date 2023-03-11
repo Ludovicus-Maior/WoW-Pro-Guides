@@ -3314,7 +3314,7 @@ function WoWPro.PopulateQuestLog()
 
     -- numEntries may vary depending on collapsed headers, so we need to itereate th whole list.
     local numLoggedQuests, questLogIndex = 0, 0
-    while tCompleteSteprue do
+    while true do
         questLogIndex = questLogIndex + 1
         local questInfo = WoWPro.QuestLog_GetInfo(questLogIndex)
         if not questInfo then break end
