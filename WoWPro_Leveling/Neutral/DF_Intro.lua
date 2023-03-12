@@ -44,7 +44,7 @@ C Archmage Khadgar|QID|65439|M|55.93,12.63|Z|1; Durotar|CHAT|N|Speak with Archma
 T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
 T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1; Durotar|N|To Ebyssian.|FACTION|Horde|
 ;A The Call of the Isles|QID|70197^70198|M|PLAYER|N|Autoaccepted - UI Pushed.|
-t The Call of the Isles|QID|70197|M|22.71,55.66|N|To Toddy Whiskers.|FACTION|Alliance|
+t The Call of the Isles|QID|70197|M|22.71,55.66|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 t The Call of the Isles|QID|70198|M|55.81,12.67|Z|1; Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
 A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
 A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1; Durotar|N|From Naleidea Rivergleam.|FACTION|Horde|

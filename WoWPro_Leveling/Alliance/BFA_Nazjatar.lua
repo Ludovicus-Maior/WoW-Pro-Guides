@@ -6,7 +6,6 @@ WoWPro:GuideNickname(guide, "Nazjatar")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 ;quest chain when you first get rank 3 with follower
 t A Brief Respite|QID|54975|M|40.32,55.26|N|To Lady Jaina Proudmoore.|
 A Insight into Our Enemies|QID|55593|M|40.32,55.26|N|From Lady Jaina Proudmoore.|PRE|54975|
@@ -325,7 +324,7 @@ C The Fate of Professor Elryna|QID|56143|M|68.24,50.65|QO|1|N|Kill the Snapdrago
 C The Fate of Professor Elryna|QID|56143|M|68.24,50.65|QO|2|NC|N|Pick up the Memory Core from the chest.|
 C The Fate of Professor Elryna|QID|56143|M|66.48,47.27|QO|3|NC|N|Witness the fate of Professor Elryna.  Use the memory pylon next to Kojo.|
 T The Fate of Professor Elryna|QID|56143|M|66.46,47.40|N|To Collector Kojo.|
-f Elun'alor Temple|ACTIVE|56241|M|74.08,40.03|N|From Orise. The area is actually named Orise's Vigil.|
+f Orise's Vigil|ACTIVE|56241|M|74.08,40.03|N|From Orise. The area is actually named Orise's Vigil.|
 A Relics of the Sundering|QID|55659|M|78.84,42.44|N|From Shirelle McFadden.|O|PRE|57040|;follower quest
 C Relics of the Sundering|QID|55659|M|78.84,42.44|NC|N|Pick up the relics in the area.|
 T Relics of the Sundering|QID|55659|M|78.82,42.43|N|To Shirelle McFadden.|
@@ -357,7 +356,7 @@ T Enchanted Lock|QID|56246|M|78.90,41.24|N|To Enchanted Lock.|
 A Treasure Tale|QID|56247|M|78.90,41.24|N|From Enchanted Lock.|PRE|56246|
 F Mezzamere|ACTIVE|56247|M|78.90,41.24|N|Fly back to Mezzamere.| ; LUDO Are the coords right?
 T Treasure Tale|QID|56247|M|37.86,55.69|N|To Artisan Itanu.|
-F Elun'alor Temple|QID|57086|M|39.93,54.12|N|At Ray Tamer Enaka.|
+F Orise's Vigil|QID|57086|M|39.93,54.12|N|At Ray Tamer Enaka.|
 C A Steamy Situation|QID|56036|M|42.54,47.80|N|Kill and loot glimmershell crabs, their shells are needed to plug the Steam Fissures.|
 A Void Cache|QID|55714|M|56.3,15.1|N|From Void Cache.|O|
 C Void Cache|QID|55714|M|56.3,15.1|N|key dropped by nearby Shirakess Naga (behaps only voidreavers?).|
@@ -415,7 +414,7 @@ C Saving Corin|QID|56321|M|80.73,32.09|T|Shadowcaster Vixtris|N|Kill Shadowcaste
 T Saving Corin|QID|56321|M|80.22,31.88|N|To Kelya Moonfall.|
 A On Ghostly Wings|QID|56422|M|80.22,31.88|N|From Kelya Moonfall.|PRE|56321|
 T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall. Your Flightmaster's whistle is now active!|
-f Zin-Azshari|QID|57006|M|74.16,25.02|N|At Kelya Moonfall.|
+f Kelya's Grave|QID|57006|M|74.16,25.02|N|At Kelya Moonfall.|
 A A Life's Work|QID|55636|M|78.44,28.64|N|From an empty bookcase.|O|
 C A Life's Work|QID|55636|M|79.67,30.14|S!US|N|Kill Vengeful Highborne to get the scrolls.|
 C A Life's Work|QID|55636|M|78.18,27.96;76.43,29.75;78.36,26.92;76.25,27.89;77.74,26.44;77.24,29.69|CS|NC|US|N|Pick up the tomes from the ground.|

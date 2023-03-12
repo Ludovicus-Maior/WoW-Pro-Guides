@@ -101,8 +101,8 @@ A The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|From Aysa Cloudsinge
 C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|S|
 C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water.\n\nWhen you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
 C The Lesson of Dry Fur|QID|29661|M|61.44,47.77|N|Head west under the bridge. There are several poles in the water than you can jump onto from the bridge. Jump onto one and continue jumping onto other poles until you reach the bell. You will automatically jump onto the rock when you get close enough.\n[color=FF0000]NOTE: [/color]Use the 'Exit Vehicle' button to jump off of the pole at any time.|NC|
-C The Lesson of the Balanced Rock|QID|29663|N|Defeat the Tushui Monks|US|
-C Stronger Than Reeds|QID|29662|N|Collect the Tearwood Reeds from the water. Easiest way into the water is to walk off the bell rock. Otherwise, you have to use an exit pole to get down.\n\nWhen you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back and disengage any attacking cranes.|NC|US|
+C The Lesson of the Balanced Rock|QID|29663|M|61.44,47.77|N|Defeat the Tushui Monks|US|
+C Stronger Than Reeds|QID|29662|M|61.44,47.77|N|Collect the Tearwood Reeds from the water. Easiest way into the water is to walk off the bell rock. Otherwise, you have to use an exit pole to get down.\n\nWhen you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back and disengage any attacking cranes.|NC|US|
 T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|
 T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|
 T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|To Aysa Cloudsinger|
@@ -127,18 +127,18 @@ R Delivery Cart|ACTIVE|29680|M|79.19,45.31|N|Jump into the Delivery Cart to be t
 T The Source of Our Livelihood|QID|29680|M|68.89,65.00|N|To Ji Firepaw at Dai-Lo Farmstead.|
 A Rascals|QID|29769|M|68.89,65.00|N|From Ji Firepaw.|PRE|29680|
 A Still Good!|QID|29770|M|68.13,66.40|N|From Gao Summerdraft.|PRE|29680|
-K Rascals|ACTIVE|29769|M|72.62,74.17|N|Kill Plump Virmen.|S|
+K Rascals|ACTIVE|29769|QO|1|M|72.62,74.17|N|Kill Plump Virmen.|S|
 C Still Good!|QID|29770|M|71.66,70.54|QO|2|N|Head into the Teeming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|
 C Still Good!|QID|29770|M|77.19,71.06|QO|3|N|Head out of the cave, to the Virmen Grotto and collect 3 Pilfered Pumpkins from the ground|NC|
 l Still Good!|ACTIVE|29770|M|70.74,78.82|QO|1|N|Collect 3 Uprooted Turnips from the ground|
-K Rascals|ACTIVE|29769|M|68.40,72.10|N|Finish Killing Plump Virmen.|US|
+K Rascals|ACTIVE|29769|QO|1|M|68.40,72.10|N|Finish Killing Plump Virmen.|US|
 T Still Good!|QID|29770|M|68.13,66.40|N|To Gao Summerdraft.|
 T Rascals|QID|29769|M|68.89,65.00|N|To Ji Firepaw.|
 A Missing Mallet|QID|29768|M|68.89,65.00|N|From Ji Firepaw.|PRE|29769&29770|
 A Stronger Than Wood|QID|29771|M|69.13,66.62|N|From Jojo Ironbrow|PRE|29769&29770|
-C Stronger Than Wood|QID|29771|M|69.13,66.62|N|Collect the Discarded Wood Planks from the floor.|S|
+C Stronger Than Wood|QID|29771|M|69.13,66.62|NC|N|Collect the Discarded Wood Planks from the floor.|S|
 l Missing Mallet|ACTIVE|29768|M|62.53,76.68|QO|1|N|Loot the Mallet from next to Raggis.\nYou can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|
-l Stronger Than Wood|ACTIVE|29771|M|63.07,76.77|N|Finish collecting the Discarded Wood Planks from the floor.|US|
+C Stronger Than Wood|QID|29771|M|69.13,66.62|NC|N|Collect the Discarded Wood Planks from the floor.|US|
 T Stronger Than Wood|QID|29771|M|69.13,66.62|N|To Jojo Ironbrow|
 T Missing Mallet|QID|29768|M|68.89,65.00|N|To Ji Firepaw|
 A Raucous Rousing|QID|29772|M|68.89,65.00|N|From Ji Firepaw.|PRE|29768|
@@ -193,7 +193,7 @@ T Worthy of Passing|QID|29787|M|19.33,50.67|N|To Master Shang Xi who is now in T
 A Unwelcome Nature|QID|29788|M|19.33,50.67|N|From Master Shang Xi.|PRE|29787|
 A Small, But Significant|QID|29789|M|19.33,50.67|N|From Master Shang Xi.|PRE|29787|
 K Unwelcome Nature|ACTIVE|29788|M|20.73,46.84|QO|1|N|Kill the Thornbranch Scamp.|S|
-l Small, But Significant|ACTIVE|29789|QO|1|N|Collect the Kun-Pai Ritual Charms hanging from the trees in the area around you.|
+l Small, But Significant|ACTIVE|29789|QO|1|M|19.58,50.92|N|Collect the Kun-Pai Ritual Charms hanging from the trees in the area around you.|
 K Unwelcome Nature|ACTIVE|29788|M|20.73,46.84|QO|1|N|Finish killing the Thornbranch Scamps.\n[color=FF0000]NOTE: [/color]Unless you have really good AoE, stick to the ones that are alone. At some point, it will spawn two more. Ignore them as they will eventually despawn when you defeat the original.|US|
 T Unwelcome Nature|QID|29788|M|19.33,50.67|N|To Master Shang Xi.|
 T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|
@@ -220,9 +220,9 @@ A Wrecking the Wreck|QID|30589|M|50.23,76.64|N|From Korga Strongmane.|PRE|29795&
 T Wrecking the Wreck|QID|30589|M|36.31,72.34|N|To Makael Bay.|
 A Handle With Care|QID|30590|M|36.31,72.34|N|From Makael Bay.|PRE|30589|
 A Evil from the Seas|QID|29793|M|36.38,72.52|N|From Ji Firepaw.|PRE|30589|
-K Evil from the Seas|ACTIVE|29793|M|38.20,73.80|N|Kill the Darkened Horrors or Terrors.|S|
+K Evil from the Seas|ACTIVE|29793|M|38.20,73.80|QO|1|N|Kill the Darkened Horrors or Terrors.|S|
 l Handle With Care|ACTIVE|30590|M|38.20,73.80|QO|1|N|Collect the Explosive Bundles from the ground.\nLook for the bodies of Horde on the ground. You'll find the explosives near the bodies.|
-K Evil from the Seas|ACTIVE|29793|M|38.20,73.80|N|Finish killing the Darkened Horrors or Terrors.|US|
+K Evil from the Seas|ACTIVE|29793|M|38.20,73.80|QO|1|N|Finish killing the Darkened Horrors or Terrors.|US|
 T Handle With Care|QID|30590|M|36.31,72.34|N|To Makael Bay.|
 T Evil from the Seas|QID|29793|M|36.38,72.52|N|To Ji Firepaw.|
 A Urgent News|QID|29796|M|36.38,72.52|N|From Ji Firepaw.|PRE|29793&30590|
@@ -230,7 +230,7 @@ T Urgent News|QID|29796|M|42.20,86.55|N|To Delora Lionheart.|
 A None Left Behind|QID|29794|M|42.20,86.55|N|From Delora Lionheart.|PRE|29796|
 A Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart.|PRE|29796|
 A From Bad to Worse|QID|29665|M|42.30,86.35|N|From Jojo Ironbrow.|PRE|29796|
-K From Bad to Worse|ACTIVE|29665|M|38.40,83.60|N|Kill Deepscale Tormentors.|S|
+K From Bad to Worse|ACTIVE|29665|M|38.40,83.60|QO|1|N|Kill Deepscale Tormentors.|S|
 C None Left Behind|QID|29794|M|38.40,83.60|N|Grab an injured soldier and return to the camp within 3 minutes. Rinse and repeat three times.\n[color=FF0000]NOTE: [/color]You can only carry one at a time. Also, you can still fight while carrying the Injured Soldier.|NC|S|
 l Medical Supplies|ACTIVE|29797|M|38.40,83.60|QO|1|N|Collect the Medical Supplies lying about the crash site.|NC|
 K From Bad to Worse|ACTIVE|29665|M|38.40,83.60|QO|1|N|Finish killing Deepscale Tormentors.|US|
