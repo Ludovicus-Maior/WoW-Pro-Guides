@@ -17,7 +17,8 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 A A Summons From Moonglade|QID|40643|PRE|44663|M|57.77,44.90|Z|Dalaran@Dalaran70|N|From Archdruid Hamuul Runetotem.|
-T A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|Use Teleport Moonglade when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|
+T A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|Use Teleport Moonglade when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|LVL|22|C|Druid|
+T A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|Use the Mossy Hearthstone when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|LVL|-22|C|Druid|U|173716|
 A Call of the Wilds|QID|41106|M|56.28,31.86|Z|Moonglade|N|From Archdruid Hamuul Runetotem.|PRE|40643|
 C Call of the Wilds|QID|41106|QO|1|M|43.61,53.15|Z|Moonglade|CHAT|N|Speak to Zen'tabra|
 C Call of the Wilds|QID|41106|NC|QO|2|M|55.21,71.01|Z|Moonglade|N|Sniff Naralex's pillow.|
@@ -26,7 +27,7 @@ T Call of the Wilds|QID|41106|M|56.27,31.84|Z|Moonglade|N|To Archdruid Hamuul Ru
 A The Dreamway|QID|40644|M|56.27,31.84|Z|Moonglade|N|From Archdruid Hamuul Runetotem.|PRE|41106|
 C The Dreamway|QID|40644|NC|QO|1|M|65.18,60.50|Z|Moonglade|N|Accompany Archdruid Runetotem|
 C The Dreamway|QID|40644|NC|QO|2|M|66.76,60.11|Z|Moonglade|N|Approach and listen to Malfurion|
-C The Dreamway|QID|40644|NC|QO|3|M|66.93,60.11|Z|Moonglade|N|Step into the circle and use your extra action button to complete the ritual.|
+C The Dreamway|QID|40644|NC|QO|3|M|66.93,60.11|Z|Moonglade|N|Step into the circle and use your extra action button to complete the ritual.|EAB|
 T The Dreamway|QID|40644|M|66.73,60.54|Z|Moonglade|N|To Malfurion Stormrage.|
 A To The Dreamgrove|QID|40645|M|66.73,60.54|Z|Moonglade|N|From Malfurion Stormrage.|PRE|40644|
 C To The Dreamgrove|QID|40645|NC|QO|1|M|68.05,60.23|Z|Moonglade|N|Enter the Emerald Dreamway.|
@@ -434,10 +435,10 @@ T Cleansing the Mother Tree|QID|41689|M|45.18,51.85|N|To Lyessa Bloomwatcher.|
 A Sowing The Seed|QID|41255|QO|1|M|44.50,51.10|N|From Rensar Greathoof.|PRE|40900^42430^41918^41689|
 C Sowing The Seed|QID|41255|M|30.89,53.63|N|Run up the hill and plant the Seed of Ages.|
 T Sowing The Seed|QID|41255|M|30.91,54.25|N|To Rensar Greathoof.|
-A The Seed of Ages|QID|40651|M|30.91,54.25|N|From Rensar Greathoof.|PRE|41255|
-C The Seed of Ages|QID|40651|M|31.04,53.96|NC|N|Click on the seed to open your artifact window and click the icon with the "0" to imbue the artifact weapon with a new power.|
-T The Seed of Ages|QID|40651|M|30.91,54.25|N|To Rensar Greathoof.|
-A Ascending The Circle|QID|41332|M|30.91,54.25|N|From Rensar Greathoof.|PRE|40651|
+;A The Seed of Ages|QID|40651|M|30.91,54.25|N|From Rensar Greathoof.|PRE|41255|
+;C The Seed of Ages|QID|40651|M|31.04,53.96|NC|N|Click on the seed to open your artifact window and click the icon with the "0" to imbue the artifact weapon with a new power.|
+;T The Seed of Ages|QID|40651|M|30.91,54.25|N|To Rensar Greathoof.|
+A Ascending The Circle|QID|41332|M|30.91,54.25|N|From Rensar Greathoof.|PRE|41255|
 C Ascending The Circle|QID|41332|QO|1|NC|M|46.01,51.03|N|Walk with Archdruid Greathoof|
 C Ascending The Circle|QID|41332|QO|2|CHAT|M|46.01,51.03|N|Speak with Malfurion|
 T Ascending The Circle|QID|41332|M|46.01,51.03|N|To Malfurion Stormrage.|
