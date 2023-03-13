@@ -146,10 +146,10 @@ A Melding of Influences|QID|4642|PRE|4293&4294|M|47.45,73.36|Z|1458|N|From Chemi
 b Durotar|ACTIVE|4642&4005|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
 F Gadgetzan|ACTIVE|4005|QO|1|M|45.13,63.90|Z|Orgrimmar|
 R Lost Rigger Cove|ACTIVE|4005|QO|1|M|68.57,41.43|Z|1446|
-R Circle of Stones|ACTIVE|4005|QO|1|M|70.41,49.92|CC|Z|Tanaris|N|\n[color=FF0000]NOTE: [/color]If you jump just right where the fence meets the mountain, you can get over it. It's faster than trying to run through or around.
+R Circle of Stones|ACTIVE|4005|QO|1|M|70.41,49.92|CC|Z|Tanaris|N|\n[color=FF0000]NOTE: [/color]If you jump just right where the fence meets the mountain, you can get over it. It's faster than trying to run through or around.\n[color=FF0000]NOTE: [/color]It's works best if you stay as high up on the hill as you can before you jump.
 U Eridan's Supplies|ACTIVE|4005|L|11173&11172&11169|N|Loot the items from the bag.|U|11617|O|
 C Aquementas|ACTIVE|4005|M|70.41,49.92|CC|Z|Tanaris|L|11522|N|While standing in the Circle of Stones, use the Book of Aquor to summon Aquementas. Remain where you are until he becomes hostile and turns your items into the totem.\n[color=FF0000]NOTE: [/color]Once you have the totem, killing him is not required.|U|11169|
-R Gadgetzan|ACTIVE|4005|M|52.50,27.90|Z|1446|N|Unfortunately, the 'jump' trick won't work from this side. Just barrel through to the fence opening.|
+R Gadgetzan|ACTIVE|4005|M|52.50,27.90|Z|1446|N|Use the 'jump' trick to get back over the fence.|
 N Silver Totem of Aquementas|AVAILABLE|3962|N|[color=FF0000]NOTE: [/color]When you try to use this, it will equip it in your off-hand. If you're using a 2-handed weapon, it will no longer be in your hand.\nMake sure you have a 1-handed weapon with you or you will be fighting unarmed.|
 F Marshal's Refuge|ACTIVE|4005|M|51.60,25.44|Z|Tanaris|
 T Aquementas|QID|4005|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.|
