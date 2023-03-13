@@ -53,7 +53,7 @@ R Bloodvenom Post|ACTIVE|4506|M|40.9,50.7;36.00,49.72|CC|Z|Felwood|N|Retrace you
 C Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|Speak with the cat to get the completion notification.\n[color=FF0000]NOTE: [/color]If you wait too long, the cat will despawn and you'll have to do the quest again.|CHAT|
 T Corrupted Sabers|QID|4506|M|34.21,52.34|Z|Felwood|N|From Winna Hazzard.|
 R Bloodvenom Falls|ACTIVE|5156|QO|1;2;3|M|40.94,50.40|Z|Felwood|N|Head to the main road and turn north. It's just to the other side of the intersection.|
-C Corrupted Felwood Sample|QID|4293|L|12230 30|ITEM|12230|N|Any type of Ooze\n[color=FF0000]NOTE: [/color]It's recommended you gather 30 of them. The drop rate is almost 100%.|US|
+C Corrupted Felwood Sample|QID|4293|L|12230 15|ITEM|12230|N|Any type of Ooze\n[color=FF0000]NOTE: [/color]It's recommended you gather 15 of them. The drop rate is almost 100%.|US|
 R Shatter Scar Vale|ACTIVE|5156|QO|1;2;3|M|41.25,44.86|N|North side of the pool.|
 N Immolatus|ACTIVE|5156|QO|3|N|Keep an eye out for him. He's a level 56 Elite rare that spawns and patrols in the area.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A What Niby Commands|QID|7601|M|41.55,45.00|Z|Felwood|N|From Niby the Almighty. He moves around, a lot.\n[color=FF0000]NOTE: [/color]This starts your Inferno quest chain.|C|Warlock|
