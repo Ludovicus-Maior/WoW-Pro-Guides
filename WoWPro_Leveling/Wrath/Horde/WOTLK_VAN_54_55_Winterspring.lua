@@ -146,11 +146,11 @@ A Melding of Influences|QID|4642|PRE|4293&4294|M|47.45,73.36|Z|1458|N|From Chemi
 b Durotar|ACTIVE|4642&4005|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin back to Durotar.|
 F Gadgetzan|ACTIVE|4005|QO|1|M|45.13,63.90|Z|Orgrimmar|
 R Lost Rigger Cove|ACTIVE|4005|QO|1|M|68.57,41.43|Z|1446|
-R Circle of Stones|ACTIVE|4005|QO|1|M|70.41,49.92|CC|Z|Tanaris|N|\n[color=FF0000]NOTE: [/color]If you jump just right where the fence meets the mountain, you can get over it. It's faster than trying to run through or around.
+R Circle of Stones|ACTIVE|4005|QO|1|M|70.41,49.92|CC|Z|Tanaris|N|\n[color=FF0000]NOTE: [/color]If you jump just right where the fence meets the mountain, you can get over it. It's faster than trying to run through or around.\n[color=FF0000]NOTE: [/color]It's works best if you stay as high up on the hill as you can before you jump.
 U Eridan's Supplies|ACTIVE|4005|L|11173&11172&11169|N|Loot the items from the bag.|U|11617|O|
 C Aquementas|ACTIVE|4005|M|70.41,49.92|CC|Z|Tanaris|L|11522|N|While standing in the Circle of Stones, use the Book of Aquor to summon Aquementas. Remain where you are until he becomes hostile and turns your items into the totem.\n[color=FF0000]NOTE: [/color]Once you have the totem, killing him is not required.|U|11169|
-R Gadgetzan|ACTIVE|4005|M|52.50,27.90|Z|1446|N|Unfortunately, the 'jump' trick won't work from this side. Just barrel through to the fence opening.|
-N Silver Totem of Aquementas|AVAILABLE|3962|N|[color=FF0000]NOTE: [/color]When you try to use this, it will equip it in your off-hand. If you're using a 2-handed weapon, it will no longer be in your hand.\nMake sure you have a 1-handed weapon with you or you will be fighting unarmed.|
+R Gadgetzan|ACTIVE|4005|M|52.50,27.90|Z|1446|N|Use the 'jump' trick to get back over the fence.|
+N Silver Totem of Aquementas|AVAILABLE|3962|N|When you try to use this, it will equip it in your off-hand. If you're using a 2-handed weapon, it will no longer be in your hand.\nMake sure you have a 1-handed weapon with you or you'll be fighting unarmed.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 F Marshal's Refuge|ACTIVE|4005|M|51.60,25.44|Z|Tanaris|
 T Aquementas|QID|4005|M|41.92,2.70|Z|Un'Goro Crater|N|To J. D. Callie.|
 A Linken's Adventure|QID|3961|PRE|4005|M|41.92,2.70|Z|Un'Goro Crater|N|From J. D. Callie.|
@@ -158,12 +158,13 @@ T Linken's Adventure|QID|3961|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
 A It's Dangerous to Go Alone|QID|3962|PRE|3961|M|44.65,8.10|Z|Un'Goro Crater|N|From Linken.|
 K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe Primal Ooze will become a Gargantuan when you use the Corrupt Ooze on it.|U|12288|S|
 R Fire Plume Ridge|ACTIVE|3962|QO|1|M|50.20,49.99|Z|Un'Goro Crater|N|Make your way to the volcano in the center of Un'Goro.|
-K Blazerunner|ACTIVE|3962|QO|1|M|50.20,49.99|Z|Un'Goro Crater|N|Use the Silver Totem of Aquementas to dispel Blazerunner's Aura whenever he puts it up.\n[color=FF0000]NOTE: [/color]Make sure you have your 1-handed weapon equiped.|T|Blazerunner|U|11522|
+K Blazerunner|ACTIVE|3962|QO|1|M|50.20,49.99|Z|Un'Goro Crater|N|Watch out for his knockback. Keep your back against a wall or go inside the cave.\nUse the Silver Totem of Aquementas to dispel Blazerunner's Aura whenever he puts it up.\n[color=FF0000]NOTE: [/color]Make sure you have your 1-handed weapon equiped.|T|Blazerunner|U|11522|
 C Golden Flame|QID|3962|M|50.20,49.99|Z|Un'Goro Crater|L|11179|N|From the chest inside the cave Blazerunner was guarding.\n[color=FF0000]NOTE: [/color]Don't forget to re-equip your 2-handed weapon if you changed it.|
 R Marshal's Refuge|ACTIVE|4642|M|45.88,13.36|Z|Un'Goro Crater|L|12291|S!US|
 K Gargantuan Ooze|ACTIVE|4642|L|12291|ITEM|12291|N|Primal/Gargantuan Ooze\nThe Primal Ooze will become a Gargantuan when you use the Corrupt Ooze on it.|U|12288|US|
 R Marshal's Refuge|ACTIVE|3962|M|45.88,13.36|Z|Un'Goro Crater|S|
-L Level 58|ACTIVE|3962|N|Grind until you are within 10K of lv 58.|
+L Level 58|ACTIVE|3962|N|Grind until you are within 10K of lv 58.|LVL|58;-10550|
+R Marshal's Refuge|ACTIVE|3962|M|45.88,13.36|Z|Un'Goro Crater|US|
 T It's Dangerous to Go Alone|QID|3962|M|44.65,8.10|Z|Un'Goro Crater|N|To Linken.|
 * Book of Aquor|ACTIVE|-3962|AVAILABLE|-3962|N|This item can be safely destroyed unless you plan on killing Blazerunner again.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to keep it.|U|11169|
 * Faded Photograph|ACTIVE|-3962|AVAILABLE|-3962|N|This item is useless and can be safely destroyed.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to keep it.|U|11108|
