@@ -76,7 +76,7 @@ K Kill Beacher|QID|38238|QO|1|M|32.43,28.61|ITEM|129067|T|Beacher|N|Silver - Pat
 $ Small Treasure Chest|QID|44102|M|34.58,35.55|N|In a alcove under a rocky outcropping. Loot for a bit of treasure and resources.|RANK|3|
 R Traitor's Overlook|QID|37449|M|35.54,52.50|N|And back to the questline. Yes, its a bit of a run, you can use a glider if you have it to save a bit of pain.|RANK|3|FLY|OLD|
 C Dark Revelations|QID|37449|QO|1|M|35.54,52.50|N|Kill Nightglaive the Traitor.|T|Nightglaive the Traitor|
-C Dark Revelations|QID|37449|QO|2|M|35.11,52.90|NC|N|Click on Stellagosa for a ride back to Illidari Stand (Optional).|
+C Dark Revelations|QID|37449|QO|2|M|35.11,52.90|V|N|Click on Stellagosa for a ride back to Illidari Stand (Optional).|
 C Dark Revelations|QID|37449|QO|3|M|43.57,43.28|NC|N|Meet back at Illidari Stand.|
 T Dark Revelations|QID|37449|M|43.56,43.46|N|To Kayn Sunfury / Altruis the Sufferer.|
 A Journey to the Repose|QID|38443|PRE|37449|M|43.55,43.42|N|From Archmage Khadgar.|
@@ -138,7 +138,7 @@ T Inscription of the Body|QID|39936|M|54.00,15.28|N|To Baric Stormrunner.|P|Insc
 A Opposites Repel|QID|39937|M|54.00,15.28|N|From Baric Stormrunner.|P|Inscription;773;6|PRE|39936|
 $ Treasure Chest|QID|42339|M|51.75,17.36;52.82,20.04;54.03,22.42;52.84,20.58|CS|N|You can walk, avoiding the sleeping bears to get to this treasure. Loot for some resources and treasure.|RANK|3|
 K Kill Cailyn Paledoom|QID|38268|M|54.03,22.37;52.43,22.90|CS|ITEM|129063|T|Cailyn Paledoom|N|Silver-Kill and Loot for a bit of treasure and resources.|RANK|3|RARE|
-A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45|CT|
+;A Those Beyond Redemption-Bonus Objective|QID|37963|PRE|37857|M|55.47,16.63|N|Auto-accepted as you enter the area.|RANK|2|LVL|-45|CT|;I belive this bonus objective got turned into a world quest. I couldnt get it to pop up.
 C Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|S|US|N|Click on the mana siphons and kill mobs in the area to advance the objective.|RANK|2|
 $ Small Treasure Chest|QID|44104|M|53.61,18.13|N|Loot for a bit of treasure and resources.|RANK|2|
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|S|N|Kill and loot the nightfallen for their Ley Dust.|P|Inscription;773;6|

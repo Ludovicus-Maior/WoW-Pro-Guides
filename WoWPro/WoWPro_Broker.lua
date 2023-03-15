@@ -853,37 +853,38 @@ function WoWPro:CheckFunction(row, button, down)
 end
 
 _G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
-	text = "Would you like to trash %s?" ,
-	button1 = _G.OKAY,
-	button2 = _G.CANCEL,
-	whileDead = true,
-	hideOnEscape = true,
-	timeout = 15,
-	data =  0, -- Step number
-	data2 = "", -- Item id
+    text = "Would you like to trash %s?" ,
+    button1 = _G.OKAY,
+    button2 = _G.CANCEL,
+    whileDead = true,
+    hideOnEscape = true,
+    timeout = 15,
+    data =  {}, -- Step info
+    data2 = {}, -- Bag info
     OnAccept = function (self)
+        _G.ClearCursor()
+        _G.C_Container.PickupContainerItem(self.data2.bag, self.data2.slot)
         _G.DeleteCursorItem()
-        WoWPro.CompleteStep(self.data, "Trashed item: " .. self.data2)
+        WoWPro.CompleteStep(self.data.step, "Trashed item: " .. self.data.itemName)
     end,
     OnCancel = function (self, data, why)
         _G.ClearCursor()
-        WoWPro.CompleteStep(self.data, "Canceled Item trash: " .. self.data2)
+        WoWPro.CompleteStep(self.data.step, "Canceled Item trash: " .. self.data.itemName)
     end
 }
 
 function WoWPro.TrashItem(use, step)
     use = tonumber(use) -- needs to be a number
     for bag=_G.BACKPACK_CONTAINER, _G.NUM_BAG_SLOTS do
-        local slots = _G.GetContainerNumSlots(bag)
+        local slots = _G.C_Container.GetContainerNumSlots(bag)
         for slot=1,slots do
-            local id=_G.GetContainerItemID(bag,slot)
+            local id=_G.C_Container.GetContainerItemID(bag,slot)
             if id == use then
                 local itemName = _G.GetItemInfo(id)
-                _G.ClearCursor()
-                _G.PickupContainerItem(bag,slot)
                 local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
-                dialog.data = step
-                dialog.data2 = itemName
+                dialog.data = { step = step, itemName = itemName}
+                dialog.data2 = {bag = bag, slot = slot}
+                return
             end
         end
     end
