@@ -224,7 +224,7 @@ B Suntouched Special Reserve|QID|9067|M|79.52,58.51|Z|1954; Silvermoon City|QO|1
 = Train|ACTIVE|8888|M|92.26,36.15|Z|1954; Silvermoon City|N|Lady Liadrin in Farstriders' Square (NE corner).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|
 = Train|ACTIVE|8888|M|54.96,25.62|Z|1954; Silvermoon City|N|Belestra, Lotheolan, or Aldrae in the Sunfury Spire (south/left alcove).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|
 = Train|AVAILABLE|9532|M|78.59,51.01|Z|1954; Silvermoon City|N|Zelanis, Nerisen or Elara in Murder Row (2nd Doorway).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|
-= Train|AVAILABLE|10788|M|74.67,45.01|Z|1954; Silvermoon City|N|Alamma, Zanien, or Talionia in Murder Row (3rd doorway, downstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+= Train|AVAILABLE|9529|M|74.67,45.01|Z|1954; Silvermoon City|N|Alamma, Zanien, or Talionia in Murder Row (3rd doorway, downstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
 
 ; -- Level 10 class quests
 ; -- Hunter
@@ -277,10 +277,10 @@ F Silvermoon City|ACTIVE|9618|M|45.42,30.52|Z|1942; Ghostlands|N|Get the FP from
 R The Shepherd's Gate|ACTIVE|9618|M|56.66,49.54|N|Enter Silvermoon City.|R|BloodElf|C|Rogue|
 T Return the Reports|QID|9618|M|79.6,51.8|Z|1954; Silvermoon City|N|To Zelanis.|R|BloodElf|C|Rogue|
 ; -- Warlock
-; Ignoring this quest for now. 90 exp LEAD quest that has no start location.
-;A Return to Talionia|QID|10788|N|Don't know where this starts.|R|BloodElf|C|Warlock|LEAD|
+; Ignoring this quest for now. 90 exp LEAD quest that requires you to travel to Orgrimmar to get it.
+;A Return to Talionia|QID|10788|LEAD|9259|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye|IZ|Orgrimmar|R|BloodElf|C|Warlock|
 ;T Return to Talionia|QID|10788|M|74.40,47.15|Z|1954; Silvermoon City|N|To Talionia in The Sanctum, found along Murder Row in Silvermoon City.|R|BloodElf|C|Warlock|
-A The Stone|QID|9529|M|74.40,47.15|Z|1954; Silvermoon City|N|From Talionia.|R|BloodElf|C|Warlock|
+A The Stone|QID|9529|M|74.40,47.15|Z|1954; Silvermoon City|N|From Talionia in The Sanctum.|R|BloodElf|C|Warlock|
 R Ghostlands|ACTIVE|9529|M|48.43,10.74|Z|1942; Ghostlands|N|Exit Silvermoon City and head west to The Dead Scar. Follow the ledge of The Dead Scar south until you reach the Elrendar River.|R|BloodElf|C|Warlock|
 C The Stone|QID|9529|M|43.30,15.37|Z|1942; Ghostlands|L|181698|N|Cross to the south side of the river and you'll find a Voidstone along the river bank just south of the waterfall.|R|BloodElf|C|Warlock|
 T The Stone|QID|9529|N|To the Voidstone.|R|BloodElf|C|Warlock|
