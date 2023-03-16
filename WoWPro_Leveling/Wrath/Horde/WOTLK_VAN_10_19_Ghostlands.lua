@@ -329,46 +329,27 @@ N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison quest is not going to be e
 ; ---
 ; --- Warlock Soul Bag/Succubus Level 20 class quest
 A Carendin Summons|QID|10605|M|73.09,46.95|Z|1954; Silvermoon City|N|From Alamma, located in the Sanctum.|LEAD|1507|R|BloodElf|C|Warlock|
-P Undercity|AVAILABLE|1472&1507|M|49.49,14.80|Z|1954; Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire atop the ramp.|C|Warlock|
-f Undercity|AVAILABLE|1472&1507|M|63.26,48.55|Z|1458; Undercity|N|Make your way down into Undercity and get the flight path from Michael Garrett.|TAXI|-Undercity|
-N Kalimdor or Eastern Kingdoms|AVAILABLE|1472&1507|N|From this point, you can choose where you do your quest chain.\nThe Eastern Kingdoms version starts in UC and the Kalimdor version starts in Orgrimmar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-R Leave Undercity|AVAILABLE|1472&1507|M|66.1,38.4;66.2,0.9;66.2,1.2|CC|Z|1458; Undercity|N|Take the elevator up and leave Undercity through the front gates.\n[color=FF0000]NOTE: [/color]If you wish to do the Eastern Kingdoms version, skip this step.|IZ|1497;Undercity|
-b Durotar|AVAILABLE|1507|M|60.71,58.78|Z|1420; Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Warlock|IZ|85; Tirisfal Glades|
-; --- Undercity version
+P Undercity|AVAILABLE|1472&1507|M|49.49,14.80|Z|1954; Silvermoon City|N|Use the Orb of Translocation located at the very back of Sunfury Spire atop the ramp.|C|Warlock|IZ|1954; Silvermoon City|
+f Undercity|AVAILABLE|1472&1507|M|63.26,48.55|Z|1458; Undercity|N|Make your way down into Undercity and get the flight path from Michael Garrett.|IZ|Undercity|
 R Magic Quarter|AVAILABLE|1472&1507|M|74.55,29.34|Z|1458; Undercity|N|Make your way to the Magic Quarter in the northeast corner of Undercity.|IZ|1458; Undercity|
 T Carendin Summons|QID|10605|M|85.05,25.97|Z|1458; Undercity|N|To Carendin Halgar, located beside the Summoning Circle on the outer ring of the Magic Quarter.|R|BloodElf|C|Warlock|
-A Devourer of Souls|QID|1472|AVAILABLE|1507|M|85.05,25.97|Z|1458; Undercity|N|From Carendin Halgar.|C|Warlock|
-T Devourer of Souls|QID|1472|M|77.73,21.87|Z|1458; Undercity|N|To Godrick Farsan. He's inside the building with the Warlock trainers.|C|Warlock|
-A Hearts of the Pure|QID|1476|M|77.73,21.87|Z|1458; Undercity|N|From Godrick Farsan.|PRE|1472|C|Warlock|
-R Sewers|ACTIVE|1476|M|45.91,43.89|Z|1458; Undercity|N|Make your way to the Sewers.|C|Warlock|IZ|1458; Undercity|
-R Tirisfal Glades|ACTIVE|1476|M|51.07,71.59|Z|1420; Tirisfal Glades|N|Make your way through the Sewers to the exit to Tirisfal Glades.|C|Warlock|IZ|1458; Undercity|
-R Silverpine Forest|ACTIVE|1476|M|67.82,4.92|Z|1421; Silverpine Forest|N|Make your way to the road and head south to Silverpine Forest.|C|Warlock|IZ|85; Tirisfal Glades|
-R The Sepulcher|ACTIVE|1476|M|50.83,36.99;46.29,41.50|CC|Z|1421; Silverpine Forest|N|Make your way to the The Sepulcher.|C|Warlock|IZ|1421; Silverpine Forest|
-f The Sepulcher|ACTIVE|1476|M|45.62,42.60|Z|1421; Silverpine Forest|N|At Karos Razok.|C|Warlock|
-R The Greymane Wall|ACTIVE|1476|M|51.35,37.03;53.23,72.38;48.49,80.08|CC|Z|1421; Silverpine Forest|N|Exit The Sepulcher and follow the road south until you reach the big bend. From here, head west briefly and continue on the road south until you reach the wall.|C|Warlock|IZ|1421; Silverpine Forest|
-C Hearts of the Pure|QID|1476|M|45.19,82.91|Z|1421; Silverpine Forest|QO|1|N|Locate Dalin Forgewright on his horse and kill him to loot his heart.|C|Warlock|
-R Hillsbrad Foothills|ACTIVE|1476|M|13.57,46.15|Z|1424; Hillsbrad Foothills|N|Make your way back to the big curve in the road and follow the road east.|C|Warlock|IZ|1421; Silverpine Forest|
-R Tarren Mill|ACTIVE|1476|M|13.73,46.17;57.50,36.06;56.39,19.67|CC|Z|1424; Hillsbrad Foothills|N|Follow the road to Tarren Mill.|C|Warlock|IZ|1424; Hillsbrad Foothills|
-f Tarren Mill|ACTIVE|1476|M|60.14,18.63|Z|1424; Hillsbrad Foothills|N|At Zarise.|C|Warlock|
-R Thoradin's Wall|ACTIVE|1476|M|62.88,41.63;81.42,56.40|CC|Z|1424; Hillsbrad Foothills|N|Follow the river south to the bridge and continue on the road east to Thoradin's Wall.|C|Warlock|IZ|1424; Hillsbrad Foothills|
-R Thandol Span|ACTIVE|1476|M|43.69,88.14|Z|1417; Arathi Highlands|N|Make your way along the road to the bridge at Thandol Span.\n[color=FF0000]NOTE: [/color]Be aware of the 'skull' mobs on either side of the road.|C|Warlock|IZ|1417; Arathi Highlands|
-C Hearts of the Pure|QID|1476|M|50.85,12.26;50.41,13.34|CC|Z|1437; Wetlands|QO|2|N|Cross over the bridge to the Wetlands' side and locate Comar Willard. Kill him to loot his heart.|C|Warlock|
-R Hammerfall|ACTIVE|1476|M|45.42,59.04;51.03,59.69;71.35,42.78|CC|Z|1417; Arathi Highlands|N|Now for the fun part!\nCross back over into Arathi Highlands and follow the road north. Avoiding the 'skull' mobs once again, carefully make your way to Hammerfall by following the sign posts along the road.|C|Warlock|IZ|1417; Arathi Highlands|
-f Hammerfall|ACTIVE|1476|M|73.07,32.61|Z|1417; Arathi Highlands|N|At Urda.|C|Warlock|
-F Undercity|ACTIVE|1476|M|73.07,32.61|Z|1417; Arathi Highlands|N|[color=FF0000]NOTE: [/color]If you missed any of the FPs between here and Undercity, you'll have to fly back as close as you can and run the rest of the way.m|C|Warlock|
-R Magic Quarter|ACTIVE|1476|M|74.55,29.34|Z|1458; Undercity|N|The Magic Quarter is in the northeast corner of Undercity.|
-T Hearts of the Pure|QID|1476|M|85.05,25.97|Z|1458; Undercity|N|To Carendin Halgar.|R|BloodElf|C|Warlock|
-A The Binding|QID|1474|M|85.05,25.97|Z|1458; Undercity|N|From Carendin Halgar.|PRE|1476|R|BloodElf|C|Warlock|
-C The Binding|QID|1474|M|86.67,27.09|Z|1458; Undercity|N|Head over to the Summoning Circle and use the Pure Hearts to summon a Succubus. Defeat her to complete the quest.|U|6286|R|BloodElf|C|Warlock|
-T The Binding|QID|1474|M|85.05,25.97|Z|1458; Undercity|N|To Carendin Halgar.|R|BloodElf|C|Warlock|
-P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458; Undercity|N|Make your way up to the Ruins of Lordaeron and use the Orb of Translocation.|C|Warlock|IZ|1458; Undercity|
+N Kalimdor or Eastern Kingdoms|AVAILABLE|1472&1507|N|From this point, you can choose where you do your quest chain.\nThe Eastern Kingdoms version starts in UC and the Kalimdor version starts in Orgrimmar.\nThe Orgrimmar version is a lot easier.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; --- Orgrimmar version
-b Durotar|AVAILABLE|1507&10605|M|60.71,58.78|Z|1420; Tirisfal Glades|N|Exit Ruins of Lordaeron and take the zeppelin to Orgrimmar.|C|Warlock|
-R Orgrimmar|AVAILABLE|1507&10605|M|45.52,12.07|Z|1411; Durotar|N|Enter Orgrimmar.|C|Warlock|
-f Orgrimmar|AVAILABLE|1507&10605|M|45.13,63.90|Z|1454; Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
-A Devourer of Souls|QID|1507|AVAILABLE|10605|M|48.24,45.28|Z|1454; Orgrimmar|N|From Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
+R Leave Undercity|AVAILABLE|1472&1507|M|66.1,38.4;66.2,0.9;66.2,1.2|CC|Z|1458; Undercity|N|Take the elevator up and leave Undercity through the front gates.\n[color=FF0000]NOTE: [/color]If you wish to do the Undercity (Eastern Kingdoms) version, skip this step.|IZ|1497;Undercity|
+b Durotar|AVAILABLE|1472&1507|M|60.71,58.78|Z|1420; Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|C|Warlock|IZ|85; Tirisfal Glades|
+R Orgrimmar|AVAILABLE|1472&1507|M|45.52,12.07|Z|1411; Durotar|N|Enter Orgrimmar.|C|Warlock|
+f Orgrimmar|AVAILABLE|1472&1507|M|45.13,63.90|Z|1454; Orgrimmar|N|Get the flight path from Doras.|C|Warlock|
+A Devourer of Souls|QID|1507|PRE|10605|M|48.24,45.28|Z|1454; Orgrimmar|N|From Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
 T Devourer of Souls|QID|1507|M|47.04,46.46|Z|1454; Orgrimmar|N|To Cazul in Cleft of Shadow.|C|Warlock|
-A Blind Cazul|QID|1508|M|47.04,46.46|Z|1454; Orgrimmar|N|From Cazul.|PRE|1507|C|Warlock|
+A Blind Cazul|QID|1508|AVAILABLE|1474|PRE|1507|M|47.04,46.46|Z|1454; Orgrimmar|N|From Cazul.|C|Warlock|
+A Love Hurts|QID|65601|AVAILABLE|-1474|PRE|1507|M|47.04,46.46|Z|1454; Orgrimmar|N|From Cazul.|C|Warlock|
+T Love Hurts|QID|65601|M|63.63,49.92|Z|1454; Orgrimmar|N|To Magar inside Magar's Cloth Goods in The Drag.|C|Warlock|
+A Wish You Were Here|QID|65610|PRE|65601|M|63.63,49.92|Z|1454; Orgrimmar|N|From Magar.|C|Warlock|
+F Splintertree Post|ACTIVE|65610|QO|1|M|45.13,63.90|Z|1454; Orgrimmar|C|Warlock|
+l Withered Scarf|ACTIVE|65610|M|66.93,79.93|CC|Z|Ashenvale|L|190232|ITEM|190232|N|Any Shadethicket mob\nThey're located in the rivers on either side of Splintertree Post and around Fallen Sky Lake.\n[color=FF0000]NOTE: [/color]Starting at the lake, do a clockwise circle heading north up the west river and coming south down the east river.|C|Warlock|
+F Orgrimmar|ACTIVE|65610|M|73.18,61.59|Z|1440; Ashenvale|C|Warlock|
+T Wish You Were Here|QID|65610|M|48.24,45.28|Z|1454; Orgrimmar|N|To Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
+A The Binding|QID|65604|PRE|65610|M|48.24,45.28|Z|1454; Orgrimmar|N|From Gan'rul Bloodeye.|C|Warlock|
 T Blind Cazul|QID|1508|M|37.02,59.46|Z|1454; Orgrimmar|N|To Zankaja in the building just south of the Cleft of the Shadows SW entrance.|C|Warlock|
 A News of Dogran|QID|1509|M|37.02,59.46|Z|1454; Orgrimmar|N|From Zankaja.|PRE|1508|C|Warlock|
 F Crossroads|ACTIVE|1509|M|45.13,63.90|Z|1454; Orgrimmar|C|Warlock|TAXI|Crossroads|
@@ -394,8 +375,35 @@ R Camp Taurajo|ACTIVE|1512|M|47.31,57.64|Z|1413; The Barrens|N|Run back to Camp 
 F Orgrimmar|ACTIVE|1512|M|44.44,59.15|Z|1413; The Barrens|C|Warlock|
 T Love's Gift|QID|1512|M|48.24,45.28|Z|1454; Orgrimmar|N|To Gan'rul Bloodeye in Cleft of Shadow.|C|Warlock|
 A The Binding|QID|1513|M|48.24,45.28|Z|1454; Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1512|C|Warlock|
-C The Binding|QID|1513|M|49.47,50.02|Z|1454; Orgrimmar|QO|1|N|Go to the Summoning Circle in Neeru's tent. While standing in the Summoning Circle, use Dogran's Pendant to summon a Succubus and then kill it.|U|6626|C|Warlock|
-T The Binding|QID|1513|M|48.24,45.28|Z|1454; Orgrimmar|N|To Gan'rul Bloodeye.|C|Warlock|
+C The Binding|QID|1513|M|49.47,50.02|Z|1454; Orgrimmar|QO|1|N|Go to the Summoning Circle in Neeru's tent. While standing in the Summoning Circle, use Dogran's Pendant to summon a Succubus and then kill it.\n[color=FF0000]NOTE: [/color]Put your pet on passive and make sure there are no guards around as you need to do this on your own.\nThe Scarf has a 3 minute CD you'll have to wait out if you get help.|U|6626|C|Warlock|
+C The Binding|QID|65604|M|49.47,50.02|Z|1454; Orgrimmar|QO|1|N|Go to the Summoning Circle in Neeru's tent. While standing in the Summoning Circle, use the Withered Scarf to summon an Incubus and then kill it.\n[color=FF0000]NOTE: [/color]Put your pet on passive and make sure there are no guards around as you need to do this on your own.\nThe Scarf has a 3 minute CD you'll have to wait out if you get help.|U|190187|C|Warlock|
+T The Binding|QID|1513^65604|M|48.24,45.28|Z|1454; Orgrimmar|N|To Gan'rul Bloodeye.|C|Warlock|
+; --- Undercity version
+A Devourer of Souls|QID|1472|AVAILABLE|1507|M|85.05,25.97|Z|1458; Undercity|N|From Carendin Halgar.|C|Warlock|IZ|1458; Undercity|
+T Devourer of Souls|QID|1472|M|77.73,21.87|Z|1458; Undercity|N|To Godrick Farsan. He's inside the building with the Warlock trainers.|C|Warlock|
+A Hearts of the Pure|QID|1476|M|77.73,21.87|Z|1458; Undercity|N|From Godrick Farsan.|PRE|1472|C|Warlock|
+R Sewers|ACTIVE|1476|M|45.91,43.89|Z|1458; Undercity|N|Make your way to the Sewers.|C|Warlock|IZ|1458; Undercity|
+R Tirisfal Glades|ACTIVE|1476|M|51.07,71.59|Z|1420; Tirisfal Glades|N|Make your way through the Sewers to the exit to Tirisfal Glades.|C|Warlock|IZ|1458; Undercity|
+R Silverpine Forest|ACTIVE|1476|M|67.82,4.92|Z|1421; Silverpine Forest|N|Make your way to the road and head south to Silverpine Forest.|C|Warlock|IZ|85; Tirisfal Glades|
+R The Sepulcher|ACTIVE|1476|M|50.83,36.99;46.29,41.50|CC|Z|1421; Silverpine Forest|N|Make your way to the The Sepulcher.|C|Warlock|IZ|1421; Silverpine Forest|
+f The Sepulcher|ACTIVE|1476|M|45.62,42.60|Z|1421; Silverpine Forest|N|At Karos Razok.|C|Warlock|
+R The Greymane Wall|ACTIVE|1476|M|51.35,37.03;53.23,72.38;48.49,80.08|CC|Z|1421; Silverpine Forest|N|Exit The Sepulcher and follow the road south until you reach the big bend. From here, head west briefly and continue on the road south until you reach the wall.|C|Warlock|IZ|1421; Silverpine Forest|
+C Hearts of the Pure|QID|1476|M|45.19,82.91|Z|1421; Silverpine Forest|QO|1|N|Locate Dalin Forgewright on his horse and kill him to loot his heart.|C|Warlock|
+R Hillsbrad Foothills|ACTIVE|1476|M|13.57,46.15|Z|1424; Hillsbrad Foothills|N|Make your way back to the big curve in the road and follow the road east.|C|Warlock|IZ|1421; Silverpine Forest|
+R Tarren Mill|ACTIVE|1476|M|13.73,46.17;57.50,36.06;56.39,19.67|CC|Z|1424; Hillsbrad Foothills|N|Follow the road to Tarren Mill.|C|Warlock|IZ|1424; Hillsbrad Foothills|
+f Tarren Mill|ACTIVE|1476|M|60.14,18.63|Z|1424; Hillsbrad Foothills|N|At Zarise.|C|Warlock|
+R Thoradin's Wall|ACTIVE|1476|M|62.88,41.63;81.42,56.40|CC|Z|1424; Hillsbrad Foothills|N|Follow the river south to the bridge and continue on the road east to Thoradin's Wall.|C|Warlock|IZ|1424; Hillsbrad Foothills|
+R Thandol Span|ACTIVE|1476|M|43.69,88.14|Z|1417; Arathi Highlands|N|Make your way along the road to the bridge at Thandol Span.\n[color=FF0000]NOTE: [/color]Be aware of the 'skull' mobs on either side of the road.|C|Warlock|IZ|1417; Arathi Highlands|
+C Hearts of the Pure|QID|1476|M|50.85,12.26;50.41,13.34|CC|Z|1437; Wetlands|QO|2|N|Cross over the bridge to the Wetlands' side and locate Comar Willard. Kill him to loot his heart.|C|Warlock|
+R Hammerfall|ACTIVE|1476|M|45.42,59.04;51.03,59.69;71.35,42.78|CC|Z|1417; Arathi Highlands|N|Now for the fun part!\nCross back over into Arathi Highlands and follow the road north. Avoiding the 'skull' mobs once again, carefully make your way to Hammerfall by following the sign posts along the road.|C|Warlock|IZ|1417; Arathi Highlands|
+f Hammerfall|ACTIVE|1476|M|73.07,32.61|Z|1417; Arathi Highlands|N|At Urda.|C|Warlock|
+F Undercity|ACTIVE|1476|M|73.07,32.61|Z|1417; Arathi Highlands|N|[color=FF0000]NOTE: [/color]If you missed any of the FPs between here and Undercity, you'll have to fly back as close as you can and run the rest of the way.m|C|Warlock|
+R Magic Quarter|ACTIVE|1476|M|74.55,29.34|Z|1458; Undercity|N|The Magic Quarter is in the northeast corner of Undercity.|
+T Hearts of the Pure|QID|1476|M|85.05,25.97|Z|1458; Undercity|N|To Carendin Halgar.|R|BloodElf|C|Warlock|
+A The Binding|QID|1474|M|85.05,25.97|Z|1458; Undercity|N|From Carendin Halgar.|PRE|1476|R|BloodElf|C|Warlock|
+C The Binding|QID|1474|M|86.67,27.09|Z|1458; Undercity|N|Head over to the Summoning Circle and use the Pure Hearts to summon a Succubus. Defeat her to complete the quest.|U|6286|R|BloodElf|C|Warlock|
+T The Binding|QID|1474|M|85.05,25.97|Z|1458; Undercity|N|To Carendin Halgar.|R|BloodElf|C|Warlock|
+P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458; Undercity|N|Make your way up to the Ruins of Lordaeron and use the Orb of Translocation.|C|Warlock|IZ|1458; Undercity|
 b Tirisfal Glades|ACTIVE|9877|M|50.88,13.83|Z|1411; Durotar|N|Take the Zepplin to Tirisfal Glades.|C|Warlock|IZ|1411;Durotar|
 R Undercity|ACTIVE|9877|M|61.86,65.04|Z|1420; Tirisfal Glades|N|Enter Undercity.|C|Warlock|IZ|85; Tirisfal Glades|
 P Silvermoon City|ACTIVE|9877|M|54.85,11.23|Z|1458; Undercity|N|Use the Orb of Translocation.|C|Warlock|IZ|1458; Undercity|
