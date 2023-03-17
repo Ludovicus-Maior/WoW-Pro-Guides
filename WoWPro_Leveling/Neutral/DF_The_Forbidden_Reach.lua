@@ -10,7 +10,7 @@ t Journal Entry: The Creches|QID|73114|M|35.49,58.80|Z|2151;The Forbidden Reach|
 t Journal Entry: Silence|QID|73115|M|35.49,58.80|Z|2151;The Forbidden Reach|N|To Scalecommander Azurathel.|
 
 
-;Quests that got changed. 
+;Quests that got changed.
 ;A Stuck in Stasis|QID|73694|PRE|73157&74769&75050|M|34.61,57.77|Z|2151;The Forbidden Reach|N|From Scalecommander Viridia.|
 ;C Stuck in Stasis|QID|73694|M|34.41,57.44|Z|2151;The Forbidden Reach|QO|1|NC|N|Healing Wing recruited (Optional).|
 ;C Stuck in Stasis|QID|73694|M|66.48,55.71|Z|2154;The Forbidden Reach|QO|2|H|N|Imprisoned Dracthyr freed.|S|
