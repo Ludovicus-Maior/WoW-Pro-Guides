@@ -13,7 +13,7 @@ N Rares (Silver Elite)|AVAILABLE|38834^44137|N|All Rares are included if you do 
 N Ranks|AVAILABLE|38834^44137|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
 T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A Down to Azsuna|QID|41220|PRE|39718|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|
-C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|NC|N|Fly down with Khadgar.|
+C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Fly down with Khadgar.|
 T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
 A Into the Fray|QID|38834^44137|PRE|41220|M|45.11,42.92|N|From Archmage Khadgar.| ; PRE not needed but left, quest avail without 11/9/2020
 f Illidari Stand|ACTIVE|38834^44137|M|44.59,43.85|N|At Izal Whitemoon.|
@@ -54,18 +54,19 @@ A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920^40815^44140|M|41.24,50.50|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|S|US|N|Kill demons and click on the glowing items as you accomplish the other objectives.|RANK|2|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
 C Saving Stellagosa|QID|37450|QO|2|M|40.48,56.36|N|Kill and Loot Lykill to get the key to Stellagosa's bonds.|T|Overseer Lykill|
+t Saving Stellagosa|QID|37450|M|PLAYER|N|To Kor'vas Bloodthorn following you around.|
 $ Treasure Chest|QID|38316|M|40.57,57.66|N|Loot for a bit of treasure and resources.|RANK|2|
 C Saving Stellagosa|QID|37450|QO|3|M|38.23,57.60;38.01,58.35;37.69,57.62|CN|H|N|Click on the locks to free Stellagosa.|
-C Fel Machinations|QID|37656|M|40.05,48.80|H|N|Free the prisoners as you go.|
+C Fel Machinations|QID|37656|M|37.81,49.83;39.04,47.59;39.30,46.49;38.83,44.89;37.88,46.64;38.22,49.13|CN|H|N|Free the prisoners as you go.|
 $ Cache of Infernals|QID|38037|M|35.38,50.37|N|Silver - Click on the pile of rocks to start spawning infernals, 3rd wave is the silver.|RANK|2|
 K Kill Ragemaw|QID|44108|QO|1|M|32.57,48.74|ITEM|129075|T|Ragemaw|N|Silver - Kill and loot for some treasure and resources.|RANK|2|RARE|
 t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon completion.|
-T Saving Stellagosa|QID|37450|M|PLAYER|N|To Kor'vas Bloodthorn following you around.|
+
 T Fel Machinations|QID|37656|M|PLAYER|N|To Kor'vas Bloodthorn.|
 A Dark Revelations|QID|37449|PRE|37656&37450|M|PLAYER|N|From Kor'vas Bloodthorn.|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S|FLY|OLD|
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Right click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S|FLY|OLD|
 K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|RARE|
-R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US|FLY|OLD|
+R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Right click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US|FLY|OLD|
 f Illidari Perch|ACTIVE|37449|M|31.81,46.27|N|At Jena Moonrath.|RANK|3|
 K Kill Houndmaster Stroxis|QID|42286|QO|1|M|30.82,47.61|N|Silver - Kill and loot for some treasure and resources. Pull him into Illidari perch to get help from the Illidari|RANK|3|RARE|
 $ Treasure Chest|QID|44105|M|26.25,47.14|N|Loot for a bit of treasure and resources.|RANK|3|
@@ -86,7 +87,7 @@ f Azurewing Repose|ACTIVE|38443|M|48.43,28.08|N|At Dagrona.|
 T Journey to the Repose|QID|38443|M|47.94,27.19|N|To Archmage Khadgar.|
 A The Death of the Eldest|QID|37853|PRE|38443|M|47.94,27.19|N|From Archmage Khadgar.|
 C The Death of the Eldest|QID|37853|QO|1|M|48.87,21.38|S|N|Kill and loot Leyworms.|
-$ Treasure Chest|QID|42289|M|48.16,27.90;51.53,24.33|CS|N|Loot for a bit of treasure and resources.|RANK|2|
+$ Treasure Chest|QID|42289|M|48.16,27.90;48.15,24.00;48.69,21.56;51.53,24.33|CS|N|Loot for a bit of treasure and resources at the back of the cave.|RANK|2|
 C The Death of the Eldest|QID|37853|QO|1|M|48.87,21.38|US|N|Kill and loot Leyworms.|
 C The Death of the Eldest|QID|37853|QO|2|M|48.06,26.66|CHAT|N|Throw crystals into Senegos's pool.|EAB|
 T The Death of the Eldest|QID|37853|M|47.95,27.15|CS|N|To Stellagosa.|
@@ -115,7 +116,6 @@ A Runas the Shamed|QID|37957|PRE|37855|M|46.64,15.80|N|From Stellagosa.|
 C Runas the Shamed|QID|37957|QO|1|M|45.61,15.47;42.98,17.53|CS|N|Attempt to slay Runas the Shamed.|
 C Runas the Shamed|QID|37957|QO|2|M|48.60,16.35|NC|N|Escort Runas to Senegos.|
 T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
-A Runas Knows the Way|QID|37857|PRE|37856&37957&37859|M|49.22,16.08|N|From Runas the Shamed.|
 R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|FLY|OLD|
 A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-45|CT|
 C A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|S|US|N|Kill the hostiles, destroy the barrels of tainted barrels to advance the objective.|RANK|3|
@@ -130,6 +130,7 @@ t A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto turned in whe
 f Challiane's Terrace|ACTIVE|38203|M|40.81,8.98|N|At Stagtamer Maliana.|RANK|3|
 T Challiane Vineyards|QID|38203|M|40.78,9.33|N|To Cellarman Voodani.|RANK|3|
 R Azurewing Whelplands|QID|37857|M|53.50,16.68|N|Back to the interupted quest line.|RANK|3|FLY|OLD|
+A Runas Knows the Way|QID|37857|PRE|37856&37957&37859|M|49.22,16.08|N|From Runas the Shamed.|
 C Runas Knows the Way|QID|37857|QO|1|M|53.50,16.68|CHAT|N|Tell Runas, to just lead the way, and then follow along with Runas.|
 T Runas Knows the Way|QID|37857|M|53.38,16.21|N|To Projection of Senegos.|
 A Leyline Abuse|QID|37960|PRE|37857|M|53.38,16.21|N|From Projection of Senegos.|
@@ -155,8 +156,8 @@ T Leyline Abuse|QID|37960|M|53.37,16.24|N|To Projection of Senegos.|
 A The Nightborne Prince|QID|37861|PRE|37959&37960|M|53.37,16.24|N|From Projection of Senegos.|
 A You Scratch My Back...|QID|37860|PRE|37959&37960|M|53.77,16.81|N|From Runas the Shamed.|
 C You Scratch My Back...|QID|37860|QO|1;3;2;4|CS|M|56.40,15.22;56.91,13.84;56.39,13.85;55.59,13.67|NC|N|Click on your special action button to send in the whelplings to disable the mana pylons.|EAB|
-$ Treasure Chest|QID|37958|M|57.89,12.23|N|Treasure chest containing items and resources.|RANK|2|
 T You Scratch My Back...|QID|37860|M|56.90,14.01|N|To UI Alert.|
+$ Treasure Chest|QID|37958|M|57.89,12.23|N|Treasure chest containing items and resources.|RANK|2|
 C Opposites Repel|QID|39937|QO|1|M|55.62,17.50|US|N|Kill and loot the Nightfallen for their Ley Dust.|P|Inscription;773;6|
 C Opposites Repel|QID|39937|QO|2|M|54.00,15.31|N|Combine the ley dust into a pigment.|U|129105|P|Inscription;773;6|
 T Opposites Repel|QID|39937|M|54.00,15.31|N|To Baric Stormrunner.|P|Inscription;773;6|
@@ -170,7 +171,7 @@ t Those Beyond Redemption-Bonus Objective|QID|37963|M|55.47,16.63|N|Auto turned 
 C The Nightborne Prince|QID|37861|QO|1|M|56.12,13.3; 57.58,12.44|N|Stairway up to Ael'Yith starts here.|CS|T|Ael'Yith|
 T The Nightborne Prince|QID|37861|M|57.55,13.52|N|To Stellagosa.|
 A Still Alive|QID|37862|PRE|37861|M|57.55,13.52|N|From Stellagosa.|
-R Azurewing Repose|ACTIVE|37862|M|PLAYER|V|N|Chat with Stellagosa, Let's get back to Azurewing Repose.|
+R Azurewing Repose|ACTIVE|37862|M|PLAYER|CHAT|N|Chat with Stellagosa, Let's get back to Azurewing Repose.|
 T Still Alive|QID|37862|M|49.92,26.55|N|To Stellagosa after she lands.|
 A On the Brink|QID|38015|PRE|37862|M|49.92,26.55|N|From Stellagosa.|
 A Feasting on the Dragon|QID|38014|PRE|37862|M|49.65,26.80|N|From Archmage Khadgar.|
@@ -276,10 +277,11 @@ T Into the Academy|QID|37468|M|59.44,80.34;53.34,47.81|Z|Nar'thalas Academy|CS|N
 A Dressing With Class|QID|37736|PRE|37468|M|53.34,47.81|Z|Nar'thalas Academy|N|From Thyrillion.|
 A Hit the Books|QID|37678|PRE|37468|M|53.02,47.80|Z|Nar'thalas Academy|N|From Andellis.|
 C Dressing With Class|QID|37736|QO|4|M|55.01,51.52|Z|Nar'thalas Academy|H|N|The spellbook is in this bookcase.|
-K Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|Nar'thalas Academy|S|US|T|Ancient Tome|N|Kill the books as you go along.|
+K Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|Nar'thalas Academy|S|T|Ancient Tome|N|Kill the books as you go along.|
 C Dressing With Class|QID|37736|QO|3|M|66.24,72.76|Z|Nar'thalas Academy|H|N|The wand is lying against the wall.|
 $ Small Treasure Chest|QID|42284|M|62.00,83.74|Z|Nar'thalas Academy|N|Loot for a bit of treasure and resources.|RANK|2|
 C Dressing With Class|QID|37736|QO|2|M|59.46,84.76|Z|Nar'thalas Academy|H|N|Take the robes from the sleeping student.|
+K Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|Nar'thalas Academy|US|T|Ancient Tome|N|Kill the books as you go along.|
 C Dressing With Class|QID|37736|QO|1|M|55.61,56.08|Z|Nar'thalas Academy|H|N|The hat is on the ground.|
 T Hit the Books|QID|37678|M|53.13,47.77|Z|Nar'thalas Academy|N|To Andellis.|
 T Dressing With Class|QID|37736|M|53.33,47.69|Z|Nar'thalas Academy|N|To Thyrillion.|
