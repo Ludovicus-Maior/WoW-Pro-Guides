@@ -322,7 +322,7 @@ A The Harvester|QID|897|N|Click on Harvester's Head to accept the quest.|U|5138|
 A Washte Pawne|QID|885|N|Click on Washte Pawne's Feather to accept the quest.|U|5103|O|
 ; ---
 K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead near Camp Taurajo.|T|Owatanka|S!US|IZ|Southern Barrens|
-K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead. near Camp Taurajo|T|Owatanka|S!US|IZ|Southern Gold Road|
+K Owatanka|AVAILABLE|884|N|Keep an eye out on either side of the road for a blue Thunderhead near Camp Taurajo.|T|Owatanka|S!US|IZ|Southern Gold Road|
 K The Harvester|AVAILABLE|897|N|Have a quick look around and see if you can locate this mob. Check both sides of the road.\n[color=FF0000]NOTE: [/color]This is probably the hardest one of Jorn Skyseer's rare quest kills to find.\nSkip this step if you give up waiting/looking.|T|Silithid Harvester|S!US|IZ|Field of Giants|
 C Egg Hunt|QID|868|M|43.60,69.82|Z|1413|L|5058 12|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
 K Washte Pawne|AVAILABLE|885|N|Before leaving the area, have a look around and see if you can locate this mob. It sometimes spawns across the road.\n[color=FF0000]NOTE: [/color]This mob is tameable and therefore, be respectful of Hunters who may be in the area looking for it.\nSkip this step if you give up waiting/looking.|T|Washte Pawne|S!US|IZ|Blackthorn Ridge|
@@ -334,6 +334,7 @@ l Weapons of Choice|ACTIVE|893|M|43.31,81.04|Z|1413|QO|1;2;3|N|Pathfinders/Stalk
 N 3 rare quest mobs|AVAILABLE|884^885^897|N|You're now going to head back to Camp Taurajo. As you make your way back there, keep an eye out for Jorn Skyseer's rare quest kills.\nDo not go out of your way to find them.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R Camp Taurajo|ACTIVE|893|M|44.76,58.68|Z|1413|
 T Weapons of Choice|QID|893|M|45.10,57.69|Z|1413|N|To Tatternack Steelforge.|
+T Lakota'mani|QID|883|M|44.86,59.14|Z|1413|N|To Jorn Skyseer.|
 T Washte Pawne|QID|885|M|44.86,59.14|Z|1413|N|To Jorn Skyseer.|
 T Owatanka|QID|884|M|44.86,59.14|Z|1413|N|To Jorn Skyseer.|
 T The Harvester|QID|897|M|44.86,59.14|Z|1413|N|To Jorn Skyseer.|
@@ -506,22 +507,22 @@ F Orgrimmar|ACTIVE|1195|N|Head to your nearest Flight Master and fly to Orgrimma
 H Orgrimmar|ACTIVE|1195|M|PLAYER| ; This step should auto-complete if you took the flight.
 = Level 30|ACTIVE|1195|N|Do your lv 30 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|30|
 ; --- Warlock Felhunter quest
-N Felhunter quest|AVAILABLE|2996|N|Before finishing up this guide, we're going to get started on your quest to unlock your Felhunter.\nHaving a mount will make this a little quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
-A Seeking Strahad|QID|2996|M|48.24,45.27|Z|1454|N|From Gan'rul Bloodeye.|C|Warlock|
+N Felhunter quest|AVAILABLE|2996&3001|N|Before finishing up this guide, we're going to get started on your quest to unlock your Felhunter.\nHaving a mount will make this a little quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+A Seeking Strahad|QID|2996|AVAILABLE|3001|M|48.24,45.27|Z|1454|N|From Gan'rul Bloodeye.|C|Warlock|
 F Ratchet|ACTIVE|2996|M|45.14,63.91|Z|1454|N|Head to the flightmaster and take a flight to Ratchet.|
 T Seeking Strahad|QID|2996|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|
-A Tome of the Cabal|QID|1801|PRE|2996|M|62.63,35.50|Z|1413|N|From Strahad Farsan.|
+A Tome of the Cabal|QID|1801|PRE|2996^3001|M|62.63,35.50|Z|1413|N|From Strahad Farsan.|
 F Orgrimmar|ACTIVE|1801|M|63.07,37.14|Z|1413|
 b Tirisfal Glades|ACTIVE|1801|M|50.89,13.86|Z|1411|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
 R Undercity|ACTIVE|1801|M|61.86,65.04|Z|1420|N|Enter Undercity.|
 T Tome of the Cabal|QID|1801|M|75.90,37.91|Z|1458|N|To Jorah Annison, at the inner ring of the Magic Quarter.|
-A Tome of the Cabal|QID|1803|M|75.90,37.91|Z|1458|N|From Jorah Annison.|PRE|1801|
-F Tarren Mill|ACTIVE|1803|M|63.28,48.54|Z|1458|N|Head to the flightmaster and take a flight to Tarren Mill.|
-R Western Strand|ACTIVE|1803|M|34.35,65.74|Z|1424|N|Mount up and make a run for it.|
+A Tome of the Cabal|QID|1803|PRE|1801|M|75.90,37.91|Z|1458|N|From Jorah Annison.|
+F Tarren Mill|ACTIVE|1803|QO|1|M|63.28,48.54|Z|1458|N|Head to the flightmaster and take a flight to Tarren Mill.|IZ|Undercity|
+R Western Strand|ACTIVE|1803|QO|1|M|34.35,65.74|Z|1424|N|Mount up and make a run for it.|
 C Moldy Tome|QID|1803|M|27.78,72.77|Z|1424|L|6931|N|Loot the Moldy Tome from the ground near the hut.|
-R Tarren Mill|ACTIVE|1803|M|59.35,21.06|Z|1424|N|Mount up and make your way back to Tarren Mill.|
-F Undercity|ACTIVE|1803|M|60.15,18.63|Z|1424|N|Head to the flightmaster and take a flight to Undercity.|
-b Durotar|ACTIVE|1803|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin to Durotar.|
-R Orgrimmar|ACTIVE|1803|M|49.13,94.50|Z|Orgrimmar|
+R Tarren Mill|ACTIVE|1803|M|59.35,21.06|Z|1424|N|Mount up and make your way back to Tarren Mill.|IZ|Hillsbrad Foothills|
+F Undercity|ACTIVE|1803|M|60.15,18.63|Z|1424|N|Head to the flightmaster and take a flight to Undercity.|IZ|Hillsbrad Foothills|
+b Durotar|ACTIVE|1803|AVAILABLE|1196|M|60.71,58.78|Z|1420|N|Exit Undercity and take the Zeppelin to Durotar.|
+R Orgrimmar|ACTIVE|1803|AVAILABLE|1196|M|49.13,94.50|Z|Orgrimmar|
 ]]
 end)
