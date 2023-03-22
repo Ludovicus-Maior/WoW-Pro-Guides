@@ -168,7 +168,7 @@ C One Dragon's Junk...|QID|74442|M|28.91,56.75|Z|2151;The Forbidden Reach|QO|1|N
 A The Forgotten Ring|QID|73155|PRE|74294|M|29.79,57.18|Z|2151;The Forbidden Reach|N|From the Unusual Ring on the floor.|
 C Zskera Vault: Az|QID|72953|M|29.05,56.27|Z|2151;The Forbidden Reach|QO|4|NC|N|Climb Web Rope to second floor.|
 C Zskera Vault: Az|QID|72953|M|28.66,56.07|Z|2151;The Forbidden Reach|QO|3|NC|N|Doors opened with Zskera Vault Keys.|
-;N You can farm rares outside for more Keys but you are going to need at least 3 more to finish the quests.| 
+;N You can farm rares outside for more Keys but you are going to need at least 3 more to finish the quests.|
 T Zskera Vault: Az|QID|72953|M|29.09,57.01|Z|2151;The Forbidden Reach|N|To Pathfinder Jeb.|
 A What's Behind The Next Door|QID|73089|PRE|72953|M|29.19,53.09|Z|2151;The Forbidden Reach|N|From Pathfinder Tacha.|
 T One Dragon's Junk...|QID|74442|M|29.23,52.98|Z|2151;The Forbidden Reach|N|To Voraxian.|
