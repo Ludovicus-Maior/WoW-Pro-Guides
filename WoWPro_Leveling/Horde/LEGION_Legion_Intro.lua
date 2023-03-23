@@ -34,7 +34,7 @@ C Krosus|QID|40518|SO|8|Z|Broken Shore|T|Krosus|N|Kill Krosus.|
 C Hold The Ridge|QID|40518|SO|9|Z|BrokenShore|N|Hold the ridge until the Alliance have stopped Gul'dan.|
 T The Battle for Broken Shore|QID|40518|M|57.19,10.53|Z|1; Durotar|N|To Eitrigg.|
 A Fate of the Horde|QID|40522|PRE|40518|M|57.19,10.53|Z|1; Durotar|N|From Eitrigg.|
-C High Overlord Saurfang|QID|40522|QO|1;2|M|50.02,75.92|Z|85; Orgrimmar|CHAT|N|Report to Saurfang outside of Grommash Hold (in Orgrimmar).|
+C High Overlord Saurfang|QID|40522|QO|1|M|50.02,75.92|Z|85; Orgrimmar|CHAT|N|Report to Saurfang outside of Grommash Hold (in Orgrimmar).|
 C Fate of the Horde|QID|40522|QO|3|M|48.57,71.67|Z|85; Orgrimmar|NC|N|They will dialog for a bit and then a cutscene will begin. Just wait out.|
 C Lady Sylvanas Windrunner|QID|40522|QO|4|M|45.70,15.88|Z|1; Durotar|CHAT|N|Back outside Orgrimmar to pledge to Warchief Lady Sylvanas Windrunner.|
 T Fate of the Horde|QID|40522|M|45.70,15.88|Z|1; Durotar|N|To Lady Sylvanas Windrunner.|

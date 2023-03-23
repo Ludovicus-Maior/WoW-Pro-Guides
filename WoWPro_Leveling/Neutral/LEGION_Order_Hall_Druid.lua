@@ -17,8 +17,8 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 A A Summons From Moonglade|QID|40643|PRE|44663|M|57.77,44.90|Z|Dalaran@Dalaran70|N|From Archdruid Hamuul Runetotem.|
-T A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|Use Teleport Moonglade when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|LVL|22|C|Druid|
-T A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|Use the Mossy Hearthstone when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|LVL|-22|C|Druid|U|173716|
+T A Summons From Moonglade|QID|40643|M|56.24,31.88|Z|80;Moonglade|N|Use Teleport Moonglade when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|LVL|22|C|Druid|
+T A Summons From Moonglade|QID|40643|M|56.24,31.88|Z|80;Moonglade|N|Use the Mossy Hearthstone when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|LVL|-22|C|Druid|U|173716|
 A Call of the Wilds|QID|41106|M|56.28,31.86|Z|Moonglade|N|From Archdruid Hamuul Runetotem.|PRE|40643|
 C Call of the Wilds|QID|41106|QO|1|M|43.61,53.15|Z|Moonglade|CHAT|N|Speak to Zen'tabra|
 C Call of the Wilds|QID|41106|NC|QO|2|M|55.21,71.01|Z|Moonglade|N|Sniff Naralex's pillow.|
@@ -345,7 +345,7 @@ T The Shrine of Ashamane|QID|42428|M|70.38,46.68|Z|Val'sharah|N|To Delandros Shi
 A Aid for the Ashen|QID|42439|M|70.38,46.68|Z|Val'sharah|N|From Delandros Shimmermoon.|PRE|42428|
 A Seeds of Renewal|QID|42438|M|70.38,46.68|Z|Val'sharah|N|From Delandros Shimmermoon.|PRE|42428|
 C Aid for the Ashen|QID|42439|M|71.01,38.24|Z|Val'sharah|N|Rescue the Ashen Druids by killing thier torturers. Don't go out of the marked quest area, even tho you see more druids over there, they will phase out.|S|
-C Seeds of Renewal|QID|42438|NC|QO|1|M|70.05,42.40;71.69,43.10;71.01,38.24|Z|Val'sharah|CN|N|Search the bodies to find the seeds.|
+l Tel'andru Seed|ACTIVE|42438|QO|1|M|70.05,42.40;71.69,43.10;71.01,38.24|Z|Val'sharah|CN|N|Search the bodies to find the seeds.|
 C Aid for the Ashen|QID|42439|M|73.09,41.04|Z|Val'sharah|N|Finish up rescuing druids and head back towards the turn in.|US|
 T Seeds of Renewal|QID|42438|M|73.23,42.66|Z|Val'sharah|N|To Delandros Shimmermoon.|
 T Aid for the Ashen|QID|42439|M|73.23,42.66|Z|Val'sharah|N|To Delandros Shimmermoon.|
@@ -354,16 +354,15 @@ C The Shrine in Peril|QID|42440|NC|QO|1|M|73.76,40.63|Z|Val'sharah|N|Investigate
 C The Shrine in Peril|QID|42440|QO|2|M|73.81,39.18|Z|Val'sharah|N|Kill Algromon|T|Algromon|
 T The Shrine in Peril|QID|42440|M|73.84,38.44|Z|Val'sharah|N|To Delandros Shimmermoon.|
 A The Fangs of Ashamane|QID|42430|M|73.84,38.44|Z|Val'sharah|N|From Delandros Shimmermoon.|PRE|42440|
-C The Fangs of Ashamane|QID|42430|NC|QO|1|M|73.75,38.39|Z|Val'sharah|N|What, a druid using a mount.../sigh.|
-C On the Prowl|QID|42430|SO|1|M|20.33,40.45|Z|Suramar|N|You've come to the ruins of Falanaar in search of Verstok and the Fangs of Ashamane. Search for clues as to where Verstok has disappeared to.|S|
-C Doorway Opened|QID|42430|SO|2;1|M|21.85,37.24;22.83,36.11|CN|Z|Suramar|N|Click the switches at these locations. (Be aware of the mobs that see stealth), then follow the scent to the doorway which will now be open.|
+C The Fangs of Ashamane|QID|42430|V|QO|1|M|73.75,38.39|Z|Val'sharah|N|What, a druid using a mount.../sigh.|
+C On the Prowl|QID|42430|SO|1|M|20.33,40.45|Z|Suramar|N|You've come to the ruins of Falanaar in search of Verstok and the Fangs of Ashamane.\nSearch for clues as to where Verstok has disappeared to.|S|
+C Doorway Opened|QID|42430|SO|2;1|M|21.85,37.24;23.19,37.82|CN|Z|Suramar|H|N|Click the switches at these locations. (Be aware of the mobs that see stealth), then follow the scent to the doorway which will now be open.|
 C Follow Verstok's trail into the temple depths|QID|42430|SO|3;1|M|54.47,40.89|Z|Falanaar Tunnels0|V|N|Follow Verstok's trail into the temple depths. Must be in Cat Form. Jump (vehicle style arrow) on the platform near the blocked gate to jump over the gate.|
 C Defeat Verstok|QID|42430|SO|4;1|M|43.23,21.80|Z|Falanaar Tunnels0|N|Defeat Verstok or at least try for awhile.|
 C Chase after Verstok|QID|42430|SO|5;1|M|47.72,15.09|Z|Falanaar Tunnels0|N|Work your way deeper into the Shattered Locus.|
-C In a Tangled Web|QID|42430|SO|6;1|M|53.08,18.18|Z|693|N|Slay the Webmistress.|T|Webmistress Shinaris|;need correct (nonnumeric) z)
-C Retrieve the Fangs of Ashamane|QID|42430|SO|7;1|M|54.82,20.59|Z|693|N|Retrieve the Fangs of Ashamane.|;need correct (nonnumeric)Z
-C To the Grove|QID|42430|SO|8;1|M|54.76,19.57|Z|693|N|Hop on Ebonfang to return to the Dreamgrove.|;need correct (nonnumeric)Z
-T The Fangs of Ashamane|QID|42430|M|44.49,51.10|N|To Rensar Greathoof.|
+C In a Tangled Web|QID|42430|SO|6;1|M|53.08,18.18|Z|693;Falanaar Tunnels0|N|Slay the Webmistress.|T|Webmistress Shinaris|;need correct (nonnumeric) z)
+C Retrieve the Fangs of Ashamane|QID|42430|SO|7;1|M|54.82,20.59|Z|693;Falanaar Tunnels0|H|N|Retrieve the Fangs of Ashamane.|;need correct (nonnumeric)Z
+T The Fangs of Ashamane|QID|42430|M|44.49,51.10|N|Take Ebonfang right next to you then turn in to Rensar Greathoof.|
 ;GUARDIAN
 ;A Mistress of the Claw|QID|41468|M|44.53,51.10|N|From Rensar Greathoof.|PRE|40646|
 T Mistress of the Claw|QID|41468|CS|M|46.88,29.22;39.66,0.01|N|Enter the Barrow Den and follow it's twisty course to find Lea Stonepaw.|
@@ -451,7 +450,7 @@ f The Dreamgrove|QID|42438|M|61.70,33.74|N|At Danise Stargazer.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
-P Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|56.51,43.07|N|Take the portal to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
+P Dalaran|QID|39718^39864^39731^39733^39735|M|56.51,43.07|Z|627;Dalaran!Broken Isles|N|Take the portal to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ;4th spec
 A Weapons of the Ancient|QID|44443|M|44.55,51.02|N|From Rensar Greathoof.|PRE|44431|ACH|11174;;true|
 C Weapons of the Ancient|QID|44443|M|44.55,51.02|NC|N|Choose the last one.|
