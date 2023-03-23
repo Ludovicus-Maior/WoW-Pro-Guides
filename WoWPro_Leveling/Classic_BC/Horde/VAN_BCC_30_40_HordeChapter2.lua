@@ -496,7 +496,7 @@ T Hammerfall|QID|655|M|74.72,36.29|Z|1417|N|To Tor'gan.|
 
 ; --- Wetlands (Warlock Felhunter quest)
 R Thandol Span|ACTIVE|1805|M|49.5,45.2;44.30,87.56|CC|Z|1417|N|Return to the sign post at the main road and follow the road south.|
-R Dun Modir|ACTIVE|1805|M|50.58,14.05|Z|1437|N|Cross the bridge and start following the road south.|
+R Dun Modr|ACTIVE|1805|M|50.58,14.05|Z|1437|N|Cross the bridge and start following the road south.|
 R Angerfang Encampment|ACTIVE|1805|M|48.97,44.34|Z|1437|N|Continue south over the bridge, through the cemetary and up the hill.|
 C Rod of Channeling|ACTIVE|1805|L|6930 3|ITEM|6930|N|Dragonmaw Bonewarder/Shadowwarder\n[color=FF0000]NOTE: [/color]These mobs will be grey to you.|
 

@@ -407,22 +407,23 @@ H Orgrimmar|ACTIVE|1436|M|PLAYER|
 T Alliance Relations|QID|1436|M|22.27,53.74|Z|1454|N|To Keldran.|
 F Thunder Bluff|AVAILABLE|544|M|21.60,74.13|Z|1443|C|Druid|
 = Level 36 training|AVAILABLE|544|N|Do your lv 36 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|36|
-A Knowledge of the Orb of Orahil|QID|4967|AVAILABLE|4969|M|48.46,45.44|Z|1454|N|From Zevrost.\n[color=FF0000]NOTE: [/color]This is the quest chain to earn your Shadow/Fire Orb or Staff.|C|Warlock|LVL|36|
+A Knowledge of the Orb of Orahil|QID|4967|AVAILABLE|4968&4969|M|48.46,45.44|Z|1454|N|From Zevrost.\n[color=FF0000]NOTE: [/color]This is the quest chain to earn your Shadow/Fire Orb or Staff.|C|Warlock|LVL|36|
 F Ratchet|ACTIVE|4967|M|45.13,63.90|Z|1454|
 T Components for the Enchanted Gold Bloodrobe|QID|4783|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 A Components for the Enchanted Gold Bloodrobe|QID|4784|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4783|C|Warlock|
-T Knowledge of the Orb of Orahil|QID|4967^4969|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
-A Fragments of the Orb of Orahil|QID|1799|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4967|
-N Felhound/Infernal|AVAILABLE|4962&4963|N|At this point, you have to choose between the Felhound (Shadow) and Infernal (Fire).\n[color=FF0000]NOTE: [/color]You cannot do both quests.|C|Warlock|
-A Shard of a Felhound|QID|4962|ACTIVE|-4963|AVAILABLE|4963|M|62.64,35.30|Z|1413|N|From Acolyte Wytula.\n[color=FF0000]NOTE: [/color]Skip this step if you want the Infernal.|C|Warlock|
-A Shard of an Infernal|QID|4963|ACTIVE|-4962|AVAILABLE|4962|M|62.56,35.23|Z|1413|N|From Acolyte Magaz.|C|Warlock|
+T Knowledge of the Orb of Orahil|QID|4967^4968^4969|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
+A Fragments of the Orb of Orahil|QID|1799|M|62.51,35.45|Z|1413|N|From Menara Voidrender.|PRE|4967^4968^4969|
+N Felhound/Infernal|AVAILABLE|4962&4963|N|At this point, you must choose between the Felhound (Shadow) and Infernal (Fire).\n[color=FF0000]NOTE: [/color]You cannot do both quests.\nManually check this step off to continue.|C|Warlock|
+A Shard of a Felhound|QID|4962|AVAILABLE|4963|PRE|4967^4968^4969|M|62.64,35.30|Z|1413|N|From Acolyte Wytula.\n[color=FF0000]NOTE: [/color]Skip this step if you want the Infernal.|C|Warlock|
+A Shard of an Infernal|QID|4963|AVAILABLE|4962|PRE|4967^4968^4969|M|62.56,35.23|Z|1413|N|From Acolyte Magaz.|C|Warlock|
 F Shadowprey Village|ACTIVE|1799^4962^4963|M|63.09,37.16|Z|1413|C|Warlock|
+C Infernal Orb|ACTIVE|1799|L|7291|ITEM|7291|N|Burning Blade Summoner|S|C|Warlock|
 R Mannoroc Coven|ACTIVE|1799^4962^4963|M|46.89,75.16|Z|1443|N|Follow the main road east out of Shadowprey Village.|C|Warlock|
-C Infernal Orb|ACTIVE|1799|L|7291|ITEM|7291|N|Burning Blade Summoner|C|Warlock|
+C Infernal Orb|ACTIVE|1799|L|7291|ITEM|7291|N|Burning Blade Summoner|US|C|Warlock|
 C Imprisoned Felhound Spirit|QID|4962|M|52.23,68.09|Z|1443|L|12648|ITEM|12648|N|Use the Felhas Ruby on a Mana Eater.|T|Mana Eater|U|12647|
 C Imprisoned Infernal Spirit|QID|4963|L|12649|ITEM|12649|N|Use the Infus Emerald on a Lesser Infernal.|T|Lesser Infernal|U|12646|
-R Shadowprey Village|ACTIVE|4785^1799|M|26.50,75.15|Z|1443|N|Return to Shadowprey Village.|IZ|1443|
-F Ratchet|ACTIVE|4785|M|21.60,74.13|Z|1443|
+R Shadowprey Village|ACTIVE|4785^1799^4962^4963|M|26.50,75.15|Z|1443|N|Return to Shadowprey Village.|IZ|1443|
+F Ratchet|ACTIVE|4785^4962^4963|M|21.60,74.13|Z|1443|
 T Shard of a Felhound|QID|4962|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 T Shard of a Infernal|QID|4963|M|62.51,35.45|Z|1413|N|To Menara Voidrender.|
 b Booty Bay|ACTIVE|4785|M|63.70,38.63|Z|1413|N|Take the boat to Booty Bay.|
@@ -483,7 +484,7 @@ T Hammerfall|QID|655|M|74.72,36.29|Z|1417|N|To Tor'gan.|
 
 ; --- Wetlands (Warlock Felhunter quest)
 R Thandol Span|ACTIVE|1805|M|49.5,45.2;44.30,87.56|CC|Z|1417|N|Return to the sign post at the main road and follow the road south.|
-R Dun Modir|ACTIVE|1805|M|50.58,14.05|Z|1437|N|Cross the bridge and start following the road south.|
+R Dun Modr|ACTIVE|1805|M|50.58,14.05|Z|1437|N|Cross the bridge and start following the road south.|
 R Angerfang Encampment|ACTIVE|1805|M|48.97,44.34|Z|1437|N|Continue south over the bridge, through the cemetary and up the hill.|
 C Rod of Channeling|ACTIVE|1805|L|6930 3|ITEM|6930|N|Dragonmaw Bonewarder/Shadowwarder\n[color=FF0000]NOTE: [/color]These mobs will be grey to you.|
 
