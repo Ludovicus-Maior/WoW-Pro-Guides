@@ -1,3 +1,29 @@
+# Release 2023.03.23.A
+## Bug Fixes
+* Added HOA (Heart of Azeroth) tag for quest gating
+* Added DF support to releases table
+* Added new command: **/wp trade-bug** for debugging tradeskills issues
+* Fixed wildcard Professions tag support
+* WoLK switched to using the `C_Container` API (Why Blizzard?)
+* Updated zone data for DF
+* Fixed TrashItem tag function (Blizzard changed the security level of some functions)
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* World Events: Lunar Festival, Love is in the Air
+* Achievements: FR Dragon Riding Glyphs
+* Dailies: Pandaria Pet Leveling
+* Leveling: 54 guides were updated. @Cagomei and @Hendo have been quite busy!
+### Classic
+* No Classic guides were harmed during this release
+### WotLK
+* Alliance: Howling Fjord, Icecrown
+* Horde: Blef Intro, Ghostlands, Horde Chapter 1+2, Felwood, Winterspring
+
 # Release 2023.02.05.A
 ## Bug Fixes
 * Fixed message spam for Recipe's and PRE&
@@ -10,7 +36,7 @@
 ### Retail
 * World Events: Lunar Festival, DF Lunar Festival
 * Alliance: Twilight Highlands, Vashjir
-* Horde: Nazjatar, War Campaign, Azshara, Ghostlands, Intros for Belf, Forsakem, Orc/Troll, Tauren, WOLK Intro
+* Horde: Nazjatar, War Campaign, Azshara, Ghostlands, Intros for Belf, Forsaken, Orc/Troll, Tauren, WOLK Intro
 * Neutral: DF Campaign, KunLai Summit
 ### Classic
 * No Classic guides were harmed during this release

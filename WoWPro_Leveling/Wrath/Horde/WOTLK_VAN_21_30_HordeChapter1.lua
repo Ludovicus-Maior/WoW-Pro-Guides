@@ -503,12 +503,14 @@ B Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or k
 F Tarren Mill|ACTIVE|515|M|63.26,48.54|Z|1458|
 
 ; --- The Barrens
-F Orgrimmar|ACTIVE|1195|N|Head to your nearest Flight Master and fly to Orgrimmar to take care of any training or anything else you wish to do before starting the next chapter.|IZ|1413| ; No point burning your Hearth if you don't have to.
-H Orgrimmar|ACTIVE|1195|M|PLAYER| ; This step should auto-complete if you took the flight.
+F Orgrimmar|ACTIVE|1195|N|Head to your nearest Flight Master and fly to Orgrimmar to take care of any training or anything else you wish to do before starting the next chapter.|IZ|1413; The Barrens|C|-Warlock| ; No point burning your Hearth if you don't have to.
+H Orgrimmar|ACTIVE|1195|M|PLAYER|C|-Warlock ; This step should auto-complete if you took the flight.
 = Level 30|ACTIVE|1195|N|Do your lv 30 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|30|
 ; --- Warlock Felhunter quest
 N Felhunter quest|AVAILABLE|2996&3001|N|Before finishing up this guide, we're going to get started on your quest to unlock your Felhunter.\nHaving a mount will make this a little quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
-A Seeking Strahad|QID|2996|AVAILABLE|3001|M|48.24,45.27|Z|1454|N|From Gan'rul Bloodeye.|C|Warlock|
+F Undercity|ACTIVE|515|M|60.14,18.63|Z|1424|N|Go get the Strong Troll's Blood Potion.|
+A Seeking Strahad|QID|2996|AVAILABLE|3001|M|48.24,45.27|Z|1454|N|From Gan'rul Bloodeye.|C|Warlock| ; In case they left without getting it in UC - Hendo72
+A Seeking Strahad|QID|2996|AVAILABLE|3001|M|48.24,45.27|Z|1454|N|From Gan'rul Bloodeye.|C|Warlock| ; In case they left without getting it in UC - Hendo72
 F Ratchet|ACTIVE|2996|M|45.14,63.91|Z|1454|N|Head to the flightmaster and take a flight to Ratchet.|
 T Seeking Strahad|QID|2996|M|62.63,35.50|Z|1413|N|To Strahad Farsan.|
 A Tome of the Cabal|QID|1801|PRE|2996^3001|M|62.63,35.50|Z|1413|N|From Strahad Farsan.|
