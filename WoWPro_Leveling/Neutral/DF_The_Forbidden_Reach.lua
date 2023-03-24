@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('The Forbidden Reach', 'Leveling', 'The Forbidden Reach', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('The Forbidden Reach', 'Leveling', 'The Forbidden Reach', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, "DF_Campaign")
 WoWPro:GuideName(guide,"The Forbidden Reach")
