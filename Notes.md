@@ -1,8 +1,8 @@
-# Release 2023.03.24.A
+# Release 2023.03.24.B
 ## Guide Updates
 ### Retail
 * Whoops! Forbidden Reach is Neutral not Alliance only
-
+* Update Interface for Retail to 100007
 
 # Release 2023.03.23.A
 ## Bug Fixes
