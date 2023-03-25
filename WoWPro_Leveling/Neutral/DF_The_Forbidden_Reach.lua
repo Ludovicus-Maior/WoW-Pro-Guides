@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('The Forbidden Reach', 'Leveling', 'The Forbidden Reach', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('The Forbidden Reach', 'Leveling', 'The Forbidden Reach', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, "DF_Campaign")
 WoWPro:GuideName(guide,"The Forbidden Reach")
@@ -143,9 +143,9 @@ A Chasing the Flame|QID|73137|M|58.76,70.29|Z|2151;The Forbidden Reach|N|From Sc
 T Chasing the Flame|QID|73137|M|74.34,36.90|Z|2151;The Forbidden Reach|N|To Scalecommander Emberthal.|
 A A Creche Divided|QID|72717|M|74.34,36.90|Z|2151;The Forbidden Reach|N|From Scalecommander Emberthal.|
 C A Creche Divided|QID|72717|QO|4|M|10.98,62.63|Z|2151;The Forbidden Reach|N|Forbidden Memoire Examined.|S|
-K Failed Scalecommander Elarthresh|QID|72717|QO|1|M|74.34,36.90|Z|2151;The Forbidden Reach|N|Kill Failed Scalecommander Elarthresh.|
-K Failed Scalecommander Abereth|QID|72717|QO|3|M|35.97,36.67|Z|2151;The Forbidden Reach|N|Kill Failed Scalecommander Abereth.|
-K Failed Scalecommander Haerothal|QID|72717|QO|2|M|63.10,14.45|Z|2151;The Forbidden Reach|N|Kill Failed Scalecommander Haerothal.|
+K Failed Scalecommander Elarthresh|QID|72717|QO|1|M|15.33,50.33|Z|2150;The Forbidden Reach|N|Kill Failed Scalecommander Elarthresh.|
+K Failed Scalecommander Abereth|QID|72717|QO|3|M|32.58,35.59|Z|2150;The Forbidden Reach|N|Kill Failed Scalecommander Abereth.|
+K Failed Scalecommander Haerothal|QID|72717|QO|2|M|32.24,36.11|Z|2150;The Forbidden Reach|N|Kill Failed Scalecommander Haerothal.|
 C A Creche Divided|QID|72717|QO|4|M|74.34,36.90|Z|2151;The Forbidden Reach|N|Forbidden Memoire Examined.|US|
 T A Creche Divided|QID|72717|M|76.74,38.62|Z|2151;The Forbidden Reach|N|To Scalecommander Emberthal.|
 A Return to Viridia|QID|73156|M|76.74,38.62|Z|2151;The Forbidden Reach|N|From Scalecommander Emberthal.|
@@ -159,7 +159,7 @@ A The Keys You Need|QID|74294|PRE|73159|M|29.20,53.11|Z|2151;The Forbidden Reach
 T The Keys You Need|QID|74294|M|29.20,53.11|Z|2151;The Forbidden Reach|N|To Pathfinder Tacha.|
 A Authentic Authorization|QID|74983|PRE|73159|M|29.19,52.78|Z|2151;The Forbidden Reach|N|From Cataloger Wulferd.|
 A One Dragon's Junk...|QID|74442|PRE|73159|M|29.24,53.02|Z|2151;The Forbidden Reach|N|From Voraxian.|
-C Authentic Authorization|QID|74983|M|28.85,50.46|Z|2151;The Forbidden Reach|QO|1|CHAT|N|Speak to Jeb to enter the vault..|
+C Authentic Authorization|QID|74983|M|29.10,53.11|Z|2151;The Forbidden Reach|QO|1|CHAT|N|Speak to Jeb to enter the vault..|
 C Zskera Vault: Az|QID|72953|M|29.10,53.11|Z|2151;The Forbidden Reach|QO|1|CHAT|N|Speak with Pathfinder Jeb to enter the vault.|
 K Terrorachna|QID|72953|M|29.34,54.75|Z|2151;The Forbidden Reach|QO|2|N|Kill Terrorachna.|
 C Authentic Authorization|QID|74983|M|29.57,56.32|Z|2151;The Forbidden Reach|QO|2|NC|N|Collect the notes around the room.|S!US|IZ|2151|
@@ -170,10 +170,10 @@ C Zskera Vault: Az|QID|72953|M|29.05,56.27|Z|2151;The Forbidden Reach|QO|4|NC|N|
 C Zskera Vault: Az|QID|72953|M|28.66,56.07|Z|2151;The Forbidden Reach|QO|3|NC|N|Doors opened with Zskera Vault Keys.|
 ;N You can farm rares outside for more Keys but you are going to need at least 3 more to finish the quests.|
 T Zskera Vault: Az|QID|72953|M|29.09,57.01|Z|2151;The Forbidden Reach|N|To Pathfinder Jeb.|
-A What's Behind The Next Door|QID|73089|PRE|72953|M|29.19,53.09|Z|2151;The Forbidden Reach|N|From Pathfinder Tacha.|
+A What's Behind The Next Door|QID|73089|PRE|72953|M|29.19,53.09|Z|2151;The Forbidden Reach|N|From Pathfinder Tacha on the outside of the vault.|
 T One Dragon's Junk...|QID|74442|M|29.23,52.98|Z|2151;The Forbidden Reach|N|To Voraxian.|
 A Is Another Dragon's Treasure?|QID|74443|PRE|74442|M|29.23,52.98|Z|2151;The Forbidden Reach|N|From Voraxian.|
-C Is Another Dragon's Treasure?|QID|74443|M|29.25,52.94|Z|2151;The Forbidden Reach|QO|1|CHAT|N|Suggest a suitable person to Voraxian.|
+C Is Another Dragon's Treasure?|QID|74443|M|29.25,52.94|Z|2151;The Forbidden Reach|QO|1|CHAT|N|Suggest a suitable person to Voraxian, you will need to use all of the options.|
 T Is Another Dragon's Treasure?|QID|74443|M|29.25,52.94|Z|2151;The Forbidden Reach|N|To Voraxian.|
 A Verbal Archaeology|QID|74447|PRE|74443|M|29.25,52.94|Z|2151;The Forbidden Reach|N|From Voraxian.|
 T The Forgotten Ring|QID|73155|M|35.18,57.66|Z|2151;The Forbidden Reach|N|To Researcher Imareth.|
