@@ -9,8 +9,8 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A The Dark Portal|QID|64217^64063|N|From your class trainer. I wouldn't advise going to HFP alone at level 58, it will be painful.|PRE|64052|
-C The Dark Portal|QID|64217^64063|M|50.69,12.89|Z|Durotar|QO|1|N|Talk to Snurk at the top of the zep tower and then get on the zep when it arrives.|CHAT|
-F The Dark Portal|ACTIVE|64217^64063|M|32.54,29.36|Z|Stranglethorn Vale|QO|2|N|Talk to Thysta the flight master in Grom'gul for a free flight to Stonard.|CHAT|
+C The Dark Portal|QID|64217^64063|QO|1|M|50.69,12.89|Z|Durotar|N|Talk to Snurk at the top of the zep tower and then get on the zep when it arrives.|CHAT|
+F The Dark Portal|ACTIVE|64217^64063|QO|2|M|32.54,29.36|Z|Stranglethorn Vale|N|Talk to Thysta the flight master in Grom'gul for a free flight to Stonard.|CHAT|
 b Grom'gul Base Camp|ACTIVE|-64217^-64063|AVAILABLE|10120|M|50.69,12.89|Z|Durotar|N|Take the Zep to Grom'gul (or bug a mage for portal to Stonard)|IZ|1411;Durotar^1454;Orgrimmar|
 F Stonard|ACTIVE|-64217^-64063|AVAILABLE|10120|M|83.88,50.43|Z|1423|N|Fly to Stonard in the Swamp of Sorrows.\n[color=FF0000]NOTE: [/color]Grab a snack; this a 12 minute flight.|IZ|Acherus: The Ebon Hold|
 F Stonard|ACTIVE|-64217^-64063|AVAILABLE|10120|M|32.54,29.36|Z|Stranglethorn Vale|N|Fly to Stonard in the Swamp of Sorrows.|
@@ -22,37 +22,37 @@ R The Stair of Destiny|ACTIVE|9407^10046|M|58.74,60.78|Z|1419; Blasted Lands|N|G
 T Through the Dark Portal|QID|9407^10046|M|87.36,49.80|N|To Lieutenant General Orion.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|
 T Arrival in Outland|QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
-A Journey to Thrallmar|QID|10289|M|87.33,48.17|N|From Vlagga Freyfeather.|PRE|10120|
+A Journey to Thrallmar|QID|10289|PRE|10120|M|87.33,48.17|N|From Vlagga Freyfeather.|
 F Thrallmar|ACTIVE|10289|M|87.33,48.17|
 T Journey to Thrallmar|QID|10289|M|55.87,36.99|N|To General Krakork.|
-A Report to Nazgrel|QID|10291|M|55.87,36.99|N|From General Krakork.|PRE|10289|
+A Report to Nazgrel|QID|10291|PRE|10289|M|55.87,36.99|N|From General Krakork.|
 h Thrallmar|ACTIVE|10291|M|56.70,37.47|N|At Floyd Pinkus.\n[color=FF0000]NOTE: [/color]Skip this step if you do not wish to change it.|
 T Report to Nazgrel|QID|10291|M|55.02,35.95|N|To Nazgrel.|
-A Eradicate the Burning Legion|QID|10121|M|55.06,35.96|N|From Nazgrel.|PRE|10291|
+A Eradicate the Burning Legion|QID|10121|PRE|10291|M|55.06,35.96|N|From Nazgrel.|
 A Bonechewer Blood|QID|10450|M|55.13,36.40|N|From Vurtok Axebreaker.|
 A I Work... For the Horde!|QID|10086|M|55.17,38.79|N|From Megzeg Nukklebust.|
 T Eradicate the Burning Legion|QID|10121|M|58.03,41.25|N|To Sergeant Shatterskull at the Supply Caravan.\n[color=FF0000]NOTE: [/color]You may have to wait out a battle scene that occurs occassionaly.|
-A Felspark Ravine|QID|10123|M|58.03,41.25|N|From Sergeant Shatterskull.|PRE|10121|
+A Felspark Ravine|QID|10123|PRE|10121|M|58.03,41.25|N|From Sergeant Shatterskull.|
 K Felspark Ravine|ACTIVE|10123|M|66.77,35.48|QO|1;2;3|N|Kill the required mobs.|
 C Bonechewer Blood|QID|10450|M|57.60,46.61|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|S|
-l I Work... For the Horde!|ACTIVE|10086|M|61.98,47.93;48.30,44.31|CS|QO|1;2|N|Pick up the sparkling pieces of wood and metal between the 2 waypoints.|
+l I Work... For the Horde!|ACTIVE|10086|QO|1;2|M|61.98,47.93;48.30,44.31|CS|N|Pick up the sparkling pieces of wood and metal between the 2 waypoints.|
 C Bonechewer Blood|QID|10450|M|56.5,47.0|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|US|
 T Felspark Ravine|QID|10123|M|58.03,41.25|N|To Sergeant Shatterskull.|
-A Forward Base: Reaver's Fall|QID|10124|M|58.03,41.25|N|From Sergeant Shatterskull.|PRE|10123|
+A Forward Base: Reaver's Fall|QID|10124|PRE|10123|M|58.03,41.25|N|From Sergeant Shatterskull.|
 T I Work... For the Horde!|QID|10086|M|55.17,38.79|N|To Megzeg Nukklebust.|
-A Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|From Megzeg Nukklebust.|PRE|10086|
+A Burn It Up... For the Horde!|QID|10087|PRE|10086|M|55.17,38.79|N|From Megzeg Nukklebust.|
 T Bonechewer Blood|QID|10450|M|55.13,36.40|N|To Vurtok Axebreaker.|
-A Apothecary Zelana|QID|10449|M|55.13,36.40|N|From Vurtok Axebreaker.|PRE|10450|
+A Apothecary Zelana|QID|10449|PRE|10450|M|55.13,36.40|N|From Vurtok Axebreaker.|
 T Forward Base: Reaver's Fall|QID|10124|M|65.90,43.58|N|To Forward Commander To'arch in Reaver's Fall.|
-A Disrupt Their Reinforcements|QID|10208|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10124|
+A Disrupt Their Reinforcements|QID|10208|PRE|10124|M|65.90,43.58|N|From Forward Commander To'arch.|
 T Apothecary Zelana|QID|10449|M|66.17,41.95|N|To Apothecary Zelana.|
 A Spinebreaker Post|QID|10242|M|66.17,41.95|N|From Apothecary Zelana.|
-C Demonic Rune Stones|QID|10208|M|70.91,45.28|L|28513 4|ITEM|28513|QO|1|N|Any Demon in the Legion Front|
-C Disrupt Their Reinforcements|QID|10208|M|70.82,45.44|QO|1|N|Step inside the gates and right-click to disable Port Xilus.|NC|
-C Demonic Rune Stones|QID|10208|M|73.98,39.11|L|28513 4|ITEM|28513|QO|2|N|Any Demon in the Legion Front|
-C Disrupt Their Reinforcements|QID|10208|M|74.00,38.75|QO|2|N|Step inside the gates and right-click to disable Port Kruul.|NC|
+C Demonic Rune Stones|QID|10208|QO|1|M|70.91,45.28|L|28513 4|ITEM|28513|N|Any Demon in the Legion Front|
+C Disrupt Their Reinforcements|QID|10208|QO|1|M|70.82,45.44|N|Step inside the gates and right-click to disable Port Xilus.|NC|
+C Demonic Rune Stones|QID|10208|QO|2|M|73.98,39.11|L|28513 4|ITEM|28513|N|Any Demon in the Legion Front|
+C Disrupt Their Reinforcements|QID|10208|QO|2|M|74.00,38.75|N|Step inside the gates and right-click to disable Port Kruul.|NC|
 T Disrupt Their Reinforcements|QID|10208|M|65.90,43.58|N|To Forward Commander To'arch.|
-A Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10208|
+A Mission: Gateways Murketh and Shaadraz|QID|10129|PRE|10208|M|65.90,43.58|N|From Forward Commander To'arch.|
 C Mission: Gateways Murketh and Shaadraz|QID|10129|M|66.07,43.74|N|Speak with Wing Commander Brack and tell him you're on a bombing mission to start the controlled flight.\nYour job is to throw bombs at the Gateways on either side of the road. They look like larger versions of the portals we just destroyed.|U|28038|
 T Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.90,43.58|N|To Forward Commander To'arch.|
 A Mission: The Abyssal Shelf|QID|10162|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10129|
@@ -60,7 +60,7 @@ A Return to Thrallmar|QID|10388|M|65.90,43.58|N|From Forward Commander To'arch.|
 C Mission: The Abyssal Shelf|QID|10162|M|66.07,43.74|N|Speak with Wing Commander Brack and tell him to send you to the Abyssal Shelf.\n[color=FF0000]NOTE: [/color]Same process as the last mission with the exception that you have a kill count to achieve this time. You can make multiple runs if you need to.|U|28132|
 T Mission: The Abyssal Shelf|QID|10162|M|65.90,43.58|N|To Forward Commander To'arch.|
 F Spinebreaker Post|ACTIVE|10242|M|66.07,43.74|N|Talk to Wing Commander Brack and ask him to send you to Spinebreaker Post.|
-f Spinebreaker Post|QID|10242|M|61.66,81.19|N|At Amilya Airheart.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.||
+f Spinebreaker Ridge|QID|10242|M|61.66,81.19|TZ|Spinebreaker Post|N|At Amilya Airheart.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.|
 T Spinebreaker Post|QID|10242|M|61.15,81.78|N|To Apothecary Albreck.|
 A Boiling Blood|QID|10538|M|61.15,81.78|N|From Apothecary Albreck.|
 A Preparing the Salve|QID|9345|M|60.93,81.66|N|From Grelag.|
