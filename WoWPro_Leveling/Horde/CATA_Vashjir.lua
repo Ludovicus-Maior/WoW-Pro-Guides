@@ -108,7 +108,7 @@ C Dah, Nunt... Dah, Nunt...|QID|25657|U|55190|M|58.21,49.04|Z|Kelp'thar Forest|N
 T Dah, Nunt... Dah, Nunt...|QID|25657|M|58.34,48.76|Z|Kelp'thar Forest|N|(UI Alert)|
 A Shark Weak|QID|27699|PRE|25657|M|58.34,48.76|Z|Kelp'thar Forest|N|(UI Alert)|
 C Shark Weak|QID|27699|M|59.25,46.87|Z|Kelp'thar Forest|N|Gnaws' Tooth can be found on the floor in this area.|
-K Blackfin|QID|25503|M|56.73,53.96|Z|Kelp'thar Forest|N|Find Blackfin. He is an orca that swims in the waters above The Accursed Reef. Kill him and loot Gliblingle's Map.|T|Blackfin|L|54640|
+K Blackfin|QID|25503|M|56.73,53.96|Z|Kelp'thar Forest|QO|1|N|Find Blackfin. He is an orca that swims in the waters above The Accursed Reef. Kill him and loot Gliblingle's Map.|T|Blackfin|
 T Blackfin's Booty|QID|25503|M|55.1,54.9|Z|Kelp'thar Forest|N|Turn the quest into the Sandy Mound.|
 T Shark Weak|QID|27699|M|55.41,38.94|Z|Kelp'thar Forest|N|To Budd.|
 A DUN-dun-DUN-dun-DUN-dun|QID|25670|PRE|27699|M|55.41,38.94|Z|Kelp'thar Forest|N|From Budd.|
@@ -231,11 +231,11 @@ T We Are Not Alone|QID|25991|M|60.2,63.69|Z|Shimmering Expanse|N|Leave the brain
 A Body Blows|QID|25993|PRE|25991|RANK|1|Z|Shimmering Expanse|N|From Legionnaire Nazgrim.|M|60.2,63.69|
 A Hopelessly Gearless|QID|25992|RANK|1|Z|Shimmering Expanse|N|From Captian Vilethorn.|M|60.2,63.69|
 A Still Valuable|QID|25994|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|M|60.2,63.69|
-C Still Valuable|QID|25994|S|M|61.2,56|Z|Shimmering Expanse|L|56194 5|N|Kill any naga in the area until you have looted 5 Mysterious Pearls.|
+C Still Valuable|QID|25994|S|M|61.2,56|Z|Shimmering Expanse|QO|1|N|Kill any naga in the area until you have looted 5 Mysterious Pearls.|
 C Hopelessly Gearless|QID|25992|M|59.2,59.2|Z|Shimmering Expanse|N|Find Idra'kess Weapon Racks and loot the Purloined Polearms from them.|S|
 C Body Blows|QID|25993|M|62.6,49.8|Z|Shimmering Expanse|N|Find 7 Nespirah Abscesses and attack them. They are small redish nodes along the walls. They can be hard to spot, as they blend in with everything around them, Position Unknown.|
 C Hopelessly Gearless|QID|25992|M|59.2,59.2|Z|Shimmering Expanse|N|Find Idra'kess Weapon Racks and loot the Purloined Polearms from them.|US|
-C Still Valuable|QID|25994|US|M|61.2,56|Z|Shimmering Expanse|L|56194 5|N|Kill Naga for the remaining Pearls.|
+C Still Valuable|QID|25994|US|M|61.2,56|Z|Shimmering Expanse|QO|1|N|Kill Naga for the remaining Pearls.|
 T Body Blows|QID|25993|Z|Shimmering Expanse|N|To Legionnaire Nazgrim.|M|60.2,63.69|
 T Hopelessly Gearless|QID|25992|Z|Shimmering Expanse|N|To Captian Vilethorn.|M|60.2,63.69|
 T Still Valuable|QID|25994|Z|Shimmering Expanse|N|To Wavespeaker Tulra.|M|60.2,63.69|
@@ -480,7 +480,7 @@ A Communing with the Ancient|QID|26140|PRE|26130|RANK|1|M|42.7,37.8|Z|Abyssal De
 T Communing with the Ancient|QID|26140|M|38.7,44.8|Z|Abyssal Depths|N|Enter L'ghorek the same way you entered Nespirah. The layout inside is the same. Go to the Brain Room inside L'ghorek. Speak to the brain to turn in Communing with the Ancient.|
 A Runestones of Binding|QID|26141|PRE|26140|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek|
 A Ascend No More!|QID|26142|PRE|26140|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek|
-C Runestones of Binding|QID|26141|S|M|31.2,58.8|Z|Abyssal Depths|L|57096 7|N|Kill any Twilight Candidates you see until you get 7 Runestones of Binding.|
+C Runestones of Binding|QID|26141|S|M|31.2,58.8|Z|Abyssal Depths|QO|1|N|Kill any Twilight Candidates you see until you get 7 Runestones of Binding.|
 C Ascend No More!|QID|26142|S|QO|1|M|28.1,57.5|Z|Abyssal Depths|N|Destroy Ancient Conduits.|; Ancient Conduits destroyed: 5/5
 l Twilight Cage Key|QID|26149|L|57118|N|Kill Twilight Hammer mobs until the key drops.|M|31.2,58.8|Z|Abyssal Depths|
 A Prisoners|QID|26149|RANK|1|M|31.2,58.8|Z|Abyssal Depths|U|57118|N|Accept the quest from the key.|
