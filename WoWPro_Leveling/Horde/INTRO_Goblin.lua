@@ -12,9 +12,9 @@ A Taking Care of Business|QID|14138|M|56.52,77.00|N|From Sassy Hardwrench.|
 T Taking Care of Business|QID|14138|M|60.10,74.66|N|To Foreman Dampwick.|
 A Trouble in the Mines|QID|14075|M|60.10,74.66|N|From Foreman Dampwick.|PRE|14138|
 A Good Help is Hard to Find|QID|14069|M|60.10,74.66|N|From Foreman Dampwick.|PRE|14138|
-C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Right-Click the Defiant Trolls to adjust their attitude as you head to the mines.|S|NC|
+C Good Help is Hard to Find|QID|14069|M|70.29,82.50|H|N|Right-Click the Defiant Trolls to adjust their attitude as you head to the mines.|S|NC|
 C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|CS|N|Go into the mines to kill worms.|
-C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Finishing right-clicking the Defiant Trolls as you head out of the mines and back to Foreman Dampwick.|US|NC|
+C Good Help is Hard to Find|QID|14069|M|70.29,82.50|H|N|Finishing right-clicking the Defiant Trolls as you head out of the mines and back to Foreman Dampwick.|US|NC|
 T Trouble in the Mines|QID|14075|M|60.35,74.64|N|To Foreman Dampwick.|
 T Good Help is Hard to Find|QID|14069|M|60.35,74.64|N|To Foreman Dampwick.|
 A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14069&14075|
@@ -35,10 +35,10 @@ T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck. You have no 
 A The Replacements|QID|24488|M|48.75,57.83|N|From Coach Crosscheck.|PRE|24567|
 C The Replacements|QID|24488|M|43.05,62.79|N|Look around for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|U|46856|NC|S|
 R Drudgetown|QID|24520|M|43.50,70.25|N|Head to Drudgetown on your Hot Rod. Go under the ramp.|U|46856|ACTIVE|24488^14070|
-C Bruno Flameretardant|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|1|U|46856|
-C Sudsy Magee|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|4|U|46856|
-C Jack the Hammer|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|3|U|46856|
-C Frankie Gearslip|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|2|U|46856|
+K Bruno Flameretardant|ACTIVE|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|1|U|46856|
+K Sudsy Magee|ACTIVE|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|4|U|46856|
+K Jack the Hammer|ACTIVE|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|3|U|46856|
+K Frankie Gearslip|ACTIVE|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|2|U|46856|
 C The Replacements|QID|24488|M|43.05,62.79|N|Finish picking up Replacement Parts|U|46856|NC|US|
 T Off to the Bank|QID|26711^26712|M|30.09,71.67|N|To FBoK Bank Teller.|U|46856|
 A The New You|QID|14109^14110|PRE|26711^26712|M|30.09,71.67|N|From FBoK Bank Teller.|

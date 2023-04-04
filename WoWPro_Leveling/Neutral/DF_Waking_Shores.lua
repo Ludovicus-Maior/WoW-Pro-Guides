@@ -129,10 +129,9 @@ A Blacktalon Intel|QID|65992|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Slay Dragonhunter Igordan.|S!US|T|Dragonhunter Igordan|RARE|
 C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Consult Talonstalker Kavia.|T|Talonstalker Kavia|
 C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Consult Right.|T|Right|
-K Meatgrinder Sotok|ACTIVE|65993|QO|1|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok when convenient.|S|T|Meatgrinder Sotok|
+K Meatgrinder Sotok|ACTIVE|65993|QO|1|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok when convenient.|T|Meatgrinder Sotok|
 A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|U|193874|
 C Blacktalon Intel|QID|65992|M|63.43,28.86|Z|2022|QO|2|CHAT|N|Consult Left.|T|Left|
-K Meatgrinder Sotok|ACTIVE|65993|QO|1|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok.|US|T|Meatgrinder Sotok|
 A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|O|U|193874|
 T Killjoy|QID|65993|M|62.65,33.19|Z|2022|N|To Wrathion.|
 T Blacktalon Intel|QID|65992|M|62.65,33.19|Z|2022|N|To Wrathion.|
@@ -530,7 +529,7 @@ T Under Lock and Key|QID|65782|M|37.35,46.62|Z|2022|N|To Ayasanth.|
 A The Shadow of His Wings|QID|65691|PRE|65687&65782|M|37.35,46.62|Z|2022|N|From Ayasanth.|RANK|3|
 C The Shadow of His Wings|QID|65691|QO|1|M|35.59,47.95|Z|2022|N|Go into the cave, most of the mobs are "orange" (neutral) and will clear out. Kill the hostiles and go stand by Cygenoth.|
 K Cygenoth|ACTIVE|65691|QO|2|M|35.03,45.44|Z|2022|N|Kill Cygenoth the Corrupted.|T|Cygenoth|
-T The Shadow of His Wings|QID|65691|M|39.56,48.40|Z|2022|N|To Ayasanth.|
+T The Shadow of His Wings|QID|65691|M|37.35,46.75|Z|2022|N|To Ayasanth.|
 
 C Talon Strike|QID|65956|M|36.73,63.14|Z|2022|N|Disrupt the Djaradin defenses. Extra action button will summon helpers.|EAB|S|
 C No Time for Heroes|QID|65957|M|35.53,68.52|Z|2022|QO|1|N|Slay Piercer Gigra on the top of the tower. Watch out for the orange circle on the ground. It will knock you off the tower.|T|Piercer Gigra|
