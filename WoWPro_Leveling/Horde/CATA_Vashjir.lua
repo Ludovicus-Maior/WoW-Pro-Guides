@@ -180,7 +180,7 @@ A Undersea Inflation|QID|25218|PRE|25216|RANK|1|M|41.3,34.3|Z|Shimmering Expanse
 A Crabby Patrons|QID|25360|RANK|1|M|41.3,34.3|Z|Shimmering Expanse|N|From Felice.|
 C Crabby Patrons|QID|25360|M|41.7,34.5|S|Z|Shimmering Expanse|N|Kill Crabs.|
 C Undersea Inflation|QID|25218|S|U|54608|M|41.7,34.5|Z|Shimmering Expanse|N|While you are doing that, use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full.|
-l Sambino's Air Valve|QID|25218|M|41.7,34.5|Z|Shimmering Expanse|N|Keep killing crabs until this item drops drops.|L|54611|
+l Sambino's Air Valve|QID|25218|M|41.7,34.5|Z|Shimmering Expanse|QO|2|N|Keep killing crabs until this item drops drops.|
 C Crabby Patrons|QID|25360|M|41.7,34.5|US|Z|Shimmering Expanse|N|Kill the remaining Crabs|
 C Undersea Inflation|QID|25218|US|U|54608|M|41.7,34.5|Z|Shimmering Expanse|N|While you are doing that, use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full.|
 T Undersea Inflation|QID|25218|M|41.3,34.3|Z|Shimmering Expanse|N|To The Great Sambino.|
@@ -285,7 +285,7 @@ T Caught Off-Guard|QID|25952|Z|Shimmering Expanse|N|To Captian Vilethorn.|M|51.2
 T Swift Approach|QID|25953|Z|Shimmering Expanse|N|To Legionnaire Nazgrim.|M|51.21,63|
 T An Occupation of Time|QID|25954|Z|Shimmering Expanse|N|To Elendri Goldenbrow.|M|51.27,62.48|
 T Piece of the Past|QID|27717|N|To Elendri Goldenbrow.|M|51.27,62.48|Z|Shimmering Expanse|
-A The Call of the Blade|QID|27394|LEAD|25956|PRE|25953|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|
+A The Call of the Blade|QID|27394|LEAD|25956|PRE|25953|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|M|51.6,62.74|
 T The Call of the Blade|QID|27394|M|40.5,75.5|Z|Shimmering Expanse|N|Click the Skull to turn in the quest.|
 A Upon the Scene of Battle|QID|25956|RANK|1|M|40.5,75.5|Z|Shimmering Expanse|N|Accept the Followup.|
 T Upon the Scene of Battle|QID|25956|M|51.23,62.91|Z|Shimmering Expanse|N|To Captian Vilethorn.|
@@ -302,7 +302,7 @@ C To the Fathom-Lord's Call|QID|25637|S|QO|1|M|31.7,72.6|Z|Shimmering Expanse|N|
 C Built to Last|QID|25658|M|38.41,56.39|Z|Shimmering Expanse|N|Swimp way up to the Nar'shola Terrace. Activate the wards, they look like blue basins.|
 C To the Fathom-Lord's Call|QID|25637|US|QO|1|M|31.7,72.6|Z|Shimmering Expanse|N|Kill the remaining Kvaldir.|; Kvaldir invaders on the terrace slain: 16/16
 T Built to Last|QID|25658|Z|Shimmering Expanse|M|37.19,77.63|N|To Sira'kess Tide Priestess.|
-T To the Fathom-Lord's Call|QID|25637|Z|Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|
+T To the Fathom-Lord's Call|QID|25637|Z|Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|M|36.45,78.66|
 A Not Soon Forgotten|QID|25659|PRE|25637|RANK|1|M|36.5,78.5|Z|Shimmering Expanse|N|From Fathom-Lord Zin'jatar.|
 C Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|N|Swim up the tunnel in front of you until you find Varkul the Unrelenting. He will be surrounded by 5 Sira'kess Sea Witches and some other naga. As long as they are not being attacked, they will channel spell that causes Varkul to take increased damage. So Attach Varkul until he calls in the other kvaldir. Then let the other naga tank him while you kill off the adds.|
 T Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|
