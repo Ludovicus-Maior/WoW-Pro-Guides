@@ -55,8 +55,8 @@ T Disrupt Their Reinforcements|QID|10208|M|65.90,43.58|N|To Forward Commander To
 A Mission: Gateways Murketh and Shaadraz|QID|10129|PRE|10208|M|65.90,43.58|N|From Forward Commander To'arch.|
 C Mission: Gateways Murketh and Shaadraz|QID|10129|M|66.07,43.74|N|Speak with Wing Commander Brack and tell him you're on a bombing mission to start the controlled flight.\nYour job is to throw bombs at the Gateways on either side of the road. They look like larger versions of the portals we just destroyed.|U|28038|
 T Mission: Gateways Murketh and Shaadraz|QID|10129|M|65.90,43.58|N|To Forward Commander To'arch.|
-A Mission: The Abyssal Shelf|QID|10162|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10129|
-A Return to Thrallmar|QID|10388|M|65.90,43.58|N|From Forward Commander To'arch.|PRE|10129|
+A Mission: The Abyssal Shelf|QID|10162|PRE|10129|M|65.90,43.58|N|From Forward Commander To'arch.|
+A Return to Thrallmar|QID|10388|PRE|10129|M|65.90,43.58|N|From Forward Commander To'arch.|
 C Mission: The Abyssal Shelf|QID|10162|M|66.07,43.74|N|Speak with Wing Commander Brack and tell him to send you to the Abyssal Shelf.\n[color=FF0000]NOTE: [/color]Same process as the last mission with the exception that you have a kill count to achieve this time. You can make multiple runs if you need to.|U|28132|
 T Mission: The Abyssal Shelf|QID|10162|M|65.90,43.58|N|To Forward Commander To'arch.|
 F Spinebreaker Post|ACTIVE|10242|M|66.07,43.74|N|Talk to Wing Commander Brack and ask him to send you to Spinebreaker Post.|
@@ -72,84 +72,87 @@ C Bleeding Hollow Blood|QID|10538|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Or
 R Zeth'Gor|ACTIVE|10809|M|65.41,73.54|Z|1944|
 K Worg Master Kruush|ACTIVE|10809|M|68.16,73.36|L|31374|N|He's in the Stables.|T|Worg Master Kruush|
 l Bleeding Hollow Blood|QID|10538|M|65,73|L|30425 12|ITEM|30425|N|Any Bleeding Hollow Orc|US|
-C Boiling Blood|QID|10538|M|65.21,71.36|L|30430 12|N|Clear around the cauldron and click on it. Several Cursed Scarabs will spawn, but if you back away, they won't agro and despawn after ~20 seconds (or kill them if you prefer).\nRinse and repeat until done.|
+C Boiling Blood|QID|10538|M|65.21,71.36|L|30430 12|N|Clear around the cauldron and click on it. Several Cursed Scarabs will spawn, but if you back away, they won't aggro and despawn after ~20 seconds (or kill them if you prefer).\nRinse and repeat until done.|
 C Preparing the Salve|QID|9345|M|65.45,78.72|L|23205 12|N|Finish gathering the Hellfire Spineleaf.\n[color=FF0000]NOTE: [/color]These may be quite spread out; grab them as you see them.|US|
 T Wanted: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
 A Zeth'Gor Must Burn!|QID|10792|M|61.22,81.33|N|From Captain Darkhowl.|
 T Preparing the Salve|QID|9345|M|60.93,81.66|N|To Grelag.|
-A Investigate the Crash|QID|10213|M|60.93,81.66|N|From Grelag.|PRE|9345|
+A Investigate the Crash|QID|10213|PRE|9345|M|60.93,81.66|N|From Grelag.|
 T Boiling Blood|QID|10538|M|61.15,81.78|N|To Apothecary Albreck.|
-A Apothecary Antonivich|QID|10835|M|61.15,81.78|N|From Apothecary Albreck.|PRE|10538|
+A Apothecary Antonivich|QID|10835|PRE|10538|M|61.15,81.78|N|From Apothecary Albreck.|
 A The Eyes of Grillok|QID|10813|M|61.65,81.85|N|From Zezzak.|
 * Bleeding Hollow Blood|ACTIVE|-10538|AVAILABLE|-10538|N|You no longer need these.|U|30425|O|
 F Thrallmar|ACTIVE|10388|M|61.66,81.19|
 
 T Return to Thrallmar|QID|10388|M|55.02,35.96|N|To Nazgrel.|
-A Forge Camp: Mageddon|QID|10390|M|55.02,35.96|N|From Nazgrel.|PRE|10388|
+A Forge Camp: Mageddon|QID|10390|PRE|10388|M|55.02,35.96|N|From Nazgrel.|
 T Apothecary Antonivich|QID|10835|M|52.29,36.45|N|To Apothecary Antonivich in the building atop the hill.|
 A A Burden of Souls|QID|10864|M|52.29,36.45|N|From Apothecary Antonivich.|PRE|10835|
-K Gan'arg Servants|QID|10390|M|64.00,31.00|QO|1|S|
+K Gan'arg Servants|ACTIVE|10390|QO|1|M|64.00,31.00|S|
 R Forge Camp: Rage|ACTIVE|10390|M|57.60,31.53|Z|1944|N|Exit Thrallmar from the north.|
 R Forge Camp: Mageddon|ACTIVE|10390|M|62.80,30.90|Z|1944|N|Continue east.|
 K Razorsaw|ACTIVE|10390|M|64.00,31.00|L|29586|N|Razorsaw wanders the area.|T|Razorsaw|
 A Vile Plans|QID|10393|ITEM|29590|N|From the Burning Legion Missive you picked up from Razorsaw.|U|29590|O|
-K Gan'arg Servants|QID|10390|M|64.00,31.00|QO|1|US|
+K Gan'arg Servants|ACTIVE|10390|QO|1|M|64.00,31.00|US|
 R Thrallmar|ACTIVE|10390|M|55.02,35.96|
 T Forge Camp: Mageddon|QID|10390|M|55.02,35.96|N|To Nazgrel.|
-A Cannons of Rage|QID|10391|M|55.02,35.96|N|From Nazgrel.|PRE|10390|
+A Cannons of Rage|QID|10391|PRE|10390|M|55.02,35.96|N|From Nazgrel.|
 T Vile Plans|QID|10393|M|55.13,36.03|N|To Magister Bloodhawk.|
 * Burning Legion Missive|ACTIVE|-10393|AVAILABLE|-10393|N|You can safely destroy this item.|U|29590|
 K Fel Cannons|ACTIVE|10391|M|59,32|QO|1|N|Kill the Fel Cannons at Forge Camp: Rage.\n[color=FF0000]NOTE: [/color]If this area is busy, the ones at the other camps count as well.|
 T Cannons of Rage|QID|10391|M|55.02,35.96|N|To Nazgrel.|
-A Doorway to the Abyss|QID|10392|M|55.02,35.96|N|From Nazgrel.|PRE|10391|
+A Doorway to the Abyss|QID|10392|PRE|10391|M|55.02,35.96|N|From Nazgrel.|
 R Invasion Point: Annihilator|ACTIVE|10392|M|57.62,33.17;54.89,28.08|CS|
-K Warbringer Arix'Amal|ACTIVE|10392|M|53.11,26.50|L|29795|QO|3|N|Kill Warbringer Arix'Amal and loot the key|T|Warbringer Arix'Amal|
-C Doorway to the Abyss|QID|10392|M|53.06,27.64|QO|2|N|While standing inside the portal, click on the Rune of Spite to use the key.|NC|
+K Warbringer Arix'Amal|ACTIVE|10392|QO|3|M|53.11,26.50|L|29795|N|Kill Warbringer Arix'Amal and loot the key|T|Warbringer Arix'Amal|
+C Doorway to the Abyss|QID|10392|QO|2|M|53.06,27.64|N|While standing inside the portal, click on the Rune of Spite to use the key.|NC|
 A Outland Sucks!|QID|10236|M|51.37,30.51|N|From Foreman Razelcraz.\n[color=FF0000]NOTE: [/color]His camp is at the bottom of the cliff. There is a road leading to it from Thrallmar.|
 K Marauding Crust Burster|AVAILABLE|9373|L|23338|N|[color=FF0000]NOTE: [/color]Don't avoid the boucing piles of dirt and rocks. They drop a quest starter item that we're looking for.\nDon't worry if you don't find it, we have another chance later.|S|
 A Missing Missive|QID|9373|N|From the Eroded Leather Case.|U|23338|O|
 C Outland Sucks!|QID|10236|M|48.79,36.61;46.25,43.07|Z|1944|CS|L|28554 6|N|The crates are in the canyon to the south.|
 T Outland Sucks!|QID|10236|M|51.37,30.51|N|To Foreman Razelcraz.|
-A How to Serve Goblins|QID|10238|M|51.37,30.51|N|From Foreman Razelcraz.|PRE|10236|
-K A Burden of Souls|ACTIVE|10864|M|46.91,45.59|QO|1|N|Kill any Shattered Hand Orc you come across.|S|
-C Save Manni|QID|10238|M|45.12,41.06|QO|1|N|Manni is to the SW.|NC|
-C Save Moh|QID|10238|M|46.46,45.15|QO|2|N|Moh is south of Manni.|NC|
-C Save Jakk|QID|10238|M|47.49,46.60|QO|3|N|Jakk is south of Moh.|NC|
-K A Burden of Souls|ACTIVE|10864|M|46.91,45.59|QO|1|N|Kill any Shattered Hand Orc you come across.|US|
+A How to Serve Goblins|QID|10238|PRE|10236|M|51.37,30.51|N|From Foreman Razelcraz.|
+K A Burden of Souls|ACTIVE|10864|QO|1|M|46.91,45.59|N|Kill any Shattered Hand Orc you come across.|S|
+C Save Manni|QID|10238|QO|1|M|45.12,41.06|N|Manni is to the SW.|NC|
+C Save Moh|QID|10238|QO|2|M|46.46,45.15|N|Moh is south of Manni.|NC|
+C Save Jakk|QID|10238|QO|3|M|47.49,46.60|N|Jakk is south of Moh.|NC|
+K A Burden of Souls|ACTIVE|10864|QO|1|M|46.91,45.59|N|Kill any Shattered Hand Orc you come across.|US|
 
-L Nearly 60?|N|Grind until you're less that 20,000 from lv 60.|LVL|59;-19600|
+L Nearly 60?|N|Grind until you're at least 20,000 from lv 60.|LVL|59;-19600|
 R Thrallmar|ACTIVE|10864|M|55.64,41.83|Z|1944|
 T A Burden of Souls|QID|10864|M|52.28,36.46|N|To Apothecary Antonivich.|
-A The Demoniac Scryer|QID|10838|M|52.28,36.46|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Apothecary Antonivich.|PRE|10864|
-T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
-A Cruel's Intentions|QID|10136|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|PRE|10392|
+A The Demoniac Scryer|QID|10838|PRE|10864|M|52.28,36.46|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Apothecary Antonivich.|
+T Doorway to the Abyss|QID|10392|M|55.02,35.96|N|To Nazgrel.|
+A Cruel's Intentions|QID|10136|PRE|10392|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|
 A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|LVL|60|
-A Falcon Watch|QID|9498^9499|M|55.18,39.11|N|From Martik Tor'seldori.|LEAD|9340|LVL|60|
-= Level 60 Training|ACTIVE|9400|N|Make your way to your trainer and do your level 60 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-R Thrallmar|ACTIVE|9400|M|55.64,41.83|Z|1944|N|Return to Thrallmar by your own choice of means.|
-R The Stadium|ACTIVE|9400|M|45.67,44.46;34.83,45.91|Z|1944|CS|QO|1|N|Follow the road west through the wall until you reach the spikes.|
-R Krun Spinebreaker|ACTIVE|9400|M|33.62,43.54|Z|1944|QO|1|N|Turn to the north and head to the other side of the rock point.|
+A Falcon Watch|QID|9498^9499|LEAD|9340|M|55.18,39.11|N|From Martik Tor'seldori.|LVL|60|
+F Hellfire Peninsula, The Dark Portal, Horde|ACTIVE|9400|M|56.30,36.24|Z|1944;Hellfire Peninsula|
+P Orgrimmar|ACTIVE|9400|M|88.57,47.70|Z|1944;Hellfire Peninsula|N|Use the portal to return to Orgrimmar.|C|-Druid|
+P Moonglade|ACTIVE|9400|M|PLAYER|N|Cast Teleport: Moonglade.|C|Druid|
+= Level 60 Training|ACTIVE|9400|N|Make your way to your trainer and do your level 60 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|-1944|
+H Thrallmar|ACTIVE|9400|M|56.70,37.47|N|Use your Hearth or return to Thrallmar by your own choice of means.|IZ|-1944|
+R The Stadium|ACTIVE|9400|QO|1|M|45.67,44.46;34.83,45.91|Z|1944|CS|N|Follow the road west through the wall until you reach the spikes.|FLY|OLD|
+R Krun Spinebreaker|ACTIVE|9400|QO|1|M|33.62,43.54|Z|1944|N|Turn to the north and head to the other side of the rock point.|FLY|OLD|
 T The Assassin|QID|9400|M|33.62,43.56|Z|1944|N|To the Fel Orc Corpse.|
-A A Strange Weapon|QID|9401|M|33.62,43.56|N|From the Fel Orc Corpse.|PRE|9400|
-R Falcon Watch|ACTIVE|9498^9499|M|25.59,61.14|N|Head east to Falcon Watch.|
+A A Strange Weapon|QID|9401|PRE|9400|M|33.62,43.56|N|From the Fel Orc Corpse.|
+R Falcon Watch|ACTIVE|9498^9499|M|25.59,61.14|N|Head east to Falcon Watch.|FLY|OLD|
 A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
-A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
 A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
-A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.\n[color=FF0000]NOTE: [/color]The quest may be briefly unavailable if someone turns in a quest because of a cut-scene.|
+A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
+A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.\n[color=FF0000]NOTE: [/color]Because of a cut-scene, the quest may become briefly unavailable if someone else turns in a quest.|
 A Birds of a Feather|QID|9397|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 f Falcon Watch|ACTIVE|9498^9499|M|27.79,59.98|N|At Innalia.\n[color=FF0000]NOTE: [/color]Make sure you open the flight map to update the FP list.|
-A Wanted: Blacktalon the Savage|QID|9466|M|28.03,60.31|N|From the Wanted Poster.|
+A Wanted: Blacktalon the Savage|QID|9466|M|28.03,60.31|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom the Wanted Poster.|
 T Falcon Watch|QID|9498^9499|M|28.34,60.19;28.49,60.26|Z|1944|CS|N|To Ranger Captain Venn'ren on top of the tower.\n[color=FF0000]NOTE: [/color]Use the Orb of Translocation inside to reach him.|
 A The Great Fissure|QID|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
-K The Great Fissure|ACTIVE|9340|M|35.81,63.02|QO|1;2|S|
-K Blacktalon the Savage|ACTIVE|9466|M|34.18,62.96;33.46,64.87|Z|1944|CS|L|23687|ELITE|N|[color=FF8000]Elite: [/color]\nBlacktalon is near the back of the cave.\n[color=FF0000]NOTE: [/color]If you die, there's an alcove near the entrance you can safely resurrect in.|T|Blacktalon the Savage|
-K The Great Fissure|ACTIVE|9340|M|36.63,63.58|QO|1;2|N|There are 4-5 Alpha in the cave.|US|
-R Zeppelin Crash|ACTIVE|10213|M|38.2,68.0;48.63,73.48|Z|1944|CS|N|Exit the Great Fissure and head southeast through the Southern Rampart.|
+K The Great Fissure|ACTIVE|9340|QO|1;2|M|35.81,63.02|S|
+K Blacktalon the Savage|ACTIVE|9466|M|34.18,62.96;33.46,64.87|Z|1944|CS|L|23687|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nBlacktalon is a lv 63 elite near the back of the cave.\n[color=FF0000]NOTE: [/color]If you die, there's an alcove near the entrance you can safely resurrect in.|T|Blacktalon the Savage|
+K The Great Fissure|ACTIVE|9340|QO|1;2|M|36.63,63.58|N|There are 4-5 Alpha in the cave.|US|
+R Zeppelin Crash|ACTIVE|10213|M|38.2,68.0;48.63,73.48|Z|1944|CS|N|Exit the Great Fissure and head southeast through the Southern Rampart.|FLY|OLD|
 T Investigate the Crash|QID|10213|M|49.15,74.87|Z|1944|N|To "Screaming" Screed Luckheed.|
 A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 A Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|From Legassi.|
 C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|The Zepplin Debris is scattered all around the ground to the east of you.\n[color=FF0000]NOTE: [/color]The more you pick up now while killing the mobs in the area, the less mobs you'll be killing for no reason.|S|
-R Razorthorn Trail|ACTIVE|9349|M|42.05,83.44|Z|1944|N|Follow the road to the south.|
+R Razorthorn Trail|ACTIVE|9349|M|42.05,83.44|Z|1944|N|Follow the road to the south.|FLY|OLD|
 C Ravager Egg Roundup|QID|9349|M|33.83,92.22|L|23217 12|ITEM|23217|N|Razorthorn Ravagers\nThey are found on the ground as well.|
 T Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|To Legassi.|
 A Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|From Legassi.|PRE|9349|
@@ -162,11 +165,11 @@ l A Mysterious Tome|AVAILABLE|10229|M|54.49,77.69|L|28552|ITEM|28552|N|Unyieldin
 A Decipher the Tome|QID|10229|M|PLAYER|N|From A Mysterious Tome.|U|28552|O|
 K Make Them Listen|ACTIVE|10220|M|54.49,77.69|QO|1;2;3|
 l A Mysterious Tome|AVAILABLE|10229|M|54.49,77.69|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|US|
-R Valley of Bones|ACTIVE|9356|M|55.82,73.51|Z|1944|QO|1|
+R Valley of Bones|ACTIVE|9356|QO|1|M|55.82,73.51|Z|1944|FLY|OLD|
 C Smooth as Butter|QID|9356|M|65.57,62.43|L|23239 12|ITEM|23239|N|Bonestripper Buzzard\nIf needed, head back the other way until you're done.|
 C Burn It Up... For the Horde!|QID|10087|M|60.90,52.50|QO|1|N|Head to the Eastern Cannon and burn it.|U|27479|NC|
 C Burn It Up... For the Horde!|QID|10087|M|54.67,54.10|QO|2|N|Find the Western Cannon further west along the Path of Glory and burn it.|U|27479|NC|
-R Thrallmar|ACTIVE|10087|M|56.69,37.50|N|Sprint across the Path of Glory or hearth if you can.|
+R Thrallmar|ACTIVE|10087|M|56.69,37.50|N|Sprint across the Path of Glory or hearth if you can.|FLY|OLD|
 T Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
 A The Agony and the Darkness|QID|10389|M|55.12,36.02|N|From Magister Bloodhawk.|;this is available earlier if anyone wants to move it.
 T A Strange Weapon|QID|9401|M|55.02,35.96|N|To Nazgrel.|
@@ -242,7 +245,7 @@ A Helping the Cenarion Post|QID|10442|M|27.71,60.33|N|From Falconer Drenna River
 T The Great Fissure|QID|9340|M|28.35,60.21;28.49,60.24|CS|N|To Ranger Captain Venn'ren at the top of the tower.\n[color=FF0000]NOTE: [/color]Use the Orb Translocation to get to the top of the Tower.|
 A Marking the Path|QID|9391|M|28.49,60.24|N|From Ranger Captain Venn'ren.|PRE|9340|
 T Wanted: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
-A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
+A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren.|LVL|61|
 C Trueflight Arrows|QID|9381|M|29,56;24.28,44.91|CS|L|23387 8|ITEM|23387|N|Bonestripper Vulture\n[color=FF0000]NOTE: [/color]Return to the first point if you still need more.|
 T Arelion's Secret|QID|10286|M|4.7,50.7;12.2,49.9;31.6,52.7;26.20,63.14|CS|N|To Magister Aledis who travels back and forth along the road between Thornfang Hill and Falcon Watch.\nOnce located, talk to him and then beat him down in health (~25%) until he surrenders.\n[color=FF0000]NOTE: [/color]This will temporarily enable PvP mode for 5 minutes (unless you already have it enabled).|
 A The Mistress Revealed|QID|10287|M|PLAYER|N|From Magister Aledis.|PRE|10286|
