@@ -108,7 +108,7 @@ C Dah, Nunt... Dah, Nunt...|QID|25657|U|55190|M|58.21,49.04|Z|Kelp'thar Forest|N
 T Dah, Nunt... Dah, Nunt...|QID|25657|M|58.34,48.76|Z|Kelp'thar Forest|N|(UI Alert)|
 A Shark Weak|QID|27699|PRE|25657|M|58.34,48.76|Z|Kelp'thar Forest|N|(UI Alert)|
 C Shark Weak|QID|27699|M|59.25,46.87|Z|Kelp'thar Forest|N|Gnaws' Tooth can be found on the floor in this area.|
-K Blackfin|QID|25503|M|56.73,53.96|Z|Kelp'thar Forest|N|Find Blackfin. He is an orca that swims in the waters above The Accursed Reef. Kill him and loot Gliblingle's Map.|T|Blackfin|L|54640|
+K Blackfin|QID|25503|M|56.73,53.96|Z|Kelp'thar Forest|QO|1|N|Find Blackfin. He is an orca that swims in the waters above The Accursed Reef. Kill him and loot Gliblingle's Map.|T|Blackfin|
 T Blackfin's Booty|QID|25503|M|55.1,54.9|Z|Kelp'thar Forest|N|Turn the quest into the Sandy Mound.|
 T Shark Weak|QID|27699|M|55.41,38.94|Z|Kelp'thar Forest|N|To Budd.|
 A DUN-dun-DUN-dun-DUN-dun|QID|25670|PRE|27699|M|55.41,38.94|Z|Kelp'thar Forest|N|From Budd.|
@@ -180,7 +180,7 @@ A Undersea Inflation|QID|25218|PRE|25216|RANK|1|M|41.3,34.3|Z|Shimmering Expanse
 A Crabby Patrons|QID|25360|RANK|1|M|41.3,34.3|Z|Shimmering Expanse|N|From Felice.|
 C Crabby Patrons|QID|25360|M|41.7,34.5|S|Z|Shimmering Expanse|N|Kill Crabs.|
 C Undersea Inflation|QID|25218|S|U|54608|M|41.7,34.5|Z|Shimmering Expanse|N|While you are doing that, use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full.|
-l Sambino's Air Valve|QID|25218|M|41.7,34.5|Z|Shimmering Expanse|N|Keep killing crabs until this item drops drops.|L|54611|
+l Sambino's Air Valve|QID|25218|M|41.7,34.5|Z|Shimmering Expanse|QO|2|N|Keep killing crabs until this item drops drops.|
 C Crabby Patrons|QID|25360|M|41.7,34.5|US|Z|Shimmering Expanse|N|Kill the remaining Crabs|
 C Undersea Inflation|QID|25218|US|U|54608|M|41.7,34.5|Z|Shimmering Expanse|N|While you are doing that, use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full.|
 T Undersea Inflation|QID|25218|M|41.3,34.3|Z|Shimmering Expanse|N|To The Great Sambino.|
@@ -231,11 +231,11 @@ T We Are Not Alone|QID|25991|M|60.2,63.69|Z|Shimmering Expanse|N|Leave the brain
 A Body Blows|QID|25993|PRE|25991|RANK|1|Z|Shimmering Expanse|N|From Legionnaire Nazgrim.|M|60.2,63.69|
 A Hopelessly Gearless|QID|25992|RANK|1|Z|Shimmering Expanse|N|From Captian Vilethorn.|M|60.2,63.69|
 A Still Valuable|QID|25994|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|M|60.2,63.69|
-C Still Valuable|QID|25994|S|M|61.2,56|Z|Shimmering Expanse|L|56194 5|N|Kill any naga in the area until you have looted 5 Mysterious Pearls.|
+C Still Valuable|QID|25994|S|M|61.2,56|Z|Shimmering Expanse|QO|1|N|Kill any naga in the area until you have looted 5 Mysterious Pearls.|
 C Hopelessly Gearless|QID|25992|M|59.2,59.2|Z|Shimmering Expanse|N|Find Idra'kess Weapon Racks and loot the Purloined Polearms from them.|S|
 C Body Blows|QID|25993|M|62.6,49.8|Z|Shimmering Expanse|N|Find 7 Nespirah Abscesses and attack them. They are small redish nodes along the walls. They can be hard to spot, as they blend in with everything around them, Position Unknown.|
 C Hopelessly Gearless|QID|25992|M|59.2,59.2|Z|Shimmering Expanse|N|Find Idra'kess Weapon Racks and loot the Purloined Polearms from them.|US|
-C Still Valuable|QID|25994|US|M|61.2,56|Z|Shimmering Expanse|L|56194 5|N|Kill Naga for the remaining Pearls.|
+C Still Valuable|QID|25994|US|M|61.2,56|Z|Shimmering Expanse|QO|1|N|Kill Naga for the remaining Pearls.|
 T Body Blows|QID|25993|Z|Shimmering Expanse|N|To Legionnaire Nazgrim.|M|60.2,63.69|
 T Hopelessly Gearless|QID|25992|Z|Shimmering Expanse|N|To Captian Vilethorn.|M|60.2,63.69|
 T Still Valuable|QID|25994|Z|Shimmering Expanse|N|To Wavespeaker Tulra.|M|60.2,63.69|
@@ -285,7 +285,7 @@ T Caught Off-Guard|QID|25952|Z|Shimmering Expanse|N|To Captian Vilethorn.|M|51.2
 T Swift Approach|QID|25953|Z|Shimmering Expanse|N|To Legionnaire Nazgrim.|M|51.21,63|
 T An Occupation of Time|QID|25954|Z|Shimmering Expanse|N|To Elendri Goldenbrow.|M|51.27,62.48|
 T Piece of the Past|QID|27717|N|To Elendri Goldenbrow.|M|51.27,62.48|Z|Shimmering Expanse|
-A The Call of the Blade|QID|27394|LEAD|25956|PRE|25953|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|
+A The Call of the Blade|QID|27394|LEAD|25956|PRE|25953|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|M|51.6,62.74|
 T The Call of the Blade|QID|27394|M|40.5,75.5|Z|Shimmering Expanse|N|Click the Skull to turn in the quest.|
 A Upon the Scene of Battle|QID|25956|RANK|1|M|40.5,75.5|Z|Shimmering Expanse|N|Accept the Followup.|
 T Upon the Scene of Battle|QID|25956|M|51.23,62.91|Z|Shimmering Expanse|N|To Captian Vilethorn.|
@@ -302,7 +302,7 @@ C To the Fathom-Lord's Call|QID|25637|S|QO|1|M|31.7,72.6|Z|Shimmering Expanse|N|
 C Built to Last|QID|25658|M|38.41,56.39|Z|Shimmering Expanse|N|Swimp way up to the Nar'shola Terrace. Activate the wards, they look like blue basins.|
 C To the Fathom-Lord's Call|QID|25637|US|QO|1|M|31.7,72.6|Z|Shimmering Expanse|N|Kill the remaining Kvaldir.|; Kvaldir invaders on the terrace slain: 16/16
 T Built to Last|QID|25658|Z|Shimmering Expanse|M|37.19,77.63|N|To Sira'kess Tide Priestess.|
-T To the Fathom-Lord's Call|QID|25637|Z|Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|
+T To the Fathom-Lord's Call|QID|25637|Z|Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|M|36.45,78.66|
 A Not Soon Forgotten|QID|25659|PRE|25637|RANK|1|M|36.5,78.5|Z|Shimmering Expanse|N|From Fathom-Lord Zin'jatar.|
 C Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|N|Swim up the tunnel in front of you until you find Varkul the Unrelenting. He will be surrounded by 5 Sira'kess Sea Witches and some other naga. As long as they are not being attacked, they will channel spell that causes Varkul to take increased damage. So Attach Varkul until he calls in the other kvaldir. Then let the other naga tank him while you kill off the adds.|
 T Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|
@@ -480,7 +480,7 @@ A Communing with the Ancient|QID|26140|PRE|26130|RANK|1|M|42.7,37.8|Z|Abyssal De
 T Communing with the Ancient|QID|26140|M|38.7,44.8|Z|Abyssal Depths|N|Enter L'ghorek the same way you entered Nespirah. The layout inside is the same. Go to the Brain Room inside L'ghorek. Speak to the brain to turn in Communing with the Ancient.|
 A Runestones of Binding|QID|26141|PRE|26140|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek|
 A Ascend No More!|QID|26142|PRE|26140|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek|
-C Runestones of Binding|QID|26141|S|M|31.2,58.8|Z|Abyssal Depths|L|57096 7|N|Kill any Twilight Candidates you see until you get 7 Runestones of Binding.|
+C Runestones of Binding|QID|26141|S|M|31.2,58.8|Z|Abyssal Depths|QO|1|N|Kill any Twilight Candidates you see until you get 7 Runestones of Binding.|
 C Ascend No More!|QID|26142|S|QO|1|M|28.1,57.5|Z|Abyssal Depths|N|Destroy Ancient Conduits.|; Ancient Conduits destroyed: 5/5
 l Twilight Cage Key|QID|26149|L|57118|N|Kill Twilight Hammer mobs until the key drops.|M|31.2,58.8|Z|Abyssal Depths|
 A Prisoners|QID|26149|RANK|1|M|31.2,58.8|Z|Abyssal Depths|U|57118|N|Accept the quest from the key.|

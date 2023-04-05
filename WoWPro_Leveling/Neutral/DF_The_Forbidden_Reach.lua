@@ -47,18 +47,20 @@ t Journal Entry: Experiments|QID|74866|M|35.49,58.80|Z|2151;The Forbidden Reach|
 ;C Sunder the Crater|QID|73140|QO|1|M|69.78,59.56|Z|2151;The Forbidden Reach|N|Kill Earth or Air Primalists.|S|
 ;C Sunder the Crater|QID|73140|QO|2|M|69.78,59.56|Z|2151;The Forbidden Reach|H|N|Destory the Primalists totems.|S|
 ;C Sunder the Crater|QID|73140|QO|3|M|69.78,59.56|Z|2151;The Forbidden Reach|N|Murder Adept Stormbringer|T|Adept Stormbringer|
+;C Sunder the Crater|QID|73140|M|69.78,59.56|Z|2151;The Forbidden Reach|N|Finish killing Earth or Air Primalists, and collect the rest of the totems.|US|
 ;T Sunder the Crater|QID|73140|M|35.51,58.66|Z|2151;The Forbidden Reach|N|To Scalecommander Azurathel.|
 
 ;A Up Close and Personal|QID|73194|PRE|74381|M|35.24,59.50|Z|2151;The Forbidden Reach|N|From Scalecommander Cindrethresh.|;need to find the PRE
 ;C Up Close and Personal|QID|73194|M|69.78,59.56|Z|2151;The Forbidden Reach|N|Use the spear to bring down a dragon, then kill it.|U|202642|T|Primal Stormtalon.|S|
 ;C Up Close and Personal|QID|73194|M|69.78,59.56|Z|2151;The Forbidden Reach|N|Use the spear to bring down a dragon, then kill it.|U|202642|T|Primal Stormtalon.|US|
-;C Sunder the Crater|QID|73140|M|69.78,59.56|Z|2151;The Forbidden Reach|N|Finish killing Earth or Air Primalists, and collect the rest of the totems.|US|
 ;T Up Close and Personal|QID|73194|M|35.24,59.50|Z|2151;The Forbidden Reach|N|To Scalecommander Cindrethresh.|
 
 ;A Everburning Embers|QID|73141|PRE|74381|M|34.43,58.59|Z|2151;The Forbidden Reach|N|From Tukkaraq.|
 ;C Everburning Embers|QID|73141|M|47.84,50.08|Z|2100;The Seige Creche|N|Kill the fire doods for their embers.|
 ;T Everburning Embers|QID|73141|M|34.43,58.59|Z|2151;The Forbidden Reach|N|To Tukkaraq.|
 
+
+;The Actual Guide
 P Valdrakken|AVAILABLE|74381|M|61.03,26.33|Z|2112;Valdrakken|N|This guide starts in Valdrakken. Make your way there by any means possible.
 A Hidden Legacies|QID|74381|M|61.03,26.33|Z|2112;Valdrakken|N|From UI Alert.|
 P The Seat of the Aspects|ACTIVE|74381|M|61.95,32.16|Z|2112;Valdrakken|N|Take the portal to The Seat of the Aspects or just fly up.|
