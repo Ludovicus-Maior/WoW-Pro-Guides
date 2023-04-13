@@ -223,7 +223,7 @@ R Pools of Aggonar|ACTIVE|10389|QO|1|M|40.73,43.48|N|Follow the road west to the
 C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|S|
 K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|S|
 C Arelion's Journal|QID|9374|M|40.03,37.18|L|23339|ITEM|23339|N|Blistering Oozeling\nIf you don't feel like fighting for it, locate Arelion's Knapsack and loot the item from it.\n[color=FF0000]NOTE: [/color]The Knapsack is hanging off a tree near a blood elf corpse.|U|31955|
-K Cruel's Intentions|ACTIVE|10136|M|43.88,31.57|QO|1|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nAfter clearing the 2 Misstresses of Doom, kill Arazzius the Cruel.\n[color=FF0000]NOTE: [/color]If you don't have multiple spell interrupts, then you'd better bring someone who does.|
+K Cruel's Intentions|ACTIVE|10136|M|43.88,31.57|QO|1|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nAfter clearing the 2 Misstresses of Doom (lv 61-62), kill Arazzius the Cruel (Elite lv 63).\n[color=FF0000]NOTE: [/color]If you don't have multiple spell interrupts, then you'd better bring someone who does.\nSkip this one for now if you can't do it yet.|
 C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|US|
 K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|US|
 
@@ -247,7 +247,7 @@ A Marking the Path|QID|9391|M|28.49,60.24|N|From Ranger Captain Venn'ren.|PRE|93
 T Wanted: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren.|LVL|61|
 C Trueflight Arrows|QID|9381|M|29,56;24.28,44.91|CS|L|23387 8|ITEM|23387|N|Bonestripper Vulture\n[color=FF0000]NOTE: [/color]Return to the first point if you still need more.|
-T Arelion's Secret|QID|10286|M|4.7,50.7;12.2,49.9;31.6,52.7;26.20,63.14|CS|N|To Magister Aledis who travels back and forth along the road between Thornfang Hill and Falcon Watch.\nOnce located, talk to him and then beat him down in health (~25%) until he surrenders.\n[color=FF0000]NOTE: [/color]This will temporarily enable PvP mode for 5 minutes (unless you already have it enabled).|
+T Arelion's Secret|QID|10286|M|26.2,63.1;4.7,50.7;12.2,49.9;31.6,52.7;26.20,63.14|CS|N|To Magister Aledis who travels back and forth along the road between Thornfang Hill and Falcon Watch.\nOnce located, talk to him and then beat him down in health (~25%) until he surrenders.\n[color=FF0000]NOTE: [/color]This will temporarily enable PvP mode for 5 minutes (unless you already have it enabled).|
 A The Mistress Revealed|QID|10287|M|PLAYER|N|From Magister Aledis.|PRE|10286|
 L Level 61?|N|Stay out and grind until you are less than a bubble from 61.|LVL|60;-18500|
 R Cenarion Post|ACTIVE|9373|M|15.80,51.69|Z|1944|
@@ -259,7 +259,7 @@ A Keep Thornfang Hill Clear!|QID|10159|M|15.67,52.15|N|From Mahuram Stouthoof.\n
 A The Cenarion Expedition|QID|9912|M|16.04,52.15|N|From Amythiel Mistwalker.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|S|
 A Crimson Crystal Clue|QID|10134|M|PLAYER|N|Click on the Crimson Crystal Shard to accept the quest.|U|29476|O|
-K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus will shrink size and spawn a smaller Shardling with every 25% drop in health. Stay focused on killing the Colossus.\n[color=FF0000]NOTE: [/color]Be aware of your surroundings and avoid adds.|
+K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus (lv 63 elite) will shrink size and spawn a smaller Shardling with every 25% drop in health.\nStay focused on killing the Colossus. Once the Colossus is dead, run away from the Shardlings (if you can).\n[color=FF0000]NOTE: [/color]Be aware of your surroundings to avoid adds.|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|US|
 T Colossal Menace|QID|10132|M|15.62,52.04|N|To Tola'thion.|
 T Crimson Crystal Clue|QID|10134|M|15.62,52.04|N|To Tola'thion.|
