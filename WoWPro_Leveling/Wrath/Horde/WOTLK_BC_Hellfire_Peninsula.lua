@@ -155,30 +155,30 @@ C In Case of Emergency...|QID|10161|M|58.0,71.5|L|28116 30|N|The Zepplin Debris 
 R Razorthorn Trail|ACTIVE|9349|M|42.05,83.44|Z|1944|N|Follow the road to the south.|FLY|OLD|
 C Ravager Egg Roundup|QID|9349|M|33.83,92.22|L|23217 12|ITEM|23217|N|Razorthorn Ravagers\nThey are found on the ground as well.|
 T Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|To Legassi.|
-A Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|From Legassi.|PRE|9349|
-l Tainted Helboar Meat|ACTIVE|9361|M|50.00,75.00|L|23270 8|ITEM|23270|QO|1|N|Any Helboar\nHead to the NE and work your way counter-clockwise around the hill.|
+A Helboar, the Other White Meat|QID|9361|PRE|9349|M|49.24,74.84|N|From Legassi.|
+l Tainted Helboar Meat|ACTIVE|9361|QO|1|M|50.00,75.00|L|23270 8|ITEM|23270|N|Any Helboar\nHead to the NE and work your way counter-clockwise around the hill.|
 C Purified Helboar Meat|ACTIVE|9361|M|PLAYER|L|23248 8|N|Use the Purification Mixture on the Tainted Helboar Meat.\n[color=FF0000]NOTE: [/color]For every [color=33fff9]Toxic Helboar Meat[/color] you get, you'll need another Tainted Helboar Meat to replace it and try again.|U|23268|
 K Marauding Crust Burster|AVAILABLE|9373|M|49,67|L|23338|N|Kill them until you loot the Eroded Leather Case.|US|
 T Helboar, the Other White Meat|QID|9361|M|49.24,74.84|N|To Legassi.|
-A Smooth as Butter|QID|9356|M|49.24,74.84|N|From Legassi.|PRE|9361|
+A Smooth as Butter|QID|9356|PRE|9361|M|49.24,74.84|N|From Legassi.|
 l A Mysterious Tome|AVAILABLE|10229|M|54.49,77.69|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|S|
 A Decipher the Tome|QID|10229|M|PLAYER|N|From A Mysterious Tome.|U|28552|O|
-K Make Them Listen|ACTIVE|10220|M|54.49,77.69|QO|1;2;3|
+K Make Them Listen|ACTIVE|10220|QO|1;2;3|M|54.49,77.69|
 l A Mysterious Tome|AVAILABLE|10229|M|54.49,77.69|L|28552|ITEM|28552|N|Unyielding Knights at the Expedition Armory|US|
 R Valley of Bones|ACTIVE|9356|QO|1|M|55.82,73.51|Z|1944|FLY|OLD|
 C Smooth as Butter|QID|9356|M|65.57,62.43|L|23239 12|ITEM|23239|N|Bonestripper Buzzard\nIf needed, head back the other way until you're done.|
-C Burn It Up... For the Horde!|QID|10087|M|60.90,52.50|QO|1|N|Head to the Eastern Cannon and burn it.|U|27479|NC|
-C Burn It Up... For the Horde!|QID|10087|M|54.67,54.10|QO|2|N|Find the Western Cannon further west along the Path of Glory and burn it.|U|27479|NC|
+C Burn It Up... For the Horde!|QID|10087|QO|1|M|60.90,52.50|N|Head to the Eastern Cannon and burn it.|U|27479|NC|
+C Burn It Up... For the Horde!|QID|10087|QO|2|M|54.67,54.10|N|Find the Western Cannon further west along the Path of Glory and burn it.|U|27479|NC|
 R Thrallmar|ACTIVE|10087|M|56.69,37.50|N|Sprint across the Path of Glory or hearth if you can.|FLY|OLD|
 T Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
 A The Agony and the Darkness|QID|10389|M|55.12,36.02|N|From Magister Bloodhawk.|;this is available earlier if anyone wants to move it.
 T A Strange Weapon|QID|9401|M|55.02,35.96|N|To Nazgrel.|
-A The Warchief's Mandate|QID|9405|M|55.02,35.96|N|From Nazgrel.|PRE|9401|
+A The Warchief's Mandate|QID|9405|PRE|9401|M|55.02,35.96|N|From Nazgrel.|
 T The Warchief's Mandate|QID|9405|M|54.23,37.90|N|To Far Seer Regulkut.|
-A A Spirit Guide|QID|9410|M|54.23,37.90|N|From Far Seer Regulkut.|PRE|9405|
+A A Spirit Guide|QID|9410|PRE|9405|M|54.23,37.90|N|From Far Seer Regulkut.|
 F Spinebreaker Ridge|ACTIVE|10229|M|56.28,36.25|
 T Decipher the Tome|QID|10229|M|61.74,81.79|N|To Althen the Historian.|
-A The Battle Horn|QID|10230|M|61.74,81.79|N|From Althen the Historian.|PRE|10229|
+A The Battle Horn|QID|10230|PRE|10229|M|61.74,81.79|N|From Althen the Historian.|
 T Make Them Listen|QID|10220|M|61.78,81.71|N|To Emissary Mordiba.|
 C In Case of Emergency...|QID|10161|M|58.38,72.90|L|28116 30|N|The Zepplin Debris is scattered all around the ground.|US|
 C The Battle Horn|QID|10230|M|54.8,83.7|L|28562|ITEM|28562|N|Lieutenant Commander Thalvos\nHead south to the Expedition Armory.|T|Lieutenant Commander Thalvos|
@@ -190,21 +190,21 @@ C The Warp Rifts|QID|10278|M|50,82|L|29051 3|ITEM|29051|N|Unstable Voidwalkers\n
 C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled and Rogue Voidwalkers\n[color=FF0000]NOTE: [/color]Unstable Voidwalkers do not drop the item.|US|
 T Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
 T The Battle Horn|QID|10230|M|61.74,81.79|N|To Althen the Historian.|
-A Bloody Vengeance|QID|10250|M|61.74,81.79|N|From Althen the Historian.|PRE|10230|
+A Bloody Vengeance|QID|10250|PRE|10230|M|61.74,81.79|N|From Althen the Historian.|
 T The Warp Rifts|QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
 A Void Ridge|QID|10294|M|61.87,81.53|N|From Ogath the Mad.|PRE|10278|
-K Urtrak|ACTIVE|10250|M|63.44,77.97|QO|1|N|Head to the semi-destroyed tower and use the Unyielding Battle Horn to summon Urtrak.|U|28651|
+K Urtrak|ACTIVE|10250|QO|1|M|63.44,77.97|N|Head to the semi-destroyed tower and use the Unyielding Battle Horn to summon Urtrak.|U|28651|
 l Bleeding Hollow Torch|ACTIVE|10792|M|63.67,71.86|Z|1944|L|31347 4|ITEM|31347|N|Bleeding Hollow Peon\nIt'll be easier to collect all 4 torches at once.|
 C Light it up|QID|10792|M|69.15,69.17|L|31346 4|N|Find the Bleeding Hollow Forge directly to the left after you enter the north gate. Use the torch at the forge to light all four Bleeding Hollow Torches.\n[color=FF0000]NOTE: [/color]The torches only last 5 minutes.|U|31347|NC|
-C Zeth'Gor Must Burn!|QID|10792|M|69.93,69.57|QO|2|N|Use the torch at the Eastern Hovel (next to the forge).|U|31346|NC|
-C Zeth'Gor Must Burn!|QID|10792|M|69.05,73.37|QO|4|N|Use the torch at the Stable where you killed the Worg Master.|U|31346|NC|
-C Zeth'Gor Must Burn!|QID|10792|M|67.41,77.05|QO|3|N|Use the torch at the Western Hovel.|U|31346|NC|
-C Zeth'Gor Must Burn!|QID|10792|M|68.75,76.53|QO|1|N|Use the torch at the Barracks.|U|31346|NC|
+C Zeth'Gor Must Burn!|QID|10792|QO|2|M|69.93,69.57|N|Use the torch at the Eastern Hovel (next to the forge).|U|31346|NC|
+C Zeth'Gor Must Burn!|QID|10792|QO|4|N|M|69.05,73.37||Use the torch at the Stable where you killed the Worg Master.|U|31346|NC|
+C Zeth'Gor Must Burn!|QID|10792|QO|3|M|67.41,77.05|N|Use the torch at the Western Hovel.|U|31346|NC|
+C Zeth'Gor Must Burn!|QID|10792|QO|1|M|68.75,76.53|N|Use the torch at the Barracks.|U|31346|NC|
 C The Eyes of Grillok|QID|10813|N|Target an Eye of Grillok and use Zezzak's Shard on it. Get the heck out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|T|Eye of Grillok|U|31463|
 T The Eyes of Grillok|QID|10813|M|61.66,81.86|N|To Zezzak.|
-A Grillok "Darkeye"|QID|10834|M|61.66,81.86|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Zezzak.|PRE|10813|
+A Grillok "Darkeye"|QID|10834|PRE|10813|M|61.66,81.86|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Zezzak.|
 T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
-A Honor the Fallen|QID|10258|M|61.74,81.79|N|From Althen the Historian.|PRE|10250|
+A Honor the Fallen|QID|10258|PRE|10250|M|61.74,81.79|N|From Althen the Historian.|
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
 * Bleeding Hollow Torch|ACTIVE|-10792|AVAILABLE|-10792|N|You no longer need these.|U|31347|
 R Spinebreaker Pass|ACTIVE|10294|M|71.43,67.32|QO|1|N|Leave Expedition and make your way northeast around Zeth'gor.|
@@ -213,23 +213,23 @@ C Void Ridge|QID|10294|M|76.60,64.82|L|29161 40|ITEM|29161|N|Vacillating and Col
 H Thrallmar|ACTIVE|10238|M|56.69,37.50|
 
 T How to Serve Goblins|QID|10238|M|51.37,30.53|N|To Foreman Razelcraz in his camp near Stonewall Canyon (just outside Thrallmar).|
-A Shizz Work|QID|10629|M|51.37,30.53|N|From Foreman Razelcraz.|PRE|10238|
+A Shizz Work|QID|10629|PRE|10238|M|51.37,30.53|N|From Foreman Razelcraz.|
 C Shizz Work|QID|10629|M|49.70,28.59|L|30794|N|Before you leave, use the Felhound Whistle to summon your Fel Puppy.\nAs you kill the helboars to the west of the camp, the Fel Puppy chows down and leaves some remains. Loot the remains looking for the Keys. Rinse and repeat as needed.|U|30803|
 T Shizz Work|QID|10629|M|51.37,30.53|N|To Foreman Razelcraz.|
-A Beneath Thrallmar|QID|10630|M|51.37,30.53|N|From Foreman Razelcraz.|PRE|10629|
+A Beneath Thrallmar|QID|10630|PRE|10629|M|51.37,30.53|N|From Foreman Razelcraz.|
 K Urga'zz|ACTIVE|10630|M|54.09,31.64|QO|1|N|Enter the mine and locate Urga'zz at the back of the cave.|
 T Beneath Thrallmar|QID|10630|M|51.37,30.53|N|To Foreman Razelcraz.|
 R Pools of Aggonar|ACTIVE|10389|QO|1|M|40.73,43.48|N|Follow the road west to the Pools of Aggonar.|
 C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|S|
-K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|S|
+K The Agony and the Darkness|ACTIVE|10389|QO|1|M|40.27,35.15|S|
 C Arelion's Journal|QID|9374|M|40.03,37.18|L|23339|ITEM|23339|N|Blistering Oozeling\nIf you don't feel like fighting for it, locate Arelion's Knapsack and loot the item from it.\n[color=FF0000]NOTE: [/color]The Knapsack is hanging off a tree near a blood elf corpse.|U|31955|
-K Cruel's Intentions|ACTIVE|10136|M|43.88,31.57|QO|1|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nAfter clearing the 2 Misstresses of Doom (lv 61-62), kill Arazzius the Cruel (Elite lv 63).\n[color=FF0000]NOTE: [/color]If you don't have multiple spell interrupts, then you'd better bring someone who does.\nSkip this one for now if you can't do it yet.|
+K Cruel's Intentions|ACTIVE|10136|QO|1|M|43.88,31.57|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nAfter clearing the 2 Misstresses of Doom (lv 61-62), kill Arazzius the Cruel (Elite lv 63).\n[color=FF0000]NOTE: [/color]If you don't have multiple spell interrupts, then you'd better bring someone who does.\nSkip this one for now if you can't do it yet.|
 C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|US|
-K The Agony and the Darkness|ACTIVE|10389|M|40.27,35.15|QO|1|US|
+K The Agony and the Darkness|ACTIVE|10389|QO|1|M|40.27,35.15|US|
 
 R Mag'har Post|ACTIVE|9410|M|33.62,43.56;33.48,28.96|CS|Z|1944|N|Go back to Krun Spinebreaker's corpse and use the Wolf Totem. Follow the Ancestral Spirit Wolf that spwns.\n[color=FF0000]NOTE: [/color]If you get too far away from the Wolf, it will despawn and you'll have to go back and resummon it.|U|23669|
 T A Spirit Guide|QID|9410|M|32.01,27.79|N|To Gorkan Bloodfist.\n[color=FF0000]NOTE: [/color]You can only speak to him as long as the Ancestral Spirit Wolf is there. Once you arrive, it will despawn after a short period of time.\nIf this happens, you'll have to go back and resummon it.|
-A The Mag'har|QID|9406|M|32.01,27.79|N|From Gorkan Bloodfist.|PRE|9410|
+A The Mag'har|QID|9406|PRE|9410|M|32.01,27.79|N|From Gorkan Bloodfist.|
 H Thrallmar|ACTIVE|10389|M|56.69,37.50|N|Hearth or run back.|
 T The Agony and the Darkness|QID|10389|M|55.12,36.02|N|To Magister Bloodhawk.|
 T The Mag'har|QID|9406|M|55.02,35.96|N|To Nazgrel.|
@@ -237,18 +237,18 @@ T Cruel's Intentions|QID|10136|M|55.02,35.96|N|To Nazgrel.|
 F Falcon Watch|ACTIVE|9366|M|56.28,36.25|
 h Falcon Watch|ACTIVE|9366|M|26.88,59.53|N|At Innkeeper Bazil Olof'tazun.\n[color=FF0000]NOTE: [/color]Skip this step if you do not wish to change it.|
 T In Need of Felblood|QID|9366|M|26.99,59.54|N|To Ryathen the Somber.|
-A The Cleansing Must Be Stopped|QID|9370|M|26.99,59.54|N|From Ryathen the Somber.|PRE|9366|
+A The Cleansing Must Be Stopped|QID|9370|PRE|9366|M|26.99,59.54|N|From Ryathen the Somber.|
 T Arelion's Journal|QID|9374|M|26.37,60.32|N|To Magistrix Carinda.|
-A Arelion's Secret|QID|10286|M|26.37,60.32|N|From Magistrix Carinda.|PRE|9374|
+A Arelion's Secret|QID|10286|PRE|9374|M|26.37,60.32|N|From Magistrix Carinda.|
 A Trueflight Arrows|QID|9381|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
-A Helping the Cenarion Post|QID|10442|M|27.71,60.33|N|From Falconer Drenna Riverwind.|LEAD|9372|
+A Helping the Cenarion Post|QID|10442|LEAD|9372|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 T The Great Fissure|QID|9340|M|28.35,60.21;28.49,60.24|CS|N|To Ranger Captain Venn'ren at the top of the tower.\n[color=FF0000]NOTE: [/color]Use the Orb Translocation to get to the top of the Tower.|
-A Marking the Path|QID|9391|M|28.49,60.24|N|From Ranger Captain Venn'ren.|PRE|9340|
+A Marking the Path|QID|9391|PRE|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 T Wanted: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren.|LVL|61|
 C Trueflight Arrows|QID|9381|M|29,56;24.28,44.91|CS|L|23387 8|ITEM|23387|N|Bonestripper Vulture\n[color=FF0000]NOTE: [/color]Return to the first point if you still need more.|
 T Arelion's Secret|QID|10286|M|26.2,63.1;4.7,50.7;12.2,49.9;31.6,52.7;26.20,63.14|CS|N|To Magister Aledis who travels back and forth along the road between Thornfang Hill and Falcon Watch.\nOnce located, talk to him and then beat him down in health (~25%) until he surrenders.\n[color=FF0000]NOTE: [/color]This will temporarily enable PvP mode for 5 minutes (unless you already have it enabled).|
-A The Mistress Revealed|QID|10287|M|PLAYER|N|From Magister Aledis.|PRE|10286|
+A The Mistress Revealed|QID|10287|PRE|10286|M|PLAYER|N|From Magister Aledis.|
 L Level 61?|N|Stay out and grind until you are less than a bubble from 61.|LVL|60;-18500|
 R Cenarion Post|ACTIVE|9373|M|15.80,51.69|Z|1944|
 T Missing Missive|QID|9373|M|15.70,52.09|N|To Thiah Redmane.|
@@ -257,6 +257,7 @@ A Demonic Contamination|QID|9372|M|15.70,52.09|N|From Thiah Redmane.|
 A Colossal Menace|QID|10132|M|15.62,52.04|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Tola'thion.|
 A Keep Thornfang Hill Clear!|QID|10159|M|15.67,52.15|N|From Mahuram Stouthoof.\n[color=FF0000]NOTE: [/color]He moves around...a lot.|
 A The Cenarion Expedition|QID|9912|M|16.04,52.15|N|From Amythiel Mistwalker.|
+C Demonic Contamination|QID|9372|M|22.36,56.44|L|23336 6|ITEM|23336|N|Hulking Helboar|S|
 l Crimson Crystal Shard|AVAILABLE|10134|M|15.57,41.17|L|29476|ITEM|29476|N|Raging Colossus|S|
 A Crimson Crystal Clue|QID|10134|M|PLAYER|N|Click on the Crimson Crystal Shard to accept the quest.|U|29476|O|
 K Colossal Menace|ACTIVE|10132|M|15.57,41.17|QO|1|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nThe Raging Colossus (lv 63 elite) will shrink size and spawn a smaller Shardling with every 25% drop in health.\nStay focused on killing the Colossus. Once the Colossus is dead, run away from the Shardlings (if you can).\n[color=FF0000]NOTE: [/color]Be aware of your surroundings to avoid adds.|
@@ -268,9 +269,8 @@ T The Earthbinder|QID|10349|M|15.96,51.57|N|To Earthbinder Galandria Nightbreeze
 A Natural Remedies|QID|10351|M|15.96,51.57|N|From Earthbinder Galandria Nightbreeze.\n[color=FF0000]NOTE: [/color]There is a short cut-scene before this quest becomes available. Stand back and watch, or participate and make it end faster.|PRE|10349|
 C Natural Remedies|QID|10351|M|13.64,39.11|QO|1|N|Go stand in the green rune and use the seed. When it spawns, kill Goliathon using the same process as you did with the Raging Colossus.\n[color=FF0000]NOTE: [/color]You may have to clear the area first to avoid adds.|U|29478|
 T Natural Remedies|QID|10351|M|15.96,51.57|N|To Earthbind Galandria Nightbreeze.|
-C Demonic Contamination|QID|9372|M|22.36,56.44|L|23336 6|ITEM|23336|N|Hulking Helboar|
 T The Mistress Revealed|QID|10287|M|26.37,60.32|N|To Magistrix Carinda.|
-A Arelion's Mistress|QID|9472|M|26.37,60.32|N|From Magistrix Carinda.|PRE|10287|
+A Arelion's Mistress|QID|9472|PRE|10287|M|26.37,60.32|N|From Magistrix Carinda.|
 T Trueflight Arrows|QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
 R Pools of Aggonar|ACTIVE|9370|QO|1|M|40.73,43.48|
 K The Cleansing Must Be Stopped|ACTIVE|9370|M|39.04,40.34|QO|1|N|Once you've cleared around the Altar of Aggonar, use the Signaling Gem. Of the 3 mobs that spawn, focus on killing the Draenei Anchorite first.\n[color=FF0000]NOTE: [/color]They don't appear instantaneously, it takes a few moments for them to appear1 running towards you.|T|Draenei Anchorite|U|23358|
@@ -304,17 +304,18 @@ T Avruu's Orb|QID|9418|M|28.99,81.46|N|Click on the Haal'eshi Altar and be prepa
 C Birds of a Feather|QID|9397|M|25.50,71.50|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|U|23485|US|
 C Magic of the Arakkoa|QID|9396|M|25.50,70.50|L|23483 4|ITEM|23483|N|Haal'eshi Talonguards and Windwalkers|US|
 A The Road to Falcon Watch|QID|9375|M|24.54,76.06|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Wounded Blood Elf Pilgrim inside the cage located in the west alcove.|
-C The Road to Falcon Watch|QID|9375|M|26.21,70.83;25.59,67.99;27.13,61.91|CS||N|Follow the Wounded Blood Elf Pilgrim, letting her take the lead and the aggro.\n[color=FF0000]NOTE: [/color]She can solo a birdman if you need to pause. There's a couple ambushes along the way, but not too difficult.|
+C The Road to Falcon Watch|QID|9375|M|26.21,70.83;25.59,67.99;27.13,61.91|CS|N|Follow the Wounded Blood Elf Pilgrim, letting her take the lead and the aggro.\n[color=FF0000]NOTE: [/color]She can solo a birdman if you need to pause. There's a couple ambushes along the way, but not too difficult.|
 T The Road to Falcon Watch|QID|9375|M|27.15,61.90|N|To Taleris Dawngazer.|
 A A Pilgrim's Plight|QID|9376|M|27.15,61.90|N|From Taleris Dawngazer.|PRE|9375|
 T Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|To Arcanist Calesthris Dawnstar.|
 T Birds of a Feather|QID|9397|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
 C A Pilgrim's Plight|QID|9376|M|22.12,68.31|L|23343|N|Locate the pack on the ground in Dustquill Ravine.|
+C Demonic Contamination|QID|9372|M|22.36,56.44|L|23336 6|ITEM|23336|N|Hulking Helboar|US|
 T Demonic Contamination|QID|9372|M|15.70,52.09|N|To Thiah Redmane.|
-A Testing the Antidote|QID|10255|M|15.70,52.09|N|From Thiah Redmane.|PRE|9372|
-C Testing the Antidote|QID|10255|M|25.0,54.0|QO|1|N|Use the Cenarion Antidote on a Hulking Helboar and when it gets bigger and changes its name, kill it. They can be found off to the east.|U|23337|
+A Testing the Antidote|QID|10255|PRE|9372|M|15.70,52.09|N|From Thiah Redmane.|
+C Testing the Antidote|QID|10255|QO|1|M|25.0,54.0|N|Use the Cenarion Antidote on a Hulking Helboar and when it gets bigger and changes its name, kill it. They can be found off to the east.|U|23337|
 T Testing the Antidote|QID|10255|M|15.70,52.09|N|To Thiah Redmane.|
-C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage because the Brutes/Geomancers will run once you kill the Taskmaster.|S|
+C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage because the Brutes/Geomancers, as long as they're not taking damage from you, will run and despawn once you kill the Taskmaster.|S|
 A Naladu|QID|10403|M|15.59,58.75|N|From Akoru the Firecaller.|LEAD|10367|
 T Naladu|QID|10403|M|16.27,65.09|N|To Naladu.|
 A A Traitor Among Us|QID|10367|M|16.27,65.09|N|From Naladu.|
@@ -328,7 +329,7 @@ T The Dreghood Elders|QID|10368|M|16.27,65.09|N|To Naladu.|
 A Arzeth's Demise|QID|10369|M|16.27,65.09|N|From Naladu.|PRE|10368|
 C Arzeth's Demise|QID|10369|M|14.25,61.50|N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|T|Arzeth the Merciless|U|29513|
 T Arzeth's Demise|QID|10369|M|16.27,65.09|N|To Naladu.|
-C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage because the Brutes/Geomancers will run once you kill the Taskmaster.|US|
+C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage because the Brutes/Geomancers, as long as they're not taking damage from you, will run and despawn once you kill the Taskmaster.|US|
 K Keep Thornfang Hill Clear!|ACTIVE|10159|M|11.75,49.75|QO|1;2|N|They are spread out over the area and on the other side of the hill.|
 T Keep Thornfang Hill Clear!|QID|10159|M|15.66,52.15|N|To Mahuram Stouthoof.|
 R Cenarion Refuge|ACTIVE|9472|M|82.29,64.68|Z|Zangarmarsh|N|Follow the road west until you reach Cenarion Refuge in Zangarmarsh.\n[color=FF0000]NOTE: [/color]We're grabbing the FP now so you can fly here later instead of running. We're also going to grab (and turn in) a few quests while we're here.|
