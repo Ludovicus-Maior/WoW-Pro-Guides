@@ -197,7 +197,7 @@ K Urtrak|ACTIVE|10250|QO|1|M|63.44,77.97|N|Head to the semi-destroyed tower and 
 l Bleeding Hollow Torch|ACTIVE|10792|M|63.67,71.86|Z|1944|L|31347 4|ITEM|31347|N|Bleeding Hollow Peon\nIt'll be easier to collect all 4 torches at once.|
 C Light it up|QID|10792|M|69.15,69.17|L|31346 4|N|Find the Bleeding Hollow Forge directly to the left after you enter the north gate. Use the torch at the forge to light all four Bleeding Hollow Torches.\n[color=FF0000]NOTE: [/color]The torches only last 5 minutes.|U|31347|NC|
 C Zeth'Gor Must Burn!|QID|10792|QO|2|M|69.93,69.57|N|Use the torch at the Eastern Hovel (next to the forge).|U|31346|NC|
-C Zeth'Gor Must Burn!|QID|10792|QO|4|N|M|69.05,73.37||Use the torch at the Stable where you killed the Worg Master.|U|31346|NC|
+C Zeth'Gor Must Burn!|QID|10792|QO|4|M|69.05,73.37|N|Use the torch at the Stable where you killed the Worg Master.|U|31346|NC|
 C Zeth'Gor Must Burn!|QID|10792|QO|3|M|67.41,77.05|N|Use the torch at the Western Hovel.|U|31346|NC|
 C Zeth'Gor Must Burn!|QID|10792|QO|1|M|68.75,76.53|N|Use the torch at the Barracks.|U|31346|NC|
 C The Eyes of Grillok|QID|10813|N|Target an Eye of Grillok and use Zezzak's Shard on it. Get the heck out of there back to Spinebreaker. The quest will complete after you stand next to the cauldron for a few seconds.|T|Eye of Grillok|U|31463|
