@@ -30,6 +30,9 @@ local function handler(msg, editbox)
             _G.ChatFrame1:AddMessage("WoWPro.DevMode = true")
 		end
 		WoWPro.LoadGuideStepsReal()
+    elseif ltoken == "load-guide" then
+        WoWProDB.char.currentguide = nil
+        WoWPro:LoadGuide(tokens[2])
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         if (not X) or (not Y) then
