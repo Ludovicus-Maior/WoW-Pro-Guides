@@ -1183,7 +1183,7 @@ function WoWPro.ShowFrame(enabled, msg, event)
             else
 	        WoWPro:print(msg .. event)
             end
-	    WoWPro.MainFrame:Hide()
+	    WoWPro.HideFrame:Hide()
 	    WoWPro.Titlebar:Hide()
 	    WoWPro.Hidden = event
 	elseif (enabled and WoWPro.Hidden) then
@@ -1192,7 +1192,7 @@ function WoWPro.ShowFrame(enabled, msg, event)
             else
 	        WoWPro:print(msg .. event)
             end
-            WoWPro.MainFrame:Show()
+            WoWPro.ShowFrame()
             WoWPro:TitlebarShow()
             WoWPro.Hidden = nil
         else

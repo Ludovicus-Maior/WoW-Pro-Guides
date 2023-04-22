@@ -686,7 +686,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function(event, ...)
 WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
     -- Combat lockdown begins after this event
     if WoWProCharDB.AutoHideInCombat then
-        WoWPro.MainFrame:Hide()
+        WoWPro.HideFrame()
         WoWPro.Titlebar:Hide()
         WoWPro.Hidden = event
     end
@@ -706,7 +706,7 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
 		end
 		WoWPro.CombatLock = false
 	elseif WoWPro.Hidden then
-        WoWPro.MainFrame:Show()
+        WoWPro.ShowFrame()
         WoWPro:TitlebarShow()
     end
 

@@ -940,10 +940,10 @@ end
 --Enables or Disables frames (hides/shows)
 function WoWPro:AbleFrames()
     if WoWPro:IsEnabled() then
-        WoWPro.MainFrame:Show()
+        WoWPro.ShowFrame()
         WoWPro.Titlebar:Show()
     else
-        WoWPro.MainFrame:Hide()
+        WoWPro.HideFrame()
         WoWPro.Titlebar:Hide()
     end
 end
