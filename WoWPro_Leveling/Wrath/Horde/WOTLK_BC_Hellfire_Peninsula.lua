@@ -341,7 +341,7 @@ A The Dying Balance|QID|9895|M|78.53,63.15|Z|Zangarmarsh|N|From Lethyn Moonfire.
 B Cenarion Spirits|ACTIVE|9472|M|78.49,62.94|Z|Zangarmarsh|L|29112|N|From Innkeeper Coryth Stoktron.\n[color=FF0000]NOTE: [/color]You're going to need for a quest shortly.|
 T The Cenarion Expedition|QID|9912|M|78.40,62.02|Z|Zangarmarsh|N|To Ysiel Windsinger.|
 A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.02|Z|Zangarmarsh|N|From Ysiel Windsinger.|
-A Warden Hamoot|QID|9778|M|78.40,62.02|Z|Zangarmarsh|N|From Ysiel Windsinger.|LEAD|9728|
+A Warden Hamoot|QID|9778|LEAD|9728|M|78.40,62.02|Z|Zangarmarsh|N|From Ysiel Windsinger.|
 T Warden Hamoot|QID|9778|M|79.09,65.27|Z|Zangarmarsh|N|To Warden Hamoot at the top of the tower.|
 A A Warm Welcome|QID|9728|M|79.09,65.27|Z|Zangarmarsh|N|From Warden Hamoot.|
 R Swamprat Post|ACTIVE|10103|M|85,55|Z|Zangarmarsh|N|To Swamprat Post in the northeast.|
@@ -359,12 +359,12 @@ R Hellfire Basin|ACTIVE|10838|M|44.13,51.10|
 C The Demoniac Scryer|QID|10838|M|44.13,51.10|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nUse the Demoniac Scryer and defend the crystal from waves of very weak imps, and occasional orc spawns. When smoke starts coming out of the Crystal, talk to it to finish the quest.\n[color=FF0000]NOTE: [/color]The crystal can take some beating, but don't let it.|U|31606|
 R Thrallmar|ACTIVE|10838|M|38.26,48.81;53.97,42.59|CS|N|Run to Thrallmar or hearth and fly.|
 T The Demoniac Scryer|QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
-A Report to Nazgrel|QID|10875|M|52.28,36.46|N|From Apothecary Antonivich.|PRE|10838|
+A Report to Nazgrel|QID|10875|PRE|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
 T Report to Nazgrel|QID|10875|M|55.02,35.96|N|To Nazgrel.|
-A The Foot of the Citadel|QID|10876|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|PRE|10875|
-C Challenge From the Horde|ACTIVE|10876|M|55.02,35.96|L|31702|QO|1|N|[color=FF0000]NOTE: [/color]You need to abandon the quest to get a new one.|NOCACHE|
+A The Foot of the Citadel|QID|10876|PRE|10875|M|55.02,35.96|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Nazgrel.|
+C Challenge From the Horde|ACTIVE|10876|QO|1|M|55.02,35.96|L|31702|N|[color=FF0000]NOTE: [/color]You need to abandon the quest to get a new one.|NOCACHE|
 K The Foot of the Citadel|ACTIVE|10876|M|51.56,46.37;47.43,49.71|CC|L|31706|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nDraw Force-Commander Gorax away from the group and kill him (lv 63 Elite) . When you're ready for the fight, plant the Challenge From the Horde on his corpse.\n[color=FF0000]NOTE: [/color]When the Hand of Kargath spawns with 2 guards, focus on killing The Hand first and his guards second.\n[color=CC00FF]If you die, you have to abandon the quest to get a new flag.[/color]|U|31702|O|
-C Challenge From the Horde|ACTIVE|10876|M|55.02,35.96|L|31702|QO|1|N|[color=FF0000]NOTE: [/color]You need to abandon the quest to get a new one.|
+C Challenge From the Horde|ACTIVE|10876|QO|1|M|55.02,35.96|L|31702|N|[color=FF0000]NOTE: [/color]You need to abandon the quest to get a new one.|
 T The Foot of the Citadel|QID|10876|M|55.02,35.96|N|To Nazgrel in Thrallmar.|
 ]]
 end)
