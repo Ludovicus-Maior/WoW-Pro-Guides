@@ -315,22 +315,22 @@ T Demonic Contamination|QID|9372|M|15.70,52.09|N|To Thiah Redmane.|
 A Testing the Antidote|QID|10255|PRE|9372|M|15.70,52.09|N|From Thiah Redmane.|
 C Testing the Antidote|QID|10255|QO|1|M|25.0,54.0|N|Use the Cenarion Antidote on a Hulking Helboar and when it gets bigger and changes its name, kill it. They can be found off to the east.|U|23337|
 T Testing the Antidote|QID|10255|M|15.70,52.09|N|To Thiah Redmane.|
-C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage because the Brutes/Geomancers, as long as they're not taking damage from you, will run and despawn once you kill the Taskmaster.|S|
-A Naladu|QID|10403|M|15.59,58.75|N|From Akoru the Firecaller.|LEAD|10367|
+C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage and keep your pet on passive because as long as they're not taking damage from you, the Brutes/Geomancers, will run and despawn once the Taskmaster is dead.|S|
+A Naladu|QID|10403|LEAD|10367|M|15.59,58.75|N|From Akoru the Firecaller.|
 T Naladu|QID|10403|M|16.27,65.09|N|To Naladu.|
 A A Traitor Among Us|QID|10367|M|16.27,65.09|N|From Naladu.|
 C A Traitor Among Us|QID|10367|M|14.34,63.50|L|29501|N|The key is inside the chest.|
 T A Traitor Among Us|QID|10367|M|16.27,65.09|N|To Naladu.|
-A The Dreghood Elders|QID|10368|M|16.27,65.09|N|From Naladu.|PRE|10367|
-C Morod|QID|10368|M|13.10,61.00|QO|1|CHAT|
-C Aylaan|QID|10368|M|13.00,58.40|QO|3|CHAT|
-C Akoru the Firecaller|QID|10368|M|15.59,58.75|QO|2|CHAT|
+A The Dreghood Elders|QID|10368|PRE|10367|M|16.27,65.09|N|From Naladu.|
+C Morod|QID|10368|QO|1|M|13.13,61.04|CHAT|
+C Aylaan|QID|10368|QO|3|M|13.00,58.40|CHAT|
+C Akoru the Firecaller|QID|10368|QO|2|M|15.59,58.75|CHAT|
 T The Dreghood Elders|QID|10368|M|16.27,65.09|N|To Naladu.|
-A Arzeth's Demise|QID|10369|M|16.27,65.09|N|From Naladu.|PRE|10368|
+A Arzeth's Demise|QID|10369|PRE|10368|M|16.27,65.09|N|From Naladu.|
 C Arzeth's Demise|QID|10369|M|14.25,61.50|N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|T|Arzeth the Merciless|U|29513|
 T Arzeth's Demise|QID|10369|M|16.27,65.09|N|To Naladu.|
-C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage because the Brutes/Geomancers, as long as they're not taking damage from you, will run and despawn once you kill the Taskmaster.|US|
-K Keep Thornfang Hill Clear!|ACTIVE|10159|M|11.75,49.75|QO|1;2|N|They are spread out over the area and on the other side of the hill.|
+C Source of the Corruption|QID|9387|M|15.00,55.50|L|29113 5|ITEM|29113|N|Illidari Taskmaster\n[color=FF0000]NOTE: [/color]Avoid AoE damage and keep your pet on passive because as long as they're not taking damage from you, the Brutes/Geomancers, will run and despawn once the Taskmaster is dead.|T|Illidari Taskmaster|US|
+K Keep Thornfang Hill Clear!|ACTIVE|10159|QO|1;2|M|11.75,49.75|N|They are spread out over the area and on the other side of the hill.|
 T Keep Thornfang Hill Clear!|QID|10159|M|15.66,52.15|N|To Mahuram Stouthoof.|
 R Cenarion Refuge|ACTIVE|9472|M|82.29,64.68|Z|Zangarmarsh|N|Follow the road west until you reach Cenarion Refuge in Zangarmarsh.\n[color=FF0000]NOTE: [/color]We're grabbing the FP now so you can fly here later instead of running. We're also going to grab (and turn in) a few quests while we're here.|
 A The Umbrafen Tribe|QID|9747|M|80.39,64.15|Z|Zangarmarsh|N|From Ikeyen.|
@@ -347,7 +347,7 @@ A A Warm Welcome|QID|9728|M|79.09,65.27|Z|Zangarmarsh|N|From Warden Hamoot.|
 R Swamprat Post|ACTIVE|10103|M|85,55|Z|Zangarmarsh|N|To Swamprat Post in the northeast.|
 f Swamprat Post|ACTIVE|10103|M|84.77,55.11|Z|Zangarmarsh|N|From Gur'zil.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Report to Zurai|QID|10103|M|85.28,54.76|Z|Zangarmarsh|N|To Zurai.|
-H Falcon Watch|ACTIVE|9387|M|84.77,55.11|Z|Zangarmarsh|N|Hearth (or Fly) to Falcon Watch.|
+F Falcon Watch|ACTIVE|9387|M|84.77,55.11|Z|Zangarmarsh|N|Fly (or Hearth) to Falcon Watch.|
 T Source of the Corruption|QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|
 T A Pilgrim's Plight|QID|9376|M|27.16,61.90|N|To Taleris Dawngazer.|
 A Life's Finer Pleasures|QID|9483|ACTIVE|9472|M|27.15,62.11|N|From Viera Sunwhisper.\n[color=FF0000]NOTE: [/color]If she's not there, someone's already on the 'escort' quest and you'll have to wait for her to respawn shortly.|
