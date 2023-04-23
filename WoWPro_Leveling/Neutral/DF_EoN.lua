@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Embers of Neltharion', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('Embers_of_Neltharion', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"DF_EoN")
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
@@ -6,6 +6,8 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ;CHAPTER 1
 
+P Valdrakken|N|Make your way to Valdrakken by any means necissary|
+;A The Land Beneath: Zaralek Cavern!|QID|72975|M|PLAYER|Z|2112|N|UI Alert.|
 T The Land Beneath: Zaralek Cavern!|QID|72975|M|61.12,42.37|Z|2112|N|To Ebyssian.|
 A A Crack in the World|QID|72976|PRE|72975|M|61.12,42.37|Z|2112|N|From Ebyssian.|
 C A Crack in the World|QID|72976|M|59.26,37.54|Z|2112|QO|1|CHAT|N|Speak with Alexstrasza concerning Iridikron.|
@@ -36,8 +38,6 @@ C Fyrakk and Brimstone|Z|The Throughway|SO|3|US|N|Defeat fire Primalist forces a
 C Ants Beneath My Claw|Z|The Throughway|SO|4|S|N|Slay Summitshaper Lorac.|
 C Summitshaper Lorac Slain|M|28.96,44.54|Z|The Throughway|SO|4;1|N|Summitshaper Lorac Slain|
 C Ants Beneath My Claw|Z|The Throughway|SO|4|US|N|nil|
-C nil|Z|The Throughway|SO|0|S|N|nil|
-C nil|Z|The Throughway|SO|0|S|N|nil|
 C The Patience of Princes|QID|72981|M|28.61,44.81|Z|2165|QO|3|NC|N|Break through the Primalist blockade.|
 A Climbing|QID|72560|PRE|72978|M|82.30,64.72|Z|2184;Zaralek Cavern|
 T The Patience of Princes|QID|72981|M|82.30,64.72|Z|2184;Zaralek Cavern|N|To Elder Honeypelt.|
@@ -55,7 +55,6 @@ T Culling the Deep|QID|72872|M|60.17,37.87|Z|2133;Zaralek Cavern|N|To Elder Hone
 T It Was Not Enough|QID|72873|M|60.17,37.87|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
 A Niffin and Goliath|QID|72970|PRE|72872&72873|M|60.17,37.87|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
 C Niffin and Goliath|QID|72970|M|60.21,37.67|Z|2133;Zaralek Cavern|QO|1|NC|N|Pungent Bait picked up.|
-A Kaprachu|QID|75269|PRE|72872&72873|M|59.13,39.67|Z|2133;Zaralek Cavern|
 C Niffin and Goliath|QID|72970|M|58.50,38.94|Z|2133;Zaralek Cavern|QO|2|NC|N|Pungent Bait placed (Optional).|
 C Niffin and Goliath|QID|72970|M|58.68,38.97|Z|2133;Zaralek Cavern|QO|3|N|Deepflayer Broodmatron slain.|
 T Niffin and Goliath|QID|72970|M|60.17,37.62|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
@@ -72,9 +71,7 @@ T Secrets From Our Father|QID|72874|M|60.61,40.11|Z|2133;Zaralek Cavern|N|To Sab
 A The Earth Gives Way|QID|72979|PRE|72874|M|60.61,40.11|Z|2133;Zaralek Cavern|N|From Sabellian.|
 T The Earth Gives Way|QID|72979|M|56.96,38.34|Z|2133;Zaralek Cavern|N|To Wrathion.|
 A Follow Your Nose|QID|72973|PRE|72979|M|56.98,38.26|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
-A Stress Express|QID|75156|PRE|72979|M|59.46,50.91|Z|2133;Zaralek Cavern|
 C Follow Your Nose|QID|72973|M|58.56,54.57|Z|2133;Zaralek Cavern|QO|1|NC|N|Meet Honeypelt on the outskirts of Loamm.|
-A Smelly Scramble|QID|75441|PRE|72979|M|57.68,55.18|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
 T Follow Your Nose|QID|72973|M|57.04,55.74|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
 A Welcome to the City of Smells|QID|72974|PRE|72973|M|57.04,55.74|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
 A Orientation: Loamm Niffen|QID|75643|PRE|72973|M|57.01,55.70|Z|2133;Zaralek Cavern|N|From Aurantia.|
@@ -83,7 +80,6 @@ C Orientation: Loamm Niffen|QID|75643|M|56.44,55.64|Z|2133;Zaralek Cavern|QO|1|N
 A A Worthy Ally: Loamm Niffen|QID|75665|PRE|72973|M|56.44,55.64|Z|2133;Zaralek Cavern|N|From Mimuup.|
 A Flightstones|QID|72658|PRE|72973|M|56.16,56.14|Z|2133;Zaralek Cavern|N|From Vaskarn.|
 C Orientation: Loamm Niffen|QID|75643|M|56.44,55.62|Z|2133;Zaralek Cavern|QO|2|NC|N|Renown Quartermaster.|
-A Smelly Scramble|QID|75441|PRE|72973|M|56.68,55.78|Z|2133;Zaralek Cavern|N|From Harlowe Marl.|
 C Welcome to the City of Smells|QID|72974|M|57.06,55.73|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Speak with Brynnsahce.|
 C Welcome to the City of Smells|QID|72974|M|57.55,56.31|Z|2133;Zaralek Cavern|QO|3|NC|N|Trade with the Coach.|
 C Welcome to the City of Smells|QID|72974|M|57.61,53.32|Z|2133;Zaralek Cavern|QO|4|NC|N|Trade with the Teacher.|
