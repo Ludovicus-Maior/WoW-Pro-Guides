@@ -61,7 +61,6 @@ T Niffin and Goliath|QID|72970|M|60.17,37.62|Z|2133;Zaralek Cavern|N|To Elder Ho
 A Brother's Keeper|QID|72980|PRE|72970|M|60.08,37.51|Z|2133;Zaralek Cavern|N|From Wrathion.|
 T Brother's Keeper|QID|72980|M|60.58,40.06|Z|2133;Zaralek Cavern|N|To Sabellian.|
 A Secrets From Our Father|QID|72874|PRE|72980|M|60.58,40.06|Z|2133;Zaralek Cavern|N|From Sabellian.|
-A Story of a Memorable Victory|QID|72291|PRE|72980|M|62.23,41.90|Z|2133;Zaralek Cavern|
 C Secrets From Our Father|QID|72874|M|62.46,41.81|Z|2133;Zaralek Cavern|QO|1|NC|N|Investigate Rusted Relic.|
 C Secrets From Our Father|QID|72874|M|60.29,41.98|Z|2133;Zaralek Cavern|QO|2|NC|N|Investigate Damaged Relic.|
 C Secrets From Our Father|QID|72874|M|58.80,41.64|Z|2133;Zaralek Cavern|QO|3|NC|N|Investigate Humming Relic.|
@@ -77,7 +76,7 @@ A Welcome to the City of Smells|QID|72974|PRE|72973|M|57.04,55.74|Z|2133;Zaralek
 A Orientation: Loamm Niffen|QID|75643|PRE|72973|M|57.01,55.70|Z|2133;Zaralek Cavern|N|From Aurantia.|
 A The Power of the Whole|QID|75641|PRE|72973|M|56.84,54.84|Z|2133;Zaralek Cavern|N|From Examiner Tae'shara Bloodwatcher.|
 C Orientation: Loamm Niffen|QID|75643|M|56.44,55.64|Z|2133;Zaralek Cavern|QO|1|NC|N|Keeper of Renown.|
-A A Worthy Ally: Loamm Niffen|QID|75665|PRE|72973|M|56.44,55.64|Z|2133;Zaralek Cavern|N|From Mimuup.|
+A A Worthy Ally: Loamm Niffen|QID|75665|PRE|72973|M|56.44,55.64|Z|2133;Zaralek Cavern|N|From Mimuup.|RANK|2|
 A Flightstones|QID|72658|PRE|72973|M|56.16,56.14|Z|2133;Zaralek Cavern|N|From Vaskarn.|
 C Orientation: Loamm Niffen|QID|75643|M|56.44,55.62|Z|2133;Zaralek Cavern|QO|2|NC|N|Renown Quartermaster.|
 C Welcome to the City of Smells|QID|72974|M|57.06,55.73|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Speak with Brynnsahce.|
@@ -93,11 +92,10 @@ A Six Hundred Feet Under|QID|75644|PRE|75643&72974|M|54.68,54.70|Z|2133;Zaralek 
 C Six Hundred Feet Under|QID|75644|M|54.78,54.52|Z|2133;Zaralek Cavern|QO|1|NC|N|Regroup with your companions.|
 T Six Hundred Feet Under|QID|75644|M|54.78,54.52|Z|2133;Zaralek Cavern|N|To Ebyssian.|
 A Future Aspects|QID|74334|PRE|75644|M|54.78,54.52|Z|2133;Zaralek Cavern|N|From Ebyssian.|
-A Slime Time Live|QID|72878|PRE|75644|M|54.68,54.66|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
-A A Swallow's Tale|QID|72881|PRE|75644|M|54.68,54.73|Z|2133;Zaralek Cavern|N|From Effervesta.|
+A Slime Time Live|QID|72878|PRE|75644|M|54.68,54.66|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|RANK|2|
+A A Swallow's Tale|QID|72881|PRE|75644|M|54.68,54.73|Z|2133;Zaralek Cavern|N|From Effervesta.|RANK|2|
 C Future Aspects|QID|74334|M|54.75,54.53|Z|2133;Zaralek Cavern|QO|1|NC|N|Suggest Honeypelt as a guide.|
 C Slime Time Live|QID|72878|M|58.91,47.79|Z|2133;Zaralek Cavern|QO|1|NC|N|Snail Slime.|
-A Smellincense|QID|75370|PRE|75644|M|60.63,52.54|Z|2133;Zaralek Cavern|
 C A Swallow's Tale|QID|72881|M|55.70,60.18|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Speak with Nevroll.|
 T A Swallow's Tale|QID|72881|M|55.70,60.18|Z|2133;Zaralek Cavern|N|To Cinnam.|
 A Flown the Coop|QID|72882|PRE|72881|M|55.70,60.18|Z|2133;Zaralek Cavern|N|From Cinnam.|
@@ -124,8 +122,8 @@ C Suss Out the Imposter|QID|72886|M|58.30,52.44|Z|2133;Zaralek Cavern|QO|2|NC|N|
 C A Worthy Ally: Loamm Niffen|QID|75665|M|58.03,53.57|Z|2133;Zaralek Cavern|QO|1|NC|N|Loamm Niffen reputation earned.|
 T Suss Out the Imposter|QID|72886|M|58.01,54.14|Z|2133;Zaralek Cavern|N|To Aurantia.|
 T Future Aspects|QID|74334|M|59.49,68.80|Z|2133;Zaralek Cavern|N|To Ebyssian.|
-A Save-A-Mole|QID|72958|PRE|72886&74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
-A Collating Their Research|QID|74375|PRE|72886&74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
+A Save-A-Mole|QID|72958|PRE|74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
+A Collating Their Research|QID|74375|PRE|74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
 C Collating Their Research|QID|74375|M|58.09,73.68|Z|2133;Zaralek Cavern|QO|2|NC|N|Sundered Flame expedition notes.|
 C Collating Their Research|QID|74375|M|57.89,73.93|Z|2133;Zaralek Cavern|QO|1|NC|N|Clues found.|
 C Save-A-Mole|QID|72958|M|58.09,75.33|Z|2133;Zaralek Cavern|QO|1|NC|N|Tuberros found.|
@@ -160,10 +158,114 @@ T Aspects of Our Legacy|QID|72965|M|56.59,56.75|Z|2133;Zaralek Cavern|N|To Sabel
 
 ;CHAPTER 2
 
-A Where There's Smoke, There's Fire|QID|72966|PRE|75665&72965|M|56.59,56.75|Z|2133;Zaralek Cavern|N|From Sabellian.|
-A Mortar Warfare|QID|75454|PRE|75665&72965|M|41.02,42.14|Z|2133;Zaralek Cavern|
-T Where There's Smoke, There's Fire|QID|72966|M|41.00,41.82|Z|2133;Zaralek Cavern|N|To Sabellian.|
-A Sight Beyond Sight|QID|72908|PRE|72966|M|41.00,41.82|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+A Storm's Wake|QID|50601|M|56.56,56.85|Z|2133|N|From Ebyssian.|
+A Where There's Smoke, There's Fire|QID|72966|M|56.60,56.78|Z|2133|N|From Sabellian.|
+A Like Moths to a Flame|QID|74985|M|47.07,51.44|Z|2133|
+T Where There's Smoke, There's Fire|QID|72966|M|41.00,41.87|Z|2133|N|To Sabellian.|
+A Sight Beyond Sight|QID|72908|PRE|72966|M|40.97,41.85|Z|2133|N|From Ebyssian.|
+C Sight Beyond Sight|QID|72908|M|37.19,42.01|Z|2133|QO|1|NC|N|Flamesight Rune.|
+C Sight Beyond Sight|QID|72908|M|35.37,42.33|Z|2133|QO|2|NC|N|Greater Flamesight Rune.|
+C Sight Beyond Sight|QID|72908|M|35.49,42.09|Z|2133|QO|3|NC|N|Greater Flamesight Totem activated.|
+T Sight Beyond Sight|QID|72908|M|35.43,41.89|Z|2133|N|To Ebyssian.|
+A Legends of the Zaqali|QID|72909|PRE|72908|M|35.43,41.89|Z|2133|N|From Ebyssian.|
+A Know Thy Enemy|QID|72910|PRE|72908|M|35.41,41.90|Z|2133|N|From Sabellian.|
+C Legends of the Zaqali|QID|72909|M|33.24,41.10|Z|2133|QO|1|NC|N|Smoldering Incense.|
+C Legends of the Zaqali|QID|72909|M|33.05,42.06|Z|2133|QO|2|NC|N|Thrumming Earthstone.|
+C Legends of the Zaqali|QID|72909|M|31.95,41.42|Z|2133|QO|3|NC|N|Cached Weaponry.|
+C Know Thy Enemy|QID|72910|M|32.49,41.73|Z|2133|QO|1|NC|N|Zaqali armaments.|
+C Legends of the Zaqali|QID|72909|M|32.26,40.21|Z|2133|QO|4|NC|N|Battered Ebon Armament.|
+C Legends of the Zaqali|QID|72909|M|32.33,39.59|Z|2133|QO|5|NC|N|Prayer Tablet.|
+C Legends of the Zaqali|QID|72909|M|30.39,41.39|Z|2133|QO|6|NC|N|Regroup with Sabellian.|
+T Know Thy Enemy|QID|72910|M|30.27,40.98|Z|2133|N|To Sabellian.|
+T Legends of the Zaqali|QID|72909|M|30.27,40.98|Z|2133|N|To Ebyssian.|
+A Take Out the Head|QID|72911|PRE|72910&72909|M|30.27,40.98|Z|2133|N|From Sabellian.|
+C Take Out the Head|QID|72911|M|30.83,45.43|Z|2133|QO|1|N|Shrinekeeper Qanosh slain.|
+C Take Out the Head|QID|72911|M|30.81,45.24|Z|2133|QO|2|N|Earthrender Ku'siva slain.|
+C Take Out the Head|QID|72911|M|30.62,44.19|Z|2133|QO|3|NC|N|Disturbance investigated.|
+T Take Out the Head|QID|72911|M|38.21,48.46|Z|2133|N|To Ebyssian.|
+A Consequences|QID|72912|PRE|72911|M|38.21,48.46|Z|2133|N|From Ebyssian.|
+C Consequences|QID|72912|M|38.24,48.35|Z|2133|QO|1|NC|N|Sabellian's injuries inspected.|
+T Consequences|QID|72912|M|38.24,48.35|Z|2133|N|To Ebyssian.|
+A Battlefield Triage|QID|72913|PRE|72912|M|38.24,48.35|Z|2133|N|From Ebyssian.|
+C Battlefield Triage|QID|72913|M|36.50,47.03|Z|2133|QO|1|NC|N|Vacant Elemental Core.|
+C Battlefield Triage|QID|72913|M|35.71,47.57|Z|2133|QO|2|NC|N|Zaqali Flame Totem.|
+T Battlefield Triage|QID|72913|M|35.71,47.57|Z|2133|N|To Ebyssian.|
+A Rushing Quality|QID|72914|PRE|72913|M|35.71,47.57|Z|2133|N|From Ebyssian.|
+C Rushing Quality|QID|72914|M|33.32,50.82|Z|2133|QO|1|NC|N|Head to the altar.|
+C Rushing Quality|QID|72914|M|33.27,50.91|Z|2133|QO|2|NC|N|Totem placed.|
+C Rushing Quality|QID|72914|M|33.15,51.06|Z|2133|QO|3|NC|N|Elemental Cores placed.|
+C Rushing Quality|QID|72914|M|33.27,50.75|Z|2133|QO|4|NC|N|Take your ritual place and assist Ebyssian.|
+C Rushing Quality|QID|72914|M|33.15,51.01|Z|2133|QO|5|NC|N|Darkened Elemental Cores contained.|
+C Rushing Quality|QID|72914|M|33.13,50.62|Z|2133|QO|6|NC|N|Darkened Cores thrown into lava.|
+T Rushing Quality|QID|72914|M|33.13,50.80|Z|2133|N|To Ebyssian.|
+A Shut Them Down|QID|72916|PRE|72914|M|33.13,50.80|Z|2133|N|From Ebyssian.|
+A Alliance of Convenience|QID|72915|PRE|72914|M|33.17,50.80|Z|2133|N|From Sabellian.|
+C Alliance of Convenience|QID|72915|M|29.56,51.20|Z|2133|QO|1|N|Zaqali guards slain.|
+T Alliance of Convenience|QID|72915|M|29.65,50.59|Z|2133|N|To Sabellian.|
+A Dinn|QID|75353|PRE|72915|M|28.85,50.56|Z|2133|N|From Dinn.|
+C Dinn|QID|75353|M|28.77,50.86|Z|2133|QO|1|N|Dinn slain.|
+T Dinn|QID|75353|M|28.77,50.86|Z|2133|
+C Shut Them Down|QID|72916|M|28.23,50.93|Z|2133|QO|2|NC|N|Extracted Elemental Core destroyed.|
+C Shut Them Down|QID|72916|M|29.21,54.53|Z|2133|QO|1|NC|N|Earthdrainer Conduit destroyed.|
+T Shut Them Down|QID|72916|M|29.26,54.40|Z|2133|N|To Ebyssian.|
+A A Scale for a Scale|QID|74494|PRE|75353&72916|M|29.48,53.65|Z|2133|N|From Sabellian.|
+C A Scale for a Scale|QID|74494|M|28.29,50.44|Z|2133|QO|1|NC|N|Zaqali Dragonslayer's Spear.|
+C A Scale for a Scale|QID|74494|M|29.26,49.97|Z|2133|QO|2|NC|N|Head to the overlook.|
+T A Scale for a Scale|QID|74494|M|29.55,49.64|Z|2133|N|To Sabellian.|
+A From Hell's Heart|QID|72917|PRE|74494|M|29.55,49.64|Z|2133|N|From Sabellian.|
+C From Hell's Heart|QID|72917|M|30.19,48.90|Z|2133|QO|1|NC|N|Agree to Sabellian's plan.|
+C From Hell's Heart|QID|72917|M|29.82,49.28|Z|2133|QO|2|N|Erupting Shadowflame slain.|
+T From Hell's Heart|QID|72917|M|41.10,59.81|Z|2133|N|To Ebyssian.|
+A No Dragon Left Behind|QID|72918|PRE|72917|M|41.10,59.81|Z|2133|N|From Ebyssian.|
+C No Dragon Left Behind|QID|72918|M|41.10,59.81|Z|2133|QO|1|NC|N|Pull the spear out by hand.|
+C No Dragon Left Behind|QID|72918|M|41.21,59.86|Z|2133|QO|2|NC|N|Pull the spear out with more leverage.|
+C No Dragon Left Behind|QID|72918|M|41.18,59.89|Z|2133|QO|3|NC|N|Let Sabellian help.|
+C No Dragon Left Behind|QID|72918|M|41.14,59.89|Z|2133|QO|4|NC|N|Remove the heated spear.|
+T No Dragon Left Behind|QID|72918|M|41.17,59.89|Z|2133|N|To Sabellian.|
+A Raked Over the Coals|QID|72919|PRE|72918|M|41.09,59.90|Z|2133|N|From Ebyssian.|
+C Raked Over the Coals|QID|72919|M|46.35,52.96|Z|2133|QO|1|NC|N|Shadowflame dispersed.|
+C Raked Over the Coals|QID|72919|M|55.93,54.19|Z|2133|QO|2|NC|N|Head into Loamm.|
+T Raked Over the Coals|QID|72919|M|56.02,54.45|Z|2133|N|To Ebyssian.|
+A The Endless Burning Sky|QID|72920|PRE|72919|M|56.02,54.45|Z|2133|N|From Ebyssian.|
+C The Endless Burning Sky|QID|72920|M|57.29,53.98|Z|2133|QO|1|NC|N|Fires extinguished (100%).|
+C The Endless Burning Sky|QID|72920|M|55.76,57.60|Z|2133|QO|2|NC|N|Search for villagers.|
+C The Endless Burning Sky|QID|72920|M|56.47,55.59|Z|2133|QO|3|NC|N|Elder Honeypelt rescued.|
+C The Endless Burning Sky|QID|72920|M|56.43,55.74|Z|2133|QO|4|NC|N|Fire cleared from doorway.|
+T The Endless Burning Sky|QID|72920|M|56.07,54.59|Z|2133|N|To Ebyssian.|
+A In the Wake of the Ashes|QID|75145|PRE|72920|M|56.07,54.59|Z|2133|N|From Ebyssian.|
+A Azerite for the Alliance|QID|53436|M|56.07,54.59|Z|2133|
+C Starting With Trouble|Z|Zaralek Cavern|SO|1|S|N|Defeat the Sundered Flame patrols.|
+C Northern patrol defeated|M|48.82,51.89|Z|Zaralek Cavern!Dragon Isles|SO|1;1|N|Northern patrol defeated|
+C Southern patrol defeated|M|48.82,51.89|Z|Zaralek Cavern!Dragon Isles|SO|1;2|N|Southern patrol defeated|
+C Starting With Trouble|Z|Zaralek Cavern|SO|1|S|N|Defeat the Sundered Flame patrols.|
+C Northern patrol defeated|M|47.80,51.11|Z|Zaralek Cavern!Dragon Isles|SO|1;1|N|Northern patrol defeated|
+C Southern patrol defeated|M|47.80,51.11|Z|Zaralek Cavern!Dragon Isles|SO|1;2|N|Southern patrol defeated|
+C Western patrol defeated|M|47.85,51.28|Z|Zaralek Cavern!Dragon Isles|SO|1;3|N|Western patrol defeated|
+C Starting With Trouble|Z|Zaralek Cavern|SO|1|US|N|Defeat the Sundered Flame patrols.|
+C Cleansing the Lockdown|Z|Zaralek Cavern|SO|2|S|N|Clear out the titan lockdown forces to the southwest.|
+C Cleansing the Lockdown|Z|Zaralek Cavern|SO|2|S|N|Clear out the titan lockdown forces to the southwest.|
+C Cleansing the Lockdown|Z|Zaralek Cavern|SO|2|S|N|Clear out the titan lockdown forces to the southwest.|
+C Cleansing the Lockdown|Z|Zaralek Cavern|SO|2|S|N|Clear out the titan lockdown forces to the southwest.|
+C Cleansing the Lockdown|Z|Zaralek Cavern|SO|2|US|N|Clear out the titan lockdown forces to the southwest.|
+C A Titanic Counterattack|Z|Zaralek Cavern|SO|10|S|N|Defeat the titan lockdown forces to allow Greta time to collect her data.|
+C Titan forces cleared|M|48.06,56.91|Z|Zaralek Cavern!Dragon Isles|SO|2;1|N|Titan forces cleared|
+P Sulfur Wastes|ACTIVE|53436|M|48.24,61.66|Z|Zaralek Cavern!Dragon Isles|N|Take the portal to Sulfur Wastes.|
+A Report to the Trading Post|QID|75833|M|47.17,46.47|Z|2112|
+C In the Wake of the Ashes|QID|75145|M|58.19,38.85|Z|2112|QO|1|NC|N|Report delivered.|
+T In the Wake of the Ashes|QID|75145|M|58.19,38.85|Z|2112|N|To Unknown.|
+A Here We Go Again|QID|72987|PRE|75145|M|61.76,41.24|Z|2112|N|From Ebyssian.|
+C Here We Go Again|QID|72987|M|61.00,36.60|Z|2112|QO|2|NC|N|Ask Kalecgos for a Portal (Optional).|
+P The Seat of the Aspects|ACTIVE|72987|M|60.57,37.04|Z|Valdrakken|N|Take the portal to The Seat of the Aspects.|
+C Here We Go Again|QID|72987|M|49.95,27.58|Z|2133;Zaralek Cavern|QO|1|NC|N|Ebyssian found.|
+T Here We Go Again|QID|72987|M|49.95,27.58|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A The Obsidian Rest|QID|75367|PRE|72987|M|49.95,27.58|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+C The Obsidian Rest|QID|75367|M|51.10,26.35|Z|2133;Zaralek Cavern|QO|1|NC|N|Flight Master's Report obtained.|
+f Obsidian Rest|QID|75367|M|51.05,26.24|Z|2133;Zaralek Cavern|N|At Keskos.|
+A A Veritable Dumping Ground|QID|75060|PRE|72987|M|51.30,25.76|Z|2133;Zaralek Cavern|N|From Keskos.|
+C The Obsidian Rest|QID|75367|M|51.34,25.68|Z|2133;Zaralek Cavern|QO|2|NC|N|Help requested from Tzashivak.|
+C The Obsidian Rest|QID|75367|M|50.74,25.29|Z|2133;Zaralek Cavern|QO|3|NC|N|Spying Glass used.|
+C A Veritable Dumping Ground|QID|75060|M|51.20,24.36|Z|2133;Zaralek Cavern|QO|1|NC|N|Climbing Gear acquired.|
+C A Veritable Dumping Ground|QID|75060|M|51.36,24.52|Z|2133;Zaralek Cavern|QO|2|NC|N|Find a handhold on the cliff.
 ]]
 
 end)
