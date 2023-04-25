@@ -344,7 +344,7 @@ A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.02|Z|Zangarmarsh|N|From Ysiel
 A Warden Hamoot|QID|9778|LEAD|9728|M|78.40,62.02|Z|Zangarmarsh|N|From Ysiel Windsinger.|
 T Warden Hamoot|QID|9778|M|79.09,65.27|Z|Zangarmarsh|N|To Warden Hamoot at the top of the tower.|
 A A Warm Welcome|QID|9728|M|79.09,65.27|Z|Zangarmarsh|N|From Warden Hamoot.|
-R Swamprat Post|ACTIVE|10103|M|85,55|Z|Zangarmarsh|N|To Swamprat Post in the northeast.|
+R Swamprat Post|ACTIVE|10103|M|85,55|Z|Zangarmarsh|N|To Swamprat Post in the northeast.|FLY|OLD|
 f Swamprat Post|ACTIVE|10103|M|84.77,55.11|Z|Zangarmarsh|N|From Gur'zil.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Report to Zurai|QID|10103|M|85.28,54.76|Z|Zangarmarsh|N|To Zurai.|
 F Falcon Watch|ACTIVE|9387|M|84.77,55.11|Z|Zangarmarsh|N|Fly (or Hearth) to Falcon Watch.|
@@ -355,9 +355,9 @@ l Cenarion Spirits|ACTIVE|9472&9483|L|29112|N|Fly to Swamprat Post and run to Ce
 T Life's Finer Pleasures|QID|9483|ACTIVE|9472|M|27.15,62.11|N|To Viera Sunwhisper.|
 C Arelion's Mistress|QID|9472|M|26.54,63.91|N|Follow Viera Sunwhisper. When she stops and says something about trying wine, use the scroll on her.|U|23693|NC|
 T Arelion's Mistress|QID|9472|M|26.37,60.32|N|To Magistrix Carinda.|
-R Hellfire Basin|ACTIVE|10838|M|44.13,51.10|
+R Hellfire Basin|ACTIVE|10838|QO|1|M|44.13,51.10|FLY|OLD|
 C The Demoniac Scryer|QID|10838|M|44.13,51.10|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nUse the Demoniac Scryer and defend the crystal from waves of very weak imps, and occasional orc spawns. When smoke starts coming out of the Crystal, talk to it to finish the quest.\n[color=FF0000]NOTE: [/color]The crystal can take some beating, but don't let it.|U|31606|
-R Thrallmar|ACTIVE|10838|M|38.26,48.81;53.97,42.59|CS|N|Run to Thrallmar or hearth and fly.|
+R Thrallmar|ACTIVE|10838|M|38.26,48.81;53.97,42.59|CS|N|Run to Thrallmar or hearth.|
 T The Demoniac Scryer|QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
 A Report to Nazgrel|QID|10875|PRE|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
 T Report to Nazgrel|QID|10875|M|55.02,35.96|N|To Nazgrel.|
