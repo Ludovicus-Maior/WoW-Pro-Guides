@@ -33,7 +33,7 @@ A Bonechewer Blood|QID|10450|M|55.13,36.40|N|From Vurtok Axebreaker.|
 A I Work... For the Horde!|QID|10086|M|55.17,38.79|N|From Megzeg Nukklebust.|
 T Eradicate the Burning Legion|QID|10121|M|58.03,41.25|N|To Sergeant Shatterskull at the Supply Caravan.\n[color=FF0000]NOTE: [/color]You may have to wait out a battle scene that occurs occassionaly.|
 A Felspark Ravine|QID|10123|PRE|10121|M|58.03,41.25|N|From Sergeant Shatterskull.|
-K Felspark Ravine|ACTIVE|10123|M|66.77,35.48|QO|1;2;3|N|Kill the required mobs.|
+K Felspark Ravine|ACTIVE|10123|QO|1;2;3|M|66.77,35.48|N|Kill the required mobs.|
 C Bonechewer Blood|QID|10450|M|57.60,46.61|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|S|
 l I Work... For the Horde!|ACTIVE|10086|QO|1;2|M|61.98,47.93;48.30,44.31|CS|N|Pick up the sparkling pieces of wood and metal between the 2 waypoints.|
 C Bonechewer Blood|QID|10450|M|56.5,47.0|L|30327 12|ITEM|30327|N|Any Bonechewer\nThey are on both sides of the ravine.|US|
@@ -87,7 +87,7 @@ F Thrallmar|ACTIVE|10388|M|61.66,81.19|
 T Return to Thrallmar|QID|10388|M|55.02,35.96|N|To Nazgrel.|
 A Forge Camp: Mageddon|QID|10390|PRE|10388|M|55.02,35.96|N|From Nazgrel.|
 T Apothecary Antonivich|QID|10835|M|52.29,36.45|N|To Apothecary Antonivich in the building atop the hill.|
-A A Burden of Souls|QID|10864|M|52.29,36.45|N|From Apothecary Antonivich.|PRE|10835|
+A A Burden of Souls|QID|10864|PRE|10835|M|52.29,36.45|N|From Apothecary Antonivich.|
 K Gan'arg Servants|ACTIVE|10390|QO|1|M|64.00,31.00|S|
 R Forge Camp: Rage|ACTIVE|10390|M|57.60,31.53|Z|1944|N|Exit Thrallmar from the north.|
 R Forge Camp: Mageddon|ACTIVE|10390|M|62.80,30.90|Z|1944|N|Continue east.|
@@ -184,7 +184,7 @@ C In Case of Emergency...|QID|10161|M|58.38,72.90|L|28116 30|N|The Zepplin Debri
 C The Battle Horn|QID|10230|M|54.8,83.7|L|28562|ITEM|28562|N|Lieutenant Commander Thalvos\nHead south to the Expedition Armory.|T|Lieutenant Commander Thalvos|
 T Smooth as Butter|QID|9356|M|49.24,74.84|N|To Legassi.|
 T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Screaming" Screed Luckheed.|
-A Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|PRE|10161|
+A Voidwalkers Gone Wild|QID|9351|PRE|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled and Rogue Voidwalkers|S|
 C The Warp Rifts|QID|10278|M|50,82|L|29051 3|ITEM|29051|N|Unstable Voidwalkers\nHead south to the Warp Fields and use the Unstable Warp Rift Generator to generate a warp rift. Kill and loot the Voidwalkers that come through.\n[color=FF0000]NOTE: [/color]The other Voidwalkers don't drop the item.|U|29027|
 C Voidwalkers Gone Wild|QID|9351|M|49.5,82.0|L|23218 10|ITEM|23218|N|Uncontrolled and Rogue Voidwalkers\n[color=FF0000]NOTE: [/color]Unstable Voidwalkers do not drop the item.|US|
@@ -192,7 +192,7 @@ T Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
 T The Battle Horn|QID|10230|M|61.74,81.79|N|To Althen the Historian.|
 A Bloody Vengeance|QID|10250|PRE|10230|M|61.74,81.79|N|From Althen the Historian.|
 T The Warp Rifts|QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
-A Void Ridge|QID|10294|M|61.87,81.53|N|From Ogath the Mad.|PRE|10278|
+A Void Ridge|QID|10294|PRE|10278|M|61.87,81.53|N|From Ogath the Mad.|
 K Urtrak|ACTIVE|10250|QO|1|M|63.44,77.97|N|Head to the semi-destroyed tower and use the Unyielding Battle Horn to summon Urtrak.|U|28651|
 l Bleeding Hollow Torch|ACTIVE|10792|M|63.67,71.86|Z|1944|L|31347 4|ITEM|31347|N|Bleeding Hollow Peon\nIt'll be easier to collect all 4 torches at once.|
 C Light it up|QID|10792|M|69.15,69.17|L|31346 4|N|Find the Bleeding Hollow Forge directly to the left after you enter the north gate. Use the torch at the forge to light all four Bleeding Hollow Torches.\n[color=FF0000]NOTE: [/color]The torches only last 5 minutes.|U|31347|NC|
@@ -207,8 +207,8 @@ T Bloody Vengeance|QID|10250|M|61.74,81.79|N|To Althen the Historian.|
 A Honor the Fallen|QID|10258|PRE|10250|M|61.74,81.79|N|From Althen the Historian.|
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
 * Bleeding Hollow Torch|ACTIVE|-10792|AVAILABLE|-10792|N|You no longer need these.|U|31347|
-R Spinebreaker Pass|ACTIVE|10294|M|71.43,67.32|QO|1|N|Leave Expedition and make your way northeast around Zeth'gor.|FLY|OLD|
-R Void Ridge|ACTIVE|10294|M|75.04,66.40|QO|1|N|Head to Void Ridge on the other side of the hill.|FLY|OLD|
+R Spinebreaker Pass|ACTIVE|10294|QO|1|M|71.43,67.32|N|Leave Expedition and make your way northeast around Zeth'gor.|FLY|OLD|
+R Void Ridge|ACTIVE|10294|QO|1|M|75.04,66.40|N|Head to Void Ridge on the other side of the hill.|FLY|OLD|
 C Void Ridge|QID|10294|M|76.60,64.82|L|29161 40|ITEM|29161|N|Vacillating and Collapsing Voidwalkers\n[color=FF0000]NOTE: [/color]Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote.\nVascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight. Throw something you don't normally use at them first.|
 H Thrallmar|ACTIVE|10238|M|56.69,37.50|
 
@@ -217,7 +217,7 @@ A Shizz Work|QID|10629|PRE|10238|M|51.37,30.53|N|From Foreman Razelcraz.|
 C Shizz Work|QID|10629|M|49.70,28.59|L|30794|N|Before you leave, use the Felhound Whistle to summon your Fel Puppy.\nAs you kill the helboars to the west of the camp, the Fel Puppy chows down and leaves some remains. Loot the remains looking for the Keys. Rinse and repeat as needed.|U|30803|
 T Shizz Work|QID|10629|M|51.37,30.53|N|To Foreman Razelcraz.|
 A Beneath Thrallmar|QID|10630|PRE|10629|M|51.37,30.53|N|From Foreman Razelcraz.|
-K Urga'zz|ACTIVE|10630|M|54.09,31.64|QO|1|N|Enter the mine and locate Urga'zz at the back of the cave.|
+K Urga'zz|ACTIVE|10630|QO|1|M|54.09,31.64|N|Enter the mine and locate Urga'zz at the back of the cave.|
 T Beneath Thrallmar|QID|10630|M|51.37,30.53|N|To Foreman Razelcraz.|
 R Pools of Aggonar|ACTIVE|10389|QO|1|M|40.73,43.48|N|Follow the road west to the Pools of Aggonar.|FLY|OLD|
 C In Need of Felblood|QID|9366|M|40.27,35.15|L|23269 6|ITEM|23269|N|Terrorfiend|S|
@@ -283,7 +283,7 @@ C Southern Beacon|QID|9391|QO|3|M|36.12,65.37|N|One last time. Don't hang around
 T Honor the Fallen|QID|10258|M|56.92,77.37|N|To Commander Hogarth inside the tower at the NE corner of Expedition Armory.|
 R Spinebreaker Post|ACTIVE|10294|M|61.12,81.09|Z|1944|FLY|OLD|
 T Void Ridge|QID|10294|M|61.87,81.53|N|To Ogath the Mad at Spinebreaker Post.|
-A From the Abyss|QID|10295|M|61.87,81.53|N|From Ogath the Mad.|PRE|10294|
+A From the Abyss|QID|10295|PRE|10294|M|61.87,81.53|N|From Ogath the Mad.|
 * Void Ridge Soul Shard|ACTIVE|-10294|AVAILABLE|-10294|N|You no longer need these.|U|29161|
 K Grillok "Darkeye"|ACTIVE|10834|M|66,71|L|31529|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nHe's inside the cave near the Boiling Cauldron. After clearing ALL of the mobs around the entrance, try and pull his guards from the entrance. When everyone is dead, kill Grillok "Darkeye".|
 R Spinebreaker Pass|ACTIVE|10295|QO|1|M|71.43,67.32|N|Leave the cave and make your way northeast around Zeth'gor.|FLY|OLD|
