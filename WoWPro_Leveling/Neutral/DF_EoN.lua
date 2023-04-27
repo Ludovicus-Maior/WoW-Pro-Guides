@@ -6,9 +6,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ;CHAPTER 1
 
-P Valdrakken|N|Make your way to Valdrakken by any means necissary|
-;A The Land Beneath: Zaralek Cavern!|QID|72975|M|PLAYER|Z|2112|N|UI Alert.|
-T The Land Beneath: Zaralek Cavern!|QID|72975|M|61.12,42.37|Z|2112|N|To Ebyssian.|
+P Valdrakken|AVAILABLE|72975|N|Make your way to Valdrakken by any means necissary|
+;A The Land Beneath|QID|72975|M|PLAYER|Z|2112|N|UI Alert.|
+T The Land Beneath|QID|72975|M|61.12,42.37|Z|2112|N|To Ebyssian at the Seat of the Aspects.|
 A A Crack in the World|QID|72976|PRE|72975|M|61.12,42.37|Z|2112|N|From Ebyssian.|
 C A Crack in the World|QID|72976|M|59.26,37.54|Z|2112|QO|1|CHAT|N|Speak with Alexstrasza concerning Iridikron.|
 T A Crack in the World|QID|72976|M|58.95,38.24|Z|2112|N|To Ebyssian.|
@@ -17,13 +17,15 @@ F Timberstep Outpost|ACTIVE|72977|M|44.00,68.04|Z|Valdrakken|N|Head to the fligh
 T Where the Flames Fell|QID|72977|M|87.15,27.21|Z|2023|N|To Wrathion.|
 A Scar of Earth and Fire|QID|72978|PRE|72977|M|87.15,27.21|Z|2023|N|From Wrathion.|
 C Scar of Earth and Fire|QID|72978|M|87.15,27.21|Z|2023|QO|1|CHAT|N|Speak with Khasar.|
-C Scar of Earth and Fire|QID|72978|M|87.05,27.20|Z|2023|QO|2|NC|N|Inspect pile of ashes.|
-C Scar of Earth and Fire|QID|72978|M|87.08,27.28|Z|2023|QO|3|NC|N|Inspect broken spear.|
+C Scar of Earth and Fire|QID|72978|M|87.05,27.20|Z|2023|QO|2|I|N|Inspect pile of ashes.|
+C Scar of Earth and Fire|QID|72978|M|87.08,27.28|Z|2023|QO|3|I|N|Inspect broken spear.|
 C Scar of Earth and Fire|QID|72978|M|87.35,27.50|Z|2023|QO|4|CHAT|N|Speak with Sabellian.|
-C Scar of Earth and Fire|QID|72978|M|87.08,27.24|Z|2023|QO|5|NC|N|Help bury the brave Shikaar.|
 T Scar of Earth and Fire|QID|72978|M|87.34,27.49|Z|2023|N|To Wrathion.|
+A Rest Well, Warrior|QID|75985|M|87.03,27.28|Z|2023|N|From Khasar|PRE|72978|RANK|2|
+C Rest Well, Warrior|QID|75985|M|87.05,27.23|Z|2023|H|N|Click on the shovel|||
+T Rest Well, Warrior|QID|75985|M|87.00,27.28|Z|2023|N|To Khasar|
 A The Patience of Princes|QID|72981|PRE|72978|M|87.34,27.49|Z|2023|N|From Sabellian.|
-C The Patience of Princes|QID|72981|M|87.34,27.49|Z|2023|QO|1|CHAT|N|Speak with Sabellian.|
+C The Patience of Princes|QID|72981|M|87.34,27.49|Z|2023|QO|1|N|Follow the black dragons.|
 C The Patience of Princes|QID|72981|M|82.85,31.02|Z|2023|QO|2|NC|N|Delve into Zaralek Caverns!.|
 C What's Beneath the Surface|Z|The Throughway|SO|1|S|N|The Zaralek Caverns are crawling with Primalists!|
 C What's Beneath the Surface|Z|The Throughway|SO|1|US|N|The Zaralek Caverns are crawling with Primalists!|
@@ -158,7 +160,6 @@ T Aspects of Our Legacy|QID|72965|M|56.59,56.75|Z|2133;Zaralek Cavern|N|To Sabel
 
 ;CHAPTER 2
 
-A Storm's Wake|QID|50601|M|56.56,56.85|Z|2133|N|From Ebyssian.|
 A Where There's Smoke, There's Fire|QID|72966|M|56.60,56.78|Z|2133|N|From Sabellian.|
 A Like Moths to a Flame|QID|74985|M|47.07,51.44|Z|2133|
 T Where There's Smoke, There's Fire|QID|72966|M|41.00,41.87|Z|2133|N|To Sabellian.|
@@ -256,16 +257,80 @@ T In the Wake of the Ashes|QID|75145|M|58.19,38.85|Z|2112|N|To Unknown.|
 A Here We Go Again|QID|72987|PRE|75145|M|61.76,41.24|Z|2112|N|From Ebyssian.|
 C Here We Go Again|QID|72987|M|61.00,36.60|Z|2112|QO|2|NC|N|Ask Kalecgos for a Portal (Optional).|
 P The Seat of the Aspects|ACTIVE|72987|M|60.57,37.04|Z|Valdrakken|N|Take the portal to The Seat of the Aspects.|
-C Here We Go Again|QID|72987|M|49.95,27.58|Z|2133;Zaralek Cavern|QO|1|NC|N|Ebyssian found.|
-T Here We Go Again|QID|72987|M|49.95,27.58|Z|2133;Zaralek Cavern|N|To Ebyssian.|
-A The Obsidian Rest|QID|75367|PRE|72987|M|49.95,27.58|Z|2133;Zaralek Cavern|N|From Ebyssian.|
-C The Obsidian Rest|QID|75367|M|51.10,26.35|Z|2133;Zaralek Cavern|QO|1|NC|N|Flight Master's Report obtained.|
-f Obsidian Rest|QID|75367|M|51.05,26.24|Z|2133;Zaralek Cavern|N|At Keskos.|
-A A Veritable Dumping Ground|QID|75060|PRE|72987|M|51.30,25.76|Z|2133;Zaralek Cavern|N|From Keskos.|
-C The Obsidian Rest|QID|75367|M|51.34,25.68|Z|2133;Zaralek Cavern|QO|2|NC|N|Help requested from Tzashivak.|
-C The Obsidian Rest|QID|75367|M|50.74,25.29|Z|2133;Zaralek Cavern|QO|3|NC|N|Spying Glass used.|
-C A Veritable Dumping Ground|QID|75060|M|51.20,24.36|Z|2133;Zaralek Cavern|QO|1|NC|N|Climbing Gear acquired.|
-C A Veritable Dumping Ground|QID|75060|M|51.36,24.52|Z|2133;Zaralek Cavern|QO|2|NC|N|Find a handhold on the cliff.
+C Here We Go Again|QID|72987|M|49.95,27.58|Z|2133|QO|1|NC|N|Ebyssian found.|
+T Here We Go Again|QID|72987|M|49.95,27.58|Z|2133|N|To Ebyssian.|
+A The Obsidian Rest|QID|75367|PRE|72987|M|49.95,27.58|Z|2133|N|From Ebyssian.|
+C The Obsidian Rest|QID|75367|M|51.10,26.35|Z|2133|QO|1|NC|N|Flight Master's Report obtained.|
+f Obsidian Rest|QID|75367|M|51.05,26.24|Z|2133|N|At Keskos.|
+A A Veritable Dumping Ground|QID|75060|PRE|72987|M|51.30,25.76|Z|2133|N|From Keskos.|
+C The Obsidian Rest|QID|75367|M|51.34,25.68|Z|2133|QO|2|NC|N|Help requested from Tzashivak.|
+C The Obsidian Rest|QID|75367|M|50.74,25.29|Z|2133|QO|3|NC|N|Spying Glass used.|
+C A Veritable Dumping Ground|QID|75060|M|51.20,24.36|Z|2133|QO|1|NC|N|Climbing Gear acquired.|
+C A Veritable Dumping Ground|QID|75060|M|51.36,24.52|Z|2133|QO|2|NC|N|Find a handhold on the cliff.|
+A Climbing|QID|72560|M|51.92,30.21|Z|2133;Zaralek Cavern|
+A Army of the Light|QID|48639|M|51.92,30.21|Z|2133;Zaralek Cavern|
+A Tracking Quest|QID|75511|M|51.90,30.17|Z|2133;Zaralek Cavern|
+T The Obsidian Rest|QID|75367|M|49.99,27.49|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A Report: Battlefield Ruins|QID|74393|PRE|75367|M|49.99,27.49|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+T Report: Battlefield Ruins|QID|74393|M|46.74,29.64|Z|2133;Zaralek Cavern|N|To Field Commander Ignax.|
+A Blow It Up|QID|74538|PRE|74393|M|46.74,29.64|Z|2133;Zaralek Cavern|N|From Field Commander Ignax.|
+A Thinning Their Defenses|QID|74539|PRE|74393|M|46.74,29.64|Z|2133;Zaralek Cavern|N|From Field Commander Ignax.|
+A Intercepting Communications|QID|74540|PRE|74393|M|46.74,29.64|Z|2133;Zaralek Cavern|N|From Field Commander Ignax.|
+C Blow It Up|QID|74538|M|43.90,34.28|Z|2133;Zaralek Cavern|QO|1|NC|N|Dragonslayer Ballista destroyed.|
+C Intercepting Communications|QID|74540|M|43.21,38.88|Z|2133;Zaralek Cavern|QO|2|N|Warchanter Ronvath slain.|
+C Intercepting Communications|QID|74540|M|43.03,38.90|Z|2133;Zaralek Cavern|QO|1|NC|N|Invasion Plans obtained.|
+C Thinning Their Defenses|QID|74539|M|43.11,37.96|Z|2133;Zaralek Cavern|QO|1|N|Zaqali Flametongue slain.|
+T Blow It Up|QID|74538|M|46.76,29.64|Z|2133;Zaralek Cavern|N|To Field Commander Ignax.|
+T Thinning Their Defenses|QID|74539|M|46.76,29.64|Z|2133;Zaralek Cavern|N|To Field Commander Ignax.|
+T Intercepting Communications|QID|74540|M|46.76,29.64|Z|2133;Zaralek Cavern|N|To Field Commander Ignax.|
+A Air Superiority|QID|74542|PRE|74538&74539&74540|M|46.76,29.64|Z|2133;Zaralek Cavern|N|From Field Commander Ignax.|
+C Air Superiority|QID|74542|M|46.92,29.43|Z|2133;Zaralek Cavern|QO|1|NC|N|Fly with Ebyssian.|
+C Air Superiority|QID|74542|M|46.92,29.43|Z|2133;Zaralek Cavern|QO|2|N|Djaradin Forces defeated (100%).|
+C Air Superiority|QID|74542|M|53.39,30.26|Z|2133;Zaralek Cavern|QO|3|NC|N|Reach the Ledge.|
+T Air Superiority|QID|74542|M|53.54,30.25|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A Investigating the Unknown|QID|74557|PRE|74542|M|53.54,30.25|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+C Investigating the Unknown|QID|74557|M|53.54,30.25|Z|2133;Zaralek Cavern|QO|3|NC|N|Contact made with a serpent drake.|
+C Investigating the Unknown|QID|74557|M|53.56,30.20|Z|2133;Zaralek Cavern|QO|1|NC|N|Djaradin corpse inspected.|
+C Investigating the Unknown|QID|74557|M|53.50,29.91|Z|2133;Zaralek Cavern|QO|2|NC|N|Poacher corpse Inspected.|
+T Investigating the Unknown|QID|74557|M|53.56,30.19|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A Break Them Out|QID|74562|PRE|74557|M|53.56,30.19|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+A Worst of the Worst|QID|74563|PRE|74557|M|53.56,30.19|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+C Worst of the Worst|QID|74563|M|56.84,31.03|Z|2133;Zaralek Cavern|QO|1|N|Overseer Xymra slain.|
+C Break Them Out|QID|74562|M|56.53,29.94|Z|2133;Zaralek Cavern|QO|1|NC|N|Poachers' operation disrupted (100%).|
+T Break Them Out|QID|74562|M|53.62,30.22|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+T Worst of the Worst|QID|74563|M|53.62,30.22|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A Fading Embers|QID|72922|PRE|74562&74563|M|53.47,30.21|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+C Fading Embers|QID|72922|M|45.97,26.36|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Speak to Emberthal.|
+C Fading Embers|QID|72922|M|45.55,25.59|Z|2133;Zaralek Cavern|QO|2|NC|N|Sarkareth stopped (100%).|
+T Fading Embers|QID|72922|M|46.02,26.31|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A A Whisper to Sabellian|QID|72923|PRE|72922|M|46.02,26.31|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+C A Whisper to Sabellian|QID|72923|M|46.78,29.58|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Speak to Sabellian.|
+T A Whisper to Sabellian|QID|72923|M|46.84,29.72|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A Appealing to the Black Prince|QID|72924|PRE|72923|M|46.84,29.72|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+C Appealing to the Black Prince|QID|72924|M|51.51,25.86|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Speak to Wrathion.|
+T Appealing to the Black Prince|QID|72924|M|51.46,25.85|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A With Our Powers Combined|QID|72925|PRE|72924|M|51.46,25.85|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+C With Our Powers Combined|QID|72925|M|47.23,27.94|Z|2133;Zaralek Cavern|QO|1|NC|N|Meet Emberthal by the entrance.|
+T With Our Powers Combined|QID|72925|M|47.20,27.94|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A Forward Camp|QID|72931|PRE|72925|M|47.20,27.94|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+A Wipe Them Out|QID|72928|PRE|72925|M|47.12,28.05|Z|2133;Zaralek Cavern|N|From Sabellian.|
+A In the Right Hands|QID|72926|PRE|72925|M|47.25,27.88|Z|2133;Zaralek Cavern|N|From Wrathion.|
+C In the Right Hands|QID|72926|M|45.09,20.99|Z|2133;Zaralek Cavern|QO|2|NC|N|'The Resting Blade'.|
+C In the Right Hands|QID|72926|M|45.14,18.56|Z|2133;Zaralek Cavern|QO|1|NC|N|Ebon Eviscerator.|
+C Wipe Them Out|QID|72928|M|43.39,18.78|Z|2133;Zaralek Cavern|QO|1|N|Defeat enemies in Brimstone Garrison (100%).|
+C Forward Camp|QID|72931|M|43.97,15.54|Z|2133;Zaralek Cavern|QO|1|NC|N|Meet Ebyssian at the Brimstone Garrison.|
+T Forward Camp|QID|72931|M|44.01,15.59|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+T Wipe Them Out|QID|72928|M|44.01,15.59|Z|2133;Zaralek Cavern|N|To Sabellian.|
+T In the Right Hands|QID|72926|M|44.01,15.59|Z|2133;Zaralek Cavern|N|To Wrathion.|
+A Finding Sarkareth|QID|72927|PRE|72931&72928&72926|M|44.01,15.59|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+C Finding Sarkareth|QID|72927|M|47.20,15.56|Z|2133;Zaralek Cavern|QO|1|NC|N|Emberthal met.|
+T Finding Sarkareth|QID|72927|M|47.33,15.61|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
+A Cracking His Shell|QID|72929|PRE|72927|M|47.33,15.61|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
+C Cracking His Shell|QID|72929|M|49.23,16.73|Z|2133;Zaralek Cavern|QO|1|NC|N|Connection destroyed.|
+T Cracking His Shell|QID|72929|M|47.30,15.61|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
+A Stopping Sarkareth|QID|72930|PRE|72929|M|47.30,15.61|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
+C Stopping Sarkareth|QID|72930|M|47.86,14.86|Z|2133;Zaralek Cavern|QO|1|NC|N|Sarkareth stopped.|
+T Stopping Sarkareth|QID|72930|M|47.88,14.85|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
 ]]
 
 end)
