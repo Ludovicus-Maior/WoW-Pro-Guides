@@ -4,6 +4,9 @@ WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
+
+
+
 ;CHAPTER 1
 
 P Valdrakken|AVAILABLE|72975|N|Make your way to Valdrakken by any means necissary|
@@ -25,82 +28,89 @@ A Rest Well, Warrior|QID|75985|M|87.03,27.28|Z|2023|N|From Khasar|PRE|72978|RANK
 C Rest Well, Warrior|QID|75985|M|87.05,27.23|Z|2023|H|N|Click on the shovel|||
 T Rest Well, Warrior|QID|75985|M|87.00,27.28|Z|2023|N|To Khasar|
 A The Patience of Princes|QID|72981|PRE|72978|M|87.34,27.49|Z|2023|N|From Sabellian.|
-C The Patience of Princes|QID|72981|M|87.34,27.49|Z|2023|QO|1|N|Follow the black dragons.|
-C The Patience of Princes|QID|72981|M|82.85,31.02|Z|2023|QO|2|NC|N|Delve into Zaralek Caverns!.|
-C What's Beneath the Surface|Z|The Throughway|SO|1|S|N|The Zaralek Caverns are crawling with Primalists!|
-C What's Beneath the Surface|Z|The Throughway|SO|1|US|N|The Zaralek Caverns are crawling with Primalists!|
-C Amateurs of Earth|Z|The Throughway|SO|2|S|N|Defeat earth Primalist forces and Cliffkeeper Bouldani.|
-C Earth Primalists slain|M|51.54,52.15|Z|The Throughway|SO|2;1|N|Earth Primalists slain|
-C Cliffkeeper Bouldani slain|M|51.54,52.15|Z|The Throughway|SO|2;2|N|Cliffkeeper Bouldani slain|
-C Amateurs of Earth|Z|The Throughway|SO|2|US|N|Defeat earth Primalist forces and Cliffkeeper Bouldani.|
-C Fyrakk and Brimstone|Z|The Throughway|SO|3|S|N|Defeat fire Primalist forces and Portalkeeper Cimbra.|
-C Fire Primalists slain|M|49.67,51.66|Z|The Throughway|SO|3;1|N|Fire Primalists slain|
-C Portalkeeper Cimbra slain|M|37.52,42.68|Z|The Throughway|SO|3;2|N|Portalkeeper Cimbra slain|
-C Fyrakk and Brimstone|Z|The Throughway|SO|3|US|N|Defeat fire Primalist forces and Portalkeeper Cimbra.|
-C Ants Beneath My Claw|Z|The Throughway|SO|4|S|N|Slay Summitshaper Lorac.|
-C Summitshaper Lorac Slain|M|28.96,44.54|Z|The Throughway|SO|4;1|N|Summitshaper Lorac Slain|
-C Ants Beneath My Claw|Z|The Throughway|SO|4|US|N|nil|
+C The Patience of Princes|QID|72981|M|87.64,29.24;84.64,29.79|CS|Z|2023|QO|1|N|Follow the black dragons.|
+C Whats Beneath the Surface|QID|72981|CHAT|SO|1|N|Talk to Sabellian.|
+C Earth Primalists slain|M|51.54,52.15|Z|The Throughway|SO|2;1|N|Earth Primalists slain|S|
+K Cliffkeeper Bouldani slain|M|51.54,52.15|Z|The Throughway|SO|2;2|N|Cliffkeeper Bouldani slain|
+C Earth Primalists slain|M|51.54,52.15|Z|The Throughway|SO|2;1|N|Earth Primalists slain|US|
+C Fire Primalists slain|M|49.67,51.66|Z|The Throughway|SO|3;1|N|Fire Primalists slain|S|
+K Portalkeeper Cimbra|SO|3;2|M|38.95,38.20|Z|The Throughway|N|Kill Portalkeeper Cimbra.|
+C Fire Primalists slain|M|49.67,51.66|Z|The Throughway|SO|3;1|N|Fire Primalists slain|US|
+K Summitshaper Lorac|M|28.96,44.54|Z|The Throughway|SO|4;1|N|Summitshaper Lorac Slain|
 C The Patience of Princes|QID|72981|M|28.61,44.81|Z|2165|QO|3|NC|N|Break through the Primalist blockade.|
-A Climbing|QID|72560|PRE|72978|M|82.30,64.72|Z|2184;Zaralek Cavern|
 T The Patience of Princes|QID|72981|M|82.30,64.72|Z|2184;Zaralek Cavern|N|To Elder Honeypelt.|
 A Culling the Deep|QID|72872|PRE|72981|M|82.30,64.72|Z|2184;Zaralek Cavern|N|From Elder Honeypelt.|
 A It Was Not Enough|QID|72873|PRE|72981|M|82.30,64.72|Z|2184;Zaralek Cavern|N|From Elder Honeypelt.|
-C It Was Not Enough|QID|72873|M|82.30,64.72|Z|2184;Zaralek Cavern|QO|1|NC|N|Escape the crystal prison.|
+C It Was Not Enough|QID|72873|M|82.30,64.72|Z|2184;Zaralek Cavern|QO|1|NC|N|Escape the crystal prison.|EAB|
 C It Was Not Enough|QID|72873|M|81.94,65.32|Z|2184;Zaralek Cavern|QO|2|CHAT|N|Speak with Elder Honeypelt.|
-C Culling the Deep|QID|72872|M|45.92,33.86|Z|2184;Zaralek Cavern|QO|1|NC|N|Kill Deepflayers (100%).|
-C It Was Not Enough|QID|72873|M|33.60,63.18|Z|2184;Zaralek Cavern|QO|3|NC|N|Follow Elder Honeypelt.|
-C It Was Not Enough|QID|72873|M|38.18,29.14|Z|2184;Zaralek Cavern|QO|4|NC|N|Follow Elder Honeypelt.|
-C It Was Not Enough|QID|72873|M|58.72,27.96|Z|2184;Zaralek Cavern|QO|5|NC|N|Follow Elder Honeypelt.|
-C It Was Not Enough|QID|72873|M|64.29,19.55|Z|2184;Zaralek Cavern|QO|6|NC|N|Rescue Wrathion.|
-C It Was Not Enough|QID|72873|M|60.39,37.18|Z|2133;Zaralek Cavern|QO|7|NC|N|Find Sabellian.|
+C Culling the Deep|QID|72872|M|45.92,33.86|Z|2184;Zaralek Cavern|QO|1|N|Kill Deepflayers.|S|
+C It Was Not Enough|QID|72873|M|33.60,63.18|Z|2184;Zaralek Cavern|QO|3|H|N|Follow Elder Honeypelt.|
+C It Was Not Enough|QID|72873|M|38.18,29.14|Z|2184;Zaralek Cavern|QO|4|H|N|Follow Elder Honeypelt.|
+C It Was Not Enough|QID|72873|M|58.72,27.96|Z|2184;Zaralek Cavern|QO|5|H|N|Follow Elder Honeypelt.|
+C It Was Not Enough|QID|72873|M|75.80,25.43|Z|2184;Zaralek Cavern|QO|6|H|N|Rescue Wrathion.|
+C It Was Not Enough|QID|72873|M|60.39,37.18|Z|2133;Zaralek Cavern|QO|7|H|N|Find Sabellian.|
+C Culling the Deep|QID|72872|M|45.92,33.86|Z|2184;Zaralek Cavern|QO|1|N|Kill Deepflayers.|US|
 T Culling the Deep|QID|72872|M|60.17,37.87|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
 T It Was Not Enough|QID|72873|M|60.17,37.87|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
-A Niffin and Goliath|QID|72970|PRE|72872&72873|M|60.17,37.87|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
-C Niffin and Goliath|QID|72970|M|60.21,37.67|Z|2133;Zaralek Cavern|QO|1|NC|N|Pungent Bait picked up.|
-C Niffin and Goliath|QID|72970|M|58.50,38.94|Z|2133;Zaralek Cavern|QO|2|NC|N|Pungent Bait placed (Optional).|
-C Niffin and Goliath|QID|72970|M|58.68,38.97|Z|2133;Zaralek Cavern|QO|3|N|Deepflayer Broodmatron slain.|
-T Niffin and Goliath|QID|72970|M|60.17,37.62|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
+A Niffen and Goliath|QID|72970|PRE|72872&72873|M|60.17,37.87|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
+C Niffen and Goliath|QID|72970|M|58.50,38.94|Z|2133;Zaralek Cavern|QO|1|H|N|Pungent Bait placed (Optional).|
+C Niffen and Goliath|QID|72970|M|58.50,38.94|Z|2133;Zaralek Cavern|QO|2|N|Deepflayer Broodmatron slain.|
+T Niffen and Goliath|QID|72970|M|60.17,37.62|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
 A Brother's Keeper|QID|72980|PRE|72970|M|60.08,37.51|Z|2133;Zaralek Cavern|N|From Wrathion.|
 T Brother's Keeper|QID|72980|M|60.58,40.06|Z|2133;Zaralek Cavern|N|To Sabellian.|
 A Secrets From Our Father|QID|72874|PRE|72980|M|60.58,40.06|Z|2133;Zaralek Cavern|N|From Sabellian.|
-C Secrets From Our Father|QID|72874|M|62.46,41.81|Z|2133;Zaralek Cavern|QO|1|NC|N|Investigate Rusted Relic.|
-C Secrets From Our Father|QID|72874|M|60.29,41.98|Z|2133;Zaralek Cavern|QO|2|NC|N|Investigate Damaged Relic.|
-C Secrets From Our Father|QID|72874|M|58.80,41.64|Z|2133;Zaralek Cavern|QO|3|NC|N|Investigate Humming Relic.|
-C Secrets From Our Father|QID|72874|M|60.56,40.15|Z|2133;Zaralek Cavern|QO|4|NC|N|Return to Sabellian with found clues.|
-C Secrets From Our Father|QID|72874|M|60.63,40.08|Z|2133;Zaralek Cavern|QO|5|NC|N|Assist Sabellian activate the relic.|
+C Secrets From Our Father|QID|72874|M|62.46,41.81|Z|2133;Zaralek Cavern|QO|1|H|N|Investigate Rusted Relic.|
+C Secrets From Our Father|QID|72874|M|60.29,41.98|Z|2133;Zaralek Cavern|QO|2|H|N|Investigate Damaged Relic.|
+C Secrets From Our Father|QID|72874|M|58.80,41.64|Z|2133;Zaralek Cavern|QO|3|H|N|Investigate Humming Relic.|
 T Secrets From Our Father|QID|72874|M|60.61,40.11|Z|2133;Zaralek Cavern|N|To Sabellian.|
 A The Earth Gives Way|QID|72979|PRE|72874|M|60.61,40.11|Z|2133;Zaralek Cavern|N|From Sabellian.|
 T The Earth Gives Way|QID|72979|M|56.96,38.34|Z|2133;Zaralek Cavern|N|To Wrathion.|
-A Follow Your Nose|QID|72973|PRE|72979|M|56.98,38.26|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
-C Follow Your Nose|QID|72973|M|58.56,54.57|Z|2133;Zaralek Cavern|QO|1|NC|N|Meet Honeypelt on the outskirts of Loamm.|
-T Follow Your Nose|QID|72973|M|57.04,55.74|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
+A Smells Like Loamm|QID|72973|PRE|72979|M|56.98,38.26|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
+C Smells Like Loamm|QID|72973|M|58.56,54.57|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Meet Honeypelt on the outskirts of Loamm.|
+T Smells Like Loamm|QID|72973|M|57.04,55.74|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
 A Welcome to the City of Smells|QID|72974|PRE|72973|M|57.04,55.74|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|
 A Orientation: Loamm Niffen|QID|75643|PRE|72973|M|57.01,55.70|Z|2133;Zaralek Cavern|N|From Aurantia.|
-A The Power of the Whole|QID|75641|PRE|72973|M|56.84,54.84|Z|2133;Zaralek Cavern|N|From Examiner Tae'shara Bloodwatcher.|
-C Orientation: Loamm Niffen|QID|75643|M|56.44,55.64|Z|2133;Zaralek Cavern|QO|1|NC|N|Keeper of Renown.|
-A A Worthy Ally: Loamm Niffen|QID|75665|PRE|72973|M|56.44,55.64|Z|2133;Zaralek Cavern|N|From Mimuup.|RANK|2|
-A Flightstones|QID|72658|PRE|72973|M|56.16,56.14|Z|2133;Zaralek Cavern|N|From Vaskarn.|
-C Orientation: Loamm Niffen|QID|75643|M|56.44,55.62|Z|2133;Zaralek Cavern|QO|2|NC|N|Renown Quartermaster.|
+A Tougher Down Under|QID|76101|PRE|72973|M|57.01,55.70|Z|2133;Zaralek Cavern|N|From Aurantia.|
 C Welcome to the City of Smells|QID|72974|M|57.06,55.73|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Speak with Brynnsahce.|
-C Welcome to the City of Smells|QID|72974|M|57.55,56.31|Z|2133;Zaralek Cavern|QO|3|NC|N|Trade with the Coach.|
-C Welcome to the City of Smells|QID|72974|M|57.61,53.32|Z|2133;Zaralek Cavern|QO|4|NC|N|Trade with the Teacher.|
-f Loamm|QID|75441|M|56.65,52.72|Z|2133;Zaralek Cavern|N|At Avogadro.|
-C Orientation: Loamm Niffen|QID|75643|M|56.65,52.72|Z|2133;Zaralek Cavern|QO|3|NC|N|Flight Master.|
-C Welcome to the City of Smells|QID|72974|M|55.70,57.35|Z|2133;Zaralek Cavern|QO|2|NC|N|Trade with the Cave Diver.|
-C Welcome to the City of Smells|QID|72974|M|54.36,56.66|Z|2133;Zaralek Cavern|QO|5|NC|N|Trade with the Resourceful Chef.|
+C Orientation: Loamm Niffen|QID|75643|M|56.44,55.64|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Talk to Mimuup.|
+A A Worthy Ally: Loamm Niffen|QID|75665|PRE|72973|M|56.44,55.64|Z|2133;Zaralek Cavern|N|From Mimuup.|RANK|2|
+C A Worthy Ally: Loamm Niffen|QID|75665|M|58.03,53.57|Z|2133;Zaralek Cavern|QO|1|NC|N|Loamm Niffen reputation earned.|S!US|
+C Orientation: Loamm Niffen|QID|75643|M|56.44,55.62|Z|2133;Zaralek Cavern|QO|2|CHAT|N|Renown Quartermaster.|
+T Tougher Down Under|QID|76101|M|56.51,56.07|Z|2133;Zaralek Cavern|N|TO Vaskarn.|
+A Flightstones|QID|72658|PRE|72973|M|56.51,56.07|Z|2133;Zaralek Cavern|N|From Vaskarn.|
+C Flightstones|QID|72658|M|56.51,56.07|Z|2133;Zaralek Cavern|N|Talk to Cuzolth and upgrade a pc of equipment.|
+T Flightstones|QID|72658|M|56.51,56.07|Z|2133;Zaralek Cavern|N|To Vaskarn.|
+A Shadowflame Crests|QID|75506|PRE|72658|M|56.51,56.07|Z|2133;Zaralek Cavern|N|From Vaskarn.|
+C Welcome to the City of Smells|QID|72974|M|57.55,56.31|Z|2133;Zaralek Cavern|QO|3|NC|N|Talk to Quicksmack Magk and then kick his butt.|
+A Get Rich Quick|QID|75885|PRE|72658|M|58.08,53.83|Z|2133;Zaralek Cavern|N|From Ponzo.|RANK|2|
+C Welcome to the City of Smells|QID|72974|M|57.61,53.32|Z|2133;Zaralek Cavern|QO|4|H|N|Trade with the Teacher.|
+C Get Rich Quick|QID|75885|M|58.08,53.83;56.60,54.00;56.31,54.87;57.73,54.78;58.08,55.53|CN|Z|2133;Zaralek Cavern|CHAT|N|Talk to Loamm Citizen and choose both options.|
+T Get Rich Quick|QID|75885|M|58.08,53.83|Z|2133;Zaralek Cavern|N|To Ponzo.|
+C Shadowflame Crests|QID|75506|M|55.88,55.42|QO|1|Z|2133;Zaralek Cavern|CHAT|N|Talk to Spinsoa.|
+f Loamm|QID|75441|M|55.61,54.80|Z|2133;Zaralek Cavern|N|At Avogadro.|
+C Orientation: Loamm Niffen|QID|75643|M|55.61,54.80|Z|2133;Zaralek Cavern|QO|3|CHAT|N|Flight Master.|
+A Fyrakk's Forces|QID|75887|M|55.61,54.80|Z|2133;Zaralek Cavern|N|From Kalecgos.|RANK|2|
+A TICKET: Glimmerogg Games|QID|73707|M|55.59,54.61|Z|2133;Zaralek Cavern|N|From Poster on the rock.|RANK|2|
+C Welcome to the City of Smells|QID|72974|M|55.70,57.35|Z|2133;Zaralek Cavern|QO|2|H|N|Stand in the middle of the 3 piles and click them in order.|
+C Welcome to the City of Smells|QID|72974|M|54.36,56.66|Z|2133;Zaralek Cavern|QO|5|H|N|Trade with the Resourceful Chef.|
 T Orientation: Loamm Niffen|QID|75643|M|54.69,54.76|Z|2133;Zaralek Cavern|N|To Aurantia.|
 T Welcome to the City of Smells|QID|72974|M|54.70,54.71|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
 A Six Hundred Feet Under|QID|75644|PRE|75643&72974|M|54.68,54.70|Z|2133;Zaralek Cavern|N|From Aurantia.|
-C Six Hundred Feet Under|QID|75644|M|54.78,54.52|Z|2133;Zaralek Cavern|QO|1|NC|N|Regroup with your companions.|
+C Six Hundred Feet Under|QID|75644|M|54.78,54.52|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Regroup with your companions.|
 T Six Hundred Feet Under|QID|75644|M|54.78,54.52|Z|2133;Zaralek Cavern|N|To Ebyssian.|
 A Future Aspects|QID|74334|PRE|75644|M|54.78,54.52|Z|2133;Zaralek Cavern|N|From Ebyssian.|
 A Slime Time Live|QID|72878|PRE|75644|M|54.68,54.66|Z|2133;Zaralek Cavern|N|From Elder Honeypelt.|RANK|2|
-A A Swallow's Tale|QID|72881|PRE|75644|M|54.68,54.73|Z|2133;Zaralek Cavern|N|From Effervesta.|RANK|2|
 C Future Aspects|QID|74334|M|54.75,54.53|Z|2133;Zaralek Cavern|QO|1|NC|N|Suggest Honeypelt as a guide.|
-C Slime Time Live|QID|72878|M|58.91,47.79|Z|2133;Zaralek Cavern|QO|1|NC|N|Snail Slime.|
+A A Swallow's Tale|QID|72881|PRE|75644|M|54.68,54.73|Z|2133;Zaralek Cavern|N|From Effervesta.|RANK|2|
+A The Buddy System|QID|74876|M|55.60,57.36|Z|2133;Zaralek Cavern|N|From Myrrit.|RANK|2|
+C The Buddy System|QID|74876|M|55.60,57.36|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Tell Myrrit you are ready.|
+T The Buddy System|QID|74876|M|55.60,57.36|Z|2133;Zaralek Cavern|N|From Myrrit.|
+A Power Unified|QID|75641|PRE|72973|M|56.84,54.84|Z|2133;Zaralek Cavern|N|From Examiner Tae'shara Bloodwatcher.|
+l Snail Slime|QID|72878|M|58.91,47.79|Z|2133;Zaralek Cavern|QO|1|N|Use the rope and run around collecting the slime puddles left behind.|U|205980|
 C A Swallow's Tale|QID|72881|M|55.70,60.18|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Speak with Nevroll.|
 T A Swallow's Tale|QID|72881|M|55.70,60.18|Z|2133;Zaralek Cavern|N|To Cinnam.|
 A Flown the Coop|QID|72882|PRE|72881|M|55.70,60.18|Z|2133;Zaralek Cavern|N|From Cinnam.|
+C Flown the Coop|QID|72882|M|56.28,54.91|Z|2133;Zaralek Cavern|QO|1|NC|N|Swallows found.|S|
 A A Bitter Pill to Swallow|QID|72883|PRE|72881|M|57.90,54.89|Z|2133;Zaralek Cavern|N|From Dead Cave Swallow.|
 T Slime Time Live|QID|72878|M|56.84,54.07|Z|2133;Zaralek Cavern|N|To Citros.|
 A Smells like Kith Spirit|QID|72879|PRE|72878|M|56.84,54.07|Z|2133;Zaralek Cavern|N|From Citros.|
@@ -109,11 +119,11 @@ C Smells like Kith Spirit|QID|72879|M|56.86,53.85|Z|2133;Zaralek Cavern|QO|2|NC|
 C Smells like Kith Spirit|QID|72879|M|56.86,53.85|Z|2133;Zaralek Cavern|QO|3|NC|N|Add Crystals.|
 T Smells like Kith Spirit|QID|72879|M|56.86,54.07|Z|2133;Zaralek Cavern|N|To Citros.|
 A Incense Gratification|QID|72880|PRE|72879|M|56.86,54.07|Z|2133;Zaralek Cavern|N|From Citros.|
-C Flown the Coop|QID|72882|M|56.28,54.91|Z|2133;Zaralek Cavern|QO|1|NC|N|Swallows found.|
-C Incense Gratification|QID|72880|M|56.36,56.27|Z|2133;Zaralek Cavern|QO|1|NC|N|Incense Placed.|
-T Incense Gratification|QID|72880|M|54.66,54.74|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
+C Incense Gratification|QID|72880|M|51.56,49.60|Z|2133;Zaralek Cavern|QO|1|NC|N|Incense Placed.|
+C Flown the Coop|QID|72882|M|56.28,54.91|Z|2133;Zaralek Cavern|QO|1|NC|N|Swallows found.|US|
 T Flown the Coop|QID|72882|M|55.72,60.20|Z|2133;Zaralek Cavern|N|To Cinnam.|
-C A Bitter Pill to Swallow|QID|72883|M|55.72,60.20|Z|2133;Zaralek Cavern|QO|1|NC|N|Return to Cinnam.|
+T Incense Gratification|QID|72880|M|54.66,54.74|Z|2133;Zaralek Cavern|N|To Elder Honeypelt.|
+C A Bitter Pill to Swallow|QID|72883|M|55.72,60.20|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Return to Cinnam.|
 T A Bitter Pill to Swallow|QID|72883|M|54.64,54.78|Z|2133;Zaralek Cavern|N|To Aurantia.|
 A Expedition Effervesta|QID|72884|PRE|72880&72882&72883|M|54.64,54.78|Z|2133;Zaralek Cavern|N|From Aurantia.|
 C Expedition Effervesta|QID|72884|M|58.04,54.43|Z|2133;Zaralek Cavern|QO|1|NC|N|Clues.|
@@ -121,8 +131,36 @@ T Expedition Effervesta|QID|72884|M|58.07,54.23|Z|2133;Zaralek Cavern|N|To Auran
 A Suss Out the Imposter|QID|72886|PRE|72884|M|58.07,54.23|Z|2133;Zaralek Cavern|N|From Aurantia.|
 C Suss Out the Imposter|QID|72886|M|58.30,52.44|Z|2133;Zaralek Cavern|QO|1|N|Nevroll slain.|
 C Suss Out the Imposter|QID|72886|M|58.30,52.44|Z|2133;Zaralek Cavern|QO|2|NC|N|Effervesta Freed.|
-C A Worthy Ally: Loamm Niffen|QID|75665|M|58.03,53.57|Z|2133;Zaralek Cavern|QO|1|NC|N|Loamm Niffen reputation earned.|
-T Suss Out the Imposter|QID|72886|M|58.01,54.14|Z|2133;Zaralek Cavern|N|To Aurantia.|
+T Suss Out the Imposter|QID|72886|M|54.68,54.73|Z|2133;Zaralek Cavern|N|To Aurantia.|
+A Best Friends|QID|74877|M|55.66,57.38|Z|2133;Zaralek Cavern|N|From Myrrit.|RANK|2|
+C Best Friends|QID|74877|M|55.66,57.38|Z|2133;Zaralek Cavern|CHAT|N|Talk to Myrrit, tell him you are ready.|
+T Best Friends|QID|74877|M|52.19,62.86|Z|2133;Zaralek Cavern|N|To Myrrit.|
+f Dragonscale Camp|ACTIVE|74334|M|40.35,67.88|Z|2133;Zaralek Cavern|N|At Avogadro.|
+A Medicinal Fungi|QID|73036|M|40.22,68.40|Z|2133;Zaralek Cavern|N|From Veritistrasz.|RANK|2|
+A Satiating Sharpbeak|QID|75440|M|40.22,68.40|Z|2133;Zaralek Cavern|N|From Earthmender Narvra.|RANK|2|
+A Healing Crystals|QID|73037|M|40.22,68.40|Z|2133;Zaralek Cavern|N|From Rupert, the Gentleman Elemental.|RANK|2|
+A Satiating Sharpbeak|QID|75440|M|40.22,68.40|Z|2133;Zaralek Cavern|N|From Earthmender Narvra.|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 T Future Aspects|QID|74334|M|59.49,68.80|Z|2133;Zaralek Cavern|N|To Ebyssian.|
 A Save-A-Mole|QID|72958|PRE|74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
 A Collating Their Research|QID|74375|PRE|74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
@@ -154,7 +192,7 @@ C Singed|QID|72964|M|63.58,74.91|Z|2133;Zaralek Cavern|QO|1|NC|N|Talk to Amythor
 C Singed|QID|72964|M|63.58,74.91|Z|2133;Zaralek Cavern|QO|2|NC|N|Talk to Marithos.|
 T Singed|QID|72964|M|63.51,74.76|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
 A Aspects of Our Legacy|QID|72965|PRE|72964|M|63.45,74.66|Z|2133;Zaralek Cavern|N|From Ebyssian.|
-T A Worthy Ally: Loamm Niffen|QID|75665|M|56.48,55.64|Z|2133;Zaralek Cavern|N|To Mimuup.|
+t A Worthy Ally: Loamm Niffen|QID|75665|M|56.48,55.64|Z|2133;Zaralek Cavern|N|To Mimuup.|
 C Aspects of Our Legacy|QID|72965|M|56.61,57.16|Z|2133;Zaralek Cavern|QO|1|NC|N|Meet Ebyssian in Loamm.|
 T Aspects of Our Legacy|QID|72965|M|56.59,56.75|Z|2133;Zaralek Cavern|N|To Sabellian.|
 
