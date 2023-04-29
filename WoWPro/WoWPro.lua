@@ -1193,29 +1193,32 @@ function WoWPro.LevelColor(guide)
 
 end
 
-WoWPro.Escondido = false
+WoWPro.Escondido = 0
 -- why should be one of "INSTANCE" or "COMBAT"
 function WoWPro.ShowFrame(enabled, msg, why)
-    if (not enabled) and (WoWPro.Escondido == 0) then
+    if (not enabled) then
             if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") then
-                WoWPro:Print(msg)
+                WoWPro:Print("WoWPro.ShowFrame(hide):"..msg)
             else
-                WoWPro:print(msg)
+                WoWPro:print("WoWPro.ShowFrame(hide):"..msg)
             end
             WoWPro.MainFrame:Hide()
             WoWPro.Titlebar:Hide()
-            WoWPro.Escondido = why
-    elseif (enabled and WoWPro.Escondido > 0) then
+            WoWPro.Escondido = WoWPro.Escondido + 1
+    elseif (enabled and (WoWPro.Escondido > 0)) then
             if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") then
-                WoWPro:Print(msg)
+                WoWPro:Print("WoWPro.ShowFrame(show)"..msg)
             else
-                WoWPro:print(msg)
+                WoWPro:print("WoWPro.ShowFrame(show):"..msg)
             end
-            WoWPro.MainFrame:Show()
-            WoWPro:TitlebarShow()
             WoWPro.Escondido = WoWPro.Escondido - 1
+            if (WoWPro.Escondido == 0) then
+                WoWPro.MainFrame:Show()
+                WoWPro:TitlebarShow()
+                WoWPro:print("WoWPro.ShowFrame(show): No longer hidden.")
+            end
     else
-        WoWPro:print("WoWPro.ShowFrame is confused: enabled=%s, Escondido=%s, msg=%s, evengt=%s", tostring(enabled), tostring(WoWPro.Escondido), msg, why)
+        WoWPro:print("WoWPro.ShowFrame is confused: enabled=%s, Escondido=%s, msg=%s, why=%s", tostring(enabled), tostring(WoWPro.Escondido), msg, why)
         WoWPro.Escondido = 0
         WoWPro.MainFrame:Show()
         WoWPro:TitlebarShow()

@@ -548,10 +548,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function(event, ...)
     WoWPro.InitLockdown = true
     WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     WoWPro.LockdownTimer = 1.5
-    -- WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA")
-    if WoWPro.Hidden == "PLAYER_ENTERING_BATTLEGROUND" then
-        WoWPro.ShowFrame(true, "|cff33ff33Battleground Exit Auto Show|r: ", event)
-    end
+    -- WoWPro.ShowFrame(true, "|cff33ff33Battleground Exit Auto Show|r: "..event, "INSTANCE")
     WoWPro:UpdateTradeSkills()
     end)
 
@@ -583,14 +580,12 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
             WoWPro:print("Suppressing Instance Auto Hide.")
             return
         end
-        if _G.IsInInstance() and not WoWPro.MaybeCombatLockdown() then
-            WoWPro.ShowFrame(false, "|cff33ff33Instance Auto Hide|r: " , event)
+        if _G.IsInInstance() then
+            WoWPro.ShowFrame(false, "|cff33ff33Instance Auto Hide|r: " .. event, "INSTANCE")
             return
-        elseif WoWPro.Hidden and not WoWPro.MaybeCombatLockdown() then
-            WoWPro.ShowFrame(true, "|cff33ff33Instance Exit Auto Show|r: " , event)
-	elseif WoWPro.Hidden or _G.IsInInstance() then
-            WoWPro.CombatLock = true
-	end
+        else
+            WoWPro.ShowFrame(true, "|cff33ff33Instance Exit Auto Show|r: " .. event, "INSTANCE")
+        end
     end
     if WoWPro.Ready(event) then
         WoWPro.AutoCompleteZone(...)
@@ -623,8 +618,8 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function(event, ..
     end
 
     WoWPro.LastPetBattleWinner = nil
-    if (not WoWPro.Hidden) and battleHide then
-        WoWPro.ShowFrame(false, "|cff33ff33Entering Pet Battle|r: ", event)
+    if (WoWPro.Escondido == 0) and battleHide then
+        WoWPro.ShowFrame(false, "|cff33ff33Entering Pet Battle|r: ", "COMBAT")
     end
     WoWPro.PetBattleActive = true
     WoWPro:print("battleHide=%s, Hidden=%s, PetBattleActive=%s", tostring(battleHide), tostring(WoWPro.Hidden), tostring(WoWPro.PetBattleActive))
@@ -653,8 +648,8 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_FINAL_ROUND", function(event, ...)
 WoWPro.RegisterModernEventHandler("PET_BATTLE_OVER", function(event, ...) return; end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
-    if WoWPro.Hidden then
-        WoWPro.ShowFrame(true, "|cff33ff33Exiting Pet Battle|r: ", event)
+    if (WoWPro.Escondido > 0) then
+        WoWPro.ShowFrame(true, "|cff33ff33Exiting Pet Battle|r: ", "COMBAT")
     end
 
     if not _G.C_PetBattles.IsInBattle() then
@@ -686,32 +681,23 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function(event, ...)
 WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
     -- Combat lockdown begins after this event
     if WoWProCharDB.AutoHideInCombat then
-        WoWPro.MainFrame:Hide()
-        WoWPro.Titlebar:Hide()
-        WoWPro.Hidden = event
+        WoWPro.ShowFrame(false, "|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
+        WoWPro.CombatLock = true
     end
     -- Last ditch update!
     if not WoWPro.MaybeCombatLockdown() then
         WoWPro:UpdateGuide(event)
     end
-    end)
+end)
 
 WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
     -- Combat lockdown ends before this event fires
-	if WoWPro.CombatLock then
-		if _G.IsInInstance() then
-            WoWPro.ShowFrame(false, "|cff33ff33Punted Instance Auto Hide|r: " .. event)
-        elseif WoWPro.Hidden == true then
-            WoWPro.ShowFrame(true, "|cff33ff33Punted Instance Exit Auto Show|r: " .. event)
-		end
-		WoWPro.CombatLock = false
-	elseif WoWPro.Hidden then
-        WoWPro.MainFrame:Show()
-        WoWPro:TitlebarShow()
+    if WoWPro.CombatLock and WoWProCharDB.AutoHideInCombat then
+        WoWPro.ShowFrame(true, "|cff33ff33Combat Exit, |r: " .. event, "COMBAT")
+        WoWPro.CombatLock = false
     end
-
     WoWPro:UpdateGuide(event)
-    end)
+end)
 
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
