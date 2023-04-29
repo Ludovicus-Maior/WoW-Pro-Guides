@@ -366,5 +366,7 @@ C Challenge From the Horde|ACTIVE|10876|QO|1|M|55.02,35.96|L|31702|N|[color=FF00
 K The Foot of the Citadel|ACTIVE|10876|M|51.56,46.37;47.43,49.71|CC|L|31706|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nDraw Force-Commander Gorax away from the group and kill him (lv 63 Elite) . When you're ready for the fight, plant the Challenge From the Horde on his corpse.\n[color=FF0000]NOTE: [/color]When the Hand of Kargath spawns with 2 guards, focus on killing The Hand first and his guards second.\n[color=CC00FF]If you die, you have to abandon the quest to get a new flag.[/color]|U|31702|O|
 C Challenge From the Horde|ACTIVE|10876|QO|1|M|55.02,35.96|L|31702|N|[color=FF0000]NOTE: [/color]You need to abandon the quest to get a new one.|
 T The Foot of the Citadel|QID|10876|M|55.02,35.96|N|To Nazgrel in Thrallmar.|
+D This ends Hellfire Peninsula|N|Visit your trainers and the AH if you wish.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue to Zangarmarsh.|
+
 ]]
 end)
