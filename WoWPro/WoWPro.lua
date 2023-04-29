@@ -108,7 +108,26 @@ local function ends_with(str, ending)
     return ending == "" or str:sub(-#ending) == ending
  end
 
--- WoWPro Event function, only log --
+-- WoWPro Log function all only --
+function WoWPro.LogCall(nomen, ...)
+    local msg = ("|cffff7d0a%s|r: %s("):format("WP", tostring(nomen))
+    local arg = {...}
+    local argn = #arg
+    for i=1,argn do
+        if type(arg[i]) == "string" then
+            msg = msg .. '"' .. arg[i] .. '"'
+        else
+            msg = msg .. tostring(arg[i])
+        end
+        if i < argn then
+            msg = msg .. ", "
+        end
+    end
+    msg = msg .. (") InitLockdown=%s"):format(tostring(WoWPro.InitLockdown))
+    WoWPro:Add2Log(2,msg)
+end
+
+ -- WoWPro Event function, only log --
 function WoWPro:LogEvent(event, ...)
     local msg = ("|cffff7d0a%s|r: %s("):format(self.name or "Wow-Pro", tostring(event))
     local arg = {...}
@@ -1174,29 +1193,32 @@ function WoWPro.LevelColor(guide)
 
 end
 
-WoWPro.Hidden = false
-
-function WoWPro.ShowFrame(enabled, msg, event)
-	if (not enabled) and (not WoWPro.Hidden) then
-            if WoWProCharDB.AutoHideInsideInstancesNotify then
-	        WoWPro:Print(msg .. event)
+WoWPro.Escondido = false
+-- why should be one of "INSTANCE" or "COMBAT"
+function WoWPro.ShowFrame(enabled, msg, why)
+    if (not enabled) and (WoWPro.Escondido == 0) then
+            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") then
+                WoWPro:Print(msg)
             else
-	        WoWPro:print(msg .. event)
+                WoWPro:print(msg)
             end
-	    WoWPro.MainFrame:Hide()
-	    WoWPro.Titlebar:Hide()
-	    WoWPro.Hidden = event
-	elseif (enabled and WoWPro.Hidden) then
-            if WoWProCharDB.AutoHideInsideInstancesNotify then
-	        WoWPro:Print(msg .. event )
+            WoWPro.MainFrame:Hide()
+            WoWPro.Titlebar:Hide()
+            WoWPro.Escondido = why
+    elseif (enabled and WoWPro.Escondido > 0) then
+            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") then
+                WoWPro:Print(msg)
             else
-	        WoWPro:print(msg .. event)
+                WoWPro:print(msg)
             end
             WoWPro.MainFrame:Show()
             WoWPro:TitlebarShow()
-            WoWPro.Hidden = nil
-        else
-             WoWPro:print("WoWPro.ShowFrame is confused: enabled=%s, Hidden=%s, msg=%s, evengt=%s", tostring(enabled), tostring(WoWPro.Hidden), msg, event)
+            WoWPro.Escondido = WoWPro.Escondido - 1
+    else
+        WoWPro:print("WoWPro.ShowFrame is confused: enabled=%s, Escondido=%s, msg=%s, evengt=%s", tostring(enabled), tostring(WoWPro.Escondido), msg, why)
+        WoWPro.Escondido = 0
+        WoWPro.MainFrame:Show()
+        WoWPro:TitlebarShow()
 	end
 end
 
