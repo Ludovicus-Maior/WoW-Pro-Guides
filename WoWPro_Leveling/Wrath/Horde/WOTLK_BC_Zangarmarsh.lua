@@ -18,7 +18,7 @@ R Cenarion Refuge|AVAILABLE|9747|M|77.97,61.86|N|Head over to the Cenarion Refug
 T Warchief's Command: Zangarmarsh|QID|39180|M|78.40,62.02|N|To Ysiel Windsinger in Cenarion Refuge.|
 T Return to the Marsh|QID|9732|M|78.40,62.02|N|To Ysiel Windsinger in Cenarion Refuge.|
 h Cenarion Refuge|QID|9747|M|78.49,62.95|N|At Innkeeper Coryth Stoktron.|
-A The Dying Balance|QID|9895|M|78.54,63.07|N|From Lethyn Moonfire|
+A The Dying Balance|QID|9895|M|78.53,63.15|N|From Lethyn Moonfire|
 A The Umbrafen Tribe|QID|9747|M|80.38,64.21|N|From Ikeyen.|
 A Plants of Zangarmarsh|QID|9802|M|80.32,64.16|N|From Lauranna Thar'well.|
 A Leader of the Darkcrest|QID|9730|M|79.13,64.78|N|From the Wanted Poster.|
@@ -29,23 +29,23 @@ C Thick Hydra Scales|QID|9774|M|78,74|N|Kill and loot Mire Hyrdas.|S|
 C No More Mushrooms!|QID|9773|M|75.25,73.05|L|24374 8|ITEM|24374|N|Umbrafen Eel\n[color=FF0000]NOTE: [/color]The droprate is fairly low, so this may take a while.\nKeep an eye on your breath meter.|U|25539|
 C Thick Hydra Scales|QID|9774|M|78,74|N|Kill and loot Mire Hyrdas.|US|
 C The Dying Balance|QID|9895|M|82,74|N|Exit Umbrafen Lake on the east side and head southeast. Boglash is a named strider that wanders around here.|T|Boglash|
-C The Umbrafen Tribe|QID|9747|N|Head south and clear the two Umbrafen Villages. Then head further south, Kataru is in the big building at  on the top floor.|M|85,90|
-A Escape from Umbrafen|QID|9752|M|83.37,85.53|N|From Kayra Longmane. This is an escort quest. If she isn't there, that means someone else is doing it, so just wait.|
+C The Umbrafen Tribe|QID|9747|M|85,90|N|Head south and clear the two Umbrafen Villages. Then head further south, Kataru is in the big building at  on the top floor.|
+A Escape from Umbrafen|QID|9752|M|83.37,85.53|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kayra Longmane.\n[color=FF0000]NOTE: [/color]If she isn't there, that means someone else is doing it, or she's dead and you'll have to wait.|
+A Escape from Umbrafen|QID|9752|M|83.37,85.53|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kayra Longmane to restart.\n[color=FF0000]NOTE: [/color]If she isn't there, that means someone else is doing it, or she's dead and you'll have to wait.|FAIL|
 C Escape from Umbrafen|QID|9752|M|79.50,67.41|N|Follow and protect Kayra.\n[color=FF0000]NOTE: [/color]You'll get ambushed twice by two Umbrafen Slavebinders.|
-T The Umbrafen Tribe|QID|9747|M|80.32,64.16|N|To Ikeyen.|
-A A Damp, Dark Place|QID|9788|PRE|9747|M|80.32,64.16|N|From Ikeyen.|
+T The Umbrafen Tribe|QID|9747|M|80.38,64.21|N|To Ikeyen.|
+A A Damp, Dark Place|QID|9788|PRE|9747|M|80.38,64.21|N|From Ikeyen.|
 t Plants of Zangarmarsh|QID|9802|M|80.32,64.16|N|To Lauranna Thar'well.|IZ|1126; Cenarion Refuge|
 A Saving the Sporeloks|QID|10096|PRE|9747|M|80.32,64.16|N|From Lauranna Thar'well.|
 A Safeguarding the Watchers|QID|9894|PRE|9747|M|80.37,64.73|N|From Windcaller Blackhoof.|
-T The Dying Balance|QID|9895|M|78.54,63.07|N|To Lethyn Moonfire.|
+T The Dying Balance|QID|9895|M|78.53,63.15|N|To Lethyn Moonfire.|
 T Escape from Umbrafen|QID|9752|M|78.40,62.02|N|To Ysiel Windsinger.|
-K Menacing Marshfangs|ACTIVE|9770|M|82.46,58.43;85.66,48.88|CS|N|They're around Swamprat Post\n[color=FF0000]NOTE: [/color]Head back towards the first waypoint if you're not finished yet.|
+K Menacing Marshfangs|ACTIVE|9770|QO|1|M|82.46,58.43;85.66,48.88|CS|N|They're around Swamprat Post\n[color=FF0000]NOTE: [/color]Head back towards the first waypoint if you're not finished yet.|
 C There's No Explanation for Fashion|QID|9769|M|78.54,81.74|L|24372 12|ITEM|24372|N|Any winged insect|US|
 T No More Mushrooms!|QID|9773|M|84.36,54.33|N|To Magasha.|
 T There's No Explanation for Fashion|QID|9769|M|84.36,54.33|N|To Magasha.|
+A A Job Undone|QID|9899|PRE|9773&9769|M|84.36,54.33|N|From Magasha.| ; ** Need to verify if PRE '&' or '^' - Hendo72
 T Menacing Marshfangs|QID|9770|M|84.97,54.03|N|To Reavij.|
-; ** Need to verify no pre for these next 2 quests - Hendo72
-A A Job Undone|QID|9899|PRE|9770^9769|M|84.36,54.33|N|From Magasha.|
 A The Respect of Another|QID|9898|PRE|9770|M|84.97,54.03|N|From Reavij.|
 T Thick Hydra Scales|QID|9774|M|85.28,54.76|N|To Zurai.|
 A Searching for Scout Jyoba|QID|9771|PRE|9774|M|85.28,54.76|N|From Zurai.|
@@ -64,7 +64,7 @@ K Saving the Sporeloks|ACTIVE|10096|QO|1;2|N|[color=FF0000]NOTE: [/color]They wo
 C A Damp, Dark Place|QID|9788|M|74.43,92.03;70.52,97.90|CC|N|Enter the cavern to the southwest. Go right at the first fork, right again at the second fork and down the slope. Ikeyen's Belongings are at the bottom on top of a flat rock.|
 K Safeguarding the Watchers|ACTIVE|9894|QO|1|N|Head further down the slope and go west. Lord Klaq is at the end. He's guarded by 3 fungal giants, but should be soloable. It is possible to pull the guards without Klaq, and also to wait for Sporeloks to engage his guards and just kill him, or to kill him and run.|
 K Saving the Sporeloks|ACTIVE|10096|QO|1;2|N|Finish up as you work your way back out.|US|
-T A Damp, Dark Place|QID|9788|M|80.32,64.16|N|To Ikeyen in Canarion Refuge.|
+T A Damp, Dark Place|QID|9788|M|80.38,64.21|N|To Ikeyen in Canarion Refuge.|
 T Saving the Sporeloks|QID|10096|M|80.32,64.16|N|To Lauranna Thar'well.|
 T Safeguarding the Watchers|QID|9894|M|80.37,64.73|N|To Windcaller Blackhoof.|
 r Fedryen Swiftspear|AVAILABLE|9778|M|79.25,63.67|N|Sell junk and repair.|
@@ -97,7 +97,7 @@ T Warning the Cenarion Circle|QID|9724|M|16.04,52.14|Z|Hellfire Peninsula|N|To A
 A Return to the Marsh|QID|9732|PRE|9724|M|16.04,52.14|N|From Amythiel Mistwalker.|Z|Hellfire Peninsula|
 H Cenarion Refuge|QID|9730|M|78.49,62.95|FLY|BC|
 T Return to the Marsh|QID|9732|M|78.40,62.02|N|To Ysiel Windsinger.|
-A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.54,63.07|N|From Lethyn Moonfire.|
+A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.53,63.15|N|From Lethyn Moonfire.|
 A Blessings of the Ancients|QID|9785|M|80.37,64.73|N|From Windcaller Blackhoof.|
 C Blessings of the Ancients|QID|9785|QO|1|M|81.04,64.03|N|To Ashyen.|CHAT|
 C Blessings of the Ancients|QID|9785|QO|2|M|78.1,63.8|N|To Kelethwho, who wanders around.|CHAT|
@@ -215,7 +215,7 @@ T Message to the Daggerfen|QID|10118|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 A News for Rakoria|QID|10105|M|30.71,50.89|N|From Shadow Hunter Denjai.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
 H Cenarion Refuge|QID|9730|M|78.49,62.95|FLY|BC|
 T Balance Must Be Preserved|QID|9720|M|78.40,62.02|N|To Ysiel Windsinger in Cenarion Refuge.|
-A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.54,63.07|N|From Lethyn Moonfire.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
+A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.53,63.15|N|From Lethyn Moonfire.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
 t Identify Plant Parts|QID|9784|M|80.32,64.16|N|To Lauranna Thar'well.|
 A Identify Plant Parts|AVAILABLE|9784|M|80.32,64.16|L|24401 -10|N|From Lauranna Thar'well.\n[color=FF0000]NOTE: [/color]This a repeatable quest that you can do to get some useful herbs before you leave.\nSkip this step if you want to move on.|NOCACHE|
 D This ends Zangarmarsh.|N|Visit your trainers and the AH if you wish.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue to Terokkar Forest.|
