@@ -18,7 +18,7 @@
 	<Script file="DF_Thaldraszus.lua"/>
 	<Script file="DF_The_Forbidden_Reach.lua"/>
 	<Script file="DF_Campaign.lua"/>
-	<Script file="DF_EoN"/>
+	<Script file="DF_EoN.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>
@@ -53,7 +53,7 @@
 	<Script file="SL_Bastion.lua"/>
 	<Script file="SL_Chains_of_Domination.lua"/>
 	<Script file="SL_Covenant.lua"/>
-    <Script file="SL_Zereth_Mortis.lua"/>
+	<Script file="SL_Zereth_Mortis.lua"/>
 	<Script file="SL_Maldraxxus.lua"/>
 	<Script file="SL_Maw_Intro.lua"/>
 	<Script file="SL_Revendreth.lua"/>
