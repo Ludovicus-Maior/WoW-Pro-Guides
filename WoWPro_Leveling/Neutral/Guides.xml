@@ -18,6 +18,7 @@
 	<Script file="DF_Thaldraszus.lua"/>
 	<Script file="DF_The_Forbidden_Reach.lua"/>
 	<Script file="DF_Campaign.lua"/>
+	<Script file="DF_EoN"/>
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>
