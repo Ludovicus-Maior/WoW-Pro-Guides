@@ -45,7 +45,7 @@
             </Scripts>
         </Button>
 
-        <ScrollFrame name="WoWPro_ScrollListTemplate" inherits="MinimalHybridScrollFrameTemplate" mixin="ScrollListMixin" virtual="true">
+        <ScrollFrame name="WoWPro_ScrollListTemplate" inherits="ScrollFrameTemplate" mixin="ScrollListMixin" virtual="true">
             <Scripts>
                 <OnLoad method="OnLoad"/>
                 <OnShow method="OnShow"/>
