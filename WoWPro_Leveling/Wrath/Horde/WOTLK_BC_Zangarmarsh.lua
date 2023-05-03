@@ -207,9 +207,9 @@ A More Glowcaps|QID|9809|M|19.68,52.07|N|From Msshi'fn.|REP|Sporeggar;970;neutra
 t More Glowcaps|QID|9809|M|19.68,52.07|N|To Msshi'fn.|
 A Now That We're Friends...|QID|9726|M|19.55,50.04|N|From Gzhun'tt.|REP|Sporeggar;970;friendly|
 K Now That We're Friends...|ACTIVE|9726|QO|1;2|M|26.55,41.02|S|
-C Disable the Marshlight Lake Controls|QID|9720|QO|2|M|25.62,42.87|N|Kill the Steam Pump Overseer (if necessary) and use the seeds.|U|24355|NC|
+C Disable the Marshlight Lake Controls|QID|9720|QO|2|M|25.42,42.87|N|Kill the Steam Pump Overseer (if necessary) and use the seeds.|U|24355|NC|
 K Now That We're Friends...|ACTIVE|9726|QO|1;2|M|26.55,41.02|N|As long as you're not damaging them (DoT), the Slaves will run away once you've killed the Slavedriver.\nLook for Enchantresses that are alone or pullable; you'll prefer it.\n[color=FF0000]NOTE: [/color]Stay away from the Sentries; you'll regret it when they call EVERYONE around you.|US|
-K Message to the Daggerfen|ACTIVE|10118|QO|1;2|M|24.65,22.60|
+K Message to the Daggerfen|ACTIVE|10118|QO|1;2|M|24.65,22.60|N|[color=FF0000]NOTE: [/color]\nThe Muckdweller's Paralytic Poison can get annoying at times when you can't do anything for 5 seconds. Avoid pulling too many at once for this exact reason.|
 C Stealing Back the Mushrooms|QID|9709|M|17.16,8.39|L|24240 10|N|Located on the ground around the cave beneath the Stronghold, they spawn a Mauler when picked up.\n[color=FF0000]NOTE: [/color]They also drop from the Ango'rosh mobs.|S|
 K Us or Them|ACTIVE|9823|QO|2;3|M|19.25,7.62|N|[color=FF0000]NOTE: [/color]The Souleaters are not inside the cave.|S|
 K Overlord Gorefist|ACTIVE|9823|QO|1|M|18.70,9.64;18.36,7.74|CC|N|He's inside a building on top of the Stronghold, not inside the cave.|
