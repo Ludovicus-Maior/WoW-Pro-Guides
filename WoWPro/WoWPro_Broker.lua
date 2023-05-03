@@ -2867,15 +2867,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 							spellName = mSkill
 						end
 
-						if expansion == "BFA" and canFly then
-							spellName = _G.GetSpellInfo(278833)
-							spellKnown = _G.GetSpellInfo(spellName)
-						elseif expansion == "SHADOWLANDS" and canFly then
+						if expansion == "SHADOWLANDS" and canFly then
 							spellName = _G.GetSpellInfo(352177)
 							spellKnown = _G.C_QuestLog.IsQuestFlaggedCompleted(63893)
 						elseif expansion == "SHADOWLANDS9.2" and canFly then
 							spellName = _G.GetSpellInfo(366736)
 							spellKnown = _G.C_QuestLog.IsQuestFlaggedCompleted(65539)
+						elseif expansion == "BFA" and canFly then
+							spellKnown = true
 						elseif expansion == "LEGION" and canFly then
 							spellKnown = true
 						elseif expansion == "WOD" and canFly then
