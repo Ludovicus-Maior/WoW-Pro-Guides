@@ -6,18 +6,18 @@ WoWPro:GuideLevels(guide, 64, 66)
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Nagrand")
 WoWPro:GuideSteps(guide, function()
 return [[
-F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|TAXI|Shattrath|
-R Terokkar Forest|AVAILABLE|10210|M|34.33,7.85|TAXI|-Shattrath|
-R Shattrath City|AVAILABLE|10210|M|70.31,3.64|TAXI|-Shattrath|
+F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TAXI|Shattrath|
+R Terokkar Forest|AVAILABLE|10210|M|34.33,7.85|TAXI|-Shattrath|FLY|BC|
+R Shattrath City|AVAILABLE|10210|M|70.31,3.64|N|Run or fly.|TAXI|-Shattrath|
 f Shattrath|AVAILABLE|10210|M|64.07,41.11|Z|1955; Shattrath City|N|At Nutral on the Terrace of Light.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.
 P Orgrimmar|ACTIVE|9438|N|Use the portal.|
 T Messenger to Thrall|QID|9438|M|31.64,37.83|Z|Orgrimmar|N|To Thrall in Grommash Hold.|
 A Envoy to the Mag'har|QID|9441|M|31.64,37.83|Z|Orgrimmar|N|From Thrall.\n[color=FF0000]NOTE: [/color]If you don't accept the quest right away, a narrative starts and you'll have to wait for it to finish.|PRE|9438|
 P The Dark Portal|ACTIVE|9441|M|38.06,85.72|Z|Orgrimmar|N|Use the portal in Valley of Spirits.|IZ|Orgrimmar|
 R The Stair of Destiny|ACTIVE|9441|M|58.74,60.78|Z|1419; Blasted Lands|N|Go through the Dark Portal.|IZ|Blasted Lands|
-F Thrallmar|ACTIVE|9441|M|87.33,48.17|Z|1944|FLY|BC|
+F Thrallmar|ACTIVE|9441|M|87.33,48.17|Z|1944|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 R Mag'har Post|ACTIVE|9441|M|29.96,34.72;33.48,28.96|CS|Z|1944|FLY|BC|
-T Envoy to the Mag'har|QID|9441|M|32.01,27.79|Z|1944; Hellfire Peninsula|N|To Gorkan Bloodfist.|
+T Envoy to the Mag'har|QID|9441|M|32.01,27.79|Z|1944; Hellfire Peninsula|N|To Gorkan Bloodfist in Mag'har Post.|
 F Shattrath|AVAILABLE|10210|M|27.79,59.98|Z|1944; Hellfire Peninsula|N|At Innalia in Falcon Watch.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 A A'dal|QID|10210|M|59.70,41.45|Z|Shattrath City|N|From Haggard War Veteran.|
 T A'dal|QID|10210|M|54.02,44.75|Z|Shattrath City|N|To A'dal.|
@@ -40,7 +40,7 @@ T Voren'thal the Seer|QID|10553|M|42.79,91.73|Z|Shattrath City|N|To Voren'thal t
 A Rather Be Fishin'|QID|10037|M|63.94,15.52|Z|Shattrath City|N|From Seth.|
 A The Outcast's Plight|QID|10917|M|52.38,16.42;46.47,19.89|CS|Z|Shattrath City|N|From Vekax.\n[color=FF0000]NOTE: [/color]He wanders between the two treehouses.|
 A The Eyes of Skettis|QID|10847|M|52.53,21.01|Z|Shattrath City|N|From Rilak the Redeemed.|
-R Terokkar Forest|QID|10037|M|36.42,15.06|N|Exit Shattrath City.|
+R Terokkar Forest|QID|10037|M|36.42,15.06|N|Exit Shattrath City.|FLY|BC|
 C Rather Be Fishin'|QID|10037|M|39.82,11.84|L|25891 8|N|They are swimming in Slimyr Lake.[color=FF0000]NOTE: [/color]If you still have it, use your Potion of Water Breathing to make this a little easier.|U|25539|
 T What's Wrong at Cenarion Thicket?|QID|9957|M|44.34,26.31|N|To Earthbinder Tavgren in Cenarion Thicket.|
 A Clues in the Thicket|QID|9971|M|44.34,26.31|N|From Earthbinder Tavgren.|
@@ -73,7 +73,7 @@ C Olemba Seed Oil|QID|9993|L|25745 30|N|[color=FF0000]NOTE: [/color]The Olemba C
 K Magical Disturbances|ACTIVE|10027|M|57.54,39.69|QO|1|N|[color=FF0000]NOTE: [/color]They can become invisible.|S|
 C Vestments of the Wolf Spirit|QID|10018|M|56.5,41.4|L|25812 12|N|Any Timber Worg\n[color=FF0000]NOTE: [/color]They spread out over the area and depending on how busy it is, you may have to look for them.|
 K Magical Disturbances|ACTIVE|10027|M|57.54,39.69|QO|1|N|[color=FF0000]NOTE: [/color]They can become invisible.|US|
-R Veil Shienor|QID|10847|M|59.73,25.51|QO|2|N|Head northeast to Veil Shienor.|
+R Veil Shienor|QID|10847|M|59.73,25.51|QO|2|N|Head northeast to Veil Shienor.|FLY|BC|
 K Arakkoa War Path|ACTIVE|10868|M|58.78,24.40;49.00,15.57|CN|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|S|
 C The Outcast's Plight|QID|10917|L|25719 30|ITEM|25719|N|Any Arakkoa|S|
 C The Eyes of Skettis|QID|10847|M|57.89,23.16;57.89,23.16|CS|L|25642|N|Enter the base of the tree and work your way across the bridges to the last tree. The Eye is on the far side of the platform.|FLY|BC|
@@ -86,8 +86,8 @@ C Northern Altar|QID|10021|M|50.66,16.55|QO|1|N|Right-click on it.|NC|REP|Aldor;
 C Western Altar|QID|10021|M|48.10,14.50|QO|3|N|Right-click on it.|NC|REP|Aldor;932|
 K Arakkoa War Path|ACTIVE|10868|M|58.78,24.40;49.00,15.57|CN|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|US|
 C The Outcast's Plight|QID|10917|L|25719 30|ITEM|25719|N|Any Arakkoa|US|
-H Shattrath City|ACTIVE|10847|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|FLY|BC|
-H Shattrath City|ACTIVE|10847|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|FLY|BC|
+H Shattrath City|ACTIVE|10847|M|28.09,48.88|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Aldor;932|
+H Shattrath City|ACTIVE|10847|M|56.35,81.55|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Scryers;934|
 T Restoring the Light|QID|10021|M|23.95,29.69|Z|Shattrath City|N|To Ishanah in Aldor Rise.|REP|Aldor;932|
 T The Eyes of Skettis|QID|10847|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed in Lower City.|
 A Seek Out Kirrik|QID|10849|M|52.53,21.01|Z|Shattrath City|N|From Rilak the Redeemed.|PRE|10847|
@@ -145,13 +145,13 @@ T Before Darkness Falls|QID|10878|M|37.26,50.86|N|To Mekeda.|
 T Cabal Orders|QID|10880|M|37.26,50.86|N|To Mekeda.|
 A The Shadow Tomb|QID|10881|M|37.26,50.86|N|From Mekeda.|PRE|10880|
 A Recover the Bones|QID|10030|M|37.05,49.52|N|From Soolaveen.|PRE|10840&10842|
-H Shattrath City|ACTIVE|10112|M|28.09,48.88|Z|Shattrath City|N|Hearth or fly back.|REP|Aldor;932|
-H Shattrath City|ACTIVE|10112|M|56.35,81.55|Z|Shattrath City|N|Hearth or fly back.|REP|Scryers;934|
+H Shattrath City|ACTIVE|10112|M|28.09,48.88|Z|Shattrath City|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Aldor;932|
+H Shattrath City|ACTIVE|10112|M|56.35,81.55|Z|Shattrath City|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Scryers;934|
 A Marks of Kil'jaeden|QID|10325|M|30.73,34.62|Z|Shattrath City|N|From Adyen the Lightwarden on Aldor Rise.|REP|Aldor;932|
 T Marks of Kil'jaeden|QID|10325|M|30.73,34.62|Z|Shattrath City|N|To Adyen the Lightwarden.|REP|Aldor;932|
 T A Personal Favor|QID|10112|M|72.21,30.76|Z|Shattrath City|N|To Wind Trader Lathrai.|
 A Investigate Tuurem|QID|9990|M|72.21,30.76|Z|Shattrath City|N|From Wind Trader Lathrai.|PRE|10112|
-F Stonebreaker Hold|ACTIVE|10043|M|64.07,41.11|Z|Shattrath City|FLY|BC|
+F Stonebreaker Hold|ACTIVE|10043|M|64.07,41.11|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 T Kill the Shadow Council!|QID|10043|M|48.93,44.59|N|To Advisor Faila in Stonebreaker Hold.|
 T Arakkoa War Path|QID|10868|M|48.93,44.59|N|To Advisor Faila.|
 T Stymying the Arakkoa|QID|9987|M|48.97,44.64|N|To Rokag.|
@@ -297,8 +297,8 @@ T Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|To Kirrik the Awakened in 
 A Return to Shattrath|QID|10889|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10874|
 T Helping the Lost Find Their Way|QID|10031|M|37.05,49.52|N|To Soolaveen.|
 T Torgos!|QID|10036|M|49.25,45.88|N|To Mawg Grimshot in Stonebreaker Hold.|
-H Shattrath City|QID|10228|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
-H Shattrath City|QID|10228|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
+H Shattrath City|QID|10228|M|28.09,48.88|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Aldor;932|
+H Shattrath City|QID|10228|M|56.35,81.55|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Scryers;934|
 T Return to Shattrath|QID|10889|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed in Lower City.|
 T Skywing|QID|10898|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed.|
 A The Skettis Offensive.|QID|10879|M|51.76,20.78|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Defender Grashna.\n[color=FF0000]NOTE: [/color]The attack waves begin the moment you accept the quest; be prepared before accepting.|PRE|10889| ; ** breaking auto-accept ~ Hendo72
