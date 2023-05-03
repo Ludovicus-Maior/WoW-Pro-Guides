@@ -6,7 +6,7 @@ WoWPro:GuideLevels(guide, 62, 64)
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Terokkar_Forest")
 WoWPro:GuideSteps(guide, function()
 return [[
-R Swamprat Post|AVAILABLE|9770|M|83.06,55.30|N|This guide starts in Swamprat Post.|
+R Swamprat Post|AVAILABLE|9770|M|83.06,55.30|N|This guide starts in Swamprat Post.| ; ** This step will confirm they're where they're supposed to be - Hendo72
 f Swamprat Post|AVAILABLE|9770|M|84.77,55.11|N|From Wind Rider Master Gur'zil.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 N Sporebats|AVAILABLE|9770|N|Being in melee range of sporebats when they die gives you a 5 minute +30 to all stats buff.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Collection Loot|AVAILABLE|9770|N|Keep any [color=33fff9]Fertile Spores[/color] and [color=33fff9]Unidentified Plant Parts[/color] you loot, they're part of collection quests.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
@@ -18,7 +18,7 @@ A No More Mushrooms!|QID|9773|M|84.36,54.33|N|From Magasha.|
 R Cenarion Refuge|AVAILABLE|9747|M|77.97,61.86|N|Head over to the Cenarion Refuge.|FLY|BC| ; Not everybody completes Hellfire
 T Warchief's Command: Zangarmarsh|QID|39180|M|78.40,62.02|N|To Ysiel Windsinger in Cenarion Refuge.|
 T Return to the Marsh|QID|9732|M|78.40,62.02|N|To Ysiel Windsinger in Cenarion Refuge.|
-h Cenarion Refuge|QID|9747|M|78.49,62.95|N|At Innkeeper Coryth Stoktron.|
+h Cenarion Refuge|QID|9747|M|78.49,62.95|N|At Innkeeper Coryth Stoktron.\n[color=FF0000]NOTE: [/color]Skip this step if you want, but you'll have to find an alternate means of travel if you choose not to.|
 A The Dying Balance|QID|9895|M|78.53,63.15|N|From Lethyn Moonfire|
 A The Umbrafen Tribe|QID|9747|M|80.39,64.16|N|From Ikeyen.|
 A Plants of Zangarmarsh|QID|9802|M|80.32,64.16|N|From Lauranna Thar'well.|
@@ -96,7 +96,7 @@ T Leader of the Darkcrest|QID|9730|M|79.10,65.26|N|To Warden Hamoot.|
 T Leader of the Bloodscale|QID|9817|M|79.10,65.26|N|To Warden Hamoot.|
 T Warning the Cenarion Circle|QID|9724|M|16.04,52.14|Z|Hellfire Peninsula|N|To Amythiel Mistwalker at Cenarion Post in Hellfire Peninsula.|
 A Return to the Marsh|QID|9732|PRE|9724|M|16.04,52.14|N|From Amythiel Mistwalker.|Z|Hellfire Peninsula|
-H Cenarion Refuge|QID|9730|M|78.49,62.95|
+H Cenarion Refuge|QID|9730|M|78.49,62.95|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 T Return to the Marsh|QID|9732|M|78.40,62.02|N|To Ysiel Windsinger.|
 A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.53,63.15|N|From Lethyn Moonfire.|
 A Blessings of the Ancients|QID|9785|M|80.37,64.73|N|From Windcaller Blackhoof.|
@@ -125,10 +125,10 @@ T A Question of Gluttony|QID|9702|M|23.33,66.23|N|To Watcher Leesa'oh.|
 A Familiar Fungi|QID|9708|PRE|9702|M|23.33,66.23|N|From Watcher Leesa'oh.|
 R Zabra'jin|ACTIVE|9898|M|33.02,51.15|FLY|BC|
 f Zabra'jin|ACTIVE|9898|M|33.06,51.08|N|Get the flight point at Du'ga.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-F Swamprat Post|ACTIVE|9898|M|33.06,51.08|FLY|BC|
+F Swamprat Post|ACTIVE|9898|M|33.06,51.08|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 T The Respect of Another|QID|9898|M|84.97,54.03|N|To Reavij in Swamprat Post.|
 A Report to Shadow Hunter Denjai|QID|9775|M|85.28,54.76|N|From Zurai.|
-F Zabra'jin|AVAILABLE|9846|M|84.77,55.11|N|From Gur'zil.|
+F Zabra'jin|AVAILABLE|9846|M|84.77,55.11|N|From Gur'zil.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 A Spirits of the Feralfen|QID|9846|M|32.38,51.97|N|From Seer Janidi in Zabra'jin.|
 T Report to Shadow Hunter Denjai|QID|9775|M|30.74,50.88|N|To Shadow Hunter Denjai.\n[color=FF0000]NOTE: [/color]He's at the top of the inn via the stairs at the back.|
 A Angling to Beat the Competition|QID|9845|M|32.26,49.61|N|From Zurjaya.|
@@ -193,7 +193,7 @@ A Fertile Spores|QID|9806|M|19.14,49.38|N|From Gshaff.|REP|Sporeggar;970;neutral
 C Fertile Spores|ACTIVE|9806|L|24449 6|ITEM|24449|N|Any type of Sporebat or Strider/Walker|
 T Fertile Spores|QID|9806|M|19.14,49.38|N|To Gshaff.|
 N Friendly Rep|AVAILABLE|9726|N|The next quest requires that you have a minimum Rep of Friendly with Sporeggar to accept it.\nYou now have the choice of doing any of the 3 repeatable rep quests (or all 3 of them if you so choose).\nThe [color=33fff9]Bog Lord Tendrils[/color] and [color=33fff9]Mature Spore Sacs[/color] are your best bet to get this done quicker.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|REP|Sporeggar;970;neutral|
-l Glowcap Mushrooms|AVAILABLE|9809|M|40.00,36.30|L|24245 10|N|Get the rest of the glowcaps needed for this quest.|S!US|REP|Sporeggar;970;neutral|
+l Glowcaps|AVAILABLE|9809|M|40.00,36.30|L|24245 10|N|Get the rest of the glowcaps needed for this quest.|S!US|REP|Sporeggar;970;neutral|
 l Fertile Spores|AVAILABLE|9807|L|24449 6|ITEM|24449|N|Any type of Sporebat or Strider/Walker|S!US|REP|Sporeggar;970;neutral|
 l Bog Lord Tendrils|AVAILABLE|9744|M|14.01,61.52|L|24291 6|ITEM|24291|N|Any type of Bog Lord or Withered Giant\nBonus... you gain Sporeggar rep just for killing them.|S!US|REP|Sporeggar;970;neutral|
 l Mature Spore Sacs|AVAILABLE|9742|M|14.17,60.63|L|24290 10|N|[color=FF0000]NOTE: [/color]They are found on the ground around The Spawning Glen.|REP|Sporeggar;970;neutral|
@@ -222,7 +222,7 @@ T The Sharpest Blades|QID|9842|M|31.63,49.19|N|To Gambarinka.|
 T Us or Them|QID|9823|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 T Message to the Daggerfen|QID|10118|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 A News for Rakoria|QID|10105|M|30.71,50.89|N|From Shadow Hunter Denjai.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
-H Cenarion Refuge|QID|9730|M|78.49,62.95|FLY|BC|
+H Cenarion Refuge|QID|9730|M|78.49,62.95|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 T Balance Must Be Preserved|QID|9720|M|78.40,62.02|N|To Ysiel Windsinger in Cenarion Refuge.|
 A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.53,63.15|N|From Lethyn Moonfire.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
 t Identify Plant Parts|QID|9784|M|80.32,64.16|N|To Lauranna Thar'well.|
