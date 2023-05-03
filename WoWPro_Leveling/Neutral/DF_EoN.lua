@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide(guide,"Embers of Neltharion", 'Leveling', 'Zaralek Cavern', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide("Embers of Neltharion", 'Leveling', 'Zaralek Cavern', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide, 'DF_EoN')
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
