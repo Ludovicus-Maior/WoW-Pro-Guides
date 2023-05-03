@@ -1197,7 +1197,7 @@ WoWPro.Escondido = 0
 -- why should be one of "INSTANCE" or "COMBAT"
 function WoWPro.ShowFrame(enabled, msg, why)
     if (not enabled) then
-            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") then
+            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and (WoWPro.Escondido == 0) then
                 WoWPro:Print("WoWPro.ShowFrame(hide):"..msg)
             else
                 WoWPro:print("WoWPro.ShowFrame(hide):"..msg)
@@ -1206,7 +1206,7 @@ function WoWPro.ShowFrame(enabled, msg, why)
             WoWPro.Titlebar:Hide()
             WoWPro.Escondido = WoWPro.Escondido + 1
     elseif (enabled and (WoWPro.Escondido > 0)) then
-            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") then
+            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and (WoWPro.Escondido == 1) then
                 WoWPro:Print("WoWPro.ShowFrame(show)"..msg)
             else
                 WoWPro:print("WoWPro.ShowFrame(show):"..msg)
