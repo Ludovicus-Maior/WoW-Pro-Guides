@@ -4120,7 +4120,6 @@ function WoWPro.LockdownHandler(self, elapsed)
                 WoWPro.LockdownCounter = nil
                 WoWPro.LockdownTimer = nil
                 WoWPro.InitLockdown = false
-                -- Cant do WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_END_LOCKDOWN_TIMER") till guide is loaded
                 local moduleCount = 0
                 for name, module in WoWPro:IterateModules() do
                     moduleCount = moduleCount + 1
