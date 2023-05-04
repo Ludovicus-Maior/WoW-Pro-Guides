@@ -1162,14 +1162,13 @@ function WoWPro.SetupGuideReal()
         end
     end
 
-    -- Location, Location, Location
-    WoWPro.AutoCompleteZone()
-
     -- Scrollbar Settings --
     WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount - WoWPro.ShownRows))
 
     WoWPro.GuideLoaded = "Loaded"
     WoWPro:AutoCompleteQuestUpdate(nil)
     WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
+    -- Location, Location, Location
+    WoWPro.AutoCompleteZone()
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
 end
