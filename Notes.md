@@ -1,3 +1,20 @@
+
+# Release 2023.05.03.A
+## Bug Fixes
+* Update Interface for Retail to 100100
+* Fix requirements for BFA flying
+* Greevir: Instance/Combat hiding are messing each other up.
+## Guide Updates
+### Retail
+* Achievements: Dragon Riding Glyphs
+* Horde Leveling: Vashjir, Goblin Intro
+* Neutral Leveling: Azure Span, Embers of Neltharion, Forbidden Reach, Waking Shores
+### WotLK
+* Horde Leveling: Hellfire Peninsula, Zangarmarsh, Chapter 3: 41-51, Winterspring
+### Classic
+* No Classic guides were harmed during this release
+
+
 # Release 2023.03.24.B
 ## Guide Updates
 ### Retail
