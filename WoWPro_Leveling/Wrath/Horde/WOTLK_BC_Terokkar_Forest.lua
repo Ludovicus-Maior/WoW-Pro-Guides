@@ -6,7 +6,7 @@ WoWPro:GuideLevels(guide, 64, 66)
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Nagrand")
 WoWPro:GuideSteps(guide, function()
 return [[
-F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TAXI|Shattrath|
+F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TAXI|Shattrath|
 R Terokkar Forest|AVAILABLE|10210|M|34.33,7.85|TAXI|-Shattrath|FLY|BC|
 R Shattrath City|AVAILABLE|10210|M|70.31,3.64|N|Run or fly.|TAXI|-Shattrath|
 f Shattrath|AVAILABLE|10210|M|64.07,41.11|Z|1955; Shattrath City|N|At Nutral on the Terrace of Light.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.
@@ -86,8 +86,8 @@ C Northern Altar|QID|10021|M|50.66,16.55|QO|1|N|Right-click on it.|NC|REP|Aldor;
 C Western Altar|QID|10021|M|48.10,14.50|QO|3|N|Right-click on it.|NC|REP|Aldor;932|
 K Arakkoa War Path|ACTIVE|10868|M|58.78,24.40;49.00,15.57|CN|QO|1;2|N|They are located at either Veil Shienor or Veil Reskk.|US|
 C The Outcast's Plight|QID|10917|L|25719 30|ITEM|25719|N|Any Arakkoa|US|
-H Shattrath City|ACTIVE|10847|M|28.09,48.88|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Aldor;932|
-H Shattrath City|ACTIVE|10847|M|56.35,81.55|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Scryers;934|
+H Shattrath City|ACTIVE|10847|M|28.09,48.88|Z|Shattrath City|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Aldor;932|
+H Shattrath City|ACTIVE|10847|M|56.35,81.55|Z|Shattrath City|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Scryers;934|
 T Restoring the Light|QID|10021|M|23.95,29.69|Z|Shattrath City|N|To Ishanah in Aldor Rise.|REP|Aldor;932|
 T The Eyes of Skettis|QID|10847|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed in Lower City.|
 A Seek Out Kirrik|QID|10849|M|52.53,21.01|Z|Shattrath City|N|From Rilak the Redeemed.|PRE|10847|
@@ -151,7 +151,7 @@ A Marks of Kil'jaeden|QID|10325|M|30.73,34.62|Z|Shattrath City|N|From Adyen the 
 T Marks of Kil'jaeden|QID|10325|M|30.73,34.62|Z|Shattrath City|N|To Adyen the Lightwarden.|REP|Aldor;932|
 T A Personal Favor|QID|10112|M|72.21,30.76|Z|Shattrath City|N|To Wind Trader Lathrai.|
 A Investigate Tuurem|QID|9990|M|72.21,30.76|Z|Shattrath City|N|From Wind Trader Lathrai.|PRE|10112|
-F Stonebreaker Hold|ACTIVE|10043|M|64.07,41.11|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
+F Stonebreaker Hold|ACTIVE|10043|M|64.07,41.11|Z|Shattrath City|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 T Kill the Shadow Council!|QID|10043|M|48.93,44.59|N|To Advisor Faila in Stonebreaker Hold.|
 T Arakkoa War Path|QID|10868|M|48.93,44.59|N|To Advisor Faila.|
 T Stymying the Arakkoa|QID|9987|M|48.97,44.64|N|To Rokag.|
@@ -297,8 +297,8 @@ T Veil Shalas: Signal Fires|QID|10874|M|37.26,50.86|N|To Kirrik the Awakened in 
 A Return to Shattrath|QID|10889|M|37.26,50.86|N|From Kirrik the Awakened.|PRE|10874|
 T Helping the Lost Find Their Way|QID|10031|M|37.05,49.52|N|To Soolaveen.|
 T Torgos!|QID|10036|M|49.25,45.88|N|To Mawg Grimshot in Stonebreaker Hold.|
-H Shattrath City|QID|10228|M|28.09,48.88|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Aldor;932|
-H Shattrath City|QID|10228|M|56.35,81.55|Z|Shattrath City|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Scryers;934|
+H Shattrath City|QID|10228|M|28.09,48.88|Z|Shattrath City|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Aldor;932|
+H Shattrath City|QID|10228|M|56.35,81.55|Z|Shattrath City|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|REP|Scryers;934|
 T Return to Shattrath|QID|10889|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed in Lower City.|
 T Skywing|QID|10898|M|52.53,21.01|Z|Shattrath City|N|To Rilak the Redeemed.|
 A The Skettis Offensive.|QID|10879|M|51.76,20.78|Z|Shattrath City|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Defender Grashna.\n[color=FF0000]NOTE: [/color]The attack waves begin the moment you accept the quest; be prepared before accepting.|PRE|10889| ; ** breaking auto-accept ~ Hendo72
