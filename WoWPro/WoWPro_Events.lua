@@ -588,9 +588,11 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
         end
     end
     if WoWPro.Ready(event) then
-        WoWPro.AutoCompleteZone(...)
+        if WoWPro.AutoCompleteZone(...) then
+            WoWPro:UpdateGuide(event)
+        end
     end
-    end)
+end)
 
 WoWPro.RegisterEventHandler("ZONE_CHANGED_INDOORS", WoWPro.ZONE_CHANGED)
 WoWPro.RegisterEventHandler("ZONE_CHANGED_NEW_AREA", WoWPro.ZONE_CHANGED)
