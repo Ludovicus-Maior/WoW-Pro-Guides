@@ -8,7 +8,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TAXI|Shattrath|
 R Terokkar Forest|AVAILABLE|10210|M|34.33,7.85|TAXI|-Shattrath|FLY|BC|
-R Shattrath City|AVAILABLE|10210|M|70.31,3.64|N|Run or fly.|TAXI|-Shattrath|
+R Shattrath City|AVAILABLE|10210|M|70.31,3.64|Z|1955; Shattrath City|N|Run or fly.|TAXI|-Shattrath|
 f Shattrath|AVAILABLE|10210|M|64.07,41.11|Z|1955; Shattrath City|N|At Nutral on the Terrace of Light.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.
 P Orgrimmar|ACTIVE|9438|N|Use the portal.|
 T Messenger to Thrall|QID|9438|M|31.64,37.83|Z|Orgrimmar|N|To Thrall in Grommash Hold.|
@@ -107,7 +107,7 @@ C Who Are They?|QID|10041|QO|2|M|39.80,41.97;38.08,41.12|CS|N|The Laborer pathes
 T Who Are They?|QID|10041|M|39.03,43.74|N|To Scout Neftis.|
 A Kill the Shadow Council!|QID|10043|PRE|10041|M|39.03,43.74|N|From Scout Neftis.|
 K Kill the Shadow Council!|ACTIVE|10043|QO|1;2|M|40.30,39.04|N|They are all over Grangol'var Village.|S|
-K Shadowmaster Grieve|ACTIVE|10043|QO|3M|40.30,39.04||N|Shadowmaster Grieve is inside the big building where you found the Shadowy Advisor.|
+K Shadowmaster Grieve|ACTIVE|10043|QO|3|M|40.30,39.04|N|Shadowmaster Grieve is inside the big building where you found the Shadowy Advisor.|
 K Kill the Shadow Council!|ACTIVE|10043|QO|1;2|M|40.30,39.04|N|They are all over Grangol'var Village.|US|
 T Seek Out Kirrik|QID|10849|M|37.26,50.86|N|To Kirrik the Awakened in Refugee Caravan pacing back and forth in front the broken down wagon.|
 A Veil Skith: Darkstone of Terokk|QID|10839|PRE|10849|M|37.26,50.86|N|From Kirrik the Awakened.|
