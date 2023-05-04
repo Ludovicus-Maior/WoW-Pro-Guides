@@ -216,17 +216,17 @@ K Overlord Gorefist|ACTIVE|9823|QO|1|M|18.70,9.64;18.36,7.74|CC|N|He's inside a 
 K Us or Them|ACTIVE|9823|QO|2;3|M|19.25,7.62|N|[color=FF0000]NOTE: [/color]The Souleaters are not inside the cave.|US|
 C Stealing Back the Mushrooms|QID|9709|M|17.16,8.39|L|24240 10|N|Located on the ground around the Stronghold, they spawn a Mauler when picked.\n[color=FF0000]NOTE: [/color]They also drop from the Ango'rosh mobs.|US|
 T Now That We're Friends...|QID|9726|M|19.55,50.04|N|To Gzhun'tt in Sporeggar.|
-T Stealing Back the Mushrooms|QID|9709|M|23.33,66.23|N|To Watcher Leesa'oh.|
+T Stealing Back the Mushrooms|QID|9709|M|23.33,66.23|N|To Watcher Leesa'oh.\n[color=FF0000]NOTE: [/color]If she's not here, look east across the water and see if she's there. Otherwise, she's dead/phased and you have to wait.|
 C The Sharpest Blades|QID|9842|M|33.91,59.49|L|24493 10|ITEM|24493|N|Marshfang Slicer|US|
 T The Sharpest Blades|QID|9842|M|31.63,49.19|N|To Gambarinka.|
 T Us or Them|QID|9823|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 T Message to the Daggerfen|QID|10118|M|30.74,50.88|N|To Shadow Hunter Denjai.|
 A News for Rakoria|QID|10105|M|30.71,50.89|N|From Shadow Hunter Denjai.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
-H Cenarion Refuge|QID|9730|M|78.49,62.95|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
+H Cenarion Refuge|QID|9730|M|78.49,62.95|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 T Balance Must Be Preserved|QID|9720|M|78.40,62.02|N|To Ysiel Windsinger in Cenarion Refuge.|
 A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.53,63.15|N|From Lethyn Moonfire.\n[color=FF0000]NOTE: [/color]This leads into Terokkar Forest.|
 t Identify Plant Parts|QID|9784|M|80.32,64.16|N|To Lauranna Thar'well.|
 A Identify Plant Parts|AVAILABLE|9784|M|80.32,64.16|L|24401 -10|N|From Lauranna Thar'well.\n[color=FF0000]NOTE: [/color]This a repeatable quest that you can do to get some useful herbs before you leave.\nSkip this step if you want to move on.|NOCACHE|
-D This ends Zangarmarsh.|N|Visit your trainers and the AH if you wish.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue to Terokkar Forest.|
+D This ends Zangarmarsh.|N|Visit your trainers and the AH if you wish.\n[color=FF0000]NOTE: [/color]Don't forget to grab the Blessings from the two Ancients before you leave.\nManually check this step off to continue to Terokkar Forest.|
 ]]
 end)
