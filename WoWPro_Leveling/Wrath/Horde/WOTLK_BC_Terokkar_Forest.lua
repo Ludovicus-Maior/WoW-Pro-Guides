@@ -18,7 +18,7 @@ R The Stair of Destiny|ACTIVE|9441|M|58.74,60.78|Z|1419; Blasted Lands|N|Go thro
 F Thrallmar|ACTIVE|9441|M|87.33,48.17|Z|1944|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
 R Mag'har Post|ACTIVE|9441|M|29.96,34.72;33.48,28.96|CS|Z|1944|FLY|BC|
 T Envoy to the Mag'har|QID|9441|M|32.01,27.79|Z|1944; Hellfire Peninsula|N|To Gorkan Bloodfist in Mag'har Post.|
-F Shattrath|AVAILABLE|10210|M|27.79,59.98|Z|1944; Hellfire Peninsula|N|At Innalia in Falcon Watch.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|
+F Shattrath|AVAILABLE|10210|M|27.79,59.98|Z|1944; Hellfire Peninsula|N|At Innalia in Falcon Watch.\n[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TZ|1955; Shattrath City|
 A A'dal|QID|10210|M|59.70,41.45|Z|Shattrath City|N|From Haggard War Veteran.|
 T A'dal|QID|10210|M|54.02,44.75|Z|Shattrath City|N|To A'dal.|
 A City of Light|QID|10211|PRE|10210|M|54.75,44.34|Z|Shattrath City|N|From Khadgar.|
