@@ -1167,8 +1167,10 @@ function WoWPro.SetupGuideReal()
 
     WoWPro.GuideLoaded = "Loaded"
     WoWPro:AutoCompleteQuestUpdate(nil)
-    WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
+    WoWPro:UpdateGuide("WoWPro.SetupGuideReal(1)")
     -- Location, Location, Location
-    WoWPro.AutoCompleteZone()
+    if WoWPro.AutoCompleteZone() then
+        WoWPro:UpdateGuide("WoWPro.SetupGuideReal(2)")
+    end
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
 end
