@@ -6,7 +6,7 @@ WoWPro:GuideLevels(guide, 64, 66)
 WoWPro:GuideNextGuide(guide, "CLASSIC_BC_Nagrand")
 WoWPro:GuideSteps(guide, function()
 return [[
-F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TAXI|Shattrath|
+F Shattrath|AVAILABLE|10210|M|84.76,55.10|Z|Zangarmarsh|N|[color=FF0000]NOTE: [/color]You can skip this step and fly directly if you wish.|TZ|1955; Shattrath City|TAXI|Shattrath|
 R Terokkar Forest|AVAILABLE|10210|M|34.33,7.85|TAXI|-Shattrath|FLY|BC|
 R Shattrath City|AVAILABLE|10210|M|70.31,3.64|Z|1955; Shattrath City|N|Run or fly.|TAXI|-Shattrath|
 f Shattrath|AVAILABLE|10210|M|64.07,41.11|Z|1955; Shattrath City|N|At Nutral on the Terrace of Light.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.
