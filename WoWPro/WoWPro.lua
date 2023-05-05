@@ -10,7 +10,7 @@
 
 WoWPro = _G.LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket-3.0")
 WoWPro.GetAddOnMetadata = _G.GetAddOnMetadata or _G.C_AddOns.GetAddOnMetadata
-WoWPro.Version = WoWPro.GetAddOnMetadata.GetAddOnMetadata("WoWPro", "Version")
+WoWPro.Version = WoWPro.GetAddOnMetadata("WoWPro", "Version")
 WoWPro.DebugLevel = 0
 WoWPro.CombatLock = false
 WoWPro.DevMode = false
