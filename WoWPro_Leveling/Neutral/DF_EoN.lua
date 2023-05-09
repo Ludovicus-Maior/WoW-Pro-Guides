@@ -176,7 +176,9 @@ T Aspects of Our Legacy|QID|72965|M|56.59,56.75|Z|2133;Zaralek Cavern|N|To Sabel
 A Where There's Smoke, There's Fire|QID|72966|M|56.60,56.78|Z|2133|N|From Sabellian.|
 T Where There's Smoke, There's Fire|QID|72966|M|41.00,41.87|Z|2133|N|To Sabellian.|
 A Sight Beyond Sight|QID|72908|PRE|72966|M|40.97,41.85|Z|2133|N|From Ebyssian.|
-C Sight Beyond Sight|QID|72908|M|37.19,42.01;40.51,43.16;39.70,42.28|CN|Z|2133|QO|1|H|N|Flamesight Rune.|
+C Sight Beyond Sight|QID|72908|M|40.51,43.16|Z|2133|QO|1<1|H|N|Flamesight Rune.|
+C Sight Beyond Sight|QID|72908|M|39.70,42.28|Z|2133|QO|1<2|H|N|Flamesight Rune.|
+C Sight Beyond Sight|QID|72908|M|37.19,42.01|Z|2133|QO|1<3|H|N|Flamesight Rune.|
 K High Seer Jhatal|ACTIVE|72908|M|35.37,42.33|Z|2133|QO|2||N|Kill High Seer Jhatal and loot the rune.|
 C Sight Beyond Sight|QID|72908|M|35.49,42.09|Z|2133|QO|3|H|N|Climb the stairs on side of the building and activate the totem on top.|
 T Sight Beyond Sight|QID|72908|M|35.43,41.89|Z|2133|N|To Ebyssian.|
@@ -408,7 +410,7 @@ A Flesh to Bone|QID|75233|M|43.20,84.18|Z|2133;Zaralek Cavern|N|From Gudegg.|RAN
 A Come Snail Away|QID|74787|M|44.25,80.02|Z|2133;Zaralek Cavern|N|From Briggul.|RANK|2|
 C Come Snail Away|QID|74787|M|44.25,80.02|Z|2133;Zaralek Cavern|QO|1|H|N|Pet Big Slick.|
 T Come Snail Away|QID|74787|M|44.25,80.02|Z|2133;Zaralek Cavern|N|To Briggul.|
-;A A Race to the Finish|QID|75662|M|44.40,80.35|Z|2133;Zaralek Cavern|N|From Grogul.|RANK|2|
+A A Race to the Finish|QID|75662|M|44.40,80.35|Z|2133;Zaralek Cavern|N|From Grogul.|RANK|2|
 C A Race to the Finish|QID|75662|QO|1|M|44.40,80.35|Z|2133;Zaralek Cavern|CHAT|N|Talk to Corry to get Bashful Treats.|
 C A Race to the Finish|QID|75662|QO|2|M|44.40,80.35|Z|2133;Zaralek Cavern|N|Use treats on bashful.|EAB|
 C A Race to the Finish|QID|75662|QO|3|M|44.40,80.35|Z|2133;Zaralek Cavern|N|Make sure Bashful wins.|EAB|
