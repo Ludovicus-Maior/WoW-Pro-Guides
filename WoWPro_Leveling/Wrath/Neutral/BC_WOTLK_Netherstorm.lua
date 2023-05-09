@@ -6,6 +6,7 @@ WoWPro:GuideLevels(guide, 68, 70)
 WoWPro:GuideNextGuide(guide, 'wotlkintro')
 WoWPro:GuideSteps(guide, function()
 return [[
+N Argent Tournament Guide|AVAILABLE|13668|N|Temporary so I can access the guide.|JUMP|
 A Assist Exarch Orelis|QID|11038|LEAD|10241|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|
 A Report to Spymaster Thalodien|QID|11039|LEAD|10189|M|44.77,76.29|Z|Shattrath City|N|From Arcanist Savan.|REP|Scryers;934|
 F Evergrove|QID|10265|M|63.98,41.12|Z|Shattrath City|N|Fly to Evergrove, or the closest flightpoint to Netherstorm you have.|

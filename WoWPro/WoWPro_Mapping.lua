@@ -453,7 +453,7 @@ function WoWPro:MapPoint(row)
         end
     end
 
-    if TomTom or Nx then
+    if (TomTom and TomTom.db) or Nx then
         TomTom.db.profile.arrow.setclosest = true
         OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
