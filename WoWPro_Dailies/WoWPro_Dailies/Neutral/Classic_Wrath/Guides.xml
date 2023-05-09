@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Wrath_DalCook.lua"/>
+	<Script file="Wrath_DalFish.lua"/>
+	<Script file="Wrath_EbonBlade.lua"/>
+	<Script file="Wrath_Hodir.lua"/>
+	<Script file="Wrath_Kaluak.lua"/>
+	<Script file="Wrath_NetherDrake.lua"/>
+	<Script file="Wrath_ShattSun.lua"/>
+	<Script file="Wrath_Skyguard.lua"/>
+	<Script file="Wrath_Wyrmrest.lua"/>
+	<Script file="Wrath_ArgTour_N.lua"/>
+</Ui>
+

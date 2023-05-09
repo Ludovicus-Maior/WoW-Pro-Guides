@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 
-local guide = WoWPro:RegisterGuide("WotLK_ArgTour_H",'Dailies', "Icecrown", "Ludovicus", "Horde")
+local guide = WoWPro:RegisterGuide("Wrath_ArgTour_H",'Dailies', "Icecrown", "Ludovicus", "Horde", 3)
 WoWPro:GuideNickname(guide, "Argent Tournament Horde")
 WoWPro:GuideName(guide,"Argent Tournament Horde")
 WoWPro:GuideLevels(guide ,25,60)
