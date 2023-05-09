@@ -19,40 +19,35 @@ return [[
 ; Changes made by Nzall 2021/12/16 and 2021/12/24 and 2022/03/15
 ; Known issues: May not work for all Allied Races
 ; Can't move to neutral, as different Guide Factions 1124 for alliance, 1124 for horde
-
-N The Argent Tournament|N|Quests for the The Argent Tournament, for your faction, and MAYBE for the others too!|
-
+; ** ^ This is wrong. Alliance is 1094. - Hendo72
+F Argent Tournament Grounds|AVAILABLE|13668|M|71.05,47.89|Z|125|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
 ; Setup Quests
+A The Argent Tournament|QID|13668|M|69.66,22.86|N|From Justicar Mariel Trueheart inside the Argent Pavilion.|
+T The Argent Tournament|QID|13668|M|76.27,24.38|N|To Magister Edien Sunhollow in the Sunreaver Pavilion.|
+A Mastery Of Melee|QID|13829|PRE|13668|M|76.27,24.38|N|From Magister Edien Sunhollow.|
+A Mastery Of The Charge|QID|13839|PRE|13668|M|76.31,24.39|N|From Amariel Sunsworn.|
+A Mastery Of The Shield-Breaker|QID|13838|PRE|13668|M|76.24,24.44|N|From Galathia Brightdawn.|
 
-A The Argent Tournament|QID|13668|M|69.6,22.8|N|From Justicar Mariel Trueheart.|
-T The Argent Tournament|QID|13668|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
+N Horde Lance|ACTIVE|13829^13838^13839|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Mount|ACTIVE|13829^13838^13839|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|V|
+C Mastery Of Melee|QID|13829|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|
+C Mastery Of Melee|QID|13829|QO|2|M|PLAYER|N|Use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]You'll lose your mount after the third one; go get a new one.|T|Melee Target|
+C Mastery Of The Shield-Breaker|QID|13838|QO|1|M|73.20,19.24|N|Ask Valis Windchaser to show you how to train with a Ranged Target.|CHAT|
+C Mastery Of The Shield-Breaker|QID|13838|QO|2|M|PLAYER|N|Use Shield-Breaker (2) on a Ranged Target 5 times.|T|Ranged Target|
+C Mastery Of The Charge|QID|13839|QO|1|M|72.67,18.88|N|Ask Rugan Steelbelly to show you how to train with a Charge Target.|CHAT|
+C Mastery Of The Charge|QID|13839|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Target 5 times.|T|Charge Target|
 
+T Mastery Of The Charge|QID|13839|M|76.31,24.39|N|To Amariel Sunsworn.|
+T Mastery Of The Shield-Breaker|QID|13838|M|76.24,24.44|N|To Galathia Brightdawn.|
+T Mastery Of Melee|QID|13829|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
-A Mastery Of Melee|QID|13829|M|76.2,24.2|PRE|13668|N|From Magister Edien Sunhollow.|FACTION|Horde|
-A Mastery Of The Charge|QID|13839|M|76.2,24.2|PRE|13668|N|From Amariel Sunsworn.|FACTION|Horde|
-A Mastery Of The Shield-Breaker|QID|13838|M|76.2,24.2|PRE|13668|N|From Galathia Brightdawn.|FACTION|Horde|
-
-C Mastery Of Melee|ACTIVE|13829^13838^13839|M|PLAYER|ITEM|46070|N|Equip your Lance, then head for Tha Aspirant's Ring for your mount.|FACTION|Horde|
-
-C Mastery Of Melee|ACTIVE|13829|QO|1|M|72.47,19.29|N|Seek Jeran Lockwood's advice.|
-C Mastery Of The Charge|ACTIVE|13839|QO|1|M|72.67,18.88|N|Seek Rugan Steelbelly's advice.|
-C Mastery Of The Shield-Breaker|ACTIVE|13838|QO|1|M|73.20,19.24|N|Seek Valis Windchaser's advice.|
-
-C Mastery Of Melee|ACTIVE|13829|QO|2|M|PLAYER|N|Use Thrust ability (1) on Melee Target 5 times.|
-C Mastery Of The Charge|ACTIVE|13839|QO|2|M|PLAYER|N|Use Charge ability (3) on a Charge Target 5 times.|
-C Mastery Of The Shield-Breaker|ACTIVE|13838|QO|2|M|PLAYER|N|Use Shield Breaker ability (2) on Melee Target 5 times.|
-
-T Mastery Of The Charge|QID|13839|M|76.2,24.2|N|To Amariel Sunsworn.|FACTION|Horde|
-T Mastery Of The Shield-Breaker|QID|13838|M|76.2,24.2|N|To Galathia Brightdawn.|FACTION|Horde|
-T Mastery Of Melee|QID|13829|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
-
-A Up To The Challenge|QID|13678|M|76.4,19.4|PRE|13829&13839&13839|N|From Magister Edien Sunhollow.|FACTION|Horde|
+A Up To The Challenge|QID|13678|PRE|13829&13839&13839|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 
 ; Black Knight Quest Chain
 
-A The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|From Crusader Rhydalla.|FACTION|Horde|	; Need Pre?
-C The Black Knight of Silverpine?|ACTIVE|13634|M|53.1,28.1|Z|Silverpine Forest|N|Get to just past the Forsaken Rear Guard in Silverpine Forest and read the Dusty Journal.|FACTION|Horde|
-T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|To Crusader Rhydalla.|FACTION|Horde|
+A The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|From Crusader Rhydalla.|	; Need Pre?
+C The Black Knight of Silverpine?|ACTIVE|13634|M|53.1,28.1|Z|Silverpine Forest|N|Get to just past the Forsaken Rear Guard in Silverpine Forest and read the Dusty Journal.|
+T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Seer's Crystal|QID|13641|PRE|13633^13634|M|69.43,23.02|N|From Crusader Rhydalla.|
 C The Seer's Crystal|ACTIVE|13641|M|46,42|Z|Crystalsong Forest|N|Kill Unbound Seer's to get the crystal.|
 T The Seer's Crystal|QID|13641|M|69.4,23.0|N|To Crusader Rhydalla.|
@@ -83,9 +78,9 @@ T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
 
 ; Aspirant Quests
 
-A One of Three|QID|13673^13674^13675|ACTIVE|13680|M|76.2,24.2|N|From Magister Edien Sunhollow, one of three quests.|FACTION|Horde|
-A Learning The Reins|QID|13677|ACTIVE|13680|M|76.2,24.2|N|From Galathia Brightdawn.|FACTION|Horde|
-A Training In The Field|QID|13676|ACTIVE|13680|M|76.2,24.2|N|From Amariel Sunsworn.|FACTION|Horde|
+A One of Three|QID|13673^13674^13675|ACTIVE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow, one of three quests.|
+A Learning The Reins|QID|13677|ACTIVE|13680|M|76.24,24.44|N|From Galathia Brightdawn.|
+A Training In The Field|QID|13676|ACTIVE|13680|M|76.31,24.39|N|From Amariel Sunsworn.|
 
 C Learning The Reins|QID|13625|N|Mount up and go practice on the fields.|U|46069|
 C Training In The Field|QID|13676|QO|1|M|PLAYER|N|Equip your regular weapon(s) and go kill any Scourge with Icecrown.|
@@ -98,37 +93,37 @@ C A Worthy Weapon|QID|13674|M|93,26|Z|Dragonblight|U|194213|N|Use the stack of f
 C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|T|Lord Everblaze|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
 C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
 
-T Training In The Field|QID|13676|M|76.2,24.2|N|To Amariel Sunsworn.|FACTION|Horde|
-T A Blade Fit For A Champion|QID|13673|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
-T A Worthy Weapon|QID|13674|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
-T The Edge Of Winter|QID|13675|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
-T Learning The Reins|QID|13677 |M|76.2,24.2|N|To Galathia Brightdawn.|FACTION|Horde|
+T Training In The Field|QID|13676|M|76.31,24.39|N|To Amariel Sunsworn.|
+T A Blade Fit For A Champion|QID|13673|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+T A Worthy Weapon|QID|13674|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+T The Edge Of Winter|QID|13675|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+T Learning The Reins|QID|13677|M|76.24,24.44|N|To Galathia Brightdawn.|
 
 ; Finishing up being an Aspirant
-C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals, come back another day.|FACTION|Horde|
-T Up To The Challenge|QID|13678|M|76.2,24.2|N|To Magister Edien Sunhollow.|FACTION|Horde|
+C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals, come back another day.|
+T Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
 ; Merge / rework with Horde done to this point, ALL based on Wowhead info.
 ; all the below need changing to Horde.
 
-A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.2,24.2|N|From Magister Edien Sunhollow.|FACTION|Horde|
+A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|Mount up and stack up on your shields BEFORE talking to the Squire.  Favor charging your opponent.|U|46069|
-T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.2,24.2|N|From Magister Edien Sunhollow.|
+T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 
 ; These kick off the race specific initial quests.
-A A Valiant Of Silvermoon|QID|13696|PRE|13680|R|Blood Elf|M|76.2,24.2|N|From Magister Edien Sunhollow.|FACTION|Horde|
+A A Valiant Of Silvermoon|QID|13696|PRE|13680|R|Blood Elf|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 T A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.40,23.90|N|To Eressea Dawnsinger.|
-A A Valiant Of Thunder Bluff|QID|13694|PRE|13680|R|Tauren|M|76.2,24.2|N|From Magister Edien Sunhollow.|FACTION|Horde|
+A A Valiant Of Thunder Bluff|QID|13694|PRE|13680|R|Tauren|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 T A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.40,24.55|N|To Runok Wildmane.|
-A A Valiant Of Orgrimmar|QID|13691|PRE|13680|R|Orc|M|76.2,24.2|N|From Magister Edien Sunhollow.|FACTION|Horde|
+A A Valiant Of Orgrimmar|QID|13691|PRE|13680|R|Orc|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 T A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-A A Valiant Of Undercity|QID|13695|PRE|13680|R|Undead|M|76.2,24.2|N|From Magister Edien Sunhollow.|FACTION|Horde|
+A A Valiant Of Undercity|QID|13695|PRE|13680|R|Undead|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 T A Valiant Of Undercity|QID|13695|PRE|13680|M|76.50,24.20|N|To Deathstalker Visceri.|
-A A Valiant Of Sen'jin|QID|13693|PRE|13680|R|Troll|M|76.2,24.2|N|From Magister Edien Sunhollow.|FACTION|Horde|
+A A Valiant Of Sen'jin|QID|13693|PRE|13680|R|Troll|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 T A Valiant Of Sen'jin|QID|13693|PRE|13680|M|76.00,24.45|N|To Zul'tore.|
 
 ; Champion level kick-offs
-A Pick Your New Faction|QID|13707^13709^13708^13711^13710|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|FACTION|Horde|
+A Pick Your New Faction|QID|13707^13709^13708^13711^13710|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|
 T Valiant Of Silvermoon|QID|13711|M|76.40,23.90|N|To Eressea Dawnsinger.|
 T Valiant Of Thunder Bluff|QID|13709|M|76.40,24.55|N|To Runok Wildmane.|
 T Valiant Of Orgrimmar|QID|13707|M|76.40,24.50|N|To Mokra the Skullcrusher.|
@@ -136,69 +131,69 @@ T Valiant Of Undercity|QID|13710|M|76.50,24.20|N|To Deathstalker Visceri.|
 T Valiant Of Gnomeregan|QID|13708|M|76.00,24.45|N|To Zul'tore.|
 
 ; The PRE clause selects allows either the race specific or the generic Valiant of * quest
-A The Valiant's Charge|QID|13697|PRE|13691^13707|M|76.40,24.50|N|From Mokra the Skullcrusher.|FACTION|Horde|
-A The Valiant's Charge|QID|13722|PRE|13696^13711|M|76.40,23.90|N|From Eressea Dawnsinger.|FACTION|Horde|
-A The Valiant's Charge|QID|13720|PRE|13694^13709|M|76.40,24.55|N|From Runok Wildmane.|FACTION|Horde|
-A The Valiant's Charge|QID|13719|PRE|13693^13708|M|76.00,24.45|N|From Zul'tore.|FACTION|Horde|
-A The Valiant's Charge|QID|13721|PRE|13695^13710|M|76.50,24.20|N|From Deathstalker Visceri.|FACTION|Horde|
+A The Valiant's Charge|QID|13697|PRE|13691^13707|M|76.40,24.50|N|From Mokra the Skullcrusher.|
+A The Valiant's Charge|QID|13722|PRE|13696^13711|M|76.40,23.90|N|From Eressea Dawnsinger.|
+A The Valiant's Charge|QID|13720|PRE|13694^13709|M|76.40,24.55|N|From Runok Wildmane.|
+A The Valiant's Charge|QID|13719|PRE|13693^13708|M|76.00,24.45|N|From Zul'tore.|
+A The Valiant's Charge|QID|13721|PRE|13695^13710|M|76.50,24.20|N|From Deathstalker Visceri.|
 
 ; Valiant Quests (Undead Primary)
-A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.50,24.20|N|From Deathstalker Visceri, one of 3.|FACTION|Horde|
-A A Valiant's Field Training|QID|13781|ACTIVE|13721|M|76.50,24.20|N|From Sarah Chalke.|FACTION|Horde|
-A The Grand Melee|QID|13782|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|FACTION|Horde|
-A At The Enemy's Gates|QID|13860|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|FACTION|Horde|
+A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.50,24.20|N|From Deathstalker Visceri, one of 3.|
+A A Valiant's Field Training|QID|13781|ACTIVE|13721|M|76.50,24.20|N|From Sarah Chalke.|
+A The Grand Melee|QID|13782|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|
+A At The Enemy's Gates|QID|13860|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|
 
 ; Valiant Quests (Orc Primary)
-A One of Three|QID|13763^13762^13764|ACTIVE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|FACTION|Horde|
-A A Valiant's Field Training|QID|13765|ACTIVE|13697|M|76.50,24.20|N|From Akinos.|FACTION|Horde|
-A The Grand Melee|QID|13767|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|FACTION|Horde|
-A At The Enemy's Gates|QID|13856|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|FACTION|Horde|
+A One of Three|QID|13763^13762^13764|ACTIVE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|
+A A Valiant's Field Training|QID|13765|ACTIVE|13697|M|76.50,24.20|N|From Akinos.|
+A The Grand Melee|QID|13767|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|
+A At The Enemy's Gates|QID|13856|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|
 
 ; Valiant Quests (Blood Elf Primary)
-A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|FACTION|Horde|
-A A Valiant's Field Training|QID|13786|ACTIVE|13722|M|76.40,23.90|N|From Kethiel Sunlance.|FACTION|Horde|
-A The Grand Melee|QID|13787|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|FACTION|Horde|
-A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|FACTION|Horde|
+A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|
+A A Valiant's Field Training|QID|13786|ACTIVE|13722|M|76.40,23.90|N|From Kethiel Sunlance.|
+A The Grand Melee|QID|13787|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|
+A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|
 
 ; Valiant Quests (Tauren Primary)
-A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.40,24.55|N|From Runok Wildmane, one of 3.|FACTION|Horde|
-A A Valiant's Field Training|QID|13776|ACTIVE|13720|M|76.40,24.55|N|From Dern Ragetotem.|FACTION|Horde|
-A The Grand Melee|QID|13777|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|FACTION|Horde|
-A At The Enemy's Gates|QID|13858|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|FACTION|Horde|
+A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.40,24.55|N|From Runok Wildmane, one of 3.|
+A A Valiant's Field Training|QID|13776|ACTIVE|13720|M|76.40,24.55|N|From Dern Ragetotem.|
+A The Grand Melee|QID|13777|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|
+A At The Enemy's Gates|QID|13858|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|
 
 ; Valiant Quests (Troll Primary)
-A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|76.00,24.20|N|From Zul'tore, one of 3.|FACTION|Horde|
-A A Valiant's Field Training|QID|13771|ACTIVE|13719|M|76.00,24.20|N|From Shadow Hunter Mezil'Kree.|FACTION|Horde|
-A The Grand Melee|QID|13772|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|FACTION|Horde|
-A At The Enemy's Gates|QID|13857|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|FACTION|Horde|
+A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|76.00,24.20|N|From Zul'tore, one of 3.|
+A A Valiant's Field Training|QID|13771|ACTIVE|13719|M|76.00,24.20|N|From Shadow Hunter Mezil'Kree.|
+A The Grand Melee|QID|13772|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|
+A At The Enemy's Gates|QID|13857|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|
 
 ; Quests once you are exalted
 ; Girana gives 2 of 5
-; A Rescue at Sea|QID|14136|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|FACTION|Horde|
-; A A Leg Up|QID|14143|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|FACTION|Horde|
-; A Stop The Aggressors|QID|14140|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|FACTION|Horde|
-; A The Light's Mercy|QID|14144|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|FACTION|Horde|
-A Girana gives 1 of 4|QID|14136^14143^14140^14144|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|FACTION|Horde|
-A You've Really Done It This Time, Kul|QID|14142|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|FACTION|Horde|
+; A Rescue at Sea|QID|14136|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
+; A A Leg Up|QID|14143|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
+; A Stop The Aggressors|QID|14140|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
+; A The Light's Mercy|QID|14144|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
+A Girana gives 1 of 4|QID|14136^14143^14140^14144|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|
+A You've Really Done It This Time, Kul|QID|14142|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
 
 ; Tylos gives 1 of 3
-; A Gormok Wants His Snobolds|QID|14141|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|FACTION|Horde|
-; A What Do You Feed a Yeti, Anyway?|QID|14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|FACTION|Horde|
-; A Breakfast Of Champions|QID|14092|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|FACTION|Horde|
-A Tylos gives 1 of 3|QID|14092^14141^14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|FACTION|Horde|
+; A Gormok Wants His Snobolds|QID|14141|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
+; A What Do You Feed a Yeti, Anyway?|QID|14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
+; A Breakfast Of Champions|QID|14092|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
+A Tylos gives 1 of 3|QID|14092^14141^14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
 
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
 
-A Battle Before The Citadel|QID|13862|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.96,23.44|N|From Eadric the Pure.|FACTION|Horde|
-A Threat From Above|QID|13809|PRE|13794&14017|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.96,23.44|N|From Eadric the Pure.|FACTION|Horde|
-A Among the Champions|QID|13811|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.93,23.33|N|From Luuri.|FACTION|Horde|
-A Taking Battle To The Enemy|QID|13810|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.92,23.53|N|From Cellian Daybreak|FACTION|Horde|
+A Battle Before The Citadel|QID|13862|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.96,23.44|N|From Eadric the Pure.|
+A Threat From Above|QID|13809|PRE|13794&14017|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.96,23.44|N|From Eadric the Pure.|
+A Among the Champions|QID|13811|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.93,23.33|N|From Luuri.|
+A Taking Battle To The Enemy|QID|13810|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.92,23.53|N|From Cellian Daybreak|
 
-A Threat From Above|QID|13812|PRE|13795&14017|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|FACTION|Horde|
-A Battle Before The Citadel|QID|13863|PRE|13795|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|FACTION|Horde|
-A Among the Champions|QID|13814|PRE|13795|C|Death Knight|M|73.59,20.09|N|From Illyrie Nightfall.|FACTION|Horde|
-A Taking Battle To The Enemy|QID|13813|PRE|13795|C|Death Knight|M|73.80,19.45|N|From Zor'be the Bloodletter.|FACTION|Horde|
+A Threat From Above|QID|13812|PRE|13795&14017|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
+A Battle Before The Citadel|QID|13863|PRE|13795|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
+A Among the Champions|QID|13814|PRE|13795|C|Death Knight|M|73.59,20.09|N|From Illyrie Nightfall.|
+A Taking Battle To The Enemy|QID|13813|PRE|13795|C|Death Knight|M|73.80,19.45|N|From Zor'be the Bloodletter.|
 
 ; Crusader Quests
 ; A Deathspeaker Kharos|QID|14105|M|69.96,23.44|CC|N|From High Crusader Adelard|
@@ -338,11 +333,11 @@ T The Valiant's Charge|QID|13720|M|76.40,24.55|N|To Runok Wildmane.|
 T The Valiant's Charge|QID|13719|M|76.00,24.45|N|To Zul'tore.|
 T The Valiant's Charge|QID|13721|M|76.50,24.20|N|To Deathstalker Visceri.|
 
-A The Valiant's Challenge|QID|13729|PRE|13721|M|76.50,24.20|N|From Deathstalker Visceri.|FACTION|Horde|
-A The Valiant's Challenge|QID|13728|PRE|13720|M|76.40,24.55|N|From Runok Wildmane.|FACTION|Horde|
-A The Valiant's Challenge|QID|13726|PRE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|FACTION|Horde|
-A The Valiant's Challenge|QID|13727|PRE|13719|M|76.00,24.45|N|From Zul'tore.|FACTION|Horde|
-A The Valiant's Challenge|QID|13731|PRE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|FACTION|Horde|
+A The Valiant's Challenge|QID|13729|PRE|13721|M|76.50,24.20|N|From Deathstalker Visceri.|
+A The Valiant's Challenge|QID|13728|PRE|13720|M|76.40,24.55|N|From Runok Wildmane.|
+A The Valiant's Challenge|QID|13726|PRE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|
+A The Valiant's Challenge|QID|13727|PRE|13719|M|76.00,24.45|N|From Zul'tore.|
+A The Valiant's Challenge|QID|13731|PRE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|
 
 C The Valiant's Challenge|QID|13726^13728^13727^13731^13729|M|68.60,20.99|N|Mount up, get your shields going and talk to Squire Danny to get things started.|
 
@@ -352,17 +347,17 @@ T The Valiant's Challenge|QID|13726|M|76.40,24.50|N|To Mokra the Skullcrusher.|
 T The Valiant's Challenge|QID|13727|M|76.00,24.45|N|To Zul'tore.|
 T The Valiant's Challenge|QID|13731|M|76.40,23.90|N|To Eressea Dawnsinger.|
 
-A A Champion Rises|QID|13739|PRE|13729|R|Undead|M|76.50,24.20|N|From Deathstalker Visceri.|FACTION|Horde|
-A A Champion Rises|QID|13738|PRE|13728|R|Tauren|M|76.40,24.55|N|From Runok Wildmane.|FACTION|Horde|
-A A Champion Rises|QID|13736|PRE|13726|R|Orc|M|76.40,24.50|N|From Mokra the Skullcrusher.|FACTION|Horde|
-A A Champion Rises|QID|13737|PRE|13727|R|Troll|M|76.00,24.45|N|From Zul'tore.|FACTION|Horde|
-A A Champion Rises|QID|13740|PRE|13731|R|Blood Elf|M|76.40,23.90|N|From Eressea Dawnsinger.|FACTION|Horde|
-N A Champion Rises|QID|13736^13738^13737^13740^13739|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|FACTION|Horde|
-T A Champion Rises|QID|13736^13738^13737^13740^13739|M|69.66,22.85|N|To Justicar Mariel Trueheart.|FACTION|Horde|
+A A Champion Rises|QID|13739|PRE|13729|R|Undead|M|76.50,24.20|N|From Deathstalker Visceri.|
+A A Champion Rises|QID|13738|PRE|13728|R|Tauren|M|76.40,24.55|N|From Runok Wildmane.|
+A A Champion Rises|QID|13736|PRE|13726|R|Orc|M|76.40,24.50|N|From Mokra the Skullcrusher.|
+A A Champion Rises|QID|13737|PRE|13727|R|Troll|M|76.00,24.45|N|From Zul'tore.|
+A A Champion Rises|QID|13740|PRE|13731|R|Blood Elf|M|76.40,23.90|N|From Eressea Dawnsinger.|
+N A Champion Rises|QID|13736^13738^13737^13740^13739|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
+T A Champion Rises|QID|13736^13738^13737^13740^13739|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
-A Eadric the Pure|QID|13794|PRE|13736^13738^13737^13740^13739^13736^13737^13738^13739^13740|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|N|From Justicar Mariel Trueheart, everybody but DKs|FACTION|Horde|
+A Eadric the Pure|QID|13794|PRE|13736^13738^13737^13740^13739^13736^13737^13738^13739^13740|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|N|From Justicar Mariel Trueheart, everybody but DKs|
 T Eadric the Pure|QID|13794|M|69.96,23.44|N|To Eadric the Pure.|
-A The Scourgebane|QID|13795|PRE|13736^13738^13737^13740^13739^13736^13737^13738^13739^13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|FACTION|Horde|
+A The Scourgebane|QID|13795|PRE|13736^13738^13737^13740^13739^13736^13737^13738^13739^13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
 T The Scourgebane|QID|13795|M|73.80,20.06|N|From Crok Scourgebane.|
 
 ]]
