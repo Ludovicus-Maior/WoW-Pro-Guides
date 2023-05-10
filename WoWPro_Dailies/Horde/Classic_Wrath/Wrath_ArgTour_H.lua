@@ -29,13 +29,13 @@ A Mastery Of The Charge|QID|13839|PRE|13668|M|76.31,24.39|N|From Amariel Sunswor
 A Mastery Of The Shield-Breaker|QID|13838|PRE|13668|M|76.24,24.44|N|From Galathia Brightdawn.|
 
 N Horde Lance|ACTIVE|13829^13838^13839|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Mount|ACTIVE|13829^13838^13839|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|V|
-C Mastery Of Melee|QID|13829|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|
-C Mastery Of Melee|QID|13829|QO|2|M|PLAYER|N|Use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]You'll lose your mount after the third one; go get a new one.|T|Melee Target|
-C Mastery Of The Shield-Breaker|QID|13838|QO|1|M|73.20,19.24|N|Ask Valis Windchaser to show you how to train with a Ranged Target.|CHAT|
-C Mastery Of The Shield-Breaker|QID|13838|QO|2|M|PLAYER|N|Use Shield-Breaker (2) on a Ranged Target 5 times.|T|Ranged Target|
-C Mastery Of The Charge|QID|13839|QO|1|M|72.67,18.88|N|Ask Rugan Steelbelly to show you how to train with a Charge Target.|CHAT|
-C Mastery Of The Charge|QID|13839|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Target 5 times.|T|Charge Target|
+C Mastery Of Melee|QID|13829|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|BUFF|-63428|
+C Mastery Of Melee|QID|13829|QO|2|M|PLAYER|N|Use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]You'll lose your mount after the third one; go get a new one.|T|Melee Target|BUFF|-63428|
+C Mastery Of The Shield-Breaker|QID|13838|QO|1|M|73.20,19.24|N|Ask Valis Windchaser to show you how to train with a Ranged Target.|CHAT|BUFF|-63428|
+C Mastery Of The Shield-Breaker|QID|13838|QO|2|M|PLAYER|N|Use Shield-Breaker (2) on a Ranged Target 5 times.|T|Ranged Target|BUFF|-63428|
+C Mastery Of The Charge|QID|13839|QO|1|M|72.67,18.88|N|Ask Rugan Steelbelly to show you how to train with a Charge Target.|CHAT|BUFF|-63428|
+C Mastery Of The Charge|QID|13839|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Target 5 times.|T|Charge Target|BUFF|-63428|
+N Mount|ACTIVE|13829^13838^13839|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|V|BUFF|63428|
 
 T Mastery Of The Charge|QID|13839|M|76.31,24.39|N|To Amariel Sunsworn.|
 T Mastery Of The Shield-Breaker|QID|13838|M|76.24,24.44|N|To Galathia Brightdawn.|
