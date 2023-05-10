@@ -242,9 +242,7 @@ C Raked Over the Coals|QID|72919|M|46.35,52.96|Z|2133|QO|1|NC|N|Shadowflame disp
 R Loamm|ACTIVE|72919|M|55.93,54.19|Z|2133|QO|2|N|Head into Loamm.|
 T Raked Over the Coals|QID|72919|M|56.02,54.45|Z|2133|N|To Ebyssian.|
 A The Endless Burning Sky|QID|72920|PRE|72919|M|56.02,54.45|Z|2133|N|From Ebyssian.|
-C The Endless Burning Sky|QID|72920|M|57.29,53.98|Z|2133|QO|1|NC|N|Fires extinguished.|EAB|S|
-C The Endless Burning Sky|QID|72920|M|55.76,57.60;55.13,55.26;54.23,56.53;57.68,56.39;57.74,53.44|CN|Z|2133|QO|2|NC|N|Search for villagers.|
-C The Endless Burning Sky|QID|72920|M|57.29,53.98|Z|2133|QO|1|NC|N|Fires extinguished.|EAB|US|
+C The Endless Burning Sky|QID|72920|M|55.13,55.26;54.23,56.53;55.76,57.60;57.68,56.39;57.74,53.44|CS|Z|2133|QO|1;2|NC|N|Search for villagers and put out fires|EAB|
 C The Endless Burning Sky|QID|72920|M|56.47,55.59|Z|2133|QO|3|CHAT|N|Elder Honeypelt rescued.|
 C The Endless Burning Sky|QID|72920|M|56.43,55.74|Z|2133|QO|4|H|N|Fire cleared from doorway.|
 T The Endless Burning Sky|QID|72920|M|56.07,54.59|Z|2133|N|To Ebyssian.|
