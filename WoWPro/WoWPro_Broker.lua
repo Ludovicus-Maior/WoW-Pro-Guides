@@ -2002,6 +2002,12 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+            -- Equipped Item? Complete step
+            if WoWPro.equipped and _G.IsEquippableItem(WoWPro.equipped) then
+                WoWPro.CompleteStep(guideIndex,"Item "..tostring(WoWPro.equipped).."equipped.")
+                skip = true
+                break
+            end
             -- Scenario objectives
             if WoWPro.sobjective[guideIndex] then
                 if WoWPro.Scenario then
