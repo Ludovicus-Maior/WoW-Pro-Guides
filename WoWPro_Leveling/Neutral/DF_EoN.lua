@@ -134,7 +134,7 @@ A Best Friends|QID|74877|M|55.66,57.38|Z|2133;Zaralek Cavern|N|From Myrrit.|RANK
 C Best Friends|QID|74877|QO|1|M|54.61,54.91|Z|2133;Zaralek Cavern|CHAT|N|Talk to Effervesta.|
 C Best Friends|QID|74877|QO|2|M|55.66,57.38|Z|2133;Zaralek Cavern|CHAT|N|Tell Myrrit the good news.|
 C Best Friends|QID|74877|QO|3|M|56.42,55.84|Z|2133;Zaralek Cavern|H|N|Buy snacks from the innkeeper (first item in his inventory).|
-C Best Friends|QID|74877|QO|4|M|52.15,62.78|Z|2133;Zaralek Cavern|CHAT|N|Check in with Myrrit at their "spot".|        
+C Best Friends|QID|74877|QO|4|M|52.15,62.78|Z|2133;Zaralek Cavern|CHAT|N|Check in with Myrrit at their "spot".|
 T Best Friends|QID|74877|M|52.19,62.86|Z|2133;Zaralek Cavern|N|To Myrrit.|
 T Future Aspects|QID|74334|M|59.49,68.80|Z|2133;Zaralek Cavern|N|To Ebyssian.|
 A Save-A-Mole|QID|72958|PRE|74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
