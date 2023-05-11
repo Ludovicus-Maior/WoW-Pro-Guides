@@ -146,7 +146,7 @@ T The Ruins of Szar Skeleth|QID|66094|M|39.98,67.49|Z|2023|N|To Toddy Whiskers.|
 A The Insight of Tyr|QID|70507|PRE|66094|M|39.98,67.49|Z|2023|N|From Toddy Whiskers.|
 K Reclaimer Makko|ACTIVE|70507|QO|1|M|44.29,64.44|Z|2023|N|Kill and loot Reclaimer Makko. He spawns in the taller tower and wanders around the area.|
 A The Fractured Flame|QID|70766|M|PLAYER|N|From item that will drop probably from the first gorloc you kill.|O|U|199792|
-C The Fractured Flame|QID|70766|M|44.29,64.44|Z|2023|N|Stay and kill gorlocs if you want, or abandon this quest. It is optional and has no reward, other than the completed journal that you can read for a bit of interesting lore. If you choose to finish it, kill them one or two at a time, and loot defore more die, or you will get multiples of the same page if you loot a big pile of them at once.|
+C The Fractured Flame|QID|70766|M|44.29,64.44|Z|2023|N|Stay and kill gorlocs if you want, or abandon this quest. It is optional and has no reward, other than the completed journal that you can read for a bit of interesting lore. If you choose to finish it, kill them one or two at a time, and loot before more die, or you will get multiples of the same page if you loot a big pile of them at once.|
 T The Insight of Tyr|QID|70507|M|47.25,82.71|Z|2025|N|To Toddy Whiskers.|
 t The Fractured Flame|QID|70766|M|47.25,82.71|Z|2025|N|To Toddy Whiskers.|
 R Zelthrak Outpost|ACTIVE|70784|M|53.88,50.70|Z|2024|N|Off to Azure Span to meet Naleidea and find the last piece.|
@@ -206,7 +206,103 @@ T The Silver Purpose|QID|67084|M|60.19,58.65|Z|Thaldraszus|NC|N|To Alexstrasza.|
 
 ; Ch 6|In the Halls of Titans - |DFREN|Dragonscale Exp;2507;24|
 ; Ch 7|Garden of Secrets - |DFREN|Valdrakken;2510;19|
-; Ch 8|The Dreamer - currently locked, unknown what requirements are presumed Maruuk and quite high
+t Emerald Summons|QID|66620|M|29.80,60.07|Z|2023;Ohn'ahran Plains|N|To Merithra -- Quest from Herald Flaps when you reach renown level 19 with Valdrakken.|
+A A Day in the Groves|QID|66178|PRE|66620|M|29.80,60.07|Z|2023;Ohn'ahran Plains|N|
+T A Day in the Groves|QID|66178|M|33.22,51.76|Z|2023;Ohn'ahran Plains|N|To Merithra, who has flown off to the Leafy Repose.|
+A Seeds for the Future|QID|66179|PRE|66178|M|33.22,51.76|Z|2023;Ohn'ahran Plains|N|From Merithra.|
+A Wake the Ancients|QID|66180|PRE|66178|M|33.22,51.76|Z|2023;Ohn'ahran Plains|N|From Merithra.|
+C Seeds for the Future|QID|66179|L|192547 12|N|Kill flower mobs to collect the seeds. Don't deliver until you have all 12!|S!US|
+C Wake the Ancients|QID|66180|QO|1|M|30.17,52.94|Z|2023;Ohn'ahran Plains|EAB|H|N|Use the provided [color=33fff9] Extra Action Button [/color] to wake Quercus.|
+C Wake the Ancients|QID|66180|QO|2|M|28.50,51.73|Z|2023;Ohn'ahran Plains|EAB|H|N|Use the provided [color=33fff9] Extra Action Button [/color] to wake Dalicus.|
+C Wake the Ancients|QID|66180|QO|3|M|30.04,50.34|Z|2023;Ohn'ahran Plains|EAB|H|N|Use the provided [color=33fff9] Extra Action Button [/color] to wake Asercus.|
+C Seeds for the Future|QID|66179|M|29.49,50.77|Z|2023;Ohn'ahran Plains|N|When you have 12 seeds, deliver them to one of the sisters, Be careful you have all the seeds, because the sisters leave after you give them seeds.|
+T Seeds for the Future|QID|66179|M|33.22,51.75|Z|2023;Ohn'ahran Plains|N|To Merithra.|
+T Wake the Ancients|QID|66180|M|33.22,51.75|Z|2023;Ohn'ahran Plains|N|To Merithra.|
+A Gerithus's Research|QID|66182|PRE|66180&66179|M|33.19,51.81|Z|2023;Ohn'ahran Plains|N|From Merithra.|
+T Gerithus's Research|QID|66182|M|28.41,48.60|Z|2023;Ohn'ahran Plains|N|To Gerithus.|
+A Emerald Tears|QID|66183|PRE|66182|M|28.41,48.60|Z|2023;Ohn'ahran Plains|N|From Gerithus.|
+A A Frenzied Defender|QID|66181|PRE|66182|M|28.50,48.70|Z|2023;Ohn'ahran Plains|N|From Rymek.|
+C Emerald Tears|QID|66183|M|28,45|Z|2023;Ohn'ahran Plains|H|N|Pick up the small green crystals from the ground.|S|
+C A Frenzied Defender|QID|66181|M|27.93,45.73|N|Kill the Frenzied Grovetalon.|
+C Emerald Tears|QID|66183|M|28,45|Z|2023;Ohn'ahran Plains|N|Finish collecting the small green crystals from the ground.|US|
+T A Frenzied Defender|QID|66181|M|28.48,48.71|Z|2023;Ohn'ahran Plains|N|To Rymek.|
+T Emerald Tears|QID|66183|M|28.41,48.60|Z|2023;Ohn'ahran Plains|N|To Gerithus.|
+A Anchors to Life|QID|66184|PRE|66181&66183|M|28.41,48.60|Z|2023;Ohn'ahran Plains|N|From Gerithus.|
+C Anchors to Life|QID|66184|M|28.41,48.60|Z|2023;Ohn'ahran Plains|H|N|Click on the 3 Anchors around Gerithus and Rymek,this is channelled, so don't move to the next one until you get the update. After you infuse them all, Merithra will walk over.|
+T Anchors to Life|QID|66184|M|28.41,48.60|Z|2023;Ohn'ahran Plains|N|To Gerithus.|
+A To Somnikus|QID|66393|PRE|66184|M|28.37,48.69|Z|2023;Ohn'ahran Plains|N|From Merithra.|
+T To Somnikus|QID|66133|M|22.02,50.98|Z|2023;Ohn'ahran Plains|N|To Somnikus.|
+A The Chittering Rocks|QID|66395|PRE|66393|M|22.02,50.981|Z|2023;Ohn'ahran Plains|N|From Somnikus.|
+A Guarded Appreciation|QID|66396|PRE|66393|M|22.10,50.86|Z|2023;Ohn'ahran Plains|N|From Rymek.|
+C Guarded Appreciation|QID|66396|M|20.81,46.00|Z|2023;Ohn'ahran Plains|EAB|CHAT|N|Offer Rymek's gift to Emerald Scaleguard or Emerald Wardens.|S|
+C The Chittering Rocks|QID|66395|M|20.81,46.00|Z|2023;Ohn'ahran Plains|N|Click the Suspicious Permafrost and then kill the Glacial Tunnelers that will spawn.|
+C Guarded Appreciation|QID|66396|M|20.81,46.00|Z|2023;Ohn'ahran Plains|EAB|CHAT|N|Offer Rymek's gift to Emerald Scaleguard or Emerald Wardens.|US|
+T The Chittering Rocks|QID|66395|M|22.02,50.98|Z|2023;Ohn'ahran Plains|N|To Somnikus.|
+T Guarded Appreciation|QID|66396|M|22.10,50.86|Z|2023;Ohn'ahran Plains|N|To Rymek.|
+A So Close|QID|66190|PRE|66395&66396|M|22.10,50.86|Z|2023;Ohn'ahran Plains|N|From Rymek.|
+C So Close|QID|66190|QO|1|M|19.95,49.34|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Rymek then cut scene will start. 
+C So Close|QID|66190|QO|2|M|21.42,48.74|Z|2023;Ohn'ahran Plains|CHAT|N|Kill Ezralor then wait for scene to unfold.|
+T So Close|QID|66190|M|22.07,49.20|Z|2023;Ohn'ahran Plains|N|To Merithra.|
+A And Yet So Far|QID|66191|PRE|66190|M|22.07,49.20|Z|2023;Ohn'ahran Plains|N|From Merithra.|
+C And Yet So Far|QID|66191|M|19.95,49.34|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Merithra what is hidden. Watch cutscene.|
+T And Yet So Far|QID|66191|M|19.95,49.34|Z|2023;Ohn'ahran Plains|N|To Merithra.|
+
+; Ch 8|The Dreamer - directly after Emerald Summons questline
+A Rallying Nature's Allies|QID|66392|PRE|66191|M|22.06,49.20|Z|2023;Ohn'ahran Plains|N|From Merithra
+C Rallying Nature's Allies|QID|66392|QO|1|M|22.05,50.20|Z|2023;Ohn'ahran Plains|CHAT|N|You can ask Aronus for a ride (or you can fly by your self).|
+C Rallying Nature's Allies|QID|66392|QO|2|M|30.53,56.76|Z|2023;Ohn'ahran Plains|H|N|Pick up the infused anchors.|
+C Rallying Nature's Allies|QID|66392|QO|3|M|29.32,55.95|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Koda.|
+C Rallying Nature's Allies|QID|66392|QO|4|M|29.99,58.19|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Scout Tomul.|
+C Rallying Nature's Allies|QID|66392|QO|5|M|28.35,60.12|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to the Archdruid Hamuul Runetotem inside the building.|
+T Rallying Nature's Allies|QID|66392|M|28.36,57.95|Z|2023;Ohn'ahran Plains|N|To Somnikus.|
+A Across the Weald|QID|66185|PRE|66392|M|28.36,57.95|Z|2023;Ohn'ahran Plains|N|From Somnikus.|
+P Across the Weald|QID|66185|M|28.35,57.80|Z|2023;Ohn'ahran Plains|N|Use portal behind Somnikus and go to see Ysera.|
+T Across the Weald|QID|66185|M|45.88,60.88|Z|1565;Arenweald|N|To Ysera.|
+A The Price|QID|66186|PRE|66185|M|45.88,60.88|Z|1565;Arenweald|N|From Ysera, accepting will trigger a cutscene.|
+T The Price|QID|66186|M|45.83,60.87|Z|1565;Arenweald|N|To Malfurian Stormrage.|
+A Storm's Rest|QID|66188|PRE|66186|M|45.83,60.87|Z|1565;Ardenweald|N|From Malfurian Stormrage.|
+C Storm's Rest|QID|66188|QO|1|M|45.31,63.75|Z|1565;Ardenweald|H|N|Click on Globe of Rebirth (large orbs).|
+C Storm's Rest|QID|66188|QO|2|M|45.29,64.01|Z|1565;Ardenweald|CHAT|N|You can chose either option when talking to the Winter Queen.|
+T Storm's Rest|QID|66188|M|45.29,63.61|Z|1565;Ardenweald|N|To Ysera.|
+A Step Into the Life|QID|66189|PRE|66188|M|45.29,63.61|Z|1565;Ardenweald|N|From Ysera.|
+P Step Into the Life|QID|66189|QO|1|M|45.27,65.73|Z|1565;Ardenweald|EAB|N|Move to marked spot and use your provided[color=33fff9] Extra Action Button [/color]to teleport.|
+C Step Into the Life|QID|66189|QO|2|M|65.88,51.4|Z|2084;The Emerald Greenway|N|Kill mobs and pick up the glowing Frost Shards until 100%.|S|
+C Step Into the Life|QID|66189|QO|3|M|65.8,51.4|Z|2084;The Emerald Greenway|H|N|Place first Anchor.|
+C Step Into the Life|QID|66189|QO|4|M|58.2,81.5|Z|2084;The Emerald Greenway|H|N|Place second Anchor.|
+C Step Into the Life|QID|66189|QO|5|M|45.8,39.0|Z|2084;The Emerald Greenway|H|N|Place third Anchor inside the cave.
+C Step Into the Life|QID|66189|QO|2|M|45.8,39.0|Z|2084;The Emerald Greenway|H|N|Kill mobs and pick up the glowing Frost Shards until 100%.|US|
+P Step Into the Life|QID|66189|QO|6|M|31.3,22.5|Z|2084;The Emerald Greenway|N|Return to Merithra's Watch via the provided portal.|
+T Step Into the Life|QID|66189|M|18.81,51.90|Z|2023;Ohn'ahran Plains|N|To Ysera.|
+A Thin the Veil|QID|66394|PRE|66189|M|18.81,51.90|Z|2023;Ohn'ahran Plains|N|From Ysera.|
+A Our Full Strength|QID|66397|PRE|66189|M|18.81,51.90|Z|2023;Ohn'ahran Plains|N|From Ysera.|
+C Our Full Strength|QID|66397|M|20.30,49.21|Z|2023;Ohn'ahron Plains|NC|U|201437|N|To free Emerald Scaleguards or Wardens you will need a [color=33fff9] Renewed Dream [/color]for each one. These can be created from 5 Slumbering Dream Fragments which drop from mobs in the area. (not the ones Ysera is killing). You can click the button to the left to create.|L|201437 20|;193221 5|
+C Our Full Strength|QID|66397|QO|3|M|20.30,49.21|Z|2023;Ohn'ahron Plains|NC|N|Free Emerald Scaleguards or Wardens from Ice.|S|
+C Thin the Veil|QID|66394|M|20.30,49.21|Z|2023;Ohn'ahron Plains|H|N|Click to weaken the barrier moorings.|S|
+C Our Full Strength|QID|66397|QO|2|M|20.30,49.21|Z|2023;Ohn'ahron|N|Rescue Gerithus.|U|201437|
+C Thin the Veil|QID|66394|M|18.58,51.68|Z|2023;Ohn'ahron|H|N|Click to weaken the barrier moorings.|US|
+C Our Full Strength|QID|66397|QO|3|M|18.58,51.68|Z|2023;Ohn'ahran Plains|NC|N|Free Emerald Scaleguards or Wardens from Ice.|US|
+T Our Full Strength|QID|66397|M|18.82,51.90|Z|2023;Ohn'ahran Plains|N|To Gerithus.|
+T Thin the Veil|QID|66394|M|18.82,51.90|Z|2023;Ohn'ahran Plains|N|To Gerithus.|
+A Reunited, Once Again|QID|66635|PRE|66394&66397|M|18.82,51.90|Z|2023;Ohn'ahran Plains|N|From Ysera.|
+C Reunited, Once Again|QID|66635|M|18.82,51.90|Z|2023;Ohn'ahran Plains|CHAT|N|Tell Ysera you are ready, cutscene will start.|
+T Reunited, Once Again|QID|66635|M|18.82,51.90|Z|2023;Ohn'ahran Plains|N|To Ysera.|
+A The Emerald Dragonflight|QID|66398|PRE|66635|M|18.88,51.11|Z|2023;Ohn'ahran Plains|N|From Merithra.|
+C The Emerald Dragonflight|QID|66398|M|18.60,51.58|Z|2023;Ohn'ahran Plains|CHAT|N|Ask Gerithus for a ride.|
+T The Emerald Dragonflight|QID|66398|M|21.98,76.08|Z|2023;Ohn'ahran Plains|N|To Gerithus.|
+A We'll Cross that Bridge|QID|66399|PRE|66398|M|21.98,76.08|Z|2023;Ohn'ahran Plains|N|From Gerithus.|
+C We'll Cross that Bridge|QID|66399|QO|1|M|21.10,76.55|2023;Ohn'ahran Plains|N|Destroy the frost Core located inside the ruined towers.|
+C We'll Cross that Bridge|QID|66399|QO|2|M|21.85,78.32|CS|Z|2023;Ohn'ahran Plains|N|Destroy the Frost Core located inside the other ruined towers.|
+C We'll Cross that Bridge|QID|66399|QO|3|M|21.85,78.32|Z|2023;Ohn'ahran Plains|N|Kill Frostdrake, on the bridge.|
+T We'll Cross that Bridge|QID|66399|M|20.90,79.80|Z|2023;Ohn'ahran Plains|N|To Somnikus.|
+A Winter's Fall|QID|66400|PRE|66399|M|20.90,79.80|Z|2023;Ohn'ahran Plains|N|From Somnikus.|
+C Winter's Fall|QID|66400|M|20.08,81.34|Z|2023;Ohn'ahran Plains|N|Defeat Rymek.|
+T Winter's Fall|QID|66400|M|19.78,81.65|Z|2023;Ohn'ahran Plains|N|To Merithra.|
+A The Dreamer|QID|66401|PRE|66400|M|19.78,81.65|Z|2023;Ohn'ahran Plains|N|From Merithra.|
+C The Dreamer|QID|66401|M|19.78,81.65|Z|2023;Ohn'ahran Plains|CHAT|N|Wait until dialog finishes then tell Merithra you are ready, leads into a cutscene.|
+T The Dreamer|QID|66401|M|19.61,81.91|Z|2023;Ohn'ahran Plains|N|To Merithra.|
+A Like Mother, Like Daughter|QID|66402|PRE|66401|M|19.80,81.69|Z|2023;Ohn'ahran Plains|N|From Ysera.|
+T Like Mother, Like Daughter|QID|66402|M|19.77,81.69|Z|2023;Ohn'ahran Plains|N|Wait for dialog, then turn in to Merithra and collect her Blessing.|
+U Merithra's Blessing|PRE|66402|U|201779|N|You may want to wait to "use" Merithra's Blessing until next weekly reset as it's an easy 2500 renown points. Manually check this off.|
 
 ; Chapter 9|Spark of Ingenuity
 A Learning Ingenuity|QID|72773|PRE|71232|M|50.64,57.95|Z|2112|N|From Therazal.|LEAD|70180|
