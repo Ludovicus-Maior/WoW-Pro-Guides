@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('DF_Campaign', 'Leveling', 'Dragon Isles', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,"Dragonflight Campaign")
-WoWPro:GuideQuestTriggers(guide, 72585,70437,68863, 69093, 70180,71184,72773,70180) -- add starting quest for each chapter
+WoWPro:GuideQuestTriggers(guide, 72585,70437,68863, 69093, 70180,71184,72773,66620,70180) -- add starting quest for each chapter
 WoWPro:GuideLevels(guide,60, 70, 70)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -240,7 +240,7 @@ C Guarded Appreciation|QID|66396|M|20.81,46.00|Z|2023;Ohn'ahran Plains|EAB|CHAT|
 T The Chittering Rocks|QID|66395|M|22.02,50.98|Z|2023;Ohn'ahran Plains|N|To Somnikus.|
 T Guarded Appreciation|QID|66396|M|22.10,50.86|Z|2023;Ohn'ahran Plains|N|To Rymek.|
 A So Close|QID|66190|PRE|66395&66396|M|22.10,50.86|Z|2023;Ohn'ahran Plains|N|From Rymek.|
-C So Close|QID|66190|QO|1|M|19.95,49.34|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Rymek then cut scene will start. 
+C So Close|QID|66190|QO|1|M|19.95,49.34|Z|2023;Ohn'ahran Plains|CHAT|N|Talk to Rymek then cut scene will start.|
 C So Close|QID|66190|QO|2|M|21.42,48.74|Z|2023;Ohn'ahran Plains|CHAT|N|Kill Ezralor then wait for scene to unfold.|
 T So Close|QID|66190|M|22.07,49.20|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A And Yet So Far|QID|66191|PRE|66190|M|22.07,49.20|Z|2023;Ohn'ahran Plains|N|From Merithra.|
