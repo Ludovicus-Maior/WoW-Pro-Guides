@@ -1,3 +1,20 @@
+# Release 2023.05.11.A
+## Bug Fixes
+* Add code to survive in Wrath PTR
+* Control Instance/Combat hiding message spam
+* Hendo:  Can I have an EQUIPPED tag?
+* Hendo: Why does TZ not complete when I am standing in the zone when I log in?
+## Guide Updates
+### Retail
+* Neutral Leveling: Embers of Neltharion
+* Horde Dailies: Argent Tournament
+### WotLK
+* Horde Dailies: Argent Tournament
+* Horde Leveling: Terokkar Forest, Zangarmarsh
+* Neutral: Netherstorm
+### Classic
+* No Classic guides were harmed during this release
+
 
 # Release 2023.05.03.A
 ## Bug Fixes
