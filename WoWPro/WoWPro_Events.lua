@@ -731,6 +731,8 @@ if WoWPro.RETAIL then
 	end)
 end
 
+WoWPro.GroupVersionMismatchOnce = {}
+
 WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	local _, prefix, text, _, sender = event, ...
 	if successfulRequest and prefix == "WoWPro" and _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
@@ -751,7 +753,11 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					WoWPro.GroupSync = true
 					WoWPro:LoadGuideStepsReal()
 				elseif WoWPro.Version ~= gversion then
-					WoWPro:Print("Version mismatch: "..gname.."'s WoWPro is running "..gversion..". You are running "..WoWPro.Version)
+                    if not WoWPro.GroupVersionMismatchOnce[gname] then
+                        WoWPro:Print("Version mismatch: "..gname.."'s WoWPro is running "..gversion..". You are running "..WoWPro.Version)
+                        WoWPro:Print("Do /reload once corrected, if you care about WoWPro Group Sync")
+                        WoWPro.GroupVersionMismatchOnce[gname] = true
+                    end
 				end
 			elseif synctype == "steps" and WoWPro.GroupSync then
 				if (WoWPro.playerGroup[sender] ~= nil) then
