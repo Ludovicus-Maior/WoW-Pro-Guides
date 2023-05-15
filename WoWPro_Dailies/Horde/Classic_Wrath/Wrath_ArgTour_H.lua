@@ -21,13 +21,14 @@ return [[
 ; Can't move to neutral, as different Guide Factions 1124 for alliance, 1124 for horde
 ; ** ^ This is wrong. Alliance is 1094. - Hendo72
 F Argent Tournament Grounds|AVAILABLE|13668|M|71.05,47.89|Z|125|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
+h Sunreaver Pavilion|AVAILABLE|13668|N|For the sake of expedience, set your hearth to here until you are done.\n[color=FF0000]NOTE: [/color]Skip this if you don't wish to.|
+
 ; Setup Quests
 A The Argent Tournament|QID|13668|M|69.66,22.86|N|From Justicar Mariel Trueheart inside the Argent Pavilion.|
 T The Argent Tournament|QID|13668|M|76.27,24.38|N|To Magister Edien Sunhollow in the Sunreaver Pavilion.|
 A Mastery Of Melee|QID|13829|PRE|13668|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 A Mastery Of The Charge|QID|13839|PRE|13668|M|76.31,24.39|N|From Amariel Sunsworn.|
 A Mastery Of The Shield-Breaker|QID|13838|PRE|13668|M|76.24,24.44|N|From Galathia Brightdawn.|
-
 N Horde Lance|ACTIVE|13829^13838^13839|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
 C Mastery Of Melee|QID|13829|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|BUFF|-63428|
 C Mastery Of Melee|QID|13829|QO|2|M|PLAYER|N|Use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]You'll lose your mount after the third one; go get a new one.|T|Melee Target|BUFF|-63428|
@@ -36,28 +37,30 @@ C Mastery Of The Shield-Breaker|QID|13838|QO|2|M|PLAYER|N|Use Shield-Breaker (2)
 C Mastery Of The Charge|QID|13839|QO|1|M|72.67,18.88|N|Ask Rugan Steelbelly to show you how to train with a Charge Target.|CHAT|BUFF|-63428|
 C Mastery Of The Charge|QID|13839|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Target 5 times.\n[color=FF0000]NOTE: [/color]You have to use Shield-Break until it has no shield left.|T|Charge Target|BUFF|-63428|
 N Mount|ACTIVE|13829^13838^13839|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|V|BUFF|63428|
-
 T Mastery Of The Charge|QID|13839|M|76.31,24.39|N|To Amariel Sunsworn.|
 T Mastery Of The Shield-Breaker|QID|13838|M|76.24,24.44|N|To Galathia Brightdawn.|
 T Mastery Of Melee|QID|13829|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-
 A Up To The Challenge|QID|13678|PRE|13829&13839&13839|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 
 ; Black Knight Quest Chain
-
 A The Black Knight of Silverpine?|QID|13634|PRE|13668|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight of Silverpine?|ACTIVE|13634|M|53.1,28.1|Z|Silverpine Forest|N|Get to just past the Forsaken Rear Guard in Silverpine Forest and read the Dusty Journal.|
+F Dalaran|ACTIVE|13634|QO|1|M|72.59,22.61|Z|118|N|Make your way to Dalaran.\n[color=FF0000]NOTE: [/color]You can also fly directly or use your Hearth.|IZ|-Undercity^Silverpine Forest|
+P Undercity|ACTIVE|13634|QO|1|M|55.50,23.81|Z|125|N|Use the Undercity portal in Sunreaver's Sanctuary.|IZ|-Undercity^Silverpine Forest|
+F The Sepulcher|ACTIVE|13634|QO|1|M|63.26,48.54|Z|1458;Undercity|N|Take the flight to The Sepulcher.|IZ|-Undercity^Silverpine Forest|
+C The Black Knight of Silverpine?|ACTIVE|13634|M|53.16,28.10|Z|Silverpine Forest|L|45062|N|The Dusty Journal is located just inside the house at the base of the stairs leading upstairs.|
+R Argent Tournament Grounds|ACTIVE|13634|N|Choose your own path back.|
 T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Seer's Crystal|QID|13641|PRE|13633^13634|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Seer's Crystal|ACTIVE|13641|M|46,42|Z|Crystalsong Forest|N|Kill Unbound Seer's to get the crystal.|
-T The Seer's Crystal|QID|13641|M|69.4,23.0|N|To Crusader Rhydalla.|
+C The Seer's Crystal|ACTIVE|13641|M|46.84,40.38|Z|Crystalsong Forest|L|45064|ITEM|45064|N|Unbound Seer\nThey are found in Forlorn Woods, Crystalsong Forest.|
+R Argent Tournament Grounds|ACTIVE|13641|M|69.66,22.86|N|Return to the Argent Tournament Grounds.|
+T The Seer's Crystal|QID|13641|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Stories Dead Men Tell|ACTIVE|13643|M|79.37,23.09|QO|1|NC|N|Investigate Sir Wendell Balfour's death.|
-C The Stories Dead Men Tell|ACTIVE|13643|M|79.63,23.58|QO|2|NC|N|Investigate Lorien Sunblaze's death.|
-C The Stories Dead Men Tell|ACTIVE|13643|M|79.64,22.85|QO|3|NC|N|Investigate Conall Irongrip's death.|
+C The Stories Dead Men Tell|ACTIVE|13643|M|79.37,23.09|QO|1|N|Investigate Sir Wendell Balfour's grave.|NC|
+C The Stories Dead Men Tell|ACTIVE|13643|M|79.63,23.58|QO|2|N|Investigate Lorien Sunblaze's grave.|NC|
+C The Stories Dead Men Tell|ACTIVE|13643|M|79.64,22.85|QO|3|N|Investigate Conall Irongrip's grave.|NC|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|To Crusader Rhydalla.|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|From Crusader Rhydalla.|
-C There's Something About the Squire|ACTIVE|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|N|Kill Skeletal Woodcutters until you get a Large Femur.|L|45080|
+C There's Something About the Squire|ACTIVE|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters|
 C There's Something About the Squire|ACTIVE|13654|M|38.3,59.4|Z|Crystalsong Forest|N|Sneak behind Maloric and use the Large Femur to bonk him (Put pet on Passive!). His bag will be looted automatically.  Run away!|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|From Crusader Rhydalla.|
