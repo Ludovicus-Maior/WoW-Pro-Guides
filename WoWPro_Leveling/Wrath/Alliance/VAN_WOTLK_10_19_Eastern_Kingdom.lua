@@ -76,7 +76,7 @@ F Stormwind|ACTIVE|147^1787|C|Paladin|R|Human|M|30.60,59.40|Z|Redridge Mountains
 T The Tome of Divinity|QID|1787|C|Paladin|R|Human|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
 T The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall.|
-F Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
+F Sentinel Hill|ACTIVE|246^6285|N|If your hearthstone isn't available or set there, you can always fly.|
 A The Forgotten Heirloom|QID|64|M|56.04,31.24|Z|Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew|QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
