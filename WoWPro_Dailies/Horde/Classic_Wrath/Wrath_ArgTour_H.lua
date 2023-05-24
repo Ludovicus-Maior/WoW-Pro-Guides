@@ -47,9 +47,9 @@ N Daily quests|ACTIVE|13678|AVAILABLE|13673&13674&13675|M|76.27,24.38|N|Magister
 A One of Three|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow, one of three quests.|
 A Learning The Reins|QID|13677|ACTIVE|13678|M|76.24,24.44|N|From Galathia Brightdawn.|
 A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Sunsworn.|
-N Horde Lance|ACTIVE|13677|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
+N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
 C Learning The Reins|QID|13677|N|Mount up and go practice on the fields.|U|46069|BUFF|-63397|
-N Mount|ACTIVE|13677|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]This step will auto-close when you're mounted.|V|BUFF|63397|
+N Mount|ACTIVE|13677|QO|1;2;3|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]This step will auto-close when you're mounted.|V|BUFF|63397|
 ;N Horde Lance|ACTIVE|13676|QO|1|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|EQUIPPED|-46070|
 C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.|
 
