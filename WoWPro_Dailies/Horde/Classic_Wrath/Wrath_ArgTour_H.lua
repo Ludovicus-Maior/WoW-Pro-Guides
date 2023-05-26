@@ -23,7 +23,7 @@ return [[
 F Argent Tournament Grounds|AVAILABLE|13668|M|71.05,47.89|Z|125|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
 h Sunreaver Pavilion|AVAILABLE|13668|N|For the sake of expedience, set your hearth to here until you are done.\n[color=FF0000]NOTE: [/color]Skip this if you don't wish to.|
 
-; Setup Quests
+; Intro Quests
 A The Argent Tournament|QID|13668|M|69.66,22.86|N|From Justicar Mariel Trueheart inside the Argent Pavilion.|
 T The Argent Tournament|QID|13668|M|76.27,24.38|N|To Magister Edien Sunhollow in the Sunreaver Pavilion.|
 A Mastery Of Melee|QID|13829|PRE|13668|M|76.27,24.38|N|From Magister Edien Sunhollow.|
@@ -41,6 +41,34 @@ T Mastery Of The Charge|QID|13839|M|76.31,24.39|N|To Amariel Sunsworn.|
 T Mastery Of The Shield-Breaker|QID|13838|M|76.24,24.44|N|To Galathia Brightdawn.|
 T Mastery Of Melee|QID|13829|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 A Up To The Challenge|QID|13678|PRE|13829&13839&13839|M|76.27,24.38|N|From Magister Edien Sunhollow.|
+
+; Aspirant Quests
+N Daily quests|ACTIVE|13678|AVAILABLE|13673&13674&13675|M|76.27,24.38|N|Magister Edien Sunhollow will offer one of three different daily quests:\nA Blade Fit For A Champion\nA Worthy Weapon\nThe Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A One of Three|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow, one of three quests.|
+A Learning The Reins|QID|13677|ACTIVE|13678|M|76.24,24.44|N|From Galathia Brightdawn.|
+A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Sunsworn.|
+N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
+C Learning The Reins|QID|13677|N|Mount up and go practice on the fields.|U|46069|BUFF|-63397|
+N Mount|ACTIVE|13677|QO|1;2;3|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]This step will auto-close when you're mounted.|V|BUFF|63397|
+;N Horde Lance|ACTIVE|13676|QO|1|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|EQUIPPED|-46070|
+C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.|
+
+C A Blade Fit For A Champion|QID|13673|M|60.4,52.0|Z|Grizzly Hills|L|44981|N|Kiss frogs until you get a princess and ask for the blade.|T|Lake Frog,kiss|U|44986|
+C A Worthy Weapon|ACTIVE|13674|M|68.75,76.38;72.62,73.12;70.56,74.71|CN|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
+C A Worthy Weapon|QID|13674|M|93,26|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword.|U|194213|
+
+C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|T|Lord Everblaze|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
+C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
+
+T Training In The Field|QID|13676|M|76.31,24.39|N|To Amariel Sunsworn.|
+T A Blade Fit For A Champion|QID|13673|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+T A Worthy Weapon|QID|13674|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+T The Edge Of Winter|QID|13675|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+T Learning The Reins|QID|13677|M|76.24,24.44|N|To Galathia Brightdawn.|
+
+; Finishing up being an Aspirant
+C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals, come back another day.|
+T Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
 ; Black Knight Quest Chain
 A The Black Knight of Silverpine?|QID|13634|PRE|13668|M|69.43,23.02|N|From Crusader Rhydalla.|
@@ -60,13 +88,13 @@ C The Stories Dead Men Tell|ACTIVE|13643|M|79.63,23.58|QO|2|N|Investigate Lorien
 C The Stories Dead Men Tell|ACTIVE|13643|M|79.64,22.85|QO|3|N|Investigate Conall Irongrip's grave.|NC|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|To Crusader Rhydalla.|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|From Crusader Rhydalla.|
-C There's Something About the Squire|ACTIVE|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters|
-C There's Something About the Squire|ACTIVE|13654|M|38.3,59.4|Z|Crystalsong Forest|N|Sneak behind Maloric and use the Large Femur to bonk him (Put pet on Passive!). His bag will be looted automatically.  Run away!|U|45080|
+C There's Something About the Squire|ACTIVE|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters in Crystalsong Forest|
+C There's Something About the Squire|ACTIVE|13654|M|38.29,59.45|Z|Crystalsong Forest|L|45082|N|While standing behind Maloric, use the Large Femur to stun him.\nOnce stunned, loot the bag from him and walk away until you break combat (no need to kill him).\n[color=FF0000]NOTE: [/color]Make sure your pet is on Passive!|T|Maloric|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Orders|ACTIVE|13663|M|77.76,21.61|QO|1|U|45083|N|Go to the small camp here, and use the enchanted bridle.|
-C The Black Knight's Orders|ACTIVE|13663|M|54.11,8.63|QO|2|N|Get the Stolen Tournament Invitation.|
-C The Black Knight's Orders|ACTIVE|13663|M|54.07,8.66|QO|3|N|Get the Black Knight's Orders.|
+C The Black Knight's Orders|ACTIVE|13663|M|77.76,21.61|QO|1|N|Go to the small camp here, and use the enchanted bridle.\n[color=FF0000]NOTE: [/color]You'll be transported to your final destination via the scenic route.|U|45083|
+C The Black Knight's Orders|ACTIVE|13663|M|54.07,8.66|L|45121|N|After clearing the camp, enter the building and pick up the Stolen Tournament Invitation.|
+C The Black Knight's Orders|ACTIVE|13663|M|54.11,8.63|L|45122|N|Pick up the Black Knight's Orders.|
 T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Fall|QID|13664|PRE|13663|M|69.43,23.02|N|From Crusader Rhydalla.|
 C The Black Knight's Fall|ACTIVE|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|	; need QOs if any
@@ -78,33 +106,6 @@ T The Black Knight's Curse|QID|14016|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Fate|QID|14017|PRE|14016|M|69.43,23.02|N|From Crusader Rhydalla.|
 K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|T|Doctor Kohler|N|Kill and loot his orders.|
 T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
-
-; Aspirant Quests
-
-A One of Three|QID|13673^13674^13675|ACTIVE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow, one of three quests.|
-A Learning The Reins|QID|13677|ACTIVE|13680|M|76.24,24.44|N|From Galathia Brightdawn.|
-A Training In The Field|QID|13676|ACTIVE|13680|M|76.31,24.39|N|From Amariel Sunsworn.|
-
-C Learning The Reins|QID|13625|N|Mount up and go practice on the fields.|U|46069|
-C Training In The Field|QID|13676|QO|1|M|PLAYER|N|Equip your regular weapon(s) and go kill any Scourge with Icecrown.|
-
-C A Blade Fit For A Champion|QID|13673|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog,kiss|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
-
-C A Worthy Weapon|QID|13674|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|CN|N|Pick flowers along the Ironwall Dam.|
-C A Worthy Weapon|QID|13674|M|93,26|Z|Dragonblight|U|194213|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
-
-C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|T|Lord Everblaze|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
-C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
-
-T Training In The Field|QID|13676|M|76.31,24.39|N|To Amariel Sunsworn.|
-T A Blade Fit For A Champion|QID|13673|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-T A Worthy Weapon|QID|13674|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-T The Edge Of Winter|QID|13675|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-T Learning The Reins|QID|13677|M|76.24,24.44|N|To Galathia Brightdawn.|
-
-; Finishing up being an Aspirant
-C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals, come back another day.|
-T Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
 ; Merge / rework with Horde done to this point, ALL based on Wowhead info.
 ; all the below need changing to Horde.
