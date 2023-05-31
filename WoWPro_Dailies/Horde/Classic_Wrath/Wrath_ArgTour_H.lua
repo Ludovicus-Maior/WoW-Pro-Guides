@@ -44,18 +44,18 @@ A Up To The Challenge|QID|13678|PRE|13829&13839&13839|M|76.27,24.38|N|From Magis
 
 ; Aspirant Quests
 N Daily quests|ACTIVE|13678|AVAILABLE|13673&13674&13675|M|76.27,24.38|N|Magister Edien Sunhollow will offer one of three different daily quests:\nA Blade Fit For A Champion\nA Worthy Weapon\nThe Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A One of Three|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow, one of three quests.|
+A One of Three|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow, one of three quests.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A Learning The Reins|QID|13677|ACTIVE|13678|M|76.24,24.44|N|From Galathia Brightdawn.|
 A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Sunsworn.|
 N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
-C Learning The Reins|QID|13677|N|Mount up and go practice on the fields.|U|46069|BUFF|-63397|
-N Mount|ACTIVE|13677|QO|1;2;3|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]This step will auto-close when you're mounted.|V|BUFF|63397|
-;N Horde Lance|ACTIVE|13676|QO|1|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|EQUIPPED|-46070|
-C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.|
+C Mount|ACTIVE|13677|QO|1;2;3|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount; and you will at least once.|V|BUFF|63397|
+C Learning The Reins|QID|13677|N|Mount up and go practice on the fields.\n[color=FF0000]NOTE: [/color]If you lose your mont, go get another so you can continue.|U|46069|
+C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|EQUIPPED|46070|
+;N Horde Lance|ACTIVE|13676|QO|1|M|PLAYER|N|[color=FF0000]NOTE: [/color]You may not want to use your lance for this quest.|EQUIPPED|-46070| ; ** Doesn't work - Hendo72
 
-C A Blade Fit For A Champion|QID|13673|M|60.4,52.0|Z|Grizzly Hills|L|44981|N|Kiss frogs until you get a princess and ask for the blade.|T|Lake Frog,kiss|U|44986|
+C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.|T|Lake Frog,kiss|U|44986|
 C A Worthy Weapon|ACTIVE|13674|M|68.75,76.38;72.62,73.12;70.56,74.71|CN|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
-C A Worthy Weapon|QID|13674|M|93,26|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword.|U|194213|
+C A Worthy Weapon|QID|13674|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword when it appears.|U|45000|
 
 C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|T|Lord Everblaze|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
 C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
@@ -67,41 +67,41 @@ T The Edge Of Winter|QID|13675|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 T Learning The Reins|QID|13677|M|76.24,24.44|N|To Galathia Brightdawn.|
 
 ; Finishing up being an Aspirant
-C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals, come back another day.|
-T Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+t Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
 ; Black Knight Quest Chain
 A The Black Knight of Silverpine?|QID|13634|PRE|13668|M|69.43,23.02|N|From Crusader Rhydalla.|
 F Dalaran|ACTIVE|13634|QO|1|M|72.59,22.61|Z|118|N|Make your way to Dalaran.\n[color=FF0000]NOTE: [/color]You can also fly directly or use your Hearth.|IZ|-Undercity^Silverpine Forest|
 P Undercity|ACTIVE|13634|QO|1|M|55.50,23.81|Z|125|N|Use the Undercity portal in Sunreaver's Sanctuary.|IZ|-Undercity^Silverpine Forest|
 F The Sepulcher|ACTIVE|13634|QO|1|M|63.26,48.54|Z|1458;Undercity|N|Take the flight to The Sepulcher.|IZ|-Undercity^Silverpine Forest|
-C The Black Knight of Silverpine?|ACTIVE|13634|M|53.16,28.10|Z|Silverpine Forest|L|45062|N|The Dusty Journal is located just inside the house at the base of the stairs leading upstairs.|
+C The Black Knight of Silverpine?|QID|13634|M|53.16,28.10|Z|Silverpine Forest|L|45062|N|The Dusty Journal is located just inside the house at the base of the stairs leading upstairs.|
 R Argent Tournament Grounds|ACTIVE|13634|N|Choose your own path back.|
 T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Seer's Crystal|QID|13641|PRE|13633^13634|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Seer's Crystal|ACTIVE|13641|M|46.84,40.38|Z|Crystalsong Forest|L|45064|ITEM|45064|N|Unbound Seer\nThey are found in Forlorn Woods, Crystalsong Forest.|
+C The Seer's Crystal|QID|13641|M|46.84,40.38|Z|Crystalsong Forest|L|45064|ITEM|45064|N|Unbound Seer\nThey are found in Forlorn Woods, Crystalsong Forest.|
 R Argent Tournament Grounds|ACTIVE|13641|M|69.66,22.86|N|Return to the Argent Tournament Grounds.|
 T The Seer's Crystal|QID|13641|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Stories Dead Men Tell|ACTIVE|13643|M|79.37,23.09|QO|1|N|Investigate Sir Wendell Balfour's grave.|NC|
-C The Stories Dead Men Tell|ACTIVE|13643|M|79.63,23.58|QO|2|N|Investigate Lorien Sunblaze's grave.|NC|
-C The Stories Dead Men Tell|ACTIVE|13643|M|79.64,22.85|QO|3|N|Investigate Conall Irongrip's grave.|NC|
+C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|1|N|Investigate Sir Wendell Balfour's grave.|NC|
+C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|2|N|Investigate Lorien Sunblaze's grave.|NC|
+C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|3|N|Investigate Conall Irongrip's grave.|NC|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|To Crusader Rhydalla.|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|From Crusader Rhydalla.|
-C There's Something About the Squire|ACTIVE|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters in Crystalsong Forest|
-C There's Something About the Squire|ACTIVE|13654|M|38.29,59.45|Z|Crystalsong Forest|L|45082|N|While standing behind Maloric, use the Large Femur to stun him.\nOnce stunned, loot the bag from him and walk away until you break combat (no need to kill him).\n[color=FF0000]NOTE: [/color]Make sure your pet is on Passive!|T|Maloric|U|45080|
+C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters in Crystalsong Forest|
+C There's Something About the Squire|QID|13654|M|38.29,59.45|Z|Crystalsong Forest|L|45082|N|While standing behind Maloric, use the Large Femur to stun him.\nOnce stunned, loot the bag from him and walk away until you break combat (no need to kill him).\n[color=FF0000]NOTE: [/color]Make sure your pet is on Passive!|T|Maloric|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Orders|ACTIVE|13663|M|77.76,21.61|QO|1|N|Go to the small camp here, and use the enchanted bridle.\n[color=FF0000]NOTE: [/color]You'll be transported to your final destination via the scenic route.|U|45083|
-C The Black Knight's Orders|ACTIVE|13663|M|54.07,8.66|L|45121|N|After clearing the camp, enter the building and pick up the Stolen Tournament Invitation.|
-C The Black Knight's Orders|ACTIVE|13663|M|54.11,8.63|L|45122|N|Pick up the Black Knight's Orders.|
+C The Black Knight's Orders|QID|13663|M|77.76,21.61|QO|1|N|Go to the small camp here, and use the enchanted bridle.\n[color=FF0000]NOTE: [/color]You'll be transported to your final destination via the scenic route.|U|45083|
+C The Black Knight's Orders|QID|13663|M|54.07,8.66|L|45121|N|After clearing the camp, enter the building and pick up the Stolen Tournament Invitation.|
+C The Black Knight's Orders|QID|13663|M|54.11,8.63|L|45122|N|Pick up the Black Knight's Orders.|
 T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|To Crusader Rhydalla.|
-A The Black Knight's Fall|QID|13664|PRE|13663|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Fall|ACTIVE|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|	; need QOs if any
-C The Black Knight's Fall|ACTIVE|13664|M|71.36,23.4|QO|1|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|	; need QOs if any
+A The Black Knight's Fall|QID|13664|PRE|13663|AVAILABLE|-13736^-13737^-13738^-13739^-13740|M|69.43,23.02|N|From Crusader Rhydalla.|
+C The Black Knight's Fall|QID|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|	; need QOs if any
+C The Black Knight's Fall|QID|13664|M|71.36,23.4|QO|1|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|	; need QOs if any
 T The Black Knight's Fall|QID|13664|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Curse|QID|14016|PRE|13664|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Curse|ACTIVE|14016|M|79.40,23.20|QO|1|N|Wait for the Cult Saboteur and Cult Assassin to stop talking, then the Cult Assassin will attack you, kill him.|
+C The Black Knight's Curse|QID|14016|M|79.40,23.20|QO|1|N|Wait for the Cult Saboteur and Cult Assassin to stop talking, then the Cult Assassin will attack you, kill him.|
 T The Black Knight's Curse|QID|14016|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Fate|QID|14017|PRE|14016|M|69.43,23.02|N|From Crusader Rhydalla.|
 K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|T|Doctor Kohler|N|Kill and loot his orders.|
@@ -189,10 +189,10 @@ A Tylos gives 1 of 3|QID|14092^14141^14145|REP|The Sunreavers;1124;exalted|M|76.
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
 
-A Battle Before The Citadel|QID|13862|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.96,23.44|N|From Eadric the Pure.|
-A Threat From Above|QID|13809|PRE|13794&14017|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.96,23.44|N|From Eadric the Pure.|
-A Among the Champions|QID|13811|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.93,23.33|N|From Luuri.|
-A Taking Battle To The Enemy|QID|13810|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|M|69.92,23.53|N|From Cellian Daybreak|
+A Battle Before The Citadel|QID|13862|PRE|13794|M|69.96,23.44|N|From Eadric the Pure.|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|
+A Threat From Above|QID|13809|PRE|13794&14017|M|69.96,23.44|N|From Eadric the Pure.|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|
+A Among the Champions|QID|13811|PRE|13794|M|69.93,23.33|N|From Luuri.||C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|
+A Taking Battle To The Enemy|QID|13810|PRE|13794|M|69.92,23.53|N|From Cellian Daybreak|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|
 
 A Threat From Above|QID|13812|PRE|13795&14017|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
 A Battle Before The Citadel|QID|13863|PRE|13795|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
