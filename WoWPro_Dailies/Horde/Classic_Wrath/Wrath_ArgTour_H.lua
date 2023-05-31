@@ -47,11 +47,10 @@ N Daily quests|ACTIVE|13678|AVAILABLE|13673&13674&13675|M|76.27,24.38|N|Magister
 A One of Three|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow, one of three quests.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A Learning The Reins|QID|13677|ACTIVE|13678|M|76.24,24.44|N|From Galathia Brightdawn.|
 A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Sunsworn.|
-N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
-C Mount|ACTIVE|13677|QO|1;2;3|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount; and you will at least once.|V|BUFF|63397|
+N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip your Horde Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
+C Mount|ACTIVE|13677|QO|1;2;3|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount; and you will at least once.|U|46070|V|BUFF|63397|
 C Learning The Reins|QID|13677|N|Mount up and go practice on the fields.\n[color=FF0000]NOTE: [/color]If you lose your mont, go get another so you can continue.|U|46069|
 C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|EQUIPPED|46070|
-;N Horde Lance|ACTIVE|13676|QO|1|M|PLAYER|N|[color=FF0000]NOTE: [/color]You may not want to use your lance for this quest.|EQUIPPED|-46070| ; ** Doesn't work - Hendo72
 
 C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.|T|Lake Frog,kiss|U|44986|
 C A Worthy Weapon|ACTIVE|13674|M|68.75,76.38;72.62,73.12;70.56,74.71|CN|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
@@ -70,103 +69,67 @@ T Learning The Reins|QID|13677|M|76.24,24.44|N|To Galathia Brightdawn.|
 C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 t Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
-; Black Knight Quest Chain
-A The Black Knight of Silverpine?|QID|13634|PRE|13668|M|69.43,23.02|N|From Crusader Rhydalla.|
-F Dalaran|ACTIVE|13634|QO|1|M|72.59,22.61|Z|118|N|Make your way to Dalaran.\n[color=FF0000]NOTE: [/color]You can also fly directly or use your Hearth.|IZ|-Undercity^Silverpine Forest|
-P Undercity|ACTIVE|13634|QO|1|M|55.50,23.81|Z|125|N|Use the Undercity portal in Sunreaver's Sanctuary.|IZ|-Undercity^Silverpine Forest|
-F The Sepulcher|ACTIVE|13634|QO|1|M|63.26,48.54|Z|1458;Undercity|N|Take the flight to The Sepulcher.|IZ|-Undercity^Silverpine Forest|
-C The Black Knight of Silverpine?|QID|13634|M|53.16,28.10|Z|Silverpine Forest|L|45062|N|The Dusty Journal is located just inside the house at the base of the stairs leading upstairs.|
-R Argent Tournament Grounds|ACTIVE|13634|N|Choose your own path back.|
-T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|To Crusader Rhydalla.|
-A The Seer's Crystal|QID|13641|PRE|13633^13634|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Seer's Crystal|QID|13641|M|46.84,40.38|Z|Crystalsong Forest|L|45064|ITEM|45064|N|Unbound Seer\nThey are found in Forlorn Woods, Crystalsong Forest.|
-R Argent Tournament Grounds|ACTIVE|13641|M|69.66,22.86|N|Return to the Argent Tournament Grounds.|
-T The Seer's Crystal|QID|13641|M|69.43,23.02|N|To Crusader Rhydalla.|
-A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|1|N|Investigate Sir Wendell Balfour's grave.|NC|
-C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|2|N|Investigate Lorien Sunblaze's grave.|NC|
-C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|3|N|Investigate Conall Irongrip's grave.|NC|
-T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|To Crusader Rhydalla.|
-A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|From Crusader Rhydalla.|
-C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters in Crystalsong Forest|
-C There's Something About the Squire|QID|13654|M|38.29,59.45|Z|Crystalsong Forest|L|45082|N|While standing behind Maloric, use the Large Femur to stun him.\nOnce stunned, loot the bag from him and walk away until you break combat (no need to kill him).\n[color=FF0000]NOTE: [/color]Make sure your pet is on Passive!|T|Maloric|U|45080|
-T There's Something About the Squire|QID|13654|M|69.43,23.02|N|To Crusader Rhydalla.|
-A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Orders|QID|13663|M|77.76,21.61|QO|1|N|Go to the small camp here, and use the enchanted bridle.\n[color=FF0000]NOTE: [/color]You'll be transported to your final destination via the scenic route.|U|45083|
-C The Black Knight's Orders|QID|13663|M|54.07,8.66|L|45121|N|After clearing the camp, enter the building and pick up the Stolen Tournament Invitation.|
-C The Black Knight's Orders|QID|13663|M|54.11,8.63|L|45122|N|Pick up the Black Knight's Orders.|
-T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|To Crusader Rhydalla.|
-A The Black Knight's Fall|QID|13664|PRE|13663|AVAILABLE|-13736^-13737^-13738^-13739^-13740|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Fall|QID|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|	; need QOs if any
-C The Black Knight's Fall|QID|13664|M|71.36,23.4|QO|1|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|	; need QOs if any
-T The Black Knight's Fall|QID|13664|M|69.43,23.02|N|To Crusader Rhydalla.|
-A The Black Knight's Curse|QID|14016|PRE|13664|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Curse|QID|14016|M|79.40,23.20|QO|1|N|Wait for the Cult Saboteur and Cult Assassin to stop talking, then the Cult Assassin will attack you, kill him.|
-T The Black Knight's Curse|QID|14016|M|69.43,23.02|N|To Crusader Rhydalla.|
-A The Black Knight's Fate|QID|14017|PRE|14016|M|69.43,23.02|N|From Crusader Rhydalla.|
-K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|T|Doctor Kohler|N|Kill and loot his orders.|
-T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
+A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
+C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking up on your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep up your shields with Defend.|BUFF|-63397|
+C Mount|ACTIVE|13680|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46070|V|BUFF|63397|
+T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 
 ; Merge / rework with Horde done to this point, ALL based on Wowhead info.
 ; all the below need changing to Horde.
 
-A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|Mount up and stack up on your shields BEFORE talking to the Squire.  Favor charging your opponent.|U|46069|
-T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-
 ; These kick off the race specific initial quests.
-A A Valiant Of Silvermoon|QID|13696|PRE|13680|R|Blood Elf|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-T A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.40,23.90|N|To Eressea Dawnsinger.|
-A A Valiant Of Thunder Bluff|QID|13694|PRE|13680|R|Tauren|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-T A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.40,24.55|N|To Runok Wildmane.|
-A A Valiant Of Orgrimmar|QID|13691|PRE|13680|R|Orc|M|76.27,24.38|N|From Magister Edien Sunhollow.|
+A A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Orc|
 T A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-A A Valiant Of Undercity|QID|13695|PRE|13680|R|Undead|M|76.27,24.38|N|From Magister Edien Sunhollow.|
+A A Valiant Of Sen'jin|QID|13693|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Troll|
+T A Valiant Of Sen'jin|QID|13693|PRE|13680|M|75.95,24.53|N|To Zul'tore.|
+A A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Tauren|
+T A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.40,24.55|N|To Runok Wildmane.|
+A A Valiant Of Undercity|QID|13695|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Undead|
 T A Valiant Of Undercity|QID|13695|PRE|13680|M|76.50,24.20|N|To Deathstalker Visceri.|
-A A Valiant Of Sen'jin|QID|13693|PRE|13680|R|Troll|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-T A Valiant Of Sen'jin|QID|13693|PRE|13680|M|76.00,24.45|N|To Zul'tore.|
+A A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Blood Elf|
+T A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.40,23.90|N|To Eressea Dawnsinger.|
 
-; Champion level kick-offs
+; Champion level kick-offs once Champion of their race.
 A Pick Your New Faction|QID|13707^13709^13708^13711^13710|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|
-T Valiant Of Silvermoon|QID|13711|M|76.40,23.90|N|To Eressea Dawnsinger.|
-T Valiant Of Thunder Bluff|QID|13709|M|76.40,24.55|N|To Runok Wildmane.|
 T Valiant Of Orgrimmar|QID|13707|M|76.40,24.50|N|To Mokra the Skullcrusher.|
+T Valiant Of Gnomeregan|QID|13708|M|75.95,24.53|N|To Zul'tore.|
+T Valiant Of Thunder Bluff|QID|13709|M|76.40,24.55|N|To Runok Wildmane.|
 T Valiant Of Undercity|QID|13710|M|76.50,24.20|N|To Deathstalker Visceri.|
-T Valiant Of Gnomeregan|QID|13708|M|76.00,24.45|N|To Zul'tore.|
+T Valiant Of Silvermoon|QID|13711|M|76.40,23.90|N|To Eressea Dawnsinger.|
 
 ; The PRE clause selects allows either the race specific or the generic Valiant of * quest
 A The Valiant's Charge|QID|13697|PRE|13691^13707|M|76.40,24.50|N|From Mokra the Skullcrusher.|
-A The Valiant's Charge|QID|13722|PRE|13696^13711|M|76.40,23.90|N|From Eressea Dawnsinger.|
+A The Valiant's Charge|QID|13719|PRE|13693^13708|M|75.95,24.53|N|From Zul'tore.|
 A The Valiant's Charge|QID|13720|PRE|13694^13709|M|76.40,24.55|N|From Runok Wildmane.|
-A The Valiant's Charge|QID|13719|PRE|13693^13708|M|76.00,24.45|N|From Zul'tore.|
 A The Valiant's Charge|QID|13721|PRE|13695^13710|M|76.50,24.20|N|From Deathstalker Visceri.|
+A The Valiant's Charge|QID|13722|PRE|13696^13711|M|76.40,23.90|N|From Eressea Dawnsinger.|
 
 ; Valiant Quests (Undead Primary)
-A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.50,24.20|N|From Deathstalker Visceri, one of 3.|
+A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.50,24.20|N|From Deathstalker Visceri.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13781|ACTIVE|13721|M|76.50,24.20|N|From Sarah Chalke.|
 A The Grand Melee|QID|13782|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|
 A At The Enemy's Gates|QID|13860|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|
 
 ; Valiant Quests (Orc Primary)
-A One of Three|QID|13763^13762^13764|ACTIVE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|
+A One of Three|QID|13763^13762^13764|ACTIVE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13765|ACTIVE|13697|M|76.50,24.20|N|From Akinos.|
 A The Grand Melee|QID|13767|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|
 A At The Enemy's Gates|QID|13856|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|
 
 ; Valiant Quests (Blood Elf Primary)
-A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|
+A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13786|ACTIVE|13722|M|76.40,23.90|N|From Kethiel Sunlance.|
 A The Grand Melee|QID|13787|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|
 A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|
 
 ; Valiant Quests (Tauren Primary)
-A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.40,24.55|N|From Runok Wildmane, one of 3.|
+A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.40,24.55|N|From Runok Wildmane.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13776|ACTIVE|13720|M|76.40,24.55|N|From Dern Ragetotem.|
 A The Grand Melee|QID|13777|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|
 A At The Enemy's Gates|QID|13858|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|
 
 ; Valiant Quests (Troll Primary)
-A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|76.00,24.20|N|From Zul'tore, one of 3.|
+A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|76.00,24.20|N|From Zul'tore.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13771|ACTIVE|13719|M|76.00,24.20|N|From Shadow Hunter Mezil'Kree.|
 A The Grand Melee|QID|13772|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|
 A At The Enemy's Gates|QID|13857|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|
@@ -314,10 +277,10 @@ T Among the Champions|QID|13811|M|69.93,23.33|N|To Luuri.|
 T Taking Battle To The Enemy|QID|13810|M|69.92,23.53|N|To Cellian Daybreak|
 
 ; Crusader Turnins
-T Deathspeaker Kharos|QID|14105|M|69.96,23.44|CC|N|To High Crusader Adelard|
 T Drottinn Hrothgar|QID|14101|M|69.96,23.44|CC|N|To High Crusader Adelard|
 T Mistcaller Yngvar|QID|14102|M|69.96,23.44|CC|N|To High Crusader Adelard|
 T Ornolf the Scarred|QID|14104|M|69.96,23.44|CC|N|To High Crusader Adelard|
+T Deathspeaker Kharos|QID|14105|M|69.96,23.44|CC|N|To High Crusader Adelard|
 T The Fate of the Fallen|QID|14107|M|69.96,23.44|CC|N|To Crusader Silverdawn|
 T Get Kraken!|QID|14108|M|69.96,23.44|CC|N|To Crusader Silverdawn|
 T Identifying the Remains|QID|14095|M|69.96,23.44|CC|N|To Crusader Silverdawn|
@@ -332,29 +295,29 @@ T Taking Battle To The Enemy|QID|13813|M|73.80,19.45|N|To Zor'be the Bloodletter
 C The Valiant's Charge|QID|13720^13719^13722^13721^13697|L|44987 25|N|You need 25 Valiant's Seals, come back another day. |
 
 T The Valiant's Charge|QID|13697|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-T The Valiant's Charge|QID|13722|M|76.40,23.90|N|To Eressea Dawnsinger.|
+T The Valiant's Charge|QID|13719|M|75.95,24.53|N|To Zul'tore.|
 T The Valiant's Charge|QID|13720|M|76.40,24.55|N|To Runok Wildmane.|
-T The Valiant's Charge|QID|13719|M|76.00,24.45|N|To Zul'tore.|
 T The Valiant's Charge|QID|13721|M|76.50,24.20|N|To Deathstalker Visceri.|
+T The Valiant's Charge|QID|13722|M|76.40,23.90|N|To Eressea Dawnsinger.|
 
-A The Valiant's Challenge|QID|13729|PRE|13721|M|76.50,24.20|N|From Deathstalker Visceri.|
-A The Valiant's Challenge|QID|13728|PRE|13720|M|76.40,24.55|N|From Runok Wildmane.|
 A The Valiant's Challenge|QID|13726|PRE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|
-A The Valiant's Challenge|QID|13727|PRE|13719|M|76.00,24.45|N|From Zul'tore.|
+A The Valiant's Challenge|QID|13727|PRE|13719|M|75.95,24.53|N|From Zul'tore.|
+A The Valiant's Challenge|QID|13728|PRE|13720|M|76.40,24.55|N|From Runok Wildmane.|
+A The Valiant's Challenge|QID|13729|PRE|13721|M|76.50,24.20|N|From Deathstalker Visceri.|
 A The Valiant's Challenge|QID|13731|PRE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|
 
 C The Valiant's Challenge|QID|13726^13728^13727^13731^13729|M|68.60,20.99|N|Mount up, get your shields going and talk to Squire Danny to get things started.|
 
-T The Valiant's Challenge|QID|13729|M|76.50,24.20|N|To Deathstalker Visceri.|
-T The Valiant's Challenge|QID|13728|M|76.40,24.55|N|To Runok Wildmane.|
 T The Valiant's Challenge|QID|13726|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-T The Valiant's Challenge|QID|13727|M|76.00,24.45|N|To Zul'tore.|
+T The Valiant's Challenge|QID|13727|M|75.95,24.53|N|To Zul'tore.|
+T The Valiant's Challenge|QID|13728|M|76.40,24.55|N|To Runok Wildmane.|
+T The Valiant's Challenge|QID|13729|M|76.50,24.20|N|To Deathstalker Visceri.|
 T The Valiant's Challenge|QID|13731|M|76.40,23.90|N|To Eressea Dawnsinger.|
 
-A A Champion Rises|QID|13739|PRE|13729|R|Undead|M|76.50,24.20|N|From Deathstalker Visceri.|
-A A Champion Rises|QID|13738|PRE|13728|R|Tauren|M|76.40,24.55|N|From Runok Wildmane.|
 A A Champion Rises|QID|13736|PRE|13726|R|Orc|M|76.40,24.50|N|From Mokra the Skullcrusher.|
-A A Champion Rises|QID|13737|PRE|13727|R|Troll|M|76.00,24.45|N|From Zul'tore.|
+A A Champion Rises|QID|13737|PRE|13727|R|Troll|M|75.95,24.53|N|From Zul'tore.|
+A A Champion Rises|QID|13738|PRE|13728|R|Tauren|M|76.40,24.55|N|From Runok Wildmane.|
+A A Champion Rises|QID|13739|PRE|13729|R|Undead|M|76.50,24.20|N|From Deathstalker Visceri.|
 A A Champion Rises|QID|13740|PRE|13731|R|Blood Elf|M|76.40,23.90|N|From Eressea Dawnsinger.|
 N A Champion Rises|QID|13736^13738^13737^13740^13739|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
 T A Champion Rises|QID|13736^13738^13737^13740^13739|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
@@ -364,5 +327,41 @@ T Eadric the Pure|QID|13794|M|69.96,23.44|N|To Eadric the Pure.|
 A The Scourgebane|QID|13795|PRE|13736^13738^13737^13740^13739^13736^13737^13738^13739^13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
 T The Scourgebane|QID|13795|M|73.80,20.06|N|From Crok Scourgebane.|
 
+; Black Knight Quest Chain
+A The Black Knight of Silverpine?|QID|13634|PRE|13668|M|69.43,23.02|N|From Crusader Rhydalla.|
+F Dalaran|ACTIVE|13634|QO|1|M|72.59,22.61|Z|118|N|Make your way to Dalaran.\n[color=FF0000]NOTE: [/color]You can also fly directly or use your Hearth.|IZ|-Undercity^Silverpine Forest|
+P Undercity|ACTIVE|13634|QO|1|M|55.50,23.81|Z|125|N|Use the Undercity portal in Sunreaver's Sanctuary.|IZ|-Undercity^Silverpine Forest|
+F The Sepulcher|ACTIVE|13634|QO|1|M|63.26,48.54|Z|1458;Undercity|N|Take the flight to The Sepulcher.|IZ|-Undercity^Silverpine Forest|
+C The Black Knight of Silverpine?|QID|13634|M|53.16,28.10|Z|Silverpine Forest|L|45062|N|The Dusty Journal is located just inside the house at the base of the stairs leading upstairs.|
+R Argent Tournament Grounds|ACTIVE|13634|N|Choose your own path back.|
+T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|To Crusader Rhydalla.|
+A The Seer's Crystal|QID|13641|PRE|13633^13634|M|69.43,23.02|N|From Crusader Rhydalla.|
+C The Seer's Crystal|QID|13641|M|46.84,40.38|Z|Crystalsong Forest|L|45064|ITEM|45064|N|Unbound Seer\nThey are found in Forlorn Woods, Crystalsong Forest.|
+R Argent Tournament Grounds|ACTIVE|13641|M|69.66,22.86|N|Return to the Argent Tournament Grounds.|
+T The Seer's Crystal|QID|13641|M|69.43,23.02|N|To Crusader Rhydalla.|
+A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|From Crusader Rhydalla.|
+C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|1|N|Investigate Sir Wendell Balfour's grave.|NC|
+C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|2|N|Investigate Lorien Sunblaze's grave.|NC|
+C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|3|N|Investigate Conall Irongrip's grave.|NC|
+T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|To Crusader Rhydalla.|
+A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|From Crusader Rhydalla.|
+C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters in Crystalsong Forest|
+C There's Something About the Squire|QID|13654|M|38.29,59.45|Z|Crystalsong Forest|L|45082|N|While standing behind Maloric, use the Large Femur to stun him.\nOnce stunned, loot the bag from him and walk away until you break combat (no need to kill him).\n[color=FF0000]NOTE: [/color]Make sure your pet is on Passive!|T|Maloric|U|45080|
+T There's Something About the Squire|QID|13654|M|69.43,23.02|N|To Crusader Rhydalla.|
+A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|From Crusader Rhydalla.|
+C The Black Knight's Orders|QID|13663|M|77.76,21.61|QO|1|N|Go to the small camp here, and use the enchanted bridle.\n[color=FF0000]NOTE: [/color]You'll be transported to your final destination via the scenic route.|U|45083|
+C The Black Knight's Orders|QID|13663|M|54.07,8.66|L|45121|N|After clearing the camp, enter the building and pick up the Stolen Tournament Invitation.|
+C The Black Knight's Orders|QID|13663|M|54.11,8.63|L|45122|N|Pick up the Black Knight's Orders.|
+T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|To Crusader Rhydalla.|
+A The Black Knight's Fall|QID|13664|PRE|13663|AVAILABLE|-13736^-13737^-13738^-13739^-13740|M|69.43,23.02|N|From Crusader Rhydalla.|
+C The Black Knight's Fall|QID|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|	; need QOs if any
+C The Black Knight's Fall|QID|13664|M|71.36,23.4|QO|1|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|	; need QOs if any
+T The Black Knight's Fall|QID|13664|M|69.43,23.02|N|To Crusader Rhydalla.|
+A The Black Knight's Curse|QID|14016|PRE|13664|M|69.43,23.02|N|From Crusader Rhydalla.|
+C The Black Knight's Curse|QID|14016|M|79.40,23.20|QO|1|N|Wait for the Cult Saboteur and Cult Assassin to stop talking, then the Cult Assassin will attack you, kill him.|
+T The Black Knight's Curse|QID|14016|M|69.43,23.02|N|To Crusader Rhydalla.|
+A The Black Knight's Fate|QID|14017|PRE|14016|M|69.43,23.02|N|From Crusader Rhydalla.|
+K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|T|Doctor Kohler|N|Kill and loot his orders.|
+T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
 ]]
 end)
