@@ -44,7 +44,7 @@ A Up To The Challenge|QID|13678|PRE|13829&13839&13839|M|76.27,24.38|N|From Magis
 
 ; Aspirant Quests
 N Daily quests|ACTIVE|13678|AVAILABLE|13673&13674&13675|M|76.27,24.38|N|Magister Edien Sunhollow will offer one of three different daily quests:\nA Blade Fit For A Champion\nA Worthy Weapon\nThe Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A One of Three|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow, one of three quests.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three quests|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A Learning The Reins|QID|13677|ACTIVE|13678|M|76.24,24.44|N|From Galathia Brightdawn.|
 A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Sunsworn.|
 N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip your Horde Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
@@ -56,7 +56,7 @@ C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|A
 C A Worthy Weapon|ACTIVE|13674|M|68.75,76.38;72.62,73.12;70.56,74.71|CN|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
 C A Worthy Weapon|QID|13674|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword when it appears.|U|45000|
 
-C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|T|Lord Everblaze|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
+C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
 C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
 
 T Training In The Field|QID|13676|M|76.31,24.39|N|To Amariel Sunsworn.|
@@ -79,60 +79,60 @@ T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edi
 
 ; These kick off the race specific initial quests.
 A A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Orc|
-T A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.40,24.50|N|To Mokra the Skullcrusher.|
+T A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.47,24.60|N|To Mokra the Skullcrusher.|
 A A Valiant Of Sen'jin|QID|13693|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Troll|
 T A Valiant Of Sen'jin|QID|13693|PRE|13680|M|75.95,24.53|N|To Zul'tore.|
 A A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Tauren|
-T A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.40,24.55|N|To Runok Wildmane.|
+T A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.20,24.63|N|To Runok Wildmane.|
 A A Valiant Of Undercity|QID|13695|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Undead|
-T A Valiant Of Undercity|QID|13695|PRE|13680|M|76.50,24.20|N|To Deathstalker Visceri.|
+T A Valiant Of Undercity|QID|13695|PRE|13680|M|76.53,24.21|N|To Deathstalker Visceri.|
 A A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Blood Elf|
-T A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.40,23.90|N|To Eressea Dawnsinger.|
+T A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.45,23.85|N|To Eressea Dawnsinger.|
 
 ; Champion level kick-offs once Champion of their race.
 A Pick Your New Faction|QID|13707^13709^13708^13711^13710|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|
-T Valiant Of Orgrimmar|QID|13707|M|76.40,24.50|N|To Mokra the Skullcrusher.|
+T Valiant Of Orgrimmar|QID|13707|M|76.47,24.60|N|To Mokra the Skullcrusher.|
 T Valiant Of Gnomeregan|QID|13708|M|75.95,24.53|N|To Zul'tore.|
-T Valiant Of Thunder Bluff|QID|13709|M|76.40,24.55|N|To Runok Wildmane.|
-T Valiant Of Undercity|QID|13710|M|76.50,24.20|N|To Deathstalker Visceri.|
-T Valiant Of Silvermoon|QID|13711|M|76.40,23.90|N|To Eressea Dawnsinger.|
+T Valiant Of Thunder Bluff|QID|13709|M|76.20,24.63|N|To Runok Wildmane.|
+T Valiant Of Undercity|QID|13710|M|76.53,24.21|N|To Deathstalker Visceri.|
+T Valiant Of Silvermoon|QID|13711|M|76.45,23.85|N|To Eressea Dawnsinger.|
 
 ; The PRE clause selects allows either the race specific or the generic Valiant of * quest
-A The Valiant's Charge|QID|13697|PRE|13691^13707|M|76.40,24.50|N|From Mokra the Skullcrusher.|
+A The Valiant's Charge|QID|13697|PRE|13691^13707|M|76.47,24.60|N|From Mokra the Skullcrusher.|
 A The Valiant's Charge|QID|13719|PRE|13693^13708|M|75.95,24.53|N|From Zul'tore.|
-A The Valiant's Charge|QID|13720|PRE|13694^13709|M|76.40,24.55|N|From Runok Wildmane.|
-A The Valiant's Charge|QID|13721|PRE|13695^13710|M|76.50,24.20|N|From Deathstalker Visceri.|
-A The Valiant's Charge|QID|13722|PRE|13696^13711|M|76.40,23.90|N|From Eressea Dawnsinger.|
-
-; Valiant Quests (Undead Primary)
-A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.50,24.20|N|From Deathstalker Visceri.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13781|ACTIVE|13721|M|76.50,24.20|N|From Sarah Chalke.|
-A The Grand Melee|QID|13782|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|
-A At The Enemy's Gates|QID|13860|ACTIVE|13721|M|76.50,24.20|N|From Handler Dretch.|
+A The Valiant's Charge|QID|13720|PRE|13694^13709|M|76.20,24.63|N|From Runok Wildmane.|
+A The Valiant's Charge|QID|13721|PRE|13695^13710|M|76.53,24.21|N|From Deathstalker Visceri.|
+A The Valiant's Charge|QID|13722|PRE|13696^13711|M|76.45,23.85|N|From Eressea Dawnsinger.|
 
 ; Valiant Quests (Orc Primary)
-A One of Three|QID|13763^13762^13764|ACTIVE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13765|ACTIVE|13697|M|76.50,24.20|N|From Akinos.|
-A The Grand Melee|QID|13767|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|
-A At The Enemy's Gates|QID|13856|ACTIVE|13697|M|76.50,24.20|N|From Morah Worgsister.|
-
-; Valiant Quests (Blood Elf Primary)
-A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13786|ACTIVE|13722|M|76.40,23.90|N|From Kethiel Sunlance.|
-A The Grand Melee|QID|13787|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|
-A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.40,23.90|N|From Aneera Thuron.|
-
-; Valiant Quests (Tauren Primary)
-A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.40,24.55|N|From Runok Wildmane.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13776|ACTIVE|13720|M|76.40,24.55|N|From Dern Ragetotem.|
-A The Grand Melee|QID|13777|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|
-A At The Enemy's Gates|QID|13858|ACTIVE|13720|M|76.40,24.55|N|From Anka Clawhoof.|
+A One of Three|QID|13763^13762^13764|ACTIVE|13697|M|76.47,24.60|N|From Mokra the Skullcrusher.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13765|ACTIVE|13697|M|76.50,24.48|N|From Akinos.|
+A The Grand Melee|QID|13767|ACTIVE|13697|M|76.40,24.59|N|From Morah Worgsister.|
+A At The Enemy's Gates|QID|13856|ACTIVE|13697|M|76.40,24.59|N|From Morah Worgsister.|
 
 ; Valiant Quests (Troll Primary)
-A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|76.00,24.20|N|From Zul'tore.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13771|ACTIVE|13719|M|76.00,24.20|N|From Shadow Hunter Mezil'Kree.|
-A The Grand Melee|QID|13772|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|
-A At The Enemy's Gates|QID|13857|ACTIVE|13719|M|76.00,24.20|N|From Gahju.|
+A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|75.95,24.53|N|From Zul'tore.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13771|ACTIVE|13719|M|76.04,24.59|N|From Shadow Hunter Mezil'Kree.|
+A The Grand Melee|QID|13772|ACTIVE|13719|M|75.93,24.41|N|From Gahju.|
+A At The Enemy's Gates|QID|13857|ACTIVE|13719|M|75.93,24.41|N|From Gahju.|
+
+; Valiant Quests (Tauren Primary)
+A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.20,24.63|N|From Runok Wildmane.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13776|ACTIVE|13720|M|76.26,24.66|N|From Dern Ragetotem.|
+A The Grand Melee|QID|13777|ACTIVE|13720|M|76.14,24.64|N|From Anka Clawhoof.|
+A At The Enemy's Gates|QID|13858|ACTIVE|13720|M|76.14,24.64|N|From Anka Clawhoof.|
+
+; Valiant Quests (Undead Primary)
+A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.53,24.21|N|From Deathstalker Visceri.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13781|ACTIVE|13721|M|76.56,24.11|N|From Sarah Chalke.|
+A The Grand Melee|QID|13782|ACTIVE|13721|M|76.55,24.32|N|From Handler Dretch.|
+A At The Enemy's Gates|QID|13860|ACTIVE|13721|M|76.55,24.32|N|From Handler Dretch.|
+
+; Valiant Quests (Blood Elf Primary)
+A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.45,23.85|N|From Eressea Dawnsinger.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13786|ACTIVE|13722|M|76.41,23.76|N|From Kethiel Sunlance.|
+A The Grand Melee|QID|13787|ACTIVE|13722|M|76.53,23.92|N|From Aneera Thuron.|
+A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.53,23.92|N|From Aneera Thuron.|
 
 ; Quests once you are exalted
 ; Girana gives 2 of 5
@@ -147,7 +147,7 @@ A You've Really Done It This Time, Kul|QID|14142|REP|The Sunreavers;1124;exalted
 ; A Gormok Wants His Snobolds|QID|14141|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
 ; A What Do You Feed a Yeti, Anyway?|QID|14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
 ; A Breakfast Of Champions|QID|14092|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
-A Tylos gives 1 of 3|QID|14092^14141^14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
+A Tylos gives 1 of 3|QID|14092^14141^14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
@@ -167,10 +167,10 @@ A Taking Battle To The Enemy|QID|13813|PRE|13795|C|Death Knight|M|73.80,19.45|N|
 ; A Drottinn Hrothgar|QID|14101|M|69.96,23.44|CC|N|From High Crusader Adelard|
 ; A Mistcaller Yngvar|QID|14102|M|69.96,23.44|CC|N|From High Crusader Adelard|
 ; A Ornolf the Scarred|QID|14104|M|69.96,23.44|CC|N|From High Crusader Adelard|
-A Adelard gives 1 of 4|QID|14105^14104^14102^14101|M|76.10,24.10|N|From High Crusader Adelard|
+A One of four dailies|QID|14105^14104^14102^14101|M|69.47,23.13|N|From High Crusader Adelard.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 ;A The Fate of the Fallen|QID|14107|M|69.96,23.44|CC|N|From Crusader Silverdawn|
 ;A Get Kraken!|QID|14108|M|69.96,23.44|CC|N|From Crusader Silverdawn|
-A Silverdawn gives 1 of 2|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn|
+A Silverdawn gives 1 of 2|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 
 
 ; Generic Completions for Valiants and Champions
@@ -209,54 +209,54 @@ C Taking Battle To The Enemy|QID|13810^13813|M|79.40,23.20;54.50,27.90;72.47,36.
 C At The Enemy's Gates|QID|13860^13856^13859^13858^13857|M|49.00, 71.40|N|Mount up. Run over the footmen, lieutenants have red floating shields. Stay away from the commanders in green shields!|U|46069|
 C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders. |
 
-C A Blade Fit For A Champion|QID|13768^13783^13773^13762^13778|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
-C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|CN|N|Pick flowers along the Ironwall Dam.|
-C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|93,26|Z|Dragonblight|U|45000|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
-C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
-C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|42.19,19.66|Z|Howling Fjord|N|Find the maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
+C A Blade Fit For A Champion|QID|13768^13783^13773^13762^13778|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.|T|Lake Frog,kiss|U|44986|
+C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|68.75,76.38;72.62,73.12;70.56,74.71|CN|L|45000 4|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword when it appears.|U|45000|
+C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
+C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|42.19,19.66|Z|Howling Fjord|L|45003|N|Find the maiden encased in ice and use the Ember on her.|T|Maiden of Winter's Breath Lake|U|45005|
 
-C Gormok Wants His Snobolds|QID|14141|M|44.05,81.68|Z|The Storm Peaks|T|Snowblind Follower|U|46855|N|Snag em!|
-C Breakfast Of Champions|QID|14092|M|42.70,54.40;43.40,56.75;46.20,61.80;40.67,52.56;43.16,60.16;38.58,61.11;38.12,55.58|Z|The Storm Peaks|T|Deep Jormungar|U|46893|CN|N|Find snow mounts and use the drums to get the Jormungar out. Kill and get the eggs.|
+C Gormok Wants His Snobolds|QID|14141|M|44.05,81.68|Z|The Storm Peaks|N|Snag em!|T|Snowblind Follower|U|46855|
+C Breakfast Of Champions|QID|14092|M|42.70,54.40;43.40,56.75;46.20,61.80;40.67,52.56;43.16,60.16;38.58,61.11;38.12,55.58|Z|The Storm Peaks|CN|N|Find snow mounts and use the drums to get the Jormungar out. Kill and get the eggs.|T|Deep Jormungar|U|46893|
 
 ; Undead Valiant Turnins
-T A Valiant's Field Training|QID|13781|M|76.50,24.20|N|From Sarah Chalke.|
-T A Blade Fit For A Champion|QID|13778|M|76.50,24.20|N|From Deathstalker Visceri.|
-T A Worthy Weapon|QID|13779|M|76.50,24.20|N|From Deathstalker Visceri.|
-T The Edge Of Winter|QID|13780|M|76.50,24.20|N|From Deathstalker Visceri.|
-T The Grand Melee|QID|13782|M|76.50,24.20|N|From Handler Dretch.|
-T At The Enemy's Gates|QID|13860|M|76.50,24.20|N|From Handler Dretch.|
+T A Valiant's Field Training|QID|13781|M|76.56,24.11|N|To Sarah Chalke.|
+T A Blade Fit For A Champion|QID|13778|M|76.53,24.21|N|To Deathstalker Visceri.|
+T A Worthy Weapon|QID|13779|M|76.53,24.21|N|To Deathstalker Visceri.|
+T The Edge Of Winter|QID|13780|M|76.53,24.21|N|To Deathstalker Visceri.|
+T The Grand Melee|QID|13782|M|76.55,24.32|N|To Handler Dretch.|
+T At The Enemy's Gates|QID|13860|M|76.55,24.32|N|To Handler Dretch.|
 
 ; Orc Valiant Turnins
-T A Valiant's Field Training|QID|13765|M|76.50,24.20|N|To Akinos.|
-T A Blade Fit For A Champion|QID|13762|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-T A Worthy Weapon|QID|13763|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-T The Edge Of Winter|QID|13764|M|76.40,24.50|N|To Mokra the Skullcrusher.|
-T The Grand Melee|QID|13767|M|76.50,24.20|N|To Morah Worgsister.|
-T At The Enemy's Gates|QID|13856|M|76.50,24.20|N|To Morah Worgsister.|
+T A Valiant's Field Training|QID|13765|M|76.50,24.48|N|To Akinos.|
+T A Blade Fit For A Champion|QID|13762|M|76.47,24.60|N|To Mokra the Skullcrusher.|
+T A Worthy Weapon|QID|13763|M|76.47,24.60|N|To Mokra the Skullcrusher.|
+T The Edge Of Winter|QID|13764|M|76.47,24.60|N|To Mokra the Skullcrusher.|
+T The Grand Melee|QID|13767|M|76.40,24.59|N|To Morah Worgsister.|
+T At The Enemy's Gates|QID|13856|M|76.40,24.59|N|To Morah Worgsister.|
 
 ; Blood Elf Valiant Turnins
-T A Valiant's Field Training|QID|13786|M|76.40,23.90|N|Kethiel Sunlance.|
-T A Blade Fit For A Champion|QID|13783|M|76.40,23.90|N|From Eressea Dawnsinger.|
-T A Worthy Weapon|QID|13784|M|76.40,23.90|N|From Eressea Dawnsinger.|
-T The Edge Of Winter|QID|13785|M|76.40,23.90|N|From Eressea Dawnsinger.|
-T The Grand Melee|QID|13787|M|76.40,23.90|N|From Aneera Thuron.|
-T At The Enemy's Gates|QID|13859|M|76.40,23.90|N|From Aneera Thuron.|
+T A Valiant's Field Training|QID|13786|M|76.41,23.76|N|To Kethiel Sunlance.|
+T A Blade Fit For A Champion|QID|13783|M|76.45,23.85|N|To Eressea Dawnsinger.|
+T A Worthy Weapon|QID|13784|M|76.45,23.85|N|To Eressea Dawnsinger.|
+T The Edge Of Winter|QID|13785|M|76.45,23.85|N|To Eressea Dawnsinger.|
+T The Grand Melee|QID|13787|M|76.53,23.92|N|To Aneera Thuron.|
+T At The Enemy's Gates|QID|13859|M|76.53,23.92|N|To Aneera Thuron.|
 
 ; Tauren Valiant Turnins
-T A Valiant's Field Training|QID|13776|M|76.40,23.90|N|Dern Ragetotem.|
-T A Blade Fit For A Champion|QID|13773|M|76.40,23.90|N|From Runok Wildmane.|
-T A Worthy Weapon|QID|13774|M|76.40,23.90|N|From Runok Wildmane.|
-T The Edge Of Winter|QID|13775|M|76.40,23.90|N|From Runok Wildmane.|
-T The Grand Melee|QID|13777|M|76.40,23.90|N|From Anka Clawhoof.|
-T At The Enemy's Gates|QID|13858|M|76.40,23.90|N|From Anka Clawhoof.|
+T A Valiant's Field Training|QID|13776|M|76.26,24.66|N|To Dern Ragetotem.|
+T A Blade Fit For A Champion|QID|13773|M|76.20,24.63|N|To Runok Wildmane.|
+T A Worthy Weapon|QID|13774|M|76.40,23.90|N|To Runok Wildmane.|
+T The Edge Of Winter|QID|13775|M|76.40,23.90|N|To Runok Wildmane.|
+T The Grand Melee|QID|13777|M|76.14,24.64|N|To Anka Clawhoof.|
+T At The Enemy's Gates|QID|13858|M|76.14,24.64|N|To Anka Clawhoof.|
 
 ; Troll Valiant Turnins
-T A Valiant's Field Training|QID|13771|M|76.40,23.90|N|Shadow Hunter Mezil-kree.|
-T A Blade Fit For A Champion|QID|13768|M|76.40,23.90|N|From Zul'tore.|
-T A Worthy Weapon|QID|13769|M|76.40,23.90|N|From Zul'tore.|
-T The Edge Of Winter|QID|13770|M|76.40,23.90|N|From Zul'tore.|
-T The Grand Melee|QID|13772|M|76.40,23.90|N|From Gahju.|
-T At The Enemy's Gates|QID|13857|M|76.40,23.90|N|From Gahju.|
+T A Valiant's Field Training|QID|13771|M|76.04,24.59|N|To Shadow Hunter Mezil-kree.|
+T A Blade Fit For A Champion|QID|13768|M|75.95,24.53|N|To Zul'tore.|
+T A Worthy Weapon|QID|13769|M|75.95,24.53|N|To Zul'tore.|
+T The Edge Of Winter|QID|13770|M|75.95,24.53|N|To Zul'tore.|
+T The Grand Melee|QID|13772|M|75.93,24.41|N|To Gahju.|
+T At The Enemy's Gates|QID|13857|M|75.93,24.41|N|To Gahju.|
 
 ; Exalted Turnins
 T You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|To Girana the Blooded.|
@@ -266,8 +266,8 @@ T Stop The Aggressors|QID|14140|M|76.10,24.10|N|To Girana the Blooded.|
 T The Light's Mercy|QID|14144|M|76.10,24.10|N|To Girana the Blooded.|
 
 T Gormok Wants His Snobolds|QID|14141|M|76.10,24.10|N|To Tylos Dawnrunner|
-T What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|From Tylos Dawnrunner|
-T Breakfast Of Champions|QID|14092|M|76.10,24.10|N|From Tylos Dawnrunner|
+T What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|To Tylos Dawnrunner|
+T Breakfast Of Champions|QID|14092|M|76.10,24.10|N|To Tylos Dawnrunner|
 
 ; Champion Turnins
 ; Battle plans of Kilvadir ...
@@ -294,31 +294,31 @@ T Taking Battle To The Enemy|QID|13813|M|73.80,19.45|N|To Zor'be the Bloodletter
 ; Finishing up being an Valiant
 C The Valiant's Charge|QID|13720^13719^13722^13721^13697|L|44987 25|N|You need 25 Valiant's Seals, come back another day. |
 
-T The Valiant's Charge|QID|13697|M|76.40,24.50|N|To Mokra the Skullcrusher.|
+T The Valiant's Charge|QID|13697|M|76.47,24.60|N|To Mokra the Skullcrusher.|
 T The Valiant's Charge|QID|13719|M|75.95,24.53|N|To Zul'tore.|
-T The Valiant's Charge|QID|13720|M|76.40,24.55|N|To Runok Wildmane.|
-T The Valiant's Charge|QID|13721|M|76.50,24.20|N|To Deathstalker Visceri.|
-T The Valiant's Charge|QID|13722|M|76.40,23.90|N|To Eressea Dawnsinger.|
+T The Valiant's Charge|QID|13720|M|76.20,24.63|N|To Runok Wildmane.|
+T The Valiant's Charge|QID|13721|M|76.53,24.21|N|To Deathstalker Visceri.|
+T The Valiant's Charge|QID|13722|M|76.45,23.85|N|To Eressea Dawnsinger.|
 
-A The Valiant's Challenge|QID|13726|PRE|13697|M|76.40,24.50|N|From Mokra the Skullcrusher.|
+A The Valiant's Challenge|QID|13726|PRE|13697|M|76.47,24.60|N|From Mokra the Skullcrusher.|
 A The Valiant's Challenge|QID|13727|PRE|13719|M|75.95,24.53|N|From Zul'tore.|
-A The Valiant's Challenge|QID|13728|PRE|13720|M|76.40,24.55|N|From Runok Wildmane.|
-A The Valiant's Challenge|QID|13729|PRE|13721|M|76.50,24.20|N|From Deathstalker Visceri.|
-A The Valiant's Challenge|QID|13731|PRE|13722|M|76.40,23.90|N|From Eressea Dawnsinger.|
+A The Valiant's Challenge|QID|13728|PRE|13720|M|76.20,24.63|N|From Runok Wildmane.|
+A The Valiant's Challenge|QID|13729|PRE|13721|M|76.53,24.21|N|From Deathstalker Visceri.|
+A The Valiant's Challenge|QID|13731|PRE|13722|M|76.45,23.85|N|From Eressea Dawnsinger.|
 
 C The Valiant's Challenge|QID|13726^13728^13727^13731^13729|M|68.60,20.99|N|Mount up, get your shields going and talk to Squire Danny to get things started.|
 
-T The Valiant's Challenge|QID|13726|M|76.40,24.50|N|To Mokra the Skullcrusher.|
+T The Valiant's Challenge|QID|13726|M|76.47,24.60|N|To Mokra the Skullcrusher.|
 T The Valiant's Challenge|QID|13727|M|75.95,24.53|N|To Zul'tore.|
-T The Valiant's Challenge|QID|13728|M|76.40,24.55|N|To Runok Wildmane.|
-T The Valiant's Challenge|QID|13729|M|76.50,24.20|N|To Deathstalker Visceri.|
-T The Valiant's Challenge|QID|13731|M|76.40,23.90|N|To Eressea Dawnsinger.|
+T The Valiant's Challenge|QID|13728|M|76.20,24.63|N|To Runok Wildmane.|
+T The Valiant's Challenge|QID|13729|M|76.53,24.21|N|To Deathstalker Visceri.|
+T The Valiant's Challenge|QID|13731|M|76.45,23.85|N|To Eressea Dawnsinger.|
 
-A A Champion Rises|QID|13736|PRE|13726|R|Orc|M|76.40,24.50|N|From Mokra the Skullcrusher.|
+A A Champion Rises|QID|13736|PRE|13726|R|Orc|M|76.47,24.60|N|From Mokra the Skullcrusher.|
 A A Champion Rises|QID|13737|PRE|13727|R|Troll|M|75.95,24.53|N|From Zul'tore.|
-A A Champion Rises|QID|13738|PRE|13728|R|Tauren|M|76.40,24.55|N|From Runok Wildmane.|
-A A Champion Rises|QID|13739|PRE|13729|R|Undead|M|76.50,24.20|N|From Deathstalker Visceri.|
-A A Champion Rises|QID|13740|PRE|13731|R|Blood Elf|M|76.40,23.90|N|From Eressea Dawnsinger.|
+A A Champion Rises|QID|13738|PRE|13728|R|Tauren|M|76.20,24.63|N|From Runok Wildmane.|
+A A Champion Rises|QID|13739|PRE|13729|R|Undead|M|76.53,24.21|N|From Deathstalker Visceri.|
+A A Champion Rises|QID|13740|PRE|13731|R|Blood Elf|M|76.45,23.85|N|From Eressea Dawnsinger.|
 N A Champion Rises|QID|13736^13738^13737^13740^13739|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
 T A Champion Rises|QID|13736^13738^13737^13740^13739|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
