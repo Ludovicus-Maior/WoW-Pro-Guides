@@ -49,11 +49,11 @@ A Learning The Reins|QID|13677|ACTIVE|13678|M|76.24,24.44|N|From Galathia Bright
 A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Sunsworn.|
 N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip your Horde Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
 C Mount|ACTIVE|13677|QO|1;2;3|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount; and you will at least once.|U|46070|V|BUFF|63397|
-C Learning The Reins|QID|13677|N|Mount up and go practice on the fields.\n[color=FF0000]NOTE: [/color]If you lose your mont, go get another so you can continue.|U|46069|
+C Learning The Reins|QID|13677|N|Mount up and go practice on the fields.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46069|
 C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|EQUIPPED|46070|
 
 C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.|T|Lake Frog,kiss|U|44986|
-C A Worthy Weapon|ACTIVE|13674|M|68.75,76.38;72.62,73.12;70.56,74.71|CN|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
+C A Worthy Weapon|ACTIVE|13674|QO|1|M|71.58,75.40|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
 C A Worthy Weapon|QID|13674|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword when it appears.|U|45000|
 
 C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
@@ -70,7 +70,7 @@ C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Sea
 t Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
 A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking up on your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep up your shields with Defend.|BUFF|-63397|
+C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep up your shields with Defend.|BUFF|-63397|
 C Mount|ACTIVE|13680|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46070|V|BUFF|63397|
 T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 
@@ -89,7 +89,7 @@ T A Valiant Of Undercity|QID|13695|PRE|13680|M|76.53,24.21|N|To Deathstalker Vis
 A A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Blood Elf|
 T A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.45,23.85|N|To Eressea Dawnsinger.|
 
-; Champion level kick-offs once Champion of their race.
+; Champion level kick-offs once Champion of their own race.
 A Pick Your New Faction|QID|13707^13709^13708^13711^13710|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|
 T Valiant Of Orgrimmar|QID|13707|M|76.47,24.60|N|To Mokra the Skullcrusher.|
 T Valiant Of Gnomeregan|QID|13708|M|75.95,24.53|N|To Zul'tore.|
@@ -104,31 +104,29 @@ A The Valiant's Charge|QID|13720|PRE|13694^13709|M|76.20,24.63|N|From Runok Wild
 A The Valiant's Charge|QID|13721|PRE|13695^13710|M|76.53,24.21|N|From Deathstalker Visceri.|
 A The Valiant's Charge|QID|13722|PRE|13696^13711|M|76.45,23.85|N|From Eressea Dawnsinger.|
 
-; Valiant Quests (Orc Primary)
-A One of Three|QID|13763^13762^13764|ACTIVE|13697|M|76.47,24.60|N|From Mokra the Skullcrusher.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+; ** Valiant Quests are the same for each race except for the quest giver and QIDs
+; ** Orc
+A One of Three|QID|13762^13763^13764|ACTIVE|13697|M|76.47,24.60|N|From Mokra the Skullcrusher.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13765|ACTIVE|13697|M|76.50,24.48|N|From Akinos.|
 A The Grand Melee|QID|13767|ACTIVE|13697|M|76.40,24.59|N|From Morah Worgsister.|
 A At The Enemy's Gates|QID|13856|ACTIVE|13697|M|76.40,24.59|N|From Morah Worgsister.|
-
-; Valiant Quests (Troll Primary)
+; ** Troll
 A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|75.95,24.53|N|From Zul'tore.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13771|ACTIVE|13719|M|76.04,24.59|N|From Shadow Hunter Mezil'Kree.|
 A The Grand Melee|QID|13772|ACTIVE|13719|M|75.93,24.41|N|From Gahju.|
 A At The Enemy's Gates|QID|13857|ACTIVE|13719|M|75.93,24.41|N|From Gahju.|
-
-; Valiant Quests (Tauren Primary)
+; ** Tauren
 A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.20,24.63|N|From Runok Wildmane.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13776|ACTIVE|13720|M|76.26,24.66|N|From Dern Ragetotem.|
 A The Grand Melee|QID|13777|ACTIVE|13720|M|76.14,24.64|N|From Anka Clawhoof.|
 A At The Enemy's Gates|QID|13858|ACTIVE|13720|M|76.14,24.64|N|From Anka Clawhoof.|
-
-; Valiant Quests (Undead Primary)
+; ** Undead
 A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.53,24.21|N|From Deathstalker Visceri.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13781|ACTIVE|13721|M|76.56,24.11|N|From Sarah Chalke.|
 A The Grand Melee|QID|13782|ACTIVE|13721|M|76.55,24.32|N|From Handler Dretch.|
 A At The Enemy's Gates|QID|13860|ACTIVE|13721|M|76.55,24.32|N|From Handler Dretch.|
 
-; Valiant Quests (Blood Elf Primary)
+; ** Blood Elf
 A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.45,23.85|N|From Eressea Dawnsinger.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13786|ACTIVE|13722|M|76.41,23.76|N|From Kethiel Sunlance.|
 A The Grand Melee|QID|13787|ACTIVE|13722|M|76.53,23.92|N|From Aneera Thuron.|
@@ -163,19 +161,15 @@ A Among the Champions|QID|13814|PRE|13795|C|Death Knight|M|73.59,20.09|N|From Il
 A Taking Battle To The Enemy|QID|13813|PRE|13795|C|Death Knight|M|73.80,19.45|N|From Zor'be the Bloodletter.|
 
 ; Crusader Quests
-; A Deathspeaker Kharos|QID|14105|M|69.96,23.44|CC|N|From High Crusader Adelard|
-; A Drottinn Hrothgar|QID|14101|M|69.96,23.44|CC|N|From High Crusader Adelard|
-; A Mistcaller Yngvar|QID|14102|M|69.96,23.44|CC|N|From High Crusader Adelard|
-; A Ornolf the Scarred|QID|14104|M|69.96,23.44|CC|N|From High Crusader Adelard|
-A One of four dailies|QID|14105^14104^14102^14101|M|69.47,23.13|N|From High Crusader Adelard.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-;A The Fate of the Fallen|QID|14107|M|69.96,23.44|CC|N|From Crusader Silverdawn|
-;A Get Kraken!|QID|14108|M|69.96,23.44|CC|N|From Crusader Silverdawn|
-A Silverdawn gives 1 of 2|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-
+N Adelard's dailies|AVAILABLE|14101&14102&14104&14105|N|Drottinn Hrothgar\nMistcaller Yngvar\nOrnolf the Scarred\nDeathspeaker Kharos|S!US|ACH|2186|REP|The Sunreavers;1124;exalted|
+A One of four dailies|QID|14101&14102&14104&14105|M|69.47,23.13|N|From High Crusader Adelard.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Sunreavers;1124;exalted|
+N Silverdawn's Dailies|AVAILABLE|14107&14108|N|The Fate of the Fallen\nGet Kraken!|S!US|ACH|2186|REP|The Sunreavers;1124;exalted|
+A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Sunreavers;1124;exalted|
 
 ; Generic Completions for Valiants and Champions
-C The Grand Melee|QID|13782^13767^13787^13772^13777|M|75.28,18.42|N|Mount on your new race specific ride, stack up on your shields, and then talk to an Horde Valiant from behind to start.  Break shield and charge as they move away!|U|46069|
-C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and sheild break and thrust while they are low.|
+N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.55,23.94|N|Go get the mount specific to the race you're representing. They are located just outside the Sunreaver Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46070|BUFF|63398^63402^63429^63432|
+C The Grand Melee|QID|13767^13772^13777^13782^13787|M|75.28,18.42|N|After stacking your shields (Defend), head over to the Alliance Valiant's Ring and talk to any Alliance Valiant to start.\n\n[color=FF0000]NOTE: [/color]If you speak to them from behind, you can break their shields as they move away from you.\nUse the same process as you did with the Aspirant Challenge earlier.|U|46070|
+C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and shield break and thrust while they are low.|
 C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship. Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|
 ; A Identifying the Remains|QID|14095|M|69.80,22.20|CC|N|From Kraken Tooth|
 
@@ -202,15 +196,15 @@ C Threat From Above|QID|13812^13809|M|45.58,32.23;45.22,34.30|CN|N|Defeat Chillm
 
 C The Fate of the Fallen|QID|14107|M|49,40|CC|N|Loot Crystals (small gems) around the area and use the quest item on 6 neutral mobs without chains.|
 
-
-C A Valiant's Field Training|QID|13781^13765^13786^13771^13776|M|39.60,58.20;39.50,52.40;42.20,57.50;47.00,53.50;42.90,54.20;39.98,55.08;46.34,49.91;44.41,52.20;42.17,49.54;44.95,56.00;42.15,45.80|CN|N|Kill Converted Heroes.|
+C A Valiant's Field Training|QID|13781^13765^13786^13771^13776|M|42.00,52.87|N|Equip your regular weapon(s) and go kill Converted Heroes.\n[color=FF0000]NOTE: [/color]If you can handle it, go after the large groups to speed up the process.| ; ** No need for the list of coordinates... one spot should suffice. - Hendo72
 C Taking Battle To The Enemy|QID|13810^13813|M|79.40,23.20;54.50,27.90;72.47,36.65;68.55,63.40;54.70,33.00;61.15,22.75;54.97,45.89;69.47,65.62;62.66,21.02;71.22,38.78;53.30,8.70;67.35,65.10;67.60,37.35;64.68,21.91;54.23,30.30;69.56,36.90;71.85,44.10;52.67,46.15;68.89,39.36;60.70,20.48;56.46,29.15;73.12,41.49;52.07,30.27;52.32,33.79;70.65,40.80;42.90,25.27;75.01,44.00;49.37,32.95|CN|N|Kill members of the Cult of the Damned.|
+N Mount|ACTIVE|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|U|46070|V|BUFF|63606|
+C At The Enemy's Gates|QID|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|N|After stacking your shields, use Shield Break to clear out all the Scouts (gargoyles) near the Lieutenants. Use shield Break and charge the Lieutenant when their shield is down; follow up with Thrust while in range.\n[color=FF0000]NOTE: [/color]Don't let the Lieutenants charge you as they hit harder than the mobs back at the tournament grounds. If they turn to charge, charge them first.\nDon't worry about the footman, they crumble at the slightest touch.|
 
-C At The Enemy's Gates|QID|13860^13856^13859^13858^13857|M|49.00, 71.40|N|Mount up. Run over the footmen, lieutenants have red floating shields. Stay away from the commanders in green shields!|U|46069|
-C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders. |
+C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders.|
 
 C A Blade Fit For A Champion|QID|13768^13783^13773^13762^13778|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.|T|Lake Frog,kiss|U|44986|
-C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|68.75,76.38;72.62,73.12;70.56,74.71|CN|L|45000 4|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13779^13763^13784^13774^13769|QO|1|M|71.58,75.40|L|45000 4|N|Pick flowers along the Ironwall Dam.|
 C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword when it appears.|U|45000|
 C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
 C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|42.19,19.66|Z|Howling Fjord|L|45003|N|Find the maiden encased in ice and use the Ember on her.|T|Maiden of Winter's Breath Lake|U|45005|
@@ -284,7 +278,6 @@ T Deathspeaker Kharos|QID|14105|M|69.96,23.44|CC|N|To High Crusader Adelard|
 T The Fate of the Fallen|QID|14107|M|69.96,23.44|CC|N|To Crusader Silverdawn|
 T Get Kraken!|QID|14108|M|69.96,23.44|CC|N|To Crusader Silverdawn|
 T Identifying the Remains|QID|14095|M|69.96,23.44|CC|N|To Crusader Silverdawn|
-
 
 T Threat From Above|QID|13812|M|73.80,20.06|N|To Crok Scourgebane. Get the Purse.|
 T Battle Before The Citadel|QID|13863|M|73.80,20.06|N|To Crok Scourgebane.|
