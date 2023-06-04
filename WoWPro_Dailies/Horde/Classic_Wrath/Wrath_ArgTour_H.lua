@@ -7,7 +7,7 @@
 local guide = WoWPro:RegisterGuide("Wrath_ArgTour_H",'Dailies', "Icecrown", "Ludovicus", "Horde", 3)
 WoWPro:GuideNickname(guide, "Argent Tournament Horde")
 WoWPro:GuideName(guide,"Argent Tournament Horde")
-WoWPro:GuideLevels(guide ,25,60)
+WoWPro:GuideLevels(guide ,77,80)
 WoWPro.Dailies:GuideFaction(guide,1124) --  "Argent Tournament"
 WoWPro:GuideSteps(guide, function()
 WoWPro:NoCache(guide)
@@ -20,23 +20,23 @@ return [[
 ; Known issues: May not work for all Allied Races
 ; Can't move to neutral, as different Guide Factions 1124 for alliance, 1124 for horde
 ; ** ^ This is wrong. Alliance is 1094. - Hendo72
-F Argent Tournament Grounds|AVAILABLE|13668|M|71.05,47.89|Z|125|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
-h Sunreaver Pavilion|AVAILABLE|13668|N|For the sake of expedience, set your hearth to here until you're done.\n[color=FF0000]NOTE: [/color]Skip this if you don't wish to.|
+F Argent Tournament Grounds|AVAILABLE|13668|M|71.05,47.89|Z|125;Dalaran|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
 
 ; Intro Quests
 A The Argent Tournament|QID|13668|M|69.66,22.86|N|From Justicar Mariel Trueheart inside the Argent Pavilion.|
+h Sunreaver Pavilion|AVAILABLE|13829|M|76.10,23.95|N|For the sake of expedience, set your hearth to here until you're done.\n[color=FF0000]NOTE: [/color]Skip this if you don't wish to.|
 T The Argent Tournament|QID|13668|M|76.27,24.38|N|To Magister Edien Sunhollow in the Sunreaver Pavilion.|
 A Mastery Of Melee|QID|13829|PRE|13668|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 A Mastery Of The Charge|QID|13839|PRE|13668|M|76.31,24.39|N|From Amariel Sunsworn.|
 A Mastery Of The Shield-Breaker|QID|13838|PRE|13668|M|76.24,24.44|N|From Galathia Brightdawn.|
 N Horde Lance|ACTIVE|13829^13838^13839|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
-C Mastery Of Melee|QID|13829|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|BUFF|-63428|
-C Mastery Of Melee|QID|13829|QO|2|M|PLAYER|N|Use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]You'll lose your mount after the third one; go get a new one.|T|Melee Target|BUFF|-63428|
-C Mastery Of The Shield-Breaker|QID|13838|QO|1|M|73.20,19.24|N|Ask Valis Windchaser to show you how to train with a Ranged Target.|CHAT|BUFF|-63428|
-C Mastery Of The Shield-Breaker|QID|13838|QO|2|M|PLAYER|N|Use Shield-Breaker (2) on a Ranged Target 5 times.|T|Ranged Target|BUFF|-63428|
-C Mastery Of The Charge|QID|13839|QO|1|M|72.67,18.88|N|Ask Rugan Steelbelly to show you how to train with a Charge Target.|CHAT|BUFF|-63428|
-C Mastery Of The Charge|QID|13839|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Target 5 times.\n[color=FF0000]NOTE: [/color]You have to use Shield-Break until it has no shield left.|T|Charge Target|BUFF|-63428|
-N Mount|ACTIVE|13829^13838^13839|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|V|BUFF|63428|
+C Mount|ACTIVE|13829^13838^13839|M|75.64,23.66|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount (and you will), it'll be quicker to replace it with the one at the training area.|U|46070|V|BUFF|63397^63428^63607^66358^63401^63431^63434|
+C Mastery Of Melee|QID|13829|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|
+C Mastery Of Melee|QID|13829|QO|2|M|PLAYER|N|Use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]You'll lose your mount after the third one; go get a new one.|T|Melee Target|
+C Mastery Of The Shield-Breaker|QID|13838|QO|1|M|73.20,19.24|N|Ask Valis Windchaser to show you how to train with a Ranged Target.|CHAT|
+C Mastery Of The Shield-Breaker|QID|13838|QO|2|M|PLAYER|N|Use Shield-Breaker (2) on a Ranged Target 5 times.|T|Ranged Target|
+C Mastery Of The Charge|QID|13839|QO|1|M|72.67,18.88|N|Ask Rugan Steelbelly to show you how to train with a Charge Target.|CHAT|
+C Mastery Of The Charge|QID|13839|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Target 5 times.\n[color=FF0000]NOTE: [/color]You have to use Shield-Break until it has no shield left.|T|Charge Target|
 T Mastery Of The Charge|QID|13839|M|76.31,24.39|N|To Amariel Sunsworn.|
 T Mastery Of The Shield-Breaker|QID|13838|M|76.24,24.44|N|To Galathia Brightdawn.|
 T Mastery Of Melee|QID|13829|M|76.27,24.38|N|To Magister Edien Sunhollow.|
@@ -48,11 +48,11 @@ A One of Three quests|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Ma
 A Learning The Reins|QID|13677|ACTIVE|13678|M|76.24,24.44|N|From Galathia Brightdawn.|
 A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Sunsworn.|
 N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip your Horde Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
-C Mount|ACTIVE|13677|QO|1;2;3|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount; and you will at least once.|U|46070|V|BUFF|63397|
-C Learning The Reins|QID|13677|N|Mount up and go practice on the fields.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46069|
+C Mount|ACTIVE|13677|M|75.55,23.94|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount (and you will), it'll be quicker to replace it with the one at the training area.|U|46070|V|BUFF|63397^63428^63607^66358^63401^63431^63434|
+C Learning The Reins|QID|13677|N|Head to the practice area and have at it.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46070|
 C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|EQUIPPED|46070|
 
-C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.|T|Lake Frog,kiss|U|44986|
+C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
 C A Worthy Weapon|ACTIVE|13674|QO|1|M|71.58,75.40|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
 C A Worthy Weapon|QID|13674|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword when it appears.|U|45000|
 
@@ -70,12 +70,9 @@ C Up To The Challenge|QID|13678|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Sea
 t Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
 A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep up your shields with Defend.|BUFF|-63397|
+C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep up your shields with Defend.|
 C Mount|ACTIVE|13680|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46070|V|BUFF|63397|
 T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-
-; Merge / rework with Horde done to this point, ALL based on Wowhead info.
-; all the below need changing to Horde.
 
 ; These kick off the race specific initial quests.
 A A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Orc|
@@ -203,7 +200,7 @@ C At The Enemy's Gates|QID|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|
 
 C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders.|
 
-C A Blade Fit For A Champion|QID|13768^13783^13773^13762^13778|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.|T|Lake Frog,kiss|U|44986|
+C A Blade Fit For A Champion|QID|13768^13783^13773^13762^13778|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
 C A Worthy Weapon|QID|13779^13763^13784^13774^13769|QO|1|M|71.58,75.40|L|45000 4|N|Pick flowers along the Ironwall Dam.|
 C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating bouys and loot the sword when it appears.|U|45000|
 C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
