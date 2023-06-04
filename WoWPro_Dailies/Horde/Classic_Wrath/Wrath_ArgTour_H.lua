@@ -21,7 +21,7 @@ return [[
 ; Can't move to neutral, as different Guide Factions 1124 for alliance, 1124 for horde
 ; ** ^ This is wrong. Alliance is 1094. - Hendo72
 F Argent Tournament Grounds|AVAILABLE|13668|M|71.05,47.89|Z|125|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
-h Sunreaver Pavilion|AVAILABLE|13668|N|For the sake of expedience, set your hearth to here until you are done.\n[color=FF0000]NOTE: [/color]Skip this if you don't wish to.|
+h Sunreaver Pavilion|AVAILABLE|13668|N|For the sake of expedience, set your hearth to here until you're done.\n[color=FF0000]NOTE: [/color]Skip this if you don't wish to.|
 
 ; Intro Quests
 A The Argent Tournament|QID|13668|M|69.66,22.86|N|From Justicar Mariel Trueheart inside the Argent Pavilion.|
@@ -134,31 +134,31 @@ A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.53,23.92|N|From Aneera Thuron
 
 ; Quests once you are exalted
 ; Girana gives 2 of 5
-; A Rescue at Sea|QID|14136|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
-; A A Leg Up|QID|14143|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
-; A Stop The Aggressors|QID|14140|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
-; A The Light's Mercy|QID|14144|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
-A Girana gives 1 of 4|QID|14136^14143^14140^14144|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|
-A You've Really Done It This Time, Kul|QID|14142|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Girana the Blooded.|
+; A Rescue at Sea|QID|14136|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
+; A A Leg Up|QID|14143|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
+; A Stop The Aggressors|QID|14140|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
+; A The Light's Mercy|QID|14144|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
+A Girana gives 1 of 4|QID|14136^14143^14140^14144|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|REP|The Sunreavers;1124;exalted|
+A You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
 
 ; Tylos gives 1 of 3
-; A Gormok Wants His Snobolds|QID|14141|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
-; A What Do You Feed a Yeti, Anyway?|QID|14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
-; A Breakfast Of Champions|QID|14092|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner|
-A Tylos gives 1 of 3|QID|14092^14141^14145|REP|The Sunreavers;1124;exalted|M|76.10,24.10|N|From Tylos Dawnrunner.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+; A Gormok Wants His Snobolds|QID|14141|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Sunreavers;1124;exalted|
+; A What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Sunreavers;1124;exalted|
+; A Breakfast Of Champions|QID|14092|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Sunreavers;1124;exalted|
+A Tylos gives 1 of 3|QID|14092^14141^14145|M|76.10,24.10|N|From Tylos Dawnrunner.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|REP|The Sunreavers;1124;exalted|
 
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
 
-A Battle Before The Citadel|QID|13862|PRE|13794|M|69.96,23.44|N|From Eadric the Pure.|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|
-A Threat From Above|QID|13809|PRE|13794&14017|M|69.96,23.44|N|From Eadric the Pure.|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|
-A Among the Champions|QID|13811|PRE|13794|M|69.93,23.33|N|From Luuri.||C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|
-A Taking Battle To The Enemy|QID|13810|PRE|13794|M|69.92,23.53|N|From Cellian Daybreak|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|
+A Battle Before The Citadel|QID|13862|PRE|13794|M|69.96,23.44|N|From Eadric the Pure.|C|-Death Knight|
+A Threat From Above|QID|13809|PRE|13794&14017|M|69.96,23.44|N|From Eadric the Pure.|C|-Death Knight|
+A Among the Champions|QID|13811|PRE|13794|M|69.93,23.33|N|From Luuri.|C|-Death Knight|
+A Taking Battle To The Enemy|QID|13810|PRE|13794|M|69.92,23.53|N|From Cellian Daybreak|C|-Death Knight|
 
-A Threat From Above|QID|13812|PRE|13795&14017|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
-A Battle Before The Citadel|QID|13863|PRE|13795|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
-A Among the Champions|QID|13814|PRE|13795|C|Death Knight|M|73.59,20.09|N|From Illyrie Nightfall.|
-A Taking Battle To The Enemy|QID|13813|PRE|13795|C|Death Knight|M|73.80,19.45|N|From Zor'be the Bloodletter.|
+A Threat From Above|QID|13812|PRE|13795&14017|M|73.80,20.06|N|From Crok Scourgebane.|C|Death Knight|
+A Battle Before The Citadel|QID|13863|PRE|13795|M|73.80,20.06|N|From Crok Scourgebane.|C|Death Knight|
+A Among the Champions|QID|13814|PRE|13795|M|73.59,20.09|N|From Illyrie Nightfall.|C|Death Knight|
+A Taking Battle To The Enemy|QID|13813|PRE|13795|M|73.80,19.45|N|From Zor'be the Bloodletter.|C|Death Knight|
 
 ; Crusader Quests
 N Adelard's dailies|AVAILABLE|14101&14102&14104&14105|N|Drottinn Hrothgar\nMistcaller Yngvar\nOrnolf the Scarred\nDeathspeaker Kharos|S!US|ACH|2186|REP|The Sunreavers;1124;exalted|
@@ -170,7 +170,7 @@ A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n
 N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.55,23.94|N|Go get the mount specific to the race you're representing. They are located just outside the Sunreaver Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46070|BUFF|63398^63402^63429^63432|
 C The Grand Melee|QID|13767^13772^13777^13782^13787|M|75.28,18.42|N|After stacking your shields (Defend), head over to the Alliance Valiant's Ring and talk to any Alliance Valiant to start.\n\n[color=FF0000]NOTE: [/color]If you speak to them from behind, you can break their shields as they move away from you.\nUse the same process as you did with the Aspirant Challenge earlier.|U|46070|
 C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and shield break and thrust while they are low.|
-C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship. Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|
+C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship.\n[color=FF0000]NOTE: [/color]Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|
 ; A Identifying the Remains|QID|14095|M|69.80,22.20|CC|N|From Kraken Tooth|
 
 C What Do You Feed a Yeti, Anyway?|QID|14145|M|74.35,10.10|N|Go to the Horde Boat and get some chum|L|47036 6|
@@ -309,11 +309,11 @@ T The Valiant's Challenge|QID|13729|M|76.53,24.21|N|To Deathstalker Visceri.|
 T The Valiant's Challenge|QID|13731|M|76.45,23.85|N|To Eressea Dawnsinger.|
 
 N A Champion Rises|ACTIVE|13736^13738^13737^13740^13739|N|At this point, you can become a Valiant for another faction. Choose it by talking to that faction's representative.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A A Champion Rises|QID|13736|PRE|13726|R|Orc|M|76.47,24.60|N|From Mokra the Skullcrusher.|
-A A Champion Rises|QID|13737|PRE|13727|R|Troll|M|75.95,24.53|N|From Zul'tore.|
-A A Champion Rises|QID|13738|PRE|13728|R|Tauren|M|76.20,24.63|N|From Runok Wildmane.|
-A A Champion Rises|QID|13739|PRE|13729|R|Undead|M|76.53,24.21|N|From Deathstalker Visceri.|
-A A Champion Rises|QID|13740|PRE|13731|R|Blood Elf|M|76.45,23.85|N|From Eressea Dawnsinger.|
+A A Champion Rises|QID|13736|PRE|13726|M|76.47,24.60|N|From Mokra the Skullcrusher.|R|Orc|
+A A Champion Rises|QID|13737|PRE|13727|M|75.95,24.53|N|From Zul'tore.|R|Troll|
+A A Champion Rises|QID|13738|PRE|13728|M|76.20,24.63|N|From Runok Wildmane.|R|Tauren|
+A A Champion Rises|QID|13739|PRE|13729|M|76.53,24.21|N|From Deathstalker Visceri.|R|Undead|
+A A Champion Rises|QID|13740|PRE|13731|M|76.45,23.85|N|From Eressea Dawnsinger.|R|Blood Elf|
 T A Champion Rises|QID|13736^13738^13737^13740^13739|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
 A Eadric the Pure|QID|13794|PRE|13736^13737^13738^13739^13740|M|69.66,22.85|N|From Justicar Mariel Trueheart.|C|-Death Knight| ; ** If it's not DKs, then just use not for DKs - Hendo72
