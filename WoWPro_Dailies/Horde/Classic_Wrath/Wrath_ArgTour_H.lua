@@ -285,13 +285,14 @@ T Among the Champions|QID|13814|M|73.59,20.09|N|To Illyrie Nightfall.|
 T Taking Battle To The Enemy|QID|13813|M|73.80,19.45|N|To Zor'be the Bloodletter.|
 
 ; Finishing up being an Valiant
-C The Valiant's Charge|QID|13720^13719^13722^13721^13697|L|44987 25|N|You need 25 Valiant's Seals, come back another day. |
+C The Valiant's Charge|QID|13697^13719^13720^13721^13722|M|PLAYER|L|44987 25|N|You need 25 Valiant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 
-T The Valiant's Charge|QID|13697|M|76.47,24.60|N|To Mokra the Skullcrusher.|
-T The Valiant's Charge|QID|13719|M|75.95,24.53|N|To Zul'tore.|
-T The Valiant's Charge|QID|13720|M|76.20,24.63|N|To Runok Wildmane.|
-T The Valiant's Charge|QID|13721|M|76.53,24.21|N|To Deathstalker Visceri.|
-T The Valiant's Charge|QID|13722|M|76.45,23.85|N|To Eressea Dawnsinger.|
+t The Valiant's Charge|QID|13697|M|76.47,24.60|N|To Mokra the Skullcrusher.|
+t The Valiant's Charge|QID|13719|M|75.95,24.53|N|To Zul'tore.|
+t The Valiant's Charge|QID|13720|M|76.20,24.63|N|To Runok Wildmane.|
+t The Valiant's Charge|QID|13721|M|76.53,24.21|N|To Deathstalker Visceri.|
+t The Valiant's Charge|QID|13722|M|76.45,23.85|N|To Eressea Dawnsinger.|
+N Come back tomorrow|ACTIVE|13697^13719^13720^13721^13722|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
 
 A The Valiant's Challenge|QID|13726|PRE|13697|M|76.47,24.60|N|From Mokra the Skullcrusher.|
 A The Valiant's Challenge|QID|13727|PRE|13719|M|75.95,24.53|N|From Zul'tore.|
@@ -307,18 +308,18 @@ T The Valiant's Challenge|QID|13728|M|76.20,24.63|N|To Runok Wildmane.|
 T The Valiant's Challenge|QID|13729|M|76.53,24.21|N|To Deathstalker Visceri.|
 T The Valiant's Challenge|QID|13731|M|76.45,23.85|N|To Eressea Dawnsinger.|
 
+N A Champion Rises|ACTIVE|13736^13738^13737^13740^13739|N|At this point, you can become a Valiant for another faction. Choose it by talking to that faction's representative.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A A Champion Rises|QID|13736|PRE|13726|R|Orc|M|76.47,24.60|N|From Mokra the Skullcrusher.|
 A A Champion Rises|QID|13737|PRE|13727|R|Troll|M|75.95,24.53|N|From Zul'tore.|
 A A Champion Rises|QID|13738|PRE|13728|R|Tauren|M|76.20,24.63|N|From Runok Wildmane.|
 A A Champion Rises|QID|13739|PRE|13729|R|Undead|M|76.53,24.21|N|From Deathstalker Visceri.|
 A A Champion Rises|QID|13740|PRE|13731|R|Blood Elf|M|76.45,23.85|N|From Eressea Dawnsinger.|
-N A Champion Rises|QID|13736^13738^13737^13740^13739|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
 T A Champion Rises|QID|13736^13738^13737^13740^13739|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
-A Eadric the Pure|QID|13794|PRE|13736^13738^13737^13740^13739^13736^13737^13738^13739^13740|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior,Monk,Demon Hunter|N|From Justicar Mariel Trueheart, everybody but DKs|
+A Eadric the Pure|QID|13794|PRE|13736^13737^13738^13739^13740|M|69.66,22.85|N|From Justicar Mariel Trueheart.|C|-Death Knight| ; ** If it's not DKs, then just use not for DKs - Hendo72
 T Eadric the Pure|QID|13794|M|69.96,23.44|N|To Eadric the Pure.|
-A The Scourgebane|QID|13795|PRE|13736^13738^13737^13740^13739^13736^13737^13738^13739^13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
-T The Scourgebane|QID|13795|M|73.80,20.06|N|From Crok Scourgebane.|
+A The Scourgebane|QID|13795|PRE|13736^13737^13738^13739^13740|M|69.66,22.85|N|From Justicar Mariel Trueheart.|C|Death Knight|
+T The Scourgebane|QID|13795|M|73.80,20.06|N|To Crok Scourgebane.|
 
 ; Black Knight Quest Chain
 A The Black Knight of Silverpine?|QID|13634|PRE|13668|M|69.43,23.02|N|From Crusader Rhydalla.|
