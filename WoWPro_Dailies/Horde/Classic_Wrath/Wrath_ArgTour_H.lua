@@ -69,6 +69,7 @@ T Learning The Reins|QID|13677|M|76.24,24.44|N|To Galathia Brightdawn.|
 ; Finishing up being an Aspirant
 C Up To The Challenge|QID|13678|QO|1|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Icecrown|
 t Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+N Come back tomorrow|ACTIVE|13678|AVAILABLE|-13663|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
 
 A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|
