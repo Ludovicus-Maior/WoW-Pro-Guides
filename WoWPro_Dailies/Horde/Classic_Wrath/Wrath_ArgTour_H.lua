@@ -69,7 +69,6 @@ T Learning The Reins|QID|13677|M|76.24,24.44|N|To Galathia Brightdawn.|
 ; Finishing up being an Aspirant
 C Up To The Challenge|QID|13678|QO|1|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Icecrown|
 t Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-N Come back tomorrow|ACTIVE|13678|AVAILABLE|-13663|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
 
 A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|
@@ -291,7 +290,7 @@ t The Valiant's Charge|QID|13719|M|75.95,24.53|N|To Zul'tore.|
 t The Valiant's Charge|QID|13720|M|76.20,24.63|N|To Runok Wildmane.|
 t The Valiant's Charge|QID|13721|M|76.53,24.21|N|To Deathstalker Visceri.|
 t The Valiant's Charge|QID|13722|M|76.45,23.85|N|To Eressea Dawnsinger.|
-N Come back tomorrow|ACTIVE|13697^13719^13720^13721^13722|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
+
 
 A The Valiant's Challenge|QID|13726|PRE|13697|M|76.47,24.60|N|From Mokra the Skullcrusher.|
 A The Valiant's Challenge|QID|13727|PRE|13719|M|75.95,24.53|N|From Zul'tore.|
@@ -338,7 +337,7 @@ C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|2|N|Investigate Lorien Su
 C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|3|N|Investigate Conall Irongrip's grave.|NC|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|To Crusader Rhydalla.|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|From Crusader Rhydalla.|
-C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters in Crystalsong Forest|
+C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters in Crystalsong Forest|T|Skeletal Woodcutter|
 C There's Something About the Squire|QID|13654|M|38.29,59.45|Z|Crystalsong Forest|L|45082|N|While standing behind Maloric, use the Large Femur to stun him.\nOnce stunned, loot the bag from him and walk away until you break combat (no need to kill him).\n[color=FF0000]NOTE: [/color]Make sure your pet is on Passive!|T|Maloric|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|From Crusader Rhydalla.|
@@ -356,5 +355,9 @@ T The Black Knight's Curse|QID|14016|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Fate|QID|14017|PRE|14016|M|69.43,23.02|N|From Crusader Rhydalla.|
 K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|T|Doctor Kohler|N|Kill and loot his orders.|
 T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
+
+N Come back tomorrow|ACTIVE|13678|AVAILABLE|-13663|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
+
+N Come back tomorrow|ACTIVE|13697^13719^13720^13721^13722|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
 ]]
 end)
