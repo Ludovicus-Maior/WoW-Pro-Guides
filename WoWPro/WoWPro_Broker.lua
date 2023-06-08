@@ -237,13 +237,13 @@ function WoWPro:SetQIDsInTable(QIDs,tabla, debug, why)
     return value
 end
 
-function WoWPro.QuestAvailible(QIDs, debug, why)
+function WoWPro.QuestAvailable(QIDs, debug, why)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro.QuestAvailible(%s)",tostring(QIDs))
+        WoWPro:dbp("WoWPro.QuestAvailable(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid, true)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid, true)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailable", debug or quids_debug)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro.QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
+        WoWPro:dbp("WoWPro.QuestAvailable(%s) return %s",tostring(QIDs),tostring(value))
     end
     return value
 end
@@ -1797,7 +1797,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Availible quests: not complete  --
             if WoWPro.available[guideIndex] then
-                if not WoWPro:QIDsUsingPredicate(WoWPro.available[guideIndex], WoWPro.QuestAvailible) then
+                if not WoWPro.QuestAvailable(WoWPro.available[guideIndex], false, "AVAILABLE") then
                     skip = true
                     WoWPro.CompleteStep(guideIndex,"NextStep(): Skipping step, available quest is currently complete or active")
                     break
