@@ -3,7 +3,6 @@ WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide,"Dragonflight Speed Leveling")
 WoWPro:GuideLevels(guide,60, 70, 60)
 WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
-WoWPro:GuideQuestTriggers(guide, 65435, 65436, 70197, 70198)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -22,27 +21,28 @@ N CREDIT: |N|AesVersatile (video guide & Reddit writeup) lenpup (WoWPro Guide Ad
 
 N NOTE:|N|Always do bonus objectives/fast WQ's if you're already in the area, they are the most XP efficient. Open treasures if they have a "wheel" cursor rather than a "hand.".|
 N Work in Progress|N|Horde should SKIP THE FIRST THREE STEPS OF THIS GUIDE to synch up. Currently showing both sets of quest givers for the first 3 quests, which are written for Alliance.|
-A Primal Pests|QID|70123|M|82.15,31.81|Z|2022;The Waking Shores|N|From Scalecommander Azurathel.HORDE SKIP|
-A Explorers in Peril|QID|70122|M|82.14,31.88|Z|2022;The Waking Shores|N|From Toddy Whiskers. HORDE SKIP|
-A Practice Materials|QID|70124|M|82.10,31.91|Z|2022;The Waking Shores|N|From Thaelin Darkanvil. HORDE SKIP|
-A Primal Pests|QID|65453|M|80.64,27.65|Z|2022;The Waking Shores|N|From Scalecommander Cindrethresh.|
-A Explorers in Peril|QID|65452|M|80.64,27.65|Z|2022;The Waking Shores|N|From Naleidea Rivergleam.|
-A Practice Materials|QID|65451|M|80.64,27.65|Z|2022;The Waking Shores|N|From Boss Magor.|
-C Primal Pests|QID|70123|M|79.54,34.86|Z|2022;The Waking Shores|S|N|Primal Proto-drakes slain.|
-C Practice Materials|QID|70124|M|82.60,35.60|Z|2022;The Waking Shores|S|N|Primal Proto-Whelp Scale.|
-C Explorers in Peril|QID|70122|M|83.52,33.61|Z|2022;The Waking Shores|QO|1|NC|N|Professor Cogcatcher rescued.|
-C Explorers in Peril|QID|70122|M|83.01,36.18|Z|2022;The Waking Shores|QO|2|NC|N|Archivist Rellid rescued.|
-A Primal Scythid Queen|QID|66074|M|82.12,36.88|Z|2022;The Waking Shores|N|From Primal Scythid.|
-C Primal Scythid Queen|QID|66074|M|81.56,37.57|Z|2022;The Waking Shores|QO|1|N|Primal Scythid Queen slain.|
-T Primal Scythid Queen|QID|66074|M|81.56,37.57|Z|2022;The Waking Shores|
-C Explorers in Peril|QID|70122|M|79.55,35.39|Z|2022;The Waking Shores|QO|3|NC|N|Spelunker Lockeye rescued.|
-A Ancient Hornswog|QID|66076|PRE|66074|M|78.14,23.17|Z|2022;The Waking Shores|
-C Ancient Hornswog|QID|66076|M|77.66,22.45|Z|2022;The Waking Shores|QO|1|N|Ancient Hornswog slain.|
-C Primal Pests|QID|70123|M|79.54,34.86|Z|2022;The Waking Shores|QO|1|N|Primal Proto-drakes slain.|
-C Practice Materials|QID|70124|M|82.60,35.60|Z|2022;The Waking Shores|QO|1|NC|N|Primal Proto-Whelp Scale.|
-T Explorers in Peril|QID|70122|M|76.64,33.60|Z|2022;The Waking Shores|N|To Toddy Whiskers.|
-T Practice Materials|QID|70124|M|76.50,34.38|Z|2022;The Waking Shores|N|To Thaelin Darkanvil.|
-T Primal Pests|QID|70123|M|76.71,34.45|Z|2022;The Waking Shores|N|To Scalecommander Azurathel.|
+A Explorers in Peril|QID|70122|PRE|67700|M|82.13,31.90|Z|2022; The Waking Shores|N|From Toddy Whiskers.|FACTION|Alliance|
+A Explorers in Peril|QID|65452|PRE|65444|M|80.62,27.61|Z|2022; The Waking Shores|N|From Naleidea Rivergleam.|FACTION|Horde|
+A Primal Pests|QID|70123|PRE|67700|M|82.16,31.86|Z|2022; The Waking Shores|N|From Scalecommander Azurathel.|FACTION|Alliance|
+A Primal Pests|QID|65453|PRE|65444|M|80.65,27.59|Z|2022; The Waking Shores|N|From Scalecommander Cinderthresh.|FACTION|Horde|
+A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022; The Waking Shores|N|From Thaelin Darkanvil.|FACTION|Alliance|
+A Practice Materials|QID|65451|PRE|65444|M|80.60,27.65|Z|2022; The Waking Shores|N|From Boss Magor.|FACTION|Horde|
+;l Dragon Isles Supply Bag|AVAILABLE|72708|L|202081|N|Kill Proto Drakes till the item drops.|S!US|RANK|2|IZ|13722|--doesn't always drop maybe only for first char? leaving turn in step, but not telling people to keep killing till they get the drop.
+A Dragon Isles Supplies|QID|72708|M|PLAYER|N|Use the Dragon Isles Supply Bag from your inventroy.|O|U|202081|RANK|2|
+C Practice Materials|QID|70124^65451|M|79.40,32.88|Z|2022; The Waking Shores|N|Kill the Proto-Whelp and collect their scales.|S|
+C Primal Pests|QID|70123^65453|M|83.59,36.12|Z|2022; The Waking Shores|N|Slay Primal Proto-drakes.|S|
+C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022; The Waking Shores|QO|3|H|N|Spelunker Lockeye is suspended above some lava enter the area on the left side.|T|Spelunker Lockeye|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|77.31,29.96|Z|2022; The Waking Shores|QO|3|H|N|Spelunker Lazee is suspended over lava enter the area on the Right side.|T|Spelunker Lazee|FACTION|Horde|
+K Primal Scythid Queen|ACTIVE|66074|QO|1|M|81.36,37.58|Z|2022; The Waking Shores|N|Slay Primal Scythid Queen.|T|Primal Scythid Queen|RARE|
+C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022; The Waking Shores|QO|2|H|N|Click on Archivist Rellid who is being carried around by low flying drakes.|T|Archivist Rellid||FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|78.75,24.31|Z|2022; The Waking Shores|QO|2|H|N|Click Archivist Spearblossom who is being carried around by low flying drakes.|T|Archivist Spearblossom|FACTION|Horde|
+K Ancient Hornswog|ACTIVE|66076|QO|1|M|77.67,22.41|Z|2022; The Waking Shores|N|Slay Ancient Hornswog.|T|Ancient Hornswog|RARE|
+C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022; The Waking Shores|QO|1|H|N|Professor Cogcatcher is trapped under some bones.|T|Professor Cogcatcher|FACTION|Alliance|
+C Explorers in Peril|QID|65452|M|80.30,26.31|Z|2022; The Waking Shores|QO|1|H|N|Pathfinder Poppy is trapped under some bones.|T|Pathfinder Poppy|FACTION|Horde|
+C Primal Pests|QID|70123^65453|M|77.96,29.80|Z|2022; The Waking Shores|N|Finish slaying the remaining Primal Proto-drakes.|US|
+C Practice Materials|QID|70124^65451|M|77.96,29.80|Z|2022; The Waking Shores|N|Continue killing Primal Proto-Whelp until you have enough scales.|US|
+T Explorers in Peril|QID|70122|M|76.62,33.63|Z|2022; The Waking Shores|N|To Toddy Whiskers.|FACTION|Alliance|
+T Explorers in Peril|QID|65452|M|76.61,33.59|Z|2022; The Waking Shores|N|To Naleidea Rivergleam.|FACTION|Horde|
 N Wyrmrest Embassy|N|Grab your dragonflight tradeskills.***If you haven't already, assign your glyph points (click the Dragonflight icon on the minimap, then the button on the left.|
 f Wingrest Embassy|QID|70125|M|76.04,35.04|Z|2022;The Waking Shores|N|At Tixxa Mixxa.|
 
@@ -85,7 +85,7 @@ A Eyes and Ears|QID|66166|M|59.17,35.16|Z|2112;Valdrakken|N|From Captain Drine.|
 C Nowhere to Hide|QID|66163|M|59.32,35.73|Z|2112;Valdrakken|QO|1|NC|U|198859|N|Revealing Dragon's Eye used.|
 C Nowhere to Hide|QID|66163|M|48.48,54.27|Z|2112;Valdrakken|QO|2|U|198859|S|N|Speak to the glowing orange NPCs to reveal them.|
 C Eyes and Ears|QID|66166|M|47.06,47.88|Z|2112;The Roasted Ram|QO|3|NC|N|Click the cup.|
-h The Roasted Ram Inn|M|47.43,46.64|Z|2112;The Roasted Ram|N|Set hearth in Valdrakken At Tithris.|
+h The Roasted Ram Inn|ACTIVE|66166|M|47.43,46.64|Z|2112;The Roasted Ram|N|Set hearth in Valdrakken At Tithris.|
 A Aiding the Accord|QID|70750|M|50.26,56.03|Z|2112;Valdrakken|N|From Therazal.|
 C Eyes and Ears|QID|66166|M|59.13,54.86|Z|2112;Valdrakken|QO|2|NC|N|Click the chest.|
 C Eyes and Ears|QID|66166|M|34.73,61.28|Z|2112;Valdrakken|QO|1|NC|N|Click the book.|
@@ -94,16 +94,15 @@ C Nowhere to Hide|QID|66163|M|48.48,54.27|Z|2112;Valdrakken|QO|2|U|198859|N|Prim
 T Nowhere to Hide|QID|66163|M|54.73,47.36|Z|2112;Valdrakken|N|To Captain Drine.|
 T Eyes and Ears|QID|66166|M|54.73,47.36|Z|2112;Valdrakken|N|To Captain Drine.|
 A Southern Exposure|QID|66167|PRE|66163&66166|M|54.73,47.36|Z|2112;Valdrakken|N|From Captain Drine.|
-A Garden Variety|M|77.58,66.59|Z|Valdrakken|N|From Tender Xina.|
+A Garden Variety|QID|72189|M|77.58,66.59|Z|Valdrakken|N|From Tender Xina.|
 
-T Garden Variety|M|37.83,75.43|Z|2025;Thaldraszus|N|To Grympech.|
+T Garden Variety|QID|72189|M|37.83,75.43|Z|2025;Thaldraszus|N|To Grympech.|
 A Azeroth Pest Control|QID|66134|M|37.83,75.43|Z|2025;Thaldraszus|N|From Gryrmpech.|
 C Azeroth Pest Control|QID|66134|M|37.74,75.99|Z|2025;Thaldraszus|QO|1|N|Agitated Seedling slain.|
 T Azeroth Pest Control|QID|66134|M|37.84,75.48|Z|2025;Thaldraszus|N|To Gryrmpech.|
 A The Gardener's Apprentice|QID|66135|M|37.84,75.48|Z|2025;Thaldraszus|N|From Gryrmpech.|
 A One Drakonid's Junk|QID|66278|PRE|66134|M|38.90,74.19|Z|2025;Thaldraszus|
-A Acrosoth|QID|72114|M|40.30,75.44|Z|2025;Thaldraszus|S|N|Bonus dragon can be pulled when he paths along the cliff road to the East.|
-C Acrosoth|QID|72114|M|40.51,74.88|Z|2025;Thaldraszus|QO|1|S|N|Acrosoth slain (if hes there).|
+K Acrosoth|QID|72114|QO|1|M|40.51,74.88|Z|2025;Thaldraszus|S!US|N|Bonus dragon can be pulled when he paths along the cliff road to the East|T|Acrosoth|
 C The Gardener's Apprentice|QID|66135|M|38.94,74.21|Z|2025;Thaldraszus|QO|1|NC|N|Lord Basilton Located.|
 T The Gardener's Apprentice|QID|66135|M|37.86,75.42|Z|2025;Thaldraszus|N|To Gryrmpech.|
 T One Drakonid's Junk|QID|66278|M|37.86,75.42|Z|2025;Thaldraszus|
@@ -115,8 +114,7 @@ C Elemental Extract|QID|66136|M|37.26,69.79|Z|2025;Thaldraszus|QO|1|NC|N|Watery 
 C New Kid on the Clock|QID|66279|M|35.26,72.68|Z|2025;Thaldraszus|QO|2|NC|N|Take the pocket watch to Orizmu in the Gardens.|
 T New Kid on the Clock|QID|66279|M|35.26,72.68|Z|2025;Thaldraszus|N|To Orizmu.|
 A Like Sands Through the Hourglass|QID|66138|PRE|66279|M|35.26,72.68|Z|2025;Thaldraszus|N|From Orizmu.|
-A Liskron the Dazzling|QID|72116|M|37.58,72.43|Z|2025;Thaldraszus|S|N|Grab this bonus on the way.|
-C Liskron the Dazzling|QID|72116|M|36.61,73.26|Z|2025;Thaldraszus|QO|1|S|N|Liskron the Dazzling slain.|
+K Liskron the Dazzling|QID|72116|QO|1|M|36.61,73.26|Z|2025;Thaldraszus|S!US|N|Grab this bonus on the way|T|Liskron the Dazzling|
 C Like Sands Through the Hourglass|QID|66138|M|36.45,72.42|Z|2025;Thaldraszus|QO|1|NC|N|Pile of Windswept Time Sand.|
 C Lashing Out|QID|66137|M|34.01,71.66|Z|2025;Thaldraszus|QO|1|N|Lashers Slain.|
 T Like Sands Through the Hourglass|QID|66138|M|35.22,72.67|Z|2025;Thaldraszus|N|To Orizmu.|
@@ -131,20 +129,17 @@ A Carry On, Basilton|QID|66412|PRE|66139|M|37.82,75.42|Z|2025;Thaldraszus|N|From
 C Carry On, Basilton|QID|66412|M|37.85,75.47|Z|2025;Thaldraszus|QO|1|CHAT|N|Speak with Lord Basilton.|
 T Carry On, Basilton|QID|66412|M|37.85,75.47|Z|2025;Thaldraszus|N|To Gryrmpech.|
 
-A Private Shikzar|QID|70986|M|37.64,82.38|Z|2025;Thaldraszus|
-T Private Shikzar|QID|70986|M|37.51,83.23|Z|2025;Thaldraszus|N|To Private Shikzar.|
+C Private Shikzar|QID|70986|M|37.51,83.23|Z|2025;Thaldraszus|CHAT|N|You have to talk to him to start this bonus objective.|T|Private Shikzar|
 C Southern Exposure|QID|66167|M|35.78,81.97|Z|2025;Thaldraszus|QO|1|NC|N|Travel to South Hold Gate.|
 C Southern Exposure|QID|66167|M|35.84,82.51|Z|2025;Thaldraszus|QO|2|NC|N|Guardian Velomir aided.|
 T Southern Exposure|QID|66167|M|35.84,82.51|Z|2025;Thaldraszus|N|To Guardian Velomir.|
 A Vengeance, Served Hot|QID|66169|PRE|66167|M|35.84,82.51|Z|2025;Thaldraszus|N|From Guardian Velomir.|
 A The Fog of Battle|QID|66246|PRE|66167|M|35.84,82.51|Z|2025;Thaldraszus|N|From Guardian Velomir.|
 C Vengeance, Served Hot|QID|66169|M|36.67,85.12|Z|2025;Thaldraszus|QO|1|S|N|Magmasworn Primalists slain.|
-R South Hold Gate|ACTIVE|66246|M|36.22,83.72|Z|Thaldraszus|N|Click the corpse.|
-R South Hold Gate|ACTIVE|66246|M|35.72,84.18|Z|Thaldraszus|N|Click the corpse.|
-R South Hold Gate|ACTIVE|69246|M|36.45,85.40|Z|Thaldraszus|N|Click the corpse.|
-A Lookout Mordren|QID|69967|M|36.73,85.15|Z|2025;Thaldraszus|N|On the top of the watchtower.|
-C Lookout Mordren|QID|69967|M|36.93,85.76|Z|2025;Thaldraszus|QO|1|N|Lookout Mordren slain.|
-T Lookout Mordren|QID|69967|M|36.93,85.76|Z|2025;Thaldraszus|
+C South Hold Gate|QID|66246||QO|1<1|M|36.22,83.72|Z|Thaldraszus|I|N|Click the corpse.|
+C South Hold Gate|QID|66246||QO|1<2||M|35.72,84.18|Z|Thaldraszus|I|N|Click the corpse.|
+C South Hold Gate|QID|66246||QO|1<3|M|36.45,85.40|Z|Thaldraszus|I|N|Click the corpse.|
+K Lookout Mordren|QID|69967|M|36.93,85.76|Z|2025;Thaldraszus|QO|1|N|On the top of the watchtower|T|Lookout Mordren|
 C The Fog of Battle|QID|66246|M|36.45,85.40|Z|2025;Thaldraszus|QO|1|NC|N|Velomir's unit found.|
 C Vengeance, Served Hot|QID|66169|M|36.67,85.12|Z|2025;Thaldraszus|QO|1|N|Magmasworn Primalists slain.|
 T Vengeance, Served Hot|QID|66169|M|37.60,83.12|Z|2025;Thaldraszus|N|To Guardian Velomir.|
@@ -171,7 +166,7 @@ A Fire Fighter|QID|66251|M|40.19,85.16|Z|2025|N|From Guardian Velomir.|
 C Fire Fighter|QID|66251|M|39.87,86.71|Z|2025|QO|1|N|Magmatalon slain.|
 T Fire Fighter|QID|66251|M|40.19,85.16|Z|2025|N|To Guardian Velomir.|
 A Reporting In|QID|66252|M|40.14,85.16|Z|2025|
-H Valdrakken|QID|66166|M|47.43,46.64|Z|2112;The Roasted Ram|N|Hearth to Valdrakken.|
+H Valdrakken|ACTIVE|66252|M|47.43,46.64|Z|2112;The Roasted Ram|N|Hearth to Valdrakken.|
 T Reporting In|QID|66252|M|56.24,40.15|Z|2112;Valdrakken|N|Hearth to Valdrakken, run to Captain Drine.
 
 f Timberstep Outpost|QID|71179|M|85.26,24.15|Z|2023;Ohn'ahran Plains|N|Fly down and get the FP from Baqir.|
@@ -264,17 +259,14 @@ C The Black Locus|QID|66700|M|65.68,25.00|Z|2023;Ohn'ahran Plains|N|Complete the
 T The Nelthazan Ruins|QID|65890|M|64.03,18.29|Z|2023|N|To Skyscribe Adenedal.|
 T The Black Locus|QID|66700|M|65.68,25.00|Z|2023;Ohn'ahran Plains|N|To Telemancer Aerilyn.|
 
-A Skaara|QID|70783|M|44.94,47.71|Z|2023;Ohn'ahran Plains|N|Fly down to this bonus.|
-C Skaara|QID|70783|M|44.84,49.30|Z|2023;Ohn'ahran Plains|QO|1|N|Skaara slain.|
-T Skaara|QID|70783|M|44.84,49.30|Z|2023;Ohn'ahran Plains|
+K Skaara|QID|70783|M|44.84,49.30|Z|2023;Ohn'ahran Plains|QO|1|N|Fly down to this bonus objective and kill Skaara.|T|Skaara|
 A WANTED: Mara'nar the Thunderous|QID|71027|PRE|70783|M|39.56,56.49|Z|2023;Ohn'ahran Plains|N|On the post, a wanted flier.|
-C WANTED: Mara'nar the Thunderous|QID|71027|M|42.49,47.66|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Mara'nar's Thunderous Plate.|
+K WANTED: Mara'nar the Thunderous|QID|71027|M|42.49,47.66|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Mara'nar and loot her Thunderous Plate.|T|Mara'nar the Thunderous|
 T WANTED: Mara'nar the Thunderous|QID|71027|M|41.94,61.78|Z|2023;Ohn'ahran Plains|N|To Khansguard Jebotai.|
 f Shady Sanctuary|M|29.84,57.71|Z|2023|N|At Sariosa.|
 A Ripsaw the Stalker|QID|69851|PRE|69852|M|25.32,64.90|Z|2023|
-C Ripsaw the Stalker|QID|69851|M|26.10,64.94|Z|2023|QO|1|N|Ripsaw the Stalker slain.|
-A Territorial Coastling|QID|69852|M|23.29,65.86|Z|2023|
-C Territorial Coastling|QID|69852|M|22.94,66.35|Z|2023|QO|1|N|Territorial Coastling slain.|
+C Ripsaw the Stalker|QID|69851|M|26.10,64.94|Z|2023|QO|1|N|Kill Ripsaw the Stalker.|T|Ripsaw the Stalker|
+K Territorial Coastling|QID|69852|M|22.94,66.35|Z|2023|QO|1|N|And over to the coast to kill the Territorial Coastling.|T|Territorial Coastling.|
 
 H Valdrakken|M|47.43,46.64|Z|Valdrakken;The Roasted Ram|N|Hearth to Valdrakken.|
 N Train Tradeskills, Repair, Vendor|N|The rest of the guide will be in Azure Span. Keep in mind if your server is anything like mine, Azure Span is obnoxiously laggy at peak times in these early weeks as everyone seems to be grinding something here. Right click to proceed.|
@@ -287,15 +279,16 @@ A To the Azure Span|QID|65686|M|71.67,80.65|Z|2023;Ohn'ahran Plains|N|From Masud
 T To the Azure Span|QID|65686|M|41.43,35.61|Z|2024;The Azure Span|
 A Camp Antonidas|QID|66228||M|41.43,35.61|Z|2024;The Azure Span|
 A WANTED: Gorger|QID|67177|M|41.40,36.40|Z|2024;The Azure Span|N|From Shala.|
-C WANTED: Gorger|QID|67177|M|39.74,37.49|Z|2024;The Azure Span|QO|1|NC|N|Curved Horns.|
+K Gorger|QID|67177|M|39.74,37.49|Z|2024;The Azure Span|QO|1|N|Kill Gorger and loot his Curved Horns.|T|Gorger|
 T WANTED: Gorger|QID|67177|M|41.39,36.40|Z|2024;The Azure Span|N|To Shala.|
 L Level 64|LVL|64|N|You should be around level 64 by this point.|
 f Camp Antonidas|QID|67177|M|46.72,39.62|Z|2024;The Azure Span|N|At Steward Argalos.|
 T Camp Antonidas|QID|66228|M|46.63,40.15|Z|2024;The Azure Span|N|To Noriko the All-Remembering.|
 A Preservation of Knowledge|QID|67035|PRE|66228|M|46.68,39.75|Z|2024;The Azure Span|N|From Althanus.|
 A Assemble the Defenses|QID|67033|PRE|67177&66228|M|46.68,39.75|Z|2024;The Azure Span|N|From Noriko the All-Remembering.|
-C Assemble the Defenses|QID|67033|M|46.08,40.87|Z|2024;The Azure Span|QO|1|NC|S|N|Broken Arcane Device.|
-C Preservation of Knowledge|QID|67035|M|46.07,39.84|Z|2024;The Azure Span|QO|1|NC|S|N|Collection of Tomes.|
+C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024|H|N|Beware of the bombardment. Pick the first device up here.|
+C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024|H|N|Pick up the tomes in the pavilion.|
+C Assemble the Defenses|QID|67033|M|46.1,40.8;45.85,40.17|CS|Z|2024|H|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
 T Assemble the Defenses|QID|67033|M|46.66,39.77|Z|2024;The Azure Span|N|To Noriko the All-Remembering.|
 T Preservation of Knowledge|QID|67035|M|46.66,39.77|Z|2024;The Azure Span|N|To Althanus.|
 A Wrath of the Kirin Tor|QID|67036|M|46.66,39.77|Z|2024;The Azure Span|N|From Noriko the All-Remembering.|
@@ -308,30 +301,29 @@ C Meeting Kalecgos|QID|65688|M|45.92,38.92|Z|2024;The Azure Span|QO|2|NC|N|Bag o
 A Path to Nowhere|QID|66671|M|45.70,39.83|Z|2024;The Azure Span|N|From Caddy Scattershot.|
 A Tending the Forge|QID|66523|M|46.09,40.94|Z|2024;The Azure Span|N|From Custodian Vernagos.|
 C Tending the Forge|QID|66523|M|45.58,40.38|Z|2024;The Azure Span|QO|3|NC|S|N|Under the smaller & medium trees mostly.|
-C Tending the Forge|QID|66523|M|45.34,39.65|Z|2024;The Azure Span|QO|2|NC|N|Near the cones.|
+C Tending the Forge|QID|66523|M|45.34,39.65|Z|2024;The Azure Span|QO|2|N|Kill and loot the Hornswogs near the cones.|
 A Old Stonetusk|QID|66972|M|44.96,40.06|Z|2024;The Azure Span|N|From Hemet Nesingwary. If he's there, otherwise skip.|
 A Protect And Herd|QID|66958|M|44.98,40.05|Z|2024;The Azure Span|N|From Hemet Nesingwary. If he's there, otherwise skip.|
-C Old Stonetusk|QID|66972|M|47.54,42.90|Z|2024;The Azure Span|QO|1|NC|N|Old Stonetusk's Tusk.|
+K Old Stonetusk|ACTIVE|66972|M|47.54,42.90|Z|2024;The Azure Span|QO|1|N|Kill Stonetusk and take his  Tusk.|
 A A Shadow In The Ice|QID|66957|M|46.63,38.65|Z|2024;The Azure Span|N|From Hemet Nesingwary. If he's there, otherwise skip.|
-C Tending the Forge|QID|66523|M|47.59,38.16|Z|2024;The Azure Span|QO|1|NC|S|N|Frozen Core.|
-C WANTED: Frigellus|QID|66488|M|48.00,38.31|Z|2024;The Azure Span|QO|1|N|Frigellus slain.|
-C A Shadow In The Ice|QID|66957|M|49.10,36.55|Z|2024;The Azure Span|QO|1|NC|N|Frostfist's Eye.|
+C Tending the Forge|QID|66523|M|47.59,38.16|Z|2024;The Azure Span|QO|1|NC|S|N|Kill the smaller ice elementals for their Frozen Cores.|
+K Frigellus|ACTIVE|66488|M|48.00,38.31|Z|2024;The Azure Span|QO|1|N|Kill Frigellus.|T|Frigellus|
+K Frostfist|ACTIVE|66957|M|49.10,36.55|Z|2024;The Azure Span|QO|1|N|Kill Frostfist and loot his Eye.|
+C Tending the Forge|QID|66523|M|47.59,38.16|Z|2024;The Azure Span|QO|1|NC|US|N|Kill the smaller ice elementals for their Frozen Cores.|
 T WANTED: Frigellus|QID|66488|M|46.03,38.29|Z|2024;The Azure Span|N|To Custodian Cynegos.|
 A Setting the Defense|QID|66489|M|46.02,38.43|Z|2024;The Azure Span|N|From Arch Enchanter Celeste.|
 C Setting the Defense|QID|66489|M|46.12,39.07|Z|2024;The Azure Span|QO|1|NC|U|192471|N|Azure Defender Empowered.|
 T Setting the Defense|QID|66489|M|46.00,38.44|Z|2024;The Azure Span|N|To Arch Enchanter Celeste.|
-C Tending the Forge|QID|66523|M|45.34,39.65|Z|2024;The Azure Span|QO|2|NC|N|Hornswog Hide Scraps.|
-C Tending the Forge|QID|66523|M|45.58,40.38|Z|2024;The Azure Span|QO|3|NC|N|Dormant Embercone.|
+C Tending the Forge|QID|66523|M|45.34,39.65|Z|2024;The Azure Span|QO|2|US|N|Hornswog Hide Scraps.|
+C Tending the Forge|QID|66523|M|45.58,40.38|Z|2024;The Azure Span|QO|3|US|NC|N|Dormant Embercone.|
 T Tending the Forge|QID|66523|M|46.10,40.93|Z|2024;The Azure Span|N|To Custodian Vernagos.|
 A Send It!|QID|66493|PRE|66489&66523|M|45.99,38.78|Z|2024;The Azure Span|N|From Supply Portal.|
 C Send It!|QID|66493|M|45.97,38.82|Z|2024;The Azure Span|QO|1|NC|N|Talk to the Supply Portal.|
 C Send It!|QID|66493|M|46.07,39.96|Z|2024;The Azure Span|QO|2|NC|N|Packages Delivered.|
 T Send It!|QID|66493|M|45.99,38.81|Z|2024;The Azure Span|N|To Supply Portal.|
 
-N Level Check|N|If you're lv65 playing with warmode, or are lv66+ already, skip these next 2 quest chains and head to the Archives. Skip this message to proceed.|
-
-A Mammoths Matter|QID|65914|M|44.80,50.66|Z|2024;The Azure Span|N|From Ruriq.|
-A Culling the Cullers|QID|65925|M|44.80,50.66|Z|2024;The Azure Span|N|From Ruriq.|
+A Mammoths Matter|QID|65914|M|44.80,50.66|Z|2024;The Azure Span|N|From Ruriq.|LVL|-66|;this chain skipped if you are 66
+A Culling the Cullers|QID|65925|M|44.80,50.66|Z|2024;The Azure Span|N|From Ruriq.|LVL|-66|;this chain skipped if you are 66
 C Culling the Cullers|QID|65925|M|47.57,53.02|Z|2024;The Azure Span|QO|2|S|N|Vicious Ice Borer slain.|
 C Culling the Cullers|QID|65925|M|47.27,51.23|Z|2024;The Azure Span|QO|1|S|N|Vicious Ice Slitherer slain.|
 C Mammoths Matter|QID|65914|M|47.39,52.38|Z|2024;The Azure Span|QO|1|NC|S|N|Scavenge carcasses.|
@@ -368,11 +360,10 @@ A Driven Mad|QID|65702|PRE|65689|M|40.74,59.04|Z|2024|N|From Kalecgos.|
 A Arcane Pruning|QID|65709|PRE|65689|M|40.73,59.09|Z|2024|N|From Kalecgos.|
 C Arcane Pruning|QID|65709|M|40.73,59.09|Z|2024|QO|1|NC|U|191952|N|Click the bag.|
 C Driven Mad|QID|65702|M|40.10,62.52|Z|2024|QO|1|NC|U|191952|S|N|Kill mobs for Unstable Arcana.|
-A Forgotten Creation|QID|69864|M|38.70,59.87|Z|2024|S|N|Kill the bonus mob high up.|
 C Arcane Pruning|QID|65709|M|39.58,60.16|Z|2024|QO|2|NC|U|191952|N|North arcane field repaired.|
-C Forgotten Creation|QID|69864|M|38.17,58.98|Z|2024|QO|1|U|191952|N|Forgotten Creation slain.|
+K Forgotten Creation|QID|69864|M|38.17,58.98|Z|2024|QO|1|N|Kill the Forgotten Creation in a room a little above the ground level.|
 C Arcane Pruning|QID|65709|M|41.19,62.25|Z|2024|QO|3|NC|U|191952|N|East arcane field repaired.|
-C Driven Mad|QID|65702|M|40.10,62.52|Z|2024|QO|1|NC|U|191952|N|Unstable Arcana.|
+C Driven Mad|QID|65702|M|40.10,62.52|Z|2024|QO|1|N|Kill mobs in the area to loot the Unstable Arcana.|US|
 T Arcane Pruning|QID|65709|M|40.69,59.12|Z|2024|N|To Kalecgos.|
 T Driven Mad|QID|65702|M|40.71,59.02|Z|2024|N|To Kalecgos.|
 A Straight to the Top|QID|65852|PRE|69864&65709&65702|M|40.71,59.02|Z|2024|N|From Kalecgos.|
@@ -382,10 +373,10 @@ T Straight to the Top|QID|65852|M|39.96,61.49|Z|2024|N|To Kalecgos.|
 A Arcane Annoyances|QID|65752|PRE|65852|M|39.96,61.49|Z|2024|N|From Kalecgos.|
 A Platform Adjustments|QID|65751|PRE|65852|M|39.96,61.49|Z|2024|N|From Kalecgos.|
 C Arcane Annoyances|QID|65752|M|39.70,61.58|Z|2024|QO|1|U|194891|S|N|Feasting Wyrm slain.|
-C Platform Adjustments|QID|65751|M|40.22,62.04|Z|2024|QO|1|NC|U|194891|N|Click the thingy.|
-C Platform Adjustments|QID|65751|M|39.60,62.66|Z|2024|QO|2|NC|U|194891|N|Click the thingy.|
-C Platform Adjustments|QID|65751|M|39.54,61.58|Z|2024|QO|3|NC|U|194891|N|Click the thingy.|
-C Arcane Annoyances|QID|65752|M|39.70,61.58|Z|2024|QO|1|U|194891|N|Feasting Wyrm slain.|
+C Platform Adjustments|QID|65751|M|40.22,62.04|Z|2024|QO|1|NC|N|Click the thingy.|
+C Platform Adjustments|QID|65751|M|39.60,62.66|Z|2024|QO|2|NC|N|Click the thingy.|
+C Platform Adjustments|QID|65751|M|39.54,61.58|Z|2024|QO|3|NC|N|Click the thingy.|
+C Arcane Annoyances|QID|65752|M|39.70,61.58|Z|2024|QO|1|US|U|194891|N|Feasting Wyrm slain.|
 T Arcane Annoyances|QID|65752|M|39.96,61.49|Z|2024|N|To Kalecgos.|
 T Platform Adjustments|QID|65751|M|39.96,61.49|Z|2024|N|To Kalecgos.|
 A Reclaiming the Oathstone|QID|65854|PRE|65752&65751|M|39.96,61.49|Z|2024|N|Ground level, from Kalecgos.|
@@ -393,7 +384,7 @@ C Reclaiming the Oathstone|QID|65854|M|39.44,63.15|Z|2024|QO|1|NC|N|Talk to Kale
 T Reclaiming the Oathstone|QID|65854|M|39.48,63.02|Z|2024|N|To Sindragosa.|
 A Aiding Azure Span|QID|65855|PRE|65854|M|39.48,63.02|Z|2024|N|From Sindragosa.|
 C Aiding Azure Span|QID|65855|M|37.09,60.83|Z|2024|QO|1|CHAT|N|Speak to Flightmaster.|
-R Camp Antonidas|ACTIVE|50562|M|46.63,40.14|Z|The Azure Span!Dragon Isles|N|Dragonflight is faster than the FP.|
+R Camp Antonidas|ACTIVE|65855|M|46.63,40.14|Z|The Azure Span!Dragon Isles|N|Dragonflight is faster than the FP.|
 T Aiding Azure Span|QID|65855|M|46.68,40.15|Z|2024;The Azure Span|N|To Noriko the All-Remembering.|
 A Ask the Locals|QID|66699|PRE|65855|M|46.68,40.15|Z|2024;The Azure Span|N|From Noriko the All-Remembering.|
 C Ask the Locals|QID|66699|M|46.75,38.60|Z|2024;The Azure Span|QO|1|CHAT|N|Korrikunit consulted.|
@@ -401,7 +392,7 @@ C Ask the Locals|QID|66699|M|46.33,38.11|Z|2024;The Azure Span|QO|2|CHAT|N|Jokom
 C Ask the Locals|QID|66699|M|45.74,38.80|Z|2024;The Azure Span|QO|3|CHAT|N|Babunituk consulted.|
 T Ask the Locals|QID|66699|M|45.74,38.80|Z|2024;The Azure Span|N|To Babunituk.|
 A Catch the Caravan|QID|65864|PRE|66699|M|45.74,38.80|Z|2024;The Azure Span|N|From Babunituk.|
-C Catch the Caravan|QID|65864|M|35.24,36.98|Z|2024;The Azure Span|QO|1|NC|N|Brena found.|
+C Catch the Caravan|QID|65864|M|35.24,36.98|Z|2024;The Azure Span|QO|1|CHAT|N|Brena found.|
 T Catch the Caravan|QID|65864|M|35.26,36.95|Z|2024;The Azure Span|N|To Brena. Craft during RP.|
 A Howling in the Big Tree Hills|QID|65867|PRE|65864|M|35.26,36.95|Z|2024;The Azure Span|N|From Brena.|
 A Snap the Traps|QID|65866|PRE|65864|M|35.26,36.95|Z|2024;The Azure Span|N|From Brena.|
@@ -412,27 +403,24 @@ C Howling in the Big Tree Hills|QID|65867|M|35.77,35.11|Z|2024;The Azure Span|QO
 C Howling in the Big Tree Hills|QID|65867|M|33.97,33.08|Z|2024;The Azure Span|QO|3|N|Bakra the Bully slain.|
 C Howling in the Big Tree Hills|QID|65867|M|34.97,32.47|Z|2024;The Azure Span|QO|2|N|Trap-Layer Kerwal slain.|
 C Snap the Traps|QID|65866|M|34.16,33.00|Z|2024;The Azure Span|QO|1|NC|N|Traps sprung.|
-C Those Aren't for Chewing|QID|65868|M|34.89,32.82|Z|2024;The Azure Span|QO|1|NC|N|Funerary Offering.|
-A Thieving Gnolls|QID|67173|PRE|65867&65866&65868|M|36.43,32.51|Z|2024;The Azure Span|
-C Thieving Gnolls|QID|67173|M|36.91,32.70|Z|2024;The Azure Span|QO|1|NC|N|Larivi defended.|
-T Thieving Gnolls|QID|67173|M|36.90,32.69|Z|2024;The Azure Span|
+C Those Aren't for Chewing|QID|65868|M|34.89,32.82|Z|2024;The Azure Span|QO|1|NC|N|Funerary Offering.|US|
+K Thieving Gnolls|QID|67173|M|36.91,32.70|Z|2024;The Azure Span|QO|1|N|Defend Larivi by killing the gnolls.|
 T Howling in the Big Tree Hills|QID|65867|M|34.28,31.28|Z|2024;The Azure Span|N|To Hanu.|
 T Snap the Traps|QID|65866|M|34.28,31.28|Z|2024;The Azure Span|N|To Hanu.|
 T Those Aren't for Chewing|QID|65868|M|34.28,31.28|Z|2024;The Azure Span|N|To Hanu.
-
 A Supplies!|QID|65870|PRE|67173|M|34.32,31.03|Z|2024;The Azure Span|N|From Elder Poa.|
 A Ill Gnolls with Ill Intent|QID|65872|PRE|67173|M|34.35,31.04|Z|2024;The Azure Span|
 A Leader of the Shadepaw Pack|QID|65873|PRE|67173|M|34.39,31.07|Z|2024;The Azure Span|
 A Gnoll Way Out|QID|65871|PRE|67173|M|34.41,31.08|Z|2024;The Azure Span|N|From Hanu.|
 C Gnoll Way Out|QID|65871|M|38.40,33.02|Z|2132;The Azure Span|QO|1|NC|S|N|Click cages.|
 C Ill Gnolls with Ill Intent|QID|65872|M|42.78,57.43|Z|2132;The Azure Span|QO|1|S|N|Shadepaw gnolls slain.|
-C Supplies!|QID|65870|M|33.87,30.46|Z|2024;The Azure Span|QO|3|NC|N|Hunting Game Calls.|
-C Supplies!|QID|65870|M|29.50,75.88|Z|2132;The Azure Span|QO|1|NC|N|Meat Curing Salts.|
-C Gnoll Way Out|QID|65871|M|40.74,63.03|Z|2132;The Azure Span|QO|2|NC|N|Norukk rescued.|
-C Supplies!|QID|65870|M|50.52,36.93|Z|2132;The Azure Span|QO|2|NC|N|Skinning Tools.|
-C Leader of the Shadepaw Pack|QID|65873|M|39.19,17.46|Z|2132;The Azure Span|QO|1|NC|N|Kargpaw's Totem.|
+C Supplies!|QID|65870|M|33.87,30.46|Z|2024;The Azure Span|QO|3|NC|N|Pick up Hunting Game Calls.|
+C Supplies!|QID|65870|M|29.50,75.88|Z|2132;The Azure Span|QO|1|NC|N|Pick up Meat Curing Salts.|
+C Gnoll Way Out|QID|65871|M|40.74,63.03|Z|2132;The Azure Span|QO|2|NC|N|Rescue Norukk.|
+C Supplies!|QID|65870|M|50.52,36.93|Z|2132;The Azure Span|QO|2|NC|N|Pick up Skinning Tools.|
+C Leader of the Shadepaw Pack|QID|65873|M|39.19,17.46|Z|2132;The Azure Span|QO|1|N|Kill Kargpaw, loot Totem.|
 C Gnoll Way Out|QID|65871|M|38.40,33.02|Z|2132;The Azure Span|QO|1|NC|N|Tuskarr rescued.|
-C Ill Gnolls with Ill Intent|QID|65872|M|42.78,57.43|Z|2132;The Azure Span|QO|1|N|Shadepaw gnolls slain.|
+C Ill Gnolls with Ill Intent|QID|65872|M|42.78,57.43|Z|2132;The Azure Span|QO|1|US|N|Shadepaw gnolls slain.|
 T Supplies!|QID|65870|M|34.37,30.99|Z|2024;The Azure Span|N|To Elder Poa.|
 T Gnoll Way Out|QID|65871|M|34.40,31.08|Z|2024;The Azure Span|N|To Hanu.|
 T Ill Gnolls with Ill Intent|QID|65872|M|34.39,30.99|Z|2024;The Azure Span|N|To Brena.|
@@ -448,11 +436,9 @@ C Another Ambush|QID|65869|M|28.17,31.84|Z|2024;The Azure Span|QO|4|NC|N|Body ex
 C Another Ambush|QID|65869|M|27.93,32.85|Z|2024;The Azure Span|QO|5|NC|N|Body examined.|
 T Another Ambush|QID|65869|M|28.77,34.75|Z|2024;The Azure Span|N|To Brena.|
 A Urgent Action Required|QID|66026|PRE|65869|M|28.77,34.75|Z|2024;The Azure Span|N|From Brena.|
-A Cascade|QID|72358|PRE|65869|M|23.55,33.41|Z|2024;The Azure Span|
-C Cascade|QID|72358|M|23.42,33.20|Z|2024;The Azure Span|QO|1|N|Cascade slain.|
-T Cascade|QID|72358|M|23.42,33.20|Z|2024;The Azure Span|
+K Cascade|QID|72358|M|23.42,33.20|Z|2024;The Azure Span|QO|1|N|Kill Cascade.|
 
-N Level Check |N| if you're already 67 or close to it with warmode, you can skip the Three Falls quests.
+N Level Check |N|If you're already 67 (or close to it with warmode), you can skip the Three Falls quests.
 
 T Falling Water|QID|71233|M|18.77,24.50|Z|2024;The Azure Span|N|To Willa Stronghinge.|
 A Nothing for Breakfast|QID|66837|PRE|71233|M|18.77,24.50|Z|2024;The Azure Span|N|From Willa Stronghinge.|
@@ -528,27 +514,27 @@ T Whack-a-Gnoll|QID|66270|M|22.77,41.68|Z|2024;The Azure Span|N|To Detry Hornswa
 T Urgent Action Required|QID|66026|M|20.60,35.68|Z|2024;The Azure Span|N|To Brena.|
 A Breaching the Brackenhide|QID|65838|M|20.56,35.66|Z|2024;The Azure Span|N|Craft during RP. From Kalecgos|
 A Stop the Spread|QID|65841|M|18.88,37.02|Z|2024;The Azure Span|
-C Stop the Spread|QID|65841|M|18.18,37.62|Z|2024;The Azure Span|QO|1|NC|S|N|Don't need to complete on the first set of quests.|
-C Breaching the Brackenhide|M|18.88,37.02|Z|2024;The Azure Span|QO|2|NC|S|N|South area investigated. Click the Root.|
-C Breaching the Brackenhide|M|17.53,37.00|Z|2024;The Azure Span|QO|3|NC|S|N|West area investigated. Click the Root.|
-C Breaching the Brackenhide|M|18.45,34.78|Z|2024;The Azure Span|QO|1|NC|S|N|North area investigated. Click the Root.|
-A Vakril, the Strongest Tuskarr|QID|69872|M|17.09,40.89|Z|2024;The Azure Span|
-C Vakril, the Strongest Tuskarr|QID|69872|M|17.41,41.54|Z|2024;The Azure Span|QO|1|U|191928|N|Vakril defeated.|
+C Stop the Spread|QID|65841|M|18.18,37.62|Z|2024;The Azure Span|S|N|Don't need to complete on the first set of quests.|
+C Breaching the Brackenhide|M|18.88,37.02|Z|2024;The Azure Span|QO|2|NC|N|South area investigated. Click the Root.|
+C Breaching the Brackenhide|M|17.53,37.00|Z|2024;The Azure Span|QO|3|NC|N|West area investigated. Click the Root.|
+C Breaching the Brackenhide|M|18.45,34.78|Z|2024;The Azure Span|QO|1|NC|N|North area investigated. Click the Root.|
+K Vakril, the Strongest Tuskarr|QID|69872|M|17.41,41.54|Z|2024;The Azure Span|QO|1|N|Vakril defeated.|
 T Breaching the Brackenhide|QID|65838|M|16.75,37.27|Z|2024;The Azure Span|N|To Kalecgos.|
 A Ley Litter|QID|65846|PRE|65838|M|16.75,37.27|Z|2024;The Azure Span|N|From Kalecgos.|
 A Cut Out the Rot|QID|65844|PRE|65838|M|16.75,37.27|Z|2024;The Azure Span|N|From Norukk.|
 A Echoes of the Fallen|QID|65845|PRE|65838|M|16.76,37.22|Z|2024;The Azure Span|N|From Brena.|
 C Cut Out the Rot|QID|65844|M|17.41,38.63|Z|2024;The Azure Span|QO|1|S|N|Rotting Treant slain.|
 C Cut Out the Rot|QID|65844|M|17.33,38.34|Z|2024;The Azure Span|QO|2|S|N|Brackenhide Rotflinger slain.|
-C Ley Litter|QID|65846|M|17.45,38.43|Z|2024;The Azure Span|QO|1|NC|U|191928|S|N|Loot glowing Ley Crystals.|
-C Echoes of the Fallen|QID|65845|M|18.10,37.69|Z|The Azure Span!Dragon Isles|N|Find all 5 corpses and use the totem on them.|
-C Echoes of the Fallen|QID|65845|M|17.55,37.93|Z|The Azure Span!Dragon Isles|N|Find all 5 corpses and use the totem on them.|
-C Echoes of the Fallen|QID|65845|M|17.41,38.64|Z|The Azure Span!Dragon Isles|N|Find all 5 corpses and use the totem on them.|
-C Echoes of the Fallen|QID|65845|M|17.41,38.64|Z|2024;The Azure Span|QO|1|NC|U|191928|N|Find all 5 corpses and use the totem on them.|
+C Ley Litter|QID|65846|M|17.45,38.43|Z|2024;The Azure Span|QO|1|NC|S|N|Loot glowing Ley Crystals.|
+C Echoes of the Fallen|QID|65845|QO|1<1|M|17.45,37.07|Z|The Azure Span!Dragon Isles|N|Find all 5 corpses and use the totem on them.|U|191928|
+C Echoes of the Fallen|QID|65845|QO|1<2|M|17.54,37.96|Z|The Azure Span!Dragon Isles|N|Find all 5 corpses and use the totem on them.|U|191928|
+C Echoes of the Fallen|QID|65845|QO|1<3|M|17.40,38.65|Z|The Azure Span!Dragon Isles|N|Find all 5 corpses and use the totem on them.|U|191928|
+C Echoes of the Fallen|QID|65845|QO|1<4|M|18.52,37.26|Z|2024;The Azure Span|NC|N|Find all 5 corpses and use the totem on them.|U|191928|
+C Echoes of the Fallen|QID|65845|QO|1<5|M|18.13,37.67|Z|2024;The Azure Span|NC|N|Find all 5 corpses and use the totem on them.|U|191928|
 C Cut Out the Rot|QID|65844|M|17.41,38.63|Z|2024;The Azure Span|QO|1|N|Rotting Treant slain.|
-C Ley Litter|QID|65846|M|17.45,38.43|Z|2024;The Azure Span|QO|1|NC|U|191928|N|Ley Crystal.|
+C Ley Litter|QID|65846|M|17.45,38.43|Z|2024;The Azure Span|QO|1|NC|N|Ley Crystal.|
 C Cut Out the Rot|QID|65844|M|17.33,38.34|Z|2024;The Azure Span|QO|2|N|Brackenhide Rotflinger slain.|
-C Stop the Spread|QID|65841|M|18.18,37.62|Z|2024;The Azure Span|QO|1|NC|U|191928|N|Brackenhide decay spread contained (100%).|
+C Stop the Spread|QID|65841|M|18.18,37.62|Z|2024;The Azure Span|N|Time to finish containing the spread decay in Brackenhide.|US|
 T Stop the Spread|QID|65841|M|18.18,37.62|Z|2024;The Azure Span|
 T Ley Litter|QID|65846|M|16.77,37.33|Z|2024;The Azure Span|N|To Kalecgos.|
 T Cut Out the Rot|QID|65844|M|16.76,37.26|Z|2024;The Azure Span|N|To Norukk.|
@@ -569,18 +555,20 @@ f Iskaara|QID|70941|M|13.29,48.79|Z|2024;The Azure Span|S|N|At Skygazer Paatu.|
 T To Iskaara|QID|65849|M|13.24,49.55|Z|2024;The Azure Span|N|To Brena.|
 A Gather the Family|QID|66210|M|13.24,49.55|Z|2024;The Azure Span|N|From Brena.|
 A Orientation: Iskaara|QID|72435|M|13.16,49.26|Z|2024|N|From Murik.|
-C Orientation: Iskaara|QID|72435|M|13.22,48.79|Z|2024|QO|3|NC|N|Tatto. Ask about Ottuks.|
-A WANTED: Krojek the Shoreprowler|QID|66217|M|13.20,48.80|Z|2024|N|From Bukarakikk.|
-C Orientation: Iskaara|QID|72435|M|13.17,48.58|Z|2024|QO|1|NC|N|Arvik.|
-C Orientation: Iskaara|QID|72435|M|12.94,48.65|Z|2024|QO|4|NC|N|Norukk.|
-A Scampering Scamps|QID|66218|M|12.92,48.72|Z|2024|N|From Hanu.|
-A The Weave of a Tale|QID|66213|M|12.42,49.39|Z|2024|N|Underground, From Elder Nappa.|
-C The Weave of a Tale|QID|66213|M|12.42,49.39|Z|2024|QO|1|NC|N|Story told.|
-T The Weave of a Tale|QID|66213|M|12.42,49.39|Z|2024|N|To Elder Nappa.|
-C Gather the Family|QID|66210|M|13.50,48.55|Z|2024|QO|1|NC|S|N|Funeral Offerings collected. First one is next to Nappa. 2: by soup. 3: herbalism trainer 4: at the marker.|
+C Gather the Family|QID|66210|QO|1<1|M|12.79,49.33;12.49,49.45|CS|Z|2024|H|N|Pick up the stone sculpture in The Filled Bowl (the underground inn).|
+A The Weave of a Tale|QID|66213|PRE|65849|M|12.41,49.40|Z|2024|N|From Elder Nappa.|
+C The Weave of a Tale|QID|66213|M|12.41,49.34|Z|2024|CHAT|N|Tell Elder Poa a made up a story about a fish.|
+T The Weave of a Tale|QID|66213|M|12.41,49.40|Z|2024|N|To Elder Nappa.|
+C Gather the Family|QID|66210|QO|1<2|M|12.46,50.31|Z|2024|H|N|Pick up the shield by the docks.|
+A Scampering Scamps|QID|66218|PRE|65849|M|12.90,48.70|Z|2024|N|From Hanu.|
+C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.62|Z|2024|CHAT|N|Say Hello to Norukk.|
+A WANTED: Krojek the Shoreprowler|QID|66217|PRE|65849|M|12.53,49.83;13.18,48.76|CN|Z|2024|N|From Bukarakikk. He could be in one of two places.|
+C Orientation: Iskaara|QID|72435|QO|3|M|13.19,48.82|Z|2024|NC|N|Click on Tatto to discover he supplies mounts.|
+C Orientation: Iskaara|QID|72435|QO|1|M|13.17,48.53|Z|2024|NC|N|Check out what Arvik has for sale.|
 A Nook News|QID|71234|M|14.09,49.45|Z|2024|N|From Lukoturukk.|
 C Orientation: Iskaara|QID|72435|M|13.89,50.04|Z|2024|QO|2|NC|N|Rokkutuk.|
-C Gather the Family|QID|66210|M|12.55,50.31|Z|2024|QO|1|NC|N|Funeral Offerings collected.|
+C Gather the Family|QID|66210|QO|1<3|M|13.87,49.49|Z|2024|H|N|Pick up the boat from on the piling beside Jinkutuk.|
+C Gather the Family|QID|66210|QO|1|M|13.49,48.55|Z|2024|H|N|Pick up the teapot beside Kinook's cookpot.|
 T Orientation: Iskaara|QID|72435|M|13.16,49.26|Z|2024|N|To Murik.|
 C Gather the Family|QID|66210|M|13.17,48.57|Z|2024|QO|2|NC|N|Offerings placed in the boat.|
 A Rowie|QID|66558|PRE|66213|M|13.72,47.64|Z|2024|N|From Auntie Kaunnie.|
@@ -592,17 +580,18 @@ C The Cycle of the Sea|QID|65850|M|13.16,49.26|Z|2024|QO|1|CHAT|N|Start the fune
 C The Cycle of the Sea|QID|65850|M|13.16,50.14|Z|2024|QO|2|NC|N|Boat pushed out to sea.|
 T The Cycle of the Sea|QID|65850|M|12.93,50.35|Z|2024|N|To Kalecgos.|
 A Azure Alignment|QID|65911|PRE|72435&65850|M|12.93,50.35|Z|2024|N|From Kalecgos.|
-C WANTED: Krojek the Shoreprowler|QID|66217|M|10.43,54.59|Z|2024|QO|1|N|OPTIONAL: Shark is non-trivial, depending on your class/spec/gear/someone already fighting it.|
+K Krojek the Shoreprowler|ACTIVE|66217|M|10.43,54.59|Z|2024|QO|1|N|OPTIONAL: Shark is non-trivial, depending on your class/spec/gear/someone already fighting it.|
 C Rowie|QID|66558|M|16.12,50.44|Z|2024|QO|1|NC|N|Rowie sent home.|
 T Rowie|QID|66558|M|16.12,50.44|Z|2024|N|To Rowie.|
 A Toejam the Terrible|QID|70129|PRE|66558|M|16.12,50.44|Z|2024|N|From Rowie.|
-C Toejam the Terrible|QID|70129|M|16.79,49.30|Z|2024|QO|1|N|Don't damage the baby Ottuks. Really.|
-C Protect And Herd|QID|66958|M|19.08,49.45|Z|2024|QO|1|NC|N|Bloodhorn's Horn.|
+C Toejam the Terrible|QID|70129|M|16.79,49.30|Z|2024|CHAT|N|Don't damage the baby Ottuks. Really. Just have a nice conversation with Toejam.|
+K Bloodhorn|ACTIVE|66958|M|19.08,49.45|Z|2024|QO|1|NC|N|Kill Bloodhorn and take his horn.|
 T Toejam the Terrible|QID|70129|M|13.78,48.97|Z|2024|N|To Auntie Kaunnie.|
-N Fridgidfish|N|Buy 7 Frigidfish from the Herbalism trainer at 13.8,50, then manually complete this step.|S|
 T WANTED: Krojek the Shoreprowler|QID|66217|M|12.52,49.85|Z|2024|N|To Bukarakikk.|
 C Scampering Scamps|QID|66218|M|10.59,46.89|Z|2024|QO|1|NC|N|Talk to Neelo.|
 T Scampering Scamps|QID|66218|M|10.58,46.84|Z|2024|N|Craft, then turn in to Neelo.|
+A Can We Keep It?|QID|66223|M|10.59,46.90|Z|2024|N|From Neelo.|
+B Fridgidfish|QID|66223|M|13.8,50|Z|2024|N|Buy 7 Frigidfish from the Herbalism trainer.|
 T Can We Keep It?|QID|66223|M|10.59,46.90|Z|2024|N|To Neelo.|
 
 T Nook News|QID|71234|M|7.49,44.29|Z|2024|N|To Wayun.|
@@ -637,7 +626,7 @@ C Afront 'Till A Salt|QID|66232|M|10.27,41.70|Z|2024;The Azure Span|QO|1|NC|N|Cr
 T Back To Camp|QID|66559|M|7.66,44.31|Z|2024;The Azure Span|N|To Examiner Rowe.|
 T Afront 'Till A Salt|QID|66232|M|7.48,44.26|Z|2024;The Azure Span|N|To Wayun.|
 
-N Level Check|N|If you've hit 68 by now, you can choose to hearth to Valdrakken and craft for the last two levels in around 10 minutes. Don't bother with crafts worth less than 2k xp. This guide is over for you, champ. Otherwise, check off this step to proceed.|
+N Level Check|N|If you've hit 69 by now, you can choose to hearth to Valdrakken and craft for the last level in around 10 minutes. Don't bother with crafts worth less than 2k xp. This guide is over for you, champ. Otherwise, check off this step to proceed. Crafting XP was nerfed. so, you will want to do a bit more.|
 N Level Check|N|If you're under 68, theres a few more places to hit.|
 
 T Azure Alignment|QID|65911|M|39.44,63.04|Z|2024;The Azure Span|N|Dragonflight or FP to Kalecgos.|
@@ -669,7 +658,7 @@ T Kill the Queen|QID|65834|M|48.97,64.27|Z|2024;The Azure Span|N|To Grungir Iron
 
 R Camp Nowhere|M|63.44,58.64|Z|The Azure Span!Dragon Isles|N|Make your way to the Camp Nowhere.|
 N Camp Nowhere|N|Grab the FP, turn in whatever quests you've done already.|
-T Protect And Herd|QID|66958|M|63.14,58.39|Z|2024;The Azure Span|N|To Hemet Nesingwary Jr.|
+t Protect And Herd|QID|66958|M|63.14,58.39|Z|2024;The Azure Span|N|To Hemet Nesingwary Jr.|
 A Broken Traditions, Broken Bodies|QID|66141|PRE|65750&65769|M|63.21,58.60|Z|2024;The Azure Span|N|From Garz.|
 A To the Ruins!|QID|66391|PRE|66958|M|63.42,58.01|Z|2024;The Azure Span|N|From Rannan Korren.|
 T To the Ruins!|QID|66391|M|64.98,58.62|Z|2024;The Azure Span|N|To Rannan Korren.|
@@ -677,7 +666,7 @@ A What the Enemy Knows|QID|66352|PRE|66391|M|64.98,58.62|Z|2024;The Azure Span|N
 A R.A.D. Anomalies|QID|66353|PRE|66391|M|64.98,58.62|Z|2024;The Azure Span|N|From Rannan Korren.|
 C What the Enemy Knows|QID|66352|M|66.03,59.66|Z|2024;The Azure Span|QO|1|NC|U|191909|S|N|Kill dragonkin and loot.|
 R Ruins of Karnthar|ACTIVE|66353|M|65.50,58.81|Z|The Azure Span!Dragon Isles|N|Use quest item.|
-R Ruins of Karnthar|ACTIVE|66353|M|66.29,59.30|Z|The Azure Span!Dragon Isles|N|Use quest item.|
+R  Ruins of Karnthar|ACTIVE|66353|M|66.29,59.30|Z|The Azure Span!Dragon Isles|N|Use quest item.|
 C R.A.D. Anomalies|QID|66353|M|66.38,59.72|Z|2024;The Azure Span|QO|1|NC|U|191909|N|Click the quest item near the purple orbs.|
 C What the Enemy Knows|QID|66352|M|66.03,59.66|Z|2024;The Azure Span|QO|1|NC|U|191909|N|Sundered Flame's orders collected.|
 T R.A.D. Anomalies|QID|66353|M|65.04,58.67|Z|2024;The Azure Span|N|To Rannan Korren.|
@@ -836,8 +825,8 @@ C Ice Cave Ya Got There|QID|66556|M|66.18,11.00|Z|2024;The Azure Span|QO|1|NC|N|
 C Ice Cave Ya Got There|QID|66556|M|66.09,10.96|Z|2024;The Azure Span|QO|2|N|Stormshackler Rynea slain.|
 T Ice Cave Ya Got There|QID|66556|M|65.42,15.93|Z|2024;The Azure Span|N|To Sonova Snowden.|
 
-N Level Check|N|You should be 68 (or well past) by now. Hearth to Valdrakken and craft for the last two levels in a around 10 minutes. Don't bother with crafts worth less than 2k xp.|
-N CREDIT: AesVersatile|N|All credit for this guide (besides me adapting it for WoW-Pro) goes to YouTuber & Reddit user AesVersatile who did this route in 1hr 49min.|
+N Level Check|N|You should be 69 (or well past) by now. Hearth to Valdrakken and craft for the last level in less than 10 minutes. Don't bother with crafts worth less than 2k xp. Crafting XP was nerfed, Only the first 30 "first crafts" give XP now. You will want to be about close to 69 before you go craft to finish up. Tailoring is the cheapest, followed by Leatherworking if that is what you are looking for. Google "First Craft Bonus XP" for more details.|
+N CREDIT: AesVersatile|N|All credit for this guide (besides me adapting it for WoW-Pro) goes to YouTuber & Reddit user AesVersatile who did this route in 1hr 49min at release.|
 
 ]]
 
