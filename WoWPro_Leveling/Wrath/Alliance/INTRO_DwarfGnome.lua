@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("BosDun0112", "Leveling", "Dun Morogh", "WowPro Team", "Alliance", 3)
 WoWPro:GuideName(guide, "Dwarf/Gnome Intro")
-WoWPro:GuideNextGuide(guide, "MawLos1213")
+WoWPro:GuideNextGuide(guide, "WOTLK_Eastern_Kingdom1019")
 WoWPro:GuideLevels(guide, 1, 12)
 WoWPro:GuideSteps(guide, function()
 return [[

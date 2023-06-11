@@ -1,4 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="DF_WrathionvsSabellian.lua"/>
+   	<Script file="DF_Naszuro.lua"/>
     <Script file="Emm_Blanchy.lua"/>
     <Script file="SL_Sojourners.lua"/>
     <Script file="SL_RaresTreasures.lua"/>
