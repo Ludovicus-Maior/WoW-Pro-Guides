@@ -51,11 +51,11 @@ A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Suns
 N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip your Horde Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
 C Mount|ACTIVE|13677|M|75.55,23.94|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46070|V|BUFF|63397^63428^63607^66358^63401^63431^63434|
 C Learning The Reins|QID|13677|M|72.82,19.24|N|Head to the practice area and have at it.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46070|
-C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|EQUIPPED|46070|
+C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|
 
 C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
 C A Worthy Weapon|ACTIVE|13674|QO|1|M|71.58,75.40|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
-C A Worthy Weapon|QID|13674|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined by the purple floating buoys and loot the sword when it appears.|U|45000|NC|
+C A Worthy Weapon|QID|13674|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined by the purple floating buoys and loot the sword when it appears.\n[color=FF0000]NOTE: [/color]Loot the sword before it despawns or you'll have to get the flowers again.|U|45000|NC|
 
 C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
 C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
@@ -203,7 +203,7 @@ C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go 
 
 C A Blade Fit For A Champion|QID|13768^13783^13773^13762^13778|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
 C A Worthy Weapon|QID|13779^13763^13784^13774^13769|QO|1|M|71.58,75.40|L|45000 4|N|Pick flowers along the Ironwall Dam.|
-C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating buoys and loot the sword when it appears.|U|45000|
+C A Worthy Weapon|QID|13779^13763^13784^13774^13769|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating buoys and loot the sword when it appears.\n[color=FF0000]NOTE: [/color]Loot the sword before it despawns or you'll have to get the flowers again.|U|45000|
 C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
 C The Edge Of Winter|QID|13780^13764^13785^13775^13770|M|42.19,19.66|Z|Howling Fjord|L|45003|N|Find the maiden encased in ice and use the Ember on her.|T|Maiden of Winter's Breath Lake|U|45005|
 
