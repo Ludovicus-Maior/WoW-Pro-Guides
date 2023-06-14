@@ -12,7 +12,7 @@ end
 
 -- Left-Click Row Function --
 function WoWPro.Dailies:RowLeftClick(i)
-    if WoWPro.QID[WoWPro.rows[i].index] and not WoWPro.action[WoWPro.rows[i].index]=="A"
+    if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.action[WoWPro.rows[i].index]~="A"
     and WoWPro.QuestLog[tonumber(WoWPro.QID[WoWPro.rows[i].index])] then
         _G.QuestLog_OpenToQuest(WoWPro.QuestLog[tonumber(WoWPro.QID[WoWPro.rows[i].index])].index)
     end
