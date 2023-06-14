@@ -121,7 +121,7 @@ T Lost Battlepack|QID|66882|M|26.62,62.46|Z|2022|N|To Talonstalker Kavia.|
 T Becca Black and the Seven Gnomes|QID|66856^69926|M|28.45,62.33|N|To Becca the Black.|
 C Keys of Loyalty|QID|66133|M|26.62,62.46|Z|2022|QO|1|NC|U|191251|N|Combine looted fragments to create a key.|US|
 C Keys of Loyalty|QID|66133|M|26.62,62.46|Z|2022|QO|2|NC|N|Give the Greater Obsidian Key to Wrathion. |
-T Keys of Loyalty|QID|66133|M|26.62,62.46|Z|2022|N|To Wrathion. Once you have turned in this one, you can make more keys to assist in summoning 
+T Keys of Loyalty|QID|66133|M|26.62,62.46|Z|2022|N|To Wrathion. Once you have turned in this one, you can make more keys to assist in summoning|
 
 T The Tools of One's Trade|QID|66326|M|24.87,60.35|Z|2022|N|To Stoker Volrax.|
 T Feeding the Fire|QID|66308|M|24.86,60.37|Z|2022|N|To Stoker Volrax.|
