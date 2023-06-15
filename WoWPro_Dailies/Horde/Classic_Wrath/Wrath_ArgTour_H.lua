@@ -71,7 +71,7 @@ C Up To The Challenge|QID|13678|QO|1|M|PLAYER|L|45192 15|N|You need 15 Aspirant'
 t Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
 
 A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|
+C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|U|46070|
 C Mount|ACTIVE|13680|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46070|V|BUFF|63397|
 T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
 
@@ -194,9 +194,9 @@ C Threat From Above|QID|13812^13809|M|45.58,32.23;45.22,34.30|CN|N|Defeat Chillm
 
 C The Fate of the Fallen|QID|14107|M|49,40|CC|N|Loot Crystals (small gems) around the area and use the quest item on 6 neutral mobs without chains.|
 
-C A Valiant's Field Training|QID|13781^13765^13786^13771^13776|M|42.00,52.87|N|Equip your regular weapon(s) and go kill Converted Heroes.\n[color=FF0000]NOTE: [/color]If you can handle it, go after the large groups to speed up the process.| ; ** No need for the list of coordinates... one spot should suffice. - Hendo72
+C A Valiant's Field Training|QID|13781^13765^13786^13771^13776|M|42.00,52.87|N|Equip your regular weapon(s) and go kill Converted Heroes.\n[color=FF0000]NOTE: [/color]If you can handle it, go after the large groups to speed up the process.|T|Converted Hero| ; ** No need for the list of coordinates... one spot should suffice. - Hendo72
 C Taking Battle To The Enemy|QID|13810^13813|M|79.40,23.20;54.50,27.90;72.47,36.65;68.55,63.40;54.70,33.00;61.15,22.75;54.97,45.89;69.47,65.62;62.66,21.02;71.22,38.78;53.30,8.70;67.35,65.10;67.60,37.35;64.68,21.91;54.23,30.30;69.56,36.90;71.85,44.10;52.67,46.15;68.89,39.36;60.70,20.48;56.46,29.15;73.12,41.49;52.07,30.27;52.32,33.79;70.65,40.80;42.90,25.27;75.01,44.00;49.37,32.95|CN|N|Kill members of the Cult of the Damned.|
-N Mount|ACTIVE|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|U|46070|V|BUFF|63606|
+N Stabled Campaign Warhorse (Mount)|ACTIVE|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|U|46070|V|BUFF|63606|
 C At The Enemy's Gates|QID|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|N|After stacking your shields, use Shield Break to clear out all the Scouts (gargoyles) near the Lieutenants. Use shield Break and charge the Lieutenant when their shield is down; follow up with Thrust while in range.\n[color=FF0000]NOTE: [/color]Don't let the Lieutenants charge you as they hit harder than the mobs back at the tournament grounds. If they turn to charge, charge them first.\nDon't worry about the footman, they crumble at the slightest touch.|
 
 C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders.|
