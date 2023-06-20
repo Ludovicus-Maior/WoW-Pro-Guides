@@ -3,54 +3,45 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-
-local guide = WoWPro:RegisterGuide("Wrath_ArgTour_H",'Dailies', "Icecrown", "Ludovicus", "Horde", 3)
-WoWPro:GuideNickname(guide, "Argent Tournament Horde")
-WoWPro:GuideName(guide,"Argent Tournament Horde")
+local guide = WoWPro:RegisterGuide("Wrath_ArgTour_A",'Dailies', "Icecrown", "Ludovicus", "Alliance", 3)
+WoWPro:GuideNickname(guide, "Argent Tournament Alliance")
+WoWPro:GuideName(guide,"Argent Tournament Alliance")
 WoWPro:GuideLevels(guide ,77,80)
-WoWPro.Dailies:GuideFaction(guide,1124) --  "Argent Tournament"
+WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
 WoWPro:GuideSteps(guide, function()
 WoWPro:NoCache(guide)
 
 return [[
-
-; Quick and dirty adding of Horde to the old Alliance guide, and moved to Neutral.  I know Nzall was asking about this, and was also trying himself to make a guide. This is here incase he doesn't and or to 'merge' that one here.
-; this has been done by Blanckaert 4/Jan/2021
-; Changes made by Nzall 2021/12/16 and 2021/12/24 and 2022/03/15
-; Known issues: May not work for all Allied Races
-; Can't move to neutral, as different Guide Factions 1124 for alliance, 1124 for horde
-; ** ^ This is wrong. Alliance is 1094. - Hendo72
-F Argent Tournament Grounds|AVAILABLE|13668|M|71.05,47.89|Z|125;Dalaran|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
-
+F Argent Tournament Grounds|AVAILABLE|13667|M|71.05,47.89|Z|125;Dalaran|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
 ; Intro Quests
-A The Argent Tournament|QID|13668|M|69.66,22.86|N|From Justicar Mariel Trueheart inside the Argent Pavilion.|
-h Sunreaver Pavilion|AVAILABLE|13829|M|76.10,23.95|N|For the sake of expedience, set your hearth to here until you're done.\n[color=FF0000]NOTE: [/color]Skip this if you don't wish to.|
-T The Argent Tournament|QID|13668|M|76.27,24.38|N|To Magister Edien Sunhollow in the Sunreaver Pavilion.|
-A Mastery Of Melee|QID|13829|PRE|13668|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-A Mastery Of The Charge|QID|13839|PRE|13668|M|76.31,24.39|N|From Amariel Sunsworn.|
-A Mastery Of The Shield-Breaker|QID|13838|PRE|13668|M|76.24,24.44|N|From Galathia Brightdawn.|
-N Horde Lance|ACTIVE|13829^13838^13839|M|PLAYER|N|Equip the Horde Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
-C Mount|ACTIVE|13829^13838^13839|M|75.64,23.66|QO|1|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46070|V|BUFF|63397^63428^63607^66358^63401^63431^63434|
-N Shields|ACTIVE|13829&13838&13839|N|Use Defend (4) to stack Shields (up to 3) to protect your mount for 1 minute. Each stack applied resets the timer. The higher your shield stack, the less damage you take.\nIf your mount reaches 0, you lose your mount (and the fight).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-C Mastery Of Melee|QID|13829|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|
-C Mastery Of Melee|QID|13829|QO|2|M|PLAYER|N|After stacking your shields, use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]Keep your shields maxed at all times.|T|Melee Target|
-C Mastery Of The Shield-Breaker|QID|13838|QO|1|M|73.20,19.24|N|Ask Valis Windchaser to show you how to train with a Ranged Target.|CHAT|
-C Mastery Of The Shield-Breaker|QID|13838|QO|2|M|PLAYER|N|Use Shield-Breaker (2) on a Ranged Target 5 times.|T|Ranged Target|
-C Mastery Of The Charge|QID|13839|QO|1|M|72.67,18.88|N|Ask Rugan Steelbelly to show you how to train with a Charge Target.|CHAT|
-C Mastery Of The Charge|QID|13839|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Target 5 times.\n[color=FF0000]NOTE: [/color]You have to use Shield-Break until it has no shield left.|T|Charge Target|
-T Mastery Of The Charge|QID|13839|M|76.31,24.39|N|To Amariel Sunsworn.|
-T Mastery Of The Shield-Breaker|QID|13838|M|76.24,24.44|N|To Galathia Brightdawn.|
-T Mastery Of Melee|QID|13829|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-A Up To The Challenge|QID|13678|PRE|13829&13839&13839|M|76.27,24.38|N|From Magister Edien Sunhollow.|
+A The Argent Tournament|QID|13667|M|69.66,22.86|N|From Justicar Mariel Trueheart inside the Argent Pavilion.|
+h Silver Covenant Pavilion|AVAILABLE|13828|M|76.19,19.66|N|For the sake of expedience, set your hearth to here until you're done.\n[color=FF0000]NOTE: [/color]Skip this if you don't wish to.|
+T The Argent Tournament|QID|13667|M|76.46,19.40|N|To Arcanist Taelis in the Silver Covenant Pavilion.|
+A Mastery Of Melee|QID|13828|PRE|13667|M|76.46,19.40|N|From Arcanist Taelis.|
+A Mastery Of The Charge|QID|13837|PRE|13667|M|76.45,19.35|N|From Avareth Swiftstrike.|
+A Mastery Of The Shield-Breaker|QID|13835|PRE|13667|M|76.47,19.46|N|From Scout Shalyndria.|
+N Alliance Lance|ACTIVE|13828^13835^13837|M|PLAYER|N|Equip the Alliance Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
+C Mount|ACTIVE|13828^13835^13837|M|75.94,20.37|QO|1|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595|
+N Shields|ACTIVE|13828&13835&13837|N|Use Defend (4) to stack Shields (up to 3) to protect your mount for 1 minute. Each stack applied resets the timer. The higher your shield stack, the less damage you take.\nIf your mount reaches 0, you lose your mount (and the fight).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Mastery Of Melee|QID|13828|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|
+C Mastery Of Melee|QID|13828|QO|2|M|PLAYER|N|After stacking your shields, use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]Keep your shields maxed at all times.|T|Melee Target|
+C Mastery Of The Shield-Breaker|QID|13835|QO|1|M|73.20,19.24|N|Ask Valis Windchaser to show you how to train with a Ranged Target.|CHAT|
+C Mastery Of The Shield-Breaker|QID|13835|QO|2|M|PLAYER|N|Use Shield-Breaker (2) on a Ranged Target 5 times.|T|Ranged Target|
+C Mastery Of The Charge|QID|13837|QO|1|M|72.67,18.88|N|Ask Rugan Steelbelly to show you how to train with a Charge Target.|CHAT|
+C Mastery Of The Charge|QID|13837|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Target 5 times.\n[color=FF0000]NOTE: [/color]You have to use Shield-Break until it has no shield left.|T|Charge Target|
+T Mastery Of The Charge|QID|13837|M|76.45,19.35|N|To Avareth Swiftstrike.|
+T Mastery Of The Shield-Breaker|QID|13835|M|76.47,19.46|N|To Scout Shalyndria.|
+T Mastery Of Melee|QID|13828|M|76.46,19.40|N|To Arcanist Taelis.|
+A Up To The Challenge|QID|13678|PRE|13828&13837&13837|M|76.46,19.40|N|From Arcanist Taelis.|
 
 ; Aspirant Quests
-N Daily quests|ACTIVE|13678|AVAILABLE|13673&13674&13675|M|76.27,24.38|N|Magister Edien Sunhollow will offer one of three different daily quests:\nA Blade Fit For A Champion\nA Worthy Weapon\nThe Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A One of Three quests|QID|13673^13674^13675|ACTIVE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A Learning The Reins|QID|13677|ACTIVE|13678|M|76.24,24.44|N|From Galathia Brightdawn.|
-A Training In The Field|QID|13676|ACTIVE|13678|M|76.31,24.39|N|From Amariel Sunsworn.|
-N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip your Horde Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46070|EQUIPPED|46070|
-C Mount|ACTIVE|13677|M|75.55,23.94|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46070|V|BUFF|63397^63428^63607^66358^63401^63431^63434|
-C Learning The Reins|QID|13677|M|72.82,19.24|N|Head to the practice area and have at it.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46070|
+N Daily quests|ACTIVE|13678|AVAILABLE|13673&13674&13675|M|76.46,19.40|N|Arcanist Taelis will offer one of three different daily quests:\nA Blade Fit For A Champion\nA Worthy Weapon\nThe Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A One of Three quests|QID|13673^13674^13675|ACTIVE|13678|M|76.46,19.40|N|From Arcanist Taelis.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A Learning The Reins|QID|13677|ACTIVE|13678|M|76.47,19.46|N|From Scout Shalyndria.|
+A Training In The Field|QID|13676|ACTIVE|13678|M|76.45,19.35|N|From Avareth Swiftstrike.|
+N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip your Horde Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
+C Mount|ACTIVE|13677|M|75.55,23.94|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|63397^63428^63607^66358^63401^63431^63434|
+C Learning The Reins|QID|13677|M|72.82,19.24|N|Head to the practice area and have at it.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46069|
 C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|
 
 C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
@@ -60,31 +51,31 @@ C A Worthy Weapon|QID|13674|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack
 C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
 C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
 
-T Training In The Field|QID|13676|M|76.31,24.39|N|To Amariel Sunsworn.|
-T A Blade Fit For A Champion|QID|13673|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-T A Worthy Weapon|QID|13674|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-T The Edge Of Winter|QID|13675|M|76.27,24.38|N|To Magister Edien Sunhollow.|
-T Learning The Reins|QID|13677|M|76.24,24.44|N|To Galathia Brightdawn.|
+T Training In The Field|QID|13676|M|76.45,19.35|N|To Avareth Swiftstrike.|
+T A Blade Fit For A Champion|QID|13673|M|76.46,19.40|N|To Arcanist Taelis.|
+T A Worthy Weapon|QID|13674|M|76.46,19.40|N|To Arcanist Taelis.|
+T The Edge Of Winter|QID|13675|M|76.46,19.40|N|To Arcanist Taelis.|
+T Learning The Reins|QID|13677|M|76.47,19.46|N|To Scout Shalyndria.|
 
 ; Finishing up being an Aspirant
 C Up To The Challenge|QID|13678|QO|1|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Icecrown|
-t Up To The Challenge|QID|13678|M|76.27,24.38|N|To Magister Edien Sunhollow.|
+t Up To The Challenge|QID|13678|M|76.46,19.40|N|To Arcanist Taelis.|
 
-A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
-C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|U|46070|
-C Mount|ACTIVE|13680|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46070|V|BUFF|63397|
-T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.27,24.38|N|From Magister Edien Sunhollow.|
+A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.46,19.40|N|From Arcanist Taelis.|
+C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|U|46069|
+C Mount|ACTIVE|13680|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46069|V|BUFF|63397|
+T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.46,19.40|N|From Arcanist Taelis.|
 
 ; These kick off the race specific initial quests.
-A A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Orc|
+A A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Orc|
 T A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.47,24.60|N|To Mokra the Skullcrusher.|
-A A Valiant Of Sen'jin|QID|13693|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Troll|
+A A Valiant Of Sen'jin|QID|13693|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Troll|
 T A Valiant Of Sen'jin|QID|13693|PRE|13680|M|75.95,24.53|N|To Zul'tore.|
-A A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Tauren|
+A A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Tauren|
 T A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.20,24.63|N|To Runok Wildmane.|
-A A Valiant Of Undercity|QID|13695|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Undead|
+A A Valiant Of Undercity|QID|13695|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Undead|
 T A Valiant Of Undercity|QID|13695|PRE|13680|M|76.53,24.21|N|To Deathstalker Visceri.|
-A A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.27,24.38|N|From Magister Edien Sunhollow.|R|Blood Elf|
+A A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Blood Elf|
 T A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.45,23.85|N|To Eressea Dawnsinger.|
 
 ; Champion level kick-offs once Champion of their own race.
@@ -132,18 +123,18 @@ A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.53,23.92|N|From Aneera Thuron
 
 ; Quests once you are exalted
 ; Girana gives 2 of 5
-; A Rescue at Sea|QID|14136|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
-; A A Leg Up|QID|14143|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
-; A Stop The Aggressors|QID|14140|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
-; A The Light's Mercy|QID|14144|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
-A Girana gives 1 of 4|QID|14136^14143^14140^14144|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|REP|The Sunreavers;1124;exalted|
-A You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|From Girana the Blooded.|REP|The Sunreavers;1124;exalted|
+; A Rescue at Sea|QID|14136|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
+; A A Leg Up|QID|14143|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
+; A Stop The Aggressors|QID|14140|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
+; A The Light's Mercy|QID|14144|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
+A Girana gives 1 of 4|QID|14136^14143^14140^14144|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|REP|The Silver Covenants;1124;exalted|
+A You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
 
 ; Tylos gives 1 of 3
-; A Gormok Wants His Snobolds|QID|14141|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Sunreavers;1124;exalted|
-; A What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Sunreavers;1124;exalted|
-; A Breakfast Of Champions|QID|14092|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Sunreavers;1124;exalted|
-A Tylos gives 1 of 3|QID|14092^14141^14145|M|76.10,24.10|N|From Tylos Dawnrunner.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|REP|The Sunreavers;1124;exalted|
+; A Gormok Wants His Snobolds|QID|14141|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1124;exalted|
+; A What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1124;exalted|
+; A Breakfast Of Champions|QID|14092|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1124;exalted|
+A Tylos gives 1 of 3|QID|14092^14141^14145|M|76.10,24.10|N|From Tylos Dawnrunner.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|REP|The Silver Covenants;1124;exalted|
 
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
@@ -159,14 +150,14 @@ A Among the Champions|QID|13814|PRE|13795|M|73.59,20.09|N|From Illyrie Nightfall
 A Taking Battle To The Enemy|QID|13813|PRE|13795|M|73.80,19.45|N|From Zor'be the Bloodletter.|C|Death Knight|
 
 ; Crusader Quests
-N Adelard's dailies|AVAILABLE|14101&14102&14104&14105|N|Drottinn Hrothgar\nMistcaller Yngvar\nOrnolf the Scarred\nDeathspeaker Kharos|S!US|ACH|2186|REP|The Sunreavers;1124;exalted|
-A One of four dailies|QID|14101&14102&14104&14105|M|69.47,23.13|N|From High Crusader Adelard.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Sunreavers;1124;exalted|
-N Silverdawn's Dailies|AVAILABLE|14107&14108|N|The Fate of the Fallen\nGet Kraken!|S!US|ACH|2186|REP|The Sunreavers;1124;exalted|
-A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Sunreavers;1124;exalted|
+N Adelard's dailies|AVAILABLE|14101&14102&14104&14105|N|Drottinn Hrothgar\nMistcaller Yngvar\nOrnolf the Scarred\nDeathspeaker Kharos|S!US|ACH|2186|REP|The Silver Covenants;1124;exalted|
+A One of four dailies|QID|14101&14102&14104&14105|M|69.47,23.13|N|From High Crusader Adelard.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1124;exalted|
+N Silverdawn's Dailies|AVAILABLE|14107&14108|N|The Fate of the Fallen\nGet Kraken!|S!US|ACH|2186|REP|The Silver Covenants;1124;exalted|
+A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1124;exalted|
 
 ; Generic Completions for Valiants and Champions
-N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.55,23.94|N|Go get the mount specific to the race you're representing. They are located just outside the Sunreaver Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46070|BUFF|63398^63402^63429^63432|
-C The Grand Melee|QID|13767^13772^13777^13782^13787|M|75.28,18.42|N|After stacking your shields (Defend), head over to the Alliance Valiant's Ring and talk to any Alliance Valiant to start.\n\n[color=FF0000]NOTE: [/color]If you speak to them from behind, you can break their shields as they move away from you.\nUse the same process as you did with the Aspirant Challenge earlier.|U|46070|
+N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.55,23.94|N|Go get the mount specific to the race you're representing. They are located just outside the Silver Covenant Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46069|BUFF|63398^63402^63429^63432|
+C The Grand Melee|QID|13767^13772^13777^13782^13787|M|75.28,18.42|N|After stacking your shields (Defend), head over to the Alliance Valiant's Ring and talk to any Alliance Valiant to start.\n\n[color=FF0000]NOTE: [/color]If you speak to them from behind, you can break their shields as they move away from you.\nUse the same process as you did with the Aspirant Challenge earlier.|U|46069|
 C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and shield break and thrust while they are low.|
 C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship.\n[color=FF0000]NOTE: [/color]Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|
 ; A Identifying the Remains|QID|14095|M|69.80,22.20|CC|N|From Kraken Tooth|
@@ -196,7 +187,7 @@ C The Fate of the Fallen|QID|14107|M|49,40|CC|N|Loot Crystals (small gems) aroun
 
 C A Valiant's Field Training|QID|13781^13765^13786^13771^13776|M|42.00,52.87|N|Equip your regular weapon(s) and go kill Converted Heroes.\n[color=FF0000]NOTE: [/color]If you can handle it, go after the large groups to speed up the process.|T|Converted Hero| ; ** No need for the list of coordinates... one spot should suffice. - Hendo72
 C Taking Battle To The Enemy|QID|13810^13813|M|79.40,23.20;54.50,27.90;72.47,36.65;68.55,63.40;54.70,33.00;61.15,22.75;54.97,45.89;69.47,65.62;62.66,21.02;71.22,38.78;53.30,8.70;67.35,65.10;67.60,37.35;64.68,21.91;54.23,30.30;69.56,36.90;71.85,44.10;52.67,46.15;68.89,39.36;60.70,20.48;56.46,29.15;73.12,41.49;52.07,30.27;52.32,33.79;70.65,40.80;42.90,25.27;75.01,44.00;49.37,32.95|CN|N|Kill members of the Cult of the Damned.|
-N Stabled Campaign Warhorse (Mount)|ACTIVE|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|U|46070|V|BUFF|63606|
+N Stabled Campaign Warhorse (Mount)|ACTIVE|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Should you ever lose your mount, return here to get another one.\nManually check this step off to continue.|U|46069|V|BUFF|63606|
 C At The Enemy's Gates|QID|13856^13857^13858^13859^13860|QO|1;2;3|M|49.00,71.40|N|After stacking your shields, use Shield Break to clear out all the Scouts (gargoyles) near the Lieutenants. Use shield Break and charge the Lieutenant when their shield is down; follow up with Thrust while in range.\n[color=FF0000]NOTE: [/color]Don't let the Lieutenants charge you as they hit harder than the mobs back at the tournament grounds. If they turn to charge, charge them first.\nDon't worry about the footman, they crumble at the slightest touch.|
 
 C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders.|
@@ -320,9 +311,9 @@ A The Scourgebane|QID|13795|PRE|13736^13737^13738^13739^13740|M|69.66,22.85|N|Fr
 T The Scourgebane|QID|13795|M|73.80,20.06|N|To Crok Scourgebane.|
 
 ; Black Knight Quest Chain (Can be started as a filler between daily turn-ins)
-A The Black Knight of Silverpine?|QID|13634|PRE|13668|M|69.43,23.02|N|From Crusader Rhydalla.|
+A The Black Knight of Silverpine?|QID|13634|PRE|13667|M|69.43,23.02|N|From Crusader Rhydalla.|
 F Dalaran|ACTIVE|13634|QO|1|M|72.59,22.61|Z|118|N|Make your way to Dalaran.\n[color=FF0000]NOTE: [/color]You can also fly directly or use your Hearth.|IZ|-Undercity^Silverpine Forest^Tirisfal Glades|
-P Undercity|ACTIVE|13634|QO|1|M|55.50,23.81|Z|125|N|Use the Undercity portal in Sunreaver's Sanctuary.|IZ|Dalaran|
+P Undercity|ACTIVE|13634|QO|1|M|55.50,23.81|Z|125|N|Use the Undercity portal in Silver Covenant's Sanctuary.|IZ|Dalaran|
 F The Sepulcher|ACTIVE|13634|QO|1|M|63.26,48.54|Z|1458;Undercity|N|Take the flight to The Sepulcher.|IZ|Undercity|
 C The Black Knight of Silverpine?|QID|13634|M|53.16,28.10|Z|Silverpine Forest|L|45062|N|The Dusty Journal is located just inside the house at the base of the stairs leading upstairs.|
 R Argent Tournament Grounds|ACTIVE|13634|N|Choose your own path back.|
