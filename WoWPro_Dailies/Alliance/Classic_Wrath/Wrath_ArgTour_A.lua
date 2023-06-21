@@ -8,9 +8,8 @@ WoWPro:GuideNickname(guide, "Argent Tournament Alliance")
 WoWPro:GuideName(guide,"Argent Tournament Alliance")
 WoWPro:GuideLevels(guide ,77,80)
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
-WoWPro:GuideSteps(guide, function()
 WoWPro:NoCache(guide)
-
+WoWPro:GuideSteps(guide, function()
 return [[
 F Argent Tournament Grounds|AVAILABLE|13667|M|71.05,47.89|Z|125;Dalaran|N|Accept the free flight from Jean Pierre Poulain in Kraus' Landing, Dalaran.|IZ|-Icecrown|
 ; Intro Quests
