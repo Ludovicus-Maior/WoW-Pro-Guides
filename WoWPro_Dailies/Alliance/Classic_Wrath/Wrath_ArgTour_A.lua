@@ -122,18 +122,18 @@ A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.53,23.92|N|From Aneera Thuron
 
 ; Quests once you are exalted
 ; Girana gives 2 of 5
-; A Rescue at Sea|QID|14136|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
-; A A Leg Up|QID|14143|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
-; A Stop The Aggressors|QID|14140|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
-; A The Light's Mercy|QID|14144|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
-A Girana gives 1 of 4|QID|14136^14143^14140^14144|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|REP|The Silver Covenants;1124;exalted|
-A You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1124;exalted|
+; A Rescue at Sea|QID|14136|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
+; A A Leg Up|QID|14143|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
+; A Stop The Aggressors|QID|14140|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
+; A The Light's Mercy|QID|14144|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
+A Girana gives 1 of 4|QID|14136^14143^14140^14144|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|REP|The Silver Covenants;1094;exalted|
+A You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
 
 ; Tylos gives 1 of 3
-; A Gormok Wants His Snobolds|QID|14141|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1124;exalted|
-; A What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1124;exalted|
-; A Breakfast Of Champions|QID|14092|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1124;exalted|
-A Tylos gives 1 of 3|QID|14092^14141^14145|M|76.10,24.10|N|From Tylos Dawnrunner.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|REP|The Silver Covenants;1124;exalted|
+; A Gormok Wants His Snobolds|QID|14141|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1094;exalted|
+; A What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1094;exalted|
+; A Breakfast Of Champions|QID|14092|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1094;exalted|
+A Tylos gives 1 of 3|QID|14092^14141^14145|M|76.10,24.10|N|From Tylos Dawnrunner.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|REP|The Silver Covenants;1094;exalted|
 
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
@@ -149,10 +149,10 @@ A Among the Champions|QID|13814|PRE|13795|M|73.59,20.09|N|From Illyrie Nightfall
 A Taking Battle To The Enemy|QID|13813|PRE|13795|M|73.80,19.45|N|From Zor'be the Bloodletter.|C|Death Knight|
 
 ; Crusader Quests
-N Adelard's dailies|AVAILABLE|14101&14102&14104&14105|N|Drottinn Hrothgar\nMistcaller Yngvar\nOrnolf the Scarred\nDeathspeaker Kharos|S!US|ACH|2186|REP|The Silver Covenants;1124;exalted|
-A One of four dailies|QID|14101&14102&14104&14105|M|69.47,23.13|N|From High Crusader Adelard.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1124;exalted|
-N Silverdawn's Dailies|AVAILABLE|14107&14108|N|The Fate of the Fallen\nGet Kraken!|S!US|ACH|2186|REP|The Silver Covenants;1124;exalted|
-A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1124;exalted|
+N Adelard's dailies|AVAILABLE|14101&14102&14104&14105|N|Drottinn Hrothgar\nMistcaller Yngvar\nOrnolf the Scarred\nDeathspeaker Kharos|S!US|ACH|2186|REP|The Silver Covenants;1094;exalted|
+A One of four dailies|QID|14101&14102&14104&14105|M|69.47,23.13|N|From High Crusader Adelard.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1094;exalted|
+N Silverdawn's Dailies|AVAILABLE|14107&14108|N|The Fate of the Fallen\nGet Kraken!|S!US|ACH|2186|REP|The Silver Covenants;1094;exalted|
+A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1094;exalted|
 
 ; Generic Completions for Valiants and Champions
 N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.55,23.94|N|Go get the mount specific to the race you're representing. They are located just outside the Silver Covenant Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46069|BUFF|63398^63402^63429^63432|
