@@ -2420,6 +2420,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local standingId, earnedValue, hasBonusRepGain
                 if Friendship then
                     local reputationInfo = _G.C_GossipInfo.GetFriendshipReputation(factionIndex)
+                    if not reputationInfo then
+                        WoWPro:Error("Bad Faction number in %q", WoWPro.rep[guideIndex])
+                        break
+                    end
                     local friendTextLevel = reputationInfo.reaction:lower()
                     standingId = Rep2IdAndClass[friendTextLevel][1]
                     earnedValue = reputationInfo.standing - reputationInfo.nextThreshold
@@ -2427,6 +2431,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 else
                     local name, bottomValue, _
                     name, _, standingId, bottomValue, _, earnedValue, _, _, _, _, _, _, _, _, hasBonusRepGain = _G.GetFactionInfoByID(factionIndex)
+                    if not name then
+                        WoWPro:Error("Bad Faction number in %q", WoWPro.rep[guideIndex])
+                        break
+                    end
                     WoWPro:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s", name, standingId, earnedValue, bottomValue, tostring(hasBonusRepGain))
                     earnedValue = earnedValue - bottomValue
                 end
