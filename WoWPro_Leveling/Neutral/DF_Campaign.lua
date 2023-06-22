@@ -222,7 +222,7 @@ A Tyr's Fall|QID|72443|PRE|72526|M|42.10,85.86|Z|20;Keeper's Rest|N|From Watcher
 C Tyr's Fall|QID|72443|QO|1|M|45.79,84.03|Z|20;Keeper's Rest|CHAT|N|This is a chat option, not just clicking the console and channelling Activate, Then click the next chat option to start the scenario.|
 C The Eastern Glades|ACTIVE|72443|SO|1|M|54.95,59.81|Z|2146;The Eastern Glades|N|Kill some enemies. Specifically use all your UI Abilities.|
 C Now Kith'ix|ACTIVE|72443|SO|2|M|54.95,59.81|Z|2146;The Eastern Glades|N|Kill more enemies. (100%).|
-C Allied Chronicles|ACTIVE|72443|SO|3|M|49.41,59.18|Z|2146;The Eastern Glades|N|Kill Kith'ix.| 
+C Allied Chronicles|ACTIVE|72443|SO|3|M|49.41,59.18|Z|2146;The Eastern Glades|N|Kill Kith'ix.|
 C Umbral Glade|ACTIVE|72443|SO|4|M|35.53,38.51|Z|2146;The Eastern Glades|N|Chase after Kith'ix and kill more Old God forces.|
 C Tyr's Last Stand|ACTIVE|72443|SO|5|M|36.34,26.07|Z|2146;The Eastern Glades|N|Approach Zakajz and listen to the Dialog.|
 C The Aspects of Zakajz|ACTIVE|72443|SO|6|M|36.34,26.07|Z|2146;The Eastern Glades|N|Defeat the Aspects.|
