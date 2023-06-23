@@ -109,14 +109,14 @@ b Tirisfal Glades|ACTIVE|1959|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tiri
 R Undercity|ACTIVE|1959|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|R|Undead,Troll|C|Mage|
 T Report to Anastasia|QID|1959|M|69.95,44.19;69.79,41.95;68.41,40.53;66.12,22.61;85.13,10.07|Z|Undercity|CC|N|To Anastasia Hartwell in the Magic Quarter.|R|Undead,Troll|C|Mage|
 A Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1959|R|Undead,Troll|C|Mage|
-C Chest of Containment Coffers|ACTIVE|1960|M|85.13,10.07|Z|Undercity|L|7247|N|Obtain a Chest of Containment Coffers from behind Anastasia.|R|Undead,Troll|C|Mage|
-C Cantation of Manifestation|ACTIVE|1960|M|85.13,10.07|Z|Undercity|L|7308|N|Obtain a Cantation of Manifestation from behind Anastasia.|R|Undead,Troll|C|Mage|
-R Algernon's Alchemist Shop|ACTIVE|1960|M|79.46,23.49;56.68,67.73;51.47,74.48|Z|Undercity|CC|N|Follow the outer ring clockwise to Algernon's shop in the Apothecarium.|R|Undead,Troll|C|Mage|
-C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7308|N|Use the Cantation of Manifestation at the shop to make the creatures visible.|R|Undead,Troll|C|Mage|
-C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7247|QO|1|N|Subdue the creatures with your spells and use a coffer to capture them.|R|Undead,Troll|C|Mage|
+C Chest of Containment Coffers|ACTIVE|1960|QO|2|M|85.13,10.07|Z|Undercity|L|7247|N|Obtain a Chest of Containment Coffers from behind Anastasia.|R|Undead,Troll|C|Mage|
+C Cantation of Manifestation|ACTIVE|1960|QO|3|M|85.13,10.07|Z|Undercity|L|7308|N|Obtain a Cantation of Manifestation from behind Anastasia.|R|Undead,Troll|C|Mage|
+R Algernon's Alchemist Shop|ACTIVE|1960|QO|1|M|79.46,23.49;56.68,67.73;51.47,74.48|CC|Z|Undercity|N|Follow the outer ring clockwise to Algernon's shop in the Apothecarium.|R|Undead,Troll|C|Mage|
+N Cantation of Manifestation|ACTIVE|1960|QO|1|M|PLAYER|N|It's recommended to place the Cantation of Manifestation on one of your bars for quicker access (or leave your bag open).\nThe Hotkey is set for the Containment Coffers.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Investigate the Alchemist Shop|QID|1960|QO|1|M|51.47,74.48|Z|Undercity|N|While standing on the stairs, use the Cantation to make the rift spawns visible (and attack you) and after taking note of where they are, run across the bridge behind you to make them reset.\nHead back and use Frost Nova to trap one (it will become visible when damaged). Burn it down and use the Coffer to capture it.\nRinse and repeat until done.\n[color=FF0000]NOTE: [/color]If you trap more than one, run away and reset.|T|Rift Spawn|U|7247|R|Undead,Troll|C|Mage|
 T Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell.|R|Undead,Troll|C|Mage|
-A Gathering Materials|QID|1961|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1960|R|Undead,Troll|C|Mage|
-F The Sepulcher|QID|1961|M|63.26,48.54|Z|Undercity|N|Fly back to The Sepulcher.|R|Undead,Troll|C|Mage|
+A Gathering Materials|QID|1961|PRE|1960|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|R|Undead,Troll|C|Mage|
+F The Sepulcher|ACTIVE|1961|M|63.26,48.54|Z|Undercity|N|Fly back to The Sepulcher.|R|Undead,Troll|C|Mage|IZ|Undercity|
 ; ---
 
 ; lv 15
