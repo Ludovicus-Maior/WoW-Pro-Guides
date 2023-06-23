@@ -31,66 +31,66 @@ C Mastery Of The Charge|QID|13837|QO|2|M|PLAYER|N|Use Charge (3) on a Charge Tar
 T Mastery Of The Charge|QID|13837|M|76.45,19.35|N|To Avareth Swiftstrike.|
 T Mastery Of The Shield-Breaker|QID|13835|M|76.47,19.46|N|To Scout Shalyndria.|
 T Mastery Of Melee|QID|13828|M|76.46,19.40|N|To Arcanist Taelis.|
-A Up To The Challenge|QID|13678|PRE|13828&13837&13837|M|76.46,19.40|N|From Arcanist Taelis.|
+A Up To The Challenge|QID|13672|PRE|13828&13837&13837|M|76.46,19.40|N|From Arcanist Taelis.|
 
 ; Aspirant Quests
-N Daily quests|ACTIVE|13678|AVAILABLE|13673&13674&13675|M|76.46,19.40|N|Arcanist Taelis will offer one of three different daily quests:\nA Blade Fit For A Champion\nA Worthy Weapon\nThe Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A One of Three quests|QID|13673^13674^13675|ACTIVE|13678|M|76.46,19.40|N|From Arcanist Taelis.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A Learning The Reins|QID|13677|ACTIVE|13678|M|76.47,19.46|N|From Scout Shalyndria.|
-A Training In The Field|QID|13676|ACTIVE|13678|M|76.45,19.35|N|From Avareth Swiftstrike.|
-N Horde Lance|ACTIVE|13677|QO|1;2;3|M|PLAYER|N|Equip your Horde Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
-C Mount|ACTIVE|13677|M|75.55,23.94|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|63397^63428^63607^66358^63401^63431^63434|
-C Learning The Reins|QID|13677|M|72.82,19.24|N|Head to the practice area and have at it.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46069|
-C Training In The Field|QID|13676|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|
+N Daily quests|ACTIVE|13672|AVAILABLE|13666&13669&13670|M|76.46,19.40|N|Arcanist Taelis will offer one of three different daily quests:\nA Blade Fit For A Champion\nA Worthy Weapon\nThe Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A One of Three quests|QID|13666^13669^13670|ACTIVE|13672|M|76.46,19.40|N|From Arcanist Taelis.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A Learning The Reins|QID|13625|ACTIVE|13672|M|76.47,19.46|N|From Scout Shalyndria.|
+A Training In The Field|QID|13671|ACTIVE|13672|M|76.45,19.35|N|From Avareth Swiftstrike.|
+N Alliance Lance|ACTIVE|13625|QO|1;2;3|M|PLAYER|N|Equip your Alliance Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
+C Mount|ACTIVE|13625|M|75.55,23.94|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595^63394^63404^63421^63425^63607|
+C Learning The Reins|QID|13625|M|72.82,19.24|N|Head to the practice area and have at it.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46069|
+C Training In The Field|QID|13671|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|
 
-C A Blade Fit For A Champion|QID|13673|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
-C A Worthy Weapon|ACTIVE|13674|QO|1|M|71.58,75.40|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
-C A Worthy Weapon|QID|13674|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined by the purple floating buoys and loot the sword when it appears.\n[color=FF0000]NOTE: [/color]Loot the sword before it despawns or you'll have to get the flowers again.|U|45000|NC|
+C A Blade Fit For A Champion|QID|13666|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
+C A Worthy Weapon|ACTIVE|13669|QO|1|M|71.58,75.40|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
+C A Worthy Weapon|QID|13669|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined by the purple floating buoys and loot the sword when it appears.\n[color=FF0000]NOTE: [/color]Loot the sword before it despawns or you'll have to get the flowers again.|U|45000|NC|
 
-C The Edge Of Winter|QID|13675|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
-C The Edge Of Winter|QID|13675|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
+C The Edge Of Winter|QID|13670|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
+C The Edge Of Winter|QID|13670|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
 
-T Training In The Field|QID|13676|M|76.45,19.35|N|To Avareth Swiftstrike.|
-T A Blade Fit For A Champion|QID|13673|M|76.46,19.40|N|To Arcanist Taelis.|
-T A Worthy Weapon|QID|13674|M|76.46,19.40|N|To Arcanist Taelis.|
-T The Edge Of Winter|QID|13675|M|76.46,19.40|N|To Arcanist Taelis.|
-T Learning The Reins|QID|13677|M|76.47,19.46|N|To Scout Shalyndria.|
+T Training In The Field|QID|13671|M|76.45,19.35|N|To Avareth Swiftstrike.|
+T A Blade Fit For A Champion|QID|13666|M|76.46,19.40|N|To Arcanist Taelis.|
+T A Worthy Weapon|QID|13669|M|76.46,19.40|N|To Arcanist Taelis.|
+T The Edge Of Winter|QID|13670|M|76.46,19.40|N|To Arcanist Taelis.|
+T Learning The Reins|QID|13625|M|76.47,19.46|N|To Scout Shalyndria.|
 
 ; Finishing up being an Aspirant
-C Up To The Challenge|QID|13678|QO|1|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Icecrown|
-t Up To The Challenge|QID|13678|M|76.46,19.40|N|To Arcanist Taelis.|
+C Up To The Challenge|QID|13672|QO|1|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Icecrown|
+t Up To The Challenge|QID|13672|M|76.46,19.40|N|To Arcanist Taelis.|
 
-A The Aspirant's Challenge|QID|13680|PRE|13678|M|76.46,19.40|N|From Arcanist Taelis.|
-C The Aspirant's Challenge|QID|13680|PRE|13678|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|U|46069|
+A The Aspirant's Challenge|QID|13680|PRE|13672|M|76.46,19.40|N|From Arcanist Taelis.|
+C The Aspirant's Challenge|QID|13680|PRE|13672|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|U|46069|
 C Mount|ACTIVE|13680|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46069|V|BUFF|63397|
-T The Aspirant's Challenge|QID|13680|PRE|13678|M|76.46,19.40|N|From Arcanist Taelis.|
+T The Aspirant's Challenge|QID|13680|PRE|13672|M|76.46,19.40|N|From Arcanist Taelis.|
 
 ; These kick off the race specific initial quests.
-A A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Orc|
-T A Valiant Of Orgrimmar|QID|13691|PRE|13680|M|76.47,24.60|N|To Mokra the Skullcrusher.|
-A A Valiant Of Sen'jin|QID|13693|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Troll|
-T A Valiant Of Sen'jin|QID|13693|PRE|13680|M|75.95,24.53|N|To Zul'tore.|
-A A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Tauren|
-T A Valiant Of Thunder Bluff|QID|13694|PRE|13680|M|76.20,24.63|N|To Runok Wildmane.|
-A A Valiant Of Undercity|QID|13695|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Undead|
-T A Valiant Of Undercity|QID|13695|PRE|13680|M|76.53,24.21|N|To Deathstalker Visceri.|
-A A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.46,19.40|N|From Arcanist Taelis.|R|Blood Elf|
-T A Valiant Of Silvermoon|QID|13696|PRE|13680|M|76.45,23.85|N|To Eressea Dawnsinger.|
+A A Valiant Of Stormwind|QID|13684|PRE|13679|M|76.47,19.40|N|From Arcanist Taelis.|R|Human|
+T A Valiant Of Stormwind|QID|13684|PRE|13679|M|76.60,19.12|N|To Marshal Jacob Alerius.|
+A A Valiant Of Ironforge|QID|13685|PRE|13679|M|76.47,19.40|N|From Arcanist Taelis.|R|Dwarf|
+T A Valiant Of Ironforge|QID|13685|PRE|13679|M|76.64,19.49|N|To Lana Stouthammer.|
+A A Valiant Of Gnomeregan|QID|13688|PRE|13679|M|76.47,19.40|N|From Arcanist Taelis.|R|Gnome|
+T A Valiant Of Gnomeregan|QID|13688|PRE|13679|M|76.55,19.83|N|To Ambrose Boltspark.|
+A A Valiant Of Darnassus|QID|13689|PRE|13679|M|76.47,19.40|N|From Arcanist Taelis.|R|Night Elf;Worgen|
+T A Valiant Of Darnassus|QID|13689|PRE|13679|M|76.34,19.03|N|To Jaelyne Evensong.|
+A A Valiant Of The Exodar|QID|13690|PRE|13679|M|76.47,19.40|N|From Arcanist Taelis.|R|Draenei|
+T A Valiant Of The Exodar|QID|13690|PRE|13679|M|76.10,19.10|N|To Colosos.|
 
 ; Champion level kick-offs once Champion of their own race.
-A Pick Your New Faction|QID|13707^13709^13708^13711^13710|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|
-T Valiant Of Orgrimmar|QID|13707|M|76.47,24.60|N|To Mokra the Skullcrusher.|
-T Valiant Of Gnomeregan|QID|13708|M|75.95,24.53|N|To Zul'tore.|
-T Valiant Of Thunder Bluff|QID|13709|M|76.20,24.63|N|To Runok Wildmane.|
-T Valiant Of Undercity|QID|13710|M|76.53,24.21|N|To Deathstalker Visceri.|
-T Valiant Of Silvermoon|QID|13711|M|76.45,23.85|N|To Eressea Dawnsinger.|
+A Pick Your New Faction|QID|13593^13703^13704^13705^13706|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|
+T Valiant Of Stormwind|QID|13593|M|76.60,19.12|N|To Marshal Jacob Alerius.|
+T Valiant Of Ironforge|QID|13703|M|76.64,19.49|N|To Lana Stouthammer.|
+T Valiant Of Gnomeregan|QID|13704|M|76.55,19.83|N|To Ambrose Boltspark.|
+T Valiant Of The Exodar|QID|13705|M|76.10,19.10|N|To Colosos.|
+T Valiant Of Darnassus|QID|13706|M|76.34,19.03|N|To Jaelyne Evensong.|
 
 ; The PRE clause selects allows either the race specific or the generic Valiant of * quest
-A The Valiant's Charge|QID|13697|PRE|13691^13707|M|76.47,24.60|N|From Mokra the Skullcrusher.|
-A The Valiant's Charge|QID|13719|PRE|13693^13708|M|75.95,24.53|N|From Zul'tore.|
-A The Valiant's Charge|QID|13720|PRE|13694^13709|M|76.20,24.63|N|From Runok Wildmane.|
-A The Valiant's Charge|QID|13721|PRE|13695^13710|M|76.53,24.21|N|From Deathstalker Visceri.|
-A The Valiant's Charge|QID|13722|PRE|13696^13711|M|76.45,23.85|N|From Eressea Dawnsinger.|
+A The Valiant's Charge|QID|13718|PRE|13684^13593|M|76.60,19.12|N|From Marshal Jacob Alerius.|
+A The Valiant's Charge|QID|13714|PRE|13685^13703|M|76.64,19.49|N|From Lana Stouthammer.|
+A The Valiant's Charge|QID|13715|PRE|13688^13704|M|76.55,19.83|N|From Ambrose Boltspark.|
+A The Valiant's Charge|QID|13716|PRE|13690^13705|M|76.10,19.10|N|From Colosos.|
+A The Valiant's Charge|QID|13717|PRE|13689^13706|M|76.34,19.03|N|From Jaelyne Evensong.|
 
 ; ** Valiant Quests are the same for each race except for the quest giver and QIDs
 ; ** Orc
@@ -155,7 +155,7 @@ N Silverdawn's Dailies|AVAILABLE|14107&14108|N|The Fate of the Fallen\nGet Krake
 A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1094;exalted|
 
 ; Generic Completions for Valiants and Champions
-N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.55,23.94|N|Go get the mount specific to the race you're representing. They are located just outside the Silver Covenant Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46069|BUFF|63398^63402^63429^63432|
+N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.55,23.94|N|Go get the mount specific to the race you're representing. They are located just outside the Silver Covenant Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46069|BUFF|63395^63405^63422^63426^62596^63608|
 C The Grand Melee|QID|13767^13772^13777^13782^13787|M|75.28,18.42|N|After stacking your shields (Defend), head over to the Alliance Valiant's Ring and talk to any Alliance Valiant to start.\n\n[color=FF0000]NOTE: [/color]If you speak to them from behind, you can break their shields as they move away from you.\nUse the same process as you did with the Aspirant Challenge earlier.|U|46069|
 C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and shield break and thrust while they are low.|
 C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship.\n[color=FF0000]NOTE: [/color]Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|
@@ -346,7 +346,7 @@ A The Black Knight's Fate|QID|14017|PRE|14016|M|69.43,23.02|N|From Crusader Rhyd
 K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|T|Doctor Kohler|N|Kill and loot his orders.|
 T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
 
-N Come back tomorrow|ACTIVE|13678|AVAILABLE|-13663|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
+N Come back tomorrow|ACTIVE|13672|AVAILABLE|-13663|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
 
 N Come back tomorrow|ACTIVE|13697^13719^13720^13721^13722|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
 ]]
