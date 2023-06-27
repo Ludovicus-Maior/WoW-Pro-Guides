@@ -1,3 +1,38 @@
+# Release 2023.06.27.A
+## Bug Fixes
+* Face:  Serious Version mismatch message SPAM, from group sync.
+* Hendo: AVAILABLE|13736^-13737^-13738^-13739^-13740| no work.
+* Hendo: Bad REP ids explode the addon.
+* Update Wrath Interface to 30402
+## Guide Updates
+### Retail
+* Achievements: Naszuro, Wrathion.vs.Sabellian
+* Dailies Alliance+Horde: Argent Tournament
+* Neutral Leveling: Campaign, Embers of Neltharion, Thaldraszus, Forbidden Reach
+* Professions: DF Profession Knowledge
+### WotLK
+* Horde Dailies: Argent Tournament
+* Alliance Leveling: Dwarf/Gnome Intro, EK 10-19,
+* Horde Leveling: Silverpine 10-15
+### Classic
+* No Classic guides were harmed during this release
+
+
+# Release 2023.05.03.A
+## Bug Fixes
+* Update Interface for Retail to 100100
+* Fix requirements for BFA flying
+* Greevir: Instance/Combat hiding are messing each other up.
+## Guide Updates
+### Retail
+* Achievements: Dragon Riding Glyphs
+* Horde Leveling: Vashjir, Goblin Intro
+* Neutral Leveling: Azure Span, Embers of Neltharion, Forbidden Reach, Waking Shores
+### WotLK
+* Horde Leveling: Hellfire Peninsula, Zangarmarsh, Chapter 3: 41-51, Winterspring
+### Classic
+* No Classic guides were harmed during this release
+
 # Release 2023.05.11.A
 ## Bug Fixes
 * Add code to survive in Wrath PTR
