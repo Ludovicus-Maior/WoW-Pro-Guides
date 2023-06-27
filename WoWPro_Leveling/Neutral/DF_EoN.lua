@@ -385,7 +385,7 @@ C Cataloging Horror|QID|73044|QO|1<1|M|49.25,44.82|Z|2133;Zaralek Cavern|N|Go to
 C Cataloging Horror|QID|73044|QO|1<2|M|49.05,45.28|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
 C Cataloging Horror|QID|73044|QO|1<3|M|49.80,45.58|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
 C Restless Death|QID|73039|M|50.40,43.96|Z|2133;Zaralek Cavern|QO|1|H|N|First ritual anchor.|
-C Cataloging Horror|QID|73044|QO|1<4|M|49.98,43.8349.50,42.75|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
+C Cataloging Horror|QID|73044|QO|1<4|M|49.98,43.83;49.50,42.75|CS|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
 C Cataloging Horror|QID|73044|QO|1<5|M|49.50,42.75|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
 C Restless Death|QID|73039|M|50.20,41.14|Z|2133;Zaralek Cavern|QO|2|H|N|Second ritual anchor.|
 C Cataloging Horror|QID|73044|M|50.54,41.19|Z|2133;Zaralek Cavern|N|Go to the spots with the yellow arrow glowing above them and use the camera.|U|204698|
