@@ -41,9 +41,9 @@ A The Fire Within|QID|64872|PRE|64871|M|44.35,61.36|Z|2118; The Forbidden Reach|
 A Arcane Intrusion|QID|65615|PRE|64871|M|44.19,61.35|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
 C Arcane Intrusion|QID|65615|QO|1|M|45.06,54.08|Z|2118; The Forbidden Reach|H|N|Right-click on the big blue beacon in front of you.\n[color=FF0000]NOTE: [/color]You can glide down to it.|S|
 C The Fire Within|QID|64872|QO|4|M|43.82,61.15|Z|2118; The Forbidden Reach|NC|N|Use Infusers to reset Fire Breath Cooldown (Optional).|
-C The Fire Within|QID|64872|QO|1|M|42.67,56.80|Z|2118; The Forbidden Reach|NC|N|Cast an Empowered I Fire Breath.\n[color=FF0000]NOTE: [/color]Each section of the cast bar represents 1 rank.|
-C The Fire Within|QID|64872|QO|2|M|46.70,58.19|Z|2118; The Forbidden Reach|NC|N|Cast an Empowered II Fire Breath.\n[color=FF0000]NOTE: [/color]Each section of the cast bar represents 1 rank.|
-C The Fire Within|QID|64872|QO|3|M|46.94,58.07|Z|2118; The Forbidden Reach|NC|N|Cast an Empowered III Fire Breath.\n[color=FF0000]NOTE: [/color]Each section of the cast bar represents 1 rank.|
+C The Fire Within|QID|64872|QO|1|M|42.67,56.80|Z|2118; The Forbidden Reach|NC|N|Cast an Empowered I Fire Breath.\n[color=FF0000]NOTE: [/color]Each section of the cast bar represents 1 rank. Tap once to start the cast and then again when the cast bar is red.|
+C The Fire Within|QID|64872|QO|2|M|46.70,58.19|Z|2118; The Forbidden Reach|NC|N|Cast an Empowered II Fire Breath.\n[color=FF0000]NOTE: [/color]Each section of the cast bar represents 1 rank. Tap once to start the cast and then again when the cast bar is orange.|
+C The Fire Within|QID|64872|QO|3|M|46.94,58.07|Z|2118; The Forbidden Reach|NC|N|Cast an Empowered III Fire Breath.\n[color=FF0000]NOTE: [/color]Each section of the cast bar represents 1 rank. Tap once to start the cast and then again when the cast bar is yellow.|
 C Arcane Intrusion|QID|65615|QO|1|M|45.06,54.08|Z|2118; The Forbidden Reach|H|N|Right-click on the big blue beacon.|US|
 T Arcane Intrusion|QID|65615|PRE|64871|M|44.19,61.35|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
 T The Fire Within|QID|64872|M|44.43,61.39|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.|
