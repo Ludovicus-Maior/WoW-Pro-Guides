@@ -20,7 +20,7 @@ A Mastery Of Melee|QID|13828|PRE|13667|M|76.46,19.40|N|From Arcanist Taelis.|
 A Mastery Of The Charge|QID|13837|PRE|13667|M|76.45,19.35|N|From Avareth Swiftstrike.|
 A Mastery Of The Shield-Breaker|QID|13835|PRE|13667|M|76.47,19.46|N|From Scout Shalyndria.|
 N Alliance Lance|ACTIVE|13828^13835^13837|M|PLAYER|N|Equip the Alliance Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
-C Mount|ACTIVE|13828^13835^13837|QO|1|M|75.94,20.37|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595|
+C Mount|ACTIVE|13828^13835^13837|QO|1|M|75.94,20.37|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|63425|
 N Shields|ACTIVE|13828&13835&13837|N|Use Defend (4) to stack Shields (up to 3) to protect your mount for 1 minute. Each stack applied resets the timer. The higher your shield stack, the less damage you take.\nIf your mount reaches 0, you lose your mount (and the fight).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Mastery Of Melee|QID|13828|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|
 C Mastery Of Melee|QID|13828|QO|2|M|PLAYER|N|After stacking your shields, use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]Keep your shields maxed at all times.|T|Melee Target|
