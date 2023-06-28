@@ -39,7 +39,7 @@ A One of Three quests|QID|13666^13669^13670|ACTIVE|13672|M|76.46,19.40|N|From Ar
 A Learning The Reins|QID|13625|ACTIVE|13672|M|76.47,19.46|N|From Scout Shalyndria.|
 A Training In The Field|QID|13671|ACTIVE|13672|M|76.45,19.35|N|From Avareth Swiftstrike.|
 N Alliance Lance|ACTIVE|13625|QO|1;2;3|M|PLAYER|N|Equip your Alliance Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
-C Mount|ACTIVE|13625|M|75.55,23.94|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595^63394^63404^63421^63425^63607|
+C Mount|ACTIVE|13625|M|75.94,20.37|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595^63394^63404^63421^63425^63607|
 C Learning The Reins|QID|13625|M|72.82,19.24|N|Head to the practice area and have at it.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46069|
 C Training In The Field|QID|13671|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|
 
@@ -86,54 +86,44 @@ T Valiant Of The Exodar|QID|13705|M|76.10,19.10|N|To Colosos.|
 T Valiant Of Darnassus|QID|13706|M|76.34,19.03|N|To Jaelyne Evensong.|
 
 ; The PRE clause selects allows either the race specific or the generic Valiant of * quest
-A The Valiant's Charge|QID|13718|PRE|13684^13593|M|76.60,19.12|N|From Marshal Jacob Alerius.|
 A The Valiant's Charge|QID|13714|PRE|13685^13703|M|76.64,19.49|N|From Lana Stouthammer.|
 A The Valiant's Charge|QID|13715|PRE|13688^13704|M|76.55,19.83|N|From Ambrose Boltspark.|
 A The Valiant's Charge|QID|13716|PRE|13690^13705|M|76.10,19.10|N|From Colosos.|
 A The Valiant's Charge|QID|13717|PRE|13689^13706|M|76.34,19.03|N|From Jaelyne Evensong.|
+A The Valiant's Charge|QID|13718|PRE|13684^13593|M|76.60,19.12|N|From Marshal Jacob Alerius.|
 
 ; ** Valiant Quests are the same for each race except for the quest giver and QIDs
-; ** Orc
-A One of Three|QID|13762^13763^13764|ACTIVE|13697|M|76.47,24.60|N|From Mokra the Skullcrusher.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13765|ACTIVE|13697|M|76.50,24.48|N|From Akinos.|
-A The Grand Melee|QID|13767|ACTIVE|13697|M|76.40,24.59|N|From Morah Worgsister.|
-A At The Enemy's Gates|QID|13856|ACTIVE|13697|M|76.40,24.59|N|From Morah Worgsister.|
-; ** Troll
-A One of Three|QID|13768^13769^13770|ACTIVE|13719|M|75.95,24.53|N|From Zul'tore.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13771|ACTIVE|13719|M|76.04,24.59|N|From Shadow Hunter Mezil'Kree.|
-A The Grand Melee|QID|13772|ACTIVE|13719|M|75.93,24.41|N|From Gahju.|
-A At The Enemy's Gates|QID|13857|ACTIVE|13719|M|75.93,24.41|N|From Gahju.|
-; ** Tauren
-A One of Three|QID|13773^13774^13775|ACTIVE|13720|M|76.20,24.63|N|From Runok Wildmane.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13776|ACTIVE|13720|M|76.26,24.66|N|From Dern Ragetotem.|
-A The Grand Melee|QID|13777|ACTIVE|13720|M|76.14,24.64|N|From Anka Clawhoof.|
-A At The Enemy's Gates|QID|13858|ACTIVE|13720|M|76.14,24.64|N|From Anka Clawhoof.|
-; ** Undead
-A One of Three|QID|13778^13779^13780|ACTIVE|13721|M|76.53,24.21|N|From Deathstalker Visceri.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13781|ACTIVE|13721|M|76.56,24.11|N|From Sarah Chalke.|
-A The Grand Melee|QID|13782|ACTIVE|13721|M|76.55,24.32|N|From Handler Dretch.|
-A At The Enemy's Gates|QID|13860|ACTIVE|13721|M|76.55,24.32|N|From Handler Dretch.|
-
-; ** Blood Elf
-A One of Three|QID|13783^13784^13785|ACTIVE|13722|M|76.45,23.85|N|From Eressea Dawnsinger.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
-A A Valiant's Field Training|QID|13786|ACTIVE|13722|M|76.41,23.76|N|From Kethiel Sunlance.|
-A The Grand Melee|QID|13787|ACTIVE|13722|M|76.53,23.92|N|From Aneera Thuron.|
-A At The Enemy's Gates|QID|13859|ACTIVE|13722|M|76.53,23.92|N|From Aneera Thuron.|
+; ** Dwarf
+A One of Three|QID|13741^13742^13743|ACTIVE|13714|M|76.64,19.49|N|From Lana Stouthammer.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13744|ACTIVE|13714|M|76.66,19.41|N|From Rollo Sureshot.|
+A The Grand Melee|QID|13745|ACTIVE|13714|M|76.64,19.57|N|From Clara Tumblebrew.|
+A At The Enemy's Gates|QID|13851|ACTIVE|13714|M|76.64,19.57|N|From Clara Tumblebrew.|
+; ** Gnome
+A One of Three|QID|13746^13747^13748|ACTIVE|13715|M|76.55,19.83|N|From Ambrose Boltspark.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13749|ACTIVE|13715|M|76.60,19.78|N|From Tickin Gearspanner.|
+A The Grand Melee|QID|13750|ACTIVE|13715|M|76.52,19.89|N|From Flickin Gearspanner.|
+A At The Enemy's Gates|QID|13852|ACTIVE|13715|M|76.52,19.89|N|From Flickin Gearspanner.|
+; ** Draenei
+A One of Three|QID|13752^13753^13754|ACTIVE|13716|M|76.10,19.10|N|From Colosos.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13755|ACTIVE|13716|M|76.66,19.41|N|From Saandos.|
+A The Grand Melee|QID|13756|ACTIVE|13716|M|76.64,19.57|N|From Ranii.|
+A At The Enemy's Gates|QID|13854|ACTIVE|13716|M|76.64,19.57|N|From Ranii.|
+; Night Elf/Worgen
+A One of Three|QID|13757^13758^13759|ACTIVE|13717|M|76.34,19.03|N|From Jaelyne Evensong.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13760|ACTIVE|13717|M|76.30,18.99|N|From Illestria Bladesinger.|
+A The Grand Melee|QID|13761|ACTIVE|13717|M|76.40,19.00|N|From Airae Starseeker.|
+A At The Enemy's Gates|QID|13855|ACTIVE|13717|M|76.40,19.00|N|From Airae Starseeker.|
+; ** Human
+A One of Three|QID|13600^13603^13616|ACTIVE|13718|M|76.60,19.12|N|From Marshal Jacob Alerius.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A A Valiant's Field Training|QID|13592|ACTIVE|13718|M|76.53,19.08|N|Sir Marcus Barlowe.|
+A The Grand Melee|QID|13665|ACTIVE|13718|M|76.62,19.21|N|From Captain Joseph Holley.|
+A At The Enemy's Gates|QID|13847|ACTIVE|13718|M|76.62,19.21|N|From Captain Joseph Holley.|
 
 ; Quests once you are exalted
-; Girana gives 2 of 5
-; A Rescue at Sea|QID|14136|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
-; A A Leg Up|QID|14143|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
-; A Stop The Aggressors|QID|14140|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
-; A The Light's Mercy|QID|14144|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
-A Girana gives 1 of 4|QID|14136^14143^14140^14144|M|76.10,24.10|N|Accept both quests from Girana the Blooded and click to continue.|REP|The Silver Covenants;1094;exalted|
-A You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|From Girana the Blooded.|REP|The Silver Covenants;1094;exalted|
+N Narasi's Daily Quests|M|76.26,19.63|N|Narasi Snowdawn will offer two of five different daily quests:\nYou've Really Done It This Time, Kul\nRescue at Sea\nA Leg Up\nStop The Aggressors\nThe Light's Mercy\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quests. \nOnce you've accepted the quests, manually check this step off to continue.|REP|The Silver Covenant;1094;exalted| ; ** Using |QID| is pointless here as it won't work properly - Hendo72
 
-; Tylos gives 1 of 3
-; A Gormok Wants His Snobolds|QID|14141|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1094;exalted|
-; A What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1094;exalted|
-; A Breakfast Of Champions|QID|14092|M|76.10,24.10|N|From Tylos Dawnrunner|REP|The Silver Covenants;1094;exalted|
-A Tylos gives 1 of 3|QID|14092^14141^14145|M|76.10,24.10|N|From Tylos Dawnrunner.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|REP|The Silver Covenants;1094;exalted|
+; Savinia Daily Questgives 1 of 3
+A Savinia's Daily Quest|QID|14076^14090^14112|M|76.20,19.56|N|Savinia Loresong will offer one of three daily quests:\nBreakfast Of Champions\nGormok Wants His Snobolds\nWhat Do You Feed a Yeti, Anyway?\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quests.|REP|The Silver Covenant;1094;exalted|
 
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
@@ -155,7 +145,7 @@ N Silverdawn's Dailies|AVAILABLE|14107&14108|N|The Fate of the Fallen\nGet Krake
 A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1094;exalted|
 
 ; Generic Completions for Valiants and Champions
-N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.55,23.94|N|Go get the mount specific to the race you're representing. They are located just outside the Silver Covenant Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46069|BUFF|63395^63405^63422^63426^62596^63608|
+N Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.94,20.37|N|Go get the mount specific to the race you're representing. They are located just outside the Silver Covenant Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46069|BUFF|63395^63405^63422^63426^62596^63608|
 C The Grand Melee|QID|13767^13772^13777^13782^13787|M|75.28,18.42|N|After stacking your shields (Defend), head over to the Alliance Valiant's Ring and talk to any Alliance Valiant to start.\n\n[color=FF0000]NOTE: [/color]If you speak to them from behind, you can break their shields as they move away from you.\nUse the same process as you did with the Aspirant Challenge earlier.|U|46069|
 C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and shield break and thrust while they are low.|
 C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship.\n[color=FF0000]NOTE: [/color]Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|

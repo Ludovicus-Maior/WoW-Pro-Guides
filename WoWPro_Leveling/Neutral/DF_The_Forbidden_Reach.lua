@@ -159,15 +159,15 @@ T Exploring Our Past|QID|73159|M|29.15,53.05|Z|2151;The Forbidden Reach|N|To Pat
 A Zskera Vault: Az|QID|72953|PRE|73159|M|29.15,53.05|Z|2151;The Forbidden Reach|N|From Pathfinder Jeb.|
 A The Keys You Need|QID|74294|PRE|73159|M|29.20,53.11|Z|2151;The Forbidden Reach|N|From Pathfinder Tacha.|
 T The Keys You Need|QID|74294|M|29.20,53.11|Z|2151;The Forbidden Reach|N|To Pathfinder Tacha.|
-A Authentic Authorization|QID|74982;74983;74984|PRE|73159|M|29.19,52.78|Z|2151;The Forbidden Reach|N|From Cataloger Wulferd.|
+A Authentic Authorization|QID|74982^74983^74984|PRE|73159|M|29.19,52.78|Z|2151;The Forbidden Reach|N|From Cataloger Wulferd.|
 A One Dragon's Junk...|QID|74442|PRE|73159|M|29.24,53.02|Z|2151;The Forbidden Reach|N|From Voraxian.|
-C Authentic Authorization|QID|74982;74983;74984|M|29.10,53.11|Z|2151;The Forbidden Reach|QO|1|CHAT|N|Speak to Jeb to enter the vault..|
+C Authentic Authorization|QID|74982^74983^74984|M|29.10,53.11|Z|2151;The Forbidden Reach|QO|1|CHAT|N|Speak to Jeb to enter the vault..|
 C Zskera Vault: Az|QID|72953|M|29.10,53.11|Z|2151;The Forbidden Reach|QO|1|CHAT|N|Speak with Pathfinder Jeb to enter the vault.|
 K Terrorachna|QID|72953|M|29.34,54.75|Z|2151;The Forbidden Reach|QO|2|N|Kill Terrorachna.|
 C Authentic Authorization|QID|74982|M|29.57,56.32|Z|2151;The Forbidden Reach|QO|2|NC|N|The letter is in a room on the 4th floor, Bliz diamond quest marker thing will point to the correct one.|S!US|IZ|2151|
 C Authentic Authorization|QID|74983|M|29.57,56.32|Z|2151;The Forbidden Reach|QO|2|NC|N|Collect the notes around the room. One is on the 2nd Floor|S!US|IZ|2151|
 C Authentic Authorization|QID|74984|M|29.57,56.32|Z|2151;The Forbidden Reach|QO|2|NC|N|Collect the notes around the room. One is on the 2nd Floor|S!US|IZ|2151|
-t Authentic Authorization|QID|74982;74983;74984|M|29.19,52.78|Z|2151;The Forbidden Reach|N|To Cataloger Wulferd.|
+t Authentic Authorization|QID|74982^74983^74984|M|29.19,52.78|Z|2151;The Forbidden Reach|N|To Cataloger Wulferd.|
 C One Dragon's Junk...|QID|74442|M|28.91,56.75|Z|2151;The Forbidden Reach|QO|1|NC|N|Locate an object for Voraxian within the Zskera Vaults.|
 A The Forgotten Ring|QID|73155|PRE|74294|M|29.79,57.18|Z|2151;The Forbidden Reach|N|From the Unusual Ring on the floor.|
 C Zskera Vault: Az|QID|72953|M|29.05,56.27|Z|2151;The Forbidden Reach|QO|4|NC|N|Climb Web Rope to second floor.|

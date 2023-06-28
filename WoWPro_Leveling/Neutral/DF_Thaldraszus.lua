@@ -441,7 +441,7 @@ C The You-ga Class|QID|70738|M|41.19,47.46|Z|2025|QO|2|H|N|Rescue the Youga Inst
 K Mudgatu|AVAILABLE|70377|PRE|72246|M|40.35,45.66|Z|2025|N|Kill Mudgatu for a quest starting item.|T|Mudgatu|S!US|
 A Derelict Fashion|QID|70377|PRE|72246|M|40.35,45.66|Z|2025|N|From Derelict Sunglasses jut looted from Mudgatu.|O|U|280586|
 C Some Favorite Things|QID|70741|M|40.94,46.07|Z|2025|H|N|Pick up misplaced belongings.|US|
-C The You-ga Class|QID|70738|QO|2|M|40.95,45.21|Z|2025|H|N|Rescue the tramatized Youga Students.|US|
+C The You-ga Class|QID|70738|QO|1|M|40.95,45.21|Z|2025|H|N|Rescue the tramatized Youga Students.|US|
 C Steam Cleaning|QID|70740|M|40.97,45.65|Z|2025|N|Kill the Elementals wandering around.|US|;Yes, this really needs to be compleated to get Precious Baby
 T Steam Cleaning|QID|70740|M|40.46,48.88|Z|2025|N|To Quilius.|
 T The You-ga Class|QID|70738|M|40.48,48.92|Z|2025|N|To Xijan Thornpaw.|
