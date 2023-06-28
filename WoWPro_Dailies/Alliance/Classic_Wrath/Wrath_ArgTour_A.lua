@@ -34,8 +34,7 @@ T Mastery Of Melee|QID|13828|M|76.46,19.40|N|To Arcanist Taelis.|
 A Up To The Challenge|QID|13672|PRE|13828&13837&13837|M|76.46,19.40|N|From Arcanist Taelis.|
 
 ; Aspirant Quests
-N Daily quests|ACTIVE|13672|AVAILABLE|13666&13669&13670|M|76.46,19.40|N|Arcanist Taelis will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A One of Three quests|QID|13666^13669^13670|ACTIVE|13672|M|76.46,19.40|N|From Arcanist Taelis.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three Daily Quests|ACTIVE|13672|AVAILABLE|13666&13669&13670|M|76.46,19.40|N|Arcanist Taelis will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A Learning The Reins|QID|13625|ACTIVE|13672|M|76.47,19.46|N|From Scout Shalyndria.|
 A Training In The Field|QID|13671|ACTIVE|13672|M|76.45,19.35|N|From Avareth Swiftstrike.|
 N Alliance Lance|ACTIVE|13625|QO|1;2;3|M|PLAYER|N|Equip your Alliance Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
@@ -95,27 +94,27 @@ A The Valiant's Charge|QID|13718|PRE|13684^13593|M|76.60,19.12|N|From Marshal Ja
 ; ** Valiant Quests are the same for each race except for the quest giver and QIDs
 N Daily quests|ACTIVE|13714^13715^13716^13717^13718|M|PLAYER|N|Depending on your race will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; ** Dwarf
-A One of Three|QID|13741^13742^13743|ACTIVE|13714|M|76.64,19.49|N|Lana Stouthammer will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three Daily Quests|QID|13741^13742^13743|ACTIVE|13714|M|76.64,19.49|N|Lana Stouthammer will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13744|ACTIVE|13714|M|76.66,19.41|N|From Rollo Sureshot.|
 A The Grand Melee|QID|13745|ACTIVE|13714|M|76.64,19.57|N|From Clara Tumblebrew.|
 A At The Enemy's Gates|QID|13851|ACTIVE|13714|M|76.64,19.57|N|From Clara Tumblebrew.|
 ; ** Gnome
-A One of Three|QID|13746^13747^13748|ACTIVE|13715|M|76.55,19.83|N|Ambrose Boltspark will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three Daily Quests|QID|13746^13747^13748|ACTIVE|13715|M|76.55,19.83|N|Ambrose Boltspark will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13749|ACTIVE|13715|M|76.60,19.78|N|From Tickin Gearspanner.|
 A The Grand Melee|QID|13750|ACTIVE|13715|M|76.52,19.89|N|From Flickin Gearspanner.|
 A At The Enemy's Gates|QID|13852|ACTIVE|13715|M|76.52,19.89|N|From Flickin Gearspanner.|
 ; ** Draenei
-A One of Three|QID|13752^13753^13754|ACTIVE|13716|M|76.10,19.10|N|Colosos will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three Daily Quests|QID|13752^13753^13754|ACTIVE|13716|M|76.10,19.10|N|Colosos will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13755|ACTIVE|13716|M|76.66,19.41|N|From Saandos.|
 A The Grand Melee|QID|13756|ACTIVE|13716|M|76.64,19.57|N|From Ranii.|
 A At The Enemy's Gates|QID|13854|ACTIVE|13716|M|76.64,19.57|N|From Ranii.|
 ; Night Elf/Worgen
-A One of Three|QID|13757^13758^13759|ACTIVE|13717|M|76.34,19.03|N|Jaelyne Evensong will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three Daily Quests|QID|13757^13758^13759|ACTIVE|13717|M|76.34,19.03|N|Jaelyne Evensong will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13760|ACTIVE|13717|M|76.30,18.99|N|From Illestria Bladesinger.|
 A The Grand Melee|QID|13761|ACTIVE|13717|M|76.40,19.00|N|From Airae Starseeker.|
 A At The Enemy's Gates|QID|13855|ACTIVE|13717|M|76.40,19.00|N|From Airae Starseeker.|
 ; ** Human
-A One of Three|QID|13600^13603^13616|ACTIVE|13718|M|76.60,19.12|N|Marshal Jacob Alerius will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three Daily Quests|QID|13600^13603^13616|ACTIVE|13718|M|76.60,19.12|N|Marshal Jacob Alerius will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13592|ACTIVE|13718|M|76.53,19.08|N|Sir Marcus Barlowe.|
 A The Grand Melee|QID|13665|ACTIVE|13718|M|76.62,19.21|N|From Captain Joseph Holley.|
 A At The Enemy's Gates|QID|13847|ACTIVE|13718|M|76.62,19.21|N|From Captain Joseph Holley.|
