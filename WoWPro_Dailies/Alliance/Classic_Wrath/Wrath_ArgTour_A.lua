@@ -20,7 +20,7 @@ A Mastery Of Melee|QID|13828|PRE|13667|M|76.46,19.40|N|From Arcanist Taelis.|
 A Mastery Of The Charge|QID|13837|PRE|13667|M|76.45,19.35|N|From Avareth Swiftstrike.|
 A Mastery Of The Shield-Breaker|QID|13835|PRE|13667|M|76.47,19.46|N|From Scout Shalyndria.|
 N Alliance Lance|ACTIVE|13828^13835^13837|M|PLAYER|N|Equip the Alliance Lance you were just given.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
-C Mount|ACTIVE|13828^13835^13837|M|75.94,20.37|QO|1|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595|
+C Mount|ACTIVE|13828^13835^13837|QO|1|M|75.94,20.37|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595|
 N Shields|ACTIVE|13828&13835&13837|N|Use Defend (4) to stack Shields (up to 3) to protect your mount for 1 minute. Each stack applied resets the timer. The higher your shield stack, the less damage you take.\nIf your mount reaches 0, you lose your mount (and the fight).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Mastery Of Melee|QID|13828|QO|1|M|72.47,19.29|N|Ask Jeran Lockwood to show you how to train with a Melee Target.|CHAT|
 C Mastery Of Melee|QID|13828|QO|2|M|PLAYER|N|After stacking your shields, use Thrust (1) on a Melee Target 5 times.\n[color=FF0000]NOTE: [/color]Keep your shields maxed at all times.|T|Melee Target|
@@ -34,12 +34,12 @@ T Mastery Of Melee|QID|13828|M|76.46,19.40|N|To Arcanist Taelis.|
 A Up To The Challenge|QID|13672|PRE|13828&13837&13837|M|76.46,19.40|N|From Arcanist Taelis.|
 
 ; Aspirant Quests
-N Daily quests|ACTIVE|13672|AVAILABLE|13666&13669&13670|M|76.46,19.40|N|Arcanist Taelis will offer one of three different daily quests:\nA Blade Fit For A Champion\nA Worthy Weapon\nThe Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+N Daily quests|ACTIVE|13672|AVAILABLE|13666&13669&13670|M|76.46,19.40|N|Arcanist Taelis will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A One of Three quests|QID|13666^13669^13670|ACTIVE|13672|M|76.46,19.40|N|From Arcanist Taelis.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A Learning The Reins|QID|13625|ACTIVE|13672|M|76.47,19.46|N|From Scout Shalyndria.|
 A Training In The Field|QID|13671|ACTIVE|13672|M|76.45,19.35|N|From Avareth Swiftstrike.|
 N Alliance Lance|ACTIVE|13625|QO|1;2;3|M|PLAYER|N|Equip your Alliance Lance.\n[color=FF0000]NOTE: [/color]You cannot use the mount without it equipped.|U|46069|EQUIPPED|46069|
-C Mount|ACTIVE|13625|M|75.94,20.37|QO|1;2;3|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595^63394^63404^63421^63425^63607|
+C Mount|ACTIVE|13625|QO|1;2;3|M|75.94,20.37|N|Grab your mount.\n[color=FF0000]NOTE: [/color]If you lose your mount, it'll be quicker to replace it with the one at the training area.|U|46069|V|BUFF|62595^63394^63404^63421^63425^63607|
 C Learning The Reins|QID|13625|M|72.82,19.24|N|Head to the practice area and have at it.\n[color=FF0000]NOTE: [/color]If you lose your mount, go get another so you can continue.|U|46069|
 C Training In The Field|QID|13671|QO|1|M|72.54,35.60|N|Equip your regular weapon(s) and go kill any Scourge within Icecrown.\n[color=FF0000]NOTE: [/color]Cult of the Damned mobs do not count.|
 
@@ -93,37 +93,38 @@ A The Valiant's Charge|QID|13717|PRE|13689^13706|M|76.34,19.03|N|From Jaelyne Ev
 A The Valiant's Charge|QID|13718|PRE|13684^13593|M|76.60,19.12|N|From Marshal Jacob Alerius.|
 
 ; ** Valiant Quests are the same for each race except for the quest giver and QIDs
+N Daily quests|ACTIVE|13714^13715^13716^13717^13718|M|PLAYER|N|Depending on your race will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; ** Dwarf
-A One of Three|QID|13741^13742^13743|ACTIVE|13714|M|76.64,19.49|N|From Lana Stouthammer.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three|QID|13741^13742^13743|ACTIVE|13714|M|76.64,19.49|N|Lana Stouthammer will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13744|ACTIVE|13714|M|76.66,19.41|N|From Rollo Sureshot.|
 A The Grand Melee|QID|13745|ACTIVE|13714|M|76.64,19.57|N|From Clara Tumblebrew.|
 A At The Enemy's Gates|QID|13851|ACTIVE|13714|M|76.64,19.57|N|From Clara Tumblebrew.|
 ; ** Gnome
-A One of Three|QID|13746^13747^13748|ACTIVE|13715|M|76.55,19.83|N|From Ambrose Boltspark.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three|QID|13746^13747^13748|ACTIVE|13715|M|76.55,19.83|N|Ambrose Boltspark will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13749|ACTIVE|13715|M|76.60,19.78|N|From Tickin Gearspanner.|
 A The Grand Melee|QID|13750|ACTIVE|13715|M|76.52,19.89|N|From Flickin Gearspanner.|
 A At The Enemy's Gates|QID|13852|ACTIVE|13715|M|76.52,19.89|N|From Flickin Gearspanner.|
 ; ** Draenei
-A One of Three|QID|13752^13753^13754|ACTIVE|13716|M|76.10,19.10|N|From Colosos.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three|QID|13752^13753^13754|ACTIVE|13716|M|76.10,19.10|N|Colosos will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13755|ACTIVE|13716|M|76.66,19.41|N|From Saandos.|
 A The Grand Melee|QID|13756|ACTIVE|13716|M|76.64,19.57|N|From Ranii.|
 A At The Enemy's Gates|QID|13854|ACTIVE|13716|M|76.64,19.57|N|From Ranii.|
 ; Night Elf/Worgen
-A One of Three|QID|13757^13758^13759|ACTIVE|13717|M|76.34,19.03|N|From Jaelyne Evensong.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three|QID|13757^13758^13759|ACTIVE|13717|M|76.34,19.03|N|Jaelyne Evensong will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13760|ACTIVE|13717|M|76.30,18.99|N|From Illestria Bladesinger.|
 A The Grand Melee|QID|13761|ACTIVE|13717|M|76.40,19.00|N|From Airae Starseeker.|
 A At The Enemy's Gates|QID|13855|ACTIVE|13717|M|76.40,19.00|N|From Airae Starseeker.|
 ; ** Human
-A One of Three|QID|13600^13603^13616|ACTIVE|13718|M|76.60,19.12|N|From Marshal Jacob Alerius.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
+A One of Three|QID|13600^13603^13616|ACTIVE|13718|M|76.60,19.12|N|Marshal Jacob Alerius will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13592|ACTIVE|13718|M|76.53,19.08|N|Sir Marcus Barlowe.|
 A The Grand Melee|QID|13665|ACTIVE|13718|M|76.62,19.21|N|From Captain Joseph Holley.|
 A At The Enemy's Gates|QID|13847|ACTIVE|13718|M|76.62,19.21|N|From Captain Joseph Holley.|
 
 ; Quests once you are exalted
-N Narasi's Daily Quests|M|76.26,19.63|N|Narasi Snowdawn will offer two of five different daily quests:\nYou've Really Done It This Time, Kul\nRescue at Sea\nA Leg Up\nStop The Aggressors\nThe Light's Mercy\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quests. \nOnce you've accepted the quests, manually check this step off to continue.|REP|The Silver Covenant;1094;exalted| ; ** Using |QID| is pointless here as it won't work properly - Hendo72
+A Narasi's Daily Quests|M|76.26,19.63|N|Narasi Snowdawn will offer two of five different daily quests:\nYou've Really Done It This Time, Kul\nRescue at Sea\nA Leg Up\nStop The Aggressors\nThe Light's Mercy\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quests. \nOnce you've accepted the quests, manually check this step off to continue.|REP|The Silver Covenant;1094;exalted| ; ** Using |QID| is pointless here as it won't work properly - Hendo72
 
 ; Savinia Daily Questgives 1 of 3
-A Savinia's Daily Quest|QID|14076^14090^14112|M|76.20,19.56|N|Savinia Loresong will offer one of three daily quests:\nBreakfast Of Champions\nGormok Wants His Snobolds\nWhat Do You Feed a Yeti, Anyway?\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quests.|REP|The Silver Covenant;1094;exalted|
+A Savinia's Daily Quest|QID|14076^14090^14112|M|76.20,19.56|N|Savinia Loresong will offer one of three daily quests:\n- Breakfast Of Champions\n- Gormok Wants His Snobolds\n- What Do You Feed a Yeti, Anyway?\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quests.|REP|The Silver Covenant;1094;exalted|
 
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
@@ -300,40 +301,40 @@ A The Scourgebane|QID|13795|PRE|13736^13737^13738^13739^13740|M|69.66,22.85|N|Fr
 T The Scourgebane|QID|13795|M|73.80,20.06|N|To Crok Scourgebane.|
 
 ; Black Knight Quest Chain (Can be started as a filler between daily turn-ins)
-A The Black Knight of Silverpine?|QID|13634|PRE|13667|M|69.43,23.02|N|From Crusader Rhydalla.|
-F Dalaran|ACTIVE|13634|QO|1|M|72.59,22.61|Z|118|N|Make your way to Dalaran.\n[color=FF0000]NOTE: [/color]You can also fly directly or use your Hearth.|IZ|-Undercity^Silverpine Forest^Tirisfal Glades|
-P Undercity|ACTIVE|13634|QO|1|M|55.50,23.81|Z|125|N|Use the Undercity portal in Silver Covenant's Sanctuary.|IZ|Dalaran|
-F The Sepulcher|ACTIVE|13634|QO|1|M|63.26,48.54|Z|1458;Undercity|N|Take the flight to The Sepulcher.|IZ|Undercity|
-C The Black Knight of Silverpine?|QID|13634|M|53.16,28.10|Z|Silverpine Forest|L|45062|N|The Dusty Journal is located just inside the house at the base of the stairs leading upstairs.|
-R Argent Tournament Grounds|ACTIVE|13634|N|Choose your own path back.|
-T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|N|To Crusader Rhydalla.|
-A The Seer's Crystal|QID|13641|PRE|13633^13634|M|69.43,23.02|N|From Crusader Rhydalla.|
+A The Black Knight of Westfall?|QID|13633|PRE|13667|M|69.43,23.02|N|From Crusader Rhydalla.|
+F Dalaran|ACTIVE|13633|QO|1|M|72.59,22.61|Z|118;Argent Tournament Grounds|N|Make your way to Dalaran.\n[color=FF0000]NOTE: [/color]You can also fly directly or use your Hearth.|IZ|118;Argent Tournament Grounds|
+P Stormwind City|ACTIVE|13633|QO|1|M|40.05,62.72|Z|125;Dalaran|N|Use the Stormwind portal in The Silver Enclave Sanctuary.|IZ|Dalaran|
+F Sentinel Hill|ACTIVE|13633|QO|1|M|70.95,72.52|Z|1453;Stormwind|N|Take the flight to Westfall.|IZ|Stormwind City|
+C The Black Knight of Westfall?|QID|13633|M|42.10,69.66|Z|Westfall|L|45062|N|The Dusty Journal is located in Moonbrook; on the main floor inside the Cooper Residence.|
+R Argent Tournament Grounds|ACTIVE|13633|M|72.60,22.75|Z|118;Argent Tournament Grounds|N|Choose your own path back.|
+T The Black Knight of Westfall?|QID|13633|M|69.43,23.02|N|To Crusader Rhydalla.|
+A The Seer's Crystal|QID|13641|PRE|13633|M|69.43,23.02|N|From Crusader Rhydalla.|
 C The Seer's Crystal|QID|13641|M|46.84,40.38|Z|Crystalsong Forest|L|45064|ITEM|45064|N|Unbound Seer\nThey are found in Forlorn Woods, Crystalsong Forest.|
 R Argent Tournament Grounds|ACTIVE|13641|M|69.66,22.86|N|Return to the Argent Tournament Grounds.|
 T The Seer's Crystal|QID|13641|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|1|N|Investigate Sir Wendell Balfour's grave.|NC|
-C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|2|N|Investigate Lorien Sunblaze's grave.|NC|
-C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|3|N|Investigate Conall Irongrip's grave.|NC|
+C The Stories Dead Men Tell|QID|13643|QO|1|M|79.37,23.09|N|Investigate Sir Wendell Balfour's grave.|NC|
+C The Stories Dead Men Tell|QID|13643|QO|2|M|79.63,23.58|N|Investigate Lorien Sunblaze's grave.|NC|
+C The Stories Dead Men Tell|QID|13643|QO|3|M|79.64,22.85|N|Investigate Conall Irongrip's grave.|NC|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|To Crusader Rhydalla.|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|From Crusader Rhydalla.|
 C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|L|45080|ITEM|45080|N|Skeletal Woodcutters in Crystalsong Forest|T|Skeletal Woodcutter|
 C There's Something About the Squire|QID|13654|M|38.29,59.45|Z|Crystalsong Forest|L|45082|N|While standing behind Maloric, use the Large Femur to stun him.\nOnce stunned, loot the bag from him and walk away until you break combat (no need to kill him).\n[color=FF0000]NOTE: [/color]Make sure your pet is on Passive!|T|Maloric|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Orders|QID|13663|M|77.76,21.61|QO|1|N|Go to the small camp here, and use the enchanted bridle.\n[color=FF0000]NOTE: [/color]You'll be transported to your final destination via the scenic route.|U|45083|
+C The Black Knight's Orders|QID|13663|QO|1|M|77.76,21.61;52.95,9.00|CC|N|Go to the small camp here, and use the enchanted bridle.\n[color=FF0000]NOTE: [/color]You'll be transported to your final destination via the scenic route.\nYou'll be attacked as soon as you land.|U|45083|
 C The Black Knight's Orders|QID|13663|M|54.07,8.66|L|45121|N|After clearing the camp, enter the building and pick up the Stolen Tournament Invitation.|
 C The Black Knight's Orders|QID|13663|M|54.11,8.63|L|45122|N|Pick up the Black Knight's Orders.|
 T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Fall|QID|13664|PRE|13663|AVAILABLE|-13736^-13737^-13738^-13739^-13740|M|69.43,23.02|N|From Crusader Rhydalla.|
 C The Black Knight's Fall|QID|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|	; need QOs if any
-C The Black Knight's Fall|QID|13664|M|71.36,23.4|QO|1|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|	; need QOs if any
+C The Black Knight's Fall|QID|13664|QO|1|M|71.36,23.4|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|	; need QOs if any
 T The Black Knight's Fall|QID|13664|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Curse|QID|14016|PRE|13664|M|69.43,23.02|N|From Crusader Rhydalla.|
-C The Black Knight's Curse|QID|14016|M|79.40,23.20|QO|1|N|Wait for the Cult Saboteur and Cult Assassin to stop talking, then the Cult Assassin will attack you, kill him.|
+C The Black Knight's Curse|QID|14016|QO|1|M|79.40,23.20|N|Wait for the Cult Saboteur and Cult Assassin to stop talking, then the Cult Assassin will attack you, kill him.|
 T The Black Knight's Curse|QID|14016|M|69.43,23.02|N|To Crusader Rhydalla.|
 A The Black Knight's Fate|QID|14017|PRE|14016|M|69.43,23.02|N|From Crusader Rhydalla.|
-K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|T|Doctor Kohler|N|Kill and loot his orders.|
+K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|N|Kill and loot his orders.|T|Doctor Kohler|
 T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
 
 N Come back tomorrow|ACTIVE|13672|AVAILABLE|-13663|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
