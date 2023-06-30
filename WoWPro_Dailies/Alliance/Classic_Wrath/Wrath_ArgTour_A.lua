@@ -60,8 +60,8 @@ C Up To The Challenge|QID|13672|QO|1|M|PLAYER|L|45192 15|N|You need 15 Aspirant'
 t Up To The Challenge|QID|13672|M|76.46,19.40|N|To Arcanist Taelis.|
 
 A The Aspirant's Challenge|QID|13679|PRE|13672|M|76.46,19.40|N|From Arcanist Taelis.|
+C Mount|ACTIVE|13679|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46069|V|BUFF|62595|
 C The Aspirant's Challenge|QID|13679|PRE|13672|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|U|46069|
-C Mount|ACTIVE|13679|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46069|V|BUFF|63397|
 T The Aspirant's Challenge|QID|13679|PRE|13672|M|76.46,19.40|N|From Arcanist Taelis.|
 
 ; These kick off the race specific initial quests.
