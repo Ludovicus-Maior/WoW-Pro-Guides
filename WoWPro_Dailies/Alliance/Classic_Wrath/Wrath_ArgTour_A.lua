@@ -44,7 +44,7 @@ C Training In The Field|QID|13671|QO|1|M|72.54,35.60|N|Equip your regular weapon
 
 C A Blade Fit For A Champion|QID|13666|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
 C A Worthy Weapon|ACTIVE|13669|QO|1|M|71.58,75.40|L|45000 4|N|Pick 4 Winter Hyacinths along the Ironwall Dam.|
-C A Worthy Weapon|QID|13669|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined by the purple floating buoys and loot the sword when it appears.\n[color=FF0000]NOTE: [/color]Loot the sword before it despawns or you'll have to get the flowers again.|U|45000|NC|
+C A Worthy Weapon|QID|13669|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle of purple floating buoys and loot the sword when it spawns.\n[color=FF0000]NOTE: [/color]Loot the sword before it despawns or you'll have to get the flowers again.|U|45000|NC|
 
 C The Edge Of Winter|QID|13670|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
 C The Edge Of Winter|QID|13670|M|42.19,19.66|Z|Howling Fjord|N|Find the Maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
@@ -59,10 +59,10 @@ T Learning The Reins|QID|13625|M|76.47,19.46|N|To Scout Shalyndria.|
 C Up To The Challenge|QID|13672|QO|1|M|PLAYER|L|45192 15|N|You need 15 Aspirant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Icecrown|
 t Up To The Challenge|QID|13672|M|76.46,19.40|N|To Arcanist Taelis.|
 
-A The Aspirant's Challenge|QID|13680|PRE|13672|M|76.46,19.40|N|From Arcanist Taelis.|
-C The Aspirant's Challenge|QID|13680|PRE|13672|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|U|46069|
-C Mount|ACTIVE|13680|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46069|V|BUFF|63397|
-T The Aspirant's Challenge|QID|13680|PRE|13672|M|76.46,19.40|N|From Arcanist Taelis.|
+A The Aspirant's Challenge|QID|13679|PRE|13672|M|76.46,19.40|N|From Arcanist Taelis.|
+C The Aspirant's Challenge|QID|13679|PRE|13672|M|71.43,19.56|N|After stacking your shields (Defend), talk to the Squire to start.\n[color=FF0000]NOTE: [/color]Focus on using Charge and keep your shields up with Defend.|U|46069|
+C Mount|ACTIVE|13679|QO|1|M|71.85,19.99|Z|118|N|Head over and grab your mount.\n[color=FF0000]NOTE: [/color]Come back here when you lose your mount.|U|46069|V|BUFF|63397|
+T The Aspirant's Challenge|QID|13679|PRE|13672|M|76.46,19.40|N|From Arcanist Taelis.|
 
 ; These kick off the race specific initial quests.
 A A Valiant Of Stormwind|QID|13684|PRE|13679|M|76.47,19.40|N|From Arcanist Taelis.|R|Human|
