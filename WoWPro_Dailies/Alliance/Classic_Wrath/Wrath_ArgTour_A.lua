@@ -92,7 +92,6 @@ A The Valiant's Charge|QID|13717|PRE|13689^13706|M|76.34,19.03|N|From Jaelyne Ev
 A The Valiant's Charge|QID|13718|PRE|13684^13593|M|76.60,19.12|N|From Marshal Jacob Alerius.|
 
 ; ** Valiant Quests are the same for each race except for the quest giver and QIDs
-N Daily quests|ACTIVE|13714^13715^13716^13717^13718|M|PLAYER|N|Depending on your race will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ; ** Dwarf
 A One of Three Daily Quests|QID|13741^13742^13743|ACTIVE|13714|M|76.64,19.49|N|Lana Stouthammer will offer one of three daily quests:\n- A Blade Fit For A Champion\n- A Worthy Weapon\n- The Edge Of Winter\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|
 A A Valiant's Field Training|QID|13744|ACTIVE|13714|M|76.66,19.41|N|From Rollo Sureshot.|
