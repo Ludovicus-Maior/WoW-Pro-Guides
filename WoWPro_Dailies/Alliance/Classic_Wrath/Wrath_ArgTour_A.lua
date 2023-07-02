@@ -144,8 +144,8 @@ N Silverdawn's Dailies|AVAILABLE|14107&14108|N|The Fate of the Fallen\nGet Krake
 A One of two dailies|QID|14107^14108|M|76.10,24.10|N|From Crusader Silverdawn.\n[color=FF0000]NOTE: [/color]This step will not auto-accept the quest.|ACH|2186|REP|The Silver Covenants;1094;exalted|
 
 ; Generic Completions for Valiants and Champions
-C Racial Mount|ACTIVE|13767^13772^13777^13782^13787|QO|1|M|75.94,20.37|N|Go get the mount specific to the race you're representing. They are located just outside the Silver Covenant Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46069|BUFF|62595^63394^63404^63421^63425^63606^63607|
-C The Grand Melee|QID|13767^13772^13777^13782^13787|M|75.28,18.42|N|After stacking your shields (Defend), head over to the Alliance Valiant's Ring and talk to any Alliance Valiant to start.\n\n[color=FF0000]NOTE: [/color]If you speak to them from behind, you can break their shields as they move away from you.\nUse the same process as you did with the Aspirant Challenge earlier.|U|46069|
+C Racial Mount|ACTIVE|13745^13750^13756^13761^13665|QO|1|M|75.94,20.37|N|Go get the mount specific to the race you're representing. They are located just outside the Silver Covenant Pavilion\n[color=FF0000]NOTE: [/color]If you lose your mount, return to get another.|U|46069|BUFF|62596^63608^63395^63405^63422^63426^63432^63500|
+C The Grand Melee|QID|13745^13750^13756^13761^13665|M|75.28,18.42|N|After stacking your shields (Defend), head over to the Alliance Valiant's Ring and talk to any Alliance Valiant to start.\n\n[color=FF0000]NOTE: [/color]If you speak to them from behind, you can break their shields as they move away from you.\nUse the same process as you did with the Aspirant Challenge earlier.|U|46069|
 C Among the Champions|QID|13811^13814|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and shield break and thrust while they are low.|
 C Get Kraken!|QID|14108|M|69.80,22.20|N|Mount one of the Stabled Argent Hippogryphs outside the tent. While flying over the ships, use the Flaming Spears you were given to kill 6 Kvaldirs on the ship.\n[color=FF0000]NOTE: [/color]Throw 8 spears at the Kraken as well. If you kill the Kraken, you will get a quest item for extra gold.|
 ; A Identifying the Remains|QID|14095|M|69.80,22.20|CC|N|From Kraken Tooth|
@@ -180,11 +180,11 @@ C At The Enemy's Gates|QID|13847^13851^13852^13854^13855|QO|1;2;3|M|49.00,71.40|
 
 C Battle Before The Citadel|QID|13863^13862|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders.|
 
-C A Blade Fit For A Champion|QID|13768^13783^13773^13762^13778|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
-C A Worthy Weapon|QID|13741^13746^13752^13757^13600|QO|1|M|71.58,75.40|L|45000 4|N|Pick flowers along the Ironwall Dam.|
-C A Worthy Weapon|QID|13741^13746^13752^13757^13600|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating buoys and loot the sword when it appears.\n[color=FF0000]NOTE: [/color]Loot the sword before it despawns or you'll have to get the flowers again.|U|45000|
-C The Edge Of Winter|QID|13742^13747^13753^13758^13603|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
-C The Edge Of Winter|QID|13742^13747^13753^13758^13603|M|42.19,19.66|Z|Howling Fjord|L|45003|N|Find the maiden encased in ice and use the Ember on her.|T|Maiden of Winter's Breath Lake|U|45005|
+C A Blade Fit For A Champion|QID|13741^13746^13752^13757^13600|M|60.83,50.48|Z|Grizzly Hills|L|44981|N|After applying the balm, kiss frogs along the southwest shore of Ashwood Lake in Grizzly Hills until you get a princess and ask her for the blade.\n[color=FF0000]NOTE: [/color]The target button works best if you keep your back to the 'kissed' Frogs as they follow you.|T|Lake Frog,kiss|U|44986|
+C A Worthy Weapon|QID|13742^13747^13753^13758^13603|QO|1|M|71.58,75.40|L|45000 4|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13742^13747^13753^13758^13603|M|93.19,26.05|Z|Dragonblight|L|44978|N|Use the stack of flowers within the circle outlined with the purple floating buoys and loot the sword when it appears.\n[color=FF0000]NOTE: [/color]Loot the sword before it despawns or you'll have to get the flowers again.|U|45000|
+C The Edge Of Winter|QID|13743^13748^13754^13759^13616|M|55.5,74.9|Z|Crystalsong Forest|L|45005|N|Kill Lord Everblaze and loot the Everburning Ember from his corpse.|T|Lord Everblaze|
+C The Edge Of Winter|QID|13743^13748^13754^13759^13616|M|42.19,19.66|Z|Howling Fjord|L|45003|N|Find the maiden encased in ice and use the Ember on her.|T|Maiden of Winter's Breath Lake|U|45005|
 
 C Gormok Wants His Snobolds|QID|14141|M|44.05,81.68|Z|The Storm Peaks|N|Snag em!|T|Snowblind Follower|U|46855|
 C Breakfast Of Champions|QID|14092|M|42.70,54.40;43.40,56.75;46.20,61.80;40.67,52.56;43.16,60.16;38.58,61.11;38.12,55.58|Z|The Storm Peaks|CN|N|Find snow mounts and use the drums to get the Jormungar out. Kill and get the eggs.|T|Deep Jormungar|U|46893|
