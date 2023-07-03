@@ -163,14 +163,9 @@ C Mistcaller Yngvar|QID|14102|M|43.90,24.40|Z|Hrothgar's Landing|CC|N|Use the qu
 C A Leg Up|QID|14143|M|43.80,24.10;51.90,28.20;53.90,19.10;43.45,33.90;53.45,17.15;50.51,15.35;43.38,27.16;55.58,15.23;46.98,33.97;42.95,30.55;56.21,18.30;47.45,3.25;52.84,26.35;55.42,25.02;55.46,21.09;45.18,4.28;50.19,31.18|Z|Hrothgar's Landing|CN|N|Loot tallstrider legs.|US|
 C Stop The Aggressors|QID|14140|M|54.20,21.60;55.20,15.20;52.40,15.55;43.45,33.75;43.42,26.98;56.20,17.80;48.59,33.11;49.45,30.43;54.60,24.93;52.75,26.20;56.70,21.73;42.92,30.90;54.88,19.59;45.53,33.48|Z|Hrothgar's Landing|CN|N|Kill Kvaldir.|US|
 C The Light's Mercy|QID|14144|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;44.90,31.50;43.60,29.65;50.60,15.30;43.15,27.60;54.85,18.67;44.30,34.40;52.67,26.92;54.35,23.08;50.26,29.29;57.10,23.70;42.60,32.32;47.77,32.54|Z|Hrothgar's Landing|CN|N|Administer last rites by using your book near slain Tualiq Villagers.|U|46870|US|
-
-
 C Deathspeaker Kharos|QID|14105|M|64.30,21.50|CC|N|Kill Deathspeaker Kharos|
-
 C You've Really Done It This Time, Kul|QID|14142|M|64.40,21.60;61.71,21.16;60.8,23.0|CC|N|Kill the cultists, loot keys and rescue silly Kul and his buddies.|
-
 C Threat From Above|QID|13812^13809|M|45.58,32.23;45.22,34.30|CN|N|Defeat Chillmaw and 3 Cultist Bombardiers.|
-
 C The Fate of the Fallen|QID|14107|M|49,40|CC|N|Loot Crystals (small gems) around the area and use the quest item on 6 neutral mobs without chains.|
 
 C A Valiant's Field Training|QID|13592^13744^13749^13755^13760|QO|1|M|42.00,52.87|N|Equip your regular weapon(s) and go kill Converted Heroes.\n[color=FF0000]NOTE: [/color]If you can handle it, go after the large groups to speed up the process.|T|Converted Hero|
@@ -195,7 +190,7 @@ T A Valiant's Field Training|QID|13744|M|76.66,19.41|N|To Rollo Sureshot.|
 T A Blade Fit For A Champion|QID|13741|M|76.64,19.49|N|To Lana Stouthammer.|
 T A Worthy Weapon|QID|13742|M|76.64,19.49|N|To Lana Stouthammer.|
 T The Edge Of Winter|QID|13743|M|76.64,19.49|N|To Lana Stouthammer.|
-T The Grand Melee|QID|13745|M|76.55,24.32|N|To Handler Dretch.|
+T The Grand Melee|QID|13745|M|76.64,19.57|N|To Clara Tumblebrew.|
 T At The Enemy's Gates|QID|13851|M|76.64,19.57|N|To Clara Tumblebrew.|
 
 ; ** Gnome
@@ -230,7 +225,7 @@ T The Edge Of Winter|QID|13616|M|76.60,19.12|N|To Marshal Jacob Alerius.|
 T The Grand Melee|QID|13665|M|76.62,19.21|N|To Captain Joseph Holley.|
 T At The Enemy's Gates|QID|13847|M|76.62,19.21|N|To Captain Joseph Holley.|
 
-; Exalted Turnins
+; Exalted Turn-ins
 T You've Really Done It This Time, Kul|QID|14142|M|76.10,24.10|N|To Girana the Blooded.|
 T Rescue at Sea|QID|14136|M|76.10,24.10|N|To Girana the Blooded.|
 T A Leg Up|QID|14143|M|76.10,24.10|N|To Girana the Blooded.|
@@ -241,14 +236,14 @@ T Gormok Wants His Snobolds|QID|14141|M|76.10,24.10|N|To Tylos Dawnrunner|
 T What Do You Feed a Yeti, Anyway?|QID|14145|M|76.10,24.10|N|To Tylos Dawnrunner|
 T Breakfast Of Champions|QID|14092|M|76.10,24.10|N|To Tylos Dawnrunner|
 
-; Champion Turnins
+; Champion Turn-ins
 ; Battle plans of Kilvadir ...
 T Threat From Above|QID|13809|M|69.96,23.44|N|To Eadric the Pure. Get the Purse.|
 T Battle Before The Citadel|QID|13862|M|69.96,23.44|N|To Eadric the Pure.|
 T Among the Champions|QID|13811|M|69.93,23.33|N|To Luuri.|
 T Taking Battle To The Enemy|QID|13810|M|69.92,23.53|N|To Cellian Daybreak|
 
-; Crusader Turnins
+; Crusader Turn-ins
 T Drottinn Hrothgar|QID|14101|M|69.96,23.44|CC|N|To High Crusader Adelard|
 T Mistcaller Yngvar|QID|14102|M|69.96,23.44|CC|N|To High Crusader Adelard|
 T Ornolf the Scarred|QID|14104|M|69.96,23.44|CC|N|To High Crusader Adelard|
@@ -263,36 +258,33 @@ T Among the Champions|QID|13814|M|73.59,20.09|N|To Illyrie Nightfall.|
 T Taking Battle To The Enemy|QID|13813|M|73.80,19.45|N|To Zor'be the Bloodletter.|
 
 ; Finishing up being an Valiant
-C The Valiant's Charge|QID|13697^13719^13720^13721^13722|M|PLAYER|L|44987 25|N|You need 25 Valiant's Seals; try again tomorrow.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+t The Valiant's Charge|QID|13714|M|76.64,19.49|N|To Lana Stouthammer.|
+t The Valiant's Charge|QID|13715|M|76.55,19.83|N|To Ambrose Boltspark.|
+t The Valiant's Charge|QID|13716|M|76.10,19.10|N|To Colosos.|
+t The Valiant's Charge|QID|13717|M|76.34,19.03|N|To Jaelyne Evensong.|
+t The Valiant's Charge|QID|13718|M|76.60,19.12|N|To Marshal Jacob Alerius.|
 
-t The Valiant's Charge|QID|13697|M|76.47,24.60|N|To Mokra the Skullcrusher.|
-t The Valiant's Charge|QID|13719|M|75.95,24.53|N|To Zul'tore.|
-t The Valiant's Charge|QID|13720|M|76.20,24.63|N|To Runok Wildmane.|
-t The Valiant's Charge|QID|13721|M|76.64,19.49|N|To Lana Stouthammer.|
-t The Valiant's Charge|QID|13722|M|76.45,23.85|N|To Eressea Dawnsinger.|
+A The Valiant's Challenge|QID|13699|PRE|13718|M|76.60,19.12|N|From Marshal Jacob Alerius.|
+A The Valiant's Challenge|QID|13713|PRE|13714|M|76.64,19.49|N|From Lana Stouthammer.|
+A The Valiant's Challenge|QID|13723|PRE|13715|M|76.55,19.83|N|From Ambrose Boltspark.|
+A The Valiant's Challenge|QID|13724|PRE|13716|M|76.10,19.10|N|From Colosos.|
+A The Valiant's Challenge|QID|13725|PRE|13717|M|76.34,19.03|N|From Jaelyne Evensong.|
 
+C The Valiant's Challenge|QID|13699^13713^13723^13724^13725|M|68.60,20.99|N|Mount up, get your shields going and talk to Squire Danny to get things started.|
 
-A The Valiant's Challenge|QID|13726|PRE|13697|M|76.47,24.60|N|From Mokra the Skullcrusher.|
-A The Valiant's Challenge|QID|13727|PRE|13719|M|75.95,24.53|N|From Zul'tore.|
-A The Valiant's Challenge|QID|13728|PRE|13720|M|76.20,24.63|N|From Runok Wildmane.|
-A The Valiant's Challenge|QID|13729|PRE|13721|M|76.53,24.21|N|From Deathstalker Visceri.|
-A The Valiant's Challenge|QID|13731|PRE|13722|M|76.45,23.85|N|From Eressea Dawnsinger.|
+T The Valiant's Challenge|QID|13699|M|76.60,19.12|N|To Marshal Jacob Alerius.|
+T The Valiant's Challenge|QID|13713|M|76.64,19.49|N|To Lana Stouthammer.|
+T The Valiant's Challenge|QID|13723|M|76.55,19.83|N|To Ambrose Boltspark.|
+T The Valiant's Challenge|QID|13724|M|76.10,19.10|N|To Colosos.|
+T The Valiant's Challenge|QID|13725|M|76.34,19.03|N|To Jaelyne Evensong.|
 
-C The Valiant's Challenge|QID|13726^13728^13727^13731^13729|M|68.60,20.99|N|Mount up, get your shields going and talk to Squire Danny to get things started.|
-
-T The Valiant's Challenge|QID|13726|M|76.47,24.60|N|To Mokra the Skullcrusher.|
-T The Valiant's Challenge|QID|13727|M|75.95,24.53|N|To Zul'tore.|
-T The Valiant's Challenge|QID|13728|M|76.20,24.63|N|To Runok Wildmane.|
-T The Valiant's Challenge|QID|13729|M|76.64,19.49|N|To Lana Stouthammer.|
-T The Valiant's Challenge|QID|13731|M|76.45,23.85|N|To Eressea Dawnsinger.|
-
-N A Champion Rises|ACTIVE|13736^13738^13737^13740^13739|N|At this point, you can become a Valiant for another faction. Choose it by talking to that faction's representative.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A A Champion Rises|QID|13736|PRE|13726|M|76.47,24.60|N|From Mokra the Skullcrusher.|R|Orc|
-A A Champion Rises|QID|13737|PRE|13727|M|75.95,24.53|N|From Zul'tore.|R|Troll|
-A A Champion Rises|QID|13738|PRE|13728|M|76.20,24.63|N|From Runok Wildmane.|R|Tauren|
-A A Champion Rises|QID|13739|PRE|13729|M|76.53,24.21|N|From Deathstalker Visceri.|R|Undead|
-A A Champion Rises|QID|13740|PRE|13731|M|76.45,23.85|N|From Eressea Dawnsinger.|R|Blood Elf|
-T A Champion Rises|QID|13736^13738^13737^13740^13739|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
+A A Champion Rises|QID|13702|PRE|13699|M|76.60,19.12|N|From Marshal Jacob Alerius.|R|Human|
+A A Champion Rises|QID|13732|PRE|13713|M|76.64,19.49|N|From Lana Stouthammer.|R|Dwarf|
+A A Champion Rises|QID|13733|PRE|13723|M|76.55,19.83|N|From Ambrose Boltspark.|R|Gnome|
+A A Champion Rises|QID|13734|PRE|13724|M|76.10,19.10|N|From Colosos.|R|Draenei|
+A A Champion Rises|QID|13735|PRE|13725|M|76.34,19.03|N|From Jaelyne Evensong.|R|Night Elf;Worgen|
+N A Champion Rises|QID|13702^13732^13733^13734^13735|PRE|13699^13713^13723^13724^13725|N|At this point, you can become a Valiant for another faction.\nAccept the quest from your chosen faction's rep and the guide should adjust.|
+T A Champion Rises|QID|13702^13732^13733^13734^13735|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
 A Eadric the Pure|QID|13794|PRE|13736^13737^13738^13739^13740|M|69.66,22.85|N|From Justicar Mariel Trueheart.|C|-Death Knight| ; ** If it's not DKs, then just use not for DKs - Hendo72
 T Eadric the Pure|QID|13794|M|69.96,23.44|N|To Eadric the Pure.|
@@ -336,8 +328,8 @@ A The Black Knight's Fate|QID|14017|PRE|14016|M|69.43,23.02|N|From Crusader Rhyd
 K Doctor Kohler|ACTIVE|14017|M|61.2,22.4|N|Kill and loot his orders.|T|Doctor Kohler|
 T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|To Crusader Rhydalla.|
 
-N Come back tomorrow|ACTIVE|13672|AVAILABLE|-13663|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
-
-N Come back tomorrow|ACTIVE|13697^13719^13720^13721^13722|M|PLAYER|N|At this point, you cannot proceed any further with this guide today. Come back once the dailies have reset.|
+; ** End of day message so player knows what to do and the guide doesn't reach EOG (Unless they skip it. You can't prevent stupidity)
+N Come back tomorrow|ACTIVE|13672|QO|1|M|PLAYER|N|At this point, you cannot proceed any further with this guide today.\nCome back once the dailies have reset and the guide will automatically reset itself.| ; ** Aspirant incomplete
+N Come back tomorrow|ACTIVE|13714^13715^13716^13717^13718|QO|1|M|PLAYER|N|At this point, you cannot proceed any further with this guide today.\nCome back once the dailies have reset and the guide will automatically reset itself.| ; ** Valiant incomplete
 ]]
 end)
