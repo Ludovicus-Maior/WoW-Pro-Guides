@@ -129,7 +129,7 @@ C A Wrestle of Wind and Water|QID|65930|M|45.59,57.63|Z|2024|N|The spirits can b
 T A Wrestle of Wind and Water|QID|65930|M|44.99,54.04|Z|2024|N|To Ruriq.|
 A Ruriq's River Rapids Ride|QID|66155|PRE|65930|M|44.99,54.04|Z|2024|N|From Ruriq.|
 C Ruriq's River Rapids Ride|QID|66155|M|44.92,54.09|V|N|Hop in the boat, UI Changes to let you catch fish as you go down the river.|
-T Ruriq's River Rapids Ride|QID|66155|M|44.99,54.04|Z|2024|N|To Ruriq.|
+T Ruriq's River Rapids Ride|QID|66155|M|34.27,52.35|Z|2024|N|To Ruriq.|
 R Azure Archives|ACTIVE|65688|M|40.92,55.01|CC|Z|2024|N|Fly back up the river to the Azure Archives.|
 
 T Meeting Kalecgos|QID|65688|M|40.92,55.01|Z|2024|N|To Kalecgos.|
