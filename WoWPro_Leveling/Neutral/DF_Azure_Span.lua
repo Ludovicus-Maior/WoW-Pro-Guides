@@ -179,7 +179,7 @@ T Power Procurement|QID|66582|M|45.93,40.66|Z|2024|N|To Delandra.|
 A A Gateway to Somewhere|QID|70154|PRE|66582|M|45.93,40.66|N|From Delandra. Unless you can't stand secrets, wait to take her portal till later, we will be back.|
 A Send It!|QID|66493|PRE|69904|M|45.99,38.78|Z|2024|N|From Supply Portal.|RANK|2|
 C Send It!|QID|66493|QO|1|M|45.99,38.78|Z|2024|CHAT|N|Tell the portal you are ready to deliver mail.|
-C Send It!|QID|66493|QO|2|M|45.99,38.78|Z|2024|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color] to deliver mail when you see apprentices about town.|S|
+C Send It!|QID|66493|QO|3|M|45.99,38.78|Z|2024|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color] to deliver mail when you see apprentices about town.|S|
 C Ways of Seeing|QID|66500|QO|4|M|46.01,38.62|Z|2024|H|N|The last Lingering Image is on the backside of the piller right behind the supply portal.|
 C Ask the Locals|QID|66699|M|46.76,38.60|Z|2024|QO|1|CHAT|N|Ask Korrikunit if he knows where any ley lines are.|
 C Ask the Locals|QID|66699|M|46.33,38.15|Z|2024|QO|2|CHAT|N|Ask Jokomuupat about pockets of magic in the area.|
@@ -191,7 +191,7 @@ A For The Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|From Noriko the All-Re
 C For The Love of Others|QID|66503|QO|1|M|46.65,40.16|Z|2024|CHAT|N|Ask Noriko to take you to the top.|
 C For The Love of Others|QID|66503|QO|2|M|47.14,40.29|Z|2024|NC|N|Click on Ancient Remains (skull on the floor).|
 C For The Love of Others|QID|66503|QO|3|M|47.14,40.29|Z|2024|CHAT|N|Ask Divo why he can't rest?. After that jump/fly down and kill Echo of Loss on the level just below you.|
-C Send It!|QID|66493|QO|2|M|45.99,38.78|Z|2024|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color] to deliver mail when you see apprentices about town.|US|
+C Send It!|QID|66493|QO|3|M|45.99,38.78|Z|2024|EAB|NC|N|Use your [color=33fff9]Extra Action Button [/color] to deliver mail when you see apprentices about town.|US|
 T Send It!|QID|66493|M|45.99,38.78|Z|2024|N|To Supply Portal.|
 T For The Love of Others|QID|66503|M|46.65,40.16|Z|2024|N|To Noriko the All-Remembering.|
 C Catch the Caravan|QID|65864|M|35.25,36.98|Z|2024|CHAT|N|Head out of town following the road to the northwest to find Brena.\n\nSpeak to Brena when you land|
