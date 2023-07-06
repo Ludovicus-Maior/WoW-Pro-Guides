@@ -49,7 +49,7 @@ A Spare Parts|QID|9305|PRE|10302|M|79.41,51.24|N|From Technician Zhanaa.|
 A Inoculation|QID|9303^37444|PRE|10302|M|79.48,51.61|N|From Vindicator Aldar.| ; ** used both QIDs to rid |R| tag - Hendo72
 r Sell junk and repair|ACTIVE|9303^37444|M|79.19,50.94|N|At Mura, close this step when done.|
 C Healing the Lake|QID|9294|M|77.19,57.87|N|Head south to the giant crystal, and use the Neutralizing Agent.|U|22955|NC|
-N Level 4|ACTIVE|9294|N|Grind until you're within ~3.5 bubbles of level 4|LVL|3;-250|
+L Level 4|ACTIVE|9294|N|Grind until you're within ~3.5 bubbles of level 4|LVL|3;-250|
 T Healing the Lake|QID|9294|M|79.13,46.54|N|To Botanist Taerix.|
 = Level 4 Training|ACTIVE|9305^9302|PRE|9294|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Crash Site|
 
@@ -91,27 +91,33 @@ T Find Acteon!|QID|9453|M|49.78,51.94|N|To Acteon at Azure Watch.|
 A The Great Moongraze Hunt|QID|9454|M|49.78,51.94|N|From Acteon.|
 N Primary and Secondary Professions|ACTIVE|9313^9314|M|48.68,52.34|N|Take this opportunity to learn your Primary and Secondary professions. The trainers are spread out across Azure Watch (Except Skinning; he's by Stillpine Hold).\n[color=FF0000]NOTE: [/color]Manually check this step off when you're done.|
 T Travel to Azure Watch|QID|9313|M|48.65,50.22|N|To Technician Dyvuun.|
+h Azure Watch|ACTIVE|9314|M|48.34,49.15|N|Set your hearth to Azure Watch with Caregiver Chellan.|
 T Word from Azure Watch|QID|9314|M|48.34,49.15|N|To Caregiver Chellan.|
-h Azure Watch|QID|9454|M|48.34,49.15|N|Set your hearth to Azure Watch with Caregiver Chellan.|
 A Help Tavara|QID|9586|M|48.59,49.29|N|From Guvan.|R|Draenei,Dwarf,Human|C|Priest|
 A Medicinal Purpose|QID|9463|M|48.39,51.77|N|From Anchorite Fateema.|R|Draenei|
 l Bandits!|AVAILABLE|9616|L|23910|N|Kill Blood Elf Bandits until one of them drops the Blood Elf Communication.\n[color=FF0000]NOTE: [/color]Seeing as this a bonus quest and has no follow-ups, if you don't find it, manually check this step off and carry on.|S!US|RANK|3|
 A Bandits!|QID|9616|M|PLAYER|N|Use the Blood Elf Communication.|U|23910|O|
 t Bandits!|QID|9616|M|47.10,50.59|N|To Exarch Menelaous.|IZ|3576;Azure Watch|
-C Help Tavara|QID|9586|M|56.23,48.90|N|Find Tavara and heal her wounds.|S|R|Draenei,Dwarf,Human|C|Priest|
-C The Great Moongraze Hunt|QID|9454|QO|1|M|54,61|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|S|
+C The Great Moongraze Hunt|QID|9454|QO|1|M|54.00,61.00|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|R|-Draenei|S|
+C The Great Moongraze Hunt|QID|9454|QO|1|M|54.00,61.00|N|Kill and loot Moongraze Stags for the Tenderloin.|R|Draenei|S|
+C Medicinal Purpose|QID|9463|ACTIVE|9586|QO|1|M|54.00,61.00|N|Kill and loot Root Trappers for the Vines.|T|Root Trapper|R|Draenei|S!US|
+C Help Tavara|QID|9586|M|56.23,48.90|N|Find Tavara and heal her wounds.|R|Draenei,Dwarf,Human|C|Priest|NC|
+T Help Tavara|QID|9586|M|48.59,49.29|N|To Guvan.|R|Draenei,Dwarf,Human|C|Priest|
 C Medicinal Purpose|QID|9463|QO|1|M|54,61|N|Kill and loot Root Trappers for the Vines.|T|Root Trapper|R|Draenei|
 C The Great Moongraze Hunt|QID|9454|QO|1|M|54,61|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|US|
-T Medicinal Purpose|QID|9463|M|48.4,51.8|N|[Coords]To Anchorite Fateema.|R|Draenei|
-A An Alternative Alternative|QID|9473|PRE|9463|M|48.4,51.8|N|[Coords]From Daedal.|R|Draenei|
+L Level 6|ACTIVE|9454|N|Grind until you're within bubbles of level 6.|LVL|5;-410|
+T Medicinal Purpose|QID|9463|M|48.39,51.77|N|To Anchorite Fateema.|R|Draenei|
+A An Alternative Alternative|QID|9473|PRE|9463|M|48.40,51.48|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|M|49.78,51.94|N|To Acteon.|
 A The Great Moongraze Hunt|QID|10324|PRE|9454|M|49.78,51.94|N|From Acteon.|
-C An Alternative Alternative|QID|9473|QO|1|M|48.5,55.1|N|[Coords]Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|NC|R|Draenei|
-T An Alternative Alternative|QID|9473|M|48.4,51.8|N|[Coords]To Daedal.|R|Draenei|
-A The Prophecy of Velen|QID|9505|PRE|9473|LEAD|9506|M|48.4,51.8|N|[Coords]Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
+C An Alternative Alternative|QID|9473|M|48.50,55.10|L|23692 5|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|
+T An Alternative Alternative|QID|9473|M|48.40,51.48|N|To Daedal.|R|Draenei|
+A The Prophecy of Velen|QID|9505|PRE|9473|LEAD|9506|M|48.40,51.48|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
+= Level 6 Training|AVAILABLE|9506|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Azure Watch|
 T The Prophecy of Velen|QID|9505|M|47.04,70.22|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|M|47.04,70.22|N|From Admiral Odesyus.|
-A Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|[Coords]From "Cookie" McWeaksauce.|
+A Cookie's Jumbo Gumbo|QID|9512|M|46.68,70.53|N|From "Cookie" McWeaksauce.|
+= Cooking|ACTIVE|9512|M|46.68,70.53|N|If you wish, learn Cooking from "Cookie" McWeaksauce.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't.|P|Cooking;185;0-1;3|
 C Cookie's Jumbo Gumbo|QID|9512|N|Kill crawlers for Skittering Crawler Meat.|S|
 C A Small Start|QID|9506|M|58.61,66.38|N|Find and right click the Nautical Map.|QO|2|
 C A Small Start|QID|9506|M|59.55,67.66|N|Now find and right click the Nautical Compass.|QO|1|
@@ -120,7 +126,7 @@ T A Small Start|QID|9506|M|47.04,70.22|N|To Admiral Odesyus.|
 A I've Got a Plant|QID|9530|PRE|9506|M|47.04,70.22|N|From Admiral Odesyus.|
 A Reclaiming the Ruins|QID|9513|PRE|9506^9512|M|47.13,70.27|N|From Priestess Kyleen Il'dinare.|
 A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506^9512|M|47.2,70.0|N|[Coords]From Archaeologist Adamant Ironheart.|
-T Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|[Coords]To "Cookie" McWeaksauce.|
+T Cookie's Jumbo Gumbo|QID|9512|M|46.68,70.53|N|To "Cookie" McWeaksauce.|
 r Sell junk and repair (click to close)|QID|9530|N|[Coords]At Blacksmith Calypso|M|46.4,71.1|
 C I've Got a Plant|QID|9530|N|North of Odesyus' Landing, look for glowing piles of leaves and tree trunks.|S|
 C Reclaiming the Ruins|QID|9513|M|39.18,78.15|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|S|
@@ -141,9 +147,8 @@ C The Great Moongraze Hunt|QID|10324|M|50.17,45.30|N|Kill and loot the needed Mo
 l Faintly Glowing Crystal|QID|9455|M|48.26,41.43|L|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|
 A Strange Findings|QID|9455|M|48.26,41.43|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|U|23678|
 C The Great Moongraze Hunt|QID|10324|M|50.17,45.30|N|Kill and loot the needed Moongraze Bucks for the Hides.|US|
-C Help Tavara|QID|9586|M|56.23,48.90|N|Find Tavara and heal her wounds.|US|R|Draenei,Dwarf,Human|C|Priest|
+;C Help Tavara|QID|9586|M|56.23,48.90|N|Find Tavara and heal her wounds.|US|R|Draenei,Dwarf,Human|C|Priest|
 T The Great Moongraze Hunt|QID|10324|M|49.78,51.94|N|To Acteon.|
-T Help Tavara|QID|9586|M|48.59,49.29|N|To Guvan.|R|Draenei,Dwarf,Human|C|Priest|
 T Strange Findings|QID|9455|M|47.1,50.6|N|[Coords]To Exarch Menelaous.|
 A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|M|47.1,50.6|N|[Coords]From Exarch Menelaous.|
 A Learning the Language|QID|9538|M|49.4,51.0|N|[Coords]From Cryptographer Aurren.|
