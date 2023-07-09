@@ -40,7 +40,7 @@ F Valdrakken|ACTIVE|72269|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|;adventure mode
 
 A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promoter.|RANK|2|
 A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112|N|From Waywatcher Lorin.|RANK|2|
-A Aiding the Accord|QID|70750^72068^72373^72374^72375|PRE|71232^72293|M|50.14,56.28|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
+A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861|PRE|71232^72293|M|50.14,56.28|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
 ;A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around... not sure what the trigger is. but as it's done in WS still... leaving out of this guide entirely
 R To Valdrakken|QID|66244|M|52.20,53.02|Z|2112|QO|1|N|Head up the steps for the quest update.| ; Go to step - Hendo72
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
