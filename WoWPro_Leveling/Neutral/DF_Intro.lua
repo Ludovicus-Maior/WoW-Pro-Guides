@@ -95,7 +95,7 @@ C Adventuring in the Dragon Isles|QID|72293|M|76.51,34.23|Z|2022; The Waking Sho
 ;A Thaldraszus|QID|72269|
 T Adventuring in the Dragon Isles|QID|72293|M|PLAYER|N|Completed in the quest log UI.\n[color=FF0000]NOTE: [/color]Don't forget to add your favorite Dragon to your hotkeys!|
 
-A Aiding the Accord|QID|70750^72068^72373^72374^72375|PRE|72293|M|76.51,34.29|Z|2022; The Waking Shores|N|From Karazal.\n[color=FF0000]NOTE: [/color]This is a weekly quest and will not be mentioned again in the guide.|
+A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861|PRE|72293|M|76.51,34.29|Z|2022; The Waking Shores|N|From Karazal.\n[color=FF0000]NOTE: [/color]This is a weekly quest and will not be mentioned again in the guide.|
 T Primal Pests|QID|65453|M|76.29,33.02|Z|2022; The Waking Shores|N|To Scalecommander Cinderthresh.|FACTION|Horde|ACTIVE|72267^72268^72269|
 T Practice Materials|QID|70124|M|76.50,34.34|Z|2022; The Waking Shores|N|To Thaelin Darkanvil.|FACTION|Alliance|ACTIVE|72267^72268^72269|
 T Practice Materials|QID|65451|M|75.94,33.24|Z|2022; The Waking Shores|N|To Boss Magor.|FACTION|Horde|ACTIVE|72267^72268^72269|
