@@ -2834,6 +2834,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     WoWPro.CompleteStep(guideIndex, why)
                     skip = true
                     WoWPro:dbp(why)
+                    break
                 end
             end
 
@@ -2845,6 +2846,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     WoWPro.CompleteStep(guideIndex, why)
                     skip = true
                     WoWPro:dbp(why)
+                    break
                 end
             end
 
