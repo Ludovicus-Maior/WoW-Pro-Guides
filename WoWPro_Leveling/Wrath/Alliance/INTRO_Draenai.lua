@@ -26,7 +26,7 @@ A Priest Training|QID|9291|M|80.17,48.52|N|From Zaldunn.|R|Draenei|C|Priest|
 T Priest Training|QID|9291|M|80.17,48.52|N|To Zaldunn.|R|Draenei|C|Priest|
 A Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
 T Shaman Training|QID|9421|M|79.28,49.11|N|To Firmanvaar.|R|Draenei|C|Shaman|
-= Level 2 Training|AVAILABLE|10302|PRE|9287^9288^9289^9290^9291^9421|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Crash Site|
+= Level 2 Training|AVAILABLE|10302|PRE|9287^9288^9289^9290^9291^9421|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|IZ|Crash Site|
 A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|80.42,45.89|N|From Proenitus.|R|Draenei,Human,Night Elf|
 T Botanist Taerix|QID|9371|M|79.13,46.54|N|To Botanist Taerix.|R|Draenei,Human,Night Elf| ; ** What targetting dummies? - Hendo72
 A Volatile Mutations|QID|10302|PRE|9280^9369|M|79.13,46.54|N|From Botanist Taerix.|
@@ -51,7 +51,7 @@ r Sell junk and repair|ACTIVE|9303^37444|M|79.19,50.94|N|At Mura, close this ste
 C Healing the Lake|QID|9294|M|77.19,57.87|N|Head south to the giant crystal, and use the Neutralizing Agent.|U|22955|NC|
 L Level 4|ACTIVE|9294|N|Grind until you're within ~3.5 bubbles of level 4|LVL|3;-250|
 T Healing the Lake|QID|9294|M|79.13,46.54|N|To Botanist Taerix.|
-= Level 4 Training|ACTIVE|9305^9302|PRE|9294|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Crash Site|
+= Level 4 Training|ACTIVE|9305^9302|PRE|9294|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Crash Site|
 
 A Call of Earth|QID|9449|M|79.28,49.11|N|From Firmanvaar.|R|Draenei|C|Shaman|LVL|4|
 T Call of Earth|QID|9449|M|71.81,40.26|N|To Spirit of the Vale.|R|Draenei|C|Shaman|
@@ -95,7 +95,7 @@ h Azure Watch|ACTIVE|9314|M|48.34,49.15|N|Set your hearth to Azure Watch with Ca
 T Word from Azure Watch|QID|9314|M|48.34,49.15|N|To Caregiver Chellan.|
 A Help Tavara|QID|9586|M|48.59,49.29|N|From Guvan.|R|Draenei,Dwarf,Human|C|Priest|
 A Medicinal Purpose|QID|9463|M|48.39,51.77|N|From Anchorite Fateema.|R|Draenei|
-l Bandits!|AVAILABLE|9616|L|23910|N|Kill Blood Elf Bandits until one of them drops the Blood Elf Communication.\n[color=FF0000]NOTE: [/color]Seeing as this a bonus quest and has no follow-ups, if you don't find it, manually check this step off and carry on.|S!US|RANK|3|
+l Bandits!|AVAILABLE|9616|L|23910|M|PLAYER|N|Kill Blood Elf Bandits (they are invisible) until one of them drops the Blood Elf Communication.\n[color=FF0000]NOTE: [/color]Seeing as this a bonus quest and has no follow-ups, if you don't find it, manually check this step off and carry on.|S!US|RANK|3|
 A Bandits!|QID|9616|M|PLAYER|N|Use the Blood Elf Communication.|U|23910|O|
 t Bandits!|QID|9616|M|47.10,50.59|N|To Exarch Menelaous.|IZ|3576;Azure Watch|
 C The Great Moongraze Hunt|QID|9454|QO|1|M|54.00,61.00|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|R|-Draenei|S|
@@ -113,61 +113,65 @@ A The Great Moongraze Hunt|QID|10324|PRE|9454|M|49.78,51.94|N|From Acteon.|
 C An Alternative Alternative|QID|9473|M|48.50,55.10|L|23692 5|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|
 T An Alternative Alternative|QID|9473|M|48.40,51.48|N|To Daedal.|R|Draenei|
 A The Prophecy of Velen|QID|9505|PRE|9473|LEAD|9506|M|48.40,51.48|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
-= Level 6 Training|AVAILABLE|9506|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Azure Watch|
+= Level 6 Training|AVAILABLE|9506|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Azure Watch|
 T The Prophecy of Velen|QID|9505|M|47.04,70.22|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|M|47.04,70.22|N|From Admiral Odesyus.|
 A Cookie's Jumbo Gumbo|QID|9512|M|46.68,70.53|N|From "Cookie" McWeaksauce.|
 = Cooking|ACTIVE|9512|M|46.68,70.53|N|If you wish, learn Cooking from "Cookie" McWeaksauce.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't.|P|Cooking;185;0-1;3|
-C Cookie's Jumbo Gumbo|QID|9512|N|Kill crawlers for Skittering Crawler Meat.|S|
-C A Small Start|QID|9506|M|58.61,66.38|N|Find and right click the Nautical Map.|QO|2|
-C A Small Start|QID|9506|M|59.55,67.66|N|Now find and right click the Nautical Compass.|QO|1|
-C Cookie's Jumbo Gumbo|QID|9512|M|58,67|N|Follow the shore back eastwards while killing crawlers for Skittering Crawler Meat.|US|
+C Cookie's Jumbo Gumbo|QID|9512|L|23757 6|N|Kill crawlers for Skittering Crawler Meat.|S|
+C A Small Start|QID|9506|M|58.61,66.38|L|23739|N|Pick up the Nautical Map on the crate in Geezle's Camp.|
+C A Small Start|QID|9506|M|59.57,67.62|L|23738|N|Pick up the Nautical Compass southeast of the camp.|
+C Cookie's Jumbo Gumbo|QID|9512|M|52.19,71.07|L|23757 6|N|Follow the shore back eastwards while killing crawlers for Skittering Crawler Meat.|US|
 T A Small Start|QID|9506|M|47.04,70.22|N|To Admiral Odesyus.|
 A I've Got a Plant|QID|9530|PRE|9506|M|47.04,70.22|N|From Admiral Odesyus.|
 A Reclaiming the Ruins|QID|9513|PRE|9506^9512|M|47.13,70.27|N|From Priestess Kyleen Il'dinare.|
-A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506^9512|M|47.2,70.0|N|[Coords]From Archaeologist Adamant Ironheart.|
+A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506^9512|M|47.24,69.99|N|From Archaeologist Adamant Ironheart.|
 T Cookie's Jumbo Gumbo|QID|9512|M|46.68,70.53|N|To "Cookie" McWeaksauce.|
-r Sell junk and repair (click to close)|QID|9530|N|[Coords]At Blacksmith Calypso|M|46.4,71.1|
-C I've Got a Plant|QID|9530|N|North of Odesyus' Landing, look for glowing piles of leaves and tree trunks.|S|
-C Reclaiming the Ruins|QID|9513|M|39.18,78.15|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|S|
-C Precious and Fragile Things Need Special Handling|QID|9523|M|35,75|N|[Coords]Go to the Wrathscale Point and collect Ancient Relics.|S|
-A Rune Covered Tablet|QID|9514|M|36.1,77.0|N|[Coords]The tablet should have dropped off the naga while you're killing them.|U|23759|
-C Reclaiming the Ruins|QID|9513|M|39.18,78.15|N|Kill any Naga you still need for this quest.|US|
-C Precious and Fragile Things Need Special Handling|QID|9523|M|35,75|N|Go to the Wrathscale Point and collect Ancient Relics.|US|
-C I've Got a Plant|QID|9530|M|45.43,66.20|N|Move towards Odesyus' Landing. There you will find hollow trees. Loot the remaining Piles of Leaves.|US|
+r Sell junk and repair|ACTIVE|9530|M|46.36,71.19|N|At Blacksmith Calypso|IZ|Odesyus' Landing|
+C I've Got a Plant|QID|9530|M|45.43,66.20|L|23791 5|N|The Pile of Leaves are located northwest of Odesyus' Landing.|S|
+C I've Got a Plant|QID|9530|M|47.11,62.59|L|23790|N|Follow the road north out of Odesyus' Landing, looking for the Hollowed Out Trees on either side of it.|
+C I've Got a Plant|QID|9530|M|38.80,70.38|L|23791 5|N|Moving southwest, loot the remaining Piles of Leaves.\n[color=FF0000]NOTE: [/color]If the area is busy, there are more on the east side of the road.|US|
+l Rune Covered Tablet|AVAILABLE|6514|L|23759|N|This quest starter will drop from one of the Wrathscale Nagas.|S!US|IZ|Wrathscale Point|
+A Rune Covered Tablet|QID|9514|M|PLAYER|N|From the Rune Covered Tablet you just looted.|U|23759|O|
+C Precious and Fragile Things Need Special Handling|QID|9523|M|24.61,75.40|N|Collect the Ancient Relics around Wrathscale Point.|S|
+C Reclaiming the Ruins|QID|9513|M|24.61,75.40|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|
+C Precious and Fragile Things Need Special Handling|QID|9523|M|24.61,75.40|N|Collect the Ancient Relics around Wrathscale Point.|US|
 T I've Got a Plant|QID|9530|M|47.04,70.22|N|To Admiral Odesyus.|
 A Tree's Company|QID|9531|PRE|9530|M|47.04,70.22|N|From Admiral Odesyus.|
-T Precious and Fragile Things Need Special Handling|QID|9523|M|47.2,70.0|N|[Coords]To Archaeologist Adamant Ironheart.|
+T Precious and Fragile Things Need Special Handling|QID|9523|M|47.24,69.99|N|To Archaeologist Adamant Ironheart.|
 T Reclaiming the Ruins|QID|9513|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
-T Rune Covered Tablet|QID|9514|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
-A Warlord Sriss'tiz|QID|9515|PRE|9514|M|47.13,70.27|N|Wait a moment until the dialog is finished. Then accept this quest from Priestess Kyleen Il'dinare.|
-R Azure Watch|QID|9538|M|48,53|N|Run to Azure Watch.|
-A The Missing Fisherman|QID|10428|LEAD|9527|M|49.0,51.1|N|[Coords]From Dulvi.|
-C The Great Moongraze Hunt|QID|10324|M|50.17,45.30|N|Kill and loot the needed Moongraze Bucks for the Hides.|S|
-l Faintly Glowing Crystal|QID|9455|M|48.26,41.43|L|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|
-A Strange Findings|QID|9455|M|48.26,41.43|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|U|23678|
-C The Great Moongraze Hunt|QID|10324|M|50.17,45.30|N|Kill and loot the needed Moongraze Bucks for the Hides.|US|
-;C Help Tavara|QID|9586|M|56.23,48.90|N|Find Tavara and heal her wounds.|US|R|Draenei,Dwarf,Human|C|Priest|
+t Rune Covered Tablet|QID|9514|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
+A Warlord Sriss'tiz|QID|9515|PRE|9514|M|47.13,70.27|N|Once the dialog ends (it takes a while), accept this quest from Priestess Kyleen Il'dinare.|
+R Azure Watch|AVAILABLE|10428|M|48.34,49.15|N|Return to Azure Watch.|S|LVL|8| ; ** Grind as they go - Hendo72
+L Level 8|AVAILABLE|10428|N|Grind until you're level 8.|LVL|8|
+R Azure Watch|AVAILABLE|10428|M|48.34,49.15|N|Return to Azure Watch.|US|
+= Level 8 Training|AVAILABLE|10428|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Azure Watch|
+A The Missing Fisherman|QID|10428|LEAD|9527|M|48.96,51.06|N|From Dulvi.|
+C The Great Moongraze Hunt|QID|10324|M|50.17,45.30|L|23677 6|N|Moongraze Bucks|S|
+l Faintly Glowing Crystal|AVAILABLE|9455|M|48.26,41.43|L|23678|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal.|T|Infected Nightstalkers|
+A Strange Findings|QID|9455|M|PLAYER|N|From the Faintly Glowing Crystal you just looted.|U|23678|O|
+C The Great Moongraze Hunt|QID|10324|M|50.17,45.30|L|23677 6|ITEM|23677|N|Moongraze Bucks\nThere are lots to the north of Azure Watch.|T|Moongraze Buck|US|
 T The Great Moongraze Hunt|QID|10324|M|49.78,51.94|N|To Acteon.|
-T Strange Findings|QID|9455|M|47.1,50.6|N|[Coords]To Exarch Menelaous.|
-A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|M|47.1,50.6|N|[Coords]From Exarch Menelaous.|
-A Learning the Language|QID|9538|M|49.4,51.0|N|[Coords]From Cryptographer Aurren.|
-C Learning the Language|QID|9538|N|Read the book.|U|23818|
-T Learning the Language|QID|9538|M|49.4,51.0|N|[Coords]To the Totem of Akida.|
-A Totem of Coo|QID|9539|PRE|9538|M|49.4,51.0|N|[Coords]From the Totem of Akida.|
-T Totem of Coo|QID|9539|M|55.2,41.6|N|[Coords]Turn the quest into the Totem of Coo.|
-A Totem of Tikti|QID|9540|PRE|9539|M|55.2,41.6|N|[Coords]From the Totem of Coo.|
-T Totem of Tikti|QID|9540|M|64.47,39.79|N|Jump off the cliff to the east after you recieve the "Ghost Walk" buff, then keep running east until you cross the river. Turn the quest into the Totem of Tikti.|
-A Totem of Yor|QID|9541|PRE|9540|M|64.47,39.79|N|From the Totem of Tikti.|
-T Totem of Yor|QID|9541|M|63.13,67.88|N|Wait until you recieve the "Embrace of the Serpent" buff, then walk into the water, and swim south to the southern estuary. Turn the quest into the Totem of Yor.|
-A Totem of Vark|QID|9542|PRE|9541|M|63.13,67.88|N|From the Totem of Yor.|
-R Run to this waypoint.|QID|9542|M|30.94,56.87|CC|N|Wait until the furbolg casts the "Shadow of the Forest" buff on you, then don't bother waiting and run straight to the waypoint. Right click your buff to return to the normal world.|
-C Nightstalker Clean Up, Isle 2...|QID|9456|M|30.94,56.87|N|Kill Infected Nightstalkers.|S|
-C The Great Moongraze Hunt|QID|10324|M|30.94,56.87|N|Kill Infected Nightstalkers.|
-C Nightstalker Clean Up, Isle 2...|QID|9456|M|30.94,56.87|N|Kill Infected Nightstalkers.|US|
-T Totem of Vark|QID|9542|M|28.11,62.39|N|To the Totem of Vark.|
-A The Prophecy of Akida|QID|9544|PRE|9542|M|28.1,62.4|N|[Coords]From the Totem of Vark.|
-C The Prophecy of Akida|QID|9544|M|28.5,66.4|N|[Coords]Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.|
+T Strange Findings|QID|9455|M|47.11,50.60|N|To Exarch Menelaous.|
+A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|M|47.11,50.60|N|From Exarch Menelaous.|
+A Learning the Language|QID|9538|M|49.38,50.96|N|From Cryptographer Aurren.|
+C Learning the Language|QID|9538|M|PLAYER|N|Read the book you were just given.|U|23818|NC|
+T Learning the Language|QID|9538|M|49.44,50.98|N|To the Totem of Akida.|
+A Totem of Coo|QID|9539|PRE|9538|M|49.44,50.98|N|From the Totem of Akida.|
+T Totem of Coo|QID|9539|M|55.23,41.65|N|To Totem of Coo.\n[color=FF0000]NOTE: [/color]You don't have to follow or wait for Akida.|
+A Totem of Tikti|QID|9540|PRE|9539|M|55.23,41.65|N|From Totem of Coo.|
+R Totem of Tikti|ACTIVE|9540|M|64.47,39.79|CC|N|**AFTER** you receive the "Ghost Walk" buff, jump off the cliff to the east and float eastward towards the river (swim across if you don't make it all the way).\n[color=FF0000]NOTE: [/color]If you do it right, you can earn your 'Going Down?' achieve.|
+T Totem of Tikti|QID|9540|M|64.47,39.79|N|To Totem of Tikti.|
+A Totem of Yor|QID|9541|PRE|9540|M|64.47,39.79|N|From Totem of Tikti.|
+R Totem of Yor|ACTIVE|9541|M|63.13,67.88|CC|N|**AFTER** you receive the "Embrace of the Serpent" buff, walk into the water and swim south to the mouth of the river.\n[color=FF0000]NOTE: [/color]Stick to the deep water because you'll swim faster than you can run.|
+T Totem of Yor|QID|9541|M|63.13,67.88|N|To Totem of Yor (at the bottom of the river).|
+A Totem of Vark|QID|9542|PRE|9541|M|63.13,67.88|N|From Totem of Yor.|
+K Nightstalker Clean Up, Isle 2...|ACTIVE|9456|QO|1|M|30.94,56.87|N|Kill Infected Nightstalkers.\n[color=FF0000]NOTE: [/color]You'll lose your buff if you attack anything.|S|
+R Bristlelimb Village|ACTIVE|9452|M|28.10,62.40|N|**AFTER** you receive the "Shadow of the Forest" buff on you, run straight to the village.\n[color=FF0000]NOTE: [/color]You have to follow him to the shore to get the buff.\nThe buff is not required to do the quest; just makes it easier.|
+T Totem of Vark|QID|9542|M|28.10,62.40|N|To Totem of Vark.|
+A The Prophecy of Akida|QID|9544|PRE|9542|M|28.10,62.40|N|From Totem of Vark.|
+C The Prophecy of Akida|QID|9544|M|28.10,62.40|ITEM|23801|N|Bristlelimb Furbolgs in the camp\nUse the keys to unlock the Bristlelimb cages and free the captives.|
+K Nightstalker Clean Up, Isle 2...|ACTIVE|9456|QO|1|M|30.94,56.87|N|Kill Infected Nightstalkers.|T|Infected Nightstalker|US|
 C Warlord Sriss'tiz|QID|9515|M|27,77;26.34,73.90;25.12,74.19|CS|N|Head to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|
 C Tree's Company|QID|9531|M|18.48,84.33|N|Fight your way out of the cavern then go far southwest to a Naga Flag. Use your Tree Disguise Kit and wait for the complete message.\nOnly one person at a time!|U|23792|
 A A Cry For Help|QID|9528|M|13.61,73.26|N|On the northern side of the island, behind a fallen tree. From Magwin.|
@@ -177,11 +181,11 @@ T The Missing Fisherman|QID|10428|M|16.6,94.5|N|[Coords]To Cowlen.|
 A All That Remains|QID|9527|M|16.6,94.5|N|[Coords]From Cowlen.|
 C All That Remains|QID|9527|M|13.41,85.29|N|Kill owlkins on this island until you pick up the Remains of Cowlen's Family.|
 T All That Remains|QID|9527|M|16.6,94.5|N|[Coords]To Cowlen.|
-H Azure Watch|QID|9544|M|48,53|N|[Coords]Hearth back to Azure Watch.|
-T The Prophecy of Akida|QID|9544|M|49.4,51.0|N|[Coords]To Arugoo of the Stillpine.|
-A Stillpine Hold|QID|9559|PRE|9544|M|49.4,51.0|N|[Coords]From Arugoo of the Stillpine.|
+H Azure Watch|ACTIVE|9544|M|48.34,49.15|N|Hearth back to Azure Watch.|
+T The Prophecy of Akida|QID|9544|M|49.44,50.98|N|[Coords]To Arugoo of the Stillpine.|
+A Stillpine Hold|QID|9559|PRE|9544|M|49.44,50.98|N|[Coords]From Arugoo of the Stillpine.|
 A Strength of One|QID|9582|M|50.02,50.52|N|From Ruada.|C|Warrior|R|Draenei|LVL|10|
-T Nightstalker Clean Up, Isle 2...|QID|9456|M|47.1,50.6|N|[Coords]To Exarch Menelaous.|
+T Nightstalker Clean Up, Isle 2...|QID|9456|M|47.11,50.60|N|To Exarch Menelaous.|
 A Call of Fire|QID|9464|M|48.06,50.44|N|From Tuluun.|C|Shaman|R|Draenei|LVL|10|
 A Seek Huntress Kella Nightbow|QID|9757|M|49.78,51.93|N|From Acteon.|C|Hunter|R|Draenei|LVL|10|
 T Seek Huntress Kella Nightbow|QID|9757|M|24.19,54.34|N|To Huntress Kella Nightbow.|C|Hunter|R|Draenei|
@@ -204,9 +208,9 @@ A Show Gnomercy|QID|9537|PRE|9531|M|47.04,70.22|N|From Admiral Odesyus.|
 C Show Gnomercy|QID|9537|M|48.28,72.22|N|Search the beach for Engineer "Spark" Overgrind, talk to him, then kill and loot him.|T|Engineer "Spark" Overgrind|
 T Show Gnomercy|QID|9537|M|47.04,70.22|N|To Admiral Odesyus.|
 A Deliver Them From Evil...|QID|9602|PRE|9537|M|47.04,70.22|N|From Admiral Odesyus.|
-H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|
-T Deliver Them From Evil...|QID|9602|M|47.1,50.6|N|[Coords]To Exarch Menelaous.|
-A Coming of Age|QID|9623|M|47.1,50.6|N|[Coords]From Exarch Menelaous.|
+H Azure Watch|ACTIVE|9602|M|48.34,49.15|N|Hearth back to Azure Watch.|
+T Deliver Them From Evil...|QID|9602|M|47.11,50.60|N|To Exarch Menelaous.|
+A Coming of Age|QID|9623|M|47.11,50.60|N|From Exarch Menelaous.|
 r Sell junk and repair|QID|9559|M|49.69,52.75|N|At Kioni.|
 ; Stillpine Hold
 R Stillpine Hold|QID|9559|M|46,20|N|To the north of Azure Watch.|
@@ -244,11 +248,12 @@ T Call of Fire|QID|9465|M|59.52,17.95|N|To Temper.|C|Shaman|R|Draenei|
 A Call of Fire|QID|9467|M|59.52,17.95|N|From Temper.|C|Shaman|R|Draenei|
 C Call of Fire|QID|9467|M|11.25,82.56|N|Click the Strawnman and then kill the fire elemental that spawns.|C|Shaman|R|Draenei|
 T Call of Fire|QID|9467|M|59.52,17.95|N|Use the Orb of Returning and turn in to Temper.|U|24335|C|Shaman|R|Draenei|
+l Bandits!|AVAILABLE|9616|L|23910|M|PLAYER|N|Kill Blood Elf Bandits (they are invisible) until one of them drops the Blood Elf Communication.\n[color=FF0000]NOTE: [/color]Seeing as this a bonus quest and has no follow-ups, if you don't find it, manually check this step off and carry on.|US|RANK|3|
+H Azure Watch|QID|9622|M|48.34,49.15|N|Hearth back to Azure Watch.|
 T Warn Your People|QID|9622|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|
-T Bandits!|QID|9616|M|47.13,50.61|N|To Exarch Menelaous.|O|
 T Strength of One|QID|9582|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
 A Behomat|QID|10350|M|50.01,50.52|N|From Ruada.|C|Warrior|R|Draenei|
-r Sell junk and repair|QID|9623|M|49.69,52.75|N|At Kioni.|
+r Sell junk and repair|ACTIVE|9623|M|49.69,52.75|N|At Kioni.|
 T Behomat|QID|10350|M|55.58,82.36|Z|The Exodar|N|To Behomat.|C|Warrior|R|Draenei|
 N If you are not lvl 12 yet you need to grind it out to get the class quest for Paladins to rez|C|Paladin|R|Draenei|LVL|-12|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Turn this quest into Torallius the Pack Handler.|
