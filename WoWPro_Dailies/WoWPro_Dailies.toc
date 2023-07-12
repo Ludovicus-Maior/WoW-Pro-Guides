@@ -2,6 +2,7 @@
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
+## IconTexture: Interface\GossipFrame\DailyQuestIcon
 ## Dependencies: WoWPro
 ## Version: 2023.06.27.A
 ## X-Category: Quest
