@@ -172,20 +172,25 @@ T Totem of Vark|QID|9542|M|28.10,62.40|N|To Totem of Vark.|
 A The Prophecy of Akida|QID|9544|PRE|9542|M|28.10,62.40|N|From Totem of Vark.|
 C The Prophecy of Akida|QID|9544|M|28.10,62.40|ITEM|23801|N|Bristlelimb Furbolgs in the camp\nUse the keys to unlock the Bristlelimb cages and free the captives.|
 K Nightstalker Clean Up, Isle 2...|ACTIVE|9456|QO|1|M|30.94,56.87|N|Kill Infected Nightstalkers.|T|Infected Nightstalker|US|
-C Warlord Sriss'tiz|QID|9515|M|27,77;26.34,73.90;25.12,74.19|CS|N|Head to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|
-C Tree's Company|QID|9531|M|18.48,84.33|N|Fight your way out of the cavern then go far southwest to a Naga Flag. Use your Tree Disguise Kit and wait for the complete message.\nOnly one person at a time!|U|23792|
-A A Cry For Help|QID|9528|M|13.61,73.26|N|On the northern side of the island, behind a fallen tree. From Magwin.|
-C A Cry For Help|QID|9528|M|16.6,94.5|QO|1|N|[Coords]Escort Magwin across the island, defending her from the owlkin (she's VERY slow). You'll end up at the next quest NPC we need.|
-T A Cry For Help|QID|9528|M|16.6,94.5|N|[Coords]To Cowlen.|
-T The Missing Fisherman|QID|10428|M|16.6,94.5|N|[Coords]To Cowlen.|
-A All That Remains|QID|9527|M|16.6,94.5|N|[Coords]From Cowlen.|
-C All That Remains|QID|9527|M|13.41,85.29|N|Kill owlkins on this island until you pick up the Remains of Cowlen's Family.|
-T All That Remains|QID|9527|M|16.6,94.5|N|[Coords]To Cowlen.|
+K Warlord Sriss'tiz|ACTIVE|9515|QO|1|M|27.15,76.81;26.34,73.90;25.12,74.19|CS|N|Head to a cave in Wrathscale Point and drop down the hole just inside the cave (ring of candles).\nWarlord Sriss'Tiz should be by the water.|
+R Wrathscale Point|ACTIVE|9531|QO|1|M|26.18,77.65|N|work your way out of the cavern.|IZ|Tide's Hollow|
+R Silvermyst Isle|ACTIVE|9531|QO|1|M|20.39,81.77|N|Swim across to the island in front of you.|
+C Tree's Company|QID|9531|M|18.48,84.33|N|Locate the Naga Flag in Traitor's Cove and use your Tree Disguise Kit.\nJust wait for the complete message.\n[color=FF0000]NOTE: [/color]Only one person can do this at a time!|U|23792|
+A A Cry For Help|QID|9528|M|13.63,73.23|ELITE|N|[color=80FF00]Escort Quest:[/color]\n[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Magwin on the northern side of the island, behind a fallen tree.\n[color=FF0000]NOTE: [/color]You shouldn't need a group for this quest.|
+C A Cry For Help|QID|9528|M|16.31,93.99|N|Escort Magwin across the island to the south side, defending her from the owlkin (not that she can't defend herself).\n[color=FF0000]NOTE: [/color]She moves very slowly and won't aggro unless they get too close to her.|
+T A Cry For Help|QID|9528|M|16.59,94.46|N|To Cowlen.|
+T The Missing Fisherman|QID|10428|M|16.59,94.46|N|To Cowlen.|
+A All That Remains|QID|9527|M|16.59,94.46|N|From Cowlen.|
+C All That Remains|QID|9527|M|13.41,85.29|L|23789|N|Kill owlkins on Silvermyst Isle until you loot the Remains of Cowlen's Family.|
+T All That Remains|QID|9527|M|16.59,94.46|N|To Cowlen.|
+L Level 10|ACTIVE|9544|N|Grind until you're within 5.5 bubbles of level 10.|LVL|9;-1950|
 H Azure Watch|ACTIVE|9544|M|48.34,49.15|N|Hearth back to Azure Watch.|
-T The Prophecy of Akida|QID|9544|M|49.44,50.98|N|[Coords]To Arugoo of the Stillpine.|
-A Stillpine Hold|QID|9559|PRE|9544|M|49.44,50.98|N|[Coords]From Arugoo of the Stillpine.|
+T The Prophecy of Akida|QID|9544|M|49.37,51.08|N|To Arugoo of the Stillpine.|
+A Stillpine Hold|QID|9559|PRE|9544|M|49.37,51.08|N|From Arugoo of the Stillpine.|
 A Strength of One|QID|9582|M|50.02,50.52|N|From Ruada.|C|Warrior|R|Draenei|LVL|10|
 T Nightstalker Clean Up, Isle 2...|QID|9456|M|47.11,50.60|N|To Exarch Menelaous.|
+r Sell junk and repair|ACTIVE|9559|M|49.64,52.92|N|At Kioni or Nabek.|IZ|Azure Watch|
+= Level 10 Training|ACTIVE|9515|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|IZ|Azure Watch|
 A Call of Fire|QID|9464|M|48.06,50.44|N|From Tuluun.|C|Shaman|R|Draenei|LVL|10|
 A Seek Huntress Kella Nightbow|QID|9757|M|49.78,51.93|N|From Acteon.|C|Hunter|R|Draenei|LVL|10|
 T Seek Huntress Kella Nightbow|QID|9757|M|24.19,54.34|N|To Huntress Kella Nightbow.|C|Hunter|R|Draenei|
@@ -200,7 +205,7 @@ C Taming the Beast|QID|9593|M|36.07,41.44|N|Use the Taming Totem to befriend a N
 T Taming the Beast|QID|9593|M|24.19,54.34|N|To Huntress Kella Nightbow.|C|Hunter|R|Draenei|
 A Beast Training|QID|9675|PRE|9593|M|24.19,54.34|N|From Huntress Kella Nightbow.|C|Hunter|R|Draenei|
 T Beast Training|QID|9675|M|44.25,86.62|Z|The Exodar|N|To Ganaar.|C|Hunter|R|Draenei|
-r Sell junk and repair|QID|9559|M|49.69,52.75|N|At Kioni.|
+
 R Odesyus' Landing|QID|9515|M|46.11,72.16|N|Head to Odesyus' Landing... again...|
 T Warlord Sriss'tiz|QID|9515|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
 T Tree's Company|QID|9531|M|47.04,70.22|N|To Admiral Odesyus.|
