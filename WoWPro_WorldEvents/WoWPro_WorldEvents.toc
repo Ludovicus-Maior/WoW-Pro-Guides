@@ -2,6 +2,7 @@
 ## Title: |cffFF9900WoW-|r|cff46921APro|r WorldEvents
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
+## IconTexture: Interface\ICONS\INV_Misc_Ticket_Darkmoon_01
 ## Dependencies: WoWPro
 ## Version: 2023.06.27.A
 ## X-Category: Quest
