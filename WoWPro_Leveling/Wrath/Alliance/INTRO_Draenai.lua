@@ -89,7 +89,7 @@ T Red Snapper - Very Tasty!|QID|9452|M|61.06,54.25|N|To Diktynna.|
 A Find Acteon!|QID|9453|PRE|9452|M|61.06,54.25|N|From Diktynna.|
 T Find Acteon!|QID|9453|M|49.78,51.94|N|To Acteon at Azure Watch.|
 A The Great Moongraze Hunt|QID|9454|M|49.78,51.94|N|From Acteon.|
-N Primary and Secondary Professions|ACTIVE|9313^9314|M|48.68,52.34|N|Take this opportunity to learn your Primary and Secondary professions. The trainers are spread out across Azure Watch (Except Skinning; he's by Stillpine Hold).\n[color=FF0000]NOTE: [/color]Manually check this step off when you're done.|
+= Primary and Secondary Professions|ACTIVE|9313^9314|M|48.68,52.34|N|Take this opportunity to learn your Primary and Secondary professions. The trainers are spread out across Azure Watch (Except Skinning and Leatherworking; they're at Stillpine Hold).\n[color=FF0000]NOTE: [/color]Manually check this step off when you're done.|
 T Travel to Azure Watch|QID|9313|M|48.65,50.22|N|To Technician Dyvuun.|
 h Azure Watch|ACTIVE|9314|M|48.34,49.15|N|Set your hearth to Azure Watch with Caregiver Chellan.|
 T Word from Azure Watch|QID|9314|M|48.34,49.15|N|To Caregiver Chellan.|
@@ -210,26 +210,27 @@ R Odesyus' Landing|QID|9515|M|46.11,72.16|N|Head to Odesyus' Landing... again...
 T Warlord Sriss'tiz|QID|9515|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
 T Tree's Company|QID|9531|M|47.04,70.22|N|To Admiral Odesyus.|
 A Show Gnomercy|QID|9537|PRE|9531|M|47.04,70.22|N|From Admiral Odesyus.|
-C Show Gnomercy|QID|9537|M|48.28,72.22|N|Search the beach for Engineer "Spark" Overgrind, talk to him, then kill and loot him.|T|Engineer "Spark" Overgrind|
+C Show Gnomercy|QID|9537|M|48.28,72.22|L|23899|N|After you locate Engineer "Spark" Overgrind on the beach and talk to him, he'll attack you.|T|Engineer "Spark" Overgrind|
 T Show Gnomercy|QID|9537|M|47.04,70.22|N|To Admiral Odesyus.|
 A Deliver Them From Evil...|QID|9602|PRE|9537|M|47.04,70.22|N|From Admiral Odesyus.|
-H Azure Watch|ACTIVE|9602|M|48.34,49.15|N|Hearth back to Azure Watch.|
+H Azure Watch|ACTIVE|9602|AVAILABLE|9623|M|48.34,49.15|N|Hearth back to Azure Watch.|
 T Deliver Them From Evil...|QID|9602|M|47.11,50.60|N|To Exarch Menelaous.|
 A Coming of Age|QID|9623|M|47.11,50.60|N|From Exarch Menelaous.|
-r Sell junk and repair|QID|9559|M|49.69,52.75|N|At Kioni.|
+B Skinning Knife|ACTIVE|9560|M|48.74,52.42|L|7005|N|If you plan on learning Skinning when you get to Stillpine Hold, make sure you buy a Skinning Knife from Ziz in Azure Watch.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+r Sell junk and repair|ACTIVE|9559|M|49.69,52.75|N|At Kioni.|
 ; Stillpine Hold
-R Stillpine Hold|QID|9559|M|46,20|N|To the north of Azure Watch.|
-A Beasts of the Apocalypse!|QID|9560|PRE|9544|M|44.77,23.90|N|From Moordo.|
-A Murlocs... Why Here? Why Now?|QID|9562|PRE|9544|M|44.63,23.48|N|From Gurf.|
-T Stillpine Hold|QID|9559|M|46.7,20.6|N|[Coords]To High Chief Stillpine.|
+R Stillpine Hold|ACTIVE|9559|M|45.79,24.62|N|To the north of Azure Watch.|
+A Beasts of the Apocalypse!|QID|9560|PRE|9544|M|44.77,23.90|N|From Moordo.\n[color=FF0000]NOTE: [/color]He is also the Leatherworking Trainer.|
+A Murlocs... Why Here? Why Now?|QID|9562|PRE|9544|M|44.63,23.48|N|From Gurf.\n[color=FF0000]NOTE: [/color]He is also the Skinning Trainer.|
+T Stillpine Hold|QID|9559|M|46.68,20.63|N|To High Chief Stillpine.|
 T Call of Fire|QID|9464|M|59.52,17.95|N|To Temper.|C|Shaman|R|Draenei|
 A Call of Fire|QID|9465|M|59.52,17.95|N|From Temper.|C|Shaman|R|Draenei|
-C Beasts of the Apocalypse!|QID|9560|M|54.24,19.36|N|Kill and loot Ravagers at the Menagerie Wreckage.|S|
+C Beasts of the Apocalypse!|QID|9560|M|54.24,19.36|L|23845 8|ITEM|23845|N|Ravagers at the Menagerie Wreckage.|S|
 ;C Strength of One|QID|9582|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
-C Beasts of the Apocalypse!|QID|9560|M|54.24,19.36|N|Kill and loot Ravagers at the Menagerie Wreckage.|US|
+C Beasts of the Apocalypse!|QID|9560|M|54.24,19.36|L|23845 8|ITEM|23845|N|Ravagers at the Menagerie Wreckage.|US|
 T Beasts of the Apocalypse!|QID|9560|M|44.77,23.90|N|To Moordo.|
-C Murlocs... Why Here? Why Now?|QID|9562|M|35,13|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|S|
-K Murgurgula|AVAILABLE|9564|L|23850|M|35,13;33.45,27.04|CN|N|Look for the boss murloc named Murgurgula between the two waypoints. Kill him, loot Gurf's Dignity from him, and accept its quest.|T|Murgurgula|
+C Murlocs... Why Here? Why Now?|QID|9562|M|35,13|N|[Coords]Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|S|
+K Murgurgula|AVAILABLE|9564|L|23850|M|35,13;33.45,27.04|CN|N|{coords}Look for the boss murloc named Murgurgula between the two waypoints. Kill him, loot Gurf's Dignity from him, and accept its quest.|T|Murgurgula|
 A Gurf's Dignity|QID|9564|N|From Gurf's Dignity|U|23850|
 C Murlocs... Why Here? Why Now?|QID|9562|M|35,13|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|US|
 T Murlocs... Why Here? Why Now?|QID|9562|M|44.63,23.48|N|To Gurf.|
@@ -244,7 +245,7 @@ A The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|From Kurz the Revelator.|
 C The Kurken is Lurkin'|QID|9570|M|49.78,12.95|N|Go back into Stillpine Hold, this time to the left. Kill the Kurken and loot its hide.|
 T Search Stillpine Hold|QID|9565|M|50.59,11.65|N|Turn in at the red crystal.|
 A Blood Crystals|QID|9566|PRE|9565|M|50.5,11.5|N|[Coords]From the Blood Crystal. Be at full health, as two owlkin will spawn behind you and attack.|
-T Blood Crystals|QID|9566|M|46.7,20.6|N|[Coords]Get out of the cave. Turn the quest into High Chief Stillpine.|
+T Blood Crystals|QID|9566|M|46.68,20.63|N|To High Chief Stillpine.|
 T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|To Kurz the Revelator.|
 A The Kurken's Hide|QID|9571|PRE|9570|M|46.97,22.26|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|PRE|9566&9570&9573|M|46.68,20.63|N|From High Chief Stillpine.|
