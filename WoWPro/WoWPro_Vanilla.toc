@@ -2,10 +2,11 @@
 ## Title: |cffFF9900WoW-|r|cff46921APro|r
 ## Notes: Guides created by the WoW-Pro Community.  |cffFF0000You will need either TomTom or Carbonite installed for full functionality.|r
 ## Author: Jiyambi,Ludovicus
+## IconTexture: Interface\AddOns\WoWPro\Textures\Achievement_WorldEvent_Brewmaster
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
 ## OptionalDeps: Carbonite, TomTom
-## Version: 2023.06.27.Aelease 2023.01.25.A
+## Version: 2023.07.12.Aelease 2023.01.25.A
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 Libraries\LibStub\LibStub.lua

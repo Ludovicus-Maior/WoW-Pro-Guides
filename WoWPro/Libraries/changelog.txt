@@ -1,3 +1,14 @@
+Ace3 Release - Revision r1309 (July 12th, 2023)
+-----------------------------------------------
+- AceDB-3.0: Fixed an issue due to a region change on the PTR
+- AceDBOptions-3.0: Updated locale strings
+
+Ace3 Release - Revision r1294 (October 22nd, 2022)
+--------------------------------------------------
+- Ace3 should be fully supported on WoW 10.0
+- AceGUI-3.0: TabGroup: Fixes for WoW 10.0 template changes
+- AceConfigDialog-3.0: New Settings panel integration for WoW 10.0
+
 Ace3 Release - Revision r1281 (September 21st, 2022)
 --------------------------------------------------
 - AceGUI-3.0: Preliminary support for WoW 10.0

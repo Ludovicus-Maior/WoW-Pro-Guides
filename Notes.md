@@ -1,3 +1,21 @@
+# Release 2023.07.12.A
+## Bug Fixes
+* Updated Ace3 to r1309; fixes PTR issues
+* Updated HereBeDragons to 2.13; fixes *some* map issues
+* Added IconTextures to all addons
+* Updated Retail Interface to 100105
+* Added new Map data for 100105
+* Fixed two delayed completion bugs with SPELL and CT tags
+## Guide Updates
+### Retail
+* Note: Nearly all Intro guides had a bug with Chromie Time fixed
+* Leveling/Alliance:  Draenai Intro had surgery and is now in recovery
+* Neutral Leveling: Azure Span, Intro, Thaldraszus
+### WotLK
+* Dailies/Alliance: Argent Tournament
+### Classic
+* No Classic guides were harmed during this release
+
 # Release 2023.06.27.A
 ## Bug Fixes
 * Face:  Serious Version mismatch message SPAM, from group sync.

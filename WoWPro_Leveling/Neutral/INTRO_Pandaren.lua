@@ -262,7 +262,7 @@ T Joining the Alliance|QID|30987|M|85.78,31.70|Z|Stormwind City|N|To King Anduin
 A The Horde Way|QID|31013|M|48.76,70.76|Z|Orgrimmar|N|To Garrosh Hellscream|PRE|31012|FACTION|Horde|
 C The Horde Way|QID|31013|M|48.76,70.76|Z|Orgrimmar|N|Listen to Garrosh Hellscream.\Just stay put. He'll return to you once he's finished prattling on.|FACTION|Horde|NC|
 T The Horde Way|QID|31013|M|48.76,70.76|Z|Orgrimmar|N|To Garrosh Hellscream.|FACTION|Horde|
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|LVL|10|
-N It's Chromie Time!|QID|62568|M|49.67,76.45|Z|Orgrimmar|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|LVL|10|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|LVL|10|CT|
+N It's Chromie Time!|QID|62568|M|49.67,76.45|Z|Orgrimmar|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|LVL|10|CT|
 ]]
 end)
