@@ -26,6 +26,6 @@
 	<Script file="WOTLK_Howling_Fjord.lua"/>
 	<Script file="WOTLK_The_Storm_Peaks.lua"/>
 	<Script file="WOTLK_Icecrown.lua"/>
-	<Script file="9_19_Dungeon_Ragefire_Chasm.lua"/>
-	<Script file="68_72_Dungeon_Utgarde_Keep.lua"/>
+	<Script file="WOTLK_VAN_Dungeon_9_19_Ragefire_Chasm.lua"/>
+	<Script file="WOTLK_Dungeon_68_72_Utgarde_Keep.lua"/>
 </Ui>
