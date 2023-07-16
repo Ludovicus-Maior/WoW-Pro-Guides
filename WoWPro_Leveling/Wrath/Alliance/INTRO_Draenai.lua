@@ -4,7 +4,7 @@ WoWPro:GuideNextGuide(guide, "SveBlo1220")
 WoWPro:GuideLevels(guide, 1, 12)
 WoWPro:GuideSteps(guide, function()
 return [[
-f The Exodar|M|54.22,36.55|Z|The Exodar|N|At Stephanos.|R|Human, Gnome, Dwarf, Night Elf|
+f The Exodar|M|54.22,36.55|Z|1947;The Exodar|N|At Stephanos.|R|Human, Gnome, Dwarf, Night Elf|
 A You Survived!|QID|9279|LEAD|9280|M|84.19,43.03|N|From Megelon right in front of you.|R|Draenei|
 T You Survived!|QID|9279|M|80.42,45.89|N|To Proenitus.|
 A Replenishing the Healing Crystals|QID|9280^9369|M|80.42,45.89|N|From Proenitus.|
@@ -83,13 +83,15 @@ A Travel to Azure Watch|QID|9313|PRE|9312|M|79.41,51.24|N|From Technician Zhanaa
 r Sell junk and repair|AVAILABLE|9314|M|79.19,50.94|N|At Mura (close when done).|
 A Word from Azure Watch|QID|9314|M|64.49,54.04|N|From Aeun.|
 A Red Snapper - Very Tasty!|QID|9452|M|61.06,54.25|N|From Diktynna.|
-= Fishing Training|QID|9452|M|61.06,54.25|N|Take this opportunity to learn fishing. You get a fishing pole for finishing the quest.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't want to.|P|Fishing;356;0-1;3|
+= Fishing Training|ACTIVE|9452|M|61.06,54.25|N|Take this opportunity to learn fishing. You get a fishing pole for finishing the quest.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't want to.|P|Fishing;356;3+1;False|
 C Red Snapper - Very Tasty!|QID|9452|M|62.31,55.11|N|Use the Draenei Fishing Net on the Schools of Red Snapper found along the shore to automatically loot one fish.\n[color=FF0000]NOTE: [/color]You can use the Net while moving.\nThere's a chance of an Angry Murloc spawning and you'll have to kill him to loot the Red Snapper.|U|23654|
 T Red Snapper - Very Tasty!|QID|9452|M|61.06,54.25|N|To Diktynna.|
 A Find Acteon!|QID|9453|PRE|9452|M|61.06,54.25|N|From Diktynna.|
 T Find Acteon!|QID|9453|M|49.78,51.94|N|To Acteon at Azure Watch.|
 A The Great Moongraze Hunt|QID|9454|M|49.78,51.94|N|From Acteon.|
 = Primary and Secondary Professions|ACTIVE|9313^9314|M|48.68,52.34|N|Take this opportunity to learn your Primary and Secondary professions. The trainers are spread out across Azure Watch (Except Skinning and Leatherworking; they're at Stillpine Hold).\n[color=FF0000]NOTE: [/color]Manually check this step off when you're done.|
+B Mining Pick|ACTIVE|9560|M|48.74,52.42|L|2901|N|You'll need to buy this from Ziz.|P|Mining;186;3|
+B Blacksmith Hammer|ACTIVE|9560|M|48.74,52.42|L|5956|N|You'll need to buy this from Ziz.|P|Blacksmithing;164;3|
 T Travel to Azure Watch|QID|9313|M|48.65,50.22|N|To Technician Dyvuun.|
 h Azure Watch|ACTIVE|9314|M|48.34,49.15|N|Set your hearth to Azure Watch with Caregiver Chellan.|
 T Word from Azure Watch|QID|9314|M|48.34,49.15|N|To Caregiver Chellan.|
@@ -103,8 +105,8 @@ C The Great Moongraze Hunt|QID|9454|QO|1|M|54.00,61.00|N|Kill and loot Moongraze
 C Medicinal Purpose|QID|9463|ACTIVE|9586|QO|1|M|54.00,61.00|N|Kill and loot Root Trappers for the Vines.|T|Root Trapper|R|Draenei|S!US|
 C Help Tavara|QID|9586|M|56.23,48.90|N|Find Tavara and heal her wounds.|R|Draenei,Dwarf,Human|C|Priest|NC|
 T Help Tavara|QID|9586|M|48.59,49.29|N|To Guvan.|R|Draenei,Dwarf,Human|C|Priest|
-C Medicinal Purpose|QID|9463|QO|1|M|54,61|N|Kill and loot Root Trappers for the Vines.|T|Root Trapper|R|Draenei|
-C The Great Moongraze Hunt|QID|9454|QO|1|M|54,61|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|US|
+C Medicinal Purpose|QID|9463|QO|1|M|54.00,61.00|N|Kill and loot Root Trappers for the Vines.|T|Root Trapper|R|Draenei|
+C The Great Moongraze Hunt|QID|9454|QO|1|M|54.00,61.00|N|Kill and loot Moongraze Stags for the Tenderloin.|T|Moongraze Stag|US|
 L Level 6|ACTIVE|9454|N|Grind until you're within bubbles of level 6.|LVL|5;-410|
 T Medicinal Purpose|QID|9463|M|48.39,51.77|N|To Anchorite Fateema.|R|Draenei|
 A An Alternative Alternative|QID|9473|PRE|9463|M|48.40,51.48|N|From Daedal.|R|Draenei|
@@ -117,7 +119,7 @@ A The Prophecy of Velen|QID|9505|PRE|9473|LEAD|9506|M|48.40,51.48|N|Wait for a f
 T The Prophecy of Velen|QID|9505|M|47.04,70.22|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|M|47.04,70.22|N|From Admiral Odesyus.|
 A Cookie's Jumbo Gumbo|QID|9512|M|46.68,70.53|N|From "Cookie" McWeaksauce.|
-= Cooking|ACTIVE|9512|M|46.68,70.53|N|If you wish, learn Cooking from "Cookie" McWeaksauce.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't.|P|Cooking;185;0-1;3|
+= Cooking|ACTIVE|9512|M|46.68,70.53|N|If you wish, learn Cooking from "Cookie" McWeaksauce.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't.|P|Cooking;185;3+1;False|
 C Cookie's Jumbo Gumbo|QID|9512|L|23757 6|N|Kill crawlers for Skittering Crawler Meat.|S|
 C A Small Start|QID|9506|M|58.61,66.38|L|23739|N|Pick up the Nautical Map on the crate in Geezle's Camp.|
 C A Small Start|QID|9506|M|59.57,67.62|L|23738|N|Pick up the Nautical Compass southeast of the camp.|
@@ -204,7 +206,7 @@ A Taming the Beast|QID|9593|PRE|9592|M|24.19,54.34|N|From Huntress Kella Nightbo
 C Taming the Beast|QID|9593|M|36.07,41.44|N|Use the Taming Totem to befriend a Nightstalker and return to Huntress Kella Nightbow.|T|Nightstalker|U|23898|C|Hunter|R|Draenei|
 T Taming the Beast|QID|9593|M|24.19,54.34|N|To Huntress Kella Nightbow.|C|Hunter|R|Draenei|
 A Beast Training|QID|9675|PRE|9593|M|24.19,54.34|N|From Huntress Kella Nightbow.|C|Hunter|R|Draenei|
-T Beast Training|QID|9675|M|44.25,86.62|Z|The Exodar|N|To Ganaar.|C|Hunter|R|Draenei|
+T Beast Training|QID|9675|M|44.25,86.62|Z|1947;The Exodar|N|To Ganaar.|C|Hunter|R|Draenei|
 
 R Odesyus' Landing|QID|9515|M|46.11,72.16|N|Head to Odesyus' Landing... again...|
 T Warlord Sriss'tiz|QID|9515|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
@@ -216,12 +218,12 @@ A Deliver Them From Evil...|QID|9602|PRE|9537|M|47.04,70.22|N|From Admiral Odesy
 H Azure Watch|ACTIVE|9602|AVAILABLE|9623|M|48.34,49.15|N|Hearth back to Azure Watch.|
 T Deliver Them From Evil...|QID|9602|M|47.11,50.60|N|To Exarch Menelaous.|
 A Coming of Age|QID|9623|M|47.11,50.60|N|From Exarch Menelaous.|
-B Skinning Knife|ACTIVE|9560|M|48.74,52.42|L|7005|N|If you plan on learning Skinning when you get to Stillpine Hold, make sure you buy a Skinning Knife from Ziz in Azure Watch.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 r Sell junk and repair|ACTIVE|9559|M|49.69,52.75|N|At Kioni.|
 ; Stillpine Hold
 R Stillpine Hold|ACTIVE|9559|M|45.79,24.62|N|To the north of Azure Watch.|
 A Beasts of the Apocalypse!|QID|9560|PRE|9544|M|44.77,23.90|N|From Moordo.\n[color=FF0000]NOTE: [/color]He is also the Leatherworking Trainer.|
 A Murlocs... Why Here? Why Now?|QID|9562|PRE|9544|M|44.63,23.48|N|From Gurf.\n[color=FF0000]NOTE: [/color]He is also the Skinning Trainer.|
+B Skinning Knife|ACTIVE|9560|M|43.98,21.19|L|7005|N|You'll need to buy this from Ergh of the Stillpine.|P|Skinning;393;3|
 T Stillpine Hold|QID|9559|M|46.68,20.63|N|To High Chief Stillpine.|
 T Call of Fire|QID|9464|M|59.52,17.95|N|To Temper.|C|Shaman|R|Draenei|
 A Call of Fire|QID|9465|M|59.52,17.95|N|From Temper.|C|Shaman|R|Draenei|
@@ -229,23 +231,25 @@ C Beasts of the Apocalypse!|QID|9560|M|54.24,19.36|L|23845 8|ITEM|23845|N|Ravage
 ;C Strength of One|QID|9582|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
 C Beasts of the Apocalypse!|QID|9560|M|54.24,19.36|L|23845 8|ITEM|23845|N|Ravagers at the Menagerie Wreckage.|US|
 T Beasts of the Apocalypse!|QID|9560|M|44.77,23.90|N|To Moordo.|
-C Murlocs... Why Here? Why Now?|QID|9562|M|35,13|N|[Coords]Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|S|
-K Murgurgula|AVAILABLE|9564|L|23850|M|35,13;33.45,27.04|CN|N|{coords}Look for the boss murloc named Murgurgula between the two waypoints. Kill him, loot Gurf's Dignity from him, and accept its quest.|T|Murgurgula|
-A Gurf's Dignity|QID|9564|N|From Gurf's Dignity|U|23850|
-C Murlocs... Why Here? Why Now?|QID|9562|M|35,13|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|US|
+C Murlocs... Why Here? Why Now?|QID|9562|M|34.07,16.97|L|23849 5|ITEM|23849|N|Any Siltfin Murloc\nLoot the bags around the Murloc huts.|S|
+K Murgurgula|AVAILABLE|9564|M|35.40,11.82;33.45,27.04|CN|L|23850|N|Locate Murgurgula pathing between the two waypoints and kill him to loot Gurf's Diginity.|T|Murgurgula|
+A Gurf's Dignity|QID|9564|M|PLAYER|N|From Gurf's Dignity.|U|23850|O|
+C Murlocs... Why Here? Why Now?|QID|9562|M|34.07,16.97|L|23849 5|ITEM|23849|N|Any Siltfin Murloc\nLoot the bags around the Murloc huts.|US|
 T Murlocs... Why Here? Why Now?|QID|9562|M|44.63,23.48|N|To Gurf.|
 T Gurf's Dignity|QID|9564|M|44.63,23.48|N|To Gurf.|
 A Search Stillpine Hold|QID|9565|PRE|9560&9562|M|46.68,20.63|N|From High Chief Stillpine.|
 A Chieftain Oomooroo|QID|9573|PRE|9560&9562|M|46.90,21.16|N|From Stillpine the Younger.|
 C Call of Fire|QID|9465|M|46.94,15.10|N|While you are killing wildkin keep an eye out for the torch.|S|C|Shaman|R|Draenei|
-C Chieftain Oomooroo|QID|9573|M|45.39,18.06;47.43,14.18|CS|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|
+K Crazed Wildkin|ACTIVE|9573|QO|2|M|47.39,13.88|N|Kill Crazed Wildkin within Sillpine Hold.|S|
+K Chieftain Oomooroo|ACTIVE|9573|QO|1|M|45.38,18.10;47.39,13.88|CC|N|After entering Stillpine Hold and taking the path up to the right, locate Chieftain Oomooroo on the other side of the bridge and kill him.|T|Chieftain|
+K Crazed Wildkin|ACTIVE|9573|QO|2|M|48.38,15.19|N|Kill Crazed Wildkin within Sillpine Hold.|US|
 C Call of Fire|QID|9465|M|46.94,15.10|N|While you are killing wildkin keep an eye out for the torch.|US|C|Shaman|R|Draenei|
-T Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|[Coords]To Stillpine the Younger.|
+T Chieftain Oomooroo|QID|9573|M|46.90,21.16|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|From Kurz the Revelator.|
-C The Kurken is Lurkin'|QID|9570|M|49.78,12.95|N|Go back into Stillpine Hold, this time to the left. Kill the Kurken and loot its hide.|
-T Search Stillpine Hold|QID|9565|M|50.59,11.65|N|Turn in at the red crystal.|
-A Blood Crystals|QID|9566|PRE|9565|M|50.5,11.5|N|[Coords]From the Blood Crystal. Be at full health, as two owlkin will spawn behind you and attack.|
-T Blood Crystals|QID|9566|M|46.68,20.63|N|To High Chief Stillpine.|
+C The Kurken is Lurkin'|QID|9570|M|45.38,18.10;49.78,12.95|CC|L|23860|N|After re-entering Stillpine Hold and taking the path down to the left, locate The Kurken on the other side of the 'tunnel' and kill him.|T|Kurken|
+T Search Stillpine Hold|QID|9565|M|50.59,11.65|N|Turn in at the Blood Crystal on the other side of the water.\n[color=FF0000]NOTE: [/color]The follow-up will not auto-accept as the next quest has an immediate ambush upon accepting it.| ; ** added a note here because I wasn't able to see the note on the A step because of the quest window - Hendo72
+A Blood Crystals.|QID|9566|PRE|9565|M|50.45,11.25|N|From the Blood Crystal (stand at the waypoint when you accept the quest).\n[color=FF0000]NOTE: [/color]Be prepared for a fight before accepting this quest because two Owlkin will spawn behind you and attack.| ; ** Breaking auto-accept for obvious reasons - Hendo72
+T Blood Crystals|QID|9566|M|46.68,20.63|N|To High Chief Stillpine.\n[color=FF0000]NOTE: [/color]Unless you wish to fight him again, avoid The Kurken on your way out.|
 T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|To Kurz the Revelator.|
 A The Kurken's Hide|QID|9571|PRE|9570|M|46.97,22.26|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|PRE|9566&9570&9573|M|46.68,20.63|N|From High Chief Stillpine.|
@@ -255,21 +259,23 @@ A Call of Fire|QID|9467|M|59.52,17.95|N|From Temper.|C|Shaman|R|Draenei|
 C Call of Fire|QID|9467|M|11.25,82.56|N|Click the Strawnman and then kill the fire elemental that spawns.|C|Shaman|R|Draenei|
 T Call of Fire|QID|9467|M|59.52,17.95|N|Use the Orb of Returning and turn in to Temper.|U|24335|C|Shaman|R|Draenei|
 l Bandits!|AVAILABLE|9616|L|23910|M|PLAYER|N|Kill Blood Elf Bandits (they are invisible) until one of them drops the Blood Elf Communication.\n[color=FF0000]NOTE: [/color]Seeing as this a bonus quest and has no follow-ups, if you don't find it, manually check this step off and carry on.|US|RANK|3|
-H Azure Watch|QID|9622|M|48.34,49.15|N|Hearth back to Azure Watch.|
-T Warn Your People|QID|9622|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|
+R Azure Watch|ACTIVE|9622|M|88.02,64.92|N|Make your way back to Azure Watch.|S|LVL|11;-660|
+L Level 12|ACTIVE|9622|N|Grind until you're within 1.5 bubbles of level 12.|LVL|11;-660|
+H Azure Watch|ACTIVE|9622|M|48.34,49.15|N|Hearth back to Azure Watch, or finish walking if you're close enough.|LVL|12|
+r Sell junk and repair|ACTIVE|9622|M|49.69,52.75|N|At Kioni.|
+= Level 12 Training|ACTIVE|9622|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|Azure Watch|
+T Warn Your People|QID|9622|M|47.13,50.61|N|To Exarch Menelaous.|
 T Strength of One|QID|9582|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
 A Behomat|QID|10350|M|50.01,50.52|N|From Ruada.|C|Warrior|R|Draenei|
-r Sell junk and repair|ACTIVE|9623|M|49.69,52.75|N|At Kioni.|
-T Behomat|QID|10350|M|55.58,82.36|Z|The Exodar|N|To Behomat.|C|Warrior|R|Draenei|
-N If you are not lvl 12 yet you need to grind it out to get the class quest for Paladins to rez|C|Paladin|R|Draenei|LVL|-12|
-T Coming of Age|QID|9623|M|81.64,51.70|Z|The Exodar|N|Turn this quest into Torallius the Pack Handler.|
-A Elekks Are Serious Business|QID|9625|PRE|9623|LEAD|9634|M|81.64,51.70|Z|The Exodar|N|From Torallius the Pack Handler.|
+T Behomat|QID|10350|M|55.58,82.36|Z|1947;The Exodar|N|To Behomat.|C|Warrior|R|Draenei|
+R The Exodar|ACTIVE|9623|M|88.02,64.92|Z|1947;The Exodar|N|Make your way east to The Exodar.|
+T Coming of Age|QID|9623|M|81.50,51.44|Z|1947;The Exodar|N|To Torallius the Pack Handler.|
+A Elekks Are Serious Business|QID|9625|PRE|9623|LEAD|9634|M|81.50,51.44|Z|1947;The Exodar|N|From Torallius the Pack Handler.|
 A Jol|QID|10366|M|48.36,49.55|N|From Tullas.|C|Paladin|R|Draenei|LVL|12|
-T Jol|QID|10366|M|38.39,82.52|Z|The Exodar|N|To Jol|C|Paladin|R|Draenei|
-A Redemption|QID|9598|M|38.39,82.52|Z|The Exodar|N|From Jol.|C|Paladin|R|Draenei|
-T Redemption|QID|9598|M|38.39,82.52|Z|The Exodar|C|Paladin|R|Draenei|
-A Redemption|QID|9600|M|38.39,82.52|Z|The Exodar|N|From Jol.|C|Paladin|R|Draenei|
-R Kessel's Crossing|QID|9625|M|63.50,88.14|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|
-T Elekks Are Serious Business|QID|9625|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+T Jol|QID|10366|M|38.39,82.52|Z|1947;The Exodar|N|To Jol|C|Paladin|R|Draenei|
+A Redemption|QID|9598|M|38.39,82.52|Z|1947;The Exodar|N|From Jol.|C|Paladin|R|Draenei|
+T Redemption|QID|9598|M|38.39,82.52|Z|1947;The Exodar|C|Paladin|R|Draenei|
+A Redemption|QID|9600|M|38.39,82.52|Z|1947;The Exodar|N|From Jol.|C|Paladin|R|Draenei|
+D Moving On|ACTIVE|9625|M|PLAYER|CC|N|Feel free to visit The Exodar before you move on to the next guide.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 ]]
 end)
