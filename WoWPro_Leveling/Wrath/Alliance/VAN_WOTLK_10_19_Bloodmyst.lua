@@ -5,16 +5,20 @@ WoWPro:GuideNextGuide(guide, "BosRed2021")
 WoWPro:GuideLevels(guide, 12, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
-R Bloodmyst Isle|QID|9663|M|65.25,94.00|Z|Bloodmyst Isle|N|There are two quests to lead you to Bloodmyst Isle. 'Elekks Are Serious Business' from Torallius the Pack Handler outside The Exodar if you have done the Coming of Age quest in Azuremyst Isle, or Hero's Call: Bloodmyst Isle! from the Hero's Callboard in The Exodar. Take either of these two quests, then head north to Bloodmyst Isle.|
-T Elekks Are Serious Business|QID|9625|M|63.1,88.0|O|N|To Vorkhan the Elekk Herder.|
-T Hero's Call: Bloodmyst Isle!|QID|28559|M|63.1,88.0|O|N|To Vorkhan the Elekk Herder.|
-A Alien Predators|QID|9634|M|63.1,88.0|N|From Vorkhan the Elekk Herder.|
+R Kessel's Crossing|ACTIVE|9625|M|63.50,88.14|Z|Bloodmyst Isle|N|Follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run - just follow the road.|
+R The Exodar|AVAILABLE|9625|M|63.82,63.23|Z|1947;The Exodar|N|Follow the road that heads easterward from the dock.|
+f The Exodar|AVAILABLE|9634|M|68.46,63.68|Z|1947;The Exodar|N|Discover the flightpath from Stephanos.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-The Exodar|R|-Draenai| ; ** Draenai will already know this one but might fail the TAXI test - Hendo72
+R Bloodmyst Isle|ACTIVE|28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Exit The Exodar and follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run - just follow the road.|
+R Bloodmyst Isle|AVAILABLE|9625&28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Follow the road north from The Exodar to Bloodmyst Isle.|
+T Elekks Are Serious Business|QID|9625|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+T Hero's Call: Bloodmyst Isle!|QID|28559|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+A Alien Predators|QID|9634|M|63.04,87.90|N|From Vorkhan the Elekk Herder.|
 A A Favorite Treat|QID|9624|M|63.4,88.8|N|From Aonar.|
 C Redemption|QID|9600|M|65.30,77.56|C|Paladin|R|Draenei|U|6866|
 A The Kessel Run|QID|9663|M|63.0,87.5|N|From Kessel.  Please note this quest is timed (15 minutes).  You will receive a mount, note that you can't resummon it if you get dismounted, so stay out of caves, water and buildings. Although you can do it without the elekk, it will take substantially longer.|
-C The Kessel Run|QID|9663|QO|1|M|46.7,20.8|N|Warn High Chief Stillpine outside Stillpine Hold. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|
-C The Kessel Run|QID|9663|QO|2|M|47.2,50.6|N|Warn Exarch Menelaous in Azure Watch. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|
-C The Kessel Run|QID|9663|QO|3|M|47.0,70.2|N|Warn Admiral Odyseus at Odesyus' Landing. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|
+C The Kessel Run|QID|9663|QO|1|M|46.7,20.8|Z|Azuremyst Isle|N|Warn High Chief Stillpine outside Stillpine Hold. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|
+C The Kessel Run|QID|9663|QO|2|M|47.2,50.6|Z|Azuremyst Isle|N|Warn Exarch Menelaous in Azure Watch. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|
+C The Kessel Run|QID|9663|QO|3|M|47.0,70.2|Z|Azuremyst Isle|N|Warn Admiral Odyseus at Odesyus' Landing. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|
 T Redemption|QID|9600|M|38.39,82.52|Z|The Exodar|N|From Jol.|C|Paladin|R|Draenei|
 T The Kessel Run|QID|9663|M|62.99,87.52|N|Return to Kessel at Kessel's Crossing.|
 A Declaration of Power|QID|9666|PRE|9663|M|63.0,87.5|N|From Kessel.|
