@@ -5,26 +5,27 @@ WoWPro:GuideNextGuide(guide, "BosRed2021")
 WoWPro:GuideLevels(guide, 12, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
-R Kessel's Crossing|ACTIVE|9625|M|63.50,88.14|Z|Bloodmyst Isle|N|Follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run - just follow the road.|
+R Kessel's Crossing|ACTIVE|9625|M|63.50,88.14|Z|Bloodmyst Isle|N|Follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run (just follow the road).|
 R The Exodar|AVAILABLE|9625|M|63.82,63.23|Z|1947;The Exodar|N|Follow the road that heads easterward from the dock.|
-f The Exodar|AVAILABLE|9634|M|68.46,63.68|Z|1947;The Exodar|N|Discover the flightpath from Stephanos.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-The Exodar|R|-Draenai| ; ** Draenai will already know this one but might fail the TAXI test - Hendo72
-R Bloodmyst Isle|ACTIVE|28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Exit The Exodar and follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run - just follow the road.|
+f The Exodar|AVAILABLE|9634|M|68.46,63.68|Z|1947;The Exodar|N|Discover the flightpath from Stephanos.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-The Exodar|R|-Draenei| ; ** Draenei will already know this one but might fail the TAXI test - Hendo72
+R Bloodmyst Isle|ACTIVE|28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Exit The Exodar and follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run (just follow the road).|
 R Bloodmyst Isle|AVAILABLE|9625&28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Follow the road north from The Exodar to Bloodmyst Isle.|
 T Elekks Are Serious Business|QID|9625|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
 T Hero's Call: Bloodmyst Isle!|QID|28559|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
 A Alien Predators|QID|9634|M|63.04,87.90|N|From Vorkhan the Elekk Herder.|
-A A Favorite Treat|QID|9624|M|63.4,88.8|N|From Aonar.|
-C Redemption|QID|9600|M|65.30,77.56|C|Paladin|R|Draenei|U|6866|
-A The Kessel Run|QID|9663|M|63.0,87.5|N|From Kessel.  Please note this quest is timed (15 minutes).  You will receive a mount, note that you can't resummon it if you get dismounted, so stay out of caves, water and buildings. Although you can do it without the elekk, it will take substantially longer.|
-C The Kessel Run|QID|9663|QO|1|M|46.7,20.8|Z|Azuremyst Isle|N|Warn High Chief Stillpine outside Stillpine Hold. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|
-C The Kessel Run|QID|9663|QO|2|M|47.2,50.6|Z|Azuremyst Isle|N|Warn Exarch Menelaous in Azure Watch. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|
-C The Kessel Run|QID|9663|QO|3|M|47.0,70.2|Z|Azuremyst Isle|N|Warn Admiral Odyseus at Odesyus' Landing. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|
-T Redemption|QID|9600|M|38.39,82.52|Z|The Exodar|N|From Jol.|C|Paladin|R|Draenei|
+A A Favorite Treat|QID|9624|M|63.43,88.79|N|From Aonar.|
+C Redemption|QID|9600|M|65.30,77.56|U|6866|C|Paladin|R|Draenei|
+A The Kessel Run.|QID|9663|M|62.99,87.52|N|From Kessel.\n[color=FF0000]NOTE: [/color]Please note this quest is timed (15 minutes).\nYou'll receive a one-time use mount that you can't resummon if you get dismounted. Avoid situations that could dismount you.\nIt is possible to do it without the elekk, it'll just take substantially longer.|
+C The Kessel Run|QID|9663|QO|1|M|46.68,20.63|Z|Azuremyst Isle|N|Warn High Chief Stillpine outside Stillpine Hold.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+C The Kessel Run|QID|9663|QO|2|M|47.10,50.59|Z|Azuremyst Isle|N|Warn Exarch Menelaous in Azure Watch.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+C The Kessel Run|QID|9663|QO|3|M|47.04,70.22|Z|Azuremyst Isle|N|Warn Admiral Odyseus at Odesyus' Landing.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+T Redemption|QID|9600|M|38.39,82.52|Z|The Exodar|N|To Jol.|C|Paladin|R|Draenei|
 T The Kessel Run|QID|9663|M|62.99,87.52|N|Return to Kessel at Kessel's Crossing.|
-A Declaration of Power|QID|9666|PRE|9663|M|63.0,87.5|N|From Kessel.|
-A Catch and Release|QID|9629|M|53.2,57.7|N|Follow the road north to Blood Watch, then head to Morae.|
-r Repair/Restock|QID|9693|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-A Learning from the Crystals|QID|9581|M|52.6,53.2|N|From Harbinger Mikolaas.|
+A Declaration of Power|QID|9666|PRE|9663|M|62.99,87.52|N|From Kessel.|
+R Blood Watch|AVAILABLE|9629|M|54.20,62.39|N|Follow the road north.|
+A Catch and Release|QID|9629|M|53.25,57.75|N|From Morae (Herbalism Trainer).|
+r Repair/Restock|AVAILABLE|9581|M|53.32,56.68|N|Repair/Sell Junk at Beega.|
+A Learning from the Crystals|QID|9581|M|52.60,53.22|N|From Harbinger Mikolaas.|
 A What Argus Means to Me|QID|9693|M|52.67,53.21|N|From Exarch Admetius.|
 T What Argus Means to Me|QID|9693|M|55.39,55.27|N|To Vindicator Boros.|
 A Blood Watch|QID|9694|PRE|9693|M|55.39,55.27|N|From Vindicator Boros.|
@@ -80,8 +81,8 @@ A Salvaging the Data|QID|9628|PRE|9620|M|61.23,48.38|N|From the corpse of the Dr
 C Salvaging the Data|QID|9628|M|61.23,48.38|N|Kill Nagas until the Survey Data Crystal Drops.|
 C Victims of Corruption|QID|9574|M|49,73|N|Kill Corrupted Treants for the bark.|S|
 C Blood Watch|QID|9694|M|49,47|N|Kill Sunhawk Spies north of Blood Watch.|
-T Salvaging the Data|QID|9628|M|52.6,53.23|N|To Harbringer Mikolaas.|
-A The Second Sample|QID|9584|PRE|9628|M|52.6,53.23|N|From Harbringer Mikolaas.|
+T Salvaging the Data|QID|9628|M|52.60,53.223|N|To Harbringer Mikolaas.|
+A The Second Sample|QID|9584|PRE|9628|M|52.60,53.223|N|From Harbringer Mikolaas.|
 T Blood Watch|QID|9694|M|55.42,55.25|N|To Vindicator Boros.|
 A Intercepting the Message|QID|9779|PRE|9694|M|55.42,55.25|N|From Vindicator Boros.|
 A Know Thine Enemy|QID|9567|M|55.1,58.0|N|From Vindicator Aalesia.|
@@ -104,8 +105,8 @@ r Repair/Restock |QID|9584|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|S|
 C The Second Sample|QID|9584|M|45.75,47.62|N|Use the Crystal Mining Pick on the Altered Crystal Sample.|U|23876|
 C Intercepting the Message|QID|9779|M|45.75,47.62|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|US|
-T The Second Sample|QID|9584|M|52.6,53.23|N|To Harbinger Mikolaas.|
-A The Final Sample|QID|9585|PRE|9584|M|52.6,53.23|N|From Harbinger Mikolaas.|
+T The Second Sample|QID|9584|M|52.60,53.223|N|To Harbinger Mikolaas.|
+A The Final Sample|QID|9585|PRE|9584|M|52.60,53.223|N|From Harbinger Mikolaas.|
 T Intercepting the Message|QID|9779|M|55.42,55.25|N|To Vindicator Boros.|
 A Translations...|QID|9696|PRE|9779|M|55.42,55.25|N|From Vindicator Boros.|
 T Translations...|QID|9696|M|54.4,54.4|N|To Interrogator Elysia.|
@@ -164,7 +165,7 @@ A Matis the Cruel|QID|9711|PRE|9706|M|55.64,55.28|N|From Vindicator Kuros.|
 T The Cryo-Core|QID|9703|M|55.64,55.28|N|To Vindicator Kuros.|
 A Don't Drink the Water|QID|9748|PRE|9703|M|55.57,55.38|N|From Vindicator Aesom.|
 T Galaen's Fate|QID|9579|M|53.3,57.7|N|To Morae.|
-A Talk to the Hand|QID|10064|M|52.6,53.2|N|From Harbinger Mikolaas.|
+A Talk to the Hand|QID|10064|M|52.60,53.22|N|From Harbinger Mikolaas.|
 r Repair/Restock |QID|10064|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 C Containing the Threat|QID|9569|M|41.6,29.8|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|S|
 C The Final Sample|QID|9585|U|23877|M|41.6,29.8|N|Use the pick on the Axxarien crystal (it's the big one - you need to stand right next to it)|
@@ -175,7 +176,7 @@ T Containing the Threat|QID|9569|M|55.05,58.01|N|To Vindicator Aalesia.|
 T Don't Drink the Water|QID|9748|M|55.57,55.38|N|To Vindicator Aesom.|
 A Limits of Physical Exhaustion|QID|9746|PRE|9748|M|55.57,55.38|N|From Vindicator Aesom.|
 A What We Know...|QID|9753|M|55.6,55.4|N|From Vindicator Aesom.|LVL|18|
-T The Final Sample|QID|9585|M|52.6,53.2|N|To Harbinger Mikolaas.|
+T The Final Sample|QID|9585|M|52.60,53.22|N|To Harbinger Mikolaas.|
 T What We Know...|QID|9753|M|52.66,53.23|N|To Exarch Admetius.|
 A What We Don't Know...|QID|9756|PRE|9753|M|52.66,53.23|N|From Exarch Admetius.|
 C What We Don't Know...|QID|9756|M|54.4,54.3|N|Talk to the prisoner.|
