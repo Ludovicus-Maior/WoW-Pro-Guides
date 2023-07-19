@@ -784,7 +784,7 @@ A Zapped Giants|QID|7003|M|48.3,44.9;44.81,43.42|CC|Z|1444|N|Continue west down 
 N Zorbin's Ultra Shrinker|ACTIVE|7003|N|This item has a 2hr timer on it before it despawns on you.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Zorbin's Ultra Shrinker|ACTIVE|7003|M|44.81,43.42|Z|1444|L|18904|N|[color=FF0000]NOTE: [/color]To get another one, you have to abandon the quest and start over.|
 R The Twin Colossals|ACTIVE|3127&7003|M|48.13,39.54|Z|1444|N|Head back up the hill and continue following the road north.|
-R The Twin Colossals|ACTIVE|3127&-7003|M|48.13,39.54|Z|1444|QO|1|N|Continue following the road north.|
+R The Twin Colossals|ACTIVE|3127&7003|M|48.13,39.54|Z|1444|QO|1|N|Continue following the road north.|
 R Gregan Brewspewer's Camp|ACTIVE|3127|M|47.79,24.54;45.03,25.17|CC|Z|1444|N|Continue along the road looking for the westerly path at the bottom of the hill.|
 C Mountain Giant Muisek|QID|3127|M|38.52,22.46|Z|1444|L|9597 7|N|Once you've looted the Giant's corpse,use the Muisek Vessel on them.|U|9621|S|
 C Zapped Giants|QID|7003|M|38.52,22.46|Z|1444|L|18956 15|N|Locate and kill Giants after using the Shrinker on them.\n[color=FF0000]NOTE: [/color]The 'Use' Key bind will not work for this item until you're done with the Muisek Vessel.|U|18904|
