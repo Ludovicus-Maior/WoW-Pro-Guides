@@ -5,45 +5,50 @@ WoWPro:GuideNextGuide(guide, "BosRed2021")
 WoWPro:GuideLevels(guide, 12, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
-R Bloodmyst Isle|QID|9663|M|65.25,94.00|Z|Bloodmyst Isle|N|There are two quests to lead you to Bloodmyst Isle. 'Elekks Are Serious Business' from Torallius the Pack Handler outside The Exodar if you have done the Coming of Age quest in Azuremyst Isle, or Hero's Call: Bloodmyst Isle! from the Hero's Callboard in The Exodar. Take either of these two quests, then head north to Bloodmyst Isle.|
-T Elekks Are Serious Business|QID|9625|M|63.1,88.0|O|N|To Vorkhan the Elekk Herder.|
-T Hero's Call: Bloodmyst Isle!|QID|28559|M|63.1,88.0|O|N|To Vorkhan the Elekk Herder.|
-A Alien Predators|QID|9634|M|63.1,88.0|N|From Vorkhan the Elekk Herder.|
-A A Favorite Treat|QID|9624|M|63.4,88.8|N|From Aonar.|
-C Redemption|QID|9600|M|65.30,77.56|C|Paladin|R|Draenei|U|6866|
-A The Kessel Run|QID|9663|M|63.0,87.5|N|From Kessel.  Please note this quest is timed (15 minutes).  You will receive a mount, note that you can't resummon it if you get dismounted, so stay out of caves, water and buildings. Although you can do it without the elekk, it will take substantially longer.|
-C The Kessel Run|QID|9663|QO|1|M|46.7,20.8|N|Warn High Chief Stillpine outside Stillpine Hold. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|
-C The Kessel Run|QID|9663|QO|2|M|47.2,50.6|N|Warn Exarch Menelaous in Azure Watch. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|
-C The Kessel Run|QID|9663|QO|3|M|47.0,70.2|N|Warn Admiral Odyseus at Odesyus' Landing. Note that you can't resummon the mount it if you get dismounted, so stay out of caves, water and buildings.|Z|Azuremyst Isle|
-T Redemption|QID|9600|M|38.39,82.52|Z|The Exodar|N|From Jol.|C|Paladin|R|Draenei|
+R Kessel's Crossing|ACTIVE|9625|M|63.50,88.14|Z|Bloodmyst Isle|N|Follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run (just follow the road).|
+R The Exodar|AVAILABLE|9625|M|63.82,63.23|Z|1947;The Exodar|N|Follow the road that heads easterward from the dock.|
+f The Exodar|AVAILABLE|9634|M|68.46,63.68|Z|1947;The Exodar|N|Discover the flightpath from Stephanos.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-The Exodar|R|-Draenei| ; ** Draenei will already know this one but might fail the TAXI test - Hendo72
+R Bloodmyst Isle|ACTIVE|28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Exit The Exodar and follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run (just follow the road).|
+R Bloodmyst Isle|AVAILABLE|9625&28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Follow the road north from The Exodar to Bloodmyst Isle.|
+T Elekks Are Serious Business|QID|9625|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+T Hero's Call: Bloodmyst Isle!|QID|28559|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+A Alien Predators|QID|9634|M|63.04,87.90|N|From Vorkhan the Elekk Herder.|
+A A Favorite Treat|QID|9624|M|63.43,88.79|N|From Aonar.|
+C Redemption|QID|9600|M|65.30,77.56|U|6866|C|Paladin|R|Draenei|
+A The Kessel Run.|QID|9663|M|62.99,87.52|N|From Kessel.\n[color=FF0000]NOTE: [/color]Please note this quest is timed (15 minutes).\nYou'll receive a one-time use mount that you can't resummon if you get dismounted. Avoid situations that could dismount you.\nIt is possible to do it without the elekk, it'll just take substantially longer.|
+C The Kessel Run|QID|9663|QO|1|M|46.68,20.63|Z|Azuremyst Isle|N|Warn High Chief Stillpine outside Stillpine Hold.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+C The Kessel Run|QID|9663|QO|2|M|47.10,50.59|Z|Azuremyst Isle|N|Warn Exarch Menelaous in Azure Watch.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+C The Kessel Run|QID|9663|QO|3|M|47.04,70.22|Z|Azuremyst Isle|N|Warn Admiral Odyseus at Odesyus' Landing.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+T Redemption|QID|9600|M|38.39,82.52|Z|The Exodar|N|To Jol.\n[color=FF0000]NOTE: [/color]You won't lose your El|C|Paladin|R|Draenei|
 T The Kessel Run|QID|9663|M|62.99,87.52|N|Return to Kessel at Kessel's Crossing.|
-A Declaration of Power|QID|9666|PRE|9663|M|63.0,87.5|N|From Kessel.|
-A Catch and Release|QID|9629|M|53.2,57.7|N|Follow the road north to Blood Watch, then head to Morae.|
-r Repair/Restock|QID|9693|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-A Learning from the Crystals|QID|9581|M|52.6,53.2|N|From Harbinger Mikolaas.|
+A Declaration of Power|QID|9666|PRE|9663|M|62.99,87.52|N|From Kessel.|
+R Blood Watch|AVAILABLE|9646|M|54.20,62.39|N|Follow the road north.|
+A WANTED: Deathclaw|QID|9646|M|55.23,59.11|N|From the Wanted Poster outside the Inn.|
+h Blood Watch|AVAILABLE|9629|M|55.84,59.80|N|Set hearthstone to Blood Watch with Caregiver Topher Loaal.|
+A Beds, Bandages, and Beyond|QID|9603|M|55.84,59.80|N|From Caregiver Topher Loaal.|R|Draenei|
+A Catch and Release|QID|9629|M|53.25,57.75|N|From Morae (Herbalism Trainer).|
+r Repair/Restock|AVAILABLE|9581|M|53.32,56.68|N|Repair/Sell Junk at Beega.|
+A Learning from the Crystals|QID|9581|M|52.60,53.22|N|From Harbinger Mikolaas.|
 A What Argus Means to Me|QID|9693|M|52.67,53.21|N|From Exarch Admetius.|
 T What Argus Means to Me|QID|9693|M|55.39,55.27|N|To Vindicator Boros.|
 A Blood Watch|QID|9694|PRE|9693|M|55.39,55.27|N|From Vindicator Boros.|
-f Blood Watch|QID|9634|M|57.69,53.92|N|Get the flight path for Blood Watch.|
-A Maatparm Mushroom Menagerie|QID|9648|M|56.4,56.8|N|From Maatparm.|
-A WANTED: Deathclaw|QID|9646|M|55.2,59.1|N|From the Wanted Board outside the Inn.|
-h Blood Watch|QID|9624|M|55.84,59.80|N|Set hearthstone to Blood Watch with Caregiver Topher Loaal.|
-A Beds, Bandages, and Beyond|QID|9603|M|55.84,59.80|N|From Caregive Topher Loaal.|R|Draenei|
-T Beds, Bandages, and Beyond|QID|9603|M|57.57,53.91|N|Go to Laando (the Flight Master).|R|Draenei|
-A On the Wings of a Hippogryph|QID|9604|PRE|9603|M|57.57,53.91|N|From Laando.|R|Draenei|
-F The Exodar|QID|9604|N|Fly to the Exodar.|R|Draenei|
-T On the Wings of a Hippogryph|QID|9604|M|57.03,50.14|Z|The Exodar|N|Go to Nurguni.|R|Draenei|
+f Blood Watch|AVAILABLE|9648|M|57.68,53.87|N|Get the flight path from Laando.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+T Beds, Bandages, and Beyond|QID|9603|M|57.68,53.87|N|To Laando (the Flight Master).|R|Draenei|
+A On the Wings of a Hippogryph|QID|9604|PRE|9603|M|57.68,53.87|N|From Laando.|R|Draenei|
+F The Exodar|ACTIVE|9604|M|57.68,53.87|N|Fly to The Exodar.|R|Draenei|
+T On the Wings of a Hippogryph|QID|9604|M|73.28,53.28;57.03,50.14|Z|The Exodar|CC|N|To Nurguni, standing by the table in front of the Trader's Tier.|R|Draenei|
 A Hippogryph Master Stephanos|QID|9605|PRE|9604|M|57.03,50.14|Z|The Exodar|N|From Nurguni.|R|Draenei|
-N Exodar|QID|9605|N|While you're here, you can visit your bank/AH or get supplies. Click to close and continue.|
-T Hippogryph Master Stephanos|QID|9605|M|68.50,63.49|Z|The Exodar|N|Go to Hippogryph Master Stephanos.|R|Draenei|
+N The Exodar|ACTIVE|9605|N|While you're here, you can visit your bank/AH or get supplies.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T Hippogryph Master Stephanos|QID|9605|M|68.50,63.49|Z|The Exodar|N|To Hippogryph Master Stephanos.|R|Draenei|
 A Return to Topher Loaal|QID|9606|PRE|9605|M|68.50,63.49|Z|The Exodar|N|From Stephanos.|R|Draenei|
 F Blood Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Blood Watch.|R|Draenei|
-T Return to Topher Loaal|QID|9606|M|55.84,59.80|N|To Caregive Topher Loaal.|R|Draenei|
-C Maatparm Mushroom Menagerie|QID|9648|QO|2|M|59,60|CN|N|Obtain a Blood Mushroom, they are small and glow red.|
-C Maatparm Mushroom Menagerie|QID|9648|QO|1|M|63.75,62.90|CN|N|Obtain an Aquatic Sinkhorn from Stinkhorn Striker in the Blood River.|
-C Maatparm Mushroom Menagerie|QID|9648|QO|3|M|67,66|CN|N|Obtain a Ruinous Polyspore, they are black/grey and tan.|
-C Declaration of Power|QID|9666|QO|1|M|68.8,67.3|CN|N|Kill Lord Xiz.|
-C Declaration of Power|QID|9666|QO|2|U|24084|M|68.8,67.3|CN|N|Plant the banner at the corpse of Lord Xiz.|
+A Maatparm Mushroom Menagerie|QID|9648|M|56.42,56.83|N|From Maatparm.|
+T Return to Topher Loaal|QID|9606|M|55.84,59.80|N|To Caregiver Topher Loaal.|R|Draenei|
+C Maatparm Mushroom Menagerie|QID|9648|QO|2|M|59,60|N|Obtain a Blood Mushroom, they are small and glow red.|
+C Maatparm Mushroom Menagerie|QID|9648|QO|1|M|63.75,62.90|N|Obtain an Aquatic Sinkhorn from Stinkhorn Striker in the Blood River.|
+C Maatparm Mushroom Menagerie|QID|9648|QO|3|M|67,66|N|Obtain a Ruinous Polyspore, they are black/grey and tan.|
+C Declaration of Power|QID|9666|QO|1|M|68.8,67.3|N|Kill Lord Xiz.|
+C Declaration of Power|QID|9666|QO|2|M|68.8,67.3|N|Plant the banner at the corpse of Lord Xiz.|U|24084|
 C A Favorite Treat|QID|9624|M|68.2,81.2|N|Pick up Sand Pears.|S|
 A Saving Princess Stillpine|QID|9667|PRE|9559|M|68.2,81.2|N|From Princess Stillpine.|
 C Saving Princess Stillpine|QID|9667|L|24099 1|M|64.25,76.50|N|Head north-west to the small camp, killing furbolgs there until High Chief Bristlelimb spawns and yells 'Face the wrath of Bristlelimb!' - kill him, and loot the key.|CC|
@@ -68,7 +73,7 @@ A Victims of Corruption|QID|9574|PRE|9629|M|53.25,57.75|N|From Morae.|
 r Repair/Restock |QID|9668|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 T Learning from the Crystals|QID|9581|M|52.60,53.22|N|To Harbringer Mikolaas.|
 A The Missing Survey Team|QID|9620|PRE|9581|M|52.60,53.22|N|From Harbringer Mikolaas.|
-T Report to Exarch Admetius|QID|9668|M|52.68,53.22|N|To Exarch Admetius.|
+T Report to Exarch Admetius|QID|9668|M|52.68,53.21|N|To Exarch Admetius.|
 T Saving Princess Stillpine|QID|9667|M|55.15,55.99|N|To Stillpine Ambassador Frasaboo.|
 T Maatparm Mushroom Menagerie|QID|9648|M|56.42,56.83|N|To Maatparm.|
 T The Missing Survey Team|QID|9620|M|61.23,48.38|N|To the corpse of the Draenei Cartographer.|
@@ -76,10 +81,10 @@ A Salvaging the Data|QID|9628|PRE|9620|M|61.23,48.38|N|From the corpse of the Dr
 C Salvaging the Data|QID|9628|M|61.23,48.38|N|Kill Nagas until the Survey Data Crystal Drops.|
 C Victims of Corruption|QID|9574|M|49,73|N|Kill Corrupted Treants for the bark.|S|
 C Blood Watch|QID|9694|M|49,47|N|Kill Sunhawk Spies north of Blood Watch.|
-T Salvaging the Data|QID|9628|M|52.6,53.23|N|To Harbringer Mikolaas.|
-A The Second Sample|QID|9584|PRE|9628|M|52.6,53.23|N|From Harbringer Mikolaas.|
-T Blood Watch|QID|9694|M|55.42,55.25|N|To Vindicator Boros.|
-A Intercepting the Message|QID|9779|PRE|9694|M|55.42,55.25|N|From Vindicator Boros.|
+T Salvaging the Data|QID|9628|M|52.60,53.223|N|To Harbringer Mikolaas.|
+A The Second Sample|QID|9584|PRE|9628|M|52.60,53.223|N|From Harbringer Mikolaas.|
+T Blood Watch|QID|9694|M|55.39,55.27|N|To Vindicator Boros.|
+A Intercepting the Message|QID|9779|PRE|9694|M|55.39,55.27|N|From Vindicator Boros.|
 A Know Thine Enemy|QID|9567|M|55.1,58.0|N|From Vindicator Aalesia.|
 r Repair/Restock |QID|9668|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 ;This quest is currently bugged on BCC due to sharding issues
@@ -94,16 +99,16 @@ T Know Thine Enemy|QID|9567|M|55.1,58.0|N|To Vindicator Aalesia.|
 T Signs of the Legion|QID|9594|M|55.1,58.0|N|To Vindicator Aalesia, after a very short dialog.|
 A Containing the Threat|QID|9569|PRE|9567|M|55.1,58.0|N|From Vindicator Aalesia.|
 T Victims of Corruption|QID|9574|M|53.24,57.73|N|To Morae.|
-A Irradiated Crystal Shards|QID|9641|L|23984 10|O|M|55.42,55.25|N|If you already have 10 Irradiated Crystal Shards, then accept this quest from Vindicator Boros.|
-T Irradiated Crystal Shards|QID|9641|O|M|55.42,55.25|N|To Vindicator Boros.|
+A Irradiated Crystal Shards|QID|9641|L|23984 10|O|M|55.39,55.27|N|If you already have 10 Irradiated Crystal Shards, then accept this quest from Vindicator Boros.|
+T Irradiated Crystal Shards|QID|9641|O|M|55.39,55.27|N|To Vindicator Boros.|
 r Repair/Restock |QID|9584|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 C Intercepting the Message|QID|9779|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|S|
 C The Second Sample|QID|9584|M|45.75,47.62|N|Use the Crystal Mining Pick on the Altered Crystal Sample.|U|23876|
 C Intercepting the Message|QID|9779|M|45.75,47.62|N|Kill Sunhawk Spies until the Sunhawk Missive drops.|US|
-T The Second Sample|QID|9584|M|52.6,53.23|N|To Harbinger Mikolaas.|
-A The Final Sample|QID|9585|PRE|9584|M|52.6,53.23|N|From Harbinger Mikolaas.|
-T Intercepting the Message|QID|9779|M|55.42,55.25|N|To Vindicator Boros.|
-A Translations...|QID|9696|PRE|9779|M|55.42,55.25|N|From Vindicator Boros.|
+T The Second Sample|QID|9584|M|52.60,53.223|N|To Harbinger Mikolaas.|
+A The Final Sample|QID|9585|PRE|9584|M|52.60,53.223|N|From Harbinger Mikolaas.|
+T Intercepting the Message|QID|9779|M|55.39,55.27|N|To Vindicator Boros.|
+A Translations...|QID|9696|PRE|9779|M|55.39,55.27|N|From Vindicator Boros.|
 T Translations...|QID|9696|M|54.4,54.4|N|To Interrogator Elysia.|
 A Audience with the Prophet|QID|9698|PRE|9696|M|54.4,54.4|N|From Interrogator Elysia.|
 F The Exodar |QID|9698|M|57.7,53.9|N|Fly to The Exodar.|
@@ -111,8 +116,8 @@ T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen
 A Truth or Fiction|QID|9699|PRE|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 N Training and banking|QID|9699|N|Train your professions, visit bank etc. while you're here. Close to continue.|R|Draenei|
 F Blood Watch |QID|9699|M|68.51,63.61|Z|The Exodar|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|U|6948|
-T Truth or Fiction|QID|9699|M|55.42,55.25|N|To Vindicator Boros.|
-A I Shoot Magic Into the Darkness|QID|9700|PRE|9699|M|55.42,55.25|N|From Vindicator Boros.|
+T Truth or Fiction|QID|9699|M|55.39,55.27|N|To Vindicator Boros.|
+A I Shoot Magic Into the Darkness|QID|9700|PRE|9699|M|55.39,55.27|N|From Vindicator Boros.|
 r Repair/Restock |QID|10063|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 A Constrictor Vines|QID|9643|M|55.83,56.93|N|From Tracker Lyceon.|
 A The Bear Necessities|QID|9580|M|55.83,56.93|N|From Tracker Lyceon.|
@@ -139,7 +144,7 @@ H Blood Watch|QID|9643|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948
 T Constrictor Vines|QID|9643|M|55.83,56.93|N|To Tracker Lyceon.|
 T The Bear Necessities|QID|9580|M|55.83,56.93|N|To Tracker Lyceon.|
 A Culling the Flutterers|QID|9647|PRE|9580^9643|M|55.83,56.93|N|From Tracker Lyceon.|
-T I Shoot Magic Into the Darkness|QID|9700|M|55.42,55.25|N|To Vindicator Boros.|
+T I Shoot Magic Into the Darkness|QID|9700|M|55.39,55.27|N|To Vindicator Boros.|
 A The Cryo-Core|QID|9703|PRE|9700|M|55.64,55.28|N|From Vindicator Kuros.|
 T Deciphering the Book|QID|9557|M|54.69,54.01|N|To Anchorite Paetheus.|
 A Nolkai's Words|QID|9561|PRE|9557|M|54.69,54.01|N|From Anchorite Paetheus.|
@@ -160,7 +165,7 @@ A Matis the Cruel|QID|9711|PRE|9706|M|55.64,55.28|N|From Vindicator Kuros.|
 T The Cryo-Core|QID|9703|M|55.64,55.28|N|To Vindicator Kuros.|
 A Don't Drink the Water|QID|9748|PRE|9703|M|55.57,55.38|N|From Vindicator Aesom.|
 T Galaen's Fate|QID|9579|M|53.3,57.7|N|To Morae.|
-A Talk to the Hand|QID|10064|M|52.6,53.2|N|From Harbinger Mikolaas.|
+A Talk to the Hand|QID|10064|M|52.60,53.22|N|From Harbinger Mikolaas.|
 r Repair/Restock |QID|10064|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 C Containing the Threat|QID|9569|M|41.6,29.8|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|S|
 C The Final Sample|QID|9585|U|23877|M|41.6,29.8|N|Use the pick on the Axxarien crystal (it's the big one - you need to stand right next to it)|
@@ -171,12 +176,12 @@ T Containing the Threat|QID|9569|M|55.05,58.01|N|To Vindicator Aalesia.|
 T Don't Drink the Water|QID|9748|M|55.57,55.38|N|To Vindicator Aesom.|
 A Limits of Physical Exhaustion|QID|9746|PRE|9748|M|55.57,55.38|N|From Vindicator Aesom.|
 A What We Know...|QID|9753|M|55.6,55.4|N|From Vindicator Aesom.|LVL|18|
-T The Final Sample|QID|9585|M|52.6,53.2|N|To Harbinger Mikolaas.|
-T What We Know...|QID|9753|M|52.66,53.23|N|To Exarch Admetius.|
-A What We Don't Know...|QID|9756|PRE|9753|M|52.66,53.23|N|From Exarch Admetius.|
+T The Final Sample|QID|9585|M|52.60,53.22|N|To Harbinger Mikolaas.|
+T What We Know...|QID|9753|M|52.68,53.21|N|To Exarch Admetius.|
+A What We Don't Know...|QID|9756|PRE|9753|M|52.68,53.21|N|From Exarch Admetius.|
 C What We Don't Know...|QID|9756|M|54.4,54.3|N|Talk to the prisoner.|
-T What We Don't Know...|QID|9756|M|52.66,53.23|N|To Exarch Admetius.|
-A Vindicator's Rest|QID|9760|PRE|9756|M|52.66,53.23|N|From Exarch Admetius.|
+T What We Don't Know...|QID|9756|M|52.68,53.21|N|To Exarch Admetius.|
+A Vindicator's Rest|QID|9760|PRE|9756|M|52.68,53.21|N|From Exarch Admetius.|
 A The Missing Expedition|QID|9669|M|53.3,57.0|N|From Achelus.|
 C Matis the Cruel|QID|9711|M|31.5,48|N|Use the flare gun! When you get into range, just use your flare gun, and the quest is easy. He pats along the road, you should see him somewhere near Vindicator's Rest.|U|24278|T|Matis the Cruel|
 T Vindicator's Rest|QID|9760|M|30.6,46.6|N|To Vindicator Corin.|
@@ -209,12 +214,12 @@ T Limits of Physical Exhaustion|QID|9746|M|55.56,55.37|N|To Vindicator Aesom.|
 A The Sun Gate|QID|9740|PRE|9746|M|55.56,55.37|N|From Vindicator Aesom.|
 T Critters of the Void|QID|9741|M|55.56,55.37|N|To Vindicator Aesom.|
 T The Missing Expedition|QID|9669|M|53.25,57.02|N|To Achelus.|
-N Go train your skills |QID|9671|N|Train skills, then restock on food/water, etc.|
+N Train your skills |QID|9671|N|Train skills, then restock on food/water, etc.|
 A Urgent Delivery|QID|9671|PRE|9506|N|From Messenger Hermesius, who walks all over Blood Watch.|M|PLAYER|
 ;At the time of this run through, the quest is bugged on BCC. The mail doesnt have a quest item in it.
 N Check your mailbox|QID|9561|L|24132|M|55.18,59.19|N|Urgent Delivery results in a mail sent to your mailbox. Close this when mail obtained.|
 A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|U|24132|N|From A Letter from the Admiral.|
-A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|N|From Maatparm.|
+A Ysera's Tears|QID|9649|PRE|9648|M|56.42,56.83|N|From Maatparm.|
 T Nolkai's Words|QID|9561|M|61.11,49.62|N|It's a pile of dirt.|
 A Restoring Sanctity|QID|9687|M|74.46,33.66|N|From Prince Toreth. He pats around the area.|
 T The Bloodcurse Legacy|QID|9672^9751|M|79.14,22.66|N|To Captain Edward Hanes.|
@@ -239,7 +244,7 @@ T Razormaw|QID|9689|M|73.7,33.7|N|To Prince Toreth.|
 C Ending the Bloodcurse|QID|9683|M|85,54|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|
 T Ending the Bloodcurse|QID|9683|M|79.14,22.66|N|To Captain Edward Hanes.|
 H Blood Watch|QID|9649|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948|
-T Ysera's Tears|QID|9649|M|56.4,56.8|N|To Maatparm.|
+T Ysera's Tears|QID|9649|M|56.42,56.83|N|To Maatparm.|
 r Repair/Restock |QID|9740|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|-Draenei|
 ;F The Exodar|QID|9740|M|57.68,53.89|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|
@@ -250,12 +255,12 @@ A Ending Their World|QID|9759|PRE|9753|M|30.75,46.80|N|From Demolitionist Legoso
 C Clearing the Way|QID|9761|S|M|19.8,52.6|N|Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the work. Make sure you do 50%+ dmg to the quest mobs, so you get credit.|
 C Ending Their World|QID|9759|M|19,52|N|Follow Legoso, he will stop in 2 places to plant explosives. Then you will have to kill Sironas.|
 C Clearing the Way|QID|9761|US|M|19.8,52.6|N|Finish killing Sunhawk Agents and Saboteurs.|
-C The Sun Gate|QID|9740|M|18.95,63.5|N|Go to the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate.|
+C The Sun Gate|QID|9740|M|18.95,63.5|N|To the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate.|
 T Clearing the Way|QID|9761|M|30.75,46.80|N|To Vindicator Corin.|
 H Blood Watch|QID|9740|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948|
 T The Sun Gate|QID|9740|M|55.54,55.42|N|To Vindicator Aesom.|
-T Ending Their World|QID|9759|M|52.70,53.24|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|
-A The Unwritten Prophecy|QID|9762|PRE|9759|M|54.02,55.47|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|R|Draenei|
+T Ending Their World|QID|9759|M|52.68,53.21|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|
+A The Unwritten Prophecy|QID|9762|PRE|9759|M|54.02,55.47|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, To The Exodar to get the quest.|R|Draenei|
 A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|M|57.68,53.89|N|Fly to The Exodar.|
 ;A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|Z|The Exodar|N|From the Hero's Call Board. Will not show up if your level is too high.|

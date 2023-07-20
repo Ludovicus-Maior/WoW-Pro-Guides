@@ -1,11 +1,11 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-    <Script file="INTRO_WOTLK_DK.lua"/>
-	<Script file="BC_WOTLK_Netherstorm.lua"/>
+    <Script file="WOTLK_INTRO_DK.lua"/>
+	<Script file="WOTLK_BC_Netherstorm.lua"/>
 	<Script file="WOTLK_Sholazar_Basin.lua"/>
 	<Script file="WOTLK_ZulDrak.lua"/>
-	<Script file="73_80_Dungeon_Wrath_Ahnkahet_The Old Kingdom.lua"/>
-	<Script file="72_80_Dungeon_Wrath_Azjol-Nerub.lua"/>
-	<Script file="68_80_Dungeon_Wrath_The_ Nexus.lua"/>
-	<Script file="73_80_Dungeon_Wrath_DrakTharon_Keep.lua"/>
-	<Script file="74_80_Dungeon_Wrath_Gundrak.lua"/>
+	<Script file="WOTLK_Dungeon_73_80_Ahnkahet_The Old Kingdom.lua"/>
+	<Script file="WOTLK_Dungeon_72_80_Azjol-Nerub.lua"/>
+	<Script file="WOTLK_Dungeon_68_80_The_ Nexus.lua"/>
+	<Script file="WOTLK_Dungeon_73_80_DrakTharon_Keep.lua"/>
+	<Script file="WOTLK_Dungeon_74_80_Gundrak.lua"/>
 </Ui>
