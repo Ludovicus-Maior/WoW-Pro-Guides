@@ -108,7 +108,7 @@ A Containing the Threat|QID|9569|PRE|9567|M|55.08,58.00|N|From Vindicator Aalesi
 T Victims of Corruption|QID|9574|M|53.24,57.73|N|To Morae.|
 A Irradiated Crystal Shards|QID|9641|M|55.43,55.27|N|From Vindicator Boros.|
 T Irradiated Crystal Shards.|QID|9641|M|55.43,55.27|N|To Vindicator Boros.|
-t More Irradiated Crystal Shards.|QID|9642|L|23984 -9|M|55.43,55.27|N|To Vindicator Boros.|
+t More Irradiated Crystal Shards.|QID|9642|L|23984 -9|M|55.43,55.27|N|To Vindicator Boros.|IZ|Blood Watch|
 A More Irradiated Crystal Shards|QID|9642|PRE|9641|M|55.43,55.27|L|23984 -9|N|From Vindicator Boros.\n[color=FF0000]NOTE: [/color]This is a repeatable quest to exchange 10 Irradiated Crystal Shards for a buff crystal.|NOCACHE|; ** This step will continue to show up as long as they have a multiple of 10 to turn in - Hendo72
 C Intercepting the Message|QID|9779|M|48.12,46.57|L|24399|ITEM|24399|N|Sunhawk Spies in Bladewood.|S|
 C The Second Sample|QID|9584|M|45.66,47.73|N|Use the Crystal Mining Pick on the Altered Crystal Sample.|U|23876|NC|
@@ -119,7 +119,7 @@ T Intercepting the Message|QID|9779|M|55.43,55.27|N|To Vindicator Boros.|
 A Translations...|QID|9696|PRE|9779|M|55.43,55.27|N|From Vindicator Boros.|
 T Translations...|QID|9696|M|54.43,54.45|N|To Interrogator Elysia.|
 A Audience with the Prophet|QID|9698|PRE|9696|M|54.43,54.45|N|From Interrogator Elysia.|
-F The Exodar|AVAILABLE|9567|M|57.68,53.87|N|Fly to The Exodar.|
+F The Exodar|ACTIVE|9698|M|57.68,53.87|N|Fly to The Exodar.|
 T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 A Truth or Fiction|QID|9699|PRE|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 N Training and banking|QID|9699|N|While you're here, train your professions, visit bank, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Draenei|
