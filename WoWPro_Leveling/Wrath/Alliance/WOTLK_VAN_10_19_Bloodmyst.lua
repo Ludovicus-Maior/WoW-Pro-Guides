@@ -28,7 +28,7 @@ h Blood Watch|AVAILABLE|9629|M|55.84,59.80|N|Set hearthstone to Blood Watch with
 A Beds, Bandages, and Beyond|QID|9603|M|55.84,59.80|N|From Caregiver Topher Loaal.|R|Draenei|
 A Catch and Release|QID|9629|M|53.25,57.75|N|From Morae (Herbalism Trainer).|
 r Repair/Restock|AVAILABLE|9581|M|53.32,56.68|N|Repair/Sell Junk at Beega.|
-A Learning from the Crystals|QID|9581|M|52.60,53.22|N|From Harbinger Mikolaas.|
+A Learning from the Crystals|QID|9581|M|52.60,53.23|N|From Harbinger Mikolaas.|
 A What Argus Means to Me|QID|9693|M|52.67,53.21|N|From Exarch Admetius.|
 T What Argus Means to Me|QID|9693|M|55.43,55.27|N|To Vindicator Boros.|
 A Blood Watch|QID|9694|PRE|9693|M|55.43,55.27|N|From Vindicator Boros.|
@@ -39,7 +39,7 @@ F The Exodar|ACTIVE|9604|M|57.68,53.87|N|Fly to The Exodar.|R|Draenei|
 T On the Wings of a Hippogryph|QID|9604|M|73.28,53.28;57.03,50.14|Z|The Exodar|CC|N|To Nurguni, standing by the table in front of the Trader's Tier.|R|Draenei|
 A Hippogryph Master Stephanos|QID|9605|PRE|9604|M|57.03,50.14|Z|The Exodar|N|From Nurguni.|R|Draenei|
 N The Exodar|ACTIVE|9605|N|While you're here, you can visit your bank/AH or get supplies.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Draenei|
-T Hippogryph Master Stephanos|QID|9605|M|68.46,63.68|Z|The Exodar|N|To Hippogryph Master Stephanos.|R|Draenei|
+T Hippogryph Master Stephanos|QID|9605|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|To Hippogryph Master Stephanos.|R|Draenei|
 A Return to Topher Loaal|QID|9606|PRE|9605|M|68.46,63.68|Z|The Exodar|N|From Stephanos.|R|Draenei|
 F Blood Watch|QID|9606|M|68.46,63.68|Z|The Exodar|N|Fly back to Blood Watch.|R|Draenei|
 A Maatparm Mushroom Menagerie|QID|9648|M|56.42,56.83|N|From Maatparm.|
@@ -73,8 +73,8 @@ T Cruelfin's Necklace|QID|9576|M|53.25,57.75|N|To Morae.|
 T Catch and Release|QID|9629|M|53.25,57.75|N|To Morae.|
 A Victims of Corruption|QID|9574|PRE|9629|M|53.25,57.75|N|From Morae.|
 r Repair/Restock|ACTIVE|9668|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-T Learning from the Crystals|QID|9581|M|52.60,53.22|N|To Harbringer Mikolaas.|
-A The Missing Survey Team|QID|9620|PRE|9581|M|52.60,53.22|N|From Harbringer Mikolaas.|
+T Learning from the Crystals|QID|9581|M|52.60,53.23|N|To Harbringer Mikolaas.|
+A The Missing Survey Team|QID|9620|PRE|9581|M|52.60,53.23|N|From Harbringer Mikolaas.|
 T Report to Exarch Admetius|QID|9668|M|52.68,53.21|N|To Exarch Admetius.|
 T Saving Princess Stillpine|QID|9667|M|55.15,55.99|N|To Stillpine Ambassador Frasaboo.|
 T Maatparm Mushroom Menagerie|QID|9648|M|56.42,56.83|N|To Maatparm.|
@@ -91,7 +91,7 @@ T Blood Watch|QID|9694|M|55.43,55.27|N|To Vindicator Boros.|
 A Intercepting the Message|QID|9779|PRE|9694|M|55.43,55.27|N|From Vindicator Boros.|
 F The Exodar|AVAILABLE|9567|M|57.68,53.87|N|Fly to The Exodar to do your level 14 training.|LVL|14|
 = Level 14 Training|AVAILABLE|9567|M|PLAYER|CC|N|Do your level 14 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|
-F Blood Watch|AVAILABLE|9567|M|68.46,63.68|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
+F Blood Watch|AVAILABLE|9567|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
 A Know Thine Enemy|QID|9567|M|55.08,58.00|N|From Vindicator Aalesia.|
 C Victims of Corruption|QID|9574|AVAILABLE|-9694|M|49.20,44.80|L|23869 6|ITEM|23869|N|Corrupted Treants\nThey're found anywhere you see trees.|T|Corrupted Treant|S|
 K Tzerak|AVAILABLE|9594|M|38.41,82.02;36.49,71.36|CC|L|23900|N|Kill Tzerak to loot a quest starter.\nLook for the Felguard standing by the Monument in Nazzivian.\n[color=FF0000]NOTE: [/color]If you don't see him, grind on Satyrs until he spawns and walks up the path towards the Monument.|
@@ -105,11 +105,11 @@ r Repair/Restock|AVAILABLE|9569|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 T Know Thine Enemy|QID|9567|M|55.08,58.00|N|To Vindicator Aalesia.|
 T Signs of the Legion|QID|9594|M|55.08,58.00|N|To Vindicator Aalesia, after a very short dialog.|
 A Containing the Threat|QID|9569|PRE|9567|M|55.08,58.00|N|From Vindicator Aalesia.|
-T Victims of Corruption|QID|9574|M|53.24,57.73|N|To Morae.|
+T Victims of Corruption|QID|9574|M|53.25,57.75|N|To Morae.|
 A Irradiated Crystal Shards|QID|9641|M|55.43,55.27|N|From Vindicator Boros.|
 T Irradiated Crystal Shards.|QID|9641|M|55.43,55.27|N|To Vindicator Boros.|
-t More Irradiated Crystal Shards.|QID|9642|L|23984 -9|M|55.43,55.27|N|To Vindicator Boros.|IZ|Blood Watch|
-A More Irradiated Crystal Shards|QID|9642|PRE|9641|M|55.43,55.27|L|23984 -9|N|From Vindicator Boros.\n[color=FF0000]NOTE: [/color]This is a repeatable quest to exchange 10 Irradiated Crystal Shards for a buff crystal.|NOCACHE|; ** This step will continue to show up as long as they have a multiple of 10 to turn in - Hendo72
+t More Irradiated Crystal Shards.|QID|9642|M|55.43,55.27|N|To Vindicator Boros.|
+A More Irradiated Crystal Shards|QID|9642|PRE|9641|M|55.43,55.27|L|23984 -10|N|From Vindicator Boros.\n[color=FF0000]NOTE: [/color]This is a repeatable quest to exchange 10 Irradiated Crystal Shards for a buff crystal.|IZ|Blood Watch|NOCACHE|; ** This step will continue to show up as long as they have a multiple of 10 to turn in - Hendo72
 C Intercepting the Message|QID|9779|M|48.12,46.57|L|24399|ITEM|24399|N|Sunhawk Spies in Bladewood.|S|
 C The Second Sample|QID|9584|M|45.66,47.73|N|Use the Crystal Mining Pick on the Altered Crystal Sample.|U|23876|NC|
 C Intercepting the Message|QID|9779|M|48.12,46.57|L|24399|ITEM|24399|N|Sunhawk Spies in Bladewood.|T|Sunhawk Spy|US|
@@ -120,99 +120,109 @@ A Translations...|QID|9696|PRE|9779|M|55.43,55.27|N|From Vindicator Boros.|
 T Translations...|QID|9696|M|54.43,54.45|N|To Interrogator Elysia.|
 A Audience with the Prophet|QID|9698|PRE|9696|M|54.43,54.45|N|From Interrogator Elysia.|
 F The Exodar|ACTIVE|9698|M|57.68,53.87|N|Fly to The Exodar.|
-T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
-A Truth or Fiction|QID|9699|PRE|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
-N Training and banking|QID|9699|N|While you're here, train your professions, visit bank, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Draenei|
+T Audience with the Prophet|QID|9698|M|73.18,53.18;32.85,54.49|Z|The Exodar|CC|N|To Prophet Velen, on the upper tier inside the Vault of Lights.|
+A Truth or Fiction|QID|9699|PRE|9698|M|32.85,54.49|Z|The Exodar|N|To Prophet Velen.|
+N Training and banking|QID|9699|M|PLAYER|CC|N|While you're here, train your professions, visit bank, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Draenei|
 F Blood Watch|QID|9699|M|68.51,63.61|Z|The Exodar|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|
 T Truth or Fiction|QID|9699|M|55.43,55.27|N|To Vindicator Boros.|
 A I Shoot Magic Into the Darkness|QID|9700|PRE|9699|M|55.43,55.27|N|From Vindicator Boros.|
 r Repair/Restock|QID|10063|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-A Constrictor Vines|QID|9643|M|55.83,56.93|N|From Tracker Lyceon.|
-A The Bear Necessities|QID|9580|M|55.83,56.93|N|From Tracker Lyceon.|
-A Explorers' League, Is That Something for Gnomes?|QID|10063|LEAD|9549|M|56.3,54.2|N|From Prospector Nachlan.|
-C Constrictor Vines|QID|9643|M|45.9,33.9|N|Kill Mutated Constrictors for 6 Thorny Constrictor Vines.|S|
-C The Bear Necessities|QID|9580|M|45.9,33.9|N|Kill Elder Brown Bears until you have 8 flanks.|S|
-T Explorers' League, Is That Something for Gnomes?|QID|10063|M|42.11,21.23|N|To Clopper Wizbang.|
+A Constrictor Vines|QID|9643|M|55.87,56.99|N|From Tracker Lyceon.|
+A The Bear Necessities|QID|9580|M|55.87,56.99|N|From Tracker Lyceon.|
+A Explorers' League, Is That Something for Gnomes?|QID|10063|LEAD|9549|M|56.32,54.23|N|From Prospector Nachlan.|
+C Constrictor Vines|QID|9643|M|45.90,33.90|L|23994 6|ITEM|23994|N|Mutated Constrictors around Bloodmyst Isle.|S|
+C The Bear Necessities|QID|9580|M|46.15,34.62|L|24026 8|ITEM|24026|N|Elder Brown Bears around Bloodmyst Isle.|S|
+T Explorers' League, Is That Something for Gnomes?|QID|10063|M|42.11,21.23|N|To Clopper Wizbang inside the turtle carcass at The Bloodwash.\n[color=FF0000]NOTE: [/color]Clear the area first before approaching.\nGo cross country so you can work on your stickied quests.|
 A Pilfered Equipment|QID|9548|M|42.11,21.23|N|From Clopper Wizbang.|
 A Artifacts of the Blacksilt|QID|9549|M|42.11,21.23|N|From Clopper Wizbang.|
-C Artifacts of the Blacksilt|QID|9549|M|41.38,20.11|N|Kill murlocs for Idols and Knives.|S|
-C Pilfered Equipment|QID|9548|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|CN|N|Watch for Clopper's Equipment.|S|
-C WANTED: Deathclaw|QID|9646|M|37,30|N|Kill Deathclaw, and loot his Paw.|
-C Artifacts of the Blacksilt|QID|9549|M|41.38,20.11|N|Kill murlocs for Idols and Knives.|US|
-C Pilfered Equipment|QID|9548|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|CN|N|Look for Clopper's Equipment.|US|
+C Artifacts of the Blacksilt|QID|9549|QO|1;2|M|41.38,20.11|N|Blacksilt Seers drop the Idols and Warriors/Shorestrikers drop the Knives.|S|
+C Pilfered Equipment|QID|9548|M|38.40,22.40;40.40,20;44.00,22.40;46.40,20.40|CN|L|23830|N|Watch for Clopper's Equipment.|S|
+C WANTED: Deathclaw|QID|9646|M|37.50,31.01|N|Kill Deathclaw, and loot his Paw.|
+C Pilfered Equipment|QID|9548|M|38.40,22.40;40.40,20;44.00,22.40;46.40,20.40|CN|L|23830|N|Look for Clopper's Equipment.|US|
+C Artifacts of the Blacksilt|QID|9549|QO|1;2|M|41.38,20.11|N|Blacksilt Seers drop the Idols and Warriors/Shorestrikers drop the Knives.|US|
 T Artifacts of the Blacksilt|QID|9549|M|42.11,21.23|N|To Clopper Wizbang.|
 T Pilfered Equipment|QID|9548|M|42.11,21.23|N|To Clopper Wizbang.|
-A A Map to Where?|QID|9550|PRE|9549|N|Click the Weathered Treasure Map you just got to start the next quest.|U|23837|
-C I Shoot Magic Into the Darkness|QID|9700|M|51.81,21.77|N|Kill Void Anomalies, and approach the entrance to the Warp Piston to get the complete message|
-C Constrictor Vines|QID|9643|M|45.9,33.9|N|Kill Mutated Constrictors for 6 Thorny Constrictor Vines.|US|
-C The Bear Necessities|QID|9580|M|46.15,34.62;48.77,24.08|CN|N|Finish killing Elder Brown Bears until you have 8 flanks.|US|
-T A Map to Where?|QID|9550|M|61.19,41.78|N|There's a book you have to click in order to complete.|
-A Deciphering the Book|QID|9557|PRE|9550|M|61.19,41.78|N|From the Battered Ancient Book.|
-H Blood Watch|QID|9643|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
-T Constrictor Vines|QID|9643|M|55.83,56.93|N|To Tracker Lyceon.|
-T The Bear Necessities|QID|9580|M|55.83,56.93|N|To Tracker Lyceon.|
-A Culling the Flutterers|QID|9647|PRE|9580^9643|M|55.83,56.93|N|From Tracker Lyceon.|
+A A Map to Where?|QID|9550|PRE|9549|M|PLAYER|CC|N|Click the Weathered Treasure Map you just got to start the next quest.|U|23837|
+K I Shoot Magic Into the Darkness|ACTIVE|9700|QO|1|M|51.81,21.77|N|Kill Void Anomalies.|S|
+R Warp Piston|QID|9700|QO|2|M|51.81,21.77|N|Make your way to the entrance to the Warp Piston until you get the completion message.|
+K I Shoot Magic Into the Darkness|ACTIVE|9700|QO|1|M|51.81,21.77|N|Kill Void Anomalies.|US|
+C Constrictor Vines|QID|9643|M|45.90,33.90|L|23994 6|ITEM|23994|N|Mutated Constrictors around Bloodmyst Isle.|US|
+C The Bear Necessities|QID|9580|M|46.15,34.62|L|24026 8|ITEM|24026|N|Elder Brown Bears around Bloodmyst Isle.|US|
+T A Map to Where?|QID|9550|M|61.16,41.88|N|To the Battered Ancient Book on the ground at the Ruins of Loreth'Aran.\n[color=FF0000]NOTE: [/color]Cutting through Ragefeather Ridge can be eventful but it's the quickest way there.|
+A Deciphering the Book|QID|9557|PRE|9550|M|61.16,41.88|N|From the Battered Ancient Book.|
+L Level 16|ACTIVE|9643|N|Grind until you're within 5 bubbles of level 16.|LVL|15;-3350|
+H Blood Watch|ACTIVE|9643|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
+T Constrictor Vines|QID|9643|M|55.87,56.99|N|To Tracker Lyceon.|
+T The Bear Necessities|QID|9580|M|55.87,56.99|N|To Tracker Lyceon.|
+A Culling the Flutterers|QID|9647|PRE|9580^9643|M|55.87,56.99|N|From Tracker Lyceon.|
 T I Shoot Magic Into the Darkness|QID|9700|M|55.43,55.27|N|To Vindicator Boros.|
-A The Cryo-Core|QID|9703|PRE|9700|M|55.64,55.28|N|From Vindicator Kuros.|
-T Deciphering the Book|QID|9557|M|54.69,54.01|N|To Anchorite Paetheus.|
-A Nolkai's Words|QID|9561|PRE|9557|M|54.69,54.01|N|From Anchorite Paetheus.|
-T WANTED: Deathclaw|QID|9646|M|52.63,53.27|N|To Harbinger Mikolaas.|
-A Searching for Galaen|QID|9578|M|53.3,57.7|N|From Morae.|
-r Repair/Restock|QID|9578|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-C Culling the Flutterers|QID|9647|M|47.21,32.72;43.5,36.58|CN|N|Kill every Royal Blue Flutterer you see.|S|
-C The Cryo-Core|QID|9703|M|39.27,60.42|N|Loot Medical Supplies from the ground and from Blood Elves.|S|
-T Searching for Galaen|QID|9578|M|37.51,61.27|N|To Galaen's Coprse.|
-A Galaen's Fate|QID|9579|PRE|9578|M|37.51,61.27|N|From Galaen's Coprse.|
-A Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|PRE|9779|N|From the book on the ground next to Galaen's Coprse.|
-C Galaen's Fate|QID|9579|M|39.27,60.42|N|The amulet drops off of the Blood Elves outside the Cryo Core.|
-C The Cryo-Core|QID|9703|M|39.27,60.42|N|Loot Medical Supplies from the ground and from Blood Elves.|US|
-C Culling the Flutterers|QID|9647|M|47.21,32.72;43.5,36.58|CN|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|
-T Culling the Flutterers|QID|9647|M|55.83,56.93|N|To Tracker Lyceon.|
-T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.64,55.28|N|To Vindicator Kuros.|
-A Matis the Cruel|QID|9711|PRE|9706|M|55.64,55.28|N|From Vindicator Kuros.|
-T The Cryo-Core|QID|9703|M|55.64,55.28|N|To Vindicator Kuros.|
+A The Cryo-Core|QID|9703|PRE|9700|M|55.63,55.23|N|From Vindicator Kuros.|
+T Deciphering the Book|QID|9557|M|54.67,53.95|N|To Anchorite Paetheus.|
+A Nolkai's Words|QID|9561|PRE|9557|M|54.67,53.95|N|From Anchorite Paetheus.|
+T WANTED: Deathclaw|QID|9646|M|52.60,53.23|N|To Harbinger Mikolaas.|
+F The Exodar|AVAILABLE|9578|M|57.68,53.87|N|Fly to The Exodar to do your level 16 training.|LVL|16|
+= Level 16 Training|AVAILABLE|9578|M|PLAYER|CC|N|Do your level 16 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|16|
+F Blood Watch|AVAILABLE|9578|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
+A Searching for Galaen|QID|9578|M|53.25,57.75|N|From Morae.|
+K Culling the Flutterers|ACTIVE|9647|QO|1|M|41.92,50.30|N|Kill every Royal Blue Flutterer you see.|S|
+C The Cryo-Core|QID|9703|M|39.27,60.42|L|24236 12|ITEM|24236|N|Sunhawk Reclaimers at The Cryo-Core\nThey can also be picked up from the ground.|S|
+T Searching for Galaen|QID|9578|M|37.51,61.27|N|To Galaen's Corpse.|
+A Galaen's Fate|QID|9579|PRE|9578|M|37.51,61.27|N|From Galaen's Corpse inside the building in The Cryo-Core.|
+A Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|PRE|9779|M|37.56,61.26|N|From Galen's Journal, the book on the ground next to Galaen's Corpse.|
+C Galaen's Fate|QID|9579|M|39.27,60.42|L|23873|ITEM|23873|N|Sunhawk Reclaimers around the Cryo-Core.|
+C The Cryo-Core|QID|9703|M|39.27,60.42|L|24236 12|ITEM|24236|N|Sunhawk Reclaimers at The Cryo-Core\nThey can also be picked up from the ground.|US|
+K Culling the Flutterers|ACTIVE|9647|QO|1|M|41.92,50.30|N|Kill every Royal Blue Flutterer you see.\n[color=FF0000]NOTE: [/color]They can be found in the area between The Cryo-Core and Axxarien to the north.|T|Royal Blue Flutterer|US|
+T Culling the Flutterers|QID|9647|M|55.87,56.99|N|To Tracker Lyceon.|
+T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.63,55.23|N|To Vindicator Kuros.|
+A Matis the Cruel|QID|9711|PRE|9706|M|55.63,55.23|N|From Vindicator Kuros.|
+T The Cryo-Core|QID|9703|M|55.63,55.23|N|To Vindicator Kuros.|
 A Don't Drink the Water|QID|9748|PRE|9703|M|55.57,55.38|N|From Vindicator Aesom.|
-T Galaen's Fate|QID|9579|M|53.3,57.7|N|To Morae.|
-A Talk to the Hand|QID|10064|M|52.60,53.22|N|From Harbinger Mikolaas.|
-r Repair/Restock|QID|10064|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-C Containing the Threat|QID|9569|M|41.6,29.8|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|S|
-C The Final Sample|QID|9585|U|23877|M|41.6,29.8|N|Use the pick on the Axxarien crystal (it's the big one - you need to stand right next to it)|
-C Containing the Threat|QID|9569|M|41.6,29.8|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|US|
-C Don't Drink the Water|QID|9748|M|34.37,33.56|N|Jump down the waterfall, and use your flask.|U|24318|
-H Blood Watch|QID|9569|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
-T Containing the Threat|QID|9569|M|55.05,58.01|N|To Vindicator Aalesia.|
+T Galaen's Fate|QID|9579|M|53.25,57.75|N|To Morae.|
+r Repair/Restock|AVAILABLE|10064|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
+A Talk to the Hand|QID|10064|M|52.60,53.23|N|From Harbinger Mikolaas.|
+C Containing the Threat|QID|9569|M|40.57,34.57|QO|2;3;4|N|Collect 5 Corrupted Crystals (small red crystals) while killing Hellcallers and Shadowstalkersin Axxarien.\n[color=FF0000]NOTE: [/color]Don't waste your time with the Tricksters, unless neccessary.|S|
+C The Final Sample|QID|9585|M|41.19,30.92|N|Stand beside the big Axxarien Crystal and use the pick on it.|U|23877|
+C Containing the Threat|QID|9569|QO|1|M|41.91,29.51|N|Kill Zevrax.|T|Zevrax|
+C Containing the Threat|QID|9569|M|40.57,34.57|QO|2;3;4|N|Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkersin Axxarien.\n[color=FF0000]NOTE: [/color]Don't waste your time with the Tricksters, unless neccessary.|US|
+L Level 18|ACTIVE|9569|N|Grind until you're within 3 bubbles of level 18.|LVL|17;-2700|
+C Don't Drink the Water|QID|9748|M|34.45,33.29|N|Make your way down to the bottom of the waterfall and use your flask.\n[color=FF0000]NOTE: [/color]You can jump if you don't mind the falling damage.|U|24318|NC|
+H Blood Watch|ACTIVE|9569|M|55.04,59.33|N|Hearth or run back to Blood Watch.|LVL|17;-2700|
+T Containing the Threat|QID|9569|M|55.08,58.00|N|To Vindicator Aalesia.|
 T Don't Drink the Water|QID|9748|M|55.57,55.38|N|To Vindicator Aesom.|
 A Limits of Physical Exhaustion|QID|9746|PRE|9748|M|55.57,55.38|N|From Vindicator Aesom.|
-A What We Know...|QID|9753|M|55.6,55.4|N|From Vindicator Aesom.|LVL|18|
-T The Final Sample|QID|9585|M|52.60,53.22|N|To Harbinger Mikolaas.|
+A What We Know...|QID|9753|M|55.57,55.38|N|From Vindicator Aesom.|LVL|18|
+T The Final Sample|QID|9585|M|52.60,53.23|N|To Harbinger Mikolaas.|
 T What We Know...|QID|9753|M|52.68,53.21|N|To Exarch Admetius.|
 A What We Don't Know...|QID|9756|PRE|9753|M|52.68,53.21|N|From Exarch Admetius.|
-C What We Don't Know...|QID|9756|M|54.4,54.3|N|Talk to the prisoner.|
+C What We Don't Know...|QID|9756|M|54.4,54.3|N|{COORDS}Talk to the prisoner.|
 T What We Don't Know...|QID|9756|M|52.68,53.21|N|To Exarch Admetius.|
 A Vindicator's Rest|QID|9760|PRE|9756|M|52.68,53.21|N|From Exarch Admetius.|
-A The Missing Expedition|QID|9669|M|53.3,57.0|N|From Achelus.|
-C Matis the Cruel|QID|9711|M|31.5,48|N|Use the flare gun! When you get into range, just use your flare gun, and the quest is easy. He pats along the road, you should see him somewhere near Vindicator's Rest.|T|Matis the Cruel|U|24278|
-T Vindicator's Rest|QID|9760|M|30.6,46.6|N|To Vindicator Corin.|
-A Fouled Water Spirits|QID|10067|M|30.6,46.6|N|From Vindicator Corin.|
-A Oh, the Tangled Webs They Weave|QID|10066|M|30.6,46.6|N|From Vindicator Corin.|
+F The Exodar|AVAILABLE|9669|M|57.68,53.87|N|Fly to The Exodar to do your level 18 training.|LVL|18|
+= Level 18 Training|AVAILABLE|9669|M|PLAYER|CC|N|Do your level 18 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|18|
+F Blood Watch|AVAILABLE|9669|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
+A The Missing Expedition|QID|9669|M|53.25,57.03|N|From Achelus.|
+C Matis the Cruel|QID|9711|M|41.47,44.77;22.18,53.59|CC|N|When you get into range, just use your flare gun, and the quest is easy. He pats along the road, you should see him somewhere near Vindicator's Rest.|T|Matis the Cruel|U|24278|
+T Vindicator's Rest|QID|9760|M|30.6,46.6|N|{COORDS}To Vindicator Corin.|
+A Fouled Water Spirits|QID|10067|M|30.6,46.6|N|{COORDS}From Vindicator Corin.|
+A Oh, the Tangled Webs They Weave|QID|10066|M|30.6,46.6|N|{COORDS}From Vindicator Corin.|
 T Talk to the Hand|QID|10064|M|30.27,45.94|N|To Scout Joril.|
 A Cutting a Path|QID|10065|M|30.28,45.88|N|From Scout Joril.|
 A Critters of the Void|QID|9741|M|30.28,45.88|N|From Scout Loryi.|
-C Cutting a Path|QID|10065|M|31.25,56.68|N|Kill 10 Enraged Ravagers.|S|
+K Cutting a Path|QID|10065|M|31.25,56.68|N|Kill 10 Enraged Ravagers.|S|
 C Oh, the Tangled Webs They Weave|QID|10066|M|31.25,56.68|N|Kill 8 Mutated Tanglers.|
-C Cutting a Path|QID|10065|M|31.25,56.68|N|Kill 10 Enraged Ravagers.|US|
-C Limits of Physical Exhaustion|QID|9746|M|26.44,52.54|N|Kill Sunhawk Pyromancers and Defenders.|S|
+K Cutting a Path|QID|10065|M|31.25,56.68|N|Kill 10 Enraged Ravagers.|US|
+K Limits of Physical Exhaustion|QID|9746|M|26.44,52.54|N|Kill Sunhawk Pyromancers and Defenders.|S|
 C Critters of the Void|QID|9741|M|18.70,63.61|N|Kill 12 Void Critters. They are small and can be hard to target sometimes.|
-C Limits of Physical Exhaustion|QID|9746|M|26.44,52.54|US|N|Finish killing Sunhawk Pyromancers and Defenders.|
-A They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|From Researcher Cornelius.|
-C Fouled Water Spirits|QID|10067|M|28.92,36.47|N|Kill 6 Fouled Water Spirits.|S|
-C They're Alive! Maybe...|QID|9670|S|M|22,36|N|Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|
-C The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|N|Kill Zarakh.|S|T|Zarakh|
-C The Missing Expedition|QID|9669|QO|1;2|M|21.81,36.49|N|Kill spiders on the way.|
-C The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|N|Kill Zarakh.|US|T|Zarakh|
-C They're Alive! Maybe...|QID|9670|US|M|22,36|N|Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|
-T They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|To Researcher Cornelius.|
-C Fouled Water Spirits|QID|10067|M|28.92,36.47|N|Kill 6 Fouled Water Spirits.|US|
+K Limits of Physical Exhaustion|QID|9746|M|26.44,52.54|N|Finish killing Sunhawk Pyromancers and Defenders.|US|
+A They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|{COORDS}From Researcher Cornelius.|
+K Fouled Water Spirits|QID|10067|M|28.92,36.47|N|Kill 6 Fouled Water Spirits.|S|
+C They're Alive! Maybe...|QID|9670|M|22,36|N|Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|S|
+K The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|N|Kill Zarakh.|T|Zarakh|S|
+C The Missing Expedition|QID|9669|QO|1;2|M|21.81,36.49|N|Kill spiders.|
+K The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|N|Kill Zarakh.|T|Zarakh|US|
+C They're Alive! Maybe...|QID|9670|M|22,36|N|{COORDS}Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|US|
+T They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|{COORDS}To Researcher Cornelius.|
+K Fouled Water Spirits|QID|10067|M|28.92,36.47|N|Kill 6 Fouled Water Spirits.|US|
 T Cutting a Path|QID|10065|M|30.28,45.88|N|To Scout Joril.|
 T Fouled Water Spirits|QID|10067|M|30.74,46.83|N|To Vindicator Corin.|
 T Oh, the Tangled Webs They Weave|QID|10066|M|30.74,46.83|N|To Vindicator Corin.|
@@ -222,20 +232,20 @@ T Limits of Physical Exhaustion|QID|9746|M|55.56,55.37|N|To Vindicator Aesom.|
 A The Sun Gate|QID|9740|PRE|9746|M|55.56,55.37|N|From Vindicator Aesom.|
 T Critters of the Void|QID|9741|M|55.56,55.37|N|To Vindicator Aesom.|
 T The Missing Expedition|QID|9669|M|53.25,57.02|N|To Achelus.|
-N Train your skills|QID|9671|N|Train skills, then restock on food/water, etc.|
-A Urgent Delivery|QID|9671|PRE|9506|N|From Messenger Hermesius, who walks all over Blood Watch.|M|PLAYER|
+;N Train your skills|QID|9671|N|Train skills, then restock on food/water, etc.|
+A Urgent Delivery|QID|9671|PRE|9506|N|From Messenger Hermesius.\n[color=FF0000]NOTE: [/color]He pats all around Blood Watch.|
 ;At the time of this run through, the quest is bugged on BCC. The mail doesnt have a quest item in it.
-N Check your mailbox|QID|9561|L|24132|M|55.18,59.19|N|Urgent Delivery results in a mail sent to your mailbox. Close this when mail obtained.|
-A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|U|24132|N|From A Letter from the Admiral.|
+C Check your mailbox|QID|9561|M|55.18,59.19|L|24132|N|Urgent Delivery results in a mail sent to your mailbox.\n[color=FF0000]NOTE: [/color]This step will close automatically when you retrieve the letter.|NC|
+A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|N|From A Letter from the Admiral.|U|24132|O|
 A Ysera's Tears|QID|9649|PRE|9648|M|56.42,56.83|N|From Maatparm.|
 T Nolkai's Words|QID|9561|M|61.11,49.62|N|It's a pile of dirt.|
-A Restoring Sanctity|QID|9687|M|74.46,33.66|N|From Prince Toreth. He pats around the area.|
+A Restoring Sanctity|QID|9687|M|74.46,33.66|N|From Prince Toreth.\n[color=FF0000]NOTE: [/color]He pats around the area.|
 T The Bloodcurse Legacy|QID|9672^9751|M|79.14,22.66|N|To Captain Edward Hanes.|
 A The Bloodcursed Naga|QID|9674|PRE|9672^9751|M|79.14,22.66|N|From Captain Edward Hanes.|
 C The Bloodcursed Naga|QID|9674|M|81.33,21.06|N|Head into the water and kill Naga.|
 T The Bloodcursed Naga|QID|9674|M|79.14,22.66|N|To Captain Edward Hanes.|
 A The Hopeless Ones...|QID|9682|PRE|9674|M|79.14,22.66|N|From Captain Edward Hanes.|
-C The Hopeless Ones...|QID|9682|M|83,22;87.2,18.5|CN|N|Kill and loot Bloodcursed Voyagers in and around the submerged ships, until you have 4 Bloodcursed Souls.|
+C The Hopeless Ones...|QID|9682|M|83,22;87.2,18.5|CN|N|{COORDS}Kill and loot Bloodcursed Voyagers in and around the submerged ships, until you have 4 Bloodcursed Souls.|
 N The Captain's Kiss Buff|QID|9682|M|79,22|N|The swim speed and water breathing buff is really useful for another quest. Go back to Captain Edward Hanes, but don't turn in the quest. Ask him to renew the buff on you.|
 C Ysera's Tears|QID|9649|M|74.55,13.69|N|Loot the green glowing mushrooms from the ground.|S|
 C Restoring Sanctity|QID|9687|M|60.05,35.47;58.09,29.47|CN|N|Loot the bones. They are around where the small Wildkin camps are.|
@@ -248,7 +258,7 @@ C Razormaw|QID|9689|M|72,20|N|Move to the top of the hill. Clear the whelplings,
 C Ysera's Tears|QID|9649|M|74.55,13.69|N|Loot the green glowing mushrooms from the ground.|US|
 T The Hopeless Ones...|QID|9682|M|79.14,22.66|N|To Captain Edward Hanes. Before turning in, refresh your buff again.|
 A Ending the Bloodcurse|QID|9683|PRE|9682|M|79.14,22.66|N|From Captain Edward Hanes.|
-T Razormaw|QID|9689|M|73.7,33.7|N|To Prince Toreth.|
+T Razormaw|QID|9689|M|73.7,33.7|N|{COORDS}To Prince Toreth.|
 C Ending the Bloodcurse|QID|9683|M|85,54|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|
 T Ending the Bloodcurse|QID|9683|M|79.14,22.66|N|To Captain Edward Hanes.|
 H Blood Watch|QID|9649|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
@@ -260,16 +270,16 @@ N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on
 F Blood Watch|QID|9740|N|Fly back to Blood Watch. Skip if you're already there.|Z|The Exodar|M|54.46,36.4|R|Draenei|
 A Clearing the Way|QID|9761|PRE|9760|M|30.75,46.80|N|From Vindicator Corin.|LVL|18|
 A Ending Their World|QID|9759|PRE|9753|M|30.75,46.80|N|From Demolitionist Legoso.|
-C Clearing the Way|QID|9761|S|M|19.8,52.6|N|Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the work. Make sure you do 50%+ dmg to the quest mobs, so you get credit.|
+K Clearing the Way|QID|9761|M|19.8,52.6|N|{COORDS}Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the work. Make sure you do 50%+ dmg to the quest mobs, so you get credit.|S|
 C Ending Their World|QID|9759|M|19,52|N|Follow Legoso, he will stop in 2 places to plant explosives. Then you will have to kill Sironas.|
-C Clearing the Way|QID|9761|US|M|19.8,52.6|N|Finish killing Sunhawk Agents and Saboteurs.|
+K Clearing the Way|QID|9761|M|19.8,52.6|N|{COORDS}Finish killing Sunhawk Agents and Saboteurs.|US|
 C The Sun Gate|QID|9740|M|18.95,63.5|N|To the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate.|
 T Clearing the Way|QID|9761|M|30.75,46.80|N|To Vindicator Corin.|
 H Blood Watch|QID|9740|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
 T The Sun Gate|QID|9740|M|55.54,55.42|N|To Vindicator Aesom.|
 T Ending Their World|QID|9759|M|52.68,53.21|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|
 A The Unwritten Prophecy|QID|9762|PRE|9759|M|54.02,55.47|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, To The Exodar to get the quest.|R|Draenei|
-A Newfound Allies|QID|9632|M|54.69,54.01|N|From Anchorite Paetheus.|
+A Newfound Allies|QID|9632|M|54.67,53.95|N|From Anchorite Paetheus.|
 F The Exodar|QID|9632|M|57.68,53.89|N|Fly to The Exodar.|
 ;A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|Z|The Exodar|N|From the Hero's Call Board. Will not show up if your level is too high.|
 A The Way to Auberdine|QID|9633|M|24.18,54.33|Z|Azuremyst Isle|N|From Huntress Kella Nightbow.|
