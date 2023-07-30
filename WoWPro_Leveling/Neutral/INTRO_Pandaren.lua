@@ -108,14 +108,14 @@ T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|
 T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|To Aysa Cloudsinger|
 A Finding an Old Friend|QID|29676|M|65.59,42.59|N|From Aysa Cloudsinger|PRE|29661&29662&29663|
 T Finding an Old Friend|QID|29676|M|70.61,38.75|N|To Old Man Liang in Liang's Retreat|
-A The Sun Pearl|QID|29677|M|70.61,38.75|N|From Old Man Liang|PRE|29676|
-A The Sting of Learning|QID|29666|M|70.61,38.75|N|From Old Man Liang|PRE|29676|
+A The Sun Pearl|QID|29677|M|70.63,38.73|N|From Old Man Liang|PRE|29676|
+A The Sting of Learning|QID|29666|M|70.63,38.73|N|From Old Man Liang|PRE|29676|
 K The Sting of Learning|ACTIVE|29666|M|72.20,42.00|QO|1|N|Kill the Water Pincers.|S|
 C The Sun Pearl|QID|29677|M|76.26,46.85|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl. It may be guarded by Fang-she. Defeat her and then loot the Sun Pearl from the clam.|NC|
 K The Sting of Learning|ACTIVE|29666|M|72.20,42.00|QO|1|N|Kill the Water Pincers. If there are none in the area, check the other pools.|US|
-T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Gazebo)|
-T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|
-A Shu, the Spirit of Water|QID|29678|M|78.50,42.85|N|From Old Man Liang|PRE|29666&29677|
+T The Sun Pearl|QID|29677|M|70.63,38.73|N|To Old Man Liang|
+T The Sting of Learning|QID|29666|M|70.63,38.73|N|To Old Man Liang|
+A Shu, the Spirit of Water|QID|29678|M|70.63,38.73dd|N|From Old Man Liang|PRE|29666&29677|
 C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|QO|1|N|Head to the glowing rocks and it will jump you to the edge of the Pool of Reflection. Walk forward to the pool.|NC|
 C Shu, the Spirit of Water|QID|29678|M|79.38,38.35|QO|2|N|Use the Sun Pearl to coax out Shu.|U|73791|NC|
 T Shu, the Spirit of Water|QID|29678|N|(UI Alert)\n[color=FF0000]NOTE: [/color]If the quest does not turn-in through the UI, access it through your quest log and click on 'Complete' to turn it in.|
