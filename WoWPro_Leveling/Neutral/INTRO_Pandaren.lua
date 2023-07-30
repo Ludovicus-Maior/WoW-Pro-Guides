@@ -254,7 +254,6 @@ A A New Fate|QID|31450|M|51.46,48.33|N|From Spirit of Master Shang Xi.|PRE|29800
 C A New Fate|QID|31450|M|51.46,48.33|N|Speak to Spirit of Master Shang Xi, and choose your destiny!|CHAT|
 ; The cinematic triggers a reload, which re-evaluates all the following steps in the new faction.
 T A New Fate|QID|31450|M|PLAYER|N|To Ji Firepaw.|
-N Destiny Chosen|QID|30987^31012|N|The next faction specific quest should be automatically chosen for you. If not, report the bug!\n\nClick to continue.|
 A Joining the Horde|QID|31012|M|45.58,12.61|Z|Durotar|N|From Ji Firepaw.|PRE|31450|FACTION|Horde|
 A Joining the Alliance|QID|30987|M|32.90,50.95|Z|Elwynn Forest|N|From Aysa Cloudsinger.|PRE|31450|FACTION|Alliance|
 T Joining the Horde|QID|31012|M|48.76,70.76|Z|Orgrimmar|N|To Garrosh Hellscream|FACTION|Horde|
