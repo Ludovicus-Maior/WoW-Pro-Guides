@@ -7,14 +7,14 @@ return [[
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 
 ; Darkshore Guide Synchronization Steps
-f Stormwind|AVAILABLE|343|M|70.99,72.55|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+f Stormwind|AVAILABLE|343|M|70.99,72.55|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Stormwind|
 h Stormwind City|QID|272|M|60.41,75.25|N|Head to the Innkeeper in the trade district and set your hearthstone|C|Druid|
 R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|1429;Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Westfall|AVAILABLE|65|M|20.24,80.38|Z|1429;Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
 F Sentinel Hill|AVAILABLE|65|M|66.29,62.13|Z|1453;Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
-A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|1436;Westfall|N|From Gryan Stoutmantle.|
+A The Defias Brotherhood|QID|65|M|56.33,47.52|Z|1436;Westfall|N|From Gryan Stoutmantle.|
 h Sentinel Hill|ACTIVE|65|M|52.86,53.71|Z|1436;Westfall|N|At Innkeeper Heather.|C|-Druid|
-f Sentinel Hill|QID|118|M|56.55,52.65|Z|1436;Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
+f Sentinel Hill|QID|118|M|56.55,52.65|Z|1436;Westfall|N|Discover Sentinel Hill Flight Path with Thor.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 
 ; Druid Aquatic Form Chain
 R Longshore|ACTIVE|272|M|26.90,40.00|Z|1436;Westfall|N|At this point, you're now going to finish up your swim form quest chain.|C|Druid|
@@ -28,12 +28,13 @@ F Rut'theran Village|ACTIVE|5061|M|44.15,45.22|Z|1450;Moonglade|N|Fly back using
 R Darnassus|ACTIVE|5061|M|55.86,89.45|Z|1457;Darnassus|N|Walk into the portal back to Darnassus.|C|Druid|
 T Aquatic Form|QID|5061|M|35.36,08.39|Z|1457;Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|TZ|Stormwind|C|Druid|
-F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind|
+; **
+F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|TZ|Stormwind|C|-Druid|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429;Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|1429;Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433;Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
 T Encroaching Gnolls|QID|244|M|30.74,59.99|Z|1433;Redridge Mountains|N|To Deputy Feldon.|
-f Lakeshire|AVAILABLE|125|M|30.60,59.40|Z|1433;Redridge Mountains|N|Get the flight path from Ariena Stormfeather.|
+f Lakeshire|AVAILABLE|125|M|30.60,59.40|Z|1433;Redridge Mountains|N|Get the flight path from Ariena Stormfeather.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 A The Lost Tools|QID|125|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
 T The Defias Brotherhood|QID|65|M|26.5,45.3|Z|1433;Redridge Mountains|N|To Wiley the Black upstairs at the Inn.|
 A The Defias Brotherhood|QID|132|PRE|65|M|26.5,45.3|Z|1433;Redridge Mountains|N|From Wiley the Black.|
@@ -184,7 +185,7 @@ F Darkshire|ACTIVE|145|M|71.03,72.62|Z|1453;Stormwind City|N|Fly to Darkshire, D
 F Lakeshire|AVAILABLE|163|M|71.03,72.62|Z|1453;Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
 R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|TAXI|-Darkshire|
 R Darkshire|ACTIVE|145|M|74.76,46.11|Z|1431;Duskwood|N|Follow the road to Darkshire.|TAXI|-Darkshire|
-f Darkshire|QID|116|M|77.50,44.30|Z|1431;Duskwood|N|Get the flight path from Felicia Maline.|
+f Darkshire|QID|116|M|77.50,44.30|Z|1431;Duskwood|N|Get the flight path from Felicia Maline.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 
 ; Duskwood 21-22
 h Darkshire|QID|163|M|73.90,44.40|Z|1431;Duskwood|N|Set your home location to Darkshire.|
@@ -247,13 +248,13 @@ A The Test of Righteousness|QID|1654|PRE|1653|M|52.6,36.8|Z|1426;Dun Morogh|N|Fr
 ; Wetlands 22-23
 F Menethil Harbor|AVAILABLE|455|M|55.54,47.75|Z|1455;Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
 F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|1455;Ironforge|N|Fly to Thelsamar (or run to Loch Modan from Dun Morogh if you do not have the Thelsamar FP yet)|TAXI|-Menethil Harbor|
-f Ironforge|AVAILABLE|455|M|55.49,47.72|Z|1455;Ironforge|N|Get the Ironforge flight path|TAXI|-Ironforge|
+f Ironforge|AVAILABLE|455|M|55.49,47.72|Z|1455;Ironforge|N|Get the Ironforge flight path\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Ironforge|
 R Gates of Ironforge|AVAILABLE|455|M|15.0,86.10|Z|1455;Ironforge|N|Head to the exit of Ironforge.|TAXI|-Wetlands|
 R Kharanos|AVAILABLE|455|M|47.16,45.39|Z|1426;Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|TAXI|-Wetlands|
 R South Gate Pass|AVAILABLE|455|M|86.3,51.3|Z|1426;Dun Morogh|N|Head to the South Gate Pass tunnel|TAXI|-Wetlands|
 R Valley of Kings|AVAILABLE|455|M|21.55,66.25|Z|1432;Loch Modan|N|Continue through the tunnel onto Loch Modan|TAXI|-Wetlands|
 R Thelsamar|AVAILABLE|455|M|32.96,49.44|Z|1432;Loch Modan|N|Follow the road north to Thelsamar.|TAXI|-Wetlands|
-f Thelsamar|AVAILABLE|455|M|33.9,50.95|Z|1432;Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|TAXI|-Wetlands|
+f Thelsamar|AVAILABLE|455|M|33.9,50.95|Z|1432;Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Wetlands|
 A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|1432;Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
 R Wetlands|AVAILABLE|455|M|25.25, 0.20|Z|1432;Loch Modan|N|Go through the tunnel to Wetlands|TAXI|-Menethil Harbor|
 C The Algaz Gauntlet|QID|455|QO|1;2|M|47.6,76.1|Z|1437;Wetlands|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|
@@ -262,7 +263,7 @@ T The Algaz Gauntlet|QID|455|M|10.09,56.9|Z|1437;Wetlands|N|To Valstag Ironjaw.|
 T Daily Delivery|QID|469|M|8.49,55.7|Z|1437;Wetlands|N|To James Halloran.|TAXI|-Menethil Harbor|
 A Young Crocolisk Skins|QID|484|M|8.49,55.7|Z|1437;Wetlands|N|From James Halloran.|
 A Claws from the Deep|QID|279|M|8.33,58.52|Z|1437;Wetlands|N|From Karl Boran.|
-f Menethil Harbor|AVAILABLE|463|M|9.50,59.70|Z|1437;Wetlands|N|Get the flight path.|TAXI|-Menethil Harbor|
+f Menethil Harbor|AVAILABLE|463|M|9.50,59.70|Z|1437;Wetlands|N|Get the flight path.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Menethil Harbor|
 A The Greenwarden|QID|463|M|10.9,59.66|Z|1437;Wetlands|N|From First Mate Fitzsimmons.|
 A The Third Fleet|QID|288|M|10.9,59.66|Z|1437;Wetlands|N|From First Mate Fitzsimmons.|
 h Deepwater Tavern|ACTIVE|288|M|10.7,60.96|Z|1437;Wetlands|N|Make Deepwater Tavern your home location.|
@@ -286,7 +287,7 @@ A Tramping Paws|QID|276|PRE|463|M|56.34,40.41|Z|1437;Wetlands|N|From Rethiel the
 C Tramping Paws|QID|276|M|62.00,70.00|Z|1437;Wetlands|N|Kill the mobs needed for this quest.|
 R Dun Algaz|AVAILABLE|455|M|54.00,70.50|CS|Z|1437;Wetlands|N|Run to the Dun Algaz tunnnel entrance|
 R Loch Modan|AVAILABLE|455|M|49.30,70.50;48.10,67.9;50.10,71.50;50.60,82.50;55.65,84.85|CS|Z|1437;Wetlands|N|Run through the Dun Algaz tunnel to Loch Modan|
-f Thelsamar|ACTIVE|276|M|33.92,50.95|Z|1432;Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
+f Thelsamar|ACTIVE|276|M|33.92,50.95|Z|1432;Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Thelsamar|
 A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|1432;Loch Modan|N|From Mountaineer Rockgar.|
 C The Algaz Gauntlet|QID|455|QO|1;2|M|47.6,76.1|Z|1437;Wetlands|N|Go to the orc camp and kill the orcs needed for the quest.|
 C The Algaz Gauntlet|QID|455|QO|3|M|54.00,70.50|Z|1437;Wetlands|N|Go back to the tunnel and continue down the path until you complete this quest.|
@@ -317,13 +318,13 @@ T Claws from the Deep|QID|279|M|8.33,58.52|Z|1437;Wetlands|N|To Karl Boran.|
 P Moonglade|ACTIVE|3765|M|PLAYER|N|Use your Moonglade portal spell.|C|Druid|
 F Rut'theran Village|ACTIVE|3765|M|44.19,45.26|Z|1450;Moonglade|N|Take the flightpath to Teldrassil.|C|Druid|
 F Auberdine|ACTIVE|3765|M|58.40,93.93|Z|1438;Teldrassil|N|Take the flightpath to Auberdine.|C|Druid|
-f Stormwind|ACTIVE|3765|M|9.59,59.66|Z|1437;Wetlands|N|Take flightpath to Stormwind.|C|-Druid|
+F Stormwind|ACTIVE|3765|M|9.59,59.66|Z|1437;Wetlands|N|Take flightpath to Stormwind.|C|-Druid|
 b Auberdine|ACTIVE|3765|M|22.74,56.19|Z|1453;Stormwind City|N|Take the boat to Auberdine.|C|-Druid|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|Z|1439;Darkshore|N|To Gershala Nightwhisper.|
-f Auberdine|QID|965|M|36.34,45.58|Z|1439;Darkshore|N|Get the flightpath.|
+f Auberdine|QID|965|M|36.34,45.58|Z|1439;Darkshore|N|Get the flightpath.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|1439;Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
 F Rut'theran Village|QID|1198|M|36.36,45.56|Z|1439;Darkshore|N|Train you skills sell and repair.|LVL|20|
-f Rut'theran Village|QID|965|M|58.4,94.02|Z|1438;Teldrassil|N|Get the flight path.|R|-NightElf|
+f Rut'theran Village|QID|965|M|58.4,94.02|Z|1438;Teldrassil|N|Get the flight path.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|R|-NightElf|
 = Train|ACTIVE|965|N|If needed, Don't forget to train while you are in town. (check step off manually)|
 F Auberdine|QID|965|M|36.34,45.58|Z|1438;Teldrassil|N|Fly back to Auberdine.|TAXI|-Astranaar|
 F Astranaar|QID|965|M|36.30,45.60|Z|1439;Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|TAXI|Astranaar|
@@ -339,7 +340,7 @@ C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|1440;Ashenvale|N|Escort Kerlon
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|1440;Ashenvale|N|If you took it, otherwise close this step.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|1440;Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
 F Astranaar|AVAILABLE|1008|M|58.40,93.94|Z|1438;Teldrassil|N|Fly to Astranar|TAXI|Astranaar|
-f Astranaar|AVAILABLE|1008|M|34.42,48.02|Z|1440;Ashenvale|N|Get the flight path.|TAXI|-Astranaar|
+f Astranaar|AVAILABLE|1008|M|34.42,48.02|Z|1440;Ashenvale|N|Get the flight path.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Astranaar|
 A The Zoram Strand|QID|1008|M|34.68,48.84|Z|1440;Ashenvale|N|From Shindrell Swiftfire. This is a pre-req for the stonetalon quests.|
 A Raene's Cleansing |QID|991|M|36.6,49.6|Z|1440;Ashenvale|N|From Raene Wolfrunner|
 h Astranaar|QID|991|M|36.97,49.26|Z|1440;Ashenvale|N|Make Astranaar your home location.|
@@ -390,14 +391,14 @@ A A Scroll from Mauren|QID|1075|PRE|1071|M|59.52,67.14|Z|1442;Stonetalon Mountai
 C Pridewings of Stonetalon|QID|1134|M|50.43,45.78|Z|1442;Stonetalon Mountains|N|Kill Pridewing Wyverns to finish this up.|US|
 T Journey to Stonetalon Peak|QID|1056|M|37.11,8.10|Z|1442;Stonetalon Mountains|N|To Keeper Albagorm.|
 A Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|1442;Stonetalon Mountains|N|From Keeper Albagorm.|
-f Stonetalon Peak|QID|1134|M|36.44,7.18|Z|1442;Stonetalon Mountains|N|Grab the flightpath from Teloren|
+f Stonetalon Peak|QID|1134|M|36.44,7.18|Z|1442;Stonetalon Mountains|N|Grab the flightpath from Teloren.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 R The Charred Vale|QID|1057|M|43.50,16.30;42.50,42.40;38.40,42.90;34.10,61.40|CS|Z|1442;Stonetalon Mountains|N|Run south to the Chared Vale|
 C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|1442;Stonetalon Mountains|N|Kill Harpys in the area.|S|
 C Retrieval for Mauren|QID|1078|M|34,65|Z|1442;Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
 C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|1442;Stonetalon Mountains|N|Kill Harpys in the area.|US|
 R Desolace|QID|1057|M|28.00,84.00|Z|1442;Stonetalon Mountains|N|Run through the Charred Vale to get to Desolace. This will come in handy in the next guide.|
 R Nijel's Point FP|QID|1057|M|56.57,13.37;67.00,16.00|CS|Z|1443;Desolace|N|Go to Nijel's Point by going up the path. Beware of the higher level creatures around.|
-f Nijel's Point|QID|1437|M|64.66,10.54|Z|1443;Desolace|N|Get the flight path.|
+f Nijel's Point|QID|1437|M|64.66,10.54|Z|1443;Desolace|N|Get the flight path.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 F Stonetalon Peak|QID|1057|M|64.66,10.54|Z|1443;Desolace|N|Fly back to Stonetalon Peak.|
 T Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|1442;Stonetalon Mountains|N|To Keeper Albagorm. Don't get follow up for now.|
 
@@ -425,7 +426,7 @@ R Climb Dreadmist Peak|QID|1094|M|48.90,5.30;47.30,16.00;47.40,18.75|CS|Z|1413;T
 C Mage Summoner|QID|1017|M|48.22,19.14|Z|1413;The Barrens|N|Run up the cliff on the left side of the cave and kill Sarilus Foulborne to loot his head.|
 R Ratchet|QID|1094|M|58.70,25.00;62.98,37.22|CS|Z|1413;The Barrens|N|Run down the south side of the mountain and then around the left side of the next mountain to Rachet.|
 T Further Instructions|QID|1094|M|62.98,37.22|Z|1413;The Barrens|N|To Sputtervalve. Don't get follow up.|
-f Ratchet|QID|1017|M|63.09,37.16|Z|1413;The Barrens|N|Grab the Ratchet flightpoint from Bragok.|
+f Ratchet|QID|1017|M|63.09,37.16|Z|1413;The Barrens|N|Grab the Ratchet flightpoint from Bragok.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 H Astranaar|AVAILABLE|1026|M|34.68,48.84|Z|1440;Ashenvale|N|Hearth or fly back to Astranaar.|
 A Raene's Cleansing|QID|1024|PRE|1023|M|36.6,49.6|Z|1440;Ashenvale|N|From Raene Wolfrunner.|
 T An Aggressive Defense|QID|1025|M|36.6,49.6|Z|1440;Ashenvale|N|To Raene Wolfrunner.|
