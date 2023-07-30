@@ -1,25 +1,25 @@
-local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "WowPro Team", "Alliance", 3)
+local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Blootdmyst Isle", "WowPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Bloodmyst Isle")
 WoWPro:GuideName(guide, "Bloodmyst Isle")
 WoWPro:GuideNextGuide(guide, "WOTLK_Alliance1925")
 WoWPro:GuideLevels(guide, 12, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
-R Kessel's Crossing|ACTIVE|9625|M|63.50,88.14|Z|Bloodmyst Isle|N|Follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run (just follow the road).|
+R Kessel's Crossing|ACTIVE|9625|M|63.50,88.14|Z|1950;Bloodmyst Isle|N|Follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run (just follow the road).|
 R The Exodar|AVAILABLE|9625|M|63.82,63.23|Z|1947;The Exodar|N|Follow the road that heads easterward from the dock.|
 f The Exodar|AVAILABLE|9634|M|68.46,63.68|Z|1947;The Exodar|N|Discover the flightpath from Stephanos.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-The Exodar|R|-Draenei| ; ** Draenei will already know this one but might fail the TAXI test - Hendo72
-R Bloodmyst Isle|ACTIVE|28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Exit The Exodar and follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run (just follow the road).|
-R Bloodmyst Isle|AVAILABLE|9625&28559|M|65.25,94.00|Z|Bloodmyst Isle|N|Follow the road north from The Exodar to Bloodmyst Isle.|
-T Elekks Are Serious Business|QID|9625|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
-T Hero's Call: Bloodmyst Isle!|QID|28559|M|63.04,87.90|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+R Bloodmyst Isle|ACTIVE|28559|M|65.25,94.00|Z|1950;Bloodmyst Isle|N|Exit The Exodar and follow the road north to Kessel's Crossing on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]It's a long run (just follow the road).|
+R Bloodmyst Isle|AVAILABLE|9625&28559|M|65.25,94.00|Z|1950;Bloodmyst Isle|N|Follow the road north from The Exodar to Bloodmyst Isle.|
+T Elekks Are Serious Business|QID|9625|M|63.04,87.90|Z|1950;Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+T Hero's Call: Bloodmyst Isle!|QID|28559|M|63.04,87.90|Z|1950;Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
 A Alien Predators|QID|9634|M|63.04,87.90|N|From Vorkhan the Elekk Herder.|
 A A Favorite Treat|QID|9624|M|63.43,88.79|N|From Aonar.|
 C Redemption|QID|9600|M|65.30,77.56|U|6866|C|Paladin|R|Draenei|
 A The Kessel Run.|QID|9663|M|62.99,87.52|N|From Kessel.\n[color=FF0000]NOTE: [/color]Please note this quest is timed (15 minutes).\nYou'll receive a one-time use mount that you can't resummon if you get dismounted. Avoid situations that could dismount you.\nIt is possible to do it without the elekk, it'll just take substantially longer.|
-C The Kessel Run|QID|9663|QO|1|M|46.68,20.63|Z|Azuremyst Isle|N|Warn High Chief Stillpine outside Stillpine Hold.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
-C The Kessel Run|QID|9663|QO|2|M|47.10,50.59|Z|Azuremyst Isle|N|Warn Exarch Menelaous in Azure Watch.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
-C The Kessel Run|QID|9663|QO|3|M|47.04,70.22|Z|Azuremyst Isle|N|Warn Admiral Odyseus at Odesyus' Landing.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
-T Redemption|QID|9600|M|38.39,82.52|Z|The Exodar|N|To Jol.\n[color=FF0000]NOTE: [/color]You won't lose your El|C|Paladin|R|Draenei|
+C The Kessel Run|QID|9663|QO|1|M|46.68,20.63|Z|1943;Azuremyst Isle|N|Warn High Chief Stillpine outside Stillpine Hold.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+C The Kessel Run|QID|9663|QO|2|M|47.10,50.59|Z|1943;Azuremyst Isle|N|Warn Exarch Menelaous in Azure Watch.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+C The Kessel Run|QID|9663|QO|3|M|47.04,70.22|Z|1943;Azuremyst Isle|N|Warn Admiral Odyseus at Odesyus' Landing.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
+T Redemption|QID|9600|M|38.39,82.52|Z|1947;The Exodar|N|To Jol.\n[color=FF0000]NOTE: [/color]You won't lose your El|C|Paladin|R|Draenei|
 T The Kessel Run|QID|9663|M|62.99,87.52|N|Return to Kessel at Kessel's Crossing.|
 A Declaration of Power|QID|9666|PRE|9663|M|62.99,87.52|N|From Kessel.|
 R Blood Watch|AVAILABLE|9646|M|54.20,62.39|N|Follow the road north.|
@@ -36,12 +36,12 @@ f Blood Watch|AVAILABLE|9648|M|57.68,53.87|N|Get the flight path from Laando.\n[
 T Beds, Bandages, and Beyond|QID|9603|M|57.68,53.87|N|To Laando (the Flight Master).|R|Draenei|
 A On the Wings of a Hippogryph|QID|9604|PRE|9603|M|57.68,53.87|N|From Laando.|R|Draenei|
 F The Exodar|ACTIVE|9604|M|57.68,53.87|N|Fly to The Exodar.|R|Draenei|
-T On the Wings of a Hippogryph|QID|9604|M|73.28,53.28;57.03,50.14|Z|The Exodar|CC|N|To Nurguni, standing by the table in front of the Trader's Tier.|R|Draenei|
-A Hippogryph Master Stephanos|QID|9605|PRE|9604|M|57.03,50.14|Z|The Exodar|N|From Nurguni.|R|Draenei|
+T On the Wings of a Hippogryph|QID|9604|M|73.28,53.28;57.03,50.14|CC|Z|1947;The Exodar|N|To Nurguni, standing by the table in front of the Trader's Tier.|R|Draenei|
+A Hippogryph Master Stephanos|QID|9605|PRE|9604|M|57.03,50.14|Z|1947;The Exodar|N|From Nurguni.|R|Draenei|
 N The Exodar|ACTIVE|9605|N|While you're here, you can visit your bank/AH or get supplies.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Draenei|
-T Hippogryph Master Stephanos|QID|9605|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|To Hippogryph Master Stephanos.|R|Draenei|
-A Return to Topher Loaal|QID|9606|PRE|9605|M|68.46,63.68|Z|The Exodar|N|From Stephanos.|R|Draenei|
-F Blood Watch|QID|9606|M|68.46,63.68|Z|The Exodar|N|Fly back to Blood Watch.|R|Draenei|
+T Hippogryph Master Stephanos|QID|9605|M|72.86,35.28;68.46,63.68|CC|Z|1947;The Exodar|N|To Hippogryph Master Stephanos.|R|Draenei|
+A Return to Topher Loaal|QID|9606|PRE|9605|M|68.46,63.68|Z|1947;The Exodar|N|From Stephanos.|R|Draenei|
+F Blood Watch|QID|9606|M|68.46,63.68|Z|1947;The Exodar|N|Fly back to Blood Watch.|R|Draenei|
 A Maatparm Mushroom Menagerie|QID|9648|M|56.42,56.83|N|From Maatparm.|
 T Return to Topher Loaal|QID|9606|M|55.84,59.80|N|To Caregiver Topher Loaal.|R|Draenei|
 l Irradiated Crystal Shards|AVAILABLE|9641|L|23984 10|N|These drop from 46 different mobs throughout Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]You only need 10 for the first turn-in. The quest becomes repeatable for a buff crystal in exchange for 10 shards at a time.|S!US|
@@ -91,7 +91,7 @@ T Blood Watch|QID|9694|M|55.43,55.27|N|To Vindicator Boros.|
 A Intercepting the Message|QID|9779|PRE|9694|M|55.43,55.27|N|From Vindicator Boros.|
 F The Exodar|AVAILABLE|9567|M|57.68,53.87|N|Fly to The Exodar to do your level 14 training.|LVL|14|
 = Level 14 Training|AVAILABLE|9567|M|PLAYER|CC|N|Do your level 14 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|
-F Blood Watch|AVAILABLE|9567|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
+F Blood Watch|AVAILABLE|9567|M|72.86,35.28;68.46,63.68|CC|Z|1947;The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
 A Know Thine Enemy|QID|9567|M|55.08,58.00|N|From Vindicator Aalesia.|
 C Victims of Corruption|QID|9574|AVAILABLE|-9694|M|49.20,44.80|L|23869 6|ITEM|23869|N|Corrupted Treants\nThey're found anywhere you see trees.|T|Corrupted Treant|S|
 K Tzerak|AVAILABLE|9594|M|38.41,82.02;36.49,71.36|CC|L|23900|N|Kill Tzerak to loot a quest starter.\nLook for the Felguard standing by the Monument in Nazzivian.\n[color=FF0000]NOTE: [/color]If you don't see him, grind on Satyrs until he spawns and walks up the path towards the Monument.|
@@ -120,10 +120,10 @@ A Translations...|QID|9696|PRE|9779|M|55.43,55.27|N|From Vindicator Boros.|
 T Translations...|QID|9696|M|54.43,54.45|N|To Interrogator Elysia.|
 A Audience with the Prophet|QID|9698|PRE|9696|M|54.43,54.45|N|From Interrogator Elysia.|
 F The Exodar|ACTIVE|9698|M|57.68,53.87|N|Fly to The Exodar.|
-T Audience with the Prophet|QID|9698|M|73.18,53.18;32.85,54.49|Z|The Exodar|CC|N|To Prophet Velen, on the upper tier inside the Vault of Lights.|
-A Truth or Fiction|QID|9699|PRE|9698|M|32.85,54.49|Z|The Exodar|N|To Prophet Velen.|
+T Audience with the Prophet|QID|9698|M|73.18,53.18;32.85,54.49|CC|Z|1947;The Exodar|N|To Prophet Velen, on the upper tier inside the Vault of Lights.|
+A Truth or Fiction|QID|9699|PRE|9698|M|32.85,54.49|Z|1947;The Exodar|N|To Prophet Velen.|
 N Training and banking|QID|9699|M|PLAYER|CC|N|While you're here, train your professions, visit bank, etc.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Draenei|
-F Blood Watch|QID|9699|M|68.51,63.61|Z|The Exodar|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|
+F Blood Watch|QID|9699|M|68.51,63.61|Z|1947;The Exodar|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|
 T Truth or Fiction|QID|9699|M|55.43,55.27|N|To Vindicator Boros.|
 A I Shoot Magic Into the Darkness|QID|9700|PRE|9699|M|55.43,55.27|N|From Vindicator Boros.|
 r Repair/Restock|QID|10063|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
@@ -162,7 +162,7 @@ A Nolkai's Words|QID|9561|PRE|9557|M|54.67,53.95|N|From Anchorite Paetheus.|
 T WANTED: Deathclaw|QID|9646|M|52.60,53.23|N|To Harbinger Mikolaas.|
 F The Exodar|AVAILABLE|9578|M|57.68,53.87|N|Fly to The Exodar to do your level 16 training.|LVL|16|
 = Level 16 Training|AVAILABLE|9578|M|PLAYER|CC|N|Do your level 16 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|16|
-F Blood Watch|AVAILABLE|9578|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
+F Blood Watch|AVAILABLE|9578|M|72.86,35.28;68.46,63.68|CC|Z|1947;The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
 A Searching for Galaen|QID|9578|M|53.25,57.75|N|From Morae.|
 K Culling the Flutterers|ACTIVE|9647|QO|1|M|41.92,50.30|N|Kill every Royal Blue Flutterer you see.|S|
 C The Cryo-Core|QID|9703|M|39.27,60.42|L|24236 12|ITEM|24236|N|Sunhawk Reclaimers at The Cryo-Core\nThey can also be picked up from the ground.|S|
@@ -199,7 +199,7 @@ T What We Don't Know...|QID|9756|M|52.68,53.21|N|To Exarch Admetius.|
 A Vindicator's Rest|QID|9760|PRE|9756|M|52.68,53.21|N|From Exarch Admetius.|
 F The Exodar|AVAILABLE|9669|M|57.68,53.87|N|Fly to The Exodar to do your level 18 training.|LVL|18|
 = Level 18 Training|AVAILABLE|9669|M|PLAYER|CC|N|Do your level 18 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|18|
-F Blood Watch|AVAILABLE|9669|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
+F Blood Watch|AVAILABLE|9669|M|72.86,35.28;68.46,63.68|CC|Z|1947;The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
 A The Missing Expedition|QID|9669|M|53.25,57.03|N|From Achelus.|
 C Matis the Cruel|QID|9711|M|41.47,44.77;22.18,53.59|CC|N|When you get into range, just use your flare gun, and the quest is easy. He pats along the road, you should see him somewhere near Vindicator's Rest.|T|Matis the Cruel|U|24278|
 T Vindicator's Rest|QID|9760|M|30.75,46.84|N|To Vindicator Corin.|
@@ -272,13 +272,13 @@ A Learn to Ride at the Exodar|QID|14082|M|PLAYER|CC|N|Click on the Riding Traini
 F The Exodar|ACTIVE|14082|M|57.68,53.87|N|Fly to The Exodar to do your level 20 training and learn your Riding skill.|R|Draenei|LVL|20|
 F The Exodar|AVAILABLE|9761&-14082|ACTIVE|-14082|M|57.68,53.87|N|Fly to The Exodar to do your level 20 training.|R|Draenei|LVL|20|
 F The Exodar|ACTIVE|9740|M|57.68,53.87|N|Fly to The Exodar to do your level 20 training.|R|-Draenei|LVL|20|
-T Learn to Ride at the Exodar|QID|14082|M|81.33,52.64|Z|The Exodar|N|To Aalun the Riding trainer, located down the ramp and on the other side of The Exodar entrance.\n[color=FF0000]NOTE: [/color]You'll need 4 gold for training and 1 gold for the mount.|R|Draenei|
-= Apprentice Riding|AVAILABLE|9740|M|81.33,52.64|Z|The Exodar|N|At Aalun the Riding trainer.|P|Riding;762;2+75;1|R|Draenei|IZ|The Exodar|
-B Riding Mount|AVAILABLE|9740|M|81.49,51.44|Z|The Exodar|N|Buy your mount from Torallius the Pack Handler, standing over by the Elekks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T Learn to Ride at the Exodar|QID|14082|M|81.33,52.64|Z|1947;The Exodar|N|To Aalun the Riding trainer, located down the ramp and on the other side of The Exodar entrance.\n[color=FF0000]NOTE: [/color]You'll need 4 gold for training and 1 gold for the mount.|R|Draenei|
+= Apprentice Riding|AVAILABLE|9740|M|81.33,52.64|Z|1947;The Exodar|N|At Aalun the Riding trainer.|P|Riding;762;2+75;1|R|Draenei|IZ|The Exodar|
+B Riding Mount|AVAILABLE|9740|M|81.49,51.44|Z|1947;The Exodar|N|Buy your mount from Torallius the Pack Handler, standing over by the Elekks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 = Level 20 Training|AVAILABLE|9740|M|PLAYER|CC|N|Do your level 20 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|20|IZ|The Exodar|
 N Non-Draenei races|AVAILABLE|9740|N|Non-Draenei only have one more quest available on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]If you're not interested, skip this step and move on to the next guide.|R|-Draenei|
-F Blood Watch|AVAILABLE|9740|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.|R|Draenei|
-F Blood Watch|AVAILABLE|9740|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Skip this step if you're not doing the last quest.|R|-Draenei|
+F Blood Watch|AVAILABLE|9740|M|72.86,35.28;68.46,63.68|CC|Z|1947;The Exodar|N|Fly back to Blood Watch.|R|Draenei|
+F Blood Watch|AVAILABLE|9740|M|72.86,35.28;68.46,63.68|CC|Z|1947;The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Skip this step if you're not doing the last quest.|R|-Draenei|
 A The Sun Gate|QID|9740|PRE|9746|M|55.56,55.37|N|From Vindicator Aesom.|IZ|Blood Watch|
 A Clearing the Way|QID|9761|PRE|9760|M|30.75,46.80|N|From Vindicator Corin.|R|Draenei|
 A Ending Their World|QID|9759|PRE|9753|M|30.83,46.65|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Demolitionist Legoso.|R|Draenei|
@@ -295,11 +295,11 @@ T Ending Their World|QID|9759|M|52.68,53.21|N|To Exarch Admetius.|R|Draenei|
 A The Unwritten Prophecy|QID|9762|PRE|9759|M|54.02,55.47|N|From Prophet Velen.\n[color=FF0000]NOTE: [/color]If Prophet Velen despawns before you accept the quest, you can get it from him in The Exodar.|R|Draenei|
 A Newfound Allies|QID|9632|M|54.67,53.95|N|From Anchorite Paetheus.\n[color=FF0000]NOTE: [/color]Darkshore breadcrumb|
 F The Exodar|ACTIVE|9632|M|57.68,53.89|N|Fly to The Exodar.|
-T Newfound Allies|QID|9632|M|24.18,54.33|Z|Azuremyst Isle|N|To Huntress Kella Nightbow.|
-A The Way to Auberdine|QID|9633|M|24.18,54.33|Z|Azuremyst Isle|N|From Huntress Kella Nightbow.|
-b Darkshore|AVAILABLE|65|M|20.22,54.22|Z|Azuremyst Isle|N|Take the boat at the end of the docks to Auberdine|
-T The Way to Auberdine|QID|9633|M|37.39,40.13|Z|Darkshore|N|To Thundris Windweaver.|
-b Stormwind City|AVAILABLE|65|M|32.38,43.87|Z|Darkshore|N|Take the boat to Stormwind (read the sign post).|
-f Stormwind|AVAILABLE|65|M|70.99,72.55|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Stormwind|
+T Newfound Allies|QID|9632|M|24.18,54.33|Z|1943;Azuremyst Isle|N|To Huntress Kella Nightbow.|
+A The Way to Auberdine|QID|9633|M|24.18,54.33|Z|1943;Azuremyst Isle|N|From Huntress Kella Nightbow.|
+b Darkshore|AVAILABLE|65|M|20.22,54.22|Z|1943;Azuremyst Isle|N|Take the boat at the end of the docks to Auberdine|
+T The Way to Auberdine|QID|9633|M|37.39,40.13|Z|1439;Darkshore|N|To Thundris Windweaver.|
+b Stormwind City|AVAILABLE|65|M|32.38,43.87|Z|1439;Darkshore|N|Take the boat to Stormwind (read the sign post).|
+f Stormwind|AVAILABLE|65|M|70.99,72.55|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Stormwind|
 ]]
 end)
