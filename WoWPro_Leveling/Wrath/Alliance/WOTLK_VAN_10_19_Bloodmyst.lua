@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "WowPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Bloodmyst Isle")
 WoWPro:GuideName(guide, "Bloodmyst Isle")
-WoWPro:GuideNextGuide(guide, "BosRed2021")
+WoWPro:GuideNextGuide(guide, "WOTLK_Alliance1925")
 WoWPro:GuideLevels(guide, 12, 20)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -194,7 +194,7 @@ A What We Know...|QID|9753|M|55.57,55.38|N|From Vindicator Aesom.|LVL|18|
 T The Final Sample|QID|9585|M|52.60,53.23|N|To Harbinger Mikolaas.|
 T What We Know...|QID|9753|M|52.68,53.21|N|To Exarch Admetius.|
 A What We Don't Know...|QID|9756|PRE|9753|M|52.68,53.21|N|From Exarch Admetius.|
-C What We Don't Know...|QID|9756|M|54.4,54.3|N|{COORDS}Talk to the prisoner.|
+C What We Don't Know...|QID|9756|M|54.41,54.29|N|Talk to the prisoner.\n[color=FF0000]NOTE: [/color]You don't have to open the door to do it.|CHAT|
 T What We Don't Know...|QID|9756|M|52.68,53.21|N|To Exarch Admetius.|
 A Vindicator's Rest|QID|9760|PRE|9756|M|52.68,53.21|N|From Exarch Admetius.|
 F The Exodar|AVAILABLE|9669|M|57.68,53.87|N|Fly to The Exodar to do your level 18 training.|LVL|18|
@@ -202,90 +202,104 @@ F The Exodar|AVAILABLE|9669|M|57.68,53.87|N|Fly to The Exodar to do your level 1
 F Blood Watch|AVAILABLE|9669|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Do not use your Hearth as you are going to need it shortly.|
 A The Missing Expedition|QID|9669|M|53.25,57.03|N|From Achelus.|
 C Matis the Cruel|QID|9711|M|41.47,44.77;22.18,53.59|CC|N|When you get into range, just use your flare gun, and the quest is easy. He pats along the road, you should see him somewhere near Vindicator's Rest.|T|Matis the Cruel|U|24278|
-T Vindicator's Rest|QID|9760|M|30.6,46.6|N|{COORDS}To Vindicator Corin.|
-A Fouled Water Spirits|QID|10067|M|30.6,46.6|N|{COORDS}From Vindicator Corin.|
-A Oh, the Tangled Webs They Weave|QID|10066|M|30.6,46.6|N|{COORDS}From Vindicator Corin.|
+T Vindicator's Rest|QID|9760|M|30.75,46.84|N|To Vindicator Corin.|
+A Fouled Water Spirits|QID|10067|M|30.75,46.84|N|From Vindicator Corin.|
+A Oh, the Tangled Webs They Weave|QID|10066|M|30.75,46.84|N|From Vindicator Corin.|
 T Talk to the Hand|QID|10064|M|30.27,45.94|N|To Scout Joril.|
 A Cutting a Path|QID|10065|M|30.28,45.88|N|From Scout Joril.|
-A Critters of the Void|QID|9741|M|30.28,45.88|N|From Scout Loryi.|
-K Cutting a Path|QID|10065|M|31.25,56.68|N|Kill 10 Enraged Ravagers.|S|
-C Oh, the Tangled Webs They Weave|QID|10066|M|31.25,56.68|N|Kill 8 Mutated Tanglers.|
-K Cutting a Path|QID|10065|M|31.25,56.68|N|Kill 10 Enraged Ravagers.|US|
-K Limits of Physical Exhaustion|QID|9746|M|26.44,52.54|N|Kill Sunhawk Pyromancers and Defenders.|S|
-C Critters of the Void|QID|9741|M|18.70,63.61|N|Kill 12 Void Critters. They are small and can be hard to target sometimes.|
-K Limits of Physical Exhaustion|QID|9746|M|26.44,52.54|N|Finish killing Sunhawk Pyromancers and Defenders.|US|
-A They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|{COORDS}From Researcher Cornelius.|
-K Fouled Water Spirits|QID|10067|M|28.92,36.47|N|Kill 6 Fouled Water Spirits.|S|
-C They're Alive! Maybe...|QID|9670|M|22,36|N|Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|S|
-K The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|N|Kill Zarakh.|T|Zarakh|S|
-C The Missing Expedition|QID|9669|QO|1;2|M|21.81,36.49|N|Kill spiders.|
-K The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|N|Kill Zarakh.|T|Zarakh|US|
-C They're Alive! Maybe...|QID|9670|M|22,36|N|{COORDS}Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|US|
-T They're Alive! Maybe...|QID|9670|M|24.9,34.3|N|{COORDS}To Researcher Cornelius.|
-K Fouled Water Spirits|QID|10067|M|28.92,36.47|N|Kill 6 Fouled Water Spirits.|US|
+A Critters of the Void|QID|9741|M|30.24,45.87|N|From Scout Loryi.|
+K Cutting a Path|ACTIVE|10065|QO|1|M|31.25,56.68|N|Kill Enraged Ravagers.|S|
+K Oh, the Tangled Webs They Weave|ACTIVE|10066|QO|1|M|31.25,56.68|N|Kill Mutated Tanglers.|
+K Cutting a Path|ACTIVE|10065|QO|1|M|31.25,56.68|N|Kill 10 Enraged Ravagers.|US|
+K Limits of Physical Exhaustion|ACTIVE|9746|QO|1;2|M|26.44,52.54|N|Kill Sunhawk Pyromancers and Defenders.|S|
+C Critters of the Void|QID|9741|M|18.70,63.61|N|Kill Void Critters.\n[color=FF0000]NOTE: [/color]They are small and can be hard to target sometimes.|T|Void Critter|
+K Limits of Physical Exhaustion|ACTIVE|9746|QO|1;2|M|25.59,51.72|N|Kill Sunhawk Pyromancers and Defenders.|US|
+C The Missing Expedition|QID|9669|QO|1;2|M|21.81,36.49|N|Kill spiders.\n[color=FF0000]NOTE: [/color]Be aware, Leech Poison can drain you pretty quick.|S|
+K Fouled Water Spirits|ACTIVE|10067|QO|1|M|28.92,36.47|N|Kill Fouled Water Spirits.|S|
+A They're Alive! Maybe...|QID|9670|M|24.88,34.35|N|From Researcher Cornelius.|
+C They're Alive! Maybe...|QID|9670|M|20.98,35.26|N|Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|S|
+K The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|N|Locate Zarakh at the top of the hill and kill her.\n[color=FF0000]NOTE: [/color]Clear the area first and do it quick before they start to respawn.|T|Zarakh|
+C The Missing Expedition|QID|9669|QO|1;2|M|21.81,36.49|N|Kill spiders.|US|
+C They're Alive! Maybe...|QID|9670|M|20.98,35.26|N|{COORDS}Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|US|
+T They're Alive! Maybe...|QID|9670|M|24.88,34.35|N|To Researcher Cornelius.|
+K Fouled Water Spirits|ACTIVE|10067|QO|1|M|28.92,36.47|N|Kill Fouled Water Spirits.|US|
 T Cutting a Path|QID|10065|M|30.28,45.88|N|To Scout Joril.|
 T Fouled Water Spirits|QID|10067|M|30.74,46.83|N|To Vindicator Corin.|
 T Oh, the Tangled Webs They Weave|QID|10066|M|30.74,46.83|N|To Vindicator Corin.|
 H Blood Watch|QID|9711|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
-T Matis the Cruel|QID|9711|M|55.61,55.14|N|To Vindicator Kuros.|
-T Limits of Physical Exhaustion|QID|9746|M|55.56,55.37|N|To Vindicator Aesom.|
-A The Sun Gate|QID|9740|PRE|9746|M|55.56,55.37|N|From Vindicator Aesom.|
+T Matis the Cruel|QID|9711|M|55.63,55.23|N|To Vindicator Kuros.|
+T Limits of Physical Exhaustion|QID|9746|M|55.56,55.37|N|To Vindicator Aesom.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up yet.|
 T Critters of the Void|QID|9741|M|55.56,55.37|N|To Vindicator Aesom.|
 T The Missing Expedition|QID|9669|M|53.25,57.02|N|To Achelus.|
-;N Train your skills|QID|9671|N|Train skills, then restock on food/water, etc.|
-A Urgent Delivery|QID|9671|PRE|9506|N|From Messenger Hermesius.\n[color=FF0000]NOTE: [/color]He pats all around Blood Watch.|
-;At the time of this run through, the quest is bugged on BCC. The mail doesnt have a quest item in it.
-C Check your mailbox|QID|9561|M|55.18,59.19|L|24132|N|Urgent Delivery results in a mail sent to your mailbox.\n[color=FF0000]NOTE: [/color]This step will close automatically when you retrieve the letter.|NC|
-A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|N|From A Letter from the Admiral.|U|24132|O|
+r Repair/Restock|AVAILABLE|9671|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
+A Urgent Delivery|QID|9671|PRE|9506|N|From Messenger Hermesius.\n[color=FF0000]NOTE: [/color]He pats all around Blood Watch.|T|Messenger Hermesius|
+N Check your mailbox|QID|9561|M|55.18,59.19|L|24132|N|Urgent Delivery results in a mail sent to your mailbox.\n[color=FF0000]NOTE: [/color]This step will close automatically when you retrieve the letter.|
+A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|M|PLAYER|CC|N|From A Letter from the Admiral.|U|24132|O|
 A Ysera's Tears|QID|9649|PRE|9648|M|56.42,56.83|N|From Maatparm.|
-T Nolkai's Words|QID|9561|M|61.11,49.62|N|It's a pile of dirt.|
-A Restoring Sanctity|QID|9687|M|74.46,33.66|N|From Prince Toreth.\n[color=FF0000]NOTE: [/color]He pats around the area.|
+T Nolkai's Words|QID|9561|M|61.17,49.64|N|To the Mound of Dirt in the Ruins of Loreth'Aran.|
+R Wyrmscar Island|AVAILABLE|9687|M|69.70,32.25|N|Swim across to the big island north of you.|
+A Restoring Sanctity|QID|9687|M|74.46,33.66|N|From Prince Toreth.\n[color=FF0000]NOTE: [/color]He pats around the area.|T|Prince Toreth|
 T The Bloodcurse Legacy|QID|9672^9751|M|79.14,22.66|N|To Captain Edward Hanes.|
 A The Bloodcursed Naga|QID|9674|PRE|9672^9751|M|79.14,22.66|N|From Captain Edward Hanes.|
-C The Bloodcursed Naga|QID|9674|M|81.33,21.06|N|Head into the water and kill Naga.|
+K The Bloodcursed Naga|ACTIVE|9674|QO|1|M|81.33,21.06|N|Head into the water and kill Naga.|
 T The Bloodcursed Naga|QID|9674|M|79.14,22.66|N|To Captain Edward Hanes.|
 A The Hopeless Ones...|QID|9682|PRE|9674|M|79.14,22.66|N|From Captain Edward Hanes.|
-C The Hopeless Ones...|QID|9682|M|83,22;87.2,18.5|CN|N|{COORDS}Kill and loot Bloodcursed Voyagers in and around the submerged ships, until you have 4 Bloodcursed Souls.|
-N The Captain's Kiss Buff|QID|9682|M|79,22|N|The swim speed and water breathing buff is really useful for another quest. Go back to Captain Edward Hanes, but don't turn in the quest. Ask him to renew the buff on you.|
-C Ysera's Tears|QID|9649|M|74.55,13.69|N|Loot the green glowing mushrooms from the ground.|S|
-C Restoring Sanctity|QID|9687|M|60.05,35.47;58.09,29.47|CN|N|Loot the bones. They are around where the small Wildkin camps are.|
-T Restoring Sanctity|QID|9687|M|73.75,33.73|N|To Prince Toreth.|
-A Into the Dream|QID|9688|PRE|9687|M|73.75,33.73|N|From Prince Toreth.|
-C Into the Dream|QID|9688|M|72.6,27.78|N|Kill Veridian Whelps and Broodlings. They are all over the island.|
-T Into the Dream|QID|9688|M|73.75,33.73|N|To Prince Toreth.|
-A Razormaw|QID|9689|PRE|9688|M|73.75,33.73|N|From Prince Toreth.|LVL|19
-C Razormaw|QID|9689|M|72,20|N|Move to the top of the hill. Clear the whelplings, and get ready for a fight.|U|24221|
-C Ysera's Tears|QID|9649|M|74.55,13.69|N|Loot the green glowing mushrooms from the ground.|US|
-T The Hopeless Ones...|QID|9682|M|79.14,22.66|N|To Captain Edward Hanes. Before turning in, refresh your buff again.|
+C The Hopeless Ones...|QID|9682|M|86.59,16.19|L|24153 4|ITEM|24153|N|Bloodcursed Voyagers in and around the submerged ships.|T|Bloodcursed Voyager|
+N The Captain's Kiss Buff|ACTIVE|9682|M|79.14,22.66|N|[color=FF0000]** DO NOT turn in the quest **[/color]\nThe swim speed and water breathing buff is really useful for another quest.\nGo back to Captain Edward Hanes and ask him to renew the buff on you.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Ysera's Tears|QID|9649|M|74.55,13.69|L|24049 2|N|Loot the green glowing mushrooms from the ground.|S|
+C Restoring Sanctity|QID|9687|M|60.05,35.47;58.09,29.47|CN|L|24185 8|N|They are on the ground around Ragefeather Ridge.|
+T Restoring Sanctity|QID|9687|M|74.46,33.66|N|To Prince Toreth.|T|Prince Toreth|
+A Into the Dream|QID|9688|PRE|9687|M|74.46,33.66|N|From Prince Toreth.|
+K Into the Dream|QID|9688|M|72.6,27.78|QO|1;2|N|Kill Veridian Whelps and Broodlings.\n[color=FF0000]NOTE: [/color]They are all over the island.|
+L Level 19|ACTIVE|9688|N|Grind until you're within 1.5 bubbles of level 19.|LVL|18;-1450|
+T Into the Dream|QID|9688|M|74.46,33.66|N|To Prince Toreth.|
+A Razormaw|QID|9689|PRE|9688|M|74.46,33.66|ELITE|N|[color=00FFFF]Group of 2 suggested or level up to solo[/color]\nFrom Prince Toreth.|LVL|19|
+N Bundle of Dragon Bones|ACTIVE|9689|M|74.46,33.66|L|24221|N|Abandon the Razormaw quest and retake it.\n[color=FF0000]NOTE: [/color]It's the only way to get more, unless someone in your group has one.|
+R Talon Stand|ACTIVE|9689|M|74.03,19.30|N|Make your way to the top of the hill.|
+K Razormaw|ACTIVE|9689|M|72.65,20.72|QO|1|N|After clearing the Whelps/Broodlings, when ready, use the Bundle of Dragon Bones at the Ever-burning Pyre to summon Razormaw.\nThere is a slight delay after summoning him.\n[color=FF0000]NOTE: [/color]If you die, you'll have to go back to Prince Toreth to get another Bundle of Dragon Bones.|U|24221|
+C Ysera's Tears|QID|9649|M|74.55,13.69|L|24049 2|N|Loot the green glowing mushrooms from the ground.|US|
+T The Hopeless Ones|QID|9682|M|79.14,22.66|N|To Captain Edward Hanes.\n[color=FF0000]NOTE: [/color]Before turning in, refresh your buff again.\nThis step will not auto turnin the quest.| ; ** Auto-complete broken so they can renew their buff first - Hendo72
 A Ending the Bloodcurse|QID|9683|PRE|9682|M|79.14,22.66|N|From Captain Edward Hanes.|
-T Razormaw|QID|9689|M|73.7,33.7|N|{COORDS}To Prince Toreth.|
-C Ending the Bloodcurse|QID|9683|M|85,54|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|
+T Razormaw|QID|9689|M|74.46,33.66|N|To Prince Toreth.|T|Prince Toreth|
+K Ending the Bloodcurse|QID|9683|QO|1|M|85.96,54.31|N|After clearing the area, click on the Statue of Queen Azshara to summon kill Atoph the Bloodcursed and kill him.\n[color=FF0000]NOTE: [/color]Try and face away from the statue when you click on it because he will spawn behind you.|
+L Level 20|ACTIVE|9683|N|Grind until you're within 3 bubbles of level 20.|LVL|19;-2800|
 T Ending the Bloodcurse|QID|9683|M|79.14,22.66|N|To Captain Edward Hanes.|
 H Blood Watch|QID|9649|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
 T Ysera's Tears|QID|9649|M|56.42,56.83|N|To Maatparm.|
-r Repair/Restock|QID|9740|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
-N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|-Draenei|
-;F The Exodar|QID|9740|M|57.68,53.89|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|
-;N Get your Mount|QID|9740|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|R|Draenei|
-F Blood Watch|QID|9740|N|Fly back to Blood Watch. Skip if you're already there.|Z|The Exodar|M|54.46,36.4|R|Draenei|
-A Clearing the Way|QID|9761|PRE|9760|M|30.75,46.80|N|From Vindicator Corin.|LVL|18|
-A Ending Their World|QID|9759|PRE|9753|M|30.75,46.80|N|From Demolitionist Legoso.|
-K Clearing the Way|QID|9761|M|19.8,52.6|N|{COORDS}Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the work. Make sure you do 50%+ dmg to the quest mobs, so you get credit.|S|
-C Ending Their World|QID|9759|M|19,52|N|Follow Legoso, he will stop in 2 places to plant explosives. Then you will have to kill Sironas.|
-K Clearing the Way|QID|9761|M|19.8,52.6|N|{COORDS}Finish killing Sunhawk Agents and Saboteurs.|US|
-C The Sun Gate|QID|9740|M|18.95,63.5|N|To the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate.|
-T Clearing the Way|QID|9761|M|30.75,46.80|N|To Vindicator Corin.|
-H Blood Watch|QID|9740|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
+r Repair/Restock|AVAILABLE|9740|M|53.32,56.67|N|Repair/Sell Junk at Beega.|IZ|Blood Watch|
+N Mailbox|AVAILABLE|14082|M|55.18,59.19|L|46879|N|Go to the mailbox, open the letter from Aalun and collect the Riding Training Pamphlet.|R|Draenei|
+A Learn to Ride at the Exodar|QID|14082|M|PLAYER|CC|N|Click on the Riding Training Pamphlet you got in the mail from Aalun to start the quest.|U|46879|R|Draenei|
+F The Exodar|ACTIVE|14082|M|57.68,53.87|N|Fly to The Exodar to do your level 20 training and learn your Riding skill.|R|Draenei|LVL|20|
+F The Exodar|AVAILABLE|9761&-14082|ACTIVE|-14082|M|57.68,53.87|N|Fly to The Exodar to do your level 20 training.|R|Draenei|LVL|20|
+F The Exodar|ACTIVE|9740|M|57.68,53.87|N|Fly to The Exodar to do your level 20 training.|R|-Draenei|LVL|20|
+T Learn to Ride at the Exodar|QID|14082|M|81.33,52.64|Z|The Exodar|N|To Aalun the Riding trainer, located down the ramp and on the other side of The Exodar entrance.\n[color=FF0000]NOTE: [/color]You'll need 4 gold for training and 1 gold for the mount.|R|Draenei|
+= Apprentice Riding|AVAILABLE|9740|M|81.33,52.64|Z|The Exodar|N|At Aalun the Riding trainer.|P|Riding;762;2+75;1|R|Draenei|IZ|The Exodar|
+B Riding Mount|AVAILABLE|9740|M|81.49,51.44|Z|The Exodar|N|Buy your mount from Torallius the Pack Handler, standing over by the Elekks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= Level 20 Training|AVAILABLE|9740|M|PLAYER|CC|N|Do your level 20 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|20|IZ|The Exodar|
+N Non-Draenei races|AVAILABLE|9740|N|Non-Draenei only have one more quest available on Bloodmyst Isle.\n[color=FF0000]NOTE: [/color]If you're not interested, skip this step and move on to the next guide.|R|-Draenei|
+F Blood Watch|AVAILABLE|9740|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.|R|Draenei|
+F Blood Watch|AVAILABLE|9740|M|72.86,35.28;68.46,63.68|CC|Z|The Exodar|N|Fly back to Blood Watch.\n[color=FF0000]NOTE: [/color]Skip this step if you're not doing the last quest.|R|-Draenei|
+A The Sun Gate|QID|9740|PRE|9746|M|55.56,55.37|N|From Vindicator Aesom.|IZ|Blood Watch|
+A Clearing the Way|QID|9761|PRE|9760|M|30.75,46.80|N|From Vindicator Corin.|R|Draenei|
+A Ending Their World|QID|9759|PRE|9753|M|30.83,46.65|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Demolitionist Legoso.|R|Draenei|
+K Clearing the Way|ACTIVE|9761|QO|1;2|M|19.80,52.60|N|Kill Sunhawk Agents and Saboteurs.\n[color=FF0000]NOTE: [/color]Let the Legoso do most of the work; making sure you do 50%+ dmg to the quest mobs, so you get credit.|R|Draenei|S|
+A Ending Their World|QID|9759|PRE|9753|M|30.83,46.65|N|[color=CC00FF]QUEST FAILED[/color]\nReturn to Demolitionist Legoso to restart.|R|Draenei|FAIL|
+C Ending Their World|QID|9759|M|17.85,55.05;15.53,53.17;14.87,54.89|CC|N|Follow Legoso as he stops twice to plant explosives and help attack Sironas after the explosives go off.|R|Draenei|
+K Clearing the Way|ACTIVE|9761|QO|1;2|M|19.80,52.60|N|Kill Sunhawk Agents and Saboteurs.\n[color=FF0000]NOTE: [/color]Legoso will despawn after killing Sironas leaving you on your own to finish up.|R|Draenei|US|
+C The Sun Gate|QID|9740|M|19.53,62.67;18.90,63.68|CC|N|Make your way to the Sun Gate and after clicking the 4 Sunhawk Portal Controllers and destroying them, click the Sun Gate to destroy it.|NC|
+T Clearing the Way|QID|9761|M|30.75,46.80|N|To Vindicator Corin.|R|Draenei|
+H Blood Watch|ACTIVE|9740|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
 T The Sun Gate|QID|9740|M|55.54,55.42|N|To Vindicator Aesom.|
-T Ending Their World|QID|9759|M|52.68,53.21|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|
-A The Unwritten Prophecy|QID|9762|PRE|9759|M|54.02,55.47|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, To The Exodar to get the quest.|R|Draenei|
-A Newfound Allies|QID|9632|M|54.67,53.95|N|From Anchorite Paetheus.|
-F The Exodar|QID|9632|M|57.68,53.89|N|Fly to The Exodar.|
-;A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|Z|The Exodar|N|From the Hero's Call Board. Will not show up if your level is too high.|
+N Ending Their World|ACTIVE|9759|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T Ending Their World|QID|9759|M|52.68,53.21|N|To Exarch Admetius.|R|Draenei|
+A The Unwritten Prophecy|QID|9762|PRE|9759|M|54.02,55.47|N|From Prophet Velen.\n[color=FF0000]NOTE: [/color]If Prophet Velen despawns before you accept the quest, you can get it from him in The Exodar.|R|Draenei|
+A Newfound Allies|QID|9632|M|54.67,53.95|N|From Anchorite Paetheus.\n[color=FF0000]NOTE: [/color]Darkshore breadcrumb|
+F The Exodar|ACTIVE|9632|M|57.68,53.89|N|Fly to The Exodar.|
+T Newfound Allies|QID|9632|M|24.18,54.33|Z|Azuremyst Isle|N|To Huntress Kella Nightbow.|
 A The Way to Auberdine|QID|9633|M|24.18,54.33|Z|Azuremyst Isle|N|From Huntress Kella Nightbow.|
-b Darkshore|AVAILABLE|65|M|20.10,54.15|Z|Azuremyst Isle|N|Take the boat at the end of the docks to Auberdine|
-T The Way to Auberdine|QID|9633|M|37.40,40.15|Z|Darkshore|N|To Thundris Windweaver.|
-b Stormwind City|AVAILABLE|65|M|32.42,43.74|Z|Darkshore|N|Get on the boat to Stormwind (read the sign post).|
-f Stormwind|AVAILABLE|65|M|70.99,72.55|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+b Darkshore|AVAILABLE|65|M|20.22,54.22|Z|Azuremyst Isle|N|Take the boat at the end of the docks to Auberdine|
+T The Way to Auberdine|QID|9633|M|37.39,40.13|Z|Darkshore|N|To Thundris Windweaver.|
+b Stormwind City|AVAILABLE|65|M|32.38,43.87|Z|Darkshore|N|Take the boat to Stormwind (read the sign post).|
+f Stormwind|AVAILABLE|65|M|70.99,72.55|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Stormwind|
 ]]
 end)
