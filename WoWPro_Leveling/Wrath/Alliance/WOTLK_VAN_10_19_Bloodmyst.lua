@@ -237,7 +237,7 @@ N Check your mailbox|QID|9561|M|55.18,59.19|L|24132|N|Urgent Delivery results in
 A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|M|PLAYER|CC|N|From A Letter from the Admiral.|U|24132|O|
 A Ysera's Tears|QID|9649|PRE|9648|M|56.42,56.83|N|From Maatparm.|
 T Nolkai's Words|QID|9561|M|61.17,49.64|N|To the Mound of Dirt in the Ruins of Loreth'Aran.|
-U Nolkai's Box|ACTIVE|-9561|AVAILABLE|-9561|M|PLAYER|CC|N|Open Nolkai's Box that you were just rewarded with.|U|23486|
+U Nolkai's Box|ACTIVE|-9561|AVAILABLE|-9561|M|PLAYER|CC|N|Open Nolkai's Box that you were just rewarded with.|U|23486|O|
 * Nolai's Band|ACTIVE|-9561|AVAILABLE|-9561|M|PLAYER|CC|N|2 of the 3 items may be of use to you; the ring is not. You can neither wear nor sell it.|U|23847|
 R Wyrmscar Island|AVAILABLE|9687|M|69.70,32.25|N|Swim across to the big island north of you.|
 A Restoring Sanctity|QID|9687|M|74.46,33.66|N|From Prince Toreth.\n[color=FF0000]NOTE: [/color]He pats around the area.|T|Prince Toreth|
