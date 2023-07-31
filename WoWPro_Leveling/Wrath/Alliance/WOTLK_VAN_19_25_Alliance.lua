@@ -31,7 +31,7 @@ H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|
 ; **
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|TZ|Stormwind|C|-Druid|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429;Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
-R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|1429;Elwynn Forest|N|Follow the road east to Redridge Mountains.|
+R Redridge Mountains|AVAILABLE|244|M|7.76,71.62|Z|1433;Redridge Mountains|N|Follow the road east to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433;Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
 T Encroaching Gnolls|QID|244|M|30.74,59.99|Z|1433;Redridge Mountains|N|To Deputy Feldon.|
 f Lakeshire|AVAILABLE|125|M|30.60,59.40|Z|1433;Redridge Mountains|N|Get the flight path from Ariena Stormfeather.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
