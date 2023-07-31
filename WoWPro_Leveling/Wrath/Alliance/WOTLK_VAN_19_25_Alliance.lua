@@ -32,39 +32,39 @@ H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|TZ|Stormwind|C|-Druid|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429;Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|7.76,71.62|Z|1433;Redridge Mountains|N|Follow the road east to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433;Redridge Mountains|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
+A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433;Redridge Mountains|N|From Guard Parker.\n[color=FF0000]NOTE: [/color]If he's not standing there, he's pathing around the 'triangle'.|T|Guard Parker|
 T Encroaching Gnolls|QID|244|M|30.74,59.99|Z|1433;Redridge Mountains|N|To Deputy Feldon.|
 f Lakeshire|AVAILABLE|125|M|30.60,59.40|Z|1433;Redridge Mountains|N|Get the flight path from Ariena Stormfeather.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 A The Lost Tools|QID|125|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
-T The Defias Brotherhood|QID|65|M|26.5,45.3|Z|1433;Redridge Mountains|N|To Wiley the Black upstairs at the Inn.|
-A The Defias Brotherhood|QID|132|PRE|65|M|26.5,45.3|Z|1433;Redridge Mountains|N|From Wiley the Black.|
-A Hilary's Necklace|QID|3741|M|29.3,53.6|Z|1433;Redridge Mountains|N|From Shawn, at the end of the dock.|
-C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|Z|1433;Redridge Mountains|L|10958|N|Loot the necklace from the Glinting Mud at the bottom of the water.|
-C The Lost Tools|QID|125|M|41.60,54.70|Z|1433;Redridge Mountains|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
-T The Lost Tools|QID|125|M|32.1,48.6|Z|1433;Redridge Mountains|N|coords To Foreman Oslow.|
+T The Defias Brotherhood|QID|65|M|26.48,45.34|Z|1433;Redridge Mountains|N|To Wiley the Black upstairs at the Inn.|
+A The Defias Brotherhood|QID|132|PRE|65|M|26.48,45.34|Z|1433;Redridge Mountains|N|From Wiley the Black.|
+A Hilary's Necklace|QID|3741|M|29.32,53.64|Z|1433;Redridge Mountains|N|From Shawn, at the end of the dock.|
+C The Lost Tools|QID|125|M|41.60,54.70|Z|1433;Redridge Mountains|L|1309|N|Oslow's Tool box is located inside the Sunken Chest at the bottom of the lake.|
+C Hilary's Necklace|QID|3741|M|18.95,51.68;37.76,54.45|CN|Z|1433;Redridge Mountains|L|10958|N|Loot the necklace from the Glinting Mud at the bottom of the water.\n[color=FF0000]NOTE: [/color]It spawns in 11 different locations between the two waypoints.|
+T The Lost Tools|QID|125|M|32.14,48.64|Z|1433;Redridge Mountains|N|To Foreman Oslow.|
 T Hilary's Necklace|QID|3741|M|29.24,53.62|Z|1433;Redridge Mountains|N|To Hilary.|
 F Sentinel Hill|ACTIVE|132|M|30.59,59.41|Z|1433;Redridge Mountains|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
-T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|1436;Westfall|N|To Gryan Stoutmantle.|
-A The Defias Brotherhood|QID|135|PRE|132|M|56.3,47.5|Z|1436;Westfall|N|From Gryan Stoutmantle.|
+T The Defias Brotherhood|QID|132|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
+A The Defias Brotherhood|QID|135|PRE|132|M|56.33,47.52|Z|1436;Westfall|N|From Gryan Stoutmantle.|
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436;Westfall|N|On to Stormwind City.|TZ|Stormwind|
-T The Defias Brotherhood|QID|135|M|78.38,70.77|Z|1453;Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|PRE|135|M|78.38,70.77|Z|1453;Stormwind City|N|From Master Mathias Shaw.|
+T The Defias Brotherhood|QID|135|M|78.31,70.73|Z|1453;Stormwind City|N|To Master Mathias Shaw on the 2nd floor of SI:7 in Old Town.|
+A The Defias Brotherhood|QID|141|PRE|135|M|78.31,70.73|Z|1453;Stormwind City|N|From Master Mathias Shaw.|
 F Sentinel Hill|ACTIVE|141|M|71.00,72.50|Z|1453;Stormwind City|N|Fly or Hearth to Westfall|U|6948|
 
 ; Westfall 18-20
-T The Defias Brotherhood|QID|141|M|56.3,47.5|Z|1436;Westfall|N|To Gryan Stoutmantle.|
-A The Defias Brotherhood|QID|142|PRE|141|M|56.3,47.5|Z|1436;Westfall|N|From Gryan Stoutmantle|
+T The Defias Brotherhood|QID|141|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
+A The Defias Brotherhood|QID|142|PRE|141|M|56.33,47.52|Z|1436;Westfall|N|From Gryan Stoutmantle|
 A The People's Militia |QID|13|PRE|12|M|56.33,47.52|Z|1436;Westfall|N|From Gryan Stoutmantle.|
 h Sentinel Hill|ACTIVE|13|M|52.86,53.71|Z|1436;Westfall|N|At Innkeeper Heather.|C|Druid|
 C The Defias Brotherhood|ACTIVE|142|M|45.59,64.99|Z|1436;Westfall|L|1381|N|Whenever near the road lookout for a neutral Male NPC called Defias Messenger to kill and loot for a quest item |T|Defias Messenger|S|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|1436;Westfall|L|2998|N|Loot the Compass from the chest at this location.|
 l Hops|ACTIVE|116|M|44.40,38.87|Z|1436;Westfall|L|1274 5|N|Finish collecting the hops from the Harvesters at any of the farms in Westfall|
-l Flasks of Oil|QID|103|M|44.40,38.87|Z|1436;Westfall|L|814 5|N|Finish collecting the Flasks of Oil from the Harvesters at any of the farms in Westfall|
+l Flasks of Oil|AVAILABLE|103|M|38.53,52.46;44.40,38.87|CN|Z|1436;Westfall|L|814 5|ITEM|814|N|The Harvesters at any of the farms in Westfall\nYou'll need this for a quest shortly.|
 C The People's Militia|QID|13|QO|1;2|M|38.20,57.00;34.61,43.38|CN|Z|1436;Westfall|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
 T The People's Militia|QID|13|Z|1436;Westfall|M|56.33,47.52|N|To Gryan Stoutmantle.|
 A The People's Militia|QID|14|PRE|13|M|56.33,47.52|Z|1436;Westfall|N|From Gryan Stoutmantle.|
 R Moonbrook|ACTIVE|14|M|45.63,64.86|Z|1436;Westfall|N|Run to Moonbrook.|
-C The People's Militia|QID|14|QO|1;2;3|Z|1436;Westfall|N|coords ill Defias Highwaymen, Pathstalkers and Knuckledusters.|S|
+K The People's Militia|ACTIVE|14|QO|1;2;3|Z|1436;Westfall|N|Kill Defias Highwaymen, Pathstalkers and Knuckledusters.|S|
 R The Dagger Hill|ACTIVE|116|M|44.61,74.46;44.43,75.75|CS|Z|1436;Westfall|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|
 A Thunderbrew|QID|117|ACTIVE|116|M|44.63,80.26|Z|1436;Westfall|N|From Grimbooze Thunderbrew.|
 T Thunderbrew|QID|117|M|44.63,80.26|Z|1436;Westfall|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|
@@ -75,20 +75,21 @@ A Keeper of the Flame|QID|103|M|30.01,86.02|Z|1436;Westfall|N|From Captain Grays
 A The Coast Isn't Clear|QID|152|M|30.01,86.02|Z|1436;Westfall|N|From Captain Grayson.|
 A The Coastal Menace|QID|104|M|30.01,86.02|Z|1436;Westfall|N|From Captain Grayson.|
 T Keeper of the Flame|QID|103|M|30.01,86.02|Z|1436;Westfall|N|To Captain Grayson.|
-C The Coast Isn't Clear|QID|152|Z|1436;Westfall|N|coords As you run along the beach kill the required murlocs|S|
-C The Coastal Menace|QID|104|QO|1|M|35.23,85.47;26.34,66.12|CN|Z|1436;Westfall|N|Old Murk-Eye pathes between the two points.|T|Old Murk-Eye|
+A Captain Sanders' Hidden Treasure|QID|136|M|PLAYER|CC|N|Start the quest from the map you looted.|U|1357|O|
+* Captain Sanders' Hidden Treasure|QID|136|M|PLAYER|CC|N|Trash the item as it is no longer needed.|U|1357|
+K The Coast Isn't Clear|QID|152|QO|3;4|M|27.03,72.11|Z|1436;Westfall|N|While you're looking for Old Murk-Eye, kill the Tidehunters and Oracles in the area.|S|
+C The Coastal Menace|QID|104|QO|1|M|26.34,66.12;35.23,85.47|CN|Z|1436;Westfall|N|Old Murk-Eye pathes between the two points.|T|Old Murk-Eye|
+K The Coast Isn't Clear|QID|152|QO|3;4|Z|1436;Westfall|N|While you're looking for Old Murk-Eye, kill the Tidehunters and Oracles in the area.|US|
 C The Coast Isn't Clear|QID|152|QO|3;4|M|34.60,84.9;27.1,52.6|CN|Z|1436;Westfall|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|US|
 C The Coast Isn't Clear|QID|152|QO|2|M|25.70,49.80;35.80,20.00|CN|Z|1436;Westfall|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|
 C The Coast Isn't Clear|QID|152|QO|1|M|42.00,12.00;57.00,8.30|CN|Z|1436;Westfall|N|Coastrunners are found at the north end of Longshore.|
-A Captain Sander's Hidden Treasure|QID|136|M|PLAYER|CC|N|Start the quest from the map you looted.|U|1357|O|
-* Captain Sander's Hidden Treasure|QID|136|M|PLAYER|CC|N|Trash the item as it is no longer needed.|U|1357|
-T Captain Sander's Hidden Treasure|QID|136|M|25.91,47.77|Z|1436;Westfall|N|To Captain Sander's Foot Locker, on the beach guarded by murlocs.|
-A Captain Sander's Hidden Treasure|QID|138|PRE|136|M|25.91,47.77|Z|1436;Westfall|N|From Captain Sander's Foot Locker.|
-T Captain Sander's Hidden Treasure|QID|138|M|40.51,47.80|Z|1436;Westfall|N|To A Broken Barrel, alongside the path near Alexston's farm.|
-A Captain Sander's Hidden Treasure|QID|139|PRE|138|M|40.51,47.80|Z|1436;Westfall|N|From A Broken Barrel.|
-T Captain Sander's Hidden Treasure|QID|139|M|40.63,17.03|Z|1436;Westfall|N|To Captain Sander's Jug, at the base of Windmill overlooking the coast.|
-A Captain Sander's Hidden Treasure|QID|140|PRE|139|M|40.63,17.03|Z|1436;Westfall|N|From Captain Sander's Jug.|
-T Captain Sander's Hidden Treasure|QID|140|M|25.97,16.92|Z|1436;Westfall|N|To Captain Sander's Locked Chest, which requires swimming to an offshore island.|
+T Captain Sanders' Hidden Treasure|QID|136|M|25.91,47.77|Z|1436;Westfall|N|To Captain Sanders' Foot Locker, on the beach guarded by murlocs.|
+A Captain Sanders' Hidden Treasure|QID|138|PRE|136|M|25.91,47.77|Z|1436;Westfall|N|From Captain Sanders' Foot Locker.|
+T Captain Sanders' Hidden Treasure|QID|138|M|40.51,47.80|Z|1436;Westfall|N|To A Broken Barrel, alongside the path near Alexston's farm.|
+A Captain Sanders' Hidden Treasure|QID|139|PRE|138|M|40.51,47.80|Z|1436;Westfall|N|From A Broken Barrel.|
+T Captain Sanders' Hidden Treasure|QID|139|M|40.63,17.03|Z|1436;Westfall|N|To Captain Sanders' Jug, at the base of Windmill overlooking the coast.|
+A Captain Sanders' Hidden Treasure|QID|140|PRE|139|M|40.63,17.03|Z|1436;Westfall|N|From Captain Sanders' Jug.|
+T Captain Sanders' Hidden Treasure|QID|140|M|25.97,16.92|Z|1436;Westfall|N|To Captain Sanders' Locked Chest, which requires swimming to an offshore island.|
 C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|1436;Westfall|N|Go further south and kill the rest of the murlocs for this quest.|
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|Z|1436;Westfall|N|To Captain Grayson.|
 T The Coastal Menace|QID|104|M|30.01,86.02|Z|1436;Westfall|N|To Captain Grayson.|
@@ -99,7 +100,7 @@ T The People's Militia|QID|14|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmant
 T The Defias Brotherhood|QID|142|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|155|PRE|142|M|55.68, 47.51|Z|1436;Westfall|N|From The Defias Traitor. May have to wait for him to spawn. He takes off running as soon as you accept.|
 C The Defias Brotherhood|QID|155|M|42.53,71.69|Z|1436;Westfall|N|Escort the NPC to the end of Moonbrook. Do not let him die.|
-T The Defias Brotherhood|QID|155|M|56.3,47.5|Z|1436;Westfall|N|coords To Gryan Stoutmantle.|
+T The Defias Brotherhood|QID|155|M|56.33,47.52|Z|1436;Westfall|N|coords To Gryan Stoutmantle.|
 F Stormwind|ACTIVE|399|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|TZ|Stormwind, Elwynn|
 T Humble Beginnings|QID|399|M|57.61,47.85|Z|1453;Stormwind City|N|To Baros Alexston.|
 
@@ -110,8 +111,8 @@ A Messenger to Westfall|QID|143|PRE|121|M|29.99,44.44|Z|1433;Redridge Mountains|
 T Dry Times|QID|116|M|26.49,43.95|Z|1433;Redridge Mountains|N|To Barkeep Daniels.|
 L Level 20|LVL|20|N|Grind or run Deadmines until you are level 20|
 H Westfall|ACTIVE|143|N|Return to Westfall, fly if your hearthstone isn't ready.|
-T Messenger to Westfall|QID|143|M|56.3,47.5|Z|1436;Westfall|N|coords To Gryan Stoutmantle.|
-A Messenger to Westfall|QID|144|PRE|143|M|56.3,47.5|Z|1436;Westfall|N|coords From Gryan Stoutmantle|
+T Messenger to Westfall|QID|143|M|56.33,47.52|Z|1436;Westfall|N|coords To Gryan Stoutmantle.|
+A Messenger to Westfall|QID|144|PRE|143|M|56.33,47.52|Z|1436;Westfall|N|coords From Gryan Stoutmantle|
 F Stormwind|AVAILABLE|343|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|
 A Speaking of Fortitude|QID|343|M|54.98,54.11|Z|1453;Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
 T Speaking of Fortitude|QID|343|M|76.93,30.25|Z|1453;Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
