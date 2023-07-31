@@ -220,7 +220,7 @@ A They're Alive! Maybe...|QID|9670|M|24.88,34.35|N|From Researcher Cornelius.|
 C They're Alive! Maybe...|QID|9670|M|20.98,35.26|N|Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|S|
 K The Missing Expedition|QID|9669|QO|3|M|17.78,38.06|N|Locate Zarakh at the top of the hill and kill her.\n[color=FF0000]NOTE: [/color]Clear the area first and do it quick before they start to respawn.|T|Zarakh|
 C The Missing Expedition|QID|9669|QO|1;2|M|21.81,36.49|N|Kill spiders.|US|
-C They're Alive! Maybe...|QID|9670|M|20.98,35.26|N|{COORDS}Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|US|
+C They're Alive! Maybe...|QID|9670|M|20.98,35.26|N|Attack the Webbed Creatures.\n[color=FF0000]NOTE: [/color]You'll either free a Researcher or free a hostile mob and get attacked.|US|
 T They're Alive! Maybe...|QID|9670|M|24.88,34.35|N|To Researcher Cornelius.|
 K Fouled Water Spirits|ACTIVE|10067|QO|1|M|28.92,36.47|N|Kill Fouled Water Spirits.|US|
 T Cutting a Path|QID|10065|M|30.28,45.88|N|To Scout Joril.|
@@ -237,6 +237,8 @@ N Check your mailbox|QID|9561|M|55.18,59.19|L|24132|N|Urgent Delivery results in
 A The Bloodcurse Legacy|QID|9672^9751|PRE|9671|M|PLAYER|CC|N|From A Letter from the Admiral.|U|24132|O|
 A Ysera's Tears|QID|9649|PRE|9648|M|56.42,56.83|N|From Maatparm.|
 T Nolkai's Words|QID|9561|M|61.17,49.64|N|To the Mound of Dirt in the Ruins of Loreth'Aran.|
+U Nolkai's Box|ACTIVE|-9561|AVAILABLE|-9561|M|PLAYER|CC|N|Open Nolkai's Box that you were just rewarded with.|U|23486|
+* Nolai's Band|ACTIVE|-9561|AVAILABLE|-9561|M|PLAYER|CC|N|2 of the 3 items may be of use to you; the ring is not. You can neither wear nor sell it.|U|23847|
 R Wyrmscar Island|AVAILABLE|9687|M|69.70,32.25|N|Swim across to the big island north of you.|
 A Restoring Sanctity|QID|9687|M|74.46,33.66|N|From Prince Toreth.\n[color=FF0000]NOTE: [/color]He pats around the area.|T|Prince Toreth|
 T The Bloodcurse Legacy|QID|9672^9751|M|79.14,22.66|N|To Captain Edward Hanes.|
