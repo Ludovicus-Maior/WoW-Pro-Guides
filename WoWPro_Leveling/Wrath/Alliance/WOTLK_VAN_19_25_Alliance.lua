@@ -76,21 +76,19 @@ A The Coast Isn't Clear|QID|152|M|30.01,86.02|Z|1436;Westfall|N|From Captain Gra
 A The Coastal Menace|QID|104|M|30.01,86.02|Z|1436;Westfall|N|From Captain Grayson.|
 T Keeper of the Flame|QID|103|M|30.01,86.02|Z|1436;Westfall|N|To Captain Grayson.|
 A Captain Sanders' Hidden Treasure|QID|136|M|PLAYER|CC|N|Start the quest from the map you looted.|U|1357|O|
-* Captain Sanders' Hidden Treasure|QID|136|M|PLAYER|CC|N|Trash the item as it is no longer needed.|U|1357|
+* Captain Sanders' Hidden Treasure|AVAILABLE|-136|M|PLAYER|CC|N|Trash the item as it is no longer needed.|U|1357|
 K The Coast Isn't Clear|QID|152|QO|3;4|M|27.03,72.11|Z|1436;Westfall|N|While you're looking for Old Murk-Eye, kill the Tidehunters and Oracles in the area.|S|
 C The Coastal Menace|QID|104|QO|1|M|26.34,66.12;35.23,85.47|CN|Z|1436;Westfall|N|Old Murk-Eye pathes between the two points.|T|Old Murk-Eye|
-K The Coast Isn't Clear|QID|152|QO|3;4|Z|1436;Westfall|N|While you're looking for Old Murk-Eye, kill the Tidehunters and Oracles in the area.|US|
-C The Coast Isn't Clear|QID|152|QO|3;4|M|34.60,84.9;27.1,52.6|CN|Z|1436;Westfall|N|The Tidehunters and Oracles are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|US|
-C The Coast Isn't Clear|QID|152|QO|2|M|25.70,49.80;35.80,20.00|CN|Z|1436;Westfall|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|
-C The Coast Isn't Clear|QID|152|QO|1|M|42.00,12.00;57.00,8.30|CN|Z|1436;Westfall|N|Coastrunners are found at the north end of Longshore.|
-T Captain Sanders' Hidden Treasure|QID|136|M|25.91,47.77|Z|1436;Westfall|N|To Captain Sanders' Foot Locker, on the beach guarded by murlocs.|
+K The Coast Isn't Clear|ACTIVE|152|QO|3;4|M|34.60,84.9;27.1,52.6|CN|Z|1436;Westfall|N|Keep an eye out for Old Murk-Eye to prevent him sneaking up on you while you finish up with the Tidehunters and Oracles.|US|
+t Captain Sanders' Hidden Treasure|QID|136|M|25.91,47.77|Z|1436;Westfall|N|To Captain Sanders' Foot Locker, on the beach guarded by murlocs.\n[color=FF0000]NOTE: [/color]This step will not auto turnin the quest.|S!US|
+K The Coast Isn't Clear|ACTIVE|152|QO|2|M|25.70,49.80;35.80,20.00|CN|Z|1436;Westfall|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.\n[color=FF0000]NOTE: [/color]Avoid the Hunters if possible.|
 A Captain Sanders' Hidden Treasure|QID|138|PRE|136|M|25.91,47.77|Z|1436;Westfall|N|From Captain Sanders' Foot Locker.|
+K The Coast Isn't Clear|QID|152|QO|1|M|42.00,12.00;57.00,8.30|CN|Z|1436;Westfall|N|Coastrunners are found at the north end of Longshore.\n[color=FF0000]NOTE: [/color]More than likely, these will be grey to you.|T|Coastrunner|
 T Captain Sanders' Hidden Treasure|QID|138|M|40.51,47.80|Z|1436;Westfall|N|To A Broken Barrel, alongside the path near Alexston's farm.|
 A Captain Sanders' Hidden Treasure|QID|139|PRE|138|M|40.51,47.80|Z|1436;Westfall|N|From A Broken Barrel.|
 T Captain Sanders' Hidden Treasure|QID|139|M|40.63,17.03|Z|1436;Westfall|N|To Captain Sanders' Jug, at the base of Windmill overlooking the coast.|
 A Captain Sanders' Hidden Treasure|QID|140|PRE|139|M|40.63,17.03|Z|1436;Westfall|N|From Captain Sanders' Jug.|
-T Captain Sanders' Hidden Treasure|QID|140|M|25.97,16.92|Z|1436;Westfall|N|To Captain Sanders' Locked Chest, which requires swimming to an offshore island.|
-C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|1436;Westfall|N|Go further south and kill the rest of the murlocs for this quest.|
+T Captain Sanders' Hidden Treasure|QID|140|M|25.97,16.92|Z|1436;Westfall|N|To Captain Sanders' Locked Chest, which requires swimming to an offshore island with only one way on to it.|
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|Z|1436;Westfall|N|To Captain Grayson.|
 T The Coastal Menace|QID|104|M|30.01,86.02|Z|1436;Westfall|N|To Captain Grayson.|
 C The Defias Brotherhood|ACTIVE|142|M|44.48,69.70|Z|1436;Westfall|L|1381|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|T|Defias Messenger|US|
