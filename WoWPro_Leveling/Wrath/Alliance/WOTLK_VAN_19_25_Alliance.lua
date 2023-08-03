@@ -96,9 +96,10 @@ H Sentinel Hill|ACTIVE|142|M|52.90,53.63|Z|1436;Westfall|N|Hearth or run back to
 T Red Leather Bandanas|QID|153|M|53.99,52.98|Z|1436;Westfall|N|To Scout Gillian.|
 T The People's Militia|QID|14|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
 T The Defias Brotherhood|QID|142|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
-A The Defias Brotherhood|QID|155|PRE|142|M|55.68, 47.51|Z|1436;Westfall|N|From The Defias Traitor. May have to wait for him to spawn. He takes off running as soon as you accept.|
-C The Defias Brotherhood|QID|155|M|42.53,71.69|Z|1436;Westfall|N|Escort the NPC to the end of Moonbrook. Do not let him die.|
-T The Defias Brotherhood|QID|155|M|56.33,47.52|Z|1436;Westfall|N|coords To Gryan Stoutmantle.|
+A The Defias Brotherhood.|QID|155|PRE|142|M|55.68,47.50|Z|1436;Westfall|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom The Defias Traitor.\n[color=FF0000]NOTE: [/color]You may have to wait for him to spawn and he takes off running as soon as you accept.| ; ** Disabled auto-accept - Hendo72
+A The Defias Brotherhood.|QID|155|PRE|142|M|55.68,47.50|Z|1436;Westfall|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to The Defias Traitor to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to spawn.| ; ** Disabled auto-accept - Hendo72
+C The Defias Brotherhood|QID|155|M|42.54,71.58|Z|1436;Westfall|N|Escort the NPC to the end of Moonbrook. Do not let him die.|
+T The Defias Brotherhood|QID|155|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
 F Stormwind|ACTIVE|399|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|TZ|Stormwind, Elwynn|
 T Humble Beginnings|QID|399|M|57.61,47.85|Z|1453;Stormwind City|N|To Baros Alexston.|
 
@@ -107,14 +108,14 @@ t Return to Verner|QID|119|M|30.97,47.27|Z|1433;Redridge Mountains|N|To Verner O
 t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|1433;Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|PRE|121|M|29.99,44.44|Z|1433;Redridge Mountains|N|From Magistrate Solomon.|
 T Dry Times|QID|116|M|26.49,43.95|Z|1433;Redridge Mountains|N|To Barkeep Daniels.|
-L Level 20|LVL|20|N|Grind or run Deadmines until you are level 20|
+L Level 20|N|Grind or run Deadmines until you are level 20|LVL|20|
 H Westfall|ACTIVE|143|N|Return to Westfall, fly if your hearthstone isn't ready.|
-T Messenger to Westfall|QID|143|M|56.33,47.52|Z|1436;Westfall|N|coords To Gryan Stoutmantle.|
-A Messenger to Westfall|QID|144|PRE|143|M|56.33,47.52|Z|1436;Westfall|N|coords From Gryan Stoutmantle|
+T Messenger to Westfall|QID|143|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
+A Messenger to Westfall|QID|144|PRE|143|M|56.33,47.52|Z|1436;Westfall|N|From Gryan Stoutmantle|
 F Stormwind|AVAILABLE|343|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|
 A Speaking of Fortitude|QID|343|M|54.98,54.11|Z|1453;Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
-T Speaking of Fortitude|QID|343|M|76.93,30.25|Z|1453;Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
-A Brother Paxton|QID|344|PRE|343|M|76.93,30.25|Z|1453;Stormwind City|N|From Brother Paxton.|LVL|20|
+T Speaking of Fortitude|QID|343|M|77.08,30.22|Z|1453;Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|
+A Brother Paxton|QID|344|PRE|343|M|77.08,30.22|Z|1453;Stormwind City|N|From Brother Paxton.|
 h Stormwind City|ACTIVE|344|M|60.45,75.20|Z|1453;Stormwind City|N|At Innkeeper Allison.|
 
 ;Rogue class questchain
@@ -138,15 +139,15 @@ T The Touch of Zanzil|QID|2609|M|76,59.8|Z|1453;Stormwind City|N|To Doc Mixilpix
 
 ; Redridge 20-21
 R Elwynn Forest|QID|344|M|74.76,93.41|Z|1453;Stormwind City|N|Go to Elwynn Forest.|
-T Brother Paxton|QID|344|M|49.6,40.3|Z|1429;Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|LVL|20|
-A Ink Supplies|QID|345|PRE|344|M|49.6,40.3|Z|1429;Elwynn Forest|N|From Brother Paxton.|LVL|20|
+T Brother Paxton|QID|344|M|49.6,40.3|Z|1429;Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|
+A Ink Supplies|QID|345|PRE|344|M|49.6,40.3|Z|1429;Elwynn Forest|N|From Brother Paxton.|
 r Repair/Restock|QID|345|M|41.40,65.59|Z|1429;Elwynn Forest|N|Repair/Sell Junk at Kurran Steele.|
-A A Watchful Eye|QID|94|M|65.2,69.8|Z|1429;Elwynn Forest|N|From Theocritus, at the top of the Tower of Azora.|LVL|20|
+A A Watchful Eye|QID|94|M|65.2,69.8|Z|1429;Elwynn Forest|N|From Theocritus, at the top of the Tower of Azora.|
 R Redridge Mountains|AVAILABLE|89|M|95.17,72.34|Z|1429;Elwynn Forest|N|Go to Redridge Mountains.|
 
 A The Everstill Bridge|QID|89|PRE|125|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
-T Ink Supplies|QID|345|M|32.2,48.6|Z|1433;Redridge Mountains|N|To Foreman Oslow.|LVL|20|
-A Rethban Ore|QID|347|PRE|345|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|LVL|20|
+T Ink Supplies|QID|345|M|32.2,48.6|Z|1433;Redridge Mountains|N|To Foreman Oslow.|
+A Rethban Ore|QID|347|PRE|345|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
 t Messenger to Westfall|QID|144|M|29.99,44.44|Z|1433;Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Darkshire|QID|145|PRE|144|M|29.99,44.44|Z|1433;Redridge Mountains|N|From Magistrate Solomon.|
 A Selling Fish|QID|127|M|27.8,47.3|Z|1433;Redridge Mountains|N|From Dockmaster Baren.|
@@ -176,10 +177,10 @@ T Murloc Poachers|QID|150|M|27.8,47.3|Z|1433;Redridge Mountains|N|To Dockmaster 
 T Redridge Goulash|QID|92|M|22.68,43.83|Z|1433;Redridge Mountains|N|To Chef Breanna.|
 
 H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|TZ|Stormwind|
-T Rethban Ore|QID|347|M|49.6,40.3|Z|1429;Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
-A Return to Kristoff|QID|346|PRE|347|M|49.6,40.3|Z|1429;Elwynn Forest|N|From Brother Paxton in Northshire.|LVL|20|
+T Rethban Ore|QID|347|M|49.6,40.3|Z|1429;Elwynn Forest|N|To Brother Paxton in Northshire.|
+A Return to Kristoff|QID|346|PRE|347|M|49.6,40.3|Z|1429;Elwynn Forest|N|From Brother Paxton in Northshire.|
 = Train|ACTIVE|346|N|If needed, Don't forget to train while you are in town. (check step off manually)|
-T Return to Kristoff|QID|346|M|54.98,54.08|Z|1453;Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
+T Return to Kristoff|QID|346|M|54.98,54.08|Z|1453;Stormwind City|N|To Brother Kristoff in Cathedral Square.|
 F Darkshire|ACTIVE|145|M|71.03,72.62|Z|1453;Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
 F Lakeshire|AVAILABLE|163|M|71.03,72.62|Z|1453;Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
 R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|TAXI|-Darkshire|
@@ -322,7 +323,7 @@ b Auberdine|ACTIVE|3765|M|22.74,56.19|Z|1453;Stormwind City|N|Take the boat to A
 T The Corruption Abroad|QID|3765|M|38.33,43.04|Z|1439;Darkshore|N|To Gershala Nightwhisper.|
 f Auberdine|QID|965|M|36.34,45.58|Z|1439;Darkshore|N|Get the flightpath.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|1439;Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
-F Rut'theran Village|QID|1198|M|36.36,45.56|Z|1439;Darkshore|N|Train you skills sell and repair.|LVL|20|
+F Rut'theran Village|QID|1198|M|36.36,45.56|Z|1439;Darkshore|N|Train you skills sell and repair.|
 f Rut'theran Village|QID|965|M|58.4,94.02|Z|1438;Teldrassil|N|Get the flight path.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|R|-NightElf|
 = Train|ACTIVE|965|N|If needed, Don't forget to train while you are in town. (check step off manually)|
 F Auberdine|QID|965|M|36.34,45.58|Z|1438;Teldrassil|N|Fly back to Auberdine.|TAXI|-Astranaar|
@@ -358,7 +359,7 @@ A The Ancient Statuette|QID|1007|M|14.80,31.29|Z|1440;Ashenvale|N|From Talen nea
 C The Zoram Strand|QID|1008|M|14.10,20.7|Z|1440;Ashenvale|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|S|
 C The Ancient Statuette|QID|1007|M|14.21,20.64|Z|1440;Ashenvale|N|Loot the ancient statuette.|
 T The Ancient Statuette|QID|1007|M|14.80,31.29|Z|1440;Ashenvale|N|To Talen.|
-A Ruuzel|QID|1009|PRE|1007|M|14.80,31.29|Z|1440;Ashenvale|N|From Talen.|LVL|20|
+A Ruuzel|QID|1009|PRE|1007|M|14.80,31.29|Z|1440;Ashenvale|N|From Talen.|
 C Ruuzel|QID|1009|M|6.58,13.57|Z|1440;Ashenvale|N|Find Ruuzel patrolling around the island|T|Ruuzel|
 C The Zoram Strand|QID|1008|M|14.10,20.7|Z|1440;Ashenvale|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|US|
 T Ruuzel|QID|1009|M|14.80,31.29|Z|1440;Ashenvale|N|To Talen.|
