@@ -116,7 +116,7 @@ F Stormwind|AVAILABLE|343|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|
 A Speaking of Fortitude|QID|343|M|54.98,54.11|Z|1453;Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
 T Speaking of Fortitude|QID|343|M|77.08,30.22|Z|1453;Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|
 A Brother Paxton|QID|344|PRE|343|M|77.08,30.22|Z|1453;Stormwind City|N|From Brother Paxton.|
-h Stormwind City|ACTIVE|344|M|60.45,75.20|Z|1453;Stormwind City|N|At Innkeeper Allison.|
+h Stormwind City|ACTIVE|344|M|60.38,75.27|Z|1453;Stormwind City|N|At Innkeeper Allison.|
 
 ;Rogue class questchain
 N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436;Westfall|N|coords You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
@@ -139,10 +139,10 @@ T The Touch of Zanzil|QID|2609|M|76,59.8|Z|1453;Stormwind City|N|To Doc Mixilpix
 
 ; Redridge 20-21
 R Elwynn Forest|QID|344|M|74.76,93.41|Z|1453;Stormwind City|N|Go to Elwynn Forest.|
-T Brother Paxton|QID|344|M|49.6,40.3|Z|1429;Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|
-A Ink Supplies|QID|345|PRE|344|M|49.6,40.3|Z|1429;Elwynn Forest|N|From Brother Paxton.|
-r Repair/Restock|QID|345|M|41.40,65.59|Z|1429;Elwynn Forest|N|Repair/Sell Junk at Kurran Steele.|
-A A Watchful Eye|QID|94|M|65.2,69.8|Z|1429;Elwynn Forest|N|From Theocritus, at the top of the Tower of Azora.|
+T Brother Paxton|QID|344|M|49.60,40.41|Z|1429;Elwynn Forest|N|To Brother Paxton, in the Library Wing of Northshire Abbey.|
+A Ink Supplies|QID|345|PRE|344|M|49.60,40.41|Z|1429;Elwynn Forest|N|From Brother Paxton.|
+r Repair/Restock|AVAILABLE|94|M|49.60,40.41|Z|1429;Elwynn Forest|N|Repair/Sell Junk ay one of the merchants in Northshire Valley.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A A Watchful Eye|QID|94|M|65.21,69.71|Z|1429;Elwynn Forest|N|From Theocritus, at the top of the Tower of Azora.|
 R Redridge Mountains|AVAILABLE|89|M|95.17,72.34|Z|1429;Elwynn Forest|N|Go to Redridge Mountains.|
 
 A The Everstill Bridge|QID|89|PRE|125|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
@@ -177,8 +177,8 @@ T Murloc Poachers|QID|150|M|27.8,47.3|Z|1433;Redridge Mountains|N|To Dockmaster 
 T Redridge Goulash|QID|92|M|22.68,43.83|Z|1433;Redridge Mountains|N|To Chef Breanna.|
 
 H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|TZ|Stormwind|
-T Rethban Ore|QID|347|M|49.6,40.3|Z|1429;Elwynn Forest|N|To Brother Paxton in Northshire.|
-A Return to Kristoff|QID|346|PRE|347|M|49.6,40.3|Z|1429;Elwynn Forest|N|From Brother Paxton in Northshire.|
+T Rethban Ore|QID|347|M|49.60,40.41|Z|1429;Elwynn Forest|N|To Brother Paxton in Northshire.|
+A Return to Kristoff|QID|346|PRE|347|M|49.60,40.41|Z|1429;Elwynn Forest|N|From Brother Paxton in Northshire.|
 = Train|ACTIVE|346|N|If needed, Don't forget to train while you are in town. (check step off manually)|
 T Return to Kristoff|QID|346|M|54.98,54.08|Z|1453;Stormwind City|N|To Brother Kristoff in Cathedral Square.|
 F Darkshire|ACTIVE|145|M|71.03,72.62|Z|1453;Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
