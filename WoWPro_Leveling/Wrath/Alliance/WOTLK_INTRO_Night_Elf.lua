@@ -76,32 +76,24 @@ K Zenn's Bidding|ACTIVE|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle in Dolanaar.|
 T In Favor of Elune|QID|5622|M|55.56,56.75|N|To Laurna Morninglight.|C|Priest|
 A Garments of the Moon|QID|5621|PRE|5622|M|55.56,56.75|N|From Laurna Morninglight.|C|Priest|
-= Apprentice First Aid|ACTIVE|2159|M|55.29,56.82|N|If you want to learn First Aid, now is your chance with Byancle, inside the building on the lowest floor.|P|First Aid;129;0+0;1|
+= Apprentice First Aid|ACTIVE|2159|M|55.29,56.82|N|If you want to learn First Aid, now is your chance from Byancie, inside the building on the lowest floor.|P|First Aid;129;0;False|
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|From Tallonkai Swiftroot, at the very top of the building|
 A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
-
 r Sell and Repair|AVAILABLE|929|N|Sell and Repair at vendors of Dolanaar.|S|
-
-T Dolanaar Delivery|QID|2159|M|55.70,59.80|N|To the innkeeper.|
-h Dolanaar|QID|928|M|55.70,59.80|N|Set your Hearthstone to Dolanaar.|
-
-T In Favor of Elune|QID|5622|M|55.56,56.75|N|To Laurna Morninglight.|C|Priest|
-A Garments of the Moon|QID|5621|M|55.56,56.75|N|From Laurna Morninglight.|C|Priest|
-A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle.|
-A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|At the top of the building from Tallonkai Swiftroot.|
-A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
-
-A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|Speak to Zarrin and learn cooking - this will unlock the quest.|
+T Dolanaar Delivery|QID|2159|M|55.62,59.79|N|To Innkeeper Keldamyr.|
+h Dolanaar|ACTIVE|928|M|55.62,59.79|N|Set your Hearthstone to Dolanaar.|
+= Cooking|AVAILABLE|4161|M|57.11,61.28|N|Speak to Zarrin and learn cooking.|P|Cooking;185;0;true|
+A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|From Zarrin.|P|Cooking;185;0+1|
 T Crown of the Earth|QID|928|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|N|From Corithras Moonrage.|
 C Garments of the Moon|QID|5621|M|57.24,63.50|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|C|Priest|
 T Garments of the Moon|QID|5621|M|55.56,56.75|N|To Laurana Morninglight.|C|Priest|
-N Professions|QID|475|M|57.47,60.60|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.|S|
-C Recipe of the Kaldorei|QID|4161|N|Kill spiders along the way until you have 7 Small Spider Legs.|S|
-U Crown of the Earth|QID|929|QO|1|M|63.35,58.11|N|At the moonwell to the east.|U|5619|NC|
-T A Troubling Breeze|QID|475|M|66.26,58.55|N|To Gaerolas Talvethren, Second floor of the first building to your right.|
+N Professions|ACTIVE|475|M|PLAYER|CC|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S|IZ|Dolanaar|
+C Recipe of the Kaldorei|QID|4161|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|S|
+C Crown of the Earth|QID|929|QO|1|M|63.35,58.11|N|Use the Crystal Vial at the Starbreeze Village Moonwell to the east.|U|5619|NC|
+T A Troubling Breeze|QID|475|M|66.26,58.55|N|Clear your way to Gaerolas Talvethren on the second floor of the first building to your right.|
 A Gnarlpine Corruption|QID|476|PRE|475|M|66.26,58.55|N|From Gaerolas Talvethren|
-C The Emerald Dreamcatcher|QID|2438|M|68.00,59.61|L|8048|N|Inside the small house in the dresser to the right from the entrance.|
+C The Emerald Dreamcatcher|QID|2438|M|68.01,59.65|L|8048|N|Inside the small house in the dresser to the right from the entrance.|
 
 T Gnarlpine Corruption|QID|476|M|55.96,57.28|N|To Athridas Bearmantle.|
 A The Relics of Wakening|QID|483|PRE|476|M|55.96,57.28|N|From Athridas Bearmantle.|
@@ -116,7 +108,7 @@ C Ferocitas the Dream Eater|QID|2459|QO|1|M|69.35,53.30|N|Kill the remaining Gna
 
 C Zenn's Bidding|QID|488|M|62.43,59.89|N|Kill Webwood Lurkers, Nightsabers and Strigid Owls.|US|
 T Zenn's Bidding|QID|488|M|60.43,56.25|N|To Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
-C Recipe of the Kaldorei|QID|4161|M|63,63|N|Kill spiders until you have 7 Small Spider Legs.|US|
+C Recipe of the Kaldorei|QID|4161|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|US|
 
 A Seek Redemption!|QID|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf|
 A Denalan's Earth|QID|997|M|56.09,57.72|N|From Syral Bladeleaf.|
