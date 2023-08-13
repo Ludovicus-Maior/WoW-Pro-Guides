@@ -22,61 +22,61 @@ T Etched Sigil|QID|3117|M|57.64,41.70;58.66,40.45|CC|N|To Ayanna Everstride.\n[c
 T Encrypted Sigil|QID|3118|M|59.64,38.67|N|Further inside the building and to the right.|C|Rogue|
 T Hallowed Sigil|QID|3119|M|59.96,41.95;59.18,40.45|CC|N|To Shanda.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the next level.|C|Priest|
 T Verdant Sigil|QID|3120|M|57.64,41.70;58.62,40.29|CC|N|To Mardant Strongoak.\n[color=FF0000]NOTE: [/color]Walk up the ramp outside to the first door.|C|Druid|
-
 = Level 2 Training|ACTIVE|458|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
-T The Woodland Protector|QID|458|M|57.75,45.02|N|To Tarindrella.|
-A The Woodland Protector|QID|459|PRE|458|M|57.75,45.02|N|From Tarindrella.|
-C The Woodland Protector|QID|459|M|55.91,45.79|N|Kill and loot the Grell for the Moss.|
-T The Woodland Protector|QID|459|M|57.75,45.02|N|To Tarindrella.|
+T The Woodland Protector|QID|458|M|57.73,45.23|N|To Tarindrella.|
+A The Woodland Protector|QID|459|PRE|458|M|57.73,45.23|N|From Tarindrella.|
+C The Woodland Protector|QID|459|M|55.91,45.79|L|3297 8|ITEM|3297|N|Grell found in camps along the east mountains.|
+L Level 3|AVAILABLE|916|N|Grind until you're within 5 bubbles of level 3|LVL|2;-250|
+T The Woodland Protector|QID|459|M|57.73,45.23|N|To Tarindrella.|
 A Webwood Venom|QID|916|M|57.81,41.65|N|From Gilshalan Windwalker.|LVL|3|
-C Webwood Venom|QID|916|QO|1|N|Kill and loot Webwood Spiders.|S|
-C The Balance of Nature|QID|457|N|Kill Mangy Nightsabers and Thistle Boars along the way.|S|
-T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron.|
-A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron.|
-r Sell and Repair|AVAILABLE|3521|N|Sell and Repair with Keina in Aldrassil.|S|
+C Webwood Venom|QID|916|M|56.80,29.20|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen.|S|
+T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron\n[color=FF0000]NOTE: [/color].|
+A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron, in the alcove before the cave entrance.|
+R Aldrassil|ACTIVE|3519|M|60.03,42.45|N|[color=FF0000]NOTE: [/color]This is a quick run to Aldrassil and back. The 'A Friend in Need' follow-up requires killing Webwood Spiders.|
+r Sell and Repair|AVAILABLE|3521|M|59.31,41.09|N|Clear some bag space by selling to Keina in Aldrassil.|S|
 T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
-
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
-C Hyacinth Mushrooms|QID|3521|QO|1|M|55.00,43.20|N|Pick up Hyacinth Mushrooms along the way.They are purple brown and are found at the base of the trees. Or you can kill Grells.|S|
-C The Balance of Nature|QID|457|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|US|
-C Webwood Ichor|QID|3521|QO|3|M|56.80,31.60|N|Kill Spiders until you get the Webwood Ichor.|
-C Webwood Venom|QID|916|QO|1|M|56.47,29.61|N|Kill and loot Webwood Spiders.|US|
-C Moonpetal Lilies|QID|3521|QO|2|M|57.69,37.59|N|You should find plenty of Moonpetal Lilies at the lake.|
-C Hyacinth Mushrooms|QID|3521|QO|1|M|55.00,43.20|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|US|
+C Webwood Ichor|QID|3521|M|56.80,31.60|L|10640|ITEM|10640|N|Webwood Spider|S|
+C Hyacinth Mushrooms|QID|3521|M|55.43,39.30|L|10639 7|ITEM|10639|N|Grell/Grellkin\nThey are purple/brown and found at the base of the trees.|S|
+C Moonpetal Lily|QID|3521|M|57.69,37.59|L|10641 4|N|You'll find plenty at the lake behind Aldrassil.|
+C Hyacinth Mushrooms|QID|3521|M|55.43,39.30|L|10639 7|ITEM|10639|N|Grell/Grellkin\nThey are purple/brown and found at the base of the trees.|US|
+C Webwood Ichor|QID|3521|M|56.80,31.60|L|10640|ITEM|10640|N|Webwood Spiders found in the northwest corner of Shadowglen.|US|
+C Webwood Venom|QID|916|M|56.80,29.20|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen and inside the Shadowthread Cave.|US|
+K The Balance of Nature|QID|457|QO|1;2|M|61.08,34.71|N|Kill any Mangy Nightsabers and Thistle Boars you come across.|US|
+L Level 4|ACTIVE|916|N|Grind until you're at least halfway level 4.|LVL|3;-680|
 
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
+r Sell and Repair|AVAILABLE|3522|M|59.31,41.09|N|Sell/repair at Keina.|S|IZ|Aldrassil|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T The Balance of Nature|QID|457|M|58.61,44.72|N|To Conservator Ilthalaine.|
+= Level 4 Training|ACTIVE|3521|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Aldrassil^Shadowglen|
+A In Favor of Elune|QID|5622|M|59.18,40.45|N|From Shanda.|C|Priest|
 
-r Sell and Repair|AVAILABLE|3522|N|Sell Junk and Repair.|S|
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
-A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.|
-T Iverron's Antidote|QID|3522|M|54.60,32.99|N|To Iverron.|
-R Shadowthread Cavern|ACTIVE|917|QO|1|M|56.77,31.72;56.66,29.33;56.87,27.24;55.72,25.12;56.43,25.14|CS|N|Take the middle path and then left.|
-C Webwood Egg|QID|917|M|56.750,26.46|N|Loot an egg from the ground.|
+A Iverron's Antidote.|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine.| ; ** auto-accept intentionally broken - Hendo72
+A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Dirania Silvershine to get another Antidote.|FAIL|
+T Iverron's Antidote|QID|3522|M|54.60,32.99|N|To Iverron.\n[color=FF0000]NOTE: [/color]You have 5 minutes to turn this in (plenty of time).|
+R Shadowthread Cave|ACTIVE|917|QO|1|M|56.77,31.72|N|Enter the cave.|
+C Webwood Egg|QID|917|M|56.66,29.33;56.87,27.24;55.72,25.12;56.65,25.74|CS|L|5167|N|Loot one of the eggs from the ground.\n[color=FF0000]NOTE: [/color]Take the middle path and then go left. The right path is just a longer route to the same location. The left path is a dead-end.|
 H Shadowglen|ACTIVE|917|N|Hearth out of the cave.|
-r Sell and Repair|ACTIVE|917|N|Sell Junk and Repair.|S|
 T Webwood Egg|QID|917|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|N|From Gilshalan Windwalker.|
-T Tenaron's Summons|QID|920|M|59.06,39.44|N|To Tenaron Stormgrip, run up the ramp outside the tree.|
+T Tenaron's Summons|QID|920|M|59.06,39.44|N|To Tenaron Stormgrip at the top of the tree.\n[color=FF0000]NOTE: [/color]Use the ramp outside the tree.|
 A Crown of the Earth|QID|921|PRE|920|M|59.06,39.44|N|From Tenaron Stormgrip.|
-U Crown of the Earth|QID|921|QO|1|M|58.78,38.80;57.48,41.66;59.88,33.33|CS|N|Head back down the ramp to the bottom and run north to the Moonwell. Use the crystal phial at the moonwell.|U|5185|NC|
-T Crown of the Earth|QID|921|M|57.53,41.64;58.78,38.80;58.44,40.79;59.06,39.44|CS|N|To Tenaron Stormgrip.|
+r Sell and Repair|ACTIVE|921|M|59.31,41.09|N|Head back down the ramp and sell/repair at Keina.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Shadowglen Moonwell|ACTIVE|921|QO|1|M|59.86,33.40|CC|N|Head back down the ramp to the bottom (if you haven't yet) and run north to the Moonwell.|
+C Crown of the Earth|QID|921|QO|1|M|59.88,33.33|N|Use the Crystal Phial at the moonwell.|U|5185|NC|
+T Crown of the Earth|QID|921|M|57.64,41.70;59.06,39.44|CS|N|To Tenaron Stormgrip.|
 A Crown of the Earth|QID|928|PRE|921|M|59.06,39.44|N|From Tenaron Stormgrip.|
 
-N Level 4 class training|QID|2159|N|Take this opportunity to learn your Level 4 skill/spell before you leave for Dolanaar!|LVL|4|S|
-
-A In Favor of Elune|QID|5622|M|59.96,41.95;59.18,40.45|CC|N|Revisit your class trainer before you go.|C|Priest|
 A Dolanaar Delivery|QID|2159|M|61.16,47.64|N|From Porthannius, on the road to Dolanaar|
 
-L Level 4|ACTIVE|2159|N|You'll want to be level 4 to accept the next quest. Grind until you are.|LVL|4|
-
-A Zenn's Bidding|QID|488|M|60.43,56.25|N|From Zenn Foulhoof. If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest)|
-C Zenn's Bidding|QID|488|N|Kill and loot Webwood Lurkers, Nightsabers and Strigid Owls along the way.|S|
+A Zenn's Bidding|QID|488|M|60.43,56.25|N|From Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
+K Zenn's Bidding|ACTIVE|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers and Strigid Owls along the way.|S|
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle in Dolanaar.|
 T In Favor of Elune|QID|5622|M|55.56,56.75|N|To Laurna Morninglight.|C|Priest|
 A Garments of the Moon|QID|5621|PRE|5622|M|55.56,56.75|N|From Laurna Morninglight.|C|Priest|
-N Learn Apprentice First Aid |ACTIVE|2159|M|55.29,56.82|P|First Aid;129;0+0;1|N|If you want to learn First Aid, now is your chance with Byancle, inside the building on the lowest floor.|
+= Apprentice First Aid|ACTIVE|2159|M|55.29,56.82|N|If you want to learn First Aid, now is your chance with Byancle, inside the building on the lowest floor.|P|First Aid;129;0+0;1|
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|From Tallonkai Swiftroot, at the very top of the building|
 A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 
