@@ -347,7 +347,7 @@ T Return to the Present|QID|66032|M|60.06,82.46|Z|2025|N|To Nozdormu.|
 T Temporal Tuning|QID|66029|M|60.06,82.46|Z|2025|N|To Nozdormu.|
 A To the... Past?|QID|66033|PRE|66029|M|60.06,82.46|Z|2025|N|From Nozdormu.|
 A Temporal Two-ning|QID|72519|PRE|66032|M|60.06,82.46|Z|2025|N|From Nozdormu.|
-P Azmerloth|ACTIVE|66033|M|59.98,82.08|Z|2025|N|Take the portal to Temporal Conflux.|
+P Azmerloth|ACTIVE|66033|M|59.98,82.08|Z|2025|N|Take the portal to Azmerloth.|
 T To the... Past?|QID|66033|M|59.83,66.14|Z|2092|N|To Andantenormu.|
 A Murloc Motes|QID|66035|PRE|66033|M|59.83,66.14|Z|2092|N|From Andantenormu.|
 A Mugurlglrlgl!|QID|66036|PRE|66033|M|59.91,65.99|Z|2092|N|From Varian Wryngrrlgulgll.|FACTION|Alliance|
