@@ -155,7 +155,7 @@ C A Mage's Knowledge|QID|59352|M|51.96,50.01|N|Collect Meredy Huntswell's spellb
 T A Mage's Knowledge|QID|59352|M|52.35,55.26|C|Mage|N|Turn in to Meredy Huntswell.|
 A The Best Way to Use Sheep|QID|59354|PRE|59352|M|52.35,55.26|N|From Meredy Huntswell.|C|Mage|
 C The Best Way to Use Sheep|QID|59354|M|52.35,55.26|QO|1|N|Speak with Meredy to practice Polymorph.|CHAT|
-C The Best Way to Use Sheep|QID|59354|M|52.35,55.26|QO|2|N|Follow Herbert and Throg and then cast Polymorph on them.|
+C The Best Way to Use Sheep|QID|59354|M|52.35,55.26|QO|2|N|Follow Meredy and Cole and then cast Polymorph on them.|
 T The Best Way to Use Sheep|QID|59354|M|52.35,55.26|N|Turn in to Meredy Huntswell.|
 C A Monk's Focus|QID|59347|M|53.69,51.49;52.62,49.49|CS|N|Follow Kee-La when she stops tell her you are ready.|CHAT|
 T A Monk's Focus|QID|59347|M|52.62,49.49|N|Turn into Kee-La.|
@@ -202,12 +202,9 @@ A Welcome to Stormwind|QID|59583|PRE|55991|M|73.69,91.31|Z|Stormwind City|N|From
 T Welcome to Stormwind|QID|59583|M|70.21,85.39|Z|Stormwind City|N|Turn into Lindie Springsstock.|
 A Finding Your Way|QID|58908|PRE|59583|M|70.21,85.39|Z|Stormwind City|N|From Lindie Springsstock.|
 C Finding Your Way|QID|58908|M|70.28,83.72|Z|Stormwind City|QO|1|N|Ask a guard for directions to the Stable Master in Old Town (next to bottom on the list).|CHAT|
-C Finding Your Way|QID|58908|M|69.86,83.95|Z|Stormwind City|QO|2|N|Speak with Lindie Springstock to lead the way.|CHAT|
-C Finding Your Way|QID|58908|M|77.36,67.06|Z|Stormwind City|QO|3|N|Follow Lindie Springstock to the Stables. Stay right with him, he stops if you get too far ahead or behind.|NC|
+C Finding Your Way|QID|58908|M|69.86,83.95|Z|Stormwind City|QO|2|N|Speak with Lindie Springstock to get a free ride to the stables.|CHAT|
+C Finding Your Way|QID|58908|M|77.36,67.06|Z|Stormwind City|QO|3|N|Ride along with Lindie. Note: Do not exit the bike as it can cause the quest to bug.|NC|
 T Finding Your Way|QID|58908|M|77.28,66.95|Z|Stormwind City|N|Turn into Curly.|
-A License to Ride|QID|58909|PRE|58908|M|77.28,66.95|Z|Stormwind City|N|From Curly.|
-C License to Ride|QID|58909|M|77.36,67.92|Z|Stormwind City|N|Learn the Apprentice Riding Skill from Darlene Stokx.|
-T License to Ride|QID|58909|M|77.28,66.95|Z|Stormwind City|N|Turn into Curly.|
 A What's Your Specialty?|QID|58910|PRE|58909|M|77.28,67.09|N|From Lindie Springstock.|C|Druid|
 A What's Your Specialty?|QID|59586|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Hunter|
 A What's Your Specialty?|QID|59587|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Mage|
