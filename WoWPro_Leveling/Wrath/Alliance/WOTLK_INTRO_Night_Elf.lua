@@ -72,7 +72,7 @@ A Crown of the Earth|QID|928|PRE|921|M|59.06,39.44|N|From Tenaron Stormgrip.|
 A Dolanaar Delivery|QID|2159|M|61.16,47.64|N|From Porthannius, on the road to Dolanaar|
 
 A Zenn's Bidding|QID|488|M|60.43,56.25|N|From Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
-K Zenn's Bidding|ACTIVE|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers and Strigid Owls along the way.|S|
+K Zenn's Bidding|ACTIVE|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls along the way.|S|
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle in Dolanaar.|
 T In Favor of Elune|QID|5622|M|55.56,56.75|N|To Laurna Morninglight.|C|Priest|
 A Garments of the Moon|QID|5621|PRE|5622|M|55.56,56.75|N|From Laurna Morninglight.|C|Priest|
@@ -94,68 +94,61 @@ C Crown of the Earth|QID|929|QO|1|M|63.35,58.11|N|Use the Crystal Vial at the St
 T A Troubling Breeze|QID|475|M|66.26,58.55|N|Clear your way to Gaerolas Talvethren on the second floor of the first building to your right.|
 A Gnarlpine Corruption|QID|476|PRE|475|M|66.26,58.55|N|From Gaerolas Talvethren|
 C The Emerald Dreamcatcher|QID|2438|M|68.01,59.65|L|8048|N|Inside the small house in the dresser to the right from the entrance.|
-
+L Level 6|ACTIVE|476|N|Grind until you're within 7 bubbles of level 6.|LVL|5;-970|
+t Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|To Zarrin.|IZ|Dolanaar|
 T Gnarlpine Corruption|QID|476|M|55.96,57.28|N|To Athridas Bearmantle.|
 A The Relics of Wakening|QID|483|PRE|476|M|55.96,57.28|N|From Athridas Bearmantle.|
-T The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|At the top of the building to Tallonkai Swiftroot.|
+T The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|To Tallonkai Swiftroot at the top of the building.|
 A Ferocitas the Dream Eater|QID|2459|PRE|2438|M|55.58,56.95|N|From Tallonkai Swiftroot.|
+= Level 6 Training|ACTIVE|929|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Dolanaar|
 T Crown of the Earth|QID|929|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|933|PRE|929|M|56.15,61.71|N|From Corithras Moonrage.|
+C Ferocitas the Dream Eater|QID|2459|QO|1|M|68.83,52.93|N|Kill the Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|S|
+K Ferocitas the Dream Eater|ACTIVE|2459|QO|2|M|69.38,53.39|L|8049|ITEM|8049|N|Ferocitas the Dream Eater in Starbreeze Village.|T|Ferocitas the Dream Eater|
+C Tallonkai's Jewel|QID|2459|M|PLAYER|CC|L|8050|N|Use the Gnarlpine Necklace to reveal Tallonkai's Jewel|U|8049|NC|
+K Ferocitas the Dream Eater|QID|2459|QO|1|M|68.83,52.93|N|Kill the Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|US|
 
-K Ferocitas the Dream Eater|QID|2459|QO|2|M|69.35,53.30|L|8049|N|Kill Ferocitas the Dream Eater to loot the Gnarlpine Necklace.|T|Ferocitas the Dream Eater|
-C Ferocitas the Dream Eater|QID|2459|QO|2|M|69.35,53.30|N|Use the Gnarlpine Necklace to reveal Tallonkai's Jewel|U|8049|NC|
-C Ferocitas the Dream Eater|QID|2459|QO|1|M|69.35,53.30|N|Kill the remaining Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|
-
-C Zenn's Bidding|QID|488|M|62.43,59.89|N|Kill Webwood Lurkers, Nightsabers and Strigid Owls.|US|
+C Zenn's Bidding|QID|488|M|62.43,59.89|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls.|US|
 T Zenn's Bidding|QID|488|M|60.43,56.25|N|To Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
 C Recipe of the Kaldorei|QID|4161|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|US|
 
 A Seek Redemption!|QID|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf|
 A Denalan's Earth|QID|997|M|56.09,57.72|N|From Syral Bladeleaf.|
 T Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|N|To Tallonkai Swiftroot|
-C Seek Redemption!|QID|489|L|3418 3|N|Look out for Fel Cones below trees. Green smoke comes out of them.|S|NC|
+C Seek Redemption!|QID|489|M|PLAYER|CC|L|3418 3|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|S|
 
-r Sell and Repair|ACTIVE|4161|M|56.25,59.25|N|Sell Junk and Repair.|
-T Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|To Zarrin.|
-N Cooking|ACTIVE|997|M|57.18,61.26|RECIPE|6412|N|Level your cooking to 10 with the small eggs. You can buy mild spices from Nyoma. Then learn the Kaldorei Spider Kabob recipe. Right click off if you don't want to learn cooking.|U|5482|S|
-
-T Denalan's Earth|QID|997|M|60.90,68.50|N|To Denalan.|
-A Timberling Seeds|QID|918|PRE|997|M|60.90,68.50|N|From Denalan, it will take a few seconds for this quest to appear.|
+r Sell and Repair|ACTIVE|997|M|56.12,60.26|N|Sell Junk and Repair.|
+T Denalan's Earth|QID|997|M|60.90,68.50|N|To Denalan.\n[color=FF0000]NOTE: [/color]Avoid the Timberlings for now.|
+A Timberling Seeds|QID|918|PRE|997|M|60.90,68.50|N|From Denalan.\n[color=FF0000]NOTE: [/color]It will take a few moments for this quest to be offerred.|
 A Timberling Sprouts|QID|919|PRE|997|M|60.90,68.50|N|From Denalan.|
-C Timberling Sprouts|QID|919|L|5169 12|N|Loot Sprouts from the ground around the area.|S|NC|
-C Timberling Seeds|QID|918|L|5168 8|N|Kill and loot the Timberlings in the area for the seeds.|
-C Timberling Sprouts|QID|919|L|5169 12|N|Loot Sprouts from the ground around the area.|US|NC|
+C Timberling Sprouts|QID|919|M|60.81,65.71;58.11,71.76|CN|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|S|
+C Timberling Seeds|QID|918|M|60.81,65.71;58.11,71.76|CN|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|
+C Timberling Sprouts|QID|919|M|60.81,65.71;58.11,71.76|CN|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|US|
 T Timberling Seeds|QID|918|M|60.90,68.50|N|To Denalan.|
 A Rellian Greenspyre|QID|922|PRE|918|M|60.90,68.50|N|From Denalan.|
-
 T Timberling Sprouts|QID|919|M|60.90,68.50|N|To Denalan.|
+L Level 8|ACTIVE|489|N|Grind until you're within 3 bubbles of level 8.|LVL|7;-625|
 
-C Seek Redemption!|QID|489|M|59,56;59,61.25;60.2,62.25|CN|N|Look out for Fel Cones at the base of the bigger trees. Green smoke comes out of them.|US|NC|
+C Seek Redemption!|QID|489|M|59,56;59,61.25;60.2,62.25|CN|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|US|
 T Seek Redemption!|QID|489|M|60.43,56.25|N|To Zenn Foulhoof. If he is a frog, wait up to one minute (another player has just done this quest).|
+r Sell and Repair|ACTIVE|932|M|56.24,59.52|N|Sell Junk and Repair.|
+= Level 8 Training|ACTIVE|932|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Dolanaar|
 
-r Sell and Repair|ACTIVE|932|M|56.25,59.25|N|Sell Junk and Repair.|
+R Fel Rock|ACTIVE|932|QO|1|M|53.94,58.13;53.65,55.86;54.65,52.65|CC|N|The cave entrance is behind the tree building.|
+R Twisted Hatred|ACTIVE|932|QO|1|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|N|Inside the cave keep right.|
+K Lord Melenas|QID|932|M|51.45,49.91;51.22,50.74|CN|L|5221|N|Kill and loot Lord Melenas.\n[color=FF0000]NOTE: [/color]He spawns in two places, either on the ledge, or in the cavern below it.\nHe's level 8 and hits very hard for his level, transforming into a cat during the fight. He usually has two adds and will . His adds can be pulled single if you do it right.\nIf you're a caster, pull him from max range and use a Severed Voodoo Claw on him. It will reduce his damage a little.\n[color=FF8000]Killing and looting him is your priority, the adds are just noise.[/color]|T|Lord Melenas|
 
-; Guide displays error: WoWPro: Warning: malformed profession tag [Alchemy;171]
-;A Elixirs for the Bladeleafs|QID|1581|P|Alchemy;171|M|56.09,57.72|N|Only available for Alchemists with a skill of at least 20. You will not be told when to turn this in. Do it at your own speed and turn it in whenever you can.|
-
-R Twisted Hatred|ACTIVE|932|M|53.94,58.13;53.65,55.86;54.65,52.65|CC|N|The cave for this quest is behind the tree building.|
-R Twisted Hatred|ACTIVE|932|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|N|Inside the cave keep right.|
-C Twisted Hatred|QID|932|M|55,53|N|Kill and loot Lord Melenas. He spawns in two places, either on the ledge, or in the cavern south-west. He is level 8 and hits very hard for his level. If you're a caster, pull him from max range and use Severed Voodoo Claw on him. It will reduce his damage a little. He usually has two adds and will transform into a cat during the fight. As long as you manage to loot him, it doesn't matter if the adds will kill you.|T|Lord Melenas|
-
-N Hearth or Grind|ACTIVE|2459|N|By this time, most of the things you've killed to get in here have respawned. You can either use your hearthstone or you can grind your way back to Dolanaar.\nDepending upon bag space, I recommend grinding for the much needed exp.|
+H Hearth or Grind|ACTIVE|932|M|53.94,58.13|N|As most of the mobs you've killed on the way in have respawned by now, use your Hearth or grind your way out.|TZ|Dolanaar|
 T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot.|
+r Sell and Repair|AVAILABLE|487|M|56.25,59.25|N|Sell Junk and Repair.|
 
-r Sell and Repair|ACTIVE|922|M|56.25,59.25|N|Sell Junk and Repair.|
+A The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CC|N|From Moon Priestess Amara, who'll be somewhere patrolling the westward road to Darnassus from Dolanaar.|
+R Darnassus|ACTIVE|487|M|50.21,53.87|CC|N|Run to Darnassus along the road.|
+N Skinning and Leatherworking|QID|922|M|42.09,49.97|N|If you're interested, stop by the Leatherworking and Skinning Trainers in the hut just past the bridge.\n[color=FF0000]NOTE: [/color]You'll need to buy a skinning knife in Darnassus before you can do any skinning.\n\nManually check this step off if you wish.|S|
+R Darnassus|QID|922|M|39.02,53.24;36.28,54.37|CC|N|Continue west along the road to Darnassus.|
 
-A The Road to Darnassus|QID|487|M|55.54,58.42|N|As you run along the road, From Moon Priestess Amara, who will be somewhere along the road patrolling.|S|
-R Darnassus|QID|922|M|54.85,58.47;51.47,56.54;47.25,49.62;44.33,50.71|CC|N|Run to Darnassus along the road.|
-N Skinning and Leatherworking|QID|922|M|42.09,49.97|N|Stop by the Leatherworking and Skinning Trainers if you are interested in those professions. Right click this off.|S|
-R Darnassus|QID|922|M|39.02,53.24;36.28,54.37|CC|N|Run to Darnassus along the road.|
-
-; Guide displays error: WoWPro: Warning: malformed profession tag [Skinning;393]
-; B Skinning Knife|QID|922|L|7005|N|Buy a Skinning Knife from Mytrhin'dir if you just learned Skinning.|S|P|Skinning;393|
-
-N Visit the Bank and Fishing Trainer|QID|922|M|40.02,42.28|Z|Darnassus|CC|N|When in Darnassus take a minute and visit the bank to offload items. Be sure to visit the Fishing trainer who is just to the east of the bank.\nYou can visit the Auction House and other profession trainers before you leave, as well.|S|
+r Housekeeping|ACTIVE|922|N|While in Darnassus, take a minute to visit the bank to offload items, the Fishing trainer (who's just to the east of the bank), the Auction House, and any other profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
+B Skinning Knife|ACTIVE|922|M|63.69,22.27;60.97,17.67|CN|Z|Darnassus|L|7005|N|You'll need to buy this from Saenorion at the Leatherworking Shop or from Mythrin'dir at the General Trade Shop (both in the Craftsmen's Terrace).|P|Skinning;393;0+1|
 
 T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
