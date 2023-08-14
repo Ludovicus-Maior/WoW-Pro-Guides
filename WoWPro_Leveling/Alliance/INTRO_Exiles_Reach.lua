@@ -255,7 +255,7 @@ T An Urgent Meeting|QID|58912|M|85.22,32.04|Z|Stormwind City|N|Turn into Captain
 A Battle for Azeroth: Tides of War|QID|58983|PRE|58912|M|85.22,32.04|Z|Stormwind City|N|From Captain Garrick|
 C Battle for Azeroth: Tides of War|QID|58983|M|85.27,32.30|Z|Stormwind City|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
 T Battle for Azeroth: Tides of War|QID|58983|M|85.91,31.56|Z|Stormwind City|N|Turn into Anduin Wrynn.|
-A The Nation of Kul Tiras|QID|59641^46728|PRE|58983|M|85.91,31.56|Z|Stormwind City|N|From Anduin Wrynn. Pick the bottom option if you would like a ride.|
+A The Nation of Kul Tiras|QID|59641^46728|PRE|58983|M|85.91,31.56|Z|Stormwind City|N|From Anduin Wrynn.|
 C The Nation of Kul Tiras|QID|59641|M|85.30,32.01|Z|Stormwind City|QO|1|N|Speak with Captain Garrick.|CHAT|
 C The Nation of Kul Tiras|QID|59641|M|77.68,39.26|Z|Stormwind City|QO|2|N|Run out of the keep and you will find Loretta Banks for a free ride to the Docks.|CHAT|
 C The Nation of Kul Tiras|QID|59641|M|22.78,24.87|Z|Stormwind City|QO|3|N|Speak with Jaina to set sail.|CHAT|
