@@ -5,7 +5,7 @@ WoWPro:GuideLevels(guide, 19, 25)
 WoWPro:GuideSteps(guide, function()
 return [[
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
-
+N Draenei
 ; Darkshore Guide Synchronization Steps
 f Stormwind|AVAILABLE|343|M|70.99,72.55|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Stormwind|
 h Stormwind City|QID|272|M|60.41,75.25|N|Head to the Innkeeper in the trade district and set your hearthstone|C|Druid|
@@ -27,15 +27,16 @@ A Aquatic Form|QID|5061|PRE|272|M|56.21,30.62|Z|1450;Moonglade|N|From Dendrite S
 F Rut'theran Village|ACTIVE|5061|M|44.15,45.22|Z|1450;Moonglade|N|Fly back using the Darnassus Flight Master.|C|Druid|
 R Darnassus|ACTIVE|5061|M|55.86,89.45|Z|1457;Darnassus|N|Walk into the portal back to Darnassus.|C|Druid|
 T Aquatic Form|QID|5061|M|35.36,08.39|Z|1457;Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
-H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|TZ|Stormwind|C|Druid|
+H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|TZ|Stormwind City|C|Druid|
 ; **
-F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|TZ|Stormwind|C|-Druid|
+F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind City.|TZ|Stormwind City|C|-Druid|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|1429;Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|7.76,71.62|Z|1433;Redridge Mountains|N|Follow the road east to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|1433;Redridge Mountains|N|From Guard Parker.\n[color=FF0000]NOTE: [/color]If he's not standing there, he's pathing around the 'triangle'.|T|Guard Parker|
 T Encroaching Gnolls|QID|244|M|30.74,59.99|Z|1433;Redridge Mountains|N|To Deputy Feldon.|
 f Lakeshire|AVAILABLE|125|M|30.60,59.40|Z|1433;Redridge Mountains|N|Get the flight path from Ariena Stormfeather.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 A The Lost Tools|QID|125|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
+A Messenger to Stormwind|QID|120|M|29.99,44.44|Z|1433;Redridge Mountains|N|From Magistrate Solomon in the Lakeshire Town Hall.|
 T The Defias Brotherhood|QID|65|M|26.48,45.34|Z|1433;Redridge Mountains|N|To Wiley the Black upstairs at the Inn.|
 A The Defias Brotherhood|QID|132|PRE|65|M|26.48,45.34|Z|1433;Redridge Mountains|N|From Wiley the Black.|
 A Hilary's Necklace|QID|3741|M|29.32,53.64|Z|1433;Redridge Mountains|N|From Shawn, at the end of the dock.|
@@ -46,10 +47,12 @@ T Hilary's Necklace|QID|3741|M|29.24,53.62|Z|1433;Redridge Mountains|N|To Hilary
 F Sentinel Hill|ACTIVE|132|M|30.59,59.41|Z|1433;Redridge Mountains|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
 T The Defias Brotherhood|QID|132|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|PRE|132|M|56.33,47.52|Z|1436;Westfall|N|From Gryan Stoutmantle.|
-F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436;Westfall|N|On to Stormwind City.|TZ|Stormwind|
+F Stormwind|ACTIVE|135^120|M|56.56,52.65|Z|1436;Westfall|N|On to Stormwind City.|TZ|Stormwind City|
+T Messenger to Stormwind|QID|120|M|69.17,82.73|Z|1453;Stormwind City|N|To General Marcus Jonathan on the horse in front of the statue in Valley of Heroes.|
+A Messenger to Stormwind|QID|121|M|69.17,82.73|Z|1453;Stormwind City|N|From General Marcus Jonathan.|
 T The Defias Brotherhood|QID|135|M|78.31,70.73|Z|1453;Stormwind City|N|To Master Mathias Shaw on the 2nd floor of SI:7 in Old Town.|
 A The Defias Brotherhood|QID|141|PRE|135|M|78.31,70.73|Z|1453;Stormwind City|N|From Master Mathias Shaw.|
-F Sentinel Hill|ACTIVE|141|M|71.00,72.50|Z|1453;Stormwind City|N|Fly or Hearth to Westfall|U|6948|
+F Sentinel Hill|ACTIVE|141|M|70.99,72.55|Z|1453;Stormwind City|N|Fly or Hearth to Westfall|U|6948|
 
 ; Westfall 18-20
 T The Defias Brotherhood|QID|141|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
@@ -92,23 +95,22 @@ T Captain Sanders' Hidden Treasure|QID|140|M|25.97,16.92|Z|1436;Westfall|N|To Ca
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|Z|1436;Westfall|N|To Captain Grayson.|
 T The Coastal Menace|QID|104|M|30.01,86.02|Z|1436;Westfall|N|To Captain Grayson.|
 C The Defias Brotherhood|ACTIVE|142|M|44.48,69.70|Z|1436;Westfall|L|1381|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|T|Defias Messenger|US|
+L Level 20|N|Grind or run Deadmines until you are level 20|LVL|20|
 H Sentinel Hill|ACTIVE|142|M|52.90,53.63|Z|1436;Westfall|N|Hearth or run back to Sentinel Hill|
 T Red Leather Bandanas|QID|153|M|53.99,52.98|Z|1436;Westfall|N|To Scout Gillian.|
 T The People's Militia|QID|14|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
 T The Defias Brotherhood|QID|142|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood.|QID|155|PRE|142|M|55.68,47.50|Z|1436;Westfall|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom The Defias Traitor.\n[color=FF0000]NOTE: [/color]You may have to wait for him to spawn and he takes off running as soon as you accept.| ; ** Disabled auto-accept - Hendo72
 A The Defias Brotherhood.|QID|155|PRE|142|M|55.68,47.50|Z|1436;Westfall|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to The Defias Traitor to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to spawn.| ; ** Disabled auto-accept - Hendo72
-C The Defias Brotherhood|QID|155|M|42.54,71.58|Z|1436;Westfall|N|Escort the NPC to the end of Moonbrook. Do not let him die.|
+C The Defias Brotherhood|QID|155|M|42.54,71.58|Z|1436;Westfall|N|Escort the NPC to the end of Moonbrook.\n[color=FF0000]NOTE: [/color]Do not let him die.|
 T The Defias Brotherhood|QID|155|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
-F Stormwind|ACTIVE|399|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|TZ|Stormwind, Elwynn|
+F Stormwind|ACTIVE|399|M|56.55,52.65|Z|1436;Westfall|N|Fly to Stormwind.|TZ|Stormwind City|
 T Humble Beginnings|QID|399|M|57.61,47.85|Z|1453;Stormwind City|N|To Baros Alexston.|
-
-F Lakeshire|ACTIVE|116|M|70.92,72.61|Z|1453;Stormwind City|N|Fly to Redridge.|
-t Return to Verner|QID|119|M|30.97,47.27|Z|1433;Redridge Mountains|N|To Verner Osgood.|;if not done elwynn guide --
-t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|1433;Redridge Mountains|N|To Magistrate Solomon.|
+F Lakeshire|ACTIVE|116^119^121|M|70.99,72.55|Z|1453;Stormwind City|N|Fly to Redridge Mountains.|
+t Return to Verner|QID|119|M|30.97,47.27|Z|1433;Redridge Mountains|N|To Verner Osgood.| ;if not done elwynn guide
+T Messenger to Stormwind|QID|121|M|29.99,44.44|Z|1433;Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|PRE|121|M|29.99,44.44|Z|1433;Redridge Mountains|N|From Magistrate Solomon.|
 T Dry Times|QID|116|M|26.49,43.95|Z|1433;Redridge Mountains|N|To Barkeep Daniels.|
-L Level 20|N|Grind or run Deadmines until you are level 20|LVL|20|
 H Westfall|ACTIVE|143|N|Return to Westfall, fly if your hearthstone isn't ready.|
 T Messenger to Westfall|QID|143|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
 A Messenger to Westfall|QID|144|PRE|143|M|56.33,47.52|Z|1436;Westfall|N|From Gryan Stoutmantle|
@@ -119,9 +121,9 @@ A Brother Paxton|QID|344|PRE|343|M|77.08,30.22|Z|1453;Stormwind City|N|From Brot
 h Stormwind City|ACTIVE|344|M|60.38,75.27|Z|1453;Stormwind City|N|At Innkeeper Allison.|
 
 ;Rogue class questchain
-N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436;Westfall|N|coords You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
+N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436;Westfall|N|coords You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;1|
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|1453;Stormwind City|N|coords From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
-F Sentinal Hill|ACTIVE|2360|M|71.00,72.50|Z|1453;Stormwind City|N|Fly to Westfall|C|Rogue|P|Lockpicking;633;0+70;0|
+F Sentinal Hill|ACTIVE|2360|M|70.99,72.55|Z|1453;Stormwind City|N|Fly to Westfall|C|Rogue|P|Lockpicking;633;0+70;0|
 T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436;Westfall|N|coords To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
 A Klaven's Tower|QID|2359|PRE|2360|M|68.4,70.2|Z|1436;Westfall|N|coords From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|
 C Klaven's Tower|QID|2359|QO|2|M|70,75|Z|1436;Westfall|N|coords Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
@@ -143,43 +145,47 @@ T Brother Paxton|QID|344|M|49.60,40.41|Z|1429;Elwynn Forest|N|To Brother Paxton,
 A Ink Supplies|QID|345|PRE|344|M|49.60,40.41|Z|1429;Elwynn Forest|N|From Brother Paxton.|
 r Repair/Restock|AVAILABLE|94|M|49.60,40.41|Z|1429;Elwynn Forest|N|Repair/Sell Junk ay one of the merchants in Northshire Valley.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A A Watchful Eye|QID|94|M|65.21,69.71|Z|1429;Elwynn Forest|N|From Theocritus, at the top of the Tower of Azora.|
-R Redridge Mountains|AVAILABLE|89|M|95.17,72.34|Z|1429;Elwynn Forest|N|Go to Redridge Mountains.|
+R Redridge Mountains|AVAILABLE|89|M|7.76,71.62|Z|1433;Redridge Mountains|N|Follow the road east to Redridge Mountains.|
 
-A The Everstill Bridge|QID|89|PRE|125|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
-T Ink Supplies|QID|345|M|32.2,48.6|Z|1433;Redridge Mountains|N|To Foreman Oslow.|
+T Ink Supplies|QID|345|M|32.14,48.64|Z|1433;Redridge Mountains|N|To Foreman Oslow.|
 A Rethban Ore|QID|347|PRE|345|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
+A The Everstill Bridge|QID|89|PRE|125|M|32.14,48.64|Z|1433;Redridge Mountains|N|From Foreman Oslow.|
 t Messenger to Westfall|QID|144|M|29.99,44.44|Z|1433;Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Darkshire|QID|145|PRE|144|M|29.99,44.44|Z|1433;Redridge Mountains|N|From Magistrate Solomon.|
-A Selling Fish|QID|127|M|27.8,47.3|Z|1433;Redridge Mountains|N|From Dockmaster Baren.|
-A Murloc Poachers|QID|150|M|27.8,47.3|Z|1433;Redridge Mountains|N|From Dockmaster Baren.|
+A Selling Fish|QID|127|M|27.73,47.38|Z|1433;Redridge Mountains|N|From Dockmaster Baren.|
+A Murloc Poachers|QID|150|M|27.73,47.38|Z|1433;Redridge Mountains|N|From Dockmaster Baren.|
 A Redridge Goulash|QID|92|M|22.68,43.83|Z|1433;Redridge Mountains|N|From Chef Breanna.|
-A Underbelly Scales|QID|122|PRE|119|M|30.96,47.27|Z|1433;Redridge Mountains|N|From Verner Osgood.|
+A An Unwelcome Guest|QID|34|M|21.86,46.31|Z|1433;Redridge Mountains|N|From Martie Jainrose.|
+A Underbelly Scales|QID|122|PRE|119|M|30.96,47.27|Z|1433;Redridge Mountains|N|From Verner Osgood.| ; ** PRE picked up in Elwynn guide - Hendo72
 A A Baying of Gnolls|QID|124|PRE|119|M|30.96,47.27|Z|1433;Redridge Mountains|N|From Verner Osgood.|
-C Underbelly Scales|QID|122|M|30.96,47.27|Z|1433;Redridge Mountains|N|Kill Black Dragon Whelps.|S|
-C Redridge Goulash|ACTIVE|92|QO|1;3|M|23.51,72.73|Z|1433;Redridge Mountains|N|Kill the tarantulas, and goretusks for the items required|S|
-C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|Z|1433;Redridge Mountains|N|Kill the condors for the items required|S|
-C Selling Fish|QID|127|M|38.23,51.25|Z|1433;Redridge Mountains|N|Kill Murlocs until you get the items for this quest.|S|
-C Murloc Poachers|QID|150|M|40.00,45.00|Z|1433;Redridge Mountains|N|Kill Murlocs until you get the items for this quest.|
-C Selling Fish|QID|127|M|38.23,51.25|Z|1433;Redridge Mountains|N|Kill Murlocs until you get the items for this quest.|US|
-C The Everstill Bridge|QID|89|M|40.73,37.79|Z|1433;Redridge Mountains|N|Kill Gnolls until you get the items for this quest.|S|
-K Redridge Brute|ACTIVE|124|QO|1|M|26.60,38.20|Z|1433;Redridge Mountains|N|Kill Brutes until you finish this quest.|
-K Redridge Mystic|ACTIVE|124|QO|2|M|35.00,39.40|Z|1433;Redridge Mountains|N|Kill Gnolls until you finish this quest.|
-C The Everstill Bridge|QID|89|M|40.73,37.79|Z|1433;Redridge Mountains|N|Kill Gnolls until you get the items for this quest.|US|
-C Rethban Ore|QID|347|M|19.90,34.65;20.40,27.80|CS|Z|1433;Redridge Mountains|N|Head to the west side most gnoll camp above Lakeshire and follow the path towards the cave.\nKill Redridge Drudgers in the cave to collect the ore. (Miners can  obtain Rethban ore from nodes in the cave)|
-C Redridge Goulash|ACTIVE|92|QO|1;3|M|23.51,72.73|Z|1433;Redridge Mountains|N|Collect any remaining items required from the tarantulas, and goretusks.|US|
-C Redridge Goulash|ACTIVE|92|QO|2|M|56.03,76.39|Z|1433;Redridge Mountains|N|Kill the condors for the items required|US|
-C Underbelly Scales|QID|122|M|43.00,31.60|CN|Z|1433;Redridge Mountains|N|Collect any remaining underbelly scales from Black Dragon Whelps.|US|
+C Underbelly Scales|QID|122|M|30.96,47.27|Z|1433;Redridge Mountains|L|1221 6|ITEM|1221|N|Black Dragon Whelps|S|
+l Redridge Goulash|ACTIVE|92|QO|1|M|23.51,72.73|Z|1433;Redridge Mountains|N|Kill Goretusks to loot the items.|S|
+C Selling Fish|QID|127|M|40.58,45.61|Z|1433;Redridge Mountains|L|1467 10|ITEM|1467|N|Any Murloc around Lake Everstill.|S|
+C Murloc Poachers|QID|150|M|40.58,45.61|Z|1433;Redridge Mountains|L|1468 8|ITEM|1468|N|Any Murloc around Lake Everstill.|
+C Selling Fish|QID|127|M|40.58,45.61|Z|1433;Redridge Mountains|L|1467 10|ITEM|1467|N|Any Murloc around Lake Everstill.|US|
+l The Everstill Bridge|QID|89|QO|1;2|M|40.73,37.79|Z|1433;Redridge Mountains|N|Kill the Gnolls around Redridge Canyons to loot the items.|S|
+C Redridge Goulash|ACTIVE|92|QO|2;3|M|54.01,41.64|Z|1433;Redridge Mountains|N|Kill Condors and Spiders in this area to loot the items.|
+K A Baying of Gnolls|ACTIVE|124|QO|1;2|M|26.60,38.20|Z|1433;Redridge Mountains|N|You'll find the Mystics and Brutes around Redridge Canyon.|S|
+R Rethban Caverns|ACTIVE|347|QO|1|M|19.67,33.91|Z|1433;Redridge Mountains|N|Head to the westernmost Gnoll camp above Lakeshire and follow the path north towards the entrance.|
+C Rethban Ore|QID|347|M|15.91,17.92|Z|1433;Redridge Mountains|L|2798 5|ITEM|2798|N|Redridge Drudgers in the Rethban Caverns.\n[color=FF0000]NOTE: [/color]Miners can obtain the Rethban Ore from nodes inside the cave.|
+l The Everstill Bridge|QID|89|QO|1;2|M|40.73,37.79|Z|1433;Redridge Mountains|N|Kill the Gnolls around Redridge Canyons to loot the items.|US|
+K A Baying of Gnolls|ACTIVE|124|QO|1;2|M|26.60,38.20|Z|1433;Redridge Mountains|N|You'll find the Mystics and Brutes around Redridge Canyon.|US|
+K Bellygrub|ACTIVE|34|QO|1|M|16.36,49.05|Z|1433;Redridge Mountains|N|Look for him as you make your way south along the west edge of Lake Everstill.|
+l Redridge Goulash|ACTIVE|92|QO|1|M|23.51,72.73|Z|1433;Redridge Mountains|N|Kill Goretusks to loot the items.\n[color=FF0000]NOTE: [/color]They're found at the west end of Lake Everstill and around the hills running along the southern shore.|US|
+C Underbelly Scales|QID|122|M|33.84,66.23|Z|1433;Redridge Mountains|L|1221 6|ITEM|1221|N|Black Dragon Whelps\n[color=FF0000]NOTE: [/color]They're found in the hills to the south of Lake Everstill and north of Lakeridge Highway.|US|
 T The Everstill Bridge|QID|89|M|32.14,48.64|Z|1433;Redridge Mountains|N|To Foreman Oslow.|
 T Underbelly Scales|QID|122|M|30.96,47.27|Z|1433;Redridge Mountains|N|To Verner Osgood.|
 T A Baying of Gnolls|QID|124|M|30.96,47.27|Z|1433;Redridge Mountains|N|To Verner Osgood.|
-T Selling Fish|QID|127|M|27.8,47.3|Z|1433;Redridge Mountains|N|To Dockmaster Baren.|
-T Murloc Poachers|QID|150|M|27.8,47.3|Z|1433;Redridge Mountains|N|To Dockmaster Baren.|
+T Selling Fish|QID|127|M|27.73,47.38|Z|1433;Redridge Mountains|N|To Dockmaster Baren.|
+T Murloc Poachers|QID|150|M|27.73,47.38|Z|1433;Redridge Mountains|N|To Dockmaster Baren.|
 T Redridge Goulash|QID|92|M|22.68,43.83|Z|1433;Redridge Mountains|N|To Chef Breanna.|
+T An Unwelcome Guest|QID|34|M|21.86,46.31|Z|1433;Redridge Mountains|N|To Martie Jainrose.|
 
-H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|TZ|Stormwind|
-T Rethban Ore|QID|347|M|49.60,40.41|Z|1429;Elwynn Forest|N|To Brother Paxton in Northshire.|
-A Return to Kristoff|QID|346|PRE|347|M|49.60,40.41|Z|1429;Elwynn Forest|N|From Brother Paxton in Northshire.|
-= Train|ACTIVE|346|N|If needed, Don't forget to train while you are in town. (check step off manually)|
+F Stormwind|ACTIVE|347|M|30.60,59.40|Z|1433;Redridge Mountains|N|Fly to Stormwind.|TZ|Stormwind City|
+T Rethban Ore|QID|347|M|49.60,40.41|Z|1429;Elwynn Forest|N|To Brother Paxton in Northshire Valley.|
+A Return to Kristoff|QID|346|PRE|347|M|49.60,40.41|Z|1429;Elwynn Forest|N|From Brother Paxton.|
+R Stormwind City|ACTIVE|346|M|74.55,93.05|Z|1453;Stormwind City|N|Return to Stormwind City, or use your Hearth|U|6948|
+= Train|ACTIVE|346|M|PLAYER|CC|N|Don't forget to do any training available while you are in town.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Return to Kristoff|QID|346|M|54.98,54.08|Z|1453;Stormwind City|N|To Brother Kristoff in Cathedral Square.|
 F Darkshire|ACTIVE|145|M|71.03,72.62|Z|1453;Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
 F Lakeshire|AVAILABLE|163|M|71.03,72.62|Z|1453;Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
