@@ -154,57 +154,60 @@ T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
 R Teldrassil|QID|933|M|88.39,35.55|Z|Darnassus|CC|N|Head back to Teldrassil.|
 
-U Crown of the Earth|QID|933|QO|1|M|42.40,67.08|N|Fill the Tourmaline Phial at the moonwell.|U|5621|NC|
+C Crown of the Earth|QID|933|QO|1|M|42.40,67.08|L|5645|N|Fill the Tourmaline Phial at the Pools of Arlithrien moonwell.|U|5621|NC|
 R Ban'ethil Hollow|ACTIVE|487|QO|1|M|40.35,54.03;43.35,53.95|CS|N|Head to Ban'ethil Hollow (a cave just south of the road)|
-C The Road to Darnassus|QID|487|M|46,52|N|Kill the Gnarlpine Ambushers.|
+K The Road to Darnassus|ACTIVE|487|QO|1|M|46.21,52.96|N|Kill the Gnarlpine Ambushers.|
 R Ban'ethil Barrow Den|ACTIVE|483|M|44.33,57.93|N|Enter Ban'ethil Barrow Den.|
-C Rune of Nesting|QID|483|QO|4|M|44.4,60.7|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
-C Black Feather Quill|QID|483|QO|2|M|43.73,61.23|L|3406|N|Back across the bridge, then take bridge to the left, box is on right in chamber|
+C Rune of Nesting|QID|483|QO|4|M|44.40,60.66|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
+C Black Feather Quill|QID|483|QO|2|M|43.70,61.21|L|3406|N|Back across the bridge, then take bridge to the left, box is on right in chamber|
 
-A The Sleeping Druid|QID|2541|M|44.95,61.59|N|Jump down the lower floor, turn left to the chamber then across bridge. From Oben Rageclaw.|
+A The Sleeping Druid|QID|2541|M|44.95,61.59|N|From Oben Rageclaw.\n[color=FF0000]NOTE: [/color]Drop down to the lower level and follow the path to your left to the chamber on the other side of the bridge.|
 C The Sleeping Druid|QID|2541|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|S|
-C Sapphire of Sky|QID|483|QO|3|M|44.69,62.45|L|3407|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw. Note, Greenpaw is a Level 10 and hits hard.|
-R Up the ramp|QID|483|M|45.39,58.00;46.15,58.37|CC|N|On the opposite side of the second chamber. Watch out for Ravenclaw who patrols around the lower level.|
-C Raven Claw Talisman|QID|483|QO|1|M|45.65,57.45|L|3405|N|Further on the passageway, when it gets to the cavern, go left up the ramp, then right across the bridge. The chest is on the balcony.|
-C The Sleeping Druid|QID|2541|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|US|
+C Sapphire of Sky|QID|483|QO|3|M|44.69,62.45|L|3407|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw.\n[color=FF0000]NOTE: [/color]Greenpaw is a Level 10 and hits hard.|
+R Raven Claw Talisman|ACTIVE|483|QO|1|M|45.39,58.00;46.15,58.37|CC|N|Continue on down the passage to the next chamber and head up the ramp on your left as you enter.\n[color=FF0000]NOTE: [/color]Watch out for Rageclaw (the bad one) who patrols around the lower level.|
+C Raven Claw Talisman|QID|483|QO|1|M|45.39,58.00;46.15,58.37;45.65,57.45|CC|L|3405|N|Cross the bridge and follow the passage around to where you'll find the chest on the balcony.\n[color=FF0000]NOTE: [/color]Each 'room' has 2-3 Gnarlpine Augers that you'll have to clear to move on.|
+C The Sleeping Druid|QID|2541|M|43.96,61.62|L|8363|N|Gnarlpine Shamans\nWorking your way back to the second tier of bridges, kill Shamans until one of them drops the Charm.\n[color=FF0000]NOTE: [/color]This may take a long time and you can use the grind.|US|
 T The Sleeping Druid|QID|2541|M|44.95,61.59|N|To Oben Rageclaw.|
 A Druid of the Claw|QID|2561|PRE|2541|M|44.95,61.59|N|From Oben Rageclaw.|
-C Druid of the Claw|QID|2561|M|45.39,58.00|N|Go north from the second chamber to the northern most room. Rageclaw is walking under them in a circle. He can be tough at level 9/10. As you engage he will transform into a bear. Curse him with your Severed Voodoo Claw to reduce his damage. Use the Voodoo Charm on the corpse.|T|Rageclaw|U|8149|
+C Druid of the Claw|QID|2561|M|45.39,58.00|N|After returning to where Rageclaw is circling, kill him and use the Voodoo Charm on his corpse.|T|Rageclaw|U|8149|
 T Druid of the Claw|QID|2561|M|44.95,61.59|N|To Oben Rageclaw.|
-L Level 10|QID|933|N|Grind until you're within 7 bubbles of level |LVL|9;-2250|
-H Dolanaar|QID|933|N|Hearth back to Dolanaar.|LVL|10|
+L Level 10|ACTIVE|933|N|Grind until you're within 3 bubbles of level 10.|LVL|9;-775|
+H Dolanaar|ACTIVE|933|M|PLAYER|CC|N|Hearth back to Dolanaar.|
 
-; --- level 10 class quests start from here ---
 r Sell and Repair|AVAILABLE|486|N|Sell Junk and Repair.|S|
 T Crown of the Earth|QID|933|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|7383|PRE|933|M|56.15,61.71|N|From Corithras Moonrage.|
-A Heeding the Call|QID|5925|M|55.95,61.65|N|From Kal.|C|Druid|
+; --- level 10 class quests start from here ---
+= Level 10 Training|AVAILABLE|5925|M|55.94,61.57|N|Do your level 10 training with Kal.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|LVL|10|IZ|Dolanaar|
+A Heeding the Call|QID|5925|M|55.94,61.57|N|From Kal.|C|Druid|LVL|10|
 T The Relics of Wakening|QID|483|M|55.96,57.28|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|N|From Athridas Bearmantle.|
-
-A Elanaria|QID|1684|M|56.21,59.19|N|From Kyra Windblade.|C|Warrior|
-A The Apple Falls|QID|2241|M|56.37,60.13|N|From Jannok Breezesong.|C|Rogue|
-
-= Train your skills|AVAILABLE|5629|M|55.56,56.75|N|At Laurna Morninglight.|C|Priest|
-A Returning Home|QID|5629|M|55.56,56.75|N|From Laurna Morninglight.|C|Priest|
+= Level 10 Training|AVAILABLE|1684|M|56.21,59.19|N|Do your level 10 training with Kyra Windblade.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warrior|LVL|10|IZ|Dolanaar|
+A Elanaria|QID|1684|M|56.21,59.19|N|From Kyra Windblade.|C|Warrior|LVL|10|
+= Level 10 Training|AVAILABLE|2241|M|56.37,60.13|N|Do your level 10 training with Jannok Breezesong.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|LVL|10|IZ|Dolanaar|
+A The Apple Falls|QID|2241|M|56.37,60.13|N|From Jannok Breezesong.|C|Rogue|LVL|10|
+= Level 10 Training|AVAILABLE|5629|M|55.56,56.75|N|Do your level 10 training with Laurna Morninglight.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Priest|LVL|10|IZ|Dolanaar|
+A Returning Home|QID|5629|M|55.56,56.75|N|From Laurna Morninglight.|C|Priest|LVL|10|
 
 ; Race specific Hunter quest, other races have their own versions in their own areas.
-A Taming the Beast|QID|6063|M|56.68,59.50|N|From Dazalar.|C|Hunter|R|Night Elf|
+= Level 10 Training|ACTIVE|487|M|56.68,59.50|N|Do your level 10 training with Dazalar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|LVL|10|IZ|Dolanaar|
+A Taming the Beast|QID|6063|M|56.68,59.50|N|From Dazalar.|C|Hunter|R|Night Elf|LVL|10|
 C Taming the Beast|QID|6063|M|58.85,59.87|N|Tame a Webwood Lurker by using the rod.|U|15921|C|Hunter|R|Night Elf|
 T Taming the Beast|QID|6063|M|56.68,59.50|N|To Dazalar.|C|Hunter|R|Night Elf|
-A Taming the Beast|QID|6101|PRE|6063|M|56.68,59.50|N|From Dazalar. You will need to dismiss your Webwood Lurker before you can tame your next pet: Right click its portrait and choose Dismiss.|C|Hunter|R|Night Elf|
-C Taming the Beast|QID|6101|M|55.97,71.72|N|Tame a Nightsaber Stalker.|U|15922|C|Hunter|R|Night Elf|
+A Taming the Beast|QID|6101|PRE|6063|M|56.68,59.50|N|From Dazalar.|C|Hunter|R|Night Elf|
+C Taming the Beast|QID|6101|M|55.97,71.72|N|Tame a Nightsaber Stalker.\n[color=FF0000]NOTE: [/color]You'll need to dismiss your current pet before you can tame your next one. Right-click on its portrait and choose Dismiss.|U|15922|C|Hunter|R|Night Elf|
 T Taming the Beast|QID|6101|M|56.68,59.50|N|To Dazalar.|C|Hunter|R|Night Elf|
 A Taming the Beast|QID|6102|PRE|6101|M|56.68,59.50|N|From Dazalar.|C|Hunter|R|Night Elf|
 C Taming the Beast|QID|6102|M|44.01,51.12|N|Tame a Strigid Screecher.|U|15923|C|Hunter|R|Night Elf|
 T Taming the Beast|QID|6102|M|56.68,59.50|N|To Dazalar.|C|Hunter|R|Night Elf|
 A Training the Beast|QID|6103|PRE|6102|M|56.68,59.50|N|From Dazalar.\n[color=FF0000]NOTE: [/color]You can tame your first pet now, but can't feed it yet; we have to go to Darnassus for that.|C|Hunter|R|Night Elf|
 
-T The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87|CS|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
-
-R Darnassus|QID|923|M|47.27,49.59|CC|N|Run west to Darnassus. We make a detour to pick up the Mossy Tumors on the way.|
-C Tumors|QID|923|QO|1|M|43.67,42.85|N|Kill and loot Timberlings for the Mossy Tumors, found along and in Wellspring River.|
-R Darnassus|QID|923|M|36.24,54.32|CC|N|Continue west to Darnassus.|
+T The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CS|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
+R Wellspring Lake|ACTIVE|923|QO|1|M|44.36,49.96;43.80,45.97|CC|N|Run west towards Darnassus and turn north down the hill when you reach the bridge/log.|
+K Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|L|5179|N|A Level 13 rare that spawns on the NE bank of the Wellspring River before the last waterfall. He drops a quest starter.\n[color=FF0000]NOTE: [/color]If he's not there, skip this because he has a 2hr+ respawn timer.|T|Blackmoss the Fetid|IZ|Wellspring River|S!US|
+A The Moss-twined Heart|QID|927|M|PLAYER|N|Click on the item to start the quest.|U|5179|O|
+C Tumors|QID|923|QO|1|M|43.58,27.27|L|5170 5|ITEM|5170|N|Any type of Timberling found in the area around Wellspring River (from the lake to the last waterfall).|
+R Darnassus|QID|923|M|88.20,35.61|Z|Darnassus|N|Return to the road and continue west to Darnassus.|
 A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
 
 T Elanaria|QID|1684|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|C|Warrior|
@@ -218,10 +221,10 @@ R Enter the Rogue's Den|QID|2241|M|33.64,15.89|Z|Darnassus|C|Rogue|
 T The Apple Falls|QID|2241|M|36.99,21.92|Z|Darnassus|N|To Syurna.|C|Rogue|
 A Destiny Calls|QID|2242|PRE|2241|M|36.99,21.92|Z|Darnassus|N|From Syurna.|C|Rogue|
 
-R Heeding the Call|QID|5925|M|35.56,10.74|Z|Darnassus|CC|N|Go one floor up inside this building.|C|Druid|
+R Heeding the Call|QID|5925|M|35.56,10.74|Z|Darnassus|CC|N|Enter this building.|C|Druid|
 T Heeding the Call|QID|5925|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 A Moonglade|QID|5921|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
-
+N Portal Spell|ACTIVE|5921|N|I recommend putting the 'Teleport: Moonglade' you just received from Mathrengyl on one of your bars for easier access.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
 T Training the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|
 R Learn Pet Skills|QID|6344|C|Hunter|M|42.5,9.15|Z|Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|
 
@@ -232,77 +235,73 @@ A The Bounty of Teldrassil|QID|6341|PRE|6344|M|56.25,92.44|N|From Nessa Shadowso
 T The Bounty of Teldrassil|QID|6341|M|58.40,94.01|N|To Vesprystus.|
 A Flight to Auberdine|QID|6342|PRE|6341|M|58.40,94.01|N|From Vesprystus.|
 
-
-T Moonglade|QID|5921|M|56.21,30.62|Z|Moonglade|N|Use the teleport spell you learned from Mathrengyl Bearwalker. To Dendrite Starblaze.|C|Druid|
+P Moonglade|ACTIVE|5921|M|PLAYER|CC|N|Use the teleport spell you learned from Mathrengyl Bearwalker.|C|Druid|
+T Moonglade|QID|5921|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze on the second floor.|C|Druid|
 A Great Bear Spirit|QID|5929|PRE|5921|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|C|Druid|
-C Great Bear Spirit|QID|5929|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|CHAT|C|Druid|
-T Great Bear Spirit|QID|5929|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|C|Druid|
+C Great Bear Spirit|QID|5929|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|C|Druid|CHAT|
+T Great Bear Spirit|QID|5929|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.\n[color=FF0000]NOTE: [/color]Use your Teleport: Moonglade to save time running back.|C|Druid|
 A Back to Darnassus|QID|5931|PRE|5929|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|C|Druid|
-H Darnassus|QID|5931|M|44.15,45.22|Z|Moonglade|N|If your Hearth is up use it, otherwise fly back using the Darnassus Flight Master.|C|Druid|
-R Darnassus|QID|5931|M|55.86,89.45|N|Walk into the portal back to Darnassus.|C|Druid|
+H Darnassus|QID|5931|M|44.15,45.22|Z|Moonglade|N|If your Hearth is on cooldown, take the flight to Rut'theran Village from Silva Fil'naveth and walk into the portal back to Darnassus.|C|Druid|
 T Back to Darnassus|QID|5931|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
 R Rut'theran Village|ACTIVE|6001|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
 
-F Auberdine|ACTIVE|6342|M|58.40,94.01|N|At Flight Master Vesprystus.|
+F Auberdine|ACTIVE|6342|M|58.40,94.01|N|At Vesprystus.|
 T Flight to Auberdine|QID|6342|M|36.77,44.29|Z|Darkshore|N|To Laird.|
 A Return to Nessa|QID|6343|PRE|6342|M|36.77,44.29|Z|Darkshore|N|From Laird.|
-C Body and Heart|QID|6001|QO|1|M|43.22,45.70|Z|Darkshore|N|Use the Cenarion Moondust on the Moonkin Stone in the cave and summon Lunaclaw. Defeat him, then talk to his ghost.|U|15208|C|Druid|
+C Body and Heart|QID|6001|QO|1|M|43.49,45.97|Z|Darkshore|N|After using the Cenarion Moondust on the Moonkin Stone to summon Lunaclaw, defeat him and talk to his spirit to finish.|U|15208|C|Druid|
 F Rut'theran Village|ACTIVE|6343|M|36.34,45.57|Z|Darkshore|N|At flight master Caylais Moonfeather.|
 T Return to Nessa|QID|6343|M|56.25,92.44|N|To Nessa Shadowsong.|
 
 R Darnassus|ACTIVE|2519|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
 T Body and Heart|QID|6001|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
-R The Temple of the Moon|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|Z|Darnassus|CS|N|Head to the top floor of The Temple of the Moon|
-T The Temple of the Moon|QID|2519|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora up the ramp.|
+R Temple of the Moon|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|CS|Z|Darnassus|N|Enter Temple of the Moon.|
+T The Temple of the Moon|QID|2519|M|40.49,91.51;36.63,85.94|CC|Z|Darnassus|N|To Priestess A'moora (take the ramp up to the second floor).|
 A Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
 
 T Returning Home|QID|5629|M|39.52,81.18|Z|Darnassus|N|To Priestess Alathea.|C|Priest|
-R Teldrassil|ACTIVE|7383|M|39.04,77.18;80.04,40.40;88.39,35.55|Z|Darnassus|CC|N|Exit the temple and head back to Teldrassil.|
-
-U Crown of the Earth|QID|7383|QO|1|M|38.44,34.06|N|Fill the Amethyst Phial.|U|18152|NC|
+R Teldrassil|ACTIVE|7383|M|35.71,54.38|N|Make your way to the exit back to Teldrassil.|
+R The Oracle Glade|ACTIVE|7383|QO|1|M|38.61,51.86;38.03,39.15|CC|N|Follow the road east from Darnassus to the sign post and then take the road north from there.|
+U Crown of the Earth|ACTIVE|7383|QO|1|M|38.44,34.06|N|Fill the Amethyst Phial at the Oracle Glade moonwell (a little further up the road on the right side).|U|18152|NC|
 A The Enchanted Glade|QID|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
 ; N Enchanting|M|36.72,34.18|N|If you want to learn enchanting the trainer is here.|
 
-R Wellspring River|ACTIVE|937|M|41.79,29.37|CC|N|Go in direction of the Wellspring river.|
-
-N Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|N|Blackmoss the Fetid is a Level 13 rare beast that spawns on the NE bank of the Wellspring Lake.\n[color=FF0000]NOTE: [/color]If he's not there, skip this quest because he has a 2hr+ respawn timer.|T|Blackmoss the Fetid|
-A The Moss-twined Heart|QID|927|M|43.37,27.75|N|This item is dropped by Blackmoss. Use it to accept the quest.|U|5179|O|
-C Tears of the Moon|QID|2518|M|41.81,25.24;48.01,25.11;39.15,25.27|CN|N|Kill and loot the spider Lady Sathrah for the Silvery Spinnerets. She spawns in multiple locations.|T|Lady Sathrah|
+R Wellspring River|ACTIVE|937|M|41.79,29.37|N|Go in direction of the Wellspring river.|
+C Tears of the Moon|QID|2518|M|47.88,25.34;41.81,25.24;39.15,25.27;47.88,25.34|CS|L|8344|ITEM|8344|N|Lady Sathrah, a large spider found in the area of one of three spawn locations.\n[color=FF0000]NOTE: [/color]Stick to the northern edge of the map to avoid excessive fighting.|T|Lady Sathrah|
 C Destiny Calls|QID|2242|M|37,21|N|coords Stealth up, sneak behind him and pickpocket Sethir's Journal.|C|Rogue|
 
-C The Enchanted Glade|QID|937|N|Kill and loot the harpies for the Bloodfeather Belts.|S|
-A The Shimmering Frond|QID|931|M|34.67,28.75|N|From the Strange Fronded Plant. Right-click the glowing tree.|
-C The Enchanted Glade|QID|937|M|33.0,32.0|N|Kill and loot the harpies until you have 6 Bloodfeather Belts.|US|
-A Mist|R|Human,Night Elf,Dwarf|QID|938|M|31,31|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Mist. An escort quest, once accepted, this will start a 9 minute timer.\n[color=FF0000]NOTE: [/color]If Mist is not here, someone is already on the quest and you have to wait.|
-A Mist|R|Human,Night Elf,Dwarf|QID|938|M|31,31|ELITE|N|[color=80FF00]Escort Quest:[/color]\nReturn to Mist to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|FAIL|
-C Mist|QID|938|M|38.32,34.37|N|Escort Mist to Sentinel Arynia Cloudsbreak.|
+C The Enchanted Glade|QID|937|M|33.00,32.00|L|5204 6|ITEM|5204|N|Any Bloodfeather Harpy.|S|
+A The Shimmering Frond|QID|931|M|34.67,28.75|N|From the Strange Fronded Plant.\n[color=FF0000]NOTE: [/color]Avoid fighting under the tree. Move away or you'll keep clicking on the tree if you don't.|
+C The Enchanted Glade|QID|937|M|33.00,32.00|L|5204 6|ITEM|5204|N|Any Bloodfeather Harpy.\n[color=FF0000]NOTE: [/color]Avoid fighting under the Strange Fronded Plant. Move away or you'll keep clicking on the tree if you don't.|US|
+A Mist|QID|938|M|31.53,31.61|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Mist, once you've cleared the area.\n[color=FF0000]NOTE: [/color]If Mist is not here, someone is already on the quest and you have to wait.|R|Human,Night Elf,Dwarf|
+A Mist|QID|938|M|31.53,31.61|ELITE|N|[color=80FF00]Escort Quest:[/color]\nReturn to Mist to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for him to respawn.|FAIL|R|Human,Night Elf,Dwarf|
+C Mist|QID|938|M|38.32,34.37|N|Lead Mist to Sentinel Arynia Cloudsbreak before the 9 minute timer expires.\n[color=FF0000]NOTE: [/color]Mist will not move unless you move. She will only follow, not lead.|
 T Mist|QID|938|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
 T The Enchanted Glade|QID|937|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
 A Teldrassil|QID|940|PRE|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
-R Dolanaar|ACTIVE|7383|M|47.23,49.56|CC|N|Head back to the path towards Dolanaar|S|
-L Level 11|N|If you are not level 11 yet grind on mobs.|LVL|11|
-R Vorlus Vilehoof|QID|1683|M|49.27,57.38;48.38,60.59|CS|N|Warriors take a detour to the path leading up to the old moonwell.|C|Warrior|
-C Vorlus Vilehoof|QID|1683|M|47.22,63.52|N|Follow the path up and kill him.|C|Warrior|
+R Dolanaar|ACTIVE|7383|M|44.03,49.76|CC|N|Head back to the path towards Dolanaar|S|LVL|10;-650|
+L Level 11|ACTIVE|7383|N|Grind until you're within 1.5 bubbles of level 11.|LVL|10;-650|
+R Dolanaar|ACTIVE|7383|M|44.03,49.76;50.40,54.15|CC|N|Head back to Dolanaar|US|
+R Vorlus Vilehoof|ACTIVE|1683|QO|1|M|48.70,59.69;48.61,62.50|CS|N|Warriors take a detour to the path leading up to the old moonwell.|C|Warrior|
+K Vorlus Vilehoof|ACTIVE|1683|M|47.23,63.51|N|Follow the 'lit path' up to the moonwell and kill him.|C|Warrior|
+R Dolanaar|ACTIVE|7383|M|51.47,56.57;54.68,58.48|CC|N|Head back to Dolanaar|
 
-R Dolanaar|ACTIVE|7383|M|47.25,49.6;54.8,58.5|CS|N|Head back to Dolanaar|
-
-r Sell and Repair|ACTIVE|7383|M|56.25,59.25|N|Sell Junk and Repair.|
-B Laminated Recurve Bow|QID|7383|C|Hunter|LVL|11|M|55.89,59.20|L|2507|N|If you can afford it (and since you are level 11 now) buy a Laminated Recurve Bow from Jeena Featherbow. It costs 17s51c and the 5.8dps is better than the Crown of Earth reward which only has 3.8 dps.|
+r Sell and Repair|ACTIVE|7383|M|55.89,59.20|N|Sell Junk and Repair at Jenna Featherbow.|
+B Laminated Recurve Bow|QID|7383|M|55.89,59.20|L|2507|N|If you can afford it (and since you are level 11 now) buy a Laminated Recurve Bow from Jeena Featherbow. It costs 17s51c and the 5.8dps is slightly better than the Crown of Earth reward.[color=FF0000]NOTE: [/color]Skip this step if you're not interested.|C|Hunter|LVL|11|
 T Crown of the Earth|QID|7383|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|935|PRE|7383|M|56.15,61.71|N|From Corithras Moonrage.|
 
 T Return to Denalan|QID|2498|M|60.90,68.50|N|To Denalan.|
-A Oakenscowl|QID|2499|PRE|2498|M|60.90,68.50|N|From Denalan. Note this is a Level 9 Elite quest.|
+A Oakenscowl|QID|2499|PRE|2498|M|60.90,68.50|N|From Denalan.|
 T The Shimmering Frond|QID|931|M|60.90,68.50|N|To Denalan.|
-
+A The Sprouted Fronds|QID|2399|PRE|931|M|60.79,68.58|N|Click on one of the sprouted plants.\n[color=FF0000]NOTE: [/color]Do not wait to do this, if they despawn on you, they are gone (and so is this quest) until someone else comes along and triggers this event again.\nSkip this quest if this happens to you.|
 T The Moss-twined Heart|QID|927|M|60.90,68.50|N|To Denalan.|
-A Planting the Heart|QID|941|PRE|927|N|Plant the Tainted Heart in Denalan's Planter. This will complete the quest.|
-A The Sprouted Fronds|QID|2399|PRE|931|M|60.79,68.58|N|Click on the trough and then right click one of the sprouted plants to show this quest.|
-C Oakenscowl|QID|2499|M|53.05,74.49|N|Inside the cave. He is Level 9 elite, but shouldn't be any problem to kill at your level. If you would accidentally pull an add or two, just curse him with your Severed Voodoo Claw (if you have charges left) to reduce his damage. Kill him and loot Gargantuan Tumor.|
+A Planting the Heart|QID|941|PRE|927|M|60.90,68.50|N|From Denalan.|
+T Planting the Heart|QID|941|M|60.77,68.59|N|Clicking on Denalan's Planter will plant the Tainted Heart to complete the quest and turn it in.|
+K Oakenscowl|ACTIVE|2499|QO|1|M|53.05,74.49|N|Located inside the cave, kill him to loot the Gargantuan Tumor.\n[color=FF0000]NOTE: [/color]From the cave entrance, you should be able to single pull his two guards without aggroing him.|
 R Strange Fruited Plant|QID|930|ACTIVE|2499|M|51.27,75.74|CC|N|Go up this path.|
-A The Glowing Fruit|QID|930|M|42.62,76.11|N|Right-click the glowing plant.|
-K Ursal the Mauler|QID|486|QO|1|M|39.04,80.08|N|He's level 12 and can be difficult for some classes. Try to single pull him: Watch his patrolling route and clear out a few of the other Furbolgs beforehand. Use your Severed Voodoo Claw to curse him (if you still have charges left) and the fight shouldn't be any problem.|T|Ursal the Mauler|
+A The Glowing Fruit|QID|930|M|42.61,76.17|N|From the Strange Fruited Plant.|
+K Ursal the Mauler|ACTIVE|486|QO|1|M|39.04,80.08|N|As quick as you can, clear a path to the top of the hill and anyone standing close to you. Time it right and you can single pull Ursal.|T|Ursal the Mauler|
 T Oakenscowl|QID|2499|M|60.90,68.50|N|To Denalan.|
 T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan. Wait for a bit, as Denalan will plant the fruit and three Boglings spawn. Kill them, they have a Bogling Root which increases damage by 1 for 10 minutes. Put your pet on passive if you are a hunter.|
 
