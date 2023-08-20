@@ -111,7 +111,7 @@ T Morganth|QID|249|M|65.2,69.8|Z|Elwynn Forest|N|To Theocritus|
 R Darkshire|QID|174|M|77.52,44.32|Z|Duskwood|N|Run to Darkshire.|
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Oops, you didn't buy it earlier. Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 r Sell junk and repair|QID|174|M|73.62,48.89|N|Sell and Repair with Gavin Gnarltree|Z|Duskwood|
-A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|Z|Duskwood|
+A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|Z|Duskwood|O|
 A Look To The Stars|QID|174|M|79.79,48.06|N|From Viktori Prism'Antras.|Z|Duskwood|
 T Look To The Stars|QID|174|M|79.79,48.06|N|To Viktori Prism'Antras.|Z|Duskwood|
 A Look To The Stars|QID|175|M|79.79,48.06|N|From Viktori Prism'Antras.|PRE|174|Z|Duskwood|
