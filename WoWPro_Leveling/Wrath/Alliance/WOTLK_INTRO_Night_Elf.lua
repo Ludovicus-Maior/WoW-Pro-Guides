@@ -213,7 +213,7 @@ A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
 T Elanaria|QID|1684|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|C|Warrior|
 A Vorlus Vilehoof|QID|1683|PRE|1684|M|57.34,34.66|Z|Darnassus|N|From Elanaria.|C|Warrior|
 
-h Craftsmen's Terrace|QID|923|M|67.42,15.69|Z|Darnassus|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|C|Druid|
+h Craftsmen's Terrace|QID|923|M|67.42,15.69|Z|Darnassus|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
 T Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
 
@@ -303,23 +303,29 @@ R Strange Fruited Plant|QID|930|ACTIVE|2499|M|51.27,75.74|CC|N|Go up this path.|
 A The Glowing Fruit|QID|930|M|42.61,76.17|N|From the Strange Fruited Plant.|
 K Ursal the Mauler|ACTIVE|486|QO|1|M|39.04,80.08|N|As quick as you can, clear a path to the top of the hill and anyone standing close to you. Time it right and you can single pull Ursal.|T|Ursal the Mauler|
 T Oakenscowl|QID|2499|M|60.90,68.50|N|To Denalan.|
-T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan. Wait for a bit, as Denalan will plant the fruit and three Boglings spawn. Kill them, they have a Bogling Root which increases damage by 1 for 10 minutes. Put your pet on passive if you are a hunter.|
+T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan.|
+N Bogling Root|AVAILABLE|-930|ACTIVE|486|L|5206|N|After for a few moments, Denalan will plant the fruit and three Boglings will spawn. Kill them to loot a Bogling Root which increases damage by 1 for 10 minutes.\n[color=FF0000]NOTE: [/color]Put your pet on passive if you're a hunter.|
 
-r Sell and Repair|QID|486|M|55.89,59.21|N|Sell Junk and Repair.|
+R Dolanaar|ACTIVE|486|M|57.11,63.62|N|Head back to the path towards Dolanaar|S|LVL|10;-650|
+L Level 12|ACTIVE|486|N|Grind on mobs in the area until you're within 2.5 bubbles of level 12.|LVL|11;-1150|
+R Dolanaar|ACTIVE|486|M|57.11,63.62|N|Head back to Dolanaar|US|
+r Sell and Repair|ACTIVE|486|M|56.24,59.51|N|Sell Junk and Repair.|
 T Ursal the Mauler|QID|486|M|55.96,57.28|N|To Athridas Bearmantle.|
 
-H Darnassus|ACTIVE|935|M|36.52,54.42|CC|N|If your Hearth is up use it, other wise run back to Darnassus.|C|Druid|
-R Darnassus|ACTIVE|935|M|36.52,54.42|CC|N|Run to Darnassus, say goodbye to Teldrassil.|C|-Druid|
+H Darnassus|ACTIVE|935|M|88.20,35.61|Z|Darnassus|N|Say goodbye to Teldrassil and hearth to Darnassus.\n[color=FF0000]NOTE: [/color]Run back if your Hearth is on cooldown.|
+= Level 12 Training|ACTIVE|935|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|Darnassus|
 T Vorlus Vilehoof|QID|1683|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|C|Warrior|
 A The Shade of Elura|QID|1686|PRE|1683|M|57.34,34.66|Z|Darnassus|N|From Elanaria. This quest gives a 7.6 dps one hand weapon later.|C|Warrior|O|
 T Destiny Calls|QID|2242|M|36.99,21.92|Z|Darnassus|N|To Syurna.|C|Rogue|
-R Crown of the Earth|ACTIVE|935|M|34.34,08.80|CC|Z|Darnassus|N|Go to the top of this building.|
-T Crown of the Earth|QID|935|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm.|
+R Crown of the Earth|ACTIVE|935|M|35.42,10.53|CC|Z|Darnassus|N|Enter this building.|
+T Crown of the Earth|QID|935|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm on the top floor.|
 T Teldrassil|QID|940|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm.|
-A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|Darnassus|N|From Arch Druid Fandral Staghelm. This quest turn-in is in southern Darkshore and has the turn-in on the Darkshore guide.|
+A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|Darnassus|N|From Arch Druid Fandral Staghelm.\n[color=FF0000]NOTE: [/color]This quest leads to the Darkshore guide.|
 T Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora, upstairs in the Temple of Moon.|
 A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
 C Sathrah's Sacrifice|QID|2520|M|38.24,85.73|Z|Darnassus|N|Use Sathrah's Sacrifice in the fountain down below.|U|8155|NC|
 T Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora.|
+D Housekeeping|ACTIVE|952|N|Visit the AH, Bank, Profession trainers, etc. beforing moving on to Darkshore.\n[color=FF0000]NOTE: [/color]Manually check this step off to move on to Darkshore.
+
 ]]
 end)
