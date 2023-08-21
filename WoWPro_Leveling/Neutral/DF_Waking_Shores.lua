@@ -604,7 +604,7 @@ T A Charge of Care|QID|65794|M|61.57,68.54|Z|2022|N|To Alexstrasza the Life-Bind
 A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022|N|From Alexstrasza the Life-Binder.|LEAD|72267|
 F Dragonscale Basecamp|ACTIVE|65795^72267|M|57.81,68.13|Z|2022|N|Take the flightpath to Dragonscale Basecamp. Skip this step if you wish to use your Dragon to fly directly to Rubyscale Outpost.|;Needs a FLY DF once its been implemented.
 R Rubyscale Outpost|ACTIVE|65795^72267|M|48.27,88.67|Z|2022|N|Exit to the east and follow the road generally south to meet Ambassador Taurasza at Rubyscale Outpost.|
-T Next Steppes|QID|65795|M|48.31,88.63|Z|2022|N|To Abassador Taurasza.|LEAD|72267|
+T Next Steppes|QID|65795|M|48.31,88.63|Z|2022|N|To Abassador Taurasza.|
 N Adventure Mode|AVAILABLE|72267^72268^72269|PRE|72266|S!US|N|If you want to go on to Ohn'ahran Plains next, fly to meet Ambassador Taurasza, If you want to choose a different zone, manually check off the next two steps and return to Wingrest Embassy and the scouting map.|
 F Dragonscale Basecamp|ACTIVE|65794|PRE|72266|M|57.50,68.13|Z|2022|N|At Vaknai.|
 N Choose Ohn'ahran Plains|ACTIVE|65794|PRE|72266|JUMP|Ohnahran_Plains|
