@@ -426,6 +426,7 @@ T A Dryad's Work Is Never Done|QID|67094|M|72.89,66.17|Z|2112|N|To Thalendra.|
 A A Dryadic Remedy|QID|67606|PRE|67094|M|72.89,66.17|Z|2112|N|From Thalendra.|
 l Barrel of Confiscated Treats|QID|67606|M|9.50,55.87|Z|2112|QO|1|N|Loot the treasure to collect a Tasty Hatchling's Treat. You can also get the treats on the Auction House or cook them up if you have the recipe.|
 C A Dryadic Remedy|QID|67606|M|66.39, 58.10|Z|2112|QO|2|CHAT|N|Adminster Thalendra's Remedy to the Despondant Duckling. It's hiding under the leaves of the plant.|
+T A Dryadic Remedy|QID|67606|M|72.99, 65.97|Z|2112|N|To Thalendra.|
 
 T Archival Assistance|QID|67007|M|34.95,28.15|Z|2112|N|To Kemora.|
 A Preserving the Past|QID|66868^66870^66871^66872^66873^66874^66875|PRE|67007|M|34.95,28.15|Z|2112|N|From Kemora. This is your weekly dungeon quest, it will vary each week.|LVL|70|
