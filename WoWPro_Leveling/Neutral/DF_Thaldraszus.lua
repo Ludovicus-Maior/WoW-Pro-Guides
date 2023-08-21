@@ -8,8 +8,8 @@ return [[
 
 
 ;Renown Quests
-A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|;may be earlier
-A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|;did not show up till i picked up wheres the cheif.
+A To Dragonbane Keep!|QID|71210|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;5|ACH|16326;;;true|;may be earlier
+A Aerial Challenges|QID|71227|M|PLAYER|N|From Herald Flaps.|DFREN|valdrakken;2510;7|ACH|16326;;;true|;did not show up till i picked up wheres the cheif.
 A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dragonscale exp;2507;8|PRE|70156|
 
 ;Requires Campaign Completion.
@@ -36,13 +36,13 @@ K Private Shikzar|QID|70986|M|37.57,83.27|Z|2025|RARE|N|Bonus Objective - Kill i
 $ South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025|N|This one is inside the 2nd highest tower.|ACH|16100|
 f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025|N|At Valdren.|RANK|2|
 f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2112|N|At Aluri.|
-F Valdrakken|ACTIVE|72269|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|;adventure mode
+F Valdrakken|ACTIVE|72269|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|IZ|2022|;adventure mode
 
 A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promoter.|RANK|2|
 A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112|N|From Waywatcher Lorin.|RANK|2|
 A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861|PRE|71232^72293|M|50.14,56.28|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
 ;A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around... not sure what the trigger is. but as it's done in WS still... leaving out of this guide entirely
-R To Valdrakken|QID|66244|M|52.20,53.02|Z|2112|QO|1|N|Head up the steps for the quest update.| ; Go to step - Hendo72
+R To Valdrakken|QID|66244|ACTIVE|66244|M|52.20,53.02|Z|2112|QO|1|N|Head up the steps for the quest update.| ; Go to step - Hendo72
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
 A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
 T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
@@ -50,7 +50,7 @@ A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Val
 T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
-P To Valdrakken|QID|66244|M|61.82,32.02|Z|2112|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
+P To Valdrakken|QID|66244|ACTIVE|66244|M|61.82,32.02|Z|2112|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
 T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|;adventure mode
 
 T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
@@ -81,7 +81,7 @@ A Lost to the Skies|QID|71239|M|25.17,66.27|Z|2112|N|From Gimla Fizzlecrank.|RAN
 C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|H|N|Click the Hungry Hatchling, it is above the bank, not in it.|
 C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank. Don't leave the area until you get quest update.|
 C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet. Don't leave the area until you get quest update.|
-A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.|DFREN|valdrakken;2510;7|RANK|2|IZ|2112|
+A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa. Note: this quest isn't offered if you already have all her items. CLick the step off to continue.|DFREN|valdrakken;2510;7|RANK|2|IZ|2112|
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|LVL|70|IZ|2112|
