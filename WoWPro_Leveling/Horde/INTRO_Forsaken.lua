@@ -52,7 +52,6 @@ C Assault on the Rotbrain Encampment|QID|24971|M|70.03,69.71|QO|2|US|N|Kill the 
 T Assault on the Rotbrain Encampment|QID|24971|M|46.61,58.83|US|N|To Shadow Priest Sarvis.|
 A Vital Intelligence|QID|24972|M|46.61,58.83|N|From Shadow Priest Sarvis.|PRE|24971|
 R Tirisfal Glades|QID|24972|M|52.60,43.95;67.70,34.48;81.20,14.33|CC|N|Follow the road out of Deathknell.|ACTIVE|24972|
-R Calston Estate|QID|24972|M|43.77,53.15|Z|Tirisfal Glades|
 r Gordo empty bags|QID|24972|M|44.57,52.94|Z|Tirisfal Glades|T|Gordo|N|You won't have to repair yet. But, with only 1 bag right now, you'll need to empty it.|ACTIVE|24972|
 T Vital Intelligence|QID|24972|M|44.70,53.67|Z|Tirisfal Glades|N|To Deathguard Simmer.|
 A Reaping the Reapers|QID|24978|Z|Tirisfal Glades|M|44.70,53.67|N|From Deathguard Simmer.|
@@ -94,7 +93,7 @@ A Supplying Brill|QID|6321|Z|Tirisfal Glades|M|60.15,52.40|R|Undead|N|From Death
 T Gordo's Task|QID|25038|Z|Tirisfal Glades|M|60.11,52.65|N|To Junior Apothecary Holland.|
 A Darkhound Pounding|QID|24990|Z|Tirisfal Glades|M|60.11,52.65|N|From Junior Apothecary Holland.|PRE|24977|
 A A Thorn in our Side|QID|24981|Z|Tirisfal Glades|M|60.50,51.92|N|From Executor Zygand.|
-h Brill|ACTIVE|24982|Z|Tirisfal Glades|M|60.87,51.55|N|At Innkeeper Renee.|
+h Brill|ACTIVE|24982|Z|Tirisfal Glades|M|60.87,51.55|N|Set your Hearthstone at Innkeeper Renee.|
 T The New Forsaken|QID|24982|Z|Tirisfal Glades|M|60.95,50.58|N|To Magistrate Sevren, upstairs at the inn.|
 A Forsaken Duties|QID|24983|Z|Tirisfal Glades|M|60.95,50.58|N|From Magistrate Sevren.|
 T Supplying Brill|QID|6321|Z|Tirisfal Glades|M|58.87,51.96|R|Undead|N|To Anette Williams.|

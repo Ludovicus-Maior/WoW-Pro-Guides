@@ -40,7 +40,7 @@ F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|TZ|Stormwind City|N|Fly to Sto
 F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|R|-Gnome,Dwarf|
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
-A Humble Beginnings|QID|399|Z|Stormwind City|M|57.67,47.95|N|From Baros Alexston, in Cathedral Square.|
+A Humble Beginnings|QID|399|Z|Stormwind City|M|47.9,33.3|N|From Baros Alexston, in Cathedral Square.|
 T Tome of Divinity|QID|3681|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
 A The Tome of Divinity|QID|1642|M|50.55,47.49|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|PRE|1641^3681|
 T The Tome of Divinity|QID|1642|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
@@ -193,7 +193,7 @@ A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
 T The Defias Brotherhood|QID|135|M|78.39,70.76|Z|Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|78.39,70.76|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
-A Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|From Baros Alexston in Cathedral Square.|
+A Humble Beginnings|QID|399|M|47.9,33.3|Z|Stormwind City|N|From Baros Alexston in Cathedral Square.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
 F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|Stormwind City|N|Fly to Ironforge.|IZ|-Ironforge|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|Ironforge|N|From Gnoarn.|

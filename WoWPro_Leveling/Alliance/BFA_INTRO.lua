@@ -51,9 +51,6 @@ A Get Your Bearings|QID|47099|M|75.66,25.47|Z|Tiragarde Sound|N|From Taelia.|PRE
 C Go to the Ferry Dock|QID|47099|QO|1|M|75.27,25.81|Z|Tiragarde Sound|NC|N|Click on the Ferry Master, Will Melborne.|
 C Go to the Bank|QID|47099|QO|2|M|73.76,21.74;75.83,22.85;75.49,17.66|CS|Z|Boralus|NC|N|Just up the stairs and you will find the bank.|
 ; professions
-A A Load of Scrap|QID|52462|M|75.55,18.80;75.42,17.68;77.18,16.44|CS|Z|Boralus|N|Back outside, to your right and up the stairs and to your right, from Crenzo Sparkshatter.|PRE|47098|
-C A Load of Scrap|QID|52462|M|77.13,16.30|Z|Boralus|NC|N|Click on the Scrap-O-Matic 1000 (behind him) and then drag the pants he gave you into that UI window that opens. This can be done with all crafted items to recover some mats.|
-T A Load of Scrap|QID|52462|M|77.18,16.44|Z|Boralus|N|To Crenzo Sparkshatter.|
 N Engineering|ACTIVE|47099|M|77.64,14.33|Z|Boralus|N|Train BfA Engineering at Layla Evenkeel.|P|Engineering;202|RECIPE|255392|;264492
 N Skinning|ACTIVE|47099|M|75.65,13.38|Z|Boralus|N|Train BfA skinning at Camilla Darksky.|P|Skinning;393|RECIPE|257152|;
 N Leatherworking|ACTIVE|47099|M|75.46,12.62|Z|Boralus|N|Train BfA Leatherworking at Cassandra Brennor.|P|Leatherworking;165|RECIPE|256756|;264592

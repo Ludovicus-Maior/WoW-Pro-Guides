@@ -45,7 +45,7 @@ C From Such Great Heights|QID|66101|M|75.90,33.58|Z|2022|QO|4|NC|N|Use the #3 ab
 T From Such Great Heights|QID|66101|M|75.84,33.50|Z|2022|N|To Aster Cloudgaze.|FACTION|Alliance|
 ;moved T 72708. but leaving here too, as it won't hurt anything, and maybe it's diff in adventure mode?
 T Dragon Isles Supplies|QID|72708|M|76.43,34.50|N|Turn into Haephesta.|
-A Quality Assurance|QID|69965|PRE|66110^67053|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|
+A Quality Assurance|QID|69965|PRE|66110^67053|M|76.41,34.45|Z|2022|N|From Haephesta. Haephesta is sometimes missing, if she's not around click this step off and watch for her turning up as you pass through.|RANK|2|
 A Without Purpose|QID|70148|M|76.41,34.45|Z|2022|N|From Haephesta.|RANK|2|C|EVOKER|
 A Always Be Crafting|QID|66112|PRE|66110^67053|M|76.36,34.63|Z|2022|N|From Grun Ashbeard.|RANK|2|
 A Opportunities Abound|QID|70042|M|76.4,33.3|Z|2022|N|From Vish the Sneak. He walks around the area.|T|Vish the Sneak|C|ROGUE|
@@ -416,7 +416,7 @@ A Orientation: Dragonscale Basecamp|QID|72397|PRE|66963|M|47.89,82.41|Z|2022|N|F
 C Orientation: Dragonscale Basecamp|QID|72397|QO|1|M|47.92,82.09|Z|2022|CHAT|N|Rae'ana is the scholars supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|2|M|47.74,83.22|Z|2022|CHAT|N|Granpap Whiskers is the catalogers supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|3|M|47.32,83.41|Z|2022|CHAT|N|Pathfinder Jeb is the explorers supplier.|
-A Lost Expedition Scouts|QID|70822|M|47.32,83.41|Z|2022|N|From Pathfinder Jeb.|DFREN|Valdrakken;2510;3|IZ|13732|;not sure of this pre - may be dragonscale exp 2?
+A Lost Expedition Scouts|QID|70822|M|47.32,83.41|Z|2022|N|From Pathfinder Jeb.|DFREN|Valdrakken;2510;3|IZ|13732|ACH|16326;;;true|;not sure of this pre - may be dragonscale exp 2?
 C Orientation: Dragonscale Basecamp|QID|72397|QO|4|M|46.94,82.90|Z|2022|CHAT|N|Boss Magor is the artisans supplier.|
 C Orientation: Dragonscale Basecamp|QID|72397|QO|5|M|47.10,82.58|Z|2022|CHAT|N|Cataloger Jakes is the Keeper of Renown.|
 T Orientation: Dragonscale Basecamp|QID|72397|M|47.22,82.72|Z|2022|N|To Toddy Whiskers.|
@@ -604,13 +604,14 @@ T A Charge of Care|QID|65794|M|61.57,68.54|Z|2022|N|To Alexstrasza the Life-Bind
 A Next Steppes|QID|65795|PRE|65794|M|61.57,68.54|Z|2022|N|From Alexstrasza the Life-Binder.|LEAD|72267|
 F Dragonscale Basecamp|ACTIVE|65795^72267|M|57.81,68.13|Z|2022|N|Take the flightpath to Dragonscale Basecamp. Skip this step if you wish to use your Dragon to fly directly to Rubyscale Outpost.|;Needs a FLY DF once its been implemented.
 R Rubyscale Outpost|ACTIVE|65795^72267|M|48.27,88.67|Z|2022|N|Exit to the east and follow the road generally south to meet Ambassador Taurasza at Rubyscale Outpost.|
-
-N Adventure Mode|AVAILABLE|72268^72269|PRE|72266|S!US|N|If you want to go on to Ohn'ahran Plains next, fly to meet Ambassador Taurasza, If you want to choose a different zone, manually check off the next two steps and return to Wingrest Embassy and the scouting map.|
+T Next Steppes|QID|65795|M|48.31,88.63|Z|2022|N|To Abassador Taurasza.|
+N Adventure Mode|AVAILABLE|72267^72268^72269|PRE|72266|S!US|N|If you want to go on to Ohn'ahran Plains next, fly to meet Ambassador Taurasza, If you want to choose a different zone, manually check off the next two steps and return to Wingrest Embassy and the scouting map.|
 F Dragonscale Basecamp|ACTIVE|65794|PRE|72266|M|57.50,68.13|Z|2022|N|At Vaknai.|
 N Choose Ohn'ahran Plains|ACTIVE|65794|PRE|72266|JUMP|Ohnahran_Plains|
-F Wingrest Embassy|AVAILABLE|72268^72269|PRE|72266|M|57.50,68.13|Z|2022|N|At Vaknai.|
-N Scouting Map|AVAILABLE|72268^72269|PRE|72266|M|76.52,34.24|Z|2022|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
-N Carry on!|ACTIVE|72268^72269|S!US|N|Finish your business in Wingrest Embassy, train tradeskills if you want and when you are ready, click on the book icon to load the next guide.|
+F Wingrest Embassy|AVAILABLE|72267^72268^72269|PRE|72266|M|57.50,68.13|Z|2022|N|At Vaknai.|
+N Scouting Map|AVAILABLE|72267^72268^72269|PRE|72266|M|76.52,34.24|Z|2022|N|Pick your next zone. You can pick up all of them and save yourself a trip back later.|
+N Carry on!|ACTIVE|72267^72268^72269|S!US|N|Finish your business in Wingrest Embassy, train tradeskills if you want and when you are ready, click on the book icon to load the next guide.|
+N Choose Ohn'ahran Plains|ACTIVE|72267|S!US|JUMP|Ohnahran_Plains|
 N Choose Azure Span|ACTIVE|72268|S!US|JUMP|The_Azure_Span|
 N Choose Thaldraszus|ACTIVE|72269|S!US|JUMP|Thaldraszus|
 
