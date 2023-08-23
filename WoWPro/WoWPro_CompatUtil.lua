@@ -9,9 +9,7 @@
 
 --[[ C_GossipInfo ]]--
 function WoWPro.GossipInfo_GetActiveQuests()
-    if WoWPro.POST_BC then
-        return _G.C_GossipInfo.GetActiveQuests()
-    else
+    if _G.GetGossipActiveQuests then
         local result = {}
         local npcQuests =  {_G.GetGossipActiveQuests()}
         local numQuestData = #npcQuests
@@ -40,12 +38,13 @@ function WoWPro.GossipInfo_GetActiveQuests()
         end
 
         return result
+    else
+        return _G.C_GossipInfo.GetActiveQuests()
     end
 end
+
 function WoWPro.GossipInfo_GetAvailableQuests()
-    if WoWPro.POST_BC then
-        return _G.C_GossipInfo.GetAvailableQuests()
-    else
+    if _G.GetGossipAvailableQuests then
         local result = {}
         local npcQuests =  {_G.GetGossipAvailableQuests()}
         local numQuestData = #npcQuests
@@ -74,49 +73,46 @@ function WoWPro.GossipInfo_GetAvailableQuests()
         end
 
         return result
+    else
+        return _G.C_GossipInfo.GetAvailableQuests()
     end
 end
+
 function WoWPro.GossipInfo_GetNumActiveQuests()
-    if WoWPro.POST_BC then
-        return _G.C_GossipInfo.GetNumActiveQuests()
-    else
-        return _G.GetNumGossipActiveQuests()
-    end
+    local GNAQ = _G.GetNumGossipActiveQuests or _G.C_GossipInfo.GetNumActiveQuests
+    return GNAQ()
 end
+
 function WoWPro.GossipInfo_GetNumAvailableQuests()
-    if WoWPro.POST_BC then
-        return _G.C_GossipInfo.GetNumAvailableQuests()
-    else
-        return _G.GetNumGossipAvailableQuests()
-    end
+    local GNAQ =_G.GetNumGossipAvailableQuests or _G.C_GossipInfo.GetNumAvailableQuests
+    return GNAQ()
 end
+
 function WoWPro.GossipInfo_GetText()
-    if WoWPro.POST_BC then
-        return _G.C_GossipInfo.GetText()
-    else
-        return _G.GetGossipText()
-    end
+    local GT = _G.GetGossipText or _G.C_GossipInfo.GetText
+    return GT()
 end
+
 function WoWPro.GossipInfo_SelectActiveQuest(index)
-    if WoWPro.POST_BC then
+    if _G.SelectGossipActiveQuest then
+        WoWPro:dbp("GossipInfo_SelectActiveQuest(~RETAIL): pick %d", index)
+        return _G.SelectGossipActiveQuest(index)
+    else
         local aQuests = _G.C_GossipInfo.GetActiveQuests()
         local qid = aQuests[index].questID
         WoWPro:dbp("GossipInfo_SelectActiveQuest(RETAIL): pick %d/%d", index, qid)
         return _G.C_GossipInfo.SelectActiveQuest(qid)
-    else
-        WoWPro:dbp("GossipInfo_SelectActiveQuest(~RETAIL): pick %d", index)
-        return _G.SelectGossipActiveQuest(index)
     end
 end
 function WoWPro.GossipInfo_SelectAvailableQuest(index)
-    if WoWPro.POST_BC then
+    if _G.SelectGossipAvailableQuest then
+        WoWPro:dbp("GossipInfo_SelectAvailableQuest(~RETAIL): pick %d", index)
+        return _G.SelectGossipAvailableQuest(index)
+    else
         local aQuests = _G.C_GossipInfo.GetAvailableQuests()
         local qid = aQuests[index].questID
         WoWPro:dbp("GossipInfo_SelectAvailableQuest(RETAIL): pick %d/%d", index, qid)
         return _G.C_GossipInfo.SelectAvailableQuest(qid)
-    else
-        WoWPro:dbp("GossipInfo_SelectAvailableQuest(~RETAIL): pick %d", index)
-        return _G.SelectGossipAvailableQuest(index)
     end
 end
 
