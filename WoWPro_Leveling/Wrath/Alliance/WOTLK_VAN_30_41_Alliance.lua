@@ -205,7 +205,7 @@ B Swiftness Potion|QID|647|L|2459|N|Buy a Swiftness Potion from the Auction Hous
 B Light Feather|QID|647|L|17056|N|Make sure you have at least one Light Feather on hand for Slowfall/Levitate|ITEM|17053|C|Mage,Priest|
 B Turtles|QID|555|N|Don't forget your turtle meat if you stashed it in the bank.|L|3712 10|
 A Malin's Request|QID|690|M|50.53,87.30|Z|Stormwind City|N|From Archmage Malin.|
-A An Old History Book|QID|337|U|2794|N|From Item dropped randomly in Duskwood.|
+A An Old History Book|QID|337|N|From Item dropped randomly in Duskwood.|U|2794|O|
 t An Old History Book|QID|337|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|PRE|337|M|74,7.6|Z|Stormwind City|N|From Milton Sheaf.|
 

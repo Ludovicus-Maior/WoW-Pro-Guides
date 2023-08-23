@@ -127,7 +127,7 @@ C Harpy Culling|QID|55764|M|56.84,46.29|N|Kill Harpies and Worgs. Don't focus on
 C Purge the Totems|QID|55881|M|56.84,46.29|N|Burn the Harpy Totems.|H|S|
 K Ogre Taskmaster|QID|59611|M|58.74,40.87|RARE|N|Silver Elite to kill and loot.|T|Ogre Taskmaster|
 $ Stolen Supplies|QID|56581|M|59.30,37.61|N|Loot the treasure chest.|
-C The Rescue of Meredy Huntswell|QID|55763|M|54.32,41.48|N|Chat with Herbert Gloomburst to start the 5 waves of attack. The first 4 waves are a mix of 2-3 Harpy Ambushers and Hunting Worgs. The 5th and final wave is Bloodbeak. Kill him to finish the quest.|CHAT|
+C The Rescue of Meredy Huntswell|QID|55763|M|54.32,41.48|N|Chat with Meredy to start the 5 waves of attack. The first 4 waves are a mix of 2-3 Harpy Ambushers and Hunting Worgs. The 5th and final wave is Bloodbeak. Kill him to finish the quest.|CHAT|
 C Purge the Totems|QID|55881|M|56.84,46.29|N|Finish burning the Harpy Totems.|H|US|
 C Harpy Culling|QID|55764|M|56.84,46.29|N|Finish killing Harpies and Worgs.|US|
 T Harpy Culling|QID|55764|M|56.92,46.24|N|Turn into Kee-La.|

@@ -46,12 +46,25 @@ WoWPro.Leveling.ClassicStartGuides = {
     Troll = 'Classic-01-12-Zerinj-Durotar'
 }
 WoWPro.Leveling.ClassicBCStartGuides = {
-	BloodElf = "BC-BloodElf",
+    BloodElf = "BC-BloodElf",
     Draenei = "BC-Draenei",
     Dwarf = 'BC-DwarfGnome',
     Gnome = 'BC-DwarfGnome',
     Human = 'BC-Human',
     NightElf = "BC-NightElf",
+    Orc = 'BC-OrcTroll',
+    Scourge = 'BC-Scourge',
+    Tauren = 'BC-Tauren',
+    Troll = 'BC-OrcTroll'
+}
+
+WoWPro.Leveling.ClassicWrathStartGuides = {
+    BloodElf = "BC-BloodElf",
+    Draenei = "SnoAzu0112",
+    Dwarf = 'BosDun0112',
+    Gnome = 'BosDun0112',
+    Human = 'WOTLK_INTRO_Human',
+    NightElf = "WOTLK_INTRO_NE",
     Orc = 'BC-OrcTroll',
     Scourge = 'BC-Scourge',
     Tauren = 'BC-Tauren',
@@ -86,8 +99,10 @@ function WoWPro.Leveling:OnEnable()
             WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
             if WoWPro.CLASSIC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
-            elseif WoWPro.BC or WoWPro.WRATH then
+            elseif WoWPro.BC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
+            elseif WoWPro.WRATH then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicWrathStartGuides[engRace]
             else
 				local mapID = _G.C_Map.GetBestMapForUnit("player");
 				if mapID == 1727 or mapID == 1409 then

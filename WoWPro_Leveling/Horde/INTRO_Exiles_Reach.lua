@@ -212,12 +212,9 @@ A Welcome to Orgrimmar|QID|60343|M|52.51,88.06|Z|Orgrimmar|N|From Warlord Breka 
 T Welcome to Orgrimmar|QID|60343|M|51.92,85.35|Z|Orgrimmar|N|To Cork Fizzlepop.|
 A Finding Your Way|QID|60344|M|51.92,85.35|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60343|
 C Finding Your Way|QID|60344|M|52.46,84.19|Z|Orgrimmar|QO|1|CHAT|N|Ask a guard for directions to the Stable Master.|
-C Finding Your Way|QID|60344|M|52.23,84.44|Z|Orgrimmar|QO|2|CHAT|N|Speak with Cork Fizzlepop to lead the way.|
-C Finding Your Way|QID|60344|M|62.09,33.24|Z|Orgrimmar|QO|3|NC|N|Follow Cork Fizzlepop to the Stables. You must be near him for him to move towards the stables, and he must reach the stables for the quest to be completable.|
+C Finding Your Way|QID|60344|M|52.23,84.44|Z|Orgrimmar|QO|2|CHAT|N|Speak with Cork Fizzlepop for a ride.|
+C Finding Your Way|QID|60344|M|62.09,33.24|Z|Orgrimmar|QO|3|NC|N|Enjoy the ride. Don't dismount from the bike as it can cause this quest to bug.|
 T Finding Your Way|QID|60344|M|61.43,32.76|Z|Orgrimmar|N|To Rohaka Tuskmaul.|
-A License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|From Rohaka Tuskmaul.|PRE|60344|
-C License to Ride|QID|60345|M|61.32,34.59|Z|Orgrimmar|NC|N|Speak to Kildar and learn Apprentice Riding.|
-T License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|To Rohaka Tuskmaul.|
 ; Choose your class sp
 A What's Your Specialty?|QID|60346|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Druid|
 C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|1|CHAT|N|Speak with Telotha Pinegrove to learn about specializations.|C|Druid|
