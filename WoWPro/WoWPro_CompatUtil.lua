@@ -1,4 +1,4 @@
--- luacheck: globals tinsert select
+-- luacheck: globals tinsert select unpack
 
 --[[
     This is a compatability layer between Classic and Retail, and is
@@ -202,9 +202,9 @@ function WoWPro.SetResizeBounds(frame, minWidth, minHeight, maxWidth, maxHeight)
 end
 
 function WoWPro.GetItemCooldown(itemID)
-    if WoWPro.POST_BC then
-        return _G.C_Container.GetItemCooldown(itemID)
+    if _G.GetItemCooldown then
+        return unpack({_G.GetItemCooldown(itemID)})
     else
-        return _G.GetItemCooldown(itemID)
+        return unpack({_G.C_Container.GetItemCooldown(itemID)})
     end
 end
