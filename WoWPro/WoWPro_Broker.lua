@@ -1232,6 +1232,9 @@ function WoWPro:RowUpdate(offset)
 			currentRow.itembutton:SetScript("OnUpdate", function()
 				local itemtexture = _G.GetItemIcon(_use)
 				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
+				if not start then
+					WoWPro:Warning("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
+				end
 				if _G.GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true
 					currentRow.itemicon:SetTexture(itemtexture)
@@ -1252,7 +1255,7 @@ function WoWPro:RowUpdate(offset)
                 elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
                     currentRow.itemcooldown:Hide()
 					currentRow.itemcooldown.OnCooldown = false
-				elseif currentRow.itemcooldown.ActiveItem ~= _use then
+				elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
 					currentRow.itemcooldown.OnCooldown = false
 					currentRow.itemcooldown:SetCooldown(start, duration)
 					currentRow.itemcooldown.ActiveItem = _use
