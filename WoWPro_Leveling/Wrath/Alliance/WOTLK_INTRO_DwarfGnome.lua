@@ -177,15 +177,15 @@ T Taming the Beast |QID|6085|M|45.81,53.04|N|To Grif Wildheart|C|Hunter|R|Dwarf|
 A Training the Beast|QID|6086|PRE|6085|M|45.81,53.04|N|From Grif Wildheart|C|Hunter|R|Dwarf|
 T Training the Beast|QID|6086|M|70.6,85.4|Z|Ironforge|N|coords To Belia Thundergranite, in Ironforge|C|Hunter|R|Dwarf|
 ; -- Priest
-A Desperate Prayer|QID|5637|M|47.34,52.18|N|From Maxan Anvol.|C|Priest|R|Dwarf|
+A Desperate Prayer|QID|5637|M|47.34,52.18|N|From Maxan Anvol.|C|Priest|R|Dwarf|LVL|10|
 ; -- Mage
-A Speak with Bink|QID|1879|C|Mage|R|Gnome|
+A Speak with Bink|QID|1879|C|Mage|R|Gnome|LVL|10|
 T Speak with Bink|QID|1879|N|This turn-in is at your Ironforge trainer.|C|Mage|R|Gnome|
 A Mage-tastic Gizmonitor|QID|1880|PRE|1879|C|Mage|R|Gnome|
 C Mage-tastic Gizmonitor|QID|1880|M|27.7,36.5|N|coords The Gizmonitor is in a toolbox at the waypoint.|C|Mage|R|Gnome|
 T Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
 ; -- Rogue
-A Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|
+A Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|LVL|10|
 T Road to Salvation|QID|2218|M|51.90,14.89|Z|Ironforge|N|This turn-in is at your Ironforge trainer.|C|Rogue|R|Dwarf,Gnome|
 A Simple Subterfugin'|QID|2238|PRE|2218|C|Rogue|R|Dwarf,Gnome|
 T Simple Subterfugin'|QID|2238|M|25.15,44.48|N|This NPC is in stealth on top of the wooden tower. You will need to get very close to him to see the turn-in.|C|Rogue|R|Dwarf,Gnome|
@@ -194,7 +194,7 @@ T Onin's Report|QID|2239|M|51.90,14.89|Z|Ironforge|C|Rogue|R|Dwarf,Gnome|
 ; -- Warlock
 R Ironforge|AVAILABLE|1715|M|15.59,85.32|Z|Ironforge|N|Make your way up the road to Ironforge.|C|Warlock|
 R The Forlorn Cavern|AVAILABLE|1715|M|40.86,11.81|Z|Ironforge|N|Make your way clockwise around the outer ring.|C|Warlock|
-A The Slaughtered Lamb|QID|1715|M|47.63,9.29|Z|Ironforge|N|From Lago Blackwrench.|C|Warlock|
+A The Slaughtered Lamb|QID|1715|M|47.63,9.29|Z|Ironforge|N|From Lago Blackwrench.|C|Warlock|LVL|10|
 
 R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|Ironforge|N|Class quest for your Voidwalker starts here.|TZ|City of Ironforge|C|Warlock|
 R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|Ironforge|N|Run to Ironforge.|TZ|City of Ironforge|C|-Warlock|
@@ -202,7 +202,7 @@ R Deeprun Tram|AVAILABLE|6661|M|77.11,51.22|Z|Ironforge|N|Make your way to the D
 A Me Brother, Nipsy|QID|6662|PRE|6661|N|From Monty.|
 T Me Brother, Nipsy|QID|6662|N|To Nipsy on the center platform at the Stormwind Tram Terminal. Get on the tram and ride it to the other end.|
 R Stormwind City|AVAILABLE|239|N|Exit the Tram to Stormwind City|
-T Desperate Prayer|QID|5637|M|38.8 26.6|Z|Stormwind City|N|coords To High Priestess Laurena.|C|Priest|R|Dwarf|
+T Desperate Prayer|QID|5637|M|38.8,26.6|Z|Stormwind City|N|coords To High Priestess Laurena.|C|Priest|R|Dwarf|
 R The Slaughtered Lamb|ACTIVE|1715|M|31.7,60.0;29.03,74.31|CC|Z|Stormwind City|N|Make your way to the tavern in Mage Quarter.|
 T The Slaughtered Lamb|QID|1715|M|39.6,84.6|Z|Stormwind City|N|coords To Gakin the Darkbinder in the basement. Follow the ramp down to get to the basement.|C|Warlock|
 A Surena Caledon|QID|1688|M|39.6,84.6|Z|Stormwind City|N|coords From Gakin the Darkbinder.|C|Warlock|
