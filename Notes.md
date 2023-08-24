@@ -1,3 +1,22 @@
+# Release 2023.08.24.A
+## Bug Fixes
+* Spoony:  Massive changes to show a popup with the no TomTom warning.
+* Johan: GetNumGossipAvailableQuests and friends are GONE on HC servers.
+* Pixyl:  Correct bug in WoWPro.GetItemCooldown().
+* Pixyl:  Warn on bad GetItemCooldown() instead of crashing.
+
+## Guide Updates
+### Retail
+* Leveling/Alliance: BFA Intro, Exiles Reach
+* Leveling/Horde: BFA Intro, Exiles Reach, Forsaken Intro,
+* Neutral Leveling: Thaldraszus, Waking Shores, Pandaren Intro
+### WotLK
+* Leveling/Alliance: 31 guides were updated, Yeah!
+* Leveling/Neutral: Netherstorm, DK Intro, Dungeon Guides (5)
+### Classic
+* No Classic guides were harmed during this release
+
+
 # Release 2023.07.12.A
 ## Bug Fixes
 * Updated Ace3 to r1309; fixes PTR issues
