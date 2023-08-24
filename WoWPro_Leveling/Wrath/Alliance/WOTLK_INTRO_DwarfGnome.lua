@@ -54,106 +54,111 @@ K The Troll Cave|ACTIVE|182|QO|1|M|26.30,78.80|N|Kill Frostmane Troll Whelp.\n[c
 L Level 4|ACTIVE|182|N|Grind until you're within 6.5 bubbles of level 4.|LVL|3;-450|
 T The Troll Cave|QID|182|M|25.08,75.71|N|To Grelin Whitebeard.|
 A The Stolen Journal|QID|218|PRE|182|M|25.08,75.71|N|From Grelin Whitebeard.|
-A Scalding Mornbrew Delivery|QID|3364|PRE|179|M|24.98,75.94|N|From Nori Pridedrift. On accepting the quest, a 5 minute timer will start.|
+A Scalding Mornbrew Delivery.|QID|3364|PRE|179|M|24.98,75.94|N|From Nori Pridedrift.\n[color=FF0000]NOTE: [/color]A 5 minute timer will start as soon as you accept this quest.| ; ** Auto-accept broken to allow for prep - Hendo72
+A Scalding Mornbrew Delivery|QID|3364|PRE|179|M|24.98,75.94|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Nori Pridedrift to restart this quest.|FAIL|
+R Anvilmar|ACTIVE|3364|M|28.76,68.30|N|Don't dawdle; you've only got 5 minutes (which is more than enough time).|
 T Scalding Mornbrew Delivery|QID|3364|M|28.77,66.37|N|To Durnan Furcutter, at the back of Anvilmar|
 A Bring Back the Mug|QID|3365|PRE|3364|M|28.77,66.37|N|From Durnan Furcutter|
 r Sell and Repair|ACTIVE|3361|M|28.77,66.37|N|Repair and sell your junk to Durnan furcutter.|
+= Level 4 Training|ACTIVE|3361|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|
 T A Refugee's Quandary|QID|3361|M|28.54,67.71|N|To Felix Whindlebolt|
-= Level 4 training|ACTIVE|183|N|Get your level 4 spells/skills.|
 
-R Troll Cave|ACTIVE|218|M|27.0,80.35|CC|N|coords Run back to the troll cave.|
-K Grik'nir The Cold|ACTIVE|218|QO|1|M|30.5,80.2|N|coords Kill and loot Grik'nir The Cold for the journal. He can be found by turning left (taking the northern fork) in the cave and going all the way to the back.|T|Grik'nir The Cold|
+R Troll Cave|ACTIVE|218|M|26.78,79.90|CC|N|Return to the troll cave entrance.|
+K Grik'nir The Cold|ACTIVE|218|M|30.48,80.16|L|2004|N|Kill Grik'nir The Cold and loot the journal.\n[color=FF0000]NOTE: [/color]Stay to the left once you've entered the cave and continue all the way to the back.\nEveryone is neutral and you won't get attacked (including Grik'nir)|T|Grik'nir The Cold|
 T Bring Back the Mug|QID|3365|M|24.98,75.94|N|To Nori Pridedrift|
 T The Stolen Journal|QID|218|M|25.08,75.71|N|To Grelin Whitebeard.|
 A Senir's Observations|QID|282|PRE|218|M|25.08,75.71|N|From Grelin Whitebeard.|
 K The Boar Hunter|ACTIVE|183|QO|1|M|22.00,72.00|N|Kill Small Crag Boar.\n[color=FF0000]NOTE: [/color]They are neutral until you attack them.|T|Small Crag Boar|US|
 T The Boar Hunter|QID|183|M|22.60,71.43|N|To Talin Keeneye.|
-r Sell and Repair|ACTIVE|282|M|28.71,67.85|N|Repair and sell your junk to Rybrad Coldbank or Grundel Harkin.|
-L Level 5|QID|3364|N|You need to be level 5 to continue with this guide.|C|Priest|R|Dwarf|LVL|5|
-A In Favor of the Light|QID|5626|M|47.3,52.2|N|coords Speak with Maxan Anvol.|C|Priest|R|Dwarf|S|
+R Anvilmar|AVAILABLE|5626|M|28.76,68.30|N|Return to Anvilmar.|C|Priest|R|Dwarf|LVL|-5|S|
+R Coldridge Pass|ACTIVE|282|M|31.23,72.39|N|Follow the road east to Coldridge Pass.\n[color=FF0000]NOTE: [/color]If your bags are getting full, stop and sell as you pass Anvilmar.|C|-Priest|R|Dwarf|LVL|-5|S|
+L Level 5|ACTIVE|282|N|You need to be level 5 to continue with this guide.|LVL|5|
+R Anvilmar|AVAILABLE|5626|M|28.76,68.30|N|Return to Anvilmar.|C|Priest|R|Dwarf|LVL|5|US|
+A In Favor of the Light|QID|5626|M|28.60,66.38|N|From Branstock Khalder.|C|Priest|R|Dwarf|
+R Coldridge Pass|ACTIVE|282|M|31.23,72.39|N|Follow the road east to Coldridge Pass.\n[color=FF0000]NOTE: [/color]If your bags are getting full, stop and sell as you pass Anvilmar.|LVL|5|US|
+T Senir's Observations|QID|282|M|33.48,71.84|N|To Mountaineer Thalos.|
+A Senir's Observations|QID|420|PRE|282|M|33.48,71.84|N|From Mountaineer Thalos.|
+A Supplies to Tannok|QID|2160|M|33.85,72.23|N|From Hands Springsprocket.|
 
-T Senir's Observations|QID|282|M|28.86,70.49;33.48,71.84|CS|N|To Mountaineer Thalos|
-A Senir's Observations|QID|420|PRE|282|M|33.48,71.84|N|From Mountaineer Thalos|
-A Supplies to Tannok|QID|2160|M|33.85,72.23|N|From Hands Springsprocket|
-A In Favor of the Light|QID|5626|C|Priest|
-
-R Kharanos|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel and follow the road to reach Kharanos.|
-T Senir's Observations|QID|420|M|46.73,53.82|N|To Senir Whitebeard|
-L Level 5|QID|3364|N|You need to be level 5 to continue with this guide.|LVL|5|
-A Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|From Ragnar Thunderbrew|
-N Learn Apprentice First Aid|ACTIVE|2160|M|47.18,52.59|N|If you want to learn First Aid, now is your chance with Thamner Pol, in the corner of the inn.|S|
-N Learn Apprentice Cooking|ACTIVE|2160|M|47.67,52.30|N|If you want to learn Cooking, now is your chance with Gremlock Pilsnor, at the back of the Inn.|S|
-= Level 6 class skills|ACTIVE|2160|N|Remember to visit your class trainer to learn your Level 6 skill!|S|LVL|6|
+R Kharanos|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel to Dun Morogh and follow the road to Kharanos.\n[color=FF0000]NOTE: [/color]As of now, you will start to come across aggressive mobs (red) that will attack you.|
+T Senir's Observations|QID|420|M|46.73,53.82|N|To Senir Whitebeard.|
+A Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|From Ragnar Thunderbrew.|
+= Learn Apprentice First Aid|AVAILABLE|400|M|47.18,52.59|N|If you want to learn First Aid, now is your chance with Thamner Pol, in the corner of the inn.|P|First Aid;129;0+0;1|S!US|
+= Learn Apprentice Cooking|AVAILABLE|400|M|47.67,52.30|N|If you want to learn Cooking, now is your chance with Gremlock Pilsnor, at the back of the Inn.|P|Cooking;185;0+0;1|S!US|
 T Supplies to Tannok|QID|2160|M|47.22,52.19|N|To Tannok Frosthammer, inside the inn.|
-h Thunderbrew Distillery|QID|400|M|47.38,52.53|N|Make Kharanos your home with Innkeeper Belm.|
-T In Favor of the Light|QID|5626|N|To Maxan Anvol|C|Priest|R|Dwarf|
-A Garments of the Light|QID|5625|PRE|5626|N|From Maxan Anvol|C|Priest|R|Dwarf|
-A Tools for Steelgrill|QID|400|M|46.02,51.67|N|From Tharek Blackstone|
-C Garments of the Light|QID|5625|M|45.8,54.6|N|coords South of town|C|Priest|R|Dwarf|
-T Garments of the Light|QID|5625|N|coords|C|Priest|R|Dwarf|
+h Thunderbrew Distillery|AVAILABLE|400|M|47.38,52.53|N|Make Kharanos your home with Innkeeper Belm.|
+T In Favor of the Light|QID|5626|M|47.34,52.18|N|To Maxan Anvol.|C|Priest|R|Dwarf|
+A Garments of the Light|QID|5625|PRE|5626|M|47.34,52.18|N|From Maxan Anvol.|C|Priest|R|Dwarf|
+A Tools for Steelgrill|QID|400|M|46.02,51.67|N|From Tharek Blackstone.|
+C Garments of the Light|QID|5625|QO|1|M|45.81,54.57|N|Mountaineer Dolf is located just south of town.|T|Mountaineer Dolf|C|Priest|R|Dwarf|NC|
+T Garments of the Light|QID|5625|M|47.34,52.18|N|To Maxan Anvol.|C|Priest|R|Dwarf|
 
-C Beer Basted Boar Ribs|QID|384|QO|1|M|48.0,50.1|N|coords Kill and loot the Crag Boars for their ribs.|S|
-T Tools for Steelgrill|QID|400|M|50.44,49.10|N|To Beldrin Steelgrill|
-A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|N|From Loslor Rudge|
-A The Grizzled Den|QID|313|M|49.62,48.61|N|From Pilot Stonegear|
-A Stocking Jetsteam|QID|317|M|49.43,48.41|N|From Pilot Bellowfiz|
-N Wand|ACTIVE|317|N|Having reached level 5, you can now use a Lesser Magic Wand.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock,Priest,Mage|
-R Ironforge|ACTIVE|317|M|15.59,85.32|Z|Ironforge|N|Make your way up the road to Ironforge.|C|Warlock;Priest,Mage|
-B Lesser Magic Wand|ACTIVE|317|L|11287|N|Unless you have a connection, you'll have to buy this from the Auction House.\n[color=FF0000]NOTE: [/color]If you don't have the money, or there isn't one available, you can skip this step and come back later.|C|Warlock;Priest,Mage|
-C Stocking Jetsteam|QID|317|M|39.5,59.5|N|coords Kill and loot Boars for boar Meat and Bears for Bear Fur.|S|
-R The Grizzled Den|ACTIVE|5541|M|45.09,50.25;44.9,55.2|CS|N|coords Head to The Grizzled Den, located south-west just past Kharanos|
-C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|N|Open the Ammo Crate and loot the ammo.|
-r Sell and Repair|ACTIVE|5541|M|40.7,65.1|N|coords Sell and Repair with Hegnar Rumbleshot.|S|
-T Ammo for Rumbleshot|QID|5541|M|40.5,62.95;40.69,65.09|CS|N|coords To Hegnar Rumbleshot, south-west, on the road up the hill.|
-C The Grizzled Den|QID|313|M|42,53|N|coords Kill and loot Wendigos for their manes. More than one can overwhelm, so pull carefully.|
-C Stocking Jetsteam|QID|317|M|39.5,59.5|N|coords Kill and loot Boars for boar Meat and Bears for Bear Fur.|US|
-C Beer Basted Boar Ribs|QID|384|QO|1|M|48.0,50.1|N|coords Kill and loot the Crag Boars for their ribs.|US|
-
+C Beer Basted Boar Ribs|QID|384|M|48.0,50.1|L|2886 6|ITEM|2886|N|Any Crag Boar around Kharanos and pretty much everywhere in Dun Morogh.|S|
+L Level 6|ACTIVE|400|N|Grind until you're within 1 bubble of level 6.|LVL|5;-110|
+T Tools for Steelgrill|QID|400|M|50.44,49.10|N|To Beldrin Steelgrill.|
+A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|N|From Loslor Rudge.|
+A The Grizzled Den|QID|313|M|49.62,48.61|N|From Pilot Stonegear.|
+A Stocking Jetsteam|QID|317|M|49.43,48.41|N|From Pilot Bellowfiz.|
+l Stocking Jetsteam|ACTIVE|317|QO|1;2|M|39.50,59.50|N|Kill Boars for Boar Meat and Bears for Bear Fur.|S|
+N Wand|ACTIVE|5541|N|Having reached level 5, you can now use a [color=33fff9]Lesser Magic Wand[/color].\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock,Priest,Mage|
+R Ironforge|ACTIVE|5541|M|16.24,84.52|Z|1455;Ironforge|N|Make your way up the road to Ironforge.|TZ|City of Ironforge|
+B Lesser Magic Wand|ACTIVE|5541|M|PLAYER|CC|L|11287|N|Unless you have a connection, you'll have to buy this from the Auction House.\n[color=FF0000]NOTE: [/color]If you don't have the money, or there isn't one available, you can skip this step and come back later.|C|Warlock,Priest,Mage|IZ|1455;City of Ironforge|
+= Level 6 Training|ACTIVE|5541|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|1455;Ironforge|
+R Kharanos|ACTIVE|5541|M|47.18,45.38|N|Exit Ironforge and head back done to Kharanos.|
+R The Grizzled Den|ACTIVE|5541|M|45.84,49.99;44.04,52.58|CS|N|Continue through Kharanos to the Grizzled Den.|
+C Ammo for Rumbleshot|QID|5541|L|13850|M|44.13,56.94|N|Open the Ammo Crate.|
+r Sell|ACTIVE|5541|M|40.68,65.13|N|Sell junk to Hegnar Rumbleshot.|
+T Ammo for Rumbleshot|QID|5541|M|40.69,65.09|CS|N|To Hegnar Rumbleshot, at the camp just off the road to the southwest of you.\n[color=FF0000]NOTE: [/color]Take the road or run along the lower section|
+C The Grizzled Den|QID|313|L|2671 8|ITEM|2671|M|41.13,49.27|N|Any Wendigo inside or around the cave entrance.\n[color=FF0000]NOTE: [/color]Pull Carefully because fighting more than one can become overwhelming quickly. They have a large aggro range.|
+l Stocking Jetsteam|ACTIVE|317|QO|1;2|M|39.50,59.50|N|Kill Boars for Boar Meat and Bears for Bear Fur.|US|
+C Beer Basted Boar Ribs|QID|384|M|48.0,50.1|L|2886 6|ITEM|2886|N|Any Crag Boar around Kharanos and pretty much everywhere in Dun Morogh.|US|
+L Level 7|ACTIVE|384|M|PLAYER|CC|N|Grind until you're halfway to level 11.|LVL|6;-1940|
 B Rhapsody Malt|QID|384|M|47.38,52.52|L|2894|N|Buy Rhapsody Malt from Innkeeper Belm inside the Inn at Kharanos.|
-= Level 6 class training|ACTIVE|384|N|Get your level 6 spells/skills.|LVL|6|
-
 T Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|To Ragnar Thunderbrew|
 T Stocking Jetsteam|QID|317|M|49.43,48.41|N|To Pilot Bellowfiz|
 A Evershine|QID|318|PRE|317|M|49.43,48.41|N|From Pilot Bellowfiz|
 T The Grizzled Den|QID|313|M|49.62,48.61|N|To Pilot Stonegear|
-
-L Level 7|QID|287|N|You need to be level 7 to continue with this guide.|LVL|7|
-
 A Frostmane Hold|QID|287|PRE|420|M|46.73,53.82|N|From Senir Whitebeard.|
 A Operation Recombobulation|QID|412|M|45.85,49.36|N|From Razzle Spryprocket, inside a small building to the north of Kharanos.|
-
-R Brewnall Village|QID|318|M|47.0,43.8;39.9,38.9;37.6,39.3;31.09,44.61|CC|N|Follow the road north until you reach the bridge. Continue west along the frozen river until you reach Iceflow Lake. From here, head southwest to Brewnall Village.|
+R Iceflow Lake|ACTIVE|318|M|47.04,44.10;39.89,38.88|CC|N|Follow the road north until you reach the bridge. Continue west along the frozen river until you reach Iceflow Lake.|
+R Brewnall Village|QID|318|M|31.08,44.65|N|From here, head southwest to Brewnall Village on the other side of the lake.|
 r Sell and Repair|ACTIVE|318|M|30.12,45.29|N|Sell and Repair with Burdrak Harglhelm.|
 T Evershine|QID|318|M|30.20,45.73|N|To Rejold Barleybrew|
 A A Favor for Evershine|QID|319|PRE|318|M|30.20,45.73|N|From Rejold Barleybrew|
 A The Perfect Stout|QID|315|M|30.20,45.73|N|From Rejold Barleybrew|
-A Bitter Rivals|QID|310|M|30.18,45.53|N|From Marleth Barleybrew|
-C A Favor for Evershine|QID|319|N|Kill Ice Claw Bears, Elder Crag Boars and Snow Leopards.|S|
-C Frostmane Hold|QID|287|M|25.1,51.0;21.14,51.42|CS|QO|1;2|N|Kill Frostmane Headhunter as you make your way to the back of Frostmane Hold.|T|Frostmane Headhunter|
+A Bitter Rivals|QID|310|PRE|318|M|30.18,45.53|N|From Marleth Barleybrew|
+K A Favor for Evershine|ACTIVE|319|QO|1;2;3|N|Kill Ice Claw Bears, Elder Crag Boars and Snow Leopards.|S|
+K Frostmane Hold|ACTIVE|287|QO|1|M|21.14,51.42|N|Kill Frostmane Headhunters as you make your way to the back of Frostmane Hold.|T|Frostmane Headhunter|S|
+R Frostmane Hold.|ACTIVE|287|QO|2|M|25.09,51.05;21.14,51.42|CS|N|Make your way to the back of Frostmane Hold.\n[color=FF0000]NOTE: [/color]Watch out for the higher level mobs in here.| ; ** auto-complete broken until QO completed - Hendo72
+K Frostmane Hold|ACTIVE|287|QO|1|M|25.09,51.05|N|Kill Frostmane Headhunter as you make your way out of Frostmane Hold.\n[color=FF0000]NOTE: [/color]Watch out for the higher level mobs in here.|T|Frostmane Headhunter|US|
+R Brewnall Village|ACTIVE|315|M|31.08,44.65|N|Return to Brewnall Village.|
+r Sell and Repair|ACTIVE|319|M|30.12,45.29|N|Sell and Repair with Burdrak Harglhelm.|IZ|Brewnall Village|
+R Shimmer Ridge|ACTIVE|315|M|37.90,42.13;38.75,42.4|CS|N|Follow the road up the mountain to the top.|
+C The Perfect Stout|QID|315|M|41.05,44.06|L|2676 6|ITEM|2676|N|Frostmane Seers around Shimmer Ridge\nYou can also loot them from the Shimmerweed Baskets scattered around Shimmer Ridge.\n[color=FF0000]NOTE: [/color]Stick to the outside edge as the Frostmanes around the fire will aggro each other.|
 
-R Shimmer Ridge|QID|315|M|37.4,42.5;38.75,42.4|CS|N|coords Find the road up the mountain.|
-C The Perfect Stout|QID|315|M|41.3,44.5;41.7,35.75|CN|L|2676 6|N|coords Loot them from the Shimmerweed Baskets scattered around Shimmer Ridge or from the Frostmane Seers.\n[color=FF0000]NOTE: [/color]Stick to the outside edge as the Frostmanes around the fire will aggro each other.|
-
-R Gnomeregan|ACTIVE|412|M|29.0,41.0|N|coords Come off the ridge, then head west to Gnomeregan.|
-C Operation Recombobulation|QID|412|M|25.94,42.58|N|Kill and loot the Leper Gnomes for the necessary parts.|
-R Thunderbrew Distillery|ACTIVE|310|M|47.37,52.51|N|Run back to Kharanos.|
-=  Level 8 training|ACTIVE|310|N|Go see your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Gnomeregan|ACTIVE|412|M|29.00,41.00|N|Head back down to the lake and continue west to Gnomeregan (just past Brewnall Village).|
+l Operation Recombobulation|ACTIVE|412|QO|1;2|M|25.94,42.58|N|Kill the Leper Gnomes to loot the necessary parts.|
+R Kharanos|ACTIVE|310|M|47.37,52.51|N|Start heading back towards Kharanos.|S!US|LVL|7;-140|
+L Level 8|ACTIVE|310|N|Grind until you're within half a bubble of level 8.|LVL|7;-140|
+H Thunderbrew Distillery|ACTIVE|310|M|47.37,52.51|N|Hearth back to Kharanos, or run if your Hearth is on cooldown.|LVL|8|
 r Sell and Repair|ACTIVE|310|M|47.2,52.4|N|coords Take this opportunity to sell your junk with Kreg Bilmn.|S|
 B Thunder Ale|ACTIVE|310|M|47.38,52.52|L|2686|N|Buy this from the innkeeper.|
 T Distracting Jarven|QID|308|M|47.65,52.66|N|To Jarven Thunderbrew|
 T Bitter Rivals|QID|310|M|47.72,52.69|N|While Jarven Thunderbrew goes to the stairs, click on the barrel behind where he stood.\n[color=FF0000]NOTE: [/color]Do this before he returns or you will have to distract him again with another Thunder Ale from the Innkeeper.|
-A Return to Marleth|QID|311|PRE|310|M|47.72,52.69|N|From the Barrel|
+A Return to Marleth|QID|311|PRE|310|M|47.72,52.69|N|From the Barrel.\n[color=FF0000]NOTE: [/color]Accept this before Jarven comes back or you'll have to wait for someone else to distract him.|
+=  Level 8 training|ACTIVE|310|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Kharanos|
 T Frostmane Hold|QID|287|M|46.72,53.83|N|To Senir Whitebeard|
 A The Reports|QID|291|PRE|287|M|46.72,53.83|N|From Senir Whitebeard|
-T Operation Recombobulation|QID|412|M|45.85,49.36|N|To Razzle Sprysprocket|
-C A Favor for Evershine|QID|319|M|0.18,45.53|N|Finish killing Ice Claw Bears, Elder Crag Boars and Snow Leopards.|US|
+T Operation Recombobulation|QID|412|M|46.01,48.58;45.85,49.36|CC|N|To Razzle Sprysprocket|
 
+K A Favor for Evershine|ACTIVE|319|QO|1;2;3|M|28.99,49.26|N|Kill Ice Claw Bears, Elder Crag Boars and Snow Leopards.|US|
+L Level 10|ACTIVE|320|N|Grind until you're within 6 bubbles of level 10.\n[color=FF0000]NOTE: [/color]Time to start your class quests.|LVL|9;-1925|
 T Return to Marleth|QID|311|M|30.18,45.53|N|To Marleth Barleybrew, in Brewnall Village.|
 T A Favor for Evershine|QID|319|M|30.20,45.73|N|To Rejold Barleybrew|
 A Return to Bellowfiz|QID|320|PRE|319|M|30.20,45.73|N|From Rejold Barleybrew|
 T The Perfect Stout|QID|315|M|30.20,45.73|N|To Rejold Barleybrew|
 A Shimmer Stout|QID|413|PRE|315|M|30.20,45.73|N|From Rejold Barleybrew|
-A The Hunter's Path|QID|6075|M|30.6,45.4|N|coords From Tristane Shadowstone. This quest line is very important for your hunter.|C|Hunter|R|Dwarf|LVL|10|
+A The Hunter's Path|QID|6075|M|30.6,45.4|N|coords From Tristane Shadowstone.\n[color=FF0000]NOTE: [/color]This starts your class quest chain to tame your pet.|C|Hunter|R|Dwarf|LVL|10|
 H Thunderbrew Distillery|ACTIVE|320|M|47.37,52.51|N|Hearth back to Kharanos, or run if your Hearth is on cooldown.|
 T Return to Bellowfiz|QID|320|M|49.43,48.41|N|To Pilot Bellowfiz|
 
@@ -171,14 +176,16 @@ C Taming the Beast |QID|6085|M|51.5,44.5|N|coords This time you need to tame an 
 T Taming the Beast |QID|6085|M|45.81,53.04|N|To Grif Wildheart|C|Hunter|R|Dwarf|
 A Training the Beast|QID|6086|PRE|6085|M|45.81,53.04|N|From Grif Wildheart|C|Hunter|R|Dwarf|
 T Training the Beast|QID|6086|M|70.6,85.4|Z|Ironforge|N|coords To Belia Thundergranite, in Ironforge|C|Hunter|R|Dwarf|
+; -- Priest
+A Desperate Prayer|QID|5637|M|47.34,52.18|N|From Maxan Anvol.|C|Priest|R|Dwarf|LVL|10|
 ; -- Mage
-A Speak with Bink|QID|1879|C|Mage|R|Gnome|
+A Speak with Bink|QID|1879|C|Mage|R|Gnome|LVL|10|
 T Speak with Bink|QID|1879|N|This turn-in is at your Ironforge trainer.|C|Mage|R|Gnome|
 A Mage-tastic Gizmonitor|QID|1880|PRE|1879|C|Mage|R|Gnome|
 C Mage-tastic Gizmonitor|QID|1880|M|27.7,36.5|N|coords The Gizmonitor is in a toolbox at the waypoint.|C|Mage|R|Gnome|
 T Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
 ; -- Rogue
-A Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|
+A Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|LVL|10|
 T Road to Salvation|QID|2218|M|51.90,14.89|Z|Ironforge|N|This turn-in is at your Ironforge trainer.|C|Rogue|R|Dwarf,Gnome|
 A Simple Subterfugin'|QID|2238|PRE|2218|C|Rogue|R|Dwarf,Gnome|
 T Simple Subterfugin'|QID|2238|M|25.15,44.48|N|This NPC is in stealth on top of the wooden tower. You will need to get very close to him to see the turn-in.|C|Rogue|R|Dwarf,Gnome|
@@ -187,15 +194,16 @@ T Onin's Report|QID|2239|M|51.90,14.89|Z|Ironforge|C|Rogue|R|Dwarf,Gnome|
 ; -- Warlock
 R Ironforge|AVAILABLE|1715|M|15.59,85.32|Z|Ironforge|N|Make your way up the road to Ironforge.|C|Warlock|
 R The Forlorn Cavern|AVAILABLE|1715|M|40.86,11.81|Z|Ironforge|N|Make your way clockwise around the outer ring.|C|Warlock|
-A The Slaughtered Lamb|QID|1715|M|47.63,9.29|Z|Ironforge|N|From Lago Blackwrench.|C|Warlock|
+A The Slaughtered Lamb|QID|1715|M|47.63,9.29|Z|Ironforge|N|From Lago Blackwrench.|C|Warlock|LVL|10|
 
-R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|Ironforge|N|Class quest for your Voidwalker starts here.|C|Warlock|
-R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|Ironforge|N|Run to Ironforge.|C|-Warlock|
+R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|Ironforge|N|Class quest for your Voidwalker starts here.|TZ|City of Ironforge|C|Warlock|
+R Ironforge|AVAILABLE|6661|M|15.59,85.32|Z|Ironforge|N|Run to Ironforge.|TZ|City of Ironforge|C|-Warlock|
 R Deeprun Tram|AVAILABLE|6661|M|77.11,51.22|Z|Ironforge|N|Make your way to the Deeprun Tram entrance inside Tinker Town.|
 A Me Brother, Nipsy|QID|6662|PRE|6661|N|From Monty.|
 T Me Brother, Nipsy|QID|6662|N|To Nipsy on the center platform at the Stormwind Tram Terminal. Get on the tram and ride it to the other end.|
 R Stormwind City|AVAILABLE|239|N|Exit the Tram to Stormwind City|
-R The Slaughtered Lamb|ACTIVE|1715|M|31.7,60.0;29.03,74.31|CC|Z|Stormwind City|N|Make your way to the tavern in Mage Quarter.
+T Desperate Prayer|QID|5637|M|38.8,26.6|Z|Stormwind City|N|coords To High Priestess Laurena.|C|Priest|R|Dwarf|
+R The Slaughtered Lamb|ACTIVE|1715|M|31.7,60.0;29.03,74.31|CC|Z|Stormwind City|N|Make your way to the tavern in Mage Quarter.|
 T The Slaughtered Lamb|QID|1715|M|39.6,84.6|Z|Stormwind City|N|coords To Gakin the Darkbinder in the basement. Follow the ramp down to get to the basement.|C|Warlock|
 A Surena Caledon|QID|1688|M|39.6,84.6|Z|Stormwind City|N|coords From Gakin the Darkbinder.|C|Warlock|
 N Wand|ACTIVE|1688|N|Having reached level 10, you can now use a Shadow Wand.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
