@@ -115,7 +115,7 @@ C The Sun Pearl|QID|29677|M|76.26,46.85|N|Jump into the Singing Pools, open the 
 K The Sting of Learning|ACTIVE|29666|M|72.20,42.00|QO|1|N|Kill the Water Pincers. If there are none in the area, check the other pools.|US|
 T The Sun Pearl|QID|29677|M|70.63,38.73|N|To Old Man Liang|
 T The Sting of Learning|QID|29666|M|70.63,38.73|N|To Old Man Liang|
-A Shu, the Spirit of Water|QID|29678|M|70.63,38.73dd|N|From Old Man Liang|PRE|29666&29677|
+A Shu, the Spirit of Water|QID|29678|M|70.63,38.73|N|From Old Man Liang|PRE|29666&29677|
 C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|QO|1|N|Head to the glowing rocks and it will jump you to the edge of the Pool of Reflection. Walk forward to the pool.|NC|
 C Shu, the Spirit of Water|QID|29678|M|79.38,38.35|QO|2|N|Use the Sun Pearl to coax out Shu.|U|73791|NC|
 T Shu, the Spirit of Water|QID|29678|N|(UI Alert)\n[color=FF0000]NOTE: [/color]If the quest does not turn-in through the UI, access it through your quest log and click on 'Complete' to turn it in.|
