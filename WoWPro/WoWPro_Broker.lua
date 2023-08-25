@@ -4099,6 +4099,18 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
     end
 }
 
+_G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
+    text = "Welcome to WoWPro. For this addon to function, you need to install either: "
+           .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n"
+           .."WoW-Pro's guides won't have their full functionality without one of them!\n"
+           .."Download it for free from www.wowinterface.com or www.curseforge.com .",
+    button1 = _G.OKAY,
+    whileDead = true,
+    hideOnEscape = true,
+    timeout = 15,
+    OnAccept = function (self) return true ; end
+}
+
 function WoWPro.LockdownHandler(self, elapsed)
     if WoWPro.TrackerTimer ~= nil then
         WoWPro.TrackerTimer = WoWPro.TrackerTimer - elapsed
@@ -4122,10 +4134,7 @@ function WoWPro.LockdownHandler(self, elapsed)
                     WoWPro.LockdownTimer = 0.33
                 else
                     -- Warning if the user is missing TomTom --
-                    WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
-                        .."WoW-Pro's guides won't have their full functionality without it! "
-                        .."Download it for free from www.wowinterface.com or www.curse.com .")
-
+                    _G.StaticPopup_Show("WOWPRO_MISSING_ARROW")
                     if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
                         TomTom = nil
                         WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
