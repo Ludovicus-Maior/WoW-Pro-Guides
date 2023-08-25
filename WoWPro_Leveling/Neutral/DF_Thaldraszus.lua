@@ -40,7 +40,7 @@ F Valdrakken|ACTIVE|72269|M|76.03,35.04|Z|2022|N|At Tixxa Mixxa.|IZ|2022|;advent
 
 A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promoter.|RANK|2|
 A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112|N|From Waywatcher Lorin.|RANK|2|
-A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861|PRE|71232^72293|M|50.14,56.28|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
+A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|PRE|71232^72293|M|50.14,56.28|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
 ;A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around... not sure what the trigger is. but as it's done in WS still... leaving out of this guide entirely
 R To Valdrakken|QID|66244|ACTIVE|66244|M|52.20,53.02|Z|2112|QO|1|N|Head up the steps for the quest update.| ; Go to step - Hendo72
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
@@ -398,7 +398,7 @@ T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025|N|To Archivist Areniel.|
 ;A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112|N|From Aspiring Goblin Engineer.|IZ|2112|;Per WH this is deleted
 
 H Valdrakken|ACTIVE|66221^67093|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|TZ|The Roasted Ram|
-t Aiding the Accord|QID|70750^72068^72373^72374^72375^75861|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
+t Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
 ;A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
 ;T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
 ;A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
@@ -563,7 +563,7 @@ C The Awaited Egg-splosion|QID|66299|QO|6|M|44.48,73.01|Z|2025;Thaldraszus|N|Kil
 C The Awaited Egg-splosion|QID|66299|QO|7|M|44.72,72.68|Z|2025;Thaldraszus|EAB|N|Walk back outside the cave and use the provided Glider. It will take you directly to Harleen.|
 T The Awaited Egg-splosion|QID|66299|M|43.45,70.53|Z|2025;Thaldraszus|N|To Harleen Chirpsnide.|
 H Valdrakken|ACTIVE|70750^72068^72373^72374^72375|M|PLAYER|N|Hearth back to Valdrakken or fly back on your own as you choose.|TZ|The Roasted Ram|
-t Aiding the Accord|QID|70750^72068^72373^72374^72375^75861|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
+t Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
 A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
 T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
