@@ -4099,13 +4099,8 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
     end
 }
 
--- Helper function to check if the player is in a battleground
-local function IsInBattleground()
-    local inInstance, instanceType = IsInInstance()
-    return inInstance and (instanceType == "pvp" or instanceType == "arena")
-end
 
--- Define the popup dialog
+
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     text = "Welcome to WoWPro.\n"
         .. "For this addon to function, you need to install either: "
@@ -4117,23 +4112,8 @@ _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     hideOnEscape = true,
     timeout = 15,
     OnAccept = function (self)
-        -- Close the dialog box when the "OKAY" button is clicked
         _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
-    end,
-    OnShow = function (self)
-        -- Check if the player is in a battleground
-        local isInBattleground = IsInBattleground()
-        if isInBattleground then
-            _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
-        end
-    end,
-    OnHide = function (self)
-        -- Check if the player has left the battleground
-        local isInBattleground = IsInBattleground()
-        if not isInBattleground then
-            _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
-        end
-    end,
+    end
 }
 
 
