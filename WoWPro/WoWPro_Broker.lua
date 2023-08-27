@@ -4099,6 +4099,12 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
     end
 }
 
+-- Helper function to check if the player is in a battleground
+local function IsInBattleground()
+    local inInstance, instanceType = IsInInstance()
+    return inInstance and (instanceType == "pvp" or instanceType == "arena")
+end
+
 -- Define the popup dialog
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     text = "Welcome to WoWPro.\n"
@@ -4130,11 +4136,6 @@ _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     end,
 }
 
--- Helper function to check if the player is in a battleground
-function IsInBattleground()
-    local inInstance, instanceType = IsInInstance()
-    return inInstance and (instanceType == "pvp" or instanceType == "arena")
-end
 
 function WoWPro.LockdownHandler(self, elapsed)
     if WoWPro.TrackerTimer ~= nil then
