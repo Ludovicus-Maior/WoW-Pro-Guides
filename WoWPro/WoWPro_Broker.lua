@@ -4108,7 +4108,10 @@ _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     whileDead = true,
     hideOnEscape = true,
     timeout = 15,
-    OnAccept = function (self) return true ; end
+    OnAccept = function (self)
+        -- Close the dialog box when the "OKAY" button is clicked
+        _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
+    end,
 }
 
 function WoWPro.LockdownHandler(self, elapsed)
