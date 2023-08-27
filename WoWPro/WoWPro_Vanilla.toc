@@ -6,7 +6,7 @@
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
 ## OptionalDeps: Carbonite, TomTom
-## Version: 2023.08.24.Aelease 2023.01.25.A
+## Version: 2023.07.12.A
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 Libraries\LibStub\LibStub.lua
