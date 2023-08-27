@@ -4099,17 +4099,43 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
     end
 }
 
+-- Helper function to check if the player is in a battleground
+local function IsInBattleground()
+    local inInstance, instanceType = IsInInstance()
+    return inInstance and (instanceType == "pvp" or instanceType == "arena")
+end
+
+-- Define the popup dialog
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
-    text = "Welcome to WoWPro. For this addon to function, you need to install either: "
-           .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n"
-           .."WoW-Pro's guides won't have their full functionality without one of them!\n"
-           .."Download it for free from www.wowinterface.com or www.curseforge.com .",
+    text = "Welcome to WoWPro.\n"
+        .. "For this addon to function, you need to install either: "
+        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n"
+        .. "WoW-Pro's guides won't have their full functionality without one of them!\n"
+        .. "Download it for free from www.wowinterface.com or www.curseforge.com .",
     button1 = _G.OKAY,
     whileDead = true,
     hideOnEscape = true,
     timeout = 15,
-    OnAccept = function (self) return true ; end
+    OnAccept = function (self)
+        -- Close the dialog box when the "OKAY" button is clicked
+        _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
+    end,
+    OnShow = function (self)
+        -- Check if the player is in a battleground
+        local isInBattleground = IsInBattleground()
+        if isInBattleground then
+            _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
+        end
+    end,
+    OnHide = function (self)
+        -- Check if the player has left the battleground
+        local isInBattleground = IsInBattleground()
+        if not isInBattleground then
+            _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
+        end
+    end,
 }
+
 
 function WoWPro.LockdownHandler(self, elapsed)
     if WoWPro.TrackerTimer ~= nil then
