@@ -309,7 +309,7 @@ C Favorite Fruit|QID|65907|QO|2|M|54.47,63.38|Z|2023;Ohn'ahran Plains|NC|N|Targe
 T Favorite Fruit|QID|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A A Promise Is A Promise|QID|65770|PRE|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C A Promise Is A Promise|QID|65770|QO|1|M|54.79,66.68|Z|2023;Ohn'ahran Plains|CHAT|N|Promise her you will keep her secret.|
-C A Promise Is A Promise|QID|65770|QO|2|M|52.60,64.20|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing.|
+C A Promise Is A Promise|QID|65770|QO|2|M|52.60,64.20|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing. Note: if this objective doesn't complete leave the area and come back in on foot.|
 T A Promise Is A Promise|QID|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|To Godoloto.|
 A More Adventure Than Expected|QID|65761|PRE|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|From Godoloto.|RANK|2|
 C More Adventure Than Expected|QID|65761|QO|2|M|51.09,62.19|Z|2023;Ohn'ahran Plains|CHAT|N|You have followed Godoloto, you can optionally ask her for a buff too, if so tell Godoloto you are ready.|
