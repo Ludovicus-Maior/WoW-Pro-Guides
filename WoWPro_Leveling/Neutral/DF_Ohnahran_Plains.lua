@@ -293,9 +293,7 @@ C Show of Storm|QID|65836|M|83.44,60.86|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Regrou
 C Show of Storm|QID|65836|M|83.99,60.74|Z|2023;Ohn'ahran Plains|QO|2|N|Kill the Stormed Blackpaw.|
 T Show of Storm|QID|65836|M|83.96,60.75|Z|2023;Ohn'ahran Plains|N|To Scout Watu.|
 A Storm Chasing|QID|66684|PRE|65836|M|83.96,60.75|Z|2023;Ohn'ahran Plains|N|From Scout Watu.|
-C Storm Chasing|QID|66684|M|85.03,62.37|Z|2023;Ohn'ahran Plains|QO|1|N|Kill the Primalist Forces as you go into the cave.|S|
-C Storm Chasing|QID|66684|M|85.02,64.19|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click the Storm Pylon.|
-C Storm Chasing|QID|66684|M|85.03,62.37|Z|2023;Ohn'ahran Plains|QO|1|N|Finish off the Primalist Forces.|US|
+C Storm Chasing|QID|66684|M|85.02,64.19|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the Storm Pylon.|
 T Storm Chasing|QID|66684|M|80.87,58.94|Z|2023;Ohn'ahran Plains|N|To Scout Watu.|
 
 R Ohn'iri Springs|ACTIVE|65906|M|56.69,76.57|Z|2023;Ohn'ahran Plains|N|You'll probably want to be a full vigor if you are using your dragon.|RANK|2|
