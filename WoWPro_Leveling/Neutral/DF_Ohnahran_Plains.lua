@@ -293,9 +293,7 @@ C Show of Storm|QID|65836|M|83.44,60.86|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Regrou
 C Show of Storm|QID|65836|M|83.99,60.74|Z|2023;Ohn'ahran Plains|QO|2|N|Kill the Stormed Blackpaw.|
 T Show of Storm|QID|65836|M|83.96,60.75|Z|2023;Ohn'ahran Plains|N|To Scout Watu.|
 A Storm Chasing|QID|66684|PRE|65836|M|83.96,60.75|Z|2023;Ohn'ahran Plains|N|From Scout Watu.|
-C Storm Chasing|QID|66684|M|85.03,62.37|Z|2023;Ohn'ahran Plains|QO|1|N|Kill the Primalist Forces as you go into the cave.|S|
-C Storm Chasing|QID|66684|M|85.02,64.19|Z|2023;Ohn'ahran Plains|QO|2|NC|N|Click the Storm Pylon.|
-C Storm Chasing|QID|66684|M|85.03,62.37|Z|2023;Ohn'ahran Plains|QO|1|N|Finish off the Primalist Forces.|US|
+C Storm Chasing|QID|66684|M|85.02,64.19|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Click the Storm Pylon.|
 T Storm Chasing|QID|66684|M|80.87,58.94|Z|2023;Ohn'ahran Plains|N|To Scout Watu.|
 
 R Ohn'iri Springs|ACTIVE|65906|M|56.69,76.57|Z|2023;Ohn'ahran Plains|N|You'll probably want to be a full vigor if you are using your dragon.|RANK|2|
@@ -311,7 +309,7 @@ C Favorite Fruit|QID|65907|QO|2|M|54.47,63.38|Z|2023;Ohn'ahran Plains|NC|N|Targe
 T Favorite Fruit|QID|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A A Promise Is A Promise|QID|65770|PRE|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C A Promise Is A Promise|QID|65770|QO|1|M|54.79,66.68|Z|2023;Ohn'ahran Plains|CHAT|N|Promise her you will keep her secret.|
-C A Promise Is A Promise|QID|65770|QO|2|M|52.60,64.20|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing.|
+C A Promise Is A Promise|QID|65770|QO|2|M|52.60,64.20|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing. Note: if this objective doesn't complete leave the area and come back in on foot.|
 T A Promise Is A Promise|QID|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|To Godoloto.|
 A More Adventure Than Expected|QID|65761|PRE|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|From Godoloto.|RANK|2|
 C More Adventure Than Expected|QID|65761|QO|2|M|51.09,62.19|Z|2023;Ohn'ahran Plains|CHAT|N|You have followed Godoloto, you can optionally ask her for a buff too, if so tell Godoloto you are ready.|
