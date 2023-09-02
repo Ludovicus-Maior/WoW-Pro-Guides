@@ -206,6 +206,21 @@ R Ironforge|AVAILABLE|1715|M|15.59,85.32|Z|Ironforge|N|Make your way up the road
 R The Forlorn Cavern|AVAILABLE|1715|M|40.86,11.81|Z|Ironforge|N|Make your way clockwise around the outer ring.|C|Warlock|
 A The Slaughtered Lamb|QID|1715|M|47.63,9.29|Z|Ironforge|N|From Lago Blackwrench.|C|Warlock|LVL|10|
 = Level 10 Training|ACTIVE|1715|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|LVL|10|IZ|City of Ironforge|
+; -- Warrior
+A Muren Stormpike|QID|1679|M|47.36,52.65|Z|Dun Morogh|N|From Granis Swiftaxe.|C|Warrior|R|Dwarf,Gnome|
+= Level 10 Training|ACTIVE|1679|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warrior|R|Dwarf,Gnome|LVL|10|IZ|Kharanos|
+T Muren Stormpike|QID|1679|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike near the Warrior/Hunter trainers in Ironforge.|C|Warrior|R|Dwarf,Gnome|
+A Vejrek|QID|1678|PRE|1679|M|70.77,90.28|Z|Ironforge|N|From Muren Stormpike.|C|Warrior|R|Dwarf,Gnome|
+C Vejrek|QID|1678|M|27.70,57.70|N|Vejrek can be found up a path leading into the mountains inside a hut.|C|Warrior|R|Dwarf,Gnome|
+T Vejrek|QID|1678|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike.|C|Warrior|R|Dwarf,Gnome|
+A Tormus Deepforge|QID|1680|PRE|1678|M|70.77,90.28|Z|Ironforge|N|From Muren Stormpike.|C|Warrior|R|Dwarf,Gnome|
+T Tormus Deepforge|QID|1680|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
+A Ironband's Compound|QID|1681|PRE|1680|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
+C Ironband's Compound|QID|1681|M|77.90,62.20|N|The ore is located in a guarded lockbox in the basement of a building.|C|Warrior|R|Dwarf,Gnome|
+T Ironband's Compound|QID|1681|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
+A Grey Iron Weapons|QID|1682|PRE|1681|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
+T Grey Iron Weapons|QID|1682|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
+
 = Professions|AVAILABLE|6661|M|PLAYER|CC|N|If you haven't done so yet, take this opportunity to learn your Professions and Secondary skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 R Deeprun Tram|AVAILABLE|6661|M|77.07,51.29|Z|Ironforge|N|Head to the Deeprun Tram entrance in Tinkertown.|
 A Deeprun Rat Roundup|QID|6661|N|From Monty standing at the west end of the center platform.\n[color=FF0000]NOTE: [/color]Coordinates do not work inside Deeprun Tram.|
@@ -223,7 +238,6 @@ N Wand|ACTIVE|1688|N|Having reached level 10, you can now use a Shadow Wand.\n[c
 B Shadow Wand|ACTIVE|1688|M|PLAYER|CC|L|5071|N|Check the AH to see if one is available.\n[color=FF0000]NOTE: [/color]If you don't have the money, or there isn't one available, you can skip this step and come back later.|C|Warlock|
 
 f Stormwind|AVAILABLE|40|M|70.99,72.55|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Stormwind|
-h Stormwind City|AVAILABLE|40|M|60.41,75.25|Z|1453;Stormwind City|N|Head to the Innkeeper in the trade district and set your hearthstone|
 R Elwynn Forest|AVAILABLE|40|M|32.03,49.18|Z|1429;Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Goldshire|AVAILABLE|40|M|41.10,61.93|Z|1429;Elwynn Forest|N|Follow the road to Goldshire.|
 A A Fishy Peril|QID|40|M|42.14,67.25|Z|1429;Elwynn Forest|N|From Remy "Two Times".|
@@ -252,6 +266,7 @@ C Kobold Candles|QID|60|M|41.04,79.78|Z|1429;Elwynn Forest|L|772 8|ITEM|772|N|An
 R Goldshire|ACTIVE|47^60^62|M|41.58,69.46|Z|1429;Elwynn Forest|N|Return to Goldshire.|
 T Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429;Elwynn Forest|N|To Remy "Two Times".|
 T Kobold Candles|QID|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|To William Pestle.|
+A Shipment to Stormwind|QID|61|M|43.32,65.70|Z|1429;Elwynn Forest|N|From William Pestle.|
 T The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 A The Jasperlode Mine|QID|76|PRE|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 R Jasperlode Mine|QID|76|QO|1|M|58.72,56.28|Z|1429;Elwynn Forest|N|Head northward from Goldshire to the top of the mountain range and follow it east.\n[color=FF0000]NOTE: [/color]If you fall into Northshire Valley, you'll have a long run back to get back up.|
@@ -297,27 +312,15 @@ T The Collector|QID|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.
 A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 T Wanted:  "Hogger"|QID|176|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 
-N City Facilities|ACTIVE|291|N|Use this time to visit Auction House, Bank and to sell and restock. Now is a good time to increase bagspace!|S|
+R Stormwind City|ACTIVE|61|M|74.63,93.25|Z|1453;Stormwind City|N|Take the northwest road out of Goldshire to Stormwind City.|
+N Housekeeping|ACTIVE|291|M|PLAYER|CC|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't where to go.|S|IZ|Stormwind City|
+T Shipment to Stormwind|QID|61|M|63.16,74.41|Z|1453;Stormwind City|N|To Morgan Pestle inside Pestle's Apothecary.|
+H Thunderbrew Distillery|ACTIVE|1097|M|47.37,52.51|N|Hearth back to Dun Morogh, or use the Deeprun Tram if your Hearth is on cooldown.|TZ|Dun Morogh^City of Ironforge|
+R Ironforge|ACTIVE|291|M|16.24,84.52|Z|1455;Ironforge|N|Make your way up the road to Ironforge.|TZ|City of Ironforge|
 T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
-f Ironforge|QID|311|M|55.7,48.0|N|coords Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|Z|Ironforge|
+f Ironforge|QID|311|M|55.7,48.0|Z|Ironforge|N|coords Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|TAXI|-Ironforge|
 
-H Thunderbrew Distillery|C|Warlock|
-
-A Muren Stormpike|QID|1679|M|47.36,52.65|Z|Dun Morogh|N|From Granis Swiftaxe.|C|Warrior|R|Dwarf,Gnome|
-T Muren Stormpike|QID|1679|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike near the Warrior/Hunter trainers in Ironforge.|C|Warrior|R|Dwarf,Gnome|
-A Vejrek|QID|1678|PRE|1679|M|70.77,90.28|Z|Ironforge|N|From Muren Stormpike.|C|Warrior|R|Dwarf,Gnome|
-C Vejrek|QID|1678|M|27.70,57.70|N|Vejrek can be found up a path leading into the mountains inside a hut.|C|Warrior|R|Dwarf,Gnome|
-T Vejrek|QID|1678|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike.|C|Warrior|R|Dwarf,Gnome|
-A Tormus Deepforge|QID|1680|PRE|1678|M|70.77,90.28|Z|Ironforge|N|From Muren Stormpike.|C|Warrior|R|Dwarf,Gnome|
-T Tormus Deepforge|QID|1680|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
-A Ironband's Compound|QID|1681|PRE|1680|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
-C Ironband's Compound|QID|1681|M|77.90,62.20|N|The ore is located in a guarded lockbox in the basement of a building.|C|Warrior|R|Dwarf,Gnome|
-T Ironband's Compound|QID|1681|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
-A Grey Iron Weapons|QID|1682|PRE|1681|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
-T Grey Iron Weapons|QID|1682|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
-; ---------- END OF LEVEL 10 CLASS TRAINING ------------
-
-R Amberstill Ranch|QID|314|M|62.6,53.4|N|coords Head to Amberstill ranch, follow the road to the east .|
+R Amberstill Ranch|QID|314|M|62.6,53.4|N|Exit Ironforge and head east to Amberstill ranch.|
 A Protecting the Herd|QID|314|M|63.08,49.86|N|From Rudra Amberstill. Follow the path up the hill. This is an Elite quest (Level 11 Elite)|
 
 R Up the hill|QID|314|M|61.75,52.0;60.6,53.0;59.6,52.4;59.35,50.85;60.9,47.3;62.0,47.2|CC|N|coords Vagash is up the hill|
