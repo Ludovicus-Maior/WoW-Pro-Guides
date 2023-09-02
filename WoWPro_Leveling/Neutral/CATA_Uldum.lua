@@ -260,7 +260,7 @@ T Bleeding the Enemy|QID|28483|M|52.07,65.43|N|To King Phaoris.|
 T Lieutenants of Darkness|QID|28480|M|52.07,65.43|N|To King Phaoris.|US|
 A The Fall of Neferset City|QID|28520|PRE|28480&28483&28486|M|52.07,65.43|N|From King Phaoris.|
 C The Fall of Neferset City|QID|28520|M|52.04,82.29|N|Defeat Dark Pharaoh Tekahn. NPCs will come to your aid, just make sure you avoid the laser beams from the Colossi.|
-T The Fall of Neferset City|QID|28520|M|54.89,32.82|U|6948|N|Use your Hearthstone. To King Phaoris.|
+T The Fall of Neferset City|QID|28520|M|54.89,32.82|N|Use your Hearthstone. To King Phaoris.|
 A Return to the Lost City|QID|28870|PRE|28520|M|54.89,32.82|N|This is a Dungeon quest and is optional. From King Phaoris.|LEAD|28783|RANK|3|
 T That Gleam in his Eye|QID|27899|M|43.94,57.10|N|To Harrison Jones. On top of the Obelisk of the Sun.|
 A I've Got This Guy|QID|27900|PRE|27669|M|43.94,57.10|N|From Harrison Jones.|S|

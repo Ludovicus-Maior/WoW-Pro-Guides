@@ -167,7 +167,7 @@ A Honor the Flame|RANK|2|QID|11835|M|32.10,68.32|Z|Netherstorm|N|From the Flame 
 A Desecrate this Fire!|RANK|2|QID|11759|M|31.04,62.92|Z|Netherstorm|N|At the Alliance Bonfire. (Netherstorm)|
 N Outland Complete!|QID|910270001|ACH|1027;1|RANK|2|N|You should now have completed both Flame Keeper of Outland and Extinguish Outland achievements.|
 
-H Orgrimmar|U|6948|RANK|2|N|Hearth back to Dalaran and then portal to Ogrimmar.|QID|29036|
+H Orgrimmar|RANK|2|N|Hearth back to Dalaran and then portal to Ogrimmar.|QID|29036|
 
 R Deepholm|RANK|2|QID|29036|M|50.6,37|N|Take the portal to Deepholm.|LVL|82|
 A Honor the Flame|RANK|2|QID|29036|M|49.4,51.4|Z|Deepholm|N|From the Flame Guardian. (Deepholm)|LVL|82|
@@ -233,7 +233,7 @@ A Desecrate this Fire!|RANK|2|QID|28910|M|51.65,63.33|Z|Northern Stranglethorn|N
 R Wild Shore|RANK|2|QID|11837|M|50.40,70.38|Z|The Cape of Stranglethorn|N|Head down to the Wild Shore in The Cape of Stranglethorn.|
 A Honor the Flame|RANK|2|QID|11837|M|50.40,70.39|Z|The Cape of Stranglethorn|N|From the Flame Keeper. (The Cape of Stranglethorn)|
 A Desecrate this Fire!|RANK|2|QID|11761|M|51.79,67.26|Z|The Cape of Stranglethorn|N|At the Alliance Bonfire. (The Cape of Stranglethorn)|
-H Orgrimmar|U|6948|N|Hearth back to Orgrimmar. (alternatively you can take the flightpath to Bloodgulch in Twilight Higlands.)|RANK|2|QID|28946|Z|The Cape of Stranglethorn|
+H Orgrimmar|N|Hearth back to Orgrimmar. (alternatively you can take the flightpath to Bloodgulch in Twilight Higlands.)|RANK|2|QID|28946|Z|The Cape of Stranglethorn|
 R Twilight Highlands|N|Click the portal to go to the Twilight Highlands.|M|50.6,37|RANK|2|QID|28946|
 A Honor the Flame|RANK|2|QID|28946|M|53.13,46.18|Z|Twilight Highlands|N|From the Flame Keeper. (Twilight Highlands)|
 A Desecrate this Fire!|RANK|2|QID|28943|M|47.11,28.22|Z|Twilight Highlands|N|At the Alliance Bonfire. (Twilight Highlands)|
@@ -260,12 +260,12 @@ A Honor the Flame|RANK|2|QID|11850|M|46.90,26.34|Z|Ghostlands|N|From the Flame K
 
 F Silvermoon City|RANK|2|QID|11848|M|45.5,30.65|Z|Ghostlands|N|Fly to Silvermoon City.|
 A Honor the Flame|RANK|2|QID|11848|M|46.40,50.60|Z|Eversong Woods|N|From the Flame Keeper. (Eversong Woods)|
-H Orgrimmar|RANK|2|QID|9331|U|6948|N|Hearth back to Orgrimmar.|
+H Orgrimmar|RANK|2|QID|9331|N|Hearth back to Orgrimmar.|
 T Stealing Ironforge's Flame|RANK|3|QID|9331|M|47.8,37.8|N|To the Festival Talespinner.|
 T Stealing Stormwind's Flame|RANK|3|QID|9330|M|47.8,37.8|N|To the Festival Talespinner.|
 A A Thief's Reward|RANK|3|QID|9339|M|47.8,37.8|N|From the Festival Talespinner. You can do this every year, but there is no particular reason to do it more than once.|
 N Eastern Kingdoms Complete!|RANK|2|QID|910250014|N|You should now have completed both Flame Keeper of Eastern Kingdoms and Extinguish Eastern Kingdoms achievements completed. Check this step off to move on to Outland!|
-H Orgrimmar|U|6948|RANK|2|N|Return to Orgrimmar using your choice of methods.|QID|11917^11947^11948^11952^11953^11954|
+H Orgrimmar|RANK|2|N|Return to Orgrimmar using your choice of methods.|QID|11917^11947^11948^11952^11953^11954|
 
 T Striking Back|RANK|2|QID|11917^11947^11948^11952^11953^11954|M|47.6,38.2|N|To the Earthen Ring Elder.|
 B Buy 15 Juggling Torches from Midsummer Merchant.|RANK|2|QID|902720001|ACH|272;1|M|47.6,38.6|L|34599 15|N|These aren't soulbound, check with your friends if you want to save the flowers.|

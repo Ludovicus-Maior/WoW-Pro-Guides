@@ -49,7 +49,7 @@ l Element 115|QID|12432|O|M|16.4,80.3|N|Grab some Element 115, same as before ki
 R Run here|QID|12432|O|M|13.7,88.95|CC|N|And hop on a Rocket Propelled Warhead. You can mount and fly over the water if you wish.|
 C Riding the Red Rocket|QID|12432|O|M|21.47,84.59|N|Carefully work your way to this waypoint. If you fail, just get another Element 115 and try again.|
 T Riding the Red Rocket|QID|12432|O|M|14.82,86.54|N|To General Gorlok.|
-H Conquest Hold|QID|12259|O|U|6948|N|Hearth to Conquest Hold.|
+H Conquest Hold|QID|12259|O|N|Hearth to Conquest Hold.|
 N READ THIS|QID|12259|N|Time to engage a vrykul from dragonback, grab the dragon (Flamebringer) where the waypoint is. When you take control of the drake, you get 3 abilities. When you engage the Thane, move in really close on his right (doesn't necessarily matter, just orientation purposes) and open with ability 3. Then use ability 2. Then spam ability 1 until 2 or 3 come off cooldown and then use them. When he volleys, move to his other side and continue.|M|26,80|
 C The Thane of Voldrune|QID|12259|N|Kill Thane Torvald Eriksson.|M|27.1,73.0|
 T The Thane of Voldrune|QID|12259|N|To Sergeant Nazgrim.|M|21.0,64.1|
@@ -131,7 +131,7 @@ C Eyes Above|QID|12453|U|37877|N|Use the Silver Feather on 6 Imperial Eagles.|S|
 l Desparate Mojos |QID|12802|L|36743 5|N|Kill Drakkari until you get 5 mojos.|M|44,30|
 T My Heart is in Your Hands |QID|12802|U|35797|N|Use the [Drakuru's Elixir] near the brazier in Drak'atal Passage. To the Image of Drakuru.|M|44.92,28.33|
 A Voices From the Dust |QID|12068|PRE|12802|M|45.0,28.4|N|From the Image of Drakuru.|
-H Conquest Hold|QID|12413|U|6948|N|Hearth to Conquest Hold.|
+H Conquest Hold|QID|12413|N|Hearth to Conquest Hold.|
 T Attack on Silverbrook|QID|12413|M|20.8,64.2|N|To Conqueror Krenna.|
 A Ruuna the Blind|QID|12425|M|20.9,64.1|N|From Gorgonna.|
 A Vordrassil's Fall|QID|12207|M|22.5,63.0|N|From Windseer Grayhorn.|
@@ -165,7 +165,7 @@ C The Horse Hollerer|QID|12415|N|Use the Flashbang Grenade to scare mustangs.|U|
 A The Damaged Journal|QID|12026|N|From a Battered Journal on the ground.|M|64.3,19.8|
 N Missing Journal Pages|QID|12026|N|Gather 8 Missing Journal Pages off the ground.|L|35737 8|M|64,22|
 C The Damaged Journal|QID|12026|U|35739|N|Use the Incomplete Journal.|
-H Conquest Hold|QID|12453|U|6948|N|Hearth to Conquest Hold.|
+H Conquest Hold|QID|12453|N|Hearth to Conquest Hold.|
 T Eyes Above|QID|12453|M|22.5,63.0|N|To Windseer Grayhorn.|
 T The Darkness Beneath|QID|12213|M|22.5,63.0|N|To Windseer Grayhorn.|
 T Vordrassil's Fall|QID|12207|M|22.5,63.0|N|To Windseer Grayhorn.|
@@ -229,7 +229,7 @@ A A Sister's Pledge |QID|12411|PRE|12330|M|57.5,41.3|N|From Sasha.|
 C Vordrassil's Seeds|QID|12242|S|N|Look for 8 Vordrassil's Seeds. They can be found lying around in the furbolg camps all around the huge tree.|M|52,39|
 C Destroy the Sapling|QID|12241|N|Head into Grizzlemaw. The sapling is in the bottom level. Use the torch on the tree.|U|37306|M|50.8,42.6|
 C Vordrassil's Seeds|QID|12242|US|N|Look for 8 Vordrassil's Seeds. They can be found lying around in the furbolg camps all around the huge tree.|M|52,39|
-H Conquest Hold|QID|12236|U|6948|N|Hearth to Conquest Hold.|
+H Conquest Hold|QID|12236|N|Hearth to Conquest Hold.|
 T Vordrassil's Seeds|QID|12242|M|22.5,63.0|N|To Windseer Grayhorn.|
 T Destroy the Sapling|QID|12241|M|22.5,63.0|N|To Windseer Grayhorn.|
 A Ursoc, the Bear God|QID|12236|N|From Windseer Grayhorn.|M|22.5,63.0|

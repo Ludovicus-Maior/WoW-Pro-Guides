@@ -50,8 +50,8 @@ C A Cure In The Dark|QID|13554|M|58.86,32.34|N|Kill Vile Grells and Vile Corrupt
 R Bashal'Aran Collapse|QID|28529|M|52.81,32.72|N|Head outside the cave, and jump into the 'Maw of the Void'.|RANK|2|
 l Writings of the Dark Herald|QID|28529|M|52.32,31.03|L|64450|N|Run up the ramp and kill Telarius Voidstrider. Then loot the "Writings of the Dark Herald".|RANK|2|
 A Writings of the Void|QID|28529|U|64450|N|Accept the quest from the writings.|M|52.32,31.03|RANK|2|
-H Lor'danel|QID|13529|U|6948|M|51.19,19.69|N|Hearth back to Lor'danel, or run back down to Bielara Ivyshroud and tell her you'd like to leave the place, then run back.|RANK|2|
-H Lor'danel|QID|13529|U|6948|M|51.19,19.69|N|Hearth back to or run back to Lor'danel.|
+H Lor'danel|QID|13529|M|51.19,19.69|N|Hearth back to Lor'danel, or run back down to Bielara Ivyshroud and tell her you'd like to leave the place, then run back.|RANK|2|
+H Lor'danel|QID|13529|M|51.19,19.69|N|Hearth back to or run back to Lor'danel.|
 T The Corruption's Source|QID|13529|M|51.19,19.69|N|To Tharnariun Treetender.|
 T Bearer of Good Fortune|QID|13557|M|51.19,19.69|N|To Tharnariun Treetender.|
 T A Troubling Prescription|QID|13831|M|51.19,19.69|N|To Tharnariun Treetender.|
@@ -146,7 +146,7 @@ l Hellscream's Missive|QID|13591|M|72.21,19.06|N|Loot Jor'kil the Soulripper to 
 A Disturbing Connections|QID|13591|M|72.31,18.90|N|Right-click Hellscream's Missive and accept the quest.|U|46318|
 T Ending the Threat|QID|13515|M|72.35,18.87|N|To Huntress Sandrya Moonfall.|
 T The Ancients' Ire|QID|13514|M|69.14,19.25|N|To Kerlonian Evershade.|
-H Lor'danel|QID|13591|U|6948|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|FLY|OLD|
+H Lor'danel|QID|13591|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|FLY|OLD|
 r Sell Junk and Repair|QID|13591|M|50.76,19.24|N|Close this step when you're done.|
 T Disturbing Connections|QID|13591|M|50.65,19.65|N|To Ranger Glynda Nal'Shea.|
 A The Twilight's Hammer|QID|13519|PRE|13591|M|50.31,20.29|N|From Sentinel Lendra.|

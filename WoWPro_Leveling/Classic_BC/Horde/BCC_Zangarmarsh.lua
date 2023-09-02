@@ -199,7 +199,7 @@ T The Sharpest Blades|QID|9842|M|31.6,49.2|N|To Gambarinka.|
 T Us or Them|QID|9823|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 T Message to the Daggerfen|QID|10118|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 A News for Rakoria|QID|10105|M|30.71,50.89|N|From Shadow Hunter Denjai. This leads into Terokkar Forest, accept if you want to go there next.|
-H Cenarion Refuge|QID|9720|U|6948|N|Run back if your hearth isn't up.|M|33.0,51.1|
+H Cenarion Refuge|QID|9720|N|Run back if your hearth isn't up.|M|33.0,51.1|
 T Balance Must Be Preserved|QID|9720|M|78.4,62.0|N|To Ysiel Windsinger.|
 A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire. This leads into Terokkar Forest, accept if you want to go there next.|
 N Plant parts|QID|10118|N|Turn in any more plant parts you looted.|

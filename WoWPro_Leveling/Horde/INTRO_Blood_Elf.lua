@@ -88,7 +88,7 @@ l Captain Kelisendra's Lost Rutters|QID|8887|L|21776|N|Keep killing murlocs unti
 A Captain Kelisendra's Lost Rutters|QID|8887|U|21776|N|From Captain Kelisendra's Lost Rutters.|
 T Fish Heads, Fish Heads...|QID|8884|N|To Hathvelion Sungaze.|Z|Eversong Woods|M|29.89,58.52|
 A The Ring of Mmmrrrggglll|QID|8885|PRE|8884|N|From Hathvelion Sungaze.|Z|Eversong Woods|M|29.89,58.52|
-H Falconwing Square|QID|8482|U|6948|N|Hearth to Falconwing Square.|
+H Falconwing Square|QID|8482|N|Hearth to Falconwing Square.|
 T Incriminating Documents|QID|8482|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
 A The Dwarven Spy|QID|8483|PRE|8482|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
 C The Dwarven Spy|QID|8483|L|20764|CHAT|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|Z|Eversong Woods|M|44.60,53.30|
@@ -207,7 +207,7 @@ A Warning Fairbreeze Village|QID|9363|PRE|9360|Z|Eversong Woods|M|60.32,62.76|N|
 T The Spearcrafter's Hammer|QID|8477|N|To Arathel Sunforge.|Z|Eversong Woods|M|59.5,62.6|
 C The Purest Water|QID|9403|R|BloodElf|C|Mage|Z|Eversong Woods|M|64.21,72.66|U|23566|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|
 T The Purest Water|QID|9403|R|BloodElf|C|Mage|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
-H Fairbreeze Village|QID|9255|U|6948|N|Hearth to Fairbreeze Village.|
+H Fairbreeze Village|QID|9255|N|Hearth to Fairbreeze Village.|
 T Research Notes |QID|9255|N|To Magistrix Landra Dawnstrider.|Z|Eversong Woods|M|44.03,70.76|
 T Warning Fairbreeze Village|QID|9363|N|To Ranger Degolien.|Z|Eversong Woods|M|43.3,70.8|
 T Defending Fairbreeze Village|QID|9252|N|To Ranger Sareyn.|Z|Eversong Woods|M|46.93,71.79|

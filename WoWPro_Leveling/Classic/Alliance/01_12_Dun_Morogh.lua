@@ -139,7 +139,7 @@ C The Perfect Stout|QID|315|M|41.3,44.5;41.7,35.75|CN|NC|N|Loot the Shimmerweed 
 R Gnomeregan|QID|412|ACTIVE|412|M|29.0,41.0|N|Come off the ridge, then head west to Gnomeregan.|
 C Operation Recombobulation|QID|412|M|25.71,41.81|N|Kill and loot the Leper Gnomes for the necessary parts.|
 C A Favor for Evershine|QID|319|US|N|Finish killing Ice Claw Bears, Elder Crag Boars and Snow Leopards.|
-H Thunderbrew Distillery|QID|412|M|47.37,52.51|U|6948|N|Use your hearthstone to return to Kharanos.|
+H Thunderbrew Distillery|QID|412|M|47.37,52.51|N|Use your hearthstone to return to Kharanos.|
 
 r Sell and Repair|S|M|47.2,52.4|ACTIVE|310|N|Take this opportunity to sell your junk with Kreg Bilmn.|
 B Thunder Ale|ACTIVE|310|L|2686|M|47.38,52.52|N|Buy this from the innkeeper.|
@@ -263,7 +263,7 @@ N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, B
 T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
 f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|Z|Ironforge|
 
-H Thunderbrew Distillery|C|Warlock|U|6948|
+H Thunderbrew Distillery|C|Warlock|
 
 A Muren Stormpike|QID|1679|C|Warrior|R|Dwarf,Gnome|M|47.36,52.65|Z|Dun Morogh|N|From Granis Swiftaxe.|
 T Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike near the Warrior/Hunter trainers in Ironforge.|

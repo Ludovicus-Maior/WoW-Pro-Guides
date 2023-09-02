@@ -88,7 +88,7 @@ N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find f
 C Naga at the Zoram Strand|QID|6442|M|13.49,25.82|Z|Ashenvale|N|Kill Nagas for their Wrathtail Heads.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|To Marukai.|
 
-H Orgrimmar|QID|493|U|6948|Z|Orgrimmar|
+H Orgrimmar|QID|493|Z|Orgrimmar|
 r Repair, restock, train and Bank|QID|6504|M|49.90,70.40|Z|Orgrimmar|N|Deposit into the bank any Shredder Operating Manual pages.|
 
 ; ----Warlock Class Quest-------------------------------------------------------------------------
@@ -181,7 +181,7 @@ F Thunder Bluff|QID|31|C|Druid|M|44.40,45.70|Z|Moonglade|O|
 T Aquatic Form|QID|31|C|Druid|M|76.00,27.00|Z|Ashenvale|O|
 ; --- class quests ------------------------------------------------------------
 
-H Orgrimmar|QID|6641|U|6948|Z|Ashenvale|
+H Orgrimmar|QID|6641|Z|Ashenvale|
 N Auction House|QID|6581|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Deadly Blunderbuss|
 
 ; --- class quests ------------------------------------------------------------
@@ -251,7 +251,7 @@ F Zoram'gar Outpost|QID|824|M|73.20,61.60|Z|Ashenvale|
 T Je'neu of the Earthen Ring|QID|824|M|11.60,34.30|Z|Ashenvale|N|To Je'neu Sancrea|
 
 ; === 25_26_Jame_The_Barrens.lua ===
-H Orgrimmar|QID|5052|U|6948|Z|The Barrens|
+H Orgrimmar|QID|5052|Z|The Barrens|
 N Auction House|QID|6504|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Shredder Operating Manual pages, Deadly Blunderbuss|
 
 ; -----Class Quest------------------------------------------------------------------------
@@ -373,7 +373,7 @@ f Booty Bay|QID|6571|M|26.90,77.10|Z|Stranglethorn Vale|N|The flight point can b
 C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|Stranglethorn Vale|
 
 ; === 26_27_Jame_Ashenvale.lua ===
-H Orgrimmar|QID|6581|U|6948|Z|Ashenvale|
+H Orgrimmar|QID|6581|Z|Ashenvale|
 N Auction House - LAST CHANCE|QID|6504|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Shredder Operating Manual pages (LAST CHANCE), Deadly Blunderbuss (LAST CHANCE)|
 N Bank Withdrawal|QID|6581|M|49.90,70.40|Z|Orgrimmar|N|Withdraw from the bank: Deadly Blunderbuss, Shredder Operating Manual pages|
 
@@ -410,7 +410,7 @@ T Satyr Horns|QID|6441|M|73,61.4|Z|Ashenvale|N|To Pixel|
 
 ; === 28_28_Jame_Hillsbrad_Foothills.lua ===
 
-H Orgrimmar|QID|5052|U|6948|Z|Ashenvale|
+H Orgrimmar|QID|5052|Z|Ashenvale|
 
 R Undercity|QID|529|Z|Hillsbrad Foothills|N|Take the Zepplin to Tirisfal then run to Undercity|
 
@@ -460,7 +460,7 @@ A Elixir of Agony |QID|513|PRE|509|M|61.44,19.05|Z|Hillsbrad Foothills|N|Apothec
 
 ; === 28_30_Jame_Thousand_Needles.lua ===
 
-H Orgrimmar|QID|5881|U|6948|Z|Hillsbrad Foothills|
+H Orgrimmar|QID|5881|Z|Hillsbrad Foothills|
 
 ; -----Class Quest--------------------------------------------------------------
 F Ratchet|QID|96|C|Shaman|M|45.30,63.90|Z|Orgrimmar|

@@ -45,7 +45,7 @@ A Honor the Flame|N|From the Flame Warden. (Dustwallow Marsh)|QID|11815|M|62,40|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Dustwallow Marsh)|QID|11771|M|33,31|Z|Dustwallow Marsh|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Mulgore)|QID|11777|M|52.13,59.98|Z|Mulgore|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Durotar)|QID|11770|M|51.98,47.18|Z|Durotar|
-H Shattrath City|QID|11814|N|Hearth back to Shattrath City|U|6948|
+H Shattrath City|QID|11814|N|Hearth back to Shattrath City|
 P Stormwind City|QID|11814|M|55.70,37.08|Z|Shattrath City|N|Portal to Stormwind City|
 
 ;Eastern Kingdoms
@@ -58,7 +58,7 @@ A Honor the Flame|N|From the Flame Warden. (Burning Steppes)|QID|11810|M|80.25,6
 A Desecrate this Fire!|N|At the Horde Bonfire. (Burning Steppes)|QID|11768|M|62.10,29.28|Z|Burning Steppes|
 F Thelsamar|QID|11820|M|84.38,68.30|Z|Burning Steppes|N|Fly to Thelsamar|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Badlands)|QID|11766|M|4.68,49.11|Z|Badlands|
-H Shattrath City|QID|11813|N|Hearth back to Shattrath City|U|6948|
+H Shattrath City|QID|11813|N|Hearth back to Shattrath City|
 P Ironforge|QID|11813|M|55.70,37.08|Z|Shattrath City|N|Portal to Ironforge|
 A Honor the Flame|N|From the Flame Warden. (Dun Morogh)|QID|11813|M|46.73,46.97|Z|Dun Morogh|
 A Honor the Flame|N|From the Flame Warden. (Loch Modan)|QID|11820|M|32.52,40.98|Z|Loch Modan|
@@ -75,7 +75,7 @@ A Desecrate this Fire!|N|At the Horde Bonfire. (The Hinterlands)|QID|11784|M|76.
 F Zul'Aman|N|Fly to Zul'Aman in the Ghostlands.|QID|11774|M|11.12,46.11|Z|The Hinterlands|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Ghostlands)|QID|11774|M|47.02,25.98|Z|Ghostlands|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Eversong Woods)|QID|11772|M|46.36,50.39|Z|Eversong Woods|
-H Shattrath City|QID|11781|N|Hearth back to Shattrath City|U|6948|
+H Shattrath City|QID|11781|N|Hearth back to Shattrath City|
 P Stormwind City|QID|11781|M|55.70,37.08|Z|Shattrath City|N|Portal to Stormwind City|
 F Darkshire|QID|11781|M|66.33,62.25|Z|Stormwind City|N|Fly to Darkshire|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Swamp of Sorrows)|QID|11781|M|47,47|Z|Swamp of Sorrows|

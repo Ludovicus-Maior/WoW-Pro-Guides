@@ -472,7 +472,7 @@ C Vethir|QID|40005|M|70.46,69.49;70.22,69.50|CS|CHAT|N|Ask Vethir for a ride bac
 T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|To Havi.|
 A Halls of Valor: Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|ELITE|N|[color=E6CC80]Dungeon: 'Halls of Valor'[/color]\nFrom Havi.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue without accepting it.|
 H Return to Dalaran|AVAILABLE|39984|PRE|40005|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, hearth ot Dalaran or your class hall and continue on your adventuring.|RANK|-1|
-R Valdisdall|AVAILABLE|39984|PRE|40005|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|RANK|2|FLY|OLD|
+R Valdisdall|AVAILABLE|39984|PRE|40005|M|63.00,48.61|N|On to Valdisdall for some optional quests, silvers and treasure.|RANK|2|FLY|OLD|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
 C Sten's Log|QID|39984|QO|1|M|60.75,46.12|I|N|Find the first clue.|RANK|2|
 K Tarben|QID|40081|M|60.90,43.91;61.53,43.25|CS|ITEM|129199|T|Tarben|N|Silver - From the roofbeam, Grapple to the loading dock above and then Kill Tarben for a bit of treasure and resources.|RANK|2|RARE|
@@ -505,7 +505,7 @@ T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
 T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
 T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 50.|RANK|2|
 A Piercing the Mists|QID|43596|PRE|40046|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|
-R Talonrest|ACTIVE|39792|M|53.30,48.30;51.37,57.15|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|FLY|OLD|
+R Talonrest|ACTIVE|39792|M|53.30,48.30;51.37,57.15|CS|N|Headed back to see those shady goblins.|RANK|2|FLY|OLD|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|PRE|39786&39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|OLD|
@@ -560,7 +560,7 @@ $ Small Treasure Chest|QID|43237|M|73.98,58.59|N|Loot for treasure and resources
 $ Small Treasure Chest|QID|43307|M|78.43,71.38|N|Loot for treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|43304|M|75.68,60.63|N|Loot for treasure and resources.|RANK|3|
 $ Small Treasure Chest|QID|43237|M|73.98,58.59|N|Loot for treasure and resources.|RANK|3|
-R Talonrest|ACTIVE|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|FLY|OLD|
+R Talonrest|ACTIVE|42483|M|51.4,57.4|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|FLY|OLD|
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note.\n[color=FFFF00]OPTIONAL[/color]\nUse your reward (magnifying glass) to determine the true value of the other quest rewards.\n[color=FF0000]NOTE: [/color]There is a follow-up in Dalaran to take care of these goblins at level 50.|RANK|2|
 R Dalaran|AVAILABLE|43331|PRE|42483|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|
 C Halls of Valor: Securing the Aegis|QID|40072|N|If you havent yet done Halls of Valor, its a great time to queue for it and get your ilvl 800 legs (static ilvl even if you are lvl 100). Defeat Odyn (final boss in instance).|
