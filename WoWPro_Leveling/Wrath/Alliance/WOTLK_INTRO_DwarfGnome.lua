@@ -306,8 +306,8 @@ l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|13
 A The Collector|QID|123|M|PLAYER|N|Quest obtained from the Gold Pickup Schedule.|U|1307|O|
 K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|
 C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
-L Level 12|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 6 bubbles of level 12.|LVL|11;-2720|
-L Level 12|ACTIVE|11&123|N|Grind until you're within 4 bubbles of level 12.|LVL|11;-1720|
+L Level 12|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 6 bubbles of level 12.|LVL|11;-2610|
+L Level 12|ACTIVE|11&123|N|Grind until you're within 4 bubbles of level 12.|LVL|11;-1610|
 T Riverpaw Gnoll Bounty|QID|11|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
 R Goldshire|ACTIVE|176^123|M|44.25,62.50|Z|1429;Elwynn Forest|N|Follow the road east to Goldshire.|
 T The Collector|QID|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
@@ -317,6 +317,9 @@ T Wanted:  "Hogger"|QID|176|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dug
 R Stormwind City|ACTIVE|61|M|74.63,93.25|Z|1453;Stormwind City|N|Take the northwest road out of Goldshire to Stormwind City.|
 N Housekeeping|ACTIVE|291|M|PLAYER|CC|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|S!US|IZ|Stormwind City^City of Ironforge|
 T Shipment to Stormwind|QID|61|M|63.16,74.41|Z|1453;Stormwind City|N|To Morgan Pestle inside Pestle's Apothecary.|
+T Elmore's Task|QID|1097|M|59.67,33.84|Z|1453;Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
+A Stormpike's Delivery|QID|353|PRE|1097|M|59.67,33.84|Z|1453;Stormwind City|N|From Grimand Elmore.|
+
 ; -- Paladin Lv 12 Class quest
 A The Tome of Divinity|QID|3000|M|48.43,50.22|Z|1453;Stormwind City|N|From Lord Grayson Shadowbreaker in the Cathedral of Light.|C|Paladin|
 A The Tome of Divinity|QID|1646|M|PLAYER|CC|N|Use the book you were just given to start the quest.|U|6916|C|Paladin|O|
