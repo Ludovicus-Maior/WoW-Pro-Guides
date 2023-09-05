@@ -1232,6 +1232,9 @@ function WoWPro:RowUpdate(offset)
 			currentRow.itembutton:SetScript("OnUpdate", function()
 				local itemtexture = _G.GetItemIcon(_use)
 				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
+				if not start then
+					WoWPro:Warning("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
+				end
 				if _G.GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true
 					currentRow.itemicon:SetTexture(itemtexture)
@@ -1252,7 +1255,7 @@ function WoWPro:RowUpdate(offset)
                 elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
                     currentRow.itemcooldown:Hide()
 					currentRow.itemcooldown.OnCooldown = false
-				elseif currentRow.itemcooldown.ActiveItem ~= _use then
+				elseif currentRow.itemcooldown.ActiveItem ~= _use and start then
 					currentRow.itemcooldown.OnCooldown = false
 					currentRow.itemcooldown:SetCooldown(start, duration)
 					currentRow.itemcooldown.ActiveItem = _use
@@ -4096,6 +4099,24 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
     end
 }
 
+
+
+_G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
+    text = "Welcome to WoWPro.\n"
+        .. "For this addon to function, you need to install either: "
+        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n"
+        .. "WoW-Pro's guides won't have their full functionality without one of them!\n"
+        .. "Download it for free from www.wowinterface.com or www.curseforge.com .",
+    button1 = _G.OKAY,
+    whileDead = true,
+    hideOnEscape = true,
+    timeout = 15,
+    OnAccept = function (self)
+        _G.StaticPopup_Hide("WOWPRO_MISSING_ARROW")
+    end
+}
+
+
 function WoWPro.LockdownHandler(self, elapsed)
     if WoWPro.TrackerTimer ~= nil then
         WoWPro.TrackerTimer = WoWPro.TrackerTimer - elapsed
@@ -4119,10 +4140,7 @@ function WoWPro.LockdownHandler(self, elapsed)
                     WoWPro.LockdownTimer = 0.33
                 else
                     -- Warning if the user is missing TomTom --
-                    WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
-                        .."WoW-Pro's guides won't have their full functionality without it! "
-                        .."Download it for free from www.wowinterface.com or www.curse.com .")
-
+                    _G.StaticPopup_Show("WOWPRO_MISSING_ARROW")
                     if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
                         TomTom = nil
                         WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
