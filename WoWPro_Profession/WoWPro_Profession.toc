@@ -1,4 +1,4 @@
-## Interface: 100105
+## Interface: 100107
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Professions
 ## Notes: Professions guides guides created by the WoW-Pro Community
 ## Author: Twists
