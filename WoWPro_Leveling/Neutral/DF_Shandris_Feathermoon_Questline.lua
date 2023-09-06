@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('Shandris_Feathermoon_Questline', 'Leveling',
 WoWPro:GuideName(guide,"Shandris_Feathermoon_Questline")
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 T A Sentinel's Summon|QID|76982|M|50.21,52.84|Z|2112|N|To Shandris Feathermoon.|
