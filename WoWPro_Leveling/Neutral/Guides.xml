@@ -19,7 +19,7 @@
 	<Script file="DF_The_Forbidden_Reach.lua"/>
 	<Script file="DF_Campaign.lua"/>
 	<Script file="DF_EoN.lua"/>
-	<Script file="DF_10.1.7 Questline.lua"/>
+	<Script file="DF_Shandris Feathermoon Questline.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>
