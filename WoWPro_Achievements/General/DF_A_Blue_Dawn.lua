@@ -32,7 +32,6 @@ C Memories of Sindragosa and Malygos|QID|75023|M|66.86,11.93|Z|2025|QO|1|NC|N|Me
 C Memories of Sindragosa and Malygos|QID|75023|M|66.92,11.69|Z|2025|QO|3|NC|N|Memory of a Traitorous Sister dispelled.|
 T Memories of Sindragosa and Malygos|QID|75023|M|67.09,11.77|Z|2025|N|To Senegos.|
 A Archives Return|QID|72935|PRE|75023|M|67.09,11.77|Z|2025|N|From Senegos.|
-C Begin the Hunt|Z|Ohn'ahran Plains|SO|1|S|N|Talk to Scout Tomul and blow the Grand Hunting Horn to begin the Grand Hunt.|
 F Azure Archives|ACTIVE|72935|M|62.07,18.93|Z|Thaldraszus|N|Head to the flightmaster and take a flight to Azure Archives.|
 T Archives Return|QID|72935|M|39.46,63.06|Z|2024|N|To Kalecgos.|
 A Azuregos's Support|QID|72936|PRE|72935|M|39.46,63.06|Z|2024|N|From Kalecgos.|
