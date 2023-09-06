@@ -1,6 +1,6 @@
-local guide = WoWPro:RegisterGuide('0', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance')
-WoWPro:GuideName(guide,"0")
-WoWPro:GuideLevels(guide,1, 60)
+local guide = WoWPro:RegisterGuide('Night_Elf_Heritage_Armor', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance')
+WoWPro:GuideName(guide,"Night_Elf_Heritage_Armor")
+WoWPro:GuideLevels(guide,50, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
