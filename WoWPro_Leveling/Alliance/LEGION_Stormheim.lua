@@ -454,7 +454,7 @@ C Stormheim's Salvation|QID|40005|M|70.94,70.16|N|God-King Skovald defeated.|
 T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back down so you can turn the quest in to Havi.|
 A Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|N|From Havi. This is a dungeon quest, so queue, call friends over or check it off and move on.|
 H Return to Dalaran|QID|40072|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, except for the instance quest, hearth to Dalaran and/or your class hall and continue on your adventuring.|LEAD|39792|RANK|-1|
-R Valdisdall|AVAILABLE|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|PRE|40005|RANK|2|FLY|OLD|
+R Valdisdall|AVAILABLE|39984|M|63.00,48.61|N|On to Valdisdall for some optional quests, silvers and treasure.|PRE|40005|RANK|2|FLY|OLD|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
 C Remnants of the Past|QID|39984|M|60.75,46.12|QO|1|NC|N|Find the first clue.|RANK|2|
 $ Small Treasure Chest|QID|40093|M|61.41,44.41|N|Loot for treasure and resources.|RANK|2|
@@ -485,7 +485,7 @@ T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
 T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
 T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 50.|RANK|2|
 A Piercing the Mists|QID|43596|PRE|40046|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|
-R Talonrest|ACTIVE|39792|M|53.73,53.88;51.36,57.13|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|FLY|OLD|
+R Talonrest|ACTIVE|39792|M|53.73,53.88;51.36,57.13|CS|N|Headed back to see those shady goblins.|RANK|2|FLY|OLD|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|PRE|39786&39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|OLD|
@@ -529,7 +529,7 @@ C Awakening the Senses|QID|42398|M|80.80,65.63|C|HUNTER|N|Loot the small piles o
 T Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|To Huntsman Blake.|
 A Champion: Huntsman Blake|QID|42412|M|80.13,66.22|C|HUNTER|N|From/To Huntsman Blake.|PRE|42398|
 A Ready to Work|QID|42399|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|
-R Talonrest|ACTIVE|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|FLY|OLD|
+R Talonrest|ACTIVE|42483|M|51.4,57.4|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|FLY|OLD|
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards.|RANK|2|
 U Dalaran|AVAILABLE|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|PRE|42483|
 A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844^44100^43007^44544^42600^42597|Z|Dalaran!Dalaran!Dungeon|N|Someone will follow you around Dalaran until you accept this quest.|

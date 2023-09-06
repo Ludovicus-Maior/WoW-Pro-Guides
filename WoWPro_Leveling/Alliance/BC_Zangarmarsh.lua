@@ -141,7 +141,7 @@ A Warning the Cenarion Circle|QID|9724|PRE|9731|M|78.4,62.0|N|From Ysiel Windsin
 R Hellfire Peninsula|QID|9724|M|83.00, 65.0|N|Go to Hellfire Peninsula.|
 T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|Z|Hellfire Peninsula|N|To Amythiel Mistwalker.|
 A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|
-H Cenarion Refuge|ACTIVE|9732|M|78.50,63.00|N|Hearth to Cenarion Refuge.|U|6948|
+H Cenarion Refuge|ACTIVE|9732|M|78.50,63.00|N|Hearth to Cenarion Refuge.|
 T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
 ; The quest "Checking up" on the following line has wrong caps on 'Up' so it does not auto-accept since it is optional.|
 A Checking Up|QID|29566|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|RANK|3|
@@ -197,7 +197,7 @@ A The Count of the Marshes|QID|9911|M|32.8,59.1|N|Right-click the Mandible to st
 C Lines of Communication|QID|9833|M|32.8,59.1|N|Kill Slicers until you finish this quest.|US|
 l Idols of the Feralfen|QID|9787|QO|1|M|49.60,59.7|N|Kill mobs and loot Idols off the ground until you finish this quest.|
 C Natural Armor|QID|9834|M|50.00,40.0|N|Kill Fenclaw Trashers until you get the hides needed for this quest.|U|25539|
-H Cenarion Refuge|ACTIVE|9787|M|78.59,62.87|N|Hearth to Cenarion Refuge.|U|6948|
+H Cenarion Refuge|ACTIVE|9787|M|78.59,62.87|N|Hearth to Cenarion Refuge.|
 N Sell junk, repair, restock, turn in plant parts|QID|9787|M|79.25, 63.7|N|Sell junk, repair, restock, turn in plant parts.|
 T Idols of the Feralfen|QID|9787|M|68.2,49.4|N|To Anchorite Ahuurn.|
 A Gathering the Reagents|QID|9801|PRE|9787|M|68.2,49.4|N|From Anchorite Ahuurn.|
@@ -223,7 +223,7 @@ C Gathering the Reagents|QID|9801|N|Kill and loot Marsh Walkers, Fen Striders an
 T Familiar Fungi|M|23.30,66.2|QID|9708|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.3,66.2|N|From Watcher Leesa'oh.|
 T The Count of the Marshes|QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|
-H Cenarion Refuge|ACTIVE|9720|M|78.56,62.82|N|Hearth to Cenarion Refuge.|U|6948|
+H Cenarion Refuge|ACTIVE|9720|M|78.56,62.82|N|Hearth to Cenarion Refuge.|
 T Balance Must Be Preserved|QID|9720|M|78.4,62.0|N|To Ysiel Windsinger.|
 r Sell junk, repair, restock|QID|9801|M|79.23,63.7|N|Sell junk, repair, restock|
 C Gathering the Reagents|QID|9801|M|63.00,51.0|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats, until you finish this quest.|US|
@@ -251,7 +251,7 @@ C Now That We're Friends...|QID|9727|M|26.00,36.0|N|Kill Bloodscale Slavedrivers
 T Now That We're Still Friends...|QID|9727|M|19.54,50.04|N|To Gzhun'tt.|
 T Stealing Back the Mushrooms|M|23.30,66.2|QID|9709|N|To Watcher Leesa'oh.|
 C Messenger to the Feralfen|QID|9803|M|44.00,66.0|CHAT|N|Go here and use Ahuurn's Elixir, then talk to Elder Kurutiin in the building, and go through the dialogue.|U|24428|
-H Orebor Harborage|QID|9839|M|41.89,26.29|N|Hearth to Orebor Harborage.|U|6948|
+H Orebor Harborage|QID|9839|M|41.89,26.29|N|Hearth to Orebor Harborage.|
 T Overlord Gorefist|QID|9839|M|41.9,27.2|N|To Ikuti.|
 A A Message to Telaar|QID|9792|M|41.9,27.2|N|From Ikuti take this quest if you want to do Nagrand next.|
 F Telredor|QID|9803|M|41.30,29.0|N|Fly to Telredor.|

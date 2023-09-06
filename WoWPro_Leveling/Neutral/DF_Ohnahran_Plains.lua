@@ -632,7 +632,7 @@ T Reign of the Ram|QID|71022|M|49.04,41.06|Z|2023;Ohn'ahran Plains|N|To Shephed 
 A Danger in Daruukhan|QID|68087|PRE|71022|M|49.07,40.95|Z|2023;Ohn'ahran Plains|N|From Shephed Tevatei.|
 C Danger in Daruukhan|QID|68087|M|49.07,40.95|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Tell the Teerai Messenger you will leave at once.|
 f Broadhoof Outpost|ACTIVE|68087|M|46.56,41.31|Z|2023;Ohn'ahran Plains|N|At Flightmaster Washengtu.|
-F Maruukai|ACTIVE|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|N|You can fly back to Maruukai, Hearth or just fly with your own dragon, whatever you prefer.|U|6948|
+F Maruukai|ACTIVE|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|N|You can fly back to Maruukai, Hearth or just fly with your own dragon, whatever you prefer.|
 R Daruukhan|ACTIVE|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|QO|2|N|Fly to Daruukhan.|
 T Danger in Daruukhan|QID|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|N|To Healer Selbekh.|
 A Saving Centaur|QID|69094|PRE|68087|M|52.83,29.85|Z|2023;Ohn'ahran Plains|N|From Healer Selbekh.|

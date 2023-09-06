@@ -479,7 +479,7 @@ T A Time for Courage|QID|60055|M|40.88,55.10|Z|1533;Bastion!The Shadowlands|N|To
 A Follow the Path|QID|60056|M|40.88,55.10|Z|1533;Bastion!The Shadowlands|N|From Disciple Apolon.|PRE|60055|MS|
 t Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|N|Autocompleted.|TOF|
 A Necrotic Wake: A Paragon's Plight|QID|60057|M|40.93,55.34|Z|1533;Bastion!The Shadowlands|ELITE|N|From Disciple Artemede. This is a [color=e6cc80]Dungeon[/color]\n quest.|RANK|2|
-H Hero's Rest|ACTIVE|60056^62723^60729|U|6948|M|PLAYER|N|Hearth back to Hero's Rest.|
+H Hero's Rest|ACTIVE|60056^62723^60729|M|PLAYER|N|Hearth back to Hero's Rest.|
 
 ; Side Quest stuff - Pride or Unit & Elite Quests
 R West Anima Gateway|ACTIVE|60315|M|50.56,46.80|Z|1533;Bastion!The Shadowlands|TZ|Firstborne's Bounty|N|Leave Hero's Rest via the Anima Gateway to the west.|RANK|2|

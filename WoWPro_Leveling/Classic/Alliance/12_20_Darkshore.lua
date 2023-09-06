@@ -79,9 +79,9 @@ A The Tower of Althalaxx|QID|965|M|39.1, 43.5|N|From Sentinel Elissa Starbreeze 
 A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
 T Tools of the Highborne|QID|958|M|37.4, 40.2|N|To Thundris Windweaver.|
 N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish any sticky quests left.|
-N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
 F Rut'theran Village|AVAILABLE|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|AVAILABLE|730|M|55.88,89.55|Z|Teldrassil|
+N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
 A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
 A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor.|
 T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|

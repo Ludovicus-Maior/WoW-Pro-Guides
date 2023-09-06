@@ -202,7 +202,7 @@ A Honor the Fallen|QID|10258|M|61.74,81.79|N|From Althen the Historian.|PRE|1025
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
 R Void Ridge|ACTIVE|10294|M|72,67;75.5,66.5|CS|N|Head to the Void Ridge.|
 C Void Ridge|QID|10294|M|75.5,66.5|N|Kill the voidwalkers till you get 40 Soul Shards. Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote. Vascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight, so throw something you don't normally use at them first.|
-H Thrallmar|ACTIVE|10238|U|6948|N|Hearth to Thrallmar.|
+H Thrallmar|ACTIVE|10238|N|Hearth to Thrallmar.|
 
 T How to Serve Goblins|QID|10238|M|51.4,30.5|N|To Foreman Razelcraz.|
 A Shizz Work|QID|10629|M|51.5,30.5|N|From Foreman Razelcraz.|PRE|10238|
@@ -265,7 +265,7 @@ A Arelion's Mistress|QID|9472|M|26.37,60.32|N|From Magistrix Carinda.|PRE|10287|
 T Trueflight Arrows|QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
 C The Cleansing Must Be Stopped|QID|9370|M|39,40|N|Clear around the Altar of Aggonar. HP/Mana up, then use the Signaling Gem. Of the 3 mobs that come at you, you only have to kill the Draenei Anchorite.|U|23358|
 
-H Falcon Watch|ACTIVE|9370|U|6948|N|Hearth to Falcon Watch.|
+H Falcon Watch|ACTIVE|9370|N|Hearth to Falcon Watch.|
 T The Cleansing Must Be Stopped|QID|9370|M|26.99,59.54|N|To Ryathen the Somber.|
 C Marking the Path|NC|QID|9391|QO|1|M|30,61|N|Light the Western Beacon. Mobs in the area aggro when you light the beacon, so kill them first.|
 C Marking the Path|NC|QID|9391|QO|2|M|34,60|N|Light the Central Beacon. Same deal as before with the mobs.|

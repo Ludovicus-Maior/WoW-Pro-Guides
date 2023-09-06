@@ -88,7 +88,7 @@ C Signs of the Legion|QID|9594|M|35.54,77.43|N|Kill Satyrs and Felsworns|S|
 C Know Thine Enemy|QID|9567|L|23859|M|36.49,71.36|N|Loot the Nazzivus Monument Glyph|
 C Signs of the Legion|QID|9594|M|35.54,77.43|N|Finish killing Satyrs and Felsworns.|US|
 C Victims of Corruption|QID|9574|M|49,73|N|Kill Corrupted Treants for the bark.|US|
-H Blood Watch|QID|9567|M|55.84,59.80|N|Hearth to Blood Watch|U|6948|
+H Blood Watch|QID|9567|M|55.84,59.80|N|Hearth to Blood Watch|
 T Know Thine Enemy|QID|9567|M|55.1,58.0|N|To Vindicator Aalesia.|
 T Signs of the Legion|QID|9594|M|55.1,58.0|N|To Vindicator Aalesia, after a very short dialog.|
 A Containing the Threat|QID|9569|PRE|9567|M|55.1,58.0|N|From Vindicator Aalesia.|
@@ -109,7 +109,7 @@ F The Exodar |QID|9698|M|57.7,53.9|N|Fly to The Exodar.|
 T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 A Truth or Fiction|QID|9699|PRE|9698|M|32.9,54.5|Z|The Exodar|N|To Prophet Velen.|
 N Training and banking|QID|9699|N|Train your professions, visit bank etc. while you're here. Close to continue.|R|Draenei|
-F Blood Watch |QID|9699|M|68.51,63.61|Z|The Exodar|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|U|6948|
+F Blood Watch |QID|9699|M|68.51,63.61|Z|The Exodar|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|
 T Truth or Fiction|QID|9699|M|55.42,55.25|N|To Vindicator Boros.|
 A I Shoot Magic Into the Darkness|QID|9700|PRE|9699|M|55.42,55.25|N|From Vindicator Boros.|
 r Repair/Restock |QID|10063|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
@@ -134,7 +134,7 @@ C Constrictor Vines|QID|9643|M|45.9,33.9|N|Kill Mutated Constrictors for 6 Thorn
 C The Bear Necessities|QID|9580|M|46.15,34.62;48.77,24.08|CN|N|Finish killing Elder Brown Bears until you have 8 flanks.|US|
 T A Map to Where?|QID|9550|M|61.19,41.78|N|There's a book you have to click in order to complete.|
 A Deciphering the Book|QID|9557|PRE|9550|M|61.19,41.78|N|From the Battered Ancient Book.|
-H Blood Watch|QID|9643|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948|
+H Blood Watch|QID|9643|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
 T Constrictor Vines|QID|9643|M|55.83,56.93|N|To Tracker Lyceon.|
 T The Bear Necessities|QID|9580|M|55.83,56.93|N|To Tracker Lyceon.|
 A Culling the Flutterers|QID|9647|PRE|9580^9643|M|55.83,56.93|N|From Tracker Lyceon.|
@@ -165,7 +165,7 @@ C Containing the Threat|QID|9569|M|41.6,29.8|N|Head back to Axxarien. Collect 5 
 C The Final Sample|QID|9585|U|23877|M|41.6,29.8|N|Use the pick on the Axxarien crystal (it's the big one - you need to stand right next to it)|
 C Containing the Threat|QID|9569|M|41.6,29.8|N|Head back to Axxarien. Collect 5 Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|US|
 C Don't Drink the Water|QID|9748|M|34.37,33.56|N|Jump down the waterfall, and use your flask.|U|24318|
-H Blood Watch|QID|9569|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948|
+H Blood Watch|QID|9569|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
 T Containing the Threat|QID|9569|M|55.05,58.01|N|To Vindicator Aalesia.|
 T Don't Drink the Water|QID|9748|M|55.57,55.38|N|To Vindicator Aesom.|
 A Limits of Physical Exhaustion|QID|9746|PRE|9748|M|55.57,55.38|N|From Vindicator Aesom.|
@@ -202,7 +202,7 @@ C Fouled Water Spirits|QID|10067|M|28.92,36.47|N|Kill 6 Fouled Water Spirits.|US
 T Cutting a Path|QID|10065|M|30.28,45.88|N|To Scout Joril.|
 T Fouled Water Spirits|QID|10067|M|30.74,46.83|N|To Vindicator Corin.|
 T Oh, the Tangled Webs They Weave|QID|10066|M|30.74,46.83|N|To Vindicator Corin.|
-H Blood Watch|QID|9711|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948|
+H Blood Watch|QID|9711|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
 T Matis the Cruel|QID|9711|M|55.61,55.14|N|To Vindicator Kuros.|
 T Limits of Physical Exhaustion|QID|9746|M|55.56,55.37|N|To Vindicator Aesom.|
 A The Sun Gate|QID|9740|PRE|9746|M|55.56,55.37|N|From Vindicator Aesom.|
@@ -237,7 +237,7 @@ A Ending the Bloodcurse|QID|9683|PRE|9682|M|79.14,22.66|N|From Captain Edward Ha
 T Razormaw|QID|9689|M|73.7,33.7|N|To Prince Toreth.|
 C Ending the Bloodcurse|QID|9683|M|85,54|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|
 T Ending the Bloodcurse|QID|9683|M|79.14,22.66|N|To Captain Edward Hanes.|
-H Blood Watch|QID|9649|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948|
+H Blood Watch|QID|9649|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
 T Ysera's Tears|QID|9649|M|56.4,56.8|N|To Maatparm.|
 r Repair/Restock |QID|9740|M|53.32,56.67|N|Repair/Sell Junk at Beega.|
 N Non-Draenei races|QID|9740|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|-Draenei|
@@ -251,7 +251,7 @@ C Ending Their World|QID|9759|M|19,52|N|Follow Legoso, he will stop in 2 places 
 C Clearing the Way|QID|9761|US|M|19.8,52.6|N|Finish killing Sunhawk Agents and Saboteurs.|
 C The Sun Gate|QID|9740|M|18.95,63.5|N|Go to the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate.|
 T Clearing the Way|QID|9761|M|30.75,46.80|N|To Vindicator Corin.|
-H Blood Watch|QID|9740|M|55.04,59.33|N|Hearth or run back to Blood Watch.|U|6948|
+H Blood Watch|QID|9740|M|55.04,59.33|N|Hearth or run back to Blood Watch.|
 T The Sun Gate|QID|9740|M|55.54,55.42|N|To Vindicator Aesom.|
 T Ending Their World|QID|9759|M|52.70,53.24|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|
 A The Unwritten Prophecy|QID|9762|PRE|9759|M|54.02,55.47|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|R|Draenei|

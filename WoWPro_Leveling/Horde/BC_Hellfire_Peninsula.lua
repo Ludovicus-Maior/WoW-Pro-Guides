@@ -137,7 +137,7 @@ C Smooth as Butter|QID|9356|N|Kill and loot Bonstripper Buzzard until you have 1
 C In Case of Emergency...|QID|10161|NC|N|Pick up Zepplin Debris.|M|58.0,71.5|US|
 C Burn It Up... For the Horde!|QID|10087|QO|1|U|27479|N|Head to the Eastern Cannon. Burn it.|M|60.90,52.50|; Eastern Cannon Burned: 1/1
 C Burn It Up... For the Horde!|QID|10087|QO|2|U|27479|N|Go further west along the Path of Glory and find the Western Cannon. Burn it.|M|54.67,54.10|
-H Thrallmar|QID|10087|M|56.69,37.50|U|6948|N|Hearth to Thrallmar.|
+H Thrallmar|QID|10087|M|56.69,37.50|N|Hearth to Thrallmar.|
 T Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
 T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
 A Cruel's Intentions|QID|10136|N|From Nazgrel.|M|55.02,35.96|
@@ -179,7 +179,7 @@ A Honor the Fallen|QID|10258|PRE|10250|M|61.74,81.79|N|From Althen the Historian
 T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
 R Void Ridge|QID|10294|N|Head to the Void Ridge.|M|72,67;75.5,66.5|CS|
 C Void Ridge|QID|10294|N|Kill the voidwalkers till you get 40 Soul Shards. Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote. Vascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight, so throw something you don't normally use at them first.|M|75.5,66.5|
-H Thrallmar|QID|10238|U|6948|N|Hearth to Thrallmar.|
+H Thrallmar|QID|10238|N|Hearth to Thrallmar.|
 T How to Serve Goblins|QID|10238|M|51.4,30.5|N|To Foreman Razelcraz.|
 A Shizz Work|QID|10629|PRE|10238|M|51.5,30.5|N|From Foreman Razelcraz.|
 C Shizz Work|QID|10629|N|Use the Felhound Whistle. Then take your pet and kill the helboars to the west. Each time a boar dies, the Fel Puppy chows down and leaves some remains. Right click the leavings, and eventually one with contain the Shredder Key.|U|30803|M|50.0,29.5|
@@ -197,7 +197,7 @@ C The Agony and the Darkness|QID|10389|N|Kill Terrorfiends.|M|39.5,36.0|US|
 R Mag'har Post|QID|9410|U|23669|N|Go back to the Fel Orc Corpse and use the Wolf Totem and follow it.|M|33.6,43.6|
 T A Spirit Guide|QID|9410|M|32.0,28.0|N|If you can't speak to Gorkan Bloodfist, it's because you didn't follow the wolf.|
 A The Mag'har|QID|9406|PRE|9410|M|32.0,28.0|N|From Gorkan Bloodfist.|
-H Thrallmar|QID|10389|M|56.69,37.50|U|6948|N|Hearth to Thrallmar.|
+H Thrallmar|QID|10389|M|56.69,37.50|N|Hearth to Thrallmar.|
 T The Agony and the Darkness|QID|10389|M|55.12,36.02|N|To Magister Bloodhawk.|
 T The Mag'har|QID|9406|M|55.02,35.96|N|To Nazgrel.|
 T Cruel's Intentions|QID|10136|M|55.02,35.96|N|To Nazgrel.|
@@ -238,7 +238,7 @@ T The Mistress Revealed|QID|10287|M|26.37,60.32|N|To Magistrix Carinda.|
 A Arelion's Mistress|QID|9472|PRE|10287|M|26.37,60.32|N|From Magistrix Carinda.|
 T Trueflight Arrows|QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
 C The Cleansing Must Be Stopped|QID|9370|N|Clear around the Altar of Aggonar. HP/Mana up, then use the Signaling Gem. Of the 3 mobs that come at you, you only have to kill the Draenei Anchorite.|U|23358|M|39,40|
-H Falcon Watch|QID|9370|U|6948|N|Hearth to Falcon Watch.|
+H Falcon Watch|QID|9370|N|Hearth to Falcon Watch.|
 T The Cleansing Must Be Stopped|QID|9370|M|26.99,59.54|N|To Ryathen the Somber.|
 C Marking the Path|NC|QID|9391|QO|1|N|Light the Western Beacon. Mobs in the area aggro when you light the beacon, so kill them first.|M|30,61|
 C Marking the Path|NC|QID|9391|QO|2|N|Light the Central Beacon. Same deal as before with the mobs.|M|34,60|

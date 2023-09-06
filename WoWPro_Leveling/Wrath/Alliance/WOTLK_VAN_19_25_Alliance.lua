@@ -52,7 +52,7 @@ T Messenger to Stormwind|QID|120|M|69.17,82.73|Z|1453;Stormwind City|N|To Genera
 A Messenger to Stormwind|QID|121|M|69.17,82.73|Z|1453;Stormwind City|N|From General Marcus Jonathan.|
 T The Defias Brotherhood|QID|135|M|78.31,70.73|Z|1453;Stormwind City|N|To Master Mathias Shaw on the 2nd floor of SI:7 in Old Town.|
 A The Defias Brotherhood|QID|141|PRE|135|M|78.31,70.73|Z|1453;Stormwind City|N|From Master Mathias Shaw.|
-F Sentinel Hill|ACTIVE|141|M|70.99,72.55|Z|1453;Stormwind City|N|Fly or Hearth to Westfall|U|6948|
+F Sentinel Hill|ACTIVE|141|M|70.99,72.55|Z|1453;Stormwind City|N|Fly or Hearth to Westfall|
 
 ; Westfall 18-20
 T The Defias Brotherhood|QID|141|M|56.33,47.52|Z|1436;Westfall|N|To Gryan Stoutmantle.|
@@ -184,7 +184,7 @@ T An Unwelcome Guest|QID|34|M|21.86,46.31|Z|1433;Redridge Mountains|N|To Martie 
 F Stormwind|ACTIVE|347|M|30.60,59.40|Z|1433;Redridge Mountains|N|Fly to Stormwind.|TZ|Stormwind City|
 T Rethban Ore|QID|347|M|49.60,40.41|Z|1429;Elwynn Forest|N|To Brother Paxton in Northshire Valley.|
 A Return to Kristoff|QID|346|PRE|347|M|49.60,40.41|Z|1429;Elwynn Forest|N|From Brother Paxton.|
-R Stormwind City|ACTIVE|346|M|74.55,93.05|Z|1453;Stormwind City|N|Return to Stormwind City, or use your Hearth|U|6948|
+R Stormwind City|ACTIVE|346|M|74.55,93.05|Z|1453;Stormwind City|N|Return to Stormwind City, or use your Hearth|
 = Train|ACTIVE|346|M|PLAYER|CC|N|Don't forget to do any training available while you are in town.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Return to Kristoff|QID|346|M|54.98,54.08|Z|1453;Stormwind City|N|To Brother Kristoff in Cathedral Square.|
 F Darkshire|ACTIVE|145|M|71.03,72.62|Z|1453;Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|

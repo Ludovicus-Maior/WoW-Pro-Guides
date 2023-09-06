@@ -132,7 +132,7 @@ C Rise of the Brotherhood|QID|26322|M|56.36,47.55|QO|1|N|Watch the scene.|NC|
 F Stormwind|ACTIVE|26322|M|56.64,49.44|TZ|Stormwind City|N|Fly to Stormwind City.|
 T Rise of the Brotherhood|QID|26322|M|85.86,32.79|Z|Stormwind City|N|To Grand Admiral Jes-Tereth.|
 A Return to Sentinel Hill|QID|26370|M|85.86,32.79|Z|Stormwind City|N|From Grand Admiral Jes-Tereth.|PRE|26322|
-F Sentinel Hill|ACTIVE|26370|M|70.93,72.48|Z|Stormwind City|N|Fly back to Sentinel Hill or use your hearth if you wish.|U|6948|
+F Sentinel Hill|ACTIVE|26370|M|70.93,72.48|Z|Stormwind City|N|Fly back to Sentinel Hill or use your hearth if you wish.|
 T Return to Sentinel Hill|QID|26370|M|56.37,49.63|N|To Marshal Gryan Stoutmantle.|
 N If you plan on going to Redridge Mountains pick up the next two quests. If you dont just skip them.|
 A Threat to the Kingdom|AVAILABLE|26761|M|56.4,49.4|Z|Westfall|N|From Marshal Gryan Stoutmantle.|PRE|26370|

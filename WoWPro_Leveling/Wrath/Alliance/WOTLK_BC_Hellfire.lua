@@ -105,7 +105,7 @@ C Invasion Point: Annihilator|QID|10397|M|53.06,27.62|N|Use the key on the gate.
 l Burning Legion Missive|AVAILABLE|10395|L|29588|N|Continue killing demons in this area until one drops it.|
 A The Dark Missive|QID|10395|N|Accept the quest from the UI or use the item.|U|29588|O|
 T Invasion Point: Annihilator|QID|10397|M|68.3,28.6|N|To Field Marshal Brock.|
-H Honor Hold|QID|10903|M|54.50,63.60|N|Hearth to Honor Hold.|U|6948|
+H Honor Hold|QID|10903|M|54.50,63.60|N|Hearth to Honor Hold.|
 A An Old Gift|QID|10058|PRE|10143^10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
 T Return to Honor Hold|QID|10903|M|54.32,63.65|N|Upstairs to Assistant Klatu.|
 A Fel Spirits|QID|10909|PRE|10903|M|54.32,63.65|N|From Assistant Klatu.|
@@ -191,7 +191,7 @@ K Arch Mage Xintor|ACTIVE|10057|QO|1|M|53.60,81.00|N|Kill Arch Mage Xintor.|
 K Lieutenant Commander Thalvos|ACTIVE|10057|QO|2|M|54.74,83.66|N|Kill Lieutenant Commander Thalvos.|
 C An Old Gift|QID|10058|M|55.00,86.80|QO|1|N|Loot the book here.|NC|
 T Voidwalkers Gone Wild|QID|9351|M|49.15,74.87|N|To "Screaming" Screed Luckheed.|
-R Honor Hold|ACTIVE|10058|M|54.3,63.4|N|Hearth or run to Honor Hold.|U|6948|
+R Honor Hold|ACTIVE|10058|M|54.3,63.4|N|Hearth or run to Honor Hold.|
 T An Old Gift|QID|10058|M|54.29,63.58|N|To Father Malgor Devidicus.|
 T Looking to the Leadership|QID|10057|M|50.87,60.35|N|To Honor Guard Wesilow.|
 F Temple of Telhamat|ACTIVE|9398|M|54.68,62.35|N|Fly to the Temple of Telhamat|
@@ -226,7 +226,7 @@ T Shizz Work|QID|10629|M|51.37,30.52|N|To Foreman Razelcraz.|
 A Beneath Thrallmar|QID|10630|PRE|10629|M|51.37,30.52|N|From Foreman Razelcraz.|
 C Beneath Thrallmar|QID|10630|M|53.90,31.70|QO|1|N|Go in the cave and kill Urga'zz.|
 T Beneath Thrallmar|QID|10630|M|51.37,30.52|N|To Foreman Razelcraz.|
-H Honor Hold|QID|10400|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
+H Honor Hold|QID|10400|N|Hearth to Honor Hold.|M|55.00,86.80|
 T The Heart of Darkness|QID|10399|M|56.69,66.52|N|To Warp-Scryer Kryv|
 T Overlord|QID|10400|N|To Force Commander Danath Trollbane.|M|56.63,66.64|
 N Check for Upgrades|ACTIVE|9427|M|56.7,62.58|N| Now that you should be Honored with Honor Hold you might want to check the quartermaster for upgrades.|

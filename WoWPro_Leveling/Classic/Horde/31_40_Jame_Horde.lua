@@ -214,7 +214,7 @@ K Alina|QID|544|QO|3|M|20.00,84.00|Z|Alterac Mountains|T|Alina|N|Inside the same
 K Ricter|QID|544|QO|2|M|20.00,85.00|Z|Alterac Mountains|T|Ricter|N|Outside the house.|
 K Kegan Darkmar|QID|544|QO|4|M|18.00,84.00|Z|Alterac Mountains|T|Kegan Darkmar|N|In the house to the north, second floor.|
 C Stone Tokens|QID|556|M|21.30,83.90|Z|Alterac Mountains|US|N|Finish collecting the stone tokens. You can destroy Belamoore's Journal.|
-H Tarren Mill|QID|533|U|6948|Z|Alterac Mountains|
+H Tarren Mill|QID|533|Z|Alterac Mountains|
 T Infiltration|QID|533|M|63.2,20.6|Z|Hillsbrad Foothills|N|To Krusk.(skip follow up)|
 T Prison Break In|QID|544|M|61.50,20.90|Z|Hillsbrad Foothills|N|To Magus Wordeen Voidglare.|
 A Dalaran Patrols|QID|545|PRE|544|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Magus Wordeen Voidglare.|
@@ -233,7 +233,7 @@ R Dalaran Crater|ACTIVE|557|M|20.00,77.00|S|Z|Alterac Mountains|N|However this t
 C Bracers of Binding|QID|557|M|20.00,77.00|S|Z|Alterac Mountains|N|Kill elementals and the dalaran humanoids in this area.|
 C Dalaran Patrols|QID|545|M|20.00,77.00|Z|Alterac Mountains|N|Kill the humans until you complete the quest.|
 C Bracers of Binding|QID|557|M|20.00,77.00|Z|Alterac Mountains|US|N|Kill Elementals until you collect the Bracers of Binding.|
-H Tarren Mill|ACTIVE|545|U|6948|Z|Alterac Mountains|N|Run if it's still on cooldown.|
+H Tarren Mill|ACTIVE|545|Z|Alterac Mountains|N|Run if it's still on cooldown.|
 T Dalaran Patrols|QID|545|M|61.50,20.90|Z|Hillsbrad Foothills|N|To Magus Wordeen Voidglare.|
 T Bracers of Binding|QID|557|M|61.50,20.90|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.|
 

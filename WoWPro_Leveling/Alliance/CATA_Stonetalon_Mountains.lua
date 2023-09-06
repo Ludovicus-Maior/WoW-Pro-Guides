@@ -225,7 +225,7 @@ C Brood of Seldarria|QID|25931|S|U|56221|M|29.71,73.17|N|Destroy 5 of Seldarria'
 C Hungry Pups|QID|25935|US|M|31.64,69.62|N|Finish getting the filets needed.|
 C Brood of Seldarria|QID|25931|US|U|56221|M|30.32,70.86|N|Destroy 5 of Seldarria's Eggs.|
 C World First: Gnomegen|QID|25934|US|M|30.08,67.82|N|Keep killing Fire elementals until a Blazing Heart of Fire drops.|
-H Farwatcher's Glen|QID|25934|M|33.05,59.62|N|Hearth back to Farwatcher's Glen, or run back if your hearth is down.|U|6948|
+H Farwatcher's Glen|QID|25934|M|33.05,59.62|N|Hearth back to Farwatcher's Glen, or run back if your hearth is down.|
 T World First: Gnomegen|QID|25934|M|33.05,59.62|N|To Salsbury the "Help".|
 T Brood of Seldarria|QID|25931|M|33.05,59.62|N|To Hierophant Malyk.|
 T Hungry Pups|QID|25935|M|32.47,61.22|N|To Houndmaster Jonathan.|

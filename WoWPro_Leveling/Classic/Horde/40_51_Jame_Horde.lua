@@ -418,7 +418,7 @@ t Find OOX-22/FE!|QID|2766|
 A Rescue OOX-22/FE!|QID|2767|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|N|Let the chicken lead, he will only stop or help if they attack him, not if you aggro something.|
 C Screecher Spirits|QID|3520|U|10699|N|Head west and look for screechers - around if you did the escort and (57.3,54.6) if you didn't. Kill and loot them then select the corpse and use Yeh'kinya's Bramble on it causing a screecher spirit to appear. Right click on the spirit to get quest credit for it.|M|52.5,46.7|Z|Feralas|
-H Camp Mojache|QID|2822|U|6948|
+H Camp Mojache|QID|2822|
 A The Sunken Temple|QID|3380|N|Accept this even if you aren't planning to do the instance - it leads to some normal quests in Tanaris.|M|74.4,43.4|Z|Feralas|
 T The Mark of Quality|QID|2822|M|74.4,42.9|Z|Feralas|
 A Improved Quality|QID|7734|PRE|2822|M|74.4,42.9|Z|Feralas|
@@ -664,7 +664,7 @@ C Fuel for the Zapping|QID|7721|M|44.6,51.4|Z|Feralas|N|Keep going up and down t
 T Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|To Zorbin Fandazzle.|
 T Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle.|
 A Again With the Zapped Giants|QID|7725|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle. We aren't actually going to complete this. we just want the zapper for a later quest.|
-H Camp Mojache|QID|3124|U|6948|
+H Camp Mojache|QID|3124|
 T Hippogryph Muisek|QID|3124|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Faerie Dragon Muisek|QID|3125|PRE|3124|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
 C Faerie Dragon Muisek|QID|3125|U|9620|M|68.70,49.00;68.90,44.95;67.05,47.72;70.11,46.81;64.88,48.05|CN|N|Head souht-west to the Sprite Darters. Kill them and use the Muisek Vessel on their corpses. Do not skin them skinners!|
@@ -687,7 +687,7 @@ L Level Check|ACTIVE|7738|LVL|50|N|Yeti's are a good place to grind if you aren'
 C Vengeance on the Northspring|QID|3063|M|41,12|Z|Feralas|N|Head to the Ruins of Ravenwind at waypoint. Kill the harpies.|
 K Harpies|QID|3062|L|9530|M|41,12|Z|Feralas|N|Continue until you get a Horn of Hatetalon.|
 C Dark Heart|QID|3062|U|9530|M|40.67,8.3|Z|Feralas|N|Head to the stones at waypoint. HP/Mana up, then use the stand between them and use the Horn. Kill Edana.|
-H Camp Mojache|ACTIVE|3127|U|6948|Z|Feralas|
+H Camp Mojache|ACTIVE|3127|Z|Feralas|
 T Mountain Giant Muisek|QID|3127|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
 T Natural Materials|QID|3128|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Weapons of Spirit|QID|3129|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|

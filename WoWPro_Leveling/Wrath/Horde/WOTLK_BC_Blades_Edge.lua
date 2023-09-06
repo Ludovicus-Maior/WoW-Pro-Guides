@@ -55,7 +55,7 @@ T Grimnok and Korgaah, I Am For You!|QID|10543|N|To T'chali the Witch Doctor.|M|
 A A Curse Upon Both of Your Clans!|QID|10544|PRE|10543|M|45.0,72.3|N|From T'chali the Witch Doctor.|
 C A Curse Upon Both of Your Clans!|QID|10544|NC|QO|2|U|30479|N|Go to Bloodmaul Outpost, clear the way to a building and use the Wicked Strong Fetish.|M|46.52,79.14|; Bloodmaul Outpost building cursed: 2/2
 C The Bloodmaul Ogres|QID|10505|N|Kill ogres untill finished.|M|42.29,82.87|US|
-H Thunderlord Stronghold|QID|10487|U|6948|N|Hearth to Thunderlord Stronghold.|
+H Thunderlord Stronghold|QID|10487|N|Hearth to Thunderlord Stronghold.|
 T Dust from the Drakes|QID|10487|N|To Gor'drek.|M|52.27,57.66|
 A Protecting Our Own|QID|10488|PRE|10487|M|52.3,57.6|N|From Gor'drek.|
 T Felling an Ancient Tree|QID|10489|N|To Tor'chunk Twoclaws.|M|51.96,58.48|
@@ -69,7 +69,7 @@ T Protecting Our Own|QID|10488|N|To Gor'drek.|M|52.27,57.50|
 f Thunderlord Stronghold|QID|10614|N|Get the Thunderlord Stronghold flight path.|M|52.06,54.14|
 T Whispers on the Wind|QID|10614|N|To Leoroxx.|M|75.24,60.89|
 A Reunion|QID|10709|PRE|10614|M|75.3,60.9|N|From Leoroxx.|
-f Mok'Nathal Village|QID|10860|N|Get the Mok'Nathal Village flight path.|M|52.06,54.14|
+f Mok'Nathal Village|QID|10860|M|76.37,65.93|N|Get the Mok'Nathal Village flight path.|
 A Mok'Nathal Treats|QID|10860|N|From Matron Verah.|M|76.03,60.36|
 A Silkwing Cocoons|QID|10617|N|From Taerek.|M|75.85,61.39|
 A The Softest Wings|QID|10618|N|From Silmara.|M|75.82,61.49|
@@ -134,7 +134,7 @@ F Thunderlord Stronghold|QID|10709|N|Fly to Thunderlord Stronghold.|M|61.68,39.6
 T Reunion|QID|10709|N|To Rexxar.|M|51.84,58.47|
 A On Spirit's Wings|QID|10714|PRE|10709|M|51.9,58.4|N|From Rexxar.|
 C On Spirit's Wings|QID|10714|U|31128|N|Ride north to Daggermaw Canyon and find two ogres having a chat, use Rexxar's Whistle.|M|58.03,33.50|
-H Thunderlord Stronghold|QID|10714|U|6948|N|Hearth to Thunderlord Stronghold.|
+H Thunderlord Stronghold|QID|10714|N|Hearth to Thunderlord Stronghold.|
 T On Spirit's Wings|QID|10714|N|To Rexxar.|M|51.79,58.43|
 A Baron Sablemane|QID|10783|PRE|10714|M|51.9,58.4|N|From Rexxar.|
 T Baron Sablemane|QID|10783|N|To Baron Sablemane at the Circle of Blood.|M|53.24,41.13|
@@ -158,7 +158,7 @@ T A Boaring Time for Grulloc|QID|10721|N|To Baron Sablemane.|M|53.25,41.16|
 A It's a Trap!|QID|10785|PRE|10721|M|53.23,41.14|N|From Baron Sablemane.|
 C A Curse Upon Both of Your Clans!|QID|10544|U|30479|N|Go southwest to Bladespire Hold, clear the way to a building and use the Wicked Strong Fetish.|M|39.29,52.91|
 T A Curse Upon Both of Your Clans!|QID|10544|N|To T'chali the Witch Doctor.|M|44.95,72.24|
-H Thunderlord Stronghold|QID|10785|U|6948|N|Hearth to Thunderlord Stronghold.|
+H Thunderlord Stronghold|QID|10785|N|Hearth to Thunderlord Stronghold.|
 T It's a Trap!|QID|10785|N|To Rexxar.|M|51.78,58.35|
 A Gorgrom the Dragon-Eater|QID|10723|PRE|10785|M|51.9,58.4|N|From Rexxar.|
 A Slaughter at Boulder'mok|QID|10786|N|From Tor'chunk Twoclaws.|M|51.88,58.39|
