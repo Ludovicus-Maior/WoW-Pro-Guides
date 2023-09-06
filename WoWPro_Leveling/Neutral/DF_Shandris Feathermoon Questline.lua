@@ -1,6 +1,6 @@
-local guide = WoWPro:RegisterGuide('10.1.7', 'Leveling', 'Orgrimmar', 'WoWPro Team', 'Horde')
-WoWPro:GuideName(guide,"10.1.7")
-WoWPro:GuideLevels(guide,1, 60)
+local guide = WoWPro:RegisterGuide('Shandris Feathermoon Questline', 'Leveling', 'Orgrimmar', 'WoWPro Team', 'Neutral')
+WoWPro:GuideName(guide,"Shandris Feathermoon Questline")
+WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
