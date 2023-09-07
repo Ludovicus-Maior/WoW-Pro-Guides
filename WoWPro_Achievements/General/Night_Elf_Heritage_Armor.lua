@@ -46,3 +46,4 @@ A Honor of the Goddess|QID|76213|PRE|76212|M|52.64,3.93|Z|84;Stormwind City|N|Fr
 T Honor of the Goddess|QID|76213|M|52.74,3.91|Z|84;Stormwind City|N|To Maiev Shadowsong.|
 N Congratulations|N|This ends this guide|
 ]]
+end)
