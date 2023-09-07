@@ -2,6 +2,7 @@
     <Script file="DF_WrathionvsSabellian.lua"/>
 	<Script file="DF_A_Blue_Dawn.lua"/>
    	<Script file="DF_Naszuro.lua"/>
+	<Script file="Night_Elf_Heritage_Armor.lua"/>
     <Script file="Emm_Blanchy.lua"/>
     <Script file="SL_Sojourners.lua"/>
     <Script file="SL_RaresTreasures.lua"/>
