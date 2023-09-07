@@ -1,7 +1,6 @@
 local guide = WoWPro:RegisterGuide('Blue_Dragonflight_Questline', 'Achievements', 'Azure Span', 'WoWPro Team', 'Neutral')
-WoWPro:GuideNextGuide(guide, "Dragonflight")
 WoWPro:GuideLevels(guide,70,70)
-WoWPro.Achievements:GuideMisc(guide, "Wrathion/Sabellian", "Reputation", "Dragonflight")
+WoWPro.Achievements:GuideMisc(guide, "Blue_Dragonflight_Questline", "Quests", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 A Keeper of the Ossuary|QID|72900|PRE|73003|M|39.47,63.06|Z|2024|N|From Kalecgos.|
