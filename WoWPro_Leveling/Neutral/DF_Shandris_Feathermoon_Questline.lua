@@ -2,13 +2,14 @@ local guide = WoWPro:RegisterGuide('Shandris_Feathermoon_Questline', 'Leveling',
 WoWPro:GuideName(guide,"Shandris_Feathermoon_Questline")
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 T A Sentinel's Summon|QID|76982|M|50.21,52.84|Z|2112|N|To Shandris Feathermoon.|
 A Fire Season|QID|75918|PRE|76982|M|50.21,52.84|Z|2112|N|From Shandris Feathermoon.|
 F Shady Sanctuary|ACTIVE|75918|M|44.09,67.89|Z|Valdrakken|N|Head to the flightmaster and take a flight to Shady Sanctuary.|
 T Fire Season|QID|75918|M|18.64,79.78|Z|2023|N|To Shandris Feathermoon.|
-A Dousing the Wards|QID|75919|PRE|75918|M|18.64,79.78|Z|2023|N|From Unknown.|
+A Dousing the Wards|QID|75919|PRE|75918|M|18.64,79.78|Z|2023|N|From Shandris Feathermoon.|
 A Eyes of Fire|QID|75920|PRE|75918|M|18.64,79.78|Z|2023|N|From Shandris Feathermoon.|
 C Eyes of Fire|QID|75920|M|20.02,81.24|Z|2023|QO|1|N|Fyrakk's forces slain.|
 C Dousing the Wards|QID|75919|M|20.39,82.35|Z|2023|QO|1|NC|N|Warding Firestones destroyed.|
