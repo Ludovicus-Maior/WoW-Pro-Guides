@@ -24,7 +24,7 @@ C Through the Flames|QID|75921|M|21.83,77.35|Z|2023|QO|4|NC|N|Circle around the 
 T Through the Flames|QID|75921|M|21.89,77.33|Z|2023|N|To Shandris Feathermoon.|
 A Inflammatory Information|QID|75922|PRE|75921|M|21.89,77.33|Z|2023|N|From Shandris Feathermoon.|
 C Inflammatory Information|QID|75922|M|21.89,77.33|Z|2023|QO|1|NC|N|Click the glowing bush to eavesdrop with Shandris.|
-C Inflammatory Information|QID|75922|M|22.01,75.90|Z|2023|QO|2|N|Attack Larodar until he finds something better to do..|
+C Inflammatory Information|QID|75922|M|22.01,75.90|Z|2023|QO|2|N|Kill the tentacle mobs, and Larodar will find something better to do.|
 T Inflammatory Information|QID|75922|M|21.69,77.09|Z|2023|N|To Shandris Feathermoon.|
 A Raise the Alarm|QID|75923|PRE|75922|M|21.69,77.09|Z|2023|N|From Shandris Feathermoon.|
 R Lunedane|ACTIVE|75923|M|21.95,75.94|Z|Ohn'ahran Plains|N|Make your way to the Lunedane.|
