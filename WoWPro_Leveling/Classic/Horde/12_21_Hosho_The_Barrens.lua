@@ -285,7 +285,7 @@ f Sun Rock Retreat|QID|6401|M|45.2,59.9|Z|Stonetalon Mountains|N|At Tharm.|
 t Arachnophobia|QID|6284|M|47.2,61|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|
 T Kaya's Alive|QID|6401|M|47.4,58.4|Z|Stonetalon Mountains|N|To Tammra Windfield.|
 T Blood Feeders|QID|6461|M|51.94,61.14;71.2,94.8|CS|Z|Stonetalon Mountains|N|To Xen'zilla in Malaka'Jin.|
-H Camp Taurajo|QID|1489|U|6948|
+H Camp Taurajo|QID|1489|
 
 F Thunder Bluff|QID|1489|M|44.5,59.1|
 T Hamuul Runetotem|QID|1489|M|78.4,28.4|Z|Thunder Bluff|N|At the Elder Rise.|
@@ -305,7 +305,7 @@ C Samophlange Manual|ACTIVE|3924|M|60.0,4.1|U|11148|N|Click the pages to combine
 C Miner's Fortune|QID|896|M|60.0,4.1|N|Keep killing goblins until the Cate's Eye Emerald drops.|
 
 T The Warsong Reports|QID|6543|M|61.52,7.62;49.43,13.69;48,5.4|CC|N|To Kadrak, back at Mor'shan Rampart.|
-H Camp Taurajo|QID|3261|U|6948|N|If your hearth isn't up, run back to the Crossroads and then fly there.|M|51.5,30.3|
+H Camp Taurajo|QID|3261|N|If your hearth isn't up, run back to the Crossroads and then fly there.|M|51.5,30.3|
 T Jorn Skyseer|QID|3261|M|44.8,59|N|To Jorn Skyseer.|
 A Ishamuhale|QID|882|PRE|3261|M|44.8,59|N|From Jorn Skyseer.|
 A Tribes at War|QID|878|M|44.6,59.2|N|From Mangletooth.|

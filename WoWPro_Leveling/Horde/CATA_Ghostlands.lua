@@ -110,7 +110,7 @@ C Goldenmist Village|QID|9139|M|25.93,14.54|Z|Ghostlands|N|Quel'dorei Wraith sla
 C Investigate An'daroth|QID|9160|M|36.06,12.72|Z|Ghostlands|N|Sentinel Spys slain.|
 C Curbing the Plague|QID|9159|M|23.43,39.72|Z|Ghostlands|QO|2|N|Spindleweb Lurker slain.|US|
 C WANTED: Knucklerot and Luzran|QID|9156|M|37.28,49.96|Z|Ghostlands|N|Luzran's Head.|US|
-H Tranquillien|QID|9214|U|6948|N|Hearth to Tranquillien.|
+H Tranquillien|QID|9214|N|Hearth to Tranquillien.|
 T The Plagued Coast|QID|9149|M|47.66,34.94|Z|Ghostlands|N|To Apothecary Renzithen.|
 T Salvaging the Past|QID|9150|M|46.06,32.06|Z|Ghostlands|N|To Magister Darenis.|
 T Investigate An'daroth|QID|9160|M|44.88,32.51|Z|Ghostlands|N|To Dame Auriferous.|

@@ -47,7 +47,7 @@ C Mountainer Lewin|QID|313|QO|2|M|49.14,47.75|N|Talk to Mountainer Lewin.|CHAT|
 C Forced to Watch from Afar|QID|313|M|49.30,44.44|N|Talk to Mountainer Valgrum.|QO|3|CHAT|
 C Culling the Wendigos|QID|25667|US|M|48.28,47.38|N|Kill any Wendigos you still need.|
 C Pilfered Supplies|QID|25668|US|M|49.22,47.77|NC|N|Collect any supplies you still need.|
-H Thunderbrew Distillery|ACTIVE|25668|M|54.37,50.28|Z|27|N|Hearth or run back to Thunderbrew Distillery.|U|6948|
+H Thunderbrew Distillery|ACTIVE|25668|M|54.37,50.28|Z|27|N|Hearth or run back to Thunderbrew Distillery.|
 T Pilfered Supplies|QID|25668|M|53.67,52.11|N|To Quartermaster Glynna.|
 T Culling the Wendigos|QID|25667|M|53.68,52.17|N|To Captain Tharran.|
 T Forced to Watch from Afar|QID|313|M|53.68,52.17|N|To Captain Tharran.|
@@ -140,7 +140,7 @@ A Grimaxe's Demise|QID|26102|PRE|26094|M|78.20,20.45|N|From Commander Stonebreak
 C Grimaxe's Demise|QID|26102|T|Dark Iron Golem|M|78.40,34.66|N|Kill the Dark Iron Golem, then Grimaxe will appear - kill him too.|
 T Grimaxe's Demise|QID|26102|M|78.23,20.49|N|To Commander Stonebreaker.|
 A Demanding Answers|QID|26112|PRE|26102|M|78.24,20.50|N|From Commander Stonebreaker.|
-H Thunderbrew Distillery|QID|26112|U|6948|N|Head to Ironforge. Your Hearthstone is probably set to Thunderbrew Distillery and will shorten your distance.|FLY|OLD|
+H Thunderbrew Distillery|QID|26112|N|Head to Ironforge. Your Hearthstone is probably set to Thunderbrew Distillery and will shorten your distance.|FLY|OLD|
 F Ironforge|QID|26112|M|53.78,52.72|N|Fly to Ironforge.|FLY|OLD|
 T Demanding Answers|QID|26112|M|39.78,57.23|Z|Ironforge|N|To Moira Thaurissan.|
 A Seize the Ambassador|QID|26118|PRE|26112|M|39.78,57.23|Z|Ironforge|N|From Moira Thaurissan.|

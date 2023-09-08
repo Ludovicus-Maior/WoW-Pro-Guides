@@ -42,7 +42,7 @@ A Night Web's Hollow|QID|380|PRE|376|M|32.14,66.02|N|From Executor Arren.|
 C Scavenging Deathknell|QID|3902|M|33.2,63.7|QO|1|N|Find the crates in and around the ruined houses east of the chapel.|
 K Samuel Fipps|ACTIVE|6395|M|36.6,61.6|L|16333|N|He's east/northeast where the small tents are. Loot Samuel's Remains.|
 C Night Web's Hollow|QID|380|M|27.04,59.33|QO|2;1|N|You can find them west/northwest at the cave. The Night web spiders are inside the cave.|
-H Deathknell|QID|381|U|6948|N|If your hearthstone is up, use it for a quick run back.|
+H Deathknell|QID|381|N|If your hearthstone is up, use it for a quick run back.|
 C Marla's Last Wish|QID|6395|M|31.17,65.08|QO|1|N|Run north to the graveyard outside the chapel and click the sparkling pile of dirt next to a tombstone.|NC|
 
 T Marla's Last Wish|QID|6395|M|30.86,66.05|N|To Novice Elreth in the chapel.|

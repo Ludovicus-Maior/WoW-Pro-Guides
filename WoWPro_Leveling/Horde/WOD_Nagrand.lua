@@ -113,7 +113,7 @@ A The Dead Do Not Forget...|QID|37318|M|79.45,30.38|N|From Murgok.|RANK|2|
 C The Dead Do Not Forget...|QID|37318|M|78.26,24.56|NC|N|These are scattered throughout the area of the bonus quest, so you might as well do it while you are here.|RANK|2|
 T The Dead Do Not Forget...|QID|37318|M|79.69,30.19|N|To the Boneseer's Cauldren.|RANK|2|
 C Fruitful Ventures|QID|34819|M|79.00,39.70|US|RANK|2|
-R The Ring of Trials|QID|34819|M|79.23,52.63|N|If you want (and your hearthstone is set there) it is faster to Hearth to Wor'var and run from there.|U|6948|RANK|2|
+R The Ring of Trials|QID|34819|M|79.23,52.63|N|If you want (and your hearthstone is set there) it is faster to Hearth to Wor'var and run from there.|RANK|2|
 T Fruitful Ventures|QID|34819|M|79.23,52.63|N|To Digrem Orebar.|RANK|2|
 A New Babies|QID|34900|PRE|34819|M|79.23,52.63|N|From Digrem Orebar.|RANK|2|
 C New Babies|QID|34900|M|60.85,47.24|NC|S|N|The non agro baby clefthoofs are what you are looking for, you will probably have to kill the accompanying adults first.|RANK|2|

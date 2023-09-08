@@ -63,7 +63,7 @@ T Don't Kill the Fat One|QID|9889|M|20.0,63.0|Z|Terokkar Forest|N|To Unkor the R
 A Success!|QID|9890|Z|Terokkar Forest|M|20.0,63.0|N|From Unkor the Ruthless.|PRE|9889|
 T Success!|QID|9890|Z|Terokkar Forest|M|20.0,61.0|N|To Kilrath.|
 A Because Kilrath is a Coward|QID|9891|Z|Terokkar Forest|M|20.0,61.0|N|From Kilrath.|PRE|9890|
-H Garadar|QID|9891|U|6948|N|Hearth to Garadar.|
+H Garadar|QID|9891|N|Hearth to Garadar.|
 T Because Kilrath is a Coward|QID|9891|M|55.5,37.5|N|To Jorin Deadeye.|
 A Message in a Battle|QID|9906|M|55.5,37.5|N|From Jorin Deadeye.|PRE|9891|
 A Standards and Practices|QID|9910|M|55.5,37.5|N|From Elkay'gan the Mystic.|

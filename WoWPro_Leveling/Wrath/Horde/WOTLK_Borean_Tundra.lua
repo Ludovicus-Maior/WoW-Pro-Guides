@@ -98,7 +98,7 @@ T The Trident of Naz'jan |QID|11625|N|Back to Veehja at the Shrine of Scales.|M|
 A The Emissary |QID|11626|PRE|11625|M|43.6,80.5|N|From Veehja.|
 C The Emissary |QID|11626|U|35850|N|Swim to the large iceberg at Riplash Ruins and dive down to find Leviroth. Use the Trident of Naz'jan on him and finish him off.|M|51.40,88.19|
 T The Emissary |QID|11626|N|To Karuk.|M|47.15,75.39|
-H Warsong Hold|QID|11652|U|6948|N|Hearth to Warsong Hold.|
+H Warsong Hold|QID|11652|N|Hearth to Warsong Hold.|
 T The Plains of Nasam |QID|11652|M|41.3,53.6|N|To Garrosh Hellscream.|
 T Reinforcements Incoming... |QID|11618|M|38,52|N|To Shadowstalker Ickoris.|
 A The Warsong Farms |QID|11686|PRE|11618|M|38.1,52.6|N|From Shadowstalker Ickoris.|
@@ -271,7 +271,7 @@ R Go to|ACTIVE|11898|M|86.5,28.5|N|the teleporter at the waypoint.|
 K Luthion the Vile|ACTIVE|11898|QO|2|M|87.9,29.0|N|Kill Luthion the Vile.|
 K Vanthryn the Merciless|QID|11898|QO|3|M|85.61,27.48|N|Kill Vanthryn the Merciless.|
 C Breaking Through |QID|11898|QO|1|N|Head to the teleporter above where you teleported in. Head to the western exit from this room, then head upstairs and kill Prince Valanar. Remember, when he channels violet beams, STOP ATTACKING, or your attacks will be reflected.|M|86.3,28.6|
-H Taunka'le Village|QID|11898|U|6948|N|Hearth back to Taunka'le Village.|
+H Taunka'le Village|QID|11898|N|Hearth back to Taunka'le Village.|
 T Breaking Through |QID|11898|N|To Chieftain Wintergale.|M|75.8,37.2|
 A The Fall of Taunka'le Village |QID|11929|N|From Chieftain Wintergale. Don't turn it in yet.|
 N Careful about Animal Blood |QID|11866|N|If you kill an animal, you'll gain the Animal Blood debuff. If you come within range of a D.E.H.T.A NPC with this debuff, they'll come after you. Use water to wash it off or wait for the debuff to wear off.|

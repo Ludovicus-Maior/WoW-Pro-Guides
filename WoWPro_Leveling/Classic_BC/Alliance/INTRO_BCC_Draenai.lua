@@ -59,7 +59,7 @@ r Sell junk and repair|ACTIVE|9303|M|79.19,50.94|N|At Mura, close this step when
 C Inoculation|QID|9303|U|22962|M|77.09,61.38|S|NC|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|R|Draenei|
 C Spare Parts|QID|9305|M|77.09,61.38|N|Into the hills, through the cave. The parts are spread all over the camp.|
 C Inoculation|QID|9303|U|22962|M|77.09,61.38|US|NC|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|R|Draenei|
-H Ammen Vale|ACTIVE|9303|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|R|Draenei|
+H Ammen Vale|ACTIVE|9303|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|R|Draenei|
 T Inoculation|QID|9303|M|79.48,51.61|N|To Vindicator Aldar.|R|Draenei|
 A The Missing Scout|QID|9309|PRE|9303|M|79.48,51.61|N|From Vindicator Aldar.|
 T Spare Parts|QID|9305|M|79.41,51.24|N|To Technician Zhanaa.|
@@ -170,7 +170,7 @@ T The Missing Fisherman|QID|10428|Z|Azuremyst Isle|M|16.6,94.5|N|To Cowlen.|
 A All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|From Cowlen.|
 C All That Remains|QID|9527|Z|Azuremyst Isle|M|13.41,85.29|N|Kill owlkins on this island until you pick up the Remains of Cowlen's Family.|
 T All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|To Cowlen.|
-H Azure Watch|QID|9544|U|6948|M|48,53|N|Hearth back to Azure Watch.|
+H Azure Watch|QID|9544|M|48,53|N|Hearth back to Azure Watch.|
 T The Prophecy of Akida|QID|9544|Z|Azuremyst Isle|M|49.4,51.0|N|To Arugoo of the Stillpine.|
 A Stillpine Hold|QID|9559|PRE|9544|Z|Azuremyst Isle|M|49.4,51.0|N|From Arugoo of the Stillpine.|
 ;A Strength of One|QID|9582|Z|Azuremyst Isle|M|50.02,50.52|N|From Ruada.|C|Warrior|R|Draenei|LVL|10|
@@ -197,7 +197,7 @@ A Show Gnomercy|QID|9537|PRE|9531|Z|Azuremyst Isle|M|47.04,70.22|N|From Admiral 
 C Show Gnomercy|QID|9537|T|Engineer "Spark" Overgrind|Z|Azuremyst Isle|M|48.28,72.22|N|Search the beach for Engineer "Spark" Overgrind, talk to him, then kill and loot him.|
 T Show Gnomercy|QID|9537|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|
 A Deliver Them From Evil...|QID|9602|PRE|9537|Z|Azuremyst Isle|M|47.04,70.22|N|From Admiral Odesyus.|
-H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|U|6948|
+H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|
 T Deliver Them From Evil...|QID|9602|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
 A Coming of Age|QID|9623|Z|Azuremyst Isle|M|47.1,50.6|N|From Exarch Menelaous.|
 r Sell junk and repair|QID|9559|Z|Azuremyst Isle|M|49.69,52.75|N|At Kioni.|
@@ -237,7 +237,7 @@ T Call of Fire|QID|9465|Z|Azuremyst Isle|M|59.52,17.95|N|To Temper.|C|Shaman|R|D
 A Call of Fire|QID|9467|Z|Azuremyst Isle|M|59.52,17.95|N|From Temper.|C|Shaman|R|Draenei|
 C Call of Fire|QID|9467|Z|Azuremyst Isle|M|11.25,82.56|N|Click the Strawnman and then kill the fire elemental that spawns.|C|Shaman|R|Draenei|
 T Call of Fire|QID|9467|Z|Azuremyst Isle|M|59.52,17.95|N|Use the Orb of Returning and turn in to Temper.|C|Shaman|R|Draenei|U|24335|
-T Warn Your People|QID|9622|Z|Azuremyst Isle|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|
+T Warn Your People|QID|9622|Z|Azuremyst Isle|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|
 T Bandits!|QID|9616|Z|Azuremyst Isle|M|47.13,50.61|N|To Exarch Menelaous.|O|
 ;T Strength of One|QID|9582|Z|Azuremyst Isle|M|54.06,9.84|N|Click on cage and kill Death Ravager.|C|Warrior|R|Draenei|
 A Behomat|QID|10350|Z|Azuremyst Isle|M|50.01,50.52|N|From Ruada.|C|Warrior|R|Draenei|

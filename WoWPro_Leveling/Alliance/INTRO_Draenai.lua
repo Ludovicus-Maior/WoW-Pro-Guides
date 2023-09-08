@@ -46,7 +46,7 @@ r Sell junk and repair|QID|37445|N|At Mura, close this step when done.|M|49.99,4
 C Inoculation|QID|37444^9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|S|NC|
 C Spare Parts|QID|37445|NC|N|Into the hills, through the cave. The parts are spread all over the camp.|M|58,72|
 C Inoculation|QID|37444^9303|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|U|22962|M|53,65|US|NC|
-H Ammen Vale|QID|37445|U|6948|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
+H Ammen Vale|QID|37445|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
 T Inoculation|QID|37444^9303|M|50.65,48.73|N|To Vindicator Aldar.|
 A The Missing Scout|QID|9309|PRE|9303|M|50.65,48.73|N|From Vindicator Aldar.|
 T Spare Parts|QID|37445|M|50.51,47.87|N|To Technician Zhanaa.|
@@ -163,7 +163,7 @@ T The Missing Fisherman|QID|10428|Z|Azuremyst Isle|M|16.6,94.5|N|To Cowlen.|
 A All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|From Cowlen.|
 C All That Remains|QID|9527|N|Kill owlkins on this island until you pick up the Remains of Cowlen's Family.|Z|Azuremyst Isle|M|13.41,85.29|
 T All That Remains|QID|9527|Z|Azuremyst Isle|M|16.6,94.5|N|To Cowlen.|
-H Azure Watch|QID|9544|U|6948|M|49.4,51.0|N|Hearth or run back to Azure Watch.|Z|Azuremyst Isle|
+H Azure Watch|QID|9544|M|49.4,51.0|N|Hearth or run back to Azure Watch.|Z|Azuremyst Isle|
 T The Prophecy of Akida|QID|9544|Z|Azuremyst Isle|M|49.4,51.0|N|To Arugoo of the Stillpine.|
 A Stillpine Hold|QID|9559|PRE|9544|Z|Azuremyst Isle|M|49.4,51.0|N|From Arugoo of the Stillpine.|
 T Nightstalker Clean Up, Isle 2...|QID|9456|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
@@ -174,7 +174,7 @@ A Show Gnomercy|QID|9537|PRE|9531|Z|Azuremyst Isle|M|47.04,70.22|N|From Admiral 
 C Show Gnomercy|QID|9537|T|Engineer "Spark" Overgrind|N|Search the beach for Engineer "Spark" Overgrind, talk to him, then kill and loot him.|Z|Azuremyst Isle|M|48.28,72.22|
 T Show Gnomercy|QID|9537|Z|Azuremyst Isle|M|47.04,70.22|N|To Admiral Odesyus.|
 A Deliver Them From Evil...|QID|9602|PRE|9537|Z|Azuremyst Isle|M|47.04,70.22|N|From Admiral Odesyus.|
-H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|U|6948|M|47.1,50.6|Z|Azuremyst Isle|
+H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|M|47.1,50.6|Z|Azuremyst Isle|
 T Deliver Them From Evil...|QID|9602|Z|Azuremyst Isle|M|47.1,50.6|N|To Exarch Menelaous.|
 A Coming of Age|QID|9623|Z|Azuremyst Isle|M|47.1,50.6|N|From Exarch Menelaous.|
 r Sell junk and repair|QID|9559|N|At Kioni.|Z|Azuremyst Isle|M|49.69,52.75|
@@ -204,7 +204,7 @@ T The Kurken is Lurkin'|QID|9570|Z|Azuremyst Isle|M|46.97,22.26|N|To Kurz the Re
 A The Kurken's Hide|QID|9571|PRE|9570|Z|Azuremyst Isle|M|46.97,22.26|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|PRE|9566&9570&9573|N|From High Chief Stillpine.|Z|Azuremyst Isle|M|46.68,20.63|
 T The Kurken's Hide|QID|9571|Z|Azuremyst Isle|M|44.77,23.90|N|To Moordo.|
-T Warn Your People|QID|9622|Z|Azuremyst Isle|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|
+T Warn Your People|QID|9622|Z|Azuremyst Isle|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|
 T Bandits!|QID|9616|Z|Azuremyst Isle|M|47.13,50.61|N|To Exarch Menelaous.|O|
 r Sell junk and repair|QID|9623|N|At Kioni.|Z|Azuremyst Isle|M|49.69,52.75|
 F The Exodar|QID|9623|N|Fly to The Exodar. I would suggest visiting the AH and bank while you are there.|Z|Azuremyst Isle|M|49.7,49.12|

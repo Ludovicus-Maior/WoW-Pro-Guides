@@ -147,7 +147,7 @@ C The Forest Heart|QID|13796|M|83.76,63.11|NC|N|Right click on your 7 Untainted 
 C Insane Druids|QID|26472|M|74.82,74.27|N|Kill Mavoris Cloudsbreak.|
 T Insane Druids|QID|26472|M|75.63,75.76|N|To Gaivan Shadewalker. To escape the den follow the green pebbles and always favour the direction heading upwards.|
 T The Forest Heart|QID|13796|M|83.74,63.11|N|To Gnarl.|
-H Astranaar|QID|13867|U|6948|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
+H Astranaar|QID|13867|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
 r Repair/Restock/Sell Junk|QID|13867|M|34.45,49.56|N|At Aeolynn|
 l Troll Charm|QID|13867|M|33.78,39.46|N|Kill Furbolgs until this drops.|L|46128|S|
 C Culling the Furbolg Threat|QID|13867|M|35.55,33.17|N|Kill 15 Thistlefur Village Furbolgs.|
@@ -196,7 +196,7 @@ R Night Run|QID|13922|M|64.8,53.13;66.42,52.57|CC|N|Run to Night Run.|FLY|OLD|
 C In the Hands of the Perverse|QID|13922|M|66.46,55.86|N|Kill and loot Satyrs.|
 T In the Hands of the Perverse|QID|13922|M|59.10,59.95|N|To Avrus Illwhisper.|
 A All's Well|QID|13924|PRE|13922|M|59.02,59.93|N|From Avrus the Redeemed.|
-H Astranaar|QID|13924|U|6948|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
+H Astranaar|QID|13924|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
 T All's Well|QID|13924|M|37.34,51.83|N|To Pelturas Whitemoon.|
 A Dryad Delivery|QID|26476|PRE|26475|M|36.61,49.66|N|From Raene Wolfrunner.|
 T Dryad Delivery|QID|26476|M|59.20,59.67|N|To Shael'dryn.|
@@ -211,7 +211,7 @@ A Playing Possum|QID|26478|PRE|26477|M|59.12,59.75|N|From Shael'dryn.|
 C Playing Possum|QID|26478|U|46720|M|62.54,60.26|NC|N|Loot the Pommel from the box in the cave, if you are attcked use the scroll to play possum.|
 T Playing Possum|QID|26478|M|59.17,59.73|N|To Shael'dryn.|
 A Return to Raene|QID|26479|PRE|26478|M|59.17,59.73|N|From Shael'dryn.|
-H Astranaar|QID|26479|U|6948|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
+H Astranaar|QID|26479|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
 T Return to Raene|QID|26479|M|36.59,49.61|N|To Raene Wolfrunner.|
 A Dartol's Rod|QID|26480|PRE|26479|M|36.55,49.61|N|From Raene Wolfrunner.|
 A Check in on the Edunes|QID|13965|LEAD|13976|PRE|26478|M|35.74,49.10|N|From Faldreas Goeth'Shael.|
@@ -254,7 +254,7 @@ C The Goblin Braintrust|QID|13979|M|46.18,61.58|N|Kill and loot Chief Bombgineer
 A They Set Them Up The Bomb!|QID|13981|M|46.27,61.29|N|This is on the roof of the construct you are currently on top of.|
 C Ze Gnomecorder|QID|25607|US|M|46.46,61.31|N|Finish getting pieces of Filthy Goblin Technology.|
 C They Took Our Gnomes|QID|13913|M|43.29,63.52|N|Look for the (badly driven) caravan, and kill the driver.|US|
-H Astranaar|QID|26482|U|6948|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
+H Astranaar|QID|26482|N|Hearth back to Astranaar, or run back if your hearth is down.|M|37.00,49.17|
 T True Power of the Rod|QID|26482|M|36.63,49.65|N|To Raene Wolfrunner.|
 F Stardust Spire|QID|26838|N|Fly to Stardust Spire. Congratulations on the Zone Achievement by the way.|M|34.42,48|
 T They Set Them Up The Bomb!|QID|13981|M|35.18,71.57|N|To Huntress Jalin.|

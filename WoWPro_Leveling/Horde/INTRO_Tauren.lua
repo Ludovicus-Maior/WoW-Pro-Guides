@@ -32,7 +32,7 @@ T The Battleboars|QID|14459|M|30.92,50.597|N|To Adana Thunderhorn.|
 T Feed of Evil|QID|14461|M|30.92,50.59|N|To Adana Thunderhorn.|
 A Rite of Honor|QID|14460|PRE|14459&14461|M|30.92,50.59|N|From Adana Thunderhorn.|
 C Rite of Honor|QID|14460|M|15.32,46.69|N|Kill and loot Chief Squealer Thornmantle, who is hanging out in this small cave.|
-H Camp Narache|QID|14460|M|27.76,28.29|U|6948|N|Use your hearthstone to return to Camp Narache (or run there).|
+H Camp Narache|QID|14460|M|27.76,28.29|N|Use your hearthstone to return to Camp Narache (or run there).|
 T Rite of Honor|QID|14460|M|27.72,28.28|N|To Chief Hawkwind.|
 A Last Rites, First Rites|QID|24861|PRE|14460|M|27.72,28.28|N|From Chief Hawkwind.|
 C Last Rites, First Rites|NC|QID|24861|M|27.79,28.75|U|50465|N|Use the Water Pitcher to place an offering for Greatmother Hawkwind.|

@@ -1,3 +1,22 @@
+# Release 2023.09.06.A
+## Bug Fixes
+* Cagomei: Updated DF Zone data
+* Ludo: Correct Vanilla Version
+* Spoony36: Stop Dialog box popping up when entering/Leaving Battlegrounds and small tweak to okay button
+* Ludo: Add Dialog box for missing TomTom/Carbonite instead of an ignored warning.
+## Guide Updates
+### Retail
+* Leveling/Alliance: BFA Intro, Exiles Reach
+* Leveling/Horde: BFA Intro, Exiles Reach, Forsaken Intro,
+* Neutral Leveling: Onaharen Plains, Shandris_Feathermoon_Questline
+### WotLK
+* Many guides were updated to remove outdate hearthstone references
+* Leveling/Alliance: Intro Human, Intro Dwarf/Gnome, Darkshore, Teldrassil
+* Leveling/Neutral: Blades Edge
+### Classic
+* No Classic guides were harmed during this release
+
+
 # Release 2023.08.24.A
 ## Bug Fixes
 * Spoony:  Massive changes to show a popup with the no TomTom warning.

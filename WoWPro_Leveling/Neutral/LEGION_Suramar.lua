@@ -1296,7 +1296,7 @@ C Learning From the Dead|QID|44830|M|42.04,52.22|Z|641|S|NC|N|Loot Books of Tact
 C We Need Weapons|QID|44829|M|44.60,49.29;41.57,49.54;40.02,53.92|CS|Z|641|NC|N|Click the beacon at each marked location to set it.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|641|US|NC|N|Books of Tactics collected|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|641|US|N|Slay Black Rook forces.|
-F Meredil|ACTIVE|44830|M|39.93,50.96|Z|680|U|6948|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|FLY|OLD|
+F Meredil|ACTIVE|44830|M|39.93,50.96|Z|680|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|FLY|OLD|
 T We Need Weapons|QID|44829|M|39.90,51.36|Z|680|N|To Chief Telemancer Oculeth.|
 T Citizens' Army|QID|44827|M|39.79,51.21|Z|680|N|To Victoire.|
 T Learning From the Dead|QID|44830|M|39.93,50.96|Z|680|N|To Silgryn.|
