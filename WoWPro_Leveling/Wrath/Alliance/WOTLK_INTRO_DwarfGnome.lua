@@ -128,7 +128,7 @@ r Sell and Repair|ACTIVE|318|M|30.12,45.29|N|Sell and Repair with Burdrak Harglh
 T Evershine|QID|318|M|30.20,45.73|N|To Rejold Barleybrew|
 A A Favor for Evershine|QID|319|PRE|318|M|30.20,45.73|N|From Rejold Barleybrew|
 A The Perfect Stout|QID|315|M|30.20,45.73|N|From Rejold Barleybrew|
-A Bitter Rivals|QID|310|PRE|318|M|30.18,45.53|N|From Marleth Barleybrew|
+A Bitter Rivals|QID|310|M|30.18,45.53|N|From Marleth Barleybrew|
 K A Favor for Evershine|ACTIVE|319|QO|1;2;3|N|Kill Ice Claw Bears, Elder Crag Boars and Snow Leopards.|S|
 K Frostmane Hold|ACTIVE|287|QO|1|M|21.14,51.42|N|Kill Frostmane Headhunters as you make your way to the back of Frostmane Hold.|T|Frostmane Headhunter|S|
 R Frostmane Hold.|ACTIVE|287|QO|2|M|25.09,51.05;21.14,51.42|CS|N|Make your way to the back of Frostmane Hold.\n[color=FF0000]NOTE: [/color]Watch out for the higher level mobs in here.| ; ** auto-complete broken until QO completed - Hendo72
