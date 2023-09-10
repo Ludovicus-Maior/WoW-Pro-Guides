@@ -82,7 +82,7 @@ A Supplies to Tannok|QID|2160|M|33.85,72.23|N|From Hands Springsprocket.|
 ; ** End of Coldridge Valley
 
 R Kharanos|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel to Dun Morogh and follow the road to Kharanos.\n[color=FF0000]NOTE: [/color]As of now, you will start to come across aggressive mobs (red) that will attack you.|S|LVL|5;-495|
-L Level 6|ACTIVE|420|N|Grind until you're within 3.5 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Once you exit the tunnel, if you can, focus on killing Crag Boars because they drop an item you need to collect for a quest later.|LVL|5;-495|
+L Level 6|ACTIVE|420|N|Grind until you're within 3.5 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Once you exit the tunnel, if you can, focus on killing Crag Boars because they drop an item you need to collect for a quest later.|T|Crag Boar|LVL|5;-495|
 R Kharanos|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel to Dun Morogh and follow the road to Kharanos.\n[color=FF0000]NOTE: [/color]As of now, you will start to come across aggressive mobs (red) that will attack you.|US|
 T Senir's Observations|QID|420|M|46.73,53.82|N|To Senir Whitebeard.|
 A Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|From Ragnar Thunderbrew.|
