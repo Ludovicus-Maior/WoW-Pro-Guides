@@ -25,11 +25,6 @@ A Glyphic Memorandum|QID|3114|PRE|179|C|Mage|R|Gnome|M|29.92,71.21|N|From Sten S
 A Encrypted Memorandum|QID|3113|PRE|179|C|Rogue|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
 A Simple Memorandum|QID|3112|PRE|179|C|Warrior|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
 
-A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
-A A New Threat|QID|170|PRE|179|M|29.71,71.25|N|From Balir Frosthammer|
-C A New Threat|QID|170|M|31.30,76.10|QO|1;2|N|Kill 6 Rockjaw Troggs and 6 Burly Rockjaw Troggs.|
-T A New Threat|QID|170|M|29.71,71.25|N|To Balir Frosthammer|
-
 T Encrypted Rune|QID|3109|C|Rogue|R|Dwarf|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.\nGrab your lv 2 training while you're here.|
 T Etched Rune|QID|3108|C|Hunter|R|Dwarf|M|29.17,67.45|N|To Thorgas Grimson in Anvilmar.\nGrab your lv 2 training while you're here.|
 T Hallowed Rune|QID|3110|C|Priest|R|Dwarf|M|28.60,66.38|N|To Branstock Khalder in Anvilmar.\nGrab your lv 2 training while you're here.|
@@ -39,6 +34,12 @@ T Tainted Memorandum|QID|3115|C|Warlock|R|Gnome|M|28.65,66.14|N|To Alamar Grimm.
 T Glyphic Memorandum|QID|3114|C|Mage|R|Gnome|M|28.71,66.37|N|To Marryk Nurribit.\nGrab your lv 2 training while you're here.|
 T Encrypted Memorandum|QID|3113|C|Rogue|R|Dwarf|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.\nGrab your lv 2 training while you're here.|
 T Simple Memorandum|QID|3112|C|Warrior|R|Gnome|M|28.83,67.24|N|To Thran Khorman in Anvilmar.\nGrab your lv 2 training while you're here.|
+
+A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
+A A New Threat|QID|170|PRE|179|M|29.71,71.25|N|From Balir Frosthammer|
+C A New Threat|QID|170|M|31.30,76.10|QO|1;2|N|Kill 6 Rockjaw Troggs and 6 Burly Rockjaw Troggs.|
+T A New Threat|QID|170|M|29.71,71.25|N|To Balir Frosthammer|
+
 
 L Level 3|AVAILABLE|3361|LVL|3|N|You need to be level 3 to continue with this guide.|
 
@@ -72,18 +73,21 @@ T The Stolen Journal|QID|218|M|25.08,75.71|N|To Grelin Whitebeard.|
 A Senir's Observations|QID|282|PRE|218|M|25.08,75.71|N|From Grelin Whitebeard.|
 C The Boar Hunter|QID|183|US|M|22.0,72.0|N|Kill Small Crag Boar.|T|Small Crag Boar|
 T The Boar Hunter|QID|183|M|22.60,71.43|N|To Talin Keeneye.|
-r Sell and Repair|ACTIVE|282|M|28.71,67.85|N|Repair and sell your junk to Rybrad Coldbank or Grundel Harkin.|
-L Level 5|QID|3364|LVL|5|N|You need to be level 5 to continue with this guide.|C|Priest|R|Dwarf|
-A In Favor of the Light|QID|5626|C|Priest|R|Dwarf|M|47.3,52.2|N|Speak with Maxan Anvol.|S|
+R Anvilmar|AVAILABLE|5626|M|28.76,68.30|N|Return to Anvilmar.|C|Priest|R|Dwarf|LVL|-5|S|
+R Coldridge Pass|ACTIVE|282|M|31.23,72.39|N|Follow the road east to Coldridge Pass.\n[color=FF0000]NOTE: [/color]If your bags are getting full, stop and sell as you pass Anvilmar.|C|-Priest|R|Dwarf|LVL|-5|S|
+L Level 5|ACTIVE|282|N|You need to be level 5 to continue with this guide.|LVL|5|
+R Anvilmar|AVAILABLE|5626|M|28.76,68.30|N|Return to Anvilmar.|C|Priest|R|Dwarf|LVL|5|US|
+A In Favor of the Light|QID|5626|M|28.60,66.38|N|From Branstock Khalder.|C|Priest|R|Dwarf|
+R Coldridge Pass|ACTIVE|282|M|31.23,72.39|N|Follow the road east to Coldridge Pass.\n[color=FF0000]NOTE: [/color]If your bags are getting full, stop and sell as you pass Anvilmar.|LVL|5|US|
+T Senir's Observations|QID|282|M|33.48,71.84|N|To Mountaineer Thalos.|
+A Senir's Observations|QID|420|PRE|282|M|33.48,71.84|N|From Mountaineer Thalos.|
+A Supplies to Tannok|QID|2160|M|33.85,72.23|N|From Hands Springsprocket.|
+; ** End of Coldridge Valley
 
-T Senir's Observations|QID|282|M|28.86,70.49;33.48,71.84|CS|N|To Mountaineer Thalos|
-A Senir's Observations|QID|420|PRE|282|M|33.48,71.84|N|From Mountaineer Thalos|
-A Supplies to Tannok|QID|2160|M|33.85,72.23|N|From Hands Springsprocket|
-A In Favor of the Light|QID|5626|C|Priest|
-
-R Kharanos|QID|420|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel and follow the road to reach Kharanos.|
-T Senir's Observations|QID|420|M|46.73,53.82|N|To Senir Whitebeard|
-L Level 5|QID|3364|LVL|5|N|You need to be level 5 to continue with this guide.|
+R Kharanos|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel to Dun Morogh and follow the road to Kharanos.|S|LVL|5;-495|
+L Level 6|ACTIVE|420|N|Grind until you're within 3.5 bubbles of level 6.\n[color=FF0000]NOTE: [/color]Once you exit the tunnel, if you can, focus on killing Crag Boars because they drop an item you need to collect for a quest later.|T|Crag Boar|LVL|5;-495|
+R Kharanos|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel to Dun Morogh and follow the road to Kharanos.\n[color=FF0000]NOTE: [/color]As of now, you will start to come across aggressive mobs (red) that will attack you.|US|
+T Senir's Observations|QID|420|M|46.73,53.82|N|To Senir Whitebeard.|
 A Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|From Ragnar Thunderbrew|
 N Learn Apprentice First Aid |QID|2160|ACTIVE|2160|M|47.18,52.59|S|N|If you want to learn First Aid, now is your chance with Thamner Pol, in the corner of the inn.|
 N Learn Apprentice Cooking |QID|2160|ACTIVE|2160|M|47.67,52.30|S|N|If you want to learn Cooking, now is your chance with Gremlock Pilsnor, at the back of the Inn.|
