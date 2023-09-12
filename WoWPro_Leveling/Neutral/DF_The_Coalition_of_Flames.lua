@@ -1,5 +1,5 @@
-local guide = WoWPro:RegisterGuide('Shandris_Feathermoon_Questline', 'Leveling', 'Valdrakken', 'WoWPro Team', 'Neutral')
-WoWPro:GuideName(guide,"Shandris Feathermoon Questline")
+local guide = WoWPro:RegisterGuide('The_Coalition_of_Flames', 'Leveling', 'Valdrakken', 'WoWPro Team', 'Neutral')
+WoWPro:GuideName(guide,"The Coalition of Flames")
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideQuestTriggers(guide, 76982, 75918)
 WoWPro:GuideContent(guide, "Dragonflight")
