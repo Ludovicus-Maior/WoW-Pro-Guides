@@ -321,27 +321,27 @@ R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road ea
 A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|From Rudra Amberstill.|
 C Protecting the Herd|QID|314|QO|1|M|62.45,50.35;62.37,49.06;62.45,49.01|CS|Z|Dun Morogh|N|Kill Vagash, and loot Fang of Vagash.|
 T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
-R Gol'Bolar Quarry|QID|432|M|67.19,53.54|N|Locate the dirt path leading south into the Quarry from the road.\n[color=FF0000]NOTE: [/color]There is a signpost on the road pointing to it.|
-A The Public Servant|QID|433|M|68.67,55.97|N|From Senator Mehr Stonehallow|
-A Those Blasted Troggs!|QID|432|M|69.08,56.32|N|From Foreman Stonebrow|
-K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|N|Kill Rockjaw Skullthumpers, found both inside and outside area of the quarry.|S|
-K The Public Servant|ACTIVE|433|QO|1|M|70.98,54.54|N|Kill the Rockjaw Bonesnappers, inside the Gol'Bolar Quarry Mine.\n[color=FF0000]NOTE: [/color]There is a small group of 4 neutral (yellow) that path around the quarry area.|
-K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|N|Kill Rockjaw Skullthumpers, leave the mine, and target those outside only.|US|
-T The Public Servant|QID|433|M|68.67,55.97|N|To Senator Mehr Stonehallow|
-r Sell and Repair|ACTIVE|432|M|68.86,55.96|N|Sell and Repair with Frast Dokner.|S|
-T Those Blasted Troggs!|QID|432|M|69.08,56.32|N|To Foreman Stonebrow|
+R Gol'Bolar Quarry|QID|432|M|67.19,53.54|Z|Dun Morogh|N|Locate the dirt path leading south into the Quarry from the road.\n[color=FF0000]NOTE: [/color]There is a signpost on the road pointing to it.|
+A The Public Servant|QID|433|M|68.67,55.97|Z|Dun Morogh|N|From Senator Mehr Stonehallow|
+A Those Blasted Troggs!|QID|432|M|69.08,56.32|Z|Dun Morogh|N|From Foreman Stonebrow|
+K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|Z|Dun Morogh|N|Kill Rockjaw Skullthumpers, found both inside and outside area of the quarry.|S|
+K The Public Servant|ACTIVE|433|QO|1|M|70.98,54.54|Z|Dun Morogh|N|Kill the Rockjaw Bonesnappers, inside the Gol'Bolar Quarry Mine.\n[color=FF0000]NOTE: [/color]There is a small group of 4 neutral (yellow) that path around the quarry area.|
+K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|Z|Dun Morogh|N|Kill Rockjaw Skullthumpers, leave the mine, and target those outside only.|US|
+T The Public Servant|QID|433|M|68.67,55.97|Z|Dun Morogh|N|To Senator Mehr Stonehallow|
+r Sell and Repair|ACTIVE|432|M|68.86,55.96|Z|Dun Morogh|N|Sell and Repair with Frast Dokner.|S|
+T Those Blasted Troggs!|QID|432|M|69.08,56.32|Z|Dun Morogh|N|To Foreman Stonebrow|
 
-R North Gate Pass|QID|419|M|67.21,52.91;78.00,49.61;78.16,49.36|CS|N|Follow the road east until you come to a fork and take the northeastern road to North Gate Pass.|
-R North Gate Outpost|QID|419|M|83.00,40.30|N|Continue through the tunnel to North Gate Outpost at the other end.|
-A The Lost Pilot|QID|419|M|83.89,39.19|N|From Pilot Hammerfoot|
-T The Lost Pilot|QID|419|M|79.68,36.17|N|To the Dwarven Corpse northwest of your current location.|
-A A Pilot's Revenge|QID|417|PRE|419|M|79.68,36.17|N|From Dwarven Corpse.|
-C A Pilot's Revenge|QID|417|M|78.34,37.82|L|3183|N|Kill and loot Mangeclaw.|
-T A Pilot's Revenge|QID|417|M|83.89,39.19|N|To Pilot Hammerfoot|
-R South Gate Pass|ACTIVE|413|M|79.28,51.84|N|Go back through the tunnel to the fork and travel a short distance up the other road.|
-R South Gate Outpost|QID|413|M|82.28,53.43;84.33,51.16|CC|N|Continue up the hill and through the tunnel to South Gate Outpost.|
-T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
-A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
+R North Gate Pass|QID|419|M|67.21,52.91;78.00,49.61;78.16,49.36|CS|Z|Dun Morogh|N|Follow the road east until you come to a fork and take the northeastern road to North Gate Pass.|
+R North Gate Outpost|QID|419|M|83.00,40.30|Z|Dun Morogh|N|Continue through the tunnel to North Gate Outpost at the other end.|
+A The Lost Pilot|QID|419|M|83.89,39.19|Z|Dun Morogh|N|From Pilot Hammerfoot|
+T The Lost Pilot|QID|419|M|79.68,36.17|Z|Dun Morogh|N|To the Dwarven Corpse northwest of your current location.|
+A A Pilot's Revenge|QID|417|PRE|419|M|79.68,36.17|Z|Dun Morogh|N|From Dwarven Corpse.|
+C A Pilot's Revenge|QID|417|M|78.34,37.82|L|3183|Z|Dun Morogh|N|Kill and loot Mangeclaw.|
+T A Pilot's Revenge|QID|417|M|83.89,39.19|Z|Dun Morogh|N|To Pilot Hammerfoot|
+R South Gate Pass|ACTIVE|413|M|79.28,51.84|Z|Dun Morogh|N|Go back through the tunnel to the fork and travel a short distance up the other road.|
+R South Gate Outpost|QID|413|M|82.28,53.43;84.33,51.16|CC|Z|Dun Morogh|N|Continue up the hill and through the tunnel to South Gate Outpost.|
+T Shimmer Stout|QID|413|M|86.28,48.82|Z|Dun Morogh|N|To Mountaineer Barleybrew|
+A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|Z|Dun Morogh|N|From Mountaineer Barleybrew|
 ]]
 end)
 
