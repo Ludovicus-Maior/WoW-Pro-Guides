@@ -13,6 +13,7 @@ A Dwarven Outfitters|QID|179|M|29.92,71.21|N|From Sten Stoutarm|
 C Dwarven Outfitters|QID|179|M|29.80,74.30|QO|1|N|Kill Ragged Young Wolves to loot 8 Tough Wolf Meat.|T|Ragged Young Wolf|
 r Sell Junk|ACTIVE|179|M|30.06,71.52|N|Sell your junk to Adlin Pridedrift.|
 T Dwarven Outfitters|QID|179|M|29.92,71.21|N|To Sten Stoutarm|
+A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
 
 ; Quest name changes depending upon your class
 A Encrypted Rune|QID|3109|PRE|179|C|Rogue|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
@@ -24,38 +25,38 @@ A Tainted Memorandum|QID|3115|PRE|179|C|Warlock|R|Gnome|M|29.92,71.21|N|From Ste
 A Glyphic Memorandum|QID|3114|PRE|179|C|Mage|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
 A Encrypted Memorandum|QID|3113|PRE|179|C|Rogue|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
 A Simple Memorandum|QID|3112|PRE|179|C|Warrior|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
-
-T Encrypted Rune|QID|3109|C|Rogue|R|Dwarf|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.\nGrab your lv 2 training while you're here.|
-T Etched Rune|QID|3108|C|Hunter|R|Dwarf|M|29.17,67.45|N|To Thorgas Grimson in Anvilmar.\nGrab your lv 2 training while you're here.|
-T Hallowed Rune|QID|3110|C|Priest|R|Dwarf|M|28.60,66.38|N|To Branstock Khalder in Anvilmar.\nGrab your lv 2 training while you're here.|
-T Simple Rune|QID|3106|C|Warrior|R|Dwarf|M|28.83,67.24|N|To Thran Khorman in Anvilmar.\nGrab your lv 2 training while you're here.|
-T Consecrated Rune|QID|3107|C|Paladin|R|Dwarf|M|28.83,68.33|N|To Bromos Grummner.\nGrab your lv 2 training while you're here.|
-T Tainted Memorandum|QID|3115|C|Warlock|R|Gnome|M|28.65,66.14|N|To Alamar Grimm.\nGrab your lv 2 training while you're here.|
-T Glyphic Memorandum|QID|3114|C|Mage|R|Gnome|M|28.71,66.37|N|To Marryk Nurribit.\nGrab your lv 2 training while you're here.|
-T Encrypted Memorandum|QID|3113|C|Rogue|R|Dwarf|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.\nGrab your lv 2 training while you're here.|
-T Simple Memorandum|QID|3112|C|Warrior|R|Gnome|M|28.83,67.24|N|To Thran Khorman in Anvilmar.\nGrab your lv 2 training while you're here.|
-
-A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
+T Simple Rune|QID|3106|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|Warrior|R|Dwarf|
+T Consecrated Rune|QID|3107|M|28.83,68.33|N|To Bromos Grummner in Anvilmar.|C|Paladin|R|Dwarf|
+T Etched Rune|QID|3108|M|29.17,67.45|N|To Thorgas Grimson in Anvilmar.|C|Hunter|R|Dwarf|
+T Encrypted Rune|QID|3109|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Dwarf|
+T Hallowed Rune|QID|3110|M|28.60,66.38|N|To Branstock Khalder in Anvilmar.|C|Priest|R|Dwarf|
+T Simple Memorandum|QID|3112|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|Warrior|R|Gnome|
+T Encrypted Memorandum|QID|3113|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Dwarf|
+T Glyphic Memorandum|QID|3114|M|28.71,66.37|N|To Marryk Nurribit in Anvilmar.|C|Mage|R|Gnome|
+T Tainted Memorandum|QID|3115|M|28.65,66.14|N|To Alamar Grimm in Anvilmar.|C|Warlock|R|Gnome|
+= Level 2 Training|AVAILABLE|170|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
+; -- Warlock Imp quest
+A Beginnings|QID|1599|M|28.65,66.14|N|From Alamar Grimm in Anvilmar.|C|Warlock|
 A A New Threat|QID|170|PRE|179|M|29.71,71.25|N|From Balir Frosthammer|
-C A New Threat|QID|170|M|31.30,76.10|QO|1;2|N|Kill 6 Rockjaw Troggs and 6 Burly Rockjaw Troggs.|
+C Beginnings|QID|1599|M|29.80,80.94|L|6753 3|ITEM|6753|N|Frostmane Novice.\n[color=FF0000]NOTE: [/color]Survivability is limited at this point; go slowly.|S|C|Warlock|
+K A New Threat|ACTIVE|170|QO|1;2|M|31.30,76.10|N|Kill Rockjaw Troggs and Burly Rockjaw Troggs.|
+L Level 3|AVAILABLE|3361|N|Grind until you're within 3.5 bubbles of level 3.|LVL|2;-170|
 T A New Threat|QID|170|M|29.71,71.25|N|To Balir Frosthammer|
-
-
-L Level 3|AVAILABLE|3361|LVL|3|N|You need to be level 3 to continue with this guide.|
-
 A A Refugee's Quandary|QID|3361|M|28.49,67.74|N|From Felix Whindlebolt|
 r Sell and Repair|ACTIVE|233|M|28.71,67.85|N|Repair and sell your junk to Rybrad Coldbank or Grundel Harkin.|
 T Coldridge Valley Mail Delivery|QID|233|M|28.66,70.45;22.60,71.43|CS|N|To Talin Keeneye. Exit Anvilmar and follow the road west.|
 A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.60,71.43|N|From Talin Keeneye.|
 A The Boar Hunter|QID|183|M|22.60,71.43|N|From Talin Keeneye.|
-C The Boar Hunter|QID|183|M|22.0,72.0|S|N|Kill Small Crag Boar.|T|Small Crag Boar|
+K The Boar Hunter|ACTIVE|183|QO|1|M|22.00,72.00|N|Kill Small Crag Boar.\n[color=FF0000]NOTE: [/color]They are neutral until you attack them.|S|
 T Coldridge Valley Mail Delivery|QID|234|M|25.08,75.71|N|To Grelin Whitebeard.|
 A The Troll Cave|QID|182|M|25.08,75.71|N|From Grelin Whitebeard.|
-C The Troll Cave|QID|182|M|26.3,78.8|S|N|Kill Frostmane Troll Whelp|T|Frostmane Troll Whelp|
-C Felix's Box|QID|3361|M|20.88,76.07|QO|1|NC|N|Loot Felix's Box from the ground in front of the tent.|
-C Felix's Chest|QID|3361|M|22.78,80.00|QO|2|NC|N|Loot Felix's Chest from the ground in front of the tent.|
-C Felix's Bucket of Bolts|QID|3361|M|26.33,79.28|QO|3|NC|N|Loot Felix's Bucket of Bolts from the ground outside the cave.|
-C The Troll Cave|QID|182|US|M|26.3,78.8|N|Kill Frostmane Troll Whelp|T|Frostmane Troll Whelp|
+K The Troll Cave|ACTIVE|182|QO|1|M|26.30,78.80|N|Kill Frostmane Troll Whelp.|T|Frostmane Troll Whelp|S|
+C Felix's Box|QID|3361|M|20.88,76.07|L|10438|N|Loot Felix's Box from the ground in front of the tent.|
+C Felix's Chest|QID|3361|M|22.78,80.00|L|16313|N|Loot Felix's Chest from the ground in front of the tent.|
+C Felix's Bucket of Bolts|QID|3361|M|26.33,79.28|L|16314|N|Loot Felix's Bucket of Bolts from the ground outside the cave.|
+K The Troll Cave|ACTIVE|182|QO|1|M|26.30,78.80|N|Kill Frostmane Troll Whelp.|T|Frostmane Troll Whelp|US|
+C Beginnings|QID|1599|M|29.80,80.94|L|6753 3|ITEM|6753|N|Frostmane Novice.\n[color=FF0000]NOTE: [/color]Survivability is limited at this point; go slowly.|S|C|Warlock|
+L Level 4|ACTIVE|182|N|Grind until you're within 6.5 bubbles of level 4.|LVL|3;-450|
 T The Troll Cave|QID|182|M|25.08,75.71|N|To Grelin Whitebeard.|
 A The Stolen Journal|QID|218|PRE|182|M|25.08,75.71|N|From Grelin Whitebeard.|
 L Level 4|QID|3364|LVL|4|N|You need to be level 4 to continue with this guide.|
