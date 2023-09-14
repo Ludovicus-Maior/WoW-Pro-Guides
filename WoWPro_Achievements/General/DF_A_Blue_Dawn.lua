@@ -54,7 +54,7 @@ T Archival Arrival|QID|72938|M|39.46,63.04|Z|2024|N|To Kalecgos.|
 A Where in the World is a Lost Blue Dragon?|QID|72940|PRE|72938|M|39.46,63.04|Z|2024|N|From Kalecgos.|LEAD|73096|;choose first location
 A Pick a location to start|ACTIVE|72940|PRE|72938|M|39.48,63.03|Z|2024|N|From Dragon Locator(globe in front of Kalecgos).|
 
-A The Search for Blue Dragons|QID|73399|PRE|73096|M|39.46,63.04|Z|2024|N|From Kalecgos.|LEAD|73400|CCOUNT|1;74356;74335;74291;74783;73181|;To choose 2nd location  
+A The Search for Blue Dragons|QID|73399|PRE|73096|M|39.46,63.04|Z|2024|N|From Kalecgos.|LEAD|73400|CCOUNT|1;74356;74335;74291;74783;73181|;To choose 2nd location
 A Pick a location to do next|ACTIVE|73399|M|39.48,63.03|Z|2024|N|From Dragon Locator(globe in front of Kalecgos).|
 
 A Lost Blue Dragons|QID|73404|PRE|73400|M|39.46,63.05|Z|2024|N|From Kalecgos.|LEAD|73401|CCOUNT|2;74356;74335;74291;74783;73181|;3rd location
