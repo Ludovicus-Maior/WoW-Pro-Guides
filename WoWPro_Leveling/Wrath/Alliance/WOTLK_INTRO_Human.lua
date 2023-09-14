@@ -40,7 +40,7 @@ T Tainted Letter|QID|3105|M|49.97,42.65|N|To Drusilla La Salle outside on the ri
 = Level 2 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|Rogue,Warlock|
 
 K Investigate Echo Ridge|ACTIVE|15|QO|1|M|48.39,35.52|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
-C Brotherhood of Thieves|QID|18|QO|1|M|48.39,35.52|L|752 8|ITEM|752|N|Defias Thugs.|
+C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|L|752 8|ITEM|752|N|Defias Thugs.|
 L Level 4|ACTIVE|18|N|Grind until you're halfway to level 4.|LVL|3;-700|
 
 T Brotherhood of Thieves|QID|18|M|48.05,43.56|N|To Deputy Willem.|
