@@ -216,7 +216,7 @@ C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.09|Z|2022|QO|3|NC|N|
 T How to Use Momentum with Your Dragon|QID|65133|M|57.47,59.10|Z|2022|N|To Celormu.|
 A The Need For Higher Velocities|QID|77345|PRE|65133|M|57.65,66.88|Z|2022|N|From Lord Andestrasz.|
 C The Need For Higher Velocities|QID|77345|M|57.65,66.87|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896^368899^368901^360954|
-C The Need For Higher Velocities|QID|77345|M|57.43,60.03|Z|2022|QO|2|NC|N|Pass Through The Rings.  Use your Surge Forward Ability when prompted by the message on Screen. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|188169|
+C The Need For Higher Velocities|QID|77345|M|57.43,60.03|Z|2022|QO|2|NC|N|Pass Through The Rings.  Use your Surge Forward Ability when prompted by the message on Screen. Use provided Bronze timepiece to return to start if you fail, then mount up and try again.|U|208182|
 C The Need For Higher Velocities|QID|77345|M|57.45,59.09|Z|2022|QO|3|NC|N|Land in the Target Area.|
 T The Need For Higher Velocities|QID|77345|M|57.47,59.10|Z|2022|N|To Celormu.|
 A The Skytop Observatory|QID|68796|PRE|77345|M|57.68,66.91|Z|2022|N|From Lord Andestrasz.|
