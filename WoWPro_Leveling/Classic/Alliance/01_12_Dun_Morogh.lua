@@ -7,24 +7,26 @@ local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', "Leveling", 'Dun Moro
 WoWPro:GuideName(guide, 'Dun Morogh 1-12')
 WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
-WoWPro:GuideSteps(guide, function() return [[
+WoWPro:GuideSteps(guide, function()
+return [[
 
 A Dwarven Outfitters|QID|179|M|29.92,71.21|N|From Sten Stoutarm|
-C Dwarven Outfitters|QID|179|M|29.80,74.30|QO|1|N|Kill Ragged Young Wolves to loot 8 Tough Wolf Meat.|T|Ragged Young Wolf|
-r Sell Junk|ACTIVE|179|M|30.06,71.52|N|Sell your junk to Adlin Pridedrift.|
-T Dwarven Outfitters|QID|179|M|29.92,71.21|N|To Sten Stoutarm|
-A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
+C Dwarven Outfitters|QID|179|M|29.80,74.30|L|750 8|ITEM|750|N|Ragged Young Wolves all around the area.|T|Ragged Young Wolf|
+T Dwarven Outfitters|QID|179|M|29.92,71.21|N|To Sten Stoutarm.|
 
 ; Quest name changes depending upon your class
-A Encrypted Rune|QID|3109|PRE|179|C|Rogue|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Etched Rune|QID|3108|PRE|179|C|Hunter|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Hallowed Rune|QID|3110|PRE|179|C|Priest|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Simple Rune|QID|3106|PRE|179|C|Warrior|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Consecrated Rune|QID|3107|PRE|179|C|Paladin|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Tainted Memorandum|QID|3115|PRE|179|C|Warlock|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
-A Glyphic Memorandum|QID|3114|PRE|179|C|Mage|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
-A Encrypted Memorandum|QID|3113|PRE|179|C|Rogue|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
-A Simple Memorandum|QID|3112|PRE|179|C|Warrior|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
+A Simple Rune|QID|3106|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Warrior|R|Dwarf|
+A Consecrated Rune|QID|3107|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Paladin|R|Dwarf|
+A Etched Rune|QID|3108|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Hunter|R|Dwarf|
+A Encrypted Rune|QID|3109|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Rogue|R|Dwarf|
+A Hallowed Rune|QID|3110|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Priest|R|Dwarf|
+A Simple Memorandum|QID|3112|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Warrior|R|Gnome|
+A Encrypted Memorandum|QID|3113|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Rogue|R|Gnome|
+A Glyphic Memorandum|QID|3114|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Mage|R|Gnome|
+A Tainted Memorandum|QID|3115|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|C|Warlock|R|Gnome|
+A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
+r Sell Junk|AVAILABLE|170|M|30.09,71.56|N|Sell your junk to Adlin Pridedrift.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+
 T Simple Rune|QID|3106|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|Warrior|R|Dwarf|
 T Consecrated Rune|QID|3107|M|28.83,68.33|N|To Bromos Grummner in Anvilmar.|C|Paladin|R|Dwarf|
 T Etched Rune|QID|3108|M|29.17,67.45|N|To Thorgas Grimson in Anvilmar.|C|Hunter|R|Dwarf|
@@ -34,7 +36,7 @@ T Simple Memorandum|QID|3112|M|28.83,67.24|N|To Thran Khorman in Anvilmar.|C|War
 T Encrypted Memorandum|QID|3113|M|28.37,67.51|N|To Solm Hargrin in Anvilmar.|C|Rogue|R|Dwarf|
 T Glyphic Memorandum|QID|3114|M|28.71,66.37|N|To Marryk Nurribit in Anvilmar.|C|Mage|R|Gnome|
 T Tainted Memorandum|QID|3115|M|28.65,66.14|N|To Alamar Grimm in Anvilmar.|C|Warlock|R|Gnome|
-= Level 2 Training|AVAILABLE|170|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
+= Level 2 Training|AVAILABLE|3361|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 ; -- Warlock Imp quest
 A Beginnings|QID|1599|M|28.65,66.14|N|From Alamar Grimm in Anvilmar.|C|Warlock|
 
@@ -45,7 +47,7 @@ L Level 3|AVAILABLE|3361|N|Grind until you're within 3.5 bubbles of level 3.|LVL
 T A New Threat|QID|170|M|29.71,71.25|N|To Balir Frosthammer|
 A A Refugee's Quandary|QID|3361|M|28.49,67.74|N|From Felix Whindlebolt|
 r Sell and Repair|ACTIVE|233|M|28.71,67.85|N|Repair and sell your junk to Rybrad Coldbank or Grundel Harkin.|
-T Coldridge Valley Mail Delivery|QID|233|M|28.66,70.45;22.60,71.43|CS|N|To Talin Keeneye. Exit Anvilmar and follow the road west.|
+T Coldridge Valley Mail Delivery|QID|233|M|28.66,70.45;22.60,71.43|CS|N|To Talin Keeneye.\n[color=FF0000]NOTE: [/color]Exit Anvilmar and follow the road west.|
 A Coldridge Valley Mail Delivery|QID|234|PRE|233|M|22.60,71.43|N|From Talin Keeneye.|
 A The Boar Hunter|QID|183|M|22.60,71.43|N|From Talin Keeneye.|
 K The Boar Hunter|ACTIVE|183|QO|1|M|22.00,72.00|N|Kill Small Crag Boar.\n[color=FF0000]NOTE: [/color]They are neutral until you attack them.|S|
