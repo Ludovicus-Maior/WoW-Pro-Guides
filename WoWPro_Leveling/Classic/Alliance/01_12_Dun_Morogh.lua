@@ -203,7 +203,8 @@ C Taming the Beast |QID|6085|M|51.5,44.5|N|Tame an Ice Claw Bear.\n[color=FF0000
 T Taming the Beast |QID|6085|M|45.81,53.04|N|To Grif Wildheart|C|Hunter|R|Dwarf|
 A Training the Beast|QID|6086|PRE|6085|M|45.81,53.04|N|From Grif Wildheart|C|Hunter|R|Dwarf|
 R Ironforge|ACTIVE|6086|M|15.59,85.32|Z|1455;Ironforge|N|Run to Ironforge.|TZ|City of Ironforge|C|Hunter|R|Dwarf|
-T Training the Beast|QID|6086|M|70.6,85.4|Z|1455;Ironforge|N|coords To Belia Thundergranite, in Ironforge|C|Hunter|R|Dwarf|
+T Training the Beast|QID|6086|M|70.86,85.81|Z|1455;Ironforge|N|To Belia Thundergranite, inside the Hall of Arms in the Military Ward.|C|Hunter|R|Dwarf|
+N Feeding|AVAILABLE|-6086&6661|N|Once you have tamed your pet, you'll need to use your 'Feed Pet' ability to feed it something to make it happier, or it will eventually run away and you'll have to tame another one.|C|Hunter|
 ; -- Mage
 A Speak with Bink|QID|1879|N|From Magis Sparkmantle.|C|Mage|R|Gnome|LVL|10|
 = Level 10 Training|ACTIVE|1879|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|R|Gnome|LVL|10|IZ|Kharanos|
@@ -240,79 +241,103 @@ A Grey Iron Weapons|QID|1682|PRE|1681|M|48.65,42.49|Z|1455;Ironforge|N|From Torm
 T Grey Iron Weapons|QID|1682|M|48.65,42.49|Z|1455;Ironforge|N|To Tormus Deepforge.|C|Warrior|R|Dwarf,Gnome|
 
 = Professions|AVAILABLE|6661|M|PLAYER|CC|N|If you haven't done so yet, take this opportunity to learn your Professions and Secondary skills.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-f Ironforge|AVAILABLE|6661|M|55.51,47.72|Z|1455;Ironforge|N|Discover Ironforge Flightpoint with Gryth Thurden.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Ironforge|IZ|City of Ironforge|
+f Ironforge|AVAILABLE|6661|M|55.51,47.72|Z|1455;Ironforge|N|Discover Ironforge Flightpoint with Gryth Thurden.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|R|-Dwarf,-Gnome|TAXI|-Ironforge|IZ|City of Ironforge|
+R Deeprun Tram|AVAILABLE|6661|M|77.07,51.29|Z|1455;Ironforge|N|Head to the Deeprun Tram entrance in Tinkertown.|
+A Deeprun Rat Roundup|QID|6661|N|From Monty standing at the west end of the center platform.\n[color=FF0000]NOTE: [/color]Coordinates do not work inside Deeprun Tram.|
+C Deeprun Rat Roundup|QID|6661|N|Use Rat Catcher's Flute on Deeprun Rats, and catch five of them.|T|Deeprun Rat|U|17117|NC|
+T Deeprun Rat Roundup|QID|6661|N|To Monty.\n[color=FF0000]NOTE: [/color]Only one person can turn in a quest at a time.|
+A Me Brother, Nipsy |QID|6662|PRE|6661|N|From Monty.\n[color=FF0000]NOTE: [/color]Give it a few moments before you can accept the quest.|
+T Me Brother, Nipsy |QID|6662|N|To Nipsy at the Stormwind Tram Stop.\n[color=FF0000]NOTE: [/color]Either Tram will take you to the Stormwind end.|
+R Stormwind City|AVAILABLE|40|N|Leave Deeprun Tram for Stormwind City through the exit on the north side.|IZ|Deeprun Tram|
 
-R Deeprun Tram|QID|6661|N|Go to the Deeprun Tram|Z|Ironforge|M|76.50,51.10|
-A Deeprun Rat Roundup|QID|6661|N|Get this quest from Monty in the Tram.|
-C Deeprun Rat Roundup|QID|6661|U|17117|T|Deeprun Rat|N|Use the flute to catch five Deeprun Rats.|
-T Deeprun Rat Roundup|QID|6661|N|To Monty.|
-A Me Brother, Nipsy|N|Get the next quest from Monty.|QID|6662|PRE|6661|
-T Me Brother, Nipsy|N|Get on the tram and turn this quest in at the other end.|QID|6662|
-R Stormwind City|ACTIVE|1338|N|Exit the Tram to Stormwind City|
+; -- Warlock level 10 class quest cont.
+R The Slaughtered Lamb|ACTIVE|1715|M|31.7,60.0;29.03,74.31|CC|Z|Stormwind City|N|Make your way to the tavern in Mage Quarter.|C|Warlock|
+T The Slaughtered Lamb|QID|1715|M|39.6,84.6|Z|Stormwind City|N|coords To Gakin the Darkbinder in the basement. Follow the ramp down to get to the basement.|C|Warlock|
+A Surena Caledon|QID|1688|M|39.6,84.6|Z|Stormwind City|N|coords From Gakin the Darkbinder.|C|Warlock|
+N Wand|ACTIVE|1688|N|Having reached level 10, you can now use a Shadow Wand.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+B Shadow Wand|ACTIVE|1688|M|PLAYER|CC|L|5071|N|Check the AH to see if one is available.\n[color=FF0000]NOTE: [/color]If you don't have the money, or there isn't one available, you can skip this step and come back later.|C|Warlock|
 
-T The Slaughtered Lamb|QID|1715|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|Run to the Mage Quarter and down the stairs inside the bar.|
-A Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
-C Surena Caledon|QID|1688|C|Warlock|M|71.0,80.6|Z|Elwynn Forest|N|Surena can be found in a house in Elwynn Forest.|
-T Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
-A The Binding|QID|1689|PRE|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
-C The Binding|QID|1689|C|Warlock|N|The Summoning Circle is farther underneath the trainers.|
-T The Binding|QID|1689|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|Congrats! You now can use a Voidwalker.|
+f Stormwind|AVAILABLE|40|M|66.27,62.13|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Stormwind|
+R Elwynn Forest|AVAILABLE|40|M|32.03,49.18|Z|1429;Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
+R Goldshire|AVAILABLE|40|M|41.10,61.93|Z|1429;Elwynn Forest|N|Follow the road to Goldshire.|
+A A Fishy Peril|QID|40|M|42.14,67.25|Z|1429;Elwynn Forest|N|From Remy "Two Times".|
+r Sell and Repair|ACTIVE|40|M|41.71,65.79|Z|1429;Elwynn Forest|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|S|
+T A Fishy Peril|QID|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+A Further Concerns|QID|35|PRE|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+A The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+A Kobold Candles|QID|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|From William Pestle inside the Inn.|
+A Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429;Elwynn Forest|N|Remy "Two Times".|
 
-R Elwynn Forest|AVAILABLE|239|M|32.03,49.18|Z|Elwynn Forest|N|Make your way to the front gate.|
-R Goldshire|AVAILABLE|239|M|44.25,62.50|N|Follow the road down to Goldshire.|Z|Elwynn Forest|
+; -- Warlock level 10 class quest conclusion
+R Brackwell Pumpkin Patch|ACTIVE|1688|M|66.4,74.1;69.34,79.30|CC|Z|1429;Elwynn Forest|N|Exit Goldshire from the south and continue following the road east through Elwynn Forest.|
+K Surena Caledon|ACTIVE|1688|QO|1|M|71.02,80.76|Z|1429;Elwynn Forest|N|Surena is in the house on the east side of the field.\n[color=FF0000]NOTE: [/color]She is guarded by Erian Drudgemoor (lv 8) and Morgan the Collector (lv 10).\nMake sure you clear the mobs around the house before you start and focus on killing Surena.|T|Surena Caledon|C|Warlock|
+R Stormwind City|ACTIVE|1688|M|71.10,89.01|Z|Stormwind City|N|Make your way to Stormwind City.|C|Warlock|
+T Surena Caledon|QID|1688|M|25.25,78.58|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
+A The Binding|QID|1689|PRE|1688|M|25.25,78.58|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+K Summoned Voidwalker|ACTIVE|1689|QO|1|M|24.9,79.4;25.11,77.37|CC|Z|Stormwind City|N|Make you way to the Stormwind Summoning Circle and use the Bloodstone Choker to summon a Voidwalker to defeat.\n[color=FF0000]NOTE: [/color]The Summoning Circle is at the bottom of three sets of stairs.|U|6928|C|Warlock|
+T The Binding|QID|1689|M|25.25,78.58|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 
-A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|Z|Elwynn Forest|
-r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|Z|Elwynn Forest|
-T A Fishy Peril|QID|40|M|42.1,65.9|N|To Marshall Dughan.|Z|Elwynn Forest|
-A Further Concerns|QID|35|M|42.1,65.9|PRE|40|N|From Marshall Dughan.|Z|Elwynn Forest|
-T Further Concerns|QID|35|M|74.0,72.2|N|Head east along the road to Guard Thomas.|Z|Elwynn Forest|
-A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas.|Z|Elwynn Forest|
-A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas.|Z|Elwynn Forest|
-C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill any Prowlers and Young Forest Bears.|Z|Elwynn Forest|
-A A Bundle of Trouble|QID|5545|M|81.4,66.1|N|From Supervisor Raelen.|Z|Elwynn Forest|
-C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at the base of the trees.|NC|Z|Elwynn Forest|
-r Sell and Repair|QID|5545|S|M|83.3,66.1|ACTIVE|5545|N|Sell and Repair at Rallic Finn.|Z|Elwynn Forest|
-T A Bundle of Trouble|QID|5545|M|81.4,66.1|N|To Supervisor Raelen.|Z|Elwynn Forest|
-A Red Linen Goods|QID|83|M|79.46,68.79|N|From Sara Timberlain.|Z|Elwynn Forest|
-C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|Z|Elwynn Forest|
-C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|Z|Elwynn Forest|
-T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|Z|Elwynn Forest|
-N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|Z|Elwynn Forest|
-T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body".|Z|Elwynn Forest|
-A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body.|Z|Elwynn Forest|
-T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|Z|Elwynn Forest|
-A Report to Thomas|QID|71|PRE|45|M|79.8,55.5|N|From Rolf's corpse.|Z|Elwynn Forest|
-C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears.|Z|Elwynn Forest|
-T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas.|Z|Elwynn Forest|
-A Deliver Thomas' Report|QID|39|PRE|71|M|74.0,72.2|N|From Guard Thomas.|Z|Elwynn Forest|
-T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|Z|Elwynn Forest|
-A Report to Gryan Stoutmantle|QID|109|M|73.9,72.2|N|From Guard Thomas.|Z|Elwynn Forest|
+C Gold Dust Exchange|QID|47|M|41.04,79.78|Z|1429;Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold at Fargodeep Mine.|S|
+C Kobold Candles|QID|60|M|41.04,79.78|Z|1429;Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold at Fargodeep Mine.|S|
+R Fargodeep Mine|QID|62|QO|1|M|38.98,82.33|Z|1429;Elwynn Forest|N|Head to the Fargodeep Mine.|
+C Fargodeep Mine|QID|62|QO|1|M|38.98,82.33;39.63,80.30|CC|Z|1429;Elwynn Forest|N|Enter via the upper entrance and turn right to follow the rail tracks into the mine.|
+C Gold Dust Exchange|QID|47|M|41.04,79.78|Z|1429;Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold at Fargodeep Mine.\n[color=FF0000]NOTE: [/color]The left tunnel off the main room leads to more Kobolds.|US|
+C Kobold Candles|QID|60|M|41.04,79.78|Z|1429;Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold at Fargodeep Mine.\n[color=FF0000]NOTE: [/color]The left tunnel off the main room leads to more Kobolds.|US|
+R Goldshire|ACTIVE|47^60^62|M|41.58,69.46|Z|1429;Elwynn Forest|N|Return to Goldshire.|
+T Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429;Elwynn Forest|N|To Remy "Two Times".|
+T Kobold Candles|QID|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|To William Pestle.|
+A Shipment to Stormwind|QID|61|M|43.32,65.70|Z|1429;Elwynn Forest|N|From William Pestle.|
+T The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+A The Jasperlode Mine|QID|76|PRE|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+R Jasperlode Mine|QID|76|QO|1|M|58.72,56.28|Z|1429;Elwynn Forest|N|Head northward from Goldshire to the top of the mountain range and follow it east.\n[color=FF0000]NOTE: [/color]If you fall into Northshire Valley, you'll have a long run back to get back up.|
+C The Jasperlode Mine|QID|76|M|61.71,53.85;60.53,49.97|CC|Z|1429;Elwynn Forest|N|Enter the mine and go straight.\n[color=FF0000]NOTE: [/color]Do not turn down any side passages.|
+T Further Concerns|QID|35|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas at the bridge on the main road.\n[color=FF0000]NOTE: [/color]The run will get easier (less mobs) the sooner you get to the road.|
+A Find the Lost Guards|QID|37|PRE|35|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
+A Protect the Frontier|QID|52|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
+A Report to Gryan Stoutmantle|QID|109|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
+K Protect the Frontier|ACTIVE|52|QO|1;2|M|80.44,60.48|Z|1429;Elwynn Forest|N|Kill any Prowlers and Young Forest Bears.|S|
+A A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|1429;Elwynn Forest|N|From Supervisor Raelen in Eastvale Logging Camp.|
+C A Bundle of Trouble|QID|5545|M|80.44,60.48|Z|1429;Elwynn Forest|L|13872 8|N|Loot the Bundles of Wood, found at the base of the trees.|
+r Sell and Repair|ACTIVE|5545|M|83.29,66.09|Z|1429;Elwynn Forest|N|Sell and Repair at Rallic Finn.|S|
+T A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|1429;Elwynn Forest|N|To Supervisor Raelen.|
+A Red Linen Goods|QID|83|M|79.46,68.79|Z|1429;Elwynn Forest|N|From Sara Timberlain.|
+C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429;Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|
+T Red Linen Goods|QID|83|M|79.46,68.79|Z|1429;Elwynn Forest|N|To Sara Timberlain.|
+T Find the Lost Guards|QID|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|To "A half-eaten body".|
+A Discover Rolf's Fate|QID|45|PRE|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|From A half-eaten body.|
+T Discover Rolf's Fate|QID|45|M|79.80,55.52|Z|1429;Elwynn Forest|N|To Rolf's corpse after clearing the area.\n[color=FF0000]NOTE: [/color]Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
+A Report to Thomas|QID|71|PRE|45|M|79.80,55.52|Z|1429;Elwynn Forest|N|From Rolf's corpse.|
+K Protect the Frontier|ACTIVE|52|QO|1;2|M|80.44,60.48|Z|1429;Elwynn Forest|N|Kill any Prowlers and Young Forest Bears.|US|
+T Report to Thomas|QID|71|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas.|
+A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
+T Protect the Frontier|QID|52|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas.|
+R Goldshire|ACTIVE|39|M|44.25,62.50|Z|1429;Elwynn Forest|N|Follow the road west to Goldshire.|
+T The Jasperlode Mine|QID|76|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+T Deliver Thomas' Report|QID|39|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+A Cloth and Leather Armor|QID|59|PRE|39|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+A Elmore's Task|QID|1097|M|41.71,65.54|Z|1429;Elwynn Forest|N|From Smith Argus.|
+R Forest's Edge|ACTIVE|239|M|28.80,77.91|Z|1429;Elwynn Forest|N|Follow the road west out of Goldshire to the first bridge.|
+T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|coords To Deputy Rainer.|
+A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|coords From Deputy Rainer.|
+A Wanted:  "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429;Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Poster in Westbrook Garrison, the one on the road to the tower or the one in front of the tower.|
+l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite, a rare mob around Forest's Edge. is most likely to drop from the  who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|S!US|
+A The Collector|QID|123|M|PLAYER|N|Quest obtained from the Gold Pickup Schedule.|U|1307|O|
+K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|
+C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
+L Level 12|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 6 bubbles of level 12.|LVL|11;-2610|
+L Level 12|ACTIVE|11&123|N|Grind until you're within 4 bubbles of level 12.|LVL|11;-1610|
+T Riverpaw Gnoll Bounty|QID|11|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
+R Goldshire|ACTIVE|176^123|M|44.25,62.50|Z|1429;Elwynn Forest|N|Follow the road east to Goldshire.|
+T The Collector|QID|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+T Wanted:  "Hogger"|QID|176|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 
-R Goldshire|ACTIVE|39|M|44.25,62.50|N|Follow the road down to Goldshire.|Z|Elwynn Forest|
-T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan.|Z|Elwynn Forest|
-A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|N|From Marshall Dughan.|Z|Elwynn Forest|
-A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|Z|Elwynn Forest|
-A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus.|Z|Elwynn Forest|
-
-T Westbrook Garrison Needs Help!|QID|239|M|24.3,74.8|N|To Deputy Rainer.|Z|Elwynn Forest|
-A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.3,74.8|N|From Deputy Rainer.|Z|Elwynn Forest|
-A Wanted:  "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|Z|Elwynn Forest|
-K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|T|Hogger|Z|Elwynn Forest|
-C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|Z|Elwynn Forest|
-L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|Z|Elwynn Forest|
-l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|Z|Elwynn Forest|
-A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule.|
-T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|Z|Elwynn Forest|
-
-T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan.|Z|Elwynn Forest|
-A Manhunt|QID|147|PRE|123|M|42.1,65.9|N|From Marshall Dughan.|Z|Elwynn Forest|
-T Wanted:  "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan.|Z|Elwynn Forest|
-
-N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, Bank and to sell and restock. Now is a good time to increase bagspace!|
-T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
-f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|Z|Ironforge|
-
-H Thunderbrew Distillery|C|Warlock|
+R Stormwind City|ACTIVE|61|M|74.63,93.25|Z|1453;Stormwind City|N|Take the northwest road out of Goldshire to Stormwind City.|
+N Housekeeping|ACTIVE|291|M|PLAYER|CC|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|S!US|IZ|Stormwind City^City of Ironforge|
+T Shipment to Stormwind|QID|61|M|63.16,74.41|Z|1453;Stormwind City|N|To Morgan Pestle inside Pestle's Apothecary.|
+T Elmore's Task|QID|1097|M|59.67,33.84|Z|1453;Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
+A Stormpike's Delivery|QID|353|PRE|1097|M|59.67,33.84|Z|1453;Stormwind City|N|From Grimand Elmore.|
 
 A Muren Stormpike|QID|1679|C|Warrior|R|Dwarf,Gnome|M|47.36,52.65|Z|Dun Morogh|N|From Granis Swiftaxe.|
 T Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike near the Warrior/Hunter trainers in Ironforge.|
