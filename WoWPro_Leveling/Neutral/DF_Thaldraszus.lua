@@ -73,7 +73,7 @@ C A Dryad's Work Is Never Done|QID|67094|M|51.23,71.16|Z|2112|QO|5|H|N|Click the
 C Orientation: Valdrakken|QID|72406|QO|2|M|46.92,78.70|Z|2112|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
 C A Dryad's Work Is Never Done|QID|67094|M|42.87,74.97|Z|2112|QO|2|H|N|Click the Hungry Otter Pup.|
 C Orientation: Valdrakken|QID|72406|QO|3|M|36.43,62.83|Z|2112|N|Open Dothenos' store to get quest update.|
-A A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|From Azley.|RANK|2| ;-- if you havent already done it. dont know that I want to actually add to the guide tho
+A A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|From Azley. This quest is only available if you have a crafting profession. Click this step of to continue if you don't. |RANK|2| ;-- if you havent already done it. dont know that I want to actually add to the guide tho
 C A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|CHAT|N|Ask Azley about crafting orders.|
 T A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|To Azley.|
 C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger. Don't leave the area until you get quest update.|
@@ -81,9 +81,9 @@ A Lost to the Skies|QID|71239|M|25.17,66.27|Z|2112|N|From Gimla Fizzlecrank.|RAN
 C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|H|N|Click the Hungry Hatchling, it is above the bank, not in it.|
 C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank. Don't leave the area until you get quest update.|
 C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet. Don't leave the area until you get quest update.|
-A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa. Note: this quest isn't offered if you already have all her items. CLick the step off to continue.|DFREN|valdrakken;2510;7|RANK|2|IZ|2112|
+A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa. Note: this quest isn't offered if you already have all her items. Click the step off to continue.|DFREN|valdrakken;2510;7|RANK|2|IZ|2112|
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
-h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris.|
+h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris (or Marinth).|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|LVL|70|IZ|2112|
 C Orientation: Valdrakken|QID|72406|QO|1|M|36.58,50.59|Z|2112|H||N|Click on Provisioner Thom.|
 C Nowhere to Hide|QID|66163|M|37.92,70.80|Z|2112|QO|2|U|198859|N|If you should lose the buff that allows you to see them, reclick the gem and finish killing the primalist Infiltrators.|US|
