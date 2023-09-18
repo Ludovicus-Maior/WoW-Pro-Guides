@@ -264,9 +264,9 @@ A A Fishy Peril|QID|40|M|42.14,67.25|Z|1429;Elwynn Forest|N|From Remy "Two Times
 r Sell and Repair|ACTIVE|40|M|41.71,65.79|Z|1429;Elwynn Forest|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|S|
 T A Fishy Peril|QID|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 A Further Concerns|QID|35|PRE|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
-A The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
-A Kobold Candles|QID|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|From William Pestle inside the Inn.|
-A Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429;Elwynn Forest|N|Remy "Two Times".|
+;A The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+;A Kobold Candles|QID|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|From William Pestle inside the Inn.|
+;A Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429;Elwynn Forest|N|Remy "Two Times".|
 
 ; -- Warlock level 10 class quest conclusion
 R Brackwell Pumpkin Patch|ACTIVE|1688|M|66.4,74.1;69.34,79.30|CC|Z|1429;Elwynn Forest|N|Exit Goldshire from the south and continue following the road east through Elwynn Forest.|
@@ -277,21 +277,22 @@ A The Binding|QID|1689|PRE|1688|M|25.25,78.58|Z|Stormwind City|N|From Gakin the 
 K Summoned Voidwalker|ACTIVE|1689|QO|1|M|24.9,79.4;25.11,77.37|CC|Z|Stormwind City|N|Make you way to the Stormwind Summoning Circle and use the Bloodstone Choker to summon a Voidwalker to defeat.\n[color=FF0000]NOTE: [/color]The Summoning Circle is at the bottom of three sets of stairs.|U|6928|C|Warlock|
 T The Binding|QID|1689|M|25.25,78.58|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 
-C Gold Dust Exchange|QID|47|M|41.04,79.78|Z|1429;Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold at Fargodeep Mine.|S|
-C Kobold Candles|QID|60|M|41.04,79.78|Z|1429;Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold at Fargodeep Mine.|S|
-R Fargodeep Mine|QID|62|QO|1|M|38.98,82.33|Z|1429;Elwynn Forest|N|Head to the Fargodeep Mine.|
-C Fargodeep Mine|QID|62|QO|1|M|38.98,82.33;39.63,80.30|CC|Z|1429;Elwynn Forest|N|Enter via the upper entrance and turn right to follow the rail tracks into the mine.|
-C Gold Dust Exchange|QID|47|M|41.04,79.78|Z|1429;Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold at Fargodeep Mine.\n[color=FF0000]NOTE: [/color]The left tunnel off the main room leads to more Kobolds.|US|
-C Kobold Candles|QID|60|M|41.04,79.78|Z|1429;Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold at Fargodeep Mine.\n[color=FF0000]NOTE: [/color]The left tunnel off the main room leads to more Kobolds.|US|
-R Goldshire|ACTIVE|47^60^62|M|41.58,69.46|Z|1429;Elwynn Forest|N|Return to Goldshire.|
-T Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429;Elwynn Forest|N|To Remy "Two Times".|
-T Kobold Candles|QID|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|To William Pestle.|
-A Shipment to Stormwind|QID|61|PRE|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|From William Pestle.|
-T The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
-A The Jasperlode Mine|QID|76|PRE|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
-R Jasperlode Mine|QID|76|QO|1|M|58.72,56.28|Z|1429;Elwynn Forest|N|Head northward from Goldshire to the top of the mountain range and follow it east.\n[color=FF0000]NOTE: [/color]If you fall into Northshire Valley, you'll have a long run back to get back up.|
-C The Jasperlode Mine|QID|76|M|61.71,53.85;60.53,49.97|CC|Z|1429;Elwynn Forest|N|Enter the mine and go straight.\n[color=FF0000]NOTE: [/color]Do not turn down any side passages.|
-T Further Concerns|QID|35|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas at the bridge on the main road.\n[color=FF0000]NOTE: [/color]The run will get easier (less mobs) the sooner you get to the road.|
+;C Gold Dust Exchange|QID|47|M|41.04,79.78|Z|1429;Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold at Fargodeep Mine.|S|
+;C Kobold Candles|QID|60|M|41.04,79.78|Z|1429;Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold at Fargodeep Mine.|S|
+;R Fargodeep Mine|QID|62|QO|1|M|38.98,82.33|Z|1429;Elwynn Forest|N|Head to the Fargodeep Mine.|
+;C Fargodeep Mine|QID|62|QO|1|M|38.98,82.33;39.63,80.30|CC|Z|1429;Elwynn Forest|N|Enter via the upper entrance and turn right to follow the rail tracks into the mine.|
+;C Gold Dust Exchange|QID|47|M|41.04,79.78|Z|1429;Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold at Fargodeep Mine.\n[color=FF0000]NOTE: [/color]The left tunnel off the main room leads to more Kobolds.|US|
+;C Kobold Candles|QID|60|M|41.04,79.78|Z|1429;Elwynn Forest|L|772 8|ITEM|772|N|Any Kobold at Fargodeep Mine.\n[color=FF0000]NOTE: [/color]The left tunnel off the main room leads to more Kobolds.|US|
+;R Goldshire|ACTIVE|47^60^62|M|41.58,69.46|Z|1429;Elwynn Forest|N|Return to Goldshire.|
+;T Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429;Elwynn Forest|N|To Remy "Two Times".|
+;T Kobold Candles|QID|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|To William Pestle.|
+;A Shipment to Stormwind|QID|61|PRE|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|From William Pestle.|
+;T The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+;A The Jasperlode Mine|QID|76|PRE|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+;R Jasperlode Mine|QID|76|QO|1|M|58.72,56.28|Z|1429;Elwynn Forest|N|Head northward from Goldshire to the top of the mountain range and follow it east.\n[color=FF0000]NOTE: [/color]If you fall into Northshire Valley, you'll have a long run back to get back up.|
+;C The Jasperlode Mine|QID|76|M|61.71,53.85;60.53,49.97|CC|Z|1429;Elwynn Forest|N|Enter the mine and go straight.\n[color=FF0000]NOTE: [/color]Do not turn down any side passages.|
+;T Further Concerns|QID|35|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas at the bridge on the main road.\n[color=FF0000]NOTE: [/color]The run will get easier (less mobs) the sooner you get to the road.|
+T Further Concerns|QID|35|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas at the bridge east of Goldshire.|
 A Find the Lost Guards|QID|37|PRE|35|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
 A Protect the Frontier|QID|52|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
 A Report to Gryan Stoutmantle|QID|109|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
@@ -307,33 +308,33 @@ T Find the Lost Guards|QID|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|To "A half-ea
 A Discover Rolf's Fate|QID|45|PRE|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|From A half-eaten body.|
 T Discover Rolf's Fate|QID|45|M|79.80,55.52|Z|1429;Elwynn Forest|N|To Rolf's corpse after clearing the area.\n[color=FF0000]NOTE: [/color]Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
 A Report to Thomas|QID|71|PRE|45|M|79.80,55.52|Z|1429;Elwynn Forest|N|From Rolf's corpse.|
-K Protect the Frontier|ACTIVE|52|QO|1;2|M|80.44,60.48|Z|1429;Elwynn Forest|N|Kill any Prowlers and Young Forest Bears.|US|
+K Protect the Frontier|ACTIVE|52|QO|1;2|M|87.71,66.44|Z|1429;Elwynn Forest|N|Kill any Prowlers and Young Forest Bears.|US|
 T Report to Thomas|QID|71|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas.|
 A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
 T Protect the Frontier|QID|52|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas.|
 R Goldshire|ACTIVE|39|M|44.25,62.50|Z|1429;Elwynn Forest|N|Follow the road west to Goldshire.|
-T The Jasperlode Mine|QID|76|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+;T The Jasperlode Mine|QID|76|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 T Deliver Thomas' Report|QID|39|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
-A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+;A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 A Cloth and Leather Armor|QID|59|PRE|39|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
-A Elmore's Task|QID|1097|M|41.71,65.54|Z|1429;Elwynn Forest|N|From Smith Argus.|
+A Elmore's Task|QID|1097|LEAD|353|M|41.71,65.54|Z|1429;Elwynn Forest|N|From Smith Argus.|
 R Forest's Edge|ACTIVE|239|M|28.80,77.91|Z|1429;Elwynn Forest|N|Follow the road west out of Goldshire to the first bridge.|
-T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|coords To Deputy Rainer.|
-A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|coords From Deputy Rainer.|
+;T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|coords To Deputy Rainer.|
+;A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|coords From Deputy Rainer.|
 A Wanted:  "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429;Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Poster in Westbrook Garrison, the one on the road to the tower or the one in front of the tower.|
 l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite, a rare mob around Forest's Edge. is most likely to drop from the  who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|S!US|
 A The Collector|QID|123|M|PLAYER|N|Quest obtained from the Gold Pickup Schedule.|U|1307|O|
-K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|
-C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
-L Level 12|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 6 bubbles of level 12.|LVL|11;-2610|
-L Level 12|ACTIVE|11&123|N|Grind until you're within 4 bubbles of level 12.|LVL|11;-1610|
-T Riverpaw Gnoll Bounty|QID|11|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
+K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|
+;C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
+;L Level 12|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 6 bubbles of level 12.|LVL|11;-2610|
+;L Level 12|ACTIVE|11&123|N|Grind until you're within 4 bubbles of level 12.|LVL|11;-1610|
+;T Riverpaw Gnoll Bounty|QID|11|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
 R Goldshire|ACTIVE|176^123|M|44.25,62.50|Z|1429;Elwynn Forest|N|Follow the road east to Goldshire.|
 T The Collector|QID|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 T Wanted:  "Hogger"|QID|176|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 
-R Stormwind City|ACTIVE|61|M|74.63,93.25|Z|1453;Stormwind City|N|Take the northwest road out of Goldshire to Stormwind City.|
+R Stormwind City|ACTIVE|61^1097|M|74.63,93.25|Z|1453;Stormwind City|N|Take the northwest road out of Goldshire to Stormwind City.|
 N Housekeeping|ACTIVE|291|M|PLAYER|CC|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|S!US|IZ|Stormwind City^City of Ironforge|
 T Shipment to Stormwind|QID|61|M|63.16,74.41|Z|1453;Stormwind City|N|To Morgan Pestle inside Pestle's Apothecary.|
 T Elmore's Task|QID|1097|M|59.67,33.84|Z|1453;Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
