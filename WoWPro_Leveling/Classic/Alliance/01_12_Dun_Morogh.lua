@@ -352,59 +352,5 @@ R Ironforge|ACTIVE|291|M|16.24,84.52|Z|1455;Ironforge|N|Make your way up the roa
 f Ironforge|ACTIVE|291|M|55.51,47.72|Z|1455;Ironforge|N|Discover Ironforge Flightpoint with Gryth Thurden|TAXI|-Ironforge|
 T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|1455;Ironforge|N|To Senator Barin Redstone, in The High Seat|
 = Level 12 Training|AVAILABLE|314|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|City of Ironforge|
-
-; -- Paladin Lv 12 Class quest cont.
-A The Tome of Divinity|QID|1645|AVAILABLE|3000|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge in the Mystic Ward (on the upper deck).|C|Paladin|
-A The Tome of Divinity|QID|1646|AVAILABLE|3000|M|PLAYER|CC|N|Use the book you were just given to start the quest.|U|6916|C|Paladin|O|
-T The Tome of Divinity|QID|1646|M|27.64,12.17|Z|1455;Ironforge|N|To Tiza Battleforge in the Mystic Ward.|C|Paladin|
-A The Tome of Divinity|QID|1647|PRE|1646|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge.|C|Paladin|
-T The Tome of Divinity|QID|1647|M|21.40,53.40;42.60,84.20|CC|Z|1455;Ironforge|N|To John Turner pathing between the two waypoints.|C|Paladin|
-A The Tome of Divinity|QID|1648|PRE|1647|M|PLAYER|CC|Z|1455;Ironforge|N|From John Turner.|C|Paladin|
-C Linen Cloth|QID|1648|M|PLAYER|CC|Z|1455;Ironforge|L|2589 10|N|Beg, borrow, or steal the Linen Cloth.|C|Paladin|
-T The Tome of Divinity|QID|1648|M|21.40,53.40;42.60,84.20|CC|Z|1455;Ironforge|N|To John Turner pathing between the two waypoints.|C|Paladin|
-A The Tome of Divinity|QID|1778|PRE|1648|M|PLAYER|CC|Z|1455;Ironforge|N|From John Turner.|C|Paladin|
-T The Tome of Divinity|QID|1778|M|27.64,12.17|Z|1455;Ironforge|N|To Tiza Battleforge in the Mystic Ward.|C|Paladin|
-A The Tome of Divinity|QID|1779|PRE|1778|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge.|C|Paladin|
-T The Tome of Divinity|QID|1779|M|23.54,8.31|Z|1455;Ironforge|N|To Muiredon Battleforge just behind you.|C|Paladin|
-A The Tome of Divinity|QID|1783|PRE|1779|M|23.54,8.31|Z|1455;Ironforge|N|From Muiredon Battleforge.|C|Paladin|
-
-R Amberstill Ranch|QID|314|M|62.6,53.4|N|Exit Ironforge and head east to Amberstill ranch.\n[color=FF0000]NOTE: [/color]You don't have to use the road to get down; you can walk down the mountainside if you do it right.|
-A Protecting the Herd|QID|314|M|63.08,49.86|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Rudra Amberstill by the house.|
-R Up the hill|QID|314|M|62.27,50.25;62.27,49.00;62.12,47.12|CC|N|Vagash is in a cave atop the hill.\n[color=FF0000]NOTE: [/color]Depending on your angle of approach, you may have to wiggle to get the right 'path' up.|
-K Vagash|ACTIVE|314|M|62.22,46.90|L|3627|ITEM|3627|N|Vagash|
-T Protecting the Herd|QID|314|M|63.08,49.86|N|To Rudra Amberstill.\n[color=FF0000]NOTE: [/color]Go back down the way you came up.|
-R Gol'Bolar Quarry|QID|432|M|67.43,54.21|N|Locate the dirt path leading south into the Quarry from the road.\n[color=FF0000]NOTE: [/color]There is a signpost on the road pointing to it.|
-A The Public Servant|QID|433|M|68.67,55.97|N|From Senator Mehr Stonehallow|
-A Those Blasted Troggs!|QID|432|M|69.08,56.32|N|From Foreman Stonebrow|
-K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|N|Kill Rockjaw Skullthumpers, found both inside and outside area of the quarry.|S|
-K The Public Servant|ACTIVE|433|QO|1|M|70.98,54.54|N|Kill the Rockjaw Bonesnappers, inside the Gol'Bolar Quarry Mine.\n[color=FF0000]NOTE: [/color]You may come across a couple around the front entrance.|
-K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|N|Kill Rockjaw Skullthumpers.\n[color=FF0000]NOTE: [/color]Leave the mine and only target the ones outside.|US|
-T The Public Servant|QID|433|M|68.67,55.97|N|To Senator Mehr Stonehallow.|
-r Sell and Repair|ACTIVE|432|M|68.86,55.96|N|Sell and Repair with Frast Dokner.|S|
-T Those Blasted Troggs!|QID|432|M|69.08,56.32|N|To Foreman Stonebrow.|
-
-; -- Paladin Lv 12 Class quest cont.
-R Helm's Bed Lake|ACTIVE|1783|QO|1|M|75.21,55.11|N|Exit Gol'Bolar Quarry and head east to Helm's Bed Lake.|
-U Symbol of Life|ACTIVE|1783|M|78.32,58.09|N|Use the 'single-use' symbol on Narm Faulk.\n[color=FF0000]NOTE: [/color]If, for any reason, you lose your Symbol of Life, you'll need to go back to Tiza Battleforge in Ironforge to get another one.|U|6866|C|Paladin|O|
-T The Tome of Divinity|QID|1783|M|78.32,58.09|N|To Narm Faulk.\n[color=FF0000]NOTE: [/color]Do not wait too long to do this or he'll 'despawn' and you'll have to resurrect him again with a new Symbol of Life.|C|Paladin|
-A The Tome of Divinity|QID|1784|PRE|1783|M|78.32,58.09|N|From Narm Faulk.|C|Paladin|
-C The Tome of Divinity|QID|1784|M|77.84,61.18|L|6847|ITEM|6847|N|Dark Iron Spy around Ironband's Compound|C|Paladin|
-H Thunderbrew Distillery|ACTIVE|1784|M|47.37,52.51|N|Hearth back to Kharanos, or run if your Hearth is on cooldown.|TZ|City of Ironforge|C|Paladin|
-R Ironforge|ACTIVE|1784|M|16.24,84.52|Z|1455;Ironforge|N|Make your way up the road to Ironforge.|TZ|City of Ironforge|
-T The Tome of Divinity|QID|1784|M|23.54,8.31|Z|1455;Ironforge|N|To Muiredon Battleforge inside the building in the Mystic Ward (on the second floor).|C|Paladin|
-A The Tome of Divinity|QID|1785|PRE|1784|M|23.54,8.31|Z|1455;Ironforge|N|From Muiredon Battleforge.|C|Paladin|
-T The Tome of Divinity|QID|1785|M|27.64,12.17|Z|1455;Ironforge|N|To Tiza Battleforge by the balcony.|C|Paladin|
-
-R North Gate Pass|QID|419|M|67.21,52.91;78.00,49.61;78.16,49.36|CS|N|Follow the road east until you come to a fork and take the northeastern road to North Gate Pass.|
-;A The Lost Pilot|QID|419|M|83.89,39.19|N|From Pilot Hammerfoot|
-;T The Lost Pilot|QID|419|M|79.7,36.2|N|Head northwest a bit until you come to a dirt path on the west side of the road. You should see A Dwarven Corpse on the ground. (79.7, 36.2)|
-;A A Pilot's Revenge|QID|417|PRE|419|M|79.7,36.2|N|From Dwarven Corpse|
-;C A Pilot's Revenge|QID|417|M|78.5,37.6|N|Kill and loot Mangeclaw|
-;T A Pilot's Revenge|QID|417|M|83.89,39.19|N|To Pilot Hammerfoot|
-
-;R South Gate Outpost|QID|413|M|78.2,49.6;84.2,51.3|CS|N|Head back through the tunnel to the fork and this time take the southeastern route until you come to South Gate Outpost (84.2, 51.3).|
-;T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
-;A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
-
 ]]
 end)
