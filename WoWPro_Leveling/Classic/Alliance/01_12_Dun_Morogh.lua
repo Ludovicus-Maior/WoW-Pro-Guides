@@ -316,18 +316,24 @@ R Goldshire|ACTIVE|39|M|44.25,62.50|Z|1429;Elwynn Forest|N|Follow the road west 
 ;T The Jasperlode Mine|QID|76|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 T Deliver Thomas' Report|QID|39|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 ;A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
-;A Cloth and Leather Armor|QID|59|PRE|39|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.| ; ** Not worth the effort of running back - Hendo72
+A Cloth and Leather Armor|QID|59|PRE|39|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 A Elmore's Task|QID|1097|LEAD|353|M|41.71,65.54|Z|1429;Elwynn Forest|N|From Smith Argus.|
-R Forest's Edge|ACTIVE|239|M|28.80,77.91|Z|1429;Elwynn Forest|N|Follow the road west out of Goldshire to the first bridge.|
-;T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|coords To Deputy Rainer.|
-;A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|coords From Deputy Rainer.|
+R The Stonefield Farm|AVAILABLE|88|M|34.53,79.11|Z|1429;Elwynn Forest|N|Follow the road west out of Goldshire to the second curve.|
+A Princess Must Die!|QID|88|M|34.66,84.48|Z|1429;Elwynn Forest|N|From Ma Stonefield.|
+R Brackwell Pumpkin Patch|ACTIVE|88|QO|1|M|69.74,78.87|Z|1429;Elwynn Forest|N|Head east to the field.|
+K Princess Must Die!|ACTIVE|88|M|69.70,79.69|L|1006|N|Kill and loot Princess for the Brass Collar.\n[color=FF0000]NOTE: [/color]She has a guard with her, but focus on looting her first.|T|Princess|
+R The Stonefield Farm|ACTIVE|88|M|35.48,86.15|Z|1429;Elwynn Forest|N|Return to the farm.|
+T Princess Must Die!|QID|88|M|34.66,84.48|Z|1429;Elwynn Forest|N|To Ma Stonefield.|
+R Forest's Edge|ACTIVE|176|QO|1|M|28.80,77.91|Z|1429;Elwynn Forest|N|Follow the road west to the first bridge.|
+;T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
+;A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|From Deputy Rainer.|
 A Wanted:  "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429;Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Poster in Westbrook Garrison, the one on the road to the tower or the one in front of the tower.|
 l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite, a rare mob around Forest's Edge. is most likely to drop from the  who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|S!US|IZ|Elwynn Forest|
 A The Collector|QID|123|M|PLAYER|N|Quest obtained from the Gold Pickup Schedule.|U|1307|O|
 K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|
 ;C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
-;L Level 12|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 6 bubbles of level 12.|LVL|11;-2610|
-;L Level 12|ACTIVE|11&123|N|Grind until you're within 4 bubbles of level 12.|LVL|11;-1610|
+L Level 12|ACTIVE|176^291|AVAILABLE|123|N|Grind until you're within 5 bubbles of level 12.|LVL|11;-2140|
+L Level 12|ACTIVE|176&123|N|Grind until you're within 5.5 bubbles of level 12.|LVL|11;-2350|
 ;T Riverpaw Gnoll Bounty|QID|11|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
 R Goldshire|ACTIVE|176^123|M|44.25,62.50|Z|1429;Elwynn Forest|N|Follow the road east to Goldshire.|
 T The Collector|QID|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
@@ -335,59 +341,70 @@ A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dug
 T Wanted:  "Hogger"|QID|176|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 
 R Stormwind City|ACTIVE|61^1097|M|70.98,89.00|Z|1453;Stormwind City|N|Take the northwest road out of Goldshire to Stormwind City.|
-N Housekeeping|ACTIVE|291|M|PLAYER|CC|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|S!US|IZ|Stormwind City^City of Ironforge|
+N Housekeeping|ACTIVE|291|M|PLAYER|CC|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|S!US|IZ|Stormwind City|
 ;T Shipment to Stormwind|QID|61|M|63.16,74.41|Z|1453;Stormwind City|N|To Morgan Pestle inside Pestle's Apothecary.|
 T Elmore's Task|QID|1097|M|51.76,12.08|Z|1453;Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
 A Stormpike's Delivery|QID|353|PRE|1097|M|59.67,33.84|Z|1453;Stormwind City|N|From Grimand Elmore.|
-F Ironforge|ACTIVE|291^1646|M|70.99,72.55|Z|1453;Stormwind City|N|Fly to Ironforge.|TZ|City of Ironforge|TAXI|Ironforge|
-H Thunderbrew Distillery|ACTIVE|291^1646|M|47.37,52.51|N|Hearth back to Dun Morogh, or use the Deeprun Tram if your Hearth is on cooldown.|TZ|Dun Morogh^City of Ironforge|TAXI|-Ironforge|
 
-A Muren Stormpike|QID|1679|C|Warrior|R|Dwarf,Gnome|M|47.36,52.65|Z|Dun Morogh|N|From Granis Swiftaxe.|
-T Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike near the Warrior/Hunter trainers in Ironforge.|
-A Vejrek|QID|1678|PRE|1679|C|Warrior|R|Dwarf,Gnome|M|70.77,90.28|Z|Ironforge|N|From Muren Stormpike.|
-C Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|M|27.70,57.70|N|Vejrek can be found up a path leading into the mountains inside a hut.|
-T Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike.|
-A Tormus Deepforge|QID|1680|PRE|1678|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|From Muren Stormpike.|
-T Tormus Deepforge|QID|1680|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|
-A Ironband's Compound|QID|1681|PRE|1680|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|
-C Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|M|77.90,62.20|N|The ore is located in a guarded lockbox in the basement of a building.|
-T Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|
-A Grey Iron Weapons|QID|1682|PRE|1681|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|
-T Grey Iron Weapons|QID|1682|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|
-; ---------- END OF LEVEL 10 CLASS TRAINING ------------
+F Ironforge|ACTIVE|291|M|66.28,62.13|Z|1453;Stormwind City|N|Fly to Ironforge.|TZ|City of Ironforge|TAXI|Ironforge|
+H Thunderbrew Distillery|ACTIVE|291|M|47.37,52.51|N|Hearth back to Dun Morogh, or use the Deeprun Tram if your Hearth is on cooldown.|TZ|Dun Morogh^City of Ironforge|TAXI|-Ironforge|
+R Ironforge|ACTIVE|291|M|16.24,84.52|Z|1455;Ironforge|N|Make your way up the road to Ironforge.|TZ|City of Ironforge|
+f Ironforge|ACTIVE|291|M|55.51,47.72|Z|1455;Ironforge|N|Discover Ironforge Flightpoint with Gryth Thurden|TAXI|-Ironforge|
+T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|1455;Ironforge|N|To Senator Barin Redstone, in The High Seat|
+= Level 12 Training|AVAILABLE|314|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|City of Ironforge|
 
-R Amberstill Ranch|QID|314|M|62.6,53.4|N|Head to Amberstill ranch, follow the road to the east .|
-A Protecting the Herd|QID|314|M|63.08,49.86|N|From Rudra Amberstill. Follow the path up the hill. This is an Elite quest (Level 11 Elite)|
+; -- Paladin Lv 12 Class quest cont.
+A The Tome of Divinity|QID|1645|AVAILABLE|3000|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge in the Mystic Ward (on the upper deck).|C|Paladin|
+A The Tome of Divinity|QID|1646|AVAILABLE|3000|M|PLAYER|CC|N|Use the book you were just given to start the quest.|U|6916|C|Paladin|O|
+T The Tome of Divinity|QID|1646|M|27.64,12.17|Z|1455;Ironforge|N|To Tiza Battleforge in the Mystic Ward.|C|Paladin|
+A The Tome of Divinity|QID|1647|PRE|1646|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge.|C|Paladin|
+T The Tome of Divinity|QID|1647|M|21.40,53.40;42.60,84.20|CC|Z|1455;Ironforge|N|To John Turner pathing between the two waypoints.|C|Paladin|
+A The Tome of Divinity|QID|1648|PRE|1647|M|PLAYER|CC|Z|1455;Ironforge|N|From John Turner.|C|Paladin|
+C Linen Cloth|QID|1648|M|PLAYER|CC|Z|1455;Ironforge|L|2589 10|N|Beg, borrow, or steal the Linen Cloth.|C|Paladin|
+T The Tome of Divinity|QID|1648|M|21.40,53.40;42.60,84.20|CC|Z|1455;Ironforge|N|To John Turner pathing between the two waypoints.|C|Paladin|
+A The Tome of Divinity|QID|1778|PRE|1648|M|PLAYER|CC|Z|1455;Ironforge|N|From John Turner.|C|Paladin|
+T The Tome of Divinity|QID|1778|M|27.64,12.17|Z|1455;Ironforge|N|To Tiza Battleforge in the Mystic Ward.|C|Paladin|
+A The Tome of Divinity|QID|1779|PRE|1778|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge.|C|Paladin|
+T The Tome of Divinity|QID|1779|M|23.54,8.31|Z|1455;Ironforge|N|To Muiredon Battleforge just behind you.|C|Paladin|
+A The Tome of Divinity|QID|1783|PRE|1779|M|23.54,8.31|Z|1455;Ironforge|N|From Muiredon Battleforge.|C|Paladin|
 
-R Up the hill|QID|314|N|Vagash is up the hill|CC|M|61.75,52.0;60.6,53.0;59.6,52.4;59.35,50.85;60.9,47.3;62.0,47.2|
-C Protecting the Herd|QID|314|M|62.22,46.90|N|Kill and loot Vagash.|
-T Protecting the Herd|QID|314|M|63.08,49.86|N|To Rudra Amberstill|
-
-R Gol'Bolar Quarry|QID|432|M|67.2,53.5|N|Head east along the road until you find a dirt path leading south. (67.2, 53.5)|
+R Amberstill Ranch|QID|314|M|62.6,53.4|N|Exit Ironforge and head east to Amberstill ranch.\n[color=FF0000]NOTE: [/color]You don't have to use the road to get down; you can walk down the mountainside if you do it right.|
+A Protecting the Herd|QID|314|M|63.08,49.86|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Rudra Amberstill by the house.|
+R Up the hill|QID|314|M|62.27,50.25;62.27,49.00;62.12,47.12|CC|N|Vagash is in a cave atop the hill.\n[color=FF0000]NOTE: [/color]Depending on your angle of approach, you may have to wiggle to get the right 'path' up.|
+K Vagash|ACTIVE|314|M|62.22,46.90|L|3627|ITEM|3627|N|Vagash|
+T Protecting the Herd|QID|314|M|63.08,49.86|N|To Rudra Amberstill.\n[color=FF0000]NOTE: [/color]Go back down the way you came up.|
+R Gol'Bolar Quarry|QID|432|M|67.43,54.21|N|Locate the dirt path leading south into the Quarry from the road.\n[color=FF0000]NOTE: [/color]There is a signpost on the road pointing to it.|
 A The Public Servant|QID|433|M|68.67,55.97|N|From Senator Mehr Stonehallow|
 A Those Blasted Troggs!|QID|432|M|69.08,56.32|N|From Foreman Stonebrow|
-C Those Blasted Troggs!|QID|432|S|N|Kill Rockjaw Skullthumpers, found both inside and outside area of the quarry.|
-C The Public Servant|QID|433|M|70.75,56.3|N|Kill the Rockjaw Bonesnappers, inside the Gol'Bolar Quarry Mine|
-C Those Blasted Troggs!|QID|432|US|N|Kill Rockjaw Skullthumpers, leave the mine, and target those outside only.|
-L Level 11|QID|432|LVL|11;2800|N|Grind in this cave until 2800 exp into 11..|
+K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|N|Kill Rockjaw Skullthumpers, found both inside and outside area of the quarry.|S|
+K The Public Servant|ACTIVE|433|QO|1|M|70.98,54.54|N|Kill the Rockjaw Bonesnappers, inside the Gol'Bolar Quarry Mine.\n[color=FF0000]NOTE: [/color]You may come across a couple around the front entrance.|
+K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|N|Kill Rockjaw Skullthumpers.\n[color=FF0000]NOTE: [/color]Leave the mine and only target the ones outside.|US|
+T The Public Servant|QID|433|M|68.67,55.97|N|To Senator Mehr Stonehallow.|
+r Sell and Repair|ACTIVE|432|M|68.86,55.96|N|Sell and Repair with Frast Dokner.|S|
+T Those Blasted Troggs!|QID|432|M|69.08,56.32|N|To Foreman Stonebrow.|
 
-T The Public Servant|QID|433|M|68.67,55.97|N|To Senator Mehr Stonehallow|
-r Sell and Repair|QID|432|S|M|68.8,55.9|ACTIVE|432|N|Sell and Repair with Frast Dokner.|
-T Those Blasted Troggs!|QID|432|M|69.08,56.32|N|To Foreman Stonebrow|
+; -- Paladin Lv 12 Class quest cont.
+R Helm's Bed Lake|ACTIVE|1783|QO|1|M|75.21,55.11|N|Exit Gol'Bolar Quarry and head east to Helm's Bed Lake.|
+U Symbol of Life|ACTIVE|1783|M|78.32,58.09|N|Use the 'single-use' symbol on Narm Faulk.\n[color=FF0000]NOTE: [/color]If, for any reason, you lose your Symbol of Life, you'll need to go back to Tiza Battleforge in Ironforge to get another one.|U|6866|C|Paladin|O|
+T The Tome of Divinity|QID|1783|M|78.32,58.09|N|To Narm Faulk.\n[color=FF0000]NOTE: [/color]Do not wait too long to do this or he'll 'despawn' and you'll have to resurrect him again with a new Symbol of Life.|C|Paladin|
+A The Tome of Divinity|QID|1784|PRE|1783|M|78.32,58.09|N|From Narm Faulk.|C|Paladin|
+C The Tome of Divinity|QID|1784|M|77.84,61.18|L|6847|ITEM|6847|N|Dark Iron Spy around Ironband's Compound|C|Paladin|
+H Thunderbrew Distillery|ACTIVE|1784|M|47.37,52.51|N|Hearth back to Kharanos, or run if your Hearth is on cooldown.|TZ|City of Ironforge|C|Paladin|
+R Ironforge|ACTIVE|1784|M|16.24,84.52|Z|1455;Ironforge|N|Make your way up the road to Ironforge.|TZ|City of Ironforge|
+T The Tome of Divinity|QID|1784|M|23.54,8.31|Z|1455;Ironforge|N|To Muiredon Battleforge inside the building in the Mystic Ward (on the second floor).|C|Paladin|
+A The Tome of Divinity|QID|1785|PRE|1784|M|23.54,8.31|Z|1455;Ironforge|N|From Muiredon Battleforge.|C|Paladin|
+T The Tome of Divinity|QID|1785|M|27.64,12.17|Z|1455;Ironforge|N|To Tiza Battleforge by the balcony.|C|Paladin|
 
-R North Gate Pass|QID|419|M|67.8,55.1;78.00,49.61;83.0,40.4|CS|N|Follow the road east until you come to a fork. Take the Northeastern road and you'll soon come to North Gate Pass. |
-R North Gate Outpost|QID|419|M|83.0,40.4|N|Continue through the tunnel, and onto North Gate Outpost|
-A The Lost Pilot|QID|419|M|83.89,39.19|N|From Pilot Hammerfoot|
-T The Lost Pilot|QID|419|M|79.7,36.2|N|Head northwest a bit until you come to a dirt path on the west side of the road. You should see A Dwarven Corpse on the ground. (79.7, 36.2)|
-A A Pilot's Revenge|QID|417|PRE|419|M|79.7,36.2|N|From Dwarven Corpse|
-C A Pilot's Revenge|QID|417|M|78.5,37.6|N|Kill and loot Mangeclaw|
-T A Pilot's Revenge|QID|417|M|83.89,39.19|N|To Pilot Hammerfoot|
+R North Gate Pass|QID|419|M|67.21,52.91;78.00,49.61;78.16,49.36|CS|N|Follow the road east until you come to a fork and take the northeastern road to North Gate Pass.|
+;A The Lost Pilot|QID|419|M|83.89,39.19|N|From Pilot Hammerfoot|
+;T The Lost Pilot|QID|419|M|79.7,36.2|N|Head northwest a bit until you come to a dirt path on the west side of the road. You should see A Dwarven Corpse on the ground. (79.7, 36.2)|
+;A A Pilot's Revenge|QID|417|PRE|419|M|79.7,36.2|N|From Dwarven Corpse|
+;C A Pilot's Revenge|QID|417|M|78.5,37.6|N|Kill and loot Mangeclaw|
+;T A Pilot's Revenge|QID|417|M|83.89,39.19|N|To Pilot Hammerfoot|
 
-R South Gate Outpost|QID|413|M|78.2,49.6;84.2,51.3|CS|N|Head back through the tunnel to the fork and this time take the southeastern route until you come to South Gate Outpost (84.2, 51.3).|
-T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
-A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
-
-; -- This guide ends in Thelsamar, Loch Modan
+;R South Gate Outpost|QID|413|M|78.2,49.6;84.2,51.3|CS|N|Head back through the tunnel to the fork and this time take the southeastern route until you come to South Gate Outpost (84.2, 51.3).|
+;T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
+;A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
 
 ]]
 end)
