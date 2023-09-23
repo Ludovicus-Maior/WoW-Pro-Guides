@@ -54,19 +54,20 @@ T The Tome of Divinity|QID|1785|M|27.64,12.17|Z|1455;Ironforge|N|To Tiza Battlef
 R North Gate Pass|QID|419|M|67.21,52.91;78.00,49.61;78.16,49.36|CS|Z|1426;Dun Morogh|N|Follow the road east until you come to a fork and take the northeastern road to North Gate Pass.|
 R North Gate Outpost|QID|419|M|83.00,40.30|Z|1426;Dun Morogh|N|Continue through the tunnel to North Gate Outpost at the other end.|
 A The Lost Pilot|QID|419|M|83.89,39.19|Z|1426;Dun Morogh|N|From Pilot Hammerfoot|
-T The Lost Pilot|QID|419|M|79.7,36.2|Z|1426;Dun Morogh|N|Head northwest a bit until you come to a dirt path on the west side of the road. You should see A Dwarven Corpse on the ground. (79.7, 36.2)|
-A A Pilot's Revenge|QID|417|PRE|419|M|79.7,36.2|Z|1426;Dun Morogh|N|From Dwarven Corpse|
-C A Pilot's Revenge|QID|417|M|78.5,37.6|Z|1426;Dun Morogh|N|Kill and loot Mangeclaw|
+T The Lost Pilot|QID|419|M|79.68,36.17|Z|1426;Dun Morogh|N|To the Dwarven Corpse northwest of your current location.\n[color=FF0000]NOTE: [/color]There is no '?' over the body.|
+A A Pilot's Revenge|QID|417|PRE|419|M|79.68,36.17|Z|1426;Dun Morogh|N|From Dwarven Corpse.|
+C A Pilot's Revenge|QID|417|M|78.34,37.82|Z|1426;Dun Morogh|L|3183|N|Kill and loot Mangeclaw.|
 T A Pilot's Revenge|QID|417|M|83.89,39.19|Z|1426;Dun Morogh|N|To Pilot Hammerfoot|
+R South Gate Pass|ACTIVE|413|M|79.28,51.84|Z|1426;Dun Morogh|N|Go back through the tunnel to the fork and travel a short distance up the other road.|
+R South Gate Outpost|QID|413|M|82.28,53.43;84.33,51.16|CC|Z|1426;Dun Morogh|N|Continue up the hill and through the tunnel to South Gate Outpost.|
+T Shimmer Stout|QID|413|M|86.28,48.82|Z|1426;Dun Morogh|N|To Mountaineer Barleybrew|
+A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|Z|1426;Dun Morogh|N|From Mountaineer Barleybrew|
 
-R South Gate Outpost|QID|413|M|78.2,49.6;84.2,51.3|CS|N|Head back through the tunnel to the fork and this time take the southeastern route until you come to South Gate Outpost (84.2, 51.3).|
-T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
-A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
-R South Gate Pass|QID|414|ACTIVE|414|M|86.3,51.3|Z|Dun Morogh|N|Head to the South Gate Pass tunnel|
-R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel onto Loch Modan|
-A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bunker.|Z|Loch Modan|
-A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|Z|Loch Modan|
-C The Trogg Threat|QID|267|S|N|Loot the troggs until you get the items for this quest.|Z|Loch Modan|
+R South Gate Pass|QID|414|ACTIVE|414|M|16.44,58.49|N|Head to the South Gate Pass tunnel|
+R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|Loch Modan|N|Continue through the tunnel into Loch Modan.|
+A The Trogg Threat|QID|267|M|23.24,73.67|Z|Loch Modan|N|From Captain Ruglefuss, inside the Bunker.|
+A In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|Loch Modan|N|From Mountaineer Cobbleflint, outside, along the path.|
+C The Trogg Threat|QID|267|Z|Loch Modan|N|Loot the troggs until you get the items for this quest.|S|
 C In Defense of the King's Lands|QID|224|M|27.00,54.00|N|Kill Troggs and Scouts until you finish this quest.|Z|Loch Modan|
 C The Trogg Threat|QID|267|US|N|Continue killing the troggs until you get the items for this quest.|Z|Loch Modan|
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|To Mountaineer Cobbleflint, outside|Z|Loch Modan|
@@ -78,7 +79,7 @@ A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|N|From Mountaineer Kadrell p
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|From Vidra Hearthstove inside the inn.|
 r Sell junk and repair|QID|418|M|34.0,46.60|Z|Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
 f Thelsamar|ACTIVE|418|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|
-C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|
+C Thelsamar Blood Sausages|QID|418|M|35.00,35.00|Z|Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|S|
 C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
 R Algaz Station|ACTIVE|353|M|24.50,18.00|Z|Loch Modan|N|Continue along the road north to Algaz Station.|
 T Stormpike's Delivery|QID|353|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
@@ -149,7 +150,7 @@ R Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, 
 A The Forgotten Heirloom|QID|64|M|56.04,31.24|N|From Farmer Furlbrow.|Z|Westfall|
 A Westfall Stew |QID|36|M|59.92,19.41|N|From Verna Furlbrow.|Z|Westfall|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|N|From Verna Furlbrow.|Z|Westfall|
-C Poor Old Blanchy|ACTIVE|151|L|1528 8|N|From now on, loot any Sacks of Oats from the ground|S|Z|Westfall|
+C Poor Old Blanchy|ACTIVE|151|L|1528 8|N|From now on, loot any Sacks of Oats from the ground|S|
 R Saldean's Farm|AVAILABLE|9|ACTIVE|36|N|Run to Saldean's Farm.|Z|Westfall|
 A The Killing Fields|QID|9|M|56.04,31.23|N|From Farmer Saldean. Note, he is also a vendor.|Z|Westfall|
 T Westfall Stew |QID|36|M|56.41,30.52|N|To Salma Saldean.|Z|Westfall|
