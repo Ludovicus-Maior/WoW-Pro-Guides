@@ -103,21 +103,24 @@ C Gold Dust Exchange|QID|47|M|41.04,79.78|L|773 10|ITEM|773|N|Any Kobold in or a
 C Kobold Candles|QID|60|M|41.04,79.78|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|S|
 R The Stonefield Farm|AVAILABLE|85|M|34.53,79.11|Z|1429;Elwynn Forest|N|Follow the road west out of Goldshire to the second curve.|
 A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
+R The Maclure Vineyard|ACTIVE|85|M|39.89,85.86|Z|1429;Elwynn Forest|N|Head east past the Fargodeep Mine to the Vineyard on the other side.|
 T Lost Necklace|QID|85|M|43.14,85.72|N|To Billy Maclure.|
 A Pie for Billy|QID|86|PRE|85|M|43.14,85.72|N|From Billy Maclure|
 C Chunks of Boar Meat|QID|86|M|41.5,86.8|L|769 4|ITEM|769|N|Stonetusk Boars|T|Stonetusk Boar|US|
+L Level 6|ACTIVE|87|N|Grind until you're within 4 bubbles of level 6.|LVL|5;-550|
 T Pie for Billy|QID|86|M|34.49,84.25|N|To "Auntie" Bernice Stonefield|
 A Back to Billy|QID|84|PRE|86|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
 A Young Lovers|QID|106|M|43.15,89.62|N|From Maybell Maclure.|
 T Back to Billy|QID|84|M|43.14,85.72|N|To Billy Maclure.|
 A Goldtooth|QID|87|PRE|84|M|43.14,85.72|N|From Billy Maclure.|
+R Goldshire|ACTIVE|87|M|43.77,65.80|N|Run back to Goldshire.|
+= Level 6 Training|ACTIVE|87|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Goldshire|
 
 R Fargodeep Mine|ACTIVE|62|QO|1|M|38.98,82.33|Z|1429;Elwynn Forest|N|Head to the Fargodeep Mine.|
 R The Fargodeep Mine|ACTIVE|62|QO|1|M|40.45,82.31|Z|1429;Elwynn Forest|N|From either entrance (the lower entrance is more direct), walk into the mine until you reach the large cavern and go through the furthest left tunnel.|
 K Goldtooth|ACTIVE|87|M|41.69,77.94|L|981|N|Kill and loot Goldtooth.|
 C Gold Dust Exchange|QID|47|M|41.04,79.78|L|773 10|ITEM|773|N|Any Kobold in or around Fargodeep Mine.|US|
 C Kobold Candles|QID|60|M|41.04,79.78|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|US|
-L Level 6|ACTIVE|87|N|Grind until you're within 6 bubbles of level 6.|LVL|5;-875|
 T Goldtooth|QID|87|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
 A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|
 T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
@@ -125,28 +128,15 @@ A Speak with Gramma|QID|111|PRE|106|M|29.84,86.00|N|From Tommy Joe Stonefield.|
 T Speak with Gramma|QID|111|M|34.94,83.86|N|To Gramma Stonefield, inside the house.|
 A Note to William|QID|107|PRE|111|M|34.94,83.86|N|From Gramma Stonefield.|
 
-R Fargodeep Mine|QID|87|M|38.95,82.30|N|Head to the Fargodeep Mine. Entering the cave via the upper eastern entrance, at the multi-way cavern, take the left tunnel.|
-C Goldtooth|QID|87|M|41.60,78.80|N|Kill and loot Goldtooth. From the lower western entrance stick to the left. From the upper eastern entrance, turn right at entrance, then at multi-way cavern take the left tunnel.|
-
-C Gold Dust Exchange|QID|47|US|M|38.2,83.6|N|Finish killing and looting the Kobolds for the Gold Dust.|
-C Kobold Candles|QID|60|US|M|38.2,83.6|N|Finish killing and looting the Kobolds for the Large Candles.|
-
-T Goldtooth|QID|87|M|34.5,84.2|N|To "Auntie" Bernice Stonefield.|
-A Princess Must Die!|QID|88|M|34.6,84.5|LVL|6|N|From Ma Stonefield.|
-T Young Lovers|QID|106|M|29.8,86.0|N|To Tommy Joe Stonefield.|
-A Speak with Gramma|QID|111|M|29.8,86.0|PRE|106|N|From Tommy Joe Stonefield.|
-T Speak with Gramma|QID|111|M|34.9,83.9|N|To Gramma Stonefield, inside the house.|
-A Note to William|QID|107|M|34.9,83.9|PRE|111|N|From Gramma Stonefield.|
-
-R Goldshire|QID|62|M|43.8,65.8|N|Run back to Goldshire.|
-N Level 6 class skills |QID|47|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skills!|
-T Kobold Candles|QID|60|US|M|43.3,65.7|N|To William Pestle.|
-A Shipment to Stormwind|QID|61|PRE|60|M|43.3,65.7|N|From William Pestle.|
-T Note to William|QID|107|M|43.3,65.7|N|To William Pestle.|
-A Collecting Kelp|QID|112|M|43.3,65.7|PRE|107|N|From William Pestle.|
-T Gold Dust Exchange|QID|47|M|42.1,67.3|N|To Remy "Two Times", outside|
-A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|
-r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
+R Goldshire|QID|62|M|43.77,65.80|N|Run back to Goldshire.|LVL|6;-1250|S|
+L Level 7|ACTIVE|60|N|Grind until you're within 7 bubbles of level 7.|LVL|6;-1250|
+H Goldshire|QID|62|M|43.77,65.80|N|Use your hearth or run back to Goldshire (depending on how close you are).|
+T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|
+A Shipment to Stormwind|QID|61|PRE|60|M|43.32,65.70|N|From William Pestle.|
+T Note to William|QID|107|M|43.32,65.70|N|To William Pestle.|
+A Collecting Kelp|QID|112|PRE|107|M|43.32,65.70|N|From William Pestle.|
+T Gold Dust Exchange|QID|47|M|42.14,67.25|N|To Remy "Two Times", outside|
+A A Fishy Peril|QID|40|M|42.14,67.25|N|From Remy "Two Times".|LVL|7|
 
 T The Fargodeep Mine|QID|62|M|42.1,65.9|N|To Marshall Dughan.|
 A The Jasperlode Mine|QID|76|M|42.1,65.9|PRE|62|N|From Marshall Dughan.|
