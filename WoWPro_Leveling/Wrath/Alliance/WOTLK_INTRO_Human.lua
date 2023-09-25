@@ -90,6 +90,7 @@ A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
 T Lost Necklace|QID|85|M|43.14,85.72|N|To Billy Maclure.|
 A Pie for Billy|QID|86|PRE|85|M|43.14,85.72|N|From Billy Maclure|
 C Chunks of Boar Meat|QID|86|M|41.5,86.8|L|769 4|ITEM|769|N|Stonetusk Boars|T|Stonetusk Boar|US|
+L Level 6|ACTIVE|87|N|Grind until you're within 4 bubbles of level 6.|LVL|5;-550|
 T Pie for Billy|QID|86|M|34.49,84.25|N|To "Auntie" Bernice Stonefield|
 A Back to Billy|QID|84|PRE|86|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
 A Young Lovers|QID|106|M|43.15,89.62|N|From Maybell Maclure.|
@@ -101,7 +102,6 @@ R The Fargodeep Mine|ACTIVE|62|QO|1|M|40.45,82.31|Z|1429;Elwynn Forest|N|From ei
 K Goldtooth|ACTIVE|87|M|41.69,77.94|L|981|N|Kill and loot Goldtooth.|
 C Gold Dust Exchange|QID|47|M|41.04,79.78|L|773 10|ITEM|773|N|Any Kobold in or around Fargodeep Mine.|US|
 C Kobold Candles|QID|60|M|41.04,79.78|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|US|
-L Level 6|ACTIVE|87|N|Grind until you're within 6 bubbles of level 6.|LVL|5;-875|
 T Goldtooth|QID|87|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
 A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|
 T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
@@ -111,8 +111,8 @@ A Note to William|QID|107|PRE|111|M|34.94,83.86|N|From Gramma Stonefield.|
 
 R Goldshire|QID|62|M|43.77,65.80|N|Run back to Goldshire.|LVL|6;-1250|S|
 L Level 7|ACTIVE|60|N|Grind until you're within 7 bubbles of level 7.|LVL|6;-1250|
-R Goldshire|QID|62|M|43.77,65.80|N|Run back to Goldshire.|US|
-T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|US|
+H Goldshire|QID|62|M|43.77,65.80|N|Use your hearth or run back to Goldshire (depending on how close you are).|
+T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|
 A Shipment to Stormwind|QID|61|PRE|60|M|43.32,65.70|N|From William Pestle.|
 T Note to William|QID|107|M|43.32,65.70|N|To William Pestle.|
 A Collecting Kelp|QID|112|PRE|107|M|43.32,65.70|N|From William Pestle.|

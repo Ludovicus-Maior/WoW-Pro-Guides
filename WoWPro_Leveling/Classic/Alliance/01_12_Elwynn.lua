@@ -10,191 +10,174 @@ WoWPro:GuideNextGuide(guide, 'ClassicEasternKingdom1220')
 WoWPro:GuideSteps(guide, function() return [[
 
 A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem.|
-T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey.|
-
-A Kobold Camp Cleanup|PRE|783|QID|7|M|48.9,41.6|N|From Marshal McBride|
-C Kobold Camp Cleanup|QID|7|QO|1|M|47.5,36.1|N|Kill 10 Kobold 'Vermin'. The 'Workers' don't count.|T|Kobold Vermin|S|
-A Eagan Peltskinner|PRE|783|QID|5261|M|48.15,42.95|N|From Deputy Willem.|
-T Eagan Peltskinner|QID|5261|M|48.9,40.2|N|To Eagan Peltskinner around back of the Abbey.|
-
-A Wolves Across the Border|PRE|5261|QID|33|M|48.9,40.2|N|From Eagan Peltskinner.|
-C Wolves Across the Border|QID|33|QO|1|M|47.0,39.7|N|Kill Wolves until you've looted 8 Tough Wolf Meat.|
-C Kobold Camp Cleanup|QID|7|QO|1|M|47.5,36.1|N|Kill 10 Kobold 'Vermin'. The 'Workers' don't count.|T|Kobold Vermin|US|
-T Wolves Across the Border|QID|33|M|48.9,40.2|N|To Eagan Peltskinner.|
+T A Threat Within|QID|783|M|48.92,41.61|N|To Marshal McBride, inside the Abbey.|
+A Kobold Camp Cleanup|QID|7|PRE|783|M|48.92,41.61|N|From Marshal McBride|
+K Kobold Camp Cleanup|ACTIVE|7|QO|1|M|47.5,36.1|N|Kill 10 Kobold 'Vermin'.\n[color=FF0000]NOTE: [/color]The 'Workers' don't count.|T|Kobold Vermin|S|
+A Eagan Peltskinner|QID|5261|PRE|783|M|48.15,42.95|N|From Deputy Willem.|
+T Eagan Peltskinner|QID|5261|M|48.94,40.17|N|To Eagan Peltskinner around back of the Abbey.|
+A Wolves Across the Border|QID|33|PRE|5261|M|48.94,40.17|N|From Eagan Peltskinner.|
+C Wolves Across the Border|QID|33|M|46.89,39.05|L|750 8|ITEM|750|N|Diseased Young Wolves.|
+K Kobold Camp Cleanup|ACTIVE|7|QO|1|M|47.5,36.1|N|Kill 10 Kobold 'Vermin'.\n[color=FF0000]NOTE: [/color]The 'Workers' don't count.|T|Kobold Vermin|US|
+T Wolves Across the Border|QID|33|M|48.94,40.17|N|To Eagan Peltskinner.|
 r Sell Junk and Repair|ACTIVE|7|M|47.69,41.42|N|Take this opportunity to sell any junk you may have accumulated with Godric Rothgar.|
 T Kobold Camp Cleanup|QID|7|M|48.92,41.61|N|To Marshal McBride.|
 
 ; This quest changes depending upon your class.
-A Simple Letter|PRE|7|QID|3100|C|Warrior|R|Human|M|48.92,41.61|N|From Marshal McBride.|
-A Consecrated Letter|PRE|7|QID|3101|C|Paladin|R|Human|M|48.92,41.61|N|From Marshal McBride.|
-A Encrypted Letter|PRE|7|QID|3102|C|Rogue|R|Human|M|48.92,41.61|N|From Marshal McBride.|
-A Hallowed Letter|PRE|7|QID|3103|C|Priest|R|Human|M|48.92,41.61|N|From Marshal McBride.|
-A Glyphic Letter|PRE|7|QID|3104|C|Mage|R|Human|M|48.92,41.61|N|From Marshal McBride.|
-A Tainted Letter|PRE|7|QID|3105|C|Warlock|R|Human|M|48.92,41.61|N|From Marshal McBride.|
+A Simple Letter|QID|3100|PRE|7|M|48.92,41.61|N|From Marshal McBride.|C|Warrior|R|Human|
+A Consecrated Letter|QID|3101|PRE|7|M|48.92,41.61|N|From Marshal McBride.|C|Paladin|R|Human|
+A Encrypted Letter|QID|3102|PRE|7|M|48.92,41.61|N|From Marshal McBride.|C|Rogue|R|Human|
+A Hallowed Letter|QID|3103|PRE|7|M|48.92,41.61|N|From Marshal McBride.|C|Priest|R|Human|
+A Glyphic Letter|QID|3104|PRE|7|M|48.92,41.61|N|From Marshal McBride.|C|Mage|R|Human|
+A Tainted Letter|QID|3105|PRE|7|M|48.92,41.61|N|From Marshal McBride.|C|Warlock|R|Human|
 
-A Investigate Echo Ridge|PRE|7|QID|15|M|48.92,41.61|N|From Marshal McBride.|
-C Investigate Echo Ridge|QID|15|M|51.2,37.4|QO|1|N|Kill The Kobold Workers.\nThe Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|S|
+A Investigate Echo Ridge|QID|15|PRE|7|M|48.92,41.61|N|From Marshal McBride.|
+K Investigate Echo Ridge|ACTIVE|15|QO|1|M|48.39,35.52|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|S|
 
-T Simple Letter|QID|3100|M|50.24,42.28|N|To Llane Beshere in the Hall of Arms.\nGrab your lv 2 spell/skill while you're here.|
-T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of Arms.\nGrab your lv 2 spell/skill while you're here.|
-T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing.\nGrab your lv 2 spell/skill while you're here.|
-T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.\nGrab your lv 2 spell/skill while you're here.|
+T Simple Letter|QID|3100|M|50.24,42.28|N|To Llane Beshere in the Hall of Arms.|C|Warrior|R|Human|
+T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of Arms.|C|Paladin|R|Human|
+T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing.|C|Priest|R|Human|
+T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.|C|Mage|R|Human|
+= Level 2 Training|AVAILABLE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|-Rogue,-Warlock|
 
-A Brotherhood of Thieves|PRE|783|QID|18|R|Human|M|48.17,42.95|N|From Deputy Willem.|
-T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
-T Tainted Letter|QID|3105|M|49.97,42.65|N|To Drusilla La Salle outside on the right side of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
-A The Stolen Tome|QID|1598|PRE|7|QO|1|C|Warlock|R|Human|M|49.97,42.65|N|Pick up your class quest from your trainer, Drusilla La Salle. She is outside the Abbey on the right side.|
+A Brotherhood of Thieves|QID|18|PRE|783|M|48.05,43.56|N|From Deputy Willem.|R|Human|
+T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.|C|Rogue|R|Human|
+T Tainted Letter|QID|3105|M|49.87,42.65|N|To Drusilla La Salle outside on the right side of the Abbey.|C|Warlock|R|Human|
+A The Stolen Tome|QID|1598|PRE|7|M|49.87,42.65|N|From Drusilla La Salle.\n[color=FF0000]NOTE: [/color]This starts your Imp quest.|C|Warlock|R|Human|
+= Level 2 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|Rogue,Warlock|
 
-C Investigate Echo Ridge|QID|15|M|51.2,37.4|QO|1|N|Kill The Kobold Workers.\nThe Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
-C The Stolen Tome|QID|1598|C|Warlock|R|Human|M|56.68,43.96|N|The Defias thugs have the book at their camp. Find it and pick it up.\nThere are 3 Defias Thugs at the tent that you will pull. Wait until you're at least lv 4 to do this.|NC|S|
-C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|
-C The Stolen Tome|ACTIVE|1598|M|56.68,43.96|QO|1|N|The Defias thugs have the book at their camp. Find it and pick it up.\nThere are 3 Defias Thugs at the tent that you will pull. Wait until you're at least lv 4 to do this.|NC|US|
+K Investigate Echo Ridge|ACTIVE|15|QO|1|M|48.39,35.52|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
+C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|L|752 12|ITEM|752|N|Defias Thugs.|S|
+C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|
+C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|L|752 12|ITEM|752|N|Defias Thugs.|US|
+L Level 4|ACTIVE|18|N|Grind until you're within 5 bubbles of level 4.|LVL|3;-360|C|Warlock|
+L Level 4|ACTIVE|18|N|Grind until you're halfway to level 4.|LVL|3;-710|C|-Warlock|
 
-T The Stolen Tome|QID|1598|M|49.97,42.65|N|To your class trainer, Drusilla La Salle. Don't forget to do your training as well.|
-N Demon trainer|PRE|1598|SPELL|Blood Pact;6307|QID|3903|M|50.05,42.69|N|Now that you have a demon (imp), you can start training it as well. Go see Dane Winslow, beside Drusilla, to get started.\nDo note that you must summon your demon in order to train it.|
-
+T The Stolen Tome|QID|1598|M|49.87,42.65|N|To Drusilla La Salle.|
+= Level 4 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Warlock|
+= Demon trainer|ACTIVE|18|PRE|1598|QID|3903|M|50.05,42.69|L|16321|N|Now that you have a demon (imp), you'll need to train it as well by purchasing Grimoires and reading them. Go see Dane Winslow, beside Drusilla, to get started.|
+= Imp Blood Impact|PRE|1598|M|PLAYER|CC|N|Read the Grimoire to learn the spell.\n[color=FF0000]NOTE: [/color]You must summon your demon in order to train it.|SPELL|Blood Pact;6307|U|16321|O|
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|N|To Deputy Willem.|
 A Milly Osworth|QID|3903|PRE|18|M|48.15,42.95|N|From Deputy Willem.|
 A Bounty on Garrick Padfoot|QID|6|PRE|18|M|48.15,42.95|N|From Deputy Willem.|
-
 T Investigate Echo Ridge|QID|15|M|48.9,41.6|N|To Marshal McBride.|
 A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.9,41.6|N|From Marshal McBride.|
 
-N Level 4 class training|QID|3903|LVL|4|N|Remember to visit your class trainer to do your Level 4 spell/skill before leaving! Make sure you come back if you do not have enough money to pay for all of it.|
-r Sell and Repair|ACTIVE|3903|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
+T Investigate Echo Ridge|QID|15|M|48.92,41.61|N|To Marshal McBride.|
+A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.92,41.61|N|From Marshal McBride.|
+r Sell and Repair|ACTIVE|3903|M|47.69,41.42|N|Sell and Repair at Godric Rothgar.|C|Warlock|
+r Sell and Repair|ACTIVE|3903|M|47.69,41.42|N|Sell and Repair at Godric Rothgar.\n[color=FF0000]NOTE: [/color]You may need the extra coin for training.|C|-Warlock|
+= Level 4 Training|ACTIVE|3903|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|-Warlock|
 
-C Skirmish at Echo Ridge|QID|21|M|47.7,31.7|N|Kill the Kobold Laborers. They are found inside Echo Ridge Mine.|T|Kobold Laborer|
-T Milly Osworth|QID|3903|M|50.69,39.35|N|To Milly Osworth. She is at the back of the Abbey near the stable.|
-A Milly's Harvest|QID|3904|M|50.69,39.35|PRE|3903|N|From Milly Osworth.|
-C Milly's Harvest|QID|3904|M|54.0,47.8|S|NC|N|Collect Milly's Harvest Barrels from the vineyards.|
-C Bounty on Garrick Padfoot|QID|6|M|57.56,48.42|QO|1|N|Kill Garrick Padfoot and loot his head.|T|Garrick Padfoot|
-C Milly's Harvest|QID|3904|M|54.0,47.8|US|NC|N|Collect Milly's Harvest Barrels from the vineyards.|
-R Northshire Valley|ACTIVE|6|N|You can either hearth from the Vineyard or run back to the Abbey.|
-T Milly's Harvest|QID|3904|M|50.7,39.3|N|To Milly Osworth.|
-A Grape Manifest|QID|3905|M|50.7,39.3|PRE|3904|N|From Milly Osworth.|
+K Skirmish at Echo Ridge|ACTIVE|21|QO|1|M|48.41,29.31|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|
+T Milly Osworth|QID|3903|M|50.69,39.35|N|To Milly Osworth at the back of the Abbey, near the stable.|
+A Milly's Harvest|QID|3904|PRE|3903|M|50.69,39.35|N|From Milly Osworth.|
+C Milly's Harvest|QID|3904|M|53.85,48.55|L|11119 8|N|Collect Milly's Harvest Buckets from the vineyards.|S|NC|
+C Bounty on Garrick Padfoot|QID|6|QO|1|M|57.52,48.25|L|182|N|Kill Garrick Padfoot and loot his head.\n[color=FF0000]NOTE: [/color]Focus on killing him before his guard; you can always run away and come back to loot.|T|Garrick Padfoot|
+C Milly's Harvest|QID|3904|M|53.85,48.55|N|Collect Milly's Harvest Buckets from the vineyards.|US|NC|
+L Level 5|ACTIVE|3904|N|Grind until you're halfway to level 5.|LVL|4;-1090|
+T Milly's Harvest|QID|3904|M|50.69,39.35|N|To Milly Osworth.|
+A Grape Manifest|QID|3905|PRE|3904|M|50.69,39.35|N|From Milly Osworth.|
+r Sell and Repair|ACTIVE|21|M|47.69,41.42|N|Sell and Repair at Godric Rothgar.|
+T Skirmish at Echo Ridge|QID|21|M|48.92,41.61|N|To Marshal McBride.|
+A Report to Goldshire|QID|54|PRE|21|M|48.92,41.61|N|From Marshal McBride.|
+T Grape Manifest|QID|3905|M|49.53,41.75;49.47,41.59|CS|N|To Brother Neals, inside the abbey up the spiral staircase to the top floor.|
+A In Favor of the Light|QID|5623|M|49.81,39.49|N|Get your level 5 class quest from Priestess Anetta.|C|Priest|R|Human|LVL|5|
 T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|N|To Deputy Willem.|
+A Rest and Relaxation|QID|2158|M|45.57,47.75|N|From Falkhaan Isenstrider, in front of the fountain at the entrance to Northshire Valley.|
 
+R Goldshire|ACTIVE|54|M|44.25,62.50|N|Say goodbye to Northshire and follow the road down to Goldshire.|
+T Report to Goldshire|QID|54|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+A The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan|
+r Sell and Repair|QID|2158|M|41.71,65.79|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
+A Kobold Candles|QID|60|M|43.32,65.70|Z|1429;Elwynn Forest|N|From William Pestle inside the Inn.|
+h Goldshire|ACTIVE|2158|M|43.77,65.80|N|Make this inn your home.|
+T Rest and Relaxation|QID|2158|M|43.77,65.80|N|To Innkeeper Farley.|
+T In Favor of the Light|QID|5623|M|43.28,65.72|N|To Priestess Josetta (upstairs).|C|Priest|
+A Garments of the Light|QID|5624|PRE|5623|M|43.28,65.72|N|From Priestess Josetta.|R|Human|C|Priest|
+A Gold Dust Exchange|QID|47|M|42.14,67.25|Z|1429;Elwynn Forest|N|From Remy "Two Times", outside.|
 
-T Skirmish at Echo Ridge|QID|21|M|48.9,41.6|N|To Marshal McBride.|
-A Report to Goldshire|QID|54|PRE|21|M|48.9,41.6|N|From Marshal McBride.|
-T Grape Manifest|QID|3905|M|49.53,41.75;49.47,41.57|CS|N|To Brother Neals, inside the abbey up the spiral staircase to the top floor.|
+C Garments of the Light|QID|5624|M|48.16,68.03|N|Target Guard Roberts, use Lesser Heal (Rank 2), and then cast Power Word: Fortitude on him.\n[color=FF0000]NOTE: [/color]If he's not there, someone just finished the quest and you have to wait a few moments for him to respawn.|T|Guard Roberts|R|Human|C|Priest|
+T Garments of the Light|QID|5624|M|43.28,65.72|N|To Priestess Josetta.|R|Human|C|Priest|
+C Chunks of Boar Meat|AVAILABLE|86|M|41.5,86.8|L|769 4|ITEM|769|N|Stonetusk Boars\nYou'll need them for an upcoming quest.|T|Stonetusk Boar|S|
+C Gold Dust Exchange|QID|47|ACTIVE|62|M|41.04,79.78|L|773 10|ITEM|773|N|Any Kobold in or around Fargodeep Mine.|S|
+C Kobold Candles|QID|60|ACTIVE|62|M|41.04,79.78|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|S|
+R The Stonefield Farm|AVAILABLE|85|M|34.53,79.11|Z|1429;Elwynn Forest|N|Follow the road west out of Goldshire to the second curve.|
+A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
+R The Maclure Vineyards|ACTIVE|85|M|39.89,85.86|Z|1429;Elwynn Forest|N|Head east past the Fargodeep Mine to the Vineyard on the other side.|
+T Lost Necklace|QID|85|M|43.14,85.72|N|To Billy Maclure.|
+A Pie for Billy|QID|86|PRE|85|M|43.14,85.72|N|From Billy Maclure|
+C Chunks of Boar Meat|QID|86|M|41.5,86.8|L|769 4|ITEM|769|N|Stonetusk Boars|T|Stonetusk Boar|US|
+L Level 6|ACTIVE|87|N|Grind until you're within 4 bubbles of level 6.|LVL|5;-550|
+T Pie for Billy|QID|86|M|34.49,84.25|N|To "Auntie" Bernice Stonefield|
+A Back to Billy|QID|84|PRE|86|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
+A Young Lovers|QID|106|M|43.15,89.62|N|From Maybell Maclure.\n[color=FF0000]NOTE: [/color]If she's not there (or you can't interact with her), someone has turned in a later quest and she's invisible. Just wait a few moments.|
+T Back to Billy|QID|84|M|43.14,85.72|N|To Billy Maclure.|
+A Goldtooth|QID|87|PRE|84|M|43.14,85.72|N|From Billy Maclure.|
+R Goldshire|ACTIVE|87|M|43.77,65.80|N|Run back to Goldshire to do your level 6 training.|
+= Level 6 Training|ACTIVE|87|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Goldshire^Lion's Pride Inn|
 
-L Level 5|AVAILABLE|5623|C|Priest|M|47.93,40.75|LVL|5|N|You must be level 5 at this point. This is the point you will get your next class quest.\nGrind until you reach level 5.|
-A In Favor of the Light|QID|5623|M|49.8,39.5|C|Priest|R|Human|N|Level 5 class quest from Priestess Anetta.|
+R Fargodeep Mine|ACTIVE|62|QO|1|M|38.98,82.33|Z|1429;Elwynn Forest|N|Head to the Fargodeep Mine.|
+R The Fargodeep Mine|ACTIVE|62|QO|1|M|40.45,82.31|Z|1429;Elwynn Forest|N|From either entrance (the lower entrance is more direct), walk into the mine until you reach the large cavern and go through the furthest left tunnel.|
+K Goldtooth|ACTIVE|87|M|41.69,77.94|Z|1429;Elwynn Forest|L|981|N|Kill and loot Goldtooth.|
+C Kobold Candles|QID|60|M|62.92,55.04|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|US|
+L Level 7|ACTIVE|87|N|Grind until you're within 13 bubbles of level 7.|LVL|6;-2260|
+T Goldtooth|QID|87|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
+A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|
+T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
+A Speak with Gramma|QID|111|PRE|106|M|29.84,86.00|N|From Tommy Joe Stonefield.|
+T Speak with Gramma|QID|111|M|34.94,83.86|N|To Gramma Stonefield, inside the house.|
+A Note to William|QID|107|PRE|111|M|34.94,83.86|N|From Gramma Stonefield.|
 
-r Sell and Repair|ACTIVE|54|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
-
-A Rest and Relaxation|QID|2158|M|45.55,47.74|N|From Falkhaan Isenstrider, at the entrance to Northshire Valley.|
-
-R Goldshire|ACTIVE|54|M|44.25,62.50|N|Follow the road down to Goldshire.|
-
-T Report to Goldshire|QID|54|M|42.1,65.9|N|To Marshall Dughan.|
-A The Fargodeep Mine|QID|62|M|42.1,65.9|N|From Marshall Dughan|
-
-r Sell and Repair|QID|2158|M|41.7,65.8|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
-
-A Kobold Candles|QID|60|M|43.3,65.7|N|From William Pestle, inside the Inn.|
-T In Favor of the Light|QID|5623|M|43.2,65.6|C|Priest|N|To Priestess Josetta.|
-A Garments of the Light|QID|5624|M|43.2,65.6|N|From Priestess Josetta.|PRE|5623|C|Priest|
-
-T Rest and Relaxation|QID|2158|M|43.8,65.8|N|To Innkeeper Farley.|
-h Goldshire|QID|85|M|43.8,65.8|N|Make this inn your home.|
-
-A Gold Dust Exchange|QID|47|M|42.1,67.3|N|From Remy "Two Times", outside.|
-
-C Garments of the Light|QID|5624|M|48.4,67.8|T|Guard Roberts|N|Target and then use Lesser heal(Rank 2), then cast Power Word: Fortitude on Guard Roberts.|
-T Garments of the Light|QID|5624|M|43.2,65.6|N|To Priestess Josetta.|
-K Stonetusk Boars|QID|86|M|41.5,86.8|S|L|769 4|N|You will need Chunks of Boar Meat for the next quest so kill any boars along your way.|
-A Lost Necklace|QID|85|M|34.5,84.2|N|From "Auntie" Bernice Stonefield.|
-
-T Lost Necklace|QID|85|M|43.1,85.7|N|To Billy Maclure.|
-A Pie for Billy|QID|86|M|43.1,85.7|PRE|85|N|From Billy Maclure|
-C Stonetusk Boars|QID|86|US|M|41.5,86.8|N|Kill and loot the Stonetusk Boars for the Chunks of Boar Meat.|
-
-T Pie for Billy|QID|86|M|34.5,84.2|N|To "Auntie" Bernice Stonefield|
-A Back to Billy|QID|84|M|34.5,84.2|PRE|86|N|From "Auntie" Bernice Stonefield.|
-A Young Lovers|QID|106|M|43.15,89.6|N|From Maybell Maclure. Watch out for the bear that likes to hang around this house.|
-T Back to Billy|QID|84|M|43.1,85.7|N|To Billy Maclure.|
-A Goldtooth|QID|87|M|43.1,85.7|PRE|84|N|From Billy Maclure.|
-C Gold Dust Exchange|QID|47|S|M|38.2,83.6|N|Kill and loot the Kobolds for the Gold Dust.|
-C Kobold Candles|QID|60|S|M|38.2,83.6|N|Kill and loot the Kobolds for the Large Candles.|
-
-R Fargodeep Mine|QID|87|M|38.95,82.30|N|Head to the Fargodeep Mine. Entering the cave via the upper eastern entrance, at the multi-way cavern, take the left tunnel.|
-C Goldtooth|QID|87|M|41.60,78.80|N|Kill and loot Goldtooth. From the lower western entrance stick to the left. From the upper eastern entrance, turn right at entrance, then at multi-way cavern take the left tunnel.|
-
-C Gold Dust Exchange|QID|47|US|M|38.2,83.6|N|Finish killing and looting the Kobolds for the Gold Dust.|
-C Kobold Candles|QID|60|US|M|38.2,83.6|N|Finish killing and looting the Kobolds for the Large Candles.|
-
-T Goldtooth|QID|87|M|34.5,84.2|N|To "Auntie" Bernice Stonefield.|
-A Princess Must Die!|QID|88|M|34.6,84.5|LVL|6|N|From Ma Stonefield.|
-T Young Lovers|QID|106|M|29.8,86.0|N|To Tommy Joe Stonefield.|
-A Speak with Gramma|QID|111|M|29.8,86.0|PRE|106|N|From Tommy Joe Stonefield.|
-T Speak with Gramma|QID|111|M|34.9,83.9|N|To Gramma Stonefield, inside the house.|
-A Note to William|QID|107|M|34.9,83.9|PRE|111|N|From Gramma Stonefield.|
-
-R Goldshire|QID|62|M|43.8,65.8|N|Run back to Goldshire.|
-N Level 6 class skills |QID|47|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skills!|
-T Kobold Candles|QID|60|US|M|43.3,65.7|N|To William Pestle.|
-A Shipment to Stormwind|QID|61|PRE|60|M|43.3,65.7|N|From William Pestle.|
-T Note to William|QID|107|M|43.3,65.7|N|To William Pestle.|
-A Collecting Kelp|QID|112|M|43.3,65.7|PRE|107|N|From William Pestle.|
-T Gold Dust Exchange|QID|47|M|42.1,67.3|N|To Remy "Two Times", outside|
-A A Fishy Peril|QID|40|M|42.1,67.3|N|From Remy "Two Times".|LVL|7|
-r Sell and Repair|QID|40|S|M|41.7,65.8|ACTIVE|40|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
-
-T The Fargodeep Mine|QID|62|M|42.1,65.9|N|To Marshall Dughan.|
-A The Jasperlode Mine|QID|76|M|42.1,65.9|PRE|62|N|From Marshall Dughan.|
-T A Fishy Peril|QID|40|M|42.1,65.9|N|To Marshall Dughan.|
-A Further Concerns|QID|35|M|42.1,65.9|PRE|40|N|From Marshall Dughan.|
+R Goldshire|ACTIVE|107|M|43.77,65.80|N|Run back to Goldshire.|LVL|6;-1500|S|
+L Level 7|ACTIVE|107|N|Grind until you're within 8.5 bubbles of level 7.|LVL|6;-2260|
+H Goldshire|ACTIVE|107|M|43.77,65.80|N|Use your hearth or run back to Goldshire (depending on how close you are).|TZ|Lion's Pride Inn|
+T Note to William|QID|107|M|43.32,65.70|N|To William Pestle.|
+A Collecting Kelp|QID|112|PRE|107|M|43.32,65.70|N|From William Pestle.|
+T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|
+A Shipment to Stormwind|QID|61|PRE|60|M|43.32,65.70|N|From William Pestle.|
+T The Fargodeep Mine|QID|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+A The Jasperlode Mine|QID|76|PRE|62|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+C Gold Dust Exchange|QID|47|ACTIVE|76|M|62.92,55.04;41.04,79.78|CN|Z|1429;Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold in or around either Jasperlode or Fargodeep Mine.|S|
+A A Fishy Peril|QID|40|M|42.14,67.25|N|From Remy "Two Times".|LVL|7|
+T A Fishy Peril|QID|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+A Further Concerns|QID|35|PRE|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 
 ; The next few steps are in Stormwind City
-R Stormwind City|QID|61|M|71.1,88.9|ACTIVE|61|N|Follow the road north-west to Stormwind City.|Z|Stormwind City|
-N City Facilities|QID|61|S|N|Whilst in Stormwind City, feel free to learn your desired professions or access the bank - if you don't know where to go, ask any Stormwind City Guard.|T|Stormwind City Guard|
-T Shipment to Stormwind|QID|61|M|56.2,64.6|N|To Morgan Pestle|Z|Stormwind City| ;available to Night Elf, so Race tag removed.|
-A Wine Shop Advert|QID|332|M|57.0,63.4|N|From Renato Gallina.|Z|Stormwind City|
-A Harlan Needs a Resupply|QID|333|M|55.2,56.0|N|From Harlan Bagley, inside the Lionheart Armory.|Z|Stormwind City|
-T Wine Shop Advert|QID|332|M|52.45,67.6|N|To Suzetta Gallina, in Gallina Winery which is on the canal front.|Z|Stormwind City|
-T Harlan Needs a Resupply|QID|333|M|49.65,55.64|N|To Rema Schneider in the Canal Tailor Shop.|Z|Stormwind City|
-A Package for Thurman|QID|334|M|49.65,55.64|N|From Rema Schneider.|Z|Stormwind City|
-T Package for Thurman|QID|334|M|42.54,76.19|N|To Thurman Schneider, in Larson Clothiers found in Stormwind Mage Quarter.|Z|Stormwind City|
+R Stormwind City|ACTIVE|61|M|74.68,93.32|Z|Stormwind City|N|Follow the road northwest to Stormwind City.|
+N Housekeeping|ACTIVE|61|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|T|Stormwind City Guard|S!US|IZ|Stormwind City|
+f Stormwind City|ACTIVE|61|M|62.71,64.54;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|Stormwind City|R|-Human|
+T Shipment to Stormwind|QID|61|M|56.21,64.58|Z|1453;Stormwind City|N|To Morgan Pestle, inside Pestle's Apothecary.|
+R Elwynn Forest|ACTIVE|112|M|32.03,49.18|Z|1429;Elwynn Forest|N|Make your way to the front gate.|
+R Goldshire|ACTIVE|112|M|41.10,61.93|Z|1429;Elwynn Forest|N|Follow the road to Goldshire.|
+C Collecting Kelp|QID|112|M|54.1,66.6|L|1256 4|ITEM|1256|N|Any Murloc around Crystal Lake.|
+R Jasperlode Mine|ACTIVE|76|QO|1|M|58.72,56.28|Z|1429;Elwynn Forest|N|Head northward from Goldshire to the top of the mountain range and follow it east.\n[color=FF0000]NOTE: [/color]If you fall into Northshire Valley, you'll have a long run back to get back up.|
+R The Jasperlode Mine|ACTIVE|76|QO|1|M|61.71,53.85;60.53,49.97|CC|Z|1429;Elwynn Forest|N|Enter the mine and go straight.\n[color=FF0000]NOTE: [/color]Do not turn down any side passages.|
+C Gold Dust Exchange|QID|47|ACTIVE|76|M|62.92,55.04|Z|1429;Elwynn Forest|L|773 10|ITEM|773|N|Any Kobold in or around Jasperlode Mine.|US|
+T Further Concerns|QID|35|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas at the bridge on the main road.\n[color=FF0000]NOTE: [/color]The run will get easier (less mobs) the sooner you get to the road.|
+A Find the Lost Guards|QID|37|PRE|35|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
+A Protect the Frontier|QID|52|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
+K Protect the Frontier|ACTIVE|52|QO|1;2|M|80.44,60.48|Z|1429;Elwynn Forest|N|Kill any Prowlers and Young Forest Bears.|S|
+A A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|1429;Elwynn Forest|N|From Supervisor Raelen in Eastvale Logging Camp.|
+C A Bundle of Trouble|QID|5545|M|80.44,60.48|Z|1429;Elwynn Forest|L|13872 8|N|Loot the Bundles of Wood, found at the base of the trees.\n[color=FF0000]NOTE: [/color]Stay clear of the higher leveled Murlocs by the lake.|
+r Sell and Repair|ACTIVE|5545|M|83.29,66.09|Z|1429;Elwynn Forest|N|Sell and Repair at Rallic Finn.|S|
+T A Bundle of Trouble|QID|5545|M|81.38,66.11|Z|1429;Elwynn Forest|N|To Supervisor Raelen.|
+A Red Linen Goods|QID|83|M|79.46,68.79|Z|1429;Elwynn Forest|N|From Sara Timberlain.|
+l Westfall Deed|AVAILABLE|184|M|69.56,77.20|Z|1429;Elwynn Forest|L|1972|N|Any Defias Mob in Elwynn Forest.\n[color=FF0000]NOTE: [/color]Don't worry if you don't get this one.|S!US|IZ|Elwynn Forest|
+A Furlbrow's Deed|QID|184|M|PLAYER|CC|N|From the Westfall Deed you just looted.|U|1972|O|
+C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429;Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|S|
+K Princess Must Die!|ACTIVE|88|M|69.70,79.69|L|1006|N|Kill and loot Princess for the Brass Collar.\n[color=FF0000]NOTE: [/color]She has two guards with her. Focus on killing her, run and come back to loot.\nAsk for help if you have trouble.|T|Princess|S|IZ|Brackwell Pumpkin Patch|
+C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429;Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|US|
+T Red Linen Goods|QID|83|M|79.46,68.79|Z|1429;Elwynn Forest|N|To Sara Timberlain.|
+T Find the Lost Guards|QID|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|To "A half-eaten body".|
+A Discover Rolf's Fate|QID|45|PRE|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|From A half-eaten body.|
+T Discover Rolf's Fate|QID|45|M|79.80,55.52|Z|1429;Elwynn Forest|N|To Rolf's corpse after clearing the area.\n[color=FF0000]NOTE: [/color]Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
+A Report to Thomas|QID|71|PRE|45|M|79.80,55.52|Z|1429;Elwynn Forest|N|From Rolf's corpse.|
+K Protect the Frontier|ACTIVE|52|QO|1;2|M|80.44,60.48|Z|1429;Elwynn Forest|N|Kill any Prowlers and Young Forest Bears.|US|
 
-f Stormwind City|QID|332|M|57.5,59.5;62.75,64.5;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|Stormwind City|R|-Human|
-R Goldshire|QID|112|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
-
-C Collecting Kelp|QID|112|M|54.1,66.6|N|Kill and loot the Murlocs for the Crystal Kelp Fronds.|
-C The Jasperlode Mine|QID|76|M|61.0,54.1;60.5,50.1|CS|NC|N|Head up to Jasperlode Mine, then go in, stick to the left until you get the quest update.|
-
-T Further Concerns|QID|35|M|74.0,72.2|N|To Guard Thomas.|
-A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas.|
-A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas.|
-
-C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill any Prowlers and Young Forest Bears.|
-
-A A Bundle of Trouble|QID|5545|M|81.4,66.1|N|From Supervisor Raelen.|
-C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at the base of the trees.|NC|
-r Sell and Repair|QID|5545|S|M|83.3,66.1|ACTIVE|5545|N|Sell and Repair at Rallic Finn.|
-T A Bundle of Trouble|QID|5545|M|81.4,66.1|N|To Supervisor Raelen.|
-
-A Red Linen Goods|QID|83|M|79.46,68.79|N|From Sara Timberlain.|
-C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
-C Princess Must Die!|QID|88|M|69.4,79.3|N|Kill and loot Princess for the Brass Collar.|T|Princess|
-C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
-
-T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|
-
-; Since murlocs are level 10, this is not suitable earlier in the guide.
-N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|
-T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body".|
-A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body.|
-T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
-A Report to Thomas|QID|71|PRE|45|M|79.8,55.5|N|From Rolf's corpse.|
-
-C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears.|
-
-T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas.|
-A Deliver Thomas' Report|QID|39|PRE|71|M|74.0,72.2|N|From Guard Thomas.|
-T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|
-A Report to Gryan Stoutmantle|QID|109|M|73.9,72.2|N|From Guard Thomas.|
+T Report to Thomas|QID|71|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas.|
+A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
+T Protect the Frontier|QID|52|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas.|
+A Report to Gryan Stoutmantle|QID|109|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|LVL|9|
 
 H Goldshire|QID|112|N|Hearthstone back to Goldshire (or run if your hearthstone is on cooldown).|
 T Collecting Kelp|QID|112|M|43.3,65.7|N|To William Pestle.|
@@ -206,6 +189,7 @@ A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|N|From Marshall Dughan.|
 T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan.|
 A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|
 A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus.|
+T Gold Dust Exchange|QID|47|M|42.14,67.25|N|To Remy "Two Times".|
 
 T The Escape|QID|114|M|43.2,89.6|N|To Maybell Maclure.|
 T Princess Must Die!|QID|88|M|34.6,84.5|N|To Ma Stonefield.|
@@ -230,7 +214,7 @@ A Mirror Lake|QID|1861|C|Mage|M|38.6,79.4|Z|Stormwind City|N|From Jennea Cannon.
 C Mirror Lake|QID|1861|C|Mage|M|28.6,61.4|U|7207|N|Go to Mirror Lake, just outside Stormwind, stand under the waterfall and use Jennea's Flask.|
 T Mirror Lake|QID|1861|C|Mage|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon.|
 
-A Desperate Prayer|QID|5635|M|43.2,65.6|C|Priest|N|From Priestess Josetta.|
+A Desperate Prayer|QID|5635|M|43.28,65.72|C|Priest|N|From Priestess Josetta.|
 A Seek out SI: 7|QID|2205|C|Rogue|M|43.8,65.8|N|From Keryn Sylvius, upstairs in the Goldshire inn.|
 
 A Gakin's Summons|QID|1685|C|Warlock|M|44.4,66.2|N|From Remen Marcot, in the basement of the Goldshire inn.|
@@ -331,27 +315,6 @@ T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|To Ragnar Thunderbr
 T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|To Pilot Bellowfiz.|
 T The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|To Pilot Stonegear.|
 N Level 12 Training|AVAILABLE|314|N|Do your training before leaving the area. If you have to go to Ironforge, come back down the hill to the Kharanos intersection.\nClose this step when you are done.|LVL|12|
-R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road east to Amberstill Ranch.\nYou can follow the road or run along the frozen river to make it quicker and do some grinding along the way.|
-A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Rudra Amberstill.|
-C Protecting the Herd|QID|314|M|62.45,50.35;62.37,49.06;62.45,49.01|CS|Z|Dun Morogh|QO|1|N|Kill Vagash, and loot Fang of Vagash.\n[color=FF0000]NOTE: [/color]This is your first real challenge. Vagash ia a level 11 elite. Group up if you can.|
-T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
-R Gol'Bolar Quarry|QID|432|M|67.26,53.52|Z|Dun Morogh|N|Gol'Bolar Quarry is just SE of you.|
-A The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|From Senator Mehr Stonehollow.|
-A Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|From Foreman Stonebrow.|
-R Enter the Cave|ACTIVE|432^433|M|70.10,55.81;70.32,56.56|Z|Dun Morogh|CC|N|Make your way to the cave entrance by climbing down the hill above it.|
-C Those Blasted Troggs!|QID|432|QO|1|N|Kill Rockjaw Skullthumpers.|S|
-C The Public Servant|QID|433|QO|1|N|Kill Rockjaw Bonesnappers.|
-C Those Blasted Troggs!|QID|432|QO|1|N|Kill Rockjaw Skullthumpers.|US|
-T Those Blasted Troggs!|QID|432|M|70.31,56.51;70.00,55.65;69.08,56.33|Z|Dun Morogh|CC|N|To Foreman Stonebrow. Exit the cave and climb out the same way you can in.|
-T The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|To Senator Mehr Stonehollow.|
-R North Gate Pass|ACTIVE|353|M|78.31,49.17|Z|Dun Morogh|N|Back to the road and continue thru North Gate Pass.|
-A The Lost Pilot|QID|419|M|83.88,39.19|Z|Dun Morogh|N|From Pilot Hammerfall.|
-T The Lost Pilot|QID|419|M|79.69,36.14|Z|Dun Morogh|N|To Dwarven Corpse.|
-A A Pilot's Revenge|QID|417|PRE|419|M|79.69,36.14|Z|Dun Morogh|N|From Dwarven Corpse.|
-C A Pilot's Revenge|QID|417|M|78.48,37.42|Z|Dun Morogh|T|Mangeclaw|N|Kill Mangeclaw and loot a Mangy Claw.|
-T A Pilot's Revenge|QID|417|M|83.89,39.19|Z|Dun Morogh|N|To Pilot Hammerfall.|
-
-; -- This guide ends in Thelsamar, Loch Modan
 
 ]]
 end)
