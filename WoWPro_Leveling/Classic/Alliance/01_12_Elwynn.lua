@@ -148,7 +148,7 @@ N Housekeeping|ACTIVE|61|N|Use this time to visit the city's various amenities.\
 f Stormwind City|ACTIVE|61|M|62.71,64.54;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|Stormwind City|R|-Human|
 T Shipment to Stormwind|QID|61|M|56.21,64.58|Z|1453;Stormwind City|N|To Morgan Pestle, inside Pestle's Apothecary.|
 R Elwynn Forest|ACTIVE|112|M|32.03,49.18|Z|1429;Elwynn Forest|N|Make your way to the front gate.|
-R Goldshire|ACTIVE|112|M|41.10,61.93|Z|1429;Elwynn Forest|N|Follow the road to Goldshire.|
+R Goldshire|ACTIVE|112|QO|1|M|41.10,61.93|Z|1429;Elwynn Forest|N|Follow the road to Goldshire.|
 C Collecting Kelp|QID|112|M|54.1,66.6|L|1256 4|ITEM|1256|N|Any Murloc around Crystal Lake.|
 R Jasperlode Mine|ACTIVE|76|QO|1|M|58.72,56.28|Z|1429;Elwynn Forest|N|Head northward from Goldshire to the top of the mountain range and follow it east.\n[color=FF0000]NOTE: [/color]If you fall into Northshire Valley, you'll have a long run back to get back up.|
 R The Jasperlode Mine|ACTIVE|76|QO|1|M|61.71,53.85;60.53,49.97|CC|Z|1429;Elwynn Forest|N|Enter the mine and go straight.\n[color=FF0000]NOTE: [/color]Do not turn down any side passages.|
@@ -168,46 +168,50 @@ C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429;Elwynn Forest|L|1019 6|ITEM|1019|N
 K Princess Must Die!|ACTIVE|88|M|69.70,79.69|L|1006|N|Kill and loot Princess for the Brass Collar.\n[color=FF0000]NOTE: [/color]She has two guards with her. Focus on killing her, run and come back to loot.\nAsk for help if you have trouble.|T|Princess|S|IZ|Brackwell Pumpkin Patch|
 C Red Linen Goods|QID|83|M|69.56,77.20|Z|1429;Elwynn Forest|L|1019 6|ITEM|1019|N|Defias Bandits in the area.|US|
 T Red Linen Goods|QID|83|M|79.46,68.79|Z|1429;Elwynn Forest|N|To Sara Timberlain.|
-T Find the Lost Guards|QID|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|To "A half-eaten body".|
+T Find the Lost Guards|QID|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|To "A half-eaten body".\n[color=FF0000]NOTE: [/color]There is no '?' over the body.|
 A Discover Rolf's Fate|QID|45|PRE|37|M|72.65,60.33|Z|1429;Elwynn Forest|N|From A half-eaten body.|
 T Discover Rolf's Fate|QID|45|M|79.80,55.52|Z|1429;Elwynn Forest|N|To Rolf's corpse after clearing the area.\n[color=FF0000]NOTE: [/color]Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
 A Report to Thomas|QID|71|PRE|45|M|79.80,55.52|Z|1429;Elwynn Forest|N|From Rolf's corpse.|
-K Protect the Frontier|ACTIVE|52|QO|1;2|M|80.44,60.48|Z|1429;Elwynn Forest|N|Kill any Prowlers and Young Forest Bears.|US|
+K Protect the Frontier|ACTIVE|52|QO|1;2|M|86.94,64.70|Z|1429;Elwynn Forest|N|Kill any Prowlers and Young Forest Bears.|US|
 
 T Report to Thomas|QID|71|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas.|
 A Deliver Thomas' Report|QID|39|PRE|71|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|
 T Protect the Frontier|QID|52|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thomas.|
 A Report to Gryan Stoutmantle|QID|109|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|LVL|9|
-
-H Goldshire|QID|112|N|Hearthstone back to Goldshire (or run if your hearthstone is on cooldown).|
-T Collecting Kelp|QID|112|M|43.3,65.7|N|To William Pestle.|
-A The Escape|QID|114|PRE|112|M|43.3,65.7|N|From William Pestle. It takes 10 seconds from completing the previous quest for this one to become available.|
-r Sell and Repair|QID|76|S|M|41.7,65.8|ACTIVE|76|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
-
+R Goldshire|ACTIVE|112|M|43.77,65.95|Z|1429;Elwynn Forest|N|Start heading towards Goldshire.|S!US|LVL|8;-2220|
+L Level 9|ACTIVE|112|N|Grind until you're within 8.5 bubbles of level 9.|LVL|8;-2220|
+H Goldshire|QID|112|M|43.77,65.95|Z|1429;Elwynn Forest|N|Hearth back to Goldshire (or run if your hearthstone is on cooldown).|
+T Collecting Kelp|QID|112|M|43.32,65.70|N|To William Pestle.|
+A The Escape|QID|114|PRE|112|M|43.32,65.70|N|From William Pestle.\n[color=FF0000]NOTE: [/color]It takes 10 seconds from completing the previous quest for this one to become available.|
+= Level 8 Training|ACTIVE|76|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Goldshire^Lion's Pride Inn|
 T The Jasperlode Mine|QID|76|M|42.1,65.9|N|To Marshall Dughan.|
 A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|N|From Marshall Dughan.|
 T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan.|
 A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|
-A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus.|
+A Elmore's Task|QID|1097|M|41.71,65.55|N|From Smith Argus.|
 T Gold Dust Exchange|QID|47|M|42.14,67.25|N|To Remy "Two Times".|
 
-T The Escape|QID|114|M|43.2,89.6|N|To Maybell Maclure.|
-T Princess Must Die!|QID|88|M|34.6,84.5|N|To Ma Stonefield.|
+R The Maclure Vineyards|ACTIVE|85|M|39.89,85.86|Z|1429;Elwynn Forest|N|Head south out of Goldshire to the Vineyards.|
+T The Escape|QID|114|M|43.16,89.63|N|To Maybell Maclure.|
+R The Stonefield Farm|ACTIVE|114^88|M|34.53,79.11|Z|1429;Elwynn Forest|N|Head west from the Vineyards to the farm.|
+T Princess Must Die!|QID|88|M|34.66,84.48|N|To Ma Stonefield.|
+R Forest's Edge|ACTIVE|239|M|28.80,77.91|Z|1429;Elwynn Forest|N|Head to the first bridge on the road west out of Goldshire.|
+T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
+A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|From Deputy Rainer.|
+A Wanted:  "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429;Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Posters in Westbrook Garrison; the one on the road to the tower or the one in front of the tower.|
+l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite (a rare mob the spawns around Forest's Edge) \n[color=FF0000]NOTE: [/color]There is a low 1% drop rate from Hogger and Riverpaws.\nSkip if you can't find him.|T|Gruff|S!US|IZ|Forest's Edge|
+A The Collector|QID|123|M|PLAYER|CC|N|From the Gold Pickup Schedule you just looted.|U|1307|O|
+K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|
+C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
+L Level 10|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 8 bubbles of level 10.|LVL|9;-2610|
+L Level 10|ACTIVE|11&123|N|Grind until you're within 5 bubbles of level 10.|LVL|9;-1610|
+T Riverpaw Gnoll Bounty|QID|11|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
+R Goldshire|ACTIVE|176^123|M|44.25,62.50|Z|1429;Elwynn Forest|N|Follow the road east to Goldshire.|
+T The Collector|QID|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
+A Manhunt|QID|147|PRE|123|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
+T Wanted:  "Hogger"|QID|176|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 
-T Westbrook Garrison Needs Help!|QID|239|M|24.3,74.8|N|To Deputy Rainer.|
-A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.3,74.8|N|From Deputy Rainer.|
-A Wanted:  "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|
-K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|T|Hogger|
-C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|
-L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|
-l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|T|Gruff|
-A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule.|
-T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|
-
-T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan.|
-A Manhunt|QID|147|PRE|123|M|42.1,65.9|N|From Marshall Dughan.|
-T Wanted:  "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan.|
-
+; ---------- LEVEL 10 CLASS QUEST ------------
 A Speak with Jennea|QID|1860|C|Mage|M|43.2,66.2|ITEM|9513|N|From Zaldimar Wefhellt. Requires lvl 10. Rewards a nice 2H staff, so you may want to do it, even though its a bit out of the direct path.|
 T Speak with Jennea|QID|1860|C|Mage|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|
 A Mirror Lake|QID|1861|C|Mage|M|38.6,79.4|Z|Stormwind City|N|From Jennea Cannon.|PRE|1860|
