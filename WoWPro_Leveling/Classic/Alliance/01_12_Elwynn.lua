@@ -191,9 +191,9 @@ A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|
 A Elmore's Task|QID|1097|M|41.71,65.55|N|From Smith Argus.|
 T Gold Dust Exchange|QID|47|M|42.14,67.25|N|To Remy "Two Times".|
 
-R The Maclure Vineyards|ACTIVE|85|M|39.89,85.86|Z|1429;Elwynn Forest|N|Head south out of Goldshire to the Vineyards.|
+R The Maclure Vineyards|ACTIVE|114|M|39.89,85.86|Z|1429;Elwynn Forest|N|Head south out of Goldshire to the Vineyards.|
 T The Escape|QID|114|M|43.16,89.63|N|To Maybell Maclure.|
-R The Stonefield Farm|ACTIVE|114^88|M|34.53,79.11|Z|1429;Elwynn Forest|N|Head west from the Vineyards to the farm.|
+R The Stonefield Farm|ACTIVE|88|M|35.48,85.18|Z|1429;Elwynn Forest|N|Head west from the Vineyards to the farm.|
 T Princess Must Die!|QID|88|M|34.66,84.48|N|To Ma Stonefield.|
 R Forest's Edge|ACTIVE|239|M|28.80,77.91|Z|1429;Elwynn Forest|N|Head to the first bridge on the road west out of Goldshire.|
 T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
@@ -201,7 +201,7 @@ A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|From
 A Wanted:  "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429;Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Posters in Westbrook Garrison; the one on the road to the tower or the one in front of the tower.|
 l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite (a rare mob the spawns around Forest's Edge) \n[color=FF0000]NOTE: [/color]There is a low 1% drop rate from Hogger and Riverpaws.\nSkip if you can't find him.|T|Gruff|S!US|IZ|Forest's Edge|
 A The Collector|QID|123|M|PLAYER|CC|N|From the Gold Pickup Schedule you just looted.|U|1307|O|
-K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|
+K Hogger|ACTIVE|176|QO|1|M|26.31,93.44|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whomever is around to make this simple.|S!US|
 C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
 L Level 10|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 8 bubbles of level 10.|LVL|9;-2610|
 L Level 10|ACTIVE|11&123|N|Grind until you're within 5 bubbles of level 10.|LVL|9;-1610|
