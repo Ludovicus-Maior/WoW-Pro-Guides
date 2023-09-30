@@ -282,7 +282,7 @@ C Snatch and Grab|QID|2206|M|47,87|ITEM|7298|N|Head south east of Goldshire. As 
 T Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
 T Continue to Stormwind|QID|6281|M|74.31,47.25|Z|Stormwind City|N|To Osric Strang, inside Limited Immunity Shop in Old Town.|R|Human|
 A Dungar Longdrink|QID|6261|PRE|6281|M|74.31,47.25|Z|Stormwind City|N|From Osric Strang.|R|Human|
-T Desperate Prayer|QID|5635M|38.57,26.06|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.||C|Priest|
+T Desperate Prayer|QID|5635|M|38.57,26.06|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.||C|Priest|
 T Seek out SI: 7|QID|2205|C|Rogue|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
 ; --
 T Elmore's Task|QID|1097|M|51.75,12.10|Z|Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
