@@ -15,7 +15,7 @@ function WoWPro:LoadNilGuide()
     WoWPro.rows[1].check:Hide()
     WoWPro.rows[1].targetbutton:Hide()
     WoWPro.rows[1].itembutton:Hide()
-    WoWPro.rows[1].note:SetText('Right click the header (Where it says No Guide Loaded) and select Guide List OR \n\nPress ESC > Options > Addons. \n\nThen next to 'WoW-Pro' click the - (minus sign) or + (plus sign) depending on what version of the game you are playing.\n\nFinally click on "Guide List" to choose a guide.')
+    WoWPro.rows[1].note:SetText('Right click the header (Where it says No Guide Loaded) and select Guide List OR \n\nPress ESC > Options > Addons. \n\nThen next to WoW-Pro click the - (minus sign) or + (plus sign) depending on what version of the game you are playing.\n\nFinally click on Guide List to select a guide.')
     WoWPro.rows[1].track:SetText(nil)
 
     for i=2,15 do
