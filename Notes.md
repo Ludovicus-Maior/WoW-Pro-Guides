@@ -1,3 +1,15 @@
+# Release 2023.09.14.A
+## Bug Fixes
+* No bug fixes!
+## Guide Updates
+### Retail
+* Achievements:A Blue Dawn, Nelf Heritage Armor
+* Leveling/Neutral: Shandris Feathermoon Questline, The Coalition of Flames
+### WotLK
+* Leveling/Alliance: Intro Human, Intro Dwarf/Gnome
+### Classic
+* Leveling/Alliance: 01-12 Dun Morogh
+
 # Release 2023.09.06.A
 ## Bug Fixes
 * Cagomei: Updated DF Zone data

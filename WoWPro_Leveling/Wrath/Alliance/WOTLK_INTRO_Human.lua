@@ -40,7 +40,7 @@ T Tainted Letter|QID|3105|M|49.97,42.65|N|To Drusilla La Salle outside on the ri
 = Level 2 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|Rogue,Warlock|
 
 K Investigate Echo Ridge|ACTIVE|15|QO|1|M|48.39,35.52|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
-C Brotherhood of Thieves|QID|18|QO|1|M|48.39,35.52|L|752 8|ITEM|752|N|Defias Thugs.|
+C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|L|752 8|ITEM|752|N|Defias Thugs.|
 L Level 4|ACTIVE|18|N|Grind until you're halfway to level 4.|LVL|3;-700|
 
 T Brotherhood of Thieves|QID|18|M|48.05,43.56|N|To Deputy Willem.|
@@ -90,6 +90,7 @@ A Lost Necklace|QID|85|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
 T Lost Necklace|QID|85|M|43.14,85.72|N|To Billy Maclure.|
 A Pie for Billy|QID|86|PRE|85|M|43.14,85.72|N|From Billy Maclure|
 C Chunks of Boar Meat|QID|86|M|41.5,86.8|L|769 4|ITEM|769|N|Stonetusk Boars|T|Stonetusk Boar|US|
+L Level 6|ACTIVE|87|N|Grind until you're within 4 bubbles of level 6.|LVL|5;-550|
 T Pie for Billy|QID|86|M|34.49,84.25|N|To "Auntie" Bernice Stonefield|
 A Back to Billy|QID|84|PRE|86|M|34.49,84.25|N|From "Auntie" Bernice Stonefield.|
 A Young Lovers|QID|106|M|43.15,89.62|N|From Maybell Maclure.|
@@ -101,7 +102,6 @@ R The Fargodeep Mine|ACTIVE|62|QO|1|M|40.45,82.31|Z|1429;Elwynn Forest|N|From ei
 K Goldtooth|ACTIVE|87|M|41.69,77.94|L|981|N|Kill and loot Goldtooth.|
 C Gold Dust Exchange|QID|47|M|41.04,79.78|L|773 10|ITEM|773|N|Any Kobold in or around Fargodeep Mine.|US|
 C Kobold Candles|QID|60|M|41.04,79.78|L|772 8|ITEM|772|N|Any Kobold in or around Fargodeep Mine.|US|
-L Level 6|ACTIVE|87|N|Grind until you're within 6 bubbles of level 6.|LVL|5;-875|
 T Goldtooth|QID|87|M|34.49,84.25|N|To "Auntie" Bernice Stonefield.|
 A Princess Must Die!|QID|88|M|34.66,84.48|N|From Ma Stonefield.|
 T Young Lovers|QID|106|M|29.84,86.00|N|To Tommy Joe Stonefield.|
@@ -111,8 +111,8 @@ A Note to William|QID|107|PRE|111|M|34.94,83.86|N|From Gramma Stonefield.|
 
 R Goldshire|QID|62|M|43.77,65.80|N|Run back to Goldshire.|LVL|6;-1250|S|
 L Level 7|ACTIVE|60|N|Grind until you're within 7 bubbles of level 7.|LVL|6;-1250|
-R Goldshire|QID|62|M|43.77,65.80|N|Run back to Goldshire.|US|
-T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|US|
+H Goldshire|QID|62|M|43.77,65.80|N|Use your hearth or run back to Goldshire (depending on how close you are).|
+T Kobold Candles|QID|60|M|43.32,65.70|N|To William Pestle.|
 A Shipment to Stormwind|QID|61|PRE|60|M|43.32,65.70|N|From William Pestle.|
 T Note to William|QID|107|M|43.32,65.70|N|To William Pestle.|
 A Collecting Kelp|QID|112|PRE|107|M|43.32,65.70|N|From William Pestle.|
@@ -190,7 +190,7 @@ R Forest's Edge|ACTIVE|239|M|28.80,77.91|Z|1429;Elwynn Forest|N|Head to the firs
 T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
 A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|From Deputy Rainer.|
 A Wanted:  "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429;Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Posters in Westbrook Garrison; the one on the road to the tower or the one in front of the tower.|
-l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite (a rare mob the spawns around Forest's Edge) \n[color=FF0000]NOTE: [/color]There is a low 1% drop rate from Hogger and Riverpaws.\nSkip if you can't find him.|T|Gruff|S!US|
+l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite (a rare mob the spawns around Forest's Edge) \n[color=FF0000]NOTE: [/color]There is a low 1% drop rate from Hogger and Riverpaws.\nSkip if you can't find him.|T|Gruff|S!US|IZ|Forest's Edge|
 A The Collector|QID|123|M|PLAYER|CC|N|From the Gold Pickup Schedule you just looted.|U|1307|O|
 K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|
 C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
@@ -239,60 +239,65 @@ t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
 A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew |QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
-A The Killing Fields|QID|9|M|56.04,31.23|Z|Westfall|N|From Farmer Saldean. Note, he is also a vendor.|
+R Saldean's Farm|ACTIVE|36|M|57.02,30.11|Z|Westfall|N|Follow the road south to the farm.|
+A The Killing Fields|QID|9|M|56.04,31.23|Z|Westfall|N|From Farmer Saldean.\n[color=FF0000]NOTE: [/color]He is also a vendor.|
 T Westfall Stew |QID|36|M|56.41,30.52|Z|Westfall|N|To Salma Saldean.|
 A Westfall Stew |QID|38|PRE|36|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|
 A Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|
+C Goretusk Liver Pie|QID|22|L|723 8|ITEM|723|Z|Westfall|N|Goretusk found all over Westfall.|S|IZ|Westfall|
+C Westfall Stew|QID|38|Z|Westfall|N|Kill Vultures, Harvest Watchers/Golems, Murlocs and Goretusks.|S|IZ|Westfall|
 
 R Sentinel Hill|ACTIVE|109|M|57.61,44.45|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
-T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle. (you can accept The People's militia now, or wait for questlog space later.)|
+T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle.\n[color=FF0000]NOTE: [/color]You can accept "The People's Militia" now, or wait and save questlog space until later.|
 A A Swift Message|QID|6181|M|57.00,47.17|Z|Westfall|N|From Quartermaster Lewis.|R|Human|
 h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
 T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|R|Human|
-f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|R|Human|
-F Stormwind|QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
+f Sentinel Hill|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+F Stormwind|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
-T Gakin's Summons|QID|1685|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
+; ---------- LEVEL 10 CLASS QUEST cont.------------
+T Gakin's Summons|QID|1685|M|25.2,78.6|Z|Stormwind City|N|coordsTo Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
 A Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
-C Surena Caledon|QID|1688|M|71,80|N|Find, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
+C Surena Caledon|QID|1688|M|71,80|N|coordsFind, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
 T Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 A The Binding|QID|1689|PRE|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
 C The Binding|QID|1689|M|25.2,77.2|Z|Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|
 T The Binding|QID|1689|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
-T Continue to Stormwind|QID|6281|M|77.08,61.18|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|R|Human|
-A Dungar Longdrink|QID|6261|PRE|6281|M|77.08,61.18|Z|Stormwind City|N|From Osric Strang.|R|Human|
 T Mirror Lake|QID|1861|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon.|C|Mage|
 T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
 A Snatch and Grab|QID|2206|PRE|2205|M|76.0,59.8|Z|Stormwind City|N|From Master Mathias Shaw.|C|Rogue|
 C Snatch and Grab|QID|2206|M|47,87|ITEM|7298|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest until next time you are conveniently in Goldshire.|C|Rogue|
 T Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+T Continue to Stormwind|QID|6281|M|77.17,60.98|Z|Stormwind City|N|To Osric Strang, inside Limited Immunity Shop in Old Town.|R|Human|
+A Dungar Longdrink|QID|6261|PRE|6281|M|77.17,60.98|Z|Stormwind City|N|From Osric Strang.|R|Human|
 
-T Elmore's Task|QID|1097|M|59.67,33.84|Z|Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
-A Stormpike's Delivery|QID|353|PRE|1097|M|59.67,33.84|Z|Stormwind City|N|From Grimand Elmore.|
-R Deeprun Tram|QID|6661|M|66.85,33.54|Z|Stormwind City|N|Run to the Deeprun Tram.|
-A Deeprun Rat Roundup|QID|6661|N|Board the Tram to take you Ironforge, then quest From Monty, at the Ironforge Tram Stop.|
-C Deeprun Rat Roundup|QID|6661|N|Use Rat Catcher's Flute on Deeprun Rats, and catch five of them.|T|Deeprun Rat|U|17117|NC|
+T Elmore's Task|QID|1097|M|59.72,33.77|Z|Stormwind City|N|To Grimand Elmore, inside a shop on the west side of the Dwarven District.|
+A Stormpike's Delivery|QID|353|PRE|1097|M|59.72,33.77|Z|Stormwind City|N|From Grimand Elmore.|
+R Deeprun Tram|QID|6661|M|69.11,30.82|Z|Stormwind City|N|Enter the Deeprun Tram.\n[color=FF0000]NOTE: [/color]Once you enter the portal, coordinates will no longer work as long as you're inside.|
+A Deeprun Rat Roundup|QID|6661|N|Board the Tram to take you to the Ironforge Tram stop (east) and get the quest from Monty on the center platform.|
+C Deeprun Rat Roundup|QID|6661|QO|1|N|Target the Deeprun Rats and use the Rat Catcher's Flute on them.|T|Deeprun Rat|U|17117|NC|
 T Deeprun Rat Roundup|QID|6661|N|To Monty.|
-A Me Brother, Nipsy |QID|6662|PRE|6661|N|From Monty.|
-T Me Brother, Nipsy |QID|6662|N|To Nipsy at the Stormwind Tram Stop. If you are quick you can jump off and turn in before the tram leaves.|
-R Tinker Town|ACTIVE|353|N|Board the Tram back to Ironforge and take the tunnel to your North.|
+A Me Brother, Nipsy |QID|6662|PRE|6661|N|From Monty (after a short pause).|
+T Me Brother, Nipsy |QID|6662|N|Board the Tram to take you to back the Stormwind Tram stop (west) and turn in the quest to Nipsy on the center platform.\n[color=FF0000]NOTE: [/color]If you use the car at the opposite end of the platform and do it quick, you can jump off and turn in before the tram leaves.|
+R Tinker Town|AVAILABLE|384|N|Board the Tram back to Ironforge (east) and exit through the tunnel to the north.|IZ|Deeprun Tram|
 
-f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
-R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|Ironforge|N|Head to the exit of Ironforge.|
-R Kharanos|QID|384|M|47.16,45.39|Z|Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
+f Ironforge|AVAILABLE|384|M|62.85,28.38;55.49,47.71|CS|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+N Housekeeping|AVAILABLE|384|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|T|Ironforge Guard|S!US|IZ|City of Ironforge|
+R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|Ironforge|N|Exit Ironforge.|IZ|City of Ironforge|
+R Kharanos|QID|384|M|47.16,45.48|Z|Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
 A Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|From Razzle Sprysprocket.|
 A Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|From Ragnar Thunderbrew.|
 C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|Crag Boar Rib.|S|
 A Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|From Pilot Bellowfiz.|
 C Stocking Jetsteam|QID|317|M|20.2,75.8|Z|Dun Morogh|L|769 4|N|Chunk of Boar Meat.|S|
 C Stocking Jetsteam|QID|317|M|67,59.6|Z|Dun Morogh|L|6952 2|N|Kill young black bears to loot Thick Bear Fur.|S|
-A The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|From Pilot Stonegear.|
+;A The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|From Pilot Stonegear.|
 A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|Z|Dun Morogh|N|From Loslor Rudge.|
 
-R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|CC|Z|Dun Morogh|N|Make your way to the cave entrance.|
-C The Grizzled Den|QID|313|L|2671 8|N|Kill the Wendigo to loot Wendigo Mane.|
-C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|Dun Morogh|L|13850|N|Exit the cave and run across the field to the camp just inside the tree line.|
+;R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|CC|Z|Dun Morogh|N|Make your way to the cave entrance.|
+;C The Grizzled Den|QID|313|L|2671 8|N|Kill the Wendigo to loot Wendigo Mane.|
+C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|Dun Morogh|L|13850|N|Run across the field to the camp just inside the tree line.|
 T Ammo for Rumbleshot|QID|5541|M|46.19,61.90;40.68,65.13|CC|Z|Dun Morogh|N|Head up the hill to the road and follow it to Hegnar Rumbleshot.|
 R Coldridge Pass|QID|412|M|36.20,61.79|Z|Dun Morogh|N|Follow the road westward towards Coldridge Pass.|
 R Brewnall Village|QID|412|M|33.69,57.13;30.84,51.46|CC|Z|Dun Morogh|N|Run down the hill and into the valley to the road leading into Brewnall Village.|
@@ -316,27 +321,27 @@ R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road ea
 A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|From Rudra Amberstill.|
 C Protecting the Herd|QID|314|QO|1|M|62.45,50.35;62.37,49.06;62.45,49.01|CS|Z|Dun Morogh|N|Kill Vagash, and loot Fang of Vagash.|
 T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
-R Gol'Bolar Quarry|QID|432|M|67.19,53.54|N|Locate the dirt path leading south into the Quarry from the road.\n[color=FF0000]NOTE: [/color]There is a signpost on the road pointing to it.|
-A The Public Servant|QID|433|M|68.67,55.97|N|From Senator Mehr Stonehallow|
-A Those Blasted Troggs!|QID|432|M|69.08,56.32|N|From Foreman Stonebrow|
-K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|N|Kill Rockjaw Skullthumpers, found both inside and outside area of the quarry.|S|
-K The Public Servant|ACTIVE|433|QO|1|M|70.98,54.54|N|Kill the Rockjaw Bonesnappers, inside the Gol'Bolar Quarry Mine.\n[color=FF0000]NOTE: [/color]There is a small group of 4 neutral (yellow) that path around the quarry area.|
-K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|N|Kill Rockjaw Skullthumpers, leave the mine, and target those outside only.|US|
-T The Public Servant|QID|433|M|68.67,55.97|N|To Senator Mehr Stonehallow|
-r Sell and Repair|ACTIVE|432|M|68.86,55.96|N|Sell and Repair with Frast Dokner.|S|
-T Those Blasted Troggs!|QID|432|M|69.08,56.32|N|To Foreman Stonebrow|
+R Gol'Bolar Quarry|QID|432|M|67.19,53.54|Z|Dun Morogh|N|Locate the dirt path leading south into the Quarry from the road.\n[color=FF0000]NOTE: [/color]There is a signpost on the road pointing to it.|
+A The Public Servant|QID|433|M|68.67,55.97|Z|Dun Morogh|N|From Senator Mehr Stonehallow|
+A Those Blasted Troggs!|QID|432|M|69.08,56.32|Z|Dun Morogh|N|From Foreman Stonebrow|
+K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|Z|Dun Morogh|N|Kill Rockjaw Skullthumpers, found both inside and outside area of the quarry.|S|
+K The Public Servant|ACTIVE|433|QO|1|M|70.98,54.54|Z|Dun Morogh|N|Kill the Rockjaw Bonesnappers, inside the Gol'Bolar Quarry Mine.\n[color=FF0000]NOTE: [/color]There is a small group of 4 neutral (yellow) that path around the quarry area.|
+K Those Blasted Troggs!|ACTIVE|432|QO|1|M|70.05,58.20|Z|Dun Morogh|N|Kill Rockjaw Skullthumpers, leave the mine, and target those outside only.|US|
+T The Public Servant|QID|433|M|68.67,55.97|Z|Dun Morogh|N|To Senator Mehr Stonehallow|
+r Sell and Repair|ACTIVE|432|M|68.86,55.96|Z|Dun Morogh|N|Sell and Repair with Frast Dokner.|S|
+T Those Blasted Troggs!|QID|432|M|69.08,56.32|Z|Dun Morogh|N|To Foreman Stonebrow|
 
-R North Gate Pass|QID|419|M|67.21,52.91;78.00,49.61;78.16,49.36|CS|N|Follow the road east until you come to a fork and take the northeastern road to North Gate Pass.|
-R North Gate Outpost|QID|419|M|83.00,40.30|N|Continue through the tunnel to North Gate Outpost at the other end.|
-A The Lost Pilot|QID|419|M|83.89,39.19|N|From Pilot Hammerfoot|
-T The Lost Pilot|QID|419|M|79.68,36.17|N|To the Dwarven Corpse northwest of your current location.|
-A A Pilot's Revenge|QID|417|PRE|419|M|79.68,36.17|N|From Dwarven Corpse.|
-C A Pilot's Revenge|QID|417|M|78.34,37.82|L|3183|N|Kill and loot Mangeclaw.|
-T A Pilot's Revenge|QID|417|M|83.89,39.19|N|To Pilot Hammerfoot|
-R South Gate Pass|ACTIVE|413|M|79.28,51.84|N|Go back through the tunnel to the fork and travel a short distance up the other road.|
-R South Gate Outpost|QID|413|M|82.28,53.43;84.33,51.16|CC|N|Continue up the hill and through the tunnel to South Gate Outpost.|
-T Shimmer Stout|QID|413|M|86.28,48.82|N|To Mountaineer Barleybrew|
-A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|N|From Mountaineer Barleybrew|
+R North Gate Pass|QID|419|M|67.21,52.91;78.00,49.61;78.16,49.36|CS|Z|Dun Morogh|N|Follow the road east until you come to a fork and take the northeastern road to North Gate Pass.|
+R North Gate Outpost|QID|419|M|83.00,40.30|Z|Dun Morogh|N|Continue through the tunnel to North Gate Outpost at the other end.|
+A The Lost Pilot|QID|419|M|83.89,39.19|Z|Dun Morogh|N|From Pilot Hammerfoot|
+T The Lost Pilot|QID|419|M|79.68,36.17|Z|Dun Morogh|N|To the Dwarven Corpse northwest of your current location.|
+A A Pilot's Revenge|QID|417|PRE|419|M|79.68,36.17|Z|Dun Morogh|N|From Dwarven Corpse.|
+C A Pilot's Revenge|QID|417|M|78.34,37.82|L|3183|Z|Dun Morogh|N|Kill and loot Mangeclaw.|
+T A Pilot's Revenge|QID|417|M|83.89,39.19|Z|Dun Morogh|N|To Pilot Hammerfoot|
+R South Gate Pass|ACTIVE|413|M|79.28,51.84|Z|Dun Morogh|N|Go back through the tunnel to the fork and travel a short distance up the other road.|
+R South Gate Outpost|QID|413|M|82.28,53.43;84.33,51.16|CC|Z|Dun Morogh|N|Continue up the hill and through the tunnel to South Gate Outpost.|
+T Shimmer Stout|QID|413|M|86.28,48.82|Z|Dun Morogh|N|To Mountaineer Barleybrew|
+A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|Z|Dun Morogh|N|From Mountaineer Barleybrew|
 ]]
 end)
 
