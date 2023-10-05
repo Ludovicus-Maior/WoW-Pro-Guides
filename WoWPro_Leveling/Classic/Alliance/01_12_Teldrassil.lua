@@ -10,53 +10,51 @@ WoWPro:GuideNextGuide(guide, 'ClassicDarkshore1220')
 WoWPro:GuideSteps(guide, function() return [[
 
 A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
-C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|
-r Sell and Repair|AVAILABLE|4495|N|Sell and Repair with Keina in Aldrassil.|
-T The Balance of Nature|QID|456|M|58.68,44.27|N|To Conservator Ilthalaine.|
-
-A Simple Sigil|QID|3116|PRE|456|C|Warrior|M|58.69,44.27|N|From Conservator Ilthalaine.|
-A Etched Sigil|QID|3117|PRE|456|C|Hunter|M|58.69,44.27|N|From Conservator Ilthalaine.|
-A Encrypted Sigil|QID|3118|PRE|456|C|Rogue|M|58.69,44.27|N|From Conservator Ilthalaine.|
-A Hallowed Sigil|QID|3119|PRE|456|C|Priest|M|58.69,44.27|N|From Conservator Ilthalaine.|
-A Verdant Sigil|QID|3120|PRE|456|C|Druid|M|58.69,44.27|N|From Conservator Ilthalaine.|
-A The Balance of Nature|PRE|456|QID|457|M|58.69,44.27|N|From Conservator Ilthalaine.|
-
+K The Balance of Nature|ACTIVE|456|QO|1;2|N|Kill Young Nightsabers and Young Thistle Boars.|
+T The Balance of Nature|QID|456|M|58.69,44.27|N|To Conservator Ilthalaine.|
+A Simple Sigil|QID|3116|PRE|456|M|58.69,44.27|N|From Conservator Ilthalaine.|C|Warrior|
+A Etched Sigil|QID|3117|PRE|456|M|58.69,44.27|N|From Conservator Ilthalaine.|C|Hunter|
+A Encrypted Sigil|QID|3118|PRE|456|M|58.69,44.27|N|From Conservator Ilthalaine.|C|Rogue|
+A Hallowed Sigil|QID|3119|PRE|456|M|58.69,44.27|N|From Conservator Ilthalaine.|C|Priest|
+A Verdant Sigil|QID|3120|PRE|456|M|58.69,44.27|N|From Conservator Ilthalaine.|C|Druid|
+A The Balance of Nature|QID|457|PRE|456|M|58.69,44.27|N|From Conservator Ilthalaine.|
 A The Woodland Protector|QID|458|M|59.92,42.47|N|From Melithar Staghelm.|
-A A Good Friend|QID|4495|LVL|2|M|60.90,41.97|N|From Dirania Silvershine.|
-
-T Simple Sigil|QID|3116|C|Warrior|M|59.63,38.45|N|Further inside the building and to the right.|
-R Etched Sigil|QID|3117|ACTIVE|3117|C|Hunter|M|57.64,41.70|CC|N|Walk up the ramp outside to get to your trainer.|
-T Etched Sigil|QID|3117|C|Hunter|M|58.66,40.45|N|To Ayanna Everstride.|
-T Encrypted Sigil|QID|3118|C|Rogue|M|59.64,38.67|N|Further inside the building and to the right.|
-R Hallowed Sigil|QID|3119|ACTIVE|3119|C|Priest|M|59.96,41.95|CC|N|Walk up the ramp inside the building.|
-T Hallowed Sigil|QID|3119|C|Priest|M|59.18,40.45|N|To Shanda.|
-R Verdant Sigil|QID|3120|ACTIVE|3120|C|Druid|M|57.64,41.70|CC|N|Walk up the ramp outside to get to your trainer.|
-T Verdant Sigil|QID|3120|C|Druid|M|58.62,40.29|N|To Mardant Strongoak.|
-
-N Level 2 class skill|QID|458|S|LVL|2|N|Take this opportunity to learn your Level 2 skill!|
-T The Woodland Protector|QID|458|M|57.75,45.02|N|To Tarindrella.|
-A The Woodland Protector|QID|459|PRE|458|M|57.75,45.02|N|From Tarindrella.|
-C The Woodland Protector|QID|459|M|55.91,45.79|N|Kill and loot the Grell for the Moss.|
-T The Woodland Protector|QID|459|M|57.75,45.02|N|To Tarindrella.|
-A Webwood Venom|QID|916|LVL|3|M|57.81,41.65|N|From Gilshalan Windwalker.|
-C Webwood Venom|QID|916|S|QO|1|N|Kill and loot Webwood Spiders.|
-C The Balance of Nature|QID|457|S|N|Kill Mangy Nightsabers and Thistle Boars along the way.|
-T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron.|
-A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron.|
-r Sell and Repair|AVAILABLE|3521|S|N|Sell and Repair with Keina in Aldrassil.|
+A A Good Friend|QID|4495|M|60.90,41.97|N|From Dirania Silvershine.|
+r Sell|ACTIVE|458|M|59.31,41.09|N|Sell your trash to Keina in Aldrassil.|
+T Simple Sigil|QID|3116|M|59.63,38.45|N|Further inside the building and to the right.|C|Warrior|
+R Ramp|ACTIVE|3117^3119^3120|M|57.64,41.70|CC|N|Walk outside to the ramp leading up the tree.|C|Druid,Hunter|
+T Etched Sigil|QID|3117|M|58.66,40.45|N|To Ayanna Everstride.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Hunter|
+T Encrypted Sigil|QID|3118|M|59.64,38.67|N|Further inside the building and to the right.|C|Rogue|
+T Hallowed Sigil|QID|3119|M|59.18,40.45|N|To Shanda.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the next level.|C|Priest|
+T Verdant Sigil|QID|3120|M|58.62,40.29|N|To Mardant Strongoak.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Druid|
+= Level 2 Training|ACTIVE|458|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
+T The Woodland Protector|QID|458|M|57.73,45.23|N|To Tarindrella.|
+A The Woodland Protector|QID|459|PRE|458|M|57.73,45.23|N|From Tarindrella.|
+C The Woodland Protector|QID|459|M|55.91,45.79|L|3297 8|ITEM|3297|N|Grell found in camps along the east mountains.|
+L Level 3|AVAILABLE|916|N|Grind until you're within 5 bubbles of level 3|LVL|2;-250|
+T The Woodland Protector|QID|459|M|57.73,45.23|N|To Tarindrella.|
+A Webwood Venom|QID|916|M|57.81,41.65|N|From Gilshalan Windwalker.|LVL|3|
+C Webwood Venom|QID|916|M|56.80,29.20|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen.|S|
+T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron\n[color=FF0000]NOTE: [/color].|
+A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron, in the alcove before the cave entrance.|
+R Aldrassil|ACTIVE|3519|M|60.03,42.45|N|[color=FF0000]NOTE: [/color]This is a quick run to Aldrassil and back. The 'A Friend in Need' follow-up requires killing Webwood Spiders.|
+r Sell and Repair|AVAILABLE|3521|M|59.31,41.09|N|Clear some bag space by selling to Keina in Aldrassil.|S|
 T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
-
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
-C Hyacinth Mushrooms|QID|3521|M|55.00,43.20|CN|S|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
-C The Balance of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
-C Webwood Ichor|QID|3521|M|56.80,31.60|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
-C Webwood Venom|QID|916|US|QO|1|N|Kill and loot Webwood Spiders.|
-C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|N|You should find plenty of Moonpetal Lilies at the lake.|
-C Hyacinth Mushrooms|QID|3521|M|55.00,43.20|CN|US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
-
+C Webwood Ichor|QID|3521|M|56.80,31.60|L|10640|ITEM|10640|N|Webwood Spider|S|
+C Hyacinth Mushrooms|QID|3521|M|55.43,39.30|L|10639 7|ITEM|10639|N|Grell/Grellkin\nThey are purple/brown and found at the base of the trees.|S|
+C Moonpetal Lily|QID|3521|M|57.69,37.59|L|10641 4|N|You'll find plenty at the lake behind Aldrassil.|
+C Hyacinth Mushrooms|QID|3521|M|55.43,39.30|L|10639 7|ITEM|10639|N|Grell/Grellkin\nThey are purple/brown and found at the base of the trees.|US|
+C Webwood Ichor|QID|3521|M|56.80,31.60|L|10640|ITEM|10640|N|Webwood Spiders found in the northwest corner of Shadowglen.|US|
+C Webwood Venom|QID|916|M|56.80,29.20|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen and inside the Shadowthread Cave.|US|
+K The Balance of Nature|QID|457|QO|1;2|M|61.08,34.71|N|Kill any Mangy Nightsabers and Thistle Boars you come across.|US|
+L Level 4|ACTIVE|916|N|Grind until you're at least halfway level 4.|LVL|3;-680|
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
+r Sell and Repair|AVAILABLE|3522|M|59.31,41.09|N|Sell/repair at Keina.|S|IZ|Aldrassil|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
-T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
+T The Balance of Nature|QID|457|M|58.61,44.72|N|To Conservator Ilthalaine.|
+= Level 4 Training|ACTIVE|3521|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Aldrassil^Shadowglen|
+A In Favor of Elune|QID|5622|M|59.18,40.45|N|From Shanda.|C|Priest|
 
 r Sell and Repair|AVAILABLE|3522|S|N|Sell Junk and Repair.|
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
