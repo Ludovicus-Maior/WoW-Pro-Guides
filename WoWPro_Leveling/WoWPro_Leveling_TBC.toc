@@ -4,7 +4,7 @@
 ## Author: Jiyambi
 ## IconTexture: Interface\GossipFrame\AvailableQuestIcon
 ## Dependencies: WoWPro
-## Version: 2023.09.14.A
+## Version: 2023.10.15.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Leveling.lua
