@@ -1,4 +1,4 @@
-# Release 2023.10.15.A
+# Release 2023.10.11.A
 ## Bug Fixes
 * Empty Guide text updated to help folks get started easier
 * Wrath interface stepped from 30402 to 30403
