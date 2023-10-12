@@ -1,3 +1,16 @@
+# Release 2023.10.11.A
+## Bug Fixes
+* Empty Guide text updated to help folks get started easier
+* Wrath interface stepped from 30402 to 30403
+## Guide Updates
+### Retail
+* Achievements:A Blue Dawn, Nelf Heritage Armor
+* Leveling/Neutral: Thaldraszus, Waking Shores,
+### WotLK
+* Leveling/Alliance: Intro Dwarf/Gnome, Intro Human
+### Classic
+* Leveling/Alliance: Intro Dwarf/Gnome, Intro Human, Intro Nelf, Eastern Kingdom 12-20
+
 # Release 2023.09.14.A
 ## Bug Fixes
 * No bug fixes!

@@ -143,7 +143,7 @@ T A Fishy Peril|QID|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 A Further Concerns|QID|35|PRE|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 
 ; The next few steps are in Stormwind City
-R Stormwind City|ACTIVE|61|M|74.68,93.32|Z|Stormwind City|N|Follow the road northwest to Stormwind City.|
+R Stormwind City|ACTIVE|61|M|71.03,89.07|Z|Stormwind City|N|Follow the road northwest to Stormwind City.|
 N Housekeeping|ACTIVE|61|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|T|Stormwind City Guard|S!US|IZ|Stormwind City|
 f Stormwind City|ACTIVE|61|M|62.71,64.54;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|Stormwind City|R|-Human|
 T Shipment to Stormwind|QID|61|M|56.21,64.58|Z|1453;Stormwind City|N|To Morgan Pestle, inside Pestle's Apothecary.|
@@ -180,7 +180,7 @@ T Protect the Frontier|QID|52|M|73.97,72.18|Z|1429;Elwynn Forest|N|To Guard Thom
 A Report to Gryan Stoutmantle|QID|109|M|73.97,72.18|Z|1429;Elwynn Forest|N|From Guard Thomas.|LVL|9|
 R Goldshire|ACTIVE|112|M|43.77,65.95|Z|1429;Elwynn Forest|N|Start heading towards Goldshire.|S!US|LVL|8;-2220|
 L Level 9|ACTIVE|112|N|Grind until you're within 8.5 bubbles of level 9.|LVL|8;-2220|
-H Goldshire|QID|112|M|43.77,65.95|Z|1429;Elwynn Forest|N|Hearth back to Goldshire (or run if your hearthstone is on cooldown).|
+H Goldshire|QID|112|M|43.77,65.95|Z|1429;Elwynn Forest|N|Hearth back to Goldshire (or run if your hearthstone is on cooldown).|TZ|Lion's Pride Inn|
 T Collecting Kelp|QID|112|M|43.32,65.70|N|To William Pestle.|
 A The Escape|QID|114|PRE|112|M|43.32,65.70|N|From William Pestle.\n[color=FF0000]NOTE: [/color]It takes 10 seconds from completing the previous quest for this one to become available.|
 = Level 8 Training|ACTIVE|76|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Goldshire^Lion's Pride Inn|
@@ -195,7 +195,7 @@ R The Maclure Vineyards|ACTIVE|114|M|39.89,85.86|Z|1429;Elwynn Forest|N|Head sou
 T The Escape|QID|114|M|43.16,89.63|N|To Maybell Maclure.|
 R The Stonefield Farm|ACTIVE|88|M|35.48,85.18|Z|1429;Elwynn Forest|N|Head west from the Vineyards to the farm.|
 T Princess Must Die!|QID|88|M|34.66,84.48|N|To Ma Stonefield.|
-R Forest's Edge|ACTIVE|239|M|28.80,77.91|Z|1429;Elwynn Forest|N|Head to the first bridge on the road west out of Goldshire.|
+R Forest's Edge|AVAILABLE|176|M|28.79,77.94|Z|1429;Elwynn Forest|N|Follow the road west to the first bridge.|
 T Westbrook Garrison Needs Help!|QID|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|To Deputy Rainer.|
 A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|From Deputy Rainer.|
 A Wanted:  "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429;Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Posters in Westbrook Garrison; the one on the road to the tower or the one in front of the tower.|
