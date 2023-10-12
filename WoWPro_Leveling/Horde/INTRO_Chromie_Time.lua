@@ -20,7 +20,7 @@ N Choose Legion|QID|60970|M|40.82,80.13|JUMP|Demon Hunter: Order Hall;10|S|N|If 
 N Choose Battle for Azeroth|QID|51443|M|40.82,80.13|JUMP|Battle for Azeroth: Intro|S|N|If you decided to stay in the current timeline.|CT|NOCACHE|LVL|-60|
 N Choose Shadowlands|QID|99999|M|56.26,17.31|JUMP|Shadowlands Intro - The Maw;11|S|N|If you selected to goto the Shadowlands timeline.|CT|NOCACHE|LVL|-60|
 
-N Make your choice|QID|99999|M|40.82,80.13|N|Speak with Chromie to transport you back in time to level up during any expansion period.\n\nIf you want to level in BFA content, that is the current timeline and speaking with chromie is not necessary.\n\nOnce Chromies UI is open, click the book button next to your expansion of choice to automatically make your selection with Chromie and load the corresponding guide.|CT|NOCACHE|LVL|-60|
+N Make your choice|QID|99999|M|40.82,80.13|N|Speak with Chromie to transport you back in time to level up during any expansion period.\n\nOnce Chromies UI is open, click the book button next to your expansion of choice to automatically load the corresponding guide.|CT|NOCACHE|LVL|-60|
 
 N Not Eligible|AVAILABLE|62568|M|62.25,29.93|N|You need to have leveled a character to level 60 before you are eligible to use Chromie.|LVL|-60|
 N Not Eligible|AVAILABLE|62567|M|62.25,29.93|N|You cannot use chromie time once you reach level 60.|LVL|60|
