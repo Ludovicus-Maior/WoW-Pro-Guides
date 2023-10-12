@@ -66,15 +66,11 @@ A Lost to the Flame|QID|76324|PRE|76323|M|53.81,63.94|Z|2200|N|From Merithra.|
 A Burning Out|QID|77948|PRE|76323|M|52.02,63.64|Z|2200|N|From Solarys Thorngale.|RANK|2|
 A A Sleepy Search|QID|77896|PRE|76323|M|50.31,63.35|Z|2200|N|From Icarius.|RANK|2|
 A Trouble at the Tree|QID|77316|PRE|76323|M|49.78,62.49|Z|2200|N|From Lady Moonberry.|RANK|2|
-A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|2|
-C A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|Tell Wration you tell you about the netherwings.|CHAT|
-T A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|To Wrathion.|
-A Draconic Diplomacy|QID|76461|PRE|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|2|
 
-
-
-
-
+A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|2|;Probably being moved to a new guide. 
+C A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|Tell Wration you tell you about the netherwings.|CHAT|;Probably being moved to a new guide. 
+T A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|To Wrathion.|;Probably being moved to a new guide. 
+A Draconic Diplomacy|QID|76461|PRE|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|2|;Probably being moved to a new guide. 
 
 A The Dryad Garden|QID|76566|M|50.77,62.09|Z|2200|N|From Cenarius.|RANK|2|
 A The Q'onzu Query|QID|78065|M|50.77,62.09|Z|2200|N|From Cenarius.|RANK|2|
@@ -102,11 +98,12 @@ A Home in the Dream|QID|76326|PRE|76325|M|50.95,70.00|Z|2200|N|From Merithra.|
 T The Dryad Garden|QID|76566|M|53.75,74.55|Z|2200|N|To Ethidris Creekward.|RANK|2|
 A Grousing Garden|QID|76567|PRE|76566|M|53.75,74.55|Z|2200|N|From Ethidris Creekward.|RANK|2|
 A Pineshrew Panic|QID|76568|PRE|76566|M|53.75,74.55|Z|2200|N|From Ethidris Creekward.|RANK|2|
+C Grousing Garden|QID|76567|M|53.59,76.40|Z|2200|QO|1|NC|N|Wildlife tired out.|S|
 C Pineshrew Panic|QID|76568|M|55.12,76.76|Z|2200|QO|1|NC|N|Pineshrew seeds shaken.|
 C Pineshrew Panic|QID|76568|M|53.96,77.25|Z|2200|QO|2|NC|N|Big Snaggleclaw retrieved.|
 C Pineshrew Panic|QID|76568|M|53.96,77.25|Z|2200|QO|3|NC|N|Big Snaggleclaw retrieved.|
-C Grousing Garden|QID|76567|M|53.59,76.40|Z|2200|QO|1|NC|N|Wildlife tired out.|
 C Pineshrew Panic|QID|76568|M|53.74,74.58|Z|2200|QO|4|NC|N|Tell Ethidris about the dryad.|
+C Grousing Garden|QID|76567|M|53.59,76.40|Z|2200|QO|1|NC|N|Wildlife tired out.|US|
 T Grousing Garden|QID|76567|M|53.74,74.58|Z|2200|N|To Ethidris Creekward.|RANK|2|
 T Pineshrew Panic|QID|76568|M|53.74,74.58|Z|2200|N|To Ethidris Creekward.|RANK|2|
 A Druid-Guardian Conference|QID|76569|PRE|76567&76568|M|53.74,74.58|Z|2200|N|From Ethidris Creekward.|RANK|2|
@@ -117,20 +114,40 @@ A Growth Experience|QID|76571|PRE|76569|M|53.77,74.52|Z|2200|N|From Melyrine Pet
 T A Sleepy Search|QID|77896|M|58.13,77.33|Z|2200|N|To Thaalean.|RANK|2|
 A Build-a-Blanket|QID|77911|PRE|77896|M|58.13,77.33|Z|2200|N|From Thaalean.|RANK|2|
 A Fluffy Filler Retrieval|QID|77922|PRE|77896|M|58.13,77.33|Z|2200|N|From Thaalean.|RANK|2|
+C Fluffy Filler Retrieval|QID|77922|M|59.44,80.91|Z|2200|QO|1|NC|N|Silky Sage.|RANK|2|S|
 C Build-a-Blanket|QID|77911|M|58.56,81.29|Z|2200|QO|1|NC|N|Velvety Lasher Leaves.|
-C Fluffy Filler Retrieval|QID|77922|M|59.44,80.91|Z|2200|QO|1|NC|N|Silky Sage.|RANK|2|
+C Fluffy Filler Retrieval|QID|77922|M|59.44,80.91|Z|2200|QO|1|NC|N|Silky Sage.|RANK|2|US|
 T Build-a-Blanket|QID|77911|M|58.13,77.30|Z|2200|N|To Thaalean.|RANK|2|
 T Fluffy Filler Retrieval|QID|77922|M|58.13,77.30|Z|2200|N|To Thaalean.|RANK|2|
 A Heated Hearthstone Hustle|QID|77955|PRE|77911&77922|M|58.13,77.30|Z|2200|N|From Thaalean.|RANK|2|
-C The Dream Gathers|Z|Emerald Dream|SO|2|S|N|Help Clarelle hydrate the Rain-Starved Flowers.|
-C Heated Hearthstone Hustle|QID|77955|QO|0/1 Heated Hearthstone|N|Bugged on PTR|RANK|2|
-C Use Clarelle's cloud to water Rain-Starved Flowers|M|57.33,72.21|Z|Emerald Dream|SO|2;1|N|Use Clarelle's cloud to water Rain-Starved Flowers|
-C The Dream Gathers|Z|Emerald Dream|SO|2|US|N|Help Clarelle hydrate the Rain-Starved Flowers.|
+C Growth Experience|QID|76571|M|59.09,71.56|Z|2200|N|Click the dirt|S|
+C The Family Business|QID|76570|M|59.09,71.56|Z|2200|N|Kill the flowers and loot the hearts|S|
+C Heated Hearthstone Hustle|QID|77955|M|59.75,68.72|Z|2200|QO|1|N|Kill The Stonewarmer and loot the Heated Hearthstone|RANK|2|
+t The Family Business|QID|76570|M|PLAYER|Z|2200|N|To Dionaessa.|RANK|2|
+t Growth Experience|QID|76571|M|PLAYER|Z|2200|N|To Dionaessa.|RANK|2|
+C Growth Experience|QID|76571|M|59.09,71.56|Z|2200|N|Click the dirt|US|
+C The Family Business|QID|76570|M|59.09,71.56|QO|1|Z|2200|N|Kill the flowers and loot the hearts|US|
+T The Family Business|QID|76570|M|PLAYER|Z|2200|N|To Dionaessa.|RANK|2|
+T Growth Experience|QID|76571|M|PLAYER|Z|2200|N|To Dionaessa.|RANK|2|
+A A Poisonous Promotion|QID|76572|PRE|76570&76571|M|PLAYER|Z|2200|N|From Dionaessa.|RANK|2|
+C A Poisonous Promotion|QID|76572|M|58.12,72.52|Z|2200|QO|1|N|Sickened Growth slain.|
+C Heated Hearthstone Hustle|QID|77955|M|58.15,77.32|Z|2200|QO|2|N|Give the stone to Thaalean|RANK|2|
+T Heated Hearthstone Hustle|QID|77955|M|58.15,77.32|Z|2200|N|Turn in to Thaalean|RANK|2|
+A Sleepy Druid in Emerald Dream|QID|77958|PRE|77955|M|58.18,77.33|Z|2200|N|From Thaalean|
+C Sleepy Druid in Emerald Dream|QID|77958|QO|1|M|58.18,77.33|Z|2200|N|From Thaalean|
+C Sleepy Druid in Emerald Dream|QID|77958|QO|2|M|58.18,77.33|Z|2200|N|From Thaalean|
+C Sleepy Druid in Emerald Dream|QID|77958|QO|3|M|58.18,77.33|Z|2200|N|From Thaalean|
+T A Poisonous Promotion|QID|76572|M|53.80,74.60|Z|2200|N|To Dionaessa.|RANK|2|
+A What Do I Call You?|QID|77802|PRE|76572|M|53.80,74.60|Z|2200|N|From Dionaessa.|RANK|2|
+C What Do I Call You?|QID|77802|M|53.80,74.60|Z|2200|QO|1|CHAT|N|Speak with Dionaessa to choose a title.|
+T What Do I Call You?|QID|77802|M|53.80,74.60|Z|2200|N|To Dionaessa.|RANK|2|
+T Sleepy Druid in Emerald Dream|QID|77958|M|50.34,63.34|Z|2200|N|To Icatius.|
 T Home in the Dream|QID|76326|M|50.79,62.85|Z|2200|N|To Merithra.|
 A A Multi-Front Battle|QID|77283|PRE|76326|M|50.79,62.85|Z|2200|N|From Merithra.|
-C A Multi-Front Battle|QID|77283|M|51.08,62.37|Z|2200|QO|1|NC|N|Leora Found.|
-C A Multi-Front Battle|QID|77283|M|50.22,61.60|Z|2200|QO|3|NC|N|Keeper Amrymn found.|
-C A Multi-Front Battle|QID|77283|M|49.87,61.66|Z|2200|QO|2|NC|N|Saelienne found.|
+C A Multi-Front Battle|QID|77283|M|50.22,61.60|Z|2200|QO|2|NC|N|Keeper Amrymn found.|
+C A Multi-Front Battle|QID|77283|M|49.87,61.66|Z|2200|QO|1|NC|N|Saelienne found.|
+C A Multi-Front Battle|QID|77283|M|49.77,62.89|Z|2200|QO|3|NC|N|Vaskarn Found.|
+
 T A Multi-Front Battle|QID|77283|M|50.79,62.87|Z|2200|N|To Merithra.|
 A The Burning Barrow|QID|77436|PRE|77283|M|50.79,62.87|Z|2200|N|From Merithra.|
 A A Worthy Ally: Dream Wardens|QID|78444|PRE|77283|M|50.21,61.60|Z|2200|N|From Keeper Amrymn.|RANK|2|
@@ -213,16 +230,9 @@ T Burning Out|QID|77948|M|50.86,63.62|Z|2200|N|To Solarys Thorngale.|RANK|2|
 T A Passed Torch|QID|77978|M|50.86,63.62|Z|2200|N|To Solarys Thorngale.|RANK|2|
 A A Silver Lining|QID|78096|PRE|77948&77978|M|50.83,63.60|Z|2200|N|From Kery'nael Thorngale.|RANK|2|
 T A Silver Lining|QID|78096|M|50.83,63.60|Z|2200|N|To Kery'nael Thorngale.|RANK|2|
-C The Family Business|QID|76570|M|59.64,73.62|Z|2200|QO|1|NC|N|Lasher Heart.|
-C Growth Experience|QID|76571|M|58.40,70.78|Z|2200|QO|2|NC|N|Flowers grown.|
-T The Family Business|QID|76570|M|58.40,70.86|Z|2200|N|To Dionaessa.|RANK|2|
-T Growth Experience|QID|76571|M|58.40,70.86|Z|2200|N|To Dionaessa.|RANK|2|
-A A Poisonous Promotion|QID|76572|PRE|78096&76570&76571|M|58.40,70.86|Z|2200|N|From Dionaessa.|RANK|2|
-C A Poisonous Promotion|QID|76572|M|58.12,72.52|Z|2200|QO|1|N|Sickened Growth slain.|
-T A Poisonous Promotion|QID|76572|M|53.80,74.60|Z|2200|N|To Dionaessa.|RANK|2|
-A What Do I Call You?|QID|77802|PRE|76572|M|53.80,74.60|Z|2200|N|From Dionaessa.|RANK|2|
-C What Do I Call You?|QID|77802|M|53.80,74.60|Z|2200|QO|1|CHAT|N|Speak with Dionaessa to choose a title.|
-T What Do I Call You?|QID|77802|M|53.80,74.60|Z|2200|N|To Dionaessa.|RANK|2|
+
+
+
 C The Q'onzu Query|QID|78065|M|34.73,68.94|Z|2200|QO|1|NC|U|210227|N|Find Q'onzu's nest..|
 T The Q'onzu Query|QID|78065|M|34.73,68.95|Z|2200|N|To Follower of Q'onzu.|RANK|2|
 A Q'onzu's Qualification|QID|78163|PRE|78065|M|34.73,68.95|Z|2200|N|From Follower of Q'onzu.|RANK|2|
