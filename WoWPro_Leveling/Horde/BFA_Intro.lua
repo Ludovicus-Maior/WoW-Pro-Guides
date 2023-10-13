@@ -12,6 +12,25 @@ C Battle for Azeroth: Mission Statement|QID|60361^51443|M|48.55,71.49|Z|Orgrimma
 C Battle for Azeroth: Mission Statement|QID|60361^51443|M|54.62,78.34|Z|Orgrimmar|QO|2|N|Go to the Broken Tusk Inn and meet your team|NC|
 T Battle for Azeroth: Mission Statement|QID|60361^51443|M|54.45,78.42|Z|Orgrimmar|N|To Nathanos Blightcaller.|
 
+A The Stormwind Extraction|QID|50769|M|54.45,78.42|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51443^60361|
+C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|N|Take a potion. Don't use it!|H|
+C The Stormwind Extraction|QID|50769|M|50.89,83.96|Z|Orgrimmar|QO|2|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|V|
+C In the Dead of Night|QID|50769|M|47.21,59.58|Z|Stormwind City!Stormwind City!Instance|SO|1;1|N|Infiltrate Stormwind City|NC|
+C Down the Drain|QID|50769|M|46.23,58.19|Z|Stormwind City!Stormwind City!Instance|SO|2;2|N|Open the sewer access gate|H|
+C Down the Drain|QID|50769|M|41.29,62.51|Z|Stormwind City!Stormwind City!Instance|SO|2;1|N|Go in the sewer access gate.|H|
+C The Stockades|QID|50769|M|51.30,39.62|Z|The Stockade!The Stockade!Instance|SO|3;1|N|Fight your way to meet up with Rokhan.|
+C Honor and Loyalty|QID|50769|M|48.05,33.68|Z|The Stockade!The Stockade!Instance|SO|4;2|N|Click on the Door to Saurfang's cell and go in.|H|
+C Honor and Loyalty|QID|50769|M|48.05,33.68|Z|The Stockade!The Stockade!Instance|SO|4;1|N|Talk to Saurfang.|CHAT|
+C The Primary Objective|QID|50769|M|56.00,64.16|Z|The Stockade!The Stockade!Instance|SO|5;1|N|Fight your way to the next waypoint and open the cell to release the Princess and the Prophet.|
+C The Primary Objective|QID|50769|M|56.67,40.64;87.01,23.28|Z|The Stockade!The Stockade!Instance|CS|SO|5;2|N|Fight your way down the hall and to the sewer grate, Click on the grade to go thru.|
+C The City Stirs|QID|50769|M|55.78,56.46|Z|Stormwind City!Stormwind City!Instance|SO|6;1|N|Talk to Rokhan and then follow closely so you stay in his invis-o sphere.|CHAT|
+C WAY Behind Enemy Lines|QID|50769|M|55.87,56.88|Z|Stormwind City!Stormwind City!Instance|SO|7;1|N|Defeat the worgen ambush.|
+C Escape Cathedral Square|QID|50769|M|45.42,43.19|Z|Stormwind City!Stormwind City!Instance|SO|7;2|N|Keep following your buddies and fighting your way thru Stormwind. Chat with Nathanos when you get to him, to end this stage.|
+C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City!Stormwind City!Instance|SO|8;1|N|Break down the ice wall.|
+C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City!Stormwind City!Instance|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|
+C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City!Stormwind City!Instance|SO|10;1|N|Talk to Talanji on the bridge of her ship.|CHAT|
+T The Stormwind Extraction|QID|50769|M|39.50,70.83|Z|1164|N|To Nathanos Blightcaller.|
+
 A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|PRE|50769|
 C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|N|Follow Princess Talanji. You will need to stay close, otherwise she will stop running.|NC|
 T Welcome to Zuldazar|QID|46957|M|57.97,56.50|Z|Zuldazar|N|To General Jakra'zet.|
