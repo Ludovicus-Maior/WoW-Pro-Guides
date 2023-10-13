@@ -67,10 +67,10 @@ A Burning Out|QID|77948|PRE|76323|M|52.02,63.64|Z|2200|N|From Solarys Thorngale.
 A A Sleepy Search|QID|77896|PRE|76323|M|50.31,63.35|Z|2200|N|From Icarius.|RANK|2|
 A Trouble at the Tree|QID|77316|PRE|76323|M|49.78,62.49|Z|2200|N|From Lady Moonberry.|RANK|2|
 
-A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|2|;Probably being moved to a new guide. 
-C A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|Tell Wration you tell you about the netherwings.|CHAT|;Probably being moved to a new guide. 
-T A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|To Wrathion.|;Probably being moved to a new guide. 
-A Draconic Diplomacy|QID|76461|PRE|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|2|;Probably being moved to a new guide. 
+A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|2|;Probably being moved to a new guide.
+C A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|Tell Wration you tell you about the netherwings.|CHAT|;Probably being moved to a new guide.
+T A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|To Wrathion.|;Probably being moved to a new guide.
+A Draconic Diplomacy|QID|76461|PRE|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|2|;Probably being moved to a new guide.
 
 A The Dryad Garden|QID|76566|M|50.77,62.09|Z|2200|N|From Cenarius.|RANK|2|
 A The Q'onzu Query|QID|78065|M|50.77,62.09|Z|2200|N|From Cenarius.|RANK|2|
@@ -147,7 +147,6 @@ A A Multi-Front Battle|QID|77283|PRE|76326|M|50.79,62.85|Z|2200|N|From Merithra.
 C A Multi-Front Battle|QID|77283|M|50.22,61.60|Z|2200|QO|2|NC|N|Keeper Amrymn found.|
 C A Multi-Front Battle|QID|77283|M|49.87,61.66|Z|2200|QO|1|NC|N|Saelienne found.|
 C A Multi-Front Battle|QID|77283|M|49.77,62.89|Z|2200|QO|3|NC|N|Vaskarn Found.|
-
 T A Multi-Front Battle|QID|77283|M|50.79,62.87|Z|2200|N|To Merithra.|
 A The Burning Barrow|QID|77436|PRE|77283|M|50.79,62.87|Z|2200|N|From Merithra.|
 A A Worthy Ally: Dream Wardens|QID|78444|PRE|77283|M|50.21,61.60|Z|2200|N|From Keeper Amrymn.|RANK|2|
