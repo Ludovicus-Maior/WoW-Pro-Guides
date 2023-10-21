@@ -45,9 +45,9 @@ T Taming the Wilds|QID|59342|M|62.73,69.84|N|Turn into Captain Garrick.|
 A Down with the Quilboar|QID|55186|PRE|55173|M|62.73,69.84|N|From Austin Huxworth.|
 A Forbidden Quilboar Necromancy|QID|55184|PRE|55173|M|62.73,69.84|N|From Austin Huxworth.|
 C Forbidden Quilboar Necromancy|QID|55184|N|Kill Quilboar in the area.|S|
-K Ogre Overseer|QID|55184|M|60.52,59.86|Z|Exile's Reach!Instance|RARE|N|Silver Elite to kill and loot.|T|Ogre Overseer|
+;K Ogre Overseer|ACTIVE|55184|M|60.52,59.86|Z|Exile's Reach!Instance|N|Silver Elite to kill and loot.|T|Ogre Overseer|RARE|
 C Forbidden Quilboar Necromancy|QID|55184|M|61.60,62.88|N|Kill Quilboar in the area.|US|
-C Down with the Quilboar|QID|55186|M|58.91,62.96|N|End Geolord Grek'og and rescue Lindie.|
+C Down with the Quilboar|QID|55186|M|58.91,62.96|N|End Geolord Grek'og and rescue Lindie.|T|Geolord|
 $ Quilboar Treasures|QID|56579|M|58.52,59.30|Z|Exile's Reach!Instance|N|Loot the treasure chest.|
 T Forbidden Quilboar Necromancy|QID|55184|M|56.25,59.17|N|Turn into Austin Huxworth.|
 T Down with the Quilboar|QID|55186|M|56.16,59.13|N|Turn into Lindie Springstock.|
@@ -125,7 +125,7 @@ A Purge the Totems|QID|55881|PRE|55196|M|56.83,46.29|N|From Henry Garrick.|
 A Harpy Culling|QID|55764|PRE|55196|M|56.92,46.26|N|From Kee-La.|
 C Harpy Culling|QID|55764|M|56.84,46.29|N|Kill Harpies and Worgs. Don't focus on them as you will finish it in the main quest.|S|
 C Purge the Totems|QID|55881|M|56.84,46.29|N|Burn the Harpy Totems.|H|S|
-K Ogre Taskmaster|QID|59611|M|58.74,40.87|RARE|N|Silver Elite to kill and loot.|T|Ogre Taskmaster|
+;K Ogre Taskmaster|QID|59611|M|58.74,40.87|RARE|N|Silver Elite to kill and loot.|T|Ogre Taskmaster|
 $ Stolen Supplies|QID|56581|M|59.30,37.61|N|Loot the treasure chest.|
 C The Rescue of Meredy Huntswell|QID|55763|M|54.32,41.48|N|Chat with Meredy to start the 5 waves of attack. The first 4 waves are a mix of 2-3 Harpy Ambushers and Hunting Worgs. The 5th and final wave is Bloodbeak. Kill him to finish the quest.|CHAT|
 C Purge the Totems|QID|55881|M|56.84,46.29|N|Finish burning the Harpy Totems.|H|US|
