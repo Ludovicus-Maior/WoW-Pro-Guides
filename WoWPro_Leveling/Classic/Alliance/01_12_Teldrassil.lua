@@ -93,7 +93,7 @@ T Dolanaar Delivery|QID|2159|M|55.62,59.79|N|To Innkeeper Keldamyr.|
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|From Zarrin.|P|Cooking;185;0|
 T Crown of the Earth|QID|928|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|N|From Corithras Moonrage.|
-C Garments of the Moon|QID|5621|M|57.24,63.50|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|C|Priest|
+C Garments of the Moon|QID|5621|M|57.24,63.50|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|T|Sentinel Shaya|C|Priest|
 T Garments of the Moon|QID|5621|M|55.56,56.75|N|To Laurana Morninglight.|C|Priest|
 = Professions|ACTIVE|475|M|PLAYER|CC|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you'll have one heck of a detour to take). Others are in Darnassus.\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S|IZ|Dolanaar|
 C Recipe of the Kaldorei|QID|4161|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|S|
@@ -141,7 +141,7 @@ r Sell and Repair|ACTIVE|932|M|56.24,59.51|N|Sell and Repair at one of the vendo
 
 R Fel Rock|ACTIVE|932|QO|1|M|53.94,58.13;53.65,55.86;54.65,52.65|CC|N|The cave entrance is behind the tree building.|
 R Twisted Hatred|ACTIVE|932|QO|1|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|ELITE|N|[color=00FFFF]Strongly suggested you look for help with this one.[/color]\nInside the cave keep right.|
-K Lord Melenas|QID|932|M|51.45,49.91;51.22,50.74|CN|L|5221|N|Kill and loot Lord Melenas.\n[color=FF0000]NOTE: [/color]He spawns in two places, either on the ledge, or in the cavern below it.\nHe's level 8 and hits very hard for his level, transforming into a cat during the fight. He usually has two adds and will . His adds can be pulled single if you do it right.\nIf you're a caster, pull him from max range and use a Severed Voodoo Claw on him. It will reduce his damage a little.|T|Lord Melenas|
+K Lord Melenas|QID|932|M|51.45,49.91;51.22,50.74|CN|L|5221|N|Kill and loot Lord Melenas.\n[color=FF0000]NOTE: [/color]He spawns in three places, on the ledge, in the cavern below it, or in an alcove along the tunnel leading to the ledge.\nHe's level 8 and hits very hard for his level, transforming into a cat during the fight. He usually has two adds and will become a cat at some point in the fight. His adds can be pulled single if you do it right.\nIf you're a caster, pull him from max range and use a Severed Voodoo Claw on him. It will reduce his damage a little.|T|Lord Melenas|
 
 H Hearth or Grind|ACTIVE|932|M|53.94,58.13|N|As most of the mobs you've killed on the way in have respawned by now, use your Hearth or grind your way out.|TZ|Dolanaar|
 T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot.|
@@ -176,8 +176,9 @@ T The Sleeping Druid|QID|2541|M|44.95,61.59|N|To Oben Rageclaw.|
 A Druid of the Claw|QID|2561|PRE|2541|M|44.95,61.59|N|From Oben Rageclaw.|
 C Druid of the Claw|QID|2561|M|45.39,58.00|N|After returning to where Rageclaw is circling, kill him and use the Voodoo Charm on his corpse.|T|Rageclaw|U|8149|
 T Druid of the Claw|QID|2561|M|44.95,61.59|N|To Oben Rageclaw.|
-L Level 10|ACTIVE|933|N|Grind until you're within 2 bubbles of level 10.|LVL|9;-780|
-H Dolanaar|ACTIVE|933|M|PLAYER|CC|N|Hearth back to Dolanaar.|
+R Dolanaar|ACTIVE|933|M|53.94,58.13|N|Head towards Dolanaar.|S|LVL|9;-780|
+L Level 10|ACTIVE|933|M|53.94,58.13|N|Grind until you're within 2 bubbles of level 10.|LVL|9;-780|
+H Dolanaar|ACTIVE|933|M|53.94,58.13|N|Hearth back to Dolanaar.|
 
 T Crown of the Earth|QID|933|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|7383|PRE|933|M|56.15,61.71|N|From Corithras Moonrage.|
@@ -270,42 +271,41 @@ U Crown of the Earth|ACTIVE|7383|QO|1|M|38.44,34.06|N|Fill the Amethyst Phial at
 A The Enchanted Glade|QID|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
 ; N Enchanting|M|36.72,34.18|N|If you want to learn enchanting the trainer is here.|
 
-R Wellspring River|QID|937|ACTIVE|937|M|41.79,29.37|CC|N|Go in direction of the Wellspring river.|
+R Wellspring River|QID|937|ACTIVE|937|M|42.25,28.60|N|Head to Wellspring river.|
 
-N Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|T|Blackmoss the Fetid|N|Blackmoss the Fetid is a Level 13 rare beast that spawns on the NE bank of the Wellspring Lake. If he's not there, skip this quest as he has a 2hr+ respawn timer.|
-A The Moss-twined Heart|QID|927|M|43.37,27.75|U|5179|N|This item is dropped by Blackmoss. Use it to accept the quest.|O|
-C Tears of the Moon|QID|2518|T|Lady Sathrah|M|41.81,25.24;48.01,25.11;39.15,25.27|CN|N|Kill and loot the spider Lady Sathrah for the Silvery Spinnerets. She spawns in multiple locations.|
-C Destiny Calls|QID|2242|C|Rogue|M|37,21|N|Stealth up, sneak behind him and pickpocket Sethir's Journal.|
+K Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|N|Blackmoss the Fetid is a Level 13 rare beast that spawns on the NE bank of the Wellspring Lake. If he's not there, skip this quest as he has a 2hr+ respawn timer.|S|IZ|Wellspring River|RARE|
+A The Moss-twined Heart|QID|927|M|43.37,27.75|N|This item is dropped by Blackmoss. Use it to accept the quest.|U|5179|O|
+C Tears of the Moon|QID|2518|M|48.01,25.11;41.81,25.24;39.15,25.27|CN|N|Kill and loot the spider Lady Sathrah for the Silvery Spinnerets.\n[color=FF0000]NOTE: [/color]She spawns in multiple locations.|T|Lady Sathrah|
+C Destiny Calls|QID|2242|M|37,21|N|Stealth up, sneak behind him and pickpocket Sethir's Journal.|C|Rogue|
 
-C The Enchanted Glade|QID|937|S|N|Kill and loot the harpies for the Bloodfeather Belts.|
-A The Shimmering Frond|QID|931|M|34.67,28.75|N|From the Strange Fronded Plant. Right-click the glowing tree.|
-C The Enchanted Glade|QID|937|M|33.0,32.0|US|N|Kill and loot the harpies until you have 6 Bloodfeather Belts.|
-A Mist|R|Human,Night Elf,Dwarf|QID|938|M|31,31|N|From Mist. An escort quest, once accepted, this will start a 9 minute timer.\nIf Mist is not here, someone is already on the quest and you have to wait.|
-C Mist|QID|938|M|38.32,34.37|NC|N|Escort Mist to Sentinel Arynia Cloudsbreak.|
+C The Enchanted Glade|QID|937|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle Glade.|S|
+A The Shimmering Frond|QID|931|M|34.67,28.75|N|From the Strange Fronded Plant.\n[color=FF0000]NOTE: [/color]Right-click the glowing tree.|
+C The Enchanted Glade|QID|937|M|33.0,32.0|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle Glade.|US|
+N Clear the area|AVAILABLE|938|M|31.53,31.61|N|Clear anything you see in the area. You want nothing alive to get in your way as you do the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Mist|QID|938|M|31.53,31.61|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Mist.\n[color=FF0000]NOTE: [/color]Once accepted, this will start a 9 minute timer.\nIf Mist is not here, someone is already on the quest and you have to wait.|R|Human,Night Elf,Dwarf|
+A Mist|QID|938|M|31.53,31.61|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Mist to restart.\n[color=FF0000]NOTE: [/color]Once accepted, you have 9 minutes to complete it.\nIf Mist is not here, someone is already on the quest and you have to wait.|R|Human,Night Elf,Dwarf|FAIL|
+C Mist|QID|938|M|38.32,34.37|N|Lead Mist to Sentinel Arynia Cloudsbreak.\n[color=FF0000]NOTE: [/color]Mist will follow you, but will not help you fight.|NC|
 T Mist|QID|938|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
 T The Enchanted Glade|QID|937|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
 A Teldrassil|QID|940|PRE|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
-L Level 11|LVL|11|N|If you are not level 11 yet grind on mobs.|
+L Level 11|ACTIVE||N|Grind until you're within 2 bubbles of level 11.|LVL|10;-650|
 
-R Towards Dolanaar|QID|1683|ACTIVE|1683|M|47.23,49.56|CC|N|Head back to the path towards Dolanaar|
-R Vorlus Vilehoof|QID|1683|C|Warrior|M|49.27,57.38;48.38,60.59|CS|N|Warriors take a detour to the path leading up to the old moonwell.|
-C Vorlus Vilehoof|QID|1683|C|Warrior|M|47.22,63.52|N|Follow the path up and kill him.|
-
-R Dolanaar|QID|7383|ACTIVE|7383|M|47.25,49.6;54.8,58.5|CS|N|Head back to Dolanaar|
-
+R Towards Dolanaar|ACTIVE|1683|ACTIVE|1683|M|47.23,49.56|CC|N|Head back to the path towards Dolanaar.|
+R Vorlus Vilehoof|ACTIVE|1683|QO|1|M|49.27,57.38;48.38,60.59|CS|N|Take a detour to the path leading up to the old moonwell.|C|Warrior|
+K Vorlus Vilehoof|ACTIVE|1683|M|47.22,63.52|N|Follow the path up and kill him.|C|Warrior|
+R Dolanaar|ACTIVE|7383|M|47.25,49.6;54.8,58.5|CS|N|Head back to Dolanaar.|
 r Sell and Repair|ACTIVE|7383|M|56.25,59.25|N|Sell Junk and Repair.|
-B Laminated Recurve Bow|QID|7383|C|Hunter|LVL|11|M|55.89,59.20|L|2507|N|If you can afford it (and since you are level 11 now) buy a Laminated Recurve Bow from Jeena Featherbow. It costs 17s51c and the 5.8dps is better than the Crown of Earth reward which only has 3.8 dps.|
+B Laminated Recurve Bow|AVAILABLE|935|M|55.89,59.20|L|2507|N|If you can afford it, buy a Laminated Recurve Bow from Jeena Featherbow. It costs 17s51c and the 5.8dps is better than the Crown of Earth reward which only has 3.8 dps.|S|C|Hunter|LVL|11|
 T Crown of the Earth|QID|7383|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|935|PRE|7383|M|56.15,61.71|N|From Corithras Moonrage.|
 
 T Return to Denalan|QID|2498|M|60.90,68.50|N|To Denalan.|
-A Oakenscowl|QID|2499|PRE|2498|M|60.90,68.50|N|From Denalan. Note this is a Level 9 Elite quest.|
+A Oakenscowl|QID|2499|PRE|2498|M|60.90,68.50|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Denalan.|
 T The Shimmering Frond|QID|931|M|60.90,68.50|N|To Denalan.|
-
 T The Moss-twined Heart|QID|927|M|60.90,68.50|N|To Denalan.|
 A Planting the Heart|QID|941|PRE|927|N|Plant the Tainted Heart in Denalan's Planter. This will complete the quest.|
 A The Sprouted Fronds|QID|2399|PRE|931|M|60.79,68.58|N|Click on the trough and then right click one of the sprouted plants to show this quest.|
-C Oakenscowl|QID|2499|M|53.05,74.49|N|Inside the cave. He is Level 9 elite, but shouldn't be any problem to kill at your level. If you would accidentally pull an add or two, just curse him with your Severed Voodoo Claw (if you have charges left) to reduce his damage. Kill him and loot Gargantuan Tumor.|
+C Oakenscowl|QID|2499|M|53.05,74.49|N|Locate Oakenscowl inside the cave and kill him to loot the Gargantuan Tumor.\n[color=FF0000]NOTE: [/color]He's a Level 9 elite, but shouldn't be any problem at your level. If you accidentally pull an add or two, just curse him with your Severed Voodoo Claw (if you have charges left) to reduce his damage.|
 R Strange Fruited Plant|QID|930|ACTIVE|2499|M|51.27,75.74|CC|N|Go up this path.|
 A The Glowing Fruit|QID|930|M|42.62,76.11|N|Right-click the glowing plant.|
 K Ursal the Mauler|QID|486|QO|1|M|39.04,80.08|T|Ursal the Mauler|N|He's level 12 and can be difficult for some classes. Try to single pull him: Watch his patrolling route and clear out a few of the other Furbolgs beforehand. Use your Severed Voodoo Claw to curse him (if you still have charges left) and the fight shouldn't be any problem.|
