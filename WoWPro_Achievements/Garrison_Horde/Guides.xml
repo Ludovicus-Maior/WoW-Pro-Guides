@@ -1,5 +1,3 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
     <Script file="Ludo_BuildH.lua"/>
-    <Script file="Ludo_Campaign.lua"/>
-    <Script file="Ludo_Support.lua"/>
 </Ui>

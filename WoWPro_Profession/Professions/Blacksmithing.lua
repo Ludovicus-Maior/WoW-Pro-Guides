@@ -1,41 +1,16 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/profession_blacksmithing
--- Date: 2015-03-09 17:34
--- Who: Ludovicus
--- Log: The Imperial Exchange@Shrine of Seven Stars
-
--- URL: http://wow-pro.com/node/3409/revisions/26877/view
--- Date: 2014-11-08 00:14
--- Who: Ludovicus
--- Log: FACRION
-
--- URL: http://wow-pro.com/node/3409/revisions/25821/view
--- Date: 2013-11-27 20:54
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3409/revisions/25654/view
--- Date: 2013-05-16 00:52
--- Who: Twists
--- Log: Update to the new parser.
-
--- URL: http://wow-pro.com/node/3409/revisions/24682/view
--- Date: 2011-07-13 22:43
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3409/revisions/24642/view
--- Date: 2011-06-30 06:05
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3409/revisions/24634/view
--- Date: 2011-06-30 05:50
--- Who: Crackerhead22
-
-WoWPro.Profession:RegisterGuide('TwiBlacksmithing', 'Blacksmithing', 'Blacksmithing', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("TwiBlacksmithing","Profession","Blacksmithing", "Twists", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",164)
+WoWPro:GuideLevels(guide)
+WoWPro:GuideName(guide, "Blacksmithing")
+WoWPro:GuideSteps(guide, function()
 return [[
+
+N Do not use this Guide|N|This guide is broken, look for Blacksmithing_CATA|
 
 N Learn  Apprentice Blacksmithing|QID|901640000|P|Blacksmithing;164;*;0;75|N|Learn from a Trainer in any major city. Requires Level 5.|
 B Hammer|QID|901640001|P|Blacksmithing;164;1;2;|N|Buy from an NPC Supply|L|5956|
@@ -99,9 +74,12 @@ N Ghost-Forged Shoulders|QID|901640058|P|Blacksmithing;164;540;550;|N|7;Ghost Ir
 N Spiritguard Shield|QID|901640059|P|Blacksmithing;164;550;559;|N|9;Ghost Iron Bar;18;232|
 N Ghost-Forged Breastplate|QID|901640060|P|Blacksmithing;164;559;575;|N|12;Ghost Iron Bar;144;214|
 B Plans: Contender's Revenant Breastplace|QID|901640061|P|Blacksmithing;164;575;576;|N|From Cullen Hammerbrow in Shrine of Seven Stars.|M|72.2,49.4|FACTION|Alliance|Z|The Imperial Exchange@Shrine of Seven Stars|
-B Plans: Contender's Revenant Breastplace|QID|901640062|P|Blacksmithing;164;575;576;|N|From Jorunga Stonehoof in Shrine of Two Moons.|M|26.6,46.2|FACTION|Horde|Z|Shrine of Two Moons|
+B Plans: Contender's Revenant Breastplace|QID|901640062|P|Blacksmithing;164;575;576;|N|From Jorunga Stonehoof in Shrine of Two Moons.|M|26.6,46.2|FACTION|Horde|Z|Hall of the Crescent Moon@Shrine of Two Moons|
 N Contender's Revenant Breastplate|QID|901640063|P|Blacksmithing;164;575;600;|N|12;Ghost Iron Bar;60;60|
 
 N That completes Blacksmithing.
 ]]
 end)
+
+
+

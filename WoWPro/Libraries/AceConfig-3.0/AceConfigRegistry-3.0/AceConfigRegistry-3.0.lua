@@ -4,19 +4,19 @@
 -- * Valid **uiTypes**: "cmd", "dropdown", "dialog". This is verified by the library at call time. \\
 -- * The **uiName** field is expected to contain the full name of the calling addon, including version, e.g. "FooBar-1.0". This is verified by the library at call time.\\
 -- * The **appName** field is the options table name as given at registration time \\
--- 
+--
 -- :IterateOptionsTables() (and :GetOptionsTable() if only given one argument) return a function reference that the requesting config handling addon must call with valid "uiType", "uiName".
 -- @class file
 -- @name AceConfigRegistry-3.0
--- @release $Id: AceConfigRegistry-3.0.lua 1105 2013-12-08 22:11:58Z nevcairiel $
-local MAJOR, MINOR = "AceConfigRegistry-3.0", 15
+-- @release $Id: AceConfigRegistry-3.0.lua 1296 2022-11-04 18:50:10Z nevcairiel $
+local CallbackHandler = LibStub("CallbackHandler-1.0")
+
+local MAJOR, MINOR = "AceConfigRegistry-3.0", 21
 local AceConfigRegistry = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not AceConfigRegistry then return end
 
 AceConfigRegistry.tables = AceConfigRegistry.tables or {}
-
-local CallbackHandler = LibStub:GetLibrary("CallbackHandler-1.0")
 
 if not AceConfigRegistry.callbacks then
 	AceConfigRegistry.callbacks = CallbackHandler:New(AceConfigRegistry)
@@ -33,7 +33,7 @@ local error, assert = error, assert
 
 
 AceConfigRegistry.validated = {
-	-- list of options table names ran through :ValidateOptionsTable automatically. 
+	-- list of options table names ran through :ValidateOptionsTable automatically.
 	-- CLEARED ON PURPOSE, since newer versions may have newer validators
 	cmd = {},
 	dropdown = {},
@@ -57,8 +57,8 @@ local istable={["table"]=true,   _="table"}
 local ismethodtable={["table"]=true,["string"]=true,["function"]=true,   _="methodname, funcref or table"}
 local optstring={["nil"]=true,["string"]=true, _="string"}
 local optstringfunc={["nil"]=true,["string"]=true,["function"]=true, _="string or funcref"}
+local optstringnumberfunc={["nil"]=true,["string"]=true,["number"]=true,["function"]=true, _="string, number or funcref"}
 local optnumber={["nil"]=true,["number"]=true, _="number"}
-local optmethod={["nil"]=true,["string"]=true,["function"]=true, _="methodname or funcref"}
 local optmethodfalse={["nil"]=true,["string"]=true,["function"]=true,["boolean"]={[false]=true},  _="methodname, funcref or false"}
 local optmethodnumber={["nil"]=true,["string"]=true,["function"]=true,["number"]=true,  _="methodname, funcref or number"}
 local optmethodtable={["nil"]=true,["string"]=true,["function"]=true,["table"]=true,  _="methodname, funcref or table"}
@@ -66,6 +66,7 @@ local optmethodbool={["nil"]=true,["string"]=true,["function"]=true,["boolean"]=
 local opttable={["nil"]=true,["table"]=true,  _="table"}
 local optbool={["nil"]=true,["boolean"]=true,  _="boolean"}
 local optboolnumber={["nil"]=true,["boolean"]=true,["number"]=true,  _="boolean or number"}
+local optstringnumber={["nil"]=true,["string"]=true,["number"]=true, _="string or number"}
 
 local basekeys={
 	type=isstring,
@@ -82,24 +83,32 @@ local basekeys={
 		dialogHidden=optmethodbool,
 		dropdownHidden=optmethodbool,
 	cmdHidden=optmethodbool,
-	icon=optstringfunc,
+	tooltipHyperlink=optstringfunc,
+	icon=optstringnumberfunc,
 	iconCoords=optmethodtable,
 	handler=opttable,
 	get=optmethodfalse,
 	set=optmethodfalse,
 	func=optmethodfalse,
 	arg={["*"]=true},
-	width=optstring,
+	width=optstringnumber,
 }
 
 local typedkeys={
-	header={},
+	header={
+		control=optstring,
+		dialogControl=optstring,
+		dropdownControl=optstring,
+	},
 	description={
-		image=optstringfunc,
+		image=optstringnumberfunc,
 		imageCoords=optmethodtable,
 		imageHeight=optnumber,
 		imageWidth=optnumber,
 		fontSize=optstringfunc,
+		control=optstring,
+		dialogControl=optstring,
+		dropdownControl=optstring,
 	},
 	group={
 		args=istable,
@@ -112,10 +121,13 @@ local typedkeys={
 		childGroups=optstring,
 	},
 	execute={
-		image=optstringfunc,
+		image=optstringnumberfunc,
 		imageCoords=optmethodtable,
 		imageHeight=optnumber,
 		imageWidth=optnumber,
+		control=optstring,
+		dialogControl=optstring,
+		dropdownControl=optstring,
 	},
 	input={
 		pattern=optstring,
@@ -127,8 +139,11 @@ local typedkeys={
 	},
 	toggle={
 		tristate=optbool,
-		image=optstringfunc,
+		image=optstringnumberfunc,
 		imageCoords=optmethodtable,
+		control=optstring,
+		dialogControl=optstring,
+		dropdownControl=optstring,
 	},
 	tristate={
 	},
@@ -140,12 +155,16 @@ local typedkeys={
 		step=optnumber,
 		bigStep=optnumber,
 		isPercent=optbool,
+		control=optstring,
+		dialogControl=optstring,
+		dropdownControl=optstring,
 	},
 	select={
 		values=ismethodtable,
+		sorting=optmethodtable,
 		style={
-			["nil"]=true, 
-			["string"]={dropdown=true,radio=true}, 
+			["nil"]=true,
+			["string"]={dropdown=true,radio=true},
 			_="string: 'dropdown' or 'radio'"
 		},
 		control=optstring,
@@ -163,9 +182,14 @@ local typedkeys={
 	},
 	color={
 		hasAlpha=optmethodbool,
+		control=optstring,
+		dialogControl=optstring,
+		dropdownControl=optstring,
 	},
 	keybinding={
-		-- TODO
+		control=optstring,
+		dialogControl=optstring,
+		dropdownControl=optstring,
 	},
 }
 
@@ -202,13 +226,13 @@ local function validate(options,errlvl,...)
 	if type(options.type)~="string" then
 		err(".type: expected a string, got a "..type(options.type), errlvl,...)
 	end
-	
+
 	-- get type and 'typedkeys' member
 	local tk = typedkeys[options.type]
 	if not tk then
 		err(".type: unknown type '"..options.type.."'", errlvl,...)
 	end
-	
+
 	-- make sure that all options[] are known parameters
 	for k,v in pairs(options) do
 		if not (tk[k] or basekeys[k]) then
@@ -301,7 +325,7 @@ function AceConfigRegistry:RegisterOptionsTable(appName, options, skipValidation
 				AceConfigRegistry:ValidateOptionsTable(options, appName, errlvl)	-- upgradable
 				AceConfigRegistry.validated[uiType][appName] = true
 			end
-			return options 
+			return options
 		end
 	elseif type(options)=="function" then
 		AceConfigRegistry.tables[appName] = function(uiType, uiName, errlvl)
@@ -339,7 +363,7 @@ function AceConfigRegistry:GetOptionsTable(appName, uiType, uiName)
 	if not f then
 		return nil
 	end
-	
+
 	if uiType then
 		return f(uiType,uiName,1)	-- get the table for us
 	else

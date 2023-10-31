@@ -1,149 +1,10 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/hallows_end_alliance
--- Date: 2015-03-09 17:40
--- Who: Ludovicus
--- Log: The Underbelly@Dalaran
-
--- URL: http://wow-pro.com/node/3440/revisions/26865/view
--- Date: 2014-11-07 22:01
--- Who: Emmaleah
--- Log: corrections per list 'o errors missing N tag x2, misplaced z tag. several missing "|"
-
--- URL: http://wow-pro.com/node/3440/revisions/26761/view
--- Date: 2014-10-25 18:59
--- Who: Dez
--- Log: In Outland: added explicit reputation check for Aldor/Scryer.
-
--- URL: http://wow-pro.com/node/3440/revisions/26743/view
--- Date: 2014-10-19 23:57
--- Who: Dez
--- Log: In Eastern Kingdoms: Typo fixes (Acutioneer to Auctioneer, pumkin to pumpkin); Added steps to speak to Zidormi to revert Blasted Lands to pre-Iron Horde invasion, to allow accessing the two inns in this zone; Reordered steps to - at least partially - optimize pathing given the changes involved here (no flight points in the past time zone); couldn't find a flight point at Greenwarden's Grove, so changed that to a Run step; added a warning about PvP flag when going for the Horde's Wickerman.
-
--- URL: http://wow-pro.com/node/3440/revisions/26742/view
--- Date: 2014-10-19 21:39
--- Who: Dez
--- Log: In Kalimdor: Added note that flight to Exodar was an option vs. boat to Azuremyst Isle (and fixed spelling); Added flight steps between the Isles' candy buckets (per hendo72's suggestion); Renamed Teldrassil step to Rut'theran Village, so automatic flight would trigger properly; Feathermoon Stronghold is now just Feathermoon; Fixed copy/paste error identifying Bootlegger Outpost candy bucket as Marshal's Stand; Theramore Isle is now Theramore.
-
--- URL: http://wow-pro.com/node/3440/revisions/26741/view
--- Date: 2014-10-19 21:20
--- Who: Dez
--- Log: In Outland: Candy Buckets in Cenarion Refuge and Wildhammer Stronghold were missing the | before QID, had an extra at the end of the line.
-
--- URL: http://wow-pro.com/node/3440/revisions/26740/view
--- Date: 2014-10-19 21:12
--- Who: Dez
--- Log: In Northrend: Fixed up a couple of flight point name changes; fixed a couple lines that were missing the |Z| flag.
-
--- URL: http://wow-pro.com/node/3440/revisions/26738/view
--- Date: 2014-10-19 16:50
--- Who: Ludovicus
--- Log: Corrected guide registration for Hallow's End Alliance guides.
---	Boy I messed them up!
-
--- URL: http://wow-pro.com/node/3440/revisions/26542/view
--- Date: 2014-06-13 00:20
--- Who: Ludovicus
--- Log: Missing quote
-
--- URL: http://wow-pro.com/node/3440/revisions/26500/view
--- Date: 2014-06-10 21:58
--- Who: Ludovicus
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3440/revisions/25789/view
--- Date: 2013-10-28 19:40
--- Who: Ludovicus
--- Log: do emotes using new syntax
-
--- URL: http://wow-pro.com/node/3440/revisions/25787/view
--- Date: 2013-10-28 02:06
--- Who: Ludovicus
--- Log: Use Dalaran City@Dalaran instead of just Dalaran.
-
--- URL: http://wow-pro.com/node/3440/revisions/25777/view
--- Date: 2013-10-25 10:00
--- Who: Hendo72
--- Log: In the Kalimdor, Cataclysm, Outland and Northrend modules in this guide, an incorrect item ID is being used. Instead of "Handful of Treats" (37586), "Dousing Agent" (68648) is used.
-
--- URL: http://wow-pro.com/node/3440/revisions/25647/view
--- Date: 2013-05-14 19:21
--- Who: Ludovicus
--- Log: The Underbelly@Dalaran
-
--- URL: http://wow-pro.com/node/3440/revisions/25646/view
--- Date: 2013-05-14 19:19
--- Who: Ludovicus
--- Log: Corrected quest name [A Time to Lose]
-
--- URL: http://wow-pro.com/node/3440/revisions/25489/view
--- Date: 2013-01-13 23:44
--- Who: Ludovicus
--- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
-
--- URL: http://wow-pro.com/node/3440/revisions/25434/view
--- Date: 2013-01-13 15:23
--- Who: Ludovicus
--- Log: Added a CS tag
-
--- URL: http://wow-pro.com/node/3440/revisions/25156/view
--- Date: 2012-10-24 03:29
--- Who: Ludovicus
--- Log: Add MoP Hallows End.
-
--- URL: http://wow-pro.com/node/3440/revisions/25152/view
--- Date: 2012-10-22 20:33
--- Who: Ludovicus
--- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
-
--- URL: http://wow-pro.com/node/3440/revisions/25015/view
--- Date: 2012-06-30 19:28
--- Who: Ludovicus
--- Log: More zone name corrections.
-
--- URL: http://wow-pro.com/node/3440/revisions/25014/view
--- Date: 2012-06-30 19:22
--- Who: Ludovicus
--- Log: Add coords for flight Booty Bay flight point and correct zone.
-
--- URL: http://wow-pro.com/node/3440/revisions/25013/view
--- Date: 2012-06-30 19:16
--- Who: Ludovicus
--- Log: Wrong zone in Booty Bay Candy Bucket
-
--- URL: http://wow-pro.com/node/3440/revisions/24909/view
--- Date: 2012-01-19 21:47
--- Who: Ludovicus
--- Log: Delete duplicate guide
-
--- URL: http://wow-pro.com/node/3440/revisions/24790/view
--- Date: 2011-10-31 16:12
--- Who: Crackerhead22
--- Log: Moved location names around so auto-accept/turn-in will work.
-
--- URL: http://wow-pro.com/node/3440/revisions/24784/view
--- Date: 2011-10-29 22:16
--- Who: Crackerhead22
--- Log: Added in Twist's Hallows End guides.
-
--- URL: http://wow-pro.com/node/3440/revisions/24775/view
--- Date: 2011-10-28 09:03
--- Who: Crackerhead22
--- Log: Added note about candy bucket being in one of two place for Westfall due to phasing.  From tepes.
-
--- URL: http://wow-pro.com/node/3440/revisions/24773/view
--- Date: 2011-10-28 08:04
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3440/revisions/24770/view
--- Date: 2011-10-28 08:00
--- Who: Crackerhead22
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiHollEK",'WorldEvents',"Eastern Kingdoms", "Twists", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Eastern Kingdoms")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -166,7 +27,7 @@ T Stink Bombs Away!|QID|29054|M|32.36,50.79|N|To Gretchen Fenlow.|Z|Elwynn Fores
 C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|69191|Z|Stormwind City|S|
 C Missing Heirlooms|QID|29392|M|23.99,44.60|N|Head to harbor and search the ship.|Z|Stormwind City|
 T Missing Heirlooms|QID|29392|M|23.99,44.60|N|To Hired Courier.|Z|Stormwind City|
-A Fencing the Goods|QID|29398|M|23.99,44.60|N|To Hired Courier.|Z|Stormwind City|
+A Fencing the Goods|QID|29398|PRE|29392|M|23.99,44.60|N|To Hired Courier.|Z|Stormwind City|
 b Teldrassil|QID|8357|M|22.06,56.06|N|Take the boat to Teldrassil and enter the portal to Darnassus.|Z|Stormwind City|
 A Candy Bucket |QID|12334|M|62.25,33.17|Z|Darnassus|N|Darnassus|
 A Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|U|37586|
@@ -178,23 +39,23 @@ R Portal to Teldrassil|QID|8311|M|36.99,50.38|N|Head back to the portal.|Z|Darna
 b Stormwind|QID|8311|M|55.02,93.68|N|Return to Stormwind.|Z|Teldrassil|
 C Fencing the Goods|QID|29398|M|61.19,70.84|N|Talk to Auctioneer Finch.|Z|Stormwind City|
 T Fencing the Goods|QID|29398|M|61.19,70.84|N|To Auctioneer Finch.|Z|Stormwind City|
-A Shopping Around|QID|29399|M|61.19,70.84|N|From Auctioneer Finch.|Z|Stormwind City|
+A Shopping Around|QID|29399|PRE|29398|M|61.19,70.84|N|From Auctioneer Finch.|Z|Stormwind City|
 C Shopping Around|QID|29399|M|63.62,47.42|N|Seach the Shady Lady. Takes a while.|Z|Stormwind City|
 T Shopping Around|QID|29399|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
-A Taking Precautions|QID|29402|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
-C Taking Precautions|QID|29402|QO|Blood Nettle: 5/5|M|54.76,14.63|N|Around the pumpkin patch.|Z|Stormwind City|
+A Taking Precautions|QID|29402|PRE|29399|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
+C Taking Precautions|QID|29402|QO|3|M|54.76,14.63|N|Around the pumpkin patch.|Z|Stormwind City|
 C Taking Precautions|QID|29402|M|62.8,74.8|N|Purchase From Keldric Boucher at the Pestle's Apothecary.|Z|Stormwind City|
 T Taking Precautions|QID|29402|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 
-A The Collector's Agent|QID|29403|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
+A The Collector's Agent|QID|29403|PRE|29402|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
 C The Collector's Agent|QID|29403|M|51.23,44.63;53.16,42.52;55.26,43.54|N|In the catacombs in the Cathedral of Light.|Z|Stormwind City|CS|
 T The Collector's Agent|QID|29403|M|55.26,43.54|Z|Stormwind City|
-A What Now?|QID|29411|M|55.26,43.54|N|From the crate.|Z|Stormwind City|
+A What Now?|QID|29411|PRE|29403|M|55.26,43.54|N|From the crate.|Z|Stormwind City|
 A Flexing for Nougat|QID|8356|M|60.14,75.09|N|From Innkeeper Allison.|Z|Stormwind City|
 C Flexing for Nougat|QID|8356|T|/flex|N|click the button to flex.|Z|Stormwind City|
 T Flexing for Nougat|QID|8356|M|60.14,75.09|N|To Innkeeper Allison.|Z|Stormwind City|
 T What Now?|QID|29411|M|60.14,75.09|N|To Anson Hastings.|Z|Stormwind City|
-A The Creepy Crate|QID|29413|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
+A The Creepy Crate|QID|29413|PRE|529411^29411|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
 T The Creepy Crate|QID|29413|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
 
 C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|69191|Z|Stormwind City|US|
@@ -226,7 +87,7 @@ A Candy Bucket |QID|12342|M|26.38,41.57|Z|Redridge Mountains|N|Lakeshire|
 F Iron Summit|QID|28965|M|40.95,68.78|N|In Searing Gorge.|Z|Searing Gorge|U|37586|
 A Candy Bucket |QID|28965|M|39.55,66.06|Z|Searing Gorge|N|Iron Summit|
 F Dragon's Mouth|QID|28956|M|21.79,57.73|N|In the Badlands.|Z|Badlands|U|37586|
-A Candy Bucket |QID|28956|M|20.92,56.28|Z|Badlands|N|Dragon's Mouth||
+A Candy Bucket |QID|28956|M|20.92,56.28|Z|Badlands|N|Dragon's Mouth|
 F Fuselight|QID|28955|M|64.35,35.24|Z|Badlands|U|37586|
 A Candy Bucket |QID|28955|M|65.86,35.72|Z|Badlands|N|Fuselight|
 F Farstrider Lodge|QID|28963|M|81.90,64.13|Z|Loch Modan|U|37586|
@@ -251,7 +112,9 @@ A Candy Bucket |QID|28990|M|26.11,25.93|Z|Wetlands|N|Swiftgear Station|
 
 R Greenwarden's Grove|QID|28991|M|56.32,42.04|Z|Wetlands|U|37586|
 A Candy Bucket |QID|28991|M|58.15,39.23|Z|Wetlands|N|Greenwarden's Grove|
-F Stormfeather Outpost|QID|28970|M|65.72,44.97|Z|The Hinterlands|U|37586|
+F Refuge Point |QID|28954|M|65.72,44.97|Z|Wetlands|U|37586|
+A Candy Bucket |QID|28954|M|40.1,49.0|Z|Arathi Highlands|
+F Stormfeather Outpost|QID|28970|M|39.6,47|Z|Arathi Highlands|U|37586|
 A Candy Bucket |QID|28970|M|66.23,44.44|Z|The Hinterlands|N|Stormfeather Outpost|
 F Aerie Peak|QID|12351|M|11.11,46.09|Z|The Hinterlands|U|37586|
 A Candy Bucket |QID|12351|M|14.17,44.71|Z|The Hinterlands|N|Aerie Peak|
@@ -271,3 +134,6 @@ N This completes Hallow's End for Eastern Kingdom
 
 ]]
 end)
+
+
+

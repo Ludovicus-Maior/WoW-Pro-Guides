@@ -1,49 +1,10 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/argent_tournament_alliance
--- Date: 2014-07-25 20:43
--- Who: Ludovicus
--- Log: adj meanlevel
-
--- URL: http://wow-pro.com/node/3476/revisions/26545/view
--- Date: 2014-07-06 15:22
--- Who: Ludovicus
--- Log: guide level
-
--- URL: http://wow-pro.com/node/3476/revisions/26504/view
--- Date: 2014-06-10 22:26
--- Who: Ludovicus
--- Log: Coverted guide
-
--- URL: http://wow-pro.com/node/3476/revisions/25621/view
--- Date: 2013-05-14 15:19
--- Who: Ludovicus
--- Log: Removed extra M tag
-
--- URL: http://wow-pro.com/node/3476/revisions/25411/view
--- Date: 2013-01-13 14:31
--- Who: Ludovicus
--- Log: Added CC and CN tag
-
--- URL: http://wow-pro.com/node/3476/revisions/25358/view
--- Date: 2013-01-12 18:32
--- Who: Ludovicus
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3476/revisions/25291/view
--- Date: 2013-01-09 01:41
--- Who: Ludovicus
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3476/revisions/24983/view
--- Date: 2012-05-27 18:11
--- Who: Ludovicus
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoArgTour",'Dailies', "Icecrown", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,77,78,77.0131)
+WoWPro:GuideLevels(guide ,25,60)
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -61,33 +22,33 @@ C Mastery Of The Shield-Breaker|QID|13835|M|73.20,19.24|PRE|13667|N|From Scout S
 T Mastery Of The Charge|QID|13837|M|76.4,19.4|PRE|13667|N|From Avareth Swiftstrike.|
 T Mastery Of The Shield-Breaker|QID|13835|M|76.4,19.4|PRE|13667|N|From Scout Shalyndria.|
 T Mastery Of Melee|QID|13828|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|
-A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|
+A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13828&13835&13837|N|From Arcanist Taelis.|
 
 ; Black Knight Quests
 A The Black Knight of Westfall?|QID|13633|M|69.43,23.02|FACTION|Alliance|N|Crusader Rhydalla|
-A The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
+A The Black Knight of Silverpine?|QID|13634|PRE|13633|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
 C The Black Knight of Westfall?|QID|13633|M|42.10,69.66|Z|Westfall|N|Get to Moonbrook in Westfall and look at the Dusty Journal.|
 C The Black Knight of Silverpine?|QID|13634|M|53.1,28.1|Z|Silverpine Forest|N|Get to just past the Forsaken Rear Guard in Silverpine Forest and read the Dusty Journal.|
 T The Black Knight of Westfall?|QID|13633|M|69.43,23.02|N|Crusader Rhydalla|
 T The Black Knight of Silverpine?|QID|13634|M|69.43,23.02|FACTION|Horde|N|Crusader Rhydalla|
-A The Seer's Crystal|QID|13641|PRE|13633;13634|M|69.43,23.02|N|Crusader Rhydalla|
+A The Seer's Crystal|QID|13641|PRE|13633^13634|M|69.43,23.02|N|Crusader Rhydalla|
 C The Seer's Crystal|QID|13641|M|46, 42|Z|Crystalsong Forest|N|Kill Unbound Seer's to get the crystal.|
 T The Seer's Crystal|QID|13641|M|69.4,23.0|N|Crusader Rhydalla|
 A The Stories Dead Men Tell|QID|13643|PRE|13641|M|69.43,23.02|N|Crusader Rhydalla|
-C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|Sir Wendell Balfour's death investigated: 1/1|NC|N|Sir Wendell Balfour.|
-C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|Lorien Sunblaze's death investigated: 1/1|NC|N|Lorien Sunblaze|
-C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|Conall Irongrip's death investigated: 1/1|NC|N|Conall Irongrip|
+C The Stories Dead Men Tell|QID|13643|M|79.37,23.09|QO|1|NC|N|Sir Wendell Balfour|
+C The Stories Dead Men Tell|QID|13643|M|79.63,23.58|QO|2|NC|N|Lorien Sunblaze|
+C The Stories Dead Men Tell|QID|13643|M|79.64,22.85|QO|3|NC|N|Conall Irongrip|
 T The Stories Dead Men Tell|QID|13643|M|69.43,23.02|N|Crusader Rhydalla|
 A There's Something About the Squire|QID|13654|PRE|13643|M|69.43,23.02|N|Crusader Rhydalla|
 C There's Something About the Squire|QID|13654|M|39.35,56.75;39.01,59.99;37.15,58.42|Z|Crystalsong Forest|CN|N|Kill Skeletal Woodcutters until you get a Large Femur.|L|45080|
 C There's Something About the Squire|QID|13654|M|38.3,59.4|Z|Crystalsong Forest|N|Sneak behind Maloric and use the Large Femur to bonk him. His bag will be looted automatically.  Run away!|U|45080|
 T There's Something About the Squire|QID|13654|M|69.43,23.02|N|Crusader Rhydalla|
 A The Black Knight's Orders|QID|13663|PRE|13654|M|69.43,23.02|N|Crusader Rhydalla.|
-C The Black Knight's Orders|QID|13663|M|77.76,21.61|N|Go here and use the enchanted bridle.|U|45083|QO|Black Knight's Gryphon taken: 1/1|
-C The Black Knight's Orders|QID|13663|M|54.11,8.63|QO|Stolen Tournament Invitation: 1/1|N|Get the Stolen Invite|
-C The Black Knight's Orders|QID|13663|M|54.07,8.66|QO|Black Knight's Orders: 1/1|N|Get the Orders|
+C The Black Knight's Orders|QID|13663|M|77.76,21.61|N|Go here and use the enchanted bridle.|U|45083|QO|1|
+C The Black Knight's Orders|QID|13663|M|54.11,8.63|QO|2|N|Get the Stolen Invite|
+C The Black Knight's Orders|QID|13663|M|54.07,8.66|QO|3|N|Get the Orders|
 T The Black Knight's Orders|QID|13663|M|69.43,23.02|N|Crusader Rhydalla.|
-A The Black Knight's Fall|QID|13664|PRE|13663;13794|M|69.43,23.02|N|Crusader Rhydalla.|
+A The Black Knight's Fall|QID|13664|PRE|13663|M|69.43,23.02|N|Crusader Rhydalla.|
 C The Black Knight's Fall|QID|13664|M|72.27,22.55|N|Go to the ring of Champions. Equip your lance and mount up on a Stabled Argent Warhorse. Click when done.|
 C The Black Knight's Fall|QID|13664|M|71.36,23.4|N|Talk to Squire Cavin and have him summon the Black Knight. DISMOUNT when you see the BK DK on his gryphon, requip your regular weapon and ATTACK!|
 T The Black Knight's Fall|QID|13664|M|69.43,23.02|N|Crusader Rhydalla.|
@@ -99,13 +60,13 @@ K Doctor Kohler|QID|14017|M|61.2,22.4|N|Kill and loot his orders.|
 T The Black Knight's Fate|QID|14017|M|69.43,23.02|N|Crusader Rhydalla.|
 
 ; Aspirant Quests
-A One of Three|QID|13666;13669;13670|LEAD|13679|M|76.47,19.40|N|From Arcanist Taelis, one of three quests.|
-A Learning The Reins|QID|13625|LEAD|13679|M|76.47,19.46|N|From Scout Shalyndria.|
-A Training In The Field|QID|13671|LEAD|13679|M|76.44,19.35|N|From Avareth Swiftstrike.|
+A One of Three|QID|13666^13669^13670|LEAD|13679|M|76.47,19.40|N|From Arcanist Taelis, one of three quests.|
+A Learning The Reins|QID|13625|M|76.47,19.46|N|From Scout Shalyndria.|
+A Training In The Field|QID|13671|M|76.44,19.35|N|From Avareth Swiftstrike.|
 
 C Learning The Reins|QID|13625|N|Mount up and go practice on the fields.|U|46069|
 C Training In The Field|QID|13671|M|70, 62|N|Equil your regular weapon and go kill any Scourge|
-C A Blade Fit For A Champion|QID|13666|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
+C A Blade Fit For A Champion|QID|13666|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog,kiss|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
 C A Worthy Weapon|QID|13669|M|68.75,76.38;72.62,73.12;70.56,74.71|L|194213 4|CN|N|Pick flowers along the Ironwall Dam.|
 C A Worthy Weapon|QID|13669|M|93,26|Z|Dragonblight|U|194213|N|Use the stack of flowers within the circle outlined with the purple floating boys. Loot the sword.|L|44978|
 C The Edge Of Winter|QID|13670|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
@@ -138,7 +99,7 @@ A A Valiant Of Gnomeregan|QID|13688|PRE|13679|R|Gnome|M|76.47,19.40|N|From Arcan
 T A Valiant Of Gnomeregan|QID|13688|PRE|13679|M|76.55,19.83|N|To Ambrose Boltspark.|
 
 ; Champion level kick-offs
-A Pick Your New Faction|QID|13593;13703;13704;13705;13706|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|
+A Pick Your New Faction|QID|13593^13703^13704^13705^13706|PRE|6|M|65.38,19.43|N|Talk to one of the NPCs for your new faction!|
 T Valiant Of The Exodar|QID|13705|M|76.10,19.10|N|To Colosos.|
 T Valiant Of Ironforge|QID|13703|M|76.64,19.49|N|To Lana Stouthammer.|
 T Valiant Of Stormwind|QID|13593|M|76.60,19.12|N|To Marshal Jacob Alerius.|
@@ -146,26 +107,26 @@ T Valiant Of Darnassus|QID|13706|M|76.34,19.03|N|To Jaelyne Evensong.|
 T Valiant Of Gnomeregan|QID|13704|M|76.55,19.83|N|To Ambrose Boltspark.|
 
 ; The PRE clause selects allows either the race specific or the generic Valiant of * quest
-A The Valiant's Charge|QID|13718|PRE|13684+13593|M|76.60,19.12|N|From Marshal Jacob Alerius.|
-A The Valiant's Charge|QID|13716|PRE|13690+13705|M|76.10,19.10|N|From Colosos.|
-A The Valiant's Charge|QID|13714|PRE|13685+13703|M|76.64,19.49|N|From Lana Stouthammer.|
-A The Valiant's Charge|QID|13715|PRE|13688+13704|M|76.55,19.83|N|From Ambrose Boltspark.|
-A The Valiant's Charge|QID|13717|PRE|13689+13706|M|76.34,19.03|N|From Jaelyne Evensong.|
+A The Valiant's Charge|QID|13718|PRE|13684^13593|M|76.60,19.12|N|From Marshal Jacob Alerius.|
+A The Valiant's Charge|QID|13716|PRE|13690^13705|M|76.10,19.10|N|From Colosos.|
+A The Valiant's Charge|QID|13714|PRE|13685^13703|M|76.64,19.49|N|From Lana Stouthammer.|
+A The Valiant's Charge|QID|13715|PRE|13688^13704|M|76.55,19.83|N|From Ambrose Boltspark.|
+A The Valiant's Charge|QID|13717|PRE|13689^13706|M|76.34,19.03|N|From Jaelyne Evensong.|
 
 ; Valiant Quests (Night Elf/Worgen Primary)
-A One of Three|QID|13757;13758;13759|ACTIVE|13717|M|76.34,19.03|N|From Jaelyne Evensong, one of 3.|
+A One of Three|QID|13757^13758^13759|ACTIVE|13717|M|76.34,19.03|N|From Jaelyne Evensong, one of 3.|
 A A Valiant's Field Training|QID|13760|ACTIVE|13717|M|76.30,18.99|N|From Illestria Bladesinger.|
 A The Grand Melee|QID|13761|ACTIVE|13717|M|76.40,19.00|N|From Airae Starseeker.|
 A At The Enemy's Gates|QID|13855|ACTIVE|13717|M|76.40,19.00|N|From Airae Starseeker.|
 
 ; Valiant Quests (Human Primary)
-A One of Three|QID|13600;13603;13616|ACTIVE|13718|M|76.60,19.12|N|From Marshal Jacob Alerius.|
+A One of Three|QID|13600^13603^13616|ACTIVE|13718|M|76.60,19.12|N|From Marshal Jacob Alerius.|
 A A Valiant's Field Training|QID|13592|ACTIVE|13718|M|76.53,19.08|N|Sir Marcus Barlowe.|
 A The Grand Melee|QID|13665|ACTIVE|13718|M|76.62,19.21|N|From Captain Joseph Holley.|
 A At The Enemy's Gates|QID|13847|ACTIVE|13718|M|76.62,19.21|N|From Captain Joseph Holley.|
 
 ; Valiant Quests (Draenei Primary)
-A One of Three|QID|13752;13753;13754|ACTIVE|13716|M|76.10,19.10|N|From Colosos.|
+A One of Three|QID|13752^13753^13754|ACTIVE|13716|M|76.10,19.10|N|From Colosos.|
 A A Valiant's Field Training|QID|13755|ACTIVE|13716|M|76.08,19.19|N|Saandos.|
 A The Grand Melee|QID|13756|ACTIVE|13716|M|76.15,19.07|N|From Ranii.|
 A At The Enemy's Gates|QID|13854|ACTIVE|13716|M|76.15,19.07|N|From Ranii.|
@@ -186,24 +147,24 @@ N Narasi gives 2 of 5|REP|The Silver Covenant;1094;exalted|FACTION|Alliance|M|76
 ; A Gormok Wants His Snobolds|QID|14090|REP|The Silver Covenant;1094;exalted|FACTION|Alliance|M|76.20,19.56|N|From Savinia Loresong|
 ; A What Do You Feed a Yeti, Anyway?|QID|14112|REP|The Silver Covenant;1094;exalted|FACTION|Alliance|M|76.20,19.56|N|From Savinia Loresong|
 ; A Breakfast Of Champions|QID|14076|REP|The Silver Covenant;1094;exalted|FACTION|Alliance|M|76.20,19.56|N|From Savinia Loresong|
-A Savinia gives 1 of 3|QID|14076;14090;14112|REP|The Silver Covenant;1094;exalted|FACTION|Alliance|M|76.20,19.56|N|From Savinia Loresong|
+A Savinia gives 1 of 3|QID|14076^14090^14112|REP|The Silver Covenant;1094;exalted|FACTION|Alliance|M|76.20,19.56|N|From Savinia Loresong|
 
 ; Now the Champion Dailies are open, the Class tag controls selection.
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
 
 A Battle Before The Citadel|QID|13861|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.96,23.44|N|From Eadric the Pure.|
-A Threat From Above|QID|13682|PRE|13794;14017|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.96,23.44|N|From Eadric the Pure.|
+A Threat From Above|QID|13682|PRE|13794&14017|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.96,23.44|N|From Eadric the Pure.|
 A Among the Champions|QID|13790|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.93,23.33|N|From Luuri.|
 A Taking Battle To The Enemy|QID|13789|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.92,23.53|N|From Cellian Daybreak|
 
-A Threat From Above|QID|13788|PRE|13795;14017|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
+A Threat From Above|QID|13788|PRE|13795&14017|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
 A Battle Before The Citadel|QID|13864|PRE|13795|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
 A Among the Champions|QID|13793|PRE|13795|C|Death Knight|M|73.59,20.09|N|From Illyrie Nightfall.|
 A Taking Battle To The Enemy|QID|13791|PRE|13795|C|Death Knight|M|73.80,19.45|N|From Zor'be the Bloodletter.|
 
 ; Generic Completions for Valiants and Champions
-C The Grand Melee|QID|13761;13665;13756|M|75.28,18.42|N|Mount on your new race specific ride, stack up on your shields, and then talk to an Alliance Valiant from behind to start.  Break shield and charge as they move away!|U|46069|
-C Among the Champions|QID|13790;13793|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and sheild break and thrust while they are low.|
+C The Grand Melee|QID|13761^13665^13756|M|75.28,18.42|N|Mount on your new race specific ride, stack up on your shields, and then talk to an Alliance Valiant from behind to start.  Break shield and charge as they move away!|U|46069|
+C Among the Champions|QID|13790^13793|M|71.54,23.74|N|Go challenge some champions. Avoid getting charged by your opponnent and try to get a charge and sheild break and thrust while they are low.|
 
 C What Do You Feed a Yeti, Anyway?|QID|14112|M|66.5,8.3|N|Go to the Alliance Boat and get some chum|L|47036 6|
 C What Do You Feed a Yeti, Anyway?|QID|14112|M|44.8,12.6;67.2,8.2;74.5,9.5|CN|N|Jump into the water around these points, use the chum and get the meat.|U|47036|
@@ -215,19 +176,19 @@ C The Light's Mercy|QID|14077|M|53.20,17.40;55.20,16.00;57.00,20.60;55.50,25.20;
 
 C You've Really Done It This Time, Kul|QID|14096|M|64.40,21.60;61.71,21.16;60.8,23.0|CC|N|Kill the cultists, loot keys and rescue silly Kul and his buddies.|
 
-C Threat From Above|QID|13788;13682|M|45.58,32.23;45.22,34.30|CN|N|Defeat Chillmaw and 3 Cultist Bombardiers.|
+C Threat From Above|QID|13788^13682|M|45.58,32.23;45.22,34.30|CN|N|Defeat Chillmaw and 3 Cultist Bombardiers.|
 
-C A Valiant's Field Training|QID|13760;13592;13755|M|39.60,58.20;39.50,52.40;42.20,57.50;47.00,53.50;42.90,54.20;39.98,55.08;46.34,49.91;44.41,52.20;42.17,49.54;44.95,56.00;42.15,45.80|CN|N|Kill Converted Heroes.|
-C Taking Battle To The Enemy|QID|13789;13791|M|79.40,23.20;54.50,27.90;72.47,36.65;68.55,63.40;54.70,33.00;61.15,22.75;54.97,45.89;69.47,65.62;62.66,21.02;71.22,38.78;53.30,8.70;67.35,65.10;67.60,37.35;64.68,21.91;54.23,30.30;69.56,36.90;71.85,44.10;52.67,46.15;68.89,39.36;60.70,20.48;56.46,29.15;73.12,41.49;52.07,30.27;52.32,33.79;70.65,40.80;42.90,25.27;75.01,44.00;49.37,32.95|CN|N|Kill members of the Cult of the Damned.|
+C A Valiant's Field Training|QID|13760^13592^13755|M|39.60,58.20;39.50,52.40;42.20,57.50;47.00,53.50;42.90,54.20;39.98,55.08;46.34,49.91;44.41,52.20;42.17,49.54;44.95,56.00;42.15,45.80|CN|N|Kill Converted Heroes.|
+C Taking Battle To The Enemy|QID|13789^13791|M|79.40,23.20;54.50,27.90;72.47,36.65;68.55,63.40;54.70,33.00;61.15,22.75;54.97,45.89;69.47,65.62;62.66,21.02;71.22,38.78;53.30,8.70;67.35,65.10;67.60,37.35;64.68,21.91;54.23,30.30;69.56,36.90;71.85,44.10;52.67,46.15;68.89,39.36;60.70,20.48;56.46,29.15;73.12,41.49;52.07,30.27;52.32,33.79;70.65,40.80;42.90,25.27;75.01,44.00;49.37,32.95|CN|N|Kill members of the Cult of the Damned.|
 
-C At The Enemy's Gates|QID|13855;13847;13854|M|49.00, 71.40|N|Mount up. Run over the footmen, lieutenants have red floating shields. Stay away from the commanders in green shields!|U|46069|
-C Battle Before The Citadel|QID|13864;13861|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders. |
+C At The Enemy's Gates|QID|13855^13847^13854|M|49.00, 71.40|N|Mount up. Run over the footmen, lieutenants have red floating shields. Stay away from the commanders in green shields!|U|46069|
+C Battle Before The Citadel|QID|13864^13861|M|49.00,71.40|N|Mount up and now go after the commanders with the green shields. Go for the isolated commanders. |
 
-C A Blade Fit For A Champion|QID|13757;13603;13752|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
-C A Worthy Weapon|QID|13758;13600;13753|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|CN|N|Pick flowers along the Ironwall Dam.|
-C A Worthy Weapon|QID|13758;13600;13753|M|93,26|Z|Dragonblight|U|45000|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
-C The Edge Of Winter|QID|13759;13616;13754|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
-C The Edge Of Winter|QID|13759;13616;13754|M|42.19,19.66|Z|Howling Fjord|N|Find the maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
+C A Blade Fit For A Champion|QID|13757^13603^13752|M|60.4,52.0|Z|Grizzly Hills|T|Lake Frog|U|44986|L|44981|N|Kiss frogs till you get a princess.  Then ask for the blade.|
+C A Worthy Weapon|QID|13758^13600^13753|M|68.75,76.38;72.62,73.12;70.56,74.71|L|45000 4|CN|N|Pick flowers along the Ironwall Dam.|
+C A Worthy Weapon|QID|13758^13600^13753|M|93,26|Z|Dragonblight|U|45000|N|Use the stack of flowers within the circle outlined with the purple floating bouys. Loot the sword.|L|44978|
+C The Edge Of Winter|QID|13759^13616^13754|M|55.5,74.9|Z|Crystalsong Forest|N|Kill Lord Everblaze and loot the everburning ember from his corpse.|L|45005|
+C The Edge Of Winter|QID|13759^13616^13754|M|42.19,19.66|Z|Howling Fjord|N|Find the maiden encased in ice and use the ember on her.|T|Maiden of Winter's Breath Lake|U|45005|L|45003|
 
 C Gormok Wants His Snobolds|QID|14090|M|44.05,81.68|Z|The Storm Peaks|T|Snowblind Follower|U|46855|N|Snag em!|
 C Breakfast Of Champions|QID|14076|M|42.70,54.40;43.40,56.75;46.20,61.80;40.67,52.56;43.16,60.16;38.58,61.11;38.12,55.58|Z|The Storm Peaks|T|Deep Jormungar|U|46893|CN|N|Find snow mounts and use the drums to get the Jormungar out. Kill and get the eggs.|
@@ -280,7 +241,7 @@ T Among the Champions|QID|13793|M|73.59,20.09|N|To Illyrie Nightfall.|
 T Taking Battle To The Enemy|QID|13791|M|73.80,19.45|N|To Zor'be the Bloodletter.|
 
 ; Finishing up being an Valiant
-C The Valiant's Charge|QID|13714;13715;13716;13717;13718|L|44987 25|N|You need 25 Valiant's Seals, come back another day. |
+C The Valiant's Charge|QID|13714^13715^13716^13717^13718|L|44987 25|N|You need 25 Valiant's Seals, come back another day. |
 
 T The Valiant's Charge|QID|13718|M|76.60,19.12|N|To Marshal Jacob Alerius.|
 T The Valiant's Charge|QID|13716|M|76.10,19.10|N|To Colosos.|
@@ -294,7 +255,7 @@ A The Valiant's Challenge|QID|13699|PRE|13718|M|76.60,19.12|N|From Marshal Jacob
 A The Valiant's Challenge|QID|13723|PRE|13715|M|76.55,19.83|N|From Ambrose Boltspark.|
 A The Valiant's Challenge|QID|13724|PRE|13716|M|76.10,19.10|N|From Colosos.|
 
-C The Valiant's Challenge|QID|13699;13713;13723;13724;13725|M|68.60,20.99|N|Mount up, get your shields going and talk to Squire Danny to get things started.|
+C The Valiant's Challenge|QID|13699^13713^13723^13724^13725|M|68.60,20.99|N|Mount up, get your shields going and talk to Squire Danny to get things started.|
 
 T The Valiant's Challenge|QID|13725|M|76.34,19.03|N|To Jaelyne Evensong.|
 T The Valiant's Challenge|QID|13713|M|76.64,19.49|N|To Lana Stouthammer.|
@@ -307,13 +268,16 @@ A A Champion Rises|QID|13732|PRE|13713|R|Dwarf|M|76.64,19.49|N|From Lana Stoutha
 A A Champion Rises|QID|13702|PRE|13699|R|Human|M|76.60,19.12|N|From Marshal Jacob Alerius.|
 A A Champion Rises|QID|13733|PRE|13723|R|Gnome|M|76.55,19.83|N|From Ambrose Boltspark.|
 A A Champion Rises|QID|13734|PRE|13724|R|Draenei|M|76.10,19.10|N|From Colosos.|
-N A Champion Rises|QID|13702;13732;13733;13734;13735|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
-T A Champion Rises|QID|13702;13732;13733;13734;13735|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
+N A Champion Rises|QID|13702^13732^13733^13734^13735|N|At this point you can become a Valiant for another faction.  Walk up and take the quest and the guide should adjust.|
+T A Champion Rises|QID|13702^13732^13733^13734^13735|M|69.66,22.85|N|To Justicar Mariel Trueheart.|
 
-A Eadric the Pure|QID|13794|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|From Justicar Mariel Trueheart, everybody but DKs|
+A Eadric the Pure|QID|13794|PRE|13702^13732^13733^13734^13735^13736^13737^13738^13739^13740|M|69.66,22.85|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|From Justicar Mariel Trueheart, everybody but DKs|
 T Eadric the Pure|QID|13794|M|69.96,23.44|N|To Eadric the Pure.|
-A The Scourgebane|QID|13795|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
+A The Scourgebane|QID|13795|PRE|13702^13732^13733^13734^13735^13736^13737^13738^13739^13740|M|69.66,22.85|C|Death Knight|N|From Justicar Mariel Trueheart, for DKs|
 T The Scourgebane|QID|13795|M|73.80,20.06|N|From Crok Scourgebane.|
 
 ]]
 end)
+
+
+

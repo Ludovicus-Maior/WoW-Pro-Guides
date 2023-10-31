@@ -1,69 +1,10 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/alliance_pet_battle_dailies
--- Date: 2015-01-04 23:36
--- Who: Ludovicus
--- Log: Corrected faction line.
-
--- URL: http://wow-pro.com/node/3544/revisions/26952/view
--- Date: 2014-11-09 03:17
--- Who: Emmaleah
--- Log: missed updating one QO|4
-
--- URL: http://wow-pro.com/node/3544/revisions/26946/view
--- Date: 2014-11-08 14:54
--- Who: Ludovicus
--- Log: Removed lone '['
-
--- URL: http://wow-pro.com/node/3544/revisions/26942/view
--- Date: 2014-11-08 13:10
--- Who: Ludovicus
--- Log: Extra N and M gads brought to you by the letter X
-
--- URL: http://wow-pro.com/node/3544/revisions/26866/view
--- Date: 2014-11-07 22:20
--- Who: Emmaleah
--- Log: corrected errors per list 'o errors. Changed QO|text:0/1 to QO|#
-
--- URL: http://wow-pro.com/node/3544/revisions/26836/view
--- Date: 2014-11-06 18:22
--- Who: Fluclo
--- Log: Added missing pipe, and capitalised RANK.
-
--- URL: http://wow-pro.com/node/3544/revisions/26515/view
--- Date: 2014-06-10 23:23
--- Who: Ludovicus
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3544/revisions/25764/view
--- Date: 2013-09-21 02:02
--- Who: Emmaleah
--- Log: update Aki's location for 5.4
-
--- URL: http://wow-pro.com/node/3544/revisions/25687/view
--- Date: 2013-05-27 05:03
--- Who: Emmaleah
--- Log: updated for 5.3 (beasts of fable split in 3 quests), rearranged order of Northrend, added Beasts of Fable, added U tags to open bags.  NOTE: you must manually click off the C steps for Beasts of Fable as the guide doesn't recognize the QO tags on these quests.
-
--- URL: http://wow-pro.com/node/3544/revisions/25606/view
--- Date: 2013-03-26 03:09
--- Who: Emmaleah
--- Log: change stormwind to stormwind city (one more spot)
-
--- URL: http://wow-pro.com/node/3544/revisions/25603/view
--- Date: 2013-03-24 00:47
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3544/revisions/25559/view
--- Date: 2013-03-23 16:38
--- Who: Ludovicus
--- Log: Initial clone from http://wow-pro.com/node/3542
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("RajiPetBattles",'Dailies', "Vale of Eternal Blossoms", "Rajitazi", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide ,1,60)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Pet Battle Dailies","Pets")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -82,7 +23,7 @@ A Brok|QID|31972|M|61.4,33|Z|Mount Hyjal|RANK|2|N|From Brok.|
 C Brok|QID|31972|M|61.4,33|Z|Mount Hyjal|RANK|2|N|Opponents are level 25 Beast, Critter and Magic. This means your best choices are Mechanical, Beast and Dragonkin.|
 T Brok|QID|31972|M|61.4,33|Z|Mount Hyjal|RANK|2|N|To Brok.|
 R Winterspring|QID|31909|M|65.63,64.52|Z|Winterspring|RANK|1|
-A Grand Master Trixxy|QID|31909|M|65.63,64.52|Z|Winterspring|RANK|1|N|From Grand Master Trixxy.|
+A Grand Master Trixxy|QID|31909|PRE|31897|M|65.63,64.52|Z|Winterspring|RANK|1|N|From Grand Master Trixxy.|
 C Grand Master Trixxy|QID|31909|M|65.63,64.52|Z|Winterspring|RANK|1|N|Opponents are level 19 Flying, Beast and Dragonkin. This means your best choices are Magic, Mechanical and Humanoid.|
 T Grand Master Trixxy|QID|31909|M|65.63,64.52|Z|Winterspring|RANK|1|N|To Grand Master Trixxy.|
 
@@ -108,7 +49,7 @@ A Everessa|QID|31913|M|76.82,41.5|Z|Swamp of Sorrows|RANK|3|N|From Everessa.|
 C Everessa|QID|31913|M|76.82,41.5|Z|Swamp of Sorrows|RANK|3|N|Opponents are level 16 Beast, Aquatic and Flying. This means your best choices are Mechanical, Flying and Magic.|
 T Everessa|QID|31913|M|76.82,41.5|Z|Swamp of Sorrows|RANK|3|N|To Everessa.|
 R Deadwind Pass|QID|31916|M|40.04,76.45|Z|Deadwind Pass|RANK|1|
-A Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|RANK|1|N|From Grand Master Lydia Accoste.|
+A Grand Master Lydia Accoste|QID|31916|PRE|31915|M|40.04,76.45|Z|Deadwind Pass|RANK|1|N|From Grand Master Lydia Accoste.|
 C Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|RANK|1|N|Opponents are level 19 Undead, Elemental and Undead. This means your best choices are Critter, Aquatic and Critter.|
 T Grand Master Lydia Accoste|QID|31916|M|40.04,76.45|Z|Deadwind Pass|RANK|1|N|To Grand Master Lydia Accoste.|
 R Duskwood|QID|31850|M|19.88,44.62|Z|Duskwood|RANK|3|U|89125|N|You can open your treasure bag while you are flying to the next spot.|
@@ -130,23 +71,23 @@ T Steven Lisbane|QID|31852|M|46,40.44|Z|Northern Stranglethorn|RANK|3|N|To Steve
 
 R Dark Portal|QID|31922|M|54.97,53.89|Z|Blasted Lands|RANK|1|N|And its off to Outlands, Dark Portal in any city or Portal to Shattrath from Valley of the Two Moons.|
 R Hellfire Peninsula|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|
-A Nicki Tinytech|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|N|From Nicki Tinytech.|
+A Nicki Tinytech|QID|31922|PRE|31920|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|N|From Nicki Tinytech.|
 C Nicki Tinytech|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|N|Opponents are level 20 Mechanical, Mechanical and Mechanical. This means your best choices are Elemental, Elemental and Elemental.|
 T Nicki Tinytech|QID|31922|M|64.32,49.3|Z|Hellfire Peninsula|RANK|2|N|To Nicki Tinytech.|
 R Zangarmarsh|QID|31923|M|17.24,50.53|Z|Zangarmarsh|RANK|2|
-A Ras'an|QID|31923|M|17.24,50.53|Z|Zangarmarsh|RANK|2|N|From Ras'an.|
+A Ras'an|QID|31923|PRE|31920|M|17.24,50.53|Z|Zangarmarsh|RANK|2|N|From Ras'an.|
 C Ras'an|QID|31923|M|17.24,50.53|Z|Zangarmarsh|RANK|2|N|Opponents are level 21 Humanoid, Flying and Magic. This means your best choices are Undead, Magic and Dragonkin.|
 T Ras'an|QID|31923|M|17.24,50.53|Z|Zangarmarsh|RANK|2|N|To Ras'an.|
 R Nagrand|QID|31924|M|60.98,49.43|Z|Nagrand|RANK|2|
-A Narrok|QID|31924|M|60.98,49.43|Z|Nagrand|RANK|2|N|From Narrok.|
+A Narrok|QID|31924|PRE|31920|M|60.98,49.43|Z|Nagrand|RANK|2|N|From Narrok.|
 C Narrok|QID|31924|M|60.98,49.43|Z|Nagrand|RANK|2|N|Opponents are level 22 Critter, Aquatic and Beast. This means your best choices are Beast, Flying and Mechanical.|
 T Narrok|QID|31924|M|60.98,49.43|Z|Nagrand|RANK|2|N|To Narrok.|
 R Shattrath City|QID|31925|M|58.7,70.1|Z|Shattrath City|RANK|2|
-A Morulu The Elder|QID|31925|M|58.7,70.1|Z|Shattrath City|RANK|2|N|From Morulu the Elder.|
+A Morulu The Elder|QID|31925|PRE|31920|M|58.7,70.1|Z|Shattrath City|RANK|2|N|From Morulu the Elder.|
 C Morulu The Elder|QID|31925|M|58.7,70.1|Z|Shattrath City|RANK|2|N|Opponents are level 23 Aquatic, Aquatic and Aquatic. This means your best choices are Flying, Flying and Flying.|
 T Morulu The Elder|QID|31925|M|58.7,70.1|Z|Shattrath City|RANK|2|N|To Morulu the Elder.|
 R Shadowmoon Valley|QID|31926|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|
-A Grand Master Antari|QID|31926|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|N|From Bloodknight Antari.|
+A Grand Master Antari|QID|31926|PRE|31920|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|N|From Bloodknight Antari.|
 C Grand Master Antari|QID|31926|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|N|Opponents are level 24 Epic (purple) Magic, Elemental and Dragonkin. This means your best choices are Dragonkin, Aquatic and Humanoid.|
 T Grand Master Antari|QID|31926|M|30.51,41.76|Z|Shadowmoon Valley|RANK|1|N|To Bloodknight Antari.|
 
@@ -172,7 +113,7 @@ A Grand Master Payne|QID|31935|M|77.4,20|Z|Icecrown|RANK|1|N|From Grand Master P
 C Grand Master Payne|QID|31935|M|77.4,20|Z|Icecrown|RANK|1|N|Opponents are level 25 Epic Mechanical, Elemental and Beast. This means your best choices are Elemental, Aquatic and Mechanical.|
 T Grand Master Payne|QID|31935|M|77.4,20|Z|Icecrown|RANK|1|N|To Grand Master Payne.|
 
-R Dalaran|QID|31974|M|40.23,62.83|Z|Dalaran|RANK|1|U|89125|N|You can open your treasure bag while you are flying to the next spot. Use the portal in Dalaran to Stormwind (if you dont have the Uldam portal, the Dalaran portal it Caverns of Time is a good 2nd choice). You don't really want to use your hearthstone so you can save it for leaving Uldum.|
+R Dalaran|QID|31974|M|40.23,62.83|Z|Dalaran City@Dalaran|RANK|1|U|89125|N|You can open your treasure bag while you are flying to the next spot. Use the portal in Dalaran to Stormwind (if you dont have the Uldam portal, the Dalaran portal it Caverns of Time is a good 2nd choice). You don't really want to use your hearthstone so you can save it for leaving Uldum.|
 R Cataclysm Portals|QID|31974|M|76,18|Z|Stormwind City|RANK|1|N|Use the portals or take a long flight.|
 R Uldum|QID|31971|M|56.6,42|Z|Uldum|RANK|1|
 A Grand Master Obalis|QID|31971|M|56.6,42|Z|Uldum|RANK|1|N|From Grand Master Obalis.|
@@ -280,3 +221,6 @@ T Beasts of Fable Book III|QID|32869|M|86.4,60|Z|Vale of Eternal Blossoms|N|To S
 N End of Guide|QID|965820001|U|94207|N|You've reached the end of the guide! Don't forget to open any treasure bags you have. This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|RANK|1|
 ]]
 end)
+
+
+

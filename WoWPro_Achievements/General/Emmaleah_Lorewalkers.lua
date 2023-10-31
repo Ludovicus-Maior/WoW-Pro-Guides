@@ -1,127 +1,31 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/lorewalkers_reputation_acheivement
--- Date: 2014-11-08 18:12
--- Who: Emmaleah
--- Log: Deleted extraneous step for collecting from mailbox 
-
--- URL: http://wow-pro.com/node/3506/revisions/26876/view
--- Date: 2014-11-08 00:01
--- Who: Emmaleah
--- Log: separated the l pick up things from mailbox into individual steps.  I knew it didn't work... I just forgot to ever come back and fix it :(
-
--- URL: http://wow-pro.com/node/3506/revisions/26571/view
--- Date: 2014-07-06 15:57
--- Who: Ludovicus
--- Log: Added artificial levels line
-
--- URL: http://wow-pro.com/node/3506/revisions/26539/view
--- Date: 2014-06-11 22:07
--- Who: Ludovicus
--- Log: Converted
-
--- URL: http://wow-pro.com/node/3506/revisions/25759/view
--- Date: 2013-09-10 23:57
--- Who: Ludovicus
--- Log: Interleave the last turnins to avoid client crash if you turn in more than one quest before "Storytime" starts.   You could pile up X copies of Lorewalker Cho telling stories at the same time and then BOOOM!
-
--- URL: http://wow-pro.com/node/3506/revisions/25512/view
--- Date: 2013-01-26 03:06
--- Who: Kaboca
--- Log: The Last Stand - making it easier to find :-)
-
--- URL: http://wow-pro.com/node/3506/revisions/25246/view
--- Date: 2012-12-13 06:52
--- Who: Emmaleah
--- Log: made a path for The Defiant, added |CS| to The Defiant, Valley of the Emperors, and Amber. Added notes to Into(Brewfathers), First Quest, (for some reason I could not get it with my hunter) and about the trapped floor in Tomb of Conquest.
-
--- URL: http://wow-pro.com/node/3506/revisions/25174/view
--- Date: 2012-10-28 05:17
--- Who: Emmaleah
-
--- URL: http://wow-pro.com/node/3506/revisions/25170/view
--- Date: 2012-10-27 04:13
--- Who: Emmaleah
--- Log: The change I just made, somehow I didn't.  Now I am. (in other words, the log for the non-change immediately before this belongs to this.)
-
--- URL: http://wow-pro.com/node/3506/revisions/25169/view
--- Date: 2012-10-27 04:09
--- Who: Emmaleah
--- Log: -- Date: 10-26-12
---	-- Who: Emmaleah
---	-- Log: Points of Interest (F steps) reordered.
---	--      |NC| Tags for The Lorewalker/Cleaning off the Bookshelf.
---	--      added opening N step.
---	--      moved the opening Lorewalkers quests to the beginning, so that people will be sure to turn them in first (cant turn in after honored)
---	--      Gave Lorewalker Cho coordinates on all the T steps
---	--      Does anyone read this and/care
---	--      Discovered a wierd glith with Between a Saurok and a hard place (the item ID on mouseover, and wowhead, is not the one that lets it autocomplete.  a search on the item name, found a differant item with same name, differant ID
---	--      Probably other stuff I have forgotten... yes, I'm getting jaded now.
-
--- URL: http://wow-pro.com/node/3506/revisions/25168/view
--- Date: 2012-10-26 05:04
--- Who: Emmaleah
--- Log: Inserted missed |N|tag on A Hozen in the mist
-
--- URL: http://wow-pro.com/node/3506/revisions/25167/view
--- Date: 2012-10-26 04:51
--- Who: Emmaleah
--- Log: take the rest of the U tags out, that I could swear I just took out...
-
--- URL: http://wow-pro.com/node/3506/revisions/25166/view
--- Date: 2012-10-26 04:33
--- Who: Emmaleah
--- Log: Date: 10-24-12 (2nd edit)
---	Who: Emmaleah
---	Log: Fixed the guide registration so it would show up in game, put |O| on the quest steps after you get the items out of your mailbox. removed |U|tags from the turn in steps of same quests. Fixed zone name for Shrine of Two Moons.
-
--- URL: http://wow-pro.com/node/3506/revisions/25165/view
--- Date: 2012-10-25 21:57
--- Who: Emmaleah
-
--- URL: http://wow-pro.com/node/3506/revisions/25164/view
--- Date: 2012-10-25 21:57
--- Who: Emmaleah
--- Log: typos (rec'e to received and ThundeF to Thunder)
-
--- URL: http://wow-pro.com/node/3506/revisions/25138/view
--- Date: 2012-10-10 11:38
--- Who: Ludovicus
--- Log: Added credits
-
--- URL: http://wow-pro.com/node/3506/revisions/25137/view
--- Date: 2012-10-10 11:36
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3506/revisions/25117/view
--- Date: 2012-10-07 22:35
--- Who: Ludovicus
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('Lorewalkers',"Achievements",'Pandaria', 'Lockslap','Neutral')
 WoWPro:GuideIcon(guide,"ACH",6548)
-WoWPro:GuideLevels(guide,85,90,89)  -- Artificial levels
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 return
 [[
 
 N Lorewalkers|QID|31367|N|Lorewalkers faction is earned by visiting various points of interest around Pandaria.  This guide assumes you start in your factions city in Vale of Eternal Blossoms and will take you to all of those places. It also assumes you are level 90 and have trained flying in Pandaria.  Some steps may already be checked off.  They are points of interest that you visited while leveling. The first stop in a new zone I have also included the zone name to help find the green dot.|
-N Brewfathers|QID|31367|N|This guide will also guide you to the spots for the Ledgend of the Brewfathers Achievement.  While it is unrelated, it is similar in that it requires flying to points of interest that are along the same route as the Lorewalker points of interest, so you may as well do it.
-A The Lorewalkers|QID|31367|LEAD|31015|FACTION|Alliance|M|85.6,60.4|Z|Vale of Eternal Blossoms|N|From Scrollmaker Resshi on the ground floor. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
-C The Lorewalkers|QID|31367|FACTION|Alliance|NC|M|84.8,60.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
-T The Lorewalkers|QID|31367|FACTION|Alliance|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
-
-A The Lorewalkers|QID|31368|LEAD|31015|FACTION|Horde|M|62.4,21.6|Z|Vale of Eternal Blossoms|N|From Lena Stonebrush. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
-C The Lorewalkers|QID|31368|FACTION|Horde|NC|M|61.8,24.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
-T The Lorewalkers|QID|31368|FACTION|Horde|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+N Brewfathers|QID|31367|N|This guide will also guide you to the spots for the Ledgend of the Brewfathers Achievement.  While it is unrelated, it is similar in that it requires flying to points of interest that are along the same route as the Lorewalker points of interest, so you may as well do it.|
+;The Lorewalker quest is obsolete.
+;A The Lorewalkers|QID|31367|LEAD|31015|FACTION|Alliance|M|85.6,60.4|Z|Vale of Eternal Blossoms|N|From Scrollmaker Resshi on the ground floor. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
+;C The Lorewalkers|QID|31367|FACTION|Alliance|NC|M|84.8,60.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
+;T The Lorewalkers|QID|31367|FACTION|Alliance|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
+;The Lorewalker quest is obsolete.
+;A The Lorewalkers|QID|31368|LEAD|31015|FACTION|Horde|M|62.4,21.6|Z|Vale of Eternal Blossoms|N|From Lena Stonebrush. If this quest in  unavailable, you can go see Cho directly and start the chain there.|
+;C The Lorewalkers|QID|31368|FACTION|Horde|NC|M|61.8,24.0|Z|Vale of Eternal Blossoms|N|Talk to Mishi for a ride to see Cho. If you weren't able to pick up this quest, manually check this step off and fly to the Seat of Knowledge where Cho awaits you.|
+;T The Lorewalkers|QID|31368|FACTION|Horde|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|To Lorewalker Cho.|
 
 A Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|From Lorewalker Cho.|
 C Clean off the Bookshelf|QID|31015|NC|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|When standing at the bottom of the stairs, facing Cho, the bookcase is to your left, do this before you turn in the others as it only gives faction at honored or lower|;which is why I put the accept the quest from the item steps after this
 T Your Private Collection|QID|31015|M|83.2,29.6|Z|Vale of Eternal Blossoms|N|From Lorewalker Cho.|
 
-F The Defiant (Kun-Lai)|QID|9767160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place.  This one is inside the Ancient Passage, in a room called 'Deep Rookery'. Its actually easiest to get to from an area in 'The Veiled Stair' called, 'The Secret Aerie'.|
+F The Defiant (Kun-Lai)|QID|967160002|M|77.55, 95.33|Z|Kun-Lai Summit|ACH|6716;2|N|Between a Saurok and a Hard Place.  This one is inside the Ancient Passage, in a room called 'Deep Rookery'. Its actually easiest to get to from an area in 'The Veiled Stair' called, 'The Secret Aerie'.|
 F Role Call |QID|968460004|M|74.48,83.55|CS|Z|Kun-Lai Summit|ACH|6846;4|N|Fish Tales|
 F Yaungoil |QID|96847003|M|71.72, 63.02|Z|Kun-Lai Summit|ACH|6847;03|N|The Song of the Yaungol. The 'Weapons Rack' containing the lost 'Sturdy Yaungol Spear' also spawns in this camp.|
 F The Emperor's Burden - Part 6 |QID|968550006|M|67.76, 48.33|Z|Kun-Lai Summit|ACH|6855;6|N|The Seven Burdens of Shaohao.|
@@ -207,3 +111,6 @@ B Toys!|M|82.2,29.4|Z|Vale of Eternal Blossoms|N|You should now be exalted, visi
 ]]
 
 end)
+
+
+

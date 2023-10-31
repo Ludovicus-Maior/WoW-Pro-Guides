@@ -1,90 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/lunar_festival_alliance
--- Date: 2014-06-10 21:36
--- Who: Ludovicus
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3451/revisions/25881/view
--- Date: 2014-02-13 16:59
--- Who: Ludovicus
--- Log: Adjusted Ranks
-
--- URL: http://wow-pro.com/node/3451/revisions/25644/view
--- Date: 2013-05-14 19:14
--- Who: Ludovicus
--- Log: Z tags for dungeon zone corrections
-
--- URL: http://wow-pro.com/node/3451/revisions/25523/view
--- Date: 2013-02-06 20:27
--- Who: Ludovicus
--- Log: Checked every coords, qid, and added ranks like the horde guide.
-
--- URL: http://wow-pro.com/node/3451/revisions/25513/view
--- Date: 2013-01-28 12:01
--- Who: Ludovicus
--- Log: Updates for this year!
-
--- URL: http://wow-pro.com/node/3451/revisions/25431/view
--- Date: 2013-01-13 15:16
--- Who: Ludovicus
--- Log: Added CS and CC tag
-
--- URL: http://wow-pro.com/node/3451/revisions/25083/view
--- Date: 2012-09-24 23:49
--- Who: Ludovicus
--- Log: Spell Njorndir Preparation right!
-
--- URL: http://wow-pro.com/node/3451/revisions/25018/view
--- Date: 2012-06-30 23:09
--- Who: Ludovicus
--- Log: Correct Zone in TheNexus
-
--- URL: http://wow-pro.com/node/3451/revisions/24931/view
--- Date: 2012-02-04 22:38
--- Who: Ludovicus
--- Log: Elders of Cata
-
--- URL: http://wow-pro.com/node/3451/revisions/24924/view
--- Date: 2012-01-25 22:47
--- Who: Ludovicus
--- Log: Two zone name errors: Z|The Nexus and Z|Halls of Stone.
-
--- URL: http://wow-pro.com/node/3451/revisions/24922/view
--- Date: 2012-01-25 12:28
--- Who: Ludovicus
--- Log: Rumblerrock is Rumblerock
-
--- URL: http://wow-pro.com/node/3451/revisions/24920/view
--- Date: 2012-01-24 12:34
--- Who: Ludovicus
--- Log: Hendo72's Corrections.
-
--- URL: http://wow-pro.com/node/3451/revisions/24919/view
--- Date: 2012-01-24 12:26
--- Who: Ludovicus
--- Log: 1,$s/|T|\([A-Za-z ]*\) the Elder|/|T|Elder \1|/
-
--- URL: http://wow-pro.com/node/3451/revisions/24854/view
--- Date: 2011-12-10 04:35
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3451/revisions/24845/view
--- Date: 2011-12-07 18:36
--- Who: Crackerhead22
--- Log: Added Elders guide source code, added section for Lunar Festival achievements.
-
--- URL: http://wow-pro.com/node/3451/revisions/24843/view
--- Date: 2011-12-07 18:30
--- Who: Crackerhead22
--- Log: Source page created.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraLunFesEldA",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Alliance")
-WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
+WoWPro:GuideIcon(guide,"ACH",915)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -120,22 +42,23 @@ A Wheathoof the Elder|N|From Wheathoof the Elder.|QID|8678|M|73,23.8|Z|Thunder B
 R Bloodhoof Village|N|Gallop on over to Bloodhoof Village.|QID|8673|M|48.5,53.2|Z|Mulgore|
 A Bloodhoof the Elder|N|From Bloodhoof the Elder.|QID|8673|M|48.50,53.24|Z|Mulgore|T|Elder Bloodhoof|
 A High Mountain the Elder|N|From High Mountain the Elder.|QID|8686|M|41.5,47.5|Z|Southern Barrens|T|Elder High Mountain|
-F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|38.8,10.8|Z|Southern Barrens|RANK|2|
-R Maraudon|QID|8635|M|29.12,62.56|N|Head over to Maraudon.|Z|Desolace|RANK|2|
-R Open the Stone Door|QID|8635|N|And follow the path until you come to a mini-map change.|M|28.23,62.61;28.29,65.08;27.58,62.85;28.09,62.8|CS|Z|Desolace|RANK|2|
-R Follow the dots|QID|8635|N|Until you come to a portal.|M|29.06,62.48;29.97,59.96;29.39,60.94|Z|Desolace|CS|RANK|2|
-A Splitrock the Elder|N|Enter the portal. From Splitrock the Elder.|QID|8635|M|51.4,93.4|Z|Zaetar's Grave@Maraudon|RANK|2|
-R Maraudon|QID|8685|N|Easy way out is to invite a friend, make them the leader then leave group. You will end up at the nearest graveyard, in this case right near the stone gate out. Should take about 1-2 minutes before you are booted.|RANK|2|
+F Thargad's Camp|N|Fly to Thargad's Camp.|QID|8635|M|49.20,67.80|Z|Southern Barrens|RANK|2|
+R Maraudon|QID|8635|M|29.12,62.56|N|Head over to Maraudon. This is a long trek. Skip unless you want the achievement.|Z|Desolace|RANK|3|
+R Open the Stone Door|QID|8635|N|And follow the path until you come to a mini-map change.|M|28.23,62.61;28.29,65.08;27.58,62.85;28.09,62.8|CS|Z|Desolace|RANK|3|
+R Follow the dots|QID|8635|N|Until you come to a portal.|M|29.06,62.48;29.97,59.96;29.39,60.94|Z|Desolace|CS|RANK|3|
+A Splitrock the Elder|N|Enter the portal. From Splitrock the Elder.|QID|8635|M|51.4,93.4|Z|Zaetar's Grave@Maraudon|RANK|3|
+R Maraudon|QID|8685|N|Easy way out is to invite a friend, make them the leader then leave group. You will end up at the nearest graveyard, in this case right near the stone gate out. Should take about 1-2 minutes before you are booted.|RANK|3|
 F Tower of Estulan|N|Fly to the Tower of Estulan.|QID|8685|M|36.75,71.69|Z|Desolace|
 A Mistwalker the Elder|N|From Mistwalker the Elder.|QID|8685|M|62.56,31.07|Z|Feralas|
 A Grimtotem the Elder|N|From Grimtotem the Elder.|QID|8679|M|76.70,37.90|Z|Feralas|
 F Cenarion Hold|N|Fly to Cenarion Hold.|QID|8719|M|77.2,56.8|Z|Feralas|
+F Zidormi|N|If you have finished the Antarus raid, you will need to talk to Zidormi before you can see the elders.|M|78.8,21.8|Z|Silithus|
 A Bladesing the Elder|N|From Bladesing the Elder.|QID|8719|M|53.02,35.47|Z|Silithus|
 A Primestone the Elder|N|From Primestone the Elder.|QID|8654|M|30.80,13.31|Z|Silithus|
 
 F Marshal's Stand|N|Fly to Marshal's Stand.|QID|8681|M|54.4,32.8|Z|Silithus|
 A Thunderhorn the Elder|N|From Thunderhorn the Elder.|QID|8681|M|50.38,76.16|Z|Un'Goro Crater|
-F Southmoon Ruins|N|Fly to Southmoon Ruins (Gunstan's Dig).|QID|8671|M|56,64|Z|Un'Goro Crater|
+F Gunstan's Dig|N|Fly to Southmoon Ruins.|QID|8671|M|56,64|Z|Un'Goro Crater|
 A Ragetotem the Elder|N|From Ragetotem the Elder.|QID|8671|M|37.24,79.06|Z|Tanaris|
 F Gadgetzan|N|Fly to Gadgetzan.|QID|8684|M|40.04,77.55|Z|Tanaris|
 A Dreamseer the Elder|N|From Dreamseer the Elder.|QID|8684|M|51.40,28.80|Z|Tanaris|
@@ -155,10 +78,10 @@ R The Dark Portal|N|Head over to the Dark Portal.|QID|8647|M|54.3,49.5|Z|Blasted
 A Bellowrage the Elder|N|From Bellowrage the Elder.|QID|8647|M|54.3,49.5|Z|Blasted Lands|
 F The Temple of Atal'Hakkar|N|Head North to Swamp of Sworrows and into the Temple of Atal'Hakkar.|QID|8713|M|69.37,53.07|Z|Swamp of Sorrows|RANK|2|
 R Hall of Masks|N|Head inside the Temple down into the Hall of Masks|Z|Swamp of Sorrows|M|75.99,45.22|QID|8713|RANK|2|
-A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|8713|M|62.90,34.47|Z|TheTempleOfAtalHakkar|RANK|2|
+A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|8713|M|62.90,34.47|Z|The Temple of Atal'Hakkar!Dungeon|RANK|2|
 F Sentinel Hill|N|Fly to Sentinel Hill.|QID|8675|M|70.04,38.56|Z|Swamp of Sorrows|
 A Skychaser the Elder|N|From Skychaser the Elder.|QID|8675|M|56.64,47.09|Z|Westfall|
-F Stormwind City|N|Fly to Stormwind City.|QID|8649|M|56.64,49.44|Z|Westfall|
+F Stormwind|N|Fly to Stormwind City.|QID|8649|M|56.64,49.44|Z|Westfall|
 A Hammershout the Elder|N|From Hammershout the Elder.|QID|8646|M|34.56,50.25|Z|Elwynn Forest|
 A Stormbrow the Elder|N|From Stormbrow the Elder.|QID|8649|M|39.79,63.67|Z|Elwynn Forest|
 F Morgan's Vigil|N|Fly to Morgan's Vigil.|QID|8636|M|41.72,64.62|Z|Elwynn Forest|
@@ -175,7 +98,7 @@ R Follow the waypoints|N|To get into Blackrock Depths instance.|CS|QID|8619|M|18
 A Morndeep the Elder|N|From Morndeep the Elder at the ring of the law.|QID|8619|M|50.55,62.90|Z|Detention Block@BlackrockDepths|RANK|2|
 R Searing Gorge|N|Head out of the instance, and run North to Searing Gorge.|QID|8651|M|34.56,83.46|Z|Searing Gorge|RANK|2|
 A Ironband the Elder|N|From Ironband the Elder.|QID|8651|M|21.29,79.11|Z|Searing Gorge|
-F Thelsamar|N|Fly to Thelsamar.|QID|8642|M|41.04,68.78|Z|Burning Steppes|
+F Thelsamar|N|Fly to Thelsamar.|QID|8642|M|41.06,68.79|Z|Searing Gorge|
 A Silvervein the Elder|N|From Silvervein the Elder.|QID|8642|M|33.32,46.54|Z|Loch Modan|
 F Kharanos|N|Fly to Kharanos.|QID|8653|M|33.93,50.93|Z|Loch Modan|
 A Goldwell the Elder|N|From Goldwell the Elder.|QID|8653|M|53.90,49.91|Z|Dun Morogh|
@@ -194,7 +117,7 @@ A Snowcrown the Elder|N|From Snowcrown the Elder.|QID|8650|M|75.73,54.56|Z|Easte
 
 F Plaguewood Tower|N|Fly to Plaguewood Tower.|QID|8727|M|75.85,53.41|Z|Eastern Plaguelands|RANK|2|
 R Stratholme|QID|8727|M|26.48,11.62|Z|Eastern Plaguelands|N|Enter Stratholme's main entrance.|RANK|2|
-A Farwhisper the Elder|N|From Farwhisper the Elder, at the far end of Festival Lane.|QID|8727|M|78.59,21.16|Z|Crusader's Square@Stratholme|RANK|2|
+A Farwhisper the Elder|N|From Farwhisper the Elder, at the far end of Festival Lane.|QID|8727|M|78.59,21.16|Z|Crusader's Square@Stratholme!Dungeon|RANK|2|
 
 F The Mender's Stead|N|Fly to The Mender's Stead (or Andorhal if you still have that FP).|QID|8652|M|18.46,27.37|Z|Eastern Plaguelands|
 R Brill|N|Run to Brill.|QID|8652|M|61.7,53.7|Z|Tirisfal Glades|
@@ -212,23 +135,23 @@ A Pamuya the Elder|N|From Pamuya the Elder.|QID|13029|M|42.8,49.6|Z|Borean Tundr
 A Northal the Elder|N|From Northal the Elder.|QID|13016|M|33.80,34.36|Z|Borean Tundra|
 
 R The Nexus|N|Run into The Nexus. You want the bottom instance of the three.|QID|13021|M|27.5,26.09|Z|Borean Tundra|RANK|2|
-A Igasho the Elder|N|From Igasho the Elder, at the end of the Singing Grove.|QID|13021|M|55.19,64.72|Z|TheNexus|RANK|2|
+A Igasho the Elder|N|From Igasho the Elder, at the end of the Singing Grove.|QID|13021|M|55.19,64.72|Z|The Nexus@TheNexus|RANK|2|
 
 F Stars' Rest|N|Head back outside of The Nexus and fly to Stars' Rest in Dragonblight.|QID|13014|M|33,34.4|Z|Borean Tundra|
 A Morthie the Elder|N|From Morthie the Elder.|QID|13014|M|29.75,55.90|Z|Dragonblight|
 A Skywarden the Elder|N|From Skywarden the Elder.|QID|13031|M|35,48.4|Z|Dragonblight|T|Elder Skywarden|
 
-R Azjol-Nerub|N|Head inside of Azjol-Nerub.|QID|13022|M|25.99,50.86|Z|Dragonblight|RANK|3|
-A Nurgen the Elder|N|From Nurgen the Elder at the Brood Pit.|QID|13022|M|21.80,43.60|Z|The Brood Pit@AzjolNerub|RANK|3|
+R Azjol-Nerub|N|Head inside of Azjol-Nerub.|QID|13022|M|25.99,50.86|Z|Dragonblight|RANK|2|
+A Nurgen the Elder|N|From Nurgen the Elder at the Brood Pit.|QID|13022|M|21.80,43.60|Z|The Brood Pit@AzjolNerub|RANK|2|
 
 R Moa'ki Harbor|N|Run back out of Azjol-Nerub and head down to Moa'ki Harbor.|QID|13019|M|48.8,78|Z|Dragonblight|
 A Thoim the Elder|N|From Thoim the Elder.|QID|13019|M|48.77,78.17|Z|Dragonblight|
 F Valgarde|N|Fly to Valgarde.|QID|13017|M|48.4,74.4|Z|Dragonblight|
 
-R Utgarde Keep|N|Head inside Utgarde Keep.|QID|13017|M|57.32,46.86|Z|Howling Fjord|RANK|3|
-A Jarten the Elder|N|From Jarten the Elder, at the Njorn Stair.|QID|13017|M|47.41,69.55|Z|Njorndir Preparation@UtgardeKeep|RANK|3|
+R Utgarde Keep|N|Head inside Utgarde Keep.|QID|13017|M|57.32,46.86|Z|Howling Fjord|RANK|2|
+A Jarten the Elder|N|From Jarten the Elder, at the Njorn Stair.|QID|13017|M|47.41,69.55|Z|Njorndir Preparation@UtgardeKeep|RANK|2|
 R Utgarde Pinnacle|N|Head out of Utgarde Keep, then run around north of the Keep to get to Utgarde Pinnacle.|QID|13067|M|57.25,46.63|Z|Howling Fjord|RANK|3|
-A Chogan'gada the Elder|N|From Chogan'gada the Elder, at the Lower Pinnacle Ruined Court, under the stairs. Does not show right on the map.|QID|13067|M|48.79,23.14|Z|Upper Pinnacle@UtgardePinnacle|RANK|3|
+A Chogan'gada the Elder|N|From Chogan'gada the Elder, at the Lower Pinnacle Ruined Court, under the stairs. May not show right on the map.|QID|13067|M|48.79,23.14|Z|Lower Pinnacle@UtgardePinnacle|RANK|3|
 
 F Amberpine Lodge|N|Fly to Amberpine Lodge.|QID|13030|M|59.79,63.24|Z|Howling Fjord|
 A Whurain the Elder|N|From Whurain the Elder.|QID|13030|M|64.2,47|Z|Grizzly Hills|T|Elder Whurain|
@@ -242,18 +165,18 @@ R Zim'Torga|N|Head to Zim'Torga.|QID|13027|M|58.8,56|Z|Zul'Drak|
 A Tauros the Elder|N|From Tauros the Elder.|QID|13027|M|58.91,55.97|Z|Zul'Drak|
 
 R Gundrak|N|Head inside of Gundrak.|QID|13065|M|76.43,21.43|Z|Zul'Drak|RANK|3|
-A Ohanzee the Elder|N|From Ohanzee the Elder, behind the Drakkari Colossus. Does not show right on map.|QID|13065|M|45.64,61.50|Z|Gundrak|RANK|3|
+A Ohanzee the Elder|N|From Ohanzee the Elder, behind the Drakkari Colossus. May not show right on map.|QID|13065|M|45.64,61.50|Z|Gundrak!Dungeon|RANK|3|
 
 R Camp Tunka'lo|N|Leave Gundrak and head over to Camp Tunka'lo.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|
 A Muraco the Elder|N|From Muraco the Elder.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|T|Elder Muraco|
 
 R Halls of Stone|N|Run into the Halls of Stone.|QID|13066|M|39.57,26.92|Z|The Storm Peaks|RANK|3|
-A Yurauk the Elder|N|From Yurauk the Elder, in the Crystalline Quarry. Does not show right on map.|QID|13066|M|29.39,62.06|Z|Ulduar|RANK|3|
+A Yurauk the Elder|N|From Yurauk the Elder, in the Crystalline Quarry. May not show right on map.|QID|13066|M|29.39,62.06|Z|Halls of Stone!Dungeon140|RANK|3|
 
 A Stonebeard the Elder|N|From Stonebeard the Elder, at Bouldercrag's Refuge.|QID|13020|M|31.26,37.61|Z|The Storm Peaks|
 A Fargal the Elder|N|From Fargal the Elder.|QID|13015|M|28.89,73.72|Z|The Storm Peaks|
 A Graymane the Elder|N|From Graymane the Elder.|QID|13028|M|41.16,84.72|Z|The Storm Peaks|
-F Wintergrasp|N|Fly to Wintergrasp.|QID|13026|M|40.6,84.6|Z|The Storm Peaks|
+F Valiance Landing Camp|N|Fly to Wintergrasp.|QID|13026|M|40.6,84.6|Z|The Storm Peaks|
 A Bluewolf the Elder|N|From Bluewolf the Elder. Just a note, if the Alliance does not have Wintergrasp you may not be able to get this Elder. It may be possible though if the Horde is in control, if the main gate is damaged enough to fly into.|QID|13026|M|49.03,13.95|Z|Wintergrasp|
 F River's Heart|N|Fly to River's Heart.|QID|13018|M|72,31|Z|Wintergrasp|
 A Sandrene the Elder|N|From Sandrene the Elder.|QID|13018|M|49.78,63.62|Z|Sholazar Basin|
@@ -269,11 +192,12 @@ F Nordrassil|QID|29740|N|Take the portal to Mount Hyjal.|
 A Evershade the Elder|QID|29740|M|62.54,22.82|Z|Mount Hyjal|N|From Elder Evershade|
 A Windsong the Elder|QID|29739|M|26.69,62.05|Z|Mount Hyjal|N|From Elder Windsong|
 
+F Nordrassil|QID|29738|N|Go the portal to Stormwind.|
 F Darkbreak Cove|QID|29738|N|Take the portal to Vashj'ir.|
 F Voldrin's Hold|QID|29738|M|57.34,15.80|Z|Shimmering Expanse|
 A Moonlance the Elder|QID|29738|M|57.25,86.14|Z|Shimmering Expanse|N|From Elder Moonlance, Near Biel'Aran Ridge|
 
-F Thundermar|QID|29736||N|Take the portal to the Twilight Highlands.|
+F Thundermar|QID|29736|N|Take the portal to the Twilight Highlands.|
 A Darkfeather the Elder|QID|29736|M|51.87,33.07|Z|Twilight Highlands|N|From Elder Darkfeather|
 A Firebeard the Elder|QID|29737|M|50.91,70.45|Z|Twilight Highlands|N|From Elder Firebeard|
 
@@ -281,7 +205,21 @@ F Ramkahen|QID|29742|N|Take the portal to Uldum.|Z|Uldum|
 A Menkhaf the Elder|QID|29742|M|65.52,18.68|Z|Uldum|N|From Elder Menkhaf|
 A Sekhemi the Elder|QID|29741|M|31.59,62.99|Z|Uldum|N|From Elder Sekhemi|
 
+A Lunar Preservation|QID|56842|M|53.2,36.0|Z|Moonglade|N|From Myrael Lunarbloom|
+C Moonglade Moonwell|QID|56842|M|48.4,33.5|Z|Moonglade|N|Just a short hop away. Right click when done.|
+C Felwood Moonwell|QID|56842|M|44.0, 28.3|Z|Felwood|N|Stop #2. Right click when done.|
+C Ashenvale Moonwell 1|QID|56842|M|53.0, 46.0|Z|Ashenvale|N|Stop #3. Right click when done.|
+C Ashenvale Moonwell 2|QID|56842|M|60.1, 72.8|Z|Ashenvale|N|Stop #4. Right click when done.|
+C Stonetalon Moonwell|QID|56842|M|41.7, 19.0|Z|Stonetalon Mountains|N|Stop #5. Right click when done.|
+C Dire Maul Moonwell|QID|56842|M|60.0, 46.0|Z|Feralas|N|Stop #6. Right click when done.|
+C Duskwood Moonwell|QID|56842|M|49.1, 33.6|Z|Duskwood|N|Stop #7. Right click when done.|
+C Mount Hyjal Moonwell|QID|56842|M|60.0, 24.0|Z|Mount Hyjal|N|Stop #8. Right click when done.|
+T Lunar Preservation|QID|56842|M|53.2,36.0|Z|Moonglade|N|To Myrael Lunarbloom|
+
 N The End |N|That's all for this year.|
 
 ]]
 end)
+
+
+

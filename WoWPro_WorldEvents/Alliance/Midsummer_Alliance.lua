@@ -1,96 +1,10 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
--- Date: 2015-03-09 17:19
--- Who: Ludovicus
--- Log: Added missing Z tag
-
--- URL: http://wow-pro.com/node/3406/revisions/26608/view
--- Date: 2014-07-25 21:53
--- Who: Ludovicus
--- Log: adj levels
-
--- URL: http://wow-pro.com/node/3406/revisions/26502/view
--- Date: 2014-06-10 22:00
--- Who: Ludovicus
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3406/revisions/25734/view
--- Date: 2013-06-29 23:42
--- Who: Twists
--- Log: Add Pandarian Fires
-
--- URL: http://wow-pro.com/node/3406/revisions/25730/view
--- Date: 2013-06-23 21:47
--- Who: Kaboca
--- Log: The missing Un'Goro Crater entries added to the guide.
-
--- URL: http://wow-pro.com/node/3406/revisions/25025/view
--- Date: 2012-07-01 20:58
--- Who: Ludovicus
--- Log: Optimize ordering for Northrend.
-
--- URL: http://wow-pro.com/node/3406/revisions/25024/view
--- Date: 2012-07-01 20:26
--- Who: Ludovicus
--- Log: Corrected coords for flight to Shattrath in Netherstorm
-
--- URL: http://wow-pro.com/node/3406/revisions/25023/view
--- Date: 2012-07-01 20:08
--- Who: Ludovicus
--- Log: Change R step from Vashjir to Darkbreak Cove
-
--- URL: http://wow-pro.com/node/3406/revisions/25022/view
--- Date: 2012-07-01 17:00
--- Who: Ludovicus
--- Log: Remove silly comment about setting hearth to stormwind for trip to Deepholm.
-
--- URL: http://wow-pro.com/node/3406/revisions/25021/view
--- Date: 2012-07-01 16:58
--- Who: Ludovicus
--- Log: Trim incorrect comment about Cata zones not counting.
-
--- URL: http://wow-pro.com/node/3406/revisions/25009/view
--- Date: 2012-06-26 18:36
--- Who: Ludovicus
--- Log: Three way merge of my, Twists and Laotseu's updates.
-
--- URL: http://wow-pro.com/node/3406/revisions/25008/view
--- Date: 2012-06-26 11:59
--- Who: Laotseu
-
--- URL: http://wow-pro.com/node/3406/revisions/25007/view
--- Date: 2012-06-26 11:55
--- Who: Laotseu
-
--- URL: http://wow-pro.com/node/3406/revisions/24781/view
--- Date: 2011-10-29 18:10
--- Who: Crackerhead22
--- Log: Moved zone names from quest name to notes for quest steps for auto-accept/complete to work.
-
--- URL: http://wow-pro.com/node/3406/revisions/24680/view
--- Date: 2011-07-12 23:21
--- Who: Ludovicus
--- Log: The )end must be on a line by itself.
-
--- URL: http://wow-pro.com/node/3406/revisions/24653/view
--- Date: 2011-06-30 22:39
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3406/revisions/24631/view
--- Date: 2011-06-30 05:42
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3406/revisions/24630/view
--- Date: 2011-06-30 05:34
--- Who: Crackerhead22
--- Log: Added source code to page.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraMidSumA",'WorldEvents',"Midsummer Fire Festival", "Crackerhead22", "Alliance")
-WoWPro:GuideLevels(guide,1,16,1.53571)
+WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -106,14 +20,14 @@ A Unusual Activity |N|From the Earthen Ring Elder. |M|62.11,49.15|Z|Darnassus|QI
 A Torch Tossing |N|From the Master Fire Eater. |M|63.19,47.5|QID|11731|Z|Darnassus|
 C Torch Tossing |N|Throw the torch at the brazier with the red arrow over it 8 times.|U|34862|QID|11731|Z|Darnassus|
 T Torch Tossing |N|To the Master Fire Eater. |M|63.19,47.5|QID|11731|Z|Darnassus|
-A Torch Catching |N|From the Master Fire Eater. |M|63.19,47.5|QID|11657|Z|Darnassus|
+A Torch Catching |N|From the Master Fire Eater. |M|63.19,47.5|QID|11657|PRE|11731|Z|Darnassus|
 C Torch Catching |N|Throw the torch from the bonfire and catch it 4 times in a row. Easiest way is to follow its shadow, though this quest is still not that easy.|U|34833|QID|11657|Z|Darnassus|
 T Torch Catching |N|To the Master Fire Eater. |M|63.19,47.5|QID|11657|Z|Darnassus|
 
-A More Torch Tossing |N|From the Master Fire Eater. |M|63.19,47.5|QID|11921|Z|Darnassus|
+A More Torch Tossing |N|From the Master Fire Eater. |M|63.19,47.5|QID|11921|PRE|11657|Z|Darnassus|
 C More Torch Tossing |N|Throw the torch at the brazier with the red arrow over it 20 times. This is a daily and can be repeated tomorrow.|U|34862|Z|Darnassus|QID|11921|
 T More Torch Tossing |N|To the Master Fire Eater. |M|63.19,47.5|Z|Darnassus|QID|11921|
-A More Torch Catching |N|From the Master Fire Eater. |M|63.19,47.5|Z|Darnassus|QID|11924|
+A More Torch Catching |N|From the Master Fire Eater. |M|63.19,47.5|Z|Darnassus|QID|11924|PRE|11657|
 C More Torch Catching |N|Throw the torch from the bonfire and catch it 10 times in a row. This is a daily and can be repeated tomorrow.|U|34833|Z|Darnassus|QID|11924|
 T More Torch Catching |N|To the Master Fire Eater. |M|63.19,47.5|Z|Darnassus|QID|11924|
 
@@ -136,10 +50,10 @@ A Desecrate this Fire!|N|At the Horde Bonfire. (Ashenvale)|QID|11765|M|51.7,66.7
 
 C Unusual Activity |N|Kill Twilight mobs near Blackfathom Depths until the item drops.|M|16,19|QID|11886|Z|Ashenvale|
 T Unusual Activity |N|Use the Totemic Beacon to summon the Guide.|U|35828|QID|11886|
-A An Innocent Disguise |QID|11891|N|From the Earthen Ring Guide.|
+A An Innocent Disguise |QID|11891|PRE|11886|N|From the Earthen Ring Guide.|
 C An Innocent Disguise |N|Turn into a crab and wait for the naga to finish speaking. |M|9.5,12.6|U|35237|QID|11891|Z|Ashenvale|
 T An Innocent Disguise |N|Use the Totemic Beacon to summon the Guide.|U|35828|QID|11891|
-A Inform the Elder |QID|12012;29092|N|From the Earthen Ring Guide.|
+A Inform the Elder |QID|12012^29092|N|From the Earthen Ring Guide.|
 
 A Honor the Flame|N|From the Flame Warden. (Stonetalon Mountains)|QID|28928|M|49.2,51.4|Z|Stonetalon Mountains|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Stonetalon Mountains)|QID|11780|M|53,62.3|Z|Stonetalon Mountains|
@@ -217,7 +131,7 @@ T Stealing the Undercity's Flame |QID|9326|N|To the Festival Loremaster.|M|49.6,
 T Stealing Orgrimmar's Flame |QID|9324|N|To the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
 T Stealing Thunder Bluff's Flame |QID|9325|N|To the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
 A A Thief's Reward |QID|9365|N|From the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
-T Inform the Elder |N|To the Earthen Ring Elder. |M|49.32,72.28|QID|12012;29092|Z|Stormwind City|
+T Inform the Elder |N|To the Earthen Ring Elder. |M|49.32,72.28|QID|12012^29092|Z|Stormwind City|
 
 R Deepholm|N|Take the portal to Deepholm.|M|73.2,19.71|Z|Stormwind City|QID|29036|
 A Honor the Flame|N|From the Flame Warden. (Deepholm)|QID|29036|M|49.4,51.4|Z|Deepholm|
@@ -272,10 +186,10 @@ A Honor the Flame|N|From the Flame Warden. (The Storm Peaks)|QID|13490|M|41.44,8
 A Desecrate this Fire!|N|At the Horde Bonfire. (The Storm Peaks)|QID|13455|M|40.41,85.61|Z|The Storm Peaks|
 A Honor the Flame|N|From the Flame Warden. (Crystalsong Forest)|QID|13491|M|78.17,74.95|Z|Crystalsong Forest|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Crystalsong Forest)|QID|13457|M|80.34,52.87|Z|Crystalsong Forest|
-R Dalaran |N|Run to Dalaran.|M|88.72,60.36|Z|Dalaran|
+R Dalaran |N|Run to Dalaran.|M|88.72,60.36|Z|Dalaran City@Dalaran|
 N Torch Juggler|QID|990272|N|To do this achievement, use the Juggling Torches that you purchased earlier. Find a quiet corner in Dalaran where you have open space and have the least amount of lag. Tip: Bind your Torches to a hotkey. Press the hotkey to get the targeting circle and aim directly beneath yourself. Throwing them at yourself this way will allow you to catch them as fast as you can throw them. There is no global cooldown on the torches so you can spam away until you complete this achievement.|ACH|1038;6|
 
-R Stormwind City|N|Take the portal back to Stormwind.|M|39.57,62.38|Z|Dalaran|
+R Stormwind City|N|Take the portal back to Stormwind.|M|39.57,62.38|Z|Dalaran City@Dalaran|
 R Paw'Don Village|N|Take the portal to Paw'Don Village.|M|68.73,17.33|Z|Stormwind City|
 F Dawn's Blossom|N|Fly to Dawn's Blossom in the Jade Forrest.|QID|32498|M|46.04,85.07|Z|The Jade Forest|
 A Honor the Flame|N|From the Flame Warden. (Dawn's Blossom)|QID|32498|M|47.2,47.2|Z|The Jade Forest|
@@ -303,3 +217,6 @@ N The End |N|That's all for this year.|
 
 ]]
 end)
+
+
+

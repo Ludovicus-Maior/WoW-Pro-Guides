@@ -1,73 +1,10 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
--- Date: 2015-03-06 19:33
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3414/revisions/26832/view
--- Date: 2014-11-06 18:13
--- Who: Fluclo
--- Log: Added missing |N| to First Lieutenant Connor
-
--- URL: http://wow-pro.com/node/3414/revisions/26831/view
--- Date: 2014-11-06 18:12
--- Who: Fluclo
--- Log: Added missing pipe from Cursed Shackles QID.
-
--- URL: http://wow-pro.com/node/3414/revisions/26546/view
--- Date: 2014-07-06 15:24
--- Who: Ludovicus
--- Log: Guide level and faction
-
--- URL: http://wow-pro.com/node/3414/revisions/26506/view
--- Date: 2014-06-10 22:51
--- Who: Ludovicus
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3414/revisions/25669/view
--- Date: 2013-05-17 19:17
--- Who: Ludovicus
--- Log: Removed empty M tag
-
--- URL: http://wow-pro.com/node/3414/revisions/25630/view
--- Date: 2013-05-14 15:51
--- Who: Ludovicus
--- Log:  Shackles
-
--- URL: http://wow-pro.com/node/3414/revisions/25290/view
--- Date: 2013-01-09 01:39
--- Who: Ludovicus
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3414/revisions/25041/view
--- Date: 2012-08-07 21:17
--- Who: Ludovicus
--- Log: [Watch Out For Splinters!] with the bang!
-
--- URL: http://wow-pro.com/node/3414/revisions/24877/view
--- Date: 2011-12-29 02:21
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3414/revisions/24876/view
--- Date: 2011-12-29 02:19
--- Who: Crackerhead22
--- Log: Split Tol Barad Peninsula and Tol Barad into two guides.
-
--- URL: http://wow-pro.com/node/3414/revisions/24679/view
--- Date: 2011-07-11 22:47
--- Who: Ludovicus
--- Log: Fix  C [Cursed Shackels] and coords for turnin on Sergeant Parker.
-
--- URL: http://wow-pro.com/node/3414/revisions/24646/view
--- Date: 2011-06-30 18:56
--- Who: Ludovicus
--- Log: Initial Create
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraToBarA",'Dailies', "Tol Barad", "Crackerhead22", "Alliance")
-WoWPro:GuideLevels(guide,85,85,85)
+WoWPro:GuideLevels(guide ,35,60)
 WoWPro.Dailies:GuideFaction(guide,1177) --  "Tol Barad Guide"
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -80,7 +17,7 @@ A A Huge Problem|QID|28122|M|51,49.4|N|From Sergeant Parker.|
 A Swamp Bait|QID|28162|M|51,49.4|N|From Sergeant Parker.|
 A The Leftovers|QID|28163|M|51,49.4|N|From Sergeant Parker.|
 
-A Accept all quests|M|51.8,49.6|N|From either Commander Stevens, Marshal Fallows or 2nd Lieutenant Wansworth.|QID|28118;28120;28117;28223;28188;28232;28185;28165;28186|
+A Accept all quests|M|51.8,49.6|N|From either Commander Stevens, Marshal Fallows or 2nd Lieutenant Wansworth.|QID|28118^28120^28117^28223^28188^28232^28185^28165^28186|
 
 C A Huge Problem|QID|28122|M|30.9,45.2;38.4,61.7;50.6,58.2;61.7,57.8;62,43.8;57.6,35.3;41,33.9|CN|N|Find and kill Problim. If someone else is attacking him, help out as you will get the completion as well.|T|Problim|
 
@@ -130,3 +67,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 
 ]]
 end)
+
+
+

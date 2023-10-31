@@ -1,70 +1,152 @@
+-- luacheck: globals tostring pairs
+
 -------------------------------
 --      WoWPro_Leveling      --
 -------------------------------
 
 WoWPro.Leveling = WoWPro:NewModule("Leveling")
-local myUFG = UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Leveling)
 
 WoWPro.Leveling.StartGuides = {
-			Orc = "JiyDur0105", 
-			Troll = "BitDur0105", 
-			Scourge = "JiyDk0105",
-			Tauren = "GylNar0105",
-			BloodElf = "SnoSun0105",
-			Goblin = "MalKez0105", 
-			Draenei = "SnoAmmen0105",
-			NightElf = "BitSha0105",
-			Dwarf = "GylDwa0105",
-			Gnome = "GylGno0105",
-			Human = "KurNShire0105",
-			Worgen = "RpoGil0113",
-			Pandaren = "FlucloPanda",
-		}
+    Orc = "JiyDur0105",
+    Troll = "BitDur0105",
+    Scourge = "JiyDk0105",
+    Tauren = "GylNar0105",
+    BloodElf = "KraSunIsle",
+    Goblin = "MalKez0105",
+    Draenei = "SnoAmmen0105",
+    NightElf = "BitSha0105",
+    Dwarf = "GylDwa0105",
+    Gnome = "GylGno0105",
+    Human = "KurNShire0105",
+    Worgen = "RpoGil0113",
+    Pandaren = "FlucloPanda"
+}
+WoWPro.Leveling.AlliedStartGuides = {
+    VoidElf = "LudoTelogrus",
+    LightforgedDraenei = "LudoLightforged",
+    HighmountainTauren = "LudoHighTauren",
+    Nightborne = "LudoNightborne",
+    KulTiran = "KulTiran",
+    ZandalariTroll = "ZandalariTroll",
+    DarkIronDwarf = "DarkIronDwarf",
+    MagharOrc = "MagHarOrc",
+    Vulpera = "Vulpera",
+    Mechagnome = "Mechagnome",
+    Pandaren = "LudoAlliedDK", -- Yes, this is wrong, but it works!
+}
+WoWPro.Leveling.ClassicStartGuides = {
+    Dwarf = 'ClassicDunMorogh0112',
+    Gnome = 'ClassicDunMorogh0112',
+    Human = 'ClassicElwynn0112',
+    NightElf = "ClassicTeldrassil0112",
+    Orc = 'Classic-01-12-Zerinj-Durotar',
+    Scourge = 'Classic-01-12-Manovan-TirisfalGlades',
+    Tauren = 'Classic-01-12-Shururu-Mulgore',
+    Troll = 'Classic-01-12-Zerinj-Durotar'
+}
+WoWPro.Leveling.ClassicBCStartGuides = {
+    BloodElf = "BC-BloodElf",
+    Draenei = "BC-Draenei",
+    Dwarf = 'BC-DwarfGnome',
+    Gnome = 'BC-DwarfGnome',
+    Human = 'BC-Human',
+    NightElf = "BC-NightElf",
+    Orc = 'BC-OrcTroll',
+    Scourge = 'BC-Scourge',
+    Tauren = 'BC-Tauren',
+    Troll = 'BC-OrcTroll'
+}
+
+WoWPro.Leveling.ClassicWrathStartGuides = {
+    BloodElf = "BC-BloodElf",
+    Draenei = "SnoAzu0112",
+    Dwarf = 'BosDun0112',
+    Gnome = 'BosDun0112',
+    Human = 'WOTLK_INTRO_Human',
+    NightElf = "WOTLK_INTRO_NE",
+    Orc = 'BC-OrcTroll',
+    Scourge = 'BC-Scourge',
+    Tauren = 'BC-Tauren',
+    Troll = 'BC-OrcTroll'
+}
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
     -- Legacy, destroy!
-	WoWProCharDB.AutoHideLevelingInsideInstances = nil
+    WoWProCharDB.AutoHideLevelingInsideInstances = nil
 end
 
 -- Called when the module is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro.Leveling:OnEnable()
-	WoWPro.Leveling:dbp("|cff33ff33Enabled2|r")
-	
-	-- Event Registration --
-	WoWPro.Leveling.Events = { 
-		"ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "MINIMAP_ZONE_CHANGED", "ZONE_CHANGED_NEW_AREA", 
-		"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "TRAINER_UPDATE",
-		"QUEST_GREETING","GOSSIP_SHOW", "QUEST_DETAIL", "QUEST_PROGRESS", "QUEST_COMPLETE",
-		"TAXIMAP_OPENED","PET_BATTLE_OPENING_START","PET_BATTLE_CLOSE"
-	}
-	WoWPro:RegisterEvents(WoWPro.Leveling.Events)
-	--Loading Frames--
-	if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
-		WoWPro.Leveling:CreateConfig()
-		WoWPro.Leveling.FramesLoaded = true
-	end
-	
-	-- Loading Initial Guide --
-	local locClass, engClass = UnitClass("player")
-	local locRace, engRace = UnitRace("player")
+    WoWPro.Leveling:dbp("|cff33ff33Enabled2|r")
 
-	-- New Level 1 Character --	
-	if UnitLevel("player") == 1 and UnitXP("player") < 100 then
-		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
-		WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
-		WoWPro:LoadGuide(WoWPro.Leveling.StartGuides[engRace])
-	-- New Death Knight --
-	elseif UnitLevel("player") == 55 and UnitXP("player") < 1000 and engClass == "DEATHKNIGHT" then
-		WoWPro:LoadGuide("JamScar5558")
-	-- No current guide, but a guide was stored for later use --
-	elseif WoWProDB.char.lastlevelingguide and not WoWProDB.char.currentguide then
-		WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
-	end
-	
-	WoWPro.FirstMapCall = true
-	WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
+    --Loading Frames--
+    if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
+        WoWPro.Leveling:CreateConfig()
+        WoWPro.Leveling.FramesLoaded = true
+    end
+
+    -- Loading Initial Guide --
+    if not WoWProDB.char.currentguide then
+        local locClass, engClass = _G.UnitClass("player")
+        local _, engRace = _G.UnitRace("player")
+        local currentLevel = _G.UnitLevel("player")
+        local currentXP = _G.UnitXP("player")
+
+        -- New Level 1 Character --
+        if currentLevel == 1 and currentXP < 100 then
+            WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
+            if WoWPro.CLASSIC then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
+            elseif WoWPro.BC then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
+            elseif WoWPro.WRATH then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicWrathStartGuides[engRace]
+            else
+				local mapID = _G.C_Map.GetBestMapForUnit("player");
+				if mapID == 1727 or mapID == 1409 then
+					local faction = WoWPro.Faction
+					if faction == "Horde" then
+						WoWProDB.char.currentguide = "EliHordeExile"
+					else
+						WoWProDB.char.currentguide = "CagER0110"
+					end
+				else
+					WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
+				end
+            end
+            WoWPro:LoadGuide(WoWProDB.char.currentguide)
+        -- New Death Knight --
+		elseif currentLevel == 55 and currentXP < 1000 and engClass == "DEATHKNIGHT" and WoWPro.WRATH then
+			WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
+            WoWPro:LoadGuide("WOTLK-DK")
+		elseif currentLevel == 58 and currentXP < 1000 and engRace == "Dracthyr" then
+			WoWPro.Leveling:dbp("Loading starter %s guide",engRace)
+            WoWPro:LoadGuide("Intro_Dracthyr")
+        elseif currentLevel == 8 and currentXP < 300 and engClass == "DEATHKNIGHT" then
+            WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
+            WoWPro:LoadGuide("JamScar5558")
+        elseif currentLevel == 10 and currentXP < 300 and engClass == "DEATHKNIGHT" and WoWPro.Leveling.AlliedStartGuides[engRace] then
+            WoWPro.Leveling:dbp("Loading Allied DK starter %s guide",locClass)
+            WoWProDB.char.currentguide = "LudoAlliedDK"
+            WoWPro:LoadGuide(WoWProDB.char.currentguide)
+        elseif currentLevel == 8 and currentXP < 300 and engClass == "DEMONHUNTER" then
+            WoWPro.Leveling:dbp("Loading DH starter %s guide",locClass)
+            WoWProDB.char.currentguide =  "LinksMardum098099"
+            WoWPro:LoadGuide(WoWProDB.char.currentguide)
+        elseif currentLevel == 10 and currentXP < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] then
+            WoWPro.Leveling:dbp("Loading Allied starter %s guide",engRace)
+            WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
+            WoWPro:LoadGuide(WoWProDB.char.currentguide)
+        -- No current guide, but a guide was stored for later use --
+        elseif WoWProDB.char.lastlevelingguide then
+            WoWPro.Leveling:dbp("Loading last leveling guide.")
+            WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
+        end
+    end
+
+    WoWPro.FirstMapCall = true
 end
 
 -- Validate that all start guides are present and accounted for
@@ -81,38 +163,10 @@ end
 
 -- Called when the module is disabled --
 function WoWPro.Leveling:OnDisable()
-	-- Unregistering Leveling Module Events --
-	WoWPro:UnregisterEvents(WoWPro.Leveling.Events)
-	
-	--[[ If the current guide is a leveling guide, removes the map point, stores the guide's ID to be resumed later, 
-	sets the current guide to nil, and loads the nil guide. ]]
-	if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Leveling" then
-		WoWPro:RemoveMapPoint()
-		WoWProDB.char.lastlevelingguide = WoWProDB.char.currentguide
-	end
+    --[[ If the current guide is a leveling guide, removes the map point, stores the guide's ID to be resumed later,
+    sets the current guide to nil, and loads the nil guide. ]]
+    if WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype == "Leveling" then
+        WoWPro:RemoveMapPoint()
+        WoWProDB.char.lastlevelingguide = WoWProDB.char.currentguide
+    end
 end
-
--- Guide Registration Function --
-function WoWPro.Leveling:RegisterGuide(GIDvalue, zonename, authorname, startlevelvalue, 
-	endlevelvalue, nextGIDvalue, factionname, sequencevalue)
-	
---[[ Purpose: 
-		Called by guides to register them to the WoWPro.Guide table. All members
-		of this table must have a quidetype parameter to let the addon know what 
-		module should handle that guide.]]
-		
-	if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end 
-		-- If the guide is not of the correct faction, don't register it
-		
-	WoWPro.Guides[GIDvalue] = {
-		guidetype = "Leveling",
-		zone = zonename,
-		author = authorname,
-		startlevel = tonumber(startlevelvalue),
-		endlevel = tonumber(endlevelvalue),
-		sequence = sequencevalue,
-		nextGID = nextGIDvalue,
-		faction = factionname
-	}
-end
-

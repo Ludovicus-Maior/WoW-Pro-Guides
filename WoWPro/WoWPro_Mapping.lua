@@ -1,12 +1,32 @@
+-- luacheck: globals TomTom LightHeaded Nx
+-- luacheck: globals ipairs select wipe tremove tinsert
+-- luacheck: globals tonumber tostring floor sqrt type
+
 ----------------------------------
 --      WoWPro_Mapping.lua      --
 ----------------------------------
 
 local L = WoWPro_Locale
-local cache = {}	
-local B = LibStub("LibBabble-Zone-3.0")
-local BL = B:GetUnstrictLookupTable()
-local AL = DongleStub and pcall(DongleStub,"Astrolabe-1.0") and DongleStub("Astrolabe-1.0")
+local cache = {}
+local HBD = _G.LibStub("HereBeDragons-2.0")
+WoWPro.HBD = HBD
+
+-- Local HBD:GetPlayerZonePosition() substitute
+function WoWPro:GetPlayerZonePosition()
+    local mapID = _G.C_Map.GetBestMapForUnit("player")
+    if not mapID then
+        return nil, nil, nil
+    end
+    local pmp = _G.C_Map.GetPlayerMapPosition(mapID, "player")
+    if not pmp then
+        return nil, nil, mapID
+    end
+    local x, y = pmp:GetXY()
+    if x and y then
+        return x , y , mapID
+    end
+end
+
 
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
@@ -15,291 +35,223 @@ local SHOW_WORLDMAP_MENU = true
 local SHOW_MINIMAP_TOOLTIP = true
 local SHOW_WORLDMAP_TOOLTIP = true
 
-
 -- WoWPro customized callback functions for TomTom --
 
 -- Function to customize the drop-down menu when right-clicking
 -- the TomTom waypoint on the minimap
 local function WoWProMapping_minimap_onclick(event, uid, self, button)
-	if SHOW_MINIMAP_MENU then
-		TomTom:InitializeDropdown(uid)
-		ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
-	end
+    if SHOW_MINIMAP_MENU then
+        TomTom:InitializeDropdown(uid)
+        _G.ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
+    end
 end
 
--- Function to customize the drop-down menu when right-clicking 
+-- Function to customize the drop-down menu when right-clicking
 -- the TomTom waypoint on the world map
 local function WoWProMapping_worldmap_onclick(event, uid, self, button)
-	if SHOW_WORLDMAP_MENU then
-		TomTom:InitializeDropdown(uid)
-		ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
-	end
+    if SHOW_WORLDMAP_MENU then
+        TomTom:InitializeDropdown(uid)
+        _G.ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
+    end
 end
 
--- Function to customize the tooltip when mouse-over the TomTom waypoint, 
+-- Function to customize the tooltip when mouse-over the TomTom waypoint,
 -- can be called by both minimap and world map tooltip functions
 local function WoWProMapping_tooltip(event, tooltip, uid, dist)
 
-	local iactual
-	for i,waypoint in ipairs(cache) do
-		if (waypoint.uid == uid) then
-			iactual = i break
-		end
-	end
+    local iactual
+    for i,waypoint in ipairs(cache) do
+        if (waypoint.uid == uid) then
+            iactual = i break
+        end
+    end
 
-	local zone = cache[iactual].zone
-	local x = cache[iactual].x
-	local y = cache[iactual].y
-	local desc = cache[iactual].desc
-	local jcoord = cache[iactual].j
-	
-	tooltip:SetText(desc or L["WoWPro waypoint"])
-	if dist and tonumber(dist) then
-		tooltip:AddLine(string.format(L["%s yards away"], math.floor(dist)), 1, 1, 1)
-	else
-		tooltip:AddLine(L["Unknown distance"])
-	end
-	tooltip:AddLine(string.format(L["%s (%.2f, %.2f)"], zone, x, y), 0.7, 0.7, 0.7)
-	if #cache > 1 then
-		tooltip:AddLine(string.format(L["Waypoint %d of %d"], jcoord, #cache), 1, 1, 1)
-	end
-	tooltip:Show()
+    local zone = cache[iactual].zone
+    local x = cache[iactual].x
+    local y = cache[iactual].y
+    local desc = cache[iactual].desc
+    local jcoord = cache[iactual].j
+
+
+    tooltip:SetText(desc or L["WoWPro waypoint"])
+    if dist and tonumber(dist) then
+        tooltip:AddLine(L["%s yards away"]:format(floor(dist)), 1, 1, 1)
+    else
+        tooltip:AddLine(L["Unknown distance"])
+    end
+    tooltip:AddLine(L["%s (%.2f, %.2f)"]:format(zone, x, y), 0.7, 0.7, 0.7)
+    if #cache > 1 then
+        tooltip:AddLine(L["Waypoint %d of %d"]:format(jcoord, #cache), 1, 1, 1)
+    end
+    if desc then
+        tooltip:AddLine(L["WoWPro waypoint"])
+    end
+    tooltip:Show()
 end
 
 -- Function to customize the tooltip when mouse-over the TomTom waypoint on the minimap
 local function WoWProMapping_tooltip_minimap(event, tooltip, uid, dist)
-	if not SHOW_MINIMAP_TOOLTIP then 
-		tooltip:Hide()
-		return
-	end
-	return WoWProMapping_tooltip(event, tooltip, uid, dist)
+    if not SHOW_MINIMAP_TOOLTIP then
+        tooltip:Hide()
+        return
+    end
+    return WoWProMapping_tooltip(event, tooltip, uid, dist)
 end
 
 -- Function to customize the tooltip when mouse-over the TomTom waypoint on the world map
 local function WoWProMapping_tooltip_worldmap(event, tooltip, uid, dist)
-	if not SHOW_WORLDMAP_TOOLTIP then
-		tooltip:Hide()
-		return
-	end
-	return WoWProMapping_tooltip(event, tooltip, uid, dist)
+    if not SHOW_WORLDMAP_TOOLTIP then
+        tooltip:Hide()
+        return
+    end
+    return WoWProMapping_tooltip(event, tooltip, uid, dist)
 end
 
--- Function to update customized tooltips, for both minimap and world map 
+-- Function to update customized tooltips, for both minimap and world map
 -- (could be changed later so they can be different)
 local function WoWProMapping_tooltip_update_both(event, tooltip, uid, dist)
-	if dist and tonumber(dist) then
-		tooltip.lines[2]:SetFormattedText(L["%s yards away"], math.floor(dist), 1, 1, 1)
-	else
-		tooltip.lines[2]:SetText(L["Unknown distance"])
-	end
+    if dist and tonumber(dist) then
+        tooltip.lines[2]:SetFormattedText(L["%s yards away"], floor(dist), 1, 1, 1)
+    else
+        tooltip.lines[2]:SetText(L["Unknown distance"])
+    end
 end
 
-local autoarrival	-- flag to indicate if the step should autocomplete
-			-- when final position is reached; defined inside WoWPro:MapPoint from guide tag
+local autoarrival   -- flag to indicate if the step should autocomplete
+            -- when final position is reached; defined inside WoWPro:MapPoint from guide tag
 
-local OldCleardistance	-- saves TomTom's option to restore it
+local OldCleardistance  -- saves TomTom's option to restore it
 
 -- Function to handle the distance callback in TomTom, when player gets to the final destination
 local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 
-	if UnitOnTaxi("player") then
-	    return
-	end
+    if _G.UnitOnTaxi("player") then
+        return
+    end
 
-   
-	if not autoarrival then
---	     WoWPro:dbp("WoWProMapping_distance: no autoarrival")
-	    return
-	end
+    if not autoarrival then
+--       WoWPro:dbp("WoWProMapping_distance: no autoarrival")
+        return
+    end
 
-	local iactual
-    WoWPro:dbp("WoWProMapping_distance: autoarrival for uid %s at range %g",tostring(uid),range)
-    
-	for i,waypoint in ipairs(cache) do
-		if (waypoint.uid == uid) then
-		    WoWPro:dbp("Mapping: Located waypoint UID %s @ idx %d, autoarrival = %d",tostring(uid),i,autoarrival)
-			iactual = i
-			break
-		end
-	end
-	
-	if not iactual then
-	    WoWPro:Warning("Mapping: Unable to locate UID %s in cache.",tostring(uid))
-	    return
-	end
-	
-	local autoComplete = false
-	local index = cache[iactual].index
+    local iactual
+    WoWPro:dbp("WoWProMapping_distance: autoarrival%s for uid %s at range %g",tostring(autoarrival), tostring(uid),range)
 
-	if WoWPro.action[index] == "r" or WoWPro.action[index] == "R" or WoWPro.action[index] == "N" then
-	    autoComplete = true
-	end
-	   
-	if autoarrival == 1 then
-		for i=iactual,#cache do
-		    if cache[i] then
-			    TomTom:RemoveWaypoint(cache[i].uid)
-			    table.remove(cache,i)
-			end
-		end
-			
-		if iactual == 1 and autoComplete then
-			WoWPro.CompleteStep(index, "autoarrival=1")
-		end
-	
-	elseif autoarrival == 2 then
-		if iactual ~= #cache then
-		    return 
-		elseif iactual == 1 then
-		    if autoComplete then
-			    WoWPro.CompleteStep(index, "autoarrival=2")
-			end
-		else
-			TomTom:RemoveWaypoint(cache[iactual].uid)
-			TomTom:SetCrazyArrow(cache[iactual-1].uid, TomTom.db.profile.arrow.arrival, cache[iactual-1].desc)
-			table.remove(cache)
-			for i=1,#cache,1 do
-				cache[i].j = cache[i].j - 1
-			end
-		end
-	end
-	
+    for i,waypoint in ipairs(cache) do
+        if (waypoint.uid == uid) then
+            WoWPro:dbp("Mapping: Located waypoint UID %s @ idx %d, autoarrival = %d",tostring(uid),i,autoarrival)
+            iactual = i
+            break
+        end
+    end
+
+    if not iactual then
+        WoWPro:Warning("Mapping: Unable to locate UID %s in cache.",tostring(uid))
+        return
+    end
+
+    local autoComplete = false
+    local index = cache[iactual].index
+
+    if WoWPro.action[index] == "r" or WoWPro.action[index] == "R" or WoWPro.action[index] == "N" then
+        autoComplete = true
+    end
+
+    if autoarrival == 1 then
+        for i=iactual,#cache do
+            if cache[i] then
+                WoWPro:dbp("Mapping(AA1): removing uid #%d %s.", i, tostring(cache[i].uid))
+                TomTom:RemoveWaypoint(cache[i].uid)
+                tremove(cache,i)
+            end
+        end
+
+        if iactual == 1 and autoComplete then
+            WoWPro.CompleteStep(index, "autoarrival=1")
+        end
+
+    elseif autoarrival == 2 then
+        if iactual ~= #cache then
+            WoWPro:dbp("Mapping(AA2): iactual%d ~= #cache%d.", iactual,  #cache)
+            return
+        elseif iactual == 1 then
+            if autoComplete then
+                WoWPro.CompleteStep(index, "autoarrival=2")
+            end
+        else
+            WoWPro:dbp("Mapping(AA2): removing uid #%d %s.", iactual, tostring(cache[iactual].uid))
+            TomTom:RemoveWaypoint(cache[iactual].uid)
+            TomTom:SetCrazyArrow(cache[iactual-1].uid, TomTom.db.profile.arrow.arrival, cache[iactual-1].desc)
+            tremove(cache)
+            for i=1,#cache,1 do
+                cache[i].j = cache[i].j - 1
+            end
+        end
+    end
+    -- autoarrival == 0 is a no-op
 end
 
 -- table with custom callback functions to use in TomTom
 local WoWProMapping_callbacks_tomtom = {
-			minimap = {
-				onclick = WoWProMapping_minimap_onclick,
-				tooltip_show = WoWProMapping_tooltip_minimap,
-				tooltip_update = WoWProMapping_tooltip_update_both,
-			},
-			world = {
-				onclick = WoWProMapping_worldmap_onclick,
-				tooltip_show = WoWProMapping_tooltip_worldmap,
-				tooltip_update = WoWProMapping_tooltip_update_both,
-			},
-			distance = {
-				
-			},
-}
-
--- parameters for Lightheaded
-local zidmap = {
-   [1] = "Dun Morogh",
-   [3] = "Badlands",
-   [4] = "Blasted Lands",
-   [8] = "Swamp Of Sorrows",
-   [10] = "Duskwood",
-   [11] = "Wetlands",
-   [12] = "Elwynn Forest",
-   [14] = "Durotar",
-   [15] = "Dustwallow",
-   [16] = "Aszhara",
-   [17] = "The Barrens",
-   [28] = "Western Plaguelands",
-   [33] = "Stranglethorn Vale",
-   [36] = "Alterac Mountains",
-   [38] = "Loch Modan",
-   [40] = "Westfall",
-   [41] = "Deadwind Pass",
-   [44] = "Redridge Mountains",
-   [45] = "Arathi Basin",
-   [46] = "Burning Steppes",
-   [47] = "The Hinterlands",
-   [51] = "Searing Gorge",
-   [65] = "Dragonblight",
-   [66] = "Zul'Drak",
-   [67] = "The Storm Peaks",
-   [85] = "Tirisfal Glades",
-   [130] = "Silverpine Forest",
-   [139] = "Eastern Plaguelands",
-   [141] = "Teldrassil",
-   [148] = "Darkshore",
-   [210] = "Icecrown",
-   [215] = "Mulgore",
-   [267] = "Hilsbrad Foothills",
-   [331] = "Ashenvale Forest",
-   [357] = "Feralas",
-   [361] = "Felwood",
-   [394] = "Grizzly Hills",
-   [400] = "Thousand Needles",
-   [405] = "Desolace",
-   [406] = "Stonetalon Mountains",
-   [440] = "Tanaris",
-   [490] = "Un'Goro Crater",
-   [493] = "Moonglade",
-   [495] = "Howling Fjord",
-   [618] = "Winterspring",
-   [1377] = "Silithus",
-   [1497] = "Undercity",
-   [1519] = "Stormwind City",
-   [1537] = "Ironforge",
-   [1637] = "Ogrimmar",
-   [1638] = "Thunder Bluff",
-   [1657] = "Darnassus",
-   [3430] = "Eversong Woods",
-   [3433] = "Ghostlands",
-   [3483] = "Hellfire",
-   [3487] = "Silvermoon City",
-   [3518] = "Nagrand",
-   [3519] = "Terokkar Forest",
-   [3520] = "Shadowmoon Valley",
-   [3521] = "Zangarmarsh",
-   [3522] = "Blades Edge Mountains",
-   [3523] = "Netherstorm",
-   [3524] = "Azuremyst Isle",
-   [3525] = "Bloodmyst Isle",
-   [3537] = "Borean Tundra",
-   [3557] = "The Exodar",
-   [3703] = "Shattrath City",
-   [3711] = "Sholazar Basin",
-   [4080] = "Sunwell",
-   [4197] = "Lake Wintergrasp",
-   [4395] = "Dalaran",
+            minimap = {
+                onclick = WoWProMapping_minimap_onclick,
+                tooltip_show = WoWProMapping_tooltip_minimap,
+                tooltip_update = WoWProMapping_tooltip_update_both,
+            },
+            world = {
+                onclick = WoWProMapping_worldmap_onclick,
+                tooltip_show = WoWProMapping_tooltip_worldmap,
+                tooltip_update = WoWProMapping_tooltip_update_both,
+            },
+            distance = {
+            },
 }
 
 function WoWPro:findBlizzCoords(questId)
-	local POIFrame
+    --[[
+        local POIFrame
 
-    	-- Try to find the correct quest frame
-    	for i = 1, MAX_NUM_QUESTS do
-        	local questFrame = _G["WorldMapQuestFrame"..i];
-        	if ( questFrame ) then
-             		if ( questFrame.questId == questId ) then
-                		POIFrame = questFrame.poiIcon
-             			break
-             		end
-        	end
-    	end
+        -- Try to find the correct quest frame
+        for i = 1, MAX_NUM_QUESTS do
+            local questFrame = _G["WorldMapQuestFrame"..i];
+            if ( questFrame ) then
+                    if ( questFrame.questId == questId ) then
+                        POIFrame = questFrame.poiIcon
+                        break
+                    end
+            end
+        end
 
-    	if not POIFrame then return nil, nil end
+        if not POIFrame then return nil, nil end
 
-    	local _, _, _, x, y = POIFrame:GetPoint()
-		
-		-- sanity check if there's a problem with Blizzard's quest map POI APIs
-		if (not x) or (not y) then
-			return nil, nil
-    	end
-		
-    	local frame = WorldMapDetailFrame
-    	local width = frame:GetWidth()
-    	local height = frame:GetHeight()
-    	local scale = frame:GetScale() / POIFrame:GetScale()
-		
-    	local cx = (x / scale) / width
-    	local cy = (-y / scale) / height
+        local _, _, _, x, y = POIFrame:GetPoint()
 
-    	if cx < 0 or cx > 1 or cy < 0 or cy > 1 then
-        	return nil, nil
-    	end
+        -- sanity check if there's a problem with Blizzard's quest map POI APIs
+        if (not x) or (not y) then
+            return nil, nil
+        end
 
-    	return cx * 100, cy * 100
+        local frame = WorldMapDetailFrame
+        local width = frame:GetWidth()
+        local height = frame:GetHeight()
+        local scale = frame:GetScale() / POIFrame:GetScale()
+
+        local cx = (x / scale) / width
+        local cy = (-y / scale) / height
+
+        if cx < 0 or cx > 1 or cy < 0 or cy > 1 then
+            return nil, nil
+        end
+
+        return cx * 100, cy * 100
+]]
+    return nil, nil
 end
 
 local FinalCoord
 function WoWPro:MapPointDelta()
-    local x, y = GetPlayerMapPosition("player");
-    if FinalCoord then
+    local x, y = WoWPro:GetPlayerZonePosition()
+    if FinalCoord and x and y then
         local X,Y
         X=FinalCoord[1]
         Y=FinalCoord[2]
@@ -311,8 +263,7 @@ function WoWPro:MapPointDelta()
     end
 end
 
-
-function WoWPro:DistanceBetweenSteps(i,j)
+function WoWPro.DistanceBetweenSteps(i,j)
     if not WoWPro.map[i] then return 1e197 end
     if not WoWPro.map[j] then return 1e196 end
     local GID = WoWProDB.char.currentguide
@@ -320,392 +271,369 @@ function WoWPro:DistanceBetweenSteps(i,j)
     if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].skipped[j] then return 0 end
     if WoWProCharDB.Guide[GID].completion[i] and WoWProCharDB.Guide[GID].skipped[j] then return 9e-5 end
     if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].completion[j] then return 9e-5 end
-    local icoord = select(1, string.split(";", WoWPro.map[i]))
-    local jcoord = select(1, string.split(";", WoWPro.map[j]))
+    local icoord = select(1, (";"):split(WoWPro.map[i]))
+    local jcoord = select(1, (";"):split(WoWPro.map[j]))
     local ix = tonumber(icoord:match("([^|]*),"))/100
     local iy = tonumber(icoord:match(",([^|]*)"))/100
     local jx = tonumber(jcoord:match("([^|]*),"))/100
     local jy = tonumber(jcoord:match(",([^|]*)"))/100
-    local im
-    local jm
-    local ifl
-    local jfl 
-    if WoWPro.zone[i]:match("/") then
-        local nzone , floor = string.split("/",WoWPro.zone[i])
-        im = WoWPro.Zone2MapID[nzone].mapID
-        ifl = tonumber(floor)
-    else
-        im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
-        ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
-    end
-    if WoWPro.zone[j]:match("/") then
-        local nzone , floor = string.split("/",WoWPro.zone[j])
-        jm = WoWPro.Zone2MapID[nzone].mapID
-        jfl = tonumber(floor)
-    else
-        jm = WoWPro.Zone2MapID[WoWPro.zone[j]].mapID
-        jfl = WoWPro.Zone2MapID[WoWPro.zone[j]].floor or 0
-    end
+    local _, im = WoWPro:ValidZone(WoWPro.zone[i])
+    local _, jm = WoWPro:ValidZone(WoWPro.zone[j])
 
-    
-    local distance = AL:ComputeDistance(im,ifl,ix,iy, jm,jfl,jx,jy) or 1e198
+    local distance = WoWPro.HBD:GetZoneDistance(im,ix,iy, jm,jx,jy) or 1e198
     WoWPro:dbp("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
     return distance
 end
 
-function WoWPro:DistanceToStep(i)
+function WoWPro.DistanceToStep(i)
     if not WoWPro.map[i] then return 1e200 end
     local GID = WoWProDB.char.currentguide
     if WoWProCharDB.Guide[GID].completion[i] then return 1e-6 end
     if WoWProCharDB.Guide[GID].skipped[i] then return 1e-5 end
-    local icoord = select(1, string.split(";", WoWPro.map[i]))
+    local icoord = select(1, (";"):split(WoWPro.map[i]))
 --    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
-    local ix = tonumber(icoord:match("([^|]*),"))/100
-    local iy = tonumber(icoord:match(",([^|]*)"))/100
-    local im
-    local ifl
-    if WoWPro.zone[i]:match("/") then
-        local nzone , floor = string.split("/",WoWPro.zone[i])
-        im = WoWPro.Zone2MapID[nzone].mapID
-        ifl = tonumber(floor)
-    else
-        im = WoWPro.Zone2MapID[WoWPro.zone[i]].mapID
-        ifl = WoWPro.Zone2MapID[WoWPro.zone[i]].floor or 0
-    end
+    local ix = select(1, (","):split(icoord))
+    local iy = select(2, (","):split(icoord))
+    ix = tonumber(ix) / 100
+    iy = tonumber(iy) / 100
+    local _, im = WoWPro:ValidZone(WoWPro.zone[i])
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
-    local x, y = GetPlayerMapPosition("player");
-    local m = GetCurrentMapAreaID()
-    local f = GetCurrentMapDungeonLevel()
-    
-    local distance = AL:ComputeDistance(m,f,x,y, im,ifl,ix,iy) or 1e199
+    local x, y, m = WoWPro:GetPlayerZonePosition()
+    if (not x) or (not y) then
+        return 1e99
+    end
+
+    local distance = WoWPro.HBD:GetZoneDistance(m,x,y, im,ix,iy) or 1e199
     WoWPro:dbp("IDx (%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",x*100,y*100,m, WoWPro.step[i],ix*100,iy*100,im,distance)
     return distance
-end    
-    
-
-    
-    
-function WoWPro:ValidZone(zone)
-	if zone then
-	    if tonumber(zone) then
-	        -- Using a numeric zone ID
-            return tostring(tonumber(zone))
-	    elseif WoWPro.Zone2MapID[zone] then
-	        -- Zone found in DB
-	        return zone
-	    elseif zone:match("/") then
-	        local nzone , floor = string.split("/",zone)
-	        return WoWPro:ValidZone(nzone)
-	    end
-    end    
-    return false
 end
-
 
 function WoWPro:ValidateMapCoords(guide,action,step,coords)
-	local numcoords = select("#", string.split(";", coords))
-	for j=1,numcoords do
-		local jcoord = select(numcoords-j+1, string.split(";", coords))
-		if not jcoord or jcoord == "" then
-		    WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
-		    return
-		end
-		local x = tonumber(jcoord:match("([^|]*),"))
-		if not x or x > 100  then
-		    WoWPro:Error("Bad X coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
-		    return
-		end
-		local y = tonumber(jcoord:match(",([^|]*)"))
-		if not y or y > 100 then
-		    WoWPro:Error("Bad Y coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
-		    return
-		end
-	end
+    if coords then
+        if coords == "PLAYER" then
+            return true
+        end
+        local numcoords = select("#", (";"):split(coords))
+        for j=1,numcoords do
+            local jcoord = select(numcoords-j+1, (";"):split(coords))
+            if not jcoord or jcoord == "" then
+                if guide then
+                    WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
+                end
+                return false
+            end
+            local x = tonumber(jcoord:match("([^|]*),"))
+            if not x or x > 100  then
+                if guide then
+                    WoWPro:Error("Bad X coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
+                end
+                return false
+            end
+            local y = tonumber(jcoord:match(",([^|]*)"))
+            if not y or y > 100 then
+                if guide then
+                    WoWPro:Error("Bad Y coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
+                end
+                return false
+            end
+        end
+    else
+        WoWPro:Error("Map tag is nil, %d/%d in guide %s, line [%s %s].",1,1,guide,action,step)
+        return false
+    end
+    return true
 end
-
 
 local LastMapPoint = nil
 function WoWPro:MapPoint(row)
-	local GID = WoWProDB.char.currentguide
-	if not GID or not WoWPro.Guides[GID] then return end
-	if WoWPro.InitLockdown then return end
+    local GID = WoWProDB.char.currentguide
+    if not GID or not WoWPro.Guides[GID] then return end
+    if not WoWPro.GuideLoaded then return end
+    if WoWPro.InitLockdown then return end
 
-	-- Loading Variables for this step --
-	local i
-	if row then
-	    i = WoWPro.rows[row].index 
-	else 
-		i = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
-	end
+    -- Loading Variables for this step --
+    local stepIndex
+    if row then
+        stepIndex = WoWPro.rows[row].index
+    else
+        stepIndex = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
+    end
 
+    -- Removing old map point --
+    if LastMapPoint and LastMapPoint == stepIndex and #cache > 0 and cache[1].index == stepIndex then
+        WoWPro:print("MapPoint: LastMapPoint=%d [%.2f,%.2f@%d] in %s. No update needed.", LastMapPoint, cache[1].x, cache[1].y, cache[1].map, cache[1].zone)
+        return
+    else
+        WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, stepIndex=%d", tostring(LastMapPoint),  #cache, tostring(#cache > 0 and cache[1].index), stepIndex)
+    end
+    WoWPro:RemoveMapPoint()
 
-	-- Removing old map point --
-	if LastMapPoint and LastMapPoint == i and #cache > 0 and cache[1].index == i then
-	    WoWPro:print("MapPoint: LastMapPoint=%d [%.2f,%.2f@%d/%d] in %s. No update needed.", LastMapPoint, cache[1].x, cache[1].y, cache[1].map, cache[1].floor, cache[1].zone)
-	    return
-	else
-        WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, i=%d", tostring(LastMapPoint),  #cache, tostring(#cache > 0 and cache[1].index), i)
-	end
-	WoWPro:RemoveMapPoint()
-
-
-	local coords
-	if WoWPro.map then
-	    coords = WoWPro.map[i]
-	else
-	    coords = nil
-	end
-	local desc = WoWPro.step[i]
-	local floor = 0
-	local zone
-	zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
-	autoarrival = WoWPro.waypcomplete[i]
-
-	if zone:match("/") then
-	    -- Well, they have a floor specified
-	    zone , floor = string.split("/",zone)
-	    floor = tonumber(floor)
-	    if not zone then
-	        zone = strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
-	    end
-	end
-
-	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
-	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
-		QuestMapUpdateAllQuests()
-		QuestPOIUpdateIcons()
---		WorldMapFrame_UpdateQuests()
-		local x, y = WoWPro:findBlizzCoords(WoWPro.QID[i])
-		if x and y then coords = tostring(x)..","..tostring(y) end
-	end
-
-	-- Set working objective based on QID
-	if WoWPro.QID and WoWPro.QID[i] then
-	    local qid = tonumber(WoWPro.QID[i])
-	    if qid then
-                SetSuperTrackedQuestID(qid)
-	    end
-	end
-
-	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
-	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
-		if type(WoWPro.QID[i]) ~= "number" then return end
-		local npcid, npcname, stype
-		if WoWPro.action[i]=="A" then _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i])
-		else _, _, _, _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i]) end
-		if stype == "npc" then
-			local data = LightHeaded:LoadNPCData(tonumber(npcid))
-			if not data then return end
-			for zid,x,y in data:gmatch("([^,]+),([^,]+),([^:]+):") do 
-				zone = zidmap[tonumber(zid)]
-				if not coords then coords = tostring(x)..","..tostring(y)
-				else coords = coords..";"..tostring(x)..","..tostring(y)
-				end
+    local coords
+    if WoWPro.map then
+        coords = WoWPro.map[stepIndex]
+    else
+        coords = nil
+    end
+	if coords then
+		if (coords == "PLAYER") then
+			local x, y, m  = WoWPro:GetPlayerZonePosition()
+			if (x and y) then
+				coords = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
+                WoWPro.zone[stepIndex] = ("%d;player"):format(m)
+			else
+				coords = nil
 			end
+		else
+			WoWPro:ValidateMapCoords(GID,WoWPro.action[stepIndex],stepIndex,coords)
 		end
 	end
 
-	-- If there aren't coords to map, ending map function --
-	if not coords then
-        WoWPro:dbp("MapPoint: No coords for step %d",i)
-	    return
-	end
+    local desc = WoWPro.step[stepIndex]
+    local zone
+    zone = WoWPro.zone[stepIndex] or WoWPro.Guides[GID].zone
+    autoarrival = WoWPro.waypcomplete[stepIndex]
 
-	-- Finding the zone --
-	local zm,zf,zc,zi
-	zm = nil
-	if zone then
-	    if tonumber(zone) then
-	        -- Using a numeric zone ID
-	        zm = tonumber(zone)
-	        zf = floor
-	    elseif WoWPro.Zone2MapID[zone] then
-	        -- Zone found in DB
-	        zm = WoWPro.Zone2MapID[zone].mapID
-	        zf = WoWPro.Zone2MapID[zone].floor or floor
-	        zc = WoWPro.Zone2MapID[zone].cont
-	        zi = WoWPro.Zone2MapID[zone].zonei
-	        WoWPro:dbp("MapPoint: zone [%s] mapped to %d/%d", zone, zm, zf)
-	    end
+    -- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
+    if (WoWPro.action[stepIndex]=="T" or WoWPro.action[stepIndex]=="C") and WoWPro.QID and WoWPro.QID[stepIndex] and not coords then
+        if WoWPro.RETAIL then
+            -- TODO: Is this needed at all?
+            _G.QuestMapUpdateAllQuests()
+            _G.QuestPOIUpdateIcons()
+        end
+        local x, y = WoWPro:findBlizzCoords(WoWPro.QID[stepIndex])
+        if x and y then coords = tostring(x)..","..tostring(y) end
+    end
+
+    -- If there aren't coords to map, ending map function --
+    if not coords then
+        WoWPro:dbp("MapPoint: No coords for step %d",stepIndex)
+        return
+    end
+
+    -- Finding the zone --
+    local zm = nil
+    if zone then
+        zone, zm = WoWPro:ValidZone(zone)
+        if zone and zm then
+            WoWPro:dbp("MapPoint: zone [%s] mapped to %d", zone, zm)
+        else
+            WoWPro:dbp("MapPoint: could not map zone [%s]", tostring(zone))
+        end
     end
 
     if not zm then
-	    zm = GetCurrentMapAreaID()
-	    zf = GetCurrentMapDungeonLevel()
-	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id "..tostring(zm))
-	end
+        zone, zm = WoWPro.GetZoneText()
+        if not WoWPro.error[stepIndex] then
+            WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
+            WoWPro.error[stepIndex] = "Zone not found"
+        end
+    end
 
-	if TomTom and TomTom.AddMFWaypoint and TomTom.db then
-		    TomTom.db.profile.arrow.setclosest = true
-    		OldCleardistance = TomTom.db.profile.persistence.cleardistance
+	 -- SetSuperTrack Active Step
+	if zm and zm > 1 and coords and WoWPro.action[stepIndex ] ~= "C" and WoWPro.action[stepIndex ] ~= "T" and WoWPro.RETAIL then
+		local jcoord = select(1, (";"):split(coords))
+		local x = tonumber(jcoord:match("([^|]*),"))/100
+		local y = tonumber(jcoord:match(",([^|]*)"))/100
+		if x and x < 100 and y and y < 100 then
+			local uiMapPoint = _G.UiMapPoint.CreateFromCoordinates(zm, x, y);
+			if uiMapPoint then
+				_G.C_Map.SetUserWaypoint(uiMapPoint)
+				_G.C_SuperTrack.SetSuperTrackedUserWaypoint(true)
+				WoWProCharDB.SetWaypoint = true
+			end
+		end
+	elseif WoWPro.QID and WoWPro.QID[stepIndex] then
+        local qid = tonumber(WoWPro.QID[stepIndex])
+        if qid then
+			if WoWProCharDB.SetWaypoint then
+				_G.C_Map.ClearUserWaypoint()
+				WoWProCharDB.SetWaypoint = false
+			end
+			WoWPro.SuperTrack_SetSuperTrackedQuestID(qid)
+        end
+    end
 
-    		-- arrival distance, so TomTom can call our customized distance function when player
-    		-- gets to the waypoints
-    		local arrivaldistance
-    		if (not OldCleardistance) or (OldCleardistance == 0) then
-    			arrivaldistance = 10
-    		else
-    			arrivaldistance = OldCleardistance + 1
-    		end
-    		WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
+    if (TomTom and TomTom.db) or Nx then
+        TomTom.db.profile.arrow.setclosest = true
+        OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
-    		-- prevents TomTom from clearing waypoints that are not final destination
-    		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
-    		WoWPro:dbp("MapPoint: autoarrival = %s, arrivaldistance=%s, TomTom..cleardistance = %d, OldCleardistance == %d",
-    		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
+        -- arrival distance, so TomTom can call our customized distance function when player
+        -- gets to the waypoints
+        local arrivaldistance
+        if (not OldCleardistance) or (OldCleardistance == 0) then
+            arrivaldistance = 10
+        else
+            arrivaldistance = OldCleardistance + 1
+        end
+        WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
 
-		-- Parsing and mapping coordinates --
-		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s/%s)",i,coords,tostring(zone),tostring(zm),tostring(zf))
-		local numcoords = select("#", string.split(";", coords))
+        -- prevents TomTom from clearing waypoints that are not final destination
+        if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
+        WoWPro:dbp("MapPoint: autoarrival = %s, arrivaldistance=%s, TomTom..cleardistance = %d, OldCleardistance == %d",
+                     tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
+
+        -- Parsing and mapping coordinates --
+        WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s)",stepIndex,coords,tostring(zone),tostring(zm))
+        local numcoords = select("#", (";"):split(coords))
         FinalCoord = nil
-		for j=1,numcoords do
-			local waypoint = {}
-			local jcoord = select(numcoords-j+1, string.split(";", coords))
-			local x = tonumber(jcoord:match("([^|]*),"))
-			local y = tonumber(jcoord:match(",([^|]*)"))
-			if not x or x > 100 or not y or y > 100 then
-			    WoWPro:Error("Bad coordiate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
-			    return
-			end
-			if TomTom or Nx then
-				local uid
-				local title
-				if numcoords > 1 then
-				    title = string.format("%s: %d/%d",desc,numcoords-j+1,numcoords)
-				else
-				    title = desc
-				end
-				uid = TomTom:AddMFWaypoint(zm, zf, x/100, y/100, {title = title, callbacks = WoWProMapping_callbacks_tomtom, persistent=false})
-				if not uid then
-				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
-				end
-				waypoint.uid = uid
-				waypoint.index = i
-				waypoint.zone = zone
-				waypoint.map = zm
-				waypoint.floor = zf
-				waypoint.x = x
-				waypoint.y = y
-				waypoint.desc = desc
-				waypoint.j = numcoords-j+1
+        for j=1,numcoords do
+            local waypoint = {}
+            local jcoord = select(numcoords-j+1, (";"):split(coords))
+            local x = tonumber(jcoord:match("([^|]*),"))
+            local y = tonumber(jcoord:match(",([^|]*)"))
+            if not x or x > 100 or not y or y > 100 then
+                if not WoWPro.error[stepIndex] then
+                    WoWPro:Error("Bad coordinate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
+                    WoWPro.error[stepIndex] = "Bad coordinate"
+                end
+                return
+            end
+            if TomTom and not Nx then
+                local uid
+                local title
+                if numcoords > 1 then
+                    title = ("%s: %d/%d"):format(desc, numcoords - j + 1, numcoords)
+                else
+                    title = desc
+                end
+                local options = {
+                    title = title,
+                    callbacks = WoWProMapping_callbacks_tomtom,
+                    minimap_icon = "Interface\\AddOns\\WoWPro\\Textures\\TriRing",
+                    minimap_icon_size = 20,
+                    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\TriRing",
+                    worldmap_icon_size = 16,
+                    persistent=false,
+                    from="WoWPro"
+                }
+                WoWPro:print("WoWPro:MapPoint:TomTom(%s@%s/%s)",jcoord,tostring(zone),tostring(zm))
+                uid = TomTom:AddWaypoint(zm, x/100, y/100, options)
+                if not uid then
+                    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[stepIndex],WoWPro.step[stepIndex])
+                end
+                waypoint.uid = uid
+                waypoint.index = stepIndex
+                waypoint.zone = zone
+                waypoint.map = zm
+                waypoint.x = x
+                waypoint.y = y
+                waypoint.desc = desc
+                waypoint.j = numcoords-j+1
 
-				table.insert(cache, waypoint)
-				FinalCoord = { x , y }
-			end
-		end
-		LastMapPoint = i
+                tinsert(cache, waypoint)
+                FinalCoord = { x , y }
+            elseif Nx then
+                local uid
+                local title
+                if numcoords > 1 then
+                    title = ("%s: %d/%d"):format(desc, numcoords - j + 1, numcoords)
+                else
+                    title = desc
+                end
+                local callbackT = {
+                    callbacks = WoWProMapping_callbacks_tomtom,
+                    persistent=false
+                }
+                WoWPro:print("WoWPro:MapPoint:Nx(%s@%s/%s)",jcoord,tostring(zone),tostring(zm))
+                uid = Nx:TTSetTarget (zm, x, y, title, callbackT)
+                if not uid then
+                    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[stepIndex],WoWPro.step[stepIndex])
+                end
+                waypoint.uid = uid
+                waypoint.index = stepIndex
+                waypoint.zone = zone
+                waypoint.map = zm
+                waypoint.x = x
+                waypoint.y = y
+                waypoint.desc = desc
+                waypoint.j = numcoords-j+1
 
-		if Nx then
-		    return
-		end
-		
-		if autoarrival and #cache > 0 then
-			if autoarrival == 1 then
-				TomTom.db.profile.arrow.setclosest = true
-				local closest_uid = TomTom:GetClosestWaypoint()
-				
-				if closest_uid then
-					local iactual
-					for i,waypoint in ipairs(cache) do
-						if (waypoint.uid == closest_uid) then 
-							iactual = i break end
-					end
+                tinsert(cache, waypoint)
+                FinalCoord = { x , y }
+            end
+        end
+        LastMapPoint = stepIndex
 
-					if iactual then
-						for i=iactual+1,#cache,1 do
-							TomTom:RemoveWaypoint(cache[i].uid) 
-						end
-					end
-				else
-				    WoWPro:Warning("No closest waypoint? Please report a bug if the arrow is not working: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
-				end
-			elseif autoarrival == 2 then
-				TomTom.db.profile.arrow.setclosest = false
-			end
-		end
-		TomTom.db.profile.persistence.cleardistance = OldCleardistance
-	elseif TomTom then
-		WoWPro:print("WoWPro:MapPoint2(%s@%s/%s)",coords,tostring(zone),tostring(zm))
-		-- Legacy Parsing and mapping coordinates for Carbonite --
-		local numcoords = select("#", string.split(";", coords))
-	    FinalCoord = nil
-		for j=1,numcoords do
-			local jcoord = select(numcoords-j+1, string.split(";", coords))
-			local x = tonumber(jcoord:match("([^|]*),"))
-			local y = tonumber(jcoord:match(",([^|]*)"))
-			if not x or x > 100 then return end
-			if not y or y > 100 then return end
-			table.insert(cache, TomTom:AddZWaypoint(zc, zi, x, y, desc, false))
-			FinalCoord = { x , y }
-		end
-		LastMapPoint = i
-	end
+        if autoarrival and #cache > 0 then
+            if autoarrival == 1 then
+                TomTom.db.profile.arrow.setclosest = true
+                local closest_uid = (TomTom and TomTom.GetClosestWaypoint and TomTom:GetClosestWaypoint())
+
+                if closest_uid then
+                    local iactual
+                    for i, waypoint in ipairs(cache) do
+                        if (waypoint.uid == closest_uid) then
+                            iactual = i
+                            break
+                        end
+                    end
+
+                    if iactual then
+                        for i = iactual + 1, #cache, 1 do
+                            if TomTom and not Nx then
+                                TomTom:RemoveWaypoint(cache[i].uid)
+                            elseif Nx then
+                                Nx:TTRemoveWaypoint(cache[i].uid)
+                            end
+                        end
+                    end
+                else
+                    WoWPro:Warning("No closest waypoint? Please report a bug if the arrow is not working: Guide %s, Step %s [%s]",GID,WoWPro.action[stepIndex],WoWPro.step[stepIndex])
+                end
+            elseif autoarrival == 2 then
+                TomTom.db.profile.arrow.setclosest = false
+            end
+            -- autoarrival == 0 is a no-op
+        end
+        TomTom.db.profile.persistence.cleardistance = OldCleardistance
+    end
 
 end
 
 function WoWPro:RemoveMapPoint()
     LastMapPoint = nil
-	if TomTom and TomTom.db then
-		for i=1,#cache,1 do
-		    if cache[i].uid ~= nil then
-			    TomTom:RemoveWaypoint(cache[i].uid)
-			end
-		end
-		wipe(cache)
-		wipe(WoWProMapping_callbacks_tomtom.distance)
-	elseif TomTom then
-		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
-	end
+    if TomTom and not Nx then
+        for i=1,#cache,1 do
+            if cache[i].uid ~= nil then
+                WoWPro:print("WoWPro:RemoveMapPoint TomTom(%d:%.2f,%.2f@%s=%s)",i,cache[i].x,cache[i].y,tostring(cache[i].zone),tostring(cache[i].map))
+                TomTom:RemoveWaypoint(cache[i].uid)
+            end
+        end
+        wipe(cache)
+        wipe(WoWProMapping_callbacks_tomtom.distance)
+    elseif Nx then
+        while cache[1] do
+            local catch = tremove(cache)
+            WoWPro:print("WoWPro:RemoveMapPoint Nx(%d:%.2f,%.2f@%s=%s)", 1, catch.x, catch.y, tostring(catch.zone), tostring(catch.map))
+            Nx:TTRemoveWaypoint(catch.uid)
+        end
+    end
 end
 
-function  WoWPro.CheckAstrolabeData(force)
-    local Astrolabe = WoWPro.Astrolabe
-    local map, pizo = Astrolabe:GetCurrentPlayerPosition()
-    if not (map and pizo) then
-        WoWPro:dbp("CheckAstrolabeData(): No player position yet!")
+function  WoWPro.CheckHBDData(force)
+    local x, y, mapId = WoWPro:GetPlayerZonePosition()
+    if not (x and y) then
+        WoWPro:dbp("CheckHBDData(): No player position yet!")
         -- We are not mapped yet.
         return
     end
-    local AW = Astrolabe.WorldMapSize[map][pizo]
-    if (not force) and AWS and AW.height ~= 1 and AW.width ~= 1 then
+    local width, height = WoWPro.HBD:GetZoneSize(mapId)
+    if (not force) and width > 0 and height > 0 then
         -- We have data
-        WoWPro:dbp("Map data present for %d/%d", map, pizo)
+        local mapInfo = _G.C_Map.GetMapInfo(mapId)
+        WoWPro:dbp("Map data present for %d-%d", mapId, mapInfo and mapInfo.mapType)
         return
     end
     -- Hey!  No data!
-    local mapData = {}
-    local l, TLx, TLy, BRx, BRy =  GetCurrentMapDungeonLevel();
-    if not TLx then
-        WoWPro:dbp("GCMDL failed for %d/%d", map, pizo)
-        return
-    end
-	mapData.width = BRx - TLx
-	mapData.height = BRy - TLy
-	mapData.xOffset = -TLx
-	mapData.yOffset = -TLy
-	Astrolabe.WorldMapSize[map][pizo] = mapData
-	WoWPro:Error("You discovered new map info for %s:%s. Please report this on the WoWPro.com website.", GetZoneText(), string.trim(GetSubZoneText()))
-	WoWPro:Error("[%d/%d] w=%f, h=%f, xO=%f, yO=%f", map, pizo, mapData.width, mapData.height, mapData.xOffset, mapData.yOffset)
+    WoWPro:print("You discovered new map %d info for %s:%s. Please report this on the WoWPro.com website.", mapId, _G.GetZoneText(), _G.GetSubZoneText():trim())
 end
 
-function WoWPro:ZoneInfo()
-     WoWPro.eBox = WoWPro.eBox or CreateFrame("EditBox", nil,UIParent,ChatFrameEditBoxTemplate)
-    local eBox = WoWPro.eBox
-    eBox:SetWidth(512)
-    eBox:SetHeight(256)
-    eBox:SetMultiLine(true)
-    eBox:SetAutoFocus(true)
-    eBox:SetFontObject(GameFontHighlight)
-    local text=""
-    for zi=0, 1000 do
-        local z=GetRealZoneText(zi)
-        local line = string.format("[%d]='%s'",zi,z)
-        if z ~= "" then
-            text = text .. line .. "\n"
-        end
+function WoWPro:LogLocation()
+    local x, y, mapId = WoWPro:GetPlayerZonePosition()
+
+    if not (x and y) then
+        WoWPro:print("Player [?,?@%d] WPZone=%q, Zone=%q, SubZone=%q", mapId, WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText() )
+    else
+        WoWPro:print("Player [%.2f,%.2f@%d] WPZone=%q, Zone=%q, SubZone=%q", x*100 , y*100, mapId, WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText() )
     end
-    eBox:SetText(text)
-    eBox:SetPoint("CENTER")
-    eBox:Show()
-    eBox:SetScript("OnEscapePressed", function (self) self:Hide() end)
 end

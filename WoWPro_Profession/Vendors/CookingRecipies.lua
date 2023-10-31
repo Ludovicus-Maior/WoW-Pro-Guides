@@ -1,26 +1,17 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/cooking_recipies
--- Date: 2015-03-09 17:31
--- Who: Ludovicus
--- Log: The Imperial Exchange@Shrine of Seven Stars
-
--- URL: http://wow-pro.com/node/3567/revisions/25898/view
--- Date: 2014-02-14 00:15
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3567/revisions/25885/view
--- Date: 2014-02-14 00:00
--- Who: Ludovicus
-
-WoWPro.Profession:RegisterGuide('LudoShopCook', 'Cooking', 'Cooking Recipies', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopCook","Profession", "Cooking", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Cooking Recipies")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",185)
+WoWPro:GuideSteps(guide, function()
 return [[
-
-B Spiced Worm Burger|QID|990045557|RECIPE|45557|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Spiced Worm Burger|QID|990045557|RECIPE|45557|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Spiced Worm Burger|QID|990045557|RECIPE|45557|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Spiced Worm Burger|QID|990045557|RECIPE|45557|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Spiced Worm Burger|QID|990045557|RECIPE|45557|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Thistle Tea|QID|990009513|RECIPE|9513|M|71.50,45.50|Z|Hillsbrad Foothills|P|Cooking;185;60|N|Sold by Smudge Thunderwood in Hillsbrad Foothills.\nBind on Pickup.|
 B Delicious Sagefish Tail|QID|990088016|RECIPE|88016|M|49.50,36.90|Z|Darnassus|FACTION|Alliance|P|Cooking;185;500|N|Sold by Fyldan in Darnassus.\nBind on Pickup.|
@@ -29,8 +20,8 @@ B Delicious Sagefish Tail|QID|990088016|RECIPE|88016|M|59.90,37.70|Z|Ironforge|F
 B Delicious Sagefish Tail|QID|990088016|RECIPE|88016|M|62.30,43.10|Z|Undercity|FACTION|Horde|P|Cooking;185;500|N|Sold by Ronald Burch in Undercity.\nBind on Pickup.|
 B Delicious Sagefish Tail|QID|990088016|RECIPE|88016|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;500|N|Sold by Naal Mistrunner in Thunder Bluff.\nBind on Pickup.|
 B Delicious Sagefish Tail|QID|990088016|RECIPE|88016|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;500|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
-B Blackened Worg Steak|QID|990057438|RECIPE|57438|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Blackened Worg Steak|QID|990057438|RECIPE|57438|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Blackened Worg Steak|QID|990057438|RECIPE|57438|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Blackened Worg Steak|QID|990057438|RECIPE|57438|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Blackened Worg Steak|QID|990057438|RECIPE|57438|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Feathered Lure|QID|990088017|RECIPE|88017|M|49.50,36.90|Z|Darnassus|FACTION|Alliance|P|Cooking;185;450|N|Sold by Fyldan in Darnassus.\nBind on Pickup.|
 B Feathered Lure|QID|990088017|RECIPE|88017|M|50.40,71.90|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;450|N|Sold by Bario Matalli in Stormwind City.\nBind on Pickup.|
@@ -47,11 +38,11 @@ B Fish Fry|QID|990088018|RECIPE|88018|M|62.30,43.10|Z|Undercity|FACTION|Horde|P|
 B Fish Fry|QID|990088018|RECIPE|88018|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;475|N|Sold by Naal Mistrunner in Thunder Bluff.\nBind on Pickup.|
 B Fish Fry|QID|990088018|RECIPE|88018|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;475|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
 B Seasoned Wolf Kabob|QID|990002549|RECIPE|2549|M|76.60,52.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;100|N|Sold by Kendor Kabonka in Stormwind City.|
-B Fish Feast|QID|990057423|RECIPE|57423|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;450|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Fish Feast|QID|990057423|RECIPE|57423|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;450|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Fish Feast|QID|990057423|RECIPE|57423|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;450|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Fish Feast|QID|990057423|RECIPE|57423|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;450|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Fish Feast|QID|990057423|RECIPE|57423|M|72.40,20.90|Z|Icecrown|P|Cooking;185;450|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
-B Cuttlesteak|QID|990057439|RECIPE|57439|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Cuttlesteak|QID|990057439|RECIPE|57439|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Cuttlesteak|QID|990057439|RECIPE|57439|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Cuttlesteak|QID|990057439|RECIPE|57439|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Cuttlesteak|QID|990057439|RECIPE|57439|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Fortune Cookie|QID|990088019|RECIPE|88019|M|49.50,36.90|Z|Darnassus|FACTION|Alliance|P|Cooking;185;525|N|Sold by Fyldan in Darnassus.\nBind on Pickup.|
 B Fortune Cookie|QID|990088019|RECIPE|88019|M|50.40,71.90|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;525|N|Sold by Bario Matalli in Stormwind City.\nBind on Pickup.|
@@ -65,8 +56,8 @@ B Mystery Stew|QID|990015865|RECIPE|15865|M|66.40,51.50|Z|Dustwallow Marsh|FACTI
 B Mystery Stew|QID|990015865|RECIPE|15865|M|66.20,6.70|Z|Desolace|FACTION|Alliance|P|Cooking;185;175|N|Sold by Janet Hommers in Desolace.|
 B Crunchy Serpent|QID|990038868|RECIPE|38868|M|61.30,68.90|Z|Blade's Edge Mountains|FACTION|Alliance|P|Cooking;185;335|N|Sold by Sassa Weldwell in Blade's Edge Mountains.\nBind on Pickup.|
 B Crunchy Serpent|QID|990038868|RECIPE|38868|M|62.50,40.30|Z|Blade's Edge Mountains|P|Cooking;185;335|N|Limited quantity sold by Xerintha Ravenoak in Blade's Edge Mountains.\nBind on Pickup.|
-B Mighty Rhino Dogs|QID|990045559|RECIPE|45559|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Mighty Rhino Dogs|QID|990045559|RECIPE|45559|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Mighty Rhino Dogs|QID|990045559|RECIPE|45559|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Mighty Rhino Dogs|QID|990045559|RECIPE|45559|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Mighty Rhino Dogs|QID|990045559|RECIPE|45559|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Grilled Dragon|QID|990088020|RECIPE|88020|M|49.50,36.90|Z|Darnassus|FACTION|Alliance|P|Cooking;185;500|N|Sold by Fyldan in Darnassus.\nBind on Pickup.|
 B Grilled Dragon|QID|990088020|RECIPE|88020|M|50.40,71.90|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;500|N|Sold by Bario Matalli in Stormwind City.\nBind on Pickup.|
@@ -74,8 +65,8 @@ B Grilled Dragon|QID|990088020|RECIPE|88020|M|59.90,37.70|Z|Ironforge|FACTION|Al
 B Grilled Dragon|QID|990088020|RECIPE|88020|M|62.30,43.10|Z|Undercity|FACTION|Horde|P|Cooking;185;500|N|Sold by Ronald Burch in Undercity.\nBind on Pickup.|
 B Grilled Dragon|QID|990088020|RECIPE|88020|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;500|N|Sold by Naal Mistrunner in Thunder Bluff.\nBind on Pickup.|
 B Grilled Dragon|QID|990088020|RECIPE|88020|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;500|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
-B Spiced Mammoth Treats|QID|990057440|RECIPE|57440|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Spiced Mammoth Treats|QID|990057440|RECIPE|57440|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Spiced Mammoth Treats|QID|990057440|RECIPE|57440|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Spiced Mammoth Treats|QID|990057440|RECIPE|57440|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Spiced Mammoth Treats|QID|990057440|RECIPE|57440|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Monster Omelet|QID|990015933|RECIPE|15933|M|62.30,25.60|Z|Felwood|FACTION|Alliance|P|Cooking;185;225|N|Sold by Malygen in Felwood.|
 B Monster Omelet|QID|990015933|RECIPE|15933|M|59.80,51.60|Z|Winterspring|P|Cooking;185;225|N|Sold by Himmik in Winterspring.|
@@ -126,11 +117,11 @@ B Highland Spirits|QID|990088022|RECIPE|88022|M|51.00,52.50|Z|Thunder Bluff|FACT
 B Highland Spirits|QID|990088022|RECIPE|88022|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;450|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
 B Lobster Stew|QID|990018245|RECIPE|18245|M|46.20,41.60|Z|Feralas|FACTION|Alliance|P|Cooking;185;275|N|Sold by Vivianna in Feralas.|
 B Lobster Stew|QID|990018245|RECIPE|18245|M|74.50,42.80|Z|Feralas|FACTION|Horde|P|Cooking;185;275|N|Sold by Sheendra Tallgrass in Feralas.|
-B Blackened Dragonfin|QID|990057441|RECIPE|57441|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Blackened Dragonfin|QID|990057441|RECIPE|57441|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Blackened Dragonfin|QID|990057441|RECIPE|57441|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Blackened Dragonfin|QID|990057441|RECIPE|57441|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Blackened Dragonfin|QID|990057441|RECIPE|57441|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
-B Gigantic Feast|QID|990058527|RECIPE|58527|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;425|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Gigantic Feast|QID|990058527|RECIPE|58527|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;425|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Gigantic Feast|QID|990058527|RECIPE|58527|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;425|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Gigantic Feast|QID|990058527|RECIPE|58527|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;425|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Gigantic Feast|QID|990058527|RECIPE|58527|M|72.40,20.90|Z|Icecrown|P|Cooking;185;425|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Rainbow Fin Albacore|QID|990007827|RECIPE|7827|M|57.40,77.00|Z|Durotar|FACTION|Horde|P|Cooking;185;50|N|Sold by Zansoa in Durotar.|
 B Rainbow Fin Albacore|QID|990007827|RECIPE|7827|M|68.60,72.50|Z|Northern Barrens|P|Cooking;185;50|N|Sold by Kilxx in Northern Barrens.|
@@ -147,11 +138,11 @@ B Lavascale Fillet|QID|990088024|RECIPE|88024|M|59.90,37.70|Z|Ironforge|FACTION|
 B Lavascale Fillet|QID|990088024|RECIPE|88024|M|62.30,43.10|Z|Undercity|FACTION|Horde|P|Cooking;185;450|N|Sold by Ronald Burch in Undercity.\nBind on Pickup.|
 B Lavascale Fillet|QID|990088024|RECIPE|88024|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;450|N|Sold by Naal Mistrunner in Thunder Bluff.\nBind on Pickup.|
 B Lavascale Fillet|QID|990088024|RECIPE|88024|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;450|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
-B Dragonfin Filet|QID|990057442|RECIPE|57442|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Dragonfin Filet|QID|990057442|RECIPE|57442|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Dragonfin Filet|QID|990057442|RECIPE|57442|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Dragonfin Filet|QID|990057442|RECIPE|57442|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Dragonfin Filet|QID|990057442|RECIPE|57442|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
-B Small Feast|QID|990058528|RECIPE|58528|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;425|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Small Feast|QID|990058528|RECIPE|58528|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;425|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Small Feast|QID|990058528|RECIPE|58528|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;425|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Small Feast|QID|990058528|RECIPE|58528|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;425|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Small Feast|QID|990058528|RECIPE|58528|M|72.40,20.90|Z|Icecrown|P|Cooking;185;425|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Lavascale Minestrone|QID|990088025|RECIPE|88025|M|49.50,36.90|Z|Darnassus|FACTION|Alliance|P|Cooking;185;500|N|Sold by Fyldan in Darnassus.\nBind on Pickup.|
 B Lavascale Minestrone|QID|990088025|RECIPE|88025|M|50.40,71.90|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;500|N|Sold by Bario Matalli in Stormwind City.\nBind on Pickup.|
@@ -162,8 +153,8 @@ B Lavascale Minestrone|QID|990088025|RECIPE|88025|M|56.80,62.30|Z|Orgrimmar|FACT
 B Mightfish Steak|QID|990018246|RECIPE|18246|M|42.80,69.10|Z|The Cape of Stranglethorn|P|Cooking;185;275|N|Sold by Kelsey Yance in The Cape of Stranglethorn.|
 B Mightfish Steak|QID|990018246|RECIPE|18246|M|46.20,41.60|Z|Feralas|FACTION|Alliance|P|Cooking;185;275|N|Sold by Vivianna in Feralas.|
 B Mightfish Steak|QID|990018246|RECIPE|18246|M|74.50,42.80|Z|Feralas|FACTION|Horde|P|Cooking;185;275|N|Sold by Sheendra Tallgrass in Feralas.|
-B Tracker Snacks|QID|990057443|RECIPE|57443|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Tracker Snacks|QID|990057443|RECIPE|57443|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Tracker Snacks|QID|990057443|RECIPE|57443|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Tracker Snacks|QID|990057443|RECIPE|57443|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Tracker Snacks|QID|990057443|RECIPE|57443|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Heavy Crocolisk Stew|QID|990024418|RECIPE|24418|M|36.70,31.00|Z|Dustwallow Marsh|FACTION|Horde|P|Cooking;185;150|N|Sold by Ogg'marr in Dustwallow Marsh.|
 B Roasted Kodo Meat|QID|990006414|RECIPE|6414|M|46.10,58.20|Z|Mulgore|FACTION|Horde|P|Cooking;185;35|N|Sold by Wunna Darkmane in Mulgore.|
@@ -247,11 +238,11 @@ B Roast Raptor|QID|990015855|RECIPE|15855|M|39.20,51.00|Z|Northern Stranglethorn
 B Carrion Surprise|QID|990015863|RECIPE|15863|M|36.70,31.00|Z|Dustwallow Marsh|FACTION|Horde|P|Cooking;185;175|N|Sold by Ogg'marr in Dustwallow Marsh.|
 B Carrion Surprise|QID|990015863|RECIPE|15863|M|51.00,53.50|Z|Desolace|FACTION|Horde|P|Cooking;185;175|N|Sold by Kireena in Desolace.|
 B Carrion Surprise|QID|990015863|RECIPE|15863|M|46.60,56.90|Z|Swamp of Sorrows|FACTION|Horde|P|Cooking;185;175|N|Sold by Banalash in Swamp of Sorrows.|
-B Worg Tartare|QID|990062350|RECIPE|62350|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Worg Tartare|QID|990062350|RECIPE|62350|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Worg Tartare|QID|990062350|RECIPE|62350|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Worg Tartare|QID|990062350|RECIPE|62350|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Worg Tartare|QID|990062350|RECIPE|62350|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
-B Poached Northern Sculpin|QID|990045567|RECIPE|45567|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Poached Northern Sculpin|QID|990045567|RECIPE|45567|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Poached Northern Sculpin|QID|990045567|RECIPE|45567|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Poached Northern Sculpin|QID|990045567|RECIPE|45567|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Poached Northern Sculpin|QID|990045567|RECIPE|45567|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Basilisk Liverdog|QID|990088004|RECIPE|88004|M|49.50,36.90|Z|Darnassus|FACTION|Alliance|P|Cooking;185;500|N|Sold by Fyldan in Darnassus.\nBind on Pickup.|
 B Basilisk Liverdog|QID|990088004|RECIPE|88004|M|50.40,71.90|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;500|N|Sold by Bario Matalli in Stormwind City.\nBind on Pickup.|
@@ -259,7 +250,7 @@ B Basilisk Liverdog|QID|990088004|RECIPE|88004|M|59.90,37.70|Z|Ironforge|FACTION
 B Basilisk Liverdog|QID|990088004|RECIPE|88004|M|62.30,43.10|Z|Undercity|FACTION|Horde|P|Cooking;185;500|N|Sold by Ronald Burch in Undercity.\nBind on Pickup.|
 B Basilisk Liverdog|QID|990088004|RECIPE|88004|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;500|N|Sold by Naal Mistrunner in Thunder Bluff.\nBind on Pickup.|
 B Basilisk Liverdog|QID|990088004|RECIPE|88004|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;500|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
-B Seafood Magnifique Feast|QID|990088036|RECIPE|88036|M|52.60,56.60|Z|Dalaran|P|Cooking;185;525|N|Sold by Mirla Silverblaze in Dalaran.\nBind on Pickup.|
+B Seafood Magnifique Feast|QID|990088036|RECIPE|88036|M|52.60,56.60|Z|Dalaran City@Dalaran|P|Cooking;185;525|N|Sold by Mirla Silverblaze in Dalaran.\nBind on Pickup.|
 B Seafood Magnifique Feast|QID|990088036|RECIPE|88036|M|48.20,75.60|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;525|N|Sold by Goram in Orgrimmar.\nBind on Pickup.|
 B Seafood Magnifique Feast|QID|990088036|RECIPE|88036|M|64.60,76.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;525|N|Sold by Shay Pressler in Stormwind City.\nBind on Pickup.|
 B Seafood Magnifique Feast|QID|990088036|RECIPE|88036|M|64.60,37.60|Z|Darnassus|FACTION|Alliance|P|Cooking;185;525|N|Sold by Velia Moonbow in Darnassus.\nBind on Pickup.|
@@ -290,15 +281,15 @@ B Slitherskin Mackerel|QID|990007752|RECIPE|7752|M|56.30,92.40|Z|Teldrassil|FACT
 B Blood Sausage|QID|990003371|RECIPE|3371|M|76.60,52.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;60|N|Sold by Kendor Kabonka in Stormwind City.|
 B Murloc Fin Soup|QID|990003372|RECIPE|3372|M|76.60,52.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;90|N|Sold by Kendor Kabonka in Stormwind City.|
 B Crocolisk Gumbo|QID|990003373|RECIPE|3373|M|76.60,52.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;120|N|Sold by Kendor Kabonka in Stormwind City.|
-B Firecracker Salmon|QID|990045568|RECIPE|45568|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Firecracker Salmon|QID|990045568|RECIPE|45568|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Firecracker Salmon|QID|990045568|RECIPE|45568|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Firecracker Salmon|QID|990045568|RECIPE|45568|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Firecracker Salmon|QID|990045568|RECIPE|45568|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Curiously Tasty Omelet|QID|990003376|RECIPE|3376|M|69.20,33.60|Z|Arathi Highlands|FACTION|Horde|P|Cooking;185;130|N|Sold by Keena in Arathi Highlands.|
 B Curiously Tasty Omelet|QID|990003376|RECIPE|3376|M|39.20,51.00|Z|Northern Stranglethorn|FACTION|Horde|P|Cooking;185;130|N|Sold by Nerrist in Northern Stranglethorn.|
 B Curiously Tasty Omelet|QID|990003376|RECIPE|3376|M|76.60,52.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;130|N|Sold by Kendor Kabonka in Stormwind City.|
 B Filet of Redgill|QID|990018241|RECIPE|18241|M|42.80,69.10|Z|The Cape of Stranglethorn|P|Cooking;185;225|N|Sold by Kelsey Yance in The Cape of Stranglethorn.|
-B Spicy Fried Herring|QID|990057433|RECIPE|57433|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Spicy Fried Herring|QID|990057433|RECIPE|57433|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Spicy Fried Herring|QID|990057433|RECIPE|57433|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Spicy Fried Herring|QID|990057433|RECIPE|57433|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Spicy Fried Herring|QID|990057433|RECIPE|57433|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Sagefish Delight|QID|990025954|RECIPE|25954|M|56.60,53.60|Z|Teldrassil|FACTION|Alliance|P|Cooking;185;175|N|Sold by Nyoma in Teldrassil.|
 B Sagefish Delight|QID|990025954|RECIPE|25954|M|26.20,69.70|Z|Desolace|FACTION|Horde|P|Cooking;185;175|N|Sold by Wulan in Desolace.|
@@ -347,15 +338,15 @@ B Rockscale Cod|QID|990007828|RECIPE|7828|M|81.00,30.70|Z|Undercity|FACTION|Hord
 B Rockscale Cod|QID|990007828|RECIPE|7828|M|26.20,69.70|Z|Desolace|FACTION|Horde|P|Cooking;185;175|N|Sold by Wulan in Desolace.|
 B Rockscale Cod|QID|990007828|RECIPE|7828|M|42.80,69.10|Z|The Cape of Stranglethorn|P|Cooking;185;175|N|Sold by Kelsey Yance in The Cape of Stranglethorn.|
 B Rockscale Cod|QID|990007828|RECIPE|7828|M|48.00,6.30|Z|Ironforge|FACTION|Alliance|P|Cooking;185;175|N|Sold by Tansy Puddlefizz in Ironforge.|
-B Rhinolicious Wormsteak|QID|990057434|RECIPE|57434|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Rhinolicious Wormsteak|QID|990057434|RECIPE|57434|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Rhinolicious Wormsteak|QID|990057434|RECIPE|57434|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Rhinolicious Wormsteak|QID|990057434|RECIPE|57434|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Rhinolicious Wormsteak|QID|990057434|RECIPE|57434|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
-B Imperial Manta Steak|QID|990045570|RECIPE|45570|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Imperial Manta Steak|QID|990045570|RECIPE|45570|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Imperial Manta Steak|QID|990045570|RECIPE|45570|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Imperial Manta Steak|QID|990045570|RECIPE|45570|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Imperial Manta Steak|QID|990045570|RECIPE|45570|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Hot Smoked Bass|QID|990018242|RECIPE|18242|M|42.80,69.10|Z|The Cape of Stranglethorn|P|Cooking;185;240|N|Sold by Kelsey Yance in The Cape of Stranglethorn.|
-B Critter Bites|QID|990057435|RECIPE|57435|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Critter Bites|QID|990057435|RECIPE|57435|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Critter Bites|QID|990057435|RECIPE|57435|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Critter Bites|QID|990057435|RECIPE|57435|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Critter Bites|QID|990057435|RECIPE|57435|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Grilled Mudfish|QID|990033293|RECIPE|33293|M|56.20,73.30|Z|Nagrand|FACTION|Alliance|P|Cooking;185;320|N|Sold by Uriku in Nagrand.|
 B Grilled Mudfish|QID|990033293|RECIPE|33293|M|58.00,35.70|Z|Nagrand|FACTION|Horde|P|Cooking;185;320|N|Sold by Nula the Butcher in Nagrand.|
@@ -365,8 +356,8 @@ B Hearty Seafood Soup|QID|990088021|RECIPE|88021|M|59.90,37.70|Z|Ironforge|FACTI
 B Hearty Seafood Soup|QID|990088021|RECIPE|88021|M|62.30,43.10|Z|Undercity|FACTION|Horde|P|Cooking;185;475|N|Sold by Ronald Burch in Undercity.\nBind on Pickup.|
 B Hearty Seafood Soup|QID|990088021|RECIPE|88021|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;475|N|Sold by Naal Mistrunner in Thunder Bluff.\nBind on Pickup.|
 B Hearty Seafood Soup|QID|990088021|RECIPE|88021|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;475|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
-B Very Burnt Worg|QID|990045558|RECIPE|45558|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Very Burnt Worg|QID|990045558|RECIPE|45558|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Very Burnt Worg|QID|990045558|RECIPE|45558|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Very Burnt Worg|QID|990045558|RECIPE|45558|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Very Burnt Worg|QID|990045558|RECIPE|45558|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Tender Wolf Steak|QID|990022480|RECIPE|22480|M|52.60,29.10|Z|Tanaris|P|Cooking;185;225|N|Sold by Dirge Quikcleave in Tanaris.|
 B Tender Wolf Steak|QID|990022480|RECIPE|22480|M|52.60,27.00|Z|Tanaris|P|Cooking;185;225|N|Sold by Innkeeper Fizzgrimble in Tanaris.|
@@ -378,11 +369,11 @@ B Warp Burger|QID|990033288|RECIPE|33288|M|55.70,53.10|Z|Terokkar Forest|FACTION
 B Dragonbreath Chili|QID|990015906|RECIPE|15906|M|36.70,31.00|Z|Dustwallow Marsh|FACTION|Horde|P|Cooking;185;200|N|Sold by Ogg'marr in Dustwallow Marsh.|
 B Dragonbreath Chili|QID|990015906|RECIPE|15906|M|66.40,51.50|Z|Dustwallow Marsh|FACTION|Alliance|P|Cooking;185;200|N|Sold by Helenia Olden in Dustwallow Marsh.|
 B Scorpid Surprise|QID|990006413|RECIPE|6413|M|50.70,42.80|Z|Durotar|FACTION|Horde|P|Cooking;185;20|N|Sold by Grimtak in Durotar.|
-B Mega Mammoth Meal|QID|990045555|RECIPE|45555|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Mega Mammoth Meal|QID|990045555|RECIPE|45555|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Mega Mammoth Meal|QID|990045555|RECIPE|45555|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Mega Mammoth Meal|QID|990045555|RECIPE|45555|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Mega Mammoth Meal|QID|990045555|RECIPE|45555|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
-B Spicy Blue Nettlefish|QID|990045571|RECIPE|45571|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Spicy Blue Nettlefish|QID|990045571|RECIPE|45571|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Spicy Blue Nettlefish|QID|990045571|RECIPE|45571|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Spicy Blue Nettlefish|QID|990045571|RECIPE|45571|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Spicy Blue Nettlefish|QID|990045571|RECIPE|45571|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Broiled Mountain Trout|QID|990088012|RECIPE|88012|M|49.50,36.90|Z|Darnassus|FACTION|Alliance|P|Cooking;185;450|N|Sold by Fyldan in Darnassus.\nBind on Pickup.|
 B Broiled Mountain Trout|QID|990088012|RECIPE|88012|M|50.40,71.90|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;450|N|Sold by Bario Matalli in Stormwind City.\nBind on Pickup.|
@@ -396,8 +387,8 @@ B South Island Iced Tea|QID|990088044|RECIPE|88044|M|59.90,37.70|Z|Ironforge|FAC
 B South Island Iced Tea|QID|990088044|RECIPE|88044|M|62.30,43.10|Z|Undercity|FACTION|Horde|P|Cooking;185;525|N|Sold by Ronald Burch in Undercity.\nBind on Pickup.|
 B South Island Iced Tea|QID|990088044|RECIPE|88044|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;525|N|Sold by Naal Mistrunner in Thunder Bluff.\nBind on Pickup.|
 B South Island Iced Tea|QID|990088044|RECIPE|88044|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;525|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
-B Hearty Rhino|QID|990057436|RECIPE|57436|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Hearty Rhino|QID|990057436|RECIPE|57436|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Hearty Rhino|QID|990057436|RECIPE|57436|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Hearty Rhino|QID|990057436|RECIPE|57436|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Hearty Rhino|QID|990057436|RECIPE|57436|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Crocolisk Steak|QID|990003370|RECIPE|3370|M|76.60,52.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;80|N|Sold by Kendor Kabonka in Stormwind City.|
 B Roasted Clefthoof|QID|990033287|RECIPE|33287|M|56.20,73.30|Z|Nagrand|FACTION|Alliance|P|Cooking;185;325|N|Sold by Uriku in Nagrand.|
@@ -435,8 +426,8 @@ B Lurker Lunch|QID|990088030|RECIPE|88030|M|56.80,62.30|Z|Orgrimmar|FACTION|Hord
 B Clam Chowder|QID|990006501|RECIPE|6501|M|36.20,90.10|Z|Westfall|FACTION|Alliance|P|Cooking;185;90|N|Sold by Kriggon Talsone in Westfall.|
 B Bat Bites|QID|990033278|RECIPE|33278|M|48.30,30.90|Z|Ghostlands|FACTION|Horde|P|Cooking;185;50|N|Sold by Master Chef Mouldier in Ghostlands.|
 B Lynx Steak|QID|990033276|RECIPE|33276|M|49.00,47.00|Z|Eversong Woods|FACTION|Horde|P|Cooking;185;1|N|Sold by Landraelanis in Eversong Woods.|
-B Tender Shoveltusk Steak|QID|990045556|RECIPE|45556|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Tender Shoveltusk Steak|QID|990045556|RECIPE|45556|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Tender Shoveltusk Steak|QID|990045556|RECIPE|45556|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Tender Shoveltusk Steak|QID|990045556|RECIPE|45556|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Tender Shoveltusk Steak|QID|990045556|RECIPE|45556|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Crocolisk Au Gratin|QID|990088014|RECIPE|88014|M|49.50,36.90|Z|Darnassus|FACTION|Alliance|P|Cooking;185;500|N|Sold by Fyldan in Darnassus.\nBind on Pickup.|
 B Crocolisk Au Gratin|QID|990088014|RECIPE|88014|M|50.40,71.90|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;500|N|Sold by Bario Matalli in Stormwind City.\nBind on Pickup.|
@@ -444,8 +435,8 @@ B Crocolisk Au Gratin|QID|990088014|RECIPE|88014|M|59.90,37.70|Z|Ironforge|FACTI
 B Crocolisk Au Gratin|QID|990088014|RECIPE|88014|M|62.30,43.10|Z|Undercity|FACTION|Horde|P|Cooking;185;500|N|Sold by Ronald Burch in Undercity.\nBind on Pickup.|
 B Crocolisk Au Gratin|QID|990088014|RECIPE|88014|M|51.00,52.50|Z|Thunder Bluff|FACTION|Horde|P|Cooking;185;500|N|Sold by Naal Mistrunner in Thunder Bluff.\nBind on Pickup.|
 B Crocolisk Au Gratin|QID|990088014|RECIPE|88014|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;500|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
-B Snapper Extreme|QID|990057437|RECIPE|57437|M|70.10,38.50|Z|Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
-B Snapper Extreme|QID|990057437|RECIPE|57437|M|41.50,64.80|Z|Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
+B Snapper Extreme|QID|990057437|RECIPE|57437|M|70.10,38.50|Z|Dalaran City@Dalaran|FACTION|Horde|P|Cooking;185;400|N|Sold by Misensi in Dalaran.\nBind on Pickup.|
+B Snapper Extreme|QID|990057437|RECIPE|57437|M|41.50,64.80|Z|Dalaran City@Dalaran|FACTION|Alliance|P|Cooking;185;400|N|Sold by Derek Odds in Dalaran.\nBind on Pickup.|
 B Snapper Extreme|QID|990057437|RECIPE|57437|M|72.40,20.90|Z|Icecrown|P|Cooking;185;400|N|Sold by Mera Mistrunner in Icecrown.\nBind on Pickup.|
 B Mok'Nathal Shortribs|QID|990038867|RECIPE|38867|M|61.30,68.90|Z|Blade's Edge Mountains|FACTION|Alliance|P|Cooking;185;335|N|Sold by Sassa Weldwell in Blade's Edge Mountains.\nBind on Pickup.|
 B Mok'Nathal Shortribs|QID|990038867|RECIPE|38867|M|62.50,40.30|Z|Blade's Edge Mountains|P|Cooking;185;335|N|Limited quantity sold by Xerintha Ravenoak in Blade's Edge Mountains.\nBind on Pickup.|
@@ -464,7 +455,7 @@ B Whitecrest Gumbo|QID|990088047|RECIPE|88047|M|51.00,52.50|Z|Thunder Bluff|FACT
 B Whitecrest Gumbo|QID|990088047|RECIPE|88047|M|56.80,62.30|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;450|N|Sold by Shazdar in Orgrimmar.\nBind on Pickup.|
 B Blackened Trout|QID|990033290|RECIPE|33290|M|31.70,49.30|Z|Zangarmarsh|FACTION|Horde|P|Cooking;185;300|N|Sold by Gambarinka in Zangarmarsh.|
 B Blackened Trout|QID|990033290|RECIPE|33290|M|42.30,27.90|Z|Zangarmarsh|FACTION|Alliance|P|Cooking;185;300|N|Sold by Doba in Zangarmarsh.|
-B Broiled Dragon Feast|QID|990088011|RECIPE|88011|M|52.60,56.60|Z|Dalaran|P|Cooking;185;500|N|Sold by Mirla Silverblaze in Dalaran.\nBind on Pickup.|
+B Broiled Dragon Feast|QID|990088011|RECIPE|88011|M|52.60,56.60|Z|Dalaran City@Dalaran|P|Cooking;185;500|N|Sold by Mirla Silverblaze in Dalaran.\nBind on Pickup.|
 B Broiled Dragon Feast|QID|990088011|RECIPE|88011|M|36.30,85.80|Z|Ironforge|FACTION|Alliance|P|Cooking;185;500|N|Sold by Steeg Haskell in Ironforge.\nBind on Pickup.|
 B Broiled Dragon Feast|QID|990088011|RECIPE|88011|M|64.60,76.80|Z|Stormwind City|FACTION|Alliance|P|Cooking;185;500|N|Sold by Shay Pressler in Stormwind City.\nBind on Pickup.|
 B Broiled Dragon Feast|QID|990088011|RECIPE|88011|M|48.20,75.60|Z|Orgrimmar|FACTION|Horde|P|Cooking;185;500|N|Sold by Goram in Orgrimmar.\nBind on Pickup.|
@@ -492,6 +483,9 @@ B Succulent Pork Ribs|QID|990002548|RECIPE|2548|M|76.60,52.80|Z|Stormwind City|F
 B Bread of the Dead|QID|990065454|RECIPE|65454|M|68.10,11.20|Z|Undercity|FACTION|Horde|P|Cooking;185;45|N|Sold by Chapman in Undercity.|
 B Blackened Sporefish|QID|990033292|RECIPE|33292|M|78.00,66.10|Z|Zangarmarsh|P|Cooking;185;310|N|Sold by Juno Dufrain in Zangarmarsh.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+
+

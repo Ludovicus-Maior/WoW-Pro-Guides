@@ -1,0 +1,37 @@
+changeset:   129:3b1c59268169
+tag:         tip
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Wed Mar 29 17:06:58 2017 -0600
+summary:     Update TOC Interface for 7.2 client.
+
+
+changeset:   128:e3258da68c22
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Wed Nov 30 18:28:44 2016 -0700
+summary:     Remove pre-7.0 compatibility.
+
+
+changeset:   127:3f762d561833
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Wed Nov 30 17:31:28 2016 -0700
+summary:     Fix CI image name.
+
+
+changeset:   126:17b6e127885b
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Wed Nov 30 17:20:52 2016 -0700
+summary:     Move implementation of sync process out of CI script.
+
+
+changeset:   125:1b647e732311
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Tue Jul 19 17:37:19 2016 -0600
+summary:     Update TOC Interface for 7.0 client.
+
+
+changeset:   124:b7c72299bb8a
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Sun Jul 17 20:28:30 2016 -0600
+summary:     Added tag 2.0.32 for changeset b9a792aa1cbf
+
+

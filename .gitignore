@@ -1,2 +1,12 @@
 WoWPro*.zip
+.DS_Store
 *~
+*.pyc
+*.pkl
+*.png
+.s3cfg
+.ipynb_checkpoints
+.idea
+.vscode
+releases/
+release-notes.md

@@ -1,47 +1,10 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
--- Date: 2015-04-13 17:48
--- Who: Ludovicus
--- Log: Woops, misisng Z tags
-
--- URL: http://wow-pro.com/node/3473/revisions/27195/view
--- Date: 2015-04-13 17:42
--- Who: Ludovicus
--- Log: Converted to continent guide with proximity sort.
-
--- URL: http://wow-pro.com/node/3473/revisions/26385/view
--- Date: 2014-05-28 22:18
--- Who: Ludovicus
--- Log: Uldum moved to Cata
-
--- URL: http://wow-pro.com/node/3473/revisions/26376/view
--- Date: 2014-05-28 20:32
--- Who: Ludovicus
--- Log: Converted
-
--- URL: http://wow-pro.com/node/3473/revisions/26310/view
--- Date: 2014-05-26 17:38
--- Who: Ludovicus
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3473/revisions/24981/view
--- Date: 2012-05-27 17:49
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3473/revisions/24979/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3473/revisions/24978/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoExpKalimdor","Achievements","Kalimdor","Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,20,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",43)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
@@ -356,3 +319,6 @@ N Congratulations on exploring Kalimdor!|
 
 ]]
 end)
+
+
+

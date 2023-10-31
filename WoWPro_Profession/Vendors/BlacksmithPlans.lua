@@ -1,27 +1,14 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/blacksmithing_plans
--- Date: 2014-11-08 20:21
--- Who: Ludovicus
--- Log: Update the Shrines
-
--- URL: http://wow-pro.com/node/3566/revisions/25911/view
--- Date: 2014-03-06 23:50
--- Who: Ludovicus
--- Log: Correct Molten Front zone tags.
-
--- URL: http://wow-pro.com/node/3566/revisions/25899/view
--- Date: 2014-02-14 00:15
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3566/revisions/25884/view
--- Date: 2014-02-13 23:59
--- Who: Ludovicus
-
-WoWPro.Profession:RegisterGuide('LudoShopBlacksmithing', 'Blacksmithing', 'Blacksmithing Plans', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopBlacksmithing","Profession", "Blacksmithing", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Blacksmithing Plans")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",164)
+WoWPro:GuideSteps(guide, function()
 return [[
 N Dark Iron Mail|QID|990015293|RECIPE|15293|M|35.60,64.00;42.90,86.50;48.40,38.70;59.80,64.70;38.45,81.30;40.25,70.35|Z|Shadowforge City@BlackrockDepths|P|Blacksmithing;164;270|CN|N|Looted from West Garrison, Manufactory, and Mold Foundry.\nBind on Pickup.|
 N Dark Iron Shoulders|QID|990015295|RECIPE|15295|M|35.60,64.00;42.90,86.50;48.40,38.70;59.80,64.70;38.45,81.30;40.25,70.35|Z|Shadowforge City@BlackrockDepths|P|Blacksmithing;164;280|CN|N|Looted from \nBind on Pickup.|
@@ -42,7 +29,7 @@ B Elementium Gutslicer|QID|990094718|RECIPE|94718|M|51.50,42.70|Z|Ironforge|FACT
 B Elementium Gutslicer|QID|990094718|RECIPE|94718|M|56.80,52.50|Z|Darnassus|FACTION|Alliance|P|Blacksmithing;164;515|N|Sold by Layna Karner in Darnassus.\nBind on Pickup.|
 B Elementium Gutslicer|QID|990094718|RECIPE|94718|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;515|N|Sold by Eriden in Silvermoon City.\nBind on Pickup.|
 B Adamantite Rapier|QID|990029571|RECIPE|29571|M|80.30,36.10|Z|Silvermoon City|FACTION|Horde|P|Blacksmithing;164;335|N|Limited quantity sold by Eriden in Silvermoon City.|
-B Adamantite Rapier|QID|990029571|RECIPE|29571|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;335|N|Limited quantity sold by Arras in Thunder Bluff.|
+B Adamantite Rapier|QID|990029571|RECIPE|29571|M|61.00,89.00|Z|The Exodar|FACTION|Alliance|P|Blacksmithing;164;335|N|Limited quantity sold by Arras in The Exodar.|
 B Adamantite Rapier|QID|990029571|RECIPE|29571|M|63.10,71.10|Z|Shattrath City|P|Blacksmithing;164;335|N|Limited quantity sold by Aaron Hollman in Shattrath City.|
 B Forged Elementium Mindcrusher|QID|990094732|RECIPE|94732|M|63.50,37.60|Z|Stormwind City|FACTION|Alliance|P|Blacksmithing;164;520|N|Sold by Kaita Deepforge in Stormwind City.\nBind on Pickup.|
 B Forged Elementium Mindcrusher|QID|990094732|RECIPE|94732|M|75.80,35.20|Z|Orgrimmar|FACTION|Horde|P|Blacksmithing;164;520|N|Sold by Sumi in Orgrimmar.\nBind on Pickup.|
@@ -538,6 +525,9 @@ B Adamantite Dagger|QID|990029569|RECIPE|29569|M|80.30,36.10|Z|Silvermoon City|F
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|60.00,89.50|Z|Thunder Bluff|FACTION|Alliance|P|Blacksmithing;164;330|N|Limited quantity sold by Arras in Thunder Bluff.|
 B Adamantite Dagger|QID|990029569|RECIPE|29569|M|63.10,71.10|Z|Shattrath City|P|Blacksmithing;164;330|N|Limited quantity sold by Aaron Hollman in Shattrath City.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+
+

@@ -1,152 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/hallows_end_horde
--- Date: 2014-11-07 21:24
--- Who: Emmaleah
--- Log: corrections per Ludo's big list o' errors
-
--- URL: http://wow-pro.com/node/3441/revisions/26764/view
--- Date: 2014-10-26 00:26
--- Who: Emmaleah
--- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
---	
---	removed duplicate "|" in cata guide x3, and put in a missing "|M|" - hopefully allowing the mapping to work for the deepholm portal in orgrimmar
-
--- URL: http://wow-pro.com/node/3441/revisions/26760/view
--- Date: 2014-10-25 18:55
--- Who: Dez
--- Log: In Outland: Updated for 6.0.2 new portal to Hellfire in capital; added explicit reputation check for Aldor/Scryer; tied portal to first quest step, in hopes of keeping it checked off when completed.
-
--- URL: http://wow-pro.com/node/3441/revisions/26753/view
--- Date: 2014-10-22 07:03
--- Who: Dez
--- Log: Misplaced Shrine/Grove of Aessina in Winterspring.
-
--- URL: http://wow-pro.com/node/3441/revisions/26752/view
--- Date: 2014-10-22 07:01
--- Who: Dez
--- Log: Shrine of Aviana misplaced as Winterspring.
-
--- URL: http://wow-pro.com/node/3441/revisions/26751/view
--- Date: 2014-10-22 06:59
--- Who: Dez
--- Log: Minor typo correction.
-
--- URL: http://wow-pro.com/node/3441/revisions/26748/view
--- Date: 2014-10-21 08:32
--- Who: Dez
--- Log: In Eastern Kingdoms: Added steps to speak to Zidormi going in and out of Blasted Lands, fixed a typo.
-
--- URL: http://wow-pro.com/node/3441/revisions/26747/view
--- Date: 2014-10-21 06:02
--- Who: Dez
--- Log: In Kalimdor: Cenarion Wildlands FP renamed to Karnum's Glade.
-
--- URL: http://wow-pro.com/node/3441/revisions/26739/view
--- Date: 2014-10-19 18:03
--- Who: Ludovicus
--- Log: Set guide titles for Hallow's End guides.  Corrected Zones.
-
--- URL: http://wow-pro.com/node/3441/revisions/26692/view
--- Date: 2014-09-27 22:25
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3441/revisions/26543/view
--- Date: 2014-06-13 00:23
--- Who: Ludovicus
--- Log: Missing quote
-
--- URL: http://wow-pro.com/node/3441/revisions/26503/view
--- Date: 2014-06-10 22:10
--- Who: Ludovicus
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3441/revisions/26499/view
--- Date: 2014-06-10 21:44
--- Who: Ludovicus
--- Log: Changed guide format.
-
--- URL: http://wow-pro.com/node/3441/revisions/25788/view
--- Date: 2013-10-28 02:08
--- Who: Ludovicus
--- Log: Use Dalaran City@Dalaran instead of Dalaran
-
--- URL: http://wow-pro.com/node/3441/revisions/25786/view
--- Date: 2013-10-27 22:17
--- Who: Ludovicus
--- Log: Next set of corrections.
-
--- URL: http://wow-pro.com/node/3441/revisions/25785/view
--- Date: 2013-10-27 01:06
--- Who: Ludovicus
--- Log: Some coord fixes for Northrend
-
--- URL: http://wow-pro.com/node/3441/revisions/25784/view
--- Date: 2013-10-26 22:48
--- Who: Ludovicus
--- Log: Add the missing U|37586| to Northrend
-
--- URL: http://wow-pro.com/node/3441/revisions/25783/view
--- Date: 2013-10-26 22:27
--- Who: Ludovicus
--- Log: Blade's Edge Mountains not Netherstorm.
-
--- URL: http://wow-pro.com/node/3441/revisions/25782/view
--- Date: 2013-10-26 02:26
--- Who: Ludovicus
--- Log: Cleft of Shadow@Orgrimmar
-
--- URL: http://wow-pro.com/node/3441/revisions/25781/view
--- Date: 2013-10-26 02:00
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3441/revisions/25780/view
--- Date: 2013-10-26 01:43
--- Who: Ludovicus
--- Log: Forest was misspelled
-
--- URL: http://wow-pro.com/node/3441/revisions/25779/view
--- Date: 2013-10-26 01:21
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3441/revisions/25778/view
--- Date: 2013-10-25 22:50
--- Who: Ludovicus
--- Log:  Ibanozzle
-
--- URL: http://wow-pro.com/node/3441/revisions/25162/view
--- Date: 2012-10-24 21:10
--- Who: Ludovicus
--- Log: Add Horde Pandaria Hallows End TRIAL.
-
--- URL: http://wow-pro.com/node/3441/revisions/24895/view
--- Date: 2012-01-18 23:55
--- Who: Ludovicus
--- Log: Sync to GIT.
-
--- URL: http://wow-pro.com/node/3441/revisions/24785/view
--- Date: 2011-10-29 22:20
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3441/revisions/24782/view
--- Date: 2011-10-29 18:19
--- Who: Crackerhead22
--- Log: Fixed QID errors.
-
--- URL: http://wow-pro.com/node/3441/revisions/24779/view
--- Date: 2011-10-29 02:36
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3441/revisions/24772/view
--- Date: 2011-10-28 08:04
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3441/revisions/24771/view
--- Date: 2011-10-28 08:03
--- Who: Crackerhead22
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoHallowKAL",'WorldEvents',"Kalimdor", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
@@ -208,16 +63,17 @@ A Candy Bucket|QID|28998|M|51.97,47.63|Z|Feralas|N|Chonk, Stonemaul Hold|
 F Camp Mojache|QID|12386|M|51.00,48.43|U|37586|Z|Feralas|N|Fly to Camp Mojache, Feralas.|
 A Candy Bucket|QID|12386|M|74.83,45.14|Z|Feralas|N|Innkeeper Greul, Camp Mojache|
 
-F Cenarion Hold|QID|12401|M|75.44,44.36|U|37586|Z|Feralas|N|Fly to Cenarion Hold, Silithus.|
-A Candy Bucket|QID|12401|M|55.5,36.7|Z|Silithus|N|Calandrath, Cenarion Hold|
-
-F Marshal's Stand|QID|29018|M|52.77,34.63|U|37586|Z|Silithus|N|Fly to Marshal's Stand, Un'Goro Crater.|
+F Marshal's Stand|QID|29018|M|75.44,44.36|U|37586|Z|Feralas|N|Fly to Marshal's Stand, Un'Goro Crater.|
 A Candy Bucket|QID|29018|M|55.27,62.12|Z|Un'Goro Crater|N|Innkeeper Dreedle, Marshal's Stand|
 
-F Bootlegger Outpost|QID|29014|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Bootlegger Outpost, Tanaris.|
+R Zidormi|QID|12401|M|78.93,21.93|Z|Silithus|U|37856|N|Fly to Zidormi and tell him to reset the zone to before Azeroth was wounded, (optional go back after you get the bucket if you want to put it back). This step must be manually checked off.|
+R Cenarion Hold|QID|12401|M|55.5,36.7|Z|Silithus|U|37586|N|Fly to Cenarion Hold, Silithus.|
+A Candy Bucket|QID|12401|M|55.5,36.7|Z|Silithus|N|Calandrath, Cenarion Hold|
+
+F Bootlegger Outpost|QID|29014|M|52.77,34.63|U|37586|Z|Silithus|N|Fly to Bootlegger Outpost, Tanaris.|
 A Candy Bucket|QID|29014|M|55.7,60.96|Z|Tanaris|N|Inkeeper Ibanozzel, Bootlegger Outpost.|
 
-F Gadgetzan|QID|12399|M|55.88,60.6|Z|Tanaris|U|37586||N|Fly to Gadgetzan.
+F Gadgetzan|QID|12399|M|55.88,60.6|Z|Tanaris|U|37586|N|Fly to Gadgetzan.|
 A Candy Bucket|QID|12399|M|52.55,27.09|Z|Tanaris|N|Innkeeper Fizzgrimble, Gadgetzan|
 
 F Mudsprocket|QID|12398|M|52.04,27.61|U|37586|Z|Tanaris|N|Fly to Mudsprocket, Dustwallow Marsh|
@@ -235,7 +91,10 @@ A Candy Bucket|QID|29004|M|39.29,20.10|Z|Southern Barrens|N|Innkeeper Hurnahet, 
 F Desolation Hold|QID|29005|M|39.78,20.27|U|37586|Z|Southern Barrens|N|Fly to Desolation Hold, Southern Barrens.|
 A Candy Bucket|QID|29005|M|40.71,69.31|Z|Southern Barrens|N|Innkeeper Lhakadd, Desolation Hold|
 
-N BioBreak|N|Take a break and pick the next guide to do.|
+N BioBreak|N|Take a break and pick the next guide to do.|U|37586|
 
 ]]
 end)
+
+
+

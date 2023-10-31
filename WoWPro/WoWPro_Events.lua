@@ -1,711 +1,1250 @@
+-- luacheck: globals tostring tonumber string hooksecurefunc
+-- luacheck: globals select foreach ipairs pairs next tinsert
+
 --------------------------
 --  WoWPro_Events.lua   --
 --------------------------
 
-local L = WoWPro_Locale
+local L =  WoWPro_Locale
+local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
+-- Are we ready to roll?
+function WoWPro.Ready(who)
+    if not WoWProDB.char.currentguide then
+        WoWPro:dbp("%s not Ready. No current guide!",(who or "Someone"))
+        return false
+    end
+    if not WoWPro.Guides[WoWProDB.char.currentguide] then
+        WoWPro:dbp("%s not Ready. Current guide invalid!",(who or "Someone"))
+        return false
+    end
+    if not WoWPro.GuideLoaded then
+        WoWPro:dbp("%s not Ready. Guide %s is not loaded yet!",(who or "Someone"), tostring(WoWProDB.char.currentguide))
+        return false
+    end
+    return true
+end
 
 -- Remeber Taxi Locations
 function WoWPro:RecordTaxiLocations(...)
-    for i = 1, NumTaxiNodes() do
-        local nomen = TaxiNodeName(i)
-        local typo = TaxiNodeGetType(i)
-        local location,zone = string.split(",",nomen)
+    local _event = ...
+    local index = WoWPro.rows[1].index
+    for i = 1, _G.NumTaxiNodes() do
+        local nomen = _G.TaxiNodeName(i)
+        local typo = _G.TaxiNodeGetType(i)
+        local location = (","):split(nomen)
         if (typo ~= "NONE" and typo ~= "DISTANT") and not WoWProCharDB.Taxi[location] then
             WoWProCharDB.Taxi[location] = true
             WoWPro:Print("Discovered Flight Point: [%s]",location )
         end
-        if WoWProCharDB.Taxi[location] and typo == "DISTANT" then
-            WoWProCharDB.Taxi[location] = nil
-            WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)            
-        end
+        --- if WoWProCharDB.Taxi[location] and typo == "DISTANT" then
+        ---     WoWProCharDB.Taxi[location] = nil
+        ---     WoWPro:Print("Removed Unlearned Flight Point: [%s]",location)
+        --- end
+    end
+    WoWPro:dbp("RecordTaxiLocations(%s): Step %s/%d [%s]?", tostring(_event), tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
+    if (WoWPro.action[index] == 'f') and WoWProCharDB.Taxi[WoWPro.step[index]] then
+        WoWPro.CompleteStep(index, "RecordTaxiLocations")
     end
 end
 
 -- Auto-Complete: Use flight point --
-function WoWPro:TakeTaxi(index,destination)
-    for i = 1, NumTaxiNodes() do
-        local nomen = TaxiNodeName(i)
-        local location,zone = string.split(",",nomen)
-        if location == destination then
+function WoWPro.TakeTaxiClassic(destination)
+    for i = 1, _G.NumTaxiNodes() do
+        local nomen = _G.TaxiNodeName(i)
+        local location,zone = (","):split(nomen)
+        WoWPro:dbp("TakeTaxiClassic(%d): Location=%s, zone=%s", i, location, zone or "?")
+        if location:find(destination, 1, true) or (nomen == destination) then
             WoWPro:Print("Taking flight to: [%s]",location)
-            if IsMounted() then
-                Dismount()
+            if _G.IsMounted() then
+                _G.Dismount()
             end
-            TakeTaxiNode(i)
-            WoWPro.CompleteStep(index,"Took known flight point")
+            for routeIndex = 1, _G.GetNumRoutes(i) do
+                local sourceSlotIndex = _G.TaxiGetNodeSlot(i, routeIndex, true)
+                local destinationSlotIndex = _G.TaxiGetNodeSlot(i, routeIndex, false)
+                WoWPro:Print("Taking flight to: [%s] Hop %s => %s",location, _G.TaxiNodeName(sourceSlotIndex), _G.TaxiNodeName(destinationSlotIndex) )
+            end
+            _G.TakeTaxiNode(i)
+            -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
             return
         end
     end
     WoWPro:Warning("Unable to find flight point to: [%s]",destination)
 end
 
+function WoWPro.TakeTaxiRetail(destination)
+    -- As of 8.1.0.28833, we need to know where we are to know where we can go.
+    local _, _, mapId = WoWPro:GetPlayerZonePosition()
+    if not mapId then
+        WoWPro:Warning("Unable to find flight point to: [%s]. Where am I?",destination)
+        return
+    end
+
+    local taxiNodes = _G.C_TaxiMap.GetAllTaxiNodes(mapId)
+    for i, taxiNodeData in ipairs(taxiNodes) do
+        -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
+        local location,zone = (","):split(taxiNodeData.name)
+        WoWPro:dbp("TakeTaxiRetail(%d): Location=%s, zone=%s", taxiNodeData.slotIndex, tostring(location), tostring(zone))
+        if location:find(destination, 1, true) or (taxiNodeData.name == destination) then
+            if taxiNodeData.state ~= _G.Enum.FlightPathState.Reachable then
+                WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
+                return
+            end
+            WoWPro:Print("Taking flight to: [%s]",location)
+            if _G.IsMounted() then
+                _G.Dismount()
+            end
+            _G.TakeTaxiNode(taxiNodeData.slotIndex)
+            -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
+            return
+        end
+    end
+    WoWPro:Warning("Unable to find flight point to: [%s]",destination)
+end
+
+function WoWPro.TakeTaxi(destination)
+    if WoWPro.RETAIL then
+        WoWPro.TakeTaxiRetail(destination)
+    else
+        WoWPro.TakeTaxiClassic(destination)
+    end
+end
+
 -- Auto-Complete: Get flight point --
 function WoWPro:AutoCompleteGetFP(...)
-	for i = 1,15 do
-		local index = WoWPro.rows[i].index
-		if ... == ERR_NEWTAXIPATH and WoWPro.action[index] == "f" 
-		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-			WoWPro.CompleteStep(index, "AutoCompleteGetFP")
+    local _event, _idx, msg = ...
+    -- ERR_NEWTAXIPATH = "New flight path discovered!";
+    WoWPro:dbp("AutoCompleteGetFP(%s,%s,%s): Start.", tostring(_event), tostring(_idx), msg)
+    if msg == _G.ERR_NEWTAXIPATH then
+         for i = 1,15 do
+             local index = WoWPro.rows[i].index
+             msg = ("AutoCompleteGetFP(%s): Step %s/%d [%s]?"):format(msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
+             WoWPro:dbp(msg)
+             if WoWPro.rows[i]:IsVisible() and WoWPro.action[index] == "f" then
+                if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+                    WoWPro.CompleteStep(index, "AutoCompleteGetFP("..msg..")")
+                    return
+                end
+             end
+        end
+        WoWPro:print("Flightpoint discovered, but guide does not have an 'f' step active.")
+    end
+end
+
+function WoWPro:CheckAnimaPowers()
+	local numBuffs = 0
+	for i=1, 44 do
+		local _, _, _, _, _, _, _, _, _, spellID = _G.UnitAura("player", i, "MAW")
+		if spellID then
+			numBuffs = numBuffs + 1
 		end
 	end
+	return numBuffs
+end
+
+
+function WoWPro.AuraScan(tabula, filter)
+    local BuffIndex = 1
+    local BuffString = tabula[0] or ""
+    local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,filter)
+    while BuffName do
+        tabula[BuffSpellId] = BuffCount or 1
+        if BuffString ~= "" then
+            BuffString = BuffString .. ","
+        end
+        BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
+        BuffIndex = BuffIndex + 1
+        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,filter)
+    end
+    tabula[0] = BuffString
+    return tabula
 end
 
 function WoWPro:CheckPlayerForBuffs(buffs)
-	local buffies = {}
-    local buffIdx
-    for buffIdx = 1, select("#",string.split(";",buffs)) do
-        local buff = select(buffIdx,string.split(";",buffs))
-        buffies[buffIdx] = tonumber(buff)
+    -- Check for buff count syntax
+    local buff, bcount= ("<"):split(buffs)
+    bcount = tonumber(bcount)
+    buff = tonumber(buff)
+    local bflip = true
+    if bcount and (buff < 0) then
+        buff = -buff
+        bflip = false
     end
-    local BuffIndex = 1
-    local BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
-    while BuffName and not skip do
-        for buffIdx = 1, #buffies do
-            if BuffSpellId == buffies[buffIdx] then
-                return BuffSpellId
-            end
+    local buffies = {}
+    -- Build table of all active buffs
+    buffies = WoWPro.AuraScan(buffies, "HELPFUL")
+    buffies = WoWPro.AuraScan(buffies, "HARMFUL")
+    -- Go do buff counts, if needed.
+    if bcount then
+        if buffies[buff] then
+            WoWPro:dbp("CheckPlayerForBuffs(%s): <=%s", buffs, bcount)
+            return bflip and (bcount <= buffies[buff])
+        else
+            WoWPro:dbp("CheckPlayerForBuffs(%s): Fail <= 0", buffs)
+            return false == bflip
         end
-        BuffIndex = BuffIndex + 1
-        BuffName, _, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
     end
-    return nil
+
+    WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, buffies[0])
+    return WoWPro:QIDInTable(buffs, buffies)
 end
 
 -- Auto-Complete: Do we have a buff? --
-function WoWPro:AutoCompleteBuff(unit,...)
+function WoWPro.AutoCompleteBuff(unit, ...)
     if unit ~= "player" then return end
-	for i = 1,15 do
-		local index = WoWPro.rows[i].index
-		if WoWPro.buff and WoWPro.buff[index] and  WoWPro:CheckPlayerForBuffs(WoWPro.buff[index]) then
-		    WoWPro.CompleteStep(index, "AutoCompleteBuff")
-		end
-	end
+    for i = 1,15 do
+        local index = WoWPro.rows[i].index
+        if WoWPro.buff and WoWPro.buff[index] and  WoWPro:CheckPlayerForBuffs(WoWPro.buff[index]) then
+            -- Log only the usefull ones!
+            WoWPro:LogEvent("UNIT_AURA", unit, ...)
+            WoWPro.CompleteStep(index, "AutoCompleteBuff")
+        end
+    end
 end
 
+function WoWPro:AutoCompleteDeath(...)
+    --
+    local index = WoWPro.rows[1].index
+    local dead = _G.UnitIsDeadOrGhost("player")
+    if (WoWPro.action[index] == "d" and dead) or (WoWPro.action[index] == "s" and not dead)then
+        WoWPro.CompleteStep(index, "AutoCompleteDeath")
+    end
+end
 
 -- Update Item Tracking --
 function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 --[[Purpose: Creates a string containing:
-	- tracked item's name
-	- how many the user has
-	- how many the user needs
-	- a complete symbol if the ammount the user has is equal to the ammount they need 
+    - tracked item's name
+    - how many the user has
+    - how many the user needs
+    - a complete symbol if the ammount the user has is equal to the ammount they need
 ]]
-	if not GetItemInfo(lootitem) then return "" end
-	local track = "" 												--If the function did have a track string, adds a newline
-	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)		--Finds the number in the bag, and adds a count if supplied
-	track = track..numinbag										--Adds the number in bag to the string
-	track = track.."/"..lootqty								--Adds the total number needed to the string
-	if lootqty == numinbag then
-		track = track.." (C)"									--If the user has the requisite number of items, adds a complete marker
-	end
-	return track													--Returns the track string to the calling function
+    if not _G.GetItemInfo(lootitem) then return "" end
+    local track = ""                                                --If the function did have a track string, adds a newline
+    track = track.." - ".. _G.GetItemInfo(lootitem)..": "   --Adds the item's name to the string
+    local numinbag = _G.GetItemCount(lootitem)      --Finds the number in the bag, and adds a count if supplied
+    track = track..numinbag                                     --Adds the number in bag to the string
+    track = track.."/"..lootqty                             --Adds the total number needed to the string
+    if (lootqty > 0) then
+        if (numinbag >= lootqty) then
+            --If the user has the requisite number of items or more, adds a complete marker
+            track = track.." (C)"
+            return track , true
+        end
+        return track , false
+    elseif (lootqty < 0) then
+        if (numinbag < -lootqty) then
+            --If the user has less than the requisite number of items, adds a complete marker
+            track = track.." (C)"
+            return track , true
+        end
+        return track , false
+    else
+        -- Should not happen
+        WoWPro:print("GetLootTrackingInfo(!?): lootqty=%d, numinbag=%d", lootqty, numinbag)
+        track = track.." (!?)"
+        return track , false
+    end
 end
 
 -- Auto-Complete: Loot based --
 function WoWPro.AutoCompleteLoot()
-	for i = 1,1+WoWPro.ActiveStickyCount do
-	    local lootqtyi
-		local index = WoWPro.rows[i].index
-		if WoWPro.lootitem[index] then
-    		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
-    		if WoWProDB.profile.track then
-    			local track = WoWPro.GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
-    			WoWPro.rows[i].track:SetText(strtrim(track))
-    			WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
-    		end
-    		local itemCount = GetItemCount(WoWPro.lootitem[index])
-    		if itemCount >= lootqtyi and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-    		    WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
-    			WoWPro.CompleteStep(index,"AutoCompleteLoot")
-    		else
-    			WoWPro:dbp("AutoCompleteLoot: Not enough yet!")
-    		end
-    	end
-	end
+    if not WoWPro.GuideLoaded then return end
+    for i = 1,1+WoWPro.ActiveStickyCount do
+        local index = WoWPro.rows[i].index
+        local lootqty = WoWPro.lootqty[index]
+        if WoWPro.lootitem[index] then
+            if WoWProDB.profile.track then
+                local track = WoWPro.GetLootTrackingInfo(WoWPro.lootitem[index],lootqty)
+                WoWPro.rows[i].track:SetText(track:trim())
+                WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
+            end
+            local itemCount = _G.GetItemCount(WoWPro.lootitem[index])
+            if lootqty > 0 then
+                if itemCount >= lootqty and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+                    WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
+                    WoWPro.CompleteStep(index,"AutoCompleteLoot")
+                else
+                    WoWPro:dbp("AutoCompleteLoot: Not enough yet!")
+                end
+            elseif lootqty < 0 then
+                if itemCount < -lootqty and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+                    WoWPro:dbp("AutoCompleteLoot: Used them up!")
+                    WoWPro.CompleteStep(index,"AutoCompleteLoot")
+                else
+                    WoWPro:dbp("AutoCompleteLoot: Still too many!")
+                end
+            else
+                WoWPro:Error("Zero item count for item %s found", tostring(WoWPro.lootitem[index]))
+            end
+        end
+    end
+    WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
+end
+
+local LUNARFALL_MAPID
+local FROSTWALL_MAPID
+
+function WoWPro.InGarrison()
+    if not WoWPro.RETAIL then return false; end
+    if not LUNARFALL_MAPID then
+        local zone, zm = WoWPro:ValidZone("Lunarfall!Instance")
+        WoWPro:dbp("InGarrison: zone [%s] mapped to %d", zone, zm)
+        LUNARFALL_MAPID = zm
+    end
+    if not FROSTWALL_MAPID then
+        local zone, zm = WoWPro:ValidZone("Frostwall!Instance")
+        WoWPro:dbp("InGarrison: zone [%s] mapped to %d", zone, zm)
+        FROSTWALL_MAPID = zm
+    end
+    local _, mapID = WoWPro.GetZoneText()
+    return ((mapID == LUNARFALL_MAPID) or (mapID == FROSTWALL_MAPID)) and mapID
 end
 
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
-    local mapID = GetCurrentMapAreaID()
-    if (mapID == WoWPro.Zone2MapID['Lunarfall'].mapID) or (mapID == WoWPro.Zone2MapID['Frostwall'].mapID) then
-        WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
-        -- We just moved into the zone
-        local numPOIs = GetNumMapLandmarks();
-        for i=2, numPOIs do
-            local name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = GetMapLandmarkInfo(i);
-            WoWProCharDB.BuildingLocations[name] = {x=(100*x), y=(100*y)}
-            WoWPro.dbp("Building %s @ %g,%g", name, 100*x, 100*y)
-        end
+    if not _G.C_Garrison then return; end
+    local mapID = WoWPro.InGarrison()
+    if not mapID then return; end
+
+    WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
+    local garrisonPlotInstances = _G.C_Garrison.GetGarrisonPlotsInstancesForMap(mapID)
+    for i, plotInfo in next, garrisonPlotInstances do
+        local x, y = plotInfo.position:GetXY()
+        x, y = x * 100, y * 100
+        WoWProCharDB.BuildingLocations[plotInfo.name] = {x = x, y = y}
+        WoWPro:dbp("Building %s @ %g, %g", plotInfo.name, x, y)
     end
 end
 
 
 -- Auto-Complete: Quest Update --
 function WoWPro:AutoCompleteQuestUpdate(questComplete)
-	local GID = WoWProDB.char.currentguide
-	if not GID or not WoWPro.Guides[GID] then return end
-	if not WoWProCharDB.Guide then return end
-	
+    local GID = WoWProDB.char.currentguide
+    if not GID or not WoWPro.Guides[GID] then return end
+    if not WoWProCharDB.Guide then return end
+    if not WoWProCharDB.Guide[GID] then return end
+    if not WoWProCharDB.Guide[GID].completion then return end
+
     WoWPro:dbp("Running: AutoCompleteQuestUpdate(questComplete=%s)",tostring(questComplete))
 
-	for i=1,#WoWPro.action do
-	
-		local action = WoWPro.action[i]
-		local completion = WoWProCharDB.Guide[GID].completion[i]
-	    
-		if WoWPro.QID[i] then
-			local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
-			for j=1,numQIDs do
-				local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
-				QID = tonumber(QID)
+    for i=1,#WoWPro.action do
+        local action = WoWPro.action[i]
+        local completion = WoWProCharDB.Guide[GID].completion[i]
+        if WoWPro.QID[i] then
+            local numQIDs = select("#", ("^&"):split(WoWPro.QID[i]))
+            for j=1,numQIDs do
+                local QID = select(numQIDs-j+1, ("^&"):split(WoWPro.QID[i]))
+                if not tonumber(QID) then
+                    WoWPro:Error("Bad QID [%s] in Guide %s", WoWPro.QID[i], GID)
+                    return
+                end
+                QID = tonumber(QID)
 
-		        -- Quest Turn-Ins --
-		        if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
-			        WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.")
-			        WoWProCharDB.completedQIDs[QID] = true
-			        WoWPro.CompletingQuest = false
-			        WoWPro.missingQuest = nil  -- We got it, dont let the recorder get it!
-		        end
-		
-		        -- Abandoned Quests --
-		        if not WoWPro.CompletingQuest and ( action == "A" or action == "C" ) 
-		        and completion and WoWPro.missingQuest == QID then
-			        WoWProCharDB.Guide[GID].completion[i] = nil
-			        WoWPro:UpdateGuide("ACQU: Abandoned Quest")
-		        end
-		
+                -- Quest Turn-Ins --
+                if WoWPro.CompletingQuest and action == "T" and not completion and WoWPro.missingQuest == QID then
+                    WoWPro.CompleteStep(i,"AutoCompleteQuestUpdate: quest turn-in.")
+                    if not WoWPro.nocache[i] then
+                        WoWProCharDB.completedQIDs[QID] = true
+                    end
+                    WoWPro.CompletingQuest = false
+                    WoWPro.missingQuest = nil  -- We got it, dont let the recorder get it!
+                end
+
+                -- Abandoned Quests --
+                if not WoWPro.CompletingQuest and ( action == "A" or action == "C" )
+                and completion and WoWPro.missingQuest == QID then
+                    WoWProCharDB.Guide[GID].completion[i] = nil
+                    WoWPro:UpdateGuide("ACQU: Abandoned Quest")
+                end
+
                 -- Quest AutoComplete --
                 if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
-                    WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
+					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
+						return
+					else
+						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
+					end
                 end
-		        -- Quest Accepts --
-		        if WoWPro.newQuest == QID and action == "A" and not completion then
-			        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
-			        WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
-		        end
-		
-		        -- Quest Completion via QuestLog--
-		        if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
-			        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog")
-			        WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
-			        WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
-		        end
-		
-		        -- Partial Completion --
-		        if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
-		        and not WoWProCharDB.Guide[GID].completion[i] then 
-			        local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
-			        local complete = true
-			        for l=1,numquesttext do
-				        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
-				        local lcomplete = false
-				        if tonumber(lquesttext) then
-				            lcomplete = WoWPro.QuestLog[QID].ocompleted[tonumber(lquesttext)]
-				        else
-    				        for _, objective in pairs(WoWPro.QuestLog[QID].leaderBoard) do --Checks each of the quest log objectives
-    					        if lquesttext == objective then --if the objective matches the step's criteria, mark true
-    						        lcomplete = true
-    					        end
-    				        end
-    				    end
-				        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
-			        end
-			        if complete then
-			            --if the step has not been found to be incomplete, run the completion function
-			            WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: complete")
-			        end 
-		        end
-		    end
-		end		
-	end
-	
-	-- First Map Point --
-	if WoWPro.FirstMapCall then
-		WoWPro:MapPoint()
-		WoWPro.FirstMapCall = false
-	end
-	
+                -- Quest Accepts --
+                if WoWPro.newQuest == QID and action == "A" and not completion then
+                    WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: Accept")
+                    WoWPro.newQuest = nil -- We got it, dont let the recorder get it!
+                end
+
+                -- Quest Completion via QuestLog--
+                if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
+					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
+						return
+					else
+						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog")
+						WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
+						WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
+					end
+                end
+
+                -- Partial Completion --
+                if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i]
+                and not WoWProCharDB.Guide[GID].completion[i] then
+                    local numquesttext = select("#", (";"):split(WoWPro.questtext[i]))
+                    local complete = true
+                    for l=1,numquesttext do
+                        local lquesttext = select(numquesttext-l+1, (";"):split(WoWPro.questtext[i]))
+                        local lcomplete = false
+                        if WoWPro.ValidObjective(lquesttext) then
+                            lcomplete = WoWPro.QuestObjectiveStatus(QID, lquesttext)
+                        end
+                        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
+                    end
+                    if complete then
+                        --if the step has been found to be complete, run the completion function
+                        WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: complete")
+                    end
+                end
+            end
+        end
+    end
+
+    -- First Map Point --
+    if WoWPro.FirstMapCall then
+        WoWPro:MapPoint()
+        WoWPro.FirstMapCall = false
+    end
 end
 
-			
+
 -- Auto-Complete: Set hearth --
 function WoWPro:AutoCompleteSetHearth(...)
-	local msg = ...
-	local _, _, loc = msg:find(L["(.*) is now your home."])
-	if loc then
-		WoWProCharDB.Guide.hearth = loc
-		for i = 1,15 do
-			local index = WoWPro.rows[i].index
-			if WoWPro.action[index] == "h" and WoWPro.step[index] == loc 
-			and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-				WoWPro.CompleteStep(index, "AutoCompleteSetHearth")
-			end
-		end
-	end	
+    local msg = ...
+    local _, _, loc = msg:find(L["(.*) is now your home."])
+    if loc then
+        WoWProCharDB.Guide.hearth = loc
+        for i = 1,15 do
+            local index = WoWPro.rows[i].index
+            if WoWPro.action[index] == "h" and WoWPro.step[index] == loc
+            and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+                WoWPro.CompleteStep(index, "AutoCompleteSetHearth")
+            end
+        end
+    end
 end
 
 -- Auto-Complete: Zone based --
-function WoWPro:AutoCompleteZone()
-	WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
-	local currentindex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
-	local action = WoWPro.action[currentindex]
-	local step = WoWPro.step[currentindex]
-	local coord = WoWPro.map[currentindex]
-	local waypcomplete = WoWPro.waypcomplete[currentindex]
-	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
-	if action == "F" or action == "H" or action == "b" or (action == "R" and not waypcomplete) then
-		if step == zonetext or step == subzonetext 
-		and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
-			WoWPro.CompleteStep(currentindex,"AutoCompleteZone")
-		end
-	end
+function WoWPro.AutoCompleteZone()
+    WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount or 0
+    local currentindex = WoWPro.rows[1+WoWPro.ActiveStickyCount].index
+    local action = WoWPro.action[currentindex] or "?"
+    local step = WoWPro.step[currentindex] or "?"
+    local targetzone = WoWPro.targetzone[currentindex] or "!"
+    local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
+    WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]/[%s]", zonetext, subzonetext, action, step, targetzone)
+    if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
+        if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
+            if (step == zonetext) or (step == subzonetext) then
+                WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..step)
+                return true
+            end
+            if (targetzone == zonetext) or (targetzone == subzonetext) then
+                WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
+                return true
+            end
+            local _, _, mapId = WoWPro:GetPlayerZonePosition()
+            if (tonumber(targetzone) and tonumber(targetzone) == mapId) then
+                WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
+                return true
+            end
+        end
+    end
+    return false
 end
 
--- Auto-Complete: Criteria Change
+-- Auto-Complete: Criteria Change from RegisterBucketEvent(CRITERIA_UPDATE)
 function WoWPro.AutoCompleteCriteria()
     if not WoWProDB.char.currentguide then return end
 
-	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	local GID = WoWProDB.char.currentguide
-	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-		    WoWProCharDB.Guide[GID].completion[qidx] = true
-		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
-		    WoWPro:UpdateGuide("AutoCompleteCriteria") 
-	end			
-	
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
+        WoWPro.CompleteStep(qidx,"AutoCompleteCriteria-Quest")
+    else
+        WoWPro:UpdateGuide("WoWPro.AutoCompleteCriteria?")
+    end
 end
 
 -- Auto-Complete: Chest Loot, for the silly timeless isle chests
 function WoWPro.AutoCompleteChest()
     if not WoWProDB.char.currentguide then return end
-    if 951 ~= GetCurrentMapAreaID() then return end
 
-	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	local GID = WoWProDB.char.currentguide
-	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
-		    WoWProCharDB.Guide[GID].completion[qidx] = true
-		    WoWProCharDB.completedQIDs[WoWPro.QID[qidx]] = true
-		    WoWPro:UpdateGuide("AutoCompleteChest") 
-	end			
-	
+    local zone = WoWPro.GetZoneText()
+    if zone == "Timeless Isle" then
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
+            WoWPro.CompleteStep(qidx,"AutoCompleteChest")
+        end
+    end
 end
 
 -- Auto-Complete: Level based --
 function WoWPro:AutoCompleteLevel(...)
-	local newlevel = ... or UnitLevel("player")
-	if WoWProCharDB.Guide then
-		local GID = WoWProDB.char.currentguide
-		if not WoWProCharDB.Guide[GID] then return end
-		for i=1,WoWPro.stepcount do
-			if not WoWProCharDB.Guide[GID].completion[i] 
-				and WoWPro.level[i] 
-				and tonumber(WoWPro.level[i]) <= newlevel then
-					WoWPro.CompleteStep(i,"AutoCompleteLevel")
-			end
-		end
-	end
+    local newlevel = ... or _G.UnitLevel("player")
+    if WoWProCharDB.Guide then
+        local GID = WoWProDB.char.currentguide
+        if not WoWProCharDB.Guide[GID] then return end
+        for i=1,WoWPro.stepcount do
+            if not WoWProCharDB.Guide[GID].completion[i]
+                and WoWPro.level[i]
+                and tonumber(WoWPro.level[i]) <= newlevel then
+                    WoWPro.CompleteStep(i,"AutoCompleteLevel")
+            end
+        end
+    end
+end
+
+WoWPro.InitLockdownEvents = {}
+WoWPro.InitLockdownEvents["ADDON_ACTION_FORBIDDEN"] = true
+WoWPro.InitLockdownEvents["ADDON_ACTION_BLOCKED"] = true
+WoWPro.InitLockdownEvents["PLAYER_ENTERING_WORLD"] = true
+WoWPro.InitLockdownEvents["PLAYER_LEAVING_WORLD"] = true
+
+function WoWPro.RegisterEventHandler(event, handler)
+    WoWPro.EventTable[event] = true
+    WoWPro[event] = handler
+end
+
+function WoWPro.RegisterModernEventHandler(event, handler)
+    if not WoWPro.RETAIL then return end
+    WoWPro.EventTable[event] = true
+    WoWPro[event] = handler
 end
 
 
--- Update Quest Tracker --
-function WoWPro:UpdateQuestTracker()
-	if not WoWPro.GuideFrame:IsVisible() then
-	    WoWPro:print("Punting: WoWPro:UpdateQuestTracker()")
-	    return
-	end
-	local GID = WoWProDB.char.currentguide
-	if not GID or not WoWPro.Guides[GID] then return end
-	
-	WoWPro:print("Running WoWPro:UpdateQuestTracker()")
-	for i,row in ipairs(WoWPro.rows) do
-		local index = row.index
-		local questtext = WoWPro.questtext[index] 
-		local action = WoWPro.action[index] 
-		local lootitem = WoWPro.lootitem[index]
-		local step = WoWPro.step[index] 
-		local lootqty = WoWPro.lootqty[index] 
-		local QID = WoWPro.QID[index]
-		local track = ""
-		
-		if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-		-- Setting up quest tracker --
-		row.trackcheck = false
-		
-		
-        -- Clean up any leftovers
-		row.track:SetText(track)
+WoWPro.RegisterEventHandler("UNIT_AURA", function(event, ...)
+    if not WoWPro.MaybeCombatLockdown() then
+        WoWPro.AutoCompleteBuff(...)
+    end
+    end)
 
-        if action then
-            WoWPro:dbp("profile.track=%s action=%s questtext=%s lootitem=%s",tostring(WoWProDB.profile.track),tostring(action),tostring(questtext),tostring(lootitem))		
+WoWPro.RegisterModernEventHandler("UNIT_AURA", function(event, ...)
+    if not WoWPro.MaybeCombatLockdown() then
+        WoWPro.AutoCompleteBuff(...)
+    end
+    end)
+-- Naughty People!
+WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function(event, ...)
+    -- Its has been logged by LogEvent, so just return
+    return
+    end)
+WoWPro.RegisterEventHandler("ADDON_ACTION_BLOCKED", WoWPro.ADDON_ACTION_FORBIDDEN)
+WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function(event) return; end)
+WoWPro.RegisterEventHandler("ADDON_LOADED", function(event) return; end)
+WoWPro.RegisterEventHandler("PLAYER_LOGIN", function(event) return; end)
+WoWPro.RegisterEventHandler("VARIABLES_LOADED", function(event) return; end)
+
+WoWPro.RegisterEventHandler("SPELLS_CHANGED", function(event)
+    WoWPro:UpdateGuide(event)
+    end)
+
+-- Unlocking event processing after things get settled --
+WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function(event, ...)
+    WoWPro:print("Setting Timer PEW")
+    WoWPro.InitLockdown = true
+    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+    WoWPro.LockdownTimer = 1.5
+    -- WoWPro.ShowFrame(true, "|cff33ff33Battleground Exit Auto Show|r: "..event, "INSTANCE")
+    WoWPro:UpdateTradeSkills()
+    end)
+
+-- Locking event processong till after things get settled --
+WoWPro.RegisterEventHandler("PLAYER_LEAVING_WORLD", function(event, ...)
+    WoWPro:print("Locking Down PLW")
+    WoWPro.InitLockdown = true
+    end)
+
+-- Check to see if the current zone is mapped properly.
+WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
+    WoWPro.CheckHBDData()
+    WoWPro.SaveGarrisonBuildings()
+    -- Noticing if we have entered a Dungeon!
+    if (event:sub(1,12) == "ZONE_CHANGED") and WoWProCharDB.AutoHideInsideInstances == true then
+        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index or 1
+        local guidetype = "WoWPro"
+        if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
+            guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
         end
-		if WoWProDB.profile.track and ( action == "C" or questtext or lootitem) then	    
-			if QID and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and WoWPro:QIDsInTable(QID,WoWPro.QuestLog,'leaderBoard') then
-			    local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
-				local j = WoWPro.QuestLog[qid].index
-				row.trackcheck = true
-				if not questtext and action == "C" and WoWPro.QuestLog[qid].leaderBoard then
-				    -- no QO tag specified, lets set something up
-				    WoWPro:dbp("UQT: QID %d active, but no QO tag, lets make something up.", qid)
-					if WoWPro.QuestLog[qid].leaderBoard[1] then
-						track = "- "..WoWPro.QuestLog[qid].leaderBoard[1]
-						if select(3,GetQuestLogLeaderBoard(1, j)) then
-							track =  track.." (C)"
+        WoWPro:print("%s: qidx=%s, guidetype=%s, currentguide=%s", event, tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
+        WoWPro:print("%s/qidx: %s", qidx,  WoWPro.EmitSafeStep(qidx))
+        WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitSafeStep(qidx+1))
+        WoWPro:print("%s/ScenarioFirstStep: %s", tostring(WoWPro.ScenarioFirstStep),  WoWPro.EmitSafeStep(WoWPro.ScenarioFirstStep))
+        WoWPro:print("%s: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
+                   event,  tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
+                   tostring(WoWPro.sobjective[qidx]), tostring(_G.IsInInstance()))
+        if qidx and WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
+            WoWPro:print("Suppressing Instance Auto Hide.")
+            return
+        end
+        if _G.IsInInstance() then
+            WoWPro.ShowFrame(false, "|cff33ff33Instance Auto Hide|r: " .. event, "INSTANCE")
+            return
+        else
+            WoWPro.ShowFrame(true, "|cff33ff33Instance Exit Auto Show|r: " .. event, "INSTANCE")
+        end
+    end
+    if WoWPro.Ready(event) then
+        if WoWPro.AutoCompleteZone(...) then
+            WoWPro:UpdateGuide(event)
+        end
+    end
+end)
+
+WoWPro.RegisterEventHandler("ZONE_CHANGED_INDOORS", WoWPro.ZONE_CHANGED)
+WoWPro.RegisterEventHandler("ZONE_CHANGED_NEW_AREA", WoWPro.ZONE_CHANGED)
+
+-- Scenario Tracking
+WoWPro.RegisterModernEventHandler("SCENARIO_UPDATE", function(event, ...)
+    WoWPro.ProcessScenarioStage(...)
+    WoWPro:UpdateGuide(event)
+    end)
+
+WoWPro.RegisterModernEventHandler("SCENARIO_CRITERIA_UPDATE", function(event, ...)
+    WoWPro.ProcessScenarioCriteria(false)
+    WoWPro:UpdateGuide(event)
+    end)
+
+WoWPro.RegisterModernEventHandler("CRITERIA_COMPLETE",WoWPro.SCENARIO_CRITERIA_UPDATE)
+
+
+-- Noticing if we are doing a pet battle!
+WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function(event, ...)
+    local battleHide = false
+
+    if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype then
+        battleHide = not WoWPro.Guides[WoWProDB.char.currentguide].PetBattle
+    end
+
+    WoWPro.LastPetBattleWinner = nil
+    if (WoWPro.Escondido == 0) and battleHide then
+        WoWPro.ShowFrame(false, "|cff33ff33Entering Pet Battle|r: ", "COMBAT")
+    end
+    WoWPro.PetBattleActive = true
+    WoWPro:print("battleHide=%s, Hidden=%s, PetBattleActive=%s", tostring(battleHide), tostring(WoWPro.Hidden), tostring(WoWPro.PetBattleActive))
+    -- WoWPro.RegisterAllEvents()
+end)
+
+WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function(event, ...)
+    WoWPro:UpdateGuide(event)
+    end)
+
+WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function(event,team)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if team == 1 and WoWPro.switch and WoWPro.switch[qidx] == 0 then
+        -- Waiting for forced swap.
+        WoWPro.CompleteStep(qidx,"Forced Swap")
+    end
+    end)
+
+
+WoWPro.RegisterModernEventHandler("PET_BATTLE_FINAL_ROUND", function(event, ...)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    local winner = ...
+    WoWPro.ProcessFinalRound(winner, qidx)
+    end)
+
+WoWPro.RegisterModernEventHandler("PET_BATTLE_OVER", function(event, ...) return; end)
+
+WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
+    if (WoWPro.Escondido > 0) then
+        WoWPro.ShowFrame(true, "|cff33ff33Exiting Pet Battle|r: ", "COMBAT")
+    end
+
+    if not _G.C_PetBattles.IsInBattle() then
+        WoWPro.PetBattleActive = false
+        WoWPro:dbp("C_PetBattles.IsInBattle() = false")
+    else
+        WoWPro:dbp("C_PetBattles.IsInBattle() = true")
+        return
+    end
+    if WoWPro.current_strategy == false then
+        -- Unsummon the first pet loaded, if it is there
+        local pet = _G.C_PetJournal.GetSummonedPetGUID()
+        if pet then
+            _G.C_PetJournal.SummonPetByGUID(pet)
+        end
+        WoWPro.current_strategy = nil
+        WoWPro:dbp("WoWPro.current_strategy = nil")
+    end
+    WoWPro:UpdateGuide(event)
+--  WoWPro.UnregisterAllEvents()
+--  WoWPro:RegisterEvents()
+    end)
+
+
+WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function(event, ...)
+    WoWPro.ShowFrame(false, "|cff33ff33Battleground Auto Hide|r: ", event)
+    end)
+
+WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
+    -- Combat lockdown begins after this event
+    if WoWProCharDB.AutoHideInCombat then
+        WoWPro.ShowFrame(false, "|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
+        WoWPro.CombatLock = true
+    end
+    -- Last ditch update!
+    if not WoWPro.MaybeCombatLockdown() then
+        WoWPro:UpdateGuide(event)
+    end
+end)
+
+WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
+    -- Combat lockdown ends before this event fires
+    if WoWPro.CombatLock and WoWProCharDB.AutoHideInCombat then
+        WoWPro.ShowFrame(true, "|cff33ff33Combat Exit, |r: " .. event, "COMBAT")
+        WoWPro.CombatLock = false
+    end
+    WoWPro:UpdateGuide(event)
+end)
+
+WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
+-- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
+
+WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
+	if _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) == 0 then
+		WoWPro.GroupSync = false
+	end
+	if successfulRequest then
+		WoWPro:UpdateGuide(event)
+		WoWPro:SendGroupInfo()
+	end
+end)
+
+WoWPro.RegisterEventHandler("AREA_POIS_UPDATED", function(event, ...)
+	if successfulRequest then
+		WoWPro:UpdateGuide(event)
+	end
+end)
+
+if WoWPro.RETAIL then
+	WoWPro.RegisterEventHandler("PLAYER_CHOICE_CLOSE", function(event, ...)
+		if successfulRequest then
+			if _G.IsInJailersTower() and not _G.C_PlayerChoice.IsWaitingForPlayerChoiceResponse() then
+				WoWPro.AnimaPowers = WoWPro.AnimaPowers + 1
+				WoWPro:UpdateGuide(event)
+			end
+		end
+	end)
+end
+
+WoWPro.GroupVersionMismatchOnce = {}
+
+WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
+	local _, prefix, text, _, sender = event, ...
+	if successfulRequest and prefix == "WoWPro" and _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
+		local synctype, message = string.split(" ", text, 2)
+		local gname = string.split("-", sender, 2)
+		if gname ~= _G.UnitName("Player") then
+			if synctype == "group" then
+				local gclass, grace, ggender, gversion, gstep = string.split(" ", message, 5)
+				if WoWPro.Version == gversion and WoWPro.playerGroup[sender] == nil then
+					WoWPro.playerGroup[sender] = {
+						pname = gname,
+						class = gclass,
+						race = grace,
+						gender = tonumber(ggender),
+						step = {[tonumber(gstep)] = true},
+						track = {}
+					}
+					WoWPro.GroupSync = true
+					WoWPro:LoadGuideStepsReal()
+				elseif WoWPro.Version ~= gversion then
+                    if not WoWPro.GroupVersionMismatchOnce[gname] then
+                        WoWPro:Print("Version mismatch: "..gname.."'s WoWPro is running "..gversion..". You are running "..WoWPro.Version)
+                        WoWPro:Print("Do /reload once corrected, if you care about WoWPro Group Sync")
+                        WoWPro.GroupVersionMismatchOnce[gname] = true
+                    end
+				end
+			elseif synctype == "steps" and WoWPro.GroupSync then
+				if (WoWPro.playerGroup[sender] ~= nil) then
+					local tbl = {string.split(" ", message)}
+					WoWPro.playerGroup[sender]["step"] = {}
+					foreach(tbl, function(k,v)
+						if (v ~= "") then
+							WoWPro.playerGroup[sender]["step"][tonumber(v)] = true
 						end
-					end
-					for l=1,#WoWPro.QuestLog[qid].leaderBoard do 
-						if l > 1 then
-							if WoWPro.QuestLog[qid].leaderBoard[l] then
-								track = track.."\n- "..WoWPro.QuestLog[qid].leaderBoard[l]
-								if select(3,GetQuestLogLeaderBoard(l, j)) then
-									track =  track.." (C)"
-								end
-							end
-						end
-					end
-				elseif questtext then
-				    --Partial completion steps only track pertinent objective.
-				    WoWPro:dbp("UQT: QID %d active and QO tag of [%s]", qid, questtext)
-					local numquesttext = select("#", string.split(";", questtext))
-					for l=1,numquesttext do
-						local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
-						if tonumber(lquesttext) then
-						    if WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)] then
-						        track = "- " .. WoWPro.QuestLog[qid].leaderBoard[tonumber(lquesttext)]
-						    else
-						        track = "- " .. "?"
-						    end
-						    if WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].ocompleted[tonumber(lquesttext)] then
-						        track =  track.." (C)"
-						    end
-						else
-    						for m=1,GetNumQuestLeaderBoards(j) do 
-    							if GetQuestLogLeaderBoard(m, j) then
-    								local _, _, itemName, _, _ = string.find(GetQuestLogLeaderBoard(m, j), "(.*):%s*([%d]+)%s*/%s*([%d]+)");
-    								if itemName and string.find(lquesttext,itemName) then
-    									track = "- "..GetQuestLogLeaderBoard(m, j)
-    									if select(3,GetQuestLogLeaderBoard(m, j)) then
-    										track =  track.." (C)"
-    									end
-    								end
-    							end
-    						end
-    					end
+					end);
+					WoWPro.mygroupsteps = {}
+					for index,gvalue in pairs(WoWPro.playerGroup) do
+						foreach(gvalue["step"], function(gkey,gval)
+							WoWPro.mygroupsteps[tonumber(gkey)] = true
+						end);
 					end
 				else
-				    --No questtext or leaderboard
-				    WoWPro:dbp("UQT: QID %d active, but no QO or leaderBoard!", qid)
+					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
 				end
-			end
-			if lootitem then
-				row.trackcheck = true
-				if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
-				track = WoWPro.GetLootTrackingInfo(lootitem,lootqty)
+				WoWPro:UpdateGuide(event)
+			elseif synctype == "track" and WoWPro.GroupSync then
+				if (WoWPro.playerGroup[sender] ~= nil) then
+					local gindex, gtrack = string.split(" ", message, 2)
+					WoWPro.playerGroup[sender]["track"][tonumber(gindex)] = gtrack
+					WoWPro.myGroupTrack = {}
+					for index,gvalue in pairs(WoWPro.playerGroup) do
+						foreach(gvalue["track"], function(gkey,gval)
+							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gname .. ": " .. gval
+						end);
+					end
+				else
+					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
+				end
+			elseif synctype == "NeedGroup" and WoWPro.GroupSync then
+				WoWPro:SendGroupInfo()
 			end
 		end
-        if action then
-		    WoWPro:dbp("UQT: Track Text for %s [%s] to '%s'",tostring(action),tostring(step),track)
-		end
-		row.track:SetText(track)
 	end
-	if not MaybeCombatLockdown() then WoWPro:RowSizeSet(); WoWPro:PaddingSet() end
+end)
+
+-- Merchant?
+WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function(event, ...)
+    for index=1,15 do
+        if WoWPro.rows[index]:IsVisible() then
+            local qidx = WoWPro.rows[index].index
+            if _G.CanMerchantRepair() and WoWPro.action[qidx] == "r" then
+                WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant, index="..tostring(index))
+            end
+        else
+            break
+        end
+    end
+end)
+
+-- Lets see what quests the NPC has:
+WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function(event, ...)
+    if not WoWPro.QuestDialogActive then
+        WoWPro.RegisterAllEvents()
+        WoWPro.QuestCount = 0
+        WoWPro.QuestDialogActive = event
+        _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+    else
+        WoWPro:print("GOSSIP_SHOW while %s was active: suppressed.", WoWPro.QuestDialogActive)
+    end
+end)
+
+function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
+    WoWPro.GossipText = WoWPro.GossipInfo_GetText():upper()
+    WoWPro:print("GetGossipText: %s", WoWPro.GossipText)
+
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    local myNPC = WoWPro:TargetNpcId()
+
+    if not qidx then
+        WoWPro:print("%s: No active step.", event)
+        return
+    end
+
+    local npcQuests = WoWPro.GossipInfo_GetActiveQuests()
+    local npcCount = #npcQuests
+
+    WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
+    if WoWProCharDB.AutoTurnin then
+        WoWPro.QuestCount = npcCount
+        for index, questInfo in ipairs(npcQuests) do
+            WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, questInfo.title, tostring(WoWPro.step[qidx]))
+            if WoWPro.action[qidx] == "T" and questInfo.title == WoWPro.step[qidx] then
+                WoWPro.QuestStep = qidx
+                WoWPro.GossipInfo_SelectActiveQuest(index)
+                WoWPro:print("%s: selected turnin %d for [%s]", event, index, questInfo.title)
+                return
+            end
+        end
+        WoWPro.QuestCount = 0
+    end
+
+    npcQuests = WoWPro.GossipInfo_GetAvailableQuests()
+    npcCount = #npcQuests
+
+    WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
+    if WoWProCharDB.AutoSelect then
+        WoWPro.QuestCount = npcCount
+        for index, questInfo in ipairs(npcQuests) do
+            WoWPro:dbp("ZT: %s index %d/%d, considering [%s]", event, index, npcCount, questInfo.title)
+            if WoWPro.action[qidx] == "A" then
+                if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
+                    WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event, questInfo.title, WoWPro.QuestCount, npcCount)
+                    WoWPro.QuestStep = qidx
+                    return WoWPro.GossipInfo_SelectAvailableQuest(index)
+                end
+                if questInfo.title == WoWPro.step[qidx] and not WoWPro.noauto[qidx] then
+                    WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.", index, event, questInfo.title)
+                    return WoWPro.GossipInfo_SelectAvailableQuest(index)
+                end
+            end
+        end
+
+        WoWPro.QuestCount = 0
+    end
+
+    if WoWPro.gossip and WoWPro.GossipText and WoWPro.gossip[qidx] then
+        WoWPro:UpdateGuide(event)
+    end
+end
+
+WoWPro.RegisterEventHandler("GOSSIP_CLOSED" ,function(event, ...)
+    WoWPro.GossipText = nil
+    WoWPro.QuestDialogActive = nil
+    WoWPro.UnregisterAllEvents()
+    WoWPro:RegisterEvents()
+	WoWPro.GuidelistReset = true
+    end)
+
+if WoWPro.RETAIL then
+	hooksecurefunc(_G.C_ChromieTime,"CloseUI",function(...)
+		WoWPro.GuidelistReset = true
+    end)
+end
+
+WoWPro.RegisterEventHandler("QUEST_GREETING", function(event, ...)
+    WoWPro.QuestDialogActive = event
+    WoWPro.RegisterAllEvents()
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+        WoWPro.QUEST_GREETING_PUNTED(event.."_PUNTED")
+        end)
+    end)
+
+WoWPro.RegisterEventHandler("QUEST_FINISHED", function(event, ...)
+    WoWPro.QuestDialogActive = nil
+    WoWPro.QuestCount = nil
+    WoWPro.QuestStep = nil
+    WoWPro.UnregisterAllEvents()
+    WoWPro.RegisterEvents()
+    end)
+
+function WoWPro.QUEST_GREETING_PUNTED(event, ...)
+    local numAvailableQuests = _G.GetNumAvailableQuests()
+    local numActiveQuests = _G.GetNumActiveQuests()
+    WoWPro:print("%s: numActiveQuests=%d, numAvailableQuests=%d", event, numActiveQuests, numAvailableQuests)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    local myNPC = WoWPro:TargetNpcId()
+
+    if not qidx then
+        WoWPro:print("%s: No active step.", event)
+        return
+    end
+
+    if WoWProCharDB.AutoTurnin  then
+        -- Match from the top down
+        for i=numActiveQuests,1,-1  do
+            if WoWPro.action[qidx] == "T" and _G.GetActiveTitle(i) == WoWPro.step[qidx] then
+                WoWPro.QuestStep = qidx
+                WoWPro:print("Turning in [%s]",WoWPro.step[qidx])
+                _G.SelectActiveQuest(i)
+                return
+            end
+        end
+    end
+
+    if WoWProCharDB.AutoSelect then
+        WoWPro.QuestCount = numAvailableQuests
+        -- Match from the top down
+        for i=numAvailableQuests,1,-1  do
+            if WoWPro.action[qidx] == "A" then
+                if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
+                    WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event, _G.GetAvailableTitle(i), WoWPro.QuestCount, numAvailableQuests)
+                    WoWPro.QuestCount = numAvailableQuests
+                    WoWPro.QuestStep = qidx
+                    _G.SelectAvailableQuest(i)
+                    WoWPro.QUEST_GREETING(event)
+                    return
+                end
+                -- Look forward up to #numAvailableQuests steps for A steps, so the order does not matter much.
+                for j=0,numAvailableQuests-1 do
+                    if _G.GetAvailableTitle(i) == WoWPro.step[qidx+j] then
+                        WoWPro.QuestStep = qidx+j
+                        WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.", i, event, WoWPro.step[WoWPro.QuestStep])
+                        WoWPro.QuestCount = numAvailableQuests
+                        _G.SelectAvailableQuest(i)
+                        return
+                    end
+                end
+            end
+        end
+        WoWPro.QuestCount = 0
+    end
+end
+
+WoWPro.RegisterEventHandler("QUEST_DETAIL", function(event, ...)
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+        WoWPro.QUEST_DETAIL_PUNTED(event.."_PUNTED")
+        end)
+    end)
+
+function WoWPro.QUEST_DETAIL_PUNTED(event, ...)
+    if not WoWProCharDB.AutoAccept then return; end
+
+    local qidx = WoWPro.QuestStep
+    local questtitle = _G.GetTitleText();
+    local myNPC = WoWPro:TargetNpcId()
+
+    if not qidx then
+        qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+        if not qidx then
+            WoWPro:print("%s: No active step.", event)
+            return
+        end
+        WoWPro:dbp("Searching for %s from %d",questtitle,qidx)
+        for j=0,5 do
+            if (questtitle == WoWPro.step[qidx+j]) and not WoWPro.noauto[qidx+j] then
+                qidx = qidx+j
+                break
+            end
+        end
+    end
+
+    if (WoWPro.action[qidx] == "A") and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*" or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog)) then
+        WoWPro:dbp("Accepted %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
+        if  WoWPro.QID[qidx] == "*" then
+            if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
+                WoWPro:dbp("ZZZT %s %d: Auto Accept wildcard [%s], %d qcount", event, qidx,questtitle,WoWPro.QuestCount)
+            else
+                WoWPro:dbp("ZZZT %s %d: Auto Accept wildcard [%s] REJECT! Expected NPC %s and found %d", event, qidx,questtitle,tostring(WoWPro.NPC[qidx]), myNPC)
+                return
+            end
+        end
+        _G.AcceptQuest()
+        if _G.QuestFrameDetailPanel:IsShown() then
+            _G.HideUIPanel(_G.QuestFrameDetailPanel)
+            _G.QuestFrameDetailPanel:Hide();
+            _G.QuestFrameGreetingPanel:Hide();
+            _G.QuestFrameGreetingPanel:Show();
+        end
+        WoWPro.QuestStep = nil
+    else
+        -- DeclineQuest()
+        WoWPro:dbp("Rejected %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
+    end
+end
+
+WoWPro.RegisterEventHandler("QUEST_PROGRESS", function(event, ...)
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+        WoWPro.QUEST_PROGRESS_PUNTED(event)
+        end)
+    end)
+
+function WoWPro.QUEST_PROGRESS_PUNTED(event, ...)
+    if not WoWProCharDB.AutoTurnin then return; end
+
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    local questtitle = _G.GetTitleText();
+    WoWPro:dbp("Quest is [%s], matching [%s]",tostring(questtitle),tostring(WoWPro.step[qidx]))
+    if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
+        _G.CompleteQuest()
+    end
+end
+
+-- Noting that a quest is being completed for AutoTurnin --
+WoWPro.RegisterEventHandler("QUEST_COMPLETE", function(event, ...)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    local questtitle = _G.GetTitleText();
+    WoWPro:dbp("Quest is [%s], matching %s[%s]",tostring(questtitle),tostring(WoWPro.action[qidx]), tostring(WoWPro.step[qidx]))
+    if WoWProCharDB.AutoTurnin == true and
+       WoWPro.action[qidx] == "T" and
+       questtitle == WoWPro.step[qidx] then
+        if (_G.GetNumQuestChoices() <= 1) then
+            _G.GetQuestReward(1)
+        end
+    end
+    -- Some quests are auto-turnin on accept
+    if WoWProCharDB.AutoAccept == true and
+       WoWPro.action[qidx] == "A" and
+       questtitle == WoWPro.step[qidx] and not WoWPro.noauto[qidx] then
+        if (_G.GetNumQuestChoices() <= 1) then
+            _G.GetQuestReward(1)
+        end
+    end
+    end)
+
+WoWPro.RegisterEventHandler("QUEST_TURNED_IN", function(event, ...)
+    local qid, exp, money = ...
+    WoWPro:dbp("%s(qid=%d,exp=%d,money=%d)",event,qid, exp, money)
+    WoWPro.CompletingQuest = true
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if WoWPro.action[qidx] == "T" and not WoWPro.nocache[qidx] then
+        WoWProCharDB.completedQIDs[qid] = true
+    end
+    WoWPro:AutoCompleteQuestUpdate(qid)
+end)
+
+WoWPro.RegisterEventHandler("QUEST_ACCEPTED", function(event, ...)
+    local qlidx, qid = ...
+    WoWPro:dbp("%s(qidx=%d,qid=%d)",event,qlidx,qid)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    local questtitle = _G.GetTitleText();
+    if WoWProCharDB.AutoTurnin == true and
+       WoWPro.action[qidx] == "A" and
+       questtitle == WoWPro.step[qidx] then
+        WoWPro:AutoCompleteQuestUpdate(nil)
+    end
+end)
+
+-- scan skill lines when they change
+WoWPro.RegisterEventHandler("SKILL_LINES_CHANGED", function(event, ...)
+    WoWPro.UpdateTradeSkills(...)
+end)
+
+-- register newly learned recipes
+WoWPro.RegisterEventHandler("NEW_RECIPE_LEARNED", function(event, ...)
+    WoWPro.LearnRecipe(...)
+end)
+
+-- Auto-Completion --
+WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
+    WoWPro:RecordTaxiLocations(...)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+        if WoWProCharDB.AutoSelect == true then
+            WoWPro.TakeTaxi(WoWPro.step[qidx])
+        else
+            WoWPro:print("TAXIMAP_OPENED: Not trying to travel as AutoSelect is not active.")
+        end
+    end
+end)
+
+WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function(event, ...)
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+        WoWPro.PLAYER_CONTROL_LOST_PUNTED(event)
+    end)
+end)
+
+function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event, ...)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+        if _G.UnitOnTaxi("player") then
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! calling CompleteStep")
+            WoWPro.CompleteStep(qidx,"Took a taxi")
+        else
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: not on taxi!")
+        end
+    end
+end
+
+WoWPro.RegisterEventHandler("CHAT_MSG_SYSTEM", function(event, ...)
+    WoWPro:AutoCompleteSetHearth(...)
+end)
+
+if WoWPro.RETAIL then
+    WoWPro.RegisterEventHandler("QUEST_LOG_CRITERIA_UPDATE", function(event) end)
+end
+
+WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function(event, ...)
+    local delta = WoWPro.PopulateQuestLog()
+    WoWPro:dbp("QUEST_LOG_UPDATE: delta = %d", delta)
+    if delta == 0 then
+        return
+    end
+    if WoWPro.Ready(event) then
+        WoWPro:AutoCompleteQuestUpdate(nil)
+        WoWPro:UpdateGuide(event)
+        if WoWProCharDB.AutoSelect and delta == 1 then
+        -- OK, now get the next quest if QuestCount is set
+            if WoWPro.QuestCount ~= 0 and WoWPro.QuestDialogActive then
+                WoWPro:dbp("ZZZT Faking %s, QuestCount is %d", WoWPro.QuestDialogActive, WoWPro.QuestCount)
+                WoWPro.DelayedEventHandler(WoWPro.EventFrame, WoWPro.QuestDialogActive)
+            end
+        end
+    end
+end)
+
+WoWPro.RegisterEventHandler("UI_INFO_MESSAGE", function(event, ...)
+    WoWPro:AutoCompleteGetFP(event, ...)
+    WoWPro:UpdateGuide(event)
+end)
+
+WoWPro.RegisterEventHandler("PLAYER_TARGET_CHANGED", function(event, ...)
+    WoWPro.NpcCheck(...)
+end)
+
+WoWPro.RegisterEventHandler("PLAYER_DEAD", function(event, ...)
+    WoWPro:AutoCompleteDeath()
+end)
+
+WoWPro.RegisterEventHandler("PLAYER_UNGHOST", function(event, ...)
+    WoWPro:AutoCompleteDeath()
+end)
+
+if WoWPro.RETAIL then
+    WoWPro.RegisterEventHandler("SCENARIO_COMPLETED", function(event, ...)
+        if WoWPro.Scenario then
+            WoWPro:dbp("%s: Scenario %s done.", event, WoWPro.Scenario.name)
+        end
+        WoWPro.Scenario = nil
+        WoWPro.ScenarioFirstStep = nil
+    end)
+end
+
+function WoWPro.DelayedEventHandler(frame,event)
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+        WoWPro.EventHandler(frame,event)
+    end)
 end
 
 
 function WoWPro.EventHandler(frame, event, ...)
-    WoWPro:LogEvent(event,...)
-
-	-- Unlocking event processong after things get settled --
-	if event == "PLAYER_ENTERING_WORLD" or event == "CINEMATIC_STOP" then
-	    WoWPro:print("Setting Timer PEW/CS")
-	    WoWPro.InitLockdown = true
-	    if event == "PLAYER_ENTERING_WORLD" then
-    	    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
-    	    WoWPro.LockdownTimer = 1.5
-    	else
-    	    WoWPro.LockdownCounter = 3  -- times until release and give up to wait for other addons
-    	    WoWPro.LockdownTimer = 0.5
-    	end
-	end
-		
-	-- Locking event processong till after things get settled --
-	if event == "PLAYER_LEAVING_WORLD" or event == "CINEMATIC_START" then
-	    WoWPro:print("Locking Down PLW/CS")
-	    WoWPro.InitLockdown = true
-	end
-	
-	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" or event == "PLAYER_ENTERING_WORLD" then
-	    -- Check to see if the current zone is mapped properly.
-	    WoWPro.CheckAstrolabeData()
-	    WoWPro.SaveGarrisonBuildings()
-	end
-
-	if WoWPro.InitLockdown and event == "QUEST_LOG_UPDATE" then
-	    WoWPro:SendMessage("WoWPro_PuntedQLU")
-	    return
-	end
-	if WoWPro.InitLockdown and event ~= "ZONE_CHANGED_NEW_AREA" then
-	    return
-	end
-	
-	-- Noticing if we are doing a pet battle!
-	local guidetype = "WoWPro"
-	local battleHide = false
-	if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype then
-	    guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
-	    battleHide = not WoWPro.Guides[WoWProDB.char.currentguide].PetBattle
-	end
-	
-	if event == "PET_BATTLE_OPENING_START" and (not WoWPro.Hidden) and battleHide then
-		WoWPro.MainFrame:Hide()
-		WoWPro.Titlebar:Hide()
-		WoWPro.Hidden = true
-		return
-	end
-	if event == "PET_BATTLE_CLOSE" and WoWPro.Hidden then
-		WoWPro.MainFrame:Show()
-		WoWPro.Titlebar:Show()
-		WoWPro.Hidden = nil		
-	end
-	
-	-- Stop processing if no guide is active or something is odd!
-	if not WoWProDB.char.currentguide then return end
-	if not WoWPro.Guides[WoWProDB.char.currentguide] then return end
-	if  not WoWPro.GuideLoaded then
-	    WoWPro:dbp("Suppresssed event processing. Guide %s is not loaded yet!",tostring(WoWProDB.char.currentguide))
-        return 
-	end
-	
-	-- Common event Handling across addons
-	
-	-- Noticing if we have entered a Dungeon!
-	if event == "ZONE_CHANGED_NEW_AREA" and WoWProCharDB.AutoHideInsideInstances == true then
-	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	    if WoWPro.zone[qidx] and WoWPro:IsInstanceZone(WoWPro.zone[qidx]) and IsInInstance() then
-	        WoWPro:Print("|cff33ff33 Suppressing Instance Auto Hide, turn it on after you are done with this guide.|r")
-	        WoWProCharDB.AutoHideWorldEventsInsideInstances = false
-	        return
-	    end
-		if IsInInstance() then
-			WoWPro:Print("|cff33ff33Instance Auto Hide|r: %s Module",guidetype)
-			WoWPro.MainFrame:Hide()
-			WoWPro.Titlebar:Hide()
-			WoWPro.Hidden = true
-			return
-		elseif WoWPro.Hidden == true then
-			WoWPro:Print("|cff33ff33Instance Exit Auto Show|r: %s Module",guidetype)
-			WoWPro.MainFrame:Show()
-			WoWPro.Titlebar:Show()
-			WoWPro.Hidden = nil
-		end
-	end
-
-
-	-- Unlocking guide frame when leaving combat --
-	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_ENTERING_WORLD" then
-		WoWPro:UpdateGuide(event) 
-	end
-	
-	-- Updating party-dependant options --
-	if event == "PARTY_MEMBERS_CHANGED" and not MaybeCombatLockdown() then
-		WoWPro:UpdateGuide(event) 
-	end
-
-	-- Updating WoWPro keybindings --
-	if event == "UPDATE_BINDINGS" and not MaybeCombatLockdown() then
-		WoWPro:UpdateGuide(event) 
-	end
-
-    -- Did we get a buff?
-    if event == "UNIT_AURA" and not MaybeCombatLockdown() then
-        WoWPro:AutoCompleteBuff(...)
+    -- Filter out non-player UNIT_AURA events
+    if event == "UNIT_AURA" then
+         -- Process silently!
+        WoWPro.UNIT_AURA(event, ...)
+        return
     end
-        
-	-- Lets see what quests the NPC has:
-    if event == "GOSSIP_SHOW" and WoWProCharDB.AutoSelect == true then
-        local npcQuests = {GetGossipAvailableQuests()};
-        local npcCount = GetNumGossipAvailableQuests();
-        local index = 0
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local myNPC = WoWPro:TargetNpcId()
-        for _,item in pairs(npcQuests) do
-            if type(item) == "string" then
-                index = index + 1
-                WoWPro:dbp("ZT: GOSSIP_SHOW index %d/%d, considering [%s]",index,npcCount,item)
-                if WoWPro.action[qidx] == "A" then
-    		        if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-    		            WoWPro:dbp("ZZZT %d: GOSSIP_SHOW Inhale %s, prev qcount was %d, new is %d",qidx,item, WoWPro.qcount[qidx], npcCount)
-    	                WoWPro.qcount[qidx] = npcCount
-    		            SelectGossipAvailableQuest(index)
-    		            return
-    		        end
-    		        if WoWPro.action[qidx] == "A" and item == WoWPro.step[qidx] then
-    		            WoWPro:dbp("ZZZT %d: GOSSIP_SHOW Name matches [%s], selecting.",index,item)
-    		            SelectGossipAvailableQuest(index)
-    		        end
-    		    end
-            end
-        end
-        npcQuests =  {GetGossipActiveQuests()};
-        index = 0 
-        for _,item in pairs(npcQuests) do
-            if type(item) == "string" then
-                index = index + 1       
-		        if WoWPro.action[qidx] == "T" and item == WoWPro.step[qidx] then
-		            SelectGossipActiveQuest(index)
-		            return
-		        end
-            end
+
+    -- Init Lockdown events are processed unconditionally and first.
+    if WoWPro.InitLockdownEvents[event] then
+        WoWPro:LogEvent("ILE:"..event, ...)
+        WoWPro[event](event, ...)
+    else
+        if WoWPro[event] then
+            WoWPro:LogEvent("Handled: "..event, ...)
+        else
+            WoWPro:LogEvent(event, ...)
         end
     end
-    
-    if event == "QUEST_GREETING" and WoWProCharDB.AutoSelect == true then
-        local numAvailableQuests = GetNumAvailableQuests()
-        local numActiveQuests = GetNumActiveQuests()
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local myNPC = WoWPro:TargetNpcId()
-        for i=1, numActiveQuests do
-            if WoWPro.action[qidx] == "T" and GetActiveTitle(i) == WoWPro.step[qidx] then
-		        SelectActiveQuest(i)
-		        return
-		    end
-		end
-        for i=1, numAvailableQuests do
-            if WoWPro.action[qidx] == "A" then
-                if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Inhale %s, prev qcount was %d, new is %d",qidx, GetAvailableTitle(i), WoWPro.qcount[qidx], -numAvailableQuests)
-	                WoWPro.qcount[qidx] = -numAvailableQuests
-		            SelectGossipAvailableQuest(i)
-		            return
-                end
-                if GetAvailableTitle(i) == WoWPro.step[qidx] then
-                    WoWPro:dbp("ZZZT %d: QUEST_GREETING Name matches [%s], selecting.", i, WoWPro.step[qidx])
-		            SelectAvailableQuest(i)
-		            return
-		        end
-		    end
-		end
+
+    -- debug
+    if WoWPro.QuestDialogActive == "QUEST_GREETING" then
+        local numAvailableQuests = _G.GetNumAvailableQuests()
+        local numActiveQuests = _G.GetNumActiveQuests()
+        WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
-    
-    if event == "QUEST_DETAIL" and WoWProCharDB.AutoAccept == true then
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local questtitle = GetTitleText();
-        local myNPC = WoWPro:TargetNpcId()
-        WoWPro:dbp("ZZZT %d: QUEST_DETAIL [%s], QID %s",qidx,questtitle,tostring(WoWPro.QID[qidx]))
-		if WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*") then
-		    if  WoWPro.QID[qidx] == "*" then
-		        if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-    		        WoWPro:dbp("ZZZT %d: Auto Accept wildcard [%s], %d qcount",qidx,questtitle,WoWPro.qcount[qidx])
-    		        WoWPro.qcount[qidx] = WoWPro.qcount[qidx] or 0
-    		    else
-    		        WoWPro:dbp("ZZZT %d: Auto Accept wildcard [%s] REJECT! Expected NPC %s and found %d",qidx,questtitle,tostring(WoWPro.NPC[qidx]), myNPC)
-    		        return
-    		    end
-		    end
-		    AcceptQuest()
-		    if WoWPro.QID[qidx] == "*" and WoWProCharDB.AutoSelect then
-    		    -- OK, now get the next quest if qcount is set
-    		    if WoWPro.qcount[qidx] ~= 0  then
-    		        if  WoWPro.qcount[qidx] > 1 then
-        		        WoWPro:dbp("ZZZT %d Faking GOSSIP_SHOW, qcount is %d",qidx, WoWPro.qcount[qidx])
-        		        WoWPro.EventHandler(frame,"GOSSIP_SHOW")
-        		        return
-        		    end
-        		    if WoWPro.qcount[qidx] < 1 then
-        		        WoWPro:dbp("ZZZT %d Faking QUEST_GREETING, qcount is %d",qidx, WoWPro.qcount[qidx])
-        		        WoWPro.EventHandler(frame,"QUEST_GREETING")
-        		        return
-        		    end        		            		    
-                    -- We accepted the last quest.
-                    WoWPro:dbp("ZZZT: Suck done, finishing %d",qidx)
-                    WoWPro.CompleteStep(qidx, "QUEST_DETAIL: A*")
-                end
-    		end
-		end
+    if WoWPro.QuestDialogActive == "GOSSIP_SHOW" then
+        local numAvailableQuests = WoWPro.GossipInfo_GetNumAvailableQuests()
+        local numActiveQuests = WoWPro.GossipInfo_GetNumActiveQuests()
+        WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
 
-
-    if event == "QUEST_PROGRESS" and WoWProCharDB.AutoTurnin == true then
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local questtitle = GetTitleText();
-        WoWPro:dbp("Quest is [%s], matching [%s]",tostring(questtitle),tostring(WoWPro.step[qidx]))
-		if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
-		    CompleteQuest()
-		end  
+    if WoWPro.InitLockdown and event == "QUEST_LOG_UPDATE" then
+        WoWPro:SendMessage("WoWPro_PuntedQLU")
+        return
     end
 
-    -- Noting that a quest is being completed for AutoTurnin --
-	if event == "QUEST_COMPLETE" then
-	    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-        local questtitle = GetTitleText();
-		if WoWProCharDB.AutoTurnin == true and (WoWPro.action[qidx] == "T" or WoWPro.action[qidx] == "A") and questtitle == WoWPro.step[qidx] then
-		    if (GetNumQuestChoices() <= 1) then
-		        GetQuestReward(1)
-		    end
+    if WoWPro.InitLockdown or WoWPro.InitLockdownEvents[event] then
+        -- Stop processing during init lockdown or if event already processed.
+        return
+    end
+
+    -- Stop processing if no guide is active or something is odd!
+    if not WoWPro.Ready("EventHandler:"..event) then
+        return
+    end
+
+    if WoWPro[event] then
+        WoWPro[event](event, ...)
+    end
+
+    -- Module Event Handlers --
+    for name, module in WoWPro:IterateModules() do
+        local guidetype = "WoWPro"
+        if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
+            guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
         end
-	end
-	
-	if event == "QUEST_TURNED_IN" or event == "QUEST_ACCEPTED" then
-	    local qlidx, qid = ...
-	    WoWPro:dbp("%s(%s,%s)",event,qlidx,qid)
-	    if event == "QUEST_TURNED_IN" then
-        	WoWPro.CompletingQuest = true
-        	WoWProCharDB.completedQIDs[qlidx] = true
-        	WoWPro:AutoCompleteQuestUpdate(qlidx)	    
-	    end
-	end
-	    
-	if event == "TRADE_SKILL_SHOW" then
-	    WoWPro:ScanTrade()
+
+        if WoWPro[name].EventHandler and guidetype == name then
+            WoWPro:dbp("Now calling event handler for %s", name)
+            WoWPro[name]:EventHandler(event, ...)
+        end
     end
-
-	-- Auto-Completion --
-	if event == "TAXIMAP_OPENED" then
-		WoWPro:RecordTaxiLocations(...)
-		local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-		if WoWPro.action[qidx] == "F" and WoWProCharDB.AutoAccept == true then
-		    WoWPro:TakeTaxi(qidx,WoWPro.step[qidx])   
-		end
-	end
-	if event == "CHAT_MSG_SYSTEM" then
-		WoWPro:AutoCompleteSetHearth(...)
-	end	
-	if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "MINIMAP_ZONE_CHANGED" or event == "ZONE_CHANGED_NEW_AREA" then
-		WoWPro:AutoCompleteZone(...)
-	end
-	if event == "QUEST_LOG_UPDATE" then
-		WoWPro:PopulateQuestLog()
-		WoWPro:AutoCompleteQuestUpdate(nil)
-		WoWPro:UpdateQuestTracker()
-		WoWPro:UpdateGuide(event)
-		if WoWPro.Recorder then
-	        WoWPro:SendMessage("WoWPro_PostQuestLogUpdate")
-	    end
-	end
-
-	if event == "UI_INFO_MESSAGE" then
-		WoWPro:AutoCompleteGetFP(...)
-	end
-	if event == "GOSSIP_SHOW" then
-	    WoWPro.GossipText = strupper(GetGossipText())
-	    WoWPro:dbp("GetGossipText: %s",WoWPro.GossipText)
-	    WoWPro:UpdateGuide(event)
-	end
-	if event == "GOSSIP_CLOSED" then
-	    WoWPro.GossipText = nil
-	end
-	
-	-- Module Event Handlers --
-	for name, module in WoWPro:IterateModules() do
-		if WoWPro[name].EventHandler 
-		and WoWProDB.char.currentguide 
-		and WoWPro.Guides[WoWProDB.char.currentguide]
-		and guidetype == name 
-		then WoWPro[name]:EventHandler(frame, event, ...) end
-	end
-	
-
 end
 
 function WoWPro.PuntedQLU()

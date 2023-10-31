@@ -1,46 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
--- Date: 2014-07-06 15:49
--- Who: Ludovicus
--- Log: Guide levels
-
--- URL: http://wow-pro.com/node/3419/revisions/26531/view
--- Date: 2014-06-11 19:19
--- Who: Ludovicus
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3419/revisions/25708/view
--- Date: 2013-06-18 00:38
--- Who: Ludovicus
--- Log: quest 26710's name [Lost In the Deeps] does not match Grail's database [Lost In The Deeps]
-
--- URL: http://wow-pro.com/node/3419/revisions/25637/view
--- Date: 2013-05-14 18:50
--- Who: Ludovicus
--- Log: [Lost In The Deeps] not [Lost in The Deeps]
-
--- URL: http://wow-pro.com/node/3419/revisions/25419/view
--- Date: 2013-01-13 14:53
--- Who: Ludovicus
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3419/revisions/24987/view
--- Date: 2012-05-27 18:40
--- Who: Ludovicus
--- Log: Added REP tags, a few coord fixes and redirected a quest to the right NPC.
-
--- URL: http://wow-pro.com/node/3419/revisions/24678/view
--- Date: 2011-07-11 22:39
--- Who: Ludovicus
--- Log: Removing REP tag.
-
--- URL: http://wow-pro.com/node/3419/revisions/24651/view
--- Date: 2011-06-30 19:13
--- Who: Ludovicus
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("JiyDeeTher",'Dailies', "Deepholm", "Jiyambi", "Neutral")
 WoWPro:GuideLevels(guide,81,81,81)
@@ -52,15 +13,15 @@ N Deepholm Quests|QID|26709|N|You must have completed the quests in Deepholm in 
 
 R Therazane's Throne|M|49.27,50.33|N|Take the portal from your capital city to Deepholm, then take the portal from the center of Deepholm to Therazane's Throne.|
 
-A Fear of Boring|QID|27046|M|56.08,14.39|N|From Felsen the Enduring.|
-A Motes|QID|27047|M|56.08,14.39|N|From Felsen the Enduring.|
-A Beneath the Surface|QID|28488|M|56.08,14.39|N|From Felsen the Enduring. If he does not have it, right-click this step to skip it. Maybe you will get "Lost" or "Underground"|
-A Lost In The Deeps|QID|26710|M|55.35,14.17|N|From Pyrite Stonetender. If he does not have it, right-click this step to skip it, and you will get "Underground economy" in the Depths.|
-A The Restless Brood|QID|28391;28390|M|55.07,13.61|REP|Therazane;1171;revered|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it.|
-A Soft Rock|QID|27049|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
-A Fungal Fury|QID|27050|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
-A Through Persistence|QID|27051|M|59.60,14.05|N|From Ruberick.|
-A Glop, Son of Glop|QID|28391;28390|M|59.60,14.05|REP|Therazane;1171;revered|N|From Ruberick.|
+A Fear of Boring|QID|27046|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring.|
+A Motes|QID|27047|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring.|
+A Beneath the Surface|QID|28488|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring. If he does not have it, right-click this step to skip it. Maybe you will get "Lost" or "Underground"|
+A Lost In The Deeps|QID|26710|PRE|26709|M|55.35,14.17|N|From Pyrite Stonetender. If he does not have it, right-click this step to skip it, and you will get "Underground economy" in the Depths.|
+A The Restless Brood|QID|28391^28390|M|55.07,13.61|REP|Therazane;1171;revered|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it.|
+A Soft Rock|QID|27049|PRE|26709|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
+A Fungal Fury|QID|27050|PRE|26709|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
+A Through Persistence|QID|27051|PRE|26709|M|59.60,14.05|N|From Ruberick.|
+A Glop, Son of Glop|QID|28391^28390|M|59.60,14.05|REP|Therazane;1171;revered|N|From Ruberick.|
 
 C The Restless Brood|QID|28391|U|60266|M|32.83,24.78|N|Use the mallet on the crystal. Click the rocks above you to hop from rock to rock. Move to a new rock when the Broodmother breathes fire on your rock. If you see a nearby rock with a glowing bubble on it, move there. If you complete this quest in under 90 seconds, you will get an achievement. The timer starts from when you hit the resonating crystal and ends when you actually turn the quest in.|
 T The Restless Brood|QID|28391|M|39.98,19.37|N|To Terrath the Steady. Hurry if you are going for the achievement.|
@@ -68,12 +29,12 @@ T The Restless Brood|QID|28391|M|39.98,19.37|N|To Terrath the Steady. Hurry if y
 F Crumbling Depths|QID|27047|M|58.46,25.57;61.32,29.20|CC|N|Head into the cave.|
 C Fear of Boring|QID|27046|S|M|58.35,25.56|N|Kill gyreworms in and around the Crumbling Depths.|
 C Motes|QID|27047|NC|S|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
-A Underground Economy|QID|27048;28488;26710|M|61.38,26.16|N|From Ricket.|
+A Underground Economy|QID|27048^28488^26710|M|61.38,26.16|N|From Ricket.|
 C Beneath the Surface|QID|28488|M|58.46,25.57;61.32,29.20;66.07,28.13;59.80,23.63;64.40,15.11;68.23,21.67;67.08,24.65|CN|N|These are found in side tunnels.  Look on your minimap for a skull. When you find one, click it and kill the worm that appears, being sure to dodge it's attacks. Loot it when you are done.|
-C Deep Alabaster Crystal|QID|27048|NC|QO|Deep Alabaster Crystal: 3/3|N|Head to the center chamber. Use your bombs on the large square blocks of white stone.|M|63.43,24.83|
-C Deep Celestite Crystal|QID|27048|NC|QO|Deep Celestite Crystal: 3/3|N|Use your bombs on the large square blocks of blue stone.|M|62.16,19.63|
-C Deep Amethyst Crystal|QID|27048|NC|QO|Deep Amethyst Crystal: 3/3|N|Use your bombs on the large square blocks of purple stone|M|64.68,18.17|
-C Deep Garnet Crystal|QID|27048|NC|QO|Deep Garnet Crystal: 3/3|N|Use your bombs on the large square blocks of red stone. Watch out for the large named spider, Amthea.|M|66.13,20.73|
+C Deep Alabaster Crystal|QID|27048|NC|QO|1|N|Head to the center chamber. Use your bombs on the large square blocks of white stone.|M|63.43,24.83|
+C Deep Celestite Crystal|QID|27048|NC|QO|2|N|Use your bombs on the large square blocks of blue stone.|M|62.16,19.63|
+C Deep Amethyst Crystal|QID|27048|NC|QO|3|N|Use your bombs on the large square blocks of purple stone|M|64.68,18.17|
+C Deep Garnet Crystal|QID|27048|NC|QO|4|N|Use your bombs on the large square blocks of red stone. Watch out for the large named spider, Amthea.|M|66.13,20.73|
 C Motes|QID|27047|NC|US|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
 C Fear of Boring|QID|27046|US|M|58.35,25.56|N|Kill gyreworms in and arround the Crumbling Depths.|
 T Underground Economy|QID|27048|M|61.38,26.13|N|To Ricket.|
@@ -103,3 +64,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 ]]
 
 end)
+
+
+

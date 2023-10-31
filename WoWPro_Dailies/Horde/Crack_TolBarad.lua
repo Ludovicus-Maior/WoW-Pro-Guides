@@ -1,73 +1,10 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
--- Date: 2014-11-06 18:24
--- Who: Fluclo
--- Log: Added missing |N| tag
-
--- URL: http://wow-pro.com/node/3416/revisions/26633/view
--- Date: 2014-07-26 00:35
--- Who: Ludovicus
--- Log: OOps, wrong faction
-
--- URL: http://wow-pro.com/node/3416/revisions/26589/view
--- Date: 2014-07-25 19:04
--- Who: Ludovicus
--- Log: Whoops!   Copied over the alliance version by accident.
-
--- URL: http://wow-pro.com/node/3416/revisions/26511/view
--- Date: 2014-06-10 23:15
--- Who: Ludovicus
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3416/revisions/25717/view
--- Date: 2013-06-18 00:57
--- Who: Ludovicus
--- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
-
--- URL: http://wow-pro.com/node/3416/revisions/25675/view
--- Date: 2013-05-17 20:46
--- Who: Ludovicus
--- Log: Watch Out For Splinters!
-
--- URL: http://wow-pro.com/node/3416/revisions/25484/view
--- Date: 2013-01-13 19:56
--- Who: Ludovicus
--- Log: Spell Orgrimmar right again.
-
--- URL: http://wow-pro.com/node/3416/revisions/25452/view
--- Date: 2013-01-13 17:49
--- Who: Ludovicus
--- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
-
--- URL: http://wow-pro.com/node/3416/revisions/25451/view
--- Date: 2013-01-13 17:48
--- Who: Ludovicus
--- Log: Malformed coords!
-
--- URL: http://wow-pro.com/node/3416/revisions/25293/view
--- Date: 2013-01-09 01:43
--- Who: Ludovicus
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3416/revisions/24879/view
--- Date: 2011-12-29 02:26
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3416/revisions/24878/view
--- Date: 2011-12-29 02:25
--- Who: Crackerhead22
--- Log: Split Tol Barad Peninsula and Tol Barad guides.
-
--- URL: http://wow-pro.com/node/3416/revisions/24648/view
--- Date: 2011-06-30 19:05
--- Who: Ludovicus
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraToBarH",'Dailies', "Tol Barad", "Crackerhead22", "Horde")
-WoWPro:GuideLevels(guide,1,85,90)
+WoWPro:GuideLevels(guide ,35,60)
 WoWPro.Dailies:GuideFaction(guide,1178) --  "Hellscream's Reach"
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -80,7 +17,7 @@ A A Huge Problem|QID|28657|M|51,49.4|N|From Commander Zanoth.|
 A Swamp Bait|QID|28658|M|51,49.4|N|From Commander Zanoth.|
 A The Leftovers|QID|28659|M|51,49.4|N|From Commander Zanoth.|
 
-A Accept all quests|M|51.8,49.6|N|From either Private Garnoth, Staff Sergeant Lazgar or Drillmaster Razgoth.|QID|28661;28662;28660;28669;28668;28670;28664;28663;28665|
+A Accept all quests|M|51.8,49.6|N|From either Private Garnoth, Staff Sergeant Lazgar or Drillmaster Razgoth.|QID|28661^28662^28660^28669^28668^28670^28664^28663^28665|
 
 C A Huge Problem|QID|28657|M|30.9,45.2;38.4,61.7;50.6,58.2;61.7,57.8;62,43.8;57.6,35.3;41,33.9|CN|N|Find and kill Problim. If someone else is attacking him, help out as you will get the completion as well.|T|Problim|
 
@@ -130,3 +67,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 
 ]]
 end)
+
+
+

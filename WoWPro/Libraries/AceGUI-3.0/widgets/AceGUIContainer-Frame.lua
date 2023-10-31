@@ -1,7 +1,7 @@
 --[[-----------------------------------------------------------------------------
 Frame Container
 -------------------------------------------------------------------------------]]
-local Type, Version = "Frame", 24
+local Type, Version = "Frame", 30
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
@@ -13,16 +13,16 @@ local wipe = table.wipe
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
 
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: CLOSE
-
 --[[-----------------------------------------------------------------------------
 Scripts
 -------------------------------------------------------------------------------]]
 local function Button_OnClick(frame)
-	PlaySound("gsTitleOptionExit")
+	PlaySound(799) -- SOUNDKIT.GS_TITLE_OPTION_EXIT
 	frame.obj:Hide()
+end
+
+local function Frame_OnShow(frame)
+	frame.obj:Fire("OnShow")
 end
 
 local function Frame_OnClose(frame)
@@ -79,6 +79,7 @@ local methods = {
 	["OnAcquire"] = function(self)
 		self.frame:SetParent(UIParent)
 		self.frame:SetFrameStrata("FULLSCREEN_DIALOG")
+		self.frame:SetFrameLevel(100) -- Lots of room to draw under it
 		self:SetTitle()
 		self:SetStatusText()
 		self:ApplyStatus()
@@ -175,17 +176,23 @@ local PaneBackdrop  = {
 }
 
 local function Constructor()
-	local frame = CreateFrame("Frame", nil, UIParent)
+	local frame = CreateFrame("Frame", nil, UIParent, "BackdropTemplate")
 	frame:Hide()
 
 	frame:EnableMouse(true)
 	frame:SetMovable(true)
 	frame:SetResizable(true)
 	frame:SetFrameStrata("FULLSCREEN_DIALOG")
+	frame:SetFrameLevel(100) -- Lots of room to draw under it
 	frame:SetBackdrop(FrameBackdrop)
 	frame:SetBackdropColor(0, 0, 0, 1)
-	frame:SetMinResize(400, 200)
+	if frame.SetResizeBounds then -- WoW 10.0
+		frame:SetResizeBounds(400, 200)
+	else
+		frame:SetMinResize(400, 200)
+	end
 	frame:SetToplevel(true)
+	frame:SetScript("OnShow", Frame_OnShow)
 	frame:SetScript("OnHide", Frame_OnClose)
 	frame:SetScript("OnMouseDown", Frame_OnMouseDown)
 
@@ -196,7 +203,7 @@ local function Constructor()
 	closebutton:SetWidth(100)
 	closebutton:SetText(CLOSE)
 
-	local statusbg = CreateFrame("Button", nil, frame)
+	local statusbg = CreateFrame("Button", nil, frame, "BackdropTemplate")
 	statusbg:SetPoint("BOTTOMLEFT", 15, 15)
 	statusbg:SetPoint("BOTTOMRIGHT", -132, 15)
 	statusbg:SetHeight(24)
@@ -214,7 +221,7 @@ local function Constructor()
 	statustext:SetText("")
 
 	local titlebg = frame:CreateTexture(nil, "OVERLAY")
-	titlebg:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Header")
+	titlebg:SetTexture(131080) -- Interface\\DialogFrame\\UI-DialogBox-Header
 	titlebg:SetTexCoord(0.31, 0.67, 0, 0.63)
 	titlebg:SetPoint("TOP", 0, 12)
 	titlebg:SetWidth(100)
@@ -230,14 +237,14 @@ local function Constructor()
 	titletext:SetPoint("TOP", titlebg, "TOP", 0, -14)
 
 	local titlebg_l = frame:CreateTexture(nil, "OVERLAY")
-	titlebg_l:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Header")
+	titlebg_l:SetTexture(131080) -- Interface\\DialogFrame\\UI-DialogBox-Header
 	titlebg_l:SetTexCoord(0.21, 0.31, 0, 0.63)
 	titlebg_l:SetPoint("RIGHT", titlebg, "LEFT")
 	titlebg_l:SetWidth(30)
 	titlebg_l:SetHeight(40)
 
 	local titlebg_r = frame:CreateTexture(nil, "OVERLAY")
-	titlebg_r:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Header")
+	titlebg_r:SetTexture(131080) -- Interface\\DialogFrame\\UI-DialogBox-Header
 	titlebg_r:SetTexCoord(0.67, 0.77, 0, 0.63)
 	titlebg_r:SetPoint("LEFT", titlebg, "RIGHT")
 	titlebg_r:SetWidth(30)
@@ -255,7 +262,7 @@ local function Constructor()
 	line1:SetWidth(14)
 	line1:SetHeight(14)
 	line1:SetPoint("BOTTOMRIGHT", -8, 8)
-	line1:SetTexture("Interface\\Tooltips\\UI-Tooltip-Border")
+	line1:SetTexture(137057) -- Interface\\Tooltips\\UI-Tooltip-Border
 	local x = 0.1 * 14/17
 	line1:SetTexCoord(0.05 - x, 0.5, 0.05, 0.5 + x, 0.05, 0.5 - x, 0.5 + x, 0.5)
 
@@ -263,8 +270,8 @@ local function Constructor()
 	line2:SetWidth(8)
 	line2:SetHeight(8)
 	line2:SetPoint("BOTTOMRIGHT", -8, 8)
-	line2:SetTexture("Interface\\Tooltips\\UI-Tooltip-Border")
-	local x = 0.1 * 8/17
+	line2:SetTexture(137057) -- Interface\\Tooltips\\UI-Tooltip-Border
+	x = 0.1 * 8/17
 	line2:SetTexCoord(0.05 - x, 0.5, 0.05, 0.5 + x, 0.05, 0.5 - x, 0.5 + x, 0.5)
 
 	local sizer_s = CreateFrame("Frame", nil, frame)

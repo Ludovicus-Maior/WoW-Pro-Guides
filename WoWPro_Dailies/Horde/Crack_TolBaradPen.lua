@@ -1,82 +1,19 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
--- Date: 2014-11-06 18:24
--- Who: Fluclo
--- Log: Added missing |N| tag
-
--- URL: http://wow-pro.com/node/3416/revisions/26633/view
--- Date: 2014-07-26 00:35
--- Who: Ludovicus
--- Log: OOps, wrong faction
-
--- URL: http://wow-pro.com/node/3416/revisions/26589/view
--- Date: 2014-07-25 19:04
--- Who: Ludovicus
--- Log: Whoops!   Copied over the alliance version by accident.
-
--- URL: http://wow-pro.com/node/3416/revisions/26511/view
--- Date: 2014-06-10 23:15
--- Who: Ludovicus
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3416/revisions/25717/view
--- Date: 2013-06-18 00:57
--- Who: Ludovicus
--- Log: quest 28665's name [Cursed Shackels] does not match Grail's database [Cursed Shackles].
-
--- URL: http://wow-pro.com/node/3416/revisions/25675/view
--- Date: 2013-05-17 20:46
--- Who: Ludovicus
--- Log: Watch Out For Splinters!
-
--- URL: http://wow-pro.com/node/3416/revisions/25484/view
--- Date: 2013-01-13 19:56
--- Who: Ludovicus
--- Log: Spell Orgrimmar right again.
-
--- URL: http://wow-pro.com/node/3416/revisions/25452/view
--- Date: 2013-01-13 17:49
--- Who: Ludovicus
--- Log: Spell Orgrimmar right and use ,'s to separate coords instead of ;'s!
-
--- URL: http://wow-pro.com/node/3416/revisions/25451/view
--- Date: 2013-01-13 17:48
--- Who: Ludovicus
--- Log: Malformed coords!
-
--- URL: http://wow-pro.com/node/3416/revisions/25293/view
--- Date: 2013-01-09 01:43
--- Who: Ludovicus
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3416/revisions/24879/view
--- Date: 2011-12-29 02:26
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3416/revisions/24878/view
--- Date: 2011-12-29 02:25
--- Who: Crackerhead22
--- Log: Split Tol Barad Peninsula and Tol Barad guides.
-
--- URL: http://wow-pro.com/node/3416/revisions/24648/view
--- Date: 2011-06-30 19:05
--- Who: Ludovicus
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CraToBarPH",'Dailies', "Tol Barad Peninsula", "Crackerhead22", "Horde")
-WoWPro:GuideLevels(guide,1,85,90)
+WoWPro:GuideLevels(guide ,35,60)
 WoWPro.Dailies:GuideFaction(guide,1178) --  "Hellscream's Reach"
 WoWPro:GuideSteps(guide, function()
 return [[
 R Tol Barad Peninsula|M|47.41,39.3|Z|Orgrimmar|N|Click on the Portal to Tol Barad in Orgrimmar.|
 
-A Commander Larmash's Quests|M|53.6,80.6|N|Grab any and all quests from Commander Larmash. This step will close when you pick up the first quest.|QID|28696;28698;28697;28700;28695;28694|
-A Captain Prug's Quests|M|55,79.2|N|Grab any and all quests from Captain Prug. This step will close when you pick up the first quest.|QID|28682;28685;28686;28687;28721|
-A Prvate Sarlosk's Quests|M|55.6,78.6|N|Grab any and all quests from Prvate Sarlosk. This step will close when you pick up the first quest.|QID|28684;28680;28678;28679;28681;28683|
-A 3rd Officer Kronkar's Quests|M|55.2,81|N|Grab any and all quests from 3rd Officer Kronkar. This step will close when you pick up the first quest.|QID|28693;28691;28692;28690;28689|
+A Commander Larmash's Quests|M|53.6,80.6|N|Grab any and all quests from Commander Larmash. This step will close when you pick up the first quest.|QID|28696^28698^28697^28700^28695^28694|
+A Captain Prug's Quests|M|55,79.2|N|Grab any and all quests from Captain Prug. This step will close when you pick up the first quest.|QID|28682^28685^28686^28687^28721|
+A Prvate Sarlosk's Quests|M|55.6,78.6|N|Grab any and all quests from Prvate Sarlosk. This step will close when you pick up the first quest.|QID|28684^28680^28678^28679^28681^28683|
+A 3rd Officer Kronkar's Quests|M|55.2,81|N|Grab any and all quests from 3rd Officer Kronkar. This step will close when you pick up the first quest.|QID|28693^28691^28692^28690^28689|
 
 C Salvaging the Remains|QID|28690|M|36.2,79.4|N|Kill and loot Ghouls at Forgotten Hill until you have 9 Cursed Femurs.|
 C The Forgotten|QID|28689|M|36.2,79.4|N|Click on the sparkling gravestones. When you click on one, an Angry Spirit will appear.|
@@ -91,14 +28,14 @@ C Bombs Away!|QID|28696|M|22,47.1|N|Click on a cannon, use Ability #1, aim with 
 
 C Leave No Weapon Behind|QID|28685|M|39.6,34.3|N|Loot 12 Rusty Rifles from the Racks of Rifles.|
 C Claiming The Keep|QID|28682|M|35.5,27.3|N|Head upstairs in the keep and kill Keep Lord Farson.|
-C Walk A Mile In Their Shoes|QID|28721|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.
+C Walk A Mile In Their Shoes|QID|28721|M|35.5,27.3|N|Head into the basement. Talk to one of the Alliance Farson Prisoners, and escort them out of the keep.|
 
 C Rattling Their Cages|QID|28679|M|44.5,27.1|N|Kill 8 Shipwecked Sailors.|
 C Shark Tank|QID|28681|M|49.3,20.9|T|Tank|N|Find and kill Tank. He is a level 85 elite, so you may need help.|
 C Boosting Morale|QID|28680|M|49.3,20.9|N|Loot 6 Barrels of Southsea Rum. Watch out for Tank, he is a level 85 elite.|
 C Captain P. Harris|QID|28678|M|48,7.9|N|Find and kill Captain P. Harris.|T|Captain P. Harris|
 
-C Not The Friendlist Town|QID|28686|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
+C Not The Friendliest Town|QID|28686|M|67.6,34.7|N|Kill 14 villagers in Rustberg Village.|
 C Teach A Man To Fish.... Or Steal|QID|28687|M|68.2,23.3|N|You can loot the Seabass from the Rustberg Fisherman or from Strings of Fish.|
 
 C Ghostbuster|QID|28697|M|79,50|N|Kill 14 ghosts of any type.|
@@ -138,3 +75,6 @@ N End of Guide|N|You've reached the end of the guide! This guide will automatica
 
 ]]
 end)
+
+
+

@@ -1,62 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/timeless_isle
--- Date: 2014-11-08 00:21
--- Who: Ludovicus
--- Log: Removed rogue N tag
-
--- URL: http://wow-pro.com/node/3561/revisions/26637/view
--- Date: 2014-07-26 22:26
--- Who: Ludovicus
--- Log: Play through as horde!
-
--- URL: http://wow-pro.com/node/3561/revisions/26566/view
--- Date: 2014-07-06 15:51
--- Who: Ludovicus
--- Log: Added levels
-
--- URL: http://wow-pro.com/node/3561/revisions/26533/view
--- Date: 2014-06-11 19:21
--- Who: Ludovicus
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3561/revisions/25942/view
--- Date: 2014-04-21 18:34
--- Who: Ludovicus
--- Log: Re-arrange quests a bit.
-
--- URL: http://wow-pro.com/node/3561/revisions/25922/view
--- Date: 2014-03-17 20:14
--- Who: Ludovicus
--- Log: Change zone to Temple of the Jade Serpent@EastTemple
-
--- URL: http://wow-pro.com/node/3561/revisions/25901/view
--- Date: 2014-02-14 02:55
--- Who: Ludovicus
--- Log: Oops!
-
--- URL: http://wow-pro.com/node/3561/revisions/25877/view
--- Date: 2014-02-13 16:51
--- Who: Ludovicus
--- Log: Cleanup coords, flow.  Spend too much time here.
-
--- URL: http://wow-pro.com/node/3561/revisions/25869/view
--- Date: 2014-01-13 22:42
--- Who: Ludovicus
--- Log: Ahem, bad coords.
-
--- URL: http://wow-pro.com/node/3561/revisions/25866/view
--- Date: 2014-01-12 20:57
--- Who: Ludovicus
--- Log: Break out the chests into another guide and make it useful!
-
--- URL: http://wow-pro.com/node/3561/revisions/25864/view
--- Date: 2014-01-02 04:14
--- Who: Ludovicus
--- Log: Initial Draft.  Missing many C steps.  Order is awful till I play through it.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoTimeless",'Dailies', "Timeless Isle", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,90,90,90)
@@ -68,7 +13,7 @@ return [[
 ; Intro quests to Timeless Isle -- Alliance
 N Reccomendations|QID|33229|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
 T A Flash of Bronze...|QID|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|To Chromie, at the Mogu'Shan Palace upper level.|
-A Journey to the Timeless Isle|QID|33231|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Chromie|
+A Journey to the Timeless Isle|QID|33231|LEAD|33160|PRE|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Chromie|
 R Timeless Isle|QID|33231|M|23.27,70.84|U|104113|FACTION|Alliance|N|Use watch and get wisked away!|
 f Tushui Landing|QID|33231|M|23.07,71.04|FACTION|Alliance|N|Michi Windblossom is the flightmaster|
 T Journey to the Timeless Isle|QID|33231|M|23.12,71.65|FACTION|Alliance|N|To Watcher Lara.|
@@ -78,27 +23,27 @@ T Time Keeper Kairoz|QID|33160|M|34.54,53.63|FACTION|Alliance|N|To Kairoz.|
 ; Intro quests to Timeless Isle -- Horde
 N Reccomendations|QID|33230|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
 T A Flash of Bronze...|QID|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|To Chromie, at the Mogu'Shan Palace upper level.|
-A Journey to the Timeless Isle|QID|33232|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
+A Journey to the Timeless Isle|QID|33232|LEAD|33156|PRE|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
 R Timeless Isle|QID|33232|M|21.8,39.8|U|104110|FACTION|Horde|N|Use watch and get wisked away!|
 f Huojin Landing|QID|33232|M|21.92,39.75|FACTION|Horde|N|Chi-Ro the Skytamer is the flightmaster|
 T Journey to the Timeless Isle|QID|33232|M|22.01,40.93|FACTION|Horde|N|To Watcher Alundra.|
 A Time Keeper Kairoz|QID|33156|M|22.01,40.93|FACTION|Horde|N|From Watcher Alundra.|
 
-T Time Keeper Kairoz|QID|33156;33160|M|34.54,53.63|N|To Kairoz.|
+T Time Keeper Kairoz|QID|33156^33160|M|34.54,53.63|N|To Kairoz.|
 
-A Time In Your Hands|QID|33228|M|34.54,53.63|PRE|33156;33160|N|From Kairoz.|
-A A Timeless Tour|QID|33161|M|34.54,53.63|PRE|33156;33160|N|From Kairoz.|
-C Meet Meet Mistweaver Ai|QID|33228|M|42.69,55.72|QO|Meet Mistweaver Ai: 1/1|N|Head up the South stairs and then across the Court. The chat with her.|
-C Meet Mistweaver Ku|QID|33228|M|42.71,54.68|QO|Meet Mistweaver Ku: 1/1|N|Chat with him.|
+A Time In Your Hands|QID|33228|M|34.54,53.63|PRE|33156^33160|N|From Kairoz.|
+A A Timeless Tour|QID|33161|M|34.54,53.63|PRE|33156^33160|N|From Kairoz.|
+C Meet Meet Mistweaver Ai|QID|33228|M|42.69,55.72|QO|2|N|Head up the South stairs and then across the Court. The chat with her.|
+C Meet Mistweaver Ku|QID|33228|M|42.71,54.68|QO|3|N|Chat with him.|
 N Tushui Landing|QID|33161|M|23.07,71.04|FACTION|Horde|N|This is where the Alliance NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
-C Old Pi'jiu|QID|33161|M|37.3,72.2|QO|Old Pi'jiu: 1/1|
-C Firewalker Ruins|QID|33161|M|47.2, 78.5|QO|Firewalker Ruins: 1/1|
-C Red Stone Run|QID|33161|M|58.01,66.99|QO|Red Stone Run: 1/1|
-C Croaking Hollow|QID|33161|M|67.6, 66.7|QO|Croaking Hollow: 1/1|
-C Cavern of Lost Spirits|QID|33161|M|43.36,40.59|QO|Cavern of Lost Spirits: 1/1|
-C Misty Strand|QID|33161|M|29.4,28.9|QO|Misty Strand: 1/1|
+C Old Pi'jiu|QID|33161|M|37.3,72.2|QO|5|
+C Firewalker Ruins|QID|33161|M|47.2, 78.5|QO|3|
+C Red Stone Run|QID|33161|M|58.01,66.99|QO|6|
+C Croaking Hollow|QID|33161|M|67.6, 66.7|QO|2|
+C Cavern of Lost Spirits|QID|33161|M|43.36,40.59|QO|1|
+C Misty Strand|QID|33161|M|29.4,28.9|QO|4|
 N Huojin Landing|QID|33161|M|21.8,39.8|FACTION|Alliance|N|This is where the Horde NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
-N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird and where it goes. Target an Albatross, attack, and it will pick you up. Beat it down to near death and it will move on. If you use AOE abilities, you may get taken by another bird. When you get back to where you started, kill it. Slow falls, parachutes, etc. are helpful.\nFeral Druids: You must use [Might of Ursoc] or [Prowl] or [Dash] to force the shapeshift.|T|Highwind Albatross|
+N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird and where it goes. Target an Albatross, attack, and it will pick you up. Beat it down to near death and it will move on. If you use AOE abilities, you may get taken by another bird. When you get back to where you started, kill it. Slow falls, parachutes, etc. are helpful.\nFeral Druids: You must use {Might of Ursoc} or {Prowl} or {Dash} to force the shape-shift.|T|Highwind Albatross|
 R Inkeeper|QID|33161|M|36.59,46.83|N|Say hello to Graceful Swan, your Innkeeper.|T|Graceful Swan|
 R Mail-Grummie|QID|33161|M|36.91,46.83|N|Say hello to Hopswift, chat with him to get your mail.|T|Hopswift|
 T A Timeless Tour|QID|33161|M|34.54,53.63|N|To Kairoz.|
@@ -173,7 +118,7 @@ T The Essence of Time|QID|33336|M|34.54,53.63|N|To Kairoz.|L|105715|
 A Empowering the Hourglass|QID|33338|M|34.54,53.63|PRE|33336|N|From Kairoz.|
 C Empowering the Hourglass|QID|33338|N|Kill and loot till you get 50 Epoch Stones.|S|
 t Empowering the Hourglass|QID|33338|M|34.54,53.63|N|To Kairoz.|
-A Visions in Time|QID|33337;33375;33376;33377;33378;33379|M|34.54,53.63|PRE|33338|N|From Kairoz, He will offer six version of the quest each in turn. Accept whichever he offers.|
+A Visions in Time|QID|33337^33375^33376^33377^33378^33379|M|34.54,53.63|PRE|33338|N|From Kairoz, He will offer six version of the quest each in turn. Accept whichever he offers.|
 U A Vision in Time|QID|33337|Z|Siege of Orgrimmar|U|105930|
 U Refining The Vision|QID|33375|Z|Siege of Orgrimmar|U|105931|
 U Seeking Fate|QID|33376|Z|Siege of Orgrimmar|U|105932|
@@ -194,7 +139,7 @@ A Timeless Treasures|QID|33333|M|34.54,53.63|PRE|33332|N|From Kairoz.|
 C Timeless Treasures|QID|33333|M|24.8,53.04;22.15,49.27|CN|N|Two chests are marked on the map. If you already looted them, go to the Achievments module and select the "Treasure" guide for the rest.|
 T Timeless Treasures|QID|33333|M|34.54,53.63|N|To Kairoz.|
 A Strong Enough To Survive|QID|33334|M|34.54,53.63|PRE|33333|N|From Kairoz, weekly quest.|
-C Strong Enough To Survive|QID|33334||N|Kill 5 Rares or Rare Elites on the island this week. The addon NPCScan works great for spotting them.|S|
+C Strong Enough To Survive|QID|33334|N|Kill 5 Rares or Rare Elites on the island this week. The addon NPCScan works great for spotting them.|S|
 t Strong Enough To Survive|QID|33334|M|34.54,53.63|N|To Kairoz.|
 
 ; Shaohao Reputation
@@ -235,13 +180,13 @@ A Tracking Quest - Spectral Pirate Treasure|QID|32956|M|22.69,58.94|N|From Black
 T Tracking Quest - Spectral Pirate Treasure|QID|32956|M|22.69,58.94|N|To Blackguard's Jetsam.|
 
 ; Hunting time
-L Emerald Gander|M|28.60,55.20;33.20,45.80;34.20,48.20;38.60,70.00;39.80,64.40;41.00,70.00;43.40,58.20;43.80,63.40;30.80,54.40;36.90,83.47;31.45,38.75;31.80,78.00;40.50,45.80;43.15,69.35;32.70,67.90;32.02,40.71;31.16,52.15;36.45,41.33;35.90,39.22;43.20,44.70;38.81,67.49;33.20,51.40;44.33,60.83;40.44,39.15;44.09,55.83;31.27,43.11;32.49,80.82;32.15,48.21;30.45,45.75;42.73,71.94;45.54,52.49;30.17,57.67;38.64,41.79;41.11,42.94;31.42,66.26;29.08,49.92;31.15,62.86;42.82,66.59|CN|N|Kill Emerald Gander's to get Meaty Crane Leg's.  Click off when you have enough.|
-L Ironfur Steelhorn|M|26.20,71.40;30.60,49.40;34.80,62.80;33.50,69.90;39.65,38.55;34.65,40.35;29.93,71.18;34.70,59.00;40.70,65.80;44.68,45.03;35.00,42.85;35.72,71.53;28.35,49.48;38.30,36.80;28.04,39.79;32.22,43.62;28.38,46.62;27.55,59.02;29.58,43.48;33.12,60.98;31.90,58.19;30.83,46.72;37.54,44.20;41.40,39.95;30.34,68.64;35.40,67.79;33.62,37.17|CN|N|Kill Ironfur Steelhorns to get Heavy Yak Flanks.  Click off when you have enough.|
-L Great Turtle Furyshell|M|21.40,40.40;21.80,35.60;22.00,70.80;23.00,37.40;27.00,48.80;29.20,62.60;23.40,63.30;22.30,65.05;25.20,59.38;26.25,57.65;24.19,70.25;23.40,60.30;25.77,71.95;23.08,67.85;23.90,57.33;23.02,47.31;21.70,61.38;25.37,55.62;24.38,49.38;22.83,54.35;25.71,52.64;21.49,43.68|CN|N|Kill Great Turtle Furyshells to get Great Turtle Meats.  Click off when you have enough.|
-L Cranegnasher|M|43.8,69.6|CN|N|Kill Cranegnasher to get Thick Tiger Haunch.  Click off when you have enough.|
-L Tsavo'ka|M|54.2,42.8|CN|N|Kill Tsavo'ka to get Thick Tiger Haunch.  Click off when you have enough.|
-L Primal Stalker|M|64.60,54.55;63.60,57.55;52.50,61.60;49.27,58.65;55.80,44.65;50.40,56.20;52.50,64.00;57.58,47.15;63.50,59.70;60.10,66.30;61.92,52.38|CN|N|Kill Primal Stalkers to get Thick Tiger Haunch.  Click off when you have enough.|
-L Crimsonscale Firestorm|M|62.80,33.60;72.60,56.60;72.80,38.00|CN|N|Kill Crimsonscale Firestorm to get a Quivering Firestorm Egg.  Click off when you have had enough.|
+K Emerald Gander|ACTIVE|33234|M|28.60,55.20;33.20,45.80;34.20,48.20;38.60,70.00;39.80,64.40;41.00,70.00;43.40,58.20;43.80,63.40;30.80,54.40;36.90,83.47;31.45,38.75;31.80,78.00;40.50,45.80;43.15,69.35;32.70,67.90;32.02,40.71;31.16,52.15;36.45,41.33;35.90,39.22;43.20,44.70;38.81,67.49;33.20,51.40;44.33,60.83;40.44,39.15;44.09,55.83;31.27,43.11;32.49,80.82;32.15,48.21;30.45,45.75;42.73,71.94;45.54,52.49;30.17,57.67;38.64,41.79;41.11,42.94;31.42,66.26;29.08,49.92;31.15,62.86;42.82,66.59|CN|N|Kill Emerald Gander's to get Meaty Crane Leg's.  Click off when you have enough.|
+K Ironfur Steelhorn|ACTIVE|33236|M|26.20,71.40;30.60,49.40;34.80,62.80;33.50,69.90;39.65,38.55;34.65,40.35;29.93,71.18;34.70,59.00;40.70,65.80;44.68,45.03;35.00,42.85;35.72,71.53;28.35,49.48;38.30,36.80;28.04,39.79;32.22,43.62;28.38,46.62;27.55,59.02;29.58,43.48;33.12,60.98;31.90,58.19;30.83,46.72;37.54,44.20;41.40,39.95;30.34,68.64;35.40,67.79;33.62,37.17|CN|N|Kill Ironfur Steelhorns to get Heavy Yak Flanks.  Click off when you have enough.|
+K Great Turtle Furyshell|ACTIVE|33235|M|21.40,40.40;21.80,35.60;22.00,70.80;23.00,37.40;27.00,48.80;29.20,62.60;23.40,63.30;22.30,65.05;25.20,59.38;26.25,57.65;24.19,70.25;23.40,60.30;25.77,71.95;23.08,67.85;23.90,57.33;23.02,47.31;21.70,61.38;25.37,55.62;24.38,49.38;22.83,54.35;25.71,52.64;21.49,43.68|CN|N|Kill Great Turtle Furyshells to get Great Turtle Meats.  Click off when you have enough.|
+K Cranegnasher|ACTIVE|33238|M|43.8,69.6|CN|N|Kill Cranegnasher to get Thick Tiger Haunch.  Click off when you have enough.|
+K Tsavo'ka|ACTIVE|33238|M|54.2,42.8|CN|N|Kill Tsavo'ka to get Thick Tiger Haunch.  Click off when you have enough.|
+K Primal Stalker|ACTIVE|33238|M|64.60,54.55;63.60,57.55;52.50,61.60;49.27,58.65;55.80,44.65;50.40,56.20;52.50,64.00;57.58,47.15;63.50,59.70;60.10,66.30;61.92,52.38|CN|N|Kill Primal Stalkers to get Thick Tiger Haunch.  Click off when you have enough.|
+K Crimsonscale Firestorm|ACTIVE|33239|M|62.80,33.60;72.60,56.60;72.80,38.00|CN|N|Kill Crimsonscale Firestorm to get a Quivering Firestorm Egg.  Click off when you have had enough.|
 
 T Meaty Crane Leg|QID|33234|M|41.79,63.73|N|To Great Chef Woo.|L|104264|
 T Great Turtle Meat|QID|33235|M|41.79,63.73|N|To Great Chef Woo.|L|104265|
@@ -250,18 +195,18 @@ T Heavy Yak Flank|QID|33236|M|41.79,63.73|N|To Great Chef Woo.|L|104266|
 T Pristine Firestorm Egg|QID|33239|M|41.79,63.73|N|To Great Chef Woo.|L|104257|
 
 C Empowering the Hourglass|QID|33338|N|Kill and loot till you get 50 Epoch Stones.|US|
-C Strong Enough To Survive|QID|33334||N|Kill 5 Rares or Rare Elites on the island. The addon NPCScan works great for spotting them.|US|
+C Strong Enough To Survive|QID|33334|N|Kill 5 Rares or Rare Elites on the island. The addon NPCScan works great for spotting them.|US|
 
 ; Cooking Quests
-A Noodle Secrets Long Forgotten|QID|33018|M|52.08,46.13|PRE|31467+31471+31474+31476+31477+31480|N|From Old Sign Fragment, for those that are not Masters of the Way. You need to have started each of the ways at the Tillers.|
+A Noodle Secrets Long Forgotten|QID|33018|M|52.08,46.13|PRE|31467&31471&31474&31476&31477&31480|N|From Old Sign Fragment, for those that are not Masters of the Way. You need to have started each of the ways at the Tillers.|
 T Noodle Secrets Long Forgotten|QID|33018|M|40.93,73.45|N|To Lin Chao-Wei.|
 A The Lost Secret of the Secret Ingredient|QID|33020|M|40.93,73.45|PRE|33018|N|From Lin Chao-Wei, you will get this directly if you are a Master of the Way|
 T The Lost Secret of the Secret Ingredient|QID|33020|M|69.09,58.08|N|To Lin Family Scroll.|
 A Bad Feeling, Worse Result|QID|33107|PRE|33020|M|68.8,58.5|Z|Temple of the Jade Serpent@EastTemple|N|From Lin Family Scroll|
 T Bad Feeling, Worse Result|QID|33107|N|Automatic turnin UI|
-A Secrets Lost, Forever?|QID|33021;33139|PRE|33107|N|Automatic UI |
-T Secrets Lost, Forever?|QID|33021;33139|M|53.6,51.2|Z|Valley of the Four Winds|N|To Sungshin Ironpaw|
-A Catch and Carry|QID|33022|PRE|33021;33139|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
+A Secrets Lost, Forever?|QID|33021^33139|PRE|33107|N|Automatic UI |
+T Secrets Lost, Forever?|QID|33021^33139|M|53.6,51.2|Z|Valley of the Four Winds|N|To Sungshin Ironpaw|
+A Catch and Carry|QID|33022|PRE|33021|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
 T Catch and Carry|QID|33022|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
 A Is That A Real Measurement?|QID|33024|PRE|33022|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sungshin Ironpaw|
 T Is That A Real Measurement?|QID|33024|M|53.6,51.2|Z|Valley of the Four Winds|N|To Sungshin Ironpaw|
@@ -278,3 +223,6 @@ T Noodle Time: Bonus|QID|33358|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sun
 ]]
 
 end)
+
+
+

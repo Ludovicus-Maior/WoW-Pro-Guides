@@ -1,52 +1,7 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
--- Date: 2014-07-25 21:38
--- Who: Ludovicus
--- Log: adj mean
-
--- URL: http://wow-pro.com/node/3479/revisions/26586/view
--- Date: 2014-07-20 19:27
--- Who: Ludovicus
--- Log: Added faction for Argent Dawn
-
--- URL: http://wow-pro.com/node/3479/revisions/26554/view
--- Date: 2014-07-06 15:36
--- Who: Ludovicus
--- Log: Added level and faction
-
--- URL: http://wow-pro.com/node/3479/revisions/26521/view
--- Date: 2014-06-11 19:00
--- Who: Ludovicus
--- Log: Changed level guide.
-
--- URL: http://wow-pro.com/node/3479/revisions/25741/view
--- Date: 2013-08-15 23:12
--- Who: Ludovicus
--- Log: Improved ordering.
-
--- URL: http://wow-pro.com/node/3479/revisions/25645/view
--- Date: 2013-05-14 19:16
--- Who: Ludovicus
--- Log: Extra M tag
-
--- URL: http://wow-pro.com/node/3479/revisions/25396/view
--- Date: 2013-01-12 22:43
--- Who: Ludovicus
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3479/revisions/25085/view
--- Date: 2012-09-25 00:23
--- Who: Ludovicus
--- Log: Wrong separators in [Captain Grondel's Task]
-
--- URL: http://wow-pro.com/node/3479/revisions/24998/view
--- Date: 2012-05-27 22:30
--- Who: Ludovicus
--- Log: INitial Versions
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoArgCrusade",'Dailies', "Icecrown", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,74,77,74.2)
@@ -59,7 +14,7 @@ N Argent Crusade|N|The Argent Crusade Reputation Dalies.|
 A Slaves to Saronite|QID|13300|FACTION|Alliance|N|To Absalan the Pious. He patrols around on the Deck of the Skybreaker.|
 A Slaves to Saronite|QID|13302|FACTION|Horde|N|To Brother Keltan. He patrols around on the Deck of the Hammer.|
 
-C Slaves to Saronite|QID|13300;13302|M|57.11,57.31|N|Talk to the slaves and set them free. If they go crazy, try talking to them again and you get another shot.  Kill Taskmistress and they may be less likely to attack you!|
+C Slaves to Saronite|QID|13300^13302|M|57.11,57.31|N|Talk to the slaves and set them free. If they go crazy, try talking to them again and you get another shot.  Kill Taskmistress and they may be less likely to attack you!|
 
 T Slaves to Saronite|QID|13300|FACTION|Alliance|N|To Absalan the Pious. He patrols around on the Deck of the Skybreaker.|
 T Slaves to Saronite|QID|13302|FACTION|Horde|N|To Brother Keltan. He patrols around on the Deck of the Hammer.|
@@ -75,11 +30,11 @@ T Troll Patrol: The Alchemist's Apprentice|QID|12541|M|35,52|Z|Zul'Drak|N|From A
 N The Timer|N|If this took you more than 6 minutes, abandon Troll Patrol, reset the guide and start over.|
 
 ; Captain Brandon's Task
-A Captain Brandon's Task|QID|12588;12502;12564|M|48.8,78.8|Z|Zul'Drak|N|From Captain Brandon.|
+A Captain Brandon's Task|QID|12588^12502^12564|M|48.8,78.8|Z|Zul'Drak|N|From Captain Brandon.|
 C Troll Patrol: Can You Dig It?|QID|12588|M|47.5,82.5|Z|Zul'Drak|N|Dig near the sparkly mounds of dirt.|U|38566|
-C Troll Patrol: High Standards|QID|12502|M|50.4,73.1|Z|Zul'Drak|N|Set the banner on the North Pedestal.|U|38544|QO|Argent Crusade Banner North|
-C Troll Patrol: High Standards|QID|12502|M|53.2,72.3|Z|Zul'Drak|N|Set the banner on the East Pedestal.|U|38544|QO|Argent Crusade Banner East|
-C Troll Patrol: High Standards|QID|12502|M|52.5,76.6|Z|Zul'Drak|N|Set the banner on the South Pedestal.|U|38544|QO|Argent Crusade Banner South|
+C Banner North|QID|12502|M|50.4,73.1|Z|Zul'Drak|N|Set the banner on the North Pedestal.|U|38544|QO|2|
+C Banner East|QID|12502|M|53.2,72.3|Z|Zul'Drak|N|Set the banner on the East Pedestal.|U|38544|QO|3|
+C Banner South|QID|12502|M|52.5,76.6|Z|Zul'Drak|N|Set the banner on the South Pedestal.|U|38544|QO|1|
 C Troll Patrol: Something for the Pain|QID|12564|M|44.9,79.5|Z|Zul'Drak|N|Loot Mature Water-Poppies from the fields.|
 
 T Troll Patrol: Can You Dig It?|QID|12588|M|48.8,78.8|Z|Zul'Drak|N|To Captain Brandon.|
@@ -87,7 +42,7 @@ T Troll Patrol: High Standards|QID|12502|M|48.8,78.8|Z|Zul'Drak|N|To Captain Bra
 T Troll Patrol: Something for the Pain|QID|12564|M|48.8,78.8|Z|Zul'Drak|N|To Captain Brandon.|
 
 ; Captain Rupert's Task
-A Captain Rupert's Task|QID|12568;12509;12591|M|58.0,72.4|Z|Zul'Drak|N|From Captain Rupert.|
+A Captain Rupert's Task|QID|12568^12509^12591|M|58.0,72.4|Z|Zul'Drak|N|From Captain Rupert.|
 
 C Troll Patrol: Done to Death|QID|12568|M|52,72|Z|Zul'Drak|N|Use the Incinerating Oil on Defeated Argent Footmen.|U|38556|
 C Troll Patrol: Intestinal Fortitude|QID|12509|M|53.80,66.00;50.20,79.50;48.20,73.90;55.12,77.10;48.80,76.60;53.60,70.60;51.70,72.29;53.35,79.95;50.95,75.12;54.20,74.35;55.15,68.65;52.05,77.40|Z|Zul'Drak|CN|N|Talk to the cowering Crusade Recruits.|
@@ -98,7 +53,7 @@ T Troll Patrol: Intestinal Fortitude|QID|12509|M|58.0,72.4|Z|Zul'Drak|N|To Capta
 T Troll Patrol: Throwing Down|QID|12591|M|58.0,72.4|Z|Zul'Drak|N|From To Rupert.|
 
 ; Captain Grondel's Task
-A Captain Grondel's Task|QID|12594;12585;12519|M|48.0,63.8|Z|Zul'Drak|N|From Captain Grondel.|
+A Captain Grondel's Task|QID|12594^12585^12519|M|48.0,63.8|Z|Zul'Drak|N|From Captain Grondel.|
 
 C Troll Patrol: Couldn't Care Less|QID|12594|M|45.20,61.00;49.50,64.55;44.40,63.45;42.55,58.10;43.25,65.38;47.10,65.30;41.80,62.55;44.60,68.30;43.03,60.95;44.01,56.49|Z|Zul'Drak|CN|N|Kill Mossy Rampagers in Drak'Agal.|
 C Troll Patrol: Creature Comforts|QID|12585|M|44.40,71.00;46.10,69.40;44.96,59.54;47.12,61.76;43.39,65.09;44.08,68.12;42.10,59.36;43.92,56.68;43.56,62.16;45.64,64.74;41.83,55.80|Z|Zul'Drak|CN|N|Collect Dead Thornwood.|
@@ -115,3 +70,6 @@ T Congratulations!|QID|12604|M|40.3,66.6|Z|Zul'Drak|N|To Commander Kunz.|
 
 ]]
 end)
+
+
+

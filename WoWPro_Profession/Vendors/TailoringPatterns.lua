@@ -1,27 +1,14 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/tailoring_patterns
--- Date: 2014-11-08 20:23
--- Who: Ludovicus
--- Log: Chnage Shrine Z
-
--- URL: http://wow-pro.com/node/3573/revisions/25913/view
--- Date: 2014-03-06 23:52
--- Who: Ludovicus
--- Log: Zone tag corrections.
-
--- URL: http://wow-pro.com/node/3573/revisions/25892/view
--- Date: 2014-02-14 00:13
--- Who: Ludovicus
-
--- URL: http://wow-pro.com/node/3573/revisions/25891/view
--- Date: 2014-02-14 00:10
--- Who: Ludovicus
-
-WoWPro.Profession:RegisterGuide('LudoShopTailoring', 'Tailoring', 'Tailoring Patterns', 'Ludovicus', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("LudoShopTailoring","Profession", "Tailoring", "Ludovicus", "Neutral")
+WoWPro:GuideName(guide, "Tailoring Patterns")
+WoWPro:GuideLevels(guide,1,90,5)
+WoWPro:BuyersGuide(guide)
+WoWPro:GuideIcon(guide,"PRO",165)
+WoWPro:GuideSteps(guide, function()
 return [[
 B Runecloth Robe|QID|990018406|RECIPE|18406|M|51.60,33.30|Z|Moonglade|P|Tailoring;197;260|N|Limited quantity sold by Darnall in Moonglade.|
 B Tuxedo Shirt|QID|990012085|RECIPE|12085|M|70.60,30.10|Z|Undercity|FACTION|Horde|P|Tailoring;197;240|N|Limited quantity sold by Millie Gregorian in Undercity.|
@@ -44,9 +31,9 @@ B Bolt of Imbued Netherweave|QID|990026747|RECIPE|26747|M|66.20,68.70|Z|Shattrat
 B Bolt of Imbued Netherweave|QID|990026747|RECIPE|26747|M|55.60,51.00|Z|Silvermoon City|FACTION|Horde|P|Tailoring;197;325|N|Sold by Deynna in Silvermoon City.|
 B Mooncloth|QID|990018560|RECIPE|18560|M|59.60,49.20|Z|Winterspring|P|Tailoring;197;250|N|Sold by Qia in Winterspring.|
 B Primal Mooncloth Belt|QID|990026760|RECIPE|26760|M|66.00,69.00|Z|Shattrath City|P|Tailoring;197;355|N|Sold by Nasmara Moonsong in Shattrath City.\nBind on Pickup.|
-B Primal Mooncloth Belt|QID|990026760|RECIPE|26760|M|36.50,34.00|Z|Dalaran|P|Tailoring;197;355|N|Sold by Ainderu Summerleaf in Dalaran.\nBind on Pickup.|
+B Primal Mooncloth Belt|QID|990026760|RECIPE|26760|M|36.50,34.00|Z|Dalaran City@Dalaran|P|Tailoring;197;355|N|Sold by Ainderu Summerleaf in Dalaran.\nBind on Pickup.|
 B Primal Mooncloth Shoulders|QID|990026761|RECIPE|26761|M|66.00,69.00|Z|Shattrath City|P|Tailoring;197;365|N|Sold by Nasmara Moonsong in Shattrath City.\nBind on Pickup.|
-B Primal Mooncloth Shoulders|QID|990026761|RECIPE|26761|M|36.50,34.00|Z|Dalaran|P|Tailoring;197;365|N|Sold by Ainderu Summerleaf in Dalaran.\nBind on Pickup.|
+B Primal Mooncloth Shoulders|QID|990026761|RECIPE|26761|M|36.50,34.00|Z|Dalaran City@Dalaran|P|Tailoring;197;365|N|Sold by Ainderu Summerleaf in Dalaran.\nBind on Pickup.|
 B Black Embersilk Gown|QID|990075288|RECIPE|75288|M|53.30,81.70|Z|Stormwind City|FACTION|Alliance|P|Tailoring;197;500|N|Sold by Alexandra Bolero in Stormwind City.\nBind on Pickup.|
 B Black Embersilk Gown|QID|990075288|RECIPE|75288|M|70.60,30.10|Z|Undercity|FACTION|Horde|P|Tailoring;197;500|N|Sold by Millie Gregorian in Undercity.\nBind on Pickup.|
 B Black Embersilk Gown|QID|990075288|RECIPE|75288|M|64.50,68.50|Z|Thunder Bluff|FACTION|Alliance|P|Tailoring;197;500|N|Sold by Neii in Thunder Bluff.\nBind on Pickup.|
@@ -59,9 +46,9 @@ B Black Embersilk Gown|QID|990075288|RECIPE|75288|M|55.60,51.00|Z|Silvermoon Cit
 B Black Embersilk Gown|QID|990075288|RECIPE|75288|M|41.30,79.20|Z|Orgrimmar|FACTION|Horde|P|Tailoring;197;500|N|Sold by Lizna Goldweaver in Orgrimmar.\nBind on Pickup.|
 B Black Embersilk Gown|QID|990075288|RECIPE|75288|M|43.00,28.30|Z|Ironforge|FACTION|Alliance|P|Tailoring;197;500|N|Sold by Poranna Snowbraid in Ironforge.\nBind on Pickup.|
 B Primal Mooncloth Robe|QID|990026762|RECIPE|26762|M|66.00,69.00|Z|Shattrath City|P|Tailoring;197;375|N|Sold by Nasmara Moonsong in Shattrath City.\nBind on Pickup.|
-B Primal Mooncloth Robe|QID|990026762|RECIPE|26762|M|36.50,34.00|Z|Dalaran|P|Tailoring;197;375|N|Sold by Ainderu Summerleaf in Dalaran.\nBind on Pickup.|
+B Primal Mooncloth Robe|QID|990026762|RECIPE|26762|M|36.50,34.00|Z|Dalaran City@Dalaran|P|Tailoring;197;375|N|Sold by Ainderu Summerleaf in Dalaran.\nBind on Pickup.|
 B Primal Mooncloth Bag|QID|990026763|RECIPE|26763|M|66.00,69.00|Z|Shattrath City|P|Tailoring;197;375|N|Sold by Nasmara Moonsong in Shattrath City.\nBind on Pickup.|
-B Primal Mooncloth Bag|QID|990026763|RECIPE|26763|M|36.50,34.00|Z|Dalaran|P|Tailoring;197;375|N|Sold by Ainderu Summerleaf in Dalaran.\nBind on Pickup.|
+B Primal Mooncloth Bag|QID|990026763|RECIPE|26763|M|36.50,34.00|Z|Dalaran City@Dalaran|P|Tailoring;197;375|N|Sold by Ainderu Summerleaf in Dalaran.\nBind on Pickup.|
 B Enchanted Runecloth Bag|QID|990027659|RECIPE|27659|M|55.60,37.20|Z|Silithus|P|Tailoring;197;275|N|Sold by Kania in Silithus.|
 B Netherweave Robe|QID|990026773|RECIPE|26773|M|64.50,68.50|Z|Thunder Bluff|FACTION|Alliance|P|Tailoring;197;340|N|Sold by Neii in Thunder Bluff.|
 B Netherweave Robe|QID|990026773|RECIPE|26773|M|66.20,68.70|Z|Shattrath City|P|Tailoring;197;340|N|Sold by Eiin in Shattrath City.|
@@ -267,9 +254,9 @@ B Belt of the Depths|QID|990075298|RECIPE|75298|M|43.00,28.30|Z|Ironforge|FACTIO
 B Dress Shoes|QID|990049677|RECIPE|49677|M|50.70,28.60|Z|Tanaris|P|Tailoring;197;250|N|Limited quantity sold by Haughty Modiste in Tanaris.|
 B Red Winter Clothes|QID|990044958|RECIPE|44958|M|33.00,67.60|Z|Ironforge|P|Tailoring;197;250|N|Sold by Wulmort Jinglepocket in Ironforge.\nBind on Pickup.|
 B Shadowcloth|QID|990036686|RECIPE|36686|M|66.00,67.80|Z|Shattrath City|P|Tailoring;197;350|N|Sold by Andrion Darkspinner in Shattrath City.|
-B Shadowcloth|QID|990036686|RECIPE|36686|M|34.60,34.50|Z|Dalaran|P|Tailoring;197;350|N|Sold by Linna Bruder in Dalaran.|
+B Shadowcloth|QID|990036686|RECIPE|36686|M|34.60,34.50|Z|Dalaran City@Dalaran|P|Tailoring;197;350|N|Sold by Linna Bruder in Dalaran.|
 B Spellcloth|QID|990031373|RECIPE|31373|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;350|N|Sold by Gidge Spellweaver in Shattrath City.|
-B Spellcloth|QID|990031373|RECIPE|31373|M|36.50,33.50|Z|Dalaran|P|Tailoring;197;350|N|Sold by Lalla Brightweave in Dalaran.|
+B Spellcloth|QID|990031373|RECIPE|31373|M|36.50,33.50|Z|Dalaran City@Dalaran|P|Tailoring;197;350|N|Sold by Lalla Brightweave in Dalaran.|
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|63.10,69.30|Z|Shattrath City|P|Tailoring;197;225|N|Sold by Madame Ruby in Shattrath City.|
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|43.10,50.80|Z|Silverpine Forest|FACTION|Horde|P|Tailoring;197;225|N|Sold by Lilly in Silverpine Forest.|
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|55.50,54.00|Z|Eversong Woods|FACTION|Horde|P|Tailoring;197;225|N|Sold by Erilia in Eversong Woods.|
@@ -278,7 +265,7 @@ B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|52.30,36.10|Z|Hellfire 
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|43.50,96.90|Z|Shattrath City|P|Tailoring;197;225|N|Sold by Yurial Soulwater in Shattrath City.|
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|66.00,49.70|Z|Dustwallow Marsh|FACTION|Alliance|P|Tailoring;197;225|N|Sold by Lissah Spellwick in Dustwallow Marsh.|
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|61.00,44.00|Z|Ironforge|FACTION|Alliance|P|Tailoring;197;225|N|Sold by Tilli Thistlefuzz in Ironforge.|
-B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|39.10,41.50|Z|Dalaran|P|Tailoring;197;225|N|Sold by Ildine Sorrowspear in Dalaran.|
+B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|39.10,41.50|Z|Dalaran City@Dalaran|P|Tailoring;197;225|N|Sold by Ildine Sorrowspear in Dalaran.|
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|36.30,46.50|Z|Dragonblight|FACTION|Horde|P|Tailoring;197;225|N|Sold by Alys Vol'tyr in Dragonblight.|
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|53.70,66.10|Z|Hellfire Peninsula|FACTION|Alliance|P|Tailoring;197;225|N|Sold by Johan Barnes in Hellfire Peninsula.|
 B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|46.70,32.50|Z|Borean Tundra|P|Tailoring;197;225|N|Sold by Librarian Erickson in Borean Tundra.|
@@ -297,23 +284,23 @@ B Enchanted Mageweave Pouch|QID|990027658|RECIPE|27658|M|56.40,32.20|Z|Darnassus
 B Imbued Netherweave Boots|QID|990026776|RECIPE|26776|M|85.30,54.80|Z|Zangarmarsh|FACTION|Horde|P|Tailoring;197;350|N|Limited quantity sold by Zurai in Zangarmarsh.|
 B Imbued Netherweave Boots|QID|990026776|RECIPE|26776|M|40.60,28.20|Z|Zangarmarsh|FACTION|Alliance|P|Tailoring;197;350|N|Limited quantity sold by Muheru the Weaver in Zangarmarsh.|
 B Ebon Shadowbag|QID|990026759|RECIPE|26759|M|66.00,67.80|Z|Shattrath City|P|Tailoring;197;375|N|Sold by Andrion Darkspinner in Shattrath City.\nBind on Pickup.|
-B Ebon Shadowbag|QID|990026759|RECIPE|26759|M|34.60,34.50|Z|Dalaran|P|Tailoring;197;375|N|Sold by Linna Bruder in Dalaran.\nBind on Pickup.|
+B Ebon Shadowbag|QID|990026759|RECIPE|26759|M|34.60,34.50|Z|Dalaran City@Dalaran|P|Tailoring;197;375|N|Sold by Linna Bruder in Dalaran.\nBind on Pickup.|
 B Frozen Shadoweave Robe|QID|990026758|RECIPE|26758|M|66.00,67.80|Z|Shattrath City|P|Tailoring;197;375|N|Sold by Andrion Darkspinner in Shattrath City.\nBind on Pickup.|
-B Frozen Shadoweave Robe|QID|990026758|RECIPE|26758|M|34.60,34.50|Z|Dalaran|P|Tailoring;197;375|N|Sold by Linna Bruder in Dalaran.\nBind on Pickup.|
+B Frozen Shadoweave Robe|QID|990026758|RECIPE|26758|M|34.60,34.50|Z|Dalaran City@Dalaran|P|Tailoring;197;375|N|Sold by Linna Bruder in Dalaran.\nBind on Pickup.|
 B Frozen Shadoweave Boots|QID|990026757|RECIPE|26757|M|66.00,67.80|Z|Shattrath City|P|Tailoring;197;365|N|Sold by Andrion Darkspinner in Shattrath City.\nBind on Pickup.|
-B Frozen Shadoweave Boots|QID|990026757|RECIPE|26757|M|34.60,34.50|Z|Dalaran|P|Tailoring;197;365|N|Sold by Linna Bruder in Dalaran.\nBind on Pickup.|
+B Frozen Shadoweave Boots|QID|990026757|RECIPE|26757|M|34.60,34.50|Z|Dalaran City@Dalaran|P|Tailoring;197;365|N|Sold by Linna Bruder in Dalaran.\nBind on Pickup.|
 B Frozen Shadoweave Shoulders|QID|990026756|RECIPE|26756|M|66.00,67.80|Z|Shattrath City|P|Tailoring;197;355|N|Sold by Andrion Darkspinner in Shattrath City.\nBind on Pickup.|
-B Frozen Shadoweave Shoulders|QID|990026756|RECIPE|26756|M|34.60,34.50|Z|Dalaran|P|Tailoring;197;355|N|Sold by Linna Bruder in Dalaran.\nBind on Pickup.|
+B Frozen Shadoweave Shoulders|QID|990026756|RECIPE|26756|M|34.60,34.50|Z|Dalaran City@Dalaran|P|Tailoring;197;355|N|Sold by Linna Bruder in Dalaran.\nBind on Pickup.|
 B Spellfire Bag|QID|990026755|RECIPE|26755|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;375|N|Sold by Gidge Spellweaver in Shattrath City.\nBind on Pickup.|
-B Spellfire Bag|QID|990026755|RECIPE|26755|M|36.50,33.50|Z|Dalaran|P|Tailoring;197;375|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
+B Spellfire Bag|QID|990026755|RECIPE|26755|M|36.50,33.50|Z|Dalaran City@Dalaran|P|Tailoring;197;375|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
 B Spellfire Robe|QID|990026754|RECIPE|26754|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;375|N|Sold by Gidge Spellweaver in Shattrath City.\nBind on Pickup.|
-B Spellfire Robe|QID|990026754|RECIPE|26754|M|36.50,33.50|Z|Dalaran|P|Tailoring;197;375|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
+B Spellfire Robe|QID|990026754|RECIPE|26754|M|36.50,33.50|Z|Dalaran City@Dalaran|P|Tailoring;197;375|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
 B Spellfire Gloves|QID|990026753|RECIPE|26753|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;365|N|Sold by Gidge Spellweaver in Shattrath City.\nBind on Pickup.|
-B Spellfire Gloves|QID|990026753|RECIPE|26753|M|36.50,33.50|Z|Dalaran|P|Tailoring;197;365|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
+B Spellfire Gloves|QID|990026753|RECIPE|26753|M|36.50,33.50|Z|Dalaran City@Dalaran|P|Tailoring;197;365|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
 B Spellfire Belt|QID|990026752|RECIPE|26752|M|66.00,67.90|Z|Shattrath City|P|Tailoring;197;355|N|Sold by Gidge Spellweaver in Shattrath City.\nBind on Pickup.|
-B Spellfire Belt|QID|990026752|RECIPE|26752|M|36.50,33.50|Z|Dalaran|P|Tailoring;197;355|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
+B Spellfire Belt|QID|990026752|RECIPE|26752|M|36.50,33.50|Z|Dalaran City@Dalaran|P|Tailoring;197;355|N|Sold by Lalla Brightweave in Dalaran.\nBind on Pickup.|
 B Primal Mooncloth|QID|990026751|RECIPE|26751|M|66.00,69.00|Z|Shattrath City|P|Tailoring;197;350|N|Sold by Nasmara Moonsong in Shattrath City.|
-B Primal Mooncloth|QID|990026751|RECIPE|26751|M|36.50,34.00|Z|Dalaran|P|Tailoring;197;350|N|Sold by Ainderu Summerleaf in Dalaran.|
+B Primal Mooncloth|QID|990026751|RECIPE|26751|M|36.50,34.00|Z|Dalaran City@Dalaran|P|Tailoring;197;350|N|Sold by Ainderu Summerleaf in Dalaran.|
 B Bolt of Soulcloth|QID|990026750|RECIPE|26750|M|53.30,71.90|Z|Nagrand|FACTION|Alliance|P|Tailoring;197;345|N|Limited quantity sold by Borto in Nagrand.|
 B Bolt of Soulcloth|QID|990026750|RECIPE|26750|M|64.50,68.50|Z|Thunder Bluff|FACTION|Alliance|P|Tailoring;197;345|N|Limited quantity sold by Neii in Thunder Bluff.|
 B Bolt of Soulcloth|QID|990026750|RECIPE|26750|M|57.00,39.60|Z|Nagrand|FACTION|Horde|P|Tailoring;197;345|N|Limited quantity sold by Mathar G'ochar in Nagrand.|
@@ -358,13 +345,16 @@ B Enchanter's Cowl|QID|990003857|RECIPE|3857|M|43.60,73.00|Z|The Cape of Strangl
 B Azure Silk Gloves|QID|990003854|RECIPE|3854|M|25.70,25.80|Z|Wetlands|FACTION|Alliance|P|Tailoring;197;145|N|Limited quantity sold by Wenna Silkbeard in Wetlands.|
 B Azure Silk Gloves|QID|990003854|RECIPE|3854|M|51.00,53.50|Z|Desolace|FACTION|Horde|P|Tailoring;197;145|N|Limited quantity sold by Kireena in Desolace.|
 B Green Winter Clothes|QID|990044950|RECIPE|44950|M|53.50,66.10|Z|Orgrimmar|P|Tailoring;197;250|N|Sold by Penney Copperpinch in Orgrimmar.\nBind on Pickup.|
-B Frosty Flying Carpet|QID|990075597|RECIPE|75597|M|41.00,28.50|Z|Dalaran|P|Tailoring;197;425|N|Sold by Frozo the Renowned in Dalaran.\nBind on Pickup.|
+B Frosty Flying Carpet|QID|990075597|RECIPE|75597|M|41.00,28.50|Z|Dalaran City@Dalaran|P|Tailoring;197;425|N|Sold by Frozo the Renowned in Dalaran.\nBind on Pickup.|
 B Pink Mageweave Shirt|QID|990012080|RECIPE|12080|M|60.70,58.60|Z|Orgrimmar|FACTION|Horde|P|Tailoring;197;235|N|Limited quantity sold by Borya in Orgrimmar.|
 B Pink Mageweave Shirt|QID|990012080|RECIPE|12080|M|43.20,29.20|Z|Ironforge|FACTION|Alliance|P|Tailoring;197;235|N|Limited quantity sold by Outfitter Eric in Ironforge.|
 B Pink Mageweave Shirt|QID|990012080|RECIPE|12080|M|41.30,79.20|Z|Orgrimmar|FACTION|Horde|P|Tailoring;197;235|N|Limited quantity sold by Lizna Goldweaver in Orgrimmar.|
 B Admiral's Hat|QID|990012081|RECIPE|12081|M|40.90,82.50|Z|The Cape of Stranglethorn|P|Tailoring;197;240|N|Limited quantity sold by Cowardly Crosby in The Cape of Stranglethorn.|
 B Runecloth Bag|QID|990018405|RECIPE|18405|M|59.60,49.20|Z|Winterspring|P|Tailoring;197;260|N|Sold by Qia in Winterspring.|
 
-N Nothing left to buy!
+N Nothing left to buy.|N|Thanks for shopping with WoW-Pro!|
 ]]
 end)
+
+
+

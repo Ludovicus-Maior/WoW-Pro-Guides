@@ -1,7 +1,4 @@
 <Bindings>
-	<Binding name="CLICK WoWPro_FauxItemButton:LeftButton" header="BINDING_WOWPRO"/>
-	<Binding name="CLICK WoWPro_FauxTargetButton:LeftButton"/>
-	<Binding name="WOWPRO_SELECTOR">
-	    WoWPro:Selector()
-	</Binding>
+    <Binding name="CLICK WoWPro_FauxItemButton:LeftButton" header="BINDING_WOWPRO" category="WoW-Pro"/>
+    <Binding name="CLICK WoWPro_FauxTargetButton:LeftButton" category="WoW-Pro"/>
 </Bindings>

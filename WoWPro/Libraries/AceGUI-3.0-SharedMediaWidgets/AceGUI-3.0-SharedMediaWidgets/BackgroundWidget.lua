@@ -8,7 +8,7 @@ local AGSMW = LibStub("AceGUISharedMediaWidgets-1.0")
 
 do
 	local widgetType = "LSM30_Background"
-	local widgetVersion = 10
+	local widgetVersion = 13
 
 	local contentFrameCache = {}
 	local function ReturnSelf(self)
@@ -38,7 +38,7 @@ do
 		if next(contentFrameCache) then
 			frame = table.remove(contentFrameCache)
 		else
-			frame = CreateFrame("Button", nil, UIParent)
+			frame = CreateFrame("Button", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate")
 				--frame:SetWidth(200)
 				frame:SetHeight(18)
 				frame:SetHighlightTexture([[Interface\QuestFrame\UI-QuestTitleHighlight]], "ADD")
@@ -57,8 +57,8 @@ do
 				local font, size = text:GetFont()
 				text:SetFont(font,size,"OUTLINE")
 
-				text:SetPoint("LEFT", check, "RIGHT", 1, 0)
-				text:SetPoint("RIGHT", frame, "RIGHT", -2, 0)
+				text:SetPoint("TOPLEFT", check, "TOPRIGHT", 1, 0)
+				text:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -2, 0)
 				text:SetJustifyH("LEFT")
 				text:SetText("Test Test Test Test Test Test Test")
 			frame.text = text

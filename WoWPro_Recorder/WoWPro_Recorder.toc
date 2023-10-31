@@ -1,13 +1,13 @@
-## Interface: 60200
+## Interface: 100107
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Recorder
 ## Notes: Record and edit guides for use with the WoW-Pro Addon
 ## Author: Jiyambi
+## IconTexture: Interface\ICONS\INV_Misc_Note_05
 ## Dependencies: WoWPro
-## Version: 6.0.0
+## Version: 2023.10.11.A
 ## SavedVariables: WoWPro_RecorderDB
+## DefaultState: disabled
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
-
 WoWPro_Recorder.lua
-
 WoWPro_Recorder_Frames.lua

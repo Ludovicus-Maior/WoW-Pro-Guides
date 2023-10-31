@@ -1,0 +1,51 @@
+## Interface: 20504
+## Title: |cffFF9900WoW-|r|cff46921APro|r
+## Notes: Guides created by the WoW-Pro Community.  |cffFF0000You will need either TomTom or Carbonite installed for full functionality.|r
+## Author: Jiyambi,Ludovicus
+## IconTexture: Interface\AddOns\WoWPro\Textures\Achievement_WorldEvent_Brewmaster
+## SavedVariables: WoWProData
+## SavedVariablesPerCharacter: WoWProCharDB
+## OptionalDeps: Carbonite, TomTom
+## Version: 2023.10.11.A
+## X-Category: Compilations
+## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Libraries\LibStub\LibStub.lua
+Libraries\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libraries\AceAddon-3.0\AceAddon-3.0.xml
+Libraries\AceBucket-3.0\AceBucket-3.0.xml
+Libraries\AceEvent-3.0\AceEvent-3.0.xml
+Libraries\AceTimer-3.0\AceTimer-3.0.xml
+Libraries\AceGUI-3.0\AceGUI-3.0.xml
+Libraries\AceDB-3.0\AceDB-3.0.xml
+Libraries\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libraries\AceConfig-3.0\AceConfig-3.0.xml
+Libraries\LibSharedMedia-3.0\lib.xml
+Libraries\AceGUI-3.0-SharedMediaWidgets\widget.xml
+Libraries\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libraries\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Libraries\HereBeDragons\HereBeDragons-2.0.lua
+Libraries\HereBeDragons\HereBeDragons-Pins-2.0.lua
+Libraries\HereBeDragons\HereBeDragons-Migrate.lua
+Libraries\LibPetJournal-2.0\LibPetJournal-2.0.lua
+WoWPro.lua
+WoWPro_CompatUtil.lua
+WoWPro_Templates.xml
+WoWPro_Widgets.lua
+WoWPro_Localization.lua
+WoWPro_CurrentGuide.lua
+WoWPro_GuideList.lua
+WoWPro_Frames.lua
+WoWPro_Config.lua
+WoWPro_Zones.lua
+WoWPro_ZoneData.lua
+WoWPro_ZoneDataLegacy.lua
+WoWPro_Mapping.lua
+WoWPro_Broker.lua
+WoWPro_Events.lua
+WoWPro_Markup.lua
+WoWPro_NilGuide.lua
+WoWPro_Parser.lua
+WoWPro_Pets.lua
+WoWPro_Trade.lua
+WoWPro_Selector.lua
+WoWPro_Command.lua
