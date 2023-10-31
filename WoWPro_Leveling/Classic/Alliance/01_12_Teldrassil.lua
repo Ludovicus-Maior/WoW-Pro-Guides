@@ -288,9 +288,9 @@ C Mist|QID|938|M|38.32,34.37|N|Lead Mist to Sentinel Arynia Cloudsbreak.\n[color
 T Mist|QID|938|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
 T The Enchanted Glade|QID|937|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
 A Teldrassil|QID|940|PRE|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
-L Level 11|ACTIVE||N|Grind until you're within 2 bubbles of level 11.|LVL|10;-650|
+L Level 11|ACTIVE|7383|N|Grind until you're within 2 bubbles of level 11.|LVL|10;-650|
 
-R Towards Dolanaar|ACTIVE|1683|ACTIVE|1683|M|47.23,49.56|CC|N|Head back to the path towards Dolanaar.|
+R Towards Dolanaar|ACTIVE|1683|M|47.23,49.56|CC|N|Head back to the path towards Dolanaar.|
 R Vorlus Vilehoof|ACTIVE|1683|QO|1|M|49.27,57.38;48.38,60.59|CS|N|Take a detour to the path leading up to the old moonwell.|C|Warrior|
 K Vorlus Vilehoof|ACTIVE|1683|M|47.22,63.52|N|Follow the path up and kill him.|C|Warrior|
 R Dolanaar|ACTIVE|7383|M|47.25,49.6;54.8,58.5|CS|N|Head back to Dolanaar.|
