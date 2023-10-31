@@ -83,7 +83,7 @@ A Candy Bucket |QID|12396|M|67.34,74.60|Z|Northern Barrens|N|Ratchet|
 N Out With It|QID|991656|N|You should have enough Tricky Treats to do this one. Just eat one every time the global cooldown is over until you throw up.|ACH|1656;2|U|33226|
 N That Sparkling Smile|QID|990981|N|You should have a toothpick by now. If not, you can buy one or try again in the next guide.|ACH|1656;5|U|37604|
 
-N This completes Hallow's End for Kalimdor.|
+N This completes Hallow's End for Kalimdor.
 
 ]]
 end)
