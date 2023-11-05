@@ -57,8 +57,8 @@ T Some Spraining to Do|QID|26254|M|62.2,47|N|Hop on Stormbeak the gryphon. After
 A Return to the Temple of Earth|QID|26255|PRE|26254|M|62.2,47|N|From Stormcaller Mylra.|
 T Return to the Temple of Earth|QID|26255|M|49.6,53|N|Fly back to the Temple of Earth. To Maruut Stonebinder.|
 A Deathwing's Fall|QID|26258|PRE|26255|M|49.6,53|N|From Maruut Stonebinder.|
-A Blood of the Earthwarder|QID|26259|PRE|26255|RANK|2|M|49.7,53|N|From Seer Koromo.|
-C Blood of the Earthwarder|QID|26259|RANK|2|M|53.4,59.4|N|Kill Living Blood along the chain of lava pools until you have 5 Blood of Neltharion.|
+A Blood of the Earthwarder|QID|26259|PRE|26255|M|49.7,53|N|From Seer Koromo.|
+C Blood of the Earthwarder|QID|26259|M|53.4,59.4|N|Kill Living Blood along the chain of lava pools until you have 5 Blood of Neltharion.|
 C Deathwing's Fall|QID|26258|NC|M|59.01,58.69|N|When you have finished, mount up and follow The Blood Trail until you reach Deathwing's Fall. You will get the quest complete message.|
 T Deathwing's Fall|QID|26258|M|59.17,58.70|N|(UI Alert)|
 A Bleed the Bloodshaper|QID|26256|PRE|26258|M|59.17,58.70|N|(UI Alert)|
@@ -109,7 +109,7 @@ T Block the Gates|QID|26861|M|64.49,82.25|N|To Seer Galekk.|
 T Abyssion's Minions|QID|26857|M|64.49,82.25|N|To Stormcaller Mylra.|
 A The World Pillar Fragment|QID|26876|PRE|26857&26861|M|64.49,82.25|N|From Stormcaller Mylra.|
 C The World Pillar Fragment|QID|26876|U|60810|M|69.73,76.72|N|Fly to the center of Abyssion's Lair. Use the Earthen Ring Banner there to summon Abyssion. You will fight him the same way that you fought the Stonescale Matriarch. You will also have some NPCs there to help you out. When you see the warning that Abyssion is casting a powerful shadow nova, run away, preferably behind the pillar. It hits for about 20k, which could kill you if you are low.|
-T Blood of the Earthwarder|QID|26259|RANK|2|M|49.66,53.02|N|To Seer Kormo.|
+T Blood of the Earthwarder|QID|26259|M|49.66,53.02|N|To Seer Kormo.|
 T The World Pillar Fragment|QID|26876|M|49.66,53.02|N|To Maruut Stonebinder.|
 T Where's Goldmine?|QID|26409|M|46.48,57.33|N|Leave the Temple and start going to the west around the outside. Find Initiate Goldmine.|
 A Explosive Bonding Compound|QID|26410|PRE|26409|M|46.48,57.33|N|From Initiate Goldmine.|
