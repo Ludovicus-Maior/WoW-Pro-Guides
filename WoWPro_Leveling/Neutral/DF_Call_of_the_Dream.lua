@@ -68,7 +68,8 @@ A Amirdrassil|QID|76323|PRE|77818|M|61.48,60.40|Z|2200|N|From Merithra.|
 T Amirdrassil|QID|76323|M|53.81,63.94|Z|2200|N|To Merithra.|
 A Lost to the Flame|QID|76324|PRE|76323|M|53.81,63.94|Z|2200|N|From Merithra.|
 A Burning Out|QID|77948|PRE|76323|M|52.02,63.64|Z|2200|N|From Solarys Thorngale.|RANK|2|
-;N This is where you pick up the Wrathion quest line if you so choose.|JUMP|Wrathion_Netherdrakes|
+A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|3|
+N This is where you pick up the Wrathion quest line if you so choose.|AVAILABLE|76460|JUMP|Misfit Dragons|
 f Central Encampment|ACTIVE|76324|M|51.08,62.35|Z|2200|N|At Leora.|
 A It Starts With a Stone|QID|78262|PRE|76323|M|49.80,62.87|Z|2200|N|From Vaskarn.|RANK|2|
 C It Starts With a Stone|QID|78262|M|49.83,62.86|Z|2200|NC|QO|1|N|Collect Flightstones.|S|
