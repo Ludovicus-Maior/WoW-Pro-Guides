@@ -180,7 +180,7 @@ N Leftover quest item|QID|950|N|As you no longer need it, you can safely destroy
 L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop the book, turn in is in ironforge which we will head to later. Skip if you're not interested.|
 A The Powers Below|QID|968|M|38.64,87.33|N|Click the book to accept the quest.|U|5352|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
-C Fruit of the Sea|QID|1138|N|Keep an eye out for Reef Crawlers and Encrusted Reef Crawlers whilst on the beaches of Darkshore.|S|
+C Fruit of the Sea|QID|1138|N|Keep an eye out for Reef Crawl ers and Encrusted Reef Crawlers whilst on the beaches of Darkshore.|S|
 A Beached Sea Creature|QID|4730|PRE|4681|M|32.73,80.75|N|Surrounded by level 15 Murlocs|
 A Beached Sea Turtle|QID|4731|PRE|4681|M|31.68,83.63|N|Surrounded by level 20 Murlocs.|
 A Beached Sea Turtle|QID|4732|PRE|4681|M|31.27,85.54|N|Surrounded by level 20 Murlocs.|
