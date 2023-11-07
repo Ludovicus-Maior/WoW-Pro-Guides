@@ -42,7 +42,7 @@ A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112|N|From Hot Springs Spa Promote
 A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112|N|From Waywatcher Lorin.|RANK|2|
 A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|PRE|71232^72293|M|50.14,56.28|Z|2112|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
 ;A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around... not sure what the trigger is. but as it's done in WS still... leaving out of this guide entirely
-R To Valdrakken|QID|66244|ACTIVE|66244|M|52.20,53.02|Z|2112|QO|1|N|Head up the steps for the quest update.| ; Go to step - Hendo72
+R To Valdrakken|ACTIVE|66244|M|52.20,53.02|Z|2112|QO|1|N|Head up the steps for the quest update.| ; Go to step - Hendo72
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
 A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
 T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
@@ -50,7 +50,7 @@ A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Val
 T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
-P To Valdrakken|QID|66244|ACTIVE|66244|M|61.82,32.02|Z|2112|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
+P To Valdrakken|ACTIVE|66244|M|61.82,32.02|Z|2112|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
 T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|;adventure mode
 
 T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
@@ -423,8 +423,8 @@ A An Expert Opinion|QID|70697|PRE|70647|M|10.41,58.26|Z|2112|N|From Jyhanna. Thi
 t So How Did It Go?|QID|70854|M|10.32,58.37|Z|2112|N|To Jyhanna.|
 
 T A Dryad's Work Is Never Done|QID|67094|M|72.89,66.17|Z|2112|N|To Thalendra.|
-A A Dryadic Remedy|QID|67606|PRE|67094|M|72.89,66.17|Z|2112|N|From Thalendra.|
-l Barrel of Confiscated Treats|QID|67606|M|9.50,55.87|Z|2112|QO|1|N|Loot the treasure to collect a Tasty Hatchling's Treat. You can also get the treats on the Auction House or cook them up if you have the recipe.|
+A A Dryadic Remedy|QID|67606|PRE|67094|M|72.89,66.17|Z|2112|N|From Thalendra.|RANK|2|
+l Barrel of Confiscated Treats|ACTIVE|67606|M|9.50,55.87|Z|2112|QO|1|N|Loot the barrel (behind the book shelf) to collect a Tasty Hatchling's treat and the recipe to make more.\n[color=FF0000]NOTE: [/color]You can also get the treats on the Auction House or cook them up if you have the recipe.|
 C A Dryadic Remedy|QID|67606|M|66.39, 58.10|Z|2112|QO|2|CHAT|N|Adminster Thalendra's Remedy to the Despondant Duckling. It's hiding under the leaves of the plant.|
 T A Dryadic Remedy|QID|67606|M|72.99, 65.97|Z|2112|N|To Thalendra.|
 
