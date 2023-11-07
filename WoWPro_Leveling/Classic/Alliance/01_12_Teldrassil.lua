@@ -309,24 +309,24 @@ C Oakenscowl|QID|2499|M|53.05,74.49|N|Locate Oakenscowl inside the cave and kill
 R Strange Fruited Plant|QID|930|ACTIVE|2499|M|51.27,75.74|CC|N|Go up this path.|
 A The Glowing Fruit|QID|930|M|42.62,76.11|N|Right-click the glowing plant.|
 K Ursal the Mauler|QID|486|QO|1|M|39.04,80.08|T|Ursal the Mauler|N|He's level 12 and can be difficult for some classes. Try to single pull him: Watch his patrolling route and clear out a few of the other Furbolgs beforehand. Use your Severed Voodoo Claw to curse him (if you still have charges left) and the fight shouldn't be any problem.|
-T Oakenscowl|QID|2499|M|60.90,68.50|N|To Denalan.|
-T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan. Wait for a bit, as Denalan will plant the fruit and three Boglings spawn. Kill them, they have a Bogling Root which increases damage by 1 for 10 minutes. Put your pet on passive if you are a hunter.|
+L Level 12|ACTIVE|2499|N|Grind until you're within 7 bubbles of level 12.|LVL|11;-2970|
+T Oakenscowl|QID|2499|M|60.90,68.50|N|To Denalan.\n[color=FF0000]NOTE: [/color]If your hearth is still set for Dolanaar, use it to shorten the distance.|
+T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan.\n[color=FF0000]NOTE: [/color]Wait for a bit, as Denalan will plant the fruit and three Boglings spawn. They drop a Bogling Root which increases damage by 1 for 10 minutes (Put your pet on passive if you are a hunter).|
 
 r Sell and Repair|QID|486|M|55.89,59.21|N|Sell Junk and Repair.|
 T Ursal the Mauler|QID|486|M|55.96,57.28|N|To Athridas Bearmantle.|
-
-H Darnassus|QID|935|ACTIVE|935|C|Druid|M|36.52,54.42|CC|N|If your Hearth is up use it, other wise run back to Darnassus.|
-R Darnassus|QID|935|ACTIVE|935|C|-Druid|M|36.52,54.42|CC|N|Run to Darnassus, say goodbye to Teldrassil.|
-T Vorlus Vilehoof|QID|1683|C|Warrior|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|
-A The Shade of Elura|QID|1686|PRE|1683|C|Warrior|O|M|57.34,34.66|Z|Darnassus|N|From Elanaria. This quest gives a 7.6 dps one hand weapon later.|
-T Destiny Calls|QID|2242|C|Rogue|M|36.99,21.92|Z|Darnassus|N|To Syurna.|
-R Crown of the Earth|QID|935|ACTIVE|935|M|34.34,08.80|Z|Darnassus|CC|N|Go to the top of this building.|
+H Darnassus|ACTIVE|935|M|88.20,35.61|Z|Darnassus|N|Say goodbye to Teldrassil and hearth to Darnassus.\n[color=FF0000]NOTE: [/color]If your hearth is on cooldown, you'll have to foot it all the way there.|
+= Level 12 Training|ACTIVE|935|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|Darnassus|
+T Vorlus Vilehoof|QID|1683|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|C|Warrior|
+A The Shade of Elura|QID|1686|PRE|1683|M|57.34,34.66|Z|Darnassus|N|From Elanaria.\n[color=FF0000]NOTE: [/color]This quest gives a 7.6 dps one hand weapon later.|C|Warrior|O|
+T Destiny Calls|QID|2242|M|36.99,21.92|Z|Darnassus|N|To Syurna.|C|Rogue|
+R Crown of the Earth|ACTIVE|935|M|34.34,08.80|Z|Darnassus|CC|N|Go to the top of this building.|
 T Crown of the Earth|QID|935|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm.|
 T Teldrassil|QID|940|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm.|
-A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|Darnassus|N|From Arch Druid Fandral Staghelm. This quest turn-in is in southern Darkshore and has the turn-in on the Darkshore guide.|
+A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|Darnassus|N|From Arch Druid Fandral Staghelm.\n[color=FF0000]NOTE: [/color]This quest is turned-in in the next guide, Darkshore.|
 T Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora, upstairs in the Temple of Moon.|
 A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
-C Sathrah's Sacrifice|QID|2520|NC|M|38.24,85.73|Z|Darnassus|U|8155|N|Use Sathrah's Sacrifice in the fountain down below.|
+C Sathrah's Sacrifice|QID|2520|M|38.24,85.73|Z|Darnassus|N|Use Sathrah's Sacrifice in the fountain down below.|U|8155|NC|
 T Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora.|
 ; --- Guide ends in Darnassus.
 
