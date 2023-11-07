@@ -12,5 +12,6 @@
     <Script file="Dragon_Riding_Glyphs-noACHcomplete.lua"/>
 	<Script file="FR_Dragon_Riding_Glyphs.lua"/>
 	<Script file="EoN_Dragon_Riding_Glyphs.lua"/>
+	<Script file="CoD_Dragon_Riding_Glyphs.lua"/>
 	<Script file="DFHighestPeaks.lua"/>
 </Ui>

@@ -27,8 +27,8 @@ T Cavern Cleaning|QID|76462|M|61.23,73.15|Z|2025|N|To Vyranoth.|
 A A Whelping Hand|QID|77197|M|61.23,73.15|Z|2025|N|From Wrathion.|
 T A Whelping Hand|QID|77197|M|61.58,68.77|Z|2022|N|To Mother Elion.|
 A Delectable Delicacies|QID|76463|M|61.58,68.77|Z|2022|N|From Mother Elion.|
-C Delectable Delicacies|QID|76463|M|57.53,70.84|Z|2025|N|Kill da bugs, Collect the bits.|
-T Delectable Delicacies|QID|76463|M|61.58,68.77|Z|2025|N|To Mother Elion.|
+C Delectable Delicacies|QID|76463|M|57.53,70.84|Z|2022|N|Kill da bugs, Collect the bits.|
+T Delectable Delicacies|QID|76463|M|61.58,68.77|Z|2022|N|To Mother Elion.|
 A Home in Time for Tea|QID|77198|M|61.58,68.77|Z|2022|N|From Mordenaku.|
 C Home in Time for Tea|QID|77198|M|46.98,47.70|Z|2112|N|Fly or Hearth back to Valdrakken.|U|6948|
 T Home in Time for Tea|QID|77198|M|46.98,47.70|Z|2025|N|To Mordenaku.|
@@ -40,7 +40,7 @@ T The Thorignir|QID|76464|M|51.08,83.98|Z|634|N|To Vyranoth.|
 A Dragon Keeping|QID|76465|M|51.08,83.98|Z|634|N|From Vyranoth.|
 C Dragon Keeping|QID|76465|M|51.08,83.98|Z|634|CHAT|N|Speak to Vyranoth.|
 T Dragon Keeping|QID|76465|M|50.84,62.76|Z|2200|N|To Vyranoth.|
-N Click the book to take you back to the Emerald Dream guide.|JUMP|Call_of_the_Dream|
+N Click the book to take you back to the Emerald Dream guide.|JUMP|Call of the Dream|
 ]]
 
 end)

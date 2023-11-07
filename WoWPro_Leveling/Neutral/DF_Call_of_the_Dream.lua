@@ -2,50 +2,22 @@ local guide = WoWPro:RegisterGuide('Call_of_the_Dream', 'Leveling', 'Stormwind C
 WoWPro:GuideName(guide,"Call of the Dream")
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideNickname(guide, "Call of the Dream")
 WoWPro:GuideQuestTriggers(guide, 76317, 76318)
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-t A Sentinel's Summon|QID|76982|M|50.21,52.84|Z|2112|N|To Shandris Feathermoon.|
-A Fire Season|QID|75918|M|50.21,52.84|Z|2112|N|From Shandris Feathermoon.|
-F Shady Sanctuary|ACTIVE|75918|M|44.09,67.89|Z|Valdrakken|N|Head to the flightmaster and take a flight to Shady Sanctuary.|
-T Fire Season|QID|75918|M|18.64,79.78|Z|2023|N|To Shandris Feathermoon.|
-A Dousing the Wards|QID|75919|PRE|75918|M|18.64,79.78|Z|2023|N|From Shandris Feathermoon.|
-A Eyes of Fire|QID|75920|PRE|75918|M|18.64,79.78|Z|2023|N|From Shandris Feathermoon.|
-t Dousing the Wards|QID|75919|M|PLAYER|Z|2023|N|To Shandris Feathermoon.|
-t Eyes of Fire|QID|75920|M|PLAYER|Z|2023|N|To Shandris Feathermoon.|
-C Eyes of Fire|QID|75920|M|20.02,81.24|Z|2023|S|N|Kill Fyrakk's forces.|
-C Dousing the Wards|QID|75919|M|20.39,82.35|Z|2023|H|N|Click the Warding Firestones to destroy them.|
-C Eyes of Fire|QID|75920|M|20.02,81.24|Z|2023|US|N|Continue to kill Fyrakk's forces until the step closes.|
-T Dousing the Wards|QID|75919|M|PLAYER|Z|2023|N|To Shandris Feathermoon.|
-T Eyes of Fire|QID|75920|M|PLAYER|Z|2023|N|To Shandris Feathermoon.|
-A Through the Flames|QID|75921|PRE|75919&75920|M|PLAYER|Z|2023|N|From Shandris Feathermoon.|
-C Through the Flames|QID|75921|M|20.37,81.05|Z|2023|QO|1|NC|N|Approach the flower.|
-C Through the Flames|QID|75921|M|20.42,80.91|Z|2023|QO|2|CHAT|N|Tell Shandris you are ready.|
-C Through the Flames|QID|75921|M|21.29,78.55|Z|2023|QO|3|H|N|Work your way thru the maze of fire to click on the smoldering blossoms. Alternatively, there is a potion by the left side of the bridge, that will significantly slow you down, but also make you immune to fire, so you can just walk to the Smoldering Blossoms.|
-C Through the Flames|QID|75921|M|21.83,77.35|Z|2023|QO|4|NC|N|Circle around the baddies to reach the hiding spot.|
-T Through the Flames|QID|75921|M|21.89,77.33|Z|2023|N|To Shandris Feathermoon.|
-A Inflammatory Information|QID|75922|PRE|75921|M|21.89,77.33|Z|2023|N|From Shandris Feathermoon.|
-C Inflammatory Information|QID|75922|M|21.89,77.33|Z|2023|QO|1|H|N|Click the glowing bush to eavesdrop with Shandris.|
-C Inflammatory Information|QID|75922|M|22.01,75.90|Z|2023|QO|2|N|Kill the tentacle mobs, and Larodar will find something better to do.|
-T Inflammatory Information|QID|75922|M|21.69,77.09|Z|2023|N|To Shandris Feathermoon.|
-A Raise the Alarm|QID|75923|PRE|75922|M|21.69,77.09|Z|2023|N|From Shandris Feathermoon.|
-C Raise the Alarm|QID|75923|M|54.62,45.87|Z|2112;Valdrakken|QO|1|NC|N|Use the Sentinel's Whistle to return to Valdrakken (Optional) You can return any way you want.|U|206353|
-C Raise the Alarm|QID|75923|M|56.01,40.03|Z|2112;Valdrakken|QO|2|CHAT|N|Deliver the Report to Captain Drine.|
-C Raise the Alarm|QID|75923|M|52.89,46.51|Z|2112;Valdrakken|QO|3|H|N|Use the Drakonid Grapple (Optional) You can jump (DH) or fly down too.|
-C Raise the Alarm|QID|75923|M|53.08,46.58|Z|2112;Valdrakken|QO|4|NC|N|Follow guards to the lower ledge.|
-C Raise the Alarm|QID|75923|M|54.62,47.40|Z|2112;Valdrakken|QO|5|CHAT|N|Ask Captain Drine what's going on.|
-T Raise the Alarm|QID|75923|M|53.95,46.34|Z|2112;Valdrakken|N|To Captain Drine.|
+N You need to complete Coalition of Flames to continue with this guide.|AVAILABLE|75923|JUMP|The Coalition of Flames|
 t Call of the Dream|QID|76317|M|18.66,51.77|Z|2023|N|To Merithra.|
-A Emerald Welcome|QID|76318|PRE|75923|M|18.66,51.77|Z|2023|N|From Merithra.|
+A Emerald Welcome|QID|76318|PRE|76317|M|18.66,51.77|Z|2023|N|From Merithra.|
 C Emerald Welcome|QID|76318|M|18.38,52.35|Z|2023|QO|1|NC|N|Cross into Emerald Dream.|
 C Emerald Welcome|QID|76318|M|69.43,54.07|Z|2200|QO|2|CHAT|N|Speak to Merithra.|
 T Emerald Welcome|QID|76318|M|69.43,54.07|Z|2200|N|To Merithra.|
 A Feast or Flaming|QID|76319|PRE|76318|M|69.43,54.07|Z|2200|N|From Merithra.\nTime to mount your dragon and fly through the rings in the sky.|
 f Verdant Landing|ACTIVE|76319|M|68.91,54.65|Z|2200|N|Pick up the flight path from Occarim.|
 C Feast or Flaming|QID|76319|M|68.83,54.78|Z|2200|QO|1|NC|N|Summon Your Dragonriding Mount or Mount Faerie Drake (Optional).|
-C Feast or Flaming|QID|76319|M|66.06,55.98|Z|2200|QO|2|NC|N|Flames Eaten.|
+C Feast or Flaming|QID|76319|M|66.06,55.98|Z|2200|QO|2|NC|N|Usint your dragonriding mount, fly through all the rings in the sky.|
 T Feast or Flaming|QID|76319|M|64.30,58.20|Z|2200|N|To Cenarius.|
 A Wild Gods in Our Midst|QID|76320|PRE|76319|M|64.30,58.20|Z|2200|N|From Cenarius|
 C Wild Gods in Our Midst|QID|76320|M|62.64,66.27|Z|2200|QO|1|CHAT|N|Goldrinn's aid requested.|
@@ -68,9 +40,10 @@ A Amirdrassil|QID|76323|PRE|77818|M|61.48,60.40|Z|2200|N|From Merithra.|
 T Amirdrassil|QID|76323|M|53.81,63.94|Z|2200|N|To Merithra.|
 A Lost to the Flame|QID|76324|PRE|76323|M|53.81,63.94|Z|2200|N|From Merithra.|
 A Burning Out|QID|77948|PRE|76323|M|52.02,63.64|Z|2200|N|From Solarys Thorngale.|RANK|2|
-A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|3|
-N This is where you pick up the Wrathion quest line if you so choose.|AVAILABLE|76460|JUMP|Misfit Dragons|
+;A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|3|
+;N This is where you pick up the Wrathion quest line if you so choose.|AVAILABLE|76460|JUMP|Misfit Dragons|
 f Central Encampment|ACTIVE|76324|M|51.08,62.35|Z|2200|N|At Leora.|
+N If you would like to collect all the Emeral Dream runes now, click the book. Otherwise just click this step off.|JUMP|CoD_Dragonriding_Glyphs|ACH|19306|
 A It Starts With a Stone|QID|78262|PRE|76323|M|49.80,62.87|Z|2200|N|From Vaskarn.|RANK|2|
 C It Starts With a Stone|QID|78262|M|49.83,62.86|Z|2200|NC|QO|1|N|Collect Flightstones.|S|
 C Lost to the Flame|QID|76324|M|50.54,72.09|Z|2200|QO|1|N|Elder Cassaphine slain.|
@@ -253,7 +226,7 @@ A Disarm Specialist|QID|76330|PRE|76328|M|52.15,24.23|Z|2200|N|From Merithra.|
 C Disarm Specialist|QID|76330|M|47.71,25.15|Z|2200;Emerald Dream|U|208184|N|Use the dust and kill shapers.|S|
 C In and Out Scout|QID|76329|M|44.60,24.28|Z|2200|QO|2|NC|U|210016|N|Spy on The Anvil.|
 C In and Out Scout|QID|76329|M|45.60,19.77|Z|2200;Emerald Dream|QO|1|NC|U|210016|N|Spy on Moltenbinder.|
-C In and Out Scout|QID|76329|M|48.63,21.11|Z|2200;Emerald Dream|QO|3|NC|U|210016|N|Spy on Igira the Cruel.|
+C In and Out Scout|QID|76329|M|48.45,22.41|Z|2200;Emerald Dream|QO|3|NC|U|210016|N|Spy on Igira the Cruel, go out of the cave to the right and up the ramp, you need to talk to Bodwin.|
 C Disarm Specialist|QID|76330|M|47.71,25.15|Z|2200;Emerald Dream|U|208184|N|Use the dust and kill shapers.|US|
 T In and Out Scout|QID|76329|M|52.14,24.22|Z|2200;Emerald Dream|N|To Merithra.|
 T Disarm Specialist|QID|76330|M|52.14,24.22|Z|2200;Emerald Dream|N|To Merithra.|
@@ -286,7 +259,6 @@ C Flight and Fight|QID|76336|M|54.59,26.94|Z|2200;Emerald Dream|QO|2|N|Using you
 C Flight and Fight|QID|76336|M|51.57,30.30|Z|2200;Emerald Dream|QO|3|CHAT|N|Speak to Merithra.|
 T Flight and Fight|QID|76336|M|51.97,29.49|Z|2200;Emerald Dream|N|To Merithra.|
 A The Ember Still Smolders|QID|76337|PRE|76336|M|51.97,29.49|Z|2200;Emerald Dream|N|From Merithra.|
-
 A Memory of the Dreamer|QID|77310|M|58.62,23.94|Z|2200;Emerald Dream|N|From Keeper Anranas.|RANK|2|
 C Memory of the Dreamer|QID|77310|M|58.62,23.94|Z|2200;Emerald Dream|NC|N|Sleep on the leaves on the ground.|
 T Memory of the Dreamer|QID|77310|M|58.62,23.94|Z|2200;Emerald Dream|N|To Alexstrasza.|
@@ -307,7 +279,7 @@ C Requiem in a Dream|QID|77314|M|58.63,23.94|Z|2200;Emerald Dream|QO|1|H|N|Click
 C Requiem in a Dream|QID|77314|M|58.63,23.94|Z|2200;Emerald Dream|QO|2|CHAT|N|Talk to Gracus.|
 T Requiem in a Dream|QID|77314|M|58.63,23.94|Z|2200;Emerald Dream|N|To Ysera.|
 A Ancient Memories|QID|77315|PRE|77314|M|58.63,23.94|Z|2200;Emerald Dream|N|From Ysera.|RANK|2|
-K Lingering Torment|ACTIVE|77315|M|58.63,23.94|Z|2200;Emerald Dream|N|Kill the Lingering Torment.|
+K Lingering Torment|ACTIVE|77315|M|54.74,18.25|Z|2200;Emerald Dream|QO|1|N|Kill the Lingering Torment.|
 T Ancient Memories|QID|77315|M|58.63,23.94|Z|2200;Emerald Dream|N|To Ysera.|
 T Mysterious Seeds|QID|78172|M|59.75,16.91|Z|2200|N|To Sylvia Whisperbloom.|
 A Seed Legacy|QID|77209|PRE|78172|M|59.75,16.91|Z|2200|N|From Sylvia Whisperbloom.|RANK|2|
