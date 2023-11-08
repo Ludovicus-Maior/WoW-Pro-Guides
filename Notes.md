@@ -1,3 +1,20 @@
+# Release 2023.11.08.A
+## Bug Fixes
+* Zone Name updates for 10.2.0
+* Retail interface stepped to 100200
+## Guide Updates
+### Retail
+* Achievements: Call of the Dream Glyphs,
+* Leveling/Alliance: Exiles Reach Intro
+* Leveling/Horde: BFA Intro, Chromie Time, Exiles Reach
+* Leveling/Neutral: Azure Span, Call of the Dream, DF Campaign, Misfit Dragons, Thaldraszus, The Coalition of Flames, SL Maw Intro
+* WorldEvents/Alliance: Hallows End
+### WotLK
+* Leveling/Alliance: Intro Human
+### Classic
+* Leveling/Alliance: Intro Human, Teldrassil 1-12, Darkshore 12-20, Eastern Kingdom 12-20
+
+
 # Release 2023.10.11.A
 ## Bug Fixes
 * Empty Guide text updated to help folks get started easier
@@ -33,7 +50,7 @@
 ### Retail
 * Leveling/Alliance: BFA Intro, Exiles Reach
 * Leveling/Horde: BFA Intro, Exiles Reach, Forsaken Intro,
-* Neutral Leveling: Onaharen Plains, Shandris_Feathermoon_Questline
+* Neutral Leveling: Onaharen Plains, Shandris Feathermoon Questline
 ### WotLK
 * Many guides were updated to remove outdate hearthstone references
 * Leveling/Alliance: Intro Human, Intro Dwarf/Gnome, Darkshore, Teldrassil
