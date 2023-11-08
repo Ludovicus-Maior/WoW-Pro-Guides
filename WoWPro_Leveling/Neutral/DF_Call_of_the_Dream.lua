@@ -7,6 +7,24 @@ WoWPro:GuideQuestTriggers(guide, 76317, 76318)
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
+;Chapter 2
+;A Burning Out|QID|77948|PRE|76323|M|52.02,63.64|Z|2200|N|From Solarys Thorngale.|RANK|2|;Possible Chapter 2
+;C Burning Ground|QID|76437|M|34.05,47.40|Z|2200|QO|1|NC|N|Captured denizens rescued.|S|
+;C Burning Out|QID|77948|M|37.98,47.19|Z|2200|QO|1|CHAT|N|Find Lyandris Thorngale.|RANK|2|
+;A A Passed Torch|QID|77978|PRE|76435|M|38.00,47.18|Z|2200|N|From Singed Leaflet.|RANK|2|;possible chapter 2?
+;C A Passed Torch|QID|77978|M|37.70,46.01|Z|2200|QO|1|H|N|Singed Leaflets Collected.|S|
+;C A Passed Torch|QID|77978|M|37.45,47.10|Z|2200|QO|2|N|Druids of the Flame Slain.|RANK|2|S|
+;C Burning Out|QID|77948|M|34.35,44.28|Z|2200|QO|2|CHAT|N|Find Thaeldus Thorngale.|
+;C Burning Out|QID|77948|M|38.78,43.57|Z|2200|QO|3|CHAT|N|Find Kery'nael Thorngale.|
+;C Burning Ground|QID|76437|M|34.05,47.40|Z|2200|QO|1|NC|N|Captured denizens rescued.|US|
+;C A Passed Torch|QID|77978|M|37.70,46.01|Z|2200|QO|1|H|N|Singed Leaflets Collected.|US|
+;C A Passed Torch|QID|77978|M|37.45,47.10|Z|2200|QO|2|N|Druids of the Flame Slain.|RANK|2|US|
+;C A Passed Torch|QID|77978|M|37.70,46.01|Z|2200|QO|1|H|N|They are marked on the mini map with yellow dots.|
+;T Burning Out|QID|77948|M|50.86,63.62|Z|2200|N|To Solarys Thorngale.|RANK|2|
+;T A Passed Torch|QID|77978|M|50.86,63.62|Z|2200|N|To Solarys Thorngale.|RANK|2|
+
+
+
 
 N You need to complete Coalition of Flames to continue with this guide.|AVAILABLE|75923|JUMP|The Coalition of Flames|
 t Call of the Dream|QID|76317|M|18.66,51.77|Z|2023|N|To Merithra.|
@@ -39,7 +57,6 @@ T The Cruel|QID|77818|M|61.48,60.40|Z|2200|N|To Merithra.|
 A Amirdrassil|QID|76323|PRE|77818|M|61.48,60.40|Z|2200|N|From Merithra.|
 T Amirdrassil|QID|76323|M|53.81,63.94|Z|2200|N|To Merithra.|
 A Lost to the Flame|QID|76324|PRE|76323|M|53.81,63.94|Z|2200|N|From Merithra.|
-A Burning Out|QID|77948|PRE|76323|M|52.02,63.64|Z|2200|N|From Solarys Thorngale.|RANK|2|
 ;A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|3|
 ;N This is where you pick up the Wrathion quest line if you so choose.|AVAILABLE|76460|JUMP|Misfit Dragons|
 f Central Encampment|ACTIVE|76324|M|51.08,62.35|Z|2200|N|At Leora.|
@@ -77,17 +94,6 @@ T The Smoldering Copse|QID|76435|M|40.79,47.53|Z|2200|N|To Tyrande Whisperwind.|
 A Burning Ground|QID|76437|PRE|76435|M|40.79,47.53|Z|2200|N|From Tyrande Whisperwind.|
 A Grim Reprisal|QID|76441|PRE|76435|M|40.79,47.53|Z|2200|N|From Tyrande Whisperwind.|
 C Grim Reprisal|QID|76441|M|37.05,46.83|Z|2200|QO|1|N|Smoldering forces slain.|RANK|2|S|
-C Burning Ground|QID|76437|M|34.05,47.40|Z|2200|QO|1|NC|N|Captured denizens rescued.|S|
-C Burning Out|QID|77948|M|37.98,47.19|Z|2200|QO|1|CHAT|N|Find Lyandris Thorngale.|RANK|2|
-A A Passed Torch|QID|77978|PRE|76435|M|38.00,47.18|Z|2200|N|From Singed Leaflet.|RANK|2|
-C A Passed Torch|QID|77978|M|37.70,46.01|Z|2200|QO|1|H|N|Singed Leaflets Collected.|S|
-C A Passed Torch|QID|77978|M|37.45,47.10|Z|2200|QO|2|N|Druids of the Flame Slain.|RANK|2|S|
-C Burning Out|QID|77948|M|34.35,44.28|Z|2200|QO|2|CHAT|N|Find Thaeldus Thorngale.|
-C Burning Out|QID|77948|M|38.78,43.57|Z|2200|QO|3|CHAT|N|Find Kery'nael Thorngale.|
-C Burning Ground|QID|76437|M|34.05,47.40|Z|2200|QO|1|NC|N|Captured denizens rescued.|US|
-C A Passed Torch|QID|77978|M|37.70,46.01|Z|2200|QO|1|H|N|Singed Leaflets Collected.|US|
-C A Passed Torch|QID|77978|M|37.45,47.10|Z|2200|QO|2|N|Druids of the Flame Slain.|RANK|2|US|
-C A Passed Torch|QID|77978|M|37.70,46.01|Z|2200|QO|1|H|N|They are marked on the mini map with yellow dots.|
 C Grim Reprisal|QID|76441|M|37.05,46.83|Z|2200|QO|1|N|Smoldering forces slain.|RANK|2|US|
 T Burning Ground|QID|76437|M|35.98,50.91|Z|2200|N|To Tyrande Whisperwind.|
 T Grim Reprisal|QID|76441|M|35.98,50.91|Z|2200|N|To Tyrande Whisperwind.|
@@ -98,8 +104,6 @@ T Forlorn Hope|QID|76442|M|36.13,50.89|Z|2200|N|To Tyrande Whisperwind.|
 A The Looming Cinder|QID|76443|PRE|76442|M|36.13,50.89|Z|2200|N|From Tyrande Whisperwind.|
 T The Looming Cinder|QID|76443|M|50.80,62.87|Z|2200|N|To Merithra.|
 A Mayhem Incarnate|QID|76403|PRE|76443|M|50.81,62.74|Z|2200|N|From Vyranoth.|
-T Burning Out|QID|77948|M|50.86,63.62|Z|2200|N|To Solarys Thorngale.|RANK|2|
-T A Passed Torch|QID|77978|M|50.86,63.62|Z|2200|N|To Solarys Thorngale.|RANK|2|
 C It Starts With a Stone|QID|78262|M|49.83,62.86|Z|2200|NC|QO|1|N|You are seeing this becuz you did not finish collecting the flightstones they are required to progress on in this guide. Go do some world quests till you get enough.|US|
 C It Starts With a Stone|QID|78262|M|49.79,62.91|Z|2200|NC|QO|2|N|Upgrade a S3 item.|
 T It Starts With a Stone|QID|78262|M|49.79,62.91|Z|2200|N|To Vaskarn.|RANK|2|
@@ -191,7 +195,7 @@ T Heated Hearthstone Hustle|QID|77955|M|58.15,77.32|Z|2200|N|Turn in to Thaalean
 A Sleepy Druid in Emerald Dream|QID|77958|PRE|77955|M|58.18,77.33|Z|2200|N|From Thaalean|
 C Sleepy Druid in Emerald Dream|QID|77958|QO|1|M|58.18,77.33|Z|2200|CHAT|N|Talk to Thaalean|
 T Sleepy Druid in Emerald Dream|QID|77958|M|50.34,63.34|Z|2200|N|To Icatius.|
-C The Q'onzu Query|QID|78065|M|34.73,68.94|Z|2200|QO|1|NC|U|210227|N|Find Q'onzu's nest.|
+C The Q'onzu Query|QID|78065|M|34.73,68.94|Z|2200|QO|1|NC|N|Find Q'onzu's nest.|
 T The Q'onzu Query|QID|78065|M|34.73,68.95|Z|2200|N|To Follower of Q'onzu.|RANK|2|
 A Q'onzu's Qualification|QID|78163|PRE|78065|M|34.73,68.95|Z|2200|N|From Follower of Q'onzu.|RANK|2|
 C Q'onzu's Qualification|QID|78163|M|35.02,68.94|Z|2200|QO|1|NC|N|Q'onzu's 100 questions answered. (100%).|RANK|2|
@@ -212,53 +216,29 @@ C The Answers You've Earned|QID|78066|M|50.78,62.07|Z|2200|QO|6|CHAT|N|Rumors sh
 C The Answers You've Earned|QID|78066|M|34.76,69.10|Z|2200|QO|7|CHAT|N|Q'onzu questioned about the rumors..|
 T The Answers You've Earned|QID|78066|M|34.65,69.26|Z|2200|N|To Single Feather.|RANK|2|
 A Sky Mother's Ire|QID|78041|PRE|78066|M|50.74,62.18|Z|2200|N|From Cenarius|
-A Eye of Ysera|QID|76327|PRE|77178|M|50.85,62.89|Z|2200|N|From Ysera.|
-C Eye of Ysera|QID|76327|M|50.95,62.59|Z|2200|QO|1|NC|N|Take the portal into the Eye of Ysera.|
-T Eye of Ysera|QID|76327|M|52.12,29.20|Z|2200|N|To Merithra.|
-A A New Brute|QID|76328|PRE|76327|M|52.12,29.20|Z|2200|N|From Merithra.|
-C A New Brute|QID|76328|M|51.67,29.06|Z|2200|QO|1|NC|U|208124|N|Emerald Preservers imbued.|
-C A New Brute|QID|76328|M|52.83,27.98|Z|2200|QO|2|NC|N|Check in on Ysera.|
-T A New Brute|QID|76328|M|52.72,28.17|Z|2200|N|To Merithra.|
-A Fire Watch|QID|78646|M|52.73,28.15|Z|2200|N|From Merthra.|
-T Fire Watch|QID|78646|M|52.15,24.23|Z|2200|N|To Merithra.|
-A In and Out Scout|QID|76329|PRE|76328|M|52.15,24.23|Z|2200|N|From Merithra.|
-A Disarm Specialist|QID|76330|PRE|76328|M|52.15,24.23|Z|2200|N|From Merithra.|
-C Disarm Specialist|QID|76330|M|47.71,25.15|Z|2200;Emerald Dream|U|208184|N|Use the dust and kill shapers.|S|
-C In and Out Scout|QID|76329|M|44.60,24.28|Z|2200|QO|2|NC|U|210016|N|Spy on The Anvil.|
-C In and Out Scout|QID|76329|M|45.60,19.77|Z|2200;Emerald Dream|QO|1|NC|U|210016|N|Spy on Moltenbinder.|
-C In and Out Scout|QID|76329|M|48.45,22.41|Z|2200;Emerald Dream|QO|3|NC|U|210016|N|Spy on Igira the Cruel, go out of the cave to the right and up the ramp, you need to talk to Bodwin.|
-C Disarm Specialist|QID|76330|M|47.71,25.15|Z|2200;Emerald Dream|U|208184|N|Use the dust and kill shapers.|US|
-T In and Out Scout|QID|76329|M|52.14,24.22|Z|2200;Emerald Dream|N|To Merithra.|
-T Disarm Specialist|QID|76330|M|52.14,24.22|Z|2200;Emerald Dream|N|To Merithra.|
-A Good Counsel|QID|76334|PRE|76329&76330|M|53.06,28.20|Z|2200;Emerald Dream|N|From Merithra.|
-C Good Counsel|QID|76334|M|53.03,28.28|Z|2200;Emerald Dream|QO|1|CHAT|N|Regroup with Merithra.|
-C Good Counsel|QID|76334|M|52.82,27.97|Z|2200;Emerald Dream|QO|2|CHAT|N|Speak to green dragons.|
-C Good Counsel|QID|76334|M|52.82,27.97|Z|2200;Emerald Dream|QO|3|CHAT|N|Speak with Ysera.|
-T Good Counsel|QID|76334|M|53.05,28.20|Z|2200;Emerald Dream|N|To Merithra.|
-A Putting Roots Down|QID|76332|PRE|76334|M|53.05,28.20|Z|2200;Emerald Dream|N|From Merithra.|
-C Putting Roots Down|QID|76332|M|55.48,25.79|Z|2200;Emerald Dream|QO|1|H|N|Noxious seeds planted.|S|
-C Putting Roots Down|QID|76332|M|57.20,25.87|Z|2200;Emerald Dream|QO|2|CHAT|N|Speak to Kiya Featherpaw.|
-C Putting Roots Down|QID|76332|M|55.48,25.79|Z|2200;Emerald Dream|QO|1|H|N|Noxious seeds planted.|US|
-C Putting Roots Down|QID|76332|M|56.98,23.17|Z|2200;Emerald Dream|QO|3|CHAT|N|Speak to Somnikus.|
-T Putting Roots Down|QID|76332|M|53.05,28.20|Z|2200;Emerald Dream|N|To Merithra.|
-A Merithra's Gambit|QID|76331|PRE|76332|M|53.05,28.20|Z|2200;Emerald Dream|N|From Merithra.|
-C Merithra's Gambit|QID|76331|M|52.83,27.97|Z|2200;Emerald Dream|QO|1|CHAT|N|Ask Ysera to lower the Eye's defenses.|
-T Merithra's Gambit|QID|76331|M|52.89,28.03|Z|2200;Emerald Dream|N|To Merithra.|
-A Triple Threat|QID|76333|PRE|76331|M|52.89,28.03|Z|2200;Emerald Dream|N|From Merithra.|
-A Might of the Forest|QID|76335|PRE|76331|M|52.89,28.03|Z|2200;Emerald Dream|N|From Merithra.|
-C Might of the Forest|QID|76335|M|56.65,28.19|Z|2200;Emerald Dream|QO|1|N|Djaradin forces slain and traps activated (100%).|S|
-K The Anvil|ACTIVE|76333|M|56.64,28.20|Z|2200;Emerald Dream|QO|1|N|The Anvil slain.|
-K Moltenbinder|ACTIVE|76333|M|54.34,25.46|Z|2200;Emerald Dream|QO|2|N|Moltenbinder slain.|
-K Galok Wingslicer|ACTIVE|76333|M|56.76,23.58|Z|2200;Emerald Dream|QO|3|N|Galok Wingslicer slain.|
-C Might of the Forest|QID|76335|M|56.65,28.19|Z|2200;Emerald Dream|QO|1|N|Djaradin forces slain and traps activated (100%).|US|
-T Might of the Forest|QID|76335|M|57.32,26.14|Z|2200;Emerald Dream|N|To Merithra.|
-T Triple Threat|QID|76333|M|57.33,26.13|Z|2200;Emerald Dream|N|To Merithra.|
-A Flight and Fight|QID|76336|PRE|76335&76333|M|57.33,26.13|Z|2200;Emerald Dream|N|From Merithra.|
-C Flight and Fight|QID|76336|M|57.40,25.52|Z|2200;Emerald Dream|QO|1|NC|N|Summon your Dragonriding Mount or Mount Green Dragon (Optional).|
-C Flight and Fight|QID|76336|M|54.59,26.94|Z|2200;Emerald Dream|QO|2|N|Using your dragon riding mouth fly through the lava sporebats, the dragons will drop green orbs that will replenish your vigor.|
-C Flight and Fight|QID|76336|M|51.57,30.30|Z|2200;Emerald Dream|QO|3|CHAT|N|Speak to Merithra.|
-T Flight and Fight|QID|76336|M|51.97,29.49|Z|2200;Emerald Dream|N|To Merithra.|
-A The Ember Still Smolders|QID|76337|PRE|76336|M|51.97,29.49|Z|2200;Emerald Dream|N|From Merithra.|
+T Sky Mother's Ire|QID|78041|M|65.85,37.65|Z|2200|N|To Aviana|
+A Aviana's Assessment|QID|78042|PRE|78041|M|65.85,37.65|Z|2200|N|From Aviana.|RANK|2|
+A Q'onzu's Quandary|QID|78043|PRE|78041|M|65.85,37.65|Z|2200|N|From Q'onzu.|RANK|2|
+C Aviana's Assessment|QID|78042|M|59.61,44.59|Z|2200|N|Kill the flame druids loot their armour.|S|
+C Q'onzu's Quandary|QID|78043|M|59.61,44.59|Z|2200|CHAT|N|Talk to the druids marked by yellow dots on the map.|S|
+;A Ashphodel Research Notes|QID|77788|M|PLAYER|Z|2200|N|Use the Research Notes you just looted|U|208775|RANK|2|
+C Ashphodel Research Notes|QID|77788|M|60.88,44.88|Z|2200|QO|1|H|N|Collect the sample of pollen|
+C Q'onzu's Quandary|QID|78043|M|59.61,44.59|Z|2200|CHAT|N|Talk to the druids marked by yellow dots on the map.|US|
+C Aviana's Assessment|QID|78042|M|59.61,44.59|Z|2200|N|Kill the flame druids loot their armour.|US|
+C Ashphodel Research Notes|QID|77788|M|65.85,37.65|Z|2200|QO|2|CHAT|N|Show Q'onzu the pollen.|
+T Aviana's Assessment|QID|78042|M|65.85,37.65|Z|2200|N|To Aviana.|
+T Q'onzu's Quandary|QID|78043|M|65.85,37.65|Z|2200|N|To Q'onzu.|
+T Ashphodel Research Notes|QID|77788|M|65.85,37.65|Z|2200|N|To Q'onzu.|
+A Uproot the Cause|QID|78045|PRE|78042|M|65.85,37.65|Z|2200|N|From Aviana.|RANK|2|
+A Appalling Pollen|QID|78044|PRE|78043|M|65.85,37.65|Z|2200|N|From Q'onzu.|RANK|2|
+C Appalling Pollen|QID|78044|M|59.59,37.18|Z|2200|N|From Q'onzu.|S|U|210176|
+C Uproot the Cause|QID|78045|M|59.59,37.18|Z|2200|N|From Aviana.|
+C Appalling Pollen|QID|78044|M|59.59,37.18|Z|2200|N|From Q'onzu.|US|U|210176|
+T Uproot the Cause|QID|78045|M|65.85,37.65|Z|2200|N|To Aviana.|
+T Appalling Pollen|QID|78044|M|65.85,37.65|Z|2200|N|To Q'onzu.|
+A Overseer Oversight|QID|78046|PRE|78044|M|65.85,37.65|Z|2200|N|From Aviana.|RANK|2|
+K Overseer Chardryn|ACTIVE|78046|M|62.41,39.44|Z|2200|QO|1|N|Kill Overseer Chardryn.|
+T Overseer Oversight|QID|78046|M|65.85,37.65|Z|2200|N|To Aviana.|
 A Memory of the Dreamer|QID|77310|M|58.62,23.94|Z|2200;Emerald Dream|N|From Keeper Anranas.|RANK|2|
 C Memory of the Dreamer|QID|77310|M|58.62,23.94|Z|2200;Emerald Dream|NC|N|Sleep on the leaves on the ground.|
 T Memory of the Dreamer|QID|77310|M|58.62,23.94|Z|2200;Emerald Dream|N|To Alexstrasza.|
@@ -295,31 +275,6 @@ A Blossoms of the Past|QID|78171|M|59.76,16.92|Z|2200|N|From Sylvia Whisperbloom
 C Blossoms of the Past|QID|78171|M|59.71,15.85;59.22,17.33;60.11,18.17|CN|Z|2200|N|Collect the blossoms.|
 T Blossoms of the Past|QID|78171|M|59.76,16.92|Z|2200|N|From Sylvia Whisperbloom.|
 A Emerald Bounty|QID|78206|M|59.76,16.92|Z|2200|N|From Sylvia Whisperbloom.|RANK|2|
-T Sky Mother's Ire|QID|78041|M|65.85,37.65|Z|2200|N|To Aviana|
-A Aviana's Assessment|QID|78042|PRE|78041|M|65.85,37.65|Z|2200|N|From Aviana.|RANK|2|
-A Q'onzu's Quandary|QID|78043|PRE|78041|M|65.85,37.65|Z|2200|N|From Q'onzu.|RANK|2|
-C Aviana's Assessment|QID|78042|M|59.61,44.59|Z|2200|N|Kill the flame druids loot their armour.|S|
-C Q'onzu's Quandary|QID|78043|M|59.61,44.59|Z|2200|CHAT|N|Talk to the druids marked by yellow dots on the map.|S|
-;A Ashphodel Research Notes|QID|77788|M|PLAYER|Z|2200|N|Use the Research Notes you just looted|U|208775|RANK|2|
-C Ashphodel Research Notes|QID|77788|M|60.88,44.88|Z|2200|QO|1|H|N|Collect the sample of pollen|
-C Q'onzu's Quandary|QID|78043|M|59.61,44.59|Z|2200|CHAT|N|Talk to the druids marked by yellow dots on the map.|US|
-C Aviana's Assessment|QID|78042|M|59.61,44.59|Z|2200|N|Kill the flame druids loot their armour.|US|
-C Ashphodel Research Notes|QID|77788|M|65.85,37.65|Z|2200|QO|2|CHAT|N|Show Q'onzu the pollen.|
-T Aviana's Assessment|QID|78042|M|65.85,37.65|Z|2200|N|To Aviana.|
-T Q'onzu's Quandary|QID|78043|M|65.85,37.65|Z|2200|N|To Q'onzu.|
-T Ashphodel Research Notes|QID|77788|M|65.85,37.65|Z|2200|N|To Q'onzu.|
-A Uproot the Cause|QID|78045|PRE|78042|M|65.85,37.65|Z|2200|N|From Aviana.|RANK|2|
-A Appalling Pollen|QID|78044|PRE|78043|M|65.85,37.65|Z|2200|N|From Q'onzu.|RANK|2|
-C Appalling Pollen|QID|78044|M|59.59,37.18|Z|2200|N|From Q'onzu.|S|U|210176|
-C Uproot the Cause|QID|78045|M|59.59,37.18|Z|2200|N|From Aviana.|
-C Appalling Pollen|QID|78044|M|59.59,37.18|Z|2200|N|From Q'onzu.|US|U|210176|
-T Uproot the Cause|QID|78045|M|65.85,37.65|Z|2200|N|To Aviana.|
-T Appalling Pollen|QID|78044|M|65.85,37.65|Z|2200|N|To Q'onzu.|
-A Overseer Oversight|QID|78046|PRE|78044|M|65.85,37.65|Z|2200|N|From Aviana.|RANK|2|
-K Overseer Chardryn|ACTIVE|78046|M|62.41,39.44|Z|2200|QO|1|N|Kill Overseer Chardryn.|
-T Overseer Oversight|QID|78046|M|65.85,37.65|Z|2200|N|To Aviana.|
-T The Ember Still Smolders|QID|76337|M|50.80,62.87|Z|2200;Amirdrassil|N|To Merithra.|
-; Everything below this line needs to find a better place.
 T A Call to Aid|QID|77662|M|49.60,46.16|Z|2200|N|To Shandris Feathermoon.|RANK|2|
 A Smother the Flames|QID|77739|PRE|77662|M|49.60,46.19|Z|2200|N|From Shandris Feathermoon.|RANK|2|
 C Smother the Flames|QID|77739|M|49.33,43.86|Z|2200|QO|3|NC|N|Bear Spirit Stone found.|RANK|2|
@@ -357,6 +312,54 @@ C A Better Future, Together|QID|77675|M|56.74,44.14|Z|2200|QO|2;3|H|N|Collect So
 C A Better Future, Together|QID|77675|M|55.17,42.25|Z|2200|QO|4|H|N|Ingredients mixed in the bowl of moon water.|RANK|2|
 C A Better Future, Together|QID|77675|M|55.23,42.26|Z|2200|QO|5|CHAT|N|Help Shandris drink the remedy.|
 T A Better Future, Together|QID|77675|M|55.26,42.27|Z|2200|N|To Lilian Voss.|RANK|2|
+;A Eye of Ysera|QID|76327|PRE|77178|M|50.85,62.89|Z|2200|N|From Ysera.|
+;C Eye of Ysera|QID|76327|M|50.95,62.59|Z|2200|QO|1|NC|N|Take the portal into the Eye of Ysera.|
+;T Eye of Ysera|QID|76327|M|52.12,29.20|Z|2200|N|To Merithra.|
+;A A New Brute|QID|76328|PRE|76327|M|52.12,29.20|Z|2200|N|From Merithra.|
+;C A New Brute|QID|76328|M|51.67,29.06|Z|2200|QO|1|NC|U|208124|N|Emerald Preservers imbued.|
+;C A New Brute|QID|76328|M|52.83,27.98|Z|2200|QO|2|NC|N|Check in on Ysera.|
+;T A New Brute|QID|76328|M|52.72,28.17|Z|2200|N|To Merithra.|
+;A Fire Watch|QID|78646|PRE|76328|M|52.73,28.15|Z|2200|N|From Merthra.|
+;T Fire Watch|QID|78646|M|52.15,24.23|Z|2200|N|To Merithra.|
+;A In and Out Scout|QID|76329|PRE|76328|M|52.15,24.23|Z|2200|N|From Merithra.|
+;A Disarm Specialist|QID|76330|PRE|76328|M|52.15,24.23|Z|2200|N|From Merithra.|
+;C Disarm Specialist|QID|76330|M|47.71,25.15|Z|2200;Emerald Dream|U|208184|N|Use the dust and kill shapers.|S|
+;C In and Out Scout|QID|76329|M|44.60,24.28|Z|2200|QO|2|NC|U|210016|N|Spy on The Anvil.|
+;C In and Out Scout|QID|76329|M|45.60,19.77|Z|2200;Emerald Dream|QO|1|NC|U|210016|N|Spy on Moltenbinder.|
+;C In and Out Scout|QID|76329|M|48.45,22.41|Z|2200;Emerald Dream|QO|3|NC|U|210016|N|Spy on Igira the Cruel, go out of the cave to the right and up the ramp, you need to talk to Bodwin.|
+;C Disarm Specialist|QID|76330|M|47.71,25.15|Z|2200;Emerald Dream|U|208184|N|Use the dust and kill shapers.|US|
+;T In and Out Scout|QID|76329|M|52.14,24.22|Z|2200;Emerald Dream|N|To Merithra.|
+;T Disarm Specialist|QID|76330|M|52.14,24.22|Z|2200;Emerald Dream|N|To Merithra.|
+;A Good Counsel|QID|76334|PRE|76329&76330|M|53.06,28.20|Z|2200;Emerald Dream|N|From Merithra.|
+;C Good Counsel|QID|76334|M|53.03,28.28|Z|2200;Emerald Dream|QO|1|CHAT|N|Regroup with Merithra.|
+;C Good Counsel|QID|76334|M|52.82,27.97|Z|2200;Emerald Dream|QO|2|CHAT|N|Speak to green dragons.|
+;C Good Counsel|QID|76334|M|52.82,27.97|Z|2200;Emerald Dream|QO|3|CHAT|N|Speak with Ysera.|
+;T Good Counsel|QID|76334|M|53.05,28.20|Z|2200;Emerald Dream|N|To Merithra.|
+;A Putting Roots Down|QID|76332|PRE|76334|M|53.05,28.20|Z|2200;Emerald Dream|N|From Merithra.|
+;C Putting Roots Down|QID|76332|M|55.48,25.79|Z|2200;Emerald Dream|QO|1|H|N|Noxious seeds planted.|S|
+;C Putting Roots Down|QID|76332|M|57.20,25.87|Z|2200;Emerald Dream|QO|2|CHAT|N|Speak to Kiya Featherpaw.|
+;C Putting Roots Down|QID|76332|M|55.48,25.79|Z|2200;Emerald Dream|QO|1|H|N|Noxious seeds planted.|US|
+;C Putting Roots Down|QID|76332|M|56.98,23.17|Z|2200;Emerald Dream|QO|3|CHAT|N|Speak to Somnikus.|
+;T Putting Roots Down|QID|76332|M|53.05,28.20|Z|2200;Emerald Dream|N|To Merithra.|
+;A Merithra's Gambit|QID|76331|PRE|76332|M|53.05,28.20|Z|2200;Emerald Dream|N|From Merithra.|
+;C Merithra's Gambit|QID|76331|M|52.83,27.97|Z|2200;Emerald Dream|QO|1|CHAT|N|Ask Ysera to lower the Eye's defenses.|
+;T Merithra's Gambit|QID|76331|M|52.89,28.03|Z|2200;Emerald Dream|N|To Merithra.|
+;A Triple Threat|QID|76333|PRE|76331|M|52.89,28.03|Z|2200;Emerald Dream|N|From Merithra.|
+;A Might of the Forest|QID|76335|PRE|76331|M|52.89,28.03|Z|2200;Emerald Dream|N|From Merithra.|
+;C Might of the Forest|QID|76335|M|56.65,28.19|Z|2200;Emerald Dream|QO|1|N|Djaradin forces slain and traps activated (100%).|S|
+;K The Anvil|ACTIVE|76333|M|56.64,28.20|Z|2200;Emerald Dream|QO|1|N|The Anvil slain.|
+;K Moltenbinder|ACTIVE|76333|M|54.34,25.46|Z|2200;Emerald Dream|QO|2|N|Moltenbinder slain.|
+;K Galok Wingslicer|ACTIVE|76333|M|56.76,23.58|Z|2200;Emerald Dream|QO|3|N|Galok Wingslicer slain.|
+;C Might of the Forest|QID|76335|M|56.65,28.19|Z|2200;Emerald Dream|QO|1|N|Djaradin forces slain and traps activated (100%).|US|
+;T Might of the Forest|QID|76335|M|57.32,26.14|Z|2200;Emerald Dream|N|To Merithra.|
+;T Triple Threat|QID|76333|M|57.33,26.13|Z|2200;Emerald Dream|N|To Merithra.|
+;A Flight and Fight|QID|76336|PRE|76335&76333|M|57.33,26.13|Z|2200;Emerald Dream|N|From Merithra.|
+;C Flight and Fight|QID|76336|M|57.40,25.52|Z|2200;Emerald Dream|QO|1|NC|N|Summon your Dragonriding Mount or Mount Green Dragon (Optional).|
+;C Flight and Fight|QID|76336|M|54.59,26.94|Z|2200;Emerald Dream|QO|2|N|Using your dragon riding mouth fly through the lava sporebats, the dragons will drop green orbs that will replenish your vigor.|
+;C Flight and Fight|QID|76336|M|51.57,30.30|Z|2200;Emerald Dream|QO|3|CHAT|N|Speak to Merithra.|
+;T Flight and Fight|QID|76336|M|51.97,29.49|Z|2200;Emerald Dream|N|To Merithra.|
+;A The Ember Still Smolders|QID|76337|PRE|76336|M|51.97,29.49|Z|2200;Emerald Dream|N|From Merithra.|
+;T The Ember Still Smolders|QID|76337|M|50.80,62.87|Z|2200;Amirdrassil|N|To Merithra.|
 
 ]]
 
