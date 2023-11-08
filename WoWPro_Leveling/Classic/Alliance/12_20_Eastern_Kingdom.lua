@@ -10,7 +10,7 @@ WoWPro:GuideNextGuide(guide, 'ClassicAlliance1925')
 WoWPro:GuideSteps(guide, function () return [[
 
 ; -- Paladin Lv 12 Class quest cont.
-A The Tome of Divinity|QID|1645|AVAILABLE|3000|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge in the Mystic Ward (on the upper deck).|C|Paladin|R|Dwarf|R|Dwarf|
+A The Tome of Divinity|QID|1645|AVAILABLE|3000|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge in the Mystic Ward (on the upper deck).|C|Paladin|R|Dwarf|
 A The Tome of Divinity|QID|1646|AVAILABLE|3000|M|PLAYER|CC|N|Use the book you were just given to start the quest.|U|6916|C|Paladin|R|Dwarf|O|
 T The Tome of Divinity|QID|1646|M|27.64,12.17|Z|1455;Ironforge|N|To Tiza Battleforge in the Mystic Ward.|C|Paladin|R|Dwarf|
 A The Tome of Divinity|QID|1647|PRE|1646|M|27.64,12.17|Z|1455;Ironforge|N|From Tiza Battleforge.|C|Paladin|R|Dwarf|
