@@ -44,10 +44,10 @@ A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|PRE|71232^7229
 ;A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around... not sure what the trigger is. but as it's done in WS still... leaving out of this guide entirely
 R To Valdrakken|ACTIVE|66244|M|52.20,53.02|Z|2112|QO|1|N|Head up the steps for the quest update.| ; Go to step - Hendo72
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|
-A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
-T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
-A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
 T Renown Supplies|QID|72282|M|58.18,35.17|Z|2112|N|To Unatos.|
+A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
+T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112|N|To Unatos.|
 P To Valdrakken|ACTIVE|66244|M|61.82,32.02|Z|2112|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|
@@ -73,15 +73,17 @@ C A Dryad's Work Is Never Done|QID|67094|M|51.23,71.16|Z|2112|QO|5|H|N|Click the
 C Orientation: Valdrakken|QID|72406|QO|2|M|46.92,78.70|Z|2112|NC|N|Kaestrasz the stable master, is also the Drake Manuscript and Armor supplier.|
 C A Dryad's Work Is Never Done|QID|67094|M|42.87,74.97|Z|2112|QO|2|H|N|Click the Hungry Otter Pup.|
 C Orientation: Valdrakken|QID|72406|QO|3|M|36.43,62.83|Z|2112|N|Open Dothenos' store to get quest update.|
-A A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|From Azley. This quest is only available if you have a crafting profession. Click this step of to continue if you don't. |RANK|2| ;-- if you havent already done it. dont know that I want to actually add to the guide tho
+A A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|From Azley.\n[color=FF0000]NOTE: [/color]This quest is only available if you have a crafting profession.\nSkip this step if unavailable.|RANK|2| ;-- if you havent already done it. dont know that I want to actually add to the guide tho
 C A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|CHAT|N|Ask Azley about crafting orders.|
 T A Craft in Need|QID|69919|M|35.34,58.75|Z|2112|N|To Azley.|
-C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger. Don't leave the area until you get quest update.|
+C Eyes and Ears|QID|66166|M|34.79,61.43|Z|2112|QO|1|NC|N|Examine the Consortium's ledger.\n[color=FF0000]NOTE: [/color]Don't leave the area until you get quest update.|
+A The Search for Titan Relics|QID|70839|M|26.08,40.04|Z|2112|N|From Sorotis.|
+T The Search for Titan Relics|QID|70839|M|26.08,40.04|Z|2112|N|To Sorotis.|
 A Lost to the Skies|QID|71239|M|25.17,66.27|Z|2112|N|From Gimla Fizzlecrank.|RANK|2|
-C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|H|N|Click the Hungry Hatchling, it is above the bank, not in it.|
+C A Dryad's Work Is Never Done|QID|67094|M|58.23,57.72|Z|2112|QO|4|H|N|Click the Hungry Hatchling.\n[color=FF0000]NOTE: [/color]It's above the bank, not in it.|
 C Eyes and Ears|QID|66166|M|59.10,54.85|Z|2112|QO|2|I|N|Examine the Storage Chest inside the bank. Don't leave the area until you get quest update.|
-C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet. Don't leave the area until you get quest update.|
-A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa. Note: this quest isn't offered if you already have all her items. Click the step off to continue.|DFREN|valdrakken;2510;7|RANK|2|IZ|2112|
+C Eyes and Ears|QID|66166|M|46.95,47.81|Z|2112|QO|3|H|N|Go inside the inn and pick up the goblet.\n[color=FF0000]NOTE: [/color]Don't leave the area until you get quest update.|
+A To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|From Erugosa.\n[color=FF0000]NOTE: [/color]This quest isn't offered if you already have all her items.\nSkip this step if unavailable.|DFREN|valdrakken;2510;7|RANK|2|IZ|2112|
 T To Cook With Finery|QID|70880|M|46.50,46.24|Z|2112|N|To Erugosa.|
 h Valdrakken|ACTIVE|66166|M|47.26,46.47|Z|2112|N|At Tithris (or Marinth).|
 A Archival Assistance|QID|67007|M|47.77,46.65|Z|2112|N|From Discarded Note.|RANK|2|LVL|70|IZ|2112|
@@ -110,7 +112,7 @@ C Slightly Used Weapons|QID|66247|M|39.60,82.15|Z|2025|N|Kill and loot Rockcleav
 C Remember the Fallen|QID|66245|M|39.22,83.14|Z|2025|H|N|Inspect the guardian's bodies to collect the signets.|S|
 A Tying Things Together|QID|66248|PRE|66246&66169|M|38.55,83.40|Z|2025|N|From Coil of Rope.|
 C Tying Things Together|QID|66248|M|39.46,83.81|Z|2025|H|N|Click to pick up the Coils of Heavy Rope.|
-C Remember the Fallen|QID|66245|M|39.22,83.14|Z|2025|H|N|Continue inspecting bodies till you have enough signets.|US|
+C Remember the Fallen|QID|66245|M|39.22,83.14|Z|2025|H|N|Continue inspecting bodies until you have enough signets.|US|
 C Slightly Used Weapons|QID|66247|M|38.79,83.92|Z|2025|N|Continue to kill Rockcleaver's until you have enough Magmasworn Spears.|US|
 T Remember the Fallen|QID|66245|M|37.63,83.08|Z|2025|N|To Guardian Velomir.|
 T Slightly Used Weapons|QID|66247|M|37.63,83.08|Z|2025|N|To Guardian Velomir.|
@@ -132,7 +134,7 @@ C Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|Kill the Agitated Seedli
 T Azeroth Pest Control|QID|66134|M|37.85,75.45|Z|2025|N|To Gryrmpech.|
 A The Gardener's Apprentice|QID|66135|PRE|66134|M|37.85,75.45|Z|2025|N|From Gryrmpech.|
 C The Gardener's Apprentice|QID|66135|M|38.92,74.20|Z|2025|NC|N|Click on the junk in this room.|S|
-A One Drakonid's Junk|QID|66278|PRE|66134|M|38.92,74.23|Z|2025|N|One of the items of Garden Junk will unearth a quest item.|
+A One Drakonid's Junk|QID|66278|PRE|66134|M|38.92,74.23|Z|2025|N|From the Bronze Stopwatch that appears as you're clearing the items of Garden Junk.|
 C The Gardener's Apprentice|QID|66135|M|38.92,74.20|Z|2025|NC|N|Continue clicking on junk until you find Lord Basilton.|US|
 T The Gardener's Apprentice|QID|66135|M|37.86,75.46|Z|2025|N|To Gryrmpech.|
 T One Drakonid's Junk|QID|66278|M|37.86,75.46|Z|2025|N|To Gryrmpech.|
@@ -166,7 +168,7 @@ C Chaos and Commotion|QID|71024|QO|2|M|61.75,42.17|Z|2112|CHAT|N|Fly or teleport
 C Chaos and Commotion|QID|71024|M|60.85,40.28|Z|2112|QO|3|H|N|Click to examine the Runestone.|
 C Chaos and Commotion|QID|71024|M|60.81,40.35|Z|2112|QO|4|CHAT|N|Ask Aesthis what it is.|
 C Chaos and Commotion|QID|71024|M|56.98,44.45|Z|2112|QO|5|H|N|Head to the entryway and examine the dropped page on the ground.|
-T Chaos and Commotion|QID|71024|M|56.40,43.92|Z|2112|N|To Investigator Erima.|
+T Chaos and Commotion|QID|71024|M|56.40,43.92|Z|2112|N|To Investigator Erima in Misty Vale.|
 A Follow the Clues|QID|70837|PRE|71024|M|56.40,43.92|Z|2112|N|From Investigator Erima.|
 T Follow the Clues|QID|70837|M|42.75,81.97|Z|2025|N|To Investigator Erima.|
 A Rebels With a Cause|QID|70838|PRE|70837|M|42.75,81.97|Z|2025|N|From Investigator Erima.|
@@ -194,7 +196,7 @@ T To Breach a Fire Wall|QID|70874|M|42.29,78.90|Z|2025|N|To Maldra Flametongue.|
 A Ring of Fire|QID|70878|PRE|70874|M|42.29,78.90|Z|2025|N|From Maldra Flametongue.|
 A Worst of the Worst|QID|70875|PRE|70874|M|42.44,78.84|Z|2025|N|From Investigator Erima.|
 A Fracture the Foci|QID|70876|PRE|70874|M|42.44,78.84|Z|2025|N|From Investigator Erima.|
-C Worst of the Worst|QID|70875|M|44.57,78.15|Z|2025|N|Go thru the firewall, into Emberslate Cavern. Kill Rebels and elementals while you destroy the primal Foci.|S|
+C Worst of the Worst|QID|70875|M|44.57,78.15|Z|2025|N|Go through the firewall, into Emberslate Cavern. Kill Rebels and elementals while you destroy the primal Foci.|S|
 C Fracture the Foci|QID|70876|M|43.85,77.82;44.23,77.83;44.66,77.62|CS|Z|2025|QO|1<3|H|N|Click the Primal Foci to destroy them.|
 C Ring of Fire|QID|70878|M|43.42,78.84;44.66,78.35|CS|Z|2025|N|If the fight isn't going when you get there, talk to Maldra to start it. Kill the things coming thru the portal while she closes it.|
 C Fracture the Foci|QID|70876|M|44.65,78.41|Z|2025|H|N|The last Primal Focus to destroy is up above/behind the portal Maldra just destroyed.|
@@ -205,7 +207,7 @@ T Fracture the Foci|QID|70876|M|42.45,78.84|Z|2025|N|To Investigator Erima.|
 A Report on the Rebels|QID|70879|PRE|70878&70875&70876|M|42.45,78.84|Z|2025|N|From Investigator Erima.|
 $ Stormshroud Peak Glyph|QID|99999|M|46.09,73.97|Z|2025;Thaldraszus!Dragonflight|N|On top of the mountain. Way, way up there!|ACH|16099|
 $ Gelikyr Overlook Glyph|QID|99999|M|52.71,67.40|Z|2025;Thaldraszus!Dragonflight|N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|ACH|16666|
-T Look to the Overlook|QID|71179|M|52.66,67.30|Z|2025|N|To Commander Thadezus.|
+T Look to the Overlook|QID|71179|M|52.66,67.30|Z|2025|N|To Commander Thadezus, in Gelikyr Overlook.|
 A What Once Was Ours|QID|66468|PRE|71179|M|52.66,67.30|Z|2025|N|From Commander Thadezus.|
 C What Once Was Ours|QID|66468|M|53.57,63.91;53.91,63.94|CS|Z|2025|N|Work your way down the path until you get to the first waypoint and then up the stairs to the tower there. Kill Primalists, heal the injured and destroy totems as you go.|
 T What Once Was Ours|QID|66468|M|54.44,65.15|Z|2025|N|To Sharnax.|
