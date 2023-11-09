@@ -10,48 +10,49 @@ WoWPro:GuideNextGuide(guide, 'ClassicAlliance1925')
 WoWPro:GuideSteps(guide, function() return [[
 
 ; --- This guide begins in Darnassus
-r Housekeeping|ACTIVE|952|N|Before leaving Darnassus, take a minute to visit the bank to pick up or offload items, the Auction House to find some gear or make some coin, or the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
+r Housekeeping|AVAILABLE|3524|N|Before leaving Darnassus, take a minute to visit the bank to pick up or offload items, the Auction House to find some gear or make some coin, or the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|Darnnassus|
 R Rut'theran Village|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
 F Auberdine|AVAILABLE|3524|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
-A Washed Ashore|QID|3524|M|36.6,45.6|N|From Gwennyth Bly'Leggonde.|
-h Auberdine|AVAILABLE|1141|M|37.04,44.12|N|Go down the ramp from the flight area and set your hearthstone at the Innkeeper|
-A Buzzbox 827|QID|983|M|37,44.1|N|From Wizbang Cranktoggle, on the top floor of the Inn.|
-A For Love Eternal|QID|963|M|35.8,43.7|N|From Cerellean Whiteclaw.|
-A Plagued Lands|QID|2118|M|38.8,43.4|N|From Tharnariun Treetender.|
-A How Big a Threat?|QID|984|M|39.3,43.5|N|From Terenthis.|
+A Washed Ashore|QID|3524|M|36.62,45.59|N|From Gwennyth Bly'Leggonde.|
+h Auberdine|AVAILABLE|2118|M|37.04,44.12|N|Go down the ramp from the flight area and set your hearthstone with Innkeeper Shaussiy.|
+A Buzzbox 827|QID|983|M|36.97,44.13|N|From Wizbang Cranktoggle, on the top floor of the Inn.|
+A For Love Eternal|QID|963|M|35.74,43.71|N|From Cerellean Whiteclaw.|
+A Plagued Lands|QID|2118|M|38.84,43.42|N|From Tharnariun Treetender.|
+A How Big a Threat?|QID|984|M|39.37,43.48|N|From Terenthis.|
 A The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|From Gubber Blump, on the beach near the inn.|
 N The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|CHAT|P|Fishing;356;0+1;1|
 B The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|L|6256|N|Not got a fishing rod? No problem. Gubber Blump will sell you one for 23c.|
-C The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|Just fish near him, Takes about 18 minutes at no skill with baubles. Skip if you don't care about fishing and a pole.|NC|
+C The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|Just fish near him; takes about 18-20 minutes from no skill with baubles.\n[color=FF0000]NOTE: [/color]Skip if you don't care about fishing and a pole.|NC|
 T The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|To Gubber Blump.|
-C Buzzbox 827|QID|983|M|36.0,50.0|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|S|
-C Washed Ashore|QID|3524|M|36,51|N|Clear the murlocs from the Beached Sea Creature and loot the Sea Creatures Bones from it.|
+C Buzzbox 827|QID|983|M|36.00,50.00|L|5385 6|ITEM|5385|N|Pygmy Tide Crawlers found along the Long Wash shoreline.|S|
+C Washed Ashore|QID|3524|M|36.37,50.82|N|Clear the Murlocs around the Beached Sea Creature and loot the Sea Creatures Bones from it.|
+C Plagued Lands|QID|2118|M|39,58|N|Capture a Rabid Thistle Bear by using the item provided.\n[color=FF0000]NOTE: [/color]Don't worry about the bear following you back, the quest is complete.|U|7586|S|
 C How Big a Threat?|QID|984|M|40,53|N|Find the corrupt furbolg camp.|
-C Plagued Lands|QID|2118|M|39,58|N|Capture a Rabid Thistle Bear by using the item provided.|U|7586|
-C Buzzbox 827|QID|983|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|US|
-T Buzzbox 827|QID|983|M|36.66,46.26|N|To Buzzbox 827.|
+C Plagued Lands|QID|2118|M|39,58|N|Capture a Rabid Thistle Bear by using the item provided.\n[color=FF0000]NOTE: [/color]Don't worry about the bear following you back, the quest is complete.|U|7586|US|
+C Buzzbox 827|QID|983|M|36.00,50.00|L|5385 6|ITEM|5385|N|Pygmy Tide Crawlers found along the Long Wash shoreline.|US|
+T Buzzbox 827|QID|983|M|36.66,46.26|N|To Buzzbox 827.\n[color=FF0000]NOTE: [/color]Click on it.|
 A Buzzbox 411|QID|1001|PRE|983|M|36.66,46.26|N|From Buzzbox 827.|
-T Washed Ashore|QID|3524|M|36.6,45.6|N|To Gwennyth Bly'Leggonde.|
-A Washed Ashore|QID|4681|PRE|3524|N|From Gwennyth Bly'Leggonde.|
-T Plagued Lands|QID|2118|M|38.8,43.4|N|To Tharnariun Treetender.|
-A Cleansing of the Infected|QID|2138|PRE|2118|M|38.8,43.4|N|From Tharnariun Treetender.|
+T Washed Ashore|QID|3524|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
+A Washed Ashore|QID|4681|PRE|3524|M|36.62,45.59|N|From Gwennyth Bly'Leggonde.|
+T Plagued Lands|QID|2118|M|38.84,43.42|N|To Tharnariun Treetender.|
+A Cleansing of the Infected|QID|2138|PRE|2118|M|38.84,43.42|N|From Tharnariun Treetender.|
 T How Big a Threat?|QID|984|M|39.37,43.48|N|To Terenthis.|
 A How Big a Threat?|QID|985|PRE|984|M|39.37,43.48|N|From Terenthis.|
 A Thundris Windweaver|QID|4761|PRE|984|M|39.37,43.48|N|From Terenthis.|
-T Thundris Windweaver|QID|4761|M|37.4,40.2|N|To Thundris Windweaver.|
-A Bashal'Aran|QID|954|M|37.4,40.2|N|From Thundris Windweaver.|
-A Tools of the Highborne|QID|958|M|37.4,40.2|N|From Thundris Windweaver.|
-A The Cliffspring River|QID|4762|PRE|4761|M|37.4,40.2|N|From Thundris Windweaver.|
-N Easy Strider Living|QID|2178|P|Cooking;185;0+10;1|M|37.67,40.70|N|From Alanndarian Nightsong, you must have at least 10 cooking skill to get.|
-A Easy Strider Living|QID|2178|P|Cooking;185;0+10;0|M|37.67,40.70|N|Cooking quest, I suggest getting if you are lower level and need the grind/extra exp.|
-A The Red Crystal|QID|4811|M|37.7,43.4|N|From Sentinel Glynda Nal'Shea|
-A Cave Mushrooms|QID|947|M|37.3,43.7|N|From Barithras Moonshade.|
-C Easy Strider Living|QID|2178|N|Any Strider can drop the meat needed.|S|
+T Thundris Windweaver|QID|4761|M|37.40,40.13|N|To Thundris Windweaver.|
+A Bashal'Aran|QID|954|M|37.40,40.13|N|From Thundris Windweaver.|
+A Tools of the Highborne|QID|958|M|37.40,40.13|N|From Thundris Windweaver.|
+A The Cliffspring River|QID|4762|PRE|4761|M|37.40,40.13|N|From Thundris Windweaver.|
+N Easy Strider Living|AVAILABLE|2178|M|PLAYER|N|You must have at least 10 cooking skill to get the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|Cooking;185;0+1|
+A Easy Strider Living|QID|2178|M|37.69,40.66|N|From Alanndarian Nightsong.\n[color=FF0000]NOTE: [/color]Extra experience if you want/need to do the grind.\nSkip this step if you don't wish to do it.|P|Cooking;185;0+10;0|RANK|2|
+A The Red Crystal|QID|4811|M|37.70,43.40|N|From Sentinel Glynda Nal'Shea|
+A Cave Mushrooms|QID|947|M|37.32,43.64|N|From Barithras Moonshade.|
+C Easy Strider Living|QID|2178|M|39.60,48.80|L|5469 5|ITEM|5469|N|Any Strider in Darkshore.|S|
 C Cleansing of the Infected|QID|2138|N|Kill Rabid Thistle Bears that spawn all over.|S|
-C Buzzbox 411|QID|1001|M|32,46|N|Kill Threshers.|S|
-C Washed Ashore|QID|4681|M|32,46|N|Find a Skeletal Sea Turtle on the sea floor. Click its skull and loot the Sea Turtle Remains.|NC|
-C Buzzbox 411|QID|1001|M|32,46|N|Finish killing Threshers.|US|
-T Washed Ashore|QID|4681|M|36.6,45.6|N|To Gwennyth Bly'Leggonde.|
+C Buzzbox 411|QID|1001|M|32,46|L|5412 3|ITEM|5412|N|Darkshore Threshers.|S|
+C Washed Ashore|QID|4681|M|31.84,46.28|N|Loot the Skeletal Sea Turtle located on the sea floor beside the island with the trees on it.|NC|
+C Buzzbox 411|QID|1001|M|32,46|L|5412 3|ITEM|5412|N|Darkshore Threshers.\nThese guys are spread out across the water and not necessarily near the shore.|US|
+T Washed Ashore|QID|4681|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Bashal'Aran|QID|954|M|44.2,36.3|N|To Asterion.|
 A Bashal'Aran|QID|955|PRE|954|M|44.2,36.3|N|From Asterion.|
 C Bashal'Aran|QID|955|M|47,37|N|Slay Vile Sprites and Wild Grells until you have 8 Grell Earrings.|
@@ -71,14 +72,14 @@ C Tools of the Highborne|QID|958|M|42.7,63.1|N|Finish killing the Highbornes.|US
 T The Fall of Ameth'Aran|QID|953|M|40.3, 59.7|N|To Sentinel Tysha Moonblade.|
 C How Big a Threat?|QID|985|M|39,53|N|Head north to kill the furbolg camps|
 R Auberdine|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|
-T For Love Eternal|QID|963|M|35.8, 43.7|N|To Cerellean Whiteclaw.|
-T The Red Crystal|QID|4811|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
-A As Water Cascades|QID|4812|PRE|4811|M|37.7, 43.4|N|From Sentinel Glynda Nal'Shea.|
+T For Love Eternal|QID|963|M|35.74,43.71|N|To Cerellean Whiteclaw.|
+T The Red Crystal|QID|4811|M|37.70,43.40|N|To Sentinel Glynda Nal'Shea.|
+A As Water Cascades|QID|4812|PRE|4811|M|37.70,43.40|N|From Sentinel Glynda Nal'Shea.|
 C As Water Cascades|QID|4812|M|37.71,43.96|N|Fill your Empty Water Tube at the moonwell by the Inn.|U|14338|NC|
 T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A The Tower of Althalaxx|QID|965|M|39.1, 43.5|N|From Sentinel Elissa Starbreeze upstairs.|
 A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
-T Tools of the Highborne|QID|958|M|37.4, 40.2|N|To Thundris Windweaver.|
+T Tools of the Highborne|QID|958|M|37.40,40.13|N|To Thundris Windweaver.|
 N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish any sticky quests left.|
 F Rut'theran Village|AVAILABLE|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|AVAILABLE|730|M|55.88,89.55|Z|Teldrassil|
@@ -109,28 +110,28 @@ R Auberdine|AVAILABLE|4722|M|37.04,44.12|N|Sell/repair whilst at the Inn|
 A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N| South of Auberdine with level 13 Murlocs around. Reminder to kill any wildlife you still need as you travel|
 C Cleansing of the Infected|QID|2138|N|Finish killing the Rabid Thistle Bears that spawn around the area.|US|
 C Buzzbox 323|QID|1002|N|Finish collecting fangs.|US|
-C Easy Strider Living|QID|2178|N|Finish collecting Strider meat.|US|
+C Easy Strider Living|QID|2178|M|39.60,48.80|L|5469 5|ITEM|5469|N|Any Strider in Darkshore.|US|
 T Beached Sea Turtle|QID|4722|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4723|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4727|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4725|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 N Get to level 15|QID|1004|LVL|-15|N|Grind mobs until you are level 15.|
 A WANTED: Murkdeep!|QID|4740|M|37.23,44.23|N|From Board, no quest symbol above it.|
-T The Fragments Within|QID|4813|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
+T The Fragments Within|QID|4813|M|37.70,43.40|N|To Sentinel Glynda Nal'Shea.|
 T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|
 A Tharnariun's Hope|QID|2139|PRE|2138|M|38.84,43.42|N|From Tharnariun Treetender.|
 A A Lost Master|QID|986|PRE|985|M|39.37,43.48|N|From Terenthis.|
 T Deep Ocean, Vast Sea|QID|982|M|38.12,41.22|N|To Gorbold Steelhand.|
 r Repair/Sell|QID|2178|M|38.12,41.22|N|While standing here, repair and sell junk to Elisa Steelhand.|
-T Easy Strider Living|QID|2178|M|37.67,40.70|N|To Alanndarian Nightsong.|
-T The Cliffspring River|QID|4762|M|37.4, 40.2|N|To Thundris Windweaver|
-T The Principal Source|QID|6122|M|37.67,40.70|N|To Alanndarian Nightsong.|C|Druid|
-A The Blackwood Corrupted|QID|4763|PRE|4762|M|37.4,40.2|N|From Thundris Windweaver|
+T Easy Strider Living|QID|2178|M|37.69,40.66|N|To Alanndarian Nightsong.|
+T The Cliffspring River|QID|4762|M|37.40,40.13|N|To Thundris Windweaver|
+T The Principal Source|QID|6122|M|37.69,40.66|N|To Alanndarian Nightsong.|C|Druid|
+A The Blackwood Corrupted|QID|4763|PRE|4762|M|37.40,40.13|N|From Thundris Windweaver|
 U The Blackwood Corrupted|ACTIVE|4763|M|37.76,44.02|L|12347|N|Clean the bowl in the moonwell.|U|12346|
-A Gathering the Cure|QID|6123|PRE|6122|M|37.67,40.70|N|From Alanndarian Nightsong.|C|Druid|
+A Gathering the Cure|QID|6123|PRE|6122|M|37.69,40.66|N|From Alanndarian Nightsong.|C|Druid|
 C Gathering the Cure|QID|6123|QO|1;2|M|43,45;46,45;45,50|CS|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|C|Druid|NC|
-T Gathering the Cure|QID|6123|M|37.67,40.70|N|To Alanndarian Nightsong.|C|Druid|
-A Curing the Sick|QID|6124|PRE|6123|M|37.67,40.70|N|From Alanndarian Nightsong.|C|Druid|
+T Gathering the Cure|QID|6123|M|37.69,40.66|N|To Alanndarian Nightsong.|C|Druid|
+A Curing the Sick|QID|6124|PRE|6123|M|37.69,40.66|N|From Alanndarian Nightsong.|C|Druid|
 C Curing the Sick|QID|6124|N|They are all over the place.|U|15826|C|Druid|S|NC|
 C Tharnariun's Hope|QID|2139|M|52.37,35.88;52.71,36.65;51.6, 37.6|CS|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
 C Cave Mushrooms|QID|947|M|55,35|N|Head inside the cave and go to the right to find a Death Cap. The Scaber Stalks can be found all over the cave.|NC|
@@ -140,8 +141,8 @@ A The Tower of Althalaxx|QID|967|PRE|966|N|From Balthule Shadowstrike.|
 T Buzzbox 323|QID|1002|M|51.28,24.58|N|Turn in to Buzzbox 323.|
 A Buzzbox 525|QID|1003|PRE|1002|M|51.28,24.58|N|From Buzzbox 323.|
 H Auberdine|ACTIVE|947|N|Hearth or run back to Auberdine.|
-T Cave Mushrooms|QID|947|M|37.3, 43.7|N|To Barithras Moonshade.|
-A Onu|QID|948|PRE|947|M|37.3, 43.7|N|From Barithras Moonshade.|
+T Cave Mushrooms|QID|947|M|37.32,43.64|N|To Barithras Moonshade.|
+A Onu|QID|948|PRE|947|M|37.32,43.64|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
 L Level 16|LVL|16;-1720|N|Make sure you are within 2 bubbles of level 16 before porting to Moonglade.|C|Druid|
