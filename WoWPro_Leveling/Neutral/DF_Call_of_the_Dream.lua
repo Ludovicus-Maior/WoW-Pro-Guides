@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Call_of_the_Dream', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('Call_of_the_Dream', 'Leveling', 'Stormwind City', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Call of the Dream")
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
@@ -60,7 +60,7 @@ A Lost to the Flame|QID|76324|PRE|76323|M|53.81,63.94|Z|2200|N|From Merithra.|
 ;A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|RANK|3|
 ;N This is where you pick up the Wrathion quest line if you so choose.|AVAILABLE|76460|JUMP|Misfit Dragons|
 f Central Encampment|ACTIVE|76324|M|51.08,62.35|Z|2200|N|At Leora.|
-N If you would like to collect all the Emeral Dream runes now, click the book. Otherwise just click this step off.|JUMP|CoD_Dragonriding_Glyphs|ACH|19306|
+N If you would like to collect all the Emeral Dream runes now, click the book. Otherwise just click this step off. These are considered treasures make sure you have them enabled.|JUMP|CoD_Dragonriding_Glyphs|ACH|19306|
 A It Starts With a Stone|QID|78262|PRE|76323|M|49.80,62.87|Z|2200|N|From Vaskarn.|RANK|2|
 C It Starts With a Stone|QID|78262|M|49.83,62.86|Z|2200|NC|QO|1|N|Collect Flightstones.|S|
 C Lost to the Flame|QID|76324|M|50.54,72.09|Z|2200|QO|1|N|Elder Cassaphine slain.|
