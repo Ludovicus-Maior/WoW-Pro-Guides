@@ -81,7 +81,7 @@ T Lost and Found|QID|11601|N|To James Deacon the inn barkeep.|M|58.29,68.05|
 A In Wine, Truth|QID|11603|PRE|11601|N|From James Deacon the inn barkeep.|M|58.29,68.05|
 N Cultist in Kitchen|QID|11794|QO|3|U|35125|N|Use the Oculus of the Exorcist in the kitchen of the inn, then talk to and kill the cultist.|M|58.62,67.10|; Cultist in kitchen defeated: 1/1
 N Cultist in Docks|QID|11794|QO|1|U|35125|N|Use the Oculus on the lower dock outside, then talk to and kill the cultist.|M|59.18,68.56|; Cultist in docks defeated: 1/1
-C In Wine, Truth|QID|11603|N|Dive down to the shipwreck here and loot the wine crate. Watch out for a lvl 72 quest mob, Clam Master K. You'll get to pummel him later in the guide, but for now, try to evade him.|M|61.9,65.7|
+C In Wine, Truth|QID|11603|N|Dive down to the shipwreck here and loot the wine crate. Watch out for Clam Master K. You'll get to pummel him later in the guide, but for now, try to evade him.|M|61.9,65.7|
 T In Wine, Truth|QID|11603|N|Swim southwest back to Valiance Keep to Old Man Colburn in the inn.|M|58.52,68.12|
 A A Deserter|QID|11604|PRE|11603|N|From Old Man Colburn.|M|58.52,68.12|
 C The Hunt is On|QID|11794|U|35125|N|Use the oculus in the jail underneath the keep, then talk to and kill the cultist.|M|56.67,71.76|
@@ -91,7 +91,7 @@ T The Hunt is On|QID|11794|N|To Vindicator Yaala on the top floor of the inn.|M|
 r Sell junk, repair and re-stock food/drink.|QID|12141|M|57.82,66.04|
 T Weapons for Farshire|QID|11963|N|Go back to Gerald at Farshire.|M|58.16,62.75|
 A Call to Arms!|QID|11965|PRE|11963|N|From Gerald Green|M|58.19,62.76|
-C Call to Arms!|QID|11965|N|Ring the bell upstairs in the town hall.|M|57.39,59.31|
+C Call to Arms!|QID|11965|N|Ring the bell upstairs in the town hall.|M|57.39,59.31|NC|
 T Call to Arms!|QID|11965|N|Go back to Gerald.|M|58.16,62.75|
 T A Diplomatic Mission|QID|12141|N|Take the road southwest out of town to Karuk.|M|47.15,75.40|
 A Karuk's Oath|QID|11613|M|47.1,75.5|N|From Karuk.|

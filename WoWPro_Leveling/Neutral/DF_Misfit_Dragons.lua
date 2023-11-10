@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Misfit Dragons', 'Leveling', 'Valdrakken', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('Misfit Dragons', 'Leveling', 'Valdrakken', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Misfit Dragons")
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideNickname(guide, "Misfit Dragons")
