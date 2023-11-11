@@ -1,7 +1,8 @@
-# Release 2023.11.08.A
+# Release 2023.11.08.B
 ## Bug Fixes
 * Zone Name updates for 10.2.0
 * Retail interface stepped to 100200
+* Misfit Dragons guide was not Neutral
 ## Guide Updates
 ### Retail
 * Achievements: Call of the Dream Glyphs,

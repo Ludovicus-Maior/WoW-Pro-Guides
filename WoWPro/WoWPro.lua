@@ -366,6 +366,15 @@ function WoWPro:OnInitialize()
     WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
 
     WoWProCharDB.EnableGrail = nil
+    if WoWProCharDB.AutoSelect == nil then
+        WoWProCharDB.AutoSelect = true
+    end
+    if WoWProCharDB.AutoAccept == nil then
+        WoWProCharDB.AutoAccept = true
+    end
+    if WoWProCharDB.AutoTurnin == nil then
+        WoWProCharDB.AutoTurnin = true
+    end
     WoWProCharDB.EnableGrailQuestline = WoWProCharDB.EnableGrailQuestline or false
     WoWProCharDB.EnableGrailCheckPrereq = WoWProCharDB.EnableGrailCheckPrereq or false
     WoWProCharDB.EnableGrailBreadcrumbs = WoWProCharDB.EnableGrailBreadcrumbs or false
