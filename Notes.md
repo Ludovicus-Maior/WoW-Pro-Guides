@@ -1,4 +1,4 @@
-# Release 2023.11.15.A
+# Release 2023.11.15.B
 ## Bug Fixes
 * Fixed  NOTAUTO for QUEST_DETAIL_PUNTED NPCs
 * Update Vanilla Interface to 11500
