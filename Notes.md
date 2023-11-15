@@ -1,6 +1,7 @@
 # Release 2023.11.15.A
 ## Bug Fixes
 * Fixed  NOTAUTO for QUEST_DETAIL_PUNTED NPCs
+* Update Vanilla Interface to 11500
 ## Guide Updates
 ### Retail
 * Leveling/Alliance: Borean Tundra, Dragonblight
