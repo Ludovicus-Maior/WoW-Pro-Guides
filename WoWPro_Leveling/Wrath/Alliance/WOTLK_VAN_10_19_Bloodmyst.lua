@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Blootdmyst Isle", "WowPro Team", "Alliance", 3)
+local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "WowPro Team", "Alliance", 3)
 WoWPro:GuideNickname(guide, "Bloodmyst Isle")
 WoWPro:GuideName(guide, "Bloodmyst Isle")
 WoWPro:GuideNextGuide(guide, "WOTLK_Alliance1925")
@@ -19,7 +19,7 @@ A The Kessel Run.|QID|9663|M|62.99,87.52|N|From Kessel.\n[color=FF0000]NOTE: [/c
 C The Kessel Run|QID|9663|QO|1|M|46.68,20.63|Z|1943;Azuremyst Isle|N|Warn High Chief Stillpine outside Stillpine Hold.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
 C The Kessel Run|QID|9663|QO|2|M|47.10,50.59|Z|1943;Azuremyst Isle|N|Warn Exarch Menelaous in Azure Watch.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
 C The Kessel Run|QID|9663|QO|3|M|47.04,70.22|Z|1943;Azuremyst Isle|N|Warn Admiral Odyseus at Odesyus' Landing.\n[color=FF0000]NOTE: [/color]Avoid getting attacked and potentially dismounted.|CHAT|
-T Redemption|QID|9600|M|38.39,82.52|Z|1947;The Exodar|N|To Jol.\n[color=FF0000]NOTE: [/color]You won't lose your El|C|Paladin|R|Draenei|
+T Redemption|QID|9600|M|38.39,82.52|Z|1947;The Exodar|N|To Jol.\n[color=FF0000]NOTE: [/color]You won't lose your Elephant.|C|Paladin|R|Draenei|
 T The Kessel Run|QID|9663|M|62.99,87.52|N|Return to Kessel at Kessel's Crossing.|
 A Declaration of Power|QID|9666|PRE|9663|M|62.99,87.52|N|From Kessel.|
 R Blood Watch|AVAILABLE|9646|M|54.20,62.39|N|Follow the road north.|
