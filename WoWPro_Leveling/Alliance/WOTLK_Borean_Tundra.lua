@@ -115,15 +115,15 @@ T Cowards and Fools|QID|11932|N|To Ataika in Kaskala.|M|63.81,46.10|
 A The Son of Karkut|QID|12086|PRE|11932|N|From Ataika.|M|63.81,46.10|
 A Not Without a Fight!|QID|11949|N|From Ataika.|M|63.81,46.10|
 A Preparing for the Worst|QID|11945|N|From Utaik. (Daily, can be skipped)|M|64.0,45.7|
-C Preparing for the Worst|QID|11945|N|Pick up these supplies off the ground.|M|65.76,47.55|S|
+C Preparing for the Worst|QID|11945|NC|N|Pick up these supplies off the ground.|M|65.76,47.55|S|
 C Not Without a Fight!|QID|11949|N|Kill Kvaldir Raiders.|M|65.76,47.55|
 T Not Without a Fight!|QID|11949|N|To Ataika.|M|63.81,46.10|
 A Muahit's Wisdom|QID|11950|PRE|11949|N|From Ataika.|M|63.81,46.10|
-C Preparing for the Worst|QID|11945|N|Pick up these supplies off the ground.|M|65.76,47.55|US|
+C Preparing for the Worst|QID|11945|NC|N|Pick up these supplies off the ground.|M|65.76,47.55|US|
 T Preparing for the Worst|QID|11945|N|To Utaik.|M|64.0,45.7|
 T Muahit's Wisdom|QID|11950|N|To Elder Muahit on the island in Njord's Breath Bay.|M|67.21,54.84|
 A Spirits Watch Over Us|QID|11961|PRE|11950|N|From Elder Muahit.|M|67.21,54.84|
-C Spirits Watch Over Us|QID|11961|N|Search the dead Tuskarr (Iruk) in the water.|M|67.7,50.4|
+C Spirits Watch Over Us|QID|11961|N|Search the dead Tuskarr (Iruk) in the water.|M|67.7,50.4|CHAT|
 T Spirits Watch Over Us|QID|11961|N|To Elder Muahit.|M|67.21,54.84|
 A The Tides Turn|QID|11968|PRE|11961|N|From Elder Muahit.|M|67.21,54.84|
 C The Tides Turn|QID|11968|N|Kill Heigarr the Horrible.|M|67.5,56.7|
@@ -133,30 +133,30 @@ r Sell junk, repair and re-stock food/drink in Unu'pe.|QID|12117|M|77.91,52.51|
 A The Honored Ancestors|QID|11605|N|Folow the Road north until you see a large tuskarr statue called "Elder Atkanok" on the left side of the path. The Elder offers this quest.|M|54.69,35.69|
 A Reclaiming the Quarry|QID|11612|N|From Etaruk on the ledge above Elder Atkanok.|M|54.3,36.1|
 C Reclaiming the Quarry|QID|11612|N|Kill Beryl Treasure Hunters.|S|
-C Elder Sagani|QID|11605|QO|2|N|Click the Elder here.|M|52.84,34.05|; Elder Sagani identified: 1/1
-C Elder Kesuk|QID|11605|QO|1|N|Click the Elder here.|M|50.81,32.38|; Elder Kesuk identified: 1/1
-C Elder Takret|QID|11605|QO|3|N|Click the Elder here.|M|52.32,31.19|
+C Elder Sagani|QID|11605|QO|2|NC|N|Click the Elder here.|M|52.84,34.05|; Elder Sagani identified: 1/1
+C Elder Kesuk|QID|11605|QO|1|NC|N|Click the Elder here.|M|50.81,32.38|; Elder Kesuk identified: 1/1
+C Elder Takret|QID|11605|QO|3|NC|N|Click the Elder here.|M|52.32,31.19|
 T The Honored Ancestors|QID|11605|N|To Elder Atkanok.|M|54.69,35.69|
 A The Lost Spirits|QID|11607|PRE|11605|N|From Elder Atkanok.|M|54.69,35.69|
 C The Lost Spirits|QID|11607|U|34711|N|Kill Beryl Hounds, loot Cores of Malice from them and use those on the Tuskarr in the quarry.|M|51.5,31.4|
 C Reclaiming the Quarry|QID|11612|N|Kill Beryl Treasure Hunters.|US|
 T The Lost Spirits|QID|11607|N|To Elder Atkanok.|M|54.69,35.69|
 A Picking Up the Pieces|QID|11609|PRE|11607|N|From Elder Atkanok|M|54.69,35.69|
-C Picking Up the Pieces|QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|S|
+C Picking Up the Pieces|QID|11609|NC|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|S|
 T Reclaiming the Quarry|QID|11612|N|To Etaruk|M|54.3,36.1|
 A Hampering Their Escape|QID|11617|PRE|11612|N|From Etaruk|M|54.3,36.1|
 C East Platform|QID|11617|QO|1|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the East Platform from here.|M|52.44,35.31|; East Platform Destroyed: 1/1
 C West Platform|QID|11617|QO|3|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the West Platform from here.|M|50.48,34.84|; West Platform Destroyed: 1/1
 C North Platform|QID|11617|QO|2|U|34772|N|Kill Beryl Reclaimers until you get a grenade and throw it at the North Platform from below it.|M|51.91,31.86|
-C Picking Up the Pieces|QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|US|
+C Picking Up the Pieces|QID|11609|NC|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|US|
 T Picking Up the Pieces|QID|11609|N|To Elder Atkanok|M|54.69,35.69|
 A Leading the Ancestors Home|QID|11610|PRE|11609|N|From Elder Atkanok|M|54.69,35.69|
 T Hampering Their Escape|QID|11617|N|To Etaruk|M|54.3,36.1|
 A A Visit to the Curator|QID|11623|PRE|11617|N|From Etaruk|M|54.3,36.1|
-C Elder Sagani|QID|11610|QO|2|U|34715|N|Use the Tuskarr Ritual Object at Elder Sagani's stone you visited earlier. Right-clicking the Elder will NOT complete the quest.|M|52.82,34.04|; Elder Sagani's ceremony completed: 1/1
-C Elder Kesuk|QID|11610|QO|1|U|34715|N|Use the Tuskarr Ritual Object at Elder Kesuk's stone you visited earlier.|M|50.84,32.43|; Elder Kesuk's ceremony completed: 1/1
-C A Visit to the Curator|QID|11623|N|Fly up the cliff and kill Curator Insivius on the landed platform.|M|50.08,32.73|
-C Elder Takret|QID|11610|QO|3|U|34715|N|Use the Tuskarr Ritual Object at Elder Takret's stone you visited earlier.|M|52.32,31.12|
+C Elder Sagani|QID|11610|QO|2|U|34715|NC|N|Use the Tuskarr Ritual Object at Elder Sagani's stone you visited earlier. Right-clicking the Elder will NOT complete the quest.|M|52.82,34.04|; Elder Sagani's ceremony completed: 1/1
+C Elder Kesuk|QID|11610|QO|1|U|34715|NC|N|Use the Tuskarr Ritual Object at Elder Kesuk's stone you visited earlier.|M|50.84,32.43|; Elder Kesuk's ceremony completed: 1/1
+K Curator Insivius|ACTIVE|11623|QO|1|N|Fly up the cliff and kill Curator Insivius on the landed platform.|M|50.08,32.73|
+C Elder Takret|QID|11610|QO|3|U|34715|NC|N|Use the Tuskarr Ritual Object at Elder Takret's stone you visited earlier.|M|52.32,31.12|
 T A Visit to the Curator|QID|11623|N|To Etaruk.|M|54.3,36.1|
 T Leading the Ancestors Home|QID|11610|N|To Elder Atkanok.|M|54.69,35.69|
 K Robots|QID|11729|L|34984|N|Kill robots in this area until one drops The Ultrasonic Screwdriver. Sentries have the highest drop rate (3%).|M|58.27,22.84|
@@ -164,7 +164,7 @@ A The Ultrasonic Screwdriver|QID|11729|U|34984|N|Right-click The Ultrasonic Scre
 f Fizzcrank Airstrip|ACTIVE|11707|M|56.58,20.07|N|Get the flight point from Kara.|
 T Distress Call|QID|11707|N|Inside the inn on the second floor.|M|57.03,18.71|
 A The Mechagnomes|QID|11708|PRE|11707|N|From Fizzcrank Fullthrottle|M|57.03,18.71|
-C The Mechagnomes|QID|11708|N|Listen to Fizzcrank Fullthrottle until the quest completes.|M|57.03,18.71|
+C The Mechagnomes|QID|11708|CHAT|N|Listen to Fizzcrank Fullthrottle until the quest completes.|M|57.03,18.71|
 T The Mechagnomes|QID|11708|N|To Jinky Wingnut outside the inn.|M|57.44,18.74|
 A Re-Cursive|QID|11712|PRE|11708|N|From Jinky Wingnut|M|57.44,18.74|
 T The Ultrasonic Screwdriver|QID|11729|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
@@ -180,7 +180,7 @@ T Get Me Outa Here!|QID|11673|N|To Fizzcrank Fullthrottle in the inn on the seco
 T Dirty, Stinkin' Snobolds!|QID|11645|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A Just a Few More Things...|QID|11650|PRE|11645|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 C Master and Servant|QID|11730|U|35116|N|Kill robots and use The Ultrasonic Screwdriver on them.|M|57.52,25.03|S|
-C What's the Matter with the Transmatter?|QID|11710|N|Pick up Fizzcrank Spare Parts.|M|62.15,19.5|S|
+C What's the Matter with the Transmatter?|QID|11710|NC|N|Pick up Fizzcrank Spare Parts.|M|62.15,19.5|S|
 C Re-Cursive|QID|11712|U|34973|N|Kill Mechagnomes and use the Re-Cursive Transmatter Injection on them.|M|58.4,19.5|S|
 l Crafty's Tools|QID|11650|QO|1|N|Loot Crafty's Tools below the Fizzcrank Pumping Station.|M|64.37,23.06|
 C Re-Cursive|QID|11712|U|34973|N|Kill Mechagnomes and use the Re-Cursive Transmatter Injection on them.|M|58.4,19.5|US|
@@ -200,9 +200,9 @@ A A Little Bit of Spice|QID|11726|PRE|11725|N|From Iggy "Tailspin" Cogtoggle.|M|
 C A Little Bit of Spice|QID|11726|N|Kill gorlocs here until you get 4 Gorloc Spice Pouches.|M|65,41|
 T The Son of Karkut|QID|12086|N|To Corporal Venn at Death's Stand.|M|82.02,46.42|
 A Surrounded!|QID|11944|PRE|12086|N|From Corporal Venn.|M|82.02,46.42|
-C Surrounded!|QID|11944|N|Kill Ziggurat Defenders.|S|
-l Rocknar's Grit|QID|11650|QO|3|N|Kill Rocknar and loot A Handful of Rocknar's Grit. Mages should be careful because he is immune to all frost spells.|M|81.47,42.49|
-C Surrounded!|QID|11944|N|Kill Ziggurat Defenders.|US|
+C Surrounded!|QID|11944|M|81.47,42.49|N|Kill Ziggurat Defenders.|S|
+l Rocknar's Grit|QID|11650|QO|3|N|Kill Rocknar and loot A Handful of Rocknar's Grit. Mages should be careful because he is immune to all frost spells.|
+C Surrounded!|QID|11944|M|81.47,42.49|N|Kill Ziggurat Defenders.|US|
 T Surrounded!|QID|11944|N|To Corporal Venn.|M|82.02,46.42|
 A Thassarian, the Death Knight|QID|12088|PRE|11944|N|From Corporal Venn.|M|82.02,46.42|
 T Thassarian, the Death Knight|QID|12088|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
@@ -222,10 +222,10 @@ C Last Rites|QID|12019|N|You'll have Thassarian's help. Take the portal up to Na
 T Last Rites|QID|12019|N|To Thassarian.|M|86.60,28.50;84.80,41.67|CN|
 T A Little Bit of Spice|QID|11726|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 A Lupus Pupus|QID|11728|PRE|11726|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
-C Lupus Pupus|QID|11728|U|35121|N|Target Oil-stained Wolves in the area and use the bait. After they finish eating, loot their droppings until you complete this quest.|
+C Lupus Pupus|QID|11728|U|35121|NC|N|Target Oil-stained Wolves in the area and use the bait. After they finish eating, loot their droppings until you complete this quest.|M|61.84,35.68|
 T Lupus Pupus|QID|11728|N|To Iggy "Tailspin" Cogtoggle|M|61.63,35.79|
 A Emergency Protocol: Section 8.2, Paragraph C|QID|11795|PRE|11728|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
-C Emergency Protocol: Section 8.2, Paragraph C|QID|11795|N|Look for dead gnomes scattered around the area and search their bodies. Can be done while mounted, so if you don't feel like fighting all those wolves and bots, stay on your flying mount and you won't aggro them.|M|61.0,37.8|
+C Emergency Protocol: Section 8.2, Paragraph C|QID|11795|CHAT|N|Look for dead gnomes scattered around the area and search their bodies. Can be done while mounted, so if you don't feel like fighting all those wolves and bots, stay on your flying mount and you won't aggro them.|M|61.0,37.8|
 T Emergency Protocol: Section 8.2, Paragraph C|QID|11795|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 A Emergency Protocol: Section 8.2, Paragraph D|QID|11796|PRE|11795|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 U Northwestern Wreck|QID|11796|QO|3|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|60.89,33.74|; Scuttle a Northwestern Wreck: 1/1
@@ -253,7 +253,7 @@ T Hah... You're Not So Big Now!|QID|11653|N|To Crafty Wobblesprocket who wanders
 A Plan B|QID|11658|PRE|11653|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 T Scouting the Sinkholes|QID|11713|N|To Abner Fizzletorque.|M|57.06,20.12|
 A Fueling the Project|QID|11715|PRE|11713|N|From Abner Fizzletorque.|M|57.06,20.12|
-C Fueling the Project|QID|11715|U|34975|N|Use the Portable Oil Collector on Oil Slicks in the pools southeast of town until you complete this quest. Don't stand right on top of the oil slicks or you might be trapped inside the Collector.|M|57.52,25.03|
+C Fueling the Project|QID|11715|U|34975|NC|N|Use the Portable Oil Collector on Oil Slicks in the pools southeast of town until you complete this quest. Don't stand right on top of the oil slicks or you might be trapped inside the Collector.|M|57.52,25.03|
 T Fueling the Project|QID|11715|N|To Abner Fizzletorque.|M|57.06,20.12|
 A A Bot in Mammoth's Clothing|QID|11718|PRE|11715|N|From Abner Fizzletorque.|M|57.06,20.12|
 C A Bot in Mammoth's Clothing|QID|11718|N|Kill mammoths until you get 6 Thick Mammoth Hides.|M|53.66,21.74|
@@ -320,7 +320,7 @@ A Kaw the Mammoth Destroyer|QID|11879|PRE|11878|M|59.5,30.4|N|From Khu'nok.|
 C Kaw the Mammoth Destroyer|QID|11879|N|Find a Wooly Mammoth Bull and right-click it to mount up. Go northwest to find Kaw the Mammoth Destroyer and kill him with the help of your mammoth. When he's dead, loot the item off the ground.  You may find it easier to clear some of the mobs first before mounting the mammoth.|M|53.68,24.37|
 T The Abandoned Reach|QID|11870|N|To Hierophant Liandra.|M|57.79,55.10|
 A Not On Our Watch|QID|11871|PRE|11870|N|From Hierophant Liandra.|M|57.79,55.10|
-C Not On Our Watch|QID|11871|N|Pick up Shipments of Animal Parts off the ground to complete this quest (Northsea Thugs also drop them).|M|59.1,55.9|
+C Not On Our Watch|QID|11871|NC|N|Pick up Shipments of Animal Parts off the ground to complete this quest (Northsea Thugs also drop them).|M|59.1,55.9|
 T Not On Our Watch|QID|11871|N|To Hierophant Liandra.|M|57.79,55.10|
 A The Nefarious Clam Master...|QID|11872|PRE|11871|N|From Hierophant Liandra.|M|57.79,55.10|
 C The Nefarious Clam Master...|QID|11872|N|Remember Clam Master K at the underwater shipwreck? Now the time has come to get your revenge if you weren't able to evade him last time! In the water to the southeast.|M|61.61,66.40|
@@ -337,7 +337,7 @@ T Nick of Time|QID|11575|N|To Librarian Donathan.|M|45.27,33.36|
 A Prison Break|QID|11587|N|From Librarian Donathan.|M|45.27,33.36|
 A Monitoring the Rift: Cleftcliff Anomaly|QID|11576|N|From Librarian Garren.|M|44.98,33.38|
 K Beryl Mage Hunters|QID|11587|L|34688|N|Kill Beryl Mage Hunters until one drops a Beryl Prison Key.|M|42.51,37.85|
-C Prison Break|QID|11587|N|Click an Arcane Prison to free a Mage Prisoner.|M|42.74,36.95|
+C Prison Break|QID|11587|NC|N|Click an Arcane Prison to free a Mage Prisoner.|M|42.74,36.95|
 C Monitoring the Rift: Cleftcliff Anomaly|QID|11576|U|34669|N|Fly southwest to the rift and use the Arcanometer next to it.|M|34.36,42.13|
 T Prison Break|QID|11587|N|To Librarian Donathan.|M|45.27,33.36|
 A Abduction|QID|11590|PRE|11587|N|From Librarian Donathan.|M|45.27,33.36|
@@ -375,25 +375,25 @@ A Basic Training|QID|11918|N|From Raelorasz.|M|33.31,34.53|
 A Nuts for Berries|QID|11912|N|From Librarian Serrah.|M|33.48,34.38|
 C Basic Training|QID|11918|N|Kill Coldarra Spellweavers.|S|
 C Secrets of the Ancients|QID|11910|N|Kill Glacial Ancients and Magic-bound Ancients.|S|
-C Nuts for Berries|QID|11912|N|Pick up Frostberries.|S|
+C Nuts for Berries|QID|11912|NC|N|Pick up Frostberries.|S|
 K Coldarra Spellbinders|QID|11941|L|35648|N|Kill Coldarra Spellbinders until one drops a Scintillating Fragment|M|33,28|
 A Puzzling...|QID|11941|U|35648|N|Right-click the Scintillating Fragment to accept this quest.|M|35.0,28.0|
-t Secrets of the Ancients|QID|11910|N|To Archmage Berinand.|M|32.95,34.40|
-t Nuts for Berries|QID|11912|N|To Librarian Serrah.|M|33.48,34.38|
-t Basic Training|QID|11918|N|To Raelorasz.|M|33.31,34.53|
+;t Secrets of the Ancients|QID|11910|N|To Archmage Berinand.|M|32.95,34.40|;not really sure these are needed
+;t Nuts for Berries|QID|11912|N|To Librarian Serrah.|M|33.48,34.38|;not really sure these are needed
+;t Basic Training|QID|11918|N|To Raelorasz.|M|33.31,34.53|;not really sure these are needed
 T Puzzling...|QID|11941|N|To Raelorasz.|M|33.31,34.53|
 A The Cell|QID|11943|PRE|11941|N|From Raelorasz.|M|33.31,34.53|
-C Southern Coldarra Reading|QID|11900|QO|2|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|; Southern Coldarra Reading: 1/1
+C Southern Coldarra Reading|QID|11900|QO|2|NC|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|; Southern Coldarra Reading: 1/1
 l Energy Core|QID|11943|QO|1|T|Warbringer Goredrak|N|Kill Warbringer Goredrak and loot the Energy Core.|M|24.24,28.92|; Energy Core: 1/1
-C Western Coldarra Reading|QID|11900|QO|4|N|Go northwest to find another Coldarra Geological Monitor and click it.|M|22.36,24.17|; Western Coldarra Reading: 1/1
+C Western Coldarra Reading|QID|11900|QO|4|NC|N|Go northwest to find another Coldarra Geological Monitor and click it.|M|22.36,24.17|; Western Coldarra Reading: 1/1
 l Prison Casing|QID|11943|QO|2|T|General Cerulean|N|Kill General Cerulean and loot the Prison Casing.|M|27.31,20.40|
-C Northern Coldarra Reading|QID|11900|QO|3|N|Go east to find another Coldarra Geological Monitor and click it.|M|31.31,20.29|; Northern Coldarra Reading: 1/1
+C Northern Coldarra Reading|QID|11900|QO|3|NC|N|Go east to find another Coldarra Geological Monitor and click it.|M|31.31,20.29|; Northern Coldarra Reading: 1/1
 T The Cell|QID|11943|N|To Raelorasz.|M|33.31,34.53|
 A Keristrasza|QID|11946|PRE|11943|U|35671|N|Use your Augmented Arcane Prison to make Keristrasza appear.|M|33.1,34.11|
 T Keristrasza|QID|11946|N|To Keristraza.|M|33.1,34.11|
 A Bait and Switch|QID|11951|PRE|11946|N|From Keristrasza.|M|33.1,34.11|
-C Bait and Switch|QID|11951|N|Loot the purple crystals all around the Nexus.|M|28.36,32.54|
-C Nuts for Berries|QID|11912|N|Pick up Frostberries.|US|
+C Bait and Switch|QID|11951|NC|N|Loot the purple crystals all around the Nexus.|M|28.36,32.54|
+C Nuts for Berries|QID|11912|NC|N|Pick up Frostberries.|US|
 C Secrets of the Ancients|QID|11910|N|Kill Glacial Ancients and Magic-bound Ancients.|US|
 C Basic Training|QID|11918|N|Kill Coldarra Spellweavers.|US|
 T Basic Training|QID|11918|N|To Raelorasz.|M|33.31,34.53|
@@ -411,9 +411,9 @@ T Mustering the Reds|QID|11967|N|To Raelorasz.|M|33.31,34.53|
 A Springing the Trap|QID|11969|PRE|11967|N|From Raelorasz.|M|33.31,34.53|
 C Keep the Secret Safe|QID|11914|N|Kill Arcane Serpents near the Nexus.|Z|Borean Tundra|M|27.8,24.2|S|
 K Coldarra Wyrmkins|QID|11936|L|35586 5|N|Kill Coldarra Wyrmkins until you get 5 Frozen Axes.|M|23.60,34.32|S|
-C Reading the Meters|QID|11900|QO|1|N|Go down to the Nexus to find another Coldarra Geological Monitor and click it.|M|28.26,28.47|
+C Reading the Meters|QID|11900|QO|1|NC|N|Go down to the Nexus to find another Coldarra Geological Monitor and click it.|M|28.26,28.47|
 K Coldarra Wyrmkins|QID|11936|L|35586 5|N|Kill Coldarra Wyrmkins until you get 5 Frozen Axes.|M|23.60,34.32|US|
-C Hatching a Plan|QID|11936|N|Click on the Blue Dragon Eggs near the Nexus.|M|27.8,24.2|
+C Hatching a Plan|QID|11936|NC|N|Click on the Blue Dragon Eggs near the Nexus.|M|27.8,24.2|
 C Keep the Secret Safe|QID|11914|N|Kill Arcane Serpents near the Nexus.|M|27.8,24.2|US|
 C Springing the Trap|QID|11969|U|44950|N|Get out of the ravine and go northeast to the Signal Fire at the Nexus's Northwestern Entrance. Dismount, then use Raelorasz's Spark. Stay close to Keristrasza until she takes off and run close to her when she lands.|M|25.41,21.81|
 T Keep the Secret Safe|QID|11914|N|To Librarian Serrah.|M|33.48,34.38|
@@ -429,9 +429,9 @@ C Cracking the Code|QID|11931|N|Kill Inquisitor Caleras to the north and loot th
 T Cracking the Code|QID|11931|N|To Raelorasz.|M|33.31,34.53|
 A Corastrasza|QID|13412|PRE|11919|N|From Librarian Serra|M|33.48,34.38|
 T Corastrasza|QID|13412|N|To Corastrasza on the next-to-uppermost shattered ring floating around The Nexus|M|29.48,24.81|
-A Aces High!|QID|13413|N|From Corastrasza|M|32.95,34.40|PRE|13412|
-C Aces High!|QID|13413|N|This is good practice for Eye of Eternity and the Occulus. Fly further up to find the Scalesworn elites and then control the Drake to kill them.You will want to keep Flame Shield and Revivify up on you constantly.|M|32.95,34.40|
-T Aces High!|QID|13413|N|To Corastrasza|M|32.95,34.40|
+A Aces High!|QID|13413|N|From Corastrasza|M|29.48,24.81|PRE|13412|
+C Aces High!|QID|13413|N|This is good practice for Eye of Eternity and the Occulus. Fly further up to find the Scalesworn elites and then control the Drake to kill them.You will want to keep Flame Shield and Revivify up on you constantly.|M|29.48,24.81|
+T Aces High!|QID|13413|N|To Corastrasza|M|29.48,24.81|
 T King Mrgl-Mrgl|QID|11704|N|Go north to the road, then follow it east to Winterfin Retreat.|M|43.50,13.97|
 A Learning to Communicate|QID|11571|PRE|11702^11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
 C Learning to Communicate|QID|11571|U|34598|N|Kill Scalder at the bottom of the sea. Target his corpse and use the conch. Scalder is immune to frost.|M|42.53,15.85|

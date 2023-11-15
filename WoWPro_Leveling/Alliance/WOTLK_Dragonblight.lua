@@ -31,7 +31,7 @@ A WANTED: Onslaught Commander Iustus|QID|12442|PRE|12251|N|From the Wanted Poste
 h Wintergarde Keep|QID|12253|N|Make this inn your home location with Illusia Lune.|M|77.50,51.50|
 K Vengeful Geists|ACTIVE|12258|QO|1|M|79.9,49.7|S|N|Kill any Vengeful Geist you see.|
 C Rescue from Town Square|QID|12253|S|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|
-C Imprints on the Past|QID|12282|N|Go back to the gate and take the path going down south. Go to the first building on your right-hand side. Go to the upper floor and find the Scrying Orb.|M|78.90,50.90|
+C Imprints on the Past|QID|12282|NC|N|Go back to the gate and take the path going down south. Go to the first building on your right-hand side. Go to the upper floor and find the Scrying Orb.|M|78.90,50.90|
 C Rescue from Town Square|QID|12253|US|N|Now just go from one building to another, killing Vengeful Geists to free the Trapped Wintergarde Villagers.|
 K Vengeful Geists|ACTIVE|12258|QO|1|M|79.9,49.7|US|N|Finish killing Vengeful Geists.|
 T Rescue from Town Square|QID|12253|N|To High Commander Halford Wyrmbane.|M|78.58,48.26|
