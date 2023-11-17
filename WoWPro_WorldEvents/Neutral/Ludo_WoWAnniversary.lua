@@ -11,8 +11,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 
-A A Timely Invitation|LVL|11|QID|57249|M|PLAYER|U|171177|O|N|Use the [Invitation from the Timewalkers] and accept this quest|
-U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!| ; 18th!
+A A Timely Invitation|LVL|11|QID|57249|M|PLAYER|U|208211|O|N|Use the [Invitation from the Timewalkers] and accept this quest|
+U Celebration Package|U|208210|BUFF|418563|N|Hey, use your Celebration Package!| ; 19th!
+; U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!| ; 18th!
 ; U Celebration Package|U|185907|BUFF|359530|N|Hey, use your Celebration Package!| ; 17th
 
 P Caverns of Time|ACTIVE|57249|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room on the side and get to the Caverns of Time|FACTION|Horde|
@@ -26,6 +27,27 @@ A A Time to Reflect|QID|43461|M|51.74,38.73|Z|Caverns of Time@Tanaris|N|From Ju'
 A A Time to Reflect|QID|43323|M|51.51,38.56|Z|Caverns of Time@Tanaris|N|From Llore|FACTION|Alliance|NOCACHE|
 
 C A Time to Reflect|QID|43323^43461|CHAT|QG|The Historian|N|Chat with the Historian to get your question. The question will change each time you chat with him, but we have a cheat sheet.|
+; New as of 10.2
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What was in the Chalice of Rebirth|N|Blood of Mannoroth|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The mark of the naaru on Yrel|N|Prophet Velen|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the veil between Azeroth and the Shadowlands|N|Helm of Domination|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the original Aspect of the blue dragonflight|N|Malygos|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Centaurs use this title|N|Khan|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This bronze dragon interrupted the trial of Garrosh Hellscream|N|Kairozdormu|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Merithra of the Dream is the daughter of|N|Ysera|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What freed the Nightfallen from their addiction|N|Fruit of the Arcan'Dor|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Who became the current Arbiter in Oribos|N|Pelagos|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|commemorates the late King Varian Wrynn|N|Lion's rest|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|fuzzy, alpaca-driving nomads|N|Vulpera|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|this red drake's chosen visage form is a vulpera|N|Majordomo Selistra|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|what location did Sargeras plunge his sword into Azeroth|N|Silithus|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What entity made a pact with N'Zoth and was later freed|N|Xal'atath|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Who is known as "The Speaker?"|N|Magni Bronzebeard|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The orc that Orgrimmar is named after|N|Blackrock Clan|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which war saw the destruction of both Darnassus and the Undercity|N|The Fourth War|
+
+
+; Older stuff
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Arthas's death knights were trained in a floating citadel that was taken by force|N|Acherus|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Before Ripsnarl became a worgen, he had a family|N|Calissa Harrington|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Before she was raised from the dead by Arthas to serve the Scourge|N|Blue dragonflight|
