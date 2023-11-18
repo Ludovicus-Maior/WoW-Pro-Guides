@@ -28,7 +28,7 @@ A A Time to Reflect|QID|43323|M|51.51,38.56|Z|Caverns of Time@Tanaris|N|From Llo
 
 C A Time to Reflect|QID|43323^43461|CHAT|QG|The Historian|N|Chat with the Historian to get your question. The question will change each time you chat with him, but we have a cheat sheet.|
 ; New as of 10.2
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What was in the Chalice of Rebirth|N|Blood of Mannoroth|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What was in the Chalice of Rebirth|N|The blood of Mannoroth|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The mark of the naaru on Yrel|N|Prophet Velen|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the veil between Azeroth and the Shadowlands|N|Helm of Domination|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the original Aspect of the blue dragonflight|N|Malygos|
@@ -37,15 +37,15 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This bronze dragon interrupted th
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Merithra of the Dream is the daughter of|N|Ysera|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What freed the Nightfallen from their addiction|N|Fruit of the Arcan'Dor|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Who became the current Arbiter in Oribos|N|Pelagos|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|commemorates the late King Varian Wrynn|N|Lion's rest|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|commemorates the late King Varian Wrynn|N|Lion's Rest|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|fuzzy, alpaca-driving nomads|N|Vulpera|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|this red drake's chosen visage form is a vulpera|N|Majordomo Selistra|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|what location did Sargeras plunge his sword into Azeroth|N|Silithus|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What entity made a pact with N'Zoth and was later freed|N|Xal'atath|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Who is known as "The Speaker?"|N|Magni Bronzebeard|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The orc that Orgrimmar is named after|N|Blackrock Clan|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The orc that Orgrimmar is named after|N|Blackrock|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which war saw the destruction of both Darnassus and the Undercity|N|The Fourth War|
-
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What planet do the draenei originate from|N|Argus|
 
 ; Older stuff
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Arthas's death knights were trained in a floating citadel that was taken by force|N|Acherus|
