@@ -251,11 +251,11 @@ P Rut'theran Village|ACTIVE|6001|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the po
 F Auberdine|ACTIVE|6342|M|58.40,94.01|N|At Vesprystus.|
 T Flight to Auberdine|QID|6342|M|36.77,44.29|Z|Darkshore|N|To Laird.|
 A Return to Nessa|QID|6343|PRE|6342|M|36.77,44.29|Z|Darkshore|N|From Laird.|
-C Body and Heart|QID|6001|QO|1|M|43.49,45.97|Z|Darkshore|N|After using the Cenarion Moondust on the Moonkin Stone to summon Lunaclaw, defeat him and talk to his spirit to finish.|U|15208|C|Druid|
+C Body and Heart|QID|6001|QO|1|M|43.49,45.97|Z|Darkshore|N|After using the Cenarion Moondust on the Moonkin Stone to summon Lunaclaw, defeat him and talk to his spirit to finish.\n[color=FF0000]NOTE: [/color]At your current level, you may require some back up or avoid extra curricular fights with the lv 12-13 mobs.|U|15208|C|Druid|
 F Rut'theran Village|ACTIVE|6343|M|36.34,45.57|Z|Darkshore|N|At flight master Caylais Moonfeather.|
 T Return to Nessa|QID|6343|M|56.25,92.44|N|To Nessa Shadowsong.|
 
-R Darnassus|ACTIVE|2519|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
+P Darnassus|ACTIVE|2519|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
 T Body and Heart|QID|6001|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 R Temple of the Moon|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|CS|Z|Darnassus|N|Enter Temple of the Moon.|
 T The Temple of the Moon|QID|2519|M|40.49,91.51;36.63,85.94|CC|Z|Darnassus|N|To Priestess A'moora (take the ramp up to the second floor).|
