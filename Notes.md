@@ -1,3 +1,15 @@
+# Release 2023.11.15.B
+## Bug Fixes
+* Fixed  NOTAUTO for QUEST_DETAIL_PUNTED NPCs
+* Update Vanilla Interface to 11500
+## Guide Updates
+### Retail
+* Leveling/Alliance: Borean Tundra, Dragonblight
+* Leveling/Neutral: Call of the Dream, Misfit Dragons
+### WotLK
+* Leveling/Alliance: Bloodmyst Isle
+
+
 # Release 2023.11.08.B
 ## Bug Fixes
 * Zone Name updates for 10.2.0
