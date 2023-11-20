@@ -29,10 +29,10 @@ A A Time to Reflect|QID|43323|M|51.51,38.56|Z|Caverns of Time@Tanaris|N|From Llo
 C A Time to Reflect|QID|43323^43461|CHAT|QG|The Historian|N|Chat with the Historian to get your question. The question will change each time you chat with him, but we have a cheat sheet.|
 ; New as of 10.2
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What was in the Chalice of Rebirth|N|The blood of Mannoroth|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The mark of the naaru on Yrel|N|Prophet Velen|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The mark of the naaru on|N|Prophet Velen|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the veil between Azeroth and the Shadowlands|N|Helm of Domination|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the original Aspect of the blue dragonflight|N|Malygos|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Centaurs use this title|N|Khan|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Centaur use this title|N|Khan|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This bronze dragon interrupted the trial of Garrosh Hellscream|N|Kairozdormu|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Merithra of the Dream is the daughter of|N|Ysera|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What freed the Nightfallen from their addiction|N|Fruit of the Arcan'Dor|
@@ -46,6 +46,9 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Who is known as "The Speaker?"|N|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The orc that Orgrimmar is named after|N|Blackrock|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which war saw the destruction of both Darnassus and the Undercity|N|The Fourth War|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What planet do the draenei originate from|N|Argus|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|rogue Forsaken forces dishonorably attacked the army that as busy fighting the Scourge|N|Mord'rethar|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Draka was a tenacious warrior|N|Rogue|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What ritual are souls in Revendreth required|N|Ritual of absolution|
 
 ; Older stuff
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Arthas's death knights were trained in a floating citadel that was taken by force|N|Acherus|
@@ -65,13 +68,13 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|King Krush, King Mosh, and King D
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Malfurion Stormrage helped found this group, which is the primary druidic organization of Azeroth|N|Cenarion Circle|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Name the homeworld of the ethereals|N|K'aresh|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Name the titan lore-keeper who was a member of the elite Pantheon|N|Norgannon|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Not long ago, this frail Zandalari troll sought to tame a direhorn|N|Talak|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This frail Zandalari troll sought to tame a direhorn|N|Talak|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|One name for this loa is "Night's Friend"|N|Mueh'zala|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Razormane and Bristleback are|N|Quillboar|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Succubus demons revel in causing anguish|N|Sayaad|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Thane Kurdran Wildhammer recently suffered a tragic loss when his valiant gryphon was killed in a fire|N|Sky'ree|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The draenei like to joke that in the language of the naaru|N|Defective elekk turd|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The Ironforge library features a replica of an unusually large ram's skeleton|N|Toothgnasher|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The Ironforge library features a replica of an unusually large ram skeleton|N|Toothgnasher|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|against the armies of the Qiraji in what war|N|War of the Shifting Sands|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|cult was affiliated with the orcish Shadow Council|N|Argus Wake|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This defender of the Scarlet Crusade was killed while slaying the dreadlord Beltheris|N|Holla Sunshield|
@@ -85,7 +88,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What area was reshaped by Goblins
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What did the dragon aspects give the night elves after the War of the Ancients|N|Nordrassil|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What dragon appears in the human guise of Lord victor Nefarius|N|Nefarian|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What evidence drove Prince Arthas to slaughter the people of Stratholme during the Third War|N|Tainted grain|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What Goblin trading company is known for plundering the natural resources of Azeroth|N|Venture Company|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which goblin cartel is known for plundering the natural resources of Azeroth|N|Venture Company|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Grummle's most prized personal possession|N|Luckydo|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What is the highest rank bestowed on a druid|N|Archdruid|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|highest rank that can be bestowed on a night elf watcher|N|Warden|
@@ -108,7 +111,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|spontaneous dancing in others aga
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the jailor of Illidan Stormrage|N|Maiev Shadowsong|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|is not a possible result from drinking a Noggenfogger|N|You breathe fire|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the following is not an orc clan|N|Bloodfang|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which of these is the correct name for King Varian Wrynn's first wife|N|Tiffin Ellerlan Wrynn|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which of these is the correct name for King Varian Wrynn's wife|N|Tiffin Ellerian Wrynn|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|opening numerous portals on Draenor and shattering the Orc homeworld|N|Ner'zhul|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the Silver Hand was originally created|N|Alexandros|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|embodiments of negative emotions|N|Sha|
