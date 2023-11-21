@@ -23,6 +23,17 @@ P Caverns of Time|ACTIVE|57249|M|49.36,86.91;43.72,85.36|Z|Stormwind City|CS|N|G
 A To The Master's Lair|LVL|15|QID|10279|ACTIVE|57249|M|55.26,27.87|Z|Timeless Tunnel@Caverns of Time|N|Get a free ride from the Steward of Time|
 T To The Master's Lair|QID|10279|ACTIVE|57249|M|41.55,38.52|Z|Caverns of Time@Tanaris|N|Turn into Andormu|
 T A Timely Invitation|QID|57249|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|Turn into Chromie!|
+; N Weekly Quests!|AVAILABLE|60215^57300^57298|N|Chromie offers two special weekly event quests:\n1) Kill the Doomwalker (level 30)\n2) Soldier of Time: A PvP Alterac Valley quest (level 10)\n Optional|
+; N Weekly Quests!|AVAILABLE|60215^57300|N|Chromie offers three special weekly event quests:\n1) Kill the Doomwalker (level 30)\n2) Soldier of Time: A PvP Alterac Valley quest (level 10)\n3) A "Help Chromie to defeat villains of the past" quest" (level 30).\n Optional|
+; A Doomwalkin' Has Come Knockin'|LVL|30|QID|60215|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|From Chromie|
+; K Doomwalker|ACTIVE|60215|QO|1|M|61.1,49.8|Z|Tanaris|N|Having Chromie Time off helps find others in the group finder to kill this guide.  Do not attempt alone.|
+; t Doomwalkin' Has Come Knockin'|QID|60215|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|To Chromie|
+; A Soldier of Time|LVL|10|QID|57300|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|From Chromie|
+t Soldier of Time|QID|57300|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|To Chromie|
+; A How Things "Really" Happened...|LVL|30|QID|57298|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|From Chromie|
+; t How Things "Really" Happened...|QID|57298|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|To Chromie|
+
+;
 A A Time to Reflect|QID|43461|M|51.74,38.73|Z|Caverns of Time@Tanaris|N|From Ju'Pa|FACTION|Horde|NOCACHE|
 A A Time to Reflect|QID|43323|M|51.51,38.56|Z|Caverns of Time@Tanaris|N|From Llore|FACTION|Alliance|NOCACHE|
 
@@ -46,7 +57,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Who is known as "The Speaker?"|N|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The orc that Orgrimmar is named after|N|Blackrock|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which war saw the destruction of both Darnassus and the Undercity|N|The Fourth War|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What planet do the draenei originate from|N|Argus|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|rogue Forsaken forces dishonorably attacked the army that as busy fighting the Scourge|N|Mord'rethar|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|rogue Forsaken forces dishonorably attacked the army that was busy fighting the Scourge|N|Mord'rethar|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Draka was a tenacious warrior|N|Rogue|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What ritual are souls in Revendreth required|N|Ritual of absolution|
 
