@@ -56,7 +56,7 @@ f Vault of the Incarnates|ACTIVE|66847|M|72.12,56.47|Z|2025|N|At Nirazal.|
 t Vault of the Incarnates: Fury of the Storm-Eater|QID|66847|M|57.46,58.73|Z|2025|N|To Alexstrasza.|
 
 ; Ch 3|The Chieftain's Duty - |DFREN|Iskaara;2511;11|
-t T A Lost Tribe|QID|68863|M|13.15,49.24|Z|2024|N|To Murik.|
+t A Lost Tribe|QID|68863|M|13.15,49.24|Z|2024|N|To Murik.|
 A Sudden Isolation|QID|68640|M|13.15,49.24|Z|2024|N|From Murik.|DFREN|Iskaara;2511;11|;rowie only shows up for first char, subsequent characters start with this quest.
 C Sudden Isolation|QID|68640|M|55.07,38.22|Z|2022|N|Speak with Guard Hakota.|
 T Sudden Isolation|QID|68640|M|55.07,38.22|Z|2022|N|To Guard Hakota.|

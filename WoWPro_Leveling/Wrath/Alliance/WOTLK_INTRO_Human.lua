@@ -192,7 +192,7 @@ A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.24,74.45|Z|1429;Elwynn Forest|N|From
 A Wanted:  "Hogger"|QID|176|M|24.55,74.67;24.52,74.65|CN|Z|1429;Elwynn Forest|ELITE|N|[color=FF8000]Elite: [/color]\nThis quest is available from either Wanted Posters in Westbrook Garrison; the one on the road to the tower or the one in front of the tower.|
 l Gold Pickup Schedule|QID|123|M|26.00,89.60|Z|1429;Elwynn Forest|L|1307|ITEM|1307|N|Gruff Swiftbite (a rare mob the spawns around Forest's Edge) \n[color=FF0000]NOTE: [/color]There is a low 1% drop rate from Hogger and Riverpaws.\nSkip if you can't find him.|T|Gruff|S!US|IZ|Forest's Edge|
 A The Collector|QID|123|M|PLAYER|CC|N|From the Gold Pickup Schedule you just looted.|U|1307|O|
-K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|coords This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|
+K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|Z|1429;Elwynn Forest|N|This Level 11 Elite has a few spawn points. Group up with whoever is around to make this simple.|S!US|
 C Riverpaw Gnoll Bounty|QID|11|M|26.10,87.50|Z|1429;Elwynn Forest|L|782 8|ITEM|782|N|Any Riverpaw Gnoll in Forest's Edge.|
 L Level 10|ACTIVE|61|AVAILABLE|123|N|Grind until you're within 8 bubbles of level 10.|LVL|9;-2610|
 L Level 10|ACTIVE|11&123|N|Grind until you're within 5 bubbles of level 10.|LVL|9;-1610|
@@ -257,13 +257,13 @@ f Sentinel Hill|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Fl
 F Stormwind|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
 ; ---------- LEVEL 10 CLASS QUEST cont.------------
-T Gakin's Summons|QID|1685|M|25.2,78.6|Z|Stormwind City|N|coordsTo Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
-A Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
-C Surena Caledon|QID|1688|M|71,80|N|coordsFind, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
-T Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
-A The Binding|QID|1689|PRE|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
-C The Binding|QID|1689|M|25.2,77.2|Z|Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|
-T The Binding|QID|1689|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
+T Gakin's Summons|QID|1685|M|39.34,85.21|Z|Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
+A Surena Caledon|QID|1688|M|39.34,85.21|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+C Surena Caledon|QID|1688|M|71,80|N|Find, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
+T Surena Caledon|QID|1688|M|39.34,85.21|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
+A The Binding|QID|1689|PRE|1688|M|39.34,85.21|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+C The Binding|QID|1689|M|39.10,84.25|Z|Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|
+T The Binding|QID|1689|M|39.34,85.21|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 T Mirror Lake|QID|1861|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon.|C|Mage|
 T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
 A Snatch and Grab|QID|2206|PRE|2205|M|76.0,59.8|Z|Stormwind City|N|From Master Mathias Shaw.|C|Rogue|

@@ -5,7 +5,7 @@ WoWPro:GuideLevels(guide, 19, 25)
 WoWPro:GuideSteps(guide, function()
 return [[
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
-N Draenei
+;N Draenei
 ; Darkshore Guide Synchronization Steps
 f Stormwind|AVAILABLE|343|M|70.99,72.55|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Stormwind|
 h Stormwind City|QID|272|M|60.41,75.25|N|Head to the Innkeeper in the trade district and set your hearthstone|C|Druid|

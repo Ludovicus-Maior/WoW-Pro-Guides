@@ -226,7 +226,7 @@ A A Hero's Weapon|QID|43420|M|48.50,20.22|N|From Alonsus Faol. I had to leave th
 C A Hero's Weapon|QID|43420|M|49.74,18.77|N|Stand in the circle of light and use the extra action button.|
 T A Hero's Weapon|QID|43420|M|48.50,20.22|N|To Alonsus Faol.|
 ;fresh lvl 45 quests
-A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 45.|
+A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 45.|LVL|45|
 A Goddess Watch Over You|QID|44337|M|49.74,58.86|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 45.|
 A Power Word: Armor|QID|44251|M|38.70,23.93|N|From Meridelle Lightspark. Your class hall has a gift for you.|
 T Power Word: Armor|QID|44251|M|38.70,23.93|N|To Meridelle Lightspark.|
