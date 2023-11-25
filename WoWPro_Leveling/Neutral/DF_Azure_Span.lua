@@ -96,7 +96,7 @@ C Tending the Forge|QID|66523|QO|1|M|47.77,37.98|Z|2024|N|Kill and loot some of 
 K Frigellus|ACTIVE|66488|QO|1|M|47.77,37.98|Z|2024|N|Slay Frigellus.|T|Frigellus|
 K Frostfist|ACTIVE|66957|QO|1|M|49.04,36.48|Z|2024|N|Kill and loot Frostfist, He is on the ice flow, fly up and North of Camp Antonidas.|T|Frostfist|
 C Tending the Forge|QID|66523|QO|1|M|48.04,38.38|Z|2024|N|Finish collecting the frozen cores.|US|
-T WANTED: Frigellus|QID|66488|M|45.99,38.31|Z|2024|N|To Custodian Cynegos.|RANK|2|
+T WANTED: Frigellus|QID|66488|M|45.99,38.31|Z|2024|N|To Custodian Cynegos.|
 A Setting the Defense|QID|66489|PRE|66488|M|46.00,38.41|Z|2024|N|From Arch Enchanter Celeste.|RANK|2|
 C Setting the Defense|QID|66489|M|46.20,38.84|Z|2024|U|192471|N|Target the Azure Defenders, then use the wand to empower them.|T|Azure Defender|
 T Setting the Defense|QID|66489|M|46.00,38.41|Z|2024|N|To Arch Enchanter Celeste.|

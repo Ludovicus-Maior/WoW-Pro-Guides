@@ -151,7 +151,6 @@ T The Path of the Dreadscar|QID|40824|M|65.69,47.86|Z|717|N|To Ritssyn Flamescow
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
-L Blocked till 101|QID|42608|N|The next quest in the class hall requires level 101.|
 A A Mutual Friend|QID|44099|N|From Black Harvest Acolyte.|
 T A Mutual Friend|QID|44099|M|56.4,64.6|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|
 A Rise, Champions|QID|42608|M|37.47,31.72|N|From Calydus.|
