@@ -10,7 +10,6 @@
 	<Script file="CATA_Uldum.lua"/>
 	<Script file="CATA_UnGoro.lua"/>
 	<Script file="CATA_Winterspring.lua"/>
-	<Script file="DF_speed6070.lua"/>
 	<Script file="DF_Intro.lua"/>
 	<Script file="DF_Waking_Shores.lua"/>
 	<Script file="DF_Ohnahran_Plains.lua"/>
