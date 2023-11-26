@@ -35,12 +35,12 @@ T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
 T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
 F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|Loch Modan|C|Paladin|R|Human|
 A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|R|Human|
-F Stormwind|AVAILABLE|399|M|33.94,50.95|Z|Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|R|Gnome,Dwarf|
+F Stormwind|AVAILABLE|399|M|33.94,50.95|Z|Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|R|Human,Gnome,Dwarf|
 F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|TZ|Stormwind City|N|Fly to Stormwind.|C|Paladin|
 F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|R|-Gnome,Dwarf|
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
-A Humble Beginnings|QID|399|Z|Stormwind City|M|47.9,33.3|N|From Baros Alexston, in Cathedral Square.|
+A Humble Beginnings|QID|399|Z|Stormwind City|M|57.70,47.91|N|From Baros Alexston, in Cathedral Square.|
 T Tome of Divinity|QID|3681|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|R|Human|
 A The Tome of Divinity|QID|1642|M|50.55,47.49|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|R|Human|PRE|1641^3681|
 T The Tome of Divinity|QID|1642|M|50.55,47.49|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|R|Human|
@@ -63,7 +63,7 @@ T The Tome of Divinity|QID|1786|M|72.59,51.41|Z|Elwynn Forest|N|To Henze Faulk.|
 A The Tome of Divinity|QID|1787|M|72.59,51.41|Z|Elwynn Forest|N|From Henze Faulk.|PRE|1786|C|Paladin|R|Human|
 C The Tome of Divinity|QID|1787|M|74.03,51.84|Z|Elwynn Forest|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|R|Human|
 R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|Z|Elwynn Forest|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|R|Human|
-C Bounty on Murlocs|QID|46|L|780 8|M|76.92,58.60|N|Kill murlocs until you collect the torn fins needed.|
+C Bounty on Murlocs|QID|46|L|780 8|M|76.92,58.60|Z|Elwynn Forest|N|Kill murlocs until you collect the torn fins needed.|
 T Cloth and Leather Armor|QID|59|M|79.46,68.79|Z|Elwynn Forest|N|To Sara Timberlain in Eastvale Logging Camp.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|Z|Elwynn Forest|N|To Guard Thomas.|
 K Morgan the Collector|ACTIVE|147|M|70.97,80.49|QO|1|T|Morgan the Collector|Z|Elwynn Forest|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
@@ -71,7 +71,7 @@ R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge 
 A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|30.74,60.00|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|Redridge Mountains|N|From Deputy Feldon.|
-f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
+f Lakeshire|ACTIVE|246|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
 F Stormwind|ACTIVE|147^1787|C|Paladin|R|Human|M|30.60,59.40|Z|Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 T The Tome of Divinity|QID|1787|C|Paladin|R|Human|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|R|Human|M|49.64,45.08|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
@@ -124,7 +124,7 @@ A The Defias Brotherhood |QID|65|M|56.33,47.52|Z|Westfall|N|From Gryan Stoutmant
 T Patrolling Westfall|QID|102|M|56.42,47.61|Z|Westfall|N|To Captain Danuvin.|
 t Red Leather Bandanas|QID|153|M|53.98,52.99|Z|Westfall|N|To Scout Galiaan.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|Z|Westfall|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
-F Stormwind|ACTIVE|65|M|56.55,52.65|TZ|Stormwind City|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|
+F Stormwind|ACTIVE|65|M|56.55,52.65|Z|Westfall|TZ|Stormwind City|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|
 
 ; The following only applies if coming from 1-12 Dun Morogh or 12-14 Loch Modan
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
@@ -195,7 +195,7 @@ T The Defias Brotherhood|QID|135|M|78.39,70.76|Z|Stormwind City|N|To Master Math
 A The Defias Brotherhood|QID|141|M|78.39,70.76|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 A Humble Beginnings|QID|399|M|47.9,33.3|Z|Stormwind City|N|From Baros Alexston in Cathedral Square.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore in Dwarven District. \n(skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
-F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|Stormwind City|N|Fly to Ironforge.|IZ|-Ironforge|
+F Ironforge|AVAILABLE|2039|M|71.00,72.61|Z|Stormwind City|N|Fly to Ironforge.|IZ|-Ironforge|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 A Ironband's Excavation|QID|436|M|37.24,47.39|Z|Loch Modan|N|From Jern Hornhelm, inside the house, down the stairs.|
