@@ -15,20 +15,21 @@ R Rut'theran Village|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the po
 F Auberdine|AVAILABLE|3524|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
 A Washed Ashore|QID|3524|M|36.62,45.59|N|From Gwennyth Bly'Leggonde.|
 h Auberdine|AVAILABLE|2118|M|37.04,44.12|N|Go down the ramp from the flight area and set your hearthstone with Innkeeper Shaussiy.|
-A Buzzbox 827|QID|983|M|36.97,44.13|N|From Wizbang Cranktoggle, on the top floor of the Inn.|
+A Buzzbox 827|QID|983|M|36.97,44.13|N|From Wizbang Cranktoggle, on the TOP FLOOR of the Inn.|
 A For Love Eternal|QID|963|M|35.74,43.71|N|From Cerellean Whiteclaw.|
 A Plagued Lands|QID|2118|M|38.84,43.42|N|From Tharnariun Treetender.|
 A How Big a Threat?|QID|984|M|39.37,43.48|N|From Terenthis.|
-A The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|From Gubber Blump, on the beach near the inn.|
-N The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|CHAT|P|Fishing;356;0+1;1|
+A The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|From Gubber Blump, on the beach near the inn.\n[color=FF0000]NOTE: [/color]Skip if you don't care about fishing and a pole.|NOAUTO| ; ** Give them the option to skip it. - Hendo72
+N The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|CHAT|P|Fishing;356;0;1|
 B The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|L|6256|N|Not got a fishing rod? No problem. Gubber Blump will sell you one for 23c.|
-C The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|Just fish near him; takes about 18-20 minutes from no skill with baubles.\n[color=FF0000]NOTE: [/color]Skip if you don't care about fishing and a pole.|NC|
+C The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|Just fish near him; takes about 18-20 minutes from no skill with baubles.|NC|
 T The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|To Gubber Blump.|
 C Buzzbox 827|QID|983|M|36.00,50.00|L|5385 6|ITEM|5385|N|Pygmy Tide Crawlers found along the Long Wash shoreline.|S|
 C Washed Ashore|QID|3524|M|36.37,50.82|N|Clear the Murlocs around the Beached Sea Creature and loot the Sea Creatures Bones from it.|
-C Plagued Lands|QID|2118|M|39,58|N|Capture a Rabid Thistle Bear by using the item provided.\n[color=FF0000]NOTE: [/color]Don't worry about the bear following you back, the quest is complete.|U|7586|S|
-C How Big a Threat?|QID|984|M|40,53|N|Find the corrupt furbolg camp.|
-C Plagued Lands|QID|2118|M|39,58|N|Capture a Rabid Thistle Bear by using the item provided.\n[color=FF0000]NOTE: [/color]Don't worry about the bear following you back, the quest is complete.|U|7586|US|
+N Higher level Mobs|ACTIVE|2118|N|The mobs around here range from level 11 to 15. I'd steer clear of the higher level unless you have backup.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Plagued Lands|QID|2118|QO|1|M|38.28,54.23|N|Capture a Rabid Thistle Bear by using Tharnariun's Hope.\n[color=FF0000]NOTE: [/color]The trap is a one-time use item and if you miss, you have to go back to Tharnariun to get another one.|U|7586|S|
+C How Big a Threat?|QID|984|M|38.80,53.48|N|Find the corrupt furbolg camp.|
+C Plagued Lands|QID|2118|M|38.28,54.23|QO|1|N|Capture a Rabid Thistle Bear by using the 'one-time use' Tharnariun's Hope.\n[color=FF0000]NOTE: [/color]Don't worry about the bear following you back as the the quest is now complete.|U|7586|US|
 C Buzzbox 827|QID|983|M|36.00,50.00|L|5385 6|ITEM|5385|N|Pygmy Tide Crawlers found along the Long Wash shoreline.|US|
 T Buzzbox 827|QID|983|M|36.66,46.26|N|To Buzzbox 827.\n[color=FF0000]NOTE: [/color]Click on it.|
 A Buzzbox 411|QID|1001|PRE|983|M|36.66,46.26|N|From Buzzbox 827.|
@@ -43,56 +44,58 @@ T Thundris Windweaver|QID|4761|M|37.40,40.13|N|To Thundris Windweaver.|
 A Bashal'Aran|QID|954|M|37.40,40.13|N|From Thundris Windweaver.|
 A Tools of the Highborne|QID|958|M|37.40,40.13|N|From Thundris Windweaver.|
 A The Cliffspring River|QID|4762|PRE|4761|M|37.40,40.13|N|From Thundris Windweaver.|
-N Easy Strider Living|AVAILABLE|2178|M|PLAYER|N|You must have at least 10 cooking skill to get the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|Cooking;185;0+1|
+N Easy Strider Living|AVAILABLE|2178|M|PLAYER|N|You must have at least 10 cooking skill to get the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|Cooking;185;0+10;1|
 A Easy Strider Living|QID|2178|M|37.69,40.66|N|From Alanndarian Nightsong.\n[color=FF0000]NOTE: [/color]Extra experience if you want/need to do the grind.\nSkip this step if you don't wish to do it.|P|Cooking;185;0+10;0|RANK|2|
 A The Red Crystal|QID|4811|M|37.70,43.40|N|From Sentinel Glynda Nal'Shea|
 A Cave Mushrooms|QID|947|M|37.32,43.64|N|From Barithras Moonshade.|
 C Easy Strider Living|QID|2178|M|39.60,48.80|L|5469 5|ITEM|5469|N|Any Strider in Darkshore.|S|
 C Cleansing of the Infected|QID|2138|N|Kill Rabid Thistle Bears that spawn all over.|S|
-C Buzzbox 411|QID|1001|M|32,46|L|5412 3|ITEM|5412|N|Darkshore Threshers.|S|
+C Buzzbox 411|QID|1001|M|32.91,40.62|L|5412 3|ITEM|5412|N|Darkshore Threshers.|S|
 C Washed Ashore|QID|4681|M|31.84,46.28|N|Loot the Skeletal Sea Turtle located on the sea floor beside the island with the trees on it.|NC|
-C Buzzbox 411|QID|1001|M|32,46|L|5412 3|ITEM|5412|N|Darkshore Threshers.\nThese guys are spread out across the water and not necessarily near the shore.|US|
+C Buzzbox 411|QID|1001|M|32.91,40.62|L|5412 3|ITEM|5412|N|Darkshore Threshers.\nThese guys are spread out across the water and not necessarily near the shore.|US|
 T Washed Ashore|QID|4681|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
-T Bashal'Aran|QID|954|M|44.2,36.3|N|To Asterion.|
-A Bashal'Aran|QID|955|PRE|954|M|44.2,36.3|N|From Asterion.|
-C Bashal'Aran|QID|955|M|47,37|N|Slay Vile Sprites and Wild Grells until you have 8 Grell Earrings.|
-T Bashal'Aran|QID|955|M|44.2,36.3|N|To Asterion.|
-A Bashal'Aran|QID|956|PRE|955|M|44.2,36.3|N|From Asterion.|
-C Bashal'Aran|QID|956|M|47,37|N|Kill Deth'ryll Satyrs until you get an Ancient Moonstone Seal.|
-T Bashal'Aran|QID|956|M|44.2,36.3|N|To Asterion.|
-A Bashal'Aran|QID|957|PRE|956|M|44.2,36.3|N|From Asterion.|
-C The Red Crystal|QID|4811|M|47,49|N|Just run toward it until the quest completes.|
-C Tools of the Highborne|QID|958|N|Kill Highbornes that are roaming around.|S|
-A The Fall of Ameth'Aran|QID|953|M|40.3,59.7|N|From Sentinel Tysha Moonblade.|
-C The Fall of Ameth'Aran|QID|953|QO|2|M|42.7,63.1|N|Click to read the Fall.|NC|
-C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|NC|
-C The Lay of Ameth'Aran|QID|953|QO|1|M|43.3,58.8|N|Click to read the Lay.|NC|
-C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Neutral Ghost NE Female that roams around the area. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
-C Tools of the Highborne|QID|958|M|42.7,63.1|N|Finish killing the Highbornes.|US|
-T The Fall of Ameth'Aran|QID|953|M|40.3, 59.7|N|To Sentinel Tysha Moonblade.|
-C How Big a Threat?|QID|985|M|39,53|N|Head north to kill the furbolg camps|
-R Auberdine|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|
+T Bashal'Aran|QID|954|M|44.17,36.29|N|To Asterion.|
+A Bashal'Aran|QID|955|PRE|954|M|44.17,36.29|N|From Asterion.|
+C Bashal'Aran|QID|955|M|45.85,38.50|L|5336 8|ITEM|5336|N|any Vile Sprite or Wild Grell around Bashal'Aran.|
+T Bashal'Aran|QID|955|M|44.17,36.29|N|To Asterion.|
+A Bashal'Aran|QID|956|PRE|955|M|44.17,36.29|N|From Asterion.|
+C Bashal'Aran|QID|956|M|45.85,38.50|L|5338|ITEM|5338|N|any Deth'ryll Satyr around Bashal'Aran.\n[color=FF0000]NOTE: [/color]Be mindful of the other mobs around you as you cannot pull the Satyrs (range attack).|T|Deth'ryll Satyr|
+T Bashal'Aran|QID|956|M|44.17,36.29|N|To Asterion.|
+A Bashal'Aran|QID|957|PRE|956|M|44.17,36.29|N|From Asterion.|
+R The Red Crystal|QID|4811|QO|1|M|47.20,48.85|N|Just run towards it until the quest completes.\n[color=FF0000]NOTE: [/color]The Moonkin won't make this easy.|
+C Tools of the Highborne|QID|958|M|42.99,60.74|L|5360 7|ITEM|5360|N|any Highborne around Ameth'Aran.|S|
+A The Fall of Ameth'Aran|QID|953|M|40.30,59.73|N|From Sentinel Tysha Moonblade.|
+C The Fall of Ameth'Aran|QID|953|QO|2|M|42.67,63.15|N|After clearing the area, click the tablet to read it.|NC|
+C Bashal'Aran|QID|957|M|42.37,61.83|N|After clearing the area, click on the flame to destroy the seal.|NC|
+C The Lay of Ameth'Aran|QID|953|QO|1|M|43.31,58.70|N|After clearing the area, click the tablet to read it.|NC|
+C For Love Eternal|QID|963|M|42.99,60.74|N|Kill Anaya Dawnrunner.\n[color=FF0000]NOTE: [/color]Neutral Ghost NE Female that roams around the area. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
+C Tools of the Highborne|QID|958|M|42.99,60.74|L|5360 7|ITEM|5360|N|any Highborne around Ameth'Aran.|US|
+T The Fall of Ameth'Aran|QID|953|M|40.30,59.73|N|To Sentinel Tysha Moonblade.|
+C How Big a Threat?|QID|985|M|38.80,53.48|N|Head north to kill the furbolg camps|
+R Auberdine|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|S|LVL|13;-3240|
+L Level 14|ACTIVE|963|N|Grind until you're within 5.5 bubbles of level 14.|LVL|13;-3240|
+R Auberdine|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|US|
 T For Love Eternal|QID|963|M|35.74,43.71|N|To Cerellean Whiteclaw.|
 T The Red Crystal|QID|4811|M|37.70,43.40|N|To Sentinel Glynda Nal'Shea.|
 A As Water Cascades|QID|4812|PRE|4811|M|37.70,43.40|N|From Sentinel Glynda Nal'Shea.|
 C As Water Cascades|QID|4812|M|37.71,43.96|N|Fill your Empty Water Tube at the moonwell by the Inn.|U|14338|NC|
 T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
-A The Tower of Althalaxx|QID|965|M|39.1, 43.5|N|From Sentinel Elissa Starbreeze upstairs.|
-A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
+A The Tower of Althalaxx|QID|965|M|39.04,43.56|N|From Sentinel Elissa Starbreeze upstairs.|
+A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.11,41.16|N|From Gorbold Steelhand.|
 T Tools of the Highborne|QID|958|M|37.40,40.13|N|To Thundris Windweaver.|
-N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish any sticky quests left.|
-F Rut'theran Village|AVAILABLE|730|M|36.34,45.58|N|Take a ride to the village.|
-R Darnassus|AVAILABLE|730|M|55.88,89.55|Z|Teldrassil|
-N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
-A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
-A Lessons Anew|QID|6121|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor.|C|Druid|
+F Rut'theran Village|AVAILABLE|730|M|36.34,45.58|N|Fly to Rut'theran Village.|
+P Darnassus|AVAILABLE|730|M|55.88,89.55|Z|Teldrassil|N|Enter the portal to Darnassus.|
+= Level 14 Training|AVAILABLE|730|M|PLAYER|CC|N|Do your level 14 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|IZ|Darnassus|
+A Lessons Anew|QID|6121|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor.|C|Druid|
+A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon, but don't go inside. Take the right path around the building and you'll run into a dwarf.|
+r Housekeeping|ACTIVE|730|N|Before leaving Darnassus, take a minute to visit the bank to offload items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
 T Lessons Anew|QID|6121|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|C|Druid|
 A The Principal Source|QID|6122|PRE|6121|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|C|Druid|
 H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Darkshore|N|Hearth back to Auberdine. Fly from Rut'theran Village if on CD|
 T Trouble In Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
 A The Fragments Within|QID|4813|PRE|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
-T Bashal'Aran|QID|957|M|44.2,36.3|N|To Asterion.|
+T Bashal'Aran|QID|957|M|44.17,36.29|N|To Asterion.|
 C Deep Ocean, Vast Sea|QID|982|M|38.26,28.83|QO|1|N|Swim to the bottom of the ship and loot the Silver Dawning's Lockbox. There may be a murloc standing in front of the chest that you'll have to kill first.\nKeep an eye on your breath bar.|NC|
 C Deep Ocean, Vast Sea|QID|982|M|39.65,27.49|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|NC|
 T Buzzbox 411|QID|1001|M|42,28.7|N|To Buzzbox 411.|
@@ -121,9 +124,9 @@ T The Fragments Within|QID|4813|M|37.70,43.40|N|To Sentinel Glynda Nal'Shea.|
 T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|
 A Tharnariun's Hope|QID|2139|PRE|2138|M|38.84,43.42|N|From Tharnariun Treetender.|
 A A Lost Master|QID|986|PRE|985|M|39.37,43.48|N|From Terenthis.|
-T Deep Ocean, Vast Sea|QID|982|M|38.12,41.22|N|To Gorbold Steelhand.|
-r Repair/Sell|QID|2178|M|38.12,41.22|N|While standing here, repair and sell junk to Elisa Steelhand.|
-T Easy Strider Living|QID|2178|M|37.69,40.66|N|To Alanndarian Nightsong.|
+T Deep Ocean, Vast Sea|QID|982|M|38.11,41.16|N|To Gorbold Steelhand.|
+r Repair/Sell|QID|2178|M|38.11,41.16|N|While standing here, repair and sell junk to Elisa Steelhand.|
+t Easy Strider Living|QID|2178|M|37.69,40.66|N|To Alanndarian Nightsong.|
 T The Cliffspring River|QID|4762|M|37.40,40.13|N|To Thundris Windweaver|
 T The Principal Source|QID|6122|M|37.69,40.66|N|To Alanndarian Nightsong.|C|Druid|
 A The Blackwood Corrupted|QID|4763|PRE|4762|M|37.40,40.13|N|From Thundris Windweaver|
