@@ -5,7 +5,7 @@ WoWPro:GuideQuestTriggers(guide, 53791)
 WoWPro.Achievements:GuideMisc(guide, "Blood Elf Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
-A The Pride of the Sin'dorei|QID|53791|M|39.32,78.97|Z|85|N|From Ambassador Dawnsworn.| 
+A The Pride of the Sin'dorei|QID|53791|M|39.32,78.97|Z|85|N|From Ambassador Dawnsworn.|
 P Portal Room|ACTIVE|53791|M|56.34,88.76|N|Take the portal to Silvermoon City.|
 T The Pride of the Sin'dorei|QID|53791|M|54.02,20.45|Z|110|N|To Lor'themar Theron.|
 A Walk Among Ghosts|QID|53734|PRE|53791|M|54.02,20.45|Z|110|N|From Lor'themar Theron.|
