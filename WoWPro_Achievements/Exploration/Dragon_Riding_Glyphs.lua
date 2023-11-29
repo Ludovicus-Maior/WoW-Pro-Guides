@@ -32,7 +32,7 @@ F Dragonspring Summit Glyph |N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Ar
 F Cobalt Assembly Glyph |N|On top of the high tower.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 F Zelthrak Outpost Glyph |N|This one is hidden between the trees, might have to look around a bit for it.|M|52.94,48.68|Z|2024;The Azure Plains!Dragonflight|ACH|16071|
 F Azure Archive Glyph |N|This is behind the purple light beam, kinda high up, fly to the highest crystal pairs and look right behind them.|M|39.23,63.03|Z|2024;The Azure Plains!Dragonflight|ACH|16065|
-F Imbu Glyph |N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|ACH|16070|
+F Imbu Glyph |N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you land on the top waterfall and then dive down.|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|ACH|16070|
 F Ruins of Karnthar Glyph |N|On top of the ruins of the tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
 F Lost Ruins Glyph |N|This one is inside the tower, might have to land for this.|M|70.57,46.26|Z|2024;The Azure Plains!Dragonflight|ACH|16067|
 F Vakthros Range Glyph |N|Floating above the ground.|M|72.57,39.66|Z|2024;The Azure Plains!Dragonflight|ACH|16073|
