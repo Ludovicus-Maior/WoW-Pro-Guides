@@ -304,12 +304,12 @@ C Sneaking Out|QID|65901|QO|1|M|57.01,75.47;57.37,76.34;56.66,76.29|CN|Z|2023;Oh
 C Sneaking Out|QID|65901|QO|2|M|56.24,75.95|Z|2023;Ohn'ahran Plains|CHAT|N|Back to Radiya to tell her the Totems are placed.|
 T Sneaking Out|QID|65901|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Favorite Fruit|QID|65907|PRE|65901|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
-C Favorite Fruit|QID|65907|QO|1|M|53.5,71.05|Z|2023;Ohn'ahran Plains|H|N|Click to gather Bushruit from the glowing bushes.|
+C Favorite Fruit|QID|65907|QO|1|M|53.52,70.25|Z|2023;Ohn'ahran Plains|H|N|Click to gather Bushfruit from the glowing bushes near the waterfalls.|
 C Favorite Fruit|QID|65907|QO|2|M|54.47,63.38|Z|2023;Ohn'ahran Plains|NC|N|Target the Mudstompers and then use the fruit to feed them. (sorry target button only autotargets the calves|U|192743|T|Mudstomper|
 T Favorite Fruit|QID|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A A Promise Is A Promise|QID|65770|PRE|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C A Promise Is A Promise|QID|65770|QO|1|M|54.79,66.68|Z|2023;Ohn'ahran Plains|CHAT|N|Promise her you will keep her secret.|
-C A Promise Is A Promise|QID|65770|QO|2|M|52.60,64.20|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing. Note: if this objective doesn't complete leave the area and come back in on foot.|
+C A Promise Is A Promise|QID|65770|QO|2|M|52.93,63.93|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing, and wait at this spot for the NPC to appear across the river.|
 T A Promise Is A Promise|QID|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|To Godoloto.|
 A More Adventure Than Expected|QID|65761|PRE|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|From Godoloto.|RANK|2|
 C More Adventure Than Expected|QID|65761|QO|2|M|51.09,62.19|Z|2023;Ohn'ahran Plains|CHAT|N|You have followed Godoloto, you can optionally ask her for a buff too, if so tell Godoloto you are ready.|

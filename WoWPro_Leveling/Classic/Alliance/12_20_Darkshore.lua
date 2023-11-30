@@ -49,7 +49,7 @@ A Easy Strider Living|QID|2178|M|37.69,40.66|N|From Alanndarian Nightsong.\n[col
 A The Red Crystal|QID|4811|M|37.70,43.40|N|From Sentinel Glynda Nal'Shea|
 A Cave Mushrooms|QID|947|M|37.32,43.64|N|From Barithras Moonshade.|
 C Easy Strider Living|QID|2178|M|39.60,48.80|L|5469 5|ITEM|5469|N|Any Strider in Darkshore.|S|
-C Cleansing of the Infected|QID|2138|N|Kill Rabid Thistle Bears that spawn all over.|S|
+K Cleansing of the Infected|ACTIVE|2138|QO|1|N|Kill Rabid Thistle Bears that spawn all over.|S|
 C Buzzbox 411|QID|1001|M|32.91,40.62|L|5412 3|ITEM|5412|N|Darkshore Threshers.|S|
 C Washed Ashore|QID|4681|M|31.84,46.28|N|Loot the Skeletal Sea Turtle located on the sea floor beside the island with the trees on it.|NC|
 C Buzzbox 411|QID|1001|M|32.91,40.62|L|5412 3|ITEM|5412|N|Darkshore Threshers.\nThese guys are spread out across the water and not necessarily near the shore.|US|
@@ -88,30 +88,30 @@ P Darnassus|AVAILABLE|730|M|55.88,89.55|Z|Teldrassil|N|Enter the portal to Darna
 = Level 14 Training|AVAILABLE|730|M|PLAYER|CC|N|Do your level 14 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|14|IZ|Darnassus|
 A Lessons Anew|QID|6121|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor.|C|Druid|
 A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon, but don't go inside. Take the right path around the building and you'll run into a dwarf.|
-r Housekeeping|ACTIVE|730|N|Before leaving Darnassus, take a minute to visit the bank to offload items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
+r Housekeeping|ACTIVE|730|N|Before leaving Darnassus, take a minute to visit the bank to offload items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|Darnassus|
 T Lessons Anew|QID|6121|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|C|Druid|
 A The Principal Source|QID|6122|PRE|6121|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|C|Druid|
 H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Darkshore|N|Hearth back to Auberdine. Fly from Rut'theran Village if on CD|
 T Trouble In Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
-T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
-A The Fragments Within|QID|4813|PRE|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
+T As Water Cascades|QID|4812|M|47.29,48.67|N|Click on the Mysterious Red Crystal to turn it in.|
+A The Fragments Within|QID|4813|PRE|4812|M|47.29,48.67|N|From the Mysterious Red Crystal.|
 T Bashal'Aran|QID|957|M|44.17,36.29|N|To Asterion.|
-C Deep Ocean, Vast Sea|QID|982|M|38.26,28.83|QO|1|N|Swim to the bottom of the ship and loot the Silver Dawning's Lockbox. There may be a murloc standing in front of the chest that you'll have to kill first.\nKeep an eye on your breath bar.|NC|
-C Deep Ocean, Vast Sea|QID|982|M|39.65,27.49|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|NC|
-T Buzzbox 411|QID|1001|M|42,28.7|N|To Buzzbox 411.|
-A Buzzbox 323|QID|1002|PRE|1001|M|42,28.7|N|From Buzzbox 411.|
-A Beached Sea Creature|QID|4723|PRE|4681|M|42.1, 31.9|N|Stand near the base of the neck to able to click and get the quest. If you stand too far up, you won't be able to click on it.|
-A Beached Sea Turtle|QID|4725|PRE|4681|M|44.24,20.67|N|On the beach, a few level 15 Murlocs around.|
+;C Deep Ocean, Vast Sea|QID|982|M|38.26,28.83|QO|1|N|While keeping an eye on your breath bar, clear the murlocs as you work your way to the bottom of the ship and loot the Silver Dawning's Lockbox.\n[color=FF0000]NOTE: [/color]Avoid multiple pulls as the Seers will greatly heal themselves and others. They also flee when near death.|NC|
+;C Deep Ocean, Vast Sea|QID|982|M|39.65,27.49|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|NC|
+T Buzzbox 411|QID|1001|M|41.96,28.61|N|Click on Buzzbox 411 to turn it in.|
+A Buzzbox 323|QID|1002|PRE|1001|M|41.96,28.61|N|From Buzzbox 411.|
 C Buzzbox 323|QID|1002|N|Drop rate is low, so be ready for a grind.|S|
-C The Cliffspring River|QID|4762|M|51,25|N|Use your Empty Sampling Tube.|U|12350|
-T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
-A The Tower of Althalaxx|QID|966|PRE|965|M|54.9, 24.9|N|From Balthule Shadowstrike.|
-A Beached Sea Turtle|QID|4727|PRE|4681|M|53.12,18.17|N|On the beach, no enemies around.|
-C The Principal Source|QID|6122|M|54.9, 33.3|N|Left of the waterfall, take the path to the top.|U|15844|C|Druid|NC|
-H Auberdine|AVAILABLE|4722|M|37.04,44.12|Z|Darkshore|N|Return to Auberdine. If hearthstone is on CD you can be killing any wildlife with quest objectives remaining in the area|
+C The Cliffspring River|QID|4762|M|50.77,25.23|N|Drop down into the water and use your Empty Sampling Tube.|U|12350|
+C The Principal Source|QID|6122|M|54.86,33.18|N|Follow the river east to the next waterfall and take the path on the left to the top. Fill the Sampler in front of the cave opening.\n[color=FF0000]NOTE: [/color]Single pull the Wave Riders until the entrance is clear (There may be a Siren as well). Watch out for the Rider's Knockback and always face towards the northern hillside.|U|15844|C|Druid|NC|
+T The Tower of Althalaxx|QID|965|M|54.97,24.89|N|To Balthule Shadowstrike.|
+A The Tower of Althalaxx|QID|966|PRE|965|M|54.97,24.89|N|From Balthule Shadowstrike.|
+L Level 15|AVAILABLE|4725|PRE|4681|N|Grind until you're level 15. This will make the next part easier.|LVL|15|
+A Beached Sea Turtle|QID|4727|PRE|4681|M|53.12,18.17|N|It's located on the beach.|
+A Beached Sea Turtle|QID|4725|PRE|4681|M|44.24,20.67|N|On the beach.\n[color=FF0000]NOTE: [/color]There several level 15-16 Murlocs around it. Bring help if you need it.|
+A Beached Sea Creature|QID|4723|PRE|4681|M|41.90,31.56|N|After clearing the Murlocs around it, go stand near the base of the neck and click to get the quest.\n[color=FF0000]NOTE: [/color]If you stand too far up, you won't be able to click on it.|
 R Auberdine|AVAILABLE|4722|M|37.04,44.12|N|Sell/repair whilst at the Inn|
 A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N| South of Auberdine with level 13 Murlocs around. Reminder to kill any wildlife you still need as you travel|
-C Cleansing of the Infected|QID|2138|N|Finish killing the Rabid Thistle Bears that spawn around the area.|US|
+K Cleansing of the Infected|ACTIVE|2138|QO|1|N|Finish killing the Rabid Thistle Bears that spawn around the area.|US|
 C Buzzbox 323|QID|1002|N|Finish collecting fangs.|US|
 C Easy Strider Living|QID|2178|M|39.60,48.80|L|5469 5|ITEM|5469|N|Any Strider in Darkshore.|US|
 T Beached Sea Turtle|QID|4722|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|

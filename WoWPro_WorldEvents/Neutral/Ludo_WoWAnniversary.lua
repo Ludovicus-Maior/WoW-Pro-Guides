@@ -83,7 +83,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|This frail Zandalari troll sought
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|One name for this loa is "Night's Friend"|N|Mueh'zala|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Razormane and Bristleback are|N|Quillboar|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Succubus demons revel in causing anguish|N|Sayaad|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Thane Kurdran Wildhammer recently suffered a tragic loss when his valiant gryphon was killed in a fire|N|Sky'ree|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Thane Kurdran Wildhammer suffered a tragic loss when his valiant gryphon was killed in a fire|N|Sky'ree|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The draenei like to joke that in the language of the naaru|N|Defective elekk turd|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The Ironforge library features a replica of an unusually large ram skeleton|N|Toothgnasher|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|against the armies of the Qiraji in what war|N|War of the Shifting Sands|
@@ -97,7 +97,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What are the final words from thi
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|what are undead murlocs called|N|Mur'ghouls|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What area was reshaped by Goblins|N|Azshara|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What did the dragon aspects give the night elves after the War of the Ancients|N|Nordrassil|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What dragon appears in the human guise of Lord victor Nefarius|N|Nefarian|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What dragon appears in the human guise of Lord Victor Nefarius|N|Nefarian|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What evidence drove Prince Arthas to slaughter the people of Stratholme during the Third War|N|Tainted grain|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which goblin cartel is known for plundering the natural resources of Azeroth|N|Venture Company|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Grummle's most prized personal possession|N|Luckydo|
