@@ -35,6 +35,7 @@ K Investigate Echo Ridge|ACTIVE|15|QO|1|M|48.39,35.52|N|Kill The Kobold Workers.
 
 T Simple Letter|QID|3100|M|50.24,42.28|N|To Llane Beshere in the Hall of Arms.|C|Warrior|R|Human|
 T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of Arms.|C|Paladin|R|Human|
+A Relics of the Light|AVAILABLE|77617|M|50.43,42.12|N|To Brother Sammuel.|C|Paladin|R|Human|
 T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing.|C|Priest|R|Human|
 T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.|C|Mage|R|Human|
 = Level 2 Training|AVAILABLE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|-Rogue,-Warlock|
