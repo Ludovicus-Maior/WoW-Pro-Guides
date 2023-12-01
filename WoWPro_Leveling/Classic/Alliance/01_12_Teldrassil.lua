@@ -22,15 +22,21 @@ A The Woodland Protector|QID|458|M|59.92,42.47|N|From Melithar Staghelm.|
 A A Good Friend|QID|4495|M|60.90,41.97|N|From Dirania Silvershine.|
 r Sell|ACTIVE|458|M|59.31,41.09|N|Sell your trash to Keina in Aldrassil.|
 T Simple Sigil|QID|3116|M|59.63,38.45|N|To Alyissia.\n[color=FF0000]NOTE: [/color]Inside the building and up the ramp to the right.|C|Warrior|
+A Amidst the Shadowed Webs|QID|77575|M|59.63,38.45|N|To Alyissia.|C|Warrior|
 R Ramp|ACTIVE|3117^3119^3120|M|57.64,41.70|CC|N|Walk outside to the ramp leading up the tree.|C|Druid,Hunter|
 T Etched Sigil|QID|3117|M|58.66,40.45|N|To Ayanna Everstride.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Hunter|
+A A Hunter's Strength|QID|77568|M|58.66,40.45|N|From Ayanna Everstride.|C|Hunter|
 T Encrypted Sigil|QID|3118|M|59.64,38.67|N|To Frahun Shadewhisper.\n[color=FF0000]NOTE: [/color]Inside the building and up the ramp to the right.|C|Rogue|
+A Second-Story Work|QID|77573|M|59.64,38.67|N|From Frahun Shadewhisper.|C|Rogue|
 T Hallowed Sigil|QID|3119|M|59.18,40.45|N|To Shanda.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the upper level.|C|Priest|
+A Meditation on Elune|QID|77574|M|59.18,40.45|N|To Shanda.|C|Priest|
 T Verdant Sigil|QID|3120|M|58.62,40.29|N|To Mardant Strongoak.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Druid|
+A Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|From Mardant Strongoak.|C|DRUID|
 = Level 2 Training|ACTIVE|458|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 K The Balance of Nature|QID|457|QO|1;2|M|61.08,34.71|N|Kill any Mangy Nightsabers and Thistle Boars you come across.\n[color=FF0000]NOTE: [/color]Young Thistle Boars do not count.|S|
 T The Woodland Protector|QID|458|M|57.73,45.23|N|To Tarindrella.|
 A The Woodland Protector|QID|459|PRE|458|M|57.73,45.23|N|From Tarindrella.|
+C Lunar Relic|QID|77571|L|208414|ITEM|208414|M|55.91,45.79|N|any mob in Shadowglen.|C|DRUID|S|
 C The Woodland Protector|QID|459|M|55.91,45.79|L|3297 8|ITEM|3297|N|Grell found in camps along the east mountains.|T|Grell|
 L Level 3|AVAILABLE|916|N|Grind until you're within 5 bubbles of level 3|LVL|2;-250|
 T The Woodland Protector|QID|459|M|57.73,45.23|N|To Tarindrella.|
@@ -55,6 +61,8 @@ r Sell and Repair|AVAILABLE|3522|M|59.31,41.09|N|Sell/repair at Keina.|S|IZ|Aldr
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
 = Level 4 Training|ACTIVE|3521|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Aldrassil^Shadowglen|
+C Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|Use Moonfire on 6 Grelkin.|C|DRUID|
+T Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|To Mardant Strongoak.|C|DRUID|
 
 r Sell and Repair|AVAILABLE|3522|S|N|Sell Junk and Repair.|
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
@@ -62,8 +70,13 @@ A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine.
 A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Dirania Silvershine to restart.|FAIL|
 T Iverron's Antidote|QID|3522|M|54.60,32.99|N|To Iverron.\n[color=FF0000]NOTE: [/color]You only have 5 minutes to turn this in.\nThe timer doesn't stop until you choose a reward and click 'Quest Complete'.|
 R Shadowthread Cave|ACTIVE|917|QO|1|M|56.77,31.72|N|Enter the cave.|
+K Githyiss the Vile|ACTIVE|77568|QO|1|M|56.65,25.74|N|This large spider is found on a ledge at the back of the cave among the Webwood Eggs.|S|
+C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|N|any webwood spider in Shadowthread Cave.|C|Warrior|S|
 C Webwood Egg|QID|917|M|56.66,29.33;56.87,27.24;55.72,25.12;56.65,25.74|CS|L|5167|N|Loot one of the eggs from the ground.\n[color=FF0000]NOTE: [/color]Take the middle path and go left. The right path is just a longer route to the same location. The left path is a dead-end.|
+K Githyiss the Vile|ACTIVE|77568|QO|1|M|56.65,25.74|N|This large spider is found on a ledge at the back of the cave among the Webwood Eggs.|US|
+C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|N|any webwood spider in Shadowthread Cave.|C|Warrior|US|
 H Shadowglen|ACTIVE|917|M|58.54,44.64|N|Hearth out of the cave.|
+
 T Webwood Egg|QID|917|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T Tenaron's Summons|QID|920|M|59.06,39.44|N|To Tenaron Stormgrip at the top of the tree.\n[color=FF0000]NOTE: [/color]Use the ramp outside the tree.|
