@@ -39,8 +39,8 @@ T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of 
 A Relics of the Light|AVAILABLE|77617|M|50.43,42.12|N|From Brother Sammuel.|C|Paladin|R|Human|
 T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing.|C|Priest|R|Human|
 A Meditation on the Light|AVAILABLE|77619|M|48.92,39.60|N|From Priestess Anetta.|C|Priest|R|Human|
-T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.|C|Mage|R|Human|
-A Spell Research|AVAILABLE|77620|M|48.92,41.61|N|From Khelden Bremen.|C|Mage|R|Human|
+T Glyphic Letter|QID|3104|M|49.66,39.44|N|To Khelden Bremen upstairs in the Library Wing.|C|Mage|R|Human|
+A Spell Research|AVAILABLE|77620|M|49.66,39.44|N|From Khelden Bremen.|C|Mage|R|Human|
 = Level 2 Training|AVAILABLE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|-Rogue,-Warlock|
 
 A Brotherhood of Thieves|QID|18|PRE|783|M|48.05,43.56|N|From Deputy Willem.|R|Human|
@@ -51,6 +51,7 @@ A The Stolen Tome|QID|1598|PRE|7|M|49.87,42.65|N|From Drusilla La Salle.\n[color
 A Stolen Power|AVAILABLE|77621|M|49.87,42.65|N|From Drusilla La Salle.|C|Warlock|R|Human|
 = Level 2 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|Rogue,Warlock|
 
+l Spell Notes: CALE ENCI|ACTIVE|77620|M|54.60,41.90|QO|1|N|Loot the Rune of Shadowstrike from the Defias Stashbox.|U|203751|S|
 l Rune of Shadowstrike|ACTIVE|77618|M|52.56,51.87|QO|1|N|Loot the Rune of Shadowstrike from the Defias Stashbox.|U|204795|S|
 l Libram of Judgement|ACTIVE|77617|M|54.60,41.90|QO|1|N|Kill and loot the Defias Thugs till you loot Libram of Judgement. After equipping it use judgement on 10 mobs.|U|205420|S|
 K Investigate Echo Ridge|ACTIVE|15|QO|1|M|48.39,35.52|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
@@ -59,6 +60,7 @@ l Rune of Shadowstrike|ACTIVE|77618|M|52.56,51.87|QO|1|N|Loot the Rune of Shadow
 l Rune of Victory Rush|ACTIVE|77616|M|50.62,27.24|QO|1|N|Loot the Rune of Victory Rush from the Kobold Stashbox inside Echo Ridge Cave, all the way to the back.|U|204806|
 C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|
 C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|L|752 12|ITEM|752|N|Defias Thugs.|US|
+l Spell Notes: CALE ENCI|ACTIVE|77620|M|54.60,41.90|QO|1|N|Loot the Rune of Shadowstrike from the Defias Stashbox.|U|203751|US|
 L Level 4|ACTIVE|18|N|Grind until you're within 5 bubbles of level 4.|LVL|3;-360|C|Warlock|
 L Level 4|ACTIVE|18|N|Grind until you're halfway to level 4.|LVL|3;-710|C|-Warlock|
 
@@ -78,6 +80,7 @@ r Sell and Repair|ACTIVE|3903|M|47.69,41.42|N|Sell and Repair at Godric Rothgar.
 r Sell and Repair|ACTIVE|3903|M|47.69,41.42|N|Sell and Repair at Godric Rothgar.\n[color=FF0000]NOTE: [/color]You may need the extra coin for training.|C|-Warlock|
 T The Lost Rune|QID|77616|M|50.21,42.22|N|To Llane Beshere.|C|Warrior|R|Human|
 T Thrice Stolen|QID|77618|M|50.3,39.9|N|To Jorik Kerridan.|C|Rogue|R|Human|
+T Spell Research|QID|77620|M|49.66,39.44|N|To Khelden Bremen.|
 = Level 4 Training|ACTIVE|3903|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|-Warlock|
 
 K Skirmish at Echo Ridge|ACTIVE|21|QO|1|M|48.41,29.31|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|
