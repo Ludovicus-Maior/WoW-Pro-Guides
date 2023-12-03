@@ -2631,6 +2631,21 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+            -- Skipping if not on Seasonal Realm --
+            if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC then
+                local season = 0
+                if not C_Seasons.HasActiveSeason() then
+                    WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing on a seasonal realm.")
+					skip = true
+				else
+                    season = _G.C_Seasons.GetActiveSeason("player")
+                    if season ~= 2 then
+                        WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing on a Season of Discovery realm.")
+    					skip = true
+                    end
+                end
+           end
+
 			if WoWPro.playerclass and WoWPro.playerclass[guideIndex] then
 				local _, myclass = _G.UnitClass("player")
 				if not WoWPro.SemiMatch(WoWPro.playerclass[guideIndex]:gsub(" ", ""):upper(),myclass) and (stepAction == "A" or stepAction == "T") then

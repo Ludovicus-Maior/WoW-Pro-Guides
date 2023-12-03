@@ -25,13 +25,13 @@ T Simple Sigil|QID|3116|M|59.63,38.45|N|To Alyissia.\n[color=FF0000]NOTE: [/colo
 A Amidst the Shadowed Webs|QID|77575|M|59.63,38.45|N|To Alyissia.|C|Warrior|
 R Ramp|ACTIVE|3117^3119^3120|M|57.64,41.70|CC|N|Walk outside to the ramp leading up the tree.|C|Druid,Hunter|
 T Etched Sigil|QID|3117|M|58.66,40.45|N|To Ayanna Everstride.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Hunter|
-A A Hunter's Strength|QID|77568|M|58.66,40.45|N|From Ayanna Everstride.|C|Hunter|
+A A Hunter's Strength|QID|77568|M|58.66,40.45|N|From Ayanna Everstride.|C|Hunter|RUNE|
 T Encrypted Sigil|QID|3118|M|59.64,38.67|N|To Frahun Shadewhisper.\n[color=FF0000]NOTE: [/color]Inside the building and up the ramp to the right.|C|Rogue|
 A Second-Story Work|QID|77573|M|59.64,38.67|N|From Frahun Shadewhisper.|C|Rogue|
 T Hallowed Sigil|QID|3119|M|59.18,40.45|N|To Shanda.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the upper level.|C|Priest|
 A Meditation on Elune|QID|77574|M|59.18,40.45|N|To Shanda.|C|Priest|
 T Verdant Sigil|QID|3120|M|58.62,40.29|N|To Mardant Strongoak.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Druid|
-A Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|From Mardant Strongoak.|C|DRUID|
+A Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|From Mardant Strongoak.|C|DRUID|RUNE|
 = Level 2 Training|ACTIVE|458|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 K The Balance of Nature|QID|457|QO|1;2|M|61.08,34.71|N|Kill any Mangy Nightsabers and Thistle Boars you come across.\n[color=FF0000]NOTE: [/color]Young Thistle Boars do not count.|S|
 T The Woodland Protector|QID|458|M|57.73,45.23|N|To Tarindrella.|
