@@ -2640,10 +2640,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing on a seasonal realm.")
 					skip = true
 				else
-                    local season = _G.C_Seasons.GetActiveSeason("player")
-                    if season ~= 2 then
+					local season = _G.C_Seasons.GetActiveSeason("player")
+					if season ~= 2 then
                         WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing on a Season of Discovery realm.")
-    					skip = true
+						skip = true
                     end
                 end
            end
