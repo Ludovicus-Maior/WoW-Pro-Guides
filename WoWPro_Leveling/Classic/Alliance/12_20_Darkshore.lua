@@ -11,7 +11,7 @@ WoWPro:GuideSteps(guide, function() return [[
 
 ; --- This guide begins in Darnassus
 r Housekeeping|AVAILABLE|3524|N|Before leaving Darnassus, take a minute to visit the bank to pick up or offload items, the Auction House to find some gear or make some coin, or the profession trainers.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|Darnnassus|
-R Rut'theran Village|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
+P Rut'theran Village|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N| Use the portal to Rut'theran.|
 F Auberdine|AVAILABLE|3524|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
 A Washed Ashore|QID|3524|M|36.62,45.59|N|From Gwennyth Bly'Leggonde.|
 h Auberdine|AVAILABLE|2118|M|37.04,44.12|N|Go down the ramp from the flight area and set your hearthstone with Innkeeper Shaussiy.|
@@ -91,70 +91,76 @@ A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of 
 r Housekeeping|ACTIVE|730|N|Before leaving Darnassus, take a minute to visit the bank to offload items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|Darnassus|
 T Lessons Anew|QID|6121|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|C|Druid|
 A The Principal Source|QID|6122|PRE|6121|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|C|Druid|
-H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Darkshore|N|Hearth back to Auberdine. Fly from Rut'theran Village if on CD|
+H Auberdine|ACTIVE|730|M|37.04,44.12|Z|Darkshore|N|Hearth back to Auberdine.|
 T Trouble In Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.29,48.67|N|Click on the Mysterious Red Crystal to turn it in.|
 A The Fragments Within|QID|4813|PRE|4812|M|47.29,48.67|N|From the Mysterious Red Crystal.|
 T Bashal'Aran|QID|957|M|44.17,36.29|N|To Asterion.|
-;C Deep Ocean, Vast Sea|QID|982|M|38.26,28.83|QO|1|N|While keeping an eye on your breath bar, clear the murlocs as you work your way to the bottom of the ship and loot the Silver Dawning's Lockbox.\n[color=FF0000]NOTE: [/color]Avoid multiple pulls as the Seers will greatly heal themselves and others. They also flee when near death.|NC|
-;C Deep Ocean, Vast Sea|QID|982|M|39.65,27.49|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|NC|
 T Buzzbox 411|QID|1001|M|41.96,28.61|N|Click on Buzzbox 411 to turn it in.|
 A Buzzbox 323|QID|1002|PRE|1001|M|41.96,28.61|N|From Buzzbox 411.|
-C Buzzbox 323|QID|1002|N|Drop rate is low, so be ready for a grind.|S|
+C Buzzbox 323|QID|1002|L|5413 6|ITEM|5413|N|any Moonstalker in Darkshore.|S|
 C The Cliffspring River|QID|4762|M|50.77,25.23|N|Drop down into the water and use your Empty Sampling Tube.|U|12350|
 C The Principal Source|QID|6122|M|54.86,33.18|N|Follow the river east to the next waterfall and take the path on the left to the top. Fill the Sampler in front of the cave opening.\n[color=FF0000]NOTE: [/color]Single pull the Wave Riders until the entrance is clear (There may be a Siren as well). Watch out for the Rider's Knockback and always face towards the northern hillside.|U|15844|C|Druid|NC|
 T The Tower of Althalaxx|QID|965|M|54.97,24.89|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|PRE|965|M|54.97,24.89|N|From Balthule Shadowstrike.|
 L Level 15|AVAILABLE|4725|PRE|4681|N|Grind until you're level 15. This will make the next part easier.|LVL|15|
 A Beached Sea Turtle|QID|4727|PRE|4681|M|53.12,18.17|N|It's located on the beach.|
-A Beached Sea Turtle|QID|4725|PRE|4681|M|44.24,20.67|N|On the beach.\n[color=FF0000]NOTE: [/color]There several level 15-16 Murlocs around it. Bring help if you need it.|
-A Beached Sea Creature|QID|4723|PRE|4681|M|41.90,31.56|N|After clearing the Murlocs around it, go stand near the base of the neck and click to get the quest.\n[color=FF0000]NOTE: [/color]If you stand too far up, you won't be able to click on it.|
+A Beached Sea Turtle|QID|4725|PRE|4681|M|44.24,20.67|N|On the beach.\n[color=FF0000]NOTE: [/color]There are several level 15-16 Murlocs around it. Bring help if you need it.|
+A Beached Sea Creature|QID|4723|PRE|4681|M|41.90,31.56|N|After clearing the Murlocs around it, stand near the base of the neck and click to get the quest.\n[color=FF0000]NOTE: [/color]If you stand too far up, you won't be able to click on it.|
 R Auberdine|AVAILABLE|4722|M|37.04,44.12|N|Sell/repair whilst at the Inn|
-A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N| South of Auberdine with level 13 Murlocs around. Reminder to kill any wildlife you still need as you travel|
+A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N|South of Auberdine with level 13 Murlocs around. Reminder to kill any wildlife you still need as you travel|
 K Cleansing of the Infected|ACTIVE|2138|QO|1|N|Finish killing the Rabid Thistle Bears that spawn around the area.|US|
-C Buzzbox 323|QID|1002|N|Finish collecting fangs.|US|
+C Buzzbox 323|QID|1002|L|5413 6|ITEM|5413|N|any Moonstalker in Darkshore.|US|
 C Easy Strider Living|QID|2178|M|39.60,48.80|L|5469 5|ITEM|5469|N|Any Strider in Darkshore.|US|
 T Beached Sea Turtle|QID|4722|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4723|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4727|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4725|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
-N Get to level 15|QID|1004|LVL|-15|N|Grind mobs until you are level 15.|
-A WANTED: Murkdeep!|QID|4740|M|37.23,44.23|N|From Board, no quest symbol above it.|
+;A WANTED: Murkdeep!|QID|4740|M|37.23,44.23|N|From Board, no quest symbol above it.|
 T The Fragments Within|QID|4813|M|37.70,43.40|N|To Sentinel Glynda Nal'Shea.|
 T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|
 A Tharnariun's Hope|QID|2139|PRE|2138|M|38.84,43.42|N|From Tharnariun Treetender.|
 A A Lost Master|QID|986|PRE|985|M|39.37,43.48|N|From Terenthis.|
-T Deep Ocean, Vast Sea|QID|982|M|38.11,41.16|N|To Gorbold Steelhand.|
-r Repair/Sell|QID|2178|M|38.11,41.16|N|While standing here, repair and sell junk to Elisa Steelhand.|
-t Easy Strider Living|QID|2178|M|37.69,40.66|N|To Alanndarian Nightsong.|
-T The Cliffspring River|QID|4762|M|37.40,40.13|N|To Thundris Windweaver|
+T Easy Strider Living|QID|2178|M|37.69,40.66|N|To Alanndarian Nightsong.|
 T The Principal Source|QID|6122|M|37.69,40.66|N|To Alanndarian Nightsong.|C|Druid|
+T The Cliffspring River|QID|4762|M|37.40,40.13|N|To Thundris Windweaver|
 A The Blackwood Corrupted|QID|4763|PRE|4762|M|37.40,40.13|N|From Thundris Windweaver|
 U The Blackwood Corrupted|ACTIVE|4763|M|37.76,44.02|L|12347|N|Clean the bowl in the moonwell.|U|12346|
 A Gathering the Cure|QID|6123|PRE|6122|M|37.69,40.66|N|From Alanndarian Nightsong.|C|Druid|
 C Gathering the Cure|QID|6123|QO|1;2|M|43,45;46,45;45,50|CS|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|C|Druid|NC|
 T Gathering the Cure|QID|6123|M|37.69,40.66|N|To Alanndarian Nightsong.|C|Druid|
 A Curing the Sick|QID|6124|PRE|6123|M|37.69,40.66|N|From Alanndarian Nightsong.|C|Druid|
-C Curing the Sick|QID|6124|N|They are all over the place.|U|15826|C|Druid|S|NC|
-C Tharnariun's Hope|QID|2139|M|52.37,35.88;52.71,36.65;51.6, 37.6|CS|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
-C Cave Mushrooms|QID|947|M|55,35|N|Head inside the cave and go to the right to find a Death Cap. The Scaber Stalks can be found all over the cave.|NC|
-C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
+C Curing the Sick|QID|6124|N|The Sickly Deer are all over Darkshore.|T|Sickly Deer|U|15826|C|Druid|S|NC|
+N Tharnariun's Hope|QID|2139|QO|1|N|This quest is soloable, but you may want to bring a friend to help out.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Tharnariun's Hope|QID|2139|M|52.37,35.88;52.71,36.65;51.60,37.60|CS|N|Pulling the first Thistle Cub will aggro the next one (and possibly the Den Mother). No matter what comes at you, pick one Cub and kill it before running away to break combat. Rinse and repeat until all 4 cubs are dead and you can pull the Den Mother.|
+N Cave Mushrooms|ACTIVE|947|M|PLAYER|N|I highly recommend bringing someone with you. This cave is not a nice place to solo. The Death Cap you need for this quest is dangerously close to a couple mobs for a lv 20 quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Cave Mushrooms|QID|947|M|55.37,36.45|N|After entering Cliffspring Falls Cave, go down and to the left to find the Death Cap. It's not going to be easy to get to. When the Siren by the Twilight Thugs moves away from you, stand on the waypoint and loot it. If you fail, you're dead.\nThe Scaber Stalks can be found all over the cave.\n[color=FF0000]NOTE: [/color]Being a cave, bring a friend or try to make one while you're there.\nThe Sirens heal for 75% and the Wave Riders use Knockback.|NC|
+C The Tower of Althalaxx|QID|966|M|55.41,26.86|L|5348 4|ITEM|5348|N|Dark Strand Fanatics around the outside of the tower.\n[color=FF0000]NOTE: [/color]Keep an eye out for Delmanis the Hated. He hits like a truck and isn't worth the effort.|
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|967|PRE|966|N|From Balthule Shadowstrike.|
 T Buzzbox 323|QID|1002|M|51.28,24.58|N|Turn in to Buzzbox 323.|
 A Buzzbox 525|QID|1003|PRE|1002|M|51.28,24.58|N|From Buzzbox 323.|
-H Auberdine|ACTIVE|947|N|Hearth or run back to Auberdine.|
+C Deep Ocean, Vast Sea|QID|982|M|39.65,27.49|QO|2|N|While keeping an eye on your breath bar, clear the murlocs until you enter the hole at the bottom of the ship and loot Mist Veils's Lockbox at the left end of the ship.\n[color=FF0000]NOTE: [/color]Avoid multiple pulls as the Seers will greatly heal themselves and others. They also flee when near death.|NC|
+C Deep Ocean, Vast Sea|QID|982|M|38.26,28.83|QO|1|N|Using the same process as you did with the other ship, enter the hole at the bottom of the ship and loot the Silver Dawning's Lockbox at the right end of the ship.|NC|
+C Curing the Sick|QID|6124|N|Finish curing the deer.|T|Sickly Deer|U|15826|C|Druid|US|NC|
+L Level 16|ACTIVE|6124|N|Grind until you're within 6 bubbles of level 16.|LVL|15;-4320|C|Druid|
+P Moonglade|ACTIVE|6124|M|PLAYER|N|Use your Teleport: Moonglade spell.|C|Druid|
+T Curing the Sick|QID|6124|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|C|Druid|
+A Power over Poison|QID|6125|PRE|6124|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|C|Druid|
+R Auberdine|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|S|LVL|15;-2600|
+L Level 16|ACTIVE|963|N|Grind until you're within 5.5 bubbles of level 14.|LVL|15;-2600|
+H Auberdine|AVAILABLE|4722|M|37.04,44.12|N|Hearth back to Auberdine.|
 T Cave Mushrooms|QID|947|M|37.32,43.64|N|To Barithras Moonshade.|
 A Onu|QID|948|PRE|947|M|37.32,43.64|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
-L Level 16|LVL|16;-1720|N|Make sure you are within 2 bubbles of level 16 before porting to Moonglade.|C|Druid|
-C Curing the Sick|QID|6124|N|Finish curing the deer.|T|Sickly Deer|U|15826|C|Druid|NC|
-T Curing the Sick|QID|6124|M|56.21,30.62|Z|Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|C|Druid|
-A Power over Poison|QID|6125|PRE|6124|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|C|Druid|
-F Rut'theran Village|AVAILABLE|26|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|C|Druid|
+T Deep Ocean, Vast Sea|QID|982|M|38.11,41.16|N|To Gorbold Steelhand.|
+r Repair/Sell|QID|2178|M|38.11,41.16|N|While standing here, repair and sell junk to Elisa Steelhand.|
+F Rut'theran Village|AVAILABLE|1138|M|36.34,45.58|N|Fly to Rut'theran Village.|C|-Druid|
 R Darnassus|AVAILABLE|26|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|C|Druid|
 T Power over Poison|QID|6125|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
+= Level 16 Training|AVAILABLE|1138|M|PLAYER|CC|N|Do your level 16 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|16|IZ|Darnassus|
+
 ; Druid class quest line to gain swim form
 A A Lesson to Learn|QID|26|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker. This begins your class quest line to learn Aquatic form.|C|Druid|LVL|16|
 P Moonglade|ACTIVE|26|Z|Moonglade|N|Use your Moonglade portal spell.|C|Druid|
@@ -164,13 +170,14 @@ R Lake Elune'ara|ACTIVE|29|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge an
 C Trial of the Lake|QID|29|N|Search the lake bed for a Shrine Bauble. They can be anywhere in the water. There is a fissure at the bottom of the lake to replenish your breath with.\nOnce you have the Bauble, make your way to the Shrine of Remulos (NW of the lake) and use it within the boundaries of the Shrine. The Bauble has a 5 minute timer attached to it.|U|15877|C|Druid|
 T Trial of the Lake|QID|29|M|36.51,40.12|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|C|Druid|
 A Trial of the Sea Lion|QID|272|PRE|29|M|36.51,40.12|N|From Tajarri.|C|Druid|
-F Rut'theran Village|ACTIVE|272|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|C|Druid|
-F Auberdine|ACTIVE|272|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|C|Druid|
+F Rut'theran Village|ACTIVE|272|AVAILABLE|1138|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|C|Druid|
+P Rut'theran Village|AVAILABLE|1138|M|28.82,41.50|Z|Darnassus|N|Use the portal to Rut'theran.|C|-Druid|
+F Auberdine|AVAILABLE|1138|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus to fly back to Auberdine.|
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|S|
 C A Lost Master|QID|986|M|42,92|N|Slay all Moonstalker Sires and Moonstalker Matriarchs on sight.|S|
 A Beached Sea Creature|QID|4728|PRE|4681|M|36.08,70.92|N|Surrounded by level 15 Murlocs, stand at the base of the neck again to be able to interact|
-C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is whats going to happen. After you clear the camp out you will stand near the bonfire. The first wave of murlocs will be three level 12 coastrunners, no big deal. The second wave will be two level 15 warriors, no big deal. The third and hardest wave is level 19 Murkdeep and a level 16 hunter. Once you drink up, stand near the bonfire and complete the event. Group up if you can.|T|Murkdeep|
+;C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is whats going to happen. After you clear the camp out you will stand near the bonfire. The first wave of murlocs will be three level 12 coastrunners, no big deal. The second wave will be two level 15 warriors, no big deal. The third and hardest wave is level 19 Murkdeep and a level 16 hunter. Once you drink up, stand near the bonfire and complete the event. Group up if you can.|T|Murkdeep|
 T Grove of the Ancients|QID|952|M|43.5, 76.3|N|To Onu.|
 T Onu|QID|948|M|43.5,76.3|N|To Onu.|
 A The Master's Glaive|QID|944|PRE|948|N|From Onu.|
