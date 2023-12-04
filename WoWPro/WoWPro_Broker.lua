@@ -99,11 +99,15 @@ local function QidMapReduce(list, default, or_string, and_string, func, why, deb
         end
     end
     if numList > 0 and do_and then
-        WoWPro:dbp("QidMapReduce(%s): do_and %d term return TRUE", why, numList)
+        if debug then
+            WoWPro:dbp("QidMapReduce(%s): do_and %d term return TRUE", why, numList)
+        end
         return true
     end
     if numList > 0 and do_or then
-        WoWPro:dbp("QidMapReduce(%s): do_or %d term return FALSE", why, numList)
+        if debug then
+            WoWPro:dbp("QidMapReduce(%s): do_or %d term return FALSE", why, numList)
+        end
         return false
     end
     if debug then
@@ -3743,6 +3747,8 @@ function WoWPro.OrderSteps(update)
             WoWPro.why[anchor+1] = ("selected step as the next closest at a distance of %g"):format(closestDist)
         end
     end
+    -- Wipe completion to limit errors, let the broker deal with it.
+    WoWProCharDB.Guide[WoWProDB.char.currentguide].completion = {}
     if update then
         WoWPro:UpdateGuide("WoWPro.OrderSteps")
     end
