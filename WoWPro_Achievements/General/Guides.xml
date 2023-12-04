@@ -2,7 +2,12 @@
     <Script file="DF_WrathionvsSabellian.lua"/>
 	<Script file="DF_A_Blue_Dawn.lua"/>
    	<Script file="DF_Naszuro.lua"/>
+	<Script file="Dwarf_Heritage_Armor.lua"/>
 	<Script file="Night_Elf_Heritage_Armor.lua"/>
+	<Script file="Gnome_Heritage_Armor.lua"/>
+	<Script file="Blood_Elf_Heritage_Armor.lua"/>
+	<Script file="Orc_Heritage_Armor.lua"/>
+	<Script file="Human_Heritage_Armor.lua"/>
     <Script file="Emm_Blanchy.lua"/>
     <Script file="SL_Sojourners.lua"/>
     <Script file="SL_RaresTreasures.lua"/>
@@ -26,5 +31,5 @@
 	<Script file="Rkdl_Brood_of_Alysrazor.lua"/>
 	<Script file="Twists_Cared.lua"/>
 	<Script file="TwoToad_Caressed.lua"/>
-	<Script file="Cag_ZM_Tales.lua"/>
+	<Script file="Cag_ZM_Tales.lua"/>	
 </Ui>

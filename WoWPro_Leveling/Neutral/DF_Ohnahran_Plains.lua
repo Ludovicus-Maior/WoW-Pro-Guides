@@ -304,12 +304,12 @@ C Sneaking Out|QID|65901|QO|1|M|57.01,75.47;57.37,76.34;56.66,76.29|CN|Z|2023;Oh
 C Sneaking Out|QID|65901|QO|2|M|56.24,75.95|Z|2023;Ohn'ahran Plains|CHAT|N|Back to Radiya to tell her the Totems are placed.|
 T Sneaking Out|QID|65901|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A Favorite Fruit|QID|65907|PRE|65901|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
-C Favorite Fruit|QID|65907|QO|1|M|53.5,71.05|Z|2023;Ohn'ahran Plains|H|N|Click to gather Bushruit from the glowing bushes.|
+C Favorite Fruit|QID|65907|QO|1|M|53.52,70.25|Z|2023;Ohn'ahran Plains|H|N|Click to gather Bushfruit from the glowing bushes near the waterfalls.|
 C Favorite Fruit|QID|65907|QO|2|M|54.47,63.38|Z|2023;Ohn'ahran Plains|NC|N|Target the Mudstompers and then use the fruit to feed them. (sorry target button only autotargets the calves|U|192743|T|Mudstomper|
 T Favorite Fruit|QID|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|To Initiate Radiya.|
 A A Promise Is A Promise|QID|65770|PRE|65907|M|54.79,66.68|Z|2023;Ohn'ahran Plains|N|From Initiate Radiya.|RANK|2|
 C A Promise Is A Promise|QID|65770|QO|1|M|54.79,66.68|Z|2023;Ohn'ahran Plains|CHAT|N|Promise her you will keep her secret.|
-C A Promise Is A Promise|QID|65770|QO|2|M|52.60,64.20|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing. Note: if this objective doesn't complete leave the area and come back in on foot.|
+C A Promise Is A Promise|QID|65770|QO|2|M|52.93,63.93|Z|2023;Ohn'ahran Plains|NC|N|Head north to the river crossing, and wait at this spot for the NPC to appear across the river.|
 T A Promise Is A Promise|QID|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|To Godoloto.|
 A More Adventure Than Expected|QID|65761|PRE|65770|M|52.03,63.21|Z|2023;Ohn'ahran Plains|N|From Godoloto.|RANK|2|
 C More Adventure Than Expected|QID|65761|QO|2|M|51.09,62.19|Z|2023;Ohn'ahran Plains|CHAT|N|You have followed Godoloto, you can optionally ask her for a buff too, if so tell Godoloto you are ready.|
@@ -492,7 +492,7 @@ C But... I Am the Hero of Ducks|QID|70070|M|27.11,56.50|Z|2023;Ohn'ahran Plains|
 T But... I Am the Hero of Ducks|QID|70070|M|29.98,58.36|Z|2023;Ohn'ahran Plains|N|To Gracus.|
 T Shady Sanctuary|QID|70220|M|28.26,57.70|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A The Primalist Front|QID|66331|PRE|70220|M|28.26,57.70|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-C The Primalist Front|QID|66331|M|28.15,57.35|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Ride Dragonriding Mount into Winds of the Isles (Optional).|BUFF|368896^368899^368901^360954|
+;C The Primalist Front|QID|66331|M|28.15,57.35|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Ride Dragonriding Mount into Winds of the Isles (Optional).|BUFF|368896^368899^368901^360954|
 C The Primalist Front|QID|66331|M|27.55,46.00|Z|2023;Ohn'ahran Plains|QO|3|CHAT|N|Fly or walk down and talk to Belika to hear their report.|
 C The Primalist Front|QID|66331|M|25.72,44.26|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Boku's report heard.|
 C The Primalist Front|QID|66331|M|26.18,40.06|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Tell Ohn you are ready to watch his report.|

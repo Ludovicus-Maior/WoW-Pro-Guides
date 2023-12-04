@@ -22,15 +22,21 @@ A The Woodland Protector|QID|458|M|59.92,42.47|N|From Melithar Staghelm.|
 A A Good Friend|QID|4495|M|60.90,41.97|N|From Dirania Silvershine.|
 r Sell|ACTIVE|458|M|59.31,41.09|N|Sell your trash to Keina in Aldrassil.|
 T Simple Sigil|QID|3116|M|59.63,38.45|N|To Alyissia.\n[color=FF0000]NOTE: [/color]Inside the building and up the ramp to the right.|C|Warrior|
+A Amidst the Shadowed Webs|QID|77575|M|59.63,38.45|N|To Alyissia.|C|Warrior|
 R Ramp|ACTIVE|3117^3119^3120|M|57.64,41.70|CC|N|Walk outside to the ramp leading up the tree.|C|Druid,Hunter|
 T Etched Sigil|QID|3117|M|58.66,40.45|N|To Ayanna Everstride.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Hunter|
+A A Hunter's Strength|QID|77568|M|58.66,40.45|N|From Ayanna Everstride.|C|Hunter|RUNE|
 T Encrypted Sigil|QID|3118|M|59.64,38.67|N|To Frahun Shadewhisper.\n[color=FF0000]NOTE: [/color]Inside the building and up the ramp to the right.|C|Rogue|
+A Second-Story Work|QID|77573|M|59.64,38.67|N|From Frahun Shadewhisper.|C|Rogue|
 T Hallowed Sigil|QID|3119|M|59.18,40.45|N|To Shanda.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the upper level.|C|Priest|
+A Meditation on Elune|QID|77574|M|59.18,40.45|N|To Shanda.|C|Priest|
 T Verdant Sigil|QID|3120|M|58.62,40.29|N|To Mardant Strongoak.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Druid|
+A Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|From Mardant Strongoak.|C|DRUID|RUNE|
 = Level 2 Training|ACTIVE|458|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 K The Balance of Nature|QID|457|QO|1;2|M|61.08,34.71|N|Kill any Mangy Nightsabers and Thistle Boars you come across.\n[color=FF0000]NOTE: [/color]Young Thistle Boars do not count.|S|
 T The Woodland Protector|QID|458|M|57.73,45.23|N|To Tarindrella.|
 A The Woodland Protector|QID|459|PRE|458|M|57.73,45.23|N|From Tarindrella.|
+C Lunar Relic|QID|77571|L|208414|ITEM|208414|M|55.91,45.79|N|any mob in Shadowglen.|C|DRUID|S|
 C The Woodland Protector|QID|459|M|55.91,45.79|L|3297 8|ITEM|3297|N|Grell found in camps along the east mountains.|T|Grell|
 L Level 3|AVAILABLE|916|N|Grind until you're within 5 bubbles of level 3|LVL|2;-250|
 T The Woodland Protector|QID|459|M|57.73,45.23|N|To Tarindrella.|
@@ -55,15 +61,22 @@ r Sell and Repair|AVAILABLE|3522|M|59.31,41.09|N|Sell/repair at Keina.|S|IZ|Aldr
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
 = Level 4 Training|ACTIVE|3521|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Aldrassil^Shadowglen|
+C Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|Use Moonfire on 6 Grelkin.|C|DRUID|
+T Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|To Mardant Strongoak.|C|DRUID|
 
 r Sell and Repair|AVAILABLE|3522|S|N|Sell Junk and Repair.|
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
-A Iverron's Antidote.|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.| ; ** auto-accept stopped because of timer - Hendo72
+A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.|NOAUTO| ; ** auto-accept stopped because of timer - Hendo72
 A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Dirania Silvershine to restart.|FAIL|
 T Iverron's Antidote|QID|3522|M|54.60,32.99|N|To Iverron.\n[color=FF0000]NOTE: [/color]You only have 5 minutes to turn this in.\nThe timer doesn't stop until you choose a reward and click 'Quest Complete'.|
 R Shadowthread Cave|ACTIVE|917|QO|1|M|56.77,31.72|N|Enter the cave.|
+K Githyiss the Vile|ACTIVE|77568|QO|1|M|56.65,25.74|N|This large spider is found on a ledge at the back of the cave among the Webwood Eggs.|S|
+C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|N|any webwood spider in Shadowthread Cave.|C|Warrior|S|
 C Webwood Egg|QID|917|M|56.66,29.33;56.87,27.24;55.72,25.12;56.65,25.74|CS|L|5167|N|Loot one of the eggs from the ground.\n[color=FF0000]NOTE: [/color]Take the middle path and go left. The right path is just a longer route to the same location. The left path is a dead-end.|
+K Githyiss the Vile|ACTIVE|77568|QO|1|M|56.65,25.74|N|This large spider is found on a ledge at the back of the cave among the Webwood Eggs.|US|
+C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|N|any webwood spider in Shadowthread Cave.|C|Warrior|US|
 H Shadowglen|ACTIVE|917|M|58.54,44.64|N|Hearth out of the cave.|
+
 T Webwood Egg|QID|917|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T Tenaron's Summons|QID|920|M|59.06,39.44|N|To Tenaron Stormgrip at the top of the tree.\n[color=FF0000]NOTE: [/color]Use the ramp outside the tree.|
@@ -144,7 +157,7 @@ R Twisted Hatred|ACTIVE|932|QO|1|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.
 K Lord Melenas|QID|932|M|51.45,49.91;51.22,50.74|CN|L|5221|N|Kill and loot Lord Melenas.\n[color=FF0000]NOTE: [/color]He spawns in three places, on the ledge, in the cavern below it, or in an alcove along the tunnel leading to the ledge.\nHe's level 8 and hits very hard for his level, transforming into a cat during the fight. He usually has two adds and will become a cat at some point in the fight. His adds can be pulled single if you do it right.\nIf you're a caster, pull him from max range and use a Severed Voodoo Claw on him. It will reduce his damage a little.|T|Lord Melenas|
 
 H Hearth or Grind|ACTIVE|932|M|53.94,58.13|N|As most of the mobs you've killed on the way in have respawned by now, use your Hearth or grind your way out.|TZ|Dolanaar|
-T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot.|
+T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot at the top of the tree.|
 r Sell and Repair|AVAILABLE|487|M|56.25,59.25|N|Sell Junk and Repair.|
 
 A The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CC|N|From Moon Priestess Amara, who'll be somewhere patrolling the westward road to Darnassus from Dolanaar.|
@@ -166,7 +179,7 @@ R Ban'ethil Barrow Den|ACTIVE|483|M|44.33,57.93|ELITE|N|[color=00FFFF]Strongly s
 C Rune of Nesting|QID|483|QO|4|M|44.40,60.66|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
 C Black Feather Quill|QID|483|QO|2|M|43.70,61.21|L|3406|N|Back across the bridge, then take bridge to the left, box is on right in chamber|
 
-A The Sleeping Druid|QID|2541|M|44.95,61.59|N|From Oben Rageclaw.\n[color=FF0000]NOTE: [/color]Drop down to the lower level and follow the path to your left to the chamber on the other side of the bridge.|
+A The Sleeping Druid|QID|2541|M|44.95,61.59|N|From Oben Rageclaw.\n[color=FF0000]NOTE: [/color]Drop down to the lower level and follow the path to your right to the chamber on the other side of the bridge.|
 C The Sleeping Druid|QID|2541|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|S|
 C Sapphire of Sky|QID|483|QO|3|M|44.69,62.45|L|3407|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw.\n[color=FF0000]NOTE: [/color]Greenpaw is a Level 10 and hits hard.|
 R Raven Claw Talisman|ACTIVE|483|QO|1|M|45.39,58.00;46.15,58.37|CC|N|Continue on down the passage to the next chamber and head up the ramp on your left as you enter.\n[color=FF0000]NOTE: [/color]Watch out for Rageclaw (the bad one) who patrols around the lower level.|
@@ -185,8 +198,6 @@ A Crown of the Earth|QID|7383|PRE|933|M|56.15,61.71|N|From Corithras Moonrage.|
 ; --- level 10 class quests start from here ---
 = Level 10 Training|AVAILABLE|5925|M|55.94,61.57|N|Do your level 10 training with Kal.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|LVL|10|IZ|Dolanaar|
 A Heeding the Call|QID|5925|M|55.94,61.57|N|From Kal.|C|Druid|LVL|10|
-T The Relics of Wakening|QID|483|M|55.96,57.28|N|To Athridas Bearmantle.|
-A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|N|From Athridas Bearmantle.|
 = Level 10 Training|AVAILABLE|1684|M|56.21,59.19|N|Do your level 10 training with Kyra Windblade.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warrior|LVL|10|IZ|Dolanaar|
 A Elanaria|QID|1684|M|56.21,59.19|N|From Kyra Windblade.|C|Warrior|LVL|10|
 = Level 10 Training|AVAILABLE|2241|M|56.37,60.13|N|Do your level 10 training with Jannok Breezesong.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Rogue|LVL|10|IZ|Dolanaar|
@@ -207,6 +218,8 @@ C Taming the Beast|QID|6102|M|44.01,51.12|N|Tame a Strigid Screecher.|U|15923|C|
 T Taming the Beast|QID|6102|M|56.68,59.50|N|To Dazalar.|C|Hunter|R|Night Elf|
 A Training the Beast|QID|6103|PRE|6102|M|56.68,59.50|N|From Dazalar.\n[color=FF0000]NOTE: [/color]You can tame your first pet now, but can't feed it yet; we have to go to Darnassus for that.|C|Hunter|R|Night Elf|
 
+T The Relics of Wakening|QID|483|M|55.96,57.28|N|To Athridas Bearmantle.|
+A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|N|From Athridas Bearmantle.|
 T The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CS|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
 R Wellspring Lake|ACTIVE|923|QO|1|M|44.36,49.96;43.80,45.97|CC|N|Run west towards Darnassus and turn north down the hill when you reach the bridge/log.|
 K Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|L|5179|N|A Level 13 rare that spawns on the NE bank of the Wellspring River before the last waterfall. He drops a quest starter.\n[color=FF0000]NOTE: [/color]If he's not there, skip this because he has a 2hr+ respawn timer.|T|Blackmoss the Fetid|IZ|Wellspring River|S!US|
@@ -214,32 +227,18 @@ A The Moss-twined Heart|QID|927|M|PLAYER|N|Click on the item to start the quest.
 C Tumors|QID|923|QO|1|M|43.58,27.27|L|5170 5|ITEM|5170|N|Any type of Timberling found in the area around Wellspring River (from the lake to the last waterfall).|
 R Darnassus|QID|923|M|88.20,35.61|Z|Darnassus|N|Return to the road and continue west to Darnassus.|
 A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
+h Craftsmen's Terrace|QID|923|M|67.42,15.69|Z|Darnassus|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
 
+; --- Finish up level 10 class quests ---
 T Elanaria|QID|1684|M|57.34,34.66|Z|Darnassus|N|To Elanaria.|C|Warrior|
 A Vorlus Vilehoof|QID|1683|PRE|1684|M|57.34,34.66|Z|Darnassus|N|From Elanaria.|C|Warrior|
-
-h Craftsmen's Terrace|QID|923|M|67.42,15.69|Z|Darnassus|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
-T Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
-A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
-
-R Enter the Rogue's Den|QID|2241|M|33.64,15.89|Z|Darnassus|C|Rogue|
+R Enter the Rogue's Den|AVAILABLE|2241|M|33.64,15.89|Z|Darnassus|C|Rogue|
 T The Apple Falls|QID|2241|M|36.99,21.92|Z|Darnassus|N|To Syurna.|C|Rogue|
 A Destiny Calls|QID|2242|PRE|2241|M|36.99,21.92|Z|Darnassus|N|From Syurna.|C|Rogue|
-
 R Heeding the Call|QID|5925|M|35.56,10.74|Z|Darnassus|CC|N|Enter this building.|C|Druid|
 T Heeding the Call|QID|5925|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 A Moonglade|QID|5921|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
 N Portal Spell|ACTIVE|5921|N|I recommend putting the 'Teleport: Moonglade' you just received from Mathrengyl on one of your bars for easier access.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Druid|
-T Training the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|
-R Learn Pet Skills|QID|6344|C|Hunter|M|42.5,9.15|Z|Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|
-
-A The Temple of the Moon|QID|2519|M|28.99,45.73|Z|Darnassus|N|From Sister Aquinne.|
-R Rut'theran Village|QID|6344|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
-T Nessa Shadowsong|QID|6344|M|56.25,92.44|Z|Teldrassil|N|To Nessa Shadowsong.|
-A The Bounty of Teldrassil|QID|6341|PRE|6344|M|56.25,92.44|N|From Nessa Shadowsong.|
-T The Bounty of Teldrassil|QID|6341|M|58.40,94.01|N|To Vesprystus.|
-A Flight to Auberdine|QID|6342|PRE|6341|M|58.40,94.01|N|From Vesprystus.|
-
 P Moonglade|ACTIVE|5921|M|PLAYER|CC|N|Use the teleport spell you learned from Mathrengyl Bearwalker.|C|Druid|
 T Moonglade|QID|5921|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze on the second floor.|C|Druid|
 A Great Bear Spirit|QID|5929|PRE|5921|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|C|Druid|
@@ -249,16 +248,27 @@ A Back to Darnassus|QID|5931|PRE|5929|M|56.21,30.62|Z|Moonglade|N|From Dendrite 
 H Darnassus|QID|5931|M|44.15,45.22|Z|Moonglade|N|If your Hearth is on cooldown, take the flight to Rut'theran Village from Silva Fil'naveth and walk into the portal back to Darnassus.|C|Druid|
 T Back to Darnassus|QID|5931|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
-R Rut'theran Village|ACTIVE|6001|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
+T Training the Beast|QID|6103|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|C|Hunter|
+R Learn Pet Skills|QID|6344|M|42.5,9.15|Z|Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|C|Hunter|
+
+T Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
+A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
+A The Temple of the Moon|QID|2519|M|28.99,45.73|Z|Darnassus|N|From Sister Aquinne.|
+P Rut'theran Village|ACTIVE|6344|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
+T Nessa Shadowsong|QID|6344|M|56.25,92.44|Z|Teldrassil|N|To Nessa Shadowsong.|
+A The Bounty of Teldrassil|QID|6341|PRE|6344|M|56.25,92.44|N|From Nessa Shadowsong.|
+T The Bounty of Teldrassil|QID|6341|M|58.40,94.01|N|To Vesprystus.|
+A Flight to Auberdine|QID|6342|PRE|6341|M|58.40,94.01|N|From Vesprystus.|
+P Rut'theran Village|ACTIVE|6001|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
 
 F Auberdine|ACTIVE|6342|M|58.40,94.01|N|At Vesprystus.|
 T Flight to Auberdine|QID|6342|M|36.77,44.29|Z|Darkshore|N|To Laird.|
 A Return to Nessa|QID|6343|PRE|6342|M|36.77,44.29|Z|Darkshore|N|From Laird.|
-C Body and Heart|QID|6001|QO|1|M|43.49,45.97|Z|Darkshore|N|After using the Cenarion Moondust on the Moonkin Stone to summon Lunaclaw, defeat him and talk to his spirit to finish.|U|15208|C|Druid|
+C Body and Heart|QID|6001|QO|1|M|43.49,45.97|Z|Darkshore|N|After using the Cenarion Moondust on the Moonkin Stone to summon Lunaclaw, defeat him and talk to his spirit to finish.\n[color=FF0000]NOTE: [/color]At your current level, you may require some back up or avoid extra curricular fights with the lv 12-13 mobs.|U|15208|C|Druid|
 F Rut'theran Village|ACTIVE|6343|M|36.34,45.57|Z|Darkshore|N|At flight master Caylais Moonfeather.|
 T Return to Nessa|QID|6343|M|56.25,92.44|N|To Nessa Shadowsong.|
 
-R Darnassus|ACTIVE|2519|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
+P Darnassus|ACTIVE|2519|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
 T Body and Heart|QID|6001|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 R Temple of the Moon|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|CS|Z|Darnassus|N|Enter Temple of the Moon.|
 T The Temple of the Moon|QID|2519|M|40.49,91.51;36.63,85.94|CC|Z|Darnassus|N|To Priestess A'moora (take the ramp up to the second floor).|
@@ -272,7 +282,6 @@ A The Enchanted Glade|QID|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
 ; N Enchanting|M|36.72,34.18|N|If you want to learn enchanting the trainer is here.|
 
 R Wellspring River|QID|937|ACTIVE|937|M|42.25,28.60|N|Head to Wellspring river.|
-
 K Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|N|Blackmoss the Fetid is a Level 13 rare beast that spawns on the NE bank of the Wellspring Lake. If he's not there, skip this quest as he has a 2hr+ respawn timer.|S|IZ|Wellspring River|RARE|
 A The Moss-twined Heart|QID|927|M|43.37,27.75|N|This item is dropped by Blackmoss. Use it to accept the quest.|U|5179|O|
 C Tears of the Moon|QID|2518|M|48.01,25.11;41.81,25.24;39.15,25.27|CN|N|Kill and loot the spider Lady Sathrah for the Silvery Spinnerets.\n[color=FF0000]NOTE: [/color]She spawns in multiple locations.|T|Lady Sathrah|
