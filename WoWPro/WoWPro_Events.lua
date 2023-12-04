@@ -994,9 +994,9 @@ function WoWPro.QUEST_DETAIL_PUNTED(event, ...)
         end
     end
 
-    if (WoWPro.action[qidx] == "A") and
-       ((questtitle == WoWPro.step[qidx] and (not WoWPro.noauto[qidx])) or
-        WoWPro.QID[qidx] == "*" or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog)) then
+    if (WoWPro.action[qidx] == "A") and (not WoWPro.noauto[qidx]) and
+       ((questtitle == WoWPro.step[qidx]) or
+         WoWPro.QID[qidx] == "*" or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog)) then
         WoWPro:dbp("Accepted %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
         if  WoWPro.QID[qidx] == "*" then
             if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
