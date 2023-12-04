@@ -34,22 +34,36 @@ A Investigate Echo Ridge|QID|15|PRE|7|M|48.92,41.61|N|From Marshal McBride.|
 K Investigate Echo Ridge|ACTIVE|15|QO|1|M|48.39,35.52|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|S|
 
 T Simple Letter|QID|3100|M|50.24,42.28|N|To Llane Beshere in the Hall of Arms.|C|Warrior|R|Human|
+A The Lost Rune|AVAILABLE|77616|M|50.21,42.22|N|From Llane Beshere.|C|Warrior|R|Human|
 T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of Arms.|C|Paladin|R|Human|
-A Relics of the Light|AVAILABLE|77617|M|50.43,42.12|N|To Brother Sammuel.|C|Paladin|R|Human|
+A Relics of the Light|AVAILABLE|77617|M|50.43,42.12|N|From Brother Sammuel.|C|Paladin|R|Human|
 T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing.|C|Priest|R|Human|
-T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.|C|Mage|R|Human|
+A Meditation on the Light|AVAILABLE|77619|M|49.80,39.54|N|From Priestess Anetta.|C|Priest|R|Human|
+T Glyphic Letter|QID|3104|M|49.66,39.44|N|To Khelden Bremen upstairs in the Library Wing.|C|Mage|R|Human|
+A Spell Research|AVAILABLE|77620|M|49.66,39.44|N|From Khelden Bremen.|C|Mage|R|Human|
 = Level 2 Training|AVAILABLE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|-Rogue,-Warlock|
 
 A Brotherhood of Thieves|QID|18|PRE|783|M|48.05,43.56|N|From Deputy Willem.|R|Human|
 T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.|C|Rogue|R|Human|
+A Thrice Stolen|AVAILABLE|77618|M|50.3,39.9|N|From Jorik Kerridan.|C|Rogue|R|Human|
 T Tainted Letter|QID|3105|M|49.87,42.65|N|To Drusilla La Salle outside on the right side of the Abbey.|C|Warlock|R|Human|
 A The Stolen Tome|QID|1598|PRE|7|M|49.87,42.65|N|From Drusilla La Salle.\n[color=FF0000]NOTE: [/color]This starts your Imp quest.|C|Warlock|R|Human|
+A Stolen Power|AVAILABLE|77621|M|49.87,42.65|N|From Drusilla La Salle.|C|Warlock|R|Human|
 = Level 2 Training|ACTIVE|18|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|C|Rogue,Warlock|
 
+l Rune of Haunting|ACTIVE|77621|M|52.56,51.87|QO|1|N|Loot the Rune of Haunting from the Defias Stashbox between the outhouses.|U|403919|S!US|C|Warlock|R|Human|
+l Spell Notes: CALE ENCI|ACTIVE|77620|M|54.60,41.90|QO|1|N|Loot the Rune of Shadowstrike from the Defias Stashbox.|U|203751|S!US|
+l Rune of Shadowstrike|ACTIVE|77618|M|52.56,51.87|QO|1|N|Loot the Rune of Shadowstrike from the Defias Stashbox.|U|204795|S!US|
+l Libram of Judgement|ACTIVE|77617|M|54.60,41.90|QO|1|N|Kill and loot the Defias Thugs till you loot Libram of Judgement. After equipping it use judgement on 10 mobs.|U|205420|S!US|
+l Memory of a Troubled Acolyte|ACTIVE|77619|M|50.62,27.24|QO|1|N|Loot the Memory of a Troubled Acolyte from the Kobald Laborers inside the mine. Then go outside the cave and /kneel and use the memory.|U|205951|S!US|
+t Meditation on the Light|QID|77619|M|49.80,39.54|N|To Priestess Anetta.|C|Priest|R|Human|
+t Spell Research|QID|77620|M|49.66,39.44|N|To Khelden Bremen.|C|Mage|R|Human|
 K Investigate Echo Ridge|ACTIVE|15|QO|1|M|48.39,35.52|N|Kill The Kobold Workers.\n[color=FF0000]NOTE: [/color]The Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
 C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|L|752 12|ITEM|752|N|Defias Thugs.|S|
+l Rune of Victory Rush|ACTIVE|77616|M|50.62,27.24|QO|1|N|Loot the Rune of Victory Rush from the Kobold Stashbox inside Echo Ridge Cave, all the way to the back.|U|204806|
 C The Stolen Tome|ACTIVE|1598|QO|1|M|56.68,43.96|N|Locate the Tome on the ground by the tent at their camp.\n[color=FF0000]NOTE: [/color]After clearing an area around the tent, there are three Defias Thugs at the tent that you'll have to pull. When you pull one, the other two will follow shortly after. Focus on killing the one and run to break combat. Rinse and repeat until cleared. They will respawn soon, so do this quickly.\nAsk for help if you can't do it.|
 C Brotherhood of Thieves|QID|18|QO|1|M|54.60,41.90|L|752 12|ITEM|752|N|Defias Thugs.|US|
+T Stolen Power|QID|77621|M|49.87,42.65|N|From Drusilla La Salle.|C|Warlock|R|Human|
 L Level 4|ACTIVE|18|N|Grind until you're within 5 bubbles of level 4.|LVL|3;-360|C|Warlock|
 L Level 4|ACTIVE|18|N|Grind until you're halfway to level 4.|LVL|3;-710|C|-Warlock|
 
@@ -67,6 +81,9 @@ T Investigate Echo Ridge|QID|15|M|48.92,41.61|N|To Marshal McBride.|
 A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.92,41.61|N|From Marshal McBride.|
 r Sell and Repair|ACTIVE|3903|M|47.69,41.42|N|Sell and Repair at Godric Rothgar.|C|Warlock|
 r Sell and Repair|ACTIVE|3903|M|47.69,41.42|N|Sell and Repair at Godric Rothgar.\n[color=FF0000]NOTE: [/color]You may need the extra coin for training.|C|-Warlock|
+T The Lost Rune|QID|77616|M|50.21,42.22|N|To Llane Beshere.|C|Warrior|R|Human|
+T Thrice Stolen|QID|77618|M|50.3,39.9|N|To Jorik Kerridan.|C|Rogue|R|Human|
+
 = Level 4 Training|ACTIVE|3903|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|-Warlock|
 
 K Skirmish at Echo Ridge|ACTIVE|21|QO|1|M|48.41,29.31|N|Kill the Kobold Laborers found inside Echo Ridge Mine.|T|Kobold Laborer|
@@ -84,6 +101,7 @@ A Report to Goldshire|QID|54|PRE|21|M|48.92,41.61|N|From Marshal McBride.|
 T Grape Manifest|QID|3905|M|49.53,41.75;49.47,41.59|CS|N|To Brother Neals, inside the abbey up the spiral staircase to the top floor.|
 A In Favor of the Light|QID|5623|M|49.81,39.49|N|Get your level 5 class quest from Priestess Anetta.|C|Priest|R|Human|LVL|5|
 T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|N|To Deputy Willem.|
+T Relics of the Light|QID|77617|M|50.43,42.12|N|To Brother Sammuel.|
 A Rest and Relaxation|QID|2158|M|45.57,47.75|N|From Falkhaan Isenstrider, in front of the fountain at the entrance to Northshire Valley.|
 
 R Goldshire|ACTIVE|54|M|44.25,62.50|N|Say goodbye to Northshire and follow the road down to Goldshire.|
@@ -269,9 +287,9 @@ f Sentinel Hill|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Fl
 F Stormwind|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
 ; ---------- LEVEL 10 CLASS QUEST cont.------------
-T Gakin's Summons|QID|1685|M|25.2,78.6|Z|Stormwind City|N|coordsTo Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
+T Gakin's Summons|QID|1685|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
 A Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
-C Surena Caledon|QID|1688|M|71,80|N|coordsFind, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
+C Surena Caledon|QID|1688|M|71,80|N|Find, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
 T Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
 A The Binding|QID|1689|PRE|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
 C The Binding|QID|1689|M|25.2,77.2|Z|Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|

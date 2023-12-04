@@ -99,11 +99,15 @@ local function QidMapReduce(list, default, or_string, and_string, func, why, deb
         end
     end
     if numList > 0 and do_and then
-        WoWPro:dbp("QidMapReduce(%s): do_and %d term return TRUE", why, numList)
+        if debug then
+            WoWPro:dbp("QidMapReduce(%s): do_and %d term return TRUE", why, numList)
+        end
         return true
     end
     if numList > 0 and do_or then
-        WoWPro:dbp("QidMapReduce(%s): do_or %d term return FALSE", why, numList)
+        if debug then
+            WoWPro:dbp("QidMapReduce(%s): do_or %d term return FALSE", why, numList)
+        end
         return false
     end
     if debug then
@@ -2631,6 +2635,22 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+            -- Skipping if not on Seasonal Realm --
+            if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC and _G.C_Seasons then
+                local seasonrealm = _G.C_Seasons.HasActiveSeason()
+                WoWPro.dbp("HasActiveSeason: %q",tostring(seasonrealm))
+                if not seasonrealm then
+                    WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing on a seasonal realm.")
+                    skip = true
+                else
+                    local season = _G.C_Seasons.GetActiveSeason("player")
+                    if season ~= 2 then
+                        WoWPro.CompleteStep(guideIndex, "NextStep(): GetActiveSeason mismatch %d ~= 2", season)
+                        skip = true
+                    end
+                end
+           end
+
 			if WoWPro.playerclass and WoWPro.playerclass[guideIndex] then
 				local _, myclass = _G.UnitClass("player")
 				if not WoWPro.SemiMatch(WoWPro.playerclass[guideIndex]:gsub(" ", ""):upper(),myclass) and (stepAction == "A" or stepAction == "T") then
@@ -3743,6 +3763,8 @@ function WoWPro.OrderSteps(update)
             WoWPro.why[anchor+1] = ("selected step as the next closest at a distance of %g"):format(closestDist)
         end
     end
+    -- Wipe completion to limit errors, let the broker deal with it.
+    WoWProCharDB.Guide[WoWProDB.char.currentguide].completion = {}
     if update then
         WoWPro:UpdateGuide("WoWPro.OrderSteps")
     end
