@@ -1,7 +1,7 @@
 local L = WoWPro_Locale
 local AceConfig = LibStub("AceConfig-3.0")
 local dialog = LibStub("AceConfigDialog-3.0")
-_G.AceConfigDialog = dialog  -- Add this line
+local AceConfigDialog = LibStub("AceConfigDialog")
 local LSM = _G.LibStub("LibSharedMedia-3.0")
 
 
@@ -1067,4 +1067,4 @@ local options = {
 AceConfig:RegisterOptionsTable("WoWPro", options)
 
 -- Add the options table to the Blizzard Interface Options
-AceConfigDialog:AddToBlizOptions("WoWPro", "WoWPro") -- Replace with your addon's name
+AceConfigDialog:AddToBlizOptions("WoWPro", "WoWPro")
