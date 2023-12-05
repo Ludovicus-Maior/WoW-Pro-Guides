@@ -1,7 +1,9 @@
-local L = WoWPro.L
+local L = WoWPro_Locale
 local AceConfig = LibStub("AceConfig-3.0")
 local LSM = LibStub("LibSharedMedia-3.0")
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")
+local dialog = AceConfigDialog or {}
+dialog:SetDefaultSize("WoWPro-Bliz", 600, 400)
 
 
 local MediaType_BORDER = LSM.MediaType.BORDER
