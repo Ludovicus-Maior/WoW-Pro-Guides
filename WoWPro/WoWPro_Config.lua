@@ -1,7 +1,7 @@
-local L = WoWPro_Locale
+local L = WoWPro.L
 local AceConfig = LibStub("AceConfig-3.0")
-local AceConfigDialog = LibStub("AceConfigDialog")
-local LSM = _G.LibStub("LibSharedMedia-3.0")
+local LSM = LibStub("LibSharedMedia-3.0")
+local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 
 
 local MediaType_BORDER = LSM.MediaType.BORDER
