@@ -953,7 +953,6 @@ local options = {
                         WoWProCharDB.DebugClasses = WoWPro.DebugClasses
                     end
                 },
-        
                 EnableGrailQuestline = {
                     order = 5.0,
                     type = "toggle",
@@ -968,7 +967,6 @@ local options = {
                         end
                     end
                 },
-        
                 EnableGrailCheckPrereq = {
                     order = 5.1,
                     type = "toggle",
@@ -983,7 +981,6 @@ local options = {
                         end
                     end
                 },
-        
                 EnableGrailBreadcrumbs = {
                     order = 5.2,
                     type = "toggle",
@@ -1041,7 +1038,6 @@ local options = {
                             end
                         end
                 },
-    
                 checkGuides = {
                     order = 6,
                     type = "execute",
