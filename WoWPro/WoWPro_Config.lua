@@ -1,6 +1,5 @@
 local L = WoWPro_Locale
 local AceConfig = LibStub("AceConfig-3.0")
-local dialog = LibStub("AceConfigDialog-3.0")
 local AceConfigDialog = LibStub("AceConfigDialog")
 local LSM = _G.LibStub("LibSharedMedia-3.0")
 
