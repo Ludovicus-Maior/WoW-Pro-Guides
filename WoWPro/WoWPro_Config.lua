@@ -1062,9 +1062,7 @@ local options = {
             },
         },
     },
-}
-        
-
+}       
 -- Register your options table with AceConfig
 AceConfig:RegisterOptionsTable("WoWPro", options)
 
