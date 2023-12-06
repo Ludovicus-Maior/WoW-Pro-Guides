@@ -900,8 +900,7 @@ local options = {
                     set = function(info,r,g,b)
                         WoWProDB.profile.stickytitletextcolor = {r,g,b}
                         WoWPro.RowFontSet() end
-                    
-                },   
+                },
             },
         },
         guideList = {
@@ -963,7 +962,6 @@ local options = {
                         WoWProCharDB.DebugClasses = WoWPro.DebugClasses
                     end
                 },
-        
                 EnableGrailQuestline = {
                     order = 5.0,
                     type = "toggle",
@@ -978,7 +976,6 @@ local options = {
                         end
                     end
                 },
-        
                 EnableGrailCheckPrereq = {
                     order = 5.1,
                     type = "toggle",
@@ -993,7 +990,6 @@ local options = {
                         end
                     end
                 },
-        
                 EnableGrailBreadcrumbs = {
                     order = 5.2,
                     type = "toggle",
@@ -1050,7 +1046,6 @@ local options = {
                             end
                         end
                 },
-    
                 checkGuides = {
                     order = 6,
                     type = "execute",
