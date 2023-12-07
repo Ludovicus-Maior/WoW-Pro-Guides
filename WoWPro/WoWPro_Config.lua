@@ -2,6 +2,8 @@ local L = WoWPro_Locale
 local AceConfig = LibStub("AceConfig-3.0")
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 local LSM = _G.LibStub("LibSharedMedia-3.0")
+local LDB = LibStub("LibDataBroker-1.1")
+local icon = LibStub("LibDBIcon-1.0")
 
 local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
@@ -900,6 +902,7 @@ local options = {
                     set = function(info,r,g,b)
                         WoWProDB.profile.stickytitletextcolor = {r,g,b}
                         WoWPro.RowFontSet() end
+
                 },
             },
         },
@@ -962,6 +965,7 @@ local options = {
                         WoWProCharDB.DebugClasses = WoWPro.DebugClasses
                     end
                 },
+
                 EnableGrailQuestline = {
                     order = 5.0,
                     type = "toggle",
@@ -976,6 +980,7 @@ local options = {
                         end
                     end
                 },
+
                 EnableGrailCheckPrereq = {
                     order = 5.1,
                     type = "toggle",
@@ -990,6 +995,7 @@ local options = {
                         end
                     end
                 },
+
                 EnableGrailBreadcrumbs = {
                     order = 5.2,
                     type = "toggle",
@@ -1046,6 +1052,7 @@ local options = {
                             end
                         end
                 },
+
                 checkGuides = {
                     order = 6,
                     type = "execute",
@@ -1286,6 +1293,43 @@ local options = {
         },
     },
 }
+
+function WoWPro:OpenGuideListTab()
+LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideList")
+end
+
+-- Create a DataBroker launcher
+local WoWProLauncher = LDB:NewDataObject("WoWPro", {
+    type = "launcher",
+    icon = "Interface\\AddOns\\WoWPro\\Textures\\Achievement_WorldEvent_Brewmaster",
+    OnClick = function(clickedframe, button)
+        if button == "LeftButton" then
+            -- Enable or disable the addon
+            if WoWPro:IsEnabled() then
+                WoWPro:Disable()
+            else
+                WoWPro:Enable()
+            end
+        elseif button == "RightButton" then
+            -- Open the guide display tab
+            InterfaceOptionsFrame_OpenToCategory("WoWPro")
+            InterfaceOptionsFrame_OpenToCategory("WoWPro") -- call twice to actually open the frame
+            WoWPro:OpenGuideListTab()
+        end
+    end,
+    OnTooltipShow = function(tt)
+        tt:AddLine("WoWPro")
+        tt:AddLine("Left click to enable/disable.")
+        tt:AddLine("Right click to open the guide display tab.")
+    end,
+})
+
+-- Register the DataBroker launcher with LibDBIcon
+function WoWPro:OnInitialize()
+    self.db = LibStub("AceDB-3.0"):New("WoWProDB", defaults, true)
+    icon:Register("WoWPro", WoWProLauncher, self.db.profile.minimap)
+end
+
 -- Register your options table with AceConfig
 AceConfig:RegisterOptionsTable("WoWPro", options)
 
