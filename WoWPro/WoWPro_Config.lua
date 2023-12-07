@@ -103,7 +103,9 @@ local options = {
                     width = "normal",
                     func = function()
                         local url = "https://discord.gg/aarduK7"
-                        StaticPopupDialogs["WoWPro_DiscordURL"] = {
+                        local OKAY = _G.OKAY or "Okay"
+                        local myDialogs = _G.StaticPopupDialogs or {}
+                        myDialogs["WoWPro_DiscordURL"] = {
                             text = "Press Ctrl & C to copy this link and paste into your favorite Browser",
                             button1 = OKAY,
                             hasEditBox = true,
@@ -118,6 +120,8 @@ local options = {
                             whileDead = true,
                             hideOnEscape = true,
                         }
+                        _G.StaticPopupDialogs = myDialogs
+                        local StaticPopup_Show = _G.StaticPopup_Show or function() end
                         StaticPopup_Show("WoWPro_DiscordURL", url)
                     end
                 },
@@ -473,6 +477,7 @@ local options = {
                     name = L["Step Completed Sound"],
                     desc = L["Sound played when a guide step is completed"],
                     values = function() local values = {}
+                        local pairs = _G.pairs or function() end
                         for k,v in pairs(soundfiles) do
                             values[v] = k
                         end
@@ -605,13 +610,16 @@ local options = {
                     type = "select",
                     name = L["Guide Window Background"],
                     desc = L["Texture used for the guide window background."],
-                    values = function() local values = {}
+                    values = function()
+                        local values = {}
+                        local ipairs = _G.ipairs or function() end
                         local list = LSM:List("background")
                         local hashtable = LSM:HashTable("background")
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
-                        return values end,
+                        return values
+                    end,
                     get = function(info)
                         return WoWProDB.profile.bgtexture end,
                     set = function(info,val) WoWProDB.profile.bgtexture = val
@@ -634,6 +642,7 @@ local options = {
                     name = L["Border Texture"],
                     desc = L["Texture used for the guide window border."],
                     values = function() local values = {}
+                        local ipairs = _G.ipairs or function() end
                         local list = LSM:List("border")
                         local hashtable = LSM:HashTable("border")
                         for i,handle in ipairs(list) do
@@ -701,6 +710,7 @@ local options = {
                     desc = L["Font used for the main step text."],
                     values = LSM:HashTable("font"),
                     get = function(info) local values = {}
+                        local ipairs = _G.ipairs or function() end
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
                         for i,handle in ipairs(list) do
@@ -745,6 +755,7 @@ local options = {
                     get = function(info) local values = {}
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
+                        local ipairs = _G.ipairs or function() end
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
@@ -787,6 +798,7 @@ local options = {
                     get = function(info) local values = {}
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
+                        local ipairs = _G.ipairs or function() end
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
@@ -829,6 +841,7 @@ local options = {
                     get = function(info) local values = {}
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
+                        local ipairs = _G.ipairs or function() end
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
@@ -870,6 +883,7 @@ local options = {
                     get = function(info) local values = {}
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
+                        local ipairs = _G.ipairs or function() end
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
@@ -965,7 +979,6 @@ local options = {
                         WoWProCharDB.DebugClasses = WoWPro.DebugClasses
                     end
                 },
-
                 EnableGrailQuestline = {
                     order = 5.0,
                     type = "toggle",
@@ -980,7 +993,6 @@ local options = {
                         end
                     end
                 },
-
                 EnableGrailCheckPrereq = {
                     order = 5.1,
                     type = "toggle",
@@ -995,7 +1007,6 @@ local options = {
                         end
                     end
                 },
-
                 EnableGrailBreadcrumbs = {
                     order = 5.2,
                     type = "toggle",
@@ -1052,7 +1063,6 @@ local options = {
                             end
                         end
                 },
-
                 checkGuides = {
                     order = 6,
                     type = "execute",
@@ -1293,7 +1303,6 @@ local options = {
         },
     },
 }
-
 function WoWPro:OpenGuideListTab()
 LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideList")
 end
@@ -1302,28 +1311,36 @@ end
 local WoWProLauncher = LDB:NewDataObject("WoWPro", {
     type = "launcher",
     icon = "Interface\\AddOns\\WoWPro\\Textures\\Achievement_WorldEvent_Brewmaster",
-    OnClick = function(clickedframe, button)
-        if button == "LeftButton" then
-            -- Enable or disable the addon
-            if WoWPro:IsEnabled() then
-                WoWPro:Disable()
-            else
-                WoWPro:Enable()
-            end
-        elseif button == "RightButton" then
-            -- Open the guide display tab
-            InterfaceOptionsFrame_OpenToCategory("WoWPro")
-            InterfaceOptionsFrame_OpenToCategory("WoWPro") -- call twice to actually open the frame
-            WoWPro:OpenGuideListTab()
+OnClick = function(clickedframe, button)
+    local InterfaceOptionsFrame_OpenToCategory = _G.InterfaceOptionsFrame_OpenToCategory or function() end
+    if button == "LeftButton" then
+        -- Enable or disable the addon
+        if WoWPro:IsEnabled() then
+            WoWPro:Disable()
+        else
+            WoWPro:Enable()
         end
-    end,
+    elseif button == "RightButton" then
+        -- Open the guide display tab
+        InterfaceOptionsFrame_OpenToCategory("WoWPro")
+        InterfaceOptionsFrame_OpenToCategory("WoWPro") -- call twice to actually open the frame
+        WoWPro:OpenGuideListTab()
+    end
+end,
     OnTooltipShow = function(tt)
         tt:AddLine("WoWPro")
         tt:AddLine("Left click to enable/disable.")
         tt:AddLine("Right click to open the guide display tab.")
     end,
 })
-
+-- Define defaults
+local defaults = {
+    profile = {
+        minimap = {
+            hide = false,
+        },
+    },
+}
 -- Register the DataBroker launcher with LibDBIcon
 function WoWPro:OnInitialize()
     self.db = LibStub("AceDB-3.0"):New("WoWProDB", defaults, true)
