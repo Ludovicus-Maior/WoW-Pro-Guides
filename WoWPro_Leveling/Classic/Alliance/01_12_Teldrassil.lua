@@ -29,11 +29,17 @@ A A Hunter's Strength|QID|77568|M|58.66,40.45|N|From Ayanna Everstride.|C|Hunter
 T Encrypted Sigil|QID|3118|M|59.64,38.67|N|To Frahun Shadewhisper.\n[color=FF0000]NOTE: [/color]Inside the building and up the ramp to the right.|C|Rogue|
 A Second-Story Work|QID|77573|M|59.64,38.67|N|From Frahun Shadewhisper.|C|Rogue|
 T Hallowed Sigil|QID|3119|M|59.18,40.45|N|To Shanda.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the upper level.|C|Priest|
-A Meditation on Elune|QID|77574|M|59.18,40.45|N|To Shanda.|C|Priest|
+A Meditation on Elune|QID|77574|M|59.18,40.45|N|From Shanda.|C|Priest|
 T Verdant Sigil|QID|3120|M|58.62,40.29|N|To Mardant Strongoak.\n[color=FF0000]NOTE: [/color]Walk up the ramp to the first door.|C|Druid|
 A Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|From Mardant Strongoak.|C|DRUID|RUNE|
 = Level 2 Training|ACTIVE|458|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 K The Balance of Nature|QID|457|QO|1;2|M|61.08,34.71|N|Kill any Mangy Nightsabers and Thistle Boars you come across.\n[color=FF0000]NOTE: [/color]Young Thistle Boars do not count.|S|
+R Shadowglen Moonwell|ACTIVE|77574|QO|1|M|59.93,33.08|N|Exit the building (if you haven't yet) and run north to the Moonwell.|BUFF|419308^419307|C|Priest|
+C Meditation on Elune|QID|77574|QO|1|M|PLAYER|N|While under the influence of Moonwell's Blessing, '/kneel' at the Moonwell until you receive the buff.|T| ,kneel|BUFF|419307|C|Priest|NC|
+N Meditation Buff|ACTIVE|77574|N|Going forward, try to keep this buff up at all times. If you need to replenish it, go /kneel at a moonwell or find a priest with the buff (/kneel by them and have them /pray at you).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+U Engrave Gloves - Penance|ACTIVE|77574|M|PLAYER|N|While having "Meditation on Elune" on you, use the [color=33fff9]Memory of a Troubled Acolyte[/color] to learn the spell.|U|205951|SPELL|Engrave Gloves - Penance;402862|BUFF|-419307|C|Priest|O|
+C Meditation on Elune|QID|77574|QO|1|M|59.93,33.08|N|You need to remain kneeling at the moonwell until you receive the buff.|T| ,kneel|BUFF|419307|C|Priest|NC|
+T Meditation on Elune|QID|77574|M|59.18,40.45|N|To Shanda.|C|Priest|
 T The Woodland Protector|QID|458|M|57.73,45.23|N|To Tarindrella.|
 A The Woodland Protector|QID|459|PRE|458|M|57.73,45.23|N|From Tarindrella.|
 C Lunar Relic|QID|77571|L|208414|ITEM|208414|M|55.91,45.79|N|any mob in Shadowglen.|C|DRUID|S|
@@ -64,16 +70,15 @@ T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
 C Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|Use Moonfire on 6 Grelkin.|C|DRUID|
 T Relics of the Kaldorei|QID|77571|M|58.62,40.29|N|To Mardant Strongoak.|C|DRUID|
 
-r Sell and Repair|AVAILABLE|3522|S|N|Sell Junk and Repair.|
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
 A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.|NOAUTO| ; ** auto-accept stopped because of timer - Hendo72
-A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Dirania Silvershine to restart.|FAIL|
+A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Dirania Silvershine to restart.|FAIL|NOAUTO|
 T Iverron's Antidote|QID|3522|M|54.60,32.99|N|To Iverron.\n[color=FF0000]NOTE: [/color]You only have 5 minutes to turn this in.\nThe timer doesn't stop until you choose a reward and click 'Quest Complete'.|
 R Shadowthread Cave|ACTIVE|917|QO|1|M|56.77,31.72|N|Enter the cave.|
-K Githyiss the Vile|ACTIVE|77568|QO|1|M|56.65,25.74|N|This large spider is found on a ledge at the back of the cave among the Webwood Eggs.|S|
+C Rune of the Chimera|QID|77568|M|56.65,25.74|L|206168|ITEM|206168|N|the large spider, Githyiss the Vile, found on the ledge at the back of the cave among the Webwood Eggs.|C|Hunter|S|
 C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|N|any webwood spider in Shadowthread Cave.|C|Warrior|S|
-C Webwood Egg|QID|917|M|56.66,29.33;56.87,27.24;55.72,25.12;56.65,25.74|CS|L|5167|N|Loot one of the eggs from the ground.\n[color=FF0000]NOTE: [/color]Take the middle path and go left. The right path is just a longer route to the same location. The left path is a dead-end.|
-K Githyiss the Vile|ACTIVE|77568|QO|1|M|56.65,25.74|N|This large spider is found on a ledge at the back of the cave among the Webwood Eggs.|US|
+C Webwood Egg|QID|917|M|56.66,29.33;56.87,27.24;55.72,25.12;56.65,25.74|CS|L|5167|N|Loot one of the eggs from the ground.\n[color=FF0000]NOTE: [/color]Take the middle path and go left. The right path is just a longer route to the same location. The left path is a dead-end with a drop to the same location as the other two.|
+C Rune of the Chimera|QID|77568|M|56.65,25.74|L|206168|ITEM|206168|N|the large spider, Githyiss the Vile, found on the ledge at the back of the cave among the Webwood Eggs.|C|Hunter|US|
 C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|N|any webwood spider in Shadowthread Cave.|C|Warrior|US|
 H Shadowglen|ACTIVE|917|M|58.54,44.64|N|Hearth out of the cave.|
 
@@ -152,14 +157,19 @@ T Seek Redemption!|QID|489|M|60.43,56.25|N|To Zenn Foulhoof.\n[color=FF0000]NOTE
 r Sell and Repair|ACTIVE|932|M|56.24,59.51|N|Sell and Repair at one of the vendors in Dolanaar.|
 = Level 8 Training|ACTIVE|932|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Dolanaar|
 
-R Fel Rock|ACTIVE|932|QO|1|M|53.94,58.13;53.65,55.86;54.65,52.65|CC|N|The cave entrance is behind the tree building.|
+R Fel Rock|ACTIVE|932|QO|1|M|54.65,52.65|N|The cave entrance is behind the tree building.\n[color=FF0000]NOTE: [/color]It can be accessed from either side of the tree.|
+l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|S|
 R Twisted Hatred|ACTIVE|932|QO|1|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|ELITE|N|[color=00FFFF]Strongly suggested you look for help with this one.[/color]\nInside the cave keep right.|
+l Memory of an Imprisoned Savior|ACTIVE|932|M|51.22,50.74|L|205945|ITEM|205945|N|Lord Melenas|SPELL|Engrave Pants - Shared Pain;402854|S!US|
 K Lord Melenas|QID|932|M|51.45,49.91;51.22,50.74|CN|L|5221|N|Kill and loot Lord Melenas.\n[color=FF0000]NOTE: [/color]He spawns in three places, on the ledge, in the cavern below it, or in an alcove along the tunnel leading to the ledge.\nHe's level 8 and hits very hard for his level, transforming into a cat during the fight. He usually has two adds and will become a cat at some point in the fight. His adds can be pulled single if you do it right.\nIf you're a caster, pull him from max range and use a Severed Voodoo Claw on him. It will reduce his damage a little.|T|Lord Melenas|
-
+l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|US|
 H Hearth or Grind|ACTIVE|932|M|53.94,58.13|N|As most of the mobs you've killed on the way in have respawned by now, use your Hearth or grind your way out.|TZ|Dolanaar|
 T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot at the top of the tree.|
+N Meditation on Elune|AVAILABLE|487|M|56.04,61.95|N|Go to the Moonwell and get your buff.|T| ,kneel|BUFF|419307|
+U Engrave Pants - Shared Pain|M|PLAYER|N|Use the [color=33fff9]Memory of an Imprisoned Savior[/color] to learn the spell.|U|205945|SPELL|Engrave Pants - Shared Pain;402852|BUFF|-419307|O|
+N Meditation on Undeath|M|PLAYER|N|You need to find an Undead Priest with this buff to share it with you.\n[color=FF0000]NOTE: [/color]Skip this step if unavailable.|T| ,kneel|SPELL|Engrave Pants - Homunculi;402852|BUFF|418459|
+U Engrave Pants - Homunculi|M|PLAYER|N|Use the [color=33fff9]Prophecy of a Desecrated Citadel[/color] while in the graveyard to learn your spell.|U|205947|SPELL|Engrave Pants - Homunculi;402852|BUFF|-418459|O|
 r Sell and Repair|AVAILABLE|487|M|56.25,59.25|N|Sell Junk and Repair.|
-
 A The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CC|N|From Moon Priestess Amara, who'll be somewhere patrolling the westward road to Darnassus from Dolanaar.|
 R Darnassus|ACTIVE|487|M|50.21,53.87|CC|N|Run to Darnassus along the road.|
 N Skinning and Leatherworking|QID|922|M|42.09,49.97|N|If you're interested, stop by the Leatherworking and Skinning Trainers in the hut just past the bridge.\n[color=FF0000]NOTE: [/color]You'll need to buy a skinning knife in Darnassus before you can do any skinning.\n\nManually check this step off if you wish.|S|
@@ -187,7 +197,10 @@ C Raven Claw Talisman|QID|483|QO|1|M|45.39,58.00;46.15,58.37;45.65,57.45|CC|L|34
 C The Sleeping Druid|QID|2541|M|43.96,61.62|L|8363|N|Gnarlpine Shamans\nWorking your way back to the second tier of bridges, kill Shamans until one of them drops the Charm.\n[color=FF0000]NOTE: [/color]This may take a long time and you can use the grind.|US|
 T The Sleeping Druid|QID|2541|M|44.95,61.59|N|To Oben Rageclaw.|
 A Druid of the Claw|QID|2561|PRE|2541|M|44.95,61.59|N|From Oben Rageclaw.|
+l Idol of Ursine Rage|M|45.39,58.00|L|206954|ITEM|206954|N|Rageclaw|SPELL|Engrave Gloves - Mangle;410025|C|Druid|S!US|
+l Rune of Explosive Shot|M|45.39,58.00|L|206169|ITEM|206169|N|Rageclaw|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|S!US|
 C Druid of the Claw|QID|2561|M|45.39,58.00|N|After returning to where Rageclaw is circling, kill him and use the Voodoo Charm on his corpse.|T|Rageclaw|U|8149|
+U Engrave Gloves - Explosive Shot|M|PLAYER|N|Use the [color=33fff9]Rune of Explosive Shot[/color] to learn the spell.|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|
 T Druid of the Claw|QID|2561|M|44.95,61.59|N|To Oben Rageclaw.|
 R Dolanaar|ACTIVE|933|M|53.94,58.13|N|Head towards Dolanaar.|S|LVL|9;-780|
 L Level 10|ACTIVE|933|M|53.94,58.13|N|Grind until you're within 2 bubbles of level 10.|LVL|9;-780|
@@ -221,10 +234,16 @@ A Training the Beast|QID|6103|PRE|6102|M|56.68,59.50|N|From Dazalar.\n[color=FF0
 T The Relics of Wakening|QID|483|M|55.96,57.28|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|N|From Athridas Bearmantle.|
 T The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CS|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
+l Teldrassil Bird Meat|L|208608|ITEM|208608|N|any Strigid Owl/Screecher/Hunter|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|S!US|
+l Rune of Marksmanship|M|46.60,46.30|L|206155|ITEM|206155|N|Fallenroot Poacher\nCast Hunter's Mark on the Rustling Bush to summon them.|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|
+U Engrave Pants - Flanking Strike|M|PLAYER|N|Use the [color=33fff9]Rune of Marksmanship[/color] to learn the spell.|U|206155|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
 R Wellspring Lake|ACTIVE|923|QO|1|M|44.36,49.96;43.80,45.97|CC|N|Run west towards Darnassus and turn north down the hill when you reach the bridge/log.|
 K Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|L|5179|N|A Level 13 rare that spawns on the NE bank of the Wellspring River before the last waterfall. He drops a quest starter.\n[color=FF0000]NOTE: [/color]If he's not there, skip this because he has a 2hr+ respawn timer.|T|Blackmoss the Fetid|IZ|Wellspring River|S!US|
 A The Moss-twined Heart|QID|927|M|PLAYER|N|Click on the item to start the quest.|U|5179|O|
 C Tumors|QID|923|QO|1|M|43.58,27.27|L|5170 5|ITEM|5170|N|Any type of Timberling found in the area around Wellspring River (from the lake to the last waterfall).|
+U Teldrassil Bird Meat|M|48.3,31.4|N|Use the Teldrassil Bird Meat to summon Mowgh.|U|208608|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
+l Rune of Flanking|M|48.3,31.4|L|205979|N|Kill Mowgh to loot the Rune.\n[color=FF0000]NOTE: [/color]Taming him gives the same result.|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|
+U Engrave Pants - Flanking Strike|M|PLAYER|N|Use the [color=33fff9]Rune of Flanking[/color] to learn the spell.|U|205979|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
 R Darnassus|QID|923|M|88.20,35.61|Z|Darnassus|N|Return to the road and continue west to Darnassus.|
 A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
 h Craftsmen's Terrace|QID|923|M|67.42,15.69|Z|Darnassus|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
@@ -248,6 +267,8 @@ A Back to Darnassus|QID|5931|PRE|5929|M|56.21,30.62|Z|Moonglade|N|From Dendrite 
 H Darnassus|QID|5931|M|44.15,45.22|Z|Moonglade|N|If your Hearth is on cooldown, take the flight to Rut'theran Village from Silva Fil'naveth and walk into the portal back to Darnassus.|C|Druid|
 T Back to Darnassus|QID|5931|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
+U Engrave Gloves - Mangle|M|PLAYER|N|Use the [color=33fff9]Idol of Ursine Rage[/color] after maintaining at least 50 rage for 60 seconds while in Bear form to learn the spell.|SPELL|Engrave Gloves - Mangle;410025|C|Druid|S!US|
+
 T Training the Beast|QID|6103|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|C|Hunter|
 R Learn Pet Skills|QID|6344|M|42.5,9.15|Z|Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|C|Hunter|
 
@@ -287,6 +308,8 @@ A The Moss-twined Heart|QID|927|M|43.37,27.75|N|This item is dropped by Blackmos
 C Tears of the Moon|QID|2518|M|48.01,25.11;41.81,25.24;39.15,25.27|CN|N|Kill and loot the spider Lady Sathrah for the Silvery Spinnerets.\n[color=FF0000]NOTE: [/color]She spawns in multiple locations.|T|Lady Sathrah|
 C Destiny Calls|QID|2242|M|37,21|N|Stealth up, sneak behind him and pickpocket Sethir's Journal.|C|Rogue|
 
+l Rune of Mending|M|33.60,35.60|L|208767|N|With the help of another Priest, one of you clicks on the Adventurer's Remains to start the summoning ritual and the other clicks on the portal to summon the Adventurer's Spirit. Kill it to loot the Rune.\n[color=FF0000]NOTE: [/color]The remains despawn when used and take some time to respawn.|SPELL|Engrave Pants - Prayer of Mending;402848|C|Priest|S|
+U Engrave Pants - Prayer of Mending|M|PLAYER|Use the [color=33fff9]Rune of Mending[/color] to learn the spell.|U|208767|SPELL|Engrave Pants - Prayer of Mending;402848|C|Priest|BUFF|-419307|O|
 C The Enchanted Glade|QID|937|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle Glade.|S|
 A The Shimmering Frond|QID|931|M|34.67,28.75|N|From the Strange Fronded Plant.\n[color=FF0000]NOTE: [/color]Right-click the glowing tree.|
 C The Enchanted Glade|QID|937|M|33.0,32.0|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle Glade.|US|
