@@ -699,35 +699,7 @@ function WoWPro:CreateMouseNotes()
     end
 end
 
--- Mini-map Button --
-function WoWPro:CreateMiniMapButton()
-    local ldb = _G.LibStub:GetLibrary("LibDataBroker-1.1")
-    local icon = _G.LibStub("LibDBIcon-1.0")
 
-    WoWPro.MinimapButton = ldb:NewDataObject("WoW-Pro", {
-        type = "launcher",
-        icon = "Interface\\AddOns\\WoWPro\\Textures\\Achievement_WorldEvent_Brewmaster",
-        OnClick = function(clickedframe, button)
-            if button == "LeftButton" then
-                if WoWProCharDB.Enabled then
-                    WoWPro:Disable()
-                    WoWProCharDB.Enabled = false
-                else
-                    WoWProCharDB.Enabled = true
-                    WoWPro:Enable()
-                end
-            elseif button == "RightButton" then
-                WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
-            end
-        end,
-        OnTooltipShow = function(this)
-            this:AddLine("WoW-Pro")
-            this:AddLine("Left-click to enable/disable addon", 1, 1, 1)
-            this:AddLine("Right-click to open config panel", 1, 1, 1)
-        end,
-    })
-    icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
-end
 
 -- Skip Steps Dialog --
 function WoWPro:CreateSkipStepsDialog()
@@ -902,7 +874,6 @@ function WoWPro:CreateFrames()
     WoWPro:CreateMouseNotes()
     WoWPro:CreateNextGuideDialog()
     WoWPro:CreateSkipStepsDialog()
-    WoWPro:CreateMiniMapButton()
     WoWPro:CreateDropdownMenu()
     WoWPro:CreateGuideList()
 --      local createGuideFrame()
@@ -934,7 +905,6 @@ function WoWPro:CreateFrames()
             --Create the dialog frame with default settings - empty by default
             --Attach to the center of the screen
             --Hide by default
---      local createMiniMapButton()
 end
 
 --Enables or Disables frames (hides/shows)
