@@ -309,7 +309,7 @@ C Tears of the Moon|QID|2518|M|48.01,25.11;41.81,25.24;39.15,25.27|CN|N|Kill and
 C Destiny Calls|QID|2242|M|37,21|N|Stealth up, sneak behind him and pickpocket Sethir's Journal.|C|Rogue|
 
 l Rune of Mending|M|33.60,35.60|L|208767|N|With the help of another Priest, one of you clicks on the Adventurer's Remains to start the summoning ritual and the other clicks on the portal to summon the Adventurer's Spirit. Kill it to loot the Rune.\n[color=FF0000]NOTE: [/color]The remains despawn when used and take some time to respawn.|SPELL|Engrave Pants - Prayer of Mending;402848|C|Priest|S|
-U Engrave Pants - Prayer of Mending|M|PLAYER|Use the [color=33fff9]Rune of Mending[/color] to learn the spell.|U|208767|SPELL|Engrave Pants - Prayer of Mending;402848|C|Priest|BUFF|-419307|O|
+U Engrave Pants - Prayer of Mending|M|PLAYER|N|Use the [color=33fff9]Rune of Mending[/color] to learn the spell.|U|208767|SPELL|Engrave Pants - Prayer of Mending;402848|C|Priest|BUFF|-419307|O|
 C The Enchanted Glade|QID|937|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle Glade.|S|
 A The Shimmering Frond|QID|931|M|34.67,28.75|N|From the Strange Fronded Plant.\n[color=FF0000]NOTE: [/color]Right-click the glowing tree.|
 C The Enchanted Glade|QID|937|M|33.0,32.0|L|5204 6|ITEM|5204|N|Any Harpy around The Oracle Glade.|US|
