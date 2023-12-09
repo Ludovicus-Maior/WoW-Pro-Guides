@@ -8,10 +8,6 @@ local icon = LibStub("LibDBIcon-1.0")
 local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
 
-function WoWPro:CreateConfig()
-    -- Add your code here...
-end
-
 function WoWPro:RefreshConfig()
     WoWPro:LoadGuide()
     WoWPro:CustomizeFrames()
@@ -36,13 +32,13 @@ local soundfiles = {
     ["Map Ping"] = 567416,
     ["Boat Docked"] = 566652,
 }
-
+-- Define your options
 local options = {
-    name = "Settings",
+    name = "Options",
     type = "group",
     childGroups = "tab",
     args = {
-        addonversion = {
+        about = {
             name = "About",
             order = 1,
             type = "group",
@@ -103,9 +99,7 @@ local options = {
                     width = "normal",
                     func = function()
                         local url = "https://discord.gg/aarduK7"
-                        local OKAY = _G.OKAY or "Okay"
-                        local myDialogs = _G.StaticPopupDialogs or {}
-                        myDialogs["WoWPro_DiscordURL"] = {
+                        StaticPopupDialogs["WoWPro_DiscordURL"] = {
                             text = "Press Ctrl & C to copy this link and paste into your favorite Browser",
                             button1 = OKAY,
                             hasEditBox = true,
@@ -120,8 +114,6 @@ local options = {
                             whileDead = true,
                             hideOnEscape = true,
                         }
-                        _G.StaticPopupDialogs = myDialogs
-                        local StaticPopup_Show = _G.StaticPopup_Show or function() end
                         StaticPopup_Show("WoWPro_DiscordURL", url)
                     end
                 },
@@ -129,7 +121,7 @@ local options = {
         },
         general = {
             name = "General",
-            order = 1.5,
+            order = 2,
             type = "group",
             args = {
                 header1 = {
@@ -338,9 +330,9 @@ local options = {
                 },
             },
         },
-        guideDisplay = {
+        guide_display = {
             name = "Guide Display",
-            order = 2,
+            order = 3,
             type = "group",
             args = {
                 desc = {
@@ -477,7 +469,6 @@ local options = {
                     name = L["Step Completed Sound"],
                     desc = L["Sound played when a guide step is completed"],
                     values = function() local values = {}
-                        local pairs = _G.pairs or function() end
                         for k,v in pairs(soundfiles) do
                             values[v] = k
                         end
@@ -610,16 +601,13 @@ local options = {
                     type = "select",
                     name = L["Guide Window Background"],
                     desc = L["Texture used for the guide window background."],
-                    values = function()
-                        local values = {}
-                        local ipairs = _G.ipairs or function() end
+                    values = function() local values = {}
                         local list = LSM:List("background")
                         local hashtable = LSM:HashTable("background")
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
-                        return values
-                    end,
+                        return values end,
                     get = function(info)
                         return WoWProDB.profile.bgtexture end,
                     set = function(info,val) WoWProDB.profile.bgtexture = val
@@ -642,7 +630,6 @@ local options = {
                     name = L["Border Texture"],
                     desc = L["Texture used for the guide window border."],
                     values = function() local values = {}
-                        local ipairs = _G.ipairs or function() end
                         local list = LSM:List("border")
                         local hashtable = LSM:HashTable("border")
                         for i,handle in ipairs(list) do
@@ -710,7 +697,6 @@ local options = {
                     desc = L["Font used for the main step text."],
                     values = LSM:HashTable("font"),
                     get = function(info) local values = {}
-                        local ipairs = _G.ipairs or function() end
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
                         for i,handle in ipairs(list) do
@@ -755,7 +741,6 @@ local options = {
                     get = function(info) local values = {}
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
-                        local ipairs = _G.ipairs or function() end
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
@@ -798,7 +783,6 @@ local options = {
                     get = function(info) local values = {}
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
-                        local ipairs = _G.ipairs or function() end
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
@@ -841,7 +825,6 @@ local options = {
                     get = function(info) local values = {}
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
-                        local ipairs = _G.ipairs or function() end
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
@@ -883,7 +866,6 @@ local options = {
                     get = function(info) local values = {}
                         local list = LSM:List("font")
                         local hashtable = LSM:HashTable("font")
-                        local ipairs = _G.ipairs or function() end
                         for i,handle in ipairs(list) do
                             values[hashtable[handle]] = handle
                         end
@@ -916,37 +898,36 @@ local options = {
                     set = function(info,r,g,b)
                         WoWProDB.profile.stickytitletextcolor = {r,g,b}
                         WoWPro.RowFontSet() end
-
+                    },
                 },
             },
-        },
-        guideList = {
+        guide_list = {
             name = "Guide List",
-            order = 3,
-            type = "group",
-            args = {
-                -- Add your options for the "Guide List" category here
-            },
-        },
-        currentGuide = {
-            name = "Current Guide",
             order = 4,
             type = "group",
             args = {
-                -- Add your options for the "Current Guide" category here
+                -- Add your options here
+            },
+        },
+        current_guide = {
+            name = "Current Guide",
+            order = 5,
+            type = "group",
+            args = {
+                -- Add your options here
             },
         },
         profiles = {
             name = "Profiles",
-            order = 5,
+            order = 6,
             type = "group",
             args = {
-                -- Add your options for the "Current Guide" category here
+                -- Add your options here
             },
         },
         expert = {
             name = "Expert",
-            order = 6,
+            order = 7,
             type = "group",
             args = {
                 version = {
@@ -957,7 +938,7 @@ local options = {
                 help = {
                     order = 2,
                     type = "description",
-                    name = L["(We Recomend Only Advanced Users Touch These Settings)"],
+                    name = L["Expert settings for WoW-Pro's addons."],
                 },
                 blank = {
                     order = 3,
@@ -971,13 +952,13 @@ local options = {
                     desc = L["Enables/Disables loading of all class guides"],
                     get = function(info) return (WoWPro.DebugLevel > 0) and WoWPro.DebugClasses end,
                     set = function(info,val)
-                        if WoWPro.DebugClasses then
-                            WoWPro.DebugClasses = false
-                        else
-                            WoWPro.DebugClasses = (WoWPro.DebugLevel > 0)
+                            if WoWPro.DebugClasses then
+                                WoWPro.DebugClasses = false
+                            else
+                                WoWPro.DebugClasses = (WoWPro.DebugLevel > 0)
+                            end
+                            WoWProCharDB.DebugClasses = WoWPro.DebugClasses
                         end
-                        WoWProCharDB.DebugClasses = WoWPro.DebugClasses
-                    end
                 },
                 EnableGrailQuestline = {
                     order = 5.0,
@@ -986,12 +967,12 @@ local options = {
                     desc = L["Enables/Disables Grail Quest Line Integration"],
                     get = function(info) return WoWProCharDB.EnableGrailQuestline end,
                     set = function(info,val)
-                        if WoWProCharDB.EnableGrailQuestline then
-                            WoWProCharDB.EnableGrailQuestline = false
-                        else
-                            WoWProCharDB.EnableGrailQuestline = true
+                            if WoWProCharDB.EnableGrailQuestline then
+                                WoWProCharDB.EnableGrailQuestline = false
+                            else
+                                WoWProCharDB.EnableGrailQuestline = true
+                            end
                         end
-                    end
                 },
                 EnableGrailCheckPrereq = {
                     order = 5.1,
@@ -1000,12 +981,12 @@ local options = {
                     desc = L["Enables/Disables Grail Quest Prerequistite Quest Checking"],
                     get = function(info) return WoWProCharDB.EnableGrailCheckPrereq end,
                     set = function(info,val)
-                        if WoWProCharDB.EnableGrailCheckPrereq then
-                            WoWProCharDB.EnableGrailCheckPrereq = false
-                        else
-                            WoWProCharDB.EnableGrailCheckPrereq = true
+                            if WoWProCharDB.EnableGrailCheckPrereq then
+                                WoWProCharDB.EnableGrailCheckPrereq = false
+                            else
+                                WoWProCharDB.EnableGrailCheckPrereq = true
+                            end
                         end
-                    end
                 },
                 EnableGrailBreadcrumbs = {
                     order = 5.2,
@@ -1014,12 +995,12 @@ local options = {
                     desc = L["Enables/Disables Grail Quest Breadcrumb Quest Checking"],
                     get = function(info) return WoWProCharDB.EnableGrailBreadcrumbs end,
                     set = function(info,val)
-                        if WoWProCharDB.EnableGrailBreadcrumbs then
-                            WoWProCharDB.EnableGrailBreadcrumbs = false
-                        else
-                            WoWProCharDB.EnableGrailBreadcrumbs = true
+                            if WoWProCharDB.EnableGrailBreadcrumbs then
+                                WoWProCharDB.EnableGrailBreadcrumbs = false
+                            else
+                                WoWProCharDB.EnableGrailBreadcrumbs = true
+                            end
                         end
-                    end
                 },
                 EnableGrailQuestName = {
                     order = 5.3,
@@ -1063,6 +1044,7 @@ local options = {
                             end
                         end
                 },
+
                 checkGuides = {
                     order = 6,
                     type = "execute",
@@ -1085,270 +1067,12 @@ local options = {
                 },
             },
         },
-        achievements = {
-            name = "Achievements",
-            order = 7,
-            type = "group",
-            args = {
-                help = {
-                    order = 0,
-                    type = "description",
-                    name = L["Settings for the WoW-Pro addon's Achievements module."],
-                },
-                blank = {
-                    order = 1,
-                    type = "description",
-                    name = " ",
-                },
-                enable = {
-                    order = 2,
-                    type = "toggle",
-                    name = L["Enable Module"],
-                    desc = L["Enables/Disables the Achievements module of the WoW-Pro guide addon."],
-                    width = "full",
-                    get = function(info) return WoWPro.Achievements:IsEnabled() end,
-                    set = function(info,val)
-                            if WoWPro.Achievements:IsEnabled() then WoWPro.Achievements:Disable() else WoWPro.Achievements:Enable() end
-                        end
-                },
-                arank = {
-                    order = 3,
-                    type = "range",
-                    name = L["Rank (Difficulty/Completeness)"],
-                    desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
-                    min = 1, max = 3, step = 1,
-                    get = function(info) return WoWProDB.profile.rank end,
-                    set = function(info,val) WoWProDB.profile.rank = val
-                        WoWPro.UpdateGuide("Config: Rank") end,
-                    width = "double"
-                },
-                blank2 = {
-                    order = 4,
-                    type = "description",
-                    name = " ",
-                },
-                helpheader = {
-                    order = 5,
-                    type = "header",
-                    name = "WoW-Pro Achievements Help",
-                },
-                blank3 = {
-                    order = 6,
-                    type = "description",
-                    name = " ",
-                }
-            },
-        },
-        dailies = {
-            name = "Dailies",
-            order = 8,
-            type = "group",
-            args = {
-                help = {
-                    order = 0,
-                    type = "description",
-                    name = L["Settings for the WoW-Pro addon's Dailies module."],
-                },
-                blank = {
-                    order = 1,
-                    type = "description",
-                    name = " ",
-                },
-                enable = {
-                    order = 2,
-                    type = "toggle",
-                    name = L["Enable Module"],
-                    desc = L["Enables/Disables the dailies module of the WoW-Pro guide addon."],
-                    width = "full",
-                    get = function(info) return WoWPro.Dailies:IsEnabled() end,
-                    set = function(info,val)
-                            if WoWPro.Dailies:IsEnabled() then WoWPro.Dailies:Disable() else WoWPro.Dailies:Enable() end
-                        end
-                },
-                arank = {
-                    order = 3,
-                    type = "range",
-                    name = L["Rank (Difficulty/Completeness)"],
-                    desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
-                    min = 1, max = 3, step = 1,
-                    get = function(info) return WoWProDB.profile.rank end,
-                    set = function(info,val) WoWProDB.profile.rank = val
-                        WoWPro.UpdateGuide("Config: Rank") end,
-                    width = "double"
-                },
-                blank2 = {
-                    order = 4,
-                    type = "description",
-                    name = " ",
-                },
-                helpheader = {
-                    order = 5,
-                    type = "header",
-                    name = "WoW-Pro Dailies Help",
-                },
-                blank3 = {
-                    order = 6,
-                    type = "description",
-                    name = " ",
-                }
-            },
-        },
-        levelling = {
-            name = "Levelling",
-            order = 9,
-            type = "group",
-            args = {
-                help = {
-                    order = 0,
-                    type = "description",
-                    name = L["Settings for the WoW-Pro addon's leveling module."],
-                },
-                blank = {
-                    order = 1,
-                    type = "description",
-                    name = " ",
-                },
-                enable = {
-                    order = 2,
-                    type = "toggle",
-                    name = L["Enable Module"],
-                    desc = L["Enables/Disables the leveling module of the WoW-Pro guide addon."],
-                    width = "full",
-                    get = function(info) return WoWPro.Leveling:IsEnabled() end,
-                    set = function(info,val)
-                            if WoWPro.Leveling:IsEnabled() then WoWPro.Leveling:Disable() else WoWPro.Leveling:Enable() end
-                        end
-                },
-                arank = {
-                    order = 3,
-                    type = "range",
-                    name = L["Rank (Difficulty/Completeness)"],
-                    desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
-                    min = 1, max = 3, step = 1,
-                    get = function(info) return WoWProDB.profile.rank end,
-                    set = function(info,val) WoWProDB.profile.rank = val
-                        WoWPro.UpdateGuide("Config: Rank") end,
-                    width = "double"
-                },
-                blank2 = {
-                    order = 4,
-                    type = "description",
-                    name = " ",
-                },
-                helpheader = {
-                    order = 5,
-                    type = "header",
-                    name = "WoW-Pro Leveling Help",
-                },
-                blank3 = {
-                    order = 6,
-                    type = "description",
-                    name = " ",
-                },
-            },
-        },
-        worldevents = {
-            name = "World Events",
-            order = 10,
-            type = "group",
-            args = {
-                help = {
-                    order = 0,
-                    type = "description",
-                    name = L["Settings for the WoW-Pro addon's WorldEvents module."],
-                },
-                blank = {
-                    order = 1,
-                    type = "description",
-                    name = " ",
-                },
-                enable = {
-                    order = 2,
-                    type = "toggle",
-                    name = L["Enable Module"],
-                    desc = L["Enables/Disables the WorldEvents module of the WoW-Pro guide addon."],
-                    width = "full",
-                    get = function(info) return WoWPro.WorldEvents:IsEnabled() end,
-                    set = function(info,val)
-                            if WoWPro.WorldEvents:IsEnabled() then WoWPro.WorldEvents:Disable() else WoWPro.WorldEvents:Enable() end
-                        end
-                },
-                arank = {
-                    order = 3,
-                    type = "range",
-                    name = L["Rank (Difficulty/Completeness)"],
-                    desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
-                    min = 1, max = 3, step = 1,
-                    get = function(info) return WoWProDB.profile.rank end,
-                    set = function(info,val) WoWProDB.profile.rank = val
-                        WoWPro.UpdateGuide("Config: Rank") end,
-                    width = "double"
-                },
-                blank2 = {
-                    order = 4,
-                    type = "description",
-                    name = " ",
-                },
-                helpheader = {
-                    order = 5,
-                    type = "header",
-                    name = "WoW-Pro WorldEvents Help",
-                },
-                blank3 = {
-                    order = 6,
-                    type = "description",
-                    name = " ",
-                },
-            },
-        },
     },
 }
-function WoWPro:OpenGuideListTab()
-LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideList")
-end
 
--- Create a DataBroker launcher
-local WoWProLauncher = LDB:NewDataObject("WoWPro", {
-    type = "launcher",
-    icon = "Interface\\AddOns\\WoWPro\\Textures\\Achievement_WorldEvent_Brewmaster",
-OnClick = function(clickedframe, button)
-    local InterfaceOptionsFrame_OpenToCategory = _G.InterfaceOptionsFrame_OpenToCategory or function() end
-    if button == "LeftButton" then
-        -- Enable or disable the addon
-        if WoWPro:IsEnabled() then
-            WoWPro:Disable()
-        else
-            WoWPro:Enable()
-        end
-    elseif button == "RightButton" then
-        -- Open the guide display tab
-        InterfaceOptionsFrame_OpenToCategory("WoWPro")
-        InterfaceOptionsFrame_OpenToCategory("WoWPro") -- call twice to actually open the frame
-        WoWPro:OpenGuideListTab()
-    end
-end,
-    OnTooltipShow = function(tt)
-        tt:AddLine("WoWPro")
-        tt:AddLine("Left click to enable/disable.")
-        tt:AddLine("Right click to open the guide display tab.")
-    end,
-})
--- Define defaults
-local defaults = {
-    profile = {
-        minimap = {
-            hide = false,
-        },
-    },
-}
--- Register the DataBroker launcher with LibDBIcon
-function WoWPro:OnInitialize()
-    self.db = LibStub("AceDB-3.0"):New("WoWProDB", defaults, true)
-    icon:Register("WoWPro", WoWProLauncher, self.db.profile.minimap)
-end
 
--- Register your options table with AceConfig
+-- Register your options with AceConfig
 AceConfig:RegisterOptionsTable("WoWPro", options)
 
--- Add the options table to the Blizzard Interface Options
+-- Add the options to the Blizzard Interface Options
 AceConfigDialog:AddToBlizOptions("WoWPro", "WoWPro")
