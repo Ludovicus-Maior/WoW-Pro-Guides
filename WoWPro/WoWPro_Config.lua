@@ -2,14 +2,13 @@ local L = WoWPro_Locale
 local AceConfig = LibStub("AceConfig-3.0")
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 local LSM = _G.LibStub("LibSharedMedia-3.0")
-_G.StaticPopupDialogs = _G.StaticPopupDialogs or {}
-_G.OKAY = _G.OKAY or "Okay"
-_G.StaticPopup_Show = _G.StaticPopup_Show or function() end
-local pairs = pairs
-local ipairs = ipairs
+local LDB = LibStub("LibDataBroker-1.1")
+local icon = LibStub("LibDBIcon-1.0")
+local AceGUI = LibStub("AceGUI-3.0")
 
-local MediaType_BORDER = LSM.MediaType.BORDER
-LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
+function WoWPro:CreateConfig()
+    -- Add your code here...
+end
 
 function WoWPro:RefreshConfig()
     WoWPro:LoadGuide()
@@ -35,6 +34,7 @@ local soundfiles = {
     ["Map Ping"] = 567416,
     ["Boat Docked"] = 566652,
 }
+
 -- Define your options
 local options = {
     name = "Options",
@@ -43,7 +43,7 @@ local options = {
     args = {
         about = {
             name = "About",
-            order = 1,
+            order = 10,
             type = "group",
             args = {
                 version = {
@@ -96,7 +96,7 @@ local options = {
                     "and built on them since WotLK to Classic(s) and Dragonflight. Drop by on Discord and say hello!"
                 },
                 discordButton = {
-                    order = 102,
+                    order = 120,
                     name = ("Join Discord"), -- TODO locale
                     type = "execute",
                     width = "normal",
@@ -124,7 +124,7 @@ local options = {
         },
         general = {
             name = "General",
-            order = 2,
+            order = 3,
             type = "group",
             args = {
                 header1 = {
@@ -335,7 +335,7 @@ local options = {
         },
         guide_display = {
             name = "Guide Display",
-            order = 3,
+            order = 4,
             type = "group",
             args = {
                 desc = {
@@ -905,11 +905,11 @@ local options = {
                 },
             },
         guide_list = {
-            name = "Guide List",
-            order = 4,
+            name = "Guide Select",
+            order = 1,
             type = "group",
             args = {
-                -- Add your options here
+                    -- Add your options here
             },
         },
         current_guide = {
@@ -933,15 +933,10 @@ local options = {
             order = 7,
             type = "group",
             args = {
-                version = {
-                    order = 1,
-                    type = "description",
-                    name = L["Version"]..": "..WoWPro.Version,
-                },
                 help = {
                     order = 2,
                     type = "description",
-                    name = L["Expert settings for WoW-Pro's addons."],
+                    name = L["Expert settings for WoW-Pro's addons. (We do not recommend changing these settings unless you are an advised too.)"],
                 },
                 blank = {
                     order = 3,
@@ -1047,7 +1042,6 @@ local options = {
                             end
                         end
                 },
-
                 checkGuides = {
                     order = 6,
                     type = "execute",
@@ -1079,3 +1073,54 @@ AceConfig:RegisterOptionsTable("WoWPro", options)
 
 -- Add the options to the Blizzard Interface Options
 AceConfigDialog:AddToBlizOptions("WoWPro", "WoWPro")
+
+-- Define addonName
+local addonName = "WoWPro"
+
+-- Initialize WoWProDB if it doesn't exist
+if not WoWProDB then
+    WoWProDB = { profile = { minimap = {} } }
+elseif not WoWProDB.profile then
+    WoWProDB.profile = { minimap = {} }
+end
+
+-- Check if WoWProDB.profile.minimap exists
+if not WoWProDB.profile then
+    WoWProDB.profile = { minimap = {} }
+end
+
+function WoWPro:OpenGuideSelectTab()
+LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideSelect")
+end
+
+
+-- Create a data object for the minimap button
+local ldb = LibStub("LibDataBroker-1.1"):NewDataObject(addonName, {
+    type = "launcher",
+    text = "WoWPro",
+    icon = "Interface\\Icons\\Achievement_WorldEvent_Brewmaster", -- Brewmaster icon
+    OnClick = function(clickedframe, button)
+        if button == "LeftButton" then
+            -- Enable or disable the addon
+            if WoWPro:IsEnabled() then
+                WoWPro:Disable()
+            else
+                WoWPro:Enable()
+            end
+        elseif button == "RightButton" then
+            -- Open the guide display tab
+            InterfaceOptionsFrame_OpenToCategory("WoWPro")
+            InterfaceOptionsFrame_OpenToCategory("WoWPro") -- call twice to actually open the frame
+            WoWPro:OpenGuideSelectTab()
+        end
+    end,
+    OnTooltipShow = function(tooltip)
+        tooltip:AddLine("WoWPro")
+        tooltip:AddLine("Left click to enable/disable.")
+        tooltip:AddLine("Right click to open the guide select tab.")
+    end,
+})
+
+-- Register the minimap button
+local icon = LibStub("LibDBIcon-1.0")
+icon:Register("WoWPro", ldb, WoWProDB.profile.minimap)
