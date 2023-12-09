@@ -2,7 +2,9 @@ local L = WoWPro_Locale
 local AceConfig = LibStub("AceConfig-3.0")
 local AceConfigDialog = LibStub("AceConfigDialog-3.0")
 local LSM = _G.LibStub("LibSharedMedia-3.0")
-local LDB = LibStub("LibDataBroker-1.1")
+_G.StaticPopupDialogs = _G.StaticPopupDialogs or {}
+_G.OKAY = _G.OKAY or "Okay"
+_G.StaticPopup_Show = _G.StaticPopup_Show or function() end
 
 local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
@@ -92,7 +94,7 @@ local options = {
                     "and built on them since WotLK to Classic(s) and Dragonflight. Drop by on Discord and say hello!"
                 },
                 discordButton = {
-                    order = 1.2,
+                    order = 102,
                     name = ("Join Discord"), -- TODO locale
                     type = "execute",
                     width = "normal",
