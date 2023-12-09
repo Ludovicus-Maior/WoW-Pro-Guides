@@ -5,6 +5,8 @@ local LSM = _G.LibStub("LibSharedMedia-3.0")
 _G.StaticPopupDialogs = _G.StaticPopupDialogs or {}
 _G.OKAY = _G.OKAY or "Okay"
 _G.StaticPopup_Show = _G.StaticPopup_Show or function() end
+local pairs = pairs
+local ipairs = ipairs
 
 local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
