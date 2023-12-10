@@ -8,6 +8,7 @@
 	<Script file="Goblin_Heritage_Armor.lua"/>
 	<Script file="Blood_Elf_Heritage_Armor.lua"/>
 	<Script file="Orc_Heritage_Armor.lua"/>
+	<Script file="Tauren_Heritage_Armor.lua"/>
 	<Script file="Human_Heritage_Armor.lua"/>
     <Script file="Emm_Blanchy.lua"/>
     <Script file="SL_Sojourners.lua"/>
