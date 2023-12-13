@@ -203,7 +203,7 @@ N Fishing|ACTIVE|5726|M|69.8,29.6|Z|Orgrimmar|P|Fishing;356;0;1;75|N|Lumak, Fish
 N Leatherworking|ACTIVE|5726|M|62.8,44.2|Z|Orgrimmar|P|Leatherworking;165;0;1;75|N|Karolek, Expert Leatherworker and trainer, Orgrimmar.|
 N Skinning|ACTIVE|5726|M|63.2,45.2|Z|Orgrimmar|P|Skinning;393;0;1;75|N|Thuwd, Skinning Trainer, Orgrimmar.|
 N Tailoring|ACTIVE|5726|M|63.0,49.6|Z|Orgrimmar|P|Tailoring;197;0;1;75|N|Snang, Journeyman Tailor and trainer, Orgrimmar.|
-A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|M|39.15,86.27|N|From Uthel'nay, Valley of the Spirits.|
+A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|M|39.15,86.27||Z|Orgrimmar|N|From Uthel'nay, Valley of the Spirits.|
 T Training the Beast|QID|6081|C|Hunter|R|Orc,Troll|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|
 T Therzok|QID|1859|C|Rogue|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|
 A The Shattered Hand|QID|1963|PRE|1859|C|Rogue|R|Orc,Troll|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|
