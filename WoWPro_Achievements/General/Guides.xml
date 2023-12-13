@@ -1,4 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Dark_Ranger.lua"/>
     <Script file="DF_WrathionvsSabellian.lua"/>
 	<Script file="DF_A_Blue_Dawn.lua"/>
    	<Script file="DF_Naszuro.lua"/>
@@ -10,6 +11,7 @@
 	<Script file="Orc_Heritage_Armor.lua"/>
 	<Script file="Tauren_Heritage_Armor.lua"/>
 	<Script file="Human_Heritage_Armor.lua"/>
+	<Script file="Worgen_Heritage_Armor.lua"/>
     <Script file="Emm_Blanchy.lua"/>
     <Script file="SL_Sojourners.lua"/>
     <Script file="SL_RaresTreasures.lua"/>
