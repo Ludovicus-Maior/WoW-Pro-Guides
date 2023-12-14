@@ -157,17 +157,17 @@ r Sell/Repair|ACTIVE|932|M|56.24,59.51|N|Sell/Repair at one of the vendors in Do
 = Level 8 Training|ACTIVE|932|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Dolanaar|
 
 R Fel Rock|ACTIVE|932|QO|1|M|54.65,52.65|N|The cave entrance is behind the tree building.\n[color=FF0000]NOTE: [/color]It can be accessed from either side of the tree.|
-l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|S|RUNE|
+l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|C|Priest|S|RUNE|
 R Twisted Hatred|ACTIVE|932|QO|1|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|ELITE|N|[color=00FFFF]Strongly suggested you look for help with this one.[/color]\nInside the cave keep right.|
-l Memory of an Imprisoned Savior|ACTIVE|932|M|51.22,50.74|L|205945|ITEM|205945|N|Lord Melenas|SPELL|Engrave Pants - Shared Pain;402854|S!US|RUNE|
+l Memory of an Imprisoned Savior|ACTIVE|932|M|51.22,50.74|L|205945|ITEM|205945|N|Lord Melenas|SPELL|Engrave Pants - Shared Pain;402854|C|Priest|S!US|RUNE|
 K Lord Melenas|QID|932|M|51.45,49.91;51.22,50.74|CN|L|5221|N|Kill and loot Lord Melenas.\n[color=FF0000]NOTE: [/color]He spawns in three places, on the ledge, in the cavern below it, or in an alcove along the tunnel leading to the ledge.\nHe's level 8 and hits very hard for his level, transforming into a cat during the fight. He usually has two adds and will become a cat at some point in the fight. His adds can be pulled single if you do it right.\nIf you're a caster, pull him from max range and use a Severed Voodoo Claw on him. It will reduce his damage a little.|T|Lord Melenas|
-l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|US|
+l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|C|Priest|US|RUNE|
 H Hearth or Grind|ACTIVE|932|M|55.62,59.79|N|As most of the mobs you've killed on the way in have respawned by now, use your Hearth or grind your way out.|TZ|Dolanaar|
 T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot at the top of the tree.|
-N Meditation on Elune|AVAILABLE|487|M|56.04,61.95|N|Go to the Moonwell and get your buff.|T| ,kneel|BUFF|419307|
-= Engrave Pants - Shared Pain|M|PLAYER|N|Use the [color=33fff9]Memory of an Imprisoned Savior[/color] to learn the spell.|U|205945|SPELL|Engrave Pants - Shared Pain;402852|BUFF|-419307|O|
+N Meditation on Elune|AVAILABLE|487|M|56.04,61.95|N|Go to the Moonwell and get your buff.|T| ,kneel|BUFF|419307|C|Priest|
+= Engrave Pants - Shared Pain|M|PLAYER|N|Use the [color=33fff9]Memory of an Imprisoned Savior[/color] to learn the spell.|U|205945|SPELL|Engrave Pants - Shared Pain;402852|BUFF|-419307|C|Priest|O|
 N Meditation on Undeath|M|PLAYER|N|You need to find an Undead Priest with this buff to share it with you.\n[color=FF0000]NOTE: [/color]Skip this step if unavailable.|T| ,kneel|SPELL|Engrave Pants - Homunculi;402852|BUFF|418459|
-= Engrave Pants - Homunculi|M|PLAYER|N|Use the [color=33fff9]Prophecy of a Desecrated Citadel[/color] while in the graveyard to learn your spell.|U|205947|SPELL|Engrave Pants - Homunculi;402852|BUFF|-418459|O|
+= Engrave Pants - Homunculi|M|PLAYER|N|Use the [color=33fff9]Prophecy of a Desecrated Citadel[/color] while in the graveyard to learn your spell.|U|205947|SPELL|Engrave Pants - Homunculi;402852|BUFF|-418459|C|Priest|O|
 r Sell/Repair|AVAILABLE|487|M|56.25,59.25|N|Sell Junk and Repair.|S!US|
 A The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CC|N|From Moon Priestess Amara, who'll be somewhere patrolling the westward road to Darnassus from Dolanaar.|US|
 R Darnassus|ACTIVE|922|M|50.21,53.87|CC|N|Run to Darnassus along the road.|
