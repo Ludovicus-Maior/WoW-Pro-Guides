@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Gnome_Heritage_Armor', 'Achievements', 'Iron
 WoWPro:GuideName(guide,"Gnome Heritage Armor")
 WoWPro:GuideLevels(guide,50, 70)
 WoWPro:GuideQuestTriggers(guide, 54402)
-WoWPro.Achievements:GuideMisc(guide, "Gnome_Heritage_Armor", "Heritage Armor", "Dragonflight")
+WoWPro.Achievements:GuideMisc(guide, "Gnome Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 A Shifting Gears|QID|54402|M|PLAYER|Z|469;New Tinkertown|N|To Captain Tread Sparknozzle.|
