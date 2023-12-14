@@ -166,7 +166,7 @@ H Hearth or Grind|ACTIVE|932|M|55.62,59.79|N|As most of the mobs you've killed o
 T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot at the top of the tree.|
 N Meditation on Elune|AVAILABLE|487|M|56.04,61.95|N|Go to the Moonwell and get your buff.|T| ,kneel|BUFF|419307|C|Priest|
 = Engrave Pants - Shared Pain|M|PLAYER|N|Use the [color=33fff9]Memory of an Imprisoned Savior[/color] to learn the spell.|U|205945|SPELL|Engrave Pants - Shared Pain;402852|BUFF|-419307|C|Priest|O|
-N Meditation on Undeath|M|PLAYER|N|You need to find an Undead Priest with this buff to share it with you.\n[color=FF0000]NOTE: [/color]Skip this step if unavailable.|T| ,kneel|SPELL|Engrave Pants - Homunculi;402852|BUFF|418459|
+N Meditation on Undeath|M|PLAYER|N|You need to find an Undead Priest with this buff to share it with you.\n[color=FF0000]NOTE: [/color]Skip this step if unavailable.|T| ,kneel|SPELL|Engrave Pants - Homunculi;402852|BUFF|418459|C|Priest|
 = Engrave Pants - Homunculi|M|PLAYER|N|Use the [color=33fff9]Prophecy of a Desecrated Citadel[/color] while in the graveyard to learn your spell.|U|205947|SPELL|Engrave Pants - Homunculi;402852|BUFF|-418459|C|Priest|O|
 r Sell/Repair|AVAILABLE|487|M|56.25,59.25|N|Sell Junk and Repair.|S!US|
 A The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CC|N|From Moon Priestess Amara, who'll be somewhere patrolling the westward road to Darnassus from Dolanaar.|US|
