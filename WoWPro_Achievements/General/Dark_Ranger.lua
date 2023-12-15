@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Dark_Ranger_Customization', 'Achievements', 'Stormwind City', 'Capau', 'Neutral')
+local guide = WoWPro:RegisterGuide('Dark_Ranger_Customization', 'Achievements', ' ', 'Capau', 'Neutral')
 WoWPro:GuideName(guide,"Dark Ranger Customization")
 WoWPro:GuideLevels(guide,50, 70)
 WoWPro:GuideQuestTriggers(guide, 65655,65656)
@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, "Hunter Order Hall")
 WoWPro.Achievements:GuideMisc(guide, "Dark Ranger Customization", "Customization", "")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Dark Ranger Questline|N|It is recommended to do this Questline on a Hunter. Otherwise you will not be able to buy the Dark Ranger Customization.
+N Dark Ranger Customization|N|It is recommended to do this Questline on a Hunter. Otherwise you will not be able to buy the Dark Ranger Customization.
 A Eyes of the Wolf|QID|65655|M|41.39,63.44|Z|1670|N|From Genn Greymane.|FACTION|Alliance|
 A Call to Lordaeron|QID|65656|M|41.40,69.23|Z|1670;Oribos|N|From Calia Menethil.|FACTION|Horde|
 C Eyes of the Wolf|QID|65655|M|41.25,62.95|Z|1670|QO|1|CHAT|N|Speak to Gilnean Greymage for a teleport.|FACTION|Alliance|
