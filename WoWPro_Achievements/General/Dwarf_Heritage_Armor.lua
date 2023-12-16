@@ -24,7 +24,7 @@ A Aegrim's Study|QID|53839|PRE|53837|M|20.42,51.28|Z|1361|N|From Advisor Belgrum
 T Aegrim's Study|QID|53839|M|19.90,51.82|Z|87|N|Click on the door, then turn in quest to Armor Stand.|
 A Shards of the Past|QID|53841|PRE|53839|M|19.90,51.82|Z|87|N|From Armor Stand|
 C Shards of the Past|QID|53841|M|19.76,51.83|Z|87|QO|1|H|N|Fragments of Shattered Armor.|
-T Shards of the Past|QID|53841|M|77.15,9.86|Z|87|N|To Brann Bronzebeard back Upstairs.|
+T Shards of the Past|QID|53841|M|77.15,9.86|Z|87|N|To Brann Bronzebeard back Upstairs in the Halls of Explorers.|
 A Interest Yah In A Pint?|QID|53840|PRE|53841|M|77.15,9.86|Z|87|N|From Brann Bronzebeard.|
 F Thelsamar|ACTIVE|53840|M|56.11,47.74|Z|Ironforge!Eastern Kingdoms|N|Head to the flightmaster and take a flight to Thelsamar.|
 T Interest Yah In A Pint?|QID|53840|M|35.08,48.74|Z|48|N|To Grumnus Steelshaper.|
@@ -36,11 +36,11 @@ P Ulduar|ACTIVE|53844|M|41.52,18.17|Z|The Storm Peaks|N|Take the portal to Uldua
 C Recruiting the Furnace Master|QID|53844|M|41.56,17.54|Z|120|QO|1|NC|N|Travel to Ulduar.|
 C Recruiting the Furnace Master|QID|53844|QO|2|N|Titan Flame slain.|
 C Recruiting the Furnace Master|QID|53844|QO|3|N|Magmarion of the Furnace slain.|
-T Recruiting the Furnace Master|QID|53844|M|35.07,48.71|Z|48;Loch Modan|N|To Brann Bronzebeard. Use the Flying Maching back at the Entrance.|
+T Recruiting the Furnace Master|QID|53844|M|35.07,48.71|Z|48;Loch Modan|N|To Brann Bronzebeard back in Loch Modan. Use the Flying Maching back at the Entrance.|
 A Earthen Blessing|QID|53842|PRE|53844|M|35.07,48.71|Z|48;Loch Modan|N|From Brann Bronzebeard.|
 F Ironforge|ACTIVE|53842|M|33.92,50.98|Z|Loch Modan|N|Head to the flightmaster and take a flight to Ironforge.|
 R Old Ironforge|ACTIVE|53842|M|43.80,50.49|Z|Ironforge!Eastern Kingdoms|N|Make your way to the The High Seat and go left Downstairs into old Ironforge.|
-C Earthen Blessing|QID|53842|M|36.25,53.92|Z|1361;City of Ironforge|QO|1|NC|N|Remnant of the Earthen Ritual.|
+C Earthen Blessing|QID|53842|M|36.25,53.92|Z|1361;City of Ironforge|QO|1|NC|N|Remnant of the Earthen Ritual (on the Floor).|
 T Earthen Blessing|QID|53842|M|48.68,45.71|Z|87;City of Ironforge|N|Upstairs to Bouldercrag the Rockshaper.|
 A Forging the Armor|QID|53845|PRE|53842|M|48.68,45.71|Z|87;City of Ironforge|N|From Grumnus Steelshaper.|
 C Forging the Armor|QID|53845|M|49.06,45.06|Z|87;City of Ironforge|QO|1|NC|N|Help Bouldercrag's Ritual.|
@@ -51,6 +51,7 @@ C Forging the Armor|QID|53845|M|50.02,43.89|Z|87;City of Ironforge|QO|5|NC|N|Her
 T Forging the Armor|QID|53845|M|46.33,49.52|Z|87;City of Ironforge|N|To Grumnus Steelshaper.|
 A Legacy of the Bronzebeard|QID|53846|PRE|53845|M|46.03,49.77|Z|87;City of Ironforge|N|From Brann Bronzebeard.|
 T Legacy of the Bronzebeard|QID|53846|M|39.32,56.00|Z|87;City of Ironforge|N|To Muradin Bronzebeard.|
+N Congratulations|N|This ends this guide|
 ]]
 
 end)
