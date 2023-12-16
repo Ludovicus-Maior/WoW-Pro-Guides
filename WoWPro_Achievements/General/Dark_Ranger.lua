@@ -69,7 +69,9 @@ T Report to Greymane|QID|65669|M|41.38,62.96|Z|1670;Oribos|N|To Genn Greymane.|F
 A A Walk with Ghosts|QID|65788|M|61.85,67.87|Z|2070;Tirisfal Glades|N|From Unknown.|FACTION|Horde|
 C A Walk with Ghosts|QID|65788|M|61.84,71.48|Z|2070;Tirisfal Glades|QO|1|NC|N|Enter the Throne Room of Lordaeron.|FACTION|Horde|
 T A Walk with Ghosts|QID|65788|M|61.85,72.72|Z|2070;Tirisfal Glades|N|To Calia Menethil.|FACTION|Horde|
-N Congratulations|N|This ends this guide.\nIf you followed this on a Hunter, you are now able to purchase the "Dark Ranger Customization" in your Legeion Order Hall from Outfitter Reynolds.|
+N Congratulations|N|This ends this guide.\nSwitch to a Hunter and purchase the "Dark Ranger Customization" in your Legion Order Hall from Outfitter Reynolds.|C|-HUNTER|
+N Congratulations|N|This ends this guide.\nAs you followed the Questline on a Hunter, you are now able to purchase the "Dark Ranger Customization" in your Legeion Order Hall from Outfitter Reynolds.\nIf you need to unlock it, right click this step.|C|HUNTER|
+N Hunter Order Hall unlock|JUMP|EmmLegionHunter|C|HUNTER|
 ]]
 
 end)
