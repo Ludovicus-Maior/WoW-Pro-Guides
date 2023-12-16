@@ -5,9 +5,9 @@ WoWPro:GuideQuestTriggers(guide, 76530)
 WoWPro.Achievements:GuideMisc(guide, "Undead Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Undead Heritage Armor|N|You NEED to have finished the "Dark Ranger" Questline to receive the Heritage Armor Quest.|
+N Finish Dark Ranger Questline First!|PRE|-65788|JUMP|Dark_Ranger_Customization|
 N Undead Heritage Armor|PRE|65788|N|You should get the Quest "Unliving Summons" on Login. If not, you'll get it form Lilian Voss at the Turnin Point. Just follow the guide.|
-P Ruins of Lordaeron|ACTIVE|76530|M|51.14,55.69|Z|Orgrimmar|PRE|65788|N|Take the portal to the Ruins of Lordaeron.|
+P Ruins of Lordaeron|M|51.14,55.69|Z|Orgrimmar|PRE|65788|N|Take the portal to the Ruins of Lordaeron.|
 A Unliving Summons|QID|76530|M|63.82,68.13|Z|2070;Tirisfal Glades|N|From Lilian Voss.|
 T Unliving Summons|QID|76530|M|63.81,68.11|Z|2070|N|To Lilian Voss.|
 A Our Enemies Abound|QID|72854|PRE|76530|M|63.81,68.11|Z|2070|N|From Lilian Voss.|
@@ -41,8 +41,13 @@ C The Scarlet Spy|QID|72861|M|59.95,34.67|Z|21|QO|3|CHAT|U|204799|N|Speak to the
 T The Scarlet Spy|QID|72861|M|64.01,33.58|Z|21|N|To Quartermaster Newlem.|
 A Among Us|QID|72862|PRE|72861|M|64.01,33.58|Z|21|N|From Quartermaster Newlem.|
 C Among Us|QID|72862|M|78.59,24.37|Z|21|QO|2|U|204799|N|Scarlet Archmage slain.|S|
-C Among Us|QID|72862|M|76.32,20.05|Z|21|QO|1|NC|U|204799|N|Plant Explosive Plague.|
+R Plant Explosive Plague|ACTIVE|28489|M|68.77,35.27|Z|Silverpine Forest|N|Plant Explosive Plague.|CS|
+R Plant Explosive Plague|ACTIVE|28489|M|75.78,31.85|Z|Silverpine Forest|N|Plant Explosive Plague.|CS|
+R Plant Explosive Plague|ACTIVE|28489|M|76.33,20.09|Z|Silverpine Forest|N|Plant Explosive Plague.|CS|
+C Among Us|QID|72862|M|78.59,24.37|Z|21|QO|2|U|204799|N|Scarlet Archmage slain.|S|
+C Among Us|QID|72862|M|76.32,20.05|Z|21|QO|1|NC|U|204799|N|Plant Explosive Plague.|S|
 C Among Us|QID|72862|M|78.59,24.37|Z|21|QO|2|U|204799|N|Scarlet Archmage slain.|US|
+C Among Us|QID|72862|M|76.32,20.05|Z|21|QO|1|NC|U|204799|N|Plant Explosive Plague.|US|
 T Among Us|QID|72862|M|70.45,18.33|Z|21|N|To Dark Ranger Velonara.|
 A The Flight of the Banshee|QID|72863|PRE|72862|M|70.45,18.33|Z|21|N|From Dark Ranger Velonara.|
 C The Flight of the Banshee|QID|72863|M|70.45,18.33|Z|21|QO|1|CHAT|N|Speak to Velonara.|
