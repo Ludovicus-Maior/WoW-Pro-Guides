@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Dark_Ranger_Customization', 'Achievements', 'Stormwind City', 'Capau', 'Neutral')
+local guide = WoWPro:RegisterGuide('Dark_Ranger_Customization', 'Achievements', ' ', 'Capau', 'Neutral')
 WoWPro:GuideName(guide,"Dark Ranger Customization")
 WoWPro:GuideLevels(guide,50, 70)
 WoWPro:GuideQuestTriggers(guide, 65655,65656)
@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, "Hunter Order Hall")
 WoWPro.Achievements:GuideMisc(guide, "Dark Ranger Customization", "Customization", "")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Dark Ranger Questline|N|It is recommended to do this Questline on a Hunter. Otherwise you will not be able to buy the Dark Ranger Customization.
+N Dark Ranger Customization|N|It is recommended to do this Questline on a Hunter. Otherwise you will not be able to buy the Dark Ranger Customization.
 A Eyes of the Wolf|QID|65655|M|41.39,63.44|Z|1670|N|From Genn Greymane.|FACTION|Alliance|
 A Call to Lordaeron|QID|65656|M|41.40,69.23|Z|1670;Oribos|N|From Calia Menethil.|FACTION|Horde|
 C Eyes of the Wolf|QID|65655|M|41.25,62.95|Z|1670|QO|1|CHAT|N|Speak to Gilnean Greymage for a teleport.|FACTION|Alliance|
@@ -69,7 +69,9 @@ T Report to Greymane|QID|65669|M|41.38,62.96|Z|1670;Oribos|N|To Genn Greymane.|F
 A A Walk with Ghosts|QID|65788|M|61.85,67.87|Z|2070;Tirisfal Glades|N|From Unknown.|FACTION|Horde|
 C A Walk with Ghosts|QID|65788|M|61.84,71.48|Z|2070;Tirisfal Glades|QO|1|NC|N|Enter the Throne Room of Lordaeron.|FACTION|Horde|
 T A Walk with Ghosts|QID|65788|M|61.85,72.72|Z|2070;Tirisfal Glades|N|To Calia Menethil.|FACTION|Horde|
-N Congratulations|N|This ends this guide.\nIf you followed this on a Hunter, you are now able to purchase the "Dark Ranger Customization" in your Legeion Order Hall from Outfitter Reynolds.|
+N Congratulations|N|This ends this guide.\nSwitch to a Hunter and purchase the "Dark Ranger Customization" in your Legion Order Hall from Outfitter Reynolds.|C|-HUNTER|
+N Congratulations|N|This ends this guide.\nAs you followed the Questline on a Hunter, you are now able to purchase the "Dark Ranger Customization" in your Legeion Order Hall from Outfitter Reynolds.\nIf you need to unlock it, right click this step.|C|HUNTER|
+N Hunter Order Hall unlock|JUMP|EmmLegionHunter|C|HUNTER|
 ]]
 
 end)
