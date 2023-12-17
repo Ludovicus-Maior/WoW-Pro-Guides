@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Human: Intro")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|-60|S!US|CT|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|-60|S!US|CT|
 A Beating Them Back!|QID|28762|M|33.55,53.00|Z|425;Northshire|N|From Marshal McBride.|R|Human|C|Paladin|
 A Beating Them Back!|QID|28766|M|33.55,53.00|Z|425;Northshire|N|From Marshal McBride.|R|Human|C|Warrior|
 A Beating Them Back!|QID|28767|M|33.55,53.00|Z|425;Northshire|N|From Marshal McBride.|R|Human|C|Hunter|
@@ -269,13 +269,13 @@ A A Swift Message|QID|26393|M|41.71,65.55|Z|37;Elwynn Forest|N|From Smith Argus.
 r Sell Junk, Restock, Train and Repair.|ACTIVE|26393|M|41.86,65.68|Z|37;Elwynn Forest|N|Take this opportunity to sell Junk, Restock, Train and Repair before you leave Goldshire.|S|
 T A Swift Message|QID|26393|M|41.72,64.64|Z|37;Elwynn Forest|N|To Bartlett the Brave.|R|Human|
 A Continue to Stormwind|QID|26394|PRE|26393|M|41.72,64.64|Z|37;Elwynn Forest|N|From Bartlett the Brave.|R|Human|
-F Stormwind|ACTIVE|26394|M|41.72,64.64|Z|37;Elwynn Forest|TZ|Stormwind City|N|Fly to Stormwind City.|
-T Continue to Stormwind|QID|26394|M|77.17,60.98|Z|Stormwind City|N|To Osric Strang.|
-A Dungar Longdrink|QID|26395|PRE|26394|M|77.17,60.98|Z|Stormwind City|N|From Osric Strang.|R|Human|
-T Elmore's Task|QID|1097|M|71.39,55.76;70.07,46.97;59.72,33.78|Z|Stormwind City|CC|N|To Grimand Elmore, in the Dwarven District.|
-T Dungar Longdrink|QID|26395|M|70.93,72.48|Z|Stormwind City|N|To Dungar Longdrink back at the Gryphon Roost.|
-A Return to Argus|QID|26396|PRE|26395|M|70.93,72.48|Z|Stormwind City|N|From Dungar Longdrink.|R|Human|
-F Goldshire|ACTIVE|26396|M|70.93,72.48|Z|Stormwind City|N|Fly back to Goldshire.|FLY|OLD|
+F Stormwind|ACTIVE|26394|M|41.72,64.64|Z|37;Elwynn Forest|TZ|84;Stormwind City|N|Fly to Stormwind City.|
+T Continue to Stormwind|QID|26394|M|77.17,60.98|Z|84;Stormwind City|N|To Osric Strang.|
+A Dungar Longdrink|QID|26395|PRE|26394|M|77.17,60.98|Z|84;Stormwind City|N|From Osric Strang.|R|Human|
+T Elmore's Task|QID|1097|M|71.39,55.76;70.07,46.97;59.72,33.78|Z|84;Stormwind City|CC|N|To Grimand Elmore, in the Dwarven District.|
+T Dungar Longdrink|QID|26395|M|70.93,72.48|Z|84;Stormwind City|N|To Dungar Longdrink back at the Gryphon Roost.|
+A Return to Argus|QID|26396|PRE|26395|M|70.93,72.48|Z|84;Stormwind City|N|From Dungar Longdrink.|R|Human|
+F Goldshire|ACTIVE|26396|M|70.93,72.48|Z|84;Stormwind City|N|Fly back to Goldshire.|FLY|OLD|
 T Return to Argus|QID|26396|M|41.71,65.55|Z|37;Elwynn Forest|N|To Smith Argus.|
 A Westbrook Garrison Needs Help!|QID|239|PRE|76|LEAD|11|M|42.10,65.93|Z|37;Elwynn Forest|N|From Marshal Dughan.|
 T Westbrook Garrison Needs Help!|QID|239|M|24.23,74.45|Z|37;Elwynn Forest|N|To Deputy Rainer.|
