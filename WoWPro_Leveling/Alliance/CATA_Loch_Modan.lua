@@ -5,7 +5,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 ;Elmore's Task is skipped if you've just done Dun Morogh quests (your not in the right place), or if you've already done Stormpike's Delivery quest (Elmore's task isn't available)
-A Elmore's Task|QID|1097|M|41.6,65.6|Z|Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|RANK|3|
+A Elmore's Task|QID|1097|M|41.6,65.6|Z|37;Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|RANK|3|
 T Elmore's Task|QID|1097|M|59.6,34.0|Z|Stormwind City|N|To Grimand Elmore in the Dwarven District of Stormwind City.|RANK|3|
 A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|Stormwind City|N|From Grimand Elmore.|RANK|3|
 F Ironforge|QID|26131|M|41.8,52.2|Z|Ironforge|N|Head to Ironforge either by the Stormwind Tram, or by flying from your nearest flight master.|RANK|3|
