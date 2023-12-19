@@ -174,7 +174,7 @@ R Darnassus|ACTIVE|922|M|50.21,53.87|CC|N|Run to Darnassus along the road.|
 N Skinning and Leatherworking|QID|922|M|42.09,49.97|N|If you're interested, stop by the Leatherworking and Skinning Trainers in the hut just past the bridge.\n[color=FF0000]NOTE: [/color]You'll need to buy a skinning knife in Darnassus before you can do any skinning.\n\nManually check this step off if you wish.|S|
 R Darnassus|ACTIVE|922|M|39.02,53.24;36.28,54.37|CC|N|Continue west along the road to Darnassus.|
 
-r Housekeeping|ACTIVE|922|N|While in Darnassus, take a minute to visit the bank to offload items, the Fishing trainer (who's just to the east of the bank), the Auction House, and any other profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
+r Housekeeping|ACTIVE|922|N|While in Darnassus, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
 B Skinning Knife|ACTIVE|922|M|63.69,22.27;60.97,17.67|CN|Z|Darnassus|L|7005|N|You'll need to buy this from Saenorion at the Leatherworking Shop or from Mythrin'dir at the General Trade Shop (both in the Craftsmen's Terrace).|P|Skinning;393;0+1|
 
 N Waylaid Supplies|AVAILABLE|78872|N|Blizzard has introduced a new Faction Rep, Azeroth Commerce Authority. Rep is earned by turning in [color=33fff9]Supply Shipment[/color] crates. These crates are filled with items based on a Waylaid Supply assignment you get as a random drop from mobs.\n[color=FF0000]NOTE: [/color]You can only have 1 assignment active at a time (Not sure if it applies to the Supply Shipment as well)\n\nManually check this step off to continue.|RUNE|
