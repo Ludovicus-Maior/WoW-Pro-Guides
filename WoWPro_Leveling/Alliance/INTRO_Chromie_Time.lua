@@ -33,6 +33,6 @@ N Not Eligible|AVAILABLE|62567|M|62.25,29.93|N|You cannot use chromie time once 
 ;A The Legion Returns|QID|40519|M|56.26,17.31|N|From Chromie after activating Legion timeline.|C|-DemonHunter|
 ;A Onward to Adventure: Broken Isles|QID|60971|M|56.26,17.31|N|From Chromie after activating Legion timeline.|C|DemonHunter|
 ;A Tides of War|QID|46727|M|62.82,71.75|N|From Hero's Herald. Battle for Azeroth|
-;A A Shadowlands: A Chilling Summons|QID|60545|M|76.55,42.72|Z|Stormwind City|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Alliance|
+;A A Shadowlands: A Chilling Summons|QID|60545|M|76.55,42.72|Z|84;Stormwind City|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Alliance|
 ]]
 end)

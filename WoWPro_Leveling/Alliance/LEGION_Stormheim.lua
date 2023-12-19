@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Stormheim")
 WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 N Starting in Dalaran|QID|39735|U|140192|N|This guide assumes you are starting in Dalaran. |
 N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1. If you are using handy notes treasures, there treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.|
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
@@ -16,13 +16,13 @@ T Stormheim|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|To Sky Admiral R
 A A Royal Summons|QID|38035|PRE|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|From Sky Admiral Rogers.|
 C A Royal Summons|QID|38035|M|28.86,46.63|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Read the summons from Anduin Wrynn.|U|128687|
 R Stormwind City|ACTIVE|38035|M|26.54,45.23|Z|Dalaran!Dalaran!Dungeon|QO|2|N|Click on the portal to get to the Skyfire.|
-T A Royal Summons|QID|38035|M|18.93,42.75|Z|Stormwind City|N|To Sky Admiral Rogers.|
-A Making the Rounds|QID|38206|PRE|38035|M|18.93,42.75|Z|Stormwind City|N|From Sky Admiral Rogers.|
-C Making the Rounds|QID|38206|M|18.56,46.36|Z|Stormwind City|QO|1|NC|N|Inspect Deck Guns.|
-C Making the Rounds|QID|38206|M|18.59,47.58|Z|Stormwind City|QO|2|NC|N|Use your extra action button to salute the 7th Legion Dragoons.|
-C Making the Rounds|QID|38206|M|18.62,50.90|Z|Stormwind City|QO|3|N|Click on Genn Greymane.|
-T Making the Rounds|QID|38206|M|18.67,51.12|Z|Stormwind City|N|To Genn Greymane.|
-A Greymane's Gambit|QID|39800|PRE|38206|M|18.67,51.12|Z|Stormwind City|N|From Genn Greymane.|
+T A Royal Summons|QID|38035|M|18.93,42.75|Z|84;Stormwind City|N|To Sky Admiral Rogers.|
+A Making the Rounds|QID|38206|PRE|38035|M|18.93,42.75|Z|84;Stormwind City|N|From Sky Admiral Rogers.|
+C Making the Rounds|QID|38206|M|18.56,46.36|Z|84;Stormwind City|QO|1|NC|N|Inspect Deck Guns.|
+C Making the Rounds|QID|38206|M|18.59,47.58|Z|84;Stormwind City|QO|2|NC|N|Use your extra action button to salute the 7th Legion Dragoons.|
+C Making the Rounds|QID|38206|M|18.62,50.90|Z|84;Stormwind City|QO|3|N|Click on Genn Greymane.|
+T Making the Rounds|QID|38206|M|18.67,51.12|Z|84;Stormwind City|N|To Genn Greymane.|
+A Greymane's Gambit|QID|39800|PRE|38206|M|18.67,51.12|Z|84;Stormwind City|N|From Genn Greymane.|
 ; Greymane's Gambit Scenario
 C Man the Deck Guns|QID|39800|M|31.94,8.43|Z|AraukNashalIntroScenario|SO|1;1|N|Click on a Deck gun and get going!|
 C Fire at Will!|QID|39800|M|53.65,21.84|Z|AraukNashalIntroScenario|SO|2;1|N|Use the Deck Guns to shoot down Forsaken Dreadwings.|
