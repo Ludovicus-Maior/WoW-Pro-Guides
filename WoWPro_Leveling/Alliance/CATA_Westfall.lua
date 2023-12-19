@@ -44,7 +44,7 @@ A Times are Tough|QID|26237|M|56.03,31.33|Z|52;Westfall|N|From Farmer Saldean.|P
 A Westfall Stew|QID|26241|M|56.35,30.55|Z|52;Westfall|N|From Salma Saldean.|PRE|26236|
 C Westfall Stew|QID|26241|M|56.50,28.46|Z|52;Westfall|N|Kill Goretusks, Fleshrippers, and collect Okra from the grounds of the farm.|S|
 C Times are Tough|QID|26237|M|55.18,36.90|Z|52;Westfall|N|Kill Harvest Watchers.|S|
-K Harvest Watcher|QID|26252|Z|52;Westfall|N|Kill and loot the Harvest Watchers until they drop the Harvest Watcher Heart.|L|57935|RANK|2|
+K Harvest Watcher|QID|26252|M|55.20,31.65|Z|52;Westfall|N|Kill and loot the Harvest Watchers until they drop the Harvest Watcher Heart.|L|57935|RANK|2|
 A Heart of the Watcher|QID|26252|M|55.23,34.87|Z|52;Westfall|N|Accept the quest from the Harvest Watcher Heart.|U|57935|PRE|26236|RANK|2|
 T Heart of the Watcher|QID|26252|M|56.15,31.40|Z|52;Westfall|N|To Farmer Saldean.|
 A It's Alive!|QID|26257|M|56.15,31.40|Z|52;Westfall|N|From Farmer Saldean.|PRE|26252|RANK|2|
@@ -58,7 +58,7 @@ T It's Alive!|QID|26257|M|55.96,31.34|Z|52;Westfall|N|To Farmer Saldean.|
 A You Have Our Thanks|QID|26270|M|56.02,31.28|Z|52;Westfall|N|From Farmer Saldean.|PRE|26237&26241|
 T You Have Our Thanks|QID|26270|M|56.37,30.60|Z|52;Westfall|N|To Salma Saldean.|
 A Hope for the People|QID|26266|M|56.37,30.60|Z|52;Westfall|N|From Salma Saldean.|PRE|26270|
-A CLUCK!|QID|3861|ACTIVE|28266|M|56.02,31.28|Z|52;Westfall|N|To get this quest, buy one unit of Special Chicken Feed from Farmer Saldean, find a chicken, and repeatedly type /chicken at it until eventually it turns friendly, and offers the quest.\n[color=FF0000]NOTE: [/color]It must be a 'critter' and not a 'battle pet' chicken'|RANK|3|
+A CLUCK!|QID|3861|M|56.02,31.28|Z|52;Westfall|N|To get this quest, buy one unit of Special Chicken Feed from Farmer Saldean, find a chicken, and repeatedly type /chicken at it until eventually it turns friendly, and offers the quest.\n[color=FF0000]NOTE: [/color]It must be a 'critter' and not a 'battle pet' chicken'|RANK|3|
 T CLUCK!|QID|3861|M|56.02,31.28|Z|52;Westfall|N|To Chicken - enjoy your new pet!|
 r Repair and Sell Junk|ACTIVE|26266|M|57.70,53.71|Z|52;Westfall|N|Take this opportunity to repair and sell your junk with Quartermaster Lewis, who is next to Hope Saldean.|S!US|
 T Hope for the People|QID|26266|M|56.97,47.10|Z|52;Westfall|N|To Hope Saldean at Sentinel Hill.|

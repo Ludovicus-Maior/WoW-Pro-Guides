@@ -443,9 +443,9 @@ C An End to the Killing|QID|52790|M|34.84,76.41|Z|Zuldazar|QO|3|N|Tell Halford t
 P Wind's Redemption|ACTIVE|52790|M|40.47,71.05|Z|Zuldazar|N|Tell Daria you are ready to return to Boralus.|C|-Mage|
 P Stormwind City|ACTIVE|52790|M|PLAYER|Z|Zuldazar|N|Teleport to Stormwind.|C|Mage|
 P Stormwind City|ACTIVE|52790|M|70.12,16.81|Z|Boralus|N|Take the portal to Stormwind.|C|-Mage|
-T An End to the Killing|QID|52790|M|85.89,31.64|Z|Stormwind City|N|Take your best route to Stormwind and turn in this quest to Anduin Wrynn and complete the War Campaign.|
-A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions. Not there? Head out of the area (eg. to the Dwarven District) then head back in.|PRE|52790|
-T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
+T An End to the Killing|QID|52790|M|85.89,31.64|Z|84;Stormwind City|N|Take your best route to Stormwind and turn in this quest to Anduin Wrynn and complete the War Campaign.|
+A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|84;Stormwind City|N|Speak to Shandris to add her to your champions. Not there? Head out of the area (eg. to the Dwarven District) then head back in.|PRE|52790|
+T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|84;Stormwind City|N|Speak to Shandris to add her to your champions.|
 
 A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|PRE|52790|
 t Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|To Vindicator Jaelaana.|
@@ -703,7 +703,7 @@ T Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|To Anduin.|
 ; Feathers Before the Storm , after he who walks in the light
 A Whatever Happened to Saffy Flivvers?|QID|53815|M|67.93,26.28|Z|Boralus|N|From Kelsey Steelspark, belowdeck Wind's Redemption.|PRE|55090|
 P Stormwind City|ACTIVE|53815|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
-P Caverns of Time|ACTIVE|53815|M|43.75,85.48|Z|Stormwind City|N|Take Portal To Caverns of Time.|
+P Caverns of Time|ACTIVE|53815|M|43.75,85.48|Z|84;Stormwind City|N|Take Portal To Caverns of Time.|
 T Whatever Happened to Saffy Flivvers?|QID|53815|M|62.18,45.33|Z|Tanaris|N|To Feathers, OUTSIDE the Caverns.|
 A Some Reassembly Required|QID|53816|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53815|
 C Mechanical Parts|QID|53816|QO|1|M|61.48,46.12;63.10,44.25|CN|Z|Tanaris|N|Kill Venture Co. personnel for their "parts".|
@@ -822,11 +822,11 @@ T Outpost Upgrade: Castaway Point|QID|54288|M|86.31,81.29|Z|Tiragarde Sound|N|To
 
 ; Darkshore pre-warfront questline.
 A On Whispered Winds|QID|53847|M|70.73,26.81|Z|Boralus|N|From Dori'thur.|LVL|50|
-T On Whispered Winds|QID|53847|M|86.63,35.73|Z|Stormwind City|N|To Maiev Shadowsong.|
-A Waning Hope|QID|53849|M|86.63,35.73|Z|Stormwind City|N|From Maiev Shadowsong.|PRE|53847|
-C Waning Hope|QID|53849|M|86.54,36.49|Z|Stormwind City|CHAT|QO|1|N|Speak to Prophet Velen.|
-T Waning Hope|QID|53849|M|86.63,35.74|Z|Stormwind City|N|To Maiev Shadowsong.|
-A Shores of Fate|QID|53988|M|86.63,35.74|Z|Stormwind City|N|From Maiev Shadowsong.|PRE|53849|
+T On Whispered Winds|QID|53847|M|86.63,35.73|Z|84;Stormwind City|N|To Maiev Shadowsong.|
+A Waning Hope|QID|53849|M|86.63,35.73|Z|84;Stormwind City|N|From Maiev Shadowsong.|PRE|53847|
+C Waning Hope|QID|53849|M|86.54,36.49|Z|84;Stormwind City|CHAT|QO|1|N|Speak to Prophet Velen.|
+T Waning Hope|QID|53849|M|86.63,35.74|Z|84;Stormwind City|N|To Maiev Shadowsong.|
+A Shores of Fate|QID|53988|M|86.63,35.74|Z|84;Stormwind City|N|From Maiev Shadowsong.|PRE|53849|
 C Shores of Fate|QID|53988|M|12.53,17.76|Z|Ashenvale|QO|1|NC|N|Travel to Zoram Strand.|
 T Shores of Fate|QID|53988|M|11.50,17.72|Z|Ashenvale|N|To Maiev Shadowsong.|
 A Hope|QID|53989|M|11.55,17.68|Z|Ashenvale|N|From Shandris Feathermoon.|PRE|53988|
@@ -1072,7 +1072,7 @@ T Return to the Heart|QID|56261|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|T
 A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56162| ; removed 55522, changed to 56162 - unconfirmed PRE, but 55522 is not needed.
 P Boralus|ACTIVE|55519|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|N|Take Portal to Boralus.|
 P Stormwind City|ACTIVE|55519|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
-P Mount Hyjal|ACTIVE|55519|M|76.17,18.71|Z|Stormwind City|N|Take the Earthern Ring portal to Mount Hyjal.|
+P Mount Hyjal|ACTIVE|55519|M|76.17,18.71|Z|84;Stormwind City|N|Take the Earthern Ring portal to Mount Hyjal.|
 T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
 A Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55519|
 K Healing Nordrassil|QID|55520|M|60.71,25.84|Z|Mount Hyjal|QO|2|T|Azerite Leviathan|N|Kill the Azerite Leviathan|
@@ -1090,7 +1090,7 @@ A Investigating the Highlands|QID|56167|M|52.54,69.95|Z|Chamber of Heart!Dungeon
 P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|TZ|Magni's Encampment|N|Travel by method of choice to Twilight Highlands.|
 P Boralus|ACTIVE|56167|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|N|Take Portal to Boralus.|
 P Stormwind City|ACTIVE|56167|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
-P Twilight Highlands|ACTIVE|56167|M|75.33,16.49|Z|Stormwind City|N|Take the Earthern Ring portal to Twilight Highlands.|
+P Twilight Highlands|ACTIVE|56167|M|75.33,16.49|Z|84;Stormwind City|N|Take the Earthern Ring portal to Twilight Highlands.|
 T Investigating the Highlands|QID|56167|M|35.95,50.49|Z|Twilight Highlands|N|To Kalecgos.|
 A In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|N|From Kalecgos.|PRE|56167|
 C In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|QO|1|NC|CHAT|N|Speak with Kalecgos to start the Scenario.|
@@ -1128,7 +1128,7 @@ A A Bolt from the Blue|QID|56401|M|52.60,69.99|Z|Chamber of Heart!Dungeon1473|N|
 P Silithus: The Wound|QID|56401|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
 P Boralus|ACTIVE|56401|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|
 P Stormwind City|ACTIVE|56401|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|
-P Dalaran|ACTIVE|56401|M|44.42,88.66|Z|Stormwind City|N|Travel to Nexus via means of your choosing, most likely via the Stormwind City portal to Crystalsong Forest, Alternatively boat to Borean Tundra.|
+P Dalaran|ACTIVE|56401|M|44.42,88.66|Z|84;Stormwind City|N|Travel to Nexus via means of your choosing, most likely via the Stormwind City portal to Crystalsong Forest, Alternatively boat to Borean Tundra.|
 F Transitus Shield|ACTIVE|56401|M|72.22,45.75|Z|Dalaran City@Dalaran!Crystalsong Forest|N|To Aludane Whitecould, to fly to Transitus Shield, Coldarra.|
 C A Bolt from the Blue|QID|56401|QO|1;2|M|27.97,26.27|Z|Borean Tundra|NC|N|Fly up to the top level of the Nexus (NOT in the Instance) and stand next to Kalecgos and use the Extra Action Button to charge the scale.|EAB|
 C A Bolt from the Blue|QID|56401|QO|3|M|27.53,26.72|Z|Borean Tundra|NC|N|Fly out to the bubble a little ways in front of you (center of the ring) and take the scale.|
