@@ -63,6 +63,7 @@ C Go with Honor, Friend|QID|72452|M|71.07,86.08|Z|84;Stormwind City|QO|1|NC|N|Sh
 C Go with Honor, Friend|QID|72452|M|69.36,83.10|Z|84;Stormwind City|QO|2|NC|N|General Hammond Clay approached.|
 C Go with Honor, Friend|QID|72452|M|69.38,83.04|Z|84;Stormwind City|QO|3|NC|N|Honor received.|
 T Go with Honor, Friend|QID|72452|M|69.35,82.99|Z|84;Stormwind City|N|To General Hammond Clay.|
+N Congratulations|N|This ends this guide|
 ]]
 
 end)
