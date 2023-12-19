@@ -40,10 +40,10 @@ WoWPro.Leveling.ClassicStartGuides = {
     Gnome = 'ClassicDunMorogh0112',
     Human = 'ClassicElwynn0112',
     NightElf = "ClassicTeldrassil0112",
-    Orc = 'Classic-01-12-Zerinj-Durotar',
-    Scourge = 'Classic-01-12-Manovan-TirisfalGlades',
-    Tauren = 'Classic-01-12-Shururu-Mulgore',
-    Troll = 'Classic-01-12-Zerinj-Durotar'
+    Orc = 'Classic-01-12-Hendo-Durotar',
+    Scourge = 'Classic-01-12-Hendo-TirisfalGlades',
+    Tauren = 'Classic-01-12-Hendo-Mulgore',
+    Troll = 'Classic-01-12-Hendo-Durotar'
 }
 WoWPro.Leveling.ClassicBCStartGuides = {
     BloodElf = "BC-BloodElf",
