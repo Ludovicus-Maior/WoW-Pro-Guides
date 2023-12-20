@@ -3,7 +3,7 @@ WoWPro:GuideSort(guide, 18)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves off. If you did not do Southern Barrens, you can take the Hero's Call quest from Darnassus, Exodar or Stormwind instead.  Either make your way to Fort Triumph and run to Theramore or sail from Wetlands.  (Manually close this step by right clicking the check box)|
 R Dustwallow Marsh|QID|27251|M|56.61,78.35|Z|Southern Barrens|N|Head into Dustwallow Marsh.|
 R Theramore Isle |QID|27251|M|68.19,46.82|N|Follow the path all the way east to Theramore. It's populated by Alliance vehicles and banners.|
@@ -113,9 +113,9 @@ C Survey Alcaz Island|QID|27239|NC|M|67.37,51.07|N|Tell Cassa Crimsonwing you ar
 T Survey Alcaz Island|QID|27239|M|66.26,49.04|N|To Lady Jaina Proudmoore.|
 A Proof of Treachery|QID|27240|PRE|27239|M|66.27,49.05|N|From Lady Jaina Proudmoore. Wait a few seconds and this quest will appear.|
 R Stormwind City|QID|27240|M|66.26,49.05|N|Talk to Jaina to be ported to Stormwind.|
-T Proof of Treachery|QID|27240|M|85.78,31.72|Z|Stormwind City|N|To King Anduin Wyrnn.|
-A Return to Jaina|QID|27241|PRE|27240|M|85.78,31.72|Z|Stormwind City|N|To King Anduin Wyrnn.|
-R Theramore Isle|QID|27241|M|50.51,87.47|Z|Stormwind City|N|Head to the Mage Quarter and talk to Archmage Malin to get back to Theramore Isle.|
+T Proof of Treachery|QID|27240|M|85.78,31.72|Z|84;Stormwind City|N|To King Anduin Wyrnn.|
+A Return to Jaina|QID|27241|PRE|27240|M|85.78,31.72|Z|84;Stormwind City|N|To King Anduin Wyrnn.|
+R Theramore Isle|QID|27241|M|50.51,87.47|Z|84;Stormwind City|N|Head to the Mage Quarter and talk to Archmage Malin to get back to Theramore Isle.|
 T Return to Jaina|QID|27241|M|66.26,49.05|N|To Jaina Proudmore.|
 C ... and Bugs|QID|1258|M|68.78,46.53|N|Work your way around the banks of the town. The crabs drop their legs 100%.|
 T ... and Bugs|QID|1258|M|68.26,48.70|N|To Morgan Stern.|

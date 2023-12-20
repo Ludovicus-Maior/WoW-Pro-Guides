@@ -6,7 +6,7 @@ WoWPro.Achievements:GuideMisc(guide, "Blood Elf Heritage Armor", "Heritage Armor
 WoWPro:GuideSteps(guide, function()
 return [[
 A The Pride of the Sin'dorei|QID|53791|M|39.32,78.97|Z|85|N|From Ambassador Dawnsworn.|
-P Portal Room|ACTIVE|53791|M|56.34,88.76|N|Take the portal to Silvermoon City.|
+P Sunfury Spire|ACTIVE|53791|M|56.34,88.76|N|Take the portal to Silvermoon City.|
 T The Pride of the Sin'dorei|QID|53791|M|54.02,20.45|Z|110|N|To Lor'themar Theron.|
 A Walk Among Ghosts|QID|53734|PRE|53791|M|54.02,20.45|Z|110|N|From Lor'themar Theron.|
 F Tranquillien|ACTIVE|53734|M|54.65,51.01|Z|Eversong Woods|N|Head to the flightmaster and take a flight to Tranquillien.|
@@ -36,14 +36,15 @@ A A People Shattered|QID|53725|PRE|53738|M|48.41,35.87|Z|122|N|From Lady Liadrin
 C A People Shattered|QID|53725|M|48.57,37.05|Z|122|QO|1|NC|N|Light the Final Flame.|
 T A People Shattered|QID|53725|M|48.60,36.86|Z|122|N|To Lady Liadrin.|
 A The Setting Sun|QID|53853|PRE|53725|M|48.47,36.18|Z|122|N|From Lady Liadrin.|
-R The Dead Scar|ACTIVE|53853|M|47.22,51.25|Z|Isle of Quel'Danas|N|Make your way to the The Dead Scar.|
+R The Dead Scar|ACTIVE|53853|M|47.22,51.25|Z|Isle of Quel'Danas|N|Make your way South.|CC|
 C The Setting Sun|QID|53853|M|53.46,87.14|Z|122|QO|1|NC|N|Light shed on Anasterian's Fall.|
 C The Setting Sun|QID|53853|M|53.47,85.63|Z|122|QO|2|N|Blightgut slain.|
+R Isle of Quel'Danas|M|46.67,56.78|Z|Isle of Quel'Danas|N|Make your way back North.|CC|
 T The Setting Sun|QID|53853|M|48.37,36.14|Z|122|N|To Lady Liadrin.|
 A The Fall of the Sunwell|QID|54096|PRE|53853|M|48.37,36.14|Z|122|N|From Lady Liadrin.|
-P The Fall of the Sunwell|ACTIVE|54096|M|44.26,45.45|Z|Isle of Quel'Danas|N|Take the portal to The Sunwell Plateau.|
-C By Blood Remembered|Z|The Sunwell|SO|1|S|N|Shine the lantern and start the memories of the fallen.|
-C By Blood Remembered|Z|The Sunwell|SO|1|US|N|Shine the lantern and start the memories of the fallen.|
+P The Shepherd's Gate|ACTIVE|53435|M|44.25,45.46|Z|Isle of Quel'Danas|N|Take the portal into The Sunwell Plateau.|
+C By Blood Remembered|Z|The Sunwell|SO|1|S|N|Shine the lantern and start the memories of the fallen.\nIn the middle of the golden Cyrcle, hard to see.|
+C By Blood Remembered|Z|The Sunwell|SO|1|US|N|Shine the lantern and start the memories of the fallen.\nIn the middle of the golden Cyrcle, hard to see.|
 C Until Our Last Breath|Z|The Sunwell|SO|2|S|N|Hold the line against the Scourge|
 C Hold the line against the Scourge|M|47.61,21.96|Z|The Sunwell!Dungeon|SO|2;1|N|Hold the line against the Scourge|
 C Until Our Last Breath|Z|The Sunwell|SO|2|US|N|Hold the line against the Scourge|
@@ -57,15 +58,14 @@ C A Setback|Z|The Sunwell|SO|5|S|N|Shine the lantern on Kael'thas' decision.|
 C Shine the Lantern on Kael'thas' Decision|M|48.35,20.63|Z|The Sunwell!Dungeon|SO|5;1|N|Shine the Lantern on Kael'thas' Decision|
 C A Setback|Z|The Sunwell|SO|5|US|N|Shine the lantern on Kael'thas' decision.|
 C He Who Walks the Day|Z|The Sunwell|SO|6|S|N|Break through to the Sunwell.|
-C Escort Prince Kael'thas to the Sunwell|M|45.77,68.04|Z|The Sunwell!Dungeon|SO|6;1|N|Escort Prince Kael'thas to the Sunwell|
+C Escort Prince Kael'thas to the Sunwell|M|45.77,68.04|Z|The Sunwell!Dungeon|SO|6;1|N|Escort Prince Kael'thas to the Sunwell.\n Wait for him to show up berfore running down.|
 C He Who Walks the Day|Z|The Sunwell|SO|6|US|N|Break through to the Sunwell.|
 C A Prince's Decision|Z|The Sunwell|SO|7|S|N|Defend the Magisters during their ritual.|
 C Protect the Magisters|M|49.57,71.27|Z|The Sunwell!Dungeon|SO|7;1|N|Protect the Magisters|
-C A Prince's Decision|Z|The Sunwell|SO|7|US|N|nil|
-C Protect the Magisters|M|49.57,71.27|Z|The Sunwell!Dungeon|SO|7;1|N|Protect the Magisters|
 C The Fall of the Sunwell|QID|54096|M|49.57,71.27|Z|973|QO|1|NC|N|Complete the Fall of the Sunwell scenario.|
-P The Fall of the Sunwell|ACTIVE|54096|M|54.59,71.52|Z|The Sunwell!Dungeon|N|Take the portal to Silvermoon City.|
+P Court of the Sun|ACTIVE|54096|M|54.59,71.52|Z|The Sunwell!Dungeon|N|Take the portal to Silvermoon City.|
 T The Fall of the Sunwell|QID|54096|M|60.60,28.37|Z|110;Silvermoon City|N|To Lor'themar Theron.|
+N Congratulations|N|This ends this guide|
 ]]
 
 end)
