@@ -197,34 +197,34 @@ C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|QO|3|N|Speak with Captain Ga
 T Dungeon: Darkmaul Citadel|QID|55992|M|39.66,31.99|N|Turn in to Captain Garrick.|
 A An End to Beginnings|QID|55991|PRE|55992|M|39.66,31.99|N|From Captain Garrick.|
 C An End to Beginnings|QID|55991|M|40.38,32.65|N|Click on the highlighted gryphon to ride back to Stormwind.|V|
-T An End to Beginnings|QID|55991|M|73.69,91.31|Z|Stormwind City|N|Turn in to Captain Garrick.|
-A Welcome to Stormwind|QID|59583|PRE|55991|M|73.69,91.31|Z|Stormwind City|N|From Captain Garrick.|
-T Welcome to Stormwind|QID|59583|M|70.21,85.39|Z|Stormwind City|N|Turn into Lindie Springsstock.|
-A Finding Your Way|QID|58908|PRE|59583|M|70.21,85.39|Z|Stormwind City|N|From Lindie Springsstock.|
-C Finding Your Way|QID|58908|M|70.28,83.72|Z|Stormwind City|QO|1|N|Ask a guard for directions to the Stable Master in Old Town (next to bottom on the list).|CHAT|
-C Finding Your Way|QID|58908|M|69.86,83.95|Z|Stormwind City|QO|2|N|Speak with Lindie Springstock to get a free ride to the stables.|CHAT|
-C Finding Your Way|QID|58908|M|77.36,67.06|Z|Stormwind City|QO|3|N|Ride along with Lindie. Note: Do not exit the bike as it can cause the quest to bug.|NC|
-T Finding Your Way|QID|58908|M|77.28,66.95|Z|Stormwind City|N|Turn into Curly.|
+T An End to Beginnings|QID|55991|M|73.69,91.31|Z|84;Stormwind City|N|Turn in to Captain Garrick.|
+A Welcome to Stormwind|QID|59583|PRE|55991|M|73.69,91.31|Z|84;Stormwind City|N|From Captain Garrick.|
+T Welcome to Stormwind|QID|59583|M|70.21,85.39|Z|84;Stormwind City|N|Turn into Lindie Springsstock.|
+A Finding Your Way|QID|58908|PRE|59583|M|70.21,85.39|Z|84;Stormwind City|N|From Lindie Springsstock.|
+C Finding Your Way|QID|58908|M|70.28,83.72|Z|84;Stormwind City|QO|1|N|Ask a guard for directions to the Stable Master in Old Town (next to bottom on the list).|CHAT|
+C Finding Your Way|QID|58908|M|69.86,83.95|Z|84;Stormwind City|QO|2|N|Speak with Lindie Springstock to get a free ride to the stables.|CHAT|
+C Finding Your Way|QID|58908|M|77.36,67.06|Z|84;Stormwind City|QO|3|N|Ride along with Lindie. Note: Do not exit the bike as it can cause the quest to bug.|NC|
+T Finding Your Way|QID|58908|M|77.28,66.95|Z|84;Stormwind City|N|Turn into Curly.|
 A What's Your Specialty?|QID|58910|PRE|58909|M|77.28,67.09|N|From Lindie Springstock.|C|Druid|
-A What's Your Specialty?|QID|59586|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Hunter|
-A What's Your Specialty?|QID|59587|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Mage|
-A What's Your Specialty?|QID|59588|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Monk|
-A What's Your Specialty?|QID|59589|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Paladin|
-A What's Your Specialty?|QID|59590|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Priest|
-A What's Your Specialty?|QID|59591|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Rogue|
-A What's Your Specialty?|QID|59592|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Shaman|
-A What's Your Specialty?|QID|59593|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Warlock|
-A What's Your Specialty?|QID|59594|PRE|58909|M|77.28,67.09|Z|Stormwind City|N|From Lindie Springstock.|C|Warrior|
-C What's Your Specialty?|QID|58910|M|79.63,69.25;79.68,71.27;79.19,68.68|Z|Stormwind City|CS|QO|1|N|Talk to Mitholos Falconbriar he is upstairs in the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59586|M|79.15,71.25|Z|Stormwind City|QO|1|N|Talk to Dalgrun Steelpine on the main floor of the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59587|M|79.63,69.25;79.68,71.27;80.18,69.53|Z|Stormwind City|CS|QO|1|N|Talk to Frazzle Frostfingers he is upstairs in the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59588|M|79.63,69.25;79.68,71.27;80.35,70.05|Z|Stormwind City|CS|QO|1|N|Into the Training Hall and up the stairs to find and talk to Juisheng Halfclaw.|CHAT|
-C What's Your Specialty?|QID|59589|M|79.20,69.51|Z|Stormwind City|QO|1|N|Inside the Training Hall, and make a right and up a few steps to talk to Ezul'aan.|CHAT|
-C What's Your Specialty?|QID|59590|M|78.93,69.81|Z|Stormwind City|QO|1|N|Inside the Training Hall, and make a right and up a few steps to talk to Patrice Lancaster.|CHAT|
-C What's Your Specialty?|QID|59591|M|80.17,69.52;78.54,70.79|Z|Stormwind City|CS|QO|1|N|Enter the Training Hall and go down the stairs to talk to Veruca Darkstream.|CHAT|
-C What's Your Specialty?|QID|59592|M|78.71,70.88|Z|Stormwind City|QO|1|N|Talk to Mulric Boldrock on the main floor of the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59593|M|80.17,69.52;78.97,69.62|Z|Stormwind City|CS|QO|1|N|Talk to Laphandrus Voidheart he is downstairs in the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59594|M|80.00,70.70|Z|Stormwind City|QO|1|N|Talk to Kualiang Thunderfist on the main floor of the Training Hall.|CHAT|
+A What's Your Specialty?|QID|59586|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Hunter|
+A What's Your Specialty?|QID|59587|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Mage|
+A What's Your Specialty?|QID|59588|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Monk|
+A What's Your Specialty?|QID|59589|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Paladin|
+A What's Your Specialty?|QID|59590|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Priest|
+A What's Your Specialty?|QID|59591|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Rogue|
+A What's Your Specialty?|QID|59592|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Shaman|
+A What's Your Specialty?|QID|59593|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Warlock|
+A What's Your Specialty?|QID|59594|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Warrior|
+C What's Your Specialty?|QID|58910|M|79.63,69.25;79.68,71.27;79.19,68.68|Z|84;Stormwind City|CS|QO|1|N|Talk to Mitholos Falconbriar he is upstairs in the Training Hall.|CHAT|
+C What's Your Specialty?|QID|59586|M|79.15,71.25|Z|84;Stormwind City|QO|1|N|Talk to Dalgrun Steelpine on the main floor of the Training Hall.|CHAT|
+C What's Your Specialty?|QID|59587|M|79.63,69.25;79.68,71.27;80.18,69.53|Z|84;Stormwind City|CS|QO|1|N|Talk to Frazzle Frostfingers he is upstairs in the Training Hall.|CHAT|
+C What's Your Specialty?|QID|59588|M|79.63,69.25;79.68,71.27;80.35,70.05|Z|84;Stormwind City|CS|QO|1|N|Into the Training Hall and up the stairs to find and talk to Juisheng Halfclaw.|CHAT|
+C What's Your Specialty?|QID|59589|M|79.20,69.51|Z|84;Stormwind City|QO|1|N|Inside the Training Hall, and make a right and up a few steps to talk to Ezul'aan.|CHAT|
+C What's Your Specialty?|QID|59590|M|78.93,69.81|Z|84;Stormwind City|QO|1|N|Inside the Training Hall, and make a right and up a few steps to talk to Patrice Lancaster.|CHAT|
+C What's Your Specialty?|QID|59591|M|80.17,69.52;78.54,70.79|Z|84;Stormwind City|CS|QO|1|N|Enter the Training Hall and go down the stairs to talk to Veruca Darkstream.|CHAT|
+C What's Your Specialty?|QID|59592|M|78.71,70.88|Z|84;Stormwind City|QO|1|N|Talk to Mulric Boldrock on the main floor of the Training Hall.|CHAT|
+C What's Your Specialty?|QID|59593|M|80.17,69.52;78.97,69.62|Z|84;Stormwind City|CS|QO|1|N|Talk to Laphandrus Voidheart he is downstairs in the Training Hall.|CHAT|
+C What's Your Specialty?|QID|59594|M|80.00,70.70|Z|84;Stormwind City|QO|1|N|Talk to Kualiang Thunderfist on the main floor of the Training Hall.|CHAT|
 C What's Your Specialty?|QID|58910|QO|2|N|If you haven't done so yet, activate a specialization by pressing 'N' on the keyboard, click on a specialization and then click the 'Activate' button.|NC|
 C What's Your Specialty?|QID|59586|QO|2|N|If you haven't done so yet, activate a specialization by pressing 'N' on the keyboard, click on a specialization and then click the 'Activate' button.|NC|
 C What's Your Specialty?|QID|59587|QO|2|N|If you haven't done so yet, activate a specialization by pressing 'N' on the keyboard, click on a specialization and then click the 'Activate' button.|NC|
@@ -235,32 +235,32 @@ C What's Your Specialty?|QID|59591|QO|2|N|If you haven't done so yet, activate a
 C What's Your Specialty?|QID|59592|QO|2|N|If you haven't done so yet, activate a specialization by pressing 'N' on the keyboard, click on a specialization and then click the 'Activate' button.|NC|
 C What's Your Specialty?|QID|59593|QO|2|N|If you haven't done so yet, activate a specialization by pressing 'N' on the keyboard, click on a specialization and then click the 'Activate' button.|NC|
 C What's Your Specialty?|QID|59594|QO|2|N|If you haven't done so yet, activate a specialization by pressing 'N' on the keyboard, click on a specialization and then click the 'Activate' button.|NC|
-T What's Your Specialty?|QID|58910|M|79.19,68.68|Z|Stormwind City|N|Turn into Mitholos Falconbriar.|
-T What's Your Specialty?|QID|59586|M|79.15,71.25|Z|Stormwind City|N|Turn into Dalgrun Steelpine.|C|Hunter|
-T What's Your Specialty?|QID|59587|M|80.18,69.53|Z|Stormwind City|N|Turn into Frazzle Frostfingers.|C|Mage|
-T What's Your Specialty?|QID|59588|M|80.35,70.05|Z|Stormwind City|N|Turn into Juisheng Halfclaw.|C|Monk|
-T What's Your Specialty?|QID|59589|M|79.20,69.51|Z|Stormwind City|N|Turn into Ezul'aan.|C|Paladin|
-T What's Your Specialty?|QID|59590|M|78.93,69.81|Z|Stormwind City|N|Turn into Patrice Lancaster.|
-T What's Your Specialty?|QID|59591|M|78.54,70.79|Z|Stormwind City|N|Turn into Veruca Darkstream.|C|Rogue|
-T What's Your Specialty?|QID|59592|M|78.71,70.88|Z|Stormwind City|N|Turn into Mulric Boldrock.|C|Shaman|
-T What's Your Specialty?|QID|59593|M|78.97,69.62|Z|Stormwind City|N|Turn into Laphandrus Voidheart.|C|Warlock|
-T What's Your Specialty?|QID|59594|M|80.00,70.70|Z|Stormwind City|N|Turn into Kualiang Thunderfist.|C|Warrior|
-A Home Is Where the Hearth Is|QID|58911|M|PLAYER|Z|Stormwind City|N|From Lindie Springstock.|
-h Pig and Whistle Tavern|QID|58911|M|75.68,54.10|Z|Stormwind City|QO|1|N|At the Innkeeper, Maegan Tillman.|
-T Home Is Where the Hearth Is|QID|58911|M|75.68,54.10|Z|Stormwind City|N|Turn into Maegan Tillman.|
-A An Urgent Meeting|QID|58912|PRE|58911|M|75.24,54.33|Z|Stormwind City|N|From Henry Garrick.|
-C An Urgent Meeting|QID|58912|M|85.13,32.14|Z|Stormwind City|N|If you don't know the way, M opens your map and you can see the quest marker showing your destination.|
-T An Urgent Meeting|QID|58912|M|85.22,32.04|Z|Stormwind City|N|Turn into Captain Garrick.|
+T What's Your Specialty?|QID|58910|M|79.19,68.68|Z|84;Stormwind City|N|Turn into Mitholos Falconbriar.|
+T What's Your Specialty?|QID|59586|M|79.15,71.25|Z|84;Stormwind City|N|Turn into Dalgrun Steelpine.|C|Hunter|
+T What's Your Specialty?|QID|59587|M|80.18,69.53|Z|84;Stormwind City|N|Turn into Frazzle Frostfingers.|C|Mage|
+T What's Your Specialty?|QID|59588|M|80.35,70.05|Z|84;Stormwind City|N|Turn into Juisheng Halfclaw.|C|Monk|
+T What's Your Specialty?|QID|59589|M|79.20,69.51|Z|84;Stormwind City|N|Turn into Ezul'aan.|C|Paladin|
+T What's Your Specialty?|QID|59590|M|78.93,69.81|Z|84;Stormwind City|N|Turn into Patrice Lancaster.|
+T What's Your Specialty?|QID|59591|M|78.54,70.79|Z|84;Stormwind City|N|Turn into Veruca Darkstream.|C|Rogue|
+T What's Your Specialty?|QID|59592|M|78.71,70.88|Z|84;Stormwind City|N|Turn into Mulric Boldrock.|C|Shaman|
+T What's Your Specialty?|QID|59593|M|78.97,69.62|Z|84;Stormwind City|N|Turn into Laphandrus Voidheart.|C|Warlock|
+T What's Your Specialty?|QID|59594|M|80.00,70.70|Z|84;Stormwind City|N|Turn into Kualiang Thunderfist.|C|Warrior|
+A Home Is Where the Hearth Is|QID|58911|M|PLAYER|Z|84;Stormwind City|N|From Lindie Springstock.|
+h Pig and Whistle Tavern|QID|58911|M|75.68,54.10|Z|84;Stormwind City|QO|1|N|At the Innkeeper, Maegan Tillman.|
+T Home Is Where the Hearth Is|QID|58911|M|75.68,54.10|Z|84;Stormwind City|N|Turn into Maegan Tillman.|
+A An Urgent Meeting|QID|58912|PRE|58911|M|75.24,54.33|Z|84;Stormwind City|N|From Henry Garrick.|
+C An Urgent Meeting|QID|58912|M|85.13,32.14|Z|84;Stormwind City|N|If you don't know the way, M opens your map and you can see the quest marker showing your destination.|
+T An Urgent Meeting|QID|58912|M|85.22,32.04|Z|84;Stormwind City|N|Turn into Captain Garrick.|
 ;Possible cutoff
-A Battle for Azeroth: Tides of War|QID|58983|PRE|58912|M|85.22,32.04|Z|Stormwind City|N|From Captain Garrick|
-C Battle for Azeroth: Tides of War|QID|58983|M|85.27,32.30|Z|Stormwind City|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
-T Battle for Azeroth: Tides of War|QID|58983|M|85.91,31.56|Z|Stormwind City|N|Turn into Anduin Wrynn.|
-A The Nation of Kul Tiras|QID|59641^46728|PRE|58983|M|85.91,31.56|Z|Stormwind City|N|From Anduin Wrynn.|
-C The Nation of Kul Tiras|QID|59641|M|85.30,32.01|Z|Stormwind City|QO|1|N|Speak with Captain Garrick.|CHAT|
-C The Nation of Kul Tiras|QID|59641|M|77.68,39.26|Z|Stormwind City|QO|2|N|Run out of the keep and you will find Loretta Banks for a free ride to the Docks.|CHAT|
-C The Nation of Kul Tiras|QID|59641|M|22.78,24.87|Z|Stormwind City|QO|3|N|Speak with Jaina to set sail.|CHAT|
+A Battle for Azeroth: Tides of War|QID|58983|PRE|58912|M|85.22,32.04|Z|84;Stormwind City|N|From Captain Garrick|
+C Battle for Azeroth: Tides of War|QID|58983|M|85.27,32.30|Z|84;Stormwind City|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
+T Battle for Azeroth: Tides of War|QID|58983|M|85.91,31.56|Z|84;Stormwind City|N|Turn into Anduin Wrynn.|
+A The Nation of Kul Tiras|QID|59641^46728|PRE|58983|M|85.91,31.56|Z|84;Stormwind City|N|From Anduin Wrynn.|
+C The Nation of Kul Tiras|QID|59641|M|85.30,32.01|Z|84;Stormwind City|QO|1|N|Speak with Captain Garrick.|CHAT|
+C The Nation of Kul Tiras|QID|59641|M|77.68,39.26|Z|84;Stormwind City|QO|2|N|Run out of the keep and you will find Loretta Banks for a free ride to the Docks.|CHAT|
+C The Nation of Kul Tiras|QID|59641|M|22.78,24.87|Z|84;Stormwind City|QO|3|N|Speak with Jaina to set sail.|CHAT|
 T The Nation of Kul Tiras|QID|59641|Z|Boralus|M|65.59,50.72|N|Turn into Lady Jaina Proudmoore.|
-C The Nation of Kul Tiras|QID|46728|M|22.78,24.87|Z|Stormwind City|QO|1|N|Speak with Jaina to set sail.|CHAT|
+C The Nation of Kul Tiras|QID|46728|M|22.78,24.87|Z|84;Stormwind City|QO|1|N|Speak with Jaina to set sail.|CHAT|
 T The Nation of Kul Tiras|QID|46728|Z|Boralus|M|65.59,50.72|N|Turn into Lady Jaina Proudmoore.|
 ]]
 end)

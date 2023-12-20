@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Gnome_Heritage_Armor', 'Achievements', 'Iron
 WoWPro:GuideName(guide,"Gnome Heritage Armor")
 WoWPro:GuideLevels(guide,50, 70)
 WoWPro:GuideQuestTriggers(guide, 54402)
-WoWPro.Achievements:GuideMisc(guide, "Gnome_Heritage_Armor", "Heritage Armor", "Dragonflight")
+WoWPro.Achievements:GuideMisc(guide, "Gnome Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 A Shifting Gears|QID|54402|M|PLAYER|Z|469;New Tinkertown|N|To Captain Tread Sparknozzle.|
@@ -57,6 +57,7 @@ P The Storm Peaks|ACTIVE|54642|M|48.37,10.56|Z|1375;Halls of Stone!Dungeon1375|N
 R Dalaran City|ACTIVE|54642|M|66.66,42.61|Z|125;Dalaran City|N|Make your way to Dalaran City.|
 P Stormwind City|ACTIVE|54642|M|39.72,62.63|Z|125;Dalaran City|N|Make your way to Dalaran City.|
 T G.E.A.R. Up|QID|54642|M|41.91,31.71|Z|469;New Tinkertown|N|To Captain Tread Sparknozzle.|
+N Congratulations|N|This ends this guide|
 ]]
 
 end)

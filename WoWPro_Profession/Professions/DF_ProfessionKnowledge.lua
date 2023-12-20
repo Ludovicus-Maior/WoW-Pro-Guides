@@ -1,7 +1,9 @@
 local guide = WoWPro:RegisterGuide("Prof_Knowledge","Profession","All", "Emmaleah", "Neutral")
 WoWPro:GuideName(guide, "Profession Knowledge")
 WoWPro:GuideLevels(guide,60,70)
-WoWPro.Achievements:GuideMisc(guide, "Artisan's Consortium", "Reputation", "Dragonflight")
+if WoWPro.Achievements then
+    WoWPro.Achievements:GuideMisc(guide, "Artisan's Consortium", "Reputation", "Dragonflight")
+end
 WoWPro:GuideSteps(guide, function()
 return [[
 
