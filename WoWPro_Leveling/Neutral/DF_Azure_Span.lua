@@ -34,9 +34,9 @@ return [[
 ;PLACED (in OP) F Forkriver Crossing|N|Just above the road.|M|70.15,86.78|Z|2024;The Azure Plains!Dragonflight|ACH|16672|
 
 ;adventure mode
-F Forkriver Crossing|ACTIVE|72268|M|71.66,80.59|Z|2023|N|Fly to Forkriver either on your own or at a flight master.|
-T Azure Span|QID|72268|M|71.66,80.59|Z|2023|N|To Masud the Wise.|
-A To the Azure Span|QID|65686|PRE|72268|M|71.66,80.59|Z|2023|N|From Masud the Wise.|
+F Forkriver Crossing|ACTIVE|72268|M|71.66,80.59|Z|2023;Ohn'ahran Plains|N|Fly to Forkriver either on your own or at a flight master.|
+T Azure Span|QID|72268|M|71.66,80.59|Z|2023;Ohn'ahran Plains|N|To Masud the Wise.|
+A To the Azure Span|QID|65686|PRE|72268|M|71.66,80.59|Z|2023;Ohn'ahran Plains|N|From Masud the Wise.|
 T To the Azure Span|QID|65686|M|41.44,35.60|Z|2024|NC|N|To Glania of the Blessed Ones.|
 
 A Camp Antonidas|QID|66228|PRE|65686|M|41.44,35.60|Z|2024|N|From Glania of the Blessed Ones.|C|-EVOKER|

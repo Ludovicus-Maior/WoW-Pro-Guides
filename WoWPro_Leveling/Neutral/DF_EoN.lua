@@ -18,18 +18,18 @@ C A Crack in the World|QID|72976|M|59.11,37.15|Z|2112|CHAT|N|Speak with Alexstra
 T A Crack in the World|QID|72976|M|58.88,38.48|Z|2112|N|To Ebyssian.|
 A Where the Flames Fell|QID|72977|PRE|72976|M|58.88,38.48|Z|2112|N|From Ebyssian.|
 F Timberstep Outpost|ACTIVE|72977|M|44.00,68.04|Z|2112;Valdrakken|N|Head to the flightmaster and take a flight to Timberstep Outpost (or fly there on your own).|
-T Where the Flames Fell|QID|72977|M|87.18,27.27|Z|2023|N|To Wrathion.|
-A Scar of Earth and Fire|QID|72978|PRE|72977|M|87.18,27.27|Z|2023|N|From Wrathion.|
-C Scar of Earth and Fire|QID|72978|M|86.99,27.28|Z|2023|QO|1|CHAT|N|Ask Khasar what happened.|
-C Scar of Earth and Fire|QID|72978|M|87.04,27.29|Z|2023|QO|2|I|N|Inspect pile of ashes.|
-C Scar of Earth and Fire|QID|72978|M|87.09,27.44|Z|2023|QO|3|I|N|Inspect broken spear.|
-C Scar of Earth and Fire|QID|72978|M|87.37,27.54|Z|2023|QO|4|CHAT|N|Ask Sabellian if he has learned anything.|
-T Scar of Earth and Fire|QID|72978|M|87.18,27.27|Z|2023|N|To Wrathion.|
-A Rest Well, Warrior|QID|75985|PRE|72978|M|86.99,27.28|Z|2023|N|From Khasar|RANK|2|
-C Rest Well, Warrior|QID|75985|M|87.05,27.23|Z|2023|H|N|Click on the shovel, wait while it channels.|
-T Rest Well, Warrior|QID|75985|M|86.99,27.27|Z|2023|N|To Khasar|
-A The Patience of Princes|QID|72981|PRE|72978|M|87.37,27.53|Z|2023|N|From Sabellian.|
-C The Patience of Princes|QID|72981|M|87.64,29.24;84.64,29.79|CS|Z|2023|QO|1|NC|N|Follow the black dragons. They fly much too slow, you don't have to actually "follow".|
+T Where the Flames Fell|QID|72977|M|87.18,27.27|Z|2023;Ohn'ahran Plains|N|To Wrathion.|
+A Scar of Earth and Fire|QID|72978|PRE|72977|M|87.18,27.27|Z|2023;Ohn'ahran Plains|N|From Wrathion.|
+C Scar of Earth and Fire|QID|72978|M|86.99,27.28|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Ask Khasar what happened.|
+C Scar of Earth and Fire|QID|72978|M|87.04,27.29|Z|2023;Ohn'ahran Plains|QO|2|I|N|Inspect pile of ashes.|
+C Scar of Earth and Fire|QID|72978|M|87.09,27.44|Z|2023;Ohn'ahran Plains|QO|3|I|N|Inspect broken spear.|
+C Scar of Earth and Fire|QID|72978|M|87.37,27.54|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Ask Sabellian if he has learned anything.|
+T Scar of Earth and Fire|QID|72978|M|87.18,27.27|Z|2023;Ohn'ahran Plains|N|To Wrathion.|
+A Rest Well, Warrior|QID|75985|PRE|72978|M|86.99,27.28|Z|2023;Ohn'ahran Plains|N|From Khasar|RANK|2|
+C Rest Well, Warrior|QID|75985|M|87.05,27.23|Z|2023;Ohn'ahran Plains|H|N|Click on the shovel, wait while it channels.|
+T Rest Well, Warrior|QID|75985|M|86.99,27.27|Z|2023;Ohn'ahran Plains|N|To Khasar|
+A The Patience of Princes|QID|72981|PRE|72978|M|87.37,27.53|Z|2023;Ohn'ahran Plains|N|From Sabellian.|
+C The Patience of Princes|QID|72981|M|87.64,29.24;84.64,29.79|CS|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Follow the black dragons. They fly much too slow, you don't have to actually "follow".|
 C Whats Beneath the Surface|QID|72981|M|74.30,41.95|Z|2165|CHAT|SO|1|N|Talk to Sabellian.|
 C Earth Primalists slain|QID|72981|M|51.54,52.15|Z|The Throughway|SO|2;1|N|Kill Earth Primalists|S|
 K Cliffkeeper Bouldani slain|QID|72981|M|51.54,52.15|Z|The Throughway|SO|2;2|N|Cliffkeeper Bouldani slain|

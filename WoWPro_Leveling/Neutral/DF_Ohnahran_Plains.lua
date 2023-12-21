@@ -401,9 +401,9 @@ C And Stay Dead!|QID|66657|M|31.37,71.05|Z|2023;Ohn'ahran Plains|N|Kill Tombcall
 T And Stay Dead!|QID|66657|M|PLAYER|Z|2023;Ohn'ahran Plains|N|To Initiate Zorig.|
 A The Nokhud Offensive: Founders Keepers|QID|66658|PRE|66657|M|PLAYER|Z|2023;Ohn'ahran Plains|N|[color=e6cc80]Dungeon Quest[/color]From Initiate Zorig. Pick it up or not as you choose, it is not covered in the guide. That being said, it is the final quest for the Eternal Kurgans part of Sojourner of Ohn'ahran Plains Achievement. Initiate Zorig will offer this quest in Teerakai if you should want to pick it up later. Note, unlike most dungeon quests, it doesnt complete when you kill the boss, loot the items. You must also bring them back to the Kurgans' tomb in Maruukai.|
 $ The Eternal Kurgans Glyph|QID|99999|M|29.5,75.1|Z|2023;Ohn'Aran Plains!Dragonflight|N|Just to the east of the mountain side, most of the way up to the top.|ACH|16057|
-;U The Nokhud Offensive: Founders Keepers|QID|66658|QO|3|M|40.08,54.44|Z|2023|O|U|200115|N|Go into Zorig's parents' tomb and place Teera's bow on her grave.|;--commented out till we can figure out how to suppress until they have the items.
-;U The Nokhud Offensive: Founders Keepers|QID|66658|QO|4|M|39.62,59.02|Z|2023|O|U|200100|N|Go across to the other alcove and place Maruuk's spear on his grave.|--commented out till we can figure out how to suppress until they have the items.
-t The Nokhud Offensive: Founders Keepers|QID|66658|M|40.99,61.62|Z|2023|N|To Initiate Zorig.|
+;U The Nokhud Offensive: Founders Keepers|QID|66658|QO|3|M|40.08,54.44|Z|2023;Ohn'ahran Plains|O|U|200115|N|Go into Zorig's parents' tomb and place Teera's bow on her grave.|;--commented out till we can figure out how to suppress until they have the items.
+;U The Nokhud Offensive: Founders Keepers|QID|66658|QO|4|M|39.62,59.02|Z|2023;Ohn'ahran Plains|O|U|200100|N|Go across to the other alcove and place Maruuk's spear on his grave.|--commented out till we can figure out how to suppress until they have the items.
+t The Nokhud Offensive: Founders Keepers|QID|66658|M|40.99,61.62|Z|2023;Ohn'ahran Plains|N|To Initiate Zorig.|
 C Mystic Mystery|QID|66224|M|44.62,61.58|Z|2023;Ohn'ahran Plains|QO|1|N|Meet Boku outside Teerakai.|
 C Mystic Mystery|QID|66224|M|44.55,61.91|Z|2023;Ohn'ahran Plains|QO|2|I|N|Click on the assorted items on the ground to collect Boku's Belongings.|
 C Mystic Mystery|QID|66224|M|46.20,63.19|Z|2023;Ohn'ahran Plains|QO|3|N|Search for Boku.|
@@ -440,7 +440,7 @@ C Oh No, Ohn'ahra!|QID|66258|M|60.26,64.95|Z|2023;Ohn'ahran Plains|N|Follow Boku
 T Oh No, Ohn'ahra!|QID|66258|M|61.40,62.79|Z|2023;Ohn'ahran Plains|N|To Initiate Boku.|
 A A Storm of Ill Tidings|QID|66259|PRE|66258|M|61.40,62.79|Z|2023;Ohn'ahran Plains|N|From Initiate Boku.|
 $ Windsong Rise Glyph|QID|99999|N|Just after the swirly things on the ground, over the mountain top.|M|61.5,64.3|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16063|
-$ Ohn'iri Springs Glyph|QID|99999|M|57.3,80.3|Z|2023|N|Next to the mountain.|ACH|16060|
+$ Ohn'iri Springs Glyph|QID|99999|M|57.3,80.3|Z|2023;Ohn'ahran Plains|N|Next to the mountain.|ACH|16060|
 F Ohn'iri Springs|ACTIVE|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|And continue on to Ohn'iri Springs.|
 C Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|CHAT|N|Talk to Radiya.|
 T Sneaking In|QID|66676|M|56.21,77.09|Z|2023;Ohn'Aran Plains!Dragonflight|N|To Initiate Radiya.|
@@ -538,7 +538,7 @@ C Renewal of Vows|QID|66783|QO|4|M|22.13,50.98;22.33,50.94|CS|Z|2023;Ohn'ahran P
 T Renewal of Vows|QID|66783|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A Into the Azure|QID|66340|PRE|66783|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Merithra.|
 A The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|PRE|66783|M|22.34,50.96|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest. This is a [color=e6cc80]dungeon [/color] quest and beyond the scope of this guide. Pick up or not as you choose.|
-t The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|M|59.99,37.46|Z|2023|N|To Khanam Matra Sarest.|
+t The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|M|59.99,37.46|Z|2023;Ohn'ahran Plains|N|To Khanam Matra Sarest.|
 R Nokhudon Hold|ACH|16457|M|34.79,43.53|Z|2023;Ohn'ahran Plains|N|This is the only spot the guide doesn't take you to, run/fly over here if you want to explore the zone.|RANK|3|
 $ Nokhudon Hold Glyph|QID|99999|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|N|Over the mountain top.|ACH|16055|RANK|3|
 A The Lonely Scout|QID|70985|M|34.23,53.96|Z|2023;Ohn'ahran Plains|N|From Scout Santuun.|RANK|3|
@@ -558,11 +558,11 @@ A Suspiciously Spiced Steak|QID|65900|PRE|65899|M|24.46,63.06|Z|2023;Ohn'ahran P
 C Territorial Coastling|QID|69852|M|22.84,66.20|Z|2023;Ohn'ahran Plains|N|Kill a Territorial Coastling.|S!US|RARE|
 ;t Territorial Coastling|QID|69852|M|23.19,63.91|Z|2023;Ohn'ahran Plains|N|Bonus Objective - Kill Territorial Coastling|
 C Can't Beat Fluffy|QID|65903|M|23.21,66.02|Z|2023;Ohn'ahran Plains|QO|1|NC|U|191134|N|Click the [color=33fff9]Versatile Longnet [/color] and use target reticle over the bunnies.|
-C Suspiciously Spiced Steak|QID|65900|M|22.63,60.57|Z|2023|QO|2|H|N|The Reptilian Eggshells are scattered around, be aware picking them up will agro nearby sleeping Frilled Coastlines.|S|
-C Suspiciously Spiced Steak|QID|65900|M|22.87,62.10|Z|2023|QO|3|H|N|Pick the Sourbloom flowers growing around the area.|S|
+C Suspiciously Spiced Steak|QID|65900|M|22.63,60.57|Z|2023;Ohn'ahran Plains|QO|2|H|N|The Reptilian Eggshells are scattered around, be aware picking them up will agro nearby sleeping Frilled Coastlines.|S|
+C Suspiciously Spiced Steak|QID|65900|M|22.87,62.10|Z|2023;Ohn'ahran Plains|QO|3|H|N|Pick the Sourbloom flowers growing around the area.|S|
 C Suspiciously Spiced Steak|QID|65900|M|21.89,61.45|Z|2023;Ohn'ahran Plains|QO|1|N|Kill Turtles to get their Meat.|
-C Suspiciously Spiced Steak|QID|65900|M|22.87,62.10|Z|2023|QO|3|H|N|Finish collecting Sourbloom flowers growing around the area.|US|
-C Suspiciously Spiced Steak|QID|65900|M|22.63,60.57|Z|2023|QO|2|H|N|Finish collecting the eggshells, be aware picking them up will agro nearby sleeping Frilled Coastlines.|US|
+C Suspiciously Spiced Steak|QID|65900|M|22.87,62.10|Z|2023;Ohn'ahran Plains|QO|3|H|N|Finish collecting Sourbloom flowers growing around the area.|US|
+C Suspiciously Spiced Steak|QID|65900|M|22.63,60.57|Z|2023;Ohn'ahran Plains|QO|2|H|N|Finish collecting the eggshells, be aware picking them up will agro nearby sleeping Frilled Coastlines.|US|
 C Suspiciously Spiced Steak|QID|65900|M|24.45,63.07|Z|2023;Ohn'ahran Plains|QO|4|CHAT|N|Give ingredients to Felina Starrunner.|
 T Can't Beat Fluffy|QID|65903|M|24.44,63.01|Z|2023;Ohn'ahran Plains|N|To Celina Crunchyleaves.|
 T Suspiciously Spiced Steak|QID|65900|M|24.46,63.04|Z|2023;Ohn'ahran Plains|N|To Felina Starrunner.|

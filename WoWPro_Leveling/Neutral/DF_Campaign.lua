@@ -143,11 +143,11 @@ C The Judgment of Tyr|QID|66814|QO|2;3;4;5;6;7;8|M|62.22,18.30;64.02,14.77|CS|Z|
 C The Judgment of Tyr|QID|66814|QO|9|M|64.47,15.17|Z|2025|H|N|Click on all the glowing junk to find The Judgment of Tyr.|
 T The Judgment of Tyr|QID|66814|M|64.46,15.14|Z|2025|N|To Naleidea Rivergleam.|
 R Szar Skeleth|ACTIVE|66094|M|44.31,64.39|N|You are actually meeting up with Toddy just outside of Szar Skeleth.|
-T The Ruins of Szar Skeleth|QID|66094|M|39.98,67.49|Z|2023|N|To Toddy Whiskers.|
-A The Insight of Tyr|QID|70507|PRE|66094|M|39.98,67.49|Z|2023|N|From Toddy Whiskers.|
-K Reclaimer Makko|ACTIVE|70507|QO|1|M|44.29,64.44|Z|2023|N|Kill and loot Reclaimer Makko. He spawns in the taller tower and wanders around the area.|
+T The Ruins of Szar Skeleth|QID|66094|M|39.98,67.49|Z|2023;Ohn'ahran Plains|N|To Toddy Whiskers.|
+A The Insight of Tyr|QID|70507|PRE|66094|M|39.98,67.49|Z|2023;Ohn'ahran Plains|N|From Toddy Whiskers.|
+K Reclaimer Makko|ACTIVE|70507|QO|1|M|44.29,64.44|Z|2023;Ohn'ahran Plains|N|Kill and loot Reclaimer Makko. He spawns in the taller tower and wanders around the area.|
 A The Fractured Flame|QID|70766|M|PLAYER|N|From item that will drop probably from the first gorloc you kill.|O|U|199792|
-C The Fractured Flame|QID|70766|M|44.29,64.44|Z|2023|N|Stay and kill gorlocs if you want, or abandon this quest. It is optional and has no reward, other than the completed journal that you can read for a bit of interesting lore. If you choose to finish it, kill them one or two at a time, and loot before more die, or you will get multiples of the same page if you loot a big pile of them at once.|
+C The Fractured Flame|QID|70766|M|44.29,64.44|Z|2023;Ohn'ahran Plains|N|Stay and kill gorlocs if you want, or abandon this quest. It is optional and has no reward, other than the completed journal that you can read for a bit of interesting lore. If you choose to finish it, kill them one or two at a time, and loot before more die, or you will get multiples of the same page if you loot a big pile of them at once.|
 T The Insight of Tyr|QID|70507|M|47.25,82.71|Z|2025|N|To Toddy Whiskers.|
 t The Fractured Flame|QID|70766|M|47.25,82.71|Z|2025|N|To Toddy Whiskers.|
 R Zelthrak Outpost|ACTIVE|70784|M|53.88,50.70|Z|2024|N|Off to Azure Span to meet Naleidea and find the last piece.|
@@ -413,12 +413,12 @@ C Crafting Orders|QID|72783|M|34.61,63.20|Z|2112|N|Go to Head Clerk, Mimzy Spraz
 T Crafting Orders|QID|72783|M|34.61,63.20|Z|2112|N|This turns in on your quest log UI.|
 A In Tyr's Footsteps: The Ohn'ahran Plains|QID|70339|M|83.97,53.49|Z|2112|N|From Maiden of Inspiration.|
 F Maruukai|ACTIVE|70339|M|44.07,67.95|Z|Valdrakken|N|Head to the flightmaster and take a flight to Maruukai.|
-T In Tyr's Footsteps: The Ohn'ahran Plains|QID|70339|M|66.19,55.30|Z|2023|
-A Second Challenge of Tyr: Might|QID|70376|PRE|70339|M|66.19,55.30|Z|2023|
-C Second Challenge of Tyr: Might|QID|70376|M|66.27,55.37|Z|2023|QO|2|CHAT|N|Speak with Maiden of Inspiration (Optional in that someone, but not necesarily you needs to).|
-C Second Challenge of Tyr: Might|QID|70376|M|66.28,55.55|Z|2023|QO|1|EAB|N|Defeat several waves of enemies. You have an [color=33fff9] Extra Action Button [/color] heal on a 30 second cooldown.|
-T Second Challenge of Tyr: Might|QID|70376|M|66.27,55.37|Z|2023|N|To Maiden of Inspiration.|
-A Well-Earned Victory|QID|70341|PRE|70376|M|66.27,55.37|Z|2023|N|From Maiden of Inspiration.|
+T In Tyr's Footsteps: The Ohn'ahran Plains|QID|70339|M|66.19,55.30|Z|2023;Ohn'ahran Plains|
+A Second Challenge of Tyr: Might|QID|70376|PRE|70339|M|66.19,55.30|Z|2023;Ohn'ahran Plains|
+C Second Challenge of Tyr: Might|QID|70376|M|66.27,55.37|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Speak with Maiden of Inspiration (Optional in that someone, but not necesarily you needs to).|
+C Second Challenge of Tyr: Might|QID|70376|M|66.28,55.55|Z|2023;Ohn'ahran Plains|QO|1|EAB|N|Defeat several waves of enemies. You have an [color=33fff9] Extra Action Button [/color] heal on a 30 second cooldown.|
+T Second Challenge of Tyr: Might|QID|70376|M|66.27,55.37|Z|2023;Ohn'ahran Plains|N|To Maiden of Inspiration.|
+A Well-Earned Victory|QID|70341|PRE|70376|M|66.27,55.37|Z|2023;Ohn'ahran Plains|N|From Maiden of Inspiration.|
 P Valdrakken|ACTIVE|70341|M|66.25,55.44|Z|Ohn'ahran Plains|N|Take the portal to The Bronze Enclave (or travel back at your leisure).|
 T Well-Earned Victory|QID|70341|M|83.96,53.57|Z|2112;Valdrakken|N|To Maiden of Inspiration.|
 A In Tyr's Footsteps: The Waking Shores|QID|70650|PRE|70341|M|83.96,53.57|Z|2112;Valdrakken|N|From Maiden of Inspiration.|

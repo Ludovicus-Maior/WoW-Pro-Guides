@@ -8,10 +8,10 @@ WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|
-C A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|Tell Wration you tell you about the netherwings.|CHAT|
-T A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|To Wrathion.|
-A Draconic Diplomacy|QID|76461|PRE|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|
+A A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200;Emerald Dream|N|From Wrathion.|
+C A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200;Emerald Dream|N|Tell Wration you tell you about the netherwings.|CHAT|
+T A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200;Emerald Dream|N|To Wrathion.|
+A Draconic Diplomacy|QID|76461|PRE|76460|M|50.88,62.79|Z|2200;Emerald Dream|N|From Wrathion.|
 C Draconic Diplomacy|QID|76461|M|33.68,62.06|Z|2025|QO|1|N|Take the portal or Hearth to Valdrakken.|U|6948|
 C Draconic Diplomacy|QID|76461|M|33.68,62.06|Z|2025|QO|2|CHAT|N|Talk to Wrathion.|
 C Draconic Diplomacy|QID|76461|M|33.68,62.06|Z|2025|QO|3|CHAT|N|Talk to Mordenaku.|
@@ -39,7 +39,7 @@ C The Thorignir|QID|76464|M|50.96,83.94|Z|634|QO|3|CHAT|N|Talk to Vyranoth.|
 T The Thorignir|QID|76464|M|51.08,83.98|Z|634|N|To Vyranoth.|
 A Dragon Keeping|QID|76465|M|51.08,83.98|Z|634|N|From Vyranoth.|
 C Dragon Keeping|QID|76465|M|51.08,83.98|Z|634|CHAT|N|Speak to Vyranoth.|
-T Dragon Keeping|QID|76465|M|50.84,62.76|Z|2200|N|To Vyranoth.|
+T Dragon Keeping|QID|76465|M|50.84,62.76|Z|2200;Emerald Dream|N|To Vyranoth.|
 N Click the book to take you back to the Emerald Dream guide.|JUMP|Call of the Dream|
 ]]
 
