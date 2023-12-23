@@ -234,6 +234,8 @@ end
 
 function Leveling:RegisterGuide(guide)
     ResolveGuide(guide)
+    guide.name =  (guide.name or guide.zone)
+    guide.nickname = guide.name
 end
 
 Leveling.sortIndex = 2
