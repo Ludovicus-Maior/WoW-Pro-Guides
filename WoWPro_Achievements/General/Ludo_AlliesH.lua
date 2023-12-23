@@ -13,11 +13,6 @@ return [[
 A The Call for Allies|QID|49930|N|Autoaccept when you buy Battle for Azeroth|
 T The Call for Allies|QID|49930|M|37.78,81.13|N|To Lady Sylvanas Windrunner, in the new embassy.|
 A A Choice of Allies|QID|50242|PRE|49930|M|37.78,81.13|N|From Lady Sylvanas Windrunner|
-N Allied Races: Nightborne|ACTIVE|50242|ACH|12446;|N|No Nightborne for you!\nYou need to be Exalted with Nightfallen and completed [Good Suramaritan]\nComplete with right click.|
-N Allied Races: Highmountain Tauren|ACTIVE|50242|ACH|12245;|N|No Highmountain Tauren for you!\nYou need to be Exalted with Highmountain Tribe and completed [Ain't No Mountain High Enough]\nComplete with right click.|
-N Allied Races: Mag'har Orcs|ACTIVE|50242|ACH|12509;|N|No Mag'har Orcs for you!\nYou need to complete the BFA Horde War Campaign.]\nComplete with right click.|
-N Allied Races: Zandalari Trolls|ACTIVE|50242|ACH|13466;|N|No Zandalari Trolls for you!\nYou need to complete the BFA Horde War and get [Tides of Vengeance] and [Zandalar Forever!].\nComplete with right click.|
-N Allied Races: Vulpera||ACTIVE|50242|ACH|12478;|N|No Vulpera for you!\nYou need to complete the [Secrets in the Sands] Achievement in BFA.\nComplete with right click.|
 C A Choice of Allies|QID|50242|M|38.16,81.11|Z|Orgrimmar@Orgrimmar|QO|1|N|Speak with Baine about the Highmountain tauren|
 C A Choice of Allies|QID|50242|M|37.97,80.58|Z|Orgrimmar@Orgrimmar|QO|2|N|Speak with Liadrin about the Nightborne|
 C A Choice of Allies|QID|50242|M|37.78,81.13|Z|Orgrimmar@Orgrimmar|QO|3|N|Choose an ally to pursue|

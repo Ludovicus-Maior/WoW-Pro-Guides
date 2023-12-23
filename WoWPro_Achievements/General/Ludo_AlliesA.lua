@@ -13,8 +13,6 @@ return [[
 A The Call for Allies|QID|49929|N|Autoaccept when you buy Battle for Azeroth|
 T The Call for Allies|QID|49929|M|52.07,13.41|N|To Aysa Cloudsinger, in the new embassy.|
 A A Choice of Allies|QID|50239|PRE|49929|M|52.07,13.41|N|From Aysa Cloudsinger.|
-N Allied Races: Void Elf|ACTIVE|50239|ACH|12447;|N|No Void Elf for you!\nYou need to be Exalted with Argussian Reach and completed [You Are Now Prepared!]\nComplete with right click.|
-N Allied Races: Lightforged Draenei|ACTIVE|50239|ACH|12448;|N|No Lightforged Draenei for you!\nYou need to be Exalted with Army of the Light  and completed [You Are Now Prepared!]\nComplete with right click.|
 T A Choice of Allies|QID|50239|M|52.07,13.41|N|To Aysa Cloudsinger.|
 
 N You have chosen|AVAILABLE|49787^49698|N|Get the next quest from Alleria Windrunner or High Exarch Turalyon|
