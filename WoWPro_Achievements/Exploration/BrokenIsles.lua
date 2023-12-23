@@ -5,6 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoExpBrokenIsles","Achievements","Broken Isles","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Broken Isles", "Exploration", "Legion")
 WoWPro:GuideIcon(guide,"ACH",11188)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

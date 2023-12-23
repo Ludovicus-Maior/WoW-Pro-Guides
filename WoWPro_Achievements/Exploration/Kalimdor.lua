@@ -5,6 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoExpKalimdor","Achievements","Kalimdor","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Kalimdor", "Exploration", "Cata")
 WoWPro:GuideIcon(guide,"ACH",43)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

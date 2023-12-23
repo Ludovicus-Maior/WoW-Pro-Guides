@@ -5,6 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoExpPandaria","Achievements","Pandaria","Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Pandaria", "Exploration", "Mists of Pandaria")
 WoWPro:GuideIcon(guide,"ACH",6974)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
