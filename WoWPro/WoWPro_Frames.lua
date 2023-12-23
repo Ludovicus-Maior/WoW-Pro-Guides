@@ -817,8 +817,7 @@ function WoWPro:CreateNextGuideDialog()
     button2text:SetText("Choose Guide From List")
     button2text:SetTextColor(1, 1, 1)
     button2:SetScript("OnClick", function(this, button)
-        WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")
-        WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide List")
+        WoWPro.ShowGuideMenu()
         WoWPro.NextGuideDialog:Hide()
     end)
 
@@ -881,7 +880,7 @@ function WoWPro:CreateDropdownMenu()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide Display")
         end},
         {text = L["Guide List"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide List")
+            WoWPro.ShowGuideMenu()
         end},
         {text = L["Current Guide"], func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Current Guide")
