@@ -1,5 +1,6 @@
-local guide = WoWPro:RegisterGuide('BitAra2025', "Leveling", 'Arathi Highlands', 'Bitsem', 'Alliance')
-
+local guide = WoWPro:RegisterGuide('BitAra2025', "Leveling", 'Arathi Highlands', 'WoWPro Team', 'Alliance')
+WoWPro:GuideNickname(guide, "Arathi Highlands")
+WoWPro:GuideName(guide,"Arathi Highlands")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[

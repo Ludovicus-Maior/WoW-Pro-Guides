@@ -1,5 +1,7 @@
 local guide = WoWPro:RegisterGuide('CraBla5458', "Leveling", 'Blasted Lands', 'Crackerhead22', 'Alliance')
 WoWPro:GuideSort(guide, 4)
+WoWPro:GuideNickname(guide, "Blasted_Lands")
+WoWPro:GuideName(guide,"Blasted Lands")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
