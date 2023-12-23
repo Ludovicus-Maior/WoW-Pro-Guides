@@ -910,6 +910,10 @@ function WoWPro:GuideNickname(guide, nickname)
     guide['nickname'] = nickname
 end
 
+function WoWPro:GuideCategory(guide, category)
+    guide['category'] = category
+end
+
 local nameToID = {
     ["Classic"] = _G.LE_EXPANSION_CLASSIC,
     ["The Burning Crusade"] = _G.LE_EXPANSION_BURNING_CRUSADE,
