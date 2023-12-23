@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CataclysmGuideHubH', 'Leveling', "Orgrimmar", "Elidion", "Horde")
+local guide = WoWPro:RegisterGuide('CataclysmGuideHubH', 'Leveling', "Orgrimmar", " WoWPro Team", "Horde")
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Cataclysm: Guide Hub")
