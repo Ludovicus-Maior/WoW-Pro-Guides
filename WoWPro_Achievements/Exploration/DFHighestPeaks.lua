@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("Highest_Peaks", "Achievements", "Dragonflight", "WowPro Team", "Neutral")
+local guide = WoWPro:RegisterGuide("Highest_Peaks", "Achievements", "Dragonflight", "WoWPro Team", "Neutral")
 WoWPro:GuideNextGuide(guide, "Dragonflight")
 WoWPro:GuideLevels(guide,60,70)
 WoWPro.Achievements:GuideMisc(guide, "Highest Peaks", "Exploration", "Dragonflight")

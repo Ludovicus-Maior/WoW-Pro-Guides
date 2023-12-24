@@ -3,8 +3,9 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("KabExpOutland","Achievements","Hellfire Peninsula","Kaboca", "Neutral")
+local guide = WoWPro:RegisterGuide("KabExpOutland","Achievements","Hellfire Peninsula","WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Outlands", "Exploration", "Burning Crusade")
 WoWPro:GuideIcon(guide,"ACH",44)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

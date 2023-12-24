@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Covenant', 'Leveling', "Ring of Fates@Oribos", 'Elidion+Cagomei+Shen', 'Neutral')
+local guide = WoWPro:RegisterGuide('EliRingofFates', 'Leveling', "Ring of Fates@Oribos!Dungeon", 'WoWPro Team', 'Neutral')
 WoWPro:GuideLevels(guide, 60, 60)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideName(guide,"Covenant Campaign")

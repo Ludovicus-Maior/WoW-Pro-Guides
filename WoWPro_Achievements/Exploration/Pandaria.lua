@@ -3,8 +3,9 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoExpPandaria","Achievements","Pandaria","Ludovicus", "Neutral")
+local guide = WoWPro:RegisterGuide("LudoExpPandaria","Achievements","Pandaria","WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Pandaria", "Exploration", "Mists of Pandaria")
 WoWPro:GuideIcon(guide,"ACH",6974)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
