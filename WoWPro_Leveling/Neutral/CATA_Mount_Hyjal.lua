@@ -1,7 +1,6 @@
-local guide = WoWPro:RegisterGuide('Arihyj8082', "Leveling", 'Mount Hyjal', 'Arixan', 'Neutral')
-WoWPro:GuideSort(guide, 81)
-WoWPro:GuideNickname(guide, "Mount Hyjal")
+local guide = WoWPro:RegisterGuide('Arihyj8082', "Leveling", 'Mount Hyjal', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Mount Hyjal")
+WoWPro:GuideSort(guide, 81)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
