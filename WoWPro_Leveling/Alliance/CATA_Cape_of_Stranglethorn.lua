@@ -1,4 +1,5 @@
-local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'Bitsem', 'Alliance')
+local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Alliance')
+WoWPro:GuideName(guide,"Cape of Stranglethorn")
 WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
