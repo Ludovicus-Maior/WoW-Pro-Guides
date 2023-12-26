@@ -1,7 +1,6 @@
-local guide = WoWPro:RegisterGuide('LiaTwi8485', "Leveling", 'Twilight Highlands', 'Liavan', 'Horde')
-WoWPro:GuideSort(guide, 85)
-WoWPro:GuideNickname(guide, "Twilight Highlands")
+local guide = WoWPro:RegisterGuide('LiaTwi8485', "Leveling", 'Twilight Highlands', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Twilight Highlands")
+WoWPro:GuideSort(guide, 85)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
