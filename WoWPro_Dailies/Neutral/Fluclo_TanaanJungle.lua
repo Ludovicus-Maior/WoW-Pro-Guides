@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'Fluclo', 'Neutral')
 WoWPro:GuideLevels(guide,40,40,40)
-WoWPro:GuideName(guide, "Garrison Campaign: War Council")
+WoWPro.Dailies:GuideNameAndCategory(guide, "Garrison Campaign: War Council", "Garrison")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
