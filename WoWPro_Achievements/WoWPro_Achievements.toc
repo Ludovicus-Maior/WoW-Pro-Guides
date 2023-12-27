@@ -13,7 +13,6 @@ Customization\Guides.xml
 Exploration\Guides.xml
 Faction\Guides.xml
 Fishing\Guides.xml
-General\Guides.xml
 Garrison\Guides.xml
 Garrison_Alliance\Guides.xml
 Garrison_Horde\Guides.xml
