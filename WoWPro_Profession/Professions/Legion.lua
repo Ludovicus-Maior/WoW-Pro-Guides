@@ -5,7 +5,7 @@ local guide = WoWPro:RegisterGuide("Blanc_BI_Profs", "Profession", "Legion Profe
 WoWPro:GuideLevels(guide,25, 60)
 WoWPro:GuideName(guide, "Legion Profession")
 WoWPro:GuideNickname(guide, "LEG_PROF")
-WoWPro:GuideIcon(guide, "PRO",98)
+WoWPro:GuideIcon(guide, "ICON", 1394953)
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Prof Quests:
