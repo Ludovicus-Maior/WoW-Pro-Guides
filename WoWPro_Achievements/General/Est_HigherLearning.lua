@@ -5,6 +5,7 @@
 
 local guide = WoWPro:RegisterGuide('EstAchHiLe',"Achievements",'Dalaran', 'Estelyen','Neutral')
 WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Higher Learning", "Exploration", "Northrend")
 WoWPro:GuideIcon(guide,"ACH",1956)
 WoWPro:GuideSteps(guide, function()
 return
