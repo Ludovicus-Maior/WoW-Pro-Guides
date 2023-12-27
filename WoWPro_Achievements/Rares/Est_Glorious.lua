@@ -4,6 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('EstAchGlor',"Achievements",'MoP Zones', 'Glorious!','Neutral')
+WoWPro.Achievements:GuideMisc(guide, "Pandaria Rares", "Rares", "Pandaria")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",7439)
 WoWPro:GuideNextGuide(guide, 'Estelyen')

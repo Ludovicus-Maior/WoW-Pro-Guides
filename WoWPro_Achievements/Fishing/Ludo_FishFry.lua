@@ -4,6 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoFishFry",'Achievements', "The Broken Isles", "Ludovicus", "Neutral")
+WoWPro.Achievements:GuideMisc(guide, "Broken Isles Fishing", "Fishing", "legion")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",10596)
 WoWPro:GuideSteps(guide, function()

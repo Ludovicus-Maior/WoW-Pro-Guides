@@ -4,6 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Draenor', 'Ludovicus', 'Neutral')
+WoWPro.Achievements:GuideMisc(guide, "Garrison Campaign", "Garrison", "Draenor")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9492)
 WoWPro:GuideName(guide,"Garrison Campaign")

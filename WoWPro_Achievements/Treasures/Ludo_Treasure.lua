@@ -7,7 +7,7 @@ local guide = WoWPro:RegisterGuide('LudoTreasure',"Achievements",'Timeless Isle'
 WoWPro:GuideIcon(guide,"ACH",8729)
 WoWPro:GuideNickname(guide, "Treasure, Treasure Everywhere")
 WoWPro:GuideName(guide,"Treasure, Treasure Everywhere")
-WoWPro.Achievements:GuideMisc(guide, "Treasure, Treasure Everywhere", "Exploration", "Pandaria")
+WoWPro.Achievements:GuideMisc(guide, "Treasure, Treasure Everywhere", "Treasures", "Pandaria")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

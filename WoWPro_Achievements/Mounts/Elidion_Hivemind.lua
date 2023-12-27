@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('Eli_Hivemind', 'Achievements', "Dazar'alor", 'Elidion', 'Neutral')
-WoWPro.Achievements:GuideMisc(guide, "Hivemind", "Mount", "Battle for Azeroth")
+WoWPro.Achievements:GuideMisc(guide, "Hivemind", "Mounts", "Battle for Azeroth")
 WoWPro:GuideIcon(guide,"ACH",12482)
 WoWPro:GuideLevels(guide,50, 50)
 WoWPro:GuideSteps(guide, function()

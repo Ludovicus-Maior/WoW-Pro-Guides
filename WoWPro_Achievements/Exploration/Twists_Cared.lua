@@ -4,6 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'Maelstrom', 'Twists','Neutral')
+WoWPro.Achievements:GuideMisc(guide, "Maelstrom", "Exploration", "Draenor")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",5548)
 WoWPro:GuideSteps(guide, function()

@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide('Emm_Jani', 'Achievements', "Dazar'alor", 'Emmaleah', 'Neutral')
-WoWPro.Achievements:GuideMisc(guide, "Child of Jani", "Pet", "Battle for Azeroth")
+WoWPro.Achievements:GuideMisc(guide, "Child of Jani", "Pets", "Battle for Azeroth")
 WoWPro:GuideIcon(guide,"ACH",12482)
 WoWPro:GuideLevels(guide,50, 50)
 WoWPro:GuideSteps(guide, function()
