@@ -1,5 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
     <Script file="Ludo_Bass.lua"/>
     <Script file="Ludo_Campaign.lua"/>
+    <Script file="Ludo_Draenor.lua"/>
     <Script file="LudoGarrisonFollowers.lua"/>
 </Ui>

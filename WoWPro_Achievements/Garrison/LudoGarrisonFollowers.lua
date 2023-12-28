@@ -5,6 +5,9 @@
 
 local guide = WoWPro:RegisterGuide("LudoGarrisonFollowers","Achievements","Draenor","Ludovicus","Neutral")
 WoWPro:GuideIcon(guide,"ACH",9109)
+WoWPro:GuideNickname(guide, "Alliance Garrison Followers")
+WoWPro:GuideName(guide,"Alliance Garrison Followers?")
+WoWPro.Achievements:GuideMisc(guide, "Alliance Garrison Followers", "Exploration", "Draenor")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 

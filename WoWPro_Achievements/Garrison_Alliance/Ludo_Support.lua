@@ -6,7 +6,7 @@
 local guide = WoWPro:RegisterGuide('LudoGarrissonSupportA', 'Achievements', 'Lunarfall', 'Ludovicus', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9528)
-WoWPro:GuideName(guide,"On the Shadow's Trail")
+WoWPro.Achievements:GuideMisc(guide, "On the Shadow's Trail", "Garrison", "Draenor")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
