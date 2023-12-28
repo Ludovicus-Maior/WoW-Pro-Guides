@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide('LudoDraenorLoots',"Achievements",'Draenor', 'Ludovicus','Neutral')
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Garrison_Resource")
-WoWPro.Achievements:GuideMisc(guide, "Equipment, Garrison $, and $$$", "Loots", "Draenor")
+WoWPro.Achievements:GuideMisc(guide, "Equipment, Garrison $, and $$$", "Garrison", "Draenor")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
