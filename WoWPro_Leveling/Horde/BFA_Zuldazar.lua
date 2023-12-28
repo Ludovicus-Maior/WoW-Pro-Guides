@@ -160,11 +160,11 @@ T Restraining Order|QID|47434|M|40.91,11.29|Z|1165;Dazar'alor|N|To Hexlord Raal.
 A Competitive Devotion|QID|47437|PRE|47435&47434|M|40.91,11.29|Z|1165;Dazar'alor|N|From Hexlord Raal.|
 K Guardian of the Tombs|ACTIVE|47437|QO|1|M|63.24,67.00|Z|1167;Hall of the High Priests - Zanchul Dungeon|N|Kill Guardian of the Tombs.|T|Guardian of the Tombs|
 K Guardian of the Rites|ACTIVE|47437|QO|2|M|66.78,29.69|Z|1167;Hall of the High Priests - Zanchul Dungeon|N|Up the stairs to find and kill Guardian of the Rites.|T|Guardian of the Rites|
-$ Offering of the Chosen|QID|48938|M|43.80,15.24;38.27,7.14|CS|Z|1165;Dazar'alor|N|A little bit out of the way is a treasure to loot for resources.|RANK|2|
 K Guardian of the Dead|ACTIVE|47437|QO|3|M|44.42,17.10|Z|1165;Dazar'alor|N|Kill Guardian of the Dead.|T|Guardian of the Dead|
-T Competitive Devotion|QID|47437|M|45.98,16.29;46.10,13.06|CS|Z|1165;Dazar'alor|N|Up the stairs to find Wardruid Loti.|
+$ Offering of the Chosen|QID|48938|M|38.27,7.14|Z|1165;Dazar'alor|N|A little bit out of the way is a treasure to loot for resources.|RANK|2|
+T Competitive Devotion|QID|47437|M|45.98,16.29;46.10,13.06|CS|Z|1165;Dazar'alor|N|To find Wardruid Loti at the top of the stairs.|
 A Dire Situation|QID|47422|PRE|47437|M|46.10,13.06|Z|1165;Dazar'alor|N|From Wardruid Loti.|
-K Dregada|ACTIVE|47422|QO|1|M|43.82,7.83|Z|1165;Dazar'alor|N|Up the central stairs to find and kill Dregada.|T|Dregada|
+K Dregada|ACTIVE|47422|QO|1|M|43.82,7.83|Z|1165;Dazar'alor|N|Go up the wider stairs and kill Dregada.|T|Dregada|
 T Dire Situation|QID|47422|M|42.29,9.12|Z|1165;Dazar'alor|N|To Wardruid Loti.|
 A Picking a Side|QID|47438|PRE|47422|M|42.29,9.12|Z|1165;Dazar'alor|N|From Wardruid Loti.|
 C Picking a Side|QID|47438|M|42.63,9.26|Z|1165;Dazar'alor|N|Gonk or Pa'ku, the choice is yours.\nGonk's totems give a 40% speed boost and Pa'ku's totems are tiny flightpaths that connect to another totem.\nOther than their mini quest chain, it only changes how you move about and not how the guide works.|NC|
