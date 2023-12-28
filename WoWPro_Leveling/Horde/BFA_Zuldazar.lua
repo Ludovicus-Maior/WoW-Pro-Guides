@@ -117,7 +117,7 @@ C Punishment of Tal'aman|QID|46927|QO|1<4|M|56.18,87.47|Z|1165;Dazar'alor|N|Clic
 C Deterrent|QID|46929|QO|1|M|50.00,78.00|Z|1165;Dazar'alor|ITEM|160107|N|any Amani mobs.|US|
 C Deterrent|QID|46929|QO|2|M|56.17,81.12|Z|1165;Dazar'alor|ITEM|158898|N|any Sandfury mob.|S|
 C Punishment of Tal'farrak|QID|46928|M|46.61,73.92|Z|1165;Dazar'alor|N|Click the Ancient Gong to summon Gahz'ragon. Kill and loot his tongues.|
-C Deterrent|QID|46929|QO|2|M|46.66,77.75|Z|1165;Dazar'alor|ITEM|158898|N|any Sandfury mob.||US|
+C Deterrent|QID|46929|QO|2|M|46.66,77.75|Z|1165;Dazar'alor|ITEM|158898|N|any Sandfury mob.|US|
 T Punishment of Tal'aman|QID|46927|M|50.02,84.76|Z|1165;Dazar'alor|N|To Yazma.|
 T Punishment of Tal'farrak|QID|46928|M|50.10,84.78|Z|1165;Dazar'alor|N|To Yazma.|
 T Deterrent|QID|46929|M|50.02,85.13|Z|1165;Dazar'alor|N|To Zolani.|
@@ -145,43 +145,43 @@ T Curse of Jani|QID|47442|M|35.46,7.71|Z|1165;Dazar'alor|N|To Jani.\n[color=FF00
 R Terrace of the Chosen|ACTIVE|47423|QO|1|M|45.41,23.77|Z|1165;Dazar'alor|N|Make your way to the Terrace of the Chosen.|
 C Forbidden Practices|QID|47423|M|51.25,14.07|Z|1165;Dazar'alor|N|Use the totem to identify the cultists and then kill them.|U|152627|
 T Forbidden Practices|QID|47423|M|51.90,11.86|Z|1165;Dazar'alor|N|To Hexlord Raal.|
-A Offensively Defensive|QID|47433|M|51.90,11.86|Z|1165;Dazar'alor|N|From Hexlord Raal.|PRE|47423|
-C Offensively Defensive|QID|47433|M|51.90,11.86|Z|1165;Dazar'alor|QO|1|CHAT|N|Speak with Hexlord Raal (Optional).|
-C Offensively Defensive|QID|47433|M|53.20,11.62|Z|1165;Dazar'alor|QO|2|V|N|Hop on to Fly the Skies with Hexlord Raal.|
-C Offensively Defensive|QID|47433|M|59.66,23.77|QO|3|NC|N|Use the "1" key and place Farseer Totems in the yellow glowing circles as you fly around.|
+A Offensively Defensive|QID|47433|PRE|47423|M|51.90,11.86|Z|1165;Dazar'alor|N|From Hexlord Raal.|
+C Offensively Defensive|QID|47433|QO|1|M|51.90,11.86|Z|1165;Dazar'alor|N|Speak with Hexlord Raal (Optional).|CHAT|
+C Offensively Defensive|QID|47433|QO|2|M|53.20,11.62|Z|1165;Dazar'alor|N|Hop on to Fly the Skies with Hexlord Raal.|V|
+C Offensively Defensive|QID|47433|QO|3|M|59.66,23.77|N|Use the "1" key and place Farseer Totems in the yellow glowing circles as you fly around.|NC|
 T Offensively Defensive|QID|47433|M|46.20,19.29|Z|1165;Dazar'alor|N|To Wardruid Loti.|
-A Pterrortorial Dispute|QID|47435|M|46.20,19.29|Z|1165;Dazar'alor|N|From Wardruid Loti.|PRE|47433|
-A Restraining Order|QID|47434|M|46.20,19.29|Z|1165;Dazar'alor|N|From Wardruid Loti.|PRE|47433|
-C Restraining Order|QID|47434|M|38.58,15.73|Z|1165;Dazar'alor|NC|N|Run up to Pterrordax Hatchling to shoo them off.|S|
+A Pterrortorial Dispute|QID|47435|PRE|47433|M|46.20,19.29|Z|1165;Dazar'alor|N|From Wardruid Loti.|
+A Restraining Order|QID|47434|PRE|47433|M|46.20,19.29|Z|1165;Dazar'alor|N|From Wardruid Loti.|
+C Restraining Order|QID|47434|M|38.58,15.73|Z|1165;Dazar'alor|N|Run up to Pterrordax Hatchling to shoo them off.|NC|S|
 C Pterrortorial Dispute|QID|47435|M|38.67,13.04|Z|1165;Dazar'alor|N|Kill the Big ones. (Bloodraged Pterrordax).|
-C Restraining Order|QID|47434|M|38.58,15.73|Z|1165;Dazar'alor|NC|N|Finish shooing the Pterrordax Hatchlings.|US|
+C Restraining Order|QID|47434|M|38.58,15.73|Z|1165;Dazar'alor|N|Finish shooing the Pterrordax Hatchlings.|NC|US|
 T Pterrortorial Dispute|QID|47435|M|40.91,11.29|Z|1165;Dazar'alor|N|To Hexlord Raal.|
 T Restraining Order|QID|47434|M|40.91,11.29|Z|1165;Dazar'alor|N|To Hexlord Raal.|
-A Competitive Devotion|QID|47437|M|40.91,11.29|Z|1165;Dazar'alor|N|From Hexlord Raal.|PRE|47435&47434|
-K Guardian of the Tombs|ACTIVE|47437|M|63.24,67.00|Z|Hall of the High Priests!Zanchul!Dungeon|QO|1|T|Guardian of the Tombs|N|Kill Guardian of the Tombs.|
-K Guardian of the Rites|ACTIVE|47437|M|66.78,29.69|Z|Hall of the High Priests!Zanchul!Dungeon|QO|2|T|Guardian of the Rites|N|Up the stairs to find and kill Guardian of the Rites.|
-$ Offering of the Chosen|QID|48938|M|43.80,15.24;38.27,7.14|Z|1165;Dazar'alor|CS|N|A little bit out of the way is a treasure to loot for resources.|RANK|2|
-K Guardian of the Dead|ACTIVE|47437|M|44.42,17.10|Z|1165;Dazar'alor|QO|3|T|Guardian of the Dead|N|Kill Guardian of the Dead.|
-T Competitive Devotion|QID|47437|M|45.98,16.29;46.10,13.06|Z|1165;Dazar'alor|CS|N|Up the stairs to find Wardruid Loti.|
-A Dire Situation|QID|47422|M|46.10,13.06|Z|1165;Dazar'alor|N|From Wardruid Loti.|PRE|47437|
-K Dregada|ACTIVE|47422|M|43.82,7.83|Z|1165;Dazar'alor|QO|1|T|Dregada|N|Up the central stairs to find and kill Dregada.|
+A Competitive Devotion|QID|47437|PRE|47435&47434|M|40.91,11.29|Z|1165;Dazar'alor|N|From Hexlord Raal.|
+K Guardian of the Tombs|ACTIVE|47437|QO|1|M|63.24,67.00|Z|Hall of the High Priests!Zanchul!Dungeon|N|Kill Guardian of the Tombs.|T|Guardian of the Tombs|
+K Guardian of the Rites|ACTIVE|47437|QO|2|M|66.78,29.69|Z|Hall of the High Priests!Zanchul!Dungeon|N|Up the stairs to find and kill Guardian of the Rites.|T|Guardian of the Rites|
+$ Offering of the Chosen|QID|48938|M|43.80,15.24;38.27,7.14|CS|Z|1165;Dazar'alor|N|A little bit out of the way is a treasure to loot for resources.|RANK|2|
+K Guardian of the Dead|ACTIVE|47437|QO|3|M|44.42,17.10|Z|1165;Dazar'alor|N|Kill Guardian of the Dead.|T|Guardian of the Dead|
+T Competitive Devotion|QID|47437|M|45.98,16.29;46.10,13.06|CS|Z|1165;Dazar'alor|N|Up the stairs to find Wardruid Loti.|
+A Dire Situation|QID|47422|PRE|47437|M|46.10,13.06|Z|1165;Dazar'alor|N|From Wardruid Loti.|
+K Dregada|ACTIVE|47422|QO|1|M|43.82,7.83|Z|1165;Dazar'alor|T|Dregada|N|Up the central stairs to find and kill Dregada.|
 T Dire Situation|QID|47422|M|42.29,9.12|Z|1165;Dazar'alor|N|To Wardruid Loti.|
-A Picking a Side|QID|47438|M|42.29,9.12|Z|1165;Dazar'alor|N|From Wardruid Loti.|PRE|47422|
-C Picking a Side|QID|47438|M|42.63,9.26|Z|1165;Dazar'alor|NC|N|Gonk or Pa'ku, the choice is yours.\nGonk's totems give a 40% speed boost and Pa'ku's totems are tiny flightpaths that connect to another totem.\nOther than their mini quest chain, it only changes how you move about and not how the guide works.|
+A Picking a Side|QID|47438|PRE|47422|M|42.29,9.12|Z|1165;Dazar'alor|N|From Wardruid Loti.|
+C Picking a Side|QID|47438|M|42.63,9.26|Z|1165;Dazar'alor|N|Gonk or Pa'ku, the choice is yours.\nGonk's totems give a 40% speed boost and Pa'ku's totems are tiny flightpaths that connect to another totem.\nOther than their mini quest chain, it only changes how you move about and not how the guide works.|NC|
 T Picking a Side|QID|47438|M|42.31,9.09|Z|1165;Dazar'alor|N|To Wardruid Loti.|
 A Pa'ku, Master of Winds|QID|47440|PRE|47436&47438|M|42.56,9.49|Z|1165;Dazar'alor|N|From Hexlord Raal.|
 A Gonk, Lord of the Pack|QID|47439|PRE|47443&47438|M|42.31,9.09|Z|1165;Dazar'alor|N|From Wardruid Loti.|
-C Pa'ku, Master of Winds|QID|47440|M|70.45,49.07|QO|1|V|N|Ride Ata the Winglord.|
-C Pa'ku, Master of Winds|QID|47440|M|71.48,49.34|QO|2|CHAT|N|Attempt to bargain with Pa'ku.|
-C Pa'ku, Master of Winds|QID|47440|M|71.06,49.16|QO|3|NC|N|Jump off the cliff.|
+C Pa'ku, Master of Winds|QID|47440|QO|1|M|70.45,49.07|N|Ride Ata the Winglord.|V|
+C Pa'ku, Master of Winds|QID|47440|QO|2|M|71.48,49.34|N|Attempt to bargain with Pa'ku.|CHAT|
+C Pa'ku, Master of Winds|QID|47440|QO|3|M|71.06,49.16|N|Jump off the cliff.|NC|
 T Pa'ku, Master of Winds|QID|47440|M|49.92,33.38|Z|1165;Dazar'alor|N|To Hexlord Raal.|
-R Garden of the Loa|ACTIVE|47439|M|49.64,26.43|N|Run generally NW, up the stairs, through The Zocalo and out of the city.|
-C Gonk, Lord of the Pack|QID|47439|M|48.19,32.27|QO|1|CHAT|N|Tell Gonk you will bargain.|
+R Garden of the Loa|ACTIVE|47439|M|49.64,26.43|N|Run in a northwesterly direction; up the stairs, through The Zocalo and out of the city.|
+C Gonk, Lord of the Pack|QID|47439|QO|1|M|48.19,32.27|N|Tell Gonk you will bargain.|CHAT|
 f Garden of the Loa|ACTIVE|47439|M|49.30,28.49;48.03,28.97;48.39,27.26;49.72,26.28|CS|N|At Paku'ai Rip'nata.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 F The Great Seal|ACTIVE|47439|M|49.72,26.28|N|At Paku'ai Rip'nata.|
 T Gonk, Lord of the Pack|QID|47439|M|49.89,33.34|Z|1165;Dazar'alor|N|To Wardruid Loti.|
-A The Bargain is Struck|QID|48897|M|49.89,33.34|Z|1165;Dazar'alor|N|From Wardruid Loti.|PRE|47439|
-A The Bargain is Struck|QID|47432|M|49.92,33.38|Z|1165;Dazar'alor|N|From Hexlord Raal.|PRE|47440|
+A The Bargain is Struck|QID|48897|PRE|47439|M|49.89,33.34|Z|1165;Dazar'alor|N|From Wardruid Loti.|
+A The Bargain is Struck|QID|47432|PRE|47440|M|49.92,33.38|Z|1165;Dazar'alor|N|From Hexlord Raal.|
 R Flightmaster, The Great Seal|ACTIVE|47432|M|49.54,32.83;49.91,39.56|CS|Z|1165;Dazar'alor|TZ|1165;Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster area.|
 H The Great Seal|ACTIVE|47439^48897|M|48.78,71.83|Z|The Great Seal!Dazar'alor|N|Use your hearthstone (or run) to return to the Great Seal.|
 A Nesingwary's Trek|QID|49768|M|52.03,41.40|Z|1165;Dazar'alor|N|From Huntmaster Kil'ja.|RANK|2|
@@ -370,7 +370,7 @@ C Trouble in the Rootway|QID|50178|M|62.87,19.95|N|Finish the Bonus Objective or
 ;T Trouble in the Rootway|QID|50178|M|62.87,19.95|N|Bonus Objective - Autocompleted.|
 A WANTED: Darkspeaker Jo'la|QID|51069|M|63.740,10.18|N|From Wanted Poster.|RANK|3|
 K Darkspeaker Jo'la|QID|50693^51069|QO|1|M|65.28,10.28|ITEM|160958|N|Silver Elite to kill for azerite power and resources.|T|Darkspeaker Jo'la|RANK|3|RARE|
-K Ten'gor and Nol'ixwan|ACTIVE|51091|M|61.55,24.98|QO|1;2|N|They are fighting each other. So, attack whomever is losing and turn on the winner.\n[color=FF0000]NOTE: [/color]This is meant to be a group quest, so you may want help.|T|Ten'gor|RANK|2|
+K Ten'gor and Nol'ixwan|ACTIVE|51091|O|1;2|M|61.55,24.98|QN|They are fighting each other. So, attack whomever is losing and turn on the winner.\n[color=FF0000]NOTE: [/color]This is meant to be a group quest, so you may want help.|T|Ten'gor|RANK|2|
 t WANTED: Darkspeaker Jo'la|QID|51069|M|67.51,17.63|N|To Huntmaster Vol'ka.|
 t WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.51,17.63|N|To Huntmaster Vol'ka.|
 ;F The Sliver|ACTIVE|49122|M|66.18,17.58|N|At Lasa the Galerider.|TAXI|-Garden of the Loa|
@@ -466,7 +466,7 @@ f Garden of the Loa|ACTIVE|47528|M|49.72,26.28|N|At Paku'ai Rip'nata.\n[color=FF
 T Mistress of Lies|QID|47528|M|48.57,26.79|N|To Wardruid Loti.|
 
 ; Block of R2/3 begins here. R1 skips to travel step following it.
-$ Gift of the Brokenhearted|QID|50582|M|51.43,26.61|N|Click the incense to cause chest to appear. Loot for azerite power and resources.\n[color=FF0000]NOTE: [/color]No symbol on the map.|RANK|2|
+$ Gift of the Brokenhearted|QID|50582|M|51.43,26.61|N|Click the incense to spawn the chest. Loot for azerite power and resources.\n[color=FF0000]NOTE: [/color]No symbol on the map.|RANK|2|
 ; Don't have Sliver FP
 R Old Merchant Road|ACTIVE|49917|M|46.91,26.71|N|Head to Old Merchant Road.|
 R Mount Mugamba|ACTIVE|49917|M|47.05,26.41;46.59,30.07|CS|N|Continue along Old Merchant Road.|
