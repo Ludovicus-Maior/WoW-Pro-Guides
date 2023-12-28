@@ -7,6 +7,7 @@ local guide = WoWPro:RegisterGuide('TwiCared',"Achievements", 'Maelstrom', 'Twis
 WoWPro.Achievements:GuideMisc(guide, "Maelstrom", "Exploration", "Draenor")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",5548)
+WoWPro.Achievements:GuideMisc(guide, "Cata Animals", "Animals", "Cata")
 WoWPro:GuideSteps(guide, function()
 return [[
 

@@ -7,6 +7,7 @@ local guide = WoWPro:RegisterGuide('EstAchGlor',"Achievements",'MoP Zones', 'Glo
 WoWPro.Achievements:GuideMisc(guide, "Pandaria Rares", "Rares", "Pandaria")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",7439)
+WoWPro.Achievements:GuideMisc(guide, "Glorious!", "Rares", "Pandaria")
 WoWPro:GuideNextGuide(guide, 'Estelyen')
 WoWPro:GuideSteps(guide, function()
 return [[

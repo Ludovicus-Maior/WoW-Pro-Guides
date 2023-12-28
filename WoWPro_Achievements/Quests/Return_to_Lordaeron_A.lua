@@ -4,9 +4,9 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("OzziLordaeron","Achievements","Shadowlands","Ozzi", "Alliance")
-WoWPro:GuideName(guide,"Return to Lordaeron")
 WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideIcon(guide,"ACH",15579)
+WoWPro.Achievements:GuideMisc(guide, "Return to Lordaeron", "Quests", "Shadowlands")
 WoWPro:GuideLevels(guide,60,60)
 WoWPro:GuideSteps(guide, function()
 return [[

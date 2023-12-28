@@ -5,8 +5,8 @@
 
 local guide = WoWPro:RegisterGuide("LudoFishing",'Dailies', "Azeroth", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,70,70)
-WoWPro:GuideName(guide, "Fishing Dailies")
-WoWPro:GuideIcon(guide,"PRO",9)
+WoWPro.Dailies:GuideNameAndCategory(guide,"Capitol Fishing", "Professions")
+WoWPro:GuideIcon(guide,"PRO",356)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
