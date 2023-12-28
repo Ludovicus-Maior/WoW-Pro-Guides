@@ -7,6 +7,7 @@ local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Draenor'
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9492)
 WoWPro:GuideName(guide,"Garrison Campaign")
+WoWPro.Achievements:GuideMisc(guide, "Garrison Campaign", "Garrison", "Draenor")
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()

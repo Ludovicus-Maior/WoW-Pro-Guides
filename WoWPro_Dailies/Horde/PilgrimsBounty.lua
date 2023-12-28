@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoPilgrimDailiesH",'Dailies',"Pilgrim's Bounty", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide ,1,60)
-WoWPro.Dailies:GuideNameAndCategory(guide,"Pilgrim's Bounty")
+WoWPro.Dailies:GuideNameAndCategory(guide,"Pilgrim's Bounty", "Holidays")
 WoWPro:GuideIcon(guide,"ACH",3597)
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -6,6 +6,7 @@
 local guide = WoWPro:RegisterGuide("LudoFishFry",'Achievements', "The Broken Isles", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",10596)
+WoWPro.Achievements:GuideMisc(guide, "Epic Legion Fishing Pole", "Quests", "The Broken Isles")
 WoWPro:GuideSteps(guide, function()
 return [[
 B Arcane Lure|M|6.2,20.0|Z|Broken Shore|N|Go to a floating island North of Dalaran and buy [Arcane Lure]'s from Conjurer Margoss using [Drowned Mana] as the currency. Or buy in them the AH.  You need them to catch the rare fish. Drowned Mana raids are great for farming this. You will use around 24-36.|L|139175|

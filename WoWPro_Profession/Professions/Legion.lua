@@ -3,9 +3,10 @@
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 local guide = WoWPro:RegisterGuide("Blanc_BI_Profs", "Profession", "Legion Profession", "WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,25, 60)
+WoWPro:GuideCategory(guide, "Legion Professions Unlock")
 WoWPro:GuideName(guide, "Legion Profession")
 WoWPro:GuideNickname(guide, "LEG_PROF")
-WoWPro:GuideIcon(guide, "PRO",98)
+WoWPro:GuideIcon(guide, "ICON", 1394953)
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Prof Quests:
