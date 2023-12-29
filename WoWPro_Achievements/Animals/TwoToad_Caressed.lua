@@ -7,7 +7,7 @@ local guide = WoWPro:RegisterGuide('TwoToadSqu',"Achievements",'Pandaria', 'WowP
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNickname(guide, "To All the Squirrels I Once Caressed?")
 WoWPro:GuideName(guide,"To All the Squirrels I Once Caressed?")
-WoWPro.Achievements:GuideMisc(guide, "To All the Squirrels I Once Caressed?", "Exploration", "Pandaria")
+WoWPro.Achievements:GuideMisc(guide, "To All the Squirrels I Once Caressed?", "Animals", "Pandaria")
 WoWPro:GuideIcon(guide,"ACH",6350)
 WoWPro:GuideSteps(guide, function()
 return [[
