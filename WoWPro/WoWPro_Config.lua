@@ -912,6 +912,12 @@ local function createExpertOptions()
                 type = "header",
                 name = L["Quest Engine Delay"],
             },
+            spacer1 = {
+                order = 1.1,
+                type = "description",
+                name = " ",
+                width = "full"
+            },
             QuestEngineDelay = {
                 order = 2,
                 type = "range",
@@ -921,15 +927,17 @@ local function createExpertOptions()
                 set = function(info,val) WoWProDB.global.QuestEngineDelay = val end,
                 width = "full"
             },
-            header3 = {
+            spacer2 = {
                 order = 3,
-                type = "header",
-                name = L[""],
+                type = "description",
+                name = " ",
+                width = "full"
             },
-            header4 = {
+            spacer3 = {
                 order = 3.1,
-                type = "header",
-                name = L[""],
+                type = "description",
+                name = " ",
+                width = "full"
             },
             header2 = {
                 order = 3.2,
