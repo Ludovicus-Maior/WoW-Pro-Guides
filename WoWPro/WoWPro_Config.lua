@@ -65,29 +65,31 @@ local function createDisplayConfig()
                     WoWPro.DragSet() end
             },
             padding = {
-                order = 4,
+                order = 25,
                 type = "range",
                 name = L["Padding"],
                 desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
                 min = 0, max = 20, step = 1,
                 get = function(info) return WoWProDB.profile.pad end,
                 set = function(info,val) WoWProDB.profile.pad = val
-                    WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
+                    WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
+                width = "double"
             },
             spacing = {
-                order = 5,
+                order = 26,
                 type = "range",
                 name = L["Spacing"],
                 desc = L["Spacing determines how much blank space is left between lines in the guide text. "],
                 min = 0, max = 10, step = 1,
                 get = function(info) return WoWProDB.profile.space end,
                 set = function(info,val) WoWProDB.profile.space = val
-                    WoWPro.RowSizeSet() end
+                    WoWPro.RowSizeSet() end,
+                width = "double"
             },
             hide = {
                 order = 6,
                 type = "toggle",
-                name = L["Enable Instance Hiding"],
+                name = L["Enable Instance Hide"],
                 desc = L["Enables/Disables hiding the active module when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
                 get = function(info) return WoWProCharDB.AutoHideInsideInstances ; end,
                 set = function(info,val)
@@ -107,7 +109,7 @@ local function createDisplayConfig()
             combathide = {
                 order = 7,
                 type = "toggle",
-                name = L["Enable Combat Hiding"],
+                name = L["Enable Combat Hide"],
                 desc = L["Enables/Disables hiding the active module when you are in combat."],
                 get = function(info) return WoWProCharDB.AutoHideInCombat ; end,
                 set = function(info,val)
@@ -158,11 +160,6 @@ local function createDisplayConfig()
                 get = function(info) return WoWProDB.profile.autoload end,
                 set = function(info,val) WoWProDB.profile.autoload = val end
             },
-            blank2 = {
-                order = 20,
-                type = "description",
-                name = " ",
-            },
             guidescroll = {
                 order = 21,
                 type = "toggle",
@@ -174,7 +171,7 @@ local function createDisplayConfig()
                     WoWPro:UpdateGuide("Config: Scroll Mode") end
             },
             checksoundfile = {
-                order = 22,
+                order = 23,
                 type = "select",
                 name = L["Step Completed Sound"],
                 desc = L["Sound played when a guide step is completed"],
@@ -198,12 +195,13 @@ local function createDisplayConfig()
                 set = function(info,val) WoWProDB.profile.checksound = val end
             },
             lefty = {
-                order = 24,
+                order = 22,
                 type = "toggle",
                 name = L["Left Handed"],
                 desc = L["Put Use and Target Icons on the right side of the guide window."],
                 get = function(info) return WoWProDB.profile.leftside end,
-                set = function(info,val) WoWProDB.profile.leftside = val end
+                set = function(info,val) WoWProDB.profile.leftside = val end,
+                width = "double"
             },
             blank3 = {
                 order = 30,
@@ -626,7 +624,7 @@ local function createMainConfig()
                 type = "description",
                 name = L["Version"]..": "..WoWPro.Version,
             },
-            help = {
+            header = {
                 order = 10,
                 type = "header",
                 name = L["Addon Version Installed"],
@@ -909,18 +907,42 @@ local function createExpertOptions()
         type = "group",
         order = 100,
         args = {
-            help = {
-                order = 2,
+            header = {
+                order = 1,
                 type = "header",
-                name = L["We don't recommend touching these settings unless advised to by Support"],
+                name = L["Quest Engine Delay"],
+            },
+            QuestEngineDelay = {
+                order = 2,
+                type = "range",
+                name = L["The amount of time to wait for the WoW client to update it's state."],
+                min = 0.1, max = 0.75, step = .05,
+                get = function(info) return WoWProDB.global.QuestEngineDelay end,
+                set = function(info,val) WoWProDB.global.QuestEngineDelay = val end,
+                width = "full"
+            },
+            header3 = {
+                order = 3,
+                type = "header",
+                name = L[""],
+            },
+            header4 = {
+                order = 3.1,
+                type = "header",
+                name = L[""],
+            },
+            header2 = {
+                order = 3.2,
+                type = "header",
+                name = L["Stay away from the below settings unless you are a developer"],
             },
             blank = {
-                order = 3,
+                order = 4,
                 type = "description",
                 name = " ",
             },
             debugClasses = {
-                order = 4,
+                order = 5,
                 type = "toggle",
                 name = L["Debug Classes"],
                 desc = L["Enables/Disables loading of all class guides"],
@@ -932,10 +954,11 @@ local function createExpertOptions()
                             WoWPro.DebugClasses = (WoWPro.DebugLevel > 0)
                         end
                         WoWProCharDB.DebugClasses = WoWPro.DebugClasses
-                    end
+                    end,
+                    width = "double"
             },
             EnableGrailQuestline = {
-                order = 5.0,
+                order = 6,
                 type = "toggle",
                 name = L["Grail Quest Lines"],
                 desc = L["Enables/Disables Grail Quest Line Integration"],
@@ -946,10 +969,11 @@ local function createExpertOptions()
                         else
                             WoWProCharDB.EnableGrailQuestline = true
                         end
-                    end
+                    end,
+                    width = "double"
             },
             EnableGrailCheckPrereq = {
-                order = 5.1,
+                order = 7,
                 type = "toggle",
                 name = L["Grail Check PRE"],
                 desc = L["Enables/Disables Grail Quest Prerequistite Quest Checking"],
@@ -960,10 +984,11 @@ local function createExpertOptions()
                         else
                             WoWProCharDB.EnableGrailCheckPrereq = true
                         end
-                    end
+                    end,
+                    width = "double"
             },
             EnableGrailBreadcrumbs = {
-                order = 5.2,
+                order = 8,
                 type = "toggle",
                 name = L["Grail Check LEAD"],
                 desc = L["Enables/Disables Grail Quest Breadcrumb Quest Checking"],
@@ -974,10 +999,11 @@ local function createExpertOptions()
                         else
                             WoWProCharDB.EnableGrailBreadcrumbs = true
                         end
-                    end
+                    end,
+                    width = "double"
             },
             EnableGrailQuestName = {
-                order = 5.3,
+                order = 9,
                 type = "toggle",
                 name = L["Grail Quest Name Check"],
                 desc = L["Enables/Disables Grail Quest Quest Name Checking"],
@@ -988,10 +1014,11 @@ local function createExpertOptions()
                         else
                             WoWProCharDB.EnableGrailQuestName = true
                         end
-                    end
+                    end,
+                    width = "double"
             },
             EnableGrailQuestLevel = {
-                order = 5.4,
+                order = 10,
                 type = "toggle",
                 name = L["Grail Quest Level Check"],
                 desc = L["Enables/Disables Grail Quest Quest Level Checking"],
@@ -1002,10 +1029,11 @@ local function createExpertOptions()
                         else
                             WoWProCharDB.EnableGrailQuestLevel = true
                         end
-                    end
+                    end,
+                    width = "double"
             },
             EnableGrailQuestObsolete = {
-                order = 5.5,
+                order = 11,
                 type = "toggle",
                 name = L["Grail Obsolete Quest Check"],
                 desc = L["Enables/Disables Grail Quest Quest Obsolete Checking"],
@@ -1016,28 +1044,19 @@ local function createExpertOptions()
                         else
                             WoWProCharDB.EnableGrailQuestObsolete = true
                         end
-                    end
+                    end,
+                width = "double"
             },
-
             checkGuides = {
-                order = 7,
+                order = 13,
                 type = "execute",
-                name = L["Guide Checker"],
-                desc = L["Load every available guide and check for errors."],
+                name = L["Guide Errors Checker"],
                 image = "Interface\\RaidFrame\\ReadyCheck-Waiting",
                 func =  function (info)
                             WoWPro:LogClear("CheckGuides");
                             WoWPro:LoadAllGuides()
-                        end
-            },
-            QuestEngineDelay = {
-                order = 6,
-                type = "range",
-                name = L["Quest Engine Delay"],
-                desc = L["The amount of time to wait for the WoW client to update it's state."],
-                min = 0.1, max = 0.75, step = .05,
-                get = function(info) return WoWProDB.global.QuestEngineDelay end,
-                set = function(info,val) WoWProDB.global.QuestEngineDelay = val end
+                        end,
+                        width = "double"
             },
         },
     }
