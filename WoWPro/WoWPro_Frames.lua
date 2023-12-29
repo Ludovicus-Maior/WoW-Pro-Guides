@@ -332,15 +332,19 @@ function WoWPro.SetMouseNotesPoints()
 end
 
 function WoWPro.AnchorStore()
-    WoWPro.SetMouseNotesPoints()
     -- Update the position when we are no longer in combat
     WoWPro.MainFrame:SetScript("OnUpdate", function()
         if not WoWPro.MaybeCombatLockdown() then
             local pos = {WoWPro.MainFrame:GetPoint(1)}
             pos[2] = "UIParent"
+            local scale = WoWPro.MainFrame:GetScale()
+            for i=4,5 do
+                pos[i] = pos[i] * scale
+            end
             WoWProDB.profile.position = pos
-            WoWPro:dbp("AnchorStore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f",
-                        pos[1], pos[2], pos[3], pos[4], pos[5])
+            WoWProDB.profile.scale = scale
+            WoWPro:dbp("AnchorStore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f, scale=%.2f",
+                        pos[1], pos[2], pos[3], pos[4], pos[5], WoWProDB.profile.scale)
             local size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
             WoWPro:dbp("AnchorStore: Height=%.2f Width=%.2f", size[1], size[2])
             WoWProDB.profile.size = size
@@ -353,6 +357,13 @@ function WoWPro.AnchorRestore(reset_size)
     WoWPro.MainFrame:ClearAllPoints()
     local pos = WoWProDB.profile.position
     WoWPro:dbp("AnchorRestore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f", unpack(pos))
+    if WoWProDB.profile.scale then
+        WoWPro.MainFrame:SetScale(WoWProDB.profile.scale)
+    end
+    local scale = WoWPro.MainFrame:GetScale()
+    for i=4,5 do
+        pos[i] = pos[i] / scale
+    end
     WoWPro.MainFrame:SetPoint(unpack(pos))
     local size = WoWProDB.profile.size
     if size and not reset_size then
@@ -449,6 +460,10 @@ function WoWPro:CreateMainFrame()
             WoWPro.AnchorStore()
         end
     end)
+    WoWPro.MainFrame:SetScript("OnDragStop", function()
+        WoWPro.AnchorStore() ; end)
+    WoWPro.MainFrame:SetScript("OnSizeChanged", function()
+        WoWPro.AnchorStore() ; end)
 
     -- Set initial keybindings frames
     WoWPro.FauxItemButton = _G.CreateFrame("Frame", "WoWPro_FauxItemButton", _G.UIParent)
