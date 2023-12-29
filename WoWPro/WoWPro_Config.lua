@@ -62,7 +62,7 @@ local function createDisplayConfig()
                 desc = L["Enables the guide window to be moved by clicking anywhere on it and dragging"],
                 get = function(info) return WoWProDB.profile.drag end,
                 set = function(info,val) WoWProDB.profile.drag = val
-                    WoWPro.DragSet() end,
+                    WoWPro.DragSet() end
             },
             padding = {
                 order = 4,
@@ -92,7 +92,7 @@ local function createDisplayConfig()
                 get = function(info) return WoWProCharDB.AutoHideInsideInstances ; end,
                 set = function(info,val)
                         if WoWProCharDB.AutoHideInsideInstances == true then WoWProCharDB.AutoHideInsideInstances=false; else WoWProCharDB.AutoHideInsideInstances=true; end
-                    end
+                   end
             },
             notify = {
                 order = 6.5,
@@ -254,7 +254,8 @@ local function createDisplayConfig()
                 min = 50, max = 1000, step = 10,
                 get = function(info) return WoWProDB.profile.hminresize end,
                 set = function(info,val) WoWProDB.profile.hminresize = val
-                    WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
+                    WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
+                width = "double"
             },
             minresizev = {
                 order = 36,
@@ -264,7 +265,8 @@ local function createDisplayConfig()
                 min = 50, max = 1000, step = 10,
                 get = function(info) return WoWProDB.profile.vminresize end,
                 set = function(info,val) WoWProDB.profile.vminresize = val
-                    WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
+                    WoWPro:ResizeSet(); WoWPro.RowSizeSet() end,
+                width = "double"
             },
             blank4 = {
                 order = 40,
@@ -615,27 +617,27 @@ end
 
 local function createMainConfig()
     return {
-        name = L["WoW-Pro Guides"],
+        name = L["Master"],
         type = "group",
         order = 0,
         args = {
             version = {
-                order = 1,
+                order = 11,
                 type = "description",
                 name = L["Version"]..": "..WoWPro.Version,
             },
             help = {
-                order = 2,
-                type = "description",
-                name = L["Account wide settings for WoW-Pro's guide addon."],
+                order = 10,
+                type = "header",
+                name = L["Addon Version Installed"],
             },
             header1 = {
-                order = 3,
+                order = 13,
                 type = "header",
                 name = "Addon Enable and Debugging",
             },
             enable = {
-                order = 10,
+                order = 14,
                 type = "toggle",
                 name = L["Enable Addon"],
                 desc = L["Enables/Disables showing the WoW-Pro guide addons."],
@@ -651,7 +653,7 @@ local function createMainConfig()
                     end
             },
             enableDebug = {
-                order = 11,
+                order = 15,
                 type = "toggle",
                 name = L["Enable Debug"],
                 desc = L["Enables/Disables debug logging"],
@@ -666,12 +668,12 @@ local function createMainConfig()
                     end
             },
             header2 = {
-                order = 15,
+                order = 16,
                 type = "header",
                 name = "Automation",
             },
             autoSelect = {
-                order = 16,
+                order = 17,
                 type = "toggle",
                 name = L["Auto Select"],
                 desc = L["Enables/Disables automatically selecting quests/flights from NPCs"],
@@ -685,7 +687,7 @@ local function createMainConfig()
                     end
             },
             autoAccept = {
-                order = 17,
+                order = 18,
                 type = "toggle",
                 name = L["Auto Accept"],
                 desc = L["Enables/Disables automatically accepting quests from NPCs"],
@@ -699,7 +701,7 @@ local function createMainConfig()
                     end
             },
             autoTurnin = {
-                order = 18,
+                order = 19,
                 type = "toggle",
                 name = L["Auto Turnin"],
                 desc = L["Enables/Disables automatically turning in quests to NPCs"],
@@ -771,7 +773,8 @@ local function createMainConfig()
                         else
                             WoWProCharDB.EnableFlight = true
                         end
-                    end
+                    end,
+                width = "full"
             },
             grank = {
                 order = 25,
@@ -839,48 +842,48 @@ local function createMainConfig()
                 name = " ",
             },
             aboutheader = {
-                order = 91,
+                order = 1,
                 type = "header",
                 name = "About WoW-Pro",
             },
             blank11 = {
-                order = 92,
+                order = 2,
                 type = "description",
                 name = " ",
             },
             about10 = {
-                order = 93,
+                order = 3,
                 type = "description",
                 fontSize = "medium",
                 name = "WoW-Pro is a addon collection by gamers, for gamers. The collection includes hundreds of free guides covering every facet of World of Warcraft."
             },
             blank12 = {
-                order = 94,
+                order = 4,
                 type = "description",
                 name = " ",
             },
             about14 = {
-                order = 99,
+                order = 5,
                 type = "description",
                 fontSize = "medium",
                 name =
                     "Over the years WoW-Pro has grown into a huge, active community of gamers. "
             },
             blank18 = {
-                order = 100,
+                order = 6,
                 type = "description",
                 name = " ",
             },
             about15 = {
-                order = 101,
+                order = 7,
                 type = "description",
                 fontSize = "medium",
                 name =
                     "The WoW-Pro addon has brought many of the guides we've built as a community into the game, "..
-                    "and built on them since WotLK to the Classic(s) and Dragonflight. Drop by on Discord and say hello!"
+                    "and built on them since WotLK to the Classic(s) and Dragonflight.\n\nDrop by on Discord and say hello!"
             },
             blank19 = {
-                order = 102,
+                order = 8,
                 type = "description",
                 name = "",
                 image = "Interface/AddOns/WoWPro/Textures/Discord",
@@ -889,7 +892,7 @@ local function createMainConfig()
                 width = "half"
             },
             about16 = {
-                order = 103,
+                order = 9,
                 type = "input",
                 name = "Discord",
                 get = function () return "https://discord.gg/aarduK7"; end,
@@ -902,19 +905,14 @@ end
 
 local function createExpertOptions()
     return {
-        name = L["WoW-Pro Expert"],
+        name = L["Expert"],
         type = "group",
         order = 100,
         args = {
-            version = {
-                order = 1,
-                type = "description",
-                name = L["Version"]..": "..WoWPro.Version,
-            },
             help = {
                 order = 2,
-                type = "description",
-                name = L["Expert settings for WoW-Pro's addons."],
+                type = "header",
+                name = L["We don't recommend touching these settings unless advised to by Support"],
             },
             blank = {
                 order = 3,
@@ -1022,9 +1020,9 @@ local function createExpertOptions()
             },
 
             checkGuides = {
-                order = 6,
+                order = 7,
                 type = "execute",
-                name = L["Run the Guide Checker"],
+                name = L["Guide Checker"],
                 desc = L["Load every available guide and check for errors."],
                 image = "Interface\\RaidFrame\\ReadyCheck-Waiting",
                 func =  function (info)
@@ -1033,7 +1031,7 @@ local function createExpertOptions()
                         end
             },
             QuestEngineDelay = {
-                order = 10,
+                order = 6,
                 type = "range",
                 name = L["Quest Engine Delay"],
                 desc = L["The amount of time to wait for the WoW client to update it's state."],
