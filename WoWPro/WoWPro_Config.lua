@@ -905,7 +905,7 @@ local function createExpertOptions()
     return {
         name = L["Expert"],
         type = "group",
-        order = 100,
+        order = -1,
         args = {
             header = {
                 order = 1,
@@ -1078,6 +1078,7 @@ function WoWPro.CreateConfig()
         args = {
             mainConfig = createMainConfig(),
             displayConfig = createDisplayConfig(),
+            profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB),
             expertConfig = createExpertOptions()
         }
     }
