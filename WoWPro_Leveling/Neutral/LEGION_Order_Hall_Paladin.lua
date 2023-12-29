@@ -31,7 +31,7 @@ C We Meet at Light's Hope|QID|38576^42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelan
 T We Meet at Light's Hope|QID|38576^42811|M|63.13,37.18|N|To Lord Maxwell Tyrosus.|
 A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576&42811|
 C A United Force|QID|38566|NC|QO|1|M|74.54,20.33|N|Walk with Lord Maxwell Tyrosus|
-C A United Force|QID|38566|NC|QO|2;3|M|74.54,20.33|N|Inscribe your name in the Libram and then wait a minute for the dialog to finish.|
+C A United Force|QID|38566|NC|QO|2|M|74.54,20.33|N|Inscribe your name in the Libram and then wait a minute for the dialog to finish.|
 T A United Force|QID|38566|M|73.83,19.61|N|To Lord Maxwell Tyrosus.|
 ; A Forging New Strength|QID|39722|M|73.83,19.61|N|From Lord Maxwell Tyrosus.|PRE|38566|
 ; C Forging New Strength|QID|39722|NC|M|72.63,23.58|N|Click on the alter and then on the icon in the articact window.|
