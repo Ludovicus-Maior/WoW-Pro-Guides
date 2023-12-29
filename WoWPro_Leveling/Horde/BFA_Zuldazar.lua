@@ -255,6 +255,7 @@ T The Great Hat Robbery|QID|50381|M|61.91,46.89|Z|0862;Zuldazar|N|To Jani.\n[col
 $ Strange Egg|QID|50508|M|61.90,46.22|Z|0862;Zuldazar|ITEM|162613|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a Silver Elite to kill for azerite power and resources.|T|Vukuba|RANK|3|LVL|50|RARE|
 T The Missing Handler|QID|50538|LEAD|47226|M|64.26,44.60|Z|0862;Zuldazar|N|To Handler Bazkoji.|
 A The Orphaned Hatchling|QID|47226|M|64.33,44.69|Z|0862;Zuldazar|N|From Direhorn Hatchling.|RANK|2|
+R Warbeast Kraal|ACTIVE|47226|M|66.02,44.53|Z|0862;Zuldazar|N|Continue up the road, turning right at the intersection and following the road over the bridge.|
 f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|Z|0862;Zuldazar|N|At Paku'ai Verraki, on top of the hill.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 T The Orphaned Hatchling|QID|47226|M|66.80,42.51|Z|0862;Zuldazar|N|To Beastlord L'kala.|
 A Direhorn Daycare|QID|47259|PRE|47226|M|66.80,42.51|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
