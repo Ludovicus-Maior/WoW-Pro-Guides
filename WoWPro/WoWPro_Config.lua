@@ -38,7 +38,7 @@ local soundfiles = {
 }
 
 
-local function CreateDisplayConfig()
+local function createDisplayConfig()
     return {
         type = "group",
         order = 2,
@@ -608,15 +608,16 @@ local function CreateDisplayConfig()
                 set = function(info,r,g,b)
                     WoWProDB.profile.stickytitletextcolor = {r,g,b}
                     WoWPro.RowFontSet() end
-            },
+            }
         }
     }
 end
 
-local function createBlizzOptions()
-    config:RegisterOptionsTable("WoWPro-Bliz", {
+local function createMainConfig()
+    return {
         name = L["WoW-Pro Guides"],
         type = "group",
+        order = 0,
         args = {
             version = {
                 order = 1,
@@ -876,7 +877,7 @@ local function createBlizzOptions()
                 fontSize = "medium",
                 name =
                     "The WoW-Pro addon has brought many of the guides we've built as a community into the game, "..
-                    "and built on them since WotLK to Classic(s) and Dragonflight. Drop by on Discord and say hello!"
+                    "and built on them since WotLK to the Classic(s) and Dragonflight. Drop by on Discord and say hello!"
             },
             blank19 = {
                 order = 102,
@@ -894,27 +895,16 @@ local function createBlizzOptions()
                 get = function () return "https://discord.gg/aarduK7"; end,
                 set = function () return "https://discord.gg/aarduK7"; end,
                 icon = "Interface\\AddOns\\WoWPro\\Textures\\Discord",
-            },
-        },
-    })
+            }
+        }
+    }
+end
 
-
-    dialog:SetDefaultSize("WoWPro-Bliz", 600, 400)
-    dialog:AddToBlizOptions("WoWPro-Bliz", "WoW-Pro")
-
-    -- Display Options
-    local display = CreateDisplayConfig()
-    config:RegisterOptionsTable("WoWPro-Display", display)
-    dialog:AddToBlizOptions("WoWPro-Display", display.name, "WoW-Pro")
-
-    -- Profile Options
-    config:RegisterOptionsTable("WoWPro-Profile", _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB))
-    dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro")
-
-    -- Expert Options
-    local expert = {
+local function createExpertOptions()
+    return {
         name = L["WoW-Pro Expert"],
         type = "group",
+        order = 100,
         args = {
             version = {
                 order = 1,
@@ -1053,12 +1043,23 @@ local function createBlizzOptions()
             },
         },
     }
-    config:RegisterOptionsTable("WoWPro-Expert", expert)
-    dialog:AddToBlizOptions("WoWPro-Expert", expert.name, "WoW-Pro")
 end
 
 function WoWPro.CreateConfig()
-    createBlizzOptions()
+    local topConfig = {
+        name = "Options",
+        type = "group",
+        childGroups = "tab",
+        args = {
+            mainConfig = createMainConfig(),
+            displayConfig = createDisplayConfig(),
+            expertConfig = createExpertOptions()
+        }
+    }
+    -- Register your options with AceConfig
+    config:RegisterOptionsTable("WoWPro", topConfig)
+    -- Add the options to the Blizzard Interface Options
+    dialog:AddToBlizOptions("WoWPro", "WoWPro")
     _G.InterfaceOptions_AddCategory(WoWPro.GuideList)
     _G.InterfaceOptions_AddCategory(WoWPro.CurrentGuideFrame)
 end
