@@ -927,13 +927,13 @@ local function createExpertOptions()
                 set = function(info,val) WoWProDB.global.QuestEngineDelay = val end,
                 width = "full"
             },
-            spacer = {
+            spacer2 = {
                 order = 3,
                 type = "description",
                 name = " ",
                 width = "full"
             },
-            spacer = {
+            spacer3 = {
                 order = 3.1,
                 type = "description",
                 name = " ",
