@@ -52,6 +52,7 @@ function WoWPro:DragSet()
     if WoWProDB.profile.drag then
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
+                WoWPro.InhibitAnchorRestore = true
                 WoWPro.MainFrame:StartMoving()
             elseif button == "RightButton" then
                 _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
@@ -61,7 +62,8 @@ function WoWPro:DragSet()
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.MainFrame:StopMovingOrSizing()
                 WoWPro.MainFrame:SetUserPlaced(false)
-                WoWPro.AnchorStore()
+                WoWPro.AnchorStore("OnMouseUp0")
+                WoWPro.InhibitAnchorRestore = false
             end
         end)
     else
@@ -331,7 +333,7 @@ function WoWPro.SetMouseNotesPoints()
     end
 end
 
-function WoWPro.AnchorStore()
+function WoWPro.AnchorStore(where)
     -- Update the position when we are no longer in combat
     WoWPro.MainFrame:SetScript("OnUpdate", function()
         if not WoWPro.MaybeCombatLockdown() then
@@ -343,7 +345,7 @@ function WoWPro.AnchorStore()
             end
             WoWProDB.profile.position = pos
             WoWProDB.profile.scale = scale
-            WoWPro:dbp("AnchorStore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f, scale=%.2f",
+            WoWPro:dbp("AnchorStore(%s): point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f, scale=%.2f", where,
                         pos[1], pos[2], pos[3], pos[4], pos[5], WoWProDB.profile.scale)
             local size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
             WoWPro:dbp("AnchorStore: Height=%.2f Width=%.2f", size[1], size[2])
@@ -354,6 +356,10 @@ function WoWPro.AnchorStore()
 end
 
 function WoWPro.AnchorRestore(reset_size)
+    if WoWPro.InhibitAnchorRestore then
+        WoWPro:dbp("AnchorRestore: Punting for now.")
+        return
+    end
     WoWPro.MainFrame:ClearAllPoints()
     local pos = WoWProDB.profile.position
     WoWPro:dbp("AnchorRestore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f", unpack(pos))
@@ -448,6 +454,7 @@ function WoWPro:CreateMainFrame()
     -- Scripts --
     WoWPro.MainFrame:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
+            WoWPro.InhibitAnchorRestore = true
             this:StartMoving()
         elseif button == "RightButton" then
             _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
@@ -457,13 +464,14 @@ function WoWPro:CreateMainFrame()
         if button == "LeftButton" and WoWProDB.profile.drag then
             this:StopMovingOrSizing()
             this:SetUserPlaced(false)
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("OnMouseUp1")
+            WoWPro.InhibitAnchorRestore = false
         end
     end)
     WoWPro.MainFrame:SetScript("OnDragStop", function()
-        WoWPro.AnchorStore() ; end)
+        WoWPro.AnchorStore("OnDragStop") ; end)
     WoWPro.MainFrame:SetScript("OnSizeChanged", function()
-        WoWPro.AnchorStore() ; end)
+        WoWPro.AnchorStore("OnSizeChanged") ; end)
 
     -- Set initial keybindings frames
     WoWPro.FauxItemButton = _G.CreateFrame("Frame", "WoWPro_FauxItemButton", _G.UIParent)
@@ -502,6 +510,7 @@ function WoWPro:CreateResizeButton()
     resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
     -- Scripts --
         resizebutton:SetScript("OnMouseDown", function()
+            WoWPro.InhibitAnchorRestore = true
             WoWPro.MainFrame:StartSizing("TOPLEFT")
             WoWPro:UpdateGuide("ResizeStart")
             WoWPro.MainFrame:SetScript("OnSizeChanged", function(this, width, height)
@@ -511,6 +520,7 @@ function WoWPro:CreateResizeButton()
         resizebutton:SetScript("OnMouseUp", function()
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.InhibitAnchorRestore = false
             WoWPro:UpdateGuide("ResizeEnd")
             WoWPro.MainFrame:SetScript("OnSizeChanged", nil)
         end)
@@ -543,6 +553,7 @@ function WoWPro:CreateTitleBar()
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
     WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
+            WoWPro.InhibitAnchorRestore = true
             WoWPro.MainFrame:StartMoving()
         elseif button == "RightButton" then
             _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
@@ -552,7 +563,8 @@ function WoWPro:CreateTitleBar()
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("OnMouseUp2")
+            WoWPro.InhibitAnchorRestore = false
         end
     end)
     WoWPro.Titlebar:SetScript ("OnDoubleClick", function (this, button)
@@ -564,7 +576,7 @@ function WoWPro:CreateTitleBar()
             WoWPro.MainFrame:SetHeight(this:GetHeight())
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("OnDoubleClick1")
         else
             WoWPro.GuideFrame:Show()
             if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
@@ -572,7 +584,7 @@ function WoWPro:CreateTitleBar()
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("OnDoubleClick0")
             WoWPro:UpdateGuide("DoubleClick")
         end
     end)
