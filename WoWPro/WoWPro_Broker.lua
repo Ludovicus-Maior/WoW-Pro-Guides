@@ -1569,11 +1569,6 @@ function WoWPro.UpdateGuideReal(From)
         reload = rowContentUpdate()
     end
 
-    -- Update content and formatting --
-    WoWPro.RowSet();
-    WoWPro.RowSet();
-    WoWPro.PaddingSet();
-
     -- Updating the guide list or current guide panels if they are shown --
     if WoWPro[module:GetName()].GuideList
     and WoWPro[module:GetName()].GuideList.Frame
@@ -1619,6 +1614,9 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_LOAD")
         WoWPro.GuideLoaded = "Updated"
     end
+    -- Update content and formatting --
+    WoWPro.PaddingSet()
+    WoWPro.RowSet()
 end
 
 local Rep2IdAndClass

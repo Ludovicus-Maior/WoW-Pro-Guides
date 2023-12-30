@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoDalFish",'Dailies', "Dalaran!Crystalsong Forest", "Ludovicus", "Neutral", 3)
 WoWPro:GuideLevels(guide,10,10,10)
-WoWPro.Dailies:GuideNameAndCategory(guide,"Dalaran Fishing")
+WoWPro.Dailies:GuideNameAndCategory(guide,"Dalaran Fishing", "Professions")
 WoWPro:GuideSteps(guide, function()
 return [[
 

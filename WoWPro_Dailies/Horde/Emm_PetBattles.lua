@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("EmmPetBattles",'Dailies', "Vale of Eternal Blossoms", "Emmaleah", "Horde")
 WoWPro:GuideLevels(guide ,1,60)
-WoWPro.Dailies:GuideNameAndCategory(guide,"Pet Battle Dailies")
+WoWPro.Dailies:GuideNameAndCategory(guide,"Pet Battle Dailies", "Pets")
 WoWPro:GuideSteps(guide, function()
 return [[
 
