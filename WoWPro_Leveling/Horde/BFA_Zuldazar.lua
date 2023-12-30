@@ -5,8 +5,8 @@ WoWPro:GuideNickname(guide, "Zuldazar")
 WoWPro:GuideNextGuide(guide, 'Nazmir')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|N|Jump to the Guide Hub if you wish to quest in one of the other areas.|S!US|LVL|20|NOCACHE|
-N Nazmir Available|AVAILABLE|47103&49615|M|PLAYER|N|Now that you have reached level 20, you can now continue your journey in [color=00FF96]Nazmir[/color].\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S!US|LVL|20|
+N Battle for Azeroth: Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|N|Jump to the Guide Hub if you wish to quest in one of the other areas.|S!US|LVL|20|NOCACHE|IZ|Dazar'alor|
+N Nazmir Available|AVAILABLE|47103&49615|M|PLAYER|N|Now that you have reached level 20, you can now continue your journey in [color=00FF96]Nazmir[/color].\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S!US|LVL|20|IZ|Dazar'alor|
 N Rares (aka Silver Elite)|ACTIVE|47514|ACH|12944|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 N Treasure|ACTIVE|47514|ACH|12851|N|The majority of the treasure chests in Zuldazar are first come, respawning randomly.  There are a few one time treasures. If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).|
 N Use of Ranks|ACTIVE|47514|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement.\nSet guide to Rank 2 to also do the quests, treasures, and rares that are conveniently located.\nSet the guide to Rank 3 to get all the quests, rares, and named treasures in the zone. To get rares and treasures, you need to enable those options.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
@@ -255,82 +255,82 @@ T The Great Hat Robbery|QID|50381|M|61.91,46.89|Z|0862;Zuldazar|N|To Jani.\n[col
 $ Strange Egg|QID|50508|M|61.90,46.22|Z|0862;Zuldazar|ITEM|162613|N|Investigate the Strange Egg. 2 waves of Saurid will attack, then the egg will open spawning Vukuba, a Silver Elite to kill for azerite power and resources.|T|Vukuba|RANK|3|LVL|50|RARE|
 T The Missing Handler|QID|50538|LEAD|47226|M|64.26,44.60|Z|0862;Zuldazar|N|To Handler Bazkoji.|
 A The Orphaned Hatchling|QID|47226|M|64.33,44.69|Z|0862;Zuldazar|N|From Direhorn Hatchling.|RANK|2|
-R Warbeast Kraal|ACTIVE|47226|M|66.02,44.53|Z|0862;Zuldazar|N|Continue up the road, turning right at the intersection and following the road over the bridge.|
-f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|Z|0862;Zuldazar|N|At Paku'ai Verraki, on top of the hill.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
-T The Orphaned Hatchling|QID|47226|M|66.80,42.51|Z|0862;Zuldazar|N|To Beastlord L'kala.|
-A Direhorn Daycare|QID|47259|PRE|47226|M|66.80,42.51|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
-A Ravenous Landsharks|QID|48527|PRE|47226|M|66.80,42.51|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
+R Warbeast Kraal|ACTIVE|47226|M|66.02,44.53|Z|0862;Zuldazar|N|Continue up the road, turning right at the intersection and following the road over the bridge.\n[color=FF0000]NOTE: [/color]Going straight will get you there as well; but, you want to be on top of the hill.|
+f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|Z|0862;Zuldazar|N|At Paku'ai Verraki, just past the bridge.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
+T The Orphaned Hatchling|QID|47226|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+A Direhorn Daycare|QID|47259|PRE|47226|M|66.81,42.50|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
+A Ravenous Landsharks|QID|48527|PRE|47226|M|66.81,42.50|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
 C Ravenous Landsharks|QID|48527|M|68.81,48.09|Z|0862;Zuldazar|N|Kill Irritable Diemetradons as you go.|S|
 C Direhorn Daycare|QID|47259|M|69.10,44.91|Z|0862;Zuldazar|N|Click on the soothing lilybud bushes to feed your Direhorn Hatchling as you go.|H|S|
 K Kandak|QID|48543|QO|1|M|68.66,48.72|Z|0862;Zuldazar|ITEM|160984|N|Silver Elite to kill for azerite power and resources.|T|Kandak|RANK|2|RARE|
 C Direhorn Daycare|QID|47259|M|69.10,44.91|Z|0862;Zuldazar|N|Finish satiating your hatchling.|H|US|
 C Ravenous Landsharks|QID|48527|M|68.81,48.09|Z|0862;Zuldazar|N|Finish your quota of Irritable Diemetradons.|US|
-T Direhorn Daycare|QID|47259|M|66.80,42.55|Z|0862;Zuldazar|N|To Beastlord L'kala.|
-T Ravenous Landsharks|QID|48527|M|66.80,42.55|Z|0862;Zuldazar|N|To Beastlord L'kala.|
-A Headbutting 101|QID|47311|PRE|47259&48527|M|66.80,42.55|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
-A Direhorn Growth Hormone|QID|47272|PRE|47259&48527|M|66.81,42.58|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|RANK|2|
+T Direhorn Daycare|QID|47259|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+T Ravenous Landsharks|QID|48527|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+A Headbutting 101|QID|47311|PRE|47259&48527|M|66.81,42.50|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
+A Direhorn Growth Hormone|QID|47272|PRE|47259&48527|M|66.80,42.58|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|RANK|2|
 A WANTED: Jabra'kan|QID|51980|M|69.05,40.83|Z|0862;Zuldazar|N|From Wanted Poster.|RANK|2|
-A Queenfeather|QID|47312|M|69.02,40.72|Z|0862;Zuldazar|N|From Wingrider Nivek.|RANK|2|
+A Queenfeather|QID|47312|M|69.01,40.68|Z|0862;Zuldazar|N|From Wingrider Nivek.|RANK|2|
 C Headbutting 101|QID|47311|M|70.42,40.31|Z|0862;Zuldazar|N|Use the Extra Action button to command your Hatchling to fight your target.|S|
 C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|Z|0862;Zuldazar|N|Pick up the Steaming Fresh Carrion from the ground as you go.|H|S|
 C Queenfeather|QID|47312|M|71.37,40.69|Z|0862;Zuldazar|N|Kill Queenfeather and loot her Plume.|
-K Ravasaurs|QID|50311^50308|M|71.69,41.28|Z|0862;Zuldazar|L|156963|N|Keep looting the ravasaur mobs until you pick up a "Golden Ravasaur Egg."|RANK|2|
+l Golden Ravasaur Egg|QID|50311^50308|M|71.69,41.28|Z|0862;Zuldazar|L|156963|ITEM|156963|N|any Ravasaur in the Feeding Grounds.|RANK|2|
 $ Mysterious Trashpile|QID|50311^50308|M|71.69,41.28|Z|0862;Zuldazar|N|Click on the Trashpile to summon Jani. Offer to give Jani the Golden Egg and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|BUFF|262169|CHAT|RANK|2|
 C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|Z|0862;Zuldazar|N|Finish collecting the Steaming Fresh Carrion.|H|US|
 C Headbutting 101|QID|47311|M|70.42,40.31|Z|0862;Zuldazar|N|Command your Hatchling to fight|US|
-T Queenfeather|QID|47312|M|69.01,40.71|Z|0862;Zuldazar|N|To Wingrider Nivek.|
-T Direhorn Growth Hormone|QID|47272|M|66.81,42.58|Z|0862;Zuldazar|N|To Trader Alexxi Cruzpot.|
-T Headbutting 101|QID|47311|M|66.80,42.55|Z|0862;Zuldazar|N|To Beastlord L'kala.|
-A Wings for the Kraal|QID|51990|PRE|47311|M|66.80,42.55|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
-A DGH: Now With Real Direhorn|QID|51998|PRE|47311|M|66.81,42.58|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|RANK|2|
+T Queenfeather|QID|47312|M|69.01,40.68|Z|0862;Zuldazar|N|To Wingrider Nivek.|
+T Direhorn Growth Hormone|QID|47272|M|66.80,42.58|Z|0862;Zuldazar|N|To Trader Alexxi Cruzpot.|
+T Headbutting 101|QID|47311|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+A Wings for the Kraal|QID|51990|PRE|47311|M|66.81,42.50|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
+A DGH: Now With Real Direhorn|QID|51998|PRE|47311|M|66.80,42.58|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|RANK|2|
 C DGH: Now With Real Direhorn|QID|51998|M|66.79,34.09|Z|0862;Zuldazar|N|Kill Pterrordax' and loot to collect the Partially Digested Direhorn Flesh.|S|
 C Wings for the Kraal|QID|51990|M|66.72,34.46|Z|0862;Zuldazar|N|Pick up the nearly-hatching Pterrordax Egg.|S|
 K Bramblewing|QID|50034|QO|1|M|66.70,32.24|Z|0862;Zuldazar|ITEM|161020|N|Silver Elite to kill for azerite power and resources.|T|Bramblewing|RANK|2|RARE|
 C Wings for the Kraal|QID|51990|M|66.72,34.46|Z|0862;Zuldazar|N|Finish picking up the nearly-hatching Pterrordax Egg.|H|US|
 C DGH: Now With Real Direhorn|QID|51998|M|66.79,34.09|Z|0862;Zuldazar|N|Finish collecting the Partially Digested Direhorn Flesh.|US|
 C WANTED: Jabra'kan|QID|51980|M|67.07,37.15|Z|0862;Zuldazar|N|Kill Jabra'kan the Poacher.|T|Jabra'kan|
-t WANTED: Jabra'kan|QID|51980|M|69.01,40.71|Z|0862;Zuldazar|N|To Wingrider Nivek.|
-T DGH: Now With Real Direhorn|QID|51998|M|66.81,42.58|Z|0862;Zuldazar|N|To Trader Alexxi Cruzpot.|
-T Wings for the Kraal|QID|51990|M|66.80,42.51|Z|0862;Zuldazar|N|To Beastlord L'kala.|
-A Growing Pains|QID|47418|PRE|47272|M|66.80,42.55|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|RANK|2|
+T WANTED: Jabra'kan|QID|51980|M|69.01,40.68|Z|0862;Zuldazar|N|To Wingrider Nivek.|
+T DGH: Now With Real Direhorn|QID|51998|M|66.80,42.58|Z|0862;Zuldazar|N|To Trader Alexxi Cruzpot.|
+T Wings for the Kraal|QID|51990|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+A Growing Pains|QID|47418|PRE|47272|M|66.81,42.50|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|RANK|2|
 C Growing Pains|QID|47418|QO|1|M|66.85,42.44|Z|0862;Zuldazar|N|Feed the DGH to your Hatchling.|U|147897|H|
-T Growing Pains|QID|47418|M|66.81,42.58|Z|0862;Zuldazar|N|To Trader Alexxi Cruzpot.|
-A How to Train Your Direhorn|QID|47261|PRE|47418&47311|M|66.80,42.55|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
+T Growing Pains|QID|47418|M|66.80,42.58|Z|0862;Zuldazar|N|To Trader Alexxi Cruzpot.|
+A How to Train Your Direhorn|QID|47261|PRE|47418&47311|M|66.81,42.50|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
 C How to Train Your Direhorn|QID|47261|QO|1|M|67.56,43.45|Z|0862;Zuldazar|N|Talk to Training Master B'khor.|CHAT|
 C How to Train Your Direhorn|QID|47261|QO|2|M|69.12,45.08|Z|0862;Zuldazar|N|Go into the training pen to meet Pinky.|NC|
 C How to Train Your Direhorn|QID|47261|QO|3|M|69.76,43.83|Z|0862;Zuldazar|N|Use the "1" key to sprint away from Pinky towards the North gate.|NC|
 C How to Train Your Direhorn|QID|47261|QO|4|M|70.45,44.59|Z|0862;Zuldazar|N|Run for help. Alternate the "1" and "2" keys while you run, trust me, Pinky is following.|NC|
-C How to Train Your Direhorn|QID|47261|QO|5|M|66.97,44.45|Z|0862;Zuldazar|N|Keep running.|NC|
+C How to Train Your Direhorn|QID|47261|QO|5|M|66.97,44.45|Z|0862;Zuldazar|N|Keep running using '1' to break through the gates.|NC|
 C How to Train Your Direhorn|QID|47261|QO|6|M|67.60,43.41|Z|0862;Zuldazar|N|Return to Kraal Master B'khor.|NC|
-T How to Train Your Direhorn|QID|47261|M|67.55,43.44|Z|0862;Zuldazar|N|To Kraal Master B'khor.|
+T How to Train Your Direhorn|QID|47261|M|67.55,43.44|Z|0862;Zuldazar|N|To Kraal Master B'khor.\n[color=FF0000]NOTE: [/color]You need to dismount to interact with him.|
 A A Good Spanking|QID|48581|PRE|47261|M|67.55,43.44|Z|0862;Zuldazar|N|From Kraal Master B'khor.|RANK|2|
 C A Good Spanking|QID|48581|M|67.87,44.97|Z|0862;Zuldazar|N|Go beat up on Pinky to tire him out.|
-T A Good Spanking|QID|48581|M|66.80,42.55|Z|0862;Zuldazar|N|To Beastlord L'kala.|
-A Naptime|QID|47310|PRE|48581|M|66.80,42.55|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
-C Naptime|QID|47310|M|68.29,42.05|Z|0862;Zuldazar|N|Click on the gates to send your Direhorn Juvenile into the "stable"|H|
-T Naptime|QID|47310|M|66.79,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+T A Good Spanking|QID|48581|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+A Naptime|QID|47310|PRE|48581|M|66.81,42.50|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
+C Naptime|QID|47310|M|68.22,42.08|Z|0862;Zuldazar|N|Click on the gates to send your Direhorn Juvenile into the "stable"|H|
+T Naptime|QID|47310|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
 N Pet Opportunity|AVAILABLE|47260|PRE|47310|N|After you reach lvl 50, you will get a letter inviting you back to complete 3 more quests for a new pet.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.| ; Level may be different - Hendo72
 F Warbeast Kraal|ACTIVE|47199|AVAILABLE|47260|M|51.92,41.20|Z|1165;Dazar'alor|N|At Paku'ai Rokota.| ; ** Nazmir joins here - Hendo72
 A Side Effects May Include...|QID|47260|PRE|47310|M|68.17,41.74|Z|0862;Zuldazar|N|From Direhorn Juvenile where you left him taking a nap.\n[color=FF0000]NOTE: [/color]Click on the gate to open it.|LVL|50|
-T Side Effects May Include...|QID|47260|M|66.80,42.55|Z|0862;Zuldazar|N|To Beastlord L'kala.|
-A Alchemy is an Inexact Science|QID|52855|M|66.74,42.70|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|
+T Side Effects May Include...|QID|47260|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+A Alchemy is an Inexact Science|QID|52855|M|66.74,42.70|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|LVL|50|
 R Savagelands|ACTIVE|52855|PRE|47260|M|66.74,42.70|Z|0862;Zuldazar|N|Mount up its a bit of a run to find the needed reagents.|
 C Alchemy is an Inexact Science|QID|52855|QO|2|M|70.50,35.27|Z|0862;Zuldazar|N|Click on Incandescent Duskwings to collect the dust.\n[color=FF0000]NOTE: [/color]Do not pick the flower until you are done this. It may bug out you.|H|
 C Alchemy is an Inexact Science|QID|52855|QO|1|M|70.48,34.59|Z|0862;Zuldazar|N|Pick the flower.|H|
 T Alchemy is an Inexact Science|QID|52855|M|66.74,42.70|Z|0862;Zuldazar|N|To Trader Alexxi Cruzpot.|
 A Held For Observation|QID|52857|PRE|52855|M|66.74,42.70|Z|0862;Zuldazar|N|From Trader Alexxi Cruzpot.|
 C Held For Observation|QID|52857|M|68.17,41.74|Z|0862;Zuldazar|N|Give your Direhorn Juvenile the remedy.|T|Direhorn Juvenile|U|162589|NC|
-T Held For Observation|QID|52857|M|66.80,42.55|Z|0862;Zuldazar|N|To Beastlord L'kala.|
+T Held For Observation|QID|52857|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
 F Scaletrader Post|ACTIVE|49768|M|67.26,43.03|Z|0862;Zuldazar|N|At Paku'ai Verraki.|
 R Nesingwary's Trek|ACTIVE|49768|M|69.23,27.56;68.53,23.01;67.91,21.19;67.54,18.00|CS|Z|0862;Zuldazar|N|And on to find Nesingwary.|RANK|2|
 T Nesingwary's Trek|QID|49768|M|67.50,17.70|Z|0862;Zuldazar|N|To Hemet Nesingwary.|
 A He's Gone Mad!|QID|50466|M|67.50,17.70|Z|0862;Zuldazar|N|From Hemet Nesingwary.|RANK|2|
 A Die, Die, Diemetradon|QID|47583|PRE|49768|M|67.56,17.73|Z|0862;Zuldazar|N|From Tracker Burke.|RANK|2|
-A Hunt for King K'tal|QID|47706|PRE|49768|M|67.46,17.92|Z|0862;Zuldazar|N|From Hunter's Board.|RANK|2|
-A WANTED: Ten'gor and Nol'ixwan|QID|51091|PRE|49768|M|67.46,17.92|Z|0862;Zuldazar|N|From Hunter's Board.|RANK|2|
 A A Thorn in the Side|QID|47584|PRE|49768|M|67.45,17.72|Z|0862;Zuldazar|N|From Erak the Aloof.|RANK|2|
-A Predatory|QID|47585|QO|1|M|68.85,19.44|Z|0862;Zuldazar|N|From Trapper Custer. (or what's left of him.|RANK|2|
+A Hunt for King K'tal|QID|47706|PRE|49768|M|67.44,17.92|Z|0862;Zuldazar|N|From Hunter's Board.|RANK|2|
+A WANTED: Ten'gor and Nol'ixwan|QID|51091|PRE|49768|M|67.44,17.92|Z|0862;Zuldazar|N|From Hunter's Board.|RANK|2|
 C Die, Die, Diemetradon|QID|47583|M|67.85,24.11|Z|0862;Zuldazar|N|Kill Venomous Diemetradons.|S|
+A Predatory|QID|47585|QO|1|M|68.85,19.44|Z|0862;Zuldazar|N|From Trapper Custer (or what's left of him).|RANK|2|
 C A Thorn in the Side|QID|47584|M|68.32,21.65|Z|0862;Zuldazar|N|Kill Ankylodons.|S|
 $ The Exile's Lament|QID|50949|M|71.28,17.45;71.83,16.77|CS|Z|0862;Zuldazar|N|Inside the cave you can find a chest to loot for azerite power and resources.|RANK|2|
 K King K'tal|ACTIVE|47706|QO|1|M|69.88,22.79|Z|0862;Zuldazar|N|Kill K'tal and loot his skull. This is a group quest so you may need help.|S|
