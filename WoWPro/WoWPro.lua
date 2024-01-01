@@ -947,7 +947,7 @@ function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
         guide['level_float'] = true
     end
     if not upperLevel then
-        upperLevel = min(playerLevel+1, 60) -- REVIEW after Patch 10 for level changes.
+        upperLevel = min(playerLevel+1, 70) -- REVIEW after Patch 10 for level changes.
         guide['level_float'] = true
     end
 
