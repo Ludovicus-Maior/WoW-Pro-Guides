@@ -14,4 +14,3 @@ WoWPro_Dailies_GuideList.lua
 Alliance\Classic_Wrath\Guides.xml
 Horde\Classic_Wrath\Guides.xml
 Neutral\Classic_Wrath\Guides.xml
-
