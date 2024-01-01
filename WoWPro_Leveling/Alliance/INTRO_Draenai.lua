@@ -3,6 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Draenei: Intro")
 WoWPro:GuideName(guide,"Draenei: Intro")
+WoWPro:GuideRaceSpecific(guide,"Draenei")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[

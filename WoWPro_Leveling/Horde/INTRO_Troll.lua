@@ -3,6 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNickname(guide, "Troll: Intro")
 WoWPro:GuideName(guide,"Troll: Intro")
+WoWPro:GuideRaceSpecific(guide,"Troll")
 WoWPro:GuideNextGuide(guide, "Orc & Troll: Intro (Part 2)")
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -3,6 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Dwarf: Intro")
 WoWPro:GuideName(guide,"Dwarf: Intro")
+WoWPro:GuideRaceSpecific(guide,"Dwarf")
 WoWPro:GuideNextGuide(guide, 'Dwarf & Gnome: Intro (Part 2)')
 WoWPro:GuideSteps(guide, function()
 return

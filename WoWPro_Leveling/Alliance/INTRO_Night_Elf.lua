@@ -3,6 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideNickname(guide, "Night Elf: Intro")
 WoWPro:GuideName(guide,"Night Elf: Intro")
+WoWPro:GuideRaceSpecific(guide,"Night Elf")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[

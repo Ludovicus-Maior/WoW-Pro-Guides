@@ -5,6 +5,7 @@ WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideRaceSpecific(guide,"Worgen")
 WoWPro:GuideNickname(guide, "Worgen: Intro")
 WoWPro:GuideName(guide,"Worgen: Intro")
+WoWPro:GuideRaceSpecific(guide,"Worgen")
 WoWPro:GuideNextGuide(guide, "Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return [[

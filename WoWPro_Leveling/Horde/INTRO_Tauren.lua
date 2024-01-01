@@ -3,6 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 9)
 WoWPro:GuideNickname(guide, "Tauren: Intro")
 WoWPro:GuideName(guide,"Tauren: Intro")
+WoWPro:GuideRaceSpecific(guide,"Tauren")
 WoWPro:GuideNextGuide(guide, "Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return [[

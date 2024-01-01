@@ -3,6 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Human: Intro")
 WoWPro:GuideName(guide,"Human: Intro")
+WoWPro:GuideRaceSpecific(guide,"Human")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
