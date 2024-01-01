@@ -8,6 +8,9 @@
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_WorldEvents.lua
+WoWPro_WorldEvents_Parser.lua
+WoWPro_WorldEvents_Config.lua
+WoWPro_WorldEvents_GuideList.lua
 Alliance\Classic_Wrath\Guides.xml
 Alliance\Classic_BC\Guides.xml
 Alliance\Guides.xml
@@ -17,6 +20,4 @@ Neutral\Guides.xml
 Horde\Classic_Wrath\Guides.xml
 Horde\Classic_BC\Guides.xml
 Horde\Guides.xml
-WoWPro_WorldEvents_Parser.lua
-WoWPro_WorldEvents_Config.lua
-WoWPro_WorldEvents_GuideList.lua
+
