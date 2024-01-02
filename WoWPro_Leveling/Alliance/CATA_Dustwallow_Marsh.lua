@@ -1,16 +1,24 @@
-local guide = WoWPro:RegisterGuide('WkjDus3540', "Leveling", 'Dustwallow Marsh', 'WKjezz', 'Alliance')
+local guide = WoWPro:RegisterGuide('WkjDus3540', "Leveling", 'Dustwallow Marsh', 'WoWPro Team', 'Alliance')
+WoWPro:GuideName(guide,"Dustwallow Marsh")
 WoWPro:GuideSort(guide, 18)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves off. If you did not do Southern Barrens, you can take the Hero's Call quest from Darnassus, Exodar or Stormwind instead.  Either make your way to Fort Triumph and run to Theramore or sail from Wetlands.  (Manually close this step by right clicking the check box)|
+t The Call of Kalimdor|QID|26596|M|68.42,69.12|Z|0010;Northern Barrens|N|To Gazlowe.|IZ|Ratchet|
+A WANTED: Cap'n Garvey|QID|895|M|68.28,71.28|Z|0010;Northern Barrens|N|From the WANTED poster.|RANK|2|
+l WANTED: Cap'n Garvey|ACTIVE|895|QO|1|M|77.81,89.20|Z|0010;Northern Barrens|ITEM|5084|N|Cap'n Garvey\n[color=FF0000]NOTE: [/color]If you're feeling lucky you can try to pickpocket it from him (It's been done 9 times according to WH)|
+T WANTED: Cap'n Garvey|QID|895|M|68.42,69.12|Z|0010;Northern Barrens|N|To Gazlowe.|
+A It's Gotta be the Horn|QID|865|M|67.85,71.58|Z|0010;Northern Barrens|N|From Mebok Mizzyrix.|
+l It's Gotta be the Horn|ACTIVE|865|QO|1|M|64.82,57.15;65.10,61.60|Z|0010;Northern Barrens|CN|ITEM|46850|N|Reaperclaw\nHe (and his minions) wander back and forth between the waypoints.|
+T It's Gotta be the Horn|QID|865|M|67.85,71.52|Z|0010;Northern Barrens|N|To Mebok Mizzyrix.|
 R Dustwallow Marsh|QID|27251|M|56.61,78.35|Z|Southern Barrens|N|Head into Dustwallow Marsh.|
 R Theramore Isle |QID|27251|M|68.19,46.82|N|Follow the path all the way east to Theramore. It's populated by Alliance vehicles and banners.|
 A They Call Him Smiling Jim|QID|27251|LEAD|27249|M|66.05,45.91|N|From Guard Byron.|
 h Theramore Isle|QID|27251|M|66.57,45.26|N|At Innkeeper Janene. Take this chance to sell your junk and restock also.|
 A Mudrock Soup and Bugs|QID|1204|M|68.23,48.79|N|From Morgan Stern.|
-T Reinforcements From Theramore|QID|26687|O|M|68.21,48.58|N|To Captain Garran Vimes.|
+T Reinforcements From Theramore|QID|26687|M|68.21,48.58|N|To Captain Garran Vimes.|O|
 T They Call Him Smiling Jim|QID|27251|M|68.21,48.58|N|To Captain Garran Vimes.|
 A Inspecting the Ruins|QID|27249|M|68.21,48.58|N|From Captain Garran Vimes.|
 f Theramore Isle|QID|27210|M|67.49,51.33|N|At Baldruc.|

@@ -99,6 +99,24 @@ local function LevelRefresh(guide)
 end
 
 local rangeFormat = "%d - %d"
+
+local function ResolveGuide(guide)
+    WoWPro:ResolveIcon(guide)
+    if not WoWPro.RETAIL then
+        guide.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
+    else
+        local _, mapID = WoWPro:ValidZone(guide.zone)
+        if not guide.level then
+            guide.level = LevelRefresh(guide)
+        end
+
+        if not guide.sortlevel then
+            guide.sortlevel = guide.level
+        end
+        guide.xpac, guide.category = GetGuideContent(guide, mapID)
+    end
+end
+
 local function GetGuides()
     local guides = {}
     for guideID, guide in pairs(WoWPro.Guides) do
@@ -110,23 +128,10 @@ local function GetGuides()
                 Zone = WoWPro:GetGuideName(guideID),
                 Author = guide.author,
                 level = guide.level,
-				sortlevel = guide.sortlevel
+                sortlevel = guide.sortlevel,
+                Content = guide.category
             }
-            if not WoWPro.RETAIL then
-                guideInfo.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
-            else
-                local _, mapID = WoWPro:ValidZone(guide.zone)
-				if not guide.level then
-					guideInfo.level = LevelRefresh(guide)
-					guide.level = guideInfo.level
-				end
-
-				if not guide.sortlevel then
-					guideInfo.sortlevel = guide.level
-					guide.sortlevel = guide.level
-				end
-                guideInfo.xpac, guideInfo.Content = GetGuideContent(guide, mapID)
-            end
+            ResolveGuide(guide)
             guideInfo.progress, guideInfo.Progress = WoWPro:GetGuideProgress(guideID)
             tinsert(guides, guideInfo)
         end
@@ -226,5 +231,12 @@ function Leveling:GetGuideListInfo()
     end
     return listInfo
 end
+
+function Leveling:RegisterGuide(guide)
+    ResolveGuide(guide)
+    guide.name =  (guide.name or guide.zone)
+    guide.nickname = guide.name
+end
+
 Leveling.sortIndex = 2
 Leveling:dbp("Guide Setup complete")

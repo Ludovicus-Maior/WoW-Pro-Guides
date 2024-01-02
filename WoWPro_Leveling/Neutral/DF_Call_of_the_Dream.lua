@@ -9,9 +9,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N You need to complete Coalition of Flames to continue with this guide.|AVAILABLE|75923|JUMP|The Coalition of Flames|
-t Call of the Dream|QID|76317|M|18.66,51.77|Z|2023;Ohn'ahran Plains|N|To Merithra.|
-A Emerald Welcome|QID|76318|PRE|76317|M|18.66,51.77|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-C Emerald Welcome|QID|76318|M|18.38,52.35|Z|2023;Ohn'ahran Plains|QO|1|NC|N|Cross into Emerald Dream.|
+t Call of the Dream|QID|76317|M|18.66,51.77|Z|2023|N|To Merithra.|
+A Emerald Welcome|QID|76318|PRE|76317|M|18.66,51.77|Z|2023|N|From Merithra.|
+C Emerald Welcome|QID|76318|M|18.38,52.35|Z|2023|QO|1|NC|N|Cross into Emerald Dream.|
 C Emerald Welcome|QID|76318|M|69.43,54.07|Z|2200;Emerald Dream|QO|2|CHAT|N|Speak to Merithra.|
 T Emerald Welcome|QID|76318|M|69.43,54.07|Z|2200;Emerald Dream|N|To Merithra.|
 A Feast or Flaming|QID|76319|PRE|76318|M|69.43,54.07|Z|2200;Emerald Dream|N|From Merithra.\nTime to mount your dragon and fly through the rings in the sky.|
@@ -214,9 +214,9 @@ T Q'onzu's Quandary|QID|78043|M|65.85,37.65|Z|2200;Emerald Dream|N|To Q'onzu.|
 T Ashphodel Research Notes|QID|77788|M|65.85,37.65|Z|2200;Emerald Dream|N|To Q'onzu.|
 A Uproot the Cause|QID|78045|PRE|78042|M|65.85,37.65|Z|2200;Emerald Dream|N|From Aviana.|RANK|2|
 A Appalling Pollen|QID|78044|PRE|78043|M|65.85,37.65|Z|2200;Emerald Dream|N|From Q'onzu.|RANK|2|
-C Appalling Pollen|QID|78044|M|59.59,37.18|Z|2200;Emerald Dream|N|From Q'onzu.|S|U|210176|
-C Uproot the Cause|QID|78045|M|59.59,37.18|Z|2200;Emerald Dream|N|From Aviana.|
-C Appalling Pollen|QID|78044|M|59.59,37.18|Z|2200;Emerald Dream|N|From Q'onzu.|US|U|210176|
+C Appalling Pollen|QID|78044|M|59.59,37.18|Z|2200;Emerald Dream|N|Use the diguise to sus out the traitors then kill them.|S|U|210176|
+C Uproot the Cause|QID|78045|M|59.59,37.18|Z|2200;Emerald Dream|N|Pick the fire flowers.|H|
+C Appalling Pollen|QID|78044|M|59.59,37.18|Z|2200;Emerald Dream|N|Use the diguise to sus out the traitors then kill them.|US|U|210176|
 T Uproot the Cause|QID|78045|M|65.85,37.65|Z|2200;Emerald Dream|N|To Aviana.|
 T Appalling Pollen|QID|78044|M|65.85,37.65|Z|2200;Emerald Dream|N|To Q'onzu.|
 A Overseer Oversight|QID|78046|PRE|78044|M|65.85,37.65|Z|2200;Emerald Dream|N|From Aviana.|RANK|2|
@@ -246,13 +246,13 @@ K Lingering Torment|ACTIVE|77315|M|54.74,18.25|Z|2200;Emerald Dream|QO|1|N|Kill 
 T Ancient Memories|QID|77315|M|58.63,23.94|Z|2200;Emerald Dream|N|To Ysera.|
 T Mysterious Seeds|QID|78172|M|59.75,16.91|Z|2200;Emerald Dream|N|To Sylvia Whisperbloom.|
 A Seed Legacy|QID|77209|PRE|78172|M|59.75,16.91|Z|2200;Emerald Dream|N|From Sylvia Whisperbloom.|RANK|2|
-C Seed Legacy|QID|77209|M|59.71,15.85;59.22,17.33;60.11,18.17|CN|Z|2200;Emerald Dream|I|N|Click the dirt piles.|U|210014|
+C Seed Legacy|QID|77209|M|59.71,15.85;59.22,17.33;60.11,18.17|CN|Z|2200;Emerald Dream|I|N|Click the seed on the dirt piles.|U|210014|
 T Seed Legacy|QID|77209|M|59.75,16.91|Z|2200;Emerald Dream|N|To Sylvia Whisperbloom.|
 A Nurturing Ageless Seeds|QID|78170|PRE|77209|M|59.75,16.91|Z|2200;Emerald Dream|N|From Sylvia Whisperbloom.|RANK|2|
 C Nurturing Ageless Seeds|QID|78170|M|59.71,15.85|Z|2200;Emerald Dream|QO|1|N|Kill the plants, collect the dew drops.|
-C Nurturing Ageless Seeds|QID|78170|M|59.71,15.85|Z|2200;Emerald Dream|QO|2|H|N|Click the flowers and collect the blooms.|
-C Nurturing Ageless Seeds|QID|78170|M|59.26,17.33|Z|2200;Emerald Dream|QO|3|H|N|Click the flowers and collect the blooms.|
-C Nurturing Ageless Seeds|QID|78170|M|60.12,18.14|Z|2200;Emerald Dream|QO|4|H|N|Click the flowers and collect the blooms.|
+C Nurturing Ageless Seeds|QID|78170|M|59.71,15.85|Z|2200;Emerald Dream|QO|2|NC|N|Click the flowers and collect the blooms.|
+C Nurturing Ageless Seeds|QID|78170|M|59.26,17.33|Z|2200;Emerald Dream|QO|3|NC|N|Click the flowers and collect the blooms.|
+C Nurturing Ageless Seeds|QID|78170|M|60.12,18.14|Z|2200;Emerald Dream|QO|4|NC|N|Click the flowers and collect the blooms.|
 T Nurturing Ageless Seeds|QID|78170|M|59.76,16.92|Z|2200;Emerald Dream|N|To Sylvia Whisperbloom.|
 A Blossoms of the Past|QID|78171|M|59.76,16.92|Z|2200;Emerald Dream|N|From Sylvia Whisperbloom.|RANK|2|
 C Blossoms of the Past|QID|78171|M|59.71,15.85;59.22,17.33;60.11,18.17|CN|Z|2200;Emerald Dream|N|Collect the blossoms.|
@@ -260,28 +260,28 @@ T Blossoms of the Past|QID|78171|M|59.76,16.92|Z|2200;Emerald Dream|N|From Sylvi
 A Emerald Bounty|QID|78206|M|59.76,16.92|Z|2200;Emerald Dream|N|From Sylvia Whisperbloom.|RANK|2|
 T A Call to Aid|QID|77662|M|49.60,46.16|Z|2200;Emerald Dream|N|To Shandris Feathermoon.|RANK|2|
 A Smother the Flames|QID|77739|PRE|77662|M|49.60,46.19|Z|2200;Emerald Dream|N|From Shandris Feathermoon.|RANK|2|
-C Smother the Flames|QID|77739|M|49.33,43.86|Z|2200;Emerald Dream|QO|3|NC|N|Bear Spirit Stone found.|RANK|2|
-C Smother the Flames|QID|77739|M|48.92,43.30|Z|2200;Emerald Dream|QO|1|NC|N|Wolf Spirit Stone found.|
-C Smother the Flames|QID|77739|M|50.67,43.50|Z|2200;Emerald Dream|QO|2|NC|N|Leaf Spirit Stone found.|RANK|2|
-C Smother the Flames|QID|77739|M|50.94,43.85|Z|2200;Emerald Dream|QO|4|NC|N|Moon Spirit Stone found.|RANK|2|
+K Sister Fae'da|ACTIVE|77739|M|49.33,43.86|Z|2200;Emerald Dream|QO|3|N|Kill Sister Fae'da and loot the Bear Spirit Stone.|RANK|2|
+K Sister Eydlin|ACTIVE|77739|M|48.92,43.30|Z|2200;Emerald Dream|QO|1|N|Kill Sister Eydlin and loot the Wolf Spirit Stone.|
+K Sister Jodnar|ACTIVE|77739|M|50.67,43.50|Z|2200;Emerald Dream|QO|2|N|Kill Sister Jodnar and loot the Leaf Spirit Stone.|RANK|2|
+K Sister Sylasta|ACTIVE|77739|M|50.94,43.85|Z|2200;Emerald Dream|QO|4|N|Kill Sister Sylasta and loot the Moon Spirit Stone.|RANK|2|
 T Smother the Flames|QID|77739|M|PLAYER|Z|2200;Emerald Dream|N|To Shandris Feathermoon.|RANK|2|
 A One Last Step|QID|77664|PRE|77739|M|50.90,43.89|Z|2200;Emerald Dream|N|From Shandris Feathermoon.|RANK|2|
-C One Last Step|QID|77664|M|49.94,42.89|Z|2200;Emerald Dream|QO|1|N|Raelas Firewind slain.|RANK|2|
+K One Last Step|ACTIVE|77664|M|49.94,42.89|Z|2200;Emerald Dream|QO|1|N|Find and kill Raelas Firewind.|RANK|2|
 T One Last Step|QID|77664|M|55.23,42.37|Z|2200;Emerald Dream|N|To Shandris Feathermoon.|
 A Bound to You|QID|77665|PRE|77664|M|55.20,42.35|Z|2200;Emerald Dream|N|From Lilian Voss.|RANK|2|
 C Bound to You|QID|77665|M|55.19,42.22|Z|2200;Emerald Dream|QO|1|CHAT|N|Ask Shae'lune about the stones.|
 C Bound to You|QID|77665|M|51.60,42.15|Z|2200;Emerald Dream|QO|2|CHAT|N|Ask Cyanthesa to cleanse the stones.|
 C Bound to You|QID|77665|M|51.67,42.18|Z|2200;Emerald Dream|QO|3|H|N|Vial of moonwell water.|
-C Bound to You|QID|77665|M|51.65,42.17|Z|2200;Emerald Dream|QO|4|NC|N|First Spirit Released.|EAB|
-C Bound to You|QID|77665|M|51.64,42.23|Z|2200;Emerald Dream|QO|5|NC|N|Second Spirit Released.|EAB|
-C Bound to You|QID|77665|M|51.58,42.25|Z|2200;Emerald Dream|QO|6|NC|N|Third Spirit Released.|EAB|
-C Bound to You|QID|77665|M|51.58,42.25|Z|2200;Emerald Dream|QO|7|N|Defeat the Angered Dream Spirit.|
-C Bound to You|QID|77665|M|51.54,42.20|Z|2200;Emerald Dream|QO|8|NC|N|Fourth Spirit Released.|EAB|
+C Bound to You|QID|77665|M|51.65,42.17|Z|2200;Emerald Dream|QO|4|NC|N|Pour the water over the stone to release the spirit.|EAB|
+C Bound to You|QID|77665|M|51.64,42.23|Z|2200;Emerald Dream|QO|5|NC|N|Pour the water over the stone to release the spirit.|EAB|
+C Bound to You|QID|77665|M|51.58,42.25|Z|2200;Emerald Dream|QO|6|NC|N|Pour the water over the stone to release the spirit.|EAB|
+C Bound to You|QID|77665|M|51.58,42.25|Z|2200;Emerald Dream|QO|7|N|Find and kill the Angered Dream Spirit.|
+C Bound to You|QID|77665|M|51.54,42.20|Z|2200;Emerald Dream|QO|8|NC|N|Pour the water over the stone to release the spirit.|EAB|
 T Bound to You|QID|77665|M|55.26,42.28|Z|2200;Emerald Dream|N|To Lilian Voss.|RANK|2|
 A Under the Surface|QID|77673|PRE|77665|M|55.26,42.28|Z|2200;Emerald Dream|N|From Lilian Voss.|RANK|2|
-C Under the Surface|QID|77673|M|55.41,42.11|Z|2200;Emerald Dream|QO|1|H|N|Clues found.|
-C Under the Surface|QID|77673|M|55.22,42.22|Z|2200;Emerald Dream|QO|2|CHAT|N|Ask Keeper Sillas if he saw Shandris.|
-C Under the Surface|QID|77673|M|56.26,45.17|Z|2200;Emerald Dream|QO|3|H|N|Search for more clues.|
+C Under the Surface|QID|77673|M|55.41,42.11|Z|2200;Emerald Dream|QO|1|H|N|Behind the cart.|
+C Under the Surface|QID|77673|M|55.22,42.22|Z|2200;Emerald Dream|QO|2|CHAT|N|Talk to Keeper Sillas.|
+C Under the Surface|QID|77673|M|56.26,45.17|Z|2200;Emerald Dream|QO|3|H|N|Click on the Hasty Tracks.|
 C Under the Surface|QID|77673|M|53.97,47.14|Z|2200;Emerald Dream|QO|4|H|N|Follow the tracks.|
 C Under the Surface|QID|77673|M|51.89,46.60|Z|2200;Emerald Dream|QO|5|H|N|Find more tracks.|
 T Under the Surface|QID|77673|M|50.29,47.96|Z|2200;Emerald Dream|N|To Lilian Voss.|RANK|2|
@@ -343,11 +343,11 @@ C Flight and Fight|QID|76336|M|54.59,26.94|Z|2200;Emerald Dream|QO|2|N|Using you
 C Flight and Fight|QID|76336|M|51.57,30.30|Z|2200;Emerald Dream|QO|3|CHAT|N|Speak to Merithra.|
 T Flight and Fight|QID|76336|M|51.97,29.49|Z|2200;Emerald Dream|N|To Merithra.|
 A The Ember Still Smolders|QID|76337|PRE|76336|M|51.97,29.49|Z|2200;Emerald Dream|N|From Merithra.|
-T The Ember Still Smolders|QID|76337|M|50.80,62.87|Z|2200;Emerald Dream|N|To Merithra.|
+T The Ember Still Smolders|QID|76337|M|50.80,62.87|Z|2200;Amirdrassil|N|To Merithra.|
 A The Bloom Begins|QID|76384|PRE|76337|M|50.80,62.87|Z|2200;Emerald Dream|N|From Merithra.|
-C The Bloom Begins|QID|76384|M|50.80,62.87|Z|2200;Emerald Dream|CHAT|N|Tell Merithra you are ready to hear about The Bloom.|
-T The Bloom Begins|QID|76384|M|50.80,62.87|Z|2200;Emerald Dream|N|To Merithra.|
-A Forward Unto Fire|QID|76416|M|50.80,62.87|Z|2200;Emerald Dream|N|From Alexstrasza the Life-Binder.|
+C The Bloom Begins|QID|76384|M|50.80,62.87|Z|2200;Amirdrassil|CHAT|N|Tell Merithra you are ready to hear about The Bloom.|
+T The Bloom Begins|QID|76384|M|50.80,62.87|Z|2200;Amirdrassil|N|To Merithra.|
+A Forward Unto Fire|QID|76416|M|50.80,62.87|Z|2200;Amirdrassil|N|From Alexstrasza the Life-Binder.|
 A Burning Out|QID|77948|PRE|76323|M|52.02,63.64|Z|2200;Emerald Dream|N|From Solarys Thorngale.|RANK|2|;Possible Chapter 2
 C Burning Out|QID|77948|M|37.98,47.19|Z|2200;Emerald Dream|QO|1|CHAT|N|Find Lyandris Thorngale.|RANK|2|
 A A Passed Torch|QID|77978|PRE|76435|M|38.00,47.18|Z|2200;Emerald Dream|N|From Singed Leaflet.|RANK|2|;possible chapter 2?
@@ -356,49 +356,52 @@ C A Passed Torch|QID|77978|M|37.45,47.10|Z|2200;Emerald Dream|QO|2|N|Druids of t
 C Burning Out|QID|77948|M|34.35,44.28|Z|2200;Emerald Dream|QO|2|CHAT|N|Find Thaeldus Thorngale.|
 C Burning Out|QID|77948|M|38.78,43.57|Z|2200;Emerald Dream|QO|3|CHAT|N|Find Kery'nael Thorngale.|
 C A Passed Torch|QID|77978|M|37.70,46.01|Z|2200;Emerald Dream|N|Singed Leaflets Collected.|US|
-T Forward Unto Fire|QID|76416|M|38.87,39.05|Z|2200;Emerald Dream|N|To Alexstrasza the Life-Binder.|
-A A Clash of Ice and Fire|QID|76386|M|38.87,39.05|Z|2200;Emerald Dream|N|From Vyranoth.|
-A Hazardous Horticulture|QID|76385|M|38.87,39.05|Z|2200;Emerald Dream|N|From Merithra.|
-C Hazardous Horticulture|QID|76385|M|36.76,39.01|Z|2200;Emerald Dream|H|N|Plant some seeds in the dirt piles.|S|
-C A Clash of Ice and Fire|QID|76386|M|38.87,39.05|QO|4|Z|2200;Emerald Dream|N|Slay the wildfire forces.|S|
-K Calderamor|ACTIVE|76386|M|35.67,40.14|QO|1;2|Z|2200;Emerald Dream|N|Slay Calderamor.|U|208544|
-K Ignarion|ACTIVE|76386|M|33.46,40.99|QO|1;3|Z|2200;Emerald Dream|N|Slay Ignarion.|U|208544|
-C A Clash of Ice and Fire|QID|76386|M|38.87,39.05|QO|4|Z|2200;Emerald Dream|N|Slay the wildfire forces.|US|
-C Hazardous Horticulture|QID|76385|M|36.76,39.01|Z|2200;Emerald Dream|H|N|Plant some seeds in the dirt piles.|US|
-T A Clash of Ice and Fire|QID|76386|M|38.87,39.05|Z|2200;Emerald Dream|N|To Vyranoth.|
-T Hazardous Horticulture|QID|76385|M|38.69,39.12|Z|2200;Emerald Dream|N|To Tyrande.|
-A Defense of the Ancients|QID|76387|M|38.69,39.12|Z|2200;Emerald Dream|N|From Tyrande.|
-A A Scrap of Hope|QID|76436|M|38.69,39.12|Z|2200;Emerald Dream|N|From Alexstrasza.|
-C A Scrap of Hope|QID|76436|M|39.19,32.47|Z|2200;Emerald Dream|H|N|Collect the papers from the Zaqali.|S|
-C Defense of the Ancients|QID|76387|M|39.13,35.48|QO|1|Z|2200;Emerald Dream|N|Yank out the harpoons to help Gnarlroot.|
-C Defense of the Ancients|QID|76387|M|38.69,39.12|QO|4|Z|2200;Emerald Dream|N|Yank out the harpoons to help Shadebough. He is located up the on the floating island.|
-C Defense of the Ancients|QID|76387|M|39.19,32.47|QO|2|Z|2200;Emerald Dream|N|Yank out the harpoons to help Elderbranch.|
-C Defense of the Ancients|QID|76387|M|41.39,34.64|QO|3|Z|2200;Emerald Dream|N|Yank out the harpoons to help Cloudsong.|
-C A Scrap of Hope|QID|76436|M|39.19,32.47|Z|2200;Emerald Dream|H|N|Collect the papers from the Zaqali.|US|
-T Defense of the Ancients|QID|76387|M|38.78,38.84|Z|2200;Emerald Dream|N|To Tyrande.|
-T A Scrap of Hope|QID|76436|M|38.69,39.12|Z|2200;Emerald Dream|N|To Alexstrasza.|
-A Fighting Fire With Fire|QID|76388|M|38.69,39.12|Z|2200;Emerald Dream|N|From Alexstrasza.|
-C Fighting Fire With Fire|QID|76388|M|26.46,27.79|QO|1|Z|2200;Emerald Dream|H|N|Click on the plant like turrets.|
-C Fighting Fire With Fire|QID|76388|M|26.31,27.86|QO|2|Z|2200;Emerald Dream|H|N|Click the Extra Action Button to mark the ward.|EAB|
-C Fighting Fire With Fire|QID|76388|M|25.16,32.00|QO|3|Z|2200;Emerald Dream|H|N|Click on the plant like turrets.|
-C Fighting Fire With Fire|QID|76388|M|24.29,32.25|QO|4|Z|2200;Emerald Dream|H|N|Click the Extra Action Button to mark the ward.|EAB|
-C Fighting Fire With Fire|QID|76388|M|27.55,35.18|QO|5|Z|2200;Emerald Dream|H|N|Click on the plant like turrets.|
-C Fighting Fire With Fire|QID|76388|M|28.46,34.83|QO|6|Z|2200;Emerald Dream|H|N|Click the Extra Action Button to mark the ward.|EAB|
-T Fighting Fire With Fire|QID|76388|M|34.94,35.33|Z|2200;Emerald Dream|N|To Tyrande.|
-A The Age of Mortals|QID|76389|M|34.94,35.33|Z|2200;Emerald Dream|N|From Tyrande.|
-A Aerial Supremacy|QID|76398|M|34.94,35.33|Z|2200;Emerald Dream|N|From Merithra.|
-C Aerial Supremacy|QID|76398|M|34.94,35.33|QO|1|Z|2200;Emerald Dream|N|Use either your dragonriding mount or Talk to the green dragon next to you.|
-C Aerial Supremacy|QID|76398|M|34.94,35.33|QO|2|Z|2200;Emerald Dream|N|Use either your dragonriding mount or the green dragon and kill the protodrakes.|
-C The Age of Mortals|QID|76389|M|32.82,33.18|Z|2200;Emerald Dream|N|Blow the horn to empower your allies.|U|208752|
-T The Age of Mortals|QID|76389|M|35.11,33.46|Z|2200;Emerald Dream|N|To Tyrande.|
-T Aerial Supremacy|QID|76398|M|35.11,33.46|Z|2200;Emerald Dream|N|To Merithra.|
-A Echo of the Firelands|QID|76401|M|35.11,33.46|Z|2200;Emerald Dream|N|From Alexstrasza.|
-K Prophet of the Flame|ACTIVE|76401|M|35.11,33.46|QO|1|Z|2200;Emerald Dream|N|Kill the Prophet of the Flame.|
-T Echo of the Firelands|QID|76401|M|28.00,31.16|Z|2200;Emerald Dream|N|To Alexstrasza.|
-T Burning Out|QID|77948|M|50.86,63.62|Z|2200;Emerald Dream|N|To Solarys Thorngale.|RANK|2|
-T A Passed Torch|QID|77978|M|50.86,63.62|Z|2200;Emerald Dream|N|To Solarys Thorngale.|RANK|2|
+T Forward Unto Fire|QID|76416|M|38.87,39.05|Z|2200;Amirdrassil|N|To Alexstrasza the Life-Binder.|
+A A Clash of Ice and Fire|QID|76386|M|38.87,39.05|Z|2200;Amirdrassil|N|From Vyranoth.|
+A Hazardous Horticulture|QID|76385|M|38.87,39.05|Z|2200;Amirdrassil|N|From Merithra.|
+C Hazardous Horticulture|QID|76385|M|36.76,39.01|Z|2200;Amirdrassil|H|N|Plant some seeds in the dirt piles.|S|
+C A Clash of Ice and Fire|QID|76386|M|35.67,40.14|QO|4|Z|2200;Amirdrassil|N|Slay the wildfire forces.|S|
+K Calderamor|ACTIVE|76386|M|35.67,40.14|QO|1;2|Z|2200;Amirdrassil|N|Slay Calderamor.|U|208544|
+K Ignarion|ACTIVE|76386|M|33.46,40.99|QO|1;3|Z|2200;Amirdrassil|N|Slay Ignarion.|U|208544|
+C A Clash of Ice and Fire|QID|76386|M|35.67,40.14|QO|4|Z|2200;Amirdrassil|N|Slay the wildfire forces.|US|
+C Hazardous Horticulture|QID|76385|M|35.67,40.14|Z|2200;Amirdrassil|H|N|Plant some seeds in the dirt piles.|US|
+T A Clash of Ice and Fire|QID|76386|M|38.87,39.05|Z|2200;Amirdrassil|N|To Vyranoth.|
+T Hazardous Horticulture|QID|76385|M|38.69,39.12|Z|2200;Amirdrassil|N|To Tyrande.|
+A Defense of the Ancients|QID|76387|M|38.69,39.12|Z|2200;Amirdrassil|N|From Tyrande.|
+A A Scrap of Hope|QID|76436|M|38.69,39.12|Z|2200;Amirdrassil|N|From Alexstrasza.|
+C A Scrap of Hope|QID|76436|M|39.19,32.47|Z|2200;Amirdrassil|H|N|Collect the papers from the Zaqali.|S|
+C Defense of the Ancients|QID|76387|M|39.13,35.48|QO|1|Z|2200;Amirdrassil|N|Yank out the harpoons to help Gnarlroot.|
+C Defense of the Ancients|QID|76387|M|38.93,34.36|QO|4|Z|2200;Amirdrassil|N|Yank out the harpoons to help Shadebough. He is located up the on the floating island.|
+C Defense of the Ancients|QID|76387|M|39.19,32.47|QO|2|Z|2200;Amirdrassil|N|Yank out the harpoons to help Elderbranch.|
+C Defense of the Ancients|QID|76387|M|41.39,34.64|QO|3|Z|2200;Amirdrassil|N|Yank out the harpoons to help Cloudsong.|
+C A Scrap of Hope|QID|76436|M|39.19,32.47|Z|2200;Amirdrassil|H|N|Collect the papers from the Zaqali.|US|
+T Defense of the Ancients|QID|76387|M|38.78,38.84|Z|2200;Amirdrassil|N|To Tyrande.|
+T A Scrap of Hope|QID|76436|M|38.69,39.12|Z|2200;Amirdrassil|N|To Alexstrasza.|
+A Fighting Fire With Fire|QID|76388|M|38.69,39.12|Z|2200;Amirdrassil|N|From Alexstrasza.|
+C Fighting Fire With Fire|QID|76388|M|26.46,27.79|QO|1|Z|2200;Amirdrassil|H|N|Click on the plant like turrets.|
+C Fighting Fire With Fire|QID|76388|M|26.31,27.86|QO|2|Z|2200;Amirdrassil|H|N|Click the Extra Action Button to mark the ward.|EAB|
+C Fighting Fire With Fire|QID|76388|M|25.16,32.00|QO|3|Z|2200;Amirdrassil|H|N|Click on the plant like turrets.|
+C Fighting Fire With Fire|QID|76388|M|24.29,32.25|QO|4|Z|2200;Amirdrassil|H|N|Click the Extra Action Button to mark the ward.|EAB|
+C Fighting Fire With Fire|QID|76388|M|27.55,35.18|QO|5|Z|2200;Amirdrassil|H|N|Click on the plant like turrets.|
+C Fighting Fire With Fire|QID|76388|M|28.46,34.83|QO|6|Z|2200;Amirdrassil|H|N|Click the Extra Action Button to mark the ward.|EAB|
+T Fighting Fire With Fire|QID|76388|M|34.94,35.33|Z|2200;Amirdrassil|N|To Tyrande.|
+A The Age of Mortals|QID|76389|M|34.94,35.33|Z|2200;Amirdrassil|N|From Tyrande.|
+A Aerial Supremacy|QID|76398|M|34.94,35.33|Z|2200;Amirdrassil|N|From Merithra.|
+C Aerial Supremacy|QID|76398|M|34.94,35.33|QO|1|Z|2200;Amirdrassil|N|Use either your dragonriding mount or Talk to the green dragon next to you.|
+C Aerial Supremacy|QID|76398|M|34.94,35.33|QO|2|Z|2200;Amirdrassil|N|Use either your dragonriding mount or the green dragon and kill the protodrakes.|
+C The Age of Mortals|QID|76389|M|32.82,33.18|Z|2200;Amirdrassil|N|Blow the horn to empower your allies.|U|208752|
+T The Age of Mortals|QID|76389|M|35.11,33.46|Z|2200;Amirdrassil|N|To Tyrande.|
+T Aerial Supremacy|QID|76398|M|35.11,33.46|Z|2200;Amirdrassil|N|To Merithra.|
+A Echo of the Firelands|QID|76401|M|35.11,33.46|Z|2200;Amirdrassil|N|From Alexstrasza.|
+K Prophet of the Flame|ACTIVE|76401|M|32.65,33.42|QO|1|Z|2200;Amirdrassil|N|Kill the Prophet of the Flame.|
+T Echo of the Firelands|QID|76401|M|28.00,31.16|Z|2200;Amirdrassil|N|To Alexstrasza.|
 A A Blossom Witnessed|QID|77780|PRE|76401|M|27.63,31.43|Z|2200;Emerald Dream|N|From Tyrande Whisperwind.|
 C A Blossom Witnessed|QID|77780|M|27.63,31.43|Z|2200;Emerald Dream|N|Let Tyrande Whisperwind know you are ready.|CHAT|
+T Burning Out|QID|77948|M|50.86,63.62|Z|2200;Emerald Dream|N|To Solarys Thorngale.|RANK|2|
+T A Passed Torch|QID|77978|M|50.86,63.62|Z|2200;Emerald Dream|N|To Solarys Thorngale.|RANK|2|
+
+
+
 P Ohn'ahran Plains|ACTIVE|77780|M|72.79,52.98|Z|2200;Emerald Dream|N|Take the portal to Ohn'ahran Plains.|
 T A Blossom Witnessed|QID|77780|M|14.78,55.95|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A A Changed Land|QID|76276|PRE|77780|M|14.78,55.95|Z|2023;Ohn'ahran Plains|N|From Merithra.|
@@ -441,6 +444,10 @@ A Andu-falah-dor|QID|76283|PRE|76282|M|25.27,60.12|Z|1978;Dragon Isles|N|From Me
 C Andu-falah-dor|QID|76283|M|25.27,60.12|QO|1|Z|1978;Dragon Isles|N|Talk to Merithra.|CHAT|
 C Andu-falah-dor|QID|76283|M|24.87,60.67|QO|2|Z|1978;Dragon Isles|N|Meet Merithra at the moonwell.|CHAT|
 T Andu-falah-dor|QID|76283|M|24.71,60.74|Z|1978;Dragon Isles|N|To Alexstrasza.|
+
+
+
+
 ]]
 
 end)

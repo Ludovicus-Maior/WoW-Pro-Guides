@@ -63,7 +63,7 @@ A Supplying the Sepulcher|QID|6321|M|43.43,41.69|N|From Deathguard Podrig at the
 T Supplying the Sepulcher|QID|6321|M|45.62,42.60|N|To Karos Razok.|R|Undead|
 A Ride to the Undercity|QID|6323|M|45.62,42.60|N|From Karos Razok.|PRE|6321|R|Undead|
 F Undercity|ACTIVE|447|M|45.62,42.60|
-R The Apothecarium|ACTIVE|447^1359|M|52.27,49.93|N|Make your to The Apothecarium in the southwest corner of Undercity.
+R The Apothecarium|ACTIVE|447^1359|M|52.27,49.93|N|Make your way to The Apothecarium in the southwest corner of Undercity.
 T A Recipe For Death|QID|447|M|43.12,68.51;48.81,69.26|Z|Undercity|CC|N|Cross the bridge over the canal to the outer ring and make your way to the passage way leading to Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Do not take the follow-up quest.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|

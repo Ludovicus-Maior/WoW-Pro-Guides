@@ -1,5 +1,5 @@
 -- luacheck: globals _NPCScan
--- luacheck: globals select pairs ipairs tinsert tremove sort
+-- luacheck: globals select pairs ipairs tinsert tremove sort table
 -- luacheck: globals tostring tonumber
 -- luacheck: globals date type max min floor coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
@@ -764,6 +764,90 @@ function WoWPro:Timeless()
     _NPCScan.NPCAdd(71919,"Zhu-Gon the Sour",951)
 end
 
+WoWPro.GuideMenuList = nil
+
+function WoWPro.findIndexWithText(tabula, text_to_find)
+    for i, tableEntry in pairs(tabula) do
+        if tableEntry.text == text_to_find then
+            return i
+        end
+    end
+    return -1
+end
+
+function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName,  GID)
+    WoWPro:dbp("RegisterGuideInMenuList(%q,%q,%q,%q)", tostring(AddonType), tostring(GuideType), tostring(GuideName),  GID)
+    local GuideMenuList = WoWPro.GuideMenuList
+    local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonType)
+    if AddonIndex < 1 then
+        if table.getn(GuideMenuList) == 0 then
+            table.insert(GuideMenuList, {text = "Select an Addon", isTitle = true} )
+        end
+        table.insert(GuideMenuList, {text=AddonType, hasArrow = true, menuList = {}})
+        AddonIndex = table.getn(GuideMenuList)
+    end
+
+    local GTypeIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideType)
+    if GTypeIndex < 1 then
+        if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
+            table.insert(GuideMenuList[AddonIndex].menuList, {text = "Select a Guide Category", isTitle = true} )
+        end
+        table.insert(GuideMenuList[AddonIndex].menuList, {text=GuideType, hasArrow = true, menuList = {}})
+        GTypeIndex = table.getn(GuideMenuList[AddonIndex].menuList)
+    end
+
+    local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, GuideName)
+    if GuideNameIndex < 1 then
+        if table.getn(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList) == 0 then
+            table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, {text = "Select a Guide", isTitle = true} )
+        end
+        table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, {text=GuideName,
+                     sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
+                     func = function() WoWPro:LoadGuide(GID); end})
+    end
+end
+
+local function SortNestedMenu(menu, top)
+    if top then
+        menu = {menuList=menu}
+    end
+    -- Do we have a menuList?
+    if not menu.menuList then
+        return
+    end
+    local sort_function = function(a, b)
+        WoWPro:dbp("sort_function({isTitle=%q, sortlevel=%q, text=%q} <? {isTitle=%q, sortlevel=%q, text=%q}",
+                    tostring(a.isTitle), tostring(a.sortlevel), tostring(a.text),
+                    tostring(b.isTitle), tostring(b.sortlevel), tostring(b.text))
+        if a.isTitle then return true; end
+        if b.isTitle then return false; end
+        if a.sortlevel then return (a.sortlevel or 100) < (b.sortlevel or 100); end
+        return a.text < b.text
+    end
+    table.sort(menu.menuList, sort_function)
+    for _, listEntry in pairs(menu.menuList) do
+        if listEntry.menuList then
+            SortNestedMenu(listEntry, false)
+        end
+    end
+end
+
+function WoWPro.BuildGuideInMenuList()
+    WoWPro.GuideMenuList = {}
+    for gid, guide in pairs(WoWPro.Guides) do
+        WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
+    end
+    -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
+    SortNestedMenu(WoWPro.GuideMenuList, true)
+end
+
+function WoWPro.ShowGuideMenu()
+    if not WoWPro.GuideMenuList then
+        WoWPro.BuildGuideInMenuList()
+    end
+    local menuFrame = _G.CreateFrame("Frame", "ExampleMenuFrame", _G.UIParent, "UIDropDownMenuTemplate")
+    _G.EasyMenu(WoWPro.GuideMenuList, menuFrame, "cursor", 0 , 0, "MENU")
+end
 
 function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
     if not WoWPro[gtype] then
@@ -826,6 +910,10 @@ function WoWPro:GuideNickname(guide, nickname)
     guide['nickname'] = nickname
 end
 
+function WoWPro:GuideCategory(guide, category)
+    guide['category'] = category
+end
+
 local nameToID = {
     ["Classic"] = _G.LE_EXPANSION_CLASSIC,
     ["The Burning Crusade"] = _G.LE_EXPANSION_BURNING_CRUSADE,
@@ -859,7 +947,7 @@ function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
         guide['level_float'] = true
     end
     if not upperLevel then
-        upperLevel = min(playerLevel+1, 60) -- REVIEW after Patch 10 for level changes.
+        upperLevel = min(playerLevel+1, 70) -- REVIEW after Patch 10 for level changes.
         guide['level_float'] = true
     end
 
@@ -1283,6 +1371,11 @@ function WoWPro:ResolveIcon(guide)
     if guide['pro'] and WoWPro.RETAIL then
         -- prof1, prof2, archaeology, fishing, cooking, firstAid
         local profs = {_G.GetProfessions()}
+        if WoWPro.ProfessionSkillLines[tonumber(guide['pro'])] then
+            guide.category = WoWPro.ProfessionSkillLines[tonumber(guide['pro'])].name
+        else
+            WoWPro:Error("Unknown PRO Icon number [%s] for guide %s",guide['pro'],guide.GID)
+        end
         for index = 1,#profs do
             if profs[index] then
                 local _, texture, _, _, _, _, skillLine = _G.GetProfessionInfo(profs[index])
@@ -1301,6 +1394,7 @@ function WoWPro:GuideIcon(guide,gtype,gsubtype,extras)
         guide['ach'] = tonumber(gsubtype)
     elseif gtype == "PRO" then
         guide['pro'] = tonumber(gsubtype)
+        WoWPro:ResolveIcon(guide)
     elseif gtype == "MOUNT" then
         guide['mount'] = tonumber(gsubtype)
     elseif gtype == "ICON" then

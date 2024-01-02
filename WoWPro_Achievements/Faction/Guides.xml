@@ -1,0 +1,5 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="DF_A_Blue_Dawn.lua"/>
+    <Script file="Emm_Tortollan.lua"/>
+	<Script file="Emmaleah_Lorewalkers.lua"/>
+</Ui>

@@ -771,7 +771,7 @@ R Hudson's Rock|ACTIVE|70166|M|7.86,53.48|Z|2024|N|To visit Hudson and get a dun
 T The Joy of Painting|QID|70166|M|7.86,53.48|Z|2024|N|To Hudson.|RANK|3|
 A Sad Little Accidents|QID|70168|PRE|70166|M|7.87,53.47|Z|2024|N|Wait a moment for this to become available from Ranpiata. The actual doing of this quest is not in this guide as it requires dungeons. (Paintings drop from bosses in the 3 dungeons named.)|RANK|2|
 
-H Azure Arcives|ACTIVE|71000|M|PLAYER|N|Shorten your flight by hearthing halfway there.|TZ|The Conjured Biscuit Inn|RANK|2|
+H Azure Archives|ACTIVE|71000|M|PLAYER|N|Shorten your flight by hearthing halfway there.|TZ|The Conjured Biscuit Inn|RANK|2|
 R Shiverweb Vale|AVAILABLE|65750|M|51.71,61.97|Z|2024|EAB|N|Remember the Extra Action Button at the base of the Azure Archives Rings, if you use that you will get some height, for you trip to Shiverweb Vale.|RANK|3|
 A Eight-Legged Menace|QID|65750|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|RANK|3|
 A Icy Webs|QID|65769|M|51.73,61.98|Z|2024;The Azure Span|N|From Lilial Dawnburst.|RANK|3|

@@ -4,8 +4,9 @@
 --  not sure on actual level to complete but figured you might need to be at least 110
 --  Added LVL and PRE requirements on Nazjatar and Mechagon areas.
 
-local guide = WoWPro:RegisterGuide("BlancExpBfA","Achievements","Battle for Azeroth Pathfinder","Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancExpBfA","Achievements","Battle for Azeroth Pathfinder","WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "BFA Pathfinder", "Exploration", "Battle for Azeroth")
 WoWPro:GuideIcon(guide,"ACH",12988)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

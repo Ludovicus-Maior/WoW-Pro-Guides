@@ -1,0 +1,7 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="SL_RaresTreasures.lua"/>
+    <Script file="Emmaleah_LostFound.lua"/>
+    <Script file="Blanc_BI_Treasures.lua"/>
+	<Script file="Ludo_Treasure.lua"/>
+	<Script file="Cag_ZM_Tales.lua"/>
+</Ui>

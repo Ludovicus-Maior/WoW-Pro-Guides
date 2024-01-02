@@ -7,6 +7,7 @@ local guide = WoWPro:RegisterGuide('LudoBuildingsAlliance', 'Achievements', 'Sha
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9096)
 WoWPro:GuideName(guide, "Garrison Buildings")
+WoWPro.Achievements:GuideMisc(guide, "Garrison Buildings", "Garrison", "Draenor")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[

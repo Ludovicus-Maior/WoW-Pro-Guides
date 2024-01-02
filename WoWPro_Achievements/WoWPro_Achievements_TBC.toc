@@ -5,15 +5,10 @@
 ## IconTexture: Interface\ICONS\Achievement_General_StayClassy
 ## Dependencies: WoWPro
 ## Version: 2023.11.15.B
+## DefaultState: disabled
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 WoWPro_Achievements.lua
-Exploration\Guides.xml
-General\Guides.xml
-Garrison\Guides.xml
-Garrison_Alliance\Guides.xml
-Garrison_Horde\Guides.xml
-Quests\Guides.xml
 WoWPro_Achievements_Parser.lua
 WoWPro_Achievements_Config.lua
 WoWPro_Achievements_GuideList.lua

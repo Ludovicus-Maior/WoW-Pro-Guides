@@ -217,7 +217,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
     WoWPro.RecorderFrame:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.MainFrame:StopMovingOrSizing()
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("Recorder:OnMouseUp")
         end
     end)
 

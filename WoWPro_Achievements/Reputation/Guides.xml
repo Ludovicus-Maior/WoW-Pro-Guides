@@ -1,0 +1,5 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="DF_WrathionvsSabellian.lua"/>
+    <Script file="Ludo_AlliesA.lua"/>
+    <Script file="Ludo_AlliesH.lua"/>
+</Ui>

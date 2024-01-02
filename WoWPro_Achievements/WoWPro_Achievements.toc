@@ -8,12 +8,26 @@
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 WoWPro_Achievements.lua
-Exploration\Guides.xml
-General\Guides.xml
-Garrison\Guides.xml
-Garrison_Alliance\Guides.xml
-Garrison_Horde\Guides.xml
-Quests\Guides.xml
 WoWPro_Achievements_Parser.lua
 WoWPro_Achievements_Config.lua
 WoWPro_Achievements_GuideList.lua
+Animals\Guides.xml
+Battle_Pets\Guides.xml
+Customization\Guides.xml
+Exploration\Guides.xml
+Faction\Guides.xml
+Fishing\Guides.xml
+Garrison\Guides.xml
+Garrison_Alliance\Guides.xml
+Garrison_Horde\Guides.xml
+Heritage_Armor\Guides.xml
+Loremaster\Guides.xml
+Mounts\Guides.xml
+Non_Combat_Pets\Guides.xml
+Pets\Guides.xml
+Quests\Guides.xml
+Treasures\Guides.xml
+Rares\Guides.xml
+Reputation\Guides.xml
+World_Events\Guides.xml
+

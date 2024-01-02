@@ -5,8 +5,8 @@
 
 local guide = WoWPro:RegisterGuide("LudoFishing",'Dailies', "Azeroth", "Ludovicus", "Neutral")
 WoWPro:GuideLevels(guide,10,70,70)
-WoWPro:GuideName(guide, "Fishing Dailies")
-WoWPro:GuideIcon(guide,"PRO",9)
+WoWPro.Dailies:GuideNameAndCategory(guide,"Capitol Fishing", "Professions")
+WoWPro:GuideIcon(guide,"PRO",356)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -65,7 +65,7 @@ T The Gnomish Bait-o-Matic|QID|29350|M|48.4,8.2|Z|Ironforge|N|To Grimnur Stonebr
 
 ; Stormwind Quests
 A Big Gulp|QID|26488|M|55.0,69.6|Z|Stormwind City|N|From Catherine Leland|O|FACTION|Alliance|
-l Precious Locket|ACTIVE|26488|N|Go to the moat in the Valley of Heroes and fish for a Monkfish. Filet the Monkfish and you may get the locket or something else!\nYou need at least 2 empty bag slots or you will get no Monkfish!|L|58864|U|58856|FACTION|Alliance|
+C Precious Locket|ACTIVE|26488|N|Go to the moat in the Valley of Heroes and fish for a Monkfish. Filet the Monkfish and you may get the locket or something else!\nYou need at least 2 empty bag slots or you will get no Monkfish!|QO|1|U|58856|FACTION|Alliance|
 T Big Gulp|QID|26488|M|55.0,69.6|Z|Stormwind City|N|To Catherine Leland|FACTION|Alliance|
 
 A Diggin' For Worms|QID|26420|M|55.0,69.6|Z|Stormwind City|N|From Catherine Leland|O|FACTION|Alliance|
