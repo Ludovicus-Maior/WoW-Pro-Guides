@@ -40,7 +40,7 @@ F Valdrakken|ACTIVE|72269|M|76.03,35.04|Z|2022;Waking Shore|N|At Tixxa Mixxa.|IZ
 
 A Relaxation Time!|QID|72067|M|48.10,59.69|Z|2112;Valdrakken|N|From Hot Springs Spa Promoter.|RANK|2|
 A The Wayward Waywatcher|QID|71219|M|50.18,62.40|Z|2112;Valdrakken|N|From Waywatcher Lorin.|RANK|2|
-A Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|PRE|71232^72293|M|50.14,56.28|Z|2112;Valdrakken|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
+A Aiding the Accord|QID|70750^72068^72373^72374^72375^75259^75859^75860^75861^77254^77976^77446^78447|PRE|71232^72293|M|50.14,56.28|Z|2112;Valdrakken|N|From Therazal. This is a weekly quest and will not be mentioned again in the guide.|
 ;A A Two for One Deal|QID|70179|M|45.93,65.34|Z|2112;Valdrakken|N|From Apprentice Caretaker Zefren. He wanders around, so not always here.|RANK|3|;i would put it R2, except that he is never around... not sure what the trigger is. but as it's done in WS still... leaving out of this guide entirely
 R To Valdrakken|ACTIVE|66244|M|52.20,53.02|Z|2112;Valdrakken|QO|1|N|Head up the steps for the quest update.| ; Go to step - Hendo72
 A Orientation: Valdrakken|QID|72406|M|58.18,35.17|Z|2112;Valdrakken|N|From Unatos.|RANK|2|
@@ -400,7 +400,7 @@ T Entropic Remnants|QID|67154|M|60.29,82.03|Z|2025;Thaldraszus|N|To Archivist Ar
 ;A Dragonscale Expedition: Help Needed!|QID|70846|PRE|66465&66467|M|40.80,48.28|Z|2112;Valdrakken|N|From Aspiring Goblin Engineer.|IZ|2112|;Per WH this is deleted
 
 H Valdrakken|ACTIVE|66221^67093|M|59.9,81.34|N|Hearth back to Valdrakken or fly with the nearby flightmaster as you choose.|TZ|The Roasted Ram|
-t Aiding the Accord|QID|70750^72068^72373^72374^72375^75861^77254|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
+t Aiding the Accord|QID|70750^72068^72373^72374^72375^75259^75859^75860^75861^77254^77976^77446^78447|M|50.14,56.28|Z|2112;Thaldraszus|N|To Therazal.|IZ|2112|
 ;A Renown Supplies|QID|70882|M|58.18,35.17|Z|2112;Valdrakken|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;2|IZ|2112|
 ;T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112;Valdrakken|N|To Unatos.|
 ;A Renown Supplies|QID|72282|M|58.18,35.17|Z|2112;Valdrakken|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;4|IZ|2112|
@@ -413,10 +413,10 @@ T Moving On|QID|66221|M|57.97,36.04|Z|2112;Valdrakken|N|To Alexstrasza.|
 A Renown of the Dragon Isles|QID|71232|PRE|66221|M|57.97,36.04|Z|2112;Valdrakken|N|From Alexstrasza.|
 T Report on the Rebels|QID|70879|M|55.86,39.94|Z|2112;Valdrakken|N|To Captain Drine.|
 T Renown of the Dragon Isles|QID|71232|M|50.18,56.29|Z|2112;Valdrakken|N|To Therazal standing in front of the fountain at the base of the tower. Take the teleporter down or just fly.|
-A Open Orientation|QID|72585|PRE|72366|M|50.18,56.29|Z|2112;Valdrakken|N|From Therazal. This quest only available once per account, check it off manually if you already did it with a diff character.|; only available to first char who gets it-- not offered to subsequent characters, can't find right PRE or ACH to limit it, so taking out of guide and adding note to A Learning Ingenuity
+A Open Orientation|QID|72585|PRE|72366|M|48.17,58.29|Z|2112;Valdrakken|N|From Koszaru. This quest only available once per account, check it off manually if you already did it with a diff character.|; only available to first char who gets it-- not offered to subsequent characters, can't find right PRE or ACH to limit it, so taking out of guide and adding note to A Learning Ingenuity
 t Open Orientation|QID|72585|M|50.18,56.29|Z|2112;Valdrakken|N|To Therazal.|
 C Open Orientation|QID|72585|N|Assuming you haven't met everyone, you have some work to do, so off to those other zones to get acquainted with the other factions. Switch to Campaign guide now if you want to do that. If not, make sure your guide is set to Rank 2 or 3 and stick around for Sojourner of Thaldraszus.|S!US|
-A Learning Ingenuity|QID|72773|PRE|71232|M|50.18,56.29|Z|2112;Valdrakken|N|From Therazal. This is the opening of the campaign, switch to that guide for the rest of the steps.|
+A Learning Ingenuity|QID|72773|PRE|71232|M|47.80,58.68|Z|2112;Valdrakken|N|From Koszaru. This is the opening of the campaign, switch to that guide for the rest of the steps.|
 A Oh Where, Oh Where Can He Be?|QID|70647|PRE|66221|M|10.36,58.27|Z|2112;Valdrakken|N|From Jyhanna.|RANK|2|; this is probably not the right pre.
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.79,63.74|Z|2025;Thaldraszus|QO|1|NC|N|Find Lubbins in a ravine in the Petitioner's Concourse.|
 C Oh Where, Oh Where Can He Be?|QID|70647|M|34.80,63.78|Z|2025;Thaldraszus|QO|2|H|N|Help Lubbins.|
@@ -431,8 +431,8 @@ C A Dryadic Remedy|QID|67606|M|66.39, 58.10|Z|2112;Valdrakken|QO|2|CHAT|N|Admins
 T A Dryadic Remedy|QID|67606|M|72.99, 65.97|Z|2112;Valdrakken|N|To Thalendra.|
 
 T Archival Assistance|QID|67007|M|34.95,28.15|Z|2112;Valdrakken|N|To Kemora.|
-A Preserving the Past|QID|66868^66870^66871^66872^66873^66874^66875|PRE|67007|M|34.95,28.15|Z|2112;Valdrakken|N|From Kemora. This is your weekly dungeon quest, it will vary each week.|LVL|70|
-A Relic Recovery|QID|66860^66861^66863^66864^66865^66866^66867|PRE|67007|M|35.04,27.60|Z|2112;Valdrakken|N|From Theldren. This is your other weekly dungeon quest, it will vary each week.|LVL|70|
+;A Preserving the Past|QID|66868^66870^66871^66872^66873^66874^66875|PRE|67007|M|34.95,28.15|Z|2112;Valdrakken|N|From Kemora. This is your weekly dungeon quest, it will vary each week.|LVL|70|
+;A Relic Recovery|QID|66860^66861^66863^66864^66865^66866^66867|PRE|67007|M|35.04,27.60|Z|2112;Valdrakken|N|From Theldren. This is your other weekly dungeon quest, it will vary each week.|LVL|70|
 T Relaxation Time!|QID|72067|M|40.42,49.55|Z|2025;Thaldraszus|N|To Spa Concierge.|
 A Serene Dreams|QID|72246|PRE|72067|M|40.42,49.55|Z|2025;Thaldraszus|N|From Spa Concierge.|
 T Serene Dreams|QID|72246|M|40.49,48.91|Z|2025;Thaldraszus|N|To Xijan Thornpaw.|
@@ -464,7 +464,9 @@ A Enforced Relaxation|QID|70745|PRE|70744&70743|M|40.46,48.88|Z|2025;Thaldraszus
 K Vadne Bleakheart|ACTIVE|70745|QO|1|M|40.11,49.02|Z|2025;Thaldraszus|N|Vadne Bleakheart can be found in a small cave down below, (where you were killing elementals).|T|Vadne Bleakheart|
 T Enforced Relaxation|QID|70745|M|40.46,48.87|Z|2025;Thaldraszus|N|To Quilius. (back up top)|
 
+A Reservoir Reservations|QID|72190|M|25.6,40.6|Z|2112;valdrakken|N|From Talikka|LEAD|65913|
 R Tyrhold Reservoir|AVAILABLE|65913|M|49.54,58.85|Z|2025;Thaldraszus|N|Head over to Tyrhold Reservoir.|RANK|2|
+T Reservoir Reservations|QID|72190|M|49.54,58.85|Z|2025;Thaldraszus|N|To Zuttiki|
 A Wotcher, Watcher?|QID|65913|PRE|66412|M|49.54,58.85|Z|2025;Thaldraszus|N|From Zuttiki.|
 C Wotcher, Watcher?|QID|65913|M|46.85,59.86|Z|2025;Thaldraszus|QO|1|H|N|Mara can be found inside ground level Tyrhold Resevoir building.|
 C Wotcher, Watcher?|QID|65913|M|46.51,60.01|Z|2025;Thaldraszus|QO|2|H|N|Click Mara.|
@@ -474,7 +476,7 @@ A Preventative Maintenance|QID|65918|PRE|65913|M|49.55,58.86|Z|2025;Thaldraszus|
 C Preventative Maintenance|QID|65918|M|49.08,56.59|Z|2025;Thaldraszus|N|Kill the Unleashed Elementals as you go.|S|
 C Where There's a Ward, There's a Way|QID|70139|M|51.34,56.52|Z|2025;Thaldraszus|QO|1|NC|N|Enter the North hall, its up above a bit.|
 C Where There's a Ward, There's a Way|QID|70139|M|52.25,54.75|Z|2025;Thaldraszus|QO|2|H|N|Click the broken North ward.|
-C Where There's a Ward, There's a Way|QID|70139|M|51.48,61.35|Z|2025;Thaldraszus|QO|3|NC|N|you will find the East hall across the valley, at about the same height as the North hall.|
+C Where There's a Ward, There's a Way|QID|70139|M|51.48,61.35|Z|2025;Thaldraszus|QO|3|NC|N|You will find the East hall across the valley, at about the same height as the North hall.|
 C Where There's a Ward, There's a Way|QID|70139|M|52.51,62.81|Z|2025;Thaldraszus|QO|4|H|N|Click the broken East ward.|
 T Where There's a Ward, There's a Way|QID|70139|M|49.61,58.76|Z|2025;Thaldraszus|N|To Mara.|
 C Preventative Maintenance|QID|65918|M|49.08,56.59|Z|2025;Thaldraszus|QO|1|N|Unleashed Elementals slain.|US|
@@ -484,8 +486,7 @@ A We Don't Negotiate with Primalists|QID|65916|PRE|65918&70139|M|49.61,58.78|Z|2
 C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025;Thaldraszus|N|Take Revenge against the Primalists and examine any Refti you come across to find a few survivors.|S|
 K Ko'jo|ACTIVE|65916|M|53.37,56.19|Z|2025;Thaldraszus|QO|2|N|Ko'jo is in the small cave up the ramp and in the back.|
 C We Don't Negotiate with Primalists|QID|65916|M|53.41,56.24|Z|2025;Thaldraszus|QO|1|NC|N|After you kill Ko'jo, click the Missing ward pieces to retrieve them.|
-C Refti Retribution|QID|65921|QO|1|M|52.41,58.12|Z|2025;Thaldraszus|N|Keep checking corpses to locate survivors. They have a yellower outline on the bodies.|
-C Refti Retribution|QID|65921|QO|2|M|52.41,58.12|Z|2025;Thaldraszus|N|Continue killing Primalists and examining Refti bodies until the step completes. You need to find 4 still alive, they glow a little more obviously than the dead ones.|
+C Refti Retribution|QID|65921|M|52.41,58.12|Z|2025;Thaldraszus|N|Continue killing Primalists and examining Refti bodies until the step completes. You need to find 4 still alive, they glow a little more obviously than the dead ones.|US|
 T Refti Retribution|QID|65921|M|49.54,58.86|Z|2025;Thaldraszus|N|To Zuttiki.|
 T We Don't Negotiate with Primalists|QID|65916|M|49.62,58.75|Z|2025;Thaldraszus|N|To Mara.|
 A For the Ward!|QID|65920|PRE|65916&65921|M|49.62,58.75|Z|2025;Thaldraszus|N|From Mara.|
