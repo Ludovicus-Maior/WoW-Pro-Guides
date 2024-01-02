@@ -78,7 +78,7 @@ C Orientation: Loamm Niffen|QID|75643|M|56.44,55.64|Z|2133;Zaralek Cavern|QO|1|C
 A A Worthy Ally|QID|75665|M|56.44,55.64|Z|2133;Zaralek Cavern|N|From Mimuup. If this is your first character in Zaralek, it won't yet be available yet, check off manually and we will remind you to get it later.\n\n[color=FF0000]NOTE: [/color]This is a weekly, so you want to do it every week if faction is important to you.|
 C Orientation: Loamm Niffen|QID|75643|M|56.44,55.62|Z|2133;Zaralek Cavern|QO|2|CHAT|N|Talk to Harlowe Marl.|
 T Tougher Down Under|QID|76101|M|56.51,56.07|Z|2133;Zaralek Cavern|N|To Vaskarn.|
-A Flightstones|QID|72658|PRE|76101|M|56.51,56.07|Z|2133;Zaralek Cavern|N|From Vaskarn.|
+;A Flightstones|QID|72658|PRE|76101|M|56.51,56.07|Z|2133;Zaralek Cavern|N|From Vaskarn.|
 C Flightstones|QID|72658|M|56.51,56.07|Z|2133;Zaralek Cavern|CHAT|N|Talk to Cuzolth and upgrade a pc of equipment. You can wait on this till you have something worth upgrading.|S!US|
 t Flightstones|QID|72658|M|56.51,56.07|Z|2133;Zaralek Cavern|N|To Vaskarn.|IZ|Loamm|
 A Shadowflame Crests|QID|75506|PRE|72658|M|56.51,56.07|Z|2133;Zaralek Cavern|N|From Vaskarn.|
@@ -86,8 +86,6 @@ C Welcome to the City of Smells|QID|72974|M|57.55,56.31|Z|2133;Zaralek Cavern|QO
 A Get Rich Quick|QID|75885|PRE|72973|M|58.08,53.83|Z|2133;Zaralek Cavern|N|From Ponzo.|RANK|2|
 C Welcome to the City of Smells|QID|72974|M|57.61,53.32|Z|2133;Zaralek Cavern|QO|4|H|N|Trade with the Teacher.|
 C Get Rich Quick|QID|75885|M|57.34,52.98;56.60,54.00;56.31,54.87;57.73,54.78;58.08,55.53|CS|Z|2133;Zaralek Cavern|CHAT|N|Talk to Loamm Citizen and choose both options.|S!US|
-A Power Unified|QID|75641|PRE|72973|M|56.84,54.84|Z|2133;Zaralek Cavern|N|From Examiner Tae'shara Bloodwatcher.|
-t Power Unified|QID|75641|PRE|72973|M|56.84,54.84|Z|2133;Zaralek Cavern|N|To Examiner Tae'shara Bloodwatcher.|
 T Get Rich Quick|QID|75885|M|58.08,53.83|Z|2133;Zaralek Cavern|N|To Ponzo.|
 C Shadowflame Crests|QID|75506|M|55.88,55.42|QO|1|Z|2133;Zaralek Cavern|CHAT|N|Talk to Spinsoa.|
 C Shadowflame Crests|QID|75506|M|55.88,55.42|QO|2|Z|2133;Zaralek Cavern|U|204075|N|Click on a Shadowflame Crest Fragment to create a Shadowflame Crest, requires 15 fragments.|
@@ -101,6 +99,8 @@ T Orientation: Loamm Niffen|QID|75643|M|54.64,54.74|Z|2133;Zaralek Cavern|N|To A
 A Six Hundred Feet Under|QID|75644|PRE|75643|M|54.64,54.70|Z|2133;Zaralek Cavern|N|From Aurantia.|
 C Six Hundred Feet Under|QID|75644|M|54.71,54.51|Z|2133;Zaralek Cavern|CHAT|N|Discuss with Ebyssian.|
 T Six Hundred Feet Under|QID|75644|M|54.71,54.51|Z|2133;Zaralek Cavern|N|To Ebyssian.|
+A Power Unified|QID|75641|PRE|72973|M|56.84,54.84|Z|2133;Zaralek Cavern|N|From Examiner Tae'shara Bloodwatcher.|
+t Power Unified|QID|75641|PRE|72973|M|56.84,54.84|Z|2133;Zaralek Cavern|N|To Examiner Tae'shara Bloodwatcher.|IZ|Loamm|
 A Future Aspects|QID|74334|PRE|75644|M|54.71,54.51|Z|2133;Zaralek Cavern|N|From Ebyssian.|
 A Slime Time Live|QID|72878|PRE|75644|M|54.64,54.70|Z|2133;Zaralek Cavern|N|From Elder Honeypelt. If he isn't offering the quest, wait a minute or so. {or just skip it)|RANK|2|
 A A Swallow's Tale|QID|72881|PRE|75644|M|54.64,54.78|Z|2133;Zaralek Cavern|N|From Effervesta.|RANK|2|
@@ -143,20 +143,19 @@ T Suss Out the Imposter|QID|72886|M|54.68,54.73|Z|2133;Zaralek Cavern|N|To Auran
 A Best Friends|QID|74877|M|55.66,57.38|Z|2133;Zaralek Cavern|N|From Myrrit.|RANK|2|
 C Best Friends|QID|74877|QO|1|M|54.61,54.94|Z|2133;Zaralek Cavern|CHAT|N|Go ask Effervesta if she has time to go on a dig.|
 C Best Friends|QID|74877|QO|2|M|55.63,57.46|Z|2133;Zaralek Cavern|CHAT|N|Let Myrrit know.|
-B Best Friends|QID|74877|QO|3|M|56.41,55.84|Z|2133;Zaralek Cavern|N|Buy Squishy Snack from the innkeeper.|
-t Shadowflame Crests|QID|75506|M|55.88,55.42|Z|2133;Zaralek Cavern|N|To Vaskarn.|
+B Best Friends|ACTIVE|74877|QO|3|M|56.41,55.84|Z|2133;Zaralek Cavern|N|Buy Squishy Snack from the innkeeper.|
+t Shadowflame Crests|QID|75506|M|55.88,55.42|Z|2133;Zaralek Cavern|N|To Vaskarn.|IZ|Loamm|
 A Catching Up with Friends|QID|75507|PRE|75506|M|55.88,55.42|Z|2133;Zaralek Cavern|N|From Vaskarn.|
 C Catching Up with Friends|QID|75507|M|55.88,55.42|Z|2133;Zaralek Cavern|NC|N|Talk to Cuzolth and upgrade your items. You can wait to do this till you have something worth upgrading.|S!US|
-
 t Catching Up with Friends|QID|75507|M|55.88,55.42|Z|2133;Zaralek Cavern|N|To Vaskarn.|
 C Best Friends|QID|74877|QO|4|M|52.18,62.79|Z|2133;Zaralek Cavern|I|N|Go check on Myrrit.|
 T Best Friends|QID|74877|M|52.19,62.79|Z|2133;Zaralek Cavern|N|To Myrrit.|
 T Future Aspects|QID|74334|M|59.49,68.80|Z|2133;Zaralek Cavern|N|To Ebyssian.|
 A Save-A-Mole|QID|72958|PRE|74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
 A Collating Their Research|QID|74375|PRE|74334|M|59.47,68.87|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
-C Collating Their Research|QID|74375|M|58.09,73.68|Z|2133;Zaralek Cavern|QO|2|N|Unalive the Sundered Defenders and loot the notes.|S|
-C Collating Their Research|QID|74375|M|57.89,73.93;59.19,73.78;59.91,74.45;59.87,72.64|CS|Z|2133;Zaralek Cavern|QO|1|H|N|We have provided locations for all the notes, it is up to you to do them in whatever you want..|
-C Collating Their Research|QID|74375|M|58.09,73.68|Z|2133;Zaralek Cavern|QO|2|N|Unalive the Sundered Defenders and loot the notes.|US|
+C Collating Their Research|QID|74375|M|58.09,73.68|Z|2133;Zaralek Cavern|QO|1|N|Unalive the Sundered Defenders and loot the notes.|S|
+C Collating Their Research|QID|74375|M|57.89,73.93;59.19,73.78;59.91,74.45;59.87,72.64|CS|Z|2133;Zaralek Cavern|QO|2|H|N|We have provided locations for all the notes, it is up to you to do them in whatever you want..|
+C Collating Their Research|QID|74375|M|58.09,73.68|Z|2133;Zaralek Cavern|QO|1|N|Unalive the Sundered Defenders and loot the notes.|US|
 C Save-A-Mole|QID|72958|M|58.09,75.33|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Tuberros found.|
 T Save-A-Mole|QID|72958|M|59.36,68.98|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
 T Collating Their Research|QID|74375|M|59.36,68.98|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
@@ -259,8 +258,8 @@ C The Endless Burning Sky|QID|72920|M|56.48,55.50|Z|2133|QO|3|CHAT|N|Elder Honey
 C The Endless Burning Sky|QID|72920|M|56.43,55.74|Z|2133|QO|4|H|N|Fire cleared from doorway.|
 T The Endless Burning Sky|QID|72920|M|56.07,54.59|Z|2133|N|To Ebyssian.|
 A In the Wake of the Ashes|QID|75145|PRE|72920|M|56.07,54.59|Z|2133|N|From Ebyssian.|
-t Care to Barter|QID|75720|M|58.10,53.82|Z|2133|N|To Ponzo.|IZ|Loamm|
-A Bartering 101|QID|75721|PRE|75720|M|58.10,53.82|Z|2133|N|From Ponzo.|
+t Care to Barter?|QID|75720|M|58.10,53.82|Z|2133|N|To Ponzo.|IZ|Loamm|
+A Bartering 101|QID|75721|PRE|75720|M|58.10,53.82|Z|2133|N|From Ponzo.|RANK|2|
 P Valdrakken|ACTIVE|75145|M|48.82,51.52|Z|2112|N|Make your way back to Valdrakken by any means.|
 T Bartering 101|QID|75721|M|36.41,62.47|Z|2112|N|To Kayann, this opens up the bartering quests which are weekly and worth pursuing if you are a collector.|
 C In the Wake of the Ashes|QID|75145|M|58.19,38.85|Z|2112|QO|1|CHAT|N|Report delivered to Ebyssian on top of The Seat of the Aspects.|
@@ -293,6 +292,7 @@ T Thinning Their Defenses|QID|74539|M|46.76,29.64|Z|2133;Zaralek Cavern|N|To Fie
 T Intercepting Communications|QID|74540|M|46.76,29.64|Z|2133;Zaralek Cavern|N|To Field Commander Ignax.|
 A Air Superiority|QID|74542|PRE|74538&74539&74540|M|46.76,29.64|Z|2133;Zaralek Cavern|N|From Field Commander Ignax.|
 C Air Superiority|QID|74542|M|46.97,29.37|Z|2133;Zaralek Cavern|QO|1|CHAT|N|Fly with Ebyssian. Starts a standard bombing run.|
+C Air Superiority|QID|74542|M|46.97,29.37|Z|2133;Zaralek Cavern|QO|2|CHAT|N|1 is a small aoe, 2 is a larger AOE, bomb the doods till the bar fills.|
 T Air Superiority|QID|74542|M|53.60,30.22|Z|2133;Zaralek Cavern|N|To Ebyssian.|
 A Investigating the Unknown|QID|74557|PRE|74542|M|53.60,30.22|Z|2133;Zaralek Cavern|N|From Ebyssian.|
 C Investigating the Unknown|QID|74557|M|53.54,30.43|Z|2133;Zaralek Cavern|QO|3|I|N|Contact made with a serpent drake.|
@@ -339,7 +339,7 @@ T Cracking His Shell|QID|72929|M|47.37,15.61|Z|2133;Zaralek Cavern|N|To Scalecom
 A Stopping Sarkareth|QID|72930|PRE|72929|M|47.37,15.61|Z|2133;Zaralek Cavern|N|From Scalecommander Emberthal.|
 C Stopping Sarkareth|QID|72930|M|47.47,14.95|Z|2133;Zaralek Cavern|NC|N|Kill the Dreadful Defender.|
 T Stopping Sarkareth|QID|72930|M|48.00,11.94|Z|2133;Zaralek Cavern|N|To Scalecommander Emberthal.|
-A Aberrus, The Shadowed Crucible: Sarkareth|QID|75694|PRE|72930|M|48.02,11.81|Z|2133;Zaralek Cavern|N|From Ebyssian.|
+;A Aberrus, The Shadowed Crucible: Sarkareth|QID|75694|PRE|72930|M|48.02,11.81|Z|2133;Zaralek Cavern|N|From Ebyssian.|
 C Aberrus, The Shadowed Crucible: Sarkareth|ACTIVE|75694|N|Kill Sarkareth in the final wing of [color=ff8000]The Shadowed Crucible Raid[/color]. This does not become available in raid finder until June 20. At that time, Blizzard is removing this quest as a requirement for continuing this story line, so this is optional in the long run.|S!US|
 
 A Healing Crystals|QID|73037|M|40.11,68.42|Z|2133;Zaralek Cavern|N|From Rupert, the Gentleman Elemental.|RANK|2|
