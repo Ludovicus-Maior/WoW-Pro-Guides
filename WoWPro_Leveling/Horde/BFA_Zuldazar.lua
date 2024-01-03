@@ -333,11 +333,11 @@ C Die, Die, Diemetradon|QID|47583|M|67.85,24.11|Z|0862;Zuldazar|N|Kill Venomous 
 A Predatory|QID|47585|QO|1|M|68.85,19.44|Z|0862;Zuldazar|N|From Trapper Custer (or what's left of him).|RANK|2|
 C A Thorn in the Side|QID|47584|M|68.32,21.65|Z|0862;Zuldazar|N|Kill Ankylodons.|S|
 $ The Exile's Lament|QID|50949|M|71.28,17.45;71.83,16.77|CS|Z|0862;Zuldazar|N|Inside the cave you can find a chest to loot for azerite power and resources.|RANK|2|
-K King K'tal|ACTIVE|47706|QO|1|M|69.88,22.79|Z|0862;Zuldazar|N|Kill K'tal and loot his skull. This is a group quest so you may need help.|S|
+K King K'tal|ACTIVE|47706|QO|1|M|69.88,22.79|Z|0862;Zuldazar|N|Kill K'tal and loot his skull.\n[color=FF0000]NOTE: [/color]This is a group quest so you may need help.|S|
 C Predatory|QID|47585|QO|1|M|70.63,22.01|Z|0862;Zuldazar|N|Ranger Paalu can be found here.|I|
 C Predatory|QID|47585|QO|2|M|67.81,25.06|Z|0862;Zuldazar|N|Marksman Julyen is lying here.|I|
 K Wildtusk|ACTIVE|50466|QO|1|M|71.00,26.38|Z|0862;Zuldazar|N|Kill Wildtusk.|T|Wildtusk|
-K King K'tal|ACTIVE|47706|QO|1|M|69.88,22.79|Z|0862;Zuldazar|N|Kill K'tal and loot his skull.This is a group quest so you may need help.|T|King K'tal|US|
+K King K'tal|ACTIVE|47706|QO|1|M|69.88,22.79|Z|0862;Zuldazar|N|Kill K'tal and loot his skull.\n[color=FF0000]NOTE: [/color]This is a group quest so you may need help.|T|King K'tal|US|
 C A Thorn in the Side|QID|47584|M|68.32,21.65|Z|0862;Zuldazar|N|Finish your quota of Ankylodons.|US|
 C Die, Die, Diemetradon|QID|47583|M|67.85,24.11|Z|0862;Zuldazar|N|Finish your quota of Venomous Diemetradons.|US|
 T Die, Die, Diemetradon|QID|47583|M|67.49,18.89|Z|0862;Zuldazar|N|To Tracker Burke's Hat.|
@@ -347,28 +347,28 @@ A Hunting the Hunter|QID|47586|PRE|50466&47583&47584&47585|M|67.50,17.62|Z|0862;
 T Hunt for King K'tal|QID|47706|M|67.50,17.62|Z|0862;Zuldazar|N|To Huntmaster Vol'ka.|
 T He's Gone Mad!|QID|50466|M|67.50,17.62|Z|0862;Zuldazar|N|To Huntmaster Vol'ka.|
 f Nesingwary's Gameland|ACTIVE|47586|M|66.18,17.57|Z|0862;Zuldazar|N|At Lasa the Galerider.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|RANK|2|
-$ Mysterious Trashpile|AVAILABLE|50332|M|66.20,16.59|Z|0862;Zuldazar|N|Click on the Mysterious Trashpile to attract Jani who has a quest for you.|RANK|2|BUFF|262409|
+$ Mysterious Trashpile|AVAILABLE|50332|M|66.20,16.59|Z|0862;Zuldazar|N|Click on the Mysterious Trashpile to summon Jani who has a quest for you.|RANK|2|BUFF|262409|
 A Big Hunter Mon|QID|50332|M|66.20,16.59|Z|0862;Zuldazar|N|From Jani.|RANK|2|
 R Big Hunter Mon|ACTIVE|50332|QO|1|M|67.73,17.86|Z|0862;Zuldazar|N|Nesingwary's Stores reached. Use sprint and avoid the Eyes of Yazma.|
 C Big Hunter Mon|QID|50332|QO|2|M|67.46,17.71|Z|0862;Zuldazar|N|Enter the basement from the east side and click on the Bullet Box inside.|H|
 C Big Hunter Mon|QID|50332|QO|3|M|67.70,17.71|Z|0862;Zuldazar|N|Wait for Nesingwary to trigger stink bombs.|NC|
 C Big Hunter Mon|QID|50332|QO|4|M|67.70,17.71|Z|0862;Zuldazar|N|Click on Nesingwary to steal his Boot.|H|
-R Big Hunter Mon|ACTIVE|50332|QO|5|M|66.23,16.67|Z|0862;Zuldazar|N|Bring the Boot to Jani.\n[color=FF0000]NOTE: [/color]Running into an Eye of Yazma will speed up the process.|
+R Big Hunter Mon|ACTIVE|50332|QO|5|M|66.23,16.67|Z|0862;Zuldazar|N|Bring the Boot to Jani.\n[color=FF0000]NOTE: [/color]Running into an Eye of Yazma will speed up the process. But, this may cause the turn-in step to be skipped.|
 T Big Hunter Mon|QID|50332|M|66.23,16.67|Z|0862;Zuldazar|N|To Jani.\n[color=FF0000]NOTE: [/color]Click on the Trashpile if necessary.|
 ;A Trouble in the Rootway|QID|50178|M|65.88,19.97|Z|0862;Zuldazar|N|Bonus Objective. Autoaccepted.|LVL|-50|RANK|2|
 C Trouble in the Rootway|QID|50178|M|65.88,19.97|Z|0862;Zuldazar|N|Bonus Objective - Kill the invasive animals in the area.|S|
-$ Witch Doctor's Stash|QID|50259|M|65.46,21.91;64.71,21.67|CS|Z|0862;Zuldazar|N|Follow this path to get up to the Treasure.|RANK|2|
-K Feathered Viper|QID|50431|M|62.73,20.58|Z|0862;Zuldazar|L|157794|N|Kill the Feathered Vipers in the area until you get a [color=33fff9]Feathered Viper Scale[/color] and hear Jani's guttural voice.|S|RANK|2|
-C Hunting the Hunter|QID|47586|QO|1|M|62.46,19.25|Z|0862;Zuldazar|N|Inspect Nesingwary's campfire.|I|
+$ Witch Doctor's Hoard|QID|50259|M|65.77,19.47;65.58,21.20;64.71,21.67|CS|Z|0862;Zuldazar|N|Cross the road and go to the hill edge. You can see the path to it ahead you on the other side of the road. Head up the path and around to the right to get to the Treasure.|RANK|2|
+l Feathered Viper|AVAILABLE|50431|M|62.73,20.58|Z|0862;Zuldazar|L|157794|ITEM|157794|N|any Feathered Vipers in the area.|S|RANK|2|
+C Hunting the Hunter|QID|47586|QO|1|M|62.45,19.27|Z|0862;Zuldazar|N|Inspect Nesingwary's campfire.|I|
 C Hunting the Hunter|QID|47586|QO|2|M|61.49,17.96|Z|0862;Zuldazar|N|Inspect the Suspicious trap.|I|
 C Hunting the Hunter|QID|47586|QO|3|M|62.32,16.87|Z|0862;Zuldazar|N|Inspect Nesingwary's gun.|I|
-T Hunting the Hunter|QID|47586|M|63.49,16.16|Z|0862;Zuldazar|N|To Hemet Nesingwary at Headhunter Lodge.|
+T Hunting the Hunter|QID|47586|M|63.49,16.16|Z|0862;Zuldazar|N|To Hemet Nesingwary on the second floor of the east building in Headhunter Lodge.|
 A Headhunter Jo|QID|47587|PRE|47586|M|63.49,16.16|Z|0862;Zuldazar|N|From Hemet Nesingwary.|RANK|2|
 K Headhunter Jo|ACTIVE|47587|QO|1|M|63.03,15.89|Z|0862;Zuldazar|N|Kill Headhunter Jo.|
 T Headhunter Jo|QID|47587|M|63.50,16.14|Z|0862;Zuldazar|N|To Hemet Nesingwary.|
-K Feathered Viper|QID|50431|M|62.73,20.58|Z|0862;Zuldazar|L|157794|N|Kill the feathered vipers in the area until you get a [color=33fff9]Feathered Viper Scale[/color] and hear Jani's guttural voice.|US|RANK|2|
-$ Mysterious Trashpile|AVAILABLE|50431|M|62.73,20.58|Z|0862;Zuldazar|ITEM|157794|N|Click on the Trashpile to summon Jani.|RANK|2|BUFF|262933|
-C Feathered Viper Scale|AVAILABLE|50431|M|62.73,20.58|Z|0862;Zuldazar|ITEM|157794|N|Offer to give Jani the Feathered Viper Scale and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|CHAT|RANK|2|
+l Feathered Viper|AVAILABLE|50431|M|62.73,20.58|Z|0862;Zuldazar|L|157794|ITEM|157794|N|any Feathered Vipers in the area.|US|RANK|2|
+$ Mysterious Trashpile|AVAILABLE|50431|M|62.73,20.58|Z|0862;Zuldazar|N|Click on the Trashpile to summon Jani.|RANK|2|BUFF|262933|
+C Feathered Viper Scale|AVAILABLE|50431|M|62.73,20.58|Z|0862;Zuldazar|N|Offer to give Jani the Feathered Viper Scale and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|CHAT|RANK|2|
 C Trouble in the Rootway|QID|50178|M|62.87,19.95|Z|0862;Zuldazar|N|Finish the Bonus Objective or skip this step.|US|
 ;T Trouble in the Rootway|QID|50178|M|62.87,19.95|Z|0862;Zuldazar|N|Bonus Objective - Autocompleted.|
 A WANTED: Darkspeaker Jo'la|QID|51069|M|63.740,10.18|Z|0862;Zuldazar|N|From Wanted Poster.|RANK|3|
