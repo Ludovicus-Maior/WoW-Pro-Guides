@@ -1,11 +1,11 @@
-local guide = WoWPro:RegisterGuide('CagLegionEvoker', 'Leveling', 'Dalaran', 'WoWPro Team', 'Neutral')
-WoWPro:GuideLevels(guide, 10, 50, 10)
+local guide = WoWPro:RegisterGuide('CagLegionEvoker', 'Leveling', 'Dalaran!Broken Isles', 'WoWPro Team', 'Neutral')
+WoWPro:GuideLevels(guide, 60, 60, 60)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideContent(guide, "Legion")
 WoWPro:GuideName(guide, 'Evoker: Order Hall')
 WoWPro:GuideNickname(guide, "Evoker: Order Hall")
-WoWPro:GuideClassSpecific(guide,"Evoker")
 WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
+WoWPro:GuideClassSpecific(guide,"Evoker")
 WoWPro:GuideSteps(guide, function()
 return [[
 
