@@ -835,6 +835,9 @@ end
 function WoWPro.BuildGuideInMenuList()
     WoWPro.GuideMenuList = {}
     for gid, guide in pairs(WoWPro.Guides) do
+        if  WoWPro[guide.guidetype].RegisterGuide then
+            WoWPro[guide.guidetype]:RegisterGuide(guide)
+        end
         WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
     end
     -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
@@ -878,10 +881,6 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         -- WoWPro:print("RegisterGuide(): Zone %q is not valid, using as guide name.", guide.zone)
         guide.name = guide.name or guide.zone
         guide.zone = nil
-    end
-
-    if  WoWPro[gtype].RegisterGuide then
-        WoWPro[gtype]:RegisterGuide(guide)
     end
 
     if faction and faction ~= WoWPro.Faction and faction ~= "Neutral" then
