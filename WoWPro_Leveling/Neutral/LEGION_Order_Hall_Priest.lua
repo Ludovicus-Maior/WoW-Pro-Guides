@@ -189,7 +189,7 @@ A United As One|QID|43397|M|51.58,47.77|N|From Alonsus Faol.|PRE|43395^43396|
 P Dalaran|QID|43397|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43397|
 R Chamber of the Guardian|QID|43397|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43397|
 P Dalaran Crater|QID|43397|M|28.77,77.36|Z|Aegwynn's Gallery@Dalaran70|N|Take the Dalaran portal to Dalaran Crater. Cast Lev (or don't your choice.)|ACTIVE|43397|
-R Light's Hope Chapel|QID|43397|M|75.75,52.22|Z|Eastern Plaguelands|N|Fly to Light's Hope Chapel in Eastern Plaguelands. Once you arrive, click on the floor in the middle of the chapel to enter the Paladin order hall.|ACTIVE|43397|
+R Light's Hope Chapel|QID|43397|M|75.75,52.22|Z|23;Eastern Plaguelands|N|Fly to Light's Hope Chapel in Eastern Plaguelands. Once you arrive, click on the floor in the middle of the chapel to enter the Paladin order hall.|ACTIVE|43397|
 C United As One|QID|43397|QO|2|M|50.45,74.33|Z|24;Light's Hope Chapel|CHAT|N|Continue down the stairs to find and talk to Lady Liadrin. Then, wait a minute or so for the war council to finish discussing.|
 T United As One|QID|43397|M|50.45,74.33|Z|24;Light's Hope Chapel|N|To Lady Liadrin.|
 A Aiding the Conclave|QID|43797|M|50.45,74.33|Z|24;Light's Hope Chapel|N|From Lady Liadrin.|PRE|43397|

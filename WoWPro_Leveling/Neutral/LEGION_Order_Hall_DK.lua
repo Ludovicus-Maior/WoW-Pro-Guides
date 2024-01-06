@@ -239,15 +239,15 @@ A The Fourth Horseman|QID|43686|M|51.06,50.59|N|From Highlord Darion Mograine.|P
 P Dalaran|QID|43686|M|24.91,33.65|N|Use the Dalaran Portal.|ACTIVE|43686|
 P Undercity|QID|43686|M|55.89,22.88|Z|Dalaran!Dalaran!Dungeon|N|Take the Undercity Portal.|FACTION|HORDE|ACTIVE|43686|
 P Stormwind|QID|43686|M|39.48,63.07|Z|Dalaran!Dalaran!Dungeon|N|Take the Stormwind Portal. The Dalaran Crater Portal from Aegwynn's Gallery is also an option.|FACTION|ALLIANCE|ACTIVE|43686|
-F Light's Hope Chapel|QID|43686|QO|1|M|71.34,48.14|Z|Eastern Plaguelands|N|Fly over to Light's Hope Chapel.|ACTIVE|43686|
-C Meet up with Darion|QID|43686|SO|1|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Land and talk to Darion (or just wait a few seconds)|;missed the proper title feel free to change
-C Prepare to attack|QID|43686|SO|2|M|71.34,48.14|Z|Eastern Plaguelands|NC|N|Listen to dialog.|;missed the proper title feel free to change
-C Upon the Hill of No Return|QID|43686|SO|3|M|71.34,48.14|Z|Eastern Plaguelands|CHAT|N|Talk to Darion Mograine to start things off.|
-C The Dead Shall Rise|QID|43686|SO|4|M|77.85,51.41|Z|Eastern Plaguelands|NC|N|Ride into the crypt at Light's Hope Chapel and use the extra action button to raise ghouls at each of the four rooms in the crypt.|
-C The Highlord Awaits|QID|43686|SO|5|M|75.81,52.04|Z|Eastern Plaguelands|NC|N|Exit the crypt and go into the chapel to meet Highlord Morgraine.|
-C The Sanctum of Light|QID|43686|SO|6|M|77.13,48.04|Z|Eastern Plaguelands|N|Now you get to fight. Head down the stairs into the Sanctum of Light.|
-C Lady of the Light|QID|43686|SO|7|M|78.52,45.75|Z|Eastern Plaguelands|N|Fight your way to, and then defeat Lady Liadrin.|
-C An Unholy Fate|QID|43686|SO|8|M|78.90,45.28|Z|Eastern Plaguelands|NC|N|Stand of the steps before the coffin and use your extra action button then watch the vignette play out.|
+F Light's Hope Chapel|QID|43686|QO|1|M|71.34,48.14|Z|23;Eastern Plaguelands|N|Fly over to Light's Hope Chapel.|ACTIVE|43686|
+C Meet up with Darion|QID|43686|SO|1|M|71.34,48.14|Z|23;Eastern Plaguelands|NC|N|Land and talk to Darion (or just wait a few seconds)|;missed the proper title feel free to change
+C Prepare to attack|QID|43686|SO|2|M|71.34,48.14|Z|23;Eastern Plaguelands|NC|N|Listen to dialog.|;missed the proper title feel free to change
+C Upon the Hill of No Return|QID|43686|SO|3|M|71.34,48.14|Z|23;Eastern Plaguelands|CHAT|N|Talk to Darion Mograine to start things off.|
+C The Dead Shall Rise|QID|43686|SO|4|M|77.85,51.41|Z|23;Eastern Plaguelands|NC|N|Ride into the crypt at Light's Hope Chapel and use the extra action button to raise ghouls at each of the four rooms in the crypt.|
+C The Highlord Awaits|QID|43686|SO|5|M|75.81,52.04|Z|23;Eastern Plaguelands|NC|N|Exit the crypt and go into the chapel to meet Highlord Morgraine.|
+C The Sanctum of Light|QID|43686|SO|6|M|77.13,48.04|Z|23;Eastern Plaguelands|N|Now you get to fight. Head down the stairs into the Sanctum of Light.|
+C Lady of the Light|QID|43686|SO|7|M|78.52,45.75|Z|23;Eastern Plaguelands|N|Fight your way to, and then defeat Lady Liadrin.|
+C An Unholy Fate|QID|43686|SO|8|M|78.90,45.28|Z|23;Eastern Plaguelands|NC|N|Stand of the steps before the coffin and use your extra action button then watch the vignette play out.|
 C The Fourth Horseman|QID|43686|M|30.36,32.98|NC|N|Watch the vignette and then click on Darion.|
 T The Fourth Horseman|QID|43686|M|30.36,32.98|N|To Highlord Darion Morgraine.|
 t Eye of Azshara: The Frozen Soul|QID|44282|M|58.27,30.86|N|To Amal'thazad.|

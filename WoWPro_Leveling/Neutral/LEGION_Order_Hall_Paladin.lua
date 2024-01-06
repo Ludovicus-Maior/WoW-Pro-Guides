@@ -27,7 +27,7 @@ C Weapons of Legend|QID|40408|QO|1|M|74.91,48.23|Z|Dalaran@Dalaran70|N|Choose wh
 T Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran@Dalaran70|N|To Lord Maxwell Tyrosus.|
 A Artifact specific quest|QID|42000^42231^42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|40408|
 ;Paladin class hall
-C We Meet at Light's Hope|QID|38576^42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|PRE|38576&42811|
+C We Meet at Light's Hope|QID|38576^42811|QO|2|M|42.91,88.83|Z|23;Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|PRE|38576&42811|
 T We Meet at Light's Hope|QID|38576^42811|M|63.13,37.18|N|To Lord Maxwell Tyrosus.|
 A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576&42811|
 C A United Force|QID|38566|NC|QO|1|M|74.54,20.33|N|Walk with Lord Maxwell Tyrosus|
@@ -98,8 +98,8 @@ P Sanctum of Light|ACTIVE|42120|M|32.68,69.85|Z|Dalaran@Dalaran70|N|Take the Por
 T The Silver Hand|QID|42120|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 A We Meet at Light's Hope|QID|38576|M|71.82,45.03|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|42120|
 C We Meet at Light's Hope|QID|38576|QO|1|M|43.75,40.05|Z|Dalaran@Dalaran70|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Dalaran Crater. It's still in the same place, WAY HIGH up in the air.|
-C We Meet at Light's Hope|QID|38576|QO|2|M|73.35,53.79|Z|Eastern Plaguelands|N|(Optional) Fly to Light's Hope Chapel.|
-;C We Meet at Light's Hope|QID|38576|QO|3|M|42.56,88.22|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|
+C We Meet at Light's Hope|QID|38576|QO|2|M|73.35,53.79|Z|23;Eastern Plaguelands|N|(Optional) Fly to Light's Hope Chapel.|
+;C We Meet at Light's Hope|QID|38576|QO|3|M|42.56,88.22|Z|23;Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|
 ;T We Meet at Light's Hope|QID|38576|M|63.23,37.06|N|To Lord Maxwell Tyrosus.|
 ;PROTECTION
 ;A Seeker of Truth|QID|42000|M|74.74,48.08|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|
@@ -131,8 +131,8 @@ T Shrine of the Truthguard|QID|42017|M|71.77,45.17|Z|Dalaran@Dalaran70|N|To Lord
 A We Meet at Light's Hope|QID|38576|M|71.77,45.17|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|42017|
 R Chamber of Guardians|QID|38576|M|43.75,40.05|Z|Dalaran@Dalaran70|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Dalaran Crater.|ACTIVE|38576|
 C We Meet at Light's Hope|QID|38576|QO|1|M|30.91,36.34|Z|Aegwynn's Gallery@Dalaran70|N|Be ready with Divine Shield, Slow Fall potion, something... You come out way above the crater.|
-C We Meet at Light's Hope|QID|38576|QO|2|M|73.69,53.82|Z|Eastern Plaguelands|N|(Optional) Fly to Light's Hope Chapel.|; how is this optional? ... i suppose you could walk
-;C We Meet at Light's Hope|QID|38576|QO|3|M|43.27,88.00|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|
+C We Meet at Light's Hope|QID|38576|QO|2|M|73.69,53.82|Z|23;Eastern Plaguelands|N|(Optional) Fly to Light's Hope Chapel.|; how is this optional? ... i suppose you could walk
+;C We Meet at Light's Hope|QID|38576|QO|3|M|43.27,88.00|Z|23;Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|
 ;T We Meet at Light's Hope|QID|38576|M|63.17,37.13|N|To Lord Maxwell Tyrosus.|
 ;RETRIBUTION
 ;A Seeking Guidance|QID|42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|
@@ -152,10 +152,10 @@ A The Light Reveals|QID|42773|M|51.62,81.93|Z|22;Western Plaguelands|N|From Lord
 C The Light Reveals|QID|42773|NC|QO|2|M|52.08,83.28|Z|22;Western Plaguelands|N|Click on the inscription stone in front of the statue.|
 T The Light Reveals|QID|42773|M|52.11,83.19|Z|22;Western Plaguelands|N|To Lord Maxwell Tyrosus.|
 A Hope Prevails|QID|42774|M|52.11,83.19|Z|22;Western Plaguelands|N|From Lord Maxwell Tyrosus.|PRE|42773|
-F Light's Hope Chapel|QID|42774|ACTIVE|42774|M|74.16,53.06|Z|Eastern Plaguelands|N|Make your way to Light's Hope Chapel.|
-T Hope Prevails|QID|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
-A The Search for the Highlord|QID|38376|PRE|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|
-C The Search for the Highlord||QID|38376|QO|1|M|74.16,53.06|Z|Eastern Plaguelands|NC|N|Hop on the Argent Hippogryph to be flown into a scenario.|
+F Light's Hope Chapel|QID|42774|ACTIVE|42774|M|74.16,53.06|Z|23;Eastern Plaguelands|N|Make your way to Light's Hope Chapel.|
+T Hope Prevails|QID|42774|M|74.28,53.22|Z|23;Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
+A The Search for the Highlord|QID|38376|PRE|42774|M|74.28,53.22|Z|23;Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|
+C The Search for the Highlord||QID|38376|QO|1|M|74.16,53.06|Z|23;Eastern Plaguelands|NC|N|Hop on the Argent Hippogryph to be flown into a scenario.|
 C Sounding the Charge|QID|38376|SO|1|M|15.34,50.43|Z|Broken Shore!Instance|N|Lead the paladins of the Argent Crusade into battle.|
 C Crusaders' March|QID|38376|SO|2|M|15.34,50.43|Z|Broken Shore!Instance|N|Destroy the demon army.|
 C Destroy Jailer Zerus|QID|38376|SO|3|M|19.95,61.73|Z|Broken Shore!Instance|N|Destroy Jailer Zerus.|
@@ -167,8 +167,8 @@ T The Search for the Highlord||QID|38376|M|20.43,61.55|Z|Broken Shore!Instance|
 A We Meet at Light's Hope|QID|42811|M|20.43,61.55|Z|Broken Shore!Instance|PRE|38376|
 C We Meet at Light's Hope|QID|42811|QO|1|M|19.74,60.59|Z|Broken Shore!Instance|N|Click on the Hippogryph for a ride to Light's Hope.|
 F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|Broken Shore!Instance|N|Click on the Hippogryph for a ride to Light's Hope.|PRE|38376&44063|ACTIVE|42811|
-;C We Meet at Light's Hope|QID|42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Click on the floor to open the secret door.|
-;T We Meet at Light's Hope|QID|42811|M|63.13,37.18|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
+;C We Meet at Light's Hope|QID|42811|QO|2|M|42.91,88.83|Z|23;Eastern Plaguelands|N|Click on the floor to open the secret door.|
+;T We Meet at Light's Hope|QID|42811|M|63.13,37.18|Z|23;Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
 ;Chapter 1
 A The Blood Matriarch|QID|42846|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|39696|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|53.32,78.77|N|From Scouting Map. Note it now has 3 tabs, choose the one called scouting map.|PRE|42844|
@@ -224,8 +224,8 @@ A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kad
 T Light's Charge|QID|44153|M|52.37,69.37|N|Return to your order hall and return to Light's Heart (table in alcove adjacent scouting map).|
 A Meeting of the Silver Hand|QID|42867|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42850&44153|
 R Light's Hope Chapel|QID|42867|QO|1|M|40.59,73.84;45.79,83.13;41.74,89.66|CS|N|Justicar Julia Celeste is found upstairs, just outside the gates.|ACTIVE|42867|
-C Meeting of the Silver Hand|QID|42867|QO|1|M|72.73,54.61|Z|Eastern Plaguelands|CHAT|N|Justicar Julia Celeste can be found outside the front gate of Light's Hope Chapel.|
-R Sanctum of Light|QID|42867|QO|2|M|75.68,52.24|Z|Eastern Plaguelands|N|Back inside your order hall.|ACTIVE|42867|
+C Meeting of the Silver Hand|QID|42867|QO|1|M|72.73,54.61|Z|23;Eastern Plaguelands|CHAT|N|Justicar Julia Celeste can be found outside the front gate of Light's Hope Chapel.|
+R Sanctum of Light|QID|42867|QO|2|M|75.68,52.24|Z|23;Eastern Plaguelands|N|Back inside your order hall.|ACTIVE|42867|
 C Meeting of the Silver Hand|QID|42867|QO|3|M|38.24,64.58|CHAT|N|Lady Liadrin can be found beside the Dalaran portal. NOTE: if she is out on a mission you will have to wait until the mission is finished. If she is your combat ally, you need to unassign her.|
 C Meeting of the Silver Hand|QID|42867|QO|2|M|52.40,60.49|CHAT|N|Vindicator Boros can be found near Commander Ansela (where you pick up recruits).|
 C Meeting of the Silver Hand|QID|42867|QO|4|M|49.50,51.77|CHAT|N|Aponi Brightmane can be found across the hall from Vindicator Boros.|
@@ -419,7 +419,7 @@ C Menace on the Broken Shore|QID|45975|M|53.49,78.52|N|Use Command Board to send
 t Investigate the Broken Shore|QID|45975|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
 ;champions of legionfall
 A Judgment Awaits|QID|45143|M|50.22,74.05|N|From Lady Leadrin.|ACTIVE|47137|
-C Judgment Awaits|QID|45143|M|75.69,53.86|Z|Eastern Plaguelands|NC|N|Go outside (to Lights Hope Chapel, not Dalaran) and use the provided extra action button to judge the troops.|
+C Judgment Awaits|QID|45143|M|75.69,53.86|Z|23;Eastern Plaguelands|NC|N|Go outside (to Lights Hope Chapel, not Dalaran) and use the provided extra action button to judge the troops.|
 T Judgment Awaits|QID|45143|M|59.35,32.42|N|To Delas Moonfang back in your order hall.|
 A Ancestors and Enemies|QID|45890|M|59.35,32.42|N|From Delas Moonfang.|PRE|45143|
 P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|45890|
@@ -470,8 +470,8 @@ A Leather to Legendary|QID|46074|M|44.13,28.69|Z|Dalaran@Dalaran70|N|From Alard 
 C Leather to Legendary|QID|46074|QO|2|M|44.13,28.69|Z|Dalaran@Dalaran70|NC|N|Stand still and wait for Alard to create your barding, then pick it up off of the anvil.|
 T Leather to Legendary|QID|46074|M|52.26,78.13|N|Return to your order hall and to Lord Grayson Shadowbreaker.|
 A Stirring in the Shadows|QID|45770|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|
-R Eastwall Gate|QID|46074|M|43.44,19.56|Z|Eastern Plaguelands|N|Run up the stairs and out of the order hall into Eastern Plaguelands, Fly to the service entrance of Strathholme. DO NOT GO INSIDE YET.|ACTIVE|45770|
-C Stirring in the Shadows|QID|45770|M|43.44,19.56|Z|Eastern Plaguelands|CHAT|N|Talk to Defender Sterius to start the scenario. (check step off manually)If the guide does not appear inside the scenario, you can disable and then reenable via the wowpro addon in the addons menu. *does not require reload*.|
+R Eastwall Gate|QID|46074|M|43.44,19.56|Z|23;Eastern Plaguelands|N|Run up the stairs and out of the order hall into Eastern Plaguelands, Fly to the service entrance of Strathholme. DO NOT GO INSIDE YET.|ACTIVE|45770|
+C Stirring in the Shadows|QID|45770|M|43.44,19.56|Z|23;Eastern Plaguelands|CHAT|N|Talk to Defender Sterius to start the scenario. (check step off manually)If the guide does not appear inside the scenario, you can disable and then reenable via the wowpro addon in the addons menu. *does not require reload*.|
 C Choose Your Allies|QID|45770|SO|1|M|63.87,78.97|Z|StratholmePaladinClassMount/1|NC|N|Recruit 2 of the paladins to assist you.|
 C Search the City|QID|45770|SO|2|S|M|63.87,78.97|Z|StratholmePaladinClassMount/1|NC|N|Find the needed items.|
 C Search the City|QID|45770|SO|2;1|M|63.87,78.97|Z|StratholmePaladinClassMount/1|S|NC|N|Collect Holy Water scattered around in boxes.|

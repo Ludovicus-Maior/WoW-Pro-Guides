@@ -6,6 +6,7 @@
 local guide = WoWPro:RegisterGuide("TwiExpBT","Achievements","Borean Tundra","Kaboca+Twists", "Neutral", 3)
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",45)
+WoWPro.Achievements:GuideMisc(guide, "Explore Northrend", "Exploration", "WOTLK")
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
 return [[

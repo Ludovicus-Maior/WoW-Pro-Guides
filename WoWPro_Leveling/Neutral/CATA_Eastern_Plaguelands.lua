@@ -60,15 +60,8 @@ T Traveling Companions|QID|27381|M|35.24,68.76|Z|23;Eastern Plaguelands|N|Use th
 R The Undercroft|QID|27432|M|24.23,78.31|Z|23;Eastern Plaguelands|N|Run to The Undercroft.|
 C Zaeldarr the Outcast|QID|27432|L|15785|M|23.82,78.79|Z|23;Eastern Plaguelands|N|Kill and loot Zaeldarr. He is at the bottom of the crypt.|
 T Little Pamela|QID|27383|M|32.55,83.77|Z|23;Eastern Plaguelands|N|To Pamela Redpath.|
-A I'm Not Supposed to Tell You This|QID|27392|PRE|27383|M|32.55,83.77|Z|23;Eastern Plaguelands|N|From Pamela Redpath.|S|
+A I'm Not Supposed to Tell You This|QID|27392|PRE|27383|M|32.55,83.77|Z|23;Eastern Plaguelands|N|From Pamela Redpath.|
 A Pamela's Doll|QID|27384|PRE|27383|M|32.55,83.77|Z|23;Eastern Plaguelands|N|From Pamela Redpath.|
-A I'm Not Supposed to Tell You This|QID|27392|PRE|27383|M|32.55,83.77|Z|23;Eastern Plaguelands|N|From Pamela Redpath.|US|
-; Replaced this block of code with a better version below it.
-;C Pamela's Doll's Head|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12886|CC|Z|23;Eastern Plaguelands|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
-;C Pamela's Doll's Left Side|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12887|CC|Z|23;Eastern Plaguelands|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
-;C Pamela's Doll's Right Side|QID|27384|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12888|CC|Z|23;Eastern Plaguelands|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
-;C Pamela's Doll's Head|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12886|CC|Z|23;Eastern Plaguelands|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
-;C Pamela's Doll's Left Side|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12887|CC|Z|23;Eastern Plaguelands|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
 N Pamela's Doll's Parts|ACTIVE|27384|M|32.55,83.77|Z|23;Eastern Plaguelands|N|Each doll part spawns in a random location within 1 of the 3 ruined houses. Multiple parts could be in the same location/area.\nA Ghosts of the Past will spawn when you approach the part. Be on your guard.\nIn case someone else is doing the quest around you, there is a bit of a timer for the respawn of the parts.|
 C Pamela's Doll's Head|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|12886|Z|23;Eastern Plaguelands|N|Locate the Doll's Head. Watch for the Ghosts of the Past.|NC|
 C Pamela's Doll's Left Side|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|12887|Z|23;Eastern Plaguelands|N|Locate the Doll's Left side. Watch for the Ghosts of the Past.|NC|
@@ -77,20 +70,17 @@ C Pamela's Doll's Head|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|128
 C Pamela's Doll's Left Side|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|12887|Z|23;Eastern Plaguelands|N|Locate the Doll's Left side. Watch for the Ghosts of the Past.|NC|
 C Pamela's Doll|QID|27384|U|12886|M|35.41,83.04|Z|23;Eastern Plaguelands|N|Combine the three doll parts into the doll itself.|NC|
 C I'm Not Supposed to Tell You This|QID|27392|M|40.14,83.75|Z|23;Eastern Plaguelands|N|Kill and loot "The Lone Hunter".|
-T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|Z|23;Eastern Plaguelands|N|To Pamela Redpath.|S|
 T Pamela's Doll|QID|27384|M|32.47,83.76|Z|23;Eastern Plaguelands|N|To Pamela Redpath.|
-T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|Z|23;Eastern Plaguelands|N|To Pamela Redpath.|US|
+T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|Z|23;Eastern Plaguelands|N|To Pamela Redpath.|
 A Uncle Carlin|QID|27385|PRE|27384&27392|M|32.53,83.80|Z|23;Eastern Plaguelands|N|From Pamela Redpath.|
 T Zaeldarr the Outcast|QID|27432|M|34.92,68.28|Z|23;Eastern Plaguelands|N|To Urk Gagbaz.|
 T Uncle Carlin|QID|27385|M|35.51,68.81|Z|23;Eastern Plaguelands|N|To Carlin Redpath.|
 A A Strange Historian|QID|27386|PRE|27385|M|35.51,68.81|Z|23;Eastern Plaguelands|N|From Carlin Redpath.|
 T A Strange Historian|QID|27386|M|35.18,68.02|Z|23;Eastern Plaguelands|N|To Chromie.|
 ; The Redpaths of Darrowshire ACH|4892;2|
-A Heroes of Darrowshire|QID|27388|PRE|27386|M|35.18,68.02|Z|23;Eastern Plaguelands|N|From Chromie.|S|
-A Marauders of Darrowshire|QID|27389|PRE|27386|M|35.18,68.02|Z|23;Eastern Plaguelands|N|From Chromie.|S|
+A Heroes of Darrowshire|QID|27388|PRE|27386|M|35.18,68.02|Z|23;Eastern Plaguelands|N|From Chromie.|
+A Marauders of Darrowshire|QID|27389|PRE|27386|M|35.18,68.02|Z|23;Eastern Plaguelands|N|From Chromie.|
 A Villains of Darrowshire|QID|27387|PRE|27386|M|35.18,68.02|Z|23;Eastern Plaguelands|N|From Chromie.|
-A Heroes of Darrowshire|QID|27388|PRE|27386|M|35.18,68.02|Z|23;Eastern Plaguelands|N|From Chromie.|US|
-A Marauders of Darrowshire|QID|27389|PRE|27386|M|35.18,68.02|Z|23;Eastern Plaguelands|N|From Chromie.|US|
 A Cenarion Tenacity|QID|27544|LEAD|27420|PRE|27386|M|34.93,68.32|Z|23;Eastern Plaguelands|N|From Urk Gagbaz.|RANK|2|
 C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|Z|23;Eastern Plaguelands|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|1|CHAT|
 C Rough Roads|QID|27382|M|41.30,71.09|Z|23;Eastern Plaguelands|N|Kill any Plaguebats you need.|S|
@@ -181,7 +171,7 @@ A The Commander|QID|27619|PRE|27462|M|75.48,76.17|Z|23;Eastern Plaguelands|N|Fro
 C Scarlet Salvage|QID|27614|QO|4|M|75.87,77.50|Z|23;Eastern Plaguelands|N|Loot "Gavinrad's Sigil" from the chest.|NC|
 C Scarlet Salvage|QID|27614|QO|3|M|75.13,79.04|Z|23;Eastern Plaguelands|N|Loot "Shroud of Uther" from the chest.|NC|
 C The Wrathcaster|QID|27615|M|74.78,77.99;74.64,78.62|CN|Z|23;Eastern Plaguelands|N|Go downstairs.|
-C Scarlet Salvage|QID|27614|QO|2|M|74.78,77.97;74.24,78.31|CN|Z|23;Eastern Plaguelands|N|Head back upstairs. Loot "Lihanna's Strand" from the chest.|NC|
+C Scarlet Salvage|QID|27614|QO|2|M|74.24,78.31|Z|23;Eastern Plaguelands|N|Head back upstairs. Loot "Lihanna's Strand" from the chest.|NC|
 C Scarlet Salvage|QID|27614|QO|1|M|74.78,76.68|Z|23;Eastern Plaguelands|N|Loot "Crimson Boar" from the chest.|NC|
 C The Commander|QID|27619|M|74.46,77.64;74.93,78.61;74.63,78.46;74.54,77.82;75.02,77.76|CN|Z|23;Eastern Plaguelands|N|Go up two floors, in the middle area.|
 C The Huntsman|QID|27616|M|74.41,78.19;74.19,78.24;74.45,78.18;74.36,78.47;74.15,78.31;74.47,77.88|CN|Z|23;Eastern Plaguelands|N|Go to the roof.|
@@ -302,7 +292,7 @@ C Counter-Plague Research|QID|27531|M|25.09,34.66|Z|23;Eastern Plaguelands|N|The
 T Counter-Plague Research|QID|27531|M|17.81,27.86|Z|23;Eastern Plaguelands|N|To Argent Apothecary Judkins.|
 T Journey's End|QID|27527|U|61379|M|73.83,52.16|Z|23;Eastern Plaguelands|N|To Fiona. Use "Gidwin's Hearthstone" to save your own.|
 ;F Ironforge or Stormwind|QID|27762|M|75.81,53.42|Z|23;Eastern Plaguelands|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc. Close this step when done.|FACTION|Alliance|
-A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.78,53.05|Z|23;Eastern Plaguelands|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|FACTION|Horde|
-T Fuselight, Ho!|QID|27762|O|M|73.78,53.05|Z|23;Eastern Plaguelands|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|FACTION|Horde|
+A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.78,53.05|Z|23;Eastern Plaguelands|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|
+T Fuselight, Ho!|QID|27762|O|M|73.78,53.05|Z|23;Eastern Plaguelands|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|
 ]]
 end)
