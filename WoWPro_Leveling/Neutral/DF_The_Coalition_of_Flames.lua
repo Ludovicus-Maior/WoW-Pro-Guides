@@ -8,6 +8,7 @@ WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 
+L Coalition of Flames|AVAILABLE|75919|LVL|70|ACH|18691|N|You fool!  Only those who been cleansed by flame are worthy of doing this at level 60! Wait 'till you are level 70.|
 T A Sentinel's Summon|QID|76982|M|50.21,52.84|Z|2112|N|To Shandris Feathermoon.|
 A Fire Season|QID|75918|PRE|76982|M|50.21,52.84|Z|2112|N|From Shandris Feathermoon.|
 F Shady Sanctuary|ACTIVE|75918|M|44.09,67.89|Z|Valdrakken|N|Head to the flightmaster and take a flight to Shady Sanctuary.|
