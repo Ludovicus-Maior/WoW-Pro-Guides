@@ -347,10 +347,11 @@ F Ironforge|ACTIVE|301|M|33.94,50.95|N|Fly to Ironforge at Thorgrum Borrelson.|Z
 N Collection Items|AVAILABLE|103^117|ACTIVE|38|N|Make sure you grab the hops, flasks of oil and Westfall Stew items from your bank if you dropped them off.|
 T Report to Ironforge|QID|301|M|74.66,11.74|Z|Ironforge|N|To Prospector Stormpike.|
 A Powder to Ironband|QID|302|PRE|301|M|74.66,11.74|Z|Ironforge|N|From Prospector Stormpike.|
+F Thelsamar|ACTIVE|302|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 T Powder to Ironband|QID|302|M|37.24,47.38|N|To Jern Hornhelm.|
 A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.|
 
-F Thelsamar|ACTIVE|302|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
+
 R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|
 T In Defense of the King's Lands|QID|263|M|23.47,74.49|N|To Mountaineer Wallbang.|Z|Loch Modan|
 A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|PRE|263|Z|Loch Modan|

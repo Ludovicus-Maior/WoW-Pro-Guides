@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("BlackEmpire", "Leveling", "Azeroth", "Elidion", "Neutral")
+local guide = WoWPro:RegisterGuide("BlackEmpire", "Leveling", "Uldum", "Elidion", "Neutral")
 WoWPro:GuideLevels(guide, 50, 50, 50)
 WoWPro:GuideSort(guide, 10)
 WoWPro:GuideContent(guide, "Battle for Azeroth")

@@ -5,12 +5,10 @@
 ## IconTexture: Interface\ICONS\INV_Misc_Ticket_Darkmoon_01
 ## Dependencies: WoWPro
 ## Version: 2023.11.15.B
+## DefaultState: disabled
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_WorldEvents.lua
-Alliance\Guides.xml
-Neutral\Guides.xml
-Horde\Guides.xml
 WoWPro_WorldEvents_Parser.lua
 WoWPro_WorldEvents_Config.lua
 WoWPro_WorldEvents_GuideList.lua

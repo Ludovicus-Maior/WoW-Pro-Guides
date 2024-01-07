@@ -138,20 +138,20 @@ C We Meet at Light's Hope|QID|38576|QO|2|M|73.69,53.82|Z|Eastern Plaguelands|N|(
 ;A Seeking Guidance|QID|42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|
 C Seeking Guidance|QID|42770|QO|1|M|49.50,47.30|Z|Dalaran@Dalaran70|NC|N|Enter the Chamber of the Guardian, step on the teleport pad and then run down the stairs, until you see the Dalaran Crater portal.|
 C Seeking Guidance|QID|42770|QO|2|M|28.79,77.49|Z|Aegwynn's Gallery@Dalaran70|NC|N|Be ready with Divine Shield, Slow Fall potion, something... You come out way above the  crater.|
-C Seeking Guidance|QID|42770|QO|3|M|45.24,80.27|Z|Western Plaguelands|NC|N|Fly to Uther's Tomb.|
-T Seeking Guidance|QID|42770|M|51.55,79.05|Z|Western Plaguelands|N|To Lord Maxwell Tyrosus.|
-A Sacred Ground|QID|42772|M|51.43,79.01|Z|Western Plaguelands|N|From High Priest Thel'danis.|PRE|42770|
-A Keeping the Peace|QID|42771|M|51.34,78.99|Z|Western Plaguelands|N|From Mehlar Dawnblade.|PRE|42770|
-C Keeping the Peace|QID|42771|QO|1|M|49.56,76.82|Z|Western Plaguelands|N|Kill the spirits to exorcise them.|S|
-C Sacred Ground|QID|42772|QO|1|M|50.28,80.21;49.86,77.59;51.03,76.19|CS|Z|Western Plaguelands|N|Click on the glowing gravestones to purify them.|
-C Keeping the Peace|QID|42771|QO|1|M|49.56,76.82|Z|Western Plaguelands|N|Finish exorcising the spirits.|
-C Keeping the Peace|QID|42771|QO|2|M|51.36,77.34|Z|Western Plaguelands|N|Kill Cannoneer Dargal.|T|Cannoneer Dargal|
-T Keeping the Peace|QID|42771|M|51.34,78.99|Z|Western Plaguelands|N|To Mehlar Dawnblade.|
-T Sacred Ground|QID|42772|M|51.43,79.02|Z|Western Plaguelands|N|To High Priest Thel'danis.|
-A The Light Reveals|QID|42773|M|51.62,81.93|Z|Western Plaguelands|N|From Lord Maxwell Tyrosus.|PRE|42772|
-C The Light Reveals|QID|42773|NC|QO|2|M|52.08,83.28|Z|Western Plaguelands|N|Click on the inscription stone in front of the statue.|
-T The Light Reveals|QID|42773|M|52.11,83.19|Z|Western Plaguelands|N|To Lord Maxwell Tyrosus.|
-A Hope Prevails|QID|42774|M|52.11,83.19|Z|Western Plaguelands|N|From Lord Maxwell Tyrosus.|PRE|42773|
+C Seeking Guidance|QID|42770|QO|3|M|45.24,80.27|Z|22;Western Plaguelands|NC|N|Fly to Uther's Tomb.|
+T Seeking Guidance|QID|42770|M|51.55,79.05|Z|22;Western Plaguelands|N|To Lord Maxwell Tyrosus.|
+A Sacred Ground|QID|42772|M|51.43,79.01|Z|22;Western Plaguelands|N|From High Priest Thel'danis.|PRE|42770|
+A Keeping the Peace|QID|42771|M|51.34,78.99|Z|22;Western Plaguelands|N|From Mehlar Dawnblade.|PRE|42770|
+C Keeping the Peace|QID|42771|QO|1|M|49.56,76.82|Z|22;Western Plaguelands|N|Kill the spirits to exorcise them.|S|
+C Sacred Ground|QID|42772|QO|1|M|50.28,80.21;49.86,77.59;51.03,76.19|CS|Z|22;Western Plaguelands|N|Click on the glowing gravestones to purify them.|
+C Keeping the Peace|QID|42771|QO|1|M|49.56,76.82|Z|22;Western Plaguelands|N|Finish exorcising the spirits.|
+C Keeping the Peace|QID|42771|QO|2|M|51.36,77.34|Z|22;Western Plaguelands|N|Kill Cannoneer Dargal.|T|Cannoneer Dargal|
+T Keeping the Peace|QID|42771|M|51.34,78.99|Z|22;Western Plaguelands|N|To Mehlar Dawnblade.|
+T Sacred Ground|QID|42772|M|51.43,79.02|Z|22;Western Plaguelands|N|To High Priest Thel'danis.|
+A The Light Reveals|QID|42773|M|51.62,81.93|Z|22;Western Plaguelands|N|From Lord Maxwell Tyrosus.|PRE|42772|
+C The Light Reveals|QID|42773|NC|QO|2|M|52.08,83.28|Z|22;Western Plaguelands|N|Click on the inscription stone in front of the statue.|
+T The Light Reveals|QID|42773|M|52.11,83.19|Z|22;Western Plaguelands|N|To Lord Maxwell Tyrosus.|
+A Hope Prevails|QID|42774|M|52.11,83.19|Z|22;Western Plaguelands|N|From Lord Maxwell Tyrosus.|PRE|42773|
 F Light's Hope Chapel|QID|42774|ACTIVE|42774|M|74.16,53.06|Z|Eastern Plaguelands|N|Make your way to Light's Hope Chapel.|
 T Hope Prevails|QID|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
 A The Search for the Highlord|QID|38376|PRE|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|

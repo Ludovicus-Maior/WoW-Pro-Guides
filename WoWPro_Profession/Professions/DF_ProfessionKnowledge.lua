@@ -3,6 +3,8 @@ WoWPro:GuideName(guide, "Profession Knowledge")
 WoWPro:GuideLevels(guide,60,70)
 if WoWPro.Achievements then
     WoWPro.Achievements:GuideMisc(guide, "Artisan's Consortium", "Reputation", "Dragonflight")
+else
+    WoWPro:GuideCategory(guide, "Dragonflight")
 end
 WoWPro:GuideSteps(guide, function()
 return [[

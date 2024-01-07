@@ -5,7 +5,6 @@
 --      WoWPro_Leveling_GuideList.lua      --
 ---------------------------------------------
 local Leveling = WoWPro.Leveling
-Leveling.GuideList = {}
 
 local defaultXpac = _G.LE_EXPANSION_CLASSIC
 local introZones = {
@@ -104,6 +103,11 @@ local function ResolveGuide(guide)
     WoWPro:ResolveIcon(guide)
     if not WoWPro.RETAIL then
         guide.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
+        if WoWPro.Client >= 3 then
+            guide.category = guide.Content
+        else
+            guide.category = _G["EXPANSION_NAME"..tostring(WoWPro.Client-1)]
+        end
     else
         local _, mapID = WoWPro:ValidZone(guide.zone)
         if not guide.level then

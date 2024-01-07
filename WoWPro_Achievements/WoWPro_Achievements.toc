@@ -8,6 +8,9 @@
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 WoWPro_Achievements.lua
+WoWPro_Achievements_Parser.lua
+WoWPro_Achievements_Config.lua
+WoWPro_Achievements_GuideList.lua
 Animals\Guides.xml
 Battle_Pets\Guides.xml
 Customization\Guides.xml
@@ -27,6 +30,4 @@ Treasures\Guides.xml
 Rares\Guides.xml
 Reputation\Guides.xml
 World_Events\Guides.xml
-WoWPro_Achievements_Parser.lua
-WoWPro_Achievements_Config.lua
-WoWPro_Achievements_GuideList.lua
+

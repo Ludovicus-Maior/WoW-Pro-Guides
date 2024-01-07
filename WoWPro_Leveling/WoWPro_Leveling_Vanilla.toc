@@ -4,14 +4,15 @@
 ## Author: Jiyambi
 ## IconTexture: Interface\GossipFrame\AvailableQuestIcon
 ## Dependencies: WoWPro
-## Version: 2023.11.15.B
+## Version: 2023.11.15.B-Van
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Leveling.lua
-Classic\Alliance\Guides.xml
-Classic\Neutral\Guides.xml
-Classic\Horde\Guides.xml
 WoWPro_Leveling_Parser.lua
 WoWPro_Leveling_Config.lua
 WoWPro_Leveling_GuideList.lua
 WoWPro_Leveling_Frames.lua
+Classic\Alliance\Guides.xml
+Classic\Neutral\Guides.xml
+Classic\Horde\Guides.xml
+

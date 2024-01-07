@@ -8,7 +8,8 @@
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Profession.lua
-Professions\Classic_WotLK\Guides.xml
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
 WoWPro_Profession_GuideList.lua
+Professions\Classic_WotLK\Guides.xml
+

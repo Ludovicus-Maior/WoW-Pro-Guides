@@ -102,15 +102,15 @@ T Dark Whispers|QID|42125|M|55.66,65.30|Z|The Underbelly@Dalaran!Broken Isles|N|
 ;A Finding the Scepter|QID|43100|M|55.87,65.36|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684|
 R Chamber of the Guardian|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43100|
 C Finding the Scepter|QID|43100|QO|1|M|28.73,77.48|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to Dalaran Crater. Its a lot of falling damage if you don't have a way to mitigate.|
-C Finding the Scepter|QID|43100|QO|2|M|67.02,73.87|Z|Western Plaguelands|NC|N|Go to Caer Darrow.|
-C Finding the Scepter|QID|43100|QO|3<1|M|69.16,79.65|Z|Western Plaguelands|NC|N|Find information on the Shadow Council.|
-C Finding the Scepter|QID|43100|QO|3<2|M|69.02,77.44|Z|Western Plaguelands|NC|N|Find information on the Shadow Council.|
-C Finding the Scepter|QID|43100|QO|3<3|M|69.42,77.30|Z|Western Plaguelands|NC|N|Find information on the Shadow Council in the next tent over.|
-C Finding the Scepter|QID|43100|QO|4|M|69.89,74.35|Z|Western Plaguelands|N|Take the Book of Medivh from Jergosh|
-C Finding the Scepter|QID|43100|QO|5|M|69.16,79.16|Z|Western Plaguelands|CHAT|N|Speak with Calydus|
-T Finding the Scepter|QID|43100|M|69.16,79.16|Z|Western Plaguelands|N|To Calydus.|
-A An Eye for a Scepter|QID|43153|M|69.16,79.16|Z|Western Plaguelands|N|From Calydus.|PRE|43100|
-C An Eye for a Scepter|QID|43153|NC|QO|1|M|69.16,79.16|Z|Western Plaguelands|N|Take the Portal to Tol Barad.|
+C Finding the Scepter|QID|43100|QO|2|M|67.02,73.87|Z|22;Western Plaguelands|NC|N|Go to Caer Darrow.|
+C Finding the Scepter|QID|43100|QO|3<1|M|69.16,79.65|Z|22;Western Plaguelands|NC|N|Find information on the Shadow Council.|
+C Finding the Scepter|QID|43100|QO|3<2|M|69.02,77.44|Z|22;Western Plaguelands|NC|N|Find information on the Shadow Council.|
+C Finding the Scepter|QID|43100|QO|3<3|M|69.42,77.30|Z|22;Western Plaguelands|NC|N|Find information on the Shadow Council in the next tent over.|
+C Finding the Scepter|QID|43100|QO|4|M|69.89,74.35|Z|22;Western Plaguelands|N|Take the Book of Medivh from Jergosh|
+C Finding the Scepter|QID|43100|QO|5|M|69.16,79.16|Z|22;Western Plaguelands|CHAT|N|Speak with Calydus|
+T Finding the Scepter|QID|43100|M|69.16,79.16|Z|22;Western Plaguelands|N|To Calydus.|
+A An Eye for a Scepter|QID|43153|M|69.16,79.16|Z|22;Western Plaguelands|N|From Calydus.|PRE|43100|
+C An Eye for a Scepter|QID|43153|NC|QO|1|M|69.16,79.16|Z|22;Western Plaguelands|N|Take the Portal to Tol Barad.|
 C Where Are They?|SO|1;1|Z|TolBaradWarlockScenario|M|42.70,39.49|NC|N|The Shadow Council is most likely looking for a prisoner. The cell blocks are a good place to start.|ACTIVE|43153|
 C Speak with Allaris and Nagaz.|SO|2;1|M|42.62,35.58|Z|TolBaradWarlockScenario|NC|N|Speak with Allaris and Nagaz.|ACTIVE|43153|
 C Find Tyranis in D-Block|SO|3;1|M|47.82,31.11|Z|TolBaradWarlockScenario|NC|N|Find Tyranis in D-Block|ACTIVE|43153|
