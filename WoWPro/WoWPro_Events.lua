@@ -330,12 +330,12 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
     for i=1,#WoWPro.action do
         local action = WoWPro.action[i]
         local completion = WoWProCharDB.Guide[GID].completion[i]
-        if WoWPro.QID[i] then
+        if WoWPro.QID[i] and WoWPro.QID[i] ~= "*" then
             local numQIDs = select("#", ("^&"):split(WoWPro.QID[i]))
             for j=1,numQIDs do
                 local QID = select(numQIDs-j+1, ("^&"):split(WoWPro.QID[i]))
                 if not tonumber(QID) then
-                    WoWPro:Error("Bad QID [%s] in Guide %s", WoWPro.QID[i], GID)
+                    WoWPro:Error("Bad QID [%s] in Guide %s, step [%s %s]", WoWPro.QID[i], GID, action, WoWPro.step[i])
                     return
                 end
                 QID = tonumber(QID)
