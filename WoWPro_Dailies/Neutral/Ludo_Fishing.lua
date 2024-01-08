@@ -93,7 +93,7 @@ T A Furious Catch|QID|26588|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|FACTIO
 
 A A Golden Opportunity|QID|26572|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTION|Horde|
 l Drowned Thunder Lizard Tail|ACTIVE|26572|M|40.40,29.60;42.95,24.25;39.30,27.25;40.23,24.38|CN|Z|Durotar|N|Head down to Thunder Ridge and use the knife near a Drowned Thunder Lizard|U|58955|L|58958|FACTION|Horde|
-l Golden Stonefish|ACTIVE|26572|T|Golden Stonefish|L|58960 3|N|Now find yourself some Golden Stonefish and use the Tail to kill them|U|58958|FACTION|Horde|
+C Golden Stonefish|ACTIVE|26572|T|Golden Stonefish|QO|1||N|Now find yourself some Golden Stonefish and use the Tail to kill them|U|58958|FACTION|Horde|
 T A Golden Opportunity|QID|26572|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|To Razgar|FACTION|Horde|
 
 A A Staggering Effort|QID|26557|M|65.8,40.8|Z|Orgrimmar@Orgrimmar|N|From Razgar|O|FACTION|Horde|
