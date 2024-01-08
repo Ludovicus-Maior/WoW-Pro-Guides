@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('The_Coalition_of_Flames', 'Leveling', 'Valdrakken', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"The Coalition of Flames")
-WoWPro:GuideLevels(guide,70, 70)
+WoWPro:GuideLevels(guide,60, 70)
 WoWPro:GuideNickname(guide, "The Coalition of Flames")
 WoWPro:GuideQuestTriggers(guide, 76982, 75918)
 WoWPro:GuideNextGuide(guide, 'Call_of_the_Dream')
@@ -8,9 +8,9 @@ WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-t A Sentinel's Summon|QID|76982|M|50.21,52.84|Z|2112|N|To Shandris Feathermoon.|
-A Fire Season|QID|75918|M|50.21,52.84|Z|2112|N|From Shandris Feathermoon.|ACH|-18691|LVL|60|
-A Fire Season|QID|75918|M|50.21,52.84|Z|2112|N|From Shandris Feathermoon.|LVL|70|
+L Coalition of Flames|AVAILABLE|75919|LVL|70|ACH|18691|N|You fool!  Only those who been cleansed by flame are worthy of doing this at level 60! Wait 'till you are level 70.|
+T A Sentinel's Summon|QID|76982|M|50.21,52.84|Z|2112|N|To Shandris Feathermoon.|
+A Fire Season|QID|75918|PRE|76982|M|50.21,52.84|Z|2112|N|From Shandris Feathermoon.|
 F Shady Sanctuary|ACTIVE|75918|M|44.09,67.89|Z|Valdrakken|N|Head to the flightmaster and take a flight to Shady Sanctuary.|
 T Fire Season|QID|75918|M|18.64,79.78|Z|2023|N|To Shandris Feathermoon.|
 A Dousing the Wards|QID|75919|PRE|75918|M|18.64,79.78|Z|2023|N|From Shandris Feathermoon.|
