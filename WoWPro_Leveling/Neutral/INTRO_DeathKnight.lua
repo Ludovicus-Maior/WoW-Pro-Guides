@@ -143,7 +143,7 @@ A Where Kings Walk|QID|13188|PRE|13166|FACTION|Alliance|M|83.4,49.4|N|From Highl
 R Stormwind City|QID|13188|M|83.65,51.36|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
 T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn.|FACTION|Alliance|
 A Saurfang's Blessing|QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highlord Darion Mograine.|
-P Durotar|QID|13189|M|84.58,50.49|Z|Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
+P Durotar|QID|13189|M|84.58,50.49|Z|23;Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 T Saurfang's Blessing|QID|13189|Z|Orgrimmar|M|48.14,70.56|N|To High Overlord Saurfang.|FACTION|Horde|
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|CT|
 N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|CT|

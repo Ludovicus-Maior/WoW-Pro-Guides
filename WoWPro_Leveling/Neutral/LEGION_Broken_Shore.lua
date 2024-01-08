@@ -205,10 +205,10 @@ T Delivering Lost Knowledge|QID|47069|M|46.71,46.69|Z|MonkOrderHallTheWanderingI
 A Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|N|From Lorewalker Cho.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|46.71,46.69|Z|MonkOrderHallTheWanderingIsle|C|Monk|N|To Lorewalker Cho.|
-T Delivering Lost Knowledge|QID|47071|M|37.94,57.37|Z|Eastern Plaguelands|C|Paladin|N|To Sister Elda back in your order hall.|
-A Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands|C|Paladin|N|From Sister Elda.|PRE|47075|
-C Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands|C|Paladin|NC|N|Start a Research Work Order|
-T Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|Eastern Plaguelands|C|Paladin|N|To Sister Elda.|
+T Delivering Lost Knowledge|QID|47071|M|37.94,57.37|Z|23;Eastern Plaguelands|C|Paladin|N|To Sister Elda back in your order hall.|
+A Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|23;Eastern Plaguelands|C|Paladin|N|From Sister Elda.|PRE|47075|
+C Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|23;Eastern Plaguelands|C|Paladin|NC|N|Start a Research Work Order|
+T Using Lost Knowledge|QID|46940|M|37.94,57.37|Z|23;Eastern Plaguelands|C|Paladin|N|To Sister Elda.|
 T Delivering Lost Knowledge|QID|47077|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|To Juvess the Duskwhisperer back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|From Juvess the Duskwhisperer.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|NC|N|Start a Research Work Order|

@@ -5,10 +5,10 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
-R Light's Hope Chapel|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|The questing begins at Light's Hope Chapel in Eastern Plaguelands. Head to there to begin this guide. \n\nYou can also grab hold the breadcrumb Hero's Quest from Ironforge or Stormwind, but this is not necessary for this guide.|
-T Hero's Call: Badlands! |QID|28579|M|73.8,53.1|Z|Eastern Plaguelands|N|To Gek Nozzlerocket|O|
-A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.8,53.1|Z|Eastern Plaguelands|N|From Gek Nozzlerocket.|
-R Fuselight-by-the-Sea|QID|27762|M|73.8,53.1|Z|Eastern Plaguelands|N|Click on "The Uncrashable" behind Gek, and accept the warning that it will take you to The Badlands. Pray - it is some bad driving.|
+R Light's Hope Chapel|QID|27762|M|73.8,53.1|Z|23;Eastern Plaguelands|N|The questing begins at Light's Hope Chapel in Eastern Plaguelands. Head to there to begin this guide. \n\nYou can also grab hold the breadcrumb Hero's Quest from Ironforge or Stormwind, but this is not necessary for this guide.|
+T Hero's Call: Badlands! |QID|28579|M|73.8,53.1|Z|23;Eastern Plaguelands|N|To Gek Nozzlerocket|O|
+A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.8,53.1|Z|23;Eastern Plaguelands|N|From Gek Nozzlerocket.|
+R Fuselight-by-the-Sea|QID|27762|M|73.8,53.1|Z|23;Eastern Plaguelands|N|Click on "The Uncrashable" behind Gek, and accept the warning that it will take you to The Badlands. Pray - it is some bad driving.|
 T Fuselight, Ho!|QID|27762|M|92.6,38.9|N|To Eddie Flofizzle.|
 A To Fuselight Proper|QID|27763|LEAD|27774|M|92.48,38.94|N|From Eddie Flofizzle.|
 R Badlands|QID|27763|M|88.13,32.54|N|Head to Fuselight by going through the teleporter.|

@@ -494,7 +494,7 @@ T Dread Infiltrators|QID|46103|M|19.45,21.22|N|To Lilian Voss.|FACTION|ALLIANCE|
 A Hiding In Plain Sight|QID|46089|M|19.45,21.22|N|From Lilian Voss.|PRE|46103|FACTION|ALLIANCE|
 C Hiding In Plain Sight|QID|46089|M|19.45,21.22|QO|1|NC|N|Wait and listen to Lilian's plan.|FACTION|ALLIANCE|
 R Dalaran Crater|QID|46089|QO|1|N|Travel by your choice of method to Silvermoon. I think the most direct is the Portal in Dalaran's Chamber of the Guardian to the Dalaran Crater and then fly from there.|FACTION|ALLIANCE|ACTIVE|46089|
-R Thalassian Pass|QID|46089|QO|2|M|54.51,8.67|Z|Eastern Plaguelands|N|Fly across Western and Eastern Plaguelands to Thalassian Pass.|FACTION|ALLIANCE|ACTIVE|46089|
+R Thalassian Pass|QID|46089|QO|2|M|54.51,8.67|Z|23;Eastern Plaguelands|N|Fly across Western and Eastern Plaguelands to Thalassian Pass.|FACTION|ALLIANCE|ACTIVE|46089|
 R Walk of Elders|QID|46089|QO|2|M|73.89,80.31|Z|Silvermoon City|N|Run thru Ghostlands and Eversong Woods to Silvermoon City. Presumably you want to stealth once you get close to the city gates. The arcane guardian just inside the gates sees thru stealth.|FACTION|ALLIANCE|ACTIVE|46089|
 C Hiding In Plain Sight|QID|46089|M|75.63,74.47|Z|Silvermoon City|QO|2|T|Tercin Shivenllher|N|The Silvermoon Mark, Tercin Shivenllher, paths clockwise around the Walk of Elders, There is a star on you map where he currently is.  Blind the Arcane Demolisher to keep him occupied. Lacking blind, distract works, but not for as long. Tercin will call for help from nearby guards.|FACTION|ALLIANCE|
 P Krasus' Landing|QID|46089|QO|2|U|140192|N|Hearth to Dalaran and use Chamber of the Guardians portal back to Dalaran Crater and fly from there.|FACTION|ALLIANCE|ACTIVE|46089|
