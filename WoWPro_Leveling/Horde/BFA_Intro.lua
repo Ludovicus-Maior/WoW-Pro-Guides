@@ -7,14 +7,14 @@ WoWPro:GuideNickname(guide, "Battle for Azeroth: Intro")
 WoWPro:GuideNextGuide(guide, 'Zuldazar')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Battle for Azeroth: Mission Statement|QID|60361^51443|M|49.40,76.58|Z|1454;Orgrimmar|N|From Warchief's Herald next to the Warchief's Command Board.|
-C Battle for Azeroth: Mission Statement|QID|60361^51443|QO|1|M|48.55,71.49|Z|1454;Orgrimmar|N|Speak to Warchief Sylvanas Windrunner.\n[color=FF0000]NOTE: [/color]A skippable cut-scene will begin as soon as you enter Grommash Hold.|CHAT|
-R Battle for Azeroth: Mission Statement|ACTIVE|60361^51443|QO|2|M|54.62,78.34|Z|1454;Orgrimmar|N|Go to the Broken Tusk Inn and meet your team.|
-T Battle for Azeroth: Mission Statement|QID|60361^51443|M|54.45,78.42|Z|1454;Orgrimmar|N|To Nathanos Blightcaller once he arrives.|
+A Battle for Azeroth: Mission Statement|QID|60361^51443|M|49.40,76.58|Z|85;Orgrimmar|N|From Warchief's Herald next to the Warchief's Command Board.|
+C Battle for Azeroth: Mission Statement|QID|60361^51443|QO|1|M|48.55,71.49|Z|85;Orgrimmar|N|Speak to Warchief Sylvanas Windrunner.\n[color=FF0000]NOTE: [/color]A skippable cut-scene will begin as soon as you enter Grommash Hold.|CHAT|
+R Battle for Azeroth: Mission Statement|ACTIVE|60361^51443|QO|2|M|54.62,78.34|Z|85;Orgrimmar|N|Go to the Broken Tusk Inn and meet your team.|
+T Battle for Azeroth: Mission Statement|QID|60361^51443|M|54.45,78.42|Z|85;Orgrimmar|N|To Nathanos Blightcaller once he arrives.|
 
-A The Stormwind Extraction|QID|50769|PRE|51443^60361|M|54.45,78.42|Z|1454;Orgrimmar|N|From Nathanos Blightcaller.|
-C The Stormwind Extraction|QID|50769|QO|1|M|54.55,78.37|Z|1454;Orgrimmar|N|Pick up the potion.\n[color=FF0000]NOTE: [/color]If you've already done this scenario previously, talk to Nathanos without picking up the potion to get the option to skip it.|H|
-C The Stormwind Extraction|QID|50769|QO|2|M|50.67,83.45|Z|1454;Orgrimmar|N|Mount the Skyhorn Eagle located by the front gate.\n[color=FF0000]NOTE: [/color]This will enter you into the next scenario (Stockades/Stormwind).|V|
+A The Stormwind Extraction|QID|50769|PRE|51443^60361|M|54.45,78.42|Z|85;Orgrimmar|N|From Nathanos Blightcaller.|
+C The Stormwind Extraction|QID|50769|QO|1|M|54.55,78.37|Z|85;Orgrimmar|N|Pick up the potion.\n[color=FF0000]NOTE: [/color]If you've already done this scenario previously, talk to Nathanos without picking up the potion to get the option to skip it.|H|
+C The Stormwind Extraction|QID|50769|QO|2|M|50.67,83.45|Z|85;Orgrimmar|N|Mount the Skyhorn Eagle located by the front gate.\n[color=FF0000]NOTE: [/color]This will enter you into the next scenario (Stockades/Stormwind).|V|
 F In the Dead of Night|QID|50769|SO|1;1|M|47.21,59.58|CC|Z|1012;Stormwind City Instance|N|Sit back and enjoy the flight.|
 C Down the Drain|QID|50769|SO|2;2|M|46.23,58.19|Z|1012;Stormwind City Instance|N|Open the sewer access gate by destroying BOTH padlocks.|H|
 C Down the Drain|QID|50769|SO|2;1|M|41.29,62.51|Z|1012;Stormwind City Instance|N|Go in the sewer access gate.|H|

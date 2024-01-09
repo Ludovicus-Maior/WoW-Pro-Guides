@@ -1413,7 +1413,7 @@ end
 -- Finish all delayed guide initializiation
 function WoWPro:FinalizeGuides()
     for name, module in WoWPro:IterateModules() do
-        if WoWPro[name].GuideList.Init then
+        if WoWPro[name] and WoWPro[name].GuideList and WoWPro[name].GuideList.Init then
             WoWPro[name].GuideList.Init()
         end
     end
