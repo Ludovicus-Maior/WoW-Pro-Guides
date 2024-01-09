@@ -609,15 +609,15 @@ A The Wreckoning|QID|51246|M|76.61,48.54|Z|0862;Zuldazar|N|From Lieutenant Denni
 A The Things They Carried|QID|51247|M|76.61,48.54|Z|0862;Zuldazar|N|From Lieutenant Dennis Grimtale.|RANK|2|
 A Productive Pests|QID|51248|M|76.43,48.72|Z|0862;Zuldazar|N|From Teekay Treadlebobbin.|RANK|2|
 A Crabulous Feast|QID|51249|M|76.38,48.74|Z|0862;Zuldazar|N|From J'eebi.|RANK|2|
-C Productive Pests|QID|51248|M|74.44,51.45|Z|0862;Zuldazar|N|Collect Mosquitos and Sand Borers by clicking on them as you go.|H|S|
-C Crabulous Feast|QID|51249|M|74.45,51.11|Z|0862;Zuldazar|N|Kill and loot the Derelict Hexapods as you go.|S|
-C The Wreckoning|QID|51246|M|74.92,51.07|Z|0862;Zuldazar|N|Kill 7th Legion Sailors as you go.|S|
-K Sailor Jaseon|ACTIVE|51247|QO|2|M|76.67,50.99|Z|0862;Zuldazar|N|Kill Sailor Jaseon to loot the scouting map.|T|Sailor Jaseon|RANK|2|
-K Medic Hunt|ACTIVE|51247|QO|1|M|76.46,52.68|Z|0862;Zuldazar|N|Kill Medic Hunt and loot the Unsent Letter.|T|Medic Hunt|RANK|2|
-K Sergeant Wayne|ACTIVE|51247|QO|3|M|74.54,51.73|Z|0862;Zuldazar|N|Sergeant Wayne to loot the Ship's Manifest.|T|Sergeant Wayne|RANK|2|
-C Productive Pests|QID|51248|M|74.44,51.45|Z|0862;Zuldazar|N|Finish collecting Mosquitos and Sand Borers by clicking on them.|H|US|
+C Productive Pests|QID|51248|QO|1;2|M|74.44,51.45|Z|0862;Zuldazar|N|Collect Mosquitos and Sand Borers by clicking on them.|H|S|
+l Large Lump of Crab Meat|ACTIVE|51249|QO|1|M|74.45,51.11|Z|0862;Zuldazar|ITEM|159934|N|Derelict Hexapods|S|
+K The Wreckoning|ACTIVE|51246|QO|1|M|74.92,51.07|Z|0862;Zuldazar|N|Kill 7th Legion Sailors.|S|
+l Scouting Map|ACTIVE|51247|QO|2|M|76.67,50.99|Z|0862;Zuldazar|ITEM|159836|N|Sailor Jaseon|T|Sailor Jaseon|
+l Unsent Letter|ACTIVE|51247|QO|1|M|76.46,52.68|Z|0862;Zuldazar|ITEM|159837|N|Medic Hunt|T|Medic Hunt|
+l Ship's Manifest|ACTIVE|51247|QO|3|M|74.54,51.73|Z|0862;Zuldazar|ITEM|159835|N|Sergeant Wayne|T|Sergeant Wayne|
+C Productive Pests|QID|51248|QO|1;2|M|74.44,51.45|Z|0862;Zuldazar|N|Finish collecting Mosquitos and Sand Borers.|H|US|
 C Crabulous Feast|QID|51249|M|74.45,51.11|Z|0862;Zuldazar|N|Finish collecting the crab meat.|US|
-C The Wreckoning|QID|51246|M|74.92,51.07|Z|0862;Zuldazar|N|Fulfill your quota of 7th Legion Sailors.|US|
+K The Wreckoning|ACTIVE|51246|QO|1|M|74.92,51.07|Z|0862;Zuldazar|N|Finish killing 7th Legion Sailors.|US|
 T Crabulous Feast|QID|51249|M|76.38,48.74|Z|0862;Zuldazar|N|To J'eebi.|
 T Productive Pests|QID|51248|M|76.42,48.72|Z|0862;Zuldazar|N|To Teekay Treadlebobbin.|
 T The Wreckoning|QID|51246|M|76.61,48.52|Z|0862;Zuldazar|N|To Lieutenant Dennis Grimtale.|
