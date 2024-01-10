@@ -18,7 +18,8 @@ t The Great Sea Scrolls|QID|53476|M|71.50,30.36|N|When it's convenient, fly to S
 
 ; Learn flying skill @ lv 30
 H The Great Seal|ACTIVE|75874|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearth to return to Dazar'alor.|
-t Time to Fly|QID|75874|M|45.8,36.2|Z|1165;Dazar'alor|N|To Beast Handler Kalatak.|
+t Time to Fly|QID|75874|M|45.77,36.31|Z|1165;Dazar'alor|N|To Beast Handler Kalatak.|
+N Return to where you were|AVAILABLE|-75874|ACTIVE|-75874|M|PLAYER|N|Now that you have flying, you can return to where you were (Or use a FP to get closer).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1165;Dazar'alor|
 
 T Zuldazar|QID|47514|M|57.80,44.31|Z|0862;Zuldazar|N|To Princess Talanji.|
 A Trust of a King|QID|49615|PRE|47514|M|57.80,44.31|Z|0862;Zuldazar|N|From Princess Talanji.| ; ** Storyline - Of Prophecies and Prophets
