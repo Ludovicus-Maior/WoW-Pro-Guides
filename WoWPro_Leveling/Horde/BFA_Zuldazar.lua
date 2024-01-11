@@ -638,22 +638,21 @@ b Zeb'ahari|ACTIVE|51101|M|82.44,46.83|Z|0862;Zuldazar|N|Ask Wavesinger Rekan fo
 f Zeb'ahari|ACTIVE|51101|M|77.36,15.35|Z|0862;Zuldazar|N|At Paku'ai Jasi.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 T The Wounded King|QID|51101|M|76.69,16.26|Z|0862;Zuldazar|N|To Zolani.|
 A In Bwonsamdi's Shadow|QID|51680|PRE|51101|M|76.69,16.26|Z|0862;Zuldazar|N|From Zolani.|
-C In Bwonsamdi's Shadow|QID|51680|QO|1|M|76.47,15.99|Z|0862;Zuldazar|N|Ask Jamil how it goes.|CHAT|
-C In Bwonsamdi's Shadow|QID|51680|QO|2|M|76.44,16.17|Z|0862;Zuldazar|N|Ask Jol how it goes.|
+C In Bwonsamdi's Shadow|QID|51680|QO|1|M|76.47,15.99|Z|0862;Zuldazar|N|Ask Jamil how goes the mending.|CHAT|
+C In Bwonsamdi's Shadow|QID|51680|QO|2|M|76.44,16.17|Z|0862;Zuldazar|N|Ask Jol how goes the mending.|CHAT|
 T In Bwonsamdi's Shadow|QID|51680|M|76.45,16.16|Z|0862;Zuldazar|N|To Jol the Ancient.|
 A Ancient Tortollan Remedies|QID|47735|PRE|51680|M|76.45,16.16|Z|0862;Zuldazar|N|From Jol the Ancient.|
 A The Scent of Vengeance|QID|47739|PRE|51680|M|76.47,15.99|Z|0862;Zuldazar|N|From Jamil Abul'housin.|
 A No Safe Haven|QID|50235|PRE|51680|M|76.69,16.27|Z|0862;Zuldazar|N|From Zolani.|
-C No Safe Haven|QID|50235|M|79.50,16.30|Z|0862;Zuldazar|N|Click on the Zeb'ahari villagers to rescue them as you go.|H|S|
-C The Scent of Vengeance|QID|47739|M|79.78,16.52|Z|0862;Zuldazar|N|Kill traitor's and collect their blood as you go.|S|
-C Ancient Tortollan Remedies|QID|47735|QO|2|M|78.60,13.13|Z|0862;Zuldazar|N|Click on the Brutosaur to (gently) extract a scale.|H|
-C Ancient Tortollan Remedies|QID|47735|QO|1|M|79.78,16.52|Z|0862;Zuldazar|N|Click on the Spiney Puffer.|H|
+C No Safe Haven|QID|50235|QO|1|M|79.50,16.30|Z|0862;Zuldazar|N|Click on the Zeb'ahari villagers to rescue them.|H|S|
+l The Scent of Vengeance|ACTIVE|47739|QO|1|M|79.78,16.52|Z|0862;Zuldazar|ITEM|156834|N|any Atal'zul mob.|S|
+C Brutosaur Scale|QID|47735|QO|2|M|78.60,13.13|Z|0862;Zuldazar|N|Click on the Brutosaur to (gently) extract a scale.|H|
+C Envenomed Puffer Spine|QID|47735|QO|1|M|79.78,16.52|Z|0862;Zuldazar|N|Click on the Spiney Puffer.|H|
 A The Loa-Speaker's Betrayal|QID|47733|M|79.35,16.78|Z|0862;Zuldazar|N|From Zeb'ahari Villager.|
-C No Safe Haven|QID|50235|M|79.50,16.30|Z|0862;Zuldazar|N|Click on the Zeb'ahari villagers to rescue them as you go.|H|
-K Ol'Bubbly|ACTIVE|47735|QO|3|M|79.54,21.67|Z|0862;Zuldazar|N|Kill ol'Bubbly to loot the Aged Crab Foam.|T|Ol'Bubbly|
-K Loa-Speaker Kihara|ACTIVE|47733|QO|1|M|78.54,20.29|Z|0862;Zuldazar|N|Kill Loa-Speaker Kihara.|T|Loa-Speaker Kihara|
-C The Scent of Vengeance|QID|47739|M|79.78,16.52|Z|0862;Zuldazar|N|Finish collecting the traitor's blood.|US|
-C No Safe Haven|QID|50235|M|79.50,16.30|Z|0862;Zuldazar|N|Finish rescuing the Zeb'ahari villagers.|NC|US|
+l Aged Crab Foam|ACTIVE|47735|QO|3|M|79.54,21.67|Z|0862;Zuldazar|ITEM|156827|N|Ol'Bubbly\nThe purple lobster sleeping on the beach.|T|Ol'Bubbly|
+K Loa-Speaker Kihara|ACTIVE|47733|QO|1|M|78.54,20.29|Z|0862;Zuldazar|N|Loa-Speaker Kihara is dancing by the fire.\n[color=FF0000]NOTE: [/color]She will clone herself, but they'll despawn as soon as she dies.|T|Loa-Speaker Kihara|
+l The Scent of Vengeance|ACTIVE|47739|QO|1|M|79.78,16.52|Z|0862;Zuldazar|ITEM|156834|N|any Atal'zul mob.|US|
+C No Safe Haven|QID|50235|QO|1|M|79.50,16.30|Z|0862;Zuldazar|N|Finish rescuing the Zeb'ahari villagers.|H|US|
 T No Safe Haven|QID|50235|M|76.69,16.27|Z|0862;Zuldazar|N|To Zolani.|
 T The Loa-Speaker's Betrayal|QID|47733|M|76.69,16.27|Z|0862;Zuldazar|N|To Zolani.|
 T The Scent of Vengeance|QID|47739|M|76.47,16.00|Z|0862;Zuldazar|N|To Jamil Abul'housin.|
