@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Alliance')
-WoWPro:GuideName(guide,"Cape of Stranglethorn")
+WoWPro:GuideName(guide,"The Cape of Stranglethorn")
 WoWPro:GuideSort(guide, 10)
-WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Western Plaguelands')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
@@ -219,7 +219,7 @@ T Bloodsail's End|QID|26703|M|41.17,73.15|Z|210;The Cape of Stranglethorn|N|To B
 A The Call of Kalimdor|QID|26596|M|40.56,68.20|Z|210;The Cape of Stranglethorn|N|If you're going to go to Dustwallow Marsh in Kalimdor next, skip this if you wish to do Western Plaguelands. From Corporal Jeyne.|
 A The Battle for Andorhal|QID|28749|LEAD|27159|M|41.55,74.35|Z|210;The Cape of Stranglethorn|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
 R Western Plaguelands|QID|28749|O|M|41.55,74.34|Z|210;The Cape of Stranglethorn|N|To continue to Western Plaguelands, get a teleport from War-Mage Erallier below the Alliance Flight Master.|
-b Northern Barrens|QID|26596|O|M|39.10,67.05|Z|210;The Cape of Stranglethorn|N|To continue on to Dustwallow Marsh in Kalimdor, hop on the ship to Ratchet.|
+b Northern Barrens|QID|26596|O|M|39.10,67.05|Z|210;The Cape of Stranglethorn|N|To continue on to Dustwallow Marsh in Kalimdor, hop on the ship to Ratchet.|JUMP|Dustwallow Marsh|
 N Close this step to go onto the next guide.|Z|210;The Cape of Stranglethorn|N|Those doing Dustwallow Marsh will have to load the guide manually.|
 ]]
 end)
