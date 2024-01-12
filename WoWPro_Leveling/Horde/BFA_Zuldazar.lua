@@ -663,7 +663,7 @@ C Mending Body and Soul|QID|51677|QO|2|M|76.46,16.07|Z|0862;Zuldazar|N|Get the t
 T Mending Body and Soul|QID|51677|M|76.44,16.16|Z|0862;Zuldazar|N|To Jol the Ancient.|
 A The Will of the Loa|QID|47738|PRE|51677|M|76.47,15.99|Z|0862;Zuldazar|N|From Jamil Abul'housin.|
 K Tambano|QID|50013|QO|1|M|77.65,10.40|Z|0862;Zuldazar|N|Silver Elite to kill for azerite power and resources.|T|Tambano|RANK|2|RARE| ;item dropped not on wowhead at this time
-C The Will of the Loa|QID|47738|QO|1|M|77.97,12.98;76.85,13.23|CS|Z|0862;Zuldazar|N|Place the Idol of Rezan.|H|
+C The Will of the Loa|QID|47738|QO|1|M|76.85,13.23|Z|0862;Zuldazar|N|Place the Idol of Rezan.|H|
 C The Will of the Loa|QID|47738|QO|2|M|77.12,13.23|Z|0862;Zuldazar|N|Speak to Rezan|CHAT|
 C The Will of the Loa|QID|47738|QO|3|M|76.90,13.22|Z|0862;Zuldazar|N|Click on Rastakhan's body, when it appears, to retrieve his soul.|H|
 C The Will of the Loa|QID|47738|QO|4|M|76.45,16.09|Z|0862;Zuldazar|N|Click on Rastakhan to restore his soul to his body|H|
@@ -671,31 +671,31 @@ T The Will of the Loa|QID|47738|M|76.66,16.13|Z|0862;Zuldazar|N|To King Rastakha
 A Zul's Mutiny|QID|47742|PRE|47738|M|76.66,16.13|Z|0862;Zuldazar|N|From King Rastakhan.|
 A Rastakhan's Might|QID|51678|PRE|47738|M|76.66,16.13|Z|0862;Zuldazar|N|From King Rastakhan.|
 A A Strange Port of Call|QID|51679|PRE|47738|M|76.64,16.18|Z|0862;Zuldazar|N|From Zolani.|
-R Rastakhan's Might|ACTIVE|51678|M|80.77,20.37|Z|0862;Zuldazar|N|Swim to Rastakhan's Might (ship off shore) and click the 2 ropes hanging down the side of the boat to get on board.|
-C Zul's Mutiny|QID|47742|M|81.28,19.74|Z|0862;Zuldazar|N|Kill the Mutinous Zandalari as you go.|S|
-C A Strange Port of Call|QID|51679|QO|1|M|81.10,20.20;81.27,19.73|CS|Z|0862;Zuldazar|N|Go through the doorway into the Navigation Chamber and click on the Temple of Rezan Map on the desk in the second room.|H|
-R A Strange Port of Call|ACTIVE|51679|QO|2|M|52.97,27.08;51.57,75.61|CS|Z|1173;Upper Decks - Rastakhan's Might|N|Go down the stairs and search the Hold.|
-C A Strange Port of Call|QID|51679|QO|3|M|43.60,82.84;47.40,43.98|CS|Z|1174;Lower Decks - Rastakhan's Might|N|Go down the stairs into the Crew quarters and then click on Chronicler To'kini.|H|
-K Atal'zul Gotaka|ACTIVE|50280|QO|1|M|80.93,21.66|Z|0862;Zuldazar|ITEM|161042|N|Silver Elite to kill for azerite power and resources.|T|Atal'zul Gotaka|RANK|2|RARE|
-K Windcaller Ula'jan|ACTIVE|51678|QO|1|M|81.29,19.67|Z|0862;Zuldazar|N|Kill Windcaller Ula'jan located at the very top of the stairs at the stern of the boat.|T|Windcaller Ula'jan|
-C Zul's Mutiny|QID|47742|M|81.28,19.74|Z|0862;Zuldazar|N|Finish killing the Mutinous Zandalari as you leave the ship.|US|
-T Zul's Mutiny|QID|47742|M|76.66,16.13|Z|0862;Zuldazar|N|Jump off the ship and head back to King Rastakhan.|
+R Rastakhan's Might|ACTIVE|51678|M|80.77,20.37|Z|0862;Zuldazar|N|Swim to Rastakhan's Might (ship off shore) and click the 2 ropes hanging down the side of the boat to get on board.|FLY|OLD|
+C Zul's Mutiny|QID|47742|M|81.28,19.74|Z|0862;Zuldazar|N|Kill the Mutinous Zandalari.|S|
+C A Strange Port of Call|QID|51679|QO|1|M|81.27,19.73|Z|0862;Zuldazar|N|Enter the first doorway to your left off the main deck into the Navigation Chamber and click on the Temple of Rezan Map on the desk in the second room.\n[color=FF0000]NOTE: [/color]You'll have to clear the two Atal'zul mobs inside the room first.|H|
+R A Strange Port of Call|ACTIVE|51679|QO|2|M|51.57,75.61|Z|1173;Upper Decks - Rastakhan's Might|N|Go down the stairs and walk towards the Mogu Weapon leaning in the northwest corner.|
+C A Strange Port of Call|QID|51679|QO|3|M|47.40,43.98|Z|1174;Lower Decks - Rastakhan's Might|N|Go down the stairs into the Crew quarters and then click on Chronicler To'kini hanging on the wall in the middle.|H|
+;K Atal'zul Gotaka|ACTIVE|50280|QO|1|M|80.93,21.66|Z|0862;Zuldazar|ITEM|161042|N|Silver Elite to kill for azerite power and resources.|T|Atal'zul Gotaka|RANK|2|RARE| ** This step doesn't work and shouldn't be in this guide anyway - Hendo72
+K Windcaller Ula'jan|ACTIVE|51678|QO|1|M|81.29,19.67|Z|0862;Zuldazar|ITEM|156861|N|Windcaller Ula'jan\nHe's located at the very top of the stairs at the stern of the boat.|T|Windcaller Ula'jan|
+C Zul's Mutiny|QID|47742|M|81.28,19.74|Z|0862;Zuldazar|N|Finish killing the Mutinous Zandalari.|US|
+T Zul's Mutiny|QID|47742|M|76.66,16.13|Z|0862;Zuldazar|N|To King Rastakhan at the House of Jol.|
 T Rastakhan's Might|QID|51678|M|76.66,16.13|Z|0862;Zuldazar|N|To King Rastakhan.|
 T A Strange Port of Call|QID|51679|M|76.66,16.13|Z|0862;Zuldazar|N|To King Rastakhan.|
 A The Temple of Rezan|QID|47737|PRE|51679&51678&47742|M|76.66,16.13|Z|0862;Zuldazar|N|From King Rastakhan.|
-R The Preserve|ACTIVE|47737|M|73.72,20.79|Z|0862;Zuldazar|N|Run up the hill to meet King Rastakhan in The Preserve.|
+R The Preserve|ACTIVE|47737|M|73.72,20.79|Z|0862;Zuldazar|N|Run up the hill to meet King Rastakhan in The Preserve.|FLY|OLD|
 T The Temple of Rezan|QID|47737|M|72.03,21.03|Z|0862;Zuldazar|N|To King Rastakhan.|
 A House of the King|QID|47740|PRE|47737|M|72.03,21.03|Z|0862;Zuldazar|N|From King Rastakhan.|
 A Heads Will Roll|QID|47736|PRE|47737|M|72.09,21.20|Z|0862;Zuldazar|N|From Zolani.|
 ;A Occupation Hazard|QID|47797|M|71.97,23.88|Z|0862;Zuldazar|N|Bonus Objective - Autoaccepted.|LVL|-50|
 C Occupation Hazard|QID|47797|M|71.97,23.88|Z|0862;Zuldazar|N|Bonus Objective - Kill the zandalari infesting the temple and otherwise liberate the temple.|S|
-C Heads Will Roll|QID|47736|M|74.04,23.94|Z|0862;Zuldazar|N|Kill Zandalari and loot their heads.|S|
-C House of the King|QID|47740|QO|1|M|72.31,23.96|Z|0862;Zuldazar|N|Click on the corrupting totems to cleanse Rezan the Hunter.|H|
-C House of the King|QID|47740|QO|3|M|74.00,22.96|Z|0862;Zuldazar|N|Click on the corrupting totems to cleanse Rezan the King.|H|
-C House of the King|QID|47740|QO|2|M|73.89,25.80|Z|0862;Zuldazar|N|Up one level of the terrace to find and then click the corrupting totems surrounding Rezan the Conqueror.|H|
+l Heads Will Roll|ACTIVE|47736|QO|1|M|74.04,23.94|Z|0862;Zuldazar|ITEM|151384|N|any Zandalari mob in Temple of Rezan|S|
+C House of the King|QID|47740|QO|1|M|72.31,23.96|Z|0862;Zuldazar|N|Click on the three corrupting totems to cleanse Rezan the Hunter.|H|
+C House of the King|QID|47740|QO|3|M|74.00,22.96|Z|0862;Zuldazar|N|Click on the three corrupting totems to cleanse Rezan the King.|H|
+C House of the King|QID|47740|QO|2|M|73.83,25.98|Z|0862;Zuldazar|N|Up one level of the terrace to find and then click the three corrupting totems surrounding Rezan the Conqueror.|H|
 K Golrakahn|ACTIVE|47792|QO|1|M|74.10,28.48|Z|0862;Zuldazar|ITEM|161034|N|Up one more terrace to find this Silver Elite to kill for azerite power and resources.|T|Golrakahn|RANK|2|RARE|
-C Heads Will Roll|QID|47736|M|74.35,27.71|Z|0862;Zuldazar|N|Finish collecting heads from the Traiterous Zandalari.|US|
-T Heads Will Roll|QID|47736|M|74.85,24.91|Z|0862;Zuldazar|N|To Zolani.|
+l Heads Will Roll|ACTIVE|47736|QO|1|M|74.04,23.94|Z|0862;Zuldazar|ITEM|151384|N|any Zandalari mob in Temple of Rezan|US|
+T Heads Will Roll|QID|47736|M|74.85,24.91|Z|0862;Zuldazar|N|To Zolani in Throne of Rezan.|
 T House of the King|QID|47740|M|74.88,24.96|Z|0862;Zuldazar|N|To King Rastakhan.|
 A Partners in Heresy|QID|47734|PRE|47736&47740|M|74.88,24.96|Z|0862;Zuldazar|N|From King Rastakhan.|
 K Darkweaver Ji'tan|ACTIVE|47734|QO|1|M|75.22,23.23|Z|0862;Zuldazar|N|Kill Darkweaver Ji'tan.|T|Darkweaver Ji'tan|
