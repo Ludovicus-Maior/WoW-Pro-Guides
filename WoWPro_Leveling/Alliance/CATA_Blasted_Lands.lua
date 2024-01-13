@@ -23,15 +23,15 @@ T Minor Distractions|QID|25710|M|60.13,13.67|Z|17;Blasted Lands|N|To Quartermast
 A Eliminate the Okril'lon|QID|25711|PRE|25710|M|60.13,13.67|Z|17;Blasted Lands|N|From Quartermaster Lungertz.|
 A Nethergarde Reigns|QID|25712|PRE|25710|M|60.18,13.58|Z|17;Blasted Lands|N|From Leyan Steelson.|
 A Remove Their Arms|QID|25713|PRE|25710|M|60.35,13.77|Z|17;Blasted Lands|N|From Buttonwillow McKittrick.|
-C Curtail the Darktail|QID|25709|S|U|57119|M|68.54,32.58|Z|17;Blasted Lands|N|Use the bow on the vultures as you go along, has about 100 yard range.|T|Darktail Bonepicker|
+C Curtail the Darktail|QID|25709|M|68.54,32.58|Z|17;Blasted Lands|N|Use the bow on the vultures as you go along, has about 100 yard range.|T|Darktail Bonepicker|S|U|57119|
 C Our Fallen Friends|QID|25708|M|68.54,33.33|Z|17;Blasted Lands|N|Kill any Drowned Gilnean you see to release them.|
-C Curtail the Darktail|QID|25709|US|U|57119|M|68.54,32.58|Z|17;Blasted Lands|N|Kill any vultures you need left.|T|Darktail Bonepicker|
+C Curtail the Darktail|QID|25709|M|68.54,32.58|Z|17;Blasted Lands|N|Kill any vultures you need left.|T|Darktail Bonepicker|US|U|57119|
 T Our Fallen Friends|QID|25708|M|61.59,18.71|Z|17;Blasted Lands|N|To Enohar Thunderbrew.|
 T Curtail the Darktail|QID|25709|M|61.59,18.71|Z|17;Blasted Lands|N|To Enohar Thunderbrew.|
 C Eliminate the Okril'lon|QID|25711|M|53.06,15.91|Z|17;Blasted Lands|N|Kill Okril'lon Infantry.|S|
-C Remove Their Arms|QID|25713|S|U|57117|M|53.44,13.77|Z|17;Blasted Lands|N|Throw the grenade at the sparkling boxes (has a minimum range)|NC|
+C Remove Their Arms|QID|25713|M|53.44,13.77|Z|17;Blasted Lands|N|Throw the grenade at the sparkling boxes (has a minimum range)|NC|S|U|57117|
 C Nethergarde Reigns|QID|25712|M|51.57,12.70|Z|17;Blasted Lands|N|Slay Captain Metlek at the Nethergarde Supply Camp.|
-C Remove Their Arms|QID|25713|US|U|57117|M|53.44,13.77|Z|17;Blasted Lands|N|Finish throwing grenades at the sparkling boxes.|NC|
+C Remove Their Arms|QID|25713|M|53.44,13.77|Z|17;Blasted Lands|N|Finish throwing grenades at the sparkling boxes.|NC|US|U|57117|
 C Eliminate the Okril'lon|QID|25711|M|53.06,15.91|Z|17;Blasted Lands|N|Finish killing the Okril'lon Infantry you need.|US|
 T Remove Their Arms|QID|25713|M|60.37,13.79|Z|17;Blasted Lands|N|To Buttonwillow McKittrick.|
 T Nethergarde Reigns|QID|25712|M|60.17,13.56|Z|17;Blasted Lands|N|To Leyan Steelson.|
@@ -50,13 +50,13 @@ C Attune the Bloodstone|QID|26158|NC|QO|2|M|61.37,29.93|Z|17;Blasted Lands|N|Aga
 T Attune the Bloodstone|QID|26158|M|62.32,26.23|Z|17;Blasted Lands|N|To Kasim Sharim.|
 A The First Step|QID|26159|PRE|26158|M|62.32,26.23|Z|17;Blasted Lands|N|From Kasim Sharim.|
 A A Bloodmage's Gotta Eat Too|QID|26172|PRE|26158|M|62.32,26.23|Z|17;Blasted Lands|N|From Kasim Sharim.|
-C A Bloodmage's Gotta Eat Too|QID|26172|S|M|51.64,25.98|Z|17;Blasted Lands|N|Use the Bloodstone Teleporter to get out of the cave. Kill any boar you come across.|
+C A Bloodmage's Gotta Eat Too|QID|26172|M|51.64,25.98|Z|17;Blasted Lands|N|Use the Bloodstone Teleporter to get out of the cave. Kill any boar you come across.|S|
 C The First Step|QID|26159|M|48.47,30.66;52.38,27.17|CN|Z|17;Blasted Lands|N|The basilisks are primarily on the east side of the road, while the hyenas are on the west side of the road.|
-C A Bloodmage's Gotta Eat Too|QID|26172|US|M|51.64,25.98|Z|17;Blasted Lands|N|Kill any boar you come across.|
-A One Draenei's Junk...|QID|25771|O|U|10593|Z|17;Blasted Lands|N|You may or may not get this while killing in the Blasted Lands.. If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
+C A Bloodmage's Gotta Eat Too|QID|26172|M|51.64,25.98|Z|17;Blasted Lands|N|Kill any boar you come across.|US|
+A One Draenei's Junk...|QID|25771|O|Z|17;Blasted Lands|N|You may or may not get this while killing in the Blasted Lands.. If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|U|10593|
 T One Draenei's Junk...|QID|25771|O|M|49.01,31.81|Z|17;Blasted Lands|N|To Kum'isha the Collector.|
-A Kum'isha's Endeavors|QID|25772|O|U|8244|Z|17;Blasted Lands|N|You may or may not get this while killing in the Blasted Lands.. If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.|
-T Kum'isha's Endeavors|QID|25772|O|Z|17;Blasted Lands|N|To Kum'isha the Collector.|
+A Kum'isha's Endeavors|QID|25772|O|Z|17;Blasted Lands|N|You may or may not get this while killing in the Blasted Lands.. If you didn't, don't worry, just skip this as it does not reward any exp, or for the quest achievment.||U|8244|
+T Kum'isha's Endeavors|QID|25772|O|M|46.68,31.84|Z|17;Blasted Lands|N|To Kum'isha the Collector.|
 T The First Step|QID|26159|M|62.64,26.19|Z|17;Blasted Lands|N|To Kasim Sharim.|
 A Blood Ritual|QID|26160|PRE|26159|M|62.64,26.19|Z|17;Blasted Lands|N|From Kasim Sharim.|
 T A Bloodmage's Gotta Eat Too|QID|26172|M|62.64,26.19|Z|17;Blasted Lands|N|To Kasim Sharim.|
@@ -76,10 +76,10 @@ T Atrocities|QID|25703|M|71.03,59.89|Z|17;Blasted Lands|N|To Neptool.|
 A False Idols|QID|25705|PRE|25703|M|71.03,59.89|Z|17;Blasted Lands|N|From Neptool.|
 A Neptool's Revenge|QID|25706|PRE|25703|M|71.03,59.89|Z|17;Blasted Lands|N|From Neptool.|
 C Neptool's Revenge|QID|25706|QO|3|M|66.58,72.81|Z|17;Blasted Lands|N|Kill the Bloodwash Gamblers here.|
-C False Idols|QID|25705|S|M|61.20,62.76|Z|17;Blasted Lands|N|Smash the idols as you go.|
+C False Idols|QID|25705|M|61.20,62.76|Z|17;Blasted Lands|N|Smash the idols as you go.|NC|S|
 C Neptool's Revenge|QID|25706|QO|4|M|60.12,76.47|Z|17;Blasted Lands|N|Kill the Bloodwash Idolaters here.|
 C Neptool's Revenge|QID|25706|M|61.20,62.76|Z|17;Blasted Lands|N|Kill Bloodwash Zealots and Acolytes inside and around the cave.|
-C False Idols|QID|25705|US|M|61.20,62.76|Z|17;Blasted Lands|N|Smash the idols as you go.|
+C False Idols|QID|25705|M|61.20,62.76|Z|17;Blasted Lands|N|Smash the idols as you go.|NC|US|
 A The Future of the Rockpool|QID|25707|PRE|25703|M|60.53,62.78|Z|17;Blasted Lands|N|"Talk" to the Abandoned Bloodwash Crate and choose to start the quest.|CHAT|RANK|3|
 C The Future of the Rockpool|QID|25707|M|68.74,82.08|Z|17;Blasted Lands|N|Drag the crate to the Forbidding Sea, try to avoid aggro. If you get attacked resume by talking to the chest again.|NC|
 T The Future of the Rockpool|QID|25707|M|60.53,62.78|Z|17;Blasted Lands|N|(UI Alert)|
@@ -95,19 +95,19 @@ T Time is Short|QID|26163|M|54.98,49.62|Z|17;Blasted Lands|N|To Watcher Grimeo.|
 A The Charred Granite of the Dark Portal|QID|26164|PRE|26163|M|54.98,49.62|Z|17;Blasted Lands|N|From Watcher Grimeo.|
 A The Vile Blood of Demons|QID|26165|PRE|26163|M|54.98,49.62|Z|17;Blasted Lands|N|From Watcher Grimeo.|
 A Protecting Our Rear|QID|26173|M|54.74,50.29|Z|17;Blasted Lands|N|From Watch Commander Relthorn Netherwane.|
-C The Charred Granite of the Dark Portal|QID|26164|S|U|56024|Z|17;Blasted Lands|N|Look for the sparkling stones as you go.|
-C The Vile Blood of Demons|QID|26165|S|Z|17;Blasted Lands|N|Kill any and all demons you see for their blood.|
-K Protecting Our Rear|QID|26173|QO|2|M|57.26,50.19;60,43.4|CN|Z|17;Blasted Lands|N|Kill Shahandana.|
-K Protecting Our Rear|QID|26173|QO|3|M|51.59,42.26|Z|17;Blasted Lands|N|Gomegaz's turn to die.|
-C Protecting Our Rear|QID|26173|QO|1|M|44,47.74|Z|17;Blasted Lands|N|And finally Jarroc Torn-Wing's turn.|
-C The Vile Blood of Demons|QID|26165|Z|17;Blasted Lands|N|Kill any and all demons for their blood.|US|
-C The Charred Granite of the Dark Portal|QID|26164|US|U|56024|Z|17;Blasted Lands|N|Look for the sparkling stones as you go.|
+C The Charred Granite of the Dark Portal|QID|26164|Z|17;Blasted Lands|N|Look for the sparkling stones as you go.|S|U|56024|NC|
+C The Vile Blood of Demons|QID|26165|Z|17;Blasted Lands|N|Kill any and all demons you see for their blood.|S|
+K Shahandana|ACTIVE|26173|QO|2|M|57.26,50.19;59.94,43.19|CS|Z|17;Blasted Lands|N|Kill Shahandana.|T|Shahandana|
+K Gomegaz|ACTIVE|26173|QO|3|M|51.59,42.26|Z|17;Blasted Lands|N|Gomegaz's turn to die.|T|Gomegaz|
+C Jarroc Torn-Wing|ACTIVE|26173|QO|1|M|44,47.74|Z|17;Blasted Lands|N|And finally Jarroc Torn-Wing's turn.|T|Jarroc Torn-Wing|
+C The Vile Blood of Demons|QID|26165|M|54.37,44.32|Z|17;Blasted Lands|N|Kill any and all demons for their blood.|US|
+C The Charred Granite of the Dark Portal|QID|26164|M|54.37,44.32|Z|17;Blasted Lands|N|Look for the sparkling stones as you go.|US|U|56024|NC|
 T The Charred Granite of the Dark Portal|QID|26164|M|55.00,49.57|Z|17;Blasted Lands|N|To Watcher Grimeo.|
 T The Vile Blood of Demons|QID|26165|M|55.00,49.57|Z|17;Blasted Lands|N|To Watcher Grimeo.|
 A Enhancing the Stone|QID|26166|PRE|26164&26165|M|54.99,49.57|Z|17;Blasted Lands|N|From Watcher Grimeo.|
 T Protecting Our Rear|QID|26173|M|54.68,50.29|Z|17;Blasted Lands|N|To Watch Commander Relthorn Netherwane.|
 A Watching Our Back|QID|26174|PRE|26173|M|54.68,50.29|Z|17;Blasted Lands|N|From Watch Commander Relthorn Netherwane.|
-C Watching Our Back|QID|26174|M|53.96,49.93|Z|17;Blasted Lands|N|This can be very tricky to do. You have wait untill the patrollers backs are to you.|
+C Watching Our Back|QID|26174|M|53.96,49.93|Z|17;Blasted Lands|N|This can be very tricky to do. You have wait untill the patrollers backs are to you.|NC|
 T Watching Our Back|QID|26174|M|54.70,50.35|Z|17;Blasted Lands|N|To Watch Commander Relthorn Netherwane.|
 A Surwich|QID|26175|LEAD|26184|PRE|26174|M|54.70,50.35|Z|17;Blasted Lands|N|From Watch Commander Relthorn Netherwane.|
 T Enhancing the Stone|QID|26166|M|61.37,29.93|Z|17;Blasted Lands|N|Once again click on the Bloodstone Teleport to get to Kasim Sharim.|
@@ -123,7 +123,7 @@ A The Final Ritual|QID|26170|PRE|26162|M|62.60,26.06|Z|17;Blasted Lands|N|From K
 C The Final Ritual|QID|26170|M|62.46,26.03|Z|17;Blasted Lands|N|Talk to Kasim and choose to do the ritual. Wait a moment then talk to Loramus.|
 T The Final Ritual|QID|26170|M|62.38,26.02|Z|17;Blasted Lands|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|26171|PRE|26170|M|62.38,26.02|Z|17;Blasted Lands|N|From Loramus Thalipedes.|
-C You Are Rakh'likh, Demon|QID|26171|U|56012|M|46.5,21.67|Z|17;Blasted Lands|N|Speak with the Deathly Usher. Kill Razelikh, and then once he enters Loramus, get him down in health then use the Stone Knife when he says too.|
+C You Are Rakh'likh, Demon|QID|26171|M|46.5,21.67|Z|17;Blasted Lands|N|Speak with the Deathly Usher. Kill Razelikh, and then once he enters Loramus, get him down in health then use the Stone Knife when he says too.|U|56012|
 H Nethergarde Keep|QID|26171|Z|17;Blasted Lands|N|Hearth to Nethergarde Keep, or if you wish, you can jump down the mountain.|
 r Sell junk, repair/restock.|QID|26171|
 R The Dark Portal|QID|26171|M|53.7,42.85|Z|17;Blasted Lands|N|Run to The Dark Portal.|
@@ -133,26 +133,26 @@ T Surwich|QID|26175|M|46.41,87.09|Z|17;Blasted Lands|N|To Mayor Charlton Connisp
 A Wormthorn's Dream|QID|26184|M|46.41,87.09|Z|17;Blasted Lands|N|From Mayor Charlton Connisport.|
 f Surwich|QID|26184|M|47.10,89.20|Z|17;Blasted Lands|N|At Graham McAllister.|
 h Surwich|QID|26184|M|44.42,87.70|Z|17;Blasted Lands|N|Set your hearth with Donna Berrymore.|
-C Wormthorn's Dream|QID|26184|S|M|38.77,70|Z|17;Blasted Lands|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you see.|
+C Wormthorn's Dream|QID|26184|M|38.77,70|Z|17;Blasted Lands|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you see.|S|
 K Wormthorn's Dream|QID|26184|QO|4|M|33.72,78.5|Z|17;Blasted Lands|N|Go here to kill the Felspore Bog Lords.|
-C Wormthorn's Dream|QID|26184|US|Z|17;Blasted Lands|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you need left.|
+C Wormthorn's Dream|QID|26184|Z|17;Blasted Lands|N|Kill any Doomguard Destoryer, Dreadlord Defilier, and Corrupted Darkwood Treant you need left.|US|
 T Wormthorn's Dream|QID|26184|M|46.45,87.02|Z|17;Blasted Lands|N|To Mayor Charlton Connisport.|
 A Advice from the Cenarion Circle|QID|26185|PRE|26184|M|46.45,87.02|Z|17;Blasted Lands|N|From Mayor Charlton Connisport.|
 T Advice from the Cenarion Circle|QID|26185|M|47.24,88.67|Z|17;Blasted Lands|N|To Cenarion Observer Shayana. She tends to wander around the village.|
 A Demoniac Vessel|QID|26186|PRE|26185|M|47.24,88.67|Z|17;Blasted Lands|N|From Cenarion Observer Shayana.|
-C Nightstalker Legs|QID|26186|S|L|57178 20|M|38.33,58.23|Z|17;Blasted Lands|N|Kill spiders to get legs. You need 20.|
-C Tainted Hides|QID|26186|S|L|57177 4|M|38.33,58.23|Z|17;Blasted Lands|N|Kill bears to get hides. You need 4.|
+C Nightstalker Legs|QID|26186|L|57178 20|M|38.33,58.23|Z|17;Blasted Lands|N|Kill spiders to get legs. You need 20.|S|
+C Tainted Hides|QID|26186|L|57177 4|M|38.33,58.23|Z|17;Blasted Lands|N|Kill bears to get hides. You need 4.|S|
 C Screecher Brains|QID|26186|L|57179 2|M|38.33,58.23|Z|17;Blasted Lands|N|Kill bats to get brains. You need two.|
-C Nightstalker Legs|QID|26186|US|L|57178 20|M|38.33,58.23|Z|17;Blasted Lands|N|Kill spiders to get legs. You need 20.|
-C Tainted Hides|QID|26186|US|L|57177 4|M|38.33,58.23|Z|17;Blasted Lands|N|Kill bears to get hides. You need 4.|
-C Screecher Brain Paste|QID|26186|U|57179|L|57182 2|M|38.33,58.23|Z|17;Blasted Lands|N|Turn the Screecher Brains into a paste.|
-C Crushed Nightstalker Legs|QID|26186|U|57178|L|57181 20|M|38.33,58.23|Z|17;Blasted Lands|N|Turn the Nightstalker Legs into a powder. You need 20.|
-C Tainted Hide Pouch|QID|26186|U|57177|L|57180 |M|38.33,58.23|Z|17;Blasted Lands|N|Combine the Tainted Hides to create the Tainted Hide Pouch.|
-U Demoniac Commixture|QID|26186|U|57182|L|57183 |M|39.02,57.73|Z|17;Blasted Lands|N|Use the paste and powder to make the mixture.|
-U Demoniac Vessel|QID|26186|U|57180|Z|17;Blasted Lands|N|Use the Tainted Hide Pouch to make the final vessel.|
+C Nightstalker Legs|QID|26186|L|57178 20|M|38.33,58.23|Z|17;Blasted Lands|N|Kill spiders to get legs. You need 20.|US|
+C Tainted Hides|QID|26186|L|57177 4|M|38.33,58.23|Z|17;Blasted Lands|N|Kill bears to get hides. You need 4.|US|
+C Screecher Brain Paste|QID|26186|L|57182 2|M|38.33,58.23|Z|17;Blasted Lands|N|Turn the Screecher Brains into a paste.|U|57179|
+C Crushed Nightstalker Legs|QID|26186|L|57181 20|M|38.33,58.23|Z|17;Blasted Lands|N|Turn the Nightstalker Legs into a powder. You need 20.|U|57178|
+C Tainted Hide Pouch|QID|26186|L|57180 |M|38.33,58.23|Z|17;Blasted Lands|N|Combine the Tainted Hides to create the Tainted Hide Pouch.|U|57177|
+U Demoniac Commixture|QID|26186|L|57183 |M|39.02,57.73|Z|17;Blasted Lands|N|Use the paste and powder to make the mixture.|U|57182|
+U Demoniac Vessel|QID|26186|Z|17;Blasted Lands|N|Use the Tainted Hide Pouch to make the final vessel.|U|57180|
 T Demoniac Vessel|QID|26186|M|46.36,87.01|Z|17;Blasted Lands|N|To Mayor Charlton Connisport.|
 A The Downfall of Marl Wormthorn|QID|26187|PRE|26186|M|46.36,87.01|Z|17;Blasted Lands|N|From Mayor Charlton Connisport.|
-C The Downfall of Marl Wormthorn|QID|26187|U|57185|M|34.84,68.11|Z|17;Blasted Lands|N|Kill the demons around him then use the vessel to snap him out of his trance, then defeat him.|
+C The Downfall of Marl Wormthorn|QID|26187|M|34.84,68.11|Z|17;Blasted Lands|N|Kill the demons around him then use the vessel to snap him out of his trance, then defeat him.|U|57185|
 T The Downfall of Marl Wormthorn|QID|26187|M|46.34,87.06|Z|17;Blasted Lands|N|To Mayor Charlton Connisport.|
 ]]
 end)
