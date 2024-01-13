@@ -727,12 +727,12 @@ f Temple of the Prophet|ACTIVE|49422|M|49.82,44.59|Z|0862;Zuldazar|N|At Kaza the
 C Heretics|QID|49422|M|49.09,40.80|Z|0862;Zuldazar|N|Wreak Ruin as you go.|S|
 C The Full Prophecy|QID|49424|QO|3|M|48.81,42.75|Z|0862;Zuldazar|N|After clearing the guards, click the scroll hanging on the wall to read "The Word of Zul III".|H|
 C The Full Prophecy|QID|49424|QO|2|M|49.75,41.87;49.01,40.60|CS|Z|0862;Zuldazar|N|After clearing the room, click the scroll hanging on the wall to read "The Word of Zul II".|H|
-C The Full Prophecy|QID|49424|QO|1|M|49.74,40.16;48.75,39.42|CS|Z|0862;Zuldazar|N|Click the scroll hanging on the wall to read "The Word of Zul I".|H|
+C The Full Prophecy|QID|49424|QO|1|M|49.74,40.16;48.75,39.42|CS|Z|0862;Zuldazar|N|After clearing the area, click the scroll hanging on the wall to read "The Word of Zul I".|H|
 C Heretics|QID|49422|M|48.75,39.42|Z|0862;Zuldazar|N|Ruin wrought.|US|
-T The Full Prophecy|QID|49424|M|PLAYER|N|To Wardruid Loti.|
+T The Full Prophecy|QID|49424|M|PLAYER|N|To Wardruid Loti beside you.|
 T Heretics|QID|49422|M|49.65,37.97|Z|0862;Zuldazar|N|To Hexlord Raal.|
 A City of Gold|QID|49425|PRE|49422&49424|M|49.65,37.97|Z|0862;Zuldazar|N|From Hexlord Raal.|
-C City of Gold|QID|49425|M|49.64,37.91|Z|0862;Zuldazar|N|Hop on Ata the Winglord. Use "1" key to bomb the forces below.|V|
+C City of Gold|QID|49425|M|49.64,37.91|Z|0862;Zuldazar|N|Hop on Ata the Winglord and use "1" key to bomb the forces below.|V|
 T City of Gold|QID|49425|M|43.69,39.44|Z|0862;Zuldazar|N|To Rezan.|
 A The King's Gambit|QID|49426|PRE|49425|M|43.69,39.44|Z|0862;Zuldazar|N|From Rezan.|
 R The King's Gambit|ACTIVE|49426|QO|1|M|42.16,39.26|Z|0862;Zuldazar|N|Follow Rezan into Atal'Dazar.|
