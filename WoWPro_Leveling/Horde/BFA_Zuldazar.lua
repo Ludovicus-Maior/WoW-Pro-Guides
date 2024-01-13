@@ -739,7 +739,7 @@ R The King's Gambit|ACTIVE|49426|QO|1|M|42.16,39.26|Z|0862;Zuldazar|N|Follow Rez
 C The King's Gambit|QID|49426|QO|2|M|42.03,39.44|Z|0862;Zuldazar|N|Ask Rastakhan what next?, then watch the scene play out.|CHAT|
 R The King's Gambit|ACTIVE|49426|QO|3|M|42.07,37.63;42.72,37.66|CS|Z|0862;Zuldazar|N|Talk to the King to start running and don't stop until you get to Gonk.|
 T The King's Gambit|QID|49426|M|42.72,37.66|Z|0862;Zuldazar|N|To King Rastakhan.|
-A Atal'Dazar: Yazma the Fallen Priestess|QID|49901|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|ELITE|N|[color=E6CC80]Dungeon: 'Atal'Dazar'[/color]\nFrom King Rastakhan.\n[color=FF0000]NOTE: [/color]Manually check this step off to skip and continue.|NA|
+A Atal'Dazar: Yazma the Fallen Priestess|QID|49901|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|ELITE|N|[color=E6CC80]Dungeon: 'Atal'Dazar'[/color]\nFrom King Rastakhan.|DUNGEON|
 A Of Dark Deeds and Dark Days|QID|50963|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|N|From King Rastakhan.|
 K Hakbi the Risen|QID|50677|QO|1|M|42.00,36.19|Z|0862;Zuldazar|ITEM|160978|N|Silver Elite to kill for azerite power and resources.|T|Hakbi the Risen|RANK|2|RARE|
 $ Dazar's Forgotten Chest|QID|50707|M|41.07,33.41;38.78,34.43|CS|Z|0862;Zuldazar|N|Follow this nearly hidden path through the rock and under the waterfall to a Chest to loot for azerite power and resources.|RANK|2|

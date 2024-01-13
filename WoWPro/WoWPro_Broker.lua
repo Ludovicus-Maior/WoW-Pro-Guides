@@ -2161,6 +2161,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 break
             end
 
+            -- Complete Dungeon A steps if we dont want them
+            if WoWPro.dungeon[guideIndex] and (not  WoWProCharDB.EnableDungeons) then
+                WoWPro.CompleteStep(guideIndex,"No optional Dungeon quests desired")
+                skip = true
+                break
+            end
+
             -- WoWPro:dbp("Status(%d) skip=%s",guideIndex,tostring(skip))
             -- Checking level based completion --
             if WoWPro.level and WoWPro.level[guideIndex] then

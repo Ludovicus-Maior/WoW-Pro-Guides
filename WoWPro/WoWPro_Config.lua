@@ -774,6 +774,21 @@ local function createMainConfig()
                     end,
                 width = "full"
             },
+            doDungeons = {
+                order = 24,
+                type = "toggle",
+                name = L["Enable Dungeon Quests"],
+                desc = L["Skips dungeon-specific quests outside Dungeon guides."],
+                get = function(info) return WoWProCharDB.EnableDungeons end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableDungeons then
+                            WoWProCharDB.EnableDungeons = false
+                        else
+                            WoWProCharDB.EnableDungeons = true
+                        end
+                    end,
+                width = "full"
+            },
             grank = {
                 order = 25,
                 type = "range",
