@@ -83,7 +83,6 @@ function WoWPro.Leveling:OnEnable()
 
     --Loading Frames--
     if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro.Leveling:CreateConfig()
         WoWPro.Leveling.FramesLoaded = true
     end
 
