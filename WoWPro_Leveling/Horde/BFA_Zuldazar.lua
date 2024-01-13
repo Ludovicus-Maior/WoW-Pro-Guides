@@ -739,27 +739,26 @@ R The King's Gambit|ACTIVE|49426|QO|1|M|42.16,39.26|Z|0862;Zuldazar|N|Follow Rez
 C The King's Gambit|QID|49426|QO|2|M|42.03,39.44|Z|0862;Zuldazar|N|Ask Rastakhan what next?, then watch the scene play out.|CHAT|
 R The King's Gambit|ACTIVE|49426|QO|3|M|42.07,37.63;42.72,37.66|CS|Z|0862;Zuldazar|N|Talk to the King to start running and don't stop until you get to Gonk.|
 T The King's Gambit|QID|49426|M|42.72,37.66|Z|0862;Zuldazar|N|To King Rastakhan.|
-A Atal'Dazar: Yazma the Fallen Priestess|QID|49901|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|N|From King Rastakhan.|NA|
+A Atal'Dazar: Yazma the Fallen Priestess|QID|49901|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|ELITE|N|[color=E6CC80]Dungeon: 'Atal'Dazar'[/color]\nFrom King Rastakhan.\n[color=FF0000]NOTE: [/color]Manually check this step off to skip and continue.|NA|
 A Of Dark Deeds and Dark Days|QID|50963|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|N|From King Rastakhan.|
 K Hakbi the Risen|QID|50677|QO|1|M|42.00,36.19|Z|0862;Zuldazar|ITEM|160978|N|Silver Elite to kill for azerite power and resources.|T|Hakbi the Risen|RANK|2|RARE|
-$ Dazar's Forgotten Chest|QID|50707|M|41.07,33.41;38.80,34.41|CS|Z|0862;Zuldazar|N|Follow this nearly hidden path through the rock and under the waterfall to a Chest to loot for azerite power and resources.|RANK|2|
-R The Golden Road|ACTIVE|50963|M|43.60,36.72|Z|0862;Zuldazar|N|Follow the Golden Road down to the flightmaster.|
+$ Dazar's Forgotten Chest|QID|50707|M|41.07,33.41;38.78,34.43|CS|Z|0862;Zuldazar|N|Follow this nearly hidden path through the rock and under the waterfall to a Chest to loot for azerite power and resources.|RANK|2|
+R The Golden Road|ACTIVE|50963|M|43.60,36.72|Z|0862;Zuldazar|N|Follow the Golden Road down to the flightmaster.|FLY|OLD|
 f Atal'Dazar|ACTIVE|50963|M|46.16,35.82|Z|0862;Zuldazar|N|At Loz the Paku'ai.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
-H The Great Seal|ACTIVE|50963|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]Manually check this step off to take the flightpath at Scroll of Flight.|
-F The Great Seal|ACTIVE|50963|M|70.77,29.59|Z|0862;Zuldazar|N|Take the flightpath at Loz the Paku'ai.|
+H The Great Seal|ACTIVE|50963|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]You can also use the flightpath from Loz the Paku'ai or fly directly there.|
 T Of Dark Deeds and Dark Days|QID|50963|M|41.22,66.92|Z|1164;Hall of Croniclers|N|To Princess Talanji.|
 t Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|41.22,66.92|Z|1164;Hall of Croniclers|N|To Princess Talanji.|
-A The Blood Gate|QID|47199|PRE|50963&50808|M|40.89,73.00|Z|1164;Hall of Croniclers|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|;not spurious - necessary for guide flow
+A The Blood Gate|QID|47199|PRE|50963&50808|M|40.89,73.00|Z|1164;Hall of Croniclers|N|Baine Bloodhoof.\n[color=FF0000]NOTE: [/color]This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|;not spurious - necessary for guide flow
 A Sandscar Breach|QID|49940|M|67.00,71.58|Z|1164;Hall of Croniclers|N|From Natal'hakata.|RANK|2|
 ; R3 quest chain begins and R1 will drop to the end of the guide from here.
-A The Bones of Xibala|QID|47257|M|32.28,45.08|Z|1164;Hall of Croniclers|N|From Chronicler To'kini.|RANK|3|
-F Warport Rastari|ACTIVE|47257|M|51.89,41.21|Z|1165;Dazar'alor|N|At Paku'ai Rokota.|RANK|3|
+A The Bones of Xibala|QID|47257|M|32.28,45.08|Z|1164;Hall of Croniclers|N|From Chronicler To'kini inside Vault of Kings.|RANK|3|
+F Warport Rastari|ACTIVE|47257|M|51.89,41.21|Z|1165;Dazar'alor|N|At Paku'ai Rokota.|RANK|3|FLY|OLD|
 b Xibala|ACTIVE|47257|M|53.69,61.56|Z|0862;Zuldazar|N|Ask Wavesinger Amon for a ride to Xibala|RANK|3|
 f Xibala|ACTIVE|47257|M|44.84,72.25|Z|0862;Zuldazar|N|At Eliara Duskwing.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|RANK|3|
 A WANTED: Dark Chronicler|QID|51087|M|44.30,72.17|Z|0862;Zuldazar|N|From Wanted Poster.|RANK|3|
 T The Bones of Xibala|QID|47257|M|43.92,72.11|Z|0862;Zuldazar|N|To Examiner Tae'shara Bloodwatcher.|
 A The Bloodwatcher Legacy|QID|47329|M|43.92,72.11|Z|0862;Zuldazar|N|From Examiner Tae'shara Bloodwatcher.|RANK|3|
-C The Bloodwatcher Legacy|QID|47329|QO|1|M|44.01,72.21|Z|0862;Zuldazar|N|Keep clicking on the dirt pile until the Fossil is all revealed|H|
+C The Bloodwatcher Legacy|QID|47329|QO|1|M|44.01,72.21|Z|0862;Zuldazar|N|Keep clicking on the dirt pile until the Fossil is all revealed.\n[colr=FF0000]NOTE: [/color]After the first click, you can click on the [color=33fff9]Carefully Calibrated Sweeper[/color] to finish the job for you.|H|
 T The Bloodwatcher Legacy|QID|47329|M|43.90,72.14|Z|0862;Zuldazar|N|To Apprentice Telemancer Astrandis.|
 A Scrying for the Eye|QID|47235|PRE|47329|M|43.90,72.14|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
 A Archaeological Efficiency|QID|50043|PRE|47329|M|43.90,72.14|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
