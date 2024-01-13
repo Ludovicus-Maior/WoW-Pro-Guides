@@ -1,4 +1,4 @@
--- luacheck: globals pairs ipairs
+-- luacheck: globals pairs ipairs tostring
 
 -----------------------------
 --      WoWPro_Config      --
@@ -41,7 +41,6 @@ local soundfiles = {
 local function createDisplayConfig()
     return {
         type = "group",
-        order = 2,
         name = L["Guide Display"],
         desc = L["Options that alter the way the guide frame looks"],
         args = {
@@ -617,7 +616,6 @@ local function createMainConfig()
     return {
         name = L["Master"],
         type = "group",
-        order = 0,
         args = {
             version = {
                 order = 11,
@@ -774,34 +772,7 @@ local function createMainConfig()
                     end,
                 width = "full"
             },
-            grank = {
-                order = 25,
-                type = "range",
-                name = L["Global Rank (Difficulty/Completeness)"],
-                desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
-                min = 1, max = 3, step = 1,
-                get = function(info) return WoWProDB.profile.rank end,
-                set = function(info,val) WoWProDB.profile.rank = val
-                    if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
-                        WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
-                    end
-                    WoWPro.UpdateGuide("Config: GRank") end,
-                width = "double"
-            },
-            trank = {
-                order = 26,
-                type = "range",
-                name = L["Toon Rank (Difficulty/Completeness)"],
-                desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
-                min = 1, max = 3, step = 1,
-                get = function(info) return WoWProCharDB.Rank[1] end,
-                set = function(info,val) WoWProCharDB.Rank[1] = val
-                    if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
-                        WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
-                    end
-                    WoWPro.UpdateGuide("Config: TRank") end,
-                width = "double"
-            },
+
             header4 = {
                 order = 50,
                 type = "header",
@@ -905,7 +876,6 @@ local function createExpertOptions()
     return {
         name = L["Expert"],
         type = "group",
-        order = -1,
         args = {
             header = {
                 order = 1,
@@ -1070,6 +1040,94 @@ local function createExpertOptions()
     }
 end
 
+local function createRankConfig()
+    local ranks = {
+        name = L["Ranks"],
+        type = "group",
+        args = {
+            WoWProRank={name="WoWPro",
+            type = "group",
+            order = 50,
+            args = {
+                header = {
+                    order = 10,
+                    type = "header",
+                    name = L["Addon Version Installed"],
+                },
+                version = {
+                    order = 11,
+                    type = "description",
+                    name = L["Version"]..": "..WoWPro.Version,
+                },
+                grank = {
+                    order = 25,
+                    type = "range",
+                    name = L["Global Rank (Difficulty/Completeness)"],
+                    desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
+                    min = 1, max = 3, step = 1,
+                    get = function(info) return WoWProDB.profile.rank end,
+                    set = function(info,val) WoWProDB.profile.rank = val
+                        if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
+                            WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
+                        end
+                        WoWPro.UpdateGuide("Config: GRank") end,
+                    width = "double"
+                },
+                trank = {
+                    order = 26,
+                    type = "range",
+                    name = L["Toon Rank (Difficulty/Completeness)"],
+                    desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
+                    min = 1, max = 3, step = 1,
+                    get = function(info) return WoWProCharDB.Rank[1] end,
+                    set = function(info,val) WoWProCharDB.Rank[1] = val
+                        if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
+                            WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
+                        end
+                        WoWPro.UpdateGuide("Config: TRank") end,
+                    width = "double"
+                }
+            }
+        }
+    }}
+    local slot = 51
+    for name, module in WoWPro:IterateModules() do
+        ranks.args[name.."Rank"] = {name=L[name], type="group", order = slot,
+            args = {
+                header = {
+                    order = 10,
+                    type = "header",
+                    name = L[name.." Addon Version Installed"],
+                },
+                version = {
+                    order = 11,
+                    type = "description",
+                    name = L[name .. " Version"]..": "..tostring(module.Version),
+                },
+                mrank = {
+                    order = 25,
+                    type = "range",
+                    name = L[name.." Rank (Difficulty/Completeness)"],
+                    desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
+                    min = 1, max = 3, step = 1,
+                    get = function(info) return WoWProDB.profile[name.."rank"] end,
+                    set = function(info,val) WoWProDB.profile[name.."rank"] = val
+                        if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
+                            WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
+                        end
+                        WoWPro.UpdateGuide("Config: mRank") end,
+                    width = "double"
+                },
+        }}
+        slot = slot + 1
+    end
+    WoWPro.rankConfig = ranks
+    return ranks
+end
+
+
+
+
 function WoWPro.CreateConfig()
     local topConfig = {
         name = "Options",
@@ -1079,9 +1137,17 @@ function WoWPro.CreateConfig()
             mainConfig = createMainConfig(),
             displayConfig = createDisplayConfig(),
             profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB),
+            rankConfig = createRankConfig(),
             expertConfig = createExpertOptions()
         }
     }
+    --  (default = 100, 0=first, -1=last)
+    topConfig.args.mainConfig.order=0
+    topConfig.args.displayConfig.order=10
+    topConfig.args.profileConfig.order=11
+    topConfig.args.rankConfig.order=12
+    topConfig.args.expertConfig.order=-1
+
     -- Register your options with AceConfig
     config:RegisterOptionsTable("WoWPro", topConfig)
     -- Add the options to the Blizzard Interface Options
