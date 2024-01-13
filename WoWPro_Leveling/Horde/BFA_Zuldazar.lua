@@ -704,7 +704,7 @@ T Partners in Heresy|QID|47734|M|74.87,24.93|Z|0862;Zuldazar|N|To King Rastakhan
 A To Sacrifice a Loa|QID|47741|PRE|47734|M|74.87,24.93|Z|0862;Zuldazar|N|From King Rastakhan.|
 K Vilnak'dor|ACTIVE|47741|QO|1|M|75.95,24.85|Z|0862;Zuldazar|N|Kill Vilnak'dor.|T|Vilnak'dor|
 C To Sacrifice a Loa|QID|47741|QO|2|M|76.07,24.89|Z|0862;Zuldazar|N|Disrupt the Loa Sacrifice Ritual.|NC|
-C To Sacrifice a Loa|QID|47741|QO|3|M|73.92,27.31|Z|0862;Zuldazar|N|Tell the King it is time to go and make a run for it.\n[color=FF0000]NOTE: [/color]No need to follow Rezan. He'll go when you go (for the most part).|CHAT|
+C To Sacrifice a Loa|QID|47741|QO|3|M|73.92,27.31|Z|0862;Zuldazar|N|Tell the King it is time to go and make a run for it.\n[color=FF0000]NOTE: [/color]No need to follow Rezan; just keep him within eyesight, or he will despawn and you'll have to go back to the beginning to get him going again.|CHAT|
 C Occupation Hazard|QID|47797|M|74.07,26.93|Z|0862;Zuldazar|N|Go back and finish up the bonus objective.|US|
 ;T Occupation Hazard|QID|47797|M|74.07,26.93|Z|0862;Zuldazar|N|Bonus Objective - Autocompleted.|
 T To Sacrifice a Loa|QID|47741|M|70.82,29.90|Z|0862;Zuldazar|N|To Rezan.|
@@ -716,7 +716,7 @@ F The Great Seal|ACTIVE|51111|M|70.77,29.59|Z|0862;Zuldazar|N|Take the flightpat
 T Inform the Horde!|QID|51539|M|41.56,72.42|Z|1164;Hall of Croniclers|N|To Baine Bloodhoof.|RANK|2|
 T King or Prey|QID|51111|M|41.56,72.42|Z|1164;Hall of Croniclers|N|To Baine Bloodhoof.|
 A Hunting Zul|QID|49421|M|41.56,72.42|Z|1164;Hall of Croniclers|N|From Baine Bloodhoof.|
-R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|1165;Dazar'alor|N|Weave your way down the stairs until you get to the bottom and cross the bridge to The Zocalo.\n[color=FF0000]NOTE: [/color]If you can handle the fall damage, drop from each tier to make this faster.|
+R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|1165;Dazar'alor|N|Weave your way down the stairs until you get to the bottom and cross the bridge to The Zocalo.\n[color=FF0000]NOTE: [/color]If you can handle the fall damage, drop from each tier to make this faster.|FLY|OLD|
 T Hunting Zul|QID|49421|M|38.93,27.13|Z|1165;Dazar'alor|N|To King Rastakhan.|
 A The Warpack|QID|49965|PRE|51111&49421|M|38.93,27.13|Z|1165;Dazar'alor|N|From King Rastakhan.|
 C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|Z|0862;Zuldazar|N|Hop on Wardruid Loti's back. You'll start moving as soon as the King finishes his speech.|V|
@@ -725,9 +725,9 @@ A Heretics|QID|49422|PRE|49965|M|49.28,44.32|Z|0862;Zuldazar|N|From Gonk.|
 A The Full Prophecy|QID|49424|PRE|49965|M|49.34,44.34|Z|0862;Zuldazar|N|From Wardruid Loti.|
 f Temple of the Prophet|ACTIVE|49422|M|49.82,44.59|Z|0862;Zuldazar|N|At Kaza the Skyblade.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 C Heretics|QID|49422|M|49.09,40.80|Z|0862;Zuldazar|N|Wreak Ruin as you go.|S|
-C The Full Prophecy|QID|49424|QO|3|M|48.81,42.75|Z|0862;Zuldazar|N|Read The Word of Zul III.|H|
-C The Full Prophecy|QID|49424|QO|2|M|49.75,41.87;49.01,40.60|CS|Z|0862;Zuldazar|N|Read The Word of Zul II.|H|
-C The Full Prophecy|QID|49424|QO|1|M|49.74,40.16;48.75,39.42|CS|Z|0862;Zuldazar|N|Read The Word of Zul I.|H|
+C The Full Prophecy|QID|49424|QO|3|M|48.81,42.75|Z|0862;Zuldazar|N|After clearing the guards, click the scroll hanging on the wall to read "The Word of Zul III".|H|
+C The Full Prophecy|QID|49424|QO|2|M|49.75,41.87;49.01,40.60|CS|Z|0862;Zuldazar|N|After clearing the room, click the scroll hanging on the wall to read "The Word of Zul II".|H|
+C The Full Prophecy|QID|49424|QO|1|M|49.74,40.16;48.75,39.42|CS|Z|0862;Zuldazar|N|Click the scroll hanging on the wall to read "The Word of Zul I".|H|
 C Heretics|QID|49422|M|48.75,39.42|Z|0862;Zuldazar|N|Ruin wrought.|US|
 T The Full Prophecy|QID|49424|M|PLAYER|N|To Wardruid Loti.|
 T Heretics|QID|49422|M|49.65,37.97|Z|0862;Zuldazar|N|To Hexlord Raal.|
