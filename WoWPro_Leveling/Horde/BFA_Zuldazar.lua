@@ -758,7 +758,7 @@ f Xibala|ACTIVE|47257|M|44.84,72.25|Z|0862;Zuldazar|N|At Eliara Duskwing.\n[colo
 A WANTED: Dark Chronicler|QID|51087|M|44.30,72.17|Z|0862;Zuldazar|N|From Wanted Poster.|RANK|3|
 T The Bones of Xibala|QID|47257|M|43.92,72.11|Z|0862;Zuldazar|N|To Examiner Tae'shara Bloodwatcher.|
 A The Bloodwatcher Legacy|QID|47329|M|43.92,72.11|Z|0862;Zuldazar|N|From Examiner Tae'shara Bloodwatcher.|RANK|3|
-C The Bloodwatcher Legacy|QID|47329|QO|1|M|44.01,72.21|Z|0862;Zuldazar|N|Keep clicking on the dirt pile until the Fossil is all revealed.\n[colr=FF0000]NOTE: [/color]After the first click, you can click on the [color=33fff9]Carefully Calibrated Sweeper[/color] to finish the job for you.|H|
+C The Bloodwatcher Legacy|QID|47329|QO|1|M|44.01,72.21|Z|0862;Zuldazar|N|Keep clicking on the dirt pile until the Fossil is all revealed.\n[color=FF0000]NOTE: [/color]After the first click, you can click on the [color=33fff9]Carefully Calibrated Sweeper[/color] to finish the job for you.|H|
 T The Bloodwatcher Legacy|QID|47329|M|43.90,72.14|Z|0862;Zuldazar|N|To Apprentice Telemancer Astrandis.|
 A Scrying for the Eye|QID|47235|PRE|47329|M|43.90,72.14|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
 A Archaeological Efficiency|QID|50043|PRE|47329|M|43.90,72.14|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
