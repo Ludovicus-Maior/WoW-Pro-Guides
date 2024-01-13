@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EliHordeExile', 'Leveling', "Exile's Reach!Instance", 'Elidion', 'Horde')
+local guide = WoWPro:RegisterGuide('EliHordeExile', 'Leveling', "Exile's Reach#1409!Instance", 'Elidion', 'Horde')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide,"Exile's Reach")
