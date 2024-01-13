@@ -42,10 +42,10 @@ A Artifact Specific Quest|QID|41919^42501^40847|M|41.44,78.08|N|From one of the 
 A No Sanctuary|QID|42502|M|42.40,76.02|N|From Princess Tess Greymane.|PRE|42501|
 C Finishing the Job|QID|42501|QO|1|M|49.55,82.14|Z|Dalaran@Dalaran70|NC|N|Enter the Chamber of the Guardian.|
 C Finishing the Job|QID|42501|QO|2|M|32.03,71.37|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to Karazhan.|
-C Finishing the Job|QID|42501|QO|3|M|35.38,25.32|Z|Blasted Lands|NC|N|(Optional) Fly to Blasted Lands.|
-C Finishing the Job|QID|42501|QO|4|M|37.03,29.14|Z|Blasted Lands|N|Kill Caden Shadowgaze.|T|Caden Shadowgaze|
-C Finishing the Job|QID|42501|QO|5|M|37.03,29.09|Z|Blasted Lands|NC|N|Loot the body.|
-T Finishing the Job|QID|42501|M|37.03,29.09|Z|Blasted Lands|N|To UI Alert.|
+C Finishing the Job|QID|42501|QO|3|M|35.38,25.32|Z|17;Blasted Lands|NC|N|(Optional) Fly to Blasted Lands.|
+C Finishing the Job|QID|42501|QO|4|M|37.03,29.14|Z|17;Blasted Lands|N|Kill Caden Shadowgaze.|T|Caden Shadowgaze|
+C Finishing the Job|QID|42501|QO|5|M|37.03,29.09|Z|17;Blasted Lands|NC|N|Loot the body.|
+T Finishing the Job|QID|42501|M|37.03,29.09|Z|17;Blasted Lands|N|To UI Alert.|
 C No Sanctuary|QID|42502|QO|3|M|86.92,73.74|Z|Duskwood|NC|N|(Optional) Fly to Duskwood.|
 C No Sanctuary|QID|42502|QO|4|M|19.06,53.99|Z|Duskwood|N|Up the stairs, first room on the right.|
 C No Sanctuary|QID|42502|QO|5|M|19.06,53.99|Z|Duskwood|NC|N|Loot the body.|

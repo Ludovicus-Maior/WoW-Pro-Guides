@@ -140,6 +140,6 @@ A Remember the Light|QID|24913|PRE|27902|M|26.94,33.74|Z|51;Swamp of Sorrows|N|F
 C Remember the Light|QID|24913|M|27.01,33.80|Z|51;Swamp of Sorrows|N|Wait and watch the scene.|
 T Remember the Light|QID|24913|M|26.89,33.76|Z|51;Swamp of Sorrows|N|To Anchorite Avuun.|
 R Blasted Lands|QID|28673|M|37.28,63.62;36.12,73.12|CC|Z|51;Swamp of Sorrows|N|Run to the Blasted Lands.|
-R Nethergarde Keep|QID|28673|M|49.05,7.51;49.08,11.69;51.14,14.06;53,16;57.26,16.29|Z|Blasted Lands|CC|N|Run to Nethergarde Keep.|
+R Nethergarde Keep|QID|28673|M|49.05,7.51;49.08,11.69;51.14,14.06;53,16;57.26,16.29|Z|17;Blasted Lands|CC|N|Run to Nethergarde Keep.|
 ]]
 end)
