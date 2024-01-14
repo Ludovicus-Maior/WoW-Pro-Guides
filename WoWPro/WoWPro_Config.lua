@@ -759,8 +759,23 @@ local function createMainConfig()
                         end
                     end
             },
-            doFlight = {
+            doDungeons = {
                 order = 24,
+                type = "toggle",
+                name = L["Skip Dungeon Quests"],
+                desc = L["Skips dungeon-specific quests outside Dungeon guides."],
+                get = function(info) return WoWProCharDB.EnableDungeons end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableDungeons then
+                            WoWProCharDB.EnableDungeons = false
+                        else
+                            WoWProCharDB.EnableDungeons = true
+                        end
+                    end,
+                width = "double"
+            },
+            doFlight = {
+                order = 25,
                 type = "toggle",
                 name = L["Skip Flights"],
                 desc = L["Skips most flight steps when you have flying in that zone."],
@@ -771,26 +786,10 @@ local function createMainConfig()
                         else
                             WoWProCharDB.EnableFlight = true
                         end
-                    end,
-                width = "full"
-            },
-            doDungeons = {
-                order = 24,
-                type = "toggle",
-                name = L["Enable Dungeon Quests"],
-                desc = L["Skips dungeon-specific quests outside Dungeon guides."],
-                get = function(info) return WoWProCharDB.EnableDungeons end,
-                set = function(info,val)
-                        if WoWProCharDB.EnableDungeons then
-                            WoWProCharDB.EnableDungeons = false
-                        else
-                            WoWProCharDB.EnableDungeons = true
-                        end
-                    end,
-                width = "full"
+                    end
             },
             grank = {
-                order = 25,
+                order = 26,
                 type = "range",
                 name = L["Global Rank (Difficulty/Completeness)"],
                 desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
@@ -804,7 +803,7 @@ local function createMainConfig()
                 width = "double"
             },
             trank = {
-                order = 26,
+                order = 27,
                 type = "range",
                 name = L["Toon Rank (Difficulty/Completeness)"],
                 desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],

@@ -2162,7 +2162,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Complete Dungeon A steps if we dont want them
-            if WoWPro.dungeon[guideIndex] and (not  WoWProCharDB.EnableDungeons) then
+            if WoWPro.dungeon[guideIndex] and (WoWProCharDB.EnableDungeons) then
                 WoWPro.CompleteStep(guideIndex,"No optional Dungeon quests desired")
                 skip = true
                 break
