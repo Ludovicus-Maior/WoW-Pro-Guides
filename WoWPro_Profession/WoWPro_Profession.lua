@@ -7,6 +7,7 @@
 
 WoWPro.Profession = WoWPro:NewModule("Profession")
 WoWPro:Embed(WoWPro.Profession)
+WoWPro.Profession.Version = WoWPro.GetAddOnMetadata("WoWPro_Profession", "Version")
 
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
