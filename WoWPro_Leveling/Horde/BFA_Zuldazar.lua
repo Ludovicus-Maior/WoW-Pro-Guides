@@ -803,8 +803,8 @@ A Skycaller Soltok|QID|49680|PRE|49940|M|47.24,24.95|Z|0862;Zuldazar|N|From Blad
 A The Sethrak Incursion|QID|49679|PRE|49940|M|47.33,25.17|Z|0862;Zuldazar|N|From Beastmother Jabati.|RANK|2|
 C The Sethrak Incursion|QID|49679|M|44.45,25.00|Z|0862;Zuldazar|N|Kill Sethrak Invaders.|S|
 C I Spy a Spire|QID|49678|M|45.14,24.06|Z|0862;Zuldazar|N|Destroy Sethrak Spires.|H|S|
-A Lil' Tika|QID|49681|M|46.22,23.34|Z|0862;Zuldazar|N|From Lil' Tika.|RANK|2|
-C Lil' Tika|QID|49681|QO|1|M|46.22,23.34|Z|0862;Zuldazar|N|Release Lil' Tika.|H|
+A Lil' Tika|QID|49681|M|46.23,23.33|Z|0862;Zuldazar|N|From Lil' Tika.|RANK|2|
+C Lil' Tika|QID|49681|QO|1|M|46.23,23.33|Z|0862;Zuldazar|N|Release Lil' Tika.|H|
 K Warcrawler Karkithiss|QID|50438|QO|1|M|43.95,25.48|Z|0862;Zuldazar|N|Silver Elite to kill for azerite power and resources.|T|Warcrawler Karkithiss|RANK|2|RARE| ;no drop listed on wowhead
 C Lil' Tika|QID|49681|QO|2|M|45.36,26.40|Z|0862;Zuldazar|N|Find Lil' Tika's master inside the house that Skycaller Soltok is at the top of.\n[color=FF0000]NOTE: [/color]Watch your back as you'll get rushed by 2 mobs when you do it.|H|
 K Skycaller Soltok|QID|49680|QO|1|M|45.06,26.15;45.31,26.25|CS|Z|0862;Zuldazar|N|Kill Skycaller Soltok.|T|Skycaller Soltok|RANK|2|
@@ -815,8 +815,7 @@ T Skycaller Soltok|QID|49680|M|47.25,24.95|Z|0862;Zuldazar|N|To Bladeguard Sonji
 T The Sethrak Incursion|QID|49679|M|47.33,25.14|Z|0862;Zuldazar|N|To Beastmother Jabati.|
 T Lil' Tika|QID|49681|M|47.33,25.14|Z|0862;Zuldazar|N|To Beastmother Jabati.|
 ;A Bargain of Blood
-H The Great Seal|AVAILABLE|47512|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]Manually check this step off to take the flightpath at Scroll of Flight.|
-;J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|JUMP|EliEndgame|
+H The Great Seal|AVAILABLE|47512|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.|
 J War Campaign|AVAILABLE|52749|N|You can start the War Campaign at level 35 and do the introduction questline.\n[color=FF0000]NOTE: [/color]Click here to open that guide or manually check this step off to continue.|JUMP|EmmHWarCampaign|LVL|35|
 D The End.|N|This concludes Zuldazar. The Nazmir guide will automatically load when you check this step off.|
 ]]
