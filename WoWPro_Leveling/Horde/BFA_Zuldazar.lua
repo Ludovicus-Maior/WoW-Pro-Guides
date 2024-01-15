@@ -16,6 +16,11 @@ A The Great Sea Scrolls|QID|53476|N|From Ancient Pilgrimage Scrollcasing looted 
 U The Great Sea Scrolls|ACTIVE|53476|N|Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover if it's a duplicate or if it counts towards the quest.|U|163852|O|
 t The Great Sea Scrolls|QID|53476|M|71.50,30.36|N|When it's convenient, fly to Scaletrader Post and turn this in to Collector Kojo. The reward is a Spec appropriate helm.|S!US|
 
+; Learn flying skill @ lv 30
+H The Great Seal|ACTIVE|75874|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearth to return to Dazar'alor.|
+t Time to Fly|QID|75874|M|45.77,36.31|Z|1165;Dazar'alor|N|To Beast Handler Kalatak.|
+N Return to where you were|AVAILABLE|-75874|ACTIVE|-75874|M|PLAYER|N|Now that you have flying, you can return to where you were (Or use a FP to get closer).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|1165;Dazar'alor|
+
 T Zuldazar|QID|47514|M|57.80,44.31|Z|0862;Zuldazar|N|To Princess Talanji.|
 A Trust of a King|QID|49615|PRE|47514|M|57.80,44.31|Z|0862;Zuldazar|N|From Princess Talanji.| ; ** Storyline - Of Prophecies and Prophets
 A The War Campaign|QID|52749|M|40.11,71.67|Z|1164;Hall of Croniclers|N|From Nathanos Blightcaller.|LVL|35|NA|
@@ -192,7 +197,7 @@ R Tal'gurub|AVAILABLE|49810|ACTIVE|48897|M|54.37,6.12;59.20,2.56;61.92,7.18|CS|Z
 R Savagelands|AVAILABLE|49810|M|67.25,30.65|Z|0862;Zuldazar|N|Cut through Tal'gurub and exit from Speakers' Step.|RANK|2|
 K Umbra'jin|QID|47567|QO|1|M|70.31,32.98;71.46,32.35|CS|Z|0862;Zuldazar|ITEM|161091|N|Silver Elite to kill for azerite power and resources.|T|Umbra'jin|RANK|2|RARE|
 R Scaletrader Post|AVAILABLE|49810|M|69.76,31.88;70.65,29.89|CS|Z|0862;Zuldazar|N|Run Up the hill.|RANK|2|
-f Scaletrader Post|AVAILABLE|49810|M|70.78,29.58|Z|0862;Zuldazar|N|At Scroll of Flight.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|RANK|2|
+f Scaletrader Post|AVAILABLE|49810|M|70.78,29.58|Z|0862;Zuldazar|N|At Scroll of Flight.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|IZ|Scaletrader Post|
 F The Sliver|AVAILABLE|49810|M|70.78,29.58|Z|0862;Zuldazar|N|At Scroll of Flight.|RANK|2|
 K Gahz'ralka|QID|50439|QO|1|M|62.61,32.86;63.22,32.56;64.28,32.70|CS|Z|0862;Zuldazar|ITEM|161043|N|Silver Elite can be found under the bridge. Loot for azerite power and resources.|T|Gahz'ralka|RANK|2|RARE|
 A Monstrous Matchmaker|QID|49810|M|62.96,33.81;64.13,35.37|CS|Z|0862;Zuldazar|N|From Witch Doctor Jangalar.|RANK|2|
@@ -202,11 +207,11 @@ T Monstrous Matchmaker|QID|49810|M|64.13,35.37|Z|0862;Zuldazar|N|From Witch Doct
 A The Scent for a Brutosaur|QID|49814|PRE|49810|M|64.13,35.37|Z|0862;Zuldazar|N|From Witch Doctor Jangalar.|RANK|2|
 A They Say It's a Delicacy|QID|50154|PRE|49810|M|64.13,35.37|Z|0862;Zuldazar|N|From Witch Doctor Jangalar.|RANK|2|
 A Aggressive Mating Strategy|QID|49801|PRE|49810|M|64.07,35.47|Z|0862;Zuldazar|N|From Cala Cruzpot.|RANK|2|
-C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|Z|0862;Zuldazar|N|Collect Fragrant Rushes as you go.|H|S|
+C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|Z|0862;Zuldazar|N|Collect Fragrant Rushes.|H|S|
 C They Say It's a Delicacy|QID|50154|M|62.74,39.69|Z|0862;Zuldazar|ITEM|155917|N|any Diemetradon around The Slough.\n[color=FF0000]NOTE: [/color]Be aware of the lv 120 Lurking Diemetradons among the lower level mobs.|S|
 C Aggressive Mating Strategy|QID|49801|M|63.70,41.19|Z|0862;Zuldazar|ITEM|155904|N|any Razorwing mob around The Slough.|
 C They Say It's a Delicacy|QID|50154|M|62.74,39.69|Z|0862;Zuldazar|ITEM|155917|N|any Diemetradon around The Slough.\n[color=FF0000]NOTE: [/color]Be aware of the lv 120 Lurking Diemetradons among the lower level mobs.|US|
-C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|Z|0862;Zuldazar|N|Finish collecting Fragrant Rushes as you go back.|H|US|
+C The Scent for a Brutosaur|QID|49814|M|62.40,39.55|Z|0862;Zuldazar|N|Finish collecting Fragrant Rushes.|H|US|
 T Aggressive Mating Strategy|QID|49801|M|64.07,35.47|Z|0862;Zuldazar|N|To Cala Cruzpot.|
 T They Say It's a Delicacy|QID|50154|M|64.13,35.37|Z|0862;Zuldazar|N|To Witch Doctor Jangalar.|
 T The Scent for a Brutosaur|QID|49814|M|64.13,35.37|Z|0862;Zuldazar|N|To Witch Doctor Jangalar.|
@@ -235,7 +240,7 @@ C The Head of Her Enemy|QID|50297|QO|2|M|64.17,39.10|Z|0862;Zuldazar|N|Click on 
 C The Head of Her Enemy|QID|50297|QO|3|M|64.17,39.10|Z|0862;Zuldazar|N|Watch them fall in love (hearts appear)|NC|
 T The Head of Her Enemy|QID|50297|M|64.13,35.37|Z|0862;Zuldazar|N|To Witch Doctor Jangalar back at the camp.|
 ; end of R2 chain
-H The Great Seal|ACTIVE|50881|M|48.78,71.83|Z|1163;The Great Seal|N|Hearth or run over to The Sliver and fly back at Ripa the Wind Ripper.|RANK|2|
+H The Great Seal|ACTIVE|50881|M|48.78,71.83|Z|1163;The Great Seal|N|Hearth, or run over to The Sliver and fly back at Ripa the Wind Ripper.|RANK|2|
 R The Golden Throne|ACTIVE|50881&47432|M|51.36,40.95|Z|1165;Dazar'alor|N|Use the Pa'ku Totem to the Golden Throne.|
 R The Golden Throne|ACTIVE|50881&48897|M|74.39,72.17;68.22,59.67|CS|Z|1164;Hall of Croniclers|N|Up the Elevator to the Golden Throne.|
 T Royal Report|QID|50881|M|50.02,46.55|Z|1165;Dazar'alor|N|To Habutu.|
@@ -260,8 +265,8 @@ f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|Z|0862;Zuldazar|N|At Paku'ai Verraki
 T The Orphaned Hatchling|QID|47226|M|66.81,42.50|Z|0862;Zuldazar|N|To Beastlord L'kala.|
 A Direhorn Daycare|QID|47259|PRE|47226|M|66.81,42.50|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
 A Ravenous Landsharks|QID|48527|PRE|47226|M|66.81,42.50|Z|0862;Zuldazar|N|From Beastlord L'kala.|RANK|2|
-C Ravenous Landsharks|QID|48527|M|68.81,48.09|Z|0862;Zuldazar|N|Kill Irritable Diemetradons as you go.|S|
-C Direhorn Daycare|QID|47259|M|69.10,44.91|Z|0862;Zuldazar|N|Click on the soothing lilybud bushes to feed your Direhorn Hatchling as you go.|H|S|
+C Ravenous Landsharks|QID|48527|M|68.81,48.09|Z|0862;Zuldazar|N|Kill Irritable Diemetradons.|S|
+C Direhorn Daycare|QID|47259|M|69.10,44.91|Z|0862;Zuldazar|N|Click on the soothing lilybud bushes to feed your Direhorn Hatchling.|H|S|
 K Kandak|QID|48543|QO|1|M|68.66,48.72|Z|0862;Zuldazar|ITEM|160984|N|Silver Elite to kill for azerite power and resources.|T|Kandak|RANK|2|RARE|
 C Direhorn Daycare|QID|47259|M|69.10,44.91|Z|0862;Zuldazar|N|Finish satiating your hatchling.|H|US|
 C Ravenous Landsharks|QID|48527|M|68.81,48.09|Z|0862;Zuldazar|N|Finish your quota of Irritable Diemetradons.|US|
@@ -272,7 +277,7 @@ A Direhorn Growth Hormone|QID|47272|PRE|47259&48527|M|66.80,42.58|Z|0862;Zuldaza
 A WANTED: Jabra'kan|QID|51980|M|69.05,40.83|Z|0862;Zuldazar|N|From Wanted Poster.|RANK|2|
 A Queenfeather|QID|47312|M|69.01,40.68|Z|0862;Zuldazar|N|From Wingrider Nivek.|RANK|2|
 C Headbutting 101|QID|47311|M|70.42,40.31|Z|0862;Zuldazar|N|Use the Extra Action button to command your Hatchling to fight your target.|S|
-C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|Z|0862;Zuldazar|N|Pick up the Steaming Fresh Carrion from the ground as you go.|H|S|
+C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|Z|0862;Zuldazar|N|Pick up the Steaming Fresh Carrion from the ground.|H|S|
 C Queenfeather|QID|47312|M|71.37,40.69|Z|0862;Zuldazar|N|Kill Queenfeather and loot her Plume.|
 l Golden Ravasaur Egg|QID|50311^50308|M|71.69,41.28|Z|0862;Zuldazar|L|156963|ITEM|156963|N|any Ravasaur in the Feeding Grounds.|RANK|2|
 $ Mysterious Trashpile|QID|50311^50308|M|71.69,41.28|Z|0862;Zuldazar|N|Click on the Trashpile to summon Jani. Offer to give Jani the Golden Egg and he'll leave a treasure for you in exchange.\n[color=FF0000]NOTE: [/color]Don't forget to grab your treasure.|BUFF|262169|CHAT|RANK|2|
@@ -346,7 +351,7 @@ T Predatory|QID|47585|M|67.50,17.62|Z|0862;Zuldazar|N|To Huntmaster Vol'ka.|
 A Hunting the Hunter|QID|47586|PRE|50466&47583&47584&47585|M|67.50,17.62|Z|0862;Zuldazar|N|From Huntmaster Vol'ka.|RANK|2|
 T Hunt for King K'tal|QID|47706|M|67.50,17.62|Z|0862;Zuldazar|N|To Huntmaster Vol'ka.|
 T He's Gone Mad!|QID|50466|M|67.50,17.62|Z|0862;Zuldazar|N|To Huntmaster Vol'ka.|
-f Nesingwary's Gameland|ACTIVE|47586|M|66.18,17.57|Z|0862;Zuldazar|N|At Lasa the Galerider.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|RANK|2|
+f Nesingwary's Gameland|ACTIVE|47586|M|66.18,17.57|Z|0862;Zuldazar|N|At Lasa the Galerider.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|IZ|Nesingwary's Gameland|
 $ Mysterious Trashpile|AVAILABLE|50332|M|66.20,16.59|Z|0862;Zuldazar|N|Click on the Mysterious Trashpile to summon Jani who has a quest for you.|RANK|2|BUFF|262409|
 A Big Hunter Mon|QID|50332|M|66.20,16.59|Z|0862;Zuldazar|N|From Jani.|RANK|2|
 R Big Hunter Mon|ACTIVE|50332|QO|1|M|67.73,17.86|Z|0862;Zuldazar|N|Nesingwary's Stores reached. Use sprint and avoid the Eyes of Yazma.|
@@ -387,7 +392,7 @@ T A Port in Peril|QID|49122|M|47.92,60.44|Z|0862;Zuldazar|N|To Zolani.|
 A Wrath of the Zandalari|QID|49144|PRE|49122|M|47.92,60.44|Z|0862;Zuldazar|N|From Zolani.|
 A No Troll Left Behind|QID|49145|PRE|49122|M|47.87,60.44|Z|0862;Zuldazar|N|From Habutu.|
 A Spirits' Belongings|QID|49146|PRE|49122|M|47.14,60.47|Z|0862;Zuldazar|N|From Kaza'jin the Wavebinder.|
-C Wrath of the Zandalari|QID|49144|M|46.40,60.68|Z|0862;Zuldazar|N|Kill Mogu Invaders as you go.|S|
+C Wrath of the Zandalari|QID|49144|M|46.40,60.68|Z|0862;Zuldazar|N|Kill Mogu Invaders.|S|
 C No Troll Left Behind|QID|49145|M|45.29,60.91|Z|0862;Zuldazar|N|Use the skull whistle to rally the Rastari Defenders.\n[color=FF0000]NOTE: [/color]Clicking on the Crude Barricades will give credit as well.|U|153524|NC|S|
 C Spirits' Belongings|QID|49146|QO|2|M|46.79,61.83|Z|0862;Zuldazar|N|Click on the Grimoire of the Other Side|H|
 C Spirits' Belongings|QID|49146|QO|1|M|45.61,60.36|Z|0862;Zuldazar|N|Up the stairs to find the Reclaimed Bijous.\n[color=FF0000]NOTE: [/color]A Rastari Defender will call to you when you get close.|H|
@@ -400,8 +405,8 @@ T Spirits' Belongings|QID|49146|M|48.08,60.38|Z|0862;Zuldazar|N|To Kaza'jin the 
 A Embrace the Voodoo|QID|49149|PRE|49144&49146&49145|M|48.08,60.38|Z|0862;Zuldazar|N|From Kaza'jin the Wavebinder.|
 A Crumbling Apart|QID|49148|PRE|49144&49146&49145|M|47.92,60.45|Z|0862;Zuldazar|N|From Zolani.|
 A Show of Strength|QID|49147|PRE|49144&49146&49145|M|47.86,60.44|Z|0862;Zuldazar|N|From Habutu.|
-C Crumbling Apart|QID|49148|M|45.98,64.94|Z|0862;Zuldazar|N|Kill Stormbound Conquerors as you go.|S|
-C Embrace the Voodoo|QID|49149|M|49.46,66.55|Z|0862;Zuldazar|N|Click on the Spirit Obelisk to activate as you go.|H|S|
+C Crumbling Apart|QID|49148|M|45.98,64.94|Z|0862;Zuldazar|N|Kill Stormbound Conquerors.|S|
+C Embrace the Voodoo|QID|49149|M|49.46,66.55|Z|0862;Zuldazar|N|Click on the Spirit Obelisk to activate.|H|S|
 K Jao-Ti the Thunderous|ACTIVE|49147|QO|1|M|48.08,64.55|Z|0862;Zuldazar|N|Kill Jao-Ti the Thunderous.|
 K Torraske the Eternal|QID|49004|QO|1|M|46.68,65.30|Z|0862;Zuldazar|ITEM|161029|N|Silver Elite to loot for azerite power and resources.|T|Torraske the Eternal|RANK|2|RARE|
 K Subjugator Zheng|QID|49147|QO|2|M|47.86,67.31;45.88,66.52|CS|Z|0862;Zuldazar|N|Kill Zheng up one level of the terraces.|
@@ -425,7 +430,7 @@ R Terrace of Crafters|ACTIVE|47509|M|43.09,34.59|Z|1165;Dazar'alor|N|Run down ma
 T Terrace of the Chosen|QID|47509|M|42.64,21.41|Z|1165;Dazar'alor|N|To Kaza'jin the Wavebinder.|
 A Zanchuli Traitors|QID|47897|PRE|47509|M|42.64,21.41|Z|1165;Dazar'alor|N|From Kaza'jin the Wavebinder.|
 A Rescuing the Taken|QID|47915|PRE|47509|M|42.64,21.41|Z|1165;Dazar'alor|N|From Kaza'jin the Wavebinder.|
-C Zanchuli Traitors|QID|47897|M|41.50,17.92|Z|1165;Dazar'alor|N|Kill Zanchuli traitors as you go.|S|
+C Zanchuli Traitors|QID|47897|M|41.50,17.92|Z|1165;Dazar'alor|N|Kill Zanchuli traitors.|S|
 C Rescuing the Taken|QID|47915|M|43.54,17.71|Z|1165;Dazar'alor|N|Kill Hexmother Kala for the Fetish of Loti.|T|Hexmother Kala|
 C Zanchuli Traitors|QID|47897|M|41.50,17.92|Z|1165;Dazar'alor|N|Finish off your quota of Zanchuli traitors.|US|
 T Zanchuli Traitors|QID|47897|M|39.31,13.85|Z|1165;Dazar'alor|N|To Wardruid Loti.|
@@ -444,7 +449,7 @@ T Midnight in the Garden of the Loa|QID|47521|M|50.70,29.66|Z|0862;Zuldazar|N|To
 ;A Rituals of Heresy|QID|47527|PRE|47521|M|50.70,29.66|Z|0862;Zuldazar|N|Bonus Objective. Autoaccepted.|LVL|-50| ; Not required - Hendo72
 A The Hunter|QID|47522|PRE|47521|M|50.70,29.66|Z|0862;Zuldazar|N|From Wardruid Loti.|
 A The Ancient One|QID|47963|PRE|47521|M|50.69,29.56|Z|0862;Zuldazar|N|From Hexlord Raal.|
-C Rituals of Heresy|QID|47527|M|50.70,29.66|Z|0862;Zuldazar|N|Bonus Objective. Disrupt the blood rituals as you go.|S|
+C Rituals of Heresy|QID|47527|M|50.70,29.66|Z|0862;Zuldazar|N|Bonus Objective. Disrupt the blood rituals.|S|
 C The Ancient One|QID|47963|QO|1|M|50.30,31.17;52.15,32.59|CS|Z|0862;Zuldazar|N|Kill the 4 Shadra Betrayers surrounding Pa'ku to rescue her.|
 T The Ancient One|QID|47963|M|52.11,32.84|Z|0862;Zuldazar|N|To Pa'ku.|
 R The Hunter|ACTIVE|47522|M|48.46,32.02|CC|Z|0862;Zuldazar|N|Locate Gonk.|
@@ -465,8 +470,8 @@ R Temple of the Prophet|ACTIVE|49917|M|49.20,35.82|Z|0862;Zuldazar|N|Continue al
 f Temple of the Prophet|ACTIVE|49917|M|49.82,44.59|Z|0862;Zuldazar|N|At Kaza the Skyblade by the south entrance.\n[color=FF0000]NOTE: [/color]You can either fight through the Temple or take the road around to the other side.\nOpen the flight map to discover the flightpath.|
 A WANTED: Prime Thumpknuckle|QID|51072|M|49.18,44.91;52.28,43.95;51.62,45.43|CS|Z|0862;Zuldazar|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom the Wanted: Dangerous Beasts poster.|RANK|2|
 A WANTED: Sabertusk Empress|QID|51071|M|51.62,45.43|Z|0862;Zuldazar|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nFrom Wanted Poster.|RANK|2|
-K Prime Thumpknuckle|ACTIVE|51072|QO|1|M|52.32,45.12|Z|0862;Zuldazar|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nPrime Thumpknuckle (lv 25 elite) wanders around a bit, but his cave is located here.|T|Prime Thumpknuckle|RANK|2|
-K Sabertusk Empress|ACTIVE|51071|QO|1|M|52.26,47.46;46.78,56.16|CN|Z|0862;Zuldazar|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nSabertusk Empress (lv 25 elite) will be in one of the two places marked on your map.|T|Sabertusk Empress|RANK|2|
+K Prime Thumpknuckle|ACTIVE|51072|QO|1|M|52.32,45.12|Z|0862;Zuldazar|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nPrime Thumpknuckle (lv 25 elite) wanders around a bit, but his cave is located here.|T|Prime Thumpknuckle|
+K Sabertusk Empress|ACTIVE|51071|QO|1|M|52.26,47.46;46.78,56.16|CN|Z|0862;Zuldazar|ELITE|N|[color=00FFFF]Group of 3 suggested or level up to solo[/color]\nSabertusk Empress (lv 25 elite) will be in one of the two places marked on your map.|T|Sabertusk Empress|
 $ Riches of Tor'Nowa|QID|51624|M|52.12,48.16;52.96,47.20|CS|Z|0862;Zuldazar|N|Pass between the two trees and follow the small path (ledge) to find some treasure.\nLoot for azerite power and resources.|RANK|2|
 R Village in the Vines|ACTIVE|49917|M|52.88,50.54|Z|0862;Zuldazar|N|Run back to the Old Merchant Road and continue following it roughly south to The Village in the Vines.|
 T Kaja'mite? Kaja'must!|QID|49917|M|51.60,50.58|Z|0862;Zuldazar|N|To Bently Greaseflare.|
@@ -478,7 +483,7 @@ K Syrawon the Dominus|QID|51080|QO|1|M|53.43,48.20;53.93,44.84;53.42,44.67|CS|Z|
 R Return to the main road|ACTIVE|49919|AVAILABLE|-51080|M|52.84,49.20|CC|Z|0862;Zuldazar|N|Head back to the road.|RANK|3|
 R Gorilla Gorge|ACTIVE|49919|M|52.47,51.84;51.36,53.83|CS|Z|0862;Zuldazar|N|A little farther down the road and around the corner.|
 ;A Gorilla Gorge|QID|49918|M|51.54,52.97|Z|0862;Zuldazar|N|Bonus Objective. Autoaccepted.|LVL|-50|RANK|2|
-C Gorilla Gorge|QID|49918|M|51.54,52.97|Z|0862;Zuldazar|N|Bonus Objective. Kill Gorillas as you go.|S|
+C Gorilla Gorge|QID|49918|M|51.54,52.97|Z|0862;Zuldazar|N|Bonus Objective. Kill Gorillas.|S|
 C Kaja'mite Ore Bust|QID|49919|M|48.03,52.68|Z|0862;Zuldazar|N|Click on the Kaja'mite Steam Vents to scan.|H|S|
 A Gorilla Warfare|QID|49920|M|50.17,54.56|Z|0862;Zuldazar|N|From Tsunga.|RANK|2|
 C Gorilla Warfare|QID|49920|M|48.03,52.34|Z|0862;Zuldazar|N|Click on the cages to free the Peace-Loving Gorillas.|H|S|
@@ -562,7 +567,7 @@ l Scrollhunters|QID|49288|QO|1|M|77.95,64.40|Z|0862;Zuldazar|ITEM|153022|N|the N
 T Scrollhunters|QID|49288|M|75.23,61.48|Z|0862;Zuldazar|N|To Deyon.|
 T Lost Chelonians|QID|49287|M|75.23,61.48|Z|0862;Zuldazar|N|To Deyon.|
 A A Special Stone|QID|49289|PRE|49288&49287|M|75.23,61.48|Z|0862;Zuldazar|N|From Deyon.|RANK|2|
-l Orders from Nazjatar|ACTIVE|49289|QO|1|M|76.74,61.32|Z|0862;Zuldazar|ITEM|157543|N|Tidemistress Nazesh|T|Tidemistress Nazesh|RANK|2|
+l Orders from Nazjatar|ACTIVE|49289|QO|1|M|76.74,61.32|Z|0862;Zuldazar|ITEM|157543|N|Tidemistress Nazesh|T|Tidemistress Nazesh|
 C A Special Stone|QID|49289|QO|2|M|76.67,61.42|Z|0862;Zuldazar|N|Pick up the Stone Fragment.|H|
 T A Special Stone|QID|49289|M|75.21,61.49|Z|0862;Zuldazar|N|To Deyon.|
 A Find Their Words|QID|51407|PRE|49289|M|75.21,61.49|Z|0862;Zuldazar|N|From Deyon after a brief pause.\n[color=FF0000]NOTE: [/color]You can use the provided portal or run back to Akru.|RANK|2|
@@ -595,7 +600,7 @@ K G'Naat|QID|50260|QO|1|M|80.02,35.88|Z|0862;Zuldazar|N|Silver Elite to kill for
 l Chunk of Naga Flesh|QID|49969|QO|1|M|81.29,39.73|Z|0862;Zuldazar|ITEM|156539|N|Dreadcoil Myrmidons and Seekers\n[color=FF0000]NOTE: [/color]fun sidebar: Grallian idols scattered around in the ocean, changes you into a shark and grants waterbreathing.|US|
 T Awaken a God|QID|49969|M|82.77,42.32|Z|0862;Zuldazar|N|To Gral's Offering Vessel.|
 A Beneath the Waves|QID|48026|PRE|49969|M|82.83,42.32|Z|0862;Zuldazar|N|From Shrine of Gral.|RANK|2|
-K Summoner Siavass|ACTIVE|48026|QO|2|M|83.60,44.27|Z|0862;Zuldazar|N|Kill Summoner Siavass and the Whispering Horror.|T|Summoner Siavass|RANK|2|
+K Summoner Siavass|ACTIVE|48026|QO|2|M|83.60,44.27|Z|0862;Zuldazar|N|Kill Summoner Siavass and the Whispering Horror.|T|Summoner Siavass|
 T Beneath the Waves|QID|48026|M|PLAYER|N|To Spirit of Gral.|
 A Word from the Deep|QID|51538|PRE|48026|M|PLAYER|N|From Spirit of Gral.|RANK|2|
 T Word from the Deep|QID|51538|M|79.20,42.10|Z|0862;Zuldazar|N|To Scrollsage Goji.|
@@ -609,15 +614,15 @@ A The Wreckoning|QID|51246|M|76.61,48.54|Z|0862;Zuldazar|N|From Lieutenant Denni
 A The Things They Carried|QID|51247|M|76.61,48.54|Z|0862;Zuldazar|N|From Lieutenant Dennis Grimtale.|RANK|2|
 A Productive Pests|QID|51248|M|76.43,48.72|Z|0862;Zuldazar|N|From Teekay Treadlebobbin.|RANK|2|
 A Crabulous Feast|QID|51249|M|76.38,48.74|Z|0862;Zuldazar|N|From J'eebi.|RANK|2|
-C Productive Pests|QID|51248|M|74.44,51.45|Z|0862;Zuldazar|N|Collect Mosquitos and Sand Borers by clicking on them as you go.|H|S|
-C Crabulous Feast|QID|51249|M|74.45,51.11|Z|0862;Zuldazar|N|Kill and loot the Derelict Hexapods as you go.|S|
-C The Wreckoning|QID|51246|M|74.92,51.07|Z|0862;Zuldazar|N|Kill 7th Legion Sailors as you go.|S|
-K Sailor Jaseon|ACTIVE|51247|QO|2|M|76.67,50.99|Z|0862;Zuldazar|N|Kill Sailor Jaseon to loot the scouting map.|T|Sailor Jaseon|RANK|2|
-K Medic Hunt|ACTIVE|51247|QO|1|M|76.46,52.68|Z|0862;Zuldazar|N|Kill Medic Hunt and loot the Unsent Letter.|T|Medic Hunt|RANK|2|
-K Sergeant Wayne|ACTIVE|51247|QO|3|M|74.54,51.73|Z|0862;Zuldazar|N|Sergeant Wayne to loot the Ship's Manifest.|T|Sergeant Wayne|RANK|2|
-C Productive Pests|QID|51248|M|74.44,51.45|Z|0862;Zuldazar|N|Finish collecting Mosquitos and Sand Borers by clicking on them.|H|US|
-C Crabulous Feast|QID|51249|M|74.45,51.11|Z|0862;Zuldazar|N|Finish collecting the crab meat.|US|
-C The Wreckoning|QID|51246|M|74.92,51.07|Z|0862;Zuldazar|N|Fulfill your quota of 7th Legion Sailors.|US|
+C Productive Pests|QID|51248|QO|1|M|74.44,51.45|Z|0862;Zuldazar|N|Collect Mosquitos and Sand Borers by clicking on them.|H|S|
+l Large Lump of Crab Meat|ACTIVE|51249|QO|1|M|74.45,51.11|Z|0862;Zuldazar|ITEM|159934|N|Derelict Hexapods|S|
+K The Wreckoning|ACTIVE|51246|QO|1|M|74.92,51.07|Z|0862;Zuldazar|N|Kill 7th Legion Sailors.|S|
+l Scouting Map|ACTIVE|51247|QO|2|M|76.67,50.99|Z|0862;Zuldazar|ITEM|159836|N|Sailor Jaseon|T|Sailor Jaseon|
+l Unsent Letter|ACTIVE|51247|QO|1|M|76.46,52.68|Z|0862;Zuldazar|ITEM|159837|N|Medic Hunt|T|Medic Hunt|
+l Ship's Manifest|ACTIVE|51247|QO|3|M|74.54,51.73|Z|0862;Zuldazar|ITEM|159835|N|Sergeant Wayne|T|Sergeant Wayne|
+C Productive Pests|QID|51248|QO|1|M|74.44,51.45|Z|0862;Zuldazar|N|Finish collecting Mosquitos and Sand Borers.|H|US|
+l Large Lump of Crab Meat|ACTIVE|51249|QO|1|M|74.45,51.11|Z|0862;Zuldazar|ITEM|159934|N|Derelict Hexapods|US|
+K The Wreckoning|ACTIVE|51246|QO|1|M|74.92,51.07|Z|0862;Zuldazar|N|Finish killing 7th Legion Sailors.|US|
 T Crabulous Feast|QID|51249|M|76.38,48.74|Z|0862;Zuldazar|N|To J'eebi.|
 T Productive Pests|QID|51248|M|76.42,48.72|Z|0862;Zuldazar|N|To Teekay Treadlebobbin.|
 T The Wreckoning|QID|51246|M|76.61,48.52|Z|0862;Zuldazar|N|To Lieutenant Dennis Grimtale.|
@@ -633,22 +638,21 @@ b Zeb'ahari|ACTIVE|51101|M|82.44,46.83|Z|0862;Zuldazar|N|Ask Wavesinger Rekan fo
 f Zeb'ahari|ACTIVE|51101|M|77.36,15.35|Z|0862;Zuldazar|N|At Paku'ai Jasi.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
 T The Wounded King|QID|51101|M|76.69,16.26|Z|0862;Zuldazar|N|To Zolani.|
 A In Bwonsamdi's Shadow|QID|51680|PRE|51101|M|76.69,16.26|Z|0862;Zuldazar|N|From Zolani.|
-C In Bwonsamdi's Shadow|QID|51680|QO|1|M|76.47,15.99|Z|0862;Zuldazar|N|Ask Jamil how it goes.|CHAT|
-C In Bwonsamdi's Shadow|QID|51680|QO|2|M|76.44,16.17|Z|0862;Zuldazar|N|Ask Jol how it goes.|
+C In Bwonsamdi's Shadow|QID|51680|QO|1|M|76.47,15.99|Z|0862;Zuldazar|N|Ask Jamil how goes the mending.|CHAT|
+C In Bwonsamdi's Shadow|QID|51680|QO|2|M|76.44,16.17|Z|0862;Zuldazar|N|Ask Jol how goes the mending.|CHAT|
 T In Bwonsamdi's Shadow|QID|51680|M|76.45,16.16|Z|0862;Zuldazar|N|To Jol the Ancient.|
 A Ancient Tortollan Remedies|QID|47735|PRE|51680|M|76.45,16.16|Z|0862;Zuldazar|N|From Jol the Ancient.|
 A The Scent of Vengeance|QID|47739|PRE|51680|M|76.47,15.99|Z|0862;Zuldazar|N|From Jamil Abul'housin.|
 A No Safe Haven|QID|50235|PRE|51680|M|76.69,16.27|Z|0862;Zuldazar|N|From Zolani.|
-C No Safe Haven|QID|50235|M|79.50,16.30|Z|0862;Zuldazar|N|Click on the Zeb'ahari villagers to rescue them as you go.|H|S|
-C The Scent of Vengeance|QID|47739|M|79.78,16.52|Z|0862;Zuldazar|N|Kill traitor's and collect their blood as you go.|S|
-C Ancient Tortollan Remedies|QID|47735|QO|2|M|78.60,13.13|Z|0862;Zuldazar|N|Click on the Brutosaur to (gently) extract a scale.|H|
-C Ancient Tortollan Remedies|QID|47735|QO|1|M|79.78,16.52|Z|0862;Zuldazar|N|Click on the Spiney Puffer.|H|
+C No Safe Haven|QID|50235|QO|1|M|79.50,16.30|Z|0862;Zuldazar|N|Click on the Zeb'ahari villagers to rescue them.|H|S|
+l The Scent of Vengeance|ACTIVE|47739|QO|1|M|79.78,16.52|Z|0862;Zuldazar|ITEM|156834|N|any Atal'zul mob.|S|
+C Brutosaur Scale|QID|47735|QO|2|M|78.60,13.13|Z|0862;Zuldazar|N|Click on the Brutosaur to (gently) extract a scale.|H|
+C Envenomed Puffer Spine|QID|47735|QO|1|M|79.78,16.52|Z|0862;Zuldazar|N|Click on the Spiney Puffer.|H|
 A The Loa-Speaker's Betrayal|QID|47733|M|79.35,16.78|Z|0862;Zuldazar|N|From Zeb'ahari Villager.|
-C No Safe Haven|QID|50235|M|79.50,16.30|Z|0862;Zuldazar|N|Click on the Zeb'ahari villagers to rescue them as you go.|H|
-K Ol'Bubbly|ACTIVE|47735|QO|3|M|79.54,21.67|Z|0862;Zuldazar|N|Kill ol'Bubbly to loot the Aged Crab Foam.|T|Ol'Bubbly|
-K Loa-Speaker Kihara|ACTIVE|47733|QO|1|M|78.54,20.29|Z|0862;Zuldazar|N|Kill Loa-Speaker Kihara.|T|Loa-Speaker Kihara|
-C The Scent of Vengeance|QID|47739|M|79.78,16.52|Z|0862;Zuldazar|N|Finish collecting the traitor's blood.|US|
-C No Safe Haven|QID|50235|M|79.50,16.30|Z|0862;Zuldazar|N|Finish rescuing the Zeb'ahari villagers.|NC|US|
+l Aged Crab Foam|ACTIVE|47735|QO|3|M|79.54,21.67|Z|0862;Zuldazar|ITEM|156827|N|Ol'Bubbly\nThe purple lobster sleeping on the beach.|T|Ol'Bubbly|
+K Loa-Speaker Kihara|ACTIVE|47733|QO|1|M|78.54,20.29|Z|0862;Zuldazar|N|Loa-Speaker Kihara is dancing by the fire.\n[color=FF0000]NOTE: [/color]She will clone herself, but they'll despawn as soon as she dies.|T|Loa-Speaker Kihara|
+l The Scent of Vengeance|ACTIVE|47739|QO|1|M|79.78,16.52|Z|0862;Zuldazar|ITEM|156834|N|any Atal'zul mob.|US|
+C No Safe Haven|QID|50235|QO|1|M|79.50,16.30|Z|0862;Zuldazar|N|Finish rescuing the Zeb'ahari villagers.|H|US|
 T No Safe Haven|QID|50235|M|76.69,16.27|Z|0862;Zuldazar|N|To Zolani.|
 T The Loa-Speaker's Betrayal|QID|47733|M|76.69,16.27|Z|0862;Zuldazar|N|To Zolani.|
 T The Scent of Vengeance|QID|47739|M|76.47,16.00|Z|0862;Zuldazar|N|To Jamil Abul'housin.|
@@ -659,7 +663,7 @@ C Mending Body and Soul|QID|51677|QO|2|M|76.46,16.07|Z|0862;Zuldazar|N|Get the t
 T Mending Body and Soul|QID|51677|M|76.44,16.16|Z|0862;Zuldazar|N|To Jol the Ancient.|
 A The Will of the Loa|QID|47738|PRE|51677|M|76.47,15.99|Z|0862;Zuldazar|N|From Jamil Abul'housin.|
 K Tambano|QID|50013|QO|1|M|77.65,10.40|Z|0862;Zuldazar|N|Silver Elite to kill for azerite power and resources.|T|Tambano|RANK|2|RARE| ;item dropped not on wowhead at this time
-C The Will of the Loa|QID|47738|QO|1|M|77.97,12.98;76.85,13.23|CS|Z|0862;Zuldazar|N|Place the Idol of Rezan.|H|
+C The Will of the Loa|QID|47738|QO|1|M|76.85,13.23|Z|0862;Zuldazar|N|Place the Idol of Rezan.|H|
 C The Will of the Loa|QID|47738|QO|2|M|77.12,13.23|Z|0862;Zuldazar|N|Speak to Rezan|CHAT|
 C The Will of the Loa|QID|47738|QO|3|M|76.90,13.22|Z|0862;Zuldazar|N|Click on Rastakhan's body, when it appears, to retrieve his soul.|H|
 C The Will of the Loa|QID|47738|QO|4|M|76.45,16.09|Z|0862;Zuldazar|N|Click on Rastakhan to restore his soul to his body|H|
@@ -667,31 +671,31 @@ T The Will of the Loa|QID|47738|M|76.66,16.13|Z|0862;Zuldazar|N|To King Rastakha
 A Zul's Mutiny|QID|47742|PRE|47738|M|76.66,16.13|Z|0862;Zuldazar|N|From King Rastakhan.|
 A Rastakhan's Might|QID|51678|PRE|47738|M|76.66,16.13|Z|0862;Zuldazar|N|From King Rastakhan.|
 A A Strange Port of Call|QID|51679|PRE|47738|M|76.64,16.18|Z|0862;Zuldazar|N|From Zolani.|
-R Rastakhan's Might|ACTIVE|51678|M|80.77,20.37|Z|0862;Zuldazar|N|Swim to Rastakhan's Might (ship off shore) and click the 2 ropes hanging down the side of the boat to get on board.|
-C Zul's Mutiny|QID|47742|M|81.28,19.74|Z|0862;Zuldazar|N|Kill the Mutinous Zandalari as you go.|S|
-C A Strange Port of Call|QID|51679|QO|1|M|81.10,20.20;81.27,19.73|CS|Z|0862;Zuldazar|N|Go through the doorway into the Navigation Chamber and click on the Temple of Rezan Map on the desk in the second room.|H|
-R A Strange Port of Call|ACTIVE|51679|QO|2|M|52.97,27.08;51.57,75.61|CS|Z|1173;Upper Decks - Rastakhan's Might|N|Go down the stairs and search the Hold.|
-C A Strange Port of Call|QID|51679|QO|3|M|43.60,82.84;47.40,43.98|CS|Z|1174;Lower Decks - Rastakhan's Might|N|Go down the stairs into the Crew quarters and then click on Chronicler To'kini.|H|
-K Atal'zul Gotaka|ACTIVE|50280|QO|1|M|80.93,21.66|Z|0862;Zuldazar|ITEM|161042|N|Silver Elite to kill for azerite power and resources.|T|Atal'zul Gotaka|RANK|2|RARE|
-K Windcaller Ula'jan|ACTIVE|51678|QO|1|M|81.29,19.67|Z|0862;Zuldazar|N|Kill Windcaller Ula'jan located at the very top of the stairs at the stern of the boat.|T|Windcaller Ula'jan|
-C Zul's Mutiny|QID|47742|M|81.28,19.74|Z|0862;Zuldazar|N|Finish killing the Mutinous Zandalari as you leave the ship.|US|
-T Zul's Mutiny|QID|47742|M|76.66,16.13|Z|0862;Zuldazar|N|Jump off the ship and head back to King Rastakhan.|
+R Rastakhan's Might|ACTIVE|51678|M|80.77,20.37|Z|0862;Zuldazar|N|Swim to Rastakhan's Might (ship off shore) and click the 2 ropes hanging down the side of the boat to get on board.|FLY|OLD|
+C Zul's Mutiny|QID|47742|M|81.28,19.74|Z|0862;Zuldazar|N|Kill the Mutinous Zandalari.|S|
+C A Strange Port of Call|QID|51679|QO|1|M|81.27,19.73|Z|0862;Zuldazar|N|Enter the first doorway to your left off the main deck into the Navigation Chamber and click on the Temple of Rezan Map on the desk in the second room.\n[color=FF0000]NOTE: [/color]You'll have to clear the two Atal'zul mobs inside the room first.|H|
+R A Strange Port of Call|ACTIVE|51679|QO|2|M|51.57,75.61|Z|1173;Upper Decks - Rastakhan's Might|N|Go down the stairs and walk towards the Mogu Weapon leaning in the northwest corner.|
+C A Strange Port of Call|QID|51679|QO|3|M|47.40,43.98|Z|1174;Lower Decks - Rastakhan's Might|N|Go down the stairs into the Crew quarters and then click on Chronicler To'kini hanging on the wall in the middle.|H|
+;K Atal'zul Gotaka|ACTIVE|50280|QO|1|M|80.93,21.66|Z|0862;Zuldazar|ITEM|161042|N|Silver Elite to kill for azerite power and resources.|T|Atal'zul Gotaka|RANK|2|RARE| ** This step doesn't work and shouldn't be in this guide anyway - Hendo72
+K Windcaller Ula'jan|ACTIVE|51678|QO|1|M|81.29,19.67|Z|0862;Zuldazar|ITEM|156861|N|Windcaller Ula'jan\nHe's located at the very top of the stairs at the stern of the boat.|T|Windcaller Ula'jan|
+C Zul's Mutiny|QID|47742|M|81.28,19.74|Z|0862;Zuldazar|N|Finish killing the Mutinous Zandalari.|US|
+T Zul's Mutiny|QID|47742|M|76.66,16.13|Z|0862;Zuldazar|N|To King Rastakhan at the House of Jol.|
 T Rastakhan's Might|QID|51678|M|76.66,16.13|Z|0862;Zuldazar|N|To King Rastakhan.|
 T A Strange Port of Call|QID|51679|M|76.66,16.13|Z|0862;Zuldazar|N|To King Rastakhan.|
 A The Temple of Rezan|QID|47737|PRE|51679&51678&47742|M|76.66,16.13|Z|0862;Zuldazar|N|From King Rastakhan.|
-R The Preserve|ACTIVE|47737|M|73.72,20.79|Z|0862;Zuldazar|N|Run up the hill to meet King Rastakhan in The Preserve.|
+R The Preserve|ACTIVE|47737|M|73.72,20.79|Z|0862;Zuldazar|N|Run up the hill to meet King Rastakhan in The Preserve.|FLY|OLD|
 T The Temple of Rezan|QID|47737|M|72.03,21.03|Z|0862;Zuldazar|N|To King Rastakhan.|
 A House of the King|QID|47740|PRE|47737|M|72.03,21.03|Z|0862;Zuldazar|N|From King Rastakhan.|
 A Heads Will Roll|QID|47736|PRE|47737|M|72.09,21.20|Z|0862;Zuldazar|N|From Zolani.|
 ;A Occupation Hazard|QID|47797|M|71.97,23.88|Z|0862;Zuldazar|N|Bonus Objective - Autoaccepted.|LVL|-50|
 C Occupation Hazard|QID|47797|M|71.97,23.88|Z|0862;Zuldazar|N|Bonus Objective - Kill the zandalari infesting the temple and otherwise liberate the temple.|S|
-C Heads Will Roll|QID|47736|M|74.04,23.94|Z|0862;Zuldazar|N|Kill Zandalari and loot their heads.|S|
-C House of the King|QID|47740|QO|1|M|72.31,23.96|Z|0862;Zuldazar|N|Click on the corrupting totems to cleanse Rezan the Hunter.|H|
-C House of the King|QID|47740|QO|3|M|74.00,22.96|Z|0862;Zuldazar|N|Click on the corrupting totems to cleanse Rezan the King.|H|
-C House of the King|QID|47740|QO|2|M|73.89,25.80|Z|0862;Zuldazar|N|Up one level of the terrace to find and then click the corrupting totems surrounding Rezan the Conqueror.|H|
+l Heads Will Roll|ACTIVE|47736|QO|1|M|74.04,23.94|Z|0862;Zuldazar|ITEM|151384|N|any Zandalari mob in Temple of Rezan|S|
+C House of the King|QID|47740|QO|1|M|72.31,23.96|Z|0862;Zuldazar|N|Click on the three corrupting totems to cleanse Rezan the Hunter.|H|
+C House of the King|QID|47740|QO|3|M|74.00,22.96|Z|0862;Zuldazar|N|Click on the three corrupting totems to cleanse Rezan the King.|H|
+C House of the King|QID|47740|QO|2|M|73.83,25.98|Z|0862;Zuldazar|N|Up one level of the terrace to find and then click the three corrupting totems surrounding Rezan the Conqueror.|H|
 K Golrakahn|ACTIVE|47792|QO|1|M|74.10,28.48|Z|0862;Zuldazar|ITEM|161034|N|Up one more terrace to find this Silver Elite to kill for azerite power and resources.|T|Golrakahn|RANK|2|RARE|
-C Heads Will Roll|QID|47736|M|74.35,27.71|Z|0862;Zuldazar|N|Finish collecting heads from the Traiterous Zandalari.|US|
-T Heads Will Roll|QID|47736|M|74.85,24.91|Z|0862;Zuldazar|N|To Zolani.|
+l Heads Will Roll|ACTIVE|47736|QO|1|M|74.04,23.94|Z|0862;Zuldazar|ITEM|151384|N|any Zandalari mob in Temple of Rezan|US|
+T Heads Will Roll|QID|47736|M|74.85,24.91|Z|0862;Zuldazar|N|To Zolani in Throne of Rezan.|
 T House of the King|QID|47740|M|74.88,24.96|Z|0862;Zuldazar|N|To King Rastakhan.|
 A Partners in Heresy|QID|47734|PRE|47736&47740|M|74.88,24.96|Z|0862;Zuldazar|N|From King Rastakhan.|
 K Darkweaver Ji'tan|ACTIVE|47734|QO|1|M|75.22,23.23|Z|0862;Zuldazar|N|Kill Darkweaver Ji'tan.|T|Darkweaver Ji'tan|
@@ -700,19 +704,19 @@ T Partners in Heresy|QID|47734|M|74.87,24.93|Z|0862;Zuldazar|N|To King Rastakhan
 A To Sacrifice a Loa|QID|47741|PRE|47734|M|74.87,24.93|Z|0862;Zuldazar|N|From King Rastakhan.|
 K Vilnak'dor|ACTIVE|47741|QO|1|M|75.95,24.85|Z|0862;Zuldazar|N|Kill Vilnak'dor.|T|Vilnak'dor|
 C To Sacrifice a Loa|QID|47741|QO|2|M|76.07,24.89|Z|0862;Zuldazar|N|Disrupt the Loa Sacrifice Ritual.|NC|
-C To Sacrifice a Loa|QID|47741|QO|3|M|73.92,27.31|Z|0862;Zuldazar|N|Tell the King it is time to go and make a run for it.\n[color=FF0000]NOTE: [/color]No need to follow Rezan. He'll go when you go (for the most part).|CHAT|
+C To Sacrifice a Loa|QID|47741|QO|3|M|73.92,27.31|Z|0862;Zuldazar|N|Tell the King it is time to go and make a run for it.\n[color=FF0000]NOTE: [/color]No need to follow Rezan; just keep him within eyesight, or he will despawn and you'll have to go back to the beginning to get him going again.|CHAT|
 C Occupation Hazard|QID|47797|M|74.07,26.93|Z|0862;Zuldazar|N|Go back and finish up the bonus objective.|US|
 ;T Occupation Hazard|QID|47797|M|74.07,26.93|Z|0862;Zuldazar|N|Bonus Objective - Autocompleted.|
 T To Sacrifice a Loa|QID|47741|M|70.82,29.90|Z|0862;Zuldazar|N|To Rezan.|
 A King or Prey|QID|51111|PRE|47741|M|70.98,29.90|Z|0862;Zuldazar|N|From King Rastakhan.|
 ;t The Great Sea Scrolls|QID|53476|M|71.50,30.38|Z|0862;Zuldazar|N|To Collector Kojo| Already have a t step at the top - Hendo72
-f Scaletrader Post|ACTIVE|51111|M|70.77,29.59|Z|0862;Zuldazar|N|At Scroll of Flight.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|RANK|-1|
+f Scaletrader Post|ACTIVE|51111|M|70.77,29.59|Z|0862;Zuldazar|N|At Scroll of Flight.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|IZ|Scaletrader Post|
 H The Great Seal|ACTIVE|51111|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]Manually check this step off to take the flightpath at Scroll of Flight.|
 F The Great Seal|ACTIVE|51111|M|70.77,29.59|Z|0862;Zuldazar|N|Take the flightpath at Scroll of Flight.|
-T Inform the Horde!|QID|51539|M|41.56,72.42|Z|1164;Hall of Croniclers|N|To Baine Bloodhoof.|RANK|2|
+T Inform the Horde!|QID|51539|M|41.56,72.42|Z|1164;Hall of Croniclers|N|To Baine Bloodhoof.|
 T King or Prey|QID|51111|M|41.56,72.42|Z|1164;Hall of Croniclers|N|To Baine Bloodhoof.|
 A Hunting Zul|QID|49421|M|41.56,72.42|Z|1164;Hall of Croniclers|N|From Baine Bloodhoof.|
-R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|1165;Dazar'alor|N|Weave your way down the stairs until you get to the bottom and cross the bridge to The Zocalo.\n[color=FF0000]NOTE: [/color]If you can handle the fall damage, drop from each tier to make this faster.|
+R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|1165;Dazar'alor|N|Weave your way down the stairs until you get to the bottom and cross the bridge to The Zocalo.\n[color=FF0000]NOTE: [/color]If you can handle the fall damage, drop from each tier to make this faster.|FLY|OLD|
 T Hunting Zul|QID|49421|M|38.93,27.13|Z|1165;Dazar'alor|N|To King Rastakhan.|
 A The Warpack|QID|49965|PRE|51111&49421|M|38.93,27.13|Z|1165;Dazar'alor|N|From King Rastakhan.|
 C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|Z|0862;Zuldazar|N|Hop on Wardruid Loti's back. You'll start moving as soon as the King finishes his speech.|V|
@@ -720,87 +724,87 @@ T The Warpack|QID|49965|M|49.28,44.32|Z|0862;Zuldazar|N|To Gonk.|
 A Heretics|QID|49422|PRE|49965|M|49.28,44.32|Z|0862;Zuldazar|N|From Gonk.|
 A The Full Prophecy|QID|49424|PRE|49965|M|49.34,44.34|Z|0862;Zuldazar|N|From Wardruid Loti.|
 f Temple of the Prophet|ACTIVE|49422|M|49.82,44.59|Z|0862;Zuldazar|N|At Kaza the Skyblade.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
-C Heretics|QID|49422|M|49.09,40.80|Z|0862;Zuldazar|N|Wreak Ruin as you go.|S|
-C The Full Prophecy|QID|49424|QO|3|M|48.81,42.75|Z|0862;Zuldazar|N|Read The Word of Zul III.|H|
-C The Full Prophecy|QID|49424|QO|2|M|49.75,41.87;49.01,40.60|CS|Z|0862;Zuldazar|N|Read The Word of Zul II.|H|
-C The Full Prophecy|QID|49424|QO|1|M|49.74,40.16;48.75,39.42|CS|Z|0862;Zuldazar|N|Read The Word of Zul I.|H|
+C Heretics|QID|49422|M|49.09,40.80|Z|0862;Zuldazar|N|Wreak Ruin.|S|
+C The Full Prophecy|QID|49424|QO|3|M|48.81,42.75|Z|0862;Zuldazar|N|After clearing the guards, click the scroll hanging on the wall to read "The Word of Zul III".|H|
+C The Full Prophecy|QID|49424|QO|2|M|49.75,41.87;49.01,40.60|CS|Z|0862;Zuldazar|N|After clearing the room, click the scroll hanging on the wall to read "The Word of Zul II".|H|
+C The Full Prophecy|QID|49424|QO|1|M|49.74,40.16;48.75,39.42|CS|Z|0862;Zuldazar|N|After clearing the area, click the scroll hanging on the wall to read "The Word of Zul I".|H|
 C Heretics|QID|49422|M|48.75,39.42|Z|0862;Zuldazar|N|Ruin wrought.|US|
-T The Full Prophecy|QID|49424|M|PLAYER|N|To Wardruid Loti.|
+T The Full Prophecy|QID|49424|M|PLAYER|N|To Wardruid Loti beside you.|
 T Heretics|QID|49422|M|49.65,37.97|Z|0862;Zuldazar|N|To Hexlord Raal.|
 A City of Gold|QID|49425|PRE|49422&49424|M|49.65,37.97|Z|0862;Zuldazar|N|From Hexlord Raal.|
-C City of Gold|QID|49425|M|49.64,37.91|Z|0862;Zuldazar|N|Hop on Ata the Winglord. Use "1" key to bomb the forces below.|V|
+C City of Gold|QID|49425|M|49.64,37.91|Z|0862;Zuldazar|N|Hop on Ata the Winglord and use "1" key to bomb the forces below.|V|
 T City of Gold|QID|49425|M|43.69,39.44|Z|0862;Zuldazar|N|To Rezan.|
 A The King's Gambit|QID|49426|PRE|49425|M|43.69,39.44|Z|0862;Zuldazar|N|From Rezan.|
 R The King's Gambit|ACTIVE|49426|QO|1|M|42.16,39.26|Z|0862;Zuldazar|N|Follow Rezan into Atal'Dazar.|
 C The King's Gambit|QID|49426|QO|2|M|42.03,39.44|Z|0862;Zuldazar|N|Ask Rastakhan what next?, then watch the scene play out.|CHAT|
 R The King's Gambit|ACTIVE|49426|QO|3|M|42.07,37.63;42.72,37.66|CS|Z|0862;Zuldazar|N|Talk to the King to start running and don't stop until you get to Gonk.|
 T The King's Gambit|QID|49426|M|42.72,37.66|Z|0862;Zuldazar|N|To King Rastakhan.|
-A Atal'Dazar: Yazma the Fallen Priestess|QID|49901|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|N|From King Rastakhan.|NA|
+A Atal'Dazar: Yazma the Fallen Priestess|QID|49901|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|ELITE|N|[color=E6CC80]Dungeon: 'Atal'Dazar'[/color]\nFrom King Rastakhan.|DUNGEON|
 A Of Dark Deeds and Dark Days|QID|50963|PRE|49426|M|42.72,37.66|Z|0862;Zuldazar|N|From King Rastakhan.|
 K Hakbi the Risen|QID|50677|QO|1|M|42.00,36.19|Z|0862;Zuldazar|ITEM|160978|N|Silver Elite to kill for azerite power and resources.|T|Hakbi the Risen|RANK|2|RARE|
-$ Dazar's Forgotten Chest|QID|50707|M|41.07,33.41;38.80,34.41|CS|Z|0862;Zuldazar|N|Follow this nearly hidden path through the rock and under the waterfall to a Chest to loot for azerite power and resources.|RANK|2|
-R The Golden Road|ACTIVE|50963|M|43.60,36.72|Z|0862;Zuldazar|N|Follow the Golden Road down to the flightmaster.|
+$ Dazar's Forgotten Chest|QID|50707|M|41.07,33.41;38.78,34.43|CS|Z|0862;Zuldazar|N|Follow this nearly hidden path through the rock and under the waterfall to a Chest to loot for azerite power and resources.|RANK|2|
+R The Golden Road|ACTIVE|50963|M|43.60,36.72|Z|0862;Zuldazar|N|Follow the Golden Road down to the flightmaster.|FLY|OLD|
 f Atal'Dazar|ACTIVE|50963|M|46.16,35.82|Z|0862;Zuldazar|N|At Loz the Paku'ai.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|
-H The Great Seal|ACTIVE|50963|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]Manually check this step off to take the flightpath at Scroll of Flight.|
-F The Great Seal|ACTIVE|50963|M|70.77,29.59|Z|0862;Zuldazar|N|Take the flightpath at Loz the Paku'ai.|
+H The Great Seal|ACTIVE|50963|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]You can also use the flightpath from Loz the Paku'ai or fly directly there.|
 T Of Dark Deeds and Dark Days|QID|50963|M|41.22,66.92|Z|1164;Hall of Croniclers|N|To Princess Talanji.|
 t Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|41.22,66.92|Z|1164;Hall of Croniclers|N|To Princess Talanji.|
-A The Blood Gate|QID|47199|PRE|50963&50808|M|40.89,73.00|Z|1164;Hall of Croniclers|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|;not spurious - necessary for guide flow
+A The Blood Gate|QID|47199|PRE|50963&50808|M|40.89,73.00|Z|1164;Hall of Croniclers|N|Baine Bloodhoof.\n[color=FF0000]NOTE: [/color]This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|;not spurious - necessary for guide flow
 A Sandscar Breach|QID|49940|M|67.00,71.58|Z|1164;Hall of Croniclers|N|From Natal'hakata.|RANK|2|
 ; R3 quest chain begins and R1 will drop to the end of the guide from here.
-A The Bones of Xibala|QID|47257|M|32.28,45.08|Z|1164;Hall of Croniclers|N|From Chronicler To'kini.|RANK|3|
-F Warport Rastari|ACTIVE|47257|M|51.89,41.21|Z|1165;Dazar'alor|N|At Paku'ai Rokota.|RANK|3|
+A The Bones of Xibala|QID|47257|M|32.28,45.08|Z|1164;Hall of Croniclers|N|From Chronicler To'kini inside Vault of Kings.|RANK|3|
+F Warport Rastari|ACTIVE|47257|M|51.89,41.21|Z|1165;Dazar'alor|N|At Paku'ai Rokota.|RANK|3|FLY|OLD|
 b Xibala|ACTIVE|47257|M|53.69,61.56|Z|0862;Zuldazar|N|Ask Wavesinger Amon for a ride to Xibala|RANK|3|
 f Xibala|ACTIVE|47257|M|44.84,72.25|Z|0862;Zuldazar|N|At Eliara Duskwing.\n[color=FF0000]NOTE: [/color]Open the flight map to discover the flightpath.|RANK|3|
 A WANTED: Dark Chronicler|QID|51087|M|44.30,72.17|Z|0862;Zuldazar|N|From Wanted Poster.|RANK|3|
 T The Bones of Xibala|QID|47257|M|43.92,72.11|Z|0862;Zuldazar|N|To Examiner Tae'shara Bloodwatcher.|
 A The Bloodwatcher Legacy|QID|47329|M|43.92,72.11|Z|0862;Zuldazar|N|From Examiner Tae'shara Bloodwatcher.|RANK|3|
-C The Bloodwatcher Legacy|QID|47329|QO|1|M|44.01,72.21|Z|0862;Zuldazar|N|Keep clicking on the dirt pile until the Fossil is all revealed|H|
+C The Bloodwatcher Legacy|QID|47329|QO|1|M|44.01,72.21|Z|0862;Zuldazar|N|Keep clicking on the dirt pile until the Fossil is all revealed.\n[color=FF0000]NOTE: [/color]After the first click, you can click on the [color=33fff9]Carefully Calibrated Sweeper[/color] to finish the job for you.|H|
 T The Bloodwatcher Legacy|QID|47329|M|43.90,72.14|Z|0862;Zuldazar|N|To Apprentice Telemancer Astrandis.|
 A Scrying for the Eye|QID|47235|PRE|47329|M|43.90,72.14|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
 A Archaeological Efficiency|QID|50043|PRE|47329|M|43.90,72.14|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
 A Xibalan Ecology|QID|47228|PRE|47329|M|43.91,72.11|Z|0862;Zuldazar|N|From Examiner Tae'shara Bloodwatcher.|RANK|3|
-C Xibalan Ecology|QID|47228|M|42.99,74.43|Z|0862;Zuldazar|N|Kill Xibalan predators as you go.|S|
-C Archaeological Efficiency|QID|50043|M|41.73,75.25|Z|0862;Zuldazar|N|Use the sweeper beacon to expose the fragments, click on them to pick up.|U|156596|H|S|
-C Scrying for the Eye|QID|47235|QO|2|M|42.82,73.90|Z|0862;Zuldazar|N|Scry at the Inner ruins.|H|
-C Scrying for the Eye|QID|47235|QO|3|M|41.37,75.40|Z|0862;Zuldazar|N|Scry at "The Foot".|H|
-C Scrying for the Eye|QID|47235|QO|1|M|42.48,72.27|Z|0862;Zuldazar|N|Scry at the Outer ruins.|H|
-C Archaeological Efficiency|QID|50043|M|41.73,75.25|Z|0862;Zuldazar|N|Finsih collecting Fossil Fragments.|U|156596|H|US|
-C Xibalan Ecology|QID|47228|M|42.99,74.43|Z|0862;Zuldazar|N|Finish killing the Xibalan predators.|US|
+C Xibalan Ecology|QID|47228|M|42.99,74.43|Z|0862;Zuldazar|N|Kill Xibalan predators (Ravasaur/Apex).|S|
+C Archaeological Efficiency|QID|50043|M|41.73,75.25|Z|0862;Zuldazar|N|Use the sweeper beacon on Dirt Piles to expose the fragments and click on them to pick up.\n[color=FF0000]NOTE: [/color]Bigger piles reward higher quantities.|U|156596|H|S|
+C Scrying for the Eye|QID|47235|QO|2|M|42.80,73.91|Z|0862;Zuldazar|N|Scry at the Inner ruins.|H|
+C Scrying for the Eye|QID|47235|QO|3|M|41.36,75.40|Z|0862;Zuldazar|N|Scry at "The Foot".|H|
+C Scrying for the Eye|QID|47235|QO|1|M|42.48,72.26|Z|0862;Zuldazar|N|Scry at the Outer ruins.|H|
+C Archaeological Efficiency|QID|50043|M|41.73,75.25|Z|0862;Zuldazar|N|Finsih collecting Fossil Fragments.\n[color=FF0000]NOTE: [/color]Bigger piles reward higher quantities.|U|156596|H|US|
+C Xibalan Ecology|QID|47228|M|42.99,74.43|Z|0862;Zuldazar|N|Finish killing the Xibalan predators (Ravasaur/Apex).|US|
 T Xibalan Ecology|QID|47228|M|43.91,72.11|Z|0862;Zuldazar|N|To Examiner Tae'shara Bloodwatcher.|
 T Scrying for the Eye|QID|47235|M|43.89,72.14|Z|0862;Zuldazar|N|To Apprentice Telemancer Astrandis.|
 T Archaeological Efficiency|QID|50043|M|43.89,72.14|Z|0862;Zuldazar|N|To Apprentice Telemancer Astrandis.|
 A A Nose for Magic|QID|48317|PRE|47228&50043&47235|M|43.91,72.11|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
-K Dark Chronicler|QID|51087|QO|1|M|42.00,76.12;42.35,77.34;43.29,76.38;44.16,76.53|CS|Z|0862;Zuldazar|N|Kill the Dark Chronicler.|T|Dark Chronicler|RANK|3|
-C A Nose for Magic|QID|48317|QO|1|M|41.04,77.15|Z|0862;Zuldazar|N|Speak to Astrandis in the western ruins.|CHAT|
-C A Nose for Magic|QID|48317|QO|2|M|40.70,76.87|Z|0862;Zuldazar|N|Click on the essence collector.|H|
-C A Nose for Magic|QID|48317|QO|3|M|40.70,76.87|Z|0862;Zuldazar|N|Kill the Dark Iron Sabateur.|
-C A Nose for Magic|QID|48317|QO|4|M|40.32,77.24|Z|0862;Zuldazar|N|Click on the essence collector.|H|
-C A Nose for Magic|QID|48317|QO|5|M|40.29,77.09|Z|0862;Zuldazar|N|Kill the Dark Iron Sabateur.|
-C A Nose for Magic|QID|48317|QO|6|M|39.92,77.06|Z|0862;Zuldazar|N|Click on the essence collector.|H|
-C A Nose for Magic|QID|48317|QO|7|M|39.90,77.10|Z|0862;Zuldazar|N|Kill the Dark Iron Sabateurs.|
+R Throat of Xibala|ACTIVE|51087|QO|1|M|42.00,76.12;42.35,77.34;43.29,76.38|CS|Z|0862;Zuldazar|N|Follow the road to the burrow entrance.|FLY|OLD|
+K WANTED: Dark Chronicler|ACTIVE|51087|QO|1|M|44.16,76.53|Z|0862;Zuldazar|N|Kill the Dark Chronicler.|T|Dark Chronicler|
+C A Nose for Magic|QID|48317|QO|1|M|41.02,77.13|Z|0862;Zuldazar|N|Speak to Astrandis in the western ruins.|CHAT|
+C A Nose for Magic|QID|48317|QO|2|M|40.69,76.88|Z|0862;Zuldazar|N|Click on the essence collector to start scrying.|H|
+C A Nose for Magic|QID|48317|QO|3|M|40.69,76.88|Z|0862;Zuldazar|N|Kill the Dark Iron Sabateur when he spawns.|T|Dark Iron Sabateur|
+C A Nose for Magic|QID|48317|QO|4|M|40.29,77.06|Z|0862;Zuldazar|N|Click on the essence collector to start scrying.|H|
+C A Nose for Magic|QID|48317|QO|5|M|40.29,77.06|Z|0862;Zuldazar|N|Kill the Dark Iron Sabateur when he spawns.|T|Dark Iron Sabateur|
+C A Nose for Magic|QID|48317|QO|6|M|39.90,77.06|Z|0862;Zuldazar|N|Click on the essence collector to start scrying.|H|
+C A Nose for Magic|QID|48317|QO|7|M|39.90,77.06|Z|0862;Zuldazar|N|Kill the Dark Iron Sabateurs when they spawn.|T|Dark Iron Sabateur|
 T A Nose for Magic|QID|48317|M|40.03,76.53|Z|0862;Zuldazar|N|To Apprentice Telemancer Astrandis.|
 A A Dark (Iron) Tide|QID|48399|PRE|48317|M|40.03,76.53|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
 A Grand Theft Telemancy|QID|48400|PRE|48317|M|40.03,76.53|Z|0862;Zuldazar|N|From Apprentice Telemancer Astrandis.|RANK|3|
-C A Dark (Iron) Tide|QID|48399|M|40.00,72.51|Z|0862;Zuldazar|N|Kill Dark Iron dwarves as you go.|S|
-K Urda Direflame|QID|48400|QO|1|M|39.12,72.32|Z|0862;Zuldazar|N|Kill Urda Direflame.|T|Urda Direflame|RANK|3|
+K A Dark (Iron) Tide|ACTIVE|48399|QO|1|M|40.00,72.51|Z|0862;Zuldazar|N|Kill Dark Iron dwarves.|S|
+K Urda Direflame|QID|48400|QO|1|M|39.12,72.32|Z|0862;Zuldazar|N|Kill Urda Direflame.|T|Urda Direflame|
 C Grand Theft Telemancy|QID|48400|QO|2|M|39.09,72.45|Z|0862;Zuldazar|N|Place Telemancy beacon.|H|
-C A Dark (Iron) Tide|QID|48399|M|40.00,72.51|Z|0862;Zuldazar|N|Finish off your share of the Dark Iron dwarves.|US|
-t WANTED: Dark Chronicler|QID|51087|M|43.91,72.11|Z|0862;Zuldazar|N|To Examiner Tae'shara Bloodwatcher.|
+K A Dark (Iron) Tide|ACTIVE|48399|QO|1|M|40.00,72.51|Z|0862;Zuldazar|N|Finish off killing the Dark Iron dwarves.|US|
+T WANTED: Dark Chronicler|QID|51087|M|44.39,72.11|Z|0862;Zuldazar|N|To Examiner Tae'shara Bloodwatcher.|
 T A Dark (Iron) Tide|QID|48399|M|44.41,72.11|Z|0862;Zuldazar|N|To Apprentice Telemancer Astrandis.|
 T Grand Theft Telemancy|QID|48400|M|44.41,72.11|Z|0862;Zuldazar|N|To Apprentice Telemancer Astrandis.|
-F Garden of the Loa|ACTIVE|49940|M|44.84,72.25|Z|0862;Zuldazar|N|At Eliara Duskwing.|RANK|3|
+F Garden of the Loa|ACTIVE|49940|M|44.84,72.25|Z|0862;Zuldazar|N|At Eliara Duskwing.|RANK|3|FLY|OLD|
 ; RANK|3| quest chain ends
-F Garden of the Loa|ACTIVE|49940|M|51.89,41.21|Z|1165;Dazar'alor|N|At Paku'ai Rokota.|RANK|2|
-R Sandscar Breach|ACTIVE|49940|M|47.66,25.07|Z|0862;Zuldazar|N|Follow the road Northwest to Sandscar Breach.|
+F Garden of the Loa|ACTIVE|49940|M|51.89,41.21|Z|1165;Dazar'alor|N|At Paku'ai Rokota.|RANK|2|FLY|OLD|
+R Sandscar Breach|ACTIVE|49940|M|47.66,25.07|Z|0862;Zuldazar|N|Follow the road Northwest to Sandscar Breach.|FLY|OLD|
 T Sandscar Breach|QID|49940|M|47.24,24.95|Z|0862;Zuldazar|N|To Bladeguard Sonji.|
 A I Spy a Spire|QID|49678|PRE|49940|M|47.24,24.95|Z|0862;Zuldazar|N|From Bladeguard Sonji.|RANK|2|
 A Skycaller Soltok|QID|49680|PRE|49940|M|47.24,24.95|Z|0862;Zuldazar|N|From Bladeguard Sonji.|RANK|2|
 A The Sethrak Incursion|QID|49679|PRE|49940|M|47.33,25.17|Z|0862;Zuldazar|N|From Beastmother Jabati.|RANK|2|
-C The Sethrak Incursion|QID|49679|M|44.45,25.00|Z|0862;Zuldazar|N|Kill Sethrak Invaders as you go.|S|
+C The Sethrak Incursion|QID|49679|M|44.45,25.00|Z|0862;Zuldazar|N|Kill Sethrak Invaders.|S|
 C I Spy a Spire|QID|49678|M|45.14,24.06|Z|0862;Zuldazar|N|Destroy Sethrak Spires.|H|S|
-A Lil' Tika|QID|49681|M|46.22,23.34|Z|0862;Zuldazar|N|From Lil' Tika.|RANK|2|
-C Lil' Tika|QID|49681|QO|1|M|46.22,23.34|Z|0862;Zuldazar|N|Release Lil' Tika.|H|
+A Lil' Tika|QID|49681|M|46.23,23.33|Z|0862;Zuldazar|N|From Lil' Tika.|RANK|2|
+C Lil' Tika|QID|49681|QO|1|M|46.23,23.33|Z|0862;Zuldazar|N|Release Lil' Tika.|H|
 K Warcrawler Karkithiss|QID|50438|QO|1|M|43.95,25.48|Z|0862;Zuldazar|N|Silver Elite to kill for azerite power and resources.|T|Warcrawler Karkithiss|RANK|2|RARE| ;no drop listed on wowhead
 C Lil' Tika|QID|49681|QO|2|M|45.36,26.40|Z|0862;Zuldazar|N|Find Lil' Tika's master inside the house that Skycaller Soltok is at the top of.\n[color=FF0000]NOTE: [/color]Watch your back as you'll get rushed by 2 mobs when you do it.|H|
 K Skycaller Soltok|QID|49680|QO|1|M|45.06,26.15;45.31,26.25|CS|Z|0862;Zuldazar|N|Kill Skycaller Soltok.|T|Skycaller Soltok|RANK|2|
@@ -811,8 +815,7 @@ T Skycaller Soltok|QID|49680|M|47.25,24.95|Z|0862;Zuldazar|N|To Bladeguard Sonji
 T The Sethrak Incursion|QID|49679|M|47.33,25.14|Z|0862;Zuldazar|N|To Beastmother Jabati.|
 T Lil' Tika|QID|49681|M|47.33,25.14|Z|0862;Zuldazar|N|To Beastmother Jabati.|
 ;A Bargain of Blood
-H The Great Seal|AVAILABLE|47512|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.\n[color=FF0000]NOTE: [/color]Manually check this step off to take the flightpath at Scroll of Flight.|
-;J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|JUMP|EliEndgame|
+H The Great Seal|AVAILABLE|47512|M|48.78,71.83|Z|1163;The Great Seal|N|Use your hearthstone.|
 J War Campaign|AVAILABLE|52749|N|You can start the War Campaign at level 35 and do the introduction questline.\n[color=FF0000]NOTE: [/color]Click here to open that guide or manually check this step off to continue.|JUMP|EmmHWarCampaign|LVL|35|
 D The End.|N|This concludes Zuldazar. The Nazmir guide will automatically load when you check this step off.|
 ]]

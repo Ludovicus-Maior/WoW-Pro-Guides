@@ -757,8 +757,23 @@ local function createMainConfig()
                         end
                     end
             },
-            doFlight = {
+            doDungeons = {
                 order = 24,
+                type = "toggle",
+                name = L["Skip Dungeon Quests"],
+                desc = L["Skips dungeon-specific quests outside Dungeon guides."],
+                get = function(info) return WoWProCharDB.EnableDungeons end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableDungeons then
+                            WoWProCharDB.EnableDungeons = false
+                        else
+                            WoWProCharDB.EnableDungeons = true
+                        end
+                    end,
+                width = "double"
+            },
+            doFlight = {
+                order = 25,
                 type = "toggle",
                 name = L["Skip Flights"],
                 desc = L["Skips most flight steps when you have flying in that zone."],
@@ -769,10 +784,8 @@ local function createMainConfig()
                         else
                             WoWProCharDB.EnableFlight = true
                         end
-                    end,
-                width = "full"
+                    end
             },
-
             header4 = {
                 order = 50,
                 type = "header",

@@ -419,6 +419,9 @@ function WoWPro:OnInitialize()
     if WoWProCharDB.EnableFlight == nil then
         WoWProCharDB.EnableFlight = true
     end
+    if WoWProCharDB.EnableDungeons == nil then
+        WoWProCharDB.EnableDungeons = true
+    end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil

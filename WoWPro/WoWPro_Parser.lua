@@ -311,6 +311,7 @@ DefineTag("NOCACHE", "nocache","boolean",nil,nil)
 DefineTag("NOAUTO", "noauto","boolean",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = value:upper() end)
 DefineTag("RARE","rare","boolean",nil,nil)
+DefineTag("DUNGEON","dungeon","boolean",nil,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("U","use","string",validate_andor_list_of_ints,nil)
 DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelled it!
