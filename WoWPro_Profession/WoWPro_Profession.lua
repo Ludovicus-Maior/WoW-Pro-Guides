@@ -25,7 +25,6 @@ function WoWPro.Profession:OnEnable()
     WoWPro:RegisterTags({"mat"})
     --Loading Frames--
     if not WoWPro.Profession.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro.Profession:CreateConfig()
         WoWPro.Profession.FramesLoaded = true
     end
 

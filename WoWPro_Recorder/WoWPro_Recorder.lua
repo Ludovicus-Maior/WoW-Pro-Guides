@@ -25,8 +25,6 @@ function _G.SlashCmdList.WPR(msg)
 end
 
 function WoWPro.Recorder:OnInitialize()
--- Creating the config options --
---  WoWPro.Recorder:CreateConfig()
 end
 
 function WoWPro.Recorder:OnEnable()

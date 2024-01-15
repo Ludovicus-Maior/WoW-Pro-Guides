@@ -19,7 +19,6 @@ function WoWPro.WorldEvents:OnEnable()
 
     --Loading Frames--
     if not WoWPro.WorldEvents.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro.WorldEvents:CreateConfig()
         WoWPro.WorldEvents.FramesLoaded = true
     end
 

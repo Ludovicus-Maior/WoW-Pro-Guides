@@ -19,7 +19,6 @@ function WoWPro.Dailies:OnEnable()
 
     --Loading Frames--
     if not WoWPro.Dailies.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro.Dailies:CreateConfig()
         WoWPro.Dailies.FramesLoaded = true
     end
 
