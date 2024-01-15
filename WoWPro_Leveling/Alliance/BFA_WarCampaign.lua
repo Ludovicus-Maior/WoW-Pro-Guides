@@ -1067,10 +1067,10 @@ T The Long Awake|QID|55398|M|53.85,62.11|Z|Chamber of Heart!Dungeon1473|N|To Mer
 
 A Return to the Heart|QID|56261|M|75.08,14.93|Z|Boralus|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56162|LEAD|55519|  ; pre is Back out to Sea--from Najzatar guide
 P Silithus|ACTIVE|56261|M|69.65,15.95|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
-P Chamber of Heart|ACTIVE|56261|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
+P Chamber of Heart|ACTIVE|56261|M|43.20,44.54|Z|81;Silithus|N|Take the portal to Chamber of Heart.|
 T Return to the Heart|QID|56261|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
 A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56162| ; removed 55522, changed to 56162 - unconfirmed PRE, but 55522 is not needed.
-P Boralus|ACTIVE|55519|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|N|Take Portal to Boralus.|
+P Boralus|ACTIVE|55519|M|41.48,44.86|Z|81;Silithus|TZ|Boralus Harbor|N|Take Portal to Boralus.|
 P Stormwind City|ACTIVE|55519|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
 P Mount Hyjal|ACTIVE|55519|M|76.17,18.71|Z|84;Stormwind City|N|Take the Earthern Ring portal to Mount Hyjal.|
 T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
@@ -1081,14 +1081,14 @@ T Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebear
 A Do It the Azerite Way|QID|55521|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55520|
 H Snug Harbor Inn|ACTIVE|55521|M|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise travel to Silithus and the Chamber of Heart.|
 P Silithus|ACTIVE|55521|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
-P Chamber of Heart|ACTIVE|55521|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55521|M|43.20,44.54|Z|81;Silithus|N|Take the portal to Chamber of Heart.|
 T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
 ; Heart of Azeroth questline - Level 60
 
 A Investigating the Highlands|QID|56167|M|52.54,69.95|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos.\n\nHeart needs to be level 60.|PRE|55521|  ; Heart needs to be lvl 60, but 55521 is part of prev chain, so leaving, but noting lvl 60
 P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|TZ|Magni's Encampment|N|Travel by method of choice to Twilight Highlands.|
-P Boralus|ACTIVE|56167|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|N|Take Portal to Boralus.|
+P Boralus|ACTIVE|56167|M|41.48,44.86|Z|81;Silithus|TZ|Boralus Harbor|N|Take Portal to Boralus.|
 P Stormwind City|ACTIVE|56167|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
 P Twilight Highlands|ACTIVE|56167|M|75.33,16.49|Z|84;Stormwind City|N|Take the Earthern Ring portal to Twilight Highlands.|
 T Investigating the Highlands|QID|56167|M|35.95,50.49|Z|Twilight Highlands|N|To Kalecgos.|
@@ -1101,7 +1101,7 @@ C Take to the Skies|SO|4|ACTIVE|55657|M|63.05,44.01|Z|Twilight Highlands!Instanc
 C From the Shadows|SO|5|ACTIVE|55657|M|46.41,86.27|Z|Twilight Highlands!Instance|N|Mount up and run over to Vexiona and fight the void touched invaders that are preventing Alexstraza from fighting Vexiona.|
 C In the Shadow of Crimson Wings|QID|55657|M|45.80,86.32|Z|Twilight Highlands!Instance|N|Pick up the Lost Red Scale.|NC|
 C In the Shadow of Crimson Wings|QID|55657|QO|6|M|46.38,86.44|Z|Twilight Highlands!Instance|N|Hop on Corastrasza for a ride out or otherwise return to the Chamber of Heart.|V|
-P Chamber of Heart|ACTIVE|55657|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55657|M|43.20,44.54|Z|81;Silithus|N|Take the portal to Chamber of Heart.|
 N Afterwards|ACTIVE|55657|N|Alexstrasza will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 3|
 T In the Shadow of Crimson Wings|QID|55657|M|54.18,65.96|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza the Life-Binder.|
 
@@ -1109,7 +1109,7 @@ T In the Shadow of Crimson Wings|QID|55657|M|54.18,65.96|Z|Chamber of Heart!Dung
 
 A Back to the Chamber|QID|56262|M|75.05,14.97|Z|Boralus|N|From Earthen Guardian.|LEAD|55732|LVL|50|
 P Silithus|ACTIVE|56262|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
-P Chamber of Heart|ACTIVE|56262|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
+P Chamber of Heart|ACTIVE|56262|M|43.20,44.54|Z|81;Silithus|N|Take the portal to Chamber of Heart.|
 T Back to the Chamber|QID|56262|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A An Old Scar|QID|55732|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|LVL|50|
 C An Old Scar|QID|55732|M|48.18,72.28|Z|Chamber of Heart!Dungeon1473|CHAT|QO|1|N|Speak to MOTHER to Travel to the Maelstrom.|
@@ -1119,14 +1119,14 @@ C Defending the Maelstrom|QID|55735|M|30.80,53.44|Z|The Maelstrom - Heart of Aze
 C Defending the Maelstrom|QID|55735|M|28.39,29.36|Z|The Maelstrom - Heart of Azeroth!Instance|QO|1|N|Defend the Maelstrom by defeating enemies and healing wounds|
 T Defending the Maelstrom|QID|55735|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
 A At the Azerite Time|QID|55737|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|PRE|55735|  ; well it's assumed you'd do the prev quest, but to make Grail happy.
-P Chamber of Heart|ACTIVE|55737|M|43.20,44.54|Z|Silithus|NC|N|Take the waygate to the Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55737|M|43.20,44.54|Z|81;Silithus|NC|N|Take the waygate to the Chamber of Heart.|
 T At the Azerite Time|QID|55737|M|48.11,72.24|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
 ; Heart of Azeroth questline - Level 70
 
 A A Bolt from the Blue|QID|56401|M|52.60,69.99|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. Neck must be level 70.|PRE|55737|
 P Silithus: The Wound|QID|56401|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
-P Boralus|ACTIVE|56401|M|41.48,44.86|Z|Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|
+P Boralus|ACTIVE|56401|M|41.48,44.86|Z|81;Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|
 P Stormwind City|ACTIVE|56401|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|
 P Dalaran|ACTIVE|56401|M|44.42,88.66|Z|84;Stormwind City|N|Travel to Nexus via means of your choosing, most likely via the Stormwind City portal to Crystalsong Forest, Alternatively boat to Borean Tundra.|
 F Transitus Shield|ACTIVE|56401|M|72.22,45.75|Z|Dalaran City@Dalaran!Crystalsong Forest|N|To Aludane Whitecould, to fly to Transitus Shield, Coldarra.|

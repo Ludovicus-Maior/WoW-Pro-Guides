@@ -963,12 +963,12 @@ C Tracking Tipoff|QID|54106|QO|3|M|81.34,52.56|Z|Redridge Mountains|N|After he g
 T Tracking Tipoff|QID|54106|M|81.43,52.49|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
 A Zekhan has some Grim Tidings for you!|QID|54107^54754|PRE|54106|M|82.12,52.70|Z|Redridge Mountains|N|Choose to support the Queen or Saurfang. To support the Queen, choose the chat option. To choose to Support Saurfang, accept the quest.|
 ;A For the Queen|QID|54754|AVAILABLE|54107|PRE|54106|M|82.12,52.70|Z|Redridge Mountains|N|From UI Alert, if you do not to betray your warchief.|
-t Grim Tidings|QID|54107|M|79.79,74.75|Z|Swamp of Sorrows|N|To Zekhan.|
-A A Warrior's Death|QID|54108|PRE|54107|M|79.79,74.75|Z|Swamp of Sorrows|N|From Zekhan.|
-C A Warrior's Death|QID|54108|M|80.68,77.62|Z|Swamp of Sorrows|N|Talk to Saurfang, the patrol will become hostile and you need to kill them.|
-T A Warrior's Death|QID|54108|M|80.79,78.73|Z|Swamp of Sorrows|N|To Varok Saurfang.|
-A Queen's Favor|QID|54109|PRE|54108|M|80.79,78.73|Z|Swamp of Sorrows|N|From Varok Saurfang.|
-C Queen's Favor|QID|54109|M|80.79,78.73|Z|Swamp of Sorrows|CHAT|N|Tell Saurfang you are ready to take the hit.|
+t Grim Tidings|QID|54107|M|79.79,74.75|Z|51;Swamp of Sorrows|N|To Zekhan.|
+A A Warrior's Death|QID|54108|PRE|54107|M|79.79,74.75|Z|51;Swamp of Sorrows|N|From Zekhan.|
+C A Warrior's Death|QID|54108|M|80.68,77.62|Z|51;Swamp of Sorrows|N|Talk to Saurfang, the patrol will become hostile and you need to kill them.|
+T A Warrior's Death|QID|54108|M|80.79,78.73|Z|51;Swamp of Sorrows|N|To Varok Saurfang.|
+A Queen's Favor|QID|54109|PRE|54108|M|80.79,78.73|Z|51;Swamp of Sorrows|N|From Varok Saurfang.|
+C Queen's Favor|QID|54109|M|80.79,78.73|Z|51;Swamp of Sorrows|CHAT|N|Tell Saurfang you are ready to take the hit.|
 R Grom'gol Base Camp|ACTIVE|54109|M|37.19,52.28|Z|Northern Stranglethorn|N|Head to the zep tower in Grom'gol or otherwise travel to Orgrimmar.|
 b Orgrimmar|ACTIVE|54109^54754|M|37.19,52.28|Z|Northern Stranglethorn|N|Return to Orgrimmar.|
 T Queen's Favor|QID|54109|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|

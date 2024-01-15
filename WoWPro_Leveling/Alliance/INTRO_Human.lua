@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Human: Intro")
 WoWPro:GuideName(guide,"Human: Intro")
-WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Westfall')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|-60|S!US|CT|

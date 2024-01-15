@@ -138,7 +138,7 @@ T A Way Home|QID|55053|M|48.50,62.37|N|To Chief Telemancer Oculeth.|
 A Essential Empowerment|QID|55851|PRE|55053|M|48.27,62.47|N|From Magni Bronzebeard.|
 P The Great Seal|QID|55851|ACTIVE|55851|M|47.27,62.77|TZ|Hall of Ancient Paths|N|Take the portal or otherwise travel to Zuldazar.|
 P Silithus|ACTIVE|55851|M|73.82,85.64|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal or otherwise travel to Silithus.|
-P Chamber of Heart|ACTIVE|55851|M|43.20,44.50|Z|Silithus|TZ|Chamber of Heart|N|Click on the Titan Translocator to portal to the Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55851|M|43.20,44.50|Z|81;Silithus|TZ|Chamber of Heart|N|Click on the Titan Translocator to portal to the Chamber of Heart.|
 T Essential Empowerment|QID|55851|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A MOTHER Knows Best|QID|55533|PRE|55851|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|
 C MOTHER Knows Best|QID|55533|M|48.14,72.50|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER.|
@@ -161,7 +161,7 @@ T Dominating the Indomitable|QID|55425|M|PLAYER|N|To Spiritwalker Ebonhorn.|
 A A Friendly Face|QID|55497|PRE|55425|M|PLAYER|N|From Spiritwalker Ebonhorn.|
 H The Great Seal|ACTIVE|55497|N|Hearth or otherwise return to The Great Seal.|
 P Silithus|ACTIVE|55497|M|73.82,85.64|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal or otherwise travel to Silithus.|
-P Chamber of Heart|ACTIVE|55497|M|43.20,44.50|Z|Silithus|TZ|Chamber of Heart|N|Click on the Titan Translocator to portal to the Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55497|M|43.20,44.50|Z|81;Silithus|TZ|Chamber of Heart|N|Click on the Titan Translocator to portal to the Chamber of Heart.|
 C A Friendly Face|QID|55497|M|48.17,39.03|Z|Chamber of Heart!Dungeon1473|QO|2|CHAT|N|Meet Spiritwalker Ebonhorn in Chamber of Heart.|
 T A Friendly Face|QID|55497|M|50.24,59.14|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A The Heart Forge|QID|55618|M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|PRE|55497|

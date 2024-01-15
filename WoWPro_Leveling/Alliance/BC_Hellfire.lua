@@ -9,8 +9,8 @@ return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 A To Outland!|QID|60120|M|56.26,17.31|Z|84;Stormwind City|N|From Chromie after activating Burning Crusade timeline.|
 R Blasted Lands|QID|60120|N|At the Honor Hold Mage in the Wizard's Sanctum.|Z|84;Stormwind City|M|49.12,87.34|
-B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. Yeah, I know, it is annoying to get now.\n\nIf you don't care skipping the 2 quests that this affects or don't mind coming back here later, go ahead and skip this now.|M|59.40,14.89|Z|Blasted Lands|
-R Hellfire Peninsula|AVAILABLE|10288|N|Go through the portal to Hellfire Peninsula.|M|55.01,54.35|Z|Blasted Lands|
+B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. Yeah, I know, it is annoying to get now.\n\nIf you don't care skipping the 2 quests that this affects or don't mind coming back here later, go ahead and skip this now.|M|59.40,14.89|Z|17;Blasted Lands|
+R Hellfire Peninsula|AVAILABLE|10288|N|Go through the portal to Hellfire Peninsula.|M|55.01,54.35|Z|17;Blasted Lands|
 T To Outland!|QID|60120|M|PLAYER|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|
 A Arrival in Outland|QID|10288|M|87.3,50.7|N|From Commander Duron.|
 T Arrival in Outland|QID|10288|M|87.4,52.4|N|To Amish Wildhammer.|
