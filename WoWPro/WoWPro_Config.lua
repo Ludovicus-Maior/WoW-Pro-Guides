@@ -1175,6 +1175,5 @@ function WoWPro.CreateConfig()
     config:RegisterOptionsTable("WoWPro", topConfig)
     -- Add the options to the Blizzard Interface Options
     dialog:AddToBlizOptions("WoWPro", "WoWPro")
-    _G.InterfaceOptions_AddCategory(WoWPro.GuideList)
     _G.InterfaceOptions_AddCategory(WoWPro.CurrentGuideFrame)
 end
