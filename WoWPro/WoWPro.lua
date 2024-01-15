@@ -818,6 +818,20 @@ local function SortNestedMenu(menu, top)
     if not menu.menuList then
         return
     end
+    -- Depth first traversal
+    for _, listEntry in pairs(menu.menuList) do
+        if listEntry.menuList then
+            SortNestedMenu(listEntry, false)
+        end
+    end
+    if table.getn(menu.menuList) == 2 then
+        for key, value in pairs(menu.menuList[2]) do
+            menu[key] = value
+            WoWPro:dbp("SortNestedMenu: Hoisting %q=%q up", tostring(key), tostring(value))
+        end
+        WoWPro:dbp("SortNestedMenu: Hoisted %q up", menu.text)
+        return
+    end
     local sort_function = function(a, b)
         WoWPro:dbp("sort_function({isTitle=%q, sortlevel=%q, text=%q} <? {isTitle=%q, sortlevel=%q, text=%q}",
                     tostring(a.isTitle), tostring(a.sortlevel), tostring(a.text),
@@ -828,11 +842,6 @@ local function SortNestedMenu(menu, top)
         return a.text < b.text
     end
     table.sort(menu.menuList, sort_function)
-    for _, listEntry in pairs(menu.menuList) do
-        if listEntry.menuList then
-            SortNestedMenu(listEntry, false)
-        end
-    end
 end
 
 function WoWPro.BuildGuideInMenuList()
@@ -1416,7 +1425,7 @@ end
 -- Finish all delayed guide initializiation
 function WoWPro:FinalizeGuides()
     for name, module in WoWPro:IterateModules() do
-        if WoWPro[name].GuideList.Init then
+        if WoWPro[name] and WoWPro[name].GuideList and WoWPro[name].GuideList.Init then
             WoWPro[name].GuideList.Init()
         end
     end
