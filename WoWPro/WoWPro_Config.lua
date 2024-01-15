@@ -614,7 +614,7 @@ end
 
 local function createMainConfig()
     return {
-        name = L["Master"],
+        name = L["Main"],
         type = "group",
         args = {
             version = {
@@ -1062,7 +1062,7 @@ local function createRankConfig()
             type = "group",
             order = 50,
             args = {
-                header = {
+                header1 = {
                     order = 10,
                     type = "header",
                     name = L["Addon Version Installed"],
@@ -1071,6 +1071,11 @@ local function createRankConfig()
                     order = 11,
                     type = "description",
                     name = L["Version"]..": "..WoWPro.Version,
+                },
+                header2 = {
+                    order = 13,
+                    type = "header",
+                    name = L["Guide Rank Settings"],
                 },
                 grank = {
                     order = 25,
@@ -1084,7 +1089,7 @@ local function createRankConfig()
                             WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
                         end
                         WoWPro.UpdateGuide("Config: GRank") end,
-                    width = "double"
+                    width = "full"
                 },
                 trank = {
                     order = 26,
@@ -1098,7 +1103,7 @@ local function createRankConfig()
                             WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
                         end
                         WoWPro.UpdateGuide("Config: TRank") end,
-                    width = "double"
+                    width = "full"
                 }
             }
         }
@@ -1115,7 +1120,12 @@ local function createRankConfig()
                 version = {
                     order = 11,
                     type = "description",
-                    name = L[name .. " Version"]..": "..tostring(module.Version),
+                    name = L[name .. " Version"]..": "..tostring(module.Version).."\n\n",
+                },
+                header2 = {
+                    order = 13,
+                    type = "header",
+                    name = L["Rank Settings"],
                 },
                 mrank = {
                     order = 25,
@@ -1129,7 +1139,7 @@ local function createRankConfig()
                             WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
                         end
                         WoWPro.UpdateGuide("Config: mRank") end,
-                    width = "double"
+                    width = "full"
                 },
         }}
         slot = slot + 1
