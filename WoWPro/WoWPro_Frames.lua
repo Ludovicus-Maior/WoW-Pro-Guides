@@ -896,15 +896,44 @@ function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
     end
 end
 
--- Dropdown Menu --
+--dropdown menu
+local f = CreateFrame("Frame", nil, UIParent, "BasicFrameTemplate")
+f:SetSize(300, 200)
+f:SetPoint("CENTER")
+f:Hide()
+
+f.text = f:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+f.text:SetPoint("LEFT", 10, 0)
+f.text:SetWidth(280)
+
+f.editBox = CreateFrame("EditBox", nil, f, "InputBoxTemplate")
+f.editBox:SetSize(200, 20)
+f.editBox:SetPoint("TOP", f.text, "BOTTOM", 0, -10)
+f.editBox:SetText("https://discord.gg/aarduK7")
+f.editBox:SetAutoFocus(false)
+
+f:SetScript("OnShow", function(self)
+    self.text:SetText("To report a bug, please copy the following URL and paste it into your browser:")
+end)
+
+StaticPopupDialogs["REPORT_BUG"] = {
+    text = "Would you like to report a bug?",
+    button1 = "Yes",
+    button2 = "No",
+    OnAccept = function()
+        f:Show()
+    end,
+    timeout = 0,
+    whileDead = true,
+    hideOnEscape = true,
+    preferredIndex = 3,
+}
+
 function WoWPro:CreateDropdownMenu()
     WoWPro.DropdownMenu = {
-        {text = "WoW-Pro Guides", isTitle = true},
-        {text = "About", func = function()
+        {text = "Select an Option", isTitle = true},
+        {text = "Main Options", func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
-        end},
-        {text = "Display Settings", func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide Display")
         end},
         {text = L["Guide List"], func = function()
             WoWPro.ShowGuideMenu()
@@ -913,9 +942,14 @@ function WoWPro:CreateDropdownMenu()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Current Guide")
         end},
         {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
-        {text = "Proximity Sort", func = function() WoWPro.OrderSteps(true); end }
+        {text = "Proximity Sort", func = function() WoWPro.OrderSteps(true);
+        end },
+        {text = L["Report a Bug"], func = function ()
+            StaticPopup_Show ("REPORT_BUG")
+        end},
     }
 end
+
 
 -- Creating the addon's frames --
 function WoWPro:CreateFrames()
