@@ -4,6 +4,7 @@ WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideSort(guide, 19)
 WoWPro:GuideLevels(guide,58, 60)
 WoWPro:GuideNextGuide(guide, 'Dragonflight Intro')
+WoWPro:GuideClassSpecific(guide,"Evoker")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Zone Ids for this guide
