@@ -294,10 +294,10 @@ C The Deadwind Site|QID|42476|M|35.82,64.01|Z|Deadwind Pass|QO|3|NC|N|Find remai
 C The Deadwind Site|QID|42476|M|34.95,62.51|Z|Deadwind Pass|QO|4|NC|N|Find any text on the ritual.|
 C The Deadwind Site|QID|42476|M|34.23,62.30|Z|Deadwind Pass|QO|5|NC|N|Listen to Merina.|
 C The Deadwind Site|QID|42476|M|34.06,59.77|Z|Deadwind Pass|QO|6|NC|N|Take the Ritual Focus Crystal.|
-C Daio the Decrepit|QID|42477|M|32.27,44.57|Z|Blasted Lands|QO|2|NC|N|Fly to the Tainted Scar and find Daio.|
-C Daio the Decrepit|QID|42477|M|32.45,45.10|Z|Blasted Lands|QO|3|CHAT|N|Speak with Daio|
-C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|Blasted Lands|QO|4|N|Daio summons some demons as a challenge. Kill them.|
-C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|Blasted Lands|QO|5|NC|N|Listen to him talk, eventually he gives you the Demon Stone.|
+C Daio the Decrepit|QID|42477|M|32.27,44.57|Z|17;Blasted Lands|QO|2|NC|N|Fly to the Tainted Scar and find Daio.|
+C Daio the Decrepit|QID|42477|M|32.45,45.10|Z|17;Blasted Lands|QO|3|CHAT|N|Speak with Daio|
+C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|17;Blasted Lands|QO|4|N|Daio summons some demons as a challenge. Kill them.|
+C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|17;Blasted Lands|QO|5|NC|N|Listen to him talk, eventually he gives you the Demon Stone.|
 T Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Teleport back to the Hall of the Guardian to turn in to Alodi.|
 T The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
 T Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|

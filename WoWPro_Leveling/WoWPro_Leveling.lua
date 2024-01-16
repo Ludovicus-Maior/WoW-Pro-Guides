@@ -6,6 +6,7 @@
 
 WoWPro.Leveling = WoWPro:NewModule("Leveling")
 WoWPro:Embed(WoWPro.Leveling)
+WoWPro.Leveling.Version = WoWPro.GetAddOnMetadata("WoWPro_Leveling", "Version")
 
 WoWPro.Leveling.StartGuides = {
     Orc = "JiyDur0105",

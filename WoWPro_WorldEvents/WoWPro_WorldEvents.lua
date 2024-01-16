@@ -6,6 +6,7 @@
 
 WoWPro.WorldEvents = WoWPro:NewModule("WorldEvents")
 WoWPro:Embed(WoWPro.WorldEvents)
+WoWPro.WorldEvents.Version = WoWPro.GetAddOnMetadata("WoWPro_WorldEvents", "Version")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.WorldEvents:OnInitialize()

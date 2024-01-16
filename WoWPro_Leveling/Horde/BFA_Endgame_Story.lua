@@ -134,12 +134,12 @@ C Tracking Tipoff|QID|54106|QO|3|M|81.37,52.68|Z|Redridge Mountains|N|Kill Hunte
 T Tracking Tipoff|QID|54106|M|81.50,52.54|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
 ;Help Saurfang
 A Grim Tidings|QID|54107|PRE|54106|M|81.52,52.78|Z|Redridge Mountains|N|From Zekhan if you decide to ignore your orders and help Saurfang.|
-T Grim Tidings|QID|54107|M|79.78,74.73|Z|Swamp of Sorrows|N|To Zekhan.|
-A A Warrior's Death|QID|54108|PRE|54107|M|79.78,74.73|Z|Swamp of Sorrows|N|From Zekhan.|
-C A Warrior's Death|QID|54108|QO|1|M|80.85,78.34|Z|Swamp of Sorrows|N|Chat with Saurfang to let him know you stand by his side. Kill Lyana and her companions.|
-T A Warrior's Death|QID|54108|M|80.80,78.74|Z|Swamp of Sorrows|N|To Varok Saurfang.|
-A Queen's Favor|QID|54109|PRE|54108|M|80.80,78.71|Z|Swamp of Sorrows|N|From Varok Saurfang.|
-C Queen's Favor|QID|54109|QO|1|M|80.80,78.68|Z|Swamp of Sorrows|CHAT|N|Tell Saurfang you are ready to take the hit.|
+T Grim Tidings|QID|54107|M|79.78,74.73|Z|51;Swamp of Sorrows|N|To Zekhan.|
+A A Warrior's Death|QID|54108|PRE|54107|M|79.78,74.73|Z|51;Swamp of Sorrows|N|From Zekhan.|
+C A Warrior's Death|QID|54108|QO|1|M|80.85,78.34|Z|51;Swamp of Sorrows|N|Chat with Saurfang to let him know you stand by his side. Kill Lyana and her companions.|
+T A Warrior's Death|QID|54108|M|80.80,78.74|Z|51;Swamp of Sorrows|N|To Varok Saurfang.|
+A Queen's Favor|QID|54109|PRE|54108|M|80.80,78.71|Z|51;Swamp of Sorrows|N|From Varok Saurfang.|
+C Queen's Favor|QID|54109|QO|1|M|80.80,78.68|Z|51;Swamp of Sorrows|CHAT|N|Tell Saurfang you are ready to take the hit.|
 T Queen's Favor|QID|54109|M|48.34,71.14|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 N Not the end|AVAILABLE|-54109|N|That's it for patch 8.1. Come back in 8.2 when the story continues.|
 ]]

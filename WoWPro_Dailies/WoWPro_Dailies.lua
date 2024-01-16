@@ -7,6 +7,7 @@
 
 WoWPro.Dailies = WoWPro:NewModule("Dailies")
 WoWPro:Embed(WoWPro.Dailies)
+WoWPro.Dailies.Version = WoWPro.GetAddOnMetadata("WoWPro_Dailies", "Version")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Dailies:OnInitialize()
