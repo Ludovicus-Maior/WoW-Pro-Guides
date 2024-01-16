@@ -472,7 +472,7 @@ function WoWPro:OnInitialize()
 			0.4156862745098039, -- [2]
 		},
 		["steptextsize"] = 16,
-		["pad"] = 14,
+		["pad"] = 5,
 		["steptextcolor"] = {
 			nil, -- [1]
 			0.8392156862745098, -- [2]
