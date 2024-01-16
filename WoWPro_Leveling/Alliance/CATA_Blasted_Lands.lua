@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('CraBla5458', "Leveling", 'Blasted Lands', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Blasted Lands")
 WoWPro:GuideSort(guide, 4)
-WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Hellfire Peninsula')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
@@ -147,9 +147,9 @@ C Nightstalker Legs|QID|26186|L|57178 20|M|38.33,58.23|Z|17;Blasted Lands|N|Kill
 C Tainted Hides|QID|26186|L|57177 4|M|38.33,58.23|Z|17;Blasted Lands|N|Kill bears to get hides. You need 4.|US|
 C Screecher Brain Paste|QID|26186|L|57182 2|M|38.33,58.23|Z|17;Blasted Lands|N|Turn the Screecher Brains into a paste.|U|57179|
 C Crushed Nightstalker Legs|QID|26186|L|57181 20|M|38.33,58.23|Z|17;Blasted Lands|N|Turn the Nightstalker Legs into a powder. You need 20.|U|57178|
-C Tainted Hide Pouch|QID|26186|L|57180 |M|38.33,58.23|Z|17;Blasted Lands|N|Combine the Tainted Hides to create the Tainted Hide Pouch.|U|57177|
-U Demoniac Commixture|QID|26186|L|57183 |M|39.02,57.73|Z|17;Blasted Lands|N|Use the paste and powder to make the mixture.|U|57182|
-U Demoniac Vessel|QID|26186|Z|17;Blasted Lands|N|Use the Tainted Hide Pouch to make the final vessel.|U|57180|
+C Tainted Hide Pouch|QID|26186|L|57180|M|38.33,58.23|Z|17;Blasted Lands|N|Combine the Tainted Hides to create the Tainted Hide Pouch.|U|57177|
+U Demoniac Commixture|ACTIVE|26186|M|39.02,57.73|Z|17;Blasted Lands|N|Use the paste and powder to make the mixture.|U|57182|
+U Demoniac Vessel|ACTIVE|26186|QO|1|Z|17;Blasted Lands|N|Use the Tainted Hide Pouch to make the final vessel.|U|57180|
 T Demoniac Vessel|QID|26186|M|46.36,87.01|Z|17;Blasted Lands|N|To Mayor Charlton Connisport.|
 A The Downfall of Marl Wormthorn|QID|26187|PRE|26186|M|46.36,87.01|Z|17;Blasted Lands|N|From Mayor Charlton Connisport.|
 C The Downfall of Marl Wormthorn|QID|26187|M|34.84,68.11|Z|17;Blasted Lands|N|Kill the demons around him then use the vessel to snap him out of his trance, then defeat him.|U|57185|

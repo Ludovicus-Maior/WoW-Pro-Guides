@@ -522,9 +522,9 @@ C Hiding In Plain Sight|QID|46178|QO|3|M|68.38,45.63|Z|Darnassus|T|Taylenne Swee
 P Krasus' Landing|QID|46178|QO|3|U|140192|N|Hearth to Dalaran and use Windrunner's Sanctuary portal back to Orgrimmar and fly up to the Cataclysm Portal circle.|FACTION|HORDE|ACTIVE|46178|
 P Orgrimmar|QID|46178|QO|3|M|55.28,23.99|Z|Dalaran@Dalaran70|N|Run to Windrunner's Sactuary and use the portal to Orgrimmar.|FACTION|HORDE|ACTIVE|46178|
 P Twilight Highlands|QID|46178|QO|3|M|50.22,39.47|Z|Orgrimmar@Orgrimmar|N|Use the Twilight Highlands portal and fly from there.|FACTION|HORDE|ACTIVE|46178|
-R Ironforge|QID|46178|QO|3|Z|Dun Morogh|M|60,33|N|The next Mark is in Ironforge.|FACTION|HORDE|ACTIVE|46178|
-C Hiding In Plain Sight|QID|46178|M|42.84,50.11|Z|Ironforge|QO|4|T|Corin Twinbellows|N|Stealth into 'The High Seat' area. Wait for Corin to be relatively alone, pick pocket Corin and use his key to remove his armor buff, then kill him.|U|144357|FACTION|HORDE|
-R Deeprun Tram|QID|46178|M|73.06,50.30|Z|Ironforge|N|Take the Deeprun Tram to Stormwind.|FACTION|HORDE|ACTIVE|46178|
+R Ironforge|QID|46178|QO|3|Z|27;Dun Morogh|M|60,33|N|The next Mark is in Ironforge.|FACTION|HORDE|ACTIVE|46178|
+C Hiding In Plain Sight|QID|46178|M|42.84,50.11|Z|48; Loch Modan|QO|4|T|Corin Twinbellows|N|Stealth into 'The High Seat' area. Wait for Corin to be relatively alone, pick pocket Corin and use his key to remove his armor buff, then kill him.|U|144357|FACTION|HORDE|
+R Deeprun Tram|QID|46178|M|73.06,50.30|Z|48; Loch Modan|N|Take the Deeprun Tram to Stormwind.|FACTION|HORDE|ACTIVE|46178|
 C Hiding In Plain Sight|QID|46178|QO|5|M|61.39,70.44|Z|Stormwind City|T|Auctioneer Jaxon|N|The final Mark, Auctioneer Jaxon can be found inside the auction house on the right side.|FACTION|HORDE|
 
 P P Krasus' Landing|QID|46178^46089|U|140192|N|Hearth to Dalaran and return to your guild hall.|ACTIVE|46178^46089|

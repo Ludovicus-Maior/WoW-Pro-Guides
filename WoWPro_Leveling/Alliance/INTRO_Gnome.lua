@@ -107,6 +107,6 @@ C Down with Crushcog! - Orbital Targeting Device|QID|26364|M|58.81,43.61|Z|469|N
 r Sell and Repair|M|49.67,51.92|QID|26364|Z|469|N|Take this opportunity to sell junk and repair with Burdrak Harglhelm.|ACTIVE|26364|T|Burdrak Harglhelm|S|
 T Down with Crushcog!|QID|26364|M|48.75,52.90|Z|469|N|To Jarvi Shadowstep|
 A On to Kharanos|PRE|26364|QID|26373|LEAD|25724|M|48.75,52.90|Z|469|N|From Jarvi Shadowstep.|
-A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|Dun Morogh|N|From Ciara Deepstone, on the road east towards Kharanos.|
+A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|27;Dun Morogh|N|From Ciara Deepstone, on the road east towards Kharanos.|
 ]]
 end)
