@@ -824,14 +824,14 @@ local function SortNestedMenu(menu, top)
             SortNestedMenu(listEntry, false)
         end
     end
-    if table.getn(menu.menuList) == 2 then
-        for key, value in pairs(menu.menuList[2]) do
-            menu[key] = value
-            WoWPro:dbp("SortNestedMenu: Hoisting %q=%q up", tostring(key), tostring(value))
-        end
-        WoWPro:dbp("SortNestedMenu: Hoisted %q up", menu.text)
-        return
-    end
+    -- if table.getn(menu.menuList) == 2 then
+    --     for key, value in pairs(menu.menuList[2]) do
+    --         menu[key] = value
+    --         WoWPro:dbp("SortNestedMenu: Hoisting %q=%q up", tostring(key), tostring(value))
+    --     end
+    --     WoWPro:dbp("SortNestedMenu: Hoisted %q up", menu.text)
+    --     return
+    -- end
     local sort_function = function(a, b)
         WoWPro:dbp("sort_function({isTitle=%q, sortlevel=%q, text=%q} <? {isTitle=%q, sortlevel=%q, text=%q}",
                     tostring(a.isTitle), tostring(a.sortlevel), tostring(a.text),
@@ -839,7 +839,7 @@ local function SortNestedMenu(menu, top)
         if a.isTitle then return true; end
         if b.isTitle then return false; end
         if a.sortlevel then return (a.sortlevel or 100) < (b.sortlevel or 100); end
-        return a.text < b.text
+        return (a.text < b.text) or false
     end
     table.sort(menu.menuList, sort_function)
 end

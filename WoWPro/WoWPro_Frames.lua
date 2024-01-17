@@ -889,7 +889,10 @@ end
 function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
     -- Hack!
     if _G.Settings and _G.Settings.OpenToCategory then
-        _G.Settings.OpenToCategory("WoW-Pro", menu)
+        if menu == "WoW-Pro" then
+            menu = nil
+        end
+        _G.Settings.OpenToCategory("WoWPro", menu)
     else
         _G.InterfaceOptionsFrame_OpenToCategory(menu)
         _G.InterfaceOptionsFrame_OpenToCategory(menu)
@@ -903,9 +906,9 @@ function WoWPro:CreateDropdownMenu()
         {text = "About", func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
         end},
-        {text = "Display Settings", func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide Display")
-        end},
+        -- {text = "Display Settings", func = function()
+        --     WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide Display")
+        -- end},
         {text = L["Guide List"], func = function()
             WoWPro.ShowGuideMenu()
         end},
@@ -913,7 +916,8 @@ function WoWPro:CreateDropdownMenu()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Current Guide")
         end},
         {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
-        {text = "Proximity Sort", func = function() WoWPro.OrderSteps(true); end }
+        {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true); end },
+        {text = L["Quest Picker"], func = WoWPro.PickQuestline }
     }
 end
 
