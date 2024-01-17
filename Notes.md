@@ -1,3 +1,15 @@
+# Release 2024.01,17
+## Bug Fixes
+* Config panel completely reworked
+* Current Guides is now a menu not a panel
+* Window Position reworked
+* Update Retail Interface to 100205
+* About 500 lines of code reworked, again, many other bug fixes!
+## Guide Updates
+* Complete re-org, can say what changed, 291 guides or so
+* Many things changed and by the next release, *everything* will have been touched
+* New Reclaiming Gilneas Guide
+
 # Release 2023.11.15.B
 ## Bug Fixes
 * Fixed  NOTAUTO for QUEST_DETAIL_PUNTED NPCs
