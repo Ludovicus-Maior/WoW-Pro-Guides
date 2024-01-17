@@ -251,7 +251,7 @@ function WoWPro:LogClear(where)
         WoWProDB.global.Log = {}
     end
     WoWPro.Serial = 999999999
-    WoWPro:Print("Log Reset from %s", where)
+    WoWPro:print("Log Reset from %s", where)
 end
 WoWPro.Faction = _G.UnitFactionGroup("player")
 WoWPro:LogClear("Addon Load")
