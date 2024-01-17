@@ -113,9 +113,9 @@ T The Ebon Scales|QID|65052|M|81.22,53.97|Z|2118; The Forbidden Reach|N|To Scale
 A Rally to Emberthal|QID|65057|PRE|65052|M|81.15,54.02|Z|2118; The Forbidden Reach|N|From Scalecommander Sarkareth.|
 R Soar Enhancer|ACTIVE|65057|QO|1|M|80.63,53.53|Z|2118; The Forbidden Reach|N|[color=FFFF00]OPTIONAL[/color]\nUse the Soar Enhancer for a free flight to The Old Weyrn Grounds.|IZ|13808; Stormsunder Crater|
 T Rally to Emberthal|QID|65057|M|44.23,61.16|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
-A Preservation or Devastation|QID|65701|PRE|65057|M|44.82,57.71|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
-C Preservation or Devastation|QID|65701|QO|1|M|PLAYER|NC|N|Choose your class specialization spec.|
-T Preservation or Devastation|QID|65701|M|44.82,57.71|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
+A Preservation, Augmentation, or Devastation|QID|65701|PRE|65057|M|44.82,57.71|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
+C Preservation, Augmentation, or Devastation|QID|65701|QO|1|M|PLAYER|NC|N|Choose your class specialization spec.|
+T Preservation, Augmentation, or Devastation|QID|65701|M|44.82,57.71|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
 A The Froststone Vault|QID|65084|PRE|65701|M|44.82,57.71|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
 R Froststone Vault|QID|65084|M|47.25,52.55;56.78,28.31|CS|Z|2118; The Forbidden Reach|N|Use your [color=33fff9]Soar[/color] ability to get there.\n[color=FF0000]NOTE: [/color]The closer you start, the closer you'll get before your Soar wears off.|
 T The Froststone Vault|QID|65084|M|56.73,28.18|Z|2118; The Forbidden Reach|N|To Scalecommander Sarkareth.|
@@ -171,19 +171,20 @@ T Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|To Wrathi
 A Spiritual Allies|QID|66237|M|45.61,12.88|Z|1; Durotar|N|From Spiritwalker Ebonhorn.|FACTION|Horde|
 T Spiritual Allies|QID|66237|M|45.56,12.94|Z|1; Durotar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
 A Ground Leave|QID|66534|M|45.56,12.94|Z|1; Durotar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
-R Portal Room|ACTIVE|66534|QO|4|M|45.56,12.94|Z|85; Orgrimmar|N|Visit the Portal Room.|FACTION|Horde|
+R Portal Room|ACTIVE|66534|QO|4|M|57.39,89.77|Z|85; Orgrimmar|N|Visit the Portal Room.|FACTION|Horde|
 R Bank|ACTIVE|66534|QO|2|M|49.05,82.43|Z|85; Orgrimmar|N|Visit the Bank.|FACTION|Horde|
 R Auction House|ACTIVE|66534|QO|1|M|53.36,74.17|Z|85; Orgrimmar|N|Visit the Auction House.|FACTION|Horde|
-R Embassy|ACTIVE|66534|QO|3|M|53.36,74.17|Z|85; Orgrimmar|N|Visit the Embassy.|FACTION|Horde|
+R Embassy|ACTIVE|66534|QO|3|M|38.02,80.83|Z|85; Orgrimmar|N|Visit the Embassy.|FACTION|Horde|
 T Ground Leave|QID|66534|M|50.73,63.50;44.01,38.24|CS|Z|85; Orgrimmar|N|To Scalecommander Cindrethresh.\n[color=FF0000]NOTE: [/color]Use the elevator to get to the upper area where he's located.|FACTION|Horde|
 A Aspectral Invitation|QID|65437|PRE|66534|M|44.05,37.95|Z|85; Orgrimmar|N|From Ebyssian.|FACTION|Horde|
 C Aspectral Invitation|QID|65437|M|44.05,37.95|Z|85; Orgrimmar|QO|1|CHAT|N|Speak with Ebyssian.|FACTION|Horde|
 T Aspectral Invitation|QID|65437|M|44.05,37.95|Z|85; Orgrimmar|N|To Ebyssian.|FACTION|Horde|
 A An Iconic, Draconic Look|QID|65613|PRE|65437|M|44.10,38.00|Z|85; Orgrimmar|N|From Ebyssian.|FACTION|Horde|
-C Ebyssian|QID|65613|QO|1;2|M|44.05,37.95|Z|85; Orgrimmar|CHAT|N|Ask Ebyssian about Visage Form.|FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|QO|1|M|44.05,37.95|Z|85; Orgrimmar|CHAT|N|Ask Ebyssian about Visage Form.|FACTION|Horde|
+C An Iconic, Draconic Look|QID|65613|QO|2|M|44.05,37.95|Z|85; Orgrimmar|CHAT|N|Learn about Visage Form.|FACTION|Horde|
 C An Iconic, Draconic Look|QID|65613|QO|3|M|PLAYER|EAB|N|Use the Extra Ability Button to learn [color=33fff9]Visage[/color] and [color=33fff9]Chosen Identity[/color].|FACTION|Horde|
 T An Iconic, Draconic Look|QID|65613|M|44.05,37.95|Z|85; Orgrimmar|N|To Ebyssian.|FACTION|Horde|
-A I Believe You Can Fly|QID|32674|PRE|65613|M|PLAYER|N|From UI popup.|FACTION|Horde|
+;A I Believe You Can Fly|QID|32674|PRE|65613|M|PLAYER|N|From UI popup.|FACTION|Horde|
 A The Dark Talons|QID|72256|PRE|65613|M|44.01,38.24|Z|85; Orgrimmar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
 A Expeditionary Coordination|QID|65443|PRE|65613|M|44.19,37.79|Z|85; Orgrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|
 T I Believe You Can Fly|QID|32674|M|48.90,59.28|Z|85; Orgrimmar|N|To Maztha, and train flying from her.|FACTION|Horde|
