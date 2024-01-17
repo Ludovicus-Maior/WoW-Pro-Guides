@@ -47,7 +47,7 @@ T Whispers on the Winds|QID|65439|M|55.84,12.75|Z|1; Durotar|N|To Ebyssian.|FACT
 t The Call of the Isles|QID|70197|M|22.71,55.66|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 t The Call of the Isles|QID|70198|M|55.81,12.67|Z|1; Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
 A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
-A To the Dragon Isles!|QID|65444|PRE|65439|M|22.67,55.72|Z|1; Durotar|N|From Naleidea Rivergleam.|FACTION|Horde|
+A To the Dragon Isles!|QID|65444|PRE|65439|M|55.85,12.62|Z|1; Durotar|N|From Naleidea Rivergleam.|FACTION|Horde|
 C To the Dragon Isles!|QID|67700|QO|1|M|22.49,56.45|Z|84; Stormwind City|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.\n[color=FF0000] NOTE: [/color]The boat to Boralas is also a Kul Tiran style boat and docks here too; get on the right one.|FACTION|Alliance|
 C To the Dragon Isles!|QID|65444|M|55.95,13.02|Z|1; Durotar|QO|1|NC|N|Wait for the Defiant Dragonscale at Durotar Zepplin Tower.|FACTION|Horde|
 b To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022; The Waking Shores|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
