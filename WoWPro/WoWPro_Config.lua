@@ -1138,8 +1138,21 @@ local function createRankConfig()
     return ranks
 end
 
-
-
+local function createActionConfig()
+    local actions = {
+        name = L["Actions"],
+        type = "group",
+        args = {
+                header = {
+                    order = 10,
+                    type = "header",
+                    name = L["Step Action Description"],
+            }
+        }
+    }
+    WoWPro.InsertActionDescriptions(actions.args, 20)
+    return actions
+end
 
 function WoWPro.CreateConfig()
     local topConfig = {
@@ -1151,6 +1164,7 @@ function WoWPro.CreateConfig()
             displayConfig = createDisplayConfig(),
             profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB),
             rankConfig = createRankConfig(),
+            actionConfig = createActionConfig(),
             expertConfig = createExpertOptions()
         }
     }
@@ -1159,6 +1173,7 @@ function WoWPro.CreateConfig()
     topConfig.args.displayConfig.order=10
     topConfig.args.profileConfig.order=11
     topConfig.args.rankConfig.order=12
+    topConfig.args.actionConfig.order=13
     topConfig.args.expertConfig.order=-1
 
     -- Register your options with AceConfig
