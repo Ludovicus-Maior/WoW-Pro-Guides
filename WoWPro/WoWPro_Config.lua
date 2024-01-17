@@ -1072,6 +1072,11 @@ local function createRankConfig()
                     type = "description",
                     name = L["Version"]..": "..WoWPro.Version,
                 },
+                header2 = {
+                    order = 13,
+                    type = "header",
+                    name = L["Rank Settings"],
+                },
                 grank = {
                     order = 25,
                     type = "range",
@@ -1084,7 +1089,7 @@ local function createRankConfig()
                             WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
                         end
                         WoWPro.UpdateGuide("Config: GRank") end,
-                    width = "double"
+                    width = "full"
                 },
                 trank = {
                     order = 26,
@@ -1098,7 +1103,7 @@ local function createRankConfig()
                             WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
                         end
                         WoWPro.UpdateGuide("Config: TRank") end,
-                    width = "double"
+                    width = "full"
                 }
             }
         }
@@ -1116,6 +1121,12 @@ local function createRankConfig()
                     order = 11,
                     type = "description",
                     name = L[name .. " Version"]..": "..tostring(module.Version),
+                    name = L[name .. " Version"]..": "..tostring(module.Version).."\n\n",
+                },
+                header2 = {
+                    order = 13,
+                    type = "header",
+                    name = L["Rank Settings"],
                 },
                 mrank = {
                     order = 25,
@@ -1129,9 +1140,9 @@ local function createRankConfig()
                             WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
                         end
                         WoWPro.UpdateGuide("Config: mRank") end,
-                    width = "double"
+                    width = "full"
                 },
-        }}
+            }}
         slot = slot + 1
     end
     WoWPro.rankConfig = ranks
@@ -1143,6 +1154,7 @@ local function createActionConfig()
         name = L["Actions"],
         type = "group",
         args = {
+
                 header = {
                     order = 10,
                     type = "header",
