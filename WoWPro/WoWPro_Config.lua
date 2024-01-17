@@ -614,7 +614,7 @@ end
 
 local function createMainConfig()
     return {
-        name = L["Master"],
+        name = L["Main"],
         type = "group",
         args = {
             version = {
