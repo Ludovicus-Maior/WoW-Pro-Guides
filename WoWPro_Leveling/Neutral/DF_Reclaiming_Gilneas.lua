@@ -72,7 +72,7 @@ A What We Left Behind|QID|78190|PRE|78189|M|58.76,47.85|Z|217;Ruins of Gilneas|N
 T What We Left Behind|QID|78190|M|48.75,52.82|Z|217;Ruins of Gilneas|N|To Genn Greymane.|FACTION|ALLIANCE|
 
 A The Wall Between Us|QID|79137|PRE|78189|M|58.89,48.51|Z|217;Ruins of Gilneas|N|From Calia Menethil.|FACTION|HORDE|
-T The Wall Between Us|QID|79137|M|43.66,73.24|21;Silverpine Forest|N|To Calia Menethil.|FACTION|HORDE|
+T The Wall Between Us|QID|79137|M|43.66,73.24|Z|21;Silverpine Forest|N|To Calia Menethil.|FACTION|HORDE|
 
 ]]
 end)
