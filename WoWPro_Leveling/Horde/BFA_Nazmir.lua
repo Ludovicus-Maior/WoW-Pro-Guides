@@ -32,10 +32,10 @@ C Curse of Jani|QID|47442|QO|2|M|40.10,19.30|Z|1165;Dazar'alor|N|Attack Nokano t
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|1165;Dazar'alor|N|To Jani.\n[color=FF0000]NOTE: [/color]You have now opened up Jani's cursed treasure quests all over Zandalar.|
 ;  Deep in the Swamp
 T Journey to Nazmir|QID|47103|Z|1165;Dazar'alor|M|51.66,41.31|N|To Rokhan.|
-A Nazmir, the Forbidden Swamp|QID|48535|PRE|47103|LEAD|47105|M|51.66,41.31|Z|Dazar'alor|Z|0862;Nazmir|N|From Rokhan.|
-C Nazmir, the Forbidden Swamp|QID|48535|M|51.94,41.20|Z|Dazar'alor|QO|1|CHAT|Z|0862;Nazmir|N|Ask Paku'ai Rokota for a ride (chat, not flight path)|
-R Nazmir|AVAILABLE|47105|M|53.75,19.19|Z|0862;Zuldazar|Z|0862;Nazmir|N|Run down to the waypoint and cross the bridge to enter Nazmir.|
-C Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|QO|2|NC|Z|0862;Nazmir|N|Meet with Princess Talanji.|
+A Nazmir, the Forbidden Swamp|QID|48535|PRE|47103|LEAD|47105|M|51.66,41.31|Z|Dazar'alor|N|From Rokhan.|
+C Nazmir, the Forbidden Swamp|QID|48535|M|51.94,41.20|Z|Dazar'alor|QO|1|CHAT|N|Ask Paku'ai Rokota for a ride (chat, not flight path)|
+R Nazmir|AVAILABLE|47105|M|53.75,19.19|Z|0862;Zuldazar|N|Run down to the waypoint and cross the bridge to enter Nazmir.|
+R Nazmir, the Forbidden Swamp|ACTIVE|48535|QO|2|M|42.99,86.03|Z|0862;Nazmir|N|Meet with Princess Talanji.|
 T Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|Z|0862;Nazmir|N|To Princess Talanji.|
 A Into The Darkness|QID|47105|M|42.99,86.03|Z|0862;Nazmir|N|From Princess Talanji.|
 $ Venomous Seal|QID|49889|M|46.21,82.92|Z|0862;Nazmir|N|Located inside the building.\nTreasure to loot for resources and artifact power.\n[color=FF0000]NOTE: [/color]Do this quick because the room is filled with poison gas.|RANK|2|
@@ -325,11 +325,11 @@ A Catch Me if You Can|QID|49781|PRE|49780&49779|M|24.13,53.21|Z|0862;Nazmir|N|Fr
 C Catch Me if You Can|QID|49781|M|28.18,53.39|Z|0862;Nazmir|N|After you hop Zaluto's raptor, it'll run towards Zulajin and stop. Use the "1" key to get Zulajin to chase you towards the puddle of tar. When the '1' key becomes available again, use it. Retarget Zulajin again and when the '1' key becomes available again, spam it until Zulajin is dead.|T|Zulajin|V|
 T Catch Me if You Can|QID|49781|M|28.36,52.03|Z|0862;Nazmir|N|To Jin'Tiki.|
 N Expert Riding|AVAILABLE|32674|SPELL|Expert Riding;34090|Z|0862;Nazmir|N|Now is a good time to go visit your Riding Trainer.\nHearth and use the portal to get to Orgrimmar.|
-T I Believe You Can Fly|ACTIVE|32674|M|48.91,59.25|Z|Orgrimmar|SPELL|Expert Riding;34090|Z|0862;Nazmir|N|To the flying trainer, Maztha, at the Skyway in Orgrimmar.\n[color=FF0000]NOTE: [/color]This quest is auto-accepted when you arrive in Orgrimmar.|
-= Expert Riding|AVAILABLE|-32674|ACTIVE|-32674|M|48.91,59.25|Z|Orgrimmar|SPELL|Expert Riding;34090|Z|0862;Nazmir|N|Learn Expert Riding from Maztha.\n[color=FF0000]NOTE: [/color]Don't forget to buy a flying mount if you don't have one.|
+T I Believe You Can Fly|ACTIVE|32674|M|48.91,59.25|Z|Orgrimmar|N|To the flying trainer, Maztha, at the Skyway in Orgrimmar.\n[color=FF0000]NOTE: [/color]This quest is auto-accepted when you arrive in Orgrimmar.|SPELL|Expert Riding;34090|
+= Expert Riding|AVAILABLE|-32674|ACTIVE|-32674|M|48.91,59.25|Z|Orgrimmar|N|Learn Expert Riding from Maztha.\n[color=FF0000]NOTE: [/color]Don't forget to buy a flying mount if you don't have one.|SPELL|Expert Riding;34090|
 H The Great Seal|ACTIVE|49064|Z|0862;Nazmir|N|Use your hearth to get back to on track.\n[color=FF0000]NOTE: [/color]Skip this step if your hearth is on cooldown or to a different location.|
-P Zuldazar|ACTIVE|49064|M|58.54,91.33|Z|Orgrimmar|Z|0862;Nazmir|N|Take the portal in the Pathfinder's Den to get back to the Great Seal.|IZ|Orgrimmar|
-F Zo'bal Ruins|ACTIVE|49064|M|51.90,41.22|Z|Dazar'alor|Z|0862;Nazmir|N|Fly to Zo'bal Ruins in Nazmir.|IZ|-Nazmir|
+P Zuldazar|ACTIVE|49064|M|58.54,91.33|Z|Orgrimmar|N|Take the portal in the Pathfinder's Den to get back to the Great Seal.|IZ|Orgrimmar|
+F Zo'bal Ruins|ACTIVE|49064|M|51.90,41.22|Z|Dazar'alor|N|Fly to Zo'bal Ruins in Nazmir.|IZ|-Nazmir|
 K King Kooba|QID|49317|M|53.63,42.64|QO|1|RARE|ITEM|161221|Z|0862;Nazmir|N|Silver Elite to kill for resources and artifact power.|T|King Kooba|RANK|2|
 ;  Turtle Power
 R Natha'vor|ACTIVE|49064|M|53.31,39.30|Z|0862;Nazmir|N|Follow the road east to Nath'vor.|
@@ -410,7 +410,7 @@ T Jungo, Herald of G'huun|QID|49136|M|56.57,26.68|Z|0862;Nazmir|N|To Princess Ta
 A Torga's Eternal Return|QID|49160|PRE|49136|M|56.51,26.64|Z|0862;Nazmir|N|From Lashk.|
 C Torga's Eternal Return|QID|49160|M|56.51,26.64|Z|0862;Nazmir|N|Use the scroll to put Torga's spirit to rest.|U|153131|NC|
 T Torga's Eternal Return|QID|49160|M|56.59,26.75|Z|0862;Nazmir|N|To Kisha.|
-A To Gloom Hollow|QID|49902|MPRE|49160||56.59,26.75|Z|0862;Nazmir|N|From Kisha.|
+A To Gloom Hollow|QID|49902|PRE|49160|M|56.59,26.75|Z|0862;Nazmir|N|From Kisha.|
 R Razorjaw River|ACTIVE|49902|M|55.79,34.32|Z|0862;Nazmir|N|Follow whats left of the road across the Razorjaw River to find the Tortollans.|
 C Crez|QID|49902|M|55.73,39.72|QO|1<1|CHAT|Z|0862;Nazmir|N|Walk over and talk to Crez.|
 K Scout Skrasniss|QID|48972|M|58.84,38.98|QO|1|RARE|ITEM|160951|Z|0862;Nazmir|N|Silver Elite to kill and loot for resources and artifact power.|T|Scout Skrasniss|RANK|2|
@@ -525,7 +525,7 @@ A Revenge: Served Hot|QID|47599|PRE|47631|M|74.76,39.01|Z|0862;Nazmir|N|From Tic
 ;A The Libation's Liberation|QID|47756|M|75.05,37.17|Z|0862;Nazmir|N|Bonus Objective - Autoaccepted.|LVL|-50|  ; Comes available after accepting 47597 and 47599 ** Not required - Hendo72
 C The Libation's Liberation|QID|47756|M|75.05,37.17|Z|0862;Nazmir|N|Bonus Objective - Kill Naga and bandage injured soldiers to complete.|S|
 C Revenge: Served Hot|QID|47599|QO|1|M|79.96,32.26|Z|0862;Nazmir|N|Target a Vilescale Behemoth and use the provided Rocket Laucher.|T|Vilescale Behemoth|U|151363|S|
-K Krubbs|QID|48052|QO|1|M|75.85,36.22|ITEM|161110||Z|0862;Nazmir|N|Silver Elite to kill for resources and artifact power.|T|KrubbsRANK|2|RARE|
+K Krubbs|QID|48052|QO|1|M|75.85,36.22|ITEM|161110|Z|0862;Nazmir|N|Silver Elite to kill for resources and artifact power.|T|Krubbs|RANK|2|RARE|
 $ Lucky Horace's Lucky Chest|QID|49867|M|77.68,36.15|Z|0862;Nazmir|N|Loot for resources and artifact power.|RANK|2|
 C No Goblin Left Behind|QID|47597|QO|2|M|79.30,36.73|Z|0862;Nazmir|N|Click on the Airtight Escape Pod to rescue Newt.|H|
 C No Goblin Left Behind|QID|47597|QO|3|M|79.97,32.35|Z|0862;Nazmir|N|Click on the cage to rescue Volt.|H|
@@ -540,7 +540,7 @@ T No Goblin Left Behind|QID|47597|M|82.37,27.31|Z|0862;Nazmir|N|To Patch.|
 A Head of the Viper|QID|47711|PRE|47599&47597|M|82.37,27.31|Z|0862;Nazmir|N|From Patch.|
 A There Is No Plan "B"|QID|47596|PRE|47599&47597|M|82.38,27.21|Z|0862;Nazmir|N|From Ticker.|
 A Pilfering and Fencing|QID|47598|PRE|47599&47597|M|82.27,27.42|Z|0862;Nazmir|N|From Newt.|
-C Pilfering and Fencing|QID|47598|MQO|1||77.90,24.88|Z|0862;Nazmir|N|Kill Naga and loot them to obtain the Ancient Titan Relics.|S|
+C Pilfering and Fencing|QID|47598|QO|1|M|77.90,24.88|Z|0862;Nazmir|N|Kill Naga and loot them to obtain the Ancient Titan Relics.|S|
 C There Is No Plan "B"|QID|47596|QO|2|M|79.16,27.42|Z|0862;Nazmir|N|Pick up Broken Elevating Gears.|H|
 K Lord Slithin|ACTIVE|47711|QO|1|M|78.67,25.28|Z|0862;Nazmir|N|Kill Lord Slithin.|T|Lord Slithin|
 C There Is No Plan "B"|QID|47596|QO|1|M|77.63,25.28|Z|0862;Nazmir|N|Pick up the Damaged A.M.O.D. Barrel|H|
@@ -650,7 +650,7 @@ A The Crawg Ma'da|QID|50083|PRE|50323|M|45.34,58.59|Z|0862;Nazmir|N|From Rokhan.
 K Amaka the Crawg Ma'da|ACTIVE|50083|QO|2|M|46.99,54.11|U|156868|Z|0862;Nazmir|N|Optionally, if you have one, you can use the poison gland to weaken and do additional damage to Amaka.|T|Amaka the Crawg Ma'da|
 T The Crawg Ma'da|QID|50083|M|48.53,53.54|Z|0862;Nazmir|N|To Rokhan.|
 A A Message of Blood and Fire|QID|50085|PRE|50083|M|48.53,53.54|Z|0862;Nazmir|N|From Rokhan.|RANK|3|;may be spurious, but quest isnt avail until you turn in The Crawg Ma'da ** This quest is the follow-up to The Crawg Ma'da... not spurious. - Hendo72
-;A Raiding the Raiders|QID|50080|MPRE|50079&50081||48.46,52.69|Z|0862;Nazmir|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|3| ** Not required - Hendo72
+;A Raiding the Raiders|QID|50080|PRE|50079&50081|M|48.46,52.69|Z|0862;Nazmir|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|3| ** Not required - Hendo72
 C Raiding the Raiders|QID|50080|M|48.46,52.69|S|Z|0862;Nazmir|N|Bonus Objective - Kill blood trolls, rescue captives and pick up the crates to complete.|
 C A Message of Blood and Fire|QID|50085|M|48.85,52.58|Z|0862;Nazmir|N|Use the wand to set huts on fire, some will take more than one torching to find the right spot.|U|156931|S|NC|
 K Wardrummer Zurula|QID|48623|M|48.96,50.83|QO|1|Z|0862;Nazmir|N|Up this tower to find yet another Silver Elite to kill for artifact power and resources.|T|Wardrummer Zurula|RANK|3|RARE|;item unknown
@@ -686,9 +686,9 @@ K Aiji the Accursed|ACTIVE|50976|QO|2|M|52.99,72.06|Z|0862;Nazmir|N|Kill Aiji th
 T An Ancient Curse|QID|50976|M|52.99,72.06|Z|0862;Nazmir|N|To UI Alert.|
 K Azerite-Infused Elemental|QID|50569|M|54.01,81.15|QO|1|Z|0862;Nazmir|N|Silver Elite for artifact power and resources.|T|Azerite-Infused Elemental|RANK|3|RARE| ;item unknown
 H The Great Seal|ACTIVE|50808|M|51.91,65.56|Z|0862;Nazmir|N|To The Great Seal to turn in the final quest.|
-T Halting the Empire's Fall|QID|50808|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|Z|0862;Nazmir|N|To Baine Bloodhoof.|
-A The Blood Gate|QID|47199|PRE|50963&50808|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|Z|0862;Nazmir|N|From Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar.| ;prolly spurious as its prolly an ach it depends on instead, but...quest not avail until you turn in those 2 quests.
-A Pick next zone|QID|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|Z|0862;Nazmir|N|At scouting map.|
+T Halting the Empire's Fall|QID|50808|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
+A The Blood Gate|QID|47199|PRE|50963&50808|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar.| ;prolly spurious as its prolly an ach it depends on instead, but...quest not avail until you turn in those 2 quests.
+A Pick next zone|QID|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
 J Back to Zuldazar|QID|47199|Z|0862;Nazmir|N|This ends the Nazmir guide, The Blood Gate (required for Pathfinder I) is completed in the Zuldazar guide, which will open when you check off this step.|GUIDE|EmmZuldazar|
 ]]
 end)
