@@ -1120,7 +1120,6 @@ local function createRankConfig()
                 version = {
                     order = 11,
                     type = "description",
-                    name = L[name .. " Version"]..": "..tostring(module.Version),
                     name = L[name .. " Version"]..": "..tostring(module.Version).."\n\n",
                 },
                 header2 = {
