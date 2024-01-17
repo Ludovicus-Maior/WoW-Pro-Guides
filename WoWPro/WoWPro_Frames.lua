@@ -892,7 +892,7 @@ function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
         if menu == "WoW-Pro" then
             menu = nil
         end
-        _G.Settings.OpenToCategory("WoW-Pro", menu)
+        _G.Settings.OpenToCategory("WoWPro", menu)
     else
         _G.InterfaceOptionsFrame_OpenToCategory(menu)
         _G.InterfaceOptionsFrame_OpenToCategory(menu)
