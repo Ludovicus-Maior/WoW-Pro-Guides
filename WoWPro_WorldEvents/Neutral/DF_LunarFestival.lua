@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("DF_LunFesEld",'WorldEvents',"Dragonflight Lunar Festival Elders", "Emmaleah", "Neutral")
-WoWPro.WorldEvents:GuideHoliday(guide,"DFLunarFestival")
+WoWPro.WorldEvents:GuideHoliday(guide,"DF Lunar Festival")
 WoWPro:GuideLevels(guide)
 WoWPro:GuideSteps(guide, function()
 return [[

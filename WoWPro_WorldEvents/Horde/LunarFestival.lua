@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("CraLunFesEldH",'WorldEvents',"Lunar Festival Elders Guide", "Crackerhead22", "Horde")
 WoWPro:GuideLevels(guide)
-WoWPro.WorldEvents:GuideHoliday(guide,"LunarFestival")
+WoWPro.WorldEvents:GuideHoliday(guide,"Lunar Festival")
 WoWPro:GuideIcon(guide,"ACH",914)
 WoWPro:GuideSteps(guide, function()
 return [[

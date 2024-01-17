@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("MidsummerA",'WorldEvents',"Midsummer Fire Festival", "WoWPro Team", "Alliance", 2)
 WoWPro:GuideLevels(guide)
-WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer")
+WoWPro.WorldEvents:GuideHoliday(guide,"Midsummer Fire Festival")
 WoWPro:GuideSteps(guide, function()
 return [[
 
