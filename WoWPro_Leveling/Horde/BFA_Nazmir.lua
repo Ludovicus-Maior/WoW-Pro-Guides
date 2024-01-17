@@ -208,7 +208,7 @@ A The Forlorn Soul|QID|49432|M|42.58,31.46|Z|0862;Nazmir|N|From Keula.|
 A 'Til Death Do Us Part|QID|47248|M|36.66,27.39|Z|0862;Nazmir|N|From Theurgist Salazae.|RANK|2|
 C That Which Haunts the Dead|QID|47247|M|36.12,29.87|QO|2|Z|0862;Nazmir|N|Kill Hex Priestess Tizeja.|
 K Azerite-Infused Slag|QID|50563|M|37.30,26.24;33.34,27.53|CS|QO|1|Z|0862;Nazmir|N|Silver Elite to kill for resources and artifact power.|T|Azerite-Infused Slag|RANK|2|RARE|;item unknown
-C Remnants of the Damned|QID|47491|M|40.46,30.25|Z|0862;Nazmir|N|Decaying Bloodstones drop from the skeletal Reanimated and Bound Horrors. Kill S|them.|
+C Remnants of the Damned|QID|47491|M|40.46,30.25|Z|0862;Nazmir|N|Decaying Bloodstones drop from the skeletal Reanimated and Bound Horrors. Kill them.|S|
 C The Forlorn Soul|QID|49432|M|39.58,31.56;39.59,34.99|CS|QO|1|Z|0862;Nazmir|N|Enter the Catacomb entrance through the Court of Spirits to find Keula's mother in the room at the bottom of the stairs. Click on the sarcophagus lid to open it.\n[color=FF0000]NOTE: [/color]You'll be ambushed by 2 mobs when you enter the room.|H|
 K The Matron Shaazula|ACTIVE|49432|M|39.65,34.94|QO|2|Z|0862;Nazmir|N|Subdue Matron Shaazula.|T|The Matron Shaazula|
 K Za'amar the Queen's Blade|QID|49469|M|38.77,28.76;38.84,26.72|CS|RARE|ITEM|161095|QO|1|Z|0862;Nazmir|N|Using the northwest entrance in Court of Spirits, enter the Necropolis Catacombs to find this Silver Elite to kill and loot for a bit of resources and artifact power.|T|Za'amar the Queen's Blade|RANK|2|
