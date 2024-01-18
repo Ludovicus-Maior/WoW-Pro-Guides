@@ -490,14 +490,14 @@ T The Warfront Looms|QID|53207|M|52.92,94.52|Z|Dazar'alor|N|To Throk at the War 
 A To the Front|QID|53208|M|52.92,94.52|Z|Dazar'alor|N|From Throk.|LVL|50|
 ; A Warfront Contribution|QID|53209|M|52.92,94.52|Z|Dazar'alor|N|From Throk.|LVL|50|
 P Arathi Highlands|ACTIVE|53208|M|51.76,94.44|Z|Dazar'alor|CHAT|N|Talk to Druza Netherfang for a port to Arathi Highlands|
-T To the Front|QID|53208|M|27.52,31.84|Z|Arathi Highlands|N|To Wistel Silversnitch.|
-A Touring the Front|QID|53210|PRE|53208|M|27.52,31.84|Z|Arathi Highlands|
-C Touring the Front|QID|53210|QO|3|M|25.88,29.63|Z|Arathi Highlands|CHAT|N|Chat with Flightgineer Krazzle.|
-C Touring the Front|QID|53210|QO|2|M|18.14,28.75|Z|Arathi Highlands|CHAT|N|Chat with Graul at Hatchet Ridge.|
-C Touring the Front|QID|53210|QO|1|M|33.31,36.30|Z|Arathi Highlands|CHAT|N|Chat with Foreman Drogg inside Drywhisker Mine.|
-T Touring the Front|QID|53210|M|27.52,31.84|Z|Arathi Highlands|N|To Wistel Silversnitch.\n[color=FF0000]NOTE: [/color]You can do the World Quests first if you so choose.|
-A Back to Zuldazar|QID|53212|PRE|53210|M|27.52,31.84|Z|Arathi Highlands|N|From Wistel Silversnitch.|
-P Zuldazar|ACTIVE|53212|M|27.30,29.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Netherfang for a port back to Zuldazar.\n[color=FF0000]NOTE: [/color]Or just use the portal beside her.|
+T To the Front|QID|53208|M|27.52,31.84|Z|14; Arathi Highlands|N|To Wistel Silversnitch.|
+A Touring the Front|QID|53210|PRE|53208|M|27.52,31.84|Z|14; Arathi Highlands|
+C Touring the Front|QID|53210|QO|3|M|25.88,29.63|Z|14; Arathi Highlands|CHAT|N|Chat with Flightgineer Krazzle.|
+C Touring the Front|QID|53210|QO|2|M|18.14,28.75|Z|14; Arathi Highlands|CHAT|N|Chat with Graul at Hatchet Ridge.|
+C Touring the Front|QID|53210|QO|1|M|33.31,36.30|Z|14; Arathi Highlands|CHAT|N|Chat with Foreman Drogg inside Drywhisker Mine.|
+T Touring the Front|QID|53210|M|27.52,31.84|Z|14; Arathi Highlands|N|To Wistel Silversnitch.\n[color=FF0000]NOTE: [/color]You can do the World Quests first if you so choose.|
+A Back to Zuldazar|QID|53212|PRE|53210|M|27.52,31.84|Z|14; Arathi Highlands|N|From Wistel Silversnitch.|
+P Zuldazar|ACTIVE|53212|M|27.30,29.80|Z|14; Arathi Highlands|CHAT|N|Talk to Druza Netherfang for a port back to Zuldazar.\n[color=FF0000]NOTE: [/color]Or just use the portal beside her.|
 T Back to Zuldazar|QID|53212|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
 C Warfront Contribution|QID|53209|QO|1|M|51.74,95.44|Z|Dazar'alor|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
 T Warfront Contribution|QID|53209|M|52.92,94.52|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
