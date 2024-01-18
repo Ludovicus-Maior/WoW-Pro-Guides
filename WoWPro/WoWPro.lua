@@ -861,7 +861,8 @@ function WoWPro.ShowGuideMenu()
         WoWPro.BuildGuideInMenuList()
     end
     local menuFrame = _G.CreateFrame("Frame", "ExampleMenuFrame", _G.UIParent, "UIDropDownMenuTemplate")
-    _G.EasyMenu(WoWPro.GuideMenuList, menuFrame, "cursor", 0 , 0, "MENU")
+    menuFrame:SetPoint("Center", _G.UIParent, "Center")
+    _G.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
 end
 
 function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
