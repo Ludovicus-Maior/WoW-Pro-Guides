@@ -237,8 +237,6 @@ T A Sliver of Silver|QID|72444|M|60.39,58.82|Z|2025;Thaldraszus|N|To Nozdormu.|
 ; Ch 6|In the Halls of Titans - |DFREN|Dragonscale Exp;2507;24|
 t A Vault Unsealed|QID|69097|M|47.11,82.58|Z|2022;The Waking Shores|N|To Cataloger Jakes.|
 A Break on Through|QID|67722|PRE|69097|M|47.11,82.58|Z|2022;The Waking Shores|N|From Cataloger Jakes.|
-A Temple Treasures|QID|70111|PRE|69097|M|51.46,55.35|Z|2025;Thaldraszus|
-T Temple Treasures|QID|70111|M|52.09,54.90|Z|2025;Thaldraszus|
 T Break on Through|QID|67722|M|54.27,55.41|Z|2025;Thaldraszus|N|To Toddy Whiskers.|
 A The Other Side|QID|66636|PRE|70111&67722|M|54.27,55.41|Z|2025;Thaldraszus|N|From Toddy Whiskers.|
 C The Other Side|QID|66636|M|54.29,55.30|Z|2025;Thaldraszus|QO|1|NC|N|Ascend the scaffolding to the location of the third watcher.|

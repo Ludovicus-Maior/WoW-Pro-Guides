@@ -1,12 +1,13 @@
 local guide = WoWPro:RegisterGuide('Reclaiming Gilneas', 'Leveling', 'Valdrakken', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Reclaiming Gilneas")
 WoWPro:GuideLevels(guide,70, 70)
+WoWPro:GuideQuestTriggers(guide,78596,78597)
 WoWPro:GuideNickname(guide, "Reclaiming Gilneas")
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Valdrakken|AVAILABLE|78596^78597|N|Make your way to Valdrakken by any means.|
+R Valdrakken|AVAILABLE|78596&78597|N|Make your way to Valdrakken by any means.|
 
 A Summons to Lord Greymane|QID|78596|M|59.26,42.30|Z|2112;Valdrakken|N|From Greyguard Elite or from your adventurer's journal (Shift+J by default).|FACTION|ALLIANCE|
 P Stormwind City|ACTIVE|78596|M|59.66,41.64|Z|2112;Valdrakken|N|Take the portal to Stormwind.|FACTION|ALLIANCE|IZ|2112|
