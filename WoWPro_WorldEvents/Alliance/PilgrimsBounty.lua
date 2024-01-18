@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoPilBountyA",'WorldEvents',"Pilgrim's Bounty", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide)
-WoWPro.WorldEvents:GuideHoliday(guide,"HarvestFestival")
+WoWPro.WorldEvents:GuideHoliday(guide,"Harvest Festival")
 WoWPro:GuideIcon(guide,"ACH",3478)
 WoWPro:GuideSteps(guide, function()
 return [[
