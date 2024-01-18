@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide('Reclaiming Gilneas', 'Leveling', 'Valdrakken', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Reclaiming Gilneas")
 WoWPro:GuideLevels(guide,70, 70)
+WoWPro:GuideQuestTriggers(guide,78596,78597)
 WoWPro:GuideNickname(guide, "Reclaiming Gilneas")
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideSteps(guide, function()
