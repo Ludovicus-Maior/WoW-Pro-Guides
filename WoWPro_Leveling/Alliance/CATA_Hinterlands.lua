@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('CraHin3035', 'Leveling', 'The Hinterlands', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Hinterlands")
 WoWPro:GuideSort(guide, 26)
-WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Western Plaguelands')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
@@ -96,7 +96,7 @@ F Back to Fragger |ACTIVE|26517|M|53.25,66.25;63.75,60.04|CC|Z|26; The Hinterlan
 T Hunt the Keeper|QID|26526|M|63.76,60.04|Z|26; The Hinterlands|N|To Fraggar Thundermantle|
 T Venomous Secrets|QID|26525|M|63.76,60.04|Z|26; The Hinterlands|N|To Fraggar Thundermantle.|
 A Quel'Danil Lodge|QID|27725|PRE|26526|M|63.99,59.85|Z|26; The Hinterlands|N|From Tracker Yoro.|
-R Quel'Danil Lodge|QID|27725|M|61.28,52.97;48.25,44.68;34.86,56.89;31.07,52.49;32.20,42.63|CN|Z|26; The Hinterlands|N|Run to Quel'Danil Lodge.\nYou can either take the safer route and follow the road or run cross country and take a shorter route.|
+R Quel'Danil Lodge|QID|27725|M|61.28,52.97;48.25,44.68;34.86,56.89;31.07,52.49;32.20,42.63|CS|Z|26; The Hinterlands|N|Run to Quel'Danil Lodge.\nYou can either take the safer route and follow the road or run cross country and take a shorter route.|
 T Quel'Danil Lodge|QID|27725|M|32.20,42.63|Z|26; The Hinterlands|N|To Anchorite Traska, she's in the hut to the east of the main lodge.|
 A In Defense of Quel'Danil|QID|27625|PRE|27725|M|32.20,42.63|Z|26; The Hinterlands|N|From Anchorite Traska.|
 A The Highvale Documents|QID|27626|PRE|27725|M|32.20,42.63|Z|26; The Hinterlands|N|From Anchorite Traska.|
