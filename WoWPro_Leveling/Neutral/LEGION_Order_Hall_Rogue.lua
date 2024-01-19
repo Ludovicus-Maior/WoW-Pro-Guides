@@ -79,11 +79,11 @@ T The Unseen Blade|QID|42627^42504|M|42.48,74.61|N|Enter your order hall from an
 ;A A Friendly Accord|QID|40847|M|41.19,74.28|N|From Fleet Admiral Tethys.|PRE|42627|
 C A Friendly Accord|QID|40847|QO|1|M|49.55,82.14|Z|Dalaran@Dalaran70|NC|N|(Optional) Enter the Chamber of the Guardian.|
 C A Friendly Accord|QID|40847|QO|2|M|31.83,71.29|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to Karazhan.|
-C A Friendly Accord|QID|40847|QO|3|M|40.76,69.51|Z|The Cape of Stranglethorn|NC|N|(Optional) Fly to Booty Bay.|
-C A Friendly Accord|QID|40847|QO|4|M|39.99,68.39|Z|The Cape of Stranglethorn|NC|N|Board the Crimson Veil.|
-T A Friendly Accord|QID|40847|M|40.76,69.11|Z|The Cape of Stranglethorn|N|To Fleet Admiral Tethys.|
-A The Dreadblades|QID|40849|M|40.76,69.11|Z|The Cape of Stranglethorn|N|From Fleet Admiral Tethys.|PRE|40847|
-C The Dreadblades|QID|40849|QO|1|M|40.76,69.11|Z|The Cape of Stranglethorn|N|Tell the Admiral you are ready to set sail.|CHAT|
+C A Friendly Accord|QID|40847|QO|3|M|40.76,69.51|Z|210;The Cape of Stranglethorn|NC|N|(Optional) Fly to Booty Bay.|
+C A Friendly Accord|QID|40847|QO|4|M|39.99,68.39|Z|210;The Cape of Stranglethorn|NC|N|Board the Crimson Veil.|
+T A Friendly Accord|QID|40847|M|40.76,69.11|Z|210;The Cape of Stranglethorn|N|To Fleet Admiral Tethys.|
+A The Dreadblades|QID|40849|M|40.76,69.11|Z|210;The Cape of Stranglethorn|N|From Fleet Admiral Tethys.|PRE|40847|
+C The Dreadblades|QID|40849|QO|1|M|40.76,69.11|Z|210;The Cape of Stranglethorn|N|Tell the Admiral you are ready to set sail.|CHAT|
 C Maritime Diplomacy|SO|1|M|61.16,68.79|Z|Azsuna|N|As you are running across the landing area, be aware of stealthed explosive traps. Board the ship on the other side of the beach and attack First Mate DeGauza.  Be aware of the radias marks for the bombs going off during the fight.|QID|40849|
 C Find the Dread Admiral Eliza|SO|2;1|M|57.02,66.63|Z|Azsuna|N|Find the Dread Admiral Eliza|QID|40849|
 C Defeat Lord Brinebeard|SO|3;1|M|56.38,67.22|Z|Azsuna|N|Defeat Lord Brinebeard|QID|40849|
