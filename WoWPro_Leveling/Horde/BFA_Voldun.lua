@@ -5,11 +5,11 @@ WoWPro:GuideNickname(guide, "Vol'dun")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Vol'dun|QID|47513|PRE|52131|M|41.77,69.35|Z|1164;Hall of Croniclers|!Dazar'alor|N|Pick Vol'dun from the Scouting Map.|
-t Vol'dun|QID|47513|M|57.81,44.34|Z|1164;Hall of Croniclers|!Dazar'alor|N|To Princess Talanji.|
-N Secrets in the Sands|AVAILABLE|47513|N|If you're intent is to only complete the zone achievement, right-click on the guide title bar and select 'About'. From here, set the 'Toon Rank' to 1 and uncheck Treasures and Rares.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Vol'dun|QID|47513|M|41.77,69.35|Z|1164;Hall of Croniclers!Dazar'alor|N|Pick Vol'dun from the Scouting Map.| ; PRE|52131| ** This is not true - Hendo72
+t Vol'dun|QID|47513|M|57.81,44.34|Z|1164;Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
+N Secrets in the Sands Achievement|AVAILABLE|47513|N|If your intent is to only complete the zone achievement, right-click on the guide title bar and select 'Main Options'. From here, select the "Ranks" tab and set the 'Toon Rank' to 1.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Discreet Discussions|QID|47313|PRE|47513|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|
-C Discreet Discussions|QID|47313|QO|1<1|M|50.12,37.41|Z|1165;Dazar'alor|N|Outside and down either long set of stairs to find Enforcer Sekal.\n[color=FF0000]NOTE: [/color]Be on alert for ambushes by a Sandfury Assassin when you walk around the corners.|CHAT|
+C Discreet Discussions|QID|47313|QO|1<1|M|50.12,37.41|Z|1165;Dazar'alor|N|Head down the stairs to find Enforcer Sekal on the terrace.\n[color=FF0000]NOTE: [/color]Be on alert for ambushes by a Sandfury Assassin when you walk around the corners.\nOr, just fly to his location.|CHAT|
 C Discreet Discussions|QID|47313|QO|1<2|M|52.20,37.54|Z|1165;Dazar'alor|N|Continue down to find Enforcer Gortok.|CHAT|
 C Discreet Discussions|QID|47313|QO|1<3|M|54.49,37.46;54.26,35.85|CS|Z|1165;Dazar'alor|N|And down some more to find Enforcer Dakanji.|CHAT|
 ;to open up Jani's mysterious trashpiles
@@ -667,11 +667,11 @@ R Abandoned Passage|ACTIVE|50617|M|42.48,68.63|Z|0864;Vol'dun|N|Head over to the
 T Atul'Aman|QID|50617|M|43.06,68.21|Z|0864;Vol'dun|N|To Vorrik.|
 A The Abandoned Passage|QID|50904|PRE|50617|M|43.06,68.21|Z|0864;Vol'dun|N|From Vorrik.|
 C The Abandoned Passage|QID|50904|QO|1|M|43.06,68.20|Z|0864;Vol'dun|N|Tell Vorrik you are ready.|CHAT|
-C Bladeguard Kaja|QID|50904|QO|2|M|42.81,91.95|Z|Atul'Aman|Z|0864;Vol'dun|N|Kill the Faceless Tendrils (if required) and free Kaja.|H|
-C Warguard Rakera|QID|50904|QO|3|M|51.74,67.35|Z|Atul'Aman|Z|0864;Vol'dun|N|Kill the Faceless Tendrils (if required) and free Rakera.|H|
-T The Abandoned Passage|QID|50904|M|55.64,36.33|Z|Atul'Aman|Z|0864;Vol'dun|N|To Warguard Rakera at The Blood Font.|
-A Defeat Jakra'zet|QID|50702|PRE|50904|M|55.64,36.33|Z|Atul'Aman|Z|0864;Vol'dun|N|From Warguard Rakera.|
-K General Jakra'zet|ACTIVE|50702|QO|1|M|64.45,36.91|Z|Atul'Aman|Z|0864;Vol'dun|N|After he becomes attackable, Kill Jakra'zet.\n[color=FF0000]NOTE: [/color]Collect the orbs to regen your health and take out the Sanguine Ward when it spawns (50% damage reduction).|T|General Jakra'zet|
+C Bladeguard Kaja|QID|50904|QO|2|M|42.81,91.95|Z|1009;Atul'Aman|N|Kill the Faceless Tendrils (if required) and free Kaja.|H|
+C Warguard Rakera|QID|50904|QO|3|M|51.74,67.35|Z|1009;Atul'Aman|N|Kill the Faceless Tendrils (if required) and free Rakera.|H|
+T The Abandoned Passage|QID|50904|M|55.64,36.33|Z|1009;Atul'Aman|N|To Warguard Rakera at The Blood Font.|
+A Defeat Jakra'zet|QID|50702|PRE|50904|M|55.64,36.33|Z|1009;Atul'Aman|N|From Warguard Rakera.|
+K General Jakra'zet|ACTIVE|50702|QO|1|M|64.45,36.91|Z|1009;Atul'Aman|N|After he becomes attackable, Kill Jakra'zet.\n[color=FF0000]NOTE: [/color]Collect the orbs to regen your health and take out the Sanguine Ward when it spawns (50% damage reduction).|T|General Jakra'zet|
 T Defeat Jakra'zet|QID|50702|M|27.09,52.64|Z|0864;Vol'dun|N|To Warguard Rakera.|
 A Informing the Horde|QID|50703|PRE|50702|M|27.09,52.64|Z|0864;Vol'dun|N|From Warguard Rakera.\n[color=FF0000]NOTE: [/color]Not technically part of the zone achievement but may as well get it in case it's tied to a future questline.|
 A Avatar of the Loa|QID|50551|PRE|50702|M|27.09,52.56|Z|0864;Vol'dun|ELITE|N|[color=E6CC80]Dungeon: 'Temple of Sethraliss'[/color]\nFrom Vorrik.|DUNGEON|
@@ -760,10 +760,10 @@ F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|Z|0864;Vol'dun|N|At Scroll of Flight.|
 $ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,64.66;48.20,64.69|CS|Z|0864;Vol'dun|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
 ; R1/R2 resumes here - Hendo72
-T Informing the Horde|QID|50703|M|40.89,73.00|Z|1164;Hall of Croniclers|!Dazar'alor|N|To Baine Bloodhoof.|
+T Informing the Horde|QID|50703|M|40.89,73.00|Z|1164;Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 T Fond Farewells|QID|49040|M|40.37,19.08|Z|1165;Dazar'alor|N|To B'wizati who can be found in the Zocalo.|RANK|2|
 J Zandalar Forever!|AVAILABLE|50954|N|Now that you're done 'Loremaster of Zandalar', you can now continue working on the main achievement.\n[color=FF0000]NOTE: [/color]AFTER you've changed guides, don't forget to change your guide settings back if you changed them.|JUMP|EliEndgame|ACH|11861;;true+11868;;true+12478;;true|
-A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|1164;Hall of Croniclers|!Dazar'alor|N|At scouting map.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to start the War Campaign guide instead.|
+A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|1164;Hall of Croniclers!Dazar'alor|N|At scouting map.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to start the War Campaign guide instead.|
 D War Campaign|N|When you check off this step the War Campaign guide will open.|
 ]]
 end)
