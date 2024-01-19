@@ -38,6 +38,7 @@ A Armed and Ready|QID|51357|PRE|47315|M|65.98,36.65|Z|0864;Vol'dun|N|From Nisha.
 C Armed and Ready|QID|51357|M|65.95,36.64|Z|0864;Vol'dun|N|Select a Weapon.|H|
 T Armed and Ready|QID|51357|M|65.98,36.65|Z|0864;Vol'dun|N|To Nisha.|
 A Answering Their Attacks|QID|47327|PRE|51357|M|65.98,36.65|Z|0864;Vol'dun|N|From Nisha.|
+t Answering Their Attacks|QID|47327|M|PLAYER|N|To Nisha.|
 A Dressed for Battle|QID|49676|PRE|51357|M|65.98,36.65|Z|0864;Vol'dun|N|From Nisha.|
 C Answering Their Attacks|QID|47327|M|62.20,32.88|Z|0864;Vol'dun|N|Kill Sethrak.|S|
 C Dressed for Battle|QID|49676|QO|1|M|65.14,37.26;64.67,33.91|CS|Z|0864;Vol'dun|N|Pick up the Banner.|H|
@@ -45,10 +46,9 @@ C Dressed for Battle|QID|49676|QO|2|M|63.63,32.72|Z|0864;Vol'dun|N|Pick up the S
 C Dressed for Battle|QID|49676|QO|3|M|61.87,33.78|Z|0864;Vol'dun|N|Pick up the box of Explosives.|H|
 T Dressed for Battle|QID|49676|M|PLAYER|N|To Nisha.|
 A Plans for Attack|QID|49677|PRE|49676|M|PLAYER|N|From Nisha.|
-K Fangcaller Sraka|ACTIVE|49677|QO|1|M|61.14,32.89|Z|0864;Vol'dun|N|Kill Fangcaller Sraka and loot Nisha's Attack Plans.|T|Fangcaller Sraka|
+l Nisha's Attack Plans|ACTIVE|49677|QO|1|M|61.14,32.89|Z|0864;Vol'dun|ITEM|158651|N|Fangcaller Sraka|T|Fangcaller Sraka|
 T Plans for Attack|QID|49677|M|PLAYER|N|To Nisha.|
 C Answering Their Attacks|QID|47327|M|60.87,32.60|Z|0864;Vol'dun|N|Finish up the Sethrak.|US|
-T Answering Their Attacks|QID|47327|M|PLAYER|N|To Nisha.|
 A An Explosive Exit|QID|51364|PRE|49677&47327|M|PLAYER|N|From Nisha.|
 C An Explosive Exit|QID|51364|QO|1|M|60.04,34.60|Z|0864;Vol'dun|N|Hop on Nisha's wagon.|V|
 C An Explosive Exit|QID|51364|QO|2|M|60.04,34.60|Z|0864;Vol'dun|N|Hop on Nisha's wagon.|V|
@@ -62,12 +62,12 @@ f Vulpera Hideaway|ACTIVE|51574|M|56.97,49.26|Z|0864;Vol'dun|N|At Narishi.\n[col
 K Bloodwing Bonepicker|AVAILABLE|51079|M|59.59,50.68;57.21,53.25;56.09,53.59|CS|Z|0864;Vol'dun|ITEM|161019|N|Click on the Enormous Egg to summon the momma bird. Kill this Silver Elite for artifact power and resources.|T|Bloodwing Bonepicker|RANK|3|RARE|
 K Gut-Gut the Glutton|AVAILABLE|49270|M|61.98,47.61;62.70,47.29;63.95,48.10;64.03,47.60|CS|Z|0864;Vol'dun|N|You have to be dedicated to getting adventurer of Vol'dun to run up and get this one. Up the side of the mountain, in the middle of nowhere lives this silver elite eating birds and foolish adventurers. Kill and loot for artifact power and resources (or just check off and move on.)|T|Gut-Gut the Glutton|RANK|3|RARE|
 C Freshly Squeezed|QID|51574|M|53.73,49.02|Z|0864;Vol'dun|N|Collect Pricklevine Juice from the plants.|H|S|
-C Restorative Venom|QID|47319|M|54.69,48.37|Z|0864;Vol'dun|N|Kill Sandstingers for their Venom Glands.\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use special action button to bring them down.|EAB|S|
+l Restorative Venom|QID|47319|QO|1|M|54.69,48.37|Z|0864;Vol'dun|ITEM|160441|N|Venomous Sandstingers and Sandstinger Drones\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use extra action button to bring them down.|T|Venomous Sandstinger|EAB|S|
 A Missing Business|QID|50739|M|55.21,48.40|Z|0864;Vol'dun|N|From Vivi.|RANK|2|
 C Missing Business|QID|50739|M|53.57,51.57|Z|0864;Vol'dun|N|Revive the Sable Polecats.|NC|S|
 K Hivemother Kraxi|AVAILABLE|47533|M|53.83,51.43;53.78,53.19|CS|Z|0864;Vol'dun|ITEM|161027|N|Silver Elite to kill and loot for artifact power and resources.|T|Hivemother Kraxi|RANK|2|RARE|
 C Freshly Squeezed|QID|51574|M|53.73,49.02|Z|0864;Vol'dun|N|Collect Pricklevine Juice from the plants.|H|US|
-C Restorative Venom|QID|47319|M|54.69,48.37|Z|0864;Vol'dun|N|Kill Sandstingers for their Venom Glands.\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use special action button to bring them down.|EAB|US|
+l Restorative Venom|QID|47319|QO|1|M|54.69,48.37|Z|0864;Vol'dun|ITEM|160441|N|Venomous Sandstingers and drones\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use extra action button to bring them down.|T|Venomous Sandstinger|EAB|US|
 C Missing Business|QID|50739|M|53.57,51.57|Z|0864;Vol'dun|N|Revive the Sable Polecats.|NC|US|
 T Missing Business|QID|50739|M|55.20,48.38|Z|0864;Vol'dun|N|To Vivi.|
 T Freshly Squeezed|QID|51574|M|56.76,50.53|Z|0864;Vol'dun|N|To Meerah.|
