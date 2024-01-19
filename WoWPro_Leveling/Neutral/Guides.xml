@@ -22,6 +22,7 @@
 	<Script file="DF_Call_of_the_Dream.lua"/>
 	<Script file="DF_Misfit_Dragons.lua"/>
 	<Script file="DF_Reclaiming_Gilneas.lua"/>
+	<Script file="DF_speed6070.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>
