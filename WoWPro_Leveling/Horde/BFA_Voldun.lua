@@ -11,8 +11,15 @@ N Secrets in the Sands Achievement|AVAILABLE|47513|N|If your intent is to only c
 A Discreet Discussions|QID|47313|PRE|47513|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|
 C Discreet Discussions|QID|47313|QO|1<1|M|50.12,37.41|Z|1165;Dazar'alor|N|Head down the stairs to find Enforcer Sekal on the terrace.\n[color=FF0000]NOTE: [/color]Be on alert for ambushes by a Sandfury Assassin when you walk around the corners.\nOr, just fly to his location.|CHAT|
 C Discreet Discussions|QID|47313|QO|1<2|M|52.20,37.54|Z|1165;Dazar'alor|N|Continue down to find Enforcer Gortok.|CHAT|
-C Discreet Discussions|QID|47313|QO|1<3|M|54.49,37.46;54.26,35.85|CS|Z|1165;Dazar'alor|N|And down some more to find Enforcer Dakanji.|CHAT|
-;to open up Jani's mysterious trashpiles
+C Discreet Discussions|QID|47313|QO|1<3|M|54.26,35.85|Z|1165;Dazar'alor|N|And down some more to find Enforcer Dakanji.|CHAT|
+
+;  Unlikely Allies
+T Discreet Discussions|QID|47313|M|51.57,31.82|Z|1165;Dazar'alor|N|To Bladeguard Kaja.|
+A Rumors of Exile|QID|47314|PRE|47313|M|51.57,31.82|Z|1165;Dazar'alor|N|From Bladeguard Kaja.|
+T Rumors of Exile|QID|47314|M|49.90,31.63|Z|1165;Dazar'alor|N|To Bladeguard Kaja who moved down to the stairs of The Royal Armory.|
+A Into the Dunes|QID|47315|PRE|47314|M|49.90,31.63|Z|1165;Dazar'alor|N|From Bladeguard Kaja.|
+
+;  to open up Jani's mysterious trashpiles
 R The Zocalo|AVAILABLE|47441|M|42.58,27.97|Z|1165;Dazar'alor|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd". Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|RANK|3|
 A Pests|QID|47441|M|40.24,19.06|Z|1165;Dazar'alor|N|From Nokano.|RANK|3|
 K Pests|ACTIVE|47441|QO|1|M|41.80,25.00;40.90,22.90|CN|Z|1165;Dazar'alor|N|Kill the little pests found between the 2 waypoints.|T|Thieving Snapper|
@@ -23,13 +30,10 @@ A Curse of Jani|QID|47442|M|35.36,7.63|Z|1165;Dazar'alor|N|From Jani.|RANK|3|
 R Nokano|ACTIVE|47442|QO|1|M|38.57,17.70|Z|1165;Dazar'alor|N|Run back to Nokano while avoiding the Eye of Yazmas and the Rastari Enforcers along the edges.\n[color=FF0000]NOTE: [/color]Save 'Sprint' for just before the Enforcer in the middle of the road.\nIf you get caught, you'll be teleported back to the Trashpile to restart the run.|
 C Curse of Jani|QID|47442|QO|2|M|40.10,19.30|Z|1165;Dazar'alor|N|Attack Nokano to bite him.\n[color=FF0000]NOTE: [/color]Do this quick before the guards catch up to you.|
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|1165;Dazar'alor|N|To Jani.\n[color=FF0000]NOTE: [/color]You have now opened up Jani's cursed treasure quests all over Zandalar.|
-;  Unlikely Allies
-T Discreet Discussions|QID|47313|M|51.57,31.82|Z|1165;Dazar'alor|N|To Bladeguard Kaja.|
-A Rumors of Exile|QID|47314|PRE|47313|M|51.57,31.82|Z|1165;Dazar'alor|N|From Bladeguard Kaja.|
-T Rumors of Exile|QID|47314|M|51.17,29.59;49.90,31.63|CS|Z|1165;Dazar'alor|N|To Bladeguard Kaja who moved down to the stairs of The Royal Armory.|
-A Into the Dunes|QID|47315|PRE|47314|M|49.90,31.63|Z|1165;Dazar'alor|N|From Bladeguard Kaja.|
+
+;  Unlikely Allies Cont.
 C Into the Dunes|QID|47315|QO|1|M|50.04,31.69|Z|1165;Dazar'alor|N|Hop on the Pterrordax.|V|
-T Into the Dunes|QID|47315|M|65.98,36.65|Z|0864;Vol'dun|N|To Nisha.|
+T Into the Dunes|QID|47315|M|65.98,36.65|Z|0864;Vol'dun|N|To Nisha.\n[color=FF0000]NOTE: [/color]After the skippable cut-scene and she frees you from the cage.|
 A Armed and Ready|QID|51357|PRE|47315|M|65.98,36.65|Z|0864;Vol'dun|N|From Nisha.|
 C Armed and Ready|QID|51357|M|65.95,36.64|Z|0864;Vol'dun|N|Select a Weapon.|H|
 T Armed and Ready|QID|51357|M|65.98,36.65|Z|0864;Vol'dun|N|To Nisha.|
