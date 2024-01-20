@@ -1380,19 +1380,21 @@ function WoWPro:ResolveIcon(guide)
         end
         return
     end
-    if guide['pro'] and WoWPro.RETAIL then
-        -- prof1, prof2, archaeology, fishing, cooking, firstAid
-        local profs = {_G.GetProfessions()}
+    if guide['pro'] then
         if WoWPro.ProfessionSkillLines[tonumber(guide['pro'])] then
             guide.category = WoWPro.ProfessionSkillLines[tonumber(guide['pro'])].name
         else
             WoWPro:Error("Unknown PRO Icon number [%s] for guide %s",guide['pro'],guide.GID)
         end
-        for index = 1,#profs do
-            if profs[index] then
-                local _, texture, _, _, _, _, skillLine = _G.GetProfessionInfo(profs[index])
-                if skillLine == tonumber(guide['pro']) then
-                    guide.icon = texture
+        if WoWPro.RETAIL then
+            -- prof1, prof2, archaeology, fishing, cooking, firstAid
+            local profs = {_G.GetProfessions()}
+            for index = 1,#profs do
+                if profs[index] then
+                    local _, texture, _, _, _, _, skillLine = _G.GetProfessionInfo(profs[index])
+                    if skillLine == tonumber(guide['pro']) then
+                        guide.icon = texture
+                    end
                 end
             end
         end
