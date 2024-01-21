@@ -1171,25 +1171,53 @@ function WoWPro:RowUpdate(offset)
                 )
             end
             tinsert(dropdown,
-                {text = "Report issue", func = function()
-                    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
-					local LogBox = WoWPro.LogBox
-					local X, Y, mapId = WoWPro:GetPlayerZonePosition()
-					local text = "Step Info for " .. GID .. ":\n"
-					local Sindex = WoWPro.rows[currentRow.num].index
-					if WoWPro.rows[currentRow.num]:IsVisible() then
-						text = text .. WoWPro.EmitSafeStep(Sindex) .. "\n"
-					end
-					if (not X) or (not Y) then
-						text = "\n" .. WoWPro.Faction .. (" Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\n" .. text
-						LogBox.Box:SetText(text)
-					else
-						text = "\n" .. WoWPro.Faction .. (" Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\n" .. text
-						LogBox.Box:SetText(text)
-					end
-					LogBox:Show()
-                end}
-            )
+            {text = "Report issue", func = function()
+                WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
+                local LogBox = WoWPro.LogBox
+                local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+                local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\nDO NOT EDIT ANYTHING BELOW THIS LINE\n---\n"
+                local Sindex = WoWPro.rows[currentRow.num].index
+
+                if WoWPro.rows[currentRow.num]:IsVisible() then
+                    text = text .. "Step Info for " .. GID .. ":\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
+                end
+
+                -- Retrieve additional player information
+                local _, class = UnitClass("player")
+                class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
+                local level = UnitLevel("player")
+                local version = GetAddOnMetadata("WoWPro", "Version")
+                local locale = GetLocale()
+
+                text = text .. "\n|cffffff00Player Info:|r\n"
+                text = text .. "Faction: " .. WoWPro.Faction .. "\n"
+                text = text .. "Class: " .. class .. "\n"
+                text = text .. "Level: " .. level .. "\n"
+                text = text .. "Addon Version: " .. version .. "\n"
+                text = text .. "Locale: " .. locale .. "\n"
+                if (not X) or (not Y) then
+                    text = text .. "Location: Unknown\n"
+                else
+                    text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "\n"
+                end
+                text = text .. "Zone: " .. WoWPro.GetZoneText() .. "\n"
+                text = text .. "Sub Zone: " .. _G.GetSubZoneText() .. "\n"
+
+                text = text .. "\n|cffffff00Guide Info:|r\n"
+                text = text .. "Guide ID: " .. GID .. "\n"
+
+                -- Set the text of the LogBox and show it
+                LogBox.Box:SetText(text)
+                LogBox.Box:Show()
+
+                -- Hide the EditBox if it exists
+                if WoWPro.EditBox then
+                    WoWPro.EditBox:Hide()
+                end
+
+                LogBox:Show()
+            end}
+        )
         end
         WoWPro.RowDropdownMenu[i] = dropdown
 
