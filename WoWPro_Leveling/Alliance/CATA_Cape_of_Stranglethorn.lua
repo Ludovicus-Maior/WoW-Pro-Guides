@@ -219,6 +219,6 @@ A The Call of Kalimdor|QID|26596|M|40.56,68.20|Z|210;The Cape of Stranglethorn|N
 A The Battle for Andorhal|QID|28749|LEAD|27159|M|41.55,74.35|Z|210;The Cape of Stranglethorn|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
 R Western Plaguelands|QID|28749|O|M|41.55,74.34|Z|210;The Cape of Stranglethorn|N|To continue to Western Plaguelands, get a teleport from War-Mage Erallier below the Alliance Flight Master.|
 b Northern Barrens|ACTIVE|26596|M|39.10,67.05|Z|210;The Cape of Stranglethorn|N|To continue on to Dustwallow Marsh in Kalimdor, hop on the ship to Ratchet.|
-N Close this step to go onto the next guide.|Z|210;The Cape of Stranglethorn|N|Those doing Dustwallow Marsh will have to load the guide manually.|JUMP|Dustwallow Marsh|
+N Click the book to jump to Dustwallow Marsh Guide.|ACTIVE|26596|Z|210;The Cape of Stranglethorn|N|Those doing Dustwallow Marsh will have to load the guide manually.|JUMP|Dustwallow Marsh|
 ]]
 end)
