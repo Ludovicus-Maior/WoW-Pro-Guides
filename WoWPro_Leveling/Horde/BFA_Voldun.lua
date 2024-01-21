@@ -680,20 +680,20 @@ A Informing the Horde|QID|50703|PRE|50702|M|27.09,52.64|Z|0864;Vol'dun|N|From Wa
 A Avatar of the Loa|QID|50551|PRE|50702|M|27.09,52.56|Z|0864;Vol'dun|ELITE|N|[color=E6CC80]Dungeon: 'Temple of Sethraliss'[/color]\nFrom Vorrik.|DUNGEON|
 H The Great Seal|ACTIVE|50703|M|27.65,50.32|Z|0864;Vol'dun|N|Hearth or take a flight to Zuldazar from Vethiss.|RANK|-1|
 ; R1/R2 Skips the following section - Hendo72
-R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|Z|0864;Vol'dun|N|If you wanna finish out the rest of the quests / rares/ treasures in the zone, head over to Vorrik's Sanctum for more adventure.|RANK|3|
+R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|Z|0864;Vol'dun|N|If you wanna finish out the rest of the quests/rares/treasures in the zone, head over to Vorrik's Sanctum for more adventure.|RANK|3|
 $ Abandaned Bobber|QID|53004^53005|M|26.49,45.35|Z|0864;Vol'dun|N|Inspect the abandoned bobber, which pulls up the Sandsunken Treasure.|RANK|3|
 R Forward Camp|ACTIVE|51772|M|32.71,49.17|Z|0864;Vol'dun|N|Go back up to the temple or run through all the murlocks, you choice, but next area is Sethrak Foward Camp.|RANK|3|FLY|OLD|
 A Risky Rescue|QID|50656|M|32.68,48.45|Z|0864;Vol'dun|N|From Seriah.|RANK|3|
 A Building Our Arsenal|QID|49333|M|32.30,48.39|Z|0864;Vol'dun|N|From Izarn.|RANK|3|
 A Skycaller Slaughter|QID|49335|M|32.30,48.39|Z|0864;Vol'dun|N|From Izarn.|RANK|3|
 R Temple Incursion|ACTIVE|50656|M|35.65,45.36|Z|0864;Vol'dun|N|Off to find more sethrak to murder.|RANK|3|FLY|OLD|
-C Risky Rescue|QID|50656|M|35.65,45.36|Z|0864;Vol'dun|N|Click open the cages as you come across them.|NC|S|
+C Risky Rescue|QID|50656|M|35.65,45.36|Z|0864;Vol'dun|N|Click open the cages.|NC|S|
 C Building Our Arsenal|QID|49333|M|35.65,45.36|Z|0864;Vol'dun|N|Pick up weapons from the weapons racks as you come across them.|NC|S|
 C Skycaller Slaughter|QID|49335|M|35.65,45.36|Z|0864;Vol'dun|N|Kill Skycaller mobs, unfortunately no reward for the others.|S|
 K Warbringer Hozzik|AVAILABLE|49373|M|37.02,46.02|Z|0864;Vol'dun|ITEM|161032|N|Silver Elite to kill for artifact power and resources.|T|Warbringer Hozzik|RANK|3|RARE|
 C Skycaller Slaughter|QID|49335|M|37.02,46.02|Z|0864;Vol'dun|N|Finish off the quota of Skycaller mobs.|US|
 C Building Our Arsenal|QID|49333|M|35.68,46.47|Z|0864;Vol'dun|N|Finish Collecting weapons.|NC|US|
-C Risky Rescue|QID|50656|M|35.68,46.47|Z|0864;Vol'dun|N|Click open the cages as you come across them.|NC|US|
+C Risky Rescue|QID|50656|M|35.68,46.47|Z|0864;Vol'dun|N|Click open the cages.|NC|US|
 T Risky Rescue|QID|50656|M|32.68,48.45|Z|0864;Vol'dun|N|To Seriah.|
 T Building Our Arsenal|QID|49333|M|32.30,48.39|Z|0864;Vol'dun|N|To Izarn.|
 T Skycaller Slaughter|QID|49335|M|32.30,48.39|Z|0864;Vol'dun|N|To Izarn.|
@@ -763,7 +763,7 @@ F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|Z|0864;Vol'dun|N|At Scroll of Flight.|
 $ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,64.66;48.20,64.69|CS|Z|0864;Vol'dun|N|Up to the entrance of Atul'Aman, through the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
 ; R1/R2 resumes here - Hendo72
-T Informing the Horde|QID|50703|M|40.89,73.00|Z|1164;Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
+T Informing the Horde|QID|50703|M|41.40,72.54|Z|1164;Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 T Fond Farewells|QID|49040|M|40.37,19.08|Z|1165;Dazar'alor|N|To B'wizati who can be found in the Zocalo.|RANK|2|
 J Zandalar Forever!|AVAILABLE|50954|N|Now that you're done 'Loremaster of Zandalar', you can now continue working on the main achievement.\n[color=FF0000]NOTE: [/color]AFTER you've changed guides, don't forget to change your guide settings back if you changed them.|JUMP|EliEndgame|ACH|11861;;true+11868;;true+12478;;true|
 A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|1164;Hall of Croniclers!Dazar'alor|N|At scouting map.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to start the War Campaign guide instead.|
