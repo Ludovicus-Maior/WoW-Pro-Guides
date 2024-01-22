@@ -5,7 +5,7 @@
 * Professions category in Guides Menu for non-retail versions
 * Spoony when OCD with look and feel on the Config panels, so much nicer
 ## Guide Updates
-* 15 Leveling guide tweaks, including Reclaiming Gilneas
+* 20 Leveling guide tweaks, including Reclaiming Gilneas
 * 12 WorldEvent guide tweaks
 
 # Release 2024.01.17.A
