@@ -1,7 +1,7 @@
 -- luacheck: globals Grail TomTom Nx
 -- luacheck: globals select ipairs pairs next tremove tinsert
 -- luacheck: globals tostring tonumber type abs max min floor ceil date
--- luacheck: globals debugstack
+-- luacheck: globals debugstack strupper strsub strlower string
 
 -----------------------------
 --      WoWPro_Broker      --
@@ -1183,11 +1183,11 @@ function WoWPro:RowUpdate(offset)
                 end
 
                 -- Retrieve additional player information
-                local _, class = UnitClass("player")
+                local _, class = _G.UnitClass("player")
                 class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
-                local level = UnitLevel("player")
-                local version = GetAddOnMetadata("WoWPro", "Version")
-                local locale = GetLocale()
+                local level = _G.UnitLevel("player")
+                local version = _G.GetAddOnMetadata("WoWPro", "Version")
+                local locale = _G.GetLocale()
 
                 text = text .. "\n|cffffff00Player Info:|r\n"
                 text = text .. "Faction: " .. WoWPro.Faction .. "\n"
@@ -1198,7 +1198,7 @@ function WoWPro:RowUpdate(offset)
                 if (not X) or (not Y) then
                     text = text .. "Location: Unknown\n"
                 else
-                    text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "\n"
+                    text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "@" .. tostring(mapId).."\n"
                 end
                 text = text .. "Zone: " .. WoWPro.GetZoneText() .. "\n"
                 text = text .. "Sub Zone: " .. _G.GetSubZoneText() .. "\n"
