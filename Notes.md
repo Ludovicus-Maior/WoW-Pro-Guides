@@ -1,4 +1,14 @@
-# Release 2024.01,17
+# Release 2024.01.22.A
+## Bug Fixes
+* Current Guides menu now open in center of screen
+* Libraries Updated: Ace3, LibDBIcon, LibPetJournal, LibSharedMedia
+* Professions category in Guides Menu for non-retail versions
+* Spoony when OCD with look and feel on the Config panels, so much nicer
+## Guide Updates
+* 15 Leveling guide tweaks, including Reclaiming Gilneas
+* 12 WorldEvent guide tweaks
+
+# Release 2024.01.17.A
 ## Bug Fixes
 * Config panel completely reworked
 * Current Guides is now a menu not a panel
