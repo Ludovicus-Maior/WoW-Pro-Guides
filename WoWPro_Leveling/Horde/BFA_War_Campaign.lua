@@ -113,7 +113,7 @@ A Return to Zuldazar|QID|51985|PRE|51234|M|37.18,27.19|Z|0896;Drustvar||N|From T
 f Krazzlefrazz Outpost|ACTIVE|51985|M|37.37,24.03|Z|0896;Drustvar||N|At Rixi Rocketboom.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 F Anyport|ACTIVE|51985|M|37.37,24.03|Z|0896;Drustvar||N|At Rixi Rocketboom.|
 C Return to Zuldazar|QID|51985|M|20.61,43.35|Z|0896;Drustvar||N|Ask Swellthrasher for a ride back to Zuldazar.|CHAT|
-T Return to Zuldazar|QID|51985|M|58.43,62.67|Z|0862;Zuldazar|N|To Nathanos Bli|ghtcaller.|
+T Return to Zuldazar|QID|51985|M|58.43,62.67|Z|0862;Zuldazar|N|To Nathanos Blightcaller.|
 
 ; Foothold: Stormsong Valley
 A The Warlord's Call|QID|51526|PRE|51802|M|58.43,62.67|Z|0862;Zuldazar|N|From Nathanos Blightcaller.|
