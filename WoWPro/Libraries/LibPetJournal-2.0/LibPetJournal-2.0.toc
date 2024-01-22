@@ -1,4 +1,4 @@
-## Interface: 70200
+## Interface: 80000
 ## LoadOnDemand: 1
 ## Title: Lib: LibPetJournal-2.0
 ## Notes: Provide a list of mini pets without filter interference.
