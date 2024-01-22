@@ -765,7 +765,7 @@ H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
 ; R1/R2 resumes here - Hendo72
 T Informing the Horde|QID|50703|M|41.40,72.54|Z|1164;Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 T Fond Farewells|QID|49040|M|40.37,19.08|Z|1165;Dazar'alor|N|To B'wizati who can be found in the Zocalo.|RANK|2|
-J Zandalar Forever!|AVAILABLE|50954|N|Now that you're done 'Loremaster of Zandalar', you can now continue working on the main achievement.\n[color=FF0000]NOTE: [/color]AFTER you've changed guides, don't forget to change your guide settings back if you changed them.|JUMP|EliEndgame|ACH|11861;;true+11868;;true+12478;;true|
+J Zandalar Forever!|AVAILABLE|50954|N|Now that you're done 'Loremaster of Zandalar', you can now continue working on the main achievement.\n[color=FF0000]NOTE: [/color]AFTER you've changed guides, don't forget to change your guide settings back if you changed them.\nSkip this step if you want to do something else.|JUMP|EliEndgame|ACH|11861;;true+11868;;true+12478;;true|
 A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|1164;Hall of Croniclers!Dazar'alor|N|At scouting map.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to start the War Campaign guide instead.|
 D War Campaign|N|When you check off this step the War Campaign guide will open.|
 ]]
