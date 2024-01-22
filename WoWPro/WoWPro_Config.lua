@@ -167,7 +167,8 @@ local function createDisplayConfig()
                 get = function(info) return WoWProDB.profile.guidescroll end,
                 set = function(info,val) WoWProDB.profile.guidescroll = val
                     WoWPro:TitlebarSet()
-                    WoWPro:UpdateGuide("Config: Scroll Mode") end
+                    WoWPro:UpdateGuide("Config: Scroll Mode") end,
+                    width = "double"
             },
             checksoundfile = {
                 order = 23,
@@ -199,8 +200,7 @@ local function createDisplayConfig()
                 name = L["Left Handed"],
                 desc = L["Put Use and Target Icons on the right side of the guide window."],
                 get = function(info) return WoWProDB.profile.leftside end,
-                set = function(info,val) WoWProDB.profile.leftside = val end,
-                width = "double"
+                set = function(info,val) WoWProDB.profile.leftside = val end
             },
             blank3 = {
                 order = 30,
@@ -282,7 +282,8 @@ local function createDisplayConfig()
                 desc = L["Enables/disables the title bar attached to the guide window."],
                 get = function(info) return WoWProDB.profile.titlebar end,
                 set = function(info,val) WoWProDB.profile.titlebar = val
-                    WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
+                    WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end,
+                width = "double"
             },
             titlecolor = {
                 order = 43,
@@ -320,7 +321,8 @@ local function createDisplayConfig()
                 get = function(info)
                     return WoWProDB.profile.bgtexture end,
                 set = function(info,val) WoWProDB.profile.bgtexture = val
-                    WoWPro.BackgroundSet() end
+                    WoWPro.BackgroundSet() end,
+                    width = "double"
             },
             bgcolor = {
                 order = 53,
@@ -349,7 +351,8 @@ local function createDisplayConfig()
                     return WoWProDB.profile.bordertexture end,
                 set = function(info,val) WoWProDB.profile.bordertexture = val
                     WoWPro.border = true
-                    WoWPro.BackgroundSet() end
+                    WoWPro.BackgroundSet() end,
+                    width = "double"
             },
             border = {
                 order = 55,
@@ -375,7 +378,8 @@ local function createDisplayConfig()
                 get = function(info)
                     return WoWProDB.profile.stickytexture end,
                 set = function(info,val) WoWProDB.profile.stickytexture = val
-                    WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
+                    WoWPro.BackgroundSet(); WoWPro.RowColorSet() end,
+                    width = "double"
             },
             stickycolor = {
                 order = 57,

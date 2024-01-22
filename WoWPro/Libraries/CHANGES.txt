@@ -1,108 +1,62 @@
 ------------------------------------------------------------------------
-r1308 | nevcairiel | 2023-07-12 10:15:09 +0000 (Wed, 12 Jul 2023) | 1 line
+r1319 | nevcairiel | 2024-01-17 16:15:25 +0000 (Wed, 17 Jan 2024) | 1 line
 Changed paths:
-   M /trunk
    M /trunk/changelog.txt
 
 Update changelog
 ------------------------------------------------------------------------
-r1307 | funkehdude | 2023-07-12 02:24:07 +0000 (Wed, 12 Jul 2023) | 1 line
+r1318 | funkehdude | 2024-01-15 21:35:19 +0000 (Mon, 15 Jan 2024) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 bump toc
 ------------------------------------------------------------------------
-r1306 | nevcairiel | 2023-06-23 14:55:09 +0000 (Fri, 23 Jun 2023) | 9 lines
+r1317 | funkehdude | 2024-01-15 21:34:42 +0000 (Mon, 15 Jan 2024) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+
+Missed bumping the color picker version
+------------------------------------------------------------------------
+r1316 | funkehdude | 2024-01-15 21:22:31 +0000 (Mon, 15 Jan 2024) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+
+Make sure the 10.2.5 color widget isn't click through
+------------------------------------------------------------------------
+r1315 | nevcairiel | 2024-01-15 16:40:10 +0000 (Mon, 15 Jan 2024) | 1 line
 Changed paths:
    M /trunk
-   M /trunk/.luacheckrc
-   M /trunk/AceDB-3.0/AceDB-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
 
-AceDB-3.0: Add fallbacks for region names
-
-PTRs now return region 72, instead of extending the table fallback to
-GetCurrentRegionName(), and an absolute fallback if even that fails, so
-AceDB does not error out on loading.
-
-GetCurrentRegionName() could be used as the primary source, instead of
-the look-up table, however we need to confirm first that the region keys
-would remain stable.
+AceGUI-3.0: Colorpicker: Compat with 10.2.5 ColorPickerFrame changes
 ------------------------------------------------------------------------
-r1305 | funkehdude | 2023-06-21 11:59:15 +0000 (Wed, 21 Jun 2023) | 1 line
+r1314 | funkehdude | 2023-11-16 01:01:18 +0000 (Thu, 16 Nov 2023) | 1 line
 Changed paths:
-   M /trunk/Ace3_Wrath.toc
+   M /trunk/Ace3_Vanilla.toc
 
-bump wrath toc
+bump toc
 ------------------------------------------------------------------------
-r1304 | nevcairiel | 2023-05-19 19:50:10 +0000 (Fri, 19 May 2023) | 1 line
-Changed paths:
-   M /trunk
-   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
-
-AceDBOptions-3.0: Minor locale fixes for russian
-------------------------------------------------------------------------
-r1303 | nevcairiel | 2023-05-16 15:05:10 +0000 (Tue, 16 May 2023) | 3 lines
-Changed paths:
-   M /trunk
-   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
-
-AceDBOptions-3.0: Update locale strings
-
-Fixes WoWAce #629
-------------------------------------------------------------------------
-r1302 | nevcairiel | 2023-05-03 07:00:09 +0000 (Wed, 03 May 2023) | 1 line
-Changed paths:
-   M /trunk
-   M /trunk/Ace3.toc
-
-Update TOC for 10.1
-------------------------------------------------------------------------
-r1301 | funkehdude | 2023-03-22 02:53:32 +0000 (Wed, 22 Mar 2023) | 1 line
+r1313 | funkehdude | 2023-11-08 01:36:37 +0000 (Wed, 08 Nov 2023) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 bump toc
 ------------------------------------------------------------------------
-r1300 | funkehdude | 2023-01-28 00:06:37 +0000 (Sat, 28 Jan 2023) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-bump toc
-------------------------------------------------------------------------
-r1299 | funkehdude | 2023-01-22 03:36:39 +0000 (Sun, 22 Jan 2023) | 1 line
+r1312 | funkehdude | 2023-10-11 09:50:14 +0000 (Wed, 11 Oct 2023) | 1 line
 Changed paths:
    M /trunk/Ace3_Wrath.toc
 
 bump toc
 ------------------------------------------------------------------------
-r1298 | nevcairiel | 2022-12-12 15:10:10 +0000 (Mon, 12 Dec 2022) | 1 line
-Changed paths:
-   M /trunk
-   M /trunk/.luacheckrc
-   M /trunk/CallbackHandler-1.0/CallbackHandler-1.0.lua
-
-Update CallbackHandler to rev 8
-------------------------------------------------------------------------
-r1297 | funkehdude | 2022-11-15 01:19:09 +0000 (Tue, 15 Nov 2022) | 1 line
+r1311 | funkehdude | 2023-09-10 15:29:49 +0000 (Sun, 10 Sep 2023) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
 bump toc
 ------------------------------------------------------------------------
-r1296 | nevcairiel | 2022-11-04 18:50:10 +0000 (Fri, 04 Nov 2022) | 4 lines
+r1310 | funkehdude | 2023-08-18 12:21:18 +0000 (Fri, 18 Aug 2023) | 1 line
 Changed paths:
-   M /trunk
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
-
-AceConfigDialog-3.0: Add support for displaying items on hover in GameTooltip
-
-This adds a new element to the config table, "tooltipHyperlink", which
-will be used to fill the tooltip when hovering over the element.
-------------------------------------------------------------------------
-r1295 | funkehdude | 2022-10-26 01:18:39 +0000 (Wed, 26 Oct 2022) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
+   M /trunk/Ace3_Vanilla.toc
 
 bump toc
 ------------------------------------------------------------------------

@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoWinterVeilH",'WorldEvents',"Winter Veil", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.WorldEvents:GuideHoliday(guide,"WinterVeil")
+WoWPro.WorldEvents:GuideHoliday(guide,"Winter Veil")
 WoWPro:GuideIcon(guide,"ACH",1691)
 WoWPro:GuideSteps(guide, function()
 return [[

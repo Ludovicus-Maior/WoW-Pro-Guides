@@ -79,11 +79,11 @@ T The Unseen Blade|QID|42627^42504|M|42.48,74.61|N|Enter your order hall from an
 ;A A Friendly Accord|QID|40847|M|41.19,74.28|N|From Fleet Admiral Tethys.|PRE|42627|
 C A Friendly Accord|QID|40847|QO|1|M|49.55,82.14|Z|Dalaran@Dalaran70|NC|N|(Optional) Enter the Chamber of the Guardian.|
 C A Friendly Accord|QID|40847|QO|2|M|31.83,71.29|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to Karazhan.|
-C A Friendly Accord|QID|40847|QO|3|M|40.76,69.51|Z|The Cape of Stranglethorn|NC|N|(Optional) Fly to Booty Bay.|
-C A Friendly Accord|QID|40847|QO|4|M|39.99,68.39|Z|The Cape of Stranglethorn|NC|N|Board the Crimson Veil.|
-T A Friendly Accord|QID|40847|M|40.76,69.11|Z|The Cape of Stranglethorn|N|To Fleet Admiral Tethys.|
-A The Dreadblades|QID|40849|M|40.76,69.11|Z|The Cape of Stranglethorn|N|From Fleet Admiral Tethys.|PRE|40847|
-C The Dreadblades|QID|40849|QO|1|M|40.76,69.11|Z|The Cape of Stranglethorn|N|Tell the Admiral you are ready to set sail.|CHAT|
+C A Friendly Accord|QID|40847|QO|3|M|40.76,69.51|Z|210;The Cape of Stranglethorn|NC|N|(Optional) Fly to Booty Bay.|
+C A Friendly Accord|QID|40847|QO|4|M|39.99,68.39|Z|210;The Cape of Stranglethorn|NC|N|Board the Crimson Veil.|
+T A Friendly Accord|QID|40847|M|40.76,69.11|Z|210;The Cape of Stranglethorn|N|To Fleet Admiral Tethys.|
+A The Dreadblades|QID|40849|M|40.76,69.11|Z|210;The Cape of Stranglethorn|N|From Fleet Admiral Tethys.|PRE|40847|
+C The Dreadblades|QID|40849|QO|1|M|40.76,69.11|Z|210;The Cape of Stranglethorn|N|Tell the Admiral you are ready to set sail.|CHAT|
 C Maritime Diplomacy|SO|1|M|61.16,68.79|Z|Azsuna|N|As you are running across the landing area, be aware of stealthed explosive traps. Board the ship on the other side of the beach and attack First Mate DeGauza.  Be aware of the radias marks for the bombs going off during the fight.|QID|40849|
 C Find the Dread Admiral Eliza|SO|2;1|M|57.02,66.63|Z|Azsuna|N|Find the Dread Admiral Eliza|QID|40849|
 C Defeat Lord Brinebeard|SO|3;1|M|56.38,67.22|Z|Azsuna|N|Defeat Lord Brinebeard|QID|40849|
@@ -514,10 +514,10 @@ C Hiding In Plain Sight|QID|46178|M|19.45,21.22|QO|1|NC|N|Wait and listen to Lil
 P Orgrimmar|QID|46178|M|55.28,23.99|Z|Dalaran@Dalaran70|QO|1|N|Use portal in Windrunner's Sanctuary to travel to Orgrimmar.|FACTION|HORDE|ACTIVE|46178|
 P Mt Hyjal|QID|46178|M|51.11,38.29|Z|Orgrimmar@Orgrimmar|QO|1|N|Use portal to Mt Hyjal in Orgrimmar.|FACTION|HORDE|ACTIVE|46178|
 R Teldrasil|QID|46178|QO|2|M|52.34,89.46|Z|Teldrassil|N|Fly to Teldrasil to catch a boat to Azuremyst Isle.|FACTION|HORDE|ACTIVE|46178|
-R The Exodar|QID|46178|QO|2|M|41.63,73.59|Z|The Exodar|N|Wind your way down into The Vault of Lights in The Exodar and find the mark, Ardann the Solemn.|FACTION|HORDE|ACTIVE|46178|
-C Hiding In Plain Sight|QID|46178|M|39.45,61.78|Z|The Exodar|QO|2|T|Ardann the Solemn|N|Look for the star on your map, he paths counter clockwise around the edge of the area marked on the map. It's a pretty long patrol, so you may need to wait a few minutes (or if impatient, go find him.) Find a good place to fight and blind (or distract) the Crystalforged Demolisher that is walking with Ardaan and then kill Ardaan. Vanish and run back outside.|FACTION|HORDE|
-R Azuremyst Isle|QID|46178|M|35.02,74.67|Z|The Exodar|QO|2|N|Run back up the tunnel and outside.|FACTION|HORDE|ACTIVE|46178|
-R The Veiled Sea|QID|46178|QO|2|M|21.59,54.10|Z|Azuremyst Isle|N|Catch the boat back to Darnassus.|FACTION|HORDE|ACTIVE|46178|
+R The Exodar|QID|46178|QO|2|M|41.63,73.59|Z|103; The Exodar|N|Wind your way down into The Vault of Lights in The Exodar and find the mark, Ardann the Solemn.|FACTION|HORDE|ACTIVE|46178|
+C Hiding In Plain Sight|QID|46178|M|39.45,61.78|Z|103; The Exodar|QO|2|T|Ardann the Solemn|N|Look for the star on your map, he paths counter clockwise around the edge of the area marked on the map. It's a pretty long patrol, so you may need to wait a few minutes (or if impatient, go find him.) Find a good place to fight and blind (or distract) the Crystalforged Demolisher that is walking with Ardaan and then kill Ardaan. Vanish and run back outside.|FACTION|HORDE|
+R Azuremyst Isle|QID|46178|M|35.02,74.67|Z|103; The Exodar|QO|2|N|Run back up the tunnel and outside.|FACTION|HORDE|ACTIVE|46178|
+R The Veiled Sea|QID|46178|QO|2|M|21.59,54.10|Z|97 ;Azuremyst Isle|N|Catch the boat back to Darnassus.|FACTION|HORDE|ACTIVE|46178|
 C Hiding In Plain Sight|QID|46178|QO|3|M|68.38,45.63|Z|Darnassus|T|Taylenne Sweetsong|N|Take the portal into Darnassus or fly over the walls. Tylene is near the back gate. Don't fight Taylene when the elite npcs are close as they do MASSIVE damage. Remember Cry for Help is interruptible, Sap the nearest elite, kill the mark and vanish if you want to live.|FACTION|HORDE|
 P Krasus' Landing|QID|46178|QO|3|U|140192|N|Hearth to Dalaran and use Windrunner's Sanctuary portal back to Orgrimmar and fly up to the Cataclysm Portal circle.|FACTION|HORDE|ACTIVE|46178|
 P Orgrimmar|QID|46178|QO|3|M|55.28,23.99|Z|Dalaran@Dalaran70|N|Run to Windrunner's Sactuary and use the portal to Orgrimmar.|FACTION|HORDE|ACTIVE|46178|

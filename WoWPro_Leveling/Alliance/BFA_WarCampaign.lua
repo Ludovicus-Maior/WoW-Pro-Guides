@@ -726,14 +726,14 @@ B More upgrade missions|QID|54292&54293&54305|M|68.97,24.73|Z|Boralus|S!US|N|Thr
 A Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|50|
 A To the Front|QID|53194|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|50|
 P Arathi Highlands|ACTIVE|53194|M|66.23,24.77|Z|Boralus|CHAT|N|Talk to Yvera Dawnwing for a port to Arathi Highlands.|
-T To the Front|QID|53194|M|19.25,61.94|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
-A Touring the Front|QID|53197|M|19.25,61.94|Z|Arathi Highlands|PRE|53194|
-C Touring the Front|QID|53197|M|18.26,67.94|Z|Arathi Highlands|QO|3|CHAT|N|View the battleground with Grayson Bell.|
-C Touring the Front|QID|53197|M|12.01,52.12|Z|Arathi Highlands|QO|2|CHAT|N|Check on Lumbering Leo.|
-C Touring the Front|QID|53197|M|27.55,57.01|Z|Arathi Highlands|QO|1|CHAT|N|Enter the mine and run below to check on Foreman Tully.|
-T Touring the Front|QID|53197|M|19.24,61.94|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
-A Back to Boralus|QID|53198|M|19.24,61.94|Z|Arathi Highlands|N|From Captain Roderick Brewston.|PRE|53197|
-P Boralus Harbor|ACTIVE|53198|M|21.71,64.88|Z|Arathi Highlands|CHAT|N|Talk to Yvera Dawnwing for a port back to Boralus.|
+T To the Front|QID|53194|M|19.25,61.94|Z|14; Arathi Highlands|N|To Captain Roderick Brewston.|
+A Touring the Front|QID|53197|M|19.25,61.94|Z|14; Arathi Highlands|PRE|53194|
+C Touring the Front|QID|53197|M|18.26,67.94|Z|14; Arathi Highlands|QO|3|CHAT|N|View the battleground with Grayson Bell.|
+C Touring the Front|QID|53197|M|12.01,52.12|Z|14; Arathi Highlands|QO|2|CHAT|N|Check on Lumbering Leo.|
+C Touring the Front|QID|53197|M|27.55,57.01|Z|14; Arathi Highlands|QO|1|CHAT|N|Enter the mine and run below to check on Foreman Tully.|
+T Touring the Front|QID|53197|M|19.24,61.94|Z|14; Arathi Highlands|N|To Captain Roderick Brewston.|
+A Back to Boralus|QID|53198|M|19.24,61.94|Z|14; Arathi Highlands|N|From Captain Roderick Brewston.|PRE|53197|
+P Boralus Harbor|ACTIVE|53198|M|21.71,64.88|Z|14; Arathi Highlands|CHAT|N|Talk to Yvera Dawnwing for a port back to Boralus.|
 T Back to Boralus|QID|53198|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
 C Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g.|
 T Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|To Ralston Karn and enjoy Warfronts!|

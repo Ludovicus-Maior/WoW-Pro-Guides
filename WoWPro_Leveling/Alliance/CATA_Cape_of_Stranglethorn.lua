@@ -143,13 +143,12 @@ A Mok'rash the Cleaver|QID|26601|PRE|26602|M|40.37,67.84|Z|210;The Cape of Stran
 C Mok'rash the Cleaver|QID|26601|M|35.15,65.70|Z|210;The Cape of Stranglethorn|N|Swim West to the Island. Kill Mok'rash.|
 T Mok'rash the Cleaver|QID|26601|M|41.80,72.82;40.33,67.85|CC|Z|210;The Cape of Stranglethorn|N|To Captain Hecklebury Smotts.|
 T Getting In With the Bloodsail|QID|26624|M|45.81,65.48;45.45,56.16;43.84,56.46|CS|Z|210;The Cape of Stranglethorn|N|Up the path to Yancey Grillsen.|
-A Seeing Where Your Loyalties Lie|QID|26629|PRE|26624|M|45.81,65.48;43.84,56.46|CC|Z|210;The Cape of Stranglethorn|N|From Yancey Grillsen.|
-A Looks Like a Tauren Pirate to Me|QID|26630|M|41.14,73.25|Z|210;The Cape of Stranglethorn|N|From Fleet Master Seahorn.|
-C Cow Head|QID|26630|QO|3|L|59147|M|43.24,71.67|Z|210;The Cape of Stranglethorn|N|Go upstairs and talk to Bossy the Cow.|
-l Oversized Pirate Hat|QID|26630|QO|2|L|59148|M|42.72,69.13|Z|210;The Cape of Stranglethorn|N|Talk to Narkk at The Old Port Authority and get the hat from him.|
+A Looks Like a Tauren Pirate to Me|QID|26630|LEAD|26629|M|41.14,73.25|Z|210;The Cape of Stranglethorn|N|From Fleet Master Seahorn.|
+l Cow Head|ACTIVE|26630|QO|3|L|59147|M|43.24,71.67|Z|210;The Cape of Stranglethorn|N|Go upstairs and talk to Bossy the Cow.|
+l Oversized Pirate Hat|ACTIVE|26630|QO|2|L|59148|M|42.72,69.13|Z|210;The Cape of Stranglethorn|N|Talk to Narkk at The Old Port Authority and get the hat from him.|
 C Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|Z|210;The Cape of Stranglethorn|N|Take the Head and Hat to the Fleetmaster.|NC|
-T Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|Z|210;The Cape of Stranglethorn|N|To Fleet Master Seahorn.  It will be a few seconds from handing the Head and Hat to him before he will allow you to finish the quest.|
 T Seeing Where Your Loyalties Lie|QID|26629|M|42.39,67.65;45.81,5.4;43.85,56.34|CS|Z|210;The Cape of Stranglethorn|N|To Yancey Grillsen.|
+T Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|Z|210;The Cape of Stranglethorn|N|To Fleet Master Seahorn.  It will be a few seconds from handing the Head and Hat to him before he will allow you to finish the quest.|
 A Your First Day as a Pirate|QID|26631|PRE|26629|M|43.85,56.34|Z|210;The Cape of Stranglethorn|N|From Yancey Grillsen.|
 T Your First Day as a Pirate|QID|26631|M|50,68;45.03,93.29;44.41,91.61|CC|Z|210;The Cape of Stranglethorn|N|To Captain Keelhaul, in the right-hand ship of Wild Shore.|
 A Swabbing Duty|QID|26633|PRE|26631|M|44.41,91.61|Z|210;The Cape of Stranglethorn|N|From Captain Keelhaul.|
@@ -219,7 +218,7 @@ T Bloodsail's End|QID|26703|M|41.17,73.15|Z|210;The Cape of Stranglethorn|N|To B
 A The Call of Kalimdor|QID|26596|M|40.56,68.20|Z|210;The Cape of Stranglethorn|N|If you're going to go to Dustwallow Marsh in Kalimdor next, skip this if you wish to do Western Plaguelands. From Corporal Jeyne.|
 A The Battle for Andorhal|QID|28749|LEAD|27159|M|41.55,74.35|Z|210;The Cape of Stranglethorn|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
 R Western Plaguelands|QID|28749|O|M|41.55,74.34|Z|210;The Cape of Stranglethorn|N|To continue to Western Plaguelands, get a teleport from War-Mage Erallier below the Alliance Flight Master.|
-b Northern Barrens|QID|26596|O|M|39.10,67.05|Z|210;The Cape of Stranglethorn|N|To continue on to Dustwallow Marsh in Kalimdor, hop on the ship to Ratchet.|JUMP|Dustwallow Marsh|
-N Close this step to go onto the next guide.|Z|210;The Cape of Stranglethorn|N|Those doing Dustwallow Marsh will have to load the guide manually.|
+b Northern Barrens|ACTIVE|26596|M|39.10,67.05|Z|210;The Cape of Stranglethorn|N|To continue on to Dustwallow Marsh in Kalimdor, hop on the ship to Ratchet.|
+N Click the book to jump to Dustwallow Marsh Guide.|ACTIVE|26596|Z|210;The Cape of Stranglethorn|N|Those doing Dustwallow Marsh will have to load the guide manually.|JUMP|Dustwallow Marsh|
 ]]
 end)

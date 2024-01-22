@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoLoveA",'WorldEvents',"Love is in the Air", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide)
-WoWPro.WorldEvents:GuideHoliday(guide,"LoveInTheAir")
+WoWPro.WorldEvents:GuideHoliday(guide,"Love is In The Air")
 WoWPro:GuideIcon(guide,"ACH",1695)
 WoWPro:GuideSteps(guide, function()
 return [[
