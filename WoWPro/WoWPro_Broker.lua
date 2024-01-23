@@ -1221,7 +1221,7 @@ function WoWPro:RowUpdate(offset)
                 LogBox.Box:SetText(text)
 
                 -- Create a hidden frame to measure the text width
-                local hiddenFrame = CreateFrame("Frame")
+                local hiddenFrame = _G.CreateFrame("Frame")
                 hiddenFrame:Hide()
 
                 local fontString = hiddenFrame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
