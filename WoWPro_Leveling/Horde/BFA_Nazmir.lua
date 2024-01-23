@@ -34,12 +34,12 @@ T Curse of Jani|QID|47442|M|35.46,7.71|Z|1165;Dazar'alor|N|To Jani.\n[color=FF00
 T Journey to Nazmir|QID|47103|Z|1165;Dazar'alor|M|51.66,41.31|N|To Rokhan.|
 A Nazmir, the Forbidden Swamp|QID|48535|PRE|47103|LEAD|47105|M|51.66,41.31|Z|Dazar'alor|N|From Rokhan.|
 C Nazmir, the Forbidden Swamp|QID|48535|QO|1|M|51.94,41.20|Z|Dazar'alor|N|Ask Paku'ai Rokota for a ride (chat, not flight path)|CHAT|
-R Nazmir|AVAILABLE|47105|M|53.75,19.19|Z|0862;Zuldazar|N|Run down to the waypoint and cross the bridge to enter Nazmir.|
-R Nazmir, the Forbidden Swamp|ACTIVE|48535|QO|2|M|42.99,86.03|Z|0863;Nazmir|N|Meet with Princess Talanji.|
+R Nazmir|AVAILABLE|47105|M|53.75,19.19|Z|0862;Zuldazar|N|Run down to the waypoint and cross the bridge to enter Nazmir.|FLY|OLD|
+R Nazmir, the Forbidden Swamp|ACTIVE|48535|QO|2|M|42.99,86.03|Z|0863;Nazmir|N|Meet with Princess Talanji.|FLY|OLD|
 T Nazmir, the Forbidden Swamp|QID|48535|M|42.99,86.03|Z|0863;Nazmir|N|To Princess Talanji.|
 A Into The Darkness|QID|47105|M|42.99,86.03|Z|0863;Nazmir|N|From Princess Talanji.|
 $ Venomous Seal|QID|49889|M|46.21,82.92|Z|0863;Nazmir|N|Located inside the building.\nTreasure to loot for resources and artifact power.\n[color=FF0000]NOTE: [/color]Do this quick because the room is filled with poison gas.|RANK|2|
-R The Fallen Outpost|QID|47105|M|46.71,80.37|Z|0863;Nazmir|N|Scout ahead to The Fallen Outpost.|
+R The Fallen Outpost|QID|47105|M|46.71,80.37|Z|0863;Nazmir|N|Scout ahead to The Fallen Outpost.|FLY|OLD|
 T Into The Darkness|QID|47105|M|47.24,79.74|Z|0863;Nazmir|N|To Princess Talanji.|
 A Leave None Standing|QID|47264|PRE|47105|M|47.24,79.74|Z|0863;Nazmir|N|From Princess Talanji.|
 A Improper Burial|QID|47130|PRE|47105|M|47.24,79.74|Z|0863;Nazmir|N|From Princess Talanji.|
