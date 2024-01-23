@@ -6,12 +6,12 @@ WoWPro:GuideNickname(guide, "War Campaign")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|AVAILABLE|52749|M|PLAYER|N|Jump to the Guide Hub|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|NOCACHE|
+;N Guide Hub|AVAILABLE|52749|M|PLAYER|N|Jump to the Guide Hub|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|NOCACHE| ** I don't think this required here - Hendo72
 ;Starter Notes
-N Ranks|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder. It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts.\nRank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each.\nRank 3 adds other quests on Zandalar.\nIf you change ranks mid-guide, reset the guide (from guide title bar) or else you may miss things.|
+N Ranks|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder. It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts.\nRank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each.\nRank 3 adds other quests on Zandalar.\n[color=FF0000]NOTE: [/color]If you change rank mid-guide, reset the guide (from guide title bar) or else you may miss things.|
 N The Banshee's Wail|QID|53079|N|All of these quest arcs start on The Banshee's Wail, a ship in Zandalar's harbor. It can be reached by taking the flightpath to the Port of Zandalar.|
 ; Heart of Azeroth
-N Heart of Azeroth|AVAILABLE|52428|N|You have to complete the Storyline for Heart of Azeroth to continue further. We will do that now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|40|ACH|12918;;;FALSE|
+N Heart of Azeroth|AVAILABLE|52428|N|You have to complete the Storyline for Heart of Azeroth to continue further. We will do that now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|ACH|12918;;;FALSE|
 A A Dying World|QID|53028|M|50.37,41.80|Z|1165;Dazar'alor|N|From Earthen Guardian standing just outside the door of the Great Seal.|
 P Magni's Encampment|ACTIVE|53028|M|73.47,85.34|Z|1163;The Great Seal!Dazar'alor|N|Use the Silithis portal.|
 T A Dying World|QID|53028|M|42.22,44.28|Z|81;Silithus|N|To Magni Bronzebeard.|
