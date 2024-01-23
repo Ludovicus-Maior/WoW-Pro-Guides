@@ -1196,83 +1196,90 @@ if step then
         end}
     )
     end
-            tinsert(dropdown,
-            {text = "Report an Issue", func = function()
-                WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
-                local LogBox = WoWPro.LogBox
-                local X, Y, mapId = WoWPro:GetPlayerZonePosition()
-                local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n---\n"
-                local Sindex = WoWPro.rows[currentRow.num].index
+    WoWPro.RowDropdownMenu[i] = dropdown
+    tinsert(dropdown,
+    {text = "Report an Issue", func = function()
+        WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
+        local LogBox = WoWPro.LogBox
+        local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+        local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
+        local Sindex = WoWPro.rows[currentRow.num].index
 
+        text = text .. "\n|cffffff00Guide Info:|r\n"
+        text = text .. "Guide ID: " .. GID .. "\n\n"
 
-                text = text .. "\n|cffffff00Guide Info:|r\n"
-                text = text .. "Guide ID: " .. GID .. "\n\n"
-
-                if WoWPro.rows[currentRow.num]:IsVisible() then
-                    text = text .. "Step Info for " .. GID .. ":\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
-                end
-
-                -- Retrieve additional player information
-                local _, class = _G.UnitClass("player")
-                class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
-                local level = _G.UnitLevel("player")
-                local version = _G.GetAddOnMetadata("WoWPro", "Version")
-                local locale = _G.GetLocale()
-                local gameVersion, _, _, _ = _G.GetBuildInfo()  -- Get the game version
-
-                text = text .. "\n|cffffff00Player Info:|r\n"
-                text = text .. "Faction: " .. WoWPro.Faction .. "\n"
-                text = text .. "Class: " .. class .. "\n"
-                text = text .. "Level: " .. level .. "\n"
-                text = text .. "Addon Version: " .. version .. "\n"
-                text = text .. "Game Version: " .. gameVersion .. "\n"  -- Add the game version
-                text = text .. "Locale: " .. locale .. "\n"
-                if (not X) or (not Y) then
-                    text = text .. "Location: Unknown\n"
-                else
-                    text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "\n"
-                    text = text .. "Map ID: " .. tostring(mapId) .. "\n"
-                end
-                text = text .. "Zone: " .. WoWPro.GetZoneText() .. "\n"
-                text = text .. "Sub Zone: " .. _G.GetSubZoneText() .. "\n"
-
-                -- Add instructions for copying the text
-                if _G.IsMacClient() then
-                    text = text .. "\n\nTo copy this information, press ⌘+A to select all text, then press ⌘+C to copy it. You can then paste this into a Discord ticket by pressing ⌘+V.\n"
-                else
-                    text = text .. "\n\nTo copy this information, press Ctrl+A to select all text, then press Ctrl+C to copy it. You can then paste this into a Discord ticket by pressing Ctrl+V.\n"
-                end
-
-                -- Set the text of the LogBox and show it
-                LogBox.Box:SetText(text)
-
-                -- Create a hidden frame to measure the text width
-                local hiddenFrame = _G.CreateFrame("Frame")
-                hiddenFrame:Hide()
-
-                local fontString = hiddenFrame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
-                fontString:SetText(text)
-
-                -- Get the width of the text
-                local textWidth = fontString:GetStringWidth()
-
-                -- Set the width of the LogBox and the text box
-                LogBox:SetWidth(textWidth + 20)  -- Add some padding
-                LogBox.Box:SetWidth(textWidth + 20)  -- Add some padding
-
-                LogBox.Box:Show()
-
-                -- Hide the EditBox if it exists
-                if WoWPro.EditBox then
-                    WoWPro.EditBox:Hide()
-                end
-
-                LogBox:Show()
-            end}
-        )
+        if WoWPro.rows[currentRow.num]:IsVisible() then
+            text = text .. "Step Info for " .. GID .. ":\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
         end
-        WoWPro.RowDropdownMenu[i] = dropdown
 
+        -- Retrieve additional player information
+        local _, class = _G.UnitClass("player")
+        class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
+        local level = _G.UnitLevel("player")
+        local version = _G.GetAddOnMetadata("WoWPro", "Version")
+        local locale = _G.GetLocale()
+        local gameVersion, _, _, _ = _G.GetBuildInfo()  -- Get the game version
+
+        -- Retrieve the player's realm name
+        local realmName = _G.GetRealmName()
+
+        -- Retrieve the player's character name
+        local playerName = _G.UnitName("player")
+
+        text = text .. "\n|cffffff00Player Info:|r\n"
+        text = text .. "Character Name: " .. playerName .. "\n"
+        text = text .. "Faction: " .. WoWPro.Faction .. "\n"
+        text = text .. "Class: " .. class .. "\n"
+        text = text .. "Level: " .. level .. "\n"
+        text = text .. "Realm: " .. realmName .. "\n"  -- Add the player's realm name
+        text = text .. "Addon Version: " .. version .. "\n"
+        text = text .. "Game Version: " .. gameVersion .. "\n"  -- Add the game version
+        text = text .. "Locale: " .. locale .. "\n"
+        if (not X) or (not Y) then
+            text = text .. "Location: Unknown\n"
+        else
+            text = text .. "Coordinates: " .. string.format("%.2f, %.2f", X*100, Y*100) .. "\n"
+            text = text .. "Map ID: " .. tostring(mapId) .. "\n"  -- Map ID on a separate line
+        end
+        text = text .. "Zone: " .. WoWPro.GetZoneText() .. "\n"
+        text = text .. "Sub Zone: " .. _G.GetSubZoneText() .. "\n"
+
+        -- Add instructions for copying the text
+        if _G.IsMacClient() then
+            text = text .. "\n\nTo copy this information, press ⌘+A to select all text, then press ⌘+C to copy it. You can then paste this into a Discord ticket by pressing ⌘+V.\n"
+        else
+            text = text .. "\n\nTo copy this information, press Ctrl+A to select all text, then press Ctrl+C to copy it. You can then paste this into a Discord ticket by pressing Ctrl+V.\n"
+        end
+
+        -- Set the text of the LogBox and show it
+        LogBox.Box:SetText(text)
+
+        -- Create a hidden frame to measure the text width
+        local hiddenFrame = _G.CreateFrame("Frame")
+        hiddenFrame:Hide()
+
+        local fontString = hiddenFrame:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+        fontString:SetText(text)
+
+        -- Get the width of the text
+        local textWidth = fontString:GetStringWidth()
+
+        -- Set the width of the LogBox and the text box
+        LogBox:SetWidth(textWidth + 20)  -- Add some padding
+        LogBox.Box:SetWidth(textWidth + 20)  -- Add some padding
+
+        LogBox.Box:Show()
+
+        -- Hide the EditBox if it exists
+        if WoWPro.EditBox then
+            WoWPro.EditBox:Hide()
+        end
+
+        LogBox:Show()
+    end}
+    )
+    end
+    WoWPro.RowDropdownMenu[i] = dropdown
 
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
