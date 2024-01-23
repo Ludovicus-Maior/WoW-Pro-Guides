@@ -1124,6 +1124,8 @@ function WoWPro:RowUpdate(offset)
 
 -- Right-Click Drop-Down --
 local dropdown = {}
+local editBox  -- Declare the EditBox outside the if statement
+
 if step then
     tinsert(dropdown,
         {text = step.." Options", isTitle = true}
@@ -1174,23 +1176,27 @@ if step then
         local questId = string.match(QID, "([^%^]*)")
 
         tinsert(dropdown,
-            {text = "Wowhead Link", func = function()
-                local link = "https://www.wowhead.com/quest=" .. questId
+        {text = "Wowhead Link", func = function()
+            local link = "https://www.wowhead.com/quest=" .. questId
 
-                -- Create an EditBox to display the link
-                local editBox = _G.CreateFrame("EditBox", nil, _G.UIParent, "InputBoxTemplate")
-                editBox:SetAutoFocus(true)  -- Automatically focus the EditBox
-                editBox:SetWidth(300)  -- Set the width of the EditBox
-                editBox:SetHeight(32)  -- Set the height of the EditBox
-                editBox:SetPoint("CENTER")  -- Position the EditBox in the center of the screen
-                editBox:SetText(link)  -- Set the text of the EditBox to the link
-                editBox:HighlightText()  -- Highlight the text for easy copying
+            -- Create a new EditBox each time
+            local newEditBox = _G.CreateFrame("EditBox", "WowheadLinkBox" .. questId, _G.UIParent, "InputBoxTemplate")
+            newEditBox:SetAutoFocus(true)  -- Automatically focus the EditBox
+            newEditBox:SetWidth(245)  -- Set the width of the EditBox
+            newEditBox:SetHeight(32)  -- Set the height of the EditBox
+            newEditBox:SetPoint("CENTER")
+            newEditBox:SetText(link)
+            newEditBox:HighlightText()
 
-                -- Add a script to hide the EditBox when the user presses 'Enter' or 'Escape'
-                editBox:SetScript("OnEnterPressed", function() editBox:Hide() end)
-                editBox:SetScript("OnEscapePressed", function() editBox:Hide() end)
-            end}
-        )
+            -- Create a header for the EditBox
+            local header = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+            header:SetPoint("TOP", newEditBox, "TOP", 0, 15)
+            header:SetText("Press Esc to close this box after each link")
+
+            -- Add a script to hide the EditBox when the user presses 'Enter' or 'Escape'
+            newEditBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
+        end}
+    )
     end
             tinsert(dropdown,
             {text = "Report an Issue", func = function()
