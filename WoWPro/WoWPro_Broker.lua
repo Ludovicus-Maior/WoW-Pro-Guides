@@ -1124,8 +1124,6 @@ function WoWPro:RowUpdate(offset)
 
 -- Right-Click Drop-Down --
 local dropdown = {}
-local editBox  -- Declare the EditBox outside the if statement
-
 if step then
     tinsert(dropdown,
         {text = step.." Options", isTitle = true}
