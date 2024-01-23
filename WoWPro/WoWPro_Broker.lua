@@ -1122,54 +1122,76 @@ function WoWPro:RowUpdate(offset)
             WoWPro:CheckFunction(currentRow, button, down)
         end)
 
-        -- Right-Click Drop-Down --
-        local dropdown = {
-        }
-        if step then
-            tinsert(dropdown,
-                {text = step.." Options", isTitle = true}
-            )
-            if WoWPro.RETAIL then
-                -- TODO: Is this needed at all?
-                _G.QuestMapUpdateAllQuests()
-                _G.QuestPOIUpdateIcons()
-            end
-            local _, x
-            -- TODO: Is this needed at all?
-            if QID and WoWPro.RETAIL then
-                _, x = _G.QuestPOIGetIconInfo(QID)
-            end
-            if coord or x then
-                tinsert(dropdown,
-                    {text = "Map Coordinates", func = function()
-                        WoWPro:RemoveMapPoint()
-                        WoWPro:MapPoint(currentRow.num)
-                    end}
-                )
-            end
-            if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.GetNumGroupMembers() > 0 then
-                tinsert(dropdown,
-                    {text = "Share Quest", func = function()
-                        _G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
-                    end}
-                )
-            end
-            if sticky then
-                tinsert(dropdown,
-                    {text = "Un-Sticky", func = function()
-                        WoWPro.sticky[currentRow.index] = false
-                        WoWPro:UpdateGuide("ClickedUnSticky")
-                    end}
-                )
-            else
-                tinsert(dropdown,
-                    {text = "Make Sticky", func = function()
-                        WoWPro.sticky[currentRow.index] = true
-                        WoWPro.unsticky[currentRow.index] = false
-                        WoWPro:UpdateGuide("ClickedMakeSticky")
-                    end}
-                )
-            end
+-- Right-Click Drop-Down --
+local dropdown = {}
+if step then
+    tinsert(dropdown,
+        {text = step.." Options", isTitle = true}
+    )
+    if WoWPro.RETAIL then
+        -- TODO: Is this needed at all?
+        _G.QuestMapUpdateAllQuests()
+        _G.QuestPOIUpdateIcons()
+    end
+    local _, x
+    -- TODO: Is this needed at all?
+    if QID and WoWPro.RETAIL then
+        _, x = _G.QuestPOIGetIconInfo(QID)
+    end
+    if coord or x then
+        tinsert(dropdown,
+            {text = "Map Coordinates", func = function()
+                WoWPro:RemoveMapPoint()
+                WoWPro:MapPoint(currentRow.num)
+            end}
+        )
+    end
+    if QID and WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].index and _G.GetNumGroupMembers() > 0 then
+        tinsert(dropdown,
+            {text = "Share Quest", func = function()
+                _G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
+            end}
+        )
+    end
+    if sticky then
+        tinsert(dropdown,
+            {text = "Un-Sticky", func = function()
+                WoWPro.sticky[currentRow.index] = false
+                WoWPro:UpdateGuide("ClickedUnSticky")
+            end}
+        )
+    else
+        tinsert(dropdown,
+            {text = "Make Sticky", func = function()
+                WoWPro.sticky[currentRow.index] = true
+                WoWPro.unsticky[currentRow.index] = false
+                WoWPro:UpdateGuide("ClickedMakeSticky")
+            end}
+        )
+    end
+    if QID then
+        -- Extract the portion of the QID before the caret
+        local questId = string.match(QID, "([^%^]*)")
+
+        tinsert(dropdown,
+            {text = "Show on WoWHead", func = function()
+                local link = "https://www.wowhead.com/quest=" .. questId
+
+                -- Create an EditBox to display the link
+                local editBox = _G.CreateFrame("EditBox", nil, _G.UIParent, "InputBoxTemplate")
+                editBox:SetAutoFocus(true)  -- Automatically focus the EditBox
+                editBox:SetWidth(300)  -- Set the width of the EditBox
+                editBox:SetHeight(32)  -- Set the height of the EditBox
+                editBox:SetPoint("CENTER")  -- Position the EditBox in the center of the screen
+                editBox:SetText(link)  -- Set the text of the EditBox to the link
+                editBox:HighlightText()  -- Highlight the text for easy copying
+
+                -- Add a script to hide the EditBox when the user presses 'Enter' or 'Escape'
+                editBox:SetScript("OnEnterPressed", function() editBox:Hide() end)
+                editBox:SetScript("OnEscapePressed", function() editBox:Hide() end)
+            end}
+        )
+    end
             tinsert(dropdown,
             {text = "Report an Issue", func = function()
                 WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
