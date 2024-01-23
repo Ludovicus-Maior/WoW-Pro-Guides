@@ -1174,7 +1174,7 @@ if step then
         local questId = string.match(QID, "([^%^]*)")
 
         tinsert(dropdown,
-            {text = "wowhead Link", func = function()
+            {text = "Wowhead Link", func = function()
                 local link = "https://www.wowhead.com/quest=" .. questId
 
                 -- Create an EditBox to display the link
