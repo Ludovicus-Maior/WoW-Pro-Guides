@@ -107,9 +107,9 @@ C Urok's True Death|QID|48591|M|26.01,73.49|Z|0863;Nazmir|N|Kill Urok.|T|Urok|
 T Urok's True Death|QID|48591|M|28.78,72.64|Z|0863;Nazmir|N|To Sur'jan.|
 K Tojek|ACTIVE|51089|QO|1|M|27.30,67.41|Z|0863;Nazmir|N|You can use the group finder if you need help for this, recommended 3 person quest to kill Tojek.|T|Tojek|
 ;  A Pact with Death
-C The Shadow of Death|QID|47241|QO|1|M|39.63,65.00|Z|0863;Nazmir|N|Click to investigate the Weathered Shrine.|H|
+C The Shadow of Death|QID|47241|QO|1|M|39.61,64.96|Z|0863;Nazmir|N|Click to investigate the Weathered Shrine.|H|
 C The Shadow of Death|QID|47241|QO|2|M|37.48,63.07|Z|0863;Nazmir|N|Pick up the spear from inside the ruins.|H|
-C The Shadow of Death|QID|47241|QO|3|M|35.64,58.55|Z|0863;Nazmir|N|Click to investigate the Shrine of Bones.\n[color=FF0000]NOTE: [/color]Be ready for an ambush as you leave.|H|
+C The Shadow of Death|QID|47241|QO|3|M|35.62,58.57|Z|0863;Nazmir|N|Click to investigate the Shrine of Bones.\n[color=FF0000]NOTE: [/color]Be ready for an ambush as you leave.|H|
 $ Urn of Agussu|QID|50888|M|38.12,57.68|Z|0863;Nazmir|N|Click the Urn to summon the three guardians and defeat them to loot the treasure.|RANK|2|RARE|
 A Bwonsamdi's Deliverance|QID|48468|M|39.07,60.67|Z|0863;Nazmir|N|From Shinga Deathwalker.|RANK|2|
 A Respecting the Rites|QID|48473|M|39.07,60.67|Z|0863;Nazmir|N|From Shinga Deathwalker.|RANK|2|
@@ -144,12 +144,16 @@ K Blood Witch Najima|ACTIVE|47244|QO|1|M|38.54,49.98|Z|0863;Nazmir|N|Kill Blood 
 T A Culling of Souls|QID|47244|M|39.52,43.84|Z|0863;Nazmir|N|To Hanzabu.|
 A Spiritual Restoration|QID|49278|PRE|47244|M|39.52,43.84|Z|0863;Nazmir|N|From Hanzabu.|
 f Zo'bal Ruins|ACTIVE|49278|M|40.18,42.81|Z|0863;Nazmir|N|At Du'ba.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-C Spiritual Restoration|QID|49278|M|40.89,43.54;39.03,43.92;38.86,43.49|CN|Z|0863;Nazmir|N|Click on the glowing balls to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
+C Spiritual Restoration|QID|49278|QO|1<1|M|40.89,43.54|Z|0863;Nazmir|N|Click on the first glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
+C Spiritual Restoration|QID|49278|QO|1<2|M|39.03,43.92|Z|0863;Nazmir|N|Click on the second glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
+C Spiritual Restoration|QID|49278|QO|1<3|M|38.86,43.49|Z|0863;Nazmir|N|Click on the last glowing ball to restore the Drained Spirits.\n[color=FF0000]NOTE: [/color]They should be marked on your minimap.|H|
 T Spiritual Restoration|QID|49278|M|39.53,43.83|Z|0863;Nazmir|N|To Hanzabu.|
 A The Necropolis|QID|47868|PRE|49278|M|39.53,43.83|Z|0863;Nazmir|N|From Hanzabu.|
 ;  Undercover Sista
 A Blood Troll on the Outside|QID|49440|PRE|49278|M|39.65,43.85|Z|0863;Nazmir|N|From Witch Doctor Kejabu after he appears beside you.|
-C Blood Troll on the Outside|QID|49440|QO|1|M|39.74,43.52|Z|0863;Nazmir|N|Click on the three (3) spots around the circle to place the Blood Troll Skulls.|H|
+C Blood Troll on the Outside|QID|49440|QO|1<1|M|39.58,43.76|Z|0863;Nazmir|N|Click on the first pedestal around the circle to place the Blood Troll Skulls.|H|
+C Blood Troll on the Outside|QID|49440|QO|1<2|M|39.42,43.51|Z|0863;Nazmir|N|Click on the second pedestal to place the Blood Troll Skulls.|H|
+C Blood Troll on the Outside|QID|49440|QO|1<3|M|39.75,43.50|Z|0863;Nazmir|N|Click on the last pedestal to place the Blood Troll Skulls.|H|
 C Blood Troll on the Outside|QID|49440|QO|2|M|39.63,43.87|Z|0863;Nazmir|N|Speak to Witch Doctor Kejabu to complete the ritual.|CHAT|
 T Blood Troll on the Outside|QID|49440|M|39.63,43.87|Z|0863;Nazmir|N|To Witch Doctor Kejabu.|
 A Sneaking into Zalamar|QID|48699|PRE|49440|M|39.63,43.87|Z|0863;Nazmir|N|From Witch Doctor Kejabu.|
@@ -165,7 +169,7 @@ C Isolating Zalamar|QID|48801|QO|1|M|31.48,43.26|Z|0863;Nazmir|N|Go to the top o
 K Gutrip|QID|49231|QO|1|M|32.56,43.24|Z|0863;Nazmir|ITEM|161041|N|Silver Elite to kill for resources and artifact power.\n[color=FF0000]NOTE: [/color]While doing this, your disguise will drop and the locals will attack you until the battle ends and your disguise is restored.|T|Gutrip|RANK|2|RARE|
 C How to Be a Blood Troll|QID|48890|M|33.05,44.21|Z|0863;Nazmir|N|Finish testing your disguise on the Unproven Drudges.|H|US|
 T Isolating Zalamar|QID|48801|M|33.35,45.77|Z|0863;Nazmir|N|To Bloodseeker Jo'chunga.|
-T How to Be a Blood Troll.|QID|48890|M|33.35,45.77|Z|0863;Nazmir|N|To Bloodseeker Jo'chunga.\n[color=FF0000]NOTE: [/color]Once you turn in this quest, you'll no longer have a disguise.| ; Auto-complete broken so they can see the disguise note - Hendo72
+T How to Be a Blood Troll|QID|48890|M|33.35,45.77|Z|0863;Nazmir|N|To Bloodseeker Jo'chunga.\n[color=FF0000]NOTE: [/color]Once you turn in this quest, you'll no longer have a disguise.|NOAUTO| ; Auto-complete stopped so they can see the disguise note - Hendo72
 A Poisoning the Brood|QID|49078|PRE|48801&48890|M|33.35,45.77|Z|0863;Nazmir|N|From Bloodseeker Jo'chunga.|
 A Mark of the Bat|QID|48800|M|33.35,45.77|PRE|48801&48890|Z|0863;Nazmir|N|From Bloodseeker Jo'chunga.|
 ;A Zalamar Slaughter|QID|49406|M|33.35,45.77|Z|0863;Nazmir|N|Bonus Objective - Autoaccepted.|LVL|-50|  ;  only active once you get 49078 and 48800 ** Not required - Hendo72
