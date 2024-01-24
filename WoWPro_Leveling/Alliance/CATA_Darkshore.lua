@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("JamDar1320", "Leveling", "Darkshore", "WoWPro Team", "Alliance")
 WoWPro:GuideName(guide,"Darkshore")
 WoWPro:GuideSort(guide, 12)
-WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Ashenvale')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
@@ -40,7 +40,7 @@ T Buzzbox 723|QID|13528|M|54.19,29.21|Z|62; Darkshore|N|To Buzzbox 723.|
 A A Cure In The Dark|QID|13554|PRE|13528|M|54.19,29.21|Z|62; Darkshore|N|From Buzzbox 723.|
 A The Corruption's Source|QID|13529|PRE|13528|M|56.23,27.35;56.81,30.04|CC|Z|62; Darkshore|N|From Tharnariun Treetender.|
 C The Corruption's Source|QID|13529|M|58.75,32.64|Z|62; Darkshore|N|Kill Vile Grells on the way.|S|
-l Corruptor's Master Key|QID|13557|Z|62; Darkshore|N|Enter the waterfall, and kill Vile Corruptors until one drops the Corruptor's Master Key.|L|44925|
+l Corruptor's Master Key|QID|13557|M|57.28,31.83|Z|62; Darkshore|N|Enter the waterfall, and kill Vile Corruptors until one drops the Corruptor's Master Key.|L|44925|
 A Bearer of Good Fortune|QID|13557|M|57.02,31.46|Z|62; Darkshore|N|Right click the Corruptor's Master Key to accept the quest.|U|44925|
 C Bearer of Good Fortune|QID|13557|M|57.50,32.41|Z|62; Darkshore|N|Open the cages on the way.|S|NC|
 A A Troubling Prescription|QID|13831|PRE|13528|M|56.78,33.47;57.37,33.80|CS|Z|62; Darkshore|N|From the Disgusting Workbench on lower level, first cave on left as you come down the ramp.|
@@ -59,8 +59,8 @@ T A Troubling Prescription|QID|13831|M|51.19,19.69|Z|62; Darkshore|N|To Tharnari
 T A Cure In The Dark|QID|13554|M|51.19,19.69|Z|62; Darkshore|N|To Wizbang Cranktoggle.|
 A A Love Eternal|QID|13563|PRE|13529|M|50.84,17.96|Z|62; Darkshore|N|From Cerellean Whiteclaw.|
 A A Lost Companion|QID|13564|PRE|13529|M|50.89,17.98|Z|62; Darkshore|N|From Volcor.|
-A The Final Flame of Bashal'Aran|QID|13562|PRE|13529|M|50.31,19.59|Z|62; Darkshore|N|From Ranger Glynda Nal'Shea.|
 T Writings of the Void|QID|28529|M|50.31,19.59|Z|62; Darkshore|N|To Ranger Glynda Nal'Shea.|RANK|2|
+A The Final Flame of Bashal'Aran|QID|13562|PRE|13529|M|50.31,19.59|Z|62; Darkshore|N|From Ranger Glynda Nal'Shea.|
 r Sell Junk and Repair|QID|13562|M|50.76,19.24|Z|62; Darkshore|N|Close this step when you're done.|
 R Bashal'Aran|QID|13561|M|51.05,22.71|Z|62; Darkshore|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|FLY|OLD|
 A Solace for the Highborne|QID|13561|M|46.80,33.23|Z|62; Darkshore|N|From Arya Autumnlight.|

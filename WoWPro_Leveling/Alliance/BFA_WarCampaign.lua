@@ -827,20 +827,20 @@ A Waning Hope|QID|53849|M|86.63,35.73|Z|84;Stormwind City|N|From Maiev Shadowson
 C Waning Hope|QID|53849|M|86.54,36.49|Z|84;Stormwind City|CHAT|QO|1|N|Speak to Prophet Velen.|
 T Waning Hope|QID|53849|M|86.63,35.74|Z|84;Stormwind City|N|To Maiev Shadowsong.|
 A Shores of Fate|QID|53988|M|86.63,35.74|Z|84;Stormwind City|N|From Maiev Shadowsong.|PRE|53849|
-C Shores of Fate|QID|53988|M|12.53,17.76|Z|Ashenvale|QO|1|NC|N|Travel to Zoram Strand.|
-T Shores of Fate|QID|53988|M|11.50,17.72|Z|Ashenvale|N|To Maiev Shadowsong.|
-A Hope|QID|53989|M|11.55,17.68|Z|Ashenvale|N|From Shandris Feathermoon.|PRE|53988|
-A No Survivors|QID|54041|M|11.47,17.80|Z|Ashenvale|N|From Sira Moonwarden.|PRE|53988|
-C No Survivors|QID|54041|M|10.05,15.81|Z|Ashenvale|S|N|Kill 8 Veiled Deathstalkers. Use special action button to help reveal them and gain crit bonuses.|
-C Hope|QID|53989|M|12.06,15.38|Z|Ashenvale|NC|QO|1|N|Pick up Elun'tara, Bow of the High Priestess.|
-C Hope|QID|53989|M|11.26,13.61|Z|Ashenvale|NC|QO|2|N|Grab the Discarded Nightsaber Bridle.|
-C Hope|QID|53989|M|9.87,13.92|Z|Ashenvale|NC|QO|3|N|Collect the Ancient Kaldorei Tome.|
-C No Survivors|QID|54041|M|10.05,15.81|Z|Ashenvale|US|QO|1|N|Finish your quota of Deathstalkers slain. Use special action button to help reveal them and gain crit bonuses.|
-T No Survivors|QID|54041|M|11.47,17.81|Z|Ashenvale|N|To Sira Moonwarden.|
-T Hope|QID|53989|M|11.55,17.69|Z|Ashenvale|N|To Shandris Feathermoon.|
-A In Darkest Night|QID|53990|M|11.50,17.73|Z|Ashenvale|N|From Maiev Shadowsong.|PRE|54041&53989|
-C In Darkest Night|QID|53990|M|11.50,17.74|Z|Ashenvale|CHAT|QO|1|N|Talk with Maiev to travel to Darkshore and begin a scenerio.|
-C In Teldrassil's Wake|ACTIVE|53990|M|19.41,71.29|Z|Darkshore|SO|1|NC|N|Click on the rope on the side of the ship to take the rowboat.|
+C Shores of Fate|QID|53988|M|12.53,17.76|Z|63; Ashenvale|QO|1|NC|N|Travel to Zoram Strand.|
+T Shores of Fate|QID|53988|M|11.50,17.72|Z|63; Ashenvale|N|To Maiev Shadowsong.|
+A Hope|QID|53989|M|11.55,17.68|Z|63; Ashenvale|N|From Shandris Feathermoon.|PRE|53988|
+A No Survivors|QID|54041|M|11.47,17.80|Z|63; Ashenvale|N|From Sira Moonwarden.|PRE|53988|
+C No Survivors|QID|54041|M|10.05,15.81|Z|63; Ashenvale|S|N|Kill 8 Veiled Deathstalkers. Use special action button to help reveal them and gain crit bonuses.|
+C Hope|QID|53989|M|12.06,15.38|Z|63; Ashenvale|NC|QO|1|N|Pick up Elun'tara, Bow of the High Priestess.|
+C Hope|QID|53989|M|11.26,13.61|Z|63; Ashenvale|NC|QO|2|N|Grab the Discarded Nightsaber Bridle.|
+C Hope|QID|53989|M|9.87,13.92|Z|63; Ashenvale|NC|QO|3|N|Collect the Ancient Kaldorei Tome.|
+C No Survivors|QID|54041|M|10.05,15.81|Z|63; Ashenvale|US|QO|1|N|Finish your quota of Deathstalkers slain. Use special action button to help reveal them and gain crit bonuses.|
+T No Survivors|QID|54041|M|11.47,17.81|Z|63; Ashenvale|N|To Sira Moonwarden.|
+T Hope|QID|53989|M|11.55,17.69|Z|63; Ashenvale|N|To Shandris Feathermoon.|
+A In Darkest Night|QID|53990|M|11.50,17.73|Z|63; Ashenvale|N|From Maiev Shadowsong.|PRE|54041&53989|
+C In Darkest Night|QID|53990|M|11.50,17.74|Z|63; Ashenvale|CHAT|QO|1|N|Talk with Maiev to travel to Darkshore and begin a scenerio.|
+C In Teldrassil's Wake|ACTIVE|53990|M|19.41,71.29|Z|62; Darkshore|SO|1|NC|N|Click on the rope on the side of the ship to take the rowboat.|
 C Elune's Gaze|ACTIVE|53990|M|38.04,71.16|Z|Darkshore!Instance1338|SO|2;1|NC|N|Find and destroy the Horde Blight Thrower (click on it).|
 C Elune's Gaze|ACTIVE|53990|M|35.18,66.04|Z|Darkshore!Instance1338|SO|2;2|NC|N|Click on the Seat of the Goddess in what's left of the Hunters Hall.|
 C Cornered!|ACTIVE|53990|M|35.51,66.72|Z|Darkshore!Instance1338|SO|3;1|N|Defeat Bilegut.|
