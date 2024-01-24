@@ -54,6 +54,8 @@ function WoWPro:DragSet()
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.InhibitAnchorRestore = true
                 WoWPro.MainFrame:StartMoving()
+            elseif button == "RightButton" then
+                _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
@@ -454,6 +456,8 @@ function WoWPro:CreateMainFrame()
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.InhibitAnchorRestore = true
             this:StartMoving()
+        elseif button == "RightButton" then
+            _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
     WoWPro.MainFrame:SetScript("OnMouseUp", function(this, button)
@@ -523,7 +527,7 @@ function WoWPro:CreateResizeButton()
     WoWPro.resizebutton = resizebutton
 end
 
--- Title Bar --
+-- Titlebar --
 function WoWPro:CreateTitleBar()
     local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     titlebar:SetHeight(22)
@@ -540,7 +544,7 @@ function WoWPro:CreateTitleBar()
 
     -- Icon --
     local titleicon = WoWPro.Titlebar:CreateTexture(nil, "OVERLAY")
-    titleicon:SetSize(18, 18)
+    titleicon:SetSize(16, 16)
     titleicon:SetPoint("LEFT", WoWPro.Titlebar, "LEFT", 5, 0)
     titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
@@ -567,7 +571,7 @@ function WoWPro:CreateTitleBar()
     -- Scripts --
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
     titleicon:SetScript("OnMouseDown", function(this, button)
-        if button == "RightButton" then
+        if button == "LeftButton" or button == "RightButton" then
             _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
@@ -601,8 +605,6 @@ function WoWPro:CreateTitleBar()
         end
     end)
 end
-
-
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
     local sticky = _G.CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
