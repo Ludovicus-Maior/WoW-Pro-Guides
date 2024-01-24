@@ -545,13 +545,13 @@ function WoWPro:CreateTitleBar()
     titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
     -- Tooltip --
-    titleicon:HookScript("OnEnter", function(self)
-        _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    titleicon:HookScript("OnEnter", function(tool)
+        _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
         _G.GameTooltip:SetText("Right click for options", nil, nil, nil, nil, true)
         _G.GameTooltip:SetBackdropColor(0, 0, 0, 0.4)
         _G.GameTooltip:Show()
     end)
-    titleicon:HookScript("OnLeave", function(self)
+    titleicon:HookScript("OnLeave", function(tool)
         _G.GameTooltip:Hide()
     end)
 
