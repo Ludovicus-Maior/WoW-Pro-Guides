@@ -54,8 +54,6 @@ function WoWPro:DragSet()
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.InhibitAnchorRestore = true
                 WoWPro.MainFrame:StartMoving()
-            elseif button == "RightButton" then
-                _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
@@ -456,8 +454,6 @@ function WoWPro:CreateMainFrame()
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.InhibitAnchorRestore = true
             this:StartMoving()
-        elseif button == "RightButton" then
-            _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
     WoWPro.MainFrame:SetScript("OnMouseUp", function(this, button)
@@ -541,6 +537,24 @@ function WoWPro:CreateTitleBar()
     })
     titlebar:RegisterForClicks("AnyUp")
     WoWPro.Titlebar = titlebar
+
+    -- Icon --
+    local titleicon = WoWPro.Titlebar:CreateTexture(nil, "OVERLAY")
+    titleicon:SetSize(18, 18)
+    titleicon:SetPoint("LEFT", WoWPro.Titlebar, "LEFT", 5, 0)
+    titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
+
+    -- Tooltip --
+    titleicon:HookScript("OnEnter", function(self)
+        _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText("Right click for options", nil, nil, nil, nil, true)
+        _G.GameTooltip:SetBackdropColor(0, 0, 0, 0.4)  -- adjust the last value for transparency (0 = fully transparent, 1 = fully opaque)
+        _G.GameTooltip:Show()
+    end)
+    titleicon:HookScript("OnLeave", function(self)
+        _G.GameTooltip:Hide()
+    end)
+
     -- Text --
     local titletext = WoWPro.Titlebar:CreateFontString()
     titletext:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
@@ -549,13 +563,11 @@ function WoWPro:CreateTitleBar()
     titletext:SetText("WoW-Pro Guides")
     titletext:SetTextColor(1, 1, 1)
     WoWPro.TitleText = titletext
+
     -- Scripts --
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
-    WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
-        if button == "LeftButton" and WoWProDB.profile.drag then
-            WoWPro.InhibitAnchorRestore = true
-            WoWPro.MainFrame:StartMoving()
-        elseif button == "RightButton" then
+    titleicon:SetScript("OnMouseDown", function(this, button)
+        if button == "RightButton" then
             _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
@@ -589,6 +601,7 @@ function WoWPro:CreateTitleBar()
         end
     end)
 end
+
 
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
