@@ -571,7 +571,7 @@ function WoWPro:CreateTitleBar()
     -- Scripts --
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
     titleicon:SetScript("OnMouseDown", function(this, button)
-        if button == "LeftButton" or button == "RightButton" then
+        if button == "RightButton" then
             _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
