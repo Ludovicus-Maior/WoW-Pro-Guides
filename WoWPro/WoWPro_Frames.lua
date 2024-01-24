@@ -64,12 +64,6 @@ function WoWPro:DragSet()
                 WoWPro.InhibitAnchorRestore = false
             end
         end)
-    else
-        WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
-            if button == "RightButton" then
-                _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
-            end
-        end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
         end)
     end
@@ -522,8 +516,6 @@ function WoWPro:CreateResizeButton()
         end)
     WoWPro.resizebutton = resizebutton
 end
-
--- Title Bar --
 function WoWPro:CreateTitleBar()
     local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     titlebar:SetHeight(22)
@@ -540,9 +532,9 @@ function WoWPro:CreateTitleBar()
 
     -- Icon --
     local titleicon = WoWPro.Titlebar:CreateTexture(nil, "OVERLAY")
-    titleicon:SetSize(18, 18)
-    titleicon:SetPoint("LEFT", WoWPro.Titlebar, "LEFT", 5, 0)
-    titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
+    titleicon:SetSize(16, 16)  -- adjust size as needed
+    titleicon:SetPoint("LEFT", WoWPro.Titlebar, "LEFT", 5, 0)  -- adjust position as needed
+    titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")  -- default WoW config icon
 
     -- Tooltip --
     titleicon:HookScript("OnEnter", function(tool)
@@ -601,7 +593,6 @@ function WoWPro:CreateTitleBar()
         end
     end)
 end
-
 
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
