@@ -1,5 +1,23 @@
+changeset:   132:6c00c7987f6d
+tag:         2.0.33
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Wed Jul 18 17:45:43 2018 -0600
+summary:     Bump minor (for dropping of pre 7.x support)
+
+
+changeset:   131:3f31616404ad
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Wed Jul 18 17:43:01 2018 -0600
+summary:     Update TOC Interface for 8.0 client
+
+
+changeset:   130:b2279da0298f
+user:        Robin Schoonover <robin@cornhooves.org>
+date:        Tue Sep 05 16:31:21 2017 -0600
+summary:     Update TOC Interface for 7.3 client
+
+
 changeset:   129:3b1c59268169
-tag:         tip
 user:        Robin Schoonover <robin@cornhooves.org>
 date:        Wed Mar 29 17:06:58 2017 -0600
 summary:     Update TOC Interface for 7.2 client.
@@ -27,11 +45,5 @@ changeset:   125:1b647e732311
 user:        Robin Schoonover <robin@cornhooves.org>
 date:        Tue Jul 19 17:37:19 2016 -0600
 summary:     Update TOC Interface for 7.0 client.
-
-
-changeset:   124:b7c72299bb8a
-user:        Robin Schoonover <robin@cornhooves.org>
-date:        Sun Jul 17 20:28:30 2016 -0600
-summary:     Added tag 2.0.32 for changeset b9a792aa1cbf
 
 

@@ -277,6 +277,6 @@ N It's Chromie Time!|QID|62567|M|45.00,55.5|Z|Darnassus|JUMP|Chromie Time|LVL|-6
 A Breaking Waves of Change|QID|26385|LEAD|13518|PRE|28517|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
 ;f Darnassus|QID|26385|M|36.67,47.91|Z|Darnassus|N|Get the Darnassus Flight Point at Leora.|
 ;F Lor'danel|QID|26385|M|36.60,48.00|Z|Teldrassil|N|Take a Hippogryph from the Flight Master.|
-;T Breaking Waves of Change|QID|26385|M|51.77,18.00|Z|Darkshore|N|To Dentaria Silverglade. You'll be taken to the next guide, which will cover Darkshore!|
+;T Breaking Waves of Change|QID|26385|M|51.77,18.00|Z|62; Darkshore|N|To Dentaria Silverglade. You'll be taken to the next guide, which will cover Darkshore!|
 ]]
 end)

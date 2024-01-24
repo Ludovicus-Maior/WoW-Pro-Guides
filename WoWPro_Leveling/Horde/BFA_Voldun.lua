@@ -38,6 +38,7 @@ A Armed and Ready|QID|51357|PRE|47315|M|65.98,36.65|Z|0864;Vol'dun|N|From Nisha.
 C Armed and Ready|QID|51357|M|65.95,36.64|Z|0864;Vol'dun|N|Select a Weapon.|H|
 T Armed and Ready|QID|51357|M|65.98,36.65|Z|0864;Vol'dun|N|To Nisha.|
 A Answering Their Attacks|QID|47327|PRE|51357|M|65.98,36.65|Z|0864;Vol'dun|N|From Nisha.|
+t Answering Their Attacks|QID|47327|M|PLAYER|N|To Nisha.|
 A Dressed for Battle|QID|49676|PRE|51357|M|65.98,36.65|Z|0864;Vol'dun|N|From Nisha.|
 C Answering Their Attacks|QID|47327|M|62.20,32.88|Z|0864;Vol'dun|N|Kill Sethrak.|S|
 C Dressed for Battle|QID|49676|QO|1|M|65.14,37.26;64.67,33.91|CS|Z|0864;Vol'dun|N|Pick up the Banner.|H|
@@ -45,10 +46,9 @@ C Dressed for Battle|QID|49676|QO|2|M|63.63,32.72|Z|0864;Vol'dun|N|Pick up the S
 C Dressed for Battle|QID|49676|QO|3|M|61.87,33.78|Z|0864;Vol'dun|N|Pick up the box of Explosives.|H|
 T Dressed for Battle|QID|49676|M|PLAYER|N|To Nisha.|
 A Plans for Attack|QID|49677|PRE|49676|M|PLAYER|N|From Nisha.|
-K Fangcaller Sraka|ACTIVE|49677|QO|1|M|61.14,32.89|Z|0864;Vol'dun|N|Kill Fangcaller Sraka and loot Nisha's Attack Plans.|T|Fangcaller Sraka|
+l Nisha's Attack Plans|ACTIVE|49677|QO|1|M|61.14,32.89|Z|0864;Vol'dun|ITEM|158651|N|Fangcaller Sraka|T|Fangcaller Sraka|
 T Plans for Attack|QID|49677|M|PLAYER|N|To Nisha.|
 C Answering Their Attacks|QID|47327|M|60.87,32.60|Z|0864;Vol'dun|N|Finish up the Sethrak.|US|
-T Answering Their Attacks|QID|47327|M|PLAYER|N|To Nisha.|
 A An Explosive Exit|QID|51364|PRE|49677&47327|M|PLAYER|N|From Nisha.|
 C An Explosive Exit|QID|51364|QO|1|M|60.04,34.60|Z|0864;Vol'dun|N|Hop on Nisha's wagon.|V|
 C An Explosive Exit|QID|51364|QO|2|M|60.04,34.60|Z|0864;Vol'dun|N|Hop on Nisha's wagon.|V|
@@ -62,12 +62,12 @@ f Vulpera Hideaway|ACTIVE|51574|M|56.97,49.26|Z|0864;Vol'dun|N|At Narishi.\n[col
 K Bloodwing Bonepicker|AVAILABLE|51079|M|59.59,50.68;57.21,53.25;56.09,53.59|CS|Z|0864;Vol'dun|ITEM|161019|N|Click on the Enormous Egg to summon the momma bird. Kill this Silver Elite for artifact power and resources.|T|Bloodwing Bonepicker|RANK|3|RARE|
 K Gut-Gut the Glutton|AVAILABLE|49270|M|61.98,47.61;62.70,47.29;63.95,48.10;64.03,47.60|CS|Z|0864;Vol'dun|N|You have to be dedicated to getting adventurer of Vol'dun to run up and get this one. Up the side of the mountain, in the middle of nowhere lives this silver elite eating birds and foolish adventurers. Kill and loot for artifact power and resources (or just check off and move on.)|T|Gut-Gut the Glutton|RANK|3|RARE|
 C Freshly Squeezed|QID|51574|M|53.73,49.02|Z|0864;Vol'dun|N|Collect Pricklevine Juice from the plants.|H|S|
-C Restorative Venom|QID|47319|M|54.69,48.37|Z|0864;Vol'dun|N|Kill Sandstingers for their Venom Glands.\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use special action button to bring them down.|EAB|S|
+l Restorative Venom|QID|47319|QO|1|M|54.69,48.37|Z|0864;Vol'dun|ITEM|160441|N|Venomous Sandstingers and Sandstinger Drones\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use extra action button to bring them down.|T|Venomous Sandstinger|EAB|S|
 A Missing Business|QID|50739|M|55.21,48.40|Z|0864;Vol'dun|N|From Vivi.|RANK|2|
 C Missing Business|QID|50739|M|53.57,51.57|Z|0864;Vol'dun|N|Revive the Sable Polecats.|NC|S|
 K Hivemother Kraxi|AVAILABLE|47533|M|53.83,51.43;53.78,53.19|CS|Z|0864;Vol'dun|ITEM|161027|N|Silver Elite to kill and loot for artifact power and resources.|T|Hivemother Kraxi|RANK|2|RARE|
 C Freshly Squeezed|QID|51574|M|53.73,49.02|Z|0864;Vol'dun|N|Collect Pricklevine Juice from the plants.|H|US|
-C Restorative Venom|QID|47319|M|54.69,48.37|Z|0864;Vol'dun|N|Kill Sandstingers for their Venom Glands.\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use special action button to bring them down.|EAB|US|
+l Restorative Venom|QID|47319|QO|1|M|54.69,48.37|Z|0864;Vol'dun|ITEM|160441|N|Venomous Sandstingers and drones\n[color=FF0000]NOTE: [/color]If you lack ranged attacks, you can pick up the "loose rock" and use extra action button to bring them down.|T|Venomous Sandstinger|EAB|US|
 C Missing Business|QID|50739|M|53.57,51.57|Z|0864;Vol'dun|N|Revive the Sable Polecats.|NC|US|
 T Missing Business|QID|50739|M|55.20,48.38|Z|0864;Vol'dun|N|To Vivi.|
 T Freshly Squeezed|QID|51574|M|56.76,50.53|Z|0864;Vol'dun|N|To Meerah.|
@@ -80,18 +80,18 @@ A Knickknack Takeback|QID|47321|PRE|47320|M|56.79,50.53|Z|0864;Vol'dun|N|From Ki
 A Secrets in the Sand|QID|47316|PRE|47320|M|56.76,50.53|Z|0864;Vol'dun|N|From Meerah.|
 C Secrets in the Sand|QID|47316|QO|1<1|M|55.79,48.68|Z|0864;Vol'dun|N|Page 1 is lying near the rock.|H|
 C Secrets in the Sand|QID|47316|QO|1<2|M|52.80,46.41|Z|0864;Vol'dun|N|Page 4 is lying on the sand in the middle of nowhere.|H|
-C Secrets in the Sand|QID|47316|QO|1<3|M|52.78,41.79|Z|0864;Vol'dun|N|Page 3 is lying just beyond the colapsed bridge.|H|
+C Secrets in the Sand|QID|47316|QO|1<3|M|52.78,41.79|Z|0864;Vol'dun|N|Page 3 is lying just beyond the colapsed bridge beside some boulders.|H|
 A Aided Escape|QID|47322|M|54.69,42.48|Z|0864;Vol'dun|N|From Neri.|RANK|2|
 A A Meal for Birds|QID|50755|M|54.75,42.40|Z|0864;Vol'dun|N|From Mekaru.|RANK|2|
-C Knickknack Takeback|QID|47321|M|55.35,39.28|Z|0864;Vol'dun|N|Kill the Faithless and reclaim the Knickknacks.|S|
+l Knickknack Takeback|ACTIVE|47321|QO|1|M|55.35,39.28|Z|0864;Vol'dun|ITEM|151273|N|any Faithless mob around the Serpent's Maw.|S|
 C Aided Escape|QID|47322|QO|2|M|54.76,40.31|Z|0864;Vol'dun|N|Click on the cage to rescue Kipp.|H|
-C Searching for Survivors|QID|47317|QO|1|M|54.63,39.37|Z|0864;Vol'dun|N|Examine Tarkaj's Warblade just inside this cave complex.|I|
+C Searching for Survivors|QID|47317|QO|1|M|54.63,39.37|Z|0864;Vol'dun|N|Examine Tarkaj's Warblade just inside the Serpent's Maw.|I|
 C Aided Escape|QID|47322|QO|1|M|56.41,39.28|Z|0864;Vol'dun|N|Click on the cage to rescue Hakasi.|NC|
-C Knickknack Takeback|QID|47321|M|55.35,39.28|Z|0864;Vol'dun|N|Finish collecting knicknacks.|US|
+l Knickknack Takeback|ACTIVE|47321|QO|1|M|55.35,39.28|Z|0864;Vol'dun|ITEM|151273|N|any Faithless mob around the Serpent's Maw.|US|
 C A Meal for Birds|QID|50755|M|57.09,41.88|Z|0864;Vol'dun|N|Kill Vultures and Krolusk so the Buzzards can eat.|S|
 K Enraged Krolusk|AVAILABLE|51077|M|62.10,37.87|Z|0864;Vol'dun|N|Silver Elite to kill and loot for artifact power and resources.|T|Enraged Krolusk|RANK|2|RARE|
-C Searching for Survivors|QID|47317|QO|2|M|57.43,40.64|Z|0864;Vol'dun|N|Inspect Jorana.|H|
-C Secrets in the Sand|QID|47316|M|56.33,43.90|Z|0864;Vol'dun|N|The last Journal page (#2) is here on the flat area.|H|
+C Searching for Survivors|QID|47317|QO|2|M|57.42,40.61|Z|0864;Vol'dun|N|Inspect Jorana.|H|
+C Secrets in the Sand|QID|47316|M|56.33,43.90|Z|0864;Vol'dun|N|The last Journal page (#2) is here on the edge of the sand dune.\n[color=FF0000]NOTE: [/color]This one may be tricky to pick up.|H|
 C A Meal for Birds|QID|50755|M|57.09,41.88|Z|0864;Vol'dun|N|Finish feeding the Buzzards.|US|
 T Aided Escape|QID|47322|M|54.70,42.47|Z|0864;Vol'dun|N|To Neri.|
 T A Meal for Birds|QID|50755|M|54.75,42.40|Z|0864;Vol'dun|N|To Mekaru.|
@@ -103,10 +103,10 @@ C The Warguard's Trail|QID|47959|M|56.76,50.53|Z|0864;Vol'dun|N|Tell Meerah you 
 T The Warguard's Trail|QID|47959|M|52.97,66.54|Z|0864;Vol'dun|N|To Jorak.|
 A Grozztok the Blackheart|QID|48549|PRE|47959|M|52.97,66.54|Z|0864;Vol'dun|N|From Jorak.|
 A Stolen Satchels|QID|48550|PRE|47959|M|52.97,66.54|Z|0864;Vol'dun|N|From Jorak.|
-C Stolen Satchels|QID|48550|M|50.30,65.05|Z|0864;Vol'dun|N|Kill the Sandfury Assassins to collect the Weathered Satchels.|S|
+l Stolen Satchels|ACTIVE|48550|QO|1|M|50.30,65.05|Z|0864;Vol'dun|ITEM|152660|N|Sandfury Assassins around Atul'Aman.|S|
 A Ranah's Wrench|QID|51829|M|50.69,64.67|Z|0864;Vol'dun|N|From Ranah's wrench.|RANK|2|
 K Grozztok the Blackheart|ACTIVE|48549|QO|1|M|49.36,64.84|Z|0864;Vol'dun|N|Kill Grozztok the Blackheart.\n[color=FF0000]NOTE: [/color]Behind that warded doorway is a treasure we will come back for later.|T|Grozztok the Blackheart|
-C Stolen Satchels|QID|48550|M|50.30,65.05|Z|0864;Vol'dun|N|Finish collecting the Weathered Satchels by killing the Sandfury Assassins.|US|
+l Stolen Satchels|ACTIVE|48550|QO|1|M|50.30,65.05|Z|0864;Vol'dun|ITEM|152660|N|Sandfury Assassins around Atul'Aman.|US|
 T Ranah's Wrench|QID|51829|M|53.89,69.39|Z|0864;Vol'dun|N|To Ranah.|
 A We Can Salvage the Seeds|QID|48555|PRE|51829|M|53.89,69.39|Z|0864;Vol'dun|N|From Ranah.|RANK|2|
 A Wither Without Water|QID|48551|PRE|51829|M|53.89,69.39|Z|0864;Vol'dun|N|From Ranah.|RANK|2|
@@ -140,11 +140,11 @@ A Powerful Conductors|QID|48993|PRE|48895|M|53.18,90.30|Z|0864;Vol'dun|N|From Ak
 A Sacred Remains|QID|48992|PRE|48895|M|53.18,90.30|Z|0864;Vol'dun|N|From Akunda the Exalted.|
 A Vile Infestation|QID|48991|PRE|48895|M|53.18,90.30|Z|0864;Vol'dun|N|From Akunda the Exalted.|
 A Fond Farewells|QID|49040|M|52.83,89.23|Z|0864;Vol'dun|N|From Jorak.|RANK|2|
-C Sacred Remains|QID|48992|M|55.47,84.43|Z|0864;Vol'dun|N|Collect bones scattered along your path as you head towards Rorgog.|H|S|
+C Sacred Remains|QID|48992|M|55.47,84.43|Z|0864;Vol'dun|N|Collect the 'leg' bones scattered around the area.|H|S|
 C Vile Infestation|QID|48991|M|53.93,88.01|Z|0864;Vol'dun|N|Kill Ranishu Gorger.|S|
-K Rorgog|ACTIVE|48993|QO|1|M|55.10,86.21;55.99,83.93|CS|Z|0864;Vol'dun|N|Kill and loot Rorgog at the back of the cave.|T|Rorgog|
-C Vile Infestation|QID|48991|M|53.93,88.01|Z|0864;Vol'dun|N|Finish up the Ranishu Gorgers.|US|
-C Sacred Remains|QID|48992|M|53.93,88.01|Z|0864;Vol'dun|N|Finish collecting the sacred remains.|H|US|
+K Rorgog|ACTIVE|48993|QO|1|M|55.10,86.21;55.99,83.93|CS|Z|0864;Vol'dun|N|Kill and loot Rorgog at the back of Redrock Cavern.|T|Rorgog|
+C Vile Infestation|QID|48991|M|53.93,88.01|Z|0864;Vol'dun|N|Finish up the Ranishu Gorgers.|T|Ranishu Gorger|US|
+C Sacred Remains|QID|48992|M|53.93,88.01|Z|0864;Vol'dun|N|Finish collecting the 'leg' bones.|H|US|
 T Vile Infestation|QID|48991|M|53.18,90.30|Z|0864;Vol'dun|N|To Akunda the Exalted.|
 T Sacred Remains|QID|48992|M|53.18,90.30|Z|0864;Vol'dun|N|To Akunda the Exalted.|
 T Powerful Conductors|QID|48993|M|53.18,90.30|Z|0864;Vol'dun|N|To Akunda the Exalted.|
@@ -154,8 +154,8 @@ C It Springs Eternal|QID|48888|M|51.26,85.00|Z|0864;Vol'dun|N|Kill Scavengers or
 l Redrock Scavenger|QID|50892|PRE|47442|M|50.94,84.78|Z|0864;Vol'dun|ITEM|158916|N|Redrock Scavengers and Howlers|RANK|3|
 $ Mysterious Trashpile|QID|50892|M|49.35,84.41|PRE|47442|Z|0864;Vol'dun|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|RANK|2|
 C Cleanse the Mind|QID|48887|QO|1|M|52.85,88.32;52.16,83.85;52.17,83.34|CS|Z|0864;Vol'dun|N|Go inside the small cave and click the shrine to Meditate.|H|
-C Cleanse the Mind|QID|48887|QO|2|M|52.17,83.36|Z|0864;Vol'dun|N|Kill your Inner Demon.|
-C It Springs Eternal|QID|48888|M|51.26,85.00|Z|0864;Vol'dun|N|Finish killing Scavengers or Howlers back to turn in.|US|
+C Cleanse the Mind|QID|48887|QO|2|M|52.17,83.36|Z|0864;Vol'dun|N|Kill your Inner Demon when it spawns.|
+C It Springs Eternal|QID|48888|M|51.26,85.00|Z|0864;Vol'dun|N|Finish killing Scavengers or Howlers.|US|
 T Cleanse the Mind|QID|48887|M|53.18,90.30|Z|0864;Vol'dun|N|To Akunda the Exalted.|
 T It Springs Eternal|QID|48888|M|53.18,90.30|Z|0864;Vol'dun|N|To Akunda the Exalted.|
 A Trial of Truth|QID|48894|PRE|48887&48888|M|53.18,90.30|Z|0864;Vol'dun|N|From Akunda the Exalted.|
@@ -165,22 +165,22 @@ A Akunda Awaits|QID|48715|PRE|48894|M|53.15,90.19|Z|0864;Vol'dun|N|From Bladegua
 R Akunda Awaits|ACTIVE|48715|QO|1|M|53.17,91.17|Z|0864;Vol'dun|N|Investigate the Temple of Akunda.|
 T Akunda Awaits|QID|48715|M|53.58,91.65|Z|0864;Vol'dun|N|To Bladeguard Kaja.|
 A Valley of Sorrows|QID|48987|PRE|48715|M|53.58,91.35|Z|0864;Vol'dun|N|From Akunda the Sensible.|
-R Valley of Sorrows|ACTIVE|48987|M|53.80,80.31|Z|0864;Vol'dun|N|Make your way to the Valley of Sorrows.|
+R Valley of Sorrows|ACTIVE|48987|M|53.80,80.31|Z|0864;Vol'dun|N|Make your way to the Valley of Sorrows.|FLY|OLD|
 T Valley of Sorrows|QID|48987|M|53.01,78.78|Z|0864;Vol'dun|N|To Meijani.|
 A Memory Breach|QID|48988|PRE|48987|M|53.01,78.78|Z|0864;Vol'dun|N|From Meijani.|
 A Shattered and Broken|QID|49005|PRE|48987|M|53.01,78.78|Z|0864;Vol'dun|N|From Meijani.|
 C Shattered and Broken|QID|49005|M|52.65,76.37|Z|0864;Vol'dun|N|Kill the Distorted and Fractured Memories.|S|
-C Memory Breach|QID|48988|M|54.56,75.46|Z|0864;Vol'dun|N|Click on the Jars to search Unwanted Memories.|H|
+C Memory Breach|QID|48988|M|54.56,75.46|Z|0864;Vol'dun|N|Click on the Jars to search Unwanted Memories.\n[color=FF0000]NOTE: [/color]You can skip the cinematic with <ESC>.\nThere is a chance of a 'Fractured Memory' spawning for you to kill instead.|H|
 C Shattered and Broken|QID|49005|M|54.56,75.46|Z|0864;Vol'dun|N|Finish killing the Distorted and Fractured Memories.|US|
 T Memory Breach|QID|48988|M|53.02,78.76|Z|0864;Vol'dun|N|To Meijani.|
 T Shattered and Broken|QID|49005|M|53.02,78.76|Z|0864;Vol'dun|N|To Meijani.|
 A Repairing the Past|QID|48889|PRE|48988&49005|M|53.02,78.76|Z|0864;Vol'dun|N|From Meijani.|
-C Repairing the Past|QID|48889|M|52.20,79.91|Z|0864;Vol'dun|N|Follow Meijani thru the narrow cave entrance and then fight the memories that appear.|
+C Repairing the Past|QID|48889|M|52.20,79.91|Z|0864;Vol'dun|N|Follow Meijani into the Forgoten Hollow and kill the  memories that appear until Akunda spawns.|
 T Repairing the Past|QID|48889|M|52.20,79.91|Z|0864;Vol'dun|N|To Akunda.|
 A Ending the Madness|QID|48996|PRE|48889|M|52.20,79.91|Z|0864;Vol'dun|N|From Akunda.|
 $ Lost Explorer's Bounty|QID|51132|M|51.16,79.08;49.95,79.05;49.78,79.38|CS|Z|0864;Vol'dun|N|Up the hill for a bit of artifact power and resources.|RANK|2|
 K Ak'tar|AVAILABLE|51058|M|50.31,81.55|Z|0864;Vol'dun|ITEM|161021|N|Silver Elite to kill and loot for artifact power and resources.|T|Ak'tar|RANK|2|RARE|
-K Akunda the Exalted|ACTIVE|48996|QO|1|M|53.18,91.13|Z|0864;Vol'dun|N|Return to the Temple and once targetted, use the extra action button to debuff Akunda the Exalted and then kill him.|T|Akunda the Exalted|EAB|
+K Akunda the Exalted|ACTIVE|48996|QO|1|M|53.18,91.13|Z|0864;Vol'dun|N|Return to the Temple and once targetted, use the extra action button to debuff Akunda the Exalted and then kill him.\n[color=FF0000]NOTE: [/color]You can skip the cinematic that follows.|T|Akunda the Exalted|EAB|
 T Ending the Madness|QID|48996|M|53.19,91.66|Z|0864;Vol'dun|N|To Akunda.|
 A Akunda's Blessing|QID|50913|PRE|48996|M|53.19,91.66|Z|0864;Vol'dun|N|From Akunda.|
 C Akunda's Blessing|QID|50913|M|53.18,92.15|Z|0864;Vol'dun|N|Click on the bottom of the Altar of Akunda.|NC|
@@ -194,14 +194,14 @@ C Knowledge of the Past|QID|48896|QO|2|M|52.70,89.28|Z|0864;Vol'dun|N|You'll jum
 C Knowledge of the Past|QID|48896|QO|3|M|47.67,82.18|Z|0864;Vol'dun|N|Kill Sandfury Assassins who attack you.|
 T Knowledge of the Past|QID|48896|M|PLAYER|N|To Warguard Rakera beside you.|
 A Searching the Ruins|QID|47716|PRE|48896|M|PLAYER|N|From Warguard Rakera.|
-T Searching the Ruins|QID|47716|M|47.07,75.66|Z|0864;Vol'dun|N|To Julwaba\n[color=FF0000]NOTE: [/color]Do not go up the 2nd set of stairs; go around to the side.|
+T Searching the Ruins|QID|47716|M|47.07,75.66|Z|0864;Vol'dun|N|To Julwaba\n[color=FF0000]NOTE: [/color]Do not go up the stairs; go around to the opening on the east side.|
 A Creeping Death|QID|48314|PRE|47716|M|47.05,75.60|Z|0864;Vol'dun|N|From Kiro.|
 A Nature's Remedy|QID|48313|PRE|47716|M|47.05,75.60|Z|0864;Vol'dun|N|From Kiro.|
-C Creeping Death|QID|48314|M|48.65,71.73|Z|0864;Vol'dun|N|Kill Scorpashis and collect their Stingers.|S|
-C Nature's Remedy|QID|48313|M|47.29,71.39|Z|0864;Vol'dun|N|Pluck the Prickly Plum Cactus from the ground.|H|S|
+l Scorpashi Stinger|ACTIVE|48314|QO|1|M|48.65,71.73|ITEM|152397|Z|0864;Vol'dun|N|Scorpashis|S|
+C Nature's Remedy|QID|48313|M|47.29,71.39|Z|0864;Vol'dun|N|Collect the Prickly Plum Cactus found on the ground in the area.|H|S|
 K Relic Hunter Hazaak|AVAILABLE|50554^51126|M|49.03,72.15|Z|0864;Vol'dun|ITEM|160956|N|Silver Elite to kill and loot for some artifact power and resources.|T|Relic Hunter Hazaak|RANK|2|RARE|
 C Nature's Remedy|QID|48313|M|47.29,71.39|Z|0864;Vol'dun|N|Finish collecting the Prickly Plum Cactus.|H|US|
-C Creeping Death|QID|48314|M|47.29,71.39|Z|0864;Vol'dun|N|Finish collecting Scorpashi Stingers.|US|
+l Scorpashi Stinger|ACTIVE|48314|QO|1|M|48.65,71.73|ITEM|152397|Z|0864;Vol'dun|N|any Scorpashi|US|
 T Nature's Remedy|QID|48313|M|47.05,75.60|Z|0864;Vol'dun|N|To Kiro.|
 T Creeping Death|QID|48314|M|47.05,75.60|Z|0864;Vol'dun|N|To Kiro.|
 A Effective Antivenom|QID|50770|PRE|48313&48314|M|47.05,75.60|Z|0864;Vol'dun|N|From Kiro.|
@@ -247,7 +247,7 @@ f Scorched Sands Outpost|ACTIVE|48529|M|43.90,75.92|Z|0864;Vol'dun|N|At Makaanji
 T Hungry Mouths To Feed|QID|48529|M|43.69,76.77|Z|0864;Vol'dun|N|To Sezahjin.|
 A Mystery Meat|QID|48531|PRE|48529|M|43.69,76.77|Z|0864;Vol'dun|N|From Sezahjin.|RANK|2|
 A Vol'duni Fried Chicken|QID|48533|PRE|48529|M|43.69,76.77|Z|0864;Vol'dun|N|From Sezahjin.|RANK|2|
-C Vol'duni Fried Chicken|QID|48533|M|42.64,73.81|Z|0864;Vol'dun|N|Use the provided bow to shoot (and roast) the Buzzards as you pass thru.|U|152572|S|
+C Vol'duni Fried Chicken|QID|48533|M|42.64,73.81|Z|0864;Vol'dun|N|Use the provided bow to shoot (and roast) the Buzzards as you pass through.|U|152572|S|
 T I Heard You Lost the Herd|QID|48530|M|42.12,76.19|Z|0864;Vol'dun|N|To Mugjabu.|
 A Alpacas Gone Wild|QID|48532|PRE|48530|M|42.12,76.19|Z|0864;Vol'dun|N|From Mugjabu.|RANK|2|
 A Lost in Zem'lan|QID|48324|M|38.89,77.32|Z|0864;Vol'dun|N|From Norah.|RANK|2|
@@ -290,7 +290,7 @@ A Bandit Blades|QID|51602|PRE|48846|M|43.39,75.36|Z|0864;Vol'dun|N|From Razgaji.
 C Bandit Blades|QID|51602|M|40.44,76.37|Z|0864;Vol'dun|N|Pick up the blades from the ground, they also can drop from the mobs in the area.|NC|S|
 K Tongo|ACTIVE|48850|QO|1|M|40.65,76.02|Z|0864;Vol'dun|N|Kill Tongo and loot his head.|T|Tongo|
 C Stolen Goods|QID|48790|QO|1<3|M|40.74,74.76|Z|0864;Vol'dun|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|NC|
-C Stolen Goods|QID|48790|QO|1<5|M|40.42,75.29|Z|0864;Vol'dun|N|Hyena Jerky and Medicinal Herbs can be found thru this underground entrance.|NC|
+C Stolen Goods|QID|48790|QO|1<5|M|40.42,75.29|Z|0864;Vol'dun|N|Hyena Jerky and Medicinal Herbs can be found through this underground entrance.|NC|
 C Stolen Goods|QID|48790|QO|1<6|M|40.02,75.67|Z|0864;Vol'dun|N|Pick up the Fresh Water here (last of the stolen supplies).|NC|
 C Bandit Blades|QID|51602|M|40.79,76.04|Z|0864;Vol'dun|N|Finish collecting the blades.|S|
 T Tongo|QID|48850|M|43.39,75.36|Z|0864;Vol'dun|N|To Razgaji.|
@@ -332,7 +332,7 @@ K Azer'tor|AVAILABLE|49252|M|49.08,89.49|Z|0864;Vol'dun|N|Right wall from Overse
 C The Master Key|QID|49227|QO|2|M|49.65,88.35|Z|0864;Vol'dun|N|Finish freeing Vulpera before you leave the mine.|US|
 T The Master Key|QID|49227|M|47.60,86.15|Z|0864;Vol'dun|N|To Keerin.|
 $ Mine Cart/Ashvane Spoils|QID|50237|M|46.60,88.03;44.67,91.51|CS|Z|0864;Vol'dun|N|Hop in this mine cart for a ride down to some treasure. Loot the Ashvane Spoils for artifact power and resources.|RANK|2|V|
-N Ashvane Garb|ACTIVE|47870|M|44.67,91.51|Z|0864;Vol'dun|N|Now might be an excellent time to disguise yourself to pass thru the camp. (or you can just fight through.) Interestly, fighting does not destroy your disguise. But the Overseer's see thru it and it will be no longer valid.|U|160735|RANK|2|
+N Ashvane Garb|ACTIVE|47870|M|44.67,91.51|Z|0864;Vol'dun|N|Now might be an excellent time to disguise yourself to pass through the camp. (or you can just fight through.) Interestly, fighting does not destroy your disguise. But the Overseer's see through it and it will be no longer valid.|U|160735|RANK|2|
 K Commodore Calhoun|AVAILABLE|50905|M|43.47,91.65;42.56,92.14|CS|Z|0864;Vol'dun|ITEM|162615|N|This silver elite can be found up above overlooking the harbor. Kill and loot for artifact power and resources.|T|Commodore Calhoun|RANK|2|RARE|
 T Dead Men Tell No Tales|QID|47870|M|44.66,86.98|Z|0864;Vol'dun|N|To Randall Redmond.|
 T Seafaring Necessities|QID|47871|M|44.66,86.98|Z|0864;Vol'dun|N|To Randall Redmond.|
@@ -438,7 +438,7 @@ C The Keepers' Keys|QID|49340|M|27.62,52.57|Z|0864;Vol'dun|N|Give Vorrik Sulthis
 T The Keepers' Keys|QID|49340|M|27.12,52.57|Z|0864;Vol'dun|N|To Vorrik.|
 A The Missing Key|QID|49662|PRE|49340|M|27.12,52.57|Z|0864;Vol'dun|N|From Vorrik.|
 ; R1 Skips the following section - Hendo72
-R The Cracked Coast|ACTIVE|50818|M|26.73,52.57;26.59,53.17;27.64,54.80|CS|Z|0864;Vol'dun|N|Down the stairs, thru the lower level and down to the water.|
+R The Cracked Coast|ACTIVE|50818|M|26.73,52.57;26.59,53.17;27.64,54.80|CS|Z|0864;Vol'dun|N|Down the stairs, through the lower level and down to the water.|FLY|OLD|
 T A Lost Flute|QID|50818|M|29.52,59.36|Z|0864;Vol'dun|N|To Jenoh.|
 A A Charming Tail|QID|50817|PRE|50818|M|29.52,59.36|Z|0864;Vol'dun|N|From Jenoh.|RANK|2|
 A Just a Nip|QID|50979|PRE|50818|M|29.52,59.36|Z|0864;Vol'dun|N|From Jenoh.|RANK|2|
@@ -451,7 +451,7 @@ A My Hungry Neighbor|QID|50980|PRE|50979&50817|M|29.52,59.34|Z|0864;Vol'dun|N|Fr
 C My Hungry Neighbor|QID|50980|M|27.92,61.07|Z|0864;Vol'dun|N|Kill the Territorial Hydra.|
 T My Hungry Neighbor|QID|50980|M|29.51,59.36|Z|0864;Vol'dun|N|To Jenoh.|
 A Keep It Down!|QID|50834|PRE|50980|M|29.51,59.36|Z|0864;Vol'dun|N|From Jenoh.|RANK|2|
-R Along the coast line|ACTIVE|50834|M|29.24,58.13;25.84,63.07|CC|Z|0864;Vol'dun|N|Unless you like fighting your way thru for no rewards, if so, feel free to run thru the middle of them.|
+R Along the coast line|ACTIVE|50834|M|29.24,58.13;25.84,63.07|CC|Z|0864;Vol'dun|N|Unless you like fighting your way through for no rewards, if so, feel free to run through the middle of them.|FLY|OLD|
 T Keep It Down!|QID|50834|M|26.21,73.67|Z|0864;Vol'dun|N|To Merd Archfeld.|
 A Calldown: Cleaner|QID|50771|PRE|50834|M|26.21,73.67|Z|0864;Vol'dun|N|From Merd Archfeld.|RANK|2|
 A Get Us Some Beach|QID|50775|PRE|50834|M|26.21,73.67|Z|0864;Vol'dun|N|From Merd Archfeld.|RANK|2|
@@ -472,7 +472,7 @@ A Awakened Elements|QID|50812|PRE|50775&51991&50771|M|26.20,73.70|Z|0864;Vol'dun
 K Enraged Azermental|ACTIVE|50812|QO|1|M|25.87,64.77|Z|0864;Vol'dun|N|Kill the Enraged Azermental.|T|Enraged Azermental|
 T Awakened Elements|QID|50812|M|26.20,73.70|Z|0864;Vol'dun|N|To Nerin Solvis.|RANK|2|
 K Scorpox|AVAILABLE|51076|M|28.17,72.14;32.75,73.71;34.43,71.41;32.66,65.47|CS|Z|0864;Vol'dun|ITEM|161030|N|Silver Elite to kill for artifact power and resources.|T|Scorpox|RANK|3|RARE| ; no good path to middle of nowhere
-R Whistlebloom Oasis|ACTIVE|48327|M|39.50,61.44|Z|0864;Vol'dun|N|Run across the desert to the Whistlebloom Oasis and down into a cave inside the oasis.|
+R Whistlebloom Oasis|ACTIVE|48327|M|39.50,61.44|Z|0864;Vol'dun|N|Run across the desert to the Whistlebloom Oasis and down into a cave inside the oasis.|FLY|OLD|
 T A Strange Delivery|QID|48327|M|43.50,60.21|Z|0864;Vol'dun|N|To Rhan'ka.|
 A Meet the Goldtusk Gang|QID|47497|M|43.50,60.21|Z|0864;Vol'dun|N|From Rhan'ka.|RANK|2|
 C Meet the Goldtusk Gang|QID|47497|QO|2|M|43.37,60.15|Z|0864;Vol'dun|N|Meet Volni.|CHAT|
@@ -482,7 +482,7 @@ C Meet the Goldtusk Gang|QID|47497|QO|1|M|43.65,60.35|Z|0864;Vol'dun|N|Meet Gren
 T Meet the Goldtusk Gang|QID|47497|M|43.51,60.21|Z|0864;Vol'dun|N|To Rhan'ka.|
 A Dirty Work for Dirty Drinks|QID|47501|PRE|47497|M|43.51,60.21|Z|0864;Vol'dun|N|From Rhan'ka.|RANK|2|
 A Rhan'ka's Lost Friend|QID|47498|PRE|47497|M|43.51,60.21|Z|0864;Vol'dun|N|From Rhan'ka.|RANK|2|
-R Dead Man's Pass|ACTIVE|47501|M|38.85,50.90|Z|0864;Vol'dun|N|And we are off to find some scorpids.|RANK|2|
+R Dead Man's Pass|ACTIVE|47501|M|38.85,50.90|Z|0864;Vol'dun|N|And we are off to find some scorpids.|RANK|2|FLY|OLD|
 C Dirty Work for Dirty Drinks|QID|47501|QO|1|M|35.90,50.25|Z|0864;Vol'dun|N|Kill scorpids and loot their Caustic Scorpid Blood|S|
 K Kamid the Trapper|AVAILABLE|50528|M|36.51,50.23;35.10,51.81|CS|Z|0864;Vol'dun|ITEM|161038|N|Wind up the rocky path to find this Silver Elite to kill for artifact power and resources.|T|Kamid the Trapper|RANK|2|RARE|
 C Rhan'ka's Lost Friend|QID|47498|QO|1|M|36.92,50.45|Z|0864;Vol'dun|N|Pick up Zulsan's Cracked Skull inside this little alcove.|NC|
@@ -531,9 +531,9 @@ C A Goldtusk Greeting|QID|48322|QO|4|M|43.39,60.10|Z|0864;Vol'dun|N|Click on the
 C A Goldtusk Greeting|QID|48322|QO|5|M|43.42,59.96|Z|0864;Vol'dun|N|Show Bladeguard Tarkaj his (uncomfortable) bed.|NC|
 T A Goldtusk Greeting|QID|48322|M|43.51,60.21|Z|0864;Vol'dun|N|To Rhan'ka.|
 A Ruins-Level Marketing|QID|48840|PRE|48322|M|43.51,60.21|Z|0864;Vol'dun|N|From Rhan'ka.|RANK|2|
-R The Bone Pit|ACTIVE|48840|M|44.81,55.84|RANK|3|
+R The Bone Pit|ACTIVE|48840|M|44.81,55.84|RANK|3|FLY|OLD|
 K Zunashi The Exile|AVAILABLE|48319|M|44.01,52.67;43.89,54.08|CS|Z|0864;Vol'dun|ITEM|161119|N|Through the skeletal jaw and down into this underground cave to find Silver Elite and kill it. Loot for artifact power and resources.|T|Zunashi The Exile|RANK|3|RARE|
-R Court of Zak'rajan|ACTIVE|48840|M|44.49,45.30|Z|0864;Vol'dun|N|Across the Desert for the next area.|RANK|2|
+R Court of Zak'rajan|ACTIVE|48840|M|44.49,45.30|Z|0864;Vol'dun|N|Across the Desert for the next area.|RANK|2|FLY|OLD|
 K Sandscout Vesarik|ACTIVE|51165|QO|1|M|43.23,45.90|Z|0864;Vol'dun|N|This is a group quest so you may want to keep your eye out for someone else to help. You will be close for several quests.|T|Sandscout Vesarik|S|
 T Ruins-Level Marketing|QID|48840|M|45.39,46.18|Z|0864;Vol'dun|N|To Kenzou.|
 A Inconvenient Spirits|QID|49001|PRE|48840|M|45.39,46.18|Z|0864;Vol'dun|N|From Kenzou.|RANK|2|
@@ -568,14 +568,14 @@ T Zandalari Treasure Trove|QID|48330|M|45.37,46.15|Z|0864;Vol'dun|N|To Omi.|
 K Sandscout Vesarik|ACTIVE|51165|QO|1|M|43.23,45.90|Z|0864;Vol'dun|N|If you are going to do this quest, now is the time, because we are leaving this area.|T|Sandscout Vesarik|US|
 ; R1 resumes here - Hendo72
 ;  Storming the Spire
-R Forward Camp|ACTIVE|49662|M|29.43,50.48;31.76,48.57|CS|Z|0864;Vol'dun|N|Make your way down the stairs and follow the road across the bridge to Forward Camp.|RANK|-1|
-R Temple Incursion|ACTIVE|49662|M|34.72,45.31|Z|0864;Vol'dun|N|Continue following the road to Temple Incursion.|RANK|-1|
-R Bonetrail Gulch|ACTIVE|49662|M|36.11,44.85|Z|0864;Vol'dun|N|Continue on to Bonetrail Gulch.|RANK|-1|
-R Bwoljiin's Fall|ACTIVE|49662|M|40.30,44.64;42.95,37.32|CS|Z|0864;Vol'dun|N|Follow the road straight through Bonetrail Gulch and turn left when the road widens.|RANK|-1|
-R Bwoljiin's Fall|ACTIVE|49662|M|42.95,37.32|Z|0864;Vol'dun|N|Follow the road.|RANK|2|
+R Forward Camp|ACTIVE|49662|M|29.43,50.48;31.76,48.57|CS|Z|0864;Vol'dun|N|Make your way down the stairs and follow the road across the bridge to Forward Camp.|RANK|-1|FLY|OLD|
+R Temple Incursion|ACTIVE|49662|M|34.72,45.31|Z|0864;Vol'dun|N|Continue following the road to Temple Incursion.|RANK|-1|FLY|OLD|
+R Bonetrail Gulch|ACTIVE|49662|M|36.11,44.85|Z|0864;Vol'dun|N|Continue on to Bonetrail Gulch.|RANK|-1|FLY|OLD|
+R Bwoljiin's Fall|ACTIVE|49662|M|40.30,44.64;42.95,37.32|CS|Z|0864;Vol'dun|N|Follow the road straight through Bonetrail Gulch and turn left when the road widens.|RANK|-1|FLY|OLD|
+R Bwoljiin's Fall|ACTIVE|49662|M|42.95,37.32|Z|0864;Vol'dun|N|Follow the road.|RANK|2|FLY|OLD|
 T The Missing Key|QID|49662|M|42.91,35.73|Z|0864;Vol'dun|N|To Vorrik just ahead of you.|
 A Infiltrating the Empire|QID|50745|PRE|49662|M|42.91,35.73|Z|0864;Vol'dun|N|From Vorrik.|
-R Conqueror's Path|ACTIVE|50745|M|42.90,33.89;44.02,34.51;45.09,34.77|CS|Z|0864;Vol'dun|N|Head up the stairs and across the bridge.|
+R Conqueror's Path|ACTIVE|50745|M|42.90,33.89;44.02,34.51;45.09,34.77|CS|Z|0864;Vol'dun|N|Head up the stairs and across the bridge.|FLY|OLD|
 f Vorrik's Sanctum|ACTIVE|50745|M|47.30,35.25|Z|0864;Vol'dun|N|At Lugo the Windrider.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Infiltrating the Empire|QID|50745|M|47.94,35.57;47.96,36.38|CS|Z|0864;Vol'dun|N|To Vorrik inside the cave.|
 A Allies in Anarchy|QID|49664|PRE|50745|M|47.96,36.38|Z|0864;Vol'dun|N|From Vorrik.|
@@ -583,12 +583,11 @@ A The Little Ones|QID|49667|PRE|50745|M|47.98,36.51|Z|0864;Vol'dun|N|From Meerah
 T Allies in Anarchy|QID|49664|M|46.14,33.22|Z|0864;Vol'dun|N|To Nisha at Crater of Conquerors.|
 A Ready to Riot|QID|49665|PRE|49664|M|46.14,33.22|Z|0864;Vol'dun|N|From Nisha.|
 A Make Them Fear Us|QID|49666|PRE|49664|M|46.14,33.22|Z|0864;Vol'dun|N|From Nisha.|
-C Make Them Fear Us|QID|49666|M|48.27,33.03|Z|0864;Vol'dun|N|Kill Faithless and then plant a Vulpera Banner on their corpse.|U|158884|NC|S|
-l Faithless Scimitar|ACTIVE|49665|QO|1|M|47.80,31.50|Z|0864;Vol'dun|N|[color=FF0000]NOTE: [/color]You can get 2 from each Weapon Rack, but only once per rack.|H|S|
+C Make Them Fear Us|QID|49666|M|48.27,33.03|Z|0864;Vol'dun|N|Plant a Vulpera Banner on a Faithless corpse.\n[color=FF0000]NOTE: [/color]You are not required to have killed them to do it.|U|158884|NC|S|
+C Faithless Scimitar|ACTIVE|49665|QO|1|M|47.80,31.50|Z|0864;Vol'dun|L|159470 8|N|Loot the Faithless Scimitars from the Weapon Racks to give to the Vulpera Slaves.\n[color=FF0000]NOTE: [/color]You get two from each Weapon Rack, but only once per rack.|H|S!US|
 C The Little Ones|QID|49667|M|48.48,32.24|Z|0864;Vol'dun|N|Kill Appraiser Versik.|
-l Faithless Scimitar|ACTIVE|49665|QO|1|M|47.80,31.50|Z|0864;Vol'dun|N|Faithless Weapon Rack\n[color=FF0000]NOTE: [/color]You get two from each Weapon Rack, but only once per rack.|H|US|
-C Ready to Riot|QID|49665|QO|1|M|49.10,33.11|Z|0864;Vol'dun|N|Talk to a Vulpera Slave to free and arm them.|CHAT|S|
-C Make Them Fear Us|QID|49666|M|48.27,33.03|Z|0864;Vol'dun|N|Kill Faithless and plant a Vulpera Banner on their corpse.|U|158884|NC|US|
+C Ready to Riot|QID|49665|QO|1|M|47.80,31.50|Z|0864;Vol'dun|N|Finish giving the Faithless Scimitars to the Vulpera Slaves.|H|
+C Make Them Fear Us|QID|49666|M|48.27,33.03|Z|0864;Vol'dun|N|Plant a Vulpera Banner on a Faithless corpse.\n[color=FF0000]NOTE: [/color]You are not required to have killed them to do it.|U|158884|NC|US|
 C Ready to Riot|QID|49665|QO|1|M|49.10,33.11|Z|0864;Vol'dun|N|Talk to a Vulpera Slave to free and arm them.|CHAT|
 T Ready to Riot|QID|49665|M|46.14,33.23|Z|0864;Vol'dun|N|To Nisha.|
 T Make Them Fear Us|QID|49666|M|46.14,33.23|Z|0864;Vol'dun|N|To Nisha.|
@@ -599,14 +598,14 @@ T Crater Conquered|QID|50746|M|47.96,36.39|Z|0864;Vol'dun|N|To Vorrik.|
 A Diplomacy and Dominance|QID|49141|PRE|50746|M|47.96,36.39|Z|0864;Vol'dun|N|From Vorrik.|;grail is confused 50749 comes much later
 A Don't Drop It... Yet|QID|50748|PRE|50746|M|47.96,36.39|Z|0864;Vol'dun|N|From Vorrik.|
 R Crackling Ridge|ACTIVE|49141^50748|M|49.63,35.17;48.65,36.11|CS|Z|0864;Vol'dun|N|It's located above Vorrik's Sanctum.|
-l Don't Drop It... Yet|QID|50748|M|47.04,37.22|Z|0864;Vol'dun|ITEM|154896|N|Any mob in Crackling Ridge.|S|
+l Don't Drop It... Yet|QID|50748|QO|1|M|47.04,37.22|Z|0864;Vol'dun|ITEM|154896|N|Any mob in Crackling Ridge.|S|
 C Diplomacy and Dominance|QID|49141|M|49.06,36.98;48.14,37.75;47.36,36.55;46.10,37.63;45.00,37.90;44.70,39.39|CN|Z|0864;Vol'dun|N|Click on the Suppression Spires to drain them.|H|S|
 K Beastbreaker Hakid|QID|48329|ACTIVE|-48329|M|49.09,38.48;48.15,39.40|CS|Z|0864;Vol'dun|N|Inside this cave to Kill Beastbreaker Hakid to get an item to start a quest.|T|Beastbreaker Hakid|RANK|2|
 A Beaten But Not Broken|QID|48329|M|48.15,39.40|Z|0864;Vol'dun|N|From Hakid's cage key.|RANK|2|
 C Beaten But Not Broken|QID|48329|QO|1|M|47.93,39.78|Z|0864;Vol'dun|N|Click on the cage to free the Scion of Rakjan.|NC|
 C Diplomacy and Dominance|QID|49141|M|49.06,36.98;48.14,37.75;47.36,36.55;46.10,37.63;45.00,37.90;44.70,39.39|CN|Z|0864;Vol'dun|N|Click on the Suppression Spires to drain them.\n[color=FF0000]NOTE: [/color]There are more than 6 of them.|H|US|
-l Don't Drop It... Yet|QID|50748|M|47.04,37.22|Z|0864;Vol'dun|ITEM|154896|N|Any mob in Crackling Ridge.|US|
-R Rakjan's Peak|ACTIVE|48329^49141^50748|M|47.76,37.84;47.77,39.07|CS|Z|0864;Vol'dun|N|Head up the hill to Rakjan's Peak.|
+l Don't Drop It... Yet|QID|50748|QO|1|M|47.04,37.22|Z|0864;Vol'dun|ITEM|154896|N|Any mob in Crackling Ridge.|US|
+R Rakjan's Peak|ACTIVE|48329^49141^50748|M|47.76,37.84;47.77,39.07|CS|Z|0864;Vol'dun|N|Head up the hill to Rakjan's Peak.|FLY|OLD|
 R Beaten But Not Broken|ACTIVE|48329|QO|2|M|47.84,37.64;47.47,38.90|CS|Z|0864;Vol'dun|N|Take Scion of Rakjan to Rakjan's Peak.|
 T Diplomacy and Dominance|QID|49141|M|47.21,39.15|Z|0864;Vol'dun|N|To Vorrik atop of Rakjan's Peak.|
 T Don't Drop It... Yet|QID|50748|M|47.21,39.15|Z|0864;Vol'dun|N|To Vorrik.|
@@ -632,15 +631,15 @@ T Relics of Sethraliss|QID|50752|M|51.95,28.68|Z|0864;Vol'dun|N|To Vorrik.|
 A The Fall of Emperor Korthek|QID|50550|PRE|50750&50752|M|51.95,28.68|Z|0864;Vol'dun|N|From Vorrik (when it becomes available).|
 C The Fall of Emperor Korthek|QID|50550|QO|1|M|51.95,28.68|Z|0864;Vol'dun|N|Tell Vorrik you are ready.|CHAT|
 K Emperor Korthek|ACTIVE|50550|QO|2|M|52.04,27.33|Z|0864;Vol'dun|N|Kill Emperor Korthek.|T|Emperor Korthek|
-T The Fall of Emperor Korthek|QID|50550|M|51.99,27.72|Z|0864;Vol'dun|N|To Vorrik.|
+T The Fall of Emperor Korthek|QID|50550|M|51.99,27.72|Z|0864;Vol'dun|N|To Vorrik (when you can).|
 A Sanctuary Under Siege|QID|50751|PRE|50550|M|51.99,27.72|Z|0864;Vol'dun|N|From Vorrik.|
 ; R1 Skips the following section - Hendo72
 ;A Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|LVL|-50|Z|0864;Vol'dun|N|Autoaccepted.|RANK|2| ** Not required - Hendo72
-C Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|Z|0864;Vol'dun|N|Kill Faithless and pickup focus items as you work your way out of Skycaller's Spire.\n[color=FF0000]NOTE: [/color]You get a special action button once you pick up a staff that will do damage to the faithless.|EAB|
+C Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|Z|0864;Vol'dun|N|Kill Faithless and pickup focus items as you work your way out of Skycaller's Spire.\n[color=FF0000]NOTE: [/color]You get a special action button once you pick up a staff that will do damage to the faithless.|EAB|RANK|2|
 ;t Skycaller Shutdown|QID|50805|M|54.39,25.26|Z|0864;Vol'dun|N|Autocompleted.| ** Not required - Hendo72
 K Warmother Captive|AVAILABLE|50658|QO|1|M|51.50,31.50;50.80,30.97|CS|Z|0864;Vol'dun|ITEM|161103|N|Silver Elite to kill for artifact power and resources.|T|Warmother Captive|RANK|2|RARE|
 K Skycarver Krakit|AVAILABLE|50686|M|51.35,36.38|Z|0864;Vol'dun|N|Silver Elite to kill and loot for artifact power and resources.|T|Skycarver Krakit|RANK|2|RARE|
-R Conqueror's Path|ACTIVE|49668|M|51.17,34.79|CS|Z|0864;Vol'dun|N|Run down to the area below the bridge.|
+R Conqueror's Path|ACTIVE|49668|M|51.17,34.79|CS|Z|0864;Vol'dun|N|Run down to the area below the bridge.|FLY|OLD|
 C Light Up the Gulch|QID|49668|QO|1|M|50.77,32.92|Z|0864;Vol'dun|N|Throw the torch at the oil jugs to burn the West slave market.|U|158896|NC|
 C Light Up the Gulch|QID|49668|QO|2|M|52.32,33.16|Z|0864;Vol'dun|N|Throw the torch at the oil jugs to burn the Central slave market.|U|158896|NC|
 C Light Up the Gulch|QID|49668|QO|3|M|53.61,32.94|Z|0864;Vol'dun|N|Throw the torch at the oil jugs to burn the East slave market.|U|158896|NC|
@@ -656,24 +655,24 @@ T Untame Slaughter|QID|50757|M|55.43,35.01|Z|0864;Vol'dun|N|To Kiro.|
 T Unleash the Beasts|QID|49669|M|55.45,35.03|Z|0864;Vol'dun|N|To Kiro.|
 A Free Ride|QID|50749|PRE|50757&49669|M|55.45,35.03|Z|0864;Vol'dun|N|From Kiro.|RANK|2|
 C Free Ride|QID|50749|QO|1|M|55.24,35.22|Z|0864;Vol'dun|N|Hop on the Battle Krolusk and guide him back to Vorrik's Sanctum.|V|
-R Vorrik's Sanctum|ACTIVE|50749|M|47.98,36.51|;adding a Path would probably be useful here
+R Vorrik's Sanctum|ACTIVE|50749|M|47.98,36.51|FLY|OLD|;adding a Path would probably be useful here
 T Tattered Note|QID|49437|M|47.98,36.51|Z|0864;Vol'dun|N|To Meerah.|
 T Free Ride|QID|50749|M|48.02,36.44|Z|0864;Vol'dun|N|To Kiro.|
 ; R1 resumes here - Hendo72
 ;Atul'Aman
-F Sanctuary of the Devoted|ACTIVE|50751|M|47.30,35.24|TZ|Terrace of the Devoted|Z|0864;Vol'dun|N|at Lugo the Windrider.|
+F Sanctuary of the Devoted|ACTIVE|50751|M|47.30,35.24|Z|0864;Vol'dun|N|at Lugo the Windrider.|TZ|Terrace of the Devoted|FLY|OLD|
 t WANTED: Sandscout Vesarik|QID|51165|M|26.87,52.87|Z|0864;Vol'dun|N|To Zareen.|
 T Sanctuary Under Siege|QID|50751|M|26.98,53.11;26.53,52.57;27.09,52.56|CS|Z|0864;Vol'dun|N|Vorrik is on the upper level.|
 A Atul'Aman|QID|50617|PRE|50751|M|27.09,52.56|Z|0864;Vol'dun|N|From Vorrik.|
 F Goldtusk Inn|ACTIVE|50617|M|27.65,50.33|TZ|Whistlebloom Oasis|Z|0864;Vol'dun|N|Take a flight to Goldtusk Inn from Flightmaster Vethiss.|RANK|2|
-R Abandoned Passage|ACTIVE|50617|M|31.70,56.52;36.67,60.22;36.81,68.97;42.48,68.63|CS|Z|0864;Vol'dun|N|Exit Terrace of the Devoted via the southern bridge and follow the road east to the end. Continue south (right) up the stairs and turn east (left) when you get to the ruins.|RANK|-1|
-R Abandoned Passage|ACTIVE|50617|M|42.48,68.63|Z|0864;Vol'dun|N|Head over to the Abandoned Passage to meet up with Vorrik.|RANK|2|
+R Abandoned Passage|ACTIVE|50617|M|31.70,56.52;36.67,60.22;36.81,68.97;42.48,68.63|CS|Z|0864;Vol'dun|N|Exit Terrace of the Devoted via the southern bridge and follow the road east to the end. Continue south (right) up the stairs and turn east (left) when you get to the ruins.|RANK|-1|FLY|OLD|
+R Abandoned Passage|ACTIVE|50617|M|42.48,68.63|Z|0864;Vol'dun|N|Head over to the Abandoned Passage to meet up with Vorrik.|RANK|2|FLY|OLD|
 T Atul'Aman|QID|50617|M|43.06,68.21|Z|0864;Vol'dun|N|To Vorrik.|
 A The Abandoned Passage|QID|50904|PRE|50617|M|43.06,68.21|Z|0864;Vol'dun|N|From Vorrik.|
 C The Abandoned Passage|QID|50904|QO|1|M|43.06,68.20|Z|0864;Vol'dun|N|Tell Vorrik you are ready.|CHAT|
-C Bladeguard Kaja|QID|50904|QO|2|M|42.81,91.95|Z|1009;Atul'Aman|N|Kill the Faceless Tendrils (if required) and free Kaja.|H|
-C Warguard Rakera|QID|50904|QO|3|M|51.74,67.35|Z|1009;Atul'Aman|N|Kill the Faceless Tendrils (if required) and free Rakera.|H|
-T The Abandoned Passage|QID|50904|M|55.64,36.33|Z|1009;Atul'Aman|N|To Warguard Rakera at The Blood Font.|
+C Bladeguard Kaja|QID|50904|QO|2|M|42.81,91.95|Z|1009;Atul'Aman|N|Kill the Faceless Tendrils (if required) and free Kaja.\n[color=FF0000]NOTE: [/color]Click on the Entangling Tendrils to free her.|H|
+C Warguard Rakera|QID|50904|QO|3|M|51.74,67.35|Z|1009;Atul'Aman|N|Kill the Faceless Tendrils (if required) and free Rakera.\n[color=FF0000]NOTE: [/color]Click on the Entangling Tendrils to free her.|H|
+T The Abandoned Passage|QID|50904|M|55.64,36.33|Z|1009;Atul'Aman|N|To Warguard Rakera at The Blood Font, a little further into the cave.\n[color=FF0000]NOTE: [/color]If you wish, you can just avoid the Faceless Tendrils.|
 A Defeat Jakra'zet|QID|50702|PRE|50904|M|55.64,36.33|Z|1009;Atul'Aman|N|From Warguard Rakera.|
 K General Jakra'zet|ACTIVE|50702|QO|1|M|64.45,36.91|Z|1009;Atul'Aman|N|After he becomes attackable, Kill Jakra'zet.\n[color=FF0000]NOTE: [/color]Collect the orbs to regen your health and take out the Sanguine Ward when it spawns (50% damage reduction).|T|General Jakra'zet|
 T Defeat Jakra'zet|QID|50702|M|27.09,52.64|Z|0864;Vol'dun|N|To Warguard Rakera.|
@@ -681,30 +680,30 @@ A Informing the Horde|QID|50703|PRE|50702|M|27.09,52.64|Z|0864;Vol'dun|N|From Wa
 A Avatar of the Loa|QID|50551|PRE|50702|M|27.09,52.56|Z|0864;Vol'dun|ELITE|N|[color=E6CC80]Dungeon: 'Temple of Sethraliss'[/color]\nFrom Vorrik.|DUNGEON|
 H The Great Seal|ACTIVE|50703|M|27.65,50.32|Z|0864;Vol'dun|N|Hearth or take a flight to Zuldazar from Vethiss.|RANK|-1|
 ; R1/R2 Skips the following section - Hendo72
-R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|Z|0864;Vol'dun|N|If you wanna finish out the rest of the quests / rares/ treasures in the zone, head over to Vorrik's Sanctum for more adventure.|RANK|3|
+R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|Z|0864;Vol'dun|N|If you wanna finish out the rest of the quests/rares/treasures in the zone, head over to Vorrik's Sanctum for more adventure.|RANK|3|
 $ Abandaned Bobber|QID|53004^53005|M|26.49,45.35|Z|0864;Vol'dun|N|Inspect the abandoned bobber, which pulls up the Sandsunken Treasure.|RANK|3|
-R Forward Camp|ACTIVE|51772|M|32.71,49.17|Z|0864;Vol'dun|N|Go back up to the temple or run thru all the murlocks, you choice, but next area is Sethrak Foward Camp.|RANK|3|
+R Forward Camp|ACTIVE|51772|M|32.71,49.17|Z|0864;Vol'dun|N|Go back up to the temple or run through all the murlocks, you choice, but next area is Sethrak Foward Camp.|RANK|3|FLY|OLD|
 A Risky Rescue|QID|50656|M|32.68,48.45|Z|0864;Vol'dun|N|From Seriah.|RANK|3|
 A Building Our Arsenal|QID|49333|M|32.30,48.39|Z|0864;Vol'dun|N|From Izarn.|RANK|3|
 A Skycaller Slaughter|QID|49335|M|32.30,48.39|Z|0864;Vol'dun|N|From Izarn.|RANK|3|
-R Temple Incursion|ACTIVE|50656|M|35.65,45.36|Z|0864;Vol'dun|N|Off to find more sethrak to murder.|RANK|3|
-C Risky Rescue|QID|50656|M|35.65,45.36|Z|0864;Vol'dun|N|Click open the cages as you come across them.|NC|S|
+R Temple Incursion|ACTIVE|50656|M|35.65,45.36|Z|0864;Vol'dun|N|Off to find more sethrak to murder.|RANK|3|FLY|OLD|
+C Risky Rescue|QID|50656|M|35.65,45.36|Z|0864;Vol'dun|N|Click open the cages.|NC|S|
 C Building Our Arsenal|QID|49333|M|35.65,45.36|Z|0864;Vol'dun|N|Pick up weapons from the weapons racks as you come across them.|NC|S|
 C Skycaller Slaughter|QID|49335|M|35.65,45.36|Z|0864;Vol'dun|N|Kill Skycaller mobs, unfortunately no reward for the others.|S|
 K Warbringer Hozzik|AVAILABLE|49373|M|37.02,46.02|Z|0864;Vol'dun|ITEM|161032|N|Silver Elite to kill for artifact power and resources.|T|Warbringer Hozzik|RANK|3|RARE|
 C Skycaller Slaughter|QID|49335|M|37.02,46.02|Z|0864;Vol'dun|N|Finish off the quota of Skycaller mobs.|US|
 C Building Our Arsenal|QID|49333|M|35.68,46.47|Z|0864;Vol'dun|N|Finish Collecting weapons.|NC|US|
-C Risky Rescue|QID|50656|M|35.68,46.47|Z|0864;Vol'dun|N|Click open the cages as you come across them.|NC|US|
+C Risky Rescue|QID|50656|M|35.68,46.47|Z|0864;Vol'dun|N|Click open the cages.|NC|US|
 T Risky Rescue|QID|50656|M|32.68,48.45|Z|0864;Vol'dun|N|To Seriah.|
 T Building Our Arsenal|QID|49333|M|32.30,48.39|Z|0864;Vol'dun|N|To Izarn.|
 T Skycaller Slaughter|QID|49335|M|32.30,48.39|Z|0864;Vol'dun|N|To Izarn.|
 K King Clickyclack|AVAILABLE|51424|M|37.40,40.50;38.22,41.30|CS|Z|0864;Vol'dun|ITEM|161108|N|A Silver Elite is in this cave to kill for artifact power and resources.|T|King Clickyclack|RANK|3|RARE|
-R Shatterstone Harbor|ACTIVE|51772|M|37.16,39.17;39.82,37.91|CS|Z|0864;Vol'dun|N|This is probably as close as you want to get to the Alliance Base.|RANK|3|
-R Redsilt Wash|ACTIVE|51772|M|41.55,38.43;44.08,26.47|CS|Z|0864;Vol'dun|N|Follow the dry riverbed (or maybe it is a roadbed) to Redsilt Wash.|RANK|3|
+R Shatterstone Harbor|ACTIVE|51772|M|37.16,39.17;39.82,37.91|CS|Z|0864;Vol'dun|N|This is probably as close as you want to get to the Alliance Base.|RANK|3|FLY|OLD|
+R Redsilt Wash|ACTIVE|51772|M|41.55,38.43;44.08,26.47|CS|Z|0864;Vol'dun|N|Follow the dry riverbed (or maybe it is a roadbed) to Redsilt Wash.|RANK|3|FLY|OLD|
 K Captain Stef "Marrow" Quin|AVAILABLE|51073|M|41.53,23.71|Z|0864;Vol'dun|N|One more (or should I say 2) Silver Elite to eliminate.|T|Captain Stef "Marrow" Quin|RANK|3|RARE|
 $ Stranded Cache|QID|51135|M|44.71,24.82;44.50,26.14|CS|Z|0864;Vol'dun|N|Run up the fallen log to get to this treasure.|RANK|3|
 K Skycaller Teskris|AVAILABLE|50637|QO|1|M|46.56,27.14;46.99,25.17|CS|Z|0864;Vol'dun|ITEM|160968|N|Inside a cave you can find his Silver Elite to kill for artifact power and resources.|T|Skycaller Teskris|RANK|3|RARE|
-R Tortaka Refuge|ACTIVE|51772|M|46.93,20.32;59.73,20.22;61.05,21.04|CS|Z|0864;Vol'dun|N|Continue down the road. Eventually you will come to a bridge on your left. Follow it to Tortaka Refuge.|RANK|3|
+R Tortaka Refuge|ACTIVE|51772|M|46.93,20.32;59.73,20.22;61.05,21.04|CS|Z|0864;Vol'dun|N|Continue down the road. Eventually you will come to a bridge on your left. Follow it to Tortaka Refuge.|RANK|3|FLY|OLD|
 f Tortaka Refuge|ACTIVE|51772|M|61.92,21.67|Z|0864;Vol'dun|N|At Scroll of Flight.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|3|
 T The Tortaka Tribe|QID|51772|M|62.03,22.33|Z|0864;Vol'dun|N|To Torka.|
 A They Came From The Sea|QID|47577|PRE|51772|M|62.03,22.33|Z|0864;Vol'dun|N|From Torka.|RANK|3|
@@ -723,7 +722,7 @@ A The Elder's Wisdom|QID|47571|PRE|47577&47570&47943|M|62.03,22.34|Z|0864;Vol'du
 C The Elder's Wisdom|QID|47571|M|61.60,20.52|Z|0864;Vol'dun|N|Deliver the Plans to Elder Kuppaka.|CHAT|
 T The Elder's Wisdom|QID|47571|M|61.60,20.52|Z|0864;Vol'dun|N|To Elder Kuppaka.|
 A The Ruined Temple|QID|47965|PRE|47571|M|61.60,20.52|Z|0864;Vol'dun|N|From Elder Kuppaka.|RANK|3|
-R Bouldered Bluffs|ACTIVE|47965|M|56.59,16.56|Z|0864;Vol'dun|N|And we are off to the very last quest area in Vol'dun.|RANK|3|
+R Bouldered Bluffs|ACTIVE|47965|M|56.59,16.56|Z|0864;Vol'dun|N|And we are off to the very last quest area in Vol'dun.|RANK|3|FLY|OLD|
 K Ashmane|AVAILABLE|47532|M|54.40,16.91;54.73,15.16|CS|Z|0864;Vol'dun|N|Silver Elite to kill for artifact power and resources.|T|Ashmane|RANK|3|RARE|
 l Polished Ringhorn Hoof|QID|50890|PRE|47442|M|56.27,15.28|Z|0864;Vol'dun|ITEM|158915|N|the Ringhorn Striders in the area|RANK|3|
 $ Mysterious Trashpile|QID|50890|PRE|47442|M|56.27,15.28|Z|0864;Vol'dun|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|RANK|3|
@@ -759,14 +758,14 @@ A Mark of the Loa|QID|47578|PRE|47576|M|56.57,10.23|Z|0864;Vol'dun|N|From Kimbul
 C Mark of the Loa|QID|47578|M|56.25,9.76|Z|0864;Vol'dun|N|Click the shrine to Receive Kimbul's Blessing.|NC|
 T Mark of the Loa|QID|47578|M|56.52,10.14|Z|0864;Vol'dun|N|To Kimbul.|
 $ Lost Offerings of Kimbul|QID|52992|M|58.05,10.87;56.75,10.06;57.04,11.19|CS|Z|0864;Vol'dun|N|This treasure is located on top (not inside) of the temple. Path starts here.|RANK|3|
-R Tortaka Refuge|ACTIVE|50703|M|57.25,13.83;57.64,16.74;59.91,20.26;61.10,21.02|CS|Z|0864;Vol'dun|N|Remember that treasure at Atul'Aman. Time to go get it now.|RANK|3|
+R Tortaka Refuge|ACTIVE|50703|M|57.25,13.83;57.64,16.74;59.91,20.26;61.10,21.02|CS|Z|0864;Vol'dun|N|Remember that treasure at Atul'Aman. Time to go get it now.|RANK|3|FLY|OLD|
 F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|Z|0864;Vol'dun|N|At Scroll of Flight.|TZ|Whistlebloom Oasis|RANK|3|
-$ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,64.66;48.20,64.69|CS|Z|0864;Vol'dun|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
+$ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,64.66;48.20,64.69|CS|Z|0864;Vol'dun|N|Up to the entrance of Atul'Aman, through the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
 ; R1/R2 resumes here - Hendo72
-T Informing the Horde|QID|50703|M|40.89,73.00|Z|1164;Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
+T Informing the Horde|QID|50703|M|41.40,72.54|Z|1164;Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 T Fond Farewells|QID|49040|M|40.37,19.08|Z|1165;Dazar'alor|N|To B'wizati who can be found in the Zocalo.|RANK|2|
-J Zandalar Forever!|AVAILABLE|50954|N|Now that you're done 'Loremaster of Zandalar', you can now continue working on the main achievement.\n[color=FF0000]NOTE: [/color]AFTER you've changed guides, don't forget to change your guide settings back if you changed them.|JUMP|EliEndgame|ACH|11861;;true+11868;;true+12478;;true|
+J Zandalar Forever!|AVAILABLE|50954|N|Now that you're done 'Loremaster of Zandalar', you can now continue working on the main achievement.\n[color=FF0000]NOTE: [/color]AFTER you've changed guides, don't forget to change your guide settings back if you changed them.\nSkip this step if you want to do something else.|JUMP|EliEndgame|ACH|11861;;true+11868;;true+12478;;true|
 A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|1164;Hall of Croniclers!Dazar'alor|N|At scouting map.\n[color=FF0000]NOTE: [/color]Skip this step if you wish to start the War Campaign guide instead.|
 D War Campaign|N|When you check off this step the War Campaign guide will open.|
 ]]

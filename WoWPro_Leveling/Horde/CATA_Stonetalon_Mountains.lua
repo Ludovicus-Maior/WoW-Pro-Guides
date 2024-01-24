@@ -7,13 +7,13 @@ return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|
 N This guide starts in Orgrimmar|QID|25945^28532|M|PLAYER|N|This guide starts in Orgrimmar and heads to Ashenvale.|
 H Silverwind Refuge|ACTIVE|25945|M|49.67,59.24|Z|Orgrimmar|N|Hearth back to Silverwind Refuge. Fly/run if your Hearth is on CD.|
-R Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|
+R Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.29,65.25|Z|63; Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|
 F Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|85|
-R Silverwind Refuge|ACTIVE|28352|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|FLY|OLD|
+R Silverwind Refuge|ACTIVE|28352|M|49.29,65.25|Z|63; Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|FLY|OLD|
 F Silverwind Refuge|ACTIVE|28532|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|85|
-T Warchief's Command: Stonetalon Mountains!|QID|28532|M|49.90,65.74|Z|Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
-A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|Ashenvale|N|From Blood Guard Aldo Rockrain.|RANK|1|
-R The Fold|QID|25945|M|48.55,66.44|Z|Ashenvale|N|Hop on the Krom'gar Wagon and enjoy the free ride.|V|
+T Warchief's Command: Stonetalon Mountains!|QID|28532|M|49.90,65.74|Z|63; Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
+A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|63; Ashenvale|N|From Blood Guard Aldo Rockrain.|RANK|1|
+R The Fold|QID|25945|M|48.55,66.44|Z|63; Ashenvale|N|Hop on the Krom'gar Wagon and enjoy the free ride.|V|
 T We're Here to Do One Thing, Maybe Two...|QID|25945|M|48.55,66.44|N|To Saurboz.|
 A Barrier to Entry|QID|25999|M|48.55,66.44|N|From Saurboz.|PRE|25945|RANK|1|
 C Barrier to Entry|QID|25999|M|73.37,42.68|N|Click on the mines to arm them.\nIf you aggro one of the Sentinel Ambushers, you can lead it into an armed mine to cause major damage.\n[color=FF0000]NOTE: [/color]Using the wrench still requires you to click on the mine.|

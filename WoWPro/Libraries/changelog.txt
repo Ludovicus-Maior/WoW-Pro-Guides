@@ -1,3 +1,7 @@
+Ace3 Release - Revision r1320 (January 17th, 2014)
+--------------------------------------------------
+- AceGUI-3.0: Colorpicker: Compatibility for WoW 10.2.5
+
 Ace3 Release - Revision r1309 (July 12th, 2023)
 -----------------------------------------------
 - AceDB-3.0: Fixed an issue due to a region change on the PTR
