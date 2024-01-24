@@ -35,11 +35,11 @@ A Field Test: Gnomecorder|QID|25621|PRE|25615|M|35.35,71.22|Z|63; Ashenvale|N|Fr
 C Field Test: Gnomecorder|QID|25621|NC|M|73.35,40.65;73.10,46.74|CS|Z|65; Stonetalon Mountains|N|Head next to the drill machine.|
 T Field Test: Gnomecorder|QID|25621|M|73.12,46.96|Z|65; Stonetalon Mountains|N|(UI Alert)|
 A Burn, Baby, Burn!|QID|25622|PRE|25621|M|73.12,46.96|Z|65; Stonetalon Mountains|N|(UI Alert)|
+t Burn, Baby, Burn!|QID|25622|M|73.10,49.77|Z|65; Stonetalon Mountains|N|(UI Alert)|
 K Krom'gar Incinerator |QID|25622|L|55152|M|73.39,49.59|Z|65; Stonetalon Mountains|N|Kill Krom'gar Incinerators until they drop a Warsong Flame Thrower.  Although they are elite, targetting and destroying the Oil Canister on their backs will instantly kill them.|
 C Burn, Baby, Burn!|QID|25622|U|55152|M|73.27,51.31|Z|65; Stonetalon Mountains|N|Target Warsong Stockpiles and use your flame thrower near them.|NC|S|
 C Hellscream's Legacy|QID|25616|M|73.10,49.77|Z|65; Stonetalon Mountains|N|Kill Krom'gar Incinerators. Target the Oil Canister on their backs to kill them easily.|
 C Burn, Baby, Burn!|QID|25622|U|55152|M|73.10,49.77|Z|65; Stonetalon Mountains|N|Target Warsong Stockpiles and use your flame thrower near them.|NC|US|
-T Burn, Baby, Burn!|QID|25622|M|73.10,49.77|Z|65; Stonetalon Mountains|N|(UI Alert)|
 A Bombs Away: Windshear Mine!|QID|25640|PRE|25622|M|73.10,49.77|Z|65; Stonetalon Mountains|N|(UI Alert)|
 T Hellscream's Legacy|QID|25616|M|72.53,61.40|Z|65; Stonetalon Mountains|N|To Sentinel Heliana.|
 T Bombs Away: Windshear Mine!|QID|25640|M|72.53,61.40|Z|65; Stonetalon Mountains|N|To Boog the "Gear Whisperer".|
@@ -51,7 +51,7 @@ C Windshear Mine Cleanup|QID|25646|M|71.54,62.60|S|Z|65; Stonetalon Mountains|N|
 A Illegible Orc Letter |QID|25647|PRE|25640|M|PLAYER|Z|65; Stonetalon Mountains|N|Start the quest Illegible Orc Letter from the item you looted from the Windshear Overseer.|U|55181|
 T Illegible Orc Letter |QID|25647|M|72.53,61.40|Z|65; Stonetalon Mountains|N|To Boog the "Gear Whisperer".|
 A Minx'll Fix It|QID|25649|PRE|25647|M|72.60,61.57|Z|65; Stonetalon Mountains|N|From Boog the "Gear Whisperer".|
-T Minx'll Fix It|QID|25649|Z|65; Stonetalon Mountains|N|To Minx.|M|72.21,61.52;72.00,62.73;71.26,62.77;70.80,62.96|CS|
+T Minx'll Fix It|QID|25649|M|72.21,61.52;72.00,62.73;71.26,62.77;70.80,62.96|CS|Z|65; Stonetalon Mountains|N|To Minx.|
 A Orders from High Command|QID|25650|PRE|25649|M|70.80,62.96|Z|65; Stonetalon Mountains|N|From Minx.|
 C Windshear Mine Cleanup|QID|25646|US|M|71.23,62.79|Z|65; Stonetalon Mountains|N|Finish killing Overseers.|
 C Don't Look Them in the Eyes|QID|25642|US|NC|M|71.24,61.79|Z|65; Stonetalon Mountains|N|Finish getting ore.|
@@ -69,7 +69,6 @@ r Repair/Sell Junk|QID|25729|M|58.82,56.00|Z|65; Stonetalon Mountains|N|From Ol'
 A Just Ask Alice|QID|25673|PRE|25652|M|58.53,55.25|Z|65; Stonetalon Mountains|N|From Alice.|
 f Windshear Hold|QID|25729|M|58.80,54.30|Z|65; Stonetalon Mountains|N|At Allana Swiftglide.|
 C Just Ask Alice - Fire|QID|25673|L|55221|M|63.09,56.70|Z|65; Stonetalon Mountains|N|Loot the Mechanised Fire at the top of the large shredder.|QO|2|NC|; Mechanized Fire: 1/1
-l Horde Cage Key|ACTIVE|25662|M|64.91,52.13|L|55200 5|Z|65; Stonetalon Mountains|N|Kill the Krom'gar Infantry and loot the keys|S|
 A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|Z|65; Stonetalon Mountains|N|This is a Group quest from the STAY OUT! sign.\n\nThis is a little tough for a non-heal class to solo - get a group if you can, give it a try, or otherwise skip this quest.|RANK|3|C|DeathKnight,Mage,Rogue,Warrior|
 A BEWARE OF CRAGJAW!|QID|25730|M|64.96,49.52|Z|65; Stonetalon Mountains|N|This is a Group quest from the STAY OUT! sign.\n\nAlthough this is a group quest, it should be soloable for you. Skip if you don't want to try.|RANK|3|C|Hunter,Paladin,Shaman,Druid,Priest,Warlock|
 C BEWARE OF CRAGJAW!|QID|25730|M|65.68,46.90|Z|65; Stonetalon Mountains|N|Found in Cragpool Lake to the north of the sign. Once killed, loot the Huge Tooth.|RANK|3|O|
@@ -78,7 +77,6 @@ A Gerenzo the Traitor|QID|25729|PRE|25652|M|69.2,48.1;69.5,46.4;68.3,45.4;64.64,
 C Gerenzo the Traitor|QID|25729|M|63.10,45.84|Z|65; Stonetalon Mountains|N|Kill Gerenzo.|
 T Gerenzo the Traitor|QID|25729|M|63.10,45.84|Z|65; Stonetalon Mountains|N|(UI Alert)|
 C Just Ask Alice - BD-816 War Apparatus|QID|25673|L|55227|M|63.05,45.67|Z|65; Stonetalon Mountains|N|Just behind Gerenzo.  Once collected, feel free to jump to the south into the water to get back to Windshear Crag.|QO|1|NC|; BD-816 War Apparatus: 1/1
-l Horde Cage Key|ACTIVE|25662|M|64.91,52.13|L|55200 5|Z|65; Stonetalon Mountains|N|Kill the Krom'gar Infantry and loot the keys|US|
 C Free Our Sisters|QID|25662|M|64.91,52.13|NC|Z|65; Stonetalon Mountains|N|Finish freeing the trapped Sisters.|
 T Free Our Sisters|QID|25662|M|66.21,54.57|Z|65; Stonetalon Mountains|N|To Huntress Illiona.|
 A Rumble in the Lumber... Mill|QID|25669|PRE|25662|M|66.21,54.57|Z|65; Stonetalon Mountains|N|From Huntress Illiona.|
