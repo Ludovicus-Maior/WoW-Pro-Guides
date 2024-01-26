@@ -364,7 +364,7 @@ A Dreadtick Combustion|QID|49071|PRE|49067|M|56.51,26.65|Z|0863;Nazmir|N|From La
 A Souls for the Death Loa|QID|49070|PRE|49067|M|56.65,26.53|Z|0863;Nazmir|N|From Bwonsamdi.|
 C Souls for the Death Loa|QID|49070|M|59.54,19.28|Z|0863;Nazmir|N|Kill Blood troll drudges.|S|
 C Dreadtick Combustion|QID|49071|QO|1|M|60.80,23.11|Z|0863;Nazmir|N|Use the scroll to blow up Dreadtick Leechers. (or just kill them)|U|153024|NC|S|
-R Torga's Innards|ACTIVE|49080^49071^49070|M|58.04,21.40|Z|0863;Nazmir|N|Work your way around and climb up.|
+R Torga's Innards|ACTIVE|49080^49071^49070|M|58.04,21.40|Z|0863;Nazmir|N|Work your way around and climb up.|FLY|OLD|
 K Summoner Yarz|ACTIVE|49080|QO|1|M|61.01,18.15|Z|0863;Nazmir|N|Kill Summoner Yarz.|T|Summoner Yarz|
 C Dreadtick Combustion|QID|49071|QO|1|M|60.80,23.11|Z|0863;Nazmir|N|Use the scroll to blow up Dreadtick Leechers. (or just kill them)|U|153024|NC|US|
 C Souls for the Death Loa|QID|49070|M|58.20,20.41|Z|0863;Nazmir|N|Finish claiming the Blood troll souls.|US|
@@ -378,7 +378,7 @@ A Negative Blood|QID|49125|PRE|49120|M|56.59,26.76|Z|0863;Nazmir|N|From Kisha.|
 ;A Tortollan Rescue|QID|51689|M|56.59,26.76|LVL|-50|Z|0863;Nazmir|N|Bonus Objective - Autoaccepted.| ; you get it after 49125 accepted, and a slight delay ** Not required - Hendo72
 C Tortollan Rescue|QID|51689|M|56.59,26.76|Z|0863;Nazmir|N|Bonus Objective - Free the Tortollan's and kill the guards.|S|
 C Negative Blood|QID|49125|QO|1|M|62.82,23.14|Z|0863;Nazmir|N|Target the Corrupted Loa Blood and use the scroll to destroy it.|T|Corrupted Loa Blood|U|160559|NC|S|
-C Negative Blood|QID|49125|QO|2|M|62.27,24.56|Z|0863;Nazmir|N|Pick up Scroll of Fate's Hand lying on the ground.|H|
+C Negative Blood|QID|49125|QO|2|M|62.27,24.56|Z|0863;Nazmir|N|Pick up Scroll of Fate's Hand lying on the ground by the cage.|H|
 C Negative Blood|QID|49125|QO|1|M|62.82,23.14|Z|0863;Nazmir|N|Finish destroying the Corrupted Loa Blood.|T|Corrupted Loa Blood|U|160559|NC|US|
 C Tortollan Rescue|QID|51689|M|64.91,20.93|Z|0863;Nazmir|N|Bonus Objective - Finish up rescuing Tortollans.|US|
 ;T Tortollan Rescue|QID|51689|M|64.91,20.93|Z|0863;Nazmir|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
@@ -387,18 +387,18 @@ $ Shipwreaked Chest|QID|49483|M|67.81,16.80;66.78,17.33|CS|Z|0863;Nazmir|N|Start
 T Negative Blood|QID|49125|M|65.72,17.97|Z|0863;Nazmir|N|To Kisha in the cave under the tree.|
 ;A Forcing Fate's Hand|QID|49126|PRE|49125&49123&49124|M|65.72,17.97|Z|0863;Nazmir|N|From Kisha.| ; ** Appears PRE|49123| doesn't exist. Duplicated and commented out for now - Hendo72
 A Forcing Fate's Hand|QID|49126|PRE|49125|M|65.72,17.97|Z|0863;Nazmir|N|From Kisha.| ; ** Removed unavailable PREs - Hendo72
-C Forcing Fate's Hand|QID|49126|QO|1|M|65.73,17.87|Z|0863;Nazmir|N|Take a few steps forward until the Extra Action button activates and use it to summon Hand of Fate.|EAB|
+C Forcing Fate's Hand|QID|49126|QO|1|M|65.56,17.94|Z|0863;Nazmir|N|Walk towards the entrance until the Extra Action button activates and use it to summon Hand of Fate.|EAB|
 C Forcing Fate's Hand|QID|49126|QO|2|M|63.30,15.31|Z|0863;Nazmir|N|1 is a single target attack \n2 is an AOE attack \n3 is a heal. \nGo forth and destroy the undead.|
-T Forcing Fate's Hand|QID|49126|M|58.48,13.78|Z|0863;Nazmir|N|To Kisha.|
+T Forcing Fate's Hand|QID|49126|M|58.48,13.78|Z|0863;Nazmir|N|To Kisha.\n[color=FF0000]NOTE: [/color]You will automatically go to her without your input.|
 A Loa-Free Diet|QID|49130|PRE|49126|M|58.48,13.78|Z|0863;Nazmir|N|From Kisha.|
 A Sanctifying Ground|QID|49131|PRE|49126|M|58.48,13.85|Z|0863;Nazmir|N|From Princess Talanji.|
 A Crushing the Skullcrushers|QID|49132|PRE|49126|M|58.52,13.89|Z|0863;Nazmir|N|From Lashk.|
 K Scrounger Patriarch|QID|48980|QO|1|M|58.37,8.50|Z|0863;Nazmir|ITEM|161219|N|Silver Elite to kill for artifact power and resources.\n[color=FF0000]NOTE: [/color]Clear the Younglings as best you can before you approach.|T|Scrounger Patriarch|RANK|2|RARE|
 K Kal'draxa|QID|47843|QO|1|M|53.12,13.55|Z|0863;Nazmir|ITEM|161018|N|Silver Elite to kill for artifact power and resources.\n[color=FF0000]NOTE: [/color]Keep an eye on her casting bar for her Noxious Breath ability (it hurts).|T|Kal'draxa|RANK|2|RARE|
 C Crushing the Skullcrushers|QID|49132|M|54.99,21.50|Z|0863;Nazmir|N|Kill the Loa-Gutter Skullcrushers.|S|
-C Loa-Free Diet|QID|49130|M|54.99,21.50|Z|0863;Nazmir|N|Kill the Loa Butchers to collect Parts of Torga.|S|
+l Loa-Free Diet|QID|49130|QO|1|M|54.99,21.50|Z|0863;Nazmir|ITEM|153070|N|the Loa Butchers|S|
 C Sanctifying Ground|QID|49131|QO|1|M|56.61,22.09|Z|0863;Nazmir|N|Click the Sanctifying Totems scattered around.\n[color=FF0000]NOTE: [/color]You can't miss them; look for the column of flames.|H|
-C Loa-Free Diet|QID|49130|M|54.99,21.50|Z|0863;Nazmir|N|Finish recovering Parts of Torga.|US|
+l Loa-Free Diet|QID|49130|QO|1|M|54.99,21.50|Z|0863;Nazmir|ITEM|153070|N|the Loa Butchers|US|
 C Crushing the Skullcrushers|QID|49132|M|54.99,21.50|Z|0863;Nazmir|N|Finish your quota of Loa-Gutter Skullcrushers.|US|
 T Crushing the Skullcrushers|QID|49132|M|56.51,26.67|Z|0863;Nazmir|N|To Lashk.|
 T Loa-Free Diet|QID|49130|M|56.60,26.78|Z|0863;Nazmir|N|To Kisha.|
@@ -410,12 +410,12 @@ A Torga's Eternal Return|QID|49160|PRE|49136|M|56.51,26.64|Z|0863;Nazmir|N|From 
 C Torga's Eternal Return|QID|49160|M|56.51,26.64|Z|0863;Nazmir|N|Use the scroll to put Torga's spirit to rest.|U|153131|NC|
 T Torga's Eternal Return|QID|49160|M|56.59,26.75|Z|0863;Nazmir|N|To Kisha.|
 A To Gloom Hollow|QID|49902|PRE|49160|M|56.59,26.75|Z|0863;Nazmir|N|From Kisha.|
-R Razorjaw River|ACTIVE|49902|M|55.79,34.32|Z|0863;Nazmir|N|Follow whats left of the road across the Razorjaw River to find the Tortollans.|
-C Crez|QID|49902|QO|1<1|M|55.73,39.72|Z|0863;Nazmir|N|Walk over and talk to Crez.|CHAT|
+R Razorjaw River|ACTIVE|49902|M|55.79,34.32|Z|0863;Nazmir|N|Follow whats left of the road across the Razorjaw River to find the Tortollans.|FLY|OLD|
+C Crez|QID|49902|QO|1<1|M|55.73,39.72|Z|0863;Nazmir|N|Talk to Crez.|CHAT|
 K Scout Skrasniss|QID|48972|QO|1|M|58.84,38.98|Z|0863;Nazmir|ITEM|160951|N|Silver Elite to kill and loot for resources and artifact power.|T|Scout Skrasniss|RANK|2|RARE|
-C Korkrush|QID|49902|QO|1<2|M|60.24,46.18|Z|0863;Nazmir|N|Continue on and talk to Korkrush.|CHAT|
-C Yash|QID|49902|QO|1<3|M|63.88,47.75|Z|0863;Nazmir|N|Head over and talk to Yash.|CHAT|
-R Gloom Hollow|ACTIVE|49902|M|66.42,42.98|Z|0863;Nazmir|N|Follow the road across Razorjaw River.|
+C Korkrush|QID|49902|QO|1<2|M|60.24,46.18|Z|0863;Nazmir|N|Talk to Korkrush.|CHAT|
+C Yash|QID|49902|QO|1<3|M|63.88,47.75|Z|0863;Nazmir|N|Talk to Yash.|CHAT|
+R Gloom Hollow|ACTIVE|49902|M|66.42,42.98|Z|0863;Nazmir|N|Follow the road across Razorjaw River.|FLY|OLD|
 f Gloom Hollow|ACTIVE|49902|M|66.98,43.77|Z|0863;Nazmir|N|At Cuja.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T To Gloom Hollow|QID|49902|M|67.44,42.30|Z|0863;Nazmir|N|To Rokhan.|
 A Getting the Message|QID|47245|PRE|49902|M|67.44,42.30|Z|0863;Nazmir|N|From Rokhan.|
