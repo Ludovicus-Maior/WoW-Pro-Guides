@@ -174,11 +174,11 @@ A Poisoning the Brood|QID|49078|PRE|48801&48890|M|33.35,45.77|Z|0863;Nazmir|N|Fr
 A Mark of the Bat|QID|48800|M|33.35,45.77|PRE|48801&48890|Z|0863;Nazmir|N|From Bloodseeker Jo'chunga.|
 ;A Zalamar Slaughter|QID|49406|M|33.35,45.77|Z|0863;Nazmir|N|Bonus Objective - Autoaccepted.|LVL|-50|  ;  only active once you get 49078 and 48800 ** Not required - Hendo72
 C Zalamar Slaughter|QID|49406|M|33.35,45.77|Z|0863;Nazmir|N|Bonus Objective.|S|
-C Poisoning the Brood|QID|49078|M|32.13,48.71|Z|0863;Nazmir|N|Target the Tamed Warspawn and use the poison.|T|Tamed Warspawn|U|153012|NC|S|
-K Vashera|ACTIVE|48800|QO|2|M|30.99,45.12|Z|0863;Nazmir|N|Kill Vashera and loot her Talisman.|T|Vashera|
-K Zu'Anji|ACTIVE|48800|QO|3|M|32.62,49.44|Z|0863;Nazmir|N|Kill Zu'Anji and loot her Talisman.|T|Zu'Anji|
-K Yialu|ACTIVE|48800|QO|1|M|33.62,49.10|Z|0863;Nazmir|N|Kill Yialu and loot her Talisman.|T|Yialu|
-C Poisoning the Brood|QID|49078|M|32.13,48.71|U|153012|Z|0863;Nazmir|N|Finish poisoning the Tamed Warspawn.|T|Tamed Warspawn|US|
+C Poisoning the Brood|QID|49078|M|32.13,48.71|Z|0863;Nazmir|N|Target the Tamed Warspawn and throw the poison vial at it.|U|153012|NC|S|
+l Vashera's Talisman|ACTIVE|48800|QO|2|M|30.99,45.12|Z|0863;Nazmir|ITEM|153672|N|Vashera|T|Vashera|
+l Zu'Anji's Talisman|ACTIVE|48800|QO|3|M|32.62,49.44|Z|0863;Nazmir|ITEM|153674|N|Zu'Anji|T|Zu'Anji|
+l Yialu's Talisman|ACTIVE|48800|QO|1|M|33.62,49.10|Z|0863;Nazmir|ITEM|153671|N|Yialu|T|Yialu|
+C Poisoning the Brood|QID|49078|M|32.13,48.71|Z|0863;Nazmir|N|Finish poisoning the Tamed Warspawn.|T|Tamed Warspawn|U|153012|NC|US|
 T Poisoning the Brood|QID|49078|M|33.35,45.77|Z|0863;Nazmir|N|To Bloodseeker Jo'chunga.|
 T Mark of the Bat|QID|48800|M|33.35,45.77|Z|0863;Nazmir|N|To Bloodseeker Jo'chunga.|
 A Hir'eek, the Bat Loa|QID|49079|PRE|48800&49078|M|33.35,45.76|Z|0863;Nazmir|N|From Jo'chunga.|
@@ -194,30 +194,31 @@ A Upward and Onward|QID|49082|PRE|49081|M|31.25,46.81|Z|0863;Nazmir|N|From Jo'ch
 C Upward and Onward|QID|49082|QO|1|M|31.27,46.71|Z|0863;Nazmir|N|Take the proffered ride out of Hir'eek's Lair on the Hir'eek Spawnling.(Optional)\n[color=FF0000]NOTE: [/color]Skip this step if you wish to do it on your own.|V|
 C Upward and Onward|QID|49082|QO|2|M|39.63,43.87|Z|0863;Nazmir|N|Inform Witch Doctor Kejabu at the Zo'bal Ruins of the outcome.|CHAT|
 T Upward and Onward|QID|49082|M|39.63,43.87|Z|0863;Nazmir|N|To Witch Doctor Kejabu.|
-R The Necropolis|ACTIVE|47868|M|39.58,41.62;39.58,34.92|CS|Z|0863;Nazmir|N|Head north out of Zo'bal Ruins and make your way across the Dreadmire to The Necropolis on the other side.|
+R The Necropolis|ACTIVE|47868|M|39.58,41.62;39.58,34.92|CS|Z|0863;Nazmir|N|Head north out of Zo'bal Ruins and make your way across the Dreadmire to The Necropolis on the other side.|FLY|OLD|
 T The Necropolis|QID|47868|M|39.58,32.57|Z|0863;Nazmir|N|To Hanzabu.|
 A A Tribute for Death|QID|47880|PRE|47868|M|39.58,32.57|Z|0863;Nazmir|N|From Hanzabu.|
 R A Tribute for Death|QID|47880|QO|1|M|39.54,32.25|Z|0863;Nazmir|N|Run around the circle following the lines.\n[color=FF0000]NOTE: [/color]If you toggle 'walk' ([/] on the number pad by default), it'll make it a lot easier to do. Don't forget to turn it back on.|
 C A Tribute for Death|QID|47880|QO|2|M|39.59,31.84|Z|0863;Nazmir|N|Click the drum Drum of Spirits.|H|
-T A Tribute for Death|QID|47880|M|39.57,24.72|Z|0863;Nazmir|N|To Bwonsamdi inside the very dark Edge of Oblivion on the north side of The Necropolis.|
+T A Tribute for Death|QID|47880|M|39.57,24.72|Z|0863;Nazmir|N|To Bwonsamdi inside the very dark Edge of Oblivion on the north side of The Necropolis.\n[color=FF0000]NOTE: [/color]Don't worry, you'll be lifted back up if you walk off the edge.|
 A Remnants of the Damned|QID|47491|PRE|47880|M|39.57,24.72|Z|0863;Nazmir|N|From Bwonsamdi.|
 A A Desecrated Temple|QID|49348|PRE|47880|M|39.57,24.72|Z|0863;Nazmir|N|From Bwonsamdi.|
 A That Which Haunts the Dead|QID|47247|PRE|47880|M|39.57,24.72|Z|0863;Nazmir|N|From Bwonsamdi.|
 ;A Mark of the Damned|QID|48934|M|39.57,25.41|Z|0863;Nazmir|N|Bonus Objective - Auto-accepted.|LVL|-50|  ;  only active once you get 47491, 49348, 47247
 C Mark of the Damned|QID|48934|M|39.57,25.41|Z|0863;Nazmir|N|Bonus Objective.|S|
-C A Desecrated Temple|QID|49348|M|43.95,30.05|Z|0863;Nazmir|N|Click on the red blobs of Vile Desecration to destroy them.|NC|S|
+C A Desecrated Temple|QID|49348|M|43.95,30.05|Z|0863;Nazmir|N|Click on the red blobs of Vile Desecration to destroy them.|H|S|
 $ Offering to Bwonsamdi|QID|49484|M|42.39,26.13;42.79,26.20|CS|Z|0863;Nazmir|N|Go up the tree trunk then onto the walls of the ruins and down inside to find this treasure.|RANK|2|
 C That Which Haunts the Dead|QID|47247|QO|1|M|43.35,30.02|Z|0863;Nazmir|N|Kill Warlord Malaja.|
 A The Forlorn Soul|QID|49432|M|42.58,31.46|Z|0863;Nazmir|N|From Keula.|
 A 'Til Death Do Us Part|QID|47248|M|36.66,27.39|Z|0863;Nazmir|N|From Theurgist Salazae.|RANK|2|
 C That Which Haunts the Dead|QID|47247|QO|2|M|36.12,29.87|Z|0863;Nazmir|N|Kill Hex Priestess Tizeja.|
 K Azerite-Infused Slag|QID|50563|QO|1|M|37.30,26.24;33.34,27.53|CS|Z|0863;Nazmir|N|Silver Elite to kill for resources and artifact power.|T|Azerite-Infused Slag|RANK|2|RARE|;item unknown
-C Remnants of the Damned|QID|47491|M|40.46,30.25|Z|0863;Nazmir|N|Decaying Bloodstones drop from the skeletal Reanimated and Bound Horrors. Kill them.|S|
-C The Forlorn Soul|QID|49432|QO|1|M|39.58,31.56;39.59,34.99|CS|Z|0863;Nazmir|N|Enter the Catacomb entrance through the Court of Spirits to find Keula's mother in the room at the bottom of the stairs. Click on the sarcophagus lid to open it.\n[color=FF0000]NOTE: [/color]You'll be ambushed by 2 mobs when you enter the room.|H|
-K The Matron Shaazula|ACTIVE|49432|QO|2|M|39.65,34.94|Z|0863;Nazmir|N|Subdue Matron Shaazula.|T|The Matron Shaazula|
+l Decaying Bloodstones|ACTIVE|47491|QO|1|M|40.46,30.25|Z|0863;Nazmir|ITEM|150753|N|Reanimated and Bound Horrors around Necroplis|S|
+R Necropolis Catacombs|ACTIVE|49432|QO|1|M|39.59,31.67|Z|0863;Nazmir|N|At the south end of Court of Spirits, there are two lights marking the entrance to the catacomb.|
+C The Forlorn Soul|QID|49432|QO|1|M|39.59,34.99|CS|Z|0863;Nazmir|N|Go into the room at the bottom of the stairs. Click on the sarcophagus lid to open it.\n[color=FF0000]NOTE: [/color]You'll be ambushed by 1-2 mobs when you enter the room.\nIf you ended up at the Necropolis entrance by mistake and someone else opens it, this step will complete.|H|
+K The Matron Shaazula|ACTIVE|49432|QO|2|M|39.65,34.94|Z|0863;Nazmir|N|Subdue Matron Shaazula.\n[color=FF0000]NOTE: [/color]If you completed the previous step without going into the catacombs, you'll need to do so now.|T|The Matron Shaazula|
 K Za'amar the Queen's Blade|QID|49469|QO|1|M|38.77,28.76;38.84,26.72|CS|Z|0863;Nazmir|ITEM|161095|N|Using the northwest entrance in Court of Spirits, enter the Necropolis Catacombs to find this Silver Elite to kill and loot for a bit of resources and artifact power.|T|Za'amar the Queen's Blade|RANK|2|RARE|
 C 'Til Death Do Us Part|QID|47248|QO|1|M|40.37,26.48|Z|0863;Nazmir|N|Using the northeast entrance in Court of Spirits, enter the Necropolis Catacombs to find a box with Valjabu's Tusk Ring.\n[color=FF0000]NOTE: [/color]Kill Gee'dee the Cursed if he is in the way.|H|
-C Remnants of the Damned|QID|47491|M|40.46,30.25|Z|0863;Nazmir|N|Finish collecting the Decaying Bloodstones.|US|
+l Decaying Bloodstones|ACTIVE|47491|QO|1|M|40.46,30.25|Z|0863;Nazmir|ITEM|150753|N|Reanimated and Bound Horrors around Necroplis|US|
 C A Desecrated Temple|QID|49348|M|43.95,30.05|Z|0863;Nazmir|N|Finish destroying the red blobs of Vile Desecration.|H|US|
 C Mark of the Damned|QID|48934|M|37.17,27.83|Z|0863;Nazmir|N|Finish up this bonus objective before going into the temple to turn in the quests.|US|
 ;T Mark of the Damned|QID|48934|M|37.17,27.83|Z|0863;Nazmir|N|Bonus Objective - Autocompleted.| ** Not required - Hendo72
@@ -226,8 +227,8 @@ T A Desecrated Temple|QID|49348|M|39.57,24.65|Z|0863;Nazmir|N|To Bwonsamdi.|
 T That Which Haunts the Dead|QID|47247|M|39.57,24.65|Z|0863;Nazmir|N|To Bwonsamdi.|
 T The Forlorn Soul|QID|49432|M|39.57,24.65|Z|0863;Nazmir|N|To Bwonsamdi.|
 A Soulbound|QID|47249|M|39.57,24.65|PRE|49432&49348&47491&47247|Z|0863;Nazmir|N|From Bwonsamdi.|
-C Soulbound|QID|47249|QO|1|M|39.60,30.09|Z|0863;Nazmir|N|Go down to the alter in the middle of the Court of Sprits and tell Bwonsamdi you're ready.|CHAT|
-K Grand Ma'da Ateena|ACTIVE|47249|QO|2|M|39.57,30.65|Z|0863;Nazmir|N|Kill Grand Ma'da Ateena.|T|Grand Ma'da Ateena|
+C Soulbound|QID|47249|QO|1|M|39.58,30.22|Z|0863;Nazmir|N|Go down to the alter in the middle of the Court of Sprits and tell Bwonsamdi you're ready.|CHAT|
+K Grand Ma'da Ateena|ACTIVE|47249|QO|2|M|39.58,30.22|Z|0863;Nazmir|N|Kill Grand Ma'da Ateena.|T|Grand Ma'da Ateena|
 T Soulbound|QID|47249|M|39.59,30.23|Z|0863;Nazmir|N|To Bwonsamdi.|
 A We'll Meet Again|QID|47250|PRE|47249|M|39.59,30.23|Z|0863;Nazmir|N|From Bwonsamdi.|
 T 'Til Death Do Us Part|QID|47248|M|36.65,27.39|Z|0863;Nazmir|N|To Theurgist Salazae.|
@@ -328,15 +329,9 @@ T Bad To The Bone|QID|49779|M|24.13,53.23|Z|0863;Nazmir|N|To Zaluto.|
 A Catch Me if You Can|QID|49781|PRE|49780&49779|M|24.13,53.21|Z|0863;Nazmir|N|From Zaluto.|RANK|2|
 C Catch Me if You Can|QID|49781|M|28.18,53.39|Z|0863;Nazmir|N|After you hop Zaluto's raptor, it'll run towards Zulajin and stop. Use the "1" key to get Zulajin to chase you towards the puddle of tar. When the '1' key becomes available again, use it. Retarget Zulajin again and when the '1' key becomes available again, spam it until Zulajin is dead.|T|Zulajin|V|
 T Catch Me if You Can|QID|49781|M|28.36,52.03|Z|0863;Nazmir|N|To Jin'Tiki.|
-N Expert Riding|AVAILABLE|32674|SPELL|Expert Riding;34090|Z|0863;Nazmir|N|Now is a good time to go visit your Riding Trainer.\nHearth and use the portal to get to Orgrimmar.|
-T I Believe You Can Fly|ACTIVE|32674|M|48.91,59.25|Z|Orgrimmar|N|To the flying trainer, Maztha, at the Skyway in Orgrimmar.\n[color=FF0000]NOTE: [/color]This quest is auto-accepted when you arrive in Orgrimmar.|SPELL|Expert Riding;34090|
-= Expert Riding|AVAILABLE|-32674|ACTIVE|-32674|M|48.91,59.25|Z|Orgrimmar|N|Learn Expert Riding from Maztha.\n[color=FF0000]NOTE: [/color]Don't forget to buy a flying mount if you don't have one.|SPELL|Expert Riding;34090|
-H The Great Seal|ACTIVE|49064|Z|0863;Nazmir|N|Use your hearth to get back to on track.\n[color=FF0000]NOTE: [/color]Skip this step if your hearth is on cooldown or to a different location.|
-P Zuldazar|ACTIVE|49064|M|58.54,91.33|Z|Orgrimmar|N|Take the portal in the Pathfinder's Den to get back to the Great Seal.|IZ|Orgrimmar|
-F Zo'bal Ruins|ACTIVE|49064|M|51.90,41.22|Z|Dazar'alor|N|Fly to Zo'bal Ruins in Nazmir.|IZ|-Nazmir|
 K King Kooba|QID|49317|QO|1|M|53.63,42.64|Z|0863;Nazmir|ITEM|161221|N|Silver Elite to kill for resources and artifact power.|T|King Kooba|RANK|2|RARE|
 ;  Turtle Power
-R Natha'vor|ACTIVE|49064|M|53.31,39.30|Z|0863;Nazmir|N|Follow the road east to Nath'vor.|
+R Natha'vor|ACTIVE|49064|M|53.31,39.30|Z|0863;Nazmir|N|Follow the road east to Nath'vor.|FLY|OLD|
 C Torga, the Turtle Loa|QID|49064|QO|1|M|55.65,39.41|Z|0863;Nazmir|N|Meet Kisha.\n[color=FF0000]NOTE: [/color]Either chat choice will work (second one leads to a humerous response).|CHAT|
 A Profanity Filter|QID|47924|M|55.15,36.70|Z|0863;Nazmir|N|From Kajosh.|RANK|2|
 ;A Mawfiend Extermination|QID|47996|M|54.16,35.64|LVL|-50|Z|0863;Nazmir|N|Bonus Objective - Autoaccepted.|RANK|2| ** Not required - Hendo72
