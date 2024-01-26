@@ -355,11 +355,11 @@ T Shoak's on the Menu|QID|47925|M|55.81,32.24|Z|0863;Nazmir|N|To Shoak.|
 T Killing Cannibals|QID|47998|M|55.85,32.36|Z|0863;Nazmir|N|To Kajosh.|
 T Just Say No to Cannibalism|QID|47919|M|55.85,32.36|Z|0863;Nazmir|N|To Kajosh.|
 R Torga, the Turtle Loa|ACTIVE|49064|QO|2|M|55.53,28.83|Z|0863;Nazmir|N|Walk over and view Torga.|
-T Torga, the Turtle Loa|QID|49064|M|56.58,26.70|Z|0863;Nazmir|N|To Princess Talanji.|
-A Beseeching Bwonsamdi|QID|49067|PRE|49064|M|56.58,26.70|Z|0863;Nazmir|N|From Princess Talanji.|
-C Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|Z|0863;Nazmir|N|Tell Talanji you are ready.|CHAT|
-T Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|Z|0863;Nazmir|N|To Princess Talanji.|
-A Cease all Summoning|QID|49080|PRE|49067|M|56.58,26.70|Z|0863;Nazmir|N|From Princess Talanji.|
+T Torga, the Turtle Loa|QID|49064|M|56.57,26.67|Z|0863;Nazmir|N|To Princess Talanji.|
+A Beseeching Bwonsamdi|QID|49067|PRE|49064|M|56.57,26.67|Z|0863;Nazmir|N|From Princess Talanji.|
+C Beseeching Bwonsamdi|QID|49067|M|56.57,26.67|Z|0863;Nazmir|N|Tell Talanji you are ready.|CHAT|
+T Beseeching Bwonsamdi|QID|49067|M|56.57,26.67|Z|0863;Nazmir|N|To Princess Talanji.|
+A Cease all Summoning|QID|49080|PRE|49067|M|56.57,26.67|Z|0863;Nazmir|N|From Princess Talanji.|
 A Dreadtick Combustion|QID|49071|PRE|49067|M|56.51,26.65|Z|0863;Nazmir|N|From Lashk.|
 A Souls for the Death Loa|QID|49070|PRE|49067|M|56.65,26.53|Z|0863;Nazmir|N|From Bwonsamdi.|
 C Souls for the Death Loa|QID|49070|M|59.54,19.28|Z|0863;Nazmir|N|Kill Blood troll drudges.|S|
