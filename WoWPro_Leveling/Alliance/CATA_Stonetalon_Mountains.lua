@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('WkjSton2530', "Leveling", 'Stonetalon Mountains', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Stonetalon Mountains")
 WoWPro:GuideSort(guide, 42)
-WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Desolace')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
@@ -228,5 +228,6 @@ H Farwatcher's Glen|QID|25934|M|33.05,59.62|Z|65; Stonetalon Mountains|N|Hearth 
 T World First: Gnomegen|QID|25934|M|33.05,59.62|Z|65; Stonetalon Mountains|N|To Salsbury the "Help".|
 T Brood of Seldarria|QID|25931|M|33.05,59.62|Z|65; Stonetalon Mountains|N|To Hierophant Malyk.|
 T Hungry Pups|QID|25935|M|32.47,61.22|Z|65; Stonetalon Mountains|N|To Houndmaster Jonathan.|
+N The next guide is Desolace, if you would like to go to Southern Barrens instead click the book, other wise RIGHT click this step off.|JUMP|Southern Barrens|
 ]]
 end)

@@ -7,8 +7,8 @@ return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|
 A Warchief's Command: Feralas!|QID|28510|N|From Warchief's Command Board|
 ;add zone & pre
-A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346&14394|M|73.2,73.0|N|From Khan Shodo.|Z|Desolace|
-F Camp Ataya|QID|25339|M|57.71,49.74|N|Fly to Camp Ataya in Feralas.|Z|Desolace|
+A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346&14394|M|73.2,73.0|N|From Khan Shodo.|Z|66; Desolace|
+F Camp Ataya|QID|25339|M|57.71,49.74|N|Fly to Camp Ataya in Feralas.|Z|66; Desolace|
 h Camp Ataya|QID|25339|US|M|41.40,15.73|N|At Adene Treetotem.|
 ;add T for warchief's command. fix Wilds of feralas to T
 T The Wilds of Feralas|QID|26589|PRE|14394|M|41.39,15.40|N|To Konu Runetotem.|
