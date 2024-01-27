@@ -481,7 +481,7 @@ C Nagating the Threat|QID|48093|M|80.35,54.85|Z|0863;Nazmir|N|Time to finish up 
 T Krag'wa's Chosen|QID|48090|M|77.74,53.17|Z|0863;Nazmir|N|To Shadow Hunter Narez.|
 T Vengeance of the Frogs|QID|48092|M|77.74,53.17|Z|0863;Nazmir|N|To Shadow Hunter Narez.|
 $ Swallowed Naga Treasure|QID|50045|M|76.86,62.12|Z|0863;Nazmir|N|Inside a fish skeleton. Loot for artifact power and resources.|RANK|2|
-R Gloom Hollow|ACTIVE|47697|QO|1|M|67.53,42.98|Z|0863;Nazmir|N|Return to Gloom Hollow.|
+R Gloom Hollow|ACTIVE|47697|QO|1|M|67.53,42.98|Z|0863;Nazmir|N|Return to Gloom Hollow.|FLY|OLD|
 T Getting the Message|QID|47245|M|67.44,42.31|Z|0863;Nazmir|N|To Rokhan.|
 A Rendezvous with the Libation|QID|47631|PRE|47245|M|67.44,42.31|Z|0863;Nazmir|N|From Rokhan.|
 T Krag'wa's Aid|QID|47697|M|67.43,42.21|Z|0863;Nazmir|N|To Princess Talanji.|
