@@ -451,17 +451,17 @@ C A True Loa Feast|QID|47621|M|75.95,45.97|Z|0863;Nazmir|N|Finish collecting mea
 T A True Loa Feast|QID|47621|M|75.50,56.81|Z|0863;Nazmir|N|To Krag'wa the Huge.|
 T A Magical Glow|QID|47622|M|75.50,56.81|Z|0863;Nazmir|N|To Krag'wa the Huge.|
 A Totemic Restoration|QID|47540|PRE|47621&47622|M|75.50,56.81|Z|0863;Nazmir|N|From Krag'wa the Huge.|
-C Totemic Restoration|QID|47540|QO|1<1|M|75.17,56.68|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
-C Totemic Restoration|QID|47540|QO|1<2|M|75.32,56.37|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
-C Totemic Restoration|QID|47540|QO|1<3|M|75.66,56.36|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
+C Totemic Restoration|QID|47540|QO|1<1|M|75.19,56.69|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
+C Totemic Restoration|QID|47540|QO|1<2|M|75.33,56.36|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
+C Totemic Restoration|QID|47540|QO|1<3|M|75.68,56.36|Z|0863;Nazmir|N|Click on the Frog Totem Pile to activate it.|H|
 T Totemic Restoration|QID|47540|M|75.50,56.81|Z|0863;Nazmir|N|To Krag'wa the Huge.|
 A Krag'wa the Terrible|QID|47696|PRE|47540|M|75.50,56.81|Z|0863;Nazmir|N|From Krag'wa the Huge.|
-R Meet Krag'wa|ACTIVE|47696|QO|1|M|67.31,55.92|Z|0863;Nazmir|N|Exit Krag'wa's Lair meet him in the Frogmarsh.|
+R Meet Krag'wa|ACTIVE|47696|QO|1|M|67.29,56.30|Z|0863;Nazmir|N|Exit Krag'wa's Lair meet him in the Frogmarsh.|
 C Krag'wa the Terrible|QID|47696|M|67.11,56.24|Z|0863;Nazmir|N|Tell Krag'wa that you're ready.|BUFF|245831|CHAT|
 C Krag'wa the Terrible|QID|47696|QO|2|M|64.28,58.57|Z|0863;Nazmir|N|"1" lets you jump forward causing AOE damage where you land. \n"2" does AOE damage in a cone in front of you.|V|
-C Krag'wa the Terrible|QID|47696|QO|3|M|59.88,53.34|Z|0863;Nazmir|N|One final target.|V|
-T Krag'wa the Terrible|QID|47696|M|75.45,56.73|Z|0863;Nazmir|N|To Krag'wa the Huge.|
-A To Serve Krag'wa|QID|47918|M|75.45,56.73|Z|0863;Nazmir|N|From Krag'wa the Huge.|RANK|2|
+C Krag'wa the Terrible|QID|47696|QO|3|M|59.88,53.34|Z|0863;Nazmir|N|One final target.\n[color=FF0000]NOTE: [/color]Just jump on him and he will die.|
+T Krag'wa the Terrible|QID|47696|M|75.50,56.81|Z|0863;Nazmir|N|To Krag'wa the Huge.|
+A To Serve Krag'wa|QID|47918|M|75.50,56.81|Z|0863;Nazmir|N|From Krag'wa the Huge.|RANK|2|
 A Krag'wa's Aid|QID|47697|PRE|47696|M|75.18,56.64|Z|0863;Nazmir|N|From Shadow Hunter Mutumba.|
 T To Serve Krag'wa|QID|47918|M|77.73,53.17|Z|0863;Nazmir|N|To Shadow Hunter Narez.|
 A Krag'wa's Chosen|QID|48090|PRE|47918|M|77.73,53.17|Z|0863;Nazmir|N|From Shadow Hunter Narez.|RANK|2|
