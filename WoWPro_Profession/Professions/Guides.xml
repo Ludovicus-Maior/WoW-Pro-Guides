@@ -80,5 +80,8 @@
 	<Script file="Tailoring_BfA.lua"/>
 	<Script file="Tailoring_SL.lua"/>
 	<Script file="Legion.lua"/>
-    <Script file="DF_ProfessionKnowledge.lua"/>
+	<Script file="DF_ArtisansConsortium.lua"/>
+	<Script file="DF_ProfKnowledge.lua"/>
+	<Script file="DF_ZCProfKnowledge.lua"/>
+	<Script file="DF_EDProfKnowledge.lua"/>
 	</Ui>
