@@ -5,16 +5,16 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
-F New Thalanaar|QID|28503|N|Take the flightpath to New Thalanaar|Z|Feralas|M|86,45.2|TAXI|New Thalanaar|FLY|OLD|
+F New Thalanaar|QID|28503|N|Take the flightpath to New Thalanaar|Z|69; Feralas|M|86,45.2|TAXI|New Thalanaar|FLY|OLD|
 C To New Thalanaar|ACTIVE|25479|O|M|42.84,72.42|N|Choose the speech bubble from Dyslix Silvergrub.|Z|Dustwallow Marsh|
-H Feathermoon|ACTIVE|25479|N|Hearth back to Feathermoon Stronghold.|Z|Feralas|FLY|OLD|
-F Shadebough|ACTIVE|25479|N|Fly to Shadebough.|M|46.78,45.34|Z|Feralas|
-T Hero's Call: Thousand Needles! |QID|28503|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
-T To New Thalanaar |QID|25479|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
-A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|M|86.08,45.26|
-C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
-T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|To Rendow.|
-A Two If By Boat|QID|25488|PRE|25486|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
+H Feathermoon|ACTIVE|25479|N|Hearth back to Feathermoon Stronghold.|Z|69; Feralas|FLY|OLD|
+F Shadebough|ACTIVE|25479|N|Fly to Shadebough.|M|46.78,45.34|Z|69; Feralas|
+T Hero's Call: Thousand Needles! |QID|28503|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|69; Feralas|
+T To New Thalanaar |QID|25479|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|69; Feralas|
+A The Grimtotem are Coming|QID|25486|Z|69; Feralas|N|From Caryssia Moonhunter.|M|86.08,45.26|
+C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|69; Feralas|N|Progessing East, Kill Grimtotems.|
+T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|69; Feralas|N|To Rendow.|
+A Two If By Boat|QID|25488|PRE|25486|M|88.53,44.27|Z|69; Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
 T Two If By Boat|QID|25488|M|75.93,74.59|N|To Fizzle Brassbolts (at the top).|
 A Do Me a Favor?|QID|25504|PRE|25488|M|75.93,74.59|N|From Fizzle Brassbolts.|
 T Do Me a Favor?|QID|25504|M|76.46,73.66|N|To Jinky Twizzlefixxit.|

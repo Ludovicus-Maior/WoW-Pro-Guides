@@ -129,7 +129,7 @@ A Blacktalon Intel|QID|65992|PRE|65991|M|66.36,34.99|Z|2022|N|From Wrathion.|
 C Dragonhunter Igordan|QID|66956|M|64.28,33.32|Z|2022|N|Slay Dragonhunter Igordan.|S!US|T|Dragonhunter Igordan|RARE|
 C Blacktalon Intel|QID|65992|M|63.03,33.35|Z|2022|QO|1|CHAT|N|Consult Talonstalker Kavia.|T|Talonstalker Kavia|
 C Blacktalon Intel|QID|65992|M|65.10,29.36|Z|2022|QO|3|CHAT|N|Consult Right.|T|Right|
-K Meatgrinder Sotok|ACTIVE|65993|QO|1|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok when convenient.|T|Meatgrinder Sotok|
+K Meatgrinder Sotok|ACTIVE|65993|QO|1|M|63.22,29.66|Z|2022|N|Slay Meatgrinder Sotok when convenient and loot its corpse. There is a quest item on it.|T|Meatgrinder Sotok|
 A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|U|193874|
 C Blacktalon Intel|QID|65992|M|63.43,28.86|Z|2022|QO|2|CHAT|N|Consult Left.|T|Left|
 A The Obsidian Citadel|QID|65995|M|63.22,29.66|Z|2022|N|From Qalashi Plans looted from Meatgrinder Sotok.|O|U|193874|
