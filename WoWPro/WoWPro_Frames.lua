@@ -527,7 +527,7 @@ function WoWPro:CreateResizeButton()
     WoWPro.resizebutton = resizebutton
 end
 
--- Title Bar --
+-- Titlebar --
 function WoWPro:CreateTitleBar()
     local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     titlebar:SetHeight(22)
@@ -541,6 +541,24 @@ function WoWPro:CreateTitleBar()
     })
     titlebar:RegisterForClicks("AnyUp")
     WoWPro.Titlebar = titlebar
+
+    -- Icon --
+    local titleicon = WoWPro.Titlebar:CreateTexture(nil, "OVERLAY")
+    titleicon:SetSize(16, 16)
+    titleicon:SetPoint("LEFT", WoWPro.Titlebar, "LEFT", 5, 0)
+    titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
+
+    -- Tooltip --
+    titleicon:HookScript("OnEnter", function(tool)
+        _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText("Right click for options", nil, nil, nil, nil, true)
+        _G.GameTooltip:SetBackdropColor(0, 0, 0, 0.4)
+        _G.GameTooltip:Show()
+    end)
+    titleicon:HookScript("OnLeave", function(tool)
+        _G.GameTooltip:Hide()
+    end)
+
     -- Text --
     local titletext = WoWPro.Titlebar:CreateFontString()
     titletext:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
@@ -549,13 +567,11 @@ function WoWPro:CreateTitleBar()
     titletext:SetText("WoW-Pro Guides")
     titletext:SetTextColor(1, 1, 1)
     WoWPro.TitleText = titletext
+
     -- Scripts --
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
-    WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
-        if button == "LeftButton" and WoWProDB.profile.drag then
-            WoWPro.InhibitAnchorRestore = true
-            WoWPro.MainFrame:StartMoving()
-        elseif button == "RightButton" then
+    titleicon:SetScript("OnMouseDown", function(this, button)
+        if button == "RightButton" then
             _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
@@ -589,7 +605,6 @@ function WoWPro:CreateTitleBar()
         end
     end)
 end
-
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
     local sticky = _G.CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
