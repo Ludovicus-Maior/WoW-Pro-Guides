@@ -96,6 +96,7 @@ A In Favor of Elune|QID|5622|M|59.18,40.45|CC|N|Grab your class quest before you
 A Dolanaar Delivery|QID|2159|M|61.16,47.64|N|From Porthannius, on the road to Dolanaar|
 A Zenn's Bidding|QID|488|M|60.43,56.25|N|From Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
 K Zenn's Bidding|ACTIVE|488|QO|1;2;3|M|PLAYER|CC|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls along the way.|S|
+l Glade Flowers|AVAILABLE|475|M|61.09,54.06|L|208609 3|N|Loot 3 Glade Flowers from one of two spawn points back in the direction you came from.\n[color=FF0000]NOTE: [/color]The respawn time appears to be between 5 and 10 minutes, but only in one of the spots at a time.|C|Druid|RUNE|
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle in Dolanaar.|
 T In Favor of Elune|QID|5622|M|55.56,56.75|N|To Laurna Morninglight.|C|Priest|
 A Garments of the Moon|QID|5621|PRE|5622|M|55.56,56.75|N|From Laurna Morninglight.|C|Priest|
@@ -119,6 +120,10 @@ C Crown of the Earth|QID|929|QO|1|M|63.35,58.11|N|Use the Crystal Vial at the St
 T A Troubling Breeze|QID|475|M|66.26,58.55|N|To Gaerolas Talvethren on the second floor of the first building to your right.|
 A Gnarlpine Corruption|QID|476|PRE|475|M|66.26,58.55|N|From Gaerolas Talvethren|
 C The Emerald Dreamcatcher|QID|2438|M|68.01,59.65|L|8048|N|Inside the dresser to the right of the entrance in the small house.|
+l Glade Crown|M|67.03,58.04|L|208760|N|Combine 3 flowers into Glade Crown.\n[color=FF0000]NOTE: [/color]If you have extra Glade Flowers in your bag, this step will reactivate after a reset.\nJust manually check it off to continue.|U|208609|SPELL|Engrave Chest - Living Seed;416050|C|Druid|O|
+l Rune of Natural Potential|ACTIVE|476|M|67.03,58.03|L|206963|N|Use Glade Crown at Wooden Effigy and kill spawned Unleashed Nature Spirit.|U|208760|SPELL|Engrave Chest - Living Seed;414677|C|Druid|RUNE|O|
+= Engrave Chest - Living Seed|ACTIVE|476|M|PLAYER|N|Use the [color=33fff9]Rune of Natural Potential[/color] to learn the spell.|U|206963|SPELL|Engrave Chest - Living Seed;414050|C|Druid|RUNE|O|
+
 L Level 6|ACTIVE|476|N|Grind until you're within 7 bubbles of level 6.|LVL|5;-970|
 T Gnarlpine Corruption|QID|476|M|55.96,57.28|N|To Athridas Bearmantle, back in Dolanaar.|
 A The Relics of Wakening|QID|483|PRE|476|M|55.96,57.28|N|From Athridas Bearmantle.|
