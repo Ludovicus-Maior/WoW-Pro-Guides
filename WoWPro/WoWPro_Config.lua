@@ -1169,6 +1169,28 @@ local function createActionConfig()
     return actions
 end
 
+local function createGuideConfig()
+    local actions = {
+        name = L["Guide Select"],
+        type = "group",
+        args = {
+
+                header = {
+                    order = 10,
+                    type = "header",
+                    name = L["Guide Selector is not here for now"],
+                },
+                blah = {
+                    order = 11,
+                    type = "description",
+                    name = "Please right click on the guide header on the gear icon for now.\nWe will try to restore this way of selecting guides, but it will take a bit of time.",
+                    width = "full"
+                },
+        }
+    }
+    return actions
+end
+
 function WoWPro.CreateConfig()
     local topConfig = {
         name = "Options",
@@ -1177,6 +1199,7 @@ function WoWPro.CreateConfig()
         args = {
             mainConfig = createMainConfig(),
             displayConfig = createDisplayConfig(),
+            guideSelect = createGuideConfig(),
             profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB),
             rankConfig = createRankConfig(),
             actionConfig = createActionConfig(),
@@ -1186,9 +1209,10 @@ function WoWPro.CreateConfig()
     --  (default = 100, 0=first, -1=last)
     topConfig.args.mainConfig.order=0
     topConfig.args.displayConfig.order=10
-    topConfig.args.profileConfig.order=11
-    topConfig.args.rankConfig.order=12
-    topConfig.args.actionConfig.order=13
+    topConfig.args.guideSelect.order=11
+    topConfig.args.profileConfig.order=12
+    topConfig.args.rankConfig.order=13
+    topConfig.args.actionConfig.order=14
     topConfig.args.expertConfig.order=-1
 
     -- Register your options with AceConfig
