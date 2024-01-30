@@ -151,9 +151,9 @@ A Timberling Seeds|QID|918|PRE|997|M|60.90,68.50|N|From Denalan.\n[color=FF0000]
 A Timberling Sprouts|QID|919|PRE|997|M|60.90,68.50|N|From Denalan.|
 C Timberling Sprouts|QID|919|M|60.81,65.71;58.11,71.76|CN|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|S|
 C Timberling Seeds|QID|918|M|60.81,65.71;58.11,71.76|CN|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|S|
-R Lunar Stone Pillars|ACTIVE|-918&-919|M|52.82,78.71|CC|N|Make your way to the Lunar Stone Pillars.\n[color=FF0000]NOTE: [/color]Look for the wreath on the base of the tree trunk.|C|Druid|
-l Rune of the Sun|ACTIVE|-918&-919|M|52.82,78.71|CC|L|206989|N|Use your Moonfire spell on each stone to spawn a Lunar Chest at the base of the tree containing the Rune of the Sun.|C|Druid|
-Loot the Lunar Chest to obtain this Rune.
+R Lunar Stone Pillars|ACTIVE|918&919|M|52.82,78.71|CC|N|Make your way to the Lunar Stone Pillars.\n[color=FF0000]NOTE: [/color]Look for the wreath on the base of the tree trunk.|C|Druid|RUNE|
+l Rune of the Sun|ACTIVE|918&919|M|52.82,78.71|CC|L|206989|N|Use your Moonfire spell on each stone to spawn a Lunar Chest at the base of the tree containing the Rune of the Sun.|C|Druid|RUNE|
+= Engrave Gloves - Sunfire|ACTIVE|-918&-919|M|PLAYER|N|Use the [color=33fff9]Rune of the Sun[/color] to learn the spell.|U|206989|O|
 C Timberling Seeds|QID|918|M|60.81,65.71;58.11,71.76|CN|L|5168 8|ITEM|5168|N|Timberlings in the area around Lake Al'Ameth.|US|
 C Timberling Sprouts|QID|919|M|60.81,65.71;58.11,71.76|CN|L|5169 12|N|Loot Sprouts from the ground in the area around Lake Al'Ameth.|US|
 T Timberling Seeds|QID|918|M|60.90,68.50|N|To Denalan.|
@@ -179,7 +179,6 @@ N Meditation on Undeath|M|PLAYER|N|You need to find an Undead Priest with this b
 = Engrave Pants - Homunculi|M|PLAYER|N|Use the [color=33fff9]Prophecy of a Desecrated Citadel[/color] while in the graveyard to learn your spell.|U|205947|SPELL|Engrave Pants - Homunculi;402852|BUFF|-418459|C|Priest|O|
 r Sell/Repair|AVAILABLE|487|M|56.25,59.25|N|Sell Junk and Repair.|S!US|
 A The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CC|N|From Moon Priestess Amara, who'll be somewhere patrolling the westward road to Darnassus from Dolanaar.|US|
-R Sunfire Rune|ACTIVE|487&922|M|49.69,66.36;52.80,78.80|CC|N|Make your way to the Lunar Stone Pillars.|C|Druid|
 R Darnassus|ACTIVE|922|M|50.21,53.87|CC|N|Run to Darnassus along the road.|C|-Druid|
 N Skinning and Leatherworking|QID|922|M|42.09,49.97|N|If you're interested, stop by the Leatherworking and Skinning Trainers in the hut just past the bridge.\n[color=FF0000]NOTE: [/color]You'll need to buy a skinning knife in Darnassus before you can do any skinning.\n\nManually check this step off if you wish.|S|
 R Darnassus|ACTIVE|922|M|39.02,53.24;36.28,54.37|CC|N|Continue west along the road to Darnassus.|
@@ -217,8 +216,9 @@ l Rune of Explosive Shot|M|45.39,58.00|L|206169|ITEM|206169|N|Rageclaw|SPELL|Eng
 C Druid of the Claw|QID|2561|M|45.39,58.00|N|After returning to where Rageclaw is circling, kill him and use the Voodoo Charm on his corpse.|T|Rageclaw|U|8149|
 = Engrave Gloves - Explosive Shot|M|PLAYER|N|Use the [color=33fff9]Rune of Explosive Shot[/color] to learn the spell.|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|
 T Druid of the Claw|QID|2561|M|44.95,61.59|N|To Oben Rageclaw.|
-l Deer Musk|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|US|O|
-T The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CS|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
+R Exit Ban'ethil Barrow Den|ACTIVE|487|M|44.41,57.81|N|Follow the ramps up and outside the Den.|IZ|Ban'ethil Barrow Den|
+l Deer Musk|ACTIVE|487|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|US|O|
+T The Road to Darnassus|QID|487|M|50.21,53.87;55.74,58.35|CS|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
 R Dolanaar|ACTIVE|933|M|55.62,59.79|N|Head towards Dolanaar.|S|LVL|9;-775|
 L Level 10|ACTIVE|933|M|53.94,58.13|N|Grind until you're within 2 bubbles of level 10.|LVL|9;-775|
 H Dolanaar|ACTIVE|933|M|55.62,59.79|N|Hearth back to Dolanaar (or run if you're close enough).|
