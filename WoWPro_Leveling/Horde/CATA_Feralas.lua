@@ -175,7 +175,7 @@ T Zukk'ash Infestation|QID|25367|M|74.91,42.53|N|To Hadoken Swiftstrider.|
 T Stinglasher|QID|25369|M|74.91,42.53|N|To Hadoken Swiftstrider.|
 A To the Summit|QID|25356|M|74.59,42.93|N|From Jawn Highmesa.|
 C To the Summit|QID|25356|M|75.44,44.34|N|Talk to Shyn the Wind Rider Master, and ask him to send you to Westreach Summit.|
-f Westreach Summit|QID|25356|M|11.14,11.57|Z|Thousand Needles|N|Get the flight point from Nah'te|
-T To the Summit|QID|25356|M|11.12,11.29|Z|Thousand Needles|N|To Kanati Greycloud.|
+f Westreach Summit|QID|25356|M|11.14,11.57|Z|64; Thousand Needles|N|Get the flight point from Nah'te|
+T To the Summit|QID|25356|M|11.12,11.29|Z|64; Thousand Needles|N|To Kanati Greycloud.|
 ]]
 end)

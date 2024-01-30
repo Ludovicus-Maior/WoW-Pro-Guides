@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('WkjFer3540', "Leveling", 'Feralas', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Feralas")
 WoWPro:GuideSort(guide, 24)
-WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Thousand Needles')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
@@ -94,7 +94,7 @@ T The Lost Apprentice|QID|25350|M|65.91,62.84|Z|69; Feralas|N|To Lost Apprentice
 A The Darkmist Legacy|QID|25422|PRE|25350^25643|M|65.89,62.82|Z|69; Feralas|N|From Sensiria.|
 A Ancient Suffering|QID|25423|PRE|25350^25643|M|65.85,62.78|Z|69; Feralas|N|From Sensiria.|
 C Ancient Suffering|QID|25423|M|64.29,58.91|Z|69; Feralas|N|Kill and loot Highborn ghosts for the Soul Essences.|S|
-C The Darkmist Legacy|QID|25422|M|63.93,59.85|Z|69; Feralas|N|Loot the Glowing Soil from around Darkmist Ruins.|
+C The Darkmist Legacy|QID|25422|M|63.93,59.85|Z|69; Feralas|N|Loot the Glowing Soil from around Darkmist Ruins.|NC|
 C Ancient Suffering|QID|25423|M|64.29,58.91|Z|69; Feralas|N|Finish gathering Soul Essences.|US|
 T The Darkmist Legacy|QID|25422|M|65.90,62.81|Z|69; Feralas|N|To Sensiria.|
 T Ancient Suffering|QID|25423|M|65.90,62.81|Z|69; Feralas|N|To Sensiria.|
@@ -124,7 +124,7 @@ T Tell Silvia|QID|25208|M|56.85,54.93|Z|69; Feralas|N|To Silvia.|
 A Might of the Sentinels|QID|25333|PRE|25208&25406|M|56.85,54.93|Z|69; Feralas|N|From Silvia.|
 C Might of the Sentinels|QID|25333|M|62.68,28.97|Z|69; Feralas|N|Head into Dire Maul. Go North every chance you can. You will come across an Arena. Drop into it and walk all the way to the north end of the Arena and wait. Kill the 2 Ogres that drop down, then stay alive once Cho'gall decends.|
 H Feathermoon Stronghold|QID|25333|Z|69; Feralas|N|Hearth back to Feathermoon.|FLY|OLD|
-F Tower of Estulan|QID|25333|Z|69; Feralas|N|Catch a flight path to the Tower.|FLY|OLD|
+F Tower of Estulan|QID|25333|M|46.78,45.33|Z|69; Feralas|N|Catch a flight path to the Tower.|FLY|OLD|
 T Might of the Sentinels|QID|25333|M|56.89,54.98|Z|69; Feralas|N|To Silvia.|
 T Adella's Covert Camp|QID|26574|M|77.21,56.53|Z|69; Feralas|N|To Adella it's a long run, be careful of the Horde outpost.|
 f Shadebough|QID|25426|M|77.28,56.78|Z|69; Feralas|N|Get the flight path.|
@@ -176,6 +176,6 @@ A The Grimtotem are Coming|QID|25486|M|86.08,45.26|Z|69; Feralas|N|From Caryssia
 C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|69; Feralas|N|Progessing East, Kill Grimtotems.|
 T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|69; Feralas|N|To Rendow.|
 A Two If By Boat|QID|25488|PRE|25486|M|88.53,44.27|Z|69; Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
-T Two If By Boat|QID|25488|M|75.93,74.59|Z|64;Thousand Needles|N|To Fizzle Brassbolts (at the top).|
+T Two If By Boat|QID|25488|M|75.93,74.59|Z|64; Thousand Needles|N|To Fizzle Brassbolts (at the top).|
 ]]
 end)

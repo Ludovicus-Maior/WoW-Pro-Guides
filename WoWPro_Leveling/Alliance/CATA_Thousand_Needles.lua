@@ -6,7 +6,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 F New Thalanaar|QID|28503|N|Take the flightpath to New Thalanaar|Z|69; Feralas|M|86,45.2|TAXI|New Thalanaar|FLY|OLD|
-C To New Thalanaar|ACTIVE|25479|O|M|42.84,72.42|N|Choose the speech bubble from Dyslix Silvergrub.|Z|Dustwallow Marsh|
+C To New Thalanaar|ACTIVE|25479|O|M|42.84,72.42|Z|70; Dustwallow Marsh|N|Choose the speech bubble from Dyslix Silvergrub.|
 H Feathermoon|ACTIVE|25479|N|Hearth back to Feathermoon Stronghold.|Z|69; Feralas|FLY|OLD|
 F Shadebough|ACTIVE|25479|N|Fly to Shadebough.|M|46.78,45.34|Z|69; Feralas|
 T Hero's Call: Thousand Needles! |QID|28503|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|69; Feralas|

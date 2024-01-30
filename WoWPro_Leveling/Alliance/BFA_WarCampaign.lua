@@ -660,8 +660,8 @@ C Valeera Sanguinar|QID|55044|M|69.47,26.79|Z|Boralus|NC|CHAT|N|Listen to her me
 T Don't Shoot the Messenger|QID|55044|M|69.33,27.14|Z|Boralus|N|To Lady Jaina Proudmoore|
 A My Brother's Keeper|QID|55045|M|69.33,27.14|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55044|
 C Master Mathias Shaw|QID|55045|QO|1|M|69.43,27.19|Z|Boralus|NC|CHAT|N|Ask Shaw to set sail to Theramore.|
-C Lady Jaina Proudmoore|QID|55045|QO|2|M|70.07,41.75|Z|Dustwallow Marsh|N|Tell Jaina the horde ship is there.|
-P Wind's Redemption|QID|55045|M|70.2,41.39|Z|Dustwallow Marsh|NC|CHAT|N|Ask Shaw to set sail to Boralus.|
+C Lady Jaina Proudmoore|QID|55045|QO|2|M|70.07,41.75|Z|70; Dustwallow Marsh|N|Tell Jaina the horde ship is there.|
+P Wind's Redemption|QID|55045|M|70.2,41.39|Z|70; Dustwallow Marsh|NC|CHAT|N|Ask Shaw to set sail to Boralus.|
 T My Brother's Keeper|QID|55045|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 
 A Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane.|PRE|55045|
