@@ -284,7 +284,7 @@ A Back to Darnassus|QID|5931|PRE|5929|M|56.21,30.62|Z|Moonglade|N|From Dendrite 
 H Darnassus|ACTIVE|5931|M|44.15,45.22|Z|Moonglade|N|If your Hearth is on cooldown, take the flight to Rut'theran Village from Silva Fil'naveth and walk into the portal back to Darnassus.|C|Druid|
 T Back to Darnassus|QID|5931|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
-= Engrave Gloves - Mangle|M|PLAYER|N|Use the [color=33fff9]Idol of Ursine Rage[/color] after maintaining at least 50 rage for 60 seconds while in Bear form to learn the spell.|SPELL|Engrave Gloves - Mangle;410025|C|Druid|S!US|
+= Engrave Gloves - Mangle|M|PLAYER|N|Use the [color=33fff9]Idol of Ursine Rage[/color] after maintaining at least 50 rage for 60 seconds while in Bear form to learn the spell.|U|206954|SPELL|Bear Form;5487;True|C|Druid|S!US|O|
 
 T Training the Beast|QID|6103|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|C|Hunter|
 = Pet Skills|AVAILABLE|2498|M|42.5,9.15|Z|Darnassus|N|coords Go up the tree keeping to the left and learn at least Growl from Silvaria.|C|Hunter|
