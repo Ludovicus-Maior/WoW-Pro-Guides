@@ -161,29 +161,29 @@ T Demons Among Them|QID|40983|M|45.68,15.93|Z|Durotar|N|To Lady Sylvanas Windrun
 A A Weapon of the Horde|QID|41002|M|45.68,15.93|Z|Durotar|N|From Lady Sylvanas Windrunner.|PRE|40983|FACTION|Horde|
 T A Weapon of the Horde|QID|41002|M|52.36,57.16|Z|Orgrimmar|N|To Elthyn Da'rai.|FACTION|Horde|
 
-A The Call of War|QID|39691|M|72.55,47.03|Z|Stormwind City|N|From Archmage Khadgar.|PRE|39689|FACTION|Alliance|
-C The Call of War|QID|39691|M|83.48,34.59|Z|Stormwind City|NC|N|Run into the Throne Room of Stormwind Keep.|FACTION|Alliance|
-T The Call of War|QID|39691|M|84.39,33.76|Z|Stormwind City|N|To Jace Darkweaver.|FACTION|Alliance|
-A Second Sight|QID|44471|M|84.39,33.76|Z|Stormwind City|N|From Jace Darkweaver.|PRE|39691|FACTION|Alliance|
-C Second Sight|QID|44471|M|84.39,33.76|Z|Stormwind City|NC|N|Use Spectral Sight to see the hidden demons.|FACTION|Alliance|
-T Second Sight|QID|44471|M|84.39,33.76|Z|Stormwind City|N|To Jace Darkweaver.|FACTION|Alliance|
-A Demons Among Them|QID|44463|M|84.39,33.76|Z|Stormwind City|N|From Jace Darkweaver.|FACTION|Alliance|
-C Demons Among Them|QID|44463|M|85.88,31.59|Z|Stormwind City|QO|1|CHAT|N|Speak with Anduin Wrynn to warn him.|FACTION|Alliance|
-C Demons Among Them|QID|44463|M|83.21,34.28|Z|Stormwind City|QO|2|N|Kill demons that spawned around the area.|FACTION|Alliance|
-T Demons Among Them|QID|44463|M|85.76,31.74|Z|Stormwind City|N|To Anduin Wrynn.|FACTION|Alliance|
-A A Weapon of the Alliance|QID|44473|M|85.76,31.74|Z|Stormwind City|N|From Anduin Wrynn.|FACTION|Alliance|
-T A Weapon of the Alliance|QID|44473|M|40.25,77.70|Z|Stormwind City|N|From Elerion Bladedancer.|FACTION|Alliance|
+A The Call of War|QID|39691|M|72.55,47.03|Z|84;Stormwind City|N|From Archmage Khadgar.|PRE|39689|FACTION|Alliance|
+C The Call of War|QID|39691|M|83.48,34.59|Z|84;Stormwind City|NC|N|Run into the Throne Room of Stormwind Keep.|FACTION|Alliance|
+T The Call of War|QID|39691|M|84.39,33.76|Z|84;Stormwind City|N|To Jace Darkweaver.|FACTION|Alliance|
+A Second Sight|QID|44471|M|84.39,33.76|Z|84;Stormwind City|N|From Jace Darkweaver.|PRE|39691|FACTION|Alliance|
+C Second Sight|QID|44471|M|84.39,33.76|Z|84;Stormwind City|NC|N|Use Spectral Sight to see the hidden demons.|FACTION|Alliance|
+T Second Sight|QID|44471|M|84.39,33.76|Z|84;Stormwind City|N|To Jace Darkweaver.|FACTION|Alliance|
+A Demons Among Them|QID|44463|M|84.39,33.76|Z|84;Stormwind City|N|From Jace Darkweaver.|FACTION|Alliance|
+C Demons Among Them|QID|44463|M|85.88,31.59|Z|84;Stormwind City|QO|1|CHAT|N|Speak with Anduin Wrynn to warn him.|FACTION|Alliance|
+C Demons Among Them|QID|44463|M|83.21,34.28|Z|84;Stormwind City|QO|2|N|Kill demons that spawned around the area.|FACTION|Alliance|
+T Demons Among Them|QID|44463|M|85.76,31.74|Z|84;Stormwind City|N|To Anduin Wrynn.|FACTION|Alliance|
+A A Weapon of the Alliance|QID|44473|M|85.76,31.74|Z|84;Stormwind City|N|From Anduin Wrynn.|FACTION|Alliance|
+T A Weapon of the Alliance|QID|44473|M|40.25,77.70|Z|84;Stormwind City|N|From Elerion Bladedancer.|FACTION|Alliance|
 
-A In the Blink of an Eye|QID|44663|M|40.25,77.70|Z|Stormwind City|N|Auto Accepted from Khadgar.|PRE|41002^44473|
-R Wizard's Sanctum|QID|44663|M|49.36,86.93|Z|Stormwind City|N|Run to the Wizard Sanctum.|FACTION|Alliance|
-C In the Blink of an Eye|QID|44663|M|49.01,87.56|Z|Stormwind City|QO|1|CHAT|N|Speak with the Kirin Tor Emissary to get a portal to Dalaran.|FACTION|Alliance|
+A In the Blink of an Eye|QID|44663|M|40.25,77.70|Z|84;Stormwind City|N|Auto Accepted from Khadgar.|PRE|41002^44473|
+R Wizard's Sanctum|QID|44663|M|49.36,86.93|Z|84;Stormwind City|N|Run to the Wizard Sanctum.|FACTION|Alliance|
+C In the Blink of an Eye|QID|44663|M|49.01,87.56|Z|84;Stormwind City|QO|1|CHAT|N|Speak with the Kirin Tor Emissary to get a portal to Dalaran.|FACTION|Alliance|
 R Pathfinder's Den|QID|44663|M|53.57,90.43|Z|Orgrimmar|N|Run to the Pathfinder's Den.|FACTION|Horde|
 C In the Blink of an Eye|QID|44663|M|58.25,90.00|Z|Orgrimmar|QO|1|CHAT|N|Speak with the Kirin Tor Emissary to get a portal to Dalaran.|FACTION|Horde|
 C In the Blink of an Eye|QID|44663|M|49.83,48.28|Z|Dalaran!Deadwind Pass|QO|2|CHAT|N|Speak with Khadgar to witness the teleportation of Dalaran.|
 T In the Blink of an Eye|QID|44663|M|57.63,45.74|Z|Dalaran!Broken Isles|N|To Emissary Auldbridge.|
 P Stormwind City|QID|62567|M|39.55,63.23|Z|Dalaran!Broken Isles|N|Take the portal back to Stormwind to continue. Even if you plan on doing Legion content, we want to go back to activate Chromie Time.|FACTION|Alliance|
 P Orgrimmar|QID|62568|M|55.26,23.95|Z|Dalaran!Broken Isles|N|Take the portal back to Orgrimmar to continue. Even if you plan on doing Legion content, we want to go back to activate Chromie Time.|FACTION|Horde|
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|CT|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|CT|
 
 N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|CT|
 ]]

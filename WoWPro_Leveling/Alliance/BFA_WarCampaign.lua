@@ -704,17 +704,17 @@ T Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|To Anduin.|
 A Whatever Happened to Saffy Flivvers?|QID|53815|M|67.93,26.28|Z|Boralus|N|From Kelsey Steelspark, belowdeck Wind's Redemption.|PRE|55090|
 P Stormwind City|ACTIVE|53815|M|70.10,16.78|Z|Boralus|N|Take Portal to Stormwind.|
 P Caverns of Time|ACTIVE|53815|M|43.75,85.48|Z|84;Stormwind City|N|Take Portal To Caverns of Time.|
-T Whatever Happened to Saffy Flivvers?|QID|53815|M|62.18,45.33|Z|Tanaris|N|To Feathers, OUTSIDE the Caverns.|
-A Some Reassembly Required|QID|53816|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53815|
-C Mechanical Parts|QID|53816|QO|1|M|61.48,46.12;63.10,44.25|CN|Z|Tanaris|N|Kill Venture Co. personnel for their "parts".|
-T Some Reassembly Required|QID|53816|M|62.18,45.33|Z|Tanaris|N|To Feathers|
-A Re-parrot|QID|53818|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53816|
-C Feathers|QID|53818|M|62.18,45.33|Z|Tanaris|N|Tell Feathers to start debugging.\nJust follow the directions and hit the buttons.|NC|CHAT|
-T Re-parrot|QID|53818|M|62.18,45.33|Z|Tanaris|N|To Feathers|
-A Return to the Nest|QID|53819|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53818|
+T Whatever Happened to Saffy Flivvers?|QID|53815|M|62.18,45.33|Z|71; Tanaris|N|To Feathers, OUTSIDE the Caverns.|
+A Some Reassembly Required|QID|53816|M|62.18,45.33|Z|71; Tanaris|N|From Feathers|PRE|53815|
+C Mechanical Parts|QID|53816|QO|1|M|61.48,46.12;63.10,44.25|CN|Z|71; Tanaris|N|Kill Venture Co. personnel for their "parts".|
+T Some Reassembly Required|QID|53816|M|62.18,45.33|Z|71; Tanaris|N|To Feathers|
+A Re-parrot|QID|53818|M|62.18,45.33|Z|71; Tanaris|N|From Feathers|PRE|53816|
+C Feathers|QID|53818|M|62.18,45.33|Z|71; Tanaris|N|Tell Feathers to start debugging.\nJust follow the directions and hit the buttons.|NC|CHAT|
+T Re-parrot|QID|53818|M|62.18,45.33|Z|71; Tanaris|N|To Feathers|
+A Return to the Nest|QID|53819|M|62.18,45.33|Z|71; Tanaris|N|From Feathers|PRE|53818|
 C Recall Subroutine|QID|53819|M|PLAYER|N|Activate the recall subroutine and fly back.|NC|CHAT|
-T Return to the Nest|QID|53819|M|27.13,60.07|Z|Tanaris|N|To Sapphronetta Flivvers|
-A She's in a Happier Place|QID|53820|M|27.13,60.07|Z|Tanaris|N|From Sapphronetta Flivvers|PRE|53819|
+T Return to the Nest|QID|53819|M|27.13,60.07|Z|71; Tanaris|N|To Sapphronetta Flivvers|
+A She's in a Happier Place|QID|53820|M|27.13,60.07|Z|71; Tanaris|N|From Sapphronetta Flivvers|PRE|53819|
 F Boralus|ACTIVE|53820|N|Make your way back to Boralus to meet Kelsey.|
 H Snug Harbor Inn|ACTIVE|53820|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Kelsey Steelspark.|C|-Mage|
 P Sanctum of the Sages|ACTIVE|53820|M|36.42,30.78|Z|Tiragarde Sound|N|Return to Boralus and Kelsey Steelspark.|C|Mage|
