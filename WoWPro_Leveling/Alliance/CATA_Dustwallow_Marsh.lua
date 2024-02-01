@@ -15,7 +15,7 @@ T WANTED: Cap'n Garvey|QID|895|M|68.42,69.12|Z|10; Northern Barrens|N|To Gazlowe
 l It's Gotta be the Horn|ACTIVE|865|QO|1|M|64.82,57.15;65.10,61.60|Z|10; Northern Barrens|CN|ITEM|46850|N|Reaperclaw\nHe (and his minions) wander back and forth between the waypoints.|
 T It's Gotta be the Horn|QID|865|M|67.85,71.52|Z|10; Northern Barrens|N|To Mebok Mizzyrix.|
 f Ratchet|ACTIVE|26702|M|68.96,70.53|Z|10; Northern Barrens|N|From Bragok|
-T Flight to Theramore|QID|26702|M|68.33,51.07|Z|70; Dustwallow Mash|N|Tell Bragok you are ready to fly to Theramore.|
+T Flight to Theramore|QID|26702|M|68.33,51.07|Z|70; Dustwallow Marsh|N|Tell Bragok you are ready to fly to Theramore.|
 ;R Dustwallow Marsh|QID|27251|M|56.61,78.35|Z|Southern Barrens|N|Head into Dustwallow Marsh.|
 ;R Theramore Isle |QID|27251|M|68.19,46.82|N|Follow the path all the way east to Theramore. It's populated by Alliance vehicles and banners.|
 A Traitors Among Us|QID|27210|M|68.33,51.04|N|From Calia Hastings.|
