@@ -179,6 +179,8 @@ N Meditation on Undeath|M|PLAYER|CC|N|You need to find an Undead Priest with thi
 = Engrave Pants - Homunculi|M|PLAYER|CC|N|Use the [color=33fff9]Prophecy of a Desecrated Citadel[/color] while in the graveyard to learn your spell.|U|205947|SPELL|Engrave Pants - Homunculi;402852|BUFF|-418459|C|Priest|O|
 r Sell/Repair|AVAILABLE|487|M|56.25,59.25|Z|1438;Teldrassil|N|Sell Junk and Repair.|S!US|
 A The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CC|Z|1438;Teldrassil|N|From Moon Priestess Amara, who'll be somewhere patrolling the westward road to Darnassus from Dolanaar.|US|
+l Rune of Marksmanship|M|46.60,46.30|Z|1438;Teldrassil|L|206155|ITEM|206155|N|Fallenroot Poacher\nCast Hunter's Mark on the Rustling Bush to summon the lv 9 demon to kill./nHe hits hard if you melee with him.\n[color=FF0000]NOTE: [/color]The bush takes 5 minutes to respawn if it's not there.|T|Rustling Bush|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|
+= Engrave Pants - Flanking Strike|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Marksmanship[/color] to learn the spell.|U|206155|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
 R Darnassus|ACTIVE|922|M|50.21,53.87|CC|Z|1438;Teldrassil|N|Run to Darnassus along the road.|C|-Druid|
 N Skinning and Leatherworking|QID|922|M|42.09,49.97|Z|1438;Teldrassil|N|If you're interested, stop by the Leatherworking and Skinning Trainers in the hut just past the bridge.\n[color=FF0000]NOTE: [/color]You'll need to buy a skinning knife in Darnassus before you can do any skinning.\n\nManually check this step off if you wish.|S|
 R Darnassus|ACTIVE|922|M|39.02,53.24;36.28,54.37|CC|Z|1438;Teldrassil|N|Continue west along the road to Darnassus.|
@@ -195,7 +197,7 @@ R Teldrassil|ACTIVE|933|M|35.71,54.37|Z|1438;Teldrassil|N|Exit Darnassus.|
 
 C Crown of the Earth|QID|933|QO|1|M|42.40,67.08|Z|1438;Teldrassil|L|5645|N|Fill the Tourmaline Phial at the Pools of Arlithrien moonwell.|U|5621|NC|
 R Ban'ethil Hollow|ACTIVE|487|QO|1|M|40.35,54.03;43.35,53.95|CS|Z|1438;Teldrassil|N|Head to Ban'ethil Hollow (a cave just south of the road)|
-l Deer Musk|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|S|
+l Deer Musk|ACTIVE|487|M|45.0,57.4|Z|1438;Teldrassil|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|S|
 K The Road to Darnassus|ACTIVE|487|QO|1|M|46.21,52.96|Z|1438;Teldrassil|N|Kill the Gnarlpine Ambushers.|
 R Ban'ethil Barrow Den|ACTIVE|483|AVAILABLE|2541|M|44.33,57.93|Z|1438;Teldrassil|ELITE|N|[color=00FFFF]Strongly suggested you look for help with this one.[/color]\nEnter Ban'ethil Barrow Den.|
 C Rune of Nesting|QID|483|QO|4|M|44.40,60.66|Z|1438;Teldrassil|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
@@ -212,12 +214,12 @@ C The Sleeping Druid|QID|2541|M|43.96,61.62|Z|1438;Teldrassil|L|8363|N|Gnarlpine
 T The Sleeping Druid|QID|2541|M|44.95,61.59|Z|1438;Teldrassil|N|To Oben Rageclaw.|
 A Druid of the Claw|QID|2561|PRE|2541|M|44.95,61.59|Z|1438;Teldrassil|N|From Oben Rageclaw.|
 l Idol of Ursine Rage|M|45.39,58.00|Z|1438;Teldrassil|L|206954|ITEM|206954|N|Rageclaw|SPELL|Engrave Gloves - Mangle;410025|C|Druid|S!US|
-l Rune of Explosive Shot|M|45.39,58.00|Z|1438;Teldrassil|L|206169|ITEM|206169|N|Rageclaw|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|S!US|
+l Rune of Explosive Shot|ACTIVE|487|M|45.39,58.00|Z|1438;Teldrassil|L|206169|ITEM|206169|N|Rageclaw|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|S!US|
 C Druid of the Claw|QID|2561|M|45.39,58.00|Z|1438;Teldrassil|N|After returning to where Rageclaw is circling, kill him and use the Voodoo Charm on his corpse.|T|Rageclaw|U|8149|
 = Engrave Gloves - Explosive Shot|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Explosive Shot[/color] to learn the spell.|U|206169|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|O|
 T Druid of the Claw|QID|2561|M|44.95,61.59|Z|1438;Teldrassil|N|To Oben Rageclaw.|
 R Exit Ban'ethil Barrow Den|ACTIVE|487|M|44.41,57.81|Z|1438;Teldrassil|N|Follow the ramps up and outside the Den.|IZ|Ban'ethil Barrow Den|
-l Deer Musk|ACTIVE|487|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|US|O|
+l Deer Musk|ACTIVE|487|M|45.0,57.4|Z|1438;Teldrassil|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|US|
 T The Road to Darnassus|QID|487|M|50.21,53.87;55.74,58.35|CS|Z|1438;Teldrassil|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
 R Dolanaar|ACTIVE|933|M|55.62,59.79|Z|1438;Teldrassil|N|Head towards Dolanaar.|S|LVL|9;-775|
 L Level 10|ACTIVE|933|M|53.94,58.13|Z|1438;Teldrassil|N|Grind until you're within 2 bubbles of level 10.|LVL|9;-775|
@@ -236,24 +238,21 @@ A The Apple Falls|QID|2241|M|56.37,60.13|Z|1438;Teldrassil|N|From Jannok Breezes
 A Returning Home|QID|5629|M|55.56,56.75|Z|1438;Teldrassil|N|From Laurna Morninglight.|C|Priest|LVL|10|
 
 ; Race specific Hunter quest, other races have their own versions in their areas.
-= Level 10 Training|ACTIVE|487|M|56.68,59.50|Z|1438;Teldrassil|N|Do your level 10 training with Dazalar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|LVL|10|IZ|Dolanaar|
+= Level 10 Training|AVAILABLE|6063|M|56.68,59.50|Z|1438;Teldrassil|N|Do your level 10 training with Dazalar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Hunter|LVL|10|IZ|Dolanaar|
 A Taming the Beast|QID|6063|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|Night Elf|LVL|10|
-C Taming the Beast|QID|6063|M|58.85,59.87|Z|1438;Teldrassil|N|Tame a Webwood Lurker by using the rod.|U|15921|C|Hunter|R|Night Elf|
+C Taming the Beast|QID|6063|M|58.85,59.87|Z|1438;Teldrassil|N|Tame a Webwood Lurker by using the rod.|T|Webwood Lurker|U|15921|C|Hunter|R|Night Elf|NC|
 T Taming the Beast|QID|6063|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|Night Elf|
 A Taming the Beast|QID|6101|PRE|6063|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|Night Elf|
-C Taming the Beast|QID|6101|M|55.97,71.72|Z|1438;Teldrassil|N|Tame a Nightsaber Stalker.\n[color=FF0000]NOTE: [/color]You'll need to dismiss your current pet before you can tame your next one. Right-click on its portrait and choose Dismiss.|U|15922|C|Hunter|R|Night Elf|
+C Taming the Beast|QID|6101|M|55.97,71.72|Z|1438;Teldrassil|N|Tame a Nightsaber Stalker.\n[color=FF0000]NOTE: [/color]You'll need to dismiss your current pet before you can tame your next one. Right-click on its portrait and choose Dismiss.|T|Nightsaber Stalker|U|15922|C|Hunter|R|Night Elf|NC|
 T Taming the Beast|QID|6101|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|Night Elf|
 A Taming the Beast|QID|6102|PRE|6101|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.|C|Hunter|R|Night Elf|
-C Taming the Beast|QID|6102|M|44.01,51.12|Z|1438;Teldrassil|N|Tame a Strigid Screecher.|U|15923|C|Hunter|R|Night Elf|
+C Taming the Beast|QID|6102|M|44.01,51.12|Z|1438;Teldrassil|N|Tame a Strigid Screecher.|T|Strigid Screecher|U|15923|C|Hunter|R|Night Elf|NC|
 T Taming the Beast|QID|6102|M|56.68,59.50|Z|1438;Teldrassil|N|To Dazalar.|C|Hunter|R|Night Elf|
 A Training the Beast|QID|6103|PRE|6102|M|56.68,59.50|Z|1438;Teldrassil|N|From Dazalar.\n[color=FF0000]NOTE: [/color]You can tame your first pet now, but can't feed it yet; we have to go to Darnassus for that.|C|Hunter|R|Night Elf|
-U Tame a Deer|N|Use the Deer Musk to tame a deer (critter).\n[color=FF0000]NOTE: [/color]If you have one, you'll have to dismiss your current pet first.|T|Deer|U|208607|C|Hunter|S!US|O|
 
 T The Relics of Wakening|QID|483|M|55.96,57.28|Z|1438;Teldrassil|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|Z|1438;Teldrassil|N|From Athridas Bearmantle.|
 l Teldrassil Bird Meat|L|208608|ITEM|208608|N|any Strigid Owl/Screecher/Hunter|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|S!US|
-l Rune of Marksmanship|M|46.60,46.30|Z|1438;Teldrassil|L|206155|ITEM|206155|N|Fallenroot Poacher\nCast Hunter's Mark on the Rustling Bush to summon them.|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|
-= Engrave Pants - Flanking Strike|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Marksmanship[/color] to learn the spell.|U|206155|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
 R Wellspring Lake|ACTIVE|923|QO|1|M|44.36,49.96;43.80,45.97|CC|Z|1438;Teldrassil|N|Run west towards Darnassus and turn north down the hill when you reach the bridge/log.|
 K Blackmoss the Fetid|AVAILABLE|927|ACTIVE|923|M|43.37,27.75|Z|1438;Teldrassil|L|5179|N|A Level 13 rare that spawns on the NE bank of the Wellspring River before the last waterfall. He drops a quest starter.\n[color=FF0000]NOTE: [/color]If he's not there, skip this because he has a 2hr+ respawn timer.|T|Blackmoss the Fetid|IZ|Wellspring River|S!US|
 A The Moss-twined Heart|QID|927|M|PLAYER|CC|N|Click on the item to start the quest.|U|5179|O|
@@ -261,6 +260,7 @@ C Tumors|QID|923|QO|1|M|43.58,27.27|Z|1438;Teldrassil|L|5170 5|ITEM|5170|N|Any t
 U Teldrassil Bird Meat|M|48.3,31.4|Z|1438;Teldrassil|N|Use the Teldrassil Bird Meat to summon Mowgh.|U|208608|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
 l Rune of Flanking|M|48.3,31.4|Z|1438;Teldrassil|L|205979|N|Kill Mowgh to loot the Rune.\n[color=FF0000]NOTE: [/color]Taming him gives the same result.|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|
 = Engrave Pants - Flanking Strike|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Flanking[/color] to learn the spell.|U|205979|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
+
 R Darnassus|AVAILABLE|6344|M|88.20,35.61|Z|1457;Darnassus|N|Return to the road and continue west to Darnassus.|
 A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|1457;Darnassus|N|From Mydrannul.|
 h Craftsmen's Terrace|ACTIVE|923|M|67.42,15.69|Z|1457;Darnassus|N|Set your Hearthstone to Darnassus with Innkeeper Saelienne.|
@@ -286,8 +286,13 @@ T Back to Darnassus|QID|5931|M|35.36,08.39|Z|1457;Darnassus|N|To Mathrengyl Bear
 A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|1457;Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
 = Engrave Gloves - Mangle|M|PLAYER|CC|N|Use the [color=33fff9]Idol of Ursine Rage[/color] after maintaining at least 50 rage for 60 seconds while in Bear form to learn the spell.|U|206954|SPELL|Bear Form;5487;True|C|Druid|S!US|O|
 
+U Tame a Deer|ACTIVE|6103|N|Use the Deer Musk.\n[color=FF0000]NOTE: [/color]The buff lasts 10 minutes.|U|208607|BUFF|421311|C|Hunter|O|
+C Tame a Deer|ACTIVE|6103|N|Target a deer (critter) and use your Tame Beast ability on it.\n[color=FF0000]NOTE: [/color]If you have a pet already, you'll have to dismiss it first.|T|Deer|C|Hunter|BUFF|-421311|NC|
+N Rune of Carve|ACTIVE|6103|M|39.05,8.86|Z|1457;Darnassus|L|206032|N|While you have your new Deer companion (10 minute timer), speak with Relaeron and he'll reward you with the Rune when you offer him your Deer.\n[color=FF0000]NOTE: [/color]Make sure you have an empty bag slot or you won't get the Rune and have to tame another deer.| ; Need to add BUFF for having deer tamed
+= Engrave Gloves - Carve|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Carve[/color] to learn the spell.|U|206032|SPELL|Engrave Pants - Carve;425758|C|Hunter|O|
+
 T Training the Beast|QID|6103|M|40.36,08.59|Z|1457;Darnassus|N|To Jocaste.|C|Hunter|
-= Pet Skills|AVAILABLE|2498|M|42.5,9.15|Z|1457;Darnassus|N|coords Go up the tree keeping to the left and learn at least Growl from Silvaria.|C|Hunter|
+= Pet Skills|AVAILABLE|2498|PRE|6103|M|42.47,9.16|Z|1457;Darnassus|N|Walk up the tree, keeping to the left, and learn your pet spells from Silvaria.\n[color=FF0000]NOTE: [/color]Make sure to visit your Pet Trainer every time you visit your class trainer.\n\nManually check this step off to continue.|C|Hunter|
 
 T Tumors|QID|923|M|38.24,21.61|Z|1457;Darnassus|N|To Rellian Greenspyre.|
 A Return to Denalan|QID|2498|PRE|923|M|38.24,21.61|Z|1457;Darnassus|N|From Rellian Greenspyre.|
