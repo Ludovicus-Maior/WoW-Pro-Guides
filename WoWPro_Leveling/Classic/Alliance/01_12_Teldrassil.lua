@@ -195,7 +195,7 @@ R Teldrassil|ACTIVE|933|M|35.71,54.37|Z|1438;Teldrassil|N|Exit Darnassus.|
 
 C Crown of the Earth|QID|933|QO|1|M|42.40,67.08|Z|1438;Teldrassil|L|5645|N|Fill the Tourmaline Phial at the Pools of Arlithrien moonwell.|U|5621|NC|
 R Ban'ethil Hollow|ACTIVE|487|QO|1|M|40.35,54.03;43.35,53.95|CS|Z|1438;Teldrassil|N|Head to Ban'ethil Hollow (a cave just south of the road)|
-l Deer Musk|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|S|O|
+l Deer Musk|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|S|
 K The Road to Darnassus|ACTIVE|487|QO|1|M|46.21,52.96|Z|1438;Teldrassil|N|Kill the Gnarlpine Ambushers.|
 R Ban'ethil Barrow Den|ACTIVE|483|AVAILABLE|2541|M|44.33,57.93|Z|1438;Teldrassil|ELITE|N|[color=00FFFF]Strongly suggested you look for help with this one.[/color]\nEnter Ban'ethil Barrow Den.|
 C Rune of Nesting|QID|483|QO|4|M|44.40,60.66|Z|1438;Teldrassil|L|3408|N|Follow the path down, then across the bridge, box is on right in chamber.|
@@ -214,7 +214,7 @@ A Druid of the Claw|QID|2561|PRE|2541|M|44.95,61.59|Z|1438;Teldrassil|N|From Obe
 l Idol of Ursine Rage|M|45.39,58.00|Z|1438;Teldrassil|L|206954|ITEM|206954|N|Rageclaw|SPELL|Engrave Gloves - Mangle;410025|C|Druid|S!US|
 l Rune of Explosive Shot|M|45.39,58.00|Z|1438;Teldrassil|L|206169|ITEM|206169|N|Rageclaw|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|S!US|
 C Druid of the Claw|QID|2561|M|45.39,58.00|Z|1438;Teldrassil|N|After returning to where Rageclaw is circling, kill him and use the Voodoo Charm on his corpse.|T|Rageclaw|U|8149|
-= Engrave Gloves - Explosive Shot|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Explosive Shot[/color] to learn the spell.|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|
+= Engrave Gloves - Explosive Shot|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Explosive Shot[/color] to learn the spell.|U|206169|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|O|
 T Druid of the Claw|QID|2561|M|44.95,61.59|Z|1438;Teldrassil|N|To Oben Rageclaw.|
 R Exit Ban'ethil Barrow Den|ACTIVE|487|M|44.41,57.81|Z|1438;Teldrassil|N|Follow the ramps up and outside the Den.|IZ|Ban'ethil Barrow Den|
 l Deer Musk|ACTIVE|487|L|208607|ITEM|208607|N|Gnarlpine Ambushers/Augurs.\n[color=FF0000]NOTE: [/color]Also dropped by Totemics/Pathfinders (if you can find them).|C|Hunter|RUNE|US|O|
