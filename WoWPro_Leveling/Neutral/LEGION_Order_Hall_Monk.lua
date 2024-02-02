@@ -8,12 +8,12 @@ WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Monk')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120^44473|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
-A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
-C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|84;Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|84;Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
@@ -369,13 +369,13 @@ C The Legend of the Sands|QID|40569|M|49.13,58.58|N|You can find Li Li in the La
 T The Legend of the Sands|QID|40569|M|49.13,58.58|N|To Li Li Stormstout.|
 A Off To Adventure!|QID|40633|M|49.13,58.58|N|From Li Li Stormstout.|PRE|40569|
 C Off To Adventure!|QID|40633|M|50.54,58.61|QO|1|V|N|Hop on Li Li's kite for a ride to Uldum.|
-T Off To Adventure!|QID|40633|M|54.85,32.87|Z|Uldum|N|To Li Li Stormstout.|
-A Thunder on the Sands|QID|40634|M|54.90,32.74|Z|Uldum|N|From King Phaoris.|PRE|40633|
+T Off To Adventure!|QID|40633|M|54.85,32.87|Z|249; Uldum|N|To Li Li Stormstout.|
+A Thunder on the Sands|QID|40634|M|54.90,32.74|Z|249; Uldum|N|From King Phaoris.|PRE|40633|
 N Li Li's Kite|ACTIVE|40634|S|US|V|N|Use Li Li's Kite to get around.\n*Not sure if available if you can fly*|EAB|
-C Thunder on the Sands|QID|40634|QO|1|M|45.62,14.32|Z|Uldum|T|Nader|N|Kill and loot Nader to find the clue.|
-T Thunder on the Sands|QID|40634|M|54.91,32.74|Z|Uldum|N|To King Phaoris.|
-A Into The Heavens|QID|40570|M|54.91,32.74|Z|Uldum|N|From King Phaoris.|PRE|40634|
-C Into The Heavens|QID|40570|M|54.91,33.68|Z|Uldum|N|Go Outside and use the item to enter a solo scenario.|QO|1|NC|U|132745|
+C Thunder on the Sands|QID|40634|QO|1|M|45.62,14.32|Z|249; Uldum|T|Nader|N|Kill and loot Nader to find the clue.|
+T Thunder on the Sands|QID|40634|M|54.91,32.74|Z|249; Uldum|N|To King Phaoris.|
+A Into The Heavens|QID|40570|M|54.91,32.74|Z|249; Uldum|N|From King Phaoris.|PRE|40634|
+C Into The Heavens|QID|40570|M|54.91,33.68|Z|249; Uldum|N|Go Outside and use the item to enter a solo scenario.|QO|1|NC|U|132745|
 C Into the Skies|QID|40570|SO|1||M|30.84,45.08|Z|Skywall!Dungeon|N|Lead Li Li and protect her.|
 C Running in the Clouds|QID|40570|SO|2|M|30.38,46.99;30.61,52.69;30.73,48.80|CS|Z|Skywall!Dungeon|N|The green whirlwinds speed your progress up the ramp.|NC|
 C Destroy Stormtouched Orbs|QID|40570|SO|3;1|M|32.57,52.55;29.25,55.05;25.47,60.24|Z|Skywall!Dungeon|N|Click on the orbs to destroy them.|CS|

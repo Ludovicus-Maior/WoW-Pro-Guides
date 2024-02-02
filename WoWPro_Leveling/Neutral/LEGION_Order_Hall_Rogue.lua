@@ -8,13 +8,13 @@ WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Rogue')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
-C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|84;Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|84;Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
@@ -62,17 +62,17 @@ A Preparation|QID|42568|M|73.62,43.64|Z|Duskwood|N|From UI Alert.|PRE|42539|
 T Preparation|QID|42568|M|36.76,52.58|Z|Elwynn Forest|N|To Garona Halforcen.|
 A The Unseen Blade|QID|42627^42504|M|36.76,52.58|Z|Elwynn Forest|N|From Garona Halforcen.|PRE|42568|
 C Confront Mathias Shaw.|QID|42627^42504|SO|1;1|M|32.05,49.24|Z|Elwynn Forest|NC|N|Confront Mathias Shaw.|
-C Live Drop|QID|42627^42504|SO|2|M|66.19,74.39|Z|Stormwind City|N|Use stealth (even if you are alliance), and sap on the guards that see invis (or fight them when they are far enough away from the others).  Elling is upstairs in his family shop (Trias Cheese - the first shop on your right). Pick up the box on the table beside Elling.|NC|
-C Use the smoke bomb in the Trader's Hall|QID|42627^42504|SO|3;1|M|61.39,71.91|Z|Stormwind City|N|Use the smoke bomb in the Trader's Hall.|NC|U|214645|
-C Pickpocket Guards until you find information|QID|42627^42504|SO|4;1|M|64.04,75.52|Z|Stormwind City|N|Pickpocket Guards until you find information|NC|
-C Read the Coded Message|QID|42627^42504|SO|4;2|M|64.04,75.52|Z|Stormwind City|N|Read the Coded Message|NC|U|218893|
-C Meet Garona at the Pig and Whistle Tavern.|QID|42627^42504|SO|5;1|M|74.30,55.57|Z|Stormwind City|N|Meet Garona at the Pig and Whistle Tavern.|NC|
-C Open the tavern door|QID|42627^42504|SO|6;1|M|75.04,55.40|Z|Stormwind City|N|Click to open the tavern door (not use your pick lock ability).|NC|
-C Make Althea Ebonlocke talk|QID|42627^42504|SO|6;2|M|76.11,53.72|Z|Stormwind City|N|Make Althea Ebonlocke talk.|
-C On the Trail|QID|42627^42504|SO|7;1|Z|Stormwind City|N|Sneak into Stormwind Keep, the Herald is in the courtyard to the left of the throneroom.  Use sprint to get through the purple wind trap in the hallway.|
-C Marked for Death|QID|42627^42504|QO|1|M|82.77,27.92|Z|Stormwind City|N|It's up to you to assassinate Melris and put and end to this once and for all.|
-C A Dark Gift|QID|42627^42504|M|82.77,27.92|Z|Stormwind City|NC|N|Take up the Kingslayers as your own.|
-C Take the portal to Dalaran|QID|42627^42504|SO|10;1|M|86.96,37.29|Z|Stormwind City|NC|N|Take the portal to Dalaran.|
+C Live Drop|QID|42627^42504|SO|2|M|66.19,74.39|Z|84;Stormwind City|N|Use stealth (even if you are alliance), and sap on the guards that see invis (or fight them when they are far enough away from the others).  Elling is upstairs in his family shop (Trias Cheese - the first shop on your right). Pick up the box on the table beside Elling.|NC|
+C Use the smoke bomb in the Trader's Hall|QID|42627^42504|SO|3;1|M|61.39,71.91|Z|84;Stormwind City|N|Use the smoke bomb in the Trader's Hall.|NC|U|214645|
+C Pickpocket Guards until you find information|QID|42627^42504|SO|4;1|M|64.04,75.52|Z|84;Stormwind City|N|Pickpocket Guards until you find information|NC|
+C Read the Coded Message|QID|42627^42504|SO|4;2|M|64.04,75.52|Z|84;Stormwind City|N|Read the Coded Message|NC|U|218893|
+C Meet Garona at the Pig and Whistle Tavern.|QID|42627^42504|SO|5;1|M|74.30,55.57|Z|84;Stormwind City|N|Meet Garona at the Pig and Whistle Tavern.|NC|
+C Open the tavern door|QID|42627^42504|SO|6;1|M|75.04,55.40|Z|84;Stormwind City|N|Click to open the tavern door (not use your pick lock ability).|NC|
+C Make Althea Ebonlocke talk|QID|42627^42504|SO|6;2|M|76.11,53.72|Z|84;Stormwind City|N|Make Althea Ebonlocke talk.|
+C On the Trail|QID|42627^42504|SO|7;1|Z|84;Stormwind City|N|Sneak into Stormwind Keep, the Herald is in the courtyard to the left of the throneroom.  Use sprint to get through the purple wind trap in the hallway.|
+C Marked for Death|QID|42627^42504|QO|1|M|82.77,27.92|Z|84;Stormwind City|N|It's up to you to assassinate Melris and put and end to this once and for all.|
+C A Dark Gift|QID|42627^42504|M|82.77,27.92|Z|84;Stormwind City|NC|N|Take up the Kingslayers as your own.|
+C Take the portal to Dalaran|QID|42627^42504|SO|10;1|M|86.96,37.29|Z|84;Stormwind City|NC|N|Take the portal to Dalaran.|
 T The Unseen Blade|QID|42627^42504|M|42.48,74.61|N|Enter your order hall from any of the hidden entrances and then return to Garona Halforcen.|
 
 ;OUTLAW
@@ -334,12 +334,12 @@ C A Simple Plan|QID|37448|M|41.2,75.4|NC|N|Listen to the plan and use the extra 
 T A Simple Plan|QID|37448|M|40.68,76.78|N|To Taoshi.|
 A Under Cover of Darkness|QID|37494|M|40.68,76.78|N|From Taoshi.|PRE|37448|
 C Under Cover of Darkness|QID|37494|M|40.68,76.78|CHAT|N|Tell Taoshi you are ready to take the boat to Stormwind.|
-T Under Cover of Darkness|QID|37494|M|35.86,59.94|Z|Stormwind City|N|To Master Mathias Shaw.|
-A The Imposter|QID|37689|M|35.86,59.94|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|37494|
-C The Imposter|QID|37689|QO|1|M|36.6,56.4;38.5,62|CS|Z|Stormwind City|NC|N|Standing on the point, look up towards the first waypoint and click the gear (like in Stormheim), look towards the 2nd waypoint, repeat.|
-C The Imposter|QID|37689|QO|2|M|43.52,76.46;78.18,63.91|CS|Z|Stormwind City|NC|N|Sneak (stealth even if you are alliance) to the SI:7 Headquarters. Hide behind haybales scattered around the city and indicated by yellow dots.(click on them) to reapply stealth. Be aware of see invis guards.|
-C The Imposter|QID|37689|QO|3|M|80.02,62.74;81.31,63.00|CS|Z|Stormwind City|T|Detharoc|N|Upstairs, you will find two Mathias fighting. After you approach them, (one friendly-green name, one not-red name)the hostile one will become Detharoc and jump down to the middle of the downstairs room. Kill him.|
-C The Imposter|QID|37689|QO|4|M|81.16,61.34|Z|Stormwind City|CHAT|N|Talk to Mathias. He will port you back.  You can travel back on your own if you would rather.|
+T Under Cover of Darkness|QID|37494|M|35.86,59.94|Z|84;Stormwind City|N|To Master Mathias Shaw.|
+A The Imposter|QID|37689|M|35.86,59.94|Z|84;Stormwind City|N|From Master Mathias Shaw.|PRE|37494|
+C The Imposter|QID|37689|QO|1|M|36.6,56.4;38.5,62|CS|Z|84;Stormwind City|NC|N|Standing on the point, look up towards the first waypoint and click the gear (like in Stormheim), look towards the 2nd waypoint, repeat.|
+C The Imposter|QID|37689|QO|2|M|43.52,76.46;78.18,63.91|CS|Z|84;Stormwind City|NC|N|Sneak (stealth even if you are alliance) to the SI:7 Headquarters. Hide behind haybales scattered around the city and indicated by yellow dots.(click on them) to reapply stealth. Be aware of see invis guards.|
+C The Imposter|QID|37689|QO|3|M|80.02,62.74;81.31,63.00|CS|Z|84;Stormwind City|T|Detharoc|N|Upstairs, you will find two Mathias fighting. After you approach them, (one friendly-green name, one not-red name)the hostile one will become Detharoc and jump down to the middle of the downstairs room. Kill him.|
+C The Imposter|QID|37689|QO|4|M|81.16,61.34|Z|84;Stormwind City|CHAT|N|Talk to Mathias. He will port you back.  You can travel back on your own if you would rather.|
 T The Imposter|QID|37689|M|40.68,76.78|N|To Taoshi.|
 A Champion: Taoshi|QID|43723|M|40.68,76.78|N|From/To Taoshi.|PRE|37689|
 A Champion: Master Mathias Shaw|QID|43724|M|40.51,77.98|N|From/To Master Mathias Shaw.|PRE|37689|
@@ -525,7 +525,7 @@ P Twilight Highlands|QID|46178|QO|3|M|50.22,39.47|Z|Orgrimmar@Orgrimmar|N|Use th
 R Ironforge|QID|46178|QO|3|Z|27;Dun Morogh|M|60,33|N|The next Mark is in Ironforge.|FACTION|HORDE|ACTIVE|46178|
 C Hiding In Plain Sight|QID|46178|M|42.84,50.11|Z|48; Loch Modan|QO|4|T|Corin Twinbellows|N|Stealth into 'The High Seat' area. Wait for Corin to be relatively alone, pick pocket Corin and use his key to remove his armor buff, then kill him.|U|144357|FACTION|HORDE|
 R Deeprun Tram|QID|46178|M|73.06,50.30|Z|48; Loch Modan|N|Take the Deeprun Tram to Stormwind.|FACTION|HORDE|ACTIVE|46178|
-C Hiding In Plain Sight|QID|46178|QO|5|M|61.39,70.44|Z|Stormwind City|T|Auctioneer Jaxon|N|The final Mark, Auctioneer Jaxon can be found inside the auction house on the right side.|FACTION|HORDE|
+C Hiding In Plain Sight|QID|46178|QO|5|M|61.39,70.44|Z|84;Stormwind City|T|Auctioneer Jaxon|N|The final Mark, Auctioneer Jaxon can be found inside the auction house on the right side.|FACTION|HORDE|
 
 P P Krasus' Landing|QID|46178^46089|U|140192|N|Hearth to Dalaran and return to your guild hall.|ACTIVE|46178^46089|
 T Hiding In Plain Sight|QID|46178^46089|M|42.01,78.67|N|To Lilian Voss.|

@@ -6,16 +6,16 @@ WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideQuestTriggers(guide, 47221, 47835)
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 ; Faction Specific Intro
 A The Hand of Fate|QID|47221|N|Accept from UI pop-up.|FACTION|Alliance|
 P The Hand of Fate|QID|47221|M|39.60,63.23|Z|Dalaran@Dalaran70|QO|1|NC|N|Take a portal to Stormwind.|FACTION|Alliance|
-C The Hand of Fate|QID|47221|M|21.89,30.59|Z|Stormwind City|QO|2|NC|N|Meet escort at Stormwind Harbor.|FACTION|Alliance|
-T The Hand of Fate|QID|47221|M|21.36,30.46|Z|Stormwind City|N|To Vereesa Windrunner.|FACTION|Alliance|
-A Two If By Sea|QID|47222|PRE|47221|M|21.36,30.46|Z|Stormwind City|N|From Vereesa Windrunner.|FACTION|Alliance|
-C Two If By Sea|QID|47222|M|21.36,30.46|Z|Stormwind City|QO|1|CHAT|N|Tell Vereesa you are ready!|FACTION|Alliance|
+C The Hand of Fate|QID|47221|M|21.89,30.59|Z|84;Stormwind City|QO|2|NC|N|Meet escort at Stormwind Harbor.|FACTION|Alliance|
+T The Hand of Fate|QID|47221|M|21.36,30.46|Z|84;Stormwind City|N|To Vereesa Windrunner.|FACTION|Alliance|
+A Two If By Sea|QID|47222|PRE|47221|M|21.36,30.46|Z|84;Stormwind City|N|From Vereesa Windrunner.|FACTION|Alliance|
+C Two If By Sea|QID|47222|M|21.36,30.46|Z|84;Stormwind City|QO|1|CHAT|N|Tell Vereesa you are ready!|FACTION|Alliance|
 T Two If By Sea|QID|47222|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|To Vindicator Boros.|FACTION|Alliance|
 A The Hand of Fate|QID|47835|N|Accept from UI pop-up.|FACTION|Horde|
 P The Hand of Fate|QID|47835|M|55.29,24.00|Z|Dalaran@Dalaran70|QO|1|N|Take a portal to Orgrimmar.|FACTION|Horde|

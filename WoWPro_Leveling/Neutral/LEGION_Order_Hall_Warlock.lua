@@ -8,12 +8,12 @@ WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Warlock')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120^44473|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
-A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120^44473|
-C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|84;Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120^44473|
+C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|84;Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardian) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.57,45.83|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
@@ -361,7 +361,7 @@ T Ravencrest's Legacy|QID|44479|M|53.53,33.06|N|To Light's Heart, back in your o
 A In My Father's House|QID|44480|M|53.53,33.06|N|From Light's Heart.|PRE|44479|
 P Dalaran|QID|44480|M|72.43,37.45|QO|1|N|Take the portal to Dalaran.|ACTIVE|44480|
 P Stormwind City|FACTION|ALLIANCE|ACTIVE|44480|M|39.20,63.20|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Take the Portal in Dalaran to Stormwind.|
-P Mount Hyjal|ACTIVE|44480|M|76.18,18.67|Z|Stormwind City|QO|1|N|Take the Portal to Mount Hyjal.|
+P Mount Hyjal|ACTIVE|44480|M|76.18,18.67|Z|84;Stormwind City|QO|1|N|Take the Portal to Mount Hyjal.|
 P Orgrimmar|QID|44480|M|55.33,24.04|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Take the portal to Orgrimmar, located in Windrunner's Sanctuary, and fly from there.|FACTION|HORDE|ACTIVE|44480|
 F Bilgewater Harbor|QID|44480|QO|1|M|49.43,59.20|Z|Orgrimmar|N|Talk to Doras to take the Flight Path. If you want to fly directly, or don't have this Flight path, click this step to skip it.|FACTION|HORDE|ACTIVE|44480|
 R Temple of Zin-Malor - Azshara|ACTIVE|44480|M|35.1,49.9|Z|Azshara|QO|1|N|Mount up and fly to Azshara.|
