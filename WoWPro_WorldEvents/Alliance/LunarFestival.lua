@@ -82,7 +82,7 @@ A Starsong the Elder|N|From Starsong the Elder from inside the instance.|QID|871
 F Sentinel Hill|N|Fly to Sentinel Hill.|QID|8675|M|70.04,38.56|Z|Swamp of Sorrows|
 A Skychaser the Elder|N|From Skychaser the Elder.|QID|8675|M|56.64,47.09|Z|Westfall|
 F Stormwind|N|Fly to Stormwind City.|QID|8649|M|56.64,49.44|Z|Westfall|
-A Hammershout the Elder|N|From Hammershout the Elder.|QID|8646|M|34.56,50.25|Z|Elwynn Forest|
+A Hammershout the Elder|N|From Hammershout the Elder.|QID|8646|M|32.18,52.70|Z|Elwynn Forest|
 A Stormbrow the Elder|N|From Stormbrow the Elder.|QID|8649|M|39.79,63.67|Z|Elwynn Forest|
 F Morgan's Vigil|N|Fly to Morgan's Vigil.|QID|8636|M|41.72,64.62|Z|Elwynn Forest|
 
@@ -206,14 +206,14 @@ A Menkhaf the Elder|QID|29742|M|65.52,18.68|Z|Uldum|N|From Elder Menkhaf|
 A Sekhemi the Elder|QID|29741|M|31.59,62.99|Z|Uldum|N|From Elder Sekhemi|
 
 A Lunar Preservation|QID|56842|M|53.2,36.0|Z|Moonglade|N|From Myrael Lunarbloom|
-C Moonglade Moonwell|QID|56842|M|48.4,33.5|Z|Moonglade|N|Just a short hop away. Right click when done.|
-C Felwood Moonwell|QID|56842|M|44.0, 28.3|Z|Felwood|N|Stop #2. Right click when done.|
-C Ashenvale Moonwell 1|QID|56842|M|53.0, 46.0|Z|Ashenvale|N|Stop #3. Right click when done.|
-C Ashenvale Moonwell 2|QID|56842|M|60.1, 72.8|Z|Ashenvale|N|Stop #4. Right click when done.|
-C Stonetalon Moonwell|QID|56842|M|41.7, 19.0|Z|Stonetalon Mountains|N|Stop #5. Right click when done.|
-C Dire Maul Moonwell|QID|56842|M|60.0, 46.0|Z|Feralas|N|Stop #6. Right click when done.|
-C Duskwood Moonwell|QID|56842|M|49.1, 33.6|Z|Duskwood|N|Stop #7. Right click when done.|
-C Mount Hyjal Moonwell|QID|56842|M|60.0, 24.0|Z|Mount Hyjal|N|Stop #8. Right click when done.|
+C Moonglade Moonwell|QID|56842|M|48.4,33.5|Z|Moonglade|N|Just a short hop away. Right click when done.|EAB|
+C Felwood Moonwell|QID|56842|M|44.0, 28.3|Z|Felwood|N|Stop #2. Right click when done.|EAB|
+C Ashenvale Moonwell 1|QID|56842|M|53.0, 46.0|Z|Ashenvale|N|Stop #3. Right click when done.|EAB|
+C Ashenvale Moonwell 2|QID|56842|M|60.1, 72.8|Z|Ashenvale|N|Stop #4. Right click when done.|EAB|
+C Stonetalon Moonwell|QID|56842|M|41.7, 19.0|Z|Stonetalon Mountains|N|Stop #5. Right click when done.|EAB|
+C Dire Maul Moonwell|QID|56842|M|60.0, 46.0|Z|Feralas|N|Stop #6. Right click when done.|EAB|
+C Duskwood Moonwell|QID|56842|M|49.1, 33.6|Z|Duskwood|N|Stop #7. Right click when done.|EAB|
+C Mount Hyjal Moonwell|QID|56842|M|60.0, 24.0|Z|Mount Hyjal|N|Stop #8. Right click when done.|EAB|
 T Lunar Preservation|QID|56842|M|53.2,36.0|Z|Moonglade|N|To Myrael Lunarbloom|
 
 N The End |N|That's all for this year.|

@@ -377,6 +377,6 @@ A Probing into Ashenvale|QID|24463|M|14.35,65.03|N|From Kroum.|PRE|24439|
 T Probing into Ashenvale|QID|24463|M|94.40,46.83|Z|63; Ashenvale|N|Run back through all the hostile mobs and across the bridge to Kulg Gorespatter.\n[color=FF0000]NOTE: [/color]Follow the edge (cliff) of the South Fury River to avoid most of the fighting.|
 A To The Ramparts!|QID|13866|M|94.40,46.83|Z|63; Ashenvale|N|From Kulg Gorespatter.|LEAD|13612|PRE|24463|
 F Northern Barrens|QID|13866|M|94.40,46.83|Z|63; Ashenvale|N|Talk to Kulg for a free flight the Mor'shan Ramparts.|
-T To The Ramparts!|QID|13866|M|42.41,15.18|Z|Northern Barrens|N|To Kadrak.\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
+T To The Ramparts!|QID|13866|M|42.41,15.18|Z|10;Northern Barrens|N|To Kadrak.\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
 ]]
 end)
