@@ -918,16 +918,19 @@ function WoWPro:CreateDropdownMenu()
     WoWPro.DropdownMenu = {
         {text = "WoW-Pro Guides", isTitle = true},
         {text = "Main Options", func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "mainConfig")
         end},
-        -- {text = "Display Settings", func = function()
-        --     WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide Display")
-        -- end},
+        {text = "Display Settings", func = function()
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "displayConfig")
+        end},
         {text = L["Guide List"], func = function()
             WoWPro.ShowGuideMenu()
         end},
         {text = L["Current Guide"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Current Guide")
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "currentGuide")
         end},
         {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
         {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true); end },
