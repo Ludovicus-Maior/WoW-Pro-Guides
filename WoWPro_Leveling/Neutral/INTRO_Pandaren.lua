@@ -257,11 +257,11 @@ T A New Fate|QID|31450|M|PLAYER|N|To Ji Firepaw.|
 A Joining the Horde|QID|31012|M|45.58,12.61|Z|Durotar|N|From Ji Firepaw.|PRE|31450|FACTION|Horde|
 A Joining the Alliance|QID|30987|M|32.90,50.95|Z|Elwynn Forest|N|From Aysa Cloudsinger.|PRE|31450|FACTION|Alliance|
 T Joining the Horde|QID|31012|M|48.76,70.76|Z|Orgrimmar|N|To Garrosh Hellscream|FACTION|Horde|
-T Joining the Alliance|QID|30987|M|85.78,31.70|Z|Stormwind City|N|To King Anduin Wrynn, in Stormwind Keep|FACTION|Alliance|
+T Joining the Alliance|QID|30987|M|85.78,31.70|Z|84;Stormwind City|N|To King Anduin Wrynn, in Stormwind Keep|FACTION|Alliance|
 A The Horde Way|QID|31013|M|48.76,70.76|Z|Orgrimmar|N|To Garrosh Hellscream|PRE|31012|FACTION|Horde|
 C The Horde Way|QID|31013|M|48.76,70.76|Z|Orgrimmar|N|Listen to Garrosh Hellscream.\Just stay put. He'll return to you once he's finished prattling on.|FACTION|Horde|NC|
 T The Horde Way|QID|31013|M|48.76,70.76|Z|Orgrimmar|N|To Garrosh Hellscream.|FACTION|Horde|
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|LVL|10|CT|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|LVL|10|CT|
 N It's Chromie Time!|QID|62568|M|49.67,76.45|Z|Orgrimmar|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|LVL|10|CT|
 ]]
 end)

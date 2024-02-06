@@ -129,13 +129,13 @@ C Ancient Obstacles|QID|25017|M|37.24,75.11|N|Kill golems outside of Uldum.|
 T Ancient Obstacles|QID|25017|M|33.29,77.01|N|To Examiner Andoren Dawnrise.|
 A The Crumbling Past|QID|25068|PRE|25017|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|
 A The Secrets of Uldum|QID|25069|PRE|25017|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|
-C The Crumbling Past|QID|25068|M|84.73,41.31|Z|Uldum|S|N|Kill Earthen and loot them.|
-T The Secrets of Uldum|QID|25069|M|84.48,43.25|Z|Uldum|N|To the Antediluvean Chest inside Uldum's antechamber.|
-A What Lies Within|QID|25070|PRE|25069^25566|M|84.48,43.25|Z|Uldum|N|From the Antediluvean Chest. Be prepared to defend yourself!|
-C What Lies Within|QID|25070|M|84.47,43.12|Z|Uldum|N|Kill the guardian.|
-T What Lies Within|QID|25070|M|84.48,43.22|Z|Uldum|N|To the Antediluvean Chest.|
-A The Grand Tablet|QID|25107|PRE|25070|M|84.45,43.24|Z|Uldum|N|From the Antediluvean Chest.|
-C The Crumbling Past|QID|25068|M|84.73,41.31|Z|Uldum|US|N|Kill Earthen and loot them.|
+C The Crumbling Past|QID|25068|M|84.73,41.31|Z|249; Uldum|S|N|Kill Earthen and loot them.|
+T The Secrets of Uldum|QID|25069|M|84.48,43.25|Z|249; Uldum|N|To the Antediluvean Chest inside Uldum's antechamber.|
+A What Lies Within|QID|25070|PRE|25069^25566|M|84.48,43.25|Z|249; Uldum|N|From the Antediluvean Chest. Be prepared to defend yourself!|
+C What Lies Within|QID|25070|M|84.47,43.12|Z|249; Uldum|N|Kill the guardian.|
+T What Lies Within|QID|25070|M|84.48,43.22|Z|249; Uldum|N|To the Antediluvean Chest.|
+A The Grand Tablet|QID|25107|PRE|25070|M|84.45,43.24|Z|249; Uldum|N|From the Antediluvean Chest.|
+C The Crumbling Past|QID|25068|M|84.73,41.31|Z|249; Uldum|US|N|Kill Earthen and loot them.|
 T The Grand Tablet|QID|25107|M|33.28,77.02|N|To Examiner Andoren Dawnrise.|
 T The Crumbling Past|QID|25068|M|33.28,77.02|N|To Examiner Andoren Dawnrise.|
 A Tropical Paradise Beckons|QID|24911|LEAD|24740|M|33.23,76.93|N|From Sherm. Pick this up if you plan to go to Un'Goro next.|

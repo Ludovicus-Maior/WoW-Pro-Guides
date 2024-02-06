@@ -13,17 +13,17 @@ N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|
 ; Alliance Start
 A An Unwelcome Advisor|QID|58496|M|PLAYER|Z|Boralus|N|Lead in from Anduin Wrynn.|FACTION|Alliance|
 P Stormwind City|ACTIVE|58496|M|70.11,16.80|Z|Boralus|N|Take Portal to Stormwind.|FACTION|Alliance|
-R Mage Quarter|ACTIVE|58496|M|49.40,86.83|Z|Stormwind City|N|Take Portal out into Mage Quarter.|FACTION|Alliance|
-; A The Price of Peace|QID|58675|M|53.26,14.88|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|58674|FACTION|Alliance|
-C The Price of Peace|QID|58675|M|53.26,14.88|Z|Stormwind City|CHAT|N|Speak with Mathias Shaw.|FACTION|Alliance|
-T The Price of Peace|QID|58675|M|53.89,14.55|Z|Stormwind City|N|To Master Mathias Shaw.|FACTION|Alliance|
-C An Unwelcome Advisor|QID|58496|M|85.91,31.58|Z|Stormwind City|CHAT|N|Speak with Anduin Wrynn.|FACTION|Alliance|
-T An Unwelcome Advisor|QID|58496|M|85.91,31.58|Z|Stormwind City|N|To Anduin Wrynn.|FACTION|Alliance|
-A Return of the Warrior King|QID|58498|M|85.25,32.47|Z|Stormwind City|N|From Magni Bronzebeard.|PRE|58496|FACTION|Alliance|
-C Return of the Warrior King|QID|58498|M|87.67,35.05|Z|Stormwind City|NC|N|Click on "Fearbreaker" on the wall.|FACTION|Alliance|
-T Return of the Warrior King|QID|58498|M|87.45,35.50|Z|Stormwind City|N|To Magni Bronzebeard.|FACTION|Alliance|
-A Where the Heart Is|QID|58502|M|87.45,35.50|Z|Stormwind City|N|From Magni Bronzebeard.|PRE|58498|FACTION|Alliance|
-P Boralus Harbor|ACTIVE|58502|M|49.36,86.90;48.71,88.12;46.89,89.70;47.99,93.74|Z|Stormwind City|CS|N|Take the portal back to Boralus.|FACTION|Alliance|
+R Mage Quarter|ACTIVE|58496|M|49.40,86.83|Z|84;Stormwind City|N|Take Portal out into Mage Quarter.|FACTION|Alliance|
+; A The Price of Peace|QID|58675|M|53.26,14.88|Z|84;Stormwind City|N|From Master Mathias Shaw.|PRE|58674|FACTION|Alliance|
+C The Price of Peace|QID|58675|M|53.26,14.88|Z|84;Stormwind City|CHAT|N|Speak with Mathias Shaw.|FACTION|Alliance|
+T The Price of Peace|QID|58675|M|53.89,14.55|Z|84;Stormwind City|N|To Master Mathias Shaw.|FACTION|Alliance|
+C An Unwelcome Advisor|QID|58496|M|85.91,31.58|Z|84;Stormwind City|CHAT|N|Speak with Anduin Wrynn.|FACTION|Alliance|
+T An Unwelcome Advisor|QID|58496|M|85.91,31.58|Z|84;Stormwind City|N|To Anduin Wrynn.|FACTION|Alliance|
+A Return of the Warrior King|QID|58498|M|85.25,32.47|Z|84;Stormwind City|N|From Magni Bronzebeard.|PRE|58496|FACTION|Alliance|
+C Return of the Warrior King|QID|58498|M|87.67,35.05|Z|84;Stormwind City|NC|N|Click on "Fearbreaker" on the wall.|FACTION|Alliance|
+T Return of the Warrior King|QID|58498|M|87.45,35.50|Z|84;Stormwind City|N|To Magni Bronzebeard.|FACTION|Alliance|
+A Where the Heart Is|QID|58502|M|87.45,35.50|Z|84;Stormwind City|N|From Magni Bronzebeard.|PRE|58498|FACTION|Alliance|
+P Boralus Harbor|ACTIVE|58502|M|49.36,86.90;48.71,88.12;46.89,89.70;47.99,93.74|Z|84;Stormwind City|CS|N|Take the portal back to Boralus.|FACTION|Alliance|
 P Silithus: The Wound|ACTIVE|58502|M|69.65,15.90|Z|Boralus|N|Take Portal to Silithus.|FACTION|Alliance|
 R Chamber of Heart|ACTIVE|58502|M|43.21,44.49|Z|81;Silithus|N|Run into the Chamber of Heart.|FACTION|Alliance|
 ; Horde Start
@@ -43,9 +43,9 @@ C Network Diagnostics|QID|58506|M|48.07,62.03|Z|Chamber of Heart!Dungeon1473|QO|
 T Network Diagnostics|QID|58506|M|50.12,59.22|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A A Titanic Problem|QID|56374|M|50.12,59.22|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|58506|
 R Silithus: The Wound|QID|56374|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
-T A Titanic Problem|QID|56374|M|69.85,52.18|Z|Uldum|N|To Magni Bronzebeard.|
-A The Halls of Origination|QID|56209|PRE|56374|M|69.85,52.18|Z|Uldum|N|From Magni Bronzebeard.|
-R Halls of Origination Instance|QID|56209|M|69.09,53.00|Z|Uldum|TZ|1540|N|Zone into the Halls of Origination.|
+T A Titanic Problem|QID|56374|M|69.85,52.18|Z|249; Uldum|N|To Magni Bronzebeard.|
+A The Halls of Origination|QID|56209|PRE|56374|M|69.85,52.18|Z|249; Uldum|N|From Magni Bronzebeard.|
+R Halls of Origination Instance|QID|56209|M|69.09,53.00|Z|249; Uldum|TZ|1540|N|Zone into the Halls of Origination.|
 C Unwelcome Guests|ACTIVE|56209|M|53.38,62.78|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|1|N|Reach the inner chambers of the Halls of Origination.|
 C Ever Watching|ACTIVE|56209|M|57.91,66.67|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<1|N|Disable the defensive systems in the Chamber of Prophecy.|
 C Ever Watching|ACTIVE|56209|M|58.53,66.68|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<2|N|Disable the defensive systems in the Chamber of Prophecy.|
@@ -60,17 +60,17 @@ C Rebooting Origination|ACTIVE|56209|M|49.13,42.88;45.11,42.58;47.09,43.82|Z|The
 T The Halls of Origination|QID|56209|M|PLAYER|Z|The Four Seats@Halls of Origination!Dungeon1542|N|To Magni Bronzebeard.|
 A To Ramkahen|QID|56375|M|PLAYER|Z|The Four Seats@Halls of Origination!Dungeon1542|N|From Magni Bronzebeard.|PRE|56209|
 R Uldum|ACTIVE|56375|M|47.0,53.8|Z|1542|N|Take the transporter out and run out of dungeon to Uldum.|
-T To Ramkahen|QID|56375|M|54.91,32.76|Z|Uldum|N|To King Phaoris.|
-A The Uldum Accord|QID|56472|PRE|56375|M|54.91,32.76|Z|Uldum|N|From King Phaoris.|
-C The Uldum Accord|QID|56472|M|54.90,32.95|Z|Uldum|NC|QO|1|N|Click on the Map on top of the table.|
-C The Uldum Accord|QID|56472|M|54.90,32.76|Z|Uldum|CHAT|QO|2|N|Join King Phaoris to establish Uldum Accord|
-T The Uldum Accord|QID|56472|M|54.90,32.76|Z|Uldum|N|To King Phaoris.|
-A Surfacing Threats|QID|56376|PRE|56472|M|54.90,32.76|Z|Uldum|N|From King Phaoris.|
-C Surfacing Threats|QID|56376|M|54.83,32.96|Z|Uldum|CHAT|QO|1|N|Speak to High Commander Kamses to have him show you threats.|
-C Surfacing Threats|QID|56376|M|54.83,32.96|Z|Uldum|CHAT|QO|2|N|Complete an Uldum Assault.|
-T Surfacing Threats|QID|56376|M|54.90,32.76|Z|Uldum|N|To King Phaoris.|
+T To Ramkahen|QID|56375|M|54.91,32.76|Z|249; Uldum|N|To King Phaoris.|
+A The Uldum Accord|QID|56472|PRE|56375|M|54.91,32.76|Z|249; Uldum|N|From King Phaoris.|
+C The Uldum Accord|QID|56472|M|54.90,32.95|Z|249; Uldum|NC|QO|1|N|Click on the Map on top of the table.|
+C The Uldum Accord|QID|56472|M|54.90,32.76|Z|249; Uldum|CHAT|QO|2|N|Join King Phaoris to establish Uldum Accord|
+T The Uldum Accord|QID|56472|M|54.90,32.76|Z|249; Uldum|N|To King Phaoris.|
+A Surfacing Threats|QID|56376|PRE|56472|M|54.90,32.76|Z|249; Uldum|N|From King Phaoris.|
+C Surfacing Threats|QID|56376|M|54.83,32.96|Z|249; Uldum|CHAT|QO|1|N|Speak to High Commander Kamses to have him show you threats.|
+C Surfacing Threats|QID|56376|M|54.83,32.96|Z|249; Uldum|CHAT|QO|2|N|Complete an Uldum Assault.|
+T Surfacing Threats|QID|56376|M|54.90,32.76|Z|249; Uldum|N|To King Phaoris.|
 ; Unlocks Uldum Assaults
-A Forging Onward|QID|56377|M|54.90,32.78|Z|Uldum|N|From King Phaoris.|PRE|56376|
+A Forging Onward|QID|56377|M|54.90,32.78|Z|249; Uldum|N|From King Phaoris.|PRE|56376|
 R Chamber of Heart|ACTIVE|56377|M|43.21,44.49|Z|81;Silithus|N|Run into the Chamber of Heart.|
 C Forging Onward|QID|56377|M|50.20,64.04|Z|Chamber of Heart!Dungeon1473|NC|N|Hear Magni's plan.|
 T Forging Onward|QID|56377|M|50.09,59.18|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
@@ -78,7 +78,7 @@ A It's Never Easy|QID|56536|PRE|56377|M|50.09,59.18|Z|Chamber of Heart!Dungeon14
 P Silithus|ACTIVE|56536|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|TZ|Magni's Encampment|N|Travel by method of choice to Pandaria.|
 P Boralus|ACTIVE|56536|M|41.48,44.86|Z|81;Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
 P Stormwind City|ACTIVE|56536|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|FACTION|Alliance|
-P The Jade Forest|ACTIVE|56536|M|45.72,87.13|Z|Stormwind City|NC|N|Take the Portal to The Jade Forest.|FACTION|Alliance|
+P The Jade Forest|ACTIVE|56536|M|45.72,87.13|Z|84;Stormwind City|NC|N|Take the Portal to The Jade Forest.|FACTION|Alliance|
 F Temple of the White Tiger|ACTIVE|56536|M|46.04,85.13|Z|The Jade Forest|NC|N|To Wing Kyo.|FACTION|Alliance|
 P The Great Seal|ACTIVE|56536|M|41.48,44.86|Z|81;Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
 P Orgrimmar|ACTIVE|56536|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
@@ -158,9 +158,9 @@ C Origination Relay|QID|57220|QO|3|M|43.35,64.74|Z|Chamber of Heart!Dungeon1473|
 C Power Up|QID|57220|QO|4|M|48.45,71.30|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask MOTHER to power it up!|
 T Power Protocol Initiation|QID|57220|M|49.95,59.75|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A Re-Origination|QID|57221|M|49.95,59.75|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|57220|
-R Halls of Origination|ACTIVE|57221|M|71.92,52.16|Z|Uldum|N|Leave the Chamber of Heart and meet Magni at the Halls of Origination, southeast of Ramkahn.|
-T Re-Origination|QID|57221|M|71.61,52.19;68.98,52.74|CS|Z|Uldum|N|To Magni Bronzebeard, right at the instance entrance.|
-A Investigating the Halls|QID|57222|PRE|57221|M|68.98,52.74|Z|Uldum|N|From Magni Bronzebeard.|
+R Halls of Origination|ACTIVE|57221|M|71.92,52.16|Z|249; Uldum|N|Leave the Chamber of Heart and meet Magni at the Halls of Origination, southeast of Ramkahn.|
+T Re-Origination|QID|57221|M|71.61,52.19;68.98,52.74|CS|Z|249; Uldum|N|To Magni Bronzebeard, right at the instance entrance.|
+A Investigating the Halls|QID|57222|PRE|57221|M|68.98,52.74|Z|249; Uldum|N|From Magni Bronzebeard.|
 C Entry Halls|QID|57222|QO|1|M|48.25,87.62|Z|The Vault of Lights@Halls of Origination!Dungeon1540|NC|N|Enter the dungeon and make your way to the door till Magni finishes investigating.|
 C The Anomaly|QID|57222|QO|2|M|38.94,49.46|Z|Tomb of the Earthrager@Halls of Origination!Dungeon1541|NC|N|Up the stairs and across the sands, investigate the purple glowing thingy (click on it).|
 C Calm the Whispers|QID|57222|M|PLAYER|QO|3|T|Endless Suffering|NC|N|Find your lost mind and click on it to calm the whispers.|
@@ -170,7 +170,7 @@ A Beginning the Descent|QID|57290|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473|N
 P Silithus: The Wound|ACTIVE|57290|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|Run out to Silithus.|
 P Boralus|ACTIVE|57290|M|41.48,44.86|Z|81;Silithus|TZ|Boralus Harbor|NC|N|Take the Portal to Boralus.|FACTION|Alliance|
 P Stormwind City|ACTIVE|57290|M|70.10,16.78|Z|Boralus|NC|N|Take the Portal to Stormwind.|FACTION|Alliance|
-F Iron Summit|ACTIVE|57290|M|70.93,72.47|Z|Stormwind City|N|To Dungar Longdrink, to Fly to Iron Summit.|FACTION|Alliance|
+F Iron Summit|ACTIVE|57290|M|70.93,72.47|Z|84;Stormwind City|N|To Dungar Longdrink, to Fly to Iron Summit.|FACTION|Alliance|
 P The Great Seal|ACTIVE|57290|M|41.48,44.86|Z|81;Silithus|NC|N|Take the Portal to Zuldazar.|FACTION|Horde|
 P Orgrimmar|ACTIVE|57290|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
 P Twilight Highlands|ACTIVE|57290|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|FACTION|Horde|

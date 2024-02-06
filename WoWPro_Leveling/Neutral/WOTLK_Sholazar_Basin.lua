@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Sholazar Basin")
 WoWPro:GuideNextGuide(guide, "Storm Peaks")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 F Dalaran|QID|12521|N|Head to Dalaran.|
 A Where in the World is Hemet Nesingwary?|QID|12521|N|From Archmage Pentarus, near the exit from Krasus' Landing.|M|68.68,42.06|Z|Dalaran City@Dalaran|
@@ -251,11 +251,11 @@ T A Timeworn Coffer|QID|12691|N|To Timeworn Coffer, back outside.|M|80.37,55.81|
 T Powering the Waygate - The Makers' Overlook|QID|12613|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 A The Etymidian|QID|12548|PRE|12613|N|From Avatar of Freya.|M|64.5,48.7|
 R Un'Goro Crater|QID|12548|N|The Waygate is near the Mosslight Pillar. Go through it to get to Un'Guro Crater.|M|40.45,82.99|
-T The Etymidian|QID|12548|N|To the Etymidian, the big statue up the stairs.|Z|Un'Goro Crater|M|47.43,9.23|
-A The Activation Rune|QID|12547|PRE|12548|N|From The Etymidian.|M|47.4,9.2|Z|Un'Goro Crater|
-C The Activation Rune|QID|12547|N|Kill and loot High Cultist Herenn at the back of the Hall of Repose, keep going up the stairs.|Z|Un'Goro Crater|M|48.16,2.41|
-T The Activation Rune|QID|12547|N|To the Etymidian.|Z|Un'Goro Crater|M|47.43,9.23|
-A Back Through the Waygate|QID|12797|PRE|12547|N|From the Etymidian.|M|47.4,9.2|Z|Un'Goro Crater|
+T The Etymidian|QID|12548|N|To the Etymidian, the big statue up the stairs.|Z|78; Un'goro Crater|M|47.43,9.23|
+A The Activation Rune|QID|12547|PRE|12548|N|From The Etymidian.|M|47.4,9.2|Z|78; Un'goro Crater|
+C The Activation Rune|QID|12547|N|Kill and loot High Cultist Herenn at the back of the Hall of Repose, keep going up the stairs.|Z|78; Un'goro Crater|M|48.16,2.41|
+T The Activation Rune|QID|12547|N|To the Etymidian.|Z|78; Un'goro Crater|M|47.43,9.23|
+A Back Through the Waygate|QID|12797|PRE|12547|N|From the Etymidian.|M|47.4,9.2|Z|78; Un'goro Crater|
 T Back Through the Waygate|QID|12797|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 A Reclamation|QID|12546|PRE|12797|N|From Avatar of Freya.|
 R Reclamation|QID|12546|M|71.31,33.84|N|Go here, dismount and summon the Etymidian. Remember to heal when you get below 50%.|U|38709|
