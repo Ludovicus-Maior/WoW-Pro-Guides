@@ -1191,6 +1191,28 @@ local function createGuideConfig()
     return actions
 end
 
+local function createCurrentGuideConfig()
+    local actions = {
+        name = L["Current Guide"],
+        type = "group",
+        args = {
+
+                header = {
+                    order = 10,
+                    type = "header",
+                    name = L["Current Guide is not here for now"],
+                },
+                blah = {
+                    order = 11,
+                    type = "description",
+                    name = "NYI",
+                    width = "full"
+                },
+        }
+    }
+    return actions
+end
+
 function WoWPro.CreateConfig()
     local topConfig = {
         name = "Options",
@@ -1200,6 +1222,7 @@ function WoWPro.CreateConfig()
             mainConfig = createMainConfig(),
             displayConfig = createDisplayConfig(),
             guideSelect = createGuideConfig(),
+            currentGuide = createCurrentGuideConfig(),
             profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB),
             rankConfig = createRankConfig(),
             actionConfig = createActionConfig(),
@@ -1210,9 +1233,10 @@ function WoWPro.CreateConfig()
     topConfig.args.mainConfig.order=0
     topConfig.args.displayConfig.order=10
     topConfig.args.guideSelect.order=11
-    topConfig.args.profileConfig.order=12
-    topConfig.args.rankConfig.order=13
-    topConfig.args.actionConfig.order=14
+    topConfig.args.currentGuide.order=12
+    topConfig.args.profileConfig.order=13
+    topConfig.args.rankConfig.order=14
+    topConfig.args.actionConfig.order=15
     topConfig.args.expertConfig.order=-1
 
     -- Register your options with AceConfig
