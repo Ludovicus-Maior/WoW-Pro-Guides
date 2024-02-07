@@ -76,7 +76,7 @@ C Getaway to Scenic Feralas!|QID|78594|QO|2|M|69.45,73.29|Z|69; Feralas|N|Grab t
 C Getaway to Scenic Feralas!|QID|78594|QO|3|M|69.45,73.29|Z|69; Feralas|N|Talk to the patrons around the area to return their gifts.|CHAT|
 C Getaway to Scenic Feralas!|QID|78594|QO|4|M|69.45,73.29|Z|69; Feralas|N|Grab the gift off the table.|H|
 P Stormwind City|ACTIVE|78594|QO|5|M|70.06,74.56|Z|69; Feralas|N|Take the portal to Stormwind.|
-C Getaway to Scenic Feralas!|QID|78594|QO|6|M|34.21,48.83|Z|37; Elwynn|N|Gift returned to Sylandra Silverbreeze.|CHAT| 
+C Getaway to Scenic Feralas!|QID|78594|QO|6|M|34.21,48.83|Z|37; Elwynn|N|Gift returned to Sylandra Silverbreeze.|CHAT|
 T Getaway to Scenic Feralas!|QID|78594|M|34.26,51.53|Z|37; Elwynn|N|To Gabbo Blinkwink.|
 
 P Nagrand|ACTIVE|78591|QO|1|M|34.29,51.43|Z|37; Elwynn|N|Take the portal to Nagrand.|
@@ -95,8 +95,8 @@ A Ying's Daily Quests|QID|78664^78726^78679^78674|M|35.11,50.42|Z|37; Elwynn|N|F
 C The Gift of Self-Care|QID|78664|M|35.11,50.42|Z|37; Elwynn|N|Speak with Ying, any option is fine.|CHAT|
 T The Gift of Self-Care|QID|78664|M|35.11,50.42|Z|37; Elwynn|N|To Ying.|
 
-C The Gift of Relaxation|QID|78679|QO|1|M|34.64,48.25|Z|37; Elwynn|N|Speak with Bordol Dewgarden.|CHAT| 
-C The Gift of Relaxation|QID|78679|QO|2|M|59.18,10.14|Z|84; Stormwind|N|Learn to relax. U can sit down and read a book, pet a fluffy or chill in a boat. The easiest is just to read a book.|H| 
+C The Gift of Relaxation|QID|78679|QO|1|M|34.64,48.25|Z|37; Elwynn|N|Speak with Bordol Dewgarden.|CHAT|
+C The Gift of Relaxation|QID|78679|QO|2|M|59.18,10.14|Z|84; Stormwind|N|Learn to relax. U can sit down and read a book, pet a fluffy or chill in a boat. The easiest is just to read a book.|H|
 T The Gift of Relaxation|QID|78679|M|34.64,48.25|Z|37; Elwynn|N|To Bordol Dewgarden.|
 
 C The Gift of Relief|QID|78674|QO|1|M|33.89,50.58|Z|37; Elwynn|N|Talk to Simeon Griswold|CHAT|
