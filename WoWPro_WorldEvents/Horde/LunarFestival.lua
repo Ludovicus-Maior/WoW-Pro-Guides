@@ -13,7 +13,7 @@ return [[
 N Wall of Text Part 1 of 3|AVAILABLE|8677|N|This guide is geared toward actually completing all the Elder quests necessary for the Lunar Festival's achievments of "Elders of...". Most of the dungeon Elders can be snuck to if your level is high enough. There are a couple you have to kill bosses to get to.|
 N Wall of Text Part 2 of 3|AVAILABLE|8677|N|For the Elders that are possible (like Loch Modan) and definite PVP (like Ironforge), I will be putting a target button for them. That way if you have auto-accept/turn-in on, all you have to do is hit the button. It will target the Elder, then run in and right click on them, it will complete the quest, then run like your butt is on fire.|
 N Wall of Text Part 3 of 3|AVAILABLE|8677|N|if you want waypoints to work in instances, you need to have Enable Hiding box unchecked in the WoW-Pro UI Display Options.|
-N Wall of Text NEW|AVAILABLE|8667|N|Bliz has disabled functions that allow the waypoints to work correctly in instances.  You will need to enable the arrow when you leave an instance by right clicking the step text and choosing map coordinates.|
+N Wall of Text NEW|AVAILABLE|8677|N|Bliz has disabled functions that allow the waypoints to work correctly in instances.  You will need to enable the arrow when you leave an instance by right clicking the step text and choosing map coordinates.|
 N This guide starts...|AVAILABLE|8677|N|...In Orgrimmar.|
 
 A Darkhorn the Elder|QID|8677|M|52.25,59.98|Z|0321;Orgrimmar@Orgrimmar|N|From Elder Darkhorn, just east of the flight trainer.|
@@ -53,37 +53,37 @@ R Zaetar's Choice|AVAILABLE|8635|M|20.30,47.95;19.23,45.24|CS|Z|0067;The Wicked 
 R Follow the path|AVAILABLE|8635|M|46.72,88.02;47.23,71.23;54.86,75.02;45.30,75.61|CS|Z|0068;Foulspore Cavern@Maraudon|N|thru Earth Song Gate until you come to a portal.|RANK|2|
 R Into the depths of Maraudon|AVAILABLE|8635|N|Unfortunately, Bliz has disabled mapping in instances so hopefully this description helps. Jump off the Falls, go across the water and take the tunnels and follow the winding passage until you get to Zaetar's grave. There is only one place you can make a mis-turn where you have a choice of going straight ahead, or a UTurn up a ramp towards some Primordial Behemoths(which will eventually take you to Princess Theradras), go straight. Other than that, you really can't make any wrong turns except don't jump off the bridge above Rotgut.|TZ|Zaetar's Grave|
 A Splitrock the Elder|QID|8635|M|52.79,23.99|Z|0281;Zaetar's Grave@Maraudon|N|From Elder Splitrock.|RANK|2|
-R Back out of Maraudon|AVAILABLE|8685|N|Easy way out is to invite a friend, make them the leader then leave group. You will end up at the nearest graveyard, in this case right near the stone gate out. Should take about 1-2 minutes before you are booted. Lacking that hearth works or else it is a VERY LONG run.|RANK|2|TZ|0066;Desolace!Kalimdor|
-F Stonemaul Hold|AVAILABLE|8685|M|21.6,74|Z|0066;Desolace!Kalimdor|N|{update Coords}Fly to Stonemaul Hold in Feralas.|FLY|OLD|
+R Back out of Maraudon|AVAILABLE|8685|N|Easy way out is to invite a friend, make them the leader then leave group. You will end up at the nearest graveyard, in this case right near the stone gate out. Should take about 1-2 minutes before you are booted. Lacking that hearth works or else it is a VERY LONG run.|RANK|2|TZ|0066;Desolace!Kalimdor|IZ|Maraudon|
+F Stonemaul Hold|AVAILABLE|8685|N|Fly to Stonemaul Hold in Feralas.|
 A Mistwalker the Elder|QID|8685|M|62.56,31.07|Z|0069;Feralas|N|From Elder Mistwalker inside the arena at Dire Maul, NOT inside the instance.|
 A Grimtotem the Elder|QID|8679|M|76.70,37.90|Z|0069;Feralas|N|From Elder Grimtotem located at Lariss Pavilion.|
-F Cenarion Hold|AVAILABLE|8719|M|75.4,44.2|Z|0069;Feralas|N|{update Coords}Fly to Cenarion Hold in Silithus.|FLY|OLD|
-F Zidormi|AVAILABLE|8654|M|78.8,21.8|Z|0081;Silithus|N|{update Coords}If you have finished the Antarus raid, you will need to talk to Zidormi before you can see the elders.|CHAT|
+F Cenarion Hold|AVAILABLE|8719|M|75.44,44.36|Z|0069;Feralas|N|Fly from Camp Mojache to Cenarion Hold in Silithus.|FLY|OLD|
+N Zidormi|AVAILABLE|8654|M|78.93,21.96|Z|0081;Silithus|N|Because of phasing, you'll need to talk to Zidormi before you can see the elders.\n[color=FF0000]NOTE: [/color]If she's not there, manually check this step off to continue.|BUFF|255152|CHAT|
 A Primestone the Elder|QID|8654|M|30.80,13.31|Z|0081;Silithus|N|From Elder Primestone, Silithus.|
 A Bladesing the Elder|QID|8719|M|53.02,35.47|Z|0081;Silithus|N|From Elder Bladesing, Silithus.|
 
-F Oasis of Vir'sar|AVAILABLE|29741|M|52.7,34.4|Z|0081;Silithus|N|{update Coords}Fly to Oasis of Vir'sar.|FLY|OLD|
-A Sekhemi the Elder|QID|29741|M|31.59,62.99|Z|0249;Uldum|N|From Elder Sekhemi|
+F Oasis of Vir'sar|AVAILABLE|29741|M|52.78,34.63|Z|0081;Silithus|N|Fly to Oasis of Vir'sar.|FLY|OLD|
+A Sekhemi the Elder|QID|29741|M|31.59,62.99|Z|0249;Uldum|N|From Elder Sekhemi in the Ruins of Ammon.|
 A Menkhaf the Elder|QID|29742|M|65.52,18.68|Z|0249;Uldum|N|From Elder Menkhaf|
-F Marshal's Stand|AVAILABLE|8681|LEAD|29742|M|52.7,34.4|Z|0081;Silithus|N|{update Coords}Fly to Marshal's Stand in Un'Goro Crater.|FLY|OLD|
+F Marshal's Stand|AVAILABLE|8681|M|56.19,33.60|Z|0249;Uldum|N|Fly from Ramkahen to Marshal's Stand in Un'Goro Crater.|FLY|OLD|;LEAD|29742|
 A Thunderhorn the Elder|QID|8681|M|50.38,76.16|Z|0078;Un'Goro Crater!Kalimdor|N|From Elder Thunderhorn.|
-R Marshal's Stand|AVAILABLE|8681|M|56,64|Z|0078;Un'Goro Crater!Kalimdor|N|Fly to Marshal's Stand in Un'Goro Crater.|FLY|OLD|
-F Dawnrise Expedition|AVAILABLE|8671|M|56,64|Z|0078;Un'Goro Crater!Kalimdor|N|Fly to Dawnrise Expedition in Tanaris.|FLY|OLD|
+F Dawnrise Expedition|AVAILABLE|8671|M|55.98,64.16|Z|0078;Un'Goro Crater!Kalimdor|N|Fly from Marshal's Stand to Dawnrise Expedition in Tanaris.|FLY|OLD|
 A Ragetotem the Elder|QID|8671|M|37.24,79.06|Z|0071;Tanaris|N|From Elder Ragetotem.|
-F Gadgetzan|AVAILABLE|8684|M|33.2,77.2|Z|0071;Tanaris|N|{update Coords}Fly to Gadgetzan in Tanaris.|FLY|OLD|
+F Gadgetzan|AVAILABLE|8684|M|33.30,77.37|Z|0071;Tanaris|N|Fly from Dawnrise Expedition to Gadgetzan in Tanaris.|FLY|OLD|
 A Dreamseer the Elder|QID|8684|M|51.40,28.80|Z|0071;Tanaris|N|From Elder Dreamseer.|
-R Zul'Farrak|AVAILABLE|8676|M|39.23,21.21|CC|Z|0071;Tanaris|N|Run into the Zul'Farrak instance.|RANK|2|
-A Wildmane the Elder|QID|8676|M|57.14,55.20;46.65,49.33;34.49,39.36|CS|Z|0219;Zul'Farrak!Instance|N|From Elder Wildmane. Unfortunately Bliz disabled the arrow here, but the path is marked on your world map.|RANK|2|
-F Fizzle&Pozzik's Speedbarge|AVAILABLE|8724|M|52.0,27.6|Z|0071;Tanaris|N|{update Coords}Fly to Fizzle&Pozzik's Speedbarge in Thousand Needles.|FLY|OLD|
+R Zul'Farrak Instance|AVAILABLE|8676|M|39.22,21.25|CC|Z|0071;Tanaris|N|Run to Zul'Farrak and enter the instance through the arch.|RANK|2|
+A Wildmane the Elder|QID|8676|M|57.14,55.20;46.65,49.33;34.49,39.36|CS|Z|0219;Zul'Farrak!Instance|N|From Elder Wildmane.\n[color=FF0000]NOTE: [/color]Unfortunately, the arrow doesn't work here, but the waypoints are marked on your world map.|RANK|2|
+F Fizzle & Pozzik's Speedbarge|AVAILABLE|8724|M|52.04,27.61|Z|0071;Tanaris|N|Fly from Gadgetzan to Fizzle & Pozzik's Speedbarge in Thousand Needles.|FLY|OLD|
 A Morningdew the Elder|QID|8724|M|77.08,75.61|Z|0064;Thousand Needles|N|From Elder Morningdew.|
-A Skyseer the Elder|QID|8682|M|46.34,51.01|Z|0064;Thousand Needles|N|From Elder Skyseer, Thousand Needles.|
-F Ratchet|AVAILABLE|8680|M|79.15,71.93|Z|0064;Thousand Needles|N|Fly to Ratchet in Northern Barrens.|FLY|OLD|
-A Windtotem the Elder|QID|8680|M|68.36,69.96|Z|0010;Northern Barrens|N|From Elder Windtotem.|
-b Booty Bay|AVAILABLE|8674|M|70.9,72.56|Z|0010;Northern Barrens|N|{update Coords}Catch the boat to Booty Bay.|
+A Skyseer the Elder|QID|8682|M|46.34,51.01|Z|0064;Thousand Needles|N|From Elder Skyseer in Freewind Post.|
+F Ratchet|AVAILABLE|8680|M|79.20,71.88|Z|0064;Thousand Needles|N|Fly from Fizzle & Pozzik's Speedbarge to Ratchet in Northern Barrens.|FLY|OLD|
+A Windtotem the Elder|QID|8680|M|68.36,69.96|Z|0010;Northern Barrens|N|From Elder Windtotem.\n[color=FF0000]NOTE: [/color]This should finish Elders of Kalimdor if you ran RANK 3.|
+b Booty Bay|AVAILABLE|8674|M|70.19,73.26|Z|0010;Northern Barrens|N|Take the boat from ratchet to Booty Bay.|
 
 A Winterhoof the Elder|QID|8674|M|39.96,72.52|Z|0210;The Cape of Stranglethorn|N|From Elder Winterhoof.|
-F Bambala|AVAILABLE|8716|M|40.6,73.2|Z|0210;The Cape of Stranglethorn|N|{update Coords}Fly to Bambala in Northern Stranglethorn.|RANK|2|FLY|OLD|
-A Starglade the Elder|QID|8716|M|71.04,34.30|Z|0050;Northern Stranglethorn|N|From Elder Starglade.|
+F Bambala|AVAILABLE|8716|M|70.19,73.26|Z|0210;The Cape of Stranglethorn|N|Fly from Booty Bay to Bambala in Northern Stranglethorn.|RANK|2|FLY|OLD|
+A Starglade the Elder|QID|8716|M|71.04,34.30|Z|0050;Northern Stranglethorn|N|From Elder Starglade in Zul'Gurub.|
+F Stonard|AVAILABLE|8647|M|62.39,39.23|Z|0050;Northern Stranglethorn|N|Fly from Bambala to Stonard in Swamp of Sorrows.|FLY|OLD|
 R Blasted Lands|AVAILABLE|8647|M|48.16,7.28|Z|0017;Blasted Lands|N|Run to Blasted Lands|
 N Zidormi|AVAILABLE|8647|M|48.16,7.28|Z|0017;Blasted Lands|N|Chat with Zidormi to turn the area back to pre-WOD invasion state. You will need to manually check this step off.|CHAT|
 R The Dark Portal|AVAILABLE|8647|M|54.3,49.5|Z|0017;Blasted Lands|N|{update Coords}Head over to the Dark Portal.|
