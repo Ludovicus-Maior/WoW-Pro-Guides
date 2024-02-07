@@ -151,7 +151,7 @@ F Valgarde|N|Fly to Valgarde.|QID|13017|M|48.4,74.4|Z|Dragonblight|
 R Utgarde Keep|N|Head inside Utgarde Keep.|QID|13017|M|57.32,46.86|Z|Howling Fjord|RANK|2|
 A Jarten the Elder|N|From Jarten the Elder, at the Njorn Stair.|QID|13017|M|47.41,69.55|Z|Njorndir Preparation@UtgardeKeep|RANK|2|
 R Utgarde Pinnacle|N|Head out of Utgarde Keep, then run around north of the Keep to get to Utgarde Pinnacle.|QID|13067|M|57.25,46.63|Z|Howling Fjord|RANK|3|
-A Chogan'gada the Elder|N|From Chogan'gada the Elder, at the Lower Pinnacle Ruined Court, under the stairs. May not show right on the map.|QID|13067|M|48.79,23.14|Z|Lower Pinnacle@UtgardePinnacle|RANK|3|
+A Chogan'gada the Elder|N|From Chogan'gada the Elder, at the Lower Pinnacle Ruined Court, under the stairs.|QID|13067|M|48.79,23.14|Z|Lower Pinnacle@UtgardePinnacle|RANK|3|
 
 F Amberpine Lodge|N|Fly to Amberpine Lodge.|QID|13030|M|59.79,63.24|Z|Howling Fjord|
 A Whurain the Elder|N|From Whurain the Elder.|QID|13030|M|64.2,47|Z|Grizzly Hills|T|Elder Whurain|
@@ -165,13 +165,13 @@ R Zim'Torga|N|Head to Zim'Torga.|QID|13027|M|58.8,56|Z|Zul'Drak|
 A Tauros the Elder|N|From Tauros the Elder.|QID|13027|M|58.91,55.97|Z|Zul'Drak|
 
 R Gundrak|N|Head inside of Gundrak.|QID|13065|M|76.43,21.43|Z|Zul'Drak|RANK|3|
-A Ohanzee the Elder|N|From Ohanzee the Elder, behind the Drakkari Colossus. May not show right on map.|QID|13065|M|45.64,61.50|Z|Gundrak!Dungeon|RANK|3|
+A Ohanzee the Elder|N|From Ohanzee the Elder, behind the Drakkari Colossus.|QID|13065|M|45.64,61.50|Z|Gundrak!Dungeon|RANK|3|
 
 R Camp Tunka'lo|N|Leave Gundrak and head over to Camp Tunka'lo.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|
 A Muraco the Elder|N|From Muraco the Elder.|QID|13032|M|64.6,51.2|Z|The Storm Peaks|T|Elder Muraco|
 
 R Halls of Stone|N|Run into the Halls of Stone.|QID|13066|M|39.57,26.92|Z|The Storm Peaks|RANK|3|
-A Yurauk the Elder|N|From Yurauk the Elder, in the Crystalline Quarry. May not show right on map.|QID|13066|M|29.39,62.06|Z|Halls of Stone!Dungeon140|RANK|3|
+A Yurauk the Elder|N|From Yurauk the Elder, in the Crystalline Quarry.|QID|13066|M|29.39,62.06|Z|Halls of Stone!Dungeon140|RANK|3|
 
 A Stonebeard the Elder|N|From Stonebeard the Elder, at Bouldercrag's Refuge.|QID|13020|M|31.26,37.61|Z|The Storm Peaks|
 A Fargal the Elder|N|From Fargal the Elder.|QID|13015|M|28.89,73.72|Z|The Storm Peaks|
@@ -206,14 +206,14 @@ A Menkhaf the Elder|QID|29742|M|65.52,18.68|Z|Uldum|N|From Elder Menkhaf|
 A Sekhemi the Elder|QID|29741|M|31.59,62.99|Z|Uldum|N|From Elder Sekhemi|
 
 A Lunar Preservation|QID|56842|M|53.2,36.0|Z|Moonglade|N|From Myrael Lunarbloom|
-C Moonglade Moonwell|QID|56842|M|48.4,33.5|Z|Moonglade|N|Just a short hop away. Right click when done.|EAB|
-C Felwood Moonwell|QID|56842|M|44.0, 28.3|Z|Felwood|N|Stop #2. Right click when done.|EAB|
-C Ashenvale Moonwell 1|QID|56842|M|53.0, 46.0|Z|Ashenvale|N|Stop #3. Right click when done.|EAB|
-C Ashenvale Moonwell 2|QID|56842|M|60.1, 72.8|Z|Ashenvale|N|Stop #4. Right click when done.|EAB|
-C Stonetalon Moonwell|QID|56842|M|41.7, 19.0|Z|Stonetalon Mountains|N|Stop #5. Right click when done.|EAB|
-C Dire Maul Moonwell|QID|56842|M|60.0, 46.0|Z|Feralas|N|Stop #6. Right click when done.|EAB|
-C Duskwood Moonwell|QID|56842|M|49.1, 33.6|Z|Duskwood|N|Stop #7. Right click when done.|EAB|
-C Mount Hyjal Moonwell|QID|56842|M|60.0, 24.0|Z|Mount Hyjal|N|Stop #8. Right click when done.|EAB|
+C Moonglade Moonwell|QID|56842|M|48.4,33.5|Z|Moonglade|N|Just a short hop away.|BUFF|303601<1|EAB|
+C Felwood Moonwell|QID|56842|M|44.0, 28.3|Z|Felwood|N|Stop #2.|BUFF|303601<2|EAB|
+C Ashenvale Moonwell 1|QID|56842|M|53.0, 46.0|Z|Ashenvale|N|Stop #3.|BUFF|303601<3|EAB|
+C Ashenvale Moonwell 2|QID|56842|M|60.1, 72.8|Z|Ashenvale|N|Stop #4.|BUFF|303601<4|EAB|
+C Stonetalon Moonwell|QID|56842|M|41.7, 19.0|Z|Stonetalon Mountains|N|Stop #5.|BUFF|303601<5|EAB|
+C Dire Maul Moonwell|QID|56842|M|60.0, 46.0|Z|Feralas|N|Stop #6.|BUFF|303601<6|EAB|
+C Duskwood Moonwell|QID|56842|M|49.1, 33.6|Z|Duskwood|N|Stop #7.|BUFF|303601<7|EAB|
+C Mount Hyjal Moonwell|QID|56842|M|60.0, 24.0|Z|Mount Hyjal|N|Stop #8.|BUFF|303601<8|EAB|
 T Lunar Preservation|QID|56842|M|53.2,36.0|Z|Moonglade|N|To Myrael Lunarbloom|
 
 N The End |N|That's all for this year.|
