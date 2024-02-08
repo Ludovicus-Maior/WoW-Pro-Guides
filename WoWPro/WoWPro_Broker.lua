@@ -1218,7 +1218,7 @@ if step then
         WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
         local LogBox = WoWPro.LogBox
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
-        local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\n\The Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
+        local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\n\\The Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
         local Sindex = WoWPro.rows[currentRow.num].index
 
         text = text .. "\n|cffffff00Guide Info:|r\n"
