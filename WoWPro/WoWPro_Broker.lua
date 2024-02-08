@@ -1170,39 +1170,55 @@ if step then
         )
     end
     if QID then
-        -- Extract the portion of the QID before the caret
         local questId = string.match(QID, "([^%^]*)")
 
         tinsert(dropdown,
         {text = "Wowhead Link", func = function()
             local link = "https://www.wowhead.com/quest=" .. questId
 
-            -- Create a new EditBox each time
-            local newEditBox = _G.CreateFrame("EditBox", "WowheadLinkBox" .. questId, _G.UIParent, "InputBoxTemplate")
-            newEditBox:SetAutoFocus(true)  -- Automatically focus the EditBox
-            newEditBox:SetWidth(245)  -- Set the width of the EditBox
-            newEditBox:SetHeight(32)  -- Set the height of the EditBox
+            local newEditBox = _G.CreateFrame("Frame", "WowheadLinkBox" .. questId, _G.UIParent)
+            newEditBox:SetSize(300, 100)
             newEditBox:SetPoint("CENTER")
-            newEditBox:SetText(link)
-            newEditBox:HighlightText()
+            newEditBox:SetFrameStrata("DIALOG")
 
-            -- Create a header for the EditBox
-            local header = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-            header:SetPoint("TOP", newEditBox, "TOP", 0, 15)
-            header:SetText("Press Esc to close this box after each link")
+            local texture = newEditBox:CreateTexture(nil, "BACKGROUND")
+            texture:SetAllPoints(true)
+            texture:SetColorTexture(0.1, 0.1, 0.1, 0.8)
 
-            -- Add a script to hide the EditBox when the user presses 'Enter' or 'Escape'
-            newEditBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
-        end}
-    )
+            local titleBar = newEditBox:CreateTexture(nil, "OVERLAY")
+            titleBar:SetHeight(24)
+            titleBar:SetPoint("TOPLEFT", 10, -10)
+            titleBar:SetPoint("TOPRIGHT", -10, -10)
+            titleBar:SetColorTexture(0, 0, 0, 0)
+
+            local title = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+            title:SetPoint("TOP", titleBar, "TOP", 0, -6)
+            title:SetText("Wowhead Link")
+
+            local editBox = _G.CreateFrame("EditBox", nil, newEditBox, "InputBoxTemplate")
+            editBox:SetAutoFocus(true)
+            editBox:SetWidth(260)
+            editBox:SetHeight(32)
+            editBox:SetPoint("TOP", titleBar, "BOTTOM", 0, -10)
+            editBox:SetText(link)
+            editBox:HighlightText()
+
+            local closeButton = _G.CreateFrame("Button", nil, newEditBox, "UIPanelCloseButton")
+            closeButton:SetPoint("TOPRIGHT")
+            closeButton:SetScript("OnClick", function() newEditBox:Hide() end)
+
+            editBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
+            end}
+        )
     end
+
     WoWPro.RowDropdownMenu[i] = dropdown
     tinsert(dropdown,
     {text = "Report an Issue", func = function()
         WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
         local LogBox = WoWPro.LogBox
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
-        local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
+        local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
         local Sindex = WoWPro.rows[currentRow.num].index
 
         text = text .. "\n|cffffff00Guide Info:|r\n"

@@ -1,10 +1,10 @@
-## Interface: 11500
+## Interface: 11501
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Achievements
 ## Notes: World Achievements guides created by the WoW-Pro Community
 ## Author: Twists
 ## IconTexture: Interface\ICONS\Achievement_General_StayClassy
 ## Dependencies: WoWPro
-## Version: 2024.01.22.A
+## Version: 2024.02.08.A
 ## DefaultState: disabled
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
