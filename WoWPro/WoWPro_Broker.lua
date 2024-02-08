@@ -1177,22 +1177,38 @@ if step then
         {text = "Wowhead Link", func = function()
             local link = "https://www.wowhead.com/quest=" .. questId
 
-            -- Create a new EditBox each time
-            local newEditBox = _G.CreateFrame("EditBox", "WowheadLinkBox" .. questId, _G.UIParent, "InputBoxTemplate")
-            newEditBox:SetAutoFocus(true)  -- Automatically focus the EditBox
-            newEditBox:SetWidth(245)  -- Set the width of the EditBox
-            newEditBox:SetHeight(32)  -- Set the height of the EditBox
-            newEditBox:SetPoint("CENTER")
-            newEditBox:SetText(link)
-            newEditBox:HighlightText()
+        -- Create a new EditBox each time
+        local newEditBox = _G.CreateFrame("Frame", "WowheadLinkBox" .. questId, _G.UIParent, BackdropTemplateMixin and "BackdropTemplate")
+        newEditBox:SetSize(300, 100)
+        newEditBox:SetPoint("CENTER")
+        newEditBox:SetFrameStrata("DIALOG")
 
-            -- Create a header for the EditBox
-            local header = newEditBox:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-            header:SetPoint("TOP", newEditBox, "TOP", 0, 15)
-            header:SetText("Press Esc to close this box after each link")
+        -- Create a texture for the frame
+        local texture = newEditBox:CreateTexture(nil, "BACKGROUND")
+        texture:SetAllPoints(true)
+        texture:SetColorTexture(0, 0, 0, 0.5)  -- semi-transparent black
 
-            -- Add a script to hide the EditBox when the user presses 'Enter' or 'Escape'
-            newEditBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
+        -- Create the EditBox
+        local editBox = _G.CreateFrame("EditBox", nil, newEditBox, "InputBoxTemplate")
+        editBox:SetAutoFocus(true)
+        editBox:SetWidth(245)
+        editBox:SetHeight(32)
+        editBox:SetPoint("CENTER")
+        editBox:SetText(link)
+        editBox:HighlightText()
+
+        -- Create a header for the EditBox
+        local header = editBox:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+        header:SetPoint("BOTTOM", editBox, "TOP", 0, 0)
+        header:SetText("Wowhead Link")
+
+        -- Create a close button
+        local closeButton = _G.CreateFrame("Button", nil, newEditBox, "UIPanelCloseButton")
+        closeButton:SetPoint("TOPRIGHT")
+        closeButton:SetScript("OnClick", function() newEditBox:Hide() end)
+
+        -- Add a script to hide the EditBox when the user presses 'Enter' or 'Escape'
+        editBox:SetScript("OnEscapePressed", function() newEditBox:Hide() end)
         end}
     )
     end
@@ -1202,7 +1218,7 @@ if step then
         WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
         local LogBox = WoWPro.LogBox
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
-        local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
+        local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\n\The Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
         local Sindex = WoWPro.rows[currentRow.num].index
 
         text = text .. "\n|cffffff00Guide Info:|r\n"

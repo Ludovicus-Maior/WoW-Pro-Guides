@@ -5,7 +5,7 @@
 local guide = WoWPro:RegisterGuide("BlancLeatherBfA","Profession","Leatherworking_BfA", "WoWPro Team", "Neutral")
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Leatherworking_BattleforAzeroth")
+WoWPro:GuideName(guide, "Leatherworking_Battle for Azeroth")
 WoWPro:GuideNickname(guide, "LTW_BfA")
 WoWPro:GuideSteps(guide, function()
 return [[
