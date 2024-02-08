@@ -1,3 +1,16 @@
+# Release 2024.02.08.A
+## Bug Fixes
+* Mr. Esthetic Tweaks (Spoony) made things nicer looking in many places
+* Direct opening of tabs in the config panel now works right
+* *Current Guide* will be moved from a submenu to a tab, but is not ready for release
+* A look-alike to the old *Guide Select* will appear as a tab, but is not ready for release
+## Guide Updates
+* 64 Retail Leveling guide tweaks, including flying cleanups
+* 14 Retail Profession guide tweaks, including profession treasure guides
+* Retail Lunar Festival and Love is in the Air cleanups!
+* Classic Alliance Teldrassil 01-12 cleanup
+
+
 # Release 2024.01.22.A
 ## Bug Fixes
 * Current Guides menu now open in center of screen
