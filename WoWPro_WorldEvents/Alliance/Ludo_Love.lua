@@ -5,7 +5,7 @@ WoWPro:GuideIcon(guide,"ACH",1695)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Start in a capital city other than Stormwind...|QID|24804|LEAD|24655|N|The starter quests are at Darnassus, Exodar, and Ironforge.|
+N Start in a capital City other than Stormwind...|QID|78329|LEAD|78328|N|The starter quests are at Darnassus, Exodar, and Ironforge.|
 
 A Love is in the Air|QID|78329|M|32.58,67.13|Z|87; Ironforge|N|From Gabbo Blinkwink|IZ|87; Ironforge|
 A Love is in the Air|QID|78329|M|45.39,57.63|Z|89;Darnassus|N|From Gabbo Blinkwink|IZ|89;Darnassus|
@@ -30,16 +30,16 @@ T Take a Look Around|QID|78328|M|32.22,49.45|Z|37; Elwynn|N|To Luciana Delgado.|
 
 A I Smell Trouble|QID|78332|M|32.19,50.07|Z|37; Elwynn|N|From Inspector Snip Snagglebolt.|
 
-C I Smell Trouble|QID|78332|QO|1|M|62.10,74.10|Z|84; Stormwind CIty|N|From Inspector Snip Snagglebolt.|U|210332|
-C I Smell Trouble|QID|78332|QO|2|M|61.64,76.61|Z|84; Stormwind CIty|N|First Clue Found.|U|210332|H|
-C I Smell Trouble|QID|78332|QO|3|M|60.04,63.26|Z|84; Stormwind CIty|N|Second Clue Found.|U|210332|H|
-C I Smell Trouble|QID|78332|QO|4|M|65.45,41.44|Z|84; Stormwind CIty|N|Third Clue Found.|U|210332|H|
+C I Smell Trouble|QID|78332|QO|1|M|62.10,74.10|Z|84; Stormwind City|N|Use O.D.I.E.'s Remote and then follow him.|U|210332|
+C I Smell Trouble|QID|78332|QO|2|M|61.64,76.61|Z|84; Stormwind City|N|First Clue Found.|U|210332|H|
+C I Smell Trouble|QID|78332|QO|3|M|60.04,63.26|Z|84; Stormwind City|N|Second Clue Found.|U|210332|H|
+C I Smell Trouble|QID|78332|QO|4|M|65.45,41.44|Z|84; Stormwind City|N|Third Clue Found.|U|210332|H|
 
-T I Smell Trouble|QID|78332|M|PLAYER|Z|84; Stormwind CIty|N|To Inspector Snip Snagglebolt.|
+T I Smell Trouble|QID|78332|M|PLAYER|Z|84; Stormwind City|N|To Inspector Snip Snagglebolt.|
 
-A An Unwelcome Gift|QID|78337|M|PLAYER|Z|84; Stormwind CIty|N|From Inspector Snip Snagglebolt.|
+A An Unwelcome Gift|QID|78337|M|PLAYER|Z|84; Stormwind City|N|From Inspector Snip Snagglebolt.|
 
-C An Unwelcome Gift|QID|78337|QO|1|M|64.26,56.35|Z|84; Stormwind CIty|N|Use the remote to sniff out the Chemical Co. memebers and then merc them.|U|211208|
+C An Unwelcome Gift|QID|78337|QO|1|M|64.26,56.35|Z|84; Stormwind City|N|Use the remote to sniff out the Chemical Co. memebers and then merc them.|U|211208|
 
 T An Unwelcome Gift|QID|78337|M|PLAYER|Z|84; Stormwind City|N|To Inspector Snip Snagglebolt.|
 
@@ -59,12 +59,11 @@ T Crushing the Crown|QID|78369|M|45.77,68.42|Z|21; Silverpine Forest|N|To Inspec
 
 A The Stench of Revenge|QID|78379|M|45.77,68.42|Z|21; Silverpine Forest|N|From Inspector Snip Snagglebolt|
 C The Stench of Revenge|QID|78379|M|45.77,68.42|Z|21; Silverpine Forest|N|Talk to Inspector Snip Snagglebolt, and enter the dungeon.|
-R Stormwind City|ACTIVE|78379|M|62.10,74.10|Z|84; Stormwind CIty|N|From Inspector Snip Snagglebolt.|FLY|OLD|
+R Stormwind City|ACTIVE|78379|M|62.10,74.10|Z|84; Stormwind City|N|Make your way back to Stormwind by any means necessary.|
 T The Stench of Revenge|QID|78379|M|32.19,50.07|Z|37; Elwynn|N|From Inspector Snip Snagglebolt.|
 
 ;Daily's
-A Gabbo Blinkwink's Daily Quest|QID|78565|M|34.29,51.43|Z|37; Elwynn|N|From Gabbo Blinkwink|
-A Ying's Daily Quests|QID|78664^78726|M|35.11,50.42|Z|37; Elwynn|N|From Ying|
+A Gabbo Blinkwink's Daily Quest|QID|78565^78594^78591|M|34.29,51.43|Z|37; Elwynn|N|From Gabbo Blinkwink|
 
 P Grizzly Hills|ACTIVE|78565|QO|1|M|34.29,51.43|Z|37; Elwynn|N|Take the portal to Grizzly Hills.|
 C Getaway to Scenic Grizzly Hills!|QID|78565|QO|2|M|70.43,45.36|Z|116; Grizzly Hills|N|Pick some flowers. You will be attacked after each flower.|H|
@@ -72,12 +71,45 @@ P Stormwind City|ACTIVE|78565|QO|3|M|76.99,49.09|Z|116; Grizzly Hills|N|Take the
 C Getaway to Scenic Grizzly Hills!|QID|78565|QO|4|M|34.26,51.53|Z|37; Elwynn|N|Give the flowers to Gabbo.|CHAT|
 T Getaway to Scenic Grizzly Hills!|QID|78565|M|34.26,51.53|Z|37; Elwynn|N|To Gabbo Blinkwink.|
 
+P Feralas|ACTIVE|78594|QO|1|M|34.29,51.43|Z|37; Elwynn|N|Take the portal to Feralas.|
+C Getaway to Scenic Feralas!|QID|78594|QO|2|M|69.45,73.29|Z|69; Feralas|N|Grab the gift off the table.|H|
+C Getaway to Scenic Feralas!|QID|78594|QO|3|M|69.45,73.29|Z|69; Feralas|N|Talk to the patrons around the area to return their gifts.|CHAT|
+C Getaway to Scenic Feralas!|QID|78594|QO|4|M|69.45,73.29|Z|69; Feralas|N|Grab the gift off the table.|H|
+P Stormwind City|ACTIVE|78594|QO|5|M|70.06,74.56|Z|69; Feralas|N|Take the portal to Stormwind.|
+C Getaway to Scenic Feralas!|QID|78594|QO|6|M|34.21,48.83|Z|37; Elwynn|N|Gift returned to Sylandra Silverbreeze.|CHAT|
+T Getaway to Scenic Feralas!|QID|78594|M|34.26,51.53|Z|37; Elwynn|N|To Gabbo Blinkwink.|
+
+P Nagrand|ACTIVE|78591|QO|1|M|34.29,51.43|Z|37; Elwynn|N|Take the portal to Nagrand.|
+C Getaway to Scenic Nagrand!|QID|78591|QO|2|M|52.43,45.18|Z|107; Nagrand!Outlands|N|Take a picture of Toothy.|U|210743|
+C Getaway to Scenic Nagrand!|QID|78591|QO|5|M|49.25,40.26|Z|107; Nagrand!Outlands|N|Take a picture of Swifthorn the Timid.|U|210743|
+C Getaway to Scenic Nagrand!|QID|78591|QO|4|M|41.63,59.09|Z|107; Nagrand!Outlands|N|Take a picture of Great White Elekk.|U|210743|
+C Getaway to Scenic Nagrand!|QID|78591|QO|3|M|36.45,58.13|Z|107; Nagrand!Outlands|N|Take a picture of Soaring Windroc.|U|210743|
+C Getaway to Scenic Nagrand!|QID|78591|QO|6|M|28.72,46.49|Z|107; Nagrand!Outlands|N|Talk to Batrice and give her the pictures.|CHAT|
+P Stormwind Gate|ACTIVE|78591|QO|7|M|49.67,46.33|Z|107; Nagrand!Outlands|N|Take the portal back to Stormwind.|
+C Getaway to Scenic Nagrand!|QID|78591|QO|8|M|33.50,50.04|Z|37; Elwynn|N|Show Maurice the photos.|CHAT|
+T Getaway to Scenic Nagrand!|QID|78591|M|34.26,51.53|Z|37; Elwynn|N|To Gabbo Blinkwink.|
+
+
+A Ying's Daily Quests|QID|78664^78726^78679^78674|M|35.11,50.42|Z|37; Elwynn|N|From Ying|
+
 C The Gift of Self-Care|QID|78664|M|35.11,50.42|Z|37; Elwynn|N|Speak with Ying, any option is fine.|CHAT|
 T The Gift of Self-Care|QID|78664|M|35.11,50.42|Z|37; Elwynn|N|To Ying.|
+
+C The Gift of Relaxation|QID|78679|QO|1|M|34.64,48.25|Z|37; Elwynn|N|Speak with Bordol Dewgarden.|CHAT|
+C The Gift of Relaxation|QID|78679|QO|2|M|59.18,10.14|Z|84; Stormwind|N|Learn to relax. U can sit down and read a book, pet a fluffy or chill in a boat. The easiest is just to read a book.|H|
+T The Gift of Relaxation|QID|78679|M|34.64,48.25|Z|37; Elwynn|N|To Bordol Dewgarden.|
+
+C The Gift of Relief|QID|78674|QO|1|M|33.89,50.58|Z|37; Elwynn|N|Talk to Simeon Griswold|CHAT|
+C The Gift of Relief|QID|78674|QO|2|M|78.91,63.80|Z|84; Stormwind City|N|Learn to relieve some stress. You can yell, you can hit things.|EAB|
+T The Gift of Relief|QID|78674|M|33.89,50.58|Z|37; Elwynn|N|To Simeon Griswold|
+
 
 C Loving Yourself, Your Way|QID|78726|M|35.11,50.42|Z|37; Elwynn|N|Purchase 5 Treat Packages and then eat them.|CHAT|
 T Loving Yourself, Your Way|QID|78726|M|35.11,50.42|Z|37; Elwynn|N|To Ying|
 
+
+
+;Dead quests
 ;A Uncommon Scents|QID|24804|LEAD|24655|M|76.00,57.74|Z|The Exodar|N|From Junior Inspector, The Exodar|IZ|103;Exodar|
 ;A Uncommon Scents|QID|24804|LEAD|24655|M|45.05,56.42|Z|Darnassus|N|From Junior Inspector, Darnassus|IZ|89;Darnassus|
 ;A Uncommon Scents|QID|24804|LEAD|24655|M|35.38,69.01|Z|Ironforge|N|From Junior Inspector, Ironforge|IZ|87;Ironforge|
