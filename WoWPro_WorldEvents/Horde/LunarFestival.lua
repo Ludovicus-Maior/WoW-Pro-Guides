@@ -85,29 +85,31 @@ F Bambala|AVAILABLE|8716|M|70.19,73.26|Z|0210;The Cape of Stranglethorn|N|Fly fr
 A Starglade the Elder|QID|8716|M|71.04,34.30|Z|0050;Northern Stranglethorn|N|From Elder Starglade in Zul'Gurub.|
 F Stonard|AVAILABLE|8647|M|62.39,39.23|Z|0050;Northern Stranglethorn|N|Fly from Bambala to Stonard in Swamp of Sorrows.|FLY|OLD|
 R Blasted Lands|AVAILABLE|8647|M|48.16,7.28|Z|0017;Blasted Lands|N|Run to Blasted Lands|
-N Zidormi|AVAILABLE|8647|M|48.16,7.28|Z|0017;Blasted Lands|N|Chat with Zidormi to turn the area back to pre-WOD invasion state. You will need to manually check this step off.|CHAT|
-R The Dark Portal|AVAILABLE|8647|M|54.3,49.5|Z|0017;Blasted Lands|N|{update Coords}Head over to the Dark Portal.|
+N Zidormi|AVAILABLE|8647|M|48.16,7.28|Z|0017;Blasted Lands|N|Chat with Zidormi in the Blasted Lands to turn the area back to pre-WOD invasion state.|CHAT|BUFF|176111|
+R The Dark Portal|AVAILABLE|8647|M|53.66,42.09|Z|0017;Blasted Lands|N|Head over to the Dark Portal.|FLY|OLD|
 A Bellowrage the Elder|QID|8647|M|54.3,49.5|Z|0017;Blasted Lands|N|{update Coords}From Elder Bellowrage.|
-N Optional - Zidormi|AVAILABLE|8713|M|48.16,7.28|Z|0017;Blasted Lands|N|Chat with Zidormi to turn the area return post-WOD invasion state. You will need to manually check this step off. You can skip this step if you don't care which state Blasted Lands is in.|CHAT|
-R The Temple of Atal'Hakkar|AVAILABLE|8713|M|69.37,53.07|Z|0051;Swamp of Sorrows|N|Head North to Swamp of Sworrows and into the Temple of Atal'Hakkar.|RANK|2|
-R Hall of Masks|AVAILABLE|8713|M|70.18,50.44;75.99,45.22|CS|Z|0051;Swamp of Sorrows|N|Head inside the Temple down into the Hall of Masks|RANK|2|
-A Starsong the Elder|QID|8713|M|62.90,34.47|Z|0220;The Temple of Atal'Hakkar!Dungeon|N|From Elder Starsong to your left right after you go inside the instance.|RANK|2|
-R Exit The Temple|AVAILABLE|8675|M|49.9,18.4|CC|Z|0220;The Temple of Atal'Hakkar!Dungeon|N|{update Coords}Get back out of the instance.|RANK|2|
-R Westfall|AVAILABLE|8675|M|56.6,47|Z|0052;Westfall|N|{update Coords}Head to Westfall.|
-A Skychaser the Elder|QID|8675|M|56.64,47.09|Z|0052;Westfall|N|From Elder Skychaser.|T|Elder Skychaser. If agro is a problem, hover beside the tower instead of landing.|
-R Elwynn Forest|AVAILABLE|8649|M|39.6,63.5|Z|0037;Elwynn Forest|N|{update Coords}Run North to Elwynn Forest.|
+R The Temple of Atal'Hakkar|AVAILABLE|8713|M|69.37,53.07|Z|0051;Swamp of Sorrows|N|Return north to Swamp of Sworrows and make your way to the Temple of Atal'Hakkar.|RANK|2|
+R Hall of Masks|AVAILABLE|8713|M|70.18,50.44;75.99,45.22|CS|Z|0051;Swamp of Sorrows|N|Head down the stairs and through the Broken Hall into the Hall of Masks.|RANK|2|
+A Starsong the Elder|QID|8713|M|62.90,34.47|Z|0220;The Temple of Atal'Hakkar!Dungeon|N|From Elder Starsong in the first alcove to your left after you enter the Pit of Sacrifice.\n[color=FF0000]NOTE: [/color]The arrow doesn't work here, but the waypoint is marked on your world map.\nThis one may involve a couple unavoidable fights with lv 30 mobs.|RANK|2|
+;R Exit The Temple|AVAILABLE|8675|M|49.9,18.4|CC|Z|0220;The Temple of Atal'Hakkar!Dungeon|N|Get back out of the instance.|RANK|2| ** These coordinates don't work here - Hendo72
+R Exit the Instance|AVAILABLE|8675|N|Walk out of the Instance|IZ|0220;The Temple of Atal'Hakkar!Dungeon|
+R Exit The Temple|AVAILABLE|8675|M|71.31,43.74;69.57,54.11|CS|Z|0051;Swamp of Sorrows|N|Work your way back to the Temple entrance.|RANK|2|
+R Westfall|AVAILABLE|8675|M|56.64,47.09|Z|0052;Westfall|N|Head to Westfall.|
+A Skychaser the Elder|QID|8675|M|56.64,47.09|Z|0052;Westfall|N|From Elder Skychaser.|T|Elder Skychaser.|
+R Elwynn Forest|AVAILABLE|8649|M|39.79,63.67|Z|0037;Elwynn Forest|N|Head northward to Elwynn Forest.|
 A Stormbrow the Elder|QID|8649|M|39.79,63.67|Z|0037;Elwynn Forest|N|From Elder Stormbrow.|T|Elder Stormbrow|
-A Hammershout the Elder|QID|8646|M|34.56,50.25|Z|0037;Elwynn Forest|N|From Elder Hammershout.|T|Elder Hammershout|
-R Burning Steppes|AVAILABLE|8636|M|70.1,45.4|Z|0036;Burning Steppes|N|{update Coords}Time to head to Burning Steppes.|
+A Hammershout the Elder|QID|8646|M|32.12,52.81|Z|0037;Elwynn Forest|N|From Elder Hammershout.|T|Elder Hammershout|
+R Burning Steppes|AVAILABLE|8636|M|70.11,45.39|Z|0036;Burning Steppes|N|Time to head to Burning Steppes.|
 
-A Rumblerock the Elder|QID|8636|M|70.11,45.39|Z|0036;Burning Steppes|N|From Elder Rumblerock.|
-A Dawnstrider the Elder|QID|8683|M|52.37,23.94|Z|0036;Burning Steppes|N|From Elder Dawnstrider.|
+A Rumblerock the Elder|QID|8636|M|70.11,45.39|Z|0036;Burning Steppes|N|From Elder Rumblerock at Dreadmaul Rock.|
+A Dawnstrider the Elder|QID|8683|M|52.37,23.94|Z|0036;Burning Steppes|N|From Elder Dawnstrider at Flame Crest.|
 R Blackrock Mountain|AVAILABLE|8644|M|20.39,34.56|Z|0036;Burning Steppes|N|Run to Blackrock Mountain.|RANK|2|
 R Do you have a flying mount?|AVAILABLE|8644|M|63.89,44.21|CC|Z|0033;Blackrock Spire@Blackrock Mountain|N|If yes, fly up to the ledge at this waypoint. If not pass this step and follow the next steps.|RANK|2|
 R Follow the series of waypoints|AVAILABLE|8644|M|64.80,54.27;67.70,53.89;70.38,40.33|CS|Z|0033;Blackrock Spire@Blackrock Mountain|N|To get into the instance. If you flew up, manually check this off.|RANK|2|FLY|OLD|
-R Lower Blackrock Spires|AVAILABLE|8644|M|80.36,40.51|Z|0033;Blackrock Spire@Blackrock Mountain|N|With WOD, the entrance you are looking for has moved slightly, go straight forward and it will be on your right, under the walkway.|RANK|2|IZ|33|
-A Stonefort the Elder|QID|8644|M|42.31,45.00;52.18,36.98;61.82,40.08|CS|Z|0251;Skitterweb Tunnels@Blackrock Spire!Dungeon|N|Head in the instance. From Elder Stonefort.|
-R The Molten Span|AVAILABLE|8619|M|18.59,25.03|CC|Z|0036;Burning Steppes|N|Head back out of the instance and run (fly) to this waypoint at the bottom near the lava.|RANK|2|
+R Lower Blackrock Spires|AVAILABLE|8644|M|80.36,40.51|Z|0033;Blackrock Spire@Blackrock Mountain|N|With WOD, the entrance you are looking for has moved slightly, go straight forward and it will be on your right, under the walkway.|RANK|2|IZ|0033;Blackrock Spire@Blackrock Mountain|
+A Stonefort the Elder|QID|8644|M|42.31,45.00;52.18,36.98;61.82,40.08|CS|Z|0251;Skitterweb Tunnels@Blackrock Spire!Dungeon|N|From Elder Stonefort.\n[color=FF0000]NOTE: [/color]Go down the ramp and through the tunnel. Continue down the next ramp until you see the Elder on the other side of the bridge.\nThe arrow doesn't work here, but the waypoints are marked on your world map (if you switch it to Skitterweb).|
+R Exit the Instance|AVAILABLE|8619&-8644|N|Walk out of the Instance|RANK|2|IZ|0252;Hordemar City@Blackrock Spire!Dungeon^0251;Skitterweb Tunnels@Blackrock Spire!Dungeon^0253;Hall of Blackhand@Blackrock Spire!Dungeon|
+R The Molten Span|AVAILABLE|8619|M|18.59,25.03|CC|Z|0036;Burning Steppes|N|Run (fly) to the waypoint at the bottom near the lava.|RANK|2|
 R Blackrock Depths|AVAILABLE|8619|M|56.03,82.19;49.34,65.06;38.02,47.34;37.87,19.41|CS|Z|0035;Blackrock Depths@Blackrock Mountain|N|Follow the waypoints to get into Blackrock Depths instance.|RANK|2|
 
 A Morndeep the Elder|QID|8619|M|50.55,62.90|Z|0242;Detention Block@Blackrock Depths!Dungeon|N|From Elder Morndeep Go directly across the entrance thru the large first room and into the detention block. Leave quickly or be stuck doing that event when the doors shut.|RANK|2|
