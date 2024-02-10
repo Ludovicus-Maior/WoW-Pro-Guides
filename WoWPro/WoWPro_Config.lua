@@ -46,7 +46,7 @@ local function createDisplayConfig()
         args = {
             desc = {
                 order = 0,
-                type = "description",
+                type = "header",
                 name = L["On this page you can edit the way the guide frame looks."],
             },
             blank1 = {
