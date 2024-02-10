@@ -929,7 +929,7 @@ local function createExpertOptions()
             header2 = {
                 order = 3.2,
                 type = "header",
-                name = L["Stay away from the below settings unless you are a developer"],
+                name = L["We highly suggest you stay away from the below settings unless you are a developer"],
             },
             blank = {
                 order = 4,
@@ -1233,7 +1233,6 @@ end
 
 function WoWPro.CreateConfig()
     local topConfig = {
-        name = "Options",
         type = "group",
         childGroups = "tab",
         args = {
