@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BitAsh2025', "Leveling", 'Ashenvale', 'WoWPro Team', 'Horde')
+local guide = WoWPro:RegisterGuide('Ashenvale', "Leveling", 'Ashenvale', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Ashenvale")
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'JiySto2530')
