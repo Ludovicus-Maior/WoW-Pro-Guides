@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CraSwa5254', "Leveling", 'Swamp of Sorrows', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('Swamp of Sorrows', "Leveling", 'Swamp of Sorrows', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Swamp of Sorrows")
 WoWPro:GuideSort(guide, 44)
 WoWPro:GuideNextGuide(guide, 'Blasted Lands')

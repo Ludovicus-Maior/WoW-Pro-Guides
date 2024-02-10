@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("LudoTelogrus", "Leveling", "Telogrus Rift!Instance971", "Ludovicus", "Alliance")
+local guide = WoWPro:RegisterGuide("VoidElf", "Leveling", "Telogrus Rift!Instance971", "Ludovicus", "Alliance")
 WoWPro:GuideLevels(guide, 10, 10)
 WoWPro:GuideSort(guide, 14)
 WoWPro:GuideContent(guide, "Intro")

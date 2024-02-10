@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
+local guide = WoWPro:RegisterGuide("Dwarf","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Dwarf: Intro")

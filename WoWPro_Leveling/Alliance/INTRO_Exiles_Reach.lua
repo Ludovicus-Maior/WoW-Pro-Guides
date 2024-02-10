@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach#1409!Instance", 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('Exiles Reach', "Leveling", "Exile's Reach#1409!Instance", 'WoWPro Team', 'Alliance')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Exile's Reach")
