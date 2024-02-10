@@ -281,11 +281,11 @@ C Confirming Suspicions|QID|45414|M|74.85,45.49|Z|Dalaran@Dalaran70|NC|QO|4|N|Wi
 T Confirming Suspicions|QID|45414|M|74.79,45.54|Z|Dalaran@Dalaran70|N|To Prophet Velen.|
 A Between Worlds|QID|45415|M|74.79,45.54|Z|Dalaran@Dalaran70|N|From Prophet Velen.|PRE|45414|
 C Between Worlds|QID|45415|M|69.10,52.12|Z|Outland|QO|1|N|(Optional) Take the portal to Hellfire Peninsula.|
-C Between Worlds|QID|45415|M|85.28,50.12|Z|Hellfire Peninsula|QO|2|CHAT|N|Speak to Kor'vas at the Stair of Destiny.|
-C Between Worlds|QID|45415|M|84.73,50.04|Z|Hellfire Peninsula|QO|3|N|Fight the waves that come thru the portal until the last wave is Lord Vazuun.|
-T Between Worlds|QID|45415|M|85.30,50.11|Z|Hellfire Peninsula|N|To Kor'vas Bloodthorn.|
-A Dark Omens|QID|45843|M|85.30,50.11|Z|Hellfire Peninsula|N|From Kor'vas Bloodthorn.|PRE|45415|
-P Dalaran|QID|45843|M|44.73,63.23|Z|Hellfire Peninsula|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45843|
+C Between Worlds|QID|45415|M|85.28,50.12|Z|100; Hellfire Peninsula|QO|2|CHAT|N|Speak to Kor'vas at the Stair of Destiny.|
+C Between Worlds|QID|45415|M|84.73,50.04|Z|100; Hellfire Peninsula|QO|3|N|Fight the waves that come thru the portal until the last wave is Lord Vazuun.|
+T Between Worlds|QID|45415|M|85.30,50.11|Z|100; Hellfire Peninsula|N|To Kor'vas Bloodthorn.|
+A Dark Omens|QID|45843|M|85.30,50.11|Z|100; Hellfire Peninsula|N|From Kor'vas Bloodthorn.|PRE|45415|
+P Dalaran|QID|45843|M|44.73,63.23|Z|100; Hellfire Peninsula|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45843|
 T Dark Omens|QID|45843|M|28.35,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 ;Fate of the Tideskorn|QID|45482;47049;47050;47051;47052
 F Crimson Thicket|QID|45482^47049^47050^47051^47052|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45482^47049^47050^47051^47052|

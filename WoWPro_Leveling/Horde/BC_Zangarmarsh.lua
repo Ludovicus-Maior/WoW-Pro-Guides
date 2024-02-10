@@ -96,8 +96,8 @@ A Warning the Cenarion Circle|QID|9724|PRE|9731|M|78.4,62.0|N|From Ysiel Windsin
 T A Warm Welcome|QID|9728|M|79.1,65.3|N|To Warden Hamoot.|
 T Leader of the Darkcrest|QID|9730|N|To Warden Hamoot.|M|79.1,65.3|
 T Leader of the Bloodscale|QID|9817|N|To Warden Hamoot.|M|79.1,65.3|
-T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|N|To Amythiel Mistwalker in Hellfire Peninsula.|Z|Hellfire Peninsula|
-A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|Z|Hellfire Peninsula|
+T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|N|To Amythiel Mistwalker in Hellfire Peninsula.|Z|100; Hellfire Peninsula|
+A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|Z|100; Hellfire Peninsula|
 H Cenarion Refuge|QID|9730|U|9732|N|Hearth to the Cenarion Refuge.|
 T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
 A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.5,63.1|N|From Lethyn Moonfire.|

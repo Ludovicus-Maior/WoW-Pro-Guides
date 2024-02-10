@@ -291,8 +291,8 @@ T Sha'naar Relics|QID|9430|M|23.42,36.55|Z|100; Hellfire Peninsula|N|To Amaan th
 A The Seer's Relic|QID|9545|PRE|9430|M|23.42,36.55|Z|100; Hellfire Peninsula|N|From Amaan the Wise.|
 C The Seer's Relic|QID|9545|M|26.90,37.40|Z|100; Hellfire Peninsula|N|Go here and use the Seer's Relic and wait for the quest completion.|U|23645|
 T The Seer's Relic|QID|9545|M|23.42,36.55|Z|100; Hellfire Peninsula|N|To Amaan the Wise.|
-h Temple of Telhamat|M|23.23,36.5|Z|100; Hellfire Peninsula|N|At Caregiver Ophera Windfury.|
-F Shattrath|M|25.18,37.22|Z|100; Hellfire Peninsula|N|Fly to Shattrath to visit you trainers, AH, etc.|
-H Temple of Telhamat|Z|100; Hellfire Peninsula|N|Hearth back to the Temple of Telhamat, this is will continue to the next guide.|
+h Temple of Telhamat|ACTIVE|9912|M|23.23,36.5|Z|100; Hellfire Peninsula|N|At Caregiver Ophera Windfury.|
+F Shattrath|ACTIVE|9912|M|25.18,37.22|Z|100; Hellfire Peninsula|N|Fly to Shattrath to visit you trainers, AH, etc.|
+H Temple of Telhamat|ACTIVE|9912|Z|100; Hellfire Peninsula|N|Hearth back to the Temple of Telhamat, this is will continue to the next guide.|
 ]]
 end)
