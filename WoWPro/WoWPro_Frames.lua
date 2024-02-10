@@ -916,12 +916,11 @@ end
 -- Dropdown Menu --
 function WoWPro:CreateDropdownMenu()
     WoWPro.DropdownMenu = {
-        {text = "WoWPro Options", isTitle = true},
-        {text = "Main", func = function()
+        {text = "Main Settings", func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
         _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "mainConfig")
         end},
-        {text = "Guide Window", func = function()
+        {text = "Guide Frame Settings", func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
         _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "displayConfig")
         end},
