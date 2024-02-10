@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
+local guide = WoWPro:RegisterGuide('WarCampaign', 'Leveling', 'Kul Tiras', 'WoWPro Team', 'Alliance')
 WoWPro:GuideLevels(guide, 35, 60)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideName(guide,'War Campaign')

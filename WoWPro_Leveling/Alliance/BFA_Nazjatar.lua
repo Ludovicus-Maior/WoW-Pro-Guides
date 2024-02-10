@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('OxyNazj', 'Leveling', 'Nazjatar', 'Oxycontin', 'Alliance')
+local guide = WoWPro:RegisterGuide('Nazjatar', 'Leveling', 'Nazjatar', 'WoWPro Team', 'Alliance')
 WoWPro:GuideLevels(guide, 60, 60, 60)
 WoWPro:GuideSort(guide, 8)
 WoWPro:GuideName(guide,'Nazjatar')
