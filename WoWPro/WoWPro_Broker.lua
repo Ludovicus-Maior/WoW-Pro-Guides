@@ -1214,19 +1214,23 @@ if step then
 
     WoWPro.RowDropdownMenu[i] = dropdown
     tinsert(dropdown,
-    {text = "Report an Issue", func = function()
+    { text = "Report an Issue", func = function()
         WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
         local LogBox = WoWPro.LogBox
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
-        local Sindex = WoWPro.rows[currentRow.num].index
 
-        text = text .. "\n|cffffff00Guide Info:|r\n"
-        text = text .. "Guide ID: " .. GID .. "\n\n"
 
-        if WoWPro.rows[currentRow.num]:IsVisible() then
-            text = text .. "Step Info for " .. GID .. ":\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
-        end
+    -- Add step info without GID
+    local Sindex = WoWPro.rows[currentRow.num].index
+    if WoWPro.rows[currentRow.num]:IsVisible() then
+    text = text .. "\n|cffffff00Step Info:|r\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
+    end
+
+    text = text .. "\n|cffffff00Guide Info:|r\n"
+    text = text .. GID .. "\n"
+    text = text .. "Faction: " .. WoWPro.Faction .. "\n"
+
 
         -- Retrieve additional player information
         local _, class = _G.UnitClass("player")
@@ -1244,7 +1248,6 @@ if step then
 
         text = text .. "\n|cffffff00Player Info:|r\n"
         text = text .. "Character Name: " .. playerName .. "\n"
-        text = text .. "Faction: " .. WoWPro.Faction .. "\n"
         text = text .. "Class: " .. class .. "\n"
         text = text .. "Level: " .. level .. "\n"
         text = text .. "Realm: " .. realmName .. "\n"  -- Add the player's realm name
@@ -1296,6 +1299,7 @@ if step then
     )
     end
     WoWPro.RowDropdownMenu[i] = dropdown
+
 
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
