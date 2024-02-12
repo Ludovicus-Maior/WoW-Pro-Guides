@@ -41,12 +41,12 @@ local soundfiles = {
 local function createDisplayConfig()
     return {
         type = "group",
-        name = L["Guide Display"],
+        name = L["Guide Frame Settings"],
         desc = L["Options that alter the way the guide frame looks"],
         args = {
             desc = {
                 order = 0,
-                type = "description",
+                type = "header",
                 name = L["On this page you can edit the way the guide frame looks."],
             },
             blank1 = {
@@ -618,7 +618,7 @@ end
 
 local function createMainConfig()
     return {
-        name = L["Main"],
+        name = L["Main Settings"],
         type = "group",
         args = {
             version = {
@@ -891,7 +891,7 @@ end
 
 local function createExpertOptions()
     return {
-        name = L["Expert"],
+        name = L["Expert Settings"],
         type = "group",
         args = {
             header = {
@@ -929,7 +929,7 @@ local function createExpertOptions()
             header2 = {
                 order = 3.2,
                 type = "header",
-                name = L["Stay away from the below settings unless you are a developer"],
+                name = L["We highly suggest you stay away from the below settings unless you are a developer"],
             },
             blank = {
                 order = 4,
@@ -1059,7 +1059,7 @@ end
 
 local function createRankConfig()
     local ranks = {
-        name = L["Ranks"],
+        name = L["Rank Settings"],
         type = "group",
         args = {
             WoWProRank={name="WoWPro",
@@ -1154,24 +1154,42 @@ end
 
 local function createActionConfig()
     local actions = {
-        name = L["Actions"],
+        name = L["Guide Legend"],
         type = "group",
         args = {
-
-                header = {
-                    order = 10,
-                    type = "header",
-                    name = L["Step Action Description"],
-            }
+            linkHeader = {
+                order = 5,
+                type = "header",
+                name = "For more information about guide writing, visit:",
+            },
+            link = {
+                order = 6,
+                type = "input",
+                name = "",
+                get = function() return "https://github.com/Ludovicus-Maior/WoW-Pro-Guides/wiki" end,
+                set = function() end,
+                width = "full"
+            },
+            header = {
+                order = 10,
+                type = "header",
+                name = L["Step Action Description"],
+            },
+            spacer = {
+                order = 15,
+                type = "description",
+                name = "\n", -- This creates a line break for spacing
+            },
         }
     }
     WoWPro.InsertActionDescriptions(actions.args, 20)
     return actions
 end
 
+
 local function createGuideConfig()
     local actions = {
-        name = L["Guide Select"],
+        name = L["Guide Selection"],
         type = "group",
         args = {
 
@@ -1205,7 +1223,7 @@ local function createCurrentGuideConfig()
                 blah = {
                     order = 11,
                     type = "description",
-                    name = "NYI",
+                    name = "NYI - This is high on the priorty list to return",
                     width = "full"
                 },
         }
@@ -1215,7 +1233,6 @@ end
 
 function WoWPro.CreateConfig()
     local topConfig = {
-        name = "Options",
         type = "group",
         childGroups = "tab",
         args = {

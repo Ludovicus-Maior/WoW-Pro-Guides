@@ -544,7 +544,7 @@ function WoWPro:CreateTitleBar()
 
     -- Icon --
     local titleicon = WoWPro.Titlebar:CreateTexture(nil, "OVERLAY")
-    titleicon:SetSize(16, 16)
+    titleicon:SetSize(12, 12)
     titleicon:SetPoint("RIGHT", WoWPro.Titlebar, "RIGHT", -3, 0)
     titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
@@ -916,17 +916,20 @@ end
 -- Dropdown Menu --
 function WoWPro:CreateDropdownMenu()
     WoWPro.DropdownMenu = {
-        {text = "WoW-Pro Guides", isTitle = true},
-        {text = "Main Options", func = function()
+        {text = "Main Settings", func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
         _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "mainConfig")
         end},
-        {text = "Display Settings", func = function()
+        {text = "Guide Frame Settings", func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
         _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "displayConfig")
         end},
-        {text = L["Guide List"], func = function()
+        {text = L["Guide Selection (New Style)"], func = function()
             WoWPro.ShowGuideMenu()
+        end},
+        {text = L["Guide Selection (Old-Like Style)"], func = function()
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+            _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideSelect")
         end},
         {text = L["Current Guide"], func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
