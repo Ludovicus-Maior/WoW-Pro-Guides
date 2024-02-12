@@ -488,8 +488,8 @@ function WoWPro.PetSelect(pet)
     if pet == active then
         WoWPro:dbp("PetSelect(%d): Pet %s already active", pet, active)
     else
+        WoWPro:dbp("PetSelect(%d): Changing Pet from %s", pet, active)
         _G.C_PetBattles.ChangePet(pet)
-        WoWPro:dbp("PetSelect(%d): Pet changed from %s", pet, active)
     end
 end
 
