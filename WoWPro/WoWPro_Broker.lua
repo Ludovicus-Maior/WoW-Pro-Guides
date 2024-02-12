@@ -630,7 +630,7 @@ function WoWPro.LoadGuideReal()
 
     -- If we have upgraded, wipe the old information and re-create
     if WoWProCharDB.Guide[GID] and WoWPro.Version ~= WoWProCharDB.Guide[GID].Version then
-        WoWPro:Print("Resetting Guide "..GID.." due to upgrade.  Forgetting skipped steps.")
+        WoWPro:dbp("Resetting Guide "..GID.." due to upgrade.  Forgetting skipped steps.")
         WoWProCharDB.Guide[GID].completion =  {}
         WoWProCharDB.Guide[GID].skipped =  {}
         WoWProCharDB.Guide[GID].Version = WoWPro.Version
