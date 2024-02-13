@@ -7,9 +7,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|
 F Zabra'jin|QID|10928|N|Fly to Zabra'jin.|
-A The Ogre Threat|QID|9795|N|From Shadow Hunter Denjai. He is on the second floor of the inn.|Z|Zangarmarsh|M|30.74,50.88|
-F Swamprat Post|QID|10928|N|Fly to Swamprat Post.|Z|Zangarmarsh|M|33.06,51.08|
-R Blades' Run|QID|10928|M|69.19,35.77;70.33,33.96;68.44,33.39|CS|N|Fly or run to this path just north of Telredor.|Z|Zangarmarsh|
+A The Ogre Threat|QID|9795|N|From Shadow Hunter Denjai. He is on the second floor of the inn.|Z|102; Zangarmarsh|M|30.74,50.88|
+F Swamprat Post|QID|10928|N|Fly to Swamprat Post.|Z|102; Zangarmarsh|M|33.06,51.08|
+R Blades' Run|QID|10928|M|69.19,35.77;70.33,33.96;68.44,33.39|CS|N|Fly or run to this path just north of Telredor.|Z|102; Zangarmarsh|
 A Killing the Crawlers|QID|10928|N|From Grunt Grahk.|M|52.96,96.22|LVL|20|
 C Killing the Crawlers|QID|10928|N|Kill 6 Cavern Crawlers.|
 T Killing the Crawlers|QID|10928|M|51.9,58.4|N|To Tor'chunk Twoclaws.|

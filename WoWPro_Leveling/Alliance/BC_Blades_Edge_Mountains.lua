@@ -8,8 +8,8 @@ return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|ACTIVE|9794|N|Sell junk, repair, restock at your repective faction.|
-F Orebor Harborage|QID|9794|M|63.79,41.18|Z|Shattrath City|N|Fly to Orebor Harborage.|
-A No Time for Curiosity|QID|9794|M|41.2,28.7|Z|Zangarmarsh|N|From Timoth Daniels.|
+F Orebor Harborage|QID|9794|M|63.79,41.18|Z|111; Shattrath City|N|Fly to Orebor Harborage.|
+A No Time for Curiosity|QID|9794|M|41.2,28.7|Z|102; Zangarmarsh|N|From Timoth Daniels.|
 A Killing the Crawlers|QID|10927|M|32.2,91.1|N|From Sentinel Moonwhisper.|
 C Killing the Crawlers|QID|10927|M|32.93,90.35|N|Go through the cave and kill the crawlers needed for this quest.|
 T No Time for Curiosity|QID|9794|M|36.0,67.8|N|Finish going through the cave, then turn this quest into Kialon Nightblade.|

@@ -242,8 +242,8 @@ A The Cipher of Damnation - The Second Fragment Recovered|QID|10541|PRE|10540|M|
 T Thwart the Dark Conclave|QID|10808|M|35.40,41.88|N|To Parshah.|
 T Escape from Coilskar Cistern|QID|10451|M|42.20,45.07|N|To Earthmender Torlok.|
 F Shattrath City|QID|10547|M|37.62,55.53|N|Fly to Shattrath City.|
-T Of Thistleheads and Eggs...|QID|10547|M|63.88,69.61|Z|Shattrath City|N|To Tobias the Filth Gorger.|
-A The Bundle of Bloodthistle|QID|10550|PRE|10547|M|63.88,69.61|Z|Shattrath City|N|Wait a moment for him to drink the egg, then everyone around pukes. Then get the quest from Tobias the Filth Gorger.|
+T Of Thistleheads and Eggs...|QID|10547|M|63.88,69.61|Z|111; Shattrath City|N|To Tobias the Filth Gorger.|
+A The Bundle of Bloodthistle|QID|10550|PRE|10547|M|63.88,69.61|Z|111; Shattrath City|N|Wait a moment for him to drink the egg, then everyone around pukes. Then get the quest from Tobias the Filth Gorger.|
 H Wildhammer Stronghold|QID|10550|M|37.06,58.17|N|Hearth back to Wildhammer Stronghold.|
 T The Bundle of Bloodthistle|QID|10550|M|47.52,57.28|N|To Borak, Son of Oronok.|
 A To Catch A Thistlehead|QID|10570|PRE|10550|M|47.54,57.27|N|From Borak, Son of Oronok.|
@@ -323,16 +323,16 @@ R Terokkar Forest|QID|10662|M|24,12|N|Fly to Terokkar Forrest.|
 T The Hermit Smith|QID|10662|M|77.51,38.73|Z|Terokkar Forest|N|To David Wayne.|
 A Additional Materials|QID|10664|PRE|10662^10663|M|77.51,38.73|Z|Terokkar Forest|N|From David Wayne.|
 R Shattrath City|QID|10664|M|34,24|Z|Terokkar Forest|N|Fly to Shattrath City.|
-B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|
-T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|Shattrath City|N|To A'dal.|
-C Additional Materials|QID|10664|M|54,44|Z|Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|
+B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|111; Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|
+T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|111; Shattrath City|N|To A'dal.|
+C Additional Materials|QID|10664|M|54,44|Z|111; Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|
 T Additional Materials|QID|10664|M|77.5,38.7|Z|Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|
 N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 ;A Against the Legion|QID|10641|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 ;A Against the Illidari|QID|10668|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 ;A Against All Odds|QID|10669|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-;C Against All Odds|QID|10669|M|15,41|Z|Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
+;C Against All Odds|QID|10669|M|15,41|Z|102; Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
 ;l Freshly Drawn Blood|ACTIVE|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
 ;C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
 ;C Against the Illidari|QID|10668|M|28.2,49.8|Z|Shadowmoon Valley|N|Now all the way down to Shadowmoon. Head to the waypoint then kill Lothros.|

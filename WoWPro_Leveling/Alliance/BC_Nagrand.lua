@@ -55,7 +55,7 @@ T Talbuk Mastery|QID|9857|M|71.6,40.5|N|To Harold Lane.|
 A Talbuk Mastery|QID|9858|PRE|9857|M|71.6,40.5|N|From Harold Lane.|
 T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
 A Eating Damnation|QID|9821|PRE|9819|M|61.8,24.4|N|From Gordawg.|
-H Shattrath City|QID|9821|M|28.09,48.88|Z|Shattrath City|N|Hearth to Shattrath City.|
+H Shattrath City|QID|9821|M|28.09,48.88|Z|111; Shattrath City|N|Hearth to Shattrath City.|
 F Telaar|QID|10109|M|63.80,41.35|Z|111;Shattrath City|N|Fly or run to Telaar.|
 N From now on...|QID|9855|N|From now on, kill the mobs you need for the mastery quests if you see them.|
 C Boulderfist Plans|QID|9917|M|61.00,71.00|N|Kill Boulderfist Hunters until you get the Boulderfist Plans.|L|25468|
@@ -233,14 +233,14 @@ T Message to Telaar|QID|9933|M|55.5,68.8|N|To Arechron.|
 T The Ultimate Bloodsport|QID|9852|M|71.52,40.79|N|To Hemet Nesingwary.|
 N The following quests are the rest of the ones from Altruis.|
 A Patience and Understanding|QID|10004|PRE|10001|M|27.33,43.07|N|From Altruis the Sufferer.|
-C Patience and Understanding|QID|10004|NC|M|77.23,34.70|Z|Shattrath City|N|Head to Shattrath, talk to Sal'salabim and get him low in health.|
-T Patience and Understanding|QID|10004|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
-A Crackin' Some Skulls|QID|10009|PRE|10004|M|77.23,34.70|Z|Shattrath City|N|From Sal'salabim.|
-l Raliq's Debt|QID|10009|QO|1|M|75.02,31.46|Z|Shattrath City|N|Talk to Raliq the Drunk, kill then loot him for his debt.|; Raliq's Debt: 1/1
-l Coosh'coosh's Debt|QID|10009|QO|2|M|80.89,91.22|Z|Zangarmarsh|N|Talk to Coosh'coosh, kill then loot him for his debt.|; Coosh'coosh's Debt: 1/1
+C Patience and Understanding|QID|10004|NC|M|77.23,34.70|Z|111; Shattrath City|N|Head to Shattrath, talk to Sal'salabim and get him low in health.|
+T Patience and Understanding|QID|10004|M|77.23,34.70|Z|111; Shattrath City|N|To Sal'salabim.|
+A Crackin' Some Skulls|QID|10009|PRE|10004|M|77.23,34.70|Z|111; Shattrath City|N|From Sal'salabim.|
+l Raliq's Debt|QID|10009|QO|1|M|75.02,31.46|Z|111; Shattrath City|N|Talk to Raliq the Drunk, kill then loot him for his debt.|; Raliq's Debt: 1/1
+l Coosh'coosh's Debt|QID|10009|QO|2|M|80.89,91.22|Z|102; Zangarmarsh|N|Talk to Coosh'coosh, kill then loot him for his debt.|; Coosh'coosh's Debt: 1/1
 C Crackin' Some Skulls|QID|10009|M|27.13,57.87|Z|Terokkar Forest|N|Talk to Floon, kill then loot him for his debt.|
-T Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
-A It's Just That Easy?|QID|10010|PRE|10009|M|77.23,34.70|Z|Shattrath City|N|From Sal'salabim.|
+T Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|111; Shattrath City|N|To Sal'salabim.|
+A It's Just That Easy?|QID|10010|PRE|10009|M|77.23,34.70|Z|111; Shattrath City|N|From Sal'salabim.|
 T It's Just That Easy?|QID|10010|M|27.34,43.06|N|To Altruis the Sufferer.|
 A Forge Camp: Annihilated|QID|10011|PRE|10010|M|27.34,43.06|N|From Altruis the Sufferer.|
 l Fel Cannon Activator|QID|10011|M|24.94,36.19|N|Kill, then loot Demos, Overseer of Hate to get the Fel Cannon Activator.|L|25770|
