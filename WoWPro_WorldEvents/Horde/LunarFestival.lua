@@ -183,12 +183,14 @@ A Farwhisper the Elder|QID|8727|M|78.59,21.16|Z|0317;Crusader's Square@Stratholm
 R Exit the Instance|AVAILABLE|13017&-8727|N|Walk out of the Instance|RANK|2|IZ|0317;Crusader's Square@Stratholme!Dungeon|
 R Plaguewood Tower|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Run to Plaguewood Tower in Eastern Plaguelands.|FLY|OLD|
 F Brill|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Fly to Brill in Tirisfal Glade.|FLY|OLD|
-P Vengeance Landing|AVAILABLE|13017|M|58.9,59.0|Z|0018;Tirisfal Glades|N|{update Coords}Take the portal (from the where the zeppelin used to stop) to Howling Fjord.|
+P Vengeance Landing|AVAILABLE|13017|M|59.09,58.91|Z|0018;Tirisfal Glades|N|Take the portal (from the where the zeppelin used to stop) to Howling Fjord.|
 
-R Utgarde Keep|AVAILABLE|13017|M|58.9,48.7|Z|0117;Howling Fjord|N|{update Coords}Head inside Utgarde Keep.|RANK|3|
+R Utgarde Keep|AVAILABLE|13017|M|61.46,45.05|Z|0117;Howling Fjord|N|Head to Utgarde Keep.|RANK|3|
+R Utgarde Keep Entrance|AVAILABLE|13017|M|57.34,47.01|Z|0117;Howling Fjord|N|Go around to the Wyrmkull Village side and climb the stairs. Enter the instance at the end of the hallway.\n[color=FF0000]NOTE: [/color]There is a 2nd entrance from the Village if you wish to use that one.|IZ|-0133;Njorndir Preparation@Utgarde Keep!Dungeon|
 A Jarten the Elder|QID|13017|M|47.41,69.55|Z|0133;Njorndir Preparation@Utgarde Keep!Dungeon|N|From Elder Jarten inside the instance. Down the stairs in Lower Pinnacle, after Dalronn the Controller. The only thing that has to be killed are the mobs by the fires in the first room, everything else is skippable.|RANK|3|
-R Utgarde Pinnacle|AVAILABLE|13067|M|58.0,50.1;57.25,46.63|CS|Z|0117;Howling Fjord|N|{update Coords}Head out of Utgarde Keep, then run around north of the Keep to get to Utgarde Pinnacle.|RANK|3|
-A Chogan'gada the Elder|QID|13067|M|48.79,23.14|Z|Upper Pinnacle@Utgarde Pinnacle!Dungeon|N|From Elder Chogan'gada from inside the instance. You can skip anything you don't agro except Skadi must be killed to open the door and the elder is at the bottom of the stairs after that. Then kill the final boss, King Ymiron, to leave or return the way you came.|RANK|3|
+R Exit the Instance|AVAILABLE|13067&-13017|N|Walk out of the Instance|RANK|3|IZ|0133;Njorndir Preparation@Utgarde Keep!Dungeon|
+R Utgarde Pinnacle|AVAILABLE|13067|M|57.26,46.65|Z|0117;Howling Fjord|N|Leave using one of the exits and run around to the north side of the Keep to get to the Utgarde Pinnacle entrance.|RANK|3|IZ|Utgarde Keep|
+A Chogan'gada the Elder|QID|13067|M|48.79,23.14|Z|0137;Upper Pinnacle@Utgarde Pinnacle!Dungeon|N|From Elder Chogan'gada from inside the instance. You can skip anything you don't agro except Skadi must be killed to open the door and the elder is at the bottom of the stairs after that. Then kill the final boss, King Ymiron, to leave or return the way you came.|RANK|3|
 F Camp Oneqwah|AVAILABLE|13030|M|79,29.6|Z|0117;Howling Fjord|N|{update Coords}Fly to Camp Oneqwah in Grizzly Hills.|FLY|OLD|
 A Whurain the Elder|QID|13030|M|64.18,46.98|Z|0116;Grizzly Hills|N|From Elder Whurain.|
 A Lunaro the Elder|QID|13025|M|80.53,37.11|Z|0116;Grizzly Hills|N|From Elder Lunaro.|
