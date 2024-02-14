@@ -310,10 +310,10 @@ T In My Father's House|QID|44480|M|45.31,30.30|N|Return to Light's Heart in your
 A Destiny Unfulfilled|QID|44481^44496^44497|M|45.31,30.30|N|From Light's Heart.|PRE|44480|
 P Dalaran|QID|44481^44496^44497|QO|1|M|58.59,24.98|N|Speak with Aerylia to go to Dalaran.|ACTIVE|44481^44496^44497|
 P Terrace of Light|QID|44481^44496^44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481^44496^44497|
-F Sanctum of the Stars|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481^44496^44497|
-F Altar of Sha'tar|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481^44496^44497|
-F Shadowmoon Village|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum or Altar|ACTIVE|44481^44496^44497|FACTION|HORDE|
-F Wildhammer Stronghold|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum or Altar|ACTIVE|44481^44496^44497|FACTION|ALLIANCE|
+F Sanctum of the Stars|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|111; Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481^44496^44497|
+F Altar of Sha'tar|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|111; Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481^44496^44497|
+F Shadowmoon Village|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|111; Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum or Altar|ACTIVE|44481^44496^44497|FACTION|HORDE|
+F Wildhammer Stronghold|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|111; Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum or Altar|ACTIVE|44481^44496^44497|FACTION|ALLIANCE|
 R Shadowmoon Valley|QID|44481^44496^44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481^44496^44497|
 C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
 H Dalaran|QID|44481^44496^44497|Z|Shadowmoon Valley|U|140192|N|Hearth to Dalaran, and return to your Order Hall.|ACTIVE|44481^44496^44497|

@@ -7,9 +7,9 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
-A Assist Exarch Orelis|QID|11038|LEAD|10241|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|
-A Report to Spymaster Thalodien|QID|11039|LEAD|10189|M|44.77,76.29|Z|Shattrath City|N|From Arcanist Savan.|REP|Scryers;934|
-F Evergrove|QID|10265|M|63.98,41.12|Z|Shattrath City|N|Fly to Evergrove, or the closest flightpoint to Netherstorm you have.|
+A Assist Exarch Orelis|QID|11038|LEAD|10241|M|47.44,26.61|Z|111; Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|
+A Report to Spymaster Thalodien|QID|11039|LEAD|10189|M|44.77,76.29|Z|111; Shattrath City|N|From Arcanist Savan.|REP|Scryers;934|
+F Evergrove|QID|10265|M|63.98,41.12|Z|111; Shattrath City|N|Fly to Evergrove, or the closest flightpoint to Netherstorm you have.|
 R Area 52|QID|10265|M|32,65|N|Run to Area 52 in Netherstorm.|
 f Area 52|QID|10265|M|33.8,64|N|At Krexcil.|
 h Area 52|QID|10265|M|32.01,64.39|N|At Innkeeper Remi Dodoso.|
@@ -495,11 +495,11 @@ T Dimensius the All-Devouring|QID|10439|M|60.11,31.83|N|To Professor Dabiri.|
 T Full Triangle|QID|10276|M|45.82,35.98|N|To Image of Nexus-Prince Haramad.|
 A Special Delivery to Shattrath City|QID|10280|PRE|10276|M|45.81,35.97|N|Wait a few moments, Ambassador Solannas will spawn, you will have to defeat him and his 2 guards. Afterwards get this quest from the Image of Nexus-Prince Haramad.|
 R Shattrath City|QID|10280|M|45.79,35.69|N|Head through Nexus-Prince Haramad's Teleporter (to the left as you're looking at him).|
-T Special Delivery to Shattrath City|QID|10280|M|54.22,44.58|Z|Shattrath City|N|To A'dal.|
-T Ishanah's Help|QID|10410|M|24.09,29.78|Z|Shattrath City|N|To Ishanah.|REP|Aldor;932|
-A Deathblow to the Legion|QID|10409|PRE|10410|M|24.09,29.78|Z|Shattrath City|N|From Ishanah.|REP|Aldor;932|
-T Bound for Glory|QID|10509|M|42.68,91.52|Z|Shattrath City|N|To Voren'thal the Seer.|REP|Scryers;934|
-A Turning Point|QID|10507|PRE|10509|M|42.68,91.52|Z|Shattrath City|N|From Voren'thal the Seer.|REP|Scryers;934|
+T Special Delivery to Shattrath City|QID|10280|M|54.22,44.58|Z|111; Shattrath City|N|To A'dal.|
+T Ishanah's Help|QID|10410|M|24.09,29.78|Z|111; Shattrath City|N|To Ishanah.|REP|Aldor;932|
+A Deathblow to the Legion|QID|10409|PRE|10410|M|24.09,29.78|Z|111; Shattrath City|N|From Ishanah.|REP|Aldor;932|
+T Bound for Glory|QID|10509|M|42.68,91.52|Z|111; Shattrath City|N|To Voren'thal the Seer.|REP|Scryers;934|
+A Turning Point|QID|10507|PRE|10509|M|42.68,91.52|Z|111; Shattrath City|N|From Voren'thal the Seer.|REP|Scryers;934|
 U Voren'thal's Package|QID|10507|U|30260|QO|2|N|Open up Voren'thal's Package.|REP|Scryers;934|; Voren'thal's Presence: 1/1
 H Area 52|QID|10409|M|32.01,64.39|N|Hearth to Area 52.|REP|Aldor;932|
 H Area 52|QID|10507|M|32.01,64.39|N|Hearth to Area 52.|REP|Scryers;934|
@@ -509,7 +509,7 @@ T Deathblow to the Legion|QID|10409|M|29.48,14.41|N|To Ishanah. She will stay at
 R Socrethar's Seat|QID|10507|U|29796|M|36.44,18.35|N|If you don't have flying, head to the waypoint, use the Socrthar's Teleportation Stone at the Warp Forge, then click on the portal. If you have flying, head to the floating piece of land to the NW of the waypoint.|REP|Scryers;934|
 C Turning Point|QID|10507|U|30259|N|You most likely will need help depending on your level/class. At the start use Voren'thal's Presence on Socrethar, then kill Socrethar.|REP|Scryers;934|
 F Shattrath City|QID|10507|M|45.3,34.9|N|Fly to Shattrath City.|REP|Scryers;934|
-T Turning Point|QID|10507|M|42.68,91.52|Z|Shattrath City|N|To Voren'thal the Seer.|REP|Scryers;934|
+T Turning Point|QID|10507|M|42.68,91.52|Z|111; Shattrath City|N|To Voren'thal the Seer.|REP|Scryers;934|
 N That finishes Netherstorm|N|You can toss any item that still might in your inventory from quests.|
 ]]
 end)

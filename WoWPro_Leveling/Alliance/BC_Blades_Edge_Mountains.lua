@@ -8,8 +8,8 @@ return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|ACTIVE|9794|N|Sell junk, repair, restock at your repective faction.|
-F Orebor Harborage|QID|9794|M|63.79,41.18|Z|Shattrath City|N|Fly to Orebor Harborage.|
-A No Time for Curiosity|QID|9794|M|41.2,28.7|Z|Zangarmarsh|N|From Timoth Daniels.|
+F Orebor Harborage|QID|9794|M|63.79,41.18|Z|111; Shattrath City|N|Fly to Orebor Harborage.|
+A No Time for Curiosity|QID|9794|M|41.2,28.7|Z|102; Zangarmarsh|N|From Timoth Daniels.|
 A Killing the Crawlers|QID|10927|M|32.2,91.1|N|From Sentinel Moonwhisper.|
 C Killing the Crawlers|QID|10927|M|32.93,90.35|N|Go through the cave and kill the crawlers needed for this quest.|
 T No Time for Curiosity|QID|9794|M|36.0,67.8|N|Finish going through the cave, then turn this quest into Kialon Nightblade.|
@@ -280,7 +280,7 @@ C Grulloc Has Two Skulls|QID|10995|M|61.17,47.60|N|Kill Grulloc then loot the Dr
 C Maggoc's Treasure Chest|QID|10996|T|Maggoc|M|67.82,58.52|N|Maggoc circles around the Death's Door area. Kill him, then loot the treasure chest from the ground.|
 R Toshley's Station|QID|10997|M|60.49,68.74|N|Head to Toshley's Station.|
 F Shattrath|ACTIVE|10997|M|61.1,70.43|N|Fly to Shattrath City.|
-C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|Terokkar Forest|N|Fly up to The Barrier Hills, enter the building. Kill Slaag, then loot his standard from the ground.|
+C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|108; Terokkar Forest|N|Fly up to The Barrier Hills, enter the building. Kill Slaag, then loot his standard from the ground.|
 H Evergrove|QID|10995|M|63.83,41.26|N|Hearth back to Evergrove, or fly if your hearth is not up.|
 T Grulloc Has Two Skulls|QID|10995|M|55.41,44.93|N|To Mog'dorg the Wizened.|
 T Maggoc's Treasure Chest|QID|10996|M|55.41,44.93|N|To Mog'dorg the Wizened.|

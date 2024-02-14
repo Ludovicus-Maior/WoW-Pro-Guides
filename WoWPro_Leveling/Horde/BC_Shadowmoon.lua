@@ -217,9 +217,9 @@ T Thwart the Dark Conclave|QID|10808|M|35.40,41.88|N|To Parshah.|
 T Escape from Coilskar Cistern|QID|10451|M|42.20,45.07|N|To Earthmender Torlok.|
 T Felspine the Greater|QID|10673|M|30,28.2|N|To Researcher Tiorus.|
 F Shattrath City|QID|10547|M|30.32,29.14|N|Fly to Shattrath City.|
-T Of Thistleheads and Eggs...|QID|10547|M|63.88,69.61|Z|Shattrath City|N|To Tobias the Filth Gorger.|
-A The Bundle of Bloodthistle|QID|10550|PRE|10547|M|63.88,69.61|Z|Shattrath City|N|Wait a moment for him to drink the egg, then everyone around pukes. Then get the quest from Tobias the Filth Gorger.|
-F Shadowmoon Village|QID|10550|M|63.8,41.6|Z|Shattrath City|N|Fly back to Shadowmoon Village.|
+T Of Thistleheads and Eggs...|QID|10547|M|63.88,69.61|Z|111; Shattrath City|N|To Tobias the Filth Gorger.|
+A The Bundle of Bloodthistle|QID|10550|PRE|10547|M|63.88,69.61|Z|111; Shattrath City|N|Wait a moment for him to drink the egg, then everyone around pukes. Then get the quest from Tobias the Filth Gorger.|
+F Shadowmoon Village|QID|10550|M|63.8,41.6|Z|111; Shattrath City|N|Fly back to Shadowmoon Village.|
 T The Bundle of Bloodthistle|QID|10550|M|47.52,57.28|N|To Borak, Son of Oronok.|
 A To Catch A Thistlehead|QID|10570|PRE|10550|M|47.54,57.27|N|From Borak, Son of Oronok.|
 C To Catch A Thistlehead|QID|10570|M|48.91,57.34|N|Plant the Bloodthistle then hide. Once he is alone and runs towards the bundle, kill him and loot the missive.|U|30616|
@@ -299,13 +299,13 @@ A The Cipher of Damnation|QID|10588|M|53.88,23.45|N|From Oronok Torn-heart.|
 C The Cipher of Damnation|QID|10588|U|30657|M|43.25,46.69|N|Use the Cipher of Damnation at the Altar of Damnation to summon Cyrukh the Firelord. It will take a couple of minutes for Oronok to fly down to where you are, talk to him to be able to start killing Cyrukh.|
 T The Cipher of Damnation|QID|10588|M|42.20,45.07|N|To Earthmender Torlok.|
 R Terokkar Forest|QID|10663|M|24,12|N|Fly to Terokkar Forrest.|
-T The Hermit Smith|QID|10663|M|77.51,38.73|Z|Terokkar Forest|N|To David Wayne.|
-A Additional Materials|QID|10664|PRE|10662^10663|M|77.51,38.73|Z|Terokkar Forest|N|From David Wayne. This quest is optional.|
-R Shattrath City|QID|10664|M|34,24|Z|Terokkar Forest|N|Fly to Shattrath City.|
-B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|O|
-T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|Shattrath City|N|To A'dal.|
-C Additional Materials|QID|10664|M|54,44|Z|Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|O|
-T Additional Materials|QID|10664|M|77.5,38.7|Z|Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|O|
+T The Hermit Smith|QID|10663|M|77.51,38.73|Z|108; Terokkar Forest|N|To David Wayne.|
+A Additional Materials|QID|10664|PRE|10662^10663|M|77.51,38.73|Z|108; Terokkar Forest|N|From David Wayne. This quest is optional.|
+R Shattrath City|QID|10664|M|34,24|Z|108; Terokkar Forest|N|Fly to Shattrath City.|
+B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|111; Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|O|
+T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|111; Shattrath City|N|To A'dal.|
+C Additional Materials|QID|10664|M|54,44|Z|111; Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|O|
+T Additional Materials|QID|10664|M|77.5,38.7|Z|108; Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|O|
 N Short on quests...|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 ]]
 end)
