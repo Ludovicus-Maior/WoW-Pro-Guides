@@ -280,7 +280,7 @@ C Grulloc Has Two Skulls|QID|10995|M|61.17,47.60|N|Kill Grulloc then loot the Dr
 C Maggoc's Treasure Chest|QID|10996|T|Maggoc|M|67.82,58.52|N|Maggoc circles around the Death's Door area. Kill him, then loot the treasure chest from the ground.|
 R Toshley's Station|QID|10997|M|60.49,68.74|N|Head to Toshley's Station.|
 F Shattrath|ACTIVE|10997|M|61.1,70.43|N|Fly to Shattrath City.|
-C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|Terokkar Forest|N|Fly up to The Barrier Hills, enter the building. Kill Slaag, then loot his standard from the ground.|
+C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|108; Terokkar Forest|N|Fly up to The Barrier Hills, enter the building. Kill Slaag, then loot his standard from the ground.|
 H Evergrove|QID|10995|M|63.83,41.26|N|Hearth back to Evergrove, or fly if your hearth is not up.|
 T Grulloc Has Two Skulls|QID|10995|M|55.41,44.93|N|To Mog'dorg the Wizened.|
 T Maggoc's Treasure Chest|QID|10996|M|55.41,44.93|N|To Mog'dorg the Wizened.|

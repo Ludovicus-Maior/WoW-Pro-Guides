@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, "Blade's Edge Mountains")
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|
-R Nagrand|QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|Terokkar Forest|M|20,56|
+R Nagrand|QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|108; Terokkar Forest|M|20,56|
 N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide.|
 l Howling Wind|QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|S|L|24504|
 A I Must Have Them!|QID|10109|M|62.1,67.2|N|From Wazat. He's in Clan Watch in southern Nagrand.|
@@ -55,14 +55,14 @@ T I Must Have Them!|QID|10109|M|61.7,67.1|N|To Wazat.|
 A Bring Me The Egg!|QID|10111|M|61.7,67.1|N|From Wazat.|PRE|10109|
 C Bring Me The Egg!|QID|10111|M|62.00,67.00|N|If you don't have a flying mount then use the Jump-O-Matic, jump up to the birds nest (if you have a flying mount, fly up there), take the egg, and kill the bird that appears.|
 T Bring Me The Egg!|QID|10111|M|61.7,67.1|N|To Wazat.|
-T The Impotent Leader|QID|9888|Z|Terokkar Forest|M|20.0,61.0|N|To Kilrath.|
-A Don't Kill the Fat One|QID|9889|Z|Terokkar Forest|M|20.0,61.0|N|From Kilrath.|PRE|9888|
-C Don't Kill the Fat One|QID|9889|QO|1|Z|Terokkar Forest|M|20,63|N|Head south to the ogre camp. Kill the ogres.|
-C Don't Kill the Fat One|QID|9889|QO|2|Z|Terokkar Forest|M|20,63|N|Fight Unkor. Don't use DoTs or stuns, it can cause him to bug out.|
-T Don't Kill the Fat One|QID|9889|M|20.0,63.0|Z|Terokkar Forest|N|To Unkor the Ruthless.|
-A Success!|QID|9890|Z|Terokkar Forest|M|20.0,63.0|N|From Unkor the Ruthless.|PRE|9889|
-T Success!|QID|9890|Z|Terokkar Forest|M|20.0,61.0|N|To Kilrath.|
-A Because Kilrath is a Coward|QID|9891|Z|Terokkar Forest|M|20.0,61.0|N|From Kilrath.|PRE|9890|
+T The Impotent Leader|QID|9888|Z|108; Terokkar Forest|M|20.0,61.0|N|To Kilrath.|
+A Don't Kill the Fat One|QID|9889|Z|108; Terokkar Forest|M|20.0,61.0|N|From Kilrath.|PRE|9888|
+C Don't Kill the Fat One|QID|9889|QO|1|Z|108; Terokkar Forest|M|20,63|N|Head south to the ogre camp. Kill the ogres.|
+C Don't Kill the Fat One|QID|9889|QO|2|Z|108; Terokkar Forest|M|20,63|N|Fight Unkor. Don't use DoTs or stuns, it can cause him to bug out.|
+T Don't Kill the Fat One|QID|9889|M|20.0,63.0|Z|108; Terokkar Forest|N|To Unkor the Ruthless.|
+A Success!|QID|9890|Z|108; Terokkar Forest|M|20.0,63.0|N|From Unkor the Ruthless.|PRE|9889|
+T Success!|QID|9890|Z|108; Terokkar Forest|M|20.0,61.0|N|To Kilrath.|
+A Because Kilrath is a Coward|QID|9891|Z|108; Terokkar Forest|M|20.0,61.0|N|From Kilrath.|PRE|9890|
 H Garadar|QID|9891|N|Hearth to Garadar.|
 T Because Kilrath is a Coward|QID|9891|M|55.5,37.5|N|To Jorin Deadeye.|
 A Message in a Battle|QID|9906|M|55.5,37.5|N|From Jorin Deadeye.|PRE|9891|
@@ -257,7 +257,7 @@ T Patience and Understanding|QID|10004|M|77.23,34.70|Z|111; Shattrath City|N|To 
 A Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|111; Shattrath City|N|From Sal'salabim.|PRE|10004|
 l Raliq's Debt|QID|10009|QO|1|M|75.02,31.46|Z|111; Shattrath City|N|Talk to Raliq the Drunk, kill then loot him for his debt.|
 l Coosh'coosh's Debt|QID|10009|QO|2|M|80.89,91.22|Z|102; Zangarmarsh|N|Talk to Coosh'coosh, kill then loot him for his debt.|
-C Crackin' Some Skulls|QID|10009|QO|3|M|27.13,57.87|Z|Terokkar Forest|N|Talk to Floon, kill then loot him for his debt.|
+C Crackin' Some Skulls|QID|10009|QO|3|M|27.13,57.87|Z|108; Terokkar Forest|N|Talk to Floon, kill then loot him for his debt.|
 T Crackin' Some Skulls|QID|10009|M|77.23,34.70|Z|111; Shattrath City|N|To Sal'salabim.|
 A It's Just That Easy?|QID|10010|M|77.23,34.70|Z|111; Shattrath City|N|From Sal'salabim.|PRE|10009|
 T It's Just That Easy?|QID|10010|M|27.34,43.06|N|To Altruis the Sufferer.|

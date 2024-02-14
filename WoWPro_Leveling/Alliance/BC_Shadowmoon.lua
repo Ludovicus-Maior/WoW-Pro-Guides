@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|REP|Kurenai;978;friendly|AVAILABLE|10562|
-A Zorus the Judicator|QID|11045|M|33.00,30.25|Z|Terokkar Forest|N|From Fantei in Lower City, Shattrath.|RANK|3|LEAD|11044|
+A Zorus the Judicator|QID|11045|M|33.00,30.25|Z|108; Terokkar Forest|N|From Fantei in Lower City, Shattrath.|RANK|3|LEAD|11044|
 F Wildhammer Stronghold|QID|10562|M|37.66,55.33|N|Make your way to Wildhammer Stronghold in Shadowmoon Valley|
 ; Complete any breadcrumb quests you have
 T Building a Better Gryphon|QID|11043|M|37.6,56.0|N|To Brunn Flamebeard|ACTIVE|11043|
@@ -320,13 +320,13 @@ A The Cipher of Damnation|QID|10588|M|53.88,23.45|N|From Oronok Torn-heart.|
 C The Cipher of Damnation|QID|10588|U|30657|M|43.25,46.69|N|Use the Cipher of Damnation at the Altar of Damnation to summon Cyrukh the Firelord. It will take a couple of minutes for Oronok to fly down to where you are, talk to him to be able to start killing Cyrukh.|
 T The Cipher of Damnation|QID|10588|M|42.20,45.07|N|To Earthmender Torlok.|
 R Terokkar Forest|QID|10662|M|24,12|N|Fly to Terokkar Forrest.|
-T The Hermit Smith|QID|10662|M|77.51,38.73|Z|Terokkar Forest|N|To David Wayne.|
-A Additional Materials|QID|10664|PRE|10662^10663|M|77.51,38.73|Z|Terokkar Forest|N|From David Wayne.|
-R Shattrath City|QID|10664|M|34,24|Z|Terokkar Forest|N|Fly to Shattrath City.|
+T The Hermit Smith|QID|10662|M|77.51,38.73|Z|108; Terokkar Forest|N|To David Wayne.|
+A Additional Materials|QID|10664|PRE|10662^10663|M|77.51,38.73|Z|108; Terokkar Forest|N|From David Wayne.|
+R Shattrath City|QID|10664|M|34,24|Z|108; Terokkar Forest|N|Fly to Shattrath City.|
 B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|111; Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|
 T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|111; Shattrath City|N|To A'dal.|
 C Additional Materials|QID|10664|M|54,44|Z|111; Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|
-T Additional Materials|QID|10664|M|77.5,38.7|Z|Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|
+T Additional Materials|QID|10664|M|77.5,38.7|Z|108; Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|
 N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 ;A Against the Legion|QID|10641|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
