@@ -201,16 +201,19 @@ R Drak'Tharon Keep Entrance|AVAILABLE|13023|M|28.45,86.94|Z|0121;Zul'Drak|N|Afte
 
 A Kilias the Elder|QID|13023|M|45.64,61.50|Z|0160;The Vestibules of Drak'Tharon@Drak'Tharon Keep!Dungeon|N|From Elder Kilias in the Raptor Pens.Everything is skippable, but due to the nature of wandering mobs and density, that may be difficult at times.|RANK|3|
 R Exit the Instance|AVAILABLE|13027&-13023|N|Work your back to Hall of Departure and the exit, or work your way forward to Hall of Return to get back to the Hall of Departure and the exit.|IZ|0160;The Vestibules of Drak'Tharon@Drak'Tharon Keep!Dungeon|
-R Zim'Torga|AVAILABLE|13027|M|58.8,56|Z|Zul'Drak|N|Head to Zim'Torga.|RANK|3|
-A Tauros the Elder|QID|13027|M|58.91,55.97|Z|Zul'Drak|N|From Elder Tauros.|
-R Gundrak|AVAILABLE|13065|M|76.43,21.43|Z|Zul'Drak|N|Head inside of Gundrak.|RANK|3|
-A Ohanzee the Elder|QID|13065|M|45.64,61.50|Z|0154;Gundrak!Dungeon|N|From Elder Ohanzee. He is in the room with the Drakkari Colossus. All the content is skippable to get there and then return back path.|RANK|3|
-
-R Camp Tunka'lo|AVAILABLE|13032|M|65.4,50.7|Z|0120;The Storm Peaks|N|{update Coords}Leave Gundrak and head over to Camp Tunka'lo.|
+R Zim'Torga|AVAILABLE|13027|M|58.8,56|Z|Zul'Drak|N|Head to Zim'Torga.|RANK|2|
+A Tauros the Elder|QID|13027|M|58.91,55.97|Z|Zul'Drak|N|From Elder Tauros.|RANK|2|
+R Gundrak Entrance|AVAILABLE|13065|M|76.08,20.91|Z|Zul'Drak|N|Head inside of Gundrak.|RANK|3|IZ|-0154;Gundrak!Dungeon|
+A Ohanzee the Elder|QID|13065|M|45.64,61.50|Z|0154;Gundrak!Dungeon|N|From Elder Ohanzee behind the Drakkari Colossus (Tomb of the Ancients) in the Pool of Twisted Reflections.\n[color=FF0000]NOTE: [/color]Everything is skippable if you avoid it.|RANK|3|
+R Exit the Instance|AVAILABLE|13032&-13065|N|Return the way you came in and walk out of the Instance.|IZ|0154;Gundrak!Dungeon|
+R Camp Tunka'lo|AVAILABLE|13032|M|65.40,50.60|Z|0120;The Storm Peaks|N|Head over to Camp Tunka'lo.|
 A Muraco the Elder|QID|13032|M|64.59,51.34|Z|0120;The Storm Peaks|N|From Elder Muraco.|
-F Ulduar|AVAILABLE|13066|M|65.4,50.6|Z|0120;The Storm Peaks|N|{update Coords}Fly to Ulduar in The Storm Peaks.|FLY|OLD|
-R Halls of Stone|AVAILABLE|13066|M|39.57,26.92|Z|0120;The Storm Peaks|N|Run into the Halls of Stone.|RANK|3|
-A Yurauk the Elder|QID|13066|M|29.39,62.06|Z|0147;Ulduar!Dungeon|N|From Elder Yurauk. Follow the right wall to the elder, just before the first boss. It is not necessary to kill anything if you can avoid it. Return the way you entered.|RANK|3|
+F Ulduar|AVAILABLE|13066|M|65.40,50.60|Z|0120;The Storm Peaks|N|Fly from Camp Tunka'lo to Ulduar.|TAXI|Ulduar|IZ|Camp Tunka'lo|FLY|OLD|
+R Ulduar|AVAILABLE|13066|M|39.57,26.92|Z|0120;The Storm Peaks|N|Head to Ulduar.|TAXI|-Ulduar|
+f Ulduar|AVAILABLE|13066|M|44.48,28.20|Z|0120;The Storm Peaks|N|Get the Ulduar FP from Shavalius the Fancy.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Ulduar|
+R Halls of Stone Entrance|AVAILABLE|13066|M|39.43,26.91|Z|0120;The Storm Peaks|TZ|Hall of the High Father|N|Run into the Halls of Stone.|RANK|3|
+A Yurauk the Elder|QID|13066|M|29.39,62.06|Z|0140;Halls of Stone!Dungeon140|N|From Elder Yurauk in the Crystalline Quarry (just before the first boss).\n[color=FF0000]NOTE: [/color]Everything is skippable, but due to the nature of wandering mobs and density, that may be difficult at times.|RANK|3|
+R Exit the Instance|AVAILABLE|13032&-13065|TZ|Uldauar|N|Return the way you came in and walk out of the Instance.|;IZ|0140;Halls of Stone!Dungeon140|
 R The Storm Peaks|AVAILABLE|13020|M|34.4,36.2|Z|0147;Ulduar!Dungeon|N|{update Coords}Exit the Halls of Stone|RANK|3|
 A Stonebeard the Elder|QID|13020|M|31.26,37.61|Z|0120;The Storm Peaks|N|From Elder Stonebeard.|
 A Fargal the Elder|QID|13015|M|28.89,73.72|Z|0120;The Storm Peaks|N|From Elder Fargal.|T|Elder Fargal|
