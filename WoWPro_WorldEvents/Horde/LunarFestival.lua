@@ -181,23 +181,27 @@ R Stratholme|AVAILABLE|8727|M|26.3,11.7|Z|0023;Eastern Plaguelands|N|Head to Str
 R Stratholme Instance (live side)|AVAILABLE|8727|N|Enter the Stratholme instance through the Main Gate.|IZ|-0317;Crusader's Square@Stratholme!Dungeon|RANK|2|
 A Farwhisper the Elder|QID|8727|M|78.59,21.16|Z|0317;Crusader's Square@Stratholme!Dungeon|N|From Elder Farwhisper.\n[color=FF0000]NOTE: [/color]The arrow doesn't work here, but the waypoint is marked on your world map.|RANK|2|
 R Exit the Instance|AVAILABLE|13017&-8727|N|Walk out of the Instance|RANK|2|IZ|0317;Crusader's Square@Stratholme!Dungeon|
-R Plaguewood Tower|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Run to Plaguewood Tower in Eastern Plaguelands.|FLY|OLD|
-F Brill|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Fly to Brill in Tirisfal Glade.|FLY|OLD|
-P Vengeance Landing|AVAILABLE|13017|M|59.09,58.91|Z|0018;Tirisfal Glades|N|Take the portal (from the where the zeppelin used to stop) to Howling Fjord.|
+R Plaguewood Tower|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Head to Plaguewood Tower in Eastern Plaguelands.|IZ|0023;Eastern Plaguelands|
+F Brill|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Fly to Brill in Tirisfal Glade.|IZ|0023;Eastern Plaguelands|FLY|OLD|
+P Vengeance Landing|AVAILABLE|13017|M|59.09,58.91|Z|0018;Tirisfal Glades|N|Take the portal (from the where the zeppelin used to stop) to Howling Fjord.|IZ|0018;Tirisfal Glades|
 
 R Utgarde Keep|AVAILABLE|13017|M|61.46,45.05|Z|0117;Howling Fjord|N|Head to Utgarde Keep.|RANK|3|
-R Utgarde Keep Entrance|AVAILABLE|13017|M|57.34,47.01|Z|0117;Howling Fjord|N|Go around to the Wyrmkull Village side and climb the stairs. Enter the instance at the end of the hallway.\n[color=FF0000]NOTE: [/color]There is a 2nd entrance from the Village if you wish to use that one.|IZ|-0133;Njorndir Preparation@Utgarde Keep!Dungeon|
-A Jarten the Elder|QID|13017|M|47.41,69.55|Z|0133;Njorndir Preparation@Utgarde Keep!Dungeon|N|From Elder Jarten inside the instance. Down the stairs in Lower Pinnacle, after Dalronn the Controller. The only thing that has to be killed are the mobs by the fires in the first room, everything else is skippable.|RANK|3|
-R Exit the Instance|AVAILABLE|13067&-13017|N|Walk out of the Instance|RANK|3|IZ|0133;Njorndir Preparation@Utgarde Keep!Dungeon|
-R Utgarde Pinnacle|AVAILABLE|13067|M|57.26,46.65|Z|0117;Howling Fjord|N|Leave using one of the exits and run around to the north side of the Keep to get to the Utgarde Pinnacle entrance.|RANK|3|IZ|Utgarde Keep|
-A Chogan'gada the Elder|QID|13067|M|48.79,23.14|Z|0137;Upper Pinnacle@Utgarde Pinnacle!Dungeon|N|From Elder Chogan'gada from inside the instance. You can skip anything you don't agro except Skadi must be killed to open the door and the elder is at the bottom of the stairs after that. Then kill the final boss, King Ymiron, to leave or return the way you came.|RANK|3|
-F Camp Oneqwah|AVAILABLE|13030|M|79,29.6|Z|0117;Howling Fjord|N|{update Coords}Fly to Camp Oneqwah in Grizzly Hills.|FLY|OLD|
+R Utgarde Keep Entrance|AVAILABLE|13017|M|57.27,46.64|Z|0117;Howling Fjord|N|Go around to the Wyrmskull Village side and climb the stairs. Enter the instance at the end of the hallway.\n[color=FF0000]NOTE: [/color]There is a 2nd entrance from the Village and another from the north side if you wish to use either of those.|RANK|3|IZ|-0133;Njorndir Preparation@Utgarde Keep!Dungeon|
+A Jarten the Elder|QID|13017|M|47.41,69.55|Z|0133;Njorndir Preparation@Utgarde Keep!Dungeon|N|From Elder Jarten in an alcove off of Njorn Stair.\n[color=FF0000]NOTE: [/color]The arrow doesn't work here, but you can follow the directions.\nDown the stairs into Furnace of Hate and kill the mobs around the flames to turn off them off. From here everything else is skippable and just continue walking through until you find the alcove.|RANK|3|
+R Exit the Instance|AVAILABLE|13067&-13017|N|Walk out of the Instance.|IZ|0133;Njorndir Preparation@Utgarde Keep!Dungeon|
+R Utgarde Pinnacle|AVAILABLE|13067|M|57.26,46.65|Z|0117;Howling Fjord|N|Leave using one of the exits and run around to the north side of the Keep to get to the Utgarde Pinnacle entrance.|RANK|3|IZ|0117;Howling Fjord&-Utgarde Pinnacle!Dungeon|
+A Chogan'gada the Elder|QID|13067|M|48.79,23.14|Z|0137;Upper Pinnacle@Utgarde Pinnacle!Dungeon|N|From Elder Chogan'gada at the bottom of the stairs after Eagle's Eye.[color=FF0000]NOTE: [/color]The arrow doesn't work here, but you can follow the directions.\nYou can skip anything you don't agro and kill Skadi (in Eagle's Eye) to open the door. The elder is at the bottom of the stairs.\n|RANK|3|
+R Exit the Instance|AVAILABLE|13030&-13067|N|Kill the final boss, King Ymiron, to open the gate, or return the way you came and walk out of the Instance.|IZ|0136;Lower Pinnacle@Utgarde Pinnacle!Dungeon^0137;Upper Pinnacle@Utgarde Pinnacle!Dungeon|
+F Camp Oneqwah|AVAILABLE|13030|M|79.04,29.71|Z|0117;Howling Fjord|N|Fly from Vengeance Landing to Camp Oneqwah in Grizzly Hills.|TAXI|Camp Oneqwah|FLY|OLD|
 A Whurain the Elder|QID|13030|M|64.18,46.98|Z|0116;Grizzly Hills|N|From Elder Whurain.|
 A Lunaro the Elder|QID|13025|M|80.53,37.11|Z|0116;Grizzly Hills|N|From Elder Lunaro.|
-A Beldak the Elder|QID|13013|M|60.4,27.6|Z|0116;Grizzly Hills|N|{update Coords}From Elder Beldak.|T|Elder Beldak|
-R Drak'Tharon Keep|AVAILABLE|13023|M|17.42,21.2|Z|0116;Grizzly Hills|N|{update Coords}Head into Drak'Tharon Keep.|RANK|3|
-A Kilias the Elder|QID|13065|M|45.64,61.50|Z|0154;Gundrak!Dungeon|N|From Elder Kilias. He is in the area with the large raptor. Everything is skippable, but due to mob density that may be difficult at times.|RANK|3|
-R Zim'Torga|AVAILABLE|13027|M|58.8,56|Z|Zul'Drak|N|{update Coords}Head out of Drak'Tharon Keep and head to Zim'Torga.|RANK|3|
+A Beldak the Elder|QID|13013|M|60.57,27.68|Z|0116;Grizzly Hills|N|From Elder Beldak just outside Westfall Brigade Encampment.|T|Elder Beldak|
+R Drak'Tharon Keep|AVAILABLE|13023|M|21.28,26.50|Z|0116;Grizzly Hills|N|Head to Drak'Tharon Keep.|RANK|3|
+R Drak'Tharon Keep Entrance|AVAILABLE|13023|M|28.45,86.94|Z|0121;Zul'Drak|N|After entering Drak'Tharon Keep from the north, go down to the first landing and walk into the Instance.|RANK|3|TZ|Hall of Departure|
+
+A Kilias the Elder|QID|13023|M|45.64,61.50|Z|0160;The Vestibules of Drak'Tharon@Drak'Tharon Keep!Dungeon|N|From Elder Kilias in the Raptor Pens.Everything is skippable, but due to the nature of wandering mobs and density, that may be difficult at times.|RANK|3|
+R Exit the Instance|AVAILABLE|13027&-13023|N|Work your back to Hall of Departure and the exit, or work your way forward to Hall of Return to get back to the Hall of Departure and the exit.|IZ|0160;The Vestibules of Drak'Tharon@Drak'Tharon Keep!Dungeon|
+R Zim'Torga|AVAILABLE|13027|M|58.8,56|Z|Zul'Drak|N|Head to Zim'Torga.|RANK|3|
 A Tauros the Elder|QID|13027|M|58.91,55.97|Z|Zul'Drak|N|From Elder Tauros.|
 R Gundrak|AVAILABLE|13065|M|76.43,21.43|Z|Zul'Drak|N|Head inside of Gundrak.|RANK|3|
 A Ohanzee the Elder|QID|13065|M|45.64,61.50|Z|0154;Gundrak!Dungeon|N|From Elder Ohanzee. He is in the room with the Drakkari Colossus. All the content is skippable to get there and then return back path.|RANK|3|
