@@ -232,9 +232,9 @@ F River's Heart|AVAILABLE|13018|M|21.62,34.95|Z|0123;Wintergrasp!Northrend|N|Fly
 A Sandrene the Elder|QID|13018|M|49.78,63.62|Z|0119;Sholazar Basin|N|From Elder Sandrene in River's Heart.|
 A Wanikaya the Elder|QID|13024|M|63.80,49.02|Z|0119;Sholazar Basin|N|From Elder Wanikaya in Rainspeaker Rapids.|
 
-F Transitus Shield|AVAILABLE|13016|M|50.13,61.36|Z|0119;Sholazar Basin|N|Fly to the Transitus Shield in Colderra.|TAXI|Transitus Shield|FLY|OLD|
+F Transitus Shield|AVAILABLE|13016|M|50.13,61.36|Z|0119;Sholazar Basin|N|Fly to the Transitus Shield in Coldarra.|TAXI|Transitus Shield|FLY|OLD|
 A Northal the Elder|QID|13016|M|33.80,34.36|Z|0114;Borean Tundra|N|From Elder Northal.|
-R The Nexus|AVAILABLE|13021|M|27.5,26.09|Z|0114;Borean Tundra|N|{update Coords}Run into The Nexus.|RANK|3|
+R The Nexus Entrance|AVAILABLE|13021|M|27.87,28.54;27.50,25.91|CS|Z|0114;Borean Tundra|N|Locate the entrance portal beneath the Occulus portal and enter it.|RANK|3|IZ|0114;Borean Tundra&-0129;The Nexus!Dungeon129|
 A Igasho the Elder|QID|13021|M|55.19,64.72|Z|0129;The Nexus@The Nexus!Dungeon|N|From Elder Igasho. Before the first boss. Nothing needs to die, but due to mob density, you probably will find it easier to kill a few.|RANK|3|
 R D.E.H.T.A Encampment|AVAILABLE|13033|M|57.4,43.6|Z|0114;Borean Tundra|N|{update Coords}Head out of The Nexus and go to the D.H.E.T.A Encampment.|
 A Arp the Elder|QID|13033|M|57.41,43.72|Z|0114;Borean Tundra|N|From Elder Arp.|
