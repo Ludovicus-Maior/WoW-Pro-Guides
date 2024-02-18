@@ -19,12 +19,12 @@ A Buzzbox 827|QID|983|M|36.97,44.13|N|From Wizbang Cranktoggle, on the TOP FLOOR
 A For Love Eternal|QID|963|M|35.74,43.71|N|From Cerellean Whiteclaw.|
 A Plagued Lands|QID|2118|M|38.84,43.42|N|From Tharnariun Treetender.|
 A How Big a Threat?|QID|984|M|39.37,43.48|N|From Terenthis.|
-l Crab Treats|L|209027|N|You get this from fishing or by killing Furbolgs.|C|Hunter|SPELL|Beast Mastery;409368|S!US|RUNE|
-l Rune of Beast Mastery|L|208687|N|Find a Young Reef Crawler on the coast around Auberdine and while targeted feed it the Crab Treats to obtain the Rune of Lacerate.|T|Young Reef Crawler|U|209027|C|Hunter|SPELL|Beast Mastery;409368|O|S!US|RUNE|
-= Engrave Gloves - Beast Mastery|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Beast Mastery[/color] to learn the spell.|U|208687|SPELL|Beast Mastery;409368|O|
-l Crab Treats|L|209027|N|You get this from fishing or by killing Furbolgs.|C|Druid|SPELL|Lacerate;414644|S!US|RUNE|
-l Rune of Lacerate|L|208687|N|Find a Young Reef Crawler on the coast around Auberdine and while targeted feed it the Crab Treats to obtain the Rune of Lacerate.|T|Young Reef Crawler|U|209027|C|Druid|SPELL|Lacerate;414644|O|S!US|
-= Engrave Gloves - Lacerate|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Lacerate[/color] to learn the spell.|U|208687|SPELL|Lacerate;414644|O|
+l Crab Treats|L|209027|N|You get this from fishing or by killing Furbolgs.|SPELL|Beast Mastery;409368|C|Hunter|S!US|RUNE|
+l Rune of Beast Mastery|L|208687|N|Find a Young Reef Crawler on the coast around Auberdine and while targeted, feed it the Crab Treats to obtain the Rune of Lacerate.|T|Young Reef Crawler|U|209027|SPELL|Beast Mastery;409368|C|Hunter|O|S!US|RUNE|
+= Engrave Gloves - Beast Mastery|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Beast Mastery[/color] to learn the spell.|U|208687|SPELL|Beast Mastery;409368|C|Hunter|O|
+l Crab Treats|L|209027|N|You get this from fishing or by killing Furbolgs.|SPELL|Lacerate;414644|C|Druid|S!US|RUNE|
+l Rune of Lacerate|L|208687|N|Find a Young Reef Crawler on the coast around Auberdine and while targeted, feed it the Crab Treats to obtain the Rune of Lacerate.|T|Young Reef Crawler|U|209027|SPELL|Lacerate;414644|C|Druid|O|S!US|
+= Engrave Gloves - Lacerate|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Lacerate[/color] to learn the spell.|U|208687|SPELL|Lacerate;414644|C|Druid|O|
 A The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|From Gubber Blump, on the beach near the inn.\n[color=FF0000]NOTE: [/color]Skip if you don't care about fishing and a pole.|NOAUTO| ; ** Give them the option to skip it. - Hendo72
 N The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|P|Fishing;356;0;1|CHAT|
 B The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|L|6256|N|Not got a fishing rod? No problem. Gubber Blump will sell you one for 23c.|
@@ -50,7 +50,7 @@ T Thundris Windweaver|QID|4761|M|37.40,40.13|N|To Thundris Windweaver.|
 A Bashal'Aran|QID|954|M|37.40,40.13|N|From Thundris Windweaver.|
 A Tools of the Highborne|QID|958|M|37.40,40.13|N|From Thundris Windweaver.|
 A The Cliffspring River|QID|4762|PRE|4761|M|37.40,40.13|N|From Thundris Windweaver.|
-N Easy Strider Living|AVAILABLE|2178|M|PLAYER|N|You must have at least 10 cooking skill to get the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|Cooking;185;0+10;1|
+N Easy Strider Living|AVAILABLE|2178|M|PLAYER|N|You must have at least 10 cooking skill to get the next quest.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|P|Cooking;185;0+10;1|IZ|Auberdine;Darkshore|
 A Easy Strider Living|QID|2178|M|37.69,40.66|N|From Alanndarian Nightsong.\n[color=FF0000]NOTE: [/color]Extra experience if you want/need to do the grind.\nSkip this step if you don't wish to do it.|P|Cooking;185;0+10;0|RANK|2|
 A The Red Crystal|QID|4811|M|37.70,43.40|N|From Sentinel Glynda Nal'Shea|
 A Cave Mushrooms|QID|947|M|37.32,43.64|N|From Barithras Moonshade.|
