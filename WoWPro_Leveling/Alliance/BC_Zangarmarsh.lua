@@ -139,7 +139,7 @@ N Plant Parts|QID|9724|M|80.4,64.2|Z|102; Zangarmarsh|N|Turn in any plant parts 
 T Drain Schematics|QID|9731|M|78.4,62.0|Z|102; Zangarmarsh|N|To Ysiel Windsinger.|
 A Warning the Cenarion Circle|QID|9724|PRE|9731|M|78.4,62.0|Z|102; Zangarmarsh|N|From Ysiel Windsinger.|
 R Hellfire Peninsula|QID|9724|M|83.00, 65.0|Z|102; Zangarmarsh|N|Go to Hellfire Peninsula.|
-T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|Z|100; Hellfire Peninsula|Z|102; Zangarmarsh|N|To Amythiel Mistwalker.|
+T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|Z|100; Hellfire Peninsula|N|To Amythiel Mistwalker.|
 A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|Z|102; Zangarmarsh|N|From Amythiel Mistwalker.|
 H Cenarion Refuge|ACTIVE|9732|M|78.50,63.00|Z|102; Zangarmarsh|N|Hearth to Cenarion Refuge.|
 T Return to the Marsh|QID|9732|M|78.4,62.0|Z|102; Zangarmarsh|N|To Ysiel Windsinger.|
@@ -156,8 +156,8 @@ A WANTED: Chieftain Mummaki|QID|10116|M|41.7,27.3|Z|102; Zangarmarsh|N|From Want
 N From now on..|QID|9808|Z|102; Zangarmarsh|N|From now on, loot Glowcaps (red glowing mushrooms) off the ground. You will need 10 of them.|
 C Ango'rosh Encroachment|QID|9835|Z|102; Zangarmarsh|N|Kill the Ogres needed for this quest.|S|
 C Daggerfen Deviance|QID|10115|Z|102; Zangarmarsh|N|Kill the Daggerfen needed for this quest.|S|
-l Secrets of the Daggerfen|QID|9848|QO|2|M|23.75,22.79|Z|102; Zangarmarsh|N|Go in this area and loot the Daggerfen Poison Vial.|L|24500|
-C Secrets of the Daggerfen|QID|9848|QO|1|M|24.40,27.0|Z|102; Zangarmarsh|N|Go up the tower, and loot the manual from the ground.|
+C Secrets of the Daggerfen|QID|9848|QO|2|M|23.75,22.79|Z|102; Zangarmarsh|N|Go in this area and loot the Daggerfen Poison Vial.|NC|
+C Secrets of the Daggerfen|QID|9848|QO|1|M|24.40,27.0|Z|102; Zangarmarsh|N|Go up the tower, and loot the manual from the ground.|NC|
 C WANTED: Chieftain Mummaki|QID|10116|M|23.8,26.8|Z|102; Zangarmarsh|N|Kill Mummaki and loot the item from him.|
 C Daggerfen Deviance|QID|10115|M|24,27|Z|102; Zangarmarsh|N|Kill the Daggerfen needed for this quest.|US|
 C Ango'rosh Encroachment|QID|9835|M|36.00,28.0|Z|102; Zangarmarsh|N|Kill the Ogres needed for this quest.|US|
@@ -197,11 +197,12 @@ A The Count of the Marshes|QID|9911|M|32.8,59.1|Z|102; Zangarmarsh|N|Right-click
 C Lines of Communication|QID|9833|M|32.8,59.1|Z|102; Zangarmarsh|N|Kill Slicers until you finish this quest.|US|
 l Idols of the Feralfen|QID|9787|QO|1|M|49.60,59.7|Z|102; Zangarmarsh|N|Kill mobs and loot Idols off the ground until you finish this quest.|
 C Natural Armor|QID|9834|M|50.00,40.0|Z|102; Zangarmarsh|N|Kill Fenclaw Trashers until you get the hides needed for this quest.|U|25539|
+C Diaphanous Wings|QID|9790|M|56.66,34.58|Z|102; Zangarmarsh|N|Kill mobs until you get the wings for this quest.|US|
 H Cenarion Refuge|ACTIVE|9787|M|78.59,62.87|Z|102; Zangarmarsh|N|Hearth to Cenarion Refuge.|
 N Sell junk, repair, restock, turn in plant parts|QID|9787|M|79.25, 63.7|Z|102; Zangarmarsh|N|Sell junk, repair, restock, turn in plant parts.|
 T Idols of the Feralfen|QID|9787|M|68.2,49.4|Z|102; Zangarmarsh|N|To Anchorite Ahuurn.|
 A Gathering the Reagents|QID|9801|PRE|9787|M|68.2,49.4|Z|102; Zangarmarsh|N|From Anchorite Ahuurn.|
-t Diaphanous Wings|QID|9790|M|67.7,48.0|Z|102; Zangarmarsh|N|To Haalrun.|
+T Diaphanous Wings|QID|9790|M|67.7,48.0|Z|102; Zangarmarsh|N|To Haalrun.|
 F Orebor Harborage|QID|9834|M|67.80, 51.5|Z|102; Zangarmarsh|N|Fly to Orebor Harborage|
 T Lines of Communication|QID|9833|M|40.8,28.7|Z|102; Zangarmarsh|N|To Puluu.|
 T Natural Armor|QID|9834|M|41.6,27.3|Z|102; Zangarmarsh|N|To Maktu.|
@@ -209,15 +210,17 @@ A Maktu's Revenge|QID|9905|PRE|9834|M|41.6,27.3|Z|102; Zangarmarsh|N|From Maktu.
 C Maktu's Revenge|QID|9905|M|42.00,42.00|Z|102; Zangarmarsh|N|Kill Mragash here.|
 C Familiar Fungi|QID|9708|M|35.00,34.0|Z|102; Zangarmarsh|N|Kill ogres until you get the Mushroom Samples for this quest.|
 C Stinger Venom|QID|9830|M|25.50,31.05|Z|102; Zangarmarsh|N|Kill Marshlight Bleeders and bee mobs until you get the items needed for this quest.|
-C Diaphanous Wings|QID|9790|M|20.00,30.0|Z|102; Zangarmarsh|N|Kill mobs until you get the wings for this quest.|US|
+
 C Balance Must Be Preserved|QID|9720|M|25.40,42.9|Z|102; Zangarmarsh|N|Go here and use the Ironvine Seeds to disable the pump.|U|24355|
 C The Terror of Marshlight Lake|QID|9902|M|22.20,45.3|Z|102; Zangarmarsh|N|Kill Terrorclaw here, Terrorclaw can fear.|
 T Sporeggar|QID|9919|M|19.7,52.1|Z|102; Zangarmarsh|N|To Msshi'fn.|
 A Glowcap Mushrooms|QID|9808|M|19.7,52.1|Z|102; Zangarmarsh|N|From Msshi'fn. Will disappear if you are friendly with Sporeggar.|
 C Glowcap Mushrooms|QID|9808|M|40.00,36.3|Z|102; Zangarmarsh|N|Get the rest of the glowcaps needed for this quest.|
 T Glowcap Mushrooms|QID|9808|M|19.7,52.1|Z|102; Zangarmarsh|N|To Msshi'fn.|
+A A Friendly Gesture|QID|50130|M|19.7,52.1|Z|102; Zangarmarsh|N|From Msshi'fn.|REP|Sporeggar;970;neutral-friendly|
+t A Friendly Gesture|QID|50130|M|19.7,52.1|Z|102; Zangarmarsh|N|To Msshi'fn.|
 N Friendly with Sporeggar|QID|9708|M|19.11,63.51;15.33,61.15|CN|Z|102; Zangarmarsh|N|Kill giants; turn in 10 Mature Spore Sacs (easiest to do, 2-3 turn-ins should get you friendly), or 6 Bog Lord Tendrils to Fahssn until you are friendly with Sporeggar.|REP|Sporreggar;970;unfriendly-neutral|
-A Now That We're Friends...|QID|9726|M|19.54,50.04|Z|102; Zangarmarsh|N|From Gzhun'tt.|
+A Now That We're Friends...|QID|9726|M|19.54,50.04|Z|102; Zangarmarsh|N|From Gzhun'tt.|REP|Sporeggar;970;friendly|
 A Fertile Spores|QID|9806|M|19.2,49.4|Z|102; Zangarmarsh|N|To Gshaff.|
 C Gathering the Reagents|QID|9801|Z|102; Zangarmarsh|N|Kill and loot Marsh Walkers, Fen Striders and Sporebats, until you finish this quest.|S|
 T Familiar Fungi|M|23.30,66.2|QID|9708|Z|102; Zangarmarsh|N|To Watcher Leesa'oh.|
@@ -244,7 +247,7 @@ C Fertile Spores|QID|9806|M|20.00,16.0|Z|102; Zangarmarsh|N|Kill mobs until you 
 T Now That We're Friends...|QID|9726|M|19.54,50.04|Z|102; Zangarmarsh|N|To Gzhun'tt.|
 T Fertile Spores|QID|9806|M|19.2,49.4|Z|102; Zangarmarsh|N|To Gshaff.|
 A Now That We're Still Friends...|QID|9727|M|19.54,50.04|Z|102; Zangarmarsh|N|From Gzhun'tt.|
-A Fhwoor Smash!|QID|9729|M|19.78,50.84|Z|102; Zangarmarsh|N|From Fhwoor.  This is an annoying escort quest, but needed to complete the "Mysteries of Zangarmarash".|
+A Fhwoor Smash!|QID|9729|M|19.78,50.84|Z|102; Zangarmarsh|N|From Fhwoor.  This is an annoying escort quest, but needed to complete the "Mysteries of Zangarmarsh".|
 C Fhwoor Smash!|QID|9729|QO|1|Z|102; Zangarmarsh|N|Accompany Fhwoor, killing Naga along the way for [Now That We're Still Friends...]. Kill Ssslith when he attacks.|
 T Fhwoor Smash!|QID|9729|M|19.54,50.04|Z|102; Zangarmarsh|N|To Gzhun'tt.|
 C Now That We're Friends...|QID|9727|M|26.00,36.0|Z|102; Zangarmarsh|N|Kill Bloodscale Slavedrivers and Enchantresses needed for this quest.|

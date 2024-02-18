@@ -41,13 +41,13 @@ local soundfiles = {
 local function createDisplayConfig()
     return {
         type = "group",
-        name = L["Guide Window"],
-        desc = L["Options that alter the way the guide Window looks"],
+        name = L["Guide Frame Settings"],
+        desc = L["Options that alter the way the guide frame looks"],
         args = {
             desc = {
                 order = 0,
-                type = "description",
-                name = L["On this page you can edit the way the guide Window looks."],
+                type = "header",
+                name = L["On this page you can edit the way the guide frame looks."],
             },
             blank1 = {
                 order = 1,
@@ -67,7 +67,7 @@ local function createDisplayConfig()
                 order = 25,
                 type = "range",
                 name = L["Padding"],
-                desc = L["The padding determines how much blank space is left between the guide text and the border of the guide Window."],
+                desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
                 min = 0, max = 20, step = 1,
                 get = function(info) return WoWProDB.profile.pad end,
                 set = function(info,val) WoWProDB.profile.pad = val
@@ -137,7 +137,7 @@ local function createDisplayConfig()
                 order = 10,
                 type = "toggle",
                 name = L["Quest Tracking"],
-                desc = L["Allows tracking of quests in the guide Window"],
+                desc = L["Allows tracking of quests in the guide frame"],
                 get = function(info) return WoWProDB.profile.track end,
                 set = function(info,val) WoWProDB.profile.track = val
                     WoWPro:UpdateGuide("Config: Quest Tracking") end
@@ -163,7 +163,7 @@ local function createDisplayConfig()
                 order = 21,
                 type = "toggle",
                 name = L["Scroll Mode"],
-                desc = L["Displays full, scrollable guide in guide Window, instead of need-to-know info."],
+                desc = L["Displays full, scrollable guide in guide frame, instead of need-to-know info."],
                 get = function(info) return WoWProDB.profile.guidescroll end,
                 set = function(info,val) WoWProDB.profile.guidescroll = val
                     WoWPro:TitlebarSet()
@@ -618,7 +618,7 @@ end
 
 local function createMainConfig()
     return {
-        name = L["Main"],
+        name = L["Main Settings"],
         type = "group",
         args = {
             version = {
@@ -891,7 +891,7 @@ end
 
 local function createExpertOptions()
     return {
-        name = L["Expert"],
+        name = L["Expert Settings"],
         type = "group",
         args = {
             header = {
@@ -929,7 +929,7 @@ local function createExpertOptions()
             header2 = {
                 order = 3.2,
                 type = "header",
-                name = L["Stay away from the below settings unless you are a developer"],
+                name = L["We highly suggest you stay away from the below settings unless you are a developer"],
             },
             blank = {
                 order = 4,
@@ -1059,7 +1059,7 @@ end
 
 local function createRankConfig()
     local ranks = {
-        name = L["Ranks"],
+        name = L["Rank Settings"],
         type = "group",
         args = {
             WoWProRank={name="WoWPro",
@@ -1154,31 +1154,49 @@ end
 
 local function createActionConfig()
     local actions = {
-        name = L["Actions"],
+        name = L["Guide Legend"],
         type = "group",
         args = {
-
-                header = {
-                    order = 10,
-                    type = "header",
-                    name = L["Step Action Description"],
-            }
+            linkHeader = {
+                order = 5,
+                type = "header",
+                name = "For more information about guide writing, visit:",
+            },
+            link = {
+                order = 6,
+                type = "input",
+                name = "",
+                get = function() return "https://github.com/Ludovicus-Maior/WoW-Pro-Guides/wiki" end,
+                set = function() end,
+                width = "full"
+            },
+            header = {
+                order = 10,
+                type = "header",
+                name = L["Step Action Description"],
+            },
+            spacer = {
+                order = 15,
+                type = "description",
+                name = "\n", -- This creates a line break for spacing
+            },
         }
     }
     WoWPro.InsertActionDescriptions(actions.args, 20)
     return actions
 end
 
+
 local function createGuideConfig()
     local actions = {
-        name = L["Guide List"],
+        name = L["Guide Selection"],
         type = "group",
         args = {
 
                 header = {
                     order = 10,
                     type = "header",
-                    name = L["Guide List is not here for now"],
+                    name = L["Guide Selector is not here for now"],
                 },
                 blah = {
                     order = 11,
@@ -1205,7 +1223,7 @@ local function createCurrentGuideConfig()
                 blah = {
                     order = 11,
                     type = "description",
-                    name = "NYI - we are working on getting current guide to display here.",
+                    name = "NYI - This is high on the priorty list to return",
                     width = "full"
                 },
         }
@@ -1215,7 +1233,6 @@ end
 
 function WoWPro.CreateConfig()
     local topConfig = {
-        name = "Options",
         type = "group",
         childGroups = "tab",
         args = {

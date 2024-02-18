@@ -92,7 +92,7 @@ R The Temple of Atal'Hakkar|AVAILABLE|8713|M|69.37,53.07|Z|0051;Swamp of Sorrows
 R Hall of Masks|AVAILABLE|8713|M|70.18,50.44;75.99,45.22|CS|Z|0051;Swamp of Sorrows|N|Head down the stairs and through the Broken Hall into the Hall of Masks.|RANK|2|
 A Starsong the Elder|QID|8713|M|62.90,34.47|Z|0220;The Temple of Atal'Hakkar!Dungeon|N|From Elder Starsong in the first alcove to your left after you enter the Pit of Sacrifice.\n[color=FF0000]NOTE: [/color]The arrow doesn't work here, but the waypoint is marked on your world map.\nThis one may involve a couple unavoidable fights with lv 30 mobs.|RANK|2|
 ;R Exit The Temple|AVAILABLE|8675|M|49.9,18.4|CC|Z|0220;The Temple of Atal'Hakkar!Dungeon|N|Get back out of the instance.|RANK|2| ** These coordinates don't work here - Hendo72
-R Exit the Instance|AVAILABLE|8675|N|Walk out of the Instance|IZ|0220;The Temple of Atal'Hakkar!Dungeon|
+R Exit the Instance|AVAILABLE|8675|M|PLAYER|CC|N|Walk out of the Instance|IZ|0220;The Temple of Atal'Hakkar!Dungeon|
 R Exit The Temple|AVAILABLE|8675|M|71.31,43.74;69.57,54.11|CS|Z|0051;Swamp of Sorrows|N|Work your way back to the Temple entrance.|RANK|2|
 R Westfall|AVAILABLE|8675|M|56.64,47.09|Z|0052;Westfall|N|Head to Westfall.|
 A Skychaser the Elder|QID|8675|M|56.64,47.09|Z|0052;Westfall|N|From Elder Skychaser.|T|Elder Skychaser.|
@@ -109,19 +109,23 @@ R Follow the series of waypoints|AVAILABLE|8644|M|64.80,54.27;67.70,53.89;70.38,
 R Lower Blackrock Spires|AVAILABLE|8644|M|80.36,40.51|Z|0033;Blackrock Spire@Blackrock Mountain|N|With WOD, the entrance you are looking for has moved slightly, go straight forward and it will be on your right, under the walkway.|RANK|2|IZ|0033;Blackrock Spire@Blackrock Mountain|
 A Stonefort the Elder|QID|8644|M|42.31,45.00;52.18,36.98;61.82,40.08|CS|Z|0251;Skitterweb Tunnels@Blackrock Spire!Dungeon|N|From Elder Stonefort.\n[color=FF0000]NOTE: [/color]Go down the ramp and through the tunnel. Continue down the next ramp until you see the Elder on the other side of the bridge.\nThe arrow doesn't work here, but the waypoints are marked on your world map (if you switch it to Skitterweb).|
 R Exit the Instance|AVAILABLE|8619&-8644|N|Walk out of the Instance|RANK|2|IZ|0252;Hordemar City@Blackrock Spire!Dungeon^0251;Skitterweb Tunnels@Blackrock Spire!Dungeon^0253;Hall of Blackhand@Blackrock Spire!Dungeon|
-R The Molten Span|AVAILABLE|8619|M|18.59,25.03|CC|Z|0036;Burning Steppes|N|Run (fly) to the waypoint at the bottom near the lava.|RANK|2|
-R Blackrock Depths|AVAILABLE|8619|M|56.03,82.19;49.34,65.06;38.02,47.34;37.87,19.41|CS|Z|0035;Blackrock Depths@Blackrock Mountain|N|Follow the waypoints to get into Blackrock Depths instance.|RANK|2|
-
-A Morndeep the Elder|QID|8619|M|50.55,62.90|Z|0242;Detention Block@Blackrock Depths!Dungeon|N|From Elder Morndeep Go directly across the entrance thru the large first room and into the detention block. Leave quickly or be stuck doing that event when the doors shut.|RANK|2|
-R Searing Gorge|AVAILABLE|8651|M|34.56,83.46|CC|Z|0032;Searing Gorge|N|Head out of the instance, and run North to Searing Gorge.|RANK|2|
+R The Molten Span|AVAILABLE|8619|M|63.69,43.88|Z|0033;Blackrock Spire@Blackrock Mountain|N|Make your way back out to the Molten Span.|RANK|2|
+R The Grinding Quarry|AVAILABLE|8619|M|56.03,82.19;55.36,81.22|CS|Z|0035;Blackrock Depths@Blackrock Mountain|N|Locate the entrance at the bottom of the lava pit.\n[color=FF0000]NOTE: [/color]Look for the lowest chain connected to the center structure and follow it down.|RANK|2|
+R Blackrock Depths|AVAILABLE|8619|M|38.02,47.34;37.87,19.41|CS|Z|0035;Blackrock Depths@Blackrock Mountain|N|Follow the waypoints to the Blackrock Depths instance entrance and walk through it.|RANK|2|
+A Morndeep the Elder|QID|8619|M|50.55,62.90|Z|0242;Detention Block@Blackrock Depths!Dungeon|N|From Elder Morndeep in Ring of the Law.\n[color=FF0000]NOTE: [/color]The arrow doesn't work here, but the directions are straight forward.\nAfter entering the large room, walk across to the tunnel on the opposite side and enter the round room just inside the tunnel.\n\nLeave quickly or get stuck finishing the event when the gate closes.|RANK|2|
+R Exit the Instance|AVAILABLE|8651&-8619|N|Walk out of the Instance|RANK|2|IZ|0242;Detention Block@Blackrock Depths!Dungeon|
+R The Molten Span|AVAILABLE|8651|M|55.32,84.16|Z|0035;Blackrock Depths@Blackrock Mountain|N|Make your way back out to the Molten Span.|IZ|0035;Blackrock Depths@Blackrock Mountain|RANK|2|
+R Searing Gorge|AVAILABLE|8651|M|43.25,31.39|CC|Z|0033;Blackrock Spire@Blackrock Mountain|N|Work your way through the various ramps (or fly) to the waypoint.\n[color=FF0000]NOTE: [/color]The waypoint is actually right above you if you fly straight up.|IZ|The Molten Span|RANK|2|
+R Searing Gorge|AVAILABLE|8651|M|34.62,83.86|Z|0032;Searing Gorge|N|Go through the doors at the end of the tunnel.|IZ|Burning Steppes|RANK|2|
 A Ironband the Elder|QID|8651|M|21.29,79.11|Z|0032;Searing Gorge|N|From Elder Ironband.|
-R Loch Modan|AVAILABLE|8642|M|33,46.5|Z|0048;Loch Modan|N|{update Coords}Head towards Loch Modan.|
+R Loch Modan|AVAILABLE|8642|M|33.32,46.54|Z|0048;Loch Modan|N|Head towards Loch Modan.|
 A Silvervein the Elder|QID|8642|M|33.32,46.54|Z|0048;Loch Modan|N|From Elder Silvervein.|T|Elder Silvervein|
-R Dun Morogh|AVAILABLE|8653|M|53.9,49.8|Z|0027;Dun Morogh|N|{update Coords}Fly to Dun Morogh.|
+R Dun Morogh|AVAILABLE|8653|M|53.90,49.91|Z|0027;Dun Morogh|N|Fly to Dun Morogh.|
 A Goldwell the Elder|QID|8653|M|53.90,49.91|Z|0027;Dun Morogh|N|From Elder Goldwell.|T|Elder Goldwell|
-R Ironforge|AVAILABLE|8866|M|29.4,14|Z|0087;Ironforge|N|{update Coords}Run into Ironforge.|
-A Bronzebeard the Elder|QID|8866|M|29.20,17.06|Z|0087;Ironforge|N|From Elder Bronzebeard.|T|Elder Bronzebeard|
-
+N Bronzebeard the Elder|AVAILABLE|8866|N|This elder is deep inside Ironforge and the guards are lv 70.\nIf you are not up doing multiple corpse runs, Feel free to skip the trip into Ironforge for this Elder.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|0027;Dun Morogh^0087;Ironforge!Eastern Kingdom|
+R Ironforge|AVAILABLE|8866|M|29.20,17.06|Z|0087;Ironforge|N|Fly into Ironforge, that's the easy part.\n[color=FF0000]NOTE: [/color]Staying as close to the roof as you can (avoiding the Gryphon Riders), fly towards the Mystic Ward.|
+A Bronzebeard the Elder|QID|8866|M|29.20,17.06|Z|0087;Ironforge|N|From Elder Bronzebeard.\n[color=FF0000]NOTE: [/color]While watching the guards patroling him and the Gryphon Riders, fly down and get back up to the roof as fast as you can.|T|Elder Bronzebeard|
+R Exit Ironforge|AVAILABLE|29738&-8866|N|Get your butt out Ironforge the same way you came in.|IZ|City of Ironforge|
 R Edge of Don Morogh|AVAILABLE|29738|M|3.15,28.99|CC|Z|0027;Dun Morogh|N|Fly over to the westernmost point of Dun Morogh|
 R Vashj'ir|AVAILABLE|29738|M|39.33,59.22;37.74,59.42|CS|Z|0013;Eastern Kingdoms|N|Fly across the narrowest part of the fatigue water and then when you get into Vashj'ir head south towards the elder.|
 A Moonlance the Elder|QID|29738|M|57.25,86.14|Z|0205;Shimmering Expanse|N|From Elder Moonlance, Near Biel'Aran Ridge.|
@@ -130,40 +134,74 @@ F The Sepulcher|AVAILABLE|8645|M|61.03,28.43|Z|0205;Shimmering Expanse|N|Fly to 
 
 F The Sepulcher|AVAILABLE|8645|LEAD|29738|M|34.8,30.8|Z|0032;Searing Gorge|N|{update Coords}Fly to Sepulcher in Silverpine Forest. The closest flight point is South in Searing Gorge. This is a REALLY LONG flight, good time for an AFK.|
 A Obsidian the Elder|QID|8645|M|44.97,41.14|Z|0021;Silverpine Forest|N|From Elder Obsidian.|
-F The Bulwark|AVAILABLE|8648|M|45.4,42.4|Z|0021;Silverpine Forest|N|{update Coords}Fly to the Bulwark in Tirisfal Glades.|FLY|OLD|
-N Zidormi|AVAILABLE|8648|M|69.46,62.81|Z|0018;Tirisfal Glades|N|Run to Zidormi and ask to the what the area looked like before.|CHAT|
-A Darkcore the Elder|QID|8648|M|58.96,48.14;67.0,41.76;66.63,38.23|CS|Z|0998;Undercity|N|From Elder Darkcore. He is near the Thone.|
-R Brill|AVAILABLE|8652|M|61.86,53.91|Z|0018;Tirisfal Glades|N|Run to Brill|
+F The Bulwark|AVAILABLE|8648|PRE|8645|M|45.41,42.49|Z|0021;Silverpine Forest|N|Fly to the Bulwark in Tirisfal Glades.|FLY|OLD|
+N Zidormi|AVAILABLE|51443&60361|M|PLAYER|CC|N|In order to see Zidormi (to see the UC Elder), you need to have completed the "Battle for Azeroth: Mission Statement"; which you will do now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|RANK|2|
+P Orgrimmar|AVAILABLE|51443&60361|M|60.74,58.67|Z|0018;Tirisfal Glade|N|Take the Portal to Orgrimmar.|RANK|2|
+A Battle for Azeroth: Mission Statement|QID|60361^51443|M|49.40,76.58|Z|0085;Orgrimmar|N|From Warchief's Herald next to the Warchief's Command Board.|IZ|0085;Orgrimmar|RANK|2|
+C Battle for Azeroth: Mission Statement|QID|60361^51443|QO|1|M|48.55,71.49|Z|0085;Orgrimmar|N|Speak to Warchief Sylvanas Windrunner.\n[color=FF0000]NOTE: [/color]A skippable cut-scene will begin as soon as you enter Grommash Hold.|CHAT|
+R Battle for Azeroth: Mission Statement|ACTIVE|60361^51443|QO|2|M|54.62,78.34|Z|0085;Orgrimmar|N|Go to the Broken Tusk Inn and meet your team.|
+T Battle for Azeroth: Mission Statement|QID|60361^51443|M|54.45,78.42|Z|0085;Orgrimmar|N|To Nathanos Blightcaller once he arrives.|
+A The Stormwind Extraction|QID|50769|PRE|51443^60361|M|54.45,78.42|Z|0085;Orgrimmar|N|From Nathanos Blightcaller.|IZ|0085;Orgrimmar|RANK|2|
+C The Stormwind Extraction|QID|50769|QO|1|M|54.55,78.37|Z|0085;Orgrimmar|N|Pick up the potion.\n[color=FF0000]NOTE: [/color]If you've already done this scenario previously, talk to Nathanos without picking up the potion to get the option to skip it.|H|
+C The Stormwind Extraction|QID|50769|QO|2|M|50.67,83.45|Z|85;Orgrimmar|N|Mount the Skyhorn Eagle located by the front gate.\n[color=FF0000]NOTE: [/color]This will enter you into the next scenario (Stockades/Stormwind).|IZ|0085;Orgrimmar|RANK|2|V|
+F In the Dead of Night|QID|50769|SO|1;1|M|47.21,59.58|CC|Z|1012;Stormwind City Instance|N|Sit back and enjoy the flight.|
+C Down the Drain|QID|50769|SO|2;2|M|46.23,58.19|Z|1012;Stormwind City Instance|N|Open the sewer access gate by destroying BOTH padlocks.|H|
+C Down the Drain|QID|50769|SO|2;1|M|41.29,62.51|Z|1012;Stormwind City Instance|N|Go in the sewer access gate.|H|
+C The Stockades|QID|50769|SO|3;1|M|51.30,39.62|Z|1013;The Stockade Instance|N|Fight your way to meet up with Rokhan.|
+C Honor and Loyalty|QID|50769|SO|4;2|M|48.05,33.68|Z|1013;The Stockade Instance|N|Click on the Door to Saurfang's cell and go in.|H|
+C Honor and Loyalty|QID|50769|SO|4;1|M|48.05,33.68|Z|1013;The Stockade Instance|N|Talk to Saurfang.|CHAT|
+C The Primary Objective|QID|50769|SO|5;1|M|56.00,64.16|Z|1013;The Stockade Instance|N|Fight your way to the next waypoint and open the cell to release the Princess and the Prophet.|H|
+C The Primary Objective|QID|50769|SO|5;2|M|56.67,40.64;87.01,23.28|Z|1013;The Stockade Instance|CS|N|Fight your way down the hall to the sewer access and click on it to enter the sewer.|
+C The City Stirs|QID|50769|SO|6;1|M|55.78,56.46|Z|1012;Stormwind City Instance|N|Talk to Rokhan and then follow closely so you stay in his invis-o sphere.\n[color=FF0000]NOTE: [/color]He will stop on occassion and wait for you to tell him to continue.|CHAT|
+C WAY Behind Enemy Lines|QID|50769|SO|7;1|M|55.87,56.88|Z|1012;Stormwind City Instance|N|Wait out the worgen ambush.\n[color=FF0000]NOTE: [/color]You won't have to fight them.|
+C Escape Cathedral Square|QID|50769|SO|7;2|M|45.42,43.19|Z|1012;Stormwind City Instance|N|Keep following your buddies as you fight your way through Stormwind until you reach Nathanos.\n[color=FF0000]NOTE: [/color]Speak with Nathanos to end this stage.|
+C No Diplomatic Solution|QID|50769|SO|8;1|M|39.67,41.04|Z|1012;Stormwind City Instance|N|Break down the ice wall.|
+C Reach Talanji's ship|QID|50769|SO|9;1|M|20.59,25.79|Z|1012;Stormwind City Instance|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|
+C Escape Stormwind Harbor|QID|50769|SO|10;1|M|20.63,28.92|Z|1012;Stormwind City Instance|N|Talk to Talanji on the bridge of her ship.\n[color=FF0000]NOTE: [/color]You can skip the cut-scenes that follow.|CHAT|
+T The Stormwind Extraction|QID|50769|M|57.95,62.77|Z|1164;Hall of Croniclers|N|To Nathanos Blightcaller.\n[color=FF0000]NOTE: [/color]You can now return to Undercity.|
+P Silvermoon City|AVAILABLE|8648|PRE|50769|M|73.83,62.17|Z|1163;The Great Seal@Dazar'alor|N|Fly up to Dazar'alor and enter the Hall of Ancient Paths through the Great Seal.|IZ|0862;Zuldazar|RANK|2|
+P Undercity|AVAILABLE|8648|PRE|50769|M|49.46,14.80|Z|0110;Silvermoon City|N|The portal is at the top of the ramp inside Inner Sanctum.|IZ|0110;Silvermoon City|RANK|2|
+N Zidormi|AVAILABLE|8648|PRE|50769|M|69.46,62.81|Z|0018;Tirisfal Glades|N|Go to Zidormi and ask to change back to before the Battle of Lordaeron.|BUFF|276827|RANK|2|CHAT|
+A Darkcore the Elder|QID|8648|M|66.63,38.23|Z|0090;Undercity!Eastern Kingdoms|N|From Elder Darkcore in the Ruins of Lordaeron Throne Room.|RANK|2|
+R Brill|AVAILABLE|8652|M|61.86,53.91|Z|0018;Tirisfal Glades|N|Run to Brill|FLY|OLD|
 A Graveborn the Elder|QID|8652|M|61.86,53.91|Z|0018;Tirisfal Glades|N|From Elder Graveborn.|
-F Hiri'watha Research Station|AVAILABLE|8643|M|58.87,51.86|Z|0018;Tirisfal Glades|N|Fly to Hiri'watha Research Stateion in the Hinterlands.|FLY|OLD|
+F Hiri'watha Research Station|AVAILABLE|8643|M|58.84,51.94|Z|0018;Tirisfal Glades|N|Fly to Hiri'watha Research Station in the Hinterlands.|
 A Highpeak the Elder|QID|8643|M|50.00,48.05|Z|0026;The Hinterlands|N|From Elder Highpeak.|
-F Thondroril River|AVAILABLE|8722|M|32.4,58|Z|0026;The Hinterlands|N|{update Coords}Fly to Thondroril River in Eastern Plaguelands.|FLY|OLD|
-A Moonstrike the Elder|QID|8714|M|69.19,73.45|Z|0022;Western Plaguelands|N|From Elder Moonstrike. She is on top of Scholomance, not inside the instance.|
-A Meadowrun the Elder|QID|8722|M|65.21,38.72;63.51,36.11|Z|0022;Western Plaguelands|CS|N|From Elder Meadowrun, inside the cave. At the first intersection, go straight, and in a few more steps you will see the Elder.|
-R Crown Guard Tower|AVAILABLE|8688|M|35.6,68.8|Z|0023;Eastern Plaguelands|N|{update Coords}Head over to Crown Guard Tower.|
-A Windrun the Elder|QID|8688|M|35.58,68.82|Z|0023;Eastern Plaguelands|N|From Elder Windrun.|
+F Thondroril River|AVAILABLE|8722|M|32.44,58.07|Z|0026;The Hinterlands|N|Fly from Hiri'watha Research Station to Thondroril River in Eastern Plaguelands.|FLY|OLD|
+A Moonstrike the Elder|QID|8714|M|69.19,73.45|Z|0022;Western Plaguelands|N|From Elder Moonstrike, located outside of Scholomance (upstairs).|
+R The Weeping Cave|AVAILABLE|8722|M|65.21,38.72|Z|0022;Western Plaguelands|N|Fly to the cave entrance in Western Plaguelands.|
+A Meadowrun the Elder|QID|8722|M|63.51,36.11|Z|0022;Western Plaguelands|CS|N|From Elder Meadowrun, inside the cave.\n[color=FF0000]NOTE: [/color]At the first intersection, go straight and you'll see the Elder in a few steps.|
+R Crown Guard Tower|AVAILABLE|8688|M|35.58,68.82|Z|0023;Eastern Plaguelands|N|Head over to Crown Guard Tower.|FLY|OLD|
+A Windrun the Elder|QID|8688|M|35.58,68.82|Z|0023;Eastern Plaguelands|N|From Elder Windrun at Crown Guard Tower.|
 
-F Light's Hope Chapel|AVAILABLE|8650|M|34.9,67.9|Z|0023;Eastern Plaguelands|N|{update Coords}Fly to Light's Hope Chapel in Eastern Plaguelands.|FLY|OLD|
-A Snowcrown the Elder|QID|8650|M|75.73,54.56|Z|0023;Eastern Plaguelands|N|From Elder Snowcrown.|
-F Plaguewood Tower|AVAILABLE|8727|M|75.85,53.41|Z|0023;Eastern Plaguelands|N|Fly to Plaguewood Tower in Eastern Plaguelands.|FLY|OLD|
-R Stratholme|AVAILABLE|8727|M|26.3,11.7|Z|0023;Eastern Plaguelands|N|{update Coords}Enter Stratholme's main entrance.|RANK|2|
-A Farwhisper the Elder|QID|8727|M|78.59,21.16|Z|0317;Crusader's Square@Stratholme!Dungeon|N|From Elder Farwhisper.|RANK|2|
-R Stratholme|AVAILABLE|8645|M|65.4,87.8|CC|Z|0317;Crusader's Square@Stratholme!Dungeon|N|{update Coords}Exit Stratholme.|RANK|2|
-R Plaguewood Tower|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Run to Plaguewood Tower in Eastern Plaguelands.|FLY|OLD|
-F Brill|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Fly to Brill in Tirisfal Glade.|FLY|OLD|
-P Vengeance Landing|AVAILABLE|13017|M|58.9,59.0|Z|0018;Tirisfal Glades|N|{update Coords}Take the portal (from the where the zeppelin used to stop) to Howling Fjord.|
+F Light's Hope Chapel|AVAILABLE|8650|M|35.58,68.82|Z|0023;Eastern Plaguelands|N|Fly to Light's Hope Chapel in Eastern Plaguelands.|FLY|OLD|
+A Snowcrown the Elder|QID|8650|M|75.73,54.56|Z|0023;Eastern Plaguelands|N|From Elder Snowcrown in Light's Hope Chapel.|
+F Plaguewood Tower|AVAILABLE|8727|M|75.81,53.29|Z|0023;Eastern Plaguelands|N|Fly to Plaguewood Tower in Eastern Plaguelands.|IZ|-Stratholme|FLY|OLD|
+R Stratholme|AVAILABLE|8727|M|26.3,11.7|Z|0023;Eastern Plaguelands|N|Head to Stratholme.|RANK|2|
+R Stratholme Instance (live side)|AVAILABLE|8727|N|Enter the Stratholme instance through the Main Gate.|IZ|-0317;Crusader's Square@Stratholme!Dungeon|RANK|2|
+A Farwhisper the Elder|QID|8727|M|78.59,21.16|Z|0317;Crusader's Square@Stratholme!Dungeon|N|From Elder Farwhisper.\n[color=FF0000]NOTE: [/color]The arrow doesn't work here, but the waypoint is marked on your world map.|RANK|2|
+R Exit the Instance|AVAILABLE|13017&-8727|N|Walk out of the Instance|RANK|2|IZ|0317;Crusader's Square@Stratholme!Dungeon|
+R Plaguewood Tower|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Head to Plaguewood Tower in Eastern Plaguelands.|IZ|0023;Eastern Plaguelands|
+F Brill|AVAILABLE|13017|M|18.46,27.36|Z|0023;Eastern Plaguelands|N|Fly to Brill in Tirisfal Glade.|IZ|0023;Eastern Plaguelands|FLY|OLD|
+P Vengeance Landing|AVAILABLE|13017|M|59.09,58.91|Z|0018;Tirisfal Glades|N|Take the portal (from the where the zeppelin used to stop) to Howling Fjord.|IZ|0018;Tirisfal Glades|
 
-R Utgarde Keep|AVAILABLE|13017|M|58.9,48.7|Z|0117;Howling Fjord|N|{update Coords}Head inside Utgarde Keep.|RANK|3|
-A Jarten the Elder|QID|13017|M|47.41,69.55|Z|0133;Njorndir Preparation@Utgarde Keep!Dungeon|N|From Elder Jarten inside the instance. Down the stairs in Lower Pinnacle, after Dalronn the Controller. The only thing that has to be killed are the mobs by the fires in the first room, everything else is skippable.|RANK|3|
-R Utgarde Pinnacle|AVAILABLE|13067|M|58.0,50.1;57.25,46.63|CS|Z|0117;Howling Fjord|N|{update Coords}Head out of Utgarde Keep, then run around north of the Keep to get to Utgarde Pinnacle.|RANK|3|
-A Chogan'gada the Elder|QID|13067|M|48.79,23.14|Z|Upper Pinnacle@Utgarde Pinnacle!Dungeon|N|From Elder Chogan'gada from inside the instance. You can skip anything you don't agro except Skadi must be killed to open the door and the elder is at the bottom of the stairs after that. Then kill the final boss, King Ymiron, to leave or return the way you came.|RANK|3|
-F Camp Oneqwah|AVAILABLE|13030|M|79,29.6|Z|0117;Howling Fjord|N|{update Coords}Fly to Camp Oneqwah in Grizzly Hills.|FLY|OLD|
+R Utgarde Keep|AVAILABLE|13017|M|61.46,45.05|Z|0117;Howling Fjord|N|Head to Utgarde Keep.|RANK|3|
+R Utgarde Keep Entrance|AVAILABLE|13017|M|57.27,46.64|Z|0117;Howling Fjord|N|Go around to the Wyrmskull Village side and climb the stairs. Enter the instance at the end of the hallway.\n[color=FF0000]NOTE: [/color]There is a 2nd entrance from the Village and another from the north side if you wish to use either of those.|RANK|3|IZ|-0133;Njorndir Preparation@Utgarde Keep!Dungeon|
+A Jarten the Elder|QID|13017|M|47.41,69.55|Z|0133;Njorndir Preparation@Utgarde Keep!Dungeon|N|From Elder Jarten in an alcove off of Njorn Stair.\n[color=FF0000]NOTE: [/color]The arrow doesn't work here, but you can follow the directions.\nDown the stairs into Furnace of Hate and kill the mobs around the flames to turn off them off. From here everything else is skippable and just continue walking through until you find the alcove.|RANK|3|
+R Exit the Instance|AVAILABLE|13067&-13017|N|Walk out of the Instance.|IZ|0133;Njorndir Preparation@Utgarde Keep!Dungeon|
+R Utgarde Pinnacle|AVAILABLE|13067|M|57.26,46.65|Z|0117;Howling Fjord|N|Leave using one of the exits and run around to the north side of the Keep to get to the Utgarde Pinnacle entrance.|RANK|3|IZ|0117;Howling Fjord&-Utgarde Pinnacle!Dungeon|
+A Chogan'gada the Elder|QID|13067|M|48.79,23.14|Z|0137;Upper Pinnacle@Utgarde Pinnacle!Dungeon|N|From Elder Chogan'gada at the bottom of the stairs after Eagle's Eye.[color=FF0000]NOTE: [/color]The arrow doesn't work here, but you can follow the directions.\nYou can skip anything you don't agro and kill Skadi (in Eagle's Eye) to open the door. The elder is at the bottom of the stairs.\n|RANK|3|
+R Exit the Instance|AVAILABLE|13030&-13067|N|Kill the final boss, King Ymiron, to open the gate, or return the way you came and walk out of the Instance.|IZ|0136;Lower Pinnacle@Utgarde Pinnacle!Dungeon^0137;Upper Pinnacle@Utgarde Pinnacle!Dungeon|
+F Camp Oneqwah|AVAILABLE|13030|M|79.04,29.71|Z|0117;Howling Fjord|N|Fly from Vengeance Landing to Camp Oneqwah in Grizzly Hills.|TAXI|Camp Oneqwah|FLY|OLD|
 A Whurain the Elder|QID|13030|M|64.18,46.98|Z|0116;Grizzly Hills|N|From Elder Whurain.|
 A Lunaro the Elder|QID|13025|M|80.53,37.11|Z|0116;Grizzly Hills|N|From Elder Lunaro.|
-A Beldak the Elder|QID|13013|M|60.4,27.6|Z|0116;Grizzly Hills|N|{update Coords}From Elder Beldak.|T|Elder Beldak|
-R Drak'Tharon Keep|AVAILABLE|13023|M|17.42,21.2|Z|0116;Grizzly Hills|N|{update Coords}Head into Drak'Tharon Keep.|RANK|3|
-A Kilias the Elder|QID|13065|M|45.64,61.50|Z|0154;Gundrak!Dungeon|N|From Elder Kilias. He is in the area with the large raptor. Everything is skippable, but due to mob density that may be difficult at times.|RANK|3|
-R Zim'Torga|AVAILABLE|13027|M|58.8,56|Z|Zul'Drak|N|{update Coords}Head out of Drak'Tharon Keep and head to Zim'Torga.|RANK|3|
+A Beldak the Elder|QID|13013|M|60.57,27.68|Z|0116;Grizzly Hills|N|From Elder Beldak just outside Westfall Brigade Encampment.|T|Elder Beldak|
+R Drak'Tharon Keep|AVAILABLE|13023|M|21.28,26.50|Z|0116;Grizzly Hills|N|Head to Drak'Tharon Keep.|RANK|3|
+R Drak'Tharon Keep Entrance|AVAILABLE|13023|M|28.45,86.94|Z|0121;Zul'Drak|N|After entering Drak'Tharon Keep from the north, go down to the first landing and walk into the Instance.|RANK|3|TZ|Hall of Departure|
+
+A Kilias the Elder|QID|13023|M|45.64,61.50|Z|0160;The Vestibules of Drak'Tharon@Drak'Tharon Keep!Dungeon|N|From Elder Kilias in the Raptor Pens.Everything is skippable, but due to the nature of wandering mobs and density, that may be difficult at times.|RANK|3|
+R Exit the Instance|AVAILABLE|13027&-13023|N|Work your back to Hall of Departure and the exit, or work your way forward to Hall of Return to get back to the Hall of Departure and the exit.|IZ|0160;The Vestibules of Drak'Tharon@Drak'Tharon Keep!Dungeon|
+R Zim'Torga|AVAILABLE|13027|M|58.8,56|Z|Zul'Drak|N|Head to Zim'Torga.|RANK|3|
 A Tauros the Elder|QID|13027|M|58.91,55.97|Z|Zul'Drak|N|From Elder Tauros.|
 R Gundrak|AVAILABLE|13065|M|76.43,21.43|Z|Zul'Drak|N|Head inside of Gundrak.|RANK|3|
 A Ohanzee the Elder|QID|13065|M|45.64,61.50|Z|0154;Gundrak!Dungeon|N|From Elder Ohanzee. He is in the room with the Drakkari Colossus. All the content is skippable to get there and then return back path.|RANK|3|
