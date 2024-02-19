@@ -201,38 +201,40 @@ R Drak'Tharon Keep Entrance|AVAILABLE|13023|M|28.45,86.94|Z|0121;Zul'Drak|N|Afte
 
 A Kilias the Elder|QID|13023|M|45.64,61.50|Z|0160;The Vestibules of Drak'Tharon@Drak'Tharon Keep!Dungeon|N|From Elder Kilias in the Raptor Pens.Everything is skippable, but due to the nature of wandering mobs and density, that may be difficult at times.|RANK|3|
 R Exit the Instance|AVAILABLE|13027&-13023|N|Work your back to Hall of Departure and the exit, or work your way forward to Hall of Return to get back to the Hall of Departure and the exit.|IZ|0160;The Vestibules of Drak'Tharon@Drak'Tharon Keep!Dungeon|
-R Zim'Torga|AVAILABLE|13027|M|58.8,56|Z|Zul'Drak|N|Head to Zim'Torga.|RANK|3|
-A Tauros the Elder|QID|13027|M|58.91,55.97|Z|Zul'Drak|N|From Elder Tauros.|
-R Gundrak|AVAILABLE|13065|M|76.43,21.43|Z|Zul'Drak|N|Head inside of Gundrak.|RANK|3|
-A Ohanzee the Elder|QID|13065|M|45.64,61.50|Z|0154;Gundrak!Dungeon|N|From Elder Ohanzee. He is in the room with the Drakkari Colossus. All the content is skippable to get there and then return back path.|RANK|3|
-
-R Camp Tunka'lo|AVAILABLE|13032|M|65.4,50.7|Z|0120;The Storm Peaks|N|{update Coords}Leave Gundrak and head over to Camp Tunka'lo.|
+R Zim'Torga|AVAILABLE|13027|M|58.8,56|Z|Zul'Drak|N|Head to Zim'Torga.|RANK|2|
+A Tauros the Elder|QID|13027|M|58.91,55.97|Z|Zul'Drak|N|From Elder Tauros.|RANK|2|
+R Gundrak Entrance|AVAILABLE|13065|M|76.08,20.91|Z|Zul'Drak|N|Head inside of Gundrak.|RANK|3|IZ|-0154;Gundrak!Dungeon|
+A Ohanzee the Elder|QID|13065|M|45.64,61.50|Z|0154;Gundrak!Dungeon|N|From Elder Ohanzee behind the Drakkari Colossus (Tomb of the Ancients) in the Pool of Twisted Reflections.\n[color=FF0000]NOTE: [/color]Everything is skippable if you avoid it.|RANK|3|
+R Exit the Instance|AVAILABLE|13032&-13065|N|Return the way you came in and walk out of the Instance.|IZ|0154;Gundrak!Dungeon|
+R Camp Tunka'lo|AVAILABLE|13032|M|65.40,50.60|Z|0120;The Storm Peaks|N|Head over to Camp Tunka'lo.|
 A Muraco the Elder|QID|13032|M|64.59,51.34|Z|0120;The Storm Peaks|N|From Elder Muraco.|
-F Ulduar|AVAILABLE|13066|M|65.4,50.6|Z|0120;The Storm Peaks|N|{update Coords}Fly to Ulduar in The Storm Peaks.|FLY|OLD|
-R Halls of Stone|AVAILABLE|13066|M|39.57,26.92|Z|0120;The Storm Peaks|N|Run into the Halls of Stone.|RANK|3|
-A Yurauk the Elder|QID|13066|M|29.39,62.06|Z|0147;Ulduar!Dungeon|N|From Elder Yurauk. Follow the right wall to the elder, just before the first boss. It is not necessary to kill anything if you can avoid it. Return the way you entered.|RANK|3|
-R The Storm Peaks|AVAILABLE|13020|M|34.4,36.2|Z|0147;Ulduar!Dungeon|N|{update Coords}Exit the Halls of Stone|RANK|3|
-A Stonebeard the Elder|QID|13020|M|31.26,37.61|Z|0120;The Storm Peaks|N|From Elder Stonebeard.|
-A Fargal the Elder|QID|13015|M|28.89,73.72|Z|0120;The Storm Peaks|N|From Elder Fargal.|T|Elder Fargal|
-A Graymane the Elder|QID|13028|M|41.16,84.72|Z|0120;The Storm Peaks|N|From Elder Graymane.|
+F Ulduar|AVAILABLE|13066|M|65.40,50.60|Z|0120;The Storm Peaks|N|Fly from Camp Tunka'lo to Ulduar.|TAXI|Ulduar|IZ|Camp Tunka'lo|FLY|OLD|
+R Ulduar|AVAILABLE|13066|M|39.57,26.92|Z|0120;The Storm Peaks|N|Head to Ulduar.|TAXI|-Ulduar|
+f Ulduar|AVAILABLE|13066|M|44.48,28.20|Z|0120;The Storm Peaks|N|Get the Ulduar FP from Shavalius the Fancy.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Ulduar|
+R Halls of Stone Entrance|AVAILABLE|13066|M|39.43,26.91|Z|0120;The Storm Peaks|TZ|Hall of the High Father|N|Run into the Halls of Stone.|RANK|3|
+A Yurauk the Elder|QID|13066|M|29.39,62.06|Z|0140;Halls of Stone!Dungeon140|N|From Elder Yurauk in the Crystalline Quarry (just before the first boss).\n[color=FF0000]NOTE: [/color]Everything is skippable, but due to the nature of wandering mobs and density, that may be difficult at times.|RANK|3|
+R Exit the Instance|AVAILABLE|13020&-13066|N|Return the way you came in and walk out of the Instance.|IZ|0140;Halls of Stone!Dungeon140|
+A Stonebeard the Elder|QID|13020|M|31.26,37.61|Z|0120;The Storm Peaks|N|From Elder Stonebeard inside Bouldercrag's Refuge.|
+A Fargal the Elder|QID|13015|M|28.89,73.72|Z|0120;The Storm Peaks|N|From Elder Fargal in Frosthold.|T|Elder Fargal|
+A Graymane the Elder|QID|13028|M|41.16,84.72|Z|0120;The Storm Peaks|N|From Elder Graymane in K3.|
+F Agmar's Hammer|AVAILABLE|13014|M|40.75,84.55|Z|0120;The Storm Peaks|N|Fly from K3 to Agmar's Hammer in Dragonblight.|TAXI|Agmar's Hammer|FLY|OLD|
+A Skywarden the Elder|QID|13031|M|35.09,48.35|Z|0115;Dragonblight|N|From Elder Skywarden in Agmar's Hammer.|
+R Azjol-Nerub Entrance|AVAILABLE|13022|M|25.92,50.94|Z|0115;Dragonblight|N|Head inside of Azjol-Nerub.|TZ|The Gilded Gate|RANK|3|
+A Nurgen the Elder|QID|13022|M|21.80,43.60|Z|0157;The Brood Pit@Azjol-Nerub!Dungeon|N|From Elder Nurgen in the Brood Pit.\n[color=FF0000]NOTE: [/color]Everything is skippable except for the first boss; Krik'thir must be killed to continue on. Run past Hadronox and drop down the hole into the Brood Pit.|RANK|3|
+R Exit the Instance|AVAILABLE|13014&-13022|N|Run past Anub'arak and exit out the portal at the end of the tunnel.|IZ|0157;The Brood Pit@Azjol-Nerub!Dungeon|
+A Morthie the Elder|QID|13014|M|29.75,55.90|Z|0115;Dragonblight|N|From Elder Morthie in Stars' Rest.|T|Elder Morthie|
+R Moa'ki Harbor|AVAILABLE|13019|M|48.77,78.17|Z|0115;Dragonblight|N|Head to Moa'ki Harbor.|
+A Thoim the Elder|QID|13019|M|48.77,78.17|Z|0115;Dragonblight|N|From Elder Thoim in Moa'ki Harbor.|
+F Wintergrasp|AVAILABLE|13026|M|48.52,74.39|Z|0115;Dragonblight|N|Fly from Moa'ki Harbor to Wintergrasp.|TAXI|Wintergrasp|FLY|OLD|
+A Bluewolf the Elder|QID|13026|M|49.03,13.95|Z|0123;Wintergrasp!Northrend|N|From Elder Bluewolf in Wintergrasp.\n[color=FF0000]NOTE: [/color]If the Alliance has control, it may be possible to get past the main gate if it's been damaged enough to fly into. Otherwise, you have to wait for the Horde to take control of Wintergrasp.|
 
-F Agmar's Hammer|AVAILABLE|13014|M|40.6,84.6|Z|0120;The Storm Peaks|N|{update Coords}Fly to Agmar's Hammer in Dragonblight.|FLY|OLD|
-A Skywarden the Elder|QID|13031|M|35.09,48.35|Z|0115;Dragonblight|N|From Elder Skywarden.|
-R Azjol-Nerub|AVAILABLE|13022|M|25.99,50.86|Z|0115;Dragonblight|N|Head inside of Azjol-Nerub.|RANK|3|
-A Nurgen the Elder|QID|13022|M|21.80,43.60|Z|0115;The Brood Pit@Azjol-Nerub!Dungeon|N|From Elder Nurgen. The first boss must be killed to proceed deeper, the 2nd boss can be run past and you drop down the hole where the elder is.  The third boss can also be run past to then exit out the portal at the end.|RANK|3|
-A Morthie the Elder|QID|13014|M|29.75,55.90|Z|0115;Dragonblight|N|From Elder Morthie .|T|Elder Morthie|
-R Moa'ki Harbor|AVAILABLE|13019|M|48.8,78|Z|0115;Dragonblight|N|{update Coords}Head down to Moa'ki Harbor.|
-A Thoim the Elder|QID|13019|M|48.77,78.17|Z|0115;Dragonblight|N|From Elder Thoim.|
-F Wintergrasp|AVAILABLE|13026|M|48.4,74.4|Z|0115;Dragonblight|N|{update Coords}Fly to Wintergrasp.|FLY|OLD|
-A Bluewolf the Elder|QID|13026|M|49.03,13.95|Z|0123;Wintergrasp!Northrend|N|From Elder Bluewolf. Just a note, if the Horde does not have Wintergrasp you may not be able to get this Elder. It may be possible though if the Alliance has control, if the main gate is damaged enough to fly into.|
+F River's Heart|AVAILABLE|13018|M|21.62,34.95|Z|0123;Wintergrasp!Northrend|N|Fly from Wintergrasp to River's Heart in Sholazar Basin.|TAXI|River's Heart|FLY|OLD|
+A Sandrene the Elder|QID|13018|M|49.78,63.62|Z|0119;Sholazar Basin|N|From Elder Sandrene in River's Heart.|
+A Wanikaya the Elder|QID|13024|M|63.80,49.02|Z|0119;Sholazar Basin|N|From Elder Wanikaya in Rainspeaker Rapids.|
 
-F River's Heart|AVAILABLE|13018|M|21.6,34.8|Z|0123;Wintergrasp!Northrend|N|{update Coords}Fly to River's Heart in Sholazar Basin.|FLY|OLD|
-A Sandrene the Elder|QID|13018|M|49.78,63.62|Z|0119;Sholazar Basin|N|From Elder Sandrene.|
-A Wanikaya the Elder|QID|13024|M|63.80,49.02|Z|0119;Sholazar Basin|N|From Elder Wanikaya.|
-
-F Transitus Shield|AVAILABLE|13016|M|50,61.4|Z|0119;Sholazar Basin|N|{update Coords}Fly to the Transitus Shield in Colderra.|FLY|OLD|
+F Transitus Shield|AVAILABLE|13016|M|50.13,61.36|Z|0119;Sholazar Basin|N|Fly to the Transitus Shield in Coldarra.|TAXI|Transitus Shield|FLY|OLD|
 A Northal the Elder|QID|13016|M|33.80,34.36|Z|0114;Borean Tundra|N|From Elder Northal.|
-R The Nexus|AVAILABLE|13021|M|27.5,26.09|Z|0114;Borean Tundra|N|{update Coords}Run into The Nexus.|RANK|3|
+R The Nexus Entrance|AVAILABLE|13021|M|27.87,28.54;27.50,25.91|CS|Z|0114;Borean Tundra|N|Locate the entrance portal beneath the Occulus portal and enter it.|RANK|3|IZ|0114;Borean Tundra&-0129;The Nexus!Dungeon129|
 A Igasho the Elder|QID|13021|M|55.19,64.72|Z|0129;The Nexus@The Nexus!Dungeon|N|From Elder Igasho. Before the first boss. Nothing needs to die, but due to mob density, you probably will find it easier to kill a few.|RANK|3|
 R D.E.H.T.A Encampment|AVAILABLE|13033|M|57.4,43.6|Z|0114;Borean Tundra|N|{update Coords}Head out of The Nexus and go to the D.H.E.T.A Encampment.|
 A Arp the Elder|QID|13033|M|57.41,43.72|Z|0114;Borean Tundra|N|From Elder Arp.|
