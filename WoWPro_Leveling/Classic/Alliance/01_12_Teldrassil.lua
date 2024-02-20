@@ -114,7 +114,7 @@ T Crown of the Earth|QID|928|M|56.15,61.71|Z|1438;Teldrassil|N|To Corithras Moon
 A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|Z|1438;Teldrassil|N|From Corithras Moonrage.|
 C Garments of the Moon|QID|5621|M|57.24,63.50|Z|1438;Teldrassil|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|T|Sentinel Shaya|C|Priest|
 T Garments of the Moon|QID|5621|M|55.56,56.75|Z|1438;Teldrassil|N|To Laurana Morninglight.|C|Priest|
-= Professions|ACTIVE|475|M|PLAYER|CC|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you'll have one heck of a detour to take). Others are in Darnassus.\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S|IZ|Dolanaar|
+= Professions|ACTIVE|475|M|PLAYER|CC|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you'll have one heck of a detour to take). All of the others are in Darnassus.\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S|IZ|Dolanaar|
 C Recipe of the Kaldorei|QID|4161|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|S|
 C Crown of the Earth|QID|929|QO|1|M|63.35,58.11|Z|1438;Teldrassil|N|Use the Crystal Vial at the Starbreeze Village Moonwell to the east.|U|5619|NC|
 T A Troubling Breeze|QID|475|M|66.26,58.55|Z|1438;Teldrassil|N|To Gaerolas Talvethren on the second floor of the first building to your right.|
@@ -173,6 +173,7 @@ K Lord Melenas|QID|932|M|51.45,49.91;51.22,50.74|CN|Z|1438;Teldrassil|L|5221|N|K
 l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|Z|1438;Teldrassil|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|C|Priest|US|RUNE|
 H Hearth or Grind|ACTIVE|932|M|55.62,59.79|Z|1438;Teldrassil|N|As most of the mobs you've killed on the way in have respawned by now, use your Hearth or grind your way out.|TZ|Dolanaar|
 T Twisted Hatred|QID|932|M|55.58,56.95|Z|1438;Teldrassil|N|To Tallonkai Swiftroot at the top of the tree.|
+B Skinning Knife|ACTIVE|922|M|55.27,57.15|Z|1438;Teldrassi|L|7005|N|If you plan on learning skinning, get your [color=33fff9]Skinning Knife[/color] now from Narret Shadowgrove. Otherwise, you'll have to wait until you get to Darnassus before you can do any skinning.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't want it.|
 N Meditation on Elune|AVAILABLE|487|M|56.04,61.95|Z|1438;Teldrassil|N|Go to the Moonwell and get your buff.|T| ,kneel|BUFF|419307|C|Priest|
 = Engrave Pants - Shared Pain|M|PLAYER|CC|N|Use the [color=33fff9]Memory of an Imprisoned Savior[/color] to learn the spell.|U|205945|SPELL|Engrave Pants - Shared Pain;402852|BUFF|-419307|C|Priest|O|
 N Meditation on Undeath|M|PLAYER|CC|N|You need to find an Undead Priest with this buff to share it with you.\n[color=FF0000]NOTE: [/color]Skip this step if unavailable.|T| ,kneel|SPELL|Engrave Pants - Homunculi;402852|BUFF|418459|C|Priest|
@@ -182,7 +183,7 @@ A The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87;55.74,58.35|CC|Z|1438;
 l Rune of Marksmanship|M|46.60,46.30|Z|1438;Teldrassil|L|206155|ITEM|206155|N|Fallenroot Poacher\nCast Hunter's Mark on the Rustling Bush to summon the lv 9 demon to kill./nHe hits hard if you melee with him.\n[color=FF0000]NOTE: [/color]The bush takes 5 minutes to respawn if it's not there.|T|Rustling Bush|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|
 = Engrave Pants - Flanking Strike|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Marksmanship[/color] to learn the spell.|U|206155|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
 R Darnassus|ACTIVE|922|M|50.21,53.87|CC|Z|1438;Teldrassil|N|Run to Darnassus along the road.|C|-Druid|
-N Skinning and Leatherworking|QID|922|M|42.09,49.97|Z|1438;Teldrassil|N|If you're interested, stop by the Leatherworking and Skinning Trainers in the hut just past the bridge.\n[color=FF0000]NOTE: [/color]You'll need to buy a skinning knife in Darnassus before you can do any skinning.\n\nManually check this step off if you wish.|S|
+N Skinning and Leatherworking|ACTIVE|922|M|42.09,49.97|Z|1438;Teldrassil|N|If you're interested, stop by the Leatherworking and Skinning Trainers in the hut just past the bridge.\n[color=FF0000]NOTE: [/color]Manually check this step off if you wish.|S|
 R Darnassus|ACTIVE|922|M|39.02,53.24;36.28,54.37|CC|Z|1438;Teldrassil|N|Continue west along the road to Darnassus.|
 
 r Housekeeping|ACTIVE|922|N|While in Darnassus, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
