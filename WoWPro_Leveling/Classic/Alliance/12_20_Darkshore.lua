@@ -19,12 +19,12 @@ A Buzzbox 827|QID|983|M|36.97,44.13|N|From Wizbang Cranktoggle, on the TOP FLOOR
 A For Love Eternal|QID|963|M|35.74,43.71|N|From Cerellean Whiteclaw.|
 A Plagued Lands|QID|2118|M|38.84,43.42|N|From Tharnariun Treetender.|
 A How Big a Threat?|QID|984|M|39.37,43.48|N|From Terenthis.|
-l Crab Treats|L|209027|N|You get this from fishing or by killing Furbolgs.|SPELL|Beast Mastery;409368|C|Hunter|S!US|RUNE|
-l Rune of Beast Mastery|L|208687|N|Find a Young Reef Crawler on the coast around Auberdine and while targeted, feed it the Crab Treats to obtain the Rune of Lacerate.|T|Young Reef Crawler|U|209027|SPELL|Beast Mastery;409368|C|Hunter|O|S!US|RUNE|
-= Engrave Gloves - Beast Mastery|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Beast Mastery[/color] to learn the spell.|U|208687|SPELL|Beast Mastery;409368|C|Hunter|O|
-l Crab Treats|L|209027|N|You get this from fishing or by killing Furbolgs.|SPELL|Lacerate;414644|C|Druid|S!US|RUNE|
-l Rune of Lacerate|L|208687|N|Find a Young Reef Crawler on the coast around Auberdine and while targeted, feed it the Crab Treats to obtain the Rune of Lacerate.|T|Young Reef Crawler|U|209027|SPELL|Lacerate;414644|C|Druid|O|S!US|
-= Engrave Gloves - Lacerate|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Lacerate[/color] to learn the spell.|U|208687|SPELL|Lacerate;414644|C|Druid|O|
+l Crab Treats|L|209027|N|You get this from fishing or by killing Furbolgs.|SPELL|Beast Mastery;410110|C|Hunter|S!US|RUNE|
+l Rune of Beast Mastery|L|208687|N|Find a Young Reef Crawler on the coast around Auberdine and while targeted, feed it the Crab Treats to obtain the Rune of Lacerate.|T|Young Reef Crawler|U|209027|SPELL|Beast Mastery;410110|C|Hunter|O|S!US|RUNE|
+= Engrave Gloves - Beast Mastery|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Beast Mastery[/color] to learn the spell.|U|208687|SPELL|Beast Mastery;410110|C|Hunter|O|
+l Crab Treats|L|209027|N|You get this from fishing or by killing Furbolgs.|SPELL|Lacerate;416049|C|Druid|S!US|RUNE|
+l Rune of Lacerate|L|208687|N|Find a Young Reef Crawler on the coast around Auberdine and while targeted, feed it the Crab Treats to obtain the Rune of Lacerate.|T|Young Reef Crawler|U|209027|SPELL|Lacerate;416049|C|Druid|O|S!US|
+= Engrave Gloves - Lacerate|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Lacerate[/color] to learn the spell.|U|208687|SPELL|Lacerate;416049|C|Druid|O|
 A The Family and the Fishing Pole|QID|1141|M|36.10,44.93|N|From Gubber Blump, on the beach near the inn.\n[color=FF0000]NOTE: [/color]Skip if you don't care about fishing and a pole.|NOAUTO| ; ** Give them the option to skip it. - Hendo72
 N The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|P|Fishing;356;0;1|CHAT|
 B The Family and the Fishing Pole|ACTIVE|1141|M|36.10,44.93|L|6256|N|Not got a fishing rod? No problem. Gubber Blump will sell you one for 23c.|
@@ -77,8 +77,8 @@ C The Lay of Ameth'Aran|QID|953|QO|1|M|43.31,58.70|N|After clearing the area, cl
 C For Love Eternal|QID|963|M|42.99,60.74|N|Kill Anaya Dawnrunner.\n[color=FF0000]NOTE: [/color]Neutral Ghost NE Female that roams around the area. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
 C Tools of the Highborne|QID|958|M|42.99,60.74|L|5360 7|ITEM|5360|N|any Highborne around Ameth'Aran.|US|
 T The Fall of Ameth'Aran|QID|953|M|40.30,59.73|N|To Sentinel Tysha Moonblade.|
-C How Big a Threat?|QID|985|M|38.80,53.48|N|Head north to kill the furbolg camps|
-R Auberdine|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|S|LVL|13;-3240|
+K How Big a Threat?|ACTIVE|985|QO|1;2|M|38.80,53.48|N|Head north to the furbolg camps.|
+R Auberdine|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|LVL|13;-3240|S|
 L Level 14|ACTIVE|963|N|Grind until you're within 5.5 bubbles of level 14.|LVL|13;-3240|
 R Auberdine|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|US|
 T For Love Eternal|QID|963|M|35.74,43.71|N|To Cerellean Whiteclaw.|
@@ -95,6 +95,7 @@ P Darnassus|AVAILABLE|730|M|55.88,89.55|Z|1438;Teldrassil|N|Enter the portal to 
 A Lessons Anew|QID|6121|M|35.36,08.39|Z|1457;Darnassus|N|From Mathrengyl Bearwalker on the second floor.|C|Druid|
 A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|1457;Darnassus|N|Go to The Temple of the Moon, but don't go inside. Take the right path around the building and you'll run into a dwarf.|
 r Housekeeping|ACTIVE|730|N|Before leaving Darnassus, take a minute to visit the bank to offload items, the Auction House, or any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1457;Darnassus|
+P Moonglade|ACTIVE|6121|M|PLAYER|CC|N|Use the teleport spell you learned from Mathrengyl Bearwalker.|C|Druid|
 T Lessons Anew|QID|6121|M|56.21,30.62|Z|1450;Moonglade|N|Teleport to Moonglade and turn in to Dendrite Starblaze.|C|Druid|
 A The Principal Source|QID|6122|PRE|6121|M|56.21,30.62|Z|1450;Moonglade|N|From Dendrite Starblaze.|C|Druid|
 H Auberdine|ACTIVE|730|M|37.04,44.12|Z|1439;Darkshore|N|Hearth back to Auberdine.|
