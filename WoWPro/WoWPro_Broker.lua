@@ -2961,6 +2961,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local _, spellID, spellFlip = (";"):split(WoWPro.spell[guideIndex])
                 local spellName = _G.GetSpellInfo(tonumber(spellID))
                 local spellKnown = _G.GetSpellInfo(spellName)
+                -- Testing if RUNE tag valid (Rune spells use different API than regular spells)
                 if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC and _G.C_Seasons then
                     local seasonrealm = _G.C_Seasons.HasActiveSeason()
                     WoWPro.dbp("HasActiveSeason: %q",tostring(seasonrealm))
@@ -2974,7 +2975,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         else
                             spellKnown = _G.C_Engraving.IsKnownRuneSpell(spellID)
                         end
-
                     end
                 end
                 spellKnown = spellKnown ~= nil
