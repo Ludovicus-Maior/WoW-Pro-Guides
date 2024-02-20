@@ -2961,6 +2961,22 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local _, spellID, spellFlip = (";"):split(WoWPro.spell[guideIndex])
                 local spellName = _G.GetSpellInfo(tonumber(spellID))
                 local spellKnown = _G.GetSpellInfo(spellName)
+                if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC and _G.C_Seasons then
+                    local seasonrealm = _G.C_Seasons.HasActiveSeason()
+                    WoWPro.dbp("HasActiveSeason: %q",tostring(seasonrealm))
+                    if not seasonrealm then
+                        WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing on a seasonal realm.")
+                    else
+                        local season = _G.C_Seasons.GetActiveSeason("player")
+                        if season ~= 2 then
+                            WoWPro.CompleteStep(guideIndex, "NextStep(): GetActiveSeason mismatch %d ~= 2", season)
+                            skip = true
+                        else
+                            spellKnown = C_Engraving.IsKnownRuneSpell(spellID)
+                        end
+
+                    end
+                end
                 spellKnown = spellKnown ~= nil
                 spellFlip = WoWPro.toboolean(spellFlip)
                 if spellFlip then spellKnown = not spellKnown end
