@@ -2972,7 +2972,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             WoWPro.CompleteStep(guideIndex, "NextStep(): GetActiveSeason mismatch %d ~= 2", season)
                             skip = true
                         else
-                            spellKnown = C_Engraving.IsKnownRuneSpell(spellID)
+                            spellKnown = _G.C_Engraving.IsKnownRuneSpell(spellID)
                         end
 
                     end
