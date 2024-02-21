@@ -106,7 +106,7 @@ T Bashal'Aran|QID|957|M|44.17,36.29|N|To Asterion.|
 T Buzzbox 411|QID|1001|M|41.96,28.61|N|Click on Buzzbox 411 to turn it in.|
 A Buzzbox 323|QID|1002|PRE|1001|M|41.96,28.61|N|From Buzzbox 411.|
 C Buzzbox 323|QID|1002|L|5413 6|ITEM|5413|N|any Moonstalker in Darkshore.|S|
-C The Cliffspring River|QID|4762|M|50.77,25.23|N|Drop down into the water and use your Empty Sampling Tube.|U|12350|
+C The Cliffspring River|QID|4762|M|50.77,25.23|N|Drop down into the water and use your Empty Sampling Tube.|U|12350|NC|
 C The Principal Source|QID|6122|M|54.86,33.18|N|Follow the river east to the next waterfall and take the path on the left to the top. Fill the Sampler in front of the cave opening.\n[color=FF0000]NOTE: [/color]Single pull the Wave Riders until the entrance is clear (There may be a Siren as well). Watch out for the Rider's Knockback and always face towards the northern hillside.|U|15844|C|Druid|NC|
 T The Tower of Althalaxx|QID|965|M|54.97,24.89|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|PRE|965|M|54.97,24.89|N|From Balthule Shadowstrike.|
