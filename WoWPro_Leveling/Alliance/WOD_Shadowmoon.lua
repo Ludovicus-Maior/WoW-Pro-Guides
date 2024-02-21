@@ -29,7 +29,7 @@ C Quakefist|QID|34585|N|Kill Quakefist, who can be found inside the cave.|M|30.1
 T Quakefist|QID|34585|N|To Yrel|M|28.9,16.4|
 A Establish Your Garrison|QID|34586|N|From Baros Alexston|M|29.0,16.2|PRE|34585|
 C Establish Your Garrison|QID|34586|N|Speak to Baros Alexston and tell him you have everything, and build the garrison.|CHAT|M|29.0,16.2|
-f Lunarfall|QID|34586|N|With Dungar Longdrink.  If your Arrow disappeared, a /reload or a quick look at the map will fix things.|PRE|34585|M|47.8,49.8|Z|Lunarfall|
+f Lunarfall|QID|34586|N|With Dungar Longdrink.  Blizzard got rid of coordinates inside your Garrison. A quick look at the map is all you can do now.|PRE|34585|M|47.8,49.8|Z|Lunarfall|
 l Pippers' Buried Supplies|QID|35382|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Behind Blacksmith Rachelle Black's stall next to the Gryphon master.|M|50.63,48.46|RANK|3|Z|Lunarfall|
 T Establish Your Garrison|QID|34586|N|To Baros Alexston|M|41.4,49.2|Z|Lunarfall|
 ; This sets  [Founded Garrison: 36797] as completed
