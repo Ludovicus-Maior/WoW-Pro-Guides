@@ -852,14 +852,19 @@ function WoWPro.BuildGuideInMenuList()
         end
         WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
     end
+    for _, gid in ipairs(WoWProCharDB.GuideStack) do
+        local guide = WoWPro.Guides[gid]
+        if  WoWPro[guide.guidetype].RegisterGuide then
+            WoWPro[guide.guidetype]:RegisterGuide(guide)
+        end
+        WoWPro.RegisterGuideInMenuList("Stack", guide.guidetype,  guide.name or "??", gid)
+    end
     -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
     SortNestedMenu(WoWPro.GuideMenuList, true)
 end
 
 function WoWPro.ShowGuideMenu()
-    if not WoWPro.GuideMenuList then
-        WoWPro.BuildGuideInMenuList()
-    end
+    WoWPro.BuildGuideInMenuList()
     local menuFrame = _G.CreateFrame("Frame", "ExampleMenuFrame", _G.UIParent, "UIDropDownMenuTemplate")
     menuFrame:SetPoint("Center", _G.UIParent, "Center")
     _G.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
