@@ -299,7 +299,7 @@ U Ship Blueprint: Battleship |QID|39604|QO|3|N|Buy the plans and learn them.|U|1
 T I Sunk Your Battleship |QID|39601|N|To Vindicator Krethos|M|58.4,60.4|FACTION|Alliance|
 T I Sunk Your Battleship |QID|39604|N|To Shadow Hunter Denjai|M|61.66,45.70|FACTION|Horde|
 
-C Upgrading The Fleet |QID|39067^39245|QO|1|N|You need to complete 15 Naval Combat Missions.\n You want 1 Transport; 3 Destroyers; 3 Battleships; 1 Submarine to start.|NC|
+C Upgrading The Fleet |QID|39067^39245|QO|1|N|You need to complete 15 Naval Combat Missions.\n You want 1 Transport, 3 Destroyers, and 3 Battleships.|NC|
 C Upgrading The Fleet |QID|39067^39245|QO|2|N|You will need to collect 1,000 Garrison Resources to continue. Try your garrison cache, or do other stuff that gains enough resources to continue.|NC|
 C Upgrading The Fleet |QID|39067^39245|QO|3|N|You will need to collect 1,000 gold to continue. Try selling junk, or do other stuff that gains enough gold to continue.|NC|
 T Upgrading The Fleet |QID|39067|N|To Merreck Vonder|M|58.5,60.35|Z|Shadowmoon Valley@Draenor|FACTION|Alliance|
