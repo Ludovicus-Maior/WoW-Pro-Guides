@@ -778,15 +778,21 @@ function WoWPro.findIndexWithText(tabula, text_to_find)
     return -1
 end
 
-function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName,  GID)
+function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName,  GID, extra)
     WoWPro:dbp("RegisterGuideInMenuList(%q,%q,%q,%q)", tostring(AddonType), tostring(GuideType), tostring(GuideName),  GID)
     local GuideMenuList = WoWPro.GuideMenuList
     local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonType)
     if AddonIndex < 1 then
         if table.getn(GuideMenuList) == 0 then
-            table.insert(GuideMenuList, {text = "Select an Addon", isTitle = true} )
+            table.insert(GuideMenuList, {text = "Guide Group", isTitle = true} )
         end
-        table.insert(GuideMenuList, {text=AddonType, hasArrow = true, menuList = {}})
+        local stuff = {text=AddonType, hasArrow = true, menuList = {}}
+        if extra then
+            for key, value in pairs(extra) do
+                stuff[key] = value
+            end
+        end
+        table.insert(GuideMenuList, stuff)
         AddonIndex = table.getn(GuideMenuList)
     end
 
@@ -857,7 +863,7 @@ function WoWPro.BuildGuideInMenuList()
         if  WoWPro[guide.guidetype].RegisterGuide then
             WoWPro[guide.guidetype]:RegisterGuide(guide)
         end
-        WoWPro.RegisterGuideInMenuList("Stack", guide.guidetype,  guide.name or "??", gid)
+        WoWPro.RegisterGuideInMenuList("recent guides", guide.guidetype,  guide.name or "??", gid)
     end
     -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
     SortNestedMenu(WoWPro.GuideMenuList, true)
