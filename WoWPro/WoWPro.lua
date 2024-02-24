@@ -873,7 +873,7 @@ function WoWPro.BuildGuideInMenuList()
         counter = counter + 1
     end
     -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
-    SortNestedMenu(WoWPro.GuideMenuList, true)
+    innerSortNestedMenu(WoWPro.GuideMenuList, true)
 end
 
 function WoWPro.ShowGuideMenu()
