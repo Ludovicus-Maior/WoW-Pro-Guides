@@ -851,19 +851,26 @@ local function SortNestedMenu(menu, top)
 end
 
 function WoWPro.BuildGuideInMenuList()
+    local SortNestedMenu = SortNestedMenu -- Add import statement for SortNestedMenu function
     WoWPro.GuideMenuList = {}
+    local counter = 0
     for gid, guide in pairs(WoWPro.Guides) do
+        if counter >= 20 then break end
         if  WoWPro[guide.guidetype].RegisterGuide then
             WoWPro[guide.guidetype]:RegisterGuide(guide)
         end
         WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
+        counter = counter + 1
     end
+    counter = 0
     for _, gid in ipairs(WoWProCharDB.GuideStack) do
+        if counter >= 20 then break end
         local guide = WoWPro.Guides[gid]
         if  WoWPro[guide.guidetype].RegisterGuide then
             WoWPro[guide.guidetype]:RegisterGuide(guide)
         end
-        WoWPro.RegisterGuideInMenuList("recent guides", guide.guidetype,  guide.name or "??", gid)
+        WoWPro.RegisterGuideInMenuList("Recent Guides", guide.guidetype,  guide.name or "??", gid)
+        counter = counter + 1
     end
     -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
     SortNestedMenu(WoWPro.GuideMenuList, true)
