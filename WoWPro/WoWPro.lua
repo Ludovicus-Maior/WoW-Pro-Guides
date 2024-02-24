@@ -851,7 +851,7 @@ local function SortNestedMenu(menu, top)
 end
 
 function WoWPro.BuildGuideInMenuList()
-    local SortNestedMenu = SortNestedMenu
+    local innerSortNestedMenu = SortNestedMenu
     WoWPro.GuideMenuList = {}
     local counter = 0
     for gid, guide in pairs(WoWPro.Guides) do
