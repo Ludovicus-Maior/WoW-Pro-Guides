@@ -43,8 +43,8 @@ A Bled Dry|QID|34421|N|From Korag|M|62.27,52.96|PRE|34420|Z|TanaanJungleIntro|FA
 C Vengeance for the Fallen|QID|35242|N|Kill the Bleeding Hollow orcs.|S|M|65.7,54.0|Z|TanaanJungleIntro|FACTION|Alliance|
 C Vengeance for the Fallen|QID|35241|N|Kill the Bleeding Hollow orcs.|S|M|65.7,54.0|Z|TanaanJungleIntro|FACTION|Horde|
 C Blaze of Glory|QID|34422|N|Approach the Bleeding Hollow huts, then use Lucifrium Bead's "Inferno" to burn them.|NC|S|M|66.5,55.9|Z|TanaanJungleIntro|
-C Bled Dry|QID|35240^34421|N|Open the Southern cage.|NC|QO|2|M|61.00,62.75|Z|TanaanJungleIntro|
-C Bled Dry|QID|35240^34421|N|Open the Eastern cage.|NC|QO|1|M|65.71,54.08|Z|TanaanJungleIntro|
+C Bled Dry|QID|35240^34421|N|Open the Southern cage.|NC|QO|1|M|61.00,62.75|Z|TanaanJungleIntro|
+C Bled Dry|QID|35240^34421|N|Open the Eastern cage.|NC|QO|2|M|65.71,54.08|Z|TanaanJungleIntro|
 C Blaze of Glory|QID|34422|N|Finish burning the Bleeding Hollow huts.|NC|US|M|63.65,50.03;66.55,55.61;61.23,62.07|CN|Z|TanaanJungleIntro|
 C Vengeance for the Fallen|QID|35242|N|Finish killing the Bleeding Hollow orcs.|US|M|63.3,64.4|Z|TanaanJungleIntro|FACTION|Alliance|
 C Vengeance for the Fallen|QID|35241|N|Finish killing the Bleeding Hollow orcs.|US|M|63.3,64.4|Z|TanaanJungleIntro|FACTION|Horde|

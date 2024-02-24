@@ -219,12 +219,12 @@ A Leave Every Soldier Behind|QID|36223|N|From Ranger Erdanii|M|46.20,55.09|PRE|3
 A Fair Warning|QID|35128|N|From Rexxar|M|46.06,54.73|PRE|36209^35041|
 F Gronn Canyon|QID|36223|N|Speak to Nisha and ask her to take you to the Fissure of Fury.|CHAT|ACTIVE|36223^35128|
 C Fair Warning|QID|35128|N|Kill Ogron Spinecrusher|Z|547|M|30.82,75.45|QO|1|S|
-C Leave Every Soldier Behind|QID|36223|N|Head into the cave, follow the ramp down, speak to Corporal Thukmar and put him out of his misery|QO|1|CHAT|Z|547|M|44.77,85.58|
+C Leave Every Soldier Behind|QID|36223|N|Head into the cave, follow the ramp down, speak to Corporal Thukmar and put him out of his misery|QO|1|CHAT|Z|547|M|30.56,75.85|
 C Leave Every Soldier Behind|QID|36223|N|Pick up Thukmar's Intel.|QO|2|NC|Z|547|M|44.77,85.58|
 C Fair Warning|QID|35128|N|Kill Borogahn|QO|2|T|Borogahn|Z|547|M|30.82,75.45|
 $ Horned Skull|QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|42.45,46.8|ACTIVE|35128|
 C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher, keeping at the bottom of the cave for a quest to get you out of there.|QO|1|US|Z|547|M|30.82,75.45|
-A A Great Escape|QID|35210|N|From Goren Tunnel (near Borogahn's location)|Z|547|M|44.77,85.58|ACTIVE|35128|
+A A Great Escape|QID|35210|N|From Goren Tunnel (near Borogahn's location)|Z|547|M|34.66,66.79|ACTIVE|35128|
 C A Great Escape|QID|35210|N|Use the Goren Tunnel|Z|547|M|44.77,85.58|NC|
 T Leave Every Soldier Behind|QID|36223|N|To Rexxar, who is now in Gronn Canyon.|M|43.94,48.83|
 T Fair Warning|QID|35128|N|To Rexxar|M|43.94,48.83|

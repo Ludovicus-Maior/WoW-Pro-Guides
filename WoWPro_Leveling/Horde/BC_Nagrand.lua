@@ -272,8 +272,8 @@ A Against the Legion|QID|10641|M|27.35,43.06|N|From Altruis the Sufferer.|PRE|10
 A Against the Illidari|QID|10668|M|27.35,43.06|N|From Altruis the Sufferer.|PRE|10640^10689|
 A Against All Odds|QID|10669|M|27.35,43.06|N|From Altruis the Sufferer.|PRE|10640^10689|
 C Against All Odds|QID|10669|M|15,41|Z|102; Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
-l Freshly Drawn Blood|QID|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
-C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
+l Freshly Drawn Blood|QID|10641|Z|109; Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
+C Against the Legion|QID|10641|M|40,20|Z|109; Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
 C Against the Illidari|QID|10668|M|28.2,49.8|Z|Shadowmoon Valley|N|Now all the way down to Shadowmoon. Head to the waypoint then kill Lothros.|
 T Against the Legion|QID|10641|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against the Illidari|QID|10668|M|27.35,43.06|N|To Altruis the Sufferer.|

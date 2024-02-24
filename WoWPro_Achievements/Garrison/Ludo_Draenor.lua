@@ -552,7 +552,7 @@ A Polished Crystal|QID|38629|M|30.50,72.00|Z|Tanaan Jungle|N|Polished Crystal|
 A Tome of Secrets|QID|38426|M|32.40,70.50|Z|Tanaan Jungle|N|Accursed Tome of Sargerei - TOY|ITEM|127670|
 A The Blade of Kra'nak|QID|38320|M|19.30,40.90|Z|Tanaan Jungle|N|The Blade of Kra'nak|
 A Jeweled Arakkoa Effigy|QID|38732|M|31.40,31.10|Z|Tanaan Jungle|N|Jeweled Arakkoa Effigy, Jumping Game to get to it.|ITEM|127413|
-A Partially Mined Apexis Crystal|QID|38863|M|28.84,34.57|Z|Tanaan Jungle|N|Partially Mined Apexis Crystal - Gives Apexis Crystals|ITEM|$823| ; Cave Entrance 29.2, 30.5
+A Partially Mined Apexis Crystal|QID|38863|M|29.23,31.35;28.84,34.57|Z|Tanaan Jungle|CS|N|Partially Mined Apexis Crystal - Gives Apexis Crystals|ITEM|$823| ; Cave Entrance 29.2, 30.5
 A Skull of the Mad Chief|QID|38742|M|32.5,37.3;34.68,34.65|CS|Z|Tanaan Jungle|N|Skull of the Mad Chief, Down in Bleeding Hollow Cave, Vault of Eyes.|ITEM|127669|   	 ; Cave Entrance 32.5, 37.3
 A Dazzling Rod|QID|38822|M|42.90,35.30|Z|Tanaan Jungle|N|Dazzling Rod, Top of Tower - TOY|ITEM|127859|
 A The Commander's Shield|QID|38821|M|43.20,38.30|Z|Tanaan Jungle|N|The Commander's Shield|
@@ -571,7 +571,7 @@ A Snake Charmer's Flute|QID|38638|M|40.60,79.80|Z|Tanaan Jungle|N|i650 2H Mace S
 A Forgotten Champion's Blade|QID|38657|M|41.56,73.40|Z|Tanaan Jungle|N|i650 2H - Forgotten Champion's Blade|ITEM|127339|
 A The Perfect Blossom|QID|38639|M|40.80,75.50|Z|Tanaan Jungle|N|The Perfect Blossom - TOY|ITEM|127766|
 A Bleeding Hollow Mushroom Stash|QID|38809|M|44.50,77.53;49.90,76.80|CS|Z|Tanaan Jungle|N|Bleeding Hollow Mushroom Stash - Vine Climbing|ITEM|128223|
-A Looted Mystical Staff|QID|38814|M|48.60,75.30|Z|Tanaan Jungle|N|i650 - Int/SP Staff - Emanating Staff of Shadow - follow the vines.. jump carefully.|ITEM|127337|
+A Looted Mystical Staff|QID|38814|M|44.55,77.53;48.60,75.30|Z|Tanaan Jungle|CS|N|i650 - Int/SP Staff - Emanating Staff of Shadow - Go up, following the road while looking left, you'll see the vine path, skip the first and go along the second one. follow the vines.. jump carefully.|ITEM|127337|
 A Crystallized Essence of the Elements|QID|38705|M|48.00,70.40|Z|Tanaan Jungle|N|Crystallized Essence of the Elements|
 A Overgrown Relic|QID|38731|M|50.90,64.90|Z|Tanaan Jungle|N|Overgrown Relic|
 A Forgotten Sack|QID|38591|M|56.90,65.10|Z|Tanaan Jungle|N|Forgotten Sack|

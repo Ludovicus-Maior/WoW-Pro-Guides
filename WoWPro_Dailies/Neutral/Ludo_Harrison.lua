@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoHarrison",'Dailies',"Draenor","Ludovicus","Neutral")
-WoWPro:GuideLevels(guide,100,100,101)
+WoWPro:GuideLevels(guide,40,40,41)
 WoWPro:GuideIcon(guide,"ACH",9825)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Treasure Contracts", "Garrison")
 WoWPro:GuideAutoSwitch(guide)
@@ -28,7 +28,7 @@ T Amulet of Rukhmar: The Final Key|QID|37851|N|To UI|
 A Amulet of Rukhmar: The Apexis Device|QID|37852|PRE|37851|N|From UI|FACTION|Alliance|
 A Amulet of Rukhmar: The Apexis Device|QID|37993|PRE|37851|N|From UI|FACTION|Horde|
 C Fun with Portals|QID|37852^37993|M|73.5,43.1|Z|Spires of Arak|QO|1|N|There are three statues here.  Click on each until it faces the portal device, then go through.|
-K Aspect of Rukhmar|QID|37852^37993|M|70.2,34.3|Z|Spires of Arak|QO|2|T|Aspect of Rukhmar|N|Kill and loot the [Amulet of Rukhmar].  If he is not there, wait a few minutes or realm hop.|
+K Aspect of Rukhmar|ACTIVE|37852^37993|M|70.2,34.3|Z|Spires of Arak|QO|2|T|Aspect of Rukhmar|N|Kill and loot the [Amulet of Rukhmar].  If he is not there, wait a few minutes or realm hop.|
 T Amulet of Rukhmar: The Apexis Device|QID|37852|PRE|37851|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Amulet of Rukhmar: The Apexis Device|QID|37993|PRE|37851|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
@@ -39,13 +39,13 @@ C Artificer Maatun's corpse|QID|37973|M|67.46,21.91|Z|Spires of Arak|QO|1|N|Take
 C Artificer Maatun's journal|QID|37973|M|67.45,21.82|Z|Spires of Arak|QO|2|N|Click on the journal nearby.|
 T Treasure Contract: The Artificer|QID|37973|N|To UI|
 A Dream of Argus: The First Fragment|QID|37976|PRE|37973|N|From UI|
-K Lor Stonefist|QID|37976|M|69.0,22.4;70.4,22.0|CS|Z|Spires of Arak|QO|1|N|Continue on the path and take the left fork. Enter the cave, kill Lor Stonefist and loot the shard.|T|Lor Stonefist|
+K Lor Stonefist|ACTIVE|37976|M|69.0,22.4;70.4,22.0|CS|Z|Spires of Arak|QO|1|N|Continue on the path and take the left fork. Enter the cave, kill Lor Stonefist and loot the shard.|T|Lor Stonefist|
 T Dream of Argus: The First Fragment|QID|37976|N|To UI|
 A Dream of Argus: The Second Fragment|QID|37977|PRE|37976|N|From UI|
-K Vok Blacktongue|QID|37977|M|73.0,32.2|Z|Spires of Arak|QO|1|N|Get out of the cave and back to the fork.  Take the other path past the archway to a hut where your target is and loot the shard.|T|Vok Blacktongue|
+K Vok Blacktongue|ACTIVE|37977|M|73.0,32.2|Z|Spires of Arak|QO|1|N|Get out of the cave and back to the fork.  Take the other path past the archway to a hut where your target is and loot the shard.|T|Vok Blacktongue|
 T Dream of Argus: The Second Fragment|QID|37977|N|To UI|
 A Dream of Argus: The Final Fragment|QID|37978|PRE|37977|N|From UI|
-K Koros Soulsplinter|QID|37978|M|74.4,30.2; 73.9,28.9; 75.0,26.1|CS|Z|Spires of Arak|QO|1|N|Head to athe path leading up a hill , turn right at the first branch a short and when you pass through a stone archway and see a void portal on your right, take a hard right up that hill to the peak. Koros has the shard, but he has a buddy to help.|T|Koros Soulsplinter|
+K Koros Soulsplinter|ACTIVE|37978|M|74.4,30.2; 73.9,28.9; 75.0,26.1|CS|Z|Spires of Arak|QO|1|N|Head to athe path leading up a hill , turn right at the first branch a short and when you pass through a stone archway and see a void portal on your right, take a hard right up that hill to the peak. Koros has the shard, but he has a buddy to help.|T|Koros Soulsplinter|
 T Dream of Argus: The Final Fragment|QID|37978|N|To UI|
 A Dream of Argus: The Crystal Reborn|QID|37979|PRE|37978|N|From UI|FACTION|Alliance|
 A Dream of Argus: The Crystal Reborn|QID|37997|PRE|37978|N|From UI|FACTION|Horde|
@@ -119,7 +119,7 @@ A Gutrek's Cleaver: The Spirit Forge|QID|37811|PRE|37799|N|From UI|FACTION|Allia
 A Gutrek's Cleaver: The Spirit Forge|QID|37992|PRE|37799|N|From UI|FACTION|Horde|
 C Locate|QID|37811^37992|M|51.6,27.0|Z|Nagrand@Draenor|QO|1|N|Do not attack Gutrek until the last step or you will get bugged. Best to let the other person finish the quest.|
 C Reforge|QID|37811^37992|M|51.76,26.62|Z|Nagrand@Draenor|QO|2|N|Click on the Furnance, then the Anvil, then the trough.|
-K Gutrek|QID|37811^37992|M|52.53,26.67|Z|Nagrand@Draenor|QO|3|N|Click on the column of light and kill Gutrek. Loot the Cleaver.|
+K Gutrek|ACTIVE|37811^37992|M|52.53,26.67|Z|Nagrand@Draenor|QO|3|N|Click on the column of light and kill Gutrek. Loot the Cleaver.|
 T Gutrek's Cleaver: The Spirit Forge|QID|37811|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Gutrek's Cleaver: The Spirit Forge|QID|37992|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
@@ -141,7 +141,7 @@ A The Silent Skull: Taking from the Taker|QID|37945|PRE|37944|N|From UI|FACTION|
 A The Silent Skull: Taking from the Taker|QID|37996|PRE|37944|N|From UI|FACTION|Horde|
 C Brew the Elixir|QID|37945^37996|M|60.0,32.6;59.9,31.6|Z|Gorgrond|CS|QO|1|N|Go to the cave and click on the cauldron to brew.\nUse this command to make the rest of the quest easier: "/console ffxGlow 0"|T|/console ffxGlow 0|
 C Drink the elixir|QID|37945^37996|M|62.0,31.9|Z|Gorgrond|QO|2|N|Click on the cauldron again to drink. Find the Brightscale Ravager by the cave enterance. Avoid floating/moving skulls, as you will lose your buff and need to drink from the cauldron again. Follow him till you see a hovering ravager (Gu'rakh) who will offer to take you to Skulltaker.|T|Brightscale Ravager|
-K Skulltaker|QID|37945^37996|M|57.26,26.82|Z|Gorgrond|QO|3|N|Gu'rakh will drop you in Skulltaker's Crater. Kill and loot the skull.|T|Skulltaker|
+K Skulltaker|ACTIVE|37945^37996|M|57.26,26.82|Z|Gorgrond|QO|3|N|Gu'rakh will drop you in Skulltaker's Crater. Kill and loot the skull.|T|Skulltaker|
 T The Silent Skull: Taking from the Taker|QID|37945|N|To Bodrick Grey, at your Garrison.\nRemember "/console ffxGlow 1"|FACTION|Alliance|
 T The Silent Skull: Taking from the Taker|QID|37996|N|To Rokhan, at your Garrison.\nRemember "/console ffxGlow 1"|FACTION|Horde|
 
