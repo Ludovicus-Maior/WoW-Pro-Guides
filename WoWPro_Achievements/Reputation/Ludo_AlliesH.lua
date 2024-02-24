@@ -11,12 +11,12 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A The Call for Allies|QID|49930|N|Autoaccept when you buy Battle for Azeroth|
-T The Call for Allies|QID|49930|M|37.78,81.13|N|To Lady Sylvanas Windrunner, in the new embassy.|
+T The Call for Allies|QID|49930|M|37.78,81.13|N|To Ji Firepaw, in the new embassy.|
 A A Choice of Allies|QID|50242|PRE|49930|M|37.78,81.13|N|From Lady Sylvanas Windrunner|
 C A Choice of Allies|QID|50242|M|38.16,81.11|Z|Orgrimmar@Orgrimmar|QO|1|N|Speak with Baine about the Highmountain tauren|
 C A Choice of Allies|QID|50242|M|37.97,80.58|Z|Orgrimmar@Orgrimmar|QO|2|N|Speak with Liadrin about the Nightborne|
 C A Choice of Allies|QID|50242|M|37.78,81.13|Z|Orgrimmar@Orgrimmar|QO|3|N|Choose an ally to pursue|
-T A Choice of Allies|QID|50242|M|37.78,81.13|Z|Orgrimmar@Orgrimmar|N|To Lady Sylvanas Windrunner.|
+T A Choice of Allies|QID|50242|M|37.78,81.13|Z|Orgrimmar@Orgrimmar|N|To Ji Firepaw.|
 
 N You have chosen|AVAILABLE|49787^49698|N|Get the next quest from Lady Liadrin or Blaine|
 
@@ -33,8 +33,8 @@ C Dark Forces|QID|49756|M|40.58,60.76|Z|Thunder Bluff|QO|1|N|Qy'telek is on the 
 T Dark Forces|QID|49756|Z|Thunder Bluff|N|To Baine Bloodhoof, who is beside you.|
 A Return to Highmountain|QID|48079|PRE|49756|Z|Thunder Bluff|N|From Baine Bloodhoof, who is beside you.|
 F Thunder Totem|ACTIVE|48079|N|Make your way to the bottom floor of Thunder Totem, by the pool of vision.|
-T Return to Highmountain|QID|48079|M|68.79,71.14|Z|ThunderTotem|N|To Mayla Highmountain.|
-A Dark Tales|QID|41884|PRE|48079|M|68.42,72.91|Z|ThunderTotem|N|From Spiritwalker Graysky.|
+T Return to Highmountain|QID|48079|M|54.76,63.15|Z|652|N|To Mayla Highmountain.|
+A Dark Tales|QID|41884|PRE|48079|M|68.54,72.88|Z|652|N|From Spiritwalker Graysky.|
 F Riverbend|ACTIVE|41884|M|38.51,69.10|Z|Highmountain|N|Fly to Riverbend to meet up with Spiritwalker Graysky.|
 T Dark Tales|QID|41884|M|38.51,69.10|Z|Highmountain|N|To Spiritwalker Graysky, near Riverbend.|
 A Walking in Their Footsteps|QID|41764|PRE|41884|M|38.51,69.10|Z|Highmountain|N|From Spiritwalker Graysky.|
@@ -67,8 +67,8 @@ C Necrodark Defiler|QID|41800|M|52.28,66.43|Z|Highmountain|QO|2|N|Huln Slay!|US|
 T Servants of the Darkness|QID|41800|M|53.33,64.00|Z|Highmountain|N|To Spiritwalker Graysky.|
 A How Fares Ebonhorn?|QID|48434|PRE|41800|M|53.33,64.00|Z|Highmountain|N|From Spiritwalker Graysky.|
 F Thunder Totem|ACTIVE|48434|N|Make your way to the bottom floor of Thunder Totem, by the pool of vision.|
-T How Fares Ebonhorn?|QID|48434|M|67.65,71.41|Z|ThunderTotem|N|To Spiritwalker Ebonhorn.|
-A Curse of the Necrodark|QID|41815|PRE|48434|M|68.81,71.14|Z|ThunderTotem|N|From Mayla Highmountain.|
+T How Fares Ebonhorn?|QID|48434|M|67.65,71.41|Z|652|N|To Spiritwalker Ebonhorn.|
+A Curse of the Necrodark|QID|41815|PRE|48434|M|68.81,71.14|Z|652|N|From Mayla Highmountain.|
 F Highmountain Summit|ACTIVE|41815|M|56.49,89.24|Z|Highmountain|N|Fly off to Highmountain Summit to meet up with Baine Bloodhoof.|
 T Curse of the Necrodark|QID|41815|M|56.49,89.24|Z|Highmountain|N|To Baine Bloodhoof.|
 A Ice and Shadow|QID|41840|PRE|41815|M|56.49,89.24|Z|Highmountain|N|From Baine Bloodhoof.|
@@ -86,13 +86,16 @@ K Uul'gyneth|QID|48403|M|58.15,91.03|Z|Highmountain|QO|1|N|Kill Uul'gyneth, outs
 T The Darkness|QID|48403|M|56.66,92.71|Z|Highmountain|N|To Mayla Highmountain.|
 A Together We Are the Horde!|QID|48433|PRE|48403|M|56.70,92.77|Z|Highmountain|N|From Baine Bloodhoof.|
 F Orgrimmar|ACTIVE|48433|N|Get back to the Orgrimmar Embassy as you please.|
-T Together We Are the Horde!|QID|48433|M|37.76,81.17|Z|Orgrimmar@Orgrimmar|N|To Lady Sylvanas Windrunner, in the Embassy.|
+T Together We Are the Horde!|QID|48433|M|37.76,81.17|Z|Orgrimmar@Orgrimmar|N|To Ji Firepaw, in the Embassy.|
 
 ;https://www.wowhead.com/nightborne-allied-race
+P Azsuna|ACTIVE|49973|M|58.77,89.53|Z|Orgrimmar@Orgrimmar|N|Take the portal to Azsuna|
 A Thalyssra's Estate|QID|49973|M|37.97,80.56|Z|Orgrimmar@Orgrimmar|N|From Lady Liadrin.|
 F Crimson Thicket|ACTIVE|44811|N|Fly to Crimson Thicket for the closest flightpoint to Thalyssra's Estate. The Estate is phased, so it is safe without a disguise.|
 T Thalyssra's Estate|QID|49973|M|65.88,63.73|Z|Suramar|N|To Lady Liadrin.|
 A Silvermoon City|QID|49613|M|65.88,63.73|Z|Suramar|N|From Lady Liadrin.|
+P Orgrimmar|ACTIVE|49613|M|55.45,24.26|Z|627|N|Take the portal to Orgrimmar|
+P Off To Silverman City|ACTIVE|49613|M|56.25,88.53|Z|85|N|Take the portal to Silvermoon City|
 T Silvermoon City|QID|49613|M|58.11,19.83|Z|Silvermoon City|N|To Lady Liadrin.|
 A Remember the Sunwell|QID|49354|PRE|49613|M|58.11,19.83|Z|Silvermoon City|N|From Lady Liadrin.|
 P Sunwell|ACTIVE|49354|M|53.96,19.49|Z|Silvermoon City|N|This starts the "Remember the Sunwell" scenario|
@@ -106,7 +109,7 @@ C Remember the Sunwell|QID|49354|M|60.78,67.40|Z|TheSunwellUnlockScenario/1|QO|1
 T Remember the Sunwell|QID|49354|M|58.45,19.10|Z|Silvermoon City|N|To Lady Liadrin.|
 A The Nightborne|QID|49614|PRE|49354|M|58.45,19.10|Z|Silvermoon City|N|From Lady Liadrin.|
 F Orgrimmar|ACTIVE|49614|N|Get back to the Orgrimmar Embassy as you please.|
-T The Nightborne|QID|49614|M|37.76,81.16|Z|Orgrimmar@Orgrimmar|N|To Lady Sylvanas Windrunner.|
+T The Nightborne|QID|49614|M|37.76,81.16|Z|Orgrimmar@Orgrimmar|N|To Ji Firepaw.|
 
 A A Second Ally For the Cause|QID|50254|M|37.76,81.15|Z|Orgrimmar@Orgrimmar|N|From Lady Sylvanas Windrunner.|
 C A Second Ally For the Cause|QID|50254|M|37.76,81.15|Z|Orgrimmar@Orgrimmar|QO|1|N|1/1 Choose another ally to pursue|
