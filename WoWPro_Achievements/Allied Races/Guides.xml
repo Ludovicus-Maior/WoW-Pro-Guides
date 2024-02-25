@@ -3,4 +3,5 @@
     <Script file="Ludo_AlliesH.lua"/>
     <Script file="Vulpera.lua"/>
     <Script file="Maghar.lua"/>
+    <Script file="MechaGnome.lua"/>
 </Ui>
