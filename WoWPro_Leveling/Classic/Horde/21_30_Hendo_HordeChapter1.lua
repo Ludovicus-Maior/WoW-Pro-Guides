@@ -205,7 +205,7 @@ T Further Instructions|QID|1095|M|58.99,62.60|N|Make your way to Ziz Fizziks' hu
 A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|N|From Ziz Fizziks.|PRE|1095|
 K XT:4|ACTIVE|1068|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|S|
 K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|S|
-U The Flying Machine Airport|QID|1086|M|66.48,45.40|U|5638|N|Place the Toxic Fogger here.|
+U The Flying Machine Airport|ACTIVE|1086|M|66.48,45.40|U|5638|N|Place the Toxic Fogger here.|
 C Gerenzo Wrenchwhistle|QID|1096|M|70.40,40.93;67.99,37.79;64.61,37.96;62.84,40.49|CS|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him to loot his arm.|
 ;L Level 25
 N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.|
