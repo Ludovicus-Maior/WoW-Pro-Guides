@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide('Ludo_AlliesA', 'Achievements', 'Stormwind City', 'Ludo', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro.Achievements:GuideMisc(guide, "Allied Races Unlock", "Reputation", "Legion")
+WoWPro.Achievements:GuideMisc(guide, "Allied Races Unlock", "Allied Races", "Legion")
 WoWPro:GuideQuestTriggers(guide, 49929, 50239)
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -1,0 +1,8 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="Ludo_AlliesA.lua"/>
+    <Script file="Ludo_AlliesH.lua"/>
+    <Script file="Vulpera.lua"/>
+    <Script file="Maghar.lua"/>
+    <Script file="MechaGnome.lua"/>
+    <Script file="Dark Iron Dwarf.lua"/>
+</Ui>
