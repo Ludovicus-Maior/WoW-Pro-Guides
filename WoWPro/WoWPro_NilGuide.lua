@@ -15,7 +15,7 @@ function WoWPro:LoadNilGuide()
     WoWPro.rows[1].check:Hide()
     WoWPro.rows[1].targetbutton:Hide()
     WoWPro.rows[1].itembutton:Hide()
-    WoWPro.rows[1].note:SetText('To select a guide, right click the header, where it says No Guide Loaded and select Guide List .')
+    WoWPro.rows[1].note:SetText('To select a guide, right click the header, where it says No Guide Loaded and select Guide Selection (New Style) .')
     WoWPro.rows[1].track:SetText(nil)
 
     for i=2,15 do
