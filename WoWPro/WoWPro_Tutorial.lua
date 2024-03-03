@@ -1,30 +1,26 @@
-function CreateTutorialFrame()
-    local tutorialFrame = CreateFrame("Frame", "TutorialFrame", UIParent, BackdropTemplateMixin and "BackdropTemplate")
-    tutorialFrame:SetSize(550, 400)
-    tutorialFrame:SetPoint("CENTER")
-    -- Create some text for the frame
-    tutorialFrame.text = tutorialFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    tutorialFrame.text:SetPoint("TOP", tutorialFrame, "TOP", 0, -40)
-    tutorialFrame.text:SetWidth(tutorialFrame:GetWidth() - 20)
-    tutorialFrame.text:SetText("Welcome to WoWPro! \n\nThis addon helps you level up by providing step-by-step guides.")
-    tutorialFrame.text:SetFont("Fonts\\FRIZQT__.TTF", 16)
-    tutorialFrame.text:SetWordWrap(true)
-
-    -- Create bullet points for the frame
-    tutorialFrame.bulletPoints = tutorialFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    tutorialFrame.bulletPoints:SetPoint("TOPLEFT", tutorialFrame, "TOPLEFT", -50, -100)
-    tutorialFrame.bulletPoints:SetWidth(tutorialFrame:GetWidth() - 20)
-    tutorialFrame.bulletPoints:SetText("• Automatic detection of objective completion\n• Detect quest accept, completion and turn-in\n• Bullet point 3")
-    tutorialFrame.bulletPoints:SetFont("Fonts\\FRIZQT__.TTF", 16)
-    tutorialFrame.bulletPoints:SetWordWrap(true)
-    -- Create additional text for the frame
-    tutorialFrame.additionalText = tutorialFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    tutorialFrame.additionalText:SetPoint("TOPLEFT", tutorialFrame, "TOPLEFT", 10, -200)
-    tutorialFrame.additionalText:SetWidth(tutorialFrame:GetWidth() - 20)
-    tutorialFrame.additionalText:SetText("Let's continue to set some of these features up.")
-    tutorialFrame.additionalText:SetFont("Fonts\\FRIZQT__.TTF", 16)
-    tutorialFrame.additionalText:SetWordWrap(true)
-        tutorialFrame:SetBackdrop({
+local function CreateTutorialFrame()
+    local frame = CreateFrame("Frame")
+    frame:SetSize(550, 400)
+    frame:SetPoint("CENTER")
+    frame.text = frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    frame.text:SetPoint("TOP", frame, "TOP", 0, -40)
+    frame.text:SetWidth(frame:GetWidth() - 20)
+    frame.text:SetText("Welcome to WoWPro! \n\nThis addon helps you level up by providing step-by-step guides.")
+    frame.text:SetFont("Fonts\\FRIZQT__.TTF", 16)
+    frame.text:SetWordWrap(true)
+    frame.bulletPoints = frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    frame.bulletPoints:SetPoint("TOPLEFT", frame, "TOPLEFT", -50, -100)
+    frame.bulletPoints:SetWidth(frame:GetWidth() - 20)
+    frame.bulletPoints:SetText("• Automatic detection of objective completion\n• Detect quest accept, completion and turn-in\n• Bullet point 3")
+    frame.bulletPoints:SetFont("Fonts\\FRIZQT__.TTF", 16)
+    frame.bulletPoints:SetWordWrap(true)
+    frame.additionalText = frame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+    frame.additionalText:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -200)
+    frame.additionalText:SetWidth(frame:GetWidth() - 20)
+    frame.additionalText:SetText("Let's continue to set some of these features up.")
+    frame.additionalText:SetFont("Fonts\\FRIZQT__.TTF", 16)
+    frame.additionalText:SetWordWrap(true)
+    frame:SetBackdrop({
         bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
         edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
         tile = true,
@@ -32,6 +28,15 @@ function CreateTutorialFrame()
         edgeSize = 32,
         insets = { left = 8, right = 8, top = 8, bottom = 8 }
     })
+end
+
+local frame = CreateFrame("Frame")
+frame:RegisterEvent("ADDON_LOADED")
+frame:SetScript("OnEvent", function(self, event, addon)
+    if addon == "YourAddonName" then
+        CreateTutorialFrame()
+    end
+end)
 
     -- Create a title for the frame
     tutorialFrame.title = tutorialFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
