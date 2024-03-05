@@ -8,7 +8,7 @@ local offset, rows, shownrows = 0, {}, NUMROWS
 WoWPro.CreateCurrentGuideTitle = true
 local title, subtitle
 
-local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer, "BackdropTemplate")
+local frame = CreateFrame("Frame", nil, UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
 frame:SetFrameStrata("LOW")
