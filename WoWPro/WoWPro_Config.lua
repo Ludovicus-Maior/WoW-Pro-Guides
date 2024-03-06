@@ -1226,7 +1226,7 @@ local function createCurrentGuideConfig()
                 func = function()
                     if WoWPro.CurrentGuideFrame then
                         WoWPro.CurrentGuideFrame:SetSize(500, 500)
-                        WoWPro.CurrentGuideFrame:SetPoint("CENTER") 
+                        WoWPro.CurrentGuideFrame:SetPoint("CENTER")
                         WoWPro.CurrentGuideFrame:SetFrameStrata("TOOLTIP")
                         WoWPro.CurrentGuideFrame:Show()
                     end
