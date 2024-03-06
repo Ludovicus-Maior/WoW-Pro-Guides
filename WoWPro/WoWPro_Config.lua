@@ -1214,19 +1214,25 @@ local function createCurrentGuideConfig()
         name = L["Current Guide"],
         type = "group",
         args = {
-
-                header = {
-                    order = 10,
-                    type = "header",
-                    name = L["Current Guide is not here for now"],
-                },
-                blah = {
-                    order = 11,
-                    type = "description",
-                    name = "NYI - This is high on the priorty list to return",
-                    width = "full"
-                },
-        }
+            header = {
+                order = 1,
+                type = "header",
+                name = "For the time being, we need to click the button below to show the current guide.",
+            },
+            openGuide = {
+                order = 2,
+                type = "execute",
+                name = "Show Current Guide",
+                func = function()
+                    if WoWPro.CurrentGuideFrame then
+                        WoWPro.CurrentGuideFrame:SetSize(500, 500)
+                        WoWPro.CurrentGuideFrame:SetPoint("CENTER") 
+                        WoWPro.CurrentGuideFrame:SetFrameStrata("TOOLTIP")
+                        WoWPro.CurrentGuideFrame:Show()
+                    end
+                end,
+            },
+        },
     }
     return actions
 end
@@ -1260,5 +1266,4 @@ function WoWPro.CreateConfig()
     config:RegisterOptionsTable("WoWPro", topConfig)
     -- Add the options to the Blizzard Interface Options
     dialog:AddToBlizOptions("WoWPro", "WoWPro")
-    _G.InterfaceOptions_AddCategory(WoWPro.CurrentGuideFrame)
 end
