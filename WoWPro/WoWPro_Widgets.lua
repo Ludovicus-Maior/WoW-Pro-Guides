@@ -369,7 +369,7 @@ function WoWPro:CreateBG(parent)
     local box = _G.CreateFrame('Frame', nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     box:SetBackdrop(bg)
     box:SetBackdropBorderColor(1, 1, 1)
-    box:SetBackdropColor(0.09, 0.09, 0.19)
+    box:SetBackdropColor(0.0, 0.0, 0.)
 
     return box
 end
@@ -483,10 +483,12 @@ do
         tile = true, tileSize = 16, edgeSize = 16,
         insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
     })
-    tooltip:SetBackdropColor(1, 1, 1, 1)
+    tooltip:SetBackdropColor(0, 0, 0, 0.7)
     tooltip:SetHeight(125)
     tooltip:SetWidth(512)
-    tooltip:SetFrameStrata("TOOLTIP")
+    tooltip:SetFrameStrata("FULLSCREEN_DIALOG")
+    tooltip:SetFrameLevel(100)
+
     tooltip:Hide()
 
     local tooltiptext = tooltip:CreateFontString(nil, nil, "GameFontNormal")
@@ -506,6 +508,7 @@ function WoWPro:CreateGuideRow(parent, rowHeight)
     local tooltip = WoWPro.GuideRowTooltip
     local tooltiptext = tooltip.tooltiptext
     tooltip:SetParent(parent)
+    tooltip:SetFrameLevel(row:GetFrameLevel() + 1)
     row:SetPoint("LEFT", 12, 0)
     row:SetHeight(rowHeight or 25)
 
