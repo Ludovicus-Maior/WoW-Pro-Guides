@@ -2964,7 +2964,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 -- Testing if RUNE tag valid (Rune spells use different API than regular spells)
                 if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC and _G.C_Seasons then
                     local seasonrealm = _G.C_Seasons.HasActiveSeason()
-                    WoWPro.dbp("HasActiveSeason: %q",tostring(seasonrealm))
+                    WoWPro:dbp("HasActiveSeason: %q",tostring(seasonrealm))
                     if not seasonrealm then
                         WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing on a seasonal realm.")
                     else
@@ -2973,11 +2973,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             WoWPro.CompleteStep(guideIndex, "NextStep(): GetActiveSeason mismatch %d ~= 2", season)
                             skip = true
                         else
-                            spellKnown = _G.C_Engraving.IsKnownRuneSpell(spellID)
+                            spellKnown = _G.C_Engraving.IsKnownRuneSpell(tonumber(spellID))
+                            WoWPro:dbp("IsKnownRuneSpell(%s): %s", spellID, tostring(spellKnown))
                         end
                     end
+                else
+                    WoWPro:dbp("GetSpellInfo(%q): %s", spellName, tostring(spellKnown))
+                    spellKnown = spellKnown ~= nil
                 end
-                spellKnown = spellKnown ~= nil
                 spellFlip = WoWPro.toboolean(spellFlip)
                 if spellFlip then spellKnown = not spellKnown end
                 WoWPro:dbp("Checking spell step %s [%s] for %s: Nomen %s, Known %s",stepAction,step,WoWPro.spell[guideIndex],tostring(spellName),tostring(spellKnown))
