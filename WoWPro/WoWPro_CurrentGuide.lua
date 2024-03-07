@@ -1,4 +1,4 @@
--- luacheck: globals tostring ipairs max floor
+-- luacheck: globals tostring ipairs max floor UIParent
 
 -----------------------------------
 --      WoWPro_CurrentGuide      --
