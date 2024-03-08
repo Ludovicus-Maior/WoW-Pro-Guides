@@ -1171,37 +1171,21 @@ end
 
 local function createGuideConfig()
     local actions = {
-        name = L["Guide Select"],
+        name = L["Guide Selection"],
         type = "group",
         args = {
-            header = {
-                order = 10,
-                type = "header",
-                name = L["Guide Selector is not here for now"],
-            },
-            blah = {
-                order = 11,
-                type = "description",
-                name = "Please right click on the guide header on the gear icon for now.\nWe will try to restore this way of selecting guides, but it will take a bit of time.",
-                width = "full"
-            },
-            showGuideFrame = {
-                order = 12,
-                type = "execute",
-                name = "Show Guide Frame",
-                func = function()
-                    print("Button clicked")
-                    if WoWPro.GuideList.Frame then
-                        print("Frame exists, showing it")
-                        WoWPro.GuideList.Frame:Show()
-                    else
-                        print("Frame does not exist, creating it")
-                        WoWPro:CreateGuideTabFrame()
-                        print("Showing new frame")
-                        WoWPro.GuideList.Frame:Show()
-                    end
-                end,
-            },
+
+                header = {
+                    order = 10,
+                    type = "header",
+                    name = L["Guide Selector is not here for now"],
+                },
+                blah = {
+                    order = 11,
+                    type = "description",
+                    name = "Please right click on the guide header on the gear icon for now.\nWe will try to restore this way of selecting guides, but it will take a bit of time.",
+                    width = "full"
+                },
         }
     }
     return actions
