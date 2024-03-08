@@ -13,19 +13,21 @@ WoWPro.CreateCurrentGuideTitle = true
 local frame = _G.CreateFrame("Frame", nil, UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
-frame:SetSize(400, 400)
-frame:SetPoint("CENTER")
+frame:SetSize(625, 430)
+frame:SetPoint("CENTER", UIParent, "CENTER", 105, -15)
+frame:SetFrameStrata("TOOLTIP")
 local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
-texture:SetColorTexture(0, 0, 0, 0.7)
+texture:SetColorTexture(0, 0, 0, 1)
 frame:SetBackdrop({
     edgeFile = "Interface/DialogFrame/UI-DialogBox-Border",
     tile = true, tileSize = 32, edgeSize = 32,
     insets = { left = 11, right = 12, top = 12, bottom = 11 }
 })
 
+
 local closeButton = _G.CreateFrame("Button", nil, frame, "UIPanelCloseButton")
-closeButton:SetPoint("TOPRIGHT", -30, -8)
+closeButton:SetPoint("TOPRIGHT", -10, -8)
 
 frame:Hide()
 WoWPro.CurrentGuideFrame = frame
@@ -206,7 +208,7 @@ function WoWPro:GuideBugReport()
     local LogBox = WoWPro.LogBox
     local text
     local GID = _G.WoWProDB.char.currentguide
-    text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
+    text = ("Version: %s\nClass: %s\nRace: %s\nFaction: %s\nGuide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
     text = text .. WoWPro:QuestLogStatus() .. "\n"
     text = text .. WoWPro:GuideStatus() .. "\n"
     LogBox.Box:SetText(text)
