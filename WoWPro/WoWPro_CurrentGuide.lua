@@ -1,4 +1,4 @@
--- luacheck: globals tostring ipairs max floor UIParent
+-- luacheck: globals tostring ipairs max floor
 
 -----------------------------------
 --      WoWPro_CurrentGuide      --
@@ -10,7 +10,7 @@ local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 12, 25, 8, 16
 local offset, rows, shownrows = 0, {}, NUMROWS
 WoWPro.CreateCurrentGuideTitle = true
 
-local frame = _G.CreateFrame("Frame", nil, UIParent, "BackdropTemplate")
+local frame = _G.CreateFrame("Frame", nil, _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
 frame:SetSize(625, 430)
