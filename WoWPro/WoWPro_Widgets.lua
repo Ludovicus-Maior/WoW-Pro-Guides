@@ -369,10 +369,11 @@ function WoWPro:CreateBG(parent)
     local box = _G.CreateFrame('Frame', nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     box:SetBackdrop(bg)
     box:SetBackdropBorderColor(1, 1, 1)
-    box:SetBackdropColor(0.0, 0.0, 0.)
+    box:SetBackdropColor(0.2, 0.2, 0.2, 0.1)
 
     return box
 end
+
 
 function WoWPro:CreateTab(name, parent)
     local tab
