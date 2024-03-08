@@ -14,7 +14,7 @@ local frame = _G.CreateFrame("Frame", nil, _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
 frame:SetSize(625, 430)
-frame:SetPoint("CENTER", UIParent, "CENTER", 105, -15)
+frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, -15)
 frame:SetFrameStrata("TOOLTIP")
 local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
