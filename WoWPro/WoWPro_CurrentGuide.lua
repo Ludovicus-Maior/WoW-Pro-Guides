@@ -18,16 +18,12 @@ frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, -15)
 frame:SetFrameStrata("TOOLTIP")
 local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
-texture:SetColorTexture(0, 0, 0, 1)
-frame:SetBackdrop({
-    edgeFile = "Interface/DialogFrame/UI-DialogBox-Border",
-    tile = true, tileSize = 32, edgeSize = 32,
-    insets = { left = 11, right = 12, top = 12, bottom = 11 }
-})
+texture:SetColorTexture(0, 0, 0, 0)
+frame:SetBackdropColor(0, 0, 0, 0)
 
 
-local closeButton = _G.CreateFrame("Button", nil, frame, "UIPanelCloseButton")
-closeButton:SetPoint("TOPRIGHT", -10, -8)
+-- Add the frame to the special frames list
+tinsert(UISpecialFrames, frame:GetName())
 
 frame:Hide()
 WoWPro.CurrentGuideFrame = frame
