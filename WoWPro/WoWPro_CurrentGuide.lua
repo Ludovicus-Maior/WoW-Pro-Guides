@@ -10,25 +10,40 @@ local NUMROWS, ROWHEIGHT, GAP, EDGEGAP = 12, 25, 8, 16
 local offset, rows, shownrows = 0, {}, NUMROWS
 WoWPro.CreateCurrentGuideTitle = true
 
-local frame = _G.CreateFrame("Frame", nil, _G.InterfaceOptionsFramePanelContainer)
+local frame = _G.CreateFrame("Frame", "CreateGuide", _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
+frame:SetSize(625, 430)
+frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, -15)
+frame:SetFrameStrata("TOOLTIP")
+local texture = frame:CreateTexture(nil, "BACKGROUND")
+texture:SetAllPoints(true)
+texture:SetColorTexture(0, 0, 0, 0)
+frame:SetBackdropColor(0, 0, 0, 0)
+
+
+-- Add the frame to the special frames list
+_G.table.insert(_G.UISpecialFrames, frame:GetName())
+
 frame:Hide()
 WoWPro.CurrentGuideFrame = frame
 
 do
-    local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
-    title:SetPoint("TOPLEFT", 16, -16)
-    title:SetText("WoW-Pro - "..L["Current Guide"])
-    frame.title = title
-    local  subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-    subtitle:SetHeight(32)
-    subtitle:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -8)
-    subtitle:SetPoint("RIGHT", frame, -32, 0)
-    subtitle:SetNonSpaceWrap(true)
-    subtitle:SetJustifyH("LEFT")
-    subtitle:SetJustifyV("TOP")
-    frame.subtitle = subtitle
+local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
+title:SetPoint("TOPLEFT", 16, -16)
+title:SetPoint("RIGHT", frame, -16, 0)
+title:SetText("WoWPro - "..L["Current Guide"])
+title:SetJustifyH("CENTER")
+frame.title = title
+
+local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+subtitle:SetHeight(32)
+subtitle:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -8)
+subtitle:SetPoint("RIGHT", frame, -32, 0)
+subtitle:SetNonSpaceWrap(true)
+subtitle:SetJustifyH("CENTER")
+subtitle:SetJustifyV("TOP")
+frame.subtitle = subtitle
 
     local box = WoWPro:CreateBG(frame)
     box:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP)
@@ -189,7 +204,7 @@ function WoWPro:GuideBugReport()
     local LogBox = WoWPro.LogBox
     local text
     local GID = _G.WoWProDB.char.currentguide
-    text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
+    text = ("Version: %s\nClass: %s\nRace: %s\nFaction: %s\nGuide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
     text = text .. WoWPro:QuestLogStatus() .. "\n"
     text = text .. WoWPro:GuideStatus() .. "\n"
     LogBox.Box:SetText(text)
