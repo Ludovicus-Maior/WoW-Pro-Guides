@@ -122,6 +122,7 @@ h Dolanaar|ACTIVE|2159|M|55.62,59.79|Z|1438;Teldrassil|N|Set your Hearthstone to
 T Dolanaar Delivery|QID|2159|M|55.62,59.79|Z|1438;Teldrassil|N|To Innkeeper Keldamyr.|
 = Cooking|AVAILABLE|4161|M|57.11,61.28|Z|1438;Teldrassil|N|Speak to Zarrin and learn cooking.|P|Cooking;185;0+1;true|
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|Z|1438;Teldrassil|N|From Zarrin.|P|Cooking;185;0|
+t Recipe of the Kaldorei|QID|4161|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|IZ|Dolanaar|
 T Crown of the Earth|QID|928|M|56.15,61.71|Z|1438;Teldrassil|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|Z|1438;Teldrassil|N|From Corithras Moonrage.|
 C Garments of the Moon|QID|5621|M|57.24,63.50|Z|1438;Teldrassil|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|T|Sentinel Shaya|C|Priest|
@@ -157,9 +158,8 @@ A Seek Redemption!|QID|489|PRE|488|M|56.08,57.72|Z|1438;Teldrassil|N|From Syral 
 T Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|Z|1438;Teldrassil|N|To Tallonkai Swiftroot|
 C Seek Redemption!|QID|489|M|PLAYER|CC|L|3418 3|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|S|
 r Sell/Repair|ACTIVE|4161|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of the vendors in Dolanaar.|S!US|
-T Recipe of the Kaldorei|QID|4161|M|57.11,61.28|Z|1438;Teldrassil|N|To Zarrin.|
 
-l Rune of Blood Frenzy|M|39.60,37.60;39.80,37.40;39.80,69.40;39.8o,69.60;43.80,76.80;54.80,66.00;62.40,71.80;62.60,71.80|CN|Z|1438;Teldrassil|L 204441|ITEM|204441|N|Wandering Swordsman found at one of the spawnpoints marked.\n[color=FF0000]NOTE: [/color]It takes 10 minutes for him to respawn.|SPELL|Engrave Chest - Blood Frenzy;403474|C|Warrior|RUNE|S!US|
+l Rune of Blood Frenzy|M|39.60,37.60;39.80,37.40;39.80,69.40;39.80,69.60;43.80,76.80;54.80,66.00;62.40,71.80;62.60,71.80|CN|Z|1438;Teldrassil|L|204441|ITEM|204441|N|Wandering Swordsman found at one of the spawnpoints marked.\n[color=FF0000]NOTE: [/color]It takes 10 minutes for him to respawn.|SPELL|Engrave Chest - Blood Frenzy;403474|C|Warrior|RUNE|S!US|
 = Engrave Chest - Blood Frenzy|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Blood Frenzy[/color] to learn the spell.|U|204441|SPELL|Engrave Chest - Blood Frenzy;403474|C|Warrior|RUNE|O|
 T Denalan's Earth|QID|997|M|60.90,68.50|Z|1438;Teldrassil|N|To Denalan.|
 A Timberling Seeds|QID|918|PRE|997|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.\n[color=FF0000]NOTE: [/color]It will take a few moments for this quest to be offerred.|
