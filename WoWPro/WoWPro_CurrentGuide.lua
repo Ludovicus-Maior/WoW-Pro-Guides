@@ -23,7 +23,7 @@ frame:SetBackdropColor(0, 0, 0, 0)
 
 
 -- Add the frame to the special frames list
-tinsert(UISpecialFrames, frame:GetName())
+table.insert(UISpecialFrames, frame:GetName())
 
 frame:Hide()
 WoWPro.CurrentGuideFrame = frame
