@@ -34,10 +34,10 @@ T Verdant Sigil|QID|3120|M|58.62,40.29|Z|1438;Teldrassil|N|To Mardant Strongoak.
 A Relics of the Kaldorei|QID|77571|M|58.62,40.29|Z|1438;Teldrassil|N|From Mardant Strongoak.|C|DRUID|RUNE|
 = Level 2 Training|ACTIVE|458|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 K The Balance of Nature|QID|457|QO|1;2|M|61.08,34.71|Z|1438;Teldrassil|N|Kill any Mangy Nightsabers and Thistle Boars you come across.\n[color=FF0000]NOTE: [/color]Young Thistle Boars do not count.|S|
-R Ramp|ACTIVE|77573|M|57.64,41.70|CC|Z|1438;Teldrassil|N|Walk outside to the ramp leading up the tree.|SPELL|Shadowstrike;399985|C|Rogue|RUNE|
-R Owl Figurine|ACTIVE|77573|M|59.28,40.57;59.70,42.58|CS|Z|1438;Teldrassil|L|204795|N|Walk up the ramp until you are looking down at the top ridgeline of the roof. After jumping over the edge and onto the right side of the roof, follow the roof down along the right side until you can see the ledge with the owl figurine.|SPELL|Shadowstrike;399985|C|Rogue|RUNE|
-C Rune of Shadowstrike|ACTIVE|77573|M|59.68,42.61|Z|1438;Teldrassil|L|204795|N|Click the owl to retrieve the Rune.|SPELL|Shadowstrike;399985|C|Rogue|RUNE|
-= Engrave Gloves - Shadowstrike|ACTIVE|77573|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Shadowstrike[/color] to learn the spell.|U|204795|SPELL|Shadowstrike;399985|C|Rogue|RUNE|O|
+R Ramp|ACTIVE|77573|M|57.64,41.70|CC|Z|1438;Teldrassil|N|Walk outside to the ramp leading up the tree.|SPELL|Engrave Gloves - Shadowstrike;400105C|Rogue|RUNE|
+R Owl Figurine|M|59.28,40.57;59.70,42.58|CS|Z|1438;Teldrassil|L|204795|N|Walk up the ramp until you are looking down at the top ridgeline of the roof. After jumping over the edge and onto the right side of the roof, follow the roof down along the right side until you can see the ledge with the owl figurine.|SPELL|Engrave Gloves - Shadowstrike;400105|C|Rogue|RUNE|
+C Rune of Shadowstrike|M|59.68,42.61|Z|1438;Teldrassil|L|204795|N|Click the owl to retrieve the Rune.|SPELL|Engrave Gloves - Shadowstrike;400105|C|Rogue|RUNE|
+= Engrave Gloves - Shadowstrike|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Shadowstrike[/color] to learn the spell.|U|204795|SPELL|Engrave Gloves - Shadowstrike;400105|C|Rogue|RUNE|O|
 T Second-Story Work|QID|77573|M|59.64,38.67|Z|1438;Teldrassil|N|To Frahun Shadewhisper.|C|Rogue|RUNE|
 R Shadowglen Moonwell|ACTIVE|77574|QO|1|M|59.93,33.08|Z|1438;Teldrassil|N|Exit the building (if you haven't yet) and run north to the Moonwell.|BUFF|419308^419307|C|Priest|
 C Meditation on Elune|QID|77574|QO|1|M|PLAYER|CC|N|While under the influence of Moonwell's Blessing, '/kneel' at the Moonwell until you receive the buff.|T| ,kneel|BUFF|419307|C|Priest|RUNE|NC|
@@ -47,14 +47,14 @@ C Meditation on Elune|QID|77574|QO|1|M|59.93,33.08|Z|1438;Teldrassil|N|You need 
 T Meditation on Elune|QID|77574|M|59.18,40.45|Z|1438;Teldrassil|N|To Shanda.|C|Priest|RUNE|
 T The Woodland Protector|QID|458|M|57.73,45.23|Z|1438;Teldrassil|N|To Tarindrella.|
 A The Woodland Protector|QID|459|PRE|458|M|57.73,45.23|Z|1438;Teldrassil|N|From Tarindrella.|
-C Lunar Idol|QID|77571|L|208414|ITEM|208414|M|55.91,45.79|Z|1438;Teldrassil|N|any mob in Shadowglen.|C|DRUID|S|
+C Lunar Idol|QID|77571|L|208414|ITEM|208414|M|55.91,45.79|Z|1438;Teldrassil|N|any mob in Shadowglen.|C|DRUID|RUNE|S|
 C The Woodland Protector|QID|459|M|55.91,45.79|Z|1438;Teldrassil|L|3297 8|ITEM|3297|N|Grell found in camps along the east mountains.|T|Grell|
 L Level 3|AVAILABLE|916|N|Grind until you're within 5 bubbles of level 3|LVL|2;-250|
 T The Woodland Protector|QID|459|M|57.73,45.23|Z|1438;Teldrassil|N|To Tarindrella.|
 A Webwood Venom|QID|916|M|57.81,41.65|Z|1438;Teldrassil|N|From Gilshalan Windwalker.|LVL|3|
 C Webwood Venom|QID|916|M|56.80,29.20|Z|1438;Teldrassil|L|5166 10|ITEM|5166|N|Webwood Spiders found in the northwest corner of Shadowglen.|S|
 C Rune of Victory Rush|QID|77575|M|56.80,29.20|Z|1438;Teldrassil|L|204806|ITEM|204806|N|Webwood Spiders found in the northwest corner of Shadowglen.|C|Warrior|RUNE|S|
-= Engrave Gloves - Victory Rush|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Victory Rush[/color] to learn the spell.|U|204806|SPELL|Victory Rush;402927|C|Warrior|RUNE|O|
+= Engrave Gloves - Victory Rush|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Victory Rush[/color] to learn the spell.|U|204806|SPELL|Engrave Gloves - Victory Rush;403470|C|Warrior|RUNE|O|
 T A Good Friend|QID|4495|M|54.60,32.99|Z|1438;Teldrassil|N|To Iverron, in the alcove before the cave entrance.|
 A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|Z|1438;Teldrassil|N|From Iverron.|
 C Rune of Victory Rush|QID|77575|M|56.80,29.20|Z|1438;Teldrassil|L|204806|ITEM|204806|N|Webwood Spiders found in the northwest corner of Shadowglen.|C|Warrior|RUNE|US|
@@ -77,8 +77,8 @@ A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|Z|1438;Teldrassil|N|From Gilshalan W
 T The Balance of Nature|QID|457|M|58.69,44.27|Z|1438;Teldrassil|N|To Conservator Ilthalaine.|
 = Level 4 Training|ACTIVE|3521|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|Aldrassil^Shadowglen|
 C Lunar Idol|QID|77571|L|208414|ITEM|208414|M|55.91,45.79|Z|1438;Teldrassil|N|any mob in Shadowglen.|C|Druid|RUNE|US|
-C Relics of the Kaldorei|QID|77571|M|58.62,40.29|Z|1438;Teldrassil|N|After equipping the Lunar Idol, use Moonfire on Grelkins and kill them before it expires.\nRinse and repeat until you have 6 stacks of Building Inspiration.\n[color=FF0000]NOTE: [/color]Your kills won't grant the buff if the Lunar Idol isn't equipped.|U|208414|BUFF|408953<-6|SPELL|Fury of Stormrage;414799|C|Druid|RUNE|
-= Engrave Chest - Fury of Stormrage|M|PLAYER|CC|N|Use the [color=33fff9]Lunar Idol[/color] to learn the spell.|U|208414|SPELL|Fury of Stormrage;414799|C|Druid|RUNE|O|
+C Relics of the Kaldorei|QID|77571|M|58.62,40.29|Z|1438;Teldrassil|N|After equipping the Lunar Idol, use Moonfire on Grelkins and kill them before it expires.\nRinse and repeat until you have 6 stacks of Building Inspiration.\n[color=FF0000]NOTE: [/color]Your kills won't grant the buff if the Lunar Idol isn't equipped.|U|208414|BUFF|408953<-6|SPELL|Engrave Chest - Fury of Stormrage;410061|C|Druid|RUNE|
+= Engrave Chest - Fury of Stormrage|M|PLAYER|CC|N|Use the [color=33fff9]Lunar Idol[/color] to learn the spell.|U|208414|SPELL|Engrave Chest - Fury of Stormrage;410061|C|Druid|RUNE|O|
 T Relics of the Kaldorei|QID|77571|M|58.62,40.29|Z|1438;Teldrassil|N|To Mardant Strongoak.|C|Druid|RUNE|
 
 T Iverron's Antidote|QID|3521|M|60.90,41.96|Z|1438;Teldrassil|N|To Dirania Silvershine.|
@@ -90,7 +90,7 @@ C Rune of the Chimera|QID|77568|M|56.65,25.74|Z|1438;Teldrassil|L|206168|ITEM|20
 C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|Z|1438;Teldrassil|N|any webwood spider in Shadowthread Cave.|C|Warrior|S|
 C Webwood Egg|QID|917|M|56.66,29.33;56.87,27.24;55.72,25.12;56.65,25.74|CS|Z|1438;Teldrassil|L|5167|N|Loot one of the eggs from the ground.\n[color=FF0000]NOTE: [/color]Take the middle path and go left. The right path is just a longer route to the same location. The left path is a dead-end with a drop to the same location as the other two.|
 C Rune of the Chimera|QID|77568|M|56.65,25.74|Z|1438;Teldrassil|L|206168|ITEM|206168|N|the large spider, Githyiss the Vile, found on the ledge at the back of the cave among the Webwood Eggs.|C|Hunter|RUNE|US|
-C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|Z|1438;Teldrassil|N|any webwood spider in Shadowthread Cave.|C|Warrior|US|
+C Amidst the Shadowed Webs|QID|77575|QO|1|M|59.63,38.45|Z|1438;Teldrassil|N|any webwood spider in Shadowthread Cave.|C|Warrior|RUNE|US|
 H Shadowglen|ACTIVE|917|M|58.54,44.64|Z|1438;Teldrassil|N|Hearth out of the cave.|
 = Engrave Gloves - Chimera Shot|M|PLAYER|CC|N|Use the [color=33fff9]Rune of the Chimera[/color] to learn the spell.|U|206168|C|Hunter|RUNE|O|
 T Webwood Egg|QID|917|M|57.81,41.65|Z|1438;Teldrassil|N|To Gilshalan Windwalker.|
@@ -133,7 +133,7 @@ C Crown of the Earth|QID|929|QO|1|M|63.35,58.11|Z|1438;Teldrassil|N|Use the Crys
 T A Troubling Breeze|QID|475|M|66.26,58.55|Z|1438;Teldrassil|N|To Gaerolas Talvethren on the second floor of the first building to your right.|
 A Gnarlpine Corruption|QID|476|PRE|475|M|66.26,58.55|Z|1438;Teldrassil|N|From Gaerolas Talvethren|
 C The Emerald Dreamcatcher|QID|2438|M|68.01,59.65|Z|1438;Teldrassil|L|8048|N|Inside the dresser to the right of the entrance in the small house.|
-l Glade Crown|M|67.03,58.04|Z|1438;Teldrassil|L|208760|N|Combine 3 flowers into Glade Crown.\n[color=FF0000]NOTE: [/color]If you have extra Glade Flowers in your bag, this step will reactivate after a reset.\nJust manually check it off to continue.|U|208609|SPELL|Engrave Chest - Living Seed;416050|C|Druid|O|
+l Glade Crown|M|67.03,58.04|Z|1438;Teldrassil|L|208760|N|Combine 3 flowers into Glade Crown.\n[color=FF0000]NOTE: [/color]If you have extra Glade Flowers in your bag, this step will reactivate after a reset.\nJust manually check it off to continue.|U|208609|SPELL|Engrave Chest - Living Seed;416050|C|Druid|RUNE|O|
 l Rune of Natural Potential|ACTIVE|476|M|67.03,58.03|Z|1438;Teldrassil|L|206963|N|Use Glade Crown at Wooden Effigy and kill spawned Unleashed Nature Spirit.|U|208760|SPELL|Engrave Chest - Living Seed;414677|C|Druid|RUNE|O|
 = Engrave Chest - Living Seed|ACTIVE|476|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Natural Potential[/color] to learn the spell.|U|206963|SPELL|Engrave Chest - Living Seed;414050|C|Druid|RUNE|O|
 
@@ -151,6 +151,9 @@ C Tallonkai's Jewel|QID|2459|M|PLAYER|CC|L|8050|N|Use the Gnarlpine Necklace to 
 C Gnarlpine Mystics|QID|2459|QO|1|M|68.83,52.93|Z|1438;Teldrassil|N|Kill the Gnarlpine Mystics.\n[color=FF0000]NOTE: [/color]If you cannot find any Mystics in these camps, they share a spawn point with the Warriors and you'll have to kill them to respawn Mystics.|US|
 
 C Zenn's Bidding|QID|488|M|62.43,59.89|Z|1438;Teldrassil|N|Kill and loot Webwood Lurkers, Nightsabers, and Strigid Owls.|US|
+l Severed Spider Head|M|62.43,59.89|Z|1438;Teldrassil|L|208612|ITEM|208612|N|any Webwood Lurker around Teldrassil.|SPELL|Engrave Gloves - Devastate;403475|C|Warrior|RUNE|S!US|
+l Severed Tiger Head|M|62.43,59.89|Z|1438;Teldrassil|L|208611|ITEM|208611|N|any Nightsaber around Teldrassil.|SPELL|Engrave Gloves - Devastate;403475|C|Warrior|RUNE|S!US|
+l Severed Owl Head|M|62.43,59.89|Z|1438;Teldrassil|L|208610|ITEM|208610|N|any Strigid Owl around Teldrassil.|SPELL|Engrave Gloves - Devastate;403475|C|Warrior|RUNE|S!US|
 T Zenn's Bidding|QID|488|M|60.43,56.25|Z|1438;Teldrassil|N|To Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
 C Recipe of the Kaldorei|QID|4161|L|5465 7|ITEM|5465|N|Any spider in Teldrassil.|US|
 
@@ -159,8 +162,9 @@ T Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|Z|1438;Teldrassil|N|To Tallon
 C Seek Redemption!|QID|489|M|PLAYER|CC|L|3418 3|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|S|
 r Sell/Repair|ACTIVE|4161|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of the vendors in Dolanaar.|S!US|
 
-l Rune of Blood Frenzy|M|39.60,37.60;39.80,37.40;39.80,69.40;39.80,69.60;43.80,76.80;54.80,66.00;62.40,71.80;62.60,71.80|CN|Z|1438;Teldrassil|L|204441|ITEM|204441|N|Wandering Swordsman found at one of the spawnpoints marked.\n[color=FF0000]NOTE: [/color]It takes 10 minutes for him to respawn.|SPELL|Engrave Chest - Blood Frenzy;403474|C|Warrior|RUNE|S!US|
+l Rune of Blood Frenzy|M|39.60,37.60;39.80,37.40;39.80,69.40;39.80,69.60;43.80,76.80;54.80,66.00;62.40,71.80;62.60,71.80|CN|Z|1438;Teldrassil|L|204441|ITEM|204441|N|Wandering Swordsman found at one of the spawnpoints marked.\n[color=FF0000]NOTE: [/color]Remember to loot your Rune from the chest that is left on the ground.\nIt takes 10 minutes for him to respawn.|SPELL|Engrave Chest - Blood Frenzy;403474|C|Warrior|RUNE|S!US|
 = Engrave Chest - Blood Frenzy|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Blood Frenzy[/color] to learn the spell.|U|204441|SPELL|Engrave Chest - Blood Frenzy;403474|C|Warrior|RUNE|O|
+l Top-Right Map Piece|L|208601|N|Pickpocket any Timberling\n[color=FF0000]NOTE: [/color]There's a chance they may drop it if you kill them.|SPELL|Engrave Chest - Quick Draw;400095|C|Rogue|RUNE|S|
 T Denalan's Earth|QID|997|M|60.90,68.50|Z|1438;Teldrassil|N|To Denalan.|
 A Timberling Seeds|QID|918|PRE|997|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.\n[color=FF0000]NOTE: [/color]It will take a few moments for this quest to be offerred.|
 A Timberling Sprouts|QID|919|PRE|997|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.|
@@ -175,13 +179,14 @@ T Timberling Seeds|QID|918|M|60.90,68.50|Z|1438;Teldrassil|N|To Denalan.|
 A Rellian Greenspyre|QID|922|PRE|918|M|60.90,68.50|Z|1438;Teldrassil|N|From Denalan.|
 T Timberling Sprouts|QID|919|M|60.90,68.50|Z|1438;Teldrassil|N|To Denalan.|
 C Seek Redemption!|QID|489|M|59,56;59,61.25;60.2,62.25|CN|Z|1438;Teldrassil|N|Look for the Fel Cones at the base of trees with green smoke comes out of them.\n[color=FF0000]NOTE: [/color]They are all around the area outside of Dolanaar.|US|
+l Top-Right Map Piece|L|208601|N|Pickpocket any Timberling\n[color=FF0000]NOTE: [/color]There's a chance they may drop it if you kill them.|SPELL|Engrave Chest - Quick Draw;400095|C|Rogue|RUNE|S|
 L Level 8|ACTIVE|489|N|Grind until you're within 3 bubbles of level 8.|LVL|7;-625|
 T Seek Redemption!|QID|489|M|60.43,56.25|Z|1438;Teldrassil|N|To Zenn Foulhoof.\n[color=FF0000]NOTE: [/color]If he is a frog, wait up to one minute (another player has just turned this quest in).|
 r Sell/Repair|ACTIVE|932|M|56.24,59.51|Z|1438;Teldrassil|N|Sell/Repair at one of the vendors in Dolanaar.|IZ|Dolanaar|
 = Level 8 Training|ACTIVE|932|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Dolanaar|
 
 R Fel Rock|ACTIVE|932|QO|1|M|54.65,52.65|Z|1438;Teldrassil|N|The cave entrance is behind the tree building.\n[color=FF0000]NOTE: [/color]It can be accessed from either side of the tree.|
-l Bottom-Left Map Piece|L|208604|N|Pickpocket any mob in Fel Rock.\n[color=FF0000]NOTE: [/color]There's a chance they may drop it if you kill them.|
+l Bottom-Left Map Piece|L|208604|N|Pickpocket any mob in Fel Rock.\n[color=FF0000]NOTE: [/color]There's a chance they may drop it if you kill them.|SPELL|Engrave Chest - Quick Draw;400095|C|Rogue|RUNE|S|
 U Teldrassil Treasure Map|M|PLAYER|CC|L|208605|N|Combine the four map pieces to make the map.|U|208601^208602^208603^208604|O|
 = Engrave Chest - Quick Draw|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Quick Draw[/color] to learn the spell.|U|205945|SPELL|Engrave Chest - Quick Draw;400095|C|Rogue|RUNE|O|
 l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|Z|1438;Teldrassil|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|C|Priest|RUNE|S|
@@ -189,6 +194,7 @@ R Twisted Hatred|ACTIVE|932|QO|1|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.
 l Memory of an Imprisoned Savior|ACTIVE|932|M|51.22,50.74|Z|1438;Teldrassil|L|205945|ITEM|205945|N|Lord Melenas|SPELL|Engrave Pants - Shared Pain;402854|C|Priest|RUNE|S!US|
 K Lord Melenas|QID|932|M|51.45,49.91;51.22,50.74|CN|Z|1438;Teldrassil|L|5221|N|Kill and loot Lord Melenas.\n[color=FF0000]NOTE: [/color]He spawns in three places, on the ledge, in the cavern below it, or in an alcove along the tunnel leading to the ledge.\nHe's level 8 and hits very hard for his level, transforming into a cat during the fight. He usually has two adds and will become a cat at some point in the fight. His adds can be pulled single if you do it right.\nIf you're a caster, pull him from max range and use a Severed Voodoo Claw on him. It will reduce his damage a little.|T|Lord Melenas|
 l Prophecy of a Desecrated Citadel|ACTIVE|932|M|51.57,49.01|Z|1438;Teldrassil|L|205947|ITEM|205947|N|any mob in Fel Rock.|SPELL|Engrave Pants - Homunculi;402852|C|Priest|RUNE|US|
+l Bottom-Left Map Piece|L|208604|N|Pickpocket any mob in Fel Rock.\n[color=FF0000]NOTE: [/color]There's a chance they may drop it if you kill them.|SPELL|Engrave Chest - Quick Draw;400095|C|Rogue|RUNE|US|
 H Hearth or Grind|ACTIVE|932|M|55.62,59.79|Z|1438;Teldrassil|N|As most of the mobs you've killed on the way in have respawned by now, use your Hearth or grind your way out.|TZ|Dolanaar|
 T Twisted Hatred|QID|932|M|55.58,56.95|Z|1438;Teldrassil|N|To Tallonkai Swiftroot at the top of the tree.|
 B Skinning Knife|ACTIVE|922|M|55.27,57.15|Z|1438;Teldrassi|L|7005|N|If you plan on learning skinning, get your [color=33fff9]Skinning Knife[/color] now from Narret Shadowgrove. Otherwise, you'll have to wait until you get to Darnassus before you can do any skinning.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't want it.|
@@ -207,9 +213,14 @@ R Darnassus|ACTIVE|922|M|39.02,53.24;36.28,54.37|CC|Z|1438;Teldrassil|N|Continue
 r Housekeeping|ACTIVE|922|N|While in Darnassus, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
 B Skinning Knife|ACTIVE|922|M|63.69,22.27;60.97,17.67|CN|Z|1457;Darnassus|L|7005|N|You'll need to buy this from Saenorion at the Leatherworking Shop or from Mythrin'dir at the General Trade Shop (both in the Craftsmen's Terrace).|P|Skinning;393;0+1|
 
+l Monster Hunter's First Rune Fragment|M|63.10,21.86|Z|1457;Darnassus|L|204688|N|Exchange the [color=33fff9]Severed Owl Head[/color] to Delwynna (inside the Leatherworking shop) for the fragment.|SPELL|Engrave Gloves - Devastate;403475|C|Warrior|RUNE|
+l Monster Hunter's Second Rune Fragment|M|63.10,21.86|Z|1457;Darnassus|L|204689|N|Exchange the [color=33fff9]Severed Tiger Head[/color] to Delwynna (inside the Leatherworking shop) for the fragment.|SPELL|Engrave Gloves - Devastate;403475|C|Warrior|RUNE|
+l Monster Hunter's Third Rune Fragment|M|63.10,21.86|Z|1457;Darnassus|L|204690|N|Exchange the [color=33fff9]Severed Spider Head[/color] to Delwynna (inside the Leatherworking shop) for the fragment.|SPELL|Engrave Gloves - Devastate;403475|C|Warrior|RUNE|
+l Rune of Devastate|M|PLAYER|CC|L|204703|N|Combine all three Rune Fragments to create the Rune of Devastate.|U|204688^204689^204690|SPELL|Engrave Gloves - Devastate;403475|C|Warrior|RUNE|
+= Engrave Gloves - Devastate|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Devastate[/color] to learn the spell.|U|204703|SPELL|Engrave Gloves - Devastate;403475|C|Warrior|RUNE|O|
 N Waylaid Supplies|AVAILABLE|78872|N|Blizzard has introduced a new Faction Rep, Azeroth Commerce Authority. Rep is earned by turning in [color=33fff9]Supply Shipment[/color] crates. These crates are filled with items based on a Waylaid Supply assignment you get as a random drop from mobs.\n[color=FF0000]NOTE: [/color]You can only have 1 assignment active at a time (Not sure if it applies to the Supply Shipment as well)\n\nManually check this step off to continue.|RUNE|
 A A Full Shipment|QID|78872|M|60.07,56.84|Z|1457;Darnassus|N|From Marcy Baker in Tradesmen Terrace (by the AH).|U|211365|IZ|Darnassus|RUNE|NOCACHE|O| ; ** step will only show if they have a crate to turn in - Hendo72
-t A Full Shipment|QID|78872|M|60.07,56.84|Z|1457;Darnassus|N|To Marcy Baker.|IZ|Darnassus|
+t A Full Shipment|QID|78872|M|60.07,56.84|Z|1457;Darnassus|N|To Marcy Baker.|RUNE|IZ|Darnassus|
 T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|1457;Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|1457;Darnassus|N|From Rellian Greenspyre.|
 R Teldrassil|ACTIVE|933|M|35.71,54.37|Z|1438;Teldrassil|N|Exit Darnassus.|
@@ -227,16 +238,16 @@ A The Sleeping Druid|QID|2541|M|44.95,61.59|Z|1438;Teldrassil|N|From Oben Ragecl
 C The Sleeping Druid|QID|2541|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|S|
 C Sapphire of Sky|QID|483|QO|3|M|44.69,62.45|Z|1438;Teldrassil|L|3407|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw.\n[color=FF0000]NOTE: [/color]Greenpaw is a Level 10 and hits hard.|
 R Raven Claw Talisman|ACTIVE|483|QO|1|M|45.39,58.00;46.15,58.37|CC|Z|1438;Teldrassil|N|Continue on down the passage to the next chamber and head up the ramp on your left as you enter.\n[color=FF0000]NOTE: [/color]Watch out for Rageclaw (the bad one) who patrols around the lower level.|
-l Memory of a Dark Purpose|M|45.09,61.37|Z|1438;Teldrassil|L|205940|N|Looted from the Gnarlpine Cache found in the first room across the bridge.|SPELL|Engrave Chest - Void Plague;425216|C|Priest|
-= Engrave Chest - Void Plague|M|PLAYER|CC|N|Use the [color=33fff9]Memory of a Dark Purpose[/color] to learn the spell.|U|205940|SPELL|Engrave Chest - Void Plague;425216|BUFF|-419307|C|Priest|O|
+l Memory of a Dark Purpose|M|45.09,61.37|Z|1438;Teldrassil|L|205940|N|Looted from the Gnarlpine Cache found in the first room across the bridge.|SPELL|Engrave Chest - Void Plague;425216|C|Priest|RUNE|
+= Engrave Chest - Void Plague|M|PLAYER|CC|N|Use the [color=33fff9]Memory of a Dark Purpose[/color] to learn the spell.|U|205940|SPELL|Engrave Chest - Void Plague;425216|BUFF|-419307|C|Priest|RUNE|O|
 C Raven Claw Talisman|QID|483|QO|1|M|45.39,58.00;46.15,58.37;45.65,57.45|CC|Z|1438;Teldrassil|L|3405|N|Cross the bridge and follow the passage around to where you'll find the chest on the balcony.\n[color=FF0000]NOTE: [/color]Each 'room' has 2-3 Gnarlpine Augers that you'll have to clear to move on.|
 C The Sleeping Druid|QID|2541|M|43.96,61.62|Z|1438;Teldrassil|L|8363|N|Gnarlpine Shamans\nWorking your way back to the second tier of bridges, kill Shamans until one of them drops the Charm.\n[color=FF0000]NOTE: [/color]This may take a long time and you can use the grind.|US|
 T The Sleeping Druid|QID|2541|M|44.95,61.59|Z|1438;Teldrassil|N|To Oben Rageclaw.|
 A Druid of the Claw|QID|2561|PRE|2541|M|44.95,61.59|Z|1438;Teldrassil|N|From Oben Rageclaw.|
-l Idol of Ursine Rage|M|45.39,58.00|Z|1438;Teldrassil|L|206954|ITEM|206954|N|Rageclaw|SPELL|Engrave Gloves - Mangle;410025|C|Druid|S!US|
-l Rune of Explosive Shot|ACTIVE|487|M|45.39,58.00|Z|1438;Teldrassil|L|206169|ITEM|206169|N|Rageclaw|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|S!US|
+l Idol of Ursine Rage|M|45.39,58.00|Z|1438;Teldrassil|L|206954|ITEM|206954|N|Rageclaw|SPELL|Engrave Gloves - Mangle;410025|C|Druid|RUNE|S!US|
+l Rune of Explosive Shot|ACTIVE|487|M|45.39,58.00|Z|1438;Teldrassil|L|206169|ITEM|206169|N|Rageclaw|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|RUNE|S!US|
 C Druid of the Claw|QID|2561|M|45.39,58.00|Z|1438;Teldrassil|N|After returning to where Rageclaw is circling, kill him and use the Voodoo Charm on his corpse.|T|Rageclaw|U|8149|
-= Engrave Gloves - Explosive Shot|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Explosive Shot[/color] to learn the spell.|U|206169|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|O|
+= Engrave Gloves - Explosive Shot|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Explosive Shot[/color] to learn the spell.|U|206169|SPELL|Engrave Gloves - Explosive Shot;410123|C|Hunter|RUNE|O|
 T Druid of the Claw|QID|2561|M|44.95,61.59|Z|1438;Teldrassil|N|To Oben Rageclaw.|
 l Rune of Furious Thunder|L|204809|N|Open every Gnarlpine Cache you come across and keep opening it until it despawns.|SPELL|Engrave Pants - Furious Thunder;403476|C|Warrior|RUNE|US|
 R Exit Ban'ethil Barrow Den|ACTIVE|487|M|44.41,57.81|Z|1438;Teldrassil|N|Follow the ramps up and outside the Den.|IZ|Ban'ethil Barrow Den|
@@ -273,14 +284,14 @@ A Training the Beast|QID|6103|PRE|6102|M|56.68,59.50|Z|1438;Teldrassil|N|From Da
 
 T The Relics of Wakening|QID|483|M|55.96,57.28|Z|1438;Teldrassil|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|Z|1438;Teldrassil|N|From Athridas Bearmantle.|
-l Teldrassil Bird Meat|L|208608|ITEM|208608|N|any Strigid Owl/Screecher/Hunter|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|S!US|
+l Teldrassil Bird Meat|L|208608|ITEM|208608|N|any Strigid Owl/Screecher/Hunter|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|RUNE|S!US|
 R Wellspring Lake|ACTIVE|923|QO|1|M|44.36,49.96;43.80,45.97|CC|Z|1438;Teldrassil|N|Run west towards Darnassus and turn north down the hill when you reach the bridge/log.|
 K Blackmoss the Fetid|AVAILABLE|927|ACTIVE|923|M|43.37,27.75|Z|1438;Teldrassil|L|5179|N|A Level 13 rare that spawns on the NE bank of the Wellspring River before the last waterfall. He drops a quest starter.\n[color=FF0000]NOTE: [/color]If he's not there, skip this because he has a 2hr+ respawn timer.|T|Blackmoss the Fetid|IZ|Wellspring River|S!US|
 A The Moss-twined Heart|QID|927|M|PLAYER|CC|N|Click on the item to start the quest.|U|5179|O|
 C Tumors|QID|923|QO|1|M|43.58,27.27|Z|1438;Teldrassil|L|5170 5|ITEM|5170|N|Any type of Timberling found in the area around Wellspring River (from the lake to the last waterfall).|
-U Teldrassil Bird Meat|M|48.3,31.4|Z|1438;Teldrassil|N|Use the Teldrassil Bird Meat to summon Mowgh.|U|208608|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
-l Rune of Flanking|M|48.3,31.4|Z|1438;Teldrassil|L|205979|N|Kill Mowgh to loot the Rune.\n[color=FF0000]NOTE: [/color]Taming him gives the same result.|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|
-= Engrave Pants - Flanking Strike|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Flanking[/color] to learn the spell.|U|205979|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|O|
+U Teldrassil Bird Meat|M|48.3,31.4|Z|1438;Teldrassil|N|Use the Teldrassil Bird Meat to summon Mowgh.|U|208608|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|RUNE|O|
+l Rune of Flanking|M|48.3,31.4|Z|1438;Teldrassil|L|205979|N|Kill Mowgh to loot the Rune.\n[color=FF0000]NOTE: [/color]Taming him gives the same result.|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|RUNE|
+= Engrave Pants - Flanking Strike|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Flanking[/color] to learn the spell.|U|205979|SPELL|Engrave Pants - Flanking Strike;425762|C|Hunter|RUNE|O|
 
 R Darnassus|AVAILABLE|6344|M|88.20,35.61|Z|1457;Darnassus|N|Return to the road and continue west to Darnassus.|
 A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|1457;Darnassus|N|From Mydrannul.|
@@ -305,12 +316,12 @@ A Back to Darnassus|QID|5931|PRE|5929|M|56.21,30.62|Z|1450;Moonglade|N|From Dend
 H Darnassus|ACTIVE|5931|M|44.15,45.22|Z|1450;Moonglade|N|If your Hearth is on cooldown, take the flight to Rut'theran Village from Silva Fil'naveth and walk into the portal back to Darnassus.|C|Druid|
 T Back to Darnassus|QID|5931|M|35.36,08.39|Z|1457;Darnassus|N|To Mathrengyl Bearwalker.|C|Druid|
 A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|1457;Darnassus|N|From Mathrengyl Bearwalker.|C|Druid|
-= Engrave Gloves - Mangle|M|PLAYER|CC|N|Use the [color=33fff9]Idol of Ursine Rage[/color] after maintaining at least 50 rage for 60 seconds while in Bear form to learn the spell.|U|206954|SPELL|Bear Form;5487;True|C|Druid|S!US|O|
+= Engrave Gloves - Mangle|M|PLAYER|CC|N|Use the [color=33fff9]Idol of Ursine Rage[/color] after maintaining at least 50 rage for 60 seconds while in Bear form to learn the spell.|U|206954|SPELL|Engrave Gloves - Mangle;410025|C|Druid|RUNE|S!US|O|
 
 U Tame a Deer|ACTIVE|6103|N|Use the Deer Musk.\n[color=FF0000]NOTE: [/color]The buff lasts 10 minutes.|U|208607|BUFF|421311|C|Hunter|O|
 C Tame a Deer|ACTIVE|6103|N|Target a deer (critter) and use your Tame Beast ability on it.\n[color=FF0000]NOTE: [/color]If you have a pet already, you'll have to dismiss it first.|T|Deer|C|Hunter|BUFF|-421311|NC|
 N Rune of Carve|ACTIVE|6103|M|39.05,8.86|Z|1457;Darnassus|L|206032|N|While you have your new Deer companion (10 minute timer), speak with Relaeron and he'll reward you with the Rune when you offer him your Deer.\n[color=FF0000]NOTE: [/color]Make sure you have an empty bag slot or you won't get the Rune and have to tame another deer.| ; Need to add BUFF for having deer tamed
-= Engrave Gloves - Carve|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Carve[/color] to learn the spell.|U|206032|SPELL|Engrave Pants - Carve;425758|C|Hunter|O|
+= Engrave Gloves - Carve|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Carve[/color] to learn the spell.|U|206032|SPELL|Engrave Pants - Carve;425758|C|Hunter|RUNE|O|
 
 T Training the Beast|QID|6103|M|40.36,08.59|Z|1457;Darnassus|N|To Jocaste.|C|Hunter|
 = Pet Skills|AVAILABLE|2498|PRE|6103|M|42.47,9.16|Z|1457;Darnassus|N|Walk up the tree, keeping to the left, and learn your pet spells from Silvaria.\n[color=FF0000]NOTE: [/color]Make sure to visit your Pet Trainer every time you visit your class trainer.\n\nManually check this step off to continue.|C|Hunter|
