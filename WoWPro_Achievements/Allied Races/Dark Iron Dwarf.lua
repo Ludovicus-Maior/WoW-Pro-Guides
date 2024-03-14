@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide('Dark Iron Dwarf', 'Achievements', 'Stormwind City', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Dark Iron Dwarf")
 WoWPro:GuideLevels(guide,1, 60)
+WoWPro.Achievements:GuideMisc(guide, "Dark Iron Dwarf", "Allied Races", "Legion")
 WoWPro:GuideSteps(guide, function()
 return [[
 A The MOTHERLODE!!: Ironfoe|QID|53351|M|51.89,14.06|Z|84|N|From Moira Thaurissan.|
