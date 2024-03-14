@@ -26,7 +26,7 @@
 -- URL: http://wow-pro.com/node/3199/revisions/24536/view
 -- Date: 2011-06-08 23:20
 -- Who: Fluclo
--- Log: Shouldn't be a need to grind in Cataclysm, so tweaked to remove any grinding. 
+-- Log: Shouldn't be a need to grind in Cataclysm, so tweaked to remove any grinding.
 
 -- URL: http://wow-pro.com/node/3199/revisions/24512/view
 -- Date: 2011-06-07 10:55
