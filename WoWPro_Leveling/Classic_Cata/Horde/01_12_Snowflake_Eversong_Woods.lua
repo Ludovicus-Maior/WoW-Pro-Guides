@@ -109,14 +109,14 @@
 -- Date: 2011-02-05 14:18
 -- Who: Ludovicus Maior
 -- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
---	
+--
 --	Bug Report: Guide: Eversong Woods Bloodelf - Step: (89/157) Turning in the quest: The Ring Of Mmmrrrggglll. The waypoint arrow shows somewhere in the sea. The  quest NPC is located at these CORRECT coordinates: 30.2,58.5.
 
 -- URL: http://wow-pro.com/node/3207/revisions/24099/view
 -- Date: 2011-02-05 14:12
 -- Who: Ludovicus Maior
 -- Log: Submitted by Grramps on Sat, 2011-02-05 05:34.
---	
+--
 --	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
 
 -- URL: http://wow-pro.com/node/3207/revisions/24069/view

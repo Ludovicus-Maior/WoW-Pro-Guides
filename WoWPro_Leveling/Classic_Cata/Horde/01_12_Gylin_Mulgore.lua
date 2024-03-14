@@ -60,7 +60,7 @@
 -- Date: 2011-01-21 14:32
 -- Who: Ludovicus Maior
 -- Log: This edit looks larger than it is.  There were some weird tabs and spaces in the original.
---	I added |R|Tauren,BloodElf| to various quests not available to goblins.  
+--	I added |R|Tauren,BloodElf| to various quests not available to goblins.
 --	Changes may not be compete, as I have gone off to level my professions.
 
 -- URL: http://wow-pro.com/node/3203/revisions/23661/view

@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3440/revisions/25152/view
 -- Date: 2012-10-22 20:33
 -- Who: Ludovicus Maior
--- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
+-- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25015/view
 -- Date: 2012-06-30 19:28
