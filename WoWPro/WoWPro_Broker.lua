@@ -4257,10 +4257,10 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
 
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     text = "Welcome to WoWPro.\n"
-        .. "For this addon to function, you need to install either: "
-        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n"
-        .. "WoW-Pro's guides won't have their full functionality without one of them!\n"
-        .. "Download it for free from www.wowinterface.com or www.curseforge.com .",
+        .. "For this addon to function, you need to install: "
+        .. "|cffFF9900TomTom|r to supply the arrow.\n"
+        .. "WoW-Pro's guides won't have their full functionality without it!\n"
+        .. "Download it for free from www.curseforge.com .",
     button1 = _G.OKAY,
     whileDead = true,
     hideOnEscape = true,
@@ -4286,20 +4286,14 @@ function WoWPro.LockdownHandler(self, elapsed)
         WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
         if WoWPro.LockdownTimer < 0 then
             if TomTom and TomTom.AddWaypoint then
-                WoWPro:CarboniteProfileHack()
             else
-                WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
+ --               WoWPro:Warning("Waiting for TomTom to init...%s", tostring(WoWPro.LockdownCounter))
                 if WoWPro.LockdownCounter > 0 then
                     WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
                     WoWPro.LockdownTimer = 0.33
                 else
                     -- Warning if the user is missing TomTom --
                     _G.StaticPopup_Show("WOWPRO_MISSING_ARROW")
-                    if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
-                        TomTom = nil
-                        WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
-                            .."do not forget to enable Carbonite\'s TomTom emulation! (Tracking HUD section)")
-                    end
                 end
             end
 
@@ -4321,25 +4315,3 @@ function WoWPro.LockdownHandler(self, elapsed)
     end
 end
 
--- Carbonite - TomTom profile hack Section
-function WoWPro:CarboniteProfileHack()
-    if TomTom and Nx then
-        local tom = TomTom
-
-        if not tom["db"] then
-            tom["db"] = {
-                profile = {
-                    arrow = {
-                        arrival = 10,
-                        setclosest = false,
-                    },
-                    persistence = {
-                        cleardistance = 0,
-                    },
-                },
-            }
-
-            WoWPro:Print("Patched Carbonite's fake TomTom profile")
-        end
-    end
-end
