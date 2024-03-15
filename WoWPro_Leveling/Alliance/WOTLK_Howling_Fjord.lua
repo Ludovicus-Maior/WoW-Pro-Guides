@@ -261,7 +261,7 @@ T Meet Number Two|QID|11480|M|35.4,79.4|Z|117; Howling Fjord|N|To Annie Bonn.|
 A The Jig is Up|QID|11471|PRE|11480|Z|117; Howling Fjord|N|From Annie Bonn.|
 C Swabbin' Soap|QID|11469|Z|117; Howling Fjord|N|Kill Big Roy here and loot Big Roy's Blubber.|M|31.33,78.68|
 C The Jig is Up|QID|11471|Z|117; Howling Fjord|N|Beat "Mad" Jonah Sterling, inside the cave, down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer.|M|33.47,75.09;33.60,78.18|CS|
-C The Frozen Heart of Isuldof|QID|11512|Z|117; Howling Fjord|N|Loot The Frozen Heart of Isuldof from the ground here.|M|32.33,78.67|
+C The Frozen Heart of Isuldof|QID|11512|Z|117; Howling Fjord|N|Loot The Frozen Heart of Isuldof from the ground here.|M|32.33,78.67|NC|
 T The Jig is Up|QID|11471|Z|117; Howling Fjord|N|To Annie Bonn.|M|35.4,79.4|
 C The Ancient Armor of the Kvaldir|QID|11567|Z|117; Howling Fjord|N|Talk to Alanya on the docks outside and click her chat bubble to be flown here. Go into the ship's hold and loot The Ancient Armor of the Kvaldir.|M|36.08,81.60;81.77,73.90|CC|
 F Scalawag Point|QID|11469|Z|117; Howling Fjord|N|Fly back to Scalawag Isle using the flying machine.|M|80.91,75.13|
@@ -307,7 +307,7 @@ A Steel Gate Patrol|QID|11391|PRE|11390|M|30.8,28.6|Z|117; Howling Fjord|N|From 
 C Steel Gate Patrol|QID|11391|Z|117; Howling Fjord|N|Get back in the Flying Machine and kill 8 Garloyles using the abilities you have.|M|30.85,28.17|
 T Steel Gate Patrol|QID|11391|M|30.8,28.6|Z|117; Howling Fjord|N|To Steel Gate Chief Archaeologist.|
 A I'll Try Anything!|QID|11329|M|60.3,18.7|Z|117; Howling Fjord|N|From Christopher Sloan.|
-C I'll Try Anything!|QID|11329|Z|117; Howling Fjord|N|Look for Water Plants in the water and click on them. Kill what spawns until you get 5 Northern Barbfish.|M|63.06,19.10|
+C I'll Try Anything!|QID|11329|Z|117; Howling Fjord|N|Look for Water Plants in the water and click on them. Kill what spawns until you get 5 Northern Barbfish.|M|63.06,19.10|NC|
 T I'll Try Anything!|QID|11329|M|60.3,18.7|Z|117; Howling Fjord|N|To Christopher Sloan.|
 A The One That Got Away|QID|11410|PRE|11329|M|60.3,18.7|Z|117; Howling Fjord|N|From Christopher Sloan.|
 A The Yeti Next Door|QID|11284|M|60.2,15.6|Z|117; Howling Fjord|N|From Foreman Colbey.|
@@ -317,10 +317,10 @@ A The Book of Runes|QID|11346|PRE|11329|M|62.3,17.2|Z|117; Howling Fjord|N|From 
 T Everything Must Be Ready|QID|11406|M|62.6,16.8|Z|117; Howling Fjord|N|To Gil Grisert.|
 A Down to the Wire|QID|11269|M|62.6,16.8|Z|117; Howling Fjord|N|From Gil Grisert.|
 A Preying Upon the Weak|QID|11292|M|62.6,16.8|Z|117; Howling Fjord|N|From Trapper Jethan.|
-A March of the Giants|QID|11355|PRE|11329|Z|117; Howling Fjord|N|From Researcher Aderan.|
+A March of the Giants|QID|11355|PRE|11329|M|62.55,16.54|Z|117; Howling Fjord|N|From Researcher Aderan.|
 C The One That Got Away|QID|11410|U|34013|Z|117; Howling Fjord|N|Use the Fresh Barbfish Bait here to spawn and kill Frostfin.|M|63.90,19.50|
-C Down to the Wire|QID|11269|Z|117; Howling Fjord|N|Loot Spotted Hippogryph Down from the ground.|M|59.1,21|S|
-C Preying Upon the Weak|QID|11292|Z|117; Howling Fjord|N|Click on the traps, you will either get a Trapped Prey, or a Worg may spawn.|S|M|56.9,21.7|
+C Down to the Wire|QID|11269|Z|117; Howling Fjord|N|Loot Spotted Hippogryph Down from the ground.|M|59.1,21|S|NC|
+C Preying Upon the Weak|QID|11292|Z|117; Howling Fjord|N|Click on the traps, you will either get a Trapped Prey, or a Worg may spawn.|S|M|56.9,21.7|NC|
 T The Enigmatic Frost Nymphs|QID|11302|M|61.5,22.8|Z|117; Howling Fjord|N|To Lurielle.|
 A Spirits of the Ice|QID|11313|M|61.5,22.8|Z|117; Howling Fjord|N|From Lurielle.|
 C Spirits of the Ice|QID|11313|Z|117; Howling Fjord|N|Kill Ice Elementals until you get 15 Icy Cores.|M|60.38,23.18|
@@ -333,8 +333,8 @@ l Tough Ram Meat|QID|11284|L|33352 4|Z|117; Howling Fjord|N|Loot 4 Tough Ram Mea
 U Tough Ram Meat|QID|11284|U|33352|L|33477|Z|117; Howling Fjord|N|Combine the 4 Tough Ram Meat to get a Giant Yeti Meal.|M|71.57,13.76|
 T The Book of Runes|QID|11346|M|62.3,17.2|Z|117; Howling Fjord|N|To Prospector Belvar.|
 A Mastering the Runes|QID|11349|PRE|11346|M|62.3,17.2|Z|117; Howling Fjord|N|From Prospector Belvar.|
-T March of the Giants|QID|11355|Z|117; Howling Fjord|N|To Researcher Aderan.|
-A The Lodestone|QID|11358|PRE|11355|Z|117; Howling Fjord|N|From Researcher Aderan.|
+T March of the Giants|QID|11355|M|62.55,16.54|Z|117; Howling Fjord|N|To Researcher Aderan.|
+A The Lodestone|QID|11358|PRE|11355|M|62.55,16.54|Z|117; Howling Fjord|N|From Researcher Aderan.|
 C The Lodestone|QID|11358|U|33819|Z|117; Howling Fjord|N|Use the Rune Sample at the Broken Tablet here and wait for the quest complete message.|M|71.63,17.61|
 C Mastering the Runes|QID|11349|Z|117; Howling Fjord|N|Look for Iron Rune Carving Tools under the canopies in this area and loot them.|M|67.51,23.29|
 R Lake Cauldros|QID|11314|Z|117; Howling Fjord|N|This is an optional step needed for the Exploration Achievement|M|61.11,35.18|RANK|3|
@@ -362,11 +362,11 @@ T Seeds of the Blacksouled Keepers|QID|11319|M|61.5,22.8|Z|117; Howling Fjord|N|
 A Keeper Witherleaf|QID|11428|PRE|11316|M|61.5,22.8|Z|117; Howling Fjord|N|From Lurielle.|
 C Keeper Witherleaf|QID|11428|Z|117; Howling Fjord|N|Kill Keeper Witherleaf in the area.|M|53.82,17.48|
 T Keeper Witherleaf|QID|11428|M|61.5,22.8|Z|117; Howling Fjord|N|To Lurielle.|
-C Down to the Wire|QID|11269|Z|117; Howling Fjord|N|Finish collecting Spotted Hippogryph Downs and Trapped Animals.|M|51.96,20.11|US|
-C Preying Upon the Weak|QID|11292|Z|117; Howling Fjord|N|Finish collecting Trapped Animals.|M|51.96,20.11|US|
-K Binder Murdis|QID|11348|QO|2|Z|117; Howling Fjord|N|Kill Binder Murdis here.|M|71.85,24.56|
+C Down to the Wire|QID|11269|Z|117; Howling Fjord|N|Finish collecting Spotted Hippogryph Downs and Trapped Animals.|M|51.96,20.11|US|NC|
+C Preying Upon the Weak|QID|11292|Z|117; Howling Fjord|N|Finish collecting Trapped Animals.|M|51.96,20.11|US|NC|
+K Binder Murdis|ACTIVE|11348|QO|2|Z|117; Howling Fjord|N|Kill Binder Murdis here.|M|71.85,24.56|T|Binder Murdis|
 C The Rune of Command|QID|11348|QO|1|U|33796|Z|117; Howling Fjord|N|Use the Rune of Command on a Stone Giant nearby.|M|71.96,23.16|
-C Demolishing Megalith|QID|11359|Z|117; Howling Fjord|N|Mount up and find Megalith up here. Kill Megalith.|M|67.94,10.64|
+K Megalith|ACTIVE|11359|QO|1|Z|117; Howling Fjord|N|Mount up and find Megalith up here. Kill Megalith.|M|67.94,10.64|T|Megalith|
 T Demolishing Megalith|QID|11359|Z|117; Howling Fjord|N|To Researcher Aderan.|M|62.57,16.54|
 T The Rune of Command|QID|11348|M|62.3,17.2|Z|117; Howling Fjord|N|To Prospector Belvar.|
 T Preying Upon the Weak|QID|11292|M|62.6,16.8|Z|117; Howling Fjord|N|To Trapper Jethan.|
