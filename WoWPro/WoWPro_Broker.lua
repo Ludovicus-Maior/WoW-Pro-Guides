@@ -4270,7 +4270,6 @@ _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
     end
 }
 
-
 function WoWPro.LockdownHandler(self, elapsed)
     if WoWPro.TrackerTimer ~= nil then
         WoWPro.TrackerTimer = WoWPro.TrackerTimer - elapsed
@@ -4285,8 +4284,8 @@ function WoWPro.LockdownHandler(self, elapsed)
     if WoWPro.LockdownTimer ~= nil then
         WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
         if WoWPro.LockdownTimer < 0 then
-            if TomTom and TomTom.AddWaypoint then
- --               WoWPro:Warning("Waiting for TomTom to init...%s", tostring(WoWPro.LockdownCounter))
+            if not TomTom or not TomTom.AddWaypoint then
+--                WoWPro:Warning("Waiting for TomTom to init...%s", tostring(WoWPro.LockdownCounter))
                 if WoWPro.LockdownCounter > 0 then
                     WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
                     WoWPro.LockdownTimer = 0.33
@@ -4312,5 +4311,4 @@ function WoWPro.LockdownHandler(self, elapsed)
             end
         end
     end
-end
-
+end -- This is the missing 'end' keyword
