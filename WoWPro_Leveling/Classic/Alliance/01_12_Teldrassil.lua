@@ -34,7 +34,7 @@ T Verdant Sigil|QID|3120|M|58.62,40.29|Z|1438;Teldrassil|N|To Mardant Strongoak.
 A Relics of the Kaldorei|QID|77571|M|58.62,40.29|Z|1438;Teldrassil|N|From Mardant Strongoak.|C|DRUID|RUNE|
 = Level 2 Training|ACTIVE|458|M|PLAYER|CC|N|Do your level 2 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|2|
 K The Balance of Nature|QID|457|QO|1;2|M|61.08,34.71|Z|1438;Teldrassil|N|Kill any Mangy Nightsabers and Thistle Boars you come across.\n[color=FF0000]NOTE: [/color]Young Thistle Boars do not count.|S|
-R Ramp|ACTIVE|77573|M|57.64,41.70|CC|Z|1438;Teldrassil|N|Walk outside to the ramp leading up the tree.|SPELL|Engrave Gloves - Shadowstrike;400105C|Rogue|RUNE|
+R Ramp|ACTIVE|77573|M|57.64,41.70|CC|Z|1438;Teldrassil|N|Walk outside to the ramp leading up the tree.|SPELL|Engrave Gloves - Shadowstrike;400105|C|Rogue|RUNE|
 R Owl Figurine|M|59.28,40.57;59.70,42.58|CS|Z|1438;Teldrassil|L|204795|N|Walk up the ramp until you are looking down at the top ridgeline of the roof. After jumping over the edge and onto the right side of the roof, follow the roof down along the right side until you can see the ledge with the owl figurine.|SPELL|Engrave Gloves - Shadowstrike;400105|C|Rogue|RUNE|
 C Rune of Shadowstrike|M|59.68,42.61|Z|1438;Teldrassil|L|204795|N|Click the owl to retrieve the Rune.|SPELL|Engrave Gloves - Shadowstrike;400105|C|Rogue|RUNE|
 = Engrave Gloves - Shadowstrike|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Shadowstrike[/color] to learn the spell.|U|204795|SPELL|Engrave Gloves - Shadowstrike;400105|C|Rogue|RUNE|O|
@@ -378,8 +378,9 @@ L Level 11|ACTIVE|7383|N|Grind until you're within 2 bubbles of level 11.|LVL|10
 
 R Towards Dolanaar|ACTIVE|1683|M|47.23,49.56|CC|Z|1438;Teldrassil|N|Head back to the path towards Dolanaar.|
 R Vorlus Vilehoof|ACTIVE|1683|QO|1|M|49.27,57.38;48.38,60.59|CS|Z|1438;Teldrassil|N|Take a detour to the path leading up to the old moonwell.|C|Warrior|
-K Vorlus Vilehoof|ACTIVE|1683|M|47.22,63.52|Z|1438;Teldrassil|N|Follow the path up and kill him.|C|Warrior|
-R Dolanaar|ACTIVE|7383|M|47.23,49.56;53.94,58.13|CS|Z|1438;Teldrassil|N|Head back to Dolanaar.|
+K Vorlus Vilehoof|ACTIVE|1683|QO|1|M|47.22,63.52|Z|1438;Teldrassil|N|Follow the path up and kill him.|C|Warrior|
+R Dolanaar|ACTIVE|7383|M|47.23,49.56;53.94,58.13|CS|Z|1438;Teldrassil|N|Head back to Dolanaar.|C|-Warrior|
+R Dolanaar|ACTIVE|7383|M|53.94,58.13|CS|Z|1438;Teldrassil|N|Head back to Dolanaar.|C|Warrior|
 r Sell/Repair|ACTIVE|7383|M|56.25,59.25|Z|1438;Teldrassil|N|Sell Junk and Repair.|S!US|
 B Laminated Recurve Bow|AVAILABLE|935|M|55.89,59.20|Z|1438;Teldrassil|L|2507|N|If you can afford it, buy a Laminated Recurve Bow from Jeena Featherbow. It costs 17s51c and the 5.8dps is better than the Crown of Earth reward which only has 3.8 dps.|S|C|Hunter|LVL|11|
 T Crown of the Earth|QID|7383|M|56.15,61.71|Z|1438;Teldrassil|N|To Corithras Moonrage.|
