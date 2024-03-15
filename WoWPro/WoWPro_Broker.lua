@@ -4286,7 +4286,6 @@ function WoWPro.LockdownHandler(self, elapsed)
         WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
         if WoWPro.LockdownTimer < 0 then
             if TomTom and TomTom.AddWaypoint then
-            else
  --               WoWPro:Warning("Waiting for TomTom to init...%s", tostring(WoWPro.LockdownCounter))
                 if WoWPro.LockdownCounter > 0 then
                     WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
