@@ -1,45 +1,4 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
--- Date: 2012-01-23 06:23
--- Who: Crackerhead22
--- Log: Added notes, cords, missing quests, etc.
-
--- URL: http://wow-pro.com/node/3292/revisions/24859/view
--- Date: 2011-12-10 17:12
--- Who: Crackerhead22
--- Log: 4.3 updates
-
--- URL: http://wow-pro.com/node/3292/revisions/24606/view
--- Date: 2011-06-25 02:45
--- Who: Crackerhead22
--- Log: ! Duplicate A step for qid 12205 - Removed duplicate line.
-
--- URL: http://wow-pro.com/node/3292/revisions/24165/view
--- Date: 2011-03-12 18:31
--- Who: Ludovicus Maior
--- Log: Grizz changed ID.
-
--- URL: http://wow-pro.com/node/3292/revisions/23981/view
--- Date: 2011-01-13 01:47
--- Who: brandonh6k
--- Log: Fixed Overload Agmar's location.  It was listing him in the walking around location (which isn't that often), not the sitting on the throne one.
-
--- URL: http://wow-pro.com/node/3292/revisions/23476/view
--- Date: 2010-12-03 22:23
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3292/revisions/23475/view
--- Date: 2010-12-03 22:23
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide("JamDra7375", "Dragonblight", "Jame", "73", "75", "JamGriH7577", "Horde", function()
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 19/6/2009
 return [[
 
 A Into the Fold |QID|11978|M|12.8,48.5|N|From Emissary Brighthoof.|

@@ -1,8 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
 WoWPro.Dailies:RegisterGuide("LudoArgTour", "Icecrown", "Argent Tournament", "Lich", "Ludovicus", "Alliance", function()
 return [[
 N The Argent Tournament|N|Quests for the The Argent Tournament, for your faction, and MAYBE for the others too!|

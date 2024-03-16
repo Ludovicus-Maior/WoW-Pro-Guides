@@ -1,26 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
--- Date: 2012-01-29 10:38
--- Who: Crackerhead22
--- Log: ?
-
--- URL: http://wow-pro.com/node/3236/revisions/23988/view
--- Date: 2011-01-15 04:31
--- Who: Estraile
--- Log: Added missing turn in step for A Curious Bloom quest.
-
--- URL: http://wow-pro.com/node/3236/revisions/23351/view
--- Date: 2010-12-03 10:59
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3236/revisions/23350/view
--- Date: 2010-12-03 10:52
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide('JiySou3035', 'Southern Barrens', 'Jiyambi', '30', '35', 'JiyDus3540', 'Horde', function()
 return [[
 

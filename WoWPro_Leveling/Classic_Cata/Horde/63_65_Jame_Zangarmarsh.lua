@@ -1,30 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_horde
--- Date: 2011-12-14 00:51
--- Who: Crackerhead22
--- Log: ?
-
--- URL: http://wow-pro.com/node/3274/revisions/24835/view
--- Date: 2011-12-04 16:07
--- Who: Crackerhead22
--- Log: 4.3 updates
-
--- URL: http://wow-pro.com/node/3274/revisions/24241/view
--- Date: 2011-04-20 18:59
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3274/revisions/23430/view
--- Date: 2010-12-03 12:13
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3274/revisions/23429/view
--- Date: 2010-12-03 12:13
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide("JamZan6365", "Zangarmarsh", "Jame", "63", "65", "JamTer6567", "Horde", function()
 return [[
 

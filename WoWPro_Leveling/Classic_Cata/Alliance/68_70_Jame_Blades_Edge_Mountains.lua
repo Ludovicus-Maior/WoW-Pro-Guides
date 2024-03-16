@@ -1,59 +1,6 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
--- Date: 2012-09-25 00:57
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3281/revisions/24892/view
--- Date: 2012-01-18 22:09
--- Who: Ludovicus Maior
--- Log: For [The Skyguard Outpost], get from Chu'a'lor not Sky Commander Keller.
-
--- URL: http://wow-pro.com/node/3281/revisions/24847/view
--- Date: 2011-12-08 18:01
--- Who: Crackerhead22
--- Log: 4.3 updates
-
--- URL: http://wow-pro.com/node/3281/revisions/24594/view
--- Date: 2011-06-25 01:21
--- Who: Crackerhead22
--- Log: Fixed QID for "T Bombing Run|QID|11010|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Druid|"
-
--- URL: http://wow-pro.com/node/3281/revisions/24575/view
--- Date: 2011-06-22 02:13
--- Who: Ludovicus Maior
--- Log: # Checking ../WoWPro_Leveling/Alliance/68_70_Jame_Blades_Edge_Mountains.lua
---	! Line 258 for step C has unknown tag [M32.66,37.52U]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
---	! Line 258 for step C has unknown tag [31122]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
-
--- URL: http://wow-pro.com/node/3281/revisions/24574/view
--- Date: 2011-06-21 20:31
--- Who: Crackerhead22
--- Log: Minor Fixes.
-
--- URL: http://wow-pro.com/node/3281/revisions/24308/view
--- Date: 2011-04-29 14:58
--- Who: Ludovicus Maior
--- Log: Line 254 for step A has unknown tag [From Tree Warden Chawn.], Line 257 for step T has unknown tag [To Samia Inkling.], Line 273 for step T has unknown tag [To Tree Warden Chawn.]
-
--- URL: http://wow-pro.com/node/3281/revisions/23833/view
--- Date: 2010-12-27 19:40
--- Who: Crackerhead22
--- Log: Added missing quests, cords, step notes, |QO| tags, sticky steps, quests needed for quest achievement.
-
--- URL: http://wow-pro.com/node/3281/revisions/23451/view
--- Date: 2010-12-03 21:36
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3281/revisions/23450/view
--- Date: 2010-12-03 21:36
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor6872", "Alliance", function()
 return [[
+
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock at your repective faction.|
 F Orebor Harborage|QID|9794|N|Fly to Orebor Harborage.|Z|Shattrath City|M|63.79,41.18|

@@ -1,46 +1,4 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
--- Date: 2012-01-21 04:12
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3288/revisions/24858/view
--- Date: 2011-12-10 16:03
--- Who: Crackerhead22
--- Log: 4.3 update. Plus a couple corrections from aproposknight and Diven that somehow never made it in until now.  o.O
-
--- URL: http://wow-pro.com/node/3288/revisions/24342/view
--- Date: 2011-04-29 16:48
--- Who: Ludovicus Maior
--- Log: Line ** for step * has unknown tag [NOPOI], Line 367 for step C has 3 M coords, Line 552 for step T has 3 M coords.
-
--- URL: http://wow-pro.com/node/3288/revisions/23954/view
--- Date: 2011-01-08 18:40
--- Who: STrek
--- Log: added code:
---	C War is Hell |QID|11270|U|33278|US|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|
---
---	so sticky gets unsticked and quest is completed before the 'turn in' step is presented
-
--- URL: http://wow-pro.com/node/3288/revisions/23826/view
--- Date: 2010-12-25 03:10
--- Who: Crackerhead22
--- Log: Added |US| tag for "C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|"
-
--- URL: http://wow-pro.com/node/3288/revisions/23467/view
--- Date: 2010-12-03 22:09
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3288/revisions/23466/view
--- Date: 2010-12-03 22:09
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide("JamHow7071", "Howling Fjord", "Jame", "70", "71", "JamBor7173", "Horde", function()
---Original guide written/designed by Jame
---Revised by ndlarsen
 return [[
 
 R Vengeance Landing |QID|11270|N|Take the Zeppelin from Undercity.|Z|Tirisfal Glades|M|59.09,59.02|

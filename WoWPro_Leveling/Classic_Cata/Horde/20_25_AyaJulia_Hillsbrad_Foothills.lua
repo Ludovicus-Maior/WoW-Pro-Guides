@@ -1,37 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
--- Date: 2011-06-25 01:44
--- Who: Crackerhead22
--- Log: ! Duplicate T step for qid 28325 - Removed line.
---	! Duplicate T step for qid 28330 - Removed line.
---	! Duplicate T step for qid 28324 - Removed line.
-
--- URL: http://wow-pro.com/node/3223/revisions/24084/view
--- Date: 2011-01-30 19:33
--- Who: Ludovicus Maior
--- Log: Corrected RegisterGuide to match GIT.
-
--- URL: http://wow-pro.com/node/3223/revisions/23831/view
--- Date: 2010-12-26 06:52
--- Who: Crackerhead22
--- Log: Added steps for the missing quest "Preemptive Strike".
-
--- URL: http://wow-pro.com/node/3223/revisions/23617/view
--- Date: 2010-12-05 23:13
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3223/revisions/23316/view
--- Date: 2010-12-03 07:39
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3223/revisions/23315/view
--- Date: 2010-12-03 07:38
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide('AyaHil2025', 'Hillsbrad Foothills', 'Shanyn', '20', '25', 'JiyAra2530', 'Horde', function()
 return [[
 

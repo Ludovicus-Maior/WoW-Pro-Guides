@@ -1,25 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
--- Date: 2011-06-01 00:52
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3230/revisions/24478/view
--- Date: 2011-06-01 00:51
--- Who: Crackerhead22
--- Log: Removed "Z|Crypt|" as it was unneeded.
-
--- URL: http://wow-pro.com/node/3230/revisions/23336/view
--- Date: 2010-12-03 10:09
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3230/revisions/23335/view
--- Date: 2010-12-03 10:08
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide('JiyAra2530', 'Arathi Highlands', 'Jiyambi', '25', '30', 'JiyHin3035', 'Horde', function()
 return [[
 

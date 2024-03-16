@@ -1,31 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
--- Date: 2011-06-12 21:34
--- Who: Crackerhead22
--- Log: Minor fixes.
-
--- URL: http://wow-pro.com/node/3243/revisions/24418/view
--- Date: 2011-05-25 02:26
--- Who: Crackerhead22
--- Log: Added notes, added cords, fixed cords, fixed notes, added 1 or 2 sticky steps. Added in Thousand Needles breadcrumb accept. Condensed code.
-
--- URL: http://wow-pro.com/node/3243/revisions/23958/view
--- Date: 2011-01-09 00:23
--- Who: kayeich
--- Log: Removed Dire Maul quests
-
--- URL: http://wow-pro.com/node/3243/revisions/23367/view
--- Date: 2010-12-03 11:21
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3243/revisions/23366/view
--- Date: 2010-12-03 11:20
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
 return [[
 

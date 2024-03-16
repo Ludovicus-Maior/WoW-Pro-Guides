@@ -1,8 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
 -- Date: 2012-10-24 03:29
 -- Who: Ludovicus Maior

@@ -1,36 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_horde
--- Date: 2012-01-03 10:40
--- Who: Crackerhead22
--- Log: Added missing notes, cords.  Added a couple sticky steps.
-
--- URL: http://wow-pro.com/node/3278/revisions/24837/view
--- Date: 2011-12-05 13:29
--- Who: Crackerhead22
--- Log: Combined Aldor and Scryers guides, 4.3 updates
-
--- URL: http://wow-pro.com/node/3278/revisions/24143/view
--- Date: 2011-03-05 23:50
--- Who: Ludovicus Maior
--- Log: Duplicated for the other faction [Vengeful Souls]
-
--- URL: http://wow-pro.com/node/3278/revisions/24142/view
--- Date: 2011-03-05 23:48
--- Who: Ludovicus Maior
--- Log: Corrected [Vengeful Souls] as per Josral and added some coords.
-
--- URL: http://wow-pro.com/node/3278/revisions/23444/view
--- Date: 2010-12-03 21:31
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3278/revisions/23443/view
--- Date: 2010-12-03 21:30
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide("JamTer6567", "Terokkar Forest", "Jame", "65", "67", "JamNag6769", "Horde", function()
 return [[
 

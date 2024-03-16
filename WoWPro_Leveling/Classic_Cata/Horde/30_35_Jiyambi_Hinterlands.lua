@@ -1,16 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
--- Date: 2010-12-03 11:14
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3240/revisions/23360/view
--- Date: 2010-12-03 11:13
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide('JiyHin3035', 'The Hinterlands', 'Jiyambi', '30', '35', 'JiyWes3540', 'Horde', function()
 return [[
 

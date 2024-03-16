@@ -1,38 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
--- Date: 2011-06-25 01:53
--- Who: Crackerhead22
--- Log: ! Missing A step for step C qid 28233 - Fixed, C step was wrong QID.
---	! Duplicate A step for qid 28455 - Removed line.
-
--- URL: http://wow-pro.com/node/3266/revisions/24288/view
--- Date: 2011-04-28 22:32
--- Who: Chrisser000
-
--- URL: http://wow-pro.com/node/3266/revisions/24287/view
--- Date: 2011-04-28 22:02
--- Who: Chrisser000
-
--- URL: http://wow-pro.com/node/3266/revisions/23620/view
--- Date: 2010-12-06 02:08
--- Who: Liavan
-
--- URL: http://wow-pro.com/node/3266/revisions/23619/view
--- Date: 2010-12-06 01:43
--- Who: Liavan
-
--- URL: http://wow-pro.com/node/3266/revisions/23414/view
--- Date: 2010-12-03 11:59
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3266/revisions/23413/view
--- Date: 2010-12-03 11:59
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide('LiaBur5052', 'Burning Steppes', 'Liavan', '50', '52', 'LiaSwa5255', 'Horde', function()
 return [[
 

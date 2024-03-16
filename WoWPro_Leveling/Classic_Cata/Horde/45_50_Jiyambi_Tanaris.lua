@@ -1,26 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
--- Date: 2012-02-11 19:47
--- Who: Crackerhead22
--- Log: ?
-
--- URL: http://wow-pro.com/node/3260/revisions/24352/view
--- Date: 2011-04-29 18:11
--- Who: Ludovicus Maior
--- Log:  Line 150 for step C Bad coord In the center of the desert:
-
--- URL: http://wow-pro.com/node/3260/revisions/23402/view
--- Date: 2010-12-03 11:49
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3260/revisions/23401/view
--- Date: 2010-12-03 11:49
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide('JiyTan4550', 'Tanaris', 'Jiyambi', '45', '50', 'JiyUng5055', 'Horde', function()
 return [[
 

@@ -1,27 +1,6 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
--- Date: 2011-04-29 17:06
--- Who: Ludovicus Maior
--- Log: Line 103 for step C Bad coord , Line 315 for step T has 3 M coords, Line 412 for step C Bad coord 1 at a ti, Line 519 for step C Bad coord  .....
-
--- URL: http://wow-pro.com/node/3302/revisions/24209/view
--- Date: 2011-04-05 23:13
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3302/revisions/23496/view
--- Date: 2010-12-03 22:43
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3302/revisions/23495/view
--- Date: 2010-12-03 22:37
--- Who: Jiyambi
-
 WoWPro.Leveling:RegisterGuide("ScoIce8080", "Icecrown", "Scoot", "78", "80", "AriVasH8082", "Horde", function()
 return [[
+
 N Icecrown: The Final Goal |QID|13164| |N|This is the hardest Zone Achievement to get in Northrend. You will have to do 12 group quests to complete it and finding groups for them is almost impossible, since the Tournament came out. Get help form your Guild or other friends. Depending on your class, gear and skill level you may be able to solo some or all of them. It is optional to pick up the first quest in each chain when they become available (I suggest you do), but at least you will know where they are. You can wait until the end to do them if you want. The turn in steps are at the end. Read Lightheaded for strategies.|
 N Dalaran |QID|13419| |N|Krasus' Landing in Dalaran. Get there however you want.| |Z|Dalaran|
 
