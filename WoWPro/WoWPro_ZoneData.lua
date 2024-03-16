@@ -6,8 +6,9 @@ local DefineZone = WoWPro.DefineZone  -- While we patch up the guides for 8.0
 local DefineZone1 = WoWPro.DefineZone1 -- New Classic style names
 local DefineZone2 = WoWPro.DefineZone2 -- New Classic BC
 local DefineZone3 = WoWPro.DefineZone3 -- New Classic Wrath
+local DefineZone4 = WoWPro.DefineZone3 -- New Classic Cata
 local DefineZone9 = WoWPro.DefineZone9 -- New 9.0 zones names
-local DefineZone10 = WoWPro.DefineZone10 -- New 9.0 zones names
+local DefineZone10 = WoWPro.DefineZone10 -- New 10.0 zones names
 
 local UIMapType = _G.Enum.UIMapType
 DefineZone1(0947, "Azeroth", UIMapType.World, 0000, nil, 1414, 1415, 1459, 1460, 1461)
