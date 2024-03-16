@@ -11,6 +11,6 @@ WoWPro_WorldEvents.lua
 WoWPro_WorldEvents_Parser.lua
 WoWPro_WorldEvents_Config.lua
 WoWPro_WorldEvents_GuideList.lua
-Alliance\Classic_Wrath\Guides.xml
-Neutral\Classic_Wrath\Guides.xml
-Horde\Classic_Wrath\Guides.xml
+Wrath\Alliance\Guides.xml
+Wrath\Neutral\Guides.xml
+Wrath\Horde\Guides.xml
