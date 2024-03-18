@@ -1,5 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="01_05_Bitsem_Echo_Isles.lua"/>
+  <Script file="CATA_INTRO_Troll.lua"/>
   <Script file="CATA_INTRO_Orc.lua"/>
   <Script file="01_05_Malorajan_Kezan.lua"/>
   <Script file="01_12_Gylin_Mulgore.lua"/>
