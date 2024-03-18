@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "J
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Borean Tundra")
 WoWPro:GuideName(guide,"Borean Tundra")
-WoWPro:GuideNextGuide(guide, "Dragonblight")
+WoWPro:GuideNextGuide(guide, "Howling Fjord")
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
@@ -129,7 +129,8 @@ A The Tides Turn|QID|11968|PRE|11961|Z|114; Borean Tundra|N|From Elder Muahit.|M
 C The Tides Turn|QID|11968|Z|114; Borean Tundra|N|Kill Heigarr the Horrible.|M|67.5,56.7|
 T The Tides Turn|QID|11968|Z|114; Borean Tundra|N|To Elder Muahit.|M|67.21,54.84|
 A Travel to Moa'ki Harbor|QID|12117|LEAD|11958|PRE|11968|Z|114; Borean Tundra|N|From Hotawa.|M|67.27,54.87|
-r Sell junk, repair and re-stock food/drink in Unu'pe.|QID|12117|M|77.91,52.51|
+r Sell junk, repair and re-stock food/drink in Unu'pe.|QID|12117|M|77.91,52.51|Z|114; Borean Tundra|
+f Unu'pe|ACTIVE|12117|M|78.49,51.50|Z|114; Borean Tundra|N|Grab the flight path from Bilko Driftspark.|
 A The Honored Ancestors|QID|11605|Z|114; Borean Tundra|N|Folow the Road north until you see a large tuskarr statue called "Elder Atkanok" on the left side of the path. The Elder offers this quest.|M|54.69,35.69|
 A Reclaiming the Quarry|QID|11612|Z|114; Borean Tundra|N|From Etaruk on the ledge above Elder Atkanok.|M|54.3,36.1|
 C Reclaiming the Quarry|QID|11612|Z|114; Borean Tundra|N|Kill Beryl Treasure Hunters.|S|
