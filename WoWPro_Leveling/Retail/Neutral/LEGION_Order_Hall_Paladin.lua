@@ -108,12 +108,12 @@ T Seeker of Truth|QID|42000|M|73.97,49.13|Z|Dalaran@Dalaran70|N|To Orik Truehear
 A To Northrend|QID|42002|M|73.97,49.13|Z|Dalaran@Dalaran70|N|From Orik Trueheart.|PRE|42000|
 R Chamber of the Guardian|QID|42002|QO|1|M|49.41,47.45|Z|Dalaran@Dalaran70|N|Enter the Chamber of the Guardian, step on the teleport pad and then run down the stairs, until you see the Dalaran Crater portal.|ACTIVE|42002|
 C To Northrend|QID|42002|CS|QO|1|M|30.76,84.30|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Wyrmrest Temple. Travel to Howling Fjord by your preferred method.|
-C To Northrend|QID|42002|QO|2|M|56.76,78.51|Z|Howling Fjord|N|Find Orik Trueheart at Shield Hill.|NC|
-T To Northrend|QID|42002|M|56.89,78.68|Z|Howling Fjord|N|To Orik Trueheart.|
-A The End of the Saga|QID|42005|M|56.89,78.68|Z|Howling Fjord|N|From Orik Trueheart.|PRE|42002|
-C The End of the Saga|QID|42005|QO|1|M|56.89,78.74|Z|Howling Fjord|N|Speak with Tahu Sagewind|CHAT|
-C The End of the Saga|QID|42005|QO|2|M|62.21,82.19|Z|Howling Fjord|N|Go to each of the highlighted graves until you find the hero's grave.|
-C The End of the Saga|QID|42005|NC|U|140192|QO|3|M|62.21,82.19|Z|Howling Fjord|N|Listen to the Dialog.  After it completes you can use your Dalaran Hearthstone to return.|
+C To Northrend|QID|42002|QO|2|M|56.76,78.51|Z|117; Howling Fjord|N|Find Orik Trueheart at Shield Hill.|NC|
+T To Northrend|QID|42002|M|56.89,78.68|Z|117; Howling Fjord|N|To Orik Trueheart.|
+A The End of the Saga|QID|42005|M|56.89,78.68|Z|117; Howling Fjord|N|From Orik Trueheart.|PRE|42002|
+C The End of the Saga|QID|42005|QO|1|M|56.89,78.74|Z|117; Howling Fjord|N|Speak with Tahu Sagewind|CHAT|
+C The End of the Saga|QID|42005|QO|2|M|62.21,82.19|Z|117; Howling Fjord|N|Go to each of the highlighted graves until you find the hero's grave.|
+C The End of the Saga|QID|42005|NC|U|140192|QO|3|M|62.21,82.19|Z|117; Howling Fjord|N|Listen to the Dialog.  After it completes you can use your Dalaran Hearthstone to return.|
 T The End of the Saga|QID|42005|M|72.55,50.47|Z|Dalaran@Dalaran70|N|To Orik Trueheart at Krasus Landing.|
 A Shrine of the Truthguard|QID|42017|M|72.55,50.47|Z|Dalaran@Dalaran70|N|From Orik Trueheart.|PRE|42005|
 C Shrine of the Truthguard|QID|42017|NC|QO|1|M|72.21,50.44|Z|Dalaran@Dalaran70|N|Take the Argent Hippogryph to Stormheim.|
