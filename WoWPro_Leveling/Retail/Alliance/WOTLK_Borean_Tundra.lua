@@ -172,10 +172,10 @@ A Master and Servant|QID|11730|PRE|11729|Z|114; Borean Tundra|N|From Crafty Wobb
 A Dirty, Stinkin' Snobolds!|QID|11645|Z|114; Borean Tundra|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A What's the Matter with the Transmatter?|QID|11710|PRE|11708|Z|114; Borean Tundra|N|From Mordle Cogspinner.|M|57.51,18.61|
 A King Mrgl-Mrgl|QID|11704|PRE|11708|Z|114; Borean Tundra|N|From Mordle Cogspinner|M|57.51,18.61|
-C Crafty's Stuff|QID|11645|M|58,15|S|Z|114; Borean Tundra|N|Loot crates that you see.|
+C Crafty's Stuff|QID|11645|M|58,15|S|Z|114; Borean Tundra|N|Loot crates that you see.|NC|
 A Get Me Outa Here!|QID|11673|Z|114; Borean Tundra|N|Jump down the hole here and try to land in the water so you don't die. From the gnome nearby, get this escort quest.|M|55.57,12.59|
 C Get Me Outa Here!|QID|11673|Z|114; Borean Tundra|N|Continue collecting Crafty's Stuff as needed while escorting the Gnome out.|M|55.6,12.6|
-C Crafty's Stuff|QID|11645|M|58,15|US|Z|114; Borean Tundra|N|Finishing getting any crates that you need.|
+C Crafty's Stuff|QID|11645|M|58,15|US|Z|114; Borean Tundra|N|Finishing getting any crates that you need.|NC|
 T Get Me Outa Here!|QID|11673|Z|114; Borean Tundra|N|To Fizzcrank Fullthrottle in the inn on the second floor at Fizzcrank Airstrip.|M|57.03,18.71|
 T Dirty, Stinkin' Snobolds!|QID|11645|Z|114; Borean Tundra|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A Just a Few More Things...|QID|11650|PRE|11645|Z|114; Borean Tundra|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
@@ -201,7 +201,7 @@ C A Little Bit of Spice|QID|11726|Z|114; Borean Tundra|N|Kill gorlocs here until
 T The Son of Karkut|QID|12086|Z|114; Borean Tundra|N|To Corporal Venn at Death's Stand.|M|82.02,46.42|
 A Surrounded!|QID|11944|PRE|12086|Z|114; Borean Tundra|N|From Corporal Venn.|M|82.02,46.42|
 C Surrounded!|QID|11944|M|81.47,42.49|Z|114; Borean Tundra|N|Kill Ziggurat Defenders.|S|
-l Rocknar's Grit|QID|11650|QO|3|Z|114; Borean Tundra|N|Kill Rocknar and loot A Handful of Rocknar's Grit. Mages should be careful because he is immune to all frost spells.|
+l Rocknar's Grit|QID|11650|QO|3|M|81.29,42.96|Z|114; Borean Tundra|N|Kill Rocknar and loot A Handful of Rocknar's Grit. Mages should be careful because he is immune to all frost spells.|
 C Surrounded!|QID|11944|M|81.47,42.49|Z|114; Borean Tundra|N|Kill Ziggurat Defenders.|US|
 T Surrounded!|QID|11944|Z|114; Borean Tundra|N|To Corporal Venn.|M|82.02,46.42|
 A Thassarian, the Death Knight|QID|12088|PRE|11944|Z|114; Borean Tundra|N|From Corporal Venn.|M|82.02,46.42|
