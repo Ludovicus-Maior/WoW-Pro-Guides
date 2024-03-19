@@ -287,7 +287,7 @@ T Parts for the Job |QID|11309|N|To "Hacksaw" Jenny.|
 A Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|From "Hacksaw" Jenny.|PRE|11309|
 A To Venomspite!|QID|12182|PRE|12181|M|52.03,67.38|N|This will take you to Dragonblight. Accept it to get the flightpoint there.|
 f Venomspite|QID|12182|M|76.52,62.23|N|Get the flightpoint at Junter Weiss.|
-T To Venomspite!|QID|12182|M|77.68,62.78|N|To Chief Plaguebringer Middleton.|Z|Dragonblight|
+T To Venomspite!|QID|12182|M|77.68,62.78|N|To Chief Plaguebringer Middleton.|Z|115; Dragonblight|
 H Camp Winterhoof |QID|11267|N|Hearth to Camp Winterhoof.|
 T The Frost Wyrm and its Master |QID|11267|N|To Celea Frozenmane.|M|49.6,11.6|
 T Sleeping Giants |QID|11433|N|To Ahota Whitefrost.|M|48.38,11.04|
@@ -390,7 +390,7 @@ T A Return to Resting |QID|11568|M|40.3,60.3|N|To Orfus of Kamagua.|
 A Return to Atuik |QID|11572|PRE|11568|M|40.3,60.3|N|From Orfus of Kamagua.|
 T Return to Atuik |QID|11572|M|25.0,57.0|N|To Elder Atuik.|
 b Moa'ki Harbor |QID|12118|N|Take the turtle to Moa'ki Harbor. This takes a bit.|M|23.55,57.79|
-T Travel to Moa'ki Harbor |QID|12118|M|48.03,74.86|N|To Elder Ko'nani.|Z|Dragonblight|
-F Warsong Hold |QID|12118|N|Fly to Warsong Hold. If you want to do Borean Tundra Next.|M|48.51,74.41|Z|Dragonblight|
+T Travel to Moa'ki Harbor |QID|12118|M|48.03,74.86|N|To Elder Ko'nani.|Z|115; Dragonblight|
+F Warsong Hold |QID|12118|N|Fly to Warsong Hold. If you want to do Borean Tundra Next.|M|48.51,74.41|Z|115; Dragonblight|
 ]]
 end)

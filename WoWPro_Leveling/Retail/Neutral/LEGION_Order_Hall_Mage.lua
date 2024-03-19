@@ -220,13 +220,13 @@ T Aluneth, Greatstaff of the Magna|QID|42001|M|28.69,49.94|Z|Dalaran!Dalaran!Dun
 A A New Threat|QID|42006|M|28.69,49.94|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kalec.|PRE|42001|
 R Chamber of the Guardians|QID|42006|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|ACTIVE|42006|
 C A New Threat|QID|42006|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|QO|1|N|Optional - Use the Dalaran Portal to Wrymrest Temple.|
-C A New Threat|QID|42006|M|55.74,63.89|Z|Dragonblight|QO|2|N|Travel to the Azure Dragonshrine|
-C A New Threat|QID|42006|M|56.57,67.86;56.2,66.47;55.92,64.85|Z|Dragonblight|CN|QO|3|N|Find the 3 Clues.|
-T A New Threat|QID|42006|M|56.67,69.13|Z|Dragonblight|N|To Ethereal Communication Device.|
-A A Forgotten Enemy|QID|42007|M|56.67,69.13|Z|Dragonblight|N|From Ethereal Communication Device.|PRE|42006|
-C A Forgotten Enemy|QID|42007|M|56.67,69.15|Z|Dragonblight|QO|1|N|Click the glowing lever to activate the communication device.|
-T A Forgotten Enemy|QID|42007|M|56.69,69.12|Z|Dragonblight|N|To UI Alert.|
-A Eyes of the Dragon|QID|42008|M|56.69,69.12|Z|Dragonblight|N|From UI Alert.|PRE|42007|
+C A New Threat|QID|42006|M|55.74,63.89|Z|115; Dragonblight|QO|2|N|Travel to the Azure Dragonshrine|
+C A New Threat|QID|42006|M|56.57,67.86;56.2,66.47;55.92,64.85|Z|115; Dragonblight|CN|QO|3|N|Find the 3 Clues.|
+T A New Threat|QID|42006|M|56.67,69.13|Z|115; Dragonblight|N|To Ethereal Communication Device.|
+A A Forgotten Enemy|QID|42007|M|56.67,69.13|Z|115; Dragonblight|N|From Ethereal Communication Device.|PRE|42006|
+C A Forgotten Enemy|QID|42007|M|56.67,69.15|Z|115; Dragonblight|QO|1|N|Click the glowing lever to activate the communication device.|
+T A Forgotten Enemy|QID|42007|M|56.69,69.12|Z|115; Dragonblight|N|To UI Alert.|
+A Eyes of the Dragon|QID|42008|M|56.69,69.12|Z|115; Dragonblight|N|From UI Alert.|PRE|42007|
 F Coldarra|QID|42008|M|35,27|N|Fly to Coldarra in Borean Tundra.|ACTIVE|42008|
 C Eyes of the Dragon|QID|42008|M|29.32,26.68|Z|114; Borean Tundra|QO|1|NC|N|Nexus spire scouted|
 C Eyes of the Dragon|QID|42008|M|32.21,27.83|Z|114; Borean Tundra|QO|2|NC|N|Surge Needle scouted|
