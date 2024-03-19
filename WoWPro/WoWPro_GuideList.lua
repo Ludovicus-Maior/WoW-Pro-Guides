@@ -102,24 +102,35 @@ local function Tab_OnClick(self, button)
 end
 
 function WoWPro.CreateGuideList()
-    local frame = _G.CreateFrame("Frame", "WoWPro_GuideList", _G.InterfaceOptionsFramePanelContainer)
+    local frame = _G.CreateFrame("Frame", "WoWPro_GuideList", _G.UIParent, "BackdropTemplate")
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
+    frame:SetSize(625, 625)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, -15)
+    local texture = frame:CreateTexture(nil, "BACKGROUND")
+    texture:SetAllPoints(true)
+    texture:SetColorTexture(0, 0, 0, 0.6)
+    frame:SetBackdropColor(0, 0, 0, 0.6)
     frame.okay = function () return true; end
     frame.default = function () return true; end
     frame.refresh =  function () return true; end
     frame:Hide()
     WoWPro.GuideList = frame
 
+    -- Add the frame to the special frames list
+    _G.table.insert(_G.UISpecialFrames, frame:GetName())
+
     local title, subtitle = WoWPro:CreateHeading(frame, L["Guide List"], L["Use the tabs to look at different guide types. "
         .."\nUse the scroll bar (or scroll wheel) to see all the guides. Click to select a guide and load it. "
         .."\nSHIFT+click a guide to reset it and then load it."])
+    title:SetJustifyH("CENTER")
+    subtitle:SetJustifyH("CENTER")
     frame.title = title
     frame.subtitle = subtitle
 
 
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
-    scrollBox:SetPoint("TOPLEFT", frame, 10, -130)
+    scrollBox:SetPoint("TOPLEFT", frame, 20, -130)
     scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
     _G.Mixin(scrollBox, GuideListMixin)
     frame.scrollBox = scrollBox
