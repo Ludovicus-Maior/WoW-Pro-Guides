@@ -559,9 +559,9 @@ T Monitoring the Rift: Winterfin Cavern |QID|12728|M|45.0,33.4|N|To Librarian Ga
 F Taunka'le Village |QID|11930|N|Fly to Taunka'le Village.|M|45.2,34.3|
 T The Fall of Taunka'le Village |QID|11929|N|To Mother Tauranook.|
 A Across Transborea |QID|11930|PRE|11929|N|From Mother Tauranook.|
-C Across Transborea |QID|11930|N|Mount up and ride east along the road, don't lose the evacuee. At some point, he'll stop to read smoke signals, then sprint off. Follow him and he'll lead you to the quest turn-in NPC. |Z|Dragonblight|M|10.7,53.8|
-T Across Transborea |QID|11930|N|To Wartook Iceborn.|M|12.76,51.68|Z|Dragonblight|
-A A Tauren Among Taunka |QID|11977|PRE|11930|N|From Wartook Iceborn.|M|12.76,51.68|Z|Dragonblight|
-T A Tauren Among Taunka |QID|11977|N|To Emissary Brighthoof in Westwind Refugee Camp, she wanders around a bit.|M|13,49|Z|Dragonblight|
+C Across Transborea |QID|11930|N|Mount up and ride east along the road, don't lose the evacuee. At some point, he'll stop to read smoke signals, then sprint off. Follow him and he'll lead you to the quest turn-in NPC. |Z|115; Dragonblight|M|10.7,53.8|
+T Across Transborea |QID|11930|N|To Wartook Iceborn.|M|12.76,51.68|Z|115; Dragonblight|
+A A Tauren Among Taunka |QID|11977|PRE|11930|N|From Wartook Iceborn.|M|12.76,51.68|Z|115; Dragonblight|
+T A Tauren Among Taunka |QID|11977|N|To Emissary Brighthoof in Westwind Refugee Camp, she wanders around a bit.|M|13,49|Z|115; Dragonblight|
 ]]
 end)

@@ -70,12 +70,12 @@ T The Mysterious Paladin|QID|42231|M|71.99,49.23|Z|Dalaran@Dalaran70|N|To Travar
 A The Brother's Trail|QID|42377|M|71.99,49.23|Z|Dalaran@Dalaran70|N|From Travard.|PRE|42231|
 R Chamber of the Guardian|QID|42377|M|49.40,47.40|Z|Dalaran@Dalaran70|N|Into the Chamber of the Guardians, step on the teleport pad, (where the statue in the middle of Dalaran used to be).|ACTIVE|42377|
 C The Brother's Trail|QID|42377|QO|1|M|30.34,85.10|Z|Aegwynn's Gallery@Dalaran70|NC|N|Run straight forward, down the stairs to the Wyrmrest Temple portal.|
-C The Brother's Trail|QID|42377|QO|2|M|59.95,53.08|Z|Dragonblight|CHAT|N|Speak with Lanigosa.|
-C The Brother's Trail|QID|42377|QO|3|M|56.64,39.07;56.41,34.49;56.27,27.07|CS|Z|Dragonblight|N|Fly over towards Galakond's rest and click on the campfire for your first clue, continue following the waypoints and checking the clues until the step completes.|
-C The Brother's Trail|QID|42377|QO|4|M|61.10,37.66|Z|Dragonblight|NC|N|Fly over to the chasm on the Path of Giants.|
-C The Brother's Trail|QID|42377|QO|5|M|61.08,37.95|Z|Dragonblight|CHAT|N|Speak with Lanigosa.|
-C The Brother's Trail|QID|42377|QO|6|M|61.25,37.93|Z|Dragonblight|N|Defeat Jotun.|
-C The Brother's Trail|QID|42377|QO|7|M|61.17,38.15|Z|Dragonblight|NC|N|Take the Spark of Tyr.|
+C The Brother's Trail|QID|42377|QO|2|M|59.95,53.08|Z|115; Dragonblight|CHAT|N|Speak with Lanigosa.|
+C The Brother's Trail|QID|42377|QO|3|M|56.64,39.07;56.41,34.49;56.27,27.07|CS|Z|115; Dragonblight|N|Fly over towards Galakond's rest and click on the campfire for your first clue, continue following the waypoints and checking the clues until the step completes.|
+C The Brother's Trail|QID|42377|QO|4|M|61.10,37.66|Z|115; Dragonblight|NC|N|Fly over to the chasm on the Path of Giants.|
+C The Brother's Trail|QID|42377|QO|5|M|61.08,37.95|Z|115; Dragonblight|CHAT|N|Speak with Lanigosa.|
+C The Brother's Trail|QID|42377|QO|6|M|61.25,37.93|Z|115; Dragonblight|N|Defeat Jotun.|
+C The Brother's Trail|QID|42377|QO|7|M|61.17,38.15|Z|115; Dragonblight|NC|N|Take the Spark of Tyr.|
 C The Brother's Trail|QID|42377|QO|9|M|79.20,46.09|Z|Dalaran@Dalaran70|N|(Optional) Click on Lanigosa if you want to accept her offer of a ride to Dalaran. Otherwise return to Dalaran some other way.|NC|
 T The Brother's Trail|QID|42377|M|72.04,49.33|Z|Dalaran@Dalaran70|N|To Travard.|
 A The Silver Hand|QID|42120|M|72.04,49.33|Z|Dalaran@Dalaran70|N|From Travard.|PRE|42377|

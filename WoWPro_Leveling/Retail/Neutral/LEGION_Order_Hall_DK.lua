@@ -415,10 +415,10 @@ R Icecrown|QID|46720|N|Travel by your choice of methods to Northern Icecrown. Ea
 C Frozen Memories|QID|46720|M|44.70,4.40|Z|Icecrown|QO|3|NC|N|Land on an iceburg, north of The Shadow Vault and witness the Lich King's vision.|
 T Frozen Memories|QID|46720|M|44.70,4.40|Z|Icecrown|N|To UI Alert|
 A Draconic Secrets|QID|46812|M|44.70,4.40|Z|Icecrown|N|From UI Alert.|PRE|46720|
-F Wyrmrest Temple|QID|46812|M|59.56,51.76|Z|Dragonblight|N|Fly to the Wyrmrest Temple to follow the Lich King's plan.|ACTIVE|46812|
-C Draconic Secrets|QID|46812|M|60.31,54.84|Z|Dragonblight|QO|1|CHAT|N|Trizormu can be found on the ground floor inside Wyrmrest Temple.|
-C Draconic Secrets|QID|46812|M|57.91,54.16|Z|Dragonblight|QO|2|CHAT|N|Steward Tariolstrasz can be found at the top of the steps just outside Wyrmrest Temple.|
-C Draconic Secrets|QID|46812|M|59.54,50.69;61.27,52.68|Z|Dragonblight|CS|QO|3|NC|N|The Ruby Sanctum entrance is underneath the Wyrmrest Temple.|
+F Wyrmrest Temple|QID|46812|M|59.56,51.76|Z|115; Dragonblight|N|Fly to the Wyrmrest Temple to follow the Lich King's plan.|ACTIVE|46812|
+C Draconic Secrets|QID|46812|M|60.31,54.84|Z|115; Dragonblight|QO|1|CHAT|N|Trizormu can be found on the ground floor inside Wyrmrest Temple.|
+C Draconic Secrets|QID|46812|M|57.91,54.16|Z|115; Dragonblight|QO|2|CHAT|N|Steward Tariolstrasz can be found at the top of the steps just outside Wyrmrest Temple.|
+C Draconic Secrets|QID|46812|M|59.54,50.69;61.27,52.68|Z|115; Dragonblight|CS|QO|3|NC|N|The Ruby Sanctum entrance is underneath the Wyrmrest Temple.|
 C Draconic Secrets|QID|46812|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|QO|4|NC|N|You can circle around the sleeping Vyrastrasza, to find the codex and read it.|
 T Draconic Secrets|QID|46812|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|N|To UI Alert.|
 A The Lost Glacier|QID|46813|M|47.88,77.28|Z|TheRubySanctumDKMountScenario|N|From UI Alert.|PRE|46813|
