@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N You silly Death Knight|AVAILABLE|24764&24776&24750&24782&24770&24758&26272&24607|N|Do not bother with this zone.  There are no quests for YOU.|C|DeathKnight|
-A The Rise of the Darkspear|QID|24764^24776^24750^24782^24770^24758^26272^24607|M|62.43,84.53|N|From Jin'thala.|
+A The Rise of the Darkspear|QID|24764^24776^24750^24782^24770^24758^26272^24607|M|62.43,84.53|N|From Jin'thala.|R|Troll|
 T The Rise of the Darkspear|QID|24764|M|67.69,84.69|N|To Zen'tabra.|C|Druid|
 T The Rise of the Darkspear|QID|24776|M|67.09,83.30|N|To Ortezza.|C|Hunter|
 T The Rise of the Darkspear|QID|24750|M|68.22,83.99|N|To Soratha.|C|Mage|
@@ -21,13 +21,12 @@ A The Basics: Hitting Things|QID|24765|PRE|24764|M|67.69,84.69|N|From Zen'tabra.
 A The Basics: Hitting Things|QID|24777|PRE|24776|M|67.09,83.30|N|From Ortezza.|C|Hunter|
 A The Basics: Hitting Things|QID|24751|PRE|24750|M|68.22,83.99|N|From Soratha.|C|Mage|
 A The Basics: Hitting Things|QID|24783|PRE|24782|M|67.66,83.02|N|From Tunari.|C|Priest|
-A The Basics: Hitting Things|QID|24771|PRE|24770|M|65.90,83.24|N|From Legati.|
-A The Basics: Hitting Things|QID|24759|PRE|24758|M|64.94,84.21|N|From Nekali.|C|Rogue|C|Shaman|
+A The Basics: Hitting Things|QID|24771|PRE|24770|M|65.90,83.24|N|From Legati.|C|Rogue|
+A The Basics: Hitting Things|QID|24759|PRE|24758|M|64.94,84.21|N|From Nekali.|C|Shaman|
 A The Basics: Hitting Things|QID|26273|PRE|26272|M|64.92,83.26|N|From Voldreka.|C|Warlock|
 A The Basics: Hitting Things|QID|24639|PRE|24607|M|65.78,84.52|N|From Nortet.|C|Warrior|
 C The Basics: Hitting Things|QID|24765^24751^24771^24639^26273^24783^24759^24777|M|67.69,84.69|N|Destroy 6 Tiki Targets in the training grounds.|
-L Level 2|QID|24765|LVL|2|N|You should be around level 2 by this point.|
-
+L Level 2|QID|24765|N|You should be around level 2 by this point.|LVL|2|
 T The Basics: Hitting Things|QID|24765|M|67.69,84.69|N|To Zen'tabra.|C|Druid|
 T The Basics: Hitting Things|QID|24777|M|67.09,83.30|N|To Ortezza.|C|Hunter|
 T The Basics: Hitting Things|QID|24751|M|68.22,83.99|N|To Soratha.|C|Mage|
@@ -56,24 +55,15 @@ T A Rough Start|QID|26275|M|64.92,83.26|N|To Voldreka.|C|Warlock|
 T A Rough Start|QID|24641|M|65.78,84.52|N|To Nortet.|C|Warrior|
 
 A Proving Pit|QID|24768|PRE|24767|M|67.61,84.62|N|From Zen'tabra.|C|Druid|
-C Proving Pit|QID|24768|M|67.61,83.76|N|Fight a naga in the proving pit.|C|Druid|
 A Proving Pit|QID|24780|PRE|24779|M|67.09,83.30|N|From Ortezza.|C|Hunter|
-C Proving Pit|QID|24780|M|67.61,83.76|N|Fight a naga in the proving pit.|C|Hunter|
 A Proving Pit|QID|24754|PRE|24753|M|68.22,83.99|N|From Soratha.|C|Mage|
-C Proving Pit|QID|24754|M|67.61,83.76|N|Fight a naga in the proving pit.|C|Mage|
 A Proving Pit|QID|24786|PRE|24785|M|67.66,83.02|N|From Tunari.|C|Priest|
-C Proving Pit|QID|24786|M|67.61,83.76|N|Fight a naga in the proving pit.|C|Priest|
 A Proving Pit|QID|24774|PRE|24773|M|65.90,83.24|N|From Legati.|C|Rogue|
-C Proving Pit|QID|24774|M|65.25,83.85|N|Fight a naga in the proving pit.|C|Rogue|
 A Proving Pit|QID|24762|PRE|24761|M|64.94,84.21|N|From Nekali.|C|Shaman|
-C Proving Pit|QID|24762|M|65.25,83.85|N|Fight a naga in the proving pit.|C|Shaman|
 A Proving Pit|QID|26276|PRE|26275|M|64.92,83.26|N|From Voldreka.|C|Warlock|
-C Proving Pit|QID|26276|M|65.25,83.85|N|Fight a naga in the proving pit.|C|Warlock|
 A Proving Pit|QID|24642|PRE|24641|M|65.78,84.52|N|From Nortet.|C|Warrior|
-C Proving Pit|QID|24642|M|65.25,83.85|N|Fight a naga in the proving pit.|C|Warrior|
-
-L Level 3|QID|24768|LVL|3|N|You should be around level 3 by this point.|
-
+C Proving Pit|QID|24768^24780^24754^24786^24774^24762^26276|QO|1|M|65.25,83.85|N|Tell Darkspear Jailor you're ready.|CHAT|
+C Proving Pit|QID|24768^24780^24754^24786^24774^24762^26276|QO|2|M|65.25,83.85|N|Defeat the Naga released into the Proving Pit.|
 T Proving Pit|QID|24768|M|67.50,84.19|N|To Zen'tabra.|C|Druid|
 T Proving Pit|QID|24780|M|67.50,84.19|N|To Ortezza.|C|Hunter|
 T Proving Pit|QID|24754|M|68.22,83.99|N|To Soratha.|C|Mage|
@@ -84,7 +74,8 @@ T Proving Pit|QID|26276|M|65.39,84.16|N|To Voldreka.|C|Warlock|
 T Proving Pit|QID|24642|M|65.39,84.16|N|To Nortet.|C|Warrior|
 
 A The Arts of a Druid|QID|24766|PRE|24768|M|67.50,84.19|N|From Zen'tabra.|C|Druid|
-C The Arts of a Druid|QID|24766|M|67.50,84.19|N|Train Healing Touch and practice.|C|Druid|
+= Healing Touch|QID|24766|M|67.50,84.19|N|Train Healing Touch.|SPELL|Healing Touch;5185|C|Druid|
+C The Arts of a Druid|QID|24766|M|67.50,84.19|N|Practice.|C|Druid|
 T The Arts of a Druid|QID|24766|M|67.66,84.58|N|To Zen'tabra.|C|Druid|
 A More Than Expected|QID|24769|PRE|24766|M|67.66,84.58|N|From Zen'tabra.|C|Druid|
 A The Arts of a Hunter|QID|24778|PRE|24780|M|67.09,83.30|N|From Ortezza.|C|Hunter|
@@ -112,16 +103,17 @@ C The Arts of a Warlock|QID|26274|M|64.92,83.26|N|Train Immolate and practice.|C
 T The Arts of a Warlock|QID|26274|M|64.92,83.26|N|To Voldreka.|C|Warlock|
 A More Than Expected|QID|26277|PRE|26274|M|64.92,83.26|N|From Voldreka.|C|Warlock|
 A The Arts of a Warrior|QID|24640|PRE|24642|M|65.39,84.16|N|From Nortet.|C|Warrior|
-C The Arts of a Warrior|QID|24640|M|65.39,84.16|N|Train Charge and practice on Tiki Target.|C|Warrior|
+= Learn Charge|ACTIVE|24640|M|65.39,84.16|N|Learn Charge from Nortet.|SPELL|100;Charge|C|Warrior|
+C The Arts of a Warrior|QID|24640|M|65.39,84.16|N|Practice on Tiki Target.|C|Warrior|
 T The Arts of a Warrior|QID|24640|M|65.39,84.16|N|To Nortet.|C|Warrior|
-A More Than Expected|QID|24643|PRE|24640|M|65.81,84.50|N|From Nortet.|C|Warrior|
+A More Than Expected|QID|24643|PRE|24640|M|65.39,84.16|N|From Nortet.|C|Warrior|
 T More Than Expected|QID|24769^24781^24755^24787^24775^24763^26277^24643|M|68.79,88.62|N|To Vol'jin.|
 A Moraya|QID|25064|M|68.79,88.62|N|From Vol'jin.|
 A Crab Fishin'|QID|25037|PRE|25064|M|68.48,87.60|N|From Tora'jin.|
 T Moraya|QID|25064|M|67.30,87.92|N|To Moraya.|
 A A Troll's Truest Companion|QID|24622|PRE|25064|M|67.30,87.92|N|From Moraya.|
 
-C Crab Fishin'|QID|25037|M|70.34,81.01|N|Collect 5 Fresh Crawler Meat from Pygmy Surf Crawlers.|S|
+C Crab Fishin'|QID|25037|M|70.34,81.01|L|52080 5|ITEM|52080|N|Pygmy Surf Crawlers along the shoreline.|S|
 T A Troll's Truest Companion|QID|24622|M|63.33,95.33|N|To Kijara.|
 A Saving the Young|QID|24623|PRE|24622|M|63.33,95.33|N|From Kijara.|
 A Mercy for the Lost|QID|24624|PRE|24623|M|63.38,95.32|N|From Tegashi.|
@@ -139,7 +131,7 @@ T Saving the Young|QID|24623|M|63.37,95.19|N|To Kijara.|
 T Mercy for the Lost|QID|24624|M|63.37,95.19|N|To Tegashi.|
 T Consort of the Sea Witch|QID|24625|M|63.37,95.19|N|To Tegashi.|
 A Young and Vicious|QID|24626|PRE|24625|M|63.34,95.29|N|From Kijara.|
-C Crab Fishin'|QID|25037|M|70.34,81.01|N|Collect 5 Fresh Crawler Meat from Pygmy Surf Crawlers.|US|
+C Crab Fishin'|QID|25037|M|70.34,81.01|L|52080 5|ITEM|52080|N|Pygmy Surf Crawlers along the shoreline.|US|
 C Young and Vicious|QID|24626|M|64.34,87.45|N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|U|50053|
 T Young and Vicious|QID|24626|M|67.25,88.04|N|To Moraya.|
 T Crab Fishin'|QID|25037|M|68.52,87.62|N|To Tora'jin.|
