@@ -260,11 +260,11 @@ T The Boon of Remulos|QID|13075|N|You must be right on top of him for the portal
 A Time Yet Remains|QID|13076|PRE|13075|N|From Crusader Bridenbrad|M|79.85,30.74|
 T Time Yet Remains|QID|13076|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle.|M|79.83,71.79|
 A The Touch of an Aspect|QID|13077|PRE|13076|N|From Highlord Tirion Fordring.|M|79.83,71.79|
-T The Touch of an Aspect|QID|13077|N|To Alexstrasza the Life-Binder at the top of Wyrmrest Temple in Dragonblight.|Z|Dragonblight|M|59.87,54.61|
-A Dahlia's Tears|QID|13078|PRE|13077|N|From Alexstrasza the Life-Binder.|Z|Dragonblight|M|59.87,54.61|
-C Dahlia's Tears|QID|13078|N|Head over to the Ruby Dragonshire. Look for the item on the ground around.|Z|Dragonblight|M|43.28,52.09|
-T Dahlia's Tears|QID|13078|N|To Alexstrasza the Life-Binder..|Z|Dragonblight|M|59.87,54.61|
-A The Boon of Alexstrasza|QID|13079|PRE|13078|N|From Alexstrasza the Life-Binder.|Z|Dragonblight|M|59.87,54.61|
+T The Touch of an Aspect|QID|13077|N|To Alexstrasza the Life-Binder at the top of Wyrmrest Temple in Dragonblight.|Z|115; Dragonblight|M|59.87,54.61|
+A Dahlia's Tears|QID|13078|PRE|13077|N|From Alexstrasza the Life-Binder.|Z|115; Dragonblight|M|59.87,54.61|
+C Dahlia's Tears|QID|13078|N|Head over to the Ruby Dragonshire. Look for the item on the ground around.|Z|115; Dragonblight|M|43.28,52.09|
+T Dahlia's Tears|QID|13078|N|To Alexstrasza the Life-Binder..|Z|115; Dragonblight|M|59.87,54.61|
+A The Boon of Alexstrasza|QID|13079|PRE|13078|N|From Alexstrasza the Life-Binder.|Z|115; Dragonblight|M|59.87,54.61|
 T The Boon of Alexstrasza|QID|13079|N|To Crusader Bridenbrad. Take the Flight Path to the Argent Tournament Grounds if you want.|M|79.85,30.74|
 A Hope Yet Remains|QID|13080|PRE|13079|N|To Crusader Bridenbrad|M|79.85,30.74|
 T Hope Yet Remains|QID|13080|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle.|M|79.83,71.79|

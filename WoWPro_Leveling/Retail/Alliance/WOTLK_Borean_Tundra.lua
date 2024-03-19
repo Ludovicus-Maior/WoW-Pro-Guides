@@ -473,8 +473,8 @@ T Monitoring the Rift: Winterfin Cavern|QID|12728|Z|114; Borean Tundra|N|To Libr
 N Done with Borean Tundra, but...|Z|114; Borean Tundra|N|That concludes Borean Tundra, but if you plan on continuing with Jame's guide, follow the next few steps right to the end to get to Valgarde Keep.|
 F Unu'pe|QID|12117|Z|114; Borean Tundra|N|Fly to Unu'pe.|M|45.26,34.42|
 b Moa'ki Harbor|QID|12117|Z|114; Borean Tundra|N|Take the turtle to Moa'ki Harbor in Dragonblight.|M|78.91,53.67|
-T Travel to Moa'ki Harbor|QID|12117|N|To Ko'nani|Z|Dragonblight|M|48.01,74.88|
-b Kamagua|QID|11228|N|Use the pier on your left-hand side to travel to Kamagua.|Z|Dragonblight|M|49.63,78.42|
+T Travel to Moa'ki Harbor|QID|12117|N|To Ko'nani|Z|115; Dragonblight|M|48.01,74.88|
+b Kamagua|QID|11228|N|Use the pier on your left-hand side to travel to Kamagua.|Z|115; Dragonblight|M|49.63,78.42|
 R Valgarde|QID|11228|N|Take the Ancient Lift, then follow the waypoint arrows.|Z|117; Howling Fjord|M|24.70,62.27;44.3,59.1;46,50;51,44.67;52.3,47.8;59.6,61.0|CC|
 ]]
 end)
