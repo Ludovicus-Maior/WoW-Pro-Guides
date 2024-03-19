@@ -339,19 +339,19 @@ A A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|From Ethereal Commu
 C A Forgotten Enemy|QID|41627|QO|1|M|56.69,69.12|Z|Dragonblight|NC|N|Activate the communication device|
 T A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|To UI Alert.|
 A Eyes of the Dragon|QID|41628|M|56.69,69.12|Z|Dragonblight|N|From UI Alert.|PRE|41627|
-C Eyes of the Dragon|QID|41628|QO|1|M|28.62,28.92|Z|Borean Tundra|N|Scout the Nexus spire.|NC|
-C Eyes of the Dragon|QID|41628|QO|2|M|24.65,29.63|Z|Borean Tundra|N|Scout the Surge Needle.|NC|
-C Eyes of the Dragon|QID|41628|QO|3|M|25.16,27.83|Z|Borean Tundra|N|Scout the Nexus foundation.|NC|
-T Eyes of the Dragon|QID|41628|M|28.41,25.62|Z|Borean Tundra|N|To UI Alert.|
-A Harnessing the Holy Fire|QID|41629|M|28.41,25.62|Z|Borean Tundra|N|From UI Alert.|PRE|41628|
-C Harnessing the Holy Fire|QID|41629|QO|1|M|27.14,29.42|Z|Borean Tundra|N|Kill the elemental mobs and click on the balls of light to fill up the bar with Unstable Holy Energy, *dieing resets to zero*.|
-T Harnessing the Holy Fire|QID|41629|M|27.14,29.42|Z|Borean Tundra|N|To UI Alert.|
-A Unleashing Judgment|QID|41630|M|27.14,29.42|Z|Borean Tundra|N|From UI Alert.|PRE|41629|
-C Unleashing Judgment|QID|41630|QO|2|M|24.21,29.62|Z|Borean Tundra|NC|N|West Surge Needle destroyed.|
-C Unleashing Judgment|QID|41630|QO|3|M|27.38,20.34|Z|Borean Tundra|N|North Surge Needle destroyed.|
-C Unleashing Judgment|QID|41630|QO|1|M|32.73,27.79|Z|Borean Tundra|NC|N|East Surge Needle destroyed.|
-T Unleashing Judgment|QID|41630|M|32.73,27.79|Z|Borean Tundra|N|To UI Alert.|
-A The Nexus Vault|QID|41631|M|30.27,28.07|Z|Borean Tundra|N|From UI Alert.|PRE|41630|
+C Eyes of the Dragon|QID|41628|QO|1|M|28.62,28.92|Z|114; Borean Tundra|N|Scout the Nexus spire.|NC|
+C Eyes of the Dragon|QID|41628|QO|2|M|24.65,29.63|Z|114; Borean Tundra|N|Scout the Surge Needle.|NC|
+C Eyes of the Dragon|QID|41628|QO|3|M|25.16,27.83|Z|114; Borean Tundra|N|Scout the Nexus foundation.|NC|
+T Eyes of the Dragon|QID|41628|M|28.41,25.62|Z|114; Borean Tundra|N|To UI Alert.|
+A Harnessing the Holy Fire|QID|41629|M|28.41,25.62|Z|114; Borean Tundra|N|From UI Alert.|PRE|41628|
+C Harnessing the Holy Fire|QID|41629|QO|1|M|27.14,29.42|Z|114; Borean Tundra|N|Kill the elemental mobs and click on the balls of light to fill up the bar with Unstable Holy Energy, *dieing resets to zero*.|
+T Harnessing the Holy Fire|QID|41629|M|27.14,29.42|Z|114; Borean Tundra|N|To UI Alert.|
+A Unleashing Judgment|QID|41630|M|27.14,29.42|Z|114; Borean Tundra|N|From UI Alert.|PRE|41629|
+C Unleashing Judgment|QID|41630|QO|2|M|24.21,29.62|Z|114; Borean Tundra|NC|N|West Surge Needle destroyed.|
+C Unleashing Judgment|QID|41630|QO|3|M|27.38,20.34|Z|114; Borean Tundra|N|North Surge Needle destroyed.|
+C Unleashing Judgment|QID|41630|QO|1|M|32.73,27.79|Z|114; Borean Tundra|NC|N|East Surge Needle destroyed.|
+T Unleashing Judgment|QID|41630|M|32.73,27.79|Z|114; Borean Tundra|N|To UI Alert.|
+A The Nexus Vault|QID|41631|M|30.27,28.07|Z|114; Borean Tundra|N|From UI Alert.|PRE|41630|
 C The Azure Prisoner|QID|41631|SO|1;1|M|36.14,70.13|Z|TheBeyond/1|N|Free Azuregos from the ethereals by defeating the Voidtouched Channelers binding him.|
 C Azuregos healed to full|QID|41631|SO|1;2|M|36.17,67.57|Z|TheBeyond/1|NC|N|Azuregos healed to full.|
 C Reach the Librarium|QID|41631|SO|2|M|27.10,67.53;18.86,50.72;27.65,39.95|CS|Z|TheBeyond/1|N|Reach the Librarium. Time your passage over the shooting flames to when they are not erupting. Use your shields.|
