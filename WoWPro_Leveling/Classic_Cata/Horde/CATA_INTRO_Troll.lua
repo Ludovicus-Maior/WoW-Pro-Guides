@@ -1,4 +1,4 @@
-WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', 4)
+local guide = WoWPro.Leveling:RegisterGuide('BitDur0105', 'Durotar (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideNickname(guide, "Troll: Intro")
 WoWPro:GuideName(guide,"Troll: Intro")
