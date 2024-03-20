@@ -1199,7 +1199,7 @@ local function createCurrentGuideConfig()
             header = {
                 order = 1,
                 type = "header",
-                name = "For Now, We Need To Click The Button Below To Show and Hide The Current Guide Frame.",
+                name = "For Now, We Need To Click The Button Below To open and close The Current Guide Frame BEFORE choosing another tab.",
             },
             openGuide = {
                 order = 2,
