@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('BitDur0105', "Leveling", 'Durotar (Troll)', 'Bitsem', '01', '05', 'BitDur0512', 'Horde', 4)
-WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideLevels(guide, 1, 5)
 WoWPro:GuideNickname(guide, "Troll: Intro")
 WoWPro:GuideName(guide,"Troll: Intro")
 WoWPro:GuideNextGuide(guide, "Orc & Troll: Intro (Part 2)")
@@ -26,7 +26,6 @@ A The Basics: Hitting Things|QID|24759|PRE|24758|M|64.94,84.21|N|From Nekali.|C|
 A The Basics: Hitting Things|QID|26273|PRE|26272|M|64.92,83.26|N|From Voldreka.|C|Warlock|
 A The Basics: Hitting Things|QID|24639|PRE|24607|M|65.78,84.52|N|From Nortet.|C|Warrior|
 C The Basics: Hitting Things|QID|24765^24751^24771^24639^26273^24783^24759^24777|M|67.69,84.69|N|Destroy 6 Tiki Targets in the training grounds.|
-L Level 2|QID|24765|N|You should be around level 2 by this point.|LVL|2|
 T The Basics: Hitting Things|QID|24765|M|67.69,84.69|N|To Zen'tabra.|C|Druid|
 T The Basics: Hitting Things|QID|24777|M|67.09,83.30|N|To Ortezza.|C|Hunter|
 T The Basics: Hitting Things|QID|24751|M|68.22,83.99|N|To Soratha.|C|Mage|
@@ -44,7 +43,7 @@ A A Rough Start|QID|24773|PRE|24771|M|65.90,83.24|N|From Legati.|C|Rogue|
 A A Rough Start|QID|24761|PRE|24759|M|65.90,83.24|N|From Nekali.|C|Shaman|
 A A Rough Start|QID|26275|PRE|26273|M|64.92,83.26|N|From Voldreka.|C|Warlock|
 A A Rough Start|QID|24641|PRE|24639|M|65.78,84.52|N|From Nortet.|C|Warrior|
-C A Rough Start|QID|24767^24779^24753^24785^24773^24761^26275^24641|M|65.05,80.73|N|Kill Wildmane Cats for 6 Wildmane Cat Pelts.|
+C A Rough Start|QID|24767^24779^24753^24785^24773^24761^26275^24641|M|65.05,80.73|L|50222 6|ITEM|50222|N|Wildmane Cats around the island.|
 T A Rough Start|QID|24767|M|67.69,84.69|N|To Zen'tabra.|C|Druid|
 T A Rough Start|QID|24779|M|67.09,83.30|N|To Ortezza.|C|Hunter|
 T A Rough Start|QID|24753|M|68.22,83.99|N|To Soratha.|C|Mage|
@@ -116,47 +115,45 @@ A A Troll's Truest Companion|QID|24622|PRE|25064|M|67.30,87.92|N|From Moraya.|
 C Crab Fishin'|QID|25037|M|70.34,81.01|L|52080 5|ITEM|52080|N|Pygmy Surf Crawlers along the shoreline.|S|
 T A Troll's Truest Companion|QID|24622|M|63.33,95.33|N|To Kijara.|
 A Saving the Young|QID|24623|PRE|24622|M|63.33,95.33|N|From Kijara.|
-A Mercy for the Lost|QID|24624|PRE|24623|M|63.38,95.32|N|From Tegashi.|
-A Consort of the Sea Witch|QID|24625|PRE|24623|M|63.38,95.32|N|From Tegashi.|
-
-L Level 4|QID|24625|LVL|4|N|You should be around level 4 by this point.|
+A Mercy for the Lost|QID|24624|PRE|24622|M|63.38,95.32|N|From Tegashi.|
+A Consort of the Sea Witch|QID|24625|PRE|24622|M|63.38,95.32|N|From Tegashi.|
 
 C Saving the Young|QID|24623|M|60.48,89.62|N|Use the Bloodtalon Whistle to rescue 12 Lost Bloodtalon Hatchlings.|U|52283|S|
-C Mercy for the Lost|QID|24624|M|59.65,88.83|N|Kill 8 Corrupted Bloodtalon Raptors.|S|
-C Consort of the Sea Witch|QID|24625|M|60.48,89.62|N|Kill Naj'tess and retrieve his orb. Any Hatchlings you have with you will attack as well.|
+K Mercy for the Lost|ACTIVE|24624|QO|1|M|59.65,88.83|N|Kill 8 Corrupted Bloodtalon Raptors.|S|
+C Consort of the Sea Witch|QID|24625|M|60.48,89.62|N|Kill Naj'tess and retrieve his orb.\n[color=FF0000]NOTE: [/color]Any Hatchlings you have with you will attack as well.|
 C Saving the Young|QID|24623|M|60.48,89.62|N|Use the Bloodtalon Whistle to rescue 12 Lost Bloodtalon Hatchlings.|U|52283|US|
-C Mercy for the Lost|QID|24624|M|59.65,88.83|N|Kill 8 Corrupted Bloodtalon Raptors.|US|
+K Mercy for the Lost|ACTIVE|24624|QO|1|M|59.65,88.83|N|Kill 8 Corrupted Bloodtalon Raptors.|US|
 
 T Saving the Young|QID|24623|M|63.37,95.19|N|To Kijara.|
 T Mercy for the Lost|QID|24624|M|63.37,95.19|N|To Tegashi.|
 T Consort of the Sea Witch|QID|24625|M|63.37,95.19|N|To Tegashi.|
 A Young and Vicious|QID|24626|PRE|24625|M|63.34,95.29|N|From Kijara.|
 C Crab Fishin'|QID|25037|M|70.34,81.01|L|52080 5|ITEM|52080|N|Pygmy Surf Crawlers along the shoreline.|US|
-C Young and Vicious|QID|24626|M|64.34,87.45|N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|U|50053|
-T Young and Vicious|QID|24626|M|67.25,88.04|N|To Moraya.|
+C Young and Vicious|QID|24626|QO|1|M|64.34,87.45|N|Target Swiftclaw and use the Bloodtalon Lasso to capture Swiftclaw.\n[color=FF0000]NOTE: [/color]If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|T|Swiftclaw|U|50053|
+C Young and Vicious|QID|24626|QO|2|M|64.34,87.45|N|Steer Swiftclaw to the Raptor Pen.|
+T Young and Vicious|QID|24626|M|67.25,88.04|N|To Moraya.\n[color=FF0000]NOTE: [/color]You can ride Swiftclaw here, but you need to dismount when you get there because he won't stop moving.|
 T Crab Fishin'|QID|25037|M|68.52,87.62|N|To Tora'jin.|
-A Breaking the Line|QID|25035|PRE|24626|M|67.99,88.95|N|From Tortunga.|
-C Breaking the Line|QID|25035|M|68.01,89.04|N|Talk to Jornun, right behind Tortunga for a ride to Spitescale Cavern.|
 
+A Breaking the Line|QID|25035|PRE|24626|M|67.99,88.95|N|From Tortunga.|
+C Breaking the Line|QID|25035|M|68.01,89.04|N|Talk to Jornun (he's beside Tortunga) for a ride to Spitescale Cavern.|CHAT|
 T Breaking the Line|QID|25035|M|67.92,74.12|N|To Morakki.|
 A No More Mercy|QID|24812|PRE|25035|M|67.92,74.12|N|From Morakki.|
 A Territorial Fetish|QID|24813|PRE|25035|M|67.92,74.12|N|From Morakki.|
-N No More Mercy|QID|24812|M|67.92,74.12|N|NPC "Zuni" will assist if you wait for him.|
-C Territorial Fetish|QID|24813|M|69.18,69.70|N|Place 8 Territorial Fetishes on Spitescale flags. You can place on same flag more than once when Fetish wears off.|U|52065|
-
-L Level 5|QID|24813|LVL|5|N|You should be around level 5 by this point.|
-
-C No More Mercy|QID|24812|M|69.52,70.08|N|Kill 12 Spitescale Naga.|
+N No More Mercy|ACTIVE|24812|M|67.92,74.12|N|A companion named "Zuni" will join you to help with fighting and healing.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Territorial Fetish|QID|24813|M|69.18,69.70|N|Place 8 Territorial Fetishes on Spitescale flags.\n[color=FF0000]NOTE: [/color]You can place on same flag more than once when Fetish wears off.|U|52065|S|
+K No More Mercy|ACTIVE|24812|QO|1|M|69.52,70.08|N|Kill 12 Spitescale Naga.|
+C Territorial Fetish|QID|24813|M|69.18,69.70|N|Place 8 Territorial Fetishes on Spitescale flags.\n[color=FF0000]NOTE: [/color]You can place on same flag more than once when Fetish wears off.|U|52065|US|
 T No More Mercy|QID|24812|M|67.95,74.05|N|To Morakki.|
 T Territorial Fetish|QID|24813|PRE|24812|M|67.95,74.05|N|To Morakki.|
 A An Ancient Enemy|QID|24814|PRE|24813|M|67.95,74.05|N|From Morakki.|
 
-C An Ancient Enemy|QID|24814|M|68.43,71.99|N|Speak with Vol'jin in Spitescale Cove and aid him in killing Zar'jira, the Sea Witch. Go East, then North, up the hill.|
-N An Ancient Enemy|QID|24814|M|68.43,71.99|N|There will be Totems for health and mana. Concentrate on Manifestations and stomp Braziers when necessary.|
-N An Ancient Enemy|QID|24814|M|68.43,71.55|N|Speak with Vanira for Teleport back to Darkspear Hold.|
-
+C An Ancient Enemy|QID|24814|QO|1|M|68.43,71.99|N|Speak with Vol'jin in Spitescale Cove.\n[color=FF0000]NOTE: [/color]Go east of the Spitescale Cavern and then north up the hill.|CHAT|
+C An Ancient Enemy|QID|24814|QO|1|M|68.43,71.99|N|Aid Vol'jin in killing Zar'jira.\n[color=FF0000]NOTE: [/color]There will be Totems for health and mana. Concentrate on killing Manifestations and stomp Braziers when necessary.|
+C An Ancient Enemy|QID|24814|QO|2|M|68.43,71.55|N|Speak with Vanira to Teleport back to Darkspear Hold.|CHAT|
+L Level |ACTIVE||N|Grind until you're within  bubbles of level .|LVL|;-|
 T An Ancient Enemy|QID|24814|M|68.81,88.64|N|To Vol'jin.|
 A Sen'jin Village|QID|25073|PRE|24814|M|68.86,88.73|N|From Vol'jin.|
+= Level 5 Training|ACTIVE|25073|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Darkspear Training Grounds|
 T Sen'jin Village|QID|25073|M|56.02,74.71|N|To Master Gadrin.|
 ]]
 
