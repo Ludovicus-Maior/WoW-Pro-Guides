@@ -1,72 +1,81 @@
-WoWPro.Leveling:RegisterGuide('BitDur0512', 'Durotar', 'Bitsem', '05', '12', 'BitAzs1220', 'Horde', function()
+local guide = WoWPro:RegisterGuide('BitDur0512', 'Leveling', 'Durotar', 'Bitsem', 'Horde', 4)
+WoWPro:GuideLevels(guide, 5, 12)
+WoWPro:GuideContent(guide, "Intro")
+WoWPro:GuideNickname(guide, "Orc & Troll: Intro (Part 2)")
+WoWPro:GuideName(guide,"Orc & Troll: Intro (Part 2)")
+WoWPro:GuideNextGuide(guide, 'BitAzs1220')
+WoWPro:GuideSteps(guide, function()
 return [[
 
-A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|
+A Breaking the Chain|QID|25167|PRE|25073|M|56.02,74.71|N|From Master Gadrin.|LVL|4|
 A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|N|From Bom'bay.|
-f Sen'jin Village|QID|25170|M|55.40,73.40|N|At Handler Marnlek.|N|Train Herbalism, Alchemy, Fishing or Riding if you wish.|
-C Cleaning Up the Coastline|QID|25170|S|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawlers for Crawler Mucus, while destroying 3 Northwatch Supply Crates and killing 10 Northwatch Lugs.|
-
-L Level 6|QID|25170|LVL|6|N|You should be around level 6 by this point.|
-
-C Breaking the Chain|QID|25167|M|52.45,80.60|N|Destroy 3 Northwatch Supply Crates and kill 10 Northwatch Lugs.|
-C Cleaning Up the Coastline|QID|25170|US|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawlers.|
-T Breaking the Chain|QID|25167|M|55.95,74.80|N|To Master Gadrin.|
-A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|
+f Sen'jin Village|QID|25170|M|55.40,73.40|N|At Handler Marnlek.|
+= Professions|ACTIVE|25170|M|PLAyer|CC|N|If you wish, train in Herbalism, Alchemy, or Fishing.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Sen'jin Village|
+C Cleaning Up the Coastline|QID|25170|M|59.02,74.41|L|4888 5|ITEM|4888|N|Pygmy Surf Crawlers|S|
+C Breaking the Chain|QID|25167|QO|1;2|M|52.45,80.60|N|Destroy the Northwatch Supply Crates and kill 10 Northwatch Lugs.|
+C Cleaning Up the Coastline|QID|25170|M|59.02,74.41|L|4888 5|ITEM|4888|N|Pygmy Surf Crawlers|US|
 
 T Cleaning Up the Coastline|QID|25170|M|55.72,75.39|N|To Bom'bay.|
 A Never Trust a Big Barb and a Smile|QID|25165|PRE|25170|M|55.72,75.39|N|From Bom'bay.|
-A The War of Northwatch Aggression|QID|25169|M|55.46,75.04|N|From Lar Prowltusk.|
+T Breaking the Chain|QID|25167|M|55.95,74.80|N|To Master Gadrin.|
+A Purge the Valley|QID|25168|PRE|25167|M|55.95,74.80|N|From Master Gadrin.|
+A The War of Northwatch Aggression|QID|25169|PRE|25167|M|55.46,75.04|N|From Lar Prowltusk.|
 
-C Never Trust a Big Barb and a Smile|QID|25165|U|52505|M|54.16,75.20|N|Place the Poison Extraction Totem near Clattering Scorpids until you have 6 samlpes of venom.|
-C The War of Northwatch Aggression|QID|25169|M|47.9,77.6;49.7,81.6;46.41,78.86|N|Destroy the 3 sets of Attack Plans held within Northwatch Foothold.|
-C Purge the Valley|QID|25168|M|46.64,79.51|N|Defeat 12 Northwatch troops in Northwatch Foothold. |
-T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|N|To Lar Prowltusk.|
-T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|
+C Never Trust a Big Barb and a Smile|QID|25165|M|54.16,75.20|N|Place the Poison Extraction Totem near Clattering Scorpids until you have 6 samples of venom.|U|52505|S|
+C Purge the Valley|QID|25168|M|46.64,79.51|N|Defeat 12 Northwatch troops in Northwatch Foothold.|S|
+R Northwatch Foothold|ACTIVE|25169|QO|1;2;3|N|Head to the 2 Blue flags marking the entrance to Northwatch Foothold.|
+C The War of Northwatch Aggression|QID|25169|QO|1|M|47.9,77.6|N|Destroy the Attack Plan: Valley of Trials beside the blue tent.|NC|
+C The War of Northwatch Aggression|QID|25169|QO|2|M|49.7,81.6|N|Destroy the Attack Plan: Sen'jin Village on the barrel.|NC|
+C The War of Northwatch Aggression|QID|25169|QO|3|M|46.41,78.86|N|Destroy the Attack Plan: Orgrimmar inside the blue tent.|NC|
+C Purge the Valley|QID|25168|M|46.64,79.51|N|Defeat 12 Northwatch troops in Northwatch Foothold.|US|
+C Never Trust a Big Barb and a Smile|QID|25165|M|54.16,75.20|L|39236 6|N|Attack Clattering Scorpids and place the Poison Extraction Totem when told.|U|52505|US|
+L Level 7|QID|25169|N|Grind until you're halfway to level 7.|LVL|6;-1650|
 
-L Level 7|QID|25169|LVL|7|N|You should be around level 7 by this point.|
-
-T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
+T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|N|To Lar Prowltusk.| ; 550 xp
+T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.| ; 550 xp
+T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.| ; 550 xp
 A Riding On|QID|25171|PRE|25168|M|55.94,74.79|N|From Master Gadrin.|
-f Razor Hill|QID|25171|M|55.96,74.80;53.06,43.58|N|Train new skills, then talk to Raider Jhash for ride.|
+= Level 7 Training|ACTIVE|25171|M|PLAYER|CC|N|Do your level 7 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|7|IZ|Sen'jin Village|
+R Razor Hill|ACTIVE|25171|M|55.96,74.80|N|Talk to Raider Jhash for a free ride Razor Hill.|
+
 T Riding On|QID|25171|M|51.92,43.48|N|To Gar'Thok.|
-
-A From Bad to Worse|QID|25173|M|51.92,43.48|N|From Gar'Thok.|
-A Meats to Orgrimmar|QID|6365|M|50.76,42.78|R|Orc,Tauren,Troll|N|From Grimtak.|
-h Razor Hill|QID|25176|M|51.61,41.65|N|At Innkeeper Grosk.|
+A From Bad to Worse|QID|25173|PRE|25171|M|51.92,43.48|N|From Gar'Thok.|
+h Razor Hill|AVAILABLE|25176|M|51.61,41.65|N|At Innkeeper Grosk.|IZ|Razor Hill|
 A Exploiting the Situation|QID|25176|M|53.05,43.12|N|From Gail Nozzywig.|
-R Profession Trainers||QID|25176|M|52.96,41.90|N|To Runda-Profession Trainer, outside the Barracks|
-R Profession Trainers||QID|25176|M|54.18,41.92|N|To Rawrk-First Aid Trainer, in the Barracks|
-C From Bad to Worse|QID|25173|S|M|57.45,55.24|N|Collect Treasures while killing Northwatch Marines, Northwatch Sharpshooters, and Lieutenant Palliter.|
+= Primary Professions|ACTIVE|25176|M|52.96,41.90|N|From Runda, outside the Barracks.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+= First Aid|ACTIVE|25176|M|54.18,41.92|N|From Rawrk inside the Barracks.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested.|P|First Aid;129;0+1;true|
+A Meats to Orgrimmar|QID|6365|M|50.76,42.78|N|From Grimtak.|R|Orc,Tauren,Troll|
 
-C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Obtain 6 pieces of Kul Tiras Treasure scattered around Tiragarde Keep..|
-C From Bad to Worse|QID|25173|US|M|59.5,58.2|N|Kill Marines, Sharpshooters, and Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|
+C From Bad to Worse|QID|25173|M|57.45,55.24|N|Collect Treasures.|S|
+C Exploiting the Situation|QID|25176|M|59.78,58.28|N|Obtain 6 pieces of Kul Tiras Treasure scattered around Tiragarde Keep.|
+C From Bad to Worse|QID|25173|M|59.5,58.2|N|Kill Marines, Sharpshooters, and Lieutenant Palliter who is on the top floor of the big building in Tiragarde Keep.|US|
 T From Bad to Worse|QID|25173|M|51.89,43.52|N|To Gar'Thok.|
 A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|
 T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 
 A Shipwreck Searching|QID|25178|PRE|25176|M|53.06,43.12|N|From Gail Nozzywig.|
-T Meats to Orgrimmar|QID|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|To Burok.|
-A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|R|Orc,Tauren,Troll|N|From Burok.|
-T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|N|Take the lift down, the turn in to Innkeeper Gryshka.|
-A Doras the Wind Rider Master|QID|6385|PRE|6384|M|53.44,78.85|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Innkeeper Gryshka.|
-T Doras the Wind Rider Master|QID|6385|M|50.87,62.61;49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|Back up the lift to Doras.|
-A Return to Razor Hill|QID|6386|PRE|6385|M|49.49,59.30|Z|Orgrimmar|R|Orc,Tauren,Troll|N|From Doras.|
+T Meats to Orgrimmar|QID|6365|M|53.07,43.59|N|To Burok.|R|Orc,Tauren,Troll|
+A Ride to Orgrimmar|QID|6384|PRE|6365|M|53.07,43.59|N|From Burok.|R|Orc,Tauren,Troll|
+T Ride to Orgrimmar|QID|6384|M|50.87,62.61;53.44,78.85|CS|Z|Orgrimmar|N|Take the lift down, the turn in to Innkeeper Gryshka.|R|Orc,Tauren,Troll|
+A Doras the Wind Rider Master|QID|6385|PRE|6384|M|53.44,78.85|Z|Orgrimmar|N|From Innkeeper Gryshka.|R|Orc,Tauren,Troll|
+T Doras the Wind Rider Master|QID|6385|M|50.87,62.61;49.49,59.30|CS|Z|Orgrimmar|N|Back up the lift to Doras.|R|Orc,Tauren,Troll|
+A Return to Razor Hill|QID|6386|PRE|6385|M|49.49,59.30|Z|Orgrimmar|N|From Doras.|R|Orc,Tauren,Troll|
 
 L Level 8|QID|6386|LVL|8|N|You should be around level 8 by this point.|
 
-T Return to Razor Hill|QID|6386|M|50.78,42.85|R|Orc,Tauren,Troll|N|To Grimtak.|
-C Storming the Beaches|QID|25177|S|M|58.96,49.79|N|Kill Foaming Sea Elementals and collect tools. |
-C Shipwreck Searching|QID|25178|S|M|57.35,44.65|N|Obtain 4 sets of Gnomish Tools.|
+T Return to Razor Hill|QID|6386|M|50.78,42.85|N|To Grimtak.|R|Orc,Tauren,Troll|
+C Storming the Beaches|QID|25177|M|58.96,49.79|N|Kill Foaming Sea Elementals and collect tools. |S|
+C Shipwreck Searching|QID|25178|M|57.35,44.65|N|Obtain 4 sets of Gnomish Tools.|S|
 A Loss Reduction|QID|25179|M|57.89,45.01|N|From Injured Razor Hill Grunt.|
 C Loss Reduction|QID|25179|M|59.64,49.92|N|Rescue 4 Injured Razor Hill Grunts.|
-C Storming the Beaches|QID|25177|US|M|58.96,49.79|N|Kill 11 Foaming Sea Elementals. |
+C Storming the Beaches|QID|25177|M|58.96,49.79|N|Kill 11 Foaming Sea Elementals. |US|
 
 T Shipwreck Searching|QID|25178|M|53.10,43.18|N|To Gail Nozzywig.|
 A Thonk|QID|25227|M|53.10,43.18|N|From Gail Nozzywig.|
 A The Burning Blade|QID|25232|M|52.27,43.09|N|From Orgnil Soulscar.|
 T Storming the Beaches|QID|25177|M|51.92,43.48|N|To Gar'Thok.|
 T Loss Reduction|QID|25179|M|51.92,43.48|N|To Gar'Thok.|
-C The Burning Blade|QID|25232|M|52.82,41.53;54.13,40.73;54.55,38.59;53.57,36.02;51.85,26.27||N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
+C The Burning Blade|QID|25232|M|52.82,41.53;54.13,40.73;54.55,38.59;53.57,36.02;51.85,26.27|CS|N|Obtain 6 Burning Blade Spellscrolls from members of the Burning Blade in Dustwind Cave.|
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar. Go straight and jump down!|
 A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 
@@ -99,18 +108,18 @@ C Spirits Be Praised|QID|25189|NC|M|42.65,49.92|N|Escort Grandmatron Tekla to Ra
 L Level 10|QID|25189|LVL|10|N|You should be around level 10 by this point.|
 
 T Spirits Be Praised|QID|25189|M|42.65,49.92|N|To Raggaran.|
-A Lost But Not Forgotten|QID|25193|RANK|2|M|41.30,39.12;43.30,30.58|N|From Misha Tor'kren. Avoid killing Alligators on the way over.  You need them later.|
+A Lost But Not Forgotten|QID|25193|RANK|2|M|41.30,39.12;43.30,30.58|CS|N|From Misha Tor'kren. Avoid killing Alligators on the way over.  You need them later.|
 C Lost But Not Forgotten|QID|25193|M|42.44,33.59|
 T Lost But Not Forgotten|QID|25193|M|43.33,30.60|N|To Misha Tor'kren.|
 T Watershed Patrol|QID|25188|M|49.55,40.17|N|To Thonk.|
 
 A Conscript of the Horde|QID|840|M|50.84,43.59|Z|Durotar|N|To Takrin Pathseeker.  Take this quest if you want to go to the Northern Barrens next.|
 
-A Winds in the Desert|QID|834|M|46.34,34.83;45.42,29.81;46.36,22.99|Z|Durotar|N|From Rezlak.|
+A Winds in the Desert|QID|834|M|46.34,34.83;45.42,29.81;46.36,22.99|CS|Z|Durotar|N|From Rezlak.|
 A Securing the Lines|QID|835|M|46.36,22.99|Z|Durotar|N|From Rezlak.|
-C Winds in the Desert|QID|834|S|M|50.11,25.77|Z|Durotar|N|Retrieve Sacks of Supplies and kill 12 Harpies.|
+C Winds in the Desert|QID|834|M|50.11,25.77|Z|Durotar|N|Retrieve Sacks of Supplies and kill 12 Harpies.|S|
 C Securing the Lines|QID|835|M|54.00,27.37|Z|Durotar|N|Kill 12 Durotar Harpies. Any type of harpy will suffice.|
-C Winds in the Desert|QID|834|US|M|50.11,25.77|Z|Durotar|N|Retrieve 5 Sacks of Supplies in Razorwind Canyon.|
+C Winds in the Desert|QID|834|M|50.11,25.77|Z|Durotar|N|Retrieve 5 Sacks of Supplies in Razorwind Canyon.|US|
 T Winds in the Desert|QID|834|M|46.41,22.96|Z|Durotar|N|To Rezlak.|
 T Securing the Lines|QID|835|M|46.41,22.96|Z|Durotar|N|To Rezlak.|
 
@@ -150,7 +159,7 @@ T Griswold Hanniston|QID|25258|M|58.77,23.12|Z|Durotar|N|To Spiketooth.|
 L Level 12|QID|25259|LVL|12|N|You should be around level 12 by this point.|
 
 T Gaur Icehorn|QID|25259|M|58.77,23.12|Z|Durotar|N|To Spiketooth.|
-C Skull Rock|QID|25262|M|55.03,10.95;53.42,10.20|Z|Durotar|N|Gather 6 Searing Collars from the cultists in Skull Rock.|
+C Skull Rock|QID|25262|M|55.03,10.95;53.42,10.20|CS|Z|Durotar|N|Gather 6 Searing Collars from the cultists in Skull Rock.|
 T Skull Rock|QID|25262|M|56.41,20.05|Z|Durotar|N|To Margoz.|
 A Neeru Fireblade|QID|25263|PRE|25262|M|56.41,20.05|Z|Durotar|N|From Margoz.|
 
