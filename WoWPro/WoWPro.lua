@@ -860,10 +860,12 @@ function WoWPro.BuildGuideInMenuList()
     end
     for _, gid in ipairs(WoWProCharDB.GuideStack) do
         local guide = WoWPro.Guides[gid]
-        if  WoWPro[guide.guidetype].RegisterGuide then
-            WoWPro[guide.guidetype]:RegisterGuide(guide)
+        if guide then
+            if  WoWPro[guide.guidetype].RegisterGuide then
+                    WoWPro[guide.guidetype]:RegisterGuide(guide)
+                end
+            WoWPro.RegisterGuideInMenuList("recent guides", guide.guidetype,  guide.name or "??", gid)
         end
-        WoWPro.RegisterGuideInMenuList("recent guides", guide.guidetype,  guide.name or "??", gid)
     end
     -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
     SortNestedMenu(WoWPro.GuideMenuList, true)
