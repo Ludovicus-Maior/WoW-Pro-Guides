@@ -1,5 +1,4 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="01_12_Fluclo_Panda.lua"/>
   <Script file="40_45_Crackerhead22_Eastern_Plaguelands.lua"/>
   <Script file="48_50_Crackerhead22_Searing_Gorge.lua"/>
   <Script file="50_55_Jiyambi_UnGoro.lua"/>
@@ -12,8 +11,4 @@
   <Script file="80_82_Arixan_Hyjal.lua"/>
   <Script file="82_83_Arixan_Deepholm.lua"/>
   <Script file="83_84_Arixan_Uldum.lua"/>
-  <Script file="86_88_Emmaleah_Valley4Winds.lua"/>
-  <Script file="88_89_Emmaleah_KunLaiSummit.lua"/>
-  <Script file="89_90_Emmaleah_Dread_Wastes.lua"/>
-  <Script file="89_90_Emmaleah_Townlong_Steppes.lua"/>
 </Ui>
