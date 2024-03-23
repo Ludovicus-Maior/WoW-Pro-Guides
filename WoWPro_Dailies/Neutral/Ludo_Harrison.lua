@@ -7,7 +7,7 @@ local guide = WoWPro:RegisterGuide("LudoHarrison",'Dailies',"Draenor","Ludovicus
 WoWPro:GuideLevels(guide,40,40,41)
 WoWPro:GuideIcon(guide,"ACH",9825)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Treasure Contracts", "Garrison")
-WoWPro:GuideAutoSwitch(guide)
+WoWPro:GuideQuestTriggers(guide, 37848, 37973, 37881, 37914, 37788, 37941)
 WoWPro:GuideSteps(guide,function()
 return [[
 

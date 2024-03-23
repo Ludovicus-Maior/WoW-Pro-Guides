@@ -451,7 +451,7 @@ R Transitus Shield |QID|11967|N|Talk to Keristrasza for a teleport back to the T
 T Mustering the Reds |QID|11967|N|To Raelorasz.|M|33.31,34.53|
 A Springing the Trap |QID|11969|PRE|11967|N|From Raelorasz.|M|33.31,34.53|
 K Coldarra Wyrmkins |QID|11936|L|35586 5|N|Kill Coldarra Wyrmkins until you get 5 Frozen Axes.|M|23.60,34.32|
-C Keep the Secret Safe |QID|11914|N|Kill Arcane Serpents near the Nexus.|Z|Borean Tundra|M|27.8,24.2|S|
+C Keep the Secret Safe |QID|11914|N|Kill Arcane Serpents near the Nexus.|Z|114; Borean Tundra|M|27.8,24.2|S|
 C Hatching a Plan |QID|11936|N|Click on the Blue Dragon Eggs near the Nexus.|M|27.8,24.2|S|
 C Reading the Meters |QID|11900|QO|1|N|Go down to the Nexus to find another Coldarra Geological Monitor and click it.|M|28.26,28.47|
 C Hatching a Plan |QID|11936|N|Click on the Blue Dragon Eggs near the Nexus.|M|27.8,24.2|US|
@@ -559,9 +559,9 @@ T Monitoring the Rift: Winterfin Cavern |QID|12728|M|45.0,33.4|N|To Librarian Ga
 F Taunka'le Village |QID|11930|N|Fly to Taunka'le Village.|M|45.2,34.3|
 T The Fall of Taunka'le Village |QID|11929|N|To Mother Tauranook.|
 A Across Transborea |QID|11930|PRE|11929|N|From Mother Tauranook.|
-C Across Transborea |QID|11930|N|Mount up and ride east along the road, don't lose the evacuee. At some point, he'll stop to read smoke signals, then sprint off. Follow him and he'll lead you to the quest turn-in NPC. |Z|Dragonblight|M|10.7,53.8|
-T Across Transborea |QID|11930|N|To Wartook Iceborn.|M|12.76,51.68|Z|Dragonblight|
-A A Tauren Among Taunka |QID|11977|PRE|11930|N|From Wartook Iceborn.|M|12.76,51.68|Z|Dragonblight|
-T A Tauren Among Taunka |QID|11977|N|To Emissary Brighthoof in Westwind Refugee Camp, she wanders around a bit.|M|13,49|Z|Dragonblight|
+C Across Transborea |QID|11930|N|Mount up and ride east along the road, don't lose the evacuee. At some point, he'll stop to read smoke signals, then sprint off. Follow him and he'll lead you to the quest turn-in NPC. |Z|115; Dragonblight|M|10.7,53.8|
+T Across Transborea |QID|11930|N|To Wartook Iceborn.|M|12.76,51.68|Z|115; Dragonblight|
+A A Tauren Among Taunka |QID|11977|PRE|11930|N|From Wartook Iceborn.|M|12.76,51.68|Z|115; Dragonblight|
+T A Tauren Among Taunka |QID|11977|N|To Emissary Brighthoof in Westwind Refugee Camp, she wanders around a bit.|M|13,49|Z|115; Dragonblight|
 ]]
 end)

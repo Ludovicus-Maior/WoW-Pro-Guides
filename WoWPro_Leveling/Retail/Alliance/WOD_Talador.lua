@@ -30,13 +30,13 @@ A Out of Jovite|QID|34571|M|70.15,20.11|N|From Miall|PRE|35045|
 A Iridium Recovery|QID|34573|M|70.15,20.11|N|From Miall|PRE|35045|
 A Gas Guzzlers|QID|34624|M|70.15,20.11|N|From Miall|PRE|35045|
 ; [aldavor] this one is shared between structure types, for bonus objective and loot find.
-R Kuuro's Claim|ACTIVE|34573^34263|M|71.06,23.05;71.29,24.03;72.57,24.44;73.62,23.90|CS|N|Take back door to the road to the mine. Once you get there, you can do the bonus objective.|
+R Kuuro's Claim|ACTIVE|34573^34631|M|71.06,23.05;71.29,24.03;72.57,24.44;73.62,23.90|CS|N|Take back door to the road to the mine. Once you get there, you can do the bonus objective.|
 C Iridium Recovery|QID|34573|M|75.4,22|S|N|Kill and loot the Iridium Geode.|
 ; [aldavor] back to arsenal
 C Out of Jovite|QID|34571|M|75.4,22|NC|S|N|These are green crystals sticking out the ground and walls.|
 C Gas Guzzlers|QID|34624|M|75.4,22|N|Kill the Glowgullets, then use your 'Goren Gas Extractor' on them.|S|U|111910|
 ; [aldavor] lootable object - for everyone
-$ Pure Crystal Dust|QID|34263|M|78.21,14.72|N|Pure Crystal Dust: Lootable object for Garrison Resources and decent XP. At the back of the right hand walkway.|
+$ Pure Crystal Dust|QID|34263|M|78.21,14.72|Z|535;Kuuro's Claim|N|Pure Crystal Dust: Lootable object for Garrison Resources and decent XP. At the back of the right hand walkway.|
 ; [aldavor] arsenal only continued
 C Out of Jovite|QID|34571|M|75.4,22|NC|US|N|These are green crystals sticking out the ground and walls.|
 C Iridium Recovery|QID|34573|M|75.4,22|US|N|Kill and loot the Iridium Geode.|

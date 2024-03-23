@@ -1,3 +1,14 @@
+# Release 2024.03.20.A
+## Bug Fixes
+* A Faux old style Guide list has been added.  Not yet great, but good enough.
+* Update Retail Interface to 100206
+## Known *deficiencies*
+* Classic may complain about *WoWPro: Unknown PRO Icon number [XXX] for guide YYY*, please ignore
+## Guide Updates
+* Unfortunately, due to a file reorganization to prepare for Cata, 658 files were touched/moved.
+  Too much work to see what was actually updated versus moved or just having zone tag corrections.
+
+
 # Release 2024.02.08.A
 ## Bug Fixes
 * Mr. Esthetic Tweaks (Spoony) made things nicer looking in many places

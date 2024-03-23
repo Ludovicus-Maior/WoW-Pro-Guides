@@ -136,18 +136,18 @@ A Onslaught Envoy|QID|43386|M|51.61,47.69|N|From Alonsus Faol.|PRE|43385|
 P Dalaran|QID|43386|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43386|
 R Chamber of the Guardian|QID|43386|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardian, and step on the teleport pad.|ACTIVE|43386|
 P Wyrmrest Temple|QID|43386|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|NC|N|Take the Dalaran portal to Wyrmrest Temple.|ACTIVE|43386|
-R New Hearthglen|QID|43386|M|71.43,71.80|Z|Dragonblight|N|Fly over to New Hearthglen to find an old enemy or something like that.|ACTIVE|43386|
-T Onslaught Envoy|QID|43386|M|71.43,71.80|Z|Dragonblight|N|To Mariella the Heretic.|
-A Scarlet Redemption|QID|43387|M|71.43,71.80|Z|Dragonblight|N|From Mariella the Heretic.|PRE|43386|
-A Apostate Liberation|QID|43388|M|71.43,71.80|Z|Dragonblight|N|From Mariella the Heretic.|PRE|43386|
-C Apostate Liberation|QID|43388|M|71.43,71.80|Z|Dragonblight|S|NC|N|Click on the cages to release the prisoners.|
-C Scarlet Redemption|QID|43387|M|71.43,71.80|Z|Dragonblight|QO|1|S|N|Kill Scarlet Onslaught members and you go along.|
-C Scarlet Redemption|QID|43387|M|53.95,67.01|Z|Dragonblight|QO|2|N|Kill Inquisitor Ward in the Chapel.|
-C Scarlet Redemption|QID|43387|M|71.43,71.80|Z|Dragonblight|QO|1|US|N|Finish up your quota of Scarlet Onslaught members.|
-C Apostate Liberation|QID|43388|M|71.43,71.80|Z|Dragonblight|US|NC|N|Click on the cages to finish releasing the prisoners.|
-T Scarlet Redemption|QID|43387|M|53.82,65.00|Z|Dragonblight|N|To Mariella the Heretic who is following you around.|
-T Apostate Liberation|QID|43388|M|53.82,65.00|Z|Dragonblight|N|To Mariella the Heretic.|
-A Unexpected Guests|QID|43389|M|53.82,65.00|Z|Dragonblight|N|From Mariella the Heretic.|PRE|43387&43388|
+R New Hearthglen|QID|43386|M|71.43,71.80|Z|115; Dragonblight|N|Fly over to New Hearthglen to find an old enemy or something like that.|ACTIVE|43386|
+T Onslaught Envoy|QID|43386|M|71.43,71.80|Z|115; Dragonblight|N|To Mariella the Heretic.|
+A Scarlet Redemption|QID|43387|M|71.43,71.80|Z|115; Dragonblight|N|From Mariella the Heretic.|PRE|43386|
+A Apostate Liberation|QID|43388|M|71.43,71.80|Z|115; Dragonblight|N|From Mariella the Heretic.|PRE|43386|
+C Apostate Liberation|QID|43388|M|71.43,71.80|Z|115; Dragonblight|S|NC|N|Click on the cages to release the prisoners.|
+C Scarlet Redemption|QID|43387|M|71.43,71.80|Z|115; Dragonblight|QO|1|S|N|Kill Scarlet Onslaught members and you go along.|
+C Scarlet Redemption|QID|43387|M|53.95,67.01|Z|115; Dragonblight|QO|2|N|Kill Inquisitor Ward in the Chapel.|
+C Scarlet Redemption|QID|43387|M|71.43,71.80|Z|115; Dragonblight|QO|1|US|N|Finish up your quota of Scarlet Onslaught members.|
+C Apostate Liberation|QID|43388|M|71.43,71.80|Z|115; Dragonblight|US|NC|N|Click on the cages to finish releasing the prisoners.|
+T Scarlet Redemption|QID|43387|M|53.82,65.00|Z|115; Dragonblight|N|To Mariella the Heretic who is following you around.|
+T Apostate Liberation|QID|43388|M|53.82,65.00|Z|115; Dragonblight|N|To Mariella the Heretic.|
+A Unexpected Guests|QID|43389|M|53.82,65.00|Z|115; Dragonblight|N|From Mariella the Heretic.|PRE|43387&43388|
 T Unexpected Guests|QID|43389|M|51.58,47.77|N|To Alonsus Faol back in your order hall.|
 A Champion: Mariella Ward|QID|43381|M|51.17,49.47|N|From/To Mariella Ward.|PRE|43389|
 A Forgotten Shadows|QID|43390|M|51.58,47.77|N|From Alonsus Faol.|PRE|43381|
@@ -332,26 +332,26 @@ T The Light's Wrath|QID|41625|M|28.64,49.92|Z|Dalaran!Dalaran!Dungeon|N|To Archm
 A A New Threat|QID|41626|M|28.64,49.92|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kalec.|PRE|41625|
 R Chamber of the Guardian|QID|41626|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardian, and step on the teleport pad.|ACTIVE|41626|
 C A New Threat|QID|41626|QO|1|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|NC|N|Take the Dalaran portal to Wyrmrest Temple (Optional)|
-C A New Threat|QID|41626|QO|2|M|56.46,63.19|Z|Dragonblight|NC|N|Travel to the Azure Dragonshrine|
-C A New Threat|QID|41626|QO|3|M|54.49,65.02;56.05,67.55;54.80,67.56|CN|Z|Dragonblight|NC|N|Click on the glowing spots in this area.|
-T A New Threat|QID|41626|M|56.69,69.12|Z|Dragonblight|N|To Ethereal Communication Device.|
-A A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|From Ethereal Communication Device.|PRE|41626|
-C A Forgotten Enemy|QID|41627|QO|1|M|56.69,69.12|Z|Dragonblight|NC|N|Activate the communication device|
-T A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|Dragonblight|N|To UI Alert.|
-A Eyes of the Dragon|QID|41628|M|56.69,69.12|Z|Dragonblight|N|From UI Alert.|PRE|41627|
-C Eyes of the Dragon|QID|41628|QO|1|M|28.62,28.92|Z|Borean Tundra|N|Scout the Nexus spire.|NC|
-C Eyes of the Dragon|QID|41628|QO|2|M|24.65,29.63|Z|Borean Tundra|N|Scout the Surge Needle.|NC|
-C Eyes of the Dragon|QID|41628|QO|3|M|25.16,27.83|Z|Borean Tundra|N|Scout the Nexus foundation.|NC|
-T Eyes of the Dragon|QID|41628|M|28.41,25.62|Z|Borean Tundra|N|To UI Alert.|
-A Harnessing the Holy Fire|QID|41629|M|28.41,25.62|Z|Borean Tundra|N|From UI Alert.|PRE|41628|
-C Harnessing the Holy Fire|QID|41629|QO|1|M|27.14,29.42|Z|Borean Tundra|N|Kill the elemental mobs and click on the balls of light to fill up the bar with Unstable Holy Energy, *dieing resets to zero*.|
-T Harnessing the Holy Fire|QID|41629|M|27.14,29.42|Z|Borean Tundra|N|To UI Alert.|
-A Unleashing Judgment|QID|41630|M|27.14,29.42|Z|Borean Tundra|N|From UI Alert.|PRE|41629|
-C Unleashing Judgment|QID|41630|QO|2|M|24.21,29.62|Z|Borean Tundra|NC|N|West Surge Needle destroyed.|
-C Unleashing Judgment|QID|41630|QO|3|M|27.38,20.34|Z|Borean Tundra|N|North Surge Needle destroyed.|
-C Unleashing Judgment|QID|41630|QO|1|M|32.73,27.79|Z|Borean Tundra|NC|N|East Surge Needle destroyed.|
-T Unleashing Judgment|QID|41630|M|32.73,27.79|Z|Borean Tundra|N|To UI Alert.|
-A The Nexus Vault|QID|41631|M|30.27,28.07|Z|Borean Tundra|N|From UI Alert.|PRE|41630|
+C A New Threat|QID|41626|QO|2|M|56.46,63.19|Z|115; Dragonblight|NC|N|Travel to the Azure Dragonshrine|
+C A New Threat|QID|41626|QO|3|M|54.49,65.02;56.05,67.55;54.80,67.56|CN|Z|115; Dragonblight|NC|N|Click on the glowing spots in this area.|
+T A New Threat|QID|41626|M|56.69,69.12|Z|115; Dragonblight|N|To Ethereal Communication Device.|
+A A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|115; Dragonblight|N|From Ethereal Communication Device.|PRE|41626|
+C A Forgotten Enemy|QID|41627|QO|1|M|56.69,69.12|Z|115; Dragonblight|NC|N|Activate the communication device|
+T A Forgotten Enemy|QID|41627|M|56.69,69.12|Z|115; Dragonblight|N|To UI Alert.|
+A Eyes of the Dragon|QID|41628|M|56.69,69.12|Z|115; Dragonblight|N|From UI Alert.|PRE|41627|
+C Eyes of the Dragon|QID|41628|QO|1|M|28.62,28.92|Z|114; Borean Tundra|N|Scout the Nexus spire.|NC|
+C Eyes of the Dragon|QID|41628|QO|2|M|24.65,29.63|Z|114; Borean Tundra|N|Scout the Surge Needle.|NC|
+C Eyes of the Dragon|QID|41628|QO|3|M|25.16,27.83|Z|114; Borean Tundra|N|Scout the Nexus foundation.|NC|
+T Eyes of the Dragon|QID|41628|M|28.41,25.62|Z|114; Borean Tundra|N|To UI Alert.|
+A Harnessing the Holy Fire|QID|41629|M|28.41,25.62|Z|114; Borean Tundra|N|From UI Alert.|PRE|41628|
+C Harnessing the Holy Fire|QID|41629|QO|1|M|27.14,29.42|Z|114; Borean Tundra|N|Kill the elemental mobs and click on the balls of light to fill up the bar with Unstable Holy Energy, *dieing resets to zero*.|
+T Harnessing the Holy Fire|QID|41629|M|27.14,29.42|Z|114; Borean Tundra|N|To UI Alert.|
+A Unleashing Judgment|QID|41630|M|27.14,29.42|Z|114; Borean Tundra|N|From UI Alert.|PRE|41629|
+C Unleashing Judgment|QID|41630|QO|2|M|24.21,29.62|Z|114; Borean Tundra|NC|N|West Surge Needle destroyed.|
+C Unleashing Judgment|QID|41630|QO|3|M|27.38,20.34|Z|114; Borean Tundra|N|North Surge Needle destroyed.|
+C Unleashing Judgment|QID|41630|QO|1|M|32.73,27.79|Z|114; Borean Tundra|NC|N|East Surge Needle destroyed.|
+T Unleashing Judgment|QID|41630|M|32.73,27.79|Z|114; Borean Tundra|N|To UI Alert.|
+A The Nexus Vault|QID|41631|M|30.27,28.07|Z|114; Borean Tundra|N|From UI Alert.|PRE|41630|
 C The Azure Prisoner|QID|41631|SO|1;1|M|36.14,70.13|Z|TheBeyond/1|N|Free Azuregos from the ethereals by defeating the Voidtouched Channelers binding him.|
 C Azuregos healed to full|QID|41631|SO|1;2|M|36.17,67.57|Z|TheBeyond/1|NC|N|Azuregos healed to full.|
 C Reach the Librarium|QID|41631|SO|2|M|27.10,67.53;18.86,50.72;27.65,39.95|CS|Z|TheBeyond/1|N|Reach the Librarium. Time your passage over the shooting flames to when they are not erupting. Use your shields.|

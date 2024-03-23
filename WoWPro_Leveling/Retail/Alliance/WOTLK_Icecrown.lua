@@ -83,10 +83,10 @@ T The Boon of Remulos|QID|13075|N|There's a portal right next to Remulos. Return
 A Time Yet Remains|QID|13076|PRE|13075|N|From Crusader Bridenbrad.|
 T Time Yet Remains|QID|13076|N|To Highlord Tirion Fordring.|M|79.80,71.80|
 A The Touch of an Aspect|QID|13077|PRE|13076|N|From Highlord Tirion Fordring.|
-T The Touch of an Aspect|QID|13077|N|To Alextrasza the Life-Binder on top of Wyrmrest Temple in the Dragonblight.|Z|Dragonblight|M|59.80,54.60|
+T The Touch of an Aspect|QID|13077|N|To Alextrasza the Life-Binder on top of Wyrmrest Temple in the Dragonblight.|Z|115; Dragonblight|M|59.80,54.60|
 A Dahlia's Tears|QID|13078|PRE|13077|N|From Alexstrasza.|
-C Dahlia's Tears|QID|13078|N|Fly to the place where the Red Dragonflight is fighting the Scourge coming out of the Ruby Dragonshrine. Wait a little for the Ruby Keeper to appear and blast the Scourge with fire, a flower will bloom at that place. Collect it.|Z|Dragonblight|M|50.67,52.43|
-T Dahlia's Tears|QID|13078|N|To Alextrasza the Life-Binder on top of Wyrmrest Temple.|Z|Dragonblight|M|59.80,54.60|
+C Dahlia's Tears|QID|13078|N|Fly to the place where the Red Dragonflight is fighting the Scourge coming out of the Ruby Dragonshrine. Wait a little for the Ruby Keeper to appear and blast the Scourge with fire, a flower will bloom at that place. Collect it.|Z|115; Dragonblight|M|50.67,52.43|
+T Dahlia's Tears|QID|13078|N|To Alextrasza the Life-Binder on top of Wyrmrest Temple.|Z|115; Dragonblight|M|59.80,54.60|
 A The Boon of Alexstrasza|QID|13079|PRE|13078|N|From Alexstrasza.|
 T The Boon of Alexstrasza|QID|13079|N|Return to Crusader Bridenbrad.|M|79.80,30.80|
 A Hope Yet Remains|QID|13080|PRE|13079|N|From Crusader Bridenbrad.|

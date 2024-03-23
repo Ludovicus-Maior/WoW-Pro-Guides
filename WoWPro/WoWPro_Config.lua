@@ -1183,7 +1183,7 @@ local function createGuideConfig()
                 blah = {
                     order = 11,
                     type = "description",
-                    name = "Please right click on the guide header on the gear icon for now.\nWe will try to restore this way of selecting guides, but it will take a bit of time.",
+                    name = "Please right click on the guide header on the gear icon for now and choose Old Style Guide List. leveling guides are not yet implemented.",
                     width = "full"
                 },
         }
@@ -1199,7 +1199,7 @@ local function createCurrentGuideConfig()
             header = {
                 order = 1,
                 type = "header",
-                name = "For Now, We Need To Click The Button Below To Show and Hide The Current Guide Frame.",
+                name = "You need to click the Button to Open and Close the Current Guide BEFORE choosing another tab.",
             },
             openGuide = {
                 order = 2,

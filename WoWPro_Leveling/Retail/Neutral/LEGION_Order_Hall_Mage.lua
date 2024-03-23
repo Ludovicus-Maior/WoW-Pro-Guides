@@ -220,28 +220,28 @@ T Aluneth, Greatstaff of the Magna|QID|42001|M|28.69,49.94|Z|Dalaran!Dalaran!Dun
 A A New Threat|QID|42006|M|28.69,49.94|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kalec.|PRE|42001|
 R Chamber of the Guardians|QID|42006|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|ACTIVE|42006|
 C A New Threat|QID|42006|M|31.22,83.42|Z|Aegwynn's Gallery@Dalaran70|QO|1|N|Optional - Use the Dalaran Portal to Wrymrest Temple.|
-C A New Threat|QID|42006|M|55.74,63.89|Z|Dragonblight|QO|2|N|Travel to the Azure Dragonshrine|
-C A New Threat|QID|42006|M|56.57,67.86;56.2,66.47;55.92,64.85|Z|Dragonblight|CN|QO|3|N|Find the 3 Clues.|
-T A New Threat|QID|42006|M|56.67,69.13|Z|Dragonblight|N|To Ethereal Communication Device.|
-A A Forgotten Enemy|QID|42007|M|56.67,69.13|Z|Dragonblight|N|From Ethereal Communication Device.|PRE|42006|
-C A Forgotten Enemy|QID|42007|M|56.67,69.15|Z|Dragonblight|QO|1|N|Click the glowing lever to activate the communication device.|
-T A Forgotten Enemy|QID|42007|M|56.69,69.12|Z|Dragonblight|N|To UI Alert.|
-A Eyes of the Dragon|QID|42008|M|56.69,69.12|Z|Dragonblight|N|From UI Alert.|PRE|42007|
+C A New Threat|QID|42006|M|55.74,63.89|Z|115; Dragonblight|QO|2|N|Travel to the Azure Dragonshrine|
+C A New Threat|QID|42006|M|56.57,67.86;56.2,66.47;55.92,64.85|Z|115; Dragonblight|CN|QO|3|N|Find the 3 Clues.|
+T A New Threat|QID|42006|M|56.67,69.13|Z|115; Dragonblight|N|To Ethereal Communication Device.|
+A A Forgotten Enemy|QID|42007|M|56.67,69.13|Z|115; Dragonblight|N|From Ethereal Communication Device.|PRE|42006|
+C A Forgotten Enemy|QID|42007|M|56.67,69.15|Z|115; Dragonblight|QO|1|N|Click the glowing lever to activate the communication device.|
+T A Forgotten Enemy|QID|42007|M|56.69,69.12|Z|115; Dragonblight|N|To UI Alert.|
+A Eyes of the Dragon|QID|42008|M|56.69,69.12|Z|115; Dragonblight|N|From UI Alert.|PRE|42007|
 F Coldarra|QID|42008|M|35,27|N|Fly to Coldarra in Borean Tundra.|ACTIVE|42008|
-C Eyes of the Dragon|QID|42008|M|29.32,26.68|Z|Borean Tundra|QO|1|NC|N|Nexus spire scouted|
-C Eyes of the Dragon|QID|42008|M|32.21,27.83|Z|Borean Tundra|QO|2|NC|N|Surge Needle scouted|
-C Eyes of the Dragon|QID|42008|M|26.50,25.34|Z|Borean Tundra|QO|3|NC|N|Nexus foundation scouted|
-T Eyes of the Dragon|QID|42008|M|26.50,25.34|Z|Borean Tundra|N|To UI Alert.|
-A Harnessing the Arcane|QID|42009|M|26.32,25.48|Z|Borean Tundra|N|From UI Alert.|PRE|42008|
-C Harnessing the Arcane|QID|42009|M|29.16,25.70|Z|Borean Tundra|QO|1|N|Click on the 'Breach of Arcane Energy' and kill the Arcane Aberrants to complete your progress bar.  Avoid dieing as it resets your progress.|
-T Harnessing the Arcane|QID|42009|M|28.92,26.13|Z|Borean Tundra|N|From UI Alert.|
-A Arcane Unleashed|QID|42010|M|28.92,26.13|Z|Borean Tundra|N|UI Alert.|PRE|42009|
-C Arcane Unleashed|QID|42010|M|27.32,20.40|Z|Borean Tundra|QO|3|NC|N|Click on the purple mass in the center.|
-C Arcane Unleashed|QID|42010|M|32.69,27.81|Z|Borean Tundra|QO|1|NC|N|Click on the purple mass in the center.|
-C Arcane Unleashed|QID|42010|M|24.17,29.59|Z|Borean Tundra|QO|2|N|This one you have to fight first, then click the void shadows to destroy it.|
-T Arcane Unleashed|QID|42010|M|23.95,29.50|Z|Borean Tundra|N|To UI Alert.|
-A The Nexus Vault|QID|42011|M|23.95,29.50|Z|Borean Tundra|N|From UI Alert.|PRE|42010|
-R The Nexus|QID|42011|M|27.52,26.60|Z|Borean Tundra|CC|N|Run into the Nexus instance to start a solo scenario.|ACTIVE|42011|
+C Eyes of the Dragon|QID|42008|M|29.32,26.68|Z|114; Borean Tundra|QO|1|NC|N|Nexus spire scouted|
+C Eyes of the Dragon|QID|42008|M|32.21,27.83|Z|114; Borean Tundra|QO|2|NC|N|Surge Needle scouted|
+C Eyes of the Dragon|QID|42008|M|26.50,25.34|Z|114; Borean Tundra|QO|3|NC|N|Nexus foundation scouted|
+T Eyes of the Dragon|QID|42008|M|26.50,25.34|Z|114; Borean Tundra|N|To UI Alert.|
+A Harnessing the Arcane|QID|42009|M|26.32,25.48|Z|114; Borean Tundra|N|From UI Alert.|PRE|42008|
+C Harnessing the Arcane|QID|42009|M|29.16,25.70|Z|114; Borean Tundra|QO|1|N|Click on the 'Breach of Arcane Energy' and kill the Arcane Aberrants to complete your progress bar.  Avoid dieing as it resets your progress.|
+T Harnessing the Arcane|QID|42009|M|28.92,26.13|Z|114; Borean Tundra|N|From UI Alert.|
+A Arcane Unleashed|QID|42010|M|28.92,26.13|Z|114; Borean Tundra|N|UI Alert.|PRE|42009|
+C Arcane Unleashed|QID|42010|M|27.32,20.40|Z|114; Borean Tundra|QO|3|NC|N|Click on the purple mass in the center.|
+C Arcane Unleashed|QID|42010|M|32.69,27.81|Z|114; Borean Tundra|QO|1|NC|N|Click on the purple mass in the center.|
+C Arcane Unleashed|QID|42010|M|24.17,29.59|Z|114; Borean Tundra|QO|2|N|This one you have to fight first, then click the void shadows to destroy it.|
+T Arcane Unleashed|QID|42010|M|23.95,29.50|Z|114; Borean Tundra|N|To UI Alert.|
+A The Nexus Vault|QID|42011|M|23.95,29.50|Z|114; Borean Tundra|N|From UI Alert.|PRE|42010|
+R The Nexus|QID|42011|M|27.52,26.60|Z|114; Borean Tundra|CC|N|Run into the Nexus instance to start a solo scenario.|ACTIVE|42011|
 C The Azure Prisoner|QID|42011|M|35.71,68.94|Z|The Nexus|N|Free Azuregos by defeating the mages guarding him.(One continuous fight, but only one at a time - Fire, Frost, then Arcane).|
 C Reach the Librarium|QID|42011|M|27.29,33.74|Z|The Nexus|SO|2;1|N|Reach the Librarium|
 C Find a way into the vault|QID|42011|M|27.68,39.77|Z|The Nexus|SO|2;2|N|Find a way into the vault|
