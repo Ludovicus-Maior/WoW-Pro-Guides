@@ -1,14 +1,14 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="40_45_Crackerhead22_Eastern_Plaguelands.lua"/>
-  <Script file="48_50_Crackerhead22_Searing_Gorge.lua"/>
-  <Script file="50_55_Jiyambi_UnGoro.lua"/>
-  <Script file="50_55_Jiyambi_Winterspring.lua"/>
-  <Script file="55_58_Jame_Scarlet_Enclave.lua"/>
-  <Script file="55_60_Jiyambi_Silithus.lua"/>
-  <Script file="69_70_Crackerhead22_Netherstorm.lua"/>
-  <Script file="77_78_Scoot_ZulDrak.lua"/>
-  <Script file="78_79_Scoot_Sholazar_Basin.lua"/>
-  <Script file="80_82_Arixan_Hyjal.lua"/>
-  <Script file="82_83_Arixan_Deepholm.lua"/>
-  <Script file="83_84_Arixan_Uldum.lua"/>
+	<Script file="BC_Netherstorm.lua"/>
+	<Script file="CATA_Deepholm.lua"/>
+	<Script file="CATA_Eastern_Plaguelands.lua"/>
+	<Script file="CATA_Mount_Hyjal.lua"/>
+	<Script file="CATA_Searing_Gorge.lua"/>
+	<Script file="CATA_Silithus.lua"/>
+	<Script file="CATA_Uldum.lua"/>
+	<Script file="CATA_UnGoro.lua"/>
+	<Script file="CATA_Winterspring.lua"/>
+	<Script file="INTRO_DeathKnight.lua"/>
+	<Script file="WOTLK_Sholazar_Basin.lua"/>
+	<Script file="WOTLK_ZulDrak.lua"/>
 </Ui>
