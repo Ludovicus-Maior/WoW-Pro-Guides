@@ -25,7 +25,6 @@
 	<Script file="CATA_Felwood.lua"/>
 	<Script file="CATA_Feralas.lua"/>
 	<Script file="CATA_Ghostlands.lua"/>
-	<Script file="CATA_Guide_Hub.lua"/>
 	<Script file="CATA_Hillsbrad_Foothills.lua"/>
 	<Script file="CATA_Hinterlands.lua"/>
 	<Script file="CATA_Northern_Barrens.lua"/>

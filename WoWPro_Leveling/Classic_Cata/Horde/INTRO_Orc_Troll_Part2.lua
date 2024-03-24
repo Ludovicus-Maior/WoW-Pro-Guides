@@ -10,7 +10,7 @@ return [[
 A Breaking the Chain|QID|25167|PRE|25073|M|56.02,74.71|N|From Master Gadrin.|LVL|4|
 A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|N|From Bom'bay.|
 f Sen'jin Village|QID|25170|M|55.40,73.40|N|At Handler Marnlek.|
-= Professions|ACTIVE|25170|M|PLAyer|CC|N|If you wish, train in Herbalism, Alchemy, or Fishing.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Sen'jin Village|
+= Professions|ACTIVE|25170|M|PLAYER|CC|N|If you wish, train in Herbalism, Alchemy, or Fishing.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Sen'jin Village|
 C Cleaning Up the Coastline|QID|25170|M|59.02,74.41|L|4888 5|ITEM|4888|N|Pygmy Surf Crawlers|S|
 C Breaking the Chain|QID|25167|QO|1;2|M|52.45,80.60|N|Destroy the Northwatch Supply Crates and kill 10 Northwatch Lugs.|
 C Cleaning Up the Coastline|QID|25170|M|59.02,74.41|L|4888 5|ITEM|4888|N|Pygmy Surf Crawlers|US|
