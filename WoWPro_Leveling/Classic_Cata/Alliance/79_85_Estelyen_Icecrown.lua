@@ -53,7 +53,7 @@
 -- Date: 2010-12-03 22:35
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("EstIce7985", "Icecrown", "Estelyen", "79", "85", "Arihyj8082", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("EstIce7985", "Icecrown", "Estelyen", "79", "85", "Arihyj8082", "Alliance", function()
 return [[
 N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
 A Preparations for War|QID|13418|N|From Officer Van Rossem on Krasus Landing in Dalaran.|Z|Dalaran|M|68.80,46.60|

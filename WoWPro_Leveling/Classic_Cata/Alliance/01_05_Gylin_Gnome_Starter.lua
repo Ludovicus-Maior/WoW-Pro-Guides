@@ -220,7 +220,7 @@
 -- Date: 2010-12-02 21:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh (Gnome)", "Gylin - Gnome", "01", "05", "GamDun0510", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("GylGno0105", "Dun Morogh (Gnome)", "Gylin - Gnome", "01", "05", "GamDun0510", "Alliance", function()
 return
 [[
 

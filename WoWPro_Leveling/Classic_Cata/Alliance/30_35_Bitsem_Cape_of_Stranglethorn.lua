@@ -67,7 +67,7 @@
 -- Date: 2010-12-03 11:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitCap3035', 'The Cape of Stranglethorn', 'Bitsem', '30', '35', 'BitWes3540', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('BitCap3035', 'The Cape of Stranglethorn', 'Bitsem', '30', '35', 'BitWes3540', 'Alliance', function()
 return [[
 
 L Level 29 |QID|26805|N|You need to be Level 29 to work this guide.|LVL|29|

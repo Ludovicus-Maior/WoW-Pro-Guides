@@ -44,7 +44,7 @@
 -- Date: 2010-12-03 10:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', '25', '30', 'CraHin3035', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('BitAra2025', 'Arathi Highlands', 'Bitsem', '25', '30', 'CraHin3035', 'Alliance', function()
 return [[
 
 T Into Arathi|QID|26139|O|M|39.92,48.73|N|To Captain Nials.|

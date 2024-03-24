@@ -62,7 +62,7 @@
 -- Date: 2010-12-03 07:35
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "12", "20", "WkjAsh2025", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("SveBlo1220", "Bloodmyst Isle", "Sven", "12", "20", "WkjAsh2025", "Alliance", function()
 return [[
 
 R Bloodmyst Isle |QID|9624|M|65.25,94.00|Z|Bloodmyst Isle|N|There are two quests to lead you to Bloodmyst Isle. 'Elekks Are Serious Business' from Torallius the Pack Handler outside The Exodar if you have done the Coming of Age quest in Azuremyst Isle, or Hero's Call: Bloodmyst Isle! from the Hero's Callboard in The Exodar. Take either of these two quests, then head north to Booodmyst Isle.|

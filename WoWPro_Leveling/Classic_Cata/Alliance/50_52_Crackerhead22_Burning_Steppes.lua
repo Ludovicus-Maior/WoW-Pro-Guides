@@ -41,7 +41,7 @@
 -- Date: 2010-12-03 11:58
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', '50', '52', 'CraSwa5254', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraBur5052', 'Burning Steppes', 'Crackerhead22', '50', '52', 'CraSwa5254', 'Alliance', function()
 return [[
 
 H Iron Summit|QID|28514|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|

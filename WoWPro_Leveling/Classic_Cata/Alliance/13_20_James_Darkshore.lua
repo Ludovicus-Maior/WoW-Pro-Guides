@@ -92,7 +92,7 @@
 -- Date: 2010-12-03 07:32
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamDar1320", "Darkshore", "Jame", "13", "20", "WkjAsh2025", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamDar1320", "Darkshore", "Jame", "13", "20", "WkjAsh2025", "Alliance", function()
 return [[
 
 L Level 8 |QID|13518|LVL|8|N|This guide requires a minimum level of 8 to do.|

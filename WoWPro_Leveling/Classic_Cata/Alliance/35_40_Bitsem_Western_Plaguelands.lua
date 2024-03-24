@@ -66,7 +66,7 @@
 -- Date: 2010-12-03 11:22
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitWes3540', 'Western Plaguelands', 'Bitsem', '35', '40', 'CraEas4045', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('BitWes3540', 'Western Plaguelands', 'Bitsem', '35', '40', 'CraEas4045', 'Alliance', function()
 return [[
 
 L Level 34 |QID|27161|N|You need to be Level 34 to do this guide.|LVL|34|

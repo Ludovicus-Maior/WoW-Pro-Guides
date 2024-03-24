@@ -39,7 +39,7 @@
 -- Date: 2010-12-03 11:44
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', '45', '50', 'JiyWin5055', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('WkjFel4550', 'Felwood', 'Wkjezz', '45', '50', 'JiyWin5055', 'Alliance', function()
 return [[
 
 N Note|QID|28100|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|

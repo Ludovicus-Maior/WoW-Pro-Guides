@@ -147,7 +147,7 @@
 -- Date: 2010-12-03 07:17
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("RpoGil0113", "Gilneas (Worgen)", "Rpotor", "01", "13", "JamDar1320", "Alliance", function()
 return [[
 
 ; Zone is Ruins of Gilneas City

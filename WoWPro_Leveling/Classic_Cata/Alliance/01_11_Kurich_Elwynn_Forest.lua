@@ -101,7 +101,7 @@
 -- Date: 2010-12-02 09:42
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest(Human)", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("KurElw0111", "Elwynn Forest(Human)", "Kurich", "01", "11", "BitWes1020", "Alliance", function()
 return [[
 
 A Beating Them Back!|QID|28762|C|Paladin|M|48.20,42.06|R|Human|N|From Marshal McBride.|

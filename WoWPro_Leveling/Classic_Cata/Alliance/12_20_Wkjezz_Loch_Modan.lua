@@ -88,7 +88,7 @@
 -- Date: 2010-12-03 07:29
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', '12', '20', 'WkjWet2025', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('WkjLoc1220', 'Loch Modan', 'Wkjezz', '12', '20', 'WkjWet2025', 'Alliance', function()
 return [[
 
 F South Gate Outpost|QID|26131|Z|Ironforge|M|55.49,47.78|N|Talk to Gryth Thurden, and ask him to fly you to Loch Modan.|

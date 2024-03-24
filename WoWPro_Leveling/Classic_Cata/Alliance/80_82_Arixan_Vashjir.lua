@@ -217,7 +217,7 @@
 -- Date: 2010-12-03 22:59
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('AriVasA8082', "Vashj'ir", 'Arixan', '80', '82', 'AriDee8283', 'Alliance', function()
 return [[
 
 T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This should be in your quest log when you enter Stormwind. Turn in at Naraat the Earthspeaker|

@@ -51,7 +51,7 @@
 -- Date: 2010-12-03 07:27
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("KurRed1520", "Redridge Mountains", "Kurich", "15", "20", "TwiDus2025", "Alliance", function()
 return [[
 
 L Level 14 |QID|13518|LVL|8|N|This guide requires a minimum level of 14 to do.|

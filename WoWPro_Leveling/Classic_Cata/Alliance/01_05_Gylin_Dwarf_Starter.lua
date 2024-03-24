@@ -220,7 +220,7 @@
 -- Date: 2010-12-02 21:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh (Dwarf)", "Gylin - Dwarf", "01", "05", "GamDun0510", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("GylDwa0105", "Dun Morogh (Dwarf)", "Gylin - Dwarf", "01", "05", "GamDun0510", "Alliance", function()
 return
 [[
 

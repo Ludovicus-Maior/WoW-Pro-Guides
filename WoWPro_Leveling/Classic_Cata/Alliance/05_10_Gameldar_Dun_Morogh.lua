@@ -220,7 +220,7 @@
 -- Date: 2010-12-02 21:46
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', '05', '10', 'WkjLoc1220', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('GamDun0510', 'Dun Morogh', 'Gameldar', '05', '10', 'WkjLoc1220', 'Alliance', function()
 return [[
 
 A Beer Basted Boar Ribs|QID|384|M|53.89,50.79|N|From Ragnar Thunderbrew. Kill any boars you see from now on for Tender Boar Meat.|

@@ -55,7 +55,7 @@
 -- Date: 2010-12-03 07:40
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjWet2025', 'Wetlands', 'Wkjezz', '20', '25', 'BitAra2025', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('WkjWet2025', 'Wetlands', 'Wkjezz', '20', '25', 'BitAra2025', 'Alliance', function()
 return [[
 
 A Checking on the Boys|QID|26137|M|25.55,17.79|Z|Loch Modan|N|From Mountaineer Stormpike.|

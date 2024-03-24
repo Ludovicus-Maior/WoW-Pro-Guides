@@ -54,7 +54,7 @@
 -- Date: 2010-12-03 12:01
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraBla5458', 'Blasted Lands', 'Crackerhead22', '54', '58', 'JamHel6062', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraBla5458', 'Blasted Lands', 'Crackerhead22', '54', '58', 'JamHel6062', 'Alliance', function()
 return [[
 
 L Level 54 |QID|25715|L|54|N|You need to be Level 54 to do this guide.|

@@ -92,7 +92,7 @@
 -- Date: 2010-12-03 21:57
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraSha7070A', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', 'JamBor6872', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraSha7070A', 'Shadowmoon Valley', 'Crackerhead22', '69', '70', 'JamBor6872', 'Alliance', function()
 return [[
 
 A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|

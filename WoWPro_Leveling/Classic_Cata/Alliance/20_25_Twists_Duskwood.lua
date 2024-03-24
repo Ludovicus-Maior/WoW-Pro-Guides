@@ -62,7 +62,7 @@
 -- Date: 2010-12-03 07:38
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("TwiDus2025", "Duskwood", "Twists", "20", "25", "SavNorStr2530", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("TwiDus2025", "Duskwood", "Twists", "20", "25", "SavNorStr2530", "Alliance", function()
 return
 [[
 

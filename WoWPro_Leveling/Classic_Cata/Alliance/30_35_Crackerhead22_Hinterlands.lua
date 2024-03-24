@@ -46,7 +46,7 @@
 -- Date: 2010-12-03 11:12
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraHin3035', 'The Hinterlands', 'Crackerhead22', '30', '35', 'BitWes3540', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraHin3035', 'The Hinterlands', 'Crackerhead22', '30', '35', 'BitWes3540', 'Alliance', function()
 return [[
 
 R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|N|Follow the waypoints to The Hinterlands.|

@@ -104,7 +104,7 @@
 -- Date: 2010-12-03 09:14
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjAsh2025', 'Ashenvale', 'WKJezz', '20', '25', 'WkjSton2530', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('WkjAsh2025', 'Ashenvale', 'WKJezz', '20', '25', 'WkjSton2530', 'Alliance', function()
 
 
 return [[

@@ -41,7 +41,7 @@
 -- Date: 2010-12-03 11:28
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', '45', '48', 'CraSea4850', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraBad4548', 'Badlands', 'Crackerhead22', '45', '48', 'CraSea4850', 'Alliance', function()
 return [[
 L Level 44 |QID|27762|LVL|44|N|This guide requires a minimum level of 44 to do.|
 

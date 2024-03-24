@@ -36,7 +36,7 @@
 -- Date: 2010-12-03 22:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamHow7274", "Howling Fjord", "Jame", "72", "74", "JamDra7475", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamHow7274", "Howling Fjord", "Jame", "72", "74", "JamDra7475", "Alliance", function()
 return [[
 
 A Hell Has Frozen Over... |QID|11228|M|61.1,62.7|N|From Macalroy.|

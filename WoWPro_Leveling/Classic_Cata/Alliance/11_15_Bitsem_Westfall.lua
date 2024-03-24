@@ -67,7 +67,7 @@
 -- Date: 2010-12-03 07:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('BitWes1020', 'Westfall', 'Bitsem', '10', '15', 'KurRed1520', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('BitWes1020', 'Westfall', 'Bitsem', '10', '15', 'KurRed1520', 'Alliance', function()
 return [[
 
 L Level 9 |QID|26209|N|You need to be Level 9 to work this guide.|

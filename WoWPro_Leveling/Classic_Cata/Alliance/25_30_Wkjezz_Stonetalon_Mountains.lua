@@ -41,7 +41,7 @@
 -- Date: 2010-12-03 10:43
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjSton2530', 'Stonetalon Mountains', 'WKjezz', '25', '30', 'WkjDes3035', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('WkjSton2530', 'Stonetalon Mountains', 'WKjezz', '25', '30', 'WkjDes3035', 'Alliance', function()
 return [[
 
 L Level 24 |N|You need to be Level 24 to work this guide.|QID|25614|LVL|24|

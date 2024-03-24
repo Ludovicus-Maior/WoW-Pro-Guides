@@ -39,7 +39,7 @@
 -- Date: 2010-12-03 11:30
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraSwa5254', 'Swamp of Sorrows', 'Crackerhead22', '52', '54', 'CraBla5458', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraSwa5254', 'Swamp of Sorrows', 'Crackerhead22', '52', '54', 'CraBla5458', 'Alliance', function()
 return [[
 
 A Maliciously Delicious|QID|27587|M|73.07,14.74|N|From Trade Baron Silversnap.|

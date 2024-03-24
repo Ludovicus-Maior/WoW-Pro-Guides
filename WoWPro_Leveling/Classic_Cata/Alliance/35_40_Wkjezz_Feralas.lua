@@ -26,7 +26,7 @@
 -- Date: 2010-12-03 11:20
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('WkjFer3540', 'Feralas', 'WKjezz', '35', '40', 'WkjTho4045', 'Alliance', function()
 return [[
 
 R Feralas|QID|14410|M|42.81,97.92|Z|Desolace|N|Run to Feralas.|

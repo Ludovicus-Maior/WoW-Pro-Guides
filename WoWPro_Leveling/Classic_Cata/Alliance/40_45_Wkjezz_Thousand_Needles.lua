@@ -77,7 +77,7 @@
 -- Date: 2010-12-03 11:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjTho4045', 'Thousand Needles', 'Wkjezz', '40', '45', 'WkjTan4550', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('WkjTho4045', 'Thousand Needles', 'Wkjezz', '40', '45', 'WkjTan4550', 'Alliance', function()
 return [[
 
 F New Thalanaar|QID|28503|N|If you already know how to get to New Thalanaar, and if your level isn't too high, you can take Hero's Call: Thousand Needles! from Darnassus or The Exodar.|Z|Feralas|M|86,45.2|

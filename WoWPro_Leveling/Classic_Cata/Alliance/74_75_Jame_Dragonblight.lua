@@ -60,7 +60,7 @@
 -- Date: 2010-12-03 22:18
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGriA7577", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamDra7475", "Dragonblight", "Jame", "74", "75", "JamGriA7577", "Alliance", function()
 return [[
 
 ; Missing Quests:

@@ -78,7 +78,7 @@
 -- Date: 2010-12-03 21:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamTer6466", "Terokkar Forest", "Jame", "64", "66", "JamNag6668", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamTer6466", "Terokkar Forest", "Jame", "64", "66", "JamNag6668", "Alliance", function()
 return [[
 F Shattrath City|QID|10211|N|Fly to Shattrath City.|M|41.28,28.98|Z|Zangarmarsh|
 A A'dal|Z|Shattrath City|QID|10210|M|59.70,41.45|N|From Haggard War Veteran.|

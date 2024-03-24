@@ -52,7 +52,7 @@
 -- Date: 2010-12-03 21:36
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor6872", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamBla6870", "Blade's Edge Mountains", "Jame", "68", "70", "JamBor6872", "Alliance", function()
 return [[
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock at your repective faction.|

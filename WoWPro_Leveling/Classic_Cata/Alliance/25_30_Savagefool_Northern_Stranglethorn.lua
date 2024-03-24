@@ -36,7 +36,7 @@
 -- Date: 2010-12-03 10:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('SavNorStr2530', 'Northern Stranglethorn', 'Savagefool', '25', '30', 'BitCap3035', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('SavNorStr2530', 'Northern Stranglethorn', 'Savagefool', '25', '30', 'BitCap3035', 'Alliance', function()
 return [[
 
 L Level 24 |LVL|24|QID|26740|N|You need to be level 24 to do this guide.|

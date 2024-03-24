@@ -86,7 +86,7 @@
 -- Date: 2010-12-03 22:13
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamBor6872", "Borean Tundra", "Jame", "68", "72", "JamHow7274", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamBor6872", "Borean Tundra", "Jame", "68", "72", "JamHow7274", "Alliance", function()
 return [[
 
 B Overcharged Capacitor |QID|11650|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest pays out 4g70s and 20k XP and leads to two further quests each worth the same (and one with a 2-3g green reward), so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|M|62.9,71.7|Z|Stormwind City|

@@ -94,7 +94,7 @@
 -- Date: 2010-12-03 23:28
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', '84', '85', nil, 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('MagTwi8485', 'Twilight Highlands', 'Melliandra', '84', '85', nil, 'Alliance', function()
 return [[
 
 L Level 84 |QID|28716|LVL|84|N|You need to be Level 84 to do this guide.|

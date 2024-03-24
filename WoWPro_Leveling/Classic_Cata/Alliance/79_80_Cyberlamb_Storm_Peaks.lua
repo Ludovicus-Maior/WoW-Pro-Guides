@@ -31,7 +31,7 @@
 -- Date: 2010-12-03 22:32
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "EstIce7985", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("CybSto7980", "The Storm Peaks", "Cyberlamb", "79", "80", "EstIce7985", "Alliance", function()
 return [[
 
 N READ THIS!|QID|12818|N|This guide picks up only non-group, non-instance quests.|

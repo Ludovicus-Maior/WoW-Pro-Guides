@@ -64,7 +64,7 @@
 -- Date: 2010-12-03 11:48
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', '45', '50', 'JiyUng5055', 'Alliance', function()
+local guide = WoWPro.Leveling:RegisterGuide('WkjTan4550', 'Tanaris', 'Wkjezz', '45', '50', 'JiyUng5055', 'Alliance', function()
 return [[
 
 L Level 44 |QID|27446|LVL|44|N|You need to be Level 44 to work this guide.|

@@ -68,7 +68,7 @@
 -- Date: 2010-12-03 22:24
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamGriA7577", "Grizzly Hills", "Jame", "75", "77", "ScoZul7778", "Alliance", function()
 return [[
 
 f Amberpine Lodge |QID|12511|M|31.33,59.16|N|Grab the flightpoint at Vana Grey.|

@@ -76,7 +76,7 @@
 -- Date: 2010-12-03 12:11
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamZan6264", "Zangarmarsh", "Jame", "62","64", "JamTer6466", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamZan6264", "Zangarmarsh", "Jame", "62","64", "JamTer6466", "Alliance", function()
 return [[
 
 R Zangarmarsh|QID|9912|N|Go to Zangarmarsh.|M|82.9,65.08|

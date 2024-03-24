@@ -73,7 +73,7 @@
 -- Date: 2010-12-03 21:34
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("JamNag6668", "Nagrand", "Jame", "66", "68", "JamBla6870", "Alliance", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamNag6668", "Nagrand", "Jame", "66", "68", "JamBla6870", "Alliance", function()
 return [[
 
 R Nagrand|QID|9792|N|Go to Nagrand.|M|20.30,55.60|
