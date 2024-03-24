@@ -38,7 +38,7 @@
 -- Date: 2010-12-03 11:52
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560|JiySil5560', 'Neutral', function()
+local guide = WoWPro.Leveling:RegisterGuide('JiyUng5055', "Un'Goro Crater", 'Jiyambi', '50', '55', 'JiySil5560|JiySil5560', 'Neutral', function()
 return [[
 
 N Devilsaurs|QID|24720|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|

@@ -50,7 +50,7 @@
 -- Who: Ludovicus Maior
 -- Log: Initial Version
 
-WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
+local guide = WoWPro.Leveling:RegisterGuide('FlucloPanda', 'The Wandering Isle', 'Fluclo', '01', '12', 'WkjLoc1220|BitAzs1220', 'Neutral', function()
 return [[
 
 ; Non Pandarian can't get here.

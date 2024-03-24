@@ -82,7 +82,7 @@
 -- Date: 2010-12-03 11:33
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548|LiaBad4548', 'Neutral', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraEas4045', 'Eastern Plaguelands', 'Crackerhead22', '40', '45', 'CraBad4548|LiaBad4548', 'Neutral', function()
 return [[
 
 L Level 39 |QID|27367|N|You need to be Level 39 to do this guide.|LVL|39|

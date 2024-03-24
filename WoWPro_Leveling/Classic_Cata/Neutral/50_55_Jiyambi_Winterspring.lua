@@ -54,7 +54,7 @@
 -- Date: 2010-12-03 11:55
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'CraBla5458|JiyBla5560', 'Neutral', function()
+local guide = WoWPro.Leveling:RegisterGuide('JiyWin5055', 'Winterspring', 'Jiyambi', '50', '55', 'CraBla5458|JiyBla5560', 'Neutral', function()
 return [[
 
 R Winterspring|QID|28521|M|21.04,46.22|N|Head through the Timbermaw tunnels to Winterspring.|

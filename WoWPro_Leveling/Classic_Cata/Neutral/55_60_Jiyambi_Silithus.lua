@@ -54,7 +54,7 @@
 -- Date: 2010-12-03 12:07
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'CraBla5458|JiyBla5560', 'Neutral', function()
+local guide = WoWPro.Leveling:RegisterGuide('JiySil5560', 'Silithus', 'Jiyambi', '55', '60', 'CraBla5458|JiyBla5560', 'Neutral', function()
 return [[
 
 F Cenarion Hold|QID|8318|M|55.97,64.15|N|Fly to Cenarion Hold.|Z|Un'Goro Crater|

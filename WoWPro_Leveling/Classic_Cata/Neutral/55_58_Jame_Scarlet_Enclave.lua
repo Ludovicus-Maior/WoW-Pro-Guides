@@ -35,7 +35,7 @@
 -- Who: Ludovicus Maior
 -- Log: Initial Create
 
-WoWPro.Leveling:RegisterGuide("JamScar5558", "ScarletEnclave (Death Knight)", "Jame", "55", "58", "CraBla5458|JiyBla5560", "Neutral", function()
+local guide = WoWPro.Leveling:RegisterGuide("JamScar5558", "ScarletEnclave (Death Knight)", "Jame", "55", "58", "CraBla5458|JiyBla5560", "Neutral", function()
 return [[
 
 A In Service Of The Lich King |QID|12593|N|From The Lich King.|M|51.3,35.2|

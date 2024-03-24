@@ -49,7 +49,7 @@
 -- Date: 2010-12-03 22:30
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide("ScoSho7879", "Sholazar Basin", "Scoot", "78", "79", "EstIce7985|ScoSto7980", "Neutral", function()
+local guide = WoWPro.Leveling:RegisterGuide("ScoSho7879", "Sholazar Basin", "Scoot", "78", "79", "EstIce7985|ScoSto7980", "Neutral", function()
 return [[
 
 F Dalaran |QID|12521| |N|Head to Dalaran.|

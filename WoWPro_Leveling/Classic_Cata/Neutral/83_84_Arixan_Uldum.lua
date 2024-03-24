@@ -104,7 +104,7 @@
 -- Date: 2010-12-03 23:21
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'MagTwi8485|LiaTwi8485', 'Neutral', function()
+local guide = WoWPro.Leveling:RegisterGuide('AriUld8384', 'Uldum', 'Hezkezl', '83', '84', 'MagTwi8485|LiaTwi8485', 'Neutral', function()
 return [[
 
 L Level 83 |QID|27003|N|You need to be level 83 or higher to be able to work through this guide.|LVL|83|

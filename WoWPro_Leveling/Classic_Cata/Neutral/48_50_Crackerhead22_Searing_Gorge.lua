@@ -62,7 +62,7 @@
 -- Date: 2010-12-03 11:40
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '48', '50', 'CraBur5052|LiaBur5052', 'Neutral', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraSea4850', 'Searing Gorge', 'Crackerhead22', '48', '50', 'CraBur5052|LiaBur5052', 'Neutral', function()
 return [[
 
 H Dragon's Mouth|QID|27963|N|Hearth back to Dragon's Mouth.|FACTION|Alliance|

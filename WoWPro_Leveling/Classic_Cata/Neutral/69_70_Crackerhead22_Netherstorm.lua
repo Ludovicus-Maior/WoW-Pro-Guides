@@ -61,7 +61,7 @@
 -- Date: 2010-12-03 21:41
 -- Who: Jiyambi
 
-WoWPro.Leveling:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', '69', '70', 'JamBor6872|JamHow7071', 'Neutral', function()
+local guide = WoWPro.Leveling:RegisterGuide('CraNet6970', 'Netherstorm', 'Crackerhead22', '69', '70', 'JamBor6872|JamHow7071', 'Neutral', function()
 return [[
 
 A Assist Exarch Orelis|QID|11038|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|
