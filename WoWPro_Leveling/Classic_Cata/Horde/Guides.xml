@@ -5,14 +5,6 @@
 	<Script file="BC_Shadowmoon.lua"/>
 	<Script file="BC_Terokkar_Forest.lua"/>
 	<Script file="BC_Zangarmarsh.lua"/>
-	<Script file="BFA_Endgame_Story.lua"/>
-	<Script file="BFA_Guide_Hub.lua"/>
-	<Script file="BFA_Intro.lua"/>
-	<Script file="BFA_Nazjatar.lua"/>
-	<Script file="BFA_Nazmir.lua"/>
-	<Script file="BFA_Voldun.lua"/>
-	<Script file="BFA_War_Campaign.lua"/>
-	<Script file="BFA_Zuldazar.lua"/>
 	<Script file="CATA_Arathi_Highlands.lua"/>
 	<Script file="CATA_Ashenvale.lua"/>
 	<Script file="CATA_Azshara.lua"/>
