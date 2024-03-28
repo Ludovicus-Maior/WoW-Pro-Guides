@@ -72,6 +72,19 @@ WoWPro.Leveling.ClassicWrathStartGuides = {
     Troll = 'BC-OrcTroll'
 }
 
+WoWPro.Leveling.ClassicCataStartGuides = {
+    BloodElf = "BC-BloodElf",
+    Draenei = "SnoAzu0112",
+    Dwarf = 'BosDun0112',
+    Gnome = 'BosDun0112',
+    Human = 'WOTLK_INTRO_Human',
+    NightElf = "WOTLK_INTRO_NE",
+    Orc = 'BC-OrcTroll',
+    Scourge = 'BC-Scourge',
+    Tauren = 'BC-Tauren',
+    Troll = 'BC-OrcTroll'
+}
+
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
     -- Legacy, destroy!
@@ -103,6 +116,8 @@ function WoWPro.Leveling:OnEnable()
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
             elseif WoWPro.WRATH then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicWrathStartGuides[engRace]
+            elseif WoWPro.CATA then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicCataStartGuides[engRace]
             else
 				local mapID = _G.C_Map.GetBestMapForUnit("player");
 				if mapID == 1727 or mapID == 1409 then

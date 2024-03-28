@@ -375,7 +375,7 @@ T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|84;Stormwind City|N|To Harrison J
 A Meetup with the Caravan|QID|28295|LEAD|27003|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|84;Stormwind City|FACTION|Alliance|
 F Booty Bay|QID|28295|Z|84;Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
 b Ratchet|QID|28295|Z|210;The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|FACTION|Alliance|
-F Southmoon Ruins|QID|28295|Z|71; Tanaris|M|69.13,70.70|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
+F Southmoon Ruins|QID|28295|Z|71; Tanaris|M|30.61,65.42|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
 T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Alliance|
 A The Twilight Plot|QID|27005|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 A Fly Over|QID|27008|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
