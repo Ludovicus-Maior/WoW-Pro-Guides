@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Southern Barrens")
 WoWPro:GuideSort(guide, 42)
 WoWPro:GuideNextGuide(guide, 'JiyDus3540')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 T Warchief's Command: Southern Barrens!|O|QID|28549|M|31.42,13.32|N|To Nura Pathfinder.|
 F Malaka'jin|QID|26069|M|45.11,30.88|N|Fly to Malaka'jin.|O|
 T Nura Pathfinder|QID|26069|M|31.42,13.32|N|To Nura Pathfinder.|O|

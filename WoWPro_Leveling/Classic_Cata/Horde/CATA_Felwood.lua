@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyFel4550', "Leveling", 'Felwood', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyFel4550', "Leveling", 'Felwood', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Felwood")
 WoWPro:GuideSort(guide, 22)
 WoWPro:GuideNextGuide(guide, 'JiyWin5055')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Emerald Sanctuary|QID|27997|M|51.1,80.5|N|In Felwood.|
 T Warchief's Command: Felwood!|QID|28542|O|M|51.1,80.5|N|To Tenell Leafrunner.|
 A The Corruption of the Jadefire|QID|27997|M|51.12,80.51|N|From Tenell Leafrunner.|

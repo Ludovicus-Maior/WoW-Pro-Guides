@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiySto2530', "Leveling", "Stonetalon Mountains", 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiySto2530', "Leveling", "Stonetalon Mountains", 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Stonetalon Mountains")
 WoWPro:GuideSort(guide, 44)
 WoWPro:GuideNextGuide(guide, 'JiySou3035')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N This guide starts in Orgrimmar|QID|25945^28532|M|PLAYER|N|This guide starts in Orgrimmar and heads to Ashenvale.|
 H Silverwind Refuge|ACTIVE|25945|M|49.67,59.24|Z|Orgrimmar|N|Hearth back to Silverwind Refuge. Fly/run if your Hearth is on CD.|
 R Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.29,65.25|Z|63; Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|

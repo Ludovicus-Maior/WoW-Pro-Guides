@@ -1,10 +1,10 @@
-local guide = WoWPro:RegisterGuide("JamTer6567", "Leveling", "Terokkar Forest", "Jame", "Horde", 4)
+local guide = WoWPro:RegisterGuide("JamTer6567", "Leveling", "Terokkar Forest", "Jame", "Horde")
+WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Terokkar Forest")
 WoWPro:GuideName(guide,"Terokkar Forest")
 WoWPro:GuideNextGuide(guide, "Nagrand BC")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 F Shattrath|QID|10210|N|Fly to Shattrath City.|M|84.76,55.10|Z|102; Zangarmarsh|
 A A'dal|Z|111; Shattrath City|QID|10210|M|59.70,41.45|N|From Haggard War Veteran.|
 T A'dal|Z|111; Shattrath City|QID|10210|M|54.0,44.8|N|To A'dal.|

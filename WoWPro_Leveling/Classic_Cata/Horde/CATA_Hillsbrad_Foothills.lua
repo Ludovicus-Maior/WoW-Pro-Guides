@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Hillsbrad Foothills")
 WoWPro:GuideSort(guide, 28)
 WoWPro:GuideNextGuide(guide, 'JiyAra2530')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Southpoint Gate |QID|28096|N|Head to Southpoint Gate in Hillsbrad Foothills. This is on the road east of Silverpine Forest.|M|29.23,63.35|
 f Southpoint Gate|QID|28096|N|Get the flightpoint with Pamela Stutzka|M|29.14,64.42|
 T Empire of Dirt|QID|27746|M|29.23,63.35|N|To High Executor Darthalia.|O|

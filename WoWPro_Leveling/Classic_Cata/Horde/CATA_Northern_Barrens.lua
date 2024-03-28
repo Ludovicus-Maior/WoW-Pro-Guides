@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('BitNor1220', "Leveling", 'Northern Barrens', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('BitNor1220', "Leveling", 'Northern Barrens', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Northern Barrens")
 WoWPro:GuideSort(guide, 32)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N The Northern Barrens|AVAILABLE|871|ACTIVE|-28494^-840|N|There are two lead in quests: "Warchief's Command" from the bulletin board in any capital city or "Conscript of the Horde" from Razor Hill.|
 A Plainstrider Menace|QID|844|M|67.41,38.77|N|From Halga Bloodeye.|RANK|3|
 T Warchief's Command: Northern Barrens!|QID|28494|M|67.67,39.39|O|N|To Kargal Battlescar.|

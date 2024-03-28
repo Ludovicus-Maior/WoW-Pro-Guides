@@ -1,5 +1,6 @@
-local guide = WoWPro:RegisterGuide('BitAzs1220', "Leveling", 'Azshara', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('BitAzs1220', "Leveling", 'Azshara', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Azshara")
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
 WoWPro:GuideSteps(guide, function()
 return [[

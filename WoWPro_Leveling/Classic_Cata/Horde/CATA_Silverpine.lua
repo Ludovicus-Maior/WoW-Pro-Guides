@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('MalSil1220', "Leveling", 'Silverpine Forest', 'WoWpro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('MalSil1220', "Leveling", 'Silverpine Forest', 'WoWpro Team', 'Horde')
 WoWPro:GuideName(guide,"Silverpine Forest")
 WoWPro:GuideSort(guide, 40)
 WoWPro:GuideNextGuide(guide, 'AyaHil2025')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Warchief's Command: Silverpine Forest!|QID|28568^26964|M|66.07,49.80|Z|Undercity|N|You can pick this quest up any Warchief's Command Board.|
 f Undercity|QID|28568^26964|M|63.37,48.64|Z|Undercity|N|At Michael Garrett in the Trade Quarter.|
 f Forsaken High Command|QID|28568^26964|M|57.87,8.78|N|At Bat Handler Maggotbreath.|

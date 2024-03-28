@@ -1,9 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyAra2530', "Leveling", 'Arathi Highlands', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyAra2530', "Leveling", 'Arathi Highlands', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Arathi Highlands")
+WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, 'JiyHin3035')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Galen's Fall|M|13.23,34.86|QID|28619^28572|N|Get Warchief's Command: Arathi Highlands! from the command board in Tarren's Mill (Hillsbrad Foothills), Undercity or Silvermoon City, then make your way to Galen's Fall which is on the border of Hillsbrad Foothills and Arathi Highlands.|
 T Warchief's Command: Arathi Highlands!|QID|28619|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28619|
 T Warchief's Command: Arathi Highlands!|QID|28572|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28572|

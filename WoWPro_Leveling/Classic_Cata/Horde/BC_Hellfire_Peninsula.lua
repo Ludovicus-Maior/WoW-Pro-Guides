@@ -1,11 +1,11 @@
-local guide = WoWPro:RegisterGuide("JamHel6063", "Leveling", "Hellfire Peninsula", "Jame", "Horde", 4)
+local guide = WoWPro:RegisterGuide("JamHel6063", "Leveling", "Hellfire Peninsula", "Jame", "Horde")
+WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Hellfire Peninsula")
 WoWPro:GuideName(guide,"Hellfire Peninsula")
 WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A To Outland!|QID|60123|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Burning Crusade timeline.|
 R Blasted Lands|QID|60123|N|At the Thrallmar Mage in the Pathfinder's Den.|Z|Orgrimmar|M|56.93,88.31|
 C To Outland!|QID|60123|M|55.01,54.35|Z|17;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|

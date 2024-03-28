@@ -1,10 +1,10 @@
-local guide = WoWPro:RegisterGuide("JamZan6365", "Leveling", "Zangarmarsh", "Jame", "Horde", 4)
+local guide = WoWPro:RegisterGuide("JamZan6365", "Leveling", "Zangarmarsh", "Jame", "Horde")
+WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Zangarmarsh")
 WoWPro:GuideName(guide,"Zangarmarsh")
 WoWPro:GuideNextGuide(guide, "Terokkar Forest")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 F Swamprat Post|QID|9770|N|Fly to Swamprat Post.|
 N Things to do: Zangarmarsh|QID|9770|N|Being in melee range of sporebats when they die gives you a 5 minute +30 to all stats buff. Keep your Fertile Spores and Unidentified Plant Parts, they'll be part of a hand-in.|
 A Uncatalogued Species|QID|9875|O|N|(UI Alert?)|

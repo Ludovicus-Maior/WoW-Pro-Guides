@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('WkjNor2530', "Leveling", 'Northern Stranglethorn', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('WkjNor2530', "Leveling", 'Northern Stranglethorn', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Northern Stranglethorn")
 WoWPro:GuideSort(guide, 34)
 WoWPro:GuideNextGuide(guide, 'WkjCap3035')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Well, Come to the Jungle|QID|26416|M|50.6,67|Z|63; Ashenvale|N|This guide starts in Ashenvale. Start with Cromula, who wanders up and down the hall.|
 F Orgrimmar|QID|26416|M|49.49,65.24|Z|63; Ashenvale|N|Wind Tamer Shosok|
 T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|Orgrimmar|N|To Bort.|

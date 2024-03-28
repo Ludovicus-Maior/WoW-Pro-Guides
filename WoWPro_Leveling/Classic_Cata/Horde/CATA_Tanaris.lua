@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyTan4550', "Leveling", 'Tanaris', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyTan4550', "Leveling", 'Tanaris', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Tanaris")
 WoWPro:GuideSort(guide, 48)
 WoWPro:GuideNextGuide(guide, 'JiyUng5055')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 h Gadgetzan|QID|24906|M|52.59,27.00|N|Set your hearth at Innkeeper Fizzgrimble, if you'd like.|
 A Butcherbot|QID|25112|RANK|2|M|52.22,28.13|N|From Driz Plunkbow.|
 T Tanaris is Calling|O|QID|27447|M|51.26,29.93|N|To Megs Dreadshredder.|

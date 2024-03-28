@@ -1,9 +1,9 @@
-local guide = WoWPro:RegisterGuide('LiaBad4548', "Leveling", 'Badlands', 'WoWpro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('LiaBad4548', "Leveling", 'Badlands', 'WoWpro Team', 'Horde')
 WoWPro:GuideName(guide,"Badlands")
+WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, 'CraSea4850')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A To Fuselight Proper|QID|27763|LEAD|27774|M|92.77,38.90|N|From Eddie Flofizzle.|
 T To Fuselight Proper|QID|27763|M|88.37,32.67;65.11,38.29|CC|N|To Dolph Blastus.|
 A Easily Swayed|QID|27774|M|65.11,38.29|N|From Dolph Blastus.|

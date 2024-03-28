@@ -1,9 +1,10 @@
-local guide = WoWPro:RegisterGuide('BitAsh2025', "Leveling", 'Ashenvale', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('BitAsh2025', "Leveling", 'Ashenvale', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Ashenvale")
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'JiySto2530')
 WoWPro:GuideSteps(guide, function()
 return [[
-JUMP|Chromie Time|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|S!US|LVL|-60|CT|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|S!US|LVL|-60|CT|
 A Mor'shan Defense|QID|13612|M|42.73,15.06|Z|10;Northern Barrens|N|From Kadrak.|RANK|2|
 A Find Gorat!|QID|13618|M|42.73,15.06|Z|10;Northern Barrens|N|From Kadrak.|RANK|1|
 A Empty Quivers|QID|13615|M|42.26,15.20|Z|10;Northern Barrens|N|From Truun.|RANK|2|

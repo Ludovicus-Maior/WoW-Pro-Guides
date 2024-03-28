@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyDes3035', "Leveling", 'Desolace', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyDes3035', "Leveling", 'Desolace', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Desolace")
 WoWPro:GuideSort(guide, 16)
 WoWPro:GuideNextGuide(guide, 'JiyFer3540')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Desolace|QID|14184|M|54.7,8.8|N|Run down into Desolace.|
 T Warchief's Command: Desolace!|O|QID|28548|M|54.7,8.8|N|To Furien at Tethris Aran in Desolace.|
 T Nothing Left for You Here|O|QID|26134|M|54.74,8.84|N|To Furien.|

@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('AriVasH8082', "Leveling", "Vashj'ir", 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('AriVasH8082', "Leveling", "Vashj'ir", 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Vashj'ir")
 WoWPro:GuideSort(guide, 82)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;A Warchief's Command: Vashj'ir!|QID|27718|LEAD|25924|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
 t Warchief's Command: Vashj'ir!|QID|27718|M|55.84,12.29|Z|Durotar|N|To Commander Thorak inside the tower.|
 A Call of Duty|QID|25924|M|55.84,12.29|Z|Durotar|N|From Commander Thorak.|

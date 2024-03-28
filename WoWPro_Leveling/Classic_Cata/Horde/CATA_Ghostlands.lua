@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide("SnoGho1221", "Leveling", "Ghostlands", "WoWPro Team", "Horde", 4)
+local guide = WoWPro:RegisterGuide("SnoGho1221", "Leveling", "Ghostlands", "WoWPro Team", "Horde")
 WoWPro:GuideName(guide,"Ghostlands")
 WoWPro:GuideSort(guide, 26)
 WoWPro:GuideNextGuide(guide, "AyaHil2025")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;This step will not show if you have completed A Somber Task as part of the Eversong Woods guide
 ;as you'll be closer to quest ender, and will already be carrying the two quests.
 R Fairbreeze Village |QID|9144|M|44.06,70.73|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|Z|Eversong Woods|

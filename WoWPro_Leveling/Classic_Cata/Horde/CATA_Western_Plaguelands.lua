@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyWes3540', "Leveling", 'Western Plaguelands', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyWes3540', "Leveling", 'Western Plaguelands', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Western Plaguelands")
 WoWPro:GuideSort(guide, 54)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Andorhal|QID|26921|M|46.56,64.71|N|At the center of the Western Plaguelands.|
 f Andorhal|QID|26921|M|46.56,64.71|N|At Rhonda Molver.|
 T The Battle for Andorhal|QID|28508|LEAD|26921|M|47.78,65.18|N|To Koltira Deathweaver.|

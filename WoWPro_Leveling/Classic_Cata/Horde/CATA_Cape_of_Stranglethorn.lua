@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Cape of Stranglethorn")
 WoWPro:GuideSort(guide, 14)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 f Hardwrench Hideaway|QID|26404|M|35.15,29.24|N|At Hizzle.|
 T Above My Pay Grade|QID|26404|M|34.79,29.49|N|To Sassy Hardwrench.|
 A It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|From Sassy Hardwrench.|

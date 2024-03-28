@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('LiaTwi8485', "Leveling", 'Twilight Highlands', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('LiaTwi8485', "Leveling", 'Twilight Highlands', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Twilight Highlands")
 WoWPro:GuideSort(guide, 85)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Orgrimmar|QID|28717|Z|Orgrimmar|N|Make your way to Orgrimmar.|
 A Warchief's Command: Twilight Highlands!|QID|28717|M|49.67,76.45|Z|Orgrimmar|
 T Warchief's Command: Twilight Highlands!|QID|28717|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg.|

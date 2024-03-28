@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyDus3540', "Leveling", 'Dustwallow Marsh', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyDus3540', "Leveling", 'Dustwallow Marsh', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Dustwallow Marsh")
 WoWPro:GuideSort(guide, 18)
 WoWPro:GuideNextGuide(guide, 'JiyTho4045')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Suspicious Hoofprints|RANK|1|QID|27259|M|29.68,47.55|N|From a patch of dirt on the ground.|
 A Lieutenant Paval Reethe|RANK|1|QID|27260|M|29.77,48.23|N|From a badge on the ground.|
 A The Black Shield|RANK|1|QID|27254|M|29.63,48.52|N|From the shield on the wall.|

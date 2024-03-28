@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyFer3540', "Leveling", 'Feralas', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyFer3540', "Leveling", 'Feralas', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Feralas")
 WoWPro:GuideSort(guide, 24)
 WoWPro:GuideNextGuide(guide, 'JiyTho4045')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Warchief's Command: Feralas!|QID|28510|N|From Warchief's Command Board|
 ;add zone & pre
 A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346&14394|M|73.2,73.0|N|From Khan Shodo.|Z|66; Desolace|

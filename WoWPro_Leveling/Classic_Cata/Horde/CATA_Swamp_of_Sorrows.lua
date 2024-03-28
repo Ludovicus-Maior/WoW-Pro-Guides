@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('LiaSwa5255', "Leveling", 'Swamp of Sorrows', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('LiaSwa5255', "Leveling", 'Swamp of Sorrows', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Swamp of Sorrows")
 WoWPro:GuideSort(guide, 46)
 WoWPro:GuideNextGuide(guide, 'JiyBla5560')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 T The Bogpaddle Bullet|QID|28570|M|72.97,14.78|N|To Trade Baron Silversnap.|
 A Maliciously Delicious|QID|27587|M|72.97,14.78|N|From Trade Baron Silversnap.|
 f Bogpaddle|QID|27587|M|72.14,12.13|N|At Skeezie.|

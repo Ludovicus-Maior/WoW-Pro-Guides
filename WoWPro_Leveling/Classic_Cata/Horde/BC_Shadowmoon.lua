@@ -1,9 +1,9 @@
-local guide = WoWPro:RegisterGuide('CraSha7070H', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('CraSha7070H', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Horde')
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideContent(guide, "The Burning Crusade")
 WoWPro:GuideNextGuide(guide, 'Netherstorm')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Kroghan's Report|QID|11048|LEAD|10595|M|55.37,37.47|Z|107; Nagrand|N|From Captain Kroghan in Nagrand.|
 F Shadowmoon Village|QID|11048|M|57.19,35.28|Z|107; Nagrand|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
 T Kroghan's Report|QID|11048|M|30.39,32.42|N|To Blood Guard Gulmok.|

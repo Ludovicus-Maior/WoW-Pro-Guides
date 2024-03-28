@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyTho4045', "Leveling", 'Thousand Needles', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyTho4045', "Leveling", 'Thousand Needles', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Thousand Needles")
 WoWPro:GuideSort(guide, 50)
 WoWPro:GuideNextGuide(guide, 'JiyTan4550')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|70; Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
 A To the Summit|QID|25478|M|41.86,73.85|Z|70; Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
 C To the Summit|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him send you to Westreach Summit.|

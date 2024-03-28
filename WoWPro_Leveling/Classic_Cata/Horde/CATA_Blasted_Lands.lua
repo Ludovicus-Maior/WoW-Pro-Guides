@@ -1,9 +1,9 @@
-local guide = WoWPro:RegisterGuide('JiyBla5560', "Leveling", 'Blasted Lands', 'WoWPro Team', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyBla5560', "Leveling", 'Blasted Lands', 'WoWPro Team', 'Horde')
 WoWPro:GuideName(guide,"Blasted Lands")
+WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNextGuide(guide, 'JamHel6063')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 T Warchief's Command: Blasted Lands!|QID|28671|M|40.47,11.65|N|To Okrilla.|O|
 T Blasted Lands: The Other Side of the World|QID|28858|M|40.47,11.65|N|To Okrilla.|O|
 T Call of the Warmatron|QID|28865|M|40.47,11.65|N|To Okrilla.|O|
