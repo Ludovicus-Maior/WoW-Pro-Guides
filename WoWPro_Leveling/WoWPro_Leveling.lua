@@ -73,16 +73,16 @@ WoWPro.Leveling.ClassicWrathStartGuides = {
 }
 
 WoWPro.Leveling.ClassicCataStartGuides = {
-    BloodElf = "BC-BloodElf",
-    Draenei = "SnoAzu0112",
-    Dwarf = 'BosDun0112',
-    Gnome = 'BosDun0112',
-    Human = 'WOTLK_INTRO_Human',
-    NightElf = "WOTLK_INTRO_NE",
-    Orc = 'BC-OrcTroll',
-    Scourge = 'BC-Scourge',
-    Tauren = 'BC-Tauren',
-    Troll = 'BC-OrcTroll'
+    BloodElf = "KraSunIsle",
+    Draenei = "SnoAmmen0105",
+    Dwarf = 'GylDwa0105',
+    Gnome = 'GylGno0105',
+    Human = 'KurNShire0105',
+    NightElf = "BitSha0105",
+    Orc = 'JiyDur0105',
+    Scourge = 'JiyDk0105',
+    Tauren = 'GylNar0105',
+    Troll = 'BitDur0105'
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
