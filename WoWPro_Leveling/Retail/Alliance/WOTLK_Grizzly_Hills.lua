@@ -69,8 +69,8 @@ C Shimmering Snowcaps|QID|12483|QO|2|NC|Z|116; Grizzly Hills|N|From the Shimmeri
 l Frozen Mojos|QID|11991|L|35799 5|Z|116; Grizzly Hills|N|Drop from Drakkari Warriors and Shamans, you need 5 mojos.|M|12.9,59.2|
 T Subject to Interpretation|QID|11991|M|13.2,60.9|U|35797|Z|116; Grizzly Hills|N|Use the [Drakuru's Elixir] near the Drakuru's Brazier. Turn the quest into the Image of Drakuru.|
 A Sacrifices Must be Made|QID|12007|PRE|11991|M|13.2,60.9|Z|116; Grizzly Hills|N|From the Image of Drakuru.|
-C Ice Serpent Eyes|QID|12483|QO|1|Z|116; Grizzly Hills|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|US|
-C Shimmering Snowcaps|QID|12483|QO|2|NC|Z|116; Grizzly Hills|N|From the Shimmering Snowcaps, to the west, near the river.|US|
+C Ice Serpent Eyes|QID|12483|QO|1|M|11.73,55.88|Z|116; Grizzly Hills|N|Drop from Ice Serpent or Serpent Defender, you need five eyes.|US|
+C Shimmering Snowcaps|QID|12483|QO|2|NC|M|11.73,55.88|Z|116; Grizzly Hills|N|From the Shimmering Snowcaps, to the west, near the river.|US|
 C Shimmercap Stew|QID|12483|QO|3|NC|Z|116; Grizzly Hills|N|Loot Sweetroots from the ground.|M|16.1,34.8|S|
 K Warlord Zim'bo|L|35836|QID|12007|Z|116; Grizzly Hills|N|Kill and loot Warlord Zim'bo. He is inside the Hut|M|14.54,37.56|
 C Sacrifices Must be Made|QID|12007|L|35806|NC|Z|116; Grizzly Hills|N|Get the "Eye of the Prophets" from the Seer of Zeb'Halak, up the stairs.|M|17.92,36.51|
@@ -82,9 +82,9 @@ C Seared Scourge|QID|12029|U|35908|Z|116; Grizzly Hills|N|Throw the [Mack's Dark
 T An Exercise in Diplomacy|QID|12295|Z|116; Grizzly Hills|N|To Envoy Ducal.|M|26.43,35.75|
 A Northern Hospitality|QID|12299|PRE|12295|Z|116; Grizzly Hills|N|From Sergi.|M|26.39,35.78|
 A Wolfsbane Root|QID|12307|Z|116; Grizzly Hills|N|From Katja. Katja might be dead, since she is killed by the Horde for a quest. Wait for respawn if needed.|M|25.62,33.36|
-C Northern Hospitality|QID|12299|Z|116; Grizzly Hills|N|Conquest Hold Marauders can be found in the area west of Silverbrook.|S|
+C Northern Hospitality|QID|12299|M|24.58,33.17|Z|116; Grizzly Hills|N|Conquest Hold Marauders can be found in the area west of Silverbrook.|S|
 C Wolfsbane Root|QID|12307|Z|116; Grizzly Hills|N|Destroy 8 Wolfsbane Roots around Silverbook by clicking them.|M|28.6,35.1|NC|
-C Northern Hospitality|QID|12299|Z|116; Grizzly Hills|N|Finish taking out the Conquest Hold Marauders|US|
+C Northern Hospitality|QID|12299|M|24.58,33.17|Z|116; Grizzly Hills|N|Finish taking out the Conquest Hold Marauders|US|
 T Wolfsbane Root|QID|12307|Z|116; Grizzly Hills|N|To Katja.|M|25.64,33.40|
 T Northern Hospitality|QID|12299|Z|116; Grizzly Hills|N|To Sergi.|M|26.39,35.78|
 A Test of Mettle|QID|12300|PRE|12299&12307|M|26.5,35.8|Z|116; Grizzly Hills|N|From Sergi.|
@@ -204,8 +204,8 @@ A Brothers in Battle|QID|12002|PRE|11998|M|59.8,27.5|Z|116; Grizzly Hills|N|From
 A Find Kurun!|QID|11981|LEAD|11982|Z|116; Grizzly Hills|N|From Fallen Earthen Warrior in Thor Modan.|M|63.63,23.21|
 A The Damaged Journal|QID|11986|Z|116; Grizzly Hills|N|From a Battered Journal on the floor, northeast of the Fallen Earth Warrior in Thor Modan.|M|64.58,19.83|
 C Brothers in Battle|QID|12002|Z|116; Grizzly Hills|N|Kill 10 Runic Battle Golems.|S|
-l Missing Journal Pages|QID|11986|QO|1|Z|116; Grizzly Hills|N|Pick up 8 Missing Journal Pages from the ground.|
-C The Damaged Journal|QID|11986|U|35739|Z|116; Grizzly Hills|N|Use the Damaged Journal to complete the quest.|
+l Missing Journal Pages|QID|11986|M|64.24,19.85|Z|116; Grizzly Hills|L|35737 8|N|Pick up 8 Missing Journal Pages from the ground.|
+C The Damaged Journal|QID|11986|U|35739|M|PLAYER|Z|116; Grizzly Hills|N|Use the Damaged Journal to complete the quest.|
 C Brothers in Battle|QID|12002|Z|116; Grizzly Hills|N|Kill 10 Runic Battle Golems.|US|
 T The Damaged Journal|QID|11986|Z|116; Grizzly Hills|N|To Torthen Deepdig.|M|59.73,27.57|
 A The Runic Keystone|QID|11988|PRE|11986|M|59.8,27.5|Z|116; Grizzly Hills|N|From Torhten Deepdig.|
@@ -214,7 +214,7 @@ A Uncovering the Tunnels|QID|12003|PRE|12002|M|59.8,27.5|Z|116; Grizzly Hills|N|
 C The Runic Keystone|QID|11988|Z|116; Grizzly Hills|N|Kill and loot Rune Reavers, Iron Rune-Shapers and Forgemaster Damrath if you see him to get the Runic Keystone Fragments.|M|65.1,19.3|S|
 C Uncovering the Tunnels|QID|12003|QO|3|NC|Z|116; Grizzly Hills|N|To the east, enter the southern building of Thor Modan.|M|63.45,28.10|; Investigate South Building: 1/1
 C Uncovering the Tunnels|QID|12003|QO|2|NC|Z|116; Grizzly Hills|N|To the northeast, enter the estern building of Thor Modan.|M|66.71,24.43|; Investigate East Building: 1/1
-C Uncovering the Tunnels|QID|12003|QO|1|NC|Z|116; Grizzly Hills|N|To the west/northwest, enter the northen building of Thor Modan.|M|59.75,27.59|
+C Uncovering the Tunnels|QID|12003|QO|1|NC|Z|116; Grizzly Hills|N|To the west/northwest, enter the northen building of Thor Modan.|M|62.69,20.80|
 C The Runic Keystone|QID|11988|Z|116; Grizzly Hills|N|Kill and loot Rune Reavers, Iron Rune-Shapers and Forgemaster Damrath if you see him to get the Runic Keystone Fragments.|M|65.1,19.3|US|
 T The Runic Keystone|QID|11988|Z|116; Grizzly Hills|N|To Torthen Deepdig.|M|59.75,27.59|
 A The Runic Prophecies|QID|11993|PRE|11988|M|59.8,27.5|Z|116; Grizzly Hills|N|From Torthen Deepdig.|
@@ -230,12 +230,12 @@ T Rallying the Troops|QID|12070|Z|116; Grizzly Hills|N|To Kurun.|M|65.65,17.79|
 A Into the Breach|QID|11985|PRE|12070|M|65.8,17.8|Z|116; Grizzly Hills|N|From Kurun.|
 T The Fate of Orlond|QID|12010|Z|116; Grizzly Hills|N|Down the breach to the corpse of Surveyor Orlond in Thor Modan.|M|67.44,15.24|
 A Steady as a Rock?|QID|12014|PRE|12010|M|67.5,15.3|Z|116; Grizzly Hills|N|From the corpse of Surveyor Orlond.|
-K Subterranean Thresher|QID|12014|QO|2|Z|116; Grizzly Hills|N|In the water.|; Portable Seismograph: 1/1
+K Subterranean Thresher|QID|12014|QO|1|Z|116; Grizzly Hills|N|In the water.|
 C Third Prophecy|QID|11993|QO|3|NC|Z|116; Grizzly Hills|N|Get out of the water, cross the small bridge east, find the Third Rune Plate.|M|68.50,16.16|; Third Prophecy Deciphered: 1/1
 C First Prophecy|QID|11993|QO|1|NC|Z|116; Grizzly Hills|N|A few paces northeast, find the First Rune Plate.|M|69.00,14.54|; First Prophecy Deciphered: 1/1
 C The Runic Prophecies|QID|11993|QO|2|NC|Z|116; Grizzly Hills|N|A few paces east, find the Second Rune Plate.|M|70.13,14.62|
 C Into the Breach|QID|11985|Z|116; Grizzly Hills|N|Kill Iron Thane Argrum at the very end of the trench.|M|69.78,13.54|
-C Steady as a Rock?|QID|12014|U|35837|Z|116; Grizzly Hills|N|Cross the small bridge, use the [Portable Seismograph] located there and loot the [Thor Modan Stability Profile].|M|70.63,13.42|
+C Steady as a Rock?|QID|12014|U|35837|Z|116; Grizzly Hills|N|Cross the small bridge, use the [Portable Seismograph] located there and loot the [Thor Modan Stability Profile].|M|70.63,13.42|NC|
 T Into the Breach|QID|11985|Z|116; Grizzly Hills|N|To Kurun.|M|65.65,17.79|
 A Gavrock|QID|12081|PRE|11985|M|65.8,17.8|Z|116; Grizzly Hills|N|From Kurun.|
 T Steady as a Rock?|QID|12014|Z|116; Grizzly Hills|N|To Brugar Stoneshear.|M|59.73,27.56|
@@ -247,7 +247,7 @@ A Ruuna's Request|QID|12328|PRE|12161^12425|M|44.0,47.9|Z|116; Grizzly Hills|N|F
 C Ruuna's Request|QID|12328|Z|116; Grizzly Hills|N|North/northeast of the camp, kill and loot Fern Feeder Moths.|M|46.8,35.7|
 T Ruuna's Request|QID|12328|Z|116; Grizzly Hills|N|To Ruuna the Blind.|M|44.07,48.01|
 A Out of Body Experience|QID|12327|PRE|12328|M|44.0,47.9|Z|116; Grizzly Hills|N|From Ruuna the Blind.|
-C Out of Body Experience|QID|12327|U|37661|Z|116; Grizzly Hills|N|Drink the Gossamer Potion near Ruuna's Crystal Ball and witness the Vision from the Past.|
+C Out of Body Experience|QID|12327|U|37661|M|PLAYER|Z|116; Grizzly Hills|N|Drink the Gossamer Potion near Ruuna's Crystal Ball and witness the Vision from the Past.|
 T Out of Body Experience|QID|12327|Z|116; Grizzly Hills|N|Cancel the Out of Body Experience buff if it doesn't cancel itself. Then turn the quest into Ruuna the Blind.|M|44.0,47.9|
 A Fate and Coincidence|QID|12329|PRE|12327|M|44.0,47.9|Z|116; Grizzly Hills|N|From Ruuna the Blind.|
 C A Possible Link|QID|12246|Z|116; Grizzly Hills|N|Kill and loot Frostpaw Warriors, Shamans and Trappers; or Redfang Hunters and Elders (depending on which camp your in).|M|63.6,57.9|S|
@@ -271,7 +271,7 @@ T Sasha's Hunt|QID|12134|Z|116; Grizzly Hills|N|To Sasha.|M|57.52,41.35|
 T Anatoly Will Talk|QID|12330|M|57.5,41.3|Z|116; Grizzly Hills|N|To Sasha.|
 A A Sister's Pledge|QID|12411|PRE|12330|M|57.5,41.3|Z|116; Grizzly Hills|N|From Sasha.|
 T A Sister's Pledge|QID|12411|Z|116; Grizzly Hills|N|To Anya in Duskhowl Den.|M|64.87,43.43|
-A Hour of the Worg|QID|12164|PRE|12411|Z|116; Grizzly Hills|N|From Sasha.|M|57.53, 41.27|
+A Hour of the Worg|QID|12164|PRE|12411|Z|116; Grizzly Hills|N|From Sasha.|M|64.87,43.43|
 C Nice to Meat You|QID|12113|Z|116; Grizzly Hills|N|If you are not done already, kill Longhoof Grazers and Duskhowl Prowlers to finishing this quest.|M|72.7,37.6|
 C A Bear of an Appetite|QID|12279|U|37542|Z|116; Grizzly Hills|N|Use the [Fishing Net] on the School of Northern Salmon near the Ruins of Tethys.|M|78,37|S|
 T Gavrock|QID|12081|Z|116; Grizzly Hills|N|To Gavrock in the Ruins of Tethys.|M|79.77,33.63|
@@ -283,8 +283,8 @@ K Overseer Korgan|QID|12093|QO|2|Z|116; Grizzly Hills|N|Kill the channelers and 
 K Overseer Brunon|QID|12093|QO|1|Z|116; Grizzly Hills|N|Kill the channelers and then Durval.|M|67.73,29.33|
 l Sacred Mojos|QID|12068|L|36758 5|Z|116; Grizzly Hills|N|Kill and loot Drakkari Oracles and Protectors until you get 5 mojos.|S|
 C Therapy|QID|12114|Z|116; Grizzly Hills|N|Kill the trolls needed for this quest.|S|
-C It Takes Guts....|QID|12116|Z|116; Grizzly Hills|N|Head into the catacombs and loot the Drakkari Canopic Jars.|M|71.5,23|
-C Voices From the Dust|QID|12068|Z|116; Grizzly Hills|N|Go deeper in the catabombs, to room where you see a !. Loot the Drakkari Tablets.|M|69.38,18.14|
+C It Takes Guts....|QID|12116|Z|116; Grizzly Hills|N|Head into the catacombs and loot the Drakkari Canopic Jars.|M|71.5,23|NC|
+C Voices From the Dust|QID|12068|Z|116; Grizzly Hills|N|Go deeper in the catabombs, to room where you see a !. Loot the Drakkari Tablets.|M|69.38,18.14|NC|
 A Dun-da-Dun-tah!|QID|12082|Z|116; Grizzly Hills|N|From Harrison Jones.|M|69.46,17.50|
 C Dun-da-Dun-tah!|QID|12082|Z|116; Grizzly Hills|N|Let him tank the big snake that spawns, then follow him out.(This bugged out when I did it in a group, had to drop group and do seperately)|M|69.5,17.5|
 l Sacred Mojos|QID|12068|L|36758 5|Z|116; Grizzly Hills|N|Kill and loot Drakkari Oracles and Protectors until you get 5 mojos.|US|
@@ -306,34 +306,34 @@ C Get the Snow of Eternal Slumber|QID|12137|QO|1|NC|Z|116; Grizzly Hills|N|Get t
 C Chill Out, Mon|QID|12137|U|36859|Z|116; Grizzly Hills|N|Talk to Gan'jo to return to the living, target Ancient Drakkari Warmonger or Soothsayer and use the [Snow of Eternal Slumber]. Loot the Drakkari Spirit Particles.|M|69.4,19.5|
 T Chill Out, Mon|QID|12137|Z|116; Grizzly Hills|N|To Kraz.|M|73.90,34.21|
 A Jin'arrak's End|QID|12152|PRE|12137|M|73.9,34.1|Z|116; Grizzly Hills|N|From Kraz.|
-C Get the Sacred Drakkari Offering|QID|12152|QO|1|NC|Z|116; Grizzly Hills|N|Get the [Sacred Drakkari Offering] in the catacombs again.|M|71.18,19.73|
+l Sacred Drakkari Offering|QID|12152|Z|116; Grizzly Hills|L|36870|N|Get the [Sacred Drakkari Offering] in the catacombs again.|M|71.18,19.73|NC|
 U Create the Infused Drakkari Offering|QID|12152|U|36873|L|37063|Z|116; Grizzly Hills|N|Use the [Drakkari Spirit Dust].|
-C Jin'arrak's End|QID|12152|U|37063|Z|116; Grizzly Hills|N|Back to the gong, and use the Infused Drakkari Offering.|M|71.50,24.52|
+C Jin'arrak's End|QID|12152|QO|1|U|37063|Z|116; Grizzly Hills|N|Back to the gong, and use the Infused Drakkari Offering.|M|71.50,24.52|
 T Jin'arrak's End|QID|12152|Z|116; Grizzly Hills|N|To Kraz.|M|73.96,34.18|
 T Runes of Compulsion|QID|12093|Z|116; Grizzly Hills|N|To Gavrock.|M|79.78,33.66|
 A Latent Power|QID|12094|PRE|12093|M|79.8,33.6|Z|116; Grizzly Hills|N|From Gavrock.|
-N Drain power from the Second Ancient Stone|QID|12094|QO|1|U|36787|Z|116; Grizzly Hills|N|Go south/southwest to an isle with a stone, and use the Shard of Gavrock.|M|78.80,39.83|; Power Drawn from Second Ancient Stone: 1/1
-N Drain power from the First Ancient Stone|QID|12094|QO|1|U|36787|Z|116; Grizzly Hills|N|Go west to another blue stone and use the Shard of Gavrock.|M|71.34,39.59|; Power Drawn from First Ancient Stone: 1/1
+C Latent Power|QID|12094|QO|2|U|36787|Z|116; Grizzly Hills|N|Go south/southwest to an isle with a stone, and use the Shard of Gavrock.|M|78.80,39.83|; Power Drawn from Second Ancient Stone: 1/1
+C Latent Power|QID|12094|QO|1|U|36787|Z|116; Grizzly Hills|N|Go west to another blue stone and use the Shard of Gavrock.|M|71.34,39.59|; Power Drawn from First Ancient Stone: 1/1
 T A Bear of an Appetite|QID|12279|Z|116; Grizzly Hills|N|To Hugh Glass.|M|69.05,40.13|
-C Latent Power|QID|12094|U|36787|Z|116; Grizzly Hills|N|The Third Ancient Stone is further southwest, use the Shard of Gavrock.|M|74.06,43.98|
+C Latent Power|QID|12094|QO|3|U|36787|Z|116; Grizzly Hills|N|The Third Ancient Stone is further southwest, use the Shard of Gavrock.|M|74.06,43.98|
 T Check Up on Raegar|QID|12128|Z|116; Grizzly Hills|N|To Raegar Breakbrow.|M|77.10,48.73|
 A The Perfect Plan|QID|12129|PRE|12128|M|77.1,48.6|Z|116; Grizzly Hills|N|From Rargar Breakbrow.|
 A The Captive Prospectors|QID|12180|PRE|12014|Z|116; Grizzly Hills|N|From Mountaineer Kilian.|M|77.00,48.50|
 C The Perfect Plan|QID|12129|U|36849|Z|116; Grizzly Hills|N|Kill Iron Rune-Smiths until you have all three parts of the [War Golem Blueprint]. Combine them.|M|76.6,55.1|S|
-N Free Prospector Gann|QID|12180|QO|1|U|37013|Z|116; Grizzly Hills|N|Go south/southwest and kill dwarves and golems until you get [Dun Argol Cage Key]. Use it to open the cage.|M|76.5,55|; Prospector Gann Rescued: 1/1
-N Free Prospector Torgan|QID|12180|QO|3|U|37013|Z|116; Grizzly Hills|N|Up the stairs southwest to find Torgan's cage, you will need a key again.|M|76.17,58.47|; Prospector Torgan Rescued: 1/1
+C The Captive Prospectors|QID|12180|QO|1|U|37013|Z|116; Grizzly Hills|N|Go south/southwest and kill dwarves and golems until you get [Dun Argol Cage Key]. Use it to open the cage.|M|76.5,55|; Prospector Gann Rescued: 1/1
+C The Captive Prospectors|QID|12180|QO|2|U|37013|Z|116; Grizzly Hills|N|Up the stairs southwest to find Torgan's cage, you will need a key again.|M|76.17,58.47|; Prospector Torgan Rescued: 1/1
 C The Captive Prospectors|QID|12180|U|37013|Z|116; Grizzly Hills|N|Follow the stairs southwest to the top to find Prospector Varana, once again you will need a key.|M|75.88,60.93|
 C The Perfect Plan|QID|12129|U|36849|Z|116; Grizzly Hills|N|Kill Iron Rune-Smiths until you have all three parts of the [War Golem Blueprint]. Combine them.|M|76.6,55.1|US|
 T The Perfect Plan|QID|12129|Z|116; Grizzly Hills|N|To Raegar Breakbrow.|M|77.10,48.72|
 A Why Fabricate When You Can Appropriate?|QID|12130|PRE|12129|M|77.1,48.6|Z|116; Grizzly Hills|N|From Raegar Breakbrow.|
 T The Captive Prospectors|QID|12180|Z|116; Grizzly Hills|N|To Mountaineer Kilian.|M|76.97,48.50|
 A Looking the Part|QID|12183|PRE|12180|M|77.0,48.4|Z|116; Grizzly Hills|N|From Mountaineer Kilian.|
-C Why Fabricate When You Can Appropriate?|QID|12130|Z|116; Grizzly Hills|N|Loot War Golem Parts.|M|76.6,54.8|S|
+C Why Fabricate When You Can Appropriate?|QID|12130|Z|116; Grizzly Hills|N|Loot War Golem Parts.|M|76.6,54.8|S|NC|
 C Looking the Part|QID|12183|Z|116; Grizzly Hills|N|Go to the first building in Dun'Argol, kill an Iron Run Overseer and loot an [Overseer's Uniform].|M|76.4,55.0|
 T Looking the Part|QID|12183|Z|116; Grizzly Hills|N|To Mountaineer Kilian.|M|76.92,48.49|
 A Cultivating an Image|QID|12184|PRE|12183|M|77.0,48.4|Z|116; Grizzly Hills|N|From Mountaineer Kilian.|
 C Cultivating an Image|QID|12184|U|37045|Z|116; Grizzly Hills|N|Go back to Dun'Argol, kill dwarf and take pretty picture with the [Kilian's Camera].|M|76.1,56.4|
-C Why Fabricate When You Can Appropriate?|QID|12130|Z|116; Grizzly Hills|N|Loot War Golem Parts.|M|76.6,54.8|US|
+C Why Fabricate When You Can Appropriate?|QID|12130|Z|116; Grizzly Hills|N|Loot War Golem Parts.|M|76.6,54.8|US|NC|
 T Why Fabricate When You Can Appropriate?|QID|12130|Z|116; Grizzly Hills|N|To Raegar Breakbrow.|M|77.05,48.60|
 A We Have the Power|QID|12131|PRE|12130|M|77.1,48.6|Z|116; Grizzly Hills|N|From Raegar Breakbrow.|
 T Cultivating an Image|QID|12184|Z|116; Grizzly Hills|N|To Mountaineer Kilian.|M|76.96,48.49|
@@ -375,6 +375,5 @@ C Hour of the Worg|QID|12164|QO|4|Z|116; Grizzly Hills|N|Head to the top of the 
 T Hour of the Worg|QID|12164|Z|116; Grizzly Hills|N|Turn into Sasha right there or in White Pine Trading Post if you happen to miss her at the tower.|M|57.52,41.35|
 H Amberpine Lodge|QID|12249|Z|116; Grizzly Hills|N|Hearth to Amberpine Lodge, or run back if your hearth is not up.|M|31.97,60.22|
 T Ursoc, the Bear God|QID|12249|Z|116; Grizzly Hills|N|Hierophant Thayreen.|M|31.23,59.47|
-N Close this step to go to the next guide.|QID|12789|
 ]]
 end)

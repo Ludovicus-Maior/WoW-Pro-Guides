@@ -370,23 +370,23 @@ A To The Hills|QID|41782|M|39.50,0.07|N|From Lea Stonepaw.|PRE|41468|
 C To The Hills|QID|41782|NC|QO|1|M|35.71,25.60|N|Click on the flasks at the edge of this moonwell outside the barrow.|
 P Emerald Dreamway|ACTIVE|41782|CC|M|55.27,22.93|N|Run to Emerald Dreamway Portal|
 P Vordrasil|ACTIVE|41782|CC|M|32.14,27.66|Z|EmeraldDreamway|N|Run to the Vordrassil portal.|
-C To The Hills|QID|41782|NC|CS|QO|3|M|50.31,40.26;51.05,37.03|Z|Grizzly Hills|N|Go down inside Grizzlemaw and take the tunnel to find Lea.|
-T To The Hills|QID|41782|M|51.29,36.81|Z|Grizzly Hills|N|To Lea Stonepaw.|
-;A Fallen Offerings|QID|41783|M|51.29,36.81|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|41782| -- seems to be deprecated?
-;U Fallen Offerings|QID|41783|QO|1|M|50.99,48.32|Z|Grizzly Hills|U|136359|N|Click on the 'Fallen Shamans' lying around to pick up pouches. Open the pouches until you get 3 offerings.|
-;T Fallen Offerings|QID|41783|M|51.29,36.82|Z|Grizzly Hills|N|To Lea Stonepaw.|
-A The First Trial of Ursol|QID|41790|M|50.52,37.60|Z|Grizzly Hills|N|From Ursol.|PRE|41782|
-C The First Trial of Ursol|QID|41790|M|50.63,37.43|Z|Grizzly Hills|N|Overcome Ursol's first trial.|
-T The First Trial of Ursol|QID|41790|M|50.50,37.58|Z|Grizzly Hills|N|To Ursol.|
-A The Second Trial of Ursol|QID|41791|M|50.50,37.58|Z|Grizzly Hills|N|From Ursol.|PRE|41790|
-C The Second Trial of Ursol|QID|41791|M|50.68,37.18|Z|Grizzly Hills|N|This time you have several waves.|
-T The Second Trial of Ursol|QID|41791|M|50.50,37.59|Z|Grizzly Hills|N|To Ursol.|
-A The Third Trial of Ursol|QID|41792|M|50.50,37.59|Z|Grizzly Hills|N|From Ursol.|PRE|41791|
-C The Third Trial of Ursol|QID|41792|QO|1|M|50.51,37.60|Z|Grizzly Hills|CHAT|N|Speak with Ursol to begin the third trial.|
-C The Third Trial of Ursol|QID|41792|QO|2|M|51.16,36.93|Z|Grizzly Hills|N|Protect Lea Stonepaw.|
-T The Third Trial of Ursol|QID|41792|M|50.53,37.58|Z|Grizzly Hills|N|To Ursol.|
-A When Dreams Become Nightmares|QID|40647|M|51.28,36.81|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|41792|
-C When Dreams Become Nightmares|QID|40647|NC|U|136414|QO|1|M|51.28,36.81|Z|Grizzly Hills|N|Use the flask to enter the Emerald Dream.|
+C To The Hills|QID|41782|NC|CS|QO|3|M|50.31,40.26;51.05,37.03|Z|116; Grizzly Hills|N|Go down inside Grizzlemaw and take the tunnel to find Lea.|
+T To The Hills|QID|41782|M|51.29,36.81|Z|116; Grizzly Hills|N|To Lea Stonepaw.|
+;A Fallen Offerings|QID|41783|M|51.29,36.81|Z|116; Grizzly Hills|N|From Lea Stonepaw.|PRE|41782| -- seems to be deprecated?
+;U Fallen Offerings|QID|41783|QO|1|M|50.99,48.32|Z|116; Grizzly Hills|U|136359|N|Click on the 'Fallen Shamans' lying around to pick up pouches. Open the pouches until you get 3 offerings.|
+;T Fallen Offerings|QID|41783|M|51.29,36.82|Z|116; Grizzly Hills|N|To Lea Stonepaw.|
+A The First Trial of Ursol|QID|41790|M|50.52,37.60|Z|116; Grizzly Hills|N|From Ursol.|PRE|41782|
+C The First Trial of Ursol|QID|41790|M|50.63,37.43|Z|116; Grizzly Hills|N|Overcome Ursol's first trial.|
+T The First Trial of Ursol|QID|41790|M|50.50,37.58|Z|116; Grizzly Hills|N|To Ursol.|
+A The Second Trial of Ursol|QID|41791|M|50.50,37.58|Z|116; Grizzly Hills|N|From Ursol.|PRE|41790|
+C The Second Trial of Ursol|QID|41791|M|50.68,37.18|Z|116; Grizzly Hills|N|This time you have several waves.|
+T The Second Trial of Ursol|QID|41791|M|50.50,37.59|Z|116; Grizzly Hills|N|To Ursol.|
+A The Third Trial of Ursol|QID|41792|M|50.50,37.59|Z|116; Grizzly Hills|N|From Ursol.|PRE|41791|
+C The Third Trial of Ursol|QID|41792|QO|1|M|50.51,37.60|Z|116; Grizzly Hills|CHAT|N|Speak with Ursol to begin the third trial.|
+C The Third Trial of Ursol|QID|41792|QO|2|M|51.16,36.93|Z|116; Grizzly Hills|N|Protect Lea Stonepaw.|
+T The Third Trial of Ursol|QID|41792|M|50.53,37.58|Z|116; Grizzly Hills|N|To Ursol.|
+A When Dreams Become Nightmares|QID|40647|M|51.28,36.81|Z|116; Grizzly Hills|N|From Lea Stonepaw.|PRE|41792|
+C When Dreams Become Nightmares|QID|40647|NC|U|136414|QO|1|M|51.28,36.81|Z|116; Grizzly Hills|N|Use the flask to enter the Emerald Dream.|
 C Ursoc's Lair|QID|40647|SO|1|M|41.6,76.74;49.6,75.66;48.44,50.49|CS|Z|UrsocsLairScenario|N|It doesnt say anything about killing these, you can stealth past them.|
 C Defend the Spirit of Ursoc|QID|40647|SO|2;1|M|49.85,28.57|Z|UrsocsLairScenario|N|Defend the Spirit of Ursoc|
 C Survive the first assault|QID|40647|SO|3;1|M|47.77,30.51|Z|UrsocsLairScenario|N|Survive the first assault.|
@@ -395,8 +395,8 @@ C Survive the third assault|QID|40647|SO|5;1|M|47.44,32.16|Z|UrsocsLairScenario|
 C Survive the final assault|QID|40647|SO|6;1|M|50.37,32.12|Z|UrsocsLairScenario|N|Survive the final assault.|
 C Defeat Malithar|QID|40647|SO|7;1|M|50.19,26.48|Z|UrsocsLairScenario|N|Defeat Malithar.|
 C When Dreams Become Nightmares|QID|40647|QO|3|NC|M|50.19,26.48|Z|UrsocsLairScenario|N|Pick up the claws. After the mini scene ends, talk to Lea to return to her den.|
-T When Dreams Become Nightmares|QID|40647|M|51.24,36.86|Z|Grizzly Hills|N|To Lea Stonepaw.|
-A The Dreamer Returns|QID|41918|M|51.24,36.86|Z|Grizzly Hills|N|From Lea Stonepaw.|PRE|40647|
+T When Dreams Become Nightmares|QID|40647|M|51.24,36.86|Z|116; Grizzly Hills|N|To Lea Stonepaw.|
+A The Dreamer Returns|QID|41918|M|51.24,36.86|Z|116; Grizzly Hills|N|From Lea Stonepaw.|PRE|40647|
 C The Dreamer Returns|QID|41918|NC|M|45.48,24.07|Z|EmeraldDreamway|N|Use Dreamwalk (Teleport spell) then run thru the portal in front of you.|
 T The Dreamer Returns|QID|41918|M|44.48,51.08|N|To Rensar Greathoof.|
 ;RESTORATION
