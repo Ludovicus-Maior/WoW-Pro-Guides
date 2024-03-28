@@ -140,11 +140,11 @@ T Young and Vicious|QID|24626|M|67.24,87.95|Z|1411;Durotar|N|To Moraya.\n[color=
 T Crab Fishin'|QID|25037|M|68.52,87.62|Z|1411;Durotar|N|To Tora'jin.|
 
 A Breaking the Line|QID|25035|PRE|24626|M|67.99,88.95|Z|1411;Durotar|N|From Tortunga.|
-C Breaking the Line|QID|25035|QO|1|M|68.01,89.04|Z|1411;Durotar|N|Talk to Jornun (he's beside Tortunga) for a ride to Spitescale Cavern.|CHAT|
-T Breaking the Line|QID|25035|M|67.92,74.12|Z|1411;Durotar|N|To Morakki.|
-A No More Mercy|QID|24812|PRE|25035|M|67.92,74.12|Z|1411;Durotar|N|From Morakki.|
-A Territorial Fetish|QID|24813|PRE|25035|M|67.92,74.12|Z|1411;Durotar|N|From Morakki.|
-N No More Mercy|ACTIVE|24812|M|67.92,74.12|Z|1411;Durotar|N|A companion named "Zuni" will join you to help with fighting and healing.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Spitescale Cavern|ACTIVE|25035|M|68.01,89.04;67.88,74.20|CC|Z|1411;Durotar|N|Talk to Jornun (he's beside Tortunga) for a ride to Spitescale Cavern.|CHAT|
+T Breaking the Line|QID|25035|M|67.95,74.07|Z|1411;Durotar|N|To Morakki.|
+A No More Mercy|QID|24812|PRE|25035|M|67.95,74.07|Z|1411;Durotar|N|From Morakki.|
+A Territorial Fetish|QID|24813|PRE|25035|M|67.95,74.07|Z|1411;Durotar|N|From Morakki.|
+N No More Mercy|ACTIVE|24812|M|67.95,74.07|Z|1411;Durotar|N|A companion named "Zuni" will join you to help with fighting and healing.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 C Territorial Fetish|QID|24813|M|69.18,69.70|Z|1411;Durotar|N|Place 8 Territorial Fetishes on Spitescale flags.\n[color=FF0000]NOTE: [/color]You can place on same flag more than once when Fetish wears off.|U|52065|S|
 K No More Mercy|ACTIVE|24812|QO|1|M|69.52,70.08|Z|1411;Durotar|N|Kill 12 Spitescale Naga.|
 C Territorial Fetish|QID|24813|M|69.18,69.70|Z|1411;Durotar|N|Place 8 Territorial Fetishes on Spitescale flags.\n[color=FF0000]NOTE: [/color]You can place on same flag more than once when Fetish wears off.|U|52065|US|
@@ -153,13 +153,13 @@ T Territorial Fetish|QID|24813|PRE|24812|M|67.95,74.05|Z|1411;Durotar|N|To Morak
 A An Ancient Enemy|QID|24814|PRE|24813|M|67.95,74.05|Z|1411;Durotar|N|From Morakki.|
 
 C An Ancient Enemy|QID|24814|QO|1|M|68.43,71.99|Z|1411;Durotar|N|Speak with Vol'jin in Spitescale Cove.\n[color=FF0000]NOTE: [/color]Go east of the Spitescale Cavern and then north up the hill.|CHAT|
-C An Ancient Enemy|QID|24814|QO|1|M|68.43,71.99|Z|1411;Durotar|N|Aid Vol'jin in killing Zar'jira.\n[color=FF0000]NOTE: [/color]There will be Totems for health and mana. Concentrate on killing Manifestations and stomp Braziers when necessary.|
-C An Ancient Enemy|QID|24814|QO|2|M|68.43,71.55|Z|1411;Durotar|N|Speak with Vanira to Teleport back to Darkspear Hold.|CHAT|
-;L Level |ACTIVE||N|Grind until you're within  bubbles of level .|LVL|;-|
+C An Ancient Enemy|QID|24814|QO|2|M|68.43,71.99|Z|1411;Durotar|N|Aid Vol'jin in killing Zar'jira.\n[color=FF0000]NOTE: [/color]There will be Totems for health and mana. Concentrate on killing Manifestations and stomp Braziers when necessary.|
+L Level 5|ACTIVE|24814|N|Grind until you're within 6.5 bubbles of level 5.|LVL|4;-670|
+R Darkspear Hold|ACTIVE|24814|M|68.43,71.55|Z|1411;Durotar|N|Speak with Vanira to Teleport back to Darkspear Hold.\n[color=FF0000]NOTE: [/color]After a period of time, she will move back to where you met Vol'jin.|CHAT|
 T An Ancient Enemy|QID|24814|M|68.81,88.64|Z|1411;Durotar|N|To Vol'jin.|
 A Sen'jin Village|QID|25073|PRE|24814|M|68.86,88.73|Z|1411;Durotar|N|From Vol'jin.|
-= Level 5 Training|ACTIVE|25073|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Darkspear Training Grounds|
-T Sen'jin Village|QID|25073|M|56.02,74.71|Z|1411;Durotar|N|To Master Gadrin.|
+= Level 5 Training|ACTIVE|25073|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Darkspear Training Grounds^Darkspear Hold|
+T Sen'jin Village|QID|25073|M|55.95,74.72|Z|1411;Durotar|N|To Master Gadrin.|
 ]]
 
 end)
