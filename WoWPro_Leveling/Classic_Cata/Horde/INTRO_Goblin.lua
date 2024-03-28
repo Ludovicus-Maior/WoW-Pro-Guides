@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('MalKez0105', "Leveling", 'Kezan', 'Malorajan', 'Horde', 4)
 WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Goblin: Intro")
 WoWPro:GuideName(guide,"Goblin: Intro")
