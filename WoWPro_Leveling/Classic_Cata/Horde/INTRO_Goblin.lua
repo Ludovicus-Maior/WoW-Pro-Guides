@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Goblin: Intro")
 WoWPro:GuideName(guide,"Goblin: Intro")
-WoWPro:GuideNextGuide(guide, 'Chromie Time')
+WoWPro:GuideNextGuide(guide, 'BitAzs1220')
 WoWPro:GuideRaceSpecific(guide,"Goblin")
 WoWPro:GuideSteps(guide, function()
 return [[

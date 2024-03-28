@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Blood Elf: Intro")
 WoWPro:GuideName(guide,"Blood Elf: Intro")
-WoWPro:GuideNextGuide(guide, 'Chromie Time')
+WoWPro:GuideNextGuide(guide, 'SnoGho122')
 WoWPro:GuideSteps(guide, function()
 return [[
 
