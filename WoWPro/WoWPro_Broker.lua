@@ -4288,7 +4288,7 @@ function WoWPro.LockdownHandler(self, elapsed)
             if TomTom and TomTom.AddWaypoint then
                 WoWPro:CarboniteProfileHack()
             else
-                WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
+--               WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
                 if WoWPro.LockdownCounter > 0 then
                     WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
                     WoWPro.LockdownTimer = 0.33
