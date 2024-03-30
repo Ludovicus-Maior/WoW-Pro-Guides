@@ -1183,7 +1183,7 @@ local function createGuideConfig()
                 blah = {
                     order = 11,
                     type = "description",
-                    name = "Please right click on the guide header on the gear icon for now and choose Old Style Guide List. leveling guides are not yet implemented.",
+                    name = "Please right click on the guide header on the gear icon for now and choose Old Style Guide List.",
                     width = "full"
                 },
         }
