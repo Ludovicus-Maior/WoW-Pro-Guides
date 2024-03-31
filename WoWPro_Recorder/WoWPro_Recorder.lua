@@ -65,7 +65,7 @@ function WoWPro.Recorder:ToggleAdvanced()
 
     -- Show or hide frames and adjust their sizes based on the current mode
     if WoWProCharDB.Advanced then
-        WoWPro.AdvancedRecorderFrame:SetWidth(310)
+        WoWPro.RecorderFrame:SetWidth(310)
         WoWPro.MainFrame:SetWidth(310)
     else
         WoWPro.RecorderFrame:SetWidth(225)
