@@ -619,7 +619,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 21,
                     type = "input",
                     name = "Looted Item Quantity:",
-                    desc = "If the step compeltes when you loot a certain number of items, put the number here.",
+                    desc = "If the step completes when you loot a certain number of items, put the number here.",
                     get = function(info,val)
                         if WoWPro.Recorder.stepInfo.lootqty then
                             return tostring(WoWPro.Recorder.stepInfo.lootqty)
