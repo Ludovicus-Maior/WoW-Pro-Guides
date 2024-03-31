@@ -72,8 +72,8 @@ function WoWPro.Recorder:ToggleAdvanced()
     else
         WoWPro.RecorderFrame:Show()
         WoWPro.AdvancedRecorderFrame:Hide()
-        WoWPro.RecorderFrame:SetWidth(130)  -- Set width for non-advanced mode
-        WoWPro.MainFrame:SetWidth(130)  -- Set main frame width for non-advanced mode
+        WoWPro.RecorderFrame:SetWidth(225)  -- Set width for non-advanced mode
+        WoWPro.MainFrame:SetWidth(225)  -- Set main frame width for non-advanced mode
     end
     _G.ReloadUI();
 end

@@ -1349,13 +1349,13 @@ function WoWPro.Recorder:CustomizeFrames()
     end
 
     --Minimum Frame Size to match --
-    if WoWProDB.profile.hminresize < 130 then
-        WoWProDB.profile.hminresize = 130
+    if WoWProDB.profile.hminresize < 225 then
+        WoWProDB.profile.hminresize = 225
     end
-    if WoWPro.MainFrame:GetWidth() < 130 then
+    if WoWPro.MainFrame:GetWidth() < 225 then
         -- MainFrame --
         WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
-        WoWPro.MainFrame:SetWidth(130)
+        WoWPro.MainFrame:SetWidth(225)
     end
 end
 
