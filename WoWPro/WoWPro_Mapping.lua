@@ -273,10 +273,10 @@ function WoWPro.DistanceBetweenSteps(i,j)
     if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].completion[j] then return 9e-5 end
     local icoord = select(1, (";"):split(WoWPro.map[i]))
     local jcoord = select(1, (";"):split(WoWPro.map[j]))
-    local ix = tonumber(icoord:match("([^|]*),"))/100
-    local iy = tonumber(icoord:match(",([^|]*)"))/100
-    local jx = tonumber(jcoord:match("([^|]*),"))/100
-    local jy = tonumber(jcoord:match(",([^|]*)"))/100
+    local ix = icoord:match("([^|]*),") and tonumber(icoord:match("([^|]*),")) / 100 or 0
+    local iy = icoord:match(",([^|]*)") and tonumber(icoord:match(",([^|]*)")) / 100 or 0
+    local jx = jcoord:match("([^|]*),") and tonumber(jcoord:match("([^|]*),")) / 100 or 0
+    local jy = jcoord:match(",([^|]*)") and tonumber(jcoord:match(",([^|]*)")) / 100 or 0
     local _, im = WoWPro:ValidZone(WoWPro.zone[i])
     local _, jm = WoWPro:ValidZone(WoWPro.zone[j])
 
@@ -294,8 +294,8 @@ function WoWPro.DistanceToStep(i)
 --    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
     local ix = select(1, (","):split(icoord))
     local iy = select(2, (","):split(icoord))
-    ix = tonumber(ix) / 100
-    iy = tonumber(iy) / 100
+    ix = ix and tonumber(ix) and tonumber(ix) / 100 or 0
+    iy = iy and tonumber(iy) and tonumber(iy) / 100 or 0
     local _, im = WoWPro:ValidZone(WoWPro.zone[i])
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
     local x, y, m = WoWPro:GetPlayerZonePosition()
