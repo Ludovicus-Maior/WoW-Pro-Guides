@@ -208,21 +208,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
     })
     recorderframe:RegisterForClicks("AnyUp")
     WoWPro.RecorderFrame = recorderframe
-
-    -- Create frame for advanced mode
-    local advancedRecorderframe = _G.CreateFrame("Button", "AdvancedWoWProRecorderFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    advancedRecorderframe:SetHeight(35)
-    advancedRecorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
-    advancedRecorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
-    advancedRecorderframe:SetBackdrop( {
-        bgFile = WoWProDB.profile.bgtexture,
-        edgeFile = WoWProDB.profile.bordertexture,
-        tile = true, tileSize = 16,
-        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-    })
-    advancedRecorderframe:RegisterForClicks("AnyUp")
-    WoWPro.AdvancedRecorderFrame = advancedRecorderframe
-    WoWPro.AdvancedRecorderFrame:Hide()
     -- Scripts --
     WoWPro.RecorderFrame:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
