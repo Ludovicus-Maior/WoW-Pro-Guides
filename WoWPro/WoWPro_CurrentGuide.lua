@@ -18,8 +18,8 @@ frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, -15)
 frame:SetFrameStrata("TOOLTIP")
 local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
-texture:SetColorTexture(0, 0, 0, 0)
-frame:SetBackdropColor(0, 0, 0, 0)
+texture:SetColorTexture(0, 0, 0, 0.7)
+frame:SetBackdropColor(0, 0, 0, 1)
 
 
 -- Add the frame to the special frames list
