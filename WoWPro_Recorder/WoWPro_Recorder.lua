@@ -57,12 +57,25 @@ function WoWPro.Recorder:OnDisable()
 end
 
 function WoWPro.Recorder:ToggleAdvanced()
-	if WoWProCharDB.Advanced then
-		WoWProCharDB.Advanced = false
-	else
-		WoWProCharDB.Advanced = true
-	end
-	_G.ReloadUI();
+    if WoWProCharDB.Advanced then
+        WoWProCharDB.Advanced = false
+    else
+        WoWProCharDB.Advanced = true
+    end
+
+    -- Show or hide frames and adjust their sizes based on the current mode
+    if WoWProCharDB.Advanced then
+        WoWPro.RecorderFrame:Hide()
+        WoWPro.AdvancedRecorderFrame:Show()
+        WoWPro.AdvancedRecorderFrame:SetWidth(310)  -- Set width for advanced mode
+        WoWPro.MainFrame:SetWidth(310)  -- Set main frame width for advanced mode
+    else
+        WoWPro.RecorderFrame:Show()
+        WoWPro.AdvancedRecorderFrame:Hide()
+        WoWPro.RecorderFrame:SetWidth(130)  -- Set width for non-advanced mode
+        WoWPro.MainFrame:SetWidth(130)  -- Set main frame width for non-advanced mode
+    end
+    _G.ReloadUI();
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()

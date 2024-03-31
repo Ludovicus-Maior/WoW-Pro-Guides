@@ -195,8 +195,9 @@ end
 
 -- Recorder Frame --
 function WoWPro.Recorder:CreateRecorderFrame()
+    -- Create frame for non-advanced mode
     local recorderframe = _G.CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    recorderframe:SetHeight(30)
+    recorderframe:SetHeight(35)
     recorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
     recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
     recorderframe:SetBackdrop( {
@@ -207,6 +208,21 @@ function WoWPro.Recorder:CreateRecorderFrame()
     })
     recorderframe:RegisterForClicks("AnyUp")
     WoWPro.RecorderFrame = recorderframe
+
+    -- Create frame for advanced mode
+    local advancedRecorderframe = _G.CreateFrame("Button", "AdvancedWoWProRecorderFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    advancedRecorderframe:SetHeight(35)
+    advancedRecorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
+    advancedRecorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
+    advancedRecorderframe:SetBackdrop( {
+        bgFile = WoWProDB.profile.bgtexture,
+        edgeFile = WoWProDB.profile.bordertexture,
+        tile = true, tileSize = 16,
+        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+    })
+    advancedRecorderframe:RegisterForClicks("AnyUp")
+    WoWPro.AdvancedRecorderFrame = advancedRecorderframe
+    WoWPro.AdvancedRecorderFrame:Hide()
     -- Scripts --
     WoWPro.RecorderFrame:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
@@ -1333,13 +1349,13 @@ function WoWPro.Recorder:CustomizeFrames()
     end
 
     --Minimum Frame Size to match --
-    if WoWProDB.profile.hminresize < 250 then
-        WoWProDB.profile.hminresize = 250
+    if WoWProDB.profile.hminresize < 130 then
+        WoWProDB.profile.hminresize = 130
     end
-    if WoWPro.MainFrame:GetWidth() < 250 then
+    if WoWPro.MainFrame:GetWidth() < 130 then
         -- MainFrame --
         WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
-        WoWPro.MainFrame:SetWidth(250)
+        WoWPro.MainFrame:SetWidth(130)
     end
 end
 
