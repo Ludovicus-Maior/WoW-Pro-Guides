@@ -196,7 +196,7 @@ end
 -- Recorder Frame --
 function WoWPro.Recorder:CreateRecorderFrame()
     local recorderframe = _G.CreateFrame("Button", "WoWProRecorderFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
-    recorderframe:SetHeight(30)
+    recorderframe:SetHeight(35)
     recorderframe:SetPoint("BOTTOMLEFT", WoWPro.MainFrame, "TOPLEFT", 0, 0)
     recorderframe:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "TOPRIGHT", 0, 0)
     recorderframe:SetBackdrop( {
@@ -1333,13 +1333,14 @@ function WoWPro.Recorder:CustomizeFrames()
     end
 
     --Minimum Frame Size to match --
-    if WoWProDB.profile.hminresize < 225 then
-        WoWProDB.profile.hminresize = 225
+    local minSize = WoWProDB.profile.advancedMode and 310 or 225
+    if WoWProDB.profile.hminresize < minSize then
+        WoWProDB.profile.hminresize = minSize
     end
-    if WoWPro.MainFrame:GetWidth() < 225 then
+    if WoWPro.MainFrame:GetWidth() < minSize then
         -- MainFrame --
         WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
-        WoWPro.MainFrame:SetWidth(225)
+        WoWPro.MainFrame:SetWidth(minSize)
     end
 end
 
