@@ -1298,7 +1298,6 @@ function WoWPro.CreateConfig()
     topConfig.args.rankConfig.order=14
     topConfig.args.actionConfig.order=15
     topConfig.args.expertConfig.order=-1
-   
 
     -- Register your options with AceConfig
     config:RegisterOptionsTable("WoWPro", topConfig)

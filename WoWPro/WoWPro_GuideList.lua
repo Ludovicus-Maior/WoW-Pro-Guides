@@ -155,7 +155,6 @@ function WoWPro.CreateGuideList()
             tinsert(tabs, tab)
             tab:SetID(#tabs)
             tabIndexByName[name] = #tabs
-            if name == "Leveling" then
             end
         end
     end
