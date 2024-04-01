@@ -105,12 +105,13 @@ function WoWPro.CreateGuideList()
     local frame = _G.CreateFrame("Frame", "WoWPro_GuideList", _G.UIParent, "BackdropTemplate")
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
-    frame:SetSize(625, 625)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, -15)
+    frame:SetSize(625, 480)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    frame:SetFrameStrata("DIALOG")
     local texture = frame:CreateTexture(nil, "BACKGROUND")
     texture:SetAllPoints(true)
-    texture:SetColorTexture(0, 0, 0, 0.6)
-    frame:SetBackdropColor(0, 0, 0, 0.6)
+    texture:SetColorTexture(0, 0, 0, 0)
+    frame:SetBackdropColor(0, 0, 0, 0)
     frame.okay = function () return true; end
     frame.default = function () return true; end
     frame.refresh =  function () return true; end
@@ -154,6 +155,8 @@ function WoWPro.CreateGuideList()
             tinsert(tabs, tab)
             tab:SetID(#tabs)
             tabIndexByName[name] = #tabs
+            if name == "Leveling" then
+            end
         end
     end
     scrollBox.Tabs = tabs -- Tabs table needs to be capitalized for the PanelTemplate functions

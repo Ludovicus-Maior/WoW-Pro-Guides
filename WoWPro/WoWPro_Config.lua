@@ -44,6 +44,15 @@ local function createDisplayConfig()
         name = L["Guide Display"],
         desc = L["Options that alter the way the guide frame looks"],
         args = {
+            dummy = {
+                type = "description",
+                name = "",
+                hidden = function()
+                    WoWPro.CurrentGuideFrame:Hide()
+                    WoWPro.GuideList:Hide()
+                    return true
+                end,
+            },
             desc = {
                 order = 0,
                 type = "description",
@@ -621,6 +630,15 @@ local function createMainConfig()
         name = L["Main"],
         type = "group",
         args = {
+            dummy = {
+                type = "description",
+                name = "",
+                hidden = function()
+                    WoWPro.CurrentGuideFrame:Hide()
+                    WoWPro.GuideList:Hide()
+                    return true
+                end,
+            },
             version = {
                 order = 11,
                 type = "description",
@@ -894,6 +912,15 @@ local function createExpertOptions()
         name = L["Expert"],
         type = "group",
         args = {
+            dummy = {
+                type = "description",
+                name = "",
+                hidden = function()
+                    WoWPro.CurrentGuideFrame:Hide()
+                    WoWPro.GuideList:Hide()
+                    return true
+                end,
+            },
             header = {
                 order = 1,
                 type = "header",
@@ -1062,6 +1089,15 @@ local function createRankConfig()
         name = L["Ranks"],
         type = "group",
         args = {
+            dummy = {
+                type = "description",
+                name = "",
+                hidden = function()
+                    WoWPro.CurrentGuideFrame:Hide()
+                    WoWPro.GuideList:Hide()
+                    return true
+                end,
+            },
             WoWProRank={name="WoWPro",
             type = "group",
             order = 50,
@@ -1157,7 +1193,15 @@ local function createActionConfig()
         name = L["Actions"],
         type = "group",
         args = {
-
+            dummy = {
+                type = "description",
+                name = "",
+                hidden = function()
+                    WoWPro.CurrentGuideFrame:Hide()
+                    WoWPro.GuideList:Hide()
+                    return true
+                end,
+            },
                 header = {
                     order = 10,
                     type = "header",
@@ -1174,18 +1218,23 @@ local function createGuideConfig()
         name = L["Guide Selection"],
         type = "group",
         args = {
-
-                header = {
-                    order = 10,
-                    type = "header",
-                    name = L["Guide Selector is not here for now"],
-                },
-                blah = {
-                    order = 11,
-                    type = "description",
-                    name = "Please right click on the guide header on the gear icon for now and choose Old Style Guide List. leveling guides are not yet implemented.",
-                    width = "full"
-                },
+            dummy = {
+                type = "description",
+                name = "",
+                hidden = function()
+                    WoWPro.CurrentGuideFrame:Hide()
+                    return true
+                end,
+            },
+            openGuide = {
+                order = 2,
+                type = "description",
+                name = "",
+                hidden = function()
+                    WoWPro.GuideList:Show()
+                    return true
+                end,
+            },
         }
     }
     return actions
@@ -1196,29 +1245,35 @@ local function createCurrentGuideConfig()
         name = "Current Guide",
         type = "group",
         args = {
-            header = {
-                order = 1,
-                type = "header",
-                name = "You need to click the Button to Open and Close the Current Guide BEFORE choosing another tab.",
-            },
             openGuide = {
                 order = 2,
-                type = "execute",
-                name = "Show/Hide",
-                func = function()
-                    if WoWPro.CurrentGuideFrame:IsShown() then
-                        WoWPro.CurrentGuideFrame:Hide()
-                    else
-                        WoWPro.CurrentGuideFrame:Show()
-                    end
+                type = "description",
+                name = "",
+                hidden = function()
+                    WoWPro.CurrentGuideFrame:Show()
+                    WoWPro.GuideList:Hide()
+                    return true
                 end,
             },
+            -- Add more options here...
         },
     }
     return actions
 end
 
+
 function WoWPro.CreateConfig()
+    local profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
+    profileConfig.args.hideCurrentGuideFrame = {
+        type = "description",
+        name = "",
+        hidden = function()
+            WoWPro.CurrentGuideFrame:Hide()
+            WoWPro.GuideList:Hide()
+            return true
+        end,
+    }
+
     local topConfig = {
         name = "Options",
         type = "group",
@@ -1228,10 +1283,10 @@ function WoWPro.CreateConfig()
             displayConfig = createDisplayConfig(),
             guideSelect = createGuideConfig(),
             currentGuide = createCurrentGuideConfig(),
-            profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB),
+            profileConfig = profileConfig,
             rankConfig = createRankConfig(),
             actionConfig = createActionConfig(),
-            expertConfig = createExpertOptions()
+            expertConfig = createExpertOptions(),
         }
     }
     --  (default = 100, 0=first, -1=last)
@@ -1243,6 +1298,7 @@ function WoWPro.CreateConfig()
     topConfig.args.rankConfig.order=14
     topConfig.args.actionConfig.order=15
     topConfig.args.expertConfig.order=-1
+   
 
     -- Register your options with AceConfig
     config:RegisterOptionsTable("WoWPro", topConfig)

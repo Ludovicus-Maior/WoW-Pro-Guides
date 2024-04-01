@@ -13,9 +13,9 @@ WoWPro.CreateCurrentGuideTitle = true
 local frame = _G.CreateFrame("Frame", "CreateGuide", _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
-frame:SetSize(625, 430)
-frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, -15)
-frame:SetFrameStrata("TOOLTIP")
+frame:SetSize(625, 480)
+frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+frame:SetFrameStrata("DIALOG")
 local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
 texture:SetColorTexture(0, 0, 0, 0)
