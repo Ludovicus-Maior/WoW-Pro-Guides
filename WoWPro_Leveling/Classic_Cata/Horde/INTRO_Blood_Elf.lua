@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('KraSunIsle', 'Leveling', 'Sunstrider Isle (Blood Elf)', 'Kraevac', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('KraSunIsle', 'Leveling', 'Eversong Woods', 'Kraevac', 'Horde', 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideContent(guide, "Intro")
@@ -8,30 +8,95 @@ WoWPro:GuideNextGuide(guide, 'SnoGho122')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Reclaiming Sunstrider Isle|QID|8325|M|60.95,45.22|N|From Magistrix Erona.|R|BloodElf|
-K Reclaiming Sunstrider Isle|ACTIVE|8325|M|51.01,41.96|QO|1|N|Slay Mana Wyrms.|R|BloodElf|
-T Reclaiming Sunstrider Isle|QID|8325|M|61.04,45.13|N|To Magistrix Erona.|R|BloodElf|
-A Unfortunate Measures|QID|8326|M|61.04,45.13|N|From Magistrix Erona.|PRE|8325|R|BloodElf|
-l Unfortunate Measures|ACTIVE|8326|M|67.18,32.63|QO|1|N|Slay and loot Lynx for collars.|R|BloodElf|
-T Unfortunate Measures|QID|8326|M|61.12,45.11|N|To Magistrix Erona.|R|BloodElf|
-A Report to Lanthan Perilon|QID|8327|M|61.12,45.11|N|From Magistrix Erona.|PRE|8326|R|BloodElf|
-A Solanian's Belongings|QID|37443|M|63.96,42.84|N|From Well Watcher Solanian, inside the building and up the ramp.|R|BloodElf|
-A The Shrine of Dath'Remar|QID|37442|M|63.96,42.84|N|From Well Watcher Solanian.|R|BloodElf|
-A A Fistful of Slivers|QID|37440|M|61.84,39.35|N|From Arcanist Ithanas.|R|BloodElf|
-r Repair and restock|AVAILABLE|37439|M|58.33,39.03|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
-A Thirst Unending|QID|37439|M|58.45,38.79|N|From Arcanist Helion.|R|BloodElf|
-r Repair and restock|AVAILABLE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|US|R|BloodElf|
-C A Fistful of Slivers|QID|37440|M|48.18,39.43|QO|1|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|S|R|BloodElf|
-C Thirst Unending|QID|37439|M|54.14,39.28|QO|1|N|Use Arcane Torrent on a Mana Wyrm and then slay it. Must be within 8 yds for Arcane Torrent to be used.|R|BloodElf|
-C A Fistful of Slivers|QID|37440|M|48.18,39.43|QO|1|N|Slay Mana Wyrms and loot them for the Arcane Slivers.|US|R|BloodElf|
-C The Shrine of Dath'Remar|QID|37442|M|35.31,40.27|QO|1|NC|N|Click on the glowing part of the shrine.|R|BloodElf|
-C Solanian's Belongings|QID|37443|NC|M|40.42,50.27|QO|2|R|BloodElf|
+A Reclaiming Sunstrider Isle|QID|8325|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|
+A Windows to the Source|QID|8344|M|38.93,21.44|N|From Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]This is your Summon Imp quest. You can do it on your own now, or wait a bit and do it when the guide takes you to there shortly.|R|BloodElf|C|Warlock|
+= Arcane Intellect|QID|99999|M|39.23,21.45|N|As soon as you have 10c (or junk to sell), head back to your trainer, Julia Sunstriker, and buy this Intellect buff spell.|SPELL|Arcane Intellect;1459|R|BloodElf|C|Mage|S!US|
+K Reclaiming Sunstrider Isle|ACTIVE|8325|QO|1|M|34.84,19.97|N|Kill Mana Wyrms.|R|BloodElf|
+T Reclaiming Sunstrider Isle|QID|8325|M|38.02,21.00|N|To Magistrix Erona.|R|BloodElf|
+A Unfortunate Measures|QID|8326|PRE|8325|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|
+A Solanian's Belongings|QID|8330|M|38.97,20.27|N|From Well Watcher Solanian.|R|BloodElf|
+A The Shrine of Dath'Remar|QID|8345|M|38.97,20.27|N|From Well Watcher Solanian.|R|BloodElf|
+A A Fistful of Slivers|QID|8336|M|38.28,19.13|N|From Arcanist Ithanas, on the patio below you.\n[color=FF0000]NOTE: [/color]You can jump down from the balcony.|R|BloodElf|
+A Thirst Unending|QID|8346|M|37.18,18.95|N|From Arcanist Helion.\n[color=FF0000]NOTE: [/color]You can see him on the patio directly opposite from your current position.|R|BloodElf|
+r Empty your bags|ACTIVE|8346|M|37.14,19.03|N|Empty your bags and repair before venturing further.\n[color=FF0000]NOTE: [/color]Jainthess Thelryn, standing beside you, can help you with that.|R|BloodElf|
+C Unfortunate Measures|QID|8326|M|36.22,22.64|L|20797 8|ITEM|20797|N|Springpaw Lynxes and Cubs.|R|BloodElf|S|
+C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Mana Wyrms\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|S|
+C Thirst Unending|QID|8346|M|35.39,20.24|QO|1|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|S|
+C Solanian's Belongings|QID|8330|M|37.70,24.90|L|20472|N|Pick up Solanian's Journal, near the big green crystal.|R|BloodElf|
+C Unfortunate Measures|QID|8326|M|36.22,22.64|L|20797 8|ITEM|20797|N|Springpaw Lynxes and Cubs.\n[color=FF0000]NOTE: [/color]If this area is busy, you can find more behind the buildings northeast of you.|R|BloodElf|US|
+C Thirst Unending|QID|8346|M|35.39,20.24|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|US|
+L Level 3|ACTIVE|8326|N|Grind until you're within 5.5 bubbles of level 3.|LVL|2;-250|
+T Unfortunate Measures|QID|8326|M|38.02,21.00|N|To Magistrix Erona.|R|BloodElf|
+
+; -- Class quests
+; ** Lv 3 Class quests (Trainer intro)
+; ** Mage
+A Mage Training|QID|8328|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Mage|
+T Mage Training|QID|8328|M|39.23,21.45|N|To Julia Sunstriker, inside the building.|R|BloodElf|C|Mage|
+A Arcane Missiles|QID|10068|PRE|8328|M|39.23,21.45|N|From Julia Sunstriker.|R|BloodElf|C|Mage|
+= Arcane Missiles|ACTIVE|10068|QO|2|M|39.23,21.45|N|Learn Arcane Missiles from Julia Sunstriker.|SPELL|Arcane Missles;5143|R|BloodElf|C|Mage|
+C Arcane Missiles|QID|10068|QO|1|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice using Arcane Missiles 2 times.|T|Training Dummy|R|BloodElf|C|Mage|
+T Arcane Missiles|QID|10068|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Mage|
+; ** Warrior
+A Warrior Training|QID|8329|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Warrior|
+T Warrior Training|QID|8329|M|39.29,20.10|N|To Delios Silverblade, inside the building.|R|BloodElf|C|Warrior|
+A Charge!|QID|27091|PRE|8329|M|39.29,20.10|N|From Delios Silverblade.|R|BloodElf|C|Warrior|
+= Charge|ACTIVE|27091|QO|2|M|39.29,20.10|N|Learn Charge from Delios Silverblade.|SPELL|Charge;100|R|BloodElf|C|Warrior|
+C Charge|QID|27091|QO|1|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice using Charge.|T|Training Dummy|R|BloodElf|C|Warrior|
+T Charge!|QID|27091|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Warrior|
+; ** Warlock
+A Warlock Training|QID|8563|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Warlock|
+T Warlock Training|QID|8563|M|38.93,21.44|N|To Summoner Teli'Larien, inside the building.|R|BloodElf|C|Warlock|
+A Immolation|QID|10073|PRE|8563|M|42.39,68.07|N|From Summoner Teli'Larien.|R|BloodElf|C|Warlock|
+= Immolate|ACTIVE|10073|QO|2|M|42.39,68.07|N|Learn Immolate from Summoner Teli'Larien.|SPELL|Immolate;348|R|BloodElf|C|Warlock|
+C Immolate|QID|10073|QO|1|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice casting Immolate 5 times.|T|Training Dummy|R|BloodElf|C|Warlock|
+T Immolation|QID|10073|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Warlock|
+; ** Priest
+A Priest Training|QID|8564|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Priest|
+T Priest Training|QID|8564|M|39.42,20.38|N|To Matron Arena, inside the building.|R|BloodElf|C|Priest|
+A Healing the Wounded|QID|10072|PRE|8564|M|39.42,20.38|N|From Matron Arena.|R|BloodElf|C|Priest|
+= Flash Heal|ACTIVE|10072|QO|2|M|39.42,20.38|N|Learn Flash Heal from Matron Arena.|SPELL|Flash Heal;2061|R|BloodElf|C|Priest|
+C Healing the Wounded|QID|10072|QO|1|M|39.42,20.38|N|Practice casting Flash Heal 5 times on Wounded Outrunners.|T|Training Dummy|R|BloodElf|C|Priest|
+T Healing the Wounded|QID|10072|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Priest|
+; ** Rogue
+A Rogue Training|QID|9392|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|Orc,BloodElf|C|Rogue|
+T Rogue Training|QID|9392|M|38.93,20.02|N|To Pathstalker Avokor, inside the building.|R|Orc,BloodElf|C|Rogue|
+A Evisceration|QID|10071|PRE|9392|M|38.93,20.02|N|From Pathstalker Kariel.|R|Orc,BloodElf|C|Rogue|
+= Eviscerate|ACTIVE|10071|QO|2|M|38.93,20.02|N|Learn Eviscerate from Pathstalker Kariel.|SPELL|Eviscerate;2098|R|Orc,BloodElf|C|Rogue|
+C Evisceration|QID|10071|QO|1|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice using Eviscerate 3 times.|T|Training Dummy|R|Orc,BloodElf|C|Rogue|
+T Evisceration|QID|10071|M|38.97,20.27|N|To Well Watcher Solanian.|R|Orc,BloodElf|C|Rogue|
+; ** Hunter
+A Hunter Training|QID|9393|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Hunter|
+T Hunter Training|QID|9393|M|39.05,20.01|N|To Ranger Sallina, inside the building.|R|BloodElf|C|Hunter|
+A Steady Shot|QID|10070|PRE|9393|M|39.05,20.01|N|From Ranger Sallina.|R|BloodElf|C|Hunter|
+= Steady Shot|ACTIVE|10070|M|39.05,20.01|N|Learn Steady Shot from Ranger Sallina.|SPELL|Steady Shot;56641|R|BloodElf|C|Hunter|
+C Steady Shot|QID|10070|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice using Steady Shot 5 times.|R|T|Training Dummy|BloodElf|C|Hunter|
+T Steady Shot|QID|10070|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Hunter|
+; ** Paladin
+A Paladin Training|QID|9676|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Paladin|
+T Paladin Training|QID|9676|M|39.48,20.56|N|To Jesthenis Sunstriker, inside the building.|R|BloodElf|C|Paladin|
+A Ways of the Light|QID|10069|PRE|9676|M|39.48,20.56|N|From Jesthenis Sunstriker.|R|BloodElf|C|Paladin|
+= Judgement|ACTIVE|10069|QO|2|M|39.48,20.56|N|From Jesthenis Sunstriker.|SPELL|Judgement;20271|R|BloodElf|C|Paladin|
+= Seal of Righteousness|ACTIVE|10069|QO|3|M|39.48,20.56|N|From Jesthenis Sunstriker.|SPELL|Seal of Righteousness;20154|R|BloodElf|C|Paladin|
+C Ways of the Light|QID|25139|QO|1|M|38.22,20.27|N|After casting Seal of Righteousness on yourself, locate a Training Dummy outside the Sunspire and use Judgement on it.|T|Training Dummy|R|BloodElf|C|Paladin|
+T Ways of the Light|QID|10069|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Paladin|
+; ** End of class quest
+
+
+
+= Level 3 Training|ACTIVE|8328^8329^8563^8564^9392^9393^9676|M|PLAYER|CC|N|Do your level 3 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|3|
+; --
+
+A Report to Lanthan Perilon|QID|8327|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|
+C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
+C The Shrine of Dath'Remar|QID|37442|QO|1|M|35.31,40.27|N|Click on the glowing part of the shrine.|R|BloodElf|NC|
+C Solanian's Belongings|QID|37443|QO|2|M|40.42,50.27|R|BloodElf|NC|
 T Report to Lanthan Perilon|QID|8327|M|52.75,49.81|N|To Lanthan Perilon.|R|BloodElf|
-A Aggression|QID|8334|PRE|8326|M|52.75,49.81|N|From Lanthan Perilon.|R|BloodElf|
-C Aggression|QID|8334|M|51.07,70.48|S|R|BloodElf|
-C Solanian's Belongings|QID|37443|M|52.15,69.59|NC|QO|1|R|BloodElf|
-C Aggression|QID|8334|M|51.07,70.48|US|R|BloodElf|
-C Solanian's Belongings|QID|37443|M|59.88,57.05|NC|QO|3|R|BloodElf|
+A Aggression|QID|8334|PRE|8327|M|52.75,49.81|N|From Lanthan Perilon.|R|BloodElf|
+C Aggression|QID|8334|M|51.07,70.48|R|BloodElf|S|
+C Solanian's Belongings|QID|37443|QO|1|M|52.15,69.59|R|BloodElf|NC|
+C Aggression|QID|8334|M|51.07,70.48|R|BloodElf|US|
+C Solanian's Belongings|QID|37443|QO|3|M|59.88,57.05|R|BloodElf|NC|
 T The Shrine of Dath'Remar|QID|37442|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
 T Solanian's Belongings|QID|37443|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
 T A Fistful of Slivers|QID|37440|M|61.65,39.43|N|To Arcanist Ithanas.|R|BloodElf|
@@ -105,8 +170,8 @@ A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|
 C Fetch!|QID|9402|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|Z|Eversong Woods|M|54.87,56.38|
 T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|55.7,54.5|
 A The Dead Scar|QID|8475|N|From Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
-C Swift Discipline - Apprentice Ralen|QID|9066|U|22473|NC|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|Z|Eversong Woods|M|45.20,56.40|QO|2|T|Apprentice Ralen|
-C Swift Discipline - Apprentice Meledor|QID|9066|U|22473|NC|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|Z|Eversong Woods|M|44.9,61.0|QO|1|T|Apprentice Meledor|
+C Swift Discipline - Apprentice Ralen|QID|9066|QO|2|U|22473|NC|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|Z|Eversong Woods|M|45.20,56.40|T|Apprentice Ralen|
+C Swift Discipline - Apprentice Meledor|QID|9066|QO|1|U|22473|NC|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|Z|Eversong Woods|M|44.9,61.0|T|Apprentice Meledor|
 C The Dead Scar|QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. \n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an on-level player to survive. |Z|Eversong Woods|M|51.2,56.3|
 T The Dead Scar|QID|8475|N|To Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
 T Swift Discipline|QID|9066|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
@@ -185,45 +250,45 @@ C Cleaning up the Grounds|QID|8894|N|Kill the Mana Serpent and Ether Fiends from
 R Azurebreeze Coast|QID|8894|N|If you want the explorer achievement, head to Azurebreeze Coast.\n\nIf you don't, just click this step.|Z|Eversong Woods|M|72.00,43.00|
 C Cleaning up the Grounds|QID|8894|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
 T Cleaning up the Grounds|QID|8894|N|To Groundskeeper Wyllithen.|Z|Eversong Woods|M|68.7,46.9|
-N Deactivating the Spire - First Power Source|QID|8889|N|Click on the Orb of Translocation, then deactivate the First Power Source.|Z|Eversong Woods|M|69.20,52.10|QO|1|NC|
-N Deactivating the Spire - Second Power Source|QID|8889|N|Head up the stairs, then deactivate the Second Power Source.|Z|Eversong Woods|M|69.20,52.10|QO|2|NC|
-A Abandoned Investigations|QID|8891|N|From Magister Duskwither's Journal on the table near the door.|Z|Eversong Woods|M|69.2,52.1|
-C Deactivating the Spire|QID|8889|N|Head up the stairs again, then deactivate the Third Power Source.|Z|Eversong Woods|M|69.20,52.10|QO|3|NC|
-T Deactivating the Spire|QID|8889|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|Z|Eversong Woods|M|67.8,56.5|
-A Word from the Spire|QID|8890|PRE|8889|N|From Apprentice Loralthalis.|Z|Eversong Woods|M|67.8,56.5|
+N Deactivating the Spire - First Power Source|QID|8889|QO|1|N|Click on the Orb of Translocation, then deactivate the First Power Source.|Z|Eversong Woods|M|69.20,52.10|NC|
+N Deactivating the Spire - Second Power Source|QID|8889|QO|2|M|69.20,52.10|Z|Eversong Woods|N|Head up the stairs, then deactivate the Second Power Source.|NC|
+A Abandoned Investigations|QID|8891|M|69.2,52.1|Z|Eversong Woods|N|From Magister Duskwither's Journal on the table near the door.|
+C Deactivating the Spire|QID|8889|QO|3|M|69.20,52.10|Z|Eversong Woods|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
+T Deactivating the Spire|QID|8889|M|67.8,56.5|Z|Eversong Woods|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|
+A Word from the Spire|QID|8890|PRE|8889|M|67.8,56.5|Z|Eversong Woods|N|From Apprentice Loralthalis.|
 ;N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City. Right-click the box to continue.|
-T Word from the Spire|QID|8890|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp. |Z|Eversong Woods|M|60.3,61.4|
-T Abandoned Investigations|QID|8891|N|To Magister Duskwither.|Z|Eversong Woods|M|60.3,61.4|
+T Word from the Spire|QID|8890|M|60.3,61.4|Z|Eversong Woods|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp. |
+T Abandoned Investigations|QID|8891|M|60.3,61.4|Z|Eversong Woods|N|To Magister Duskwither.|
 C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
-K Spearcrafter Otembe|QID|8477|QO|1|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|Z|Eversong Woods|M|70,72|
-A Zul'Marosh|QID|8479|N|From Ven'jashi.|Z|Eversong Woods|M|70.5,72.3|
-K Chieftain Zul'Marosh|QID|8479|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first. |Z|Eversong Woods|M|61.60,79.60|
-A Amani Invasion|QID|9360|N|From the Amani Invasion Plans.|Z|Eversong Woods|M|62.6,79.7|U|23249|
-T Zul'Marosh|QID|8479|N|To Ven'jashi.|Z|Eversong Woods|M|70.5,72.3|
-C Amani Encroachment|QID|8476|US|Z|Eversong Woods|M|69.00,72.00|N|Finish killing Trolls needed.|
-R Elrendar Falls|QID|9360|N|If you want the explorer achievement, head to Elrendar Falls.\n\nIf you don't, just click this step.|Z|Eversong Woods|M|64.00,73.00|
-T Amani Encroachment|QID|8476|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|Z|Eversong Woods|M|60.3,62.8|
-T Amani Invasion|QID|9360|N|To Lieutenant Dawnrunner.|Z|Eversong Woods|M|60.3,62.8|
+K Spearcrafter Otembe|QID|8477|QO|1|M|70,72|Z|Eversong Woods|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|
+A Zul'Marosh|QID|8479|M|70.5,72.3|Z|Eversong Woods|N|From Ven'jashi.|
+K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|Z|Eversong Woods|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first. |
+A Amani Invasion|QID|9360|M|62.6,79.7|Z|Eversong Woods|N|From the Amani Invasion Plans.|U|23249|
+T Zul'Marosh|QID|8479|M|70.5,72.3|Z|Eversong Woods|N|To Ven'jashi.|
+C Amani Encroachment|QID|8476|US|M|69.00,72.00|Z|Eversong Woods|N|Finish killing Trolls needed.|
+R Elrendar Falls|QID|9360|M|64.00,73.00|Z|Eversong Woods|N|If you want the explorer achievement, head to Elrendar Falls.\n\nIf you don't, just click this step.|
+T Amani Encroachment|QID|8476|M|60.3,62.8|Z|Eversong Woods|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
+T Amani Invasion|QID|9360|M|60.3,62.8|Z|Eversong Woods|N|To Lieutenant Dawnrunner.|
 A Warning Fairbreeze Village|QID|9363|PRE|9360|Z|Eversong Woods|M|60.32,62.76|N|From Lieutenant Dawnrunner.|
-T The Spearcrafter's Hammer|QID|8477|N|To Arathel Sunforge.|Z|Eversong Woods|M|59.5,62.6|
-C The Purest Water|QID|9403|R|BloodElf|C|Mage|Z|Eversong Woods|M|64.21,72.66|U|23566|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|
-T The Purest Water|QID|9403|R|BloodElf|C|Mage|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
+T The Spearcrafter's Hammer|QID|8477|M|59.5,62.6|Z|Eversong Woods|N|To Arathel Sunforge.|
+C The Purest Water|QID|9403|M|64.21,72.66|Z|Eversong Woods|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
+T The Purest Water|QID|9403|M|55.7,54.5|Z|Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|QID|9255|N|Hearth to Fairbreeze Village.|
-T Research Notes |QID|9255|N|To Magistrix Landra Dawnstrider.|Z|Eversong Woods|M|44.03,70.76|
-T Warning Fairbreeze Village|QID|9363|N|To Ranger Degolien.|Z|Eversong Woods|M|43.3,70.8|
-T Defending Fairbreeze Village|QID|9252|N|To Ranger Sareyn.|Z|Eversong Woods|M|46.93,71.79|
-A The Scorched Grove|QID|9258|LEAD|8473|N|From Ardeyn Riverwind.|Z|Eversong Woods|M|43.6,71.2|
-T The Party Never Ends|QID|9067|N|To Lord Saltheril.|Z|Eversong Woods|M|38.1,73.6|
-T The Scorched Grove|QID|9258|Z|Eversong Woods|M|34,80|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
-A A Somber Task|QID|8473|N|From Larianna Riverwind.|Z|Eversong Woods|M|34,80|
-C A Somber Task|QID|8473|Z|Eversong Woods|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|S|
-K Old Whitebark|QID|8474|Z|Eversong Woods|M|35.7,85.2|N|Look for Old Whitebark, kill him to loot his amulet.|L|23228|T|Old Whitebark|
+T Research Notes |QID|9255|M|44.03,70.76|Z|Eversong Woods|N|To Magistrix Landra Dawnstrider.|
+T Warning Fairbreeze Village|QID|9363|M|43.3,70.8|Z|Eversong Woods|N|To Ranger Degolien.|
+T Defending Fairbreeze Village|QID|9252|M|46.93,71.79|Z|Eversong Woods|N|To Ranger Sareyn.|
+A The Scorched Grove|QID|9258|LEAD|8473|M|43.6,71.2|Z|Eversong Woods|N|From Ardeyn Riverwind.|
+T The Party Never Ends|QID|9067|M|38.1,73.6|Z|Eversong Woods|N|To Lord Saltheril.|
+T The Scorched Grove|QID|9258|M|34,80|Z|Eversong Woods|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
+A A Somber Task|QID|8473|M|34,80|Z|Eversong Woods|N|From Larianna Riverwind.|
+C A Somber Task|QID|8473|M|35.7,85.2|Z|Eversong Woods|N|Kill 10 Withered Green Keepers.|S|
+K Old Whitebark|QID|8474|M|35.7,85.2|Z|Eversong Woods|N|Look for Old Whitebark, kill him to loot his amulet.|L|23228|T|Old Whitebark|
 A Old Whitebark's Pendant|QID|8474|U|23228|N|From Old Whitebark's Pendant. Use the pendant, and accept the quest.|
-T Old Whitebark's Pendant|QID|8474|Z|Eversong Woods|M|34,80|N|To Larianna Riverwind.|
-A Whitebark's Memory|QID|10166|PRE|8474|Z|Eversong Woods|M|34,80|N|From Larianna Riverwind.|
-T Whitebark's Memory|QID|10166|Z|Eversong Woods|M|37.58,86.14|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
-C A Somber Task|QID|8473|Z|Eversong Woods|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|US|
-T A Somber Task|QID|8473|Z|Eversong Woods|M|34,80|N|To Larianna Riverwind.|
-N End of Eversong Woods Guide |QID|9144|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods Acheivement if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|Z|Eversong Woods|M|43,86;55,84|CC|
+T Old Whitebark's Pendant|QID|8474|M|34,80|Z|Eversong Woods|N|To Larianna Riverwind.|
+A Whitebark's Memory|QID|10166|PRE|8474|M|34,80|Z|Eversong Woods|N|From Larianna Riverwind.|
+T Whitebark's Memory|QID|10166|M|37.58,86.14|Z|Eversong Woods|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
+C A Somber Task|QID|8473|M|35.7,85.2|Z|Eversong Woods|N|Kill 10 Withered Green Keepers.|US|
+T A Somber Task|QID|8473|M|34,80|Z|Eversong Woods|N|To Larianna Riverwind.|
+N End of Eversong Woods Guide |QID|9144|M|43,86;55,84|CC|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods Acheivement if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|Z|Eversong Woods|
 ]]
 end)
