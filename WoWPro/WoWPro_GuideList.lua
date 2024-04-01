@@ -155,7 +155,6 @@ function WoWPro.CreateGuideList()
             tinsert(tabs, tab)
             tab:SetID(#tabs)
             tabIndexByName[name] = #tabs
-            end
         end
     end
     scrollBox.Tabs = tabs -- Tabs table needs to be capitalized for the PanelTemplate functions
