@@ -5,7 +5,7 @@
 --      WoWPro_Leveling_GuideList.lua      --
 ---------------------------------------------
 local Leveling = WoWPro.Leveling
-
+Leveling.GuideList = {}
 local defaultXpac = _G.LE_EXPANSION_CLASSIC
 local introZones = {
     [1409] = true, -- Exile's Reach - New Players
