@@ -73,28 +73,31 @@ T Dark Deeds|QID|24968|M|30.92,66.30|N|To Maximillion.|R|Undead|C|Warlock|
 T Charging into Battle|QID|24969|M|32.63,65.61|N|To Dannal Stern.|R|Undead|C|Warrior|
 
 A The Executor In the Field|QID|28672|PRE|24961|M|30.87,66.05|Z|1420;Tirisfal Glades|N|From Novice Elreth.|
-T The Executor In the Field|QID|28672|M|55.49,37.79|Z|1420;Tirisfal Glades|N|To Executor Arren.|
-A The Damned|QID|26802|PRE|28672|M|55.49,37.790|Z|1420;Tirisfal Glades|N|From Executor Arren.|
-C The Damned|QID|26802|M|63.81,28.65|Z|1420;Tirisfal Glades|N|Kill and loot bats and wolves.|
-T The Damned|QID|26802|M|55.49,37.79|Z|1420;Tirisfal Glades|N|To Executor Arren.|
-A Night Web's Hollow|QID|24973|PRE|26802|M|55.49,37.79|Z|1420;Tirisfal Glades|N|From Executor Arren.|
-C Night Web's Hollow|QID|24973|M|34.28,27.36|Z|1420;Tirisfal Glades|N|Kill spiders over at the mine.|
-T Night Web's Hollow|QID|24973|M|55.49,37.79|Z|1420;Tirisfal Glades|N|To Executor Arren.|
-A No Better Than the Zombies|QID|24970|PRE|24973|M|55.49,37.79|Z|1420;Tirisfal Glades|N|From Executor Arren.|
-T No Better Than the Zombies|QID|24970|M|67.01,42.32|Z|1420;Tirisfal Glades|N|To Darnell.|
-A Assault on the Rotbrain Encampment|QID|24971|PRE|24970|M|67.01,42.32|Z|1420;Tirisfal Glades|N|From Darnell.|
-C Assault on the Rotbrain Encampment|QID|24971|QO|2|M|70.03,69.71|Z|1420;Tirisfal Glades|N|Kill the hostile undead.|S|
-K Marshal Redpath|QID|24971|QO|1|M|70.03,69.71|Z|1420;Tirisfal Glades|N|Marshal Redpath was once tough to take on alone.|
-C Assault on the Rotbrain Encampment|QID|24971|QO|2|M|70.03,69.71|Z|1420;Tirisfal Glades|N|Kill the hostile undead.|US|
+T The Executor In the Field|QID|28672|M|32.97,61.13|N|To Executor Arren.|
+A The Damned|QID|26802|PRE|28672|M|32.97,61.13|Z|1420;Tirisfal Glades|N|From Executor Arren.|
+C The Damned|QID|26802|M|32.78,58.58|Z|1420;Tirisfal Glades|N|Kill and loot bats and wolves.|
+T The Damned|QID|26802|M|32.97,61.13|Z|1420;Tirisfal Glades|N|To Executor Arren.|
+A Night Web's Hollow|QID|24973|PRE|26802|M|32.97,61.13|Z|1420;Tirisfal Glades|N|From Executor Arren.|
+C Night Web's Hollow|QID|24973|M|27.04,59.33|N|The spiders are northwest at the mine.\n[color=FF0000]NOTE: [/color]The Night Web Spiders are inside the mine.|
+T Night Web's Hollow|QID|24973|M|32.97,61.13|Z|1420;Tirisfal Glades|N|To Executor Arren.|
+A No Better Than the Zombies|QID|24970|PRE|24973|M|32.97,61.13|Z|1420;Tirisfal Glades|N|From Executor Arren.|
+T No Better Than the Zombies|QID|24970|M|35.75,62.23|Z|1420;Tirisfal Glades|N|To Darnell.|
+A Assault on the Rotbrain Encampment|QID|24971|PRE|24970|M|35.75,62.23|Z|1420;Tirisfal Glades|N|From Darnell.|
+C Assault on the Rotbrain Encampment|QID|24971|QO|2|M|36.48,68.83|Z|1420;Tirisfal Glades|N|Kill the hostile undead.|S|
+K Marshal Redpath|QID|24971|QO|1|M|36.48,68.83|Z|1420;Tirisfal Glades|N|Marshal Redpath is inside the tent off by itself.\n[color=FF0000]NOTE: [/color]As long as the guards are not aggro'ed by something else, they will help you fight.|T|Marshall Redpath|
+C Assault on the Rotbrain Encampment|QID|24971|QO|2|M|36.48,68.83|Z|1420;Tirisfal Glades|N|Kill the hostile undead.|US|
+L Level 5|ACTIVE|24971|N|Grind until you're within 5.5 bubbles of level 5.|LVL|4;-560|
 T Assault on the Rotbrain Encampment|QID|24971|M|30.84,66.20|Z|1420;Tirisfal Glades|N|To Shadow Priest Sarvis.|US|
 A Vital Intelligence|QID|24972|PRE|24971|M|30.84,66.20|Z|1420;Tirisfal Glades|N|From Shadow Priest Sarvis.|
-R Tirisfal Glades|QID|24972|M|52.60,43.95;67.70,34.48;81.20,14.33|CC|Z|1420;Tirisfal Glades|N|Follow the road out of Deathknell.|ACTIVE|24972|
-r Empty bags|ACTIVE|24972|M|44.57,52.94|Z|1420;Tirisfal Glades|N|You won't have to repair yet. But, with only 1 bag right now, you'll need to empty it.|T|Gordo|
+= Level 5 Training|ACTIVE|24972|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Deathknell|
+
+R Calston Estate|ACTIVE|24972|M|44.70,53.60|N|Follow the road out of Deathknell.|
 T Vital Intelligence|QID|24972|M|44.70,53.67|Z|1420;Tirisfal Glades|N|To Deathguard Simmer.|
 A Reaping the Reapers|QID|24978|M|44.70,53.67|Z|1420;Tirisfal Glades|N|From Deathguard Simmer.|
-A Fields of Grief|QID|24975|M|44.61,53.76|Z|1420;Tirisfal Glades|N|From Apothecary Johaan.|
+A Fields of Grief|QID|24975|PRE|24972|M|44.61,53.76|Z|1420;Tirisfal Glades|N|From Apothecary Johaan.|
+= Professions|ACTIVE|24978&24975|M|44.56,53.10|Z|1420;Tirisfal Glades|N|Take this opportunity to learn your Primary professions from Therisa Sallow, standing just outside the door.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Calston Estate|
 C Reaping the Reapers|QID|24978|M|35.92,51.32|Z|1420;Tirisfal Glades|N|Kill farmers.|S|
-C Fields of Grief|QID|24975|M|35.86,50.53|Z|1420;Tirisfal Glades|N|Loot pumpkins at the farm to the west. Keep an eye out for the level 10 rare Bayne - he's rather too strong for you right now!|NC|
+C Fields of Grief|QID|24975|M|35.86,50.53|Z|1420;Tirisfal Glades|N|Loot pumpkins at the farm to the west.\n[color=FF0000]NOTE: [/color]Keep an eye out for Bayne, a level 10 rare (he's rather too strong for you right now!).|NC|
 C Reaping the Reapers|QID|24978|M|35.92,51.32|Z|1420;Tirisfal Glades|N|Kill farmers.|US|
 T Reaping the Reapers|QID|24978|M|44.71,53.62|Z|1420;Tirisfal Glades|N|To Deathguard Simmer, back at Calston Estate.|
 A The Scarlet Palisade|QID|24980|PRE|24978|M|44.71,53.62|Z|1420;Tirisfal Glades|N|From Deathguard Simmer.|
