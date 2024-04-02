@@ -121,21 +121,27 @@ function WoWPro.CreateGuideList()
     -- Add the frame to the special frames list
     _G.table.insert(_G.UISpecialFrames, frame:GetName())
 
-    local title, subtitle = WoWPro:CreateHeading(frame, L["Guide List"], L["Use the tabs to look at different guide types. "
-        .."\nUse the scroll bar (or scroll wheel) to see all the guides. Click to select a guide and load it. "
-        .."\nSHIFT+click a guide to reset it and then load it."])
-    title:SetPoint("CENTER", frame, "CENTER")
-    subtitle:SetJustifyH("CENTER")
+    local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
+    title:SetPoint("TOP", frame, "TOP")
+    title:SetText("WoWPro - "..L["Guide List"])
+    title:SetJustifyH("CENTER")
     frame.title = title
+    
+    local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    subtitle:SetHeight(32)
+    subtitle:SetPoint("TOP", title, "BOTTOM", 0, -8)
+    subtitle:SetText(L["Use the tabs to look at different guide types. "
+    .."\nUse the scroll bar (or scroll wheel) to see all the guides. Click to select a guide and load it. "
+    .."\nSHIFT+click a guide to reset it and then load it."])
+    subtitle:SetNonSpaceWrap(true)
+    subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10) 
     frame.subtitle = subtitle
-
 
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
     scrollBox:SetPoint("TOPLEFT", frame, 20, -130)
     scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
     _G.Mixin(scrollBox, GuideListMixin)
     frame.scrollBox = scrollBox
-
     local prev
     local tabs = {}
 
