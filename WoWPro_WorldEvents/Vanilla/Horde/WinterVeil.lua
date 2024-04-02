@@ -1,8 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
 -- Date: 2012-01-19 00:08
 -- Who: Ludovicus Maior

@@ -1,7 +1,3 @@
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
 local guide = WoWPro:RegisterGuide("Wrath_ArgTour_N",'Dailies', "Icecrown", "WoWPro Team", "Neutral", 3)
 WoWPro:GuideLevels(guide,78,79,80)
 WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
