@@ -38,7 +38,6 @@ local soundfiles = {
     ["Boat Docked"] = 566652,
 }
 
-
 local function createDisplayConfig()
     return {
         type = "group",
@@ -1169,7 +1168,6 @@ local function createActionConfig()
     return actions
 end
 
-
 local function createGuideConfig()
     local actions = {
         name = L["Guide Selection"],
@@ -1217,7 +1215,6 @@ local function WoWPro_GuideListWidget(widget)
             end,
         }
     end
-
     return AceGUI:RegisterAsContainer(widget)
 end
 
@@ -1251,7 +1248,6 @@ local function WoWPro_CurrentGuideWidget(widget)
             end,
         }
     end
-
     return AceGUI:RegisterAsContainer(widget)
 end
 
@@ -1271,7 +1267,6 @@ local function createCurrentGuideConfig()
     }
     return actions
 end
-
 
 function WoWPro.CreateConfig()
     local profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
@@ -1315,7 +1310,6 @@ function WoWPro.CreateConfig()
 
     dialog:AddToBlizOptions("WoWPro", "WoWPro")
 end
-
 
 AceGUI:RegisterWidgetType("WoWPro_GuideListWidget", WoWPro_GuideListWidget, 0)
 AceGUI:RegisterWidgetType("WoWPro_CurrentGuideWidget", WoWPro_CurrentGuideWidget, 1)
