@@ -1268,18 +1268,8 @@ local function createCurrentGuideConfig()
     return actions
 end
 
-function WoWPro.CreateConfig()
-    local profileConfig = _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
-    profileConfig.args.hideCurrentGuideFrame = {
-        type = "description",
-        name = "",
-        hidden = function()
-            WoWPro.CurrentGuideFrame:Hide()
-            WoWPro.GuideList:Hide()
-            return true
-        end,
-    }
 
+function WoWPro.CreateConfig()
     local topConfig = {
         name = "Options",
         type = "group",
