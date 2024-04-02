@@ -18,7 +18,6 @@ A Solanian's Belongings|QID|8330|M|38.97,20.27|N|From Well Watcher Solanian.|R|B
 A The Shrine of Dath'Remar|QID|8345|M|38.97,20.27|N|From Well Watcher Solanian.|R|BloodElf|
 A A Fistful of Slivers|QID|8336|M|38.28,19.13|N|From Arcanist Ithanas, on the patio below you.\n[color=FF0000]NOTE: [/color]You can jump down from the balcony.|R|BloodElf|
 A Thirst Unending|QID|8346|M|37.18,18.95|N|From Arcanist Helion.\n[color=FF0000]NOTE: [/color]You can see him on the patio directly opposite from your current position.|R|BloodElf|
-r Empty your bags|ACTIVE|8346|M|37.14,19.03|N|Empty your bags and repair before venturing further.\n[color=FF0000]NOTE: [/color]Jainthess Thelryn, standing beside you, can help you with that.|R|BloodElf|
 C Unfortunate Measures|QID|8326|M|36.22,22.64|L|20797 8|ITEM|20797|N|Springpaw Lynxes and Cubs.|R|BloodElf|S|
 C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Mana Wyrms\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|S|
 C Thirst Unending|QID|8346|M|35.39,20.24|QO|1|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|S|
@@ -36,42 +35,42 @@ T Mage Training|QID|8328|M|39.23,21.45|N|To Julia Sunstriker, inside the buildin
 A Arcane Missiles|QID|10068|PRE|8328|M|39.23,21.45|N|From Julia Sunstriker.|R|BloodElf|C|Mage|
 = Arcane Missiles|ACTIVE|10068|QO|2|M|39.23,21.45|N|Learn Arcane Missiles from Julia Sunstriker.|SPELL|Arcane Missles;5143|R|BloodElf|C|Mage|
 C Arcane Missiles|QID|10068|QO|1|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice using Arcane Missiles 2 times.|T|Training Dummy|R|BloodElf|C|Mage|
-T Arcane Missiles|QID|10068|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Mage|
+T Arcane Missiles|QID|10068|M|39.23,21.45|N|To Julia Sunstriker.|R|BloodElf|C|Mage|
 ; ** Warrior
 A Warrior Training|QID|8329|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Warrior|
 T Warrior Training|QID|8329|M|39.29,20.10|N|To Delios Silverblade, inside the building.|R|BloodElf|C|Warrior|
 A Charge!|QID|27091|PRE|8329|M|39.29,20.10|N|From Delios Silverblade.|R|BloodElf|C|Warrior|
 = Charge|ACTIVE|27091|QO|2|M|39.29,20.10|N|Learn Charge from Delios Silverblade.|SPELL|Charge;100|R|BloodElf|C|Warrior|
 C Charge|QID|27091|QO|1|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice using Charge.|T|Training Dummy|R|BloodElf|C|Warrior|
-T Charge!|QID|27091|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Warrior|
+T Charge!|QID|27091|M|39.29,20.10|N|To Delios Silverblade.|R|BloodElf|C|Warrior|
 ; ** Warlock
 A Warlock Training|QID|8563|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Warlock|
 T Warlock Training|QID|8563|M|38.93,21.44|N|To Summoner Teli'Larien, inside the building.|R|BloodElf|C|Warlock|
 A Immolation|QID|10073|PRE|8563|M|42.39,68.07|N|From Summoner Teli'Larien.|R|BloodElf|C|Warlock|
 = Immolate|ACTIVE|10073|QO|2|M|42.39,68.07|N|Learn Immolate from Summoner Teli'Larien.|SPELL|Immolate;348|R|BloodElf|C|Warlock|
 C Immolate|QID|10073|QO|1|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice casting Immolate 5 times.|T|Training Dummy|R|BloodElf|C|Warlock|
-T Immolation|QID|10073|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Warlock|
+T Immolation|QID|10073|M|42.39,68.07|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
 ; ** Priest
 A Priest Training|QID|8564|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Priest|
 T Priest Training|QID|8564|M|39.42,20.38|N|To Matron Arena, inside the building.|R|BloodElf|C|Priest|
 A Healing the Wounded|QID|10072|PRE|8564|M|39.42,20.38|N|From Matron Arena.|R|BloodElf|C|Priest|
 = Flash Heal|ACTIVE|10072|QO|2|M|39.42,20.38|N|Learn Flash Heal from Matron Arena.|SPELL|Flash Heal;2061|R|BloodElf|C|Priest|
 C Healing the Wounded|QID|10072|QO|1|M|39.42,20.38|N|Practice casting Flash Heal 5 times on Wounded Outrunners.|T|Training Dummy|R|BloodElf|C|Priest|
-T Healing the Wounded|QID|10072|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Priest|
+T Healing the Wounded|QID|10072|M|39.42,20.38|N|To Matron Arena.|R|BloodElf|C|Priest|
 ; ** Rogue
 A Rogue Training|QID|9392|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|Orc,BloodElf|C|Rogue|
 T Rogue Training|QID|9392|M|38.93,20.02|N|To Pathstalker Avokor, inside the building.|R|Orc,BloodElf|C|Rogue|
 A Evisceration|QID|10071|PRE|9392|M|38.93,20.02|N|From Pathstalker Kariel.|R|Orc,BloodElf|C|Rogue|
 = Eviscerate|ACTIVE|10071|QO|2|M|38.93,20.02|N|Learn Eviscerate from Pathstalker Kariel.|SPELL|Eviscerate;2098|R|Orc,BloodElf|C|Rogue|
 C Evisceration|QID|10071|QO|1|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice using Eviscerate 3 times.|T|Training Dummy|R|Orc,BloodElf|C|Rogue|
-T Evisceration|QID|10071|M|38.97,20.27|N|To Well Watcher Solanian.|R|Orc,BloodElf|C|Rogue|
+T Evisceration|QID|10071|M|38.93,20.02|N|To Pathstalker Kariel.|R|Orc,BloodElf|C|Rogue|
 ; ** Hunter
 A Hunter Training|QID|9393|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Hunter|
 T Hunter Training|QID|9393|M|39.05,20.01|N|To Ranger Sallina, inside the building.|R|BloodElf|C|Hunter|
 A Steady Shot|QID|10070|PRE|9393|M|39.05,20.01|N|From Ranger Sallina.|R|BloodElf|C|Hunter|
 = Steady Shot|ACTIVE|10070|M|39.05,20.01|N|Learn Steady Shot from Ranger Sallina.|SPELL|Steady Shot;56641|R|BloodElf|C|Hunter|
 C Steady Shot|QID|10070|M|38.22,20.27|N|Locate a Training Dummy outside the Sunspire and practice using Steady Shot 5 times.|R|T|Training Dummy|BloodElf|C|Hunter|
-T Steady Shot|QID|10070|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Hunter|
+T Steady Shot|QID|10070|M|39.05,20.01|N|To Ranger Sallina.|R|BloodElf|C|Hunter|
 ; ** Paladin
 A Paladin Training|QID|9676|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|C|Paladin|
 T Paladin Training|QID|9676|M|39.48,20.56|N|To Jesthenis Sunstriker, inside the building.|R|BloodElf|C|Paladin|
@@ -79,30 +78,23 @@ A Ways of the Light|QID|10069|PRE|9676|M|39.48,20.56|N|From Jesthenis Sunstriker
 = Judgement|ACTIVE|10069|QO|2|M|39.48,20.56|N|From Jesthenis Sunstriker.|SPELL|Judgement;20271|R|BloodElf|C|Paladin|
 = Seal of Righteousness|ACTIVE|10069|QO|3|M|39.48,20.56|N|From Jesthenis Sunstriker.|SPELL|Seal of Righteousness;20154|R|BloodElf|C|Paladin|
 C Ways of the Light|QID|25139|QO|1|M|38.22,20.27|N|After casting Seal of Righteousness on yourself, locate a Training Dummy outside the Sunspire and use Judgement on it.|T|Training Dummy|R|BloodElf|C|Paladin|
-T Ways of the Light|QID|10069|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|C|Paladin|
+T Ways of the Light|QID|10069|M|39.48,20.56|N|To Jesthenis Sunstriker.|R|BloodElf|C|Paladin|
 ; ** End of class quest
-
-
-
-= Level 3 Training|ACTIVE|8328^8329^8563^8564^9392^9393^9676|M|PLAYER|CC|N|Do your level 3 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|3|
-; --
 
 A Report to Lanthan Perilon|QID|8327|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|
 C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
 C The Shrine of Dath'Remar|QID|37442|QO|1|M|35.31,40.27|N|Click on the glowing part of the shrine.|R|BloodElf|NC|
-C Solanian's Belongings|QID|37443|QO|2|M|40.42,50.27|R|BloodElf|NC|
-T Report to Lanthan Perilon|QID|8327|M|52.75,49.81|N|To Lanthan Perilon.|R|BloodElf|
-A Aggression|QID|8334|PRE|8327|M|52.75,49.81|N|From Lanthan Perilon.|R|BloodElf|
-C Aggression|QID|8334|M|51.07,70.48|R|BloodElf|S|
-C Solanian's Belongings|QID|37443|QO|1|M|52.15,69.59|R|BloodElf|NC|
-C Aggression|QID|8334|M|51.07,70.48|R|BloodElf|US|
-C Solanian's Belongings|QID|37443|QO|3|M|59.88,57.05|R|BloodElf|NC|
+C Solanian's Belongings|QID|8330|QO|2|M|40.42,50.27|L|20471|N|The Scroll of Scourge Magic is located by the fountain.|R|BloodElf|NC|
+T Report to Lanthan Perilon|QID|8327|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
+A Aggression|QID|8334|PRE|8327|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
+C Aggression|QID|8334|M|34.14,25.63|N|Kill Tenders and Feral Tenders.|R|BloodElf|S|
+C Solanian's Belongings|QID|8330|QO|1|M|52.15,69.59|L|20470|N|Solanian's Scrying Orb is located on the platform by the pond.|R|BloodElf|
+C Aggression|QID|8334|M|34.14,25.63|Finish killing Tenders and Feral Tenders.|R|BloodElf|US|
+C Solanian's Belongings|QID|8330|QO|3|M|59.88,57.05|L|20472|N|Solanian's Journal|R|BloodElf|
 T The Shrine of Dath'Remar|QID|37442|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
-T Solanian's Belongings|QID|37443|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
+T Solanian's Belongings|QID|8330|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
 T A Fistful of Slivers|QID|37440|M|61.65,39.43|N|To Arcanist Ithanas.|R|BloodElf|
-r Repair and restock|ACTIVE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|S|R|BloodElf|
 T Thirst Unending|QID|37439|M|58.54,38.90|N|To Arcanist Helion.|R|BloodElf|
-r Repair and restock|ACTIVE|37439|N|Jainthess Thelryn is next to Arcanist Helion. Now is a good time to repair and sell greys.|US|R|BloodElf|
 T Aggression|QID|8334|PRE|8326|M|52.89,49.70|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|PRE|8334|M|52.95,49.59|N|From Lanthan Perilon.|R|BloodElf|
 A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|N|From Tainted Arcane Wraith.Go up the ramp and kill the Tainted Arcane Wraith to receive this quest. Kill Arcane Wraiths as you progress.|R|BloodElf|
