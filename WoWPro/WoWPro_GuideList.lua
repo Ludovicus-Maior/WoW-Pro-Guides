@@ -126,7 +126,6 @@ function WoWPro.CreateGuideList()
     title:SetText("WoWPro - "..L["Guide List"])
     title:SetJustifyH("CENTER")
     frame.title = title
-    
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
     subtitle:SetHeight(32)
     subtitle:SetPoint("TOP", title, "BOTTOM", 0, -8)
