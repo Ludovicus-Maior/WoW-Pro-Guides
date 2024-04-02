@@ -135,7 +135,7 @@ function WoWPro.CreateGuideList()
     subtitle:SetNonSpaceWrap(true)
     subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10) 
     frame.subtitle = subtitle
-
+    
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
     scrollBox:SetPoint("TOPLEFT", frame, 20, -130)
     scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
