@@ -133,9 +133,8 @@ function WoWPro.CreateGuideList()
     .."\nUse the scroll bar (or scroll wheel) to see all the guides. Click to select a guide and load it. "
     .."\nSHIFT+click a guide to reset it and then load it."])
     subtitle:SetNonSpaceWrap(true)
-    subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10) 
+    subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10)
     frame.subtitle = subtitle
-    
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
     scrollBox:SetPoint("TOPLEFT", frame, 20, -130)
     scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
