@@ -1225,8 +1225,8 @@ local function WoWPro_CurrentGuideWidget(widget)
     if not widget then
         widget = {
             type = "WoWPro_CurrentGuideWidget",
-            frame = _G.CreateFrame("Frame", nil, UIParent),
-            content = _G.CreateFrame("Frame", nil, UIParent),
+            frame = _G.CreateFrame("Frame", nil, _G.UIParent),
+            content = _G.CreateFrame("Frame", nil, _G.UIParent),
             OnAcquire = function(self)
                 WoWPro.CurrentGuideFrame:SetParent(self.content)
                 self.content:SetWidth(625)
