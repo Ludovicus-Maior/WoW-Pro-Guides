@@ -89,7 +89,7 @@ T Report to Lanthan Perilon|QID|8327|M|35.37,22.52|N|To Lanthan Perilon.|R|Blood
 A Aggression|QID|8334|PRE|8327|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
 C Aggression|QID|8334|M|34.14,25.63|N|Kill Tenders and Feral Tenders.|R|BloodElf|S|
 C Solanian's Belongings|QID|8330|QO|1|M|52.15,69.59|L|20470|N|Solanian's Scrying Orb is located on the platform by the pond.|R|BloodElf|
-C Aggression|QID|8334|M|34.14,25.63|Finish killing Tenders and Feral Tenders.|R|BloodElf|US|
+C Aggression|QID|8334|M|34.14,25.63|N|Finish killing Tenders and Feral Tenders.|R|BloodElf|US|
 C Solanian's Belongings|QID|8330|QO|3|M|59.88,57.05|L|20472|N|Solanian's Journal|R|BloodElf|
 T The Shrine of Dath'Remar|QID|37442|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
 T Solanian's Belongings|QID|8330|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
