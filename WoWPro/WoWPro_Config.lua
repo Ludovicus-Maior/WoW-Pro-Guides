@@ -8,7 +8,7 @@ local L = WoWPro_Locale
 local config = _G.LibStub("AceConfig-3.0")
 local dialog = _G.LibStub("AceConfigDialog-3.0")
 local LSM = _G.LibStub("LibSharedMedia-3.0")
-local AceGUI = LibStub("AceGUI-3.0")
+local AceGUI = _G.LibStub("AceGUI-3.0")
 
 local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
@@ -1191,13 +1191,13 @@ local function WoWPro_GuideListWidget(widget)
     if not widget then
         widget = {
             type = "WoWPro_GuideListWidget",
-            frame = CreateFrame("Frame", nil, UIParent),
-            content = CreateFrame("Frame", nil, UIParent),
+            frame = _G.CreateFrame("Frame", nil, _G.UIParent),
+            content = _G.CreateFrame("Frame", nil, _G.UIParent),
             OnAcquire = function(self)
                 WoWPro.GuideList:SetParent(self.content)
                 self.content:SetWidth(625)
                 self.content:SetHeight(480)
-                self.content:SetPoint("CENTER", UIParent, "CENTER", 105, 10)
+                self.content:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
                 self.content:Show()
                 WoWPro.GuideList:SetAllPoints(true)
                 WoWPro.GuideList:SetFrameStrata("DIALOG")
@@ -1225,13 +1225,13 @@ local function WoWPro_CurrentGuideWidget(widget)
     if not widget then
         widget = {
             type = "WoWPro_CurrentGuideWidget",
-            frame = CreateFrame("Frame", nil, UIParent),
-            content = CreateFrame("Frame", nil, UIParent),
+            frame = _G.CreateFrame("Frame", nil, UIParent),
+            content = _G.CreateFrame("Frame", nil, UIParent),
             OnAcquire = function(self)
                 WoWPro.CurrentGuideFrame:SetParent(self.content)
                 self.content:SetWidth(625)
                 self.content:SetHeight(480)
-                self.content:SetPoint("CENTER", UIParent, "CENTER", 105, 10)
+                self.content:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
                 self.content:Show()
                 WoWPro.CurrentGuideFrame:SetAllPoints(true)
                 WoWPro.CurrentGuideFrame:SetFrameStrata("DIALOG")
