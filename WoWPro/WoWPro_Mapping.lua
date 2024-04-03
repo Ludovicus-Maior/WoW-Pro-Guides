@@ -263,20 +263,36 @@ function WoWPro:MapPointDelta()
     end
 end
 
+local function my_tonumber(x)
+    return tonumber(x) or 1e10
+end
+
+
+local function my_coordinates()
+    local x, y = WoWPro:GetPlayerZonePosition()
+    return ("%g,%g"):format(x*100,y*100)
+end
+
+
 function WoWPro.DistanceBetweenSteps(i,j)
     if not WoWPro.map[i] then return 1e197 end
     if not WoWPro.map[j] then return 1e196 end
     local GID = WoWProDB.char.currentguide
-    if WoWProCharDB.Guide[GID].completion[i] and WoWProCharDB.Guide[GID].completion[j] then return 0 end
-    if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].skipped[j] then return 0 end
-    if WoWProCharDB.Guide[GID].completion[i] and WoWProCharDB.Guide[GID].skipped[j] then return 9e-5 end
-    if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].completion[j] then return 9e-5 end
-    local icoord = select(1, (";"):split(WoWPro.map[i]))
-    local jcoord = select(1, (";"):split(WoWPro.map[j]))
-    local ix = tonumber(icoord:match("([^|]*),"))/100
-    local iy = tonumber(icoord:match(",([^|]*)"))/100
-    local jx = tonumber(jcoord:match("([^|]*),"))/100
-    local jy = tonumber(jcoord:match(",([^|]*)"))/100
+    if WoWProCharDB.Guide[GID].completion[i] or WoWProCharDB.Guide[GID].completion[j] then return 0 end
+    if WoWProCharDB.Guide[GID].skipped[j] or WoWProCharDB.Guide[GID].skipped[j] then return 0 end
+    local map_i, map_j = WoWPro.map[i], WoWPro.map[j]
+    if map_i == "PLAYER" then
+        map_i = my_coordinates()
+    end
+    if map_j == "PLAYER" then
+        map_j = my_coordinates()
+    end
+    local icoord = select(1, (";"):split(map_i))
+    local jcoord = select(1, (";"):split(map_j))
+    local ix = my_tonumber(select(1, (","):split(icoord)))/100
+    local iy = my_tonumber(select(2, (","):split(icoord)))/100
+    local jx = my_tonumber(select(1, (","):split(jcoord)))/100
+    local jy = my_tonumber(select(2, (","):split(jcoord)))/100
     local _, im = WoWPro:ValidZone(WoWPro.zone[i])
     local _, jm = WoWPro:ValidZone(WoWPro.zone[j])
 
@@ -290,12 +306,16 @@ function WoWPro.DistanceToStep(i)
     local GID = WoWProDB.char.currentguide
     if WoWProCharDB.Guide[GID].completion[i] then return 1e-6 end
     if WoWProCharDB.Guide[GID].skipped[i] then return 1e-5 end
-    local icoord = select(1, (";"):split(WoWPro.map[i]))
+    local map_i = WoWPro.map[i]
+    if map_i == "PLAYER" then
+        map_i = my_coordinates()
+    end
+    local icoord = select(1, (";"):split(map_i))
 --    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
     local ix = select(1, (","):split(icoord))
     local iy = select(2, (","):split(icoord))
-    ix = tonumber(ix) / 100
-    iy = tonumber(iy) / 100
+    ix = my_tonumber(ix) / 100
+    iy = my_tonumber(iy) / 100
     local _, im = WoWPro:ValidZone(WoWPro.zone[i])
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
     local x, y, m = WoWPro:GetPlayerZonePosition()
