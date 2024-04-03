@@ -8,6 +8,7 @@ local L = WoWPro_Locale
 local config = _G.LibStub("AceConfig-3.0")
 local dialog = _G.LibStub("AceConfigDialog-3.0")
 local LSM = _G.LibStub("LibSharedMedia-3.0")
+local AceGUI = _G.LibStub("AceGUI-3.0")
 
 local MediaType_BORDER = LSM.MediaType.BORDER
 LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
@@ -36,7 +37,6 @@ local soundfiles = {
     ["Map Ping"] = 567416,
     ["Boat Docked"] = 566652,
 }
-
 
 local function createDisplayConfig()
     return {
@@ -1157,7 +1157,6 @@ local function createActionConfig()
         name = L["Actions"],
         type = "group",
         args = {
-
                 header = {
                     order = 10,
                     type = "header",
@@ -1174,21 +1173,82 @@ local function createGuideConfig()
         name = L["Guide Selection"],
         type = "group",
         args = {
-
-                header = {
-                    order = 10,
-                    type = "header",
-                    name = L["Guide Selector is not here for now"],
-                },
-                blah = {
-                    order = 11,
-                    type = "description",
-                    name = "Please right click on the guide header on the gear icon for now and choose Old Style Guide List. leveling guides are not yet implemented.",
-                    width = "full"
-                },
-        }
+            GuideListFrame = {
+                type = "input",
+                name = "",
+                get = function() end,
+                set = function() end,
+                dialogControl = "WoWPro_GuideListWidget",
+            },
+        },
     }
     return actions
+end
+
+local function WoWPro_GuideListWidget(widget)
+    if not widget then
+        widget = {
+            type = "WoWPro_GuideListWidget",
+            frame = _G.CreateFrame("Frame", nil, _G.UIParent),
+            content = _G.CreateFrame("Frame", nil, _G.UIParent),
+            OnAcquire = function(self)
+                WoWPro.GuideList:SetParent(self.content)
+                self.content:SetWidth(625)
+                self.content:SetHeight(480)
+                self.content:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+                self.content:Show()
+                WoWPro.GuideList:SetAllPoints(true)
+                WoWPro.GuideList:SetFrameStrata("DIALOG")
+                WoWPro.GuideList:Show()
+                WoWPro.GuideList:Raise()
+            end,
+            OnRelease = function(self)
+                if WoWPro.GuideList then
+                    WoWPro.GuideList:Hide()
+                end
+            end,
+            SetLabel = function(self, value)
+                -- Dummy function, does nothing
+            end,
+            SetText = function(self, value)
+                -- Dummy function, does nothing
+            end,
+        }
+    end
+    return AceGUI:RegisterAsContainer(widget)
+end
+
+local function WoWPro_CurrentGuideWidget(widget)
+    if not widget then
+        widget = {
+            type = "WoWPro_CurrentGuideWidget",
+            frame = _G.CreateFrame("Frame", nil, _G.UIParent),
+            content = _G.CreateFrame("Frame", nil, _G.UIParent),
+            OnAcquire = function(self)
+                WoWPro.CurrentGuideFrame:SetParent(self.content)
+                self.content:SetWidth(625)
+                self.content:SetHeight(480)
+                self.content:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+                self.content:Show()
+                WoWPro.CurrentGuideFrame:SetAllPoints(true)
+                WoWPro.CurrentGuideFrame:SetFrameStrata("DIALOG")
+                WoWPro.CurrentGuideFrame:Show()
+                WoWPro.CurrentGuideFrame:Raise()
+            end,
+            OnRelease = function(self)
+                if WoWPro.CurrentGuideFrame then
+                    WoWPro.CurrentGuideFrame:Hide()
+                end
+            end,
+            SetLabel = function(self, value)
+                -- Dummy function, does nothing
+            end,
+            SetText = function(self, value)
+                -- Dummy function, does nothing
+            end,
+        }
+    end
+    return AceGUI:RegisterAsContainer(widget)
 end
 
 local function createCurrentGuideConfig()
@@ -1196,27 +1256,18 @@ local function createCurrentGuideConfig()
         name = "Current Guide",
         type = "group",
         args = {
-            header = {
-                order = 1,
-                type = "header",
-                name = "You need to click the Button to Open and Close the Current Guide BEFORE choosing another tab.",
-            },
-            openGuide = {
-                order = 2,
-                type = "execute",
-                name = "Show/Hide",
-                func = function()
-                    if WoWPro.CurrentGuideFrame:IsShown() then
-                        WoWPro.CurrentGuideFrame:Hide()
-                    else
-                        WoWPro.CurrentGuideFrame:Show()
-                    end
-                end,
+            currentGuideFrame = {
+                type = "input",
+                name = "",
+                get = function() end,
+                set = function() end,
+                dialogControl = "WoWPro_CurrentGuideWidget",
             },
         },
     }
     return actions
 end
+
 
 function WoWPro.CreateConfig()
     local topConfig = {
@@ -1244,8 +1295,11 @@ function WoWPro.CreateConfig()
     topConfig.args.actionConfig.order=15
     topConfig.args.expertConfig.order=-1
 
-    -- Register your options with AceConfig
+
     config:RegisterOptionsTable("WoWPro", topConfig)
-    -- Add the options to the Blizzard Interface Options
+
     dialog:AddToBlizOptions("WoWPro", "WoWPro")
 end
+
+AceGUI:RegisterWidgetType("WoWPro_GuideListWidget", WoWPro_GuideListWidget, 0)
+AceGUI:RegisterWidgetType("WoWPro_CurrentGuideWidget", WoWPro_CurrentGuideWidget, 1)
