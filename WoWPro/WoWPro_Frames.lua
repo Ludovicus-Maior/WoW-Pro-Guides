@@ -928,7 +928,8 @@ function WoWPro:CreateDropdownMenu()
             WoWPro.ShowGuideMenu()
         end},
         {text = L["Old Style Guidelist"], func = function()
-        WoWPro.GuideList:Show()
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideSelect")
         end},
         {text = L["Current Guide"], func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
