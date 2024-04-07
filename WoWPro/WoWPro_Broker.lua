@@ -1429,7 +1429,7 @@ if step then
         if item then
             local nomen = currentRow.lootsbutton:SetItemByID(item)
             if note ~= "" then
-                note = "Kill and loot " .. nomen .. ":\n" .. note
+                note = "Kill and loot " .. note
             else
                 note = nomen
             end
