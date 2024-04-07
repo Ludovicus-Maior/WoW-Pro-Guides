@@ -108,31 +108,34 @@ A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|35.37,22.52|N|From Lanthan
 T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
 = Level 5 Training|ACTIVE|8347|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Sunstrider Isle^The Sunspire|
 R Eversong Woods|ACTIVE|8347|M|39.32,30.81|N|Head to and cross over the bridge to the south of you.|R|BloodElf|
-T Aiding the Outrunners|QID|8347|M|40.43,32.16|Z|Eversong Woods|N|To Outrunner Alarion.|R|BloodElf|
+T Aiding the Outrunners|QID|8347|M|40.42,32.21|Z|Eversong Woods|N|To Outrunner Alarion in Dawning Lane.|R|BloodElf|
 ;The guide continues at this point for all races
-A Slain by the Wretched|QID|9704|Z|Eversong Woods|M|40.4,32.2|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|
+A Slain by the Wretched|QID|9704|Z|Eversong Woods|M|40.42,32.21|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|
 F Falconwing Square|QID|9704|Z|Eversong Woods|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
-T Slain by the Wretched|QID|9704|N|To Slain Outrunner.|Z|Eversong Woods|M|42.0,35.7|
-A Package Recovery|QID|9705|PRE|9704|N|From Slain Outrunner.|Z|Eversong Woods|M|42.0,35.7|
-T Package Recovery|QID|9705|N|To Outrunner Alarion.|Z|Eversong Woods|M|40.4,32.2|
-A Completing the Delivery|QID|8350|PRE|9705|N|From Outrunner Alarion.|Z|Eversong Woods|M|40.4,32.2|
-f Falconwing Square|QID|8350|Z|Eversong Woods|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|
-T Completing the Delivery|QID|8350|N|To Innkeeper Delaniel.|Z|Eversong Woods|M|48.1,47.7|
-h Falconwing Inn|QID|8472|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|Z|Eversong Woods|M|48.1,47.7|
-N Professions|QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|Z|Eversong Woods|M|48.93,46.86|
-A Unstable Mana Crystals|QID|8463|N|From Aeldon Sunbrand, back outside of the inn.|Z|Eversong Woods|M|48.2,46.0|
-A WANTED: Thaelis the Hungerer|QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|Z|Eversong Woods|M|48.2,46.3|
-A Major Malfunction|QID|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.3,46.3|
-C Major Malfunction|QID|8472|N|Kill and loot Arcane Patrollers for the Arcane Cores.|Z|Eversong Woods|M|45.,40.5|S|
+T Slain by the Wretched|QID|9704|N|To Slain Outrunner.|Z|Eversong Woods|M|42.02,35.66|
+A Package Recovery|QID|9705|PRE|9704|N|From Slain Outrunner.|Z|Eversong Woods|M|42.02,35.66|
+T Package Recovery|QID|9705|N|To Outrunner Alarion.|Z|Eversong Woods|M|40.42,32.21|
+A Completing the Delivery|QID|8350|PRE|9705|N|From Outrunner Alarion.|Z|Eversong Woods|M|40.42,32.21|
+f Falconwing Square|QID|8350|Z|Eversong Woods|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+T Completing the Delivery|QID|8350|N|To Innkeeper Delaniel.|Z|Eversong Woods|M|48.15,47.66|
+h Falconwing Inn|AVAILABLE|8463|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|Z|Eversong Woods|M|48.15,47.66|
+= Professions|AVAILABLE|8463|N|If you wish, Saren will teach all Gathering and Production professions (upstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|Z|Eversong Woods|M|48.93,46.86|
+= First Aid|AVAILABLE|8463|M|48.58,47.58|Z|Eversong Woods|N|Learn First Aid from Kanaria.|P|First Aid;129;0;true|
+= Cooking|AVAILABLE|4161|M|48.57,47.11|Z|Eversong Woods|N|Learn Cooking from Quarelestra.|P|Cooking;185;0;true|
+
+A Unstable Mana Crystals|QID|8463|N|From Aeldon Sunbrand, back outside of the inn.|Z|Eversong Woods|M|48.17,46.00|
+A Wanted: Thaelis the Hungerer|QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|Z|Eversong Woods|M|48.17,46.31|
+A Major Malfunction|QID|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.26,46.31|
+C Major Malfunction|QID|8472|L|21808 6|ITEM|21808|N|Arcane Patrollers|Z|Eversong Woods|M|45.,40.5|S|
 C Unstable Mana Crystals|QID|8463|S|N|Look for light beams that come out of the boxes.|Z|Eversong Woods|M|45.386,42|NC|
-C Thaelis the Hungerer|QID|8468|Z|Eversong Woods|M|45.00,38.40|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking.|T|Thaelis the Hungerer|
+K Thaelis the Hungerer|ACTIVE|8468|Z|Eversong Woods|M|45.00,38.40|N|Kill and loot Thaelis the Hungerer.\n[color=FF0000]NOTE: [/color]Clear all the Wretched Urchins around him first before attacking.|T|Thaelis the Hungerer|
 C Unstable Mana Crystals|QID|8463|Z|Eversong Woods|M|45.38,40.85|US|N|Look for light beams that come out of the boxes.|NC|
 C Major Malfunction|QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|Z|Eversong Woods|M|45,40.5|US|
-T Major Malfunction|QID|8472|N|To Magister Jaronis.|Z|Eversong Woods|M|47.3,46.3|
-A Delivery to the North Sanctum|QID|8895|PRE|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.3,46.3|
+T Major Malfunction|QID|8472|N|To Magister Jaronis.|Z|Eversong Woods|M|47.26,46.31|
+A Delivery to the North Sanctum|QID|8895|PRE|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.26,46.31|
 T WANTED: Thaelis the Hungerer|QID|8468|N|To Sergeant Kan'ren.|Z|Eversong Woods|M|47.8,46.6|
-T Unstable Mana Crystals|QID|8463|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
-A Darnassian Intrusions|QID|9352|PRE|8463|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
+T Unstable Mana Crystals|QID|8463|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
+A Darnassian Intrusions|QID|9352|PRE|8463|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
 T Delivery to the North Sanctum|QID|8895|N|To Ley-Keeper Caidanis.|Z|Eversong Woods|M|44.6,53.1|
 A Malfunction at the West Sanctum|QID|9119|PRE|8895|N|From Ley-Keeper Caidanis.|Z|Eversong Woods|M|44.6,53.1|
 T Malfunction at the West Sanctum|QID|9119|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
@@ -150,8 +153,8 @@ A Captain Kelisendra's Lost Rutters|QID|8887|U|21776|N|From Captain Kelisendra's
 T Fish Heads, Fish Heads...|QID|8884|N|To Hathvelion Sungaze.|Z|Eversong Woods|M|29.89,58.52|
 A The Ring of Mmmrrrggglll|QID|8885|PRE|8884|N|From Hathvelion Sungaze.|Z|Eversong Woods|M|29.89,58.52|
 H Falconwing Square|QID|8482|N|Hearth to Falconwing Square.|
-T Incriminating Documents|QID|8482|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
-A The Dwarven Spy|QID|8483|PRE|8482|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
+T Incriminating Documents|QID|8482|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
+A The Dwarven Spy|QID|8483|PRE|8482|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
 C The Dwarven Spy|QID|8483|L|20764|CHAT|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|Z|Eversong Woods|M|44.60,53.30|
 A Roadside Ambush|QID|9035|LEAD|9062|N|From Apprentice Ralen.|Z|Eversong Woods|M|45.2,56.4|
 T Roadside Ambush|QID|9035|N|To Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
@@ -171,7 +174,7 @@ C The Dead Scar|QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillag
 T The Dead Scar|QID|8475|N|To Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
 T Swift Discipline|QID|9066|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
 F Falconwing Square|QID|8483|Z|Eversong Woods|M|54.37,50.73|N|Fly to Falconwing Square.|
-T The Dwarven Spy|QID|8483|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
+T The Dwarven Spy|QID|8483|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
 A Fairbreeze Village|QID|9256|LEAD|8892|PRE|8483|N|From Aeldon Sunbrand.|
 f Fairbreeze Village|QID|9256|Z|Eversong Woods|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
 A Pelt Collection|QID|8491|N|From Velan Brightoak.|Z|Eversong Woods|M|44.7,69.6|
