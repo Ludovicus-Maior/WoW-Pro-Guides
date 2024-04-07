@@ -107,16 +107,21 @@ T Felendren the Banished|QID|8335|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf
 A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
 T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
 = Level 5 Training|ACTIVE|8347|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Sunstrider Isle^The Sunspire|
-R Eversong Woods|ACTIVE|8347|M|39.32,30.81|N|Head to and cross over the bridge to the south of you.|R|BloodElf|
-T Aiding the Outrunners|QID|8347|M|40.42,32.21|Z|Eversong Woods|N|To Outrunner Alarion in Dawning Lane.|R|BloodElf|
+R Dawning Lane|ACTIVE|8347|AVAILABLE|9704|M|39.85,31.35|N|Follow the road to the bridge south of you.\n[color=FF0000]NOTE: [/color]You are now leaving the Blood Elf starting area and Sunstrider Isle.|
+T Aiding the Outrunners|QID|8347|M|40.42,32.21|N|To Outrunner Alarion.|R|BloodElf|
+
 ;The guide continues at this point for all races
-A Slain by the Wretched|QID|9704|Z|Eversong Woods|M|40.42,32.21|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|
-F Falconwing Square|QID|9704|Z|Eversong Woods|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
+A Slain by the Wretched|QID|9704|M|40.42,32.21|N|From Outrunner Alarion.|R|BloodElf|
+R Eversong Woods|AVAILABLE|9704|M|56.95,49.60|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|R|Goblin;Tauren;Orc;Troll;Forsaken|
+F Falconwing Square|QID|9704|Z|Eversong Woods|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken|TAXI|Falconwing Square|
+f Falconwing Square|QID|8350|Z|Eversong Woods|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles in Falconwing Square.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|R|-BloodElf|
+A Slain by the Wretched|QID|9704|Z|Eversong Woods|M|40.42,32.21|N|From Outrunner Alarion.\n[color=FF0000]NOTE: [/color]Run north-west along the road (Dawning Lane).|
+N Discover Sunstrider Isle|AVAILABLE|8350|M|39.85,31.35|N|If you want the achievement Explore Eversong Woods, follow the road north over the bridge until you've "discovered" Sunstrider Isle.\n[color=FF0000]NOTE: [/color]Skip this step if not interested.|ACH|859;22|
 T Slain by the Wretched|QID|9704|N|To Slain Outrunner.|Z|Eversong Woods|M|42.02,35.66|
 A Package Recovery|QID|9705|PRE|9704|N|From Slain Outrunner.|Z|Eversong Woods|M|42.02,35.66|
 T Package Recovery|QID|9705|N|To Outrunner Alarion.|Z|Eversong Woods|M|40.42,32.21|
 A Completing the Delivery|QID|8350|PRE|9705|N|From Outrunner Alarion.|Z|Eversong Woods|M|40.42,32.21|
-f Falconwing Square|QID|8350|Z|Eversong Woods|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+f Falconwing Square|ACTIVE|8350|Z|Eversong Woods|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T Completing the Delivery|QID|8350|N|To Innkeeper Delaniel.|Z|Eversong Woods|M|48.15,47.66|
 h Falconwing Inn|AVAILABLE|8463|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|Z|Eversong Woods|M|48.15,47.66|
 = Professions|AVAILABLE|8463|N|If you wish, Saren will teach all Gathering and Production professions (upstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|Z|Eversong Woods|M|48.93,46.86|
@@ -126,26 +131,28 @@ h Falconwing Inn|AVAILABLE|8463|N|Set your hearthstone to Falconwing Square with
 A Unstable Mana Crystals|QID|8463|N|From Aeldon Sunbrand, back outside of the inn.|Z|Eversong Woods|M|48.17,46.00|
 A Wanted: Thaelis the Hungerer|QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|Z|Eversong Woods|M|48.17,46.31|
 A Major Malfunction|QID|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.26,46.31|
-C Major Malfunction|QID|8472|L|21808 6|ITEM|21808|N|Arcane Patrollers|Z|Eversong Woods|M|45.,40.5|S|
+C Major Malfunction|QID|8472|L|21808 6|ITEM|21808|N|Arcane Patrollers|Z|Eversong Woods|M|45.76,38.55|S|
 C Unstable Mana Crystals|QID|8463|S|N|Look for light beams that come out of the boxes.|Z|Eversong Woods|M|45.386,42|NC|
-K Thaelis the Hungerer|ACTIVE|8468|Z|Eversong Woods|M|45.00,38.40|N|Kill and loot Thaelis the Hungerer.\n[color=FF0000]NOTE: [/color]Clear all the Wretched Urchins around him first before attacking.|T|Thaelis the Hungerer|
+K Thaelis the Hungerer|ACTIVE|8468|Z|Eversong Woods|M|45.00,38.40|L|21781|ITEM|21781|N|Thaelis the Hungerer.\n[color=FF0000]NOTE: [/color]Clear all the Wretched Urchins near him before attacking.|T|Thaelis the Hungerer|
 C Unstable Mana Crystals|QID|8463|Z|Eversong Woods|M|45.38,40.85|US|N|Look for light beams that come out of the boxes.|NC|
-C Major Malfunction|QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|Z|Eversong Woods|M|45,40.5|US|
+C Major Malfunction|QID|8472|L|21808 6|ITEM|21808|N|Arcane Patrollers|Z|Eversong Woods|M|45.76,38.55|T|Arcane Patroller|US|
 T Major Malfunction|QID|8472|N|To Magister Jaronis.|Z|Eversong Woods|M|47.26,46.31|
 A Delivery to the North Sanctum|QID|8895|PRE|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.26,46.31|
-T WANTED: Thaelis the Hungerer|QID|8468|N|To Sergeant Kan'ren.|Z|Eversong Woods|M|47.8,46.6|
+T Wanted: Thaelis the Hungerer|QID|8468|N|To Sergeant Kan'ren.|Z|Eversong Woods|M|47.77,46.58|
 T Unstable Mana Crystals|QID|8463|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
 A Darnassian Intrusions|QID|9352|PRE|8463|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
-T Delivery to the North Sanctum|QID|8895|N|To Ley-Keeper Caidanis.|Z|Eversong Woods|M|44.6,53.1|
-A Malfunction at the West Sanctum|QID|9119|PRE|8895|N|From Ley-Keeper Caidanis.|Z|Eversong Woods|M|44.6,53.1|
-T Malfunction at the West Sanctum|QID|9119|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
-A Arcane Instability|QID|8486|PRE|9119|N|From Ley-Keeper Velania|Z|Eversong Woods|M|36.7,57.4|
-C Arcane Instability|QID|8486|N|Kill the Manawraith and Mana Stalker located around the West Sanctum.|Z|Eversong Woods|M|36,58|S|
-K Darnassian Scout|QID|9352|L|20765|N|Kill a Darnassian Scout and loot Incriminating Documents.|Z|Eversong Woods|M|34.50,60.00|
-A Incriminating Documents|QID|8482|U|20765|N|Quest starts from the Incriminating Documents. Click the envelope.|Z|Eversong Woods|M|33.9,58.4|
-C Arcane Instability|QID|8486|N|Finish killing the Manawraith and Mana Stalker located around the West Sanctum.|Z|Eversong Woods|M|36,58|US|
-T Darnassian Intrusions|QID|9352|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
-T Arcane Instability|QID|8486|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
+T Delivery to the North Sanctum|QID|8895|M|44.63,53.13|N|To Ley-Keeper Caidanis, standing on the steps of the North Sanctum.|
+A Malfunction at the West Sanctum|QID|9119|M|44.63,53.13|N|From Ley-Keeper Caidanis.|PRE|8895|
+T Malfunction at the West Sanctum|QID|9119|M|36.70,57.44|N|To Ley-Keeper Velania.|
+A Arcane Instability|QID|8486|M|36.70,57.44|N|From Ley-Keeper Velania|PRE|9119|
+C Arcane Instability|QID|8486|M|36.27,57.70|QO|1;2|N|Kill the Manawraiths and Mana Stalkers located around the West Sanctum.|S|
+l Incriminating Documents|AVAILABLE|8482|L|20765|ITEM|20765|N|Darnassian Scouts.|S|
+C Darnassian Intrusions|QID|9352|QO|1|N|Kill a Darnassian Scout.|Z|Eversong Woods|M|34.50,60.00|
+l Incriminating Documents|AVAILABLE|8482|L|20765|ITEM|20765|N|Darnassian Scouts.|US|
+A Incriminating Documents|QID|8482|M|PLAYER|CC|N|From the Incriminating Documents you just picked up.|U|20765|O|
+C Arcane Instability|QID|8486|M|36.27,57.70|QO|1;2|N|Finish killing the Manawraiths and Mana Stalkers located around the West Sanctum.|US|
+T Darnassian Intrusions|QID|9352|M|36.70,57.44|Z|Eversong Woods|N|To Ley-Keeper Velania.|
+T Arcane Instability|QID|8486|M|36.70,57.44|Z|Eversong Woods|N|To Ley-Keeper Velania.|
 A Fish Heads, Fish Heads...|QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|Z|Eversong Woods|M|31.49,53.78;30.20,58.37|CC|
 C Fish Heads, Fish Heads...|QID|8884|N|Kill murlocs for the 8 fish heads.|Z|Eversong Woods|M|27,59.5|
 l Captain Kelisendra's Lost Rutters|QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|Z|Eversong Woods|M|27,59.5|
