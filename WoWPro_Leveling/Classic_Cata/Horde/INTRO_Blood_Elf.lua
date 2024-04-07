@@ -97,33 +97,35 @@ T Solanian's Belongings|QID|8330|M|38.97,20.27|N|To Well Watcher Solanian.|R|Blo
 T A Fistful of Slivers|QID|8336|M|38.28,19.13|N|To Arcanist Ithanas.|R|BloodElf|
 T Thirst Unending|QID|8346|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
 R Falthrien Academy|AVAILABLE|8338|M|32.52,25.61|N|Follow the road west past the intersection towards the water.|
-C Felendren the Banished|QID|8335|QO|1;2|M|38.27,73.41|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|S|
+C Felendren the Banished|QID|8335|QO|1;2|M|31.69,26.42|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|S|
 l Tainted Arcane Sliver|AVAILABLE|8338|M|32.52,25.61|L|20483|ITEM|20483|N|Tainted Arcane Wraith|
 A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|N|From the Tainted Arcane Sliver you just picked up.|U|20483|R|BloodElf|O|
-K Felendren|ACTIVE|8335|QO|3|M|38.87,64.08|T|Felendren the Banished|R|BloodElf|
-C Felendren the Banished|QID|8335|QO|1;2|M|38.27,73.41|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|US|
-T Felendren the Banished|QID|8335|M|52.77,49.63|N|To Lanthan Perilon.|R|BloodElf|
-A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|52.77,49.63|N|From Lanthan Perilon.|R|BloodElf|
+K Felendren|ACTIVE|8335|QO|3|M|30.84,27.14|N|He is found on the platform at the very top of the last spiral ramp\n[color=FF0000]NOTE: [/color]Both ramps meet back at the top.|T|Felendren the Banished|R|BloodElf|
+C Felendren the Banished|QID|8335|QO|1;2|M|31.69,26.42|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|US|
+L Level 5|ACTIVE|8335|N|Grind until you're within 9 bubbles of level 5.|LVL|4;-910|
+T Felendren the Banished|QID|8335|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
+A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
 T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
+= Level 5 Training|ACTIVE|8347|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Sunstrider Isle^The Sunspire|
+R Eversong Woods|ACTIVE|8347|M|39.32,30.81|N|Head to and cross over the bridge to the south of you.|R|BloodElf|
 T Aiding the Outrunners|QID|8347|M|40.43,32.16|Z|Eversong Woods|N|To Outrunner Alarion.|R|BloodElf|
 ;The guide continues at this point for all races
-R Eversong Woods|QID|9704|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|
 A Slain by the Wretched|QID|9704|Z|Eversong Woods|M|40.4,32.2|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|
 F Falconwing Square|QID|9704|Z|Eversong Woods|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 T Slain by the Wretched|QID|9704|N|To Slain Outrunner.|Z|Eversong Woods|M|42.0,35.7|
-A Package Recovery |QID|9705|PRE|9704|N|From Slain Outrunner.|Z|Eversong Woods|M|42.0,35.7|
-T Package Recovery |QID|9705|N|To Outrunner Alarion.|Z|Eversong Woods|M|40.4,32.2|
+A Package Recovery|QID|9705|PRE|9704|N|From Slain Outrunner.|Z|Eversong Woods|M|42.0,35.7|
+T Package Recovery|QID|9705|N|To Outrunner Alarion.|Z|Eversong Woods|M|40.4,32.2|
 A Completing the Delivery|QID|8350|PRE|9705|N|From Outrunner Alarion.|Z|Eversong Woods|M|40.4,32.2|
 f Falconwing Square|QID|8350|Z|Eversong Woods|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|
 T Completing the Delivery|QID|8350|N|To Innkeeper Delaniel.|Z|Eversong Woods|M|48.1,47.7|
-h Falconwing Inn |QID|8472|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|Z|Eversong Woods|M|48.1,47.7|
-N Professions |QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|Z|Eversong Woods|M|48.93,46.86|
+h Falconwing Inn|QID|8472|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|Z|Eversong Woods|M|48.1,47.7|
+N Professions|QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|Z|Eversong Woods|M|48.93,46.86|
 A Unstable Mana Crystals|QID|8463|N|From Aeldon Sunbrand, back outside of the inn.|Z|Eversong Woods|M|48.2,46.0|
-A WANTED: Thaelis the Hungerer |QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|Z|Eversong Woods|M|48.2,46.3|
+A WANTED: Thaelis the Hungerer|QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|Z|Eversong Woods|M|48.2,46.3|
 A Major Malfunction|QID|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.3,46.3|
 C Major Malfunction|QID|8472|N|Kill and loot Arcane Patrollers for the Arcane Cores.|Z|Eversong Woods|M|45.,40.5|S|
 C Unstable Mana Crystals|QID|8463|S|N|Look for light beams that come out of the boxes.|Z|Eversong Woods|M|45.386,42|NC|
-C Thaelis the Hungerer|QID|8468|T|Thaelis the Hungerer|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking. |Z|Eversong Woods|M|45.00,38.40|
+C Thaelis the Hungerer|QID|8468|Z|Eversong Woods|M|45.00,38.40|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking.|T|Thaelis the Hungerer|
 C Unstable Mana Crystals|QID|8463|Z|Eversong Woods|M|45.38,40.85|US|N|Look for light beams that come out of the boxes.|NC|
 C Major Malfunction|QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|Z|Eversong Woods|M|45,40.5|US|
 T Major Malfunction|QID|8472|N|To Magister Jaronis.|Z|Eversong Woods|M|47.3,46.3|
@@ -136,13 +138,13 @@ A Malfunction at the West Sanctum|QID|9119|PRE|8895|N|From Ley-Keeper Caidanis.|
 T Malfunction at the West Sanctum|QID|9119|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
 A Arcane Instability|QID|8486|PRE|9119|N|From Ley-Keeper Velania|Z|Eversong Woods|M|36.7,57.4|
 C Arcane Instability|QID|8486|N|Kill the Manawraith and Mana Stalker located around the West Sanctum.|Z|Eversong Woods|M|36,58|S|
-K Darnassian Scout|QID|9352|L|20765|N|Kill a Darnassian Scout and loot Incriminating Documents. |Z|Eversong Woods|M|34.50,60.00|
+K Darnassian Scout|QID|9352|L|20765|N|Kill a Darnassian Scout and loot Incriminating Documents.|Z|Eversong Woods|M|34.50,60.00|
 A Incriminating Documents|QID|8482|U|20765|N|Quest starts from the Incriminating Documents. Click the envelope.|Z|Eversong Woods|M|33.9,58.4|
 C Arcane Instability|QID|8486|N|Finish killing the Manawraith and Mana Stalker located around the West Sanctum.|Z|Eversong Woods|M|36,58|US|
 T Darnassian Intrusions|QID|9352|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
-T Arcane Instability |QID|8486|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
+T Arcane Instability|QID|8486|N|To Ley-Keeper Velania.|Z|Eversong Woods|M|36.7,57.4|
 A Fish Heads, Fish Heads...|QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|Z|Eversong Woods|M|31.49,53.78;30.20,58.37|CC|
-C Fish Heads, Fish Heads...|QID|8884|N|Kill murlocs for the 8 fish heads. |Z|Eversong Woods|M|27,59.5|
+C Fish Heads, Fish Heads...|QID|8884|N|Kill murlocs for the 8 fish heads.|Z|Eversong Woods|M|27,59.5|
 l Captain Kelisendra's Lost Rutters|QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|Z|Eversong Woods|M|27,59.5|
 A Captain Kelisendra's Lost Rutters|QID|8887|U|21776|N|From Captain Kelisendra's Lost Rutters.|
 T Fish Heads, Fish Heads...|QID|8884|N|To Hathvelion Sungaze.|Z|Eversong Woods|M|29.89,58.52|
@@ -154,7 +156,7 @@ C The Dwarven Spy|QID|8483|L|20764|CHAT|N|Speak to Prospector Anvilward. He will
 A Roadside Ambush|QID|9035|LEAD|9062|N|From Apprentice Ralen.|Z|Eversong Woods|M|45.2,56.4|
 T Roadside Ambush|QID|9035|N|To Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
 A Soaked Pages|QID|9062|N|From Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
-C Soaked Pages|QID|9062|L|22414|N|Dive under the bridge just in front of you, the Soaked Pages are in the river. |Z|Eversong Woods|M|44.40,61.90|NC|
+C Soaked Pages|QID|9062|L|22414|N|Dive under the bridge just in front of you, the Soaked Pages are in the river.|Z|Eversong Woods|M|44.40,61.90|NC|
 T Soaked Pages|QID|9062|N|To Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
 A Taking the Fall|QID|9064|PRE|9062|N|From Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
 T Taking the Fall|QID|9064|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
@@ -165,7 +167,7 @@ T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|
 A The Dead Scar|QID|8475|N|From Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
 C Swift Discipline - Apprentice Ralen|QID|9066|QO|2|U|22473|NC|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|Z|Eversong Woods|M|45.20,56.40|T|Apprentice Ralen|
 C Swift Discipline - Apprentice Meledor|QID|9066|QO|1|U|22473|NC|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|Z|Eversong Woods|M|44.9,61.0|T|Apprentice Meledor|
-C The Dead Scar|QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. \n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an on-level player to survive. |Z|Eversong Woods|M|51.2,56.3|
+C The Dead Scar|QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. \n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an on-level player to survive.|Z|Eversong Woods|M|51.2,56.3|
 T The Dead Scar|QID|8475|N|To Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
 T Swift Discipline|QID|9066|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
 F Falconwing Square|QID|8483|Z|Eversong Woods|M|54.37,50.73|N|Fly to Falconwing Square.|
@@ -199,26 +201,26 @@ T Return to Sathiel|QID|9135|R|BloodElf|Z|Eversong Woods|M|43.69,71.51|N|To Sath
 T Captain Kelisendra's Lost Rutters|QID|8887|N|To Captain Kelisendra. Follow the road west until you reach Sunsail Anchorage.|Z|Eversong Woods|M|36.4,66.7|
 A Grimscale Pirates!|QID|8886|N|From Captain Kelisendra.|Z|Eversong Woods|M|36.4,66.7|
 A Lost Armaments|QID|8480|N|From Velendris Whitemorn.|Z|Eversong Woods|M|36.4,66.7|
-C Grimscale Pirates!|QID|8886|N|Either pick these up from the floor, or kill and loot the murlocs. |Z|Eversong Woods|M|24.9,66.8|S|
-K Kill Mmmrrrggglll|QID|8885|QO|1|N|He roams the beach. |Z|Eversong Woods|M|25,69|T|Mmmrrrggglll|
-C Grimscale Pirates!|QID|8886|N|Either pick these up from the floor, or kill and loot the murlocs. |Z|Eversong Woods|M|24.9,66.8|US|
+C Grimscale Pirates!|QID|8886|N|Either pick these up from the floor, or kill and loot the murlocs.|Z|Eversong Woods|M|24.9,66.8|S|
+K Kill Mmmrrrggglll|QID|8885|QO|1|N|He roams the beach.|Z|Eversong Woods|M|25,69|T|Mmmrrrggglll|
+C Grimscale Pirates!|QID|8886|N|Either pick these up from the floor, or kill and loot the murlocs.|Z|Eversong Woods|M|24.9,66.8|US|
 T The Ring of Mmmrrrggglll|QID|8885|N|To Hathvelion Sungaze|Z|Eversong Woods|M|30.2,58.5|
 C Situation at Sunsail Anchorage|QID|8892|S|N|Kill Wretched Thugs and Hooligans.|
 C Lost Armaments|QID|8480|N|Run around the big white gazeebo looting the Weapon Containers.|Z|Eversong Woods|M|31.0,69.0|NC|
 T Grimscale Pirates!|QID|8886|N|To Captain Kelisendra. At Sunsail Anchorage.|Z|Eversong Woods|M|36.4,66.7|
-T Lost Armaments |QID|8480|N|To Velendris Whitemorn.|Z|Eversong Woods|M|36.4,66.7|
+T Lost Armaments|QID|8480|N|To Velendris Whitemorn.|Z|Eversong Woods|M|36.4,66.7|
 A Wretched Ringleader|QID|9076|PRE|8480|N|From Velendris Whitemorn.|Z|Eversong Woods|M|36.4,66.7|
-K Aldaron|QID|9076|QO|1|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras. |Z|Eversong Woods|M|32.70,68.4|
+K Aldaron|QID|9076|QO|1|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras.|Z|Eversong Woods|M|32.70,68.4|
 C Situation at Sunsail Anchorage|QID|8892|S|N|Finish killing the Wretched Thugs and Hooligans.|
 T Wretched Ringleader|QID|9076|N|To Velendris Whitemorn.|Z|Eversong Woods|M|36.4,66.7|
-C Pelt Collection|QID|8491|N|Kill springpaws. They're all around Fairbreeze. |Z|Eversong Woods|M|46.00,67.00|US|
+C Pelt Collection|QID|8491|N|Kill springpaws. They're all around Fairbreeze.|Z|Eversong Woods|M|46.00,67.00|US|
 T Pelt Collection|QID|8491|N|To Velan Brightoak.|Z|Eversong Woods|M|44.7,69.6|
 T Situation at Sunsail Anchorage|QID|8892|N|To Ranger Degolien.|Z|Eversong Woods|M|43.3,70.8|
 A Farstrider Retreat|QID|9359|LEAD|8476|PRE|8892|N|From Ranger Degolien.|Z|Eversong Woods|M|43.3,70.8|
 r Repair/Sell Junk|QID|9358|Z|Eversong Woods|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
 T Ranger Sareyn|QID|9358|N|To Ranger Sareyn.|Z|Eversong Woods|M|46.9,71.8|
 A Defending Fairbreeze Village|QID|9252|N|From Ranger Sareyn.|Z|Eversong Woods|M|46.9,71.8|
-C Defending Fairbreeze Village|QID|9252|N|4 of each: Rotlimb marauder, Darkwraith. Follow the road southeast until you hit the Dead Scar. Then head south. |Z|Eversong Woods|M|50.00,75.00|
+C Defending Fairbreeze Village|QID|9252|N|4 of each: Rotlimb marauder, Darkwraith. Follow the road southeast until you hit the Dead Scar. Then head south.|Z|Eversong Woods|M|50.00,75.00|
 T The Wayward Apprentice|QID|9254|N|To Apprentice Mirveda. Go north along the Dead Scar until you reach Mivenda.|Z|Eversong Woods|M|54.3,71.0|
 A Corrupted Soil|QID|8487|N|From Apprentice Mirveda.|Z|Eversong Woods|M|54.3,71.0|
 C Corrupted Soil|QID|8487|NC|N|Loot 8 Tainted Soil Samples, they are green looking.|Z|Eversong Woods|M|52.60,68.40|
@@ -250,12 +252,12 @@ C Deactivating the Spire|QID|8889|QO|3|M|69.20,52.10|Z|Eversong Woods|N|Head up 
 T Deactivating the Spire|QID|8889|M|67.8,56.5|Z|Eversong Woods|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|PRE|8889|M|67.8,56.5|Z|Eversong Woods|N|From Apprentice Loralthalis.|
 ;N Visit your trainer if you want|QID|8890|N|since we are by Silvermoon City. Right-click the box to continue.|
-T Word from the Spire|QID|8890|M|60.3,61.4|Z|Eversong Woods|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp. |
+T Word from the Spire|QID|8890|M|60.3,61.4|Z|Eversong Woods|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp.|
 T Abandoned Investigations|QID|8891|M|60.3,61.4|Z|Eversong Woods|N|To Magister Duskwither.|
 C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
 K Spearcrafter Otembe|QID|8477|QO|1|M|70,72|Z|Eversong Woods|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|
 A Zul'Marosh|QID|8479|M|70.5,72.3|Z|Eversong Woods|N|From Ven'jashi.|
-K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|Z|Eversong Woods|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first. |
+K Chieftain Zul'Marosh|QID|8479|M|61.60,79.60|Z|Eversong Woods|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first.|
 A Amani Invasion|QID|9360|M|62.6,79.7|Z|Eversong Woods|N|From the Amani Invasion Plans.|U|23249|
 T Zul'Marosh|QID|8479|M|70.5,72.3|Z|Eversong Woods|N|To Ven'jashi.|
 C Amani Encroachment|QID|8476|US|M|69.00,72.00|Z|Eversong Woods|N|Finish killing Trolls needed.|
@@ -267,7 +269,7 @@ T The Spearcrafter's Hammer|QID|8477|M|59.5,62.6|Z|Eversong Woods|N|To Arathel S
 C The Purest Water|QID|9403|M|64.21,72.66|Z|Eversong Woods|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
 T The Purest Water|QID|9403|M|55.7,54.5|Z|Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|QID|9255|N|Hearth to Fairbreeze Village.|
-T Research Notes |QID|9255|M|44.03,70.76|Z|Eversong Woods|N|To Magistrix Landra Dawnstrider.|
+T Research Notes|QID|9255|M|44.03,70.76|Z|Eversong Woods|N|To Magistrix Landra Dawnstrider.|
 T Warning Fairbreeze Village|QID|9363|M|43.3,70.8|Z|Eversong Woods|N|To Ranger Degolien.|
 T Defending Fairbreeze Village|QID|9252|M|46.93,71.79|Z|Eversong Woods|N|To Ranger Sareyn.|
 A The Scorched Grove|QID|9258|LEAD|8473|M|43.6,71.2|Z|Eversong Woods|N|From Ardeyn Riverwind.|
@@ -282,6 +284,6 @@ A Whitebark's Memory|QID|10166|PRE|8474|M|34,80|Z|Eversong Woods|N|From Larianna
 T Whitebark's Memory|QID|10166|M|37.58,86.14|Z|Eversong Woods|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
 C A Somber Task|QID|8473|M|35.7,85.2|Z|Eversong Woods|N|Kill 10 Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34,80|Z|Eversong Woods|N|To Larianna Riverwind.|
-N End of Eversong Woods Guide |QID|9144|M|43,86;55,84|CC|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods Acheivement if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|Z|Eversong Woods|
+N End of Eversong Woods Guide|QID|9144|M|43,86;55,84|CC|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods Acheivement if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|Z|Eversong Woods|
 ]]
 end)
