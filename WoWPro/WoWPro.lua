@@ -491,6 +491,7 @@ function WoWPro:RESET()
     WoWProDB = nil
     WoWProCharDB = nil
     WoWPro:OnInitialize()
+    _G.ReloadUI()
 end
 
 function WoWPro.MaybeCombatLockdown()

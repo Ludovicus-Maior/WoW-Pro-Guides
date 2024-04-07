@@ -23,7 +23,7 @@ R Darnassus|QID|3449|M|55.92,89.66|Z|Teldrassil|N|Make your way to Darnassus by 
 B Mithril Casing|QID|4244|M|PLAYER|Z|Darnassus|N|Made by engineers, buy or make a Mithril Casing before you leave.|L|10561|ITEM|10561|
 B Portal: Darnassus|QID|3449|M|40.57,82.15|Z|Darnassus|N|[color=40C7EB]Mages:[/color]While you're here be sure to get your Portal:Darnassus. (Teleport as well if you haven't already)|LVL|51|C|Mage|SPELL|11419|
 T Rise of the Silithid|QID|162|M|41.82,85.63|Z|Darnassus|N|To Gracina Spiritmight.|
-A March of the Silithid|QID|4493|M|41.82,85.63|Z|Darnassus|N|From Gracina Spiritmight.|LVL|50|
+A March of the Silithid|QID|4493|PRE|162|M|41.82,85.63|Z|Darnassus|N|From Gracina Spiritmight.|LVL|50|
 T Assisting Arch Druid Staghelm|QID|3790|M|35.31,8.94|Z|Darnassus|N|To Arch Druid Staghelm. Up on top of the tree.|
 A Un'Goro Soil|QID|3764|M|35.31,8.94|Z|Darnassus|N|From Arch Druid Staghelm. Up on top of the tree.|
 

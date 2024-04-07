@@ -274,8 +274,8 @@ A Kaya's Alive|QID|6401|PRE|6523|M|35.2,27.8|N|From Makaba Flathoof.|
 
 R Malaka'jin|QID|6401|M|71,95|N|At waypoint, you'll find a Darkspear Troll settlement called Malaka'Jin.|Z|Stonetalon Mountains|
 A Blood Feeders|QID|6461|M|71.2,94.8|Z|Stonetalon Mountains|N|From Xen'zilla.|
-A Arachnophobia|QID|6284|M|59.1,75.8|Z|Stonetalon Mountains|N|From Wanted Poster, found further up the road.|GROUP|2|
-R Sishir Canyon|ACTIVE|-6284|M|59.1,75.8|Z|Stonetalon Mountains|N||
+A Arachnophobia|QID|6284|M|59.1,75.8|Z|Stonetalon Mountains|ELITE|N|From Wanted Poster, found further up the road.|
+R Sishir Canyon|ACTIVE|-6284|M|59.1,75.8|Z|Stonetalon Mountains|N|
 C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|S|N|Kill spiders until the quest is done.|
 C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|Stonetalon Mountains|S|NC|N|Pick up the spider eggs from around the area.|
 K Bessaleth|ACTIVE|6284|M|52,71|Z|Stonetalon Mountains|T|Bessaleth|N|Bessaleth will be located somewhere near here.|
