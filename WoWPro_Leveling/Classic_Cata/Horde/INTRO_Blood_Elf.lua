@@ -23,7 +23,6 @@ C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Mana Wyrms\n[color=FF0
 C Thirst Unending|QID|8346|M|35.39,20.24|QO|1|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|S|
 C Solanian's Belongings|QID|8330|M|37.70,24.90|L|20472|N|Pick up Solanian's Journal, near the big green crystal.|R|BloodElf|
 C Unfortunate Measures|QID|8326|M|36.22,22.64|L|20797 8|ITEM|20797|N|Springpaw Lynxes and Cubs.\n[color=FF0000]NOTE: [/color]If this area is busy, you can find more behind the buildings northeast of you.|R|BloodElf|US|
-C Thirst Unending|QID|8346|M|35.39,20.24|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|US|
 L Level 3|ACTIVE|8326|N|Grind until you're within 5.5 bubbles of level 3.|LVL|2;-250|
 T Unfortunate Measures|QID|8326|M|38.02,21.00|N|To Magistrix Erona.|R|BloodElf|
 
@@ -82,28 +81,30 @@ T Ways of the Light|QID|10069|M|39.48,20.56|N|To Jesthenis Sunstriker.|R|BloodEl
 ; ** End of class quest
 
 A Report to Lanthan Perilon|QID|8327|PRE|8326|M|38.02,21.00|N|From Magistrix Erona.|R|BloodElf|
-C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
 T Report to Lanthan Perilon|QID|8327|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
 A Aggression|QID|8334|PRE|8327|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
 C Aggression|QID|8334|M|34.14,25.63|N|Kill Tenders and Feral Tenders.|R|BloodElf|S|
 C The Shrine of Dath'Remar|QID|8345|QO|1|M|29.65,19.40|N|Click on the glowing part of the shrine.|R|BloodElf|NC|
-C Solanian's Belongings|QID|8330|QO|2|M|40.42,50.27|L|20471|N|The Scroll of Scourge Magic is located by the fountain.|R|BloodElf|NC|
-C Solanian's Belongings|QID|8330|QO|1|M|52.15,69.59|L|20470|N|Solanian's Scrying Orb is located on the platform by the pond.|R|BloodElf|
+C Solanian's Belongings|QID|8330|QO|2|M|31.33,22.75|L|20471|N|The Scroll of Scourge Magic is located by the fountain.|R|BloodElf|NC|
+C Solanian's Belongings|QID|8330|QO|1|M|35.14,28.89|L|20470|N|Solanian's Scrying Orb is located on the platform by the pond.|R|BloodElf|
 C Aggression|QID|8334|M|34.14,25.63|N|Finish killing Tenders and Feral Tenders.|R|BloodElf|US|
-C Solanian's Belongings|QID|8330|QO|3|M|59.88,57.05|L|20472|N|Solanian's Journal|R|BloodElf|
-T The Shrine of Dath'Remar|QID|8345|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
-T Solanian's Belongings|QID|8330|M|63.94,42.69|N|To Well Watcher Solanian.|R|BloodElf|
-T A Fistful of Slivers|QID|37440|M|61.65,39.43|N|To Arcanist Ithanas.|R|BloodElf|
-T Thirst Unending|QID|37439|M|58.54,38.90|N|To Arcanist Helion.|R|BloodElf|
-T Aggression|QID|8334|PRE|8326|M|52.89,49.70|N|To Lanthan Perilon.|R|BloodElf|
-A Felendren the Banished|QID|8335|PRE|8334|M|52.95,49.59|N|From Lanthan Perilon.|R|BloodElf|
-A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|N|From Tainted Arcane Wraith.Go up the ramp and kill the Tainted Arcane Wraith to receive this quest. Kill Arcane Wraiths as you progress.|R|BloodElf|
-C Felendren the Banished|QID|8335|M|38.27,73.41|N|Slay Arcane and Tainted Arcane Wraiths as you head up the ramps to slay Felendren.|R|BloodElf|S|
+T Aggression|QID|8334|M|35.37,22.52|N|To Lanthan Perilon.|R|BloodElf|
+A Felendren the Banished|QID|8335|PRE|8334|M|35.37,22.52|N|From Lanthan Perilon.|R|BloodElf|
+C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|N|Kill Mana Wyrms to collect the Arcane Slivers.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
+C Thirst Unending|QID|8346|M|35.39,20.24|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|US|
+T The Shrine of Dath'Remar|QID|8345|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|
+T Solanian's Belongings|QID|8330|M|38.97,20.27|N|To Well Watcher Solanian.|R|BloodElf|
+T A Fistful of Slivers|QID|8336|M|38.28,19.13|N|To Arcanist Ithanas.|R|BloodElf|
+T Thirst Unending|QID|8346|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
+R Falthrien Academy|AVAILABLE|8338|M|32.52,25.61|N|Follow the road west past the intersection towards the water.|
+C Felendren the Banished|QID|8335|QO|1;2|M|38.27,73.41|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|S|
+l Tainted Arcane Sliver|AVAILABLE|8338|M|32.52,25.61|L|20483|ITEM|20483|N|Tainted Arcane Wraith|
+A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|N|From the Tainted Arcane Sliver you just picked up.|U|20483|R|BloodElf|O|
 K Felendren|ACTIVE|8335|QO|3|M|38.87,64.08|T|Felendren the Banished|R|BloodElf|
-C Felendren the Banished|QID|8335|M|38.27,73.41|N|Finish killing Arcane and Tainted Arcane Wraiths.|US|R|BloodElf|
+C Felendren the Banished|QID|8335|QO|1;2|M|38.27,73.41|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|US|
 T Felendren the Banished|QID|8335|M|52.77,49.63|N|To Lanthan Perilon.|R|BloodElf|
 A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|52.77,49.63|N|From Lanthan Perilon.|R|BloodElf|
-T Tainted Arcane Sliver|QID|8338|M|58.56,38.75|N|To Arcanist Helion.|R|BloodElf|
+T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|N|To Arcanist Helion.|R|BloodElf|
 T Aiding the Outrunners|QID|8347|M|40.43,32.16|Z|Eversong Woods|N|To Outrunner Alarion.|R|BloodElf|
 ;The guide continues at this point for all races
 R Eversong Woods|QID|9704|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|
