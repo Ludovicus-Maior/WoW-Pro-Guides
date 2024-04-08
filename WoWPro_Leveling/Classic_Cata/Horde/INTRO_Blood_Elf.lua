@@ -184,25 +184,26 @@ C The Dead Scar|QID|8475|M|50.28,57.12|QO|1|N|Kill the Plaguebone Pillagers (the
 C Swift Discipline - Apprentice Ralen|QID|9066|QO|2|U|22473|NC|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|Z|Eversong Woods|M|45.19,56.43|T|Apprentice Ralen|
 C Swift Discipline - Apprentice Meledor|QID|9066|QO|1|U|22473|NC|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|Z|Eversong Woods|M|44.88,61.03|T|Apprentice Meledor|
 C The Dead Scar|QID|8475|M|50.28,57.12|QO|1|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|US|
-T The Dead Scar|QID|8475|N|To Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
+T The Dead Scar|QID|8475|N|To Ranger Jaela.|Z|Eversong Woods|M|50.34,50.76|
 T Swift Discipline|QID|9066|N|To Instructor Antheol.|Z|Eversong Woods|M|55.70,54.51|
 F Falconwing Square|ACTIVE|8483^8896|Z|Eversong Woods|M|54.37,50.73|N|Fly to Falconwing Square.|
 T The Dwarven Spy|QID|8483^8896|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
-A Fairbreeze Village|QID|9256|LEAD|8892|PRE|8483^8896|N|From Aeldon Sunbrand.|
-f Fairbreeze Village|QID|9256|Z|Eversong Woods|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
-A Pelt Collection|QID|8491|N|From Velan Brightoak.|Z|Eversong Woods|M|44.7,69.6|
-A Saltheril's Haven|QID|9395|LEAD|9067|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|M|44.0,70.8|
-A The Wayward Apprentice|QID|9254|LEAD|8487|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|M|44.0,70.8|
-T Fairbreeze Village|QID|9256|N|To Ranger Degolien. Up the ramp.|Z|Eversong Woods|M|43.4,70.8|
-A Situation at Sunsail Anchorage|QID|8892|N|From Ranger Degolien|Z|Eversong Woods|M|43.3,70.8|
-A Ranger Sareyn|QID|9358|LEAD|9252|N|From Marniel Amberlight. If you've already done Defending Fairbreeze Village this quest won't be available so just skip it.|Z|Eversong Woods|M|43.7,71.2|
-h Fairbreeze Village|QID|9395|N|With Marniel Amberlight.|Z|Eversong Woods|M|43.7,71.2|
-A Goods from Silvermoon City|QID|9130|R|BloodElf|Z|Eversong Woods|M|43.7,71.54|N|From Sathiel.|
-r Repair/Sell Junk|QID|9395|Z|Eversong Woods|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
-C Pelt Collection|QID|8491|N|Kill springpaws.|Z|Eversong Woods|M|46.00,67.00|S|
-T Saltheril's Haven|QID|9395|N|To Lord Saltheril.|Z|Eversong Woods|M|38.1,73.6|
-A The Party Never Ends|QID|9067|N|From Lord Saltheril.|Z|Eversong Woods|M|38.1,73.6|
-B Bundle of Fireworks|QID|9067|QO|3|N|Buy a Bundle of fireworks from Halis Dawnstrider at Fairbreeze Village.|Z|Eversong Woods|M|44.10,70.40|
+A Fairbreeze Village|QID|9256|LEAD|8892|PRE|8483^8896|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
+R Fairbreeze Village|AVAILABLE|8491|Z|Eversong Woods|M|43.93,67.79|N|Follow the road south to Fairbreeze Village.\n[color=FF0000]NOTE: [/color]Go west at the first intersection; it turns south after the bend.|
+f Fairbreeze Village|AVAILABLE|8491|Z|Eversong Woods|M|43.94,69.98|N|Get the flightpoint from Skymaster Brightdawn.|
+A Pelt Collection|QID|8491|M|44.72,69.63|N|From Velan Brightoak.|
+A Saltheril's Haven|QID|9395|M|44.03,70.76|N|From Magistrix Landra Dawnstrider.|LEAD|9067|
+A The Wayward Apprentice|QID|9254|M|44.03,70.76|N|From Magistrix Landra Dawnstrider.|LEAD|8487|
+T Fairbreeze Village|QID|9256|M|43.34,70.82|N|To Ranger Degolien, up the ramp.|
+A Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|N|From Ranger Degolien.|
+A Ranger Sareyn|QID|9358|M|43.67,71.31|N|From Marniel Amberlight, the Innkeeper.|LEAD|9252|
+h Fairbreeze Village|ACTIVE|9395|M|43.67,71.31|N|With Marniel Amberlight.|
+A Goods from Silvermoon City|QID|9130|R|BloodElf|Z|Eversong Woods|M|43.70,71.56|N|From Sathiel.|
+r Repair/Sell Junk|ACTIVE|9395|M|43.70,71.56|N|At Sathiel.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
+C Pelt Collection|QID|8491|M|46.00,67.00|L|20772 6|ITEM|20772|N|Springpaws.|S|IZ|-3461; Sunsail Anchorage|
+T Saltheril's Haven|QID|9395|M|38.15,73.56|N|To Lord Saltheril.|
+A The Party Never Ends|QID|9067|N|From Lord Saltheril.|Z|Eversong Woods|M|38.15,73.56|
+B Bundle of Fireworks|QID|9067|L|22777|ITEM|22777|N| from Halis Dawnstrider at Fairbreeze Village.|Z|Eversong Woods|M|44.04,70.36|
 T Goods from Silvermoon City|QID|9130|R|BloodElf|N|To Skymaster Brightdawn.|Z|Eversong Woods|M|44,70|
 A Fly to Silvermoon City|QID|9133|PRE|9130|R|BloodElf|Z|Eversong Woods|M|44,70|N|From Skymaster Brightdawn.|
 F Silvermoon City|QID|9133|Z|Eversong Woods|M|44,70|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
@@ -230,7 +231,7 @@ K Aldaron|QID|9076|QO|1|N|Go back to the big white tower-like building and fight
 C Situation at Sunsail Anchorage|QID|8892|S|N|Finish killing the Wretched Thugs and Hooligans.|
 T Wretched Ringleader|QID|9076|N|To Velendris Whitemorn.|Z|Eversong Woods|M|36.4,66.7|
 C Pelt Collection|QID|8491|N|Kill springpaws. They're all around Fairbreeze.|Z|Eversong Woods|M|46.00,67.00|US|
-T Pelt Collection|QID|8491|N|To Velan Brightoak.|Z|Eversong Woods|M|44.7,69.6|
+T Pelt Collection|QID|8491|N|To Velan Brightoak.|Z|Eversong Woods|M|44.72,69.62|
 T Situation at Sunsail Anchorage|QID|8892|N|To Ranger Degolien.|Z|Eversong Woods|M|43.3,70.8|
 A Farstrider Retreat|QID|9359|LEAD|8476|PRE|8892|N|From Ranger Degolien.|Z|Eversong Woods|M|43.3,70.8|
 r Repair/Sell Junk|QID|9358|Z|Eversong Woods|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
@@ -289,7 +290,7 @@ T Research Notes|QID|9255|M|44.03,70.76|Z|Eversong Woods|N|To Magistrix Landra D
 T Warning Fairbreeze Village|QID|9363|M|43.3,70.8|Z|Eversong Woods|N|To Ranger Degolien.|
 T Defending Fairbreeze Village|QID|9252|M|46.93,71.79|Z|Eversong Woods|N|To Ranger Sareyn.|
 A The Scorched Grove|QID|9258|LEAD|8473|M|43.6,71.2|Z|Eversong Woods|N|From Ardeyn Riverwind.|
-T The Party Never Ends|QID|9067|M|38.1,73.6|Z|Eversong Woods|N|To Lord Saltheril.|
+T The Party Never Ends|QID|9067|M|38.15,73.56|Z|Eversong Woods|N|To Lord Saltheril.|
 T The Scorched Grove|QID|9258|M|34,80|Z|Eversong Woods|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
 A A Somber Task|QID|8473|M|34,80|Z|Eversong Woods|N|From Larianna Riverwind.|
 C A Somber Task|QID|8473|M|35.7,85.2|Z|Eversong Woods|N|Kill 10 Withered Green Keepers.|S|
