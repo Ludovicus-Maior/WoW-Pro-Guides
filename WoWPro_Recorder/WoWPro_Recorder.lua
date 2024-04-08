@@ -46,7 +46,9 @@ function WoWPro.Recorder:OnEnable()
     WoWPro.Recorder:RegisterEvents()
     WoWPro.Recorder:RegisterSavedGuides()
     WoWPro.Recorder.ProcessScenarioStage(nil)
+    WoWPro.Recorder:OnUIReloaded()
 end
+
 
 function WoWPro.Recorder:OnDisable()
     -- Unregistering Recorder Module Events --
@@ -56,13 +58,23 @@ function WoWPro.Recorder:OnDisable()
     end
 end
 
+function WoWPro.Recorder:OnUIReloaded()
+    if WoWProCharDB.Advanced then
+        WoWPro.RecorderFrame:SetWidth(310)
+        WoWPro.MainFrame:SetWidth(310)
+    else
+        WoWPro.RecorderFrame:SetWidth(225)
+        WoWPro.MainFrame:SetWidth(225)
+    end
+end
+
 function WoWPro.Recorder:ToggleAdvanced()
-	if WoWProCharDB.Advanced then
-		WoWProCharDB.Advanced = false
-	else
-		WoWProCharDB.Advanced = true
-	end
-	_G.ReloadUI();
+    if WoWProCharDB.Advanced then
+        WoWProCharDB.Advanced = false
+    else
+        WoWProCharDB.Advanced = true
+    end
+    _G.ReloadUI();
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()

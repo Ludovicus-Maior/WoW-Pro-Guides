@@ -5,6 +5,7 @@
 --      WoWPro_Leveling_GuideList.lua      --
 ---------------------------------------------
 local Leveling = WoWPro.Leveling
+Leveling.GuideList = {}
 
 local defaultXpac = _G.LE_EXPANSION_CLASSIC
 local introZones = {

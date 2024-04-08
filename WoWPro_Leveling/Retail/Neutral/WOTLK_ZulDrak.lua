@@ -38,20 +38,20 @@ A Crusader Forward Camp|QID|12894|PRE|12883|M|32.2,75.7|Z|121; Zul'Drak|N|From C
 T Crusader Forward Camp|QID|12894|M|25.34,63.97|Z|121; Zul'Drak|N|To Crusader MacKellar, just across the road.|
 A That's What Friends Are For...|QID|12903|PRE|12894|M|25.3,64.0|Z|121; Zul'Drak|N|From Crusader MacKellar.|
 A Making Something Out Of Nothing|QID|12901|PRE|12894|M|25.3,64.0|Z|121; Zul'Drak|N|From Engineer Reed.|
-C Making Something Out Of Nothing|QID|12901|Z|121; Zul'Drak|N|The Scrap Metal is on the ground all over.|M|19.4,61.4|S|
+C Making Something Out Of Nothing|QID|12901|Z|121; Zul'Drak|N|The Scrap Metal is on the ground all over.|M|19.4,61.4|S|NC|
 A A Great Storm Approaches|QID|12912|PRE|12894|Z|121; Zul'Drak|N|From Gymer, who is in the big cage at Thrym's End.|M|20.03,56.59|
 A Light Won't Grant Me Vengeance|QID|12904|PRE|12894|Z|121; Zul'Drak|N|From Gerk, who is in one of the glowing green vats a little west of Gymer.|M|17.63,57.52|
 C Light Won't Grant Me Vengeance|QID|12904|Z|121; Zul'Drak|N|Kill the Varguls.|M|19,56|S|
 C Find Burr|Z|121; Zul'Drak|N|He's across the courtyard to the west on one of the tables.|QID|12903|QO|3|M|15.56,59.44|
 C That's What Friends Are For...|QID|12903|Z|121; Zul'Drak|N|Head to Dargath's Demise and find Crusader Dargath in the ruins. He's got a glowing swirl around him.|M|24.73,51.54|
-C Making Something Out Of Nothing|QID|12901|Z|121; Zul'Drak|N|The Scrap Metal is on the ground all over.|M|19.4,56|US|
+C Making Something Out Of Nothing|QID|12901|Z|121; Zul'Drak|N|The Scrap Metal is on the ground all over.|M|19.4,56|US|NC|
 C Light Won't Grant Me Vengeance|QID|12904|Z|121; Zul'Drak|N|Kill the Varguls.|M|19,56|US|
 T Light Won't Grant Me Vengeance|QID|12904|Z|121; Zul'Drak|N|To Gerk. Remember the glowing green vats?|M|17.6,57.6|
 T That's What Friends Are For...|QID|12903|Z|121; Zul'Drak|N|Back to Crusader MacKellar at Crusader Forward Camp.|M|25.34,63.97|
 T Making Something Out Of Nothing|QID|12901|M|25.3,64.0|Z|121; Zul'Drak|N|To Engineer Reed.|
 T A Great Storm Approaches|QID|12912|M|25.3,64.0|Z|121; Zul'Drak|N|To Engineer Reed.|
 A Gymer's Salvation|QID|12914|PRE|12912|M|25.3,64.0|Z|121; Zul'Drak|N|From Engineer Reed.|
-K Banshees|QID|12914|Z|121; Zul'Drak|N|Kill the banshees in The Dead Fields for their essence. They are floating so you will probably have to pull them to you.|QO|1|T|Banshee|
+K Banshees|QID|12914|M|25.68,60.78|Z|121; Zul'Drak|N|Kill the banshees in The Dead Fields for their essence. They are floating so you will probably have to pull them to you.|QO|1|T|Banshee|
 C Gymer's Salvation|QID|12914|QO|2|Z|121; Zul'Drak|N|Now head to the area around Ebon Watch and kill the Icetouched Earthragers.|M|14.26,73.60|
 f Ebon Watch|QID|12914|M|14.01,73.59|Z|121; Zul'Drak|N|Get the flightpoint from Baneflight|
 T The Ebon Watch|QID|12884|M|14.12,73.79|Z|121; Zul'Drak|N|To Stefan Vadu.|
@@ -60,8 +60,8 @@ A An Invitation, of Sorts...|QID|12631|O|Z|121; Zul'Drak|N|(UI Alert) From the U
 C Kickin' Nass and Takin' Manes|QID|12630|Z|121; Zul'Drak|N|Kill the trolls, put the boot to Nass!|U|38659|M|15.5,69.8|
 T Kickin' Nass and Takin' Manes|QID|12630|Z|121; Zul'Drak|N|Back to Stefan Vadu at Ebon Watch.|M|14.12,73.79|
 T An Invitation, of Sorts...|QID|12631|O|M|14.1,73.8|Z|121; Zul'Drak|N|To Stefan Vadu.|
-A Near Miss|QID|12637|O|PRE|12631|M|14.1,73.8|Z|121; Zul'Drak|N|From Stefan Vadu.|
-C Near Miss|QID|12637|O|Z|121; Zul'Drak|N|Bloodrose Datura will give you a demo.|M|14.29,74.03|
+A Near Miss|QID|12637|PRE|12631|M|14.1,73.8|Z|121; Zul'Drak|N|From Stefan Vadu.|
+C Near Miss|QID|12637|Z|121; Zul'Drak|N|Bloodrose Datura will give you a demo.|M|14.29,74.03|CHAT|
 A Darkness Calling|QID|12633|O|Z|121; Zul'Drak|N|From the Writhing Choker. You get this quest chain if you completed the Drakuru quest chain in Grizzly Hills.|U|38673|
 T Darkness Calling|QID|12633|O|Z|121; Zul'Drak|N|To Stefan Vadu.|
 A Close Call|QID|12638|O|PRE|12633|Z|121; Zul'Drak|N|From Stefan Vadu.|
@@ -89,7 +89,7 @@ T Gymer's Salvation|QID|12914|Z|121; Zul'Drak|N|Back to Crusader Forward Camp.|M
 A Our Only Hope|QID|12916|PRE|12914|M|25.3,64.0|Z|121; Zul'Drak|N|From Engineer Reed.|
 C Our Only Hope|QID|12916|Z|121; Zul'Drak|N|Use the Jumbo Seaforium Charge on the cage.|M|19.65,56.47|
 T Our Only Hope|QID|12916|M|19.7,56.4|Z|121; Zul'Drak|N|To Gymer.|
-A The Storm King's Vengeance|QID|12919|PRE|12916|Z|121; Zul'Drak|N|From Gymer.|
+A The Storm King's Vengeance|QID|12919|PRE|12916|M|19.7,56.4|Z|121; Zul'Drak|N|From Gymer.|
 N The Storm King's Vengeance|QID|12919|Z|121; Zul'Drak|N|Do not bother to look for the scourge: they will find you.|
 N The Storm King's Vengeance|QID|12919|Z|121; Zul'Drak|N|Talk to Gymer to mount him and go!|
 C The Storm King's Vengeance|QID|12919|QO|1|Z|121; Zul'Drak|N|Finish killing scourge.|S|
@@ -99,7 +99,7 @@ K Thrym|QID|12919|QO|3|Z|121; Zul'Drak|N|He will spawn after killing the Prince.
 C The Storm King's Vengeance|QID|12919|QO|1|Z|121; Zul'Drak|N|Finish killing scourge.|US|
 T The Storm King's Vengeance|QID|12919|Z|121; Zul'Drak|N|Back to Crusader Forward Camp.|M|25.43,63.97|
 N Overlord Drakuru 1|QID|12661|Z|121; Zul'Drak|N|Hotkey the disguise so you can reequip it when it fails. Close this step.|M|23.81,45.01|
-N Overlord Drakuru 2|QID|12661|Z|121; Zul'Drak|N|Go to Reliquary of Pain, where you killed Algar the Chosen. Equip your disguise and port up to Voltarus from the center of the platform. Close this step.|U|38699|M|23.81,45.01|
+N Overlord Drakuru 2|QID|12661|Z|121; Zul'Drak|N|Go to Reliquary of Pain, where you killed Algar the Chosen. Equip your disguise and port up to Voltarus from the center of the platform. Close this step.|U|38699|M|28.38,44.85|
 N Overlord Drakuru 3|QID|12661|Z|121; Zul'Drak|N|Overlord Drakuru is up the ramp on the outer ring of the platform. Talk to him to get one of two quests depending on whether or not you did Grizzly Hills. Close this step.|M|27.12,46.10|
 A Dark Horizon|QID|12664|O|Z|121; Zul'Drak|N|You got this because you didn't finish the Drakuru quest chain in Grizzly Hills.|M|27.1,46.2|
 C Dark Horizon|QID|12664|O|Z|121; Zul'Drak|N|Circle around the platform until you find a ramp on the outer ring. Gorebag is up there. Enjoy the ride.|M|29.76,47.90|
@@ -107,20 +107,20 @@ T Dark Horizon|QID|12664|O|M|27.1,46.2|Z|121; Zul'Drak|N|To Overlord Drakuru.|
 A Reunited|QID|12663|O|Z|121; Zul'Drak|N|You got this because you finished the Drakuru quest chain in Grizzly Hills.|M|27.1,46.2|
 C Reunited|QID|12663|O|Z|121; Zul'Drak|N|Circle around the platform until you find a ramp on the outer ring. Gorebag is up there. Enjoy the ride.|M|29.76,47.90|
 T Reunited|QID|12663|O|Z|121; Zul'Drak|N|To Overlord Drakuru.|M|27.1,46.2|
-T Infiltrating Voltarus|QID|12661|Z|121; Zul'Drak|N|Port back down, blow the horn.|U|41390|
-A So Far, So Bad|QID|12669|PRE|12661|Z|121; Zul'Drak|N|From Stefan Vadu.|
-A It Rolls Downhill|QID|12673|Z|121; Zul'Drak|N|From Overlord Drakuru.|M|27.12,46.10|
+T Infiltrating Voltarus|QID|12661|M|28.05,44.85|Z|121; Zul'Drak|N|Port back down, blow the horn.|U|41390|
+A So Far, So Bad|QID|12669|PRE|12661|M|28.05,44.85|Z|121; Zul'Drak|N|From Stefan Vadu.|
+A It Rolls Downhill|QID|12673|Z|121; Zul'Drak|N|Port back up and accept the quest from Overlord Drakuru.|M|27.12,46.10|
 C It Rolls Downhill|QID|12673|Z|121; Zul'Drak|N|Port back down, target a geist, use the scepter to charm it and send it for a crystal (the button is on the pet bar, get close they're not too bright). You MUST wait until the geist ports up to get credit, so don't get in a rush to charm another one.|U|39157|M|27.2,45.1|T|Blight Geist|
 T It Rolls Downhill|QID|12673|Z|121; Zul'Drak|N|Back to Overlord Drakuru.|M|27.12,46.10|
 C So Far, So Bad|QID|12669|Z|121; Zul'Drak|N|Port back down, use the Diluting Additive near the cauldrons. Blightguards will spawn mobs, run away to try to avoid aggro. The Cauldrons are at the waypoints.|U|39154|M|31.29,43.2;31.16,44.31;31.04,45.16;29.6,47.43;26.80,46.92|CS|
-T So Far, So Bad|QID|12669|Z|121; Zul'Drak|N|Blow the horn...again.|U|41390|
+T So Far, So Bad|QID|12669|Z|121; Zul'Drak|M|PLAYER|N|Blow the horn...again.|U|41390|
 A Hazardous Materials|QID|12677|PRE|12669|Z|121; Zul'Drak|N|From Stefan Vadu.|
 A Zero Tolerance|QID|12686|Z|121; Zul'Drak|N|From Overlord Drakuru.|M|27.12,46.10|
 C Zero Tolerance|QID|12686|Z|121; Zul'Drak|N|Use the scepter on a Servent of Drakuru, then head to the big platform. Target Darmuk and let the troll do all the work. DO NOT FIGHT!! You will lose your disguise and your pet. Open with Ferocious Enrage, use Gut Rip and Stunning Force when they are up, repeat as necessary.|U|39206|M|30.51,51.57|
 T Zero Tolerance|QID|12686|Z|121; Zul'Drak|N|Back to Overlord Drakuru.|M|27.12,46.10|
 C Hazardous Materials|QID|12677|Z|121; Zul'Drak|N|The crates are all over the platform. Looting the crates can drop your disguise, be alert. You must be disguised to gather the crates.|M|27.1,43.9|
-T Hazardous Materials|QID|12677|Z|121; Zul'Drak|N|Port back down, blow the horn. Are you tired of this yet?|U|41390|
-A Sabotage|QID|12676|PRE|12677|Z|121; Zul'Drak|N|From Stefan Vadu.|
+T Hazardous Materials|QID|12677|M|PLAYER|Z|121; Zul'Drak|N|Port back down, blow the horn. Are you tired of this yet?|U|41390|
+A Sabotage|QID|12676|PRE|12677|M|PLAYER|Z|121; Zul'Drak|N|From Stefan Vadu.|
 A Fuel for the Fire|QID|12690|Z|121; Zul'Drak|N|From Overlord Drakuru.|M|27.12,46.10|
 C Fuel for the Fire|QID|12690|Z|121; Zul'Drak|N|Go to the Frigid Breach. Time for some fun! Use the scepter to charm an abomination. Send him out to gather up trolls. Just before he dies, blow him up! Repeat until you've killed 60. Don't worry about the chieftans, they get carried off before they attack.|U|39238|M|32.74,38.72|
 N Destroy Scourgewagons|Z|121; Zul'Drak|N|They are all over the Reliquary of Pain. Use the explosive and run.|QID|12676|QO|1|U|39165|
@@ -161,7 +161,7 @@ l Strange Mojo|QID|12507|Z|121; Zul'Drak|N|It's a drop. Keep killing trolls unti
 T Argent Crusade, We Are Leaving!|QID|12504|Z|121; Zul'Drak|N|Back to Sergeant Stackhammer.|M|40.41,48.27|
 T Mopping Up|QID|12508|M|40.4,48.2|Z|121; Zul'Drak|N|From Corporal Maga.|
 A Lab Work|QID|12557|Z|121; Zul'Drak|N|Inside the building at Heb'Valok.|M|35.08,52.09|
-C Lab Work|QID|12557|Z|121; Zul'Drak|N|Find the items on or around the shelves in the 2 rooms.|
+C Lab Work|QID|12557|M|34.94,53.31;34.91,51.22|CC|Z|121; Zul'Drak|N|Find the items on or around the shelves in the 2 rooms.|NC|
 T Lab Work|QID|12557|M|35.0,52.1|Z|121; Zul'Drak|N|To Alchemist Finklestein.|
 A Siphoning the Spirits|QID|12799|Z|121; Zul'Drak|N|From Captain Arnath. He's at the front door.|M|35.6,52.2|
 C Siphoning the Spirits|QID|12799|Z|121; Zul'Drak|N|Head to the Pools of Zha'Jin, directly south. Kill the neutral mobs (they glow blue), don't bother with the aggressive ones.|M|36.74,61.90|
@@ -178,26 +178,26 @@ T Strange Mojo|QID|12507|M|40.5,65.6|Z|121; Zul'Drak|N|To Hexxer Ubungo.|
 A Precious Elemental Fluids|QID|12510|PRE|12507|M|40.5,65.6|Z|121; Zul'Drak|N|From Hexxer Ubungo.|
 A The Drakkari Do Not Need Water Elementals!|QID|12562|Z|121; Zul'Drak|N|From Sub-Lieutenant Jax at the Southern part of the Argent Stand next to the Leatherworking supplier.|M|40.18,68.91|
 A Something for the Pain|QID|12597|Z|121; Zul'Drak|N|Take the road southeast. From Captain Brandon.|M|48.76,78.85|
-C Something for the Pain|QID|12597|Z|121; Zul'Drak|N|Gather 5 Mature Water-Poppies.|M|44.9,79.5|S|
+C Something for the Pain|QID|12597|Z|121; Zul'Drak|N|Gather 5 Mature Water-Poppies.|M|44.9,79.5|S|NC|
 C The Drakkari Do Not Need Water Elementals!|QID|12562|Z|121; Zul'Drak|N|Kill 10 Drakkari Water Binders.|S|
-K Crazed Water Elementals|QID|12510|Z|121; Zul'Drak|N|Head West to the Drak'Sotra Fields. Kill the Elementals, you need 3 links to make a tether (You'll need 9 links total). Kill Trolls and gather plants also.|L|38323 3|M|44.74,78.99|
-N Make a tether now!!|QID|12510|Z|121; Zul'Drak|N|Make a tether. You can't loot more than 3 at a time.|U|38323|L|38324|
-K Watery Lord|QID|12510|Z|121; Zul'Drak|N|Use the tether to summon. Click this off after looting the Precious Elemental Fluid|U|38324|
-K Kill more Elementals|QID|12510|Z|121; Zul'Drak|N|Keep killing the Elementals.|L|38323 3|
-N Make another tether now!!|QID|12510|U|38323|L|38324|
-K Summon again|QID|12510|U|38324|Z|121; Zul'Drak|N|Click this off after looting the Precious Elemental Fluid|
-K Go for the last 3 Links|QID|12510|L|38323 3|
-U Make the last tether.|QID|12510|U|38323|L|38324|
-C Precious Elemental Fluids|QID|12510|Z|121; Zul'Drak|N|Last time...finally.|U|38324|M|40.2,73.6|
+K Crazed Water Elementals|ACTIVE|12510|Z|121; Zul'Drak|N|Head West to the Drak'Sotra Fields. Kill the Elementals, you need 3 links to make a tether (You'll need 9 links total). Kill Trolls and gather plants also.|L|38323 3|M|44.74,78.99|
+N Make a tether now!!|ACTIVE|12510|Z|121; Zul'Drak|N|Make a tether. You can't loot more than 3 at a time.|U|38323|L|38324|
+K Watery Lord|ACTIVE|12510|Z|121; Zul'Drak|N|Use the tether to summon. Click this off after looting the Precious Elemental Fluid|U|38324|
+K Kill more Elementals|ACTIVE|12510|Z|121; Zul'Drak|N|Keep killing the Elementals.|L|38323 3|
+N Make another tether now!!|ACTIVE|12510|U|38323|L|38324|
+K Summon again|ACTIVE|12510|U|38324|Z|121; Zul'Drak|N|Click this off after looting the Precious Elemental Fluid|
+K Go for the last 3 Links|ACTIVE|12510|L|38323 3|
+U Make the last tether.|ACTIVE|12510|U|38323|L|38324|
+C Precious Elemental Fluids|ACTIVE|12510|Z|121; Zul'Drak|N|Last time...finally.|U|38324|M|40.2,73.6|
 C The Drakkari Do Not Need Water Elementals!|QID|12562|Z|121; Zul'Drak|N|Kill any trolls you still need.|US|
-C Something for the Pain|QID|12597|Z|121; Zul'Drak|N|Gather any plants you still need.|M|44.9,79.5|US|
+C Something for the Pain|QID|12597|Z|121; Zul'Drak|N|Gather any plants you still need.|M|44.9,79.5|US|NC|
 T Something for the Pain|QID|12597|Z|121; Zul'Drak|N|Back to Captain Brandon at Drak'Sotra.|M|48.76,78.85|
 A Throwing Down|QID|12598|Z|121; Zul'Drak|N|Following the aquaduct to the South will take you to the crusader camp.|M|58.04,72.48|
 A Leave No One Behind|QID|12512|Z|121; Zul'Drak|N|To Dr.Rogers in the back, right corner.|M|58.7,72.5|
 C Throwing Down|QID|12598|Z|121; Zul'Drak|N|Throw the High Impact Grenades in the craters (they actually look like pyramids), then run. Crispy Spider Treats, not just for Hallows End anymore.|U|38574|M|53.4,68.7|
-N Crusader Jonathan|Z|121; Zul'Drak|N|In the tower at the waypoint. Bandage him and lead him back to the camp. You've got 3 minutes, but remember he's injured, avoid all combat and don't lose him on the run back.|QID|12512|QO|1|U|38330|M|50.7,69.9|
-N Crusader Josephine|Z|121; Zul'Drak|N|In the tower at waypoint. Same plan as before.|QID|12512|QO|3|U|38330|M|49.4,74.7|
-C Leave No One Behind|QID|12512|QO|2|Z|121; Zul'Drak|N|Crusader Lamoof is in the tower at waypoint. Lead him home, or at least to the doctor.|U|38330|M|53.6,75.0|
+C Crusader Jonathan|Z|121; Zul'Drak|N|In the tower at the waypoint. Bandage him and lead him back to the camp. You've got 3 minutes, but remember he's injured, avoid all combat and don't lose him on the run back.|QID|12512|QO|1|U|38330|M|50.7,69.9;58.7,72.5|CS|
+C Crusader Josephine|Z|121; Zul'Drak|N|In the tower at waypoint. Same plan as before.|QID|12512|QO|3|U|38330|M|49.4,74.7;58.7,72.5|CS|
+C Crusader Lamoof|QID|12512|QO|2|Z|121; Zul'Drak|N|Crusader Lamoof is in the tower at waypoint. Lead him home, or at least to the doctor.|U|38330|M|53.6,75.0;58.7,72.5|CS|
 T Leave No One Behind|QID|12512|M|58.7,72.5|Z|121; Zul'Drak|N|To Dr. Rogers.|
 T Throwing Down|QID|12598|M|58.1,72.4|Z|121; Zul'Drak|N|To Captain Rupert.|
 A Cocooned!|QID|12606|PRE|12598|M|58.1,72.4|Z|121; Zul'Drak|N|From Captain Rupert.|
@@ -205,19 +205,19 @@ A Death to the Necromagi|QID|12552|PRE|12598|M|58.1,72.0|Z|121; Zul'Drak|N|From 
 A Skimmer Spinnerets|QID|12553|PRE|12598|M|58.3,72.0|Z|121; Zul'Drak|N|From Specialist Cogwheel.|
 C Cocooned!|QID|12606|Z|121; Zul'Drak|N|Back where you blew up the craters, attack the coccons until you free 3 Footmen. Not always a Footman.|M|54.88,70.00|
 C Death to the Necromagi|QID|12552|Z|121; Zul'Drak|N|Kill 8 Hath'ar Necromagi (the large spiders).|S|
-C Skimmer Spinnerets|QID|12553|Z|121; Zul'Drak|N|Kill and loot Hath'ar Skimmers until you get 5 Intact Skimmers Spinnerets.|M|57.48,79.90|
-C Death to the Necromagi|QID|12552|Z|121; Zul'Drak|N|Need any more big spiders? Get them now. Usually 3-4 inside the fallen Necropolis.|US|
+l Skimmer Spinnerets|ACTIVE|12553|QO|1|Z|121; Zul'Drak|N|Kill and loot Hath'ar Skimmers until you get 5 Intact Skimmers Spinnerets.|M|57.48,79.90|
+C Death to the Necromagi|QID|12552|M|60.20,79.17|Z|121; Zul'Drak|N|Need any more big spiders? Get them now. Usually 3-4 inside the fallen Necropolis.|US|
 T Cocooned!|QID|12606|Z|121; Zul'Drak|N|Back to the camp. To Captain Rupert.|M|58.04,72.48|
 T Death to the Necromagi|QID|12552|M|58.1,72.0|Z|121; Zul'Drak|N|To Sergeant Moonshard.|
 A Malas the Corrupter|QID|12554|PRE|12552|Z|121; Zul'Drak|N|From Sergeant Moonshard.|M|58.1,72.0|
 A Pure Evil|QID|12584|PRE|12552|M|58.1,72.4|Z|121; Zul'Drak|N|From Captain Rupert.|
 T Skimmer Spinnerets|QID|12553|M|58.3,72.0|Z|121; Zul'Drak|N|To Specialist Cogwheel.|
 A Crashed Sprayer|QID|12583|PRE|12553|M|58.3,72.0|Z|121; Zul'Drak|N|From Specialist Cogwheel.|
-C Crashed Sprayer|QID|12583|Z|121; Zul'Drak|N|Over near Crusader Josephine's tower .|M|48.80,75.56|
+C Crashed Sprayer|QID|12583|Z|121; Zul'Drak|N|Over near Crusader Josephine's tower.|M|48.80,75.56|NC|
 T Crashed Sprayer|QID|12583|M|58.28,72.05|Z|121; Zul'Drak|N|Run back to the camp and turn in to Specialist Cogwheel.|
 A A Tangled Skein|QID|12555|PRE|12583|M|58.3,72.0|Z|121; Zul'Drak|N|From Specialist Cogwheel.|
 C A Tangled Skein|QID|12555|Z|121; Zul'Drak|N|Oh! What a tangled skein we weave. Use the it on the plague sprayers.|U|38515|M|58.3,74.3|T|Plague Sprayer|
-C Pure Evil|QID|12584|Z|121; Zul'Drak|N|Inside Kolramas. Little, glowing chunks of ore that are hard to see. Look in all the nooks and crannies.|M|60.15,79.31|
+C Pure Evil|QID|12584|Z|121; Zul'Drak|N|Inside Kolramas. Little, glowing chunks of ore that are hard to see. Look in all the nooks and crannies.|M|60.15,79.31|NC|
 C Malas the Corrupter|QID|12554|Z|121; Zul'Drak|N|Malas is at the top of the Kolramas necropolis.|M|60.80,80.32|
 T A Tangled Skein|QID|12555|Z|121; Zul'Drak|N|Back to the camp. To Specialist Cogwheel.|M|58.04,72.48|
 T Malas the Corrupter|QID|12554|Z|121; Zul'Drak|N|To Sergeant Moonshard.|M|58.1,72.0|
@@ -228,11 +228,12 @@ A Mushroom Mixer|QID|12514|PRE|12510|M|40.5,65.6|Z|121; Zul'Drak|N|From Hexxer U
 A Gluttonous Lurkers|QID|12527|PRE|12510|Z|121; Zul'Drak|N|From Apprentive Pestlepot.|M|41.3,65.1|
 f The Argent Stand|QID|12599|Z|121; Zul'Drak|N|From Gurrik.|M|41.55,64.42|
 A Creature Comforts|QID|12599|Z|121; Zul'Drak|N|Go West to Drak'Agal. From Captain Grondel, he's in a building south of the Amphitheater of Anguish.|M|48.13,63.83|
-C Mushroom Mixer|QID|12514|Z|121; Zul'Drak|N|All over the area, you need 10. Herbalists can use their tracking to make it easier.|M|41.4,57.4|S|
-C Creature Comforts|QID|12599|Z|121; Zul'Drak|N|They are all over too, but can be hard to see. They look like a big thorn sticking up. Mouse over the area to find them.|M|46.9,61.4|S|
-C Gluttonous Lurkers|QID|12527|Z|121; Zul'Drak|N|Loot 5 rats, they can be hard to see. After you get 5, feed all of them to one basilisk. You throw one at a time. If you can Root them this is alot easier. Repeat until you get 5 crystals.|U|38380|M|41.4,57.4|
-C Mushroom Mixer|QID|12514|Z|121; Zul'Drak|N|All over the area, you need 10. Herbalists can use their tracking to make it easier.|M|41.4,57.4|US|
-C Creature Comforts|QID|12599|Z|121; Zul'Drak|N|They are all over too, but can be hard to see. They look like a big thorn sticking up. Mouse over the area to find them.|M|46.9,61.4|US|
+C Mushroom Mixer|QID|12514|Z|121; Zul'Drak|N|All over the area, you need 10. Herbalists can use their tracking to make it easier.|M|41.4,57.4|S|NC|
+C Creature Comforts|QID|12599|Z|121; Zul'Drak|N|They are all over too, but can be hard to see. They look like a big thorn sticking up. Mouse over the area to find them.|M|46.9,61.4|S|NC|
+l Zul'Drak Rat|ACTIVE|12527|M|41.4,57.4|Z|121; Zul'Drak|L|38380 25|N|Loot 25 rats, they can be hard to see.|
+C Gluttonous Lurkers|QID|12527|Z|121; Zul'Drak|M|41.4,57.4|N|After you get 25, feed all of them to one basilisk. You throw one at a time. If you can Root them this is alot easier. Repeat until you get 5 crystals.|U|38380|
+C Mushroom Mixer|QID|12514|Z|121; Zul'Drak|N|All over the area, you need 10. Herbalists can use their tracking to make it easier.|M|41.4,57.4|US|NC|
+C Creature Comforts|QID|12599|Z|121; Zul'Drak|N|They are all over too, but can be hard to see. They look like a big thorn sticking up. Mouse over the area to find them.|M|46.9,61.4|US|NC|
 T Creature Comforts|QID|12599|Z|121; Zul'Drak|N|To Captain Grondel.|M|48.13,63.83|
 T Mushroom Mixer|QID|12514|Z|121; Zul'Drak|N|To Hexxer Ubungo.|M|40.61,65.59|
 A Too Much of a Good Thing|QID|12516|PRE|12514|M|40.5,65.6|Z|121; Zul'Drak|N|From Hexxer Ubungo.|
@@ -241,30 +242,28 @@ C Too Much of a Good Thing|QID|12516|Z|121; Zul'Drak|N|Head back North to the Al
 T Gluttonous Lurkers|QID|12527|Z|121; Zul'Drak|N|Inside the building at Heb'Valok, again. To Alchemist Finklestein.|M|35.08,52.09|
 T Too Much of a Good Thing|QID|12516|Z|121; Zul'Drak|N|From Hexxer Ubungo.|M|40.61,65.59|
 A To the Witch Doctor|QID|12623|PRE|12516|M|40.5,65.6|Z|121; Zul'Drak|N|From Hexxer Ubungo.|
-N End of the Argent Stand Quests.|QID|12623|
 T To the Witch Doctor|QID|12623|Z|121; Zul'Drak|N|Go up the stairs next to the Amphitheater of Anguish. Zim'Torga is just ahead on your right. To Witch Doctor Khufu.|M|59.52,57.98|
 A Breaking Through Jin'Alai|QID|12627|PRE|12623|M|59.5,58.1|Z|121; Zul'Drak|N|From Witch Doctor Khufu.|
 A The Blessing of Zim'Torga|QID|12615|M|59.5,58.1|Z|121; Zul'Drak|N|From Witch Doctor Khufu.|
 T The Blessing of Zim'Torga|QID|12615|Z|121; Zul'Drak|N|Big statue in the middle.|M|59.4,57.2|
 A The Leaders at Jin'Alai|QID|12622|M|59.2,56.2|Z|121; Zul'Drak|N|From Scalper Ahunae.|
 C The Leaders at Jin'Alai|QID|12622|Z|121; Zul'Drak|N|Kill Trolls, you must kill trolls to get the bosses to spawn (Also check to see if one is up). Pay attention to you chat log, when the "bosses" yell, find him by his Totem. The items can be looted by everyone, so don't worry if someone else tags the mob first. Just don't forget to loot, they spawn in order, so it could be awhile if you miss one.|S|
-C Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|Just South, Click on the Purple cauldron.|M|57.62,61.72|QO|3|
-C Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|Click on the Red cauldron.|M|58.78,62.71|QO|4|
-C Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|Click on the Blue cauldron.|M|57.20,65.34|QO|1|
-C Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|Click on the Green cauldron.|M|55.70,64.31|QO|2|
+C Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|Just South, Click on the Purple cauldron.|M|57.62,61.72|QO|3|NC|
+C Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|Click on the Red cauldron.|M|58.78,62.71|QO|4|NC|
+C Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|Click on the Blue cauldron.|M|57.20,65.34|QO|1|NC|
+C Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|Click on the Green cauldron.|M|55.70,64.31|QO|2|NC|
 C The Leaders at Jin'Alai|QID|12622|Z|121; Zul'Drak|N|Kill Trolls, you must kill trolls to get the bosses to spawn (Also check to see if one is up). Pay attention to you chat log, when the "bosses" yell, find him by his Totem. The items can be looted by everyone, so don't worry if someone else tags the mob first. Just don't forget to loot, they spawn in order, so it could be awhile if you miss one.|US|
 T Breaking Through Jin'Alai|QID|12627|Z|121; Zul'Drak|N|To Witch Doctor Khufu.|M|59.51,57.99|
 A To Speak With Har'koa|QID|12628|PRE|12627|M|59.5,58.1|Z|121; Zul'Drak|N|From Witch Doctor Khufu.|
 A Relics of the Snow Leopard Goddess|QID|12635|PRE|12627|M|60.0,57.9|Z|121; Zul'Drak|N|From Chronicler To'kini.|
-; The quest "Just Checkin'" on the following line is missing the ' after "Checkin" (it should read " Just Checkin'' ")so it does not auto-accept, since it is optional.|
-A Just Checkin'|QID|29836|ACTIVE|-29833|M|60.0,57.9|Z|121; Zul'Drak|N|From Chronicler To'kini. This quest takes you into Gundrak, you can do this if you wish. There is another quest that leads you into Gundrak later in the guide.|RANK|3|
+A Just Checkin'|QID|29836|ACTIVE|-29833|M|60.0,57.9|Z|121; Zul'Drak|N|From Chronicler To'kini. This quest takes you into Gundrak, you can do this if you wish. There is another quest that leads you into Gundrak later in the guide.|RANK|3|DUNGEON|
 f Zim'Torga|QID|12622|M|60.02,56.74|Z|121; Zul'Drak|N|Get the flightpoint from Maaka.|
 T The Leaders at Jin'Alai|QID|12622|M|59.2,56.2|Z|121; Zul'Drak|N|To Scalper Ahunae.|
 T To Speak With Har'koa|QID|12628|Z|121; Zul'Drak|N|Head to the Altar of Har'koa to the SE. To Har'koa.|M|63.73,70.44|
 A But First My Offspring|QID|12632|PRE|12628|M|63.8,70.5|Z|121; Zul'Drak|N|From Har'koa.|
-C Relics of the Snow Leopard Goddess|QID|12635|Z|121; Zul'Drak|N|Pick up 10 Har'koan Relics.|M|62.9,70.6|S|
+C Relics of the Snow Leopard Goddess|QID|12635|Z|121; Zul'Drak|N|Pick up 10 Har'koan Relics.|M|62.9,70.6|S|NC|
 C But First My Offspring|QID|12632|Z|121; Zul'Drak|N|Kill Har'koa's Offspring and use the whisker to release their spirits. Collect Relics when you see them. They blend in to the stonework.|U|38676|M|62.9,70.6|
-C Relics of the Snow Leopard Goddess|QID|12635|Z|121; Zul'Drak|N|Get the rest of the Relics.|M|62.9,70.6|US|
+C Relics of the Snow Leopard Goddess|QID|12635|Z|121; Zul'Drak|N|Get the rest of the Relics.|M|62.9,70.6|US|NC|
 T But First My Offspring|QID|12632|M|63.8,70.5|Z|121; Zul'Drak|N|To Har'koa.|
 A Spirit of Rhunok|QID|12642|PRE|12632|M|63.8,70.5|Z|121; Zul'Drak|N|From Har'koa.|
 T Relics of the Snow Leopard Goddess|QID|12635|Z|121; Zul'Drak|N|To Chronicler To'kini.|M|59.51,57.99|
@@ -304,7 +303,7 @@ A Seek the Wind Serpent Goddess|QID|12667|PRE|12666|M|63.8,70.5|Z|121; Zul'Drak|
 C Tails Up|QID|13549|Z|121; Zul'Drak|N|Shoot the bears and leopards with the blowgun, can not be in combat. Go up to them can check them. Males will attack, you will automatically keep the females.|U|44890|M|74.56,68.45|
 T Seek the Wind Serpent Goddess|QID|12667|Z|121; Zul'Drak|N|To Quetz'lun's Spirit at the Altar of Quetz'lun. The place you rode the cat to.|M|75.38,58.65|
 A Setting the Stage|QID|12672|PRE|12667|M|75.4,58.6|Z|121; Zul'Drak|N|From Quetz'lun's Spirit.|
-C Setting the Stage|QID|12672|Z|121; Zul'Drak|N|Loot the crystals. They are floating all over the place.|M|74.6,59.8|
+C Setting the Stage|QID|12672|Z|121; Zul'Drak|N|Loot the crystals. They are floating all over the place.|M|74.6,59.8|NC|
 T Setting the Stage|QID|12672|M|75.4,58.6|Z|121; Zul'Drak|N|To Quetz'lun's Spirit.|
 A Foundation for Revenge|QID|12668|PRE|12672|M|75.4,58.6|Z|121; Zul'Drak|N|From Quetz'lun's Spirit.|
 C Foundation for Revenge|QID|12668|Z|121; Zul'Drak|N|The Soul Fonts look like big dragon heads. There are a lot of them around. Kill trolls near them. You have to be pretty close, they need to have the 'Soul Font Void' debuff on them or it doesn't count.|
@@ -329,17 +328,17 @@ T Bringing Down Heb'Jin|QID|12662|M|59.4,56.4|Z|121; Zul'Drak|N|To Element-Tamer
 A Enchanted Tiki Warriors|QID|12708|PRE|12662&12685|M|59.4,56.4|Z|121; Zul'Drak|N|From Element-Tamer Dagoda.|
 T Scalps!|QID|12659|M|59.2,56.2|Z|121; Zul'Drak|N|To Scalper Ahunae.|
 A Wooly Justice|QID|12707|PRE|12685|M|59.2,56.2|Z|121; Zul'Drak|N|From Scalper Ahunae.|
-A The Key of Warlord Zol'Maz|QID|12712|PRE|12685|M|60.3,57.8|Z|121; Zul'Drak|N|From Har'koa.|
+A The Key of Warlord Zol'Maz|QID|12712|PRE|12685|M|60.3,57.8|Z|121; Zul'Drak|N|From Har'koa. If he isnt there, relog.|
 T Tails Up|QID|13549|M|60.0,57.9|Z|121; Zul'Drak|N|From Chronicler To'kini.|
 A Hexed Caches|QID|12709|PRE|12685&13549|M|60.0,57.9|Z|121; Zul'Drak|N|From Chronicler To'kini.|
-C Hexed Caches|QID|12709|Z|121; Zul'Drak|N|Loot the Hexed Caches you see. There is a good chance you will get cursed, the Tiki Warriors can drop items that cure the curses if you aren't a class that can do that.|U|39305|M|69.2,35.9|S|
+C Hexed Caches|QID|12709|Z|121; Zul'Drak|N|Loot the Hexed Caches you see. There is a good chance you will get cursed, the Tiki Warriors can drop items that cure the curses if you aren't a class that can do that.|U|39305|M|69.2,35.9|S|NC|
 C Enchanted Tiki Warriors|QID|12708|Z|121; Zul'Drak|N|Kill 12 Enchanted Tiki Warriors.|M|69.2,35.9|S|
 K Tiri|QID|12712|Z|121; Zul'Drak|N|In the buliding, kill and loot Tiri for her Incantation.|M|63.75,37.11|L|39316|
 K Drek'Maz|QID|12712|Z|121; Zul'Drak|N|In the building, kill and loot Drek' Maz for Drek'Maz's Tiki.|M|68.23,35.29|L|39315|
 K Yara|QID|12712|Z|121; Zul'Drak|N|In the building, finally kill Yara to get Yara's Sword.|M|67.94,32.92|L|39313|
 U Combine Items|QID|12712|Z|121; Zul'Drak|N|Combine the items to make the Tiki Dervish Ceremony.|U|39315|L|39314|
 C The Key of Warlord Zol'Maz|QID|12712|Z|121; Zul'Drak|N|Warlord Zol'Maz is in the big building. Use the item to open the gate, and kill him. If he dies inside the room, make sure you are in there with him, the gate won't open from the outside (if you're inside and he's outside there is a lever). You'll have to kill the 3 Trolls and make the item again.|U|39314|M|66.15,33.06|
-C Hexed Caches|QID|12709|Z|121; Zul'Drak|N|Finish gathering caches.|U|39305|M|69.2,35.9|US|
+C Hexed Caches|QID|12709|Z|121; Zul'Drak|N|Finish gathering caches.|U|39305|M|69.2,35.9|US|NC|
 C Enchanted Tiki Warriors|QID|12708|Z|121; Zul'Drak|N|Finish killing Tiki Warriors.|M|69.2,35.9|US|
 C Wooly Justice|QID|12707|Z|121; Zul'Drak|N|Tame a mammoth, mount up, and trample Trolls! Troll pancakes......yummy.|U|39268|M|72.95,41.79|
 T Wooly Justice|QID|12707|Z|121; Zul'Drak|N|To Scalper Ahunae.|M|59.16,56.26|
@@ -362,7 +361,7 @@ A Convocation at Zol'Heb|QID|12730|PRE|12729|Z|121; Zul'Drak|N|From Har'koa.|
 C Convocation at Zol'Heb|QID|12730|Z|121; Zul'Drak|N|Use the item in the circle to summon the Prophet. After you get him to about 75% health, Har'koa will show up to help. The Prophet has an evil AoE, but Har'koa can remove it so stay close to her. If you die just run back and try to pick a good time to rez. He may kill Har'koa, so be prepared to finish him off, if necessary.|U|39566|M|77.55,36.67|
 T Convocation at Zol'Heb|QID|12730|Z|121; Zul'Drak|N|Back to Har'koa.|M|60.13,57.72|
 ; [Unfinished Business] is a mutually exclusive bread-crumb quest with [Just Checkin']
-A Unfinished Business|QID|29833|ACTIVE|-29836|Z|121; Zul'Drak|N|From Har'koa. This quest is optional as it leads into Gundrak|RANK|3|
+A Unfinished Business|QID|29833|ACTIVE|-29836|Z|121; Zul'Drak|N|From Har'koa. This quest is optional as it leads into Gundrak|RANK|3|DUNGEON|
 N Amphitheater of Anguish|QID|12948|Z|121; Zul'Drak|N|If you haven't gotten the achievement yet (and you know you want it), get a group up for the Amphitheater of Anguish.|
 t The Champion's Call!|QID|12974|Z|121; Zul'Drak|N|To Gurgthock.|M|48.43,56.35|
 ; Grail has a  P:X9977 tag for 12932, and I dunno what it means.

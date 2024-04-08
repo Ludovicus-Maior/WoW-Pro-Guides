@@ -37,6 +37,49 @@ C Raise the Alarm|QID|75923|M|52.89,46.51|Z|2112;Valdrakken|QO|3|NC|N|Use the Dr
 C Raise the Alarm|QID|75923|M|53.08,46.58|Z|2112;Valdrakken|QO|4|NC|N|Follow guards to the lower ledge.|
 C Raise the Alarm|QID|75923|M|54.62,47.40|Z|2112;Valdrakken|QO|5|CHAT|N|Ask Captain Drine what's going on.|
 T Raise the Alarm|QID|75923|M|53.95,46.34|Z|2112;Valdrakken|N|To Captain Drine.|
+N Misty Vale questline|QID|70879|N|If you haven't yet done the Misty Vale questline with Captain Drine, (starts with Choas and Commotion and is in Thaldruzus guide) you need to finish it to continue the questline.|ACH|16398;8|
+A Cause Without a Rebel|QID|72411|PRE|75923&70879|M|53.95,46.34|Z|2112;Valdrakken|N|From Captain Drine. He may be at the top of the Seat of the Aspects if you didnt just finish "Raise the Alarm".|
+C Cause Without a Rebel|QID|72411|M|55.50,33.55|Z|2112;Valdrakken|QO|2|NC|N|If you are on top of the Seat of the Aspects, use the teleporter, to get to the ground floor, then go up past the teleporter and to the left to join Maldra and Alexstrasza.|
+C Cause Without a Rebel|QID|72411|M|55.36,33.97|Z|2112;Valdrakken|QO|3|CHAT|N|Tell Maldra you are there to help.|
+T Cause Without a Rebel|QID|72411|M|55.76,33.66|Z|2112;Valdrakken|N|To Investigator Erima.|
+A Explosive Interruption|QID|72412|PRE|72411|M|55.76,33.66|Z|2112;Valdrakken|N|From Investigator Erima.|
+T Explosive Interruption|QID|72412|M|46.42,50.87|Z|2025;Thaldraszus|N|Go back up to the Seat of the Aspects and fly to Scalewatch Caverns to find Investigator Erima.|
+A Irreconcilable Differences|QID|72413|PRE|72412|M|46.42,50.87|Z|2025;Thaldraszus|N|From Investigator Erima.|
+A Know Prisoners!|QID|72414|PRE|72412|M|46.37,50.74|Z|2025;Thaldraszus|N|From Maldra Flametongue.|
+A Rebel Rousing Writings|QID|72415|PRE|72412|M|46.37,50.74|Z|2025;Thaldraszus|N|From Maldra Flametongue.|
+C Know Prisoners!|QID|72414|M|44.57,51.23|Z|2025;Thaldraszus|NC|U|202855|N|Use the provided item to capture the rebels. FYI it doesn't always work.|S!US|
+C Rebel Rousing Writings|QID|72415|M|43.75,50.73|Z|2025;Thaldraszus|H|N|Collect the Propaganda from the cave walls.|S|
+C Irreconcilable Differences|QID|72413|M|44.15,52.48|Z|2025;Thaldraszus|N|Kill and loot Agitator Zoralek.|
+C Rebel Rousing Writings|QID|72415|M|43.75,50.73|Z|2025;Thaldraszus|H|N|Finish collecting propaganda.|US|
+T Irreconcilable Differences|QID|72413|M|46.41,50.86|Z|2025;Thaldraszus|N|To Investigator Erima.|
+T Know Prisoners!|QID|72414|M|46.36,50.69|Z|2025;Thaldraszus|N|To Maldra Flametongue.|
+T Rebel Rousing Writings|QID|72415|M|46.36,50.69|Z|2025;Thaldraszus|N|To Maldra Flametongue.|
+A Temporary Accommodations|QID|72416|PRE|72414&72415&72413|M|46.35,50.75|Z|2025;Thaldraszus|N|From Maldra Flametongue.|
+T Temporary Accommodations|QID|72416|M|38.89,52.57|Z|2025;Thaldraszus|N|To Alexstrasza the Life-Binder.|
+A Persistent Dissidents|QID|72417|PRE|72416|M|38.89,52.57|Z|2025;Thaldraszus|N|From Alexstrasza the Life-Binder.|
+C Persistent Dissidents|QID|72417|M|37.78,50.50|Z|2025;Thaldraszus|QO|1|CHAT|N|Ask the Rebels why they rebelled.|
+C Persistent Dissidents|QID|72417|M|38.81,52.59|Z|2025;Thaldraszus|QO|2|NC|N|Return to Captain Drine.|
+T Persistent Dissidents|QID|72417|M|38.83,52.61|Z|2025;Thaldraszus|N|To Alexstrasza the Life-Binder.|
+A Solicited Opinions|QID|72418|PRE|72417|M|38.83,52.61|Z|2025;Thaldraszus|N|From Alexstrasza the Life-Binder.|
+C Solicited Opinions|QID|72418|M|38.81,52.60|Z|2025;Thaldraszus|CHAT|N|Share your perspective with Alexstrasza.|
+T Solicited Opinions|QID|72418|M|38.81,52.60|Z|2025;Thaldraszus|N|To Alexstrasza the Life-Binder.|
+A Cleaning up the Cliffraff|QID|72419|PRE|72418|M|38.85,52.68|Z|2025;Thaldraszus|N|From Captain Drine.|
+T Cleaning up the Cliffraff|QID|72419|M|46.40,55.92|Z|2025;Thaldraszus|N|To Investigator Erima.|
+A Wreckonciliation|QID|72420|PRE|72419|M|46.40,55.92|Z|2025;Thaldraszus|N|From Investigator Erima.|
+A The Quill to Power|QID|72421|PRE|72419|M|46.51,55.81|Z|2025;Thaldraszus|N|From Maldra Flametongue.|
+A Stop the Presses|QID|72422|PRE|72419|M|46.51,55.81|Z|2025;Thaldraszus|N|From Maldra Flametongue.|
+C The Quill to Power|QID|72421|M|45.42,55.95|Z|2025;Thaldraszus|H|N|Interact with the Quills to apprehend.|S|
+C Wreckonciliation|QID|72420|M|45.20,55.36|Z|2025;Thaldraszus|NC|U|203383|N|Use the provided notes to inform the rebels of coming changes. Some are more receptive than others.|S|
+C Stop the Presses|QID|72422|M|44.13,55.52|Z|2025;Thaldraszus|QO|1|U|203390|N|Weaken Belaphon below 50%, then use Maldra's ring on him.|T|Belaphon|
+C Wreckonciliation|QID|72420|M|45.20,55.36|Z|2025;Thaldraszus|NC|U|203383|N|Continue informing rebels informed of the coming changes.|US|
+C The Quill to Power|QID|72421|M|45.42,55.95|Z|2025;Thaldraszus|H|N|Finsh apprehending the Quills.|US|
+T Wreckonciliation|QID|72420|M|46.41,55.92|Z|2025;Thaldraszus|N|To Investigator Erima.|
+T The Quill to Power|QID|72421|M|46.49,55.84|Z|2025;Thaldraszus|N|To Maldra Flametongue.|
+T Stop the Presses|QID|72422|M|76.77,33.54|Z|2112;Valdrakken|N|To Alexstrasza the Life-Binder.|
+A Reconcilable Dissidents|QID|75230|PRE|72420&72421&72422|M|76.77,33.54|Z|2112;Valdrakken|N|From Alexstrasza the Life-Binder.|
+C Reconcilable Dissidents|QID|75230|M|76.77,33.54|Z|2112;Valdrakken|CHAT|N|Ask Alexstrasza what happens now.|
+T Reconcilable Dissidents|QID|75230|M|76.77,33.54|Z|2112;Valdrakken|N|To Alexstrasza the Life-Binder.|
 N Click the book to take you to the Emerald Dream guide.|JUMP|Call of the Dream|
 ]]
 end)
+
