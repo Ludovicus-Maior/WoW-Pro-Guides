@@ -153,36 +153,42 @@ A Incriminating Documents|QID|8482|M|PLAYER|CC|N|From the Incriminating Document
 C Arcane Instability|QID|8486|M|36.27,57.70|QO|1;2|N|Finish killing the Manawraiths and Mana Stalkers located around the West Sanctum.|US|
 T Darnassian Intrusions|QID|9352|M|36.70,57.44|Z|Eversong Woods|N|To Ley-Keeper Velania.|
 T Arcane Instability|QID|8486|M|36.70,57.44|Z|Eversong Woods|N|To Ley-Keeper Velania.|
-A Fish Heads, Fish Heads...|QID|8884|N|From Hathvelion Sungaze. Go around the northside of the mountain.|Z|Eversong Woods|M|31.49,53.78;30.20,58.37|CC|
-C Fish Heads, Fish Heads...|QID|8884|N|Kill murlocs for the 8 fish heads.|Z|Eversong Woods|M|27,59.5|
-l Captain Kelisendra's Lost Rutters|QID|8887|L|21776|N|Keep killing murlocs until one of them drops Captain Kelisendra's Lost Rutters.|Z|Eversong Woods|M|27,59.5|
-A Captain Kelisendra's Lost Rutters|QID|8887|U|21776|N|From Captain Kelisendra's Lost Rutters.|
-T Fish Heads, Fish Heads...|QID|8884|N|To Hathvelion Sungaze.|Z|Eversong Woods|M|29.89,58.52|
-A The Ring of Mmmrrrggglll|QID|8885|PRE|8884|N|From Hathvelion Sungaze.|Z|Eversong Woods|M|29.89,58.52|
-H Falconwing Square|QID|8482|N|Hearth to Falconwing Square.|
+A Fish Heads, Fish Heads...|QID|8884|M|30.21,58.39|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum, or go north around the mountain.|
+C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|L|21757 8|ITEM|21757|N|Grimscale Murlocs around Golden Strand and Tranquil Shore.|S|
+l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|L|21776|ITEM|21776|N|Grimscale Murlocs around Golden Strand and Tranquil Shore.|RANK|3|S|IZ|3460; Golden Strand^3911; Tranquil Shore|
+A Captain Kelisendra's Lost Rutters|QID|8887|M|PLAYER|N|From Captain Kelisendra's Lost Rutters you just picked up.|U|21776|O|
+C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|L|21757 8|ITEM|21757|N|Grimscale Murlocs around Golden Strand and Tranquil Shore.|US|
+T Fish Heads, Fish Heads...|QID|8884|M|30.21,58.39|N|To Hathvelion Sungaze.|
+A The Ring of Mmmrrrggglll|QID|8885|M|30.21,58.39|N|From Hathvelion Sungaze.|PRE|8884|
+R Falconwing Square|ACTIVE|8482|M|46.55,48.92|N|Head back towards Falconwing Square.|LVL|6;-675|S!US|
+L Level 7|ACTIVE|8482|N|Grind until you're within 4 bubbles of level 7.|LVL|6;-675|
+H Falconwing Square|QID|8482|M|46.55,48.92|N|Hearth back to Falconwing Square.|
 T Incriminating Documents|QID|8482|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
-A The Dwarven Spy|QID|8483|PRE|8482|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
-C The Dwarven Spy|QID|8483|L|20764|CHAT|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|Z|Eversong Woods|M|44.60,53.30|
-A Roadside Ambush|QID|9035|LEAD|9062|N|From Apprentice Ralen.|Z|Eversong Woods|M|45.2,56.4|
-T Roadside Ambush|QID|9035|N|To Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
-A Soaked Pages|QID|9062|N|From Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
-C Soaked Pages|QID|9062|L|22414|N|Dive under the bridge just in front of you, the Soaked Pages are in the river.|Z|Eversong Woods|M|44.40,61.90|NC|
-T Soaked Pages|QID|9062|N|To Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
-A Taking the Fall|QID|9064|PRE|9062|N|From Apprentice Meledor.|Z|Eversong Woods|M|44.9,61.0|
-T Taking the Fall|QID|9064|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
-A Swift Discipline|QID|9066|PRE|9064|N|From Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
-A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|55.7,54.5|
+A The Dwarven Spy|QID|8483^8896|PRE|8482|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
+= Level 7 Training|ACTIVE|8483^8896|M|PLAYER|CC|N|Do your level 7 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|7|IZ|Falconwing Square|
+C The Dwarven Spy|QID|8483^8896|L|20764|ITEM|20764|N|Prospector Anvilward.\n[color=FF0000]NOTE: [/color]Make sure your health/mana is full and you're buffed before you talk to him because after walking to the top of North Sanctum, he will attack you.|Z|Eversong Woods|M|44.60,53.30|
+A Roadside Ambush|QID|9035|LEAD|9062|N|From Apprentice Ralen.|Z|Eversong Woods|M|45.19,56.43|
+T Roadside Ambush|QID|9035|N|To Apprentice Meledor.|Z|Eversong Woods|M|44.88,61.03|
+A Soaked Pages|QID|9062|N|From Apprentice Meledor.|Z|Eversong Woods|M|44.88,61.03|
+C Soaked Pages|QID|9062|L|22414|N|Dive under the bridge just in front of you and locate the Soaked Pages in the river.|Z|Eversong Woods|M|44.34,61.99|NC|
+T Soaked Pages|QID|9062|N|To Apprentice Meledor.|Z|Eversong Woods|M|44.88,61.03|
+A Taking the Fall|QID|9064|PRE|9062|N|From Apprentice Meledor.|Z|Eversong Woods|M|44.88,61.03|
+R The Dead Scar|ACTIVE|9064|M|49.11,55.87|Z|Eversong Woods|N|Follow the road north to the bend and continue east.|
+R Stillwhisper Pond|ACTIVE|9064|M|53.86,54.10|Z|Eversong Woods|N|Continue east to the other side and Stillwhisper Pond is just to the south of the road.|
+A Swift Discipline|QID|9066|PRE|9064|N|From Instructor Antheol.|Z|Eversong Woods|M|55.70,54.51|
+A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|55.70,54.51|
 C Fetch!|QID|9402|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|Z|Eversong Woods|M|54.87,56.38|
-T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|55.7,54.5|
-A The Dead Scar|QID|8475|N|From Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
-C Swift Discipline - Apprentice Ralen|QID|9066|QO|2|U|22473|NC|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|Z|Eversong Woods|M|45.20,56.40|T|Apprentice Ralen|
-C Swift Discipline - Apprentice Meledor|QID|9066|QO|1|U|22473|NC|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|Z|Eversong Woods|M|44.9,61.0|T|Apprentice Meledor|
-C The Dead Scar|QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. \n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an on-level player to survive.|Z|Eversong Woods|M|51.2,56.3|
+T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|55.70,54.51|
+A The Dead Scar|QID|8475|N|From Ranger Jaela.|Z|Eversong Woods|M|50.34,50.76|
+C The Dead Scar|QID|8475|M|50.28,57.12|QO|1|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|S|
+C Swift Discipline - Apprentice Ralen|QID|9066|QO|2|U|22473|NC|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|Z|Eversong Woods|M|45.19,56.43|T|Apprentice Ralen|
+C Swift Discipline - Apprentice Meledor|QID|9066|QO|1|U|22473|NC|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|Z|Eversong Woods|M|44.88,61.03|T|Apprentice Meledor|
+C The Dead Scar|QID|8475|M|50.28,57.12|QO|1|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|US|
 T The Dead Scar|QID|8475|N|To Ranger Jaela.|Z|Eversong Woods|M|50.3,50.8|
-T Swift Discipline|QID|9066|N|To Instructor Antheol.|Z|Eversong Woods|M|55.7,54.5|
-F Falconwing Square|QID|8483|Z|Eversong Woods|M|54.37,50.73|N|Fly to Falconwing Square.|
-T The Dwarven Spy|QID|8483|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
-A Fairbreeze Village|QID|9256|LEAD|8892|PRE|8483|N|From Aeldon Sunbrand.|
+T Swift Discipline|QID|9066|N|To Instructor Antheol.|Z|Eversong Woods|M|55.70,54.51|
+F Falconwing Square|ACTIVE|8483^8896|Z|Eversong Woods|M|54.37,50.73|N|Fly to Falconwing Square.|
+T The Dwarven Spy|QID|8483^8896|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.17,46.00|
+A Fairbreeze Village|QID|9256|LEAD|8892|PRE|8483^8896|N|From Aeldon Sunbrand.|
 f Fairbreeze Village|QID|9256|Z|Eversong Woods|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
 A Pelt Collection|QID|8491|N|From Velan Brightoak.|Z|Eversong Woods|M|44.7,69.6|
 A Saltheril's Haven|QID|9395|LEAD|9067|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|M|44.0,70.8|
@@ -244,7 +250,7 @@ A Amani Encroachment|QID|8476|N|From Lieutenant Dawnrunner.|Z|Eversong Woods|M|6
 B Buy Springpaw Appetizers|QID|9067|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|Z|Eversong Woods|M|60.40,62.46|
 A The Spearcrafter's Hammer|QID|8477|N|From Arathel Sunforge.|Z|Eversong Woods|M|59.5,62.6|
 A The Magister's Apprentice|QID|8888|LEAD|8889|N|From Magister Duskwither. Up the right ramp.|Z|Eversong Woods|M|60.3,61.4|
-A The Purest Water|QID|9403|PRE|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|55.7,54.5|
+A The Purest Water|QID|9403|PRE|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|Z|Eversong Woods|M|55.70,54.51|
 R Thuron's Livery|QID|8888|N|If you want the explorer achievement, head to Thuron's Livery.\n\nIf you don't, just click this step.|Z|Eversong Woods|M|62.00,53.00|
 T The Magister's Apprentice|QID|8888|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|Z|Eversong Woods|M|67.8,56.5|
 A Deactivating the Spire|QID|8889|N|From Apprentice Loralthalis.|Z|Eversong Woods|M|67.8,56.5|
@@ -277,7 +283,7 @@ T Amani Invasion|QID|9360|M|60.3,62.8|Z|Eversong Woods|N|To Lieutenant Dawnrunne
 A Warning Fairbreeze Village|QID|9363|PRE|9360|Z|Eversong Woods|M|60.32,62.76|N|From Lieutenant Dawnrunner.|
 T The Spearcrafter's Hammer|QID|8477|M|59.5,62.6|Z|Eversong Woods|N|To Arathel Sunforge.|
 C The Purest Water|QID|9403|M|64.21,72.66|Z|Eversong Woods|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
-T The Purest Water|QID|9403|M|55.7,54.5|Z|Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+T The Purest Water|QID|9403|M|55.70,54.51|Z|Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|QID|9255|N|Hearth to Fairbreeze Village.|
 T Research Notes|QID|9255|M|44.03,70.76|Z|Eversong Woods|N|To Magistrix Landra Dawnstrider.|
 T Warning Fairbreeze Village|QID|9363|M|43.3,70.8|Z|Eversong Woods|N|To Ranger Degolien.|
