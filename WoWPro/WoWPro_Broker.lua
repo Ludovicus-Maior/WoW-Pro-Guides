@@ -1430,6 +1430,7 @@ if step then
             local nomen = currentRow.lootsbutton:SetItemByID(item)
 
             if note ~= "" then
+                local stepAction = WoWPro.action[guideIndex]
                 if stepAction == "B" then
                     note = "Buy " .. nomen .. note
                 else
