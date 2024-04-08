@@ -1431,7 +1431,7 @@ if step then
 
             if note ~= "" then
                 if action == "B" then
-                    note = "Buy " .. nomen .. note
+                    note = "Buy " .. nomen .. " " .. note
                 else
                     note = "Kill and loot " .. note
                 end
