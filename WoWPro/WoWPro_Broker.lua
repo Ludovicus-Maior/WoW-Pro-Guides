@@ -1428,8 +1428,13 @@ if step then
         -- Loots Button --
         if item then
             local nomen = currentRow.lootsbutton:SetItemByID(item)
+
             if note ~= "" then
-                note = "Kill and loot " .. note
+                if stepAction == "B"
+                    note = "Buy " .. nomen .. note
+                else
+                    note = "Kill and loot " .. note
+                end
             else
                 note = nomen
             end
