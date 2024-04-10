@@ -7,10 +7,10 @@ return [[
 ;This step will not show if you have completed A Somber Task as part of the Eversong Woods guide
 ;as you'll be closer to quest ender, and will already be carrying the two quests.
 
-R Fairbreeze Village|QID|9144|M|44.06,70.73|Z|1941;Eversong Woods|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
-A Missing in the Ghostlands|QID|9144|LEAD|9329|M|44.06,70.73|Z|1941;Eversong Woods|N|From Magistrix Landra Dawnstrider.|
-A Runewarden Deryan|QID|9253|LEAD|8490|PRE|9252|M|46.92,71.81|Z|1941;Eversong Woods|N|From Ranger Sareyn. \n\nYou have to have done the quest Defending Fairbreeze to get this, but you'll be able to get the follow up to this regardless of whether you do it.|
-T Runewarden Deryan|QID|9253|PRE|9252|M|44.20,85.46|Z|1941;Eversong Woods|N|To Runewarden Deryan.|
+R Fairbreeze Village|AVAILABLE|9144|M|44.06,70.73|Z|1941;Eversong Woods|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|
+A Missing in the Ghostlands|QID|9144|AVAILABLE|9147|LEAD|9329^9327|M|44.06,70.73|Z|1941;Eversong Woods|N|[This quest needs to be tested for LEAD (ACTIVE?) Fallen Courier - You can get it this if you drop the quest]From Magistrix Landra Dawnstrider.|
+A Runewarden Deryan|QID|9253|PRE|9252|LEAD|8490|M|46.92,71.81|Z|1941;Eversong Woods|N|From Ranger Sareyn. \n\nYou have to have done the quest Defending Fairbreeze to get this, but you'll be able to get the follow up to this regardless of whether you do it.|
+T Runewarden Deryan|QID|9253|M|44.20,85.46|Z|1941;Eversong Woods|N|To Runewarden Deryan.|
 A Powering our Defenses|QID|8490|M|44.20,85.46|Z|1941;Eversong Woods|N|From Runewarden Deryan.|
 C Powering our Defenses|QID|8490|M|55,84|Z|1941;Eversong Woods|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|U|22693|
 T Powering our Defenses|QID|8490|M|44.20,85.46|Z|1941;Eversong Woods|N|Back to Runewarden Deryan.|
