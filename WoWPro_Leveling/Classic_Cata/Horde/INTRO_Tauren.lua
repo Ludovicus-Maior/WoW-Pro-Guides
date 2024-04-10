@@ -50,13 +50,13 @@ h Bloodhoof Village|QID|14438|M|46.85,60.38|Z|1412;Mulgore|N|At Innkeeper Kauth.
 A Poison Water|QID|20440|M|48.68,59.76|Z|1412;Mulgore|N|From Mull Thunderhorn.|R|Tauren|
 A Swoop Hunting|QID|761|M|48.71,58.82|Z|1412;Mulgore|N|From Harken Windtotem.|
 A Kyle's Gone Missing!|QID|11129|M|48.34,53.18|Z|1412;Mulgore|N|From Ahab Wheathoof.|
-C Tender Strider Meat|QID|11129|Z|1412;Mulgore|L|33009|N|Kill any Plainstrider you see, until you have a Tender Strider Meat.|S|
+C Tender Strider Meat|QID|11129|Z|1412;Mulgore|L|33009|ITEM|33009|N|any Plainstrider you see.|S|
 C Poison Water|QID|20440|Z|1412;Mulgore|N|Kill and loot any Plainstriders and Praire Wolves you see.|R|Tauren|S|
 C Swoop Hunting|QID|761|M|37.72,57.08|Z|1412;Mulgore|N|Kill any Swoops you see.|S|
 C Sharing the Land|QID|14438|M|36.1,61.4|Z|1412;Mulgore|N|Kill Gnolls around the camp and in the cave behind it.|
 C Poison Water|QID|20440|Z|1412;Mulgore|N|Finish killing and looting any Plainstriders and Praire Wolves you see.|R|Tauren|US|
 C Swoop Hunting|QID|761|M|37.72,57.08|Z|1412;Mulgore|N|Finish killing any Swoops you see.|US|
-H Bloodhoof Village|QID|14438|M|48.19,59.59|Z|1412;Mulgore|N|Hearth to Bloodhoof Village, and sell any junk you might have to Innkeeper Kauth.|
+H Bloodhoof Village|QID|14438|M|48.19,59.59|Z|1412;Mulgore|N|Hearth to Bloodhoof Village.|
 T Sharing the Land|QID|14438|M|47.60,59.58|Z|1412;Mulgore|N|To Ahmo Thunderhorn.|
 A The Restless Earth|QID|14491|PRE|14438|M|47.60,59.58|Z|1412;Mulgore|N|From Ahmo Thunderhorn.|
 A Morin Cloudstalker|QID|24459|LEAD|749|M|47.54,59.56|Z|1412;Mulgore|N|From Ahmo Thunderhorn.|
@@ -84,12 +84,12 @@ C The Venture Co.|QID|26179|M|60.92,47.07|Z|1412;Mulgore|N|Finish killing Worker
 C Mazzranache|QID|26188|QO|1|M|57.38,65.61|Z|1412;Mulgore|N|Kill Flatland Cougars you see until you get a femur.|US|
 C Thunderhorn Totem|QID|756|Z|1412;Mulgore|L|4801 6|ITEM|4801|N|Prairie Stalkers.|R|Tauren|US|
 C Thunderhorn Totem|QID|756|Z|1412;Mulgore|L|4801 6|ITEM|4802|N|Flatland Cougars.|R|Tauren|US|
-C Tender Strider Meat|QID|11129|Z|1412;Mulgore|N|Kill any Plainstrider you see, until you have a Tender Strider Meat.|L|33009 1|US|
+C Tender Strider Meat|QID|11129|Z|1412;Mulgore|L|33009|ITEM|33009|N|any Plainstrider you see.|US|
 T The Venture Co.|QID|26179|M|57.06,60.32|Z|1412;Mulgore|N|To Morin Cloudstalker.|
 T Supervisor Fizsprocket|QID|765|M|57.06,60.32|Z|1412;Mulgore|N|To Morin Cloudstalker.|
-C Dangers of the Windfury|QID|743|M|63.43,68.61|Z|1412;Mulgore|N|Kill and loot the Windfury for their Talons.|
-H Bloodhoof Village|QID|743|M|46.82,60.46|Z|1412;Mulgore|N|Hearth to Bloodhoof Village, or run back. Sell any junk you might have to Innkeeper Kauth.|
-C Kyle's Gone Missing!|QID|11129|Z|1412;Mulgore|N|While in Bloodhoof Village turning in your quests, keep a look out for Kyle the Frenzied running around. Target him and place the Tender Strider Meat on the ground.|U|33009|T|Kyle the Frenzied|S|NC|
+C Dangers of the Windfury|QID|743|M|63.43,68.61|Z|1412;Mulgore|L|4751 8|ITEM|4751|N|Windfury Harpies.|
+H Bloodhoof Village|QID|743|M|46.82,60.46|Z|1412;Mulgore|N|Hearth to Bloodhoof Village, or run back.|
+C Kyle's Gone Missing!|QID|11129|Z|1412;Mulgore|N|While in Bloodhoof Village, watch for Kyle the Frenzied running around. Target him and place the Tender Strider Meat on the ground.|U|33009|T|Kyle the Frenzied|S|NC|
 T Dangers of the Windfury|QID|743|M|47.50,61.34|Z|1412;Mulgore|N|To Ruul Eagletalon.|
 T Thunderhorn Totem|QID|756|M|48.59,59.89|Z|1412;Mulgore|N|To Mull Thunderhorn.|R|Tauren|
 A Thunderhorn Cleansing|QID|24456|PRE|756|M|48.59,59.89|Z|1412;Mulgore|N|From Mull Thunderhorn.|R|Tauren|
