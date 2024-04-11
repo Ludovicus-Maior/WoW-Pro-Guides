@@ -217,7 +217,7 @@ T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|To Skymist
 A Return to Sathiel|QID|9135|PRE|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|From Skymistress Gloaming.|R|BloodElf|
 F Fairbreeze Village|ACTIVE|9067|M|54.37,50.73|Z|1941;Eversong Woods|N|Fly to Fairbreeze Village, or just hearth.|
 T Return to Sathiel|QID|9135|M|43.70,71.56|Z|1941;Eversong Woods|N|To Sathiel.|R|BloodElf|
-R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Follow the road west until you reach his camp; just before Sunsail Anchorage.|
+R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Follow the road west until you reach her camp; just before Sunsail Anchorage.|
 T Captain Kelisendra's Lost Rutters|QID|8887|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
 A Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|From Captain Kelisendra.|
 A Lost Armaments|QID|8480|M|36.36,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
@@ -226,12 +226,13 @@ C Situation at Sunsail Anchorage|QID|8892|QO|1;2|M|32.22,70.93|Z|1941;Eversong W
 C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|Z|1941;Eversong Woods|N|You'll find the Weapon Containers in static locations all around Sunsail Anchorage.|S|IZ|3461; Sunsail Anchorage|
 K Mmmrrrggglll|ACTIVE|8885|QO|1|M|25.67,65.74;24.02,73.70|CC|Z|1941;Eversong Woods|N|Follow the water to Golden Strand. He roams the beach along Golden Strand between the two waypoints.|T|Mmmrrrggglll|
 C Grimscale Pirates!|QID|8886|M|24.9,66.8|Z|1941;Eversong Woods|L|21771 6|ITEM|21771|N|Grimscale Murlocs or pick them up from the ground.|US|
-T The Ring of Mmmrrrggglll|QID|8885|M|30.2,58.5|Z|1941;Eversong Woods|N|To Hathvelion Sungaze|
+T The Ring of Mmmrrrggglll|QID|8885|M|30.2,58.5|Z|1941;Eversong Woods|N|To Hathvelion Sungaze.|
+C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|Z|1941;Eversong Woods|N|You'll find the Weapon Containers in static locations all around Sunsail Anchorage.|US|
 T Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
 T Lost Armaments|QID|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.|
 A Wretched Ringleader|QID|9076|PRE|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
 K Aldaron|QID|9076|QO|1|M|32.70,68.4|Z|1941;Eversong Woods|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras.|
-C Situation at Sunsail Anchorage|QID|8892|Z|1941;Eversong Woods|N|Finish killing the Wretched Thugs and Hooligans.|S|
+C Situation at Sunsail Anchorage|QID|8892|QO|1;2|M|32.80,69.49|Z|1941;Eversong Woods|N|Finish killing the Wretched Thugs and Hooligans.|US|
 T Wretched Ringleader|QID|9076|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.|
 C Pelt Collection|QID|8491|M|46.00,67.00|L|20772 6|ITEM|20772|Z|1941;Eversong Woods|N|Springpaws.|US|
 T Pelt Collection|QID|8491|M|44.72,69.62|Z|1941;Eversong Woods|N|To Velan Brightoak.|
