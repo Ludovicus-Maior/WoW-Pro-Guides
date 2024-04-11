@@ -211,12 +211,12 @@ R Silvermoon City|ACTIVE|9067|M|72.37,90.93|Z|Silvermoon City|N|Run east to Silv
 R The Bazaar|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43|CC|Z|Silvermoon City|N|There's a shortcut to The Bazaar if you follow the coordinates through Wayfarer's Rest.|
 T Fly to Silvermoon City|QID|9133|M|53.92,71.03|Z|Silvermoon City|N|To Sathren Azuredawn inside General Goods on the other side of The Bazaar.|R|BloodElf|
 A Skymistress Gloaming|QID|9134|PRE|9133|M|53.92,71.03|Z|Silvermoon City|N|From Sathren Azuredawn.|R|BloodElf|
-B Suntouched Special Reserve|QID|9067|M|79.70,58.40|Z|Silvermoon City|L|22775|ITEM|22775|N|from Vinemaster Suntouched inside Silvermoon City Inn (located in Murder Row).|
-R Exit Silvermoon City|ACTIVE|9134|M|56.65,49.47|Z|1941;Eversong Woods|N|Exit Silvermoon City using The Shepherd's Gate.|
+B Suntouched Special Reserve|ACTIVE|9067|M|79.70,58.40|Z|Silvermoon City|L|22775|ITEM|22775|N|from Vinemaster Suntouched inside Silvermoon City Inn (located in Murder Row).|
+R Exit Silvermoon City|ACTIVE|9067|M|56.65,49.47|Z|1941;Eversong Woods|N|Exit Silvermoon City using The Shepherd's Gate.|
 T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|To Skymistress Gloaming.|R|BloodElf|
 A Return to Sathiel|QID|9135|PRE|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|From Skymistress Gloaming.|R|BloodElf|
 F Fairbreeze Village|ACTIVE|9067|M|54.37,50.73|Z|1941;Eversong Woods|N|Fly to Fairbreeze Village, or just hearth.|
-T Return to Sathiel|QID|9135|R|BloodElf|M|43.70,71.56|Z|1941;Eversong Woods|N|To Sathiel.|
+T Return to Sathiel|QID|9135|M|43.70,71.56|Z|1941;Eversong Woods|N|To Sathiel.|R|BloodElf|
 R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Follow the road west until you reach his camp; just before Sunsail Anchorage.|
 T Captain Kelisendra's Lost Rutters|QID|8887|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
 A Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|From Captain Kelisendra.|
