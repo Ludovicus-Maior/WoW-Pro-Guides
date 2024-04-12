@@ -9,7 +9,6 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Reclaiming Sunstrider Isle|QID|8325|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|BloodElf|
-A Windows to the Source|QID|8344|M|38.93,21.44|Z|1941;Eversong Woods|N|From Summoner Teli'Larien, inside the building.\n[color=FF0000]NOTE: [/color]This is your Summon Imp quest. You can do it on your own now, or wait a bit and do it when the guide takes you to there shortly.|R|BloodElf|C|Warlock|
 = Arcane Intellect|QID|99999|M|39.23,21.45|Z|1941;Eversong Woods|N|As soon as you have 10c (or junk to sell), head back to your trainer, Julia Sunstriker, and buy this Intellect buff spell.|SPELL|Arcane Intellect;1459|R|BloodElf|C|Mage|S!US|
 K Reclaiming Sunstrider Isle|ACTIVE|8325|QO|1|M|34.84,19.97|Z|1941;Eversong Woods|N|Kill Mana Wyrms.|R|BloodElf|
 T Reclaiming Sunstrider Isle|QID|8325|M|38.02,21.00|Z|1941;Eversong Woods|N|To Magistrix Erona.|R|BloodElf|
@@ -19,7 +18,7 @@ A The Shrine of Dath'Remar|QID|8345|M|38.97,20.27|Z|1941;Eversong Woods|N|From W
 A A Fistful of Slivers|QID|8336|M|38.28,19.13|Z|1941;Eversong Woods|N|From Arcanist Ithanas, on the patio below you.\n[color=FF0000]NOTE: [/color]You can jump down from the balcony.|R|BloodElf|
 A Thirst Unending|QID|8346|M|37.18,18.95|Z|1941;Eversong Woods|N|From Arcanist Helion.\n[color=FF0000]NOTE: [/color]You can see him on the patio directly opposite from your current position.|R|BloodElf|
 C Unfortunate Measures|QID|8326|M|36.22,22.64|L|20797 8|ITEM|20797|Z|1941;Eversong Woods|N|Springpaw Lynxes and Cubs.|R|BloodElf|S|
-C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|Z|1941;Eversong Woods|N|Mana Wyrms\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|S|
+C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|Z|1941;Eversong Woods|N|Mana Wyrms or any mob that uses mana.\n[color=FF0000]NOTE: [/color]Mana Wyrms are easier and more convenient.|R|BloodElf|S|
 C Thirst Unending|QID|8346|QO|1|M|35.39,20.24|Z|1941;Eversong Woods|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|S|
 C Solanian's Belongings|QID|8330|M|37.70,24.90|Z|1941;Eversong Woods|L|20472|N|Pick up Solanian's Journal, near the big green crystal.|R|BloodElf|
 C Unfortunate Measures|QID|8326|M|36.22,22.64|Z|1941;Eversong Woods|L|20797 8|ITEM|20797|N|Springpaw Lynxes and Cubs.\n[color=FF0000]NOTE: [/color]If this area is busy, you can find more behind the buildings northeast of you.|R|BloodElf|US|
@@ -45,10 +44,10 @@ T Charge!|QID|27091|M|39.29,20.10|Z|1941;Eversong Woods|N|To Delios Silverblade.
 ; ** Warlock
 A Warlock Training|QID|8563|PRE|8326|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|BloodElf|C|Warlock|
 T Warlock Training|QID|8563|M|38.93,21.44|Z|1941;Eversong Woods|N|To Summoner Teli'Larien, inside the building.|R|BloodElf|C|Warlock|
-A Immolation|QID|10073|PRE|8563|M|42.39,68.07|Z|1941;Eversong Woods|N|From Summoner Teli'Larien.|R|BloodElf|C|Warlock|
-= Immolate|ACTIVE|10073|QO|2|M|42.39,68.07|Z|1941;Eversong Woods|N|Learn Immolate from Summoner Teli'Larien.|SPELL|Immolate;348|R|BloodElf|C|Warlock|
+A Immolation|QID|10073|PRE|8563|M|38.93,21.44|Z|1941;Eversong Woods|N|From Summoner Teli'Larien.|R|BloodElf|C|Warlock|
+= Immolate|ACTIVE|10073|QO|2|M|38.93,21.44|Z|1941;Eversong Woods|N|Learn Immolate from Summoner Teli'Larien.|SPELL|Immolate;348|R|BloodElf|C|Warlock|
 C Immolate|QID|10073|QO|1|M|38.22,20.27|Z|1941;Eversong Woods|N|Locate a Training Dummy outside the Sunspire and practice casting Immolate 5 times.|T|Training Dummy|R|BloodElf|C|Warlock|
-T Immolation|QID|10073|M|42.39,68.07|Z|1941;Eversong Woods|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
+T Immolation|QID|10073|M|38.93,21.44|Z|1941;Eversong Woods|N|To Summoner Teli'Larien.|R|BloodElf|C|Warlock|
 ; ** Priest
 A Priest Training|QID|8564|PRE|8326|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|BloodElf|C|Priest|
 T Priest Training|QID|8564|M|39.42,20.38|Z|1941;Eversong Woods|N|To Matron Arena, inside the building.|R|BloodElf|C|Priest|
@@ -90,23 +89,23 @@ C Solanian's Belongings|QID|8330|QO|1|M|35.14,28.89|Z|1941;Eversong Woods|L|2047
 C Aggression|QID|8334|M|34.14,25.63|Z|1941;Eversong Woods|N|Finish killing Tenders and Feral Tenders.|R|BloodElf|US|
 T Aggression|QID|8334|M|35.37,22.52|Z|1941;Eversong Woods|N|To Lanthan Perilon.|R|BloodElf|
 A Felendren the Banished|QID|8335|PRE|8334|M|35.37,22.52|Z|1941;Eversong Woods|N|From Lanthan Perilon.|R|BloodElf|
-C A Fistful of Slivers|QID|8336|M|35.39,20.24|Z|1941;Eversong Woods|L|20482 6|ITEM|20482|N|Mana Wyrms.\n[color=FF0000]NOTE: [/color]Any creature that uses mana can drop them; Mana Wyrms are easier and more convenient.|R|BloodElf|US|
+C A Fistful of Slivers|QID|8336|M|35.39,20.24|L|20482 6|Z|1941;Eversong Woods|N|Mana Wyrms or any mob that uses mana.\n[color=FF0000]NOTE: [/color]Mana Wyrms are easier and more convenient.|R|BloodElf|US|
 C Thirst Unending|QID|8346|M|35.39,20.24|Z|1941;Eversong Woods|N|Use your Mana Tap racial ability on creatures with mana.|R|BloodElf|US|
+L Level 5|ACTIVE|8335|N|Grind until you're at least 6 bubbles into level 4.|LVL|4;-1463|
 T The Shrine of Dath'Remar|QID|8345|M|38.97,20.27|Z|1941;Eversong Woods|N|To Well Watcher Solanian.|R|BloodElf|
 T Solanian's Belongings|QID|8330|M|38.97,20.27|Z|1941;Eversong Woods|N|To Well Watcher Solanian.|R|BloodElf|
 T A Fistful of Slivers|QID|8336|M|38.28,19.13|Z|1941;Eversong Woods|N|To Arcanist Ithanas.|R|BloodElf|
 T Thirst Unending|QID|8346|M|37.18,18.95|Z|1941;Eversong Woods|N|To Arcanist Helion.|R|BloodElf|
+= Level 5 Training|ACTIVE|8335|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Sunstrider Isle^The Sunspire|
 R Falthrien Academy|AVAILABLE|8338|M|32.52,25.61|Z|1941;Eversong Woods|N|Follow the road west past the intersection towards the water.|
 C Felendren the Banished|QID|8335|QO|1;2|M|31.69,26.42|Z|1941;Eversong Woods|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|S|
 l Tainted Arcane Sliver|AVAILABLE|8338|M|32.52,25.61|Z|1941;Eversong Woods|L|20483|ITEM|20483|N|Tainted Arcane Wraith|
 A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|Z|1941;Eversong Woods|N|From the Tainted Arcane Sliver you just picked up.|U|20483|R|BloodElf|O|
 K Felendren|ACTIVE|8335|QO|3|M|30.84,27.14|Z|1941;Eversong Woods|N|He is found on the platform at the very top of the last spiral ramp\n[color=FF0000]NOTE: [/color]Both ramps meet back at the top.|T|Felendren the Banished|R|BloodElf|
 C Felendren the Banished|QID|8335|QO|1;2|M|31.69,26.42|Z|1941;Eversong Woods|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|US|
-L Level 5|ACTIVE|8335|N|Grind until you're within 9 bubbles of level 5.|LVL|4;-910|
 T Felendren the Banished|QID|8335|M|35.37,22.52|Z|1941;Eversong Woods|N|To Lanthan Perilon.|R|BloodElf|
 A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|35.37,22.52|Z|1941;Eversong Woods|N|From Lanthan Perilon.|R|BloodElf|
 T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|Z|1941;Eversong Woods|N|To Arcanist Helion.|R|BloodElf|
-= Level 5 Training|ACTIVE|8347|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Sunstrider Isle^The Sunspire|
 R Dawning Lane|ACTIVE|8347|AVAILABLE|9704|M|39.85,31.35|Z|1941;Eversong Woods|N|Follow the road to the bridge south of you.\n[color=FF0000]NOTE: [/color]You are now leaving the Blood Elf starting area and Sunstrider Isle.|
 T Aiding the Outrunners|QID|8347|M|40.42,32.21|Z|1941;Eversong Woods|N|To Outrunner Alarion.|R|BloodElf|
 
