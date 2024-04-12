@@ -236,43 +236,45 @@ C Situation at Sunsail Anchorage|QID|8892|QO|1;2|M|32.80,69.49|Z|1941;Eversong W
 T Wretched Ringleader|QID|9076|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.|
 C Pelt Collection|QID|8491|M|46.00,67.00|L|20772 6|ITEM|20772|Z|1941;Eversong Woods|N|Springpaws.|US|
 T Pelt Collection|QID|8491|M|44.72,69.62|Z|1941;Eversong Woods|N|To Velan Brightoak.|
-T Situation at Sunsail Anchorage|QID|8892|M|43.3,70.8|Z|1941;Eversong Woods|N|To Ranger Degolien.|
-A Farstrider Retreat|QID|9359|PRE|8892|LEAD|8476|M|43.3,70.8|Z|1941;Eversong Woods|N|From Ranger Degolien.|
-T Ranger Sareyn|QID|9358|M|46.9,71.8|Z|1941;Eversong Woods|N|To Ranger Sareyn.|
-A Defending Fairbreeze Village|QID|9252|M|46.9,71.8|Z|1941;Eversong Woods|N|From Ranger Sareyn.|
-C Defending Fairbreeze Village|QID|9252|M|50.00,75.00|Z|1941;Eversong Woods|N|4 of each: Rotlimb marauder, Darkwraith. Follow the road southeast until you hit the Dead Scar. Then head south.|
-T The Wayward Apprentice|QID|9254|M|54.3,71.0|Z|1941;Eversong Woods|N|To Apprentice Mirveda. Go north along the Dead Scar until you reach Mivenda.|
-A Corrupted Soil|QID|8487|M|54.3,71.0|Z|1941;Eversong Woods|N|From Apprentice Mirveda.|
+T Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|Z|1941;Eversong Woods|N|To Ranger Degolien.|
+A Farstrider Retreat|QID|9359|PRE|8892|LEAD|8476|M|43.34,70.82|Z|1941;Eversong Woods|N|From Ranger Degolien.|
+T Ranger Sareyn|QID|9358|M|46.93,71.79|Z|1941;Eversong Woods|N|To Ranger Sareyn.|
+A Defending Fairbreeze Village|QID|9252|M|46.93,71.79|Z|1941;Eversong Woods|N|From Ranger Sareyn.|
+C Defending Fairbreeze Village|QID|9252|QO|1;2|M|51.12,77.09|N|Kill Rotlimb Marauders and Darkwraiths in The Dead Scar.\n[color=FF0000]NOTE: [/color]Watch out for adds as much as possible.|S|
+R East Sanctum|AVAILABLE|8487|M|48.08,72.42;51.16,70.72|CC|N|Head east down the hill into The Dead Scar and cut across to the other side.\n[color=FF0000]NOTE: [/color]Avoid the Angershades; they do nothing for you.|
+T The Wayward Apprentice|QID|9254|M|54.28,70.98|N|Make your way to Apprentice Mirveda on the steps of East Sanctum.|
+A Corrupted Soil|QID|8487|M|54.28,70.98|Z|1941;Eversong Woods|N|From Apprentice Mirveda.|
 C Corrupted Soil|QID|8487|M|52.60,68.40|Z|1941;Eversong Woods|N|Loot 8 Tainted Soil Samples, they are green looking.|NC|
-T Corrupted Soil|QID|8487|M|54.3,71.0|Z|1941;Eversong Woods|N|To Apprentice Mirveda.|
-A Unexpected Results|QID|8488|PRE|8487|M|54.3,71.0|Z|1941;Eversong Woods|N|From Apprentice Mirveda. Get to full HP/Mana and take the follow up. Protect Mivenda from the Scourge Attack. Three level 7/8 mobs wills spawn and attack her. Kill them one by one as fast as possible.|
-C Unexpected Results|QID|8488|Z|1941;Eversong Woods|N|[need coords]Protect Mirveda.|
-T Unexpected Results|QID|8488|M|54.3,71.0|Z|1941;Eversong Woods|N|To Apprentice Mirveda. You should now be level 10!|
-A Research Notes|QID|9255|PRE|8488|M|54.3,71.0|Z|1941;Eversong Woods|N|From Apprentice Mirveda.|
-T Farstrider Retreat|QID|9359|M|60.3,62.8|Z|1941;Eversong Woods|N|To Lieutenant Dawnrunner.|
-A Amani Encroachment|QID|8476|M|60.3,62.8|Z|1941;Eversong Woods|N|From Lieutenant Dawnrunner.|
-B Springpaw Appetizers|QID|9067|QO|2|M|60.40,62.46|Z|1941;Eversong Woods|N|from Zalene Firstlight at Farstrider Retreat.|
-A The Spearcrafter's Hammer|QID|8477|M|59.5,62.6|Z|1941;Eversong Woods|N|From Arathel Sunforge.|
-A The Magister's Apprentice|QID|8888|LEAD|8889|M|60.3,61.4|Z|1941;Eversong Woods|N|From Magister Duskwither. Up the right ramp.|
+T Corrupted Soil|QID|8487|M|54.28,70.98|Z|1941;Eversong Woods|N|To Apprentice Mirveda.|
+A Unexpected Results|QID|8488|PRE|8487|M|54.28,70.98|Z|1941;Eversong Woods|N|From Apprentice Mirveda.\n[color=FF0000]NOTE: [/color]Get to full HP/Mana and accept the follow up when you're ready.|NOAUTO| ; Give them chance to get ready.
+C Unexpected Results|QID|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|Protect Mivenda from the Scourge Attack.\n[color=FF0000]NOTE: [/color]3 level 7/8 mobs will spawn by the building and rush to attack her. Kill them one by one, as fast as possible.|
+T Unexpected Results|QID|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|To Apprentice Mirveda.|
+A Research Notes|QID|9255|PRE|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|From Apprentice Mirveda.|
+R Farstrider Retreat|ACTIVE|9359|M|60.48,64.15|Z|1941;Eversong Woods|N|Walk up the hill to the east of you and it's on the other side of The Living Wood.|
+T Farstrider Retreat|QID|9359|M|60.32,62.76|Z|1941;Eversong Woods|N|To Lieutenant Dawnrunner.|
+A Amani Encroachment|QID|8476|M|60.32,62.76|Z|1941;Eversong Woods|N|From Lieutenant Dawnrunner.|
+B Springpaw Appetizers|QID|9067|QO|2|M|60.40,62.46|Z|1941;Eversong Woods|L|22776|ITEM|22776|N|from Zalene Firstlight at Farstrider Retreat.|
+A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|Z|1941;Eversong Woods|N|From Arathel Sunforge.|
+A The Magister's Apprentice|QID|8888|LEAD|8889|M|60.31,61.38|Z|1941;Eversong Woods|N|From Magister Duskwither (up the right ramp).|
 A The Purest Water|QID|9403|PRE|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|
-R Thuron's Livery|QID|8888|M|62.00,53.00|Z|1941;Eversong Woods|N|If you want the explorer achievement, head to Thuron's Livery.\n\nIf you don't, just click this step.|;ACH|
-T The Magister's Apprentice|QID|8888|M|67.8,56.5|Z|1941;Eversong Woods|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|
+R Thuron's Livery|QID|8888|M|62.00,53.00|Z|1941;Eversong Woods|N|If you want the explorer achievement, head to Thuron's Livery.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't.|ACH|859;1|RANK|3|
+T The Magister's Apprentice|QID|8888|M|67.8,56.5|Z|1941;Eversong Woods|N|To Apprentice Loralthalis.\n[color=FF0000]NOTE: [/color]She's on the road heading east away from the city to Duskwither Grounds.|
 A Deactivating the Spire|QID|8889|M|67.8,56.5|Z|1941;Eversong Woods|N|From Apprentice Loralthalis.|
 A Where's Wyllithen?|QID|9394|LEAD|8894|M|67.8,56.5|Z|1941;Eversong Woods|N|From Apprentice Loralthalis.|
-T Where's Wyllithen?|QID|9394|M|68.7,46.9|Z|1941;Eversong Woods|N|To Groundskeeper Wyllithen.|
-A Cleaning up the Grounds|QID|8894|M|68.7,46.9|Z|1941;Eversong Woods|N|From Groundskeeper Wyllithen.|
+T Where's Wyllithen?|QID|9394|M|68.71,46.95|Z|1941;Eversong Woods|N|To Groundskeeper Wyllithen.|
+A Cleaning up the Grounds|QID|8894|M|68.71,46.95|Z|1941;Eversong Woods|N|From Groundskeeper Wyllithen.|
 C Cleaning up the Grounds|QID|8894|Z|1941;Eversong Woods|N|[need coords]Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|S|
 R Azurebreeze Coast|QID|8894|M|72.00,43.00|Z|1941;Eversong Woods|N|If you want the explorer achievement, head to Azurebreeze Coast.\n\nIf you don't, just click this step.|;ACH|
 C Cleaning up the Grounds|QID|8894|Z|1941;Eversong Woods|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|US|
-T Cleaning up the Grounds|QID|8894|M|68.7,46.9|Z|1941;Eversong Woods|N|To Groundskeeper Wyllithen.|
+T Cleaning up the Grounds|QID|8894|M|68.71,46.95|Z|1941;Eversong Woods|N|To Groundskeeper Wyllithen.|
 N Deactivating the Spire - First Power Source|QID|8889|QO|1|M|69.20,52.10|Z|1941;Eversong Woods|N|Click on the Orb of Translocation, then deactivate the First Power Source.|NC|
 N Deactivating the Spire - Second Power Source|QID|8889|QO|2|M|69.20,52.10|Z|1941;Eversong Woods|N|Head up the stairs, then deactivate the Second Power Source.|NC|
 A Abandoned Investigations|QID|8891|M|69.2,52.1|Z|1941;Eversong Woods|N|From Magister Duskwither's Journal on the table near the door.|
 C Deactivating the Spire|QID|8889|QO|3|M|69.20,52.10|Z|1941;Eversong Woods|N|Head up the stairs again, then deactivate the Third Power Source.|NC|
 T Deactivating the Spire|QID|8889|M|67.8,56.5|Z|1941;Eversong Woods|N|Click the Orb of Translocation to head back to ground level, then head to Apprentice Loralthalis.|
 A Word from the Spire|QID|8890|PRE|8889|M|67.8,56.5|Z|1941;Eversong Woods|N|From Apprentice Loralthalis.|
-T Word from the Spire|QID|8890|M|60.3,61.4|Z|1941;Eversong Woods|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp.|
-T Abandoned Investigations|QID|8891|M|60.3,61.4|Z|1941;Eversong Woods|N|To Magister Duskwither.|
+T Word from the Spire|QID|8890|M|60.31,61.38|Z|1941;Eversong Woods|N|To Magister Duskwither. Back at farstrider retreat, up the right ramp.|
+T Abandoned Investigations|QID|8891|M|60.31,61.38|Z|1941;Eversong Woods|N|To Magister Duskwither.|
 C Amani Encroachment|QID|8476|Z|1941;Eversong Woods|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
 K Spearcrafter Otembe|QID|8477|QO|1|M|70,72|Z|1941;Eversong Woods|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|
 A Zul'Marosh|QID|8479|M|70.5,72.3|Z|1941;Eversong Woods|N|From Ven'jashi.|
@@ -281,15 +283,15 @@ A Amani Invasion|QID|9360|M|62.6,79.7|Z|1941;Eversong Woods|N|From the Amani Inv
 T Zul'Marosh|QID|8479|M|70.5,72.3|Z|1941;Eversong Woods|N|To Ven'jashi.|
 C Amani Encroachment|QID|8476|M|69.00,72.00|Z|1941;Eversong Woods|N|Finish killing Trolls needed.|US|
 R Elrendar Falls|QID|9360|M|64.00,73.00|Z|1941;Eversong Woods|N|If you want the explorer achievement, head to Elrendar Falls.\n\nIf you don't, just click this step.|
-T Amani Encroachment|QID|8476|M|60.3,62.8|Z|1941;Eversong Woods|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
-T Amani Invasion|QID|9360|M|60.3,62.8|Z|1941;Eversong Woods|N|To Lieutenant Dawnrunner.|
+T Amani Encroachment|QID|8476|M|60.32,62.76|Z|1941;Eversong Woods|N|To Lieutenant Dawnrunner at the Farstrider Retreat.|
+T Amani Invasion|QID|9360|M|60.32,62.76|Z|1941;Eversong Woods|N|To Lieutenant Dawnrunner.|
 A Warning Fairbreeze Village|QID|9363|PRE|9360|M|60.32,62.76|Z|1941;Eversong Woods|N|From Lieutenant Dawnrunner.|
-T The Spearcrafter's Hammer|QID|8477|M|59.5,62.6|Z|1941;Eversong Woods|N|To Arathel Sunforge.|
+T The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|Z|1941;Eversong Woods|N|To Arathel Sunforge.|
 C The Purest Water|QID|9403|M|64.21,72.66|Z|1941;Eversong Woods|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
 T The Purest Water|QID|9403|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|QID|9255|Z|1941;Eversong Woods|N|Hearth to Fairbreeze Village.|
 T Research Notes|QID|9255|M|44.03,70.76|Z|1941;Eversong Woods|N|To Magistrix Landra Dawnstrider.|
-T Warning Fairbreeze Village|QID|9363|M|43.3,70.8|Z|1941;Eversong Woods|N|To Ranger Degolien.|
+T Warning Fairbreeze Village|QID|9363|M|43.34,70.82|Z|1941;Eversong Woods|N|To Ranger Degolien.|
 T Defending Fairbreeze Village|QID|9252|M|46.93,71.79|Z|1941;Eversong Woods|N|To Ranger Sareyn.|
 A The Scorched Grove|QID|9258|LEAD|8473|M|43.6,71.2|Z|1941;Eversong Woods|N|From Ardeyn Riverwind.|
 T The Party Never Ends|QID|9067|M|38.15,73.56|Z|1941;Eversong Woods|N|To Lord Saltheril.|
