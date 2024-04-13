@@ -99,10 +99,11 @@ T Thirst Unending|QID|8346|M|37.18,18.95|Z|1941;Eversong Woods|N|To Arcanist Hel
 = Level 5 Training|ACTIVE|8335|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|Sunstrider Isle^The Sunspire|
 R Falthrien Academy|AVAILABLE|8338|M|32.52,25.61|Z|1941;Eversong Woods|N|Follow the road west past the intersection towards the water.|
 C Felendren the Banished|QID|8335|QO|1;2|M|31.69,26.42|Z|1941;Eversong Woods|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|S|
-l Tainted Arcane Sliver|AVAILABLE|8338|M|32.52,25.61|Z|1941;Eversong Woods|L|20483|ITEM|20483|N|Tainted Arcane Wraith|
-A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|Z|1941;Eversong Woods|N|From the Tainted Arcane Sliver you just picked up.|U|20483|R|BloodElf|O|
+l Tainted Arcane Sliver|AVAILABLE|8338|M|30.84,27.14|Z|1941;Eversong Woods|L|20483|ITEM|20483|N|Tainted Arcane Wraith|S|
+A Tainted Arcane Sliver|QID|8338|M|PLAYER|CC|N|From the Tainted Arcane Sliver you just picked up.|U|20483|R|BloodElf|O|
 K Felendren|ACTIVE|8335|QO|3|M|30.84,27.14|Z|1941;Eversong Woods|N|He is found on the platform at the very top of the last spiral ramp\n[color=FF0000]NOTE: [/color]Both ramps meet back at the top.|T|Felendren the Banished|R|BloodElf|
 C Felendren the Banished|QID|8335|QO|1;2|M|31.69,26.42|Z|1941;Eversong Woods|N|Slay Arcane and Tainted Arcane Wraiths.|R|BloodElf|US|
+l Tainted Arcane Sliver|AVAILABLE|8338|M|30.84,27.14|Z|1941;Eversong Woods|L|20483|ITEM|20483|N|Tainted Arcane Wraith|US|
 T Felendren the Banished|QID|8335|M|35.37,22.52|Z|1941;Eversong Woods|N|To Lanthan Perilon.|R|BloodElf|
 A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|35.37,22.52|Z|1941;Eversong Woods|N|From Lanthan Perilon.|R|BloodElf|
 T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|Z|1941;Eversong Woods|N|To Arcanist Helion.|R|BloodElf|
@@ -115,7 +116,7 @@ R Eversong Woods|AVAILABLE|9704|M|56.95,49.60|Z|1941;Eversong Woods|N|Head to to
 F Falconwing Square|QID|9704|M|54.37,50.73|Z|1941;Eversong Woods|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken|TAXI|Falconwing Square|
 f Falconwing Square|QID|8350|M|46.24,46.80|Z|1941;Eversong Woods|N|Get the flightpoint from Skymaster Skyles in Falconwing Square.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|R|-BloodElf|
 A Slain by the Wretched|QID|9704|M|40.42,32.21|Z|1941;Eversong Woods|N|From Outrunner Alarion.\n[color=FF0000]NOTE: [/color]Run north-west along the road (Dawning Lane).|
-N Discover Sunstrider Isle|AVAILABLE|8350|M|39.85,31.35|Z|1941;Eversong Woods|N|If you want the achievement Explore Eversong Woods, follow the road north over the bridge until you've "discovered" Sunstrider Isle.\n[color=FF0000]NOTE: [/color]Skip this step if not interested.|ACH|859;22|
+N Discover Sunstrider Isle|AVAILABLE|8350|M|38.80,30.11|Z|1941;Eversong Woods|N|If you want the achievement, Explore Eversong Woods, follow the road north over the bridge until you've "discovered" Sunstrider Isle.\n[color=FF0000]NOTE: [/color]Skip this step if not interested.|ACH|859;1|
 T Slain by the Wretched|QID|9704|M|42.02,35.66|Z|1941;Eversong Woods|N|To Slain Outrunner.|
 A Package Recovery|QID|9705|PRE|9704|M|42.02,35.66|Z|1941;Eversong Woods|N|From Slain Outrunner.|
 T Package Recovery|QID|9705|M|40.42,32.21|Z|1941;Eversong Woods|N|To Outrunner Alarion.|
