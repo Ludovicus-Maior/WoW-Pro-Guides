@@ -1,0 +1,3 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+        <Script file="TR_Jade_Forest_A.lua"/>
+</Ui>
