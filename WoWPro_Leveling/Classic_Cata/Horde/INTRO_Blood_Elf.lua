@@ -53,7 +53,7 @@ A Priest Training|QID|8564|PRE|8326|M|38.02,21.00|Z|1941;Eversong Woods|N|From M
 T Priest Training|QID|8564|M|39.42,20.38|Z|1941;Eversong Woods|N|To Matron Arena, inside the building.|R|BloodElf|C|Priest|
 A Healing the Wounded|QID|10072|PRE|8564|M|39.42,20.38|Z|1941;Eversong Woods|N|From Matron Arena.|R|BloodElf|C|Priest|
 = Flash Heal|ACTIVE|10072|QO|2|M|39.42,20.38|Z|1941;Eversong Woods|N|Learn Flash Heal from Matron Arena.|SPELL|Flash Heal;2061|R|BloodElf|C|Priest|
-C Healing the Wounded|QID|10072|QO|1|M|39.42,20.38|Z|1941;Eversong Woods|N|Practice casting Flash Heal 5 times on Wounded Outrunners.|T|Training Dummy|R|BloodElf|C|Priest|
+C Healing the Wounded|QID|10072|QO|1|M|39.19,20.60|Z|1941;Eversong Woods|N|Practice casting Flash Heal 5 times on Wounded Outrunners.|T|Training Dummy|R|BloodElf|C|Priest|
 T Healing the Wounded|QID|10072|M|39.42,20.38|Z|1941;Eversong Woods|N|To Matron Arena.|R|BloodElf|C|Priest|
 ; ** Rogue
 A Rogue Training|QID|9392|PRE|8326|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|Orc,BloodElf|C|Rogue|
@@ -109,12 +109,14 @@ A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|35.37,22.52|Z|1941;Everson
 T Tainted Arcane Sliver|QID|8338|M|37.18,18.95|Z|1941;Eversong Woods|N|To Arcanist Helion.|R|BloodElf|
 R Dawning Lane|ACTIVE|8347|AVAILABLE|9704|M|39.85,31.35|Z|1941;Eversong Woods|N|Follow the road to the bridge south of you.\n[color=FF0000]NOTE: [/color]You are now leaving the Blood Elf starting area and Sunstrider Isle.|
 T Aiding the Outrunners|QID|8347|M|40.42,32.21|Z|1941;Eversong Woods|N|To Outrunner Alarion.|R|BloodElf|
+A Slain by the Wretched|QID|9704|M|40.42,32.21|Z|1941;Eversong Woods|N|From Outrunner Alarion.\n[color=FF0000]NOTE: [/color]Run north-west along the road (Dawning Lane).|R|BloodElf|
 
 ;The guide continues at this point for all races
-A Slain by the Wretched|QID|9704|M|40.42,32.21|Z|1941;Eversong Woods|N|From Outrunner Alarion.|R|BloodElf|
-R Eversong Woods|AVAILABLE|9704|M|56.95,49.60|Z|1941;Eversong Woods|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|R|Goblin;Tauren;Orc;Troll;Forsaken|
-F Falconwing Square|QID|9704|M|54.37,50.73|Z|1941;Eversong Woods|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken|TAXI|Falconwing Square|
-f Falconwing Square|QID|8350|M|46.24,46.80|Z|1941;Eversong Woods|N|Get the flightpoint from Skymaster Skyles in Falconwing Square.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|R|-BloodElf|
+R Eversong Woods|AVAILABLE|9704|M|56.95,49.60|Z|1941;Eversong Woods|N|Head to to the Ruins of Silvermoon in Eversong Woods.\n[color=FF0000]NOTE: [/color]From Thunderbluff, fly to Orgrimmar.\nFrom Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades.\nFrom Tirisfal Glades/Undercity, use the Orb of Translocation in the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades).\n From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|R|Goblin;Tauren;Orc;Troll;Forsaken|
+f Silvermoon City|AVAILABLE|9704|M|54.37,50.73|Z|1941;Eversong Woods|N|Get the flightpoint from Skymistress Gloaming.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|R|Goblin;Tauren;Orc;Troll;Forsaken|
+F Falconwing Square|AVAILABLE|9704|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming.|R|Goblin;Tauren;Orc;Troll;Forsaken|TAXI|Falconwing Square|
+R Falconwing Square|AVAILABLE|9704|M|46.55,48.92|Z|1941;Eversong Woods|N|Follow the wall west to the entrance to Falconwing Square.|TAXI|-Falconwing Square|
+f Falconwing Square|AVAILABLE|9704|M|46.24,46.80|Z|1941;Eversong Woods|N|Get the flightpoint from Skymaster Skyles in Falconwing Square.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 A Slain by the Wretched|QID|9704|M|40.42,32.21|Z|1941;Eversong Woods|N|From Outrunner Alarion.\n[color=FF0000]NOTE: [/color]Run north-west along the road (Dawning Lane).|
 N Discover Sunstrider Isle|AVAILABLE|8350|M|38.80,30.11|Z|1941;Eversong Woods|N|If you want the achievement, Explore Eversong Woods, follow the road north over the bridge until you've "discovered" Sunstrider Isle.\n[color=FF0000]NOTE: [/color]Skip this step if not interested.|ACH|859;1|
 T Slain by the Wretched|QID|9704|M|42.02,35.66|Z|1941;Eversong Woods|N|To Slain Outrunner.|
@@ -125,9 +127,8 @@ f Falconwing Square|ACTIVE|8350|M|46.24,46.80|Z|1941;Eversong Woods|N|Get the fl
 T Completing the Delivery|QID|8350|M|48.15,47.66|Z|1941;Eversong Woods|N|To Innkeeper Delaniel.|
 h Falconwing Inn|AVAILABLE|8463|M|48.15,47.66|Z|1941;Eversong Woods|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|
 = Professions|AVAILABLE|8463|M|48.93,46.86|Z|1941;Eversong Woods|N|If you wish, Saren will teach all Gathering and Production professions (upstairs).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-= First Aid|AVAILABLE|8463|M|48.58,47.58|Z|1941;Eversong Woods|N|Learn First Aid from Kanaria.|P|First Aid;129;0;true|
-= Cooking|AVAILABLE|4161|M|48.57,47.11|Z|1941;Eversong Woods|N|Learn Cooking from Quarelestra.|P|Cooking;185;0;true|
-
+= First Aid|AVAILABLE|8463|M|48.58,47.58|Z|1941;Eversong Woods|N|Learn First Aid from Kanaria.|SPELL|First Aid;3273|
+= Cooking|AVAILABLE|4161|M|48.57,47.11|Z|1941;Eversong Woods|N|Learn Cooking from Quarelestra.|SPELL|Cooking;2550|
 A Unstable Mana Crystals|QID|8463|M|48.17,46.00|Z|1941;Eversong Woods|N|From Aeldon Sunbrand, back outside of the inn.|
 A Wanted: Thaelis the Hungerer|QID|8468|M|48.17,46.31|Z|1941;Eversong Woods|N|From 'Wanted: Thaelis the Hungerer' signpost.|
 A Major Malfunction|QID|8472|M|47.26,46.31|Z|1941;Eversong Woods|N|From Magister Jaronis.|
@@ -151,22 +152,26 @@ C Darnassian Intrusions|QID|9352|QO|1|M|34.50,60.00|Z|1941;Eversong Woods|N|Kill
 l Incriminating Documents|AVAILABLE|8482|M|34.50,60.00|Z|1941;Eversong Woods|L|20765|ITEM|20765|N|Darnassian Scouts.|US|
 A Incriminating Documents|QID|8482|M|PLAYER|CC|N|From the Incriminating Documents you just picked up.|U|20765|O|
 C Arcane Instability|QID|8486|QO|1;2|M|36.27,57.70|Z|1941;Eversong Woods|N|Finish killing the Manawraiths and Mana Stalkers located around the West Sanctum.|US|
+L Level 7|ACTIVE|9352|N|Grind until you're within 5 bubbles of level 7.|LVL|6;-1080|
 T Darnassian Intrusions|QID|9352|M|36.70,57.44|Z|1941;Eversong Woods|N|To Ley-Keeper Velania.|
 T Arcane Instability|QID|8486|M|36.70,57.44|Z|1941;Eversong Woods|N|To Ley-Keeper Velania.|
-A Fish Heads, Fish Heads...|QID|8884|M|30.21,58.39|Z|1941;Eversong Woods|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Follow the road west out of West Sanctum, or go north around the mountain.|
+R Falconwing Square|ACTIVE|8482|M|46.55,48.92|Z|1941;Eversong Woods|N|Return to Falconwing Square.\n[color=FF0000]NOTE: [/color]Don't use your hearth as you're going to need it again shortly.|
+T Incriminating Documents|QID|8482|M|48.17,46.00|Z|1941;Eversong Woods|N|To Aeldon Sunbrand.|
+A The Dwarven Spy|QID|8483^8896|PRE|8482|M|48.17,46.00|Z|1941;Eversong Woods|N|From Aeldon Sunbrand.|
+= Level 7 Training|AVAILABLE|8884|M|PLAYER|CC|N|Do your level 7 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|7|IZ|Falconwing Square|
+C The Dwarven Spy|QID|8483^8896|L|20764|ITEM|20764|M|44.60,53.30|Z|1941;Eversong Woods|N|Prospector Anvilward at North Sanctum.\n[color=FF0000]NOTE: [/color]Make sure your health/mana is full and you're buffed before you talk to him because after walking to the top of North Sanctum, he will attack you.|
+R West Sanctum|AVAILABLE|8884|M|36.71,57.75|Z|1941;Eversong Woods|N|Return to West Sanctum.|
+R Hathvelion Sungaze's Camp|AVAILABLE|8884|M|30.21,58.39|CC|Z|1941;Eversong Woods|N|Follow the road west out of West Sanctum, or go north around the mountain.|
+A Fish Heads, Fish Heads...|QID|8884|M|30.21,58.39|Z|1941;Eversong Woods|N|From Hathvelion Sungaze (He wanders around a bit).\n[color=FF0000]NOTE: [/color]Head back to West Sanctum and |
 C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|Z|1941;Eversong Woods|L|21757 8|ITEM|21757|N|Grimscale Murlocs around Golden Strand and Tranquil Shore.|S|
 l Captain Kelisendra's Lost Rutters|AVAILABLE|8887|M|26.86,59.81|Z|1941;Eversong Woods|L|21776|ITEM|21776|N|Grimscale Murlocs around Golden Strand and Tranquil Shore.|RANK|3|S|IZ|3460; Golden Strand^3911; Tranquil Shore|
 A Captain Kelisendra's Lost Rutters|QID|8887|M|PLAYER|CC|N|From Captain Kelisendra's Lost Rutters you just picked up.|U|21776|O|
 C Fish Heads, Fish Heads...|QID|8884|M|26.86,59.81|Z|1941;Eversong Woods|L|21757 8|ITEM|21757|N|Grimscale Murlocs around Golden Strand and Tranquil Shore.|US|
 T Fish Heads, Fish Heads...|QID|8884|M|30.21,58.39|Z|1941;Eversong Woods|N|To Hathvelion Sungaze.|
 A The Ring of Mmmrrrggglll|QID|8885|M|30.21,58.39|Z|1941;Eversong Woods|N|From Hathvelion Sungaze.|PRE|8884|
-R Falconwing Square|ACTIVE|8482|M|46.55,48.92|Z|1941;Eversong Woods|N|Head back towards Falconwing Square.|LVL|6;-675|S!US|
-L Level 7|ACTIVE|8482|N|Grind until you're within 4 bubbles of level 7.|LVL|6;-675|
-H Falconwing Square|QID|8482|M|46.55,48.92|Z|1941;Eversong Woods|N|Hearth back to Falconwing Square.|
-T Incriminating Documents|QID|8482|M|48.17,46.00|Z|1941;Eversong Woods|N|To Aeldon Sunbrand.|
-A The Dwarven Spy|QID|8483^8896|PRE|8482|M|48.17,46.00|Z|1941;Eversong Woods|N|From Aeldon Sunbrand.|
-= Level 7 Training|ACTIVE|8483^8896|M|PLAYER|CC|N|Do your level 7 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|7|IZ|Falconwing Square|
-C The Dwarven Spy|QID|8483^8896|L|20764|ITEM|20764|Z|1941;Eversong Woods|N|Prospector Anvilward.\n[color=FF0000]NOTE: [/color]Make sure your health/mana is full and you're buffed before you talk to him because after walking to the top of North Sanctum, he will attack you.|M|44.60,53.30|
+H Falconwing Square|ACTIVE|8483^8896|M|46.55,48.92|Z|1941;Eversong Woods|N|Hearth back to Falconwing Square.|
+T The Dwarven Spy|QID|8483^8896|M|48.17,46.00|Z|1941;Eversong Woods|N|To Aeldon Sunbrand.|
+A Fairbreeze Village|QID|9256|PRE|8483^8896|LEAD|8892|M|48.17,46.00|Z|1941;Eversong Woods|N|From Aeldon Sunbrand.|
 A Roadside Ambush|QID|9035|LEAD|9062|M|45.19,56.43|Z|1941;Eversong Woods|N|From Apprentice Ralen.|
 T Roadside Ambush|QID|9035|M|44.88,61.03|Z|1941;Eversong Woods|N|To Apprentice Meledor.|
 A Soaked Pages|QID|9062|M|44.88,61.03|Z|1941;Eversong Woods|N|From Apprentice Meledor.|
@@ -175,6 +180,7 @@ T Soaked Pages|QID|9062|M|44.88,61.03|Z|1941;Eversong Woods|N|To Apprentice Mele
 A Taking the Fall|QID|9064|PRE|9062|M|44.88,61.03|Z|1941;Eversong Woods|N|From Apprentice Meledor.|
 R The Dead Scar|ACTIVE|9064|M|49.11,55.87|Z|1941;Eversong Woods|N|Follow the road north to the bend and continue east.|
 R Stillwhisper Pond|ACTIVE|9064|M|53.86,54.10|Z|1941;Eversong Woods|N|Continue east to the other side and Stillwhisper Pond is just to the south of the road.|
+T Taking the Fall|QID|9064|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|
 A Swift Discipline|QID|9066|PRE|9064|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|
 A Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|
 C Fetch!|QID|9402|M|54.87,56.38|Z|1941;Eversong Woods|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
@@ -186,11 +192,10 @@ C Swift Discipline - Apprentice Meledor|QID|9066|QO|1|M|44.88,61.03|Z|1941;Evers
 C The Dead Scar|QID|8475|QO|1|M|50.28,57.12|Z|1941;Eversong Woods|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|US|
 T The Dead Scar|QID|8475|M|50.34,50.76|Z|1941;Eversong Woods|N|To Ranger Jaela.|
 T Swift Discipline|QID|9066|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|
-F Falconwing Square|ACTIVE|8483^8896|M|54.37,50.73|Z|1941;Eversong Woods|N|Fly to Falconwing Square.|
-T The Dwarven Spy|QID|8483^8896|M|48.17,46.00|Z|1941;Eversong Woods|N|To Aeldon Sunbrand.|
-A Fairbreeze Village|QID|9256|PRE|8483^8896|LEAD|8892|M|48.17,46.00|Z|1941;Eversong Woods|N|From Aeldon Sunbrand.|
-R Fairbreeze Village|AVAILABLE|8491|M|43.93,67.79|Z|1941;Eversong Woods|N|Follow the road south to Fairbreeze Village.\n[color=FF0000]NOTE: [/color]Go west at the first intersection; it turns south after the bend.|
-f Fairbreeze Village|AVAILABLE|8491|M|43.94,69.98|Z|1941;Eversong Woods|N|Get the flightpoint from Skymaster Brightdawn.|
+F Fairbreeze Village|ACTIVE|9256|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming.|TAXI|Fairbreeze Village|
+F Falconwing Square|ACTIVE|9256|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming.|TAXI|-Fairbreeze Village|
+R Fairbreeze Village|ACTIVE|9256|M|43.93,67.79|Z|1941;Eversong Woods|N|Follow the road south to Fairbreeze Village.\n[color=FF0000]NOTE: [/color]Go west at the first intersection; it turns south after the bend.|TAXI|-Fairbreeze Village|
+f Fairbreeze Village|ACTIVE|9256|M|43.94,69.98|Z|1941;Eversong Woods|N|Get the flightpoint from Skymaster Brightdawn.|
 A Pelt Collection|QID|8491|M|44.72,69.63|Z|1941;Eversong Woods|N|From Velan Brightoak.|
 A Saltheril's Haven|QID|9395|LEAD|9067|M|44.03,70.76|Z|1941;Eversong Woods|N|From Magistrix Landra Dawnstrider.|
 A The Wayward Apprentice|QID|9254|LEAD|8487|M|44.03,70.76|Z|1941;Eversong Woods|N|From Magistrix Landra Dawnstrider.|
@@ -206,16 +211,17 @@ A The Party Never Ends|QID|9067|M|38.15,73.56|Z|1941;Eversong Woods|N|From Lord 
 B Bundle of Fireworks|QID|9067|M|44.04,70.36|Z|1941;Eversong Woods|L|22777|ITEM|22777|N|from Halis Dawnstrider at Fairbreeze Village.|
 T Goods from Silvermoon City|QID|9130|M|43.94,69.98|Z|1941;Eversong Woods|N|To Skymaster Brightdawn.|R|BloodElf|
 A Fly to Silvermoon City|QID|9133|PRE|9130|M|43.94,69.98|Z|1941;Eversong Woods|N|From Skymaster Brightdawn.|R|BloodElf|
-F Silvermoon City|ACTIVE|9067|M|43.94,69.98|Z|1941;Eversong Woods|N|Ask Skymaster Brightdawn to fly you to Silvermoon City.|
-R Silvermoon City|ACTIVE|9067|M|72.37,90.93|Z|Silvermoon City|N|Run east to Silvermoon City and enter through The Shepherd's Gate.|
+F Silvermoon City|ACTIVE|9067|M|43.94,69.98|Z|1941;Eversong Woods|N|Talk to Skymaster Brightdawn.|
+R Silvermoon City|ACTIVE|9067|M|72.41,85.27|Z|Silvermoon City|N|Run east to Silvermoon City and enter through The Shepherd's Gate.|
 R The Bazaar|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43|CC|Z|Silvermoon City|N|There's a shortcut to The Bazaar if you follow the coordinates through Wayfarer's Rest.|
 T Fly to Silvermoon City|QID|9133|M|53.92,71.03|Z|Silvermoon City|N|To Sathren Azuredawn inside General Goods on the other side of The Bazaar.|R|BloodElf|
 A Skymistress Gloaming|QID|9134|PRE|9133|M|53.92,71.03|Z|Silvermoon City|N|From Sathren Azuredawn.|R|BloodElf|
-B Suntouched Special Reserve|ACTIVE|9067|M|79.70,58.40|Z|Silvermoon City|L|22775|ITEM|22775|N|from Vinemaster Suntouched inside Silvermoon City Inn (located in Murder Row).|
-R Exit Silvermoon City|ACTIVE|9067|M|56.65,49.47|Z|1941;Eversong Woods|N|Exit Silvermoon City using The Shepherd's Gate.|
+B Suntouched Special Reserve|ACTIVE|9067|M|79.49,58.51|Z|Silvermoon City|L|22775|ITEM|22775|N|from Vinemaster Suntouched inside Silvermoon City Inn (located in Murder Row).|
+r Housekeeping|ACTIVE|9067|N|While in Silvermoon City, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
+R Eversong Woods|ACTIVE|9067|M|56.65,49.60|Z|1941;Eversong Woods|N|Exit Silvermoon City using The Shepherd's Gate.|
 T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|To Skymistress Gloaming.|R|BloodElf|
 A Return to Sathiel|QID|9135|PRE|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|From Skymistress Gloaming.|R|BloodElf|
-F Fairbreeze Village|ACTIVE|9067|M|54.37,50.73|Z|1941;Eversong Woods|N|Fly to Fairbreeze Village, or just hearth.|
+F Fairbreeze Village|ACTIVE|9067|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming, or just hearth.|
 T Return to Sathiel|QID|9135|M|43.70,71.56|Z|1941;Eversong Woods|N|To Sathiel.|R|BloodElf|
 R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Follow the road west until you reach her camp; just before Sunsail Anchorage.|
 T Captain Kelisendra's Lost Rutters|QID|8887|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
@@ -223,15 +229,15 @@ A Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|From Captain
 A Lost Armaments|QID|8480|M|36.36,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
 C Grimscale Pirates!|QID|8886|M|24.9,66.8|Z|1941;Eversong Woods|L|21771 6|ITEM|21771|N|Grimscale Murlocs or pick them up from the ground.|S|
 C Situation at Sunsail Anchorage|QID|8892|QO|1;2|M|32.22,70.93|Z|1941;Eversong Woods|N|You'll find them all around Sunsail Anchorage.|S|IZ|3461; Sunsail Anchorage|
-C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|Z|1941;Eversong Woods|N|You'll find the Weapon Containers in static locations all around Sunsail Anchorage.|S|IZ|3461; Sunsail Anchorage|
+C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|Z|1941;Eversong Woods|N|You'll find the Weapon Containers in static locations all around Sunsail Anchorage.|S|NC|IZ|3461; Sunsail Anchorage|
 K Mmmrrrggglll|ACTIVE|8885|QO|1|M|25.67,65.74;24.02,73.70|CC|Z|1941;Eversong Woods|N|Follow the water to Golden Strand. He roams the beach along Golden Strand between the two waypoints.|T|Mmmrrrggglll|
 C Grimscale Pirates!|QID|8886|M|24.9,66.8|Z|1941;Eversong Woods|L|21771 6|ITEM|21771|N|Grimscale Murlocs or pick them up from the ground.|US|
 T The Ring of Mmmrrrggglll|QID|8885|M|30.2,58.5|Z|1941;Eversong Woods|N|To Hathvelion Sungaze.|
-C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|Z|1941;Eversong Woods|N|You'll find the Weapon Containers in static locations all around Sunsail Anchorage.|US|
+C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|Z|1941;Eversong Woods|N|You'll find the Weapon Containers in static locations all around Sunsail Anchorage.|US|NC|
 T Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
 T Lost Armaments|QID|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.|
 A Wretched Ringleader|QID|9076|PRE|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
-K Aldaron|QID|9076|QO|1|M|32.70,68.4|Z|1941;Eversong Woods|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras.|
+K Aldaron|QID|9076|QO|1|M|32.76,69.41|Z|1941;Eversong Woods|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras.|
 C Situation at Sunsail Anchorage|QID|8892|QO|1;2|M|32.80,69.49|Z|1941;Eversong Woods|N|Finish killing the Wretched Thugs and Hooligans.|US|
 T Wretched Ringleader|QID|9076|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.|
 C Pelt Collection|QID|8491|M|46.00,67.00|L|20772 6|ITEM|20772|Z|1941;Eversong Woods|N|Springpaws.|US|
