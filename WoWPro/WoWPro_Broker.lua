@@ -3900,8 +3900,9 @@ function WoWPro.OrderSteps(update)
             WoWPro.why[anchor+1] = ("selected step as the next closest at a distance of %g"):format(closestDist)
         end
     end
-    -- Wipe completion to limit errors, let the broker deal with it.
+    -- Wipe completion/skipped to limit errors, let the broker deal with it.
     WoWProCharDB.Guide[WoWProDB.char.currentguide].completion = {}
+    WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
     if update then
         WoWPro:UpdateGuide("WoWPro.OrderSteps")
     end

@@ -561,8 +561,25 @@ function WoWPro:OnEnable()
     WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     WoWPro:dbp("Setting Timer OnEnable")
     WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
-
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
+
+    WoWPro:dbp("Scan to purge")
+    if _G.PlayerGetTimerunningSeasonID and _G.PlayerGetTimerunningSeasonID() then
+        local seasonID = _G.PlayerGetTimerunningSeasonID()
+        -- Purge guides that do not match the SeasonID
+        local to_purge = {}
+        for gid, guide in pairs(WoWPro.Guides) do
+            if guide['TimerunningSeasonID'] ~= seasonID then
+                WoWPro:dbp("Queue %q to purge", gid)
+                table.insert(to_purge, gid)
+            end
+        end
+        for _, gid in ipairs(to_purge) do
+            WoWPro:dbp("Purge %q", gid)
+            WoWPro.Guides[gid] = nil
+        end
+    end
+
 
     -- Set up the Nickname -> Guide map.
     WoWPro.Nickname2Guide = {}
@@ -996,6 +1013,10 @@ function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
 	guide['sortlevel'] = tonumber(meanLevel)
+end
+
+function WoWPro:TimerunningSeasonID(guide, seasonID)
+    guide['TimerunningSeasonID'] = tonumber(seasonID)
 end
 
 function WoWPro:GuideRaceSpecific(guide, race)
