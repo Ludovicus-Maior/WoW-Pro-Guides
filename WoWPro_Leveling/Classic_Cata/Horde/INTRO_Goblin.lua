@@ -30,7 +30,7 @@ C Rolling with my Homies|QID|14071|QO|2|M|58.10,86.60|Z|0194;Kezan|N|Go pick up 
 C Rolling with my Homies|QID|14071|QO|4|M|60.76,50.35|Z|0194;Kezan|N|Go pick up Gobber. Just follow the path north from KTC Headquarters.|U|46856|NC|
 C Rolling with my Homies|QID|14071|QO|3|M|47.80,37.40|Z|0194;Kezan|N|Go pick up Ace. He's on the other side of the road bridge.|U|46856|NC|
 T Rolling with my Homies|QID|14071|M|58.24,76.01|Z|0194;Kezan|N|To Megs Dreadshredder.|U|46856|
-A Report for Tryouts|QID|24567PRE|14071||M|58.24,76.01|Z|0194;Kezan|N|From Megs Dreadshredder.|
+A Report for Tryouts|QID|24567|PRE|14071|M|58.24,76.01|Z|0194;Kezan|N|From Megs Dreadshredder.|
 A Off to the Bank|QID|26712|M|56.49,76.98|PRE|14071|Z|0194;Kezan|N|From Candy Cane, inside the house.|GEN|MALE|
 A Off to the Bank|QID|26711|M|56.49,76.98|PRE|14071|Z|0194;Kezan|N|From Chip Endale, inside the house.|GEN|FEMALE|
 A Do it Yourself|QID|14070|PRE|14071|M|56.49,76.98|Z|0194;Kezan|N|From Sassy Hardwrench.|
@@ -47,7 +47,7 @@ T Off to the Bank|QID|26711^26712|M|30.09,71.67|Z|0194;Kezan|N|To FBoK Bank Tell
 A The New You|QID|14109^14110|PRE|26711^26712|M|30.09,71.67|Z|0194;Kezan|N|From FBoK Bank Teller.|
 C Hip New Outfit|QID|14109^14110|QO|2|M|37.59,55.21|Z|0194;Kezan|N|Talk to Szabo to get the Hip New Outfit.|U|46856|CHAT|
 C Shiny Bling|QID|14109^14110|QO|1|M|34.87,45.71|Z|0194;Kezan|N|Talk to Gappy Silvertooth to get the Shiny Bling.|U|46856|CHAT|
-C Cool Shades|QID|14109^14110|QO|3|M|40.6,45.89|Z|0194;Kezan|N|Talk to Missa Spekkles to get the Cool Shades.|CU|46856|HAT|
+C Cool Shades|QID|14109^14110|QO|3|M|40.6,45.89|Z|0194;Kezan|N|Talk to Missa Spekkles to get the Cool Shades.|U|46856|CHAT|
 T The Replacements|QID|24488|M|48.73,57.42|Z|0194;Kezan|N|To Coach Crosscheck.|U|46856|
 A Necessary Roughness|QID|24502|PRE|24488|M|48.73,57.42|Z|0194;Kezan|N|From Coach Crosscheck.|
 C Necessary Roughness|QID|24502|M|47.70,57.75|QO|1|Z|0194;Kezan|N|Head to the Bilgewater Buccaneer, then hop onto the Bilgewater Buccaneer.|NC|
@@ -109,11 +109,11 @@ T Goblin Escape Pods|QID|14001^14474|M|27.86,75.58|Z|0174;The Lost Isles|N|To Sa
 A Get Our Stuff Back!|QID|14014|PRE|14001^14474|M|27.86,75.58|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 A Monkey Business|QID|14019|PRE|14001^14474|M|27.89,74.43|Z|0174;The Lost Isles|N|From Bamm Megabomb.|
 A It's Our Problem Now|QID|14473|PRE|14001^14474|M|27.89,74.40|Z|0174;The Lost Isles|N|From Maxx Avalanche.|
-C It's Our Problem Now|QID|14473|M|29.24,69.93|Z|0174;The Lost Isles|S|N|Kill 6 Teraptor Hatchlings.|
-C Get Our Stuff Back!|QID|14014|M|29.13,70.04|Z|0174;The Lost Isles|S|N|Pick up any Crate of Tools you see.|NC|
+C It's Our Problem Now|QID|14473|M|29.24,69.93|Z|0174;The Lost Isles|N|Kill 6 Teraptor Hatchlings.|S|
+C Get Our Stuff Back!|QID|14014|M|29.13,70.04|Z|0174;The Lost Isles|N|Pick up any Crate of Tools you see.|S|NC|
 C Monkey Business|QID|14019|M|28.20,72.30|Z|0174;The Lost Isles|N|Feed Monkeys the banana bombs, the bananas have about a 30 yard range.|T|Bomb-Throwing Monkey|U|49028|NC|
-C Get Our Stuff Back!|QID|14014|M|29.13,70.04|Z|0174;The Lost Isles|US|N|Pick up any Crate of Tools you see.|NC|
-C It's Our Problem Now|QID|14473|M|29.24,69.93|Z|0174;The Lost Isles|US|N|Kill 6 Teraptor Hatchlings.|
+C Get Our Stuff Back!|QID|14014|M|29.13,70.04|Z|0174;The Lost Isles|N|Pick up any Crate of Tools you see.|US|NC|
+C It's Our Problem Now|QID|14473|M|29.24,69.93|Z|0174;The Lost Isles|N|Kill 6 Teraptor Hatchlings.|US|
 T It's Our Problem Now|QID|14473|M|27.88,74.30|Z|0174;The Lost Isles|N|To Maxx Avalanche.|
 T Monkey Business|QID|14019|M|27.92,74.38|Z|0174;The Lost Isles|N|To Bamm Megabomb.|
 T Get Our Stuff Back!|QID|14014|M|27.87,75.53|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
@@ -121,13 +121,13 @@ A Help Wanted|QID|14248|PRE|14014&14019&14473|M|27.87,75.53|Z|0174;The Lost Isle
 T Help Wanted|QID|14248|M|31.20,79.30|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
 A Miner Troubles|QID|14021|PRE|14248|M|31.20,79.30|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
 A Capturing the Unknown|QID|14031|PRE|14248|M|31.19,79.30|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
-C Miner Troubles|QID|14021|M|31.37,74.00|Z|0174;The Lost Isles|S|N|Escort the Miner into the mine. He'll stop at several ore nodes on the way, keep him safe from any monkeys already around.|
+C Miner Troubles|QID|14021|M|31.37,74.00|Z|0174;The Lost Isles|N|Escort the Miner into the mine. He'll stop at several ore nodes on the way, keep him safe from any monkeys already around.|S|
 C Cave Painting #1 |QID|14031|QO|1|M|31.81,76.89|Z|0174;The Lost Isles|N|Keep with the miner, when he stops and speaks about the cave paintings (or right up to the first node) use the KTC Snapflash to take a picture of the first cave painting.|U|49887|NC|
 C Cave Painting #2 |QID|14031|QO|2|M|32.66,76.71|Z|0174;The Lost Isles|N|Continue with the miner, when he stops at the second node, use the KTC Snapflash for the second painting.|U|49887|NC|
 C Cave Painting #3 |QID|14031|QO|3|M|33.89,75.26|Z|0174;The Lost Isles|N|Continue with the miner, when he stops at the third node, use the KTC Snapflash for the third painting.|U|49887|NC|
-C Miner Troubles|QID|14021|M|31.75,73.65|Z|0174;The Lost Isles|US|N|Keep escorting the Miner until he gets what he needs.|
+C Miner Troubles|QID|14021|M|31.75,73.65|Z|0174;The Lost Isles|N|Keep escorting the Miner until he gets what he needs.|US|
 C Pygmy Altar|QID|14031|QO|4|M|31.38,74.07|Z|0174;The Lost Isles|N|Keep going a little more into the mine to the Pygmy Altar, and take a picture of that.|U|49887|NC|
-A Orcs Can Write?|QID|14233|M|31.17,74.09|Z|0174;The Lost Isles|N|From the Dead Orc Scout.|S14248|
+A Orcs Can Write?|QID|14233|PRE|14248|M|31.17,74.09|Z|0174;The Lost Isles|N|From the Dead Orc Scout.|S|
 T Miner Troubles|QID|14021|M|31.26,79.22|Z|0174;The Lost Isles|N|Jump down and to your left, right at the fork, then head out of the cavern, and back to Foreman Dampwick.|
 T Capturing the Unknown|QID|14031|M|27.86,75.55|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
 T Orcs Can Write?|QID|14233|M|27.86,75.55|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
@@ -162,14 +162,14 @@ C Warchief's Revenge|QID|14243|M|12.56,61.69|Z|0174;The Lost Isles|N|Use button 
 T Warchief's Revenge|QID|14243|M|35.86,66.72|Z|0174;The Lost Isles|N|To Thrall who has now moved to the Wild Overlook.|
 A Farewell, For Now|QID|14445|PRE|14243|M|35.86,66.72|Z|0174;The Lost Isles|N|From Thrall.|
 T Farewell, For Now|QID|14445|M|36.00,67.49|Z|0174;The Lost Isles|N|To Sassy Hardwrench, who is now in the Wild Overlook.|
-A Up, Up&Away!|QID|14244|Z|0174;The Lost Isles|PRE|14445|M|36.00,67.49|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+A Up, Up&Away!|QID|14244|PRE|14445|M|36.00,67.49|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 C Up, Up&Away!|QID|14244|M|36.32,66.63|Z|0174;The Lost Isles|N|Click on the Rocket Sling, and select Up, Up&Away!|NC|
 T Up, Up&Away!|QID|14244|M|44.51,64.36|Z|0174;The Lost Isles|N|To Foreman Dampwick, who is now in the Landing Site.|
 A It's a Town-In-A-Box|QID|14245|PRE|14244|M|44.51,64.36|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
 C It's a Town-In-A-Box|QID|14245|M|45.46,65.35|Z|0174;The Lost Isles|N|Click on the plunger to create Town-In-A-Box.|NC|
 T It's a Town-In-A-Box|QID|14245|M|45.35,64.84|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
 A Hobart Needs You|QID|27139|PRE|14245|LEAD|24671|M|45.35,64.84|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
-N Professions Trainer|QID|27139|Z|0174;The Lost Isles|N|Want to learn your professions now? The KTC Train-A-Tron will teach you the skills and sell the basic equipment.|T|KTC Train-A-Tron Deluxe|ACTIVE|27139|S|
+N Professions Trainer|ACTIVE|27139|Z|0174;The Lost Isles|N|Want to learn your professions now? The KTC Train-A-Tron will teach you the skills and sell the basic equipment.|T|KTC Train-A-Tron Deluxe|S|
 T Hobart Needs You|QID|27139|M|45.33,65.13|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
 A Cluster Cluck|QID|24671|PRE|27139|M|45.33,65.13|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
 C Cluster Cluck|QID|24671|M|45.73,62.68|Z|0174;The Lost Isles|N|Click on the Wild Cluckers to collect them.|U|52712|NC|
@@ -191,9 +191,9 @@ A Invasion Imminent!|QID|24856|PRE|24817|M|45.34,65.20|Z|0174;The Lost Isles|N|F
 T Invasion Imminent!|QID|24856|M|52.19,73.11|Z|0174;The Lost Isles|N|To Megs Dreadshredder who has moved to the Ruins of Vashj'elan (follow the path up the hill through Raptor Rise).|
 A Bilgewater Cartel Represent|QID|24858|PRE|24856|M|52.19,73.11|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|
 A Naga Hide|QID|24859|PRE|24856|M|52.19,73.11|Z|0174;The Lost Isles|N|From Brett "Coins" McQuid.|
-C Naga Hide|QID|24859|M|54.18,76.66|S|Z|0174;The Lost Isles|N|Kill and loot Nagas.|
+C Naga Hide|QID|24859|M|54.18,76.66|Z|0174;The Lost Isles|N|Kill and loot Nagas.|S|
 C Bilgewater Cartel Represent|QID|24858|M|54.18,79.86|Z|0174;The Lost Isles|N|Go around and click on the Naga Banners to replace them.|NC|
-C Naga Hide|QID|24859|M|54.18,76.66|US|Z|0174;The Lost Isles|N|Kill and loot Nagas.|
+C Naga Hide|QID|24859|M|54.18,76.66|Z|0174;The Lost Isles|N|Kill and loot Nagas.|US|
 T Naga Hide|QID|24859|M|52.22,73.21|Z|0174;The Lost Isles|N|To Brett "Coins" McQuid.|
 T Bilgewater Cartel Represent|QID|24858|M|52.20,73.19|Z|0174;The Lost Isles|N|To Megs Dreadshredder.|
 A Irresistible Pool Pony|QID|24864|PRE|24859&24858|M|52.20,73.19|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|
@@ -215,9 +215,9 @@ A Oomlot Village|QID|24924|PRE|24901|M|45.21,64.94|Z|0174;The Lost Isles|N|From 
 T Oomlot Village|QID|24924|M|56.55,71.90|Z|0174;The Lost Isles|N|To Izzy in Oomlot Village.|
 A Free the Captives|QID|24925|PRE|24924|M|56.55,71.90|Z|0174;The Lost Isles|N|From Izzy.|
 A Send a Message|QID|24929|PRE|24924|M|56.54,71.85|Z|0174;The Lost Isles|N|From Izzy.|
-C Free the Captives|QID|24925|M|60.00,70.20|S|Z|0174;The Lost Isles|N|Kill Oomlet Shamans that are channeling next to the Goblin Captives.|
+C Free the Captives|QID|24925|M|60.00,70.20|Z|0174;The Lost Isles|N|Kill Oomlet Shamans that are channeling next to the Goblin Captives.|S|
 C Send a Message|QID|24929|M|59.11,70.29;59.36,67.46;62.90,69.19;62.96,68.49|CS|Z|0174;The Lost Isles|N|Follow the waypoints to Yngwie and kill him.|
-C Free the Captives|QID|24925|M|60.00,70.20|US|Z|0174;The Lost Isles|N|Kill Oomlet Shamans that are channeling next to the Goblin Captives.|
+C Free the Captives|QID|24925|M|60.00,70.20|Z|0174;The Lost Isles|N|Kill Oomlet Shamans that are channeling next to the Goblin Captives.|US|
 T Free the Captives|QID|24925|M|56.55,71.94|Z|0174;The Lost Isles|N|To Izzy.|
 T Send a Message|QID|24929|M|56.55,71.94|Z|0174;The Lost Isles|N|To Izzy.|
 A Oomlot Dealt With|QID|24937|PRE|24925&24929|M|56.55,71.94|Z|0174;The Lost Isles|N|From Izzy.|
@@ -229,11 +229,11 @@ A Three Little Pygmies|QID|24945|PRE|24940|M|51.83,47.18|Z|0174;The Lost Isles|N
 A Rockin' Powder|QID|24946|PRE|24940|M|51.77,47.33|Z|0174;The Lost Isles|N|From Assistant Greely.|
 N Super Booster Rocket Boots|ACTIVE|24942|Z|0174;The Lost Isles|N|Activate the Super Booster Rocket Boots|U|52013|BUFF|72887|
 C Zombies vs. Super Booster Rocket Boots|QID|24942|M|62.09,49.41|Z|0174;The Lost Isles|N|Hover over zombies to kill them. You will not be able to loot so you will have to de-activate them to loot.|U|52013|S|
-C Rockin' Powder|QID|24946|M|63.19,52.90|S|Z|0174;The Lost Isles|N|Loot any Rockin' Powder mounds you see.|NC|U|52013|
+C Rockin' Powder|QID|24946|M|63.19,52.90|Z|0174;The Lost Isles|N|Loot any Rockin' Powder mounds you see.|U|52013|S|NC|
 K Gaahl|ACTIVE|24945|QO|1|M|59.59,40.21|Z|0174;The Lost Isles|N|Kill Gaahl.|U|52013|
 K Malmo|ACTIVE|24945|QO|2|M|58.77,47.17|Z|0174;The Lost Isles|N|Kill Malmo.|U|52013|
 K Teloch|ACTIVE|24945|QO|3|M|63.66,52.78|Z|0174;The Lost Isles|N|Kill Teloch.|U|52013|
-C Rockin' Powder|QID|24946|M|63.19,52.90|US|Z|0174;The Lost Isles|N|Loot any Rockin' Powder mounds you see.|U|52013|NC|
+C Rockin' Powder|QID|24946|M|63.19,52.90|Z|0174;The Lost Isles|N|Loot any Rockin' Powder mounds you see.|U|52013|US|NC|
 C Zombies vs. Super Booster Rocket Boots|QID|24942|M|62.09,49.41|Z|0174;The Lost Isles|N|Finish slaying any Goblin Zombies you have left.|U|52013|US|
 T Zombies vs. Super Booster Rocket Boots|QID|24942|M|51.83,47.16|Z|0174;The Lost Isles|N|Use the Rocket Boots to get you back to Coach Crosscheck safely.|U|52013|
 T Three Little Pygmies|QID|24945|M|51.83,47.16|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
@@ -253,13 +253,13 @@ T Old Friends|QID|25023|M|36.81,43.16|Z|0174;The Lost Isles|N|To Thrall.|
 A Repel the Paratroopers|QID|25024|PRE|25023|M|36.81,43.16|Z|0174;The Lost Isles|N|From Thrall.|
 A The Heads of the SI:7|QID|25093|PRE|25023|M|36.28,43.43|Z|0174;The Lost Isles|N|From Aggra.|
 A Mine Disposal, the Goblin Way|QID|25058|PRE|25023|M|37.34,41.95|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-C Repel the Paratroopers|QID|25024|M|34.04,38.48|S|Z|0174;The Lost Isles|N|Kill any Alliance Paratrooper you see.|
-C Mine Disposal, the Goblin Way|QID|25058|M|33.08,43.80|S|Z|0174;The Lost Isles|N|Throw a grenade at a land mine.|U|52280|NC|
+C Repel the Paratroopers|QID|25024|M|34.04,38.48|Z|0174;The Lost Isles|N|Kill any Alliance Paratrooper you see.|S|
+C Mine Disposal, the Goblin Way|QID|25058|M|33.08,43.80|Z|0174;The Lost Isles|N|Throw a grenade at a land mine.|U|52280|S|NC|
 K Commander Arrington|QID|25093|QO|1|M|32.27,42.88|Z|0174;The Lost Isles|N|Kill and loot Commander Arrington for his head.|ACTIVE|25093|
 K Alexi Silenthowl|QID|25093|QO|3|M|30.78,33.91|Z|0174;The Lost Isles|N|Kill and loot Alexi Silenthowl for his head.|ACTIVE|25093|
 K Darkblade Cyn|QID|25093|QO|2|M|33.42,27.89|Z|0174;The Lost Isles|N|Kill and loot Darkblade Cyn for her head.|ACTIVE|25093|
-C Repel the Paratroopers|QID|25024|M|34.04,38.48|US|Z|0174;The Lost Isles|N|Kill any Paratrooper you have left to kill.|
-C Mine Disposal, the Goblin Way|QID|25058|M|33.08,43.80|US|Z|0174;The Lost Isles|N|Throw a grenade at a land mine.|U|52280|NC|
+C Repel the Paratroopers|QID|25024|M|34.04,38.48|Z|0174;The Lost Isles|N|Kill any Paratrooper you have left to kill.|US|
+C Mine Disposal, the Goblin Way|QID|25058|M|33.08,43.80|Z|0174;The Lost Isles|N|Throw a grenade at a land mine.|U|52280|US|NC|
 H Warchief's Lookout|QID|25024|M|36.83,43.19|Z|0174;The Lost Isles|N|Hearth back to Warchief's Lookout.|ACTIVE|25024|
 T Repel the Paratroopers|QID|25024|M|36.80,43.09|Z|0174;The Lost Isles|N|To Thrall.|
 T The Heads of the SI:7|QID|25093|M|36.30,43.35|Z|0174;The Lost Isles|N|To Aggra.|
@@ -275,32 +275,32 @@ T Borrow Bastia|QID|25099|M|33.81,38.82|Z|0174;The Lost Isles|N|To Kilag Gorefan
 A Let's Ride|QID|25100|PRE|25099|M|34.01,38.76|Z|0174;The Lost Isles|N|From Kilag Gorefang. On accepting this quest you will be taken to Sky Falls.|
 T Let's Ride|QID|25100|M|53.72,34.92|Z|0174;The Lost Isles|N|To Slinky Sharpshiv.|
 A The Gallywix Labor Mine|QID|25109|PRE|25100|M|53.72,34.92|Z|0174;The Lost Isles|N|From Slinky Sharpshiv.|
-N Professions Trainer|QID|25109|Z|0174;The Lost Isles|N|The Professions Trainer and Vendor is available again outside the mine.|T|KTC Train-A-Tron Deluxe|ACTIVE|25109|S|
+N Professions Trainer|ACTIVE|25109|Z|0174;The Lost Isles|N|The Professions Trainer and Vendor is available again outside the mine.|T|KTC Train-A-Tron Deluxe|S|
 T The Gallywix Labor Mine|QID|25109|M|54.14,36.00;54.78,34.82;53.15,36.57|CC|Z|0174;The Lost Isles|N|Head inside the mine, go through the door to the right, drop down, then head to Assistant Greely. |
 A Kaja'Cola Gives You IDEAS! (TM)|QID|25110|PRE|25109|M|53.15,36.57|Z|0174;The Lost Isles|N|From Assistant Greely.|
 C Kaja'Cola Gives You IDEAS! (TM)|QID|25110|M|53.67,36.71|Z|0174;The Lost Isles|N|Kill Overseers until a Kaja' Cola drops, it can also be looted off the ground.|
 T Kaja'Cola Gives You IDEAS! (TM)|QID|25110|M|53.18,36.63|Z|0174;The Lost Isles|N|To Assistant Greely.|
 A Morale Boost|QID|25122|PRE|25110|Z|0174;The Lost Isles|N|From Assistant Greely who is now follow you.|
 A Throw It On the Ground!|QID|25123|PRE|25110|Z|0174;The Lost Isles|N|From Assistant Greely.|
-C Morale Boost|QID|25122|QO|4|M|56.86,36.79|S|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|NC|
-K Blastshadow the Brutemaster|QID|25123|M|55.38,31.58|Z|0174;The Lost Isles|N|Kill Blastshadow the Brutemaster, then loot the Soulstone that will be on the floor.|L|52481|T|Blastshadow the Brutemaster|ACTIVE|25123|
+C Morale Boost|QID|25122|QO|4|M|56.86,36.79|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|S|NC|
+K Blastshadow the Brutemaster|ACTIVE|25123|M|55.38,31.58|Z|0174;The Lost Isles|N|Kill Blastshadow the Brutemaster, then loot the Soulstone that will be on the floor.|L|52481|T|Blastshadow the Brutemaster|
 C Throw It On the Ground!|QID|25123|M|55.38,31.58|Z|0174;The Lost Isles|N|Target Blastshadow's corpse and use the Soulstone.|T|Blastshadow the Brutemaster|U|52481|NC|
 T Throw It On the Ground!|QID|25123|M|55.40,31.51|Z|0174;The Lost Isles|N|To Assistant Greely.|
-C Gobber|QID|25122|QO|3|M|57.03,32.15|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Gobber to free his mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|NC|T|Gobber|
-C Izzy|QID|25122|QO|2|M|57,35.04|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Izzy to free her mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|NC|T|Izzy|
-C Ace|QID|25122|QO|1|M|56.99,37.15|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Ace to free his mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|NC|T|Ace|
-C Morale Boost|QID|25122|QO|2|M|56.86,36.79|US|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|X
+C Gobber|QID|25122|QO|3|M|57.03,32.15|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Gobber to free his mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|T|Gobber|NC|
+C Izzy|QID|25122|QO|2|M|57,35.04|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Izzy to free her mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|T|Izzy|NC|
+C Ace|QID|25122|QO|1|M|56.99,37.15|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Ace to free his mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|T|Ace|NC|
+C Morale Boost|QID|25122|QO|2|M|56.86,36.79|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|US|
 T Morale Boost|QID|25122|Z|0174;The Lost Isles|N|To Assistant Greely.|
 A Light at the End of the Tunnel|QID|25125|PRE|25122&25123|Z|0174;The Lost Isles|N|From Assistant Greely.|
 T Light at the End of the Tunnel|QID|25125|M|56.30,27.36|Z|0174;The Lost Isles|N|To Mine Cart.|
 A Wild Mine Cart Ride|QID|25184|PRE|25125|M|56.30,27.36|Z|0174;The Lost Isles|N|From Mine Cart. On accepting quest, you will be transproted to the Bilgewater Lumber Yard.|
 C Wild Mine Cart Ride|QID|25184|M|54.27,17.10|Z|0174;The Lost Isles|N|Enjoy the ride.|NC|
 T Wild Mine Cart Ride|QID|25184|M|54.37,17.02|Z|0174;The Lost Isles|N|To Assistant Greely, who is now in the Bilgewater Lumber Yard.|
-A Shredder Shutdown|QID|25200|Z|0174;The Lost Isles|PRE|25184|M|54.37,17.02|Z|0174;The Lost Isles|N|From Assistant Greely.|
+A Shredder Shutdown|QID|25200|PRE|25184|M|54.37,17.02|Z|0174;The Lost Isles|N|From Assistant Greely.|
 A The Ultimate Footbomb Uniform|QID|25201|PRE|25184|M|54.37,17.02|Z|0174;The Lost Isles|N|From Coach Crosscheck.|
-C Shredder Shutdown|QID|25200|M|55.99,23.51|S|Z|0174;The Lost Isles|N|Kill the Steamwheedle Shark|
+C Shredder Shutdown|QID|25200|M|55.99,23.51|Z|0174;The Lost Isles|N|Kill the Steamwheedle Shark|S|
 C The Ultimate Footbomb Uniform|QID|25201|M|53.46,23.39|Z|0174;The Lost Isles|N|Gather the parts from the broken down looking Shredders, also possible to get from looting the Steamwheedle Sharks.|NC|
-C Shredder Shutdown|QID|25200|M|55.99,23.51|US|Z|0174;The Lost Isles|N|Finish killing the Steamwheedle Shark|
+C Shredder Shutdown|QID|25200|M|55.99,23.51|Z|0174;The Lost Isles|N|Finish killing the Steamwheedle Shark|US|
 T The Ultimate Footbomb Uniform|QID|25201|M|54.41,16.97|Z|0174;The Lost Isles|N|To Coach Crosscheck.|
 T Shredder Shutdown|QID|25200|M|54.41,16.97|Z|0174;The Lost Isles|N|To Assistant Greely.|
 A Release the Valves|QID|25204|PRE|25201&25200|M|54.41,16.97|Z|0174;The Lost Isles|N|From Assistant Greely.|
@@ -325,10 +325,10 @@ T The Slave Pits|QID|25213|M|43.65,25.31|Z|0174;The Lost Isles|N|To Sassy Hardwr
 A She Loves Me, She Loves Me NOT!|QID|25243|PRE|25213|M|43.66,25.31|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|GEN|MALE|
 A What Kind of Name is Candy, Anyway?|QID|25244|PRE|25213|M|43.66,25.31|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|GEN|FEMALE|
 A Escape Velocity|QID|25214|PRE|25213|M|43.82,25.33|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
-C Escape Velocity|QID|25214|M|41.49,26.24|S|Z|0174;The Lost Isles|N|Click on the cages of the Captured Goblins.|NC|
+C Escape Velocity|QID|25214|M|41.49,26.24|Z|0174;The Lost Isles|N|Click on the cages of the Captured Goblins.|S|NC|
 C She Loves Me, She Loves Me NOT!|QID|25243|M|38.90,25.55|Z|0174;The Lost Isles|N|Kill and loot Candy for her heart.|GEN|MALE|
 C What Kind of Name is Candy, Anyway?|QID|25244|M|39.60,27.16|Z|0174;The Lost Isles|N|Kill Candy.|GEN|FEMALE|
-C Escape Velocity|QID|25214|M|41.50,26.25|US|Z|0174;The Lost Isles|N|Finish clicking on the cages of the Captured Goblins.|NC|
+C Escape Velocity|QID|25214|M|41.50,26.25|Z|0174;The Lost Isles|N|Finish clicking on the cages of the Captured Goblins.|US|NC|
 T Escape Velocity|QID|25214|M|43.84,25.35|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
 T She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.32|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|GEN|MALE|
 T What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|GEN|FEMALE|
@@ -342,22 +342,22 @@ T Victory!|QID|25265|M|42.14,17.41|Z|0174;The Lost Isles|N|To Thrall.|
 N Quest Skipping Not Allowed|QID|99999|Z|0174;The Lost Isles|N|You won't be able to skip the quests in this zone. Please reset this guide and pick up all the quests.|LEAD|25265|
 A Warchief's Emissary|QID|25266|PRE|25265|LEAD|25267|M|42.14,17.41|Z|0174;The Lost Isles|N|From Thrall.|
 R Bladefist Bay|ACTIVE|25266|M|42.59,16.40|Z|0174;The Lost Isles|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|
-T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|1305;Durotar|N|To Korkron Loyalist.|
-A Message for Saurfang|QID|25267|M|57.67,9.6|Z|1305;Durotar|N|From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
+T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|1411;Durotar|N|To Korkron Loyalist.|
+A Message for Saurfang|QID|25267|M|57.67,9.6|Z|1411;Durotar|N|From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
 T Message for Saurfang|QID|25267|M|48.26,70.93|Z|1454;Orgrimmar|N|To Saurfang, inside Grommash Hold.|
 A Report to the Labor Captain|QID|25275|PRE|25267|LEAD|14129|M|49.22,71.87|Z|1454;Orgrimmar|N|From Eitrigg.|
 A Missing Reports|QID|26803|M|49.0,72.2|Z|1454;Orgrimmar|N|From Eitrigg.|RANK|2|
 T Missing Reports|QID|26803|M|49.4,59.2|Z|1454;Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
 A Flight to Razor Hill|QID|26804|PRE|26803|M|49.4,59.2|Z|1454;Orgrimmar|N|From Doras, the flight master.|RANK|2|
-F Razor Hill|QID|26804|M|49.4,59.2|Z|1454;Orgrimmar|N|Fly to Razor Hill.|RANK|2|ACTIVE|26804|
-T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|1305;Durotar|N|To Gar'Thok.|RANK|2|
-A Reports to Orgrimmar|QID|26806|PRE|26804|M|51.8,43.4|Z|1305;Durotar|N|From Gar'Thok.|RANK|2|
-T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|1305;Durotar|N|To Burok.|RANK|2|
-A Return to Eitrigg|QID|26807|PRE|26806|M|53.0,43.6|Z|1305;Durotar|N|To Burok.|RANK|2|
-F Orgrimmar|QID|26807|M|53.0,43.6|Z|1305;Durotar|N|Fly back to Orgrimmar.|ACTIVE|26807|
+F Razor Hill|ACTIVE|26804|M|49.4,59.2|Z|1454;Orgrimmar|N|Fly to Razor Hill.|RANK|2|
+T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|1411;Durotar|N|To Gar'Thok.|RANK|2|
+A Reports to Orgrimmar|QID|26806|PRE|26804|M|51.8,43.4|Z|1411;Durotar|N|From Gar'Thok.|RANK|2|
+T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|1411;Durotar|N|To Burok.|RANK|2|
+A Return to Eitrigg|QID|26807|PRE|26806|M|53.0,43.6|Z|1411;Durotar|N|To Burok.|RANK|2|
+F Orgrimmar|ACTIVE|26807|M|53.0,43.6|Z|1411;Durotar|N|Fly back to Orgrimmar.|
 T Return to Eitrigg|QID|26807|M|49.0,72.2|Z|1454;Orgrimmar|N|To Eitrigg.|RANK|2|
-N City Facilities|QID|25275|N|You can take this opportunity to use the city's facilities (Repair, Auction House, etc.) before heading to Azshara.|ACTIVE|25275|S|
-R Azshara|QID|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|N|Run to Azshara.|Z|1454;Orgrimmar|ACTIVE|25275|
+N City Facilities|ACTIVE|25275|N|You can take this opportunity to use the city's facilities (Repair, Auction House, etc.) before heading to Azshara.|S|
+R Azshara|ACTIVE|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|Z|1454;Orgrimmar|N|Run to Azshara.|
 T Report to the Labor Captain|QID|25275|M|26.98,77.11|Z|1447;Azshara|N|To Labor Captain Grabbit.|
 ]]
 end)
