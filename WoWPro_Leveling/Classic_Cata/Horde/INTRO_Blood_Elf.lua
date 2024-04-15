@@ -189,9 +189,9 @@ A The Dead Scar|QID|8475|M|50.34,50.76|Z|1941;Eversong Woods|N|From Ranger Jaela
 C The Dead Scar|QID|8475|QO|1|M|50.28,57.12|Z|1941;Eversong Woods|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|S|
 C Swift Discipline - Apprentice Ralen|QID|9066|QO|2|M|45.19,56.43|Z|1941;Eversong Woods|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|T|Apprentice Ralen|U|22473|NC|
 C Swift Discipline - Apprentice Meledor|QID|9066|QO|1|M|44.88,61.03|Z|1941;Eversong Woods|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|T|Apprentice Meledor|U|22473|NC|
-C The Dead Scar|QID|8475|QO|1|M|50.28,57.12|Z|1941;Eversong Woods|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|US|
-T The Dead Scar|QID|8475|M|50.34,50.76|Z|1941;Eversong Woods|N|To Ranger Jaela.|
-T Swift Discipline|QID|9066|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|
+C The Dead Scar|QID|8475|QO|1|M|50.46,55.27|Z|1941;Eversong Woods|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|US|
+T The Dead Scar|QID|8475|M|50.34,50.76|Z|1941;Eversong Woods|N|To Ranger Jaela.| ; 540
+T Swift Discipline|QID|9066|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.| ; 540
 F Fairbreeze Village|ACTIVE|9256|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming.|TAXI|Fairbreeze Village|
 F Falconwing Square|ACTIVE|9256|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming.|TAXI|-Fairbreeze Village|
 R Fairbreeze Village|ACTIVE|9256|M|43.93,67.79|Z|1941;Eversong Woods|N|Follow the road south to Fairbreeze Village.\n[color=FF0000]NOTE: [/color]Go west at the first intersection; it turns south after the bend.|TAXI|-Fairbreeze Village|
@@ -199,30 +199,15 @@ f Fairbreeze Village|ACTIVE|9256|M|43.94,69.98|Z|1941;Eversong Woods|N|Get the f
 A Pelt Collection|QID|8491|M|44.72,69.63|Z|1941;Eversong Woods|N|From Velan Brightoak.|
 A Saltheril's Haven|QID|9395|LEAD|9067|M|44.03,70.76|Z|1941;Eversong Woods|N|From Magistrix Landra Dawnstrider.|
 A The Wayward Apprentice|QID|9254|LEAD|8487|M|44.03,70.76|Z|1941;Eversong Woods|N|From Magistrix Landra Dawnstrider.|
-T Fairbreeze Village|QID|9256|M|43.34,70.82|Z|1941;Eversong Woods|N|To Ranger Degolien, up the ramp.|
+T Fairbreeze Village|QID|9256|M|43.34,70.82|Z|1941;Eversong Woods|N|To Ranger Degolien, up the ramp.| ; 320
 A Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|Z|1941;Eversong Woods|N|From Ranger Degolien.|
 A Ranger Sareyn|QID|9358|LEAD|9252|M|43.67,71.31|Z|1941;Eversong Woods|N|From Marniel Amberlight, the Innkeeper.|
 h Fairbreeze Village|ACTIVE|9395|M|43.67,71.31|Z|1941;Eversong Woods|N|With Marniel Amberlight.|
 A Goods from Silvermoon City|QID|9130|M|43.70,71.56|Z|1941;Eversong Woods|N|From Sathiel.|R|BloodElf|
 r Repair/Sell Junk|ACTIVE|9395|M|43.70,71.56|Z|1941;Eversong Woods|N|At Sathiel.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
 C Pelt Collection|QID|8491|M|46.00,67.00|Z|1941;Eversong Woods|L|20772 6|ITEM|20772|N|Springpaws.|S|IZ|-3461; Sunsail Anchorage|
-T Saltheril's Haven|QID|9395|M|38.15,73.56|Z|1941;Eversong Woods|N|To Lord Saltheril.|
+T Saltheril's Haven|QID|9395|M|38.15,73.56|Z|1941;Eversong Woods|N|To Lord Saltheril.| ; 80
 A The Party Never Ends|QID|9067|M|38.15,73.56|Z|1941;Eversong Woods|N|From Lord Saltheril.|
-B Bundle of Fireworks|QID|9067|M|44.04,70.36|Z|1941;Eversong Woods|L|22777|ITEM|22777|N|from Halis Dawnstrider at Fairbreeze Village.|
-T Goods from Silvermoon City|QID|9130|M|43.94,69.98|Z|1941;Eversong Woods|N|To Skymaster Brightdawn.|R|BloodElf|
-A Fly to Silvermoon City|QID|9133|PRE|9130|M|43.94,69.98|Z|1941;Eversong Woods|N|From Skymaster Brightdawn.|R|BloodElf|
-F Silvermoon City|ACTIVE|9067|M|43.94,69.98|Z|1941;Eversong Woods|N|Talk to Skymaster Brightdawn.|
-R Silvermoon City|ACTIVE|9067|M|72.41,85.27|Z|Silvermoon City|N|Run east to Silvermoon City and enter through The Shepherd's Gate.|
-R The Bazaar|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43|CC|Z|Silvermoon City|N|There's a shortcut to The Bazaar if you follow the coordinates through Wayfarer's Rest.|
-T Fly to Silvermoon City|QID|9133|M|53.92,71.03|Z|Silvermoon City|N|To Sathren Azuredawn inside General Goods on the other side of The Bazaar.|R|BloodElf|
-A Skymistress Gloaming|QID|9134|PRE|9133|M|53.92,71.03|Z|Silvermoon City|N|From Sathren Azuredawn.|R|BloodElf|
-B Suntouched Special Reserve|ACTIVE|9067|M|79.49,58.51|Z|Silvermoon City|L|22775|ITEM|22775|N|from Vinemaster Suntouched inside Silvermoon City Inn (located in Murder Row).|
-r Housekeeping|ACTIVE|9067|N|While in Silvermoon City, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
-R Eversong Woods|ACTIVE|9067|M|56.65,49.60|Z|1941;Eversong Woods|N|Exit Silvermoon City using The Shepherd's Gate.|
-T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|To Skymistress Gloaming.|R|BloodElf|
-A Return to Sathiel|QID|9135|PRE|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|From Skymistress Gloaming.|R|BloodElf|
-F Fairbreeze Village|ACTIVE|9067|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming, or just hearth.|
-T Return to Sathiel|QID|9135|M|43.70,71.56|Z|1941;Eversong Woods|N|To Sathiel.|R|BloodElf|
 R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Follow the road west until you reach her camp; just before Sunsail Anchorage.|
 T Captain Kelisendra's Lost Rutters|QID|8887|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
 A Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|From Captain Kelisendra.|
@@ -232,18 +217,37 @@ C Situation at Sunsail Anchorage|QID|8892|QO|1;2|M|32.22,70.93|Z|1941;Eversong W
 C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|Z|1941;Eversong Woods|N|You'll find the Weapon Containers in static locations all around Sunsail Anchorage.|S|NC|IZ|3461; Sunsail Anchorage|
 K Mmmrrrggglll|ACTIVE|8885|QO|1|M|25.67,65.74;24.02,73.70|CC|Z|1941;Eversong Woods|N|Follow the water to Golden Strand. He roams the beach along Golden Strand between the two waypoints.|T|Mmmrrrggglll|
 C Grimscale Pirates!|QID|8886|M|24.9,66.8|Z|1941;Eversong Woods|L|21771 6|ITEM|21771|N|Grimscale Murlocs or pick them up from the ground.|US|
-T The Ring of Mmmrrrggglll|QID|8885|M|30.2,58.5|Z|1941;Eversong Woods|N|To Hathvelion Sungaze.|
+T The Ring of Mmmrrrggglll|QID|8885|M|30.2,58.5|Z|1941;Eversong Woods|N|To Hathvelion Sungaze.| ; 980
 C Lost Armaments|QID|8480|M|31.37,70.00|L|22413 8|Z|1941;Eversong Woods|N|You'll find the Weapon Containers in static locations all around Sunsail Anchorage.|US|NC|
-T Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
-T Lost Armaments|QID|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.|
+C Pelt Collection|QID|8491|M|46.00,67.00|L|20772 6|ITEM|20772|Z|1941;Eversong Woods|N|Springpaws.|US|
+L Level 9|ACTIVE|8491|N|Grind until you're within 2 bubbles of level 9.|LVL|8;-630|
+
+T Pelt Collection|QID|8491|M|44.72,69.62|Z|1941;Eversong Woods|N|To Velan Brightoak in Fairbreeze Village.| ; 630
+B Bundle of Fireworks|QID|9067|M|44.04,70.36|Z|1941;Eversong Woods|L|22777|ITEM|22777|N|from Halis Dawnstrider at Fairbreeze Village.|
+T Goods from Silvermoon City|QID|9130|M|43.94,69.98|Z|1941;Eversong Woods|N|To Skymaster Brightdawn.|R|BloodElf|
+A Fly to Silvermoon City|QID|9133|PRE|9130|M|43.94,69.98|Z|1941;Eversong Woods|N|From Skymaster Brightdawn.|R|BloodElf|
+F Silvermoon City|ACTIVE|9067|M|43.94,69.98|Z|1941;Eversong Woods|N|Talk to Skymaster Brightdawn.|
+R Silvermoon City|ACTIVE|9067|M|72.41,85.27|Z|Silvermoon City|N|Run east to Silvermoon City and enter through The Shepherd's Gate.|
+R The Bazaar|QID|9133|M|69.26,77.04;68.28,74.08;66.50,73.43|CC|Z|Silvermoon City|N|There's a shortcut to The Bazaar if you follow the coordinates through Wayfarer's Rest.|
+T Fly to Silvermoon City|QID|9133|M|53.92,71.03|Z|Silvermoon City|N|To Sathren Azuredawn inside General Goods on the other side of The Bazaar.|R|BloodElf|
+A Skymistress Gloaming|QID|9134|PRE|9133|M|53.92,71.03|Z|Silvermoon City|N|From Sathren Azuredawn.|R|BloodElf|
+B Suntouched Special Reserve|ACTIVE|9067|M|79.49,58.51|Z|Silvermoon City|L|22775|ITEM|22775|N|from Vinemaster Suntouched inside Silvermoon City Inn (located in Murder Row).|
+= Level 9 Training|ACTIVE|9067|M|PLAYER|CC|N|Do your level 9 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|9|IZ|Silvermoon City|
+r Housekeeping|ACTIVE|9067|N|While in Silvermoon City, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
+R Eversong Woods|ACTIVE|9067|M|56.65,49.60|Z|1941;Eversong Woods|N|Exit Silvermoon City using The Shepherd's Gate.|
+T Skymistress Gloaming|QID|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|To Skymistress Gloaming.|R|BloodElf|
+A Return to Sathiel|QID|9135|PRE|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|From Skymistress Gloaming.|R|BloodElf|
+F Fairbreeze Village|ACTIVE|9067|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming, or just hearth.|
+T Return to Sathiel|QID|9135|M|43.70,71.56|Z|1941;Eversong Woods|N|To Sathiel.|R|BloodElf|
+R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Return to her camp.|
+T Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.| ; 700
+T Lost Armaments|QID|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.| ; 630
 A Wretched Ringleader|QID|9076|PRE|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
 K Aldaron|QID|9076|QO|1|M|32.76,69.41|Z|1941;Eversong Woods|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras.|
 C Situation at Sunsail Anchorage|QID|8892|QO|1;2|M|32.80,69.49|Z|1941;Eversong Woods|N|Finish killing the Wretched Thugs and Hooligans.|US|
 T Wretched Ringleader|QID|9076|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.|
-C Pelt Collection|QID|8491|M|46.00,67.00|L|20772 6|ITEM|20772|Z|1941;Eversong Woods|N|Springpaws.|US|
-T Pelt Collection|QID|8491|M|44.72,69.62|Z|1941;Eversong Woods|N|To Velan Brightoak.|
-T Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|Z|1941;Eversong Woods|N|To Ranger Degolien.|
 A Farstrider Retreat|QID|9359|PRE|8892|LEAD|8476|M|43.34,70.82|Z|1941;Eversong Woods|N|From Ranger Degolien.|
+T Situation at Sunsail Anchorage|QID|8892|M|43.34,70.82|Z|1941;Eversong Woods|N|To Ranger Degolien.|
 T Ranger Sareyn|QID|9358|M|46.93,71.79|Z|1941;Eversong Woods|N|To Ranger Sareyn.|
 A Defending Fairbreeze Village|QID|9252|M|46.93,71.79|Z|1941;Eversong Woods|N|From Ranger Sareyn.|
 C Defending Fairbreeze Village|QID|9252|QO|1;2|M|51.12,77.09|N|Kill Rotlimb Marauders and Darkwraiths in The Dead Scar.\n[color=FF0000]NOTE: [/color]Watch out for adds as much as possible.|S|
