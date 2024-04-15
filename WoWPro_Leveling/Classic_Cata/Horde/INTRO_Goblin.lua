@@ -11,18 +11,18 @@ return [[
 
 ; No need for |R|Goblin| tags
 
-A Taking Care of Business|QID|14138|M|56.52,77.00|Z|0194;Kezan|N|From Sassy Hardwrench.|
-T Taking Care of Business|QID|14138|M|60.10,74.66|Z|0194;Kezan|N|To Foreman Dampwick.|
-A Trouble in the Mines|QID|14075|PRE|14138|M|60.10,74.66|Z|0194;Kezan|N|From Foreman Dampwick.|
-A Good Help is Hard to Find|QID|14069|PRE|14138|M|60.10,74.66|Z|0194;Kezan|N|From Foreman Dampwick.|
-C Good Help is Hard to Find|QID|14069|M|70.29,82.50|Z|0194;Kezan|N|Right-Click the Defiant Trolls to adjust their attitude as you head to the mines.|S|NC|
+A Taking Care of Business|QID|14138|M|56.43,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
+T Taking Care of Business|QID|14138|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|
+A Trouble in the Mines|QID|14075|PRE|14138|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|
+A Good Help is Hard to Find|QID|14069|PRE|14138|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|
+C Good Help is Hard to Find|QID|14069|M|70.29,82.50|Z|0194;Kezan|N|Click the Defiant Trolls to adjust their attitude.|S|H|
 C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|CS|Z|0194;Kezan|N|Go into the mines to kill worms.|
 C Good Help is Hard to Find|QID|14069|M|70.29,82.50|Z|0194;Kezan|N|Finishing right-clicking the Defiant Trolls as you head out of the mines and back to Foreman Dampwick.|US|NC|
-T Trouble in the Mines|QID|14075|M|60.35,74.64|Z|0194;Kezan|N|To Foreman Dampwick.|
-T Good Help is Hard to Find|QID|14069|M|60.35,74.64|Z|0194;Kezan|N|To Foreman Dampwick.|
-A Kaja'Cola|QID|25473|PRE|14069&14075|M|60.35,74.64|Z|0194;Kezan|N|From Foreman Dampwick.|
-T Kaja'Cola|QID|25473|M|56.53,76.97|Z|0194;Kezan|N|To Sassy Hardwrench.|
-A Megs in Marketing|QID|28349|PRE|25473|M|56.53,76.97|Z|0194;Kezan|N|From Sassy Hardwrench.|
+T Trouble in the Mines|QID|14075|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|
+T Good Help is Hard to Find|QID|14069|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|
+A Kaja'Cola|QID|25473|PRE|14069&14075|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|
+T Kaja'Cola|QID|25473|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
+A Megs in Marketing|QID|28349|PRE|25473|M|56.43,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
 T Megs in Marketing|QID|28349|M|58.22,76.61|Z|0194;Kezan|N|To Megs Dreadshredder.|
 A Rolling with my Homies|QID|14071|PRE|28349|M|58.22,76.61|Z|0194;Kezan|N|From Megs Dreadshredder.|
 C Rolling with my Homies|QID|14071|QO|1|Z|0194;Kezan|N|You have access to a Hot Rod, which will allow you to move quicker in Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod. If you need to dismount for any reason, right click the Hot Rod buff at the top right of your screen.|U|46856|NC|
@@ -31,9 +31,9 @@ C Rolling with my Homies|QID|14071|QO|4|M|60.76,50.35|Z|0194;Kezan|N|Go pick up 
 C Rolling with my Homies|QID|14071|QO|3|M|47.80,37.40|Z|0194;Kezan|N|Go pick up Ace. He's on the other side of the road bridge.|U|46856|NC|
 T Rolling with my Homies|QID|14071|M|58.24,76.01|Z|0194;Kezan|N|To Megs Dreadshredder.|U|46856|
 A Report for Tryouts|QID|24567|PRE|14071|M|58.24,76.01|Z|0194;Kezan|N|From Megs Dreadshredder.|
-A Off to the Bank|QID|26712|M|56.49,76.98|PRE|14071|Z|0194;Kezan|N|From Candy Cane, inside the house.|GEN|MALE|
-A Off to the Bank|QID|26711|M|56.49,76.98|PRE|14071|Z|0194;Kezan|N|From Chip Endale, inside the house.|GEN|FEMALE|
-A Do it Yourself|QID|14070|PRE|14071|M|56.49,76.98|Z|0194;Kezan|N|From Sassy Hardwrench.|
+A Off to the Bank|QID|26712|M|56.31,77.11|PRE|14071|Z|0194;Kezan|N|From Candy Cane, inside the house.|GEN|MALE|
+A Off to the Bank|QID|26711|M|56.32,76.77|PRE|14071|Z|0194;Kezan|N|From Chip Endale, inside the house.|GEN|FEMALE|
+A Do it Yourself|QID|14070|PRE|14071|M|56.43,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
 T Report for Tryouts|QID|24567|M|48.75,57.83|Z|0194;Kezan|N|To Coach Crosscheck. You have no fall damage whilst mounted in your Hot-Rod.|U|46856|
 A The Replacements|QID|24488|PRE|24567|M|48.75,57.83|Z|0194;Kezan|N|From Coach Crosscheck.|
 C The Replacements|QID|24488|M|43.05,62.79|Z|0194;Kezan|N|Look around for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|U|46856|S|NC|
@@ -47,7 +47,7 @@ T Off to the Bank|QID|26711^26712|M|30.09,71.67|Z|0194;Kezan|N|To FBoK Bank Tell
 A The New You|QID|14109^14110|PRE|26711^26712|M|30.09,71.67|Z|0194;Kezan|N|From FBoK Bank Teller.|
 C Hip New Outfit|QID|14109^14110|QO|2|M|37.59,55.21|Z|0194;Kezan|N|Talk to Szabo to get the Hip New Outfit.|U|46856|CHAT|
 C Shiny Bling|QID|14109^14110|QO|1|M|34.87,45.71|Z|0194;Kezan|N|Talk to Gappy Silvertooth to get the Shiny Bling.|U|46856|CHAT|
-C Cool Shades|QID|14109^14110|QO|3|M|40.6,45.89|Z|0194;Kezan|N|Talk to Missa Spekkles to get the Cool Shades.|U|46856|CHAT|
+C Cool Shades|QID|14109^14110|QO|3|M|40.6,45.89|Z|0194;Kezan|N|[Coords]Talk to Missa Spekkles to get the Cool Shades.|U|46856|CHAT|
 T The Replacements|QID|24488|M|48.73,57.42|Z|0194;Kezan|N|To Coach Crosscheck.|U|46856|
 A Necessary Roughness|QID|24502|PRE|24488|M|48.73,57.42|Z|0194;Kezan|N|From Coach Crosscheck.|
 C Necessary Roughness|QID|24502|M|47.70,57.75|QO|1|Z|0194;Kezan|N|Head to the Bilgewater Buccaneer, then hop onto the Bilgewater Buccaneer.|NC|
@@ -58,12 +58,12 @@ C Fourth and Goal|QID|24503^28414|M|47.70,57.75|Z|0194;Kezan|N|Use Key 1 to kick
 T Fourth and Goal|QID|24503^28414|M|48.62,57.74|Z|0194;Kezan|N|Wait until the dragon finishes his attack, then To Coach Crosscheck.|U|46856|
 A Give Sassy the News|QID|24520|PRE|24503^28414|M|48.62,57.74|Z|0194;Kezan|N|From Coach Crosscheck.|
 H KTC Headquarters|ACTIVE|14109^14110|M|56.62,76.90|Z|0194;Kezan|N|Hearthstone, or ride back to KTC Headquarters.|U|46856|
-T The New You|QID|14109|M|56.42,76.97|Z|0194;Kezan|N|To Candy Cane, back at KTC Headquarters.|U|46856|GEN|MALE|
-T The New You|QID|14110|M|56.42,76.97|Z|0194;Kezan|N|To Chip Endale, back at KTC Headquarters.|U|46856|GEN|FEMALE|
-T Give Sassy the News|QID|24520|M|56.42,76.97|Z|0194;Kezan|N|To Sassy Hardwrench.|
-T Do it Yourself|QID|14070|M|56.42,76.97|Z|0194;Kezan|N|To Sassy Hardwrench.|
-A Life of the Party|QID|14113|PRE|24520&14070&14109|M|56.37,77.02|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|
-A Life of the Party|QID|14153|PRE|24520&14070&14110|M|56.37,77.02|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|
+T The New You|QID|14109|M|56.31,77.11|Z|0194;Kezan|N|To Candy Cane, back at KTC Headquarters.|U|46856|GEN|MALE|
+T The New You|QID|14110|M|56.32,76.77|Z|0194;Kezan|N|To Chip Endale, back at KTC Headquarters.|U|46856|GEN|FEMALE|
+T Give Sassy the News|QID|24520|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
+T Do it Yourself|QID|14070|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
+A Life of the Party|QID|14113|PRE|24520&14070&14109|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|
+A Life of the Party|QID|14153|PRE|24520&14070&14110|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|
 C Life of the Party|QID|14113^14153|M|60.21,85.76|Z|0194;Kezan|N|Entertain 10 Partygoers. \n\n[color=ff8000]Key 1:[/color] (Bubbly) for those holding a drink glass\n\n[color=ff8000]Key 2:[/color] (Bucket) if they have blue swirls over their head.\n\n[color=ff8000]Key 3:[/color] (Dance) if they are dancing\n\n[color=ff8000]Key 4:[/color] (Fireworks) if they are holding a red sparkler\n\n[color=ff8000]Key 5:[/color] (Hors D'oeuvres) if they are holding a chicken drumstick.\n\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
 T Life of the Party|QID|14113^14153|M|56.52,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 A Pirate Party Crashers|QID|14115|PRE|14113^14153|M|56.52,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
@@ -80,21 +80,21 @@ C Robbing Hoods|QID|14121|M|38.82,71.43|Z|0194;Kezan|N|Run over the Hired Looter
 R First Bank of Kezan|ACTIVE|14122|M|29.74,64.72|Z|0194;Kezan|N|Head to the First Bank of Kezan|U|46856|
 C The Great Bank Heist|QID|14122|QO|1|M|30.10,71.41|Z|0194;Kezan|N|Click on one of the First Bank of Kezan Vaults.|NC|
 C The Great Bank Heist|QID|14122|QO|2|M|30.10,71.41|Z|0194;Kezan|N|Use whichever ability it tells you to. You'll have 5 seconds to click the right one, don't worry if you get any wrong, you'll keep going until you get it right enough times.\nKey 1 to use your Amazing G-Ray\nKey 2 to use your Blastcrackers\nKey 3 to use your Ear-O-Scope\nKey 4 to use your Infinifold Lockpick\nKey 5 to use your Kaja'mite Drill.|NC|
-C Robbing Hoods|QID|14121|M|30.8,60.8;38.4,76.2;46.7,59.8;38.5,48.31|CN|Z|0194;Kezan|N|Finish running over the Hired Looters as you head to Gallywix's Villa.|U|46856|US|
-R Gallywix's Villa|ACTIVE|14123|M|20.4,36.5|Z|0194;Kezan|N|Stay in your Hot Rod and head over to Gallywix's Villa.|U|46856|
+C Robbing Hoods|QID|14121|M|30.8,60.8;38.4,76.2;46.7,59.8;38.5,48.31|CN|Z|0194;Kezan|N|[Coords]Finish running over the Hired Looters as you head to Gallywix's Villa.|U|46856|US|
+R Gallywix's Villa|ACTIVE|14123|M|20.4,36.5|Z|0194;Kezan|N|[Coords]Stay in your Hot Rod and head over to Gallywix's Villa.|U|46856|
 C Waltz Right In|QID|14123|QO|1|M|16.74,46.08|Z|0194;Kezan|N|Ride into the building at the south end of the compound, and when you dismount, run up the stairs and loot Maldy's Falcon from the bedroom wall.\nWARNING! Your disguise won't fool the Keensnout Potbelly pig, or any Villa Mook's that see the pig attacking you.|U|46856|NC|
-C Waltz Right In|QID|14123|QO|2|M|13.0,35.2|Z|0194;Kezan|N|Head to the hut on the western end of the compound, and loot the Goblin Lisa from the wall.|U|46856|NC|
-C Waltz Right In|QID|14123|QO|3|M|19.9,30.7|Z|0194;Kezan|N|Head into the building at the eastern end of the compound and loot the Ultimate Bomb.|U|46856|NC|
+C Waltz Right In|QID|14123|QO|2|M|13.0,35.2|Z|0194;Kezan|N|[Coords]Head to the hut on the western end of the compound, and loot the Goblin Lisa from the wall.|U|46856|NC|
+C Waltz Right In|QID|14123|QO|3|M|19.9,30.7|Z|0194;Kezan|N|[Coords]Head into the building at the eastern end of the compound and loot the Ultimate Bomb.|U|46856|NC|
 T Waltz Right In|QID|14123|M|59.41,77.62|Z|0194;Kezan|N|To Slinky Sharpshiv at KTC Headquarters.|U|46856|
 T The Great Bank Heist|QID|14122|M|59.78,77.28|Z|0194;Kezan|N|To Sassy|
 T Robbing Hoods|QID|14121|M|60.12,78.09|Z|0194;Kezan|N|To Megs|
-A Liberate the Kaja'mite|QID|14124|PRE|14120|M|62.85,77.76|Z|0194;Kezan|N|From Foreman Dampwick.|U|46856|
+A Liberate the Kaja'mite|QID|14124|PRE|14120|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|U|46856|
 C Liberate the Kaja'mite|QID|14124|M|71.19,77.39|Z|0194;Kezan|N|Use the bombs on the sparkling green ore spots, then pick up the Kaja'mite Chunks.|U|48768|NC|
-T Liberate the Kaja'mite|QID|14124|M|62.92,77.54|Z|0194;Kezan|N|To Foreman Dampwick.|U|46856|
+T Liberate the Kaja'mite|QID|14124|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|U|46856|
 A 447|QID|14125|PRE|14121&14122&14123&14124|M|59.78,77.13|Z|0194;Kezan|N|From Sassy Hardwrench.|
-C Overload the Defective Generator|QID|14125|QO|1|Z|0194;Kezan|N|Head inside the building and click on the Defective Generator.|M|56.13,76.6|NC|
-C Activate the Leaky Stove|QID|14125|QO|2|Z|0194;Kezan|N|Head over to the corner and click on the Leaky Stove.|M|56.05,74.7|NC|
-C Drop a Cigar on the Flammable Bed|QID|14125|QO|3|Z|0194;Kezan|N|Head upstairs and click on the Flammable Bed.|M|56.61,75.15|NC|
+C Overload the Defective Generator|QID|14125|QO|1|M|56.13,76.6|Z|0194;Kezan|N|[Coords]Head inside the building and click on the Defective Generator.|NC|
+C Activate the Leaky Stove|QID|14125|QO|2|M|56.05,74.7|Z|0194;Kezan|N|[Coords]Head over to the corner and click on the Leaky Stove.|NC|
+C Drop a Cigar on the Flammable Bed|QID|14125|QO|3|M|56.61,75.15|Z|0194;Kezan|N|[Coords]Head upstairs and click on the Flammable Bed.|NC|
 C Activate the Gasbot Control Panel|QID|14125|QO|4|M|60.63,76.87|Z|0194;Kezan|N|Head outside and activate the Gasbot Control Panel, then wait for the Gasbot to do it's job.|NC|
 T 447|QID|14125|M|59.87,76.72|Z|0194;Kezan|N|To Claims Adjuster.|
 A Life Savings|QID|14126|PRE|14125|M|59.75,76.90|Z|0194;Kezan|N|From Sassy Hardwrench.|
@@ -342,20 +342,20 @@ T Victory!|QID|25265|M|42.14,17.41|Z|0174;The Lost Isles|N|To Thrall.|
 N Quest Skipping Not Allowed|QID|99999|Z|0174;The Lost Isles|N|You won't be able to skip the quests in this zone. Please reset this guide and pick up all the quests.|LEAD|25265|
 A Warchief's Emissary|QID|25266|PRE|25265|LEAD|25267|M|42.14,17.41|Z|0174;The Lost Isles|N|From Thrall.|
 R Bladefist Bay|ACTIVE|25266|M|42.59,16.40|Z|0174;The Lost Isles|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|
-T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|1411;Durotar|N|To Korkron Loyalist.|
-A Message for Saurfang|QID|25267|M|57.67,9.6|Z|1411;Durotar|N|From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
+T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|1411;Durotar|N|[Coords]To Korkron Loyalist.|
+A Message for Saurfang|QID|25267|M|57.67,9.6|Z|1411;Durotar|N|[Coords]From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
 T Message for Saurfang|QID|25267|M|48.26,70.93|Z|1454;Orgrimmar|N|To Saurfang, inside Grommash Hold.|
 A Report to the Labor Captain|QID|25275|PRE|25267|LEAD|14129|M|49.22,71.87|Z|1454;Orgrimmar|N|From Eitrigg.|
-A Missing Reports|QID|26803|M|49.0,72.2|Z|1454;Orgrimmar|N|From Eitrigg.|RANK|2|
-T Missing Reports|QID|26803|M|49.4,59.2|Z|1454;Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
-A Flight to Razor Hill|QID|26804|PRE|26803|M|49.4,59.2|Z|1454;Orgrimmar|N|From Doras, the flight master.|RANK|2|
-F Razor Hill|ACTIVE|26804|M|49.4,59.2|Z|1454;Orgrimmar|N|Fly to Razor Hill.|RANK|2|
-T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|1411;Durotar|N|To Gar'Thok.|RANK|2|
-A Reports to Orgrimmar|QID|26806|PRE|26804|M|51.8,43.4|Z|1411;Durotar|N|From Gar'Thok.|RANK|2|
-T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|1411;Durotar|N|To Burok.|RANK|2|
-A Return to Eitrigg|QID|26807|PRE|26806|M|53.0,43.6|Z|1411;Durotar|N|To Burok.|RANK|2|
-F Orgrimmar|ACTIVE|26807|M|53.0,43.6|Z|1411;Durotar|N|Fly back to Orgrimmar.|
-T Return to Eitrigg|QID|26807|M|49.0,72.2|Z|1454;Orgrimmar|N|To Eitrigg.|RANK|2|
+A Missing Reports|QID|26803|M|49.0,72.2|Z|1454;Orgrimmar|N|[Coords]From Eitrigg.|RANK|2|
+T Missing Reports|QID|26803|M|49.4,59.2|Z|1454;Orgrimmar|N|[Coords]To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
+A Flight to Razor Hill|QID|26804|PRE|26803|M|49.4,59.2|Z|1454;Orgrimmar|N|[Coords]From Doras, the flight master.|RANK|2|
+F Razor Hill|ACTIVE|26804|M|49.4,59.2|Z|1454;Orgrimmar|N|[Coords]Fly to Razor Hill.|RANK|2|
+T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|1411;Durotar|N|[Coords]To Gar'Thok.|RANK|2|
+A Reports to Orgrimmar|QID|26806|PRE|26804|M|51.8,43.4|Z|1411;Durotar|N|[Coords]From Gar'Thok.|RANK|2|
+T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|1411;Durotar|N|[Coords]To Burok.|RANK|2|
+A Return to Eitrigg|QID|26807|PRE|26806|M|53.0,43.6|Z|1411;Durotar|N|[Coords]To Burok.|RANK|2|
+F Orgrimmar|ACTIVE|26807|M|53.0,43.6|Z|1411;Durotar|N|[Coords]Fly back to Orgrimmar.|
+T Return to Eitrigg|QID|26807|M|49.0,72.2|Z|1454;Orgrimmar|N|[Coords]To Eitrigg.|RANK|2|
 N City Facilities|ACTIVE|25275|N|You can take this opportunity to use the city's facilities (Repair, Auction House, etc.) before heading to Azshara.|S|
 R Azshara|ACTIVE|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|Z|1454;Orgrimmar|N|Run to Azshara.|
 T Report to the Labor Captain|QID|25275|M|26.98,77.11|Z|1447;Azshara|N|To Labor Captain Grabbit.|
