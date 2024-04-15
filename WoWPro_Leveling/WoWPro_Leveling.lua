@@ -77,12 +77,14 @@ WoWPro.Leveling.ClassicCataStartGuides = {
     Draenei = "SnoAmmen0105",
     Dwarf = 'GylDwa0105',
     Gnome = 'GylGno0105',
+    Goblin = "MalKez0105",
     Human = 'KurNShire0105',
     NightElf = "BitSha0105",
     Orc = 'JiyDur0105',
     Scourge = 'JiyDk0105',
     Tauren = 'GylNar0105',
-    Troll = 'BitDur0105'
+    Troll = 'BitDur0105',
+    Worgen = "RpoGil0113"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
