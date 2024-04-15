@@ -142,7 +142,6 @@ function WoWPro.CreateGuideList()
         title:SetPoint("TOP", frame, "TOP", 0, 50)
     end
     frame.title = title
-    
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
     subtitle:SetHeight(40)
     if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
