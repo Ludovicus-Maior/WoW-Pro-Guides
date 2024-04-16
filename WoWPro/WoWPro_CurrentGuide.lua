@@ -17,8 +17,10 @@ frame.parent = "WoWPro"
 if WoWPro.CLASSIC then
     frame:SetSize(600, 500)
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+elseif WoWPro.WRATH then
+    frame:SetSize(650, 520)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
 else
-    -- Settings for WoW Retail
     frame:SetSize(625, 480)
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
 end
@@ -40,8 +42,10 @@ do
     if WoWPro.CLASSIC then
         title:SetPoint("TOPLEFT", 16, -80)
         title:SetPoint("RIGHT", frame, -16, 0)
+    elseif WoWPro.WRATH then
+        title:SetPoint("TOPLEFT", 16, -60)
+        title:SetPoint("RIGHT", frame, -16, -10)
     else
-        -- Position for WoW Retail
         title:SetPoint("TOPLEFT", 16, 0)
         title:SetPoint("RIGHT", frame, -18, -5)
     end
