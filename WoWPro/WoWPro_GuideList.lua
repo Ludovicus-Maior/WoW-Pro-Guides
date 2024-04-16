@@ -107,14 +107,12 @@ function WoWPro.CreateGuideList()
     frame.parent = "WoWPro"
     if WoWPro.CLASSIC then
         frame:SetSize(600, 500)
-    else
-        -- Settings for WoW Retail
-        frame:SetSize(625, 600)
-    end
-    if WoWPro.CLASSIC then
+        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    elseif WoWPro.WRATH then
+        frame:SetSize(650, 520)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     else
-        -- Position for WoW Retail
+        frame:SetSize(625, 600)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     end
     frame:SetFrameStrata("DIALOG")
@@ -128,14 +126,14 @@ function WoWPro.CreateGuideList()
     frame:Hide()
     WoWPro.GuideList = frame
 
-    -- Add the frame to the special frames list
     _G.table.insert(_G.UISpecialFrames, frame:GetName())
 
     local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
     if WoWPro.CLASSIC then
         title:SetPoint("TOP", frame, "TOP", 0, -30)
+    elseif WoWPro.WRATH then
+        title:SetPoint("TOP", frame, "TOP", 0, -10)
     else
-        -- Position for WoW Retail
         title:SetPoint("TOP", frame, "TOP", 0, 50)
     end
     frame.title = title
@@ -143,8 +141,9 @@ function WoWPro.CreateGuideList()
     subtitle:SetHeight(40)
     if WoWPro.CLASSIC then
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -30)
+    elseif WoWPro.WRATH then
+        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -45)
     else
-        -- Position for WoW Retail
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -60)
     end
     subtitle:SetText(L["Use the scroll bar (or scroll wheel) to see all the guides.\nClick to select a guide and load it.\nSHIFT+click a guide to reset it and then load it."])
@@ -168,8 +167,9 @@ function WoWPro.CreateGuideList()
             else
                 if WoWPro.CLASSIC then
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, -1)
+                elseif WoWPro.WRATH then
+                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 1)
                 else
-                    -- Position for WoW Retail
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 80, 20)
                 end
             end
