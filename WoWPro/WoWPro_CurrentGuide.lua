@@ -13,18 +13,13 @@ WoWPro.CreateCurrentGuideTitle = true
 local frame = _G.CreateFrame("Frame", "CreateGuide", _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
-if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
-    -- Settings for WoW Classic
+frame.parent = "WoWPro"
+if WoWPro.CLASSIC then
     frame:SetSize(600, 500)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
 else
     -- Settings for WoW Retail
     frame:SetSize(625, 480)
-end
-if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
-    -- Position for WoW Classic
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-else
-    -- Position for WoW Retail
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
 end
 frame:SetFrameStrata("DIALOG")
@@ -42,8 +37,7 @@ WoWPro.CurrentGuideFrame = frame
 
 do
     local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
-    if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
-        -- Position for WoW Classic
+    if WoWPro.CLASSIC then
         title:SetPoint("TOPLEFT", 16, -80)
         title:SetPoint("RIGHT", frame, -16, 0)
     else

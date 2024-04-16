@@ -105,15 +105,13 @@ function WoWPro.CreateGuideList()
     local frame = _G.CreateFrame("Frame", "WoWPro_GuideList", _G.UIParent, "BackdropTemplate")
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
-    if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
-        -- Settings for WoW Classic
+    if WoWPro.CLASSIC then
         frame:SetSize(600, 500)
     else
         -- Settings for WoW Retail
         frame:SetSize(625, 600)
     end
-    if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
-        -- Position for WoW Classic
+    if WoWPro.CLASSIC then
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     else
         -- Position for WoW Retail
@@ -134,18 +132,17 @@ function WoWPro.CreateGuideList()
     _G.table.insert(_G.UISpecialFrames, frame:GetName())
 
     local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
-    if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
-        -- Position for WoW Classic
+    if WoWPro.CLASSIC then
         title:SetPoint("TOP", frame, "TOP", 0, -30)
     else
         -- Position for WoW Retail
         title:SetPoint("TOP", frame, "TOP", 0, 50)
     end
     frame.title = title
+    
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
     subtitle:SetHeight(40)
-    if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
-        -- Position for WoW Classic
+    if WoWPro.CLASSIC then
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -30)
     else
         -- Position for WoW Retail
@@ -170,8 +167,7 @@ function WoWPro.CreateGuideList()
             if prev then
                 tab:SetPoint("BOTTOMLEFT", prev, "BOTTOMRIGHT", 0, 0)
             else
-                if _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC then
-                    -- Position for WoW Classic
+                if WoWPro.CLASSIC then
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, -1)
                 else
                     -- Position for WoW Retail
