@@ -105,8 +105,16 @@ function WoWPro.CreateGuideList()
     local frame = _G.CreateFrame("Frame", "WoWPro_GuideList", _G.UIParent, "BackdropTemplate")
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
-    frame:SetSize(625, 480)
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    if WoWPro.CLASSIC then
+        frame:SetSize(600, 500)
+        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    elseif WoWPro.WRATH then
+        frame:SetSize(650, 520)
+        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    else
+        frame:SetSize(625, 600)
+        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    end
     frame:SetFrameStrata("DIALOG")
     local texture = frame:CreateTexture(nil, "BACKGROUND")
     texture:SetAllPoints(true)
@@ -118,25 +126,32 @@ function WoWPro.CreateGuideList()
     frame:Hide()
     WoWPro.GuideList = frame
 
-    -- Add the frame to the special frames list
     _G.table.insert(_G.UISpecialFrames, frame:GetName())
 
     local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
-    title:SetPoint("TOP", frame, "TOP")
-    title:SetText("WoWPro - "..L["Guide List"])
-    title:SetJustifyH("CENTER")
+    if WoWPro.CLASSIC then
+        title:SetPoint("TOP", frame, "TOP", 0, -30)
+    elseif WoWPro.WRATH then
+        title:SetPoint("TOP", frame, "TOP", 0, -10)
+    else
+        title:SetPoint("TOP", frame, "TOP", 0, 50)
+    end
     frame.title = title
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-    subtitle:SetHeight(32)
-    subtitle:SetPoint("TOP", title, "BOTTOM", 0, -8)
-    subtitle:SetText(L["Use the tabs to look at different guide types. "
-    .."\nUse the scroll bar (or scroll wheel) to see all the guides. Click to select a guide and load it. "
-    .."\nSHIFT+click a guide to reset it and then load it."])
+    subtitle:SetHeight(40)
+    if WoWPro.CLASSIC then
+        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -30)
+    elseif WoWPro.WRATH then
+        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -45)
+    else
+        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -60)
+    end
+    subtitle:SetText(L["Use the scroll bar (or scroll wheel) to see all the guides.\nClick to select a guide and load it.\nSHIFT+click a guide to reset it and then load it."])
     subtitle:SetNonSpaceWrap(true)
     subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10)
     frame.subtitle = subtitle
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
-    scrollBox:SetPoint("TOPLEFT", frame, 20, -130)
+    scrollBox:SetPoint("TOPLEFT", frame, 5, -150)
     scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
     _G.Mixin(scrollBox, GuideListMixin)
     frame.scrollBox = scrollBox
@@ -150,7 +165,13 @@ function WoWPro.CreateGuideList()
             if prev then
                 tab:SetPoint("BOTTOMLEFT", prev, "BOTTOMRIGHT", 0, 0)
             else
-                tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 50, -2)
+                if WoWPro.CLASSIC then
+                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, -1)
+                elseif WoWPro.WRATH then
+                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 1)
+                else
+                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 80, 20)
+                end
             end
             tab.name = name
             tab:SetScript("OnClick", Tab_OnClick)
@@ -171,6 +192,33 @@ function WoWPro.CreateGuideList()
     end
 
     --OnShow(WoWPro.GuideList)
+end
+
+--[[ OLD ]]--
+function WoWPro.ActivateTab(tab)
+    if not WoWPro[tab.name].GuideList then
+        WoWPro[tab.name].GuideList = {}
+    end
+    if WoWPro[tab.name].GuideList.Init then
+        WoWPro[tab.name].GuideList.Init()
+    end
+    if not WoWPro[tab.name].GuideList.Frame then
+        WoWPro[tab.name]:CreateGuideTabFrame()
+    else
+        WoWPro[tab.name]:Setup_TitleRow(WoWPro[tab.name].GuideList.Frame)
+    end
+    WoWPro.GuideList.TitleRow:Show()
+    WoWPro[tab.name].GuideList.Frame:SetSize(WoWPro[tab.name].GuideList.Frame.frameWidth,WoWPro[tab.name].GuideList.Frame.frameHeight)
+    WoWPro.GuideList.ScrollFrame:SetScrollChild(WoWPro[tab.name].GuideList.Frame)
+    local vHeight = WoWPro[tab.name].GuideList.Frame.frameHeight-WoWPro.GuideList.ScrollFrame:GetHeight()
+    if vHeight < 0 then
+        vHeight = WoWPro[tab.name].GuideList.Frame.frameHeight
+    end
+    WoWPro.GuideList.scrollBar:SetMinMaxValues(0,vHeight)
+    WoWPro.GuideList.scrollBar:SetValue(0)
+    WoWPro.GuideList.ScrollFrame:SetVerticalScroll(0)
+    WoWPro.GuideList.ScrollFrame:Show()
+    WoWPro[tab.name].GuideList.Frame:Show()
 end
 
 --[[ OLD ]]--
