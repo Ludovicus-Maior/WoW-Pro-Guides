@@ -16,7 +16,7 @@ T Taking Care of Business|QID|14138|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Damp
 A Trouble in the Mines|QID|14075|PRE|14138|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|
 A Good Help is Hard to Find|QID|14069|PRE|14138|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|
 C Good Help is Hard to Find|QID|14069|M|70.29,82.50|Z|0194;Kezan|N|Click the Defiant Trolls to adjust their attitude.|S|H|
-C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|CS|Z|0194;Kezan|N|Go into the mines to kill worms.|
+C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|CN|Z|0194;Kezan|N|Go into one of the three mines to kill worms.|
 C Good Help is Hard to Find|QID|14069|M|70.29,82.50|Z|0194;Kezan|N|Finishing right-clicking the Defiant Trolls as you head out of the mines and back to Foreman Dampwick.|US|NC|
 T Trouble in the Mines|QID|14075|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|
 T Good Help is Hard to Find|QID|14069|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|
