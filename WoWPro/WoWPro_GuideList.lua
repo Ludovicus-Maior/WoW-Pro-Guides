@@ -112,7 +112,7 @@ function WoWPro.CreateGuideList()
         frame:SetSize(650, 520)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     elseif WoWPro.CATA then
-        frame:SetSize(700, 550) 
+        frame:SetSize(700, 550)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     else
         frame:SetSize(625, 600)
