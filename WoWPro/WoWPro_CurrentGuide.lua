@@ -45,6 +45,9 @@ do
     elseif WoWPro.WRATH then
         title:SetPoint("TOPLEFT", 16, -60)
         title:SetPoint("RIGHT", frame, -16, -10)
+    elseif WoWPro.CATA then
+        title:SetPoint("TOPLEFT", 16, -65)
+        title:SetPoint("RIGHT", frame, -16, -20)
     else
         title:SetPoint("TOPLEFT", 16, 0)
         title:SetPoint("RIGHT", frame, -18, -5)

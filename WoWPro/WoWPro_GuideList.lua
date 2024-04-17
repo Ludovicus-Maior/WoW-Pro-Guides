@@ -111,6 +111,9 @@ function WoWPro.CreateGuideList()
     elseif WoWPro.WRATH then
         frame:SetSize(650, 520)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    elseif WoWPro.CATA then
+        frame:SetSize(700, 550) 
+        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     else
         frame:SetSize(625, 600)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
@@ -133,6 +136,8 @@ function WoWPro.CreateGuideList()
         title:SetPoint("TOP", frame, "TOP", 0, -30)
     elseif WoWPro.WRATH then
         title:SetPoint("TOP", frame, "TOP", 0, -10)
+    elseif WoWPro.CATA then
+        title:SetPoint("TOP", frame, "TOP", 0, -20) -- Set the point for Cataclysm
     else
         title:SetPoint("TOP", frame, "TOP", 0, 50)
     end
@@ -143,6 +148,8 @@ function WoWPro.CreateGuideList()
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -30)
     elseif WoWPro.WRATH then
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -45)
+    elseif WoWPro.CATA then
+        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -55) -- Set the point for Cataclysm
     else
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -60)
     end
@@ -169,6 +176,8 @@ function WoWPro.CreateGuideList()
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, -1)
                 elseif WoWPro.WRATH then
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 1)
+                elseif WoWPro.CATA then
+                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 15, 2) -- Set the point for Cataclysm
                 else
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 80, 20)
                 end
