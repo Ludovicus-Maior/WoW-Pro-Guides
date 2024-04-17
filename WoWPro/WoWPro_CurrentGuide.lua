@@ -13,8 +13,17 @@ WoWPro.CreateCurrentGuideTitle = true
 local frame = _G.CreateFrame("Frame", "CreateGuide", _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
-frame:SetSize(625, 480)
-frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+frame.parent = "WoWPro"
+if WoWPro.CLASSIC then
+    frame:SetSize(600, 500)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+elseif WoWPro.WRATH then
+    frame:SetSize(650, 520)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+else
+    frame:SetSize(625, 480)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+end
 frame:SetFrameStrata("DIALOG")
 local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
@@ -29,12 +38,20 @@ frame:Hide()
 WoWPro.CurrentGuideFrame = frame
 
 do
-local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
-title:SetPoint("TOPLEFT", 16, -16)
-title:SetPoint("RIGHT", frame, -16, 0)
-title:SetText("WoWPro - "..L["Current Guide"])
-title:SetJustifyH("CENTER")
-frame.title = title
+    local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
+    if WoWPro.CLASSIC then
+        title:SetPoint("TOPLEFT", 16, -80)
+        title:SetPoint("RIGHT", frame, -16, 0)
+    elseif WoWPro.WRATH then
+        title:SetPoint("TOPLEFT", 16, -60)
+        title:SetPoint("RIGHT", frame, -16, -10)
+    else
+        title:SetPoint("TOPLEFT", 16, 0)
+        title:SetPoint("RIGHT", frame, -18, -5)
+    end
+    title:SetText("WoWPro - "..L["Current Guide"])
+    title:SetJustifyH("CENTER")
+    frame.title = title
 
 local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
 subtitle:SetHeight(32)
