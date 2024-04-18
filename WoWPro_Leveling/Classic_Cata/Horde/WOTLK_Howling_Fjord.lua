@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide("JamHow7071", "Leveling", "Howling Fjord", "Jame", "Horde", 4)
-WoWPro:GuideNickname(guide, "Howling Fjord")
+WoWPro:GuideLevels(guide, 70, 71)
 WoWPro:GuideName(guide,"Howling Fjord")
+WoWPro:GuideNickname(guide, "Howling Fjord")
 WoWPro:GuideNextGuide(guide, "Dragonblight")
 WoWPro:GuideSteps(guide, function()
 return [[
