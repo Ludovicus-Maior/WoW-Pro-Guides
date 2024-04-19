@@ -95,7 +95,7 @@ C Blessing of Frost|QID|37918|M|49.16,21.36|Z|Frostfire Ridge|QO|1|N|Go to the t
 T Gronnsbane: The Blessing of Frost|QID|37918|N|To UI|
 A Gronnsbane: The Blessing of Beasts|QID|37919|PRE|37918|N|From UI|FACTION|Alliance|
 A Gronnsbane: The Blessing of Beasts|QID|37995|PRE|37918|N|From UI|FACTION|Horde|
-K Gok'tal|QID|37995^37919|M|45.62,28.16|Z|Frostfire Ridge|QO|1|N|Click on the altar and the place the offering. Kill the Rylak. Stay out of the frosted ground ans side step his breath!|
+K Gok'tal|ACTIVE|37995^37919|M|45.62,28.16|Z|Frostfire Ridge|QO|1|N|Click on the altar and the place the offering. Kill the Rylak. Stay out of the frosted ground ans side step his breath!|
 C Blessing of Beasts|QID|37919^37995|M|45.57,28.15|Z|Frostfire Ridge|QO|2|N|Click on the corpse to bloody the weapon.|
 T Gronnsbane: The Blessing of Beasts|QID|37919|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Gronnsbane: The Blessing of Beasts|QID|37995|N|To Rokhan, at your Garrison.|FACTION|Horde|
