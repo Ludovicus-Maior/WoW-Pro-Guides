@@ -23,14 +23,14 @@ T Good Help is Hard to Find|QID|14069|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Da
 A Kaja'Cola|QID|25473|PRE|14069&14075|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|
 T Kaja'Cola|QID|25473|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 A Megs in Marketing|QID|28349|PRE|25473|M|56.43,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
-T Megs in Marketing|QID|28349|M|58.22,76.61|Z|0194;Kezan|N|To Megs Dreadshredder.|
-A Rolling with my Homies|QID|14071|PRE|28349|M|58.22,76.61|Z|0194;Kezan|N|From Megs Dreadshredder.|
-C Rolling with my Homies|QID|14071|QO|1|Z|0194;Kezan|N|You have access to a Hot Rod, which will allow you to move quicker in Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod. If you need to dismount for any reason, right click the Hot Rod buff at the top right of your screen.|U|46856|NC|
-C Rolling with my Homies|QID|14071|QO|2|M|58.10,86.60|Z|0194;Kezan|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|U|46856|NC|
-C Rolling with my Homies|QID|14071|QO|4|M|60.76,50.35|Z|0194;Kezan|N|Go pick up Gobber. Just follow the path north from KTC Headquarters.|U|46856|NC|
-C Rolling with my Homies|QID|14071|QO|3|M|47.80,37.40|Z|0194;Kezan|N|Go pick up Ace. He's on the other side of the road bridge.|U|46856|NC|
-T Rolling with my Homies|QID|14071|M|58.24,76.01|Z|0194;Kezan|N|To Megs Dreadshredder.|U|46856|
-A Report for Tryouts|QID|24567|PRE|14071|M|58.24,76.01|Z|0194;Kezan|N|From Megs Dreadshredder.|
+T Megs in Marketing|QID|28349|M|58.24,76.45|Z|0194;Kezan|N|To Megs Dreadshredder.|
+A Rolling with my Homies|QID|14071|PRE|28349|M|58.24,76.45|Z|0194;Kezan|N|From Megs Dreadshredder.|
+C Hot Rod|QID|14071|QO|1|N|You now have access to a Hot Rod to use to drive around Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod.\n[color=FF0000]NOTE: [/color]If you need to dismount for any reason, click the 'Leave vehicle' button on the right.|U|46856|V|
+R Rolling with my Homies|QID|14071|QO|2|M|58.16,86.27|Z|0194;Kezan|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|U|46856|NC|
+R Rolling with my Homies|QID|14071|QO|4|M|60.76,50.35|Z|0194;Kezan|N|Go pick up Gobber. Just follow the path north from KTC Headquarters.|U|46856|NC|
+R Rolling with my Homies|QID|14071|QO|3|M|47.80,37.40|Z|0194;Kezan|N|Go pick up Ace. He's on the other side of the road bridge.|U|46856|NC|
+T Rolling with my Homies|QID|14071|M|58.24,76.45|Z|0194;Kezan|N|To Megs Dreadshredder.|U|46856|
+A Report for Tryouts|QID|24567|PRE|14071|M|58.24,76.45|Z|0194;Kezan|N|From Megs Dreadshredder.|
 A Off to the Bank|QID|26712|M|56.31,77.11|PRE|14071|Z|0194;Kezan|N|From Candy Cane, inside the house.|GEN|MALE|
 A Off to the Bank|QID|26711|M|56.32,76.77|PRE|14071|Z|0194;Kezan|N|From Chip Endale, inside the house.|GEN|FEMALE|
 A Do it Yourself|QID|14070|PRE|14071|M|56.43,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
@@ -74,7 +74,7 @@ T The Uninvited Guest|QID|14116|M|56.72,76.93|Z|0194;Kezan|N|Upstairs to Trade P
 A A Bazillion Macaroons?!|QID|14120|PRE|14116|M|56.72,76.93|Z|0194;Kezan|N|From Trade Prince Gallywix.|
 T A Bazillion Macaroons?!|QID|14120|M|59.84,77.04|Z|0194;Kezan|N|To Sassy Hardwrench who has moved to outside the house.|
 A The Great Bank Heist|QID|14122|PRE|14120|M|59.84,77.04|Z|0194;Kezan|N|Automatically accepted from Sassy Hardwrench.|
-A Robbing Hoods|QID|14121|PRE|14120|M|60.10,78.00|Z|0194;Kezan|N|From Megs Dreadshredder.|U|46856|
+A Robbing Hoods|QID|14121|PRE|14120|M|58.24,76.45|Z|0194;Kezan|N|From Megs Dreadshredder.|U|46856|
 A Waltz Right In|QID|14123|PRE|14120|M|58.60,73.70|Z|0194;Kezan|N|From Slinky Sharpshiv.|U|46856|
 C Robbing Hoods|QID|14121|M|38.82,71.43|Z|0194;Kezan|N|Run over the Hired Looters to get Stolen Loots.|S|
 R First Bank of Kezan|ACTIVE|14122|M|29.74,64.72|Z|0194;Kezan|N|Head to the First Bank of Kezan|U|46856|
@@ -87,7 +87,7 @@ C Waltz Right In|QID|14123|QO|2|M|13.0,35.2|Z|0194;Kezan|N|[Coords]Head to the h
 C Waltz Right In|QID|14123|QO|3|M|19.9,30.7|Z|0194;Kezan|N|[Coords]Head into the building at the eastern end of the compound and loot the Ultimate Bomb.|U|46856|NC|
 T Waltz Right In|QID|14123|M|59.41,77.62|Z|0194;Kezan|N|To Slinky Sharpshiv at KTC Headquarters.|U|46856|
 T The Great Bank Heist|QID|14122|M|59.78,77.28|Z|0194;Kezan|N|To Sassy|
-T Robbing Hoods|QID|14121|M|60.12,78.09|Z|0194;Kezan|N|To Megs|
+T Robbing Hoods|QID|14121|M|58.24,76.45|Z|0194;Kezan|N|To Megs|
 A Liberate the Kaja'mite|QID|14124|PRE|14120|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|U|46856|
 C Liberate the Kaja'mite|QID|14124|M|71.19,77.39|Z|0194;Kezan|N|Use the bombs on the sparkling green ore spots, then pick up the Kaja'mite Chunks.|U|48768|NC|
 T Liberate the Kaja'mite|QID|14124|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|U|46856|
