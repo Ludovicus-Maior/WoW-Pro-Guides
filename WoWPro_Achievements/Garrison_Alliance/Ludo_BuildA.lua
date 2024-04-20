@@ -267,6 +267,12 @@ C Things Are Not Goren Our Way |QID|34192|N|Head to the back of the mine and kil
 C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|US|QO|1|
 T Things Are Not Goren Our Way |QID|34192|N|To Timothy Leens|M|65.46,41.79|Z|Lunarfall|
 
+; Dwarven Bunker
+A Scraps of Iron|QID|37092|N|From Kristen Stoneforge.|FACTION|Alliance|
+F Fort Wrynn|ACTIVE|37092|M|39.09, 61.81|Z|Lunarfall|N|Ask Dungar Longdrink for a flight.|FACTION|Alliance|
+C Burning Blade Citadel|QID|37092|QO|0|M|67,7|N|Head out to the Citadel and kill Iron Horde till you get your scraps!|
+T Scraps of Iron|QID|37092|N|From Kristen Stoneforge.|FACTION|Alliance|
+
 ; Fishing Shack
 A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton, Fisherman|BUILDING|townhall;2|
 C Looking For Help |QID|34194|M|26.96, 6.65|CHAT|N|Ask for help from Maidari at Eventide Landing.  Fastest way to get there is to jump carefully down the back of your garrison.|
