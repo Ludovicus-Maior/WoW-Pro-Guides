@@ -475,19 +475,9 @@ T Intercepting the Orders|QID|35846|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|
 T Putting Down the Packleader|QID|35842|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|Horde|
 D Next!|N|Click to return to whatever guide you were doing before.|
 
-A A Good Death|QID|34354|PRE|35876|M|0.0,0.0|N|From ?|; Neutral
+A A Good Death|QID|34354|PRE|35876|M|0.0,0.0|N|From ?|; Neutral and unobtainable?
 C A Good Death|QID|34354|M|58.6,84.4|N|Injured Darkwing Glider|
 T A Good Death|QID|34354|M|59.22,82.24|N|To Rexxar|
-
-A Intercepting the Orders|QID|35840|PRE|35838|M|0.0,0.0|N|From ?|
-T Intercepting the Orders|QID|35840|M|37.8,36.8|N|To Bodrick Grey|
-
-A Putting Down the Packleader|QID|35841|PRE|35838|M|0.0,0.0|N|From ?|
-C Putting Down the Packleader|QID|35841|M|44.6,38.0|N|Packleader Vor'gash|
-T Putting Down the Packleader|QID|35841|M|37.8,36.8|N|To Bodrick Grey|
-
-A Broken Promises|QID|36477|M|0.0,0.0|N|From ?|; Neutral
-T Broken Promises|QID|36477|M|51.2,75.0|N|To Chester|
 
 ]]
 

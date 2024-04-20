@@ -563,21 +563,19 @@ function WoWPro:OnEnable()
     WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 
-    WoWPro:dbp("Scan to purge")
-    if _G.PlayerGetTimerunningSeasonID and _G.PlayerGetTimerunningSeasonID() then
-        local seasonID = _G.PlayerGetTimerunningSeasonID()
-        -- Purge guides that do not match the SeasonID
-        local to_purge = {}
-        for gid, guide in pairs(WoWPro.Guides) do
-            if guide['TimerunningSeasonID'] ~= seasonID then
-                WoWPro:dbp("Queue %q to purge", gid)
-                table.insert(to_purge, gid)
-            end
+    WoWPro:dbp("Scan to purge PlayerGetTimerunningSeasonID")
+    -- Purge guides that do not match the SeasonID
+    local seasonID = _G.PlayerGetTimerunningSeason and _G.PlayerGetTimerunningSeasonID()
+    local to_purge = {}
+    for gid, guide in pairs(WoWPro.Guides) do
+        if guide['TimerunningSeasonID'] ~= seasonID then
+            WoWPro:dbp("Queue %q to purge", gid)
+            table.insert(to_purge, gid)
         end
-        for _, gid in ipairs(to_purge) do
-            WoWPro:dbp("Purge %q", gid)
-            WoWPro.Guides[gid] = nil
-        end
+    end
+    for _, gid in ipairs(to_purge) do
+        WoWPro:dbp("Purge %q", gid)
+        WoWPro.Guides[gid] = nil
     end
 
 

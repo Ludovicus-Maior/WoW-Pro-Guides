@@ -52,20 +52,20 @@ C Snail|QID|37206|STRATEGY|SnailMaggot|N|1) [ability=310/shell-shield]\n2) Spam 
 C Maggot|QID|37206|STRATEGY|SnailMaggot|N|Repeat the following:\n A) [ability=364/leap]\n B) [ability=160/consume]|SELECT|3|
 T Tarr the Terrible|QID|37206|M|56.2,9.8|Z|Nagrand@Draenor|N|To Tarr|
 
-F Deeproot|AVAILABLE|37201|N|Fly to Deeproot.|M|50.6,30.6|Z|Nagrand@Draenor|FACTION|Alliance|
-F Beastwatch|AVAILABLE|37201|N|Fly to Beastwatch.|M|50.6,30.6|Z|Nagrand@Draenor|FACTION|Horde|
-R The way to Cymre|AVAILABLE|37201|M|49.83,75.08;51.51,71.35|CS|Z|Gorgrond|ACH|10018|N|Follow these waypoints to Cymre.|FACTION|Alliance|
-N Cymre Winter|AVAILABLE|37201|PET1|Nuts;54227;1+2+1|PET2|Fel Flame;62621;1+2+1|PET3|Wild Crimson Hatchling;65321;1+2+2;|STRATEGY|CymreNuts|
+F Deeproot|AVAILABLE|37201|N|Fly to Deeproot.|M|50.6,30.6|Z|Nagrand@Draenor|FACTION|Alliance|RANK|3|
+F Beastwatch|AVAILABLE|37201|N|Fly to Beastwatch.|M|50.6,30.6|Z|Nagrand@Draenor|FACTION|Horde|RANK|3|
+R The way to Cymre|AVAILABLE|37201|M|49.83,75.08;51.51,71.35|CS|Z|Gorgrond|ACH|10018|N|Follow these waypoints to Cymre.|FACTION|Alliance|RANK|3|
+N Cymre Winter|AVAILABLE|37201|PET1|Nuts;54227;1+2+1|PET2|Fel Flame;62621;1+2+1|PET3|Wild Crimson Hatchling;65321;1+2+2;|STRATEGY|CymreNuts|RANK|3|
 
-A Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|From Cymre|
+A Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|From Cymre|RANK|3|
 ; Using Nuts, no reliable leveling pet strategy
-C Nuts|QID|37201|STRATEGY|CymreNuts|N|1) [ability=165/Crouch] [ability=167/nut-barrage]\n2) [ability=119/scratch] [ability=167/nut-barrage]\n3) [ability=119/scratch] [ability=165/Crouch]\n4)[ability=167/nut-barrage] [ability=119/scratch] [ability=167/nut-barrage]\n5) Idol Dies! Switch to Hatchling.|SELECT|1|SWITCH|3|
-C Wild Crimson Hatchling|QID|37201|STRATEGY|CymreNuts|N|1) [ability=172/scorched-earth]\n2) [ability=115/breath]\n3) Switch to Fel Flame.|SELECT|3|SWITCH|2|
-C Fel Flame|QID|37201|STRATEGY|CymreNuts|N|1) [ability=172/scorched-earth]\n2) Lantern Dies, then PASS once.\n3) [ability=179/conflagrate]\n4) [ability=113/burn] till you win!|SELECT|2||DEAD|2,3|
+C Nuts|QID|37201|STRATEGY|CymreNuts|N|1) [ability=165/Crouch] [ability=167/nut-barrage]\n2) [ability=119/scratch] [ability=167/nut-barrage]\n3) [ability=119/scratch] [ability=165/Crouch]\n4)[ability=167/nut-barrage] [ability=119/scratch] [ability=167/nut-barrage]\n5) Idol Dies! Switch to Hatchling.|SELECT|1|SWITCH|3|RANK|3|
+C Wild Crimson Hatchling|QID|37201|STRATEGY|CymreNuts|N|1) [ability=172/scorched-earth]\n2) [ability=115/breath]\n3) Switch to Fel Flame.|SELECT|3|SWITCH|2|RANK|3|
+C Fel Flame|QID|37201|STRATEGY|CymreNuts|N|1) [ability=172/scorched-earth]\n2) Lantern Dies, then PASS once.\n3) [ability=179/conflagrate]\n4) [ability=113/burn] till you win!|SELECT|2||DEAD|2,3|RANK|3|
 
-T Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|To Cymre|
+T Cymre Brightblade|QID|37201|M|51.0,70.6|Z|Gorgrond|N|To Cymre|RANK|3|
 
-F Iron Siegeworks|AVAILABLE|37205|N|Fly to Iron Siegeworks.|M|46.4,76.6|Z|Gorgrond|FACTION|Alliance|
+F Iron Siegeworks|AVAILABLE|37205|N|Fly to Iron Siegeworks.|M|46.4,76.6|Z|Gorgrond|FACTION|Alliance| ; Wrong if RANK=3
 F Wolf's Stand|AVAILABLE|37205|N|Fly to Iron Siegeworks.|M|46.0,69.2|Z|Gorgrond|FACTION|Horde|
 R The way through the rockfall|AVAILABLE|37205|M|84.7,59.83;79.36,56.65;79.30,55.64;78.94,55.46;78.62,55.51;78.33,54.83;71.9,57.64|CS|Z|Frostfire Ridge|ACH|10018|N|Go through the rockfall by following these waypoints.|FACTION|Alliance|
 N Gargra|AVAILABLE|37205|PET1|Cogblade Raptor;68841;2+1+1;S>259|PET2|Leveling;;;H>300B|PET3|Darkmoon Zepplin;55367;1+1+2|STRATEGY|Gargra|

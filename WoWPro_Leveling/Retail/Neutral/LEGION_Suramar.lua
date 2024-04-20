@@ -148,11 +148,11 @@ C Turtle Powered|QID|40368|M|37.11,38.20|Z|680|S|N|Kill turtles to collect the S
 C Tapping the Leylines|QID|40010|M|41.30,39.41|Z|680|QO|1|NC|N|Explore Anora Hollow.|
 C Tapping the Leylines|QID|40010|M|41.58,38.75|Z|680|QO|2|NC|N|Step on Ancient Switch.|
 C Tapping the Leylines|QID|40010|M|41.62,39.10|Z|680|QO|3|CHAT|N|Speak with Arcanist Valtrois, "Show Thalyssra's token to Valtrois".|
-T Tapping the Leylines|QID|40010|M|39.76,29.69|Z|680|N|To Arcanist Valtrois.|
-A Power Grid|QID|41028|PRE|40010|M|39.76,29.69|Z|680|N|From Arcanist Valtrois.|
+T Tapping the Leylines|QID|40010|M|39.82,29.61|Z|688|N|To Arcanist Valtrois.|
+A Power Grid|QID|41028|PRE|40010|M|39.82,29.61|Z|688|N|From Arcanist Valtrois.|
 C Power Grid|QID|41028|M|54.64,52.32|Z|688|NC|N|Valtrois leads you to a room with a 'high switch'. Follow the ley beam to the room with the 8 'low switches' and the 4 'seals'. Click on the switches to get the beams both pointed at the same seal. If you can't, follow the beam that isn't pointed where you want back to its 'high switch' and click it. Then run back to see if both beams are pointed at the same seal, if so, click on the seal. one down, 3 to go.  If not, click on the 'low switch' the beam goes through to point it at the seal, then click to lock it in. Rinse, repeat.|		; Actually in M|54.64,52.32|Z|688;Ley Station Anora|
 T Power Grid|QID|41028|M|54.64,52.32|Z|688|N|To Arcanist Valtrois.| 																; Actually in M|54.64,52.32|Z|688;Ley Station Anora|
-K Kill Myonix|QID|43358|QO|1|M|40.77,32.87|Z|680|ITEM|121739|T|Myonix|N|Silver - Kill Myonix for a bit of treasure and resources.|RANK|2|RARE|
+K Kill Myonix|QID|43358|QO|1|M|54.64,52.32|Z|688;Ley Station Anora|ITEM|121739|T|Myonix|N|Silver - Kill Myonix for a bit of treasure and resources.|RANK|2|RARE|
 $ Glimmering Treasure Chest|QID|43856|M|42.32,29.99;44.04,31.93|Z|680|CS|N|Go inside the cave behind the waterfall, The path is is across the river and up one tier from Myonix. Loot for treasure and resources.|RANK|2|
 C Turtle Powered|QID|40368|M|37.11,38.20|Z|680|US|N|Finish collecting the Shimmering Snapper Scales.|RANK|2|
 T Turtle Powered|QID|40368|M|43.39,41.69|Z|680|N|To Morhun Rivertamer.|RANK|2|
@@ -315,7 +315,7 @@ C The Hidden City|QID|42228|M|34.61,56.61;53.10,26.23;47.95,14.07|Z|684|CS|N|Kil
 T The Hidden City|QID|42228|M|35.21,54.35|Z|684|N|To Ancient Seed.|
 A The Valewalker's Burden|QID|42230|PRE|42228|M|35.21,54.35|Z|684|N|From Ancient Seed.|
 C The Valewalker's Burden|QID|42230|M|40.80,13.82|Z|684|NC|N|Follow Valewalker Farodin to find the beacon. Activate the Fal'adora Beacon.|
-T The Valewalker's Burden|QID|42230|M|36.86,46.49|Z|684|N|To Seedholder.|
+T The Valewalker's Burden|QID|42230|M|36.86,46.49|Z|680|N|To Seedholder.|
 A Seed of Hope|QID|44561|PRE|42230|M|36.86,46.49|Z|684|N|From Valewalker Farodin. This is completed by raising your Faction rep to Honored with The Nightfallen.|
 P Shal'Aran|ACTIVE|44561|M|40.83,13.75|Z|684|N|Take Portal back to Shal'Aran|
 A Leyline Apprentice|QID|44492|PRE|41028|M|37.01,46.39|Z|680|N|From Arcanist Valtrois. Requires 3 Leylines restored.|  ; Originally had PRE|41028&43593&43592, Grail says only 41028 needed.
