@@ -20,6 +20,7 @@ C Trouble in the Mines|QID|14075|M|71.02,76.19;74.59,83.67;65.05,88.22|CN|Z|0194
 C Good Help is Hard to Find|QID|14069|M|70.29,82.50|Z|0194;Kezan|N|Finishing right-clicking the Defiant Trolls as you head out of the mines and back to Foreman Dampwick.|US|NC|
 T Trouble in the Mines|QID|14075|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|
 T Good Help is Hard to Find|QID|14069|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|
+;lv 2
 A Kaja'Cola|QID|25473|PRE|14069&14075|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|
 T Kaja'Cola|QID|25473|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 A Megs in Marketing|QID|28349|PRE|25473|M|56.43,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
@@ -27,35 +28,36 @@ T Megs in Marketing|QID|28349|M|58.24,76.45|Z|0194;Kezan|N|To Megs Dreadshredder
 A Rolling with my Homies|QID|14071|PRE|28349|M|58.24,76.45|Z|0194;Kezan|N|From Megs Dreadshredder.|
 C Hot Rod|QID|14071|QO|1|N|You now have access to a Hot Rod to use to drive around Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod.\n[color=FF0000]NOTE: [/color]If you need to dismount for any reason, click the 'Leave vehicle' button on the right.|U|46856|V|
 R Rolling with my Homies|QID|14071|QO|2|M|58.16,86.27|Z|0194;Kezan|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|U|46856|NC|
-R Rolling with my Homies|QID|14071|QO|4|M|60.76,50.35|Z|0194;Kezan|N|Go pick up Gobber. Just follow the path north from KTC Headquarters.|U|46856|NC|
-R Rolling with my Homies|QID|14071|QO|3|M|47.80,37.40|Z|0194;Kezan|N|Go pick up Ace. He's on the other side of the road bridge.|U|46856|NC|
+R Rolling with my Homies|QID|14071|QO|4|M|59.73,49.80|Z|0194;Kezan|N|Go pick up Gobber. Just follow the path north from KTC Headquarters.|U|46856|NC|
+R Rolling with my Homies|QID|14071|QO|3|M|47.86,37.44|Z|0194;Kezan|N|Go pick up Ace. He's on the other side of the road bridge.|U|46856|NC|
 T Rolling with my Homies|QID|14071|M|58.24,76.45|Z|0194;Kezan|N|To Megs Dreadshredder.|U|46856|
 A Report for Tryouts|QID|24567|PRE|14071|M|58.24,76.45|Z|0194;Kezan|N|From Megs Dreadshredder.|
 A Off to the Bank|QID|26712|M|56.31,77.11|PRE|14071|Z|0194;Kezan|N|From Candy Cane, inside the house.|GEN|MALE|
 A Off to the Bank|QID|26711|M|56.32,76.77|PRE|14071|Z|0194;Kezan|N|From Chip Endale, inside the house.|GEN|FEMALE|
 A Do it Yourself|QID|14070|PRE|14071|M|56.43,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
-T Report for Tryouts|QID|24567|M|48.75,57.83|Z|0194;Kezan|N|To Coach Crosscheck. You have no fall damage whilst mounted in your Hot-Rod.|U|46856|
-A The Replacements|QID|24488|PRE|24567|M|48.75,57.83|Z|0194;Kezan|N|From Coach Crosscheck.|
-C The Replacements|QID|24488|M|43.05,62.79|Z|0194;Kezan|N|Look around for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|U|46856|S|NC|
-R Drudgetown|ACTIVE|24520|M|43.50,70.25|Z|0194;Kezan|N|Head to Drudgetown on your Hot Rod. Go under the ramp.|U|46856|
-K Bruno Flameretardant|ACTIVE|14070|QO|1|M|45.21,74.77|Z|0194;Kezan|N|Beat down Bruno Flameretardant.|U|46856|
-K Sudsy Magee|ACTIVE|14070|QO|4|M|41.64,81.71|Z|0194;Kezan|N|Beat down Sudsy Magee.|U|46856|
-K Jack the Hammer|ACTIVE|14070|QO|3|M|35.15,77.78|Z|0194;Kezan|N|Beat down Jack the Hammer.|U|46856|
-K Frankie Gearslip|ACTIVE|14070|QO|2|M|36.67,72.32|Z|0194;Kezan|N|Beat down Frankie Gearslip.|U|46856|
-C The Replacements|QID|24488|M|43.05,62.79|Z|0194;Kezan|N|Finish picking up Replacement Parts|U|46856|US|NC|
-T Off to the Bank|QID|26711^26712|M|30.09,71.67|Z|0194;Kezan|N|To FBoK Bank Teller.|U|46856|
-A The New You|QID|14109^14110|PRE|26711^26712|M|30.09,71.67|Z|0194;Kezan|N|From FBoK Bank Teller.|
+T Report for Tryouts|QID|24567|M|48.73,57.42|Z|0194;Kezan|N|To Coach Crosscheck at Kajaro Field.|U|46856|
+A The Replacements|QID|24488|PRE|24567|M|48.73,57.42|Z|0194;Kezan|N|From Coach Crosscheck.|
+C The Replacements|QID|24488|M|43.05,62.79|Z|0194;Kezan|N|Look around for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|S|NC|
+R Drudgetown|ACTIVE|14070|M|43.50,70.25|Z|0194;Kezan|N|Head to Drudgetown on your Hot Rod. Go under the ramp.|U|46856|
+K Bruno Flameretardant|ACTIVE|14070|QO|1|M|45.21,74.77|Z|0194;Kezan|N|Beat down Bruno Flameretardant in Drudgetown.|T|Bruno Flameretardant|U|46856|
+K Sudsy Magee|ACTIVE|14070|QO|4|M|41.64,81.71|Z|0194;Kezan|N|Beat down Sudsy Magee.|T|Sudsy Magee|U|46856|
+K Jack the Hammer|ACTIVE|14070|QO|3|M|35.15,77.78|Z|0194;Kezan|N|Beat down Jack the Hammer.|T|Jack|U|46856|
+K Frankie Gearslip|ACTIVE|14070|QO|2|M|36.67,72.32|Z|0194;Kezan|N|Beat down Frankie Gearslip.|T|Frankie|U|46856|
+T Off to the Bank|QID|26711^26712|M|30.11,71.92|Z|0194;Kezan|N|To FBoK Bank Teller.|U|46856|
+A The New You|QID|14109^14110|PRE|26711^26712|M|30.11,71.92|Z|0194;Kezan|N|From FBoK Bank Teller.|
 C Hip New Outfit|QID|14109^14110|QO|2|M|37.59,55.21|Z|0194;Kezan|N|Talk to Szabo to get the Hip New Outfit.|U|46856|CHAT|
 C Shiny Bling|QID|14109^14110|QO|1|M|34.87,45.71|Z|0194;Kezan|N|Talk to Gappy Silvertooth to get the Shiny Bling.|U|46856|CHAT|
-C Cool Shades|QID|14109^14110|QO|3|M|40.6,45.89|Z|0194;Kezan|N|[Coords]Talk to Missa Spekkles to get the Cool Shades.|U|46856|CHAT|
+C Cool Shades|QID|14109^14110|QO|3|M|40.42,45.76|Z|0194;Kezan|N|Talk to Missa Spekkles to get the Cool Shades.|U|46856|CHAT|
+C The Replacements|QID|24488|M|43.05,62.79|Z|0194;Kezan|N|Finish picking up Replacement Parts|U|46856|US|NC|
 T The Replacements|QID|24488|M|48.73,57.42|Z|0194;Kezan|N|To Coach Crosscheck.|U|46856|
 A Necessary Roughness|QID|24502|PRE|24488|M|48.73,57.42|Z|0194;Kezan|N|From Coach Crosscheck.|
-C Necessary Roughness|QID|24502|M|47.70,57.75|QO|1|Z|0194;Kezan|N|Head to the Bilgewater Buccaneer, then hop onto the Bilgewater Buccaneer.|NC|
+C Necessary Roughness|QID|24502|M|47.70,57.75|QO|1|Z|0194;Kezan|N|Hop into the Bilgewater Buccaneer.|V|
 C Necessary Roughness|QID|24502|M|47.70,57.75|QO|2|Z|0194;Kezan|N|Use Key 1 to take out the Steamwheedle Shark shredders until you have footbombed eight of them.|NC|
 T Necessary Roughness|QID|24502|M|48.73,57.42|Z|0194;Kezan|N|(UI Alert)|
+; Lv 3
 A Fourth and Goal|QID|24503^28414|PRE|24502|M|48.73,57.42|Z|0194;Kezan|N|From Coach Crosscheck.|
 C Fourth and Goal|QID|24503^28414|M|47.70,57.75|Z|0194;Kezan|N|Use Key 1 to kick a footbomb between the smoke stacks.|NC|
-T Fourth and Goal|QID|24503^28414|M|48.62,57.74|Z|0194;Kezan|N|Wait until the dragon finishes his attack, then To Coach Crosscheck.|U|46856|
+T Fourth and Goal|QID|24503^28414|M|48.62,57.74|Z|0194;Kezan|N|To Coach Crosscheck after you exit the Bilgewater Buccaneer.|
 A Give Sassy the News|QID|24520|PRE|24503^28414|M|48.62,57.74|Z|0194;Kezan|N|From Coach Crosscheck.|
 H KTC Headquarters|ACTIVE|14109^14110|M|56.62,76.90|Z|0194;Kezan|N|Hearthstone, or ride back to KTC Headquarters.|U|46856|
 T The New You|QID|14109|M|56.31,77.11|Z|0194;Kezan|N|To Candy Cane, back at KTC Headquarters.|U|46856|GEN|MALE|
@@ -64,6 +66,43 @@ T Give Sassy the News|QID|24520|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench
 T Do it Yourself|QID|14070|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 A Life of the Party|QID|14113|PRE|24520&14070&14109|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|
 A Life of the Party|QID|14153|PRE|24520&14070&14110|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|
+; -- Class quests
+; ** Lv 3 Class quests (Trainer intro)
+; ** Hunter
+A Steady Shot|QID|14007|M|60.41,77.49|Z|0194;Kezan|N|From Bamm Megabomb.|C|Hunter|
+= Steady Shot|ACTIVE|14007|M|39.05,20.01|Z|0194;Kezan|N|Learn Steady Shot from Bamm Megabomb.|SPELL|Steady Shot;56641|C|Hunter|
+C Steady Shot|QID|14007|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Steady Shot 3 times.|T|Training Dummy|C|Hunter|
+T Steady Shot|QID|14007|M|39.05,20.01|Z|0194;Kezan|N|To Bamm Megabomb.|C|Hunter|
+; ** Mage
+A Arcane Missles|QID|14008|M|59.50,73.66|N|From Fizz Lighter.|C|Mage|
+= Arcane Missiles|ACTIVE|14008|QO|2|M|59.50,73.66|Z|0194;Kezan|N|Learn Arcane Missiles from Fizz Lighter.|SPELL|Arcane Missles;5143|C|Mage|
+C Arcane Missiles|QID|14008|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Arcane Missiles 2 times.|T|Training Dummy|C|Mage|
+T Arcane Missiles|QID|14008|M|59.50,73.66|Z|0194;Kezan|N|To Fizz Lighter.|C|Mage|
+; ** Priest
+A Flash Heal|QID|14009|M|57.88,77.12|Z|0194;Kezan|N|From Sister Goldskimmer.|C|Priest|
+= Flash Heal|ACTIVE|14009|QO|2|M|57.88,77.12|Z|0194;Kezan|N|Learn Flash Heal from Sister Goldskimmer.|SPELL|Flash Heal;2061|C|Priest|
+C Healing the Wounded|QID|14009|QO|1|M|39.19,20.60|Z|0194;Kezan|N|Practice casting Flash Heal on an Injured Employee 3 times.|T|Injured Employee|C|Priest|
+T Healing the Wounded|QID|14009|M|57.88,77.12|Z|0194;Kezan|N|To Sister Goldskimmer.|C|Priest|
+; ** Rogue
+A Eviscerate|QID|14010|M|58.79,75.27|Z|0194;Kezan|N|From Slinky Sharpshiv.\n[color=FF0000]NOTE: [/color]She wanders back and forth.|C|Rogue|
+= Eviscerate|ACTIVE|14010|QO|2|M|58.79,75.27|Z|0194;Kezan|N|Learn Eviscerate from Slinky Sharpshiv.|SPELL|Eviscerate;2098|C|Rogue|
+C Eviscerate|QID|14010|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Eviscerate 3 times.|T|Training Dummy|C|Rogue|
+T Eviscerate|QID|14010|M|58.79,75.27|Z|0194;Kezan|N|To Slinky Sharpshiv.|C|Rogue|
+; ** Shaman
+A Primal Strike|QID|14011|M|59.71,75.91|Z|0194;Kezan|N|From Maxx Avalanche.|C|Shaman|
+C Primal Strike|QID|14011|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Primal Strike 2 times.|T|Training Dummy|C|Shaman|
+T Primal Strike|QID|14011|M|59.71,75.91|Z|0194;Kezan|N|To Maxx Avalanche.|C|Shaman|
+; ** Warlock
+A Immolate|QID|14012|M|57.96,74.23|Z|0194;Kezan|N|From Evol Fingers.|C|Warlock|
+= Immolate|ACTIVE|14012|QO|2|M|57.96,74.23|Z|0194;Kezan|N|Learn Immolate from Evol Fingers.|SPELL|Immolate;348|C|Warlock|
+C Immolate|QID|14012|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and cast Immolate 3 times.|T|Training Dummy|C|Warlock|
+T Immolation|QID|14012|M|57.96,74.23|Z|0194;Kezan|N|To Evol Fingers.|C|Warlock|
+; ** Warrior
+A Charge|QID|14013|M|60.1,77.7|Z|0194;Kezan|N|From Warrior-Matic NX-01.|C|Warrior|
+= Charge|ACTIVE|14013|QO|2|M|39.29,20.10|Z|0194;Kezan|N|Learn Charge from Warrior-Matic NX-01.|SPELL|Charge;100|C|Warrior|
+C Charge|QID|14013|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Charge.|T|Training Dummy|C|Warrior|
+T Charge!|QID|14013|M|39.29,20.10|Z|0194;Kezan|N|To Warrior-Matic NX-01.|C|Warrior|
+
 C Life of the Party|QID|14113^14153|M|60.21,85.76|Z|0194;Kezan|N|Entertain 10 Partygoers. \n\n[color=ff8000]Key 1:[/color] (Bubbly) for those holding a drink glass\n\n[color=ff8000]Key 2:[/color] (Bucket) if they have blue swirls over their head.\n\n[color=ff8000]Key 3:[/color] (Dance) if they are dancing\n\n[color=ff8000]Key 4:[/color] (Fireworks) if they are holding a red sparkler\n\n[color=ff8000]Key 5:[/color] (Hors D'oeuvres) if they are holding a chicken drumstick.\n\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
 T Life of the Party|QID|14113^14153|M|56.52,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 A Pirate Party Crashers|QID|14115|PRE|14113^14153|M|56.52,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
