@@ -26,10 +26,10 @@ T Kaja'Cola|QID|25473|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 A Megs in Marketing|QID|28349|PRE|25473|M|56.43,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
 T Megs in Marketing|QID|28349|M|58.24,76.45|Z|0194;Kezan|N|To Megs Dreadshredder.|
 A Rolling with my Homies|QID|14071|PRE|28349|M|58.24,76.45|Z|0194;Kezan|N|From Megs Dreadshredder.|
-C Hot Rod|QID|14071|QO|1|N|You now have access to a Hot Rod to use to drive around Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod.\n[color=FF0000]NOTE: [/color]If you need to dismount for any reason, click the 'Leave vehicle' button on the right.|U|46856|V|
-R Rolling with my Homies|QID|14071|QO|2|M|58.16,86.27|Z|0194;Kezan|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|U|46856|NC|
-R Rolling with my Homies|QID|14071|QO|4|M|59.73,49.80|Z|0194;Kezan|N|Go pick up Gobber. Just follow the path north from KTC Headquarters.|U|46856|NC|
-R Rolling with my Homies|QID|14071|QO|3|M|47.86,37.44|Z|0194;Kezan|N|Go pick up Ace. He's on the other side of the road bridge.|U|46856|NC|
+C Hot Rod|QID|14071|QO|1|N|You now have access to a Hot Rod to use to drive around Kezan. Get in.\n[color=FF0000]NOTE: [/color]Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration.\nThe Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable.\nIt does not work under water and if you need to dismount for any reason, click the 'Leave vehicle' button on the right.|U|46856|V|
+R Rolling with my Homies|QID|14071|QO|2|M|58.16,86.27|Z|0194;Kezan|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod).\n[color=FF0000]NOTE: [/color]Look the beam of light on the other side of the swimming pool.|U|46856|
+R Rolling with my Homies|QID|14071|QO|4|M|59.73,49.80|Z|0194;Kezan|N|Go pick up Gobber.\n[color=FF0000]NOTE: [/color]Just follow the path north from KTC Headquarters.|U|46856|
+R Rolling with my Homies|QID|14071|QO|3|M|47.86,37.44|Z|0194;Kezan|N|Go pick up Ace.\n[color=FF0000]NOTE: [/color]He's on the other side of the road bridge.|U|46856|
 T Rolling with my Homies|QID|14071|M|58.24,76.45|Z|0194;Kezan|N|To Megs Dreadshredder.|U|46856|
 A Report for Tryouts|QID|24567|PRE|14071|M|58.24,76.45|Z|0194;Kezan|N|From Megs Dreadshredder.|
 A Off to the Bank|QID|26712|M|56.31,77.11|PRE|14071|Z|0194;Kezan|N|From Candy Cane, inside the house.|GEN|MALE|
@@ -64,8 +64,6 @@ T The New You|QID|14109|M|56.31,77.11|Z|0194;Kezan|N|To Candy Cane, back at KTC 
 T The New You|QID|14110|M|56.32,76.77|Z|0194;Kezan|N|To Chip Endale, back at KTC Headquarters.|U|46856|GEN|FEMALE|
 T Give Sassy the News|QID|24520|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
-A Life of the Party|QID|14113|PRE|24520&14070&14109|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|
-A Life of the Party|QID|14153|PRE|24520&14070&14110|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|
 ; -- Class quests
 ; ** Lv 3 Class quests (Trainer intro)
 ; ** Hunter
@@ -73,55 +71,75 @@ A Steady Shot|QID|14007|M|60.41,77.49|Z|0194;Kezan|N|From Bamm Megabomb.|C|Hunte
 = Steady Shot|ACTIVE|14007|M|39.05,20.01|Z|0194;Kezan|N|Learn Steady Shot from Bamm Megabomb.|SPELL|Steady Shot;56641|C|Hunter|
 C Steady Shot|QID|14007|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Steady Shot 3 times.|T|Training Dummy|C|Hunter|
 T Steady Shot|QID|14007|M|39.05,20.01|Z|0194;Kezan|N|To Bamm Megabomb.|C|Hunter|
+A Life of the Party|QID|14113|PRE|24520&14070&14109&14007|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Hunter|
+A Life of the Party|QID|14153|PRE|24520&14070&14110&14007|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Hunter|
 ; ** Mage
 A Arcane Missles|QID|14008|M|59.50,73.66|N|From Fizz Lighter.|C|Mage|
 = Arcane Missiles|ACTIVE|14008|QO|2|M|59.50,73.66|Z|0194;Kezan|N|Learn Arcane Missiles from Fizz Lighter.|SPELL|Arcane Missles;5143|C|Mage|
 C Arcane Missiles|QID|14008|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Arcane Missiles 2 times.|T|Training Dummy|C|Mage|
 T Arcane Missiles|QID|14008|M|59.50,73.66|Z|0194;Kezan|N|To Fizz Lighter.|C|Mage|
+A Life of the Party|QID|14113|PRE|24520&14070&14109&14008|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Mage|
+A Life of the Party|QID|14153|PRE|24520&14070&14110&14008|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Mage|
 ; ** Priest
 A Flash Heal|QID|14009|M|57.88,77.12|Z|0194;Kezan|N|From Sister Goldskimmer.|C|Priest|
 = Flash Heal|ACTIVE|14009|QO|2|M|57.88,77.12|Z|0194;Kezan|N|Learn Flash Heal from Sister Goldskimmer.|SPELL|Flash Heal;2061|C|Priest|
 C Healing the Wounded|QID|14009|QO|1|M|39.19,20.60|Z|0194;Kezan|N|Practice casting Flash Heal on an Injured Employee 3 times.|T|Injured Employee|C|Priest|
 T Healing the Wounded|QID|14009|M|57.88,77.12|Z|0194;Kezan|N|To Sister Goldskimmer.|C|Priest|
+A Life of the Party|QID|14113|PRE|24520&14070&14109&14009|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Priest|
+A Life of the Party|QID|14153|PRE|24520&14070&14110&14009|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Priest|
 ; ** Rogue
 A Eviscerate|QID|14010|M|58.79,75.27|Z|0194;Kezan|N|From Slinky Sharpshiv.\n[color=FF0000]NOTE: [/color]She wanders back and forth.|C|Rogue|
 = Eviscerate|ACTIVE|14010|QO|2|M|58.79,75.27|Z|0194;Kezan|N|Learn Eviscerate from Slinky Sharpshiv.|SPELL|Eviscerate;2098|C|Rogue|
 C Eviscerate|QID|14010|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Eviscerate 3 times.|T|Training Dummy|C|Rogue|
 T Eviscerate|QID|14010|M|58.79,75.27|Z|0194;Kezan|N|To Slinky Sharpshiv.|C|Rogue|
+A Life of the Party|QID|14113|PRE|24520&14070&14109&14010|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Rogue|
+A Life of the Party|QID|14153|PRE|24520&14070&14110&14010|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Rogue|
 ; ** Shaman
 A Primal Strike|QID|14011|M|59.71,75.91|Z|0194;Kezan|N|From Maxx Avalanche.|C|Shaman|
 C Primal Strike|QID|14011|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Primal Strike 2 times.|T|Training Dummy|C|Shaman|
 T Primal Strike|QID|14011|M|59.71,75.91|Z|0194;Kezan|N|To Maxx Avalanche.|C|Shaman|
+A Life of the Party|QID|14113|PRE|24520&14070&14109&14011|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Shaman|
+A Life of the Party|QID|14153|PRE|24520&14070&14110&14011|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Shaman|
 ; ** Warlock
 A Immolate|QID|14012|M|57.96,74.23|Z|0194;Kezan|N|From Evol Fingers.|C|Warlock|
 = Immolate|ACTIVE|14012|QO|2|M|57.96,74.23|Z|0194;Kezan|N|Learn Immolate from Evol Fingers.|SPELL|Immolate;348|C|Warlock|
 C Immolate|QID|14012|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and cast Immolate 3 times.|T|Training Dummy|C|Warlock|
 T Immolation|QID|14012|M|57.96,74.23|Z|0194;Kezan|N|To Evol Fingers.|C|Warlock|
+A Life of the Party|QID|14113|PRE|24520&14070&14109&14012|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Warlock|
+A Life of the Party|QID|14153|PRE|24520&14070&14110&14012|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Warlock|
 ; ** Warrior
-A Charge|QID|14013|M|60.1,77.7|Z|0194;Kezan|N|From Warrior-Matic NX-01.|C|Warrior|
-= Charge|ACTIVE|14013|QO|2|M|39.29,20.10|Z|0194;Kezan|N|Learn Charge from Warrior-Matic NX-01.|SPELL|Charge;100|C|Warrior|
+A Charge|QID|14013|M|60.27,77.77|Z|0194;Kezan|N|From Warrior-Matic NX-01.|C|Warrior|
+= Charge|ACTIVE|14013|QO|2|M|60.27,77.77|Z|0194;Kezan|N|Learn Charge from Warrior-Matic NX-01.|SPELL|Charge;100|C|Warrior|
 C Charge|QID|14013|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Charge.|T|Training Dummy|C|Warrior|
-T Charge!|QID|14013|M|39.29,20.10|Z|0194;Kezan|N|To Warrior-Matic NX-01.|C|Warrior|
+T Charge!|QID|14013|M|60.27,77.77|Z|0194;Kezan|N|To Warrior-Matic NX-01.|C|Warrior|
+A Life of the Party|QID|14113|PRE|24520&14070&14109&14013|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Warrior|
+A Life of the Party|QID|14153|PRE|24520&14070&14110&14013|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Warrior|
 
-C Life of the Party|QID|14113^14153|M|60.21,85.76|Z|0194;Kezan|N|Entertain 10 Partygoers. \n\n[color=ff8000]Key 1:[/color] (Bubbly) for those holding a drink glass\n\n[color=ff8000]Key 2:[/color] (Bucket) if they have blue swirls over their head.\n\n[color=ff8000]Key 3:[/color] (Dance) if they are dancing\n\n[color=ff8000]Key 4:[/color] (Fireworks) if they are holding a red sparkler\n\n[color=ff8000]Key 5:[/color] (Hors D'oeuvres) if they are holding a chicken drumstick.\n\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
+C Life of the Party|QID|14113^14153|M|60.21,85.76|Z|0194;Kezan|N|Entertain 10 Partygoers.\n\n[color=ff8000]Key 1:[/color] (Bubbly) for those holding a drink glass\n\n[color=ff8000]Key 2:[/color] (Bucket) if they have blue swirls over their head.\n\n[color=ff8000]Key 3:[/color] (Dance) if they are dancing\n\n[color=ff8000]Key 4:[/color] (Fireworks) if they are holding a red sparkler\n\n[color=ff8000]Key 5:[/color] (Hors D'oeuvres) if they are holding a chicken drumstick.\n\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|T|Kezan Partygoer|NC|
 T Life of the Party|QID|14113^14153|M|56.52,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 A Pirate Party Crashers|QID|14115|PRE|14113^14153|M|56.52,76.95|Z|0194;Kezan|N|From Sassy Hardwrench.|
-C Pirate Party Crashers|QID|14115|M|57.39,85.03|Z|0194;Kezan|N|Kill 12 Pirate Party Crashers.|U|46856|
-T Pirate Party Crashers|QID|14115|M|56.46,76.97|Z|0194;Kezan|N|To Sassy Hardwrench.|U|46856|
+;lv 4
+
+= Level 4 Training|ACTIVE|14115|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|IZ|KTC Headquarters|C|Priest,Shaman,Warlock|
+C Pirate Party Crashers|QID|14115|M|57.39,85.03|Z|0194;Kezan|N|Kill 12 Pirate Party Crashers.\n[color=FF0000]NOTE: [/color]They won't attack until you attack first.|T|Pirate Party Crasher|
+L Level 5|ACTIVE|14115|N|Grind until you're within 4 bubbles of level 5.|LVL|4;-440|C|-Hunter|
+
+T Pirate Party Crashers|QID|14115|M|56.46,76.97|Z|0194;Kezan|N|To Sassy Hardwrench.|U|46856| ; 360 exp
 A The Uninvited Guest|QID|14116|PRE|14115|M|56.46,76.97|Z|0194;Kezan|N|From Sassy Hardwrench.|
-T The Uninvited Guest|QID|14116|M|56.72,76.93|Z|0194;Kezan|N|Upstairs to Trade Prince Gallywix.|
+T The Uninvited Guest|QID|14116|M|56.72,76.93|Z|0194;Kezan|N|Upstairs to Trade Prince Gallywix.| ;40 exp
 A A Bazillion Macaroons?!|QID|14120|PRE|14116|M|56.72,76.93|Z|0194;Kezan|N|From Trade Prince Gallywix.|
-T A Bazillion Macaroons?!|QID|14120|M|59.84,77.04|Z|0194;Kezan|N|To Sassy Hardwrench who has moved to outside the house.|
-A The Great Bank Heist|QID|14122|PRE|14120|M|59.84,77.04|Z|0194;Kezan|N|Automatically accepted from Sassy Hardwrench.|
-A Robbing Hoods|QID|14121|PRE|14120|M|58.24,76.45|Z|0194;Kezan|N|From Megs Dreadshredder.|U|46856|
-A Waltz Right In|QID|14123|PRE|14120|M|58.60,73.70|Z|0194;Kezan|N|From Slinky Sharpshiv.|U|46856|
-C Robbing Hoods|QID|14121|M|38.82,71.43|Z|0194;Kezan|N|Run over the Hired Looters to get Stolen Loots.|S|
-R First Bank of Kezan|ACTIVE|14122|M|29.74,64.72|Z|0194;Kezan|N|Head to the First Bank of Kezan|U|46856|
-C The Great Bank Heist|QID|14122|QO|1|M|30.10,71.41|Z|0194;Kezan|N|Click on one of the First Bank of Kezan Vaults.|NC|
+T A Bazillion Macaroons?!|QID|14120|M|59.61,77.06|Z|0194;Kezan|N|To Sassy Hardwrench who has moved to outside the house.| ; 40 exp
+A The Great Bank Heist|QID|14122|PRE|14120|M|59.61,77.06|Z|0194;Kezan|N|Automatically accepted from Sassy Hardwrench.|
+= Level 5 Training|AVAILABLE|14122^141223|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|KTC Headquarters|C|-Hunter|
+A Robbing Hoods|QID|14121|PRE|14120|M|60.00,78.19|Z|0194;Kezan|N|From Megs Dreadshredder.|
+A Waltz Right In|QID|14123|PRE|14120|M|58.60,73.70|Z|0194;Kezan|N|From Slinky Sharpshiv.|
+C Robbing Hoods|QID|14121|M|38.82,71.43|Z|0194;Kezan|L|47530 12|ITEM|47530|N|the Hired Looters by running them over.|S|
+R First Bank of Kezan|ACTIVE|14122|M|29.92,71.37|Z|0194;Kezan|N|Head to the First Bank of Kezan|U|46856|
 C The Great Bank Heist|QID|14122|QO|2|M|30.10,71.41|Z|0194;Kezan|N|Use whichever ability it tells you to. You'll have 5 seconds to click the right one, don't worry if you get any wrong, you'll keep going until you get it right enough times.\nKey 1 to use your Amazing G-Ray\nKey 2 to use your Blastcrackers\nKey 3 to use your Ear-O-Scope\nKey 4 to use your Infinifold Lockpick\nKey 5 to use your Kaja'mite Drill.|NC|
-C Robbing Hoods|QID|14121|M|30.8,60.8;38.4,76.2;46.7,59.8;38.5,48.31|CN|Z|0194;Kezan|N|[Coords]Finish running over the Hired Looters as you head to Gallywix's Villa.|U|46856|US|
-R Gallywix's Villa|ACTIVE|14123|M|20.4,36.5|Z|0194;Kezan|N|[Coords]Stay in your Hot Rod and head over to Gallywix's Villa.|U|46856|
-C Waltz Right In|QID|14123|QO|1|M|16.74,46.08|Z|0194;Kezan|N|Ride into the building at the south end of the compound, and when you dismount, run up the stairs and loot Maldy's Falcon from the bedroom wall.\nWARNING! Your disguise won't fool the Keensnout Potbelly pig, or any Villa Mook's that see the pig attacking you.|U|46856|NC|
+C The Great Bank Heist|QID|14122|QO|1|M|30.10,71.41|Z|0194;Kezan|N|Click on either one of the First Bank of Kezan Vaults.|NC|
+C Robbing Hoods|QID|14121|M|30.80,60.80;38.40,76.20;46.70,59.80;38.50,48.31|CN|Z|0194;Kezan|L|47530 12|ITEM|47530|N|the Hired Looters by running them over.\n[color=FF0000]NOTE: [/color]Circle the waypoints until you're done.|U|46856|US|
+R Gallywix's Villa|ACTIVE|14123|M|25.17,42.10|Z|0194;Kezan|N|Use your Hot Rod to head over to Gallywix's Villa.|U|46856|
+C Waltz Right In|QID|14123|QO|1|M|16.74,46.08|Z|0194;Kezan|N|While avoiding the guard with the Keensnout Potbelly pig, drive inside the big building and when you get dismounted, run up the stairs and loot Maldy's Falcon from the bedroom wall.\n[color=FF0000]NOTE: [/color]You'll temporarily lose our disguise if the pig gets close enough to expose you.\nIf this happens, jump out the window and stand on the roof until your disguise comes back.|U|46856|NC|
 C Waltz Right In|QID|14123|QO|2|M|13.0,35.2|Z|0194;Kezan|N|[Coords]Head to the hut on the western end of the compound, and loot the Goblin Lisa from the wall.|U|46856|NC|
 C Waltz Right In|QID|14123|QO|3|M|19.9,30.7|Z|0194;Kezan|N|[Coords]Head into the building at the eastern end of the compound and loot the Ultimate Bomb.|U|46856|NC|
 T Waltz Right In|QID|14123|M|59.41,77.62|Z|0194;Kezan|N|To Slinky Sharpshiv at KTC Headquarters.|U|46856|
@@ -130,14 +148,14 @@ T Robbing Hoods|QID|14121|M|58.24,76.45|Z|0194;Kezan|N|To Megs|
 A Liberate the Kaja'mite|QID|14124|PRE|14120|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|U|46856|
 C Liberate the Kaja'mite|QID|14124|M|71.19,77.39|Z|0194;Kezan|N|Use the bombs on the sparkling green ore spots, then pick up the Kaja'mite Chunks.|U|48768|NC|
 T Liberate the Kaja'mite|QID|14124|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|U|46856|
-A 447|QID|14125|PRE|14121&14122&14123&14124|M|59.78,77.13|Z|0194;Kezan|N|From Sassy Hardwrench.|
+A 447|QID|14125|PRE|14121&14122&14123&14124|M|59.61,77.06|Z|0194;Kezan|N|From Sassy Hardwrench.|
 C Overload the Defective Generator|QID|14125|QO|1|M|56.13,76.6|Z|0194;Kezan|N|[Coords]Head inside the building and click on the Defective Generator.|NC|
 C Activate the Leaky Stove|QID|14125|QO|2|M|56.05,74.7|Z|0194;Kezan|N|[Coords]Head over to the corner and click on the Leaky Stove.|NC|
 C Drop a Cigar on the Flammable Bed|QID|14125|QO|3|M|56.61,75.15|Z|0194;Kezan|N|[Coords]Head upstairs and click on the Flammable Bed.|NC|
 C Activate the Gasbot Control Panel|QID|14125|QO|4|M|60.63,76.87|Z|0194;Kezan|N|Head outside and activate the Gasbot Control Panel, then wait for the Gasbot to do it's job.|NC|
 T 447|QID|14125|M|59.87,76.72|Z|0194;Kezan|N|To Claims Adjuster.|
-A Life Savings|QID|14126|PRE|14125|M|59.75,76.90|Z|0194;Kezan|N|From Sassy Hardwrench.|
-R Gallywix's Yacht|QID|14126|M|59.75,76.90;21.02,13.51|CC|Z|0194;Kezan|N|Talk to Sassy Hardwrench and tell her you're ready to go. You will then be taken to Gallywix's Yacht.\nYou will lose your Hot Rod at this point.|CHAT|ACTIVE|14126|
+A Life Savings|QID|14126|PRE|14125|M|59.61,77.06|Z|0194;Kezan|N|From Sassy Hardwrench.|
+R Gallywix's Yacht|QID|14126|M|59.61,77.06;21.02,13.51|CC|Z|0194;Kezan|N|Talk to Sassy Hardwrench and tell her you're ready to go. You will then be taken to Gallywix's Yacht.\nYou will lose your Hot Rod at this point.|CHAT|ACTIVE|14126|
 T Life Savings|QID|14126|M|21.09,13.58|Z|0194;Kezan|N|To Trade Prince Gallywix. Once handed in, you will leave Kezan (forever) and head to The Lost Isles.|
 
 A Don't Go Into the Light!|QID|14239|PRE|14126|Z|0194;Kezan|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
