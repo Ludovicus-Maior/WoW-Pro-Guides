@@ -181,7 +181,7 @@ function WoWPro.CreateGuideList()
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, -1)
                 elseif WoWPro.WRATH then
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 1)
-                elseif WoWPro.Cata then
+                elseif WoWPro.CATA then
                     scrollBox:SetPoint("TOPLEFT", frame, 0, 0)
                     scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 2)
