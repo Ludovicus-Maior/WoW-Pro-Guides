@@ -139,9 +139,10 @@ C The Great Bank Heist|QID|14122|QO|2|M|30.10,71.41|Z|0194;Kezan|N|Use whichever
 C The Great Bank Heist|QID|14122|QO|1|M|30.10,71.41|Z|0194;Kezan|N|Click on either one of the First Bank of Kezan Vaults.|NC|
 C Robbing Hoods|QID|14121|M|30.80,60.80;38.40,76.20;46.70,59.80;38.50,48.31|CN|Z|0194;Kezan|L|47530 12|ITEM|47530|N|the Hired Looters by running them over.\n[color=FF0000]NOTE: [/color]Circle the waypoints until you're done.|U|46856|US|
 R Gallywix's Villa|ACTIVE|14123|M|25.17,42.10|Z|0194;Kezan|N|Use your Hot Rod to head over to Gallywix's Villa.|U|46856|
-C Waltz Right In|QID|14123|QO|1|M|16.74,46.08|Z|0194;Kezan|N|While avoiding the guard with the Keensnout Potbelly pig, drive inside the big building and when you get dismounted, run up the stairs and loot Maldy's Falcon from the bedroom wall.\n[color=FF0000]NOTE: [/color]You'll temporarily lose our disguise if the pig gets close enough to expose you.\nIf this happens, jump out the window and stand on the roof until your disguise comes back.|U|46856|NC|
-C Waltz Right In|QID|14123|QO|2|M|13.0,35.2|Z|0194;Kezan|N|[Coords]Head to the hut on the western end of the compound, and loot the Goblin Lisa from the wall.|U|46856|NC|
-C Waltz Right In|QID|14123|QO|3|M|19.9,30.7|Z|0194;Kezan|N|[Coords]Head into the building at the eastern end of the compound and loot the Ultimate Bomb.|U|46856|NC|
+C Waltz Right In|QID|14123|QO|1|M|16.74,46.08|Z|0194;Kezan|N|While avoiding the guard with the Keensnout Potbelly pig, drive inside the big building and when you get dismounted, run up the stairs and loot Maldy's Falcon from the table in the bedroom .\n[color=FF0000]NOTE: [/color]You'll temporarily lose our disguise if the pig gets close enough to expose you.\nIf this happens, jump out the window and stand on the roof until your disguise comes back.|U|46856|NC|
+C Waltz Right In|QID|14123|QO|2|M|12.85,35.19|Z|0194;Kezan|N|Avoiding the pigs once again, drive into the building on the west side of the pool and loot the Goblin Lisa from the wall.|U|46856|NC|
+C Waltz Right In|QID|14123|QO|3|M|19.9,30.7|Z|0194;Kezan|N|Avoiding the pigs one last time, drive into the building on the east side of the pool and loot the Ultimate Bomb.|U|46856|NC|
+H KTC Headquarters|ACTIVE|14123|M|59.78,77.28|Z|0194;Kezan|N|Hearth back to HQ
 T Waltz Right In|QID|14123|M|59.41,77.62|Z|0194;Kezan|N|To Slinky Sharpshiv at KTC Headquarters.|U|46856|
 T The Great Bank Heist|QID|14122|M|59.78,77.28|Z|0194;Kezan|N|To Sassy|
 T Robbing Hoods|QID|14121|M|58.24,76.45|Z|0194;Kezan|N|To Megs|
@@ -158,7 +159,7 @@ A Life Savings|QID|14126|PRE|14125|M|59.61,77.06|Z|0194;Kezan|N|From Sassy Hardw
 R Gallywix's Yacht|QID|14126|M|59.61,77.06;21.02,13.51|CC|Z|0194;Kezan|N|Talk to Sassy Hardwrench and tell her you're ready to go. You will then be taken to Gallywix's Yacht.\nYou will lose your Hot Rod at this point.|CHAT|ACTIVE|14126|
 T Life Savings|QID|14126|M|21.09,13.58|Z|0194;Kezan|N|To Trade Prince Gallywix. Once handed in, you will leave Kezan (forever) and head to The Lost Isles.|
 
-A Don't Go Into the Light!|QID|14239|PRE|14126|Z|0194;Kezan|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
+A Don't Go Into the Light!|QID|14239|PRE|14126|Z|0194;Kezan|N|From Doc Zapnozzle when the cinematic ends.|
 ;T Don't Go Into The Light |QID|14239|N|To Doc Zapnozzle.|
 A Goblin Escape Pods|QID|14001^14474|PRE|14239|M|24.63,77.96|Z|0174;The Lost Isles|N|From Geargrinder Gizmo.|
 C Goblin Escape Pods|QID|14001^14474|M|27.47,81.78|Z|0174;The Lost Isles|N|Click on the escape pods to recue the goblins.|NC|
