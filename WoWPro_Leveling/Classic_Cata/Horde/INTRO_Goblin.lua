@@ -128,10 +128,10 @@ T Pirate Party Crashers|QID|14115|M|56.46,76.97|Z|0194;Kezan|N|To Sassy Hardwren
 A The Uninvited Guest|QID|14116|PRE|14115|M|56.46,76.97|Z|0194;Kezan|N|From Sassy Hardwrench.|
 T The Uninvited Guest|QID|14116|M|56.72,76.93|Z|0194;Kezan|N|Upstairs to Trade Prince Gallywix.| ;40 exp
 A A Bazillion Macaroons?!|QID|14120|PRE|14116|M|56.72,76.93|Z|0194;Kezan|N|From Trade Prince Gallywix.|
-T A Bazillion Macaroons?!|QID|14120|M|59.61,77.06|Z|0194;Kezan|N|To Sassy Hardwrench who has moved to outside the house.| ; 40 exp
+T A Bazillion Macaroons?!|QID|14120|M|59.61,77.06|Z|0194;Kezan|N|To Sassy Hardwrench, who has moved to outside the house.| ; 40 exp
 A The Great Bank Heist|QID|14122|PRE|14120|M|59.61,77.06|Z|0194;Kezan|N|Automatically accepted from Sassy Hardwrench.|
 = Level 5 Training|AVAILABLE|14122^141223|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|IZ|KTC Headquarters|C|-Hunter|
-A Robbing Hoods|QID|14121|PRE|14120|M|60.00,78.19|Z|0194;Kezan|N|From Megs Dreadshredder.|
+A Robbing Hoods|QID|14121|PRE|14120|M|60.02,78.15|Z|0194;Kezan|N|From Megs Dreadshredder.|
 A Waltz Right In|QID|14123|PRE|14120|M|58.60,73.70|Z|0194;Kezan|N|From Slinky Sharpshiv.|
 C Robbing Hoods|QID|14121|M|38.82,71.43|Z|0194;Kezan|L|47530 12|ITEM|47530|N|the Hired Looters by running them over.|S|
 R First Bank of Kezan|ACTIVE|14122|M|29.92,71.37|Z|0194;Kezan|N|Head to the First Bank of Kezan|U|46856|
@@ -142,29 +142,28 @@ R Gallywix's Villa|ACTIVE|14123|M|25.17,42.10|Z|0194;Kezan|N|Use your Hot Rod to
 C Waltz Right In|QID|14123|QO|1|M|16.74,46.08|Z|0194;Kezan|N|While avoiding the guard with the Keensnout Potbelly pig, drive inside the big building and when you get dismounted, run up the stairs and loot Maldy's Falcon from the table in the bedroom .\n[color=FF0000]NOTE: [/color]You'll temporarily lose our disguise if the pig gets close enough to expose you.\nIf this happens, jump out the window and stand on the roof until your disguise comes back.|U|46856|NC|
 C Waltz Right In|QID|14123|QO|2|M|12.85,35.19|Z|0194;Kezan|N|Avoiding the pigs once again, drive into the building on the west side of the pool and loot the Goblin Lisa from the wall.|U|46856|NC|
 C Waltz Right In|QID|14123|QO|3|M|19.9,30.7|Z|0194;Kezan|N|Avoiding the pigs one last time, drive into the building on the east side of the pool and loot the Ultimate Bomb.|U|46856|NC|
-H KTC Headquarters|ACTIVE|14123|M|59.78,77.28|Z|0194;Kezan|N|Hearth back to HQ
+H KTC Headquarters|ACTIVE|14123|M|56.86,76.98|Z|0194;Kezan|N|Hearth back to HQ.|
 T Waltz Right In|QID|14123|M|59.41,77.62|Z|0194;Kezan|N|To Slinky Sharpshiv at KTC Headquarters.|U|46856|
-T The Great Bank Heist|QID|14122|M|59.78,77.28|Z|0194;Kezan|N|To Sassy|
-T Robbing Hoods|QID|14121|M|58.24,76.45|Z|0194;Kezan|N|To Megs|
-A Liberate the Kaja'mite|QID|14124|PRE|14120|M|60.22,74.54|Z|0194;Kezan|N|From Foreman Dampwick.|U|46856|
+T The Great Bank Heist|QID|14122|M|59.61,77.06|Z|0194;Kezan|N|To Sassy Hardwrench.|
+T Robbing Hoods|QID|14121|M|60.02,78.15|Z|0194;Kezan|N|To Megs Dreadshredder.|
+A Liberate the Kaja'mite|QID|14124|PRE|14120|M|62.97,77.80|Z|0194;Kezan|N|From Foreman Dampwick.| ; ** That's not the right PRE - Hendo72
 C Liberate the Kaja'mite|QID|14124|M|71.19,77.39|Z|0194;Kezan|N|Use the bombs on the sparkling green ore spots, then pick up the Kaja'mite Chunks.|U|48768|NC|
-T Liberate the Kaja'mite|QID|14124|M|60.22,74.54|Z|0194;Kezan|N|To Foreman Dampwick.|U|46856|
+T Liberate the Kaja'mite|QID|14124|M|62.97,77.80|Z|0194;Kezan|N|To Foreman Dampwick.|U|46856|
 A 447|QID|14125|PRE|14121&14122&14123&14124|M|59.61,77.06|Z|0194;Kezan|N|From Sassy Hardwrench.|
-C Overload the Defective Generator|QID|14125|QO|1|M|56.13,76.6|Z|0194;Kezan|N|[Coords]Head inside the building and click on the Defective Generator.|NC|
-C Activate the Leaky Stove|QID|14125|QO|2|M|56.05,74.7|Z|0194;Kezan|N|[Coords]Head over to the corner and click on the Leaky Stove.|NC|
-C Drop a Cigar on the Flammable Bed|QID|14125|QO|3|M|56.61,75.15|Z|0194;Kezan|N|[Coords]Head upstairs and click on the Flammable Bed.|NC|
-C Activate the Gasbot Control Panel|QID|14125|QO|4|M|60.63,76.87|Z|0194;Kezan|N|Head outside and activate the Gasbot Control Panel, then wait for the Gasbot to do it's job.|NC|
-T 447|QID|14125|M|59.87,76.72|Z|0194;Kezan|N|To Claims Adjuster.|
+C Overload the Defective Generator|QID|14125|QO|1|M|56.07,76.64|Z|0194;Kezan|N|Click on the Defective Generator inside the building.|NC|
+C Activate the Leaky Stove|QID|14125|QO|2|M|56.07,74.67|Z|0194;Kezan|N|Click on the Leaky Stove in the corner.|NC|
+C Drop a Cigar on the Flammable Bed|QID|14125|QO|3|M|56.61,75.15|Z|0194;Kezan|N|Click on the Flammable Bed in the bedroom upstairs.|NC|
+C Activate the Gasbot Control Panel|QID|14125|QO|4|M|59.49,76.82|Z|0194;Kezan|N|Activate the Gasbot Control Panel and wait for the Gasbot to do it's job.|NC|
+T 447|QID|14125|M|59.58,76.62|Z|0194;Kezan|N|To Claims Adjuster.|
 A Life Savings|QID|14126|PRE|14125|M|59.61,77.06|Z|0194;Kezan|N|From Sassy Hardwrench.|
-R Gallywix's Yacht|QID|14126|M|59.61,77.06;21.02,13.51|CC|Z|0194;Kezan|N|Talk to Sassy Hardwrench and tell her you're ready to go. You will then be taken to Gallywix's Yacht.\nYou will lose your Hot Rod at this point.|CHAT|ACTIVE|14126|
-T Life Savings|QID|14126|M|21.09,13.58|Z|0194;Kezan|N|To Trade Prince Gallywix. Once handed in, you will leave Kezan (forever) and head to The Lost Isles.|
+R Gallywix's Yacht|ACTIVE|14126|M|59.61,77.06|Z|0194;Kezan|N|Tell Sassy Hardwrench that you're ready to go and she'll drive your Hot Rod to Gallywix's Yacht.\n[color=FF0000]NOTE: [/color]You'll permanaently lose access to your Hot Rod once you do this.|CHAT|
+T Life Savings|QID|14126|M|20.84,13.71|Z|0194;Kezan|N|To Trade Prince Gallywix.\n[color=FF0000]NOTE: [/color]Say goodbye to Kezan forever as you're now headed to The Lost Isles.|
 
-A Don't Go Into the Light!|QID|14239|PRE|14126|Z|0194;Kezan|N|From Doc Zapnozzle when the cinematic ends.|
-;T Don't Go Into The Light |QID|14239|N|To Doc Zapnozzle.|
-A Goblin Escape Pods|QID|14001^14474|PRE|14239|M|24.63,77.96|Z|0174;The Lost Isles|N|From Geargrinder Gizmo.|
-C Goblin Escape Pods|QID|14001^14474|M|27.47,81.78|Z|0174;The Lost Isles|N|Click on the escape pods to recue the goblins.|NC|
-T Goblin Escape Pods|QID|14001^14474|M|27.86,75.58|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
-A Get Our Stuff Back!|QID|14014|PRE|14001^14474|M|27.86,75.58|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+A Don't Go Into the Light!|QID|14239|PRE|14126|M|24.60,77.94|Z|0174;The Lost Isles|N|From Doc Zapnozzle when the cinematic ends.\n[color=FF0000]NOTE: [/color]You won't be able to move until you accept this quest.| ; ** This quest auto-completes itself without a turn-in
+A Goblin Escape Pods|QID|14001^14474|PRE|14239|M|24.64,77.94|Z|0174;The Lost Isles|N|From Geargrinder Gizmo.|
+C Goblin Escape Pods|QID|14001^14474|M|27.47,81.78|Z|0174;The Lost Isles|N|Click on the escape pods to rescue the goblins.|NC|
+T Goblin Escape Pods|QID|14001^14474|M|27.88,75.54|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
+A Get Our Stuff Back!|QID|14014|PRE|14001^14474|M|27.88,75.54|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 A Monkey Business|QID|14019|PRE|14001^14474|M|27.89,74.43|Z|0174;The Lost Isles|N|From Bamm Megabomb.|
 A It's Our Problem Now|QID|14473|PRE|14001^14474|M|27.89,74.40|Z|0174;The Lost Isles|N|From Maxx Avalanche.|
 C It's Our Problem Now|QID|14473|M|29.24,69.93|Z|0174;The Lost Isles|N|Kill 6 Teraptor Hatchlings.|S|
