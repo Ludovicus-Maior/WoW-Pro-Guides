@@ -160,6 +160,28 @@ function WoWPro:ValidZone(zone, quiet)
     return nil, nil
 end
 
+function WoWPro.ZoneContinent(zoneID)
+    repeat
+        WoWPro:dbp("ZoneContinent(%d): Studying %q %d", zoneID, WoWPro.MapInfo[zoneID].name, WoWPro.MapInfo[zoneID].mapType)
+        if WoWPro.MapInfo[zoneID].mapType == _G.Enum.UIMapType.Continent then
+            -- WoWPro:dbp("ZoneContinent(%d): Found Continent",  zoneID)
+            return WoWPro.MapInfo[zoneID].name, zoneID
+        elseif (WoWPro.MapInfo[zoneID].mapType == _G.Enum.UIMapType.World) or (WoWPro.MapInfo[zoneID].mapType == _G.Enum.UIMapType.Cosmic) then
+            -- WoWPro:dbp("ZoneContinent(%d): No Continent",  zoneID)
+            -- We are lost!
+            return nil, nil
+        elseif WoWPro.MapInfo[zoneID].parent_map then
+            -- WoWPro:dbp("ZoneContinent(%d): Moving up tree to %d",  zoneID, WoWPro.MapInfo[zoneID].parent_map)
+            zoneID = WoWPro.MapInfo[zoneID].parent_map
+        else
+            WoWPro:dbp("ZoneContinent(%d): Orphan",  zoneID)
+            zoneID = 0
+        end
+    until zoneID == 0
+    return nil, nil
+end
+
+
 function WoWPro:IsInstanceZone(zone)
     local nzone, mapID  = WoWPro:ValidZone(zone)
     if not nzone then
