@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "WoWPro Team", "Alliance")
+local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "WoWPro Team", "Alliance", 4)
 WoWPro:GuideName(guide,"Bloodmyst Isle")
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNextGuide(guide, 'Darkshore')

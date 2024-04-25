@@ -1,5 +1,0 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/">
-	<Script file="Ludo_Love.lua"/>
-	<Script file="LunarFestival.lua"/>
-	<Script file="WOTLK_LunarFestival.lua"/>
-</Ui>

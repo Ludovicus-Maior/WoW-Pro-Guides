@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BitWes1020', "Leveling", 'Westfall', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('BitWes1020', "Leveling", 'Westfall', 'WoWPro Team', 'Alliance', 4)
 WoWPro:GuideName(guide,"Westfall")
 WoWPro:GuideSort(guide, 54)
 WoWPro:GuideNextGuide(guide, 'Redridge Mountains')
