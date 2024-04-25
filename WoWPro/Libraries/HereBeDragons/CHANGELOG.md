@@ -1,9 +1,15 @@
 # Lib: HereBeDragons
 
-## [2.13-release-3-g6a0a022](https://github.com/Nevcairiel/HereBeDragons/tree/6a0a022e97aab278e0f41e150ffc9d59313dde90) (2024-04-20)
-[Full Changelog](https://github.com/Nevcairiel/HereBeDragons/compare/2.13-release...6a0a022e97aab278e0f41e150ffc9d59313dde90) [Previous Releases](https://github.com/Nevcairiel/HereBeDragons/releases)
+## [2.13-release](https://github.com/Nevcairiel/HereBeDragons/tree/2.13-release) (2023-07-12)
+[Full Changelog](https://github.com/Nevcairiel/HereBeDragons/compare/2.12-release...2.13-release) [Previous Releases](https://github.com/Nevcairiel/HereBeDragons/releases)
 
-- Update Library version, forgotten in previous commit  
-    Also force a data update for Cataclysm  
-- Update for Cataclysm Classic  
-- Update TOC for 10.2.6  
+- Update TOC for 10.1.5  
+- HBD-Pins-2.0: Hack around combat limitations in 10.1.5  
+    SetPassThroughButtons can no longer be called in combat, but we allow  
+    creating pins at any time during play. Until such a point when this is  
+    fixed by Blizzard, noop out the function so that creating pins no longer  
+    errors.  
+    This function is called on the pin by Blizzards pin handler, which is of  
+    course insecure on addon-created pins.  
+- Update TOC for 10.1  
+- Update TOC for 10.0.7  

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance")
+local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance", 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 9)
 WoWPro:GuideContent(guide, "Intro")
@@ -10,87 +10,118 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ; Zone is Ruins of Gilneas City
 N Sequential Zone |QID|14078|N|Gilneas is a linear quest zone, it won't be possible for you to skip any quests.|S|
-A Lockdown! |QID|14078|Z|GilneasCity|M|59.11,23.83|N|From Prince Liam Greymane right in front of you.|
-T Lockdown! |QID|14078|Z|GilneasCity|M|54.65,16.68|N|Go north and then west along the street to Lieutenant Walden lying on the ground.|
-A Something's Amiss |QID|14091|Z|GilneasCity|M|54.65,16.68|N|From Lieutenant Walden's corpse.|PRE|14078|
-T Something's Amiss |QID|14091|Z|GilneasCity|M|59.80,22.23|N|To Prince Liam Greymane.|
-A All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|PRE|14091|
-A Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|PRE|14091|
-A Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Go a few steps south to Gwen Armstead.|PRE|14078|
-C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|Z|GilneasCity|M|58.8,32.7|S|
-C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|Z|GilneasCity|M|58.8,32.7|S|NC|
-C Evacuate the Merchant Square |QID|14098|N|Click on Merchant Square Doors.  A Rampaging Worgen may attack you on opening the door.|Z|GilneasCity|M|58.8,32.7|NC|
-C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|US|Z|GilneasCity|NC|
-C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|US|Z|GilneasCity|
-T Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Back to Gwen Armstead.|
-T All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.80,22.23|N|To Prince Liam Greymane.|
-T Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|To Prince Liam Greymane.|
-A Royal Orders |QID|14099|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|PRE|14093&14098&14094|
-T Royal Orders |QID|14099|Z|GilneasCity|M|70.76,55.03|CC|N|To Gwen Armstead, who has now moved into the Military District.|
-A Your Instructor |QID|14265|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Warrior|N|From Gwen Armstead.|
-A Someone's Looking for You |QID|14269|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Rogue|N|From Gwen Armstead.|
-A Shady Associates |QID|14273|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Warlock|N|From Gwen Armstead.|
-A Someone's Keeping Track of You |QID|14275|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Hunter|N|From Gwen Armstead.|
-A Arcane Inquiries |QID|14277|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Mage|N|From Gwen Armstead.|
-A Seek the Sister |QID|14278|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Priest|N|From Gwen Armstead.|
-A The Winds Know Your Name... Apparently |QID|14280|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Druid|N|From Gwen Armstead.|
-T Your Instructor |QID|14265|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|Go straight and then take your first right to Sergeant Cleese.|
-T Someone's Looking for You |QID|14269|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|Loren the Fence is hidden, but she appears when you approach.|
-T Shady Associates |QID|14273|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|To Vitus Darkwalker.|
-T Someone's Keeping Track of You |QID|14275|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|To Huntsman Blake.|
-T Arcane Inquiries |QID|14277|Z|GilneasCity|M|68.2,64.8|C|Mage|N|Go straight and then take your first right to Myriam Spellwaker.|
-T Seek the Sister |QID|14278|Z|GilneasCity|M|70.5,65.2|C|Priest|N|See Sister Almyra.|
-T The Winds Know Your Name... Apparently |QID|14280|Z|GilneasCity|M|70.2,65.7|C|Druid|N|To Celestine of the Harvest.|
-A Safety in Numbers |QID|14286|Z|GilneasCity|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|PRE|14265|
-A Safety in Numbers |QID|14285|Z|GilneasCity|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|PRE|14269|
-A Safety in Numbers |QID|14287|Z|GilneasCity|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|PRE|14273|
-A Safety in Numbers |QID|14290|Z|GilneasCity|M|71.3,61.4|C|Hunter|N|From Huntsman Blake.|PRE|14275|
-A Safety in Numbers |QID|14289|Z|GilneasCity|M|70.5,65.2|C|Priest|N|From Sister Almyra.|PRE|14278|
-A Safety in Numbers |QID|14288|Z|GilneasCity|M|68.2,64.8|C|Mage|N|From Myriam Spellwaker.|PRE|14277|
-A Safety in Numbers |QID|14291|Z|GilneasCity|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|PRE|14280|
-T Safety in Numbers |QID|14286|Z|GilneasCity|M|65.80,77.67|C|Warrior|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14285|Z|GilneasCity|M|65.80,77.67|C|Rogue|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14287|Z|GilneasCity|M|65.80,77.67|C|Warlock|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14290|Z|GilneasCity|M|65.80,77.67|C|Hunter|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14289|Z|GilneasCity|M|65.80,77.67|C|Priest|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14288|Z|GilneasCity|M|65.80,77.67|C|Mage|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14291|Z|GilneasCity|M|65.80,77.67|C|Druid|N|To King Genn Greymane.|
-A Old Divisions |QID|14157|Z|GilneasCity|M|65.80,77.67|N|From King Genn Greymane.|PRE|14285^14286^14287^14288^14289^14290^14291|
-A While You're At It |QID|24930|Z|GilneasCity|M|65.29,77.67|N|From Lord Godfrey.|PRE|14285^14286^14287^14288^14289^14290^14291|
-C While You're At It |QID|24930|Z|GilneasCity|M|58.0,72.0|N|Kill Bloodfang Worgen on your way to the tower|S|
-T Old Divisions |QID|14157|Z|GilneasCity|M|58.0,72.0;57.94,75.60|CS|N|Head into Stoneward Prison, then To Captain Broderick.|
-A The Prison Rooftop |QID|28850|Z|GilneasCity|M|57.94,75.60|N|From Captain Broderick.|PRE|14157|
-T The Prison Rooftop |QID|28850|Z|GilneasCity|M|55.21,62.90|N|Go up the stairs and then follow the ledge. To Lord Darius Crowley.|
-A By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.21,62.90|N|From Lord Darius Crowley.|PRE|28850|
-C By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.21,62.90|N|Fight off the attacking Worgen for 2 minutes to complete the quest.|
-T By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.21,62.90|N|To Lord Darius Crowley.|
-A Brothers In Arms |QID|26129|Z|GilneasCity|M|55.21,62.90|N|From Lord Darius Crowley.|PRE|14154|
-C While You're At It |QID|24930|Z|GilneasCity|M|58.0,72.0|N|Go back down to the Military District and finish off killing Bloodfang Worgen|US|
-T While You're At It |QID|24930|Z|GilneasCity|M|65.29,77.67|N|To Lord Godfrey.|
-T Brothers In Arms |QID|26129|Z|GilneasCity|M|65.80,77.67|N|To King Genn Greymane.|
-A The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|65.80,77.67|N|From King Genn Greymane.|PRE|26129&24930|
-T The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|56.77,85.48|N|Follow the path around to the break in the houses, and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
-A From the Shadows |QID|14204|Z|GilneasCity|M|56.87,81.49|N|Turn around and get this quest from Lorna Crowley.|PRE|14159|
-C From the Shadows |QID|14204|Z|GilneasCity|M|54.6,81.5|N|Use the pet ability Attack Lurker to reveal hidden Bloodfang Lurkers in the alleys.|
-T From the Shadows |QID|14204|Z|GilneasCity|M|56.87,81.49|N|Return to Lorna Crowley.|
-A Message to Greymane |QID|14214|Z|GilneasCity|M|56.87,81.49|N|From Lorna Crowley.|PRE|14204|
-T Message to Greymane |QID|14214|Z|GilneasCity|M|58.9,83.6|N|Return to King Genn Greymane.|
-A Save Krennan Aranas |QID|14293|Z|GilneasCity|M|58.9,83.6|N|From King Genn Greymane.|PRE|14214|
-C Save Krennan Aranas |QID|14293|Z|GilneasCity|M|66.0,62.2|N|Your horse is scripted, but he will stop under Krennan Aranas.  When he does use your (1) Rescue Krennan mount ability.|NC|
-T Save Krennan Aranas |QID|14293|Z|GilneasCity|M|55.8,80.2|N|Turn in to Lord Godfrey.|
-A Time to Regroup |QID|14294|Z|GilneasCity|M|55.8,80.2|N|From Lord Godfrey.|PRE|14293|
-T Time to Regroup |QID|14294|Z|GilneasCity|M|53.84,84.03;42.80,82.85;30.5,73.3|CS|N|Go west, then south along the streets then through a bridge west into the Greymane Court district. Continue northwest along the street to King Greymane.|
-A Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.6|N|From Lord Crowley.|PRE|14294|
-C Sacrifices |QID|14212|Z|GilneasCity|M|31.0,72.9|N|Mount Crowley's Horse.  While on the scripted path use your mount's (1) Throw Torch ability to round up 30 worgen. If you do not get 30, ride the horse again.|NC|
-T Sacrifices |QID|14212|Z|GilneasCity|M|40.3,39.5|N|To Tobias Mistmantle. If he doesn't offer the turn-in, kill the Bloodfang Stalker that he is attacking.|
-A By Blood and Ash |QID|14218|Z|GilneasCity|M|40.3,39.5|N|From Tobias Mistmantle|PRE|14212|
-C By Blood and Ash |QID|14218|Z|GilneasCity|M|38.7,38.6|N|Hop on a cannon and then use the Rebel Cannon ability to kill 80 Bloodfang Stalkers.|
-T By Blood and Ash |QID|14218|Z|GilneasCity|M|40.3,39.5|N|To Tobias Mistmantle.|
-A Never Surrender, Sometimes Retreat |QID|14221|Z|GilneasCity|M|40.3,39.5|N|From Tobias Mistmantle.|PRE|14218|
-T Never Surrender, Sometimes Retreat |QID|14221|Z|GilneasCity|M|48.8,52.6|N|Go inside the Cathedral behind Tobias and all the way to Lord Darius Crowley at the back of the cathedral.|
-A Last Stand |QID|14222|Z|GilneasCity|M|48.8,52.6|N|From Lord Darius Crowley.|PRE|14221|
-C Last Stand |QID|14222|Z|GilneasCity|M|45.3,47.4|N|Kill 8 Frenzied Stalkers.|
-T Last Stand |QID|14222|Z|GilneasCity|M|48.8,52.6|N|Turn in back at Lord Darius Crowley and enjoy the cinematic.|
+A Lockdown! |QID|14078|Z|202; Gilneas City|M|59.11,23.83|N|From Prince Liam Greymane right in front of you.|
+T Lockdown! |QID|14078|Z|202; Gilneas City|M|54.65,16.68|N|Go north and then west along the street to Lieutenant Walden lying on the ground.|
+A Something's Amiss |QID|14091|Z|202; Gilneas City|M|54.65,16.68|N|From Lieutenant Walden's corpse.|PRE|14078|
+T Something's Amiss |QID|14091|Z|202; Gilneas City|M|59.80,22.23|N|To Prince Liam Greymane.|
+A All Hell Breaks Loose |QID|14093|Z|202; Gilneas City|M|59.80,22.23|N|From Prince Liam Greymane.|PRE|14091|
+A Evacuate the Merchant Square |QID|14098|Z|202; Gilneas City|M|59.80,22.23|N|From Prince Liam Greymane.|PRE|14091|
+A Salvage the Supplies |QID|14094|Z|202; Gilneas City|M|59.58,26.77|N|Go a few steps south to Gwen Armstead.|PRE|14078|
+C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|Z|202; Gilneas City|M|58.8,32.7|S|
+C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|Z|202; Gilneas City|M|58.8,32.7|S|NC|
+C Evacuate the Merchant Square |QID|14098|N|Click on Merchant Square Doors.  A Rampaging Worgen may attack you on opening the door.|Z|202; Gilneas City|M|58.8,32.7|NC|
+C Salvage the Supplies |QID|14094|N|Look for Supply Crates near the buildings.|US|Z|202; Gilneas City|NC|
+C All Hell Breaks Loose |QID|14093|N|Kill Rampaging Worgen.|US|Z|202; Gilneas City|
+T Salvage the Supplies |QID|14094|Z|202; Gilneas City|M|59.58,26.77|N|Back to Gwen Armstead.|
+T All Hell Breaks Loose |QID|14093|Z|202; Gilneas City|M|59.80,22.23|N|To Prince Liam Greymane.|
+T Evacuate the Merchant Square |QID|14098|Z|202; Gilneas City|M|59.80,22.23|N|To Prince Liam Greymane.|
+A Royal Orders |QID|14099|PRE|14093&14098&14094|Z|202; Gilneas City|M|59.80,22.23|N|From Prince Liam Greymane.|
+T Royal Orders |QID|14099|Z|202; Gilneas City|M|70.76,55.03|CC|N|To Gwen Armstead, who has now moved into the Military District.|
+
+
+
+
+
+
+
+
+;Class quest section
+
+A The Winds Know Your Name... Apparently |QID|14280|PRE|14099|Z|202; Gilneas City|M|70.7,54.7|C|Druid|N|From Gwen Armstead.|
+T The Winds Know Your Name... Apparently |QID|14280|Z|202; Gilneas City|M|70.2,65.7|C|Druid|N|To Celestine of the Harvest.|
+A A Rejuvenating Touch|QID|14283|PRE|14280|M|70.23,65.04|Z|202; Gilneas City|N|From Celestine of the Harvest|C|Druid|
+C A Rejuvenating Touch|QID|14283|M|70.23,65.04|Z|202; Gilneas City|N|Learn Rejuvenation, then target the Wounded Guard and cast it on them.|C|Druid|T|Wounded Guard|SPELL|774|
+T A Rejuvenating Touch|QID|14283|M|70.23,65.04|Z|202; Gilneas City|N|To Celestine of the Harvest|C|Druid|
+A Safety in Numbers |QID|14291|PRE|14283|Z|202; Gilneas City|M|70.2,65.7|N|From Celestine of the Harvest.|C|Druid|
+T Safety in Numbers |QID|14291|Z|202; Gilneas City|M|65.80,77.67|N|To King Genn Greymane.|C|Druid|
+
+
+A Your Instructor |QID|14265|PRE|14099|Z|202; Gilneas City|M|70.7,54.7|N|From Gwen Armstead.|C|Warrior|
+T Your Instructor |QID|14265|Z|202; Gilneas City|M|67.7,64.3|N|Go straight and then take your first right to Sergeant Cleese.|C|Warrior|
+A Charge|QID|14266|PRE|14265|Z|202; Gilneas City|M|67.7,64.3|N|From Sergeant Cleese.|C|Warrior|
+C Charge|QID|14266|Z|202; Gilneas City|M|67.7,64.3|N|Learn Charge from Sergeant Cleese and use it against a Bloodfang Worgen.|C|Warrior|T|Bloodfang Worgen|
+T Charge|QID|14266|Z|202; Gilneas City|M|67.7,64.3|N|To Sergeant Cleese.|C|Warrior|
+A Safety in Numbers |QID|14286|PRE|14266|Z|202; Gilneas City|M|67.7,64.3|C|Warrior|N|From Sergeant Cleese.|
+T Safety in Numbers |QID|14286|Z|202; Gilneas City|M|65.80,77.67|C|Warrior|N|To King Genn Greymane.|
+
+
+A Someone's Looking for You |QID|14269|PRE|14099|Z|202; Gilneas City|M|70.7,54.7|C|Rogue|N|From Gwen Armstead.|
+T Someone's Looking for You |QID|14269|Z|202; Gilneas City|M|71.2,65.6|C|Rogue|N|Loren the Fence is hidden, but she appears when you approach.|
+A Safety in Numbers |QID|14285|Z|202; Gilneas City|M|71.2,65.6|C|Rogue|N|From Loren the Fence.|PRE|14269|
+T Safety in Numbers |QID|14285|Z|202; Gilneas City|M|65.80,77.67|C|Rogue|N|To King Genn Greymane.|
+
+
+A Shady Associates |QID|14273|PRE|14099|Z|202; Gilneas City|M|70.7,54.7|C|Warlock|N|From Gwen Armstead.|
+T Shady Associates |QID|14273|Z|202; Gilneas City|M|71.2,64.3|C|Warlock|N|To Vitus Darkwalker.|
+A Safety in Numbers |QID|14287|Z|202; Gilneas City|M|71.2,64.3|C|Warlock|N|From Vitus Darkwalker.|PRE|14273|
+T Safety in Numbers |QID|14287|Z|202; Gilneas City|M|65.80,77.67|C|Warlock|N|To King Genn Greymane.|
+
+
+A Someone's Keeping Track of You |QID|14275|PRE|14099|Z|202; Gilneas City|M|70.7,54.7|C|Hunter|N|From Gwen Armstead.|
+T Someone's Keeping Track of You |QID|14275|Z|202; Gilneas City|M|71.3,61.4|C|Hunter|N|To Huntsman Blake.|
+A Safety in Numbers |QID|14290|Z|202; Gilneas City|M|71.3,61.4|C|Hunter|N|From Huntsman Blake.|PRE|14275|
+T Safety in Numbers |QID|14290|Z|202; Gilneas City|M|65.80,77.67|C|Hunter|N|To King Genn Greymane.|
+
+
+A Seek the Sister |QID|14278|PRE|14099|Z|202; Gilneas City|M|70.7,54.7|C|Priest|N|From Gwen Armstead.|
+T Seek the Sister |QID|14278|Z|202; Gilneas City|M|70.5,65.2|C|Priest|N|See Sister Almyra.|
+A Safety in Numbers |QID|14289|Z|202; Gilneas City|M|70.5,65.2|C|Priest|N|From Sister Almyra.|PRE|14278|
+T Safety in Numbers |QID|14289|Z|202; Gilneas City|M|65.80,77.67|C|Priest|N|To King Genn Greymane.|
+
+
+A Arcane Inquiries |QID|14277|PRE|14099|Z|202; Gilneas City|M|70.7,54.7|C|Mage|N|From Gwen Armstead.|
+T Arcane Inquiries |QID|14277|Z|202; Gilneas City|M|68.2,64.8|C|Mage|N|Go straight and then take your first right to Myriam Spellwaker.|
+A Safety in Numbers |QID|14288|Z|202; Gilneas City|M|68.2,64.8|C|Mage|N|From Myriam Spellwaker.|PRE|14277|
+T Safety in Numbers |QID|14288|Z|202; Gilneas City|M|65.80,77.67|C|Mage|N|To King Genn Greymane.|
+
+
+
+A Old Divisions |QID|14157|Z|202; Gilneas City|M|65.80,77.67|N|From King Genn Greymane.|PRE|14285^14286^14287^14288^14289^14290^14291|
+A While You're At It |QID|24930|Z|202; Gilneas City|M|65.29,77.67|N|From Lord Godfrey.|PRE|14285^14286^14287^14288^14289^14290^14291|
+C While You're At It |QID|24930|Z|202; Gilneas City|M|58.0,72.0|N|Kill Bloodfang Worgen on your way to the tower|S|
+T Old Divisions |QID|14157|Z|202; Gilneas City|M|58.0,72.0;57.94,75.60|CS|N|Head into Stoneward Prison, then To Captain Broderick.|
+A The Prison Rooftop |QID|28850|Z|202; Gilneas City|M|57.94,75.60|N|From Captain Broderick.|PRE|14157|
+T The Prison Rooftop |QID|28850|Z|202; Gilneas City|M|55.21,62.90|N|Go up the stairs and then follow the ledge. To Lord Darius Crowley.|
+A By the Skin of His Teeth |QID|14154|Z|202; Gilneas City|M|55.21,62.90|N|From Lord Darius Crowley.|PRE|28850|
+C By the Skin of His Teeth |QID|14154|Z|202; Gilneas City|M|55.21,62.90|N|Fight off the attacking Worgen for 2 minutes to complete the quest.|
+T By the Skin of His Teeth |QID|14154|Z|202; Gilneas City|M|55.21,62.90|N|To Lord Darius Crowley.|
+A Brothers In Arms |QID|26129|Z|202; Gilneas City|M|55.21,62.90|N|From Lord Darius Crowley.|PRE|14154|
+C While You're At It |QID|24930|Z|202; Gilneas City|M|58.0,72.0|N|Go back down to the Military District and finish off killing Bloodfang Worgen|US|
+T While You're At It |QID|24930|Z|202; Gilneas City|M|65.29,77.67|N|To Lord Godfrey.|
+T Brothers In Arms |QID|26129|Z|202; Gilneas City|M|65.80,77.67|N|To King Genn Greymane.|
+A The Rebel Lord's Arsenal |QID|14159|Z|202; Gilneas City|M|65.80,77.67|N|From King Genn Greymane.|PRE|26129&24930|
+T The Rebel Lord's Arsenal |QID|14159|Z|202; Gilneas City|M|56.77,85.48|N|Follow the path around to the break in the houses, and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
+A From the Shadows |QID|14204|Z|202; Gilneas City|M|56.87,81.49|N|Turn around and get this quest from Lorna Crowley.|PRE|14159|
+C From the Shadows |QID|14204|Z|202; Gilneas City|M|54.6,81.5|N|Use the pet ability Attack Lurker to reveal hidden Bloodfang Lurkers in the alleys.|
+T From the Shadows |QID|14204|Z|202; Gilneas City|M|56.87,81.49|N|Return to Lorna Crowley.|
+A Message to Greymane |QID|14214|Z|202; Gilneas City|M|56.87,81.49|N|From Lorna Crowley.|PRE|14204|
+T Message to Greymane |QID|14214|Z|202; Gilneas City|M|58.9,83.6|N|Return to King Genn Greymane.|
+A Save Krennan Aranas |QID|14293|Z|202; Gilneas City|M|58.9,83.6|N|From King Genn Greymane.|PRE|14214|
+C Save Krennan Aranas |QID|14293|Z|202; Gilneas City|M|66.0,62.2|N|Your horse is scripted, but he will stop under Krennan Aranas.  When he does use your (1) Rescue Krennan mount ability.|NC|
+T Save Krennan Aranas |QID|14293|Z|202; Gilneas City|M|55.8,80.2|N|Turn in to Lord Godfrey.|
+A Time to Regroup |QID|14294|Z|202; Gilneas City|M|55.8,80.2|N|From Lord Godfrey.|PRE|14293|
+T Time to Regroup |QID|14294|Z|202; Gilneas City|M|53.84,84.03;42.80,82.85;30.5,73.3|CS|N|Go west, then south along the streets then through a bridge west into the Greymane Court district. Continue northwest along the street to King Greymane.|
+A Sacrifices |QID|14212|Z|202; Gilneas City|M|31.0,72.6|N|From Lord Crowley.|PRE|14294|
+C Sacrifices |QID|14212|Z|202; Gilneas City|M|31.0,72.9|N|Mount Crowley's Horse.  While on the scripted path use your mount's (1) Throw Torch ability to round up 30 worgen. If you do not get 30, ride the horse again.|NC|
+T Sacrifices |QID|14212|Z|202; Gilneas City|M|40.3,39.5|N|To Tobias Mistmantle. If he doesn't offer the turn-in, kill the Bloodfang Stalker that he is attacking.|
+A By Blood and Ash |QID|14218|Z|202; Gilneas City|M|40.3,39.5|N|From Tobias Mistmantle|PRE|14212|
+C By Blood and Ash |QID|14218|Z|202; Gilneas City|M|38.7,38.6|N|Hop on a cannon and then use the Rebel Cannon ability to kill 80 Bloodfang Stalkers.|
+T By Blood and Ash |QID|14218|Z|202; Gilneas City|M|40.3,39.5|N|To Tobias Mistmantle.|
+A Never Surrender, Sometimes Retreat |QID|14221|Z|202; Gilneas City|M|40.3,39.5|N|From Tobias Mistmantle.|PRE|14218|
+T Never Surrender, Sometimes Retreat |QID|14221|Z|202; Gilneas City|M|48.8,52.6|N|Go inside the Cathedral behind Tobias and all the way to Lord Darius Crowley at the back of the cathedral.|
+A Last Stand |QID|14222|Z|202; Gilneas City|M|48.8,52.6|N|From Lord Darius Crowley.|PRE|14221|
+C Last Stand |QID|14222|Z|202; Gilneas City|M|45.3,47.4|N|Kill 8 Frenzied Stalkers.|
+T Last Stand |QID|14222|Z|202; Gilneas City|M|48.8,52.6|N|Turn in back at Lord Darius Crowley and enjoy the cinematic.|
 A Last Chance at Humanity|QID|14375|Z|Gilneas|M|36.48,61.38|NC|N|Wait for the dialog to finish, then accept quest from King Genn Greymane.|PRE|14222|
 ; No Turn-in as this quest auto-completes
 ; Zone is now Ruins of Gilneas
@@ -244,16 +275,16 @@ C Push Them Out - Forsaken Infantry|QID|24676|Z|Gilneas|M|72.61,30.79|QO|1|N|Fin
 T Push Them Out|QID|24676|Z|Gilneas|M|70.87,39.80|N|To Lorna Crowley.|
 A The Battle for Gilneas City|QID|24904|Z|Gilneas|M|70.87,39.80|N|From Lorna Crowley.|PRE|24676|
 C The Battle for Gilneas City|QID|24904|M|70.06,40.89|Z|Gilneas|N|Speak to Krennan Aranas standing at the bridge leading to the city. This will start a big script. Follow Prince Liam Greymane and help out with the fights. Use the Rapier of the Gilnean Patriots to boost the combatants during the fights.|U|50334|T|Krennan Aranas|
-T The Battle for Gilneas City|QID|24904|M|38.59,60.17|Z|GilneasCity|N|To Lorna Crowley.|
-A The Hunt For Sylvanas|QID|24902|M|38.59,60.17|Z|GilneasCity|N|From Lorna Crowley.|PRE|24904|
-C The Hunt For Sylvanas|QID|24902|NC|M|38.59,60.17;44.44,51.54|CS|Z|GilneasCity|N|Follow Tobias Mistmantle carefully. You may want to set a Target Marker Icon to make it easier. If you lose him, go back to Lorna Crowley and ask to give it another try.|T|Tobias Mistmantle|
-T The Hunt For Sylvanas|QID|24902|M|38.53,60.37|Z|GilneasCity|N|To Lorna Crowley.|
-A Vengeance or Survival|QID|24903|M|38.53,60.37|Z|GilneasCity|N|From Lorna Crowley.|PRE|24902|
-T Vengeance or Survival|QID|24903|M|32.39,56.66|Z|GilneasCity|N|To King Genn Greymane.|
-A Slowing the Inevitable|QID|24920|M|32.39,56.66|Z|GilneasCity|N|From King Genn Greymane.|PRE|24903|
-C Slowing the Inevitable|QID|24920|M|30.36,60.93|Z|GilneasCity|N|Go outside and mount the Captured Riding Bat. Use your Iron Bomb ability to destroy 6 Forsaken Catapults and 40 Invading Forsakens. When youâ€™re done, use your Fly Back ability.|
-T Slowing the Inevitable|QID|24920|M|32.15,56.98|Z|GilneasCity|N|To King Genn Greymane.|
-A Knee-Deep|QID|24678|M|32.15,56.98|Z|GilneasCity|N|From King Genn Greymane.|PRE|24920|
+T The Battle for Gilneas City|QID|24904|M|38.59,60.17|Z|202; Gilneas City|N|To Lorna Crowley.|
+A The Hunt For Sylvanas|QID|24902|M|38.59,60.17|Z|202; Gilneas City|N|From Lorna Crowley.|PRE|24904|
+C The Hunt For Sylvanas|QID|24902|NC|M|38.59,60.17;44.44,51.54|CS|Z|202; Gilneas City|N|Follow Tobias Mistmantle carefully. You may want to set a Target Marker Icon to make it easier. If you lose him, go back to Lorna Crowley and ask to give it another try.|T|Tobias Mistmantle|
+T The Hunt For Sylvanas|QID|24902|M|38.53,60.37|Z|202; Gilneas City|N|To Lorna Crowley.|
+A Vengeance or Survival|QID|24903|M|38.53,60.37|Z|202; Gilneas City|N|From Lorna Crowley.|PRE|24902|
+T Vengeance or Survival|QID|24903|M|32.39,56.66|Z|202; Gilneas City|N|To King Genn Greymane.|
+A Slowing the Inevitable|QID|24920|M|32.39,56.66|Z|202; Gilneas City|N|From King Genn Greymane.|PRE|24903|
+C Slowing the Inevitable|QID|24920|M|30.36,60.93|Z|202; Gilneas City|N|Go outside and mount the Captured Riding Bat. Use your Iron Bomb ability to destroy 6 Forsaken Catapults and 40 Invading Forsakens. When youâ€™re done, use your Fly Back ability.|
+T Slowing the Inevitable|QID|24920|M|32.15,56.98|Z|202; Gilneas City|N|To King Genn Greymane.|
+A Knee-Deep|QID|24678|M|32.15,56.98|Z|202; Gilneas City|N|From King Genn Greymane.|PRE|24920|
 T Knee-Deep|QID|24678|M|49.86,56.84|Z|Gilneas|N|Go down the stairs behind the king and run through the tunnel below. Put your Half-Burnt Torch on your action bar and spam it while running to keep the rats away from you.|U|50220|
 A Laid to Rest|QID|24602|Z|Gilneas|M|49.86,56.84|N|From Krennan Aranas.|PRE|24678|
 C Laid to Rest|QID|24602|Z|Gilneas|M|47.55,53.70|N|Loot the Unearthed Mementos from the ground around Aderic's Repose.|NC|
