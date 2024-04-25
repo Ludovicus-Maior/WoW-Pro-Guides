@@ -111,7 +111,7 @@ A Life of the Party|QID|14153|PRE|24520&14070&14110&14012|M|56.32,76.77|Z|0194;K
 A Charge|QID|14013|M|60.27,77.77|Z|0194;Kezan|N|From Warrior-Matic NX-01.|C|Warrior|
 = Charge|ACTIVE|14013|QO|2|M|60.27,77.77|Z|0194;Kezan|N|Learn Charge from Warrior-Matic NX-01.|SPELL|Charge;100|C|Warrior|
 C Charge|QID|14013|QO|1|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Charge.|T|Training Dummy|C|Warrior|
-T Charge!|QID|14013|M|60.27,77.77|Z|0194;Kezan|N|To Warrior-Matic NX-01.|C|Warrior|
+T Charge|QID|14013|M|60.27,77.77|Z|0194;Kezan|N|To Warrior-Matic NX-01.|C|Warrior|
 A Life of the Party|QID|14113|PRE|24520&14070&14109&14013|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Warrior|
 A Life of the Party|QID|14153|PRE|24520&14070&14110&14013|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Warrior|
 
@@ -162,19 +162,21 @@ T Life Savings|QID|14126|M|20.84,13.71|Z|0194;Kezan|N|To Trade Prince Gallywix.\
 A Don't Go Into the Light!|QID|14239|PRE|14126|M|24.60,77.94|Z|0174;The Lost Isles|N|From Doc Zapnozzle when the cinematic ends.\n[color=FF0000]NOTE: [/color]You won't be able to move until you accept this quest.| ; ** This quest auto-completes itself without a turn-in
 A Goblin Escape Pods|QID|14001^14474|PRE|14239|M|24.64,77.94|Z|0174;The Lost Isles|N|From Geargrinder Gizmo.|
 C Goblin Escape Pods|QID|14001^14474|M|27.47,81.78|Z|0174;The Lost Isles|N|Click on the escape pods to rescue the goblins.|NC|
+L Level 6|ACTIVE|14001^14474|N|Grind until you're within 2.5 bubbles of level 6.|LVL|5;-330|
 T Goblin Escape Pods|QID|14001^14474|M|27.88,75.54|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
 A Get Our Stuff Back!|QID|14014|PRE|14001^14474|M|27.88,75.54|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-A Monkey Business|QID|14019|PRE|14001^14474|M|27.89,74.43|Z|0174;The Lost Isles|N|From Bamm Megabomb.|
-A It's Our Problem Now|QID|14473|PRE|14001^14474|M|27.89,74.40|Z|0174;The Lost Isles|N|From Maxx Avalanche.|
+= Level 6 Training|AVAILABLE|14019^14473|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|IZ|Shipwreck Shore|C|Warlock,Hunter|
+A Monkey Business|QID|14019|PRE|14001^14474|M|27.94,74.42|Z|0174;The Lost Isles|N|From Bamm Megabomb.|
+A It's Our Problem Now|QID|14473|PRE|14001^14474|M|27.85,74.29|Z|0174;The Lost Isles|N|From Maxx Avalanche.|
 C It's Our Problem Now|QID|14473|M|29.24,69.93|Z|0174;The Lost Isles|N|Kill 6 Teraptor Hatchlings.|S|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|Z|0174;The Lost Isles|N|Pick up any Crate of Tools you see.|S|NC|
 C Monkey Business|QID|14019|M|28.20,72.30|Z|0174;The Lost Isles|N|Feed Monkeys the banana bombs, the bananas have about a 30 yard range.|T|Bomb-Throwing Monkey|U|49028|NC|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|Z|0174;The Lost Isles|N|Pick up any Crate of Tools you see.|US|NC|
 C It's Our Problem Now|QID|14473|M|29.24,69.93|Z|0174;The Lost Isles|N|Kill 6 Teraptor Hatchlings.|US|
-T It's Our Problem Now|QID|14473|M|27.88,74.30|Z|0174;The Lost Isles|N|To Maxx Avalanche.|
-T Monkey Business|QID|14019|M|27.92,74.38|Z|0174;The Lost Isles|N|To Bamm Megabomb.|
-T Get Our Stuff Back!|QID|14014|M|27.87,75.53|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
-A Help Wanted|QID|14248|PRE|14014&14019&14473|M|27.87,75.53|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+T It's Our Problem Now|QID|14473|M|27.85,74.29|Z|0174;The Lost Isles|N|To Maxx Avalanche.|
+T Monkey Business|QID|14019|M|27.94,74.42|Z|0174;The Lost Isles|N|To Bamm Megabomb.|
+T Get Our Stuff Back!|QID|14014|M|27.88,75.54|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
+A Help Wanted|QID|14248|PRE|14014&14019&14473|M|27.88,75.54|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 T Help Wanted|QID|14248|M|31.20,79.30|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
 A Miner Troubles|QID|14021|PRE|14248|M|31.20,79.30|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
 A Capturing the Unknown|QID|14031|PRE|14248|M|31.19,79.30|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
