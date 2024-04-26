@@ -5,7 +5,6 @@ WoWPro:GuideName(guide,"Nagrand")
 WoWPro:GuideNextGuide(guide, "Blade's Edge Mountains")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 R Nagrand|QID|9792|M|20.30,55.60|Z|107; Nagrand|N|Go to Nagrand.|
 A I Must Have Them!|QID|10109|M|61.7,67.1|Z|107; Nagrand|N|From Wazat.|
 N From now on...|QID|9861|Z|107; Nagrand|N|From now on, kill Air Elementals until you get the Howling Wind, and kill Wild Elekks (you will need 3 Pairs of Ivory Tusks for a quest).|

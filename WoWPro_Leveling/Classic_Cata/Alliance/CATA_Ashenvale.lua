@@ -3,9 +3,8 @@ WoWPro:GuideName(guide,"Ashenvale")
 WoWPro:GuideNextGuide(guide, 'Stonetalon Mountains')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 N Ashenvale Guide|QID|13594|Z|63; Ashenvale|N|There are two breadcrumb quests to this guide, Ashes in Ashenvale from Balren of the Claw in Darkshore for those who worked through that zone, and Hero's Call: Ashenvale available from Darnassus.\n\nAshenvale has a weird design, so we will be making what seems some odd moves around the zone, this is to provide maximum possible XP. \n\n(Click this step to continue)|
-R Ashenvale|QID|13594|Z|62; Darkshore|M|46,96|N|This is one zone south of Darkshore. The nearest flight path will be "Grove of the Ancients".|FLY|OLD|
+R Ashenvale|QID|13594|Z|1439; Darkshore|M|46,96|N|This is one zone south of Darkshore. The nearest flight path will be "Grove of the Ancients".|FLY|OLD|
 T Ashes in Ashenvale|QID|26408|M|26.94,22.30|Z|63; Ashenvale|N|To Sentinel Shyela.|O|
 T Hero's Call: Ashenvale!|QID|28492|M|26.94,22.30|Z|63; Ashenvale|N|To Sentinel Shyela.|O|
 A Don't Forget the Horde|QID|13594|M|26.94,22.30|Z|63; Ashenvale|N|From Sentinel Shyela.|
