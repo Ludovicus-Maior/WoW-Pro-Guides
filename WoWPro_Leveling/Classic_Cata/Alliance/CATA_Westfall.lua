@@ -4,7 +4,6 @@ WoWPro:GuideSort(guide, 54)
 WoWPro:GuideNextGuide(guide, 'Redridge Mountains')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 R Westfall|QID|26209|Z|52;Westfall|N|Westfall is located west of Elwynn Forest (just follow the road west from Goldshire).\n\nThere are two breadcrumb quests for this region:\n\nFurlbrow's Deed\nThis is a pickup from the floor behind Hogger\n\nHero's Call: Westfall\nThis quest is available from any of these: Deputy Rainer at Westbrook Garrison, Marshall Dughan in Goldshire, Guard Thomas at the eastern Elwynn Bridge, Marshal Patterson and Marshall Haggard at Eastvale Logging Camp.|
 T Furlbrow's Deed|QID|184|M|60.05,19.40|Z|52;Westfall|O|N|To Lieutenant Horatio Laine.|
 T Hero's Call: Westfall!|ACTIVE|26378|M|60.05,19.28|Z|52;Westfall|N|To Lieutenant Horatio Laine.|

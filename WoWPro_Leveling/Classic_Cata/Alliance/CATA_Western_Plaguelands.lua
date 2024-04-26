@@ -4,7 +4,6 @@ WoWPro:GuideSort(guide, 53)
 WoWPro:GuideNextGuide(guide, 'Eastern Plaguelands')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 R Andorhal|ACTIVE|27161|Z|22;Western Plaguelands|N|Western Plaguelands is located north of The Hinterlands.  You can take the quest The Battle for Andorhal from Booty Bay (War-Mage Erallier near the Flightmaster), Gryphon Master Talonaxe in Aerie Peak, or from Commander Ashlam Valorfist in Chillwind Camp.  Each will give you transportation to Andorhal. Alternatively, you can also take the Hero's Call from Ironforge or Stormwind City.|M|41.08,70.26|
 F Andorhal|ACTIVE|27161|M|39.43,69.54|Z|22;Western Plaguelands|N|Flight Point|
 T The Battle for Andorhal|QID|27158|M|40.97,70.38|Z|22;Western Plaguelands|N|To Thassarian.|O|
