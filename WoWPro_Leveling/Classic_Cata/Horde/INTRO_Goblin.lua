@@ -177,21 +177,23 @@ T It's Our Problem Now|QID|14473|M|27.85,74.29|Z|0174;The Lost Isles|N|To Maxx A
 T Monkey Business|QID|14019|M|27.94,74.42|Z|0174;The Lost Isles|N|To Bamm Megabomb.|
 T Get Our Stuff Back!|QID|14014|M|27.88,75.54|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
 A Help Wanted|QID|14248|PRE|14014&14019&14473|M|27.88,75.54|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-T Help Wanted|QID|14248|M|31.20,79.30|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
-A Miner Troubles|QID|14021|PRE|14248|M|31.20,79.30|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
-A Capturing the Unknown|QID|14031|PRE|14248|M|31.19,79.30|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
-C Miner Troubles|QID|14021|M|31.37,74.00|Z|0174;The Lost Isles|N|While he is checking out one several ore nodes in the mine, protect the Miner from any monkey attacks.\n[color=FF0000]NOTE: [/color]If the Miner dies, go back to Foreman Dampwick to get another one.|S|
-C Cave Painting #1 |QID|14031|QO|1|M|31.81,76.89|Z|0174;The Lost Isles|N|When the Miner stops and speaks about the cave paintings, use the KTC Snapflash to take a picture of the first cave painting.|U|49887|NC|
-C Cave Painting #2 |QID|14031|QO|2|M|32.66,76.71|Z|0174;The Lost Isles|N|When the miner stops at the second node, use the KTC Snapflash for the second painting.|U|49887|NC|
-C Cave Painting #3 |QID|14031|QO|3|M|33.89,75.26|Z|0174;The Lost Isles|N|When the miner stops at the third node, use the KTC Snapflash for the third painting.|U|49887|NC|
+T Help Wanted|QID|14248|M|31.27,79.26|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
+A Miner Troubles|QID|14021|PRE|14248|M|31.27,79.26|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
+A Capturing the Unknown|QID|14031|PRE|14248|M|31.27,79.26|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
+C Miner Troubles|QID|14021|M|31.37,74.00|Z|0174;The Lost Isles|N|While he is checking out one several ore nodes in Kaja'mite Cavern, protect the Miner from any monkey attacks.\n[color=FF0000]NOTE: [/color]If the Miner dies, go back to Foreman Dampwick to get another one.|S|
+C Cave Painting #1|QID|14031|QO|1|M|31.81,76.89|Z|0174;The Lost Isles|N|When the Miner stops and speaks about the cave paintings, use the KTC Snapflash to take a picture of the first cave painting.|U|49887|NC|
+C Cave Painting #2|QID|14031|QO|2|M|32.66,76.71|Z|0174;The Lost Isles|N|When the miner stops at the second node, use the KTC Snapflash for the second painting.|U|49887|NC|
+C Cave Painting #3|QID|14031|QO|3|M|33.89,75.26|Z|0174;The Lost Isles|N|When the miner stops at the third node, use the KTC Snapflash for the third painting.|U|49887|NC|
 C Miner Troubles|QID|14021|M|31.75,73.65|Z|0174;The Lost Isles|N|Finish escorting the Miner until he gets what he needs.|US|
 C Pygmy Altar|QID|14031|QO|4|M|31.38,74.07|Z|0174;The Lost Isles|N|Keep going a little more into the mine to the Pygmy Altar, and take a picture of that.|U|49887|NC|
-A Orcs Can Write?|QID|14233|PRE|14248|M|31.17,74.09|Z|0174;The Lost Isles|N|From the Dead Orc Scout.|S|
-T Miner Troubles|QID|14021|M|31.26,79.22|Z|0174;The Lost Isles|N|Jump down and to your left, right at the fork, then head out of the cavern, and back to Foreman Dampwick.|
-T Capturing the Unknown|QID|14031|M|27.86,75.55|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
-T Orcs Can Write?|QID|14233|M|27.86,75.55|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
+A Orcs Can Write?|QID|14233|PRE|14248|M|31.17,74.09|Z|0174;The Lost Isles|N|From the Dead Orc Scout.|
+L Level 7|ACTIVE|14021|N|Grind until you're within 3.5 bubbles of level 6.|LVL|6;-600|IZ|Kaja'mite Cavern|
+T Miner Troubles|QID|14021|M|31.27,79.26|Z|0174;The Lost Isles|N|To Foreman Dampwick.\n[color=FF0000]NOTE: [/color]After dropping down from the ledge, follow the tunnel east and stay right at the fork. The cavern exit is just around the corner.| ; 270 exp
+T Capturing the Unknown|QID|14031|M|27.86,75.55|Z|0174;The Lost Isles|N|To Sassy Hardwrench.| ; 270 exp
+T Orcs Can Write?|QID|14233|M|27.86,75.55|Z|0174;The Lost Isles|N|To Sassy Hardwrench.| ; 60 exp
 A The Enemy of My Enemy|QID|14234|PRE|14021&14031&14233|M|27.86,75.55|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-R Horde Base Camp|QID|14234|M|31.09,80.61;34.36,80.86;37.60,78.00|CS|Z|0174;The Lost Isles|N|Head south following the beach, then follow the path to the Horde Base Camp.|ACTIVE|14234|
+= Level 7 Training|ACTIVE|14234|M|PLAYER|CC|N|Do your level 7 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|7|IZ|Shipwreck Shore|C|-Warlock,-Hunter|
+R Horde Base Camp|ACTIVE|14234|M|31.09,80.61;34.36,80.86;37.60,78.00|CS|Z|0174;The Lost Isles|N|Head south following the beach, then follow the path to the Horde Base Camp.|
 T The Enemy of My Enemy|QID|14234|M|37.60,78.00|Z|0174;The Lost Isles|N|To Aggra.|
 A The Vicious Vale|QID|14235|PRE|14234|M|37.60,78.00|Z|0174;The Lost Isles|N|From Aggra.|
 T The Vicious Vale|QID|14235|M|35.45,75.75|Z|0174;The Lost Isles|N|To Kilag Gorefang.|
