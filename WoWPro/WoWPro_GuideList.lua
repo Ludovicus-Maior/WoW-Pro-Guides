@@ -112,7 +112,7 @@ function WoWPro.CreateGuideList()
         frame:SetSize(650, 520)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     elseif WoWPro.CATA then
-        frame:SetSize(0, 0)
+        frame:SetSize(650, 550)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     else
         frame:SetSize(625, 600)
@@ -158,13 +158,8 @@ function WoWPro.CreateGuideList()
     subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10)
     frame.subtitle = subtitle
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
-    if WoWPro.CATA then
-        scrollBox:SetPoint("TOPLEFT", frame, 5, -175)
-        scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
-    else
-        scrollBox:SetPoint("TOPLEFT", frame, 5, -150)
-        scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
-    end
+    scrollBox:SetPoint("TOPLEFT", frame, 5, -150)
+    scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
     _G.Mixin(scrollBox, GuideListMixin)
     frame.scrollBox = scrollBox
     local prev
@@ -182,8 +177,6 @@ function WoWPro.CreateGuideList()
                 elseif WoWPro.WRATH then
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 1)
                 elseif WoWPro.CATA then
-                    scrollBox:SetPoint("TOPLEFT", frame, 0, 0)
-                    scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 2)
                 else
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 80, 20)

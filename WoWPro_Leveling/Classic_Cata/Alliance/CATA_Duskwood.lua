@@ -1,11 +1,10 @@
-local guide = WoWPro:RegisterGuide("TwiDus2025", "Leveling", "Duskwood", "WoWPro Team", "Alliance")
+local guide = WoWPro:RegisterGuide("TwiDus2025", "Leveling", "Duskwood", "WoWPro Team", "Alliance", 4)
 WoWPro:GuideName(guide,"Duskwood")
 WoWPro:GuideSort(guide, 16)
 WoWPro:GuideNextGuide(guide, 'Northern Stranglethorn')
 WoWPro:GuideSteps(guide, function()
 return
 [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 N This guide starts in Darkshire|AVAILABLE|26618|ACTIVE|-28564|M|74.83,46.70|Z|47;Duskwood|N|Make your way there now.|IZ|42;Darkshire|
 T Hero's Call: Duskwood!|QID|28564^26728|M|73.53,46.93|Z|47;Duskwood|N|To Commander Althea Ebonlocke. Just follow the road all the way to Darkshire.|
 A Wolves at Our Heels|QID|26618|M|73.53,46.93|Z|47;Duskwood|N|To Commander Althea Ebonlocke.|

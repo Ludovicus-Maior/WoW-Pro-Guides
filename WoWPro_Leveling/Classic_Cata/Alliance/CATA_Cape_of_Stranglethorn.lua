@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Alliance', 4)
 WoWPro:GuideName(guide,"The Cape of Stranglethorn")
 WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNextGuide(guide, 'Western Plaguelands')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 R Fort Livingston |QID|26805|Z|50;Northern Stranglethorn|N|The Cape of Stranglethorn is found south of Northern Stranglethorn. To start this guide, first head to Fort Livingstone, to the south of Northern Stranglethorn.\n\nThere is a breadcrumb quest leading you to this zone, Hero's Call from the callboard in Stormwind City, which can be used in addition to the breadcrumb from Northern Stranglethorn.|
 A To the Cape!|QID|26805|M|53.37,66.32|Z|50;Northern Stranglethorn|N|From Wilfred Harrys in Fort Livingston, Northern Stranglethorn.  This quest is available even if you haven't quested in Northern Stranglethorn.|
 F Explorers' League Digsite |QID|26805|M|52.64,66.10|Z|210;The Cape of Stranglethorn|N|Speak to Robert Rhodes in Fort Livingston, and tell him you have had a prepaid ticket to the Explorers' League Digsite.|

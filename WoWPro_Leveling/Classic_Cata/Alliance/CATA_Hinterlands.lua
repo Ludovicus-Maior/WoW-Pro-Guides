@@ -1,10 +1,9 @@
-local guide = WoWPro:RegisterGuide('CraHin3035', 'Leveling', 'The Hinterlands', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('CraHin3035', 'Leveling', 'The Hinterlands', 'WoWPro Team', 'Alliance', 4)
 WoWPro:GuideName(guide,"Hinterlands")
 WoWPro:GuideSort(guide, 26)
 WoWPro:GuideNextGuide(guide, 'Western Plaguelands')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 R The Hinterlands|QID|26546|M|43.3,45.1;36.7,31.1;38.4,22.8;39.3,19.0|Z|14; Arathi Highlands|CS|N|Follow the waypoints to The Hinterlands.\n\nFor players up to level 33 only, there is a bread-crumb quest from Ironforge Hero's Callboard or from Captain Nials in Aerie Peak.|
 R Aerie Peak|QID|26546|M|14.1,48.0|Z|26; The Hinterlands|N|Follow the waypoints to Aerie Peak.|
 f Aerie Peak|QID|26546|M|11.17,46.06|Z|26; The Hinterlands|N|At Guthrum Thunderfist.|
