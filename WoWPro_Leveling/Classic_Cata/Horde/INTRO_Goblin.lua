@@ -180,11 +180,11 @@ A Help Wanted|QID|14248|PRE|14014&14019&14473|M|27.88,75.54|Z|0174;The Lost Isle
 T Help Wanted|QID|14248|M|31.20,79.30|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
 A Miner Troubles|QID|14021|PRE|14248|M|31.20,79.30|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
 A Capturing the Unknown|QID|14031|PRE|14248|M|31.19,79.30|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
-C Miner Troubles|QID|14021|M|31.37,74.00|Z|0174;The Lost Isles|N|Escort the Miner into the mine. He'll stop at several ore nodes on the way, keep him safe from any monkeys already around.|S|
-C Cave Painting #1 |QID|14031|QO|1|M|31.81,76.89|Z|0174;The Lost Isles|N|Keep with the miner, when he stops and speaks about the cave paintings (or right up to the first node) use the KTC Snapflash to take a picture of the first cave painting.|U|49887|NC|
-C Cave Painting #2 |QID|14031|QO|2|M|32.66,76.71|Z|0174;The Lost Isles|N|Continue with the miner, when he stops at the second node, use the KTC Snapflash for the second painting.|U|49887|NC|
-C Cave Painting #3 |QID|14031|QO|3|M|33.89,75.26|Z|0174;The Lost Isles|N|Continue with the miner, when he stops at the third node, use the KTC Snapflash for the third painting.|U|49887|NC|
-C Miner Troubles|QID|14021|M|31.75,73.65|Z|0174;The Lost Isles|N|Keep escorting the Miner until he gets what he needs.|US|
+C Miner Troubles|QID|14021|M|31.37,74.00|Z|0174;The Lost Isles|N|While he is checking out one several ore nodes in the mine, protect the Miner from any monkey attacks.\n[color=FF0000]NOTE: [/color]If the Miner dies, go back to Foreman Dampwick to get another one.|S|
+C Cave Painting #1 |QID|14031|QO|1|M|31.81,76.89|Z|0174;The Lost Isles|N|When the Miner stops and speaks about the cave paintings, use the KTC Snapflash to take a picture of the first cave painting.|U|49887|NC|
+C Cave Painting #2 |QID|14031|QO|2|M|32.66,76.71|Z|0174;The Lost Isles|N|When the miner stops at the second node, use the KTC Snapflash for the second painting.|U|49887|NC|
+C Cave Painting #3 |QID|14031|QO|3|M|33.89,75.26|Z|0174;The Lost Isles|N|When the miner stops at the third node, use the KTC Snapflash for the third painting.|U|49887|NC|
+C Miner Troubles|QID|14021|M|31.75,73.65|Z|0174;The Lost Isles|N|Finish escorting the Miner until he gets what he needs.|US|
 C Pygmy Altar|QID|14031|QO|4|M|31.38,74.07|Z|0174;The Lost Isles|N|Keep going a little more into the mine to the Pygmy Altar, and take a picture of that.|U|49887|NC|
 A Orcs Can Write?|QID|14233|PRE|14248|M|31.17,74.09|Z|0174;The Lost Isles|N|From the Dead Orc Scout.|S|
 T Miner Troubles|QID|14021|M|31.26,79.22|Z|0174;The Lost Isles|N|Jump down and to your left, right at the fork, then head out of the cavern, and back to Foreman Dampwick.|
