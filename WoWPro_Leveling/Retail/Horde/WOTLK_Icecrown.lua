@@ -221,11 +221,11 @@ C The Restless Dead|QID|13110|N|Kill the Scourge Skeletons and use the Holy Wate
 C The Purging Of Scourgeholme|QID|13118|N|Kill scourge. There are 2 High Priests near , you can find the other one ane the Underkings while wandering around.|M|70.80,60.17|
 C The Restless Dead|QID|13110|N|Kill the Scourge Skeletons and use the Holy Water on their corpses.|US|U|43153|
 C The Scourgestone|QID|13122|N|Keep killing mobs until you're done.|US|
-F Ruins of Shandaral|QID|13135|N|Head over to the Ruins of Shandaral in Crystalsong Forest.|Z|Crystalsong Forest|M|80,62|
+F Ruins of Shandaral|QID|13135|N|Head over to the Ruins of Shandaral in Crystalsong Forest.|Z|127; Crystalsong Forest|M|80,62|
 C It Could Kill Us All|QID|13135|N|Kill mobs for Crystalized Energy.|S|
 C The Stone That Started A Revolution|QID|13130|N|Collect Heartwood and Masonry.|
 C It Could Kill Us All|QID|13135|N|Kill mobs for Crystalized Energy.|US|
-f Sunreaver's Command|QID|13135|N|Get the Flight Path at Sunreaver's Command.|Z|Crystalsong Forest|M|78.48,50.24|
+f Sunreaver's Command|QID|13135|N|Get the Flight Path at Sunreaver's Command.|Z|127; Crystalsong Forest|M|78.48,50.24|
 T It Could Kill Us All|QID|13135|N|To Crusade Engineer Spitzpatrick in the Valley of Echoes.|M|83.06,72.91|
 T The Stone That Started A Revolution|QID|13130|N|To Crusade Architect Silas|M|83.02,73.05|
 T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.06,72.91|
@@ -251,11 +251,11 @@ f Argent Tournament Grounds|QID|13072|N|You're close, might as well get the Flig
 T A Hero Remains|QID|13072|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle. Take the Flight Path if you want.|M|79.83,71.79|
 A The Keeper's Favor|QID|13073|PRE|13072|N|From Highlord Tirion Fordring.|M|79.83,71.79|
 P Shrine of Remulos|QID|13073|N|To Arch Druid Lilliandra in the infermary at the Argent Vanguard. Talk to her to get the port to Moonglade.|M|87.04,76.98|
-T The Keeper's Favor|QID|13073|N|To Keeper Remulos is right in front of you.|Z|Moonglade|M|36.2,40.7|
-A Hope Within the Emerald Nightmare|QID|13074|PRE|13073|N|From Keeper Remulos.|Z|Moonglade|M|36.2,40.7|
+T The Keeper's Favor|QID|13073|N|To Keeper Remulos is right in front of you.|Z|80; Moonglade|M|36.2,40.7|
+A Hope Within the Emerald Nightmare|QID|13074|PRE|13073|N|From Keeper Remulos.|Z|80; Moonglade|M|36.2,40.7|
 C Hope Within the Emerald Nightmare|QID|13074|N|The acorns are on the ground, but are hard to see. When you get three get far enough away from the shrine and you will leave the dream. Be careful of the Elites they are the boundary you need to get past.|
-T Hope Within the Emerald Nightmare|QID|13074|N|Exit the Emerald Nightmare by clicking the buff and to Keeper Remulos.|Z|Moonglade|M|36.2,40.7|
-A The Boon of Remulos|QID|13075|PRE|13074|N|From Keeper Remulos.|Z|Moonglade|M|36.2,40.7|
+T Hope Within the Emerald Nightmare|QID|13074|N|Exit the Emerald Nightmare by clicking the buff and to Keeper Remulos.|Z|80; Moonglade|M|36.2,40.7|
+A The Boon of Remulos|QID|13075|PRE|13074|N|From Keeper Remulos.|Z|80; Moonglade|M|36.2,40.7|
 T The Boon of Remulos|QID|13075|N|You must be right on top of him for the portal to open. If it doesn't open, abandon the quest, move closer and accept it again. After you port, fly back to Crusader Bridenbrad at.|M|79.85,30.74|
 A Time Yet Remains|QID|13076|PRE|13075|N|From Crusader Bridenbrad|M|79.85,30.74|
 T Time Yet Remains|QID|13076|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle.|M|79.83,71.79|

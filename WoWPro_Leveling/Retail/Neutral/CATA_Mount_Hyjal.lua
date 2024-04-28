@@ -10,13 +10,13 @@ N Flying Mount|QID|28825|FLY|OLD|Z|84;Stormwind City|N|There are places in this 
 N Flying Mount|QID|27721|FLY|OLD|Z|Orgrimmar|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|FACTION|Horde|
 A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal.|FACTION|Alliance|
 C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.69,29.60|Z|84;Stormwind City|CHAT|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
-T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|Moonglade|N|To Emissary Windsong.|FACTION|Alliance|
+T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|80; Moonglade|N|To Emissary Windsong.|FACTION|Alliance|
 A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board from Orgrimmar.|FACTION|Horde|
 C Warchief's Command: Mount Hyjal!|QID|27721|M|40.0,50.5|CHAT|Z|Orgrimmar|N|Speak to Cenarion Emissary Blackhoof in the Valley of Wisdom and ask "Could you please send me to Moonglade Emissary?".|FACTION|Horde|
-T Warchief's Command: Mount Hyjal!|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|FACTION|Horde|
-A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721^27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|FACTION|Alliance|
-A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721^27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|FACTION|Horde|
-F Nordrassil|QID|25316|M|46.1,45.51|Z|Moonglade|N|Jump on Aronus to fly to Nordrassil.|
+T Warchief's Command: Mount Hyjal!|QID|27721|M|45.5,44.7|Z|80; Moonglade|N|At Emissary Windsong.|FACTION|Horde|
+A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721^27726|M|45.3,44.8|Z|80; Moonglade|N|From Emissary Windsong.|FACTION|Alliance|
+A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721^27726|M|45.3,44.8|Z|80; Moonglade|N|From Emissary Windsong.|FACTION|Horde|
+F Nordrassil|QID|25316|M|46.1,45.51|Z|80; Moonglade|N|Jump on Aronus to fly to Nordrassil.|
 T As Hyjal Burns|QID|25316|M|62.08,24.89|N|To Ysera.|
 A Protect the World Tree|QID|25317|M|62.08,24.89|N|From Ysera.|
 f Nordrassil|QID|25317|M|62.14,21.68|N|At Fayran Elthas.|
