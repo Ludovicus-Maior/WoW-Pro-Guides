@@ -616,7 +616,7 @@ function WoWPro:CreateStickyFrame()
     stickytitle:SetPoint("TOPRIGHT", -5, 4)
     stickytitle:SetHeight(25)
     stickytitle:SetJustifyH("LEFT")
-    stickytitle:SetJustifyV("CENTER")
+    stickytitle:SetJustifyV("MIDDLE")
     stickytitle:SetText(L["As you go:"])
     WoWPro.StickyTitle = stickytitle
 end
