@@ -352,7 +352,7 @@ function WoWPro:Setup_TitleRow(frame)
         TitleRow[colDesc[1]]:SetWidth(buttonWidth)
         local fontString = TitleRow[colDesc[1]]:GetFontString()
         fontString:SetJustifyH("LEFT")
-        fontString:SetJustifyV("CENTER")
+        fontString:SetJustifyV("MIDDLE")
         lastButton = TitleRow[colDesc[1]]
     end
 
