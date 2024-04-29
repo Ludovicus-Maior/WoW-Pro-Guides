@@ -193,127 +193,141 @@ T Capturing the Unknown|QID|14031|M|27.86,75.55|Z|0174;The Lost Isles|N|To Sassy
 T Orcs Can Write?|QID|14233|M|27.86,75.55|Z|0174;The Lost Isles|N|To Sassy Hardwrench.| ; 60 exp
 A The Enemy of My Enemy|QID|14234|PRE|14021&14031&14233|M|27.86,75.55|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 = Level 7 Training|ACTIVE|14234|M|PLAYER|CC|N|Do your level 7 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|7|IZ|Shipwreck Shore|C|-Warlock,-Hunter|
-R Horde Base Camp|ACTIVE|14234|M|31.09,80.61;34.36,80.86;37.60,78.00|CS|Z|0174;The Lost Isles|N|Head south following the beach, then follow the path to the Horde Base Camp.|
-T The Enemy of My Enemy|QID|14234|M|37.60,78.00|Z|0174;The Lost Isles|N|To Aggra.|
-A The Vicious Vale|QID|14235|PRE|14234|M|37.60,78.00|Z|0174;The Lost Isles|N|From Aggra.|
-T The Vicious Vale|QID|14235|M|35.45,75.75|Z|0174;The Lost Isles|N|To Kilag Gorefang.|
-A Weed Whacker|QID|14236|PRE|14235|M|35.45,75.75|Z|0174;The Lost Isles|N|From Kilag Gorefang.|
-C Weed Whacker|QID|14236|M|34.32,73.57|Z|0174;The Lost Isles|N|Use the Weed Whacker, then mow on through the plants.|U|49108|
-T Weed Whacker|QID|14236|M|35.44,75.74|Z|0174;The Lost Isles|N|Head back to Kilag Gorefang, then use the Weed Wacker again to stop the wacker, then turn in quest.|U|49108|
+R The Lost Isles path|ACTIVE|14234|M|32.60,80.52|CS|Z|0174;The Lost Isles|N|Make your east to the path leading away from the beach.|
+R Horde Base Camp|ACTIVE|14234|M|35.50,78.96|Z|0174;The Lost Isles|N|Follow the path to the Horde Base Camp.|
+T The Enemy of My Enemy|QID|14234|M|37.63,78.03|Z|0174;The Lost Isles|N|To Aggra.|
+A The Vicious Vale|QID|14235|PRE|14234|M|37.63,78.03|Z|0174;The Lost Isles|N|From Aggra.|
+T The Vicious Vale|QID|14235|M|35.43,75.71|Z|0174;The Lost Isles|N|To Kilag Gorefang.|
+A Weed Whacker|QID|14236|PRE|14235|M|35.43,75.71|Z|0174;The Lost Isles|N|From Kilag Gorefang.|
+C Weed Whacker|ACTIVE|14236|M|PLAYER|CC|N|Activate the Weed Whacker.|U|49108|BUFF|68212|NC|
+C Weed Whacker|QID|14236|QO|1|M|34.32,73.57|Z|0174;The Lost Isles|N|Run through the plants until done.|
+T Weed Whacker|QID|14236|M|35.44,75.74|Z|0174;The Lost Isles|N|To Kilag Gorefang.\n[color=FF0000]NOTE: [/color]The Weed Whacker buff will fade once you turn this in.|
 A Back to Aggra|QID|14303|PRE|14236|M|35.44,75.75|Z|0174;The Lost Isles|N|From Kilag Gorefang.|
-T Back to Aggra|QID|14303|M|37.61,77.99|Z|0174;The Lost Isles|N|To Aggra.|
-A Forward Movement|QID|14237|PRE|14303|M|37.61,77.99|Z|0174;The Lost Isles|N|From Aggra.|
-T Forward Movement|QID|14237|M|34.60,66.83|Z|0174;The Lost Isles|N|To Kilag Gorefang who has now moved to the Wild Overlook.|
+T Back to Aggra|QID|14303|M|37.63,78.03|Z|0174;The Lost Isles|N|To Aggra.|
+A Forward Movement|QID|14237|PRE|14303|M|37.63,78.03|Z|0174;The Lost Isles|N|From Aggra.|
+R The Savage Glen|ACTIVE|14237|M|34.60,66.83|Z|0174;The Lost Isles|N|Follow the road through The Vicious Vale to The Savage Glen at the top of the hill.|
+R Wild Overlook|ACTIVE|14237|M|34.60,66.83|Z|0174;The Lost Isles|N|The Wild Overlook is at the intesection ahead.|
+T Forward Movement|QID|14237|M|34.60,66.83|Z|0174;The Lost Isles|N|To Kilag Gorefang in Wild Overlook.|
 A Infrared = Infradead|QID|14238|PRE|14237|M|34.60,66.83|Z|0174;The Lost Isles|N|From Kilag Gorefang.|
-N Infrared Heat Focals|ACTIVE|14238|Z|0174;The Lost Isles|N|Use the Infrared Heat Focals to make the assassins appear, and also become trackable.|U|49611|BUFF|68376|
-C Infrared = Infradead|QID|14238|M|31.81,64.96|Z|0174;The Lost Isles|N|Kill the Assassins.|U|49611|
-T Infrared = Infradead|QID|14238|M|34.62,66.84|Z|0174;The Lost Isles|N|Use the Infrared Heat Focals to remove the buff, then To Kilag Gorefang.|U|49611|
-A To the Cliffs|QID|14240|PRE|14238|M|34.59,66.84|Z|0174;The Lost Isles|N|From Kilag Gorefang. On accepting the quest, you will be taken on a ride to the cliff.|
-T To the Cliffs|QID|14240|M|25.29,59.88|Z|0174;The Lost Isles|N|To Scout Brax.|
-A Get to the Gyrochoppa!|QID|14241|PRE|14240|M|25.29,59.88|Z|0174;The Lost Isles|N|From Scout Brax.|
-C Get to the Gyrochoppa!|QID|14241|M|23.95,66.08|Z|0174;The Lost Isles|N|Head down to the beachhead, then kill and loot the SI:7 Operatives until one drops the Gyrochoppa Keys.|
-T Get to the Gyrochoppa!|QID|14241|M|23.20,67.54|Z|0174;The Lost Isles|N|To Gyrochoppa.|
-A Precious Cargo|QID|14242|PRE|14241|M|23.22,67.52|Z|0174;The Lost Isles|N|From Gyrochoppa. On accepting quest, you will be flown to the Vengeance Wake ship.|
-C Precious Cargo|QID|14242|M|11.84,62.77|Z|0174;The Lost Isles|N|Head down to the Captain's quarters, and talk to Thrall. You may need to kill the wizard to get to him.|
-T Precious Cargo|QID|14242|M|11.82,62.76|Z|0174;The Lost Isles|N|To Thrall.|
+C Infrared Heat Focals|ACTIVE|14238|N|Use the Infrared Heat Focals to make the assassins appear (and trackable).|U|49611|S!US|NC|
+C Infrared = Infradead|QID|14238|M|31.81,64.96|Z|0174;The Lost Isles|N|Kill the Assassins.\n[color=FF0000]NOTE: [/color]Watch for adds and if your scout dies, run back to Kilag to get another one.|T|SI:7 Assassin|
+T Infrared = Infradead|QID|14238|M|34.62,66.84|Z|0174;The Lost Isles|N|To Kilag Gorefang.|
+A To the Cliffs|QID|14240|PRE|14238|M|34.59,66.84|Z|0174;The Lost Isles|N|From Kilag Gorefang.\n[color=FF0000]NOTE: [/color]On accepting the quest, you will be taken on a ride to the cliff.|
+T To the Cliffs|QID|14240|M|25.28,59.84|Z|0174;The Lost Isles|N|To Scout Brax.|
+A Get to the Gyrochoppa!|QID|14241|PRE|14240|M|25.28,59.84|Z|0174;The Lost Isles|N|From Scout Brax.|
+C Get to the Gyrochoppa!|QID|14241|M|23.95,66.08|Z|0174;The Lost Isles|L|49424|ITEM|49424|N|the SI:7 Operatives at Alliance Beachhead.|T|SI:7 Operative|
+T Get to the Gyrochoppa!|QID|14241|M|23.23,67.51|Z|0174;The Lost Isles|N|To Gyrochoppa.\n[color=FF0000]NOTE: [/color]You may have to clear a path there.|
+A Precious Cargo|QID|14242|PRE|14241|M|23.22,67.52|Z|0174;The Lost Isles|N|From Gyrochoppa.\n[color=FF0000]NOTE: [/color]On accepting quest, you will be flown to the Vengeance Wake ship.|
+C Precious Cargo|QID|14242|M|11.83,62.77|CC|Z|0174;The Lost Isles|N|Drop down the deck below you and head inside to the Captain's quarters.\n[color=FF0000]NOTE: [/color]You may have to clear a path there and kill the wizard to get to him.|
+T Precious Cargo|QID|14242|M|11.82,62.76|Z|0174;The Lost Isles|N|To Thrall after you click on the cage to open it.|
 A Meet Me Up Top|QID|14326|PRE|14242|M|11.82,62.76|Z|0174;The Lost Isles|N|From Thrall.|
-T Meet Me Up Top|QID|14326|M|12.43,63.07|Z|0174;The Lost Isles|N|To Thrall who has now moved to the top of the ship.|
-A Warchief's Revenge|QID|14243|PRE|14326|M|12.43,63.07|Z|0174;The Lost Isles|N|From Thrall.|
-C Warchief's Revenge|QID|14243|M|12.56,61.69|Z|0174;The Lost Isles|N|Use button #1 (Lightning Strike) and aim at the Alliance Sailors. The little boats hold multiple sailors so should be your priority.|
-T Warchief's Revenge|QID|14243|M|35.86,66.72|Z|0174;The Lost Isles|N|To Thrall who has now moved to the Wild Overlook.|
-A Farewell, For Now|QID|14445|PRE|14243|M|35.86,66.72|Z|0174;The Lost Isles|N|From Thrall.|
-T Farewell, For Now|QID|14445|M|36.00,67.49|Z|0174;The Lost Isles|N|To Sassy Hardwrench, who is now in the Wild Overlook.|
-A Up, Up&Away!|QID|14244|PRE|14445|M|36.00,67.49|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-C Up, Up&Away!|QID|14244|M|36.32,66.63|Z|0174;The Lost Isles|N|Click on the Rocket Sling, and select Up, Up&Away!|NC|
-T Up, Up&Away!|QID|14244|M|44.51,64.36|Z|0174;The Lost Isles|N|To Foreman Dampwick, who is now in the Landing Site.|
+T Meet Me Up Top|QID|14326|M|12.41,63.12|Z|0174;The Lost Isles|N|To Thrall who has now moved to the top of the ship (Go back the way you came in).|
+A Warchief's Revenge|QID|14243|PRE|14326|M|12.41,63.12|Z|0174;The Lost Isles|N|From Thrall.|
+C Warchief's Revenge|QID|14243|M|12.56,61.69|Z|0174;The Lost Isles|N|Use button #1 (Lightning Strike) and aim at the Alliance Sailors.\n[color=FF0000]NOTE: [/color]The little boats hold multiple sailors and should be your priority.|
+T Warchief's Revenge|QID|14243|M|35.93,66.72|Z|0174;The Lost Isles|N|To Thrall.|
+A Farewell, For Now|QID|14445|PRE|14243|M|35.93,66.72|Z|0174;The Lost Isles|N|From Thrall.|
+T Farewell, For Now|QID|14445|M|36.03,67.52|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
+A Up, Up & Away!|QID|14244|PRE|14445|M|36.03,67.52|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+= Level 8 Training|ACTIVE|14244|M|PLAYER|CC|N|Do your level 8 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Wild Overlook|C|-Paladin,-Warrior|
+C Up, Up & Away!|QID|14244|M|36.32,66.63|Z|0174;The Lost Isles|N|Click on the Rocket Sling and select "Up, Up & Away!"|CHAT|
+T Up, Up & Away!|QID|14244|M|44.51,64.36|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
 A It's a Town-In-A-Box|QID|14245|PRE|14244|M|44.51,64.36|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
-C It's a Town-In-A-Box|QID|14245|M|45.46,65.35|Z|0174;The Lost Isles|N|Click on the plunger to create Town-In-A-Box.|NC|
-T It's a Town-In-A-Box|QID|14245|M|45.35,64.84|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
-A Hobart Needs You|QID|27139|PRE|14245|LEAD|24671|M|45.35,64.84|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
-N Professions Trainer|ACTIVE|27139|Z|0174;The Lost Isles|N|Want to learn your professions now? The KTC Train-A-Tron will teach you the skills and sell the basic equipment.|T|KTC Train-A-Tron Deluxe|S|
-T Hobart Needs You|QID|27139|M|45.33,65.13|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
-A Cluster Cluck|QID|24671|PRE|27139|M|45.33,65.13|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
-C Cluster Cluck|QID|24671|M|45.73,62.68|Z|0174;The Lost Isles|N|Click on the Wild Cluckers to collect them.|U|52712|NC|
-T Cluster Cluck|QID|24671|M|45.34,65.16|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
+C It's a Town-In-A-Box|QID|14245|M|45.49,65.36|Z|0174;The Lost Isles|N|Click on the plunger to create Town-In-A-Box.|NC|
+T It's a Town-In-A-Box|QID|14245|M|45.36,64.75|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
+A Hobart Needs You|QID|27139|PRE|14245|LEAD|24671|M|45.36,64.75|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
+T Hobart Needs You|QID|27139|M|45.34,65.21|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
+A Cluster Cluck|QID|24671|PRE|27139|M|45.34,65.21|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
+= Professions Trainer|ACTIVE|24671|M|45.71,65.75|Z|0174;The Lost Isles|N|Want to learn your professions now? The KTC Train-A-Tron will teach you the skills and sell the basic equipment.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|T|KTC Train-A-Tron Deluxe|
+= First Aid|ACTIVE|24671|M|45.65,65.68|Z|0174;The Lost Isles|N|Doc Zapnozzle will teach you First Aid.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Cluster Cluck|QID|24671|M|45.73,62.68|Z|0174;The Lost Isles|N|Click on the Wild Cluckers or use the Remote Control to collect them.|T|Wild Clucker|U|52712|NC|
+T Cluster Cluck|QID|24671|M|45.34,65.21|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
 A Trading Up|QID|24741|PRE|24671|M|45.28,64.92|Z|0174;The Lost Isles|N|From Bamm Megabomb.|
 C Trading Up|QID|24741|M|51.51,65.74|Z|0174;The Lost Isles|N|Use the Wild Clucker Eggs near a trap, wait until a Raptor comes over and trips it. Loot the Raptor egg off the ground.|U|50232|NC|
 T Trading Up|QID|24741|M|45.26,64.88|Z|0174;The Lost Isles|N|To Bamm Megabomb.|
-A The Biggest Egg Ever|QID|24744|PRE|24741|M|45.37,65.16|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
-C The Biggest Egg Ever|QID|24744|M|44.21,53.72|Z|0174;The Lost Isles|N|Kill the Mechachicken, then loot the egg off of the ground.|
-T The Biggest Egg Ever|QID|24744|M|45.36,65.13|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
-A Who's Top of the Food Chain Now?|QID|24816|PRE|24744|M|45.36,65.13|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
-C Who's Top of the Food Chain Now?|QID|24816|M|41.52,71.49|Z|0174;The Lost Isles|N|Kill and loot the Ravenous Lurker for the Shark Parts. Be aware of elite The Hammer which you should avoid at this time.|
+A The Biggest Egg Ever|QID|24744|PRE|24741|M|45.34,65.21|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
+C The Biggest Egg Ever|QID|24744|M|44.21,53.72|Z|0174;The Lost Isles|L|50261|ITEM|50261|N|the Mechachicken.|T|Mechachicken|
+T The Biggest Egg Ever|QID|24744|M|45.34,65.21|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
+A Who's Top of the Food Chain Now?|QID|24816|PRE|24744|M|45.34,65.21|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
+C Who's Top of the Food Chain Now?|QID|24816|M|41.52,71.49|Z|0174;The Lost Isles|L|50381 5|ITEM|50381|N|Ravenous Lurkers.\n[color=FF0000]NOTE: [/color]Steer clear of The Hammer at this time.|T|Ravenous Lurker|
 T Who's Top of the Food Chain Now?|QID|24816|M|45.26,65.55|Z|0174;The Lost Isles|N|To Assistant Greely.|
 A A Goblin in Shark's Clothing|QID|24817|PRE|24816|M|45.26,65.55|Z|0174;The Lost Isles|N|From Assistant Greely.|
-C A Goblin in Shark's Clothing|QID|24817|QO|1|M|43.62,65.30|Z|0174;The Lost Isles|N|Jump onto the Mechashark X-Steam Controller|NC|
-C A Goblin in Shark's Clothing|QID|24817|QO|2|M|41.69,66.17|Z|0174;The Lost Isles|N|Use abilites 1&2 to kill The Hammer. Ability 3 is used to heal.|
-T A Goblin in Shark's Clothing|QID|24817|M|45.34,65.20|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
-A Invasion Imminent!|QID|24856|PRE|24817|M|45.34,65.20|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
-T Invasion Imminent!|QID|24856|M|52.19,73.11|Z|0174;The Lost Isles|N|To Megs Dreadshredder who has moved to the Ruins of Vashj'elan (follow the path up the hill through Raptor Rise).|
-A Bilgewater Cartel Represent|QID|24858|PRE|24856|M|52.19,73.11|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|
-A Naga Hide|QID|24859|PRE|24856|M|52.19,73.11|Z|0174;The Lost Isles|N|From Brett "Coins" McQuid.|
-C Naga Hide|QID|24859|M|54.18,76.66|Z|0174;The Lost Isles|N|Kill and loot Nagas.|S|
-C Bilgewater Cartel Represent|QID|24858|M|54.18,79.86|Z|0174;The Lost Isles|N|Go around and click on the Naga Banners to replace them.|NC|
-C Naga Hide|QID|24859|M|54.18,76.66|Z|0174;The Lost Isles|N|Kill and loot Nagas.|US|
-T Naga Hide|QID|24859|M|52.22,73.21|Z|0174;The Lost Isles|N|To Brett "Coins" McQuid.|
-T Bilgewater Cartel Represent|QID|24858|M|52.20,73.19|Z|0174;The Lost Isles|N|To Megs Dreadshredder.|
-A Irresistible Pool Pony|QID|24864|PRE|24859&24858|M|52.20,73.19|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|
-C Irresistible Pool Pony|QID|24864|M|58.18,84.52|Z|0174;The Lost Isles|N|Head to the Spawning Pool and use the Pool Pony. Kill the Vashj'elan Siren, then talk to the Naga Hatchlings to get them.|U|50602|
-T Irresistible Pool Pony|QID|24864|M|52.19,73.17|Z|0174;The Lost Isles|N|To Megs Dreadshredder.|
+C A Goblin in Shark's Clothing|QID|24817|QO|1|M|43.62,65.30|Z|0174;The Lost Isles|N|Jump onto the Mechashark X-Steam Controller|V|
+C A Goblin in Shark's Clothing|QID|24817|QO|2|M|41.69,66.17|Z|0174;The Lost Isles|N|Use abilites 1 & 2 to kill The Hammer. Ability 3 is used to heal.|
+T A Goblin in Shark's Clothing|QID|24817|M|45.34,65.21|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
+A Invasion Imminent!|QID|24856|PRE|24817|M|45.34,65.21|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
+R Ruins of Vashj'elan|ACTIVE|24856|M|52.19,73.11|Z|0174;The Lost Isles|N|Follow the path up the hill and through Raptor Rise (stay to the right at the fork).|
+T Invasion Imminent!|QID|24856|M|52.20,73.14|Z|0174;The Lost Isles|N|To Megs Dreadshredder.|
+A Bilgewater Cartel Represent|QID|24858|PRE|24856|M|52.20,73.14|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|
+A Naga Hide|QID|24859|PRE|24856|M|52.20,73.22|Z|0174;The Lost Isles|N|From Brett "Coins" McQuid.|
+C Naga Hide|QID|24859|M|54.18,76.66|Z|0174;The Lost Isles|L|50437 5|ITEM|50437|N|Vashj'elan Nagas.|S|
+C Bilgewater Cartel Represent|QID|24858|M|54.18,79.86|Z|0174;The Lost Isles|N|Click on the purple Naga Banners to replace them.|NC|
+C Naga Hide|QID|24859|M|54.18,76.66|Z|0174;The Lost Isles|L|50437 5|ITEM|50437|N|Vashj'elan Nagas.|US|
+T Naga Hide|QID|24859|M|52.20,73.22|Z|0174;The Lost Isles|N|To Brett "Coins" McQuid.|
+T Bilgewater Cartel Represent|QID|24858|M|52.20,73.14|Z|0174;The Lost Isles|N|To Megs Dreadshredder.|
+A Irresistible Pool Pony|QID|24864|PRE|24859&24858|M|52.20,73.14|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|
+C Irresistible Pool Pony|QID|24864|M|58.18,84.52|Z|0174;The Lost Isles|N|After arriving at the Spawning Pool and using the Pool Pony, kill the Vashj'elan Siren guarding the group of Naga Hatchlings and talk to one of them.|T|Vashj'elan Siren|U|50602|
+L Level 9|ACTIVE|24864|N|Grind until you're within 5 bubbles of level 9.|LVL|8;-1300|IZ|Kaja'mite Cavern|
+T Irresistible Pool Pony|QID|24864|M|52.20,73.14|Z|0174;The Lost Isles|N|To Megs Dreadshredder.| ; 350 exp
 ; Two lines at this point, if you are on your Chauffeur mount, it will skip the first Accept step and show the second one which tells you to dismount.
 ; If you don't have the Chauffeur, it will show the first accept step, and skip the second once accepted.
-A Surrender or Else!|QID|24868|PRE|24864|M|52.20,73.19|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|BUFF|179244|
-A Surrender or Else!|QID|24868|PRE|24864|M|52.20,73.19|Z|0174;The Lost Isles|N|From Megs Dreadshredder. You will need to dismount from your Chauffeur before accepting this quest!|
-C Surrender or Else!|QID|24868|M|54.17,91.15|Z|0174;The Lost Isles|N|Follow Ace. When you can attack the Faceless, do so and kill it.|
-T Surrender or Else!|QID|24868|M|52.20,73.17|Z|0174;The Lost Isles|N|To Megs Dreadshredder.|
+A Surrender or Else!|QID|24868|PRE|24864|M|52.20,73.14|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|BUFF|179244|
+A Surrender or Else!|QID|24868|PRE|24864|M|52.20,73.14|Z|0174;The Lost Isles|N|From Megs Dreadshredder. You will need to dismount from your Chauffeur before accepting this quest!|
+C Surrender or Else!|QID|24868|M|54.17,91.15|Z|0174;The Lost Isles|N|Follow Ace to the Faceless of the Deep and when you are able, kill it.\n[color=FF0000]NOTE: [/color]The Nagas will not attack you while you are on this quest.|
+T Surrender or Else!|QID|24868|M|52.20,73.17|Z|0174;The Lost Isles|N|To Megs Dreadshredder.\n[color=FF0000]NOTE: [/color]Remember, they won't attack you.| ; 530 exp
 A Get Back to Town|QID|24897|PRE|24868|M|52.20,73.17|Z|0174;The Lost Isles|N|From Megs Dreadshredder.|
-T Get Back to Town|QID|24897|M|45.23,64.96|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
-A Town-In-A-Box: Under Attack|QID|24901|PRE|24897|M|45.23,64.96|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-N B.C. Eliminator|ACTIVE|24901|M|45.66,65.05|Z|0174;The Lost Isles|N|Jump onto the B.C. Eliminator|BUFF|72240|
-C Town-In-A-Box: Under Attack|QID|24901|M|45.68,65.16|Z|0174;The Lost Isles|N|Kill 30 Oomlet Warriors.|
-T Town-In-A-Box: Under Attack|QID|24901|M|45.21,64.94|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
-A Oomlot Village|QID|24924|PRE|24901|M|45.21,64.94|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+T Get Back to Town|QID|24897|M|45.17,64.91|Z|0174;The Lost Isles|N|To Sassy Hardwrench.| ; 70 exp
+A Town-In-A-Box: Under Attack|QID|24901|PRE|24897|M|45.17,64.91|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+C B.C. Eliminator|ACTIVE|24901|M|45.66,65.05|Z|0174;The Lost Isles|N|Jump onto the B.C. Eliminator|BUFF|72240|V|
+C Town-In-A-Box: Under Attack|QID|24901|M|PLAYER|CC|N|Kill 30 Oomlet Warriors.|
+T Town-In-A-Box: Under Attack|QID|24901|M|45.17,64.91|Z|0174;The Lost Isles|N|To Sassy Hardwrench.| ; 350 exp
+A Oomlot Village|QID|24924|PRE|24901|M|45.17,64.91|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+= Level 9 Training|ACTIVE|24924|M|PLAYER|CC|N|Do your level 9 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|8|IZ|Town-In-A-Box|C|-Hunter,-Shaman|
+R Oomlot Village|QID|24924|M|55.11,70.33|Z|0174;The Lost Isles|N|Just follow where the Pygmys are coming from.|
 T Oomlot Village|QID|24924|M|56.55,71.90|Z|0174;The Lost Isles|N|To Izzy in Oomlot Village.|
 A Free the Captives|QID|24925|PRE|24924|M|56.55,71.90|Z|0174;The Lost Isles|N|From Izzy.|
 A Send a Message|QID|24929|PRE|24924|M|56.54,71.85|Z|0174;The Lost Isles|N|From Izzy.|
-C Free the Captives|QID|24925|M|60.00,70.20|Z|0174;The Lost Isles|N|Kill Oomlet Shamans that are channeling next to the Goblin Captives.|S|
+C Free the Captives|QID|24925|M|60.00,70.20|Z|0174;The Lost Isles|N|Free the Goblin Captive by killing the channeling Oomlet Shaman.|S|
 C Send a Message|QID|24929|M|59.11,70.29;59.36,67.46;62.90,69.19;62.96,68.49|CS|Z|0174;The Lost Isles|N|Follow the waypoints to Yngwie and kill him.|
-C Free the Captives|QID|24925|M|60.00,70.20|Z|0174;The Lost Isles|N|Kill Oomlet Shamans that are channeling next to the Goblin Captives.|US|
+C Free the Captives|QID|24925|M|60.00,70.20|Z|0174;The Lost Isles|N|Free the Goblin Captive by killing the channeling Oomlet Shaman.|US|
 T Free the Captives|QID|24925|M|56.55,71.94|Z|0174;The Lost Isles|N|To Izzy.|
 T Send a Message|QID|24929|M|56.55,71.94|Z|0174;The Lost Isles|N|To Izzy.|
 A Oomlot Dealt With|QID|24937|PRE|24925&24929|M|56.55,71.94|Z|0174;The Lost Isles|N|From Izzy.|
-T Oomlot Dealt With|QID|24937|M|45.21,64.93|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
-A Up the Volcano|QID|24940|PRE|24937|M|45.21,64.93|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-T Up the Volcano|QID|24940|M|51.79,47.06|Z|0174;The Lost Isles|N|To Coach Crosscheck.|
-A Zombies vs. Super Booster Rocket Boots|QID|24942|PRE|24940|M|51.81,47.10|Z|0174;The Lost Isles|N|From Coach Crosscheck.|
-A Three Little Pygmies|QID|24945|PRE|24940|M|51.83,47.18|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
-A Rockin' Powder|QID|24946|PRE|24940|M|51.77,47.33|Z|0174;The Lost Isles|N|From Assistant Greely.|
-N Super Booster Rocket Boots|ACTIVE|24942|Z|0174;The Lost Isles|N|Activate the Super Booster Rocket Boots|U|52013|BUFF|72887|
-C Zombies vs. Super Booster Rocket Boots|QID|24942|M|62.09,49.41|Z|0174;The Lost Isles|N|Hover over zombies to kill them. You will not be able to loot so you will have to de-activate them to loot.|U|52013|S|
-C Rockin' Powder|QID|24946|M|63.19,52.90|Z|0174;The Lost Isles|N|Loot any Rockin' Powder mounds you see.|U|52013|S|NC|
-K Gaahl|ACTIVE|24945|QO|1|M|59.59,40.21|Z|0174;The Lost Isles|N|Kill Gaahl.|U|52013|
-K Malmo|ACTIVE|24945|QO|2|M|58.77,47.17|Z|0174;The Lost Isles|N|Kill Malmo.|U|52013|
-K Teloch|ACTIVE|24945|QO|3|M|63.66,52.78|Z|0174;The Lost Isles|N|Kill Teloch.|U|52013|
-C Rockin' Powder|QID|24946|M|63.19,52.90|Z|0174;The Lost Isles|N|Loot any Rockin' Powder mounds you see.|U|52013|US|NC|
+R Town-In-A-Box|ACTIVE|24397|M|45.17,64.91|Z|0174;The Lost Isles|N|Return to Town-In-A-Box.|
+T Oomlot Dealt With|QID|24937|M|45.17,64.91|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
+A Up the Volcano|QID|24940|PRE|24937|M|45.17,64.91|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+R Lost Peak|ACTIVE|24940|M|49.76,49.99|Z|0174;The Lost Isles|N|Follow the road west up the hill.\n[color=FF0000]NOTE: [/color]Ignore the Goblin Zombies as you can outrun them easily.|
+T Up the Volcano|QID|24940|M|51.80,47.11|Z|0174;The Lost Isles|N|To Coach Crosscheck.|
+A Zombies vs. Super Booster Rocket Boots|QID|24942|PRE|24940|M|51.80,47.11|Z|0174;The Lost Isles|N|From Coach Crosscheck.|
+A Three Little Pygmies|QID|24945|PRE|24940|M|51.85,47.20|Z|0174;The Lost Isles|N|From Foreman Dampwick.|
+A Rockin' Powder|QID|24946|PRE|24940|M|51.73,47.38|Z|0174;The Lost Isles|N|From Assistant Greely.|
+U Super Booster Rocket Boots|ACTIVE|24942|Z|0174;The Lost Isles|N|Activate the Super Booster Rocket Boots.\n[color=FF0000]NOTE: [/color]Only the Pygmys can hurt (will attack) you when they are active. You'll have to de-activate them to loot mobs.|U|52013|BUFF|72887|
+C Zombies vs. Super Booster Rocket Boots|QID|24942|M|62.09,49.41|Z|0174;The Lost Isles|N|Hover over zombies to kill them.|U|52013|S|
+C Rockin' Powder|QID|24946|M|63.19,52.90|Z|0174;The Lost Isles|L|52024 5|N|Loot any Rockin' Powder mounds you see.\n[color=FF0000]NOTE: [/color]This can be done with the boots active.|U|52013|S|
+K Gaahl|ACTIVE|24945|QO|1|M|59.59,40.21|Z|0174;The Lost Isles|N|Kill Gaahl.|T|Gaahl|U|52013|
+K Malmo|ACTIVE|24945|QO|2|M|58.77,47.17|Z|0174;The Lost Isles|N|Kill Malmo.|T|Malmo|U|52013|
+K Teloch|ACTIVE|24945|QO|3|M|63.66,52.78|Z|0174;The Lost Isles|N|Kill Teloch.|T|Teloch|U|52013|
+C Rockin' Powder|QID|24946|M|63.19,52.90|Z|0174;The Lost Isles|L|52024 5|N|Loot any Rockin' Powder mounds you see.\n[color=FF0000]NOTE: [/color]This can be done with the boots active.|U|52013|US|
 C Zombies vs. Super Booster Rocket Boots|QID|24942|M|62.09,49.41|Z|0174;The Lost Isles|N|Finish slaying any Goblin Zombies you have left.|U|52013|US|
-T Zombies vs. Super Booster Rocket Boots|QID|24942|M|51.83,47.16|Z|0174;The Lost Isles|N|Use the Rocket Boots to get you back to Coach Crosscheck safely.|U|52013|
-T Three Little Pygmies|QID|24945|M|51.83,47.16|Z|0174;The Lost Isles|N|To Foreman Dampwick.|
-T Rockin' Powder|QID|24946|M|51.72,47.38|Z|0174;The Lost Isles|N|To Assistant Greely.|
-A Rocket Boot Boost|QID|24952|PRE|24942&24945&24946|M|51.83,47.16|Z|0174;The Lost Isles|N|From Coach Crosscheck.|
-C Rocket Boot Boost|QID|24952|M|52.58,47.14|Z|0174;The Lost Isles|N|Use the Rockin' Powder Infused Rocket Boots.|U|52032|NC|
-T Rocket Boot Boost|QID|24952|M|68.97,46.45|Z|0174;The Lost Isles|N|To Hobart Grapplehammer, who is now at the Lost Caldera.|
-A Children of a Turtle God|QID|24954|PRE|24952|M|68.97,46.45|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
+T Zombies vs. Super Booster Rocket Boots|QID|24942|M|51.80,47.11|Z|0174;The Lost Isles|N|To Coach Crosscheck.|U|52013| ; 350 exp
+T Three Little Pygmies|QID|24945|M|51.85,47.20|Z|0174;The Lost Isles|N|To Foreman Dampwick.| ; 590 exp
+T Rockin' Powder|QID|24946|M|51.73,47.38|Z|0174;The Lost Isles|N|To Assistant Greely.| ; 350 exp
+A Rocket Boot Boost|QID|24952|PRE|24942&24945&24946|M|51.80,47.11|Z|0174;The Lost Isles|N|From Coach Crosscheck.|
+L Level 10|ACTIVE|24952|N|Grind until you're within 4 bubbles of level 5.|LVL|9;-1290|
+H Town-In-A-Box|ACTIVE|24952|M|45.17,64.91|Z|0174;The Lost Isles|N|Use your hearth or run back to Town-In-A-Box.|
+= Level 10 Training|ACTIVE|24952|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|IZ|Town-In-A-Box|
+C Rocket Boot Boost|QID|24952|QO|1|M|51.80,47.11|Z|0174;The Lost Isles|N|Use the Rockin' Powder Infused Rocket Boots to travel to Lost Caldera.\n[color=FF0000]NOTE: [/color]You must be near Coach Crosscheck to use them.|U|52032|NC|
+T Rocket Boot Boost|QID|24952|M|68.93,46.44|Z|0174;The Lost Isles|N|To Hobart Grapplehammer in Lost Caldera.|
+A Children of a Turtle God|QID|24954|PRE|24952|M|68.93,46.44|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
 C Children of a Turtle God|QID|24954|M|67.46,44.85|Z|0174;The Lost Isles|N|Kill and loot Children of Volcanoth until you get 5 Fire Glands.|
 T Children of a Turtle God|QID|24954|M|68.96,46.45|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
 A Volcanoth!|QID|24958|PRE|24954|M|68.96,46.45|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
-C Volcanoth!|QID|24958|M|71.63,54.92|Z|0174;The Lost Isles|N|Hotkey the Bootzooka, get in range, spam the Bootzooka. Move out of line of sight when Volcanoth use his breath attack.|U|52043|
-;Coordinates for the turn-in and accept next quest are not displaying properly.
-T Volcanoth!|QID|24958|M|72.87,57.02|Z|0174;The Lost Isles|N|To Sassy Hardwrench, who is now at the back of Volcanoth's Lair.|
-A Old Friends|QID|25023|PRE|24958|M|72.87,57.02|Z|0174;The Lost Isles|N|From Sassy Hardwrench. On accepting quest you will be flown to the Warchief's Lookout|
-T Old Friends|QID|25023|M|36.81,43.16|Z|0174;The Lost Isles|N|To Thrall.|
-A Repel the Paratroopers|QID|25024|PRE|25023|M|36.81,43.16|Z|0174;The Lost Isles|N|From Thrall.|
-A The Heads of the SI:7|QID|25093|PRE|25023|M|36.28,43.43|Z|0174;The Lost Isles|N|From Aggra.|
-A Mine Disposal, the Goblin Way|QID|25058|PRE|25023|M|37.34,41.95|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+C Volcanoth!|QID|24958|M|71.63,54.92|Z|0174;The Lost Isles|N|Hotkey the Bootzooka, get in range, spam the Bootzooka. Move out of line of sight when Volcanoth use his breath attack.|T|Volcanoth|U|52043|
+T Volcanoth!|QID|24958|M|72.87,57.02|Z|0174;The Lost Isles|N|To Sassy Hardwrench at the back of Volcanoth's Lair.|
+A Old Friends|QID|25023|PRE|24958|M|72.87,57.02|Z|0174;The Lost Isles|N|From Sassy Hardwrench.\n[color=FF0000]NOTE: [/color]Upon accepting the quest, you'll be flown to the Warchief's Lookout.|
+T Old Friends|QID|25023|M|36.78,43.13|Z|0174;The Lost Isles|N|To Thrall.|
+A Repel the Paratroopers|QID|25024|PRE|25023|M|36.78,43.13|Z|0174;The Lost Isles|N|From Thrall.|
+A The Heads of the SI:7|QID|25093|PRE|25023|M|36.26,43.37|Z|0174;The Lost Isles|N|From Aggra.|
+A Mine Disposal, the Goblin Way|QID|25058|PRE|25023|M|37.35,41.91|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 C Repel the Paratroopers|QID|25024|M|34.04,38.48|Z|0174;The Lost Isles|N|Kill any Alliance Paratrooper you see.|S|
 C Mine Disposal, the Goblin Way|QID|25058|M|33.08,43.80|Z|0174;The Lost Isles|N|Throw a grenade at a land mine.|U|52280|S|NC|
 K Commander Arrington|QID|25093|QO|1|M|32.27,42.88|Z|0174;The Lost Isles|N|Kill and loot Commander Arrington for his head.|ACTIVE|25093|
@@ -322,15 +336,15 @@ K Darkblade Cyn|QID|25093|QO|2|M|33.42,27.89|Z|0174;The Lost Isles|N|Kill and lo
 C Repel the Paratroopers|QID|25024|M|34.04,38.48|Z|0174;The Lost Isles|N|Kill any Paratrooper you have left to kill.|US|
 C Mine Disposal, the Goblin Way|QID|25058|M|33.08,43.80|Z|0174;The Lost Isles|N|Throw a grenade at a land mine.|U|52280|US|NC|
 H Warchief's Lookout|QID|25024|M|36.83,43.19|Z|0174;The Lost Isles|N|Hearth back to Warchief's Lookout.|ACTIVE|25024|
-T Repel the Paratroopers|QID|25024|M|36.80,43.09|Z|0174;The Lost Isles|N|To Thrall.|
-T The Heads of the SI:7|QID|25093|M|36.30,43.35|Z|0174;The Lost Isles|N|To Aggra.|
+T Repel the Paratroopers|QID|25024|M|36.78,43.13|Z|0174;The Lost Isles|N|To Thrall.|
+T The Heads of the SI:7|QID|25093|M|36.26,43.37|Z|0174;The Lost Isles|N|To Aggra.|
 T Mine Disposal, the Goblin Way|QID|25058|M|37.37,41.88|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
 A The Pride of Kezan|QID|25066|PRE|25024&25093&25058|M|37.37,41.88|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 C The Pride of Kezan|QID|25066|Z|0174;The Lost Isles|N|Speak to Sassy Hardwrench and tell her to get you up into the skies.|BUFF|73427|ACTIVE|25066|CHAT|
 C The Pride of Kezan|QID|25066|M|32.03,31.46|Z|0174;The Lost Isles|N|Fly around using ability 1&2 and shoot down 10 Gnome planes.|
 T The Pride of Kezan|QID|25066|M|37.33,41.90|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
 A The Warchief Wants You|QID|25098|PRE|25066|M|37.33,41.90|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-T The Warchief Wants You|QID|25098|M|36.83,43.17|Z|0174;The Lost Isles|N|To Thrall.|
+T The Warchief Wants You|QID|25098|M|36.78,43.13|Z|0174;The Lost Isles|N|To Thrall.|
 A Borrow Bastia|QID|25099|PRE|25098|M|36.83,43.17|Z|0174;The Lost Isles|N|From Chawg.|
 T Borrow Bastia|QID|25099|M|33.81,38.82|Z|0174;The Lost Isles|N|To Kilag Gorefang.|
 A Let's Ride|QID|25100|PRE|25099|M|34.01,38.76|Z|0174;The Lost Isles|N|From Kilag Gorefang. On accepting this quest you will be taken to Sky Falls.|
