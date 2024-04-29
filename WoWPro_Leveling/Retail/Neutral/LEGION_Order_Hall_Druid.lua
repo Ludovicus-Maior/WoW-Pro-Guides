@@ -19,18 +19,18 @@ T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To 
 A A Summons From Moonglade|QID|40643|PRE|44663|M|57.77,44.90|Z|Dalaran@Dalaran70|N|From Archdruid Hamuul Runetotem.|
 T A Summons From Moonglade|QID|40643|M|56.24,31.88|Z|80;Moonglade|N|Use Teleport Moonglade when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|LVL|22|C|Druid|
 T A Summons From Moonglade|QID|40643|M|56.24,31.88|Z|80;Moonglade|N|Use the Mossy Hearthstone when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|LVL|-22|C|Druid|U|173716|
-A Call of the Wilds|QID|41106|M|56.28,31.86|Z|Moonglade|N|From Archdruid Hamuul Runetotem.|PRE|40643|
-C Call of the Wilds|QID|41106|QO|1|M|43.61,53.15|Z|Moonglade|CHAT|N|Speak to Zen'tabra|
-C Call of the Wilds|QID|41106|NC|QO|2|M|55.21,71.01|Z|Moonglade|N|Sniff Naralex's pillow.|
-C Call of the Wilds|QID|41106|QO|3|M|40.20,70.59|Z|Moonglade|CHAT|N|Follow the scent trail to Naralex. When you find him, chat (either option works).|
-T Call of the Wilds|QID|41106|M|56.27,31.84|Z|Moonglade|N|To Archdruid Hamuul Runetotem.|
-A The Dreamway|QID|40644|M|56.27,31.84|Z|Moonglade|N|From Archdruid Hamuul Runetotem.|PRE|41106|
-C The Dreamway|QID|40644|NC|QO|1|M|65.18,60.50|Z|Moonglade|N|Accompany Archdruid Runetotem|
-C The Dreamway|QID|40644|NC|QO|2|M|66.76,60.11|Z|Moonglade|N|Approach and listen to Malfurion|
-C The Dreamway|QID|40644|NC|QO|3|M|66.93,60.11|Z|Moonglade|N|Step into the circle and use your extra action button to complete the ritual.|EAB|
-T The Dreamway|QID|40644|M|66.73,60.54|Z|Moonglade|N|To Malfurion Stormrage.|
-A To The Dreamgrove|QID|40645|M|66.73,60.54|Z|Moonglade|N|From Malfurion Stormrage.|PRE|40644|
-C To The Dreamgrove|QID|40645|NC|QO|1|M|68.05,60.23|Z|Moonglade|N|Enter the Emerald Dreamway.|
+A Call of the Wilds|QID|41106|M|56.28,31.86|Z|80; Moonglade|N|From Archdruid Hamuul Runetotem.|PRE|40643|
+C Call of the Wilds|QID|41106|QO|1|M|43.61,53.15|Z|80; Moonglade|CHAT|N|Speak to Zen'tabra|
+C Call of the Wilds|QID|41106|NC|QO|2|M|55.21,71.01|Z|80; Moonglade|N|Sniff Naralex's pillow.|
+C Call of the Wilds|QID|41106|QO|3|M|40.20,70.59|Z|80; Moonglade|CHAT|N|Follow the scent trail to Naralex. When you find him, chat (either option works).|
+T Call of the Wilds|QID|41106|M|56.27,31.84|Z|80; Moonglade|N|To Archdruid Hamuul Runetotem.|
+A The Dreamway|QID|40644|M|56.27,31.84|Z|80; Moonglade|N|From Archdruid Hamuul Runetotem.|PRE|41106|
+C The Dreamway|QID|40644|NC|QO|1|M|65.18,60.50|Z|80; Moonglade|N|Accompany Archdruid Runetotem|
+C The Dreamway|QID|40644|NC|QO|2|M|66.76,60.11|Z|80; Moonglade|N|Approach and listen to Malfurion|
+C The Dreamway|QID|40644|NC|QO|3|M|66.93,60.11|Z|80; Moonglade|N|Step into the circle and use your extra action button to complete the ritual.|EAB|
+T The Dreamway|QID|40644|M|66.73,60.54|Z|80; Moonglade|N|To Malfurion Stormrage.|
+A To The Dreamgrove|QID|40645|M|66.73,60.54|Z|80; Moonglade|N|From Malfurion Stormrage.|PRE|40644|
+C To The Dreamgrove|QID|40645|NC|QO|1|M|68.05,60.23|Z|80; Moonglade|N|Enter the Emerald Dreamway.|
 C To The Dreamgrove|QID|40645|NC|QO|2|M|40.21,40.23|Z|EmeraldDreamway|N|Travel with Remulos.|
 C To The Dreamgrove|QID|40645|QO|3|M|68.93,30.65|Z|EmeraldDreamway|N|Kill Nightmare Blight.|T|Nightmare Blight|
 C To The Dreamgrove|QID|40645|NC|QO|4|M|45.70,24.08|Z|EmeraldDreamway|N|Travel to the Dreamgrove.|
