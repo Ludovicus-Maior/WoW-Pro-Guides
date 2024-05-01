@@ -13,12 +13,14 @@ WoWPro.CreateCurrentGuideTitle = true
 local frame = _G.CreateFrame("Frame", "CreateGuide", _G.UIParent, "BackdropTemplate")
 frame.name = L["Current Guide"]
 frame.parent = "WoWPro"
-frame.parent = "WoWPro"
 if WoWPro.CLASSIC then
-    frame:SetSize(600, 500)
+    frame:SetSize(600, 700)
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
 elseif WoWPro.WRATH then
     frame:SetSize(650, 520)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+elseif WoWPro.CATA then
+    frame:SetSize(700, 550)
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
 else
     frame:SetSize(625, 480)
@@ -29,7 +31,6 @@ local texture = frame:CreateTexture(nil, "BACKGROUND")
 texture:SetAllPoints(true)
 texture:SetColorTexture(0, 0, 0, 0)
 frame:SetBackdropColor(0, 0, 0, 0)
-
 
 -- Add the frame to the special frames list
 _G.table.insert(_G.UISpecialFrames, frame:GetName())
@@ -45,22 +46,25 @@ do
     elseif WoWPro.WRATH then
         title:SetPoint("TOPLEFT", 16, -60)
         title:SetPoint("RIGHT", frame, -16, -10)
+    elseif WoWPro.CATA then
+        title:SetPoint("TOPLEFT", 16, -65)
+        title:SetPoint("RIGHT", frame, -16, -20)
     else
-        title:SetPoint("TOPLEFT", 16, 0)
+        title:SetPoint("TOPLEFT", 16, -60)
         title:SetPoint("RIGHT", frame, -18, -5)
     end
     title:SetText("WoWPro - "..L["Current Guide"])
     title:SetJustifyH("CENTER")
     frame.title = title
 
-local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-subtitle:SetHeight(32)
-subtitle:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -8)
-subtitle:SetPoint("RIGHT", frame, -32, 0)
-subtitle:SetNonSpaceWrap(true)
-subtitle:SetJustifyH("CENTER")
-subtitle:SetJustifyV("TOP")
-frame.subtitle = subtitle
+    local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    subtitle:SetHeight(32)
+    subtitle:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -8)
+    subtitle:SetPoint("RIGHT", frame, -32, 0)
+    subtitle:SetNonSpaceWrap(true)
+    subtitle:SetJustifyH("CENTER")
+    subtitle:SetJustifyV("TOP")
+    frame.subtitle = subtitle
 
     local box = WoWPro:CreateBG(frame)
     box:SetPoint("TOP", subtitle, "BOTTOM", 0, -GAP)

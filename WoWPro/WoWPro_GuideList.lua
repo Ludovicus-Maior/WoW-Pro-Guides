@@ -82,7 +82,7 @@ function GuideListMixin:SelectTab(tabIndex)
                     text = button:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
                     text:SetPoint("TOP")
                     text:SetPoint("BOTTOM")
-                    text:SetPoint("LEFT", self.headers[index], 6, 0)
+                    text:SetPoint("LEFT", self.headers[index], 6, 0) -- Controls position of list
                     text:SetPoint("RIGHT", self.headers[index], -6, 0)
 
                     button[index] = text
@@ -111,6 +111,9 @@ function WoWPro.CreateGuideList()
     elseif WoWPro.WRATH then
         frame:SetSize(650, 520)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    elseif WoWPro.CATA then
+        frame:SetSize(650, 550)
+        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     else
         frame:SetSize(625, 600)
         frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
@@ -133,16 +136,20 @@ function WoWPro.CreateGuideList()
         title:SetPoint("TOP", frame, "TOP", 0, -30)
     elseif WoWPro.WRATH then
         title:SetPoint("TOP", frame, "TOP", 0, -10)
+    elseif WoWPro.CATA then
+        title:SetPoint("TOP", frame, "TOP", 0, 0) -- Set the point for Cataclysm
     else
         title:SetPoint("TOP", frame, "TOP", 0, 50)
     end
     frame.title = title
-    local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall") -- White text
     subtitle:SetHeight(40)
     if WoWPro.CLASSIC then
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -30)
     elseif WoWPro.WRATH then
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -45)
+    elseif WoWPro.CATA then
+        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -60)
     else
         subtitle:SetPoint("TOP", title, "BOTTOM", 0, -60)
     end
@@ -169,6 +176,8 @@ function WoWPro.CreateGuideList()
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, -1)
                 elseif WoWPro.WRATH then
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 1)
+                elseif WoWPro.CATA then
+                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 2)
                 else
                     tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 80, 20)
                 end
@@ -343,7 +352,7 @@ function WoWPro:Setup_TitleRow(frame)
         TitleRow[colDesc[1]]:SetWidth(buttonWidth)
         local fontString = TitleRow[colDesc[1]]:GetFontString()
         fontString:SetJustifyH("LEFT")
-        fontString:SetJustifyV("CENTER")
+        fontString:SetJustifyV("MIDDLE")
         lastButton = TitleRow[colDesc[1]]
     end
 
