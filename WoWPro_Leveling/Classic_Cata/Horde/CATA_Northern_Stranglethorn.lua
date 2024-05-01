@@ -5,8 +5,8 @@ WoWPro:GuideSort(guide, 34)
 WoWPro:GuideNextGuide(guide, 'WkjCap3035')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Well, Come to the Jungle|QID|26416|M|50.6,67|Z|63; Ashenvale|N|This guide starts in Ashenvale. Start with Cromula, who wanders up and down the hall.|
-F Orgrimmar|QID|26416|M|49.49,65.24|Z|63; Ashenvale|N|Wind Tamer Shosok|
+A Well, Come to the Jungle|QID|26416|M|50.6,67|Z|1440; Ashenvale|N|This guide starts in Ashenvale. Start with Cromula, who wanders up and down the hall.|
+F Orgrimmar|QID|26416|M|49.49,65.24|Z|1440; Ashenvale|N|Wind Tamer Shosok|
 T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|Orgrimmar|N|To Bort.|
 A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|LEAD|26278|M|53.94,54.42|Z|Orgrimmar|N|From Bort.|
 N Before you fly off|QID|26278|N|Now is a good time to train up, repair and get supplies.|

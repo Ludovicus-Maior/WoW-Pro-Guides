@@ -92,8 +92,8 @@ T The Boon of Alexstrasza|QID|13079|N|Return to Crusader Bridenbrad.|M|79.80,30.
 A Hope Yet Remains|QID|13080|PRE|13079|N|From Crusader Bridenbrad.|
 T Hope Yet Remains|QID|13080|N|To Highlord Tirion Fordring.|M|79.80,71.80|
 A The Will of the Naaru|QID|13081|PRE|13080|N|From Highlord Tirion Fordring.|
-T The Will of the Naaru|QID|13081|N|If you wait about 10 seconds, Rhydian will wander over and open up a portal to Shattrath for you. Speak to A'dal.|Z|111; Shattrath City|M|54.00,44.67|
-A The Boon of A'dal|QID|13082|PRE|13081|N|From A'dal.|Z|111; Shattrath City|
+T The Will of the Naaru|QID|13081|N|If you wait about 10 seconds, Rhydian will wander over and open up a portal to Shattrath for you. Speak to A'dal.|Z|1955; Shattrath City|M|54.00,44.67|
+A The Boon of A'dal|QID|13082|PRE|13081|N|From A'dal.|Z|1955; Shattrath City|
 T The Boon of A'dal|QID|13082|N|Return to Crusader Bridenbrad.|M|79.80,30.80|
 A Light Within the Darkness|QID|13083|PRE|13082|N|After the poor Crusader ascends into the Light, search his possesions.|M|79.80,30.90|
 T Light Within the Darkness|QID|13083|N|To Highlord Tirion Fordring.|M|79.80,71.80|

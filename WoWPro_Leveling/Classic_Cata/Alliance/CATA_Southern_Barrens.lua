@@ -25,9 +25,9 @@ T Survey the Destruction|QID|25191|M|68.68,49.29|Z|199; Southern Barrens|N|To Ho
 A The Admiral Won't Back Down|QID|25197|LEAD|24934|PRE|25191|M|68.68,49.29|Z|199; Southern Barrens|N|From Horton Gimbleheart.|
 T The Admiral Won't Back Down|QID|25197|M|69.23,49.06|Z|199; Southern Barrens|N|To Admiral Aubrey.|
 A Repel Boarders!|QID|24934|M|69.23,49.06|Z|199; Southern Barrens|N|From Admiral Aubrey.|
-C Repel Boarders!|QID|24934|M|57.47,60.97|Z|10;Northern Barrens|N|Tell the Admiral you are ready to go.|
-T Repel Boarders!|QID|24934|M|57.47,58.97|Z|12; Kalimdor|N|To Captain Fisher.|
-R Northwatch Hold|QID|24938|M|57.47,58.97|Z|10;Northern Barrens|N|Ask for a ride back from Captain Fisher.|FLY|OLD|
+C Repel Boarders!|QID|24934|M|57.47,60.97|Z|1413;The Barrens|N|Tell the Admiral you are ready to go.|
+T Repel Boarders!|QID|24934|M|57.47,58.97|Z|1414; Kalimdor|N|To Captain Fisher.|
+R Northwatch Hold|QID|24938|M|57.47,58.97|Z|1413;The Barrens|N|Ask for a ride back from Captain Fisher.|FLY|OLD|
 A The Guns of Northwatch|QID|24938|PRE|24934|M|69.22,49.07|Z|199; Southern Barrens|N|From Admiral Aubrey.|
 f Northwatch Hold|QID|24934|M|66.36,47.13|Z|199; Southern Barrens|N|At Bill Williamson.|
 A Langridge Shot|QID|24941|M|67.03,46.57|Z|199; Southern Barrens|N|From Thomas Paxton.|

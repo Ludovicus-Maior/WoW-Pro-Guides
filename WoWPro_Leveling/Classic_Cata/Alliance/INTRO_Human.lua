@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide("KurNShire0105", "Leveling", "Elwynn Forest", "WoWPro Team", "Alliance", 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 6)
+WoWPro:GuideContent(guide, 'Intro')
 WoWPro:GuideNickname(guide, "Human: Intro")
 WoWPro:GuideName(guide,"Human: Intro")
 WoWPro:GuideNextGuide(guide, 'Westfall')
@@ -193,7 +194,7 @@ T The Rear is Clear|QID|28823|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal M
 A Join the Battle!|QID|29080|PRE|29079|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
 T Join the Battle!|QID|29080|M|48.80,38.42|Z|1429; Elwynn Forest|N|To Sergeant Willem, outside the abbey by the blue tent.|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
 A They Sent Assassins|QID|29081|PRE|29080|M|48.80,38.42|Z|1429; Elwynn Forest|N|From Sergeant Willem.|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
-A Fear No Evil|QID|29082|PRE|29080|M|34.59,39.02|Z|1429; Elwynn Forest|N|From Brother Paxton.|R|-Human|RANK|2|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
+A Fear No Evil|QID|29082|PRE|29080|M|34.59,39.02|Z|1429; Elwynn Forest|N|From Brother Paxton.|RANK|2|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
 C They Sent Assassins|QID|29081|M|48.65,36.07|Z|1429; Elwynn Forest|N|Kill goblin assassins.|S|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|
 C Fear No Evil|QID|29082|M|48.65,36.07|Z|1429; Elwynn Forest|N|Revive 4 Injured Soldiers by right clicking on them.|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|H|
 C They Sent Assassins|QID|29081|M|48.65,36.07|Z|1429; Elwynn Forest|N|Kill goblin assassins.|US|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|

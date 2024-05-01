@@ -65,14 +65,14 @@ T Vanquishing Aquantion|QID|9174|M|72.29,19.11|Z|1942;Ghostlands|N|To Geranis Wh
 T Spirits of the Drowned|QID|9274|M|72.20,29.83|Z|1942;Ghostlands|N|To Ranger Krenn'an.|
 A A Little Dash of Seasoning|QID|9275|PRE|9174&9274|M|72.66,31.57|Z|1942;Ghostlands|N|From Apothecary Venustus.|
 C Curbing the Plague|QID|9159|QO|1|M|77.08,28.12|Z|1942;Ghostlands|N|Vampiric Mistbat slain.|
-C Investigate the Amani Catacombs|QID|9193|QO|2|M|58.91,63.25|Z|Amani Catacombs|N|Investigate the Amani Catacombs.|NC|
-C Investigate the Amani Catacombs|QID|9193|QO|1|M|68.39,33.80|Z|Amani Catacombs|N|Mummified Troll Remains Burned.|U|22755|S|NC|
-C Troll Juju|QID|9199|QO|1|M|57.62,66.20|Z|Amani Catacombs|N|Troll Juju.|S|NC|
-A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|Amani Catacombs|N|From Ranger Lilatha.|
-A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|Amani Catacombs|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for them to respawn.|FAIL|
+C Investigate the Amani Catacombs|QID|9193|QO|2|M|58.91,63.25|Z|1942; Ghostlands|N|Investigate the Amani Catacombs.|NC|
+C Investigate the Amani Catacombs|QID|9193|QO|1|M|68.39,33.80|Z|1942; Ghostlands|N|Mummified Troll Remains Burned.|U|22755|S|NC|
+C Troll Juju|QID|9199|QO|1|M|57.62,66.20|Z|1942; Ghostlands|N|Troll Juju.|S|NC|
+A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|1942; Ghostlands|N|From Ranger Lilatha.|
+A Escape from the Catacombs|QID|9212|PRE|9174&9274|M|60.03,81.68|Z|1942; Ghostlands|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Ranger Lilatha to restart the quest.\n[color=FF0000]NOTE: [/color]You may have to wait for them to respawn.|FAIL|
 T Escape from the Catacombs|QID|9212|M|72.36,29.63|Z|1942;Ghostlands|N|To Captain Helios.|
-C Investigate the Amani Catacombs|QID|9193|QO|1|M|68.39,33.80|Z|Amani Catacombs|N|Mummified Troll Remains Burned.|U|22755|US|NC|
-C Troll Juju|QID|9199|QO|1|M|57.62,66.20|Z|Amani Catacombs|N|Troll Juju.|US|NC|
+C Investigate the Amani Catacombs|QID|9193|QO|1|M|68.39,33.80|Z|1942; Ghostlands|N|Mummified Troll Remains Burned.|U|22755|US|NC|
+C Troll Juju|QID|9199|QO|1|M|57.62,66.20|Z|1942; Ghostlands|N|Troll Juju.|US|NC|
 T Troll Juju|QID|9199|M|72.63,31.56|Z|1942;Ghostlands|N|To Apothecary Venustus.|
 T Investigate the Amani Catacombs|QID|9193|M|71.95,32.64|Z|1942;Ghostlands|N|To Ranger Vynna.|
 C Shadowpine Weaponry|QID|9214|M|65.93,53.07|Z|1942;Ghostlands|QO|4;3|N|Collect the weapons needed.|S|
@@ -201,8 +201,8 @@ T Friend of the Sin'dorei|QID|9811|M|53.84,20.29|Z|Silvermoon City|N|To Lor'them
 A Envoy to the Horde|QID|9621|PRE|9218&9216&9328|M|53.84,20.29|Z|Silvermoon City|N|From Lor'themar Theron.|R|BloodElf|
 A Envoy to the Horde|QID|9812|PRE|9218&9216&9811|M|53.84,20.29|Z|Silvermoon City|N|From Lor'themar Theron.|R|-BloodElf|
 P Ruins of Lordaeron|ACTIVE|9812^9621|M|49.47,14.81|Z|Silvermoon City|N|Take the portal to Ruins of Lordaeron.|
-T Envoy to the Horde|QID|9621|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|BloodElf|
-T Envoy to the Horde|QID|9812|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
-T Journey to Undercity|QID|9180|M|58.07,91.56|Z|Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
+T Envoy to the Horde|QID|9621|M|58.07,91.56|Z|1458; Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|BloodElf|
+T Envoy to the Horde|QID|9812|M|58.07,91.56|Z|1458; Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|R|-BloodElf|
+T Journey to Undercity|QID|9180|M|58.07,91.56|Z|1458; Undercity!Eastern Kingdoms|N|To Lady Sylvanas Windrunner.|
 ]]
 end)

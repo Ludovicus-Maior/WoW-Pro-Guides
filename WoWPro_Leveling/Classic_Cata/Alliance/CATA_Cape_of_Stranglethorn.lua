@@ -5,8 +5,8 @@ WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNextGuide(guide, 'Western Plaguelands')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Fort Livingston |QID|26805|Z|50;Northern Stranglethorn|N|The Cape of Stranglethorn is found south of Northern Stranglethorn. To start this guide, first head to Fort Livingstone, to the south of Northern Stranglethorn.\n\nThere is a breadcrumb quest leading you to this zone, Hero's Call from the callboard in Stormwind City, which can be used in addition to the breadcrumb from Northern Stranglethorn.|
-A To the Cape!|QID|26805|M|53.37,66.32|Z|50;Northern Stranglethorn|N|From Wilfred Harrys in Fort Livingston, Northern Stranglethorn.  This quest is available even if you haven't quested in Northern Stranglethorn.|
+R Fort Livingston |QID|26805|Z|1434;Northern Stranglethorn|N|The Cape of Stranglethorn is found south of Northern Stranglethorn. To start this guide, first head to Fort Livingstone, to the south of Northern Stranglethorn.\n\nThere is a breadcrumb quest leading you to this zone, Hero's Call from the callboard in Stormwind City, which can be used in addition to the breadcrumb from Northern Stranglethorn.|
+A To the Cape!|QID|26805|M|53.37,66.32|Z|1434;Northern Stranglethorn|N|From Wilfred Harrys in Fort Livingston, Northern Stranglethorn.  This quest is available even if you haven't quested in Northern Stranglethorn.|
 F Explorers' League Digsite |QID|26805|M|52.64,66.10|Z|210;The Cape of Stranglethorn|N|Speak to Robert Rhodes in Fort Livingston, and tell him you have had a prepaid ticket to the Explorers' League Digsite.|
 f Explorers' League Digsite|QID|26805|M|55.74,41.22|Z|210;The Cape of Stranglethorn|N|At Colin Swifthammer.|
 T To the Cape!|QID|26805|M|55.25,42.48|Z|210;The Cape of Stranglethorn|N|To Bronwyn Hewstrike.|S|
@@ -64,14 +64,14 @@ T Eliminate the Outcast|QID|26810|M|61.15,44.61|Z|210;The Cape of Stranglethorn|
 A Through the Troll Hole|QID|26811|PRE|26810|M|61.15,44.61|Z|210;The Cape of Stranglethorn|N|(UI Alert)|
 C Through the Troll Hole|QID|26811|M|61.19,44.28|Z|210;The Cape of Stranglethorn|N|Go through the Rabbit Hole, I mean Troll Hole.|NC|
 T Through the Troll Hole|QID|26811|M|78.55,35.99|Z|210;The Cape of Stranglethorn|N|(UI Alert)|
-A High Priestess Jeklik|QID|26812|PRE|26811|M|78.55,35.99|Z|50;Northern Stranglethorn|N|(UI Alert)|
-C High Priestess Jeklik|QID|26812|M|77.56,43.97|Z|50;Northern Stranglethorn|N|Attack and kill High Priestess Jeklik. To get credit for this quest, you need to strike the killing blow to the Priestess whilst she is lying down, and not being conveyed across the air by Zanzil.  Maywiki will take you back to the area if you 'lose your way'.|
-T High Priestess Jeklik|QID|26812|M|77.56,43.97|Z|50;Northern Stranglethorn|N|(UI Alert)|
-A Plunging Into Zul'Gurub|QID|26813|PRE|26812|M|77.56,43.97|Z|50;Northern Stranglethorn|N|(UI Alert)|
-C Plunging Into Zul'Gurub|QID|26813|M|77.91,44.42|Z|50;Northern Stranglethorn||N|Click on the portal created by Zanzil.|NC|
-T Plunging Into Zul'Gurub|QID|26813|M|82.11,35.37|Z|50;Northern Stranglethorn|N|(UI Alert)|
-A High Priest Venoxis|QID|26814|PRE|26813|M|82.11,35.37|Z|50;Northern Stranglethorn|N|(UI Alert)|
-C High Priest Venoxis|QID|26814|M|83.70,35.96|Z|50;Northern Stranglethorn|N|Kill the High Priest Venoxis - once you achieve this, you will be rooted in place, and a ladder will appear on your screen from the right.  Grab the ladder to return to Explorer's League.\n\nDuring the battle, any Spirit of Venoxis reaching the High Priestess will cast a heal on it, too many of these should be avoided, as the restored health is vastly higher than the health to kill the Spirits.|
+A High Priestess Jeklik|QID|26812|PRE|26811|M|78.55,35.99|Z|1434;Northern Stranglethorn|N|(UI Alert)|
+C High Priestess Jeklik|QID|26812|M|77.56,43.97|Z|1434;Northern Stranglethorn|N|Attack and kill High Priestess Jeklik. To get credit for this quest, you need to strike the killing blow to the Priestess whilst she is lying down, and not being conveyed across the air by Zanzil.  Maywiki will take you back to the area if you 'lose your way'.|
+T High Priestess Jeklik|QID|26812|M|77.56,43.97|Z|1434;Northern Stranglethorn|N|(UI Alert)|
+A Plunging Into Zul'Gurub|QID|26813|PRE|26812|M|77.56,43.97|Z|1434;Northern Stranglethorn|N|(UI Alert)|
+C Plunging Into Zul'Gurub|QID|26813|M|77.91,44.42|Z|1434;Northern Stranglethorn||N|Click on the portal created by Zanzil.|NC|
+T Plunging Into Zul'Gurub|QID|26813|M|82.11,35.37|Z|1434;Northern Stranglethorn|N|(UI Alert)|
+A High Priest Venoxis|QID|26814|PRE|26813|M|82.11,35.37|Z|1434;Northern Stranglethorn|N|(UI Alert)|
+C High Priest Venoxis|QID|26814|M|83.70,35.96|Z|1434;Northern Stranglethorn|N|Kill the High Priest Venoxis - once you achieve this, you will be rooted in place, and a ladder will appear on your screen from the right.  Grab the ladder to return to Explorer's League.\n\nDuring the battle, any Spirit of Venoxis reaching the High Priestess will cast a heal on it, too many of these should be avoided, as the restored health is vastly higher than the health to kill the Spirits.|
 T High Priest Venoxis|QID|26814|U|60374|M|55.70,42.27|Z|210;The Cape of Stranglethorn|N|To Maywiki.|
 T Recipe for Disaster|QID|26816|M|55.31,41.93|Z|210;The Cape of Stranglethorn|N|To Dask "The Flask" Gobfizzle.|
 R Booty Bay|QID|26821|M|50.97,43.09;45.26,65.73|CC|Z|210;The Cape of Stranglethorn|N|Follow the path to the final cordinates and walk through the tunnel.|
