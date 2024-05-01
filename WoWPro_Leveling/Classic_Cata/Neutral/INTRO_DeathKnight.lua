@@ -1,5 +1,5 @@
-local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", "Jame", "Neutral")
-WoWPro:GuideLevels(guide, 8, 18, 10)
+local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", "WoWPro Team", "Neutral", 4)
+WoWPro:GuideLevels(guide, 55, 58)
 WoWPro:GuideSort(guide, 16)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideName(guide,"Death Knight: Original Intro")
@@ -141,7 +141,7 @@ C The Battle For The Ebon Hold|QID|13166|N|Use the pink teleporter. Have the NPC
 T The Battle For The Ebon Hold|QID|13166|N|To Highlord Darion Mograine.|M|83.4,49.4|
 A Where Kings Walk|QID|13188|PRE|13166|FACTION|Alliance|M|83.4,49.4|N|From Highlord Darion Mograine.|
 R Stormwind City|QID|13188|M|83.65,51.36|N|Click on the portal to go to Stormwind.|FACTION|Alliance|
-T Where Kings Walk|QID|13188|Z|84;Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn.|FACTION|Alliance|
+T Where Kings Walk|QID|13188|Z|1453; Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn.|FACTION|Alliance|
 A Saurfang's Blessing|QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highlord Darion Mograine.|
 P Durotar|QID|13189|M|84.58,50.49|Z|23;Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 T Saurfang's Blessing|QID|13189|Z|Orgrimmar|M|48.14,70.56|N|To High Overlord Saurfang.|FACTION|Horde|

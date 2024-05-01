@@ -1,11 +1,12 @@
 local guide = WoWPro:RegisterGuide("KurRed1520", "Leveling", "Redridge Mountains", "WoWPro Team", "Alliance", 4)
+WoWPro:GuideLevels(guide, 15, 20)
 WoWPro:GuideName(guide,"Redridge Mountains")
 WoWPro:GuideSort(guide, 32)
 WoWPro:GuideNextGuide(guide, 'Duskwood')
 WoWPro:GuideSteps(guide, function()
 return [[
 F Eastvale Logging Camp|AVAILABLE|26503|Z|49;Redridge Mountains|N|Fly to Eastvale Logging Camp.|TAXI|Eastvale Logging Camp|
-R Redridge Mountains|AVAILABLE|26503|M|96.68,72.33|Z|37;Elwynn Forest|N|Follow the road east into Redridge Mountains.|
+R Redridge Mountains|AVAILABLE|26503|M|96.68,72.33|Z|1429; Elwynn Forest|N|Follow the road east into Redridge Mountains.|
 A WANTED: Redridge Gnolls|QID|26504|M|16.15,64.54|Z|49;Redridge Mountains|N|From the Wanted Poster board.|RANK|2|
 A Franks and Beans|QID|26506|M|15.67,65.28|Z|49;Redridge Mountains|N|From Darcy Parker.|RANK|2|
 T Hero's Call: Redridge Mountains!|ACTIVE|26365|M|15.32,64.64|Z|49;Redridge Mountains|N|To Watch Captain Parker.|

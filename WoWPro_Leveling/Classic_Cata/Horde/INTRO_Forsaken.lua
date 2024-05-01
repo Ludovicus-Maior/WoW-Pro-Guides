@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('JiyDk0105', "Leveling", 'Tirisfal Glades (Undead)', 'Jiyambi', 'Horde', 4)
+local guide = WoWPro:RegisterGuide('JiyDk0105', "Leveling", 'Tirisfal Glades (Undead)', "WoWPro Team", 'Horde', 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideContent(guide, "Intro")

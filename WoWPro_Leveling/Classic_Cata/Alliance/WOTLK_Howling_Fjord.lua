@@ -1,4 +1,5 @@
-local guide = WoWPro:RegisterGuide("JamHow7274", "Leveling", "Howling Fjord", "Jame", "Alliance", 4)
+local guide = WoWPro:RegisterGuide("JamHow7274", "Leveling", "Howling Fjord", "WoWPro Team", "Alliance", 4)
+WoWPro:GuideLevels(guide, 68, 72)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Howling Fjord")
 WoWPro:GuideName(guide,"Howling Fjord")

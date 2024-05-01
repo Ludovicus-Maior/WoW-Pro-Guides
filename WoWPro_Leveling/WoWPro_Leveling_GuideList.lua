@@ -152,18 +152,20 @@ local function zoneSort(a, b)
 end
 
 local function levelSort(a, b)
-    if a.guide.level == b.guide.level then
-		if a.sortlevel ~= b.sortlevel then
-            return a.guide.sortlevel < b.guide.sortlevel
+    if a.guide.level and b.guide.level then
+        if a.guide.level == b.guide.level then
+            if a.guide.sortlevel and b.guide.sortlevel and a.guide.sortlevel ~= b.guide.sortlevel then
+                return a.guide.sortlevel < b.guide.sortlevel
+            end
+            if a.guide.startlevel and b.guide.startlevel and a.guide.startlevel ~= b.guide.startlevel then
+                return a.guide.startlevel < b.guide.startlevel
+            end
+            if a.guide.endlevel and b.guide.endlevel and a.guide.endlevel ~= b.guide.endlevel then
+                return a.guide.endlevel < b.guide.endlevel
+            end
         end
-		if a.guide.startlevel ~= b.guide.startlevel then
-            return a.guide.startlevel < b.guide.startlevel
-        end
-        if a.guide.endlevel ~= b.guide.endlevel then
-            return a.guide.endlevel < b.guide.endlevel
-        end
+        return a.guide.level < b.guide.level
     end
-    return a.guide.level < b.guide.level
 end
 
 local function contentSort(a, b)

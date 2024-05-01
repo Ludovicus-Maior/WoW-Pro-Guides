@@ -1,4 +1,5 @@
-local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula", "Jame", "Alliance", 4)
+local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula", "WoWPro Team", "Alliance", 4)
+WoWPro:GuideLevels(guide, 58, 63)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Hellfire Peninsula")
 WoWPro:GuideName(guide,"Hellfire Peninsula")
@@ -6,8 +7,8 @@ WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,10119,28708)
 WoWPro:GuideSteps(guide, function()
 return [[
-A To Outland!|QID|60120|M|56.26,17.31|Z|84;Stormwind City|N|From Chromie after activating Burning Crusade timeline.|
-R Blasted Lands|QID|60120|M|49.12,87.34|Z|84;Stormwind City|N|At the Honor Hold Mage in the Wizard's Sanctum.|
+A To Outland!|QID|60120|M|56.26,17.31|Z|1453; Stormwind City|N|From Chromie after activating Burning Crusade timeline.|
+R Blasted Lands|QID|60120|M|49.12,87.34|Z|1453; Stormwind City|N|At the Honor Hold Mage in the Wizard's Sanctum.|
 B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|M|59.40,14.89|Z|17;Blasted Lands|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. Yeah, I know, it is annoying to get now.\n\nIf you don't care skipping the 2 quests that this affects or don't mind coming back here later, go ahead and skip this now.|
 R Hellfire Peninsula|AVAILABLE|10288|M|55.01,54.35|Z|17;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
 T To Outland!|QID|60120|M|PLAYER|Z|100; Hellfire Peninsula|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|

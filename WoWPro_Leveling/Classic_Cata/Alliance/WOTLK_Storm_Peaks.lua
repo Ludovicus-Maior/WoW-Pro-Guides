@@ -1,4 +1,5 @@
-local guide = WoWPro:RegisterGuide("CybSto7980", "Leveling", "The Storm Peaks", "Cyberlamb", "Alliance", 4)
+local guide = WoWPro:RegisterGuide("CybSto7980", "Leveling", "The Storm Peaks", "WoWPro Team", "Alliance", 4)
+WoWPro:GuideLevels(guide, 77, 80)
 WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNickname(guide, "Storm Peaks")
 WoWPro:GuideName(guide,"Storm Peaks")
