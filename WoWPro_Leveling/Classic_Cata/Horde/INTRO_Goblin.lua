@@ -4,7 +4,7 @@ WoWPro:GuideSort(guide, 4)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Goblin: Intro")
 WoWPro:GuideName(guide,"Goblin: Intro")
-WoWPro:GuideNextGuide(guide, 'BitAzs1220')
+WoWPro:GuideNextGuide(guide, "BitAzs1220")
 WoWPro:GuideRaceSpecific(guide,"Goblin")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -314,13 +314,13 @@ T Rockin' Powder|QID|24946|M|51.73,47.38|Z|0174;The Lost Isles|N|To Assistant Gr
 A Rocket Boot Boost|QID|24952|PRE|24942&24945&24946|M|51.80,47.11|Z|0174;The Lost Isles|N|From Coach Crosscheck.|
 L Level 10|ACTIVE|24952|N|Grind until you're within 4 bubbles of level 5.|LVL|9;-1290|
 H Town-In-A-Box|ACTIVE|24952|M|45.17,64.91|Z|0174;The Lost Isles|N|Use your hearth or run back to Town-In-A-Box.|
-= Level 10 Training|ACTIVE|24952|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|IZ|Town-In-A-Box|
+= Level 10 Training|ACTIVE|24952|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|-Priest,-Mage|IZ|Town-In-A-Box|
 C Rocket Boot Boost|QID|24952|QO|1|M|51.80,47.11|Z|0174;The Lost Isles|N|Use the Rockin' Powder Infused Rocket Boots to travel to Lost Caldera.\n[color=FF0000]NOTE: [/color]You must be near Coach Crosscheck to use them.|U|52032|NC|
 T Rocket Boot Boost|QID|24952|M|68.93,46.44|Z|0174;The Lost Isles|N|To Hobart Grapplehammer in Lost Caldera.|
 A Children of a Turtle God|QID|24954|PRE|24952|M|68.93,46.44|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
 C Children of a Turtle God|QID|24954|M|67.46,44.85|Z|0174;The Lost Isles|N|Kill and loot Children of Volcanoth until you get 5 Fire Glands.|
-T Children of a Turtle God|QID|24954|M|68.96,46.45|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
-A Volcanoth!|QID|24958|PRE|24954|M|68.96,46.45|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
+T Children of a Turtle God|QID|24954|M|68.93,46.44|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
+A Volcanoth!|QID|24958|PRE|24954|M|68.93,46.44|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
 C Volcanoth!|QID|24958|M|71.63,54.92|Z|0174;The Lost Isles|N|Hotkey the Bootzooka, get in range, spam the Bootzooka. Move out of line of sight when Volcanoth use his breath attack.|T|Volcanoth|U|52043|
 T Volcanoth!|QID|24958|M|72.87,57.02|Z|0174;The Lost Isles|N|To Sassy Hardwrench at the back of Volcanoth's Lair.|
 A Old Friends|QID|25023|PRE|24958|M|72.87,57.02|Z|0174;The Lost Isles|N|From Sassy Hardwrench.\n[color=FF0000]NOTE: [/color]Upon accepting the quest, you'll be flown to the Warchief's Lookout.|
@@ -330,109 +330,113 @@ A The Heads of the SI:7|QID|25093|PRE|25023|M|36.26,43.37|Z|0174;The Lost Isles|
 A Mine Disposal, the Goblin Way|QID|25058|PRE|25023|M|37.35,41.91|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 C Repel the Paratroopers|QID|25024|M|34.04,38.48|Z|0174;The Lost Isles|N|Kill any Alliance Paratrooper you see.|S|
 C Mine Disposal, the Goblin Way|QID|25058|M|33.08,43.80|Z|0174;The Lost Isles|N|Throw a grenade at a land mine.|U|52280|S|NC|
-K Commander Arrington|QID|25093|QO|1|M|32.27,42.88|Z|0174;The Lost Isles|N|Kill and loot Commander Arrington for his head.|ACTIVE|25093|
-K Alexi Silenthowl|QID|25093|QO|3|M|30.78,33.91|Z|0174;The Lost Isles|N|Kill and loot Alexi Silenthowl for his head.|ACTIVE|25093|
-K Darkblade Cyn|QID|25093|QO|2|M|33.42,27.89|Z|0174;The Lost Isles|N|Kill and loot Darkblade Cyn for her head.|ACTIVE|25093|
+K Commander Arrington|ACTIVE|25093|QO|1|M|32.27,42.88|Z|0174;The Lost Isles|L|52346|ITEM|52346|N|Commander Arrington.|
+K Alexi Silenthowl|ACTIVE|25093|QO|3|M|30.78,33.91|Z|0174;The Lost Isles|L|52349|ITEM|52349|N|Alexi Silenthowl.|
+K Darkblade Cyn|ACTIVE|25093|QO|2|M|33.42,27.89|Z|0174;The Lost Isles|L|52347|ITEM|52347|N|Darkblade Cyn.|
 C Repel the Paratroopers|QID|25024|M|34.04,38.48|Z|0174;The Lost Isles|N|Kill any Paratrooper you have left to kill.|US|
 C Mine Disposal, the Goblin Way|QID|25058|M|33.08,43.80|Z|0174;The Lost Isles|N|Throw a grenade at a land mine.|U|52280|US|NC|
-H Warchief's Lookout|QID|25024|M|36.83,43.19|Z|0174;The Lost Isles|N|Hearth back to Warchief's Lookout.|ACTIVE|25024|
+H Warchief's Lookout|ACTIVE|25024|M|36.83,43.19|Z|0174;The Lost Isles|N|Hearth back to Warchief's Lookout.\n[color=FF0000]NOTE: [/color]Your hearth was automatically changed, in case you missed it.|
 T Repel the Paratroopers|QID|25024|M|36.78,43.13|Z|0174;The Lost Isles|N|To Thrall.|
 T The Heads of the SI:7|QID|25093|M|36.26,43.37|Z|0174;The Lost Isles|N|To Aggra.|
-T Mine Disposal, the Goblin Way|QID|25058|M|37.37,41.88|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
-A The Pride of Kezan|QID|25066|PRE|25024&25093&25058|M|37.37,41.88|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-C The Pride of Kezan|QID|25066|Z|0174;The Lost Isles|N|Speak to Sassy Hardwrench and tell her to get you up into the skies.|BUFF|73427|ACTIVE|25066|CHAT|
-C The Pride of Kezan|QID|25066|M|32.03,31.46|Z|0174;The Lost Isles|N|Fly around using ability 1&2 and shoot down 10 Gnome planes.|
-T The Pride of Kezan|QID|25066|M|37.33,41.90|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
-A The Warchief Wants You|QID|25098|PRE|25066|M|37.33,41.90|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+T Mine Disposal, the Goblin Way|QID|25058|M|37.35,41.91|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
+A The Pride of Kezan|QID|25066|PRE|25024&25093&25058|M|37.35,41.91|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+C The Pride of Kezan|ACTIVE|25066|M|37.35,41.91|Z|0174;The Lost Isles|N|Speak to Sassy Hardwrench and tell her to get you up into the skies.|BUFF|73427|CHAT|
+C The Pride of Kezan|QID|25066|M|32.03,31.46|Z|0174;The Lost Isles|N|Fly around targeting planes and use ability 1 & 2 to shoot them down.\nTapping the space bar allows you to use the mouse to change your height.\n[color=FF0000]NOTE: [/color]If you get shot down, aim for the water (no parachute) and go back to Sassy to get another plane.|T|Gnomeregan Stealth Fighter|
+T The Pride of Kezan|QID|25066|M|37.35,41.91|Z|0174;The Lost Isles|N|To Sassy Hardwrench.\n[color=FF0000]NOTE: [/color]Do NOT leave the plane until you're on or close the ground.|
+A The Warchief Wants You|QID|25098|PRE|25066|M|37.35,41.91|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 T The Warchief Wants You|QID|25098|M|36.78,43.13|Z|0174;The Lost Isles|N|To Thrall.|
 A Borrow Bastia|QID|25099|PRE|25098|M|36.83,43.17|Z|0174;The Lost Isles|N|From Chawg.|
 T Borrow Bastia|QID|25099|M|33.81,38.82|Z|0174;The Lost Isles|N|To Kilag Gorefang.|
-A Let's Ride|QID|25100|PRE|25099|M|34.01,38.76|Z|0174;The Lost Isles|N|From Kilag Gorefang. On accepting this quest you will be taken to Sky Falls.|
+A Let's Ride|QID|25100|PRE|25099|M|34.01,38.76|Z|0174;The Lost Isles|N|From Kilag Gorefang.\n[color=FF0000]NOTE: [/color]Upon accepting this quest, you'll be taken to Sky Falls.|
 T Let's Ride|QID|25100|M|53.72,34.92|Z|0174;The Lost Isles|N|To Slinky Sharpshiv.|
 A The Gallywix Labor Mine|QID|25109|PRE|25100|M|53.72,34.92|Z|0174;The Lost Isles|N|From Slinky Sharpshiv.|
-N Professions Trainer|ACTIVE|25109|Z|0174;The Lost Isles|N|The Professions Trainer and Vendor is available again outside the mine.|T|KTC Train-A-Tron Deluxe|S|
-T The Gallywix Labor Mine|QID|25109|M|54.14,36.00;54.78,34.82;53.15,36.57|CC|Z|0174;The Lost Isles|N|Head inside the mine, go through the door to the right, drop down, then head to Assistant Greely. |
+N Professions Trainer|ACTIVE|25109|M|53.11,35.74|Z|0174;The Lost Isles|N|The KTC Train-A-Tron Deluxe is available again outside the mine.|T|KTC Train-A-Tron Deluxe|IZ|Sky Falls|S|
+T The Gallywix Labor Mine|QID|25109|M|54.14,36.00;54.78,34.82;53.15,36.57|CS|Z|0174;The Lost Isles|N|To Assistant Greely.\n[color=FF0000]NOTE: [/color]After entering the mine and going through the doorway to the right, go down the stairs and head to the back of the cavern southwest of you.|
 A Kaja'Cola Gives You IDEAS! (TM)|QID|25110|PRE|25109|M|53.15,36.57|Z|0174;The Lost Isles|N|From Assistant Greely.|
-C Kaja'Cola Gives You IDEAS! (TM)|QID|25110|M|53.67,36.71|Z|0174;The Lost Isles|N|Kill Overseers until a Kaja' Cola drops, it can also be looted off the ground.|
+C Kaja'Cola Gives You IDEAS! (TM)|QID|25110|M|53.67,36.71|Z|0174;The Lost Isles|L|52483|ITEM|52483|N|Overseers.\n[color=FF0000]NOTE: [/color]It can also be looted off the ground.|
 T Kaja'Cola Gives You IDEAS! (TM)|QID|25110|M|53.18,36.63|Z|0174;The Lost Isles|N|To Assistant Greely.|
-A Morale Boost|QID|25122|PRE|25110|Z|0174;The Lost Isles|N|From Assistant Greely who is now follow you.|
-A Throw It On the Ground!|QID|25123|PRE|25110|Z|0174;The Lost Isles|N|From Assistant Greely.|
-C Morale Boost|QID|25122|QO|4|M|56.86,36.79|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|S|NC|
-K Blastshadow the Brutemaster|ACTIVE|25123|M|55.38,31.58|Z|0174;The Lost Isles|N|Kill Blastshadow the Brutemaster, then loot the Soulstone that will be on the floor.|L|52481|T|Blastshadow the Brutemaster|
+A Morale Boost|QID|25122|PRE|25110|M|PLAYER|CC|N|From Assistant Greely (who is now following you).|
+A Throw It On the Ground!|QID|25123|M|PLAYER|CC|N|From Assistant Greely.|
+l Kaja'Cola Zero-One|ACTIVE|25122|M|53.67,36.71|Z|0174;The Lost Isles|ITEM|52484|N|Overseers.\n[color=FF0000]NOTE: [/color]They can also be looted off the ground.|S!US|
+C Morale Boost|QID|25122|QO|4|M|56.86,36.79|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds.|S|NC|
+l Blastshadow's Soulstone|ACTIVE|25123|M|55.38,31.58|Z|0174;The Lost Isles|L|52481|ITEM|52481|N|Blastshadow the Brutemaster.\n[color=FF0000]NOTE: [/color]He paths back and forth with his demon companion.|T|Blastshadow the Brutemaster|
 C Throw It On the Ground!|QID|25123|M|55.38,31.58|Z|0174;The Lost Isles|N|Target Blastshadow's corpse and use the Soulstone.|T|Blastshadow the Brutemaster|U|52481|NC|
-T Throw It On the Ground!|QID|25123|M|55.40,31.51|Z|0174;The Lost Isles|N|To Assistant Greely.|
-C Gobber|QID|25122|QO|3|M|57.03,32.15|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Gobber to free his mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|T|Gobber|NC|
-C Izzy|QID|25122|QO|2|M|57,35.04|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Izzy to free her mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|T|Izzy|NC|
-C Ace|QID|25122|QO|1|M|56.99,37.15|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Ace to free his mind. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|T|Ace|NC|
-C Morale Boost|QID|25122|QO|2|M|56.86,36.79|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|US|
-T Morale Boost|QID|25122|Z|0174;The Lost Isles|N|To Assistant Greely.|
-A Light at the End of the Tunnel|QID|25125|PRE|25122&25123|Z|0174;The Lost Isles|N|From Assistant Greely.|
-T Light at the End of the Tunnel|QID|25125|M|56.30,27.36|Z|0174;The Lost Isles|N|To Mine Cart.|
-A Wild Mine Cart Ride|QID|25184|PRE|25125|M|56.30,27.36|Z|0174;The Lost Isles|N|From Mine Cart. On accepting quest, you will be transproted to the Bilgewater Lumber Yard.|
-C Wild Mine Cart Ride|QID|25184|M|54.27,17.10|Z|0174;The Lost Isles|N|Enjoy the ride.|NC|
-T Wild Mine Cart Ride|QID|25184|M|54.37,17.02|Z|0174;The Lost Isles|N|To Assistant Greely, who is now in the Bilgewater Lumber Yard.|
-A Shredder Shutdown|QID|25200|PRE|25184|M|54.37,17.02|Z|0174;The Lost Isles|N|From Assistant Greely.|
-A The Ultimate Footbomb Uniform|QID|25201|PRE|25184|M|54.37,17.02|Z|0174;The Lost Isles|N|From Coach Crosscheck.|
-C Shredder Shutdown|QID|25200|M|55.99,23.51|Z|0174;The Lost Isles|N|Kill the Steamwheedle Shark|S|
-C The Ultimate Footbomb Uniform|QID|25201|M|53.46,23.39|Z|0174;The Lost Isles|N|Gather the parts from the broken down looking Shredders, also possible to get from looting the Steamwheedle Sharks.|NC|
-C Shredder Shutdown|QID|25200|M|55.99,23.51|Z|0174;The Lost Isles|N|Finish killing the Steamwheedle Shark|US|
-T The Ultimate Footbomb Uniform|QID|25201|M|54.41,16.97|Z|0174;The Lost Isles|N|To Coach Crosscheck.|
-T Shredder Shutdown|QID|25200|M|54.41,16.97|Z|0174;The Lost Isles|N|To Assistant Greely.|
-A Release the Valves|QID|25204|PRE|25201&25200|M|54.41,16.97|Z|0174;The Lost Isles|N|From Assistant Greely.|
-A What Kind of Name is Chip, Anyway?|QID|25203|PRE|25201&25200|M|54.18,17.15|Z|0174;The Lost Isles|N|From Ace.|GEN|MALE|
+T Throw It On the Ground!|QID|25123|M|PLAYER|CC|N|To Assistant Greely.|
+C Gobber|QID|25122|QO|3|M|57.03,32.15|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Gobber to free his mind.|T|Gobber|U|52484|NC|
+C Izzy|QID|25122|QO|2|M|57,35.04|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Izzy to free her mind.|T|Izzy|U|52484|NC|
+C Ace|QID|25122|QO|1|M|56.99,37.15|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at Ace to free his mind.|T|Ace|U|52484|NC|
+C Morale Boost|QID|25122|QO|4|M|56.86,36.79|Z|0174;The Lost Isles|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds.|T|Goblin Survivor|U|52484|NC|US|
+T Morale Boost|QID|25122|M|PLAYER|CC||N|To Assistant Greely.|
+A Light at the End of the Tunnel|QID|25125|PRE|25122&25123|M|PLAYER|CC|N|From Assistant Greely.|
+T Light at the End of the Tunnel|QID|25125|M|56.30,27.36|Z|0174;The Lost Isles|N|To Mine Cart sitting on the tracks just outside the mine.|
+A Wild Mine Cart Ride|QID|25184|PRE|25125|M|56.30,27.36|Z|0174;The Lost Isles|N|From Mine Cart.\n[color=FF0000]NOTE: [/color]Upon accepting the quest, you'll be transported to the Bilgewater Lumber Yard.|
+C Wild Mine Cart Ride|QID|25184|M|54.27,17.10|Z|0174;The Lost Isles|N|Enjoy the ride.|
+T Wild Mine Cart Ride|QID|25184|M|54.39,16.93|Z|0174;The Lost Isles|N|To Assistant Greely.|
+A Shredder Shutdown|QID|25200|PRE|25184|M|54.39,16.93|Z|0174;The Lost Isles|N|From Assistant Greely.|
+A The Ultimate Footbomb Uniform|QID|25201|PRE|25184|M|54.44,16.93|Z|0174;The Lost Isles|N|From Coach Crosscheck.|
+C Shredder Shutdown|QID|25200|M|55.99,23.51|Z|0174;The Lost Isles|N|Kill the Steamwheedle Sharks.|S|
+C The Ultimate Footbomb Uniform|QID|25201|M|53.46,23.39|Z|0174;The Lost Isles|L|52530 8|ITEM|52530|N|Steamwheedle Sharks.\n[color=FF0000]NOTE: [/color]You can loot the parts from the empty Shredders as well.|
+C Shredder Shutdown|QID|25200|M|55.99,23.51|Z|0174;The Lost Isles|N|Finish killing the Steamwheedle Sharks.|US|
+T The Ultimate Footbomb Uniform|QID|25201|M|54.44,16.93|Z|0174;The Lost Isles|N|To Coach Crosscheck.|
+T Shredder Shutdown|QID|25200|M|54.39,16.93|Z|0174;The Lost Isles|N|To Assistant Greely.|
+A Release the Valves|QID|25204|PRE|25201&25200|M|54.39,16.93|Z|0174;The Lost Isles|N|From Assistant Greely.|
+A What Kind of Name is Chip, Anyway?|QID|25203|PRE|25201&25200|M|54.16,17.20|Z|0174;The Lost Isles|N|From Ace.|GEN|MALE|
 A The Fastest Way to His Heart|QID|25202|PRE|25201&25200|M|54.01,16.97|Z|0174;The Lost Isles|N|From Izzy.|GEN|FEMALE|
-C Valve #1|QID|25204|QO|1|M|50.73,13.81|Z|0174;The Lost Isles|N|Head to the KTC Oil Platform, and Release Valve #1.|NC|
-C Valve #3|QID|25204|QO|3|M|50.54,13.11|Z|0174;The Lost Isles|N|Release Valve #3.|NC|
+C Valve #1|QID|25204|QO|1|M|50.73,13.81|Z|0174;The Lost Isles|N|Head to the KTC Oil Platform and Release Valve #1.|NC|
+C Valve #3|QID|25204|QO|3|M|50.54,13.11|Z|0174;The Lost Isles|N|Release Valve #3.n[color=FF0000]NOTE: [/color]Keep back from the edge or you'll fall into the water below.|NC|
 C What Kind of Name is Chip, Anyway?|QID|25203|M|49.86,13.89|Z|0174;The Lost Isles|N|Kill Chip.|GEN|MALE|
 C The Fastest Way to His Heart|QID|25202|M|49.86,13.89|Z|0174;The Lost Isles|N|Kill and loot Chip to get his heart.|GEN|FEMALE|
 C Valve #4|QID|25204|QO|4|M|49.88,12.71|Z|0174;The Lost Isles|N|Release Valve #4.|NC|
 C Valve #2|QID|25204|QO|2|M|50.18,11.75|Z|0174;The Lost Isles|N|Release Valve #2.|NC|
-T Release the Valves|QID|25204|M|51.40,13.12|Z|0174;The Lost Isles|N|At the Platform Control Panel.|
+T Release the Valves|QID|25204|M|51.40,13.12|Z|0174;The Lost Isles|N|To the Platform Control Panel.|
 A Good-bye, Sweet Oil|QID|25207|PRE|25204|M|51.40,13.12|Z|0174;The Lost Isles|N|From the Platform Control Panel.|
 C Good-bye, Sweet Oil|QID|25207|M|51.40,13.15|Z|0174;The Lost Isles|N|Press the Big Red Button.|NC|
-T What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.23|Z|0174;The Lost Isles|N|To Ace.|GEN|MALE|
+T What Kind of Name is Chip, Anyway?|QID|25203|M|54.16,17.20|Z|0174;The Lost Isles|N|To Ace.|GEN|MALE|
 T The Fastest Way to His Heart|QID|25202|M|54.01,16.97|Z|0174;The Lost Isles|N|To Izzy.|GEN|FEMALE|
-T Good-bye, Sweet Oil|QID|25207|M|54.37,17.00|Z|0174;The Lost Isles|N|To Assistant Greely.|
-A The Slave Pits|QID|25213|PRE|25207|M|54.36,17.02|Z|0174;The Lost Isles|N|From Assistant Greely. On accepting the quest, you will be whisked to the Slave Pits.|GEN|MALE|
-A The Slave Pits|QID|25213|PRE|25207|M|54.36,17.02|Z|0174;The Lost Isles|N|From Assistant Greely. On accepting the quest, you will be whisked to the Slave Pits.|GEN|FEMALE|
+T Good-bye, Sweet Oil|QID|25207|M|54.39,16.93|Z|0174;The Lost Isles|N|To Assistant Greely.|
+A The Slave Pits|QID|25213|PRE|25207|M|54.36,17.02|Z|0174;The Lost Isles|N|From Assistant Greely.\n[color=FF0000]NOTE: [/color]Upon accepting the quest, you'll be whisked to the Slave Pits.|
 r Repair Opportunity|ACTIVE|25213|Z|0174;The Lost Isles|N|You have a repair and sell junk opportunity with Chawg.|T|Chawg|S|
 T The Slave Pits|QID|25213|M|43.65,25.31|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
 A She Loves Me, She Loves Me NOT!|QID|25243|PRE|25213|M|43.66,25.31|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|GEN|MALE|
 A What Kind of Name is Candy, Anyway?|QID|25244|PRE|25213|M|43.66,25.31|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|GEN|FEMALE|
-A Escape Velocity|QID|25214|PRE|25213|M|43.82,25.33|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
+A Escape Velocity|QID|25214|PRE|25213|M|43.85,25.29|Z|0174;The Lost Isles|N|From Hobart Grapplehammer.|
 C Escape Velocity|QID|25214|M|41.49,26.24|Z|0174;The Lost Isles|N|Click on the cages of the Captured Goblins.|S|NC|
-C She Loves Me, She Loves Me NOT!|QID|25243|M|38.90,25.55|Z|0174;The Lost Isles|N|Kill and loot Candy for her heart.|GEN|MALE|
-C What Kind of Name is Candy, Anyway?|QID|25244|M|39.60,27.16|Z|0174;The Lost Isles|N|Kill Candy.|GEN|FEMALE|
+C She Loves Me, She Loves Me NOT!|QID|25243|M|39.68,27.17|Z|0174;The Lost Isles|L|52559|ITEM|52559|N|Candy.|GEN|MALE|
+C What Kind of Name is Candy, Anyway?|QID|25244|M|39.68,27.17|Z|0174;The Lost Isles|N|Kill Candy.|GEN|FEMALE|
 C Escape Velocity|QID|25214|M|41.50,26.25|Z|0174;The Lost Isles|N|Finish clicking on the cages of the Captured Goblins.|US|NC|
-T Escape Velocity|QID|25214|M|43.84,25.35|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
-T She Loves Me, She Loves Me NOT!|QID|25243|M|43.66,25.32|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|GEN|MALE|
-T What Kind of Name is Candy, Anyway?|QID|25244|M|43.66,25.31|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|GEN|FEMALE|
-A Final Confrontation|QID|25251|PRE|25214|M|43.66,25.32|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
-C Final Confrontation|QID|25251|QO|1|M|43.85,25.18|Z|0174;The Lost Isles|N|Hop into the Ultimate Footbomb Uniform.|NC|
+T Escape Velocity|QID|25214|M|43.85,25.29|Z|0174;The Lost Isles|N|To Hobart Grapplehammer.|
+T She Loves Me, She Loves Me NOT!|QID|25243|M|43.63,25.32|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|GEN|MALE|
+T What Kind of Name is Candy, Anyway?|QID|25244|M|43.63,25.32|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|GEN|FEMALE|
+A Final Confrontation|QID|25251|PRE|25214|M|43.63,25.32|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
+C Final Confrontation|QID|25251|QO|1|M|43.85,25.18|Z|0174;The Lost Isles|N|Hop into the Ultimate Footbomb Uniform.|V|
 C Final Confrontation|QID|25251|QO|2|M|43.27,20.03|Z|0174;The Lost Isles|N|Head to where the Trade Prince Gallywix is and use the abilities of the shredder when they are not on cooldown.|
 T Final Confrontation|QID|25251|M|43.67,25.32|Z|0174;The Lost Isles|N|To Sassy Hardwrench.|
 A Victory!|QID|25265|PRE|25251|M|43.53,24.64|Z|0174;The Lost Isles|N|From Sassy Hardwrench.|
 T Victory!|QID|25265|M|42.14,17.41|Z|0174;The Lost Isles|N|To Thrall.|
 ;The following will only show if you've skipped the quests before this point.
-N Quest Skipping Not Allowed|QID|99999|Z|0174;The Lost Isles|N|You won't be able to skip the quests in this zone. Please reset this guide and pick up all the quests.|LEAD|25265|
+N Quest Skipping Not Allowed|QID|99999|LEAD|25265|M|PLAYER|N|You won't be able to skip the quests in this zone. Please reset this guide and pick up all the quests.|
 A Warchief's Emissary|QID|25266|PRE|25265|LEAD|25267|M|42.14,17.41|Z|0174;The Lost Isles|N|From Thrall.|
-R Bladefist Bay|ACTIVE|25266|M|42.59,16.40|Z|0174;The Lost Isles|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|
-T Warchief's Emissary|QID|25266|M|57.67,9.6|Z|1411;Durotar|N|[Coords]To Korkron Loyalist.|
-A Message for Saurfang|QID|25267|M|57.67,9.6|Z|1411;Durotar|N|[Coords]From some Loyalist. On accepting quest, you will be taken to Orgrimmar.|
-T Message for Saurfang|QID|25267|M|48.26,70.93|Z|1454;Orgrimmar|N|To Saurfang, inside Grommash Hold.|
-A Report to the Labor Captain|QID|25275|PRE|25267|LEAD|14129|M|49.22,71.87|Z|1454;Orgrimmar|N|From Eitrigg.|
-A Missing Reports|QID|26803|M|49.0,72.2|Z|1454;Orgrimmar|N|[Coords]From Eitrigg.|RANK|2|
-T Missing Reports|QID|26803|M|49.4,59.2|Z|1454;Orgrimmar|N|[Coords]To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
-A Flight to Razor Hill|QID|26804|PRE|26803|M|49.4,59.2|Z|1454;Orgrimmar|N|[Coords]From Doras, the flight master.|RANK|2|
-F Razor Hill|ACTIVE|26804|M|49.4,59.2|Z|1454;Orgrimmar|N|[Coords]Fly to Razor Hill.|RANK|2|
-T Flight to Razor Hill|QID|26804|M|51.8,43.4|Z|1411;Durotar|N|[Coords]To Gar'Thok.|RANK|2|
-A Reports to Orgrimmar|QID|26806|PRE|26804|M|51.8,43.4|Z|1411;Durotar|N|[Coords]From Gar'Thok.|RANK|2|
-T Reports to Orgrimmar|QID|26806|M|53.0,43.6|Z|1411;Durotar|N|[Coords]To Burok.|RANK|2|
-A Return to Eitrigg|QID|26807|PRE|26806|M|53.0,43.6|Z|1411;Durotar|N|[Coords]To Burok.|RANK|2|
-F Orgrimmar|ACTIVE|26807|M|53.0,43.6|Z|1411;Durotar|N|[Coords]Fly back to Orgrimmar.|
-T Return to Eitrigg|QID|26807|M|49.0,72.2|Z|1454;Orgrimmar|N|[Coords]To Eitrigg.|RANK|2|
-N City Facilities|ACTIVE|25275|N|You can take this opportunity to use the city's facilities (Repair, Auction House, etc.) before heading to Azshara.|S|
+R Board the ship|ACTIVE|25266|M|42.49,16.54|CC|Z|0174;The Lost Isles|N|Board the ship with everyone else.|
+= Level 12 Training|ACTIVE|25266|M|PLAYER|CC|N|Do your level 12 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|12|IZ|Gallywix Docks|
+R Bladefist Bay|ACTIVE|25266|M|42.57,16.38|Z|0174;The Lost Isles|N|Talk to Sassy Hardwrench and choose to go to Orgrimmar.|T|Sassy|
+T Warchief's Emissary|QID|25266|M|57.65,9.77|Z|1411;Durotar|N|To Korkron Loyalist.|
+A Message for Garrosh|QID|25267|M|57.65,9.77|Z|1411;Durotar|N|From some Loyalist.\n[color=FF0000]NOTE: [/color]Upon accepting the quest, you'll be taken to Orgrimmar.|
+T Message for Garrosh|QID|25267|M|48.26,70.93|Z|1454;Orgrimmar|N|To Garrosh Hellscream, inside Grommash Hold.|
+A Report to the Labor Captain|QID|25275|PRE|25267|LEAD|14129|M|49.21,72.28|Z|1454;Orgrimmar|N|From Eitrigg.|
+A Missing Reports|QID|26803|M|49.21,72.28|Z|1454;Orgrimmar|N|From Eitrigg.|RANK|2|
+T Missing Reports|QID|26803|M|49.66,59.22|Z|1454;Orgrimmar|N|To Doras, the flight master, located on the upper level of Orgrimmar.|RANK|2|
+; == Razor Hill FP
+A Flight to Razor Hill|QID|26804|PRE|26803|M|49.66,59.22|Z|1454;Orgrimmar|N|From Doras, the flight master.|RANK|2|
+F Razor Hill|ACTIVE|26804|M|49.66,59.22|Z|1454;Orgrimmar|N|Fly to Razor Hill.|RANK|2|
+T Flight to Razor Hill|QID|26804|M|51.95,43.50|Z|1411;Durotar|N|To Gar'Thok.|
+A Reports to Orgrimmar|QID|26806|PRE|26804|M|51.95,43.50|Z|1411;Durotar|N|From Gar'Thok.|RANK|2|
+T Reports to Orgrimmar|QID|26806|M|53.10,43.58|Z|1411;Durotar|N|To Burok.|
+A Return to Eitrigg|QID|26807|PRE|26806|M|53.10,43.58|Z|1411;Durotar|N|To Burok.|RANK|2|
+F Orgrimmar|ACTIVE|26807|M|53.10,43.58|Z|1411;Durotar|N|Fly back to Orgrimmar.|
+T Return to Eitrigg|QID|26807|M|49.21,72.28|Z|1454;Orgrimmar|N|To Eitrigg.|
+; ==
+r City Facilities|ACTIVE|25275|N|While in Orgrimmar, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|IZ|1454;Orgrimmar|
 R Azshara|ACTIVE|25275|M|69.01,33.25;66.19,17.41;76.48,1.03|CS|Z|1454;Orgrimmar|N|Run to Azshara.|
-T Report to the Labor Captain|QID|25275|M|26.98,77.11|Z|1447;Azshara|N|To Labor Captain Grabbit.|
+T Report to the Labor Captain|QID|25275|M|27.00,77.08|Z|1447;Azshara|N|To Labor Captain Grabbit.|
 ]]
 end)
