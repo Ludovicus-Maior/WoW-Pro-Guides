@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Ammen Vale (Draenei)", "WoWPro Team", "Alliance", 4)
+local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Azuremyst Isle (Draenei)", "WoWPro Team", "Alliance", 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Draenei: Intro")
@@ -9,59 +9,59 @@ return [[
 
 R The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|Z|1947; The Exodar|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|R|-Draenei|
 f The Exodar|M|54.22,36.55|Z|1947; The Exodar|N|At Stephanos.|R|-Draenei|
-A You Survived!|QID|9279|LEAD|9280|M|61.16,29.49|Z|468; Ammen Vale|N|From Megelon.|R|Draenei|
-T You Survived!|QID|9279|M|52.73,35.90|Z|468; Ammen Vale|N|To Proenitus.|R|Draenei|
-A Replenishing the Healing Crystals|QID|9280^9369|M|52.73,35.90|Z|468; Ammen Vale|N|From Proenitus.|
-C Replenishing the Healing Crystals|QID|9280^9369|M|51.2,31.3|Z|468; Ammen Vale|L|22889 6|ITEM|22889|N|Vale Moths.|
-T Replenishing the Healing Crystals|QID|9280^9369|M|52.73,35.90|Z|468; Ammen Vale|N|To Proenitus.|
-A Urgent Delivery!|QID|9409|PRE|9280^9369|M|52.73,35.90|Z|468; Ammen Vale|N|From Proenitus.|
-T Urgent Delivery!|QID|9409|M|51.8,42.0|Z|468; Ammen Vale|N|To Zaldunn inside the building (he wanders around inside the place a bit).|
-A Rescue the Survivors!|QID|9283|PRE|9409|M|52.21,43.32|Z|468; Ammen Vale|N|From Zaldunn.|R|Draenei|
-A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|52.73,35.90|Z|468; Ammen Vale|N|From Proenitus.|
-T Botanist Taerix|QID|9371|M|49.87,37.35|Z|468; Ammen Vale|N|To Botanist Taerix around the corner near the Training dummies.|
-A Volatile Mutations|QID|10302|PRE|9280^9369|M|49.87,37.35|Z|468; Ammen Vale|N|From Botanist Taerix, back outside.|
-C Rescue the Survivors!|QID|9283|M|39.1,43.7|Z|468; Ammen Vale|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|T|Draenei Survivor|R|Draenei|S|NC|
-C Volatile Mutations|QID|10302|M|43.51,33.10|Z|468; Ammen Vale|N|Kill Volatile Mutations.|
-C Rescue the Survivors!|QID|9283|M|39.1,43.7|Z|468; Ammen Vale|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|T|Draenei Survivor|R|Draenei|US|NC|
-T Volatile Mutations|QID|10302|M|49.87,37.35|Z|468; Ammen Vale|N|To Botanist Taerix.|
-A What Must Be Done...|QID|9293|PRE|10302|M|49.87,37.35|Z|468; Ammen Vale|N|From Botanist Taerix.|
-A Botanical Legwork|QID|9799|PRE|10302|M|49.72,37.54|Z|468; Ammen Vale|N|From Apprentic Vishael.|
-C Botanical Legwork|QID|9799|M|39.1,43.7|Z|468; Ammen Vale|N|Collect Corrupted Flowers.|S|NC|
-C What Must Be Done...|QID|9293|M|39.1,43.7|Z|468; Ammen Vale|N|Kill Mutated Root Lashers.|
-C Botanical Legwork|QID|9799|M|39.1,43.7|Z|468; Ammen Vale|N|Collect Corrupted Flowers.|US|NC|
-T Botanical Legwork|QID|9799|M|49.72,37.54|Z|468; Ammen Vale|N|To Apprentic Vishael.|
-T What Must Be Done...|QID|9293|M|49.87,37.35|Z|468; Ammen Vale|N|To Botanist Taerix.|
-A Healing the Lake|QID|9294|PRE|9293|M|49.87,37.35|Z|468; Ammen Vale|N|From Botanist Taerix.|
-T Rescue the Survivors!|QID|9283|M|51.8,42.0|Z|468; Ammen Vale|N|To wandering Zaldunn.|R|Draenei|
-C Healing the Lake|QID|9294|M|45.5,64.6|Z|468; Ammen Vale|N|Head south to the giant crystal, and use the Neutralizing Agent.|U|22955|NC|
-T Healing the Lake|QID|9294|M|49.87,37.35|Z|468; Ammen Vale|N|To Botanist Taerix.|
-A Vindicator Aldar|QID|10304|PRE|9294|LEAD|9303^37444|M|49.87,37.35|Z|468; Ammen Vale|N|From Botanist Taerix.|
-T Vindicator Aldar|QID|10304|M|50.65,48.73|Z|468; Ammen Vale|N|Speak to Vindicator Aldar.|
-A Spare Parts|QID|37445|PRE|10302|M|50.51,47.87|Z|468; Ammen Vale|N|From Technician Zhanaa.|
-A Inoculation|QID|37444^9303|PRE|10302|M|50.65,48.73|Z|468; Ammen Vale|N|From Vindicator Aldar.|
-r Sell junk and repair|QID|37445|M|49.99,47.15|Z|468; Ammen Vale|N|At Mura, close this step when done.|
-C Inoculation|QID|37444^9303|M|53,65|Z|468; Ammen Vale|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|T|Nestlewood Owlkin|U|22962|S|NC|
-C Spare Parts|QID|37445|M|58,72|Z|468; Ammen Vale|N|Into the hills, through the cave. The parts are spread all over the camp.|NC|
-C Inoculation|QID|37444^9303|M|53,65|Z|468; Ammen Vale|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|T|Nestlewood Owlkin|U|22962|US|NC|
-H Ammen Vale|QID|37445|Z|468; Ammen Vale|N|Hearth back to Ammen Vale, or run back if you have already used your hearth before and it has not yet cooled down.|
-T Inoculation|QID|37444^9303|M|50.65,48.73|Z|468; Ammen Vale|N|To Vindicator Aldar.|
-A The Missing Scout|QID|9309|PRE|9303|M|50.65,48.73|Z|468; Ammen Vale|N|From Vindicator Aldar.|
-T Spare Parts|QID|37445|M|50.51,47.87|Z|468; Ammen Vale|N|To Technician Zhanaa.|
-T The Missing Scout|QID|9309|M|33.88,69.42|Z|468; Ammen Vale|N|To Tolaan.|
-A The Blood Elves|QID|10303|M|33.88,69.42|PRE|9309|Z|468; Ammen Vale|N|From Tolaan.|
-C The Blood Elves|QID|10303|M|29,73|Z|468; Ammen Vale|N|Kill Blood Elf Scouts.|
-T The Blood Elves|QID|10303|M|33.88,69.42|Z|468; Ammen Vale|N|To Tolaan.|
-A Blood Elf Spy|QID|9311|PRE|10303|M|33.88,69.42|Z|468; Ammen Vale|N|From Tolaan.|
-C Blood Elf Spy|QID|9311|M|27.79,80.43|Z|468; Ammen Vale|N|Find Surveyor Candress in front of a tent at the top of the ridge.|
-C Blood Elf Plans|QID|9311|M|27.79,80.43|Z|468; Ammen Vale|L|24414|N|Loot Surveyor Candress's body to get the attack plans.|
-A Blood Elf Plans|QID|9798|PRE|9309|Z|468; Ammen Vale|N|From a drop from Surveyor Candress.|U|24414|
-T Blood Elf Spy|QID|9311|M|50.65,48.73|Z|468; Ammen Vale|N|To Vindicator Aldar.|
-T Blood Elf Plans|QID|9798|M|50.65,48.73|Z|468; Ammen Vale|N|To Vindicator Aldar.|
-A The Emitter|QID|9312|M|50.65,48.73|Z|468; Ammen Vale|N|From Vindicator Aldar.|
-T The Emitter|QID|9312|M|50.51,47.87|Z|468; Ammen Vale|N|To Technician Zhanaa.|
-A Travel to Watch|QID|9313|PRE|9312|M|50.51,47.87|Z|468; Ammen Vale|N|From Technician Zhanaa.|
-r Sell junk and repair|QID|9452|M|49.99,47.15|Z|468; Ammen Vale|N|At Mura (close when done).|
-R Azuremyst Isle|QID|9314|M|28,55;19.25,54.32|CS|Z|468; Ammen Vale|N|Run for a fairly long way almost directly west, and up the trail heading out of Ammen Vale.|
+A You Survived!|QID|9279|LEAD|9280|M|61.16,29.49|Z|1943; Azuremyst Isle|N|From Megelon.|R|Draenei|
+T You Survived!|QID|9279|M|52.73,35.90|Z|1943; Azuremyst Isle|N|To Proenitus.|R|Draenei|
+A Replenishing the Healing Crystals|QID|9280^9369|M|52.73,35.90|Z|1943; Azuremyst Isle|N|From Proenitus.|
+C Replenishing the Healing Crystals|QID|9280^9369|M|51.2,31.3|Z|1943; Azuremyst Isle|L|22889 6|ITEM|22889|N|Vale Moths.|
+T Replenishing the Healing Crystals|QID|9280^9369|M|52.73,35.90|Z|1943; Azuremyst Isle|N|To Proenitus.|
+A Urgent Delivery!|QID|9409|PRE|9280^9369|M|52.73,35.90|Z|1943; Azuremyst Isle|N|From Proenitus.|
+T Urgent Delivery!|QID|9409|M|51.8,42.0|Z|1943; Azuremyst Isle|N|To Zaldunn inside the building (he wanders around inside the place a bit).|
+A Rescue the Survivors!|QID|9283|PRE|9409|M|52.21,43.32|Z|1943; Azuremyst Isle|N|From Zaldunn.|R|Draenei|
+A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|52.73,35.90|Z|1943; Azuremyst Isle|N|From Proenitus.|
+T Botanist Taerix|QID|9371|M|49.87,37.35|Z|1943; Azuremyst Isle|N|To Botanist Taerix around the corner near the Training dummies.|
+A Volatile Mutations|QID|10302|PRE|9280^9369|M|49.87,37.35|Z|1943; Azuremyst Isle|N|From Botanist Taerix, back outside.|
+C Rescue the Survivors!|QID|9283|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|T|Draenei Survivor|R|Draenei|S|NC|
+C Volatile Mutations|QID|10302|M|43.51,33.10|Z|1943; Azuremyst Isle|N|Kill Volatile Mutations.|
+C Rescue the Survivors!|QID|9283|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|T|Draenei Survivor|R|Draenei|US|NC|
+T Volatile Mutations|QID|10302|M|49.87,37.35|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
+A What Must Be Done...|QID|9293|PRE|10302|M|49.87,37.35|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
+A Botanical Legwork|QID|9799|PRE|10302|M|49.72,37.54|Z|1943; Azuremyst Isle|N|From Apprentic Vishael.|
+C Botanical Legwork|QID|9799|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Collect Corrupted Flowers.|S|NC|
+C What Must Be Done...|QID|9293|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Kill Mutated Root Lashers.|
+C Botanical Legwork|QID|9799|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Collect Corrupted Flowers.|US|NC|
+T Botanical Legwork|QID|9799|M|49.72,37.54|Z|1943; Azuremyst Isle|N|To Apprentic Vishael.|
+T What Must Be Done...|QID|9293|M|49.87,37.35|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
+A Healing the Lake|QID|9294|PRE|9293|M|49.87,37.35|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
+T Rescue the Survivors!|QID|9283|M|51.8,42.0|Z|1943; Azuremyst Isle|N|To wandering Zaldunn.|R|Draenei|
+C Healing the Lake|QID|9294|M|45.5,64.6|Z|1943; Azuremyst Isle|N|Head south to the giant crystal, and use the Neutralizing Agent.|U|22955|NC|
+T Healing the Lake|QID|9294|M|49.87,37.35|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
+A Vindicator Aldar|QID|10304|PRE|9294|LEAD|9303^37444|M|49.87,37.35|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
+T Vindicator Aldar|QID|10304|M|50.65,48.73|Z|1943; Azuremyst Isle|N|Speak to Vindicator Aldar.|
+A Spare Parts|QID|37445|PRE|10302|M|50.51,47.87|Z|1943; Azuremyst Isle|N|From Technician Zhanaa.|
+A Inoculation|QID|37444^9303|PRE|10302|M|50.65,48.73|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
+r Sell junk and repair|QID|37445|M|49.99,47.15|Z|1943; Azuremyst Isle|N|At Mura, close this step when done.|
+C Inoculation|QID|37444^9303|M|53,65|Z|1943; Azuremyst Isle|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|T|Nestlewood Owlkin|U|22962|S|NC|
+C Spare Parts|QID|37445|M|58,72|Z|1943; Azuremyst Isle|N|Into the hills, through the cave. The parts are spread all over the camp.|NC|
+C Inoculation|QID|37444^9303|M|53,65|Z|1943; Azuremyst Isle|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|T|Nestlewood Owlkin|U|22962|US|NC|
+H Azuremyst Isle|QID|37445|Z|1943; Azuremyst Isle|N|Hearth back to Azuremyst Isle, or run back if you have already used your hearth before and it has not yet cooled down.|
+T Inoculation|QID|37444^9303|M|50.65,48.73|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
+A The Missing Scout|QID|9309|PRE|9303|M|50.65,48.73|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
+T Spare Parts|QID|37445|M|50.51,47.87|Z|1943; Azuremyst Isle|N|To Technician Zhanaa.|
+T The Missing Scout|QID|9309|M|33.88,69.42|Z|1943; Azuremyst Isle|N|To Tolaan.|
+A The Blood Elves|QID|10303|M|33.88,69.42|PRE|9309|Z|1943; Azuremyst Isle|N|From Tolaan.|
+C The Blood Elves|QID|10303|M|29,73|Z|1943; Azuremyst Isle|N|Kill Blood Elf Scouts.|
+T The Blood Elves|QID|10303|M|33.88,69.42|Z|1943; Azuremyst Isle|N|To Tolaan.|
+A Blood Elf Spy|QID|9311|PRE|10303|M|33.88,69.42|Z|1943; Azuremyst Isle|N|From Tolaan.|
+C Blood Elf Spy|QID|9311|M|27.79,80.43|Z|1943; Azuremyst Isle|N|Find Surveyor Candress in front of a tent at the top of the ridge.|
+C Blood Elf Plans|QID|9311|M|27.79,80.43|Z|1943; Azuremyst Isle|L|24414|N|Loot Surveyor Candress's body to get the attack plans.|
+A Blood Elf Plans|QID|9798|PRE|9309|Z|1943; Azuremyst Isle|N|From a drop from Surveyor Candress.|U|24414|
+T Blood Elf Spy|QID|9311|M|50.65,48.73|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
+T Blood Elf Plans|QID|9798|M|50.65,48.73|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
+A The Emitter|QID|9312|M|50.65,48.73|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
+T The Emitter|QID|9312|M|50.51,47.87|Z|1943; Azuremyst Isle|N|To Technician Zhanaa.|
+A Travel to Watch|QID|9313|PRE|9312|M|50.51,47.87|Z|1943; Azuremyst Isle|N|From Technician Zhanaa.|
+r Sell junk and repair|QID|9452|M|49.99,47.15|Z|1943; Azuremyst Isle|N|At Mura (close when done).|
+R Azuremyst Isle|QID|9314|M|28,55;19.25,54.32|CS|Z|1943; Azuremyst Isle|N|Run for a fairly long way almost directly west, and up the trail heading out of Azuremyst Isle.|
 A Word from Azure Watch |QID|9314|M|64.49,54.04|Z|1943; Azuremyst Isle|N|From Aeun.|
 A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|Z|1943; Azuremyst Isle|N|From Diktynna.|
 N Fishing Training|QID|9452|M|61.1,54.2|Z|1943; Azuremyst Isle|N|You could take this opportunity to learn fishing if you so desire... click to close.|
