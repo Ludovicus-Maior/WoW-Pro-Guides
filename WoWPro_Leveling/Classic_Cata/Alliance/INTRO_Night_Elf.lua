@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BitSha0105', "Leveling", 'Shadowglen (NightElf)', 'WoWPro Team', 'Alliance', 4)
+local guide = WoWPro:RegisterGuide('BitSha0105', "Leveling", 'Teldrassil (NightElf)', 'WoWPro Team', 'Alliance', 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideNickname(guide, "Night Elf: Intro")
@@ -7,43 +7,43 @@ WoWPro:GuideNextGuide(guide, 'Darkshore')
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|1453; Stormwind City|JUMP|Chromie Time|LVL|-60|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide by skipping this and continuing to darkshore, or you click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|
-A The Balance of Nature|QID|28713|M|45.63,74.55|Z|460;Shadowglen|N|From Ilthalaine.|
-C The Balance of Nature|QID|28713|M|46.71,78.45|Z|460;Shadowglen|N|Kill Young Nightsabers.|
-T The Balance of Nature|QID|28713|M|45.63,74.55|Z|460;Shadowglen|N|To Ilthalaine.|
-A Fel Moss Corruption|QID|28714|PRE|28713|M|45.63,74.55|Z|460;Shadowglen|N|From Ilthalaine.|
-C Fel Moss Corruption|QID|28714|S|M|36.38,78.29|Z|460;Shadowglen|N|Kill and loot Grells.|
-C Fel Moss Corruption|QID|28714|US|M|36.38,78.29|Z|460;Shadowglen|N|Finish killing Grells for Fel Moss.|
-T Fel Moss Corruption|QID|28714|M|45.59,74.50|Z|460;Shadowglen|N|To Ilthalaine.|
-A A Favor for Melithar|QID|28734|PRE|28714|M|46.30,73.50|Z|460;Shadowglen|N|From Ilthalaine.|LEAD|28715|
-T A Favor for Melithar|QID|28734|M|45.95,72.88|Z|460;Shadowglen|N|To Melithar Staghelm.|
-A Demonic Thieves|QID|28715|PRE|28713|M|45.95,72.88|Z|460;Shadowglen|N|From Melithar Staghelm.|
-C Demonic Thieves|QID|28715|M|36.29,79.38|Z|460;Shadowglen|NC|N|Collect Meltihar's Stolen Bags from the ground.|
-T Demonic Thieves|QID|28715|M|45.95,72.88|Z|460;Shadowglen|N|To Melithar Staghelm.|
-A Priestess of the Moon|QID|28723|PRE|28714|M|46.2,73.5|Z|460;Shadowglen|N|From Ilthalaine.|
-T Priestess of the Moon|QID|28723|M|42.50,50.49|Z|460;Shadowglen|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|
-A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|Z|460;Shadowglen|N|From Dentaria Silverglade.|
-C Iverron's Antidote|QID|28724|M|43.34,51.71|Z|460;Shadowglen|N|Around the pools.|NC|
-T Iverron's Antidote|QID|28724|M|42.50,50.49|Z|460;Shadowglen|N|To Dentaria Silverglade.|
-R Shadowthread Cave|ACTIVE|28725|M|39.15,30.51|Z|460;Shadowglen|N|Walk inside the Cave until Tarindrella appears.|
-A The Woodland Protector|QID|28725|PRE|28724|M|44.57,81.56|Z|460;Shadowglen|N|From Tarindrella.|
-T The Woodland Protector|QID|28725|M|PLAYER|Z|460;Shadowglen|N|To Tarindrella.|
-A Webwood Corruption|QID|28726|PRE|28725|Z|460;Shadowglen|N|From Tarindrella.||
-C Webwood Corruption|QID|28726|M|38.93,6.89|Z|460;Shadowglen|N|Tarindrella will accompany you.|
-T Webwood Corruption|QID|28726|M|PLAYER|Z|460;Shadowglen|N|Tarindrella should still be with you. Turn in to her.|
-A Vile Touch|QID|28727|PRE|28726|M|PLAYER|Z|460;Shadowglen|N|From Tarindrella. She's still with you.|
+A The Balance of Nature|QID|28713|M|45.63,74.55|Z|460;Teldrassil|N|From Ilthalaine.|
+C The Balance of Nature|QID|28713|M|46.71,78.45|Z|460;Teldrassil|N|Kill Young Nightsabers.|
+T The Balance of Nature|QID|28713|M|45.63,74.55|Z|460;Teldrassil|N|To Ilthalaine.|
+A Fel Moss Corruption|QID|28714|PRE|28713|M|45.63,74.55|Z|460;Teldrassil|N|From Ilthalaine.|
+C Fel Moss Corruption|QID|28714|S|M|36.38,78.29|Z|460;Teldrassil|N|Kill and loot Grells.|
+C Fel Moss Corruption|QID|28714|US|M|36.38,78.29|Z|460;Teldrassil|N|Finish killing Grells for Fel Moss.|
+T Fel Moss Corruption|QID|28714|M|45.59,74.50|Z|460;Teldrassil|N|To Ilthalaine.|
+A A Favor for Melithar|QID|28734|PRE|28714|M|46.30,73.50|Z|460;Teldrassil|N|From Ilthalaine.|LEAD|28715|
+T A Favor for Melithar|QID|28734|M|45.95,72.88|Z|460;Teldrassil|N|To Melithar Staghelm.|
+A Demonic Thieves|QID|28715|PRE|28713|M|45.95,72.88|Z|460;Teldrassil|N|From Melithar Staghelm.|
+C Demonic Thieves|QID|28715|M|36.29,79.38|Z|460;Teldrassil|NC|N|Collect Meltihar's Stolen Bags from the ground.|
+T Demonic Thieves|QID|28715|M|45.95,72.88|Z|460;Teldrassil|N|To Melithar Staghelm.|
+A Priestess of the Moon|QID|28723|PRE|28714|M|46.2,73.5|Z|460;Teldrassil|N|From Ilthalaine.|
+T Priestess of the Moon|QID|28723|M|42.50,50.49|Z|460;Teldrassil|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|
+A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|Z|460;Teldrassil|N|From Dentaria Silverglade.|
+C Iverron's Antidote|QID|28724|M|43.34,51.71|Z|460;Teldrassil|N|Around the pools.|NC|
+T Iverron's Antidote|QID|28724|M|42.50,50.49|Z|460;Teldrassil|N|To Dentaria Silverglade.|
+R Shadowthread Cave|ACTIVE|28725|M|39.15,30.51|Z|460;Teldrassil|N|Walk inside the Cave until Tarindrella appears.|
+A The Woodland Protector|QID|28725|PRE|28724|M|44.57,81.56|Z|460;Teldrassil|N|From Tarindrella.|
+T The Woodland Protector|QID|28725|M|PLAYER|Z|460;Teldrassil|N|To Tarindrella.|
+A Webwood Corruption|QID|28726|PRE|28725|Z|460;Teldrassil|N|From Tarindrella.||
+C Webwood Corruption|QID|28726|M|38.93,6.89|Z|460;Teldrassil|N|Tarindrella will accompany you.|
+T Webwood Corruption|QID|28726|M|PLAYER|Z|460;Teldrassil|N|Tarindrella should still be with you. Turn in to her.|
+A Vile Touch|QID|28727|PRE|28726|M|PLAYER|Z|460;Teldrassil|N|From Tarindrella. She's still with you.|
 C Vile Touch|QID|28727|QO|1|M|44.38,28.48|Z|58;Shadowthread Cave|N|Kill Gilthyiss the Vile.|
-T Vile Touch|QID|28727|M|PLAYER|Z|460;Shadowglen|N|To Tarindrella. She's still with you.|
-A Signs of Things to Come|QID|28728|PRE|28727|NC|Z|460;Shadowglen|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|
-T Signs of Things to Come|QID|28728|M|42.50,50.49|Z|460;Shadowglen|N|To Dentaria Silverglade.|
-A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|Z|460;Shadowglen|M|42.50,50.49|N|From Dentaria Silverglade.|
-C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|50.29,33.54|Z|460;Shadowglen|NC|N|Use the Phial at the moonwell.|
-T Teldrassil: Crown of Azeroth|QID|28729|M|42.50,50.49|Z|460;Shadowglen|N|To Dentaria Silverglade.|
-A Precious Waters|QID|28730|PRE|28729|M|42.50,50.49|Z|460;Shadowglen|N|From Dentaria Silverglade.|
-T Precious Waters|QID|28730|M|41.72,63.58;47.20,55.96|CS|Z|460;Shadowglen|N|Up the ramp to Tenaron Stormgrip.|
-A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.20,55.96|Z|460;Shadowglen|N|From Tenaron Stormgrip.|
-r Aldrassil|QID|28731|M|49.40,65.85|Z|460;Shadowglen|N|Repair, restock and sell unwanted items @ Andiss just inside Aldrassil.|R|NightElf|
-A Dolanaar Delivery|QID|2159|M|54.56,84.72|Z|460;Shadowglen|N|From Porthannius.|
-;Shadowglen to Dolanaar
+T Vile Touch|QID|28727|M|PLAYER|Z|460;Teldrassil|N|To Tarindrella. She's still with you.|
+A Signs of Things to Come|QID|28728|PRE|28727|NC|Z|460;Teldrassil|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|
+T Signs of Things to Come|QID|28728|M|42.50,50.49|Z|460;Teldrassil|N|To Dentaria Silverglade.|
+A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|Z|460;Teldrassil|M|42.50,50.49|N|From Dentaria Silverglade.|
+C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|50.29,33.54|Z|460;Teldrassil|NC|N|Use the Phial at the moonwell.|
+T Teldrassil: Crown of Azeroth|QID|28729|M|42.50,50.49|Z|460;Teldrassil|N|To Dentaria Silverglade.|
+A Precious Waters|QID|28730|PRE|28729|M|42.50,50.49|Z|460;Teldrassil|N|From Dentaria Silverglade.|
+T Precious Waters|QID|28730|M|41.72,63.58;47.20,55.96|CS|Z|460;Teldrassil|N|Up the ramp to Tenaron Stormgrip.|
+A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.20,55.96|Z|460;Teldrassil|N|From Tenaron Stormgrip.|
+r Aldrassil|QID|28731|M|49.40,65.85|Z|460;Teldrassil|N|Repair, restock and sell unwanted items @ Andiss just inside Aldrassil.|R|NightElf|
+A Dolanaar Delivery|QID|2159|M|54.56,84.72|Z|460;Teldrassil|N|From Porthannius.|
+;Teldrassil to Dolanaar
 A Zenn's Bidding|QID|488|Z|57;Teldrassil|M|59.55,49.20|N|From Zenn Foulhoof.|
 C Zenn's Bidding|QID|488|Z|57;Teldrassil|M|61.01,52.36|N|Kill Strigid Owls, Webwood Lurkers and Nightsabers.|
 T Zenn's Bidding|QID|488|Z|57;Teldrassil|M|59.46,49.19|N|To Zenn Foulhoof.|
