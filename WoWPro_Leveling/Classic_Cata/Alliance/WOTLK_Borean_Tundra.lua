@@ -1,13 +1,14 @@
-local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "Jame", "Alliance", 4)
+local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "WoWPro Team", "Alliance", 4)
+WoWPro:GuideLevels(guide, 70, 72)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Borean Tundra")
 WoWPro:GuideName(guide,"Borean Tundra")
 WoWPro:GuideNextGuide(guide, "Howling Fjord")
 WoWPro:GuideSteps(guide, function()
 return [[
-B Overcharged Capacitor|QID|11650|M|62.9,71.7|Z|84;Stormwind City|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest leads to two further quests, so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|
-R Stormwind Harbor|QID|11672|M|27.06,25.50|Z|84;Stormwind City|N|Go to Stormwind Harbor.|
-b Borean Tundra|QID|11672|M|18.01,25.48|Z|84;Stormwind City|N|Take the boat from the north dock to get to Valiance Keep.|
+B Overcharged Capacitor|QID|11650|M|62.9,71.7|Z|1453; Stormwind City|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest leads to two further quests, so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|
+R Stormwind Harbor|QID|11672|M|27.06,25.50|Z|1453; Stormwind City|N|Go to Stormwind Harbor.|
+b Borean Tundra|QID|11672|M|18.01,25.48|Z|1453; Stormwind City|N|Take the boat from the north dock to get to Valiance Keep.|
 T To Northrend!|QID|60096|M|PLAYER|Z|114; Borean Tundra|N|Quest turn-in on quest tracker once you enter Borean Tundra.|
 A Enlistment Day|QID|11672|M|57.8,67.7|Z|114; Borean Tundra|N|From Recruitment Officer Blythe.|
 T Enlistment Day|QID|11672|M|56.7,72.6|Z|114; Borean Tundra|N|Upstairs into the keep. Then turn the quest into General Arlos.|

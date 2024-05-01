@@ -42,7 +42,6 @@
 	<Script file="WOTLK_Grizzly_Hills.lua"/>
 	<Script file="WOTLK_Howling_Fjord.lua"/>
 	<Script file="WOTLK_Icecrown.lua"/>
-	<Script file="WOTLK_Intro.lua"/>
 	<Script file="WOTLK_The_Storm_Peaks.lua"/>
 </Ui>
 

@@ -1,5 +1,5 @@
-local guide = WoWPro:RegisterGuide("ScoSto7980", "Leveling", "The Storm Peaks", "Scoot", "Horde", 4)
-WoWPro:GuideLevels(guide, 79, 80)
+local guide = WoWPro:RegisterGuide("ScoSto7980", "Leveling", "The Storm Peaks", "WoWPro Team", "Horde", 4)
+WoWPro:GuideLevels(guide, 77, 80)
 WoWPro:GuideNickname(guide, "Storm Peaks")
 WoWPro:GuideName(guide,"Storm Peaks")
 WoWPro:GuideNextGuide(guide, "Icecrown")

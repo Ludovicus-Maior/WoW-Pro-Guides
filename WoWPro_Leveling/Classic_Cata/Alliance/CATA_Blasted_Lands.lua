@@ -1,4 +1,5 @@
 local guide = WoWPro:RegisterGuide('CraBla5458', "Leveling", 'Blasted Lands', 'WoWPro Team', 'Alliance', 4)
+WoWPro:GuideLevels(guide, 55, 60)
 WoWPro:GuideName(guide,"Blasted Lands")
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'Hellfire Peninsula')

@@ -1,14 +1,15 @@
 local guide = WoWPro:RegisterGuide('WkjLoc1220', "Leveling", 'Loch Modan', 'WoWPro Team', 'Alliance', 4)
+WoWPro:GuideLevels(guide, 12, 20)
 WoWPro:GuideName(guide,"Loch Modan")
 WoWPro:GuideSort(guide, 28)
 WoWPro:GuideNextGuide(guide, 'Wetlands')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Elmore's Task is skipped if you've just done Dun Morogh quests (your not in the right place), or if you've already done Stormpike's Delivery quest (Elmore's task isn't available)
-A Elmore's Task|QID|1097|M|41.6,65.6|Z|37;Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|RANK|3|
-T Elmore's Task|QID|1097|M|59.6,34.0|Z|84;Stormwind City|N|To Grimand Elmore in the Dwarven District of Stormwind City.|RANK|3|
-A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|84;Stormwind City|N|From Grimand Elmore.|RANK|3|
-F Ironforge|QID|26131|M|41.8,52.2|Z|84;Stormwind City|N|Head to Ironforge either by the Stormwind Tram, or by flying from your nearest flight master.|RANK|3|
+A Elmore's Task|QID|1097|M|41.6,65.6|Z|1429; Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|RANK|3|
+T Elmore's Task|QID|1097|M|59.6,34.0|Z|1453; Stormwind City|N|To Grimand Elmore in the Dwarven District of Stormwind City.|RANK|3|
+A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|1453; Stormwind City|N|From Grimand Elmore.|RANK|3|
+F Ironforge|QID|26131|M|41.8,52.2|Z|1453; Stormwind City|N|Head to Ironforge either by the Stormwind Tram, or by flying from your nearest flight master.|RANK|3|
 A Reinforcements for Loch Modan|QID|26131|M|41.8,52.2|Z|48; Loch Modan|N|From Mountaineer Barleybrew in Ironforge.\nIf quest doesn't show, drop the quest Hero's Call: Loch Modan!|RANK|2|
 F South Gate Outpost|QID|26131|M|55.49,47.78|Z|48; Loch Modan|N|Talk to Gryth Thurden, and ask him to fly you to Loch Modan.|RANK|2|
 T Reinforcements for Loch Modan|QID|26131|M|14,56.49|Z|48; Loch Modan|N|To Pilot Hammerfoot.|RANK|2|

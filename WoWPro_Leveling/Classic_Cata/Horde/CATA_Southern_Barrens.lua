@@ -1,4 +1,5 @@
-local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', 'WoWPro Team', 'Horde')
+local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', "WoWPro Team", 'Horde', 4)
+WoWPro:GuideLevels(guide, 30, 35)
 WoWPro:GuideName(guide,"Southern Barrens")
 WoWPro:GuideSort(guide, 42)
 WoWPro:GuideNextGuide(guide, 'JiyDus3540')

@@ -1,10 +1,11 @@
-local guide = WoWPro:RegisterGuide('JiySil5560', "Leveling", 'Silithus', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('JiySil5560', "Leveling", 'Silithus', "WoWPro Team", 'Neutral', 4)
+WoWPro:GuideLevels(guide, 55, 60)
 WoWPro:GuideName(guide,"Silithus")
 WoWPro:GuideSort(guide, 38)
 WoWPro:GuideNextGuide(guide, 'Blasted Lands')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|1453; Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 F Cenarion Hold|QID|8318|M|55.97,64.15|Z|78; Un'goro Crater|N|Fly to Cenarion Hold.|TAXI|Cenarion Hold|
 R Zidormi|AVAILABLE|8318|M|78.93,21.98|CHAT|Z|81; Silithus|N|Talk to Zidormi to "See Silithus before the wound", if NOT in Chromie Time, to quest in this zone.|

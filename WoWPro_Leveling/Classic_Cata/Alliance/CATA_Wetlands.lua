@@ -1,4 +1,5 @@
 local guide = WoWPro:RegisterGuide('WkjWet2025', "Leveling", 'Wetlands', 'WoWPro Team', 'Alliance', 4)
+WoWPro:GuideLevels(guide, 20, 30)
 WoWPro:GuideName(guide,"Wetlands")
 WoWPro:GuideSort(guide, 55)
 WoWPro:GuideNextGuide(guide, 'Arathi Highlands')

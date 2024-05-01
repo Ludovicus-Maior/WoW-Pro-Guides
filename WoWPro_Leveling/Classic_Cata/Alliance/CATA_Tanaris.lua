@@ -1,4 +1,5 @@
 local guide = WoWPro:RegisterGuide('WkjTan4550', "Leveling", 'Tanaris', 'WoWPro Team', 'Alliance', 4)
+WoWPro:GuideLevels(guide, 45, 50)
 WoWPro:GuideName(guide,"Tanaris")
 WoWPro:GuideSort(guide, 48)
 WoWPro:GuideNextGuide(guide, "Un'Goro Crater")

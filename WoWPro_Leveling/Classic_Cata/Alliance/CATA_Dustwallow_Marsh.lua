@@ -1,4 +1,5 @@
 local guide = WoWPro:RegisterGuide('WkjDus3540', "Leveling", 'Dustwallow Marsh', 'WoWPro Team', 'Alliance', 4)
+WoWPro:GuideLevels(guide, 35, 40)
 WoWPro:GuideName(guide,"Dustwallow Marsh")
 WoWPro:GuideSort(guide, 18)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
@@ -123,9 +124,9 @@ C Survey Alcaz Island|QID|27239|NC|M|67.37,51.07|Z|70; Dustwallow Marsh|N|Tell C
 T Survey Alcaz Island|QID|27239|M|66.26,49.04|Z|70; Dustwallow Marsh|N|To Lady Jaina Proudmoore.|
 A Proof of Treachery|QID|27240|PRE|27239|M|66.27,49.05|Z|70; Dustwallow Marsh|N|From Lady Jaina Proudmoore. Wait a few seconds and this quest will appear.|
 R Stormwind City|QID|27240|M|66.26,49.05|Z|70; Dustwallow Marsh|N|Talk to Jaina to be ported to Stormwind.|
-T Proof of Treachery|QID|27240|M|85.79,32.80|Z|84;Stormwind City|N|To Grand Admiral Jes-Tereth.|
-A Return to Jaina|QID|27241|PRE|27240|M|85.79,32.80|Z|84;Stormwind City|N|To Grand Admiral Jes-Tereth.|
-R Theramore Isle|QID|27241|M|50.51,87.47|Z|84;Stormwind City|N|Head to the Mage Quarter and talk to Archmage Malin to get back to Theramore Isle.|
+T Proof of Treachery|QID|27240|M|85.79,32.80|Z|1453; Stormwind City|N|To Grand Admiral Jes-Tereth.|
+A Return to Jaina|QID|27241|PRE|27240|M|85.79,32.80|Z|1453; Stormwind City|N|To Grand Admiral Jes-Tereth.|
+R Theramore Isle|QID|27241|M|50.51,87.47|Z|1453; Stormwind City|N|Head to the Mage Quarter and talk to Archmage Malin to get back to Theramore Isle.|
 T Return to Jaina|QID|27241|M|66.26,49.05|Z|70; Dustwallow Marsh|N|To Jaina Proudmore.|
 C ... and Bugs|QID|1258|M|68.78,46.53|Z|70; Dustwallow Marsh|N|Work your way around the banks of the town. The crabs drop their legs 100%.|
 T ... and Bugs|QID|1258|M|68.26,48.70|Z|70; Dustwallow Marsh|N|To Morgan Stern.|
