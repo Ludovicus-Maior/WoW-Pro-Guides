@@ -84,11 +84,11 @@ A The Rear is Clear|QID|28817|PRE|28791|M|48.80,38.42|Z|1429; Elwynn Forest|N|Fr
 T The Rear is Clear|QID|28817|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|
 
 A Consecrated Letter|QID|3101|M|48.20,42.06|Z|1429; Elwynn Forest|N|From Marshal McBride.|R|Human|C|Paladin|
-T Concecrated Letter|QID|3101|M|50.43,42.12|Z|1429; Elwynn Forest|N|To Brother Sammuel.|R|Human|C|Paladin|
+T Consecrated Letter|QID|3101|M|50.43,42.12|Z|1429; Elwynn Forest|N|To Brother Sammuel.|R|Human|C|Paladin|
 A The Power Of The Light|QID|26918|M|50.43,42.12|Z|1429; Elwynn Forest|N|From Brother Sammuel.|C|Paladin|R|Human|
 = Seal of Righteousness|ACTIVE|26918|QO|2|M|50.43,42.12|Z|1429; Elwynn Forest|N|Learn Seal of Righteousness from Brother Sammuel.|SPELL|Seal of Righteousness;20154|R|Human|C|Paladin|
-C The Power Of The Light|QID|26918|QO|1|M|48.63,44.37|Z|1429; Elwynn Forest|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|R|Human|C|Paladin|
-T The Power Of The Light|QID|26918|M|50.43,42.12|Z|1429; Elwynn Forest|N|To Brother Sammuel.|R|Human|C|Paladin|
+C The Power of the Light|QID|26918|QO|1|M|48.63,44.37|Z|1429; Elwynn Forest|N|Learn Seal of righteousness and judgement then use judgement on the training dummies.|R|Human|C|Paladin|
+T The Power of the Light|QID|26918|M|50.43,42.12|Z|1429; Elwynn Forest|N|To Brother Sammuel.|R|Human|C|Paladin|
 A Join the Battle!|QID|28785|PRE|28770|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|R|Human|C|Paladin|
 T Join the Battle!|QID|28785|M|48.80,38.42|Z|1429; Elwynn Forest|N|To Sergeant Willem, outside the abbey by the blue tent.|R|Human|C|Paladin|
 A They Sent Assassins|QID|28793|PRE|28785|M|48.80,38.42|Z|1429; Elwynn Forest|N|From Sergeant Willem.|R|Human|C|Paladin|
@@ -103,10 +103,10 @@ T The Rear is Clear|QID|28819|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal M
 
 A Hallowed Letter|QID|3103|M|48.20,42.06|Z|1429; Elwynn Forest|N|From Marshal McBride.|R|Human|C|Priest|
 T Hallowed Letter|QID|3103|M|49.81,39.49|Z|1429; Elwynn Forest|N|To Priestess Anetta.|R|Human|C|Priest|
-A Healing The Wounded|QID|26919|M|49.81,39.49|Z|1429; Elwynn Forest|N|From Priestess Anetta.|R|Human|C|Priest|
+A Healing the Wounded|QID|26919|M|49.81,39.49|Z|1429; Elwynn Forest|N|From Priestess Anetta.|R|Human|C|Priest|
 = Flash Heal|ACTIVE|26919|QO|2|M|49.81,39.49|Z|1429; Elwynn Forest|N|Learn Flash Heal from Priestess Anetta.|SPELL|Flash Heal;2061|R|Human|C|Priest|
-C Healing The Wounded|QID|26919|QO|1|Z|1429; Elwynn Forest|N|Learn Flash Heal then use it on Wounded Trainees inside the abbey.|R|Human|C|Priest|
-T Healing The Wounded|QID|26919|M|49.81,39.49|Z|1429; Elwynn Forest|N|To Priestess Anetta.|R|Human|C|Priest|
+C Healing the Wounded|QID|26919|QO|1|M|49.81,39.49|Z|1429; Elwynn Forest|N|Learn Flash Heal then use it on Wounded Trainees inside the abbey.|R|Human|C|Priest|
+T Healing the Wounded|QID|26919|M|49.81,39.49|Z|1429; Elwynn Forest|N|To Priestess Anetta.|R|Human|C|Priest|
 A Join the Battle!|QID|28786|PRE|28771|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|R|Human|C|Priest|
 T Join the Battle!|QID|28786|M|48.80,38.42|Z|1429; Elwynn Forest|N|To Sergeant Willem, outside the abbey by the blue tent.|R|Human|C|Priest|
 A They Sent Assassins|QID|28794|PRE|28786|M|48.80,38.42|Z|1429; Elwynn Forest|N|From Sergeant Willem.|R|Human|C|Priest|
@@ -121,10 +121,10 @@ T The Rear is Clear|QID|28820|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal M
 
 A Glyphic Letter|QID|3104|M|48.20,42.06|Z|1429; Elwynn Forest|N|From Marshal McBride.|R|Human|C|Mage|
 T Glyphic Letter|QID|3104|M|49.66,39.40|Z|1429; Elwynn Forest|N|To Khelden Bremen.|R|Human|C|Mage|
-A Mastering The Arcane|QID|26916|M|49.66,39.40|Z|1429; Elwynn Forest|N|From Khelden Bremen.|R|Human|C|Mage|
+A Mastering the Arcane|QID|26916|M|49.66,39.40|Z|1429; Elwynn Forest|N|From Khelden Bremen.|R|Human|C|Mage|
 = Arcane Missiles|ACTIVE|26916|QO|2|M|49.66,39.40|Z|1429; Elwynn Forest|N|Learn Arcane Missiles from Khelden Bremen.|SPELL|Arcane Missiles;5143|R|Human|C|Mage|
-C Mastering The Arcane|QID|26916|QO|1|M|48.63,44.37|Z|1429; Elwynn Forest|N|Learn Arcane Missiles then use it on the training dummies.|R|Human|C|Mage|
-T Mastering The Arcane|QID|26916|M|49.66,39.40|Z|1429; Elwynn Forest|N|To Khelden Bremen.|R|Human|C|Mage|
+C Mastering the Arcane|QID|26916|QO|1|M|48.63,44.37|Z|1429; Elwynn Forest|N|Learn Arcane Missiles then use it on the training dummies.|R|Human|C|Mage|
+T Mastering the Arcane|QID|26916|M|49.66,39.40|Z|1429; Elwynn Forest|N|To Khelden Bremen.|R|Human|C|Mage|
 A Join the Battle!|QID|28784|PRE|28769|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|R|Human|C|Mage|
 T Join the Battle!|QID|28784|M|48.80,38.42|Z|1429; Elwynn Forest|N|To Sergeant Willem, outside the abbey by the blue tent.|R|Human|C|Mage|
 A They Sent Assassins|QID|28792|PRE|28784|M|48.80,38.42|Z|1429; Elwynn Forest|N|From Sergeant Willem.|R|Human|C|Mage|
@@ -140,7 +140,7 @@ T The Rear is Clear|QID|28818|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal M
 A Encrypted Letter|QID|3102|M|48.20,42.06|Z|1429; Elwynn Forest|N|From Marshal McBride.|R|Human|C|Rogue|
 T Encrypted Letter|QID|3102|M|50.31,39.92|Z|1429; Elwynn Forest|N|To Jorik Kerridan.|R|Human|C|Rogue|
 A The Deepest Cut|QID|26915|M|50.31,39.92|Z|1429; Elwynn Forest|N|From Jorik Kerridan.|R|Human|C|Rogue|
-= Eviscerate|ACTIVE|26915|QO|2|M|70.23,65.04|Z|1429; Elwynn Forest|N|Learn Eviscerate from Jorik Kerridan.|SPELL|Eviscerate;2098|R|Human|C|Rogue|
+= Eviscerate|ACTIVE|26915|QO|2|M|50.31,39.92|Z|1429; Elwynn Forest|N|Learn Eviscerate from Jorik Kerridan.|SPELL|Eviscerate;2098|R|Human|C|Rogue|
 C The Deepest Cut|QID|26915|QO|1|M|48.63,44.37|Z|1429; Elwynn Forest|N|Learn Eviscerate and use it on the training dummies.|R|Human|C|Rogue|
 T The Deepest Cut|QID|26915|M|50.31,39.92|Z|1429; Elwynn Forest|N|To Jorik Kerridan.|R|Human|C|Rogue|
 A Join the Battle!|QID|28787|PRE|28772|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|R|Human|C|Rogue|
@@ -175,10 +175,10 @@ T The Rear is Clear|QID|28822|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal M
 
 A Simple Letter|QID|3100|M|48.20,42.06|Z|1429; Elwynn Forest|N|From Marshal McBride.|R|Human|C|Warrior|
 T Simple Letter|QID|3100|M|50.24,42.28|Z|1429; Elwynn Forest|N|To Llane Beshere.|R|Human|C|Warrior|
-A Charging Into Battle|QID|26913|M|50.24,42.28|Z|1429; Elwynn Forest|N|From Llane Beshere.|R|Human|C|Warrior|
+A Charging into Battle|QID|26913|M|50.24,42.28|Z|1429; Elwynn Forest|N|From Llane Beshere.|R|Human|C|Warrior|
 = Charge|ACTIVE|26913|QO|2|M|50.24,42.28|Z|1429; Elwynn Forest|N|Learn Charge from Celestine of the Harvest.|SPELL|Charge;100|R|Human|C|Warrior|
-C Charging Into Battle|QO|1|QID|26913|M|48.63,44.37|Z|1429; Elwynn Forest|N|Learn Charge from the warrior trainer then use it on the training dummies.|R|Human|C|Warrior|
-T Charging Into Battle|QID|26913|M|50.24,42.28|Z|1429; Elwynn Forest|N|To Llane Beshere.|R|Human|C|Warrior|
+C Charging into Battle|QID|26913|QO|1|M|48.63,44.37|Z|1429; Elwynn Forest|N|Learn Charge from the warrior trainer then use it on the training dummies.|R|Human|C|Warrior|
+T Charging into Battle|QID|26913|M|50.24,42.28|Z|1429; Elwynn Forest|N|To Llane Beshere.|R|Human|C|Warrior|
 A Join the Battle!|QID|28789|PRE|28774|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|R|Human|C|Warrior|
 T Join the Battle!|QID|28789|M|48.80,38.42|Z|1429; Elwynn Forest|N|To Sergeant Willem, outside the abbey by the blue tent.|R|Human|C|Warrior|
 A They Sent Assassins|QID|28797|PRE|28789|M|48.80,38.42|Z|1429; Elwynn Forest|N|From Sergeant Willem.|R|Human|C|Warrior|
