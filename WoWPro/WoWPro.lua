@@ -794,15 +794,48 @@ function WoWPro.findIndexWithText(tabula, text_to_find)
     return -1
 end
 
-function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName,  GID, extra)
-    WoWPro:dbp("RegisterGuideInMenuList(%q,%q,%q,%q)", tostring(AddonType), tostring(GuideType), tostring(GuideName),  GID)
+function WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
+    WoWPro:dbp("RegisterGuideInMenuList2(%q,%q,%q,%q)", tostring(AddonType), tostring(GuideType), tostring(GuideName), GID)
+    local GuideMenuList = WoWPro.GuideMenuList
+    local AddonAndType = AddonType .. " - " .. GuideType
+    local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonAndType)
+    if AddonIndex < 1 then
+        if table.getn(GuideMenuList) == 0 then
+            table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
+        end
+        local stuff = { text = AddonAndType, hasArrow = true, menuList = {} }
+        if extra then
+            for key, value in pairs(extra) do
+                stuff[key] = value
+            end
+        end
+        table.insert(GuideMenuList, stuff)
+        AddonIndex = table.getn(GuideMenuList)
+    end
+
+    local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideName)
+    if GuideNameIndex < 1 then
+        if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
+            table.insert(GuideMenuList[AddonIndex].menuList,
+                { text = "Select a Guide", isTitle = true })
+        end
+        table.insert(GuideMenuList[AddonIndex].menuList, {
+            text =  GuideName,
+            sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
+            func = function() WoWPro:LoadGuide(GID); end
+        })
+    end
+end
+
+function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
+    WoWPro:dbp("RegisterGuideInMenuList3(%q,%q,%q,%q)", tostring(AddonType), tostring(GuideType), tostring(GuideName), GID)
     local GuideMenuList = WoWPro.GuideMenuList
     local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonType)
     if AddonIndex < 1 then
         if table.getn(GuideMenuList) == 0 then
-            table.insert(GuideMenuList, {text = "Guide Group", isTitle = true} )
+            table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
         end
-        local stuff = {text=AddonType, hasArrow = true, menuList = {}}
+        local stuff = { text = AddonType, hasArrow = true, menuList = {} }
         if extra then
             for key, value in pairs(extra) do
                 stuff[key] = value
@@ -815,20 +848,31 @@ function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName,  GID, e
     local GTypeIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideType)
     if GTypeIndex < 1 then
         if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
-            table.insert(GuideMenuList[AddonIndex].menuList, {text = "Select a Guide Category", isTitle = true} )
+            table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Guide Category", isTitle = true })
         end
-        table.insert(GuideMenuList[AddonIndex].menuList, {text=GuideType, hasArrow = true, menuList = {}})
+        table.insert(GuideMenuList[AddonIndex].menuList, { text = GuideType, hasArrow = true, menuList = {} })
         GTypeIndex = table.getn(GuideMenuList[AddonIndex].menuList)
     end
 
     local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, GuideName)
     if GuideNameIndex < 1 then
         if table.getn(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList) == 0 then
-            table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, {text = "Select a Guide", isTitle = true} )
+            table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList,
+                { text = "Select a Guide", isTitle = true })
         end
-        table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, {text=GuideName,
-                     sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
-                     func = function() WoWPro:LoadGuide(GID); end})
+        table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, {
+            text = GuideName,
+            sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
+            func = function() WoWPro:LoadGuide(GID); end
+        })
+    end
+end
+
+function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, extra)
+    if WoWPro.CATA then
+        WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
+    else
+        WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
     end
 end
 
@@ -889,7 +933,7 @@ end
 
 function WoWPro.ShowGuideMenu()
     WoWPro.BuildGuideInMenuList()
-    local menuFrame = _G.CreateFrame("Frame", "ExampleMenuFrame", _G.UIParent, "UIDropDownMenuTemplate")
+    local menuFrame = _G.CreateFrame("Frame", "WoWPro_Guides", _G.UIParent, "UIDropDownMenuTemplate")
     menuFrame:SetPoint("Center", _G.UIParent, "Center")
     _G.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
 end
