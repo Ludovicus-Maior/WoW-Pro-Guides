@@ -67,7 +67,7 @@ A Hunter Training|QID|9393|PRE|8326|M|38.02,21.00|Z|1941;Eversong Woods|N|From M
 T Hunter Training|QID|9393|M|39.05,20.01|Z|1941;Eversong Woods|N|To Ranger Sallina, inside the building.|R|BloodElf|C|Hunter|
 A Steady Shot|QID|10070|PRE|9393|M|39.05,20.01|Z|1941;Eversong Woods|N|From Ranger Sallina.|R|BloodElf|C|Hunter|
 = Steady Shot|ACTIVE|10070|M|39.05,20.01|Z|1941;Eversong Woods|N|Learn Steady Shot from Ranger Sallina.|SPELL|Steady Shot;56641|R|BloodElf|C|Hunter|
-C Steady Shot|QID|10070|M|38.22,20.27|Z|1941;Eversong Woods|N|Locate a Training Dummy outside the Sunspire and practice using Steady Shot 5 times.|R|T|Training Dummy|BloodElf|C|Hunter|
+C Steady Shot|QID|10070|M|38.22,20.27|Z|1941;Eversong Woods|N|Locate a Training Dummy outside the Sunspire and practice using Steady Shot 5 times.|T|Training Dummy|R|BloodElf|C|Hunter|
 T Steady Shot|QID|10070|M|39.05,20.01|Z|1941;Eversong Woods|N|To Ranger Sallina.|R|BloodElf|C|Hunter|
 ; ** Paladin
 A Paladin Training|QID|9676|PRE|8326|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|BloodElf|C|Paladin|

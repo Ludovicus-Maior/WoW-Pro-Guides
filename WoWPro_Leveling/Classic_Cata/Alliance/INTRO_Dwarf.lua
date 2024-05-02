@@ -1,13 +1,13 @@
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Dun Morogh (Dwarf)", "WoWPro Team", "Alliance", 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 3)
+WoWPro:GuideContent(guide, 'Intro')
 WoWPro:GuideNickname(guide, "Dwarf: Intro")
 WoWPro:GuideName(guide,"Dwarf: Intro")
 WoWPro:GuideNextGuide(guide, 'Dwarf & Gnome: Intro (Part 2)')
 WoWPro:GuideSteps(guide, function()
 return
 [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|1453; Stormwind City|JUMP|Chromie Time|LVL|-60|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
 R Coldridge Valley|QID|24469|M|67.18,41.41|Z|1426; Dun Morogh|R|-Dwarf|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
 A Hold the Line!|QID|24469|M|67.18,41.41|Z|1426; Dun Morogh|N|From Joren Ironstock.|
 C Hold the Line!|QID|24469|M|60.82,50.85|Z|1426; Dun Morogh|N|Slay 6 Rockjaw Invaders.|
@@ -57,8 +57,8 @@ T A Refugee's Quandary|QID|3361|M|42.04,63.34|Z|1426; Dun Morogh|N|To Felix Whin
 T The Troll Menace|QID|182|M|42.74,62.22|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
 A Ice and Fire|QID|218|PRE|24489|M|42.74,62.22|Z|1426; Dun Morogh|N|From Grelin Whitebeard.|
 C Ice and Fire|QID|218|QO|3;4|M|51.17,82.44;37.17,78.31|CC|Z|1426; Dun Morogh|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|S|
-K Wayward Fire Elemental|ACTIVE|218|QO|2|M|12.61,36.80;34.15,35.67;66.63,29.93|CS|Z|Frostmane Hovel|N|Kill the Wayward Fire Elemental|T|Wayward Fire Elemental|
-K Grik'nir the Cold|ACTIVE|218|M|76.24,32.00|QO|1|Z|Frostmane Hovel|N|Kill Grik'nir the Cold.|T|Grik'nir the Cold|
+K Wayward Fire Elemental|ACTIVE|218|QO|2|M|12.61,36.80;34.15,35.67;66.63,29.93|CS|Z|1426; Dun Morogh|N|Kill the Wayward Fire Elemental|T|Wayward Fire Elemental|
+K Grik'nir the Cold|ACTIVE|218|M|76.24,32.00|QO|1|Z|1426; Dun Morogh|N|Kill Grik'nir the Cold.|T|Grik'nir the Cold|
 C Ice and Fire|QID|218|QO|3;4|M|33.31,77.83|Z|1426; Dun Morogh|N|Finish killing the Frostmane Novice and Blades in the cavern, then make your way out of the cave.|US|
 T Ice and Fire|QID|218|M|42.74,62.22|Z|1426; Dun Morogh|N|To Grelin Whitebeard.|
 A A Trip to Ironforge|QID|24490|PRE|218|M|42.74,62.22|Z|1426; Dun Morogh|N|From Grelin Whitebeard.|
@@ -72,6 +72,6 @@ C Coldridge Beer Flagon|QID|24492|M|62.45,23.87|QO|1|Z|1426; Dun Morogh|N|Go to 
 C Ragged Wolf-Hide Cloak|QID|24492|M|62.45,23.87|QO|2|Z|1426; Dun Morogh|N|Pick up the box of Wolf-Hide Cloaks.|NC|
 C Leftover Boar Meat|QID|24492|M|62.45,23.87|QO|3|Z|1426; Dun Morogh|N|Pick up the Leftover Boar Meat that's on the table.|NC|
 T Pack Your Bags|QID|24492|M|69.95,44.08|Z|1426; Dun Morogh|N|To Milo Geartwinge. On handing this quest, you will be whisked by gyro-copter to Kharanos.|
-T Don't Forget About Us|QID|24493|M|53.16,49.98|N|To Tharek Blackstone.|Z|27;Dun Morogh|
+T Don't Forget About Us|QID|24493|M|53.16,49.98|N|To Tharek Blackstone.|Z|1426;Dun Morogh|
 ]]
 end)

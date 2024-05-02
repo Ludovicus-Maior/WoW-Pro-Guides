@@ -5,8 +5,6 @@ WoWPro:GuideSort(guide, 83)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|1453; Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|1453; Stormwind City|N|From the Hero's Call Board. Select Deepholm.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
 T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|1453; Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
 P Deepholm|QID|26245|M|73.20,19.62|Z|1453; Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
@@ -376,8 +374,8 @@ T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|1453; Stormwind City|N|To Harriso
 A Meetup with the Caravan|QID|28295|LEAD|27003|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|1453; Stormwind City|FACTION|Alliance|
 F Booty Bay|QID|28295|Z|1453; Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
 b Ratchet|QID|28295|Z|210;The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|FACTION|Alliance|
-F Southmoon Ruins|QID|28295|Z|71; Tanaris|M|30.61,65.42|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
-T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Alliance|
+F Southmoon Ruins|QID|28295|Z|1446; Tanaris|M|30.61,65.42|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
+T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|1446; Tanaris|FACTION|Alliance|
 A The Twilight Plot|QID|27005|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 A Fly Over|QID|27008|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
 C The Twilight Plot|QID|27005|M|41.00,69.00|N|Kill Twilight Cultist in the area until you get the Twilight Terrace Plans.|FACTION|Horde|
@@ -401,8 +399,8 @@ A That's No Pyramid!|QID|28293|PRE|27059|M|51.20,50.10|N|From Examiner Rowe.|FAC
 R Orgrimmar|QID|28293|M|50.94,53.1|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Orgrimmar.|FACTION|Horde|
 T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
 A Meetup with the Caravan|QID|28296|LEAD|27003|PRE|28293|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
-T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Horde|
-T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Horde|
+T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|1446; Tanaris|FACTION|Horde|
+T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|1446; Tanaris|FACTION|Horde|
 N This ends this guide.|N|Close this step to continue to Uldum guide.|
 ]]
 end)

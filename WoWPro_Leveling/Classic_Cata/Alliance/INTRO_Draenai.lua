@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Azuremyst Isle (Draenei)", "WoWPro Team", "Alliance", 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
+WoWPro:GuideContent(guide, 'Intro')
 WoWPro:GuideNickname(guide, "Draenei: Intro")
 WoWPro:GuideName(guide,"Draenei: Intro")
 WoWPro:GuideNextGuide(guide, 'Bloodmyst Isle')
@@ -208,7 +209,7 @@ r Sell junk and repair|QID|9623|M|49.69,52.75|Z|1943; Azuremyst Isle|N|At Kioni.
 F The Exodar|QID|9623|M|49.7,49.12|Z|1943; Azuremyst Isle|N|Fly to The Exodar. I would suggest visiting the AH and bank while you are there.|
 T Coming of Age|QID|9623|M|81.64,51.70|Z|1947; The Exodar|N|Head up and outside. Then turn this quest into Torallius the Pack Handler.|
 A Elekks Are Serious Business|QID|9625|LEAD|9634|PRE|9623|M|81.64,51.70|Z|1947; The Exodar|N|From Torallius the Pack Handler.|
-R Kessel's Crossing|QID|9625|M|63.50,88.14|Z|106;Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|
-T Elekks Are Serious Business|QID|9625|M|63.14,87.90|Z|106;Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
+R Kessel's Crossing|QID|9625|M|63.50,88.14|Z|1950;Bloodmyst Isle|N|Go north to Kessel's Crossing on Bloodmyst Isle (it's a long run - just follow the path).|
+T Elekks Are Serious Business|QID|9625|M|63.14,87.90|Z|1950;Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
 ]]
 end)

@@ -5,8 +5,8 @@ WoWPro:GuideSort(guide, 50)
 WoWPro:GuideNextGuide(guide, 'JiyTan4550')
 WoWPro:GuideSteps(guide, function()
 return [[
-T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|70; Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
-A To the Summit|QID|25478|M|41.86,73.85|Z|70; Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
+T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|1445; Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
+A To the Summit|QID|25478|M|41.86,73.85|Z|1445; Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
 C To the Summit|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him send you to Westreach Summit.|
 T To the Summit|QID|25478|M|11.12,11.33|N|To Kanati Greycloud.|
 A The Grimtotem are Coming|QID|25487|PRE|25356^25478|M|11.12,11.33|N|From Kanati Greycloud.|

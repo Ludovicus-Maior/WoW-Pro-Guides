@@ -269,7 +269,7 @@ T The Boon of Alexstrasza|QID|13079|N|To Crusader Bridenbrad. Take the Flight Pa
 A Hope Yet Remains|QID|13080|PRE|13079|N|To Crusader Bridenbrad|M|79.85,30.74|
 T Hope Yet Remains|QID|13080|N|Back to Highlord Tirion Fordring at Crusaders' Pinnacle.|M|79.83,71.79|
 A The Will of the Naaru|QID|13081|PRE|13080|N|From Highlord Tirion Fordring.|M|79.83,71.79|
-T The Will of the Naaru|QID|13081|N|To A'dal. Just wait and a mage will give you a port.|Z|111; Shattrath City|M|54.03,44.4|
+T The Will of the Naaru|QID|13081|N|To A'dal. Just wait and a mage will give you a port.|Z|1955; Shattrath City|M|54.03,44.4|
 A The Boon of A'dal|QID|13082|PRE|13081|N|From A'dal|M|54.03,44.4|
 T The Boon of A'dal|QID|13082|N|To Crusader Bridenbrad|M|79.85,30.74|
 A Light Within the Darkness|QID|13083|PRE|13082|N|From Bridenbrad's Possessions.|M|79.85,30.74|

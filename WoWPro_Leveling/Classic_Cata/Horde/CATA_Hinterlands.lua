@@ -5,9 +5,9 @@ WoWPro:GuideSort(guide, 30)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Revantusk Village|QID|26430|M|69.00,34.78|Z|14; Arathi Highlands|N|From Drum Fel|
-A Revantusk Village|QID|26430|M|69.00,34.78|Z|14; Arathi Highlands|N|From Drum Fel. He can be found in Hammerfall (Arathi Highlands)\n\nIf you've not been to Hammerfall before, head along the road from Hillsbrad Foothills (watching out for one Level 30 mob walking along the road near Refuge Point)|
-F The Hinterlands|QID|26430|M|68.19,33.44|Z|14; Arathi Highlands|N|Speak to Urda, the Bat Handler and ask for a ride to Revantusk Village.|CHAT|
+A Revantusk Village|QID|26430|M|69.00,34.78|Z|1417; Arathi Highlands|N|From Drum Fel|
+A Revantusk Village|QID|26430|M|69.00,34.78|Z|1417; Arathi Highlands|N|From Drum Fel. He can be found in Hammerfall (Arathi Highlands)\n\nIf you've not been to Hammerfall before, head along the road from Hillsbrad Foothills (watching out for one Level 30 mob walking along the road near Refuge Point)|
+F The Hinterlands|QID|26430|M|68.19,33.44|Z|1417; Arathi Highlands|N|Speak to Urda, the Bat Handler and ask for a ride to Revantusk Village.|CHAT|
 f Revantusk Village|QID|26430|M|81.69,81.80|N|From Gorkas.|
 A Gammerita, Mon!|QID|26210|M|80.35,81.46|N|From Katoom the Angler.|
 A Snapjaws, Mon!|QID|26211|M|80.35,81.46|N|From Katoom the Angler.|

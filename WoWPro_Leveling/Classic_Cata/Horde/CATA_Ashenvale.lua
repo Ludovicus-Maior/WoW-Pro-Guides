@@ -5,12 +5,11 @@ WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'JiySto2530')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|S!US|LVL|-60|CT|
-A Mor'shan Defense|QID|13612|M|42.73,15.06|Z|10;Northern Barrens|N|From Kadrak.|RANK|2|
-A Find Gorat!|QID|13618|M|42.73,15.06|Z|10;Northern Barrens|N|From Kadrak.|RANK|1|
-A Empty Quivers|QID|13615|M|42.26,15.20|Z|10;Northern Barrens|N|From Truun.|RANK|2|
-A Rescue the Fallen|QID|13613|M|42.42,15.76|Z|10;Northern Barrens|N|From Dinah Halfmoon.|RANK|2|
-f The Mor'Shan Ramparts|QID|13628|M|41.98,15.88|Z|10;Northern Barrens|N|Get the flightpoint from Gort Goreflight|TAXI|-The Mor'Shan Ramparts|
+A Mor'shan Defense|QID|13612|M|42.73,15.06|Z|1413;The Barrens|N|From Kadrak.|RANK|2|
+A Find Gorat!|QID|13618|M|42.73,15.06|Z|1413;The Barrens|N|From Kadrak.|RANK|1|
+A Empty Quivers|QID|13615|M|42.26,15.20|Z|1413;The Barrens|N|From Truun.|RANK|2|
+A Rescue the Fallen|QID|13613|M|42.42,15.76|Z|1413;The Barrens|N|From Dinah Halfmoon.|RANK|2|
+f The Mor'Shan Ramparts|QID|13628|M|41.98,15.88|Z|1413;The Barrens|N|Get the flightpoint from Gort Goreflight|TAXI|-The Mor'Shan Ramparts|
 K Mor'shan Defense|ACTIVE|13612|M|67.29,86.43;42.15,13.06|CN|QO|1;2|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|S|
 l Empty Quivers|ACTIVE|13615|M|67.57,86.13|QO|1|N|Collect "shiny" Arrows stuck in the ground.|S|
 C Rescue the Fallen|QID|13613|M|69.56,86.62|N|Apply salve to Wounded Mor'shan Defenders.|U|45001|NC|
@@ -18,19 +17,19 @@ T Find Gorat!|QID|13618|M|64.16,84.51|N|To Gorat.|
 A Final Report|QID|13619|M|64.16,84.51|N|From Gorat.|PRE|13618|RANK|1|
 l Empty Quivers|ACTIVE|13615|M|67.57,86.13|QO|1|N|Collect "shiny" Arrows stuck in the ground.|US|
 K Mor'shan Defense|ACTIVE|13612|M|67.29,86.43;42.15,13.06|CN|QO|1;2|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|US|
-T Mor'shan Defense|QID|13612|M|42.65,15.01|Z|10;Northern Barrens|N|To Kadrak\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
-T Final Report|QID|13619|M|42.65,15.01|Z|10;Northern Barrens|N|To Kadrak.|
-A To Dinah, at Once!|QID|13620|M|42.65,15.01|Z|10;Northern Barrens|N|From Kadrak.|PRE|13619|RANK|1|
-T Empty Quivers|QID|13615|M|42.26,15.20|Z|10;Northern Barrens|N|To Truun.|
-T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|10;Northern Barrens|N|To Dinah Halfmoon.|
-T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|10;Northern Barrens|N|To Dinah Halfmoon.|
-A Gorat's Vengeance|QID|13621|M|42.43,15.75|Z|10;Northern Barrens|N|From Dinah Halfmoon.|PRE|13620|RANK|1|
+T Mor'shan Defense|QID|13612|M|42.65,15.01|Z|1413;The Barrens|N|To Kadrak\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
+T Final Report|QID|13619|M|42.65,15.01|Z|1413;The Barrens|N|To Kadrak.|
+A To Dinah, at Once!|QID|13620|M|42.65,15.01|Z|1413;The Barrens|N|From Kadrak.|PRE|13619|RANK|1|
+T Empty Quivers|QID|13615|M|42.26,15.20|Z|1413;The Barrens|N|To Truun.|
+T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|1413;The Barrens|N|To Dinah Halfmoon.|
+T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|1413;The Barrens|N|To Dinah Halfmoon.|
+A Gorat's Vengeance|QID|13621|M|42.43,15.75|Z|1413;The Barrens|N|From Dinah Halfmoon.|PRE|13620|RANK|1|
 R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.
 K Gorat's Vengeance|QID|13621|M|65.70,82.19|QO|1|N|Use Gorat's Imbued Blood on Gorat's corpse to rez him.\nAfter a brief conversation (one-sided), follow him to the spot where he will summon Captain Elendilad so you can kill him.|U|45023|
-T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|10;Northern Barrens|N|To Kadrak.|
-A Got Lumber?|QID|13628|M|42.26,15.20|Z|10;Northern Barrens|N|From Truun.|PRE|13621|RANK|1|
-C Got Lumber?|QID|13628|M|42.58,15.19|Z|10;Northern Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
-C Got Lumber?|QID|13628|M|42.82,16.05|Z|10;Northern Barrens|QO|2|N|Mount Brutusk and ride to Warsong Lumber Camp.[color=FF0000]NOTE: [/color]If you can't mount Brutusk, /reload your UI and all will be well.|V|
+T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|1413;The Barrens|N|To Kadrak.|
+A Got Lumber?|QID|13628|M|42.26,15.20|Z|1413;The Barrens|N|From Truun.|PRE|13621|RANK|1|
+C Got Lumber?|QID|13628|M|42.58,15.19|Z|1413;The Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
+C Got Lumber?|QID|13628|M|42.82,16.05|Z|1413;The Barrens|QO|2|N|Mount Brutusk and ride to Warsong Lumber Camp.[color=FF0000]NOTE: [/color]If you can't mount Brutusk, /reload your UI and all will be well.|V|
 T Got Lumber?|QID|13628|M|72.93,80.44|N|To Gorka.|
 A Management Material|QID|13640|M|72.93,80.44|N|From Gorka.|PRE|13628|RANK|1|
 C Management Material|QID|13640|M|71.51,82.40|N|Talk to a Demoralized Peon and follow them to where they chop the wood you need.\nStand behind the Peon to protect them in case a Stalker appears to try and attack them.\nPick up the wood when they are done chopping it.|T|Demoralized Peon|
@@ -42,10 +41,10 @@ A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
 T Needs a Little Oil|QID|13651|M|72.93,80.44|N|To Gorka.|
 A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
 C Crisis at Splintertree|QID|13653|M|72.93,80.44|N|Speak to Gorka when you are ready to leave.\n[color=FF0000]NOTE: [/color]A cancelable cinematic will begin; giving you a free ride back to The Mor'shan Ramparts.|CHAT|
-T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|10;Northern Barrens|N|To Kadrak.|
-A To the Rescue!|QID|13712|M|42.69,14.97|Z|10;Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
-r Repair|ACTIVE|13712|M|42.38,14.97|Z|10;Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
-F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|10;Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|1703|CHAT|
+T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|1413;The Barrens|N|To Kadrak.|
+A To the Rescue!|QID|13712|M|42.69,14.97|Z|1413;The Barrens|N|From Kadrak.|PRE|13653|RANK|1|
+r Repair|ACTIVE|13712|M|42.38,14.97|Z|1413;The Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
+F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|1413;The Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|1703|CHAT|
 f Splintertree Post|ACTIVE|13712|M|73.18,61.60|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
 T To the Rescue!|QID|13712|M|73.61,62.14|N|To Kadrak in Splintertree Post.|
 A Blood of the Weak|QID|13803|M|73.61,62.14|N|From Kadrak.|PRE|13712|RANK|1|

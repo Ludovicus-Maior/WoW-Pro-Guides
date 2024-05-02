@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "WoWPro Team", "Alliance", 4)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 9)
-WoWPro:GuideContent(guide, "Intro")
+WoWPro:GuideContent(guide, 'Intro')
 WoWPro:GuideRaceSpecific(guide,"Worgen")
 WoWPro:GuideNickname(guide, "Worgen: Intro")
 WoWPro:GuideName(guide,"Worgen: Intro")
@@ -85,7 +85,7 @@ A Safety in Numbers|QID|14288|PRE|14277|M|68.2,64.8|Z|202; Gilneas City|N|From M
 T Safety in Numbers|QID|14288|M|65.80,77.67|Z|202; Gilneas City|N|To King Genn Greymane.|C|Mage|
 
 A Shady Associates|QID|14273|PRE|14099|M|70.7,54.7|Z|202; Gilneas City|N|From Gwen Armstead.|C|Warlock|
-T Shady Associates|QID|14273|M|71.2,64.3|Z|202; Gilneas CityN|To Vitus Darkwalker.||C|Warlock|
+T Shady Associates|QID|14273|M|71.2,64.3|Z|202; Gilneas City|N|To Vitus Darkwalker.|C|Warlock|
 A Immolate|QID|14274|PRE|14273|M|71.2,64.3|Z|202; Gilneas City|N|From Vitus Darkwalker.|C|Warlock|
 = Immolate|ACTIVE|14274|QO|2|M|71.2,64.3|Z|202; Gilneas City|N|Learn Immolate from Vitus Darkwalker.|SPELL|Immolate;348|C|Warlock|
 C Immolate|QID|14274|QO|1|M|71.2,64.3|Z|202; Gilneas City|N|Practice Immolate on Bloodfang Worgen.|T|Bloodfang Worgen|C|Warlock|

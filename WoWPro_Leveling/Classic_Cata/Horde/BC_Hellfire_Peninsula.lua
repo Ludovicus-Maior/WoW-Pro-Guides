@@ -9,7 +9,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 A To Outland!|QID|60123|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Burning Crusade timeline.|
 R Blasted Lands|QID|60123|N|At the Thrallmar Mage in the Pathfinder's Den.|Z|Orgrimmar|M|56.93,88.31|
-C To Outland!|QID|60123|M|55.01,54.35|Z|17;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
+C To Outland!|QID|60123|M|55.01,54.35|Z|1419;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
 T To Outland!|QID|60123|M|PLAYER|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|
 T Arrival in Outland|QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
@@ -289,22 +289,22 @@ T Arzeth's Demise|QID|10369|M|16.3,65.1|N|To Naladu.|
 C Source of the Corruption|QID|9387|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|M|15.0,55.5|US|
 C Keep Thornfang Hill Clear!|QID|10159|N|Kill the Ravagers and Venomspitters needed for this quest.|M|12,50|
 T Keep Thornfang Hill Clear!|QID|10159|M|15.66,52.15|N|To Mahuram Stouthoof.|
-R Cenarion Refuge|QID|9747|N|Follow the road west, you'll come to Cenarion Refuge.  While you are here, this guide has you pick up quests so you can fly back next time instead of running.|Z|102; Zangarmarsh|M|80.5,64.0|
-A The Umbrafen Tribe|QID|9747|Z|102; Zangarmarsh|M|80.5,64.0|N|From Ikeyen.|
-A Plants of Zangarmarsh|QID|9802|Z|102; Zangarmarsh|M|80.3,64.2|N|From Lauranna Thar'well.|
-A Leader of the Darkcrest|QID|9730|Z|102; Zangarmarsh|M|79.1,64.9|N|From the Wanted Poster.|
-A Leader of the Bloodscale|QID|9817|Z|102; Zangarmarsh|M|79.1,64.9|N|From the Wanted Poster.|
-A The Dying Balance|QID|9895|Z|102; Zangarmarsh|M|78.5,63.0|N|From Lethyn Moonfire.|
-B Cenarion Spirits|QID|9472|L|29112|N|Available from the innkeeper.|Z|102; Zangarmarsh|M|78.5,63.0|
-T The Cenarion Expedition|QID|9912|Z|102; Zangarmarsh|M|78.5,62.0|N|To Ysiel Windsinger.|
-A Disturbance at Umbrafen Lake|QID|9716|Z|102; Zangarmarsh|M|78.5,62.0|N|From Ysiel Windsinger.|
-A Warden Hamoot|QID|9778|LEAD|9728|Z|102; Zangarmarsh|M|78.4,62.1|N|From Ysiel Windsinger.|
-A Checking Up|QID|29566|M|78.40,62.10|Z|102; Zangarmarsh|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
-T Warden Hamoot|QID|9778|Z|102; Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
-A A Warm Welcome|QID|9728|Z|102; Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
-R Swamprat Post|ACTIVE|10103|N|To Swamprat Post in the northeast.|Z|102; Zangarmarsh|M|85,55|
-f Swamprat Post|ACTIVE|10103|N|Grab the flight path From Gur'zil.|Z|102; Zangarmarsh|M|84.77,55.11|
-T Report to Zurai|QID|10103|Z|102; Zangarmarsh|M|85.5,55.0|N|To Zurai.|
+R Cenarion Refuge|QID|9747|N|Follow the road west, you'll come to Cenarion Refuge.  While you are here, this guide has you pick up quests so you can fly back next time instead of running.|Z|1946; Zangarmarsh|M|80.5,64.0|
+A The Umbrafen Tribe|QID|9747|Z|1946; Zangarmarsh|M|80.5,64.0|N|From Ikeyen.|
+A Plants of Zangarmarsh|QID|9802|Z|1946; Zangarmarsh|M|80.3,64.2|N|From Lauranna Thar'well.|
+A Leader of the Darkcrest|QID|9730|Z|1946; Zangarmarsh|M|79.1,64.9|N|From the Wanted Poster.|
+A Leader of the Bloodscale|QID|9817|Z|1946; Zangarmarsh|M|79.1,64.9|N|From the Wanted Poster.|
+A The Dying Balance|QID|9895|Z|1946; Zangarmarsh|M|78.5,63.0|N|From Lethyn Moonfire.|
+B Cenarion Spirits|QID|9472|L|29112|N|Available from the innkeeper.|Z|1946; Zangarmarsh|M|78.5,63.0|
+T The Cenarion Expedition|QID|9912|Z|1946; Zangarmarsh|M|78.5,62.0|N|To Ysiel Windsinger.|
+A Disturbance at Umbrafen Lake|QID|9716|Z|1946; Zangarmarsh|M|78.5,62.0|N|From Ysiel Windsinger.|
+A Warden Hamoot|QID|9778|LEAD|9728|Z|1946; Zangarmarsh|M|78.4,62.1|N|From Ysiel Windsinger.|
+A Checking Up|QID|29566|M|78.40,62.10|Z|1946; Zangarmarsh|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
+T Warden Hamoot|QID|9778|Z|1946; Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
+A A Warm Welcome|QID|9728|Z|1946; Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
+R Swamprat Post|ACTIVE|10103|N|To Swamprat Post in the northeast.|Z|1946; Zangarmarsh|M|85,55|
+f Swamprat Post|ACTIVE|10103|N|Grab the flight path From Gur'zil.|Z|1946; Zangarmarsh|M|84.77,55.11|
+T Report to Zurai|QID|10103|Z|1946; Zangarmarsh|M|85.5,55.0|N|To Zurai.|
 H Falcon Watch|QID|9387|N|Hearth (or Fly) to Falcon Watch.|
 T Source of the Corruption|QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|
 T A Pilgrim's Plight|QID|9376|M|27.16,61.90|N|To Taleris Dawngazer.|
