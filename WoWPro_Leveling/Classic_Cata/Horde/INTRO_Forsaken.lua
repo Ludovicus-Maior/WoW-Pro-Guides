@@ -46,7 +46,6 @@ T Encrypted Scroll|QID|3096|M|30.87,66.19|N|To David Trias.|R|Undead|C|Rogue|
 T Hallowed Scroll|QID|3097|M|31.12,66.08|N|To Dark Cleric Duesten.|R|Undead|C|Priest|
 T Glyphic Scroll|QID|3098|M|30.91,66.13|N|To Isabella.|R|Undead|C|Mage|
 T Tainted Scroll|QID|3099|M|30.92,66.30|N|To Maximillion.|R|Undead|C|Warlock|
-R|Undead|C|Priest|
 T Trail-Worn Scroll|QID|24962|M|31.47,65.59|N|To Xavier the Huntsman.|R|Undead|C|Hunter|
 A The Thrill of the Hunt|QID|24964|M|31.47,65.59|N|From Xavier the Huntsman.|R|Undead|C|Hunter|
 A Magic Training|QID|24965|M|30.91,66.13|N|From Isabella.|R|Undead|C|Mage|
