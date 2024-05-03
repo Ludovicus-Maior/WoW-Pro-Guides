@@ -1547,7 +1547,7 @@ function WoWPro.TestGuideLoad(guidID)
             end
         end
         if not WoWPro.Guides[guidID].nextGID then
-            WoWPro:Warning("TestGuideLoad: No Next Guide defined for "..guidID)
+            WoWPro:Print("TestGuideLoad: No Next Guide defined for "..guidID)
         else
             local nextG = WoWPro:NextGuide(guidID)
             if nextG and (WoWPro.Guides[nextG] == nil) then
