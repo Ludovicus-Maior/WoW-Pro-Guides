@@ -1461,7 +1461,7 @@ function WoWPro:ResolveIcon(guide)
         if WoWPro.ProfessionSkillLines[tonumber(guide['pro'])] then
             guide.category = WoWPro.ProfessionSkillLines[tonumber(guide['pro'])].name
         else
-            WoWPro:Error("Unknown PRO Icon number [%s] for guide %s",guide['pro'],guide.GID)
+            WoWPro:dbp("Unknown PRO Icon number [%s] for guide %s",guide['pro'],guide.GID)
         end
         if WoWPro.RETAIL then
             -- prof1, prof2, archaeology, fishing, cooking, firstAid
