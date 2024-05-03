@@ -7,42 +7,90 @@ WoWPro:GuideName(guide,"Night Elf: Intro")
 WoWPro:GuideNextGuide(guide, 'Darkshore')
 WoWPro:GuideSteps(guide, function()
 return [[
-A The Balance of Nature|QID|28713|M|45.63,74.55|Z|1438;Teldrassil|N|From Ilthalaine.|
-C The Balance of Nature|QID|28713|M|46.71,78.45|Z|1438;Teldrassil|N|Kill Young Nightsabers.|
-T The Balance of Nature|QID|28713|M|45.63,74.55|Z|1438;Teldrassil|N|To Ilthalaine.|
-A Fel Moss Corruption|QID|28714|PRE|28713|M|45.63,74.55|Z|1438;Teldrassil|N|From Ilthalaine.|
-C Fel Moss Corruption|QID|28714|S|M|36.38,78.29|Z|1438;Teldrassil|N|Kill and loot Grells.|
-C Fel Moss Corruption|QID|28714|US|M|36.38,78.29|Z|1438;Teldrassil|N|Finish killing Grells for Fel Moss.|
-T Fel Moss Corruption|QID|28714|M|45.59,74.50|Z|1438;Teldrassil|N|To Ilthalaine.|
-A A Favor for Melithar|QID|28734|PRE|28714|M|46.30,73.50|Z|1438;Teldrassil|N|From Ilthalaine.|LEAD|28715|
-T A Favor for Melithar|QID|28734|M|45.95,72.88|Z|1438;Teldrassil|N|To Melithar Staghelm.|
-A Demonic Thieves|QID|28715|PRE|28713|M|45.95,72.88|Z|1438;Teldrassil|N|From Melithar Staghelm.|
-C Demonic Thieves|QID|28715|M|36.29,79.38|Z|1438;Teldrassil|NC|N|Collect Meltihar's Stolen Bags from the ground.|
-T Demonic Thieves|QID|28715|M|45.95,72.88|Z|1438;Teldrassil|N|To Melithar Staghelm.|
-A Priestess of the Moon|QID|28723|PRE|28714|M|46.2,73.5|Z|1438;Teldrassil|N|From Ilthalaine.|
-T Priestess of the Moon|QID|28723|M|42.50,50.49|Z|1438;Teldrassil|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|
-A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|Z|1438;Teldrassil|N|From Dentaria Silverglade.|
-C Iverron's Antidote|QID|28724|M|43.34,51.71|Z|1438;Teldrassil|N|Around the pools.|NC|
-T Iverron's Antidote|QID|28724|M|42.50,50.49|Z|1438;Teldrassil|N|To Dentaria Silverglade.|
-R Shadowthread Cave|ACTIVE|28725|M|39.15,30.51|Z|1438;Teldrassil|N|Walk inside the Cave until Tarindrella appears.|
-A The Woodland Protector|QID|28725|PRE|28724|M|44.57,81.56|Z|1438;Teldrassil|N|From Tarindrella.|
+A The Balance of Nature|QID|28713|M|57.94,39.23|Z|1438;Teldrassil|N|From Ilthalaine.|
+C The Balance of Nature|QID|28713|M|58.47,39.67|Z|1438;Teldrassil|N|Kill Young Nightsabers.|
+T The Balance of Nature|QID|28713|M|57.94,39.23|Z|1438;Teldrassil|N|To Ilthalaine.|
+A Fel Moss Corruption|QID|28714|PRE|28713|M|57.94,39.23|Z|1438;Teldrassil|N|From Ilthalaine.|
+A Demonic Thieves|QID|28715|PRE|28713|M|58.06,38.76|Z|1438;Teldrassil|N|From Melithar Staghelm.|
+C Fel Moss Corruption|QID|28714|S|M|55.65,40.11|Z|1438;Teldrassil|N|Kill and loot Grells.|
+C Demonic Thieves|QID|28715|M|55.65,40.11|Z|1438;Teldrassil|NC|N|Collect Meltihar's Stolen Bags from the ground.|
+C Fel Moss Corruption|QID|28714|US|M|55.65,40.11|Z|1438;Teldrassil|N|Finish killing Grells for Fel Moss.|
+T Fel Moss Corruption|QID|28714|M|57.94,39.23|Z|1438;Teldrassil|N|To Ilthalaine.|
+T Demonic Thieves|QID|28715|M|58.06,38.76|Z|1438;Teldrassil|N|To Melithar Staghelm.|
+
+;LVL 3 class quests
+
+A Etched Sigil|QID|3117|PRE|28714|M|58.07,38.86|Z|1438;Teldrassil|N|From Ilthalaine.|R|Night Elf|C|Hunter|
+T Etched Sigil|QID|3117|M|58.82,35.86|Z|1438;Teldrassil|N|To Ayanna Everstride.|R|Night Elf|C|Hunter|
+A A Woodsman's Training|QID|26947|PRE|3117|M|58.82,35.86|Z|1438;Teldrassil|N|From Ayanna Everstride.|R|Night Elf|C|Hunter|
+= Steady Shot|ACTIVE|26947|QO|2|M|58.82,35.86|Z|1438;Teldrassil|N|Learn Steady Shot from Ayanna Everstride.|SPELL|Steady Shot;56641|C|Hunter|R|Night Elf|
+C A Woodsman's Training|QID|26947|QO|1|M|58.83,35.82|Z|1438;Teldrassil|N|Train Steady Shot and practice it 5 times on a practice dummy.|R|Night Elf|C|Hunter|
+T A Woodsman's Training|QID|26947|M|58.83,35.82|Z|1438;Teldrassil|N|To Ayanna Everstride.|R|Night Elf|C|Hunter|
+A Priestess of the Moon|QID|28723|PRE|28714|M|58.82,35.80|Z|1438;Teldrassil|N|From Ayanna Everstride.|R|Night Elf|C|Hunter|
+
+A Verdant Sigil|QID|3120|PRE|28714|M|58.07,38.86|Z|1438;Teldrassil|N|From Ilthalaine.|R|Night Elf|C|Druid|
+T Verdant Sigil|QID|3120|M|58.2,34.8|Z|1438;Teldrassil|N|To Mardant Strongoak.|R|Night Elf|C|Druid|
+A Rejuvenating Touch|QID|26948|PRE|3120|M|58.2,34.8|Z|1438;Teldrassil|N|From Mardant Strongoak.|R|Night Elf|C|Druid|
+= Rejuvenation|ACTIVE|26948|QO|2|M|58.2,34.8|Z|1438;Teldrassil|N|Learn Rejuvenation from Mardant Strongoak.|SPELL|Rejuvenation;774|C|Druid|R|Night Elf|
+C Rejuvenating Touch|QID|26948|QO|1|Z|1438;Teldrassil|N|Train Rejuvenation. Use it to heal a Wounded Sentinel.|R|Night Elf|C|Druid|
+T Rejuvenating Touch|QID|26948|M|58.2,34.8|Z|1438;Teldrassil|N|To Mardant Strongoak.|R|Night Elf|C|Druid|
+A Priestess of the Moon|QID|28723|PRE|28714|M|58.2,34.8|Z|1438;Teldrassil|N|From Mardant Strongoak.|R|Night Elf|C|Druid|
+
+A Forbidden Sigil|QID|26841|PRE|28714|M|58.07,38.86|Z|1438;Teldrassil|N|From Ilthalaine.|R|Night Elf|C|Mage|
+T Forbidden Sigil|QID|26841|M|58.4,35.6|Z|1438;Teldrassil|N|To Rhyanda.|R|Night Elf|C|Mage|
+A Arcane Missles|QID|26940|PRE|26841|M|58.4,35.6|Z|1438;Teldrassil|N|From Rhyanda.|R|Night Elf|C|Mage|
+= Arcane Missiles|ACTIVE|26940|QO|2|M|58.4,35.6|Z|1438;Teldrassil|N|Learn Arcane Missiles from Rhyanda.|SPELL|Arcane Missiles;5143|C|Mage|R|Night Elf|
+C Arcane Missiles|QID|26940|QO|1|M|58.83,35.82|Z|1438;Teldrassil|N|Train Arcane Missles. Use it 5 times on Training Dummy.|R|Night Elf|C|Mage|
+T Arcane Missiles|QID|26940|M|58.4,35.6|Z|1438;Teldrassil|N|To Rhyanda.|R|Night Elf|C|Mage|
+A Priestess of the Moon|QID|28723|PRE|28714|M|58.4,35.6|Z|1438;Teldrassil|N|From Rhyanda.|R|Night Elf|C|Mage|
+
+A Simple Sigil|QID|3116|PRE|28714|M|58.07,38.86|Z|1438;Teldrassil|N|From Ilthalaine.|R|Night Elf|C|Warrior|
+T Simple Sigil|QID|3116|M|58.8,33.8|Z|1438;Teldrassil|N|To Alyissia.|R|Night Elf|C|Warrior|
+A Learning New Techniques|QID|26945|PRE|3116|M|58.8,33.8|Z|1438;Teldrassil|N|From Alyissia.|R|Night Elf|C|Warrior|
+= Charge|ACTIVE|26945|QO|2|M|58.8,33.8|Z|1438;Teldrassil|N|Learn Charge from Alyissia.|SPELL|Charge;100|C|Warrior|R|Night Elf|
+C Learning New Techniques|QID|26945|QO|1|M|58.2,34.8|Z|1438;Teldrassil|N|Train Charge. Use it 5 times on Training Dummy.|R|Night Elf|C|Warrior|
+T Learning New Techniques|QID|26945|M|58.8,33.8|Z|1438;Teldrassil|N|To Alyissia.|R|Night Elf|C|Warrior|
+A Priestess of the Moon|QID|28723|PRE|28714|M|58.8,33.8|Z|1438;Teldrassil|N|From Alyissia.|R|Night Elf|C|Warrior|
+
+A Hallowed Sigil|QID|3119|PRE|28714|M|58.07,38.86|Z|1438;Teldrassil|N|From Ilthalaine.|R|Night Elf|C|Priest|
+T Hallowed Sigil|QID|3119|M|58.4,35.6|Z|1438;Teldrassil|N|To Shanda.|R|Night Elf|C|Priest|
+A Healing for the Wounded|QID|26949|PRE|3119|M|58.4,35.6|Z|1438;Teldrassil|N|From Shanda.|R|Night Elf|C|Priest|
+= Flash Heal|ACTIVE|26949|QO|2|M|58.4,35.6|Z|1438;Teldrassil|N|Learn Flash Heal from Shanda.|SPELL|Flash Heal;2061|C|Priest|R|Night Elf|
+C Healing for the Wounded|QID|26949|QO|1|Z|1438;Teldrassil|N|Train Flash Heal. Use it to heal 5 Wounded Sentinels.|R|Night Elf|C|Priest|
+T Healing for the Wounded|QID|26949|M|58.4,35.6|Z|1438;Teldrassil|N|To Shanda.|R|Night Elf|C|Priest|
+A Priestess of the Moon|QID|28723|PRE|28714|M|58.4,35.6|Z|1438;Teldrassil|N|From Shanda.|R|Night Elf|C|Priest|
+
+A Encrypted Sigil|QID|3118|PRE|28714|M|58.07,38.86|Z|1438;Teldrassil|N|From Ilthalaine.|R|Night Elf|C|Rogue|
+T Encrypted Sigil|QID|3118|M|58.8,33.9|Z|1438;Teldrassil|N|To Frahun Shadewhisper.|R|Night Elf|C|Rogue|
+A A Rogue's Advantage|QID|26946|PRE|3118|M|58.8,33.9|Z|1438;Teldrassil|N|From Frahun Shadewhisper.|R|Night Elf|C|Rogue|
+= Eviscerate|ACTIVE|26946|QO|2|M|58.8,33.9|Z|1438;Teldrassil|N|Learn Eviscerate from Frahun Shadewhisper.|SPELL|Eviscerate;2098|C|Rogue|R|Night Elf|
+C A Rogue's Advantage|QID|26946|QO|1|M|58.83,35.82|Z|1438;Teldrassil|N|Train Eviscerate. Use it 5 times on Training Dummy.|R|Night Elf|C|Rogue|
+T A Rogue's Advantage|QID|26946|M|58.8,33.9|Z|1438;Teldrassil|N|To Frahun Shadewhisper.|R|Night Elf|C|Rogue|
+A Priestess of the Moon|QID|28723|PRE|28714|M|58.8,33.9|Z|1438;Teldrassil|N|From Frahun Shadewhisper.|R|Night Elf|C|Rogue|
+
+T Priestess of the Moon|QID|28723|M|57.20,33.31|Z|1438;Teldrassil|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|
+A Iverron's Antidote|QID|28724|PRE|28723|M|57.20,33.31|Z|1438;Teldrassil|N|From Dentaria Silverglade.|
+C Iverron's Antidote|QID|28724|M|57.20,33.31|Z|1438;Teldrassil|N|Around the pools.|NC|
+T Iverron's Antidote|QID|28724|M|57.20,33.31|Z|1438;Teldrassil|N|To Dentaria Silverglade.|
+R Shadowthread Cave|ACTIVE|28725|M|56.35,28.15|Z|1438;Teldrassil|N|Walk inside the Cave until Tarindrella appears.|
+A The Woodland Protector|QID|28725|PRE|28724|M|56.35,28.15|Z|1438;Teldrassil|N|From Tarindrella.|
 T The Woodland Protector|QID|28725|M|PLAYER|Z|1438;Teldrassil|N|To Tarindrella.|
-A Webwood Corruption|QID|28726|PRE|28725|Z|1438;Teldrassil|N|From Tarindrella.||
-C Webwood Corruption|QID|28726|M|38.93,6.89|Z|1438;Teldrassil|N|Tarindrella will accompany you.|
+A Webwood Corruption|QID|28726|PRE|28725|M|PLAYER|Z|1438;Teldrassil|N|From Tarindrella.||
+C Webwood Corruption|QID|28726|M|55.47,25.10|Z|1438;Teldrassil|N|Tarindrella will accompany you.|
 T Webwood Corruption|QID|28726|M|PLAYER|Z|1438;Teldrassil|N|Tarindrella should still be with you. Turn in to her.|
 A Vile Touch|QID|28727|PRE|28726|M|PLAYER|Z|1438;Teldrassil|N|From Tarindrella. She's still with you.|
-C Vile Touch|QID|28727|QO|1|M|44.38,28.48|Z|1438;Teldrassil|N|Kill Gilthyiss the Vile.|
+C Vile Touch|QID|28727|QO|1|M|56.38,23.29|Z|1438;Teldrassil|N|Kill Gilthyiss the Vile.|
 T Vile Touch|QID|28727|M|PLAYER|Z|1438;Teldrassil|N|To Tarindrella. She's still with you.|
-A Signs of Things to Come|QID|28728|PRE|28727|NC|Z|1438;Teldrassil|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|
-T Signs of Things to Come|QID|28728|M|42.50,50.49|Z|1438;Teldrassil|N|To Dentaria Silverglade.|
-A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|Z|1438;Teldrassil|M|42.50,50.49|N|From Dentaria Silverglade.|
-C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|50.29,33.54|Z|1438;Teldrassil|NC|N|Use the Phial at the moonwell.|
-T Teldrassil: Crown of Azeroth|QID|28729|M|42.50,50.49|Z|1438;Teldrassil|N|To Dentaria Silverglade.|
-A Precious Waters|QID|28730|PRE|28729|M|42.50,50.49|Z|1438;Teldrassil|N|From Dentaria Silverglade.|
-T Precious Waters|QID|28730|M|41.72,63.58;47.20,55.96|CS|Z|1438;Teldrassil|N|Up the ramp to Tenaron Stormgrip.|
+A Signs of Things to Come|QID|28728|PRE|28727|M|PLAYER|Z|1438;Teldrassil|N|From Tarindrella. She'll teleport you back to Dentaria Silverglade.|
+T Signs of Things to Come|QID|28728|M|57.20,33.31|Z|1438;Teldrassil|N|To Dentaria Silverglade.|
+A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|Z|1438;Teldrassil|M|57.20,33.31|N|From Dentaria Silverglade.|
+C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|59.11,29.11|Z|1438;Teldrassil|NC|N|Use the Phial at the moonwell.|
+T Teldrassil: Crown of Azeroth|QID|28729|M|57.20,33.31|Z|1438;Teldrassil|N|To Dentaria Silverglade.|
+A Precious Waters|QID|28730|PRE|28729|M|57.20,33.31|Z|1438;Teldrassil|N|From Dentaria Silverglade.|
+T Precious Waters|QID|28730|M|58.37,34.57|Z|1438;Teldrassil|N|Up the ramp to Tenaron Stormgrip.|
 A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.20,55.96|Z|1438;Teldrassil|N|From Tenaron Stormgrip.|
-r Aldrassil|QID|28731|M|49.40,65.85|Z|1438;Teldrassil|N|Repair, restock and sell unwanted items @ Andiss just inside Aldrassil.|R|NightElf|
-A Dolanaar Delivery|QID|2159|M|54.56,84.72|Z|1438;Teldrassil|N|From Porthannius.|
+r Aldrassil|QID|28731|M|59.04,36.23|Z|1438;Teldrassil|N|Repair, restock and sell unwanted items @ Andiss just inside Aldrassil.|R|NightElf|
+A Dolanaar Delivery|QID|2159|M|60.17,41.66|Z|1438;Teldrassil|N|From Porthannius.|
 ;Teldrassil to Dolanaar
 A Zenn's Bidding|QID|488|Z|1438;Teldrassil|M|59.55,49.20|N|From Zenn Foulhoof.|
 C Zenn's Bidding|QID|488|Z|1438;Teldrassil|M|61.01,52.36|N|Kill Strigid Owls, Webwood Lurkers and Nightsabers.|
