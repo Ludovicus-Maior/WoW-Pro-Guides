@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'WoWPro Team', 'Alliance', 4)
-WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideLevels(guide, 5, 10)
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideContent(guide, 'Intro')
 WoWPro:GuideNickname(guide, "Dwarf & Gnome: Intro (Part 2)")
