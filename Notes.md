@@ -1,3 +1,21 @@
+# Release 2024.05.03.A
+## Bug Fixes
+* *WoWPro: Unknown PRO Icon number [XXX] for guide YYY*, is now a debug message
+* Added Leveling addon for Cata.  Other addons are disabled by default for now.
+* Fake Legacy Guide Picker looks much better!
+## Known *deficiencies*
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Added 179 Cata guides.
+* Garrison coordinates are back!  Campaign and Alliance Building tweaks.
+* Daily: Harrison Shattered Sun updates
+* Retail Leveling Alliance updates: BFA War Campaign, Grizzly Hills, Icecrown, Storm Peaks
+* Retail Leveling Neutral updates: Mount Hyjal, Deepholm, Coalition of Flames, Druid Order Hall, Suramar, Sholazar Basin, Zul'Drak
+* Retail Leveling Horde updates: Icecrown
+* Retail Leveling Time Running Guides: Dread Wastes, Jade Forest, Krasrang Wilds, Kun Lain Summit, Towlong Steppes, Valley of the Four Winds
+* Vanilla Leveling: Alliance 50-55, Horde 12-21 The Barrens
+* Wrath Leveling: Human Intro
+
 # Release 2024.03.20.A
 ## Bug Fixes
 * A Faux old style Guide list has been added.  Not yet great, but good enough.
