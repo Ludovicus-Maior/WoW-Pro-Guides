@@ -3,7 +3,7 @@
 
 ADDON_DIRS=(WoWPro WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements)
 TRIAL=(WoWPro WoWPro_Leveling)
-ZIP_EXTRAS=("-vanilla" "-tbc" "-wrath" "-mainline")
+ZIP_EXTRAS=("-vanilla" "-cata" "-mainline")
 
 # Allow debugging this horrid thing
 if [ "$1" == "--dry" ] ; then
