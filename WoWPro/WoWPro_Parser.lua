@@ -1010,7 +1010,7 @@ function WoWPro.ParseSteps(steps)
         nguide = WoWPro:NextGuide(GID)
         if nguide then
             if WoWProDB.profile.autoload then
-                fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|NOCACHE|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
+                fini = ("D Onwards|N|This ends %s.\n%s is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|%s|NOCACHE|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
             end
         else
             fini = ("D Finished|N|This ends %s. There is no next guide, so you can pick the next from the Guide List.|NOCACHE|"):format(WoWPro:GetGuideName(GID))
