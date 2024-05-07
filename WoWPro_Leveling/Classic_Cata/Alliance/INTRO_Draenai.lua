@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Azuremyst Isle (Draenei)", "WoWPro Team", "Alliance", 4)
-WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideLevels(guide, 1, 5)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideContent(guide, 'Intro')
 WoWPro:GuideNickname(guide, "Draenei: Intro")
@@ -10,88 +10,127 @@ return [[
 
 R The Exodar|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|Z|1947; The Exodar|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|R|-Draenei|
 f The Exodar|M|54.22,36.55|Z|1947; The Exodar|N|At Stephanos.|R|-Draenei|
-A You Survived!|QID|9279|LEAD|9280|M|61.16,29.49|Z|1943; Azuremyst Isle|N|From Megelon.|R|Draenei|
-T You Survived!|QID|9279|M|52.73,35.90|Z|1943; Azuremyst Isle|N|To Proenitus.|R|Draenei|
-A Replenishing the Healing Crystals|QID|9280^9369|M|52.73,35.90|Z|1943; Azuremyst Isle|N|From Proenitus.|
-C Replenishing the Healing Crystals|QID|9280^9369|M|51.2,31.3|Z|1943; Azuremyst Isle|L|22889 6|ITEM|22889|N|Vale Moths.|
-T Replenishing the Healing Crystals|QID|9280^9369|M|52.73,35.90|Z|1943; Azuremyst Isle|N|To Proenitus.|
-A Urgent Delivery!|QID|9409|PRE|9280^9369|M|52.73,35.90|Z|1943; Azuremyst Isle|N|From Proenitus.|
-T Urgent Delivery!|QID|9409|M|51.8,42.0|Z|1943; Azuremyst Isle|N|To Zaldunn inside the building (he wanders around inside the place a bit).|
-A Rescue the Survivors!|QID|9283|PRE|9409|M|52.21,43.32|Z|1943; Azuremyst Isle|N|From Zaldunn.|R|Draenei|
-A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|52.73,35.90|Z|1943; Azuremyst Isle|N|From Proenitus.|
-T Botanist Taerix|QID|9371|M|49.87,37.35|Z|1943; Azuremyst Isle|N|To Botanist Taerix around the corner near the Training dummies.|
-A Volatile Mutations|QID|10302|PRE|9280^9369|M|49.87,37.35|Z|1943; Azuremyst Isle|N|From Botanist Taerix, back outside.|
-C Rescue the Survivors!|QID|9283|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|T|Draenei Survivor|R|Draenei|S|NC|
-C Volatile Mutations|QID|10302|M|43.51,33.10|Z|1943; Azuremyst Isle|N|Kill Volatile Mutations.|
-C Rescue the Survivors!|QID|9283|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|T|Draenei Survivor|R|Draenei|US|NC|
-T Volatile Mutations|QID|10302|M|49.87,37.35|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
-A What Must Be Done...|QID|9293|PRE|10302|M|49.87,37.35|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
-A Botanical Legwork|QID|9799|PRE|10302|M|49.72,37.54|Z|1943; Azuremyst Isle|N|From Apprentic Vishael.|
-C Botanical Legwork|QID|9799|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Collect Corrupted Flowers.|S|NC|
-C What Must Be Done...|QID|9293|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Kill Mutated Root Lashers.|
-C Botanical Legwork|QID|9799|M|39.1,43.7|Z|1943; Azuremyst Isle|N|Collect Corrupted Flowers.|US|NC|
-T Botanical Legwork|QID|9799|M|49.72,37.54|Z|1943; Azuremyst Isle|N|To Apprentic Vishael.|
-T What Must Be Done...|QID|9293|M|49.87,37.35|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
-A Healing the Lake|QID|9294|PRE|9293|M|49.87,37.35|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
-T Rescue the Survivors!|QID|9283|M|51.8,42.0|Z|1943; Azuremyst Isle|N|To wandering Zaldunn.|R|Draenei|
-C Healing the Lake|QID|9294|M|45.5,64.6|Z|1943; Azuremyst Isle|N|Head south to the giant crystal, and use the Neutralizing Agent.|U|22955|NC|
-T Healing the Lake|QID|9294|M|49.87,37.35|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
-A Vindicator Aldar|QID|10304|PRE|9294|LEAD|9303^37444|M|49.87,37.35|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
-T Vindicator Aldar|QID|10304|M|50.65,48.73|Z|1943; Azuremyst Isle|N|Speak to Vindicator Aldar.|
-A Spare Parts|QID|37445|PRE|10302|M|50.51,47.87|Z|1943; Azuremyst Isle|N|From Technician Zhanaa.|
-A Inoculation|QID|37444^9303|PRE|10302|M|50.65,48.73|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
-r Sell junk and repair|QID|37445|M|49.99,47.15|Z|1943; Azuremyst Isle|N|At Mura, close this step when done.|
-C Inoculation|QID|37444^9303|M|53,65|Z|1943; Azuremyst Isle|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|T|Nestlewood Owlkin|U|22962|S|NC|
-C Spare Parts|QID|37445|M|58,72|Z|1943; Azuremyst Isle|N|Into the hills, through the cave. The parts are spread all over the camp.|NC|
-C Inoculation|QID|37444^9303|M|53,65|Z|1943; Azuremyst Isle|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|T|Nestlewood Owlkin|U|22962|US|NC|
-H Azuremyst Isle|QID|37445|Z|1943; Azuremyst Isle|N|Hearth back to Azuremyst Isle, or run back if you have already used your hearth before and it has not yet cooled down.|
-T Inoculation|QID|37444^9303|M|50.65,48.73|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
-A The Missing Scout|QID|9309|PRE|9303|M|50.65,48.73|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
-T Spare Parts|QID|37445|M|50.51,47.87|Z|1943; Azuremyst Isle|N|To Technician Zhanaa.|
-T The Missing Scout|QID|9309|M|33.88,69.42|Z|1943; Azuremyst Isle|N|To Tolaan.|
-A The Blood Elves|QID|10303|M|33.88,69.42|PRE|9309|Z|1943; Azuremyst Isle|N|From Tolaan.|
-C The Blood Elves|QID|10303|M|29,73|Z|1943; Azuremyst Isle|N|Kill Blood Elf Scouts.|
-T The Blood Elves|QID|10303|M|33.88,69.42|Z|1943; Azuremyst Isle|N|To Tolaan.|
-A Blood Elf Spy|QID|9311|PRE|10303|M|33.88,69.42|Z|1943; Azuremyst Isle|N|From Tolaan.|
-C Blood Elf Spy|QID|9311|M|27.79,80.43|Z|1943; Azuremyst Isle|N|Find Surveyor Candress in front of a tent at the top of the ridge.|
-C Blood Elf Plans|QID|9311|M|27.79,80.43|Z|1943; Azuremyst Isle|L|24414|N|Loot Surveyor Candress's body to get the attack plans.|
-A Blood Elf Plans|QID|9798|PRE|9309|Z|1943; Azuremyst Isle|N|From a drop from Surveyor Candress.|U|24414|
-T Blood Elf Spy|QID|9311|M|50.65,48.73|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
-T Blood Elf Plans|QID|9798|M|50.65,48.73|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
-A The Emitter|QID|9312|M|50.65,48.73|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
-T The Emitter|QID|9312|M|50.51,47.87|Z|1943; Azuremyst Isle|N|To Technician Zhanaa.|
-A Travel to Watch|QID|9313|PRE|9312|M|50.51,47.87|Z|1943; Azuremyst Isle|N|From Technician Zhanaa.|
-r Sell junk and repair|QID|9452|M|49.99,47.15|Z|1943; Azuremyst Isle|N|At Mura (close when done).|
-R Azuremyst Isle|QID|9314|M|28,55;19.25,54.32|CS|Z|1943; Azuremyst Isle|N|Run for a fairly long way almost directly west, and up the trail heading out of Azuremyst Isle.|
-A Word from Azure Watch |QID|9314|M|64.49,54.04|Z|1943; Azuremyst Isle|N|From Aeun.|
-A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|Z|1943; Azuremyst Isle|N|From Diktynna.|
-N Fishing Training|QID|9452|M|61.1,54.2|Z|1943; Azuremyst Isle|N|You could take this opportunity to learn fishing if you so desire... click to close.|
-C Red Snapper - Very Tasty!|QID|9452|M|62.31,55.11|Z|1943; Azuremyst Isle|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an Angry Murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.|U|23654|
-T Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|Z|1943; Azuremyst Isle|N|To Diktynna.|
-A Find Acteon!|QID|9453|PRE|9452|M|61.1,54.2|Z|1943; Azuremyst Isle|N|From Diktynna.|
-T Find Acteon!|QID|9453|M|49.8,51.9|Z|1943; Azuremyst Isle|N|To Acteon at Azure Watch.  Once there, learn any new skills that you need.|C|Hunter|
-T Find Acteon!|QID|9453|M|49.8,51.9|Z|1943; Azuremyst Isle|N|To Acteon at Azure Watch.|C|Shaman,Paladin,Priest,Mage,Warrior,Druid|
-A The Great Moongraze Hunt|QID|9454|M|49.8,51.9|Z|1943; Azuremyst Isle|N|From Acteon.|
-T Travel to Azure Watch|QID|9313|M|48.7,50.3|Z|1943; Azuremyst Isle|N|To Technician Dyvuun.|
-T Word from Azure Watch|QID|9314|M|48.3,49.2|Z|1943; Azuremyst Isle|N|To Caregiver Chellan.|
-A Beds, Bandages, and Beyond|QID|9603|N|From Caregive Chellan.|R|Draenei|
-h Azure Watch|ACTIVE|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
-A Medicinal Purpose|QID|9463|M|48.4,51.8|Z|1943; Azuremyst Isle|N|From Anchorite Fateema.|R|Draenei|
+A You Survived!|QID|9279|LEAD|9280|M|84.22,43.00|Z|1943; Azuremyst Isle|N|From Megelon.|R|Draenei|
+T You Survived!|QID|9279|M|80.42,45.89|Z|1943; Azuremyst Isle|N|To Proenitus.|R|Draenei|
+A Replenishing the Healing Crystals|QID|9280^9369|M|80.42,45.89|Z|1943; Azuremyst Isle|N|From Proenitus.|
+C Replenishing the Healing Crystals|QID|9280^9369|M|78.57,45.00|Z|1943; Azuremyst Isle|L|22889 6|ITEM|22889|N|Vale Moths.|T|Vale Moth|
+T Replenishing the Healing Crystals|QID|9280^9369|M|80.42,45.89|Z|1943; Azuremyst Isle|N|To Proenitus.|
+; lv 2
+A Urgent Delivery!|QID|9409|PRE|9280^9369|M|80.42,45.89|Z|1943; Azuremyst Isle|N|From Proenitus.|
+T Urgent Delivery!|QID|9409|M|79.96,48.68|Z|1943; Azuremyst Isle|N|To Zaldunn inside the building (he wanders around inside the place a bit).|
+A Rescue the Survivors!|QID|9283|PRE|9409|M|79.96,48.68|Z|1943; Azuremyst Isle|N|From Zaldunn.|R|Draenei|
+A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|80.42,45.89|Z|1943; Azuremyst Isle|N|From Proenitus.|
+T Botanist Taerix|QID|9371|M|79.14,46.54|Z|1943; Azuremyst Isle|N|To Botanist Taerix around the corner near the Training dummies.|
+A Volatile Mutations|QID|10302|PRE|9280^9369|M|79.14,46.54|Z|1943; Azuremyst Isle|N|From Botanist Taerix, back outside.|
+C Rescue the Survivors!|QID|9283|M|76.55,42.38|Z|1943; Azuremyst Isle|N|Target a Draenei Survivor to the west of the Crash Site and cast Gift of the Naaru on them.|T|Draenei Survivor|R|Draenei|S|NC|
+C Volatile Mutations|QID|10302|M|78.25,43.30|Z|1943; Azuremyst Isle|N|Kill Volatile Mutations.|
+C Rescue the Survivors!|QID|9283|M|76.55,42.38|Z|1943; Azuremyst Isle|N|Target a Draenei Survivor to the west of the Crash Site and cast Gift of the Naaru on them.|T|Draenei Survivor|R|Draenei|US|NC|
+T Volatile Mutations|QID|10302|M|79.14,46.54|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
+A What Must Be Done...|QID|9293|PRE|10302|M|79.14,46.54|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
+A Botanical Legwork|QID|9799|PRE|10302|M|79.07,46.63|Z|1943; Azuremyst Isle|N|From Apprentic Vishael.|
+C Botanical Legwork|QID|9799|M|74.47,48.15|Z|1943; Azuremyst Isle|L|24416 3|N|Collect Corrupted Flowers.|S|NC|
+C What Must Be Done...|QID|9293|M|74.47,48.15|Z|1943; Azuremyst Isle|L|22934 10|ITEM|22934|N|Mutated Root Lashers.|
+C Botanical Legwork|QID|9799|M|74.47,48.15|Z|1943; Azuremyst Isle|L|24416 3|N|Collect Corrupted Flowers.|US|NC|
+T Botanical Legwork|QID|9799|M|79.07,46.63|Z|1943; Azuremyst Isle|N|To Apprentic Vishael.|
+T What Must Be Done...|QID|9293|M|79.14,46.54|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
+; lv 3
+A Healing the Lake|QID|9294|PRE|9293|M|79.14,46.54|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
+T Rescue the Survivors!|QID|9283|M|79.96,48.68|Z|1943; Azuremyst Isle|N|To wandering Zaldunn.|R|Draenei|
+; ** Lv 3 Class quests (Trainer intro)
+; ** Warrior
+A Your First Lesson|QID|26958|M|79.59,49.45|Z|1943; Azuremyst Isle|N|From Kore.|C|Warrior|
+= Charge|QID|26958|QO|2|M|79.59,49.45|Z|1943; Azuremyst Isle|N|Learn Charge from Kore.|SPELL|Charge;100|C|Warrior|
+C Your First Lesson|QID|26958|QO|1|M|80.08,45.77|Z|1943; Azuremyst Isle|N|Target a Training Dummy on the northwest side of the Crash Site and use Charge.|T|Training Dummy|C|Warrior|
+T Your First Lesson|QID|26958|M|79.59,49.45|Z|1943; Azuremyst Isle|N|To Kore.|C|Warrior|
+; ** Paladin
+A The Light's Power|QID|26966|M|79.75,48.34|Z|1943; Azuremyst Isle|N|From Aurelon.|C|Paladin|
+= Judgement|ACTIVE|26966|QO|2|M|79.75,48.34|Z|1943; Azuremyst Isle|N|From Aurelon.|SPELL|Judgement;20271|C|Paladin|
+= Seal of Righteousness|ACTIVE|26966|QO|3|M|79.75,48.34|Z|1943; Azuremyst Isle|N|From Aurelon.|SPELL|Seal of Righteousness;20154|C|Paladin|
+C The Light's Power|QID|26966|QO|1|M|80.08,45.77|Z|1943; Azuremyst Isle|N|After applying Seal of Righteousness, target a Training Dummy on the northwest side of the Crash Site and use Judgement.|T|Target Dummy|C|Paladin|
+T The Light's Power|QID|26966|M|79.75,48.34|Z|1943; Azuremyst Isle|N|To Aurelon|C|Paladin|
+; ** Mage
+A Arcane Missiles|QID|26968|M|79.58,48.77|Z|1943; Azuremyst Isle|N|From Valaatu.|C|Mage|
+= Arcane Missiles|ACTIVE|26968|QO|2|M|79.58,48.77|Z|1943; Azuremyst Isle|N|Learn Arcane Missiles from Valaatu.|SPELL|Arcane Missiles;5143|
+C Arcane Missiles|QID|26968|QO|1|M|80.08,45.77|Z|1943; Azuremyst Isle|N|Target a Training Dummy on the northwest side of the Crash Site and cast Arcane Missiles 2 times.|T|Training Dummy|C|Mage|
+T Arcane Missiles|QID|26968|M|79.58,48.77|Z|1943; Azuremyst Isle|N|To Valaatu.|C|Mage|
+; ** Shaman
+A Primal Strike|QID|26969|M|79.28,49.12|Z|1943; Azuremyst Isle|N|From Firmanvaar.|C|Shaman|
+= Primal Strike|QID|26969|QO|2|M|79.28,49.12|Z|1943; Azuremyst Isle|N|Learn Primal Strike from Firmanvaar.|SPELL|Primal Strike;73899|R|Orc|C|Shaman|
+C Primal Strike|QID|26969|QO|1|M|80.08,45.77|Z|1943; Azuremyst Isle|N|Target a Training Dummy on the northwest side of the Crash Site and use Primal Strike 3 times.|C|Shaman|
+T Primal Strike|QID|26969|M|79.28,49.12|Z|1943; Azuremyst Isle|N|To Firmanvaar.|C|Shaman|
+; ** Hunter
+A Steadying Your Shot|QID|26963|M|79.88,49.71|Z|1943; Azuremyst Isle|N|From Keilnei.|C|Hunter|
+= Steady Shot|ACTIVE|26963|M|79.88,49.71|Z|1943; Azuremyst Isle|N|Learn Steady Shot from Keilnei.|SPELL|Steady Shot;56641|C|Hunter|
+C Steadying Your Shot|QID|26963|QO|1|M|80.08,45.77|Z|1943; Azuremyst Isle|N|Target a Training Dummy on the northwest side of the Crash Site and use Steady Shot 5 times.|C|Hunter|
+T Steadying Your Shot|QID|26963|M|79.88,49.71|Z|1943; Azuremyst Isle|N|To Keilnei.|C|Hunter|
+; ** Priest
+A Aiding the Injured|QID|26970|M|79.96,48.68|Z|1943; Azuremyst Isle|N|From wandering Zalduun.|C|Priest|
+= Flash Heal|ACTIVE|26200|QO|2|M|79.96,48.68|Z|1943; Azuremyst Isle|N|Learn Flash Heal from Zalduun.|SPELL|Flash Heal;2061|C|Priest|
+C Aiding the Injured|QID|26970|QO|1|M|79.96,48.68|Z|1943; Azuremyst Isle|N|Target an Injured Draenei inside the building at the Crash Site and use Flash Heal 5 times.|T|Injured Draenei|C|Priest|
+T Aiding the Injured|QID|26970|M|79.96,48.68|Z|1943; Azuremyst Isle|N|To Zalduun.|C|Priest|
+; **
+; lv 4
+= Level 4 Training|ACTIVE|9294|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Priest,Shaman,Warlock|
+A Spare Parts|QID|9305|PRE|10302|M|79.42,51.24|Z|1943; Azuremyst Isle|N|From Technician Zhanaa.|LVL|4|
+C Healing the Lake|QID|9294|M|77.51,58.15|Z|1943; Azuremyst Isle|N|Head south to the Irradiated Power Crystal in Silverline Lake and click on it to use the Neutralizing Agent.|U|22955|NC|
+T Healing the Lake|QID|9294|M|79.14,46.54|Z|1943; Azuremyst Isle|N|To Botanist Taerix.|
+A Vindicator Aldar|QID|10304|PRE|9294|LEAD|9303^37444|M|79.14,46.54|Z|1943; Azuremyst Isle|N|From Botanist Taerix.|
+T Vindicator Aldar|QID|10304|M|79.49,51.61|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
+A Inoculation|QID|9303|PRE|10302|M|79.49,51.61|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
+r Sell junk and repair|ACTIVE|9305|M|79.25,50.97|Z|1943; Azuremyst Isle|N|At Mura.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+C Inoculation|QID|9303|M|85.32,65.95|Z|1943; Azuremyst Isle|N|Go to the Nestlewood Thicket and use your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|T|Nestlewood Owlkin|U|22962|S|NC|
+R Nestlewood Hills|ACTIVE|9305|M|81.16,59.04|Z|1943; Azuremyst Isle|N|Make your way east through Nestlewood Thicket.|
+C Spare Parts|QID|9305|M|82.99,61.67;85.32,65.95|CS|Z|1943; Azuremyst Isle|L|22978 4|N|The parts are spread all over the camp found on the other side of the tunnel at the top of the hill.|NC|
+C Inoculation|QID|9303|M|85.32,65.95|Z|1943; Azuremyst Isle|N|Finish using your Inoculating Crystal on the Nestlewood Owlkin (not the mutated ones).|T|Nestlewood Owlkin|U|22962|US|NC|
+H Ammen Vale|ACTIVE|9303|M|79.16,51.85|Z|1943; Azuremyst Isle|N|Hearth back to Ammen Vale, or run back if your hearth is on cooldown.|
+T Inoculation|QID|9303|M|79.49,51.61|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
+A The Missing Scout|QID|9309|PRE|9303|M|79.49,51.61|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
+T Spare Parts|QID|9305|M|79.42,51.24|Z|1943; Azuremyst Isle|N|To Technician Zhanaa.|
+T The Missing Scout|QID|9309|M|72.00,60.85|Z|1943; Azuremyst Isle|N|To Tolaan.|
+A The Blood Elves|QID|10303|M|72.00,60.85|PRE|9309|Z|1943; Azuremyst Isle|N|From Tolaan.|
+C The Blood Elves|QID|10303|M|70.37,61.01|Z|1943; Azuremyst Isle|N|Kill Blood Elf Scouts.|T|Blood Elf Scout|
+T The Blood Elves|QID|10303|M|72.00,60.85|Z|1943; Azuremyst Isle|N|To Tolaan.|
+A Blood Elf Spy|QID|9311|PRE|10303|M|72.00,60.85|Z|1943; Azuremyst Isle|N|From Tolaan.|
+C Blood Elf Spy|QID|9311|M|69.23,65.51|Z|1943; Azuremyst Isle|N|Clear a path to the top of the ridge and kill Surveyor Candress.|T|Surveyor Candress|
+C Blood Elf Plans|QID|9311|M|69.23,65.51|Z|1943; Azuremyst Isle|L|24414|N|Loot Surveyor Candress' body.|
+A Blood Elf Plans|QID|9798|PRE|9309|M|PLAYER|CC|N|From the Blood Elf Plans you just looted from Surveyor Candress.|U|24414|
+T Blood Elf Spy|QID|9311|M|79.49,51.61|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
+T Blood Elf Plans|QID|9798|M|79.49,51.61|Z|1943; Azuremyst Isle|N|To Vindicator Aldar.|
+A The Emitter|QID|9312|M|79.49,51.61|Z|1943; Azuremyst Isle|N|From Vindicator Aldar.|
+T The Emitter|QID|9312|M|79.42,51.24|Z|1943; Azuremyst Isle|N|To Technician Zhanaa.|
+A Travel to Azure Watch|QID|9313|PRE|9312|M|79.42,51.24|Z|1943; Azuremyst Isle|N|From Technician Zhanaa.|
+= Level 5 Training|ACTIVE|9313|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|C|-Hunter|IZ|Crash Site^Ammen Vale|
+R Azuremyst Isle|QID|9314|M|28,55;19.25,54.32|CS|Z|1943; Azuremyst Isle|N||
+A Word from Azure Watch|QID|9314|M|64.49,54.04|Z|1943; Azuremyst Isle|N|From Aeun.\n[color=FF0000]NOTE: [/color]Run a fairly long distance west across Ammen Vale to the trail heading over the hill.|
+A Red Snapper - Very Tasty!|QID|9452|M|61.06,54.24|Z|1943; Azuremyst Isle|N|From Diktynna.|
+= Apprentice Fishing|ACTIVE|9452|M|61.06,54.24|Z|1943; Azuremyst Isle|N|Take this opportunity to learn fishing or manually check this step off to continue.|SPELL|Fishing;7620|
+C Red Snapper - Very Tasty!|QID|9452|M|62.31,55.11|Z|1943; Azuremyst Isle|N|Locate a School of Red Snapper along the river and use the Draenei Fishing Net.\n[color=FF0000]NOTE: [/color]You don't have to stop moving unless an Angry Murloc spawns; which you'll have to kill to loot the Red Snapper.|U|23654|
+T Red Snapper - Very Tasty!|QID|9452|M|61.06,54.24|Z|1943; Azuremyst Isle|N|To Diktynna.|
+A Find Acteon!|QID|9453|PRE|9452|M|61.06,54.24|Z|1943; Azuremyst Isle|N|From Diktynna.|
+R Azure Watch|ACTIVE|9453|M|50.69,51.63|Z|1943; Azuremyst Isle|N|Follow the road west.|
+T Find Acteon!|QID|9453|M|49.79,51.93|Z|1943; Azuremyst Isle|N|To Acteon.|
+A The Great Moongraze Hunt|QID|9454|M|49.79,51.93|Z|1943; Azuremyst Isle|N|From Acteon.|
+= Level 6 Training|ACTIVE|9454|M|PLAYER|CC|N|Do your level 6 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|C|Hunter|IZ|Azure Watch|
+T Travel to Azure Watch|QID|9313|M|48.72,50.28|Z|1943; Azuremyst Isle|N|To Technician Dyvuun.|
+T Word from Azure Watch|QID|9314|M|48.34,49.15|Z|1943; Azuremyst Isle|N|To Caregiver Chellan.|
+A Beds, Bandages, and Beyond|QID|9603|M|48.34,49.15|Z|1943; Azuremyst Isle|N|From Caregive Chellan.|R|Draenei|
+h Azure Watch|ACTIVE|9454|M|48.34,49.15|Z|1943; Azuremyst Isle|N|Set your hearth to Azure Watch with Caregive Chellan.|
+A Medicinal Purpose|QID|9463|M|48.39,51.77|Z|1943; Azuremyst Isle|N|From Anchorite Fateema.|R|Draenei|
+= First Aid|ACTIVE|9454|M|48.39,51.77|Z|1943; Azuremyst Isle|N|Learn from Anchorite Fateema.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice First Aid;3273|
 = Professions|ACTIVE|9454|M|48.68,52.34|Z|1943; Azuremyst Isle|N|If you wish, Valn will teach all Gathering and Production professions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Azure Watch|
 l Blood Elf Communication|AVAILABLE|9616|L|23910|ITEM|23910|N|Blood Elf Bandits.|LVL|5|S!US|
 A Bandits!|QID|9616|M|PLAYER|CC|N|From the Blood Elf Communication you just picked up.|U|23910|LVL|5|O|
-f Azure Watch|ACTIVE|9454|M|49.67,49.19|Z|1943; Azuremyst Isle|N|From Zaldaan.|
-C The Great Moongraze Hunt|QID|9454|M|54,61|Z|1943; Azuremyst Isle|L|23676 6|ITEM|23676|N|Moongraze Stags.|T|Moongraze Stag|S|
-C Medicinal Purpose|QID|9463|M|54,61|Z|1943; Azuremyst Isle|L|23685 8|ITEM|23685|N|Root Trappers.|T|Root Trapper|R|Draenei|S|
-C The Great Moongraze Hunt|QID|9454|M|54,61|Z|1943; Azuremyst Isle|L|23676 6|ITEM|23676|N|Moongraze Stags.|T|Moongraze Stag|US|
-C Medicinal Purpose|QID|9463|M|54,61|Z|1943; Azuremyst Isle|L|23685 8|ITEM|23685|N|Root Trappers.|T|Root Trapper|US|R|Draenei|
-T Medicinal Purpose|QID|9463|M|48.4,51.8|Z|1943; Azuremyst Isle|N|To Anchorite Fateema.|R|Draenei|
-A An Alternative Alternative|QID|9473|PRE|9463|M|48.4,51.8|Z|1943; Azuremyst Isle|N|From Daedal.|R|Draenei|
-T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|Z|1943; Azuremyst Isle|N|To Acteon.|
-A The Great Moongraze Hunt|QID|10324|PRE|9454|M|49.8,51.9|Z|1943; Azuremyst Isle|N|From Acteon.|
-C An Alternative Alternative|QID|9473|QO|1|M|48.5,55.1|Z|1943; Azuremyst Isle|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|NC|
-T An Alternative Alternative|QID|9473|M|48.4,51.8|Z|1943; Azuremyst Isle|N|To Daedal.|R|Draenei|
-A The Prophecy of Velen|QID|9505|PRE|9473|LEAD|9506|M|48.4,51.8|Z|1943; Azuremyst Isle|N|From Daedal when the short cinematic ends.|R|Draenei|
+f Azure Watch|ACTIVE|9454|M|49.71,49.11|Z|1943; Azuremyst Isle|N|From Zaldaan.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Azure Watch|
+C The Great Moongraze Hunt|QID|9454|M|54.00,61.00|Z|1943; Azuremyst Isle|L|23676 6|ITEM|23676|N|Moongraze Stags.|S|
+C Medicinal Purpose|QID|9463|M|54.00,61.00|Z|1943; Azuremyst Isle|L|23685 8|ITEM|23685|N|Root Trappers.|T|Root Trapper|R|Draenei|
+C The Great Moongraze Hunt|QID|9454|M|54.00,61.00|Z|1943; Azuremyst Isle|L|23676 6|ITEM|23676|N|Moongraze Stags.|T|Moongraze Stag|US|
+T Medicinal Purpose|QID|9463|M|48.39,51.77|Z|1943; Azuremyst Isle|N|To Anchorite Fateema.|R|Draenei|
+A An Alternative Alternative|QID|9473|PRE|9463|M|48.38,51.50|Z|1943; Azuremyst Isle|N|From Daedal.|R|Draenei|
+T The Great Moongraze Hunt|QID|9454|M|49.79,51.93|Z|1943; Azuremyst Isle|N|To Acteon.|
+A The Great Moongraze Hunt|QID|10324|PRE|9454|M|49.79,51.93|Z|1943; Azuremyst Isle|N|From Acteon.|
+C An Alternative Alternative|QID|9473|QO|1|M|48.50,55.10|Z|1943; Azuremyst Isle|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|NC|
+T An Alternative Alternative|QID|9473|M|48.38,51.50|Z|1943; Azuremyst Isle|N|To Daedal.|R|Draenei|
+A The Prophecy of Velen|QID|9505|PRE|9473|LEAD|9506|M|48.38,51.50|Z|1943; Azuremyst Isle|N|From Daedal when the short cinematic ends.|R|Draenei|
 T Beds, Bandages, and Beyond|QID|9603|M|49.67,49.17|Z|1943; Azuremyst Isle|N|To Zaldaan (the Flight Master).|R|Draenei|
 A On the Wings of a Hippogryph|QID|9604|PRE|9603|M|49.67,49.17|Z|1943; Azuremyst Isle|N|From Zaldaan.|R|Draenei|
 F The Exodar|QID|9604|M|49.67,49.17|Z|1943; Azuremyst Isle|N|Fly to the Exodar.|R|Draenei|
@@ -132,7 +171,7 @@ C The Great Moongraze Hunt|QID|10324|M|48.52,55.63|Z|1943; Azuremyst Isle|L|2367
 l Faintly Glowing Crystal|AVAILABLE|9455|M|48.26,41.43|Z|1943; Azuremyst Isle|L|23678|ITEM|23678|N|Infected Nightstalkers.|
 A Strange Findings|QID|9455|M|48.26,41.43|N|From the Faintly Glowing Crystal you just looted.|Z|1943; Azuremyst Isle|U|23678|O|
 C The Great Moongraze Hunt|QID|10324|M|49.31,43.27|Z|1943; Azuremyst Isle|L|23677 6|ITEM|23677|N|Moongraze Stags.|US|
-T The Great Moongraze Hunt|QID|10324|M|49.8,51.9|Z|1943; Azuremyst Isle|N|To Acteon.|
+T The Great Moongraze Hunt|QID|10324|M|49.79,51.93|Z|1943; Azuremyst Isle|N|To Acteon.|
 T Strange Findings|QID|9455|M|47.1,50.6|Z|1943; Azuremyst Isle|N|To Exarch Menelaous.|
 A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|M|47.1,50.6|Z|1943; Azuremyst Isle|N|From Exarch Menelaous.|
 A Learning the Language|QID|9538|M|49.4,51.0|Z|1943; Azuremyst Isle|N|From Cryptographer Aurren.|
@@ -195,10 +234,10 @@ A Chieftain Oomooroo|QID|9573|PRE|9560&9562|M|46.90,21.16|Z|1943; Azuremyst Isle
 C Chieftain Oomooroo|QID|9573|M|45.39,18.06;47.43,14.18|CS|Z|1943; Azuremyst Isle|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|
 T Chieftain Oomooroo|QID|9573|M|46.9,21.2|Z|1943; Azuremyst Isle|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|M|46.97,22.26|Z|1943; Azuremyst Isle|N|From Kurz the Revelator.|
-C The Kurken is Lurkin'|QID|9570|M|49.78,12.95|Z|1943; Azuremyst Isle|N|Go back into Stillpine Hold, this time to the left. Kill the Kurken and loot its hide.|
-T Search Stillpine Hold|QID|9565|M|50.59,11.65|Z|1943; Azuremyst Isle|N|Turn in at the red crystal.|
-A Blood Crystals|QID|9566|PRE|9565|M|50.5,11.5|Z|1943; Azuremyst Isle|N|From the Blood Crystal. Be at full health, as two owlkin will spawn behind you and attack.|
-T Blood Crystals|QID|9566|M|46.7,20.6|Z|1943; Azuremyst Isle|N|Get out of the cave. Turn the quest into High Chief Stillpine.|
+C The Kurken is Lurkin'|QID|9570|M|49.78,12.95|Z|1943; Azuremyst Isle|N|Re-enter Stillpine Hold, this time to the left. Kill the Kurken and loot its hide.|
+T Search Stillpine Hold|QID|9565|M|50.59,11.65|Z|1943; Azuremyst Isle|N|Turn in at the red crystal.\n[color=FF0000]NOTE: [/color]Be ready for a fight when accepting the next quest.|
+A Blood Crystals|QID|9566|PRE|9565|M|50.5,11.5|Z|1943; Azuremyst Isle|N|From the Blood Crystal.\n[color=FF0000]NOTE: [/color]Be ready for a fight when accepting, as two owlkin will spawn behind you and attack.|NOAUTO|
+T Blood Crystals|QID|9566|M|46.7,20.6|Z|1943; Azuremyst Isle|N|To High Chief Stillpine after exiting the cave.|
 T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|Z|1943; Azuremyst Isle|N|To Kurz the Revelator.|
 A The Kurken's Hide|QID|9571|PRE|9570|M|46.97,22.26|Z|1943; Azuremyst Isle|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|PRE|9566&9570&9573|M|46.68,20.63|Z|1943; Azuremyst Isle|N|From High Chief Stillpine.|
