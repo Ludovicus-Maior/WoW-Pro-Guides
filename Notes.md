@@ -1,3 +1,13 @@
+# Release 2024.05.08.A
+## Bug Fixes
+* Updated to ACE Release-r1341
+* Updated Retail Interface to 100207
+* Tweaked wording on the default D step
+## Known *deficiencies*
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Classic Cata Leveling Alliance: Cape of Stranglethorn, Northen Stranglethorn, Redridge Mountains, Westfall, Intros for Draenai, Gnomes and Humans
+
 # Release 2024.05.03.A
 ## Bug Fixes
 * *WoWPro: Unknown PRO Icon number [XXX] for guide YYY*, is now a debug message
