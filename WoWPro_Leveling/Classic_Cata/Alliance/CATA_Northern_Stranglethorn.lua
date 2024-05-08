@@ -187,6 +187,5 @@ C Be Raptor|QID|26775|QO|4|M|73.62,32.88|Z|1434;Northern Stranglethorn|N|Finally
 T Be Raptor|QID|26775|M|53.40,66.75|Z|1434;Northern Stranglethorn|N|To Priestess Thaalia.|
 A Ghaliri|QID|26776|M|53.40,66.75|Z|1434;Northern Stranglethorn|N|From Priestess Thaalia.|PRE|26775|
 T Ghaliri|QID|26776|M|52.75,66.77|Z|1434;Northern Stranglethorn|N|To Ghaliri.|
-F Explorers' League Digsite|QID|26805|Z|1434;Northern Stranglethorn|N|Speak to Robert Rhodes and tell him you are ready to fly to the Explorers' League Digsite.|FLY|OLD|
 ]]
 end)

@@ -9,103 +9,126 @@ WoWPro:GuideRaceSpecific(guide,"Gnome")
 WoWPro:GuideSteps(guide, function()
 return
 [[
-A Pinned Down|QID|27670|M|34.10,32.22|Z|1426; Dun Morogh|N|From Nevin Twistwrench standing in front of you.|
-C Pinned Down|QID|27670|M|40.39,32.03|Z|1426; Dun Morogh|N|Kill 6 Crazed Leper Gnomes.|
-T Pinned Down|QID|27670|M|34.10,32.22|Z|1426; Dun Morogh|N|To Nevin Twistwrench|
-A Report to Carvo Blastbolt|PRE|27670|QID|28167|M|34.10,32.22|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
-T Report to Carvo Blastbolt|QID|28167|M|50.99,31.92|Z|1426; Dun Morogh|N|To Carvo Blastbolt, at the top of the ramp.|
-A See to the Survivors|PRE|28167|QID|27671|M|50.99,31.92|Z|1426; Dun Morogh|N|From Carvo Blastbolt.|
-C See to the Survivors|QID|27671|M|45.6,28.6|Z|1426; Dun Morogh|N|Use the Teleport Beacon on the survivors around the lower level of the room.|NC|U|62057|T|Survivor|
-T See to the Survivors|QID|27671|M|50.99,31.92|Z|1426; Dun Morogh|N|To Carvo Blastbolt.|
-A Withdraw to the Loading Room!|PRE|27671|QID|28169|M|50.99,31.92|Z|1426; Dun Morogh|N|From Carvo Blastbolt.|
-T Withdraw to the Loading Room!|QID|28169|M|53.07,82.36|Z|1426; Dun Morogh|N|To Gaffer Coilspring.|
-A Decontamination|PRE|28169|QID|27635|M|53.07,82.36|Z|1426; Dun Morogh|N|From Gaffer Coilspring.|
-C Decontamination|QID|27635|M|58.84,81.69|Z|1426; Dun Morogh|N|Board a Sanitron 500.|NC|
-T Decontamination|QID|27635|M|66.46,81.64|Z|1426; Dun Morogh|N|Wait for the decontamination to finish, then to Technician Braggle.|
-A To the Surface|PRE|27635|QID|27674|M|66.46,81.64|Z|1426; Dun Morogh|N|To Technician Braggle.|
-C To the Surface|QID|27674|M|67.29,84.14|Z|1426; Dun Morogh|N|Speak to Torben Zapblast and ask him to send you to the surface.|CHAT|
-T To the Surface|QID|27674|M|39.50,38.39|Z|1426; Dun Morogh|N|To Nevin Twistwrench in front of you.|
-A The Future of Gnomeregan|PRE|27674|QID|26197|C|Mage|M|39.15,38.49|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
-A The Future of Gnomeregan|PRE|27674|QID|26199|C|Priest|M|39.50,38.39|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
-A The Future of Gnomeregan|PRE|27674|QID|26206|C|Rogue|M|39.50,38.39|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
-A The Future of Gnomeregan|PRE|27674|QID|26202|C|Warlock|M|39.50,38.39|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
-A The Future of Gnomeregan|PRE|27674|QID|26203|C|Warrior|M|39.50,38.39|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
-A The Future of Gnomeregan|PRE|27674|QID|31135|C|Monk|M|39.50,38.39|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
-A The Future of Gnomeregan|QID|41217|PRE|27674|C|Hunter|M|39.50,38.38|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
-T The Future of Gnomeregan|QID|26202|M|37.68,37.97|Z|1426; Dun Morogh|N|To Alamar Grimm.|C|Warlock|
-T The Future of Gnomeregan|QID|26197|M|41.00,29.23|Z|1426; Dun Morogh|N|To Bipsi Frostflinger.|C|Mage|
-T The Future of Gnomeregan|QID|26199|M|39.44,28.35|Z|1426; Dun Morogh|N|To "Doc" Cogspin.|C|Priest|
-T The Future of Gnomeregan|QID|26206|M|38.04,33.70|Z|1426; Dun Morogh|N|To Kelsey Steelspark.|C|Rogue|
-T The Future of Gnomeregan|QID|26203|M|40.65,35.35|Z|1426; Dun Morogh|N|To Drill Sergeant Steamcrank, who wanders.|C|Warrior|
-T The Future of Gnomeregan|QID|31135|M|40.09,35.61|Z|1426; Dun Morogh|N|To Xi.|C|Monk|
-T The Future of Gnomeregan|QID|41217|C|Hunter|M|41.86,31.58|Z|1426; Dun Morogh|N|To Muffinus Chromebrew.|
-A Meet the High Tinker|PRE|26202|QID|26424|C|Warlock|M|37.68,37.97|Z|1426; Dun Morogh|N|From Alamar Grimm.|
-A Meet the High Tinker|PRE|26197|QID|26421|C|Mage|M|41.10,29.12|Z|1426; Dun Morogh|N|From Bipsi Frostflinger.|
-A Meet the High Tinker|PRE|26199|QID|26422|C|Priest|M|39.40,28.38|Z|1426; Dun Morogh|N|From "Doc" Cogspin.|
-A Meet the High Tinker|PRE|26206|QID|26423|C|Rogue|M|38.03,33.56|Z|1426; Dun Morogh|N|From Kelsey Steelspark.|
-A Meet the High Tinker|PRE|26203|QID|26425|C|Warrior|M|40.65,35.35|Z|1426; Dun Morogh|N|From Drill Sergeant Steamcrank.|
-A Meet the High Tinker|PRE|31135|QID|31137|C|Monk|M|40.09,35.61|Z|1426; Dun Morogh|N|From Xi.|
-A Meet the High Tinker|QID|41218|PRE|41217|C|Hunter|M|41.86,31.58|Z|1426; Dun Morogh|N|From Muffinus Chromebrew.|
-T Meet the High Tinker|QID|26424|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|C|Warlock|
-T Meet the High Tinker|QID|26421|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|C|Mage|
-T Meet the High Tinker|QID|26422|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|C|Priest|
-T Meet the High Tinker|QID|26423|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|C|Rogue|
-T Meet the High Tinker|QID|26425|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|C|Warrior|
-T Meet the High Tinker|QID|31137|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|C|Monk|
-T Meet the High Tinker|QID|41218|M|38.68,32.94|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|C|Hunter|
-A The Fight Continues|QID|26208|M|38.72,32.74|Z|1426; Dun Morogh|N|From High Tinker Mekkatorque.|PRE|26421^26422^26423^26424^26425^31137^41218|
-C The Fight Continues|QID|26208|M|38.72,32.74|Z|1426; Dun Morogh|N|Wait for High Tinker Mekkatorque to start the holo-table.|NC|
-T The Fight Continues|QID|26208|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|
-A A Triumph of Gnomish Ingenuity|PRE|26208|QID|26566|M|38.72,32.81|Z|1426; Dun Morogh|N|From High Tinker Mekkatorque.|
-T A Triumph of Gnomish Ingenuity|QID|26566|M|40.62,28.07|Z|1426; Dun Morogh|N|To Engineer Grindspark.|
-A Scrounging for Parts|PRE|26566|QID|26222|M|40.62,28.07|Z|1426; Dun Morogh|N|From Engineer Grindspark.|
-C Scrounging for Parts|QID|26222|Z|1426; Dun Morogh|N|Collect Spare Parts scattered on the ground around the area.|M|38.35,30.55|NC|
-T Scrounging for Parts|QID|26222|M|40.62,28.07|Z|1426; Dun Morogh|N|To Engineer Grindspark.|
-A A Job for the Multi-Bot|PRE|26222|QID|26205|Z|1426; Dun Morogh|N|From Engineer Grindspark.|M|40.62,28.07|
-A What's Left Behind|QID|26264|M|39.22,26.55|Z|1426; Dun Morogh|N|From Tock Sprysprocket.|PRE|26222|RANK|2|
-A Dealing with the Fallout|QID|26265|M|38.20,40.21|Z|1426; Dun Morogh|N|From Corporal Fizzwhistle, behind the building near the toxic dump.|PRE|26222|
-C What's Left Behind|S|QID|26264|Z|1426; Dun Morogh|N|Kill and loot the Toxic Sludge for the Recovered Possessions.|M|37.56,45.90|
-C Dealing with the Fallout|QID|26265|Z|1426; Dun Morogh|N|Destroy 6 Living Contaminations at the Toxic Airfield.|M|39.5,40.75|S|
-C A Job for the Multi-Bot|QID|26205|M|39.04,49.40|Z|1426; Dun Morogh|N|Stand near the erupting Toxic Geysers in the green pools nearby and the Multi-Bot will clean them up.|NC|
-C What's Left Behind|US|QID|26264|Z|1426; Dun Morogh|N|Kill and loot the Toxic Sludge for the Recovered Possessions.|M|37.56,45.90|
-C Dealing with the Fallout|QID|26265|Z|1426; Dun Morogh|N|Destroy 6 Living Contaminations at the Toxic Airfield.|M|39.5,40.75|US|
-T Dealing with the Fallout|QID|26265|M|38.20,40.21|Z|1426; Dun Morogh|N|To Corporal Fizzwhistle.|
-T A Job for the Multi-Bot|QID|26205|M|40.62,28.07|Z|1426; Dun Morogh|N|To Engineer Grindspark.|
-T What's Left Behind|QID|26264|M|39.22,26.55|Z|1426; Dun Morogh|N|To Tock Sprysprocke.|
-A What's Keeping Jessup?|QID|26316|M|38.38,33.48|Z|1426; Dun Morogh|N|From Captain Tread Sparknozzle.|PRE|26205|
-T What's Keeping Jessup?|QID|26316|M|37.28,65.20|Z|1426; Dun Morogh|N|To Kharmarn Palegrip, at the Frostmane Hold.|
-A Get Me Explosives Back!|QID|26285|M|37.28,65.20|Z|1426; Dun Morogh|N|From Kharmarn Palegrip.|PRE|26316|
-A Missing in Action|QID|26284|M|37.28,65.20|Z|1426; Dun Morogh|N|From Kharmarn Palegrip.|PRE|26316|
-C Get Me Explosives Back!|QID|26285|Z|1426; Dun Morogh|N|Kill and loot the Rockjaw Bonepicker and Rockjaw Marauder for the Stolen Powder Kegs.|S|
-C Missing in Action|QID|26284|Z|1426; Dun Morogh|N|Attack the cages to release captives.|M|37.75,73.50|
-C Get Me Explosives Back!|QID|26285|M|37.75,73.50|Z|1426; Dun Morogh|N|Kill and loot the Rockjaw Bonepicker and Rockjaw Marauder for the Stolen Powder Kegs.|US|
-T Get Me Explosives Back!|QID|26285|M|37.28,65.20|Z|1426; Dun Morogh|N|To Kharmarn Palegrip|
-T Missing in Action|QID|26284|M|37.28,65.20|Z|1426; Dun Morogh|N|To Kharmarn Palegrip|
-A Finishin' the Job|QID|26318|Z|1426; Dun Morogh|N|From Kharmarn Palegrip.|M|37.28,65.20|PRE|26285&26284|
-C Finishin' the Job - Boss Bruggor|QID|26318|Z|1426; Dun Morogh|N|Kill Boss Bruggor|QO|2|M|36.33,40.62|T|Boss Bruggor|S|
-C Finishin' the Job - Detonator|QID|26318|QO|1|M|36.33,40.62|NC|Z|1426; Dun Morogh|N|Enter the cavern to the west, then go through the cave to the detonator, then use the detonator.|
-C Finishin' the Job - Boss Bruggor|QID|26318|Z|1426; Dun Morogh|N|Kill Boss Bruggor|QO|2|M|36.33,40.62|T|Boss Bruggor|US|
-T Finishin' the Job|QID|26318|M|37.28,65.20|Z|1426; Dun Morogh|N|To Kharmarn Palegrip.|
-A One More Thing|PRE|26318|QID|26329|M|37.28,65.20|Z|1426; Dun Morogh|N|From Kharmarn Palegrip.|
-T One More Thing|QID|26329|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|
-A Crushcog's Minions|QID|26331|M|38.72,32.74|Z|1426; Dun Morogh|N|From High Tinker Mekkatorque.|PRE|26329|
-A No Tanks!|QID|26333|M|38.19,33.68|Z|1426; Dun Morogh|N|From Hinkles Fastblast.|PRE|26329|
-C Crushcog's Minions|QID|26331|M|57.20,19.37|Z|1426; Dun Morogh|N|Kill  Crushcog's Minions (Irradiated Technicians and Crushcog Battle Suits).|S|
-C No Tanks!|QID|26333|Z|1426; Dun Morogh|N|Use the Techno-Grenades to blow up Mechano-Tanks.|U|58200|M|59.04,20.12|NC|
-C Crushcog's Minions|QID|26331|M|57.20,19.37|Z|1426; Dun Morogh|N|Kill  Crushcog's Minions (Irradiated Technicians and Crushcog Battle Suits)|US|
-T Crushcog's Minions|QID|26331|M|38.72,32.74|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|NC|
-T No Tanks!|QID|26333|M|38.19,33.68|Z|1426; Dun Morogh|N|To Hinkles Fastblast.|
-A Staging in Brewnall|QID|26339|Z|1426; Dun Morogh|N|From Kelsey Steelspark.|M|38.03,33.56|PRE|26331&26333|
-T Staging in Brewnall|QID|26339|M|48.75,52.90|Z|1426; Dun Morogh|N|Follow the road southeast to Jarvi Shadowstep.|
-A Paint it Black|PRE|26339|QID|26342|M|48.75,52.90|Z|1426; Dun Morogh|N|From Jarvi Shadowstep.|
-C Paint it Black|QID|26342|M|53.80,49.80|Z|1426; Dun Morogh|N|Use the Paintinator on Sentry Bot's on Iceflow Lake.|U|58203|NC|
-T Paint it Black|QID|26342|M|48.75,52.90|Z|1426; Dun Morogh|N|To Jarvi Shadowstep.|
-A Down with Crushcog!|PRE|26342|QID|26364|M|48.75,52.90|Z|1426; Dun Morogh|N|From Jarvi Shadowstep.|
-C Down with Crushcog! - High Tinker Mekkatorgue|QID|26364|M|57.17,47.57|Z|1426; Dun Morogh|N|Speak to High Tinker Mekkatorque on the island of Iceflow Lake.|CHAT|QO|1|
-C Down with Crushcog! - Orbital Targeting Device|QID|26364|M|58.81,43.61|Z|1426; Dun Morogh|N|Use the Orbital Targeting Device on the area where Crushcog is standing. Defend yourself if attacked.|U|58253|QO|2|
-r Sell and Repair|M|49.67,51.92|QID|26364|Z|1426; Dun Morogh|N|Take this opportunity to sell junk and repair with Burdrak Harglhelm.|ACTIVE|26364|T|Burdrak Harglhelm|S|
-T Down with Crushcog!|QID|26364|M|48.75,52.90|Z|1426; Dun Morogh|N|To Jarvi Shadowstep|
-A On to Kharanos|PRE|26364|QID|26373|LEAD|25724|M|48.75,52.90|Z|1426; Dun Morogh|N|From Jarvi Shadowstep.|
-A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|1426;Dun Morogh|N|From Ciara Deepstone, on the road east towards Kharanos.|
+A Pinned Down|QID|27670|M|25.76,31.95|Z|1426; Dun Morogh|N|From Nevin Twistwrench standing in front of you.|
+C Pinned Down|QID|27670|M|26.69,31.93|Z|1426; Dun Morogh|N|Kill 6 Crazed Leper Gnomes.|
+T Pinned Down|QID|27670|M|25.76,31.95|Z|1426; Dun Morogh|N|To Nevin Twistwrench.|
+;lv 2
+A Report to Carvo Blastbolt|QID|28167|PRE|27670|M|25.76,31.95|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
+T Report to Carvo Blastbolt|QID|28167|M|27.73,31.92|Z|1426; Dun Morogh|N|To Carvo Blastbolt, at the top of the ramp.|
+A See to the Survivors|QID|27671|PRE|28167|M|27.73,31.92|Z|1426; Dun Morogh|N|From Carvo Blastbolt.|
+C See to the Survivors|QID|27671|M|28.86,31.96|Z|1426; Dun Morogh|N|Use the Teleport Beacon on the survivors around the lower level of the room.|T|Survivor|U|62057|NC|
+T See to the Survivors|QID|27671|M|27.73,31.92|Z|1426; Dun Morogh|N|To Carvo Blastbolt.|
+A Withdraw to the Loading Room!|QID|28169|PRE|27671|M|27.73,31.92|Z|1426; Dun Morogh|N|From Carvo Blastbolt.|
+T Withdraw to the Loading Room!|QID|28169|M|27.97,37.80|Z|1426; Dun Morogh|N|To Gaffer Coilspring.|
+A Decontamination|QID|27635|PRE|28169|M|27.97,37.80|Z|1426; Dun Morogh|N|From Gaffer Coilspring.|
+C Decontamination|QID|27635|M|28.62,37.71|Z|1426; Dun Morogh|N|Board a Sanitron 500.|V|
+T Decontamination|QID|27635|M|29.52,37.71|Z|1426; Dun Morogh|N|Wait for the decontamination to finish, then to Technician Braggle.|
+A To the Surface|QID|27674|PRE|27635|M|29.52,37.71|Z|1426; Dun Morogh|N|To Technician Braggle.|
+R To the Surface|ACTIVE|27674|M|29.62,38.00|Z|1426; Dun Morogh|N|Speak to Torben Zapblast and ask him to send you to the surface.|TZ|New Tinkertown|CHAT|
+T To the Surface|QID|27674|M|33.93,38.58|Z|1426; Dun Morogh|N|To Nevin Twistwrench standing in front of you.|
+A The Future of Gnomeregan|QID|26197^26199^26206^26202^26203^41217|PRE|27674|M|33.93,38.58|Z|1426; Dun Morogh|N|From Nevin Twistwrench.|
+T The Future of Gnomeregan|QID|26202|M|33.24,38.40|Z|1426; Dun Morogh|N|To Alamar Grimm.|C|Warlock|
+T The Future of Gnomeregan|QID|26197|M|34.54,35.06|Z|1426; Dun Morogh|N|To Bipsi Frostflinger.|C|Mage|
+T The Future of Gnomeregan|QID|26199|M|33.89,34.78|Z|1426; Dun Morogh|N|To "Doc" Cogspin.|C|Priest|
+T The Future of Gnomeregan|QID|26206|M|33.38,36.74|Z|1426; Dun Morogh|N|To Kelsey Steelspark.|C|Rogue|
+T The Future of Gnomeregan|QID|26203|M|34.28,37.52|Z|1426; Dun Morogh|N|To Drill Sergeant Steamcrank, who wanders.|C|Warrior|
+T The Future of Gnomeregan|QID|41217|M|41.86,31.58|Z|1426; Dun Morogh|N|To Muffinus Chromebrew.|C|Hunter|
+A Meet the High Tinker|QID|26424|PRE|26202|M|33.24,38.40|Z|1426; Dun Morogh|N|From Alamar Grimm.|C|Warlock|
+A Meet the High Tinker|QID|26421|PRE|26197|M|34.54,35.06|Z|1426; Dun Morogh|N|From Bipsi Frostflinger.|C|Mage|
+A Meet the High Tinker|QID|26422|PRE|26199|M|33.89,34.78|Z|1426; Dun Morogh|N|From "Doc" Cogspin.|C|Priest|
+A Meet the High Tinker|QID|26423|PRE|26206|M|33.38,36.74|Z|1426; Dun Morogh|N|From Kelsey Steelspark.|C|Rogue|
+A Meet the High Tinker|QID|26425|PRE|26203|M|34.28,37.52|Z|1426; Dun Morogh|N|From Drill Sergeant Steamcrank.|C|Warrior|
+A Meet the High Tinker|QID|41218|PRE|41217|M|41.86,31.58|Z|1426; Dun Morogh|N|From Muffinus Chromebrew.|C|Hunter|
+T Meet the High Tinker|QID|26421^26422^26423^26424^26425^41218|M|33.67,36.41|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|
+A The Fight Continues|QID|26208|PRE|26421^26422^26423^26424^26425^41218|M|33.67,36.41|Z|1426; Dun Morogh|N|From High Tinker Mekkatorque.|
+C The Fight Continues|QID|26208|M|33.67,36.41|Z|1426; Dun Morogh|N|Wait for High Tinker Mekkatorque to start the holo-table.|NC|
+T The Fight Continues|QID|26208|M|33.67,36.41|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|
+A A Triumph of Gnomish Ingenuity|QID|26566|PRE|26208|M|33.67,36.42|Z|1426; Dun Morogh|N|From High Tinker Mekkatorque.|
+T A Triumph of Gnomish Ingenuity|QID|26566|M|34.34,34.64|Z|1426; Dun Morogh|N|To Engineer Grindspark.|
+A Scrounging for Parts|QID|26222|PRE|26566|M|34.34,34.64|Z|1426; Dun Morogh|N|From Engineer Grindspark.|
+C Scrounging for Parts|QID|26222|M|33.74,35.67|Z|1426; Dun Morogh|N|Collect Spare Parts scattered on the ground around the area.|NC|
+T Scrounging for Parts|QID|26222|M|34.34,34.64|Z|1426; Dun Morogh|N|To Engineer Grindspark.|
+A A Job for the Multi-Bot|QID|26205|PRE|26222|M|34.34,34.64|Z|1426; Dun Morogh|N|From Engineer Grindspark.|
+A What's Left Behind|QID|26264|PRE|26222|M|33.83,34.09|Z|1426; Dun Morogh|N|From Tock Sprysprocket.|RANK|2|
+A Dealing with the Fallout|QID|26265|PRE|26222|M|33.44,39.25|Z|1426; Dun Morogh|N|From Corporal Fizzwhistle, behind the building near the toxic dump.|
+C What's Left Behind|QID|26264|M|33.07,41.88|Z|1426; Dun Morogh|L|57987 6|ITEM|57987|N|Toxic Sludge.|S|
+C Dealing with the Fallout|QID|26265|M|33.07,41.88|Z|1426; Dun Morogh|N|Kill 6 Living Contaminations at the Toxic Airfield.|S|
+C A Job for the Multi-Bot|QID|26205|M|34.13,39.94|Z|1426; Dun Morogh|N|Stand near the green "bubbles" in the pools and the Multi-Bot will clean them up.\n[color=FF0000]NOTE: [/color]If you lose your Multi-Bot, return to Engineer Grindspark for a new one.|NC|
+C What's Left Behind|QID|26264|M|33.07,41.88|Z|1426; Dun Morogh|L|57987 6|ITEM|57987|N|Toxic Sludge.|US|
+C Dealing with the Fallout|QID|26265|M|33.07,41.88|Z|1426; Dun Morogh|N|Kill 6 Living Contaminations at the Toxic Airfield.|US|
+; Lv 3
+T Dealing with the Fallout|QID|26265|M|33.44,39.25|Z|1426; Dun Morogh|N|To Corporal Fizzwhistle.|
+T A Job for the Multi-Bot|QID|26205|M|34.34,34.64|Z|1426; Dun Morogh|N|To Engineer Grindspark.|
+T What's Left Behind|QID|26264|M|33.83,34.09|Z|1426; Dun Morogh|N|To Tock Sprysprocke.|
+A What's Keeping Jessup?|QID|26316|PRE|26205|M|33.51,36.71|Z|1426; Dun Morogh|N|From Captain Tread Sparknozzle.|
+; ** Lv 3 Class quests (Trainer intro)
+; ** Mage
+A The Arts of a Mage|QID|26198|M|34.54,35.06|Z|1426; Dun Morogh|N|From Bipsi Frostflinger.|R|Gnome|C|Mage|
+= Arcane Missiles|ACTIVE|26198|QO|2|M|34.54,35.06|Z|1426; Dun Morogh|N|Learn Arcane Missiles from Bipsi Frostflinger.|SPELL|Arcane Missiles;5143|R|Gnome|C|Mage|
+C The Arts of a Mage|QID|26198|QO|1|M|34.43,37.47|Z|1426; Dun Morogh|N|Target a Training Dummy in New Tinkertown and cast Arcane Missiles twice.|T|Training Dummy|R|Gnome|C|Mage|
+T The Arts of a Mage|QID|26198|M|34.54,35.06|Z|1426; Dun Morogh|N|To Bipsi Frostflinger.|R|Gnome|C|Mage|
+; ** Priest
+A The Arts of a Priest|QID|26200|M|33.90,34.78|Z|1426; Dun Morogh|N|From "Doc" Cogspin.|R|Gnome|C|Priest|
+= Flash Heal|ACTIVE|26200|QO|2|M|33.90,34.78|Z|1426; Dun Morogh|N|Learn Flash Heal from "Doc" Cogspin.|SPELL|Flash Heal;2061|R|Gnome|C|Priest|
+C The Arts of a Priest|QID|26200|QO|1|M|33.90,34.78|Z|1426; Dun Morogh|N|Target a Wounded Infantry in New TinkertownUse and cast Flash Heal 5 times.|T|Wounded Infantry|R|Gnome|C|Priest|
+T The Arts of a Priest|QID|26200|M|33.90,34.78|Z|1426; Dun Morogh|N|To "Doc" Cogspin.|R|Gnome|C|Priest|
+; ** Warlock
+A The Power of a Warlock|QID|26201|M|33.25,38.40|Z|1426; Dun Morogh|N|From Alamar Grimm.|R|Gnome|C|Warlock|
+= Immolate|ACTIVE|26201|QO|2|M|33.25,38.40|Z|1426; Dun Morogh|N|Learn Immolate from Alamar Grimm.|SPELL|Immolate;348|R|Gnome|C|Warlock|
+C The Power of a Warlock|QID|26201|QO|1|M|34.43,37.47|Z|1426; Dun Morogh|N|Target a Training Dummy in New Tinkertown and cast Immolate 5 times.|T|Training Dummy|R|Gnome|C|Warlock|
+T The Power of a Warlock|QID|26201|M|33.25,38.40|Z|1426; Dun Morogh|N|To Alamar Grimm.|R|Gnome|C|Warlock|
+; ** Warrior
+A The Arts of a Warrior|QID|26204|M|34.25,37.56|Z|1426; Dun Morogh|N|From Drill Sergeant Steamcrank.|R|Gnome|C|Warrior|
+= Charge|ACTIVE|26204|QO|2|M|34.25,37.56|Z|1426; Dun Morogh|N|Learn Charge from Drill Sergeant Steamcrank.|SPELL|Charge;100|R|Gnome|C|Warrior|
+C The Arts of a Warrior|QID|26204|QO|1|M|34.43,37.47|N|Target a Training Dummy in New Tinkertown and use Charge on it.|T|Training Dummy|R|Gnome|C|Warrior|
+T The Arts of a Warrior|QID|26204|M|34.28,37.52|Z|1426; Dun Morogh|N|To Drill Sergeant Steamcrank.|R|Gnome|C|Warrior|
+; ** Rogue
+A The Arts of a Rogue|QID|26207|M|33.38,36.74|Z|1426; Dun Morogh|N|From Kelsey Steelspark.|R|Gnome|C|Rogue|
+= Eviscerate|ACTIVE|26207|QO|2|M|33.38,36.74|Z|1426; Dun Morogh|N|Learn Eviscerate from Kelsey Steelspark.|SPELL|Eviscerate;2098|R|Gnome|C|Rogue|
+C The Arts of a Rogue|QID|26207|QO|1|M|34.43,37.47|Z|1426; Dun Morogh|N|Target a Training Dummy in New Tinkertown and use Eviscerate 3 times.|T|Training Dummy|R|Gnome|C|Rogue|
+T The Arts of a Rogue|QID|26207|M|33.38,36.74|Z|1426; Dun Morogh|N|To Kelsey Steelspark.|R|Gnome|C|Rogue|
+; **
+T What's Keeping Jessup?|QID|26316|M|33.09,48.69|Z|1426; Dun Morogh|N|To Jessup McCree.|
+A Get Me Explosives Back!|QID|26285|PRE|26316|M|33.09,48.69|Z|1426; Dun Morogh|N|From Jessup McCree.|
+A Missing in Action|QID|26284|PRE|26316|M|33.09,48.69|Z|1426; Dun Morogh|N|From Jessup McCree.|
+C Get Me Explosives Back!|QID|26285|Z|1426; Dun Morogh|L|58202 7|ITEM|58202|N|Rockjaw Bonepickers and Marauders.|S|
+C Missing in Action|QID|26284|M|33.74,50.25|Z|1426; Dun Morogh|N|Attack the cages to release captives.|
+C Get Me Explosives Back!|QID|26285|M|33.74,50.25|Z|1426; Dun Morogh|L|58202 7|ITEM|58202|N|Rockjaw Bonepickers and Marauders.|US|
+T Get Me Explosives Back!|QID|26285|M|33.09,48.69|Z|1426; Dun Morogh|N|To Jessup McCree.|
+T Missing in Action|QID|26284|M|33.09,48.69|Z|1426; Dun Morogh|N|To Jessup McCree.|
+A Finishin' the Job|QID|26318|PRE|26285&26284|M|33.09,48.69|Z|1426; Dun Morogh|N|From Jessup McCree.|
+R New Tinkertown|ACTIVE|26318|M|33.08,38.36|Z|1426; Dun Morogh|N|Return to do your class training.|C|Priest,Warlock|
+= Level 4 Training|ACTIVE|26318|M|PLAYER|CC|N|Do your level 4 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|4|C|Priest,Warlock|IZ|New Tinkertown|
+R The cavern Entrance|ACTIVE|26318|M|31.81,49.14|CC|Z|1426; Dun Morogh|N|Head to the cave entrance.|
+C Finishin' the Job - Detonator|QID|26318|QO|1|M|29.17,48.44|Z|1426; Dun Morogh|N|Use the detonator.|S|NC|
+C Finishin' the Job - Boss Bruggor|QID|26318|QO|2|M|28.89,48.78|Z|1426; Dun Morogh|N|Kill Boss Bruggor at the very back of the cave.|T|Boss Bruggor|
+C Finishin' the Job - Detonator|QID|26318|QO|1|M|29.17,48.44|Z|1426; Dun Morogh|N|Use the detonator.|US|NC|
+T Finishin' the Job|QID|26318|M|33.10,48.69|Z|1426; Dun Morogh|N|To Jessup McCree.\n[color=FF0000]NOTE: [/color]Unless you want to fight Bruggor again, I suggest not hanging around.|
+A One More Thing|QID|26329|PRE|26318|M|33.10,48.69|Z|1426; Dun Morogh|N|From Jessup McCree.|
+T One More Thing|QID|26329|M|33.67,36.41|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|
+A Crushcog's Minions|QID|26331|PRE|26329|M|33.67,36.41|Z|1426; Dun Morogh|N|From High Tinker Mekkatorque.|
+A No Tanks!|QID|26333|PRE|26329|M|33.43,36.77|Z|1426; Dun Morogh|N|From Hinkles Fastblast.|
+; lv 5
+= Level 5 Training|ACTIVE|26333|M|PLAYER|CC|N|Do your level 5 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|5|C|-Hunter|IZ|New Tinkertown|
+
+C Crushcog's Minions|QID|26331|M|39.66,32.94|Z|1426; Dun Morogh|N|Kill Irradiated Technicians/Crushcog Battle Suits (Crushcog's Minions).|S|
+C No Tanks!|QID|26333|M|39.66,32.94|Z|1426; Dun Morogh|N|Target a Repaired Mechano-Tank and use the Techno-Grenade to blow it up (15 yd range).|T|Repaired Mechano-Tank|U|58200|NC|
+C Crushcog's Minions|QID|26331|M|39.66,32.94|Z|1426; Dun Morogh|N|Finish killing Irradiated Technicians and Crushcog Battle Suits (Crushcog's Minions).|US|
+T Crushcog's Minions|QID|26331|M|33.67,36.41|Z|1426; Dun Morogh|N|To High Tinker Mekkatorque.|NC|
+T No Tanks!|QID|26333|M|33.43,36.77|Z|1426; Dun Morogh|N|To Hinkles Fastblast.|
+A Staging in Brewnall|QID|26339|PRE|26331&26333|M|33.37,36.74|Z|1426; Dun Morogh|N|From Kelsey Steelspark.|
+R Brewnall Village|ACTIVE|26339|M|36.93,43.54|Z|1426; Dun Morogh|N|Follow the road southeast.|
+T Staging in Brewnall|QID|26339|M|37.42,44.04|Z|1426; Dun Morogh|N|To Jarvi Shadowstep.|
+A Paint it Black|QID|26342|PRE|26339|M|37.42,44.04|Z|1426; Dun Morogh|N|From Jarvi Shadowstep.|
+C Paint it Black|QID|26342|M|39.16,42.07|Z|1426; Dun Morogh|N|Target a Sentry-Bot on Iceflow Lake and use the Paintinator on them.|T|Crushcog Sentry-Bot|U|58203|NC|
+T Paint it Black|QID|26342|M|37.42,44.04|Z|1426; Dun Morogh|N|To Jarvi Shadowstep.|
+A Down with Crushcog!|QID|26364|PRE|26342|M|37.42,44.04|Z|1426; Dun Morogh|N|From Jarvi Shadowstep.|
+C Down with Crushcog!|QID|26364|QO|1|M|40.61,42.03;41.16,40.42|CS|Z|1426; Dun Morogh|N|To start the event, speak to High Tinker Mekkatorque on the island in Iceflow Lake and tell him you're ready.\n[color=FF0000]NOTE: [/color]Use the Orbital Targeting Device on the area where Razlo Crushcog is standing and defend yourself if attacked.|U|58253|CHAT|
+r Sell and Repair|ACTIVE|26364|M|49.67,51.92|Z|1426; Dun Morogh|N|Take this opportunity to sell junk and repair with Burdrak Harglhelm.|T|Burdrak Harglhelm|S|
+T Down with Crushcog!|QID|26364|M|37.42,44.04|Z|1426; Dun Morogh|N|To Jarvi Shadowstep|
+A On to Kharanos|QID|26373|PRE|26364|LEAD|25724|M|37.42,44.04|Z|1426; Dun Morogh|N|From Jarvi Shadowstep.|
+= Level 6 Training|AVAILABLE|26380|M|33.08,38.36|Z|1426; Dun Morogh|N|You can return to Tinkertown and do your level 6 training or wait until you get to Kharanos (Don't forget if you do).\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|6|C|Warlock|IZ|Brewnall Village|
+R Dun Morogh Entrance|AVAILABLE|26380|M|49.13,45.44|CC|Z|1426;Dun Morogh|N|Follow the road east through Chill Breeze Valley.\n[color=FF0000]NOTE: [/color]Absolutely nothing will attack you.|
+A Bound for Kharanos|QID|26380|M|49.91,44.98|Z|1426;Dun Morogh|N|From Ciara Deepstone.|
 ]]
 end)
