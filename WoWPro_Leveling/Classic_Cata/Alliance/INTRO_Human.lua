@@ -176,7 +176,7 @@ T The Rear is Clear|QID|28822|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal M
 A Simple Letter|QID|3100|M|48.20,42.06|Z|1429; Elwynn Forest|N|From Marshal McBride.|R|Human|C|Warrior|
 T Simple Letter|QID|3100|M|50.24,42.28|Z|1429; Elwynn Forest|N|To Llane Beshere.|R|Human|C|Warrior|
 A Charging into Battle|QID|26913|M|50.24,42.28|Z|1429; Elwynn Forest|N|From Llane Beshere.|R|Human|C|Warrior|
-= Charge|ACTIVE|26913|QO|2|M|50.24,42.28|Z|1429; Elwynn Forest|N|Learn Charge from Celestine of the Harvest.|SPELL|Charge;100|R|Human|C|Warrior|
+= Charge|ACTIVE|26913|QO|2|M|50.24,42.28|Z|1429; Elwynn Forest|N|Learn Charge from Llane Beshere.|SPELL|Charge;100|R|Human|C|Warrior|
 C Charging into Battle|QID|26913|QO|1|M|48.63,44.37|Z|1429; Elwynn Forest|N|Learn Charge from the warrior trainer then use it on the training dummies.|R|Human|C|Warrior|
 T Charging into Battle|QID|26913|M|50.24,42.28|Z|1429; Elwynn Forest|N|To Llane Beshere.|R|Human|C|Warrior|
 A Join the Battle!|QID|28789|PRE|28774|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|R|Human|C|Warrior|
@@ -213,9 +213,10 @@ T Extinguishing Hope|QID|26391|M|48.10,42.52|Z|1429; Elwynn Forest|N|To Milly Os
 T Blackrock Invasion|QID|26389|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|
 A Ending the Invasion!|QID|26390|PRE|26389|M|48.15,42.08|Z|1429; Elwynn Forest|N|From Marshal McBride.|
 C Ending the Invasion!|QID|26390|M|57.05,40.63|Z|1429; Elwynn Forest|N|Kill Kurtok the Slayer (go around the abbey to get to him).|T|Kurtok the Slayer|
+H Northshire Valley|ACTIVE|26390|M|PLAYER|Z|1429; Elwynn Forest|N|Hearth or run back to Marshal McBride at Northshire Valley.|
 T Ending the Invasion!|QID|26390|M|48.15,42.08|Z|1429; Elwynn Forest|N|To Marshal McBride.|
 A Report to Goldshire|QID|54|PRE|26390|M|48.15,42.08|Z|1429; Elwynn Forest|N|From Marshal McBride.|
-A Rest and Relaxation|QID|2158|ACTIVE|54|M|45.42,48.99|Z|1429; Elwynn Forest|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|
+A Rest and Relaxation|QID|2158|ACTIVE|54|M|45.55,47.81|Z|1429; Elwynn Forest|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|
 h Lion's Pride Inn|ACTIVE|2158|M|43.77,65.80|Z|1429; Elwynn Forest|N|At Innkeeper Farley.|
 T Rest and Relaxation|QID|2158|M|43.77,65.80|Z|1429; Elwynn Forest|N|To Innkeeper Farley.|
 A Kobold Candles|QID|60|M|43.32,65.71|Z|1429; Elwynn Forest|N|From William Pestle.|
@@ -333,6 +334,7 @@ C Wanted:  "Hogger"|QID|176|M|25.1,94.6|Z|1429; Elwynn Forest|N|Get Hogger down 
 A Furlbrow's Deed|QID|184|M|24.78,95.26|Z|1429; Elwynn Forest|N|If you're going to Westfall next, then grab this quest. It's a folded paper next to a dead man.|
 C Riverpaw Gnoll Bounty|QID|11|M|25.94,89.52|Z|1429; Elwynn Forest|N|Kill Gnolls and loot their Painted Gnoll Armbands.|US|
 T Riverpaw Gnoll Bounty|QID|11|M|24.23,74.45|Z|1429; Elwynn Forest|N|To Deputy Rainer.|
+H Lion's Pride Inn|ACTIVE|176|M|43.77,65.80|Z|1429; Elwynn Forest|N|Hearth back to the Lion's Pride Inn, or run if your hearth is down.|FLY|OLD|
 T Wanted:  "Hogger"|QID|176|M|42.2,65.9|Z|1429; Elwynn Forest|N|To Marshal Dughan.|
 N If you plan on going to Westfall pick up the next quest. If you dont just skip them.|
 A Hero's Call: Westfall!|AVAILABLE|26378|M|42.2,65.8|Z|1429; Elwynn Forest|N|From Marshal Dughan.|

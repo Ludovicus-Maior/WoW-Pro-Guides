@@ -75,7 +75,7 @@ C High Priest Venoxis|QID|26814|M|83.70,35.96|Z|1434;Northern Stranglethorn|N|Ki
 T High Priest Venoxis|QID|26814|U|60374|M|55.70,42.27|Z|210;The Cape of Stranglethorn|N|To Maywiki.|
 T Recipe for Disaster|QID|26816|M|55.31,41.93|Z|210;The Cape of Stranglethorn|N|To Dask "The Flask" Gobfizzle.|
 R Booty Bay|QID|26821|M|50.97,43.09;45.26,65.73|CC|Z|210;The Cape of Stranglethorn|N|Follow the path to the final cordinates and walk through the tunnel.|
-h The Salty Sailor Tavern|QID|26821|M|40.93,73.79|Z|210;The Cape of Stranglethorn|N|At Innkeeper Skindle.|
+h Booty Bay|QID|26821|M|40.93,73.79|Z|210;The Cape of Stranglethorn|N|At Innkeeper Skindle.|
 T Airwyn Bantamflax|QID|26821|M|42.49,73.15|Z|210;The Cape of Stranglethorn|N|To Airwyn Bantamflax.|
 T Message in a Bottle|QID|26603|M|42.38,67.76;45.00,65.96;59.43,79.24|CC|Z|210;The Cape of Stranglethorn|N|To Princess Poobah on Jaguero Isle.|
 A Protecting Her Royal Highness Poobah|QID|26604|PRE|26603|M|59.43,79.24|Z|210;The Cape of Stranglethorn|N|From Princess Poobah.|
@@ -143,12 +143,13 @@ A Mok'rash the Cleaver|QID|26601|PRE|26602|M|40.37,67.84|Z|210;The Cape of Stran
 C Mok'rash the Cleaver|QID|26601|M|35.15,65.70|Z|210;The Cape of Stranglethorn|N|Swim West to the Island. Kill Mok'rash.|
 T Mok'rash the Cleaver|QID|26601|M|41.80,72.82;40.33,67.85|CC|Z|210;The Cape of Stranglethorn|N|To Captain Hecklebury Smotts.|
 T Getting In With the Bloodsail|QID|26624|M|45.81,65.48;45.45,56.16;43.84,56.46|CS|Z|210;The Cape of Stranglethorn|N|Up the path to Yancey Grillsen.|
-A Looks Like a Tauren Pirate to Me|QID|26630|LEAD|26629|M|41.14,73.25|Z|210;The Cape of Stranglethorn|N|From Fleet Master Seahorn.|
+A Seeing Where Your Loyalties Lie|QID|26629|PRE|26624|M|45.81,65.48;43.84,56.46|CC|Z|210;The Cape of Stranglethorn|N|From Yancey Grillsen.|
+A Looks Like a Tauren Pirate to Me|QID|26630|M|41.14,73.25|Z|210;The Cape of Stranglethorn|N|From Fleet Master Seahorn.|
 l Cow Head|ACTIVE|26630|QO|3|L|59147|M|43.24,71.67|Z|210;The Cape of Stranglethorn|N|Go upstairs and talk to Bossy the Cow.|
 l Oversized Pirate Hat|ACTIVE|26630|QO|2|L|59148|M|42.72,69.13|Z|210;The Cape of Stranglethorn|N|Talk to Narkk at The Old Port Authority and get the hat from him.|
 C Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|Z|210;The Cape of Stranglethorn|N|Take the Head and Hat to the Fleetmaster.|NC|
-T Seeing Where Your Loyalties Lie|QID|26629|M|42.39,67.65;45.81,5.4;43.85,56.34|CS|Z|210;The Cape of Stranglethorn|N|To Yancey Grillsen.|
 T Looks Like a Tauren Pirate to Me|QID|26630|M|41.06,73.28|Z|210;The Cape of Stranglethorn|N|To Fleet Master Seahorn.  It will be a few seconds from handing the Head and Hat to him before he will allow you to finish the quest.|
+T Seeing Where Your Loyalties Lie|QID|26629|M|45.81,65.48;43.84,56.46|CC|Z|210;The Cape of Stranglethorn|N|To Yancey Grillsen.|
 A Your First Day as a Pirate|QID|26631|PRE|26629|M|43.85,56.34|Z|210;The Cape of Stranglethorn|N|From Yancey Grillsen.|
 T Your First Day as a Pirate|QID|26631|M|50,68;45.03,93.29;44.41,91.61|CC|Z|210;The Cape of Stranglethorn|N|To Captain Keelhaul, in the right-hand ship of Wild Shore.|
 A Swabbing Duty|QID|26633|PRE|26631|M|44.41,91.61|Z|210;The Cape of Stranglethorn|N|From Captain Keelhaul.|
@@ -215,7 +216,7 @@ T The Final Voyage of the Brashtide|QID|26697|M|41.12,73.12|Z|210;The Cape of St
 A Bloodsail's End|QID|26703|PRE|26697&26699&26700|M|41.12,73.12|Z|210;The Cape of Stranglethorn|N|From Baron Revilgaz.|
 C Bloodsail's End|QID|26703|M|40.47,73.38;36.05,66.51|CS|Z|210;The Cape of Stranglethorn|N|Speak to Kebok again. Once on the ship, go down to the Captain's room and kill him and his little parrot too.|
 T Bloodsail's End|QID|26703|M|41.17,73.15|Z|210;The Cape of Stranglethorn|N|To Baron Revilgaz.|
-A The Call of Kalimdor|QID|26596|M|40.56,68.20|Z|210;The Cape of Stranglethorn|N|If you're going to go to Dustwallow Marsh in Kalimdor next, skip this if you wish to do Western Plaguelands. From Corporal Jeyne.|
+A The Call of Kalimdor|QID|26596|M|40.56,68.20|Z|210;The Cape of Stranglethorn|N|Take this quest if you're going to go to Dustwallow Marsh in Kalimdor next. If you wish to do Western Plaguelands right click this step off.|
 A The Battle for Andorhal|QID|28749|LEAD|27159|M|41.55,74.35|Z|210;The Cape of Stranglethorn|N|If you are going to go to the Western Plaguelands next. Ask him for teleport. From War-Mage Erallier.|
 R Western Plaguelands|QID|28749|O|M|41.55,74.34|Z|210;The Cape of Stranglethorn|N|To continue to Western Plaguelands, get a teleport from War-Mage Erallier below the Alliance Flight Master.|
 b Northern Barrens|ACTIVE|26596|M|39.10,67.05|Z|210;The Cape of Stranglethorn|N|To continue on to Dustwallow Marsh in Kalimdor, hop on the ship to Ratchet.|
