@@ -78,7 +78,9 @@ T The Westfall Brigade|QID|26287|M|56.46,47.57|Z|1436; Westfall|N|To Captain Dan
 A Jango Spothide|QID|26288|M|56.46,47.57|Z|1436; Westfall|N|From Captain Danuvin.|PRE|26287|
 T Feeding the Hungry and the Hopeless|QID|26271|M|56.97,47.10|Z|1436; Westfall|N|To Hope Saldean.|
 A Find Agent Kearnen|QID|26289|M|56.32,47.52|Z|1436; Westfall|N|From Marshal Gryan Stoutmantle.|PRE|26286&26271|
-C Jango Spothide|QID|26288|M|62.28,76.43|Z|1436; Westfall|N|Kill Jango Spothide as well as the Riverpaw Mystics and Taskmasters.|
+C Jango Spothide|QID|26288|M|62.28,76.43|Z|1436; Westfall|N|Kill the Riverpaw Mystics and Taskmasters.|S|
+K Jango Spothide|ACTIVE|26288|QO|3|M|62.28,76.43|Z|1436; Westfall|N|Kill Jango Spothide.|T|Jango Spothide|
+C Jango Spothide|QID|26288|QO|1;2|M|62.28,76.43|Z|1436; Westfall|N|Finish cleaning up the Riverpaw Mystics and Taskmasters.|US|
 T Find Agent Kearnen|QID|26289|M|68.33,70.37|Z|1436; Westfall|N|To Agent Kearnen.|
 A Secrets of the Tower|QID|26290|M|68.33,70.37|Z|1436; Westfall|N|From Agent Kearnen.|PRE|26289|
 C Secrets of the Tower|QID|26290|M|70.42,74.22|QO|1|Z|1436; Westfall|N|Run past the Elites (they will aggro) and into Mortwake's Tower. Use the Potion of Shrouding quickly as it'll stop the Elites from attacking you. This effect last 10 minutes or until you leave the tower. Run up the tower to the top, stand next to Helix Gearbreaker, and wait for Helix's Secret to be revealed.\n[color=FF0000]NOTE: [/color]Keep your distance from the Unbound Cyclone.|NC|U|58112|
@@ -131,12 +133,12 @@ T A Vision of the Past|QID|26320|M|56.32,47.52|Z|1436; Westfall|N|To Marshal Gry
 A Rise of the Brotherhood|QID|26322|M|56.32,47.52|Z|1436; Westfall|N|From Marshal Gryan Stoutmantle.|PRE|26320|
 C Rise of the Brotherhood|QID|26322|M|56.36,47.55|QO|1|Z|1436; Westfall|N|Watch the scene.|NC|
 F Stormwind|ACTIVE|26322|M|56.64,49.44|TZ|Stormwind City|Z|1436; Westfall|N|Fly to Stormwind City.|
-T Rise of the Brotherhood|QID|26322|M|85.86,32.79|Z|1453; Stormwind City|N|To Grand Admiral Jes-Tereth.|
-A Return to Sentinel Hill|QID|26370|M|85.86,32.79|Z|1453; Stormwind City|N|From Grand Admiral Jes-Tereth.|PRE|26322|
+T Rise of the Brotherhood|QID|26322|M|85.86,32.79|Z|1453; Stormwind City|N|To King Varian Wrynn.|
+A Return to Sentinel Hill|QID|26370|M|85.86,32.79|Z|1453; Stormwind City|N|From King Varian Wrynn.|PRE|26322|
 F Sentinel Hill|ACTIVE|26370|M|70.93,72.48|Z|1453; Stormwind City|N|Fly back to Sentinel Hill or use your hearth if you wish.|
 T Return to Sentinel Hill|QID|26370|M|56.37,49.63|Z|1436; Westfall|N|To Marshal Gryan Stoutmantle.|
 N If you plan on going to Redridge Mountains pick up the next two quests. If you dont just skip them.|
 A Threat to the Kingdom|AVAILABLE|26761|M|56.4,49.4|Z|1436; Westfall|N|From Marshal Gryan Stoutmantle.|PRE|26370|
-A Hero's Call: Redridge Mountains!|AVAILABLE|26365|M|56.4,47.6|Z|1436; Westfall|N|From Captain Danuvin.|
+A Hero's Call: Redridge Mountains!|AVAILABLE|26365|M|56.37,49.53|Z|1436; Westfall|N|From Captain Danuvin.|
 ]]
 end)

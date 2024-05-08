@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 F Eastvale Logging Camp|AVAILABLE|26503|Z|1433;Redridge Mountains|N|Fly to Eastvale Logging Camp.|TAXI|Eastvale Logging Camp|
 R Redridge Mountains|AVAILABLE|26503|M|96.68,72.33|Z|1429; Elwynn Forest|N|Follow the road east into Redridge Mountains.|
-A WANTED: Redridge Gnolls|QID|26504|M|16.15,64.54|Z|1433;Redridge Mountains|N|From the Wanted Poster board.|RANK|2|
+A Wanted: Redridge Gnolls|QID|26504|M|16.15,64.54|Z|1433;Redridge Mountains|N|From the Wanted Poster board.|RANK|2|
 A Franks and Beans|QID|26506|M|15.67,65.28|Z|1433;Redridge Mountains|N|From Darcy Parker.|RANK|2|
 T Hero's Call: Redridge Mountains!|ACTIVE|26365|M|15.32,64.64|Z|1433;Redridge Mountains|N|To Watch Captain Parker.|
 A Still Assessing the Threat|QID|26503|M|15.32,64.86|Z|1433;Redridge Mountains|N|From Watch Captain Parker on top of the tower.|
@@ -21,9 +21,9 @@ C Franks and Beans|QID|26506|M|20.46,64.70|Z|1433;Redridge Mountains|N|Kill any 
 T Franks and Beans|QID|26506|M|15.71,65.27|Z|1433;Redridge Mountains|N|To Darcy Parker.|
 T Still Assessing the Threat|QID|26503|M|15.31,64.82|Z|1433;Redridge Mountains|N|To Watch Captain Parker on top of the tower.|
 A Parker's Report|QID|26505|M|15.31,64.82|Z|1433;Redridge Mountains|N|From Watch Captain Parker on top of the tower.|PRE|26503|
-T WANTED: Redridge Gnolls|QID|26504|M|15.31,64.82|Z|1433;Redridge Mountains|N|To Watch Captain Parker on top of the tower.|
+T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|Z|1433;Redridge Mountains|N|To Watch Captain Parker on top of the tower.|
 f Lakeshire|QID|26761|M|29.48,53.77|Z|1433;Redridge Mountains|N|At Ariena Stormfeather.|
-r Repair, Sell Junk|ACTIVE|26505|Z|1433;Redridge Mountains|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
+r Repair, Sell Junk|ACTIVE|26505|Z|1433;Redridge Mountains|N|Take this opportunity to sell unWanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
 T Threat to the Kingdom|QID|26761|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon inside the town hall.|
 T Parker's Report|QID|26505|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon inside the town hall.|
 A We Must Prepare!|QID|26510|M|28.91,41.11|Z|1433;Redridge Mountains|N|From Magistrate Solomon.|
@@ -62,7 +62,7 @@ K Yowler Must Die!|QID|26545|M|27.45,22.09|Z|1433;Redridge Mountains|N|Leave the
 C Like a Fart in the Wind|QID|26513|M|32.27,25.10|Z|1433;Redridge Mountains|N|Finish collecting the supply crates.|NC|US|
 C Saving Foreman Oslow|QID|26520|M|31.75,44.41|Z|1433;Redridge Mountains|N|Run to the boulder at Lakeshire Bridge.  When you get to the boulder, use the orb again to get the rock off Oslow.|U|58895|NC|
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|Z|1433;Redridge Mountains|N|To Marshal Marris.|
-r Repair, Sell Junk|ACTIVE|26545|Z|1433;Redridge Mountains|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
+r Repair, Sell Junk|ACTIVE|26545|Z|1433;Redridge Mountains|N|Take this opportunity to sell unWanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
 T Yowler Must Die!|QID|26545|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon inside the town hall.|
 T Saving Foreman Oslow|QID|26520|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon.|
 A John J. Keeshan|QID|26567|M|28.76,40.90|Z|1433;Redridge Mountains|N|From Colonel Troteman.|PRE|26545|
@@ -102,7 +102,7 @@ T Return of the Bravo Company|QID|26563|M|28.51,40.85|Z|1433;Redridge Mountains|
 A They Drew First Blood|QID|26607|M|28.51,40.85|Z|1433;Redridge Mountains|N|From Colonel Troteman.|PRE|26573&26563|
 T Surveying Equipment|QID|26569|M|29.65,44.38|Z|1433;Redridge Mountains|N|To Foreman Oslow.|
 T Render's Army|QID|26570|M|29.65,44.38|Z|1433;Redridge Mountains|N|To Marshal Marris.|
-r Repair, Sell Junk|ACTIVE|26607|Z|1433;Redridge Mountains|N|Take this opportunity to sell unwanted junk and to repair with Kimberly Hiett just inside the Inn as you head to John J. Keeshan|T|Kimberly Hiett|S!US|
+r Repair, Sell Junk|ACTIVE|26607|Z|1433;Redridge Mountains|N|Take this opportunity to sell unWanted junk and to repair with Kimberly Hiett just inside the Inn as you head to John J. Keeshan|T|Kimberly Hiett|S!US|
 T They Drew First Blood|QID|26607|M|26.29,39.90|Z|1433;Redridge Mountains|N|Head to the basement of the inn to John J. Keeshan.|
 A It's Never Over|QID|26616|M|26.29,39.90|Z|1433;Redridge Mountains|N|From John J. Keeshan.|PRE|26607|
 C It's Never Over|QID|26616|M|34.25,45.6|Z|1433;Redridge Mountains|N|Head to the dock just beyond the bridge, and click on the boat to head to Camp Everstill.|V|
