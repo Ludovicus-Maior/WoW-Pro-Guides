@@ -1103,6 +1103,7 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
             WoWPro:print("TAXIMAP_OPENED: Not trying to travel as AutoSelect is not active.")
         end
     end
+    WoWPro:UpdateGuide(event)
 end)
 
 WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function(event, ...)
