@@ -145,15 +145,15 @@ A A Boyhood Dream|QID|27463|PRE|27455|M|74.25,53.37|Z|1423; Eastern Plaguelands|
 N Talk to Beezil Linkspanner|QID|27463|M|73.82,52.37|Z|1423; Eastern Plaguelands|N|After you go through his short dialog to get him to join the caravan, there will be a new buff available. Beezil's Cog: Increase movement speed within Eastern Plaguelands by 10%.|
 T A Boyhood Dream|QID|27463|M|75.81,52.07|Z|1423; Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
 A Argent Call: The Trial of the Crypt|QID|27464|PRE|27463|M|75.81,52.07|Z|1423; Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|
-A The Brotherhood of Light|QID|27459|Z|1423;Eastern Plaguelands|M|41.71,93.12|N|From Leonid Barthalomew the Revered inside Light's Hope Chapel.|
+A The Brotherhood of Light|QID|27459|Z|1423;Eastern Plaguelands|M|75.62,52.07|N|From Leonid Barthalomew the Revered inside Light's Hope Chapel.|
 f Light's Hope Chapel|QID|27464|M|75.79,53.38|Z|1423; Eastern Plaguelands|N|At Khaelyn Steelwing.|
 A Smokey and the Bandage|QID|27458|M|74.92,53.30|Z|1423; Eastern Plaguelands|N|From Smokey LaRue.|
 A Gathering Some Grub(s)|QID|27456|M|73.87,51.97|Z|1423; Eastern Plaguelands|N|From Rimblat Earthshatter.|
 C Argent Call: The Trial of the Crypt|QID|27464|U|61309|M|77.23,50.80;77.41,51.31;77.37,50.43;77.74,50.39;77.79,51.01|CN|Z|1423; Eastern Plaguelands|N|The Crypt entrance is on the hill behind the Chapel.\nHead to the bottom of the crypt and use the scroll. Survive the waves.|
 T Argent Call: The Trial of the Crypt|QID|27464|M|75.80,52.05|Z|1423; Eastern Plaguelands|N|To Lord Maxwell Tyrosus inside the Chapel.|
 A Argent Call: The Noxious Glade|QID|27465|PRE|27464|M|75.80,52.05|Z|1423; Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|
-A Buried Blades|QID|27467|PRE|27464|Z|1423;Eastern Plaguelands|M|41.62,87.97|N|From Master Craftsman Omarion inside the Chapel.|
-h Light's Hope Chapel|QID|27459|Z|1423;Eastern Plaguelands|M|43.99,89.42|N|At Jessica Chambers inside the Chapel.|
+A Buried Blades|QID|27467|PRE|27464|Z|1423;Eastern Plaguelands|M|75.70,52.09|N|From Master Craftsman Omarion inside the Chapel.|
+h Light's Hope Chapel|QID|27459|Z|1423;Eastern Plaguelands|M|75.63,52.43|N|At Jessica Chambers inside the Chapel.|
 N Optional dungeon quests|QID|27459|Z|1423; Eastern Plaguelands|N|There are two dungeon quests from Lord Raymond George, in the cemetary behind the chapel. One for Scholomance, and one for Stratholme.|
 C Gathering Some Grub(s)|QID|27456|M|72.52,58.49|Z|1423; Eastern Plaguelands|N|Head out of Light's Hope Chapel and kill the worms until you get 15 "Slab of Carrion Worm Meat".|
 T The Brotherhood of Light|QID|27459|M|72.53,74.86|Z|1423; Eastern Plaguelands|N|To Archmage Angela Dosantos.|
@@ -192,7 +192,7 @@ T Befouled No More|QID|27617|M|76.09,75.29|Z|1423; Eastern Plaguelands|N|To Arch
 A Like Rats|QID|27620|PRE|27617&27618|M|76.08,75.31|Z|1423; Eastern Plaguelands|N|From Archmage Angela Dosantos.|
 C Like Rats|QID|27620|M|81.45,78.75|Z|1423; Eastern Plaguelands|N|Work your way inside the cathedral and kill Crusader Lord Valdelmar.|
 H Light's Hope Chapel|QID|27620|Z|1423; Eastern Plaguelands|N|Hearth to Light's Hope Chapel, or run if your hearth is not up.|
-T Like Rats|QID|27620|Z|1423;Eastern Plaguelands|M|41.14,87.90|N|To Leonid Barthalomew the Revered inside the Chapel.|
+T Like Rats|QID|27620|Z|1423;Eastern Plaguelands|M|75.62,52.07|N|To Leonid Barthalomew the Revered inside the Chapel.|
 r Sell junk, repair/restock @ Craftsman Wilhelm.|QID|27456|M|75.16,53.69|
 T Gathering Some Grub(s)|QID|27456|M|73.86,51.96|Z|1423; Eastern Plaguelands|N|To Rimblat Earthshatter.|
 C Buried Blades|QID|27467|S|M|76.20,39.41|Z|1423; Eastern Plaguelands|N|Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|NC|
@@ -255,7 +255,7 @@ A Add 'em to the Pile|QID|27539|M|27.70,21.02|Z|1423; Eastern Plaguelands|N|From
 C Guardians of Stratholme|QID|27525|QO|1|M|23.43,21.65;24.94,20.41|CS|Z|1423; Eastern Plaguelands|N|Kill Omasum Blighthoof.|
 C Guardians of Stratholme|QID|27525|QO|2|M|29.01,23.18;29.90,20.05|CS|Z|1423; Eastern Plaguelands|N|Kill Karthis Darkrune.|
 N The Baroness' Missive|AVAILABLE|27551|Z|1423; Eastern Plaguelands|N|Keep killing Omasum Blighthoof and Karthis Darkrune until you get the quest.|
-A The Baroness' Missive|QID|27551|Z|1423; Eastern Plaguelands|N|(UI Alert) Omasum Blighthoof or Karthis Darkrune should drop this.|O|
+A The Baroness' Missive|QID|27551|Z|1423; Eastern Plaguelands|N|(UI Alert) Omasum Blighthoof or Karthis Darkrune should drop this.|O|U|61378|
 T The Baroness' Missive|QID|27551|M|27.48,21.27|Z|1423; Eastern Plaguelands|N|To Tarenar Sunstrike.|
 A Gidwin's Fate Revealed|QID|27526|PRE|27551|M|27.48,21.27|Z|1423; Eastern Plaguelands|N|From Tarenar Sunstrike.|
 T Guardians of Stratholme|QID|27525|M|27.48,21.27|Z|1423; Eastern Plaguelands|N|To Tarenar Sunstrike.|
