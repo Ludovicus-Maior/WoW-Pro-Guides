@@ -514,7 +514,7 @@ A Superior Programming|QID|57936|M|54.78,41.25|Z|1533;Bastion!The Shadowlands|N|
 C Combat Drills|QID|57934|M|55.35,42.02|QO|1|Z|1533;Bastion!The Shadowlands|H|N|Click on Gatamatos.|
 C Laser Location|QID|57935|M|55.78,42.59|QO|1|Z|1533;Bastion!The Shadowlands|NC|N|Click on Gatamatos.|
 C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|1533;Bastion!The Shadowlands|N|Kill the Etherwyrms with Gatamatos at your side.|S|
-R Hall of Beasts|ACTIVE|57935|CS|M|56.71,42.68;56.13,40.28|Z|1533;Bastion!The Shadowlands|N|Run into the Hall of Beasts.|
+R Hall of Beasts|ACTIVE|57935|QO|1|CS|M|56.71,42.68;56.13,40.28|Z|1533;Bastion!The Shadowlands|N|Run into the Hall of Beasts.|
 C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|1533;Bastion!The Shadowlands|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|S|
 C Superior Programming|QID|57936|M|56.13,40.28|Z|1533;Bastion!The Shadowlands|N|Kill Leonid.|T|Leonid|
 $ Larion Tamer's Harness|QID|61049|M|58.23,39.97|Z|1533;Bastion!The Shadowlands|N|Treasure for your enjoyment.|RANK|2|ACH|14311;5|
