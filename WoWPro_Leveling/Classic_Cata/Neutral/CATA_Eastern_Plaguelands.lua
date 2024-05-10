@@ -292,6 +292,7 @@ T Counter-Plague Research|QID|27531|M|17.81,27.86|Z|1423; Eastern Plaguelands|N|
 T Journey's End|QID|27527|U|61379|M|73.83,52.16|Z|1423; Eastern Plaguelands|N|To Fiona. Use "Gidwin's Hearthstone" to save your own.|
 ;F Ironforge or Stormwind|QID|27762|M|75.81,53.42|Z|1423; Eastern Plaguelands|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc. Close this step when done.|FACTION|Alliance|
 A Fuselight, Ho!|QID|27762|LEAD|27763|M|73.78,53.05|Z|1423; Eastern Plaguelands|N|From Gek Nozzlerocket. Pick this up if you'd like to head to the Badlands next!|
-T Fuselight, Ho!|QID|27762|O|M|73.78,53.05|Z|1423; Eastern Plaguelands|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|
+R Badlands|ACTIVE|27762|M|73.78,53.05|Z|1423; Eastern Plaguelands|N|Hop on the rocket near the quest giver. When you land, turn-in to Eddie Flofizzle.|V|TZ|Badlands|
+T Fuselight, Ho!|QID|27762|M|92.59,38.98|Z|1418; Badlands|N|When you land, turn-in to Eddie Flofizzle.|
 ]]
 end)

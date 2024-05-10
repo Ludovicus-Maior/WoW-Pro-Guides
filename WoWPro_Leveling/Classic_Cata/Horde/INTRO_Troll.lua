@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide('BitDur0105', "Leveling", 'Durotar', "WoWPro Team", 'Horde', 4)
 WoWPro:GuideLevels(guide, 1, 5)
 WoWPro:GuideSort(guide, 10)
+WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Troll: Intro")
 WoWPro:GuideName(guide,"Troll: Intro")
 WoWPro:GuideNextGuide(guide, "Orc & Troll: Intro (Part 2)")
