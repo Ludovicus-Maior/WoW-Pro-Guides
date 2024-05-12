@@ -118,7 +118,7 @@ A Beds, Bandages, and Beyond|QID|9603|M|48.34,49.15|Z|1943; Azuremyst Isle|N|Fro
 A Medicinal Purpose|QID|9463|M|48.39,51.77|Z|1943; Azuremyst Isle|N|From Anchorite Fateema.|R|Draenei|
 = First Aid|ACTIVE|9603|M|48.39,51.77|Z|1943; Azuremyst Isle|N|Learn from Anchorite Fateema.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice First Aid;3273|
 = Professions|ACTIVE|9603|M|48.68,52.34|Z|1943; Azuremyst Isle|N|If you wish, Valn will teach all Gathering and Production professions.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Azure Watch|
-l Blood Elf Communication|AVAILABLE|9616|L|23910|ITEM|23910|N|Blood Elf Bandits.|LVL|5|S!US|IZ|Azuremyst Isle|
+l Blood Elf Communication|AVAILABLE|9616|L|23910|ITEM|23910|N|Blood Elf Bandits.\n[color=FF0000]NOTE: [/color]These guys are steathed and located in random places.|LVL|5|S!US|IZ|Azuremyst Isle|
 A Bandits!|QID|9616|M|PLAYER|CC|N|From the Blood Elf Communication you just picked up.|U|23910|LVL|5|O|
 t Bandits!|QID|9616|M|47.13,50.61|Z|1943; Azuremyst Isle|N|To Exarch Menelaous.|IZ|Azure Watch|
 f Azure Watch|ACTIVE|9603|M|49.71,49.11|Z|1943; Azuremyst Isle|N|From Zaldaan.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Azure Watch|
@@ -168,6 +168,11 @@ C Reclaiming the Ruins|QID|9513|QO|1;2;3|M|34.53,77.71|Z|1943; Azuremyst Isle|N|
 C Precious and Fragile Things Need Special Handling|QID|9523|M|34.53,77.71|Z|1943; Azuremyst Isle|N|Clear the area and collect the Ancient Relics from around Wrathscale Point.|NC|
 C Reclaiming the Ruins|QID|9513|QO|1;2;3|M|34.53,77.71|Z|1943; Azuremyst Isle|N|Kill Wrathscale Nagas as required.|US
 l Rune Covered Tablet|AVAILABLE|9514|M|32.98,77.07|Z|1943; Azuremyst Isle|L|23759|ITEM|23759|N|any Wrathscale Naga.|US|
+l Faintly Glowing Crystal|AVAILABLE|9455|M|35.97,61.42|Z|1943; Azuremyst Isle|L|23678|ITEM|23678|N|Infected Nightstalker Runts.|S|
+A Strange Findings|QID|9455|M|PLAYER|CC|N|From the Faintly Glowing Crystal you just looted.|Z|1943; Azuremyst Isle|U|23678|O|
+R Pod Cluster|ACTIVE|10324|M|35.97,61.42|Z|1943; Azuremyst Isle|N|Head northward.|
+C The Great Moongraze Hunt|QID|10324|M|35.97,61.42|Z|1943; Azuremyst Isle|L|23677 6|ITEM|23677|N|Moongraze Bucks.|T|Moongraze Buck|US|
+l Faintly Glowing Crystal|AVAILABLE|9455|M|35.97,61.42|Z|1943; Azuremyst Isle|L|23678|ITEM|23678|N|Infected Nightstalker Runts.|T|Infected Nightstalker Runt|US|
 C I've Got a Plant|QID|9530|QO|1;2|M|45.43,66.20|Z|1943; Azuremyst Isle|N|Finish collecting the items.\n[color=FF0000]NOTE: [/color]You'll find hollow trees closer to Odesyus' Landing.|US|NC|
 T I've Got a Plant|QID|9530|M|47.04,70.22|Z|1943; Azuremyst Isle|N|To Admiral Odesyus.|
 A Tree's Company|QID|9531|PRE|9530|M|47.04,70.22|Z|1943; Azuremyst Isle|N|From Admiral Odesyus.|
@@ -175,19 +180,16 @@ T Precious and Fragile Things Need Special Handling|QID|9523|M|47.24,70.00|Z|194
 T Reclaiming the Ruins|QID|9513|M|47.13,70.27|Z|1943; Azuremyst Isle|N|To Priestess Kyleen Il'dinare.|
 T Rune Covered Tablet|QID|9514|M|47.13,70.27|Z|1943; Azuremyst Isle|N|To Priestess Kyleen Il'dinare.|
 A Warlord Sriss'tiz|QID|9515|PRE|9514|M|47.13,70.27|Z|1943; Azuremyst Isle|N|From Priestess Kyleen Il'dinare when the dialog ends.|
-l Faintly Glowing Crystal|AVAILABLE|9455|M|48.26,41.43|Z|1943; Azuremyst Isle|L|23678|ITEM|23678|N|Infected Nightstalkers.|
-A Strange Findings|QID|9455|M|48.26,41.43|N|From the Faintly Glowing Crystal you just looted.|Z|1943; Azuremyst Isle|U|23678|O|
-C The Great Moongraze Hunt|QID|10324|M|44.10,41.90|Z|1943; Azuremyst Isle|L|23677 6|ITEM|23677|N|Moongraze Bucks.|T|Moongraze Buck|US|
-R Azure Watch|ACTIVE|9538|M|48.34,49.15|Z|1943; Azuremyst Isle|N|Run to Azure Watch.|
+R Azure Watch|ACTIVE|10324|M|48.34,49.15|Z|1943; Azuremyst Isle|N|Return to Azure Watch.|
 T Strange Findings|QID|9455|M|47.11,50.60|Z|1943; Azuremyst Isle|N|To Exarch Menelaous.|
 A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|M|47.11,50.60|Z|1943; Azuremyst Isle|N|From Exarch Menelaous.|
+= Level 9 Training|ACTIVE|10324|M|PLAYER|CC|N|Do your level 9 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|9|C|Mage,Paladin,Priest,Warrior|IZ|Azure Watch|
 T The Great Moongraze Hunt|QID|10324|M|49.79,51.93|Z|1943; Azuremyst Isle|N|To Acteon.|
 A The Missing Fisherman|QID|10428|LEAD|9527|M|48.96,51.07|Z|1943; Azuremyst Isle|N|From Dulvi.|
 A Learning the Language|QID|9538|M|49.38,50.97|Z|1943; Azuremyst Isle|N|From Cryptographer Aurren.|
-C Learning the Language|QID|9538|M|PLAYER|CC|N|Read the book.|U|23818|
+C Learning the Language|QID|9538|M|PLAYER|CC|N|Read the book.|U|23818|NC|
 T Learning the Language|QID|9538|M|49.43,50.99|Z|1943; Azuremyst Isle|N|To the Totem of Akida.|
 A Totem of Coo|QID|9539|PRE|9538|M|49.43,50.99|Z|1943; Azuremyst Isle|N|From the Totem of Akida.|
-= Level 9 Training|ACTIVE|9538|M|PLAYER|CC|N|Do your level 9 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|9|C|Mage,Paladin,Priest,Warrior|IZ|Azure Watch|
 T Totem of Coo|QID|9539|M|55.23,41.65|Z|1943; Azuremyst Isle|N|To the Totem of Coo.|
 A Totem of Tikti|QID|9540|PRE|9539|M|55.23,41.65|Z|1943; Azuremyst Isle|N|From the Totem of Coo.|
 R Totem of Tikti|ACTIVE|9540|M|64.47,39.77|CC|Z|1943; Azuremyst Isle|N|Run/jump off the cliff to the east AFTER you receive the "Ghost Walk" buff, then keep running east until you cross the river.|
@@ -220,16 +222,15 @@ A Stillpine Hold|QID|9559|PRE|9544|M|49.36,51.08|Z|1943; Azuremyst Isle|N|From A
 T Nightstalker Clean Up, Isle 2...|QID|9456|M|47.11,50.60|Z|1943; Azuremyst Isle|N|To Exarch Menelaous.|
 A Coming of Age|QID|9623|M|47.11,50.60|Z|1943; Azuremyst Isle|N|From Exarch Menelaous.|
 = Level 10 Training|ACTIVE|9623|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|C|Hunter,Paladin,Shaman,Warrior|IZ|Azure Watch|
+N Talents|ACTIVE|9623|M|PLAYER|CC|N|Now that you've reached lv 10, you can now select a specialization and pick from the Talent Tree.\nGoing forward, your talent window will tell you when you'll earn your next talent point. These can be spent any time you wish.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|IZ|Azure Watch|
 ; ** Lv 10 Class quests
 ; ** Warrior
 A Strength of One|QID|9582|M|50.02,50.52|Z|1943; Azuremyst Isle|N|From Ruada.|LVL|10|C|Warrior|
 N Strength of One|QID|9582|QO|1|N|You will do this shortly while you're in the same area north of here.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warrior|
-; ** Priest
-A Returning Home|QID|10534|N|Not sure how you get this yet.|LVL|10|R|Draenei|C|Priest|
-F The Exodar|ACTIVE|10534|N|Fly to the Exodar.|C|Priest|
-T Returning Home|QID|10534|N|To Caedmos.|C|Priest|
-; ** Shaman
-
+; ** Priest (not implemented?)
+;A Returning Home|QID|10534|N|Not sure how you get this yet.|LVL|10|R|Draenei|C|Priest|
+;F The Exodar|ACTIVE|10534|N|Fly to the Exodar.|C|Priest|
+;T Returning Home|QID|10534|N|To Caedmos.|C|Priest|
 ; **
 ; Stillpine Hold
 R Stillpine Hold|QID|9559|M|45.75,24.69|Z|1943; Azuremyst Isle|N|Follow the road north out of Azure Watch.|
@@ -250,7 +251,7 @@ T Murlocs... Why Here? Why Now?|QID|9562|M|44.63,23.48|Z|1943; Azuremyst Isle|N|
 T Gurf's Dignity|QID|9564|M|44.63,23.48|Z|1943; Azuremyst Isle|N|To Gurf.|
 A Search Stillpine Hold|QID|9565|PRE|9560&9562|M|46.68,20.63|Z|1943; Azuremyst Isle|N|From High Chief Stillpine.|
 A Chieftain Oomooroo|QID|9573|PRE|9560&9562|M|46.90,21.16|Z|1943; Azuremyst Isle|N|From Stillpine the Younger.|
-C Chieftain Oomooroo|QID|9573|QO|2|M|47.43,14.18|Z|1943; Azuremyst Isle|N|Kill Crazed Wildkin inside Stillpine Hold.|T|Crazed Wildkin|S|
+C Chieftain Oomooroo|QID|9573|QO|2|M|47.43,14.18|Z|1943; Azuremyst Isle|N|Kill Crazed Wildkin inside Stillpine Hold.|S|
 C Chieftain Oomooroo|QID|9573|QO|1|M|45.39,18.06;47.43,14.18|CS|Z|1943; Azuremyst Isle|N|Locate Chieftain Oomooroo and kill him.\n[color=FF0000]NOTE: [/color]Stay to the right of the fork (high road).|T|Chieftain Oomooroo|
 C Chieftain Oomooroo|QID|9573|QO|2|M|48.45,15.48|Z|1943; Azuremyst Isle|N|Kill Crazed Wildkin inside Stillpine Hold.|T|Crazed Wildkin|US|
 T Chieftain Oomooroo|QID|9573|M|46.90,21.16|Z|1943; Azuremyst Isle|N|To Stillpine the Younger.|
