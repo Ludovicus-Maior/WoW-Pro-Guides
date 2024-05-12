@@ -32,7 +32,7 @@
 	<Script file="CATA_Western_Plaguelands.lua"/>
 	<Script file="CATA_Westfall.lua"/>
 	<Script file="CATA_Wetlands.lua"/>
-	<Script file="INTRO_Draenai.lua"/>
+	<Script file="INTRO_Draenei.lua"/>
 	<Script file="INTRO_Dwarf.lua"/>
 	<Script file="INTRO_Dwarf_Gnome_Part2.lua"/>
 	<Script file="INTRO_Gnome.lua"/>
