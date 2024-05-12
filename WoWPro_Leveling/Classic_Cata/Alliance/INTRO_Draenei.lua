@@ -258,8 +258,8 @@ T Chieftain Oomooroo|QID|9573|M|46.90,21.16|Z|1943; Azuremyst Isle|N|To Stillpin
 A The Kurken is Lurkin'|QID|9570|M|46.97,22.26|Z|1943; Azuremyst Isle|N|From Kurz the Revelator.|
 C The Kurken is Lurkin'|QID|9570|M|49.78,12.95|Z|1943; Azuremyst Isle|L|23860|ITEM|23860|N|the Kurken.\n[color=FF0000]NOTE: [/color]Stay to the left of the fork (low road) this time.|T|The Kurken|
 T Search Stillpine Hold|QID|9565|M|50.44,11.30|Z|1943; Azuremyst Isle|N|Turn in at the red crystal.\n[color=FF0000]NOTE: [/color]Be ready for a fight when accepting the next quest. Stand with your back to the wall.|
-A Blood Crystals|QID|9566|PRE|9565|M|50.5,11.5|Z|1943; Azuremyst Isle|N|From the Blood Crystal.\n[color=FF0000]NOTE: [/color]Be ready for a fight when accepting, as two owlkin will spawn behind you and attack.|NOAUTO|
-T Blood Crystals|QID|9566|M|46.7,20.6|Z|1943; Azuremyst Isle|N|To High Chief Stillpine after exiting the cave.|
+A Blood Crystals|QID|9566|PRE|9565|M|50.44,11.30|Z|1943; Azuremyst Isle|N|From the Blood Crystal.\n[color=FF0000]NOTE: [/color]Be ready for a fight when accepting, as two owlkin will spawn behind you and attack.|NOAUTO|
+T Blood Crystals|QID|9566|M|46.68,20.63|Z|1943; Azuremyst Isle|N|To High Chief Stillpine after exiting the cave.|
 T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|Z|1943; Azuremyst Isle|N|To Kurz the Revelator.|
 A The Kurken's Hide|QID|9571|PRE|9570|M|46.97,22.26|Z|1943; Azuremyst Isle|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|PRE|9566&9570&9573|M|46.68,20.63|Z|1943; Azuremyst Isle|N|From High Chief Stillpine.|
