@@ -26,7 +26,7 @@ f Tranquillien|ACTIVE|9327^9329|M|45.47,30.50|Z|1942;Ghostlands|N|At Skymaster S
 T The Forsaken|QID|9327^9329|M|44.79,32.45|Z|1942;Ghostlands|N|To High Executor Mavren.|
 h Tranquillien|AVAILABLE|9758|M|48.86,32.35|Z|1942;Ghostlands|N|Set your Hearth to Tranquillien.|
 A Return to Arcanist Vandril|QID|9758|PRE|9329|M|44.79,32.45|Z|1942;Ghostlands|N|From High Executor Mavren.|
-A Help Ranger Valanna!|QID|9145|PRE|9329|M|45.45,32.42|Z|1942;Ghostlands|N|From Ranger Lethvalin.|
+A Help Ranger Valanna!|QID|9145|PRE|9327^9329|M|45.45,32.42|Z|1942;Ghostlands|N|From Ranger Lethvalin.|
 T Return to Arcanist Vandril|QID|9758|M|46.51,28.35|Z|1942;Ghostlands|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|PRE|9758|M|46.51,28.35|Z|1942;Ghostlands|N|From Arcanist Vandril.|
 A Anok'suten|QID|9315|PRE|9758|M|57.53,14.96|Z|1942;Ghostlands|N|From Dying Blood Elf.|

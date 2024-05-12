@@ -142,6 +142,6 @@ C Half-Ton Holdouts|QID|27833|M|14.71,63.74|Z|1418; Badlands|N|Head back outside
 T Survival of the Fattest|QID|27825|M|20.74,55.86|Z|1418; Badlands|N|To Victoria Dolen.|
 A To the Aid of the Thorium Brotherhood|QID|28512|LEAD|27963|M|20.74,55.86|Z|1418; Badlands|N|From Victoria Dolen. Will not show up if you have the quest, "Hero's Call: Searing Gorge!"|
 T Half-Ton Holdouts|QID|27833|M|20.96,57.39|Z|1418; Badlands|N|To Terrance Storm.|
-F Stormwind City or Ironforge|M|21.78,57.70|Z|1418; Badlands|N|Fly to Stormwind or Ironforge to visit your trainers, and AH. Close this step to go to the next guide.|
+F Stormwind|M|21.78,57.70|Z|1418; Badlands|N|Fly to Stormwindto visit your trainers, and AH. Close this step to go to the next guide.|
 ]]
 end)
