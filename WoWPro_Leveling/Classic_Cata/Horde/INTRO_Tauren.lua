@@ -8,41 +8,86 @@ WoWPro:GuideNextGuide(guide, "BitNor1220")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A The First Step|QID|14449|M|27.72,28.28|Z|1412;Mulgore|N|From Chief Hawkwind.|
-T The First Step|QID|14449|M|39.45,37.25|Z|1412;Mulgore|N|To Grull Hawkwind.|
-A Rite of Strength|QID|14452|PRE|14449|M|39.45,37.25|Z|1412;Mulgore|N|From Grull Hawkwind.|
-C Rite of Strength|QID|14452|M|40.65,38.26|Z|1412;Mulgore|N|Kill the Quilboars fighting with the defenders.|
-T Rite of Strength|QID|14452|M|39.45,37.25|Z|1412;Mulgore|N|To Grull Hawkwind.|
-A Our Tribe, Imprisoned|QID|24852|PRE|14452|M|39.45,37.25|Z|1412;Mulgore|N|From Grull Hawkwind.|
-C Our Tribe, Imprisoned|QID|24852|M|47.10,43.14|Z|1412;Mulgore|N|Free the captured braves from the cages in this area.|NC|
-T Our Tribe, Imprisoned|QID|24852|M|39.45,37.25|Z|1412;Mulgore|N|To Grull Hawkwind.|
-A Go to Adana|QID|14458|PRE|24852|M|39.45,37.25|Z|1412;Mulgore|N|From Grull Hawkwind.|
-T Go to Adana|QID|14458|M|30.92,50.59|Z|1412;Mulgore|N|To Adana Thunderhorn.|
-A Rite of Courage|QID|14456|M|30.92,50.59|Z|1412;Mulgore|N|From Adana Thunderhorn.|
-A Stop the Thorncallers|QID|14455|PRE|14458|M|30.92,50.59|Z|1412;Mulgore|N|From Adana Thunderhorn.|
-C Rite of Courage|QID|14456|M|34.67,61.32|Z|1412;Mulgore|L|49535 7|ITEM|49535|N|Bristleback gun thieves.|S|
-C Stop the Thorncallers|QID|14455|M|33.59,69.23|Z|1412;Mulgore|N|Kill Bristleback Thorncallers|
-C Rite of Courage|QID|14456|M|34.67,61.32|Z|1412;Mulgore|L|49535 7|ITEM|49535|N|Bristleback gun thieves.|US|
-T Rite of Courage|QID|14456|M|30.92,50.59|Z|1412;Mulgore|N|To Adana Thunderhorn.|
-T Stop the Thorncallers|QID|14455|M|30.92,50.59|Z|1412;Mulgore|N|To Adana Thunderhorn.|
-A The Battleboars|QID|14459|PRE|14455&14456|M|30.92,50.59|Z|1412;Mulgore|N|From Adana Thunderhorn.|
-A Feed of Evil|QID|14461|PRE|14455&14456|M|30.92,50.59|Z|1412;Mulgore|N|From Adana Thunderhorn.|
-C Feed of Evil|QID|14461|M|26.38,66.35;25.15,69.15;28.22,70.45|CS|Z|1412;Mulgore|N|Use Adona's Torch on the Troughs|U|49539|NC|
-C The Battleboars|QID|14459|M|26.68,68.39|Z|1412;Mulgore|N|Kill any Battleboars you still need|
-T The Battleboars|QID|14459|M|30.92,50.597|Z|1412;Mulgore|N|To Adana Thunderhorn.|
-T Feed of Evil|QID|14461|M|30.92,50.59|Z|1412;Mulgore|N|To Adana Thunderhorn.|
-A Rite of Honor|QID|14460|PRE|14459&14461|M|30.92,50.59|Z|1412;Mulgore|N|From Adana Thunderhorn.|
-C Rite of Honor|QID|14460|M|15.32,46.69|Z|1412;Mulgore|N|Kill and loot Chief Squealer Thornmantle, who is hanging out in this small cave.|
-H Camp Narache|QID|14460|M|27.76,28.29|Z|1412;Mulgore|N|Use your hearthstone to return to Camp Narache (or run there).|
-T Rite of Honor|QID|14460|M|27.72,28.28|Z|1412;Mulgore|N|To Chief Hawkwind.|
-A Last Rites, First Rites|QID|24861|PRE|14460|M|27.72,28.28|Z|1412;Mulgore|N|From Chief Hawkwind.|
-C Last Rites, First Rites|QID|24861|M|27.79,28.75|Z|1412;Mulgore|N|Use the Water Pitcher to place an offering for Greatmother Hawkwind.|U|50465|NC|
-T Last Rites, First Rites|QID|24861|M|27.72,28.28|Z|1412;Mulgore|N|To Chief Hawkwind.|
-A Rites of the Earthmother|QID|23733|PRE|24861|M|27.72,28.28|Z|1412;Mulgore|N|From Chief Hawkwind.|
-R Fargaze Mesa|ACTIVE|23733|M|21.03,34.52;15.76,27.68|CS|Z|1412;Mulgore|N|Head up the path on the hill to Fargaze Mesa.|
-T Rites of the Earthmother|QID|23733|M|15.62,30.28|Z|1412;Mulgore|N|To Dyami Windsoar.|
-A Rite of the Winds|QID|24215|PRE|23733|M|15.62,30.28|Z|1412;Mulgore|N|From Dyami Windsoar.|
-F Bloodhoof Village|QID|24215|M|47.82,59.87|Z|1412;Mulgore|N|Use the Water of Vision to become an eagle spirit and fly to Bloodhoof Village.|U|49652|NC|
+A The First Step|QID|14449|M|45.16,75.55|Z|1412;Mulgore|N|From Chief Hawkwind.|
+T The First Step|QID|14449|M|48.92,78.32|Z|1412;Mulgore|N|To Grull Hawkwind.|
+A Rite of Strength|QID|14452|PRE|14449|M|48.92,78.32|Z|1412;Mulgore|N|From Grull Hawkwind.|
+C Rite of Strength|QID|14452|M|50.23,79.56|Z|1412;Mulgore|N|Kill the Quilboars fighting with the defenders.|
+T Rite of Strength|QID|14452|M|48.92,78.32|Z|1412;Mulgore|N|To Grull Hawkwind.|
+A Our Tribe, Imprisoned|QID|24852|PRE|14452|M|48.92,78.32|Z|1412;Mulgore|N|From Grull Hawkwind.|
+C Our Tribe, Imprisoned|QID|24852|M|51.99,80.46|Z|1412;Mulgore|N|Free the captured braves from the cages in this area.|NC|
+T Our Tribe, Imprisoned|QID|24852|M|48.92,78.32|Z|1412;Mulgore|N|To Grull Hawkwind.|
+A Go to Adana|QID|14458|PRE|24852|M|48.92,78.32|Z|1412;Mulgore|N|From Grull Hawkwind.|
+T Go to Adana|QID|14458|M|46.21,82.61|Z|1412;Mulgore|N|To Adana Thunderhorn.|
+A Rite of Courage|QID|14456|M|46.21,82.61|Z|1412;Mulgore|N|From Adana Thunderhorn.|
+A Stop the Thorncallers|QID|14455|PRE|14458|M|46.21,82.61|Z|1412;Mulgore|N|From Adana Thunderhorn.|
+C Rite of Courage|QID|14456|M|47.56,87.06|Z|1412;Mulgore|L|49535 7|ITEM|49535|N|Bristleback gun thieves.|S|
+C Stop the Thorncallers|QID|14455|M|47.56,87.06|Z|1412;Mulgore|N|Kill Bristleback Thorncallers|
+C Rite of Courage|QID|14456|M|47.56,87.06|Z|1412;Mulgore|L|49535 7|ITEM|49535|N|Bristleback gun thieves.|US|
+T Rite of Courage|QID|14456|M|46.21,82.61|Z|1412;Mulgore|N|To Adana Thunderhorn.|
+T Stop the Thorncallers|QID|14455|M|46.21,82.61|Z|1412;Mulgore|N|To Adana Thunderhorn.|
+A The Battleboars|QID|14459|PRE|14455&14456|M|46.21,82.61|Z|1412;Mulgore|N|From Adana Thunderhorn.|
+A Feed of Evil|QID|14461|PRE|14455&14456|M|46.21,82.61|Z|1412;Mulgore|N|From Adana Thunderhorn.|
+C Feed of Evil|QID|14461|QO|1|M|44.72,87.74|Z|1412;Mulgore|N|Use Adona's Torch on the Firts Trough|U|49539|NC|
+C Feed of Evil|QID|14461|QO|2|M|44.35,88.77|Z|1412;Mulgore|N|Use Adona's Torch on the Second Trough|U|49539|NC|
+C Feed of Evil|QID|14461|QO|3|M|45.29,89.05|Z|1412;Mulgore|N|Use Adona's Torch on the Third Trough|U|49539|NC|
+C The Battleboars|QID|14459|M|44.35,88.77|Z|1412;Mulgore|N|Kill any Battleboars you still need|
+T The Battleboars|QID|14459|M|46.21,82.617|Z|1412;Mulgore|N|To Adana Thunderhorn.|
+T Feed of Evil|QID|14461|M|46.21,82.61|Z|1412;Mulgore|N|To Adana Thunderhorn.|
+A Rite of Honor|QID|14460|PRE|14459&14461|M|46.21,82.61|Z|1412;Mulgore|N|From Adana Thunderhorn.|
+
+A Verdant Note|QID|3094|M|46.15,82.47|Z|Mulgore|N|From Rohaku Stonehoof.|C|Druid|R|Tauren|
+T Verdant Note|QID|3094|M|45.21,75.29|Z|Mulgore|N|To Gart Mistrunner.|C|Druid|R|Tauren|
+A The Healer's Touch|QID|27067|M|45.21,75.29|Z|Mulgore|N|From Gart Mistrunner.|C|Druid|R|Tauren|
+C The Healer's Touch|QID|27067|M|44.57,74.60|Z|Mulgore|C|Druid|R|Tauren|
+T The Healer's Touch|QID|27067|M|45.15,75.15|Z|Mulgore|N|To Gart Mistrunner.|C|Druid|R|Tauren|
+
+A Etched Note|QID|3092|M|46.16,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Hunter|R|Tauren|
+T Etched Note|QID|3092|M|45.21,75.46|Z|Mulgore|N|To Lanka Farshot.|C|Hunter|R|Tauren|
+A The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|N|From Lanka Farshot.|C|Hunter|R|Tauren|
+C The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|C|Hunter|R|Tauren|
+T The Hunter's Path|QID|27021|M|45.21,75.46|Z|Mulgore|N|To Lanka Farshot.|C|Hunter|R|Tauren|
+
+A Consecrated Note|QID|27015|M|82.79,17.20|Z|Mulgore|N|From Rohaku Stonehoof.|C|Paladin|R|Tauren|
+T Consecrated Note|QID|27015|M|45.01,75.40|Z|Mulgore|N|To Sunwalker Helaku.|C|Paladin|R|Tauren|
+A The Way of the Sunwalkers|QID|27023|M|45.01,75.40|Z|Mulgore|N|From Sunwalker Helaku.|C|Paladin|R|Tauren|
+C The Way of the Sunwalkers|QID|27023|M|45.39,75.47|Z|Mulgore|C|Paladin|R|Tauren|
+T The Way of the Sunwalkers|QID|27023|M|45.02,75.40|Z|Mulgore|N|To Sunwalker Helaku.|C|Paladin|R|Tauren|
+
+A Hallowed Note|QID|27014|M|46.18,82.49|Z|Mulgore|N|From Rohaku Stonehoof.|C|Priest|R|Tauren|
+T Hallowed Note|QID|27014|M|45.03,75.32|Z|Mulgore|N|To Seer Ravenfeather.|C|Priest|R|Tauren|
+A Healing in a Flash|QID|27066|M|45.03,75.32|Z|Mulgore|N|From Seer Ravenfeather.|C|Priest|R|Tauren|
+C Healing in a Flash|QID|27066|M|44.51,74.50|Z|Mulgore|C|Priest|R|Tauren|
+T Healing in a Flash|QID|27066|M|44.94,75.16|Z|Mulgore|N|To Seer Ravenfeather.|C|Priest|R|Tauren|
+
+A Rune-Inscribed Note|QID|3093|M|46.19,82.39|Z|Mulgore|N|From Rohaku Stonehoof.|C|Shaman|R|Tauren|
+T Rune-Inscribed Note|QID|3093|M|45.04,75.10|Z|Mulgore|N|To Meela Dawnstrider.|C|Shaman|R|Tauren|
+A Primal Strike|QID|27027|M|45.04,75.10|Z|Mulgore|N|From Meela Dawnstrider.|C|Shaman|R|Tauren|
+C Primal Strike|QID|27027|M|45.44,75.48|Z|Mulgore|C|Shaman|R|Tauren|
+T Primal Strike|QID|27027|M|45.11,75.09|Z|Mulgore|N|To Meela Dawnstrider.|C|Shaman|R|Tauren|
+
+A Simple Note|QID|3091|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Warrior|R|Tauren|
+T Simple Note|QID|3091|M|45.04,75.58|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
+A The First Lesson|QID|27020|M|45.04,75.58|Z|Mulgore|N|From Harutt Thunderhorn.|C|Warrior|R|Tauren|
+C The First Lesson|QID|27020|M|45.40,75.53|Z|Mulgore|C|Warrior|R|Tauren|
+T The First Lesson|QID|27020|M|45.06,75.52|Z|Mulgore|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
+
+;A Calligraphed Note|QID|31165|M|46.18,82.41|Z|Mulgore|N|From Rohaku Stonehoof.|C|Monk|R|Tauren|
+;T Calligraphed Note|QID|31165|M|45.23,75.47|Z|Mulgore|N|From Shoyu.|C|Monk|R|Tauren|
+;A Tiger Palm|QID|31166|M|45.23,75.47|Z|Mulgore|N|To Shoyu.|C|Monk|R|Tauren|
+;C Tiger Palm|QID|31166|M|45.40,75.53|Z|Mulgore|C|Monk|R|Tauren|
+;T Tiger Palm|QID|31166|M|45.23,75.47|Z|Mulgore|N|To Shoyu.|C|Monk|R|Tauren|
+
+K Chief Squealer Thornmantle|ACTIVE|14460|M|41.66,81.48|Z|1412;Mulgore|N|Kill and loot Chief Squealer Thornmantle, who is hanging out in this small cave.|T|Chief Squealer Thornmantle|
+H Camp Narache|ACTIVE|14460|M|PLAYER|Z|1412;Mulgore|N|Use your hearthstone to return to Camp Narache (or run there).|
+T Rite of Honor|QID|14460|M|45.16,75.55|Z|1412;Mulgore|N|To Chief Hawkwind.|
+A Last Rites, First Rites|QID|24861|PRE|14460|M|45.16,75.55|Z|1412;Mulgore|N|From Chief Hawkwind.|
+C Last Rites, First Rites|QID|24861|M|45.12,75.44|Z|1412;Mulgore|N|Use the Water Pitcher to place an offering for Greatmother Hawkwind.|U|50465|NC|
+T Last Rites, First Rites|QID|24861|M|45.16,75.55|Z|1412;Mulgore|N|To Chief Hawkwind.|
+A Rites of the Earthmother|QID|23733|PRE|24861|M|45.16,75.55|Z|1412;Mulgore|N|From Chief Hawkwind.|
+R Fargaze Mesa|ACTIVE|23733|M|41.25,76.07|CS|Z|1412;Mulgore|N|Head up the path on the hill to Fargaze Mesa.|
+T Rites of the Earthmother|QID|23733|M|41.25,76.07|Z|1412;Mulgore|N|To Dyami Windsoar.|
+A Rite of the Winds|QID|24215|PRE|23733|M|41.25,76.07|Z|1412;Mulgore|N|From Dyami Windsoar.|
+F Bloodhoof Village|QID|24215|M|PLAYER|Z|1412;Mulgore|N|Use the Water of Vision to become an eagle spirit and fly to Bloodhoof Village.|U|49652|NC|
 T Rite of the Winds|QID|24215|M|47.65,59.58|Z|1412;Mulgore|N|To Ahmo Thunderhorn.|
 A Sharing the Land|QID|14438|M|47.70,59.66|Z|1412;Mulgore|N|From Ahmo Thunderhorn.|
 h Bloodhoof Village|QID|14438|M|46.85,60.38|Z|1412;Mulgore|N|At Innkeeper Kauth.|
@@ -114,7 +159,7 @@ K Ghost Howl|AVAILABLE|770|M|43.13,16.01|Z|1412;Mulgore|N|Go find Ghost Howl par
 U Demon Scarred Cloak|AVAILABLE|770|Z|1412;Mulgore|N|Click to get the quest.|U|4854|
 T The Demon Scarred Cloak|QID|770|M|49.63,17.22|Z|1412;Mulgore|N|To Skorn Whitecloud.|
 A Preparation for Ceremony|QID|744|M|49.60,17.49|Z|1412;Mulgore|N|From Eyahn Eagletalon.|
-C Wildmane Totem|QID|24523|M|47.87,21.86|Z|1412;Mulgore|N|Kill any Prairie Wolf Alpha you see.|R|Tauren,Troll,Blood Elf,Orc|S|
+C Wildmane Totem|QID|24523|M|47.87,21.86|Z|1412;Mulgore|N|Kill any Prairie Wolf Alpha you see.|R|Tauren,Blood Elf,Orc|S|
 C Preparation for Ceremony|QID|744|M|54.73,12.95|Z|1412;Mulgore|N|Kill and loot the Windfury Sorceress for the Azure Feathers, and kill and loot Windfury Matriarch for the Bronze Feathers.|
 R Red Rocks|ACTIVE|773|M|59.62,22.42|Z|1412;Mulgore|N|Head to Red Rocks.|
 C A Sacred Burial|QID|833|M|60.77,22.52|Z|1412;Mulgore|N|Kill the Bristleback Interloper as you head towards the Ancestral Spirit.|S|

@@ -26,12 +26,12 @@ T Lunk's Task|QID|27956|M|68.94,53.50|Z|1427;Searing Gorge|N|To Lunk.|
 A Lunk No Kill|QID|27957|PRE|27956|M|68.94,53.5|Z|1427;Searing Gorge|N|From Lunk.|
 A A Proper Antivenom|QID|27958|PRE|27957|M|68.61,53.38|Z|1427;Searing Gorge|N|From Prisanne Dustcropper.|
 A Lunk's Adventure: Spider Rider|QID|27959|M|60.27,55.13|Z|1427;Searing Gorge|N|Once you kill a spider, Lunk will appear out of nowhere. Get his quest.|
-C Out of Place|QID|27961|S|Z|1427;Searing Gorge|N|Grab the chickens as quickly as you can, they can be looted from on a mount.. The spiders will kill the chickens.|
+C Out of Place|QID|27961|S|Z|1427;Searing Gorge|N|Grab the chickens as quickly as you can, they can be looted from on a mount.. The spiders will kill the chickens.|NC|
 C Lunk's Adventure: Spider Rider|QID|27959|M|59.50,65.62|Z|1427;Searing Gorge|N|Get the spiders about halfway down, then Lunk will jump on them, laughs will be had. Make sure to click on Lunk to get the Glassweb Venom, after he is done riding the spider.|
 T Lunk's Adventure: Spider Rider|QID|27959|M|59.50,65.60|Z|1427;Searing Gorge|N|(UI Alert).|
 C A Proper Antivenom|QID|27958|M|60.21,67.72|Z|1427;Searing Gorge|N|Get whatever you need left.|
 C A Lumbering Relic|QID|27962|M|70.63,73.24|Z|1427;Searing Gorge|N|Head to the waypoint, kill and loot Margol the Rager.|
-C Out of Place|QID|27961|US|M|63.59,72.99|Z|1427;Searing Gorge|N|Finish gathering what you need, they can be looted from on a mount.|
+C Out of Place|QID|27961|US|M|63.59,72.99|Z|1427;Searing Gorge|N|Finish gathering what you need, they can be looted from on a mount.|NC|
 T Out of Place|QID|27961|M|68.48,53.50|Z|1427;Searing Gorge|N|To Burrian Coalpart.|
 T A Lumbering Relic|QID|27962|M|68.48,53.50|Z|1427;Searing Gorge|N|To Burrian Coalpart.|
 T A Proper Antivenom|QID|27958|M|68.59,53.44|Z|1427;Searing Gorge|N|To Prisanne Dustcropper.|
@@ -68,18 +68,18 @@ T Recon Essentials|QID|27977|M|36.65,28.25|Z|1427;Searing Gorge|N|To Taskmaster 
 A Twilight Collars|QID|27982|PRE|27977|M|36.75,28.25|Z|1427;Searing Gorge|N|From Taskmaster Scrange.|
 A Dark Ministry|QID|27979|PRE|27976&27977&27982|M|38.33,27.99|Z|1427;Searing Gorge|N|From Hansel Heavyhands.|
 C Twilight Collars|QID|27982|S|M|38.68,28.71|Z|1427;Searing Gorge|N|Kill any Twilight mobs as you go along.|
-C Finister's Spherule|QID|27979|L|62824|M|34.68,25.98;31.34,33.65;24.29,34.05;24.68,26.29|CS|Z|1427;Searing Gorge|N|Kill Finister to loot "Finister's Spherule".|
+K Minister Finister|ACTIVE|27979|L|62824|M|34.68,25.98;31.34,33.65;24.29,34.05;24.68,26.29|CS|Z|1427;Searing Gorge|N|Kill Minister Finister to loot "Finister's Spherule".|T|Minister Finister|
 A Lunthistle's Tale|QID|27984|M|29.43,26.46|Z|1427;Searing Gorge|N|From Zamael Lunthistle.|
 C Lunthistle's Tale|QID|27984|CHAT|M|29.43,26.46|Z|1427;Searing Gorge|N|Listen to his tale.|
 T Lunthistle's Tale|QID|27984|M|29.43,26.46|Z|1427;Searing Gorge|N|To Zamael Lunthistle.|
 A Prayer to Elune|QID|27985|PRE|27984|M|29.43,26.46|Z|1427;Searing Gorge|N|From Zamael Lunthistle.|
 C Prayer to Elune|QID|27985|NC|M|23.10,35.28|Z|1427;Searing Gorge|N|Head down the mountain to the waypoint and open the Twilight Hammer Crate.|
 T Prayer to Elune|QID|27985|M|23.10,35.28|Z|1427;Searing Gorge|N|(UI Alert).|
-C Kyuubi's Spherule|QID|27979|L|62825|M|22.12,36.50;19.55,35.88;19.40,37.33;17.49,42.58|CS|Z|1427;Searing Gorge|N|Enter the cave. Kill Kyuubi to loot "Kyuubi's Spherule".|
-C Letherio's Spherule|QID|27979|L|62823|M|13.43,42.71;13.60,40.45;14.49,37.25|CS|Z|1427;Searing Gorge|N|Kill Letherio to loot "Letherio's Spherule".|
+K Minister Kiyuubi|ACTIVE|27979|L|62825|M|22.12,36.50;19.55,35.88;19.40,37.33;17.49,42.58|CS|Z|1427;Searing Gorge|N|Enter the cave. Kill Minister Kiyuubi to loot "Kyuubi's Spherule".|T|Minister Kiyuubi|
+K Minister Letherio|ACTIVE|27979|L|62823|M|13.43,42.71;13.60,40.45;14.49,37.25|CS|Z|1427;Searing Gorge|N|Kill Minister Letherio to loot "Letherio's Spherule".|T|Minister Letherio|
 C Dark Ministry|QID|27979|U|62824|M|14.49,37.25|Z|1427;Searing Gorge|N|Use one of the Spherules to combine them.|
 C Twilight Collars|QID|27982|US|M|13.44,42.20|Z|1427;Searing Gorge|N|Kill Twilight mobs to get the rest of the "Twilight Necklace"s you need.|
-T Dark Ministry|QID|27979|M|15.39,33.76;22.00,36.40;38.25,28.00|CS|Z|1427;Searing Gorge|N|To Hansel Heavyhands.|
+T Dark Ministry|QID|27979|M|38.25,28.00|Z|1427;Searing Gorge|N|To Hansel Heavyhands.|
 A In the Hall of the Mountain-Lord|QID|27986|PRE|27979&28099|M|38.28,28.04|Z|1427;Searing Gorge|N|From Hansel Heavyhands.|
 T Twilight Collars|QID|27982|M|38.48,28.65|Z|1427;Searing Gorge|N|To Master Smith Burninate.|
 r Sell junk, repair/restock.|QID|27986|M|38.48,28.65|Z|1427;Searing Gorge|N|At Master Smith Burninate.|
