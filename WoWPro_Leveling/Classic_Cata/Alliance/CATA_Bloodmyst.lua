@@ -20,6 +20,7 @@ A Declaration of Power|QID|9666|PRE|9663|M|62.99,87.52|Z|1950;Bloodmyst Isle|N|F
 R Blood Watch|AVAILABLE|9629|M|54.24,62.80|Z|1950;Bloodmyst Isle|N|Follow the road north to Blood Watch.|
 A Catch and Release|QID|9629|M|53.25,57.75|Z|1950;Bloodmyst Isle|N|From Morae.|
 r Repair/Restock|ACTIVE|9693|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
+= Training|ACTIVE|9693|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 A Learning from the Crystals|QID|9581|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|From Harbinger Mikolaas.|
 A What Argus Means to Me|QID|9693|M|52.67,53.21|Z|1950;Bloodmyst Isle|N|From Exarch Admetius.|
 T What Argus Means to Me|QID|9693|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|To Vindicator Boros.|
@@ -55,6 +56,7 @@ T Cruelfin's Necklace|QID|9576|M|53.25,57.75|Z|1950;Bloodmyst Isle|N|To Morae.|
 T Catch and Release|QID|9629|M|53.25,57.75|Z|1950;Bloodmyst Isle|N|To Morae.|
 A Victims of Corruption|QID|9574|PRE|9629|M|53.25,57.75|Z|1950;Bloodmyst Isle|N|From Morae.|
 r Repair/Restock|ACTIVE|9668|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
+= Training|ACTIVE|9668|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 T Learning from the Crystals|QID|9581|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|To Harbringer Mikolaas.|
 A The Missing Survey Team|QID|9620|PRE|9581|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|From Harbringer Mikolaas.|
 T Report to Exarch Admetius|QID|9668|M|52.68,53.22|Z|1950;Bloodmyst Isle|N|To Exarch Admetius.|
@@ -67,6 +69,7 @@ C Victims of Corruption|QID|9574|M|49.00,73.00|Z|1950;Bloodmyst Isle|L|23869 6|I
 C Blood Watch|QID|9694|M|49.00,47.00|Z|1950;Bloodmyst Isle|N|Kill Sunhawk Spies north of Blood Watch.|T|Sunhawk Spy|
 T Salvaging the Data|QID|9628|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|To Harbringer Mikolaas.|
 A The Second Sample|QID|9584|PRE|9628|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|From Harbringer Mikolaas.|
+A Talk to the Hand|QID|10064|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|From Harbinger Mikolaas.|
 T Blood Watch|QID|9694|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|To Vindicator Boros.|
 A Irradiated Crystal Shards|QID|9641|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|From Vindicator Boros.|
 t Irradiated Crystal Shards|QID|9641|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|To Vindicator Boros.|
@@ -83,6 +86,7 @@ C Signs of the Legion|QID|9594|M|35.54,77.43|Z|1950;Bloodmyst Isle|N|Finish kill
 C Victims of Corruption|QID|9574|M|49.00,73.00|Z|1950;Bloodmyst Isle|L|23869 6|ITEM|23869|N|Corrupted Treants.|T|Corrupted Treant|US|
 H Blood Watch|ACTIVE|9567|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch|
 r Repair/Restock|ACTIVE|9567|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
+= Training|ACTIVE|9567|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 T Know Thine Enemy|QID|9567|M|55.09,58.00|Z|1950;Bloodmyst Isle|N|To Vindicator Aalesia.|
 T Signs of the Legion|QID|9594|M|55.09,58.00|Z|1950;Bloodmyst Isle|N|To Vindicator Aalesia, after a very short dialog.|
 A Containing the Threat|QID|9569|PRE|9567|M|55.09,58.00|Z|1950;Bloodmyst Isle|N|From Vindicator Aalesia.|
@@ -123,49 +127,49 @@ C Pilfered Equipment|QID|9548|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|CN|Z|1950;Bl
 T Artifacts of the Blacksilt|QID|9549|M|42.15,21.23|Z|1950;Bloodmyst Isle|N|To Clopper Wizbang.|
 T Pilfered Equipment|QID|9548|M|42.15,21.23|Z|1950;Bloodmyst Isle|N|To Clopper Wizbang.|
 A A Map to Where?|QID|9550|PRE|9549|M|PLAYER|CC|N|Click the Weathered Treasure Map you just got to start the next quest.|U|23837|O|
-C Constrictor Vines|QID|9643|M|45.90,33.90|Z|1950;Bloodmyst Isle|L|23994 6|ITEM|23994|N|Mutated Constrictors.|US|
-C The Bear Necessities|QID|9580|M|46.15,34.62;48.77,24.08|CN|Z|1950;Bloodmyst Isle|N|Finish killing Elder Brown Bears until you have 8 flanks.|US|
-T A Map to Where?|QID|9550|M|61.19,41.78|Z|1950;Bloodmyst Isle|N|There's a book you have to click in order to complete.|
-A Deciphering the Book|QID|9557|PRE|9550|M|61.19,41.78|Z|1950;Bloodmyst Isle|N|From the Battered Ancient Book.|
+C Constrictor Vines|QID|9643|M|45.90,33.90|Z|1950;Bloodmyst Isle|L|23994 6|ITEM|23994|N|Mutated Constrictors.|T|Mutated Constrictor|US|
+C The Bear Necessities|QID|9580|M|46.15,34.62;48.77,24.08|CN|Z|1950;Bloodmyst Isle|L|24026 8|ITEM|24026|N|Elder Brown Bears.|T|Elder Brown Bear|US|
+R Ruins of Loreth'Aran|ACTIVE|9550|M|60.21,40.64|Z|1950;Bloodmyst Isle|N|Make your way southeast to the Ruins by cutting through Ragefeather Ridge.|
+T A Map to Where?|QID|9550|M|61.16,41.88|Z|1950;Bloodmyst Isle|N|To the Battered Ancient Book on the floor.|
+A Deciphering the Book|QID|9557|PRE|9550|M|61.16,41.88|Z|1950;Bloodmyst Isle|N|From the Battered Ancient Book.|
 H Blood Watch|ACTIVE|9643|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
+T I Shoot Magic Into the Darkness|QID|9700|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|To Vindicator Boros.|
+A The Cryo-Core|QID|9703|PRE|9700|M|55.63,55.23|Z|1950;Bloodmyst Isle|N|From Vindicator Kuros.|
 T Constrictor Vines|QID|9643|M|55.86,56.99|Z|1950;Bloodmyst Isle|N|To Tracker Lyceon.|
 T The Bear Necessities|QID|9580|M|55.86,56.99|Z|1950;Bloodmyst Isle|N|To Tracker Lyceon.|
 A Culling the Flutterers|QID|9647|PRE|9580^9643|M|55.86,56.99|Z|1950;Bloodmyst Isle|N|From Tracker Lyceon.|
-T I Shoot Magic Into the Darkness|QID|9700|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|To Vindicator Boros.|
-A The Cryo-Core|QID|9703|PRE|9700|M|55.64,55.28|Z|1950;Bloodmyst Isle|N|From Vindicator Kuros.|
 T Deciphering the Book|QID|9557|M|54.69,54.01|Z|1950;Bloodmyst Isle|N|To Anchorite Paetheus.|
-A Nolkai's Words|QID|9561|PRE|9557|M|54.69,54.01|Z|1950;Bloodmyst Isle|N|From Anchorite Paetheus.|
+A Nolkai's Words|QID|9561|PRE|9557|M|54.69,54.01|Z|1950;Bloodmyst Isle|N|From Anchorite Paetheus, once he finishes his dialogue.|
 T WANTED: Deathclaw|QID|9646|M|52.63,53.27|Z|1950;Bloodmyst Isle|N|To Harbinger Mikolaas.|
 A Searching for Galaen|QID|9578|M|53.3,57.7|Z|1950;Bloodmyst Isle|N|From Morae.|
+= Training|ACTIVE|9578|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 r Repair/Restock|ACTIVE|9578|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
-C Culling the Flutterers|QID|9647|Z|1950;Bloodmyst Isle|N|Kill every Royal Blue Flutterer you see.|S|
-C The Cryo-Core|QID|9703|Z|1950;Bloodmyst Isle|N|Loot Medical Supplies from the ground and from Blood Elves.|S|NC|
-T Searching for Galaen|QID|9578|M|37.51,61.27|Z|1950;Bloodmyst Isle|N|To Galaen's Coprse.|
+C Culling the Flutterers|QID|9647|M|43.75,56.20|Z|1950;Bloodmyst Isle|N|Kill every Royal Blue Flutterer you see.\n[color=FF0000]NOTE: [/color]They spawn sporatically in a large spread out area.|S|
+C The Cryo-Core|QID|9703|M|38.58,60.20|Z|1950;Bloodmyst Isle|L|24236 12|ITEM|24236|N|the Sunhawk Reclaimers.\n[color=FF0000]NOTE: [/color]You can also pick them up from the ground around Cryo-Core (much easier).|S|NC|
+T Searching for Galaen|QID|9578|M|37.51,61.27|Z|1950;Bloodmyst Isle|N|To Galaen's Coprse.\n[color=FF0000]NOTE: [/color]Clear the Reclaimers as you make your way in and watch for the random guards that run in from outside.|
 A Galaen's Fate|QID|9579|PRE|9578|M|37.51,61.27|Z|1950;Bloodmyst Isle|N|From Galaen's Coprse.|
-A Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|PRE|9779|M|37.51,61.27|Z|1950;Bloodmyst Isle|N|From the book on the ground next to Galaen's Coprse.|
-C Galaen's Fate|QID|9579|M|39.27,60.42|Z|1950;Bloodmyst Isle|N|The amulet drops off of the Blood Elves outside the Cryo Core.|
+A Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|PRE|9779|M|37.56,61.24|Z|1950;Bloodmyst Isle|N|From the book on the ground next to Galaen's Coprse.|
+C Galaen's Fate|QID|9579|M|39.27,60.42|Z|1950;Bloodmyst Isle|L|23873|ITEM|23873|N|the Sunhawk Reclaimers around the Cryo Core.|
 C The Cryo-Core|QID|9703|M|39.27,60.42|Z|1950;Bloodmyst Isle|N|Loot Medical Supplies from the ground and from Blood Elves.|US|NC|
-C Culling the Flutterers|QID|9647|M|47.21,32.72;43.5,36.58|CN|Z|1950;Bloodmyst Isle|N|Go between the waypoints, and kill the last Royal Blue Flutterers that you need.|US|
-T Culling the Flutterers|QID|9647|M|55.86,56.99|Z|1950;Bloodmyst Isle|N|To Tracker Lyceon.|
-T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.64,55.28|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
-A Matis the Cruel|QID|9711|PRE|9706|M|55.64,55.28|Z|1950;Bloodmyst Isle|N|From Vindicator Kuros.|
-T The Cryo-Core|QID|9703|M|55.64,55.28|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
+C Culling the Flutterers|QID|9647|M|47.21,32.72|Z|1950;Bloodmyst Isle|N|Finish up killing the Royal Blue Flutterers that you need.\n[color=FF0000]NOTE: [/color]They spawn sporatically in a large spread out area.|T|Royal Blue Flutterer|US|
+T Galaen's Journal - The Fate of Vindicator Saruan|QID|9706|M|55.63,55.23|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
+A Matis the Cruel|QID|9711|PRE|9706|M|55.63,55.23|Z|1950;Bloodmyst Isle|N|From Vindicator Kuros.|
+T The Cryo-Core|QID|9703|M|55.63,55.23|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
 A Don't Drink the Water|QID|9748|PRE|9703|M|55.57,55.38|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.|
+A What We Know...|QID|9753|M|55.6,55.4|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.|
+T Culling the Flutterers|QID|9647|M|55.86,56.99|Z|1950;Bloodmyst Isle|N|To Tracker Lyceon.|
 T Galaen's Fate|QID|9579|M|53.3,57.7|Z|1950;Bloodmyst Isle|N|To Morae.|
-A Talk to the Hand|QID|10064|M|52.6,53.2|Z|1950;Bloodmyst Isle|N|From Harbinger Mikolaas.|
 r Repair/Restock|ACTIVE|10064|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
-C Containing the Threat|QID|9569|QO|2;3|M|41.6,29.8|Z|1950;Bloodmyst Isle|N|Head back to Axxarien. Kill Hellcallers and Shadowstalkers, on the way to kill Zevrax.|S|
-C Corrupted Crystals|QID|9569|QO|4|M|41.6,29.8|Z|1950;Bloodmyst Isle|N|Head back to Axxarien. Collect 5 Corrupted Crystals.|S|NC|
-K Zevrax|ACTIVE|9569|QO|1|M|41.6,29.8|Z|1950;Bloodmyst Isle|N|Head back to Axxarien. Kill Zevrax.|S|
-C The Final Sample|QID|9585|M|41.36,30.72|Z|1950;Bloodmyst Isle|N|Use the pick on the Axxarien crystal (it's the big one - you need to stand right next to it)|U|23877|
-C Containing the Threat|QID|9569|M|41.6,29.8|Z|1950;Bloodmyst Isle|N|Finish collecting Corrupted Crystals while killing Hellcallers and Shadowstalkers, on the way to kill Zevrax.|US|
-C Don't Drink the Water|QID|9748|M|34.37,33.56|Z|1950;Bloodmyst Isle|N|Jump down the waterfall, and use your flask.|U|24318|
+C Containing the Threat|QID|9569|QO|2;3;4|M|40.75,34.67|Z|1950;Bloodmyst Isle|N|While killing Hellcallers and Shadowstalkers around Axxarien, collect 5 Corrupted Crystals.|S|
+C The Final Sample|QID|9585|M|41.27,30.87|Z|1950;Bloodmyst Isle|N|Use the pick on the Axxarien crystal (it's the big one - you need to stand right next to it)|U|23877|NC|
+C Zevrax|QID|9569|QO|1|M|41.91,29.53|Z|1950;Bloodmyst Isle|N|Kill Zevrax.|
+C Containing the Threat|QID|9569|QO|2;3;4|M|40.75,34.67|Z|1950;Bloodmyst Isle|N|While killing your remaining Hellcallers and Shadowstalkers, finish collecting the Corrupted Crystals.|US|
+C Don't Drink the Water|QID|9748|M|34.37,33.56|Z|1950;Bloodmyst Isle|N|Jump/climb down to the very bottom of the waterfall and use your flask.|U|24318|NC|
 H Blood Watch|ACTIVE|9569|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
 T Containing the Threat|QID|9569|M|55.09,58.00|Z|1950;Bloodmyst Isle|N|To Vindicator Aalesia.|
 T Don't Drink the Water|QID|9748|M|55.57,55.38|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
 A Limits of Physical Exhaustion|QID|9746|PRE|9748|M|55.57,55.38|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.|
-A What We Know...|QID|9753|M|55.6,55.4|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.|
-T The Final Sample|QID|9585|M|52.6,53.2|Z|1950;Bloodmyst Isle|N|To Harbinger Mikolaas.|
+T The Final Sample|QID|9585|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|To Harbinger Mikolaas.|
 T What We Know...|QID|9753|M|52.66,53.23|Z|1950;Bloodmyst Isle|N|To Exarch Admetius.|
 A What We Don't Know...|QID|9756|PRE|9753|M|52.66,53.23|Z|1950;Bloodmyst Isle|N|From Exarch Admetius.|
 C What We Don't Know...|QID|9756|M|54.4,54.3|Z|1950;Bloodmyst Isle|N|Talk to the prisoner.|CHAT|
@@ -201,13 +205,13 @@ T Limits of Physical Exhaustion|QID|9746|M|55.56,55.37|Z|1950;Bloodmyst Isle|N|T
 A The Sun Gate|QID|9740|PRE|9746|M|55.56,55.37|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.|
 T Critters of the Void|QID|9741|M|55.56,55.37|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
 T The Missing Expedition|QID|9669|M|53.25,57.02|Z|1950;Bloodmyst Isle|N|To Achelus.|
-;N Go train your skills|QID|9671|Z|1950;Bloodmyst Isle|N|Train skills, then restock on food/water, etc.|;Dont need to train skills anymore.
 A Urgent Delivery|QID|9671|PRE|9506|M|55.31,54.21;53.05,53.84;54.18,61.12|CN|Z|1950;Bloodmyst Isle|N|From Messenger Hermesius, who circles the road in Blood Watch.|
-N Check your mailbox|QID|9561|M|55.18,59.19|Z|1950;Bloodmyst Isle|N|Urgent Delivery results in a mail sent to your mailbox. Close this when mail obtained.|L|24132|
-A The Bloodcurse Legacy|QID|9672|PRE|9671|Z|1950;Bloodmyst Isle|N|From A Letter from the Admiral.|U|24132|
+N Check your mailbox|AVAILABLE|9672|PRE|9671|M|55.18,59.19|Z|1950;Bloodmyst Isle|L|24132|N|Urgent Delivery results in a mail sent to your mailbox.|NC|
+A The Bloodcurse Legacy|QID|9672|PRE|9671|Z|1950;Bloodmyst Isle|N|From A Letter from the Admiral.|U|24132|O|
 A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|Z|1950;Bloodmyst Isle|N|From Maatparm.|
 T Nolkai's Words|QID|9561|M|61.2,49.7|Z|1950;Bloodmyst Isle|N|It's a pile of dirt.|
 A Restoring Sanctity|QID|9687|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|From Prince Toreth. He pats around the area.|
+= Training|ACTIVE|9672|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 T The Bloodcurse Legacy|QID|9672|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
 A The Bloodcursed Naga|QID|9674|PRE|9672^9751|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.|
 C The Bloodcursed Naga|QID|9674|M|81.33,21.06|Z|1950;Bloodmyst Isle|N|Head into the water and kill Naga.|
@@ -232,6 +236,7 @@ T Ending the Bloodcurse|QID|9683|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captai
 H Blood Watch|ACTIVE|9649|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
 T Ysera's Tears|QID|9649|M|56.4,56.8|Z|1950;Bloodmyst Isle|N|To Maatparm.|
 r Repair/Restock|ACTIVE|9740|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
+= Training|ACTIVE|9740|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 N Non-Draenei races|ACTIVE|9740|Z|1950;Bloodmyst Isle|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|-Draenei|
 F The Exodar|ACTIVE|9740|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|
 N Get your Mount|ACTIVE|9740|Z|1950;Bloodmyst Isle|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|R|Draenei|
@@ -245,9 +250,10 @@ C The Sun Gate|QID|9740|M|18.95,63.5|Z|1950;Bloodmyst Isle|N|Go to the Sun Gate.
 T Clearing the Way|QID|9761|M|30.6,46.6|Z|1950;Bloodmyst Isle|N|To Vindicator Corin.|
 H Blood Watch|ACTIVE|9740|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
 T The Sun Gate|QID|9740|M|55.54,55.42|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
-T Ending Their World|QID|9759|M|52.6,53.2|Z|1950;Bloodmyst Isle|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|
+T Ending Their World|QID|9759|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|
 A The Unwritten Prophecy|QID|9762|PRE|9759|M|54,55.4|Z|1950;Bloodmyst Isle|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|R|Draenei|
 A Newfound Allies|QID|9632|M|54.69,54.01|Z|1950;Bloodmyst Isle|N|From Anchorite Paetheus.|
+= Training|ACTIVE|9632|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 F The Exodar|ACTIVE|9632|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|
 ;A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|Z|1947; The Exodar|N|From the Hero's Call Board. Will not show up if your level is too high.|
 T Newfound Allies|QID|9632|M|24.18,54.33|Z|1943 ;Azuremyst Isle|N|Go up the ramp to the exit; once outside, follow the path to the right and down to Huntress Kella Nightbow.|
