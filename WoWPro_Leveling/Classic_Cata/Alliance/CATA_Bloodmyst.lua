@@ -100,7 +100,7 @@ T Intercepting the Message|QID|9779|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|To Vin
 A Translations...|QID|9696|PRE|9779|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|From Vindicator Boros.|
 T Translations...|QID|9696|M|54.44,54.46|Z|1950;Bloodmyst Isle|N|To Interrogator Elysia.|
 A Audience with the Prophet|QID|9698|PRE|9696|M|54.44,54.46|Z|1950;Bloodmyst Isle|N|From Interrogator Elysia.|
-F The Exodar|ACTIVE|9698|M|57.7,53.9|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|
+F The Exodar|ACTIVE|9698|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|
 T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|1947; The Exodar|N|To Prophet Velen in the Vault of Lights (go up the ramp to the second tier).|
 A Truth or Fiction|QID|9699|PRE|9698|M|32.9,54.5|Z|1947; The Exodar|N|To Prophet Velen.|
 r Housekeeping|ACTIVE|9699|N|While in The Exodar, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|R|Draenei|
@@ -182,8 +182,8 @@ T Vindicator's Rest|QID|9760|M|30.75,46.84|Z|1950;Bloodmyst Isle|N|To Vindicator
 A Clearing the Way|QID|9761|PRE|9760|M|30.75,46.84|Z|1950;Bloodmyst Isle|N|From Vindicator Corin.|
 A Fouled Water Spirits|QID|10067|M|30.75,46.84|Z|1950;Bloodmyst Isle|N|From Vindicator Corin.|
 A Oh, the Tangled Webs They Weave|QID|10066|M|30.75,46.84|Z|1950;Bloodmyst Isle|N|From Vindicator Corin.|
-T Talk to the Hand|QID|10064|M|30.27,45.94|Z|1950;Bloodmyst Isle|N|To Scout Joril.|
-A Cutting a Path|QID|10065|M|30.28,45.88|Z|1950;Bloodmyst Isle|N|From Scout Joril.|
+T Talk to the Hand|QID|10064|M|30.25,45.92|Z|1950;Bloodmyst Isle|N|To Scout Joril.|
+A Cutting a Path|QID|10065|M|30.25,45.92|Z|1950;Bloodmyst Isle|N|From Scout Joril.|
 A Critters of the Void|QID|9741|M|30.24,45.88|Z|1950;Bloodmyst Isle|N|From Scout Loryi.|
 C Cutting a Path|QID|10065|M|31.25,56.68|Z|1950;Bloodmyst Isle|N|Kill 10 Enraged Ravagers.|S|
 C Oh, the Tangled Webs They Weave|QID|10066|M|31.25,56.68|Z|1950;Bloodmyst Isle|N|Kill 8 Mutated Tanglers.|T|Mutated Tangler|
@@ -194,26 +194,33 @@ C Matis the Cruel|QID|9711|M|25.73,51.94;47.59,40.18|CC|Z|1950;Bloodmyst Isle|N|
 C Fouled Water Spirits|QID|10067|M|30,39|Z|1950;Bloodmyst Isle|N|Kill 6 Fouled Water Spirits.|S|
 A They're Alive! Maybe...|QID|9670|M|24.87,34.36|Z|1950;Bloodmyst Isle|N|From Researcher Cornelius.|
 C They're Alive! Maybe...|QID|9670|M|22,36|Z|1950;Bloodmyst Isle|N|Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|T|Webbed Creature|S|
-C The Missing Expedition|QID|9669|M|22,36;18,37|CC|Z|1950;Bloodmyst Isle|N|Kill spiders on the way, then kill Zarakh.|
+C The Missing Expedition|QID|9669|QO|1;2|M|22,36;18,37|CC|Z|1950;Bloodmyst Isle|N|Kill the required spiders.|S|
+C The Missing Expedition|QID|9669|QO|3|M|18.17,37.80|Z|1950;Bloodmyst Isle|N|Kill Zarakh at the top of the hill.|
 C They're Alive! Maybe...|QID|9670|M|22,36|Z|1950;Bloodmyst Isle|N|Attack the Webbed Creatures. You may free a Researcher, or you may get a hostile mob.|T|Webbed Creature|US|
 T They're Alive! Maybe...|QID|9670|M|24.87,34.36|Z|1950;Bloodmyst Isle|N|To Researcher Cornelius.|
+C The Missing Expedition|QID|9669|QO|1;2|M|22,36;18,37|CC|Z|1950;Bloodmyst Isle|N|Finish killing the required spiders.|US|
 C Fouled Water Spirits|QID|10067|M|30,39|Z|1950;Bloodmyst Isle|N|Kill 6 Fouled Water Spirits.|US|
-T Cutting a Path|QID|10065|M|30.28,45.88|Z|1950;Bloodmyst Isle|N|To Scout Joril.|
+T Cutting a Path|QID|10065|M|30.25,45.92|Z|1950;Bloodmyst Isle|N|To Scout Joril.|
 T Fouled Water Spirits|QID|10067|M|30.75,46.84|Z|1950;Bloodmyst Isle|N|To Vindicator Corin.|
 T Oh, the Tangled Webs They Weave|QID|10066|M|30.75,46.84|Z|1950;Bloodmyst Isle|N|To Vindicator Corin.|
 H Blood Watch|ACTIVE|9711|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
-T Matis the Cruel|QID|9711|M|55.61,55.14|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
+T The Missing Expedition|QID|9669|M|53.25,57.02|Z|1950;Bloodmyst Isle|N|To Achelus.|
 T Limits of Physical Exhaustion|QID|9746|M|55.55,55.40|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
 A The Sun Gate|QID|9740|PRE|9746|M|55.55,55.40|Z|1950;Bloodmyst Isle|N|From Vindicator Aesom.|
 T Critters of the Void|QID|9741|M|55.55,55.40|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
-T The Missing Expedition|QID|9669|M|53.25,57.02|Z|1950;Bloodmyst Isle|N|To Achelus.|
+T Matis the Cruel|QID|9711|M|55.61,55.14|Z|1950;Bloodmyst Isle|N|To Vindicator Kuros.|
 A Urgent Delivery|QID|9671|PRE|9506|M|55.31,54.21;53.05,53.84;54.18,61.12|CN|Z|1950;Bloodmyst Isle|N|From Messenger Hermesius, who circles the road in Blood Watch.|
 N Check your mailbox|AVAILABLE|9672|PRE|9671|M|55.18,59.19|Z|1950;Bloodmyst Isle|L|24132|N|Urgent Delivery results in a mail sent to your mailbox.|NC|
-A The Bloodcurse Legacy|QID|9672|PRE|9671|Z|1950;Bloodmyst Isle|N|From A Letter from the Admiral.|U|24132|O|
+A The Bloodcurse Legacy|QID|9672|PRE|9671|M|PLAYER|CC|N|From the Letter from the Admiral.|U|24132|O|
 A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|Z|1950;Bloodmyst Isle|N|From Maatparm.|
+= Training|ACTIVE|9649|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
+N Apprentice Riding|ACTIVE|9649|N|You'll require 3g40s to purchase your training. An additional 75s is required to buy your mount if you need one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|Draenei|C|-Paladin|IZ|Blood Watch|
+N Apprentice Riding|ACTIVE|9649|N|You'll require 3g40s to purchase your training.\nif you require a mount, you'll have to return home to get one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|-Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
+F The Exodar|ACTIVE|9649|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|SPELL|Apprentice Riding;33388|R|-Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
+= Apprentice Riding|ACTIVE|9649|M|81.33,52.64|Z|1947; The Exodar|N|Learn your riding skill from Aalun outside the Exodar.\n[color=FF0000]NOTE: [/color]Use the ramp to go outside.|SPELL|Apprentice Riding;33388|R|-Worgen|C|-Paladin,-Warlock|IZ|The Exodar|
+F Blood Watch|ACTIVE|9649|M|54.43,36.39|Z|1947; The Exodar|N|Fly back to Blood Watch.|
 T Nolkai's Words|QID|9561|M|61.2,49.7|Z|1950;Bloodmyst Isle|N|It's a pile of dirt.|
 A Restoring Sanctity|QID|9687|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|From Prince Toreth. He pats around the area.|
-= Training|ACTIVE|9672|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 T The Bloodcurse Legacy|QID|9672|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
 A The Bloodcursed Naga|QID|9674|PRE|9672^9751|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.|
 C The Bloodcursed Naga|QID|9674|M|81.33,21.06|Z|1950;Bloodmyst Isle|N|Head into the water and kill Naga.|
