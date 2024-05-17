@@ -60,7 +60,10 @@ function WoWPro.Dailies:GuideFaction(guide,faction, hfaction)
             guide.faction = tonumber(hfaction)
         end
     end
-    guide.name = _G.GetFactionInfoByID(guide.faction)
+    local factionInfo = _G.C_Reputation.GetFactionDataByID(guide.faction)
+    if factionInfo then
+        guide.name = factionInfo.name
+    end
     guide.category = "Dailies"
 end
 
