@@ -218,18 +218,20 @@ N Apprentice Riding|ACTIVE|9649|N|You'll require 3g40s to purchase your training
 N Apprentice Riding|ACTIVE|9649|N|You'll require 3g40s to purchase your training.\nif you require a mount, you'll have to return home to get one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|-Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
 F The Exodar|ACTIVE|9649|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|SPELL|Apprentice Riding;33388|R|-Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
 = Apprentice Riding|ACTIVE|9649|M|81.33,52.64|Z|1947; The Exodar|N|Learn your riding skill from Aalun outside the Exodar.\n[color=FF0000]NOTE: [/color]Use the ramp to go outside.|SPELL|Apprentice Riding;33388|R|-Worgen|C|-Paladin,-Warlock|IZ|The Exodar|
-F Blood Watch|ACTIVE|9649|M|54.43,36.39|Z|1947; The Exodar|N|Fly back to Blood Watch.|
-T Nolkai's Words|QID|9561|M|61.2,49.7|Z|1950;Bloodmyst Isle|N|It's a pile of dirt.|
-A Restoring Sanctity|QID|9687|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|From Prince Toreth. He pats around the area.|
+F Blood Watch|ACTIVE|9561|M|54.43,36.39|Z|1947; The Exodar|N|Fly back to Blood Watch.|
+T Nolkai's Words|QID|9561|M|61.17,49.64|Z|1950;Bloodmyst Isle|N|To the Mound of Dirt in Ruins of Loreth'Aran.|
+R Wyrmscar Island|AVAILABLE|9287|ACTIVE|9672^9751|M|72.70,34.19|Z|1950;Bloodmyst Isle|N|Swim across to the big island to the northeast.|
+A Restoring Sanctity|QID|9687|M|74.87,34.26|Z|1950;Bloodmyst Isle|N|From Prince Toreth.\n[color=FF0000]NOTE: [/color]He pats around the area.|
+C Ysera's Tears|QID|9649|M|74.55,13.69|Z|1950;Bloodmyst Isle|N|Loot the green glowing mushrooms from the ground.|S|NC|
 T The Bloodcurse Legacy|QID|9672|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
 A The Bloodcursed Naga|QID|9674|PRE|9672^9751|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.|
 C The Bloodcursed Naga|QID|9674|M|81.33,21.06|Z|1950;Bloodmyst Isle|N|Head into the water and kill Naga.|
 T The Bloodcursed Naga|QID|9674|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
 A The Hopeless Ones...|QID|9682|PRE|9674|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.|
-C The Hopeless Ones...|QID|9682|M|83,22;87.2,18.5|CN|Z|1950;Bloodmyst Isle|N|Kill and loot Bloodcursed Voyagers in and around the submerged ships, until you have 4 Bloodcursed Souls.|
-N The Captain's Kiss Buff|ACTIVE|9682|M|79,22|Z|1950;Bloodmyst Isle|N|The swim speed and water breathing buff is really useful for another quest. Go back to Captain Edward Hanes, but don't turn in the quest. Ask him to renew the buff on you.|
-C Ysera's Tears|QID|9649|M|74.55,13.69|Z|1950;Bloodmyst Isle|N|Loot the green glowing mushrooms from the ground.|S|NC|
-C Restoring Sanctity|QID|9687|M|60.05,35.47;58.09,29.47|CN|Z|1950;Bloodmyst Isle|N|Loot the bones. They are around where the small Wildkin camps are.|NC|
+C The Hopeless Ones...|QID|9682|M|82.81,22.15;87.20,18.50|CN|Z|1950;Bloodmyst Isle|L|24153 4|ITEM|24153|N|Bloodcursed Voyagers in and around the submerged ships.\n[color=FF0000]NOTE: [/color]If you lose your 20 min swim/water breathing buff, go back to Captain Edward Hanes to renew it.|T|Bloodcursed Voyager|
+N The Captain's Kiss Buff|ACTIVE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|The swim speed and water breathing buff is really useful for another quest. Go back to Captain Edward Hanes, but don't turn in the quest. Ask him to reset the buff on you.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+R Ragefeather Ridge|ACTIVE|9687|QO|1|M|60.98,34.20|Z|1950;Bloodmyst Isle|N|Swim back across to the mainland and into the trees.|
+C Restoring Sanctity|QID|9687|M|60.05,35.47;58.09,29.47|CN|Z|1950;Bloodmyst Isle|N|The Dragon Bones are found on the ground amongst the Wildkin camps.|NC|
 T Restoring Sanctity|QID|9687|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|To Prince Toreth.|
 A Into the Dream|QID|9688|PRE|9687|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|From Prince Toreth.|
 C Into the Dream|QID|9688|M|72.6,27.78|Z|1950;Bloodmyst Isle|N|Kill Veridian Whelps and Broodlings. They are all over the island.|
@@ -237,7 +239,8 @@ T Into the Dream|QID|9688|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|To Prince Toreth.|
 A Razormaw|QID|9689|PRE|9688|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|From Prince Toreth.|
 C Razormaw|QID|9689|M|72,20|Z|1950;Bloodmyst Isle|N|Move to the top of the hill. Clear the whelplings, and get ready for a fight.|U|24221|
 C Ysera's Tears|QID|9649|M|74.55,13.69|Z|1950;Bloodmyst Isle|N|Loot the green glowing mushrooms from the ground.|US|NC|
-T The Hopeless Ones...|QID|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes. Before turning in, refresh your buff again.|
+N The Captain's Kiss Buff|ACTIVE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|Ask Captain Edward Hanes to reset the buff on you.|
+T The Hopeless Ones...|QID|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|NOAUTO|
 A Ending the Bloodcurse|QID|9683|PRE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.|
 T Razormaw|QID|9689|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|To Prince Toreth.|
 C Ending the Bloodcurse|QID|9683|M|85,54|Z|1950;Bloodmyst Isle|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|
