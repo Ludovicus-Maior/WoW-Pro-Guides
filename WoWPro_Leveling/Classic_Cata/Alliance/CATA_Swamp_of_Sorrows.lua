@@ -37,9 +37,9 @@ T Kill Gil|QID|27598|M|83.86,40.04|Z|1435;Swamp of Sorrows|N|To Crazy Larry.|
 T Can't Take It With Them|QID|27599|M|83.86,40.04|Z|1435;Swamp of Sorrows|N|To Crazy Larry.|
 A In With a Bang|QID|27600|PRE|27598&27599|M|83.86,40.04|Z|1435;Swamp of Sorrows|N|From Crazy Larry.|
 F Fortune's Fist|QID|27600|M|83.59,37.85|Z|1435;Swamp of Sorrows|N|Talk to Lil' Crazy Jerry just north of the camp where the waypoint is, and choose to go into the cannon.|CHAT|
-C In With a Bang|QID|27600|QO|1|M|97.99,24.96|Z|1435;Swamp of Sorrows|N|Fuse is by the mast.|
-C In With a Bang|QID|27600|QO|2|M|98.58,27.93|Z|1435;Swamp of Sorrows|N|Powder is in the captain's cabin.|
-C In With a Bang|QID|27600|QO|3|M|93.83,27.15|Z|1435;Swamp of Sorrows|N|Publications are down in the hold.|
+C In With a Bang|QID|27600|QO|1|M|97.99,24.96|Z|1435;Swamp of Sorrows|N|Fuse is by the mast.|NC|
+C In With a Bang|QID|27600|QO|2|M|98.58,27.93|Z|1435;Swamp of Sorrows|N|Powder is in the captain's cabin.|NC|
+C In With a Bang|QID|27600|QO|3|M|93.83,27.15|Z|1435;Swamp of Sorrows|N|Publications are down in the hold.|NC|
 F Sorrowmurk|QID|27600|M|98.11,26.02|Z|1435;Swamp of Sorrows|N|Click on the cannon that is on the deck to go back.|CHAT|
 T In With a Bang|QID|27600|M|83.93,40.03|Z|1435;Swamp of Sorrows|N|To Crazy Larry.|
 A Baba Bogbrew|QID|27740|PRE|27600|M|83.93,40.03|Z|1435;Swamp of Sorrows|N|From Crazy Larry.|

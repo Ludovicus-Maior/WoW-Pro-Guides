@@ -7,8 +7,8 @@ WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 return [[
 N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|85; Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|
-A Legion: The Legion Returns|QID|43926|M|40.82,80.11|Z|85; Orgrimmar|N|From Chromie after activating Legion timeline.|LVL|-60|CT|
-A Legion: The Legion Returns|QID|43926|M|49.67,76.45|Z|85; Orgrimmar|N|Select 'Fight the Legion' from the Warchief's Command Board.|LVL|60|
+;A Legion: Onward to Adventure in the Broken Isles|QID|60970|M|40.82,80.11|Z|85; Orgrimmar|N|From Chromie after activating Legion timeline.|LVL|-60|CT|
+A Legion: The Legion Returns|QID|43926|M|49.72,76.70|Z|85; Orgrimmar|N|Select 'Fight the Legion' from the Warchief's Command Board.|LVL|-60|CT|
 T Legion: The Legion Returns|QID|43926|M|46.01,13.79|Z|1; Durotar|N|To Holgar Stormaxe.|
 A To Be Prepared|QID|44281|PRE|43926|M|46.01,13.79|Z|1; Durotar|N|From Holgar Stormaxe.|
 C To Be Prepared|QID|44281|QO|3|M|47.67,13.47|Z|1; Durotar|NC|N|Click on the food to eat your last meal.|
@@ -49,6 +49,7 @@ T Keep Your Friends Close|QID|40605|M|53.09,57.35|Z|85; Orgrimmar|N|To Elthyn Da
 A In the Blink of an Eye|QID|44663^44184|M|52.80,56.92|Z|85; Orgrimmar|N|From Elthyn Da'rai.|
 C Kirin Tor Emissary|ACTIVE|44663|QO|1|M|58.25,89.99|Z|85; Orgrimmar|CHAT|N|[color=FFFF00]OPTIONAL[/color]\nAsk the Kirin Tor Emissary to send you to Dalaran.|
 C In the Blink of an Eye|ACTIVE|44663^44184|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|CHAT|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+t Legion: Onward to Adventure in the Broken Isles|QID|60970|M|PLAYER|Z|627; Dalaran!Broken Isles|N|UI ALERT.|LVL|-60|CT|
 T In the Blink of an Eye|ACTIVE|44663^44184|M|57.62,45.76|Z|627; Dalaran|N|To Emissary Auldbridge.|
 D On to Class Halls|N|This ends the intro scenario and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends the intro scenario and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
