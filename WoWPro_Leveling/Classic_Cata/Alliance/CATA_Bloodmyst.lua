@@ -212,11 +212,11 @@ T Matis the Cruel|QID|9711|M|55.61,55.14|Z|1950;Bloodmyst Isle|N|To Vindicator K
 A Urgent Delivery|QID|9671|PRE|9506|M|55.31,54.21;53.05,53.84;54.18,61.12|CN|Z|1950;Bloodmyst Isle|N|From Messenger Hermesius, who circles the road in Blood Watch.|
 N Check your mailbox|AVAILABLE|9672|PRE|9671|M|55.18,59.19|Z|1950;Bloodmyst Isle|L|24132|N|Urgent Delivery results in a mail sent to your mailbox.|NC|
 A The Bloodcurse Legacy|QID|9672|PRE|9671|M|PLAYER|CC|N|From the Letter from the Admiral.|U|24132|O|
-A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|Z|1950;Bloodmyst Isle|N|From Maatparm.|
+A Ysera's Tears|QID|9649|PRE|9648|M|56.42,56.83|Z|1950;Bloodmyst Isle|N|From Maatparm.|
 = Training|ACTIVE|9649|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 N Apprentice Riding|ACTIVE|9649|N|You'll require 3g40s to purchase your training. An additional 75s is required to buy your mount if you need one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|Draenei|C|-Paladin|IZ|Blood Watch|
 N Apprentice Riding|ACTIVE|9649|N|You'll require 3g40s to purchase your training.\nif you require a mount, you'll have to return home to get one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|-Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
-F The Exodar|ACTIVE|9649|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|SPELL|Apprentice Riding;33388|R|-Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
+F The Exodar|ACTIVE|9649|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|SPELL|Apprentice Riding;33388|R|Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
 = Apprentice Riding|ACTIVE|9649|M|81.33,52.64|Z|1947; The Exodar|N|Learn your riding skill from Aalun outside the Exodar.\n[color=FF0000]NOTE: [/color]Use the ramp to go outside.|SPELL|Apprentice Riding;33388|R|-Worgen|C|-Paladin,-Warlock|IZ|The Exodar|
 F Blood Watch|ACTIVE|9561|M|54.43,36.39|Z|1947; The Exodar|N|Fly back to Blood Watch.|
 T Nolkai's Words|QID|9561|M|61.17,49.64|Z|1950;Bloodmyst Isle|N|To the Mound of Dirt in Ruins of Loreth'Aran.|
@@ -237,23 +237,26 @@ A Into the Dream|QID|9688|PRE|9687|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|From Prin
 C Into the Dream|QID|9688|M|72.6,27.78|Z|1950;Bloodmyst Isle|N|Kill Veridian Whelps and Broodlings. They are all over the island.|
 T Into the Dream|QID|9688|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|To Prince Toreth.|
 A Razormaw|QID|9689|PRE|9688|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|From Prince Toreth.|
-C Razormaw|QID|9689|M|72,20|Z|1950;Bloodmyst Isle|N|Move to the top of the hill. Clear the whelplings, and get ready for a fight.|U|24221|
+R Talon Stand|ACTIVE|9689|M|74.19,19.34|Z|1950;Bloodmyst Isle|N|Work your way up to the top of the hill.|
+C Razormaw|QID|9689|M|72.60,20.67|Z|1950;Bloodmyst Isle|N|After clearing the whelplings, get ready for a fight and click on the Ever-burning Pyre when you're ready to start.|
 C Ysera's Tears|QID|9649|M|74.55,13.69|Z|1950;Bloodmyst Isle|N|Loot the green glowing mushrooms from the ground.|US|NC|
-N The Captain's Kiss Buff|ACTIVE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|Ask Captain Edward Hanes to reset the buff on you.|
+N The Captain's Kiss Buff|ACTIVE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|Ask Captain Edward Hanes to reset the buff on you.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T The Hopeless Ones...|QID|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|NOAUTO|
 A Ending the Bloodcurse|QID|9683|PRE|9682|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|From Captain Edward Hanes.|
 T Razormaw|QID|9689|M|73.7,33.7|Z|1950;Bloodmyst Isle|N|To Prince Toreth.|
-C Ending the Bloodcurse|QID|9683|M|85,54|Z|1950;Bloodmyst Isle|N|Clear the top of the hill, then click the statue, and kill Atoph the Bloodcursed|
+R Bloodcurse Isle|ACTIVE|9683|QO|1|M|82.25,46.90|Z|1950;Bloodmyst Isle|N|Swim to the smaller island southeast of you.|
+C Ending the Bloodcurse|QID|9683|M|85.91,54.34|Z|1950;Bloodmyst Isle|N|After clearing the top of the hill, click the statue to summon Atoph the Bloodcursed and kill him.|
 T Ending the Bloodcurse|QID|9683|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
 H Blood Watch|ACTIVE|9649|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
-T Ysera's Tears|QID|9649|M|56.4,56.8|Z|1950;Bloodmyst Isle|N|To Maatparm.|
+T Ysera's Tears|QID|9649|M|56.42,56.83|Z|1950;Bloodmyst Isle|N|To Maatparm.|
 r Repair/Restock|ACTIVE|9740|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
 = Training|ACTIVE|9740|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 N Non-Draenei races|ACTIVE|9740|Z|1950;Bloodmyst Isle|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|-Draenei|
-F The Exodar|ACTIVE|9740|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to train your riding skill. Skip this step if you already have it.|R|Draenei|
-N Get your Mount|ACTIVE|9740|Z|1950;Bloodmyst Isle|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|R|Draenei|
-F Blood Watch|ACTIVE|9740|M|54.46,36.4|Z|1947; The Exodar|N|Fly back to Blood Watch. Skip if you're already there.|R|Draenei|
-A Ending Their World|QID|9759|PRE|9753|M|30.82,46.66|Z|1950;Bloodmyst Isle|N|From Demolitionist Legoso.|
+F The Exodar|ACTIVE|9740|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to train your riding skill.|SPELL|Apprentice Riding;33388|R|Draenei|
+N Get your Mount|ACTIVE|9740|Z|1950;Bloodmyst Isle|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|SPELL|Apprentice Riding;33388|R|Draenei|
+F Blood Watch|ACTIVE|9740|M|54.46,36.4|Z|1947; The Exodar|N|Fly back to Blood Watch.|R|Draenei|
+R Vindicator's Rest|AVAILABLE|9759|M|31.23,46.63|Z|1950;Bloodmyst Isle|N|Follow the road north and then west at the intersection.|
+A Ending Their World|QID|9759|PRE|9753|M|30.82,46.66|Z|1950;Bloodmyst Isle|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Demolitionist Legoso.|NOAUTO|
 C Clearing the Way|QID|9761|M|19.8,52.6|Z|1950;Bloodmyst Isle|N|Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the workMake sure you do 50%+ dmg to the quest mobs, so you get credit.|S|
 C Ending Their World|QID|9759|M|19,52|Z|1950;Bloodmyst Isle|N|Follow Legoso, he will stop in 2 places to plant explosives. Then you will have to kill Sironas.|
 C Clearing the Way|QID|9761|M|19.8,52.6|Z|1950;Bloodmyst Isle|N|Finish killing Sunhawk Agents and Saboteurs.|US|
