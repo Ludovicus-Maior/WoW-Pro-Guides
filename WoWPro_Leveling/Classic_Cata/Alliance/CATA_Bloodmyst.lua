@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide("SveBlo1220", "Leveling", "Bloodmyst Isle", "
 WoWPro:GuideLevels(guide, 10, 20)
 WoWPro:GuideName(guide,"Bloodmyst Isle")
 WoWPro:GuideSort(guide, 6)
-WoWPro:GuideNextGuide(guide, 'Darkshore')
+WoWPro:GuideNextGuide(guide, 'Ashenvale')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -101,8 +101,8 @@ A Translations...|QID|9696|PRE|9779|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|From V
 T Translations...|QID|9696|M|54.44,54.46|Z|1950;Bloodmyst Isle|N|To Interrogator Elysia.|
 A Audience with the Prophet|QID|9698|PRE|9696|M|54.44,54.46|Z|1950;Bloodmyst Isle|N|From Interrogator Elysia.|
 F The Exodar|ACTIVE|9698|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|
-T Audience with the Prophet|QID|9698|M|32.9,54.5|Z|1947; The Exodar|N|To Prophet Velen in the Vault of Lights (go up the ramp to the second tier).|
-A Truth or Fiction|QID|9699|PRE|9698|M|32.9,54.5|Z|1947; The Exodar|N|To Prophet Velen.|
+T Audience with the Prophet|QID|9698|M|32.85,54.49|Z|1947; The Exodar|N|To Prophet Velen in the Vault of Lights (go up the ramp to the second tier).|
+A Truth or Fiction|QID|9699|PRE|9698|M|32.85,54.49|Z|1947; The Exodar|N|To Prophet Velen.|
 r Housekeeping|ACTIVE|9699|N|While in The Exodar, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|R|Draenei|
 F Blood Watch|ACTIVE|9699|M|54.43,36.39|Z|1947; The Exodar|N|If your hearth is up, use it to get back to Blood Watch. Otherwise, fly back to Bloodmyst Isle.|
 T Truth or Fiction|QID|9699|M|55.42,55.25|Z|1950;Bloodmyst Isle|N|To Vindicator Boros.|
@@ -213,11 +213,14 @@ A Urgent Delivery|QID|9671|PRE|9506|M|55.31,54.21;53.05,53.84;54.18,61.12|CN|Z|1
 N Check your mailbox|AVAILABLE|9672|PRE|9671|M|55.18,59.19|Z|1950;Bloodmyst Isle|L|24132|N|Urgent Delivery results in a mail sent to your mailbox.|NC|
 A The Bloodcurse Legacy|QID|9672|PRE|9671|M|PLAYER|CC|N|From the Letter from the Admiral.|U|24132|O|
 A Ysera's Tears|QID|9649|PRE|9648|M|56.42,56.83|Z|1950;Bloodmyst Isle|N|From Maatparm.|
-= Training|ACTIVE|9649|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
-N Apprentice Riding|ACTIVE|9649|N|You'll require 3g40s to purchase your training. An additional 75s is required to buy your mount if you need one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|Draenei|C|-Paladin|IZ|Blood Watch|
-N Apprentice Riding|ACTIVE|9649|N|You'll require 3g40s to purchase your training.\nif you require a mount, you'll have to return home to get one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|-Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
-F The Exodar|ACTIVE|9649|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|SPELL|Apprentice Riding;33388|R|Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
-= Apprentice Riding|ACTIVE|9649|M|81.33,52.64|Z|1947; The Exodar|N|Learn your riding skill from Aalun outside the Exodar.\n[color=FF0000]NOTE: [/color]Use the ramp to go outside.|SPELL|Apprentice Riding;33388|R|-Worgen|C|-Paladin,-Warlock|IZ|The Exodar|
+A Newfound Allies|QID|9632|M|54.69,54.01|Z|1950;Bloodmyst Isle|N|From Anchorite Paetheus.|
+= Training|ACTIVE|9632|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
+N Apprentice Riding|ACTIVE|9632|N|You'll require 3g40s to purchase your training. An additional 75s is required to buy your mount if you need one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|Draenei|C|-Paladin|IZ|Blood Watch|
+N Apprentice Riding|ACTIVE|9632|N|You'll require 3g40s to purchase your training.\nif you require a mount, you'll have to return home to get one.\nIf you cannot afford this yet or don't want to, skip the next step to continue on.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|SPELL|Apprentice Riding;33388|R|-Draenei,-Worgen|C|-Paladin,-Warlock|IZ|Blood Watch|
+F The Exodar|ACTIVE|9632|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|IZ|Blood Watch|
+= Apprentice Riding|ACTIVE|9632|M|81.33,52.64|Z|1947; The Exodar|N|Learn your riding skill from Aalun outside the Exodar.\n[color=FF0000]NOTE: [/color]Use the ramp to go outside.|SPELL|Apprentice Riding;33388|R|-Worgen|C|-Paladin,-Warlock|IZ|The Exodar|
+T Newfound Allies|QID|9632|M|24.18,54.33|Z|1943 ;Azuremyst Isle|N|To Huntress Kella Nightbow.\n[color=FF0000]NOTE: [/color]Go up the ramp to the exit (if you're still inside) and once outside, follow the road south down her camp.|
+R The Exodar (rear entrance)|ACTIVE|9561&-9632|AVAILABLE|-9632|M|41.72,73.53|Z|1947; The Exodar|N|The entrance is just north of your location.\n[color=FF0000]NOTE: [/color]Use your hearth if it's available.|U|6948|
 F Blood Watch|ACTIVE|9561|M|54.43,36.39|Z|1947; The Exodar|N|Fly back to Blood Watch.|
 T Nolkai's Words|QID|9561|M|61.17,49.64|Z|1950;Bloodmyst Isle|N|To the Mound of Dirt in Ruins of Loreth'Aran.|
 R Wyrmscar Island|AVAILABLE|9287|ACTIVE|9672^9751|M|72.70,34.19|Z|1950;Bloodmyst Isle|N|Swim across to the big island to the northeast.|
@@ -249,27 +252,27 @@ C Ending the Bloodcurse|QID|9683|M|85.91,54.34|Z|1950;Bloodmyst Isle|N|After cle
 T Ending the Bloodcurse|QID|9683|M|79.14,22.66|Z|1950;Bloodmyst Isle|N|To Captain Edward Hanes.|
 H Blood Watch|ACTIVE|9649|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
 T Ysera's Tears|QID|9649|M|56.42,56.83|Z|1950;Bloodmyst Isle|N|To Maatparm.|
-r Repair/Restock|ACTIVE|9740|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
+r Repair/Restock|ACTIVE|9740|M|53.32,56.67|Z|1950;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|IZ|Blood Watch|
 = Training|ACTIVE|9740|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
 N Non-Draenei races|ACTIVE|9740|Z|1950;Bloodmyst Isle|N|Non-Draenei have only one more available quest on bloodmyst. Decide if you are interested, if not, just follow the next guide.|R|-Draenei|
-F The Exodar|ACTIVE|9740|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar to train your riding skill.|SPELL|Apprentice Riding;33388|R|Draenei|
-N Get your Mount|ACTIVE|9740|Z|1950;Bloodmyst Isle|N|Up the ramp and to the left is the riding trainer. You'll need 4 gold for training and 1 gold for the mount. Skip if you already have it. Click to close and continue.|SPELL|Apprentice Riding;33388|R|Draenei|
-F Blood Watch|ACTIVE|9740|M|54.46,36.4|Z|1947; The Exodar|N|Fly back to Blood Watch.|R|Draenei|
 R Vindicator's Rest|AVAILABLE|9759|M|31.23,46.63|Z|1950;Bloodmyst Isle|N|Follow the road north and then west at the intersection.|
 A Ending Their World|QID|9759|PRE|9753|M|30.82,46.66|Z|1950;Bloodmyst Isle|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Demolitionist Legoso.|NOAUTO|
-C Clearing the Way|QID|9761|M|19.8,52.6|Z|1950;Bloodmyst Isle|N|Kill Sunhawk Agents and Saboteurs. Let the Legoso do most of the workMake sure you do 50%+ dmg to the quest mobs, so you get credit.|S|
-C Ending Their World|QID|9759|M|19,52|Z|1950;Bloodmyst Isle|N|Follow Legoso, he will stop in 2 places to plant explosives. Then you will have to kill Sironas.|
-C Clearing the Way|QID|9761|M|19.8,52.6|Z|1950;Bloodmyst Isle|N|Finish killing Sunhawk Agents and Saboteurs.|US|
-C The Sun Gate|QID|9740|M|18.95,63.5|Z|1950;Bloodmyst Isle|N|Go to the Sun Gate. Right click the 4 portal controllers, then right click the Sun Gate.|
+A Ending Their World|QID|9759|PRE|9753|M|30.82,46.66|Z|1950;Bloodmyst Isle|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Demolitionist Legoso.|FAIL|
+C Clearing the Way|QID|9761|M|19.80,52.60|Z|1950;Bloodmyst Isle|N|Kill Sunhawk Agents and Saboteurs.\n[color=FF0000]NOTE: [/color]You can let Legoso do the heavy lifting as long as you do more than 50% of the damage to the quest mobs, or you won't get credit.|S|
+C Ending Their World|QID|9759|M|17.89,55.05;15.54,53.16;14.87,54.87|CC|Z|1950;Bloodmyst Isle|N|As you follow Legoso up the hill to the Vector Coil, he will stop in 2 places to plant explosives. After setting off the 2nd explosive, Sironas will attack you.|
+C Clearing the Way|QID|9761|M|19.80,52.60|Z|1950;Bloodmyst Isle|N|Finish killing Sunhawk Agents and Saboteurs.|US|
+C The Sun Gate|QID|9740|M|18.66,61.50;19.24,62.07;19.87,62.84;20.36,63.80;18.93,63.53|CS|Z|1950;Bloodmyst Isle|N|Head to the Sun Gate (you were there earlier) and after clicking on the 4 portal controllers, click on the Sun Gate to destroy it.|NC|
 T Clearing the Way|QID|9761|M|30.75,46.84|Z|1950;Bloodmyst Isle|N|To Vindicator Corin.|
 H Blood Watch|ACTIVE|9740|M|55.84,59.80|Z|1950;Bloodmyst Isle|N|Hearth or run back to Blood Watch.|
 T The Sun Gate|QID|9740|M|55.55,55.40|Z|1950;Bloodmyst Isle|N|To Vindicator Aesom.|
-T Ending Their World|QID|9759|M|52.60,53.22|Z|1950;Bloodmyst Isle|N|This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show. Turn the quest into Exarch Admetius.|
-A The Unwritten Prophecy|QID|9762|PRE|9759|M|54,55.4|Z|1950;Bloodmyst Isle|N|From Prophet Velen. If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|R|Draenei|
-A Newfound Allies|QID|9632|M|54.69,54.01|Z|1950;Bloodmyst Isle|N|From Anchorite Paetheus.|
-= Training|ACTIVE|9632|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
-F The Exodar|ACTIVE|9632|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|
-;A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.31,47.38|Z|1947; The Exodar|N|From the Hero's Call Board. Will not show up if your level is too high.|
-T Newfound Allies|QID|9632|M|24.18,54.33|Z|1943 ;Azuremyst Isle|N|Go up the ramp to the exit; once outside, follow the path to the right and down to Huntress Kella Nightbow.|
+T Ending Their World|QID|9759|M|52.68,53.22|Z|1950;Bloodmyst Isle|N|To Exarch Admetius.\n[color=FF0000]NOTE: [/color]This is one of the best quest turn-ins in WoW. Get ready to enjoy a bit of a show.|
+A The Unwritten Prophecy|QID|9762|PRE|9759|M|54.02,55.48|Z|1950;Bloodmyst Isle|N|From Prophet Velen.\n[color=FF0000]NOTE: [/color]If Prophet Velen despawns before you accept the quest, go to The Exodar to get the quest.|R|Draenei|
+T The Unwritten Prophecy|QID|9762|M|54.02,55.48|Z|1950;Bloodmyst Isle|N|To Prophet Velen.|R|Draenei|
+= Training|AVAILABLE|28492|M|PLAYER|CC|N|Check in with your trainer.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Blood Watch|
+F The Exodar|AVAILABLE|28492|M|57.68,53.89|Z|1950;Bloodmyst Isle|N|Fly to The Exodar.|
+r Housekeeping|AVAILABLE|28492|N|While in The Exodar, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
+A The Unwritten Prophecy|QID|9762|PRE|9759|M|32.85,54.49|Z|1947; The Exodar|N|From Prophet Velen in the Vault of Lights (go up the ramp to the second tier).|R|Draenei| ; ** In case they didn't get it earlier. - Hendo72
+T The Unwritten Prophecy|QID|9762|M|32.85,54.49|Z|1950;Bloodmyst Isle|N|To Prophet Velen.|R|Draenei|
+A Hero's Call: Ashenvale!|QID|28492|LEAD|13594|M|55.29,47.35|Z|1947; The Exodar|N|From the Hero's Call Board in The Exodar.|LVL|19|
 ]]
 end)
