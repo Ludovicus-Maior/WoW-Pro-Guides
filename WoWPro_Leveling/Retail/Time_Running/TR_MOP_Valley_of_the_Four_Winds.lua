@@ -6,8 +6,6 @@ WoWPro:GuideName(guide,"TR_Valley of the Four Winds")
 WoWPro:GuideNextGuide(guide, 'TR_Krasarang WildsA', 'TR_Krasarang WildsH')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 R Valley of the Four Winds|N|Make your way to Valley of the Four Winds.|IZ|-376|
 ; -- Breadcrumb quest turn-in
 T Hero's Call: Valley of the Four Winds!|QID|49557|M|85.94,22.10|N|To Chen Stormstout.|

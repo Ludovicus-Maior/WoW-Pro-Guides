@@ -6,7 +6,6 @@ WoWPro:GuideName(guide,"TR_Krasarang Wilds")
 WoWPro:GuideNextGuide(guide, 'Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
 F Zhu's Watch|QID|30080|M|76.72,8.43|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.22,7.06|N|From Ken-Ken.|
@@ -140,7 +139,7 @@ T Sha Can Awe|QID|30271|M|38.01,50.89|N|To Anduin Wrynn.|
 A In the House of the Red Crane|QID|30273|PRE|30271&30272&30695|M|38.01,50.89|N|From Anduin Wrynn.|
 C In the House of the Red Crane|QID|30273|M|40.46,54.65|N|Go up the center stairs then run straight back to the stairs into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
 T In the House of the Red Crane|QID|30273|M|40.43,49.18|N|To Chi-Ji (back outside).|
-R Nayeli Lagoon|QID|30667|M|51.7,75.34|
+R Nayeli Lagoon|AVAILABLE|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.67,75.30|N|From Tony Tuna.|
 l Stack of Papers|QID|31863|L|87798|M|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
 f Marista|M|52.43,76.53|N|At Nan-Po.|

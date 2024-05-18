@@ -41,11 +41,11 @@ A Death's Challenge|QID|12733|PRE|12670|N|From Olrun the Battlecaller.|M|54.6,34
 A Tonight We Dine In Havenshire|QID|12679|PRE|12670|N|From Orithos the Sky Darkener.|M|53.2,36.9|
 C Death's Challenge|QID|12733|N|Find Death Knight Initiates and challenge them to a duel.|M|51.92,35.11|
 T Death's Challenge|QID|12733|M|54.6,34.2|N|To Olrun the Battlecaller.|
-C Tonight We Dine In Havenshire|QID|12679|N|Pick the glowing arrows.|M|56.2,49.4|S|
+C Tonight We Dine In Havenshire|QID|12679|N|Pick the glowing arrows.|M|56.2,49.4|S|NC|
 C If Chaos Drives, Let Suffering Hold The Reins|QID|12678|N|Kill Scarlet Crusaders and Citizens of Havenshire.|S|
 A Abandoned Mail|QID|12711|PRE|12670|N|From the Abandoned Mail.|M|55,46|
 C If Chaos Drives, Let Suffering Hold The Reins|QID|12678|N|Kill Scarlet Crusaders and Citizens of Havenshire.|US|
-C Tonight We Dine In Havenshire|QID|12679|N|Pick the glowing arrows.|M|56.2,49.4|US|
+C Tonight We Dine In Havenshire|QID|12679|N|Pick the glowing arrows.|M|56.2,49.4|US|NC|
 C Grand Theft Palomino|QID|12680|N|Get a horse and ride back to town (Make sure to grab one that is not near Stable Master Kitrik.). Go to Salanar the Horseman and press 1.|M|51.70,35.82|
 T Grand Theft Palomino|QID|12680|M|52.5,34.6|N|To Salanar the Horseman.|
 A Into the Realm of Shadows|QID|12687|PRE|12680|M|52.5,34.6|N|From Salanar the Horseman.|

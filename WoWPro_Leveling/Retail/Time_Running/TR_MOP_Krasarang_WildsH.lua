@@ -6,7 +6,6 @@ WoWPro:GuideName(guide,"TR_Krasarang WildsH")
 WoWPro:GuideNextGuide(guide, 'TR_Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|
 F Zhu's Watch|AVAILABLE|30079|M|79.95,2.31|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|IZ|-6000|
 T Ken-Ken|QID|29873|M|76.22,7.07|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.22,7.07|N|From Ken-Ken.|

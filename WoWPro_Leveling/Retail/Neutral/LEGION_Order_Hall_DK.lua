@@ -29,7 +29,7 @@ A Artifact Specific Quest|QID|40930^40740^38990|M|73.11,46.85|Z|Dalaran!Dalaran!
 ;44550-Called to Acherus
 R Acherus: The Ebon Hold|QID|44550|N|Use your Deathgate|ACTIVE|44550|
 T Called to Acherus|QID|44550|M|49.66,51.25|N|To Siouxsie the Banshee.|
-A Rise, Champions|QID|43264|M|51.08,50.78|N|From Highlord Darion Mograine.|
+;A Rise, Champions|QID|43264|M|51.08,50.78|N|From Highlord Darion Mograine.|
 A Champion: Nazgrim|QID|39818|M|39.49,68.31|N|Pick Up Nazgrim as a follower.|ACTIVE|43264|
 A Champion: Thassarian|QID|39816|M|56.20,30.86|N|Pick up Thassarian as a follower.|ACTIVE|43264|
 T Rise, Champions|QID|43264|M|49.66,51.25|N|To Siouxsie the Banshee.|
@@ -354,7 +354,7 @@ P Windrunner's Sanctuary|QID|42449|M|55.33,24.04|Z|Dalaran!Dalaran!Dungeon|N|Tak
 R Durotar|QID|42449|M|47.32,17.67|Z|Durotar|N|Hop on your mount and fly to Thassarian in Durotar.|ACTIVE|42449|
 T Return of the Four Horsemen|QID|42449|M|47.32,17.67|Z|Durotar|N|To Thassarian.|
 A The Firstborn Rises|QID|42484|M|47.32,17.67|Z|Durotar|N|From Thassarian.|PRE|42449|
-C The Firstborn Rises|QID|42484|M|47.32,17.84|Z|Durotar|NC|N|Stand in the middle of the stones and use your extra action button to raise Nazgrim to Death Knighthood.|
+C The Firstborn Rises|QID|42484|M|47.32,17.84|Z|Durotar|NC|N|Stand in the middle of the stones and use your extra action button to raise Nazgrim to Death Knighthood.|EAB|
 P Acherus: The Ebon Hold|QID|42484|M|47.33,17.83|CC|Z|Durotar|N|Use the provided Death-Gate to return to your class hall.|ACTIVE|42484|
 T The Firstborn Rises|QID|42484|M|50.85,50.52|N|To Highlord Darion Mograine.|
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
