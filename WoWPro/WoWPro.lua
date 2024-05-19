@@ -565,7 +565,12 @@ function WoWPro:OnEnable()
 
     WoWPro:dbp("Scan to purge PlayerGetTimerunningSeasonID")
     -- Purge guides that do not match the SeasonID
-    local seasonID = _G.PlayerGetTimerunningSeasonID()
+    local seasonID
+    if WoWPro.CATA then
+        seasonID = _G.PlayerGetTimerunningSeason and _G.PlayerGetTimerunningSeasonID()
+    else
+        seasonID = _G.PlayerGetTimerunningSeasonID()
+    end
     local to_purge = {}
     for gid, guide in pairs(WoWPro.Guides) do
         if guide['TimerunningSeasonID'] ~= seasonID then
