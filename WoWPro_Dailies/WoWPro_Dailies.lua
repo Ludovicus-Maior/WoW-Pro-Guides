@@ -50,6 +50,19 @@ function WoWPro.Dailies:RegisterGuide(guide)
     WoWPro:NoCache(guide)
 end
 
+-- Handle Wow API differences between Classic and modern game versions.
+local function get_faction_name(factionId)
+    if _G.GetFactionInfoByID then
+        return _G.GetFactionInfoByID(factionId)
+    else 
+        local factionInfo = _G.C_Reputation.GetFactionDataByID(factionId)
+        if factionInfo then
+            return factionInfo.name
+        end
+    end
+    return nil
+end
+
 function WoWPro.Dailies:GuideFaction(guide,faction, hfaction)
     if not hfaction then
         guide.faction = tonumber(faction)
@@ -60,10 +73,7 @@ function WoWPro.Dailies:GuideFaction(guide,faction, hfaction)
             guide.faction = tonumber(hfaction)
         end
     end
-    local factionInfo = _G.C_Reputation.GetFactionDataByID(guide.faction)
-    if factionInfo then
-        guide.name = factionInfo.name
-    end
+    guide.name = get_faction_name(guide.faction)
     guide.category = "Dailies"
 end
 
