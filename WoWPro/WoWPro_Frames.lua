@@ -545,7 +545,7 @@ function WoWPro:CreateTitleBar()
     -- Icon --
     local titleicon = WoWPro.Titlebar:CreateTexture(nil, "OVERLAY")
     titleicon:SetSize(12, 12)
-    titleicon:SetPoint("RIGHT", WoWPro.Titlebar, "RIGHT", -3, 0)
+    titleicon:SetPoint("RIGHT", WoWPro.Titlebar, "RIGHT", -3, 18)
     titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
     -- Tooltip --
