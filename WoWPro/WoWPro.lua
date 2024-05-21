@@ -565,7 +565,14 @@ function WoWPro:OnEnable()
 
     WoWPro:dbp("Scan to purge PlayerGetTimerunningSeasonID")
     -- Purge guides that do not match the SeasonID
-    local seasonID = _G.PlayerGetTimerunningSeasonID()
+    local seasonID
+    if _G.PlayerGetTimerunningSeasonID then
+        seasonID = _G.PlayerGetTimerunningSeasonID()
+    else
+        WoWPro:dbp("PlayerGetTimerunningSeasonID function is not available")
+        return
+    end
+
     local to_purge = {}
     for gid, guide in pairs(WoWPro.Guides) do
         if guide['TimerunningSeasonID'] ~= seasonID then
@@ -577,6 +584,7 @@ function WoWPro:OnEnable()
         WoWPro:dbp("Purge %q", gid)
         WoWPro.Guides[gid] = nil
     end
+
 
 
     -- Set up the Nickname -> Guide map.
