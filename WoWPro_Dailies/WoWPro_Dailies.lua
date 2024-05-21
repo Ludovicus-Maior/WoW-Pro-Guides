@@ -54,7 +54,7 @@ end
 local function get_faction_name(factionId)
     if _G.GetFactionInfoByID then
         return _G.GetFactionInfoByID(factionId)
-    else 
+    else
         local factionInfo = _G.C_Reputation.GetFactionDataByID(factionId)
         if factionInfo then
             return factionInfo.name
