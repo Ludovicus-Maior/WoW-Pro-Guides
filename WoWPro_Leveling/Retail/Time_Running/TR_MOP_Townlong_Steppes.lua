@@ -3,7 +3,7 @@ WoWPro:TimerunningSeasonID(guide,1)
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "TR_Townlong Steppes")
 WoWPro:GuideName(guide,"TR_Townlong Steppes")
-WoWPro:GuideNextGuide(guide, 'Dread Wastes')
+WoWPro:GuideNextGuide(guide, 'TR_Dread Wastes')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Welcome to Townlong Steppes|QID|30814|N|This guide starts in Longying Outpost, You may have two lead in qusets to turn in here, if you don't have them, check off those steps and proceed.|
