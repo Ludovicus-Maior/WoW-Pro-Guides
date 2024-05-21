@@ -570,7 +570,6 @@ function WoWPro:OnEnable()
         seasonID = _G.PlayerGetTimerunningSeasonID()
     else
         WoWPro:dbp("PlayerGetTimerunningSeasonID function is not available")
-        return
     end
 
     local to_purge = {}
