@@ -12,6 +12,6 @@ WoWPro_Dailies.lua
 WoWPro_Dailies_Parser.lua
 WoWPro_Dailies_Config.lua
 WoWPro_Dailies_GuideList.lua
-Alliance\Classic_Wrath\Guides.xml
-Horde\Classic_Wrath\Guides.xml
-Neutral\Classic_Wrath\Guides.xml
+Classic_Cata\Alliance\Guides.xml
+Classic_Cata\Horde\Guides.xml
+Classic_Cata\Neutral\Guides.xml
