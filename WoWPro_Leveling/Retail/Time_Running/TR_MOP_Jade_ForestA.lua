@@ -133,7 +133,7 @@ T Onward and Inward|QID|31745|M|48.0,88.4|N|To Sky Admiral Rogers.|
 A The White Pawn|QID|29555|PRE|31745|M|48.0,88.4|N|From Sky Admiral Rogers.|
 A Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|PRE|31745|M|48.0,88.4|N|From Sky Admiral Rogers.|
 C Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|S|M|50.5,89.6|; Wreck of the Vanguard
-C The White Pawn|QID|29555|T|Hozen Diver|M|50.0,90.3|N|The first clue is the guard on the bridge. The second and third clues are the banner and the journal underwater in the ship. You should also see a Hozen Diver inside the ship, you need to kill it to get the Encoded Captain's Log.|; Wreck of the Vanguard
+C The White Pawn|QID|29555|T|Hozen Diver|M|49.80,90.19|N|The first clue is the guard on the bridge. The second and third clues are the banner and the journal underwater in the ship. You should also see a Hozen Diver inside the ship, you need to kill it to get the Encoded Captain's Log.|; Wreck of the Vanguard
 C Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|US|M|50.5,89.6|; Wreck of the Vanguard
 T Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|M|50.42,88.20|N|To Nodd Codejack.|
 T The White Pawn|QID|29555|M|50.42,88.20|N|To Nodd Codejack.|
