@@ -1,19 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
--- Date: 2012-05-27 21:10
--- Who: Ludovicus Maior
--- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj
-
--- URL: http://wow-pro.com/node/3474/revisions/24980/view
--- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("TwiExpHFj","Howling Fjord","Howling Fjord","Exploration", "Northrend", "Twists", "Neutral", function()
-return [[
+local guide =  WoWPro:RegisterGuide("TwiExpHFj","Achievements","Howling Fjord","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Howling Fjord", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 
 F Kamagua|QID|901263001|M|25.1,57.7|ACH|1263;1|
 F Scalawag Point|QID|901263007|M|34.1,78.5|ACH|1263;7|

@@ -1,22 +1,15 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
--- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24979/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24978/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("LudoExpAsh","Ashenvale","Ashenvale","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
-return [[
+local guide =  WoWPro:RegisterGuide("LudoExpAsh","Achievements","Ashenvale","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Ashenvale", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 
 F The Zoram Strand|QID|908450001|M|14.68,22.26|ACH|845;1|
 F Orendil's Retreat|QID|908450002|M|26.35,21.99|ACH|845;2|

@@ -1,19 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_northrend
--- Date: 2012-05-27 21:10
--- Who: Ludovicus Maior
--- Log: Change guide nick for Exploring Howling Fjord to TwiExpHFj
-
--- URL: http://wow-pro.com/node/3474/revisions/24980/view
--- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("TwiExpBT","Borean Tundra","Borean Tundra","Exploration", "Northrend", "Twists", "Neutral", function()
-return [[
+local guide =  WoWPro:RegisterGuide("TwiExpBT","Achievements","Borean Tundra","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Borean Tundra", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 
 F Warsong Hold|QID|901264001|M|44,56|ACH|1264;10|
 F Garrosh's Landing|QID|901264002|M|32,54|ACH|1264;5|

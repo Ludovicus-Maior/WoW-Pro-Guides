@@ -1,23 +1,15 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
--- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24979/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24978/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("LudoExpAzs","Azshara","Azshara","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
-return [[
-
+local guide =  WoWPro:RegisterGuide("LudoExpAzs","Achievements","Azshara","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Azshara", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 F Gallywix Pleasure Palace|QID|908520001|M|21.04,57.16|ACH|852;1|
 F The Shattered Strand|QID|908520002|M|39.21,55.46|ACH|852;2|
 F Bilgewater Harbor|QID|908520003|M|58.29,51.00|ACH|852;3|

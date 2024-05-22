@@ -1,19 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
--- Date: 2012-06-30 16:06
--- Who: Ludovicus Maior
--- Log: Wrong zone name for The Cape of Stranglethorn
-
--- URL: http://wow-pro.com/node/3475/revisions/24982/view
--- Date: 2012-05-27 17:50
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("TwiExpBL","Blasted Lands","Blasted Lands","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
-return [[
+local guide =  WoWPro:RegisterGuide("TwiExpBL","Achievements","Blasted Lands","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Blasted Lands", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 
 F The Tainted Forest|QID|907660001|M|32.63,80.28|ACH|766;14|
 F Surwich|QID|907660002|M|45.52,86.96|ACH|766;12|

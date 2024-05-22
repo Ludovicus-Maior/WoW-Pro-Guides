@@ -1,23 +1,14 @@
+    -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+    -- Based on a work at github.com.
+    -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
--- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24979/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24978/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("LudoExpWin","Winterspring","Winterspring","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
-return [[
-
+    local guide =  WoWPro:RegisterGuide("LudoExpWin","Achievements","Winterspring","WoWPro Team", "Neutral")
+    WoWPro:GuideLevels(guide,10,50)
+    WoWPro.Achievements:GuideMisc(guide, "Explore Winterspring", "Exploration", "Cata")
+    WoWPro:GuideIcon(guide,"ACH",43)
+    WoWPro:GuideProximitySort(guide)
+    WoWPro:GuideSteps(guide, function()
+        return [[
 F Frostfire Hot Springs|QID|908570001|M|31.72,49.70|ACH|857;1|
 F Timbermaw Post|QID|908570002|M|36.92,55.71|ACH|857;2|
 F Lake Kel'Theril|QID|908570003|M|49.78,54.10|ACH|857;3|

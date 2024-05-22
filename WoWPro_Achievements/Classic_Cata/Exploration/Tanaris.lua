@@ -1,22 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
--- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24979/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24978/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("LudoExpTan","Tanaris","Tanaris","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
-return [[
+local guide =  WoWPro:RegisterGuide("LudoExpTan","Achievements","Tanaris","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Tanaris", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 
 F Gadgetzan|QID|908510001|M|51.40,29.28|ACH|851;1|
 F Sandsorrow Watch|QID|908510002|M|39.27,21.47|ACH|851;2|

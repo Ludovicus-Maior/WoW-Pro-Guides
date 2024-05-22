@@ -1,20 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
--- Date: 2012-06-30 16:06
--- Who: Ludovicus Maior
--- Log: Wrong zone name for The Cape of Stranglethorn
-
--- URL: http://wow-pro.com/node/3475/revisions/24982/view
--- Date: 2012-05-27 17:50
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("TwiExpEF","Elwynn Forest","Elwynn Forest","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
-return [[
-
+local guide =  WoWPro:RegisterGuide("TwiExpEF","Achievements","Elwynn Forest","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Elwynn Forest", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 F Goldshire|QID|907760001|M|42.38,66.20|ACH|776;3|
 F Northshire Valley|QID|907760002|M|48.16,42.08|ACH|776;1|
 F Crystal Lake|QID|907760003|M|54.25,66.22|ACH|776;10|

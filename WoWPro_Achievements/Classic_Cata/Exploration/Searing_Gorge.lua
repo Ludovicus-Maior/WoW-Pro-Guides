@@ -1,19 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
--- Date: 2012-06-30 16:06
--- Who: Ludovicus Maior
--- Log: Wrong zone name for The Cape of Stranglethorn
-
--- URL: http://wow-pro.com/node/3475/revisions/24982/view
--- Date: 2012-05-27 17:50
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("TwiExpSG","Searing Gorge","Searing Gorge","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
-return [[
+local guide =  WoWPro:RegisterGuide("TwiExpSG","Achievements","Searing Gorge","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Searing Gorge", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 
 F The Sea of Cinders|QID|907740001|M|58.32,71.30|ACH|774;4|
 F Blackrock Mountain|QID|907740002|M|34.63,82.31|ACH|774;8|

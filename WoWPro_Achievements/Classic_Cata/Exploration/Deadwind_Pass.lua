@@ -1,19 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
--- Date: 2012-06-30 16:06
--- Who: Ludovicus Maior
--- Log: Wrong zone name for The Cape of Stranglethorn
-
--- URL: http://wow-pro.com/node/3475/revisions/24982/view
--- Date: 2012-05-27 17:50
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("TwiExpDP","Deadwind Pass","Deadwind Pass","Exploration", "Eastern Kingdom", "Twists", "Neutral", function()
-return [[
+local guide =  WoWPro:RegisterGuide("TwiExpDP","Achievements","Deadwind Pass","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Deadwind Pass", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 
 F Karazhan|QID|907770001|M|46.53,74.34|ACH|777;3|
 F Deadman's Crossing|QID|907770002|M|35.87,35.60|ACH|777;1|

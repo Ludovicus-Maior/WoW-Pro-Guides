@@ -1,22 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_kalimdor
--- Date: 2012-05-27 17:49
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24979/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3473/revisions/24978/view
--- Date: 2012-05-27 17:19
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("LudoExpMul","Mulgore","Mulgore","Exploration", "Kalimdor", "Ludovicus", "Neutral", function()
-return [[
+local guide =  WoWPro:RegisterGuide("LudoExpMul","Achievements","Mulgore","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Mulgore", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 
 F Red Cloud Mesa|QID|907360001|M|42.84,80.52|ACH|736;1|
 F Palemane Rock|QID|907360002|M|35.05,61.37|ACH|736;2|

@@ -1,20 +1,14 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/exploration_achievements_eastern_kingdoms
--- Date: 2012-06-30 16:06
--- Who: Ludovicus Maior
--- Log: Wrong zone name for The Cape of Stranglethorn
-
--- URL: http://wow-pro.com/node/3475/revisions/24982/view
--- Date: 2012-05-27 17:50
--- Who: Ludovicus Maior
-
-WoWPro.Achievements:RegisterGuide("LudoExpEvW","Eversong Woods","Eversong Woods","Exploration", "Eastern Kingdom", "Ludovicus", "Neutral", function()
-return [[
-
+local guide =  WoWPro:RegisterGuide("LudoExpEvW","Achievements","Eversong Woods","WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Eversong Woods", "Exploration", "Cata")
+WoWPro:GuideIcon(guide,"ACH",43)
+WoWPro:GuideProximitySort(guide)
+WoWPro:GuideSteps(guide, function()
+    return [[
 F Sunstrider Isle|QID|908590001|M|38.08,30.78|ACH|859;1|
 F Ruins of Silvermoon|QID|908590002|M|45.34,38.91|ACH|859;2|
 F West Sanctum|QID|908590003|M|35.12,59.65 |ACH|859;3|

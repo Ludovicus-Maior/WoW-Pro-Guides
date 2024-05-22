@@ -1,6 +1,6 @@
 
 
-WoWPro.Achievements:RegisterGuide("TwiPebble","Deepholm","Rock Lover","Quests", "Cataclysm", "Twists", "Neutral", function()
+WoWPro:RegisterGuide("TwiPebble","Deepholm","Rock Lover","Quests", "Cataclysm", "Twists", "Neutral", function()
 return [[
 
 N Achievement|QID|26710|ACH|5449;1|S|

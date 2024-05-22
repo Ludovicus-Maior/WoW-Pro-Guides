@@ -1,6 +1,6 @@
 
 
-WoWPro.Achievements:RegisterGuide("TwiGlop","Deepholm","The Glop Family Line","Quests", "Cataclysm", "Twists", "Neutral", function()
+WoWPro:RegisterGuide("TwiGlop","Deepholm","The Glop Family Line","Quests", "Cataclysm", "Twists", "Neutral", function()
 return [[
 
 N Achievement|QID|28390|ACH|5446;1|S|
