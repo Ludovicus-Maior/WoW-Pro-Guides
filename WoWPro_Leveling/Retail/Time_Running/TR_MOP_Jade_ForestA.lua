@@ -14,8 +14,6 @@ return [[
 ;P Mistveil Sea|ACTIVE|80012|QO|1|M|45.83,84.64|Z|371|N|Take the portal to Mistveil Sea.|
 ;C Dragonriding|QID|80012|QO|3|M|45.83,84.64|Z|371|N|Talk to Lord Andestrasz about Dragonriding.|CHAT|
 
-U Cache of Infinite Treasure|QID|999999|U|211279|N|Use your Cache of Infinate Treasure|NOCACHE|O|
-
 A It's About Time|QID|79432|M|24.54,52.24|Z|554|N|From Eternus.|
 C It's About Time|QID|79432|M|26.09,47.22|Z|554|QO|1;2|NC|N|Archaios the Artificer slain.|
 C It's About Time|QID|79432|M|26.18,47.20|Z|554|QO|3|NC|N|Archaios's artifact taken.|
