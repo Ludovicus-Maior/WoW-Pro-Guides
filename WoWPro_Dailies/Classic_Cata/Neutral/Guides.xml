@@ -2,7 +2,6 @@
   <Script file="Cracker_Frenzy.lua"/>
   <Script file="Cracker_Oracles.lua"/>
   <Script file="Est_Firelands.lua"/>
-  <Script file="Est_Lotus.lua"/>
   <Script file="Jiyambi_Therazane.lua"/>
   <Script file="Twists_Ramkahen.lua"/>
   <Script file="Ludo_ArgDawn.lua"/>
@@ -17,5 +16,4 @@
   <Script file="Ludo_Skyguard.lua"/>
   <Script file="Ludo_Wyrmrest.lua"/>
   <Script file="Twists_ShattSun.lua"/>
-  <Script file="Way2Hairy_Klaxxi.lua"/>
 </Ui>
