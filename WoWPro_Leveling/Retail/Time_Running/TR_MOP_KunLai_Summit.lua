@@ -57,7 +57,7 @@ A Free the Dissenters|QID|30967|M|75.13,87.93|N|From Waterspeaker Gorai.|
 C Free the Dissenters|QID|30967|CHAT|S|M|74.40,78.82|N|Talk to the Prisoners to free them.|
 C Repossession|QID|30469|M|73.99,77.54|S|N|Pick up the sparklies on the ground (usually against the buildings).|NC|
 C Enraged Vengeance|QID|30468|M|73.26,77.51|S|N|Kill them as your work your way through the other quests in this area.|
-K Orachi|ACTIVE|30496|M|74.39,77.69|L|81385|N|He's located on the main land beyond the two islands. You have the Blessing of the Inkfill so you can run on the water throughout this area.|T|Orachi|
+K Orachi|ACTIVE|30496|M|74.39,77.69|QO|1|L|81385|N|He's located on the main land beyond the two islands. You have the Blessing of the Inkfill so you can run on the water throughout this area.|T|Orachi|
 T My Son...|QID|30467|M|74.68,76.88|N|To Wu-Peng. He is hiding behind the shell-shaped fence.|
 A Father and Child Reunion|QID|30834|PRE|30467|M|74.68,76.88|N|From Wu-Peng.|
 C Free the Dissenters|QID|30967|US|CHAT|M|74.40,78.82|N|Finish releasing the prisoners by talking to them.|
@@ -198,7 +198,7 @@ A The Fearmaster|QID|30804|M|71.30,69.68|N|From Lao Muskpaw.|PRE|30582|
 T Fresh Needle Scent|QID|30489|M|71.42,69.75|N|To Lao Muskpaw.|
 K The Fearmaster|ACTIVE|30804|M|68.20,74.70|QO|1|N|Kill The Fearmaster|T|The Fearmaster|
 C At the Yak Wash|QID|30491|US|M|71.39,69.05|N|Finish bringing the Escaped Yak to Lao & Son's Yakwash.|
-K Yakity Yak|ACTIVE|30587|M|69.94,72.81|N|Finish killing the Burilgi Despoilers.|US|
+K Yakity Yak|ACTIVE|30587|QO|1|M|69.94,72.81|N|Finish killing the Burilgi Despoilers.|US|
 T Yakity Yak|QID|30587|M|71.42,69.75|N|To Lao Muskpaw.|
 T The Fearmaster|QID|30804|M|71.42,69.75|N|To Lao Muskpaw.|
 T At the Yak Wash|QID|30491|M|71.34,69.31|N|To Muskpaw Jr..|
@@ -278,7 +278,7 @@ C The Tongue of Ba-Shon|QID|30829|M|43.51,51.38|N|Tell Cho you are ready to begi
 T The Tongue of Ba-Shon|QID|30829|M|43.79,51.05|N|To Lorewalker Cho.|
 A Staying Connected|QID|30795|PRE|30829|M|43.79,51.05|N|From Lorewalker Cho.|
 l Tablet of Ren Yun|QID|31417|M|44.7,52.4|N|*High Value Rare Loot*\nRare tablet found next to Ren Yun the Blind statue, at the very top of Mt. Neverest. Careful going up/down the mountain, you may want to dismount to better control your ascent/descent.|RANK|3|
-C Staying Connected|QID|30795|CHAT|M|51.94,47.44|N|Talk to Mishi for a flight to Valley of the Emperors (make sure you are NOT mounted first).\nWhen you arrive at Valley of Emperors, use The Tongue of Ba-Shon to call the Image of Lorewalker Cho.|
+C Staying Connected|QID|30795|CHAT|M|51.94,47.44|N|Talk to Mishi for a flight to Valley of the Emperors (make sure you are NOT mounted first).\nWhen you arrive at Valley of Emperors, use The Tongue of Ba-Shon to call the Image of Lorewalker Cho.|U|81712|
 T Staying Connected|QID|30795|U|81712|M|57.93,48.98|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 A An End to Everything|QID|30796|PRE|30795|M|51.94,47.44|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
 C An End to Everything|QID|30796|M|57.34,47.17|S|N|Kill the Tormented Spirits from around the square.|
@@ -399,10 +399,10 @@ C No Pack Left Behind|QID|30600|US|M|53.35,74.45|
 C Breaking Broketooth|QID|30604|US|M|55.44,70.84|
 T A Monkey Idol|QID|30599|M|51.97,67.21|N|To Brother Rabbitsfoot.|
 T No Pack Left Behind|QID|30600|M|51.97,67.21|N|To Brother Rabbitsfoot.|
-A Bros Before Hozen|QID|30605|PRE|30599&30600|M|51.97,67.21|N|From Brother Rabbitsfoot.|
+A Lucky Yakshoe|QID|30605|PRE|30599&30600|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 T Breaking Broketooth|QID|30604|M|51.97,67.21|N|To Brother Rabbitsfoot.|
-C Bros Before Hozen|QID|30605|NC|M|50.53,64.21|N|Brother Yakshoe is on top of a little hill on the edge of Knucklethump Hole.Path up the hill can be found to the east.|
-T Bros Before Hozen|QID|30605|M|50.60,64.08|N|To Brother Yakshoe.|
+C Lucky Yakshoe|QID|30605|NC|M|50.53,64.21|N|Brother Yakshoe is on top of a little hill on the edge of Knucklethump Hole.Path up the hill can be found to the east.|
+T Lucky Yakshoe|QID|30605|M|50.60,64.08|N|To Brother Yakshoe.|
 A Hozen Love Their Keys|QID|30607|PRE|30605|M|50.60,64.08|N|From Brother Yakshoe.|
 A The Snackrifice|QID|30608|PRE|30605|M|50.60,64.08|N|From Brother Yakshoe.|
 A Thumping Knucklethump|QID|30606|PRE|30605|M|50.60,64.08|N|From Brother Yakshoe.|

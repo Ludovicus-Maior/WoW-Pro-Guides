@@ -3,7 +3,7 @@ WoWPro:TimerunningSeasonID(guide,1)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "TR_Krasarang Wilds")
 WoWPro:GuideName(guide,"TR_Krasarang Wilds")
-WoWPro:GuideNextGuide(guide, 'Kun-Lai Summit')
+WoWPro:GuideNextGuide(guide, 'TR_Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
 F Zhu's Watch|QID|30080|M|76.72,8.43|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
@@ -198,7 +198,7 @@ f Sentinel Basecamp|QID|30356|M|25.14,33.46|N|At Maylen Moonfeather.|
 A Re-Reclaim|QID|30355|PRE|30363^30465|M|25.20,34.53|N|From Kang Bramblestaff.|
 C Re-Reclaim|QID|30355|S|NC|M|23.43,45.24|N|Pick up the sparkly artifacts from the ground.|
 C No Sister Left Behind|QID|30354|S|NC|M|23.49,45.07|N|Click on the sentinals to free them from the traps.|
-C Sever Their Supply Line|QID|30356|M|23.70,42.04|N|To maximimze efficiency, try to kill the ones that are beside trapped horde people or ground spawns you need to pick up.|
+C Sever Their Supply Line|QID|30356|M|23.70,42.04|N|To maximimze efficiency, try to kill the ones that are beside trapped alliance people or ground spawns you need to pick up.|
 C Re-Reclaim|QID|30355|US|NC|M|23.43,45.24|N|Pick up the sparkly artifacts from the ground.|
 C No Sister Left Behind|QID|30354|US|NC|M|23.49,45.07|N|Click on the sentinals to free them from the traps.|
 T Re-Reclaim|QID|30355|M|25.20,34.53|N|To Kang Bramblestaff.|
@@ -208,7 +208,7 @@ A The Mantid|QID|30361|PRE|30354&30355&30356|M|24.88,34.37|N|From Ambassador Han
 C The Mantid|QID|30361|S|M|14.44,35.46|
 A The Stoneplow Convoy|QID|30357|PRE|30354&30355&30356|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
 C The Stoneplow Convoy|QID|30357|NC|U|79163|M|15.62,34.96|N|Use the poultices to heal the envoys.|
-C The Mantid|QID|30361|S|M|14.44,35.46|
+C The Mantid|QID|30361|US|M|14.44,35.46|
 T The Mantid|QID|30361|M|15.69,39.71|N|To Ambassador Len.|
 T The Stoneplow Convoy|QID|30357|M|15.09,39.42|N|To Lorekeeper Vaeldrin.|
 A The Lord Reclaimer|QID|30359|PRE|30357&30361|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
