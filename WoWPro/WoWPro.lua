@@ -941,7 +941,7 @@ end
 function WoWPro.ShowGuideMenu()
     WoWPro.BuildGuideInMenuList()
     local menuFrame = _G.CreateFrame("Frame", "WoWPro_Guides", _G.UIParent, "UIDropDownMenuTemplate")
-    menuFrame:SetPoint("Center", _G.UIParent, "Center")
+    menuFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
     _G.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
 end
 
@@ -1115,7 +1115,7 @@ function WoWPro:GuideClassSpecific(guide,class)
         return -- Allow developers to check everything, if they want
     end
     if engClass ~= class then
-        WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't match", guide.GID)
+        WoWPro:UnRegisterGuide(guide,("Guide %s is class specific and you don't match"):format(guide.GID))
     end
 end
 
