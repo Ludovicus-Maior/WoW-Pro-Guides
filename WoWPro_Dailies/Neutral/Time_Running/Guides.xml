@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="TR_Cloud.lua"/>
+  <Script file="TR_Celestials.lua"/>
+  <Script file="TR_ShadoPan.lua"/>
+  <Script file="TR_Lotus.lua"/>
+  <Script file="TR_Anglers.lua"/>
+  <Script file="TR_Timeless.lua"/>
+  <Script file="TR_Klaxxi.lua"/>
+  <Script file="TR_SkyRace.lua"/>
+</Ui>

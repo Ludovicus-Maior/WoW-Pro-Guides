@@ -14,3 +14,6 @@ WoWPro_Dailies_GuideList.lua
 Alliance\Guides.xml
 Horde\Guides.xml
 Neutral\Guides.xml
+Alliance\Time_Running\Guides.xml
+Horde\Time_Running\Guides.xml
+Neutral\Time_Running\Guides.xml

@@ -1,0 +1,4 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+   <Script file="TR_ShieldWall.lua"/>
+   <Script file="TR_Thunder.lua"/>
+</Ui>

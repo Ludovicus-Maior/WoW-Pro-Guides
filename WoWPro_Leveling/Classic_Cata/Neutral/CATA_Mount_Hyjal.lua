@@ -291,7 +291,8 @@ A An Ancient Reborn|QID|25807|PRE|25795|M|44.41,46.24|N|From Choluna.|
 C An Ancient Reborn|QID|25807|NC|U|56016|M|44.34,47.89|N|Go up the ramp to your right, into a small room where you will find Aviana's Egg. Use the Herald's Incense near the egg to resurrect Aviana.|
 T An Ancient Reborn|QID|25807|M|44.34,47.89|N|To Aviana.|
 A The Hatchery Must Burn|QID|25810|PRE|25807|RANK|2|M|44.09,46.01|N|From Morthis Whisperwing.|
-A The Last Living Lorekeeper|QID|25830|PRE|25807|M|43.80,45.95|N|From Vision of Ysera.|
+A The Last Living Lorekeeper|QID|25830|PRE|25520&25807&25382&25491&29066&25502&25611|M|43.80,45.95|N|From Vision of Ysera.|FACTION|Alliance|
+A The Last Living Lorekeeper|QID|25830|PRE|25520&25807&25382&25491&29066&25502&25612|M|43.80,45.95|N|From Vision of Ysera.|FACTION|HORDE|
 F Firelands Hatchery|QID|25810|M|39.20,58.23|N|Fly down to The Flamewake. Enter the large portal in the center.|
 T The Hatchery Must Burn|QID|25810|RANK|2|M|37.23,56.22|N|To Farden Talonshrike.|
 A Flight in the Firelands|QID|25523|PRE|25810|RANK|2|M|37.23,56.22|N|From Farden Talonshrike.|
