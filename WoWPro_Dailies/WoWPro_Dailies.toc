@@ -11,9 +11,9 @@ WoWPro_Dailies.lua
 WoWPro_Dailies_Parser.lua
 WoWPro_Dailies_Config.lua
 WoWPro_Dailies_GuideList.lua
-Alliance\Guides.xml
-Horde\Guides.xml
-Neutral\Guides.xml
-Alliance\Time_Running\Guides.xml
-Horde\Time_Running\Guides.xml
-Neutral\Time_Running\Guides.xml
+Retail\Alliance\Guides.xml
+Retail\Horde\Guides.xml
+Retail\Neutral\Guides.xml
+Retail\Alliance\Time_Running\Guides.xml
+Retail\Horde\Time_Running\Guides.xml
+Retail\Neutral\Time_Running\Guides.xml
