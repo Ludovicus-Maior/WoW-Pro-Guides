@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-local guide = WoWPro:RegisterGuide("BlancLeather_CLASSIC", "Profession", "Leatherworking_Classic", "WoWPro Team", "Neutral", 1)
+local guide = WoWPro:RegisterGuide("Leatherworking", "Profession", "Leatherworking", "WoWPro Team", "Neutral", 1)
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Leatherworking Classic")
+WoWPro:GuideName(guide, "Leatherworking")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
