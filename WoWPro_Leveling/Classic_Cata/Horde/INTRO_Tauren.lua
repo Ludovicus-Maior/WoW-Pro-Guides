@@ -73,7 +73,7 @@ T Primal Strike|QID|27027|M|45.11,75.09|Z|1412; Mulgore|N|To Meela Dawnstrider.|
 A Simple Note|QID|3091|M|46.18,82.41|Z|1412; Mulgore|N|From Rohaku Stonehoof.|C|Warrior|R|Tauren|
 T Simple Note|QID|3091|M|45.04,75.58|Z|1412; Mulgore|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
 A The First Lesson|QID|27020|M|45.04,75.58|Z|1412; Mulgore|N|From Harutt Thunderhorn.|C|Warrior|R|Tauren|
-= Charge|ACTIVE|27020|QO|2|M|45.04,75.58|Z|1412; Mulgore|N|Learn Charge from Harutt Thunderhorn.|SPELL|Charge;100|R|Dwarf|C|Warrior|R|Tauren|
+= Charge|ACTIVE|27020|QO|2|M|45.04,75.58|Z|1412; Mulgore|N|Learn Charge from Harutt Thunderhorn.|SPELL|Charge;100|C|Warrior|R|Tauren|
 C The First Lesson|QID|27020|QO|1|M|45.40,75.53|Z|1412; Mulgore|N|Target the Wounded Brave and cast Rejuvenation on them.|C|Warrior|R|Tauren|
 T The First Lesson|QID|27020|M|45.06,75.52|Z|1412; Mulgore|N|To Harutt Thunderhorn.|C|Warrior|R|Tauren|
 

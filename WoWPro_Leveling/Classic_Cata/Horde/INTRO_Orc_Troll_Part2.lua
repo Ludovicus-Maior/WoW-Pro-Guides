@@ -80,7 +80,7 @@ C The Burning Blade|QID|25232|M|52.82,41.53;54.13,40.73;54.55,38.59;53.57,36.02;
 T The Burning Blade|QID|25232|M|52.26,43.05|N|To Orgnil Soulscar. Go straight and jump down!|
 A The Dranosh'ar Blockade|QID|25196|PRE|25232|M|52.26,43.05|N|From Orgnil Soulscar.|
 
-T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|N|To Thonk on top of the guard tower.|
+T Thonk|QID|25227|M|50.92,42.26;49.58,40.16|CS|N|To Thonk on top of the guard tower.|
 
 A Lost in the Floods|QID|25187|PRE|25227|M|49.58,40.16|N|From Thonk.|
 C Lost in the Floods|QID|25187|U|52514|M|49.54,40.38|N|Use Thonk's Spyglass four times to search for survivors.|
@@ -89,7 +89,7 @@ A Watershed Patrol|QID|25188|PRE|25187|RANK|2|M|49.56,40.22|N|From Thonk.|
 
 L Level 9|QID|25188|LVL|9|N|You should be around level 9 by this point.|
 
-A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|N|From Raggaran. Avoid the Razormane, you need to kill them later.|
+A Raggaran's Rage|QID|25190|RANK|2|M|45.51,44.38;42.67,49.86|CS|N|From Raggaran. Avoid the Razormane, you need to kill them later.|
 C Raggaran's Rage|QID|25190|M|43.88,49.01|N|Kill 4 Razormane Quilboar and 4 Razormane Scouts.|
 T Raggaran's Rage|QID|25190|M|42.73,49.85|N|To Raggaran.|
 A Raggaran's Fury|QID|25192|PRE|25190|RANK|2|M|42.73,49.85|N|From Raggaran.|
@@ -164,10 +164,10 @@ C Skull Rock|QID|25262|M|55.03,10.95;53.42,10.20|CS|Z|Durotar|N|Gather 6 Searing
 T Skull Rock|QID|25262|M|56.41,20.05|Z|Durotar|N|To Margoz.|
 A Neeru Fireblade|QID|25263|PRE|25262|M|56.41,20.05|Z|Durotar|N|From Margoz.|
 
-T Neeru Fireblade|QID|25263|M|49.93,59.15|Z|Cleft of Shadow|N|To Neeru Fireblade, in the Cleft of Shadow.|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
+T Neeru Fireblade|QID|25263|M|49.93,59.15|Z|Orgrimmar|N|Bring an Example Collar to Neeru Fireblade in Orgrimmar.|
 A Ak'Zeloth|QID|25264|PRE|25263|M|58.50,54.34|Z|Orgrimmar|N|If you plan on going to Northern Barrens next. From Neeru Fireblade.|
 
-h Valley of Wisdom|QID|25263|M|39.03,48.57|N|At Miwana.|N|You can choose another Inn in Org if it makes more sense.|
+h Valley of Wisdom|QID|25263|M|39.03,48.57|N|At Miwana.|
 A Warchief's Command: Northern Barrens!|QID|28494|M|66.42,49.28|Z|Orgrimmar|N|If you plan on going to Northern Barrens next.|
 T Beyond Durotar|QID|25648|M|26.84,77.00|Z|Azshara|N|Outside Orgrimmar's rear gate in Azshara. To Ag'tor Bloodfist.|
 ]]
