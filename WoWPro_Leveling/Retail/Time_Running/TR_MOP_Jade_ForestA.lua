@@ -379,7 +379,7 @@ A A Courteous Guest|QID|29619|PRE|29618|M|45.01,24.93|N|From Lin Tenderpaw.|
 C A Courteous Guest|QID|29619|M|45.81,27.50|N|From the ground or kill sprites.|
 T A Courteous Guest|QID|29619|M|45.01,24.99|N|To Lin Tenderpaw, back up the stairs.|
 A The Great Banquet|QID|29620|PRE|29619|M|45.01,24.99|N|From Lin Tenderpaw.|
-f Banquet Grounds|QID|29620|M|43.52,24.55|N|At Studious Chu.|
+f Tian Monastery|QID|29620|M|43.52,24.55|N|At Studious Chu.|
 C The Great Banquet|QID|29620|CHAT|M|42.74,23.17|
 T The Great Banquet|QID|29620|M|42.74,23.17|N|To High Elder Cloudfall.|
 A Your Training Starts Now|QID|29622|PRE|29620|M|43.13,23.63|N|From Xiao.|
@@ -396,7 +396,7 @@ A A Proper Weapon|QID|29627|PRE|29626|M|41.6,23.7|N|From Groundskeeper Wu.|
 C A Proper Weapon|QID|29627|QO|1|NC|S|N|Gather the sparkling bamboos scattered around.|
 B A Proper Weapon|QID|29627|QO|2|L|72954 1|M|41.4,24.18|N|From June Whiteblossom.|
 B A Proper Weapon|QID|29627|QO|3|L|72979 3|M|41.77,24.66|N|From Brewmaster Lei Kanglei.|
-C A Proper Weapon|QID|29627|QO|1|NC|L|72926 6|US|N|Gather the sparkling bamboos scattered around.|
+C A Proper Weapon|QID|29627|QO|1|NC|US|N|Gather the sparkling bamboos scattered around.|
 T A Proper Weapon|QID|29627|US|M|41.59,23.66|N|To Groundskeeper Wu.|
 A A Strong Back|QID|29628|PRE|29627|M|41.59,23.66|N|From Groundskeeper Wu.|
 A A Steady Hand|QID|29629|PRE|29627|M|41.59,23.66|N|From Groundskeeper Wu.|
