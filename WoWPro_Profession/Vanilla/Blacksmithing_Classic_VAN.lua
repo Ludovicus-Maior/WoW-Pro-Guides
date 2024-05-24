@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-local guide = WoWPro:RegisterGuide("BlancBSM_Classic","Profession","Blacksmithing_Classic", "WoWPro Team", "Neutral",1)
+local guide = WoWPro:RegisterGuide("Blacksmithing","Profession","Blacksmithing", "WoWPro Team", "Neutral",1)
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Blacksmithing_Classic")
+WoWPro:GuideName(guide, "Blacksmithing")
 WoWPro:GuideNickname(guide, "BSM_Classic")
 WoWPro:GuideSteps(guide, function()
 return [[

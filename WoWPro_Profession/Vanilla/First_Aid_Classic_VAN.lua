@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
-local guide = WoWPro:RegisterGuide("FirstAid_Cliassic_VAN", "Profession", "First Aid", "WoWPro Team", "Neutral", 1)
+local guide = WoWPro:RegisterGuide("First Aid", "Profession", "First Aid", "WoWPro Team", "Neutral", 1)
 WoWPro:GuideIcon(guide,"PRO",129)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "First Aid Classic")
+WoWPro:GuideName(guide, "First Aid")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Guide structures:
