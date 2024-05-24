@@ -584,6 +584,11 @@ function WoWPro:OnEnable()
         WoWPro.Guides[gid] = nil
     end
 
+    for gid, guide in pairs(WoWPro.Guides) do
+        if  WoWPro[guide.guidetype].RegisterGuide then
+            WoWPro[guide.guidetype]:RegisterGuide(guide)
+        end
+    end
 
 
     -- Set up the Nickname -> Guide map.
@@ -920,17 +925,11 @@ end
 function WoWPro.BuildGuideInMenuList()
     WoWPro.GuideMenuList = {}
     for gid, guide in pairs(WoWPro.Guides) do
-        if  WoWPro[guide.guidetype].RegisterGuide then
-            WoWPro[guide.guidetype]:RegisterGuide(guide)
-        end
         WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
     end
     for _, gid in ipairs(WoWProCharDB.GuideStack) do
         local guide = WoWPro.Guides[gid]
         if guide then
-            if  WoWPro[guide.guidetype].RegisterGuide then
-                    WoWPro[guide.guidetype]:RegisterGuide(guide)
-                end
             WoWPro.RegisterGuideInMenuList("recent guides", guide.guidetype,  guide.name or "??", gid)
         end
     end
