@@ -1,21 +1,9 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/profession_blacksmithing
--- Date: 2011-07-13 22:43
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3409/revisions/24642/view
--- Date: 2011-06-30 06:05
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3409/revisions/24634/view
--- Date: 2011-06-30 05:50
--- Who: Crackerhead22
-
-WoWPro.Profession:RegisterGuide('TwiBlacksmithing', 'Blacksmithing', 'Blacksmithing', 'Twists', '0', ' ', nil, 'Neutral', function()
+local guide = WoWPro:RegisterGuide("BlancBSM_Cata","Profession","Blacksmithing_Cata", "WoWPro Team", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",164)
+WoWPro:GuideLevels(guide)
+WoWPro:GuideName(guide, "Blacksmithing_Cataclysm")
+WoWPro:GuideNickname(guide, "BSM_Cata")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn Apprentice Blacksmithing|QID|901640000|N|Learn from a trainer in any major city. You must be level 5.|P|Blacksmithing;0;;75|

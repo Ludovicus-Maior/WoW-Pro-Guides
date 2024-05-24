@@ -1,17 +1,11 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/profession_first_aid
--- Date: 2011-06-30 06:05
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3410/revisions/24635/view
--- Date: 2011-06-30 05:56
--- Who: Crackerhead22
-
-WoWPro.Profession:RegisterGuide('TwiFirstAid', 'First Aid', 'First Aid', 'Twists', '0', ' ', nil, 'Neutral', function()
+-- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
+-- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
+local guide = WoWPro:RegisterGuide("First Aid", "Profession", "First Aid", "WoWPro Team", "Neutral", 1)
+WoWPro:GuideIcon(guide,"PRO",129)
+WoWPro:GuideLevels(guide)
+WoWPro:GuideName(guide, "First Aid")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn Apprentice First Aid|QID|901290000|N|Learn from a trainer in any major city.|P|First Aid;0;;75|

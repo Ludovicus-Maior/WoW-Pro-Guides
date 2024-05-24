@@ -1,22 +1,12 @@
-
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/profession_inscription
--- Date: 2011-07-13 22:46
--- Who: Ludovicus Maior
--- Log: Sync to GitHub
-
--- URL: http://wow-pro.com/node/3411/revisions/24644/view
--- Date: 2011-06-30 06:06
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3411/revisions/24636/view
--- Date: 2011-06-30 05:56
--- Who: Crackerhead22
-
-WoWPro.Profession:RegisterGuide('TwiInscription', 'Inscription', 'Inscription', 'Twists', '0', ' ', nil, 'Neutral', function()
+-- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
+-- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
+local guide = WoWPro:RegisterGuide("BlancScribe_Cata","Profession","Inscription_Cata", "WoWPro Team", "Neutral")
+WoWPro:GuideIcon(guide,"PRO",773)
+WoWPro:GuideLevels(guide)
+WoWPro:GuideName(guide, "Inscription_Cataclysm")
+WoWPro:GuideNickname(guide, "Scribe_Cata")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Learn Apprentice Scribe|QID|907730000|N|Learn from a trainer in any major city. You must be level 5.|P|Inscription;0;;75|
