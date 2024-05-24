@@ -12,6 +12,6 @@ WoWPro_Leveling_Parser.lua
 WoWPro_Leveling_Config.lua
 WoWPro_Leveling_GuideList.lua
 WoWPro_Leveling_Frames.lua
-Classic_Cata\Alliance\Guides.xml
-Classic_Cata\Neutral\Guides.xml
-Classic_Cata\Horde\Guides.xml
+Cata\Alliance\Guides.xml
+Cata\Neutral\Guides.xml
+Cata\Horde\Guides.xml
