@@ -204,3 +204,31 @@ function WoWPro.GetItemCooldown(itemID)
         return unpack({_G.C_Container.GetItemCooldown(itemID)})
     end
 end
+
+--[[C_Reputation.GetFactionDataByID]]
+function WoWPro.C_Reputation_GetFactionDataByID(factionID)
+    if WoWPro.RETAIL then
+        return _G.C_Reputation.GetFactionDataByID(factionID)
+    else
+        name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, factionID, hasBonusRepGain, canBeLFGBonus = GetFactionInfoByID(factionID)
+        return {
+            hasBonusRepGain = hasBonusRepGain,
+            description = description,
+            -- isHeaderWithRep
+            -- isHeaderCurrentReactionThreshold
+            -- canSetInactive
+            atWarWith = atWarWith,
+            isWatched = isWatched,
+            isCollapsed = isCollapsed,
+            canToggleAtWar = canToggleAtWar,
+            nextReactionThreshold,
+            factionID = factionID,
+            name = name,
+            currentStanding,
+            isAccountWide,
+            isChild = isChild,
+            -- reaction
+        }
+    end
+end
+
