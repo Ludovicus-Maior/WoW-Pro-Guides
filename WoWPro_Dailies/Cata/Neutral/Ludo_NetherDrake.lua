@@ -1,18 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/neutral_netherdrake
--- Date: 2012-01-18 23:30
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3455/revisions/24893/view
--- Date: 2012-01-18 23:29
--- Who: Ludovicus Maior
--- Log: Initial Version
-
-WoWPro.Dailies:RegisterGuide("LudoDrake", "Shadowmoon Valley", "Netherwing", "BC", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoDrake",'Dailies', "Shadowmoon Valley", "Ludovicus", "Neutral", 4)
+WoWPro:GuideLevels(guide,70,70,70)
+WoWPro.Dailies:GuideFaction(guide,1015) --  "Netherwing"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N The next few quests|QID|10804|N|Require you to be level 70 and have a flying mount.|

@@ -1,9 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-WoWPro.Dailies:RegisterGuide("LudoDalCook", "Dalaran", "Dalaran Cooking", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoDalCook",'Dailies', "Dalaran", "Ludovicus", "Neutral", 4)
+WoWPro:GuideLevels(guide,10,10,10)
+WoWPro.Dailies:GuideNameAndCategory(guide,"Dalaran Cooking", "Professions")
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A One of Five|QID|13103;13101;13100;13107;13102|FACTION|Alliance|M|40.4,65.8|N|From Katherine Lee.|

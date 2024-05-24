@@ -1,10 +1,14 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-WoWPro.Dailies:RegisterGuide("LudoArgTour", "Icecrown", "Argent Tournament", "Lich", "Ludovicus", "Alliance", function()
+local guide = WoWPro:RegisterGuide("LudoArgTour",'Dailies', "Icecrown", "Ludovicus", "Alliance", 4)
+WoWPro:GuideLevels(guide ,25,60)
+WoWPro.Dailies:GuideFaction(guide,1094) --  "Argent Tournament"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N The Argent Tournament|N|Quests for the The Argent Tournament, for your faction, and MAYBE for the others too!|
 ; Setup Quests
 A The Argent Tournament|QID|13667|M|69.6,22.8|N|From Justicar Mariel Trueheart.|

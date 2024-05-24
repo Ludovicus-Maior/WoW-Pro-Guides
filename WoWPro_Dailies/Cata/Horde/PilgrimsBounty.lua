@@ -1,20 +1,15 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/pilgrimsbountydalies_alliance_and_horde
--- Date: 2012-01-19 00:02
--- Who: Ludovicus Maior
--- Log: Correct node numbers
-
--- URL: http://wow-pro.com/node/3456/revisions/24896/view
--- Date: 2012-01-19 00:00
--- Who: Ludovicus Maior
--- Log: Sync to GIT
-
-WoWPro.Dailies:RegisterGuide("LudoPilgrimDailiesH","Pilgrim's Bounty","Pilgrim's Bounty","WE", "Ludovicus", "Horde", function()
+local guide = WoWPro:RegisterGuide("LudoPilgrimDailiesH",'Dailies',"Pilgrim's Bounty", "Ludovicus", "Horde", 4)
+WoWPro:GuideLevels(guide ,1,60)
+WoWPro.Dailies:GuideNameAndCategory(guide,"Pilgrim's Bounty", "Holidays")
+WoWPro:GuideIcon(guide,"ACH",3597)
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Pilgrim's Bounty Start|N|Get thee to Orgrimmar city gates..|
 A Can't Get Enough Turkey|QID|14061|M|46.37,13.85|Z|Durotar|N|From Ondani Greatmill, near Orgrimmar city gates.|
 A Don't Forget The Stuffing!|QID|14062|M|46.37,13.85|Z|Durotar|N|From Ondani Greatmill, near Orgrimmar city gates.|

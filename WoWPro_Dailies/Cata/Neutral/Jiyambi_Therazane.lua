@@ -1,23 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
--- Date: 2012-05-27 18:40
--- Who: Ludovicus Maior
--- Log: Added REP tags, a few coord fixes and redirected a quest to the right NPC.
-
--- URL: http://wow-pro.com/node/3419/revisions/24678/view
--- Date: 2011-07-11 22:39
--- Who: Ludovicus Maior
--- Log: Removing REP tag.
-
--- URL: http://wow-pro.com/node/3419/revisions/24651/view
--- Date: 2011-06-30 19:13
--- Who: Ludovicus Maior
-
-WoWPro.Dailies:RegisterGuide("JiyDeeTher", "Deepholm", "Therazane Reputation", "Cata", "Jiyambi", "Neutral", function()
+local guide = WoWPro:RegisterGuide("JiyDeeTher",'Dailies', "Deepholm", "Jiyambi", "Neutral", 4)
+WoWPro:GuideLevels(guide,81,81,81)
+WoWPro.Dailies:GuideFaction(guide,1171) --  "Therazane Reputation"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Deepholm Quests|QID|26709|N|You must have completed the quests in Deepholm in order to unlock these dailies. The best way to get this done is to use the WoW-Pro Leveling guide for Deepholm.|

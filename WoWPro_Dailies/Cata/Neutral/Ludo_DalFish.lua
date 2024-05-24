@@ -1,10 +1,14 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-WoWPro.Dailies:RegisterGuide("LudoDalFish", "Dalaran", "Dalaran Fishing", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoDalFish",'Dailies', "Dalaran City@Dalaran", "Ludovicus", "Neutral", 4)
+WoWPro:GuideLevels(guide,10,10,10)
+WoWPro.Dailies:GuideNameAndCategory(guide,"Dalaran Fishing", "Professions")
+WoWPro:GuideSteps(guide, function()
 return [[
+
 
 A One of Five|QID|13832;13833;13834;13836|M|52.6,64.8|N|From Marcia Chase|
 

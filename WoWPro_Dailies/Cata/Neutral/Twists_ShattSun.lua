@@ -1,20 +1,13 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/neutral_shattered_sun_dailies
--- Date: 2012-05-18 20:15
--- Who: Ludovicus Maior
--- Log: Fixed inner links for edit and comments.
-
--- URL: http://wow-pro.com/node/3470/revisions/24956/view
--- Date: 2012-02-14 00:58
--- Who: Ludovicus Maior
-
-WoWPro.Dailies:RegisterGuide("TwiShattSun", "Isle of Quel'Danas", "Shattered Sun Offensive", "BC", "Twists", "Neutral", function()
+local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "Twists", "Neutral", 4)
+WoWPro:GuideLevels(guide,70,70,70)
+WoWPro.Dailies:GuideFaction(guide,1077) --  "Shattered Sun Offensive"
+WoWPro:GuideSteps(guide, function()
 return [[
-
 N State of the Realm|N|This guide assumes that all of the Shattered Sun Offensive are in the final phase.  If you are on a new server, this guide will not do.|
 
 A Enter, the Deceiver...|QID|11550|LEAD|11526|M|53.60,43.67|Z|Shattrath City|O|N|From General Tiras'alan|

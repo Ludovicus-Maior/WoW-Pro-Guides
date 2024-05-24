@@ -1,75 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/neutral_firelands_invasion_daily_guide
--- Date: 2012-06-30 20:52
--- Who: Ludovicus Maior
--- Log: Relocate [Well Armed] and [Aid of the Ancients] for better quest flow.
-
--- URL: http://wow-pro.com/node/3469/revisions/25004/view
--- Date: 2012-06-08 14:22
--- Who: Ludovicus Maior
--- Log: Got rid of unneeded |O| tags and warnings.
---	Nonlinear quest unlocks have been working reliably.
-
--- URL: http://wow-pro.com/node/3469/revisions/24999/view
--- Date: 2012-05-27 22:59
--- Who: Ludovicus Maior
--- Log: Edits to guide having played it to the Shadow Wardens fork.
-
--- URL: http://wow-pro.com/node/3469/revisions/24977/view
--- Date: 2012-05-19 01:16
--- Who: Ludovicus Maior
--- Log: Fixed Links....
-
--- URL: http://wow-pro.com/node/3469/revisions/24961/view
--- Date: 2012-02-16 12:57
--- Who: Estelyen
--- Log: Forgot an ACH tag, added now
-
--- URL: http://wow-pro.com/node/3469/revisions/24960/view
--- Date: 2012-02-15 12:28
--- Who: Estelyen
-
--- URL: http://wow-pro.com/node/3469/revisions/24959/view
--- Date: 2012-02-15 12:18
--- Who: Estelyen
-
--- URL: http://wow-pro.com/node/3469/revisions/24958/view
--- Date: 2012-02-15 12:02
--- Who: Estelyen
--- Log: Fixed a sticky step not being unstickied
-
--- URL: http://wow-pro.com/node/3469/revisions/24957/view
--- Date: 2012-02-15 11:33
--- Who: Estelyen
--- Log: Final revision with last additions before a complete test from step 1 with a new char commences.
-
--- URL: http://wow-pro.com/node/3469/revisions/24953/view
--- Date: 2012-02-13 21:36
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3469/revisions/24952/view
--- Date: 2012-02-13 20:42
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3469/revisions/24951/view
--- Date: 2012-02-13 20:40
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3469/revisions/24950/view
--- Date: 2012-02-13 10:50
--- Who: Estelyen
--- Log: -Updated version (though still work in progress)
---	-Unrelated quests removed
-
--- URL: http://wow-pro.com/node/3469/revisions/24948/view
--- Date: 2012-02-13 01:00
--- Who: Ludovicus Maior
-
-WoWPro.Dailies:RegisterGuide("EstFirelands", "Mount Hyjal", "Firelands Invasion", "Cata", "Estelyen", "Neutral", function()
+local guide = WoWPro:RegisterGuide("EstFirelands",'Dailies', "Mount Hyjal", "Estelyen", "Neutral", 4)
+WoWPro:GuideLevels(guide,85,85,85)
+WoWPro.Dailies:GuideFaction(guide,1158) --  "Firelands Invasion, Guardians of Hyjal"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Guardians of Hyjal: Firelands Invasion!|QID|29388|FACTION|Horde|LEAD|29145|N|You need to have completed all the quests in Mount Hyjal up to Aessina's Miracle and be Level 85 to start the Firelands Invasion. If you fulfill these requirements, get this Quest from your nearest Warchief's Command Board.|Z|Orgrimmar|
