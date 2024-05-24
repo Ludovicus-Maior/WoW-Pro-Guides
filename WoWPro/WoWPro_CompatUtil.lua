@@ -232,3 +232,20 @@ function WoWPro.C_Reputation_GetFactionDataByID(factionID)
     end
 end
 
+--[[C_Spell.GetGetSpellInfo]]
+function WoWPro.C_Spell_GetSpellInfo(spellID)
+    if WoWPro.RETAIL then
+        return _G.C_Spell.GetSpellInfo(spellID)
+    else
+        name, rank, icon, castTime, minRange, maxRange, spellID, originalIcon = GetSpellInfo(spell)
+        return{
+           castTime = castTime,
+           name = name,
+           minRange = minRange,
+           originalIconID = originalIcon,
+           iconID = icon,
+           maxRange = maxRange,
+           spellID = spellID
+        }
+    end
+end
