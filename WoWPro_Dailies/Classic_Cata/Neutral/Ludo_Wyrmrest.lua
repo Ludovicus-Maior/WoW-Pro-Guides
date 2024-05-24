@@ -1,9 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-WoWPro.Dailies:RegisterGuide("LudoWyrmrest", "Borean Tundra", "The Wyrmrest Accord", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoWyrmrest",'Dailies', "Borean Tundra", "Ludovicus", "Neutral", "Cata")
+WoWPro:GuideLevels(guide,10,50)
+WoWPro.Dailies:GuideFaction(guide,1091) --  "The Wyrmrest Accord"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 F Transitus Shield|M|33.31,34.53|Z|Borean Tundra|

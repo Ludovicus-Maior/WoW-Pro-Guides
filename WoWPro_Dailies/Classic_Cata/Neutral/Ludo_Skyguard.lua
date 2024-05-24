@@ -1,19 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/skyguard_dalies
--- Date: 2012-01-19 00:04
--- Who: Ludovicus Maior
--- Log: Correct node numbers.
-
--- URL: http://wow-pro.com/node/3457/revisions/24898/view
--- Date: 2012-01-19 00:04
--- Who: Ludovicus Maior
--- Log: Sync to GIT
-
-WoWPro.Dailies:RegisterGuide("LudoSkyguard", "Terokkar Forest", "Sha'tari Skyguard", "BC", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoSkyguard",'Dailies', "Terokkar Forest", "Ludovicus", "Neutral", "Cata")
+WoWPro:GuideLevels(guide,70,70,70)
+WoWPro.Dailies:GuideFaction(guide,1031) --  "Sha'tari Skyguard"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Threat from Above|QID|11096|M|64,42|Z|Shattrath City|N|From Yuula in Shattrath City|

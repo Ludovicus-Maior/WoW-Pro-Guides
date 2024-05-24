@@ -1,27 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/anglers_reputation
--- Date: 2012-11-08 19:08
--- Who: Ludovicus Maior
--- Log: Coord Corrections.
-
--- URL: http://wow-pro.com/node/3509/revisions/25187/view
--- Date: 2012-11-08 17:44
--- Who: Ludovicus Maior
--- Log: OK, First complete draft.  Time to test!
-
--- URL: http://wow-pro.com/node/3509/revisions/25186/view
--- Date: 2012-11-08 15:42
--- Who: Ludovicus Maior
-
--- URL: http://wow-pro.com/node/3509/revisions/25120/view
--- Date: 2012-10-07 22:40
--- Who: Ludovicus Maior
-
-WoWPro.Dailies:RegisterGuide("LudoAnglers", "Krasarang Wilds", "The Anglers Reputation", "MoP", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoAnglers",'Dailies', "Krasarang Wilds", "Ludovicus", "Neutral", "Cata")
+WoWPro:GuideLevels(guide,35,35,35)
+WoWPro.Dailies:GuideFaction(guide,1302) --  "The Anglers Reputation"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Leadin quests, 'cause I'm OCD

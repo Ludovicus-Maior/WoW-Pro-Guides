@@ -1,20 +1,14 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
--- Date: 2012-09-25 00:23
--- Who: Ludovicus Maior
--- Log: Wrong separators in [Captain Grondel's Task]
-
--- URL: http://wow-pro.com/node/3479/revisions/24998/view
--- Date: 2012-05-27 22:30
--- Who: Ludovicus Maior
--- Log: INitial Versions
-
-WoWPro.Dailies:RegisterGuide("LudoArgDawn", "Eastern Plaguelands", "Argent Dawn", "BC", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoArgDawn",'Dailies', "Eastern Plaguelands", "Ludovicus", "Neutral", "Cata")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.Dailies:GuideFaction(guide,529) --  "Argent Dawn"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Argent Dawn|N|The Argent Dawn Reputation Dungeon quests.  Can be soloed repeatedly for a fast grind!|
 F Light's Hope Chapel|N|Fly to the chapel.|
 h Light's Hope Chapel|M|75.64,52.40|N|Set your hearth here to get out of the dungeons fast.|

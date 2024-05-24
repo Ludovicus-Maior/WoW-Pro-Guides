@@ -1,22 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
--- Date: 2011-12-29 02:26
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3416/revisions/24878/view
--- Date: 2011-12-29 02:25
--- Who: Crackerhead22
--- Log: Split Tol Barad Peninsula and Tol Barad guides.
-
--- URL: http://wow-pro.com/node/3416/revisions/24648/view
--- Date: 2011-06-30 19:05
--- Who: Ludovicus Maior
-
-WoWPro.Dailies:RegisterGuide("CraToBarPH", "Tol Barad Peninsula", "Tol Barad Peninsula Guide", "Cata", "Crackerhead22", "Horde", function()
+local guide = WoWPro:RegisterGuide("CraToBarPH",'Dailies', "Tol Barad Peninsula", "Crackerhead22", "Horde", "Cata")
+WoWPro:GuideLevels(guide ,35,60)
+WoWPro.Dailies:GuideFaction(guide,1178) --  "Hellscream's Reach"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Tol Barad Peninsula|M|47.41,39.3|Z|Orgimmar|N|Click on the Portal to Tol Barad in Orgimmar.|

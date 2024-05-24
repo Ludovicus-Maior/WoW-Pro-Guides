@@ -1,9 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-WoWPro.Dailies:RegisterGuide("LudoHodir", "The Storm Peaks", "The Sons of Hodir", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoHodir",'Dailies', "The Storm Peaks", "Ludovicus", "Neutral", "Cata")
+WoWPro:GuideLevels(guide,77,77,77)
+WoWPro.Dailies:GuideFaction(guide,1119) --  "The Sons of Hodir"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 A Hot and Cold|QID|12981|M|63.13,62.95|N|From Fjorn's Anvil|

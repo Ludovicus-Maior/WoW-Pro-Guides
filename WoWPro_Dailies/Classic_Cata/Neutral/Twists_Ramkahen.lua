@@ -1,9 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-WoWPro.Dailies:RegisterGuide("TwiUldRam", "Uldum", "Ramkahen Reputation", "Cata", "Twists", "Neutral", function()
+local guide = WoWPro:RegisterGuide("TwiUldRam",'Dailies', "Uldum", "Twists", "Neutral", "Cata")
+WoWPro:GuideLevels(guide,81,83,82)
+WoWPro.Dailies:GuideFaction(guide,1173) --  "Ramkahen Reputation"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Uldum Quests|QID|26709|N|You must have completed the quests in Uldum in order to unlock these dailies. The best way to get this done is to use the WoW-Pro Leveling guide for Uldum.|

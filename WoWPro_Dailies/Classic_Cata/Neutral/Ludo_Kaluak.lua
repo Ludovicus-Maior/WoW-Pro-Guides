@@ -1,10 +1,14 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-WoWPro.Dailies:RegisterGuide("LudoKaluak", "Northrend", "The Kalu'ak", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoKaluak",'Dailies', "Northrend", "Ludovicus", "Neutral", "Cata")
+WoWPro:GuideLevels(guide,68,71,69.3)
+WoWPro.Dailies:GuideFaction(guide,1073) --  "The Kalu'ak"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 
 A The Way to His Heart...|QID|11472|PRE|11469|M|24.6,58.86|Z|Howling Fjord|N|From Anuniaqin in Kamagua, Howling Fjord. (L69)|
 l The Way to His Heart...|QID|11472|M|27,71|Z|Howling Fjord|N|Use the net in the pools of Tasty Reef Fish. 10 is what you need.|U|40946|L|34127 10|

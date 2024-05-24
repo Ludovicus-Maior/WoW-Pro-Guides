@@ -1,20 +1,14 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/argent_crusade_and_argent_dawn_reputation_dalies
--- Date: 2012-09-25 00:23
--- Who: Ludovicus Maior
--- Log: Wrong separators in [Captain Grondel's Task]
-
--- URL: http://wow-pro.com/node/3479/revisions/24998/view
--- Date: 2012-05-27 22:30
--- Who: Ludovicus Maior
--- Log: INitial Versions
-
-WoWPro.Dailies:RegisterGuide("LudoArgCrusade", "Icecrown", "Argent Crusade", "Lich", "Ludovicus", "Neutral", function()
+local guide = WoWPro:RegisterGuide("LudoArgCrusade",'Dailies', "Icecrown", "Ludovicus", "Neutral", "Cata")
+WoWPro:GuideLevels(guide,74,77,74.2)
+WoWPro.Dailies:GuideFaction(guide,1106) --  "Argent Crusade"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Argent Crusade|N|The Argent Crusade Reputation Dalies.|
 
 A Slaves to Saronite|QID|13300|FACTION|Alliance|N|To Absalan the Pious. He patrols around on the Deck of the Skybreaker.|
