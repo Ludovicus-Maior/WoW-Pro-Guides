@@ -1,10 +1,14 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-WoWPro.Dailies:RegisterGuide("CraShoFre", "Sholazar Basin", "Frenzyheart Tribe", "WTLK", "Crackerhead22", "Neutral", function()
+local guide = WoWPro:RegisterGuide("CraShoFre",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral", 4)
+WoWPro:GuideLevels(guide,74,77,76.5)
+WoWPro.Dailies:GuideFaction(guide,1104) --  "Frenzyheart Tribe"
+WoWPro:GuideSteps(guide, function()
 return [[
+
 
 R Frenzyheart Hill|M|55.79,68.18|N|Head to Sholazar Basin and go to Frenzyheart Hill.|
 

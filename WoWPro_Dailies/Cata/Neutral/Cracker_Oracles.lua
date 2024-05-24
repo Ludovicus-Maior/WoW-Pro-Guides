@@ -1,18 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/neutral_oracles_reputation_dalies_sholazar_basin
--- Date: 2012-05-27 18:35
--- Who: Ludovicus Maior
--- Log: Fixed some coordinates.
-
--- URL: http://wow-pro.com/node/3418/revisions/24650/view
--- Date: 2011-06-30 19:10
--- Who: Ludovicus Maior
-
-WoWPro.Dailies:RegisterGuide("CraShoOra", "Sholazar Basin", "The Oracles Reputation", "WTLK", "Crackerhead22", "Neutral", function()
+local guide = WoWPro:RegisterGuide("CraShoOra",'Dailies', "Sholazar Basin", "Crackerhead22", "Neutral", 4)
+WoWPro:GuideLevels(guide,76,77,76.5)
+WoWPro.Dailies:GuideFaction(guide,1105) --  "The Oracles Reputation"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Rainspeaker Canopy|M|54.49,56.14|N|Head to Sholazar Basin and go to the Rainspeaker Canopy.|

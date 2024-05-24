@@ -1,33 +1,12 @@
 
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
--- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
--- Date: 2012-08-07 21:17
--- Who: Ludovicus Maior
--- Log: [Watch Out For Splinters!] with the bang!
-
--- URL: http://wow-pro.com/node/3414/revisions/24877/view
--- Date: 2011-12-29 02:21
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3414/revisions/24876/view
--- Date: 2011-12-29 02:19
--- Who: Crackerhead22
--- Log: Split Tol Barad Peninsula and Tol Barad into two guides.
-
--- URL: http://wow-pro.com/node/3414/revisions/24679/view
--- Date: 2011-07-11 22:47
--- Who: Ludovicus Maior
--- Log: Fix  C [Cursed Shackels] and coords for turnin on Sergeant Parker.
-
--- URL: http://wow-pro.com/node/3414/revisions/24646/view
--- Date: 2011-06-30 18:56
--- Who: Ludovicus Maior
--- Log: Initial Create
-
-WoWPro.Dailies:RegisterGuide("CraToBarPA", "Tol Barad Peninsula", "Tol Barad Peninsula Guide", "Cata", "Crackerhead22", "Alliance", function()
+local guide = WoWPro:RegisterGuide("CraToBarPA", "Dailies", "Tol Barad Peninsula", "Crackerhead22", "Alliance", 4)
+WoWPro:GuideLevels(guide ,35,60)
+WoWPro.Dailies:GuideFaction(guide,1177) --  "Tol Barad Guide"
+WoWPro:GuideSteps(guide, function()
 return [[
 
 R Tol Barad Peninsula|M|73.21,18.37|Z|Stormwind City|N|Click on the Portal to Tol Barad in Stormwind.|
