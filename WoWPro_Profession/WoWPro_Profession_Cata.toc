@@ -12,4 +12,4 @@ WoWPro_Profession.lua
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
 WoWPro_Profession_GuideList.lua
-Classic_Cata\Guides.xml
+Cata\Guides.xml
