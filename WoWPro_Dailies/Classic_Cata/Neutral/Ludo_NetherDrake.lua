@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoDrake",'Dailies', "Shadowmoon Valley", "Ludovicus", "Neutral", "Cata")
+local guide = WoWPro:RegisterGuide("LudoDrake",'Dailies', "Shadowmoon Valley", "Ludovicus", "Neutral", 4)
 WoWPro:GuideLevels(guide,70,70,70)
 WoWPro.Dailies:GuideFaction(guide,1015) --  "Netherwing"
 WoWPro:GuideSteps(guide, function()

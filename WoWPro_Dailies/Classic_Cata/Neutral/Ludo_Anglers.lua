@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoAnglers",'Dailies', "Krasarang Wilds", "Ludovicus", "Neutral", "Cata")
+local guide = WoWPro:RegisterGuide("LudoAnglers",'Dailies', "Krasarang Wilds", "Ludovicus", "Neutral", 4)
 WoWPro:GuideLevels(guide,35,35,35)
 WoWPro.Dailies:GuideFaction(guide,1302) --  "The Anglers Reputation"
 WoWPro:GuideSteps(guide, function()

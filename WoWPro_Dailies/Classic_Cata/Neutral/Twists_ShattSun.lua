@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "Twists", "Neutral", "Cata")
+local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "Twists", "Neutral", 4)
 WoWPro:GuideLevels(guide,70,70,70)
 WoWPro.Dailies:GuideFaction(guide,1077) --  "Shattered Sun Offensive"
 WoWPro:GuideSteps(guide, function()
