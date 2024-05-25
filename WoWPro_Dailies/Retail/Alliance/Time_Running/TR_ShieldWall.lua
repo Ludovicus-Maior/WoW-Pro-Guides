@@ -13,14 +13,14 @@ A A King Among Men|QID|32247|PRE|32246|M|84.0,58.8|N|From King Varian Wrynn.|
 C A King Among Men|QID|32247|M|79.64,25.04|QO|2|N|Varian will help to fight. Talk to Troteman.|
 C A King Among Men|QID|32247|M|80.43,17.52|QO|3|
 C A King Among Men|QID|32247|M|78.70,19.85|QO|1|N|Wander into the forest to kill any horde you need.|
-T A King Among Men|QID|32247|N|To King Varian Wynn, next to you.|; 300 Rep
-A Lion's Landing|QID|32109|PRE|32247|M|80.4,17.4|N|From 7th Legion Champion|
+T A King Among Men|QID|32247|M|PLAYER|N|To King Varian Wynn, next to you.|; 300 Rep
+A Lion's Landing|QID|32109|PRE|32247|M|PLAYER|N|From King Varian Wynn|
 T Lion's Landing|QID|32109|M|85.59,29.17|N|To Flare Launcher, and cutscene.|; 500 Rep
-A A Little Patience|QID|32248|PRE|32109|N|Automatically offered after cutscene.|
+A A Little Patience|QID|32248|PRE|32109|M|89.53,32.66|N|From Admiral Taylor.|
 f Lion's Landing|QID|32248|M|88.33,34.69|N|At Daggin Windbeard|
 
 ; The Man With a Thousand Faces
-A The Best Around|QID|32380|M|89.55,32.58|REP|Operation: Shieldwall;1376;friendly;950|N|From Admiral Taylor, a little after hitting Friendly|
+A The Best Around|QID|32380|M|89.55,32.58|N|From Admiral Taylor, a little after hitting Friendly|
 R Deeprun Tram|QID|32380|N|Head to Deeprun Tram in Stormwind.|
 R Bizmo's Brawlpub|QID|32380|M|52.50,33.01;52.25,51.25|Z|Deeprun Tram@DeeprunTram|CS|N|Look for the flashing red light in the tracks and head down the stairs.|
 C The Best Around|QID|32380|M|69.96,46.76|Z|Bizmo's Brawlpub@DeeprunTram|CHAT|N|Chat with Townsley|
@@ -34,9 +34,9 @@ A Stirred, Not Shaken|QID|32426|PRE|32381|M|69.96,46.76|Z|Bizmo's Brawlpub@Deepr
 T Stirred, Not Shaken|QID|32426|M|23.94,81.62|Z|Bizmo's Brawlpub@DeeprunTram|N|From Professor Kilt.|
 
 ; The Voice of Gods
-A He's In Deep|QID|32382|M|89.55,32.58|REP|Operation: Shieldwall;1376;friendly;5250|N|From Admiral Taylor, at the end of Friendly|
+A He's In Deep|QID|32382|M|89.55,32.58|N|From Admiral Taylor, at the end of Friendly|
 R Fire Camp Bataar|QID|32382|M|88.34,34.20|N|Talk to Fennie to get dropped off|
-U Grummle Disguise|QID|32382|U|92950|N|Put on the funny smelling disguise.|
+;U Grummle Disguise|QID|32382|U|92950|N|Put on the funny smelling disguise.|
 T He's In Deep|QID|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
 A Bugging Out|QID|32383|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|From Agent Connelly aka Cousin Goottooth|
 A He Won't Even Miss It|QID|32397|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|From Agent Connelly aka Cousin Goottooth|
@@ -48,8 +48,8 @@ T Bugging Out|QID|32383|PRE|32382|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Conn
 T He Won't Even Miss It|QID|32397|PRE|32383|M|59.19,84.26|Z|Kun-Lai Summit|N|To Agent Connelly aka Cousin Goottooth|
 
 ; Jaina's Hope
-A The Kirin Tor|QID|32331|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;3000|N|From Admiral Taylor, at the start of Honored|
-R The Purple Parlor|QID|32331|M|89.19,33.57|N|Go the the portal and click your way to the parlor.|
+A The Kirin Tor|QID|32331|M|89.55,32.58|N|From Admiral Taylor, at the start of Honored|
+R The Purple Parlor|ACTIVE|32331|M|89.19,33.57|N|Go the the portal and click your way to the parlor.|
 N The Kirin Tor|QID|32331|ACTIVE|32331|M|22.67,39.64|Z|Dalaran City@DalaranCity|N|Note that there is a portal behind you back to Lion's Landing after you are done.|
 T The Kirin Tor|QID|32331|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To Anduin Wrynn.|
 A The Fate of Dalaran|QID|32362|PRE|32331|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|From Anduin Wrynn.|
@@ -57,18 +57,18 @@ C The Fate of Dalaran|QID|32362|M|26.76,39.26|Z|Dalaran City@DalaranCity|N|Talk 
 T The Fate of Dalaran|QID|32362|M|25.76,39.02|Z|Dalaran City@DalaranCity|N|To Anduin Wrynn.|
 
 ; The Korune
-A To Mogujia|QID|32193|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;6500|N|From Admiral Taylor, at the middle of Honored|
+A To Mogujia|QID|32193|M|89.55,32.58|N|From Admiral Taylor, at the middle of Honored|
 R Mogujia|QID|32193|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T To Mogujia|QID|32193|M|59.8,76|Z|Kun-Lai Summit|N|To Brann Bronzebeard|
 A The Source of Korune Power|QID|32243|PRE|32193|M|59.81,76.04|Z|Kun-Lai Summit|N|From Hilda Hornswaggle|
 A Bad Blood|QID|32194|PRE|32193|M|59.98,75.34|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
 C Korune Artifacts|QID|32194|M|58.65,73.85;58.08,76.10|Z|Kun-Lai Summit|CN|N|Kill Silvermoon Runeseekers, Dominance Mages, or Dominance Knights.|
-K Korune Spellweaver|QID|32243|M|58.2,71.0|Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
+K Korune Spellweaver|QID|32243|QO|1|M|58.2,71.0|Z|Kun-Lai Summit|T|Korune Spellweaver|L|93190|
 T The Source of Korune Power|QID|32243|M|59.81,76.04|Z|Kun-Lai Summit|N|To Hilda Hornswaggle|
 T Bad Blood|QID|32194|M|59.98,75.34|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
 
 ; Heart of the Alliance
-A Anduin's Plea|QID|32315|M|89.55,32.58|REP|Operation: Shieldwall;1376;honored;11000|N|From Admiral Taylor, near the end of Honored|
+A Anduin's Plea|QID|32315|M|89.55,32.58|N|From Admiral Taylor, near the end of Honored|
 N Anduin's Plea|QID|32315|ACTIVE|32315|N|Do not leave the shrine, or you will lose the special phasing.|
 R Shrine of Seven Stars|QID|32315|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T Anduin's Plea|QID|32315|M|66.15,33.15|Z|Vale of Eternal Blossoms/4|N|To Anduin Wrynn, upstairs, to the left in the portal room.|
@@ -77,7 +77,7 @@ C Heart Of The Alliance|QID|32316|T|Sha-Touched Footman|N|Click on the footmen a
 T Heart Of The Alliance|QID|32316|M|67.43,43.32|Z|Vale of Eternal Blossoms/4|N|To King Varian Wrynn|
 
 ; Secrets of the Past
-A The Kun-Lai Expedition|QID|32370|M|89.55,32.58|REP|Operation: Shieldwall;1376;revered;2700|N|From Admiral Taylor, near the start of Revered|
+A The Kun-Lai Expedition|QID|32370|M|89.55,32.58|N|From Admiral Taylor, near the start of Revered|
 R The Grummle Bazaar|QID|32370|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T The Kun-Lai Expedition|QID|32370|M|65.11,60.78|Z|Kun-Lai Summit|N|To Agent Connelly|
 A A Kor'kron In Our Midst|QID|32377|PRE|32370|M|65,60.8|Z|Kun-Lai Summit|N|From Agent Connelly|
@@ -90,7 +90,7 @@ C Listen in|QID|32371|M|60.38,55.27|Z|Kun-Lai Summit|N|Get over to Garrosh, by t
 T Memory Wine|QID|32371|M|65.11,60.78|Z|Kun-Lai Summit|N|From Agent Connelly|
 
 ; The Divine Bell
-A The Ruins of Korune|QID|32393|M|89.55,32.58|REP|Operation: Shieldwall;1376;revered;6650|N|From Admiral Taylor, near the lower middle of Revered|
+A The Ruins of Korune|QID|32393|M|89.55,32.58|N|From Admiral Taylor, near the lower middle of Revered|
 R Kun-Lai Summit|QID|32393|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T The Ruins of Korune|QID|32393|M|32.88,26.26|Z|Kun-Lai Summit|N|To Sarannha Skyglaive|
 A The Divine Bell|QID|32394|PRE|32393|M|32.88,26.26|Z|Kun-Lai Summit|N|From Sarannha Skyglaive|
@@ -99,7 +99,7 @@ C Recover the bell.|QID|32394|M|60.86,22.56|QO|2|N|Click on the bell to finish u
 T The Divine Bell|QID|32394|M|61.95,25.76|Z|Kun-Lai Summit/21|N|To Sarannha Skyglaive, right next to you.|
 
 ; The Purge of Dalaran
-A Darnassus Attacked?|QID|32414|M|89.55,32.58|REP|Operation: Shieldwall;1376;revered;8700|N|From Admiral Taylor, near the middle of Revered|
+A Darnassus Attacked?|QID|32414|M|89.55,32.58|N|From Admiral Taylor, near the middle of Revered|
 R Darnassus|QID|32414|M|89.10,33.75|N|Talk to Seamus Goldenkicks for a portal to Darnassus|
 T Darnassus Attacked?|QID|32414|M|38.90,32.79|Z|Darnassus|N|To Lady Jaina Proudmoore at the Cenarion Enclave.|
 A Tracking the Thieves|QID|32460|PRE|32414|M|39.05,32.72|Z|Darnassus|N|From Lady Jaina Proudmoore.|
@@ -138,7 +138,7 @@ R Lion's Landing|QID|32423|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|Ask Verees
 T What Had To Be Done|QID|32423|M|87.91,33.10|N|To King Varian Wrynn.|
 
 ; An Ancient Ally
-A The Harmonic Mallet|QID|32355|M|89.55,32.58|REP|Operation: Shieldwall;1376;revered;14600|N|From Admiral Taylor, near the upper middle of Revered|
+A The Harmonic Mallet|QID|32355|M|89.55,32.58|N|From Admiral Taylor, near the upper middle of Revered|
 R Kun-Lai Summit|QID|32355|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T The Harmonic Mallet|QID|32355|M|52.97,46.45|Z|Kun-Lai Summit|N|To Anduin Wrynn|
 A The Monkey King|QID|32321|PRE|32355|M|52.97,46.45|Z|Kun-Lai Summit|N|From Anduin Wrynn|
@@ -165,9 +165,9 @@ C The Greatest Prank|QID|32335|N|Listen to the story now...|
 T The Greatest Prank|QID|32335|M|88.98,31.72|N|To Anduin Wrynn|
 
 ; In Search of Harmony
-A The Handle|QID|32336|M|88.89,31.75|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
-A The Head|QID|32337|M|88.89,31.75|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
-A The Harmonic Ointment|QID|32338|M|88.89,31.75|REP|Operation: Shieldwall;1376;revered;18500|N|From The Monkey King, near the end of Revered|
+A The Handle|QID|32336|M|88.89,31.75|N|From The Monkey King, near the end of Revered|
+A The Head|QID|32337|M|88.89,31.75|N|From The Monkey King, near the end of Revered|
+A The Harmonic Ointment|QID|32338|M|88.89,31.75|N|From The Monkey King, near the end of Revered|
 
 C The Harmonic Ointment|QID|32338|M|62.7,34.1|Z|Townlong Steppes|N|Get thee to Townlong Steppes, not far from Winter's Blossom in the Summit. Kill the Blade and loot the ointment.  There might be a chest in the tent with some gold too.|
 
@@ -180,11 +180,11 @@ T The Head|QID|32337|M|88.8,31.87|N|To The Monkey King, near the end of Revered|
 T The Harmonic Ointment|QID|32338|M|88.8,31.87|N|To The Monkey King, near the end of Revered|
 
 ; Breath of Darkest Shadow
-A The Bell Speaks|QID|32400|M|89.55,32.58|REP|Operation: Shieldwall;1376;exalted|N|From Admiral Taylor, at exalted|
+A The Bell Speaks|QID|32400|M|89.55,32.58|N|From Admiral Taylor, at exalted|
 R Kun-Lai Summit|QID|32400|M|88.34,34.20|N|Talk to Fennie to get dropped off|
 T The Bell Speaks|QID|32400|M|56.38,34.30|Z|Kun-Lai Summit|N|To Anduin Wrynn, behind the pillar.|
 A Breath of Darkest Shadow|QID|32401|PRE|32400|M|56.4,34.2|Z|Kun-Lai Summit|N|To Anduin Wrynn|
-K Kill Ishi|QID|32401|M|55.8,32.0|QO|1|N|Once you enter the platform, there will be some talk.  Kill the adds until Ishi transforms and is attackable.\nRun through Anduin's orbs to get a buff to protect you from Ishi's attacks.|
+K Kill Ishi|ACTIVE|32401|M|55.92,32.75|QO|1|Z|379; Kun-Lai Summit|N|Once you enter the platform, there will be some talk.  Kill the adds until Ishi transforms and is attackable.\nRun through Anduin's orbs to get a buff to protect you from Ishi's attacks.|
 C Destroy the Divine Bell|QID|32401|N|This is Anduin's job.|
 T Breath of Darkest Shadow|QID|32401|M|55.96,31.85|Z|Kun-Lai Summit|N|To Anduin Wrynn, under the bell.|
 A The Silence|QID|32455|PRE|32401|M|55.96,31.85|Z|Kun-Lai Summit|N|From Anduin Wrynn, under the bell.|
@@ -208,9 +208,9 @@ C It's Only Right|QID|32156|T|Fallen Shieldwall Soldier|N|Click on the corpses t
 C Burn Out!|QID|32154|M|23.87,54.61|QO|2|N|Click on the explosive when you are near the cogwheels.|U|93187| ; Northern Fuel Tank
 C Burn Out!|QID|32154|M|25.47,59.44|QO|1|N|Click on the explosive when you are near the cogwheels.|U|93187| ; Northeastern Fuel Tank
 C The Only Good Goblin...|QID|32157|M|22.00,58.40;24.20,58.20;22.50,55.45;20.00,63.00;19.90,59.60|CN|N|Nice clumps around the coords to kill.|
-K Grezik Oregrind|QID|32433|M|22.0,61.6|T|Grezik Oregrind|QO|1|N|Spawns near here.  Watch for the skull on the minimap.|
+K Grezik Oregrind|ACTIVE|32433|M|22.0,61.6|T|Grezik Oregrind|QO|1|N|Spawns near here.  Watch for the skull on the minimap.|
 C Burn Out!|QID|32154|M|15.28,58.99|QO|3|N|Click on the explosive when you are near the cogwheels.|U|93187| ; Northwestern Fuel Tank
-K Shredmaster Packle|QID|32158|M|19.55,62.44|QO|1|N|Spawns near here.  Watch for the skull on the minimap.|
+K Shredmaster Packle|ACTIVE|32158|M|19.55,62.44|QO|1|N|Spawns near here.  Watch for the skull on the minimap.|
 
 T The Only Good Goblin...|QID|32157|M|16.48,79.20|N|From Sky Admiral Rogers|
 T It's Only Right|QID|32156|PRE|32452|M|16.66,78.53|N|To Mishka|
