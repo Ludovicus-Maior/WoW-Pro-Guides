@@ -6,7 +6,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; This guide used to be a marvel of complexity.  Estelyen did a great job and I had to butcher it for 5.4 -- Ludovicus
-B Wisdom of the Four Winds|SPELL|Flying in Pandaria;115913|N|You need to be able to have flying mounts in Pandaria to do this guide.|
+;B Wisdom of the Four Winds|SPELL|Flying in Pandaria;115913|N|You need to be able to have flying mounts in Pandaria to do this guide.|
 
 ; Introduction Questline (no daily quests, just a one-time introduction)
 A The Golden Lotus|QID|31384|FACTION|Alliance|N|From Xari the Kind in the Shrine of Seven Stars.|M|84.20,62.40|
