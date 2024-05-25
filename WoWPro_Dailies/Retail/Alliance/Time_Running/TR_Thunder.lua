@@ -18,7 +18,7 @@ A Allies in the Shadows|QID|32706|PRE|32681|M|63.2,72.2|N|From Lady Jaina Proudm
 ; Solo Scenarios!
 A The Assault on Shaol'mara|QID|32644|M|63.25,72.22|N|From Lady Jaina Proudmoore|
 C The Assault on Shaol'mara|QID|32644|M|63.25,72.22|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
-A The Assault on Shaol'mara|QID|32644|M|63.25,72.22|N|From Lady Jaina Proudmoore|
+T The Assault on Shaol'mara|QID|32644|M|63.25,72.22|N|To Lady Jaina Proudmoore|
 A Tear Down This Wall!|QID|32654|M|63.25,72.22|N|From Lady Jaina Proudmoore|
 C Tear Down This Wall!|QID|32654|M|63.25,72.22|N|Talk to Lady Jaina Proudmoore to start the solo instance.|CHAT|
 T Tear Down This Wall!|QID|32654|M|63.25,72.22|N|To Lady Jaina Proudmoore|
@@ -34,7 +34,7 @@ T The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|To Lady Jaina Proudmoore|
 
 ; Let the dailies begin!
 N Assignment Map: PvE or PvP|QID|1^2|M|63.25,72.19|N|Click on the assignment map and make your choice. Then another NPC will offer the quests.|NC|; Use correct quids
-A The Court of Bones|QID|32731|LEAD|32527|M|63.25,72.22|N|From Vereesa Windrunner.|
+;A The Court of Bones|QID|32731|LEAD|32527|M|63.25,72.22|N|From Vereesa Windrunner.|
 A Ihgaluk Crag|QID|32732|LEAD|32535|M|62.70,73.56|N|From Captain Elleane Wavecrest, skip if she is not offering.|
 A Za'Tual|QID|32733|LEAD|32543|M|34.61,89.45|N|From Lady Jaina Proudmoore.|
 
@@ -54,7 +54,7 @@ C Cha'lat's Altar |QID|32538|M|33.85,76.1|QO|1|
 C Tec'uat's Altar |QID|32538|M|39.75,65.2|QO|2|
 C Pa'chek's Altar |QID|32538|M|38.6,78.65|QO|3|
 ;
-C Scare the poor, ah, birds?|QID|32514|M|29.00,79.00;30.40,79.20;30.60,76.80;31.20,80.00;32.00,78.40;32.60,80.40;34.20,80.00;30.50,81.80;32.10,81.70|CN|N|Keep an eye out for a rare blue Skyscreamer for an acheivement.|
+C Scare the poor, ah, birds?|QID|32541|M|29.00,79.00;30.40,79.20;30.60,76.80;31.20,80.00;32.00,78.40;32.60,80.40;34.20,80.00;30.50,81.80;32.10,81.70|CN|N|Keep an eye out for a rare blue Skyscreamer for an acheivement.|
 ;
 C Pterrible Ptorment|QID|32544|M|41,70|N|Find the Arcweavers torturing the Tormented Skyscreamer.  Kill all 3 and Pterodactyl will fly free|
 ;
@@ -65,13 +65,13 @@ C Troll Killin'|QID|32543|US|
 C Troll Killin'|QID|32543|
 
 ;
-T Dangers of Za'Tual|QID|32543|M|31.56,83.14|N|To Archmage Lan'dalock.|
-T Harbingers of the Loa|QID|32540|M|31.56,83.14|N|To Archmage Lan'dalock.|
-T Dark Offerings|QID|32539|M|31.66,83.22|N|To Dalvin Jaacor|
-T Heinous Sacrifice|QID|32538|M|31.66,83.22|N|From Dalvin Jaacor|
-T Preventing a Future Threat|QID|32514|M|31.47,83.21|N|From Ako|
-T Pterrible Ptorment|QID|32544|M|31.47,83.21|N|To Ako|
-T Surgical Strike|QID|32542|M|31.56,83.14|N|To Archmage Lan'dalock.|
+T Dangers of Za'Tual|QID|32543|M|42.2,66.4|N|To Archmage Lan'dalock.|
+T Harbingers of the Loa|QID|32540|M|42.2,66.4|N|To Archmage Lan'dalock.|
+T Dark Offerings|QID|32539|M|42.2,66.4|N|To Dalvin Jaacor|
+T Heinous Sacrifice|QID|32538|M|42.2,66.4|N|From Dalvin Jaacor|
+T Preventing a Future Threat|QID|32541|M|42.2,66.4|N|From Ako|
+T Pterrible Ptorment|QID|32544|M|42.2,66.4|N|To Ako|
+T Surgical Strike|QID|32542|M|42.2,66.4|N|To Archmage Lan'dalock.|
 
 ; Dailies - Court of Bones
 
