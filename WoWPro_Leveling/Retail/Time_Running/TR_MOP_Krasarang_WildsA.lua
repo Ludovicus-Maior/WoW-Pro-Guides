@@ -217,7 +217,7 @@ T The Lord Reclaimer|QID|30359|M|24.70,33.98|N|To Lorekeeper Vaeldrin.|
 A The Waters of Youth|QID|30445|PRE|30359|M|24.70,33.98|N|From Lorekeeper Vaeldrin.|
 C The Waters of Youth|QID|30445|M|24.70,33.98|
 T The Waters of Youth|QID|30445|M|24.70,33.98|N|To Lyalia.|
-N The rest of this guide requires the completion of Vally of the 4 Winds.|JUMP|EmmVal8688|
+N The rest of this guide requires the completion of Vally of the 4 Winds.|AVAILABLE|30628|JUMP|EmmVal8688|
 A Warn Stoneplow|QID|30360|PRE|29990&30117&30273&30445|M|24.74,34.04|N|From Lyalia.|
 F Stoneplow|ACTIVE|30360|M|25.13,33.53|N|At Maylen Moonfeather.|
 T Warn Stoneplow|QID|30360|M|19.54,56.92|Z|Valley of the Four Winds|N|To Loon Mai.  Cinematic Follows.|

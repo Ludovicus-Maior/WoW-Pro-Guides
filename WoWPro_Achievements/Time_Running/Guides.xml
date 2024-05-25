@@ -1,0 +1,7 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="Emmaleah_Lorewalkers.lua"/>
+	<Script file="Emmaleah_LostFound.lua"/>
+	<Script file="Est_Glorious.lua"/>
+	<Script file="Ludo_Treasure.lua"/>
+	<Script file="Pandaria.lua"/>
+</Ui>
