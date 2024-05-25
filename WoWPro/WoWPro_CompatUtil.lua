@@ -249,3 +249,12 @@ function WoWPro.C_Spell_GetSpellInfo(spellID)
         }
     end
 end
+
+--[[C_Item.GetItemInfo]]
+function WoWPro.C_Item_GetItemInfo(itemID)
+    if WoWPro.RETAIL then
+        return _G.C_Item.GetItemInfo(itemID)
+    else
+        return GetItemInfo(itemID)
+    end
+end    

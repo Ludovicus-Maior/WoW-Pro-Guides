@@ -884,7 +884,7 @@ function WoWPro.TrashItem(use, step)
         for slot=1,slots do
             local id=_G.C_Container.GetContainerItemID(bag,slot)
             if id == use then
-                local itemName = _G.GetItemInfo(id)
+                local itemName = WoWPro.C_Item_GetItemInfo(id)
                 local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
                 dialog.data = { step = step, itemName = itemName}
                 dialog.data2 = {bag = bag, slot = slot}
@@ -931,8 +931,8 @@ end
 
 function WoWPro.SelectItemToUse(use, debug)
     if not use:find("^", 1, true)  then
-        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, _G.GetItemInfo(use) or "NIL")
-        return _G.GetItemInfo(use), use
+        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, WoWPro.C_Item_GetItemInfo(use) or "NIL")
+        return WoWPro.C_Item_GetItemInfo(use), use
     end
     local value = QidMapReduce(use,false,"^","|",function (item) return (_G.GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
     WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
@@ -1304,7 +1304,7 @@ if step then
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
-        if action == "*" and use and _G.GetItemInfo(use) then
+        if action == "*" and use and WoWPro.C_Item_GetItemInfo then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
             currentRow.itembutton:SetAttribute("type1", "click1")
