@@ -232,7 +232,7 @@ function WoWPro.C_Reputation_GetFactionDataByID(factionID)
     end
 end
 
---[[C_Spell.GetGetSpellInfo]]
+--[[C_Spell.GetSpellInfo]]
 function WoWPro.C_Spell_GetSpellInfo(spellID)
     if WoWPro.RETAIL then
         return _G.C_Spell.GetSpellInfo(spellID)

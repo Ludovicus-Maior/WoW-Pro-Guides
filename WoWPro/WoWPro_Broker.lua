@@ -3121,7 +3121,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         if (flyFlip) then
                             why = ("Skipping because flight spell is not known=%s"):format(tostring(not not spellKnown))
                         else
-                            why = ("Skipping because flight spell [%s] is known=%s"):format(spellKnown, tostring(not not spellKnown))
+                            why = ("Skipping because flight spell [%s] is known=%s"):format(spellName, tostring(not not spellKnown))
                         end
                         WoWPro.CompleteStep(guideIndex, why)
                         skip = true
