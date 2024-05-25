@@ -478,7 +478,8 @@ C Delivery to Historian Dinh|QID|30495|NC|QO|1|M|46.36,61.80|
 T Love's Labor|QID|30495|M|48.31,61.35|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|PRE|30495|M|48.31,61.35|N|From Foreman Raike.|
 ; [aldavor] check this, not auto-closing.
-F Temple of the Jade Serpent|QID|29932|M|48.2,60.0;55.8,57.1|CC|N|Talk to Kitemaster Shoku for a ride to the Temple of the Jade Serpent and upon landing talk to Elder Sage Wind-Yi for a cut scene.|
+F Temple of the Jade Serpent|QID|29932|M|48.2,60.0;55.8,57.1|CC|N|Talk to Kitemaster Shoku for a ride to the Temple of the Jade Serpent.|
+C The Temple of the Jade Serpent|QID|29932|M|55.84,57.08|QO|1|NC|CHAT|N|Speak with Elder Sage Wind-Yi.|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.67|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|PRE|29932|M|58.13,58.67|N|From Elder Sage Rain-Zhu.|
 A The Librarian's Quandary|QID|29998|PRE|29932|M|58.13,58.67|N|From Elder Sage Rain-Zhu.|
