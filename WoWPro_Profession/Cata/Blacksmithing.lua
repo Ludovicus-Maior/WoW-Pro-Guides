@@ -7,6 +7,7 @@ local guide = WoWPro:RegisterGuide("Blacksmithing","Profession","Blacksmithing",
 WoWPro:GuideIcon(guide,"PRO",164)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Blacksmithing")
+WoWPro:NoCoordsOK(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 

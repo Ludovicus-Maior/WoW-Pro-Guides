@@ -6,6 +6,7 @@ WoWPro:GuideIcon(guide,"PRO",202)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Engineering")
 WoWPro:GuideNickname(guide, "ENG_Cata")
+WoWPro:NoCoordsOK(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 

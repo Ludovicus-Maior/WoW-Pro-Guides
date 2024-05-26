@@ -7,6 +7,7 @@ WoWPro:GuideIcon(guide,"PRO",171)
 WoWPro:GuideLevels(guide)
 WoWPro:GuideName(guide, "Alchemy")
 WoWPro:GuideNickname(guide, "Alchemy")
+WoWPro:NoCoordsOK(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Note: Some characters do not work in ITEM or SPELL, do not use any special characters, just ignore them.  ie: [spell=343679/Crafters Mark I] (Displays as Crafter's Mark I) the ' is bad.
