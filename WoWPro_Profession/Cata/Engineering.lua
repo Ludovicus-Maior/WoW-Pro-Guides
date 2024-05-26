@@ -9,8 +9,8 @@ WoWPro:GuideNickname(guide, "ENG_Cata")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N PLEASE Report any issues you find in this guide.|QID|171000002|N|In our Discord, via #open-a-ticket.\nRight Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
-N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
+N BEFORE WE BEGIN.|QID|171000002|N|Please report any issues or provide Feedback about this guide in our Discord, via the #open-a-ticket channel.|
+N Learn Recipes|QID|171000003|N|We only mention the Recipes or Skills you need for this guide, but feel free to buy ALL when you can.|
 
 N Learn Apprentice Engineering|QID|902020000|N|Learn from a trainer in any major city. You must be level 5.|
 B Blacksmith Hammer|QID|902020001|N|Buy from a Blacksmithing or Engineering Supply vendor.|L|5956 1|

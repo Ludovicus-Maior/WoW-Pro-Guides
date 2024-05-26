@@ -10,7 +10,8 @@ WoWPro:GuideName(guide, "Blacksmithing")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N PLEASE Report any issues you find in this guide.|QID|171000002|N|In our Discord, via #open-a-ticket.\nRight Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N BEFORE WE BEGIN.|QID|171000002|N|Please report any issues or provide Feedback about this guide in our Discord, via the #open-a-ticket channel.|
+N Learn Recipes|QID|171000003|N|We only mention the Recipes or Skills you need for this guide, but feel free to buy ALL when you can.|
 N Learn  Apprentice Blacksmithing|QID|901640000|N|Learn from a Trainer in any major city. Requires Level 5.|
 B Hammer|QID|901640001|P|Blacksmithing;164;0;1;|N|Buy from an NPC Supply|L|5956|
 M [item=2862/Rough Sharpening Stone]|QID|171002330|N|Make until your skill level reaches 30|
