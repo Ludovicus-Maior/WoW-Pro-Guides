@@ -73,6 +73,6 @@ M [item=55032/Redsteel Breastplate ]|QID|171002339|N|Make until your skill level
 M [item=75121/Vicious Ornate Pyrium Gauntlets|QID|171002339|N|Make until your skill level reaches 515.|
 M [item=75118/Vicious Ornate Pyrium Belt]|QID|171002339|N|Make until your skill level reaches 520.|
 M [item=75134/Vicious Ornate Pyrium Shoulders]|QID|171002339|N|Make until your skill level reaches 525.|
-N That completes Blacksmithing.
+N Congratulations on reaching 525!\nPlease send feedback about the guide if you think there are parts I could improve or if you found typos, errors, or wrong material numbers!.|QID|171000004|
 ]]
 end)

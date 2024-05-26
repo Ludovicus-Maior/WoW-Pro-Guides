@@ -135,6 +135,6 @@ M [item=52193/Ember Topaz]|QID|171017556|N|Make until your skill level reaches 5
 M [item=52194/Demonseye]|QID|171017556|N|Make until your skill level reaches 520|
 = Learn Recipe|QID|171002857|N|Learn [spell=80247/Transmute: Amberjewel] Recipe from Trainer.|
 M [item=52195/Amberjewel]|QID|171017556|N|Make until your skill level reaches 525|
-N Congratualations!|QID|171000010|N|This concludes your guide.\nWe hope you found it useful.|
+N Congratulations on reaching 525!\nPlease send feedback about the guide if you think there are parts I could improve or if you found typos, errors, or wrong material numbers!.|QID|171000004|
 ]]
 end)
