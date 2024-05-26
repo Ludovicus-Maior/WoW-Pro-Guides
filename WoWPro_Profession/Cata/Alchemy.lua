@@ -104,7 +104,7 @@ M [item=22832/Super Mana Potion]|QID|171017556|L|22832 10|N|Make until your skil
 = Learn Recipe|QID|171002857|N|Learn [spell=53838/Resurgent Healing Potion] Recipe from Trainer.|
 M [item=39671/Resurgent Healing Potion]|QID|171017556|L|39671 10|N|Make until your skill level reaches 360|
 = Learn Recipe|QID|171002857|N|Learn [spell=53839/Icy Mana Potion] Recipe from Trainer.|
-M [item=40067/Icy Mana Potion]|QID|171017556|N|L|40067 5|Make until your skill level reaches 365|
+M [item=40067/Icy Mana Potion]|QID|171017556|L|40067 5|N|Make until your skill level reaches 365|
 = Learn Recipe|QID|171002857|N|Learn [spell=53842/Spellpower Elixir] Recipe from Trainer.|
 M [item=40070/Spellpower Elixir]|QID|171017556|L|40070 10|N|Make until your skill level reaches 375|
 = Learn Recipe|QID|171002857|N|Learn [spell=53812/Pygmy Oil] Recipe from Trainer.|
