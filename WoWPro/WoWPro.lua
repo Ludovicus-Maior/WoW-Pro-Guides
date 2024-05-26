@@ -813,7 +813,7 @@ function WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, e
     local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonAndType)
     if AddonIndex < 1 then
         if table.getn(GuideMenuList) == 0 then
-            table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
+            table.insert(GuideMenuList, { text = "Choose Module", isTitle = true })
         end
         local stuff = { text = AddonAndType, hasArrow = true, menuList = {} }
         if extra then
@@ -881,7 +881,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
 end
 
 function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, extra)
-    if WoWPro.CATA and AddonType == "Leveling" then
+    if WoWPro.CATA and (AddonType == "Leveling" or AddonType == "Dailies") then
         WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
     else
         WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
