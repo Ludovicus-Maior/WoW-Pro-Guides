@@ -881,7 +881,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
 end
 
 function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, extra)
-    if WoWPro.CATA then
+    if WoWPro.CATA and AddonType == "Leveling" then
         WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
     else
         WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
@@ -930,7 +930,7 @@ function WoWPro.BuildGuideInMenuList()
     for _, gid in ipairs(WoWProCharDB.GuideStack) do
         local guide = WoWPro.Guides[gid]
         if guide then
-            WoWPro.RegisterGuideInMenuList("recent guides", guide.guidetype,  guide.name or "??", gid)
+            WoWPro.RegisterGuideInMenuList("Recent Guides", guide.guidetype,  guide.name or "??", gid)
         end
     end
     -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
