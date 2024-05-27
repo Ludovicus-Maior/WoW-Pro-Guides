@@ -210,7 +210,7 @@ function WoWPro.C_Reputation_GetFactionDataByID(factionID)
     if WoWPro.RETAIL then
         return _G.C_Reputation.GetFactionDataByID(factionID)
     else
-        name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, factionID, hasBonusRepGain, canBeLFGBonus = GetFactionInfoByID(factionID)
+        local name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, factionID, hasBonusRepGain, canBeLFGBonus = _G.GetFactionInfoByID(factionID)
         return {
             hasBonusRepGain = hasBonusRepGain,
             description = description,
@@ -237,7 +237,7 @@ function WoWPro.C_Spell_GetSpellInfo(spellID)
     if WoWPro.RETAIL then
         return _G.C_Spell.GetSpellInfo(spellID)
     else
-        name, rank, icon, castTime, minRange, maxRange, spellID, originalIcon = GetSpellInfo(spell)
+        local name, rank, icon, castTime, minRange, maxRange, spellID, originalIcon = _G.GetSpellInfo(spell)
         return{
            castTime = castTime,
            name = name,
@@ -255,6 +255,6 @@ function WoWPro.C_Item_GetItemInfo(itemID)
     if WoWPro.RETAIL then
         return _G.C_Item.GetItemInfo(itemID)
     else
-        return GetItemInfo(itemID)
+        return _G.GetItemInfo(itemID)
     end
-end    
+end 

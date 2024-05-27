@@ -3001,7 +3001,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local _, spellID, spellFlip = (";"):split(WoWPro.spell[guideIndex])
                 local spellInfo = WoWPro.C_Spell_GetSpellInfo(tonumber(spellID))
                 if spellInfo then
-                    local spellName = spellInfo.name
+                    spellName = spellInfo.name
                 end
                 local spellKnown = _G.IsPlayerSpell(spellID)
                 -- Testing if RUNE tag valid (Rune spells use different API than regular spells)
@@ -3078,7 +3078,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             if spellInfo then
                                 spellName = spellInfo
                             end
-							spellKnown = IsPlayerSpell(54197)
+							spellKnown = _G.IsPlayerSpell(54197)
 						end
 					else
                         spellInfo = WoWPro.C_Spell_GetSpellInfo(90265)
