@@ -2963,13 +2963,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
             -- This tests for Spells you can put on a button, essentially.
             local spellName
+            local spellKnown
             if WoWPro.spell and WoWPro.spell[guideIndex] then
                 local _, spellID, spellFlip = (";"):split(WoWPro.spell[guideIndex])
                 local spellInfo = WoWPro.C_Spell_GetSpellInfo(tonumber(spellID))
                 if spellInfo then
                     spellName = spellInfo.name
                 end
-                local spellKnown = _G.IsPlayerSpell(spellID)
+                spellKnown = _G.IsPlayerSpell(spellID)
                 -- Testing if RUNE tag valid (Rune spells use different API than regular spells)
                 if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC and _G.C_Seasons then
                     local seasonrealm = _G.C_Seasons.HasActiveSeason()
@@ -3018,8 +3019,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
                     local spellInfo
-                    local spellName
-                    local spellKnown
                     local canFly
                     local mSkill
                     local eSkill

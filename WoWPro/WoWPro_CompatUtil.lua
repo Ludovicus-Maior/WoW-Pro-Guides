@@ -237,7 +237,7 @@ function WoWPro.C_Spell_GetSpellInfo(spellID)
     if WoWPro.RETAIL then
         return _G.C_Spell.GetSpellInfo(spellID)
     else
-        local name, rank, icon, castTime, minRange, maxRange, _, originalIcon = _G.GetSpellInfo(spellID)
+        local name, _, icon, castTime, minRange, maxRange, _, originalIcon = _G.GetSpellInfo(spellID)
         return{
            castTime = castTime,
            name = name,
@@ -257,4 +257,4 @@ function WoWPro.C_Item_GetItemInfo(itemID)
     else
         return _G.GetItemInfo(itemID)
     end
-end 
+end
