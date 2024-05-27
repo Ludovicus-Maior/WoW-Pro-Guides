@@ -3027,7 +3027,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if spellFlip then spellKnown = not spellKnown end
                 WoWPro:dbp("Checking spell step %s [%s] for %s: Nomen %s, Known %s",stepAction,step,WoWPro.spell[guideIndex],tostring(spellName),tostring(spellKnown))
                 if spellKnown then
-                    local why = ("Skipping because spell [%s] is known=%s"):format(spellName, tostring(not not spellKnown))
+                    local why = ("Skipping because spell [%s] is known=%s"):format(tostring(spellName), tostring(not not spellKnown))
                     WoWPro.CompleteStep(guideIndex, why)
                     skip = true
                     WoWPro:dbp(why)
