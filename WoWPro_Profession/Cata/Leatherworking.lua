@@ -10,9 +10,9 @@ WoWPro:GuideNickname(guide, "LTW_Cata")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N PLEASE Report any issues you find in this guide.|QID|171000002|N|In our Discord, via #open-a-ticket.\nRight Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
-N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
+N BEFORE WE BEGIN.|QID|171000002|N|Please report any issues or provide Feedback about this guide in our Discord, via the #open-a-ticket channel.|
 N Learn Apprentice Leatherworking|QID|901640000|N|Learn from a trainer in any major city.\nYou must be level 5.|
+N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Shopping List|QID|171000004|N|The next few lines are going to be the APPROXIMATE amount of mats you need to complete Leatherworking 1 to 525.\nThis is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 l [item=2934]|QID|171000004|L|2934 57|N|You'll need about 57.|
 l [item=2318]|QID|171000004|L|2318 380|N|You'll need about 380.|
@@ -120,6 +120,6 @@ M [item=56518]|QID|901640080|L|56518|N|Make 2 of these.\n\nYou should be level 5
 M [item=56522]|QID|901640082|L|56522 3|N|Make 3 of these.\n\nYou should be level 516 come the end.|
 M [item=56530]|QID|901640083|L|56530 3|N|Make 3 of these.\n\nYou should be level 522 come the end.|
 M [item=56543]|QID|901640084|L|56543 2|N|Make 2 of these.\n\nYou should be level 525 come the end.|
-N Congratulations on reaching 525 and we hope you found this guide useful.\nPlease send feedback about the guide if you think there are parts we could improve or if you found typos, errors, or wrong material numbers!.|QID|171017557|
+N Congratulations on reaching 525!\nPlease send feedback about the guide if you think there are parts we could improve or if you found typos, errors, or wrong material numbers!.|QID|171111111|
 ]]
 end)

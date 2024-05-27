@@ -9,10 +9,10 @@ WoWPro:NoCoordsOK(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Learn Apprentice First Aid|QID|901290000|N|Learn from a trainer in any major city.|
 N BEFORE WE BEGIN.|QID|171000002|N|Please report any issues or provide Feedback about this guide in our Discord, via the #open-a-ticket channel.|
+N Learn Apprentice First Aid|QID|901290000|N|Learn from a trainer in any major city.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipes or Skills you need for this guide, but feel free to buy ALL when you can.|
-N Shopping List|QID|171000004|N|The next few lines are going to be the TOTAL amount of mats you need to complete this guide.\nThis is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the APPROXIMATE amount of mats you need to complete this guide.\nThis is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
 l [item=2589/Linen Cloth]|QID|171000004|MATS|2589|N|You will need around 170 Linen Cloth.|
 l [item=2592/Wool Cloth]|QID|171000004|MATS|2592|N|You will need around 180 Wool Cloth.|
 l [item=4306/Silk Cloth]|QID|171000004|MATS|4306|N|You will need around 150 Silk Cloth.|
@@ -58,6 +58,6 @@ N Learn Illustrious First Aid|QID|901290000|N|Learn from a trainer in any major 
 M [item=53049/Embersilk Bandage]|QID|171000019|N|Make 70 Embersilk Bandage or until your skill level reaches 475|
 = Learn Recipe|QID|171800166|N|Learn [spell=74557/Heavy Embersilk Bandage] Recipe, from Trainer.|
 M [item=53050/Heavy Embersilk Bandage]|QID|171000020|N|Make 105 Heavy Embersilk Bandage or until your skill level reaches 525|
-N Congratulations|QID|901290000|N|You have reached the maximum level for First Aid.\n\nPlease remember to send feedback about the guide if you think there are parts I could improve or if you found typos, errors, or wrong material numbers!|
+N Congratulations on reaching 525!\nPlease send feedback about the guide if you think there are parts we could improve or if you found typos, errors, or wrong material numbers!.|QID|171111111|
 ]]
 end)
