@@ -2962,13 +2962,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skipping spells if known.
             -- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
             -- This tests for Spells you can put on a button, essentially.
+            local spellName
             if WoWPro.spell and WoWPro.spell[guideIndex] then
                 local _, spellID, spellFlip = (";"):split(WoWPro.spell[guideIndex])
                 local spellInfo = WoWPro.C_Spell_GetSpellInfo(tonumber(spellID))
                 if spellInfo then
                     local spellName = spellInfo.name
                 end
-                local spellKnown = IsPlayerSpell(spellID)
+                local spellKnown = _G.IsPlayerSpell(spellID)
                 -- Testing if RUNE tag valid (Rune spells use different API than regular spells)
                 if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC and _G.C_Seasons then
                     local seasonrealm = _G.C_Seasons.HasActiveSeason()
@@ -3020,14 +3021,16 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     local spellName
                     local spellKnown
                     local canFly
+                    local mSkill
+                    local eSkill
                     local flyFlip = false
                     if (expansion:sub(1, 1) == "-") then
                         expansion = expansion:sub(2)
                         flyFlip = true
                     end
                     spellInfo = WoWPro.C_Spell_GetSpellInfo(34090)
-                    if spellInfo then 
-                        local eSkill = spellInfo.name
+                    if spellInfo then
+                        eSkill = spellInfo.name
                     end
 					if WoWPro.WRATH then
 						if WoWProCharDB.Tradeskills[762] and WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
@@ -3038,15 +3041,15 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 							spellName = "Flying"
 						elseif expansion == "WOTLK" and canFly then
                             spellInfo = WoWPro.C_Spell_GetSpellInfo(54197)
-                            if spellInfo then 
-                                spellname = spellInfo
+                            if spellInfo then
+                                spellName = spellInfo
                             end
 							spellKnown = IsPlayerSpell(54197)
 						end
 					else
                         spellInfo = WoWPro.C_Spell_GetSpellInfo(90265)
                         if spellInfo then
-						    local mSkill = spellInfo.name
+						    mSkill = spellInfo.name
                         end
 						if _G.IsPlayerSpell(34090) then
 							canFly = true
