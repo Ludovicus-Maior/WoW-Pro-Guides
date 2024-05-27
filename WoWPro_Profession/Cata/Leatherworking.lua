@@ -5,7 +5,7 @@
 local guide = WoWPro:RegisterGuide("Leatherworking", "Profession", "Leatherworking", "WoWPro Team", "Neutral",4)
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Leatherworking)
+WoWPro:GuideName(guide, "Leatherworking")
 WoWPro:GuideNickname(guide, "LTW_Cata")
 WoWPro:GuideSteps(guide, function()
 return [[
