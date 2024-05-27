@@ -3113,7 +3113,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 						end
 					end
 
-
                     if flyFlip then spellKnown = not spellKnown end
                     WoWPro:dbp("Checking fly step %s [%s] for %s: Nomen %s, Known %s",stepAction,step,WoWPro.fly[guideIndex],tostring(spellName),tostring(spellKnown))
                     if spellKnown then
