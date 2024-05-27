@@ -258,30 +258,34 @@ R Wildbend River|ACTIVE|13902|M|42.88,70.70|Z|1439; Darkshore|N|Follow the road 
 f Grove of the Ancients|QID|13902|M|44.39,75.39|Z|1439; Darkshore|N|At Delanea.|
 T Mounting the Offensive|QID|13902|M|45.31,75.14|Z|1439; Darkshore|N|To Balren of the Claw.|
 A Leave No Tracks|QID|13892|M|45.31,75.14|Z|1439; Darkshore|N|From Balren of the Claw.|
-A What's Happening to the Blackwood Furbolg?|QID|13525|LEAD|13526|M|45.19,75.16|Z|1439; Darkshore|N|From Foriel Broadleaf.|
-A Consumed|QID|13881|M|45.19,74.70|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
-C Consumed|QID|13881|M|45.03,79.2|Z|1439; Darkshore|N|Investigate the Watering Hole. Kill Consumed Thistle Bears.|
-T What's Happening to the Blackwood Furbolg?|QID|13525|M|43.54,80.94|Z|1439; Darkshore|N|To Elder Brolg.|
-A The Bear's Paw|QID|13526|M|43.54,80.94|Z|1439; Darkshore|N|From Elder Brolg.|
-l The Bear's Paw|QID|13526|QO|1|M|44.99,88.61|Z|1439; Darkshore|N|Loot 8 of the Bear's Paws off of the ground.|
-T The Bear's Paw|QID|13526|M|43.54,80.90|Z|1439; Darkshore|N|To Elder Brolg.|
-A The Bear's Blessing|QID|13544|PRE|13526|M|43.54,80.90|Z|1439; Darkshore|N|From Elder Brolg.|
-C Leave No Tracks|QID|13892|M|40.74,84.58|Z|1439; Darkshore|N|Head to The Master's Glaive, use the figurine and go to the waypoint, and wait until the NPCs start talking for the completion.|U|46696|
-T Leave No Tracks|QID|13892|M|40.74,84.58|Z|1439; Darkshore|N|Turn in via the quest log.|
-A Stepping Up Surveillance|QID|13948|PRE|13892|M|45.27,75.08|Z|1439; Darkshore|N|From Balren of the Claw.|
-C Stepping Up Surveillance|QID|13948|M|39.96,84.84|Z|1439; Darkshore|N|Head up, and be careful of the mobs with the blue eye above their head. Once up, listen to the conversation for the completion.|U|46696|NC|
-l Fleetfoot's Tailfeathers|QID|13544|M|45.49,78.85|Z|1439; Darkshore|L|44886|ITEM|44886|N|Fleetfoot.|T|Fleetfoot|
-C The Bear's Blessing|QID|13544|M|45.30,76.82|Z|1439; Darkshore|N|Go to the bear statue and use the Bear's Paw Bundle.|U|44888|
-T Consumed|QID|13881|M|45.19,74.69|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
-T Stepping Up Surveillance|QID|13948|M|45.25,75.18|Z|1439; Darkshore|N|To Balren of the Claw.|
-A Unearthed Knowledge|QID|13896|PRE|13948|M|45.28,75.05|Z|1439; Darkshore|N|From Larien.|
-A The Seeds of Life|QID|13882|PRE|13881|M|45.19,74.69|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
-l Seed of the Earth|QID|13882|QO|1|M|45.35,74.87|Z|1439; Darkshore|N|Talk to Onu to get the Seed of the Earth.|
-r Sell junk, repair/restock.|M|45.31,74.67|QID|13882|
-l Seed of the Sky|QID|13882|QO|3|M|42.06,78.96|Z|1439; Darkshore|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|
-T The Bear's Blessing|QID|13544|M|43.48,80.96|Z|1439; Darkshore|N|To Elder Brolg.|
-A Cleansing the Afflicted|QID|13545|PRE|13544|M|43.48,80.96|Z|1439; Darkshore|N|From Elder Brolg.|
-A Jadefire Braziers|QID|13572|PRE|13544|M|43.57,80.95|Z|1439; Darkshore|N|From Gren Tornfur.|
+A What's Happening to the Blackwood Furbolg?|QID|13525|LEAD|13526|M|45.14,75.19|Z|1439; Darkshore|N|From Foriel Broadleaf.|
+A Consumed|QID|13881|M|45.20,74.61|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
+C Consumed|QID|13881|QO|1|M|45.20,78.82|Z|1439; Darkshore|N|Kill Consumed Thistle Bears.|T|Consumed Thistle Bear|S|
+R Consumed|ACTIVE|13881|QO|2|M|45.03,79.20|Z|1439; Darkshore|N|Investigate the Watering Hole.|
+C Consumed|QID|13881|QO|1|M|45.20,78.82|Z|1439; Darkshore|N|Finish killing Consumed Thistle Bears.|T|Consumed Thistle Bear|US|
+T What's Happening to the Blackwood Furbolg?|QID|13525|M|43.51,81.02|Z|1439; Darkshore|N|To Elder Brolg.|
+A The Bear's Paw|QID|13526|M|43.51,81.02|Z|1439; Darkshore|N|From Elder Brolg.|
+C The Bear's Paw|ACTIVE|13526|QO|1|M|44.99,88.61|Z|1439; Darkshore|L|44850 8|N|Collect the Bear's Paws found on the ground in the area of Blackwood Den.|
+T The Bear's Paw|QID|13526|M|43.51,81.02|Z|1439; Darkshore|N|To Elder Brolg.|
+A The Bear's Blessing|QID|13544|PRE|13526|M|43.51,81.02|Z|1439; Darkshore|N|From Elder Brolg.|
+R The Master's Glaive|QID|13892|M|40.74,84.58|Z|1439; Darkshore|N|Head to The Master's Glaive.|
+C Leave No Tracks|QID|13892|M|40.74,84.58|Z|1439; Darkshore|N|Use the figurine.\n[color=FF0000]NOTE: [/color]Reuse the figurine if you lose your buff.|U|46696|BUFF|65426|
+C Leave No Tracks|QID|13892|M|40.48,84.53|Z|1439; Darkshore|N|While avoiding the Faceless Ones, head to the waypoint and wait until the NPCs start talking for the completion notice.|U|46696|
+T Leave No Tracks|QID|13892|M|PLAYER|CC|N|Turn in via the quest log/UI Alert.|
+A Stepping Up Surveillance|QID|13948|PRE|13892|M|45.27,75.08|Z|1439; Darkshore|N|Automatically from UI ALert.|
+C Stepping Up Surveillance|QID|13948|M|39.75,86.45;39.96,84.84|CS|Z|1439; Darkshore|N|Continuing to avoid the Faceless Ones, work your way to the top of the tower to the waypoint and wait until the NPCs start talking for the completion notice.|U|46696|NC|
+C Fleetfoot's Tailfeathers|ACTIVE|13544|QO|1|M|45.49,78.85|Z|1439; Darkshore|L|44886|ITEM|44886|N|Fleetfoot.|T|Fleetfoot|
+C The Bear's Blessing|QID|13544|M|45.32,76.77|Z|1439; Darkshore|N|Go to the bear statue and use the Bear's Paw Bundle.|U|44888|
+T Stepping Up Surveillance|QID|13948|M|45.31,75.14|Z|1439; Darkshore|N|To Balren of the Claw.|
+A Unearthed Knowledge|QID|13896|PRE|13948|M|45.32,75.06|Z|1439; Darkshore|N|From Larien.|
+r Sell junk, repair/restock|ACTIVE|13882|M|45.32,74.63|Z|1439; Darkshore|N|At Syleath Fairglade.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T Consumed|QID|13881|M|45.20,74.61|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
+A The Seeds of Life|QID|13882|PRE|13881|M|45.20,74.61|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
+C Seed of the Earth|QID|13882|QO|1|M|45.41,74.85|Z|1439; Darkshore|N|Talk to Onu to get the Seed of the Earth.|CHAT|
+C Seed of the Sky|QID|13882|QO|3|M|42.06,78.96|Z|1439; Darkshore|L|46355|N|Locate a Darkshore Wisp and click on it to get the Seed of the Sky.\n[color=FF0000]NOTE: [/color]Can be a bit of a pain to get within range to loot.|T|Darkshre Wisp|
+T The Bear's Blessing|QID|13544|M|43.51,81.02|Z|1439; Darkshore|N|To Elder Brolg.|
+A Cleansing the Afflicted|QID|13545|PRE|13544|M|43.51,81.02|Z|1439; Darkshore|N|From Elder Brolg.|
+A Jadefire Braziers|QID|13572|PRE|13544|M|43.58,81.02|Z|1439; Darkshore|N|From Gren Tornfur.|
 C Cleansing the Afflicted|QID|13545|M|44.62,82.07|Z|1439; Darkshore|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|U|44889|S|
 C Jadefire Braziers|QID|13572|M|44.36,84.07|Z|1439; Darkshore|N|Attack the braziers with the green fire to destroy them.|
 C Cleansing the Afflicted|QID|13545|M|44.62,82.07|Z|1439; Darkshore|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|U|44889|US|
