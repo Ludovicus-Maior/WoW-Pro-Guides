@@ -10,9 +10,6 @@ WoWPro:GuideNickname(guide, "LTW_Cata")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;M [item=118/Minor Healing Potion]|QID|171002330|L|118 65|N|Make until your skill level reaches 60\nKeep what you make as needed later|
-;= Learn Recipe|QID|171000901|N|Learn [spell=3171/Elixir of Wisdom] Recipe from Trainer.|
-
 N PLEASE Report any issues you find in this guide.|QID|171000002|N|In our Discord, via #open-a-ticket.\nRight Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Learn Apprentice Leatherworking|QID|901640000|N|Learn from a trainer in any major city.\nYou must be level 5.|
