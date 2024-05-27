@@ -2,10 +2,10 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("Leatherworking", "Profession", "Leatherworking", "WoWPro Team", "Neutral",4)
+local guide = WoWPro:RegisterGuide("BlancLTW_Cata", "Profession", "Leatherworking_Cata", "WoWPro Team", "Neutral",4)
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Leatherworking")
+WoWPro:GuideName(guide, "Leatherworking_Cataclysm")
 WoWPro:GuideNickname(guide, "LTW_Cata")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -36,25 +36,23 @@ l [item=52327]|QID|171000004|L|52327 32|N|You'll need about 32.|
 N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
 
 M [item=2318]|QID|901640001|L|2318 19|N|Make 19 of these.\n\nYou should be level 20 come the end.|
-= Learn Recipe|QID|901640002|N|Learn [item=2304/Light Armor Kit] Recipe from Trainer.|
 M [item=2304]|QID|901640003|L|2304 40|N|Make 40 of these.\n\n You should be level 45 come the end.|
-= Learn Recipe|QID|901640004|N|Learn [item=7276/Handstitched Leather Cloak] Recipe from Trainer.|
 M [item=7276]|QID|901640005|L|7276 20|N|Make 20 of these.\n\nYou should be level 55 come the end.|
 N Learn Journeyman Leatherworking|QID|901640006|N|Learn from a trainer in any major city.\nYou must be level 10.|
 = Learn Recipe|QID|901640007|N|Learn [item=4239/Embossed Leather Gloves] Recipe from Trainer.|
 M [item=4239]|QID|901640008|L|4239 50|N|Make 50 of these.\n\nYou should be level 100 come the end.|
-= Learn Recipe|QID|901640009|N|Learn [item=4242/Fine Leather Belt] Recipe from Trainer.|
-M [item=4242]|QID|901640010|L|4242 25|N|Make 25 of these.\n\nYou should be level 120 come the end.|
+= Learn Recipe|QID|901640009|N|Learn [spell=3763/Fine Leather Belt] Recipe from Trainer.|
+M [item=4246]|QID|901640010|L|4246 25|N|Make 25 of these.\n\nYou should be level 120 come the end.|
 = Learn Recipe|QID|901640011|N|Learn [spell=2167] Recipe from Trainer.|
 M [item=2315]|QID|901640012|L|2315 20|N|Make 20 of these.\n\nYou should be level 135 come the end.|
 N Learn Expert Leatherworking|QID|901640006|N|Learn from a trainer in any major city.\nYou must be level 20.|
 = Learn Recipe|QID|901640013|N|Learn [spell=7135] Recipe from Trainer.|
-M [item=5961]|QID|901640014|L|5961 25|N|Make 25 of these.\n\nYou should be level 150 come the end.|
 = Learn Recipe|QID|901640015|N|Learn [spell=20649] Recipe from Trainer.|
+M [item=5961]|QID|901640014|L|5961 25|N|Make 25 of these.\n\nYou should be level 150 come the end.|
 M [item=4234]|QID|901640016|L|4234 7|N|Make 7 of these.\n\nYou should be level 155 come the end.|
 = Learn Recipe|QID|901640017|N|Learn [item=4236] Recipe from Trainer.|
-M [item=4236]|QID|901640018|L|4236 20|N|Make 20 of these and save them.\n\nYou should be level 165 come the end.|
 = Learn Recipe|QID|901640019|N|Learn [item=4265] Recipe from Trainer.|
+M [item=4236]|QID|901640018|L|4236 20|N|Make 20 of these and save them.\n\nYou should be level 165 come the end.|
 M [item=4265]|QID|901640020|L|4265 15|N|Make 15 of these.\n\nYou should be level 180 come the end.|
 = Learn Recipe|QID|901640021|N|Learn [item=5964] Recipe from Trainer.|
 M [item=5964]|QID|901640022|L|5964 10|N|Make 10 of these.\n\nYou should be level 190 come the end.|
