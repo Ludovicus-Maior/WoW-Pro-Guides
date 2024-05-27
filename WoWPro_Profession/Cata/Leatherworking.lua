@@ -2,10 +2,10 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("BlancLTW_Cata", "Profession", "Leatherworking_Cata", "WoWPro Team", "Neutral",4)
+local guide = WoWPro:RegisterGuide("Leatherworking", "Profession", "Leatherworking", "WoWPro Team", "Neutral",4)
 WoWPro:GuideIcon(guide,"PRO",165)
 WoWPro:GuideLevels(guide)
-WoWPro:GuideName(guide, "Leatherworking_Cataclysm")
+WoWPro:GuideName(guide, "Leatherworking)
 WoWPro:GuideNickname(guide, "LTW_Cata")
 WoWPro:GuideSteps(guide, function()
 return [[
