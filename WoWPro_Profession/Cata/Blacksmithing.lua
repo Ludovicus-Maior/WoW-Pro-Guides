@@ -11,10 +11,44 @@ WoWPro:NoCoordsOK(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N BEFORE WE BEGIN.|QID|171000002|N|Please report any issues or provide Feedback about this guide in our Discord, via the #open-a-ticket channel.|
-N Learn Recipes|QID|171000003|N|We only mention the Recipes or Skills you need for this guide, but feel free to buy ALL when you can.|
+
+N PLEASE Report any issues you find in this guide.|QID|171000002|N|In our Discord, via #open-a-ticket.\nRight Click on the step you have an issue, select the Report Issue, and copy info into Discord.|
+N Learn Recipes|QID|171000003|N|We only mention the Recipe/Skill you need for this guide, but feel free to buy ALL when you can.|
 N Learn  Apprentice Blacksmithing|QID|901640000|N|Learn from a Trainer in any major city. Requires Level 5.|
-B Hammer|QID|901640001|L|5956 1|N|Buy from a Blacksmithing vendor.|
+N Shopping List|QID|171000004|N|The next few lines are going to be the APPROXIMATE amount of mats you need to complete Leatherworking 1 to 525.\nThis is for those that want to farm all mats prior to starting, if you don't want to just click off the steps.\n[color=FF0000]NOTE: [/color]LEFT click this to SKIP the list, right click to skip them separately.|
+l [item=2835]|QID|171000004|L|2835 150|N|You'll need about 150.|
+l [item=2840]|QID|171000004|L|2840 150|N|You'll need about 150.|
+l [item=2836]|QID|171000004|L|2836 55|N|You'll need about 95.|
+l [item=2842]|QID|171000004|L|2842 55|N|You'll need about 5.|
+l [item=2841]|QID|171000004|L|2841 55|N|You'll need about 140.|
+l [item=2838]|QID|171000004|L|2838 105|N|You'll need about 105.|
+l [item=3577]|QID|171000004|L|3577 5|N|You'll need about 5.|
+l [item=3575]|QID|171000004|L|3575 230|N|You'll need about 230.|
+l [item=2605]|QID|171000004|L|2605 35|N|You'll need about 35. Sold by Tailoring and Leatherworking supply vendors|
+l [item=3859]|QID|171000004|L|3859 190|N|You'll need about 190.|
+l [item=3864]|QID|171000004|L|3864 10|N|You'll need about 10.|
+l [item=7912]|QID|171000004|L|7912 315|N|You'll need about 315.|
+l [item=4338]|QID|171000004|L|4338 60|N|You'll need about 60.|
+l [item=3860]|QID|171000004|L|3860 150|N|You'll need about 150.|
+l [item=12365]|QID|171000004|L|12365 20|N|You'll need about 20.|
+l [item=12359]|QID|171000004|L|12359 420|N|You'll need about 420.|
+l [item=8170]|QID|171000004|L|8170 80|N|You'll need about 80.|
+l [item=23445]|QID|171000004|L|23445 170|N|You'll need about 170.|
+l [item=21877]|QID|171000004|L|21877 10|N|You'll need about 10.|
+l [item=23446]|QID|171000004|L|23446 90|N|You'll need about 90.|
+l [item=36916]|QID|171000004|L|36916 320|N|You'll need about 320.|
+l [item=36913]|QID|171000004|L|36913 168|N|You'll need about 168.|
+l [item=37700]|QID|171000004|L|37700 22|N|You'll need about 22.|
+l [item=41163]|QID|171000004|L|41163 5|N|You'll need about 5.|
+l [item=54849]|QID|171000004|L|54849 166|N|You'll need about 166.|
+l [item=52186]|QID|171000004|L|52186 324|N|You'll need about 324.|
+l [item=52327]|QID|171000004|L|52327 120|N|You'll need about 120.|
+l [item=52326]|QID|171000004|L|52326 4|N|You'll need about 4.|
+l [item=52325]|QID|171000004|L|52325 148|N|You'll need about 148.|
+l [item=53039]|QID|171000004|L|53039 2|N|You'll need about 2.|
+l [item=5956]|QID|171000004|L|5956 1|N|Buy from a Blacksmithing vendor.|
+N Shopping List|QID|171000005|N|This completes the Shopping List, you may either have a few left over, or if the RNG of WOW is bad you might need a few more.|
+
 M [item=2862/Rough Sharpening Stone]|QID|171002330|L|2862 40|N|Make until your skill level reaches 30|
 M [item=3470/Rough Grinding Stone]|QID|171002331|L|3470 55|N|Make until your skill level reaches 65. Save 10 of these|
 M [item=2863/Coarse Sharpening Stone]|QID|171002332|L|2863 25|N|Make until your skill level reaches 75|
