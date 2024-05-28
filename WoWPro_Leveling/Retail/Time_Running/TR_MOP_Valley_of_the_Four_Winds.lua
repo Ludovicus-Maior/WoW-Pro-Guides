@@ -196,7 +196,7 @@ C Speak with Den Mudclaw|QID|30053|M|44.26,34.21|QO|3|CHAT|
 A The Farmer's Daughter|QID|30056|M|44.26,34.21|N|From Den Mudclaw.|PRE|30046|
 A Enough is Ookin' Enough|QID|30054|M|44.16,34.23|N|From Mung-Mung.|PRE|30046|
 C Enough is Ookin' Enough|QID|30054|M|45.44,36.02|N|Stick to the right wall of the warren. You can easily get your trophy teeth if you methodically kill them all!|S|
-C The Farmer's Daughter|QID|30056|M|43.55,35.05;41.46,38.6|CS|N|She is underground; standing on a giant Carrot. Talk to her and escort her out.\n[color=FF0000]NOTE: [/color]If you die, you'll have to go and retrieve her again.|
+R The Farmer's Daughter|ACTIVE|30056|M|43.55,35.05;41.46,38.6|CS|N|She is underground; standing on a giant Carrot. Complete the quest and escort her out. Right click to complete this quest if it does not go away!\n[color=FF0000]NOTE: [/color]If you die, you'll have to go and retrieve her again.|
 T The Farmer's Daughter|QID|30056|M|41.30,38.16|N|To Mina Mudclaw.|
 A Seeing Orange|QID|30057|M|41.30,38.16|N|From Mina Mudclaw. She will just follow you out.|PRE|30056|
 C Enough is Ookin' Enough|QID|30054|M|42,33|N|Stick to the right wall of the warren.|US|
