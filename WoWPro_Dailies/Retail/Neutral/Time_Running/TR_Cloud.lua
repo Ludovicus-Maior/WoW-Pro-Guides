@@ -34,7 +34,7 @@ C It's A...|QID|30142|M|57.56,45.07|N|Wait for it to hatch, it will then appear 
 C It's A...|QID|30142|M|57.56,45.07|N|To Instructor Skythorn.|
 
 ;one time chain at revered
-B Grand Commendation|M|56.6,44.4|REP|Order of the Cloud Serpent;1271;revered|L|93229|N|If this is your first character to revered, dont forget to buy the Grand Commendation so that the rest of the rep grind will go faster. It is sold by San Redscale.|
+;B Grand Commendation|M|56.6,44.4|REP|Order of the Cloud Serpent;1271;revered|L|93229|N|If this is your first character to revered, dont forget to buy the Grand Commendation so that the rest of the rep grind will go faster. It is sold by San Redscale.|
 A They Grow Like Weeds|QID|30143|M|57.60,44.94|REP|Order of the Cloud Serpent;1271;revered|N|From Elder Anli.|
 C They Grow Like Weeds|QID|30143|M|58.6,43.6|CHAT|N|Talk to Instructor Windblade and watch the cinematic.|
 T They Grow Like Weeds|QID|30143|M|58.6,43.6|N|To Instructor Windblade.|
@@ -141,7 +141,7 @@ C The Shoe Is On The Other Foot|QID|31700|M|62,22|NC|S|N|Groundspawn in the area
 ;slitherscale
 C Emptier Nests|QID|30157|M|65,25|NC|S|U|78947|N|You can leash them all and return them together to any of the nests with brightly colored eggs. The silken rope does not 'go away' when you turn in the quest, you can destroy it if you want (after you turn in).|
 C Just a Flesh Wound|QID|30148|U|72985|M|65.02,26.90|NC|S|N|Bandage the injured hatchlings. If you prefer to use your heavy windwool bandages, don't use the "use" button to your right, but instead use your bandages from where ever you keep them on your hotbar.| ;I figure that anyone who prefers to use the heavy bandages they already have...is going to have bandages on a keybinding already.
-K Turtles on the beach for their meat|QID|30156|U|79028|L|79027 3|S|N|The turtles drop scraps (as well as the meat) that can be combined in groups of 5 to make a bite for your hatchling.|
+K Turtles on the beach for their meat|ACTIVE|30156|U|79028|L|79027 3|S|N|The turtles drop scraps (as well as the meat) that can be combined in groups of 5 to make a bite for your hatchling.|
 C Restoring the Balance|QID|30155|S|M|69,29|
 C Disarming the Enemy|QID|30158|M|69,29|NC|S|N|On weapon racks around where the slitherscales are.|
 C Preservation|QID|30159|M|67,29|NC|S|N|Pick up the eggs from the ground. They can also drop from the slitherscale mobs you run into.|

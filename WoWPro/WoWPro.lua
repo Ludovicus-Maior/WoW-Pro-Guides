@@ -584,6 +584,11 @@ function WoWPro:OnEnable()
         WoWPro.Guides[gid] = nil
     end
 
+    for gid, guide in pairs(WoWPro.Guides) do
+        if  WoWPro[guide.guidetype].RegisterGuide then
+            WoWPro[guide.guidetype]:RegisterGuide(guide)
+        end
+    end
 
 
     -- Set up the Nickname -> Guide map.
@@ -804,7 +809,12 @@ end
 function WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
     WoWPro:dbp("RegisterGuideInMenuList2(%q,%q,%q,%q)", tostring(AddonType), tostring(GuideType), tostring(GuideName), GID)
     local GuideMenuList = WoWPro.GuideMenuList
-    local AddonAndType = AddonType .. " - " .. GuideType
+    local AddonAndType
+    if AddonType == "Leveling" then
+        AddonAndType = AddonType .. " - " .. GuideType
+    else
+        AddonAndType = AddonType
+    end
     local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonAndType)
     if AddonIndex < 1 then
         if table.getn(GuideMenuList) == 0 then
@@ -920,18 +930,13 @@ end
 function WoWPro.BuildGuideInMenuList()
     WoWPro.GuideMenuList = {}
     for gid, guide in pairs(WoWPro.Guides) do
-        if  WoWPro[guide.guidetype].RegisterGuide then
-            WoWPro[guide.guidetype]:RegisterGuide(guide)
-        end
         WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
     end
     for _, gid in ipairs(WoWProCharDB.GuideStack) do
         local guide = WoWPro.Guides[gid]
         if guide then
-            if  WoWPro[guide.guidetype].RegisterGuide then
-                    WoWPro[guide.guidetype]:RegisterGuide(guide)
-                end
-            WoWPro.RegisterGuideInMenuList("recent guides", guide.guidetype,  guide.name or "??", gid)
+            -- the '[' is used to sort to the bottom of the list
+            WoWPro.RegisterGuideInMenuList("[Recent Guides]", guide.guidetype,  guide.name or "??", gid)
         end
     end
     -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
@@ -1643,6 +1648,7 @@ WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
 WoWPro.CATA = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
 WoWPro.POST_CATA = (WoWPro.TocVersion >= 40000)
 WoWPro.RETAIL = (WoWPro.TocVersion >= 100000)
+WoWPro.RETAIL_RELEASE = 10
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false

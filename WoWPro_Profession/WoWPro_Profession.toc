@@ -11,6 +11,6 @@ WoWPro_Profession.lua
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
 WoWPro_Profession_GuideList.lua
-Professions\Guides.xml
+Retail\Guides.xml
 Vendors\Guides.xml
 Vanilla\Guides.xml

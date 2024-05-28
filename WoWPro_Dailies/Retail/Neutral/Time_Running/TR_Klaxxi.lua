@@ -25,8 +25,8 @@ T Skeer the Bloodseeker|QID|31175|M|54.40,36.20|N|To Skeer the Bloodseeker|
 ; One-Time Quests at Revered
 
 ; BUY COMMENDATION
-B Grand Commendation|REP|The Klaxxi;1337;revered;nobonus|M|55.01,35.55|L|92522|N|Buy the commendation from Ambersmith Zikk and click on it to use. The commendation (once used) doubles your faction gains with The Klaxxi for all characters on the account.|
-U Grand Commendation|REP|The Klaxxi;1337;revered;nobonus|U|92522|N|Click on it, it does no good until you use it.|
+;B Grand Commendation|REP|The Klaxxi;1337;revered;nobonus|M|55.01,35.55|L|92522|N|Buy the commendation from Ambersmith Zikk and click on it to use. The commendation (once used) doubles your faction gains with The Klaxxi for all characters on the account.|
+;U Grand Commendation|REP|The Klaxxi;1337;revered;nobonus|U|92522|N|Click on it, it does no good until you use it.|
 
 A Dropping Our Signal|QID|31439|REP|The Klaxxi;1337;revered|N|This and the next quest are one-time quests available at revered. Accept this quest from Kor'ik.|M|54.77,34.06|
 
@@ -138,7 +138,7 @@ C Dark Skies|QID|31216|M|54.80,36.00|N|Speak to Xaril the Poisoned Mind to start
 
 C Locate Kovok|QID|31808|QO|1|M|50.7,41.6|N|Use Kovok to slay 200 Mantids.|
 
-K Mantids Slaughter|QID|31808|QO|2|M|51.00,43.00|N|Kill Mantids all over the area.|
+K Mantids Slaughter|ACTIVE|31808|QO|2|M|51.00,43.00|N|Kill Mantids all over the area.|
 
 ; Lake of Stars
 
@@ -254,7 +254,7 @@ K Vess-Guard Vik'az|QID|31505|M|29.00,75.60|QO|1|T|Vess-Guard Vik'az|
 
 C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'vess. Use Korven's Experimental Grenade to counter their armor plating.|
 
-R Whispering Stones|QID|31510|M|24.20,86.20|N|Interact with the Zan'thik Resonating Crystal at the Whispering Stones in Zan'vess to incite Adjunct Sek'ot|
+R Whispering Stones|ACTIVE|31510|M|24.20,86.20|N|Interact with the Zan'thik Resonating Crystal at the Whispering Stones in Zan'vess to incite Adjunct Sek'ot|
 
 K Adjunct Sek'ot|QID|31510|M|24.20,86.20|T|Adjunct Sek'ot|QO|1|N|After you interact with the crystal, he will appear, kill him.|
 

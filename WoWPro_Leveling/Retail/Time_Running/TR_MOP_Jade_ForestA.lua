@@ -81,14 +81,14 @@ T The Right Tool For The Job|QID|31735|M|46.5,96.3|N|To Rell Nightwind, who will
 A Envoy of the Alliance|QID|31736|PRE|31735|M|46.5,96.3|N|From Rell Nightwind.|
 A The Cost of War|QID|31737|PRE|31735|M|46.5,96.3|N|From Rell Nightwind.|
 C The Cost of War|QID|31737|M|44.31,95.89;44.80,92.42;44.60,88.50|CS|N|Make your way off the pier and kill the Sha Haunt and Harbringer.  Make your way northwards as you proceed.|
-C Envoy of the Alliance|QID|31736|M|45.9,85.0|N|Head to Sunke Khang at Paw'don Village to the north.|NC|
+C Envoy of the Alliance|QID|31736|M|45.9,85.0|N|Head to Sunke Khang at Paw'Don Village to the north.|NC|
 T Envoy of the Alliance|QID|31736|M|46.2,84.8|N|To Sunke Khang.|
 T The Cost of War|QID|31737|M|46.2,84.8|N|To Taran Zhu.|
 A Pillaging Peons|QID|31738|PRE|31736&31737|M|46.13,84.58|N|From Sunke Khang.|
 A Priorities!|QID|31739|PRE|31736&31737|M|46.22,84.69|N|From Teng Applebloom.|
 A Critical Condition|QID|29552|PRE|31736&31737|M|46.10,84.54|N|From Mishka.|
-f Paw'don Village|QID|29552|M|46.05,85.10|N|Learn the Paw'don Village flight-point from Wing Kyo.|
-h Paw'don Village|QID|29552|M|44.9,84.4|N|Consider setting your hearthstone to Paw'don Village.  It has profession trainers present and there is a portal to Stormwind.|
+f Paw'Don Village|QID|29552|M|46.05,85.10|N|Learn the Paw'Don Village flight-point from Wing Kyo.|
+h Paw'Don Village|QID|29552|M|44.9,84.4|N|Consider setting your hearthstone to Paw'Don Village.  It has profession trainers present and there is a portal to Stormwind.|
 C Pillaging Peons|QID|31738|S|M|42.08,87.83|N|Kill the Peons.  The Taskmasters also count towards this quest.|
 C Critical Condition|QID|29552|S|NC|M|42.64,87.62|N|Right-click on the wounded soldiers to heal them.|
 C Priorities!|QID|31739|NC|M|43.62,88.27|N|Click on the Applebloom cider barrels and let Teng Applebloom pick them up. It's quite impressive to see him carry them all!|
@@ -97,7 +97,7 @@ A Koukou's Rampage|QID|31740|PRE|31739|M|39.56,90.09|N|From Lin Applebloom.|
 K Koukou|ACTIVE|31740|QO|1|M|39.4,89.9|N|Kill Koukou.\n\nIf he is not there, wait for him to respawn.|
 C Critical Condition|QID|29552|US|NC|M|42.64,87.62|N|Finish healing the wounded soldiers by right-clicking them.|
 C Pillaging Peons|QID|31738|US|M|42.08,87.83|N|Finish killing the Peons.  The Taskmasters also count towards this quest.|
-H Paw'don Village|QID|31740|N|Hearthstone (or run) to Paw'don Village|M|44.88,84.42|
+H Paw'Don Village|QID|31740|N|Hearthstone (or run) to Paw'Don Village|M|44.88,84.42|
 T Critical Condition|QID|29552|M|46.13,84.58|N|To Mishka.|
 T Koukou's Rampage|QID|31740|M|46.26,84.73|N|To Sunke Khang.|
 T Pillaging Peons|QID|31738|M|46.26,84.73|N|To Sunke Khang.|
@@ -440,7 +440,7 @@ R Restore Balance|QID|29576|M|37.5,34.0;33.94,32.27;32.74,34.0;34.09,33.52|CC|AC
 R What Is Worth Fighting For|QID|29576|M|38.1,35.7;39.6,33.6;35.74,30.46|CC|ACH|6858;2|N|Exploration > The First Monks. \nHead back down the path back to the road and follow the waypoints.|RANK|3|
 ; [aldavor] added rank 3 since it's achiev not quest.
 R Xin Wo Yin the Broken Hearted|QID|29576|M|37.30, 30.12|ACH|7230;2|N|Exploration>Legend of the Brewfathers.|RANK|3|
-F Paw'don Village|QID|29576|M|43.52,24.55|CS|N|At Studious Chu.(or you can just ride straight to Nectarbreeze...or...if your hearthstone is set there, hearth to Paw'don)|
+F Paw'Don Village|QID|29576|M|43.52,24.55|CS|N|At Studious Chu.(or you can just ride straight to Nectarbreeze...or...if your hearthstone is set there, hearth to Paw'Don)|
 R Nectarbreeze Orchard|QID|29576|M|43.54,75.91|CC|
 T An Air of Worry|QID|29576|N|To Shao the Defiant|M|43.5,75.9|
 A Defiance|QID|29578|M|43.54,75.91|N|From Shao the Defiant.|
@@ -478,7 +478,8 @@ C Delivery to Historian Dinh|QID|30495|NC|QO|1|M|46.36,61.80|
 T Love's Labor|QID|30495|M|48.31,61.35|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|PRE|30495|M|48.31,61.35|N|From Foreman Raike.|
 ; [aldavor] check this, not auto-closing.
-F Temple of the Jade Serpent|QID|29932|M|48.2,60.0;55.8,57.1|CC|N|Talk to Kitemaster Shoku for a ride to the Temple of the Jade Serpent and upon landing talk to Elder Sage Wind-Yi for a cut scene.|
+F Temple of the Jade Serpent|QID|29932|M|48.2,60.0;55.8,57.1|CC|N|Talk to Kitemaster Shoku for a ride to the Temple of the Jade Serpent.|
+C The Temple of the Jade Serpent|QID|29932|M|55.84,57.08|QO|1|NC|CHAT|N|Speak with Elder Sage Wind-Yi.|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.67|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|PRE|29932|M|58.13,58.67|N|From Elder Sage Rain-Zhu.|
 A The Librarian's Quandary|QID|29998|PRE|29932|M|58.13,58.67|N|From Elder Sage Rain-Zhu.|

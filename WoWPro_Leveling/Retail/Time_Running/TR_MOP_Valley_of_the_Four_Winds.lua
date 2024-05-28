@@ -165,49 +165,12 @@ A Children of the Water|QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Ha
 f Halfhill|ACTIVE|30049|M|56.50,50.36|N|From Wing Nga.|TAXI|-Halfhill|
 N Fishing quest and cooking training|AVAILABLE|31281|N|If you want to, this is a good time to do the fishing quest and cooking training. Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|IZ|5980|RANK|3|
 ; -- Fishing quest
-A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|
+;A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|
 T You Want Fish?|QID|32684|M|58.92,46.92|N|To Ben of the Booming Voice down by the shore of the Gilding Stream.|
 A No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|From Ben of the Booming Voice.\nThis quest is meant to show you can fish without a pole.|
 N Learn Fishing Skill|QID|3562592|M|58.92,46.92|N|Learn the fishing skill from Ben of the Booming Voice.|P|Fishing;356;4|SPELL|Fishing;2592|
 C Go Fish|QID|32685|L|74866 5|N|To fish, simply click the Fishing icon and pay attention to the bobber. Hover over the bobber and click on it when it moves.\n[color=FF0000]NOTE: [/color]Drag the Fishing icon from your Profession Book to one of your bars for easier access.|
 T No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|To Ben of the Booming Voice.|
-; --
-; -- Cooking quests
-A So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|From Sungshin Ironpaw, in The Halfhill Market.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|RANK|3|
-N Learn Cooking|QID|1852550|M|53.58,51.22|N|Learn from Sungshin Ironpaw. You need this to do any cooking.|P|Cooking;185;0|SPELL|Cooking;2550|
-N Learn Pandaria Cooking|QID|185264640|M|53.58,51.22|N|Learn from Sungshin Ironpaw. You need this to cook Pandaren recipes.|P|Cooking;185;4|SPELL|Pandaria Cooking;264640|
-B Pandaren Peach|ACTIVE|31281|M|53.58,51.22|L|74660 5|N|Buy 5 from Sungshin Ironpaw.|
-C Sliced Peaches|QID|31281|M|PLAYER|N|Make 5 Sliced Peaches.|NC|
-T So You Want to Be a Chef...|QID|31281|M|53.58,51.22|N|To Sungshin Ironpaw.|
-A Ready for Greatness|QID|31302|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31281|
-A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.|PRE|31281|
-B Rice Pudding Ingredients|ACTIVE|31302|M|53.58,51.22|L|74852 5|N|Buy 5 Yak Milk from Sungshin Ironpaw.|
-B Rice Pudding Ingredients|ACTIVE|31302|M|53.58,51.22|L|74851 5|N|Buy 5 Rice from Sungshin Ironpaw.|
-C Rice Pudding|QID|31302|M|53.58,51.22|NC|
-T Ready for Greatness|QID|31302|M|53.58,51.22|N|To Sungshin Ironpaw.|
-N Advanced Pandaren Cooking|AVAILABLE|31479^31311^31478^31472^31475^31470|M|PLAYER|N|Upon turning in 'Ready for Greatness', you'll unlock 6 quests to unlock further cooking skills and dailies.\nThis guide will go no further into it.|RANK|3|JUMP|Pandaren Cooking|
-; --
-; -- The Tillers Quest chain
-N The Tillers Rep Guide Intro|AVAILABLE|30252|N|[color=FF0000]NOTE: [/color]This chain for The Tillers and is optional. It's quick and easy XP; even if you don't plan on doing the farming portion.|IZ|376|RANK|3|
-A A Helping Hand|QID|30252|M|52.01,47.99|N|From Farmer Yoon in Sunsong Ranch.\n[color=FF0000]NOTE: [/color]Skip this step if you don't wish to do the quest chain.|RANK|3| ; Started at 22,992 xp
-C Remove the rocks|QID|30252|M|52.8,49.81|N|Click on the Unbudging Rock to dig it up. You'll find them spread out around Sunsong Ranch.\n[color=FF0000]NOTE: [/color]You are phased and no one (outside of your party) can take yours.|NC|
-T A Helping Hand|QID|30252|M|52.75,47.94|N|To Farmer Yoon.|
-A Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|From Farmer Yoon, after a lot of talking.|PRE|30252|
-C Get seeds from Merchant Greenfield|QID|30535|M|52.88,52.14|L|80295|N|It's a chat option, not a purchase.|CHAT|
-T Learn and Grow I: Seeds|QID|30535|M|52.25,48.79|N|To Farmer Yoon.|
-A Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|N|From Farmer Yoon.|PRE|30535|
-C Tilling and Planting|QID|30254|M|52.02,48.30|N|Click the untilled soil to till, then target it and use the seeds.|T|Tilled Soil|U|80302|NC|
-T Learn and Grow II: Tilling and Planting|QID|30254|M|52.25,48.79|N|To Farmer Yoon.|
-A Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|N|From Farmer Yoon.|PRE|30254|
-C Watering Crops|QID|30255|M|52.02,48.30|N|Face towards the plants and use the watering can.|U|79104|NC|
-T Learn and Grow III: Tending Crops|QID|30255|M|52.25,48.79|N|To Farmer Yoon.|
-A Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|N|From Farmer Yoon.|PRE|30255|
-C Harvest the cabbage|QID|30256|M|52.02,48.30|N|Click on the cabbages (both) to harvest them.|NC|
-T Learn and Grow IV: Harvesting|QID|30256|M|52.25,48.79|N|To Farmer Yoon.|
-A Learn and Grow V: Halfhill Market|QID|30257|M|52.25,48.79|N|From Farmer Yoon.|PRE|30256|
-C Investigate the Dark Soil|QID|30257|M|52.75,48.07|N|The Dark Soil is under the house. Click on it to investigate and loot the Marsh Lily from it.|NC|
-T Learn and Grow V: Halfhill Market|QID|30257|M|53.16,51.79|N|To Gina Mudclaw in Halfhill Market.|
-N The Tillers Guide|AVAILABLE|31945|N|This completes the Intro to The Tillers. From this point, you can either continue with the Tiller Guide or move on with the rest of the Valley of the Four Winds.|JUMP|The Tillers|PRE|30257|
 ; --
 T Doesn't Hold Water|QID|30049|M|54.28,38.74|N|To Mudmug, on the northern exit of the ring road, pacing around his barrels.|
 A The Great Water Hunt|QID|30051|M|54.19,38.65|N|From Mudmug.|PRE|30049|
@@ -233,7 +196,7 @@ C Speak with Den Mudclaw|QID|30053|M|44.26,34.21|QO|3|CHAT|
 A The Farmer's Daughter|QID|30056|M|44.26,34.21|N|From Den Mudclaw.|PRE|30046|
 A Enough is Ookin' Enough|QID|30054|M|44.16,34.23|N|From Mung-Mung.|PRE|30046|
 C Enough is Ookin' Enough|QID|30054|M|45.44,36.02|N|Stick to the right wall of the warren. You can easily get your trophy teeth if you methodically kill them all!|S|
-C The Farmer's Daughter|QID|30056|M|43.55,35.05;41.46,38.6|CS|N|She is underground; standing on a giant Carrot. Talk to her and escort her out.\n[color=FF0000]NOTE: [/color]If you die, you'll have to go and retrieve her again.|
+R The Farmer's Daughter|ACTIVE|30056|M|43.55,35.05;41.46,38.6|CS|N|She is underground; standing on a giant Carrot. Complete the quest and escort her out. Right click to complete this quest if it does not go away!\n[color=FF0000]NOTE: [/color]If you die, you'll have to go and retrieve her again.|
 T The Farmer's Daughter|QID|30056|M|41.30,38.16|N|To Mina Mudclaw.|
 A Seeing Orange|QID|30057|M|41.30,38.16|N|From Mina Mudclaw. She will just follow you out.|PRE|30056|
 C Enough is Ookin' Enough|QID|30054|M|42,33|N|Stick to the right wall of the warren.|US|

@@ -37,10 +37,15 @@ end
 function WoWPro.Profession:PreRowUpdate(row)
     local k = row.index
     -- Break down the current step and re-create
-    if WoWPro.prof[k] and WoWPro.mats[k] and WoWPro.craft[k] then
+	if WoWPro.prof[k] and WoWPro.mats[k] and WoWPro.craft[k] then
 		WoWPro.step[k] = WoWPro.ExpandMarkup(WoWPro.step[k])
 		local _, profnum, proflvl, _, profmaxlvl = (";"):split(WoWPro.prof[k])
-		if proflvl == '*' then proflvl = 301 end -- Set to the maximum level obtainable in the expansion plus 1
+		if proflvl == '*' then
+			local skill = tonumber(profnum)
+			if WoWPro.tradeskills[skill] then
+				proflvl = WoWPro.tradeskills[skill].skillMax + 1
+			end
+		end
 		if not proflvl then
 			WoWPro.Profession:Error("P tag [%s] malformed at [%s] QID %s", WoWPro.prof[k], WoWPro.step[k], tostring(WoWPro.QID[k]))
 			return

@@ -820,7 +820,7 @@ C The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=ff8000]E
 T The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|C|Mage|
 A Power in Uldaman|QID|1956|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Tabetha.|PRE|1955|C|Mage|
 
-F Gadgetzan|QID|1137|Z|Dustwallow Marsh|M|65.50,51.30|N|Fly to Gadgetzan.|
+F Gadgetzan|QID|1137|Z|Dustwallow Marsh|M|67.6,51.4|N|Fly to Gadgetzan.|
 T Tran'rek|QID|2864|M|51.56,26.76|Z|Tanaris|N|To Tran'rek. Don't get follow-up.|
 R The Shimmering Flats|QID|1137|M|75.5,97.75|N|Back up to Thousand Needles.|
 T Rumors for Kravel|QID|1117|M|77.79,77.28|N|To Kravel Koalbeard.|

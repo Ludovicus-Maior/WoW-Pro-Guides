@@ -31,4 +31,4 @@ Treasures\Guides.xml
 Rares\Guides.xml
 Reputation\Guides.xml
 World_Events\Guides.xml
-
+Time_Running\Guides.xml
