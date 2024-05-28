@@ -884,7 +884,7 @@ function WoWPro.TrashItem(use, step)
         for slot=1,slots do
             local id=_G.C_Container.GetContainerItemID(bag,slot)
             if id == use then
-                local itemName = _G.GetItemInfo(id)
+                local itemName = WoWPro.C_Item_GetItemInfo(id)
                 local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
                 dialog.data = { step = step, itemName = itemName}
                 dialog.data2 = {bag = bag, slot = slot}
@@ -931,8 +931,8 @@ end
 
 function WoWPro.SelectItemToUse(use, debug)
     if not use:find("^", 1, true)  then
-        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, _G.GetItemInfo(use) or "NIL")
-        return _G.GetItemInfo(use), use
+        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, WoWPro.C_Item_GetItemInfo(use) or "NIL")
+        return WoWPro.C_Item_GetItemInfo(use), use
     end
     local value = QidMapReduce(use,false,"^","|",function (item) return (_G.GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
     WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
@@ -1304,7 +1304,7 @@ if step then
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
-        if action == "*" and use and _G.GetItemInfo(use) then
+        if action == "*" and use and WoWPro.C_Item_GetItemInfo then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
             currentRow.itembutton:SetAttribute("type1", "click1")
@@ -2962,10 +2962,15 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skipping spells if known.
             -- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
             -- This tests for Spells you can put on a button, essentially.
+            local spellName
+            local spellKnown
             if WoWPro.spell and WoWPro.spell[guideIndex] then
                 local _, spellID, spellFlip = (";"):split(WoWPro.spell[guideIndex])
-                local spellName = _G.GetSpellInfo(tonumber(spellID))
-                local spellKnown = _G.GetSpellInfo(spellName)
+                local spellInfo = WoWPro.C_Spell_GetSpellInfo(tonumber(spellID))
+                if spellInfo then
+                    spellName = spellInfo.name
+                end
+                spellKnown = _G.IsPlayerSpell(spellID)
                 -- Testing if RUNE tag valid (Rune spells use different API than regular spells)
                 if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC and _G.C_Seasons then
                     local seasonrealm = _G.C_Seasons.HasActiveSeason()
@@ -2990,7 +2995,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if spellFlip then spellKnown = not spellKnown end
                 WoWPro:dbp("Checking spell step %s [%s] for %s: Nomen %s, Known %s",stepAction,step,WoWPro.spell[guideIndex],tostring(spellName),tostring(spellKnown))
                 if spellKnown then
-                    local why = ("Skipping because spell [%s] is known=%s"):format(spellName, tostring(not not spellKnown))
+                    local why = ("Skipping because spell [%s] is known=%s"):format(tostring(spellName), tostring(not not spellKnown))
                     WoWPro.CompleteStep(guideIndex, why)
                     skip = true
                     WoWPro:dbp(why)
@@ -3013,15 +3018,19 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.fly and WoWPro.fly[guideIndex] and WoWPro.Client >= 3 then
                 if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
-                    local spellName
-                    local spellKnown
+                    local spellInfo
                     local canFly
+                    local mSkill
+                    local eSkill
                     local flyFlip = false
                     if (expansion:sub(1, 1) == "-") then
                         expansion = expansion:sub(2)
                         flyFlip = true
                     end
-					local eSkill = _G.GetSpellInfo(34090)
+                    spellInfo = WoWPro.C_Spell_GetSpellInfo(34090)
+                    if spellInfo then
+                        eSkill = spellInfo.name
+                    end
 					if WoWPro.WRATH then
 						if WoWProCharDB.Tradeskills[762] and WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
 							canFly = true
@@ -3030,24 +3039,36 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 							spellKnown = true
 							spellName = "Flying"
 						elseif expansion == "WOTLK" and canFly then
-							spellName = _G.GetSpellInfo(54197)
-							spellKnown = _G.GetSpellInfo(spellName)
+                            spellInfo = WoWPro.C_Spell_GetSpellInfo(54197)
+                            if spellInfo then
+                                spellName = spellInfo
+                            end
+							spellKnown = _G.IsPlayerSpell(54197)
 						end
 					else
-						local mSkill = _G.GetSpellInfo(90265)
-						if _G.GetSpellInfo(eSkill) then
+                        spellInfo = WoWPro.C_Spell_GetSpellInfo(90265)
+                        if spellInfo then
+						    mSkill = spellInfo.name
+                        end
+						if _G.IsPlayerSpell(34090) then
 							canFly = true
 							spellName = eSkill
-						elseif _G.GetSpellInfo(mSkill) then
+						elseif _G.IsPlayerSpell(90265) then
 							canFly = true
 							spellName = mSkill
 						end
 
 						if expansion == "SHADOWLANDS" and canFly then
-							spellName = _G.GetSpellInfo(352177)
+                            spellInfo = WoWPro.C_Spell_GetSpellInfo(352177)
+                            if spellInfo then
+                                spellName = spellInfo.name
+                            end
 							spellKnown = _G.C_QuestLog.IsQuestFlaggedCompleted(63893)
 						elseif expansion == "SHADOWLANDS9.2" and canFly then
-							spellName = _G.GetSpellInfo(366736)
+                            spellInfo = WoWPro.C_Spell_GetSpellInfo(366736)
+							if spellInfo then
+                                spellName = spellInfo.name
+                            end
 							spellKnown = _G.C_QuestLog.IsQuestFlaggedCompleted(65539)
 						elseif expansion == "BFA" and canFly then
 							spellKnown = true

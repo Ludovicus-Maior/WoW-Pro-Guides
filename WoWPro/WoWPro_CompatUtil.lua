@@ -204,3 +204,57 @@ function WoWPro.GetItemCooldown(itemID)
         return unpack({_G.C_Container.GetItemCooldown(itemID)})
     end
 end
+
+--[[C_Reputation.GetFactionDataByID]]
+function WoWPro.C_Reputation_GetFactionDataByID(factionID)
+    if WoWPro.RETAIL then
+        return _G.C_Reputation.GetFactionDataByID(factionID)
+    else
+        local name, description, _, _, _, _, atWarWith, canToggleAtWar, _, isCollapsed, _, isWatched, isChild, _, hasBonusRepGain, _ = _G.GetFactionInfoByID(factionID)
+        return {
+            hasBonusRepGain = hasBonusRepGain,
+            description = description,
+            -- isHeaderWithRep
+            -- isHeaderCurrentReactionThreshold
+            -- canSetInactive
+            atWarWith = atWarWith,
+            isWatched = isWatched,
+            isCollapsed = isCollapsed,
+            canToggleAtWar = canToggleAtWar,
+            -- nextReactionThreshold,
+            factionID = factionID,
+            name = name,
+            --currentStanding,
+            --isAccountWide,
+            isChild = isChild,
+            -- reaction
+        }
+    end
+end
+
+--[[C_Spell.GetSpellInfo]]
+function WoWPro.C_Spell_GetSpellInfo(spellID)
+    if WoWPro.RETAIL then
+        return _G.C_Spell.GetSpellInfo(spellID)
+    else
+        local name, _, icon, castTime, minRange, maxRange, _, originalIcon = _G.GetSpellInfo(spellID)
+        return{
+           castTime = castTime,
+           name = name,
+           minRange = minRange,
+           originalIconID = originalIcon,
+           iconID = icon,
+           maxRange = maxRange,
+           spellID = spellID
+        }
+    end
+end
+
+--[[C_Item.GetItemInfo]]
+function WoWPro.C_Item_GetItemInfo(itemID)
+    if WoWPro.RETAIL then
+        return _G.C_Item.GetItemInfo(itemID)
+    else
+        return _G.GetItemInfo(itemID)
+    end
+end
