@@ -12,7 +12,6 @@ return [[
 
 N BEFORE WE BEGIN.|QID|171000002|N|Please report any issues or provide Feedback about this guide in our Discord, via the #open-a-ticket channel.|
 N Learn Recipes|QID|171000003|N|We only mention the Recipes or Skills you need for this guide, but feel free to buy ALL when you can.|
-
 N Learn Apprentice Engineering|QID|902020000|N|Learn from a trainer in any major city. You must be level 5.|
 B Blacksmith Hammer|QID|902020001|N|Buy from a Blacksmithing or Engineering Supply vendor.|L|5956 1|
 M [item=4357/Rough Blasting Powder]|QID|171002330|N|Make around 60 until your skill lvl hits 35|
