@@ -256,8 +256,8 @@ T The Eye of All Storms|QID|13588|M|43.66,53.44|Z|1439; Darkshore|N|To Malfurion
 A Mounting the Offensive|QID|13902|PRE|13588|M|43.66,53.44|Z|1439; Darkshore|N|From Malfurion Stormrage.|
 R Wildbend River|ACTIVE|13902|M|42.88,70.70|Z|1439; Darkshore|N|Follow the road south.|
 f Grove of the Ancients|QID|13902|M|44.39,75.39|Z|1439; Darkshore|N|At Delanea.|
-T Mounting the Offensive|QID|13902|M|45.31,75.14|Z|1439; Darkshore|N|To Balren of the Claw.|
-A Leave No Tracks|QID|13892|M|45.31,75.14|Z|1439; Darkshore|N|From Balren of the Claw.|
+T Mounting the Offensive|QID|13902|M|45.30,75.13|Z|1439; Darkshore|N|To Balren of the Claw.|
+A Leave No Tracks|QID|13892|M|45.30,75.13|Z|1439; Darkshore|N|From Balren of the Claw.|
 A What's Happening to the Blackwood Furbolg?|QID|13525|LEAD|13526|M|45.14,75.19|Z|1439; Darkshore|N|From Foriel Broadleaf.|
 A Consumed|QID|13881|M|45.20,74.61|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
 C Consumed|QID|13881|QO|1|M|45.20,78.82|Z|1439; Darkshore|N|Kill Consumed Thistle Bears.|T|Consumed Thistle Bear|S|
@@ -276,9 +276,9 @@ A Stepping Up Surveillance|QID|13948|PRE|13892|M|45.27,75.08|Z|1439; Darkshore|N
 C Stepping Up Surveillance|QID|13948|M|39.75,86.45;39.96,84.84|CS|Z|1439; Darkshore|N|Continuing to avoid the Faceless Ones, work your way to the top of the tower to the waypoint and wait until the NPCs start talking for the completion notice.|U|46696|NC|
 C Fleetfoot's Tailfeathers|ACTIVE|13544|QO|1|M|45.49,78.85|Z|1439; Darkshore|L|44886|ITEM|44886|N|Fleetfoot.|T|Fleetfoot|
 C The Bear's Blessing|QID|13544|M|45.32,76.77|Z|1439; Darkshore|N|Go to the bear statue and use the Bear's Paw Bundle.|U|44888|
-T Stepping Up Surveillance|QID|13948|M|45.31,75.14|Z|1439; Darkshore|N|To Balren of the Claw.|
+T Stepping Up Surveillance|QID|13948|M|45.30,75.13|Z|1439; Darkshore|N|To Balren of the Claw.|
 A Unearthed Knowledge|QID|13896|PRE|13948|M|45.32,75.06|Z|1439; Darkshore|N|From Larien.|
-r Sell junk, repair/restock|ACTIVE|13882|M|45.32,74.63|Z|1439; Darkshore|N|At Syleath Fairglade.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+r Sell junk, repair/restock|ACTIVE|13881|M|45.32,74.63|Z|1439; Darkshore|N|At Syleath Fairglade.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 T Consumed|QID|13881|M|45.20,74.61|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
 A The Seeds of Life|QID|13882|PRE|13881|M|45.20,74.61|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
 C Seed of the Earth|QID|13882|QO|1|M|45.41,74.85|Z|1439; Darkshore|N|Talk to Onu to get the Seed of the Earth.|CHAT|
@@ -286,68 +286,78 @@ C Seed of the Sky|QID|13882|QO|3|M|42.06,78.96|Z|1439; Darkshore|L|46355|N|Locat
 T The Bear's Blessing|QID|13544|M|43.51,81.02|Z|1439; Darkshore|N|To Elder Brolg.|
 A Cleansing the Afflicted|QID|13545|PRE|13544|M|43.51,81.02|Z|1439; Darkshore|N|From Elder Brolg.|
 A Jadefire Braziers|QID|13572|PRE|13544|M|43.58,81.02|Z|1439; Darkshore|N|From Gren Tornfur.|
-C Cleansing the Afflicted|QID|13545|M|44.62,82.07|Z|1439; Darkshore|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|U|44889|S|
+C Cleansing the Afflicted|QID|13545|M|44.62,82.07|Z|1439; Darkshore|N|After targetting a Furblog and using the Blessed Herb Bundle on it, kill what spawns.\n[color=FF0000]NOTE: [/color]Do not fight the Furblog as it will become friendly and despawn once the Corruption is dead.|T|Maddened Blackwood|U|44889|S|
 C Jadefire Braziers|QID|13572|M|44.36,84.07|Z|1439; Darkshore|N|Attack the braziers with the green fire to destroy them.|
-C Cleansing the Afflicted|QID|13545|M|44.62,82.07|Z|1439; Darkshore|N|Use the Blessed Herb Bundle on the Furblogs and kill what spawns.|U|44889|US|
-T Jadefire Braziers|QID|13572|M|43.55,80.94|Z|1439; Darkshore|N|To Gren Tornfur.|
-T Cleansing the Afflicted|QID|13545|M|43.55,80.94|Z|1439; Darkshore|N|To Elder Brolg.|
-A The Defiler|QID|13546|PRE|13545|M|43.55,80.94|Z|1439; Darkshore|N|From Elder Brolg.|
-C The Defiler|QID|13546|M|46.34,83.66|Z|1439; Darkshore|N|Head inside the cave and kill Sharax.|
-T The Defiler|QID|13546|M|43.54,80.93|Z|1439; Darkshore|N|To Elder Brolg.|
-C The Seeds of Life|QID|13882|M|38.06,79.14|Z|1439; Darkshore|N|Look for shells on the beach.|NC|
-T Unearthed Knowledge|QID|13896|M|37.69,82.74|Z|1439; Darkshore|N|To Archaeologist Groff.|
-A Soggoth and Kronn|QID|13893|PRE|13896|M|37.69,82.74|Z|1439; Darkshore|N|From Archaeologist Groff.|
-A Sweeping Clean the Ruins|QID|13907|M|37.69,82.74|Z|1439; Darkshore|N|From Archaeologist Groff.|
-A Swamped Secrets|QID|13912|M|37.69,82.93|Z|1439; Darkshore|N|From Jr. Archaeologist Ferd.|
-A The Absent-Minded Prospector|QID|13911|M|37.69,82.93|Z|1439; Darkshore|N|From Prospector Remtravel. If he isn't there then someone else is doing the quest. Either wait or do part of the other quests.|FAIL|
-C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|Z|1439; Darkshore|N|Kill murlocs to finish the quest.|S|
-C The Absent-Minded Prospector|QID|13911|M|37.68,82.95|Z|1439; Darkshore|N|Follow him and protect him. Kill murlocs as you come across them.|NC|
-T The Absent-Minded Prospector|QID|13911|M|37.73,82.95|Z|1439; Darkshore|N|To Jr. Archaeologist Ferd.|
-C Swamped Secrets|QID|13912|M|36.99,83.37|Z|1439; Darkshore|N|Go down into the water to get the disc.|NC|
-C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|Z|1439; Darkshore|N|Kill murlocs to finish the quest.|US|
-T Swamped Secrets|QID|13912|M|37.70,82.90|Z|1439; Darkshore|N|To Jr. Archaeologist Ferd.|
-A The Titans' Terminal|QID|13918|PRE|13912|M|37.70,82.90|Z|1439; Darkshore|N|From Jr. Archaeologist Ferd.|
-T Sweeping Clean the Ruins|QID|13907|M|37.70,82.90|Z|1439; Darkshore|N|To Archaeologist Groff.|
-A Got Some Flotsam?|QID|13909|PRE|13907|M|37.70,82.90|Z|1439; Darkshore|N|From Archaeologist Groff.|
-C Got Some Flotsam?|QID|13909|M|37.16,86.91|Z|1439; Darkshore|N|Look all around the beach for the wreckage.|S|NC|
-l The Titans' Terminal|QID|13918|M|37.09,81.24|Z|1439; Darkshore|L|46702 5|N|Use the detector, click on the mud piles, and then use it again till you have 5.|U|46388|
+C Cleansing the Afflicted|QID|13545|M|44.62,82.07|Z|1439; Darkshore|N|After targetting a Furblog and using the Blessed Herb Bundle on it, kill what spawns.\n[color=FF0000]NOTE: [/color]Do not fight the Furblog as it will become friendly and despawn once the Corruption is dead.|T|Maddened Blackwood|U|44889|US|
+T Jadefire Braziers|QID|13572|M|43.58,81.02|Z|1439; Darkshore|N|To Gren Tornfur.|
+T Cleansing the Afflicted|QID|13545|M|43.51,81.02|Z|1439; Darkshore|N|To Elder Brolg.|
+A The Defiler|QID|13546|PRE|13545|M|43.51,81.02|Z|1439; Darkshore|N|From Elder Brolg.|
+C The Defiler|QID|13546|M|46.78,84.02|Z|1439; Darkshore|N|Head inside the cave and kill Sharax.|
+T The Defiler|QID|13546|M|43.51,81.02|Z|1439; Darkshore|N|To Elder Brolg.|
+C The Seeds of Life|QID|13882|QO|2|M|38.06,79.14|Z|1439; Darkshore|L|46356|N|Click on one of the shells found on the beach or in the water.\n[color=FF0000]NOTE: [/color]Be prepared for a ambush when you do it.|
+T Unearthed Knowledge|QID|13896|M|37.62,82.82|Z|1439; Darkshore|N|To Archaeologist Groff.|
+A Soggoth and Kronn|QID|13893|PRE|13896|M|37.62,82.82|Z|1439; Darkshore|N|From Archaeologist Groff.|
+A Sweeping Clean the Ruins|QID|13907|M|37.62,82.82|Z|1439; Darkshore|N|From Archaeologist Groff.|
+A Swamped Secrets|QID|13912|M|37.75,82.94|Z|1439; Darkshore|N|From Jr. Archaeologist Ferd.|
+A The Absent-Minded Prospector|QID|13911|M|37.69,82.93|Z|1439; Darkshore|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Prospector Remtravel.\n[color=FF0000]NOTE: [/color]If he isn't there, then someone else is doing the quest and you can either wait, or do part of the other quests.|
+A The Absent-Minded Prospector|QID|13911|M|37.69,82.93|Z|1439; Darkshore|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Prospector Remtravel to restart.|FAIL|
+C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|Z|1439; Darkshore|N|Kill the required Murlocs.|S|
+C The Absent-Minded Prospector|QID|13911|M|37.68,82.95|Z|1439; Darkshore|N|Follow him around the top of the ruins and protect him.|
+T The Absent-Minded Prospector|QID|13911|M|37.75,82.94|Z|1439; Darkshore|N|To Jr. Archaeologist Ferd.|
+C Swamped Secrets|QID|13912|M|37.02,83.44|Z|1439; Darkshore|N|Go down into the water to get the disc.|NC|
+C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|Z|1439; Darkshore|N|Finish killing the required Murlocs.|US|
+T Sweeping Clean the Ruins|QID|13907|M|37.62,82.82|Z|1439; Darkshore|N|To Archaeologist Groff.|
+A Got Some Flotsam?|QID|13909|PRE|13907|M|37.62,82.82|Z|1439; Darkshore|N|From Archaeologist Groff.|
+T Swamped Secrets|QID|13912|M|37.75,82.94|Z|1439; Darkshore|N|To Jr. Archaeologist Ferd.|
+A The Titans' Terminal|QID|13918|PRE|13912|M|37.75,82.94|Z|1439; Darkshore|N|From Jr. Archaeologist Ferd.|
+C Got Some Flotsam?|QID|13909|M|36.58,79.73|Z|1439; Darkshore|L|46384 5|N|Look along the beach and in the water for the wreckage.|S|
+C The Titans' Terminal|QID|13918|M|37.09,81.24|Z|1439; Darkshore|L|46702 5|N|Use the detector to reveal mud piles and click on the mud piles. Rinse and repeat until you are done.|U|46388|
 U The Titans' Terminal|QID|13918|QO|1|M|37.09,81.24|Z|1439; Darkshore|L|46387|N|Combine the fragments to complete the quest.|U|46702|
-C Got Some Flotsam?|QID|13909|M|37.16,86.91|Z|1439; Darkshore|N|Look all around the beach for the wreckage.|US|NC|
-T The Titans' Terminal|QID|13918|M|37.69,82.92|Z|1439; Darkshore|N|To Jr. Archaeologist Ferd.|
-T Got Some Flotsam?|QID|13909|M|37.68,82.78|Z|1439; Darkshore|N|To Archaeologist Groff.|
-A A New Home|QID|13910|PRE|13909|M|37.68,82.78|Z|1439; Darkshore|N|From Archaeologist Groff.|
-C A New Home|QID|13910|M|35.91,81.89|Z|1439; Darkshore|N|Go to the flag and use the Marvelous Mobile Murloc Manor Maker.|U|46385|
-T A New Home|QID|13910|M|37.67,82.77|Z|1439; Darkshore|N|To Archaeologist Groff.|
-N Seed of the Sky|QID|13882|QO|3|M|42.06,78.96|Z|1439; Darkshore|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|US|
-T The Seeds of Life|QID|13882|M|45.20,74.71|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
-A An Ounce of Prevention|QID|13925|PRE|13882|M|45.20,74.71|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
-T Soggoth and Kronn|QID|13893|M|45.29,75.07|Z|1439; Darkshore|N|To Larien.|
-A The Slumbering Ancients|QID|13895|PRE|13893|M|45.36,74.91|Z|1439; Darkshore|N|From Onu.|
-r Sell junk, repair/restock.|QID|13925|M|45.31,74.67|Z|1439; Darkshore|
+C Got Some Flotsam?|QID|13909|M|36.58,79.73|Z|1439; Darkshore|L|46384 5|N|Look along the beach and in the water for the wreckage.|US|
+T Got Some Flotsam?|QID|13909|M|37.62,82.82|Z|1439; Darkshore|N|To Archaeologist Groff.|
+A A New Home|QID|13910|PRE|13909|M|37.62,82.82|Z|1439; Darkshore|N|From Archaeologist Groff.|
+T The Titans' Terminal|QID|13918|M|37.75,82.94|Z|1439; Darkshore|N|To Jr. Archaeologist Ferd.|
+C A New Home|QID|13910|M|35.91,81.95|Z|1439; Darkshore|N|Go to the flag and use the Marvelous Mobile Murloc Manor Maker.|U|46385|NC|
+T A New Home|QID|13910|M|37.62,82.82|Z|1439; Darkshore|N|To Archaeologist Groff.|
+T Soggoth and Kronn|QID|13893|M|45.32,75.06|Z|1439; Darkshore|N|To Larien.|
+A The Slumbering Ancients|QID|13895|PRE|13893|M|45.41,74.85|Z|1439; Darkshore|N|From Onu.|
+r Sell junk, repair/restock.|AVAILABLE|13925|M|45.31,74.67|Z|1439; Darkshore|
+T The Seeds of Life|QID|13882|M|45.20,74.61|Z|1439; Darkshore|N|To Kathrena Winterwisp, in Grove of the Ancients.|
+A An Ounce of Prevention|QID|13925|PRE|13882|M|45.20,74.61|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
 C An Ounce of Prevention|QID|13925|M|45.79,76.48|Z|1439; Darkshore|N|Find a healthy Grizzled Thislte Bear, Whitetail Stag or a Moonstalker Matriarch/Sire and use the sapling on it.|U|46363|
-T An Ounce of Prevention|QID|13925|M|45.19,74.70|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
-A In Defense of Darkshore|QID|13885|PRE|13925|M|45.19,74.70|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
-T The Slumbering Ancients|QID|13895|M|45.67,71.72|Z|1439; Darkshore|N|To Aros.|
-A Naga In Our Midst|QID|13953|PRE|13895|M|45.63,71.70|Z|1439; Darkshore|N|From Darkscale Assassin.|
-T Naga In Our Midst|QID|13953|M|45.27,75.10|Z|1439; Darkshore|N|To Balren of the Claw.|
-A The Darkscale Warlord|QID|13899|PRE|13953|M|45.27,75.10|Z|1439; Darkshore|N|From Balren of the Claw.|
-A The Tides Turn Against Us|QID|13898|PRE|13953|M|45.27,75.10|Z|1439; Darkshore|N|From Felros.|
-C In Defense of Darkshore|QID|13885|M|44.46,75.31|Z|1439; Darkshore|N|Talk to Orseus, and choose to use a Hippogryph. Use the #1 ability on the stags, Moongrazers and bears.|
-T In Defense of Darkshore|QID|13885|M|45.20,74.69|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
-A The Devourer of Darkshore|QID|13891|PRE|13885|M|45.20,74.69|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
+T An Ounce of Prevention|QID|13925|M|45.20,74.61|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
+A In Defense of Darkshore|QID|13885|PRE|13925|M|45.20,74.61|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
+T The Slumbering Ancients|QID|13895|M|45.67,71.67|Z|1439; Darkshore|N|To Aros.|
+A Naga In Our Midst|QID|13953|PRE|13895|M|45.59,71.65|Z|1439; Darkshore|N|From Darkscale Assassin.|
+T Naga In Our Midst|QID|13953|M|45.30,75.13|Z|1439; Darkshore|N|To Balren of the Claw.|
+A The Darkscale Warlord|QID|13899|PRE|13953|M|45.30,75.13|Z|1439; Darkshore|N|From Balren of the Claw.|
+A The Tides Turn Against Us|QID|13898|PRE|13953|M|45.35,75.11|Z|1439; Darkshore|N|From Felros.|
+C In Defense of Darkshore|QID|13885|M|44.48,75.35|Z|1439; Darkshore|N|Talk to Orseus, and ask to use a Hippogryph. Use the #1 ability on the Deer, Moongrazers and bears.\n[color=FF0000]NOTE: [/color]This is a scripted flight and you cannot end it early.|
+T In Defense of Darkshore|QID|13885|M|45.20,74.61|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
+A The Devourer of Darkshore|QID|13891|PRE|13885|M|45.20,74.61|Z|1439; Darkshore|N|From Kathrena Winterwisp.|
 C The Devourer of Darkshore|QID|13891|M|44.97,78.70|Z|1439; Darkshore|N|Go to the pond and use the Lifebringer Sapling, then kill what spawns.|U|46370|
-T The Devourer of Darkshore|QID|13891|M|45.18,74.69|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
-C The Tides Turn Against Us|QID|13898|M|31.19,84.20|Z|1439; Darkshore|N|Go into the cave and kill Naga Myrmidons as you go.|S|
-T The Darkscale Warlord|QID|13899|M|32.27,85.30|Z|1439; Darkshore|N|Kill Warlord Wrathspine, and turn this quest into his corpse.|
+T The Devourer of Darkshore|QID|13891|M|45.20,74.61|Z|1439; Darkshore|N|To Kathrena Winterwisp.|
+C The Tides Turn Against Us|QID|13898|M|31.19,84.20|Z|1439; Darkshore|N|Go into the cave and kill Naga Myrmidons.|S|
+R Nazj'vel|ACTIVE|13898^13899|M|34.19,83.75|Z|1439; Darkshore|N|Run to the island southeast of the coast.|
+T The Darkscale Warlord|QID|13899|M|32.27,85.30|Z|1439; Darkshore|N|To Warlord Wrathspine's corpse.\n[color=FF0000]NOTE: [/color]If he's not a corpse, fix that.|T|Warlord Wrathspine|
 A The Offering to Azshara|QID|13900|PRE|13899|M|32.25,85.13|Z|1439; Darkshore|N|From the corpse of Warlord Wrathspine.|
-C The Offering to Azshara|QID|13900|M|32.57,84.61|Z|1439; Darkshore|N|Go out of the cave and head to on top of it. Kill the naga surrounding the horn.|
-T The Offering to Azshara|QID|13900|M|32.81,84.23|Z|1439; Darkshore|N|To Malfurion Stormrage.|
+C The Offering to Azshara|QID|13900|M|32.57,84.61|Z|1439; Darkshore|N|Exit the cave and head up the hill on top of it. Kill the 4 Priestess surrounding the horn to start a dialog.|
+T The Offering to Azshara|QID|13900|M|32.80,84.29|Z|1439; Darkshore|N|To Malfurion Stormrage.\n[color=FF0000]NOTE: [/color]If he despawns before you turn it in, you'll have to kill the Nagas again to restart the dialogue to bring him back.|
 A The Battle for Darkshore|QID|13897|PRE|13900|M|32.83,84.30|Z|1439; Darkshore|N|From Malfurion Stormrage.|
 C The Tides Turn Against Us|QID|13898|M|31.19,84.20|Z|1439; Darkshore|N|Finish killing Nagas Myrmidon.|US|
-C The Battle for Darkshore|QID|13897|M|40.12,83.91|Z|1439; Darkshore|N|Head to The Master's Glave.  Target the Avatar of Soggoth, use the horn then help kill it.|U|58365|
-T The Tides Turn Against Us|QID|13898|M|45.32,75.09|Z|1439; Darkshore|N|To Felros.|
-T The Battle for Darkshore|QID|13897|M|45.32,75.09|Z|1439; Darkshore|N|To Balren of the Claw.|
-A Ashes in Ashenvale|QID|26408|PRE|13897|LEAD|13594|M|45.32,75.09|Z|1439; Darkshore|N|From Balren of the Claw.|
-N Fly to Lor'danel or Darnassus|Z|1439; Darkshore|N|To visit your trainers, AH, etc. Right click the box of this step to continue.|
+C The Battle for Darkshore|QID|13897|M|40.12,83.91|Z|1439; Darkshore|N|At The Master's Glave, target the Avatar of Soggoth and use the horn to summon the ancients to start the fight to kill Soggoth.|T|Avatar of Soggoth|U|58365|
+T The Battle for Darkshore|QID|13897|M|45.30,75.13|Z|1439; Darkshore|N|To Balren of the Claw.|
+A Ashes in Ashenvale|QID|26408|PRE|13897|LEAD|13594|M|45.30,75.13|Z|1439; Darkshore|N|From Balren of the Claw.|
+T The Tides Turn Against Us|QID|13898|M|45.35,75.11|Z|1439; Darkshore|N|To Felros.|
+F Rut'theran Village|ACTIVE|26408|M|44.39,75.39|Z|1439; Darkshore|N|Fly to Rut'theran village, enroute to Darnassus.|
+P Darnassus|ACTIVE|26408|M|54.94,87.93|Z|1438; Teldrassil|N|Walk into the portal to Darnassus.|
+F Rut'theran Village|ACTIVE|26408|M|44.39,75.39|Z|1439; Darkshore|N|Fly to Rut'theran village, enroute to Darnassus.|
+P Darnassus|AVAILABLE|26408&28492|M|54.94,87.93|Z|1438; Teldrassil|N|Walk into the portal to Darnassus.|
+A Hero's Call: Ashenvale!|QID|28492|AVAILABLE|26408|LEAD|13594|M|44.94,49.93|Z|1457; Darnassus|N|From the Hero's Call Board in Darnassus.|LVL|-24|
+r Housekeeping|ACTIVE|26408^28492|N|While in Darnassus, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
+P Rut'theran Village|ACTIVE|26408^28492|M|35.68,50.97|Z|Darnassus|N|Go through the portal to Rut'theran Village.|
+f Rut'theran Village|ACTIVE|28492|M|55.41,88.40|Z|1438; Teldrassil|N|Open the flight map to populate the known flight paths.|TAXI|-Grove of the Ancients|
+F Grove of the Ancients|ACTIVE|26408^28492|M|55.41,88.40|Z|1438; Teldrassil|N|Fly to Lor'danel from Darnassus.\n[color=FF0000]NOTE: [/color]This is faster than flying from Darnassus.|TAXI|Grove of the Ancients|
+
 ]]
 end)
