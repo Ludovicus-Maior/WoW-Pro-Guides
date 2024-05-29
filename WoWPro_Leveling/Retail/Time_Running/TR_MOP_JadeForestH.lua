@@ -436,7 +436,7 @@ K Subjugator Gormal|ACTIVE|29670|M|37.84,75.76|QO|1|T|Subjugator Gormal|
 C Unbound|QID|29587|M|39.76,75.57|N|Click on the nets to free the farmers or defeat the Slaver to free the chained one.|NC|US|
 T Unbound|QID|29587|M|41.00,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.00,73.97|N|To Shao the Defiant.|
-$ Ancient Jinyu Staff|QID|31402|M|46.12,71.33;44.91,64.50|CC|N|Anywhere in the river between the two waypoints. Click this off if it's not there.|S!US|RANK|3|
+$ Ancient Jinyu Staff|QID|31402|M|46.12,71.33;44.91,64.50|CC|N|Anywhere in the river between the two waypoints. Click this off if it's not there.|RANK|3|
 R Serpent's Heart|QID|29931|M|42.94,60.12|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|FLY|OLD|
 T The Serpent's Heart|QID|29931|M|48.31,61.35|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.31,61.35|N|From Foreman Raike.|PRE|29931|
@@ -449,7 +449,7 @@ C Delivery to Historian Dinh|QID|30495|M|46.36,61.80|QO|1|N|Run over and speak w
 T Love's Labor|QID|30495|M|48.31,61.35|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.35|N|From Foreman Raike.|PRE|30495|
 F Jade Temple Grounds|QID|29932|M|48.18,60.02|N|Ask Kitemaster Shoku for a ride to the Temple of the Jade Serpent.|
-C The Temple of the Jade Serpent|QID|29932|M|55.84,57.07|N|Chat with Elder Sage Wind-Yi for transport into the temple.\n[color=FF0000]NOTE: [/color]Starts a cancelable cinematic.\n<ESC> to cancel it.|CHAT|
+C The Temple of the Jade Serpent|QID|29932|M|54.95,56.88|N|Chat with Elder Sage Wind-Yi for transport into the temple.\n[color=FF0000]NOTE: [/color]Starts a cancelable cinematic.\n<ESC> to cancel it.|CHAT|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|PRE|29932|
 A The Librarian's Quandary|QID|29998|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|PRE|29932|

@@ -203,6 +203,11 @@ T The Hero Returns|QID|27937|M|28,68.6|N|To Stonefather Oremantle.|
 A The Middle Fragment|QID|27938|PRE|27937|M|28,68.6|N|From Stonefather Oremantle.|
 C The Middle Fragment|QID|27938|M|28,68.72|N|In The Stonefather's Safe, right behind Oremantle.|
 T The Middle Fragment|QID|27938|M|49.5,53.3|N|To Earthcaller Yevaa.|
+A Word In Stone|QID|26833|PRE|26829&26831&26832|N|From Therazane.|
+A The Explorers|QID|27952|LEAD|27004|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Alliance|
+T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
+A The Reliquary|QID|27953|LEAD|27005|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
+T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|CC|N|To Examiner Rowe.|FACTION|Horde|
 A The Very Earth Beneath Our Feet|QID|26326|PRE|27938&26876|RANK|1|M|49.6,53|N|From Maruut Stonebinder.|
 T The Very Earth Beneath Our Feet|QID|26326|M|46.1, 45.7|N|To Earthcaller Torunscar.|
 A Crumbling Defenses|QID|26312|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
@@ -334,11 +339,7 @@ T The Twilight Flight|QID|26831|M|64.1,36.9|N|To Terath.|
 C The Stone March|QID|26829|M|62,35.6|US|N|Finish killing Cultists.|
 T The Stone March|QID|26829|M|63.3,25.1|N|To Therazane.|
 T Therazane's Mercy|QID|26832|M|63.3,25.1|N|To Therazane.|
-A Word In Stone|QID|26833|PRE|26829&26831&26832|N|From Therazane.|
-A The Explorers|QID|27952|LEAD|27004|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Alliance|
-T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
-A The Reliquary|QID|27953|LEAD|27005|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
-T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|CC|N|To Examiner Rowe.|FACTION|Horde|
+
 T Word In Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
 A Undying Twilight|QID|26875|PRE|26833|N|From Maruut.|
 C Undying Twilight|QID|26875|M|47.68,53.09|N|Kill Twilight Invaders and a Desecrated Earthrager.|
