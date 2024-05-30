@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("LudoExpPandaria","Achievements","Pandaria","WoWPro Team", "Neutral")
 WoWPro:TimerunningSeasonID(guide,1)
-WoWPro:GuideLevels(guide,10,570)
+WoWPro:GuideLevels(guide,10,70)
 WoWPro:GuideNickname(guide, "Explore Pandaria")
 WoWPro:GuideName(guide,"Explore Pandaria")
 WoWPro.Achievements:GuideMisc(guide, "Explore Pandaria", "Exploration", "Mists of Pandaria")

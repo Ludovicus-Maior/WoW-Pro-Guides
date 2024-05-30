@@ -157,7 +157,7 @@ C Bait and Throttle|QID|28041|M|51.60,47.95|N|Kill and loot an Untamed Gryphon.|
 T Bait and Throttle|QID|28041|M|51.60,47.95|
 A How to Maim Your Dragon|QID|28043|PRE|28041|M|51.60,47.95|
 T Blood in the Highlands|QID|28038|M|50.69,58.37|N|To Wodin the Troll-Servant.|
-C How to Maim Your Dragon|QID|28043|U|62917|M|42.30,62.30|N|Place the bait on the ground, defeat the drake.|
+C How to Maim Your Dragon|QID|28043|U|62917|M|48.31,60.55|N|Place the bait on the ground, defeat the drake.|
 T How to Maim Your Dragon|QID|28043|M|54.33,43.88|N|To Zaela.|
 A The Demon Chain|QID|28123|PRE|28043|M|54.33,43.88|N|From Zaela.|
 T A Vision of Twilight|QID|27947|M|57.85,33.58|N|Turns in to an altar.|
@@ -234,7 +234,7 @@ A Breach in the Defenses|QID|27509|PRE|27564|M|29.33,26.04|N|From Calen.|
 A Encroaching Twilight|QID|27507|PRE|27564|M|29.33,26.04|N|From Calen.|
 A Far from the Nest|QID|27508|PRE|27564|M|29.33,26.04|N|From Lirastrasza.|
 f Vermillion Redoubt|QID|27507|M|28.50,24.92|N|At Aquinastrasz.|
-C Breach in the Defenses|QID|27509|M|17.85,16.82|N|Inside the cave.|
+C Breach in the Defenses|QID|27509|M|17.85,16.82|N|Inside the cave.|U|61385|
 C Far from the Nest|QID|27508|M|21.90,19.18|S|N|Laying on the ground and dropped by mobs carrying them after being killed.|
 C Encroaching Twilight|QID|27507|M|20.08,14.66|
 C Far from the Nest|QID|27508|M|21.90,19.18|US|
@@ -402,7 +402,7 @@ A A Fiery Reunion|QID|27745|PRE|27742&27743&27744|N|From Initiate Goldmine.|
 C A Fiery Reunion|QID|27745|U|62394|M|36.36,83.85|N|Take the bridge to your left to get to the other side. Kill the Magmatooth, loot the Fire Portal Controller and use it where Magmatooth stood.|
 T A Fiery Reunion|QID|27745|M|37.60,88.67|N|To Initiate Goldmine.|
 A Garona Needs You|QID|27783|PRE|27745|M|37.60,88.67|N|From Initiate Goldmine.|
-T Garona Needs You|QID|27783|M|53.24,42.74|N|To Garona.|
+T Garona Needs You|QID|27783|M|36.32,66.14|N|To Garona.|
 A The Hammer of Twilight|QID|27786|PRE|27783|M|53.24,42.74|N|From Garona.|
 T The Hammer of Twilight|QID|27786|M|45.37,88.01|N|To The Hammer of Twilight.|
 A Skullcrusher the Mountain|QID|27788|PRE|27786|M|45.37,88.01|N|From The Hammer of Twilight.|
