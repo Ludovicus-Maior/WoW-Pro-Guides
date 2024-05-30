@@ -81,7 +81,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 									end
 									local MatsItemLink
 									if _G.GetItemInfo(MatsItem) then
-										MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
+										MatsItemLink = ('[item='..tostring(MatsItem)..'/'..WoWPro.C_Item_GetItemInfo(MatsItem)..']')  -- recreate item num/name info
 									else
 										-- TODO: MatsItem is bad, complain here.
 										MatsItemLink = ('[item='..tostring(MatsItem)..'/Wrong Item ID]')
@@ -94,10 +94,10 @@ function WoWPro.Profession:PreRowUpdate(row)
 --									if j == 1 then
 --										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)		-- commented out, currently not working.
 --									end
-									if _G.GetItemCount(MatsItem, true) >= MatsAmt then						-- post msg if have or short what is needed for crafting.
-										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..', You will use '..MatsAmt..' of the '.._G.GetItemCount(MatsItem, true)..' you have available.\n'
+									if _G.WoWPro.C_Item_GetItemCount(MatsItem, true) >= MatsAmt then						-- post msg if have or short what is needed for crafting.
+										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..', You will use '..MatsAmt..' of the '..WoWPro.C_Item_GetItemCount(MatsItem, true)..' you have available.\n'
 									else
-										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..',\nYou need '..MatsAmt..', [color=FF0000]you have '.._G.GetItemCount(MatsItem, true)..' available.[/color]\n'
+										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..',\nYou need '..MatsAmt..', [color=FF0000]you have '..WoWPro.C_Item_GetItemCount(MatsItem, true)..' available.[/color]\n'
 									end
 							end
 							WoWPro.note[k] = WoWPro.note[k] .. ('\n'..(WoWPro.pn[k] or ""))
@@ -125,7 +125,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
 									local MatsItemLink
 									if _G.GetItemInfo(MatsItem) then
-										MatsItemLink = ('[item='..tostring(MatsItem)..'/'.._G.GetItemInfo(MatsItem)..']')  -- recreate item num/name info
+										MatsItemLink = ('[item='..tostring(MatsItem)..'/'..WoWPro.C_Item_GetItemInfo(MatsItem)..']')  -- recreate item num/name info
 									else
 										-- TODO: MatsItem is bad, complain here.
 										MatsItemLink = ('[item='..tostring(MatsItem)..'/Wrong Item ID]')
@@ -146,10 +146,10 @@ function WoWPro.Profession:PreRowUpdate(row)
 --									if j == 1 then
 --										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)		-- commented out, currently not working.
 --									end
-									if _G.GetItemCount(MatsItem, true) >= MatsAmt then						-- post msg if have or short what is needed for crafting.
-										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..', You will use '..MatsAmt..' of the '.._G.GetItemCount(MatsItem, true)..' you have available.\n'
+									if WoWPro.C_Item_GetItemCount(MatsItem, true) >= MatsAmt then						-- post msg if have or short what is needed for crafting.
+										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..', You will use '..MatsAmt..' of the '..WoWPro.C_Item_GetItemCount(MatsItem, true)..' you have available.\n'
 									else
-										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..',\nYou need '..MatsAmt..', [color=FF0000]you have '.._G.GetItemCount(MatsItem, true)..' available.[/color]\n'
+										WoWPro.note[k] = WoWPro.note[k]..MatsItemLink..',\nYou need '..MatsAmt..', [color=FF0000]you have '..WoWPro.C_Item_GetItemCount(MatsItem, true)..' available.[/color]\n'
 									end
 							end
 							WoWPro.note[k] = WoWPro.note[k] .. ('\n'..(WoWPro.pn[k] or ""))

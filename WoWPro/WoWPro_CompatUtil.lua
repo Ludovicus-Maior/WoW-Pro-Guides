@@ -207,7 +207,7 @@ end
 
 --[[C_Reputation.GetFactionDataByID]]
 function WoWPro.C_Reputation_GetFactionDataByID(factionID)
-    if WoWPro.RETAIL then
+    if WoWPro.WAR_WITHIN then
         return _G.C_Reputation.GetFactionDataByID(factionID)
     else
         local name, description, _, _, _, _, atWarWith, canToggleAtWar, _, isCollapsed, _, isWatched, isChild, _, hasBonusRepGain, _ = _G.GetFactionInfoByID(factionID)
@@ -234,7 +234,7 @@ end
 
 --[[C_Spell.GetSpellInfo]]
 function WoWPro.C_Spell_GetSpellInfo(spellID)
-    if WoWPro.RETAIL then
+    if WoWPro.WAR_WITHIN then
         return _G.C_Spell.GetSpellInfo(spellID)
     else
         local name, _, icon, castTime, minRange, maxRange, _, originalIcon = _G.GetSpellInfo(spellID)
@@ -250,11 +250,53 @@ function WoWPro.C_Spell_GetSpellInfo(spellID)
     end
 end
 
+--[[C_Spell.GetSpellLink]]
+function WoWPro.C_Spell_GetSpellLink(spellID)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Spell.GetSpellLink(spellID)
+    else
+        return _G.GetSpellLink(spellID)
+    end
+end
+
 --[[C_Item.GetItemInfo]]
 function WoWPro.C_Item_GetItemInfo(itemID)
-    if WoWPro.RETAIL then
+    if WoWPro.WAR_WITHIN then
         return _G.C_Item.GetItemInfo(itemID)
     else
         return _G.GetItemInfo(itemID)
+    end
+end
+
+--[[C_Item.GetItemCount]]
+function WoWPro.C_Item_GetItemCount(itemID, includeBank)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Item.GetItemCount(itemID, includeBank)
+    else
+        return _G.GetItemCount(itemID, includeBank)
+    end
+end
+
+
+-- [[EasyMenu]]
+local function EasyMenu_Initialize( frame, level, menuList )
+	for index = 1, #menuList do
+		local value = menuList[index]
+		if (value.text) then
+			value.index = index;
+			UIDropDownMenu_AddButton( value, level );
+		end
+	end
+end
+
+function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+    if WWoWPro.WAR_WITHIN then 
+        if ( displayMode == "MENU" ) then
+            menuFrame.displayMode = displayMode;
+        end
+        UIDropDownMenu_Initialize(menuFrame, EasyMenu_Initialize, displayMode, nil, menuList);
+        ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay);
+    else
+        _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
     end
 end

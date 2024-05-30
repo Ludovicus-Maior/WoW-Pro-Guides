@@ -22,7 +22,10 @@ local function AddInfo(guide)
 
     local name
     if tonumber(guide.faction) then
-        name = _G.GetFactionInfoByID(guide.faction)
+        local factionData = WoWPro.C_Reputation_GetFactionDataByID(guide.faction)
+        if factionData then
+           name = factionData.name
+        end
     end
     if not name then
         WoWPro.Dailies:Error("Guide %s: bad faction [%s]",guide.GID,tostring(guide.faction))
