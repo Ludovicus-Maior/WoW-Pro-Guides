@@ -263,9 +263,9 @@ A Stoneplow Thirsts|QID|30117|M|36.19,68.29|N|From Emmi.|PRE|30078|
 R Nesingwary's Safari|QID|30181|M|16,83|CC|N|[ACTIVE QID?]|FLY|OLD|
 A Stalker Mastery|QID|30183|M|16.19,82.53|N|From Tani at Nesingwary's Safari.|
 A Mushan Mastery|QID|30181|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
-K Kill Mushan|QID|30181|M|16.64,69.47|QO|1|N|If you attack one of the pathing group of 3, they all attack.|S|
-K Kill Tigers|QID|30183|M|13.85,70.95|QO|1|N|You'll find the tigers in Dustback Gorge.|
-K Kill Mushan|QID|30181|M|16.64,69.47|N|Be aware of your surroundings. Munshan only attack if you attack them (except the Warder) or one of the group of 3. Tigers have no problem joining in the attack on you.\nGo outside of the valley to avoid the tigers.|US|
+K Kill Mushan|ACTIVE|30181|M|16.64,69.47|QO|1|N|If you attack one of the pathing group of 3, they all attack.|S|
+K Kill Tigers|ACTIVE|30183|M|13.85,70.95|QO|1|N|You'll find the tigers in Dustback Gorge.|
+K Kill Mushan|ACTIVE|30181|M|16.64,69.47|QO|1|N|Be aware of your surroundings. Munshan only attack if you attack them (except the Warder) or one of the group of 3. Tigers have no problem joining in the attack on you.\nGo outside of the valley to avoid the tigers.|US|
 T Mushan Mastery|QID|30181|M|16.07,82.61|N|To Hemet Nesingwary Jr.|
 T Stalker Mastery|QID|30183|M|16.19,82.53|N|To Tani|
 A Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|PRE|30183|
