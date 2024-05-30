@@ -920,7 +920,7 @@ local Stones = {
 function WoWPro.SelectHearthstone()
     local have={}
     for id, nomen in pairs(Stones) do
-        if  _G.GetItemCount(id) > 0 then
+        if  _G.WoWPro.C_Item_GetItemCount(id) > 0 then
             tinsert(have, id)
         end
     end
@@ -934,7 +934,7 @@ function WoWPro.SelectItemToUse(use, debug)
         WoWPro:dbp("SelectItemToUse(%q): single, %q", use, WoWPro.C_Item_GetItemInfo(use) or "NIL")
         return WoWPro.C_Item_GetItemInfo(use), use
     end
-    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
+    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
     WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
     return value, value
 end
@@ -1347,14 +1347,14 @@ if step then
 				if not start then
 					WoWPro:Warning("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
 				end
-				if _G.GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
+				if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true
 					currentRow.itemicon:SetTexture(itemtexture)
 					currentRow.itemicon.currentTexture = itemtexture
-				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
+				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon:SetTexture(itemtexture)
 					currentRow.itemicon.currentTexture = itemtexture
-				elseif _G.GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
+				elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = false
 					currentRow.itemicon:SetTexture()
 					currentRow.itemicon.currentTexture = nil
@@ -1666,9 +1666,9 @@ function WoWPro.UpdateGuideReal(From)
                         WoWPro.rows[i]:SetChecked(nil)
                         if WoWPro.Recorder then
                             WoWPro:RowLeftClick(i)
-                            _G.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
                         else
-                            _G.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
                         end
                     end
                 end)
@@ -1833,7 +1833,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if stepAction == "*" then
                 if WoWPro.use and WoWPro.use[guideIndex] then
                         skip = false -- If the trash step has a use item and it's in the bag, it's NOT skipped --
-                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
+                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         WoWPro.why[guideIndex] = "NextStep(): Trash steps with an item to use that is present is not skipped."
                     else
                         skip = true -- No item, skip!
@@ -1849,7 +1849,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
-                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
+                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
                         WoWPro.why[guideIndex] = "NextStep(): Optional steps with an item to use that is present is not skipped."
                     end
@@ -3053,6 +3053,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
                     local spellInfo
+                    local spellName
+                    local spellKnown
                     local canFly
                     local mSkill
                     local eSkill
@@ -3274,7 +3276,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Do we have enough loot in bags?
             if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
                 WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s, qty %d",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex], WoWPro.lootqty[guideIndex])
-                if WoWPro.lootqty[guideIndex] > 0 and _G.GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
+                if WoWPro.lootqty[guideIndex] > 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
                     if stepAction == "T" then
                         -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
                         WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest."
@@ -3287,7 +3289,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                         skip = true
                     end
-                elseif WoWPro.lootqty[guideIndex] < 0 and _G.GetItemCount(WoWPro.lootitem[guideIndex]) < -WoWPro.lootqty[guideIndex] then
+                elseif WoWPro.lootqty[guideIndex] < 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) < -WoWPro.lootqty[guideIndex] then
                     if rowIndex == 1 then
                         -- Only complete the current step, the loot might go away!
                         WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have consumed the loot in bags.")
@@ -3305,7 +3307,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             else
                 -- Special for Buy steps where the step name is the item to buy and no |L| specified
                 if stepAction == "B" then
-                    if _G.GetItemCount(step) > 0 then
+                    if _G.WoWPro.C_Item_GetItemCount(step) > 0 then
                         WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you bought enough named loot.")
                         skip = true
                     end

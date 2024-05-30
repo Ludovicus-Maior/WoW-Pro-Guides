@@ -218,10 +218,10 @@ function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
     - how many the user needs
     - a complete symbol if the ammount the user has is equal to the ammount they need
 ]]
-    if not _G.GetItemInfo(lootitem) then return "" end
+    if not _G.WoWPro.C_Item_GetItemInfo(lootitem) then return "" end
     local track = ""                                                --If the function did have a track string, adds a newline
-    track = track.." - ".. _G.GetItemInfo(lootitem)..": "   --Adds the item's name to the string
-    local numinbag = _G.GetItemCount(lootitem)      --Finds the number in the bag, and adds a count if supplied
+    track = track.." - ".. _G.WoWPro.C_Item_GetItemInfo(lootitem)..": "   --Adds the item's name to the string
+    local numinbag = _G.WoWPro.C_Item_GetItemCount(lootitem)      --Finds the number in the bag, and adds a count if supplied
     track = track..numinbag                                     --Adds the number in bag to the string
     track = track.."/"..lootqty                             --Adds the total number needed to the string
     if (lootqty > 0) then
@@ -258,7 +258,7 @@ function WoWPro.AutoCompleteLoot()
                 WoWPro.rows[i].track:SetText(track:trim())
                 WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
             end
-            local itemCount = _G.GetItemCount(WoWPro.lootitem[index])
+            local itemCount = _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[index])
             if lootqty > 0 then
                 if itemCount >= lootqty and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
                     WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
