@@ -16,12 +16,14 @@ C Alliance Drones|QID|32250|M|8.6,64.4|QO|1|N|Kill Alliance to get your kill cou
 T The Might of the Warchief|QID|32250|N|To Garrosh Hellscream, standing next to you.|
 A Domination Point|QID|32108|PRE|32250|N|From Garrosh Hellscream, standing next to you.|
 T Domination Point|QID|32108|M|8.42,64.06|N|To Signal Fire|
-A Dagger in the Dark|QID|32251|PRE|32108|N|Scenario from UI after a *very* long speech.|
+A Dagger in the Dark|QID|32251|PRE|32108|N|Scenario from General Nazgrim after a *very* long speech.|
+C Dagger in the Dark|QID|32251|QO|1|N|Talk to Nazgrim to queue for the Scenario.|CHAT|
+T Dagger in the Dark|QID|32251|N|Turn in to Nazgrim.|
 f Domination Point|M|9.69,52.51|N|Get your new flight point from Kromthar.|
 
 ; Daily Quest Hub selection
 A Gro'tash's Quests|QID|*|NPC|67880|M|10.07,53.86|N|From Blood Guard Gro'tash. He gives Domination Point, Ruins of Ogudei, or Lion's Landing. Skip if none.|
-A Wanted: ???|QID|32222^32223|M|12.74,56.70|N|From Bounty Board for quests at Bilgewater Operations? Skip if none.|
+A WANTED: ???|QID|*|M|12.74,56.70|N|From Bounty Board for quests at Bilgewater Operations? Skip if none.|
 ; ACTIVE|-32235 & -32449 & -32450
 
 ; ;;;;;;;;;;;;;;;;;;;;;;
@@ -47,13 +49,13 @@ T Another One Bites the Dust|QID|32128|M|10.07,53.86|N|From Blood Guard Gro'tash
 
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Bilgewater Operations #1
-; A Wanted: Lieutenant Ethan Jacobson|QID|32223|M|12.8,56.7|N|From Bounty Board|
+; A WANTED: Lieutenant Ethan Jacobson|QID|32223|M|12.8,56.7|N|From Bounty Board|
 A Storming the Beach|QID|32221|PRE|32108|ACTIVE|32223|M|13,56.2|N|From Rivett Clutchpop|
 A Krasarang Steampot|QID|32199|PRE|32108|ACTIVE|32223|M|13.6,55.8|N|From Duke|
 A Work Order: Lumber|QID|32138|PRE|32108|ACTIVE|32223|M|13.6,55.8|N|From Boss-Lady Trixel|
 A Universal Remote-Explode|QID|32238|PRE|32108|ACTIVE|32223|M|20.6,58|N|From Bixy Buzzsaw|
 ;
-K Lieutenant Ethan Jacobson|QID|32223|M|19,70.8|QO|1|N|Kill!|
+K Lieutenant Ethan Jacobson|ACTIVE|32223|M|19,70.8|QO|1|N|Kill!|
 C Shieldwall Forces|QID|32221|M|11.40,59.00;16.40,67.20;16.60,69.40;11.30,67.65;7.35,67.50;18.60,70.05;8.05,59.64;18.45,67.80;8.74,65.49;8.15,62.25;13.60,68.12|CN|N|Kill infiltrators!|
 C Viseclaw Meat|QID|32199|M|15.20,59.00;20.20,56.60;25.20,57.80;27.60,64.80;16.85,55.35;17.05,57.40;21.30,54.40;25.68,63.70;27.05,59.52;27.02,61.88|CN|N|Kill Polluted Viseclaws.|
 T Work Order: Lumber|QID|32138|M|20.4,58|N|To Zino "The Shredder" Quickchop|
@@ -61,36 +63,36 @@ A Stacked!|QID|32139|PRE|32138|M|20.4,58|N|From Zino "The Shredder" Quickchop|
 C Shieldwall Mecha-Pounders|QID|32238|M|21.00,51.30;20.75,63.25;19.40,59.00;22.75,53.07;25.05,55.20;19.40,61.58|CN|N|Use the remote and the kill!|U|91902|
 C Domination Point Lumber|QID|32139|M|21.00,51.30;20.75,63.25;19.40,59.00;22.75,53.07;25.05,55.20;19.40,61.58|CN|N|Pick up lumber and toss it to Goob.|
 T Stacked!|QID|32139|M|20.4,58|N|To Zino "The Shredder" Quickchop|
-T Wanted: Lieutenant Ethan Jacobson|QID|32223|M|10.07,53.86|N|From Bounty Board|
+T WANTED: Lieutenant Ethan Jacobson|QID|32223|M|10.07,53.86|N|From Bounty Board|
 T Storming the Beach|QID|32221|M|13,56.2|N|To Rivett Clutchpop|
 T Krasarang Steampot|QID|32199|M|26,58|N|To Sezik Steampot|
 T Universal Remote-Explode|QID|32238|M|20.6,58|N|To Bixy Buzzsaw|
 
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Bilgewater Operations #2
-; A Wanted: Chief Engineer Cogwrench|QID|32222|M|12.8,56.7|N|From Bounty Board|
+; A WANTED: Chief Engineer Cogwrench|QID|32222|M|12.8,56.7|N|From Bounty Board|
 A Bilgewater Infiltrators|QID|32214|PRE|32108|ACTIVE|32222|M|12.91,56.13|N|From Rivett Clutchpop|
 A Mystery Meatloaf|QID|32197|PRE|32108|ACTIVE|32222|M|13.77,55.79|N|From Duke|
 A Work Order: Fuel|QID|32136|PRE|32108|ACTIVE|32222|M|13.79,55.86|N|From Boss-Lady Trixel|
-K Chief Engineer Cogwrench|QID|32222|M|21.6,51.2|QO|1|N|Kill!|
-C SI:7 Saboteurs|QID|32214|M|18.00,56.50;26.55,61.65;15.40,57.75;19.55,59.00;25.88,58.77;21.50,54.75;19.68,62.16;12.53,60.45;11.40,64.94;23.68,55.95;9.88,62.35|CN|N|Kill SI7 if you can see them!|
+K Chief Engineer Cogwrench|ACTIVE|32222|M|21.6,51.2|QO|1|N|Kill!|
+C SI:7 Saboteurs|QID|32214|M|18.00,56.50;26.55,61.65;15.40,57.75;19.55,59.00;25.88,58.77;21.50,54.75;19.68,62.16;12.53,60.45;11.40,64.94;23.68,55.95;9.88,62.35|CN|N|Kill SI7 if you can see them!|U|92475|
 C Mystery Meatloaf|QID|32197|M|16.60,71.60;19.60,52.80;27.80,57.60;15.60,67.50;20.60,55.50;17.60,54.80;25.52,67.67;20.80,68.25;24.20,70.47;23.00,67.70;21.70,65.75;26.45,63.35;21.34,70.89;18.50,65.70;24.10,64.35|CN|N|Kill wildlife to get the meat.  Do you really want it from polluted animals?|
 ;
 T Mystery Meatloaf|QID|32197|M|26.05,58.07|N|To Sezik Steampot|
 A Precious Resource|QID|32237|PRE|32108|ACTIVE|32222|M|25.2,60.4|N|From Bixy Buzzsaw|
-C Leaky Valves|QID|32237|N|Fly around looking for leaky valves spray spraing oil. Just follow the pipes.|
+C Leaky Valves|QID|32237|N|Fly around looking for leaky valves spray spraing oil. Just follow the pipes.|NC|
 T Precious Resource|QID|32237|M|25.2,60.4|N|To Bixy Buzzsaw|
 T Work Order: Fuel|QID|32136|M|25.4,60.4|N|To Grizzle Gearslip|
 A Runnin' On Empty|QID|32137|PRE|32136|M|25.4,60.4|N|From Grizzle Gearslip|
-C "Distilled" Fuel Barrels|QID|32137|M|16.35,58.90;25.33,61.80;26.45,66.57;27.46,61.21;26.64,64.20|CN|N|Pick up Barrels.|
+C "Distilled" Fuel Barrels|QID|32137|M|16.35,58.90;25.33,61.80;26.45,66.57;27.46,61.21;26.64,64.20|CN|N|Pick up Barrels.|NC|
 T Runnin' On Empty|QID|32137|M|13.6,55.8|N|To Boss-Lady Trixel|
 T Bilgewater Infiltrators|QID|32214|M|13,56.2|N|To Rivett Clutchpop|
-T Wanted: Chief Engineer Cogwrench|QID|32222|M|10,53.8|N|To Blood Guard Gro'tash|
+T WANTED: Chief Engineer Cogwrench|QID|32222|M|10,53.8|N|To Blood Guard Gro'tash|
 
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Ruins of Ogudei
 ; A The Ruins of Ogudei|QID|32449|M|10.07,53.86|N|From Blood Guard Gro'tash|
-R Sparkrocket Outpost|QID|32449|M|10.19,54.81|N|Use the portal to get there.|
+R Sparkrocket Outpost|ACTIVE|32449|M|10.19,54.81|N|Use the portal to get there.|
 T The Ruins of Ogudei|QID|32449|M|76.32,34.07|N|To Belloc Brightblade|
 A Taking Advantage|QID|32118|PRE|32449|M|76.32,34.07|N|From Belloc Brightblade|
 T Taking Advantage|QID|32118|M|81.49,18.27|N|To Kaelis Sunsoar|
@@ -104,12 +106,12 @@ A Ogudei Quests|QID|*|NPC|68274|PRE|32118|M|81.49,18.27|N|From Kaelis Sunsoar|
 
 C The Spirit Trap|QID|32342|M|70.60,41.40;70.80,44.40;71.80,13.60;43.50,14.60;73.40,28.80|Z|Krasarang Wilds/2|CN|N|Click and fight|
 C It Is A Mystery|QID|32344|M|64.25,26.90|Z|Krasarang Wilds/2|N|Walk around till the meter peaks at 100 and stand stil to you get credit.|
-C We're Not Monsters!|QID|32345|M|49.00,37.60;59.80,47.60;67.00,27.80;70.40,38.20;73.60,23.40;70.90,44.70;68.00,55.70|Z|Krasarang Wilds/2|CN|T|Troubled Slave Spirit|N|Kill the Troubled Slave Spirits.|
+C We're Not Monsters!|QID|32345|M|49.00,37.60;59.80,47.60;67.00,27.80;70.40,38.20;73.60,23.40;70.90,44.70;68.00,55.70|Z|Krasarang Wilds|CN|T|Troubled Slave Spirit|N|Kill the Troubled Slave Spirits.|
 C Legacy of Ogudei|QID|32120|M|62.80,22.20;73.00,28.80;55.70,51.90;70.90,35.70;58.10,47.40;51.30,41.80;66.90,59.20;49.20,37.60;50.10,20.00;71.25,32.90;51.60,22.50;58.35,50.45|Z|Krasarang Wilds/2|CN|QO|1|
 ;
-R Ogudei's Lieutenants|QID|32343|M|72.27,41.57;79.16,49.86;76.75,63.46|CS|Z|Krasarang Wilds/2|N|Find this crack in the wall.|
-K Gen-li, Twister of Words|QID|32343|M|67.97,73.63|Z|Krasarang Wilds/2|QO|1|N|Gen-li and Meng-do are together. Loot their corpses.|
-K Meng-do, Strength of Mountains|QID|32343|M|67.97,73.63|Z|Krasarang Wilds/2|QO|2|
+R Ogudei's Lieutenants|ACTIVE|32343|M|72.27,41.57;79.16,49.86;76.75,63.46|CS|Z|Krasarang Wilds/2|N|Find this crack in the wall.|
+K Gen-li, Twister of Words|ACTIVE|32343|M|67.97,73.63|Z|Krasarang Wilds/2|QO|1|N|Gen-li and Meng-do are together. Loot their corpses.|
+K Meng-do, Strength of Mountains|ACTIVE|32343|M|67.97,73.63|Z|Krasarang Wilds/2|QO|2|
 
 T The Spirit Trap|QID|32342|M|81.49,18.27|N|To Kaelis Sunsoar|
 T It Is A Mystery|QID|32344|M|81.49,18.27|N|To Kaelis Sunsoar|
@@ -127,7 +129,7 @@ A Worker Harassment|QID|32132|PRE|32450|M|75.8,34.4|N|From Shademaster Kiryn|
 A Sentry Wards|QID|32133|PRE|32450|M|75.8,34.4|N|From Shademaster Kiryn|
 A Good Luck, Have Fun|QID|32130|PRE|32450|M|75.8,34.2|N|From Zazzix "Toasty" Sparkrocket|
 A We Require More Minerals!|QID|32131|PRE|32450|M|75.8,34.2|N|From Zazzix "Toasty" Sparkrocket|
-K Thane Stonehearth|QID|32135|M|81,23.4|QO|1|N|Pull him onto the grass so he wont get help.|
+K Thane Stonehearth|ACTIVE|32135|M|81,23.4|QO|1|N|Pull him onto the grass so he wont get help.|
 C Peasant Slaughter|QID|32132|M|4.00,27.70;83.10,19.60;84.60,21.10;81.90,22.18;79.84,19.73;85.09,24.49|CN|N|Kill em!|
 N Sentry Wards|ACTIVE|32133|N|This one is tricky.  You need to go to three places and click on sentry wards to activate them while avoiding MOBS.  Approach from the water and fly low to each destination.|
 C Docks|QID|32133|M|86.11,33.13|QO|2|N|Between the two docked ships.|
@@ -143,16 +145,16 @@ T We Require More Minerals!|QID|32131|M|64.2,72.4|N|To Zazzix "Toasty" Sparkrock
 
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Rep Related questlines
-A Rise Of An Empire|QID|32256|M|10.39,53.71|REP|Dominance Offensive;1375;friendly;1000|N|From General Nazgrim|
-R Shrine of Two Moons|QID|32256|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
+A Rise Of An Empire|QID|32256|M|10.39,53.71|N|From General Nazgrim|
+R Shrine of Two Moons|ACTIVE|32256|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T Rise Of An Empire|QID|32256|M|32.23,84.91|N|To Garrosh Hellscream, upstairs, past the bank to the left.|Z|The Imperial Mercantile@Shrine of Two Moons|
 A Buried Secrets|QID|32242|PRE|32256|M|2.23,84.91|N|From Garrosh Hellscream|Z|The Imperial Mercantile@Shrine of Two Moons|
 T Buried Secrets|QID|32242|M|20.95,15.59|N|To Fanlyr Silverthorn|Z|Vale of Eternal Blossoms|
 A Voice of the Gods|QID|32257|PRE|32242|M|21,15.4|N|From Fanlyr Silverthorn|Z|Vale of Eternal Blossoms|
-C Ancient Korune Tablet|QID|32257|M|18.10,11.87|N|Approach the statue and click it to awaken.  Stay out of the silver pools and then loot it.  Dont go far or it will re-freeze.|
+C Ancient Korune Tablet|QID|32257|M|18.36,12.29|Z|Vale of Eternal Blossoms|N|Approach the statue and click it to awaken.  Stay out of the silver pools and then loot it.  Dont go far or it will re-freeze.|
 T Voice of the Gods|QID|32257|M|20.95,15.59|N|To Fanlyr Silverthorn|Z|Vale of Eternal Blossoms|
 
-A Someone You Should See|QID|32284|M|10.39,53.71|REP|Dominance Offensive;1375;friendly;5000|N|From Messenger Grummle|
+A Someone You Should See|QID|32284|M|10.39,53.71|N|From Messenger Grummle|
 R Kun-Lai Summit|QID|32284|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T Someone You Should See|QID|32284|M|71.66,93.22|Z|Kun-Lai Summit|N|To Chen Stormstout, in the building.|
 A Regeneration Takes Time|QID|32318|PRE|32284|M|71.6,93.2|Z|Kun-Lai Summit|N|From Chen Stormstout|
@@ -165,16 +167,15 @@ A The Horde Is Family|QID|32320|PRE|32319|M|44.4,66.6|Z|ValleyofTrialsStart|N|Fr
 C The Horde Is Family|QID|32320|QO|1|N|Escort Thrall and stay close.  Mind the Kor'kron Soulbreaker that casts Curse of Tongues at the end of the ride.|
 T The Horde Is Family|QID|32320|M|38.41,46.46|Z|Echo Isles|N|To Thrall|
 A De-Subjugation|QID|32372|PRE|32320|M|38.4,46.6|Z|Echo Isles|N|From Thrall|
-K Gul'tar the Subjugator|QID|32372|M|61.6,66.0|Z|Echo Isles|N|Kill Gul'tar the Subjugator and any Kor'kron along the way.|
 C Kor'kron Overseers|QID|32372|M|41.20,46.20;44.60,53.60;48.80,62.40;56.20,66.00;57.00,45.60;57.40,47.80;48.40,56.80;58.65,61.65;61.00,65.30;48.20,54.20;43.17,46.65;45.75,47.88;51.20,51.70;58.20,50.80;48.00,50.40|CN|Z|Echo Isles|QO|1|S|
 C Kor'kron Subjugator|QID|32372|M|50.40,43.60;53.20,63.00;59.40,51.60;47.50,58.20;49.50,48.10;58.50,61.90;49.60,55.90;46.25,48.30;57.40,52.60;56.50,55.60;50.40,65.80;50.72,51.80|CN|Z|Echo Isles|QO|2|S|
-K Gul'tar the Subjugator|QID|32372|M|61.6,66.0|Z|Echo Isles|N|Kill Gul'tar the Subjugator and any Kor'kron along the way.|QO|3|
+K Gul'tar the Subjugator|ACTIVE|32372|QO|3|M|61.6,66.0|Z|Echo Isles|N|Kill Gul'tar the Subjugator and any Kor'kron along the way.|
 C Kor'kron Overseers|QID|32372|M|41.20,46.20;44.60,53.60;48.80,62.40;56.20,66.00;57.00,45.60;57.40,47.80;48.40,56.80;58.65,61.65;61.00,65.30;48.20,54.20;43.17,46.65;45.75,47.88;51.20,51.70;58.20,50.80;48.00,50.40|CN|Z|Echo Isles|QO|1|US|
 C Kor'kron Subjugator|QID|32372|M|50.40,43.60;53.20,63.00;59.40,51.60;47.50,58.20;49.50,48.10;58.50,61.90;49.60,55.90;46.25,48.30;57.40,52.60;56.50,55.60;50.40,65.80;50.72,51.80|CN|Z|Echo Isles|QO|2|US|
 T De-Subjugation|QID|32372|M|58.60,62.02|Z|Echo Isles|N|To Thrall|
 ; Use portal to return to Dom Point
 
-A To Mogujia|QID|32190|M|10.39,53.71|REP|Dominance Offensive;1375;honored;3000|N|From General Nazgrim.  Note that once you start this quest line, no dungeons or LFR or logging out or the NPCs can get phased out.  Get it done.|
+A To Mogujia|QID|32190|M|10.39,53.71|N|From General Nazgrim.  Note that once you start this quest line, no dungeons or LFR or logging out or the NPCs can get phased out.  Get it done.|
 R Kun-Lai Summit|QID|32190|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T To Mogujia|QID|32190|M|57.07,79.01|Z|Kun-Lai Summit|N|To Lor'themar Theron|
 A Bloodlines|QID|32192|PRE|32190|M|57.07,79.01|Z|Kun-Lai Summit|N|From Lor'themar Theron|
@@ -189,7 +190,7 @@ T Ancient Guardians|QID|32191|M|57.07,79.01|Z|Kun-Lai Summit|N|To Fanlyr Silvert
 T The Korune|QID|32244|M|57.07,79.01|Z|Kun-Lai Summit|N|To Fanlyr Silverthorn|
 T Bloodlines|QID|32192|M|57.07,79.01|Z|Kun-Lai Summit|N|From Lor'themar Theron|
 
-A To the Valley!|QID|32376|M|10.39,53.71|REP|Dominance Offensive;1375;honored;6500|N|From General Nazgrim|
+A To the Valley!|QID|32376|M|10.39,53.71|N|From General Nazgrim|
 R Kun-Lai Summit|QID|32376|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T To the Valley!|QID|32376|M|53.83,49.24|Z|Kun-Lai Summit|N|To Lor'themar Theron|
 A Legacy of the Korune|QID|32379|PRE|32376|M|53.83,49.24|Z|Kun-Lai Summit|N|From Lor'themar Theron|
@@ -206,14 +207,14 @@ R Tomb of Shadows|QID|32384|M|55.87,46.22|Z|Kun-Lai Summit|N|Fly to the tomb and
 C Shan Kien|QID|32384|M|56.8,44|Z|Kun-Lai Summit|N|If he is not there, just wait a bit.|
 T Trapping the Leader|QID|32384|M|53.83,49.24|Z|Kun-Lai Summit|N|To Lor'themar Theron|
 
-A Echoes of Thunder|QID|32351|M|10.39,53.71|REP|Dominance Offensive;1375;honored;10800|N|From General Nazgrim|
+A Echoes of Thunder|QID|32351|M|10.39,53.71|N|From General Nazgrim|
 R Vale of Eternal Blossoms|QID|32351|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T Echoes of Thunder|QID|32351|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|To Baine Bloodhoof, in the Bank.|
 A A Gathering Storm|QID|32352|PRE|32351|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|From Baine Bloodhoof.|
 C Sha-Touched Grunts|QID|32352|M|59.20,11.20;60.40,13.60;62.10,23.50;62.50,10.40;59.10,19.80;61.00,21.80;63.25,19.00|Z|The Imperial Mercantile@Shrine of Two Moons|CN|N|Interrogate the grunts.|QO|1|
 T A Gathering Storm|QID|32352|M|65.42,46.41|Z|The Imperial Mercantile@Shrine of Two Moons|N|To Garrosh Hellscream|
 
-A Get My Results!|QID|32329|M|10.39,53.71|REP|Dominance Offensive;1375;revered;2700|N|From General Nazgrim|
+A Get My Results!|QID|32329|M|10.39,53.71|N|From General Nazgrim|
 R Silvermoon City|QID|32329|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|You are on your own.  Get to the Shrine of Two Moons and take the portal there to Silvermoon.|
 T Get My Results!|QID|32329|M|53.80,20.23|Z|Silvermoon City|N|To Lor'themar Theron|
 A What's in the Box?|QID|32330|PRE|32329|M|53.80,20.23|Z|Silvermoon City|N|From Lor'themar Theron|
@@ -223,7 +224,7 @@ C Speak with Grand Magister Rommath|QID|32330|M|92.31,37.15|Z|Silvermoon City|QO
 C Contain the Experiment|QID|32330|M|92.47,37.57|Z|Silvermoon City|QO|4|N|Click on the disk and then deal with the Concentrated Sha.  You will get help.|
 T What's in the Box?|QID|32330|M|91.11,37.52|N|To Lor'themar Theron. At the end of his speech, there is a portal back to Domination Point.|
 
-A The Kun-Lai Expedition|QID|32363|M|10.39,53.71|REP|Dominance Offensive;1375;revered;7930|N|From General Nazgrim|
+A The Kun-Lai Expedition|QID|32363|M|10.39,53.71|N|From General Nazgrim|
 R Kun-Lai Summit|QID|32363|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T The Kun-Lai Expedition|QID|32363|M|60.35,55.14|Z|Kun-Lai Summit|N|To Baine Bloodhoof|
 A Ties with the Past|QID|32448|PRE|32363|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bloodhoof|
@@ -234,14 +235,14 @@ A Memory Wine|QID|32368|PRE|32448|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bl
 C Drink and Witness|QID|32368|QO|2|N|Drink the wine and see what happens.|
 T Memory Wine|QID|32368|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bloodhoof|
 
-A The Ruins of Korune|QID|32391|M|10.39,53.71|REP|Dominance Offensive;1375;revered;10625|N|From General Nazgrim|
+A The Ruins of Korune|QID|32391|M|10.39,53.71|N|From General Nazgrim|
 R Kun-Lai Summit|QID|32391|M|9.90,52.39|N|Talk to Tak-Tak for a ride over.|
 T The Ruins of Korune|QID|32391|M|32.89,26.34|Z|Kun-Lai Summit|N|To Ishi|
 A The Divine Bell|QID|32392|PRE|32391|M|32.8,26.2|Z|Kun-Lai Summit|N|From Ishi|
 K Sarannha Skyglaive|QID|32392|M|60.87,22.43|Z|387;Crypt of Korune|QO|1|N|Head in, clear the elites around the altar. Stick to the left in the falling rocks room. Run down steps quickly then go for Sarannha.|
 T The Divine Bell|QID|32392|M|61.73,25.40|Z|387;Crypt of Korune|N|To Ishi.  Get back to Dominance Offensive on your own.|
 
-A Insertion|QID|32326|M|10.39,53.71|REP|Dominance Offensive;1375;revered;10700|N|From General Nazgrim|
+A Insertion|QID|32326|M|10.39,53.71|N|From General Nazgrim|
 R Darnassus|QID|32326|N|Use the portal to get there. This is NOT a phased Darnassus. You will be flagged and players can kill you. Do your shapeshifting BEFORE accepting the followon quest from Fanlyr and your stealth buff will endure.|
 T Insertion|QID|32326|M|40,50.4|N|To Fanlyr Silverthorn.|
 A The Darnassus Mission|QID|32327|PRE|32326|M|40,50.4|N|From Fanlyr Silverthorn|
@@ -250,7 +251,7 @@ T The Darnassus Mission|QID|32327|M|40,50.4|N|To Fanlyr Silverthorn, using the e
 A Victorious Return|QID|32328|PRE|32327|M|40,50.4|N|From Fanlyr Silverthorn|
 T Victorious Return|QID|32328|M|10.4,53.8|N|To General Nazgrim|
 
-A The Situation In Dalaran|QID|32402|M|10.39,53.71|REP|Dominance Offensive;1375;revered;18500|N|From General Nazgrim|
+A The Situation In Dalaran|QID|32402|M|10.39,53.71|N|From General Nazgrim|
 R Dalaran|M|9.69,52.51|QID|32402|N|Talk to Kromthar for a ride and fly to the sewers of Dalaran!|
 T The Situation In Dalaran|QID|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|To Grand Magister Rommath|
 A It Starts in the Sewers|QID|32403|PRE|32402|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|From Grand Magister Rommath|
@@ -288,8 +289,8 @@ K Mage-Commander Zuros|QID|32412|M|30,48.4|Z|Dalaran City@DalaranCity|QO|1|N|Kil
 R Silvermoon City|QID|32412|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|Make you way back to the Underbelly sewer you came in by and jump!|
 T One Last Grasp|QID|32412|M|54,20.4|Z|Silvermoon City|N|To Grand Magister Rommath|
 
-A The Bell Speaks|QID|32398|M|10.39,53.71|REP|Dominance Offensive;1375;exalted|N|From General Nazgrim|
-T The Bell Speaks|QID|32398|M|55.8,34|REP|Dominance Offensive;1375;exalted|PRE|32108|N|To Malkorok|
+A The Bell Speaks|QID|32398|M|10.39,53.71|N|From General Nazgrim|
+T The Bell Speaks|QID|32398|M|55.8,34|PRE|32108|N|To Malkorok|
 A Breath of Darkest Shadow|QID|32399|PRE|32398|M|55.8,34|N|From Malkorok|
 T Breath of Darkest Shadow|QID|32399|M|55.8,34|N|To Malkorok|
 

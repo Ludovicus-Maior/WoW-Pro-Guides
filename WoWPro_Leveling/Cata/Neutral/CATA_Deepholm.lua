@@ -278,7 +278,7 @@ C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If y
 T Rock Bottom|QID|26575|M|34.12,34.19|N|Back to Kor the Immovable.|
 A Steady Hand|QID|26576|PRE|26575&26507|RANK|1|M|34.12,34.19|N|From Kor.|
 A Rocky Upheaval|QID|26577|PRE|26575&26507|M|34.12,34.19|N|From Kor.|
-T Steady Hand|QID|26576|RANK|1|N|To Terrath the Steady.|
+T Steady Hand|QID|26576|M|39.57,19.92|N|To Terrath the Steady.|RANK|1|
 A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
 C Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|CS|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
 T Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
