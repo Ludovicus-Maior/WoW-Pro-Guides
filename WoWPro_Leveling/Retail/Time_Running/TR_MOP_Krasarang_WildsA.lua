@@ -16,7 +16,7 @@ C Speak with Despondent Warden of Zhu|QID|30079|NC|QO|1|M|76.69,8.85|; Speak wit
 C Speak with Sunni|QID|30079|NC|QO|2|M|77.47,8.54|N|Up the stairs, inside in bed.|; Speak with Sunni: 1/1
 f Zhu's Watch|QID|30078|M|76.7,8.38|N|At Gee Hung.|
 l Boat Building Instructions|QID|31869|L|87524|M|88.53,50.6;92.17,39.06|CS|Z|Valley of the Four Winds|N|Optional, worth 10g and some XP. Dot is at the beginning of the patch down, run down the hill, along the shore about 20 yards, and up into the house, papers are on table.|
-C Finding Yi-Mo|QID|30080|M|81.30,8.85|N|He is lying on the ground.|
+C Finding Yi-Mo|QID|30080|M|81.32,6.87|N|He is lying on the ground.|
 T Finding Yi-Mo|QID|30080|M|81.31,6.78|N|To Yi-Mo Longbrow.|
 A Cheer Up, Yi-Mo|QID|30082|PRE|30080|M|81.30,6.78|N|From Yi-Mo Longbrow.|
 C Cheer Up, Yi-Mo|QID|30082|NC|M|76.77,7.74|N|Talk to him, then you have to roll him home. You will be attacked by large birds on the way.|
@@ -34,14 +34,14 @@ A Borderlands|QID|30084|PRE|30091|M|75.83,7.65|N|From Mei Barrelbottom.|
 T Materia Medica|QID|30081|M|76.22,7.06|N|To Ken-Ken.|
 A Why So Serious?|QID|30088|PRE|30081|M|76.22,7.06|N|From Ken-Ken.|
 C Why So Serious?|QID|30088|S|L|78941 18|M|72.00,16.91|N|The panthers are in the area around the Memorial Flames.|
-C Memorial Flame of Po|QID|30084|NC|U|78928|QO|1|M|74.00,17.00|; Memorial Flame of Po: 1/1
+C Memorial Flame of Po|QID|30084|NC|U|78928|QO|2|M|74.00,17.00|; Memorial Flame of Po: 1/1
 C Memorial Flame of Zhu|QID|30084|NC|U|78928|QO|1|M|72.70,18.12|; Memorial Flame of Zhu: 1/1
-C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|1|M|71.30,17.47|; Memorial Flame of Rin: 1/1
+C Memorial Flame of Rin|QID|30084|NC|U|78928|QO|3|M|71.30,17.47|; Memorial Flame of Rin: 1/1
 C Why So Serious?|QID|30088|US|QO|1|M|72.00,16.91|N|Finish killing the Panthers for the Fangs|; Huge Panther Fang: 18/18
 C Securing the Province|QID|30083|S|M|77.30,58.91|Z|Valley of the Four Winds|N|Kill the sauroks on the way in and out of the cave.|
-R Winds' Edge|QID|30083|M|77.05,57.2|N|Head to Winds' Edge and enter the cave|
+R Winds' Edge|QID|30083|M|70.58,9.49|N|Head to Winds' Edge and enter the cave|
 l Saurok Stone Tablet|QID|30088|L|86220|M|75.05,55.12|Z|Valley of the Four Winds|N|The tablet is a world drop worth ~100G and a random amount of XP (at least as much as one quest)|
-l Jar of Pigment|QID|30088|US|L|78942|M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.|
+l Jar of Pigment|QID|30088|QO|2||M|73.89,56.30|Z|Valley of the Four Winds|N|Pick up the jar of pigment here.|
 C Securing the Province|QID|30083|US|M|77.30,58.91|Z|Valley of the Four Winds|N|Finish killing the sauroks as you leave the cave.|
 T Securing the Province|QID|30083|M|75.83,7.65|N|To Mei Barrelbottom.|
 T Borderlands|QID|30084|M|75.83,7.65|N|To Mei Barrelbottom.|
