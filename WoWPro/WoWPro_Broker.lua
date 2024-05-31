@@ -3019,8 +3019,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
                     local spellInfo
-                    local spellName
-                    local spellKnown
                     local canFly
                     local mSkill
                     local eSkill
