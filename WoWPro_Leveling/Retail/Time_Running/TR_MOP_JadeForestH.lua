@@ -7,8 +7,6 @@ WoWPro:GuideNextGuide(guide, 'TR_Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-U Cache of Infinite Treasure|QID|999999|U|211279|N|Use your Cache of Infinate Treasure|NOCACHE|O|
-
 A It's About Time|QID|79432|M|24.54,52.24|Z|554|N|From Eternus.|
 C It's About Time|QID|79432|M|26.09,47.22|Z|554|QO|1;2|NC|N|Archaios the Artificer slain.|
 C It's About Time|QID|79432|M|26.18,47.20|Z|554|QO|3|NC|N|Archaios's artifact taken.|
@@ -88,7 +86,7 @@ C Monstrosity|QID|29743|M|30.01,21.21|QO|2|NC|
 C Cryin' My Eyes Out|QID|29765|M|31.02,21.28|N|Kill the monkeys to find Zin'Jun's missing things.|US|
 T Cryin' My Eyes Out|QID|29765|M|PLAYER|N|To Zin'Jun.|
 A Seein' Red|QID|29804|M|29.42,18.00|N|From Zin'Jun.|PRE|29765|
-K Konk|QID|29804|M|31.61,21.91|QO|1|T|Konk|
+K Konk|ACTIVE|29804|M|31.61,21.91|QO|1|T|Konk|
 T Seein' Red|QID|29804|M|31.61,21.91|N|To General Nazgrim.|
 A Assault on the Airstrip|QID|31775|M|31.61,21.91|N|From General Nazgrim.|PRE|29804|
 A Strongarm Tactics|QID|31776|M|31.61,21.91|N|From General Nazgrim.|PRE|29804|
@@ -98,9 +96,9 @@ C Unreliable Allies|QID|31778|M|29.63,23.15|CHAT|S|
 C Choppertunity|QID|31777|M|27.92,24.14|L|89163 6|N|Pick up the sparkly Rocket Launchers, you will need at least 6. You get 2 shots from each one.|S|
 C Choppertunity|QID|31777|M|27.92,24.14|N|Target choppers and use one the Requisitioned Firework Launchers that you collected (they have a very long range).\nPick up more if you run out.|T|Strongarm Gyrocopter|U|89163|S|
 C Assault on the Airstrip|QID|31775|M|27.96,24.73|S|
-K Master Engineer Cogswing and Gyro-Mechanic Lavenderp|QID|31776|M|30.30,24.28|QO|1|N|These guys move between campsites in this area.|T|Master Engineer Cogswing|
-K Morgus Grimhatchet|QID|31776|M|29.66,23.23|N|These guys move between campsites in this area.|T|Morgus Grimhatchet|QO|2|
-K Corporal Jackson Silver|QID|31776|M|27.84,23.10|QO|3|T|Corporal Jackson Silver|
+K Master Engineer Cogswing and Gyro-Mechanic Lavenderp|ACTIVE|31776|M|30.30,24.28|QO|1;2|N|These guys move between campsites in this area.|T|Master Engineer Cogswing|
+K Morgus Grimhatchet|ACTIVE|31776|M|29.66,23.23|N|These guys move between campsites in this area.|T|Morgus Grimhatchet|QO|3|
+K Corporal Jackson Silver|ACTIVE|31776|M|27.84,23.10|QO|4|T|Corporal Jackson Silver|
 C Unreliable Allies|QID|31778|M|29.63,23.15|CHAT|US|
 C Choppertunity|QID|31777|M|27.92,24.14|N|Target choppers and use one the Requisitioned Firework Launchers that you collected (they have a very long range).\nPick up more if you run out.|T|Strongarm Gyrocopter|U|89163|US|
 C Assault on the Airstrip|QID|31775|M|27.96,24.73|US|
@@ -318,12 +316,12 @@ T Simulacrumble|QID|29748|M|PLAYER|N|To UI Alert.|
 A An Urgent Plea|QID|29749|M|PLAYER|N|From UI Alert.|PRE|29747&29748|
 C An Urgent Plea|QID|29749|M|44.23,14.91|QO|1|N|Get the staff|
 C An Urgent Plea|QID|29749|M|44.36,15.89|QO|2|N|Kill Ancient Spirits drifting towards the center to destroy the ritual.|
-T An Urgent Plea|QID|29749|M|43.82,12.55|N|To Pei-Zhi. Wait for him to come down.|
-A Ritual Artifacts|QID|29751|M|43.82,12.55|N|From Pei-Zhi.|PRE|29749|
-A Vessels of the Spirit|QID|29750|M|43.82,12.55|N|From Pei-Zhi.|PRE|29749|
-A The Wayward Dead|QID|29752|M|43.82,12.55|N|From Pei-Zhi.|PRE|29749|
+T An Urgent Plea|QID|29749|M|44.23,15.08|N|To Pei-Zhi. Wait for him to come down.|
+A Ritual Artifacts|QID|29751|M|44.23,15.08|N|From Pei-Zhi.|PRE|29749|
+A Vessels of the Spirit|QID|29750|M|44.23,15.08|N|From Pei-Zhi.|PRE|29749|
+A The Wayward Dead|QID|29752|M|44.23,15.08|N|From Pei-Zhi.|PRE|29749|
 ; --- [Hendo72] Not sure how to handle the 4 possible locations.
-$ Hammer of the Ten Thunders|QID|31403|M|43.0,11.6;40.2,13.7;41.2,13.8;41.8,17.7|CC|N|It has 4 different spawn points and may not always be there. Click this off when it's not around here.|S!US|RANK|3|
+$ Hammer of the Ten Thunders|QID|31403|M|43.0,11.6;40.2,13.7;41.2,13.8;41.8,17.7|CC|N|It has 4 different spawn points and may not always be there. Click this off when it's not around here.|RANK|3|
 C Vessels of the Spirit|QID|29750|M|40.69,14.85|N|Kill and loot the Shan'ze Spiritclaws to get the spirit bottles.|S|
 C The Wayward Dead|QID|29752|M|44.22,15.01|N|Use Pei-Zhi's staff to release the Wandering Spirits.|T|Wayward Ancestor|U|74771|S|
 C Ritual Artifacts|QID|29751|M|41.63,14.31|QO|2|N|Sitting on the crate.|NC|
@@ -331,18 +329,18 @@ C Ritual Artifacts|QID|29751|M|42.68,15.75|QO|1|N|White Vase on the ground.|NC|
 C Ritual Artifacts|QID|29751|M|42.26,17.07|QO|3|N|White candle sitting on crate.|NC|
 C The Wayward Dead|QID|29752|M|40.38,14.76|T|Wayward Ancestor|U|74771|US|
 C Vessels of the Spirit|QID|29750|M|40.69,14.85|N|Kill and loot the Shan'ze Spiritclaws to get the spirit bottles.|US|
-T Ritual Artifacts|QID|29751|M|43.82,12.55|N|To Pei-Zhi.|
-T Vessels of the Spirit|QID|29750|M|43.82,12.55|N|To Pei-Zhi.|
-T The Wayward Dead|QID|29752|M|43.82,12.553|N|To Pei-Zhi.|
-A Back to Nature|QID|29753|M|43.82,12.55|N|From Pei-Zhi.|PRE|29750|
-A A Humble Offering|QID|29756|M|43.82,12.55|N|From Pei-Zhi.|PRE|29750&29751&29752|
+T Ritual Artifacts|QID|29751|M|44.23,15.08|N|To Pei-Zhi.|
+T Vessels of the Spirit|QID|29750|M|44.23,15.08|N|To Pei-Zhi.|
+T The Wayward Dead|QID|29752|M|44.23,15.08|N|To Pei-Zhi.|
+A Back to Nature|QID|29753|M|44.23,15.08|N|From Pei-Zhi.|PRE|29750|
+A A Humble Offering|QID|29756|M|44.23,15.08|N|From Pei-Zhi.|PRE|29750&29751&29752|
 C A Humble Offering|QID|29756|M|39.71,10.98|N|Pick the mushrooms sparkling in this area.|NC|S|
-$ Wodin's Mantid Shanker|QID|31397|M|39.37,7.20|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found. Click this off when it's not there. Click the Lucky Golden Coin for a 10 minute luck buff|S!US|RANK|3|
+$ Wodin's Mantid Shanker|QID|31397|M|39.37,7.20|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found. Click this off when it's not there. Click the Lucky Golden Coin for a 10 minute luck buff|RANK|3|
 C Back to Nature|QID|29753|M|39.88,10.43|N|Throw the jar to release the spirit. The spirit may be hostile. You have to be in Tideview Thicket.|U|74808|
 C A Humble Offering|QID|29756|M|39.71,10.98|N|Finish picking the mushrooms you need.|NC|US|
-T Back to Nature|QID|29753|M|43.82,12.55|N|To Pei-Zhi.|
-T A Humble Offering|QID|29756|M|43.82,12.55|N|To Pei-Zhi.|
-A To Bridge Earth and Sky|QID|29754|M|43.82,12.55|N|From Pei-Zhi.|PRE|29753&29756|
+T Back to Nature|QID|29753|M|44.23,15.08|N|To Pei-Zhi.|
+T A Humble Offering|QID|29756|M|44.23,15.08|N|To Pei-Zhi.|
+A To Bridge Earth and Sky|QID|29754|M|44.23,15.08|N|From Pei-Zhi.|PRE|29753&29756|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|PLAYER|N|To UI Alert.|
 A Pei-Back|QID|29755|M|PLAYER|N|From UI Alert.|PRE|29754|
@@ -438,7 +436,7 @@ K Subjugator Gormal|ACTIVE|29670|M|37.84,75.76|QO|1|T|Subjugator Gormal|
 C Unbound|QID|29587|M|39.76,75.57|N|Click on the nets to free the farmers or defeat the Slaver to free the chained one.|NC|US|
 T Unbound|QID|29587|M|41.00,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.00,73.97|N|To Shao the Defiant.|
-$ Ancient Jinyu Staff|QID|31402|M|46.12,71.33;44.91,64.50|CC|N|Anywhere in the river between the two waypoints. Click this off if it's not there.|S!US|RANK|3|
+$ Ancient Jinyu Staff|QID|31402|M|46.12,71.33;44.91,64.50|CC|N|Anywhere in the river between the two waypoints. Click this off if it's not there.|RANK|3|
 R Serpent's Heart|QID|29931|M|42.94,60.12|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|FLY|OLD|
 T The Serpent's Heart|QID|29931|M|48.31,61.35|N|To Foreman Raike.|
 A Love's Labor|QID|30495|M|48.31,61.35|N|From Foreman Raike.|PRE|29931|
@@ -451,7 +449,7 @@ C Delivery to Historian Dinh|QID|30495|M|46.36,61.80|QO|1|N|Run over and speak w
 T Love's Labor|QID|30495|M|48.31,61.35|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|M|48.31,61.35|N|From Foreman Raike.|PRE|30495|
 F Jade Temple Grounds|QID|29932|M|48.18,60.02|N|Ask Kitemaster Shoku for a ride to the Temple of the Jade Serpent.|
-C The Temple of the Jade Serpent|QID|29932|M|55.84,57.07|N|Chat with Elder Sage Wind-Yi for transport into the temple.\n[color=FF0000]NOTE: [/color]Starts a cancelable cinematic.\n<ESC> to cancel it.|CHAT|
+C The Temple of the Jade Serpent|QID|29932|M|54.95,56.88|N|Chat with Elder Sage Wind-Yi for transport into the temple.\n[color=FF0000]NOTE: [/color]Starts a cancelable cinematic.\n<ESC> to cancel it.|CHAT|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|PRE|29932|
 A The Librarian's Quandary|QID|29998|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|PRE|29932|

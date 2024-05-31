@@ -1022,6 +1022,7 @@ local nameToID = {
     ["Battle for Azeroth"] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH,
     ["Shadowlands"] = _G.LE_EXPANSION_SHADOWLANDS,
     ["Dragonflight"] = _G.LE_EXPANSION_DRAGONFLIGHT,
+    ["The War Within"] = _G.LE_EXPANSION_WAR_WITHIN,
 }
 function WoWPro:GuideContent(guide, content)
     if content == "Intro" then
@@ -1647,8 +1648,11 @@ WoWPro.POST_BC = (WoWPro.TocVersion >= 30000)
 WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
 WoWPro.CATA = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
 WoWPro.POST_CATA = (WoWPro.TocVersion >= 40000)
-WoWPro.RETAIL = (WoWPro.TocVersion >= 100000)
+WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 110000))
+WoWPro.WAR_WITHIN = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 120000))
 WoWPro.RETAIL_RELEASE = 10
+WoWPro.RETAIL = (WoWPro.TocVersion >= WoWPro.RETAIL_RELEASE * 10000)
+
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false
