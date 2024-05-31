@@ -30,7 +30,7 @@ RegisterMarkup("ability", WoWPro.ExpandAbility)
 
 local InvalidCount = {}
 function WoWPro.ExpandItem(item, want_icon, want_text)
-    local name, link, _, _, _, _, _, _, _, texture = _G.GetItemInfo(tonumber(item))
+    local name, link, _, _, _, _, _, _, _, texture = WoWPro.C_Item_GetItemInfo(tonumber(item))
     local expanded = ""
     if name then
         if want_icon then
@@ -70,8 +70,11 @@ end
 RegisterMarkup("ach", WoWPro.ExpandAch)
 
 function WoWPro.ExpandSpell(spell, want_icon, want_text)
-    local name, _, texture = _G.GetSpellInfo(tonumber(spell))
-    local link  = _G.GetSpellLink(tonumber(spell))
+
+    local spellInfo = WoWPro.C_Spell_GetSpellInfo(tonumber(spell))
+    local name = spellInfo.name
+    local texture = spellInfo.iconID
+    local link  =  WoWPro.C_Spell_GetSpellLink(tonumber(spell))
     local expanded = ""
     if name then
         if want_icon then

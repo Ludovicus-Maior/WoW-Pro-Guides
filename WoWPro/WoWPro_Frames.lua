@@ -55,7 +55,7 @@ function WoWPro:DragSet()
                 WoWPro.InhibitAnchorRestore = true
                 WoWPro.MainFrame:StartMoving()
             elseif button == "RightButton" then
-                _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
@@ -69,7 +69,7 @@ function WoWPro:DragSet()
     else
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "RightButton" then
-                _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
@@ -457,7 +457,7 @@ function WoWPro:CreateMainFrame()
             WoWPro.InhibitAnchorRestore = true
             this:StartMoving()
         elseif button == "RightButton" then
-            _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
     WoWPro.MainFrame:SetScript("OnMouseUp", function(this, button)
@@ -571,7 +571,7 @@ function WoWPro:CreateTitleBar()
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
     titleicon:SetScript("OnMouseDown", function(this, button)
         if button == "RightButton" then
-            _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
     WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
