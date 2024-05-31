@@ -1459,7 +1459,7 @@ function WoWPro:ResolveIcon(guide)
         local spellInfo = WoWPro.C_Spell_GetSpellInfo(guide.spell)
         if spellInfo then
             icon = spellInfo.iconID
-        end 
+        end
         guide.icon = icon
         return
     end
