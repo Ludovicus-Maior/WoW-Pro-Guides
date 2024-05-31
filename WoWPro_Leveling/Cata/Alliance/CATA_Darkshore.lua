@@ -357,7 +357,7 @@ A Hero's Call: Ashenvale!|QID|28492|AVAILABLE|26408|LEAD|13594|M|44.94,49.93|Z|1
 r Housekeeping|ACTIVE|26408^28492|N|While in Darnassus, take a minute to visit the bank to offload items, the Auction House, and any of the profession trainers before you leave.\n[color=FF0000]NOTE: [/color]Manually check this step off when you are done.|
 P Rut'theran Village|ACTIVE|26408^28492|M|35.68,50.97|Z|Darnassus|N|Go through the portal to Rut'theran Village.|
 f Rut'theran Village|ACTIVE|28492|M|55.41,88.40|Z|1438; Teldrassil|N|Open the flight map to populate the known flight paths.|TAXI|-Grove of the Ancients|
-F Grove of the Ancients|ACTIVE|26408^28492|M|55.41,88.40|Z|1438; Teldrassil|N|Fly to Lor'danel from Darnassus.\n[color=FF0000]NOTE: [/color]This is faster than flying from Darnassus.|TAXI|Grove of the Ancients|
+F Grove of the Ancients|ACTIVE|26408^28492|M|55.41,88.40|Z|1438; Teldrassil|N|Fly to Grove of the Ancients from Rut'theran Village.\n[color=FF0000]NOTE: [/color]This is faster than flying from Darnassus.|TAXI|Grove of the Ancients|
 
 ]]
 end)
