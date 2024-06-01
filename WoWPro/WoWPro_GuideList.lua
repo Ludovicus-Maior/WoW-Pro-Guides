@@ -105,20 +105,21 @@ function WoWPro.CreateGuideList()
     local frame = _G.CreateFrame("Frame", "WoWPro_GuideList", _G.UIParent, "BackdropTemplate")
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
-    if WoWPro.CLASSIC then
-        frame:SetSize(600, 500)
-        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-    elseif WoWPro.WRATH then
-        frame:SetSize(650, 520)
-        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-    elseif WoWPro.CATA then
-        frame:SetSize(650, 550)
-        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-    else
-        frame:SetSize(625, 600)
-        frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
-    end
+
+    local versionInfo = {
+        CLASSIC = {size = {600, 500}, titlePoint = {0, -30}, subtitlePoint = {0, -45}, tabPoint = {13, -1}},
+        CATA = {size = {650, 550}, titlePoint = {0, -10}, subtitlePoint = {0, -60}, tabPoint = {13, 2}},
+        WAR_WITHIN = {size = {625, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -60}, tabPoint = {80, 20}},
+        default = {size = {625, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -60}, tabPoint = {80, 20}}
+    }
+
+    local currentVersion = WoWPro.CLASSIC and "CLASSIC" or WoWPro.CATA and "CATA" or WoWPro.WAR_WITHIN and "WAR_WITHIN" or "default"
+    local currentVersionInfo = versionInfo[currentVersion]
+
+    frame:SetSize(unpack(currentVersionInfo.size))
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
     frame:SetFrameStrata("DIALOG")
+
     local texture = frame:CreateTexture(nil, "BACKGROUND")
     texture:SetAllPoints(true)
     texture:SetColorTexture(0, 0, 0, 0)
@@ -132,36 +133,22 @@ function WoWPro.CreateGuideList()
     _G.table.insert(_G.UISpecialFrames, frame:GetName())
 
     local title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
-    if WoWPro.CLASSIC then
-        title:SetPoint("TOP", frame, "TOP", 0, -30)
-    elseif WoWPro.WRATH then
-        title:SetPoint("TOP", frame, "TOP", 0, -10)
-    elseif WoWPro.CATA then
-        title:SetPoint("TOP", frame, "TOP", 0, 0) -- Set the point for Cataclysm
-    else
-        title:SetPoint("TOP", frame, "TOP", 0, 50)
-    end
-    frame.title = title
+    title:SetPoint("TOP", frame, "TOP", unpack(currentVersionInfo.titlePoint))
+
     local subtitle = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall") -- White text
     subtitle:SetHeight(40)
-    if WoWPro.CLASSIC then
-        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -30)
-    elseif WoWPro.WRATH then
-        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -45)
-    elseif WoWPro.CATA then
-        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -60)
-    else
-        subtitle:SetPoint("TOP", title, "BOTTOM", 0, -60)
-    end
+    subtitle:SetPoint("TOP", title, "BOTTOM", unpack(currentVersionInfo.subtitlePoint))
     subtitle:SetText(L["Use the scroll bar (or scroll wheel) to see all the guides.\nClick to select a guide and load it.\nSHIFT+click a guide to reset it and then load it."])
     subtitle:SetNonSpaceWrap(true)
     subtitle:SetFont("Fonts\\FRIZQT__.TTF", 10)
     frame.subtitle = subtitle
+
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
     scrollBox:SetPoint("TOPLEFT", frame, 5, -150)
     scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
     _G.Mixin(scrollBox, GuideListMixin)
     frame.scrollBox = scrollBox
+
     local prev
     local tabs = {}
 
@@ -172,15 +159,7 @@ function WoWPro.CreateGuideList()
             if prev then
                 tab:SetPoint("BOTTOMLEFT", prev, "BOTTOMRIGHT", 0, 0)
             else
-                if WoWPro.CLASSIC then
-                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, -1)
-                elseif WoWPro.WRATH then
-                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 1)
-                elseif WoWPro.CATA then
-                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 13, 2)
-                else
-                    tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 80, 20)
-                end
+                tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", unpack(currentVersionInfo.tabPoint))
             end
             tab.name = name
             tab:SetScript("OnClick", Tab_OnClick)
@@ -193,6 +172,7 @@ function WoWPro.CreateGuideList()
     end
     scrollBox.Tabs = tabs -- Tabs table needs to be capitalized for the PanelTemplate functions
     _G.PanelTemplates_SetNumTabs(scrollBox, #tabs)
+end
 
     if not tabs[1] then
         subtitle:SetText(L["|cFFFF8040Looks like you don't have any Wow-Pro guide modules loaded!"
