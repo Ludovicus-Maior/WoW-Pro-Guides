@@ -101,23 +101,24 @@ local function Tab_OnClick(self, button)
     self:GetParent():GetParent():SelectTab(self:GetID())
 end
 
+
 function WoWPro.CreateGuideList()
     local frame = _G.CreateFrame("Frame", "WoWPro_GuideList", _G.UIParent, "BackdropTemplate")
     frame.name = L["Guide List"]
     frame.parent = "WoWPro"
 
     local versionInfo = {
-        CLASSIC = {size = {600, 500}, titlePoint = {0, -30}, subtitlePoint = {0, -45}, tabPoint = {13, -1}},
-        CATA = {size = {650, 550}, titlePoint = {0, -10}, subtitlePoint = {0, -60}, tabPoint = {13, 2}},
-        WAR_WITHIN = {size = {625, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -60}, tabPoint = {80, 20}},
-        default = {size = {625, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -60}, tabPoint = {80, 20}}
+        CLASSIC = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -45}, tabPoint = {13, -1},  scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, 10}},
+        CATA = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -50}, tabPoint = {13, 2}, scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, -40}},
+        WAR_WITHIN = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -60}, tabPoint = {80, 20}, scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, 10}},
+        default = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, 10}, tabPoint = {80, 1}, scrollBoxPoint = {"TOPLEFT", 5, -100, "BOTTOMRIGHT", -30, 10}}
     }
 
     local currentVersion = WoWPro.CLASSIC and "CLASSIC" or WoWPro.CATA and "CATA" or WoWPro.WAR_WITHIN and "WAR_WITHIN" or "default"
     local currentVersionInfo = versionInfo[currentVersion]
 
     frame:SetSize(unpack(currentVersionInfo.size))
-    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 100)
     frame:SetFrameStrata("DIALOG")
 
     local texture = frame:CreateTexture(nil, "BACKGROUND")
@@ -144,8 +145,8 @@ function WoWPro.CreateGuideList()
     frame.subtitle = subtitle
 
     local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
-    scrollBox:SetPoint("TOPLEFT", frame, 5, -150)
-    scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
+    scrollBox:SetPoint(currentVersionInfo.scrollBoxPoint[1], currentVersionInfo.scrollBoxPoint[2], currentVersionInfo.scrollBoxPoint[3])
+    scrollBox:SetPoint(currentVersionInfo.scrollBoxPoint[4], currentVersionInfo.scrollBoxPoint[5], currentVersionInfo.scrollBoxPoint[6])
     _G.Mixin(scrollBox, GuideListMixin)
     frame.scrollBox = scrollBox
 
@@ -180,33 +181,6 @@ function WoWPro.CreateGuideList()
     end
 
     --OnShow(WoWPro.GuideList)
-end
-
---[[ OLD ]]--
-function WoWPro.ActivateTab(tab)
-    if not WoWPro[tab.name].GuideList then
-        WoWPro[tab.name].GuideList = {}
-    end
-    if WoWPro[tab.name].GuideList.Init then
-        WoWPro[tab.name].GuideList.Init()
-    end
-    if not WoWPro[tab.name].GuideList.Frame then
-        WoWPro[tab.name]:CreateGuideTabFrame()
-    else
-        WoWPro[tab.name]:Setup_TitleRow(WoWPro[tab.name].GuideList.Frame)
-    end
-    WoWPro.GuideList.TitleRow:Show()
-    WoWPro[tab.name].GuideList.Frame:SetSize(WoWPro[tab.name].GuideList.Frame.frameWidth,WoWPro[tab.name].GuideList.Frame.frameHeight)
-    WoWPro.GuideList.ScrollFrame:SetScrollChild(WoWPro[tab.name].GuideList.Frame)
-    local vHeight = WoWPro[tab.name].GuideList.Frame.frameHeight-WoWPro.GuideList.ScrollFrame:GetHeight()
-    if vHeight < 0 then
-        vHeight = WoWPro[tab.name].GuideList.Frame.frameHeight
-    end
-    WoWPro.GuideList.scrollBar:SetMinMaxValues(0,vHeight)
-    WoWPro.GuideList.scrollBar:SetValue(0)
-    WoWPro.GuideList.ScrollFrame:SetVerticalScroll(0)
-    WoWPro.GuideList.ScrollFrame:Show()
-    WoWPro[tab.name].GuideList.Frame:Show()
 end
 
 --[[ OLD ]]--
