@@ -172,7 +172,6 @@ function WoWPro.CreateGuideList()
     end
     scrollBox.Tabs = tabs -- Tabs table needs to be capitalized for the PanelTemplate functions
     _G.PanelTemplates_SetNumTabs(scrollBox, #tabs)
-end
 
     if not tabs[1] then
         subtitle:SetText(L["|cFFFF8040Looks like you don't have any Wow-Pro guide modules loaded!"
