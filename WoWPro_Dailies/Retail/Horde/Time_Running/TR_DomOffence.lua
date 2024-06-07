@@ -130,7 +130,7 @@ A Sentry Wards|QID|32133|PRE|32450|M|75.8,34.4|N|From Shademaster Kiryn|
 A Good Luck, Have Fun|QID|32130|PRE|32450|M|75.8,34.2|N|From Zazzix "Toasty" Sparkrocket|
 A We Require More Minerals!|QID|32131|PRE|32450|M|75.8,34.2|N|From Zazzix "Toasty" Sparkrocket|
 K Thane Stonehearth|ACTIVE|32135|M|81,23.4|QO|1|N|Pull him onto the grass so he wont get help.|
-C Peasant Slaughter|QID|32132|M|4.00,27.70;83.10,19.60;84.60,21.10;81.90,22.18;79.84,19.73;85.09,24.49|CN|N|Kill em!|
+C Peasant Slaughter|QID|32132|M|84.60,21.10;81.90,22.18;79.84,19.73;85.09,24.49|CN|N|Kill em!|
 N Sentry Wards|ACTIVE|32133|N|This one is tricky.  You need to go to three places and click on sentry wards to activate them while avoiding MOBS.  Approach from the water and fly low to each destination.|
 C Docks|QID|32133|M|86.11,33.13|QO|2|N|Between the two docked ships.|
 C Barracks|QID|32133|M|87.75,32.71|QO|3|N|Fight your way to the second floor.|
@@ -232,7 +232,7 @@ R Path of the Conquerors|QID|32448|M|63.91,49.76|Z|Kun-Lai Summit|N|Enter the ca
 C Varatus|QID|32448|M|63.8,45.2|Z|Kun-Lai Summit|N|Kill the Conqueror for his Essence|L|93212|
 T Ties with the Past|QID|32448|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bloodhoof|
 A Memory Wine|QID|32368|PRE|32448|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bloodhoof|
-C Drink and Witness|QID|32368|QO|2|N|Drink the wine and see what happens.|
+C Drink and Witness|QID|32368|QO|2|N|Drink the wine and see what happens.|U|92756|
 T Memory Wine|QID|32368|M|60.35,55.14|Z|Kun-Lai Summit|N|From Baine Bloodhoof|
 
 A The Ruins of Korune|QID|32391|M|10.39,53.71|N|From General Nazgrim|
@@ -290,9 +290,10 @@ R Silvermoon City|QID|32412|M|64.2,48.2|Z|The Underbelly@DalaranCity|N|Make you 
 T One Last Grasp|QID|32412|M|54,20.4|Z|Silvermoon City|N|To Grand Magister Rommath|
 
 A The Bell Speaks|QID|32398|M|10.39,53.71|N|From General Nazgrim|
+R Emperor's Reach|QID|32398|QO|1|M|9.89,52.53|N|Tell Tak-Tak you are ready.|
 T The Bell Speaks|QID|32398|M|55.8,34|PRE|32108|N|To Malkorok|
 A Breath of Darkest Shadow|QID|32399|PRE|32398|M|55.8,34|N|From Malkorok|
-T Breath of Darkest Shadow|QID|32399|M|55.8,34|N|To Malkorok|
+T Breath of Darkest Shadow|QID|32399|M|55.95,32.07|Z|379;Kun-Lai Summit|N|To Garrosh Hellscream|
 
 N Buenas Noches|N|Wait until tomorrows adventures!|
 
