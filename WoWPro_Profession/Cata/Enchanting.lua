@@ -165,6 +165,6 @@ M [item=52770]|QID|171000081|L|52770 5|N|Make 5 of these. Your skill level shoul
 M [item=52771]|QID|171000082|L|52771 5|N|Make 5 of these. Your skill level should go from 515 to 520.|
 = Learn Recipe|QID|171001008|N|Learn [spell=92370] from Trainer.|
 M [item=52723]|QID|171000083|L|52723 1|N|Make 1 of these. Your skill level should go from 520 to 525.|
-N Congratulations on reaching 525.\n We hope you found this guide useful and reported any improvements that can be made.|QID|171000004||QID|171017557|
+N Congratulations on reaching 525.\n We hope you found this guide useful and reported any improvements that can be made.|QID|171000004|
 ]]
 end)
