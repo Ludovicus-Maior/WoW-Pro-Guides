@@ -138,7 +138,7 @@ T The Fallen Sisters |QID|11314|M|61.5,22.8|N|To Lurielle.|
 T Wild Vines |QID|11315|M|61.5,22.8|N|To Lurielle.|
 A Spawn of the Twisted Glade |QID|11316|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
 A Seeds of the Blacksouled Keepers |QID|11319|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
-C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|72,17|
+C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|72.64,17.51|
 C Mastering the Runes |QID|11351|N|Look for a little box called Iron Rune Carving Tools, they spawn under one of the 5 'tent' canopies.|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|S|
 C Seeds of the Blacksouled Keepers |QID|11319|U|33607|N|Kill Spores here and use the Enchanted Ice Core on their remains until you complete this quest.|M|53.71,18.56|
