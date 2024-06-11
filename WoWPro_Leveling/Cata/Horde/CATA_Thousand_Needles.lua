@@ -40,7 +40,7 @@ C Pirate Accuracy Increasing|QID|25533|M|79.18,76.61|N|Head to the dock and talk
 T Pirate Accuracy Increasing|QID|25533|N|(UI Alert)|
 A Circle the Wagons... er, Boats|QID|25543|PRE|25533|N|(UI Alert)|
 C Circle the Wagons... er, Boats|QID|25543|N|This one's much easier, just use the cannon on the boats that are circling the barge.|
-T Circle the Wagons... er, Boats|QID|25543|M|77.18,74.41|N|Hit the exit vehicle button, then turn in your quest to Razzeric. Congradulations on getting your very own river boat!|
+T Circle the Wagons... er, Boats|QID|25543|M|77.18,74.41|N|Hit the exit vehicle button, then turn in your quest to Razzeric. congratulations on getting your very own river boat!|
 A Quiet the Cannons|QID|25586|PRE|25543^25562|M|77.18,74.41|N|From Razzeric.|
 A Where's Synge?|RANK|2|QID|25596|PRE|25543^25562|M|78.06,73.68|N|From Zamek.|
 A A Little Payback|RANK|2|QID|25589|PRE|25543^25562|M|78.21,73.60|N|From Rugfizzle.|
@@ -225,7 +225,7 @@ T The Doomstone|QID|28159|M|50.22,62.57|N|To Magatha Grimtotem.|
 A Spread the Word|QID|28161|PRE|28159|M|50.22,62.57|N|From Magatha Grimtotem.|
 ; insert H
 H Speedbarge Bar|QID|28161|N|Hearth back to the Speedbarge.|
-T Spread the Word|QID|28161|M|75.96,74.67|N|To Pozzik. Congradulations on an awesome reward!|
+T Spread the Word|QID|28161|M|75.96,74.67|N|To Pozzik. congratulations on an awesome reward!|
 A Tanaris is Calling|QID|27447|LEAD|24906|M|75.94,74.68|N|From Pozzik. Pick this up if you'd like to head to Tanaris next.|
 ;most likely doesn't have the flightpoint yet
 ;F Gadgetzan|QID|27447|M|79.19,71.89|N|Fly to Gadgetzan.|

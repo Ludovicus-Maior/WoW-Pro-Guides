@@ -74,7 +74,7 @@ A The Black Shield|RANK|2|QID|27258|PRE|27257&27253&27259&27260&27306&27261|M|36
 T Jarl Needs Eyes|RANK|1|QID|27184|M|55.43,26.26|N|To "Swamp Eye" Jarl.|
 A Hungry as an Ogre!|RANK|1|QID|27191|PRE|27184|M|55.43,26.26|N|From "Swamp Eye" Jarl.|
 A Jarl Needs a Blade|RANK|1|QID|27186|PRE|27184|M|55.43,26.26|N|From "Swamp Eye" Jarl.|
-C Jarl Needs a Blade|RANK|1|QID|27186|M|57.79,19.41|N|Kill the named murloc on the path to the cost.|
+C Jarl Needs a Blade|RANK|1|QID|27186|M|57.79,19.41|N|Kill the named murloc on the path to the coast.|
 C Hungry as an Ogre!|RANK|1|QID|27191|M|58.91,15.86|N|There are murlocs all around the beach, kill them until you complete the quest.|
 T Hungry as an Ogre!|RANK|1|QID|27191|M|55.45,26.35|N|To "Swamp Eye" Jarl.|
 T Jarl Needs a Blade|RANK|1|QID|27186|M|55.45,26.35|N|To "Swamp Eye" Jarl.|
