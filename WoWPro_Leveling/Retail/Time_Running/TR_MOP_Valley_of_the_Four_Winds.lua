@@ -20,7 +20,7 @@ T Chen and Li Li|QID|29907|M|83.69,21.01|N|To Pang Thunderfoot.|
 A A Seemingly Endless Nuisance|QID|29908|M|83.69,21.01|N|From Pang Thunderfoot.|PRE|29907|
 A A Poor Grasp of the Basics|QID|29877|M|82.70,21.24|N|From Muno the Farmhand.|PRE|29907|
 C A Seemingly Endless Nuisance|QID|29908|M|83.69,21.01|N|Kill them around the pond and in the fields to the SE.|S|
-C A Poor Grasp of the Basics|QID|29877|M|82.49,19.24|N|There are tools buried in the ground around the pond. Click 'em|NC|
+C A Poor Grasp of the Basics|QID|29877|M|82.49,19.24|N|There are tools buried in the ground around the pond. Click 'em|H|
 C A Seemingly Endless Nuisance|QID|29908|M|83.69,21.01|N|Kill them around the pond and in the fields to the SE.|US|
 T A Poor Grasp of the Basics|QID|29877|M|82.70,21.24|N|To Muno the Farmhand.|
 T A Seemingly Endless Nuisance|QID|29908|M|83.69,21.01|N|To Pang Thunderfoot.|
@@ -167,7 +167,7 @@ N Fishing quest and cooking training|AVAILABLE|31281|N|If you want to, this is a
 ; -- Fishing quest
 ;A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|
 T You Want Fish?|QID|32684|M|58.92,46.92|N|To Ben of the Booming Voice down by the shore of the Gilding Stream.|
-A No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|From Ben of the Booming Voice.\nThis quest is meant to show you can fish without a pole.|
+;A No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|From Ben of the Booming Voice.\nThis quest is meant to show you can fish without a pole.|
 N Learn Fishing Skill|QID|3562592|M|58.92,46.92|N|Learn the fishing skill from Ben of the Booming Voice.|P|Fishing;356;4|SPELL|Fishing;2592|
 C Go Fish|QID|32685|L|74866 5|N|To fish, simply click the Fishing icon and pay attention to the bobber. Hover over the bobber and click on it when it moves.\n[color=FF0000]NOTE: [/color]Drag the Fishing icon from your Profession Book to one of your bars for easier access.|
 T No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|To Ben of the Booming Voice.|
@@ -334,6 +334,8 @@ R Stoneplow|ACTIVE|29990|M|18.59,50.92|FLY|OLD|
 T Training and Discipline|QID|29990|M|19.55,56.87|N|To Loon Mai.|
 A The Road to Kun-Lai|QID|31254|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 20 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Alliance|
 A The Road to Kun-Lai|QID|31255|M|18.51,56.37|N|This quest is available multiple places, so you may have already picked it up. It is from Messenger Grummle who paths back and forth across the road. It requires level 20 and leads you to Kun-Lai. Skip if you do not want to quest there.|FACTION|Horde|
+N Karasang Wilds|JUMP|TR_Krasarang WildsA|FACTION|Alliance|
+N Karasang Wilds|JUMP|TR_Krasarang WildsH|FACTION|Horde|
 F Congratulations, you finished Valley of the Four Winds.|QID|29873|M|20.24,58.64|N|You finished Valley of the Four Winds, Dragonwing Dan will give you a free flight (if you ask within 20 min of turning in last quest) into Krasarang Wilds (a flight point you don't have yet). Next guide assumes you chose to go see Ken-Ken.|FLY|OLD|
 ]]
 end)

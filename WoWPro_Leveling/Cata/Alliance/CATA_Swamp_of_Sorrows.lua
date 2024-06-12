@@ -74,7 +74,7 @@ C Step Three: Prophet|QID|27773|M|76.64,41.61|Z|1435;Swamp of Sorrows|N|Jump dow
 T Step Three: Prophet|QID|27773|M|76.64,41.61|Z|1435;Swamp of Sorrows|N|(UI Alert)|
 A Blessing of the Green Dragonflight|QID|27914|PRE|27773|M|76.64,41.61|Z|1435;Swamp of Sorrows|N|(UI Alert)|
 T Blessing of the Green Dragonflight|QID|27914|M|69.45,54.67|Z|1435;Swamp of Sorrows|N|To Lord Itharius.|
-A The Heart of the Temple|QID|27915|LEAD|27633|PRE|27914|O|M|69.45,54.67|Z|1435;Swamp of Sorrows|N|This quest takes you into the instance of the Sunken Temple. Do it if you wish, if not just skip it.|
+A The Heart of the Temple|QID|27915|LEAD|27633|PRE|27914|M|69.45,54.67|Z|1435;Swamp of Sorrows|N|This quest takes you into the instance of the Sunken Temple. Do it if you wish, if not just skip it.|
 A To Marshtide Watch|QID|27870|LEAD|27822|PRE|27914|M|69.45,54.67|Z|1435;Swamp of Sorrows|N|From Lord Itharius.|
 R Marshtide Watch|QID|27870|M|66.02,44.06;65.91,39.3|CC|Z|1435;Swamp of Sorrows|N|Run to Marshtide Watch.|
 T To Marshtide Watch|QID|27870|M|68.04,36.39|Z|1435;Swamp of Sorrows|N|To Joanna Blueheart.|

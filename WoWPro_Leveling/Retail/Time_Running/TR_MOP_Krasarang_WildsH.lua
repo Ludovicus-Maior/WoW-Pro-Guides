@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"TR_Krasarang WildsH")
 WoWPro:GuideNextGuide(guide, 'TR_Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
-F Zhu's Watch|AVAILABLE|30079|M|79.95,2.31|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|IZ|-6000|
+F Zhu's Watch|AVAILABLE|30079|M|76.22,7.07|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|IZ|-6000|
 T Ken-Ken|QID|29873|M|76.22,7.07|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.22,7.07|N|From Ken-Ken.|
 C Speak with Mei|QID|30079|M|75.84,7.61|QO|4|N|up the stairs, outside.|CHAT|
@@ -53,11 +53,13 @@ C Zhu's Despair|QID|30090|M|76.4,8.55|QO|1|N|With Ken-Ken's help, kill the sha a
 C Zhu's Despair|QID|30090|M|76.49,8.76|QO|2|N|Use the mask on Yi-Mo, who is standing by the well. Kill the Quintessence of Despair that spawns.|T|Yi-Mo|U|79057|
 T Zhu's Despair|QID|30090|M|76.22,7.07|N|To Ken-Ken.|
 A Into the Wilds|QID|30133|M|75.84,7.61|N|From Mei Barrelbottom.|PRE|30090|
+A Search Party|QID|30121|M|59.88,24.50|N|From Sunwalker Dezco.|LEAD|30179|
+T Search Party|QID|30121|M|68.8,22.24|N|To Chezin Dawnchaser at the Krasari Ruins.|LEAD|30179|
 A Poisoned!|QID|30179|M|68.8,22.24|N|From Chezin Dawnchaser at the Krasari Ruins.|
 l Poisoned!|QID|30179|M|68.5,22.2|QO|1|N|Kill the Krasari Tormentors/Runekeepers to loot the blades.|
 A Crane Mastery|QID|30352|M|67.63,25.74|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|67.63,25.74|N|From Daggle Bombstrider.|
-C Into the Wilds|QID|30133|M|62.55,25.45|N|Check on the courier lying on the ground.|
+C Into the Wilds|QID|30133|M|62.55,25.45|N|Check on the courier lying on the ground.|CHAT|
 T Kang Bramblestaff|QID|29875|M|60.08,25.00|N|To Kang Bramblestaff.|
 T Poisoned!|QID|30179|M|59.89,24.70|N|To Sunwalker Dezco.|
 A Blind Them!|QID|30124|M|59.88,24.81|N|From Kor Bloodtusk.|PRE|30179|
