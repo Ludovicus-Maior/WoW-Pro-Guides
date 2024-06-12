@@ -68,9 +68,9 @@ T Do it Yourself|QID|14070|M|56.43,76.95|Z|0194;Kezan|N|To Sassy Hardwrench.|
 ; ** Lv 3 Class quests (Trainer intro)
 ; ** Hunter
 A Steady Shot|QID|14007|M|60.41,77.49|Z|0194;Kezan|N|From Bamm Megabomb.|C|Hunter|
-= Steady Shot|ACTIVE|14007|M|39.05,20.01|Z|0194;Kezan|N|Learn Steady Shot from Bamm Megabomb.|SPELL|Steady Shot;56641|C|Hunter|
+= Steady Shot|ACTIVE|14007|M|60.41,77.49|Z|0194;Kezan|N|Learn Steady Shot from Bamm Megabomb.|SPELL|Steady Shot;56641|C|Hunter|
 C Steady Shot|QID|14007|M|60.65,77.66|Z|0194;Kezan|N|Target a Training Dummy and use Steady Shot 3 times.|T|Training Dummy|C|Hunter|
-T Steady Shot|QID|14007|M|39.05,20.01|Z|0194;Kezan|N|To Bamm Megabomb.|C|Hunter|
+T Steady Shot|QID|14007|M|60.41,77.49|Z|0194;Kezan|N|To Bamm Megabomb.|C|Hunter|
 A Life of the Party|QID|14113|PRE|24520&14070&14109&14007|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Hunter|
 A Life of the Party|QID|14153|PRE|24520&14070&14110&14007|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Hunter|
 ; ** Mage
@@ -83,7 +83,7 @@ A Life of the Party|QID|14153|PRE|24520&14070&14110&14008|M|56.32,76.77|Z|0194;K
 ; ** Priest
 A Flash Heal|QID|14009|M|57.88,77.12|Z|0194;Kezan|N|From Sister Goldskimmer.|C|Priest|
 = Flash Heal|ACTIVE|14009|QO|2|M|57.88,77.12|Z|0194;Kezan|N|Learn Flash Heal from Sister Goldskimmer.|SPELL|Flash Heal;2061|C|Priest|
-C Healing the Wounded|QID|14009|QO|1|M|39.19,20.60|Z|0194;Kezan|N|Practice casting Flash Heal on an Injured Employee 3 times.|T|Injured Employee|C|Priest|
+C Healing the Wounded|QID|14009|QO|1|M|58.79,77.45|Z|0194;Kezan|N|Practice casting Flash Heal on an Injured Employee 3 times.|T|Injured Employee|C|Priest|
 T Healing the Wounded|QID|14009|M|57.88,77.12|Z|0194;Kezan|N|To Sister Goldskimmer.|C|Priest|
 A Life of the Party|QID|14113|PRE|24520&14070&14109&14009|M|56.31,77.11|Z|0194;Kezan|N|From Candy Cane.|GEN|MALE|C|Priest|
 A Life of the Party|QID|14153|PRE|24520&14070&14110&14009|M|56.32,76.77|Z|0194;Kezan|N|From Chip Endale.|GEN|FEMALE|C|Priest|
