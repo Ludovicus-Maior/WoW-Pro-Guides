@@ -18,7 +18,7 @@ A Robbing Robbers of Robbers|QID|31286|M|53.52,65.78|Z|The Veiled Stair|N|From L
 A Educating Saurok|QID|31287|M|53.52,65.78|Z|The Veiled Stair|N|From Len the Whisperer.|RANK|2|
 C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|N|Pick up any Black Maket Merchandise you see lying on the ground.|RANK|2|S|
 R Hatescale Burrow|QID|31287|Z|The Veiled Stair|M|55.46,56.62|N|Head to the Hatescale Burrow, and enter the cave.|
-C Educating Saurok|QID|31287|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|Z|The Veiled Stair|N|Kill Leechfingers, who can be found at the back of the cave (head to the right at both the first and second forks of the tunnel).|RANK|2|
+K Leechfingers|ACTIVE|31287|QO|1|M|52.97,48.34;48.49,46.75;50.18,42.00|CS|Z|The Veiled Stair|N|Kill Leechfingers, who can be found at the back of the cave (head to the right at both the first and second forks of the tunnel).|RANK|2|
 C Robbing Robbers of Robbers|QID|31286|NC|Z|The Veiled Stair|M|55.38,55.40|CS|N|Finish picking up the Black Maket Merchandise you see lying on the ground as you head out of the cave.|RANK|2|US|
 T Robbing Robbers of Robbers|QID|31286|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
 T Educating Saurok|QID|31287|M|53.49,65.77|Z|The Veiled Stair|N|To Len the Whisperer.|RANK|2|
@@ -158,13 +158,13 @@ T In Tents Channeling|QID|30657^30652|N|To UI Alert.|
 A The Ordo Warbringer|QID|30660^30661|N|From UI Alert.|
 C Western Oil Rig|QID|30656^30651|US|NC|U|80528|M|47.87,81.42|N|Locate and click one more Explosives Barrel, head to the Western Oil Rig and use the Explosives.|QO|3|
 K Ordo Warbringer|ACTIVE|30661^30660|M|48.35,76.69|QO|1|N|Head to the back of Fire Camp Ordo, and kill Ordo Warbringer, who's at the back of the short cave.|T|Ordo Warbringer|
-C Pandaren Prisoners|QID|30655^30650|US|FACTION|Alliance|M|49.67,80.36|N|Finish freeing the prisoners.|
+C Pandaren Prisoners|QID|30655^30650|US|M|49.67,80.36|N|Finish freeing the prisoners.|
 R Westwind Rest|QID|30651|FACTION|Alliance|M|54.17,83.27|N|Head back to Westwind Rest. Careful riding past the Ordo's, they can stun you off your mount.|
 T Barrels of Fun|QID|30651|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
 T The Ordo Warbringer|QID|30660|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
 T Pandaren Prisoners|QID|30650|FACTION|Alliance|M|53.80,82.74|N|To Admiral Taylor.|
 A The Shado-Pan|QID|31455|LEAD|30665|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
-A Beyond the Wall|QID|31695|LEAD|30814|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
+A Beyond the Wall|QID|31695|PRE|30660^30662|LEAD|31386|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A Cho's Missive|QID|31460|FACTION|Alliance|M|53.49,83.38|N|From Mishka.|
 A Muskpaw Ranch|QID|31456|LEAD|30488|PRE|30660^30662|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
 A Temple of the White Tiger|QID|31392|LEAD|31394|FACTION|Alliance|M|53.79,84.11|N|From Farmhand Bo.|
@@ -172,8 +172,8 @@ R Eastwind Rest|QID|30656|FACTION|Horde|M|62.76,79.8|N|Head back to Eastwind Res
 T Barrels of Fun|QID|30656|FACTION|Horde|M|62.76,79.81|N|To Rivett Clutchpop.|
 T The Ordo Warbringer|QID|30661|FACTION|Horde|M|62.28,80.29|N|To General Nazgrim.|
 T Pandaren Prisoners|QID|30655|FACTION|Horde|M|62.28,80.29|N|To General Nazgrim.|
-A Beyond the Wall|QID|31695|LEAD|30814|FACTION|Horde|M|62.36,79.65|N|From Elder Shiao.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A The Shado-Pan|QID|31453|FACTION|Horde|M|62.28,80.29|N|From General Nazgrim.|
+A Beyond the Wall|QID|31695|PRE|30661^30663|LEAD|31388|FACTION|Horde|M|62.36,79.65|N|From Elder Shiao.|;seems odd. is it really same QID even tho 2 seperate quest givers. ... its also the only QID listed on WOWHEAD?
 A Cho's Missive|QID|31459|FACTION|Horde|M|62.67,80.65|N|From Shademaster Kiryn.|
 A Muskpaw Ranch|QID|31457|LEAD|30488|PRE|30661^30663|FACTION|Horde|M|62.55,79.53|N|From Farmhand Ko.|
 A Temple of the White Tiger|QID|31393|LEAD|31395|FACTION|Horde|M|2.55,79.53|N|From Farmhand Ko.|
@@ -189,6 +189,7 @@ A At the Yak Wash|QID|30491|PRE|30488|M|74.96,74.52|N|From Muskpaw Jr. \nYou can
 C Fresh Needle Scent|QID|30489|US|M|71.50,70.04|N|Finish killing and looting the Needle Sprite's|
 R Lao & Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao & Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
 C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao & Son's Yakwash. Repeat until all six are done.|
+K Burilgi Despoiler|AVAILABLE|30587|M|69.94,72.81|N|Kill the Burilgi Despoilers.|
 A Yakity Yak|QID|30587|PRE|30488|M|71.67,73.56|N|This quest is auto-accepted.|
 K Yakity Yak|ACTIVE|30587|M|69.94,72.81|QO|1|N|Kill the Burilgi Despoilers.|S|
 K Burilgi Despoiler|AVAILABLE|30582|M|70.20,69.40|L|80241|N|Kill Burilgi Despoilers until you loot Muskpaw's Keepsake.|
@@ -354,7 +355,7 @@ l Statue of Xuen|QID|31416|M|72.03,34.00|N|*High Value Rare Loot*\nLocated in th
 C Handle With Care|QID|30943|M|70.04,27.70|NC|US|N|Finish collecting Handful of Volatile Blooms, found in the orange flower bushes on the ground.\n\nThis will show on the mini-map for herbalists.|
 C What's Yours Is Mine|QID|30945|US|M|71.17,28.66|N|Finish killing and looting the Amani Skullbreakers and Raptor-Handlers for the Blood-Staned Blades.|
 C Make A Fighter Out of Me|QID|30942|M|71.17,28.65|US|N|Finish killing the Gurubashi Hexxer and Drakkari Frostweavers.|
-T Make A Fighter Out of Me|QID|30942|M|71.17,28.66|N|To Shomi   .|
+T Make A Fighter Out of Me|QID|30942|M|63.70,30.69|N|To Shomi   .|
 T What's Yours Is Mine|QID|30945|M|63.35,30.68|N|To Steelbender Doshu.|
 r Repair/Restock|QID|30943|M|63.38,30.69|N|You want to repair now, as he is bugged and won't repair in the next phase.|RANK|3|
 T Handle With Care|QID|30943|M|63.23,28.68|N|To Elder Shu. He is upstairs on the balcony.|
@@ -474,9 +475,9 @@ C Jin Warmkeg rescued|QID|30682|NC|QO|1|M|43.86,86.22|
 C Turnabout|QID|30670|US|M|41.29,86.60|N|These drop from the little sha in the area.|
 C The Defense of Shado-Pan Fallback|QID|30665|US|M|44.45,88.63|
 T Turnabout|QID|30670|M|44.47,89.91|N|To Shado-Master Chong.|
-A Unmasking the Yaungol|QID|30690|PRE|30670|M|44.47,89.91|N|From Shado-Master Chong.|
 T The Defense of Shado-Pan Fallback|QID|30665|M|44.47,89.91|N|To Shado-Master Chong.|
 T Holed Up|QID|30682|M|44.47,89.91|N|To Shado-Master Chong.|
+A Unmasking the Yaungol|QID|30690|PRE|30670|M|44.47,89.91|N|From Shado-Master Chong.|
 C Unmasking the Yaungol|QID|30690|U|81741|M|45.28,86.63|N|Set up your trap and pull him into it. When he is trapped, use your 'extra action' button.|
 T Unmasking the Yaungol|QID|30690|M|44.48,89.91|N|To Shado-Master Chong.|
 A To Winter's Blossom|QID|30699|PRE|30690|M|44.48,89.91|N|From Shado-Master Chong.|
@@ -532,7 +533,7 @@ H Kota Basecamp|QID|31511|FACTION|Horde|N|This will shorthen your flight time. O
 F Eastwind Rest|QID|31511|FACTION|Horde|M|42.78,69.58|N|At Uncle Eastwind.|
 C A Witness to History|QID|31511|FACTION|Horde|M|45.70,8.88|Z|Vale of Eternal Blossoms|N|Speak with Dezco.|
 ; ** The turn-in NPC has changed. ** T A Witness to History|QID|31511|FACTION|Horde|M|56.85,43.37|N|To Zhi the Harmonious.|
-T A Witness to History|QID|31511|FACTION|Horde|CC|M|56.11,27.10;68.3,47.59|N|To Madame Vee Luo in the Summer's Rest at Shrine of the Two Moons.|
+T A Witness to History|QID|31511|FACTION|Horde|CC|M|69.45,47.53|Z|Vale of Eternal Blossoms|N|To Madame Vee Luo in the Summer's Rest at Shrine of the Two Moons.|
 ; ** This quest is no longer available. ** A The Shrine of Two Moons|QID|30649|FACTION|Horde|M|56.74,42.63|Z|Vale of Eternal Blossoms|N|From Sun Tenderheart.|
 f Shrine of Two Moons|QID|31511|FACTION|Horde|M|62.86,21.78|Z|Vale of Eternal Blossoms|N|Get the flight point from Tania Summerbreeze on the Terrace. The flight trainer is right beside her if you happen to be level 90.|
 ; Alliance
