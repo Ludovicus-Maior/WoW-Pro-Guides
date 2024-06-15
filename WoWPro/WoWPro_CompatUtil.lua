@@ -255,11 +255,11 @@ function WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex)
     if WoWPro.WAR_WITHIN then
         return _G.C_ScenarioInfo.GetCriteriaInfo(criteriaIndex)
     else
-        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = _G.C_Scenario.GetCriteriaInfo(criteriaIndex);
-        
+        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, _, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = _G.C_Scenario.GetCriteriaInfo(criteriaIndex);
+
         return{
            criteriaID = criteriaID,
-           description = name,
+           description = criteriaString,
            elapsed = elapsed,
            duration = duration,
            isWeightedProgress = isWeightedProgress,

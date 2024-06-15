@@ -3755,7 +3755,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
             WoWPro.Scenario.Criteria[criteriaIndex].totalQuantity = criteriaInfo.totalQuantity
             WoWPro.Scenario.Criteria[criteriaIndex].criteriaID = criteriaInfo.criteriaID
             WoWPro:print("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = WoWPro.C_ScenarioInfo_GetCriteriaInfo(%d)",
-                         criteriaInfo.description, tostring( criteriaInfo.criteriaType), tostring( criteriaInfo.completed), tostring( criteriaInfo.quantity), 
+                         criteriaInfo.description, tostring( criteriaInfo.criteriaType), tostring( criteriaInfo.completed), tostring( criteriaInfo.quantity),
                          tostring( criteriaInfo.totalQuantity), tostring( criteriaInfo.flags), tostring( criteriaInfo.assetID),tostring(criteriaInfo.criteriaID),
                          tostring(criteriaInfo.duration), tostring(criteriaInfo.elapsed), tostring(criteriaInfo.isWeightedProgress), criteriaIndex)
         end
