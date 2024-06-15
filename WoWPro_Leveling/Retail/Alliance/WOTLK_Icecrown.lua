@@ -157,7 +157,7 @@ K Overseer Jhaeqon|QID|13319|QO|2|M|54.8,32.5|Z|118; Icecrown|N|Kill Overseer Jh
 K Overseer Veraj|QID|13319|QO|3|M|53.6,29.2|Z|118; Icecrown|N|Kill Overseer Veraj.|; Overseer Veraj Killed: 1/1
 C Chain of Command|QID|13319|M|49.4,31.2|Z|118; Icecrown|N|Kill Overseer Savryn.|
 N Blue Sample Collected|QID|13320|U|44251|QO|1|Z|118; Icecrown|N|Use the item near the blue cauldron here.|M|48.97,33.16|; Blue Sample Collected: 1/1
-N Green Sample Collected|QID|13320|U|44251|QO|1|Z|118; Icecrown|N|Use the item near the green cauldron here.|M|49.08,34.19|; Green Sample Collected: 1/1
+N Green Sample Collected|QID|13320|U|44251|QO|2|Z|118; Icecrown|N|Use the item near the green cauldron here.|M|49.08,34.19|; Green Sample Collected: 1/1
 C Cannot Reproduce|QID|13320|U|44251|Z|118; Icecrown|N|Use the item near the final cauldron here.|M|49.67,34.38|
 T Drag and Drop|QID|13318|Z|118; Icecrown|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Chain of Command|QID|13319|Z|118; Icecrown|N|To Thassarian.|
