@@ -250,6 +250,31 @@ function WoWPro.C_Spell_GetSpellInfo(spellID)
     end
 end
 
+--[[C_ScenarioInfo.GetCriteriaInfo]]
+function WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_ScenarioInfo.GetCriteriaInfo(criteriaIndex)
+    else
+        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = _G.C_Scenario.GetCriteriaInfo(criteriaIndex);
+        
+        return{
+           criteriaID = criteriaID,
+           description = name,
+           elapsed = elapsed,
+           duration = duration,
+           isWeightedProgress = isWeightedProgress,
+           completed = completed,
+           quantity = quantity,
+           -- isFormatted
+           failed =- criteriaFailed,
+           assetID = assetID,
+           flags = flags,
+           criteriaType = criteriaType,
+           totalQuantity = totalQuantity
+        }
+    end
+end
+
 --[[C_Spell.GetSpellLink]]
 function WoWPro.C_Spell_GetSpellLink(spellID)
     if WoWPro.WAR_WITHIN then
