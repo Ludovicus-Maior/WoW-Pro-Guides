@@ -66,6 +66,7 @@ T Silencing Rageroar|QID|24956|M|66.92,46.79|Z|0199; Southern Barrens|N|To Tolli
 T Lifting the Siege|QID|24948|M|67.01,46.52|Z|0199; Southern Barrens|N|To Thomas Paxton.|
 A Teegan's Troubles|QID|25036|PRE|24948&24956|M|67.01,46.52|Z|0199; Southern Barrens|N|From Thomas Paxton.|
 f Northwatch Hold|AVAILABLE|25000|M|66.38,47.13|Z|0199; Southern Barrens|N|At Bill Williamson.|
+h Northwatch Hold|AVAILABLE|25000|M|65.58,46.56|Z|0199; Southern Barrens|N|Set your hearth to Northwatch Hold or skip if you don't want to.|
 A Teegan's People|QID|25000|M|64.85,46.06|Z|0199; Southern Barrens|N|From Jeffrey Long at the top of the hill by the west entrance.|
 A Scavenged|QID|25002|M|61.84,42.06|Z|0199; Southern Barrens|N|From the Mangled Body.\n[color=FF0000]NOTE: [/color]Exit Northwatch and follow the road west.|
 C Teegan's People|QID|25000|M|61.30,44.10|Z|0199; Southern Barrens|L|49772 8|ITEM|49772|N|Raptors in the area.|S|
@@ -117,7 +118,7 @@ C To Harvest Chaos|QID|24574|QO|1|M|50.20,38.17|Z|0199; Southern Barrens|N|Kill 
 C To Harvest Chaos|QID|24574|QO|2|M|50.20,38.17|Z|0199; Southern Barrens|L|49883|N|Outgrowths.|US|
 T Sowing a Solution|QID|24566|M|50.28,40.50|Z|0199; Southern Barrens|N|To Muyoh.|
 T To Harvest Chaos|QID|24574|M|50.41,40.67|Z|0199; Southern Barrens|N|To Naralex.|
-A The Nightmare Scar|QID|24601|PRE|24574|M|50.41,40.67|Z|0199; Southern Barrens|N|[From Naralex.|
+A The Nightmare Scar|QID|24601|PRE|24574|M|50.41,40.67|Z|0199; Southern Barrens|N|From Naralex.|
 R Run to this point|ACTIVE|24601|M|48.48,38.56|CC|Z|0199; Southern Barrens|N|Then tell Naralex you are ready.\n[color=FF0000]NOTE: [/color]The quest doesn't start until you tell her to start.|
 C The Nightmare Scar|QID|24601|M|48.18,38.85|Z|0199; Southern Barrens|N|Protect Naralex by killing anything that spawns in the black circle.|
 T The Nightmare Scar|QID|24601|M|48.20,38.65|Z|0199; Southern Barrens|N|To Naralex.|
