@@ -58,7 +58,10 @@ T Re-Take the Courtyard|QID|24943|M|67.01,46.52|Z|0199; Southern Barrens|N|To Th
 A Lifting the Siege|QID|24948|PRE|24943|M|67.01,46.52|Z|0199; Southern Barrens|N|From Thomas Paxton.|
 C Lifting the Siege|QID|24948|QO|1|M|68.17,41.47|Z|0199; Southern Barrens|N|Burn the Catapults.|U|52017|S|
 C Silencing Rageroar|QID|24956|QO|1|M|68.82,38.76|Z|0199; Southern Barrens|N|Kill the Rageroar Lieutenants.|S|
-C Silencing Rageroar|QID|24956|QO|2|M|67.6,36.7|Z|0199; Southern Barrens|L|52036|ITEM|52036|N|Karga Rageroar after you kill Hexmaster Bastoon.\n[color=FF0000]NOTE: [/color]Clear the area first and you must get close enough to trigger the fight.|
+R Ratchet|ACTIVE|24948|M|68.51,75.64|Z|1413; The Barrens|N|Cross the 'river' and follow the path north through The Merchant Coast.|FLY|OLD|
+f Ratchet|ACTIVE|24948|M|68.96,70.53|Z|1413;The Barrens|N|From Bragok.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+R Southern Barrens|ACTIVE|24948|M|69.01,38.62|Z|0199; Southern Barrens|N|Return to Southern Barrens the way the you came.|FLY|OLD|
+C Silencing Rageroar|QID|24956|QO|2|M|67.49,36.67|Z|0199; Southern Barrens|L|52036|ITEM|52036|N|Karga Rageroar after you kill Hexmaster Bastoon.\n[color=FF0000]NOTE: [/color]Clear the area first and you must get close enough to trigger the fight.|
 C Rageroar Blade Thrower Burned|QID|24948|QO|2|M|67.33,37.62|Z|0199; Southern Barrens|N|Burn the Blade Thrower.|U|52017|
 C Lifting the Siege|QID|24948|QO|1|M|68.17,41.47|Z|0199; Southern Barrens|N|Burn the Catapults.|U|52017|US|
 C Silencing Rageroar|QID|24956|QO|1|M|68.82,38.76|Z|0199; Southern Barrens|N|Kill the Rageroar Lieutenants.|T|Rageroar Lieutenant|US|
@@ -133,7 +136,7 @@ C A Line in the Dirt|QID|25045|QO|1|M|46.32,47.23;49.43,54.03|CN|Z|0199; Souther
 C A Line in the Dirt|QID|25045|QO|2|M|46.32,47.23;49.43,54.03|CN|Z|0199; Southern Barrens|N|Defend the Hill.\n[color=FF0000]NOTE: [/color]If you lose control, don't recapture it; fall back and try again later, or try the other hill.|
 C Diplomacy By Another Means|QID|25044|M|43.05,41.87|Z|0199; Southern Barrens|N|Blow the horn in the pit, then kill Sabersnout.\n[color=FF0000]NOTE: [/color]Focus on Sabersnout and forget about the adds. If he dies, they all run away.|U|49782|
 C Fields of Blood|QID|25043|M|31.87,30.50|Z|0199; Southern Barrens|N|Take out the grunts.|S|
-C Fields of Blood|QID|25043|M|46.35,47.19|Z|0199; Southern Barrens|N|Kill  10 Desolation Grunts.|US|
+C Fields of Blood|QID|25043|M|46.35,47.19|Z|0199; Southern Barrens|N|Kill 10 Desolation Grunts.|US|
 C Lion's Pride|QID|25041|M|46.54,47.44|Z|0199; Southern Barrens|N|Kill 5 of any type of Lion you see.|US|
 T Diplomacy By Another Means|QID|25044|M|50.01,49.53|Z|0199; Southern Barrens|N|To Ambassador Gaines.|
 T A Line in the Dirt|QID|25045|M|49.93,49.69|Z|0199; Southern Barrens|N|To General Hawthorne.|
