@@ -241,5 +241,10 @@ A The Deed Is Done|QID|25185|PRE|25183|M|40.40,77.82|Z|0199; Southern Barrens|N|
 T Kill 'em All!|QID|25182|M|43.52,78.27|Z|0199; Southern Barrens|N|To General Twinbraid.|
 T The Deed Is Done|QID|25185|M|43.52,78.27|Z|0199; Southern Barrens|N|To General Twinbraid.|
 A Reinforcements From Theramore|QID|26687|PRE|25182|M|43.52,78.27|Z|0199; Southern Barrens|N|From General Twinbraid.|
+H Northwatch Hold|ACTIVE|26687|M|65.58,46.56|Z|0199; Southern Barrens|N|Use your hearth to Northwatch Hold or skip if you can't.|
+F Ratchet|ACTIVE|26687|M|66.38,47.13|Z|0199; Southern Barrens|N|At Steve Stevenson.|IZ|Northwatch Hold|FLY|OLD|RANK|2|
+R Fort Triumph|ACTIVE|26687|M|49.09,66.89|Z|0199; Southern Barrens|N|Return to Fort Triumph.|FLY|OLD|RANK|2|
+F Ratchet|ACTIVE|26687|M|49.20,67.80|Z|0199; Southern Barrens|N|At Steve Stevenson.|IZ|Fort Triumph|FLY|OLD|RANK|2|
+
 ]]
 end)
