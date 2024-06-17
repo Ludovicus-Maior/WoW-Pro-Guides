@@ -249,6 +249,7 @@ b Booty Bay|AVAILABLE|26596&28749|ACTIVE|-28552|M|70.17,73.27|Z|1413;The Barrens
 A The Call of Kalimdor|QID|26596|ACTIVE|-28552|M|40.52,68.20|Z|0210; The Cape of Stranglethorn|N|From Corporal Jeyne.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested in doing Dustwallow Marsh.|
 f Booty Bay|ACTIVE|26596|M|41.67,74.53|Z|0210; The Cape of Stranglethorn|N|From Gyll.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Booty Bay|
 A The Battle for Andorhal|QID|28749|AVAILABLE|26687&27158&28505&28576|41.48,74.36|Z|0210; The Cape of Stranglethorn|N|From War-Mage Erallier.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested in doing Western Plaguelands.|
+b Ratchet|ACTIVE|26596|M|38.96,66.98|Z|0210; The Cape of Stranglethorn|N|Take the boat to Ratchet.|
 
 ]]
 end)
