@@ -2879,7 +2879,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     skip = true
                     break
                 end
-            
                 local twwrenownFlip = false
                 local twwrenownMatch
                 local twwrenownData = _G.C_MajorFactions.GetMajorFactionData(twwrenownID)
