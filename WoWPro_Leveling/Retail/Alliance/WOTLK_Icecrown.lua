@@ -120,11 +120,11 @@ A Poke and Prod|QID|13287|PRE|13286|Z|118; Icecrown|N|From Thassarian.|
 T Your Attention, Please|QID|13290|Z|118; Icecrown|N|To Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
 A Borrowed Technology|QID|13291|PRE|13290|Z|118; Icecrown|N|From Chief Engineer Boltwrench.|
 C Poke and Prod|QID|13287|Z|118; Icecrown|N|Kill the needed mobs.|S|M|68.80,64.40|
-N Find 3 Pile of Bones|QID|13291|L|43609 3|S|
-N Find 3 Abandoned Armors|QID|13291|L|43616 3|S|
-N Find 3 Abandoned Helms|QID|13291|L|43610 3|Z|118; Icecrown|N|Fly back to the Broken Front and collect what you need.|M|68.80,64.40|
-N Find 3 Abandoned Armors|QID|13291|L|43616 3|US|
-N Find 3 Pile of Bones|QID|13291|L|43609 3|US|
+l Find 3 Pile of Bones|QID|13291|M|69.04,63.90|Z|118; Icecrown|L|43609 3|S|
+l Find 3 Abandoned Armors|QID|13291|M|69.04,63.90|Z|118; Icecrown|L|43616 3|S|
+l Find 3 Abandoned Helms|QID|13291|L|43610 3|Z|118; Icecrown|N|Fly back to the Broken Front and collect what you need.|M|68.80,64.40|
+l Find 3 Abandoned Armors|QID|13291|M|69.04,63.90|Z|118; Icecrown|L|43616 3|US|
+l Find 3 Pile of Bones|QID|13291|M|69.04,63.90|Z|118; Icecrown|L|43609 3|US|
 C Borrowed Technology|QID|13291|U|44048|Z|118; Icecrown|N|Now you can use the item. A Frostwyrm will descend and pick up the decoy... His bad. Do this 3 times.|M|68.80,64.40|
 C Poke and Prod|QID|13287|Z|118; Icecrown|N|Kill the needed mobs.|US|M|68.80,64.40|
 T Borrowed Technology|QID|13291|Z|118; Icecrown|N|To Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
@@ -140,10 +140,10 @@ A Coprous the Defiled|QID|13298|Z|118; Icecrown|N|This is your first 5-Man quest
 A Basic Chemistry|QID|13295|PRE|13294|Z|118; Icecrown|N|Another 5-Man quest. From Thassarian.|
 C Basic Chemistry|QID|13295|U|44010|Z|118; Icecrown|N|This quest is really hard, even if you have lower level Cataclysm-Gear. You can give it a try, if it's too hard, just abandon it. Enter the building and use the item near the plague cauldrons repeatedly until the quest is complete.|M|63.40,62.10|
 C Coprous the Defiled|QID|13298|Z|118; Icecrown|N|Kill Coprous the Defiled inside the building.|M|60.80,62.20|
-N Aldur'thar South Visited|QID|13315|QO|1|Z|118; Icecrown|N|Fly here.|M|55.36,47.17|; Aldur'thar South Visited: 1/1
-N Aldur'thar Central Visited|QID|13315|QO|2|Z|118; Icecrown|N|Fly here.|M|53.90,42.63|; Aldur'thar Central Visited: 1/1
-N Aldur'thar North Visited|QID|13315|QO|1|Z|118; Icecrown|N|Fly here.|M|53.90,35.08|; Aldur'thar North Visited: 1/1
-C Sneak Preview|QID|13315|Z|118; Icecrown|N|Fly here.|M|51.73,34.13|
+C Aldur'thar South|QID|13315|QO|1|Z|118; Icecrown|N|Fly here.|M|55.36,47.17|; Aldur'thar South Visited: 1/1
+C Aldur'thar Central|QID|13315|QO|2|Z|118; Icecrown|N|Fly here.|M|53.90,42.63|; Aldur'thar Central Visited: 1/1
+C Aldur'thar North|QID|13315|QO|3|Z|118; Icecrown|N|Fly here.|M|53.90,35.08|; Aldur'thar North Visited: 1/1
+C Aldur'thar Northwest|QID|13315|QO|4|Z|118; Icecrown|N|Fly here.|M|51.73,34.13|
 T Sneak Preview|QID|13315|Z|118; Icecrown|N|To Thassarian.|
 T Coprous the Defiled|QID|13298|Z|118; Icecrown|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Basic Chemistry|QID|13295|Z|118; Icecrown|N|To Thassarian.|
@@ -157,7 +157,7 @@ K Overseer Jhaeqon|QID|13319|QO|2|M|54.8,32.5|Z|118; Icecrown|N|Kill Overseer Jh
 K Overseer Veraj|QID|13319|QO|3|M|53.6,29.2|Z|118; Icecrown|N|Kill Overseer Veraj.|; Overseer Veraj Killed: 1/1
 C Chain of Command|QID|13319|M|49.4,31.2|Z|118; Icecrown|N|Kill Overseer Savryn.|
 N Blue Sample Collected|QID|13320|U|44251|QO|1|Z|118; Icecrown|N|Use the item near the blue cauldron here.|M|48.97,33.16|; Blue Sample Collected: 1/1
-N Green Sample Collected|QID|13320|U|44251|QO|1|Z|118; Icecrown|N|Use the item near the green cauldron here.|M|49.08,34.19|; Green Sample Collected: 1/1
+N Green Sample Collected|QID|13320|U|44251|QO|2|Z|118; Icecrown|N|Use the item near the green cauldron here.|M|49.08,34.19|; Green Sample Collected: 1/1
 C Cannot Reproduce|QID|13320|U|44251|Z|118; Icecrown|N|Use the item near the final cauldron here.|M|49.67,34.38|
 T Drag and Drop|QID|13318|Z|118; Icecrown|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Chain of Command|QID|13319|Z|118; Icecrown|N|To Thassarian.|
