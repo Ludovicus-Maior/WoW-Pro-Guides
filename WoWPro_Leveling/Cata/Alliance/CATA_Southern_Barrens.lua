@@ -240,11 +240,15 @@ T ...And Bury the Rest|QID|25183|M|40.40,77.82|Z|0199; Southern Barrens|N|To the
 A The Deed Is Done|QID|25185|PRE|25183|M|40.40,77.82|Z|0199; Southern Barrens|N|From the Big Nasty Plunger.|
 T Kill 'em All!|QID|25182|M|43.52,78.27|Z|0199; Southern Barrens|N|To General Twinbraid.|
 T The Deed Is Done|QID|25185|M|43.52,78.27|Z|0199; Southern Barrens|N|To General Twinbraid.|
-A Reinforcements From Theramore|QID|26687|PRE|25182|M|43.52,78.27|Z|0199; Southern Barrens|N|From General Twinbraid.|
-H Northwatch Hold|ACTIVE|26687|M|65.58,46.56|Z|0199; Southern Barrens|N|Use your hearth to Northwatch Hold or skip if you can't.|
-F Ratchet|ACTIVE|26687|M|66.38,47.13|Z|0199; Southern Barrens|N|At Steve Stevenson.|IZ|Northwatch Hold|FLY|OLD|RANK|2|
-R Fort Triumph|ACTIVE|26687|M|49.09,66.89|Z|0199; Southern Barrens|N|Return to Fort Triumph.|FLY|OLD|RANK|2|
-F Ratchet|ACTIVE|26687|M|49.20,67.80|Z|0199; Southern Barrens|N|At Steve Stevenson.|IZ|Fort Triumph|FLY|OLD|RANK|2|
+A Reinforcements From Theramore|QID|26687|PRE|25182|M|43.52,78.27|Z|0199; Southern Barrens|N|From General Twinbraid.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested in doing Dustwallow Marsh.|
+H Northwatch Hold|AVAILABLE|26596&28749|M|65.58,46.56|Z|0199; Southern Barrens|N|Use your hearth to Northwatch Hold or skip if you can't.|
+F Ratchet|AVAILABLE|26596&28749|M|66.38,47.13|Z|0199; Southern Barrens|N|At Steve Stevenson.|IZ|Northwatch Hold|FLY|OLD|
+R Fort Triumph|AVAILABLE|26596&28749|M|49.09,66.89|Z|0199; Southern Barrens|N|Return to Fort Triumph.|FLY|OLD|
+F Ratchet|AVAILABLE|26596&28749|M|49.20,67.80|Z|0199; Southern Barrens|N|At Steve Stevenson.|IZ|Fort Triumph|FLY|OLD|
+b Booty Bay|AVAILABLE|26596&28749|ACTIVE|-28552|M|70.17,73.27|Z|1413;The Barrens|N|Take the boat to Booty Bay.|
+A The Call of Kalimdor|QID|26596|ACTIVE|-28552|M|40.52,68.20|Z|0210; The Cape of Stranglethorn|N|From Corporal Jeyne.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested in doing Dustwallow Marsh.|
+f Booty Bay|ACTIVE|26596|M|41.67,74.53|Z|0210; The Cape of Stranglethorn|N|From Gyll.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Booty Bay|
+A The Battle for Andorhal|QID|28749|AVAILABLE|26687&27158&28505&28576|41.48,74.36|Z|0210; The Cape of Stranglethorn|N|From War-Mage Erallier.\n[color=FF0000]NOTE: [/color]Skip this step if you're not interested in doing Western Plaguelands.|
 
 ]]
 end)
