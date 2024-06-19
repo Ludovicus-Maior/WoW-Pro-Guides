@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide("TR_Anglers",'Dailies', "Krasarang Wilds", "W
 WoWPro:TimerunningSeasonID(guide,1)
 WoWPro:GuideLevels(guide,10,70)
 WoWPro.Dailies:GuideFaction(guide,1302) --  "The Anglers Reputation"
+WoWPro:GuideQuestTriggers(guide,30754, 30753, 30586, 30584, 30678, 30700, 30613, 30658, 30763, 30701, 30585, 30598)
 WoWPro:GuideSteps(guide, function()
 return [[
 
