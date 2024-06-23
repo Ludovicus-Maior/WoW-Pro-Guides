@@ -1293,12 +1293,12 @@ function WoWPro:HSL2RGB(h,s,l)
 end
 
 local Difficulty = {}
-Difficulty[0] = {0,0.9,0.5}  -- Red
-Difficulty[1] = {20/360, 0.9, 0.5} -- Red-Orangish
+Difficulty[0] = {-60/360,0.8,0.4}  -- Red/Blue
+Difficulty[1] = {0,0.9,0.5} -- Red
 Difficulty[2] = {30/360,0.9,0.5} -- Orange
 Difficulty[3] = {60/360,0.9,0.5} -- Yellow
-Difficulty[4] = {120/360,0.1,0.5} -- Green
-Difficulty[5] = {0,0,0.5} -- Grey
+Difficulty[4] = {120/360,0.9,0.5} -- Green
+Difficulty[5] = {0, 0, 0.5} -- Grey
 
 function WoWPro:InterpolateHSL(l,h,r)
     -- WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)", l[1], l[2], l[3], h[1], h[2], h[3], r)
@@ -1341,23 +1341,23 @@ function WoWPro:QuestColor(questLevel, playerLevel)
     local diff = questLevel - playerLevel
     local c
     -- WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
-    if diff > 5 then
-        -- Red/Gray => Red
-        c = WoWPro:InterpolateHSL(Difficulty[1], Difficulty[0], (diff-5)/90)
-    elseif diff >= 3 then
-        -- red => orange
-        c = WoWPro:InterpolateHSL(Difficulty[2], Difficulty[1], (diff-3)/2)
-    elseif diff >= 0 then
-        -- orange => yellow
-        c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[2], (diff-0)/3)
-    elseif diff >= -5  then
-        -- yellow => green
-        c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[4], (diff)/-5)
+    if diff > 7 then
+        -- Red for diff > 7
+        c = Difficulty[1] -- Assuming Difficulty[1] is red
+    elseif diff >= 4 then
+        -- Orange for diff between 4 and 6
+        c = Difficulty[2] -- Assuming Difficulty[2] is orange
+    elseif diff >= -3 then
+        -- Yellow if within 3 levels of player's level
+        c = Difficulty[3] -- Assuming Difficulty[3] is yellow
+    elseif diff >= -6 then
+        -- Green if player level is between 4 and 6 levels below
+        c = Difficulty[4] -- Assuming Difficulty[4] is green
     else
-        -- green => gray
-        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[5], (5+diff)/-20)
+        -- Grey for anything else
+        c = Difficulty[5] -- Assuming Difficulty[5] is grey
     end
-    return  WoWPro:HSL2RGB(c[1], c[2], c[3])
+    return WoWPro:HSL2RGB(c[1], c[2], c[3])
 end
 
 function WoWPro:TestQuestColor(startLevel, endLevel, increment, playerLevel)
