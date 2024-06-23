@@ -869,7 +869,6 @@ if loc == "esES" then L = {
     ["Toon Rank (Difficulty/Completeness)"] = "Rango de personaje (Dificultad/Completitud)",
     } end
 
-    
 ----------------------
 --      Portuguese     --
 ----------------------
@@ -1043,7 +1042,6 @@ if loc == "ptPT" then L = {
     ["Toon Rank (Difficulty/Completeness)"] = "Rank de Personagem (Dificuldade/Completude)",
     } end
 
-       
 ----------------------
 --      Italian     --
 ----------------------
