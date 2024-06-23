@@ -548,15 +548,15 @@ function WoWPro:CreateTitleBar()
     titleicon:SetPoint("RIGHT", WoWPro.Titlebar, "RIGHT", -3, 18)
     titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
-    -- Tooltip --
-    titleicon:HookScript("OnEnter", function(tool)
-        _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
-        _G.GameTooltip:SetText("Right click for options", nil, nil, nil, nil, true)
-        _G.GameTooltip:Show()
-    end)
-    titleicon:HookScript("OnLeave", function(tool)
-        _G.GameTooltip:Hide()
-    end)
+-- Tooltip --
+titleicon:HookScript("OnEnter", function(tool)
+    _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
+    _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+    _G.GameTooltip:Show()
+end)
+titleicon:HookScript("OnLeave", function(tool)
+    _G.GameTooltip:Hide()
+end)
 
     -- Text --
     local titletext = WoWPro.Titlebar:CreateFontString()
@@ -763,8 +763,8 @@ function WoWPro:CreateMiniMapButton()
         end,
         OnTooltipShow = function(this)
             this:AddLine("WoW-Pro")
-            this:AddLine("Left-click to enable/disable addon", 1, 1, 1)
-            this:AddLine("Right-click to open config panel", 1, 1, 1)
+            this:AddLine(L["Left-click to enable/disable addon"], 1, 1, 1)
+            this:AddLine(L["Right-click to open config panel"], 1, 1, 1)
         end,
     })
     icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
@@ -916,11 +916,11 @@ end
 -- Dropdown Menu --
 function WoWPro:CreateDropdownMenu()
     WoWPro.DropdownMenu = {
-        {text = "Main Settings", func = function()
+        {text = L["Main Settings"], func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
         _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "mainConfig")
         end},
-        {text = "Guide Frame Settings", func = function()
+        {text = L["Guide Frame Settings"], func = function()
             WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
         _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "displayConfig")
         end},
