@@ -873,7 +873,7 @@ if loc == "esES" then L = {
 --      Portuguese     --
 ----------------------
 
-if loc == "ptPT" then L = {
+if loc == "ptBR" then L = {
     PART_GSUB = "%s%(Parte %d+%)",
     PART_FIND = "(.+)%s%(Parte %d+%)",
     ["(.*) is now your home."] = "(.*) ahora es tu hogar.",
