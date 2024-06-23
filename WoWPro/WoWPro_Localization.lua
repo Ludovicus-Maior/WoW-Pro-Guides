@@ -1102,7 +1102,7 @@ if loc == "ptBR" then L = {
     ["Left-click to enable/disable addon"] = "Clique com o botão esquerdo para ativar/desativar o addon",
     ["Right-click to open config panel"] = "Clique com o botão direito para abrir o painel de configuração",
     } end
- 
+
 ----------------------
 --      Italian     --
 ----------------------
