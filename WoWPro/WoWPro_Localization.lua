@@ -976,7 +976,7 @@ if loc == "ptPT" then L = {
     ["Sticky Background"] = "Fundo Pegajoso",
     ["Texture used for sticky step background."] = "Textura usada para o fundo do passo pegajoso.",
     ["Sticky Step Color"] = "Cor do Passo Pegajoso",
-    ["Background color for the sticky step frames."] = "Cor de fundo para os quadros de passos pegaj,
+    ["Background color for the sticky step frames."] = "Cor de fundo para os quadros de passos pegaj, os.",
     ["Text Formatting"] = "Formatação de Texto",
     ["Step Font"] = "Fonte do Passo",
     ["Font used for the main step text."] = "Fonte usada para o texto principal do passo.",
