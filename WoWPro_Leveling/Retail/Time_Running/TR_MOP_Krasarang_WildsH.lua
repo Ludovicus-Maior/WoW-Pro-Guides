@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"TR_Krasarang WildsH")
 WoWPro:GuideNextGuide(guide, 'TR_Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
-F Zhu's Watch|AVAILABLE|30079|M|79.95,2.31|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|IZ|-6000|
+F Zhu's Watch|AVAILABLE|30079|M|76.22,7.07|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|IZ|-6000|
 T Ken-Ken|QID|29873|M|76.22,7.07|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.22,7.07|N|From Ken-Ken.|
 C Speak with Mei|QID|30079|M|75.84,7.61|QO|4|N|up the stairs, outside.|CHAT|
@@ -53,11 +53,13 @@ C Zhu's Despair|QID|30090|M|76.4,8.55|QO|1|N|With Ken-Ken's help, kill the sha a
 C Zhu's Despair|QID|30090|M|76.49,8.76|QO|2|N|Use the mask on Yi-Mo, who is standing by the well. Kill the Quintessence of Despair that spawns.|T|Yi-Mo|U|79057|
 T Zhu's Despair|QID|30090|M|76.22,7.07|N|To Ken-Ken.|
 A Into the Wilds|QID|30133|M|75.84,7.61|N|From Mei Barrelbottom.|PRE|30090|
+A Search Party|QID|30121|M|59.88,24.50|N|From Sunwalker Dezco.|LEAD|30179|
+T Search Party|QID|30121|M|68.8,22.24|N|To Chezin Dawnchaser at the Krasari Ruins.|LEAD|30179|
 A Poisoned!|QID|30179|M|68.8,22.24|N|From Chezin Dawnchaser at the Krasari Ruins.|
 l Poisoned!|QID|30179|M|68.5,22.2|QO|1|N|Kill the Krasari Tormentors/Runekeepers to loot the blades.|
 A Crane Mastery|QID|30352|M|67.63,25.74|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|67.63,25.74|N|From Daggle Bombstrider.|
-C Into the Wilds|QID|30133|M|62.55,25.45|N|Check on the courier lying on the ground.|
+C Into the Wilds|QID|30133|M|62.55,25.45|N|Check on the courier lying on the ground.|CHAT|
 T Kang Bramblestaff|QID|29875|M|60.08,25.00|N|To Kang Bramblestaff.|
 T Poisoned!|QID|30179|M|59.89,24.70|N|To Sunwalker Dezco.|
 A Blind Them!|QID|30124|M|59.88,24.81|N|From Kor Bloodtusk.|PRE|30179|
@@ -121,7 +123,7 @@ A Striking the Rain|QID|30272|M|40.68,33.68|N|From Koro Mistwalker.|PRE|30268&30
 C Striking the Rain|QID|30272|M|40,49.95|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|S| ;something I can't figure out, the sticky shading is staying for the next several steps, reset didn't change anything, reloadUI made the shading "stay where it belonged", but the vertical spacing remained off until I logged off upon arriving at Marista.
 C Sha Can Awe|QID|30271|M|40,49.95|N|Kill Haunts and Incarnations of Despair near the Hopeless Monks to inspire them.|S|
 C West Pagoda Cleansed|QID|30695|M|37.82,54.26|QO|1|N|When ever you kill a sha, Anduin will heal you, so if you need heals, be sure and take out the adds, they are low hp's.|; West Pagoda Cleansed: 1/1
-C East Pagoda Cleansed|QID|30695|M|42.83,54.35|QO|1|N|Same routine, other side of the building.|; East Pagoda Cleansed: 1/1
+C East Pagoda Cleansed|QID|30695|M|42.83,54.35|QO|2|N|Same routine, other side of the building.|; East Pagoda Cleansed: 1/1
 C Striking the Rain|QID|30272|M|40,49.95|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|US|
 C Sha Can Awe|QID|30271|M|40,49.95|N|Kill Haunts and Incarnations of Despair near the Hopeless Monks to inspire them.|US|
 T Ahead on the Way|QID|30695|M|PLAYER|N|To Anduin Wrynn. (who is following you around)|
@@ -155,12 +157,12 @@ T Misery|QID|30691|M|PLAYER|N|To UI Alert.|
 C Wisdom Has A Price|QID|30671|M|46.54,77.47|N|Random drop from the sharks.|US|
 T Wisdom Has A Price|QID|30671|M|46.01,78.96|N|To Wise Ana Wu.|
 A Balance|QID|30672|M|46.01,78.96|N|From Wise Ana Wu. You don't have to stay and watch her story.|PRE|30671|
-R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft. In this area are two of the blue items for lost and found achievement.  East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe - Banana Infused Rum, and west of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
-K Unga Fish Getter|QID|30675|M|45.31,85.17|L|80827|N|Be sure and loot these at least until you get the item to start the quest.|
+R Unga Ingoo|ACTIVE|30674|M|45.31,85.17|N|Keep jumping on your raft. In this area are two of the blue items for lost and found achievement.  East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe - Banana Infused Rum, and west of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
+K Unga Fish Getter|AVAILABLE|30675|M|45.31,85.17|L|80827|N|Be sure and loot these at least until you get the item to start the quest.|
 A Buried Hozen Treasure|QID|30675|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|U|80827|O|
 A Balance Without Violence|QID|30674|M|PLAYER|N|From UI Alert.|NC|
 C Balance Without Violence|QID|30674|M|42.68,82.74|N|There are piles of fish, the sparkly ones are the ones you can click on to throw back into the water.|S|
-T Balance Without Violence|QID|30674|M|PLAYER|N|To UI Alert.|
+t Balance Without Violence|QID|30674|M|PLAYER|N|To UI Alert.|
 C Buried Hozen Treasure|QID|30675|M|51.10,85.27|N|Click on the piles of sand to search for the treasure.|S|
 C Balance|QID|30672|M|50.85,84.15|
 C Balance Without Violence|QID|30674|M|42.68,82.74|N|There are piles of fish, the sparkly ones are the ones you can click on to throw back into the water.|US|

@@ -339,6 +339,7 @@ DefineTag("REP","rep","string",nil,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("SPELL","spell","string",nil,nil)
 DefineTag("TAXI","taxi","string",nil,nil)
+DefineTag("TWWREN","twwrenown","string",nil,nil)
 DefineTag("HOA","hoa","string",nil,nil)
 DefineTag("RUNE","rune","boolean",nil,nil)
 

@@ -43,6 +43,7 @@ local continentToXpac = {
     [1415] = _G.LE_EXPANSION_CLASSIC, -- Eastern Kingdoms
     [1550] = _G.LE_EXPANSION_SHADOWLANDS, -- The Shadowlands
 	[1978] = _G.LE_EXPANSION_DRAGONFLIGHT, -- Dragonflight
+    [2274] = _G.LE_EXPANSION_WAR_WITHIN, -- The War Within
 }
 
 -- /dump C_Map.GetMapInfo(1355)

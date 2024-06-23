@@ -2871,6 +2871,40 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+            if WoWPro.twwrenown and WoWPro.twwrenown[guideIndex] and WoWPro.RETAIL then
+                local twwrenownName, twwrenownID, twwrenownLevel = (";"):split(WoWPro.twwrenown[guideIndex])
+                if (not twwrenownName) or (not twwrenownID) or (not twwrenownLevel) then
+                    WoWPro.why[guideIndex] = ("NextStep(): Malformed TWWREN¦%s¦ tag in step [%s:%s]."):format(WoWPro.twwrenown[guideIndex], stepAction, step)
+                    WoWPro:Warning(WoWPro.why[guideIndex])
+                    skip = true
+                    break
+                end
+                local twwrenownFlip = false
+                local twwrenownMatch
+                local twwrenownData = _G.C_MajorFactions.GetMajorFactionData(twwrenownID)
+                local twwrenown = (twwrenownData and twwrenownData.renownLevel) or 0
+                if (twwrenownLevel:sub(1, 1) == "-") then
+                    twwrenownLevel = twwrenownLevel:sub(2)
+                    twwrenownFlip = true
+                end
+                if twwrenown >= tonumber(twwrenownLevel) then
+                    twwrenownMatch = true
+                end
+                if twwrenownFlip then
+                    twwrenownMatch = not twwrenownMatch
+                end
+                if twwrenownMatch then
+                    WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..twwrenown.."] met condition with ["..twwrenownLevel.."] with faction ["..twwrenownName..";"..twwrenownID.."]."
+                else
+                    if twwrenownFlip then
+                        WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..twwrenown.."] is greater than ["..twwrenownLevel.."] with faction ["..twwrenownName..";"..twwrenownID.."]."
+                    else
+                        WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..twwrenown.."] is less than ["..twwrenownLevel.."] with faction ["..twwrenownName..";"..twwrenownID.."]."
+                    end
+                    skip = true
+                end
+            end
+
             if WoWPro.renown and WoWPro.renown[guideIndex] and WoWPro.RETAIL then
 				local renownID = WoWPro.renown[guideIndex]
 				local renownFlip = false
