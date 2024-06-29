@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('JiyWin5055', "Leveling", 'Winterspring', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('Winterspring', "Leveling", 'Winterspring', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Winterspring")
 WoWPro:GuideSort(guide, 56)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("JamNag6668", "Leveling", "Nagrand", "WoWPro Team", "Alliance")
+local guide = WoWPro:RegisterGuide("Nagrand", "Leveling", "Nagrand", "WoWPro Team", "Alliance")
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNickname(guide, "Nagrand BC")
 WoWPro:GuideName(guide,"Nagrand")

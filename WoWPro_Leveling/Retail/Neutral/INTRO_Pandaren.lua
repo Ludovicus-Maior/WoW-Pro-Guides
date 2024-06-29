@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('FlucloPanda', "Leveling", 'TheWanderingIsle', 'Fluclo', 'Neutral')
+local guide = WoWPro:RegisterGuide('Panda', "Leveling", 'TheWanderingIsle', 'Fluclo', 'Neutral')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 8)
 WoWPro:GuideContent(guide, "Intro")

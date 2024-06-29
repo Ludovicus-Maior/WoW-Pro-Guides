@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BitAra2025', "Leveling", 'Arathi Highlands', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('Arathi Highlands', "Leveling", 'Arathi Highlands', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Arathi Highlands")
 WoWPro:GuideNextGuide(guide, 'The Hinterlands')
 WoWPro:GuideSteps(guide, function()

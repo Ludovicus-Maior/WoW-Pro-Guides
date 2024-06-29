@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CraSea4850', "Leveling", 'Searing Gorge', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('Searing Gorge', "Leveling", 'Searing Gorge', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Searing Gorge")
 WoWPro:GuideSort(guide, 36)
 WoWPro:GuideNextGuide(guide, 'Burning Steppes')

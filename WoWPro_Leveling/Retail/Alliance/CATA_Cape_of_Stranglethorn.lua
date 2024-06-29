@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BitCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('Cape of Stranglethorn', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"The Cape of Stranglethorn")
 WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNextGuide(guide, 'Western Plaguelands')

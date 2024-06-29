@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'WoWPro Team', 'Alliance')
+local guide = WoWPro:RegisterGuide('Dwarf Intro2', 'Leveling', 'Dun Morogh', 'WoWPro Team', 'Alliance')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideContent(guide, "Intro")

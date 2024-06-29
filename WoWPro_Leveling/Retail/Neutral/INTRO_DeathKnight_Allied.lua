@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('LudoAlliedDK', 'Leveling', 'Icecrown Citadel!Dungeon1602', 'Ludovicus', 'Neutral')
+local guide = WoWPro:RegisterGuide('AlliedDK', 'Leveling', 'Icecrown Citadel!Dungeon1602', 'Ludovicus', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 10)
 WoWPro:GuideSort(guide, 17)
 WoWPro:GuideContent(guide, "Intro")
