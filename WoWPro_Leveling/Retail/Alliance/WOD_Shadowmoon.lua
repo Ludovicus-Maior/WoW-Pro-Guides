@@ -1,6 +1,6 @@
-local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
+local guide = WoWPro:RegisterGuide('Shadowmoon Valley', "Leveling", 'Shadowmoon Valley@Draenor', 'WoWPro Team', 'Alliance')
 WoWPro:GuideSort(guide, 2)
-WoWPro:GuideNickname(guide, "Shadowmoon Valley WOD")
+WoWPro:GuideNickname(guide, "Shadowmoon Valley")
 WoWPro:GuideName(guide,"Shadowmoon Valley")
 WoWPro:GuideNextGuide(guide, 'Gorgrond')
 WoWPro:GuideSteps(guide, function()

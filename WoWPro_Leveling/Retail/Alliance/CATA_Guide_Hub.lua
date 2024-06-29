@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CataclysmGuideHubA', 'Leveling', "Stormwind City", 'Elidion', 'Alliance')
+local guide = WoWPro:RegisterGuide('CataclysmGuideHubA', 'Leveling', "Stormwind City", 'WoWPro Team', 'Alliance')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Cataclysm: Guide Hub")

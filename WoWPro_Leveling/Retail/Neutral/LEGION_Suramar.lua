@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
+local guide = WoWPro:RegisterGuide('Suramar', 'Leveling', 'Suramar', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNickname(guide, "Suramar")
 WoWPro:GuideName(guide,"Suramar")

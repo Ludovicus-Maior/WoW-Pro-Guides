@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BitSha0105', "Leveling", 'Shadowglen (NightElf)', 'Bitsem', 'Alliance')
+local guide = WoWPro:RegisterGuide('Night Elf: Intro', "Leveling", 'Shadowglen (NightElf)', 'WoWPro team', 'Alliance')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideNickname(guide, "Night Elf: Intro")

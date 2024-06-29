@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("SL_Zereth_Mortis", "Leveling", "Zereth Mortis", "Cagomei", "Neutral")
+local guide = WoWPro:RegisterGuide("Zereth_Mortis", "Leveling", "Zereth Mortis", "WoWPro Team", "Neutral")
 WoWPro:GuideName(guide,"Zereth Mortis Campaign")
 WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideLevels(guide, 60, 60)
