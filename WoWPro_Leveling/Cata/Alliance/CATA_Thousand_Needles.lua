@@ -5,9 +5,15 @@ WoWPro:GuideSort(guide, 50)
 WoWPro:GuideNextGuide(guide, 'Tanaris')
 WoWPro:GuideSteps(guide, function()
 return [[
-
-H Feathermoon|ACTIVE|25481|PRE|26402|Z|1444; Feralas|N|Hearth back to Feathermoon Stronghold.|FLY|OLD|
-R New Thalanaar|ACTIVE|25481|M|46.78,45.34|Z|1444; Feralas|N|Make your way to New Thalanaar.\n[color=FF0000]NOTE: [/color]Flying to Writhing Deep and running from there will shorten your travel distance quite a bit.|FLY|OLD|
+; ** Travelling from Feralas
+H Feathermoon|AVAILABLE|25481|ACTIVE|-28503|PRE|26402|Z|1444; Feralas|N|Hearth back to Feathermoon Stronghold.|FLY|OLD|
+F Shadebough|AVAILABLE|25481|ACTIVE|-28503|PRE|26402|M|46.78,45.34|Z|1444; Feralas|N|Fly to Shadebough.|FLY|OLD|
+A To New Thalanaar|QID|25481|ACTIVE|-28503|PRE|26402|M|77.23,56.53|Z|1444; Feralas|N|From Falfindel Waywarder.|
+C To New Thalanaar|QID|25481|M|77.31,56.79|Z|1444; Feralas|N|Speak to Seyala Nightwisp for a free flight to New Thalanaar.|
+;
+; Travelling from wherever with Hero's Call quest
+R New Thalanaar|ACTIVE|28503|M|86.07,45.29|Z|1444; Feralas|N|Make your way to New Thalanaar on the border between Feralas and Thousand Needles.|
+;
 T Hero's Call: Thousand Needles!|QID|28503|M|86.07,45.29|Z|1444; Feralas|N|To Caryssia Moonhunter|
 T To New Thalanaar|QID|25479^25481|M|86.07,45.29|Z|1444; Feralas|N|To Caryssia Moonhunter.|
 A The Grimtotem are Coming|QID|25486|M|86.08,45.26|Z|1444; Feralas|N|From Caryssia Moonhunter.|
