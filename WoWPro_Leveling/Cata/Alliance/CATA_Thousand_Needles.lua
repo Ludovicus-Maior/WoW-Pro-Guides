@@ -31,7 +31,7 @@ C In the Outhouse|QID|25524|M|80.00, 75.00|Z|1441; Thousand Needles|L|54821|ITEM
 C In the Outhouse|QID|25524|M|79.58,75.09|Z|1441; Thousand Needles|N|Use the Pirate's Crowbar on the Outhouse|U|54821|NC|
 T In the Outhouse|QID|25524|M|79.58,75.09|Z|1441; Thousand Needles|N|To Submerged Outhouse.|
 C Down in the Deeps|QID|25515|M|80.61,76.83|Z|1441; Thousand Needles|L|54809 10|N|Pick up the Rocket Car Parts from the lake bottom.|US|
-f Fizzle & Pozzik's Speedbarge|QID|25524|M|79.16,71.95|Z|1441; Thousand Needles|N|At Tilly Topspin, back onto the Speedbarge.|
+f Fizzle & Pozzik's Speedbarge|ACTIVE|25515|M|79.15,71.95|Z|1441; Thousand Needles|N|From Tilly Topspin, on the platform at the back of the Speedbarge.|
 T Down in the Deeps|QID|25515|M|76.49,73.63|Z|1441; Thousand Needles|N|To Jinky Twizzlefixxit.|
 A Pirate Accuracy Increasing|QID|25532|PRE|25515&25517&25524|M|76.49,73.63|Z|1441; Thousand Needles|N|From Jinky Twizzlefixxit.|
 C Pirate Accuracy Increasing|QID|25532|M|78.94,75.73|QO|1|Z|1441; Thousand Needles|N|Speak to Mazzar on the south pontoon and tell him to get you into your boat.|CHAT|
