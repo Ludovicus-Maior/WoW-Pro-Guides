@@ -6,9 +6,8 @@ WoWPro:GuideNextGuide(guide, 'Tanaris')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-F New Thalanaar|QID|28503|M|86,45.2|Z|1444; Feralas|N|Take the flightpath to New Thalanaar|TAXI|New Thalanaar|FLY|OLD|
 H Feathermoon|ACTIVE|25481|PRE|26402|Z|1444; Feralas|N|Hearth back to Feathermoon Stronghold.|FLY|OLD|
-F Shadebough|ACTIVE|25481|M|46.78,45.34|Z|1444; Feralas|N|Fly to Shadebough.|
+R New Thalanaar|ACTIVE|25481|M|46.78,45.34|Z|1444; Feralas|N|Make your way to New Thalanaar.\n[color=FF0000]NOTE: [/color]Flying to Writhing Deep and running from there will shorten your travel distance quite a bit.|FLY|OLD|
 T Hero's Call: Thousand Needles!|QID|28503|M|86.07,45.29|Z|1444; Feralas|N|To Caryssia Moonhunter|
 T To New Thalanaar|QID|25479^25481|M|86.07,45.29|Z|1444; Feralas|N|To Caryssia Moonhunter.|
 A The Grimtotem are Coming|QID|25486|M|86.08,45.26|Z|1444; Feralas|N|From Caryssia Moonhunter.|
