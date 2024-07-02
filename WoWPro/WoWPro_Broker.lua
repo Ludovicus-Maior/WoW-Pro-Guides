@@ -3707,7 +3707,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
     WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
         local criteriaInfo = WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex);
-        
+
         if (criteriaInfo and criteriaInfo.description) then
             WoWPro.Scenario.Criteria[criteriaIndex] = WoWPro.Scenario.Criteria[criteriaIndex] or {}
             WoWPro.Scenario.Criteria[criteriaIndex].criteriaString = criteriaInfo.description
@@ -3716,7 +3716,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
             WoWPro.Scenario.Criteria[criteriaIndex].totalQuantity = criteriaInfo.totalQuantity
             WoWPro.Scenario.Criteria[criteriaIndex].criteriaID = criteriaInfo.criteriaID
             WoWPro:print("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = WoWPro.C_ScenarioInfo_GetCriteriaInfo(%d)",
-                         criteriaInfo.description, tostring( criteriaInfo.criteriaType), tostring( criteriaInfo.completed), tostring( criteriaInfo.quantity), 
+                         criteriaInfo.description, tostring( criteriaInfo.criteriaType), tostring( criteriaInfo.completed), tostring( criteriaInfo.quantity),
                          tostring( criteriaInfo.totalQuantity), tostring( criteriaInfo.flags), tostring( criteriaInfo.assetID),tostring(criteriaInfo.criteriaID),
                          tostring(criteriaInfo.duration), tostring(criteriaInfo.elapsed), tostring(criteriaInfo.isWeightedProgress), criteriaIndex)
         end
