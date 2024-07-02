@@ -1133,12 +1133,7 @@ if step then
         _G.QuestMapUpdateAllQuests()
         _G.QuestPOIUpdateIcons()
     end
-    local _, x
-    -- TODO: Is this needed at all?
-    if QID and WoWPro.RETAIL then
-        _, x = _G.QuestPOIGetIconInfo(QID)
-    end
-    if coord or x then
+    if coord then
         tinsert(dropdown,
             {text = "Map Coordinates", func = function()
                 WoWPro:RemoveMapPoint()
