@@ -208,9 +208,9 @@ C Before the Gate of Horror|QID|13335|U|44653|Z|118; Icecrown|N|Kill Skeletal Re
 T Before the Gate of Horror|QID|13335|Z|118; Icecrown|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 A Shatter the Shards|QID|13339|Z|118; Icecrown|N|Another 5-Man quest. From Thassarian.|
 A The Guardians of Corp'rethar|QID|13338|Z|118; Icecrown|N|Another 5-Man quest. From Thassarian.|
-N Broken Shard of Horror|QID|13339|L|44319|Z|118; Icecrown|N|Destroy this crystal on the top level.|M|47.78,68.14|
-N Broken Shard of Despair|QID|13339|L|44320|Z|118; Icecrown|N|Destroy this crystal on the middle level.|M|49.83,66.71|
-C Shatter the Shards|QID|13339|Z|118; Icecrown|N|Destroy this crystal.|M|45.82,69.52|
+C Broken Shard of Horror|QID|13339|QO|1|L|44319|Z|118; Icecrown|N|Destroy this crystal on the top level.|M|47.78,68.14|
+C Broken Shard of Despair|QID|13339|QO|2|L|44320|Z|118; Icecrown|N|Destroy this crystal on the middle level.|M|49.83,66.71|
+C Broken Shard of Suffering|QID|13339|QO|3|Z|118; Icecrown|N|Destroy this crystal.|M|45.82,69.52|
 C The Guardians of Corp'rethar|QID|13338|Z|118; Icecrown|N|Kill Harbingers of Horror and Corp'rethar Guardians on the Gate of Horror.|M|47.78,68.14|
 T Shatter the Shards|QID|13339|Z|118; Icecrown|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T The Guardians of Corp'rethar|QID|13338|Z|118; Icecrown|N|To Thassarian.|
@@ -221,9 +221,9 @@ A I Have an Idea, But First...|QID|12891|PRE|12887^12892|Z|118; Icecrown|N|From 
 C I Have an Idea, But First...|QID|12891|Z|118; Icecrown|N|Kill cultists for the Rod, Abominations for the Hook and Geists for the Rope. The essence drops from most of the mobs in the region.|
 T I Have an Idea, But First...|QID|12891|Z|118; Icecrown|N|To Baron Sliver.|M|44.12,24.69|
 A Free Your Mind|QID|12893|PRE|12891|Z|118; Icecrown|N|From Baron Sliver.|
-N Free Your Mind|QID|12893|U|41366|QO|2|Z|118; Icecrown|N|Kill Lady Nightswood and use the Sovereign Rod on her corpse.|M|41.75,24.45|; Lady Nightswood turned: 1/1
-N Free Your Mind|QID|12893|U|41366|QO|1|Z|118; Icecrown|N|Kill Vile and use the Sovereign Rod on his corpse.|M|44.38,26.89|; Vile turned: 1/1
-C Free Your Mind|QID|12893|U|41366|Z|118; Icecrown|N|Kill The Leaper and use the Sovereign Rod on his corpse. He patrols around on the ledge above Baron Sliver.|M|44.66,23.26|
+K Lady Nightswood|ACTIVE|12893|U|41366|QO|2|Z|118; Icecrown|N|Kill Lady Nightswood and use the Sovereign Rod on her corpse.|M|41.75,24.45|; Lady Nightswood turned: 1/1
+K Vile|ACTIVE|12893|U|41366|QO|1|Z|118; Icecrown|N|Kill Vile and use the Sovereign Rod on his corpse.|M|44.38,26.89|; Vile turned: 1/1
+K The Leaper|ACTIVE|12893|QO|3|U|41366|Z|118; Icecrown|N|Kill The Leaper and use the Sovereign Rod on his corpse. He patrols around on the ledge above Baron Sliver.|M|44.66,23.26|
 T Free Your Mind|QID|12893|Z|118; Icecrown|N|To Baron Sliver.|M|44.12,24.69|
 A If He Cannot Be Turned|QID|12896|Z|118; Icecrown|N|From Baron Sliver.|
 C If He Cannot Be Turned|QID|12896|Z|118; Icecrown|N|Click on one of the Weapon Racks inside the Shadow Vault and General Lighstbane will appear. Kill him.|M|44.69,19.90|
