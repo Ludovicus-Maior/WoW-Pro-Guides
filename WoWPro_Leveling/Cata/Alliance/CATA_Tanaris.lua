@@ -190,5 +190,7 @@ T Thunderdrome: Sarinexx!|QID|25095|M|51.63,28.00|Z|1446; Tanaris|N|To Katrina T
 A Thunderdrome: Grudge Match!|QID|25513|PRE|25095|M|51.74,28.04|Z|1446; Tanaris|N|From Dr. Dealwell.|
 C Thunderdrome: Grudge Match!|QID|25513|M|51.70,28.50|Z|1446; Tanaris|N|Enter the cage and defeat Meg's Dreadshredder.|
 T Thunderdrome: Grudge Match!|QID|25513|M|51.63,28.00|Z|1446; Tanaris|N|To Katrina Turner.|
+F Gunstan's Dig|ACTIVE|24911|AVAILABLE|24719|M|51.35,29.48|Z|1446; Tanaris|N|Fly to Gunstan's Dig.|
+
 ]]
 end)
