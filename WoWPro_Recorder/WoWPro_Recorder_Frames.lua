@@ -1272,20 +1272,15 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     name = "Delete",
                     width = "full",
                     func = function(info,val)
-                        print("Attempting to delete guide:", WoWProDB.char.currentguide)
                         if WoWPro.Guides[WoWProDB.char.currentguide] then
                             if WoWPro.Guides[WoWProDB.char.currentguide].original then
                                 WoWPro.Guides[WoWProDB.char.currentguide] = WoWPro.Guides[WoWProDB.char.currentguide].original
-                                print("Restored original guide.")
                             end
                             WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
-                            print("Guide deleted from recorder DB.")
-                        else
-                            print("Guide not found in WoWPro.Guides.")
                         end
                         WoWPro:LoadGuide()
                         dialog:Close("WoWPro Recorder - Delete");
-                        print("Deletion process completed.")
+
                     end,
                 },
                 cancel = {
