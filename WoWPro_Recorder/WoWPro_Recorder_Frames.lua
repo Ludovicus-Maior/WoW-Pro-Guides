@@ -697,7 +697,12 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 1,
                     type = "description",
                     fontSize = "medium",
-                    name = function() return WoWPro.step[WoWPro.Recorder.SelectedStep].."\n"
+                    name = function()
+                        if WoWPro.step[WoWPro.Recorder.SelectedStep] then
+                            return WoWPro.step[WoWPro.Recorder.SelectedStep].."\n"
+                        else
+                            return "Step not found.\n"
+                        end
                     end,
                     image = function() return WoWPro.actiontypes[WoWPro.action[WoWPro.Recorder.SelectedStep]]
                     end,
@@ -710,8 +715,12 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     name = "Delete",
                     width = "full",
                     func = function(info,val)
-                        dialog:Close("WoWPro Recorder - Subtract");
-                        WoWPro.Recorder:RemoveStep(WoWPro.Recorder.SelectedStep)
+                        if WoWPro.Recorder.SelectedStep and WoWPro.step[WoWPro.Recorder.SelectedStep] then
+                            dialog:Close("WoWPro Recorder - Subtract");
+                            WoWPro.Recorder:RemoveStep(WoWPro.Recorder.SelectedStep)
+                        else
+                            print("No step selected or step does not exist.")
+                        end
                     end,
                 },
                 cancel = {
@@ -989,6 +998,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     type = "header",
                     name = "Quest Info",
                 },
+ 
                 questtext = {
                     order = 17,
                     type = "input",
