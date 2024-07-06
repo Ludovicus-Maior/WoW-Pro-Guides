@@ -783,7 +783,7 @@ function WoWPro.Recorder:SaveGuide(window)
             guidetype = {
                 order = 0,
                 type = "input",
-                multiline = 20,
+                multiline = 55,
                 name = "Copy the following and paste it into a guide file:",
                 desc = "",
                 width = "full",
@@ -794,6 +794,6 @@ function WoWPro.Recorder:SaveGuide(window)
             },
         },
     })
-    dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 750, 400)
+    dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 750, 900)
     if window then dialog:Open("WoWPro Recorder - Save Guide", WoWPro.DialogFrame) end
 end
