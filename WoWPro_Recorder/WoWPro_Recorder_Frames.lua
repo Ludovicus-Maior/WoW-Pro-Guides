@@ -1206,7 +1206,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
         })
         dialog:SetDefaultSize("WoWPro Recorder - New", 300, 125)
 
-    WoWPro.OpenButton = CreateButton("Open", "Click to open a guide to edit.", WoWPro.NewButton)
+        WoWPro.OpenButton = CreateButton("Open", "Click to open a guide to edit.", WoWPro.NewButton)
         config:RegisterOptionsTable("WoWPro Recorder - Open", {
             name = "Open Guide",
             type = "group",
@@ -1218,21 +1218,21 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     desc = "All guides are listed here, including those that come with the addon and those you have created using the recorder.",
                     width = "full",
                     values = function()
-                            local infoTable = {}
-                            for GID, guideInfo in pairs(WoWPro.Guides) do
-								if WoWPro.Recorder.Advanced then
-									infoTable[GID] = GID .." "..tostring(guideInfo.zone).." by "..guideInfo.author
-									if WoWPro_RecorderDB[GID] then
-										infoTable[GID] = "!" .. infoTable[GID]
-									end
-								elseif WoWPro_RecorderDB[GID] then
-									if WoWPro_RecorderDB[GID] then
-										infoTable[GID] = GID
-									end
-								end
+                        local infoTable = {}
+                        for GID, guideInfo in pairs(WoWPro.Guides) do
+                            if WoWPro_RecorderDB[GID] then
+                                if WoWPro.Recorder.Advanced then
+                                    infoTable[GID] = GID .." "..tostring(guideInfo.zone).." by "..guideInfo.author
+                                    if WoWPro_RecorderDB[GID] then
+                                        infoTable[GID] = "!" .. infoTable[GID]
+                                    end
+                                else
+                                    infoTable[GID] = GID
+                                end
                             end
-                            return infoTable
-                        end,
+                        end
+                        return infoTable
+                    end,
                     get = function(info)
                             return nil end,
                     set = function(info,val)
@@ -1244,7 +1244,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
             },
         })
         dialog:SetDefaultSize("WoWPro Recorder - Open", 300, 125)
-
     WoWPro.SaveButton = CreateButton("Save", "Click to save the current guide.", WoWPro.OpenButton)
     WoWPro.SaveButton:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" then
@@ -1273,12 +1272,20 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     name = "Delete",
                     width = "full",
                     func = function(info,val)
-                        if WoWPro.Guides[WoWProDB.char.currentguide].original then
-                            WoWPro.Guides[WoWProDB.char.currentguide] = WoWPro.Guides[WoWProDB.char.currentguide].original
+                        print("Attempting to delete guide:", WoWProDB.char.currentguide)
+                        if WoWPro.Guides[WoWProDB.char.currentguide] then
+                            if WoWPro.Guides[WoWProDB.char.currentguide].original then
+                                WoWPro.Guides[WoWProDB.char.currentguide] = WoWPro.Guides[WoWProDB.char.currentguide].original
+                                print("Restored original guide.")
+                            end
+                            WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
+                            print("Guide deleted from recorder DB.")
+                        else
+                            print("Guide not found in WoWPro.Guides.")
                         end
-                        WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
                         WoWPro:LoadGuide()
                         dialog:Close("WoWPro Recorder - Delete");
+                        print("Deletion process completed.")
                     end,
                 },
                 cancel = {
