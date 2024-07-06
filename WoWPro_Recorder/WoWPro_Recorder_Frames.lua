@@ -989,7 +989,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     type = "header",
                     name = "Quest Info",
                 },
- 
                 questtext = {
                     order = 17,
                     type = "input",
