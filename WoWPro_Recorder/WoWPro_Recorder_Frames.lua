@@ -718,8 +718,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         if WoWPro.Recorder.SelectedStep and WoWPro.step[WoWPro.Recorder.SelectedStep] then
                             dialog:Close("WoWPro Recorder - Subtract");
                             WoWPro.Recorder:RemoveStep(WoWPro.Recorder.SelectedStep)
-                        else
-                            DEFAULT_CHAT_FRAME:AddMessage("No step selected or step does not exist.")
                         end
                     end,
                 },
