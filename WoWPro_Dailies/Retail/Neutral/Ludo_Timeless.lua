@@ -119,12 +119,12 @@ A Empowering the Hourglass|QID|33338|M|34.54,53.63|PRE|33336|N|From Kairoz.|
 C Empowering the Hourglass|QID|33338|N|Kill and loot till you get 50 Epoch Stones.|S|
 t Empowering the Hourglass|QID|33338|M|34.54,53.63|N|To Kairoz.|
 A Visions in Time|QID|33337^33375^33376^33377^33378^33379|M|34.54,53.63|PRE|33338|N|From Kairoz, He will offer six version of the quest each in turn. Accept whichever he offers.|
-U A Vision in Time|QID|33337|Z|Siege of Orgrimmar|U|105930|
-U Refining The Vision|QID|33375|Z|Siege of Orgrimmar|U|105931|
-U Seeking Fate|QID|33376|Z|Siege of Orgrimmar|U|105932|
-U Hidden Threads|QID|33377|Z|Siege of Orgrimmar|U|105933|
-U Courting Destiny|QID|33378|Z|Siege of Orgrimmar|U|10594|
-U One Final Turn|QID|33379|Z|Siege of Orgrimmar|U|105935|
+U A Vision in Time|ACTIVE|33337|Z|Siege of Orgrimmar|U|105930|
+U Refining The Vision|ACTIVE|33375|Z|Siege of Orgrimmar|U|105931|
+U Seeking Fate|ACTIVE|33376|Z|Siege of Orgrimmar|U|105932|
+U Hidden Threads|ACTIVE|33377|Z|Siege of Orgrimmar|U|105933|
+U Courting Destiny|ACTIVE|33378|Z|Siege of Orgrimmar|U|10594|
+U One Final Turn|ACTIVE|33379|Z|Siege of Orgrimmar|U|105935|
 t Visions in Time|QID|33337|M|34.54,53.63|N|To Kairoz.|
 t Refining The Vision|QID|33375|M|34.54,53.63|N|To Kairoz.|
 t Seeking Fate|QID|33376|M|34.54,53.63|N|To Kairoz.|
@@ -223,6 +223,3 @@ T Noodle Time: Bonus|QID|33358|M|53.6,51.2|Z|Valley of the Four Winds|N|From Sun
 ]]
 
 end)
-
-
-
