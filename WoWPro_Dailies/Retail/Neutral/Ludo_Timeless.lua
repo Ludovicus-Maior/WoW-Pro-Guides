@@ -11,20 +11,20 @@ WoWPro:Timeless()  -- Set up NPC Scan to pick up the rares and elites!
 return [[
 
 ; Intro quests to Timeless Isle -- Alliance
-N Reccomendations|QID|33229|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
+N Recomendations|ACTIVE|33229|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
 T A Flash of Bronze...|QID|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|To Chromie, at the Mogu'Shan Palace upper level.|
 A Journey to the Timeless Isle|QID|33231|LEAD|33160|PRE|33229|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Alliance|N|From Chromie|
-R Timeless Isle|QID|33231|M|23.27,70.84|U|104113|FACTION|Alliance|N|Use watch and get wisked away!|
+R Timeless Isle|ACTIVE|33231|M|23.27,70.84|U|104113|FACTION|Alliance|N|Use watch and get wisked away!|
 f Tushui Landing|QID|33231|M|23.07,71.04|FACTION|Alliance|N|Michi Windblossom is the flightmaster|
 T Journey to the Timeless Isle|QID|33231|M|23.12,71.65|FACTION|Alliance|N|To Watcher Lara.|
 A Time Keeper Kairoz|QID|33160|M|23.11,71.66|FACTION|Alliance|N|From Watcher Lara.|
 T Time Keeper Kairoz|QID|33160|M|34.54,53.63|FACTION|Alliance|N|To Kairoz.|
 
 ; Intro quests to Timeless Isle -- Horde
-N Reccomendations|QID|33230|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
+N Recomendations|ACTIVE|33230|N|WoWPro is a great addon, but your Timeless Isle experience can be better with two other addons, RareCoordinator and _NPCScan.  Check them out.  This guide automatically sets up NPCScan if it is present.|
 T A Flash of Bronze...|QID|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|To Chromie, at the Mogu'Shan Palace upper level.|
 A Journey to the Timeless Isle|QID|33232|LEAD|33156|PRE|33230|M|80.65,33.18|Z|Vale of Eternal Blossoms|FACTION|Horde|N|From Chromie|
-R Timeless Isle|QID|33232|M|21.8,39.8|U|104110|FACTION|Horde|N|Use watch and get wisked away!|
+R Timeless Isle|ACTIVE|33232|M|21.8,39.8|U|104110|FACTION|Horde|N|Use watch and get wisked away!|
 f Huojin Landing|QID|33232|M|21.92,39.75|FACTION|Horde|N|Chi-Ro the Skytamer is the flightmaster|
 T Journey to the Timeless Isle|QID|33232|M|22.01,40.93|FACTION|Horde|N|To Watcher Alundra.|
 A Time Keeper Kairoz|QID|33156|M|22.01,40.93|FACTION|Horde|N|From Watcher Alundra.|
@@ -35,14 +35,14 @@ A Time In Your Hands|QID|33228|M|34.54,53.63|PRE|33156^33160|N|From Kairoz.|
 A A Timeless Tour|QID|33161|M|34.54,53.63|PRE|33156^33160|N|From Kairoz.|
 C Meet Meet Mistweaver Ai|QID|33228|M|42.69,55.72|QO|2|N|Head up the South stairs and then across the Court. The chat with her.|
 C Meet Mistweaver Ku|QID|33228|M|42.71,54.68|QO|3|N|Chat with him.|
-N Tushui Landing|QID|33161|M|23.07,71.04|FACTION|Horde|N|This is where the Alliance NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
+N Tushui Landing|ACTIVE|33161|M|23.07,71.04|FACTION|Horde|N|This is where the Alliance NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
 C Old Pi'jiu|QID|33161|M|37.3,72.2|QO|5|
 C Firewalker Ruins|QID|33161|M|47.2, 78.5|QO|3|
 C Red Stone Run|QID|33161|M|58.01,66.99|QO|6|
 C Croaking Hollow|QID|33161|M|67.6, 66.7|QO|2|
 C Cavern of Lost Spirits|QID|33161|M|43.36,40.59|QO|1|
 C Misty Strand|QID|33161|M|29.4,28.9|QO|4|
-N Huojin Landing|QID|33161|M|21.8,39.8|FACTION|Alliance|N|This is where the Horde NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
+N Huojin Landing|ACTIVE|33161|M|21.8,39.8|FACTION|Alliance|N|This is where the Horde NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
 N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird and where it goes. Target an Albatross, attack, and it will pick you up. Beat it down to near death and it will move on. If you use AOE abilities, you may get taken by another bird. When you get back to where you started, kill it. Slow falls, parachutes, etc. are helpful.\nFeral Druids: You must use {Might of Ursoc} or {Prowl} or {Dash} to force the shape-shift.|T|Highwind Albatross|
 R Inkeeper|QID|33161|M|36.59,46.83|N|Say hello to Graceful Swan, your Innkeeper.|T|Graceful Swan|
 R Mail-Grummie|QID|33161|M|36.91,46.83|N|Say hello to Hopswift, chat with him to get your mail.|T|Hopswift|
