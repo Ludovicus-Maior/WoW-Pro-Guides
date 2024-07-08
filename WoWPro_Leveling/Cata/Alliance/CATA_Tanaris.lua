@@ -153,8 +153,8 @@ T Prospector Gunstan|QID|28881|M|40.12,76.97|Z|1446; Tanaris|N|To Prospector Gun
 A Ancient Obstacles|QID|25420|M|40.12,76.97|Z|1446; Tanaris|N|From Prospector Gunstan.|
 A Laying Claim|QID|25559|M|40.12,76.97|Z|1446; Tanaris|N|From Prospector Gunstan.|
 A Fragments of Language|QID|25565|M|40.12,76.97|Z|1446; Tanaris|N|From Prospector Gunstan.|
-r Repair|AVAILABLE|26895|M|40.29,77.10|Z|1446; Tanaris|N|At Brod Anvilbeard.|
-A The Thunderdrome!|QID|26895|LEAD|25067|M|40.25,77.17|Z|1446; Tanaris|N|From Flinn.|
+r Repair|ACTIVE|25420|M|40.29,77.10|Z|1446; Tanaris|N|At Brod Anvilbeard.|
+A The Thunderdrome!|QID|26895|LEAD|25067|M|40.25,77.17|Z|1446; Tanaris|N|From Flinn.|RANK|3|
 A Tropical Paradise Beckons|QID|24911|LEAD|24740|M|40.25,77.17|Z|1446; Tanaris|N|From Flinn.\n[color=FF0000]NOTE: [/color]Skip this step if you don't plan to continue on to our next guide, Un'Goro Crater, when finished.|NOAUTO|
 C Laying Claim|QID|25559|M|41.21,69.31|Z|1446; Tanaris|N|Kill Reliquary Diggers.|S|
 C Fragments of Language|QID|25565|M|41.03,70.46|Z|1446; Tanaris|N|Pick up Ancient Hieroglpyhs off the ground.|NC|
@@ -175,10 +175,10 @@ T The Grand Tablet|QID|25421|M|40.12,76.97|Z|1446; Tanaris|N|To Prospector Gunst
 t Find OOX-17/TN!|QID|351|M|59.81,64.06|Z|1446; Tanaris|N|To Homing Robot OOX-17/TN.|
 A Rescue OOX-17/TN!|QID|648|PRE|351|M|59.80,63.99|Z|1446; Tanaris|N|From Homing Robot OOX-17/TN. This is optional as it the turn-in requires you to go to Booty Bay.|
 C Rescue OOX-17/TN!|QID|648|M|60.86,53.63|Z|1446; Tanaris|N|Escort the chicken to safety.|
-H Gadgetzan|QID|26895|N|Your hearth SHOULD still be set at Gadgetzan, if it is not, use the flight path to go back.|
+H Gadgetzan|ACTIVE|26895|N|Your hearth SHOULD still be set at Gadgetzan, if it is not, use the flight path to go back.|
 T The Thunderdrome!|QID|26895|M|51.78,28.00|Z|1446; Tanaris|N|To Dr. Dealwell.|
-N The Following quest...|AVAILABLE|25067|N|The following quest is listed as a group quest. With potions advanced players can solo the first 2. So Try as hard as you can to get a group for these quests.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
-A Thunderdrome: The Ginormus!|QID|25067|M|51.79,28.06|Z|1446; Tanaris|N|From Dr. Dealwell.|
+N Welcome to Thunderdrome!|AVAILABLE|25067|PRE|N|The following quest is listed as a group quest. With potions, advanced players can solo the first 2. So, try hard to get a group for these quests.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Thunderdrome: The Ginormus!|QID|25067|M|51.79,28.06|Z|1446; Tanaris|N|From Dr. Dealwell.|RANK|3|
 C Thunderdrome: The Ginormus!|QID|25067|M|51.79,28.06|Z|1446; Tanaris|N|Enter the cage and defeat Ginormous.\n[color=FF0000]NOTE: [/color]Ignore the hounds because they despawn when he dies.|
 T Thunderdrome: The Ginormus!|QID|25067|M|51.63,28.00|Z|1446; Tanaris|N|Katrina Turner|
 A Thunderdrome: Zumonga!|QID|25094|PRE|25067|M|51.79,28.06|Z|1446; Tanaris|N|From Dr. Dealwell.|
@@ -190,5 +190,7 @@ T Thunderdrome: Sarinexx!|QID|25095|M|51.63,28.00|Z|1446; Tanaris|N|To Katrina T
 A Thunderdrome: Grudge Match!|QID|25513|PRE|25095|M|51.74,28.04|Z|1446; Tanaris|N|From Dr. Dealwell.|
 C Thunderdrome: Grudge Match!|QID|25513|M|51.70,28.50|Z|1446; Tanaris|N|Enter the cage and defeat Meg's Dreadshredder.|
 T Thunderdrome: Grudge Match!|QID|25513|M|51.63,28.00|Z|1446; Tanaris|N|To Katrina Turner.|
+F Gunstan's Dig|ACTIVE|24911|AVAILABLE|24719|M|51.35,29.48|Z|1446; Tanaris|N|Fly to Gunstan's Dig.|
+
 ]]
 end)
