@@ -914,7 +914,16 @@ local Stones = {
     [165802] = "Noble Gardener's Hearthstone",
     [165670] = "Peddlefeet's Lovely Hearthstone",
     [64488] = "The Innkeeper's Daughter",
-    [183716] = "Venthyr Sinstone"
+    [183716] = "Venthyr Sinstone",
+    [188952] = "Dominated Hearthstone",
+    [190196] = "Enlightened Hearthstone",
+    [190237] = "Broker Translocation Matrix".
+    [193588] = "Timewalker's Hearthstone",
+    [200630] = "Ohn'ir Windsage's Hearthstone",
+    [206195] = "Path of the Naaru"
+    [209035] = "Deepdweller's Earthen Hearthstone",
+    [209035] = "Heathstone of the Flame",
+    [212337] = "Stone of the Hearth"
 }
 
 function WoWPro.SelectHearthstone()
