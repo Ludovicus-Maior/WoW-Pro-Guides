@@ -1301,7 +1301,7 @@ if step then
 
         if action == "*" and use and WoWPro.C_Item_GetItemInfo then
             currentRow.itembutton:Show()
-            currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
+            currentRow.itemicon:SetTexture(WoWPro.C_Item_GetItemIconByID(use))
             currentRow.itembutton:SetAttribute("type1", "click1")
             currentRow.itembutton:SetAttribute("click", "clickbutton")
             currentRow.itembutton:SetScript("OnClick", function ()
@@ -1337,7 +1337,7 @@ if step then
             currentRow.itembutton:SetAttribute("type1", "item")
             currentRow.itembutton:SetAttribute("item1", "item:".._use)
 			currentRow.itembutton:SetScript("OnUpdate", function()
-				local itemtexture = _G.GetItemIcon(_use)
+				local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
 				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
 				if not start then
 					WoWPro:Warning("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)

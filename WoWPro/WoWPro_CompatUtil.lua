@@ -302,6 +302,14 @@ function WoWPro.C_Item_GetItemCount(itemID, includeBank)
     end
 end
 
+function WoWPro.C_Item_GetItemIconByID(itemID)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Item.GetItemIconByID(itemID)
+    else
+        return _G.GetItemIcon(itemID)
+    end
+end
+
 
 -- [[EasyMenu]]
 local function EasyMenu_Initialize( frame, level, menuList )
