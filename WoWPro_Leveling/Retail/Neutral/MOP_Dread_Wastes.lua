@@ -150,17 +150,23 @@ A Mazu's Bounty|QID|31354|PRE|31190|M|56.57,75.85|N|From Deck Boss Arie.|
 T Mazu's Bounty|QID|31354|M|54.93,72.9|N|To Master Angler Ju Lien|
 R Amberglow Hollow|QID|31087|M|46.36,52.91|N|Follow the Stinging Trail.|
 C Extending Our Coverage|QID|31087|M|48.20,49.73|N|Click the crystal|
-T Extending Our Coverage|QID|31087|M|48.07,49.65|N|To Kor'ik|
-A Crime and Punishment|QID|31088|PRE|31087|M|48.07,49.65|N|From Kor'ik|
-A Better With Age|QID|31090|PRE|31087|M|48.07,49.65|N|From Kor'ik|
-C Crime and Punishment|QID|31088|S|M|49.75,65.9|
-C Better With Age|QID|31090|NC|M|45.01,56.83|N|These are sparklies on the tree trunks (ofen with Ik'thik Harvesters beside them).|
-C Crime and Punishment|QID|31088|US|M|49.75,65.9|
-T Crime and Punishment|QID|31088|M|45.9,53.6;48.1,49.6|CC|N|To Kor'kk.|
-T Better With Age|QID|31090|M|48.1,49.6|N|To Kor'ik|
-A By the Sea, Nevermore|QID|31089|PRE|31088&31090|M|48.1,49.6|N|From Kor'ik|
-C By the Sea, Nevermore|QID|31089|NC|U|84119|M|43.4,63.5|
+T Extending Our Coverage|QID|31087|M|48.07,49.65|N|To Kor'ik (or Zer'ik).|
+A Crime and Punishment|QID|31088|PRE|31087|M|48.07,49.65|N|From Kor'ik|LEAD|31441|
+A Crime and Punishment|QID|31680|PRE|31087&31441|M|48.07,49.65|N|From Zer'ik.|
+A Better With Age|QID|31090|PRE|31087|M|48.07,49.65|N|From Kor'ik.|LEAD|31441|
+A Better With Age|QID|31681|PRE|31087&31441|M|48.07,49.65|N|From Zer'ik.|
+C Crime and Punishment|QID|31088^31680|S|M|49.75,65.9|
+C Better With Age|QID|31090^31681|NC|M|45.01,56.83|N|These are sparklies on the tree trunks (ofen with Ik'thik Harvesters beside them).|
+C Crime and Punishment|QID|31088^31680|US|M|49.75,65.9|N|Finish off the Harversters.|
+T Crime and Punishment|QID|31088|M|45.9,53.6;48.1,49.6|CC|N|To Kor'ik.|
+T Crime and Punishment|QID|31680|M|45.9,53.6;48.1,49.6|CC|N|To Zer'ik.|
+T Better With Age|QID|31090|M|48.1,49.6|N|To Kor'ik.|
+T Better With Age|QID|31681|M|48.1,49.6|N|To Zer'ik.|
+A By the Sea, Nevermore|QID|31089|PRE|31088&31090|M|48.1,49.6|N|From Kor'ik.|
+A By the Sea, Nevermore|QID|31089|PRE|31680&31681|M|48.1,49.6|N|From Zer'ik.|
+C By the Sea, Nevermore|QID|31089^31682|NC|U|84119|M|43.4,63.5|
 T By the Sea, Nevermore|QID|31089|M|43.3,63.5|N|To Kaz'tik the Manipulator.|
+T By the Sea, Nevermore|QID|31682|M|43.3,63.5|N|To Kaz'tik the Manipulator.|
 A Reunited|QID|31091|PRE|31089^31682|M|43.30,63.44|N|From Kaz'tik the Manipulator.|
 C Reunited|QID|31091|M|41.68,71.90|N|Talk to Kaz'tik to start the escort quest.|
 T Reunited|QID|31091|M|41.8,72.0|N|To Kaz'tik the Manipulator.|
@@ -198,7 +204,7 @@ C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|S|; Terrac
 C Nope Nope Nope|QID|31235|U|82807|M|70.40,27.80|N|Destroy 20 Dreadspinner Eggs.|; Terrace of Gurthan
 C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|US|M|70.40,27.80|; Terrace of Gurthan
 K Summon and Kill Warlord Gurthan|QID|31677|ACTIVE|31233^31232^31231^31235^31234|M|66.20,31.80|N|Stand on the green rune and emote /lay and then quickly (or a 2nd person) /kneel on the Red Rune. Green first then Red. Kill him and loot his corpse. (This wasn't available to me the first time I did dailies in the area, maybe faction... 2nd time it was.)|L|88715|; Terrace of Gurthan
-A The Warlord's Ashes|QID|31677|U|88715|ACTIVE|31233^31232^31231^31235^31234|N|From the ashes.|; Terrace of Gurthan
+A The Warlord's Ashes|QID|31677|U|88715|O|N|From the ashes.|IZ|Terrace of Gurthan|
 C An Ancient Empire|QID|31232|N|Collect 8 Gurthani Tablets off the ground.|US|M|69.40,32.40|; Terrace of Gurthan
 C Sap Tapping|QID|31233|N|Collect 6 Amber Sap. They are on trees in the area.|US|M|69.40,32.40|; Terrace of Gurthan
 C Brain Food|QID|31238|M|60.00,23.00|N|They drop off Greatback Mushan.|; Terrace of Gurthan

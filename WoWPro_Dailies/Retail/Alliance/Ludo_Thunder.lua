@@ -63,8 +63,8 @@ T Harbingers of the Loa|QID|32540|M|42.22,66.34|N|To Archmage Lan'dalock.|;31.56
 T Dark Offerings|QID|32539|M|42.31,66.31|N|To Dalvin Jaacor.|;31.66,83.22?
 T Heinous Sacrifice|QID|32538|M|42.31,66.31|N|To Dalvin Jaacor.|;31.66,83.22?
 T Preventing a Future Threat|QID|32541|M|42.15,66.44|N|To Ako.|;31.47,83.21?
-T Pterrible Ptorment|QID|32544|M|31.47,83.21|N|To Ako.|
-T Surgical Strike|QID|32542|M|31.56,83.14|N|To Archmage Lan'dalock.|
+T Pterrible Ptorment|QID|32544|M|42.15,66.44|N|To Ako.|
+T Surgical Strike|QID|32542|M|42.22,66.34|N|To Archmage Lan'dalock.|
 A Pick up any follow up quests|QID|32586^32588^32576^32577^32578^32579^32580^32581^32583^32584^32585^32607|M|42.2,66.4|N|From Archmage Lan'dalock.|PRE|32538^32539^32540^32541^32542^32543^32544|
 
 ; Dailies - Ihgaluk Crag
@@ -127,14 +127,16 @@ A Pick up any follow up quests|QID|32586^32588^32576^32577^32578^32579^32580^325
 
 C The Sleepless Legion|QID|32572|M|49.70,57.55|N|Kill animated warriors.|
 C The Zandalari Colossus|QID|32575|M|43.71,63.57|N|He wanders along the road here, cant miss the 20 fout tall statue.|
-C A Wing to Fly On|QID|32571|M|43.71,63.57|N|He flys along in this area, use the target button to help locate him. Click to capture.|T|Wild Pterrowing Hatchling|
+C A Wing to Fly On|QID|32571|M|43.71,63.57|N|He flys along in this area, use the target button to help locate him. Click to capture.|T|Wild Pterrorwing Hatchling|
 t The Sleepless Legion|QID|32572|M|62.70,73.56|N|To Captain Elleane Wavecrest.|U|95567|
-t The Zandalari Colossus|QID|32575|M|63.26,72.12|N|To Vereesa Windrunner|U|95567|
-A Pick up any follow up quests|QID|32568^32586^32588^32576^32577^32578^32579^32580^32581^32583^32584^32585^32607|PRE|32572^32575|M|63.22,72.30|N|From Vereesa, Jaina or Elleaae.|
+t The Zandalari Colossus|QID|32575|M|63.26,72.12|N|To Vereesa Windrunner.|U|95567|
+t A Wing to Fly On|QID|32571|M|63.48,73.61|N|To Warmage Yurias.|
+A Pick up any follow up quests|QID|32568^32576^32577^32578^32579^32580^32581^32583^32584^32585^32586^32588^32607|PRE|32571^32572^32575|M|63.22,72.30|N|From Vereesa, Jaina or Elleaae.|
 
 ;Conqueror's Terrace
 T No Time To Rest|QID|32568|M|61.88,51.98|N|To Scout Captain Daelin.|
-A Pick up 1-4 quests|QID|32559^32555^32560|N|From Scout Captain Daelin and Miura Brightweaver.|PRE|32568|
+A Pick up 1-4 quests|QID|32555^32556^32559^32560|N|From Scout Captain Daelin and Miura Brightweaver.|PRE|32568|
+C The More You Know|QID|32556|M|59,52|S!US|N|Pick up artifacts from the ground.|
 C Keep it Secret|QID|32560|M|59,52|S|N|Kill trolls.|
 C Centuries in Sentries|QID|32555|M|59,52|S|U|93806|N|Kill Spirit Bound sentries, then use the crystal on the body.|
 C Even Giants Fall|QID|32559|M|60.23,54.12|N|Kill the priests surrounding Guardian Tak'u to activate him, then kill him.|
@@ -144,8 +146,9 @@ C Centuries in Sentries|QID|32555|M|59,52|US|U|93806|N|Kill Spirit Bound sentrie
 C Keep it Secret|QID|32560|M|59,52|US|N|Finish up killing trolls.|
 t Even Giants Fall|QID|32559|M|61.88,51.98|N|To Scout Captain Daelin.|
 t Keep it Secret|QID|32560|M|61.88,51.98|N|To Scout Captain Daelin.|
+t The More You Know|QID|32556|M|61.89,52.08|N|To Miura Brightweave.|
 t Centuries in Sentries|QID|32555|M|61.89,52.08|N|To Miura Brightweave.|
-A Quest from Miura|QID|32586^32588|M|61.89,52.08|N|From Miura Brightweave.|PRE|32559^32555^32560|; may be offered other places, other PREs
+A Quest from Miura|QID|32586^32588|M|61.89,52.08|N|From Miura Brightweave.|PRE|32559^32555^32556^32560|; may be offered other places, other PREs
 
 ;Dailies - Beast Pens
 T The Beast Pens|QID|32567|M|51.74,47.15|N|To Scout Captain Daelin.|
