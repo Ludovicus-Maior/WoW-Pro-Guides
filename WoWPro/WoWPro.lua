@@ -1022,7 +1022,7 @@ local nameToID = {
     ["Battle for Azeroth"] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH,
     ["Shadowlands"] = _G.LE_EXPANSION_SHADOWLANDS,
     ["Dragonflight"] = _G.LE_EXPANSION_DRAGONFLIGHT,
-    ["The War Within"] = _G.LE_EXPANSION_WAR_WITHIN,
+    ["The War Within"] = _G.LE_EXPANSION_THE_WAR_WITHIN,
 }
 function WoWPro:GuideContent(guide, content)
     if content == "Intro" then
