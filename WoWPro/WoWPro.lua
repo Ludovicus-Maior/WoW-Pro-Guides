@@ -1656,10 +1656,6 @@ WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 11
 WoWPro.WAR_WITHIN = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 120000))
 WoWPro.RETAIL_RELEASE = 10
 WoWPro.RETAIL = (WoWPro.TocVersion >= WoWPro.RETAIL_RELEASE * 10000)
-<<<<<<< HEAD
-
-=======
->>>>>>> 621c0e9e2 (Fix removal of EasyMenu)
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false
