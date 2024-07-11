@@ -1325,28 +1325,32 @@ end
 function WoWPro.Recorder:CustomizeFrames()
     if not WoWPro.RecorderFrame then return end
     WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Start.")
-    WoWPro.RecorderFrame:SetBackdrop( {
-        bgFile = WoWProDB.profile.bgtexture,
-        edgeFile = WoWProDB.profile.bordertexture,
+    
+    local profile = WoWProDB.profile
+    local minSize = WoWProCharDB.Advanced and 310 or 225
+
+    WoWPro.RecorderFrame:SetBackdrop({
+        bgFile = profile.bgtexture,
+        edgeFile = profile.bordertexture,
         tile = true, tileSize = 16, edgeSize = 16,
-        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+        insets = { left = 4, right = 3, top = 4, bottom = 3 }
     })
-    WoWPro.RecorderFrame:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
-    if WoWProDB.profile.border then
-        WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 1)
-    else
-        WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 0)
+    WoWPro.RecorderFrame:SetBackdropColor(unpack(profile.titlecolor))
+    WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, profile.border and 1 or 0)
+
+    if profile.hminresize < minSize then
+        profile.hminresize = minSize
     end
 
-    --Minimum Frame Size to match --
-    local minSize = WoWProDB.profile.advancedMode and 310 or 225
-    if WoWProDB.profile.hminresize < minSize then
-        WoWProDB.profile.hminresize = minSize
-    end
-    if WoWPro.MainFrame:GetWidth() < minSize then
-        -- MainFrame --
-        WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
-        WoWPro.MainFrame:SetWidth(minSize)
+    -- Ensure the frame resizes to 310 if in advanced mode
+    if WoWProCharDB.Advanced then
+        WoWPro.MainFrame:SetWidth(310)
+        WoWPro.RecorderFrame:SetWidth(310)
+        print("Advanced mode is enabled. Set frame width to 310.")
+    else
+        WoWPro.MainFrame:SetWidth(225)
+        WoWPro.RecorderFrame:SetWidth(225)
+        print("Advanced mode is disabled. Set frame width to 225.")
     end
 end
 
