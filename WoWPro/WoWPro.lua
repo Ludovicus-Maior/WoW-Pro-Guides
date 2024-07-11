@@ -964,7 +964,11 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     -- Set a default release, if not specified
     if not release then
-            release = 11
+        if  WoWPro.RETAIL then
+            release = WoWPro.Client
+        else
+            release = WoWPro.RETAIL_RELEASE
+        end
     end
 
     local guide = {
