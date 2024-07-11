@@ -1,4 +1,3 @@
-
 -- luacheck: globals WoWPro_RecorderDB
 -- luacheck: globals table ipairs pairs tinsert tremove
 -- luacheck: globals tonumber tostring type max
