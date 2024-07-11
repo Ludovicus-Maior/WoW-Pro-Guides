@@ -19,7 +19,7 @@ WoWPro.Recorder.PREquest = nil
 WoWPro.Recorder.PrevStep = nil
 WoWPro.Recorder.Flights = nil
 WoWPro.Recorder.Portals = nil
-WoWPro.questLogLoaded = false
+WoWPro.QuestLogLoaded = false
 
 _G.SLASH_WPR1 = "/wpr";
 function _G.SlashCmdList.WPR(msg)
@@ -70,7 +70,7 @@ function WoWPro.Recorder:OnUIReloaded()
 end
 
 function WoWPro:QUEST_LOG_UPDATE()
-    WoWPro.questLogLoaded = true
+    WoWPro.QuestLogLoaded = true
     WoWPro:dbp("Quest log fully loaded.")
 end
 
@@ -230,7 +230,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         end
 
     elseif event == "POST_QUEST_LOG_UPDATE" then
-        if not WoWPro.questLogLoaded then
+        if not WoWPro.QuestLogLoaded then
             WoWPro:dbp("Quest log not fully loaded yet. Skipping POST_QUEST_LOG_UPDATE.")
             return
         end
