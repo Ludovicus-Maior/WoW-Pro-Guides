@@ -210,25 +210,30 @@ function WoWPro.C_Reputation_GetFactionDataByID(factionID)
     if WoWPro.WAR_WITHIN then
         return _G.C_Reputation.GetFactionDataByID(factionID)
     else
-        local name, description, _, _, _, _, atWarWith, canToggleAtWar, _, isCollapsed, _, isWatched, isChild, _, hasBonusRepGain, _ = _G.GetFactionInfoByID(factionID)
-        return {
-            hasBonusRepGain = hasBonusRepGain,
-            description = description,
-            -- isHeaderWithRep
-            -- isHeaderCurrentReactionThreshold
-            -- canSetInactive
-            atWarWith = atWarWith,
-            isWatched = isWatched,
-            isCollapsed = isCollapsed,
-            canToggleAtWar = canToggleAtWar,
-            -- nextReactionThreshold,
-            factionID = factionID,
-            name = name,
-            --currentStanding,
-            --isAccountWide,
-            isChild = isChild,
-            -- reaction
-        }
+        local name, description, standingID, barMin, barMax, barValue , atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, _ , hasBonusRepGain, canSetInactive = _G.GetFactionInfoByID(factionID)
+        if not name then
+            return nil
+        else
+            return {
+                hasBonusRepGain = hasBonusRepGain,
+                description = description,
+                isHeaderWithRep = hasRep,
+                isHeader = isHeader,
+                currentReactionThreshold = barMin,
+                canSetInactive = canSetInactive,
+                atWarWith = atWarWith,
+                isWatched = isWatched,
+                isCollapsed = isCollapsed,
+                canToggleAtWar = canToggleAtWar,
+                nextReactionThreshold = barMax,
+                factionID = factionID,
+                name = name,
+                currentStanding = barValue,
+                --isAccountWide,
+                isChild = isChild,
+                reaction = standingID
+            }
+        end
     end
 end
 
