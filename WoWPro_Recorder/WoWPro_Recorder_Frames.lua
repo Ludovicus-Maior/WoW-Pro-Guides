@@ -1325,11 +1325,11 @@ end
 function WoWPro.Recorder:CustomizeFrames()
     if not WoWPro.RecorderFrame then return end
     WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): Start.")
-    WoWPro.RecorderFrame:SetBackdrop({
+    WoWPro.RecorderFrame:SetBackdrop( {
         bgFile = WoWProDB.profile.bgtexture,
         edgeFile = WoWProDB.profile.bordertexture,
         tile = true, tileSize = 16, edgeSize = 16,
-        insets = { left = 4, right = 3, top = 4, bottom = 3 }
+        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
     })
     WoWPro.RecorderFrame:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
     if WoWProDB.profile.border then
@@ -1338,21 +1338,15 @@ function WoWPro.Recorder:CustomizeFrames()
         WoWPro.RecorderFrame:SetBackdropBorderColor(1, 1, 1, 0)
     end
 
-    -- Minimum Frame Size to match --
+    --Minimum Frame Size to match --
     local minSize = WoWProDB.profile.advancedMode and 310 or 225
     if WoWProDB.profile.hminresize < minSize then
         WoWProDB.profile.hminresize = minSize
     end
-
-    if WoWProDB.profile.advancedMode then
-        WoWPro.MainFrame:SetWidth(310)
-        WoWPro.RecorderFrame:SetWidth(310)
-        WoWPro.Recorder:dbp("Advanced mode is enabled. Set frame width to 310.")
-    else
-        if WoWPro.MainFrame:GetWidth() < minSize then
-            WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
-            WoWPro.MainFrame:SetWidth(minSize)
-        end
+    if WoWPro.MainFrame:GetWidth() < minSize then
+        -- MainFrame --
+        WoWPro.Recorder:dbp("Recorder:CustomizeFrames(): MainFrame too small. Resetting.")
+        WoWPro.MainFrame:SetWidth(minSize)
     end
 end
 
