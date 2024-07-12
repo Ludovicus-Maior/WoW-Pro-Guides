@@ -28,7 +28,7 @@ A Shredder Repair |QID|12244|N|From Synipus.|M|39.5,43.5|Z|Grizzly Hills|
 C Pieces Parts |QID|12268|N|Loot the needed parts of the ground.|M|35,40|Z|Grizzly Hills|S|
 C Life or Death |QID|12296|U|37576|N|Use the [Renewing Bandage] on Wounded Westfall Infantry.|M|35,40|Z|Grizzly Hills|S|
 C Kick 'Em While They're Down |QID|12289|N|Kill any horde unit in Blue Sky Logging Grounds, NPC or PC.|M|35,40|Z|Grizzly Hills|S|
-C Shredder Repair |QID|12244|N|Go west to the island of Blue Sky Logging Grounds. Enter a Broken-down Shredder, then take it back to Synipus.|M|32.9,42.1;39.5,43.5|Z|Grizzly Hills|
+C Shredder Repair |QID|12244|N|Go west to the island of Blue Sky Logging Grounds. Enter a Broken-down Shredder, then take it back to Synipus.|M|32.9,42.1;39.5,43.5|Z|Grizzly Hills|CN|
 C Pieces Parts |QID|12268|N|Finish looting what you need.|M|35,40|US|
 C Life or Death |QID|12296|U|37576|N|Use the [Renewing Bandage] on Wounded Westfall Infantry.|M|35,40|Z|Grizzly Hills|US|
 C Kick 'Em While They're Down |QID|12289|N|Kill any horde unit in Blue Sky Logging Grounds, NPC or PC.|M|35,40|Z|Grizzly Hills|US|
@@ -39,11 +39,11 @@ T Shredder Repair |QID|12244|N|To Synipus.|M|39.5,43.5|Z|Grizzly Hills|
 T Life or Death |QID|12296|N|To Rheanna.|M|40.5,42.6|Z|Grizzly Hills|
 
 N Valiance Expedition|N|The Icecrown Valiance Expedition Reputation Dailies.|
-A King of the Mountain|QID|13280|M|57.00,62.57|Z|Icecrown|N|From Frazzle Geargrinder|
+A King of the Mountain|QID|13280|PRE|13296|M|57.00,62.57|Z|Icecrown|N|From Frazzle Geargrinder|
 C King of the Mountain|QID|13280|M|54.87,60.10|Z|Icecrown|N|Right at the TOP.|
 T King of the Mountain|QID|13280|M|57.00,62.57|Z|Icecrown|N|To Frazzle Geargrinder|
 A Assault by Air|QID|13309|M|62.56,51.34|Z|Icecrown|N|From Ground Commander Koup|
-C Assault by Air|QID|13309|M|62.55,50.65|Z|Icecrown|N|Hop onto the turret and fire on the Vrykul spear guns.|QO|Skybreaker Infiltrators dropped: 4/4|
+C Assault by Air|QID|13309|M|62.55,50.65|Z|Icecrown|N|Hop onto the turret and fire on the Vrykul spear guns.|
 T Assault by Air|QID|13309|M|62.56,51.34|Z|Icecrown|N|To Ground Commander Koup|
 A Assault by Ground|QID|13284|M|62.78,51.62|Z|Icecrown|N|Skybreaker Squad Leader|
 C Assault by Ground|QID|13284|M|59.88,53.60|Z|Icecrown|N|Escort.  No stop.|

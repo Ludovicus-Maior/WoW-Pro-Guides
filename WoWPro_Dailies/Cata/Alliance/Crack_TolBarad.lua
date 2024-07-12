@@ -10,16 +10,16 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 R Tol Barad Peninsula|M|73.21,18.37|Z|Stormwind City|N|Click on the Portal to Tol Barad in Stormwind.|
-R Tol Barad|M||N|Head over to Tol Barad.|
+R Tol Barad||N|Head over to Tol Barad.|
 N The quests in the PvP battle area|N|will not flag you as PvP. They can only be done when your faction controls Tol Barad. Also there is a quest giver next to Commander Zanoth, that will appear randomly each time your faction wins Tol Barad. The NPC will either be Private Garnoth, Drillmaster Razgoth, or Staff Sergeant Lazgar.|
 
 A A Huge Problem|QID|28122|M|51,49.4|N|From Sergeant Parker.|
 A Swamp Bait|QID|28162|M|51,49.4|N|From Sergeant Parker.|
 A The Leftovers|QID|28163|M|51,49.4|N|From Sergeant Parker.|
 
-A Accept all quests|M|51.8,49.6|N|From either Commander Stevens, Marshal Fallows or 2nd Lieutenant Wansworth.|QID|28118;28120;28117;28223;28188;28232;28185;28165;28186|
+A Accept all quests|M|51.8,49.6|N|From either Commander Stevens, Marshal Fallows or 2nd Lieutenant Wansworth.|QID|28118^28120^28117^28223^28188^28232^28185^28165^28186|
 
-C A Huge Problem|QID|28122|M|30.9,45.2;38.4,61.7;50.6,58.2;61.7,57.8;62,43.8;57.6,35.3;41,33.9|N|Find and kill Problim. If someone else is attacking him, help out as you will get the completion as well.|T|Problim|
+C A Huge Problem|QID|28122|M|30.9,45.2;38.4,61.7;50.6,58.2;61.7,57.8;62,43.8;57.6,35.3;41,33.9|CN|N|Find and kill Problim. If someone else is attacking him, help out as you will get the completion as well.|T|Problim|
 
 C Learning From The Past|QID|28120|M|61,49.9|N|Pick up Dusty Prison Journals off the ground.|S|
 C Clearing the Depths|QID|28117|M|61,49.9|N|Kill 9 of any type of Ghost.|S|
@@ -39,10 +39,10 @@ C D-Block|QID|28165|M|42.7,37.6|N|Kill 10 of any type of Demon.|S|
 C Cursed Shackels|QID|28186|M|42.7,37.6|N|Loot 8 of the Cursed Shackels that are lying around.|S|
 R D-Block|QID|28185|M|42.7,37.6|N|NW from the quest giver.|
 C Svarnos|QID|28185|M|48.2,30.4|N|Head down into D-Block. Kill then loot Svarnos for his collar.|
-C Cursed Shackels|QID28186|M|42.7,37.6|N|Loot 8 of the Cursed Shackels that are lying around.|US|
+C Cursed Shackels|QID|28186|M|42.7,37.6|N|Loot 8 of the Cursed Shackels that are lying around.|US|
 C D-Block|QID|28165|M|42.7,37.6|N|Kill 10 of any type of Demon.|US|
 
-C The Leftovers|QID|28163|M|50.9,46.4;65.6,65;34.7,68.3|N|Head into either Warden's Vigil, Slagworks or Ironclad Garrison (whichever is closer). Kill 12 Horde Infantry.|
+C The Leftovers|QID|28163|M|50.9,46.4;65.6,65;34.7,68.3|CN|N|Head into either Warden's Vigil, Slagworks or Ironclad Garrison (whichever is closer). Kill 12 Horde Infantry.|
 C Swamp Bait|QID|28162|M|40,48.7|N|Kill and loot Crocolisks until you have 8 hides.|
 
 N You Can ...|N|You can turn these quests into to Captain Jake Sones at the Baradin Base Camp on Tol Barad Peninsula if the quest giving NPC's despawn in preparation for another battle.|

@@ -177,7 +177,7 @@ A Rescue OOX-17/TN!|QID|648|PRE|351|M|59.80,63.99|Z|1446; Tanaris|N|From Homing 
 C Rescue OOX-17/TN!|QID|648|M|60.86,53.63|Z|1446; Tanaris|N|Escort the chicken to safety.|
 H Gadgetzan|ACTIVE|26895|N|Your hearth SHOULD still be set at Gadgetzan, if it is not, use the flight path to go back.|
 T The Thunderdrome!|QID|26895|M|51.78,28.00|Z|1446; Tanaris|N|To Dr. Dealwell.|
-N Welcome to Thunderdrome!|AVAILABLE|25067|PRE|N|The following quest is listed as a group quest. With potions, advanced players can solo the first 2. So, try hard to get a group for these quests.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+N Welcome to Thunderdrome!|AVAILABLE|25067|N|The following quest is listed as a group quest. With potions, advanced players can solo the first 2. So, try hard to get a group for these quests.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
 A Thunderdrome: The Ginormus!|QID|25067|M|51.79,28.06|Z|1446; Tanaris|N|From Dr. Dealwell.|RANK|3|
 C Thunderdrome: The Ginormus!|QID|25067|M|51.79,28.06|Z|1446; Tanaris|N|Enter the cage and defeat Ginormous.\n[color=FF0000]NOTE: [/color]Ignore the hounds because they despawn when he dies.|
 T Thunderdrome: The Ginormus!|QID|25067|M|51.63,28.00|Z|1446; Tanaris|N|Katrina Turner|

@@ -22,7 +22,7 @@ T Annals of the Silver Hand|QID|28755|M|76,51|N|To Lord Raymond George.|
 N Aberrations of Bone|N|This quest can also be repeated, you need to reset the instance.|
 A Aberrations of Bone|QID|28756|M|76,51|N|From Lord Raymond George. 1000 rep. Level 40 Dungeon.|
 F Scholomance|QID|28756|M|70.7,71.0|Z|Western Plaguelands|N|Fly to Scholomance|
-N Aberrations of Bone|QID|28756|M||Z|Scholomance|N|Jup off the bridge to the right side to skip the first set of mobs.|
+N Aberrations of Bone|QID|28756|Z|Scholomance|N|Jup off the bridge to the right side to skip the first set of mobs.|
 C Aberrations of Bone|QID|28756|M|30,65|Z|Scholomance|N|Kill Rattlegore.|
 T Aberrations of Bone|QID|28756|M|76,51|N|From Lord Raymond George.|
 
