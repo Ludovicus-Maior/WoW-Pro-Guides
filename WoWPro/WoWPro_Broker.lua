@@ -2558,12 +2558,17 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     earnedValue = reputationInfo.standing - reputationInfo.nextThreshold
                     WoWPro:dbp("NPC %s is a %s: standing %d, earned %d", reputationInfo.name, friendTextLevel, standingId, earnedValue)
                 else
-                    local name, bottomValue, _
-                    name, _, standingId, bottomValue, _, earnedValue, _, _, _, _, _, _, _, _, hasBonusRepGain = _G.GetFactionInfoByID(factionIndex)
-                    if not name then
+                    local factionInfo = WoWPro.C_Reputation_GetFactionDataByID(factionIndex)
+                    if not factionInfo then
                         WoWPro:Error("Bad Faction number in %q", WoWPro.rep[guideIndex])
                         break
                     end
+                    local name = factionInfo.name
+                    local bottomValue = factionInfo.currentReactionThreshold
+                    earnedValue = factionInfo.nextReactionThreshold
+                    standingId = factionInfo.reaction
+                    hasBonusRepGain = factionInfo.hasBonusRepGain
+
                     WoWPro:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s", name, standingId, earnedValue, bottomValue, tostring(hasBonusRepGain))
                     earnedValue = earnedValue - bottomValue
                 end
