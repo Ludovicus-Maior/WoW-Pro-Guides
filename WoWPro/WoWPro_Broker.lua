@@ -2568,7 +2568,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     earnedValue = factionInfo.nextReactionThreshold
                     standingId = factionInfo.reaction
                     hasBonusRepGain = factionInfo.hasBonusRepGain
-                 
+ 
                     WoWPro:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s", name, standingId, earnedValue, bottomValue, tostring(hasBonusRepGain))
                     earnedValue = earnedValue - bottomValue
                 end
