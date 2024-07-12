@@ -324,7 +324,7 @@ function WoWPro:CreateLootsButton(parent, id)
 				texture = result['iconFileID']
 			end
         elseif tonumber(ID) then
-            name, _, _, _, _, _, _, _, _, texture = _G.GetItemInfo(tonumber(ID))
+            name, _, _, _, _, _, _, _, _, texture = _G.WoWPro.C_Item_GetItemInfo(tonumber(ID))
         end
         if texture then
             self.lootsicon:SetTexture(texture)

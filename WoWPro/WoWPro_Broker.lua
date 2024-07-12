@@ -884,7 +884,7 @@ function WoWPro.TrashItem(use, step)
         for slot=1,slots do
             local id=_G.C_Container.GetContainerItemID(bag,slot)
             if id == use then
-                local itemName = _G.GetItemInfo(id)
+                local itemName = WoWPro.C_Item_GetItemInfo(id)
                 local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
                 dialog.data = { step = step, itemName = itemName}
                 dialog.data2 = {bag = bag, slot = slot}
@@ -914,13 +914,22 @@ local Stones = {
     [165802] = "Noble Gardener's Hearthstone",
     [165670] = "Peddlefeet's Lovely Hearthstone",
     [64488] = "The Innkeeper's Daughter",
-    [183716] = "Venthyr Sinstone"
+    [183716] = "Venthyr Sinstone",
+    [188952] = "Dominated Hearthstone",
+    [190196] = "Enlightened Hearthstone",
+    [190237] = "Broker Translocation Matrix",
+    [193588] = "Timewalker's Hearthstone",
+    [200630] = "Ohn'ir Windsage's Hearthstone",
+    [206195] = "Path of the Naaru",
+    [208704] = "Deepdweller's Earthen Hearthstone",
+    [209035] = "Heathstone of the Flame",
+    [212337] = "Stone of the Hearth"
 }
 
 function WoWPro.SelectHearthstone()
     local have={}
     for id, nomen in pairs(Stones) do
-        if  _G.GetItemCount(id) > 0 then
+        if  _G.WoWPro.C_Item_GetItemCount(id) > 0 then
             tinsert(have, id)
         end
     end
@@ -931,10 +940,10 @@ end
 
 function WoWPro.SelectItemToUse(use, debug)
     if not use:find("^", 1, true)  then
-        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, _G.GetItemInfo(use) or "NIL")
-        return _G.GetItemInfo(use), use
+        WoWPro:dbp("SelectItemToUse(%q): single, %q", use, WoWPro.C_Item_GetItemInfo(use) or "NIL")
+        return WoWPro.C_Item_GetItemInfo(use), use
     end
-    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
+    local value = QidMapReduce(use,false,"^","|",function (item) return (_G.WoWPro.C_Item_GetItemCount(item) > 0) and item end, "SelectItemToUse", debug or quids_debug)
     WoWPro:dbp("SelectItemToUse(%q): Value=%s", use, tostring(value))
     return value, value
 end
@@ -1133,12 +1142,7 @@ if step then
         _G.QuestMapUpdateAllQuests()
         _G.QuestPOIUpdateIcons()
     end
-    local _, x
-    -- TODO: Is this needed at all?
-    if QID and WoWPro.RETAIL then
-        _, x = _G.QuestPOIGetIconInfo(QID)
-    end
-    if coord or x then
+    if coord then
         tinsert(dropdown,
             {text = "Map Coordinates", func = function()
                 WoWPro:RemoveMapPoint()
@@ -1304,9 +1308,9 @@ if step then
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
-        if action == "*" and use and _G.GetItemInfo(use) then
+        if action == "*" and use and WoWPro.C_Item_GetItemInfo then
             currentRow.itembutton:Show()
-            currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
+            currentRow.itemicon:SetTexture(WoWPro.C_Item_GetItemIconByID(use))
             currentRow.itembutton:SetAttribute("type1", "click1")
             currentRow.itembutton:SetAttribute("click", "clickbutton")
             currentRow.itembutton:SetScript("OnClick", function ()
@@ -1342,19 +1346,19 @@ if step then
             currentRow.itembutton:SetAttribute("type1", "item")
             currentRow.itembutton:SetAttribute("item1", "item:".._use)
 			currentRow.itembutton:SetScript("OnUpdate", function()
-				local itemtexture = _G.GetItemIcon(_use)
+				local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
 				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
 				if not start then
 					WoWPro:Warning("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
 				end
-				if _G.GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
+				if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true
 					currentRow.itemicon:SetTexture(itemtexture)
 					currentRow.itemicon.currentTexture = itemtexture
-				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
+				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.WoWPro.C_Item_GetItemCount(_use) > 0 and currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon:SetTexture(itemtexture)
 					currentRow.itemicon.currentTexture = itemtexture
-				elseif _G.GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
+				elseif _G.WoWPro.C_Item_GetItemCount(_use) == 0 and  currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = false
 					currentRow.itemicon:SetTexture()
 					currentRow.itemicon.currentTexture = nil
@@ -1666,9 +1670,9 @@ function WoWPro.UpdateGuideReal(From)
                         WoWPro.rows[i]:SetChecked(nil)
                         if WoWPro.Recorder then
                             WoWPro:RowLeftClick(i)
-                            _G.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
                         else
-                            _G.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
                         end
                     end
                 end)
@@ -1833,7 +1837,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if stepAction == "*" then
                 if WoWPro.use and WoWPro.use[guideIndex] then
                         skip = false -- If the trash step has a use item and it's in the bag, it's NOT skipped --
-                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
+                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         WoWPro.why[guideIndex] = "NextStep(): Trash steps with an item to use that is present is not skipped."
                     else
                         skip = true -- No item, skip!
@@ -1849,7 +1853,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 WoWPro.why[guideIndex] = "NextStep(): Optional steps default to skipped."
                 -- Checking Use Items --
                 if WoWPro.use and WoWPro.use[guideIndex] then
-                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
+                    if _G.WoWPro.C_Item_GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
                         WoWPro.why[guideIndex] = "NextStep(): Optional steps with an item to use that is present is not skipped."
                     end
@@ -2554,12 +2558,17 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     earnedValue = reputationInfo.standing - reputationInfo.nextThreshold
                     WoWPro:dbp("NPC %s is a %s: standing %d, earned %d", reputationInfo.name, friendTextLevel, standingId, earnedValue)
                 else
-                    local name, bottomValue, _
-                    name, _, standingId, bottomValue, _, earnedValue, _, _, _, _, _, _, _, _, hasBonusRepGain = _G.GetFactionInfoByID(factionIndex)
-                    if not name then
+                    local factionInfo = WoWPro.C_Reputation_GetFactionDataByID(factionIndex)
+                    if not factionInfo then
                         WoWPro:Error("Bad Faction number in %q", WoWPro.rep[guideIndex])
                         break
                     end
+                    local name = factionInfo.name
+                    local bottomValue = factionInfo.currentReactionThreshold
+                    earnedValue = factionInfo.nextReactionThreshold
+                    standingId = factionInfo.reaction
+                    hasBonusRepGain = factionInfo.hasBonusRepGain
+
                     WoWPro:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s", name, standingId, earnedValue, bottomValue, tostring(hasBonusRepGain))
                     earnedValue = earnedValue - bottomValue
                 end
@@ -2996,10 +3005,15 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skipping spells if known.
             -- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
             -- This tests for Spells you can put on a button, essentially.
+            local spellName
+            local spellKnown
             if WoWPro.spell and WoWPro.spell[guideIndex] then
                 local _, spellID, spellFlip = (";"):split(WoWPro.spell[guideIndex])
-                local spellName = _G.GetSpellInfo(tonumber(spellID))
-                local spellKnown = _G.GetSpellInfo(spellName)
+                local spellInfo = WoWPro.C_Spell_GetSpellInfo(tonumber(spellID))
+                if spellInfo then
+                    spellName = spellInfo.name
+                end
+                spellKnown = _G.IsPlayerSpell(spellID)
                 -- Testing if RUNE tag valid (Rune spells use different API than regular spells)
                 if WoWPro.rune and WoWPro.rune[guideIndex] and WoWPro.CLASSIC and _G.C_Seasons then
                     local seasonrealm = _G.C_Seasons.HasActiveSeason()
@@ -3024,7 +3038,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if spellFlip then spellKnown = not spellKnown end
                 WoWPro:dbp("Checking spell step %s [%s] for %s: Nomen %s, Known %s",stepAction,step,WoWPro.spell[guideIndex],tostring(spellName),tostring(spellKnown))
                 if spellKnown then
-                    local why = ("Skipping because spell [%s] is known=%s"):format(spellName, tostring(not not spellKnown))
+                    local why = ("Skipping because spell [%s] is known=%s"):format(tostring(spellName), tostring(not not spellKnown))
                     WoWPro.CompleteStep(guideIndex, why)
                     skip = true
                     WoWPro:dbp(why)
@@ -3047,15 +3061,19 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.fly and WoWPro.fly[guideIndex] and WoWPro.Client >= 3 then
                 if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
-                    local spellName
-                    local spellKnown
+                    local spellInfo
                     local canFly
+                    local mSkill
+                    local eSkill
                     local flyFlip = false
                     if (expansion:sub(1, 1) == "-") then
                         expansion = expansion:sub(2)
                         flyFlip = true
                     end
-					local eSkill = _G.GetSpellInfo(34090)
+                    spellInfo = WoWPro.C_Spell_GetSpellInfo(34090)
+                    if spellInfo then
+                        eSkill = spellInfo.name
+                    end
 					if WoWPro.WRATH then
 						if WoWProCharDB.Tradeskills[762] and WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
 							canFly = true
@@ -3064,24 +3082,36 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 							spellKnown = true
 							spellName = "Flying"
 						elseif expansion == "WOTLK" and canFly then
-							spellName = _G.GetSpellInfo(54197)
-							spellKnown = _G.GetSpellInfo(spellName)
+                            spellInfo = WoWPro.C_Spell_GetSpellInfo(54197)
+                            if spellInfo then
+                                spellName = spellInfo
+                            end
+							spellKnown = _G.IsPlayerSpell(54197)
 						end
 					else
-						local mSkill = _G.GetSpellInfo(90265)
-						if _G.GetSpellInfo(eSkill) then
+                        spellInfo = WoWPro.C_Spell_GetSpellInfo(90265)
+                        if spellInfo then
+						    mSkill = spellInfo.name
+                        end
+						if _G.IsPlayerSpell(34090) then
 							canFly = true
 							spellName = eSkill
-						elseif _G.GetSpellInfo(mSkill) then
+						elseif _G.IsPlayerSpell(90265) then
 							canFly = true
 							spellName = mSkill
 						end
 
 						if expansion == "SHADOWLANDS" and canFly then
-							spellName = _G.GetSpellInfo(352177)
+                            spellInfo = WoWPro.C_Spell_GetSpellInfo(352177)
+                            if spellInfo then
+                                spellName = spellInfo.name
+                            end
 							spellKnown = _G.C_QuestLog.IsQuestFlaggedCompleted(63893)
 						elseif expansion == "SHADOWLANDS9.2" and canFly then
-							spellName = _G.GetSpellInfo(366736)
+                            spellInfo = WoWPro.C_Spell_GetSpellInfo(366736)
+							if spellInfo then
+                                spellName = spellInfo.name
+                            end
 							spellKnown = _G.C_QuestLog.IsQuestFlaggedCompleted(65539)
 						elseif expansion == "BFA" and canFly then
 							spellKnown = true
@@ -3253,7 +3283,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Do we have enough loot in bags?
             if (WoWPro.lootitem and WoWPro.lootitem[guideIndex]) then
                 WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s, qty %d",stepAction,step,tostring(QID),guideIndex, WoWPro.lootitem[guideIndex], WoWPro.lootqty[guideIndex])
-                if WoWPro.lootqty[guideIndex] > 0 and _G.GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
+                if WoWPro.lootqty[guideIndex] > 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) >= WoWPro.lootqty[guideIndex] then
                     if stepAction == "T" then
                         -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
                         WoWPro.why[guideIndex] = "NextStep(): enough loot to turn in quest."
@@ -3266,7 +3296,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                         skip = true
                     end
-                elseif WoWPro.lootqty[guideIndex] < 0 and _G.GetItemCount(WoWPro.lootitem[guideIndex]) < -WoWPro.lootqty[guideIndex] then
+                elseif WoWPro.lootqty[guideIndex] < 0 and _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[guideIndex]) < -WoWPro.lootqty[guideIndex] then
                     if rowIndex == 1 then
                         -- Only complete the current step, the loot might go away!
                         WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you have consumed the loot in bags.")
@@ -3284,7 +3314,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             else
                 -- Special for Buy steps where the step name is the item to buy and no |L| specified
                 if stepAction == "B" then
-                    if _G.GetItemCount(step) > 0 then
+                    if _G.WoWPro.C_Item_GetItemCount(step) > 0 then
                         WoWPro.CompleteStep(guideIndex, "NextStep(): completed cause you bought enough named loot.")
                         skip = true
                     end
@@ -3724,18 +3754,19 @@ function WoWPro.ProcessScenarioCriteria(punt)
     ScenarioSerial = ScenarioSerial + 1
     WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
-        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, _, isWeightedProgress = _G.C_Scenario.GetCriteriaInfo(criteriaIndex);
-        if (criteriaString) then
+        local criteriaInfo = WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex);
+
+        if (criteriaInfo and criteriaInfo.description) then
             WoWPro.Scenario.Criteria[criteriaIndex] = WoWPro.Scenario.Criteria[criteriaIndex] or {}
-            WoWPro.Scenario.Criteria[criteriaIndex].criteriaString = criteriaString
-            WoWPro.Scenario.Criteria[criteriaIndex].completed = completed
-            WoWPro.Scenario.Criteria[criteriaIndex].quantity = quantity
-            WoWPro.Scenario.Criteria[criteriaIndex].totalQuantity = totalQuantity
-            WoWPro.Scenario.Criteria[criteriaIndex].quantityString = quantityString
-            WoWPro.Scenario.Criteria[criteriaIndex].criteriaID = criteriaID
-            WoWPro:print("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, quantityString=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = C_Scenario.GetCriteriaInfo(%d)",
-                         criteriaString, tostring(criteriaType), tostring(completed), tostring(quantity), tostring(totalQuantity), tostring(flags), tostring(assetID),
-                         quantityString, tostring(criteriaID), tostring(duration), tostring(elapsed), tostring(isWeightedProgress), criteriaIndex)
+            WoWPro.Scenario.Criteria[criteriaIndex].criteriaString = criteriaInfo.description
+            WoWPro.Scenario.Criteria[criteriaIndex].completed = criteriaInfo.completed
+            WoWPro.Scenario.Criteria[criteriaIndex].quantity = criteriaInfo.quantity
+            WoWPro.Scenario.Criteria[criteriaIndex].totalQuantity = criteriaInfo.totalQuantity
+            WoWPro.Scenario.Criteria[criteriaIndex].criteriaID = criteriaInfo.criteriaID
+            WoWPro:print("criteriaString=%s, criteriaType=%s, completed=%s, quantity=%s, totalQuantity=%s, flags=%s, assetID=%s, criteriaID=%s, duration=%s, elapsed=%s, isWeightedProgress=%s = WoWPro.C_ScenarioInfo_GetCriteriaInfo(%d)",
+                         criteriaInfo.description, tostring( criteriaInfo.criteriaType), tostring( criteriaInfo.completed), tostring( criteriaInfo.quantity),
+                         tostring( criteriaInfo.totalQuantity), tostring( criteriaInfo.flags), tostring( criteriaInfo.assetID),tostring(criteriaInfo.criteriaID),
+                         tostring(criteriaInfo.duration), tostring(criteriaInfo.elapsed), tostring(criteriaInfo.isWeightedProgress), criteriaIndex)
         end
     end
     if not punt then

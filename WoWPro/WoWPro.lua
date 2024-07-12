@@ -946,8 +946,8 @@ end
 function WoWPro.ShowGuideMenu()
     WoWPro.BuildGuideInMenuList()
     local menuFrame = _G.CreateFrame("Frame", "WoWPro_Guides", _G.UIParent, "UIDropDownMenuTemplate")
-    menuFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
-    _G.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
+    menuFrame:SetPoint("Center", _G.UIParent, "Center")
+    WoWPro.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
 end
 
 function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
@@ -964,7 +964,11 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     -- Set a default release, if not specified
     if not release then
-            release = 10
+        if  WoWPro.RETAIL then
+            release = WoWPro.Client
+        else
+            release = WoWPro.RETAIL_RELEASE
+        end
     end
 
     local guide = {
@@ -1455,7 +1459,11 @@ function WoWPro:ResolveIcon(guide)
         return
     end
     if guide['spell'] then
-        local _, _, icon = _G.GetSpellInfo(guide.spell)
+        local icon
+        local spellInfo = WoWPro.C_Spell_GetSpellInfo(guide.spell)
+        if spellInfo then
+            icon = spellInfo.iconID
+        end
         guide.icon = icon
         return
     end
@@ -1652,7 +1660,6 @@ WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 11
 WoWPro.WAR_WITHIN = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 120000))
 WoWPro.RETAIL_RELEASE = 10
 WoWPro.RETAIL = (WoWPro.TocVersion >= WoWPro.RETAIL_RELEASE * 10000)
-
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false
