@@ -309,7 +309,8 @@ if not WoWPro.RETAIL then
     WoWPro.ProfessionLocalNames = {}
 	WoWPro.ProfessionLocalNames["Riding"] = "Riding"
     for profName, spellID in pairs(WoWPro.ProfessionSpellIDs) do
-        local localName = _G.GetSpellInfo(spellID)
+        local spellInfo = WoWPro.C_Spell_GetSpellInfo(spellID)
+        local localName = spellInfo.name
         if localName ~= nil then
             WoWPro.ProfessionLocalNames[localName] = profName
         end

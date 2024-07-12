@@ -204,3 +204,137 @@ function WoWPro.GetItemCooldown(itemID)
         return unpack({_G.C_Container.GetItemCooldown(itemID)})
     end
 end
+
+--[[C_Reputation.GetFactionDataByID]]
+function WoWPro.C_Reputation_GetFactionDataByID(factionID)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Reputation.GetFactionDataByID(factionID)
+    else
+        local name, description, standingID, barMin, barMax, barValue , atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, _ , hasBonusRepGain, canSetInactive = _G.GetFactionInfoByID(factionID)
+        if not name then
+            return nil
+        else
+            return {
+                hasBonusRepGain = hasBonusRepGain,
+                description = description,
+                isHeaderWithRep = hasRep,
+                isHeader = isHeader,
+                currentReactionThreshold = barMin,
+                canSetInactive = canSetInactive,
+                atWarWith = atWarWith,
+                isWatched = isWatched,
+                isCollapsed = isCollapsed,
+                canToggleAtWar = canToggleAtWar,
+                nextReactionThreshold = barMax,
+                factionID = factionID,
+                name = name,
+                currentStanding = barValue,
+                --isAccountWide,
+                isChild = isChild,
+                reaction = standingID
+            }
+        end
+    end
+end
+
+--[[C_Spell.GetSpellInfo]]
+function WoWPro.C_Spell_GetSpellInfo(spellID)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Spell.GetSpellInfo(spellID)
+    else
+        local name, _, icon, castTime, minRange, maxRange, _, originalIcon = _G.GetSpellInfo(spellID)
+        return{
+           castTime = castTime,
+           name = name,
+           minRange = minRange,
+           originalIconID = originalIcon,
+           iconID = icon,
+           maxRange = maxRange,
+           spellID = spellID
+        }
+    end
+end
+
+--[[C_ScenarioInfo.GetCriteriaInfo]]
+function WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_ScenarioInfo.GetCriteriaInfo(criteriaIndex)
+    else
+        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, _, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = _G.C_Scenario.GetCriteriaInfo(criteriaIndex);
+
+        return{
+           criteriaID = criteriaID,
+           description = criteriaString,
+           elapsed = elapsed,
+           duration = duration,
+           isWeightedProgress = isWeightedProgress,
+           completed = completed,
+           quantity = quantity,
+           -- isFormatted
+           failed =- criteriaFailed,
+           assetID = assetID,
+           flags = flags,
+           criteriaType = criteriaType,
+           totalQuantity = totalQuantity
+        }
+    end
+end
+
+--[[C_Spell.GetSpellLink]]
+function WoWPro.C_Spell_GetSpellLink(spellID)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Spell.GetSpellLink(spellID)
+    else
+        return _G.GetSpellLink(spellID)
+    end
+end
+
+--[[C_Item.GetItemInfo]]
+function WoWPro.C_Item_GetItemInfo(itemID)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Item.GetItemInfo(itemID)
+    else
+        return _G.GetItemInfo(itemID)
+    end
+end
+
+--[[C_Item.GetItemCount]]
+function WoWPro.C_Item_GetItemCount(itemID, includeBank)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Item.GetItemCount(itemID, includeBank)
+    else
+        return _G.GetItemCount(itemID, includeBank)
+    end
+end
+
+function WoWPro.C_Item_GetItemIconByID(itemID)
+    if WoWPro.WAR_WITHIN then
+        return _G.C_Item.GetItemIconByID(itemID)
+    else
+        return _G.GetItemIcon(itemID)
+    end
+end
+
+
+-- [[EasyMenu]]
+local function EasyMenu_Initialize( frame, level, menuList )
+	for index = 1, #menuList do
+		local value = menuList[index]
+		if (value.text) then
+			value.index = index;
+			_G.UIDropDownMenu_AddButton( value, level );
+		end
+	end
+end
+
+function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+    if WoWPro.WAR_WITHIN then
+        if ( displayMode == "MENU" ) then
+            menuFrame.displayMode = displayMode;
+        end
+        _G.UIDropDownMenu_Initialize(menuFrame, EasyMenu_Initialize, displayMode, nil, menuList);
+        _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay);
+    else
+        _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+    end
+end
