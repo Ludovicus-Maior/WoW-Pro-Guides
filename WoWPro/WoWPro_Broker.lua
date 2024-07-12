@@ -2563,6 +2563,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro:Error("Bad Faction number in %q", WoWPro.rep[guideIndex])
                         break
                     end
+                    -- --
+                    
                     local name = factionInfo.name
                     local bottomValue = factionInfo.currentReactionThreshold
                     earnedValue = factionInfo.nextReactionThreshold
