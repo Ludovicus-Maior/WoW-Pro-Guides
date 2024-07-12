@@ -1,3 +1,17 @@
+# Release 2024.07.12.A
+## Bug Fixes
+* Updated Vanilla Interface to 11503
+* Prep work for adding in "The War Within" support
+* Localization support (DE, FR, RU, KR, ES, PT, IT )
+* Forced guide update after taxi map is opened
+* Opps, forgot Cata support in Professions!
+* Numerous UI tweaks
+## Known *deficiencies*
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Well, over 600 guides were moved improved or added in preparation for TWW.  I'm not listing them!
+
+
 # Release 2024.05.08.A
 ## Bug Fixes
 * Updated to ACE Release-r1341
