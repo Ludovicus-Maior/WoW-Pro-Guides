@@ -110,7 +110,7 @@ function WoWPro.CreateGuideList()
     local versionInfo = {
         CLASSIC = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -45}, tabPoint = {13, -1},  scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, 10}},
         CATA = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -50}, tabPoint = {13, 2}, scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, -40}},
-        WAR_WITHIN = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, -60}, tabPoint = {80, 20}, scrollBoxPoint = {"TOPLEFT", 5, -150, "BOTTOMRIGHT", -30, 10}},
+        WAR_WITHIN = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, 10}, tabPoint = {80, 1}, scrollBoxPoint = {"TOPLEFT", 5, -100, "BOTTOMRIGHT", -30, 10}},
         default = {size = {650, 600}, titlePoint = {0, -10}, subtitlePoint = {0, 10}, tabPoint = {80, 1}, scrollBoxPoint = {"TOPLEFT", 5, -100, "BOTTOMRIGHT", -30, 10}}
     }
 
