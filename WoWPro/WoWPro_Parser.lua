@@ -373,7 +373,7 @@ DefineTag("MS",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
 DefineTag("N","note","string",nil,nil)
 DefineTag("R","playerrace","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
-DefineTag("TOF",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
+DefineTag("TOF",nil,"boolean",nil,function (value,i) end)  -- Swallow TOF Tags
 
 
 local function addTagValue(line, tag, value)
@@ -597,6 +597,14 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	if WoWPro.zone[i] then
 		WoWPro.zone[i] = select(1, (";"):split(WoWPro.zone[i]))
 	end
+    if WoWPro.chromie and WoWPro.chromie[i] then
+        if WoWPro.WAR_WITHIN then
+            WoWPro.level[i] = -70
+        else
+            -- WoWPro.DRAGONFLIGHT
+            WoWPro.level[i] = -60
+        end
+    end
     WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
     if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
         WoWPro:Error("Step %s [%s] has a bad ¦Z¦%s¦ tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
