@@ -4,7 +4,7 @@ WoWPro:GuideSort(guide, 22)
 WoWPro:GuideNextGuide(guide, 'Winterspring')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|
 N Note|AVAILABLE|28100|Z|77; Felwood|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|
 ;F Emerald Sanctuary|QID|28100|TAXI|Emerald Sanctuary|
 R Emerald Sanctuary|AVAILABLE|27997|M|51.41,79.79|Z|77; Felwood|N|Run to Emerald Sanctuary.|

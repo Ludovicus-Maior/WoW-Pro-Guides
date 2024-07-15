@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Human: Intro")
 WoWPro:GuideNextGuide(guide, 'Westfall')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|-60|S!US|CT|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|S!US|CT|
 A Beating Them Back!|QID|28762|M|33.55,53.00|Z|425;Northshire|N|From Marshal McBride.|R|Human|C|Paladin|
 A Beating Them Back!|QID|28766|M|33.55,53.00|Z|425;Northshire|N|From Marshal McBride.|R|Human|C|Warrior|
 A Beating Them Back!|QID|28767|M|33.55,53.00|Z|425;Northshire|N|From Marshal McBride.|R|Human|C|Hunter|

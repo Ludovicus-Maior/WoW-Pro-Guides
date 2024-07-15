@@ -5,8 +5,8 @@ WoWPro:GuideNickname(guide, "Cataclysm: Guide Hub")
 WoWPro:GuideName(guide,"Cataclysm: Guide Hub")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
-A Cataclysm: Onward to Adventure in the Eastern Kingdoms|QID|60891|M|56.26,17.31|N|From Chromie after activating The Cataclysm timeline.|LVL|-60|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|
+A Cataclysm: Onward to Adventure in the Eastern Kingdoms|QID|60891|M|56.26,17.31|N|From Chromie after activating The Cataclysm timeline.|CT|
 C Cataclysm: Onward to Adventure in the Eastern Kingdoms|QID|60891|M|62.25,29.93|N|Make your way to the nearest Hero's Call Board. Click on the Board to complete the quest.|NC|
 T Cataclysm: Onward to Adventure in the Eastern Kingdoms|QID|60891|M|62.65,30.91|N|To Chromie right by you.|
 

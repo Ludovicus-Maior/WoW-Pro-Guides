@@ -6,7 +6,7 @@ WoWPro:GuideName(guide,"Draenei: Intro")
 WoWPro:GuideNextGuide(guide, 'Bloodmyst Isle')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|LVL|-60|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide by skipping this and continuing to darkshore, or you click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide by skipping this and continuing to darkshore, or you click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|
 R Note:|M|79.00,58.00;73.70,53.43;54.17,36.47|CC|Z|103; The Exodar|N|If you have not been here before, I would recommend getting the flight point. Just follow the waypoints to the flight master.|R|-Draenei|
 f The Exodar|M|54.22,36.55|Z|103; The Exodar|N|At Stephanos.|R|-Draenei|
 A You Survived!|QID|9279|LEAD|9280|M|61.16,29.49|Z|468; Ammen Vale|N|From Megelon right in front of you.|R|Draenei|

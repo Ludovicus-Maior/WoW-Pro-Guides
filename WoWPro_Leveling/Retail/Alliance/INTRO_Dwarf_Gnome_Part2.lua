@@ -7,7 +7,7 @@ WoWPro:GuideName(guide,"Dwarf & Gnome: Intro (Part 2)")
 WoWPro:GuideNextGuide(guide, 'Loch Modan')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|LVL|-60|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
 A Beer Basted Boar Ribs|QID|384|M|53.89,50.79|Z|27;Dun Morogh|N|From Ragnar Thunderbrew. Kill any boars you see from now on for Tender Boar Meat.|
 T Bound for Kharanos|QID|26380|M|54.47,50.81|Z|27;Dun Morogh|N|To Innkeeper Belm.|R|Gnome|
 h Thunderbrew Distillery|ACTIVE|384|M|54.47,50.81|Z|27;Dun Morogh|N|Make Thunderbrew Distillery your new home at Innkeeper Belm.|
