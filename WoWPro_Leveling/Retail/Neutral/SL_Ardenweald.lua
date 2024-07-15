@@ -35,7 +35,7 @@ return [[
 ; K Gormbore|M|53.86,75.82|Z|Ardenweald!The Shadowlands|T|Gormbore|N|WH - Nothing required to summon, but hard to locate due to multiple worlds quests.|ITEM|183196|RARE|ACH|14309;18|
 
 ; TOF
-A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|LVL|-60|
+A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|LVL|-70|
 T Ardenweald|QID|62277|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Restoring Balance|QID|62739^63036|PRE|62277|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62739^63036|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
@@ -152,7 +152,7 @@ C Tending to Wildseeds|QID|60563|M|65.57,43.33|Z|Ardenweald!The Shadowlands|QO|2
 C Shooing Wildlife|QID|60567|M|62.78,40.27|Z|Ardenweald!The Shadowlands|N|Anima-starved wildlife slain.|US|MS|
 T Shooing Wildlife|QID|60567|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 T Tending to Wildseeds|QID|60563|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
-A Tranquil Pools|QID|62774|M|62.21,37.57|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
+A Tranquil Pools|QID|62774|M|62.21,37.57|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-70|
 A Belly Full of Fae|QID|60575|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60563&60567|MS|
 A Hungry for Animacones|QID|60577|M|61.41,41.02|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60563&60567|MS|
 C Tranquil Pools|QID|62774|M|64.46,39.67|Z|Ardenweald!The Shadowlands|S!US|N|Kill Hostiles, pick up animacones and wildling seeds, also you can use the provided dagger on the hydras' corpse to free some faeries.|U|179921|TOF|
@@ -402,7 +402,7 @@ C Nightmares Manifest|QID|60520|M|49.55,51.28|Z|Tirna Vaal|QO|2|NC|N|Click the W
 T Nightmares Manifest|QID|60520|M|50.02,48.76|Z|Tirna Vaal|N|To Dreamweaver.|MS|
 
 R Heartwood Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Head south towards Heartwood Grove and the Bonus Objective there.|TOF|RANK|2|
-A The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
+A The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-70|
 C The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Preserve Heartwood Grove by fighting the Hostiles and evacuating the survivers and picking up drained wildseeds.|TOF|
 T The Waning Grove|QID|62775|M|66.81,26.54|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|TOF|
 
@@ -424,7 +424,7 @@ C Toppling the Brute|QID|60856|M|66.03,49.71|Z|Ardenweald!The Shadowlands|N|Slay
 C Wild Hunt Offensive|QID|60840|M|63.10,46.06|Z|Ardenweald!The Shadowlands|US|N|Finish up defending Soryn's Meadow.|
 T Toppling the Brute|QID|60856|M|64.27,49.93|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 T Wild Hunt Offensive|QID|60840|M|64.90,47.51|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted.|
-A Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
+A Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-70|
 C Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Kill Hostiles, destroy totems and click on the green memories. If you are less than halfway thru 57, you need to stay and finish this, otherwise, as you choose.|EAB|
 T Dreamshrine Basin|QID|62773|M|60.83,47.58|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autocompleted. |
 A Ride of the Wild Hunt|QID|60881|M|64.27,49.93|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60856|MS|
@@ -443,7 +443,7 @@ T Infusing the Wildseed|QID|60905|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|T
 
 ; The Fallen w Storyline
 R Tirna Noch|AVAILABLE|62720|M|66.43,55.80|Z|Ardenweald!The Shadowlands|N|Take the road east out of Hibernal Holllow to find Tirna Noch.|TOF|RANK|2|
-A The Fallen Tree|QID|62720|M|66.43,55.80|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
+A The Fallen Tree|QID|62720|M|66.43,55.80|Z|Ardenweald!The Shadowlands|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-70|
 C The Fallen Tree|QID|62720|M|70.10,57.17|Z|Ardenweald!The Shadowlands|N|Reclaim Tirna Noch by freeing captives, reclaiming mementos, destroying drust runes and of course killing the hostiles.|TOF|
 
 A Echoes of Tirna Noch|QID|58473|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60905|MS|

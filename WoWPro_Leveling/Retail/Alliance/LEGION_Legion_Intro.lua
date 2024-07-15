@@ -7,7 +7,7 @@ WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideQuestTriggers(guide, 40519)
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-70|CT|
 A The Legion Returns|QID|40519|N|If you are below level 60 you get this quest from Chromie after activating Legion timeline. If you are above level 60 you get this quest from the heros call board.|
 T The Legion Returns|QID|40519|M|37.10,43.16|Z|84;Stormwind City|N|To Recruiter Lee.|
 A To Be Prepared|QID|42782|M|37.10,43.16|Z|84;Stormwind City|N|From Recruiter Lee.|PRE|40519|

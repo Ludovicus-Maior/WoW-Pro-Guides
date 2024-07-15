@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Dragonflight Intro', 'Leveling', 'The Waking Shores', 'WowPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide,"Dragonflight Intro")
-WoWPro:GuideLevels(guide,60, 60, 60)
+WoWPro:GuideLevels(guide,10, 70)
 WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
 WoWPro:GuideQuestTriggers(guide, 65435, 65436, 70197, 70198)
 WoWPro:GuideSteps(guide, function()
@@ -9,6 +9,8 @@ return [[
 
 ;A The Dragon Isles Await|QID|65436|M|PLAYER|N|From UI Alert.|FACTION|Alliance|
 ;A The Dragon Isles Await|QID|65435|M|PLAYER|N|From UI Alert.|FACTION|Horde|
+C The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84; Stormwind City|N|To Wrathion in Stormwind.|FACTION|Alliance|U|205456|
+C The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85; Ogrimmar|N|To Ebyssian in Orgrimmar.|FACTION|Horde|U|205458|
 t The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84; Stormwind City|N|To Wrathion in Stormwind.|FACTION|Alliance|
 t The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85; Ogrimmar|N|To Ebyssian in Orgrimmar.|FACTION|Horde|
 A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|

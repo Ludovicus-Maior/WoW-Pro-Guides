@@ -33,7 +33,7 @@ return [[
 ; K Sinstone Hoarder|M|PLAYER|Z|1525;Revendreth|T|Sinstone Hoarder|N|WH - UNKNOWN|RARE|ACH|14310;24|
 
 ; TOF
-A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|LVL|-60|
+A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|From Tal-Inara.|TOF|LVL|-70|
 t Revendreth|QID|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A Dark Aspirations|QID|62740^63037|PRE|62279|M|38.93,69.97|Z|1670;Ring of Fates@Oribos|N|At Tal-Inara.|TOF|
 P Ring of Transference|ACTIVE|62740^63037|M|52.00,57.94|Z|1670;Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
@@ -238,7 +238,7 @@ C Words Have Power|QID|58272|M|67.74,67.66|Z|1525;Revendreth|S|NC|N|Collect the 
 $ Wayfarer's Abandoned Spoils|QID|59884|CS|M|67.93,64.51;68.45,64.43|Z|1525;Revendreth|N|Walk on the Bounding Shroom to be shot up in the air. Aim yourself to come down on the ledge where the treasure is.|TOF|ACH|14314;12|
 C Words Have Power|QID|58272|M|67.27,66.00|Z|1525;Revendreth|US|NC|N|Finish collecting the pamphlets stuck to the wall in the area.|TOF|
 R The Endmire|ACTIVE|60509|CS|M|67.23,66.63;61.95,68.72;68.02,62.64|Z|1525;Revendreth|N|Follow the road down to the swampy area known as The Endmire.|TOF|
-A Parasites of Reality|QID|62780|M|68.02,62.64|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted.|LVL|-60|TOF|RANK|2|
+A Parasites of Reality|QID|62780|M|68.02,62.64|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted.|LVL|-70|TOF|RANK|2|
 C Parasites of Reality|QID|62780|M|68.02,62.64|S|Z|1525;Revendreth|N|Kill Hostiles, interact with non-hostiles.|TOF|
 A The Endmire|QID|60480|M|65.11,63.53|Z|1525;Revendreth|N|From Tessle the Snitch.|TOF|RANK|2|
 C The Endmire|QID|60480|M|65.11,63.53|Z|1525;Revendreth|S|NC|N|Pick up the rubies as you are doing the other things.|TOF|
@@ -378,7 +378,7 @@ A The Penitent Hunt|QID|57136|M|47.89,70.09|Z|1525;Revendreth|N|From The Fearsta
 A Devour This|QID|57164|M|47.89,70.09|Z|1525;Revendreth|N|From The Fearstalker.|LVL|58|PRE|57131|MS|
 C The Penitent Hunt|QID|57136|M|47.89,70.09|Z|1525;Revendreth|QO|1|CHAT|N|Speak to the Fearstalker.|MS|
 A Hunting Trophies|QID|60514|M|48.50,68.44|Z|1525;Revendreth|N|From Huntmaster Constantin.|RANK|2|
-A The Banewood|QID|62782|M|50.15,70.35|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-60|
+A The Banewood|QID|62782|M|50.15,70.35|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted.|TOF|RANK|2|LVL|-70|
 C The Banewood|QID|62782|M|50.15,70.35|Z|1525;Revendreth|S!US|N|Kill Hostiles, interact with highlighted items.|TOF|
 C Hunting Trophies|QID|60514|M|48.50,68.44|Z|1525;Revendreth|S|N|Kill the Fearspinners, Deathwalkers and a Hulking Doomfang.|
 C Devour This|QID|57164|M|42.8,68.2|Z|1525;Revendreth|N|Kill Mites, Worldeaters and Thirstlurkers around.|S|MS|
@@ -411,8 +411,8 @@ C Beast Control|QID|58936|M|49.64,75.98|Z|1525;Revendreth|US|N|Kill bats in the 
 T Beast Control|QID|58936|M|51.25,74.28|Z|1525;Revendreth|N|To Flockmaster Sergio.|
 T Abel's Fate|QID|58996|M|48.50,68.42|Z|1525;Revendreth|N|To Huntmaster Constantin.|
 T Dredhollow|QID|60313|M|43.22,73.91|Z|1525;Revendreth|N|To The Accuser.|MS|
-A Forgotten Village|QID|59211|M|40.26,74.21|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted when entering Dredhollow.|RANK|2|LVL|-60|ACTIVE|-62778|
-A Stalking Fear|QID|62783|M|40.26,74.21|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted when entering Dredhollow.|RANK|2|LVL|-60|TOF|
+A Forgotten Village|QID|59211|M|40.26,74.21|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted when entering Dredhollow.|RANK|2|LVL|-70|ACTIVE|-62778|
+A Stalking Fear|QID|62783|M|40.26,74.21|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted when entering Dredhollow.|RANK|2|LVL|-70|TOF|
 A Breaking the Hopebreakers|QID|57189|M|43.20,73.84|Z|1525;Revendreth|N|From The Accuser.|LVL|58|PRE|60313|MS|
 A They Won't Know What Hit Them|QID|57190|M|43.20,73.85|Z|1525;Revendreth|N|From The Accuser.|LVL|58|PRE|60313|MS|
 A Rebel Reinforcements|QID|59209|M|43.32,74.10|Z|1525;Revendreth|N|From General Draven.|LVL|58|PRE|60313|MS|
@@ -644,7 +644,7 @@ T Choosing Your Purpose|QID|62000^57878|M|38.88,70.02|Z|1670;Ring of Fates@Oribo
 F Darkhaven|QID|58093|N|Fly back to Darkhaven if you wish to complete the final side story quests for achievement.|MS|RANK|2|
 T WANTED: The Pale Doom|QID|60279|M|61.95,63.97|Z|1525;Revendreth|N|To Taskmaster Gavril.|;may need to be MS and have TOF turn in elsewhere in guide?
 R Halls of Atonement South|QID|58093|M|70.13,57.91|Z|1525;Revendreth|N|Run to the South Elevator of Halls of Atonement.|RANK|2|
-;A Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted.|RANK|2|TOF|LVL|-60|;commented out because we leave the area, and come back.
+;A Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|1525;Revendreth|N|Bonus Objective - Autoaccepted.|RANK|2|TOF|LVL|-70|;commented out because we leave the area, and come back.
 C Charlatans of Ceremony|QID|62784|M|70.13,57.91|Z|1525;Revendreth|S!US|N|Kill the depraved mobs and otherwise clean up the depravity.|TOF|
 A Our Forgotten Purpose|QID|58093|M|72.99,51.99|Z|1525;Revendreth|N|From Archivist Fane.|RANK|2|LEAD|57919|
 f Absolution Crypt|ACTIVE|58093|M|71.58,40.07|N|At Courier Rehkaash.|

@@ -4,7 +4,7 @@ WoWPro:GuideSort(guide, 55)
 WoWPro:GuideNextGuide(guide, 'Arathi Highlands')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-70|CT|
 A Checking on the Boys|QID|26137|LEAD|25395|M|25.45,17.97|Z|48; Loch Modan|N|From Mountaineer Stormpike.|
 T Checking on the Boys|QID|26137|M|49.96,79.24|Z|56; Wetlands|N|To Mountaineer Rharen.|
 T Hero's Call: Wetlands!|QID|28565|M|49.96,79.24|Z|56; Wetlands|N|To Mountaineer Rharen.|O|
