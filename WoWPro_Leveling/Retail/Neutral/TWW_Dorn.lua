@@ -341,9 +341,9 @@ T Golgrin's Reach|QID|78465|M|61.63,70.15|Z|2248;Isle of Dorn|N|To Dagran Thauri
 A The History Beneath Us|QID|79716|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
 A Charge for a Charge|QID|78467|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
 C The History Beneath Us|QID|79716|M|63.38,71.61|Z|2248;Isle of Dorn|QO|1|NC|N|Shattered Relic Fragments.|S|
-C Charge for a Charge|QID|78467|M|63.12,72.95|Z|2248;Isle of Dorn|QO|1<1|NC|N|Power Cell.| 
-C Charge for a Charge|QID|78467|M|63.71,70.87|Z|2248;Isle of Dorn|QO|1<2|NC|N|Power Cell.| 
-C Charge for a Charge|QID|78467|M|62.66,68.79|Z|2248;Isle of Dorn|QO|1<3|NC|N|Power Cell.| 
+C Charge for a Charge|QID|78467|M|63.12,72.95|Z|2248;Isle of Dorn|QO|1<1|NC|N|Power Cell.|
+C Charge for a Charge|QID|78467|M|63.71,70.87|Z|2248;Isle of Dorn|QO|1<2|NC|N|Power Cell.|
+C Charge for a Charge|QID|78467|M|62.66,68.79|Z|2248;Isle of Dorn|QO|1<3|NC|N|Power Cell.|
 C The History Beneath Us|QID|79716|M|63.38,71.61|Z|2248;Isle of Dorn|QO|1|NC|N|Shattered Relic Fragments.|US|
 T The History Beneath Us|QID|79716|M|61.63,70.15|Z|2248;Isle of Dorn|N|To Dagran Thaurissan II.|
 T Charge for a Charge|QID|78467|M|61.63,70.15|Z|2248;Isle of Dorn|N|To Speaker Brinthe.|
