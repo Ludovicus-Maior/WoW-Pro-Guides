@@ -271,7 +271,7 @@ function WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex)
            completed = completed,
            quantity = quantity,
            -- isFormatted
-           failed =- criteriaFailed,
+           failed = criteriaFailed,
            assetID = assetID,
            flags = flags,
            criteriaType = criteriaType,
