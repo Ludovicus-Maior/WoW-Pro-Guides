@@ -1,3 +1,15 @@
+# Release 2024.07.24.A
+## Bug Fixes
+* Updated Retail Interface to 110000
+* Updated to HereBeDragons 2.14-release
+* Updated to Ace3-r1347-alpha till they provide a -release version
+* Numerous changes to support TWW by **@Furydin** (Thank you very much!)
+## Known *deficiencies*
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* All Retail files prepared for Chromie time change
+* Dailies:  Anglers
+
 # Release 2024.07.12.A
 ## Bug Fixes
 * Updated Vanilla Interface to 11503
