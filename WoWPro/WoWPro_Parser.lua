@@ -598,7 +598,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 		WoWPro.zone[i] = select(1, (";"):split(WoWPro.zone[i]))
 	end
     if WoWPro.chromie and WoWPro.chromie[i] then
-        if WoWPro.WAR_WITHIN then
+        if WoWPro.WAR_WITHIN and (not WoWPro.WAR_WITHIN_PREPATCH) then
             WoWPro.level[i] = -70
         else
             -- WoWPro.DRAGONFLIGHT
