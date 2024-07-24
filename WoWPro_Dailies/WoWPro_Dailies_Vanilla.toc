@@ -4,7 +4,7 @@
 ## Author: Jiyambi
 ## IconTexture: Interface\GossipFrame\DailyQuestIcon
 ## Dependencies: WoWPro
-## Version: 2024.07.12.A
+## Version: 2024.07.24.A
 ## DefaultState: disabled
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
