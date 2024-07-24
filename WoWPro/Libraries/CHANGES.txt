@@ -1,4 +1,10 @@
 ------------------------------------------------------------------------
+r1348 | nevcairiel | 2024-07-23 11:23:40 +0000 (Tue, 23 Jul 2024) | 1 line
+Changed paths:
+   M /trunk/changelog.txt
+
+Update changelog
+------------------------------------------------------------------------
 r1347 | nevcairiel | 2024-07-23 11:23:22 +0000 (Tue, 23 Jul 2024) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
