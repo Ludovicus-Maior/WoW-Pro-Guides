@@ -12,7 +12,12 @@ return [[
 ;2269;Earthcrawl Mines!Dungeon
 
 
-A Violent Impact|QID|78529|PRE|80500|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|
+
+
+
+
+
+A Violent Impact|QID|78529|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|
 C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the rubble.|H|
 T Violent Impact|QID|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
 A Slay the Saboteurs|QID|78530|PRE|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|From Lady Jaina Proudmoore.|
@@ -117,8 +122,8 @@ C Echoes of Compassion|QID|78462|QO|3|M|41.85,72.76|Z|2248;Isle of Dorn|N|Findor
 C Echoes of Compassion|QID|78462|QO|4|M|41.85,72.76|Z|2248;Isle of Dorn|N|Ebona assessed.|CHAT|
 T Echoes of Compassion|QID|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A The Proscenium|QID|78470|PRE|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|From Moira Thaurissan.|
-A Weapons and Warriors|QID|78996|PRE|78461|M|41.70,74.36|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
-C Weapons and Warriors|QID|78996|QO|2|M|43.95,78.82|Z|2248;Isle of Dorn|N|Weapon crates acquired.|S|
+A Weapons and Warriors|QID|78996|PRE|78461|M|42.7,71.7|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
+C Weapons and Warriors|QID|78996|QO|2|M|41.0,73.1;41.6,74.5;43.9,78.8|CN|Z|2248;Isle of Dorn|N|Weapon crates acquired.|S|
 C Weapons and Warriors|QID|78996|QO|1<1|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
 C Weapons and Warriors|QID|78996|QO|1<2|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
 C Weapons and Warriors|QID|78996|QO|1<3|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
@@ -199,7 +204,7 @@ C Wold Memories|QID|78572|QO|5|M|54.37,65.05|Z|2248;Isle of Dorn|N|Freydrin's Sh
 T Wold Memories|QID|78572|M|54.25,65.31|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
 A Keeper's Aid|QID|78573|PRE|78572|M|54.25,65.31|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
 C Keeper's Aid|QID|78573|QO|1|M|52.15,70.60|Z|2248;Isle of Dorn|N|Infected Wildlife cleansed.|U|215158|S|
-C Keeper's Aid|QID|78573|QO|2|M|53.8,65.3;51.7,67.8;54.8,66.9;52.6,69.7|CN|Z|2248;Isle of Dorn|N|Stone Ward destroyed.|H|
+C Keeper's Aid|QID|78573|QO|2|M|53.8,65.3;51.7,67.8;54.8,66.9;52.6,69.7|CS|Z|2248;Isle of Dorn|N|Stone Ward destroyed.|H|
 C Keeper's Aid|QID|78573|QO|1|M|52.15,70.60|Z|2248;Isle of Dorn|N|Infected Wildlife cleansed.|U|215158|US|
 T Keeper's Aid|QID|78573|M|54.21,65.31|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
 A Boss of the Bosk|QID|78574|PRE|78573|M|54.21,65.34|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
@@ -208,12 +213,12 @@ T Boss of the Bosk|QID|78574|M|54.22,65.30|Z|2248;Isle of Dorn|N|To Woldtender I
 T The Proscenium|QID|78470|M|56.55,52.05|Z|2248;Isle of Dorn|N|To Moira Thaurissan.|
 A The Cavalry is Here|QID|79701|PRE|78470|M|56.54,52.06|Z|2248;Isle of Dorn|N|From Baelgrim.|
 A Fire in the Hole|QID|79721|PRE|78470|M|56.64,52.07|Z|2248;Isle of Dorn|N|From Wenbrandt.|
-C Fire in the Hole|QID|79721|QO|1|M|56.64,52.07|Z|2248;Isle of Dorn|N|Cinderbrew Keg picked up.|
+C Fire in the Hole|QID|79721|QO|1|M|56.64,52.07|Z|2248;Isle of Dorn|N|Cinderbrew Keg picked up.|H|
 C Fire in the Hole|QID|79721|QO|2|M|56.73,52.11|Z|2248;Isle of Dorn|N|Cinderbrew thrown into burrow.|EAB|
 C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Nerubian invasion repelled (100%).|S|
 C Fire in the Hole|QID|79721|QO|3|M|57.96,50.53|Z|2248;Isle of Dorn|N|Nerubian burrows collapsed.|S|EAB|
 C The Cavalry is Here|QID|79701|QO|2|M|56.30,50.17|Z|2248;Isle of Dorn|N|Check upon Alleria Windrunner.|NC|
-C Fire in the Hole|QID|79721|QO|3|M|56.79,49.38;58.22,50.50;55.05,49.55|CN|Z|2248;Isle of Dorn|N|Nerubian burrows collapsed.|US|EAB|
+C Fire in the Hole|QID|79721|QO|3|M|56.79,49.38;58.22,50.50;55.05,49.55|CS|Z|2248;Isle of Dorn|N|Nerubian burrows collapsed.|US|EAB|
 C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Nerubian invasion repelled (100%).|US|
 T Fire in the Hole|QID|79721|M|56.45,47.98|Z|2248;Isle of Dorn|N|To Wenbrandt.|
 T The Cavalry is Here|QID|79701|M|56.48,48.04|Z|2248;Isle of Dorn|N|To Baelgrim.|

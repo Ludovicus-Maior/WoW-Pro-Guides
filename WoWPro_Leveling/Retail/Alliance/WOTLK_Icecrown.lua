@@ -245,7 +245,7 @@ T Eliminate the Competition|QID|12955|Z|118; Icecrown|N|To The Leaper in front o
 A The Bone Witch|QID|12999|PRE|12955|Z|118; Icecrown|N|From The Leaper.|
 T Honor Challenge|QID|12939|Z|118; Icecrown|N|To Duke Lankral inside the Shadow Vault.|M|44.66,20.35|
 A Shadow Vault Decree|QID|12943|PRE|12939|Z|118; Icecrown|N|From Duke Lankral.|
-R Enter Urfang's Hall|M|39.04,23.98|CC|
+R Enter Urfang's Hall|ACTIVE|12943|M|39.04,23.98|CC|
 A Get the Key|QID|12949|Z|118; Icecrown|N|Fight your way to the back of Urfang's Hall and get the Quest from Vaelen the Flayed.|M|41.05,23.88|
 C Shadow Vault Decree|QID|12943|U|41776|Z|118; Icecrown|N|Stand right in front of Thane Urfang and use the Decree. He won't be too happy about what it reads, so you'll have to kill him afterwards.|M|40.20,23.80|
 C Get the Key|QID|12949|Z|118; Icecrown|N|Kill Instructor Hroegar, he partrols among the fighters outside.|M|37.00,23.40|
@@ -304,7 +304,7 @@ A Blood in the Water|QID|12810|PRE|12807|Z|118; Icecrown|N|From Lord-Commander A
 A Intelligence Gathering|QID|12838|Z|118; Icecrown|N|From Aurochs Grimbane. This is a daily quest but you'll have to do it to find an item you need.|M|19.80,47.60|
 C Blood in the Water|QID|12810|U|40551|Z|118; Icecrown|N|Sharks are in the water around the island to the west and even in the harbor area. Kill them and use the item on them.|S|
 C Intelligence Gathering|QID|12838|Z|118; Icecrown|N|Kill Scarlets to find keys, use them to open the small boxes lying around.|M|09.00,42.40|
-l Note from the Grand Admiral|QID|12838|L|40666|Z|118; Icecrown|N|Open more boxes, you have to find a Note from the Grand Admiral.|M|09.00,42.40|
+l Note from the Grand Admiral|ACTIVE|12838|L|40666|Z|118; Icecrown|N|Open more boxes, you have to find a Note from the Grand Admiral.|M|09.00,42.40|
 A The Grand (Admiral's) Plan|QID|12839|U|40666|Z|118; Icecrown|N|Read the Grand Admirals Note to accept this quest.|
 C Blood in the Water|QID|12810|U|40551|Z|118; Icecrown|N|Sharks are in the water around the island and even in the harbor area. Kill them and use the item on them.|US|
 T Intelligence Gathering|QID|12838|Z|118; Icecrown|N|To Aurochs Grimbane.|M|19.80,47.60|
@@ -375,8 +375,8 @@ T Death's Gaze|QID|13120|Z|118; Icecrown|N|To Darkrider Arly.|M|35.40,66.40|
 T Destroying the Altars|QID|13119|Z|118; Icecrown|N|To Darkrider Arly.|
 A Spill Their Blood|QID|13134|Z|118; Icecrown|N|From Darkrider Arly.|
 C Spill Their Blood|QID|13134|Z|118; Icecrown|N|Look for the vats of Embalming fluid as well as for Blood Orbs. Destroy them.|S|
-K Spiked Ghouls|QID|13136|L|43242|Z|118; Icecrown|N|Kill Spiked Ghouls until a Jagged Shard drops.|M|32.00,64.80|
-A Jagged Shards|QID|13136|U|43242|Z|118; Icecrown|N|Accept the quest from the item that just dropped.|
+l Jagged Shard|AVAILABLE|13136|L|43242|Z|118; Icecrown|N|Kill Spiked Ghouls until a Jagged Shard drops.|M|32.00,64.80|
+A Jagged Shards|QID|13136|U|43242|Z|118; Icecrown|N|Accept the quest from the item that just dropped.|O|
 C Jagged Shards|QID|13136|Z|118; Icecrown|N|Kill more Spiked Ghouls for more Jagged Shards.|S|
 C Spill Their Blood|QID|13134|Z|118; Icecrown|N|Look for the vats of Embalming fluid as well as for Blood Orbs. Destroy them.|US|
 C Jagged Shards|QID|13136|Z|118; Icecrown|N|Kill more Spiked Ghouls for more Jagged Shards.|US|
