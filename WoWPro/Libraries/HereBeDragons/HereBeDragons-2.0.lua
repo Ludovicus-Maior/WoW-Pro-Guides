@@ -1,6 +1,6 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-2.0", 24
+local MAJOR, MINOR = "HereBeDragons-2.0", 27
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -19,7 +19,7 @@ local WoWClassic = (WOW_PROJECT_ID == WOW_PROJECT_CLASSIC)
 local WoWBC = (WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC)
 local WoWWrath = (WOW_PROJECT_ID == WOW_PROJECT_WRATH_CLASSIC)
 local WoWCata = (WOW_PROJECT_ID == WOW_PROJECT_CATACLYSM_CLASSIC)
-local WoW11 = select(4, GetBuildInfo()) >= 110000
+local TWW = select(4, GetBuildInfo()) >= 110002
 
 -- Data Constants
 local COSMIC_MAP_ID = 946
@@ -84,7 +84,7 @@ local function overrideInstance(instance) return instanceIDOverrides[instance] o
 HereBeDragons.___DIIDO = dynamicInstanceIDOverrides
 
 -- gather map info, but only if this isn't an upgrade (or the upgrade version forces a re-map)
-if not oldversion or oldversion < 23 then
+if not oldversion or oldversion < 27 then
     -- wipe old data, if required, otherwise the upgrade path isn't triggered
     if oldversion then
         wipe(mapData)
@@ -155,7 +155,7 @@ if not oldversion or oldversion < 23 then
         return instanceID, left, right, top, bottom
     end
 
-    local vector025, vector075 = CreateVector2D(0.25, 0.25), CreateVector2D(0.75, 0.75)
+    local vector00, vector05 = CreateVector2D(0, 0), CreateVector2D(0.5, 0.5)
     -- gather the data of one map (by uiMapID)
     local function processMap(id, data, parent)
         if not id or mapData[id] then return end
@@ -171,18 +171,27 @@ if not oldversion or oldversion < 23 then
             parent = 0
         end
 
-        -- get two positions from the map, we use the center 0.5 square to avoid issues on some maps where 1/1 is translated inaccurately
-        local instance, topLeft = C_Map.GetWorldPosFromMapPos(id, vector025)
-        local _, bottomRight = C_Map.GetWorldPosFromMapPos(id, vector075)
-        if topLeft and bottomRight then
-            local top, left = topLeft:GetXY()
-            local bottom, right = bottomRight:GetXY()
-            local height = (bottom - top) * 2
-            local width = (right - left) * 2
-            top = top - height / 4
-            bottom = top + height
-            left = left - width / 4
-            right = left + width
+        -- get two positions from the map, we use 0/0 and 0.5/0.5 to avoid issues on some maps where 1/1 is translated inaccurately
+        local instance, center = C_Map.GetWorldPosFromMapPos(id, vector05)
+        local width, height
+        if C_Map.GetMapWorldSize then
+            width, height = C_Map.GetMapWorldSize(id)
+        else
+            -- compat for classic... why does that not have GetMapWorldSize?
+            local _, topleft = C_Map.GetWorldPosFromMapPos(id, vector00)
+            if center and topleft then
+                local top, left = topleft:GetXY()
+                local bottom, right = center:GetXY()
+                width = (left - right) * 2
+                height = (top - bottom) * 2
+            end
+        end
+        if center and width and height then
+           local top, left = center:GetXY()
+           top = top + (height / 2)
+           local bottom = top - height
+           left = left + (width / 2)
+           local right = left - width
 
             instance, left, right, top, bottom = applyMapTransforms(instance, left, right, top, bottom)
             mapData[id] = {left - right, top - bottom, left, top, instance = instance, name = data.name, mapType = data.mapType, parent = parent }
@@ -244,7 +253,7 @@ if not oldversion or oldversion < 23 then
             worldMapData[0] = { 48033.24, 32020.8, 36867.97, 14848.84 }
             worldMapData[1] = { 47908.72, 31935.28, 8552.61, 18467.83 }
             worldMapData[571] = { 47662.7, 31772.19, 25198.53, 11072.07 }
-        elseif WoW11 then
+        elseif TWW then
             worldMapData[0] = { 76153.14, 50748.62, 65008.24, 23827.51 }
             worldMapData[1] = { 77621.12, 51854.98, 12444.4, 28030.61 }
             worldMapData[571] = { 71773.64, 50054.05, 36205.94, 12366.81 }
