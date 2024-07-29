@@ -245,7 +245,7 @@ T Eliminate the Competition|QID|12955|Z|118; Icecrown|N|To The Leaper in front o
 A The Bone Witch|QID|12999|PRE|12955|Z|118; Icecrown|N|From The Leaper.|
 T Honor Challenge|QID|12939|Z|118; Icecrown|N|To Duke Lankral inside the Shadow Vault.|M|44.66,20.35|
 A Shadow Vault Decree|QID|12943|PRE|12939|Z|118; Icecrown|N|From Duke Lankral.|
-R Enter Urfang's Hall|M|39.04,23.98|CC|
+R Enter Urfang's Hall|ACTIVE|12943|M|39.04,23.98|CC|
 A Get the Key|QID|12949|Z|118; Icecrown|N|Fight your way to the back of Urfang's Hall and get the Quest from Vaelen the Flayed.|M|41.05,23.88|
 C Shadow Vault Decree|QID|12943|U|41776|Z|118; Icecrown|N|Stand right in front of Thane Urfang and use the Decree. He won't be too happy about what it reads, so you'll have to kill him afterwards.|M|40.20,23.80|
 C Get the Key|QID|12949|Z|118; Icecrown|N|Kill Instructor Hroegar, he partrols among the fighters outside.|M|37.00,23.40|
@@ -304,7 +304,7 @@ A Blood in the Water|QID|12810|PRE|12807|Z|118; Icecrown|N|From Lord-Commander A
 A Intelligence Gathering|QID|12838|Z|118; Icecrown|N|From Aurochs Grimbane. This is a daily quest but you'll have to do it to find an item you need.|M|19.80,47.60|
 C Blood in the Water|QID|12810|U|40551|Z|118; Icecrown|N|Sharks are in the water around the island to the west and even in the harbor area. Kill them and use the item on them.|S|
 C Intelligence Gathering|QID|12838|Z|118; Icecrown|N|Kill Scarlets to find keys, use them to open the small boxes lying around.|M|09.00,42.40|
-l Note from the Grand Admiral|QID|12838|L|40666|Z|118; Icecrown|N|Open more boxes, you have to find a Note from the Grand Admiral.|M|09.00,42.40|
+l Note from the Grand Admiral|ACTIVE|12838|L|40666|Z|118; Icecrown|N|Open more boxes, you have to find a Note from the Grand Admiral.|M|09.00,42.40|
 A The Grand (Admiral's) Plan|QID|12839|U|40666|Z|118; Icecrown|N|Read the Grand Admirals Note to accept this quest.|
 C Blood in the Water|QID|12810|U|40551|Z|118; Icecrown|N|Sharks are in the water around the island and even in the harbor area. Kill them and use the item on them.|US|
 T Intelligence Gathering|QID|12838|Z|118; Icecrown|N|To Aurochs Grimbane.|M|19.80,47.60|
@@ -313,8 +313,8 @@ A You'll Need a Gryphon|QID|12814|PRE|12810|Z|118; Icecrown|N|From Lord-Commande
 T The Grand (Admiral's) Plan|QID|12839|Z|118; Icecrown|N|To Lord-Commander Arete.|M|19.60,48.00|
 A In Strict Confidence|QID|12840|PRE|12839|Z|118; Icecrown|N|From Lord-Commander Arete.|
 l Onslaught Gryphon Reins|QID|12814|S|L|40970|Z|118; Icecrown|N|Kill Gryphon Riders until you find Onslaught Gryphon Reins.|M|09.00,42.40|
-N Captain Hartford|QID|12840|QO|1|Z|118; Icecrown|N|You have to beat some information out of her, so be careful not to kill her too fast.|M|07.00,41.90|; Captain Hartford beaten for information and killed: 1/1
-C In Strict Confidence|QID|12840|Z|118; Icecrown|N|You have to beat some information out of Captain Welsington, so be careful not to kill him too fast.|M|05.70,41.90|
+N Captain Hartford|QID|12840|QO|2|Z|118; Icecrown|N|You have to beat some information out of her, so be careful not to kill her too fast.|M|07.00,41.90|; Captain Hartford beaten for information and killed: 1/1
+C In Strict Confidence|QID|12840|QO|1|Z|118; Icecrown|N|You have to beat some information out of Captain Welsington, so be careful not to kill him too fast.|M|05.70,41.90|
 l Onslaught Gryphon Reins|QID|12814|US|L|40970|Z|118; Icecrown|N|Kill Gryphon Riders until you find Onslaught Gryphon Reins.|M|09.00,42.40|
 C You'll Need a Gryphon|QID|12814|U|40970|Z|118; Icecrown|N|Use the Reins and fly the Gryphon back to Death's Rise. Use your ability to turn in the gryphon. If you want, you can skip this step and keep the gryphon for a while, it can serve as a flying Mount in Icecrown, although you can't do the daily quest "No Fly Zone" until you handed this one in.|M|19.60,47.80|
 T You'll Need a Gryphon|QID|12814|Z|118; Icecrown|N|To Uzo Deathcaller.|M|19.60,47.80|
@@ -324,7 +324,7 @@ K Archbishop Landgren slain|QID|12847|QO|1|Z|118; Icecrown|N|Enter the cathedral
 C Second Chances|QID|12847|U|40730|Z|118; Icecrown|N|Use the item near the corpse of the Archbishop.|
 T Second Chances|QID|12847|Z|118; Icecrown|N|To Lord-Commander Arete. If you wait for his dialogue with the Archbishop to finish, you can turn it in right here and don't have to fly back to Death's Rise.|M|09.50,47.10|
 A The Admiral Revealed|QID|12852|PRE|12847|Z|118; Icecrown|N|Another 5-Man quest from Lord-Commander Arete.|
-C The Admiral Revealed|QID|12852|Z|118; Icecrown|N|Enter The Hidden Hollow and find the Admiral deep within it. Kill him, use the Nullifier when he uses his Protection Sphere.|M|09.00,49.00;09.00,46.10|CS|
+C The Admiral Revealed|QID|12852|Z|118; Icecrown|N|Enter The Hidden Hollow and find the Admiral deep within it. Kill him, use the Nullifier when he uses his Protection Sphere.|M|09.00,49.00;09.00,46.10|CS|U||
 T The Admiral Revealed|QID|12852|Z|118; Icecrown|N|To Lord-Commander Arete.|M|19.60,48.00|
 T Banshee's Revenge|QID|13142|Z|118; Icecrown|N|To the Bone Witch.|M|32.40,42.80|
 A Battle at Valhalas|QID|13213|PRE|13142|Z|118; Icecrown|N|From the Bone Witch.|
@@ -375,8 +375,8 @@ T Death's Gaze|QID|13120|Z|118; Icecrown|N|To Darkrider Arly.|M|35.40,66.40|
 T Destroying the Altars|QID|13119|Z|118; Icecrown|N|To Darkrider Arly.|
 A Spill Their Blood|QID|13134|Z|118; Icecrown|N|From Darkrider Arly.|
 C Spill Their Blood|QID|13134|Z|118; Icecrown|N|Look for the vats of Embalming fluid as well as for Blood Orbs. Destroy them.|S|
-K Spiked Ghouls|QID|13136|L|43242|Z|118; Icecrown|N|Kill Spiked Ghouls until a Jagged Shard drops.|M|32.00,64.80|
-A Jagged Shards|QID|13136|U|43242|Z|118; Icecrown|N|Accept the quest from the item that just dropped.|
+l Jagged Shard|AVAILABLE|13136|L|43242|Z|118; Icecrown|N|Kill Spiked Ghouls until a Jagged Shard drops.|M|32.00,64.80|
+A Jagged Shards|QID|13136|U|43242|Z|118; Icecrown|N|Accept the quest from the item that just dropped.|O|
 C Jagged Shards|QID|13136|Z|118; Icecrown|N|Kill more Spiked Ghouls for more Jagged Shards.|S|
 C Spill Their Blood|QID|13134|Z|118; Icecrown|N|Look for the vats of Embalming fluid as well as for Blood Orbs. Destroy them.|US|
 C Jagged Shards|QID|13136|Z|118; Icecrown|N|Kill more Spiked Ghouls for more Jagged Shards.|US|
@@ -401,10 +401,10 @@ T Honor is for the Weak|QID|13170|Z|118; Icecrown|N|To Keritose Bloodblade.|
 A Seeds of Chaos|QID|13172|Z|118; Icecrown|N|From Keritose Bloodblade.|
 A Amidst the Confusion|QID|13174|Z|118; Icecrown|N|From Keritose Bloodblade.|
 C Seeds of Chaos|QID|13172|Z|118; Icecrown|N|Talk to Keritose again to hop on a Skeletal Gryphon. Bomb away at the Scourge in the Quarry. When you have completed this quest, don't wait until the gryphon returns, just leave the vehicle (you'll get a parachute), there's more to do in the quarry.|M|44.00,24.60|
-N Weeping Quarry Document|QID|13174|L|43688|Z|118; Icecrown|N|Pick up the Document here.|M|39.10,33.70|
-N Weeping Quarry Ledger|QID|13174|L|43689|Z|118; Icecrown|N|Pick up the Ledger here.|M|39.20,36.70|
-N Weeping Quarry Map|QID|13174|L|43691|Z|118; Icecrown|N|Pick up the Map here.|M|38.70,39.50|
-C Amidst the Confusion|QID|13174|Z|118; Icecrown|N|Pick up the Schedule here.|M|37.20,41.70|
+N Weeping Quarry Document|QID|13174|QO|1|L|43688|Z|118; Icecrown|N|Pick up the Document here.|M|39.10,33.70|
+N Weeping Quarry Ledger|QID|13174|QO|2|L|43689|Z|118; Icecrown|N|Pick up the Ledger here.|M|39.20,36.70|
+N Weeping Quarry Map|QID|13174|QO|3|L|43691|Z|118; Icecrown|N|Pick up the Map here.|M|38.70,39.50|
+C Amidst the Confusion|QID|13174|Z|118; Icecrown|N|Pick up the Schedule here.|M|37.20,41.70|NC|
 T Seeds of Chaos|QID|13172|Z|118; Icecrown|N|To Keritose Bloodblade.|M|44.00,24.60|
 T Amidst the Confusion|QID|13174|Z|118; Icecrown|N|To Keritose Bloodblade.|
 A Vereth the Cunning|QID|13155|Z|118; Icecrown|N|From Keritose Bloodblade.|
