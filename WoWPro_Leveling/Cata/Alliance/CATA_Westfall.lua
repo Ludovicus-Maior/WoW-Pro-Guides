@@ -109,8 +109,10 @@ T The Dawning of a New Day|QID|26297|M|42.18,64.19|Z|1436; Westfall|N|To Captain
 A Secrets Revealed|QID|26319|PRE|26297|M|42.18,64.19|Z|1436; Westfall|N|From Captain Alpert.|
 T Secrets Revealed|QID|26319|M|42.98,65.02|Z|1436; Westfall|N|To Thoralius the Wise.|
 A A Vision of the Past|QID|26320|PRE|26319|M|42.98,65.02|Z|1436; Westfall|N|From Thoralius the Wise.|
-C A Vision of the Past|QID|26320|M|42.58,72.08;43.35,71.95;42.90,72.67;43.65,72.87;43.90,73.65|CS|Z|1436; Westfall|N|Enter the Defias Hideout, then follow the path up the stairs, keep going to the big cavern area. Head to the right. Follow the railway tracks until the next big cavern area, keep following tracks to the right. When the tracks go across the wooden bridge, an "instance" entrance can be seen to the right, head for that. Note, this guide will stop showing when you enter the instance. When inside, just click on the Vision of the Past, watch the cinematic, then leave the instance.|U|58147|NC|
-T The Legend of Captain Grayson|QID|26371|M|30.55,85.54|Z|1436; Westfall|N|Exit the Defias Hideout and head southwest to Captain Grayson at the lighthouse.|
+R The Deadmines|QID|26320|QO|1|M|42.58,72.08;43.35,71.95;42.90,72.67;43.65,72.87;43.90,73.65|CS|Z|1436; Westfall|N|Enter the Defias Hideout, and as the game suggests, follow the line of people until you see the portal entrance to The Deadmines. Enter the portal.|IZ|-0291; The Deadmines!Dungeon291|
+C A Vision of the Past|QID|26320|QO|1|Z|0291; The Deadmines!Dungeon291|N|Click on the Incense Burner to trigger the cinematic.|U|58147|
+R Exit Instance|ACTIVE|26320|Z|1436; Westfall|N|Go back through the portal and exit the Deadmines.|IZ|0291; The Deadmines!Dungeon291|
+T The Legend of Captain Grayson|QID|26371|M|30.55,85.54|Z|1436; Westfall|N|Return to the surface and head southwest to Captain Grayson at the lighthouse.|
 A The Coast Isn't Clear|QID|26348|M|30.55,85.54|Z|1436; Westfall|N|From Captain Grayson.|RANK|2|PRE|26371|
 A Keeper of the Flame|QID|26347|M|30.55,85.54|Z|1436; Westfall|N|From Captain Grayson.|RANK|2|PRE|26371|
 A The Coastal Menace|QID|26349|M|30.55,85.54|Z|1436; Westfall|N|From Captain Grayson.|RANK|2|PRE|26371|
@@ -125,20 +127,20 @@ C The Coast Isn't Clear|QID|26348|M|33.63,84.34|Z|1436; Westfall|N|Head back to 
 T The Coast Isn't Clear|QID|26348|M|30.53,85.55|Z|1436; Westfall|N|To Captain Grayson.|
 T Keeper of the Flame|QID|26347|M|30.55,85.49|Z|1436; Westfall|N|To Captain Grayson.|
 T The Coastal Menace|QID|26349|M|30.53,85.55|Z|1436; Westfall|N|To Captain Grayson.|
-T Captain Sanders' Hidden Treasure|QID|26355|M|40.65,17.05|Z|1436; Westfall|N|To the Old Jug. You may want to run to Moonbrook then fly to Furlbrow's Pumpkin Farm. The next two steps will take you way out into the sea at the north-west of Westfall, so you're best holding off using your Hearthstone at this point.|
+T Captain Sanders' Hidden Treasure|QID|26355|M|40.65,17.05|Z|1436; Westfall|N|To the Old Jug at the Windmill.\n[color=FF0000]NOTE: [/color]You'll want to save your hearth for now.\nInstead, run to Moonbrook and fly to Furlbrow's Pumpkin Farm.|
 A Captain Sanders' Hidden Treasure|QID|26356|M|40.65,17.05|Z|1436; Westfall|N|From the Old Jug.|PRE|26355|
-T Captain Sanders' Hidden Treasure|QID|26356|M|25.95,16.96|Z|1436; Westfall|N|Swim across the water to the small isle, and turn the quest into the Locked Chest.|
+T Captain Sanders' Hidden Treasure|QID|26356|M|25.95,16.96|Z|1436; Westfall|N|To the Locked Chest on the small isle beyond the the wrecked ship.|
 H Sentinel Hill|ACTIVE|26320|M|56.45,47.57|Z|1436; Westfall|N|Hearth to, or otherwise head back to Sentinel Hill.|
 T A Vision of the Past|QID|26320|M|56.32,47.52|Z|1436; Westfall|N|To Marshal Gryan Stoutmantle.|
 A Rise of the Brotherhood|QID|26322|M|56.32,47.52|Z|1436; Westfall|N|From Marshal Gryan Stoutmantle.|PRE|26320|
 C Rise of the Brotherhood|QID|26322|M|56.36,47.55|QO|1|Z|1436; Westfall|N|Watch the scene.|NC|
-F Stormwind|ACTIVE|26322|M|56.64,49.44|TZ|Stormwind City|Z|1436; Westfall|N|Fly to Stormwind City.|
-T Rise of the Brotherhood|QID|26322|M|85.86,32.79|Z|1453; Stormwind City|N|To King Varian Wrynn.|
-A Return to Sentinel Hill|QID|26370|M|85.86,32.79|Z|1453; Stormwind City|N|From King Varian Wrynn.|PRE|26322|
-F Sentinel Hill|ACTIVE|26370|M|70.93,72.48|Z|1453; Stormwind City|N|Fly back to Sentinel Hill or use your hearth if you wish.|
+F Stormwind|ACTIVE|26322|M|56.64,49.44|Z|1436; Westfall|N|Fly to Stormwind City.|TZ|Stormwind City|
+T Rise of the Brotherhood|QID|26322|M|85.80,31.70|Z|1453; Stormwind City|N|To King Varian Wrynn.|
+A Return to Sentinel Hill|QID|26370|M|85.80,31.70|Z|1453; Stormwind City|N|From King Varian Wrynn.|PRE|26322|
+F Sentinel Hill|ACTIVE|26370|M|70.93,72.48|Z|1453; Stormwind City|N|Fly back to Sentinel Hill or use your hearth if you wish.|U|6948|
 T Return to Sentinel Hill|QID|26370|M|56.37,49.63|Z|1436; Westfall|N|To Marshal Gryan Stoutmantle.|
-N If you plan on going to Redridge Mountains pick up the next two quests. If you dont just skip them.|
-A Threat to the Kingdom|AVAILABLE|26761|M|56.4,49.4|Z|1436; Westfall|N|From Marshal Gryan Stoutmantle.|PRE|26370|
+N Skip the next 2 steps, if you don't plan on following the guide to Redridge Mountains.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A Threat to the Kingdom|AVAILABLE|26761|M|56.37,49.63|Z|1436; Westfall|N|From Marshal Gryan Stoutmantle.|PRE|26370|
 A Hero's Call: Redridge Mountains!|AVAILABLE|26365|M|56.37,49.53|Z|1436; Westfall|N|From Captain Danuvin.|
 ]]
 end)
