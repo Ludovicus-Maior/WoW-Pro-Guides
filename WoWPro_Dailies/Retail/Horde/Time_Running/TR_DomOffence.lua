@@ -215,7 +215,7 @@ C Sha-Touched Grunts|QID|32352|M|59.20,11.20;60.40,13.60;62.10,23.50;62.50,10.40
 T A Gathering Storm|QID|32352|M|65.42,46.41|Z|The Imperial Mercantile@Shrine of Two Moons|N|To Garrosh Hellscream|
 
 A Get My Results!|QID|32329|M|10.39,53.71|N|From General Nazgrim|
-R Silvermoon City|QID|32329|M|68.63,43.79|Z|The Imperial Mercantile@Shrine of Two Moons|N|You are on your own.  Get to the Shrine of Two Moons and take the portal there to Silvermoon.|
+P Silvermoon City|QID|32329|M|10.39,53.71|N|Take the portal to Silvermoon.|
 T Get My Results!|QID|32329|M|53.80,20.23|Z|Silvermoon City|N|To Lor'themar Theron|
 A What's in the Box?|QID|32330|PRE|32329|M|53.80,20.23|Z|Silvermoon City|N|From Lor'themar Theron|
 C Arcanis Mechanica|QID|32330|M|86.58,32.67|Z|Silvermoon City|QO|1|N|Farstriders' Square, it is in the Northeast building.|

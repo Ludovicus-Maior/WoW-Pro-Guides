@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('Intro_Dracthyr', 'Leveling', 'The Forbidden 
 WoWPro:GuideName(guide,"Dracthyr Intro")
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideSort(guide, 19)
-WoWPro:GuideLevels(guide,58, 60)
+WoWPro:GuideLevels(guide,10, 60)
 WoWPro:GuideNextGuide(guide, 'Dragonflight Intro')
 WoWPro:GuideClassSpecific(guide,"Evoker")
 WoWPro:GuideSteps(guide, function()
