@@ -22,8 +22,8 @@ T Franks and Beans|QID|26506|M|15.71,65.27|Z|1433;Redridge Mountains|N|To Darcy 
 T Still Assessing the Threat|QID|26503|M|15.31,64.82|Z|1433;Redridge Mountains|N|To Watch Captain Parker on top of the tower.|
 A Parker's Report|QID|26505|M|15.31,64.82|Z|1433;Redridge Mountains|N|From Watch Captain Parker on top of the tower.|PRE|26503|
 T Wanted: Redridge Gnolls|QID|26504|M|15.31,64.82|Z|1433;Redridge Mountains|N|To Watch Captain Parker on top of the tower.|
-f Lakeshire|QID|26761|M|29.48,53.77|Z|1433;Redridge Mountains|N|At Ariena Stormfeather.|
-r Repair, Sell Junk|ACTIVE|26505|Z|1433;Redridge Mountains|N|Take this opportunity to sell unWanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
+f Lakeshire|QID|26761|M|29.48,53.77|Z|1433;Redridge Mountains|N|At Ariena Stormfeather.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+r Repair, Sell Junk|ACTIVE|26505|Z|1433;Redridge Mountains|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
 T Threat to the Kingdom|QID|26761|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon inside the town hall.|
 T Parker's Report|QID|26505|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon inside the town hall.|
 A We Must Prepare!|QID|26510|M|28.91,41.11|Z|1433;Redridge Mountains|N|From Magistrate Solomon.|
@@ -47,22 +47,24 @@ T Tuning the Gnomecorder|QID|26512|Z|1433;Redridge Mountains|N|(UI Alert)|
 A Canyon Romp|QID|26514|Z|1433;Redridge Mountains|N|(UI Alert)|PRE|26512|
 N Wandering Elite|ACTIVE|26514|Z|1433;Redridge Mountains|N|Note: There is a wandering Level 18 elite called Canyon Ettin in this area. Until you get the orb later, you should avoid him. The ground will shake when he is near you.|S!US|
 C Like a Fart in the Wind|QID|26513|M|32.27,25.10|Z|1433;Redridge Mountains|N|Look for the sparkling supply crates, grab them when you see them.|NC|S|
-C Canyon Romp|QID|26514|M|32.14,25.18|Z|1433;Redridge Mountains|N|Kill and loot any Redridge Mystic and Bashers you see. Be careful of the elite Ettin wandering around.|S|
+C Canyon Romp|QID|26514|M|32.14,25.18|Z|1433;Redridge Mountains|N|Kill and loot any Redridge Mystic and Bashers you see.|S|
 A He Who Controls the Ettins|QID|26519|M|32.14,25.18|Z|1433;Redridge Mountains|N|Kill and loot Redridge Mystic and Bashers until one drops a Dirt-Stained Scroll. This quest will auto-start upon looting the scroll.|U|58898|PRE|26512|O|
 C Canyon Romp|QID|26514|M|32.14,25.18|Z|1433;Redridge Mountains|N|Finish killing and looting Redridge Mystic and Bashers|US|
 T Canyon Romp|QID|26514|Z|1433;Redridge Mountains|N|(UI Alert)|
 A They've Wised Up...|QID|26544|Z|1433;Redridge Mountains|N|(UI Alert)|PRE|26514|
-C They've Wised Up...|QID|26544|M|20.22,23.77|Z|1433;Redridge Mountains|N|Head inside of Rethbane Caverns and look for a Blackrock Overseer. Kill him to get the Blackrock Missive.|NC|
+C They've Wised Up...|QID|26544|M|20.22,23.77|Z|1433;Redridge Mountains|N|Head inside of Rethbane Caverns and look for a Blackrock Overseer. Kill him to get the Blackrock Missive.|
 T They've Wised Up...|QID|26544|Z|1433;Redridge Mountains|N|(UI Alert)|
 A Yowler Must Die!|QID|26545|Z|1433;Redridge Mountains|N|(UI Alert)|PRE|26544|
 K Ardo Dirtpaw|ACTIVE|26519|CC|M|20.55,23.70;22.45,21.15;21.18,15.15;19.95,16.22;18.05,18.48|Z|1433;Redridge Mountains|QO|1|N|Head to the back of the cavern (right passage when first entering caverns), find and kill Ardo Dirtpaw.|
 T He Who Controls the Ettins|QID|26519|M|17.93,18.53|Z|1433;Redridge Mountains|N|Turn it in at the orb.|
 A Saving Foreman Oslow|QID|26520|M|17.93,18.53|Z|1433;Redridge Mountains|N|From the Ettin Control Panel.|PRE|26519|
-K Yowler Must Die!|QID|26545|M|27.45,22.09|Z|1433;Redridge Mountains|N|Leave the Caverns, and look for the Canyon Ettin. When you see him, use the orb to subdue him. Once subdued, head to Yowler (waypoint location), kill him and loot the plans. You can mount up whilst controlling the Ettin.|T|Canyon Ettin|U|58895|L|58937|
+U Canyon Ettin|ACTIVE|26520|N|Target one of the Ettins roaming the area and use the Control Orb.\n[color=FF0000]NOTE: [/color]It will help you fight if you get attacked.|T|Canyon Ettin|U|58895|S|
+C Yowler Must Die!|QID|26545|M|27.45,22.09|Z|1433;Redridge Mountains|L|58937|ITEM|58937|N|Yowler at his camp(waypoint location).|
 C Like a Fart in the Wind|QID|26513|M|32.27,25.10|Z|1433;Redridge Mountains|N|Finish collecting the supply crates.|NC|US|
-C Saving Foreman Oslow|QID|26520|M|31.75,44.41|Z|1433;Redridge Mountains|N|Run to the boulder at Lakeshire Bridge.  When you get to the boulder, use the orb again to get the rock off Oslow.|U|58895|NC|
+U Canyon Ettin|ACTIVE|26520|N|Target one of the Ettins roaming the area and use the Control Orb.\n[color=FF0000]NOTE: [/color]It will help you fight if you get attacked.|T|Canyon Ettin|U|58895|US|
+C Saving Foreman Oslow|QID|26520|M|31.75,44.41|Z|1433;Redridge Mountains|N|Return to the boulder and use the Control Orb again to get the rock off Oslow.|U|58895|NC|
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|Z|1433;Redridge Mountains|N|To Marshal Marris.|
-r Repair, Sell Junk|ACTIVE|26545|Z|1433;Redridge Mountains|N|Take this opportunity to sell unWanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
+r Repair, Sell Junk|ACTIVE|26545|Z|1433;Redridge Mountains|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|S!US|
 T Yowler Must Die!|QID|26545|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon inside the town hall.|
 T Saving Foreman Oslow|QID|26520|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon.|
 A John J. Keeshan|QID|26567|M|28.76,40.90|Z|1433;Redridge Mountains|N|From Colonel Troteman.|PRE|26545|
@@ -102,64 +104,64 @@ T Return of the Bravo Company|QID|26563|M|28.51,40.85|Z|1433;Redridge Mountains|
 A They Drew First Blood|QID|26607|M|28.51,40.85|Z|1433;Redridge Mountains|N|From Colonel Troteman.|PRE|26573&26563|
 T Surveying Equipment|QID|26569|M|29.65,44.38|Z|1433;Redridge Mountains|N|To Foreman Oslow.|
 T Render's Army|QID|26570|M|29.65,44.38|Z|1433;Redridge Mountains|N|To Marshal Marris.|
-r Repair, Sell Junk|ACTIVE|26607|Z|1433;Redridge Mountains|N|Take this opportunity to sell unWanted junk and to repair with Kimberly Hiett just inside the Inn as you head to John J. Keeshan|T|Kimberly Hiett|S!US|
+r Repair, Sell Junk|ACTIVE|26607|Z|1433;Redridge Mountains|N|Take this opportunity to sell unwanted junk and to repair with Kimberly Hiett just inside the Inn as you head to John J. Keeshan|T|Kimberly Hiett|S!US|
 T They Drew First Blood|QID|26607|M|26.29,39.90|Z|1433;Redridge Mountains|N|Head to the basement of the inn to John J. Keeshan.|
 A It's Never Over|QID|26616|M|26.29,39.90|Z|1433;Redridge Mountains|N|From John J. Keeshan.|PRE|26607|
 C It's Never Over|QID|26616|M|34.25,45.6|Z|1433;Redridge Mountains|N|Head to the dock just beyond the bridge, and click on the boat to head to Camp Everstill.|V|
-f Camp Everstill|QID|26616|M|52.87,54.51|Z|1433;Redridge Mountains|N|At Arlen Marsters.|
+f Camp Everstill|QID|26616|M|52.91,54.63|Z|1433;Redridge Mountains|N|At Arlen Marsters.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T It's Never Over|QID|26616|M|52.48,55.19|Z|1433;Redridge Mountains|N|To John J. Keeshan, who is now in Camp Everstill.|
 A Point of Contact: Brubaker|QID|26639|M|52.48,55.19|Z|1433;Redridge Mountains|N|From John J. Keeshan.|PRE|26616|
 A Hunting the Hunters|QID|26638|M|52.46,55.38|Z|1433;Redridge Mountains|N|From Danforth.|PRE|26616|
 A Bravo Company Field Kit: Chloroform|QID|26637|M|52.49,55.47|Z|1433;Redridge Mountains|N|From Messner.|PRE|26616|
 A Bravo Company Field Kit: Camouflage|QID|26636|M|52.49,55.47|Z|1433;Redridge Mountains|N|From Krakauer.|PRE|26616|
-C Bravo Company Field Kit: Chloroform|QID|26637|M|42.75,53.87|Z|1433;Redridge Mountains|N|Enter the lake, then kill and loot any Muckdweller you see.  Unless you have underwater breathing, don't forget to surface now and then. Be aware of the elite Ol' Gummers patrolling the waters.|NC|
+C Bravo Company Field Kit: Chloroform|QID|26637|M|42.75,53.87|Z|1433;Redridge Mountains|L|59156 8|ITEM|59156|N|any Muckdweller you see in the lake.\n[color=FF0000]NOTE: [/color]Unless you have underwater breathing, don't forget to surface now and then.\nAvoid the elite Ol' Gummers patrolling the waters (not worth the fight).|
 C Hunting the Hunters|QID|26638|M|52.95,67.78|Z|1433;Redridge Mountains|N|Kill any Blackrock Hunter you see. They are stealthed.|S|
-C Bravo Company Field Kit: Camouflage|QID|26636|M|50.40,65.50|Z|1433;Redridge Mountains|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|NC|S|
+C Bravo Company Field Kit: Camouflage|QID|26636|M|50.40,65.50|Z|1433;Redridge Mountains|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|S|
 T Point of Contact: Brubaker|QID|26639|M|53.01,67.78|Z|1433;Redridge Mountains|N|To Brubaker.|
 A Unspeakable Atrocities|QID|26640|M|53.01,67.78|Z|1433;Redridge Mountains|N|From Brubaker.|PRE|26639|
-C Bravo Company Field Kit: Camouflage|QID|26636|M|50.40,65.50|Z|1433;Redridge Mountains|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|NC|US|
+C Bravo Company Field Kit: Camouflage|QID|26636|M|50.40,65.50|Z|1433;Redridge Mountains|N|The poop is everywhere, look for the sparkling piles. The leaves are under trees.|US|
 C Hunting the Hunters|QID|26638|M|52.95,67.78|Z|1433;Redridge Mountains|N|Kill any Blackrock Hunter you see. They are stealthed.|US|
 T Bravo Company Field Kit: Camouflage|QID|26636|M|52.47,55.45|Z|1433;Redridge Mountains|N|To Krakauer.|
 T Bravo Company Field Kit: Chloroform|QID|26637|M|52.47,55.45|Z|1433;Redridge Mountains|N|To Messner.|
 T Hunting the Hunters|QID|26638|M|52.47,55.45|Z|1433;Redridge Mountains|N|To Danforth.|
 T Unspeakable Atrocities|QID|26640|M|52.47,55.45|Z|1433;Redridge Mountains|N|To John J. Keeshan.|
 A Prisoners of War|QID|26646|M|52.50,55.48|Z|1433;Redridge Mountains|N|From John J. Keeshan.|PRE|26636&26637&26638&26640|
-C Blackrock Holding Pen Key|QID|26646|M|69.4,76.53|Z|1433;Redridge Mountains|N|Use the field kit. Then use ability #1 (Camouflage) when you get near the camp. Use #2 (Distraction) to get past guards (can backfire somewhat). Use #3 (Chloroform) on the orc where the key is.|U|60384|L|59261|NC|
-C Prisoners of War|QID|26646|M|69.40,58.59|Z|1433;Redridge Mountains|N|If the orc is about to wake up, use ability #3 again. Use #2 to get out of the cave. Then head to the waypoint, click on one of the cages to free the people.|U|60384|
+C Blackrock Holding Pen Key|QID|26646|M|69.4,76.53|Z|1433;Redridge Mountains|L|59261|N|After using the field kit, use <1> (Camouflage) when you get near the camp, use <2> (Distraction) to get past the guards (can backfire somewhat) and finally, use <3> (Chloroform) on the Orc where the key is.|U|60384|
+C Prisoners of War|QID|26646|M|69.40,58.59|Z|1433;Redridge Mountains|N|Use <2> to get out of the cave and click on one of the cages to free the people.\n[color=FF0000]NOTE: [/color]If the Orc is about to wake up, use <3> again.|U|60384|NC|
 T Prisoners of War|QID|26646|Z|1433;Redridge Mountains|N|(UI Alert)|
 A To Win a War, You Gotta Become War|QID|26651|Z|1433;Redridge Mountains|N|(UI Alert)|PRE|26646|
-C To Win a War, You Gotta Become War|QID|26651|M|66.4,71.43|QO|2|Z|1433;Redridge Mountains|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|U|60385|
-C To Win a War, You Gotta Become War|QID|26651|M|63.86,70.34|QO|1|Z|1433;Redridge Mountains|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|U|60385|
-R Shalewind Canyon|ACTIVE|26651|M|72.4,64.3;77.26,65.86|CC|Z|1433;Redridge Mountains|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|U|60385|
-f Shalewind Canyon|QID|26651|M|77.96,65.91|Z|1433;Redridge Mountains|N|At Nora Baldwin.|
+C To Win a War, You Gotta Become War|QID|26651|M|66.4,71.43|QO|2|Z|1433;Redridge Mountains|N|Use <2> to enter the tower, <3> to get to the top and <4> once at the top.\n[color=FF0000]NOTE: [/color]Re-apply the Camouflage when it gets low.|U|60385|
+C To Win a War, You Gotta Become War|QID|26651|M|63.86,70.34|QO|1|Z|1433;Redridge Mountains|N|Same deal as the Tower. Use <2> to get in and plant a charge.|U|60385|
+R Shalewind Canyon|ACTIVE|26651|M|72.4,64.3;77.26,65.86|CC|Z|1433;Redridge Mountains|N|Head to Shalewind Canyon.\n[color=FF0000]NOTE: [/color]Use your field kit abilities to get there.|U|60385|
+f Shalewind Canyon|QID|26651|M|77.96,65.91|Z|1433;Redridge Mountains|N|At Nora Baldwin.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 T To Win a War, You Gotta Become War|QID|26651|M|77.68,65.51|Z|1433;Redridge Mountains|N|To John J. Keeshan.|
 A Detonation|QID|26668|M|77.68,65.51|Z|1433;Redridge Mountains|N|From John J. Keeshan.|PRE|26651|
-C Detonation|QID|26668|QO|1|Z|1433;Redridge Mountains|N|Enjoy the brief cut scene.|NC|
+C Detonation|QID|26668|QO|1|M|PLAYER|N|Enjoy the brief cut scene.|NC|
 T Detonation|QID|26668|M|77.68,65.51|Z|1433;Redridge Mountains|N|To John J. Keeshan.|
 A The Dark Tower|QID|26693|M|77.68,65.51|Z|1433;Redridge Mountains|N|From John J. Keeshan.|PRE|26668|
 A Shadowhide Extinction|QID|26692|M|77.62,65.34|Z|1433;Redridge Mountains|N|From Danforth.|PRE|26668|RANK|2|
 C Shadowhide Extinction|QID|26692|Z|1433;Redridge Mountains|N|Kill any Gnolls you come across.|S|
-C The Dark Tower|QID|26693|M|67.58,29.61|Z|1433;Redridge Mountains|N|Enter the cave and kill General Fangore. Loot his corpse to get the Key of Ilgalar.|
+C The Dark Tower|QID|26693|M|67.58,29.61|Z|1433;Redridge Mountains|L|59522|ITEM|59522|N|General Fangore inside the cave.|T|General Fangore|
 T The Dark Tower|QID|26693|Z|1433;Redridge Mountains|N|(UI Alert)|
 A The Grand Magus Doane|QID|26694|Z|1433;Redridge Mountains|N|(UI Alert)|PRE|26693|
-C The Grand Magus Doane|QID|26694|M|72.08,44.85|Z|1433;Redridge Mountains|N|Run to the Tower of Ilgalar, click on the Ward of Ilgalar to enter the tower, then head to the top and kick Grand Magus Doane's butt.\n[color=FF0000]NOTE: [/color]He is protected by a Succubus Minion (same level) and as the fight goes on, he will summon a Flesh Golem that lasts 5 minutes.\nFocus on killing Doane. Once he is dead, the quest is over.|
-C Shadowhide Extinction|QID|26692|M|77.29,55.78|Z|1433;Redridge Mountains|N|As you make your way back to Shalewind Canyon, finish up killing any Gnolls you come across.|US|
+C The Grand Magus Doane|QID|26694|M|72.08,44.85|Z|1433;Redridge Mountains|N|Click on the Ward of Ilgalar to enter the tower and find Grand Magus Doane at the top.\n[color=FF0000]NOTE: [/color]As the fight goes on, he will summon a Flesh Golem that lasts 5 minutes.\nFocus on killing Doane. Once he is dead, the quest is over. You can kill the Golem or make a run for it.|
+R Shalewind Canyon|ACTIVE|26692|QO|1|M|77.26,65.86|Z|1433;Redridge Mountains|N|Head towards Shalewind Canyon.|S|
+C Shadowhide Extinction|QID|26692|M|77.26,65.86|Z|1433;Redridge Mountains|N|Finish killing any Gnolls you come across.|US|
 T Shadowhide Extinction|QID|26692|Z|1433;Redridge Mountains|N|(UI Alert)|
 T The Grand Magus Doane|QID|26694|M|77.68,65.51|Z|1433;Redridge Mountains|N|To John J. Keeshan in Shalewind Canyon.|
 A AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|77.21,65.92|Z|1433;Redridge Mountains|N|From Colonel Troteman.|PRE|26694|
 C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.66,36.67|Z|1433;Redridge Mountains|N|Hop in the tank and head NORTH towards Keeshan's post. Your buddies will do the killing for you. You should have all 200 by the time you get there.\n[color=FF0000]NOTE: [/color]Exit the tank when you are finished and have arrived at Keeshan's Post. The quest will continue until you do so.|V|
 T AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.66,36.67|Z|1433;Redridge Mountains|N|To Colonel Troteman.\n[color=FF0000]NOTE: [/color]You have to exit the tank to end the quest.|
 A Showdown at Stonewatch|QID|26713|M|60.66,36.67|Z|1433;Redridge Mountains|N|From Colonel Troteman.|PRE|26708|
-C Showdown at Stonewatch|QID|26713|QO|1|M|60.29,47.27|Z|1433;Redridge Mountains|N|Head up to Stonewatch, and kill Tharil'zun.|T|Tharil'zun|
+C Showdown at Stonewatch|QID|26713|QO|1|M|60.29,47.27|Z|1433;Redridge Mountains|N|With your entourage, head up to Stonewatch and kill Tharil'zun.|T|Tharil'zun|
 C Showdown at Stonewatch|QID|26713|QO|2|M|58.44,55.60|Z|1433;Redridge Mountains|N|Head through the castle grounds and kill Gath'Ilzogg.|T|Gath'Ilzogg|
 T Showdown at Stonewatch|QID|26713|Z|1433;Redridge Mountains|N|(UI Alert)|
 A Darkblaze, Brood of the Worldbreaker|QID|26714|Z|1433;Redridge Mountains|N|(UI Alert)|PRE|26713|
-C Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.89,55.27|Z|1433;Redridge Mountains|N|Use the horn that should be next to Gath'Ilzogg's corpse. Try to stay on Darkblaze's side, and just attack as hard as you can. You can not pull it off of Keeshan.|
-T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.66,36.67|Z|1433;Redridge Mountains|N|To Colonel Troteman back at Keeshan's post. All mobs from Stonewatch will be gone.|
+C Darkblaze, Brood of the Worldbreaker|QID|26714|M|58.89,55.27|Z|1433;Redridge Mountains|N|Use the horn that should be next to Gath'Ilzogg's corpse.\n[color=FF0000]NOTE: [/color]Try to stay on Darkblaze's side, and just attack as hard as you can. You can not pull it off of Keeshan.|
+T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.66,36.67|Z|1433;Redridge Mountains|N|To Colonel Troteman back at Keeshan's Post.\n[color=FF0000]NOTE: [/color]All mobs in Stonewatch will be gone.|
 A Triumphant Return|QID|26726|M|60.66,36.67|Z|1433;Redridge Mountains|N|From Colonel Troteman.|PRE|26714|
 H Lakeshire|ACTIVE|26726|M|33.24,40.69|TZ|Lakeshire Inn|Z|1433;Redridge Mountains|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
 T Triumphant Return|QID|26726|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon in the town hall.|
-N If you plan on going to Duskwood pick up the next two quest. If you dont just skip it.|
-A Hero's Call: Duskwood!|AVAILABLE|26728|M|28.91,41.11|Z|1433;Redridge Mountains|N|From Captain Danuvin.|
+A Hero's Call: Duskwood!|AVAILABLE|26728|M|28.91,41.11|Z|1433;Redridge Mountains|N|From Captain Danuvin.\n[color=FF0000]NOTE: [/color]Skip this step if you're not moving on to the next guide, Duskwood.|
 ]]
 end)
