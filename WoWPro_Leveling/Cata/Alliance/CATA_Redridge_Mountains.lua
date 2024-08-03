@@ -162,6 +162,6 @@ T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.66,36.67|Z|1433;Redridge M
 A Triumphant Return|QID|26726|M|60.66,36.67|Z|1433;Redridge Mountains|N|From Colonel Troteman.|PRE|26714|
 H Lakeshire|ACTIVE|26726|M|33.24,40.69|TZ|Lakeshire Inn|Z|1433;Redridge Mountains|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
 T Triumphant Return|QID|26726|M|28.91,41.11|Z|1433;Redridge Mountains|N|To Magistrate Solomon in the town hall.|
-A Hero's Call: Duskwood!|AVAILABLE|26728|M|28.91,41.11|Z|1433;Redridge Mountains|N|From Captain Danuvin.\n[color=FF0000]NOTE: [/color]Skip this step if you're not moving on to the next guide, Duskwood.|
+A Hero's Call: Duskwood!|AVAILABLE|26728|M|28.91,41.11|Z|1433;Redridge Mountains|N|From Bailiff Conacher.\n[color=FF0000]NOTE: [/color]Skip this step if you're not moving on to the next guide, Duskwood.|
 ]]
 end)
