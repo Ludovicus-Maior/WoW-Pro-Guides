@@ -95,13 +95,13 @@ T The Hammer in the Deep|QID|40224|M|34.04,76.76|N|To Stormcaller Mylra.|
 ;RESTORATION
 ;A To the Deeps|QID|43644|M|34.32,76.14|N|From Erunak Stonespeaker.|PRE|41335|
 C To the Deeps|QID|43644|QO|1|M|33.81,75.86|N|Click on the bubble to travel to Vashj'ir with Erunak.|
-T To the Deeps|QID|43644|M|43.60,63.24|Z|Shimmering Expanse|N|To Erunak Stonespeaker.|
-A Wavespeaker's Trail|QID|43645|M|43.60,63.24|Z|Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|43644|
-C Wavespeaker's Trail|QID|43645|QO|2|M|39.15,56.54|Z|Shimmering Expanse|N|All three of these clues are at ground level, you dont have to go swimming up above.|
-C Wavespeaker's Trail|QID|43645|QO|3|M|33.07,67.29|Z|Shimmering Expanse|N|Inside a building with a hydra type mob named The Goroboros.|
-C Wavespeaker's Trail|QID|43645|QO|1|M|40.51,74.98|Z|Shimmering Expanse|N|Right in front of a giant you will need to kill to pick up the clue.|
-T Wavespeaker's Trail|QID|43645|M|43.61,63.23|Z|Shimmering Expanse|N|To Erunak Stonespeaker.|
-A Throne of the Tides: Azshara's Power|QID|40341|M|43.61,63.23|Z|Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|43645|
+T To the Deeps|QID|43644|M|43.60,63.24|Z|205; Shimmering Expanse|N|To Erunak Stonespeaker.|
+A Wavespeaker's Trail|QID|43645|M|43.60,63.24|Z|205; Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|43644|
+C Wavespeaker's Trail|QID|43645|QO|2|M|39.15,56.54|Z|205; Shimmering Expanse|N|All three of these clues are at ground level, you dont have to go swimming up above.|
+C Wavespeaker's Trail|QID|43645|QO|3|M|33.07,67.29|Z|205; Shimmering Expanse|N|Inside a building with a hydra type mob named The Goroboros.|
+C Wavespeaker's Trail|QID|43645|QO|1|M|40.51,74.98|Z|205; Shimmering Expanse|N|Right in front of a giant you will need to kill to pick up the clue.|
+T Wavespeaker's Trail|QID|43645|M|43.61,63.23|Z|205; Shimmering Expanse|N|To Erunak Stonespeaker.|
+A Throne of the Tides: Azshara's Power|QID|40341|M|43.61,63.23|Z|205; Shimmering Expanse|N|From Erunak Stonespeaker.|PRE|43645|
 C Azshara's Power|QID|40341|QO|1|M|68.03,27.38|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Travel to the Abyssal Maw.|
 C Azshara's Power|QID|40341|QO|2|M|0.00,0.00|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Enter the Throne of Tides.|
 C Heal the Sea Giant.|SO|1;1|M|49.98,84.29|Z|Abyssal Halls@AbyssalMawShamanAcquisition|N|Cast a heal on the Sea Giant.|QID|40341|
