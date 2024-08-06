@@ -132,10 +132,10 @@ A Spelunking|QID|25812|PRE|25794|M|46.3,46.8|Z|201; Kelp'thar Forest|N|From Erun
 T Spelunking|QID|25812|M|60.27,65.08;64.0,59.8|CS|Z|201; Kelp'thar Forest|N|To Private Pollard.|
 A Debriefing|QID|25824|PRE|25812|M|63.86,59.94|Z|201; Kelp'thar Forest|N|From Erunak Stonespeaker.|
 h Deepmist Grotto|QID|25824|M|63.9,59.9|Z|201; Kelp'thar Forest|N|At Erunak Stonespeaker.|
-C Debriefing|QID|25824|M|63.9,59.9|Z|201; Kelp'thar Forest|N|Talk to Private Pollard to complete this quest.|
+C Debriefing|QID|25824|M|63.9,59.9|Z|201; Kelp'thar Forest|N|Talk to Private Pollard to complete this quest.|CHAT|
 T Debriefing|QID|25824|M|63.8,59.7|Z|201; Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Wake of Destruction|QID|25887|PRE|25824^26007|M|63.8,59.7|Z|201; Kelp'thar Forest|N|From Erunak Stonespeaker.|
-C Wake of Destruction|QID|25887|M|59,70|Z|201; Kelp'thar Forest|N|Swim out of the grotto and head a bit west, where you will find the Famished Great Sharks. Target one from range and use the Orb of Suggestion. \n\nWhen you have a shark, swim near the Zin'Jatar Guardians and use ability 1. You don't have to target the naga.|
+C Wake of Destruction|QID|25887|M|59,70|Z|201; Kelp'thar Forest|N|Swim out of the grotto and head a bit west, where you will find the Famished Great Sharks. Target one from range and use the Orb of Suggestion. \n\nWhen you have a shark, swim near the Zin'Jatar Guardians and use ability 1. You don't have to target the naga.|U|56576|
 T Wake of Destruction|QID|25887|M|63.8,59.7|Z|201; Kelp'thar Forest|N|Use the shark's third ability to return to the grotto and turn the quest in to Erunak Stonespeaker.|
 A Decompression|QID|25888|PRE|25887|RANK|2|M|63.9,59.4|Z|201; Kelp'thar Forest|N|From Moanah Stormhoof.|
 A What? What? In My Gut...?|QID|25885|PRE|25887|RANK|2|M|63.9,59.9|Z|201; Kelp'thar Forest|N|From Private Pollard.|
@@ -158,251 +158,253 @@ T What? What? In My Gut...?|QID|25885|M|63.84,59.66|Z|201; Kelp'thar Forest|N|To
 T The Warden's Time|QID|27708|M|63.84,59.66|Z|201; Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Across the Great Divide|QID|25471|PRE|27708|M|63.8,59.7|Z|201; Kelp'thar Forest|N|From Erunak Stonespeaker.|
 f Kelp'thar Forest|QID|25471|M|42.39,66.12|Z|201; Kelp'thar Forest|N|Grab the flight point from the Swift Seahorse.|
-f Shimmering Expanse|QID|25471|M|57.06,17.11|Z|Shimmering Expanse|N|Grab the flight point from Francis Greene.|
+f Shimmering Expanse|QID|25471|M|57.06,17.11|Z|205; Shimmering Expanse|N|Grab the flight point from Francis Greene.|
 R Across the Great Divide|QID|25471|M|48.31,73.28|CC|Z|201; Kelp'thar Forest|N|Head to the entrance to the cave.|
-T Across the Great Divide|QID|25471|M|56.02,13.68|Z|Shimmering Expanse|N|To Farseer Gadra. Head into the cave.|
-A The Looming Threat|QID|25334|PRE|25471|M|56.02,13.68|Z|Shimmering Expanse|N|From Farseer Gadra.|
-C The Looming Threat|QID|25334|M|56.0,13.7|Z|Shimmering Expanse|N|Speak to Farseer Gadra and tell him you are ready to enter the vision. after a few seconds you will be pulled into a vision. Gadra will explain the current situation in Vashj'ir.|
-T The Looming Threat|QID|25334|M|72.89,37.35|Z|Shimmering Expanse|N|When he is finished speaking, speak to him again to turn in The Looming Threat and be transported back to Damplight Chamber, which is not a peaceful as when you left.|
-A Backed Into a Corner|QID|25164|PRE|25334|M|56.0,13.7|Z|Shimmering Expanse|N|From Farseer Gadra.|
-C Backed Into a Corner|QID|25164|M|56.0,13.8|Z|Shimmering Expanse|N|You will need to fight off the naga until 50 have been defeated. This won't take as long, as you have a lot of help. Once 50 naga have been defeated, Fathom-Lord Zin'jatar comes out. Let the NPCs and elementals pound on him for a few seconds, so he focuses on them, then start helping them kill him. Once he is dead, speak to Farseer Gadra.|
-T Backed Into a Corner|QID|25164|M|56.0,13.7|Z|Shimmering Expanse|N|To Farseer Gadra.|
-A Rundown|QID|25221|PRE|25164|M|55.5,12.5|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-C Rundown|QID|25221|U|54466|M|53.1,18.9;53.1,34.1;59.4,37.3|Z|Shimmering Expanse|CS|N|When you come out of the tunnel, you will see naga swimming off to your left. Use Toshe's Hunting Spears to kill 20 naga. No need to aim, can be done while mounted and moving.|
-T Rundown|QID|25221|M|53.3,33.0|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
-A Silver Tide Hollow|QID|25222|PRE|25221|M|53.3,33.0|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-f Silver Tide Hollow|QID|25222|M|49.52,41.22|Z|Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
-T Silver Tide Hollow|QID|25222|M|49.5,42.1|Z|Shimmering Expanse|N|To Felora Firewreath.|
-A A Distracting Scent|QID|25215|PRE|25222|RANK|2|M|49.6,42.1|Z|Shimmering Expanse|N|From Felora Firewreath.|
-A The Great Sambino|QID|25216|PRE|25222|M|49.6,42.1|Z|Shimmering Expanse|N|From Felora Firewreath.|
-A Don't be Shellfish|QID|25219|PRE|25222|RANK|2|M|49.24,42.57|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-A Slippery Threat|QID|25220|PRE|25222|RANK|2|M|49.13,41.95|Z|Shimmering Expanse|N|From Caretaker Movra.|
-h Silver Tide Hollow|QID|25215|M|49.13,41.95|Z|Shimmering Expanse|N|At Caretaker Movra.|
-C Don't be Shellfish|QID|25219|S|M|49.2,35.8|Z|Shimmering Expanse|L|52975 10|N|Collect Coilshell Sifters.|
-C Slippery Threat|QID|25220|S|M|40.5,37.9;49.2,35.8;61,38.2|Z|Shimmering Expanse|CN|N|Kill Spiketooth Eels.|
-C A Distracting Scent|QID|25215|M|50.35,41.11;50.63,45.51|Z|Shimmering Expanse|CN|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
-T The Great Sambino|QID|25216|M|41.3,34.2|Z|Shimmering Expanse|N|To The Great Sambino.|
-A Undersea Inflation|QID|25218|PRE|25216|M|41.3,34.3|Z|Shimmering Expanse|N|From The Great Sambino.|
-A Crabby Patrons|QID|25360|M|41.2,34.2|Z|Shimmering Expanse|N|From Felice.|
-C Crabby Patrons|QID|25360|S|Z|Shimmering Expanse|N|Kill Crabs.|
-C Undersea Inflation|QID|25218|U|54608|M|42.02,33.82;43.47,32.57;43.91,32.86;44.77,33.29;44.99,33.92;45.67,34.60;47.19,33.61;49.32,35.86|Z|Shimmering Expanse|CN|N|Use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full. \n\nAlso kill crabs until you get Sambino's Air Valve.|
-C Crabby Patrons|QID|25360|M|41.2,40.0;43.7,39.5;48.8,35.2|US|Z|Shimmering Expanse|CN|N|Kill the remaining Crabs.|
-C Crabby Patrons|QID|25360|M|41.2,40.0;43.7,39.5;48.8,35.2|US|Z|Shimmering Expanse|CN|N|Kill the remaining Crabs.|
-T Crabby Patrons|QID|25360|M|41.2,34.2|Z|Shimmering Expanse|N|To Felice.|
-T Undersea Inflation|QID|25218|M|41.2,34.3|Z|Shimmering Expanse|N|To The Great Sambino.|
-A Totem Modification|QID|25217|PRE|25218|M|41.2,34.2|Z|Shimmering Expanse|N|From The Great Sambino.|
-C Totem Modification|QID|25217|M|42.33,33.62|Z|Shimmering Expanse|N|Go to one of the brown/orange patches on the ground and use Sambino's Modified Totem. Defend the totem from whatever sea life comes to destroy it until the Enormous Sea Crab appears.|
-T Totem Modification|QID|25217|M|41.2,34.2|Z|Shimmering Expanse|N|To The Great Sambino.|
-A Back in One Piece|QID|25456|PRE|25217|M|41.2,34.2|Z|Shimmering Expanse|N|From The Great Sambino.|
-C Slippery Threat|QID|25220|US|M|40.5,37.9;49.2,35.8;61,38.2|Z|Shimmering Expanse|CN|N|Kill the remaining Spiketooth Eels.|
-C Don't be Shellfish|QID|25219|M|49.2,35.8|Z|Shimmering Expanse|L|52975 10|N|Collect Coilshell Sifters.|US|
-T A Distracting Scent|QID|25215|M|49.6,42.1|Z|Shimmering Expanse|N|To Felora Firewreath.|
-T Back in One Piece|QID|25456|M|49.6,42.1|Z|Shimmering Expanse|N|To Felora Firewreath.|
-A Toshe's Vengeance|QID|25359|PRE|25456|RANK|1|M|49.6,42.1|Z|Shimmering Expanse|N|From Felora Firewreath.|
-T Slippery Threat|QID|25220|M|49.2,42|Z|Shimmering Expanse|N|To Caretaker Movra.|
-T Don't be Shellfish|QID|25219|M|49.3,42.6|Z|Shimmering Expanse|N|To Earthmender Duarn.|
-T Toshe's Vengeance|QID|25359|M|64.1,42.3|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
-A Vengeful Heart|QID|25439|PRE|25359|RANK|1|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-A Vortex|QID|25441|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-C Vengeful Heart|QID|25439|PRE|25359|S|M|66.3,46.5|Z|Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure you use the Globes of Tumultuous Water after the Naga command the snakes to attack you.|
-C Vortex|QID|25441|M|64.7,45.7|RANK|2|U|54785|Z|Shimmering Expanse|N|Use the Globes of Tumultuous Water to suck up the swarming serpents. |
-C Vengeful Heart|QID|25439|US|M|66.3,46.5|Z|Shimmering Expanse|N|Kill remaining Zin'Jatar Ravagers.|
-T Vortex|QID|25441|M|64.1,42.2|RANK|2|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
-T Vengeful Heart|QID|25439|M|64.1,42.2|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
-A Fathom-Lord Zin'jatar|QID|25440|PRE|25439|M|64.1,42.2|Z|Shimmering Expanse|N|From Toshe Chaosrender.|
-C Fathom-Lord Zin'jatar|QID|25440|M|67.3,49.4|Z|Shimmering Expanse|N|Kill Fathom-Lord Zin'jatar|
+T Across the Great Divide|QID|25471|M|56.02,13.68|Z|205; Shimmering Expanse|N|To Farseer Gadra. Head into the cave.|
+A The Looming Threat|QID|25334|PRE|25471|M|56.02,13.68|Z|205; Shimmering Expanse|N|From Farseer Gadra.|
+C The Looming Threat|QID|25334|M|56.0,13.7|Z|205; Shimmering Expanse|N|Speak to Farseer Gadra and tell him you are ready to enter the vision. after a few seconds you will be pulled into a vision. Gadra will explain the current situation in Vashj'ir.|
+T The Looming Threat|QID|25334|M|72.89,37.35|Z|205; Shimmering Expanse|N|When he is finished speaking, speak to him again to turn in The Looming Threat and be transported back to Damplight Chamber, which is not a peaceful as when you left.|
+A Backed Into a Corner|QID|25164|PRE|25334|M|56.0,13.7|Z|205; Shimmering Expanse|N|From Farseer Gadra.|
+C Backed Into a Corner|QID|25164|M|56.0,13.8|Z|205; Shimmering Expanse|N|You will need to fight off the naga until 50 have been defeated. This won't take as long, as you have a lot of help. Once 50 naga have been defeated, Fathom-Lord Zin'jatar comes out. Let the NPCs and elementals pound on him for a few seconds, so he focuses on them, then start helping them kill him. Once he is dead, speak to Farseer Gadra.|
+T Backed Into a Corner|QID|25164|M|56.0,13.7|Z|205; Shimmering Expanse|N|To Farseer Gadra.|
+A Rundown|QID|25221|PRE|25164|M|55.5,12.5|Z|205; Shimmering Expanse|N|From Toshe Chaosrender.|
+C Rundown|QID|25221|U|54466|M|53.1,18.9;53.1,34.1;59.4,37.3|Z|205; Shimmering Expanse|CS|N|When you come out of the tunnel, you will see naga swimming off to your left. Use Toshe's Hunting Spears to kill 20 naga. No need to aim, can be done while mounted and moving.|
+T Rundown|QID|25221|M|53.3,33.0|Z|205; Shimmering Expanse|N|To Toshe Chaosrender.|
+A Silver Tide Hollow|QID|25222|PRE|25221|M|53.3,33.0|Z|205; Shimmering Expanse|N|From Toshe Chaosrender.|
+f Silver Tide Hollow|QID|25222|M|49.52,41.22|Z|205; Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
+T Silver Tide Hollow|QID|25222|M|49.5,42.1|Z|205; Shimmering Expanse|N|To Felora Firewreath.|
+A A Distracting Scent|QID|25215|PRE|25222|RANK|2|M|49.6,42.1|Z|205; Shimmering Expanse|N|From Felora Firewreath.|
+A The Great Sambino|QID|25216|PRE|25222|M|49.6,42.1|Z|205; Shimmering Expanse|N|From Felora Firewreath.|
+A Don't be Shellfish|QID|25219|PRE|25222|RANK|2|M|49.24,42.57|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+A Slippery Threat|QID|25220|PRE|25222|RANK|2|M|49.13,41.95|Z|205; Shimmering Expanse|N|From Caretaker Movra.|
+h Silver Tide Hollow|QID|25215|M|49.13,41.95|Z|205; Shimmering Expanse|N|At Caretaker Movra.|
+l Don't be Shellfish|QID|25219|QO|1|S|M|49.2,35.8|Z|205; Shimmering Expanse|N|Collect Coilshell Sifters.|
+C Slippery Threat|QID|25220|S|M|40.5,37.9;49.2,35.8;61,38.2|Z|205; Shimmering Expanse|CN|N|Kill Spiketooth Eels.|
+C A Distracting Scent|QID|25215|QO|1<1|M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
+C A Distracting Scent|QID|25215|QO|1<2|M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
+C A Distracting Scent|QID|25215|QO|1<3|M|50.35,41.11;50.63,45.51|Z|205; Shimmering Expanse|CS|N|Swim out of Silver Tide Hollow and mount up. Right-click a naga body at the entrance to drag it, then swim south to Glimmerdeep Gorge to drop it. Drag 3 bodies into the gorge to complete Distracting Scent.|
+T The Great Sambino|QID|25216|M|41.3,34.2|Z|205; Shimmering Expanse|N|To The Great Sambino.|
+A Undersea Inflation|QID|25218|PRE|25216|M|41.3,34.3|Z|205; Shimmering Expanse|N|From The Great Sambino.|
+A Crabby Patrons|QID|25360|M|41.2,34.2|Z|205; Shimmering Expanse|N|From Felice.|
+C Crabby Patrons|QID|25360|S|Z|205; Shimmering Expanse|N|Kill Crabs.|
+C Undersea Inflation|QID|25218|U|54608|M|42.02,33.82;43.47,32.57;43.91,32.86;44.77,33.29;44.99,33.92;45.67,34.60;47.19,33.61;49.32,35.86|Z|205; Shimmering Expanse|CN|N|Use Sambino's Air Balloon near any of the large blueish shells on the sea floor or the green coral formations to fill up the balloon. Keep doing this until you get the message that the balloon is full. \n\nAlso kill crabs until you get Sambino's Air Valve.|
+C Crabby Patrons|QID|25360|M|41.2,40.0;43.7,39.5;48.8,35.2|US|Z|205; Shimmering Expanse|CN|N|Kill the remaining Crabs.|
+C Crabby Patrons|QID|25360|M|41.2,40.0;43.7,39.5;48.8,35.2|US|Z|205; Shimmering Expanse|CN|N|Kill the remaining Crabs.|
+T Crabby Patrons|QID|25360|M|41.2,34.2|Z|205; Shimmering Expanse|N|To Felice.|
+T Undersea Inflation|QID|25218|M|41.2,34.3|Z|205; Shimmering Expanse|N|To The Great Sambino.|
+A Totem Modification|QID|25217|PRE|25218|M|41.2,34.2|Z|205; Shimmering Expanse|N|From The Great Sambino.|
+C Totem Modification|QID|25217|M|42.33,33.62|Z|205; Shimmering Expanse|N|Go to one of the brown/orange patches on the ground and use Sambino's Modified Totem. Defend the totem from whatever sea life comes to destroy it until the Enormous Sea Crab appears.|
+T Totem Modification|QID|25217|M|41.2,34.2|Z|205; Shimmering Expanse|N|To The Great Sambino.|
+A Back in One Piece|QID|25456|PRE|25217|M|41.2,34.2|Z|205; Shimmering Expanse|N|From The Great Sambino.|
+C Slippery Threat|QID|25220|US|M|40.5,37.9;49.2,35.8;61,38.2|Z|205; Shimmering Expanse|CN|N|Kill the remaining Spiketooth Eels.|
+l Don't be Shellfish|QID|25219|QO|1|M|49.2,35.8|Z|205; Shimmering Expanse|N|Collect Coilshell Sifters.|US|
+T A Distracting Scent|QID|25215|M|49.6,42.1|Z|205; Shimmering Expanse|N|To Felora Firewreath.|
+T Back in One Piece|QID|25456|M|49.6,42.1|Z|205; Shimmering Expanse|N|To Felora Firewreath.|
+A Toshe's Vengeance|QID|25359|PRE|25456|RANK|1|M|49.6,42.1|Z|205; Shimmering Expanse|N|From Felora Firewreath.|
+T Slippery Threat|QID|25220|M|49.2,42|Z|205; Shimmering Expanse|N|To Caretaker Movra.|
+T Don't be Shellfish|QID|25219|M|49.3,42.6|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
+T Toshe's Vengeance|QID|25359|M|64.1,42.3|Z|205; Shimmering Expanse|N|To Toshe Chaosrender.|
+A Vengeful Heart|QID|25439|PRE|25359|RANK|1|M|64.1,42.2|Z|205; Shimmering Expanse|N|From Toshe Chaosrender.|
+A Vortex|QID|25441|M|64.1,42.2|Z|205; Shimmering Expanse|N|From Toshe Chaosrender.|
+C Vengeful Heart|QID|25439|PRE|25359|S|M|66.3,46.5|Z|205; Shimmering Expanse|N|Kill Zin'Jatar Ravagers. Make sure you use the Globes of Tumultuous Water after the Naga command the snakes to attack you.|
+C Vortex|QID|25441|M|64.7,45.7|RANK|2|U|54785|Z|205; Shimmering Expanse|N|Use the Globes of Tumultuous Water to suck up the swarming serpents. |
+C Vengeful Heart|QID|25439|US|M|66.3,46.5|Z|205; Shimmering Expanse|N|Kill remaining Zin'Jatar Ravagers.|
+T Vortex|QID|25441|M|64.1,42.2|RANK|2|Z|205; Shimmering Expanse|N|To Toshe Chaosrender.|
+T Vengeful Heart|QID|25439|M|64.1,42.2|Z|205; Shimmering Expanse|N|To Toshe Chaosrender.|
+A Fathom-Lord Zin'jatar|QID|25440|PRE|25439|M|64.1,42.2|Z|205; Shimmering Expanse|N|From Toshe Chaosrender.|
+C Fathom-Lord Zin'jatar|QID|25440|M|67.3,49.4|Z|205; Shimmering Expanse|N|Kill Fathom-Lord Zin'jatar|
 l Luminescent Pearl|L|54614|N|Loot the Luminescent Pearl from Fathom-Lord.|
-A A Pearl of Wisdom|QID|25442|U|54614|M|67.3,49.4|Z|Shimmering Expanse|N|Use the Pearl to start the Quest.|
-T Fathom-Lord Zin'jatar|QID|25440|M|64.1,42.2|Z|Shimmering Expanse|N|To Toshe Chaosrender.|
-T A Pearl of Wisdom|QID|25442|M|49.2,42.6|Z|Shimmering Expanse|N|To Earthmender Duarn.|
-A Nespirah|QID|25890|M|49.2,42.6|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-R Nespirah|QID|25890|CS|M|51.9,48.6;54.09,50.99|Z|Shimmering Expanse|N|Swim into the Entrance to Nespirah. Swim inside and run toward the center. Duarn and Stonespeaker will follow.|
-C Nespirah|QID|25890|M|51.71,51.99|Z|Shimmering Expanse|N|Follow Duarn and Stonespeaker.|
-T Nespirah|QID|25890|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
-A Making Contact|QID|25900|PRE|25890|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-C Making Contact|QID|25900|M|51.7,52.1|Z|Shimmering Expanse|N|Speak with Earthmender Duarn.|
-T Making Contact|QID|25900|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
-A Slave Labor|QID|25907|PRE|25900|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-A Stick it to Them|QID|25908|PRE|25900|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-C Stick it to Them|QID|25908|S|Z|Shimmering Expanse|N|Kill Naga.|
-C Slave Labor|QID|25907|U|56178|M|59.49,52.13;56.73,51.70;55.88,53.61|CN|Z|Shimmering Expanse|N|Use the Rope near Miners.|
-C Stick it to Them|QID|25908|US|M|58.5,53.1|Z|Shimmering Expanse|N|Kill Naga.|
-T Slave Labor|QID|25907|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
-T Stick it to Them|QID|25908|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
-A Capture the Crab|QID|25909|PRE|25907&25908|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-C Capture the Crab|QID|25909|U|56184|M|56.2,47.4;62.6,49.9;52.8,57.1;60.2,63.6|Z|Shimmering Expanse|CN|N|Kill the naga with a Crab following it, use the net to capture the crab and loot it.|
-T Capture the Crab|QID|25909|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
-A Breaking Through|QID|25916|PRE|25909|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-C Breaking Through|QID|25916|M|51.7,52.1|Z|Shimmering Expanse|N|Tell Duarn that you are ready to speak to Nespirah.|
-T Breaking Through|QID|25916|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
-A We Are Not Alone|QID|25917|PRE|25916|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-T We Are Not Alone|QID|25917|M|62.6,49.8|Z|Shimmering Expanse|N|Take a left from where Duarn is. To Captain Taylor.|
-A Body Blows|QID|25919|PRE|25917|M|62.6,49.8|Z|Shimmering Expanse|N|From Captain Taylor.|
-A Hopelessly Gearless|QID|25918|PRE|25917|M|62.7,49.9|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-A Still Valuable|QID|25920|PRE|25917|M|62.8,50.0|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-C Still Valuable|QID|25920|S|M|61.1,50.7;59.4,61;63.2,60|Z|Shimmering Expanse|CN|N|Kill any naga in the area until you have looted 5 Mysterious Pearls.|
-C Hopelessly Gearless|QID|25918|S|Z|Shimmering Expanse|N|Find Idra'kess Weapon Racks and loot the Purloined Polearms from them.|
-C Body Blows|QID|25919|M|63.73,50.86;63.65,52.06;64.76,54.56;61.80,52.57;61.08,51.78;61.08,53.76;61.11,55.39|Z|Shimmering Expanse|CN|N|Find 7 Nespirah Abscesses and attack them. They are small redish nodes along the walls. They can be hard to spot, as they blend in with everything around them, Position Unknown.|
-C Hopelessly Gearless|QID|25918|US|M|63.42,52.49;64.11,53.86;61.58,55.78|Z|Shimmering Expanse|CN|N|Get the remaining Purloined Polearms.|
-C Still Valuable|QID|25920|US|M|61.1,50.7;59.4,61;63.2,60|Z|Shimmering Expanse|CN|L|56194 5|N|Kill Naga for the remaining Pearls.|
-T Body Blows|QID|25919|M|62.6,49.8|Z|Shimmering Expanse|N|To Captain Taylor.|
-T Hopelessly Gearless|QID|25918|M|62.7,49.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-T Still Valuable|QID|25920|M|62.8,50.0|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
-A Overseer Idra'kess|QID|25921|PRE|25918&25919&25920|M|62.6,49.8|Z|Shimmering Expanse|N|From Captain Taylor.|
-C Overseer Idra'kess|QID|25921|M|62.91,56.67;62.63,54.45;60.20,52.84;57.76,54.92|CS|Z|Shimmering Expanse|N|Kill the 2 naga near Overseer Idra'kess to turn off the shield and kill him. When told to, lure him over top the Nespirah Fluid.|
-T Overseer Idra'kess|QID|25921|M|60.15,52.84;62.82,57.23;51.65,52.23|Z|Shimmering Expanse|CC|N|To Earthmender Duarn.|
-A Waking the Beast|QID|25922|PRE|25921|M|51.66,52.21|Z|Shimmering Expanse|N|From Earthmender Duarn.|
-C Waking the Beast|QID|25922|M|51.58,55.43;50.37,55.42|CS|Z|Shimmering Expanse|N|Listen as Duarn speaks to Nespirah. Follow Erunak to his Seahorse.|
-T Waking the Beast|QID|25922|M|49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
-A Cold Welcome|QID|25536|PRE|25922|M|49.2,57.0|Z|Shimmering Expanse|N|From Captain Taylor.|
-A A Powerful Need To Eat|QID|25535|PRE|25922|M|49.47,57.35|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-f Tranguil Wash|QID|25535|M|48.6,57.38|N|Grab the flight point from the Swift Seahorse.|Z|Shimmering Expanse|
-T A Powerful Need To Eat|QID|25535|M|48.9,49.2|Z|Shimmering Expanse|N|To Divemaster Birmingham.|
-A Clamming Up|QID|25539|PRE|25535|M|48.9,49.2|Z|Shimmering Expanse|N|From Divemaster Birmingham.|
-A Art of Attraction|QID|25537|PRE|25535|M|49,49.2|Z|Shimmering Expanse|N|From Engineer Hexascrub.|
-C Cold Welcome|QID|25536|S|M|43.2,49.9|Z|Shimmering Expanse|N|Kill Tidehunters.|
-C Clamming Up|QID|25539|M|45.5,52.5;42.82,48.53;41.74,46.77|Z|Shimmering Expanse|CN|N|Collect Clams.|S|
-C Art of Attraction|QID|25537|U|54840|M|42.66,49.43;45.68,52.53;48.69,53.92;49.99,51.23|Z|Shimmering Expanse|CN|N|Swim up to the anemones on the cliff walls. When you are near one, use the Anemone Chemical Extraction Device.|
-C Clamming Up|QID|25539|M|45.5,52.5;42.82,48.53;41.74,46.77|Z|Shimmering Expanse|CN|N|Collect Clams.|US|
-C Cold Welcome|QID|25536|US|M|43.2,49.9|Z|Shimmering Expanse|N|Kill remaining Tidehunters.|
-T Clamming Up|QID|25539|M|48.9,49.2|Z|Shimmering Expanse|N|To Divemaster Birmingham.|
-T Art of Attraction|QID|25537|M|49,49.2|Z|Shimmering Expanse|N|To Engineer Hexascrub.|
-A Odor Coater|QID|25538|PRE|25537|M|49,49.2|Z|Shimmering Expanse|N|From Engineer Hexascrub.|
-C Odor Coater|QID|25538|M|49.06,52.62;48.09,53.23;46.98,52.54;45.24,52.01;47.46,50.82|CN|U|54851|Z|Shimmering Expanse|N|Swim around to the Glimmerdeep Clam Divers and use Anemone Chemical Application Device on them.|
-T Odor Coater|QID|25538|M|49,49.2|Z|Shimmering Expanse|N|To Engineer Hexascrub.|
-A Bellies Await|QID|25540|PRE|25538|M|49,49.2|Z|Shimmering Expanse|N|From Divemaster Birmingham.|
-T Cold Welcome|QID|25536|M|46.63,57.46;49.2,57|Z|Shimmering Expanse|CC|N|To Captain Taylor.|
-T Bellies Await|QID|25540|M|49.46,57.40|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
-A An Occupation of Time|QID|25581|PRE|25536&25540|RANK|2|M|49.69,57.15|Z|Shimmering Expanse|N|From Levia Dreamwalker.|
-A Swift Approach|QID|25580|RANK|1|PRE|25536&25540|M|49.20,56.99|Z|Shimmering Expanse|N|From Captain Taylor.|
-A A Better Vantage|QID|25582|PRE|25536&25540|M|49.20,56.99|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-A Caught Off-Guard|QID|25579|RANK|1|PRE|25536&25540|M|49.2,56.9|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-C Caught Off-Guard|QID|25579|RANK|1|S|Z|Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
-C Swift Approach|QID|25580|RANK|1|S|Z|Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
-C Lestharia Vashj statue|QID|25581|QO|1|M|39.66,58.96|Z|Shimmering Expanse|NC|N|Read the inscription at the Lestharia Vashj statue.|; Lestharia Vashj statue: 1/1
-C Queen Azshara statue|QID|25581|QO|2|M|38.62,58.96|Z|Shimmering Expanse|NC|N|Read the inscription at the Queen Azshara statue.|; Queen Azshara statue: 1/1
-C Northern Quel'Dormir Gardens|QID|25582|QO|1|M|39.30,58.58|Z|Shimmering Expanse|NC|N|Head to the waypoint to scout the Northern gardens.|
-C High Priestess Siralen statue|QID|25581|QO|4|M|38.46,66.05|Z|Shimmering Expanse|NC|N|Read the inscription at the High Priestess Siralen statue.|; High Priestess Siralen statue: 1/1
-C Ranger Valarian statue|QID|25581|QO|3|M|39.73,67.70|Z|Shimmering Expanse|NC|N|Read the inscription at the Ranger Valarian statue.|
-A Upon the Scene of Battle|QID|25583|PRE||M|40.52,75.42|Z|Shimmering Expanse|N|From the skull on the ground.|;Grail says this needs PRE|27393, but it doesn't. Empty PRE tag inserted so Grail integration can't overwrite.
-C Structures south of Quel'Dormir Gardens scouted|QID|25582|QO|3|M|40.49,74.95|Z|Shimmering Expanse|NC|N|Head to the waypoint to scout the Structures south of Quel'Dormir Gardens.|; Structures south of Quel'Dormir Gardens scouted: 1/1
-C Tunnel west of Quel'Dormir Gardens scouted|QID|25582|QO|2|M|35.24,63.06|Z|Shimmering Expanse|NC|N|Head to the waypoint to get the Tunnel west of Guel'Dormir Garderns scouted.|; Tunnel west of Quel'Dormir Gardens scouted: 1/1
-C A Better Vantage|QID|25582|M|39.17,56.89|Z|Shimmering Expanse|N|Scout the area.|
-C Swift Approach|QID|25580|RANK|1|US|M|40.3,62.3;41.37,65.78;40.87,68.85;41.81,71.86;42.23,74.49|Z|Shimmering Expanse|CN|N|Destroy Azsh'ir Monitors.|
-C Caught Off-Guard|QID|25579|RANK|1|US|M|41.7,53.4;39.1,63.6;38.8,78.8;33.2,65.9;43.3,67.1;39,62|Z|Shimmering Expanse|CN|N|Kill remaining Azsh'ir Patrollers.|
+A A Pearl of Wisdom|QID|25442|U|54614|M|67.3,49.4|Z|205; Shimmering Expanse|N|Use the Pearl to start the Quest.|
+T Fathom-Lord Zin'jatar|QID|25440|M|64.1,42.2|Z|205; Shimmering Expanse|N|To Toshe Chaosrender.|
+T A Pearl of Wisdom|QID|25442|M|49.2,42.6|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
+A Nespirah|QID|25890|M|49.2,42.6|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+R Nespirah|QID|25890|CS|M|51.9,48.6;54.09,50.99|Z|205; Shimmering Expanse|N|Swim into the Entrance to Nespirah. Swim inside and run toward the center. Duarn and Stonespeaker will follow.|
+C Nespirah|QID|25890|M|51.71,51.99|Z|205; Shimmering Expanse|N|Follow Duarn and Stonespeaker.|
+T Nespirah|QID|25890|M|51.7,52.1|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
+A Making Contact|QID|25900|PRE|25890|M|51.7,52.1|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+C Making Contact|QID|25900|M|51.7,52.1|Z|205; Shimmering Expanse|N|Speak with Earthmender Duarn.|
+T Making Contact|QID|25900|M|51.7,52.1|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
+A Slave Labor|QID|25907|PRE|25900|M|51.7,52.1|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+A Stick it to Them|QID|25908|PRE|25900|M|51.7,52.1|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+C Stick it to Them|QID|25908|S|Z|205; Shimmering Expanse|N|Kill Naga.|
+C Slave Labor|QID|25907|U|56178|M|59.49,52.13;56.73,51.70;55.88,53.61|CN|Z|205; Shimmering Expanse|N|Use the Rope near Miners.|
+C Stick it to Them|QID|25908|US|M|58.5,53.1|Z|205; Shimmering Expanse|N|Kill Naga.|
+T Slave Labor|QID|25907|M|51.7,52.1|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
+T Stick it to Them|QID|25908|M|51.7,52.1|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
+A Capture the Crab|QID|25909|PRE|25907&25908|M|51.7,52.1|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+C Capture the Crab|QID|25909|U|56184|M|56.2,47.4;62.6,49.9;52.8,57.1;60.2,63.6|Z|205; Shimmering Expanse|CN|N|Kill the naga with a Crab following it, use the net to capture the crab and loot it.|
+T Capture the Crab|QID|25909|M|51.7,52.1|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
+A Breaking Through|QID|25916|PRE|25909|M|51.7,52.1|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+C Breaking Through|QID|25916|M|51.7,52.1|Z|205; Shimmering Expanse|N|Tell Duarn that you are ready to speak to Nespirah.|
+T Breaking Through|QID|25916|M|51.7,52.1|Z|205; Shimmering Expanse|N|To Earthmender Duarn.|
+A We Are Not Alone|QID|25917|PRE|25916|M|51.7,52.1|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+T We Are Not Alone|QID|25917|M|62.6,49.8|Z|205; Shimmering Expanse|N|Take a left from where Duarn is. To Captain Taylor.|
+A Body Blows|QID|25919|PRE|25917|M|62.6,49.8|Z|205; Shimmering Expanse|N|From Captain Taylor.|
+A Hopelessly Gearless|QID|25918|PRE|25917|M|62.7,49.9|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
+A Still Valuable|QID|25920|PRE|25917|M|62.8,50.0|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
+C Still Valuable|QID|25920|S|M|61.1,50.7;59.4,61;63.2,60|Z|205; Shimmering Expanse|CN|N|Kill any naga in the area until you have looted 5 Mysterious Pearls.|
+C Hopelessly Gearless|QID|25918|S|Z|205; Shimmering Expanse|N|Find Idra'kess Weapon Racks and loot the Purloined Polearms from them.|
+C Body Blows|QID|25919|M|63.73,50.86;63.65,52.06;64.76,54.56;61.80,52.57;61.08,51.78;61.08,53.76;61.11,55.39|Z|205; Shimmering Expanse|CN|N|Find 7 Nespirah Abscesses and attack them. They are small redish nodes along the walls. They can be hard to spot, as they blend in with everything around them, Position Unknown.|
+C Hopelessly Gearless|QID|25918|US|M|63.42,52.49;64.11,53.86;61.58,55.78|Z|205; Shimmering Expanse|CN|N|Get the remaining Purloined Polearms.|
+C Still Valuable|QID|25920|US|M|61.1,50.7;59.4,61;63.2,60|Z|205; Shimmering Expanse|CN|L|56194 5|N|Kill Naga for the remaining Pearls.|
+T Body Blows|QID|25919|M|62.6,49.8|Z|205; Shimmering Expanse|N|To Captain Taylor.|
+T Hopelessly Gearless|QID|25918|M|62.7,49.9|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
+T Still Valuable|QID|25920|M|62.8,50.0|Z|205; Shimmering Expanse|N|To Wavespeaker Valoren.|
+A Overseer Idra'kess|QID|25921|PRE|25918&25919&25920|M|62.6,49.8|Z|205; Shimmering Expanse|N|From Captain Taylor.|
+C Overseer Idra'kess|QID|25921|M|62.91,56.67;62.63,54.45;60.20,52.84;57.76,54.92|CS|Z|205; Shimmering Expanse|N|Kill the 2 naga near Overseer Idra'kess to turn off the shield and kill him. When told to, lure him over top the Nespirah Fluid.|
+T Overseer Idra'kess|QID|25921|M|60.15,52.84;62.82,57.23;51.65,52.23|Z|205; Shimmering Expanse|CC|N|To Earthmender Duarn.|
+A Waking the Beast|QID|25922|PRE|25921|M|51.66,52.21|Z|205; Shimmering Expanse|N|From Earthmender Duarn.|
+C Waking the Beast|QID|25922|M|51.58,55.43;50.37,55.42|CS|Z|205; Shimmering Expanse|N|Listen as Duarn speaks to Nespirah. Follow Erunak to his Seahorse.|
+T Waking the Beast|QID|25922|M|49.2,57|Z|205; Shimmering Expanse|N|To Captain Taylor.|
+A Cold Welcome|QID|25536|PRE|25922|M|49.2,57.0|Z|205; Shimmering Expanse|N|From Captain Taylor.|
+A A Powerful Need To Eat|QID|25535|PRE|25922|M|49.47,57.35|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
+f Tranguil Wash|QID|25535|M|48.6,57.38|N|Grab the flight point from the Swift Seahorse.|Z|205; Shimmering Expanse|
+T A Powerful Need To Eat|QID|25535|M|48.9,49.2|Z|205; Shimmering Expanse|N|To Divemaster Birmingham.|
+A Clamming Up|QID|25539|PRE|25535|M|48.9,49.2|Z|205; Shimmering Expanse|N|From Divemaster Birmingham.|
+A Art of Attraction|QID|25537|PRE|25535|M|49,49.2|Z|205; Shimmering Expanse|N|From Engineer Hexascrub.|
+C Cold Welcome|QID|25536|S|M|43.2,49.9|Z|205; Shimmering Expanse|N|Kill Tidehunters.|
+C Clamming Up|QID|25539|M|45.5,52.5;42.82,48.53;41.74,46.77|Z|205; Shimmering Expanse|CN|N|Collect Clams.|S|
+C Art of Attraction|QID|25537|U|54840|M|42.66,49.43;45.68,52.53;48.69,53.92;49.99,51.23|Z|205; Shimmering Expanse|CN|N|Swim up to the anemones on the cliff walls. When you are near one, use the Anemone Chemical Extraction Device.|
+C Clamming Up|QID|25539|M|45.5,52.5;42.82,48.53;41.74,46.77|Z|205; Shimmering Expanse|CN|N|Collect Clams.|US|
+C Cold Welcome|QID|25536|US|M|43.2,49.9|Z|205; Shimmering Expanse|N|Kill remaining Tidehunters.|
+T Clamming Up|QID|25539|M|48.9,49.2|Z|205; Shimmering Expanse|N|To Divemaster Birmingham.|
+T Art of Attraction|QID|25537|M|49,49.2|Z|205; Shimmering Expanse|N|To Engineer Hexascrub.|
+A Odor Coater|QID|25538|PRE|25537|M|49,49.2|Z|205; Shimmering Expanse|N|From Engineer Hexascrub.|
+C Odor Coater|QID|25538|M|49.06,52.62;48.09,53.23;46.98,52.54;45.24,52.01;47.46,50.82|CN|U|54851|Z|205; Shimmering Expanse|N|Swim around to the Glimmerdeep Clam Divers and use Anemone Chemical Application Device on them.|
+T Odor Coater|QID|25538|M|49,49.2|Z|205; Shimmering Expanse|N|To Engineer Hexascrub.|
+A Bellies Await|QID|25540|PRE|25538|M|49,49.2|Z|205; Shimmering Expanse|N|From Divemaster Birmingham.|
+T Cold Welcome|QID|25536|M|46.63,57.46;49.2,57|Z|205; Shimmering Expanse|CC|N|To Captain Taylor.|
+T Bellies Await|QID|25540|M|49.46,57.40|Z|205; Shimmering Expanse|N|To Wavespeaker Valoren.|
+A An Occupation of Time|QID|25581|PRE|25536&25540|RANK|2|M|49.69,57.15|Z|205; Shimmering Expanse|N|From Levia Dreamwalker.|
+A Swift Approach|QID|25580|RANK|1|PRE|25536&25540|M|49.20,56.99|Z|205; Shimmering Expanse|N|From Captain Taylor.|
+A A Better Vantage|QID|25582|PRE|25536&25540|M|49.20,56.99|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
+A Caught Off-Guard|QID|25579|RANK|1|PRE|25536&25540|M|49.2,56.9|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
+C Caught Off-Guard|QID|25579|RANK|1|S|Z|205; Shimmering Expanse|N|Kill Azsh'ir Patrollers.|
+C Swift Approach|QID|25580|RANK|1|S|Z|205; Shimmering Expanse|N|Destroy Azsh'ir Monitors.|
+C Lestharia Vashj statue|QID|25581|QO|1|M|39.66,58.96|Z|205; Shimmering Expanse|NC|N|Read the inscription at the Lestharia Vashj statue.|; Lestharia Vashj statue: 1/1
+C Queen Azshara statue|QID|25581|QO|2|M|38.62,58.96|Z|205; Shimmering Expanse|NC|N|Read the inscription at the Queen Azshara statue.|; Queen Azshara statue: 1/1
+C Northern Quel'Dormir Gardens|QID|25582|QO|1|M|39.30,58.58|Z|205; Shimmering Expanse|NC|N|Head to the waypoint to scout the Northern gardens.|
+C High Priestess Siralen statue|QID|25581|QO|4|M|38.46,66.05|Z|205; Shimmering Expanse|NC|N|Read the inscription at the High Priestess Siralen statue.|; High Priestess Siralen statue: 1/1
+C Ranger Valarian statue|QID|25581|QO|3|M|39.73,67.70|Z|205; Shimmering Expanse|NC|N|Read the inscription at the Ranger Valarian statue.|
+A Upon the Scene of Battle|QID|25583|PRE||M|40.52,75.42|Z|205; Shimmering Expanse|N|From the skull on the ground.|;Grail says this needs PRE|27393, but it doesn't. Empty PRE tag inserted so Grail integration can't overwrite.
+C Structures south of Quel'Dormir Gardens scouted|QID|25582|QO|3|M|40.49,74.95|Z|205; Shimmering Expanse|NC|N|Head to the waypoint to scout the Structures south of Quel'Dormir Gardens.|; Structures south of Quel'Dormir Gardens scouted: 1/1
+C Tunnel west of Quel'Dormir Gardens scouted|QID|25582|QO|2|M|35.24,63.06|Z|205; Shimmering Expanse|NC|N|Head to the waypoint to get the Tunnel west of Guel'Dormir Garderns scouted.|; Tunnel west of Quel'Dormir Gardens scouted: 1/1
+C A Better Vantage|QID|25582|M|39.17,56.89|Z|205; Shimmering Expanse|N|Scout the area.|
+C Swift Approach|QID|25580|RANK|1|US|M|40.3,62.3;41.37,65.78;40.87,68.85;41.81,71.86;42.23,74.49|Z|205; Shimmering Expanse|CN|N|Destroy Azsh'ir Monitors.|
+C Caught Off-Guard|QID|25579|RANK|1|US|M|41.7,53.4;39.1,63.6;38.8,78.8;33.2,65.9;43.3,67.1;39,62|Z|205; Shimmering Expanse|CN|N|Kill remaining Azsh'ir Patrollers.|
 A Piece of the Past|QID|27716|RANK|2|U|62281|N|If you are VERY lucky, you have looted an Ancient Elven Etching from one of the naga (2% chance). Accept the quest. If not, either keep killing Naga until you do.|
-T An Occupation of Time|QID|25581|RANK|2|M|46.74,57.52;49.6,57.1|Z|Shimmering Expanse|CC|N|To Levia Dreamwalker.|
-T Piece of the Past|QID|27716|RANK|2|M|49.6,57.1|Z|Shimmering Expanse|N|To Levia Dreamwalker.|
-T Swift Approach|QID|25580|RANK|1|M|49.2,57|Z|Shimmering Expanse|N|To Captain Taylor.|
-T A Better Vantage|QID|25582|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-T Caught Off-Guard|QID|25579|RANK|1|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-T Upon the Scene of Battle|QID|25583|M|49.2,56.9|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-A Visions of the Past: The Invasion of Vashj'ir|QID|25760|PRE|25583|RANK|1|U|55171|M|49.3,57.0|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: The Invasion of Vashj'ir|QID|25619|RANK|1|U|55171|BUFF|73974|M|40.50,75.58|Z|Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|;Buff ID 73974 untested. When an author confirms the autocomplete works, please remove "Close this step" and this comment.
-A Reoccupation|QID|25619|M|40.5,75.4|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
-C Reoccupation|QID|25619|M|39.32,78.26;38.27,79.35;37.61,75.62;38.89,72.13|CN|Z|Shimmering Expanse|N|Kill Kvaldir Defenders.|
-T Reoccupation|QID|25619|M|40.5,75.4|Z|Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
-A The Revered Lady|QID|25620|PRE|25619|M|40.5,75.4|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
-T The Revered Lady|QID|25620|M|39.4,59|Z|Shimmering Expanse|N|To Lady Naz'jar.|
-A To the Fathom-Lord's Call|QID|25637|PRE|25620|M|39.4,59|Z|Shimmering Expanse|N|From Lady Naz'jar.|
-A Built to Last|QID|25658|PRE|25620|RANK|1|M|39,58.6|Z|Shimmering Expanse|N|From Sira'kess Tide Priestess.|
-C To the Fathom-Lord's Call|QID|25637|S|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|Shimmering Expanse|CN|N|Kill Kvaldir.|
-C Built to Last|QID|25658|RANK|1|M|34.6,65.4;33.97,68.18;32.27,67.22;31.67,64.89;30.23,64.38;31.69,58.88|CN|N|Activate the defenses which look like blue basins.|Z|Shimmering Expanse|
-C To the Fathom-Lord's Call|QID|25637|US|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|Shimmering Expanse|CN|N|Kill the remaining Kvaldir.|
-T Built to Last|QID|25658|RANK|1|M|38.99,58.71|Z|Shimmering Expanse|N|To Sira'kess Tide Priestess.|
-T To the Fathom-Lord's Call|QID|25637|M|36.5,78.5|Z|Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|
-A Not Soon Forgotten|QID|25659|PRE|25637|M|36.5,78.5|Z|Shimmering Expanse|N|From Fathom-Lord Zin'jatar.|
-C Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|N|Swim up the tunnel in front of you until you find Varkul the Unrelenting. He will be surrounded by 5 Sira'kess Sea Witches and some other naga. As long as they are not being attacked, they will channel spell that causes Varkul to take increased damage. So aatack Varkul until he calls in the other kvaldir. Then let the other naga tank him while you kill off the adds.|
-T Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|Shimmering Expanse|N|(UI Alert)|
-T Visions of the Past: The Invasion of Vashj'ir|QID|25760|M|40.58,75.03|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
-A Looking Forward|QID|25747|PRE|25760|M|40.58,75.03|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-T Looking Forward|QID|25747|M|33.2,68.4|Z|Shimmering Expanse|N|Jump on the Tamed Seahorse for a ride to Admiral Dvorek.|
-A Clear Goals|QID|25748|PRE|25747|M|38.7,78.4|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-A Not Entirely Unprepared|QID|25749|PRE|25747|M|33.19,68.33|Z|Shimmering Expanse|N|From Captain Taylor.|
-A Properly Inspired|QID|25751|PRE|25747|M|33,69.2|Z|Shimmering Expanse|N|From Engineer Hexascrub.|
-C Properly Inspired|QID|25751|S|M|30.7,82.6|L|55965 8|Z|Shimmering Expanse|N|Find 8 Bloated Kelp Bulbs.|
-C Not Entirely Unprepared|QID|25749|S|U|56247|M|31.8,75|Z|Shimmering Expanse|N|Use the Box of Crossbow Bolts while targeting Alliance Lookouts.|
-C Clear Goals|QID|25748|M|28.3,81.6;37.2,79.1|Z|Shimmering Expanse|CN|N|Kill 10 of the naga forces at the south end of the ruins.|
-C Not Entirely Unprepared|QID|25749|US|U|56247|M|31.8,75|Z|Shimmering Expanse|N|Use the Box of Crossbow Bolts while targeting Alliance Lookouts.|
-C Properly Inspired|QID|25751|US|M|30.7,82.6|Z|Shimmering Expanse|N|Find remaining Bloated Kelp Bulbs.|
-T Properly Inspired|QID|25751|M|33,69.2|Z|Shimmering Expanse|N|To Engineer Hexascrub.|
-T Not Entirely Unprepared|QID|25749|M|33.19,68.33|Z|Shimmering Expanse|N|To Captain Taylor.|
-T Clear Goals|QID|25748|M|33.01,67.73|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-A Swift Action|QID|25752|PRE|25748&25749&25751|M|33.01,67.73|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-C Swift Action|QID|25752|M|33,69.2|Z|Shimmering Expanse|N|Go outside and speak to Engineer Hexascrub to start the attack.|
-T Swift Action|QID|25752|M|39.10,78.71|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-A Gauging Success|QID|25754|PRE|25752|M|39.10,78.71|Z|Shimmering Expanse|N|From Admiral Dvorek.|
-A Fallen But Not Forgotten|QID|25753|PRE|25752|M|39.08,78.52|Z|Shimmering Expanse|N|From Captain Taylor.|
-C Fallen But Not Forgotten|QID|25753|S|M|32.2,79.2;29,79.8;37.7,82;29.4,77.5|Z|Shimmering Expanse|CN|CHAT|N|Speak to Injured Alliance Volunteers.|
-C Northern Tunnel|QID|25754|QO|1|M|33.0,67.7|Z|Shimmering Expanse|
-C Northwestern Terrace|QID|25754|QO|2|M|30.73,72.46|Z|Shimmering Expanse|
-C Fallen But Not Forgotten|QID|25753|US|M|32.2,79.2;29,79.8;37.7,82;29.4,77.5|Z|Shimmering Expanse|CN|CHAT|N|Finish speaking to Injured Alliance Volunteers.|
-T Gauging Success|QID|25754|M|39.10,78.71|Z|Shimmering Expanse|N|To Admiral Dvorek.|
-T Fallen But Not Forgotten|QID|25753|M|39.08,78.52|Z|Shimmering Expanse|N|To Captain Taylor.|
-A Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|PRE|25753&25754|M|39.20,78.61|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|U|55171|BUFF|77565|M|28.9,78.7|Z|Shimmering Expanse|N|Swim through the tunnel to the west and use the Blade of the Naz'jar Battlemaiden.|
-A By Her Lady's Word|QID|25858|M|29.1,78.6|Z|Shimmering Expanse|N|From Lady Naz'jar.|
-N Speak to Fathom-Lord Zin'jatar|QID|25858|QO|1|M|34.45,78.65|Z|Shimmering Expanse|N|Speak to Fathom-Lord Zin'jatar.|; Speak to Fathom-Lord Zin'jatar: 1/1
-N Speak to Overseer Idra'kess|QID|25858|QO|3|M|36.79,79.73|Z|Shimmering Expanse|N|Speak to Overseer Idra'kess.|; Speak to Overseer Idra'kess: 1/1
-C By Her Lady's Word|QID|25858|M|39.19,78.01|Z|Shimmering Expanse|N|Finally, speak with Lady Sira'kess.|
-T By Her Lady's Word|QID|25858|M|46.2,79.5|Z|Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
-A No Trespass Forgiven|QID|25859|PRE|25858|M|46.2,79.5|Z|Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
-A Stolen Property|QID|25862|PRE|25858|M|46.4,78.6|Z|Shimmering Expanse|N|From Naz'jar Honor Guard|
-C No Trespass Forgiven|QID|25859|S|Z|Shimmering Expanse|N|Kill Kvaldir.|
-A Setting An Example|QID|25861|PRE|25858|M|57.2,85.2|Z|Shimmering Expanse|N|From Executioner Verthress.|
-C Setting An Example|QID|25861|M|58.25,86.36;57.13,85.07|Z|Shimmering Expanse|CN|N|Find a Kvaldir High-Shaman in one of the buildings to either side of you. You don't have to kill him, simply kite him back to Executioner Verthress. Once there, Verthress will kill the shaman and you will get the quest complete message.|
-T Setting An Example|QID|25861|M|57.2,85.2|Z|Shimmering Expanse|N|To Executioner Verthress.|
-T Stolen Property|QID|25862|M|57.2,89.9|Z|Shimmering Expanse|N|Click the Crucible of Nazsharin to turn the quest in.|
-A Chosen Burden|QID|25863|PRE|25862|M|57.2,89.9|Z|Shimmering Expanse|N|From Crucible of Nazsharin.|
-C No Trespass Forgiven|QID|25859|US|M|51.76,84.18|Z|Shimmering Expanse|N|Kill the remaining Kvaldir.|
-T No Trespass Forgiven|QID|25859|M|46.2,79.5|Z|Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
-T Chosen Burden|QID|25863|M|46.2,79.5|Z|Shimmering Expanse|N|To Lady Naz'jar.|
-A The Culmination of Our Efforts|QID|26191|PRE|25859&25863|M|46.2,79.5|Z|Shimmering Expanse|N|From Lady Naz'jar.|
-T The Culmination of Our Efforts|QID|26191|M|46.2,79.5|Z|Shimmering Expanse|N|To Lady Naz'jar.|
-T Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|M|29.5,78.9|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
-A Losing Ground|QID|25892|PRE|25755|M|29.5,78.9|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-C Losing Ground|QID|25892|M|29.5,78.9|Z|Shimmering Expanse|N|Mount the Tamed Seahorse next to the questgiver to be taken to the Forward Base. As soon as you get there, you will be told that the naga attacked the base while you were gone.|
-T Losing Ground|QID|25892|M|49.16,57.01|Z|Shimmering Expanse|N|To Captain Taylor.|
-A Desperate Plan|QID|25893|PRE|25892|M|49.16,57.01|Z|Shimmering Expanse|N|From Captain Taylor.|
-T Desperate Plan|QID|25893|M|56.9,80.5|Z|Shimmering Expanse|N|To Engineer Hexascrub.|
-A Unfurling Plan|QID|25897|PRE|25893|M|56.9,80.5|Z|Shimmering Expanse|N|From Engineer Hexascrub.|
-A Come Prepared|QID|25895|PRE|25893|M|56.9,80.5|Z|Shimmering Expanse|N|From Engineer Hexascrub.|
-A Hostile Waters|QID|25894|PRE|25893|M|56.9,80.5|Z|Shimmering Expanse|N|From Jorlan Trueblade.|
-C Unfurling Plan|QID|25897|S|M|57.3,86.1;57.2,89.7;53.3,84;51.1,84.4;45.8,79.7|Z|Shimmering Expanse|CN|N|Kill Kvaldir until you have 8 Coils of Kvaldir Rope. You can also find coils of rope on the ground.|
-C Hostile Waters|QID|25894|S|Z|Shimmering Expanse|N|Kill 10 Muckskin Scroungers.|
-C Come Prepared|QID|25895|M|61.5,86|Z|Shimmering Expanse|N|Swim inside the ship to find the Alliance Survival Kit.|
-C Hostile Waters|QID|25894|US|M|49.3,85.7;61,84.2;49.5,87.4|Z|Shimmering Expanse|CN|N|Kill the remaining Muckskin Scroungers.|
-C Unfurling Plan|QID|25897|US|M|57.3,86.1;57.2,89.7;53.3,84;51.1,84.4;45.8,79.7|Z|Shimmering Expanse|CN|N|Kill Kvaldir until you have 8 Coils of Kvaldir Rope. You can also find coils of rope on the ground.|
-T Unfurling Plan|QID|25897|M|56.9,80.5|Z|Shimmering Expanse|N|To Engineer Hexascrub.|
-T Hostile Waters|QID|25894|M|56.9,80.5|Z|Shimmering Expanse|N|To Engineer Hexascrub.|
-T Come Prepared|QID|25895|M|56.9,80.5|Z|Shimmering Expanse|N|To Engineer Hexascrub.|
-A Honor and Privilege|QID|25898|PRE|25894&25895&25897|M|56.9,80.5|Z|Shimmering Expanse|N|From Engineer Hexascrub.|
-C Honor and Privilege|QID|25898|U|56188|M|56.6,80.4|Z|Shimmering Expanse|N|Swim straight up to the surface (You may have to jump near the balloon to get the credit for swimming to it.). Loot the Rescue Flare from the crate next to Jorlan Trueblade and fire a flare at the Alliance ships.|
-T Honor and Privilege|QID|25898|M|56.9,80.5|Z|Shimmering Expanse|N|To Jorlan Trueblade.|
-A Welcome News|QID|25911|PRE|25898|RANK|1|M|56.6,80.4|Z|Shimmering Expanse|N|From Jorlan Trueblade.|
-T Welcome News|QID|25911|M|46.49,57.45;49.2,57|CS|Z|Shimmering Expanse|N|To Captain Taylor.|
-A Visions of the Past: Rise from the Deep|QID|25626|PRE|25911|M|49.43,57.53|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
-U Visions of the Past: Rise from the Deep|QID|25626|M|33.1,77.8|U|55171|BUFF|78264|Z|Shimmering Expanse|N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir. In the center of the temple, you will find the Crucible. Swim up to a ledge just behind to find the point where you can enter the vision.|
-A Devout Assembly|QID|25896|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
-A Her Lady's Hand|QID|25629|M|33.1,75.9|Z|Shimmering Expanse|N|From Lady Naz'jar.|
+T An Occupation of Time|QID|25581|RANK|2|M|46.74,57.52;49.6,57.1|Z|205; Shimmering Expanse|CC|N|To Levia Dreamwalker.|
+T Piece of the Past|QID|27716|RANK|2|M|49.6,57.1|Z|205; Shimmering Expanse|N|To Levia Dreamwalker.|
+T Swift Approach|QID|25580|RANK|1|M|49.2,57|Z|205; Shimmering Expanse|N|To Captain Taylor.|
+T A Better Vantage|QID|25582|M|49.2,56.9|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
+T Caught Off-Guard|QID|25579|RANK|1|M|49.2,56.9|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
+T Upon the Scene of Battle|QID|25583|M|49.2,56.9|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
+A Visions of the Past: The Invasion of Vashj'ir|QID|25760|PRE|25583|RANK|1|U|55171|M|49.3,57.0|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
+U Visions of the Past: The Invasion of Vashj'ir|QID|25619|RANK|1|U|55171|BUFF|73974|M|40.50,75.58|Z|205; Shimmering Expanse|N|Use the Blade of the Naz'jar Battlemaiden to start the vision. Close this step.|;Buff ID 73974 untested. When an author confirms the autocomplete works, please remove "Close this step" and this comment.
+A Reoccupation|QID|25619|M|40.5,75.4|Z|205; Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
+C Reoccupation|QID|25619|M|39.32,78.26;38.27,79.35;37.61,75.62;38.89,72.13|CN|Z|205; Shimmering Expanse|N|Kill Kvaldir Defenders.|
+T Reoccupation|QID|25619|M|40.5,75.4|Z|205; Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
+A The Revered Lady|QID|25620|PRE|25619|M|40.5,75.4|Z|205; Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
+T The Revered Lady|QID|25620|M|39.4,59|Z|205; Shimmering Expanse|N|To Lady Naz'jar.|
+A To the Fathom-Lord's Call|QID|25637|PRE|25620|M|39.4,59|Z|205; Shimmering Expanse|N|From Lady Naz'jar.|
+A Built to Last|QID|25658|PRE|25620|RANK|1|M|39,58.6|Z|205; Shimmering Expanse|N|From Sira'kess Tide Priestess.|
+C To the Fathom-Lord's Call|QID|25637|S|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|205; Shimmering Expanse|CN|N|Kill Kvaldir.|
+C Built to Last|QID|25658|RANK|1|M|34.6,65.4;33.97,68.18;32.27,67.22;31.67,64.89;30.23,64.38;31.69,58.88|CN|N|Activate the defenses which look like blue basins.|Z|205; Shimmering Expanse|
+C To the Fathom-Lord's Call|QID|25637|US|M|35.5,56.8;35,66.7;31.7,67.5;36.3,73.7;29.2,79.6|Z|205; Shimmering Expanse|CN|N|Kill the remaining Kvaldir.|
+T Built to Last|QID|25658|RANK|1|M|38.99,58.71|Z|205; Shimmering Expanse|N|To Sira'kess Tide Priestess.|
+T To the Fathom-Lord's Call|QID|25637|M|36.5,78.5|Z|205; Shimmering Expanse|N|To Fathom-Lord Zin'jatar.|
+A Not Soon Forgotten|QID|25659|PRE|25637|M|36.5,78.5|Z|205; Shimmering Expanse|N|From Fathom-Lord Zin'jatar.|
+C Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|205; Shimmering Expanse|N|Swim up the tunnel in front of you until you find Varkul the Unrelenting. He will be surrounded by 5 Sira'kess Sea Witches and some other naga. As long as they are not being attacked, they will channel spell that causes Varkul to take increased damage. So aatack Varkul until he calls in the other kvaldir. Then let the other naga tank him while you kill off the adds.|
+T Not Soon Forgotten|QID|25659|M|28.7,78.6|Z|205; Shimmering Expanse|N|(UI Alert)|
+T Visions of the Past: The Invasion of Vashj'ir|QID|25760|M|40.58,75.03|Z|205; Shimmering Expanse|N|To Wavespeaker Valoren.|
+A Looking Forward|QID|25747|PRE|25760|M|40.58,75.03|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
+T Looking Forward|QID|25747|M|33.2,68.4|Z|205; Shimmering Expanse|N|Jump on the Tamed Seahorse for a ride to Admiral Dvorek.|
+A Clear Goals|QID|25748|PRE|25747|M|38.7,78.4|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
+A Not Entirely Unprepared|QID|25749|PRE|25747|M|33.19,68.33|Z|205; Shimmering Expanse|N|From Captain Taylor.|
+A Properly Inspired|QID|25751|PRE|25747|M|33,69.2|Z|205; Shimmering Expanse|N|From Engineer Hexascrub.|
+C Properly Inspired|QID|25751|S|M|30.7,82.6|L|55965 8|Z|205; Shimmering Expanse|N|Find 8 Bloated Kelp Bulbs.|
+C Not Entirely Unprepared|QID|25749|S|U|56247|M|31.8,75|Z|205; Shimmering Expanse|N|Use the Box of Crossbow Bolts while targeting Alliance Lookouts.|
+C Clear Goals|QID|25748|M|28.3,81.6;37.2,79.1|Z|205; Shimmering Expanse|CN|N|Kill 10 of the naga forces at the south end of the ruins.|
+C Not Entirely Unprepared|QID|25749|US|U|56247|M|31.8,75|Z|205; Shimmering Expanse|N|Use the Box of Crossbow Bolts while targeting Alliance Lookouts.|
+C Properly Inspired|QID|25751|US|M|30.7,82.6|Z|205; Shimmering Expanse|N|Find remaining Bloated Kelp Bulbs.|
+T Properly Inspired|QID|25751|M|33,69.2|Z|205; Shimmering Expanse|N|To Engineer Hexascrub.|
+T Not Entirely Unprepared|QID|25749|M|33.19,68.33|Z|205; Shimmering Expanse|N|To Captain Taylor.|
+T Clear Goals|QID|25748|M|33.01,67.73|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
+A Swift Action|QID|25752|PRE|25748&25749&25751|M|33.01,67.73|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
+C Swift Action|QID|25752|M|33,69.2|Z|205; Shimmering Expanse|N|Go outside and speak to Engineer Hexascrub to start the attack.|
+T Swift Action|QID|25752|M|39.10,78.71|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
+A Gauging Success|QID|25754|PRE|25752|M|39.10,78.71|Z|205; Shimmering Expanse|N|From Admiral Dvorek.|
+A Fallen But Not Forgotten|QID|25753|PRE|25752|M|39.08,78.52|Z|205; Shimmering Expanse|N|From Captain Taylor.|
+C Fallen But Not Forgotten|QID|25753|S|M|32.2,79.2;29,79.8;37.7,82;29.4,77.5|Z|205; Shimmering Expanse|CN|CHAT|N|Speak to Injured Alliance Volunteers.|
+C Northern Tunnel|QID|25754|QO|1|M|33.0,67.7|Z|205; Shimmering Expanse|
+C Northwestern Terrace|QID|25754|QO|2|M|30.73,72.46|Z|205; Shimmering Expanse|
+C Fallen But Not Forgotten|QID|25753|US|M|32.2,79.2;29,79.8;37.7,82;29.4,77.5|Z|205; Shimmering Expanse|CN|CHAT|N|Finish speaking to Injured Alliance Volunteers.|
+T Gauging Success|QID|25754|M|39.10,78.71|Z|205; Shimmering Expanse|N|To Admiral Dvorek.|
+T Fallen But Not Forgotten|QID|25753|M|39.08,78.52|Z|205; Shimmering Expanse|N|To Captain Taylor.|
+A Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|PRE|25753&25754|M|39.20,78.61|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
+U Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|U|55171|BUFF|77565|M|28.9,78.7|Z|205; Shimmering Expanse|N|Swim through the tunnel to the west and use the Blade of the Naz'jar Battlemaiden.|
+A By Her Lady's Word|QID|25858|M|29.1,78.6|Z|205; Shimmering Expanse|N|From Lady Naz'jar.|
+N Speak to Fathom-Lord Zin'jatar|QID|25858|QO|1|M|34.45,78.65|Z|205; Shimmering Expanse|N|Speak to Fathom-Lord Zin'jatar.|; Speak to Fathom-Lord Zin'jatar: 1/1
+N Speak to Overseer Idra'kess|QID|25858|QO|3|M|36.79,79.73|Z|205; Shimmering Expanse|N|Speak to Overseer Idra'kess.|; Speak to Overseer Idra'kess: 1/1
+C By Her Lady's Word|QID|25858|M|39.19,78.01|Z|205; Shimmering Expanse|N|Finally, speak with Lady Sira'kess.|
+T By Her Lady's Word|QID|25858|M|46.2,79.5|Z|205; Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
+A No Trespass Forgiven|QID|25859|PRE|25858|M|46.2,79.5|Z|205; Shimmering Expanse|N|From Fathom-Stalker Azjentus.|
+A Stolen Property|QID|25862|PRE|25858|M|46.4,78.6|Z|205; Shimmering Expanse|N|From Naz'jar Honor Guard|
+C No Trespass Forgiven|QID|25859|S|Z|205; Shimmering Expanse|N|Kill Kvaldir.|
+A Setting An Example|QID|25861|PRE|25858|M|57.2,85.2|Z|205; Shimmering Expanse|N|From Executioner Verthress.|
+C Setting An Example|QID|25861|M|58.25,86.36;57.13,85.07|Z|205; Shimmering Expanse|CN|N|Find a Kvaldir High-Shaman in one of the buildings to either side of you. You don't have to kill him, simply kite him back to Executioner Verthress. Once there, Verthress will kill the shaman and you will get the quest complete message.|
+T Setting An Example|QID|25861|M|57.2,85.2|Z|205; Shimmering Expanse|N|To Executioner Verthress.|
+T Stolen Property|QID|25862|M|57.2,89.9|Z|205; Shimmering Expanse|N|Click the Crucible of Nazsharin to turn the quest in.|
+A Chosen Burden|QID|25863|PRE|25862|M|57.2,89.9|Z|205; Shimmering Expanse|N|From Crucible of Nazsharin.|
+C No Trespass Forgiven|QID|25859|US|M|51.76,84.18|Z|205; Shimmering Expanse|N|Kill the remaining Kvaldir.|
+T No Trespass Forgiven|QID|25859|M|46.2,79.5|Z|205; Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
+T Chosen Burden|QID|25863|M|46.2,79.5|Z|205; Shimmering Expanse|N|To Lady Naz'jar.|
+A The Culmination of Our Efforts|QID|26191|PRE|25859&25863|M|46.2,79.5|Z|205; Shimmering Expanse|N|From Lady Naz'jar.|
+T The Culmination of Our Efforts|QID|26191|M|46.2,79.5|Z|205; Shimmering Expanse|N|To Lady Naz'jar.|
+T Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25755|M|29.5,78.9|Z|205; Shimmering Expanse|N|To Wavespeaker Valoren.|
+A Losing Ground|QID|25892|PRE|25755|M|29.5,78.9|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
+C Losing Ground|QID|25892|M|29.5,78.9|Z|205; Shimmering Expanse|N|Mount the Tamed Seahorse next to the questgiver to be taken to the Forward Base. As soon as you get there, you will be told that the naga attacked the base while you were gone.|
+T Losing Ground|QID|25892|M|49.16,57.01|Z|205; Shimmering Expanse|N|To Captain Taylor.|
+A Desperate Plan|QID|25893|PRE|25892|M|49.16,57.01|Z|205; Shimmering Expanse|N|From Captain Taylor.|
+T Desperate Plan|QID|25893|M|56.9,80.5|Z|205; Shimmering Expanse|N|To Engineer Hexascrub.|
+A Unfurling Plan|QID|25897|PRE|25893|M|56.9,80.5|Z|205; Shimmering Expanse|N|From Engineer Hexascrub.|
+A Come Prepared|QID|25895|PRE|25893|M|56.9,80.5|Z|205; Shimmering Expanse|N|From Engineer Hexascrub.|
+A Hostile Waters|QID|25894|PRE|25893|M|56.9,80.5|Z|205; Shimmering Expanse|N|From Jorlan Trueblade.|
+C Unfurling Plan|QID|25897|S|M|57.3,86.1;57.2,89.7;53.3,84;51.1,84.4;45.8,79.7|Z|205; Shimmering Expanse|CN|N|Kill Kvaldir until you have 8 Coils of Kvaldir Rope. You can also find coils of rope on the ground.|
+C Hostile Waters|QID|25894|S|Z|205; Shimmering Expanse|N|Kill 10 Muckskin Scroungers.|
+C Come Prepared|QID|25895|M|61.5,86|Z|205; Shimmering Expanse|N|Swim inside the ship to find the Alliance Survival Kit.|
+C Hostile Waters|QID|25894|US|M|49.3,85.7;61,84.2;49.5,87.4|Z|205; Shimmering Expanse|CN|N|Kill the remaining Muckskin Scroungers.|
+C Unfurling Plan|QID|25897|US|M|57.3,86.1;57.2,89.7;53.3,84;51.1,84.4;45.8,79.7|Z|205; Shimmering Expanse|CN|N|Kill Kvaldir until you have 8 Coils of Kvaldir Rope. You can also find coils of rope on the ground.|
+T Unfurling Plan|QID|25897|M|56.9,80.5|Z|205; Shimmering Expanse|N|To Engineer Hexascrub.|
+T Hostile Waters|QID|25894|M|56.9,80.5|Z|205; Shimmering Expanse|N|To Engineer Hexascrub.|
+T Come Prepared|QID|25895|M|56.9,80.5|Z|205; Shimmering Expanse|N|To Engineer Hexascrub.|
+A Honor and Privilege|QID|25898|PRE|25894&25895&25897|M|56.9,80.5|Z|205; Shimmering Expanse|N|From Engineer Hexascrub.|
+C Honor and Privilege|QID|25898|U|56188|M|56.6,80.4|Z|205; Shimmering Expanse|N|Swim straight up to the surface (You may have to jump near the balloon to get the credit for swimming to it.). Loot the Rescue Flare from the crate next to Jorlan Trueblade and fire a flare at the Alliance ships.|
+T Honor and Privilege|QID|25898|M|56.9,80.5|Z|205; Shimmering Expanse|N|To Jorlan Trueblade.|
+A Welcome News|QID|25911|PRE|25898|RANK|1|M|56.6,80.4|Z|205; Shimmering Expanse|N|From Jorlan Trueblade.|
+T Welcome News|QID|25911|M|46.49,57.45;49.2,57|CS|Z|205; Shimmering Expanse|N|To Captain Taylor.|
+A Visions of the Past: Rise from the Deep|QID|25626|PRE|25911|M|49.43,57.53|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
+U Visions of the Past: Rise from the Deep|QID|25626|M|33.1,77.8|U|55171|BUFF|78264|Z|205; Shimmering Expanse|N|Swim to the Quel'Dormir Temple, on the top terrace of the Ruins of Vashj'ir. In the center of the temple, you will find the Crucible. Swim up to a ledge just behind to find the point where you can enter the vision.|
+A Devout Assembly|QID|25896|M|33.1,77.7|Z|205; Shimmering Expanse|N|From Lady Sira'kess.|
+A Her Lady's Hand|QID|25629|M|33.1,75.9|Z|205; Shimmering Expanse|N|From Lady Naz'jar.|
 C Her Lady's Hand|QID|25629|S|N|Kill any of the Kvaldir fighting the Naz'jar Honor Guards. When the guards are out of combat, you will automatically send them back to the temple.|
-C Sira'kess Tide Priestesses|QID|25896|QO|1|M|32.48,65.76;33.67,65.85;33.53,66.44;34.74,75.69;34.64,78.72|CN|S|N|Talk to Sira'kess Tide Priestesses to send them back to the temple.|Z|Shimmering Expanse|; Sira'kess Tide Priestesses gathered: 6/6
-C Devout Assembly|QID|25896|QO|2|M|33.1,61.2|Z|Shimmering Expanse|N|Speak to Fathom-Caller Azrajar to send him back.|; Fathom-Caller Azrajar gathered: 1/1
-C Sira'kess Tide Priestesses|QID|25896|QO|1|M|32.48,65.76;33.67,65.85;33.53,66.44;34.74,75.69;34.64,78.72|CN|US|N|Talk to Sira'kess Tide Priestesses to send them back to the temple.|Z|Shimmering Expanse|; Sira'kess Tide Priestesses gathered: 6/6
-C Her Lady's Hand|QID|25629|US|M|33.48,83.59|Z|Shimmering Expanse|N|Send the remaining Naz'jar Honor Guards back to the temple.|
-T Her Lady's Hand|QID|25629|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
-T Devout Assembly|QID|25896|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
-A At All Costs|QID|25860|PRE|25629&25896|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
-C At All Costs|QID|25860|M|33.12,76.52|Z|Shimmering Expanse|N|Stay at the entrance and kill all new arriving Kvaldir until you get your 20 kills.|
-T At All Costs|QID|25860|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
-A Final Judgment|QID|25951|PRE|25860|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
-C Hold the eastern end of Quel'Dormir Terrace|QID|25951|QO|1|M|37.5,78.69|Z|Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Kill Kvaldir and stay alive.|
-C Final Judgment|QID|25951|QO|2|M|42.90,78.40|Z|Shimmering Expanse|N|Kill Kvaldir and stay alive. It's easiest if you don't get too far ahead of Lady Naz'jar.|
-T Final Judgment|QID|25951|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
-T Visions of the Past: Rise from the Deep|QID|25626|M|46.69,57.53;49.45,57.57|CS|Z|Shimmering Expanse|N|To Wavespeaker Valoren.|
-A A Breath of Fresh Air|QID|26005|PRE|25626|M|49.45,57.57|Z|Shimmering Expanse|N|From Wavespeaker Valoren.|
+C Sira'kess Tide Priestesses|QID|25896|QO|1|M|32.48,65.76;33.67,65.85;33.53,66.44;34.74,75.69;34.64,78.72|CN|S|N|Talk to Sira'kess Tide Priestesses to send them back to the temple.|Z|205; Shimmering Expanse|; Sira'kess Tide Priestesses gathered: 6/6
+C Devout Assembly|QID|25896|QO|2|M|33.1,61.2|Z|205; Shimmering Expanse|N|Speak to Fathom-Caller Azrajar to send him back.|; Fathom-Caller Azrajar gathered: 1/1
+C Sira'kess Tide Priestesses|QID|25896|QO|1|M|32.48,65.76;33.67,65.85;33.53,66.44;34.74,75.69;34.64,78.72|CN|US|N|Talk to Sira'kess Tide Priestesses to send them back to the temple.|Z|205; Shimmering Expanse|; Sira'kess Tide Priestesses gathered: 6/6
+C Her Lady's Hand|QID|25629|US|M|33.48,83.59|Z|205; Shimmering Expanse|N|Send the remaining Naz'jar Honor Guards back to the temple.|
+T Her Lady's Hand|QID|25629|M|33.1,75.9|Z|205; Shimmering Expanse|N|To Lady Naz'jar.|
+T Devout Assembly|QID|25896|M|33.1,77.7|Z|205; Shimmering Expanse|N|To Lady Sira'kess.|
+A At All Costs|QID|25860|PRE|25629&25896|M|33.1,77.7|Z|205; Shimmering Expanse|N|From Lady Sira'kess.|
+C At All Costs|QID|25860|M|33.12,76.52|Z|205; Shimmering Expanse|N|Stay at the entrance and kill all new arriving Kvaldir until you get your 20 kills.|
+T At All Costs|QID|25860|M|33.1,77.7|Z|205; Shimmering Expanse|N|To Lady Sira'kess.|
+A Final Judgment|QID|25951|PRE|25860|M|33.1,77.7|Z|205; Shimmering Expanse|N|From Lady Sira'kess.|
+C Hold the eastern end of Quel'Dormir Terrace|QID|25951|QO|1|M|37.5,78.69|Z|205; Shimmering Expanse|N|Swim out of the temple to the east, where you will find Lady Naz'jar. Kill Kvaldir and stay alive.|
+C Final Judgment|QID|25951|QO|2|M|42.90,78.40|Z|205; Shimmering Expanse|N|Kill Kvaldir and stay alive. It's easiest if you don't get too far ahead of Lady Naz'jar.|
+T Final Judgment|QID|25951|M|33.1,75.9|Z|205; Shimmering Expanse|N|To Lady Naz'jar.|
+T Visions of the Past: Rise from the Deep|QID|25626|M|46.69,57.53;49.45,57.57|CS|Z|205; Shimmering Expanse|N|To Wavespeaker Valoren.|
+A A Breath of Fresh Air|QID|26005|PRE|25626|M|49.45,57.57|Z|205; Shimmering Expanse|N|From Wavespeaker Valoren.|
 T A Breath of Fresh Air|QID|26005|M|69.61,75.34|Z|Vashj'ir|U|57412|N|Located on the surface. You can use the Boom Boots to get to the surface. Turn quest in to Captain Taylor.|
-f The Lightless Reaches|QID|26005|M|57.1,75.18|Z|Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
+f The Lightless Reaches|QID|26005|M|57.1,75.18|Z|205; Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
 f Voldrin's Hold|QID|26005|M|69.4,75.2|Z|Vashj'ir|N|Grab the flight point from Salty McTavish.|
 A Full Circle|QID|26219|PRE|26005|M|69.6,75.3|Z|Vashj'ir|N|From Captain Taylor.|
 C Full Circle|QID|26219|M|69.6,75.3|Z|Vashj'ir|N|Get on board the sub once it arrives (can take 1-2 minutes to arrive, listen out for the Engineer's yelling indicating it's arrival).  Board the sub, and head downstairs and stand behind the Captain and Number 2.  Once Darkbreak Cove is secured and the sub docks, you will be automatically placed in next to Captain Glovaal on land.|
