@@ -12,4 +12,4 @@ WoWPro_Achievements_Parser.lua
 WoWPro_Achievements_Config.lua
 WoWPro_Achievements_GuideList.lua
 Classic_Cata\Exploration\Guides.xml
-Classic_Cata\General\Guides.xml
+Classic_Cata\Quests\Guides.xml
