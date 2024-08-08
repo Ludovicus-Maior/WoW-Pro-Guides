@@ -105,5 +105,4 @@ M [item=78074/Vicious Sapphire Necklace]|QID|171000064|N|Make until your skill l
 N Congratulations on reaching 525!\nPlease send feedback about the guide if you think there are parts we could improve or if you found typos, errors, or wrong material numbers!.|QID|171000065|
 N That completes Jewelcrafting.
 ]]
-
 end)
