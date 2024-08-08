@@ -338,3 +338,12 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
         _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
     end
 end
+
+function WoWPro.IsValidAchievement(achnum)
+    if WoWPro.POST_SL then
+        return _G.C_AchievementInfo.IsValidAchievement(achnum)
+    else
+     local _, name = _G.GetAchievementInfo(achnum)
+        return name
+    end
+end

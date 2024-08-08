@@ -7,10 +7,9 @@
 ## Version: 2024.07.25.A
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
-## DefaultState: disabled
 WoWPro_Achievements.lua
 WoWPro_Achievements_Parser.lua
 WoWPro_Achievements_Config.lua
 WoWPro_Achievements_GuideList.lua
-#Classic_Cata\Exploration\Guides.xml
-#Classic_Cata\General\Guides.xml
+Classic_Cata\Exploration\Guides.xml
+Classic_Cata\General\Guides.xml
