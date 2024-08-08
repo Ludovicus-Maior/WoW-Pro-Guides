@@ -91,6 +91,7 @@ C A Deadly Vine|QID|26707|M|49.57,76.46|Z|1431;Duskwood|L|60204 5|ITEM|60204|N|C
 T A Deadly Vine|QID|26707|M|44.92,67.42|Z|1431;Duskwood|N|To Apprentice Fess.|
 T The Yorgen Worgen|QID|26717|M|44.92,67.42|Z|1431;Duskwood|N|To Apprentice Fess.|
 A Delivery to Master Harris|QID|26719|PRE|26717|M|44.92,67.42|Z|1431;Duskwood|N|From Apprentice Fess.|
+R Twilight Grove|M|45.13,52.58|Z|1431;Duskwood|N|For the Explore Duskwood achievement.\n[color=FF0000]NOTE: [/color]Skip this step if not interested.|RANK|2|ACH|778;12|
 A The Jitters-Bugs|QID|26721|M|18.62,58.36|Z|1431;Duskwood|N|From Jitters in Raven Hill.|
 T Delivery to Master Harris|QID|26719|M|18.31,57.66|Z|1431;Duskwood|N|To Oliver Harris at Raven Hill.|
 A A Curse We Cannot Lift|QID|26720|PRE|26719|M|18.31,57.66|Z|1431;Duskwood|N|From Oliver Harris.|
