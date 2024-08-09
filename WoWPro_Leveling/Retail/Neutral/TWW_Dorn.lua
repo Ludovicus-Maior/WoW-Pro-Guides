@@ -11,12 +11,6 @@ return [[
 ;2339;Dornogal
 ;2269;Earthcrawl Mines!Dungeon
 
-
-
-
-
-
-
 A Violent Impact|QID|78529|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|
 C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the rubble.|H|
 T Violent Impact|QID|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
@@ -71,7 +65,7 @@ A The Fourth Seat|QID|78461|M|40.51,25.94|Z|2339;Dornogal|N|From Moira Thaurissa
 C The Fourth Seat|QID|78461|QO|1|M|40.73,22.31|Z|2339;Dornogal|N|Earthen Teleporter used.|H|
 C The Fourth Seat|QID|78461|QO|2|M|39.81,32.72|Z|2339;Dornogal|N|Regroup with Baelgrim at the top of Foundation Hall.|
 R Freywold Village|ACTIVE|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|Hope on your mount and fly to Freywold Village.|
-C The Fourth Seat|QID|78461|QO|3|M|41.88,72.60|Z|2248;Isle of Dorn|N|Adelgonn found.|
+C The Fourth Seat|QID|78461|QO|3|M|41.88,72.60|Z|2248;Isle of Dorn|N|Adelgonn found.|CHAT|
 T The Fourth Seat|QID|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A Delve into the Earth|QID|78464|PRE|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|From Adelgonn.|
 C Delve into the Earth|QID|78464|QO|1|M|38.87,73.37|Z|2248;Isle of Dorn|N|Journey to the Earthcrawl Mines delve.|
@@ -103,10 +97,16 @@ K Ashen Stonestalker|ACTIVE|79691|QO|1|M|34.77,74.12|N|Ashen Stonestalker slain.
 C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|N|Modhina found.|US|I|
 C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|N|Modhina's belongings.|US|
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248;Isle of Dorn|N|Glittering Ore.|H|S|
-C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian Chunks.|
+C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian Chunks.|S|
+A Concerning Fungarians|QID|79686|M|35.8,77.2|Z|2248;Isle of Dorn|N|From note on floor inside building under stairs.|
+C Concerning Fungarians|QID|79686|QO|1<1|M|35.6,77.2|Z|2248;Isle of Dorn|N|Up the stairs on the ledge.|H|
+C Concerning Fungarians|QID|79686|QO|1<2|M|35.6,77.2|Z|2248;Isle of Dorn|N|Further up the stairs on the bannister.|H|
+C Concerning Fungarians|QID|79686|QO|1<3|M|35.65,77.07|Z|2248;Isle of Dorn|N|At the top of the stairs, kill the Fungarian to loot the note.|
+C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian Chunks.|US|
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248;Isle of Dorn|N|Glittering Ore.|H|US|
 T Buried, Not Forgotten|QID|79692|M|42.28,73.29|N|To Kodun.|
 T Monsters in the Dark|QID|79691|M|42.28,73.29|N|To Kodun.|
+T Concerning Fungarians|QID|79686|M|41.47,71.46|Z|2248;Isle of Dorn|N|To Yeonin (downstairs).|
 A Hope, An Anomaly|QID|79703|PRE|79691|M|42.26,73.17|Z|2248;Isle of Dorn|N|From Hreka.|RANK|2|
 C Hope, An Anomaly|QID|79703|QO|1|M|42.36,73.16|Z|2248;Isle of Dorn|N|Ore placed in forge.|H|
 C Hope, An Anomaly|QID|79703|QO|2|M|42.36,73.09|Z|2248;Isle of Dorn|N|Ball of Clay moulded.|H|
@@ -123,12 +123,8 @@ C Echoes of Compassion|QID|78462|QO|4|M|41.85,72.76|Z|2248;Isle of Dorn|N|Ebona 
 T Echoes of Compassion|QID|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A The Proscenium|QID|78470|PRE|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|From Moira Thaurissan.|
 A Weapons and Warriors|QID|78996|PRE|78461|M|42.7,71.7|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
-C Weapons and Warriors|QID|78996|QO|2|M|41.0,73.1;41.6,74.5;43.9,78.8|CN|Z|2248;Isle of Dorn|N|Weapon crates acquired.|S|
-C Weapons and Warriors|QID|78996|QO|1<1|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
-C Weapons and Warriors|QID|78996|QO|1<2|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
-C Weapons and Warriors|QID|78996|QO|1<3|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
-C Weapons and Warriors|QID|78996|QO|1<4|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
-C Weapons and Warriors|QID|78996|QO|1<5|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
+C Weapons and Warriors|QID|78996|QO|2|M|41.0,73.1;41.6,74.5;43.9,78.8|CS|Z|2248;Isle of Dorn|N|Weapon crates acquired.|S|
+C Weapons and Warriors|QID|78996|QO|1|M|42.12,72.27;41.42,73.94|CS|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
 C Weapons and Warriors|QID|78996|QO|2|M|43.95,78.82|Z|2248;Isle of Dorn|N|Weapon crates acquired.|US|
 T All Ore Nothing|QID|82792|M|45.86,62.89|Z|2248;Isle of Dorn|N|To Alvegar.|
 A Third Mine Blind|QID|82796|PRE|82792|M|45.86,62.89|Z|2248;Isle of Dorn|N|From Alvegar.|RANK|2|
@@ -179,7 +175,7 @@ A One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|PRE|82441|M|49.63,76.73|RANK|3|
 t One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|M|50.16,77.86|
 C One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|QO|1|M|50.16,77.86|Z|2248;Isle of Dorn|N|Gorlocs repelled (100%).|S!US|
 C Pilfered Pearls|QID|78997|QO|1|M|49.28,79.06|Z|2248;Isle of Dorn|N|Pilfered Pearl.|S|
-C Frontline Farmers|QID|78998|QO|1|M|50.74,77.57;49.19,79.45;52.07,79.09|CN|Z|2248;Isle of Dorn|N|Distribute weapon crates.|H|
+C Frontline Farmers|QID|78998|QO|1|M|50.74,77.57;49.19,79.45;52.07,79.09|CC|Z|2248;Isle of Dorn|N|Distribute weapon crates.|H|
 C Pilfered Pearls|QID|78997|QO|1|M|49.28,79.06|Z|2248;Isle of Dorn|N|Pilfered Pearl.|US|
 T Pilfered Pearls|QID|78997|M|49.54,76.61|Z|2248;Isle of Dorn|N|To Aggartha.|
 T Frontline Farmers|QID|78998|M|49.54,76.61|Z|2248;Isle of Dorn|N|To Aggartha.|
@@ -265,14 +261,14 @@ T Honor Their Memories|QID|78744|M|61.74,41.61|Z|2248;Isle of Dorn|N|To Urtago.|
 A You No Take Plunder!|QID|78745|PRE|78744|M|61.74,41.61|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 A Laws Apply to All|QID|78746|PRE|78744|M|61.74,41.61|Z|2248;Isle of Dorn|N|From...|RANK|2|
 C Laws Apply to All|QID|78746|M|63.22,41.99|QO|1|Z|2248;Isle of Dorn|N|Kobold Invader slain.|S|
-C You No Take Plunder!|QID|78745|M|62.68,44.33;63.20,43.36;63.87,42.33|CN|QO|1|Z|2248;Isle of Dorn|N|Earthen Belongings.|H|
+C You No Take Plunder!|QID|78745|M|62.68,44.33;63.20,43.36;63.87,42.33|CS|QO|1|Z|2248;Isle of Dorn|N|Earthen Belongings.|H|
 C Laws Apply to All|QID|78746|M|63.22,41.99|QO|1|Z|2248;Isle of Dorn|N|Kobold Invader slain.|US|
 T You No Take Plunder!|QID|78745|M|63.32,42.56|Z|2248;Isle of Dorn|N|To Urtago.|
 T Laws Apply to All|QID|78746|M|63.32,42.56|Z|2248;Isle of Dorn|N|To Urtago.|
 A The Great Collapse|QID|78747|PRE|79669&78745&78746|M|63.32,42.56|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 A Cutting the Wick|QID|78748|PRE|79669&78745&78746|M|63.32,42.56|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 C The Great Collapse|QID|78747|M|62.87,44.71|QO|1<1|Z|2248;Isle of Dorn|N|Kobold Tunnels destroyed.|U|211435|
-K Workmaster Nast Slain|ACTIVE|78748|M|63.25,44.45|QO|3|Z|2248;Isle of Dorn|N|Workmaster Nast Slain.|T|Workmaster Nast Slain|
+K Workmaster Nast Slain|ACTIVE|78748|M|63.25,44.45|QO|3|Z|2248;Isle of Dorn|N|Workmaster Nast Slain.|T|Workmaster Nast|
 C The Great Collapse|QID|78747|M|63.53,44.35|QO|1<2|U|211435|Z|2248;Isle of Dorn|N|Kobold Tunnels destroyed.|
 K Workmaster Earwax|ACTIVE|78748|M|64.18,43.77|QO|2|Z|2248;Isle of Dorn|N|Workmaster Earwax Slain.|T|Workmaster Earwax|
 C The Great Collapse|QID|78747|M|64.19,42.96|QO|1<3|U|211435|Z|2248;Isle of Dorn|N|Kobold Tunnels destroyed.|
@@ -308,7 +304,7 @@ C Honey and Clay the Pain Away|QID|78757|QO|3|M|67.12,43.81|Z|2248;Isle of Dorn|
 C Honey and Clay the Pain Away|QID|78757|QO|4|M|67.02,43.90|Z|2248;Isle of Dorn|N|Honey mixture applied to Shalehoof.|NC|
 T Honey and Clay the Pain Away|QID|78757|M|67.02,43.90|Z|2248;Isle of Dorn|N|To Harmot.|
 A Pulse Within the Earth|QID|78758|M|67.02,43.90|Z|2248;Isle of Dorn|N|From Harmot.|RANK|2|
-C Pulse Within the Earth|QID|78758|QO|1|M|66.29,46.25;65.79,47.18;66.18,46.82;65.21,46.22|CN|Z|2248;Isle of Dorn|N|Tremor Stones Placed.|H|
+C Pulse Within the Earth|QID|78758|QO|1|M|66.29,46.25;65.79,47.18;66.18,46.82;65.21,46.22|CS|Z|2248;Isle of Dorn|N|Tremor Stones Placed.|H|
 C Pulse Within the Earth|QID|78758|QO|2|M|67.09,47.32|Z|2248;Isle of Dorn|N|Talk to Harmot.|CHAT|
 T Pulse Within the Earth|QID|78758|M|67.09,47.32|Z|2248;Isle of Dorn|N|To Harmot.|
 A Playing in the Mud|QID|78755|M|66.98,47.31|Z|2248;Isle of Dorn|N|From Harmot.|RANK|2|
@@ -355,15 +351,15 @@ T Charge for a Charge|QID|78467|M|61.63,70.15|Z|2248;Isle of Dorn|N|To Speaker B
 A The Anachronism|QID|79213|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
 C The Anachronism|QID|79213|M|61.72,69.95|Z|2248;Isle of Dorn|QO|1|N|Power cells inserted.|H|
 C The Anachronism|QID|79213|M|61.72,69.95|Z|2248;Isle of Dorn|QO|2|N|Titan Device recovered.|H|
-C The Anachronism|QID|79213|M|61.72,69.95|Z|2248;Isle of Dorn|QO|3|N|Siphon Power from Sargassum Guardian.|T|Sargassum Guardian|U|212602|
-K Sargassum Guardian|ACTIVE|79213|M|61.72,69.95|Z|2248;Isle of Dorn|QO|4|N|Kill Sargassum Guardian.|T|Sargassum Guardian|U|212602|
+C The Anachronism|QID|79213|M|62.53,71.89|Z|2248;Isle of Dorn|QO|3|N|Siphon Power from Sargassum Guardian.|T|Sargassum Guardian|U|212602|
+K Sargassum Guardian|ACTIVE|79213|M|62.53,71.89|Z|2248;Isle of Dorn|QO|4|N|Kill Sargassum Guardian.|T|Sargassum Guardian|U|212602|
 T The Anachronism|QID|79213|M|61.63,70.15|Z|2248;Isle of Dorn|N|To Speaker Brinthe.|
 A A Place Forgotten|QID|83083|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
 T To the Meadery|QID|78540|M|75.33,43.17|Z|2248;Isle of Dorn|N|To Baelgrim.|
 A Lay the Trap|QID|78541|PRE|78540|M|75.33,43.17|Z|2248;Isle of Dorn|N|From Baelgrim.|
 A Evacuation Area|QID|78542|PRE|78540|M|75.33,43.17|Z|2248;Isle of Dorn|N|From Wenbrandt.|
 C Evacuation Area|QID|78542|QO|1|M|74.70,42.14|Z|2248;Isle of Dorn|N|Unbound Meadworkers evacuated.|S|H|
-C Lay the Trap|QID|78541|QO|1|M|74.82,41.69|Z|2248;Isle of Dorn|N|Fuses connected to kegs.|H|
+C Lay the Trap|QID|78541|QO|1|M|74.70,42.63;74.50,42.19;74.44,41.75;74.82,41.69|CS|Z|2248;Isle of Dorn|N|Fuses connected to kegs.|H|
 C Evacuation Area|QID|78542|QO|1|M|74.70,42.14|Z|2248;Isle of Dorn|N|Unbound Meadworkers evacuated.|US|H|
 T Evacuation Area|QID|78542|M|75.30,43.13|Z|2248;Isle of Dorn|N|To Wenbrandt.|
 T Lay the Trap|QID|78541|M|75.30,43.13|Z|2248;Isle of Dorn|N|To Baelgrim.|

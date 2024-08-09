@@ -29,6 +29,7 @@ A Pomp and Dire Circumstance|QID|78837|PRE|78557&78555|M|42.14,28.35|Z|2214; The
 C Pomp and Dire Circumstance|QID|78837|M|42.12,28.39|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Ask Speaker Brinthe about the High Speaker.|
 T Pomp and Dire Circumstance|QID|78837|M|47.11,33.90|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Cogs in the Machine|QID|78838|PRE|78837|M|47.17,34.16|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
+A Home Is Where the Candle Is|QID|79683|M|47.12,33.23|Z|2214; The Ringing Deeps|N|From Skitter.|RANK|2|
 C Cogs in the Machine|QID|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Meet Igram Underwing.|CHAT|
 C Cogs in the Machine|QID|78838|M|46.96,32.34|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
 A Delves: The Waterworks|QID|83749|PRE|78837|M|47.14,31.88|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|RANK|2|
@@ -181,7 +182,7 @@ A The Wickless Candle|QID|79510|PRE|79508|ERROR|Zone not found|M|47.93,35.77|Z|2
 C The Wickless Candle|QID|79510|M|70.06,38.24|QO|1|Z|2214; The Ringing Deeps|N|Ask Granny Scribbles about the Wickless Candle.|
 C The Wickless Candle|QID|79510|M|70.10,38.42|QO|2|Z|2214; The Ringing Deeps|N|Climbing started.|
 A A Wrench in the Works|QID|80079|PRE|79508|M|47.11,33.19|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|
-A Home Is Where the Candle Is|QID|79683|PRE|79508|M|47.12,33.23|Z|2214; The Ringing Deeps|N|From Skitter.|
+
 C Kobold Kleanup|QID|80058|M|47.09,32.91|QO|1|Z|2214; The Ringing Deeps|N|Overgrowth pulled.|
 C A Wrench in the Works|QID|80079|M|47.26,32.07|QO|1|Z|2214; The Ringing Deeps|N|Grievance heard.|
 T A Wrench in the Works|QID|80079|M|47.13,33.16|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
