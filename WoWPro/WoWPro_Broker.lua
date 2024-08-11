@@ -2639,7 +2639,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     achflip = WoWPro.toboolean(achflip)
                     achall = WoWPro.toboolean(achall)
                     if achitem == "" or achitem == "0" then achitem = nil end
-                    if not _G.C_AchievementInfo.IsValidAchievement(tonumber(achnum)) then
+                    if not WoWPro.IsValidAchievement(tonumber(achnum)) then
                         why = "NextStep(): "..achnum.." is not valid. Punting on: "..aval
                         WoWPro:print(why)
                         achcheck = false
