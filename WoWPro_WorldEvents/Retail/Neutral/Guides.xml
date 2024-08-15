@@ -2,4 +2,5 @@
 	<Script file="Ludo_WoWAnniversary.lua"/>
 	<Script file="Twists_Darkmoon_Faire.lua"/>
 	<Script file="DF_LunarFestival.lua"/>
+	<Script file="Squally.lua"/>
 </Ui>
