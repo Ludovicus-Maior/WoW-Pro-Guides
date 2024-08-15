@@ -85,7 +85,7 @@ M [item=31079/Mercurial Adamantite]|QID|171000044|N|Make until your skill level 
 = Learn Recipe|QID|171000045|N|Learn [item=24078/Heavy Adamantite Ring] from a Trainer in any major city.|
 M [item=24078/Heavy Adamantite Ring]|QID|171000046|N|Make until your skill level reaches 350|
 N Learn grand Master Jewelcrafting|QID|171000047|N|Learn from a Trainer in any major city. Requires Level 65.|
-N There are like 50 new gem recipes you can learn from your trainer, so it would be hard to list all of them here.|QID|171000056|\n\nGo to your trainer, learn one from each color, or just one color if you have a lot of gems from one color.\nMake around 60x uncommon gems until you reach 395.
+N There are like 50 new gem recipes you can learn from your trainer, so it would be hard to list all of them here.|QID|171000056|N|\n\nGo to your trainer, learn one from each color, or just one color if you have a lot of gems from one color.\nMake around 60x uncommon gems until you reach 395.|
 M Make|QID|171000048|N| 5 of any of the following\n[item=42336]\n[item=43245]\n[item=4324]\n[item=42337]\nuntil your skill level reaches 400|
 = Learn Recipe|QID|171000049|N|Learn [item=43248/Stoneguard Band] from a Trainer in any major city.|
 M [item=43248/Stoneguard Band]|QID|171000050|N|Make until your skill level reaches 420|
