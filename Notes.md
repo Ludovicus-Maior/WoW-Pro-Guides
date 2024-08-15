@@ -1,3 +1,23 @@
+# Release 2024.08.15.A
+## Bug Fixes
+* Updated Retail Interface to 110002
+* Switched from deprecated UnitAura to compatibility function
+* Switched from `C_AchievementInfo.IsValidAchievement` to compatibility function
+* Added new 11.X zone definitions
+* Cata Achievements module activated
+## Known deficiencies
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Retail Alliance Dailies:  Kirin Tor Offensive
+* Cata Alliance Leveling:  Duskwood, Northern Stranglethorn, Redridge Mountains, Westfall
+* Cata Neutral Leveling: Mount Hyjal, UnGoro
+* Retail Alliance Leveling: Vashjir, Icecrown
+* Retail Horde Leveling: Vashjir
+* Retail Neutral: Mount Hyjal, Dracthyr Intro, Legion Shaman Order Hall
+* TWW Beta: Dorn, Hallowfall, TRD
+* World Events: Squally
+
+
 # Release 2024.07.25.A
 ## Bug Fixes
 * Updated to HereBeDragons 2.14.3-release
