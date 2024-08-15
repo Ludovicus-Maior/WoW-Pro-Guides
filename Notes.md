@@ -1,4 +1,4 @@
-# Release 2024.08.15.A
+# Release 2024.08.15.B
 ## Bug Fixes
 * Updated Retail Interface to 110002
 * Switched from deprecated UnitAura to compatibility function
