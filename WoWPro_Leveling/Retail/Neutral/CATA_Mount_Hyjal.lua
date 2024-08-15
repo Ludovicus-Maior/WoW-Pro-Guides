@@ -462,7 +462,10 @@ C The Firelord|QID|25551|M|55.45,66.91|Z|198; Mount Hyjal|N|It's finally time to
 T The Firelord|QID|25551|M|72.09,74.07|Z|198; Mount Hyjal|N|To Commander Jarod Shadowsong.|
 A The Battle Is Won, The War Goes On|QID|27398|PRE|25551|M|72.09,74.07|Z|198; Mount Hyjal|N|From Commander Jarod Shadowsong.|FACTION|Alliance|
 A The Battle Is Won, The War Goes On|QID|27399|PRE|25551|M|72.05,73.89|Z|198; Mount Hyjal|N|From Commander Jarod Shadowsong.|FACTION|Horde|
-F Orgrimmar|QID|28790|M|71.67,75.24|Z|198; Mount Hyjal|N|Fly back to Orgrimmar.|FACTION|Horde|
-T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|Orgrimmar|Z|198; Mount Hyjal|N|In Orgrimmar. To Farseer Krogar.|FACTION|Horde|
+F Orgrimmar|ACTIVE|28790|M|71.67,75.24|Z|198; Mount Hyjal|N|Fly back to Orgrimmar.|FACTION|Horde|
+T The Battle Is Won, The War Goes On|QID|27399|M|50.38,38.23|Z|Orgrimmar|N|In Orgrimmar. To Farseer Krogar.|FACTION|Horde|
+F Stormwind|ACTIVE|27398|M|71.67,75.24|Z|198; Mount Hyjal|N|Fly back to Stormwind.|FACTION|Alliance|
+T The Battle Is Won, The War Goes On|QID|27398|M|74.5,19.3|Z|1453; Stormwind City|N|In Stormwind, Naraat the Earthspeaker|FACTION|Alliance|
+
 ]]
 end)
