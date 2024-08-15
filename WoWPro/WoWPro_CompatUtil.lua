@@ -347,3 +347,22 @@ function WoWPro.IsValidAchievement(achnum)
         return name
     end
 end
+
+function WoWPro.UnitAura(Unit, BuffIndex, filter)
+    if _G.UnitAura then
+        -- name, icon, count, dispelType, duration, expirationTime, source, isStealable,
+        -- nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, castByPlayer, nameplateShowAll, timeMod
+        local ret = {_G.UnitAura("player",BuffIndex,filter)}
+        return unpack(ret)
+    else
+        local ret = _G.C_UnitAuras.GetAuraDataByIndex(Unit, BuffIndex, filter)
+        -- ret.applications might be wrong. See https://warcraft.wiki.gg/wiki/API_C_UnitAuras.GetAuraDataByIndex
+        if ret then
+            return ret.name, ret.icon, ret.applications, ret.dispelName, ret.duration, ret.expirationTime, ret.sourceUnit, ret.isStealable,
+                 ret.nameplateShowPersonal, ret.spellId, ret.canApplyAura, ret.isBossAura, ret.isFromPlayerOrPlayerPet, ret.nameplateShowAll,
+                 ret.timeMod
+        else
+            return nil
+        end
+    end
+end

@@ -133,7 +133,7 @@ end
 function WoWPro:CheckAnimaPowers()
 	local numBuffs = 0
 	for i=1, 44 do
-		local _, _, _, _, _, _, _, _, _, spellID = _G.UnitAura("player", i, "MAW")
+		local _, _, _, _, _, _, _, _, _, spellID = WoWPro.UnitAura("player", i, "MAW")
 		if spellID then
 			numBuffs = numBuffs + 1
 		end
@@ -145,7 +145,7 @@ end
 function WoWPro.AuraScan(tabula, filter)
     local BuffIndex = 1
     local BuffString = tabula[0] or ""
-    local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,filter)
+    local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = WoWPro.UnitAura("player",BuffIndex,filter)
     while BuffName do
         tabula[BuffSpellId] = BuffCount or 1
         if BuffString ~= "" then
@@ -153,7 +153,7 @@ function WoWPro.AuraScan(tabula, filter)
         end
         BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
-        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,filter)
+        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = WoWPro.UnitAura("player",BuffIndex,filter)
     end
     tabula[0] = BuffString
     return tabula
