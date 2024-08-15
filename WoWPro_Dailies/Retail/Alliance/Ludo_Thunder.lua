@@ -59,13 +59,13 @@ A Pick up 2 quests|QID|32731^32732^32733^32571|M|63.25,72.22|N|From Vereesa Wind
 A Pick up all quests|QID|32262^32268^32301^32302^32303^32305^32313^32485^32627^32628^63632^62636^32637^32639|M|63.25,72.22|N|From Vereesa Windrunner, Lady Jaina Proudmoore, Captain Elleane Wavecrest or Warmage Yarias.|PRE|32261|
 
 ;Dailies - PVP
-U Charged Moganite|ACTIVE|32627|M|52.34,57.26;45.58,50.65;54.02,55.97; 52.00,58.48;24.20,58,58.43|BUFF|-137257|N|Pick up a Charged Moganite, somewhere in the central area. You will lose it if you die and have to reaquire one.|
+U Charged Moganite|ACTIVE|32627|M|52.34,57.26;45.58,50.65;54.02,55.97;52.00,58.48;24.20,58.43|BUFF|-137257|N|Pick up a Charged Moganite, somewhere in the central area. You will lose it if you die and have to reaquire one.|
 R Dawnseeker Promontory|ACTIVE|32262^32268^32301^32302^32303^32305^32313^32485^32627^32628^63632^62636^32637^32639|M|41,40|
 C Old Enemies|QID|32213^32301|S!US|N|Kill the Sunreavers that are attacking you.|
 C Deconstruction|QID|32302^32639|S!US|N|Kill Sunreaver Constructs.|
 C Captive Audiance|QID|32262^32636|S!US|N|Click on Kirin Tor to free them.|
 C Overpowered|QID|32305^32637|S!US|U|95360|N|Use the provided [color=33fff9] Kirin Tor Mana Crystal [/color] to overload the red globes scattered around the horde area.|
-C Tactical Mana Bombs|QID|32268^32628|QO|3|M|41.57,40.85|Click on the bomb here beside the scrying crystal to place.|
+C Tactical Mana Bombs|QID|32268^32628|QO|3|M|41.57,40.85|N|Click on the bomb here beside the scrying crystal to place.|
 C Tactical Mana Bombs|QID|32268^32628|QO|2|M|32.28,38.37|N|This bomb is placed on the side of the bridge just above the surface of the water.|
 C Tactical Mana Bombs|QID|32268^32628|QO|1|M|32.52,27.52|N|Swim near the edge of either ship and you will see the bomb to click on.|
 K Made for War|ACTIVE|32637^32305|QO|1|M|34.91,38.09|N|Kill the Pyrestar Demolisher.|T|Pyrestar Demolisher|
@@ -241,8 +241,8 @@ T Made for War|QID|32303^32632|M|63.24,72.24|N|To Warmage Yuries.|
 T Old Enemies|QID|32213^32301|M|63.24,72.24|N|To Vereesa Windrunner.|
 T Overpowered|QID|32305^32637|M|63.24,72.24|N|To Lady Jaina Proudmoore.|
 T Captive Audiance|QID|32262^32636|M|63.24,72.24|N|To Lady Jaina Proudmoore.|
-A High Recognition|QID|32304,32631|M|63.24,72.24|N|From Lady Jaina Proudmoore.|PRE|32826|;pre may be wrong this appears to be the trigger quest that you have turned in all your dailies
-T High Recognition|QID|32304,32631|M|63.24,72.24|N|To Lady Jaina Proudmoore.|
+A High Recognition|QID|32304^32631|M|63.24,72.24|N|From Lady Jaina Proudmoore.|PRE|32826|;pre may be wrong this appears to be the trigger quest that you have turned in all your dailies
+T High Recognition|QID|32304^32631|M|63.24,72.24|N|To Lady Jaina Proudmoore.|
 
 T Imposing Threat|QID|32577^32581|M|63.24,72.24|N|To Lady Jaina Proudmoore. You can use your Kirin Tor Beacon for a quick return.|U|95567|
 T Encroaching Force|QID|32580^32584^32585|M|63.24,72.24|N|To Lady Jaina Proudmoore. You can use your Kirin Tor Beacon for a quick return.|U|95567|
