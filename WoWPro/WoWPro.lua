@@ -1156,7 +1156,7 @@ function WoWPro:GetGuideName(GID)
     if GID and WoWPro.Guides[GID] then
         return WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone or GID
     else
-        return GID
+        return GID or "Help! Report me to Ludovicus!"
     end
 end
 
