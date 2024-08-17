@@ -3209,7 +3209,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
                 Name = Name:lower()
                 if Name == "townhall" then
-                    local level, _, townHallX, townHallY = _G.C_Garrison.GetGarrisonInfo(_G.Enum.GarrisonType.Type_6_0)
+                    local level, _, townHallX, townHallY = _G.C_Garrison.GetGarrisonInfo(_G.Enum.GarrisonType.Type_6_0_Garrison)
                     if ( not level or not townHallX or not townHallY ) then
                         -- if no garrison yet, then stop.
                         skip = true
@@ -3220,7 +3220,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro.why[guideIndex] = "NextStep(): TownHall not right level"
                     end
                 elseif  Name == "townhallonly" then
-                    local buildings = _G.C_Garrison.GetBuildings(_G.Enum.GarrisonType.Type_6_0);
+                    local buildings = _G.C_Garrison.GetBuildings(_G.Enum.GarrisonType.Type_6_0_Garrison);
                     if #buildings > 0 then
                         WoWPro.why[guideIndex] = "NextStep(): Buildings owned already."
                         skip = true
@@ -3237,7 +3237,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                         idHash[bid] = true
                     end
-                    local buildings = _G.C_Garrison.GetBuildings(_G.Enum.GarrisonType.Type_6_0);
+                    local buildings = _G.C_Garrison.GetBuildings(_G.Enum.GarrisonType.Type_6_0_Garrison);
                     WoWPro.why[guideIndex] = "NextStep(): Building not owned."
                     local owned = false
                     for i = 1, #buildings do
