@@ -5,8 +5,25 @@ WoWPro.Dailies:GuideFaction(guide,1387) --  "Kirin Tor Offensive"
 WoWPro:GuideSteps(guide, function()
 return [[
 
-; there are quite a few quests still missing from here, per comparison to wowhead for the island, I will add them as I come across them. feel free to do the same.
-; Stage 1!
+; there are quite a few quests still missing from here, per comparison to wowhead for the island, I will add them as I come across them. feel free to do the same. They may be from earlier phases and so aren't needed (unless we get classic pandaria and so have to re-open the isle)
+;32570	gather-scout-reports
+;32492	destroy-cauldrons
+;32573	enemies-beneath-the-tower
+;32574	the-shuddering-moor
+;32556	the-more-you-know	Champions Terrace
+;32557	out-of-enemy-hands	Beast Pens
+;32582	raining-bones	Beast Pens
+;32583	zandalari-on-the-rise	PVE ending "boss" quest
+;32607	extended-shore-leave	PVE ending "boss" quest
+;32485	bolstering-the-defenses	PVP
+;32633	spellbound	PVP
+;32634	breaking-down-the-defenses	PVP
+;32635	enough-with-the-bombs	PVP
+;32638	mana-scavengers	PVP
+
+
+
+
 
 A Thunder Calls|QID|32679|LEAD|32681|M|83.99,58.67|Z|Vale of Eternal Blossoms|N|From Lyalia, outside the Shrine of Seven Stars.|
 T Thunder Calls|QID|32679|M|49.8,69|Z|Townlong Steppes|N|To Vereesa Windrunner, at the Shado-Pan Garrison in Townlong Steppes.|
@@ -34,9 +51,21 @@ C The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|Talk to Lady Jaina Proudmoore to
 T The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|To Lady Jaina Proudmoore|
 
 ; Let the dailies begin!
-N Assignment Map: PvE or PvP|QID|32260^32261|M|63.25,72.19|N|Click on the assignment map and make your choice. Then another NPC will offer the quests.Always pick up whatever quests you see, as they are random, the guide doeesn't tell you to pick them  up because it is unpredictable which one you will get.|NC|
+N Assignment Map: PvE or PvP|QID|32260^32261|M|63.25,72.19|N|Click on the assignment map and make your choice. The PVP quests will not put you in PVP unless you choose to be or attack the named Sunreavers (like Lor'themar). Once you make your choice other quests will become available. Always pick up whatever quests you see, as they are random, the guide doeesn't tell you to pick them up because it is unpredictable which one you will get.|NC|
 A Pick up 2 quests|QID|32731^32732^32733^32571|M|63.25,72.22|N|From Vereesa Windrunner, Lady Jaina Proudmoore, Captain Elleane Wavecrest at the top of the stairs or rarely Warmage Yurias.|PRE|32260|
-A Pick up 2 quests|QID|32301^32485^32627|M|63.25,72.22|N|From Vereesa Windrunner, Lady Jaina Proudmoore, Captain Elleane Wavecrest or Warmage Yarias. Alas, the PVP side of this guide has not been done, feel free to pick up the project.|PRE|32261|
+A Pick up all quests|QID|32262^32268^32301^32302^32303^32305^32313^32485^32627^32628^63632^62636^32637^32639|M|63.25,72.22|N|From Vereesa Windrunner, Lady Jaina Proudmoore, Captain Elleane Wavecrest or Warmage Yarias.|PRE|32261|
+
+;Dailies - PVP
+U Charged Moganite|ACTIVE|32627|M|52.34,57.26;45.58,50.65;54.02,55.97; 52.00,58.48;24.20,58,58.43|BUFF|-137257|N|Pick up a Charged Moganite, somewhere in the central area. You will lose it if you die and have to reaquire one.|
+R Dawnseeker Promontory|ACTIVE|32262^32268^32301^32302^32303^32305^32313^32485^32627^32628^63632^62636^32637^32639|M|41,40|
+C Old Enemies|QID|32213^32301|S!US|N|Kill the Sunreavers that are attacking you.|
+C Deconstruction|QID|32302^32639|S!US|N|Kill Sunreaver Constructs.|
+C Captive Audiance|QID|32262^32636|S!US|N|Click on Kirin Tor to free them.|
+C Overpowered|QID|32305^32637|S!US|U|95360|N|Use the provided [color=33fff9] Kirin Tor Mana Crystal [/color] to overload the red globes scattered around the horde area.|
+C Tactical Mana Bombs|QID|32268^32628|QO|3|M|41.57,40.85|Click on the bomb here beside the scrying crystal to place.|
+C Tactical Mana Bombs|QID|32268^32628|QO|2|M|32.28,38.37|N|This bomb is placed on the side of the bridge just above the surface of the water.|
+C Tactical Mana Bombs|QID|32268^32628|QO|1|M|32.52,27.52|N|Swim near the edge of either ship and you will see the bomb to click on.|
+K Made for War|ACTIVE|32637^32305|QO|1|M|34.91,38.09|N|Kill the Pyrestar Demolisher.|T|Pyrestar Demolisher|
 
 ; Dailies - Za'Tual
 T Za'Tual|QID|32733|M|42.2,66.4|N|To Archmage Lan'dalock.|
@@ -60,8 +89,8 @@ T Harbingers of the Loa|QID|32540|M|42.22,66.34|N|To Archmage Lan'dalock.|;31.56
 T Dark Offerings|QID|32539|M|42.31,66.31|N|To Dalvin Jaacor.|;31.66,83.22?
 T Heinous Sacrifice|QID|32538|M|42.31,66.31|N|To Dalvin Jaacor.|;31.66,83.22?
 T Preventing a Future Threat|QID|32541|M|42.15,66.44|N|To Ako.|;31.47,83.21?
-T Pterrible Ptorment|QID|32544|M|31.47,83.21|N|To Ako.|
-T Surgical Strike|QID|32542|M|31.56,83.14|N|To Archmage Lan'dalock.|
+T Pterrible Ptorment|QID|32544|M|42.15,66.44|N|To Ako.|
+T Surgical Strike|QID|32542|M|42.22,66.34|N|To Archmage Lan'dalock.|
 A Pick up any follow up quests|QID|32586^32588^32576^32577^32578^32579^32580^32581^32583^32584^32585^32607|M|42.2,66.4|N|From Archmage Lan'dalock.|PRE|32538^32539^32540^32541^32542^32543^32544|
 
 ; Dailies - Ihgaluk Crag
@@ -124,14 +153,16 @@ A Pick up any follow up quests|QID|32586^32588^32576^32577^32578^32579^32580^325
 
 C The Sleepless Legion|QID|32572|M|49.70,57.55|N|Kill animated warriors.|
 C The Zandalari Colossus|QID|32575|M|43.71,63.57|N|He wanders along the road here, cant miss the 20 fout tall statue.|
-C A Wing to Fly On|QID|32571|M|43.71,63.57|N|He flys along in this area, use the target button to help locate him. Click to capture.|T|Wild Pterrowing Hatchling|
+C A Wing to Fly On|QID|32571|M|43.71,63.57|N|He flys along in this area, use the target button to help locate him. Click to capture.|T|Wild Pterrorwing Hatchling|
 t The Sleepless Legion|QID|32572|M|62.70,73.56|N|To Captain Elleane Wavecrest.|U|95567|
-t The Zandalari Colossus|QID|32575|M|63.26,72.12|N|To Vereesa Windrunner|U|95567|
-A Pick up any follow up quests|QID|32568^32586^32588^32576^32577^32578^32579^32580^32581^32583^32584^32585^32607|PRE|32572^32575|M|63.22,72.30|N|From Vereesa, Jaina or Elleaae.|
+t The Zandalari Colossus|QID|32575|M|63.26,72.12|N|To Vereesa Windrunner.|U|95567|
+t A Wing to Fly On|QID|32571|M|63.48,73.61|N|To Warmage Yurias.|
+A Pick up any follow up quests|QID|32568^32576^32577^32578^32579^32580^32581^32583^32584^32585^32586^32588^32607|PRE|32571^32572^32575|M|63.22,72.30|N|From Vereesa, Jaina or Elleaae.|
 
 ;Conqueror's Terrace
 T No Time To Rest|QID|32568|M|61.88,51.98|N|To Scout Captain Daelin.|
-A Pick up 1-4 quests|QID|32559^32555^32560|N|From Scout Captain Daelin and Miura Brightweaver.|PRE|32568|
+A Pick up 1-4 quests|QID|32555^32556^32559^32560|N|From Scout Captain Daelin and Miura Brightweaver.|PRE|32568|
+C The More You Know|QID|32556|M|59,52|S!US|N|Pick up artifacts from the ground.|
 C Keep it Secret|QID|32560|M|59,52|S|N|Kill trolls.|
 C Centuries in Sentries|QID|32555|M|59,52|S|U|93806|N|Kill Spirit Bound sentries, then use the crystal on the body.|
 C Even Giants Fall|QID|32559|M|60.23,54.12|N|Kill the priests surrounding Guardian Tak'u to activate him, then kill him.|
@@ -141,8 +172,9 @@ C Centuries in Sentries|QID|32555|M|59,52|US|U|93806|N|Kill Spirit Bound sentrie
 C Keep it Secret|QID|32560|M|59,52|US|N|Finish up killing trolls.|
 t Even Giants Fall|QID|32559|M|61.88,51.98|N|To Scout Captain Daelin.|
 t Keep it Secret|QID|32560|M|61.88,51.98|N|To Scout Captain Daelin.|
+t The More You Know|QID|32556|M|61.89,52.08|N|To Miura Brightweave.|
 t Centuries in Sentries|QID|32555|M|61.89,52.08|N|To Miura Brightweave.|
-A Quest from Miura|QID|32586^32588|M|61.89,52.08|N|From Miura Brightweave.|PRE|32559^32555^32560|; may be offered other places, other PREs
+A Quest from Miura|QID|32586^32588|M|61.89,52.08|N|From Miura Brightweave.|PRE|32559^32555^32556^32560|; may be offered other places, other PREs
 
 ;Dailies - Beast Pens
 T The Beast Pens|QID|32567|M|51.74,47.15|N|To Scout Captain Daelin.|
@@ -198,6 +230,17 @@ C Lightning Ritual Stone|QID|32640|QO|2|M|53.13,47.09;48.03,25.95;44.6,60.6|CN|N
 C Primal Ritual Stone|QID|32640|QO|3|M|33.2,46;49.6,20.4;69.2,39|CN|N|Any of the locations work, it takes 3 Shan'ze Ritual Stones to summon, then click the Primal Ritual Stone at the location to summon a Primal Champion.|
 T Champions of the Thunder King|QID|32640|M|51.45,46.06|N|To Taran Zhu.|
 
+;pvp turn ins - no kirin tor beacon cuz you can't use it while carrying Moganite
+T Tactical Mana Bombs|QID|32268^32628|M|63.24,72.24|N|To Captain Elleane.|
+T Deconstruction|QID|32302^32639|M|63.24,72.24|N|To Captain Elleane.|
+T Charged Moganite|QID|32627|M|63.24,72.24|N|To Warmage Yuries.|
+T Made for War|QID|32303^32632|M|63.24,72.24|N|To Warmage Yuries.|
+T Old Enemies|QID|32213^32301|M|63.24,72.24|N|To Vereesa Windrunner.|
+T Overpowered|QID|32305^32637|M|63.24,72.24|N|To Lady Jaina Proudmoore.|
+T Captive Audiance|QID|32262^32636|M|63.24,72.24|N|To Lady Jaina Proudmoore.|
+A High Recognition|QID|32304,32631|M|63.24,72.24|N|From Lady Jaina Proudmoore.|PRE|32826|;pre may be wrong this appears to be the trigger quest that you have turned in all your dailies
+T High Recognition|QID|32304,32631|M|63.24,72.24|N|To Lady Jaina Proudmoore.|
+
 T Imposing Threat|QID|32577^32581|M|63.24,72.24|N|To Lady Jaina Proudmoore. You can use your Kirin Tor Beacon for a quick return.|U|95567|
 T Encroaching Force|QID|32580^32584^32585|M|63.24,72.24|N|To Lady Jaina Proudmoore. You can use your Kirin Tor Beacon for a quick return.|U|95567|
 T Competing Magic|QID|32576^32579|M|63.24,72.24|N|To Lady Jaina Proudmoore. You can use your Kirin Tor Beacon for a quick return.|U|95567|
@@ -206,10 +249,8 @@ T Raiding the Vault|QID|32677^32608|M|63.24,72.24|N|To Lady Jaina Proudmoore. Yo
 A Securing a Future|QID|32599|M|63.24,72.24|N|From Lady Jaina Proudmoore. This is a raid quest.|REP|Kirin Tor Offensive;1387;exalted|
 C Securing a Future|QID|32599|N|Once you kill Lei Shen, don't leave the instance right away! Go to the middle of the room and click on the[color=33fff9] Staff of Antonidas [/color]to get the quest completion. Pick up staff when it appears.|IZ|514;Pinnacle of Storms|
 t Securing a Future|QID|32599|M|63.24,72.24|N|To Lady Jaina Proudmoore.|U|95567|
+
 N Done for the Day|N|Come back tomorrow!, if it is tomorrow, right click in the heading to reset.| ; This note will "Catch" questlines that might become availible above
 
 ]]
 end)
-
-
-
