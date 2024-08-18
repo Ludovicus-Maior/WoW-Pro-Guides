@@ -3208,8 +3208,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     numList = select("#", (";"):split(ids))
                 end
                 Name = Name:lower()
+                local Type = _G.Enum.GarrisonType.Type_6_0_Garrison or _G.Enum.GarrisonType.Type_6_0
                 if Name == "townhall" then
-                    local level, _, townHallX, townHallY = _G.C_Garrison.GetGarrisonInfo(_G.Enum.GarrisonType.Type_6_0)
+                    local level, _, townHallX, townHallY = _G.C_Garrison.GetGarrisonInfo(Type)
                     if ( not level or not townHallX or not townHallY ) then
                         -- if no garrison yet, then stop.
                         skip = true
@@ -3220,7 +3221,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro.why[guideIndex] = "NextStep(): TownHall not right level"
                     end
                 elseif  Name == "townhallonly" then
-                    local buildings = _G.C_Garrison.GetBuildings(_G.Enum.GarrisonType.Type_6_0);
+                    local buildings = _G.C_Garrison.GetBuildings(Type);
                     if #buildings > 0 then
                         WoWPro.why[guideIndex] = "NextStep(): Buildings owned already."
                         skip = true
@@ -3237,7 +3238,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                         idHash[bid] = true
                     end
-                    local buildings = _G.C_Garrison.GetBuildings(_G.Enum.GarrisonType.Type_6_0);
+                    local buildings = _G.C_Garrison.GetBuildings(Type);
                     WoWPro.why[guideIndex] = "NextStep(): Building not owned."
                     local owned = false
                     for i = 1, #buildings do
@@ -3601,6 +3602,7 @@ function WoWPro.PopulateQuestLog()
                 leaderBoard = leaderBoard,
                 header = currentHeader,
                 use = itemID,
+                campaignID = questInfo.campaignID,
                 index = questLogIndex
             }
         end
