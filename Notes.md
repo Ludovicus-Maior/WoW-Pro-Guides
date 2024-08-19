@@ -1,3 +1,17 @@
+# Release 2024.08.19.A
+## Bug Fixes
+* Fixed bug in Garrisons because Blizzard broke things for no good reason
+* TWW zone data update
+
+## Known deficiencies
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Retail Alliance Dailies:  Kirin Tor Offensive
+* Cata Horde Leveling:  Burning Steppes
+* Retail Alliance Leveling: Vashjir
+* TWW Beta: AzjKahet, Dorn, Hallowfall, Intro, Max Campaign, TWD
+
+
 # Release 2024.08.15.B
 ## Bug Fixes
 * Updated Retail Interface to 110002
