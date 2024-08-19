@@ -110,12 +110,12 @@ A Dah, Nunt... Dah, Nunt...|QID|25657|PRE|25651|RANK|2|M|55.3,38.9|Z|201; Kelp't
 C Dah, Nunt... Dah, Nunt...|QID|25657|RANK|2|U|55190|M|58.21,49.04|Z|201; Kelp'thar Forest|N|Find the Rusty Harpoon Gun and use the Booby-Trapped Bait. The shark will come and eat the bait.|
 T Dah, Nunt... Dah, Nunt...|QID|25657|RANK|2|M|58.34,48.76|Z|201; Kelp'thar Forest|N|(UI Alert)|
 A Shark Weak|QID|27699|PRE|25657|RANK|2|M|58.34,48.76|Z|201; Kelp'thar Forest|N|(UI Alert)|
-C Shark Weak|QID|27699|RANK|2|S|M|59.25,46.87|Z|201; Kelp'thar Forest|L|55212 5|N|Collect 5 of Gnaws' Teeth.|
+l Shark Weak|QID|27699|QO|1|RANK|2|S|M|59.25,46.87|Z|201; Kelp'thar Forest|N|Collect 5 of Gnaws' Teeth.|
 C Blackfin's Booty|QID|25503|RANK|2|M|56.73,53.96|Z|201; Kelp'thar Forest|L|54640|T|Blackfin|N|Find Blackfin. He is an orca that swims in the waters above The Accursed Reef. Kill him and loot Gliblingle's Map.|
-C Shark Weak|QID|27699|RANK|2|US|M|59.2,47.0|Z|201; Kelp'thar Forest|L|55212 5|N|Collect the missing Gnaw's Teeth.|
+l Shark Weak|QID|27699|QO|1|RANK|2|US|M|59.2,47.0|Z|201; Kelp'thar Forest|N|Collect the missing Gnaw's Teeth.|
 T Shark Weak|QID|27699|RANK|2|M|55.3,38.9|Z|201; Kelp'thar Forest|N|To Budd.|
 A DUN-dun-DUN-dun-DUN-dun|QID|25670|PRE|27699|RANK|2|M|55.3,38.9|Z|201; Kelp'thar Forest|N|From Budd.|
-C DUN-dun-DUN-dun-DUN-dun|QID|25670|RANK|2|M|58.21,49.04|Z|201; Kelp'thar Forest|N|Go back to the Rusty Harpoon Gun. Use Budd's Chain. You will be picked up by Gnaws. Use the Fire Harpoon Gun ability when prompted. Once Gnaws dies, you will be in Gnaws' Boneyard. Swim back to The Accursed Reef.|
+C DUN-dun-DUN-dun-DUN-dun|QID|25670|RANK|2|M|58.21,49.04|Z|201; Kelp'thar Forest|N|Go back to the Rusty Harpoon Gun. Use Budd's Chain. You will be picked up by Gnaws. Use the Fire Harpoon Gun ability when prompted. Once Gnaws dies, you will be in Gnaws' Boneyard. Swim back to The Accursed Reef.|U|55220|
 T DUN-dun-DUN-dun-DUN-dun|QID|25670|RANK|2|M|58.37,48.55|Z|201; Kelp'thar Forest|N|To Budd.|
 A A Bone to Pick|QID|25732|PRE|25670|RANK|2|M|58.37,48.55|Z|201; Kelp'thar Forest|N|From Budd.|
 C A Bone to Pick|QID|25732|RANK|2|M|53.15,57.75|Z|201; Kelp'thar Forest|N|Find King Gurboggle, kill him and collect The Pewter Pounder.|

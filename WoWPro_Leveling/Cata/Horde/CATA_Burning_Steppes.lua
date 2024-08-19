@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 T Mouton Flamestar|QID|28515|M|17.13,51.32|N|To Mouton Flamestar.|
 A Done Nothing Wrong|QID|28417|PRE|28515|M|17.21,51.39|N|From Mouton Flamestar.|
-A Burning Vengeance|QID|28418|PRE|28667|M|17.43,51.65|N|From Ariok.|
+A Burning Vengeance|QID|28418|M|17.43,51.65|N|From Ariok.|
 f Flamestar Post|QID|28418|M|17.69,52.81|N|At Hans Oreflight.|
 C Burning Vengeance|QID|28418|S|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
 C Done Nothing Wrong|QID|28417|M|17.60,60.44;17.36,67.83|CN|N|Kill Blackrock Whelpers and Flamescale Broodlings as you go.|
