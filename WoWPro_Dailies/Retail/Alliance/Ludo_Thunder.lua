@@ -59,7 +59,7 @@ A Pick up 2 quests|QID|32731^32732^32733^32571|M|63.25,72.22|N|From Vereesa Wind
 A Pick up all quests|QID|32262^32268^32301^32302^32303^32305^32313^32485^32627^32628^63632^62636^32637^32639|M|63.25,72.22|N|From Vereesa Windrunner, Lady Jaina Proudmoore, Captain Elleane Wavecrest or Warmage Yarias.|PRE|32261|
 
 ;Dailies - PVP
-U Charged Moganite|ACTIVE|32627|M|52.34,57.26;45.58,50.65;54.02,55.97;52.00,58.48;24.20,58.43|BUFF|-137257|N|Pick up a Charged Moganite, somewhere in the central area. You will lose it if you die and have to reaquire one.|
+U Charged Moganite|ACTIVE|32627|M|52.34,57.26;45.58,50.65;54.02,55.97;52.00,58.48;24.20,58.43|CN|BUFF|-137257|N|Pick up a Charged Moganite, somewhere in the central area. You will lose it if you die and have to reaquire one.|
 R Dawnseeker Promontory|ACTIVE|32262^32268^32301^32302^32303^32305^32313^32485^32627^32628^63632^62636^32637^32639|M|41,40|
 C Old Enemies|QID|32213^32301|S!US|N|Kill the Sunreavers that are attacking you.|
 C Deconstruction|QID|32302^32639|S!US|N|Kill Sunreaver Constructs.|
