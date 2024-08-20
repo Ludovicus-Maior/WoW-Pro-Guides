@@ -1,8 +1,8 @@
 local guide = WoWPro:RegisterGuide('Isle of Dorn', 'Leveling', 'Isle of Dorn', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Isle of Dorn")
-WoWPro:GuideSort(guide, 2)
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, 'The Ringing Deeps')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -97,7 +97,7 @@ C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|N|Modhina found.|US|I|
 C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|N|Modhina's belongings.|US|
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248;Isle of Dorn|N|Glittering Ore.|H|S|
 C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian Chunks.|S|
-A Concerning Fungarians|QID|79686|M|35.8,77.2|Z|2248;Isle of Dorn|N|From note on floor inside building under stairs.|
+A Concerning Fungarians|QID|79686|M|35.8,77.2|Z|2248;Isle of Dorn|N|From note on floor inside building under stairs.|RANK|2|
 C Concerning Fungarians|QID|79686|QO|1<1|M|35.6,77.2|Z|2248;Isle of Dorn|N|Up the stairs on the ledge.|H|
 C Concerning Fungarians|QID|79686|QO|1<2|M|35.6,77.2|Z|2248;Isle of Dorn|N|Further up the stairs on the bannister.|H|
 C Concerning Fungarians|QID|79686|QO|1<3|M|35.65,77.07|Z|2248;Isle of Dorn|N|At the top of the stairs, kill the Fungarian to loot the note.|
@@ -115,7 +115,7 @@ T Hope, An Anomaly|QID|79703|M|42.36,73.09|Z|2248;Isle of Dorn|N|To Hreka.|
 T Building Blocks|QID|78463|M|41.75,72.85|Z|2248;Isle of Dorn|N|To Baelgrim.|
 T A Natural Remedy|QID|79553|M|41.86,72.58|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A Echoes of Compassion|QID|78462|PRE|79553&78463|M|41.86,72.68|Z|2248;Isle of Dorn|N|From Adelgonn.|
-C Echoes of Compassion|QID|78462|QO|1|M|41.92,72.96|Z|2248;Isle of Dorn|N|Injured Earthen healed.|H|
+C Echoes of Compassion|QID|78462|QO|1|M|41.92,72.96;41.91,72.95;42.04,72.61;41.84,72.38;41.76,72.45|CS|Z|2248;Isle of Dorn|N|Injured Earthen healed.|H|
 C Echoes of Compassion|QID|78462|QO|2|M|41.81,72.95|Z|2248;Isle of Dorn|N|Findorn picked up.|CHAT|
 C Echoes of Compassion|QID|78462|QO|3|M|41.85,72.76|Z|2248;Isle of Dorn|N|Findorn placed in pool.|H|
 C Echoes of Compassion|QID|78462|QO|4|M|41.85,72.76|Z|2248;Isle of Dorn|N|Ebona assessed.|CHAT|
@@ -433,7 +433,7 @@ T Return to the Coreway|QID|78545|M|32.00,59.61|Z|2339;Dornogal|N|To Merrix.|
 A Recompense|QID|78546|PRE|78545|M|32.00,59.61|Z|2339;Dornogal|N|From Merrix.|
 C Recompense|QID|78546|QO|1|M|31.93,59.35|Z|2339;Dornogal|N|Speak to Adelgonn.|CHAT|
 C Recompense|QID|78546|QO|2|M|31.93,59.35|Z|2339;Dornogal|N|Listen to the debriefing.|CHAT|
-C Recompense|QID|78546|QO|3|M|31.91,59.76|Z|2339;Dornogal|N|Witness the Coreway's restoration.|
+C Recompense|QID|78546|QO|3|M|31.91,59.76|Z|2339;Dornogal|N|Witness the Coreway's restoration.|CHAT|
 T Recompense|QID|78546|M|31.91,59.76|Z|2339;Dornogal|N|To Merrix.|
 T A Place Forgotten|QID|83083|M|44.92,20.61|Z|2248;Isle of Dorn|N|To Speaker Brinthe.|
 A The Old Orders|QID|83084|PRE|83083|M|44.92,20.61|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|

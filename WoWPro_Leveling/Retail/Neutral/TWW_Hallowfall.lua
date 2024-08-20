@@ -1,8 +1,8 @@
 local guide = WoWPro:RegisterGuide('Hallowfall', 'Leveling', 'Hallowfall', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Hallowfall")
-WoWPro:GuideSort(guide, 4)
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'Azj Kahet')
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -1,7 +1,8 @@
 local guide = WoWPro:RegisterGuide('Max Level Campaign', 'Leveling', 'Isle of Dorn', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Max Level Campaign")
-WoWPro:GuideSort(guide, 6)
+WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,80)
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
 WoWPro:GuideSteps(guide, function()
 return [[
