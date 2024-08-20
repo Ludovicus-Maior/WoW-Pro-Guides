@@ -13,5 +13,9 @@
 	<Script file="FR_Dragon_Riding_Glyphs.lua"/>
 	<Script file="EoN_Dragon_Riding_Glyphs.lua"/>
 	<Script file="CoD_Dragon_Riding_Glyphs.lua"/>
-	<Script file="DFHighestPeaks.lua"/>
+	<Script file="Dorn_Dragon_Riding_Glyphs.lua"/>
+	<Script file="TRD_Dragon_Riding_Glyphs.lua"/>
+	<Script file="HF_Dragon_Riding_Glyphs.lua"/>
+	<Script file="AK_Dragon_Riding_Glyphs.lua"/>
+	<Script file="Khaz_Algar_Glyph_Hunter.lua"/>
 </Ui>

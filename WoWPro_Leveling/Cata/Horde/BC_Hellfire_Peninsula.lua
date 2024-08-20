@@ -7,7 +7,7 @@ WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
-A To Outland!|QID|60123|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Burning Crusade timeline.|
+
 R Blasted Lands|QID|60123|N|At the Thrallmar Mage in the Pathfinder's Den.|Z|Orgrimmar|M|56.93,88.31|
 C To Outland!|QID|60123|M|55.01,54.35|Z|1419;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
 T To Outland!|QID|60123|M|PLAYER|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|
@@ -107,14 +107,14 @@ T Falcon Watch|QID|9499|R|Blood Elf|M|28.49,60.26|N|To Ranger Captain Venn'ren. 
 T Falcon Watch|QID|9498|R|Orc,Undead,Tauren,Troll,Goblin,Pandaren,Nighborne,HighmountainTauren,MagharOrc,ZandalariTroll,Vulpera|M|28.49,60.26|N|To Ranger Captain Venn'ren. He is on top of the tower. Use the orb, or fly up.|
 A The Great Fissure|QID|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 f Falcon Watch|QID|9387|M|27.8,59.98|N|At Innalia. Get the Flight path.|
-A WANTED: Blacktalon the Savage|QID|9466|M|28.03,60.31|N|From the Wanted Poster.|
+A Wanted: Blacktalon the Savage|QID|9466|M|28.03,60.31|N|From the Wanted Poster.|
 A Birds of a Feather|QID|9397|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
 A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.|
 A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
 A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
 C The Great Fissure|QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|S|
-C Wanted: Blacktalon the Savage|QID|9466|N|Kill Blacktalon inside the cave.|M|34.22,62.90;33.50,64.81|CS|
+K Blacktalon the Savage|QID|9466|N|Kill Blacktalon inside the cave.|M|34.22,62.90;33.50,64.81|CS|T|Blacktalon the Savage|
 C The Great Fissure|QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|US|
 T Investigate the Crash|QID|10213|N|To "Sreaming" Screed Luckheed.|M|49.15,74.87|
 A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|
@@ -211,7 +211,7 @@ A Trueflight Arrows|QID|9381|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 A Helping the Cenarion Post|QID|10442|LEAD|9372|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 T The Great Fissure|QID|9340|M|28.49,60.24|N|To Ranger Captain Venn'ren. Top of Tower.|
 A Marking the Path|QID|9391|PRE|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
-T WANTED: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
+T Wanted: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren, on the top of the tower.|
 C Trueflight Arrows|QID|9381|N|Go between the points killing and looting Bonestripper Vultures until you have 8 tail feathers.|M|29,56;24.28,44.91|CN|
 C Arelion's Secret|QID|10286|CHAT|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health. Just to warn you, you will be put into PVP.|M|18.0,50.0|

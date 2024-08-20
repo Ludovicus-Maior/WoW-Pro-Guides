@@ -1,8 +1,8 @@
 local guide = WoWPro:RegisterGuide('TWW Intro', 'Leveling', 'Isle of Dorn', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"TWW Intro")
-WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNextGuide(guide, 'The Ringing Deeps')
 WoWPro:GuideSteps(guide, function()
 return [[

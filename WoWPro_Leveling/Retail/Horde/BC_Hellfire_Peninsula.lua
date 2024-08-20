@@ -114,7 +114,7 @@ A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar
 A Source of the Corruption|QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
 A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
 C The Great Fissure|QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|S|
-C Wanted: Blacktalon the Savage|QID|9466|N|Kill Blacktalon inside the cave.|M|34.22,62.90;33.50,64.81|CS|
+K Blacktalon the Savage|QID|9466|N|Kill Blacktalon inside the cave.|M|34.22,62.90;33.50,64.81|CS|T|Blacktalon the Savage|
 C The Great Fissure|QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|US|
 T Investigate the Crash|QID|10213|N|To "Sreaming" Screed Luckheed.|M|49.15,74.87|
 A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|
