@@ -233,7 +233,7 @@ T News From Below|QID|79244|M|31.62,59.48|Z|2339;Dornogal|N|To Alleria Windrunne
 
 ;--The Machines March to War
 A A Mysterious Signal|QID|79022|M|31.64,59.48|Z|2339;Dornogal|N|From Alleria Windrunner.|
-T A Mysterious Signal|QID|79022|M|56.23,74.90|Z|2214;The Ringing Deeps|N|To High Speaker 
+T A Mysterious Signal|QID|79022|M|56.23,74.90|Z|2214;The Ringing Deeps|N|To High Speaker
 
 A Small Friend, Big Plans|QID|79023|PRE|79022|M|56.27,74.88|Z|2214;The Ringing Deeps|N|From High Speaker Brinthe.|
 C Small Friend, Big Plans|QID|79023|M|56.27,74.88|Z|2214;The Ringing Deeps|QO|1|NC|N|Introduce yourself to ZZ-01-47.|
