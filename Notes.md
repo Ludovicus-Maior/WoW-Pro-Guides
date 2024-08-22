@@ -1,8 +1,16 @@
+# Release 2024.08.22.A
+## Bug Fixes
+* Added Khaz Algar Professions
+## Guide Updates
+* Retail Achievements: Added Azj-Kahet, Dorn, Hallowfall, and Khaz Algar Glyphs
+* Cata Horde Leveling: Hellfire Peninsula
+* Retail Neutral: Aes TWW Speedrunning Guide, The Coalition of Flames, Azj Kahet, Isle of Dorn, Hallowfall, TWW Intro, TWW MaxCampaign, The Ringing Deeps,
+
+
 # Release 2024.08.19.A
 ## Bug Fixes
 * Fixed bug in Garrisons because Blizzard broke things for no good reason
 * TWW zone data update
-
 ## Known deficiencies
 * Quest Picker depends on Grail, remove dependency
 ## Guide Updates
