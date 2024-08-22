@@ -9,8 +9,43 @@ return [[
 N IF YOU HAVE ANY FEEDBACK OR QUESTIONS|N| Comment on AesVersatile's guide on YouTube |
 N IF YOU'RE GEARED|N| item level >480 characters can opt to grind for the fastest 70-71 in Azure Span outdoor Brackenhide Hallow or Ohn'Aran Plains Nokhudon. Check out AesVersatile's YouTube for the 70-71 farm grind video and more.|
 
-A Slay the Saboteurs|QID|78530|M|29.48,55.03|Z|2248|N|From Lady Jaina Proudmoore.|
-A Urgent Recovery|QID|78531|M|29.47,55.04|Z|2248|N|From Thrall.|
+A A Mysterious Warning|QID|78717|M|45.14,55.80|Z|629|N|From Magni Bronzebeard.|
+C A Mysterious Warning|QID|78717|M|43.79,58.43|Z|629|QO|1|NC|N|Talk to Khadgar.|
+T A Mysterious Warning|QID|78717|M|42.22,61.28|Z|629|N|To Archmage Khadgar.|
+A Citizens of Dalaran|QID|78719|PRE|78717|M|42.22,61.28|Z|629|N|From Archmage Khadgar.|
+A Meet the Team|QID|78721|PRE|78717|M|47.44,49.84|Z|629|N|From Brann Bronzebeard.|
+A Strengthen the Wards|QID|78718|PRE|78717|M|56.52,33.96|Z|629|N|From Archmage Drenden.|
+C Meet the Team|QID|78721|M|37.91,46.10|Z|627|QO|1|NC|N|Check on the Algari Expedition.|
+C Strengthen the Wards|QID|78718|M|59.45,60.02|Z|627|QO|1|NC|U|220483|N|Wards strengthened.|
+C Citizens of Dalaran|QID|78719|M|52.63,34.88|Z|627|QO|1|NC|N|Citizens of Dalaran helped.|
+T Strengthen the Wards|QID|78718|M|55.95,34.12|Z|629|N|To Archmage Drenden.|
+T Meet the Team|QID|78721|M|46.99,50.05|Z|629|N|To Brann Bronzebeard.|
+T Citizens of Dalaran|QID|78719|M|41.47,60.84|Z|629|N|To Archmage Khadgar.|
+A To Khaz Algar!|QID|78722|PRE|78718&78721&78719|M|41.47,60.84|Z|629|N|From Archmage Khadgar.|
+C To Khaz Algar!|QID|78722|M|41.47,60.84|Z|629|QO|1|NC|N|Talk to Khadgar.|
+T To Khaz Algar!|QID|78722|M|50.17,50.46|Z|2305|N|To Alleria Windrunner.|
+A Breach|QID|79105|PRE|78722|M|50.17,50.46|Z|2305|
+C Breach|QID|79105|M|57.41,57.41|Z|2305|QO|1|NC|N|Citizens saved.|
+C Breach|QID|79105|M|59.64,59.20|Z|2305|QO|2|N|Nerubians slain (100%).|
+T Breach|QID|79105|M|35.55,71.43|Z|2305|N|To Alleria Windrunner.|
+A Rupture|QID|79106|PRE|79105|M|35.55,71.43|Z|2305|N|From Alleria Windrunner.|
+C Rupture|QID|79106|M|40.29,62.39|Z|2305|QO|1|NC|N|Return to the city.|
+C Rupture|QID|79106|M|42.29,51.18|Z|2306|QO|2|NC|N|Navigate the sewers.|
+C Rupture|QID|79106|M|61.57,49.71|Z|2306|QO|3|NC|N|Free webbed citizens.|
+C Rupture|QID|79106|M|66.80,50.55|Z|2306|QO|4|NC|N|Enter the sewer grate.|
+C Rupture|QID|79106|M|74.40,60.74|Z|2307|QO|5|NC|N|Take the citizens to safety.|
+T Rupture|QID|79106|M|71.71,60.62|Z|2307|N|To Anduin Wrynn.|
+A Departure|QID|80321|PRE|79106|M|72.36,59.57|Z|2307|
+C Departure|QID|80321|M|23.26,79.22|Z|2307|QO|1|NC|N|Seek a different exit.|
+C Departure|QID|80321|M|40.95,36.44|Z|2305|QO|2|NC|N|Return to the surface.|
+C Departure|QID|80321|M|42.29,34.49|Z|2305|QO|3|N|Queensguard An'Jak Shabtir slain.|
+C Departure|QID|80321|M|44.29,37.60|Z|2305|QO|4|NC|N|Talk to Khadgar.|
+T Departure|QID|80321|M|44.21,37.05|Z|2305|N|To Archmage Khadgar.|
+A Violent Impact|QID|78529|PRE|80321|M|28.92,54.51|Z|2248;Isle of Dorn|
+C Violent Impact|QID|78529|M|28.91,54.53|Z|2248;Isle of Dorn|QO|1|NC|N|Escape the rubble.|
+T Violent Impact|QID|78529|M|29.47,55.00|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
+A Slay the Saboteurs|QID|78530|PRE|78529|M|29.47,55.00|Z|2248;Isle of Dorn|N|From Lady Jaina Proudmoore.|
+A Urgent Recovery|QID|78531|PRE|78529|M|29.45,55.02|Z|2248;Isle of Dorn|N|From Thrall.|
 A Erratic Artifacts|QID|78532|M|30.96,55.14|Z|2248|N|From Archmage Aethas Sunreaver.|
 C Urgent Recovery|QID|78531|M|31.38,54.16|Z|2248|QO|1|NC|U|211535|N|Crash survivors aided.|
 C Erratic Artifacts|QID|78532|M|31.69,54.78|Z|2248|QO|1|NC|U|211535|N|Damaged Arcane Relics destroyed.|
@@ -56,7 +91,6 @@ A The Fourth Seat|QID|78461|PRE|78459|M|40.46,25.87|Z|2339|N|From Moira Thauriss
 C The Fourth Seat|QID|78461|M|40.67,26.55|Z|2339|QO|1|NC|N|Earthen Teleporter used.|
 C The Fourth Seat|QID|78461|M|40.66,27.10|Z|2339|QO|2|NC|N|Regroup with Baelgrim at the top of Foundation Hall.|
 A Wanted: The Boroughbreaker|QID|83335|PRE|78459|M|55.22,55.85|Z|2248|
-A A Sassy Arathi|QID|80456|PRE|78459|M|55.34,55.79|Z|2248|N|From Dornogal Citizen.|
 A The Earthwound|QID|83336|PRE|78459|M|55.58,55.94|Z|2248|N|From Freysworn Etterca.|
 A To Mourning Rise|QID|81661|PRE|78459|M|55.73,56.05|Z|2248|N|From Urtago.|
 C Wanted: The Boroughbreaker|QID|83335|M|45.51,55.42|Z|2248|QO|1|N|Boroughbreaker Stik'kar slain.|
@@ -66,10 +100,10 @@ C The Opalfront|QID|83082|M|45.37,61.83|Z|2248|QO|1|N|Nerubian Skirmisher slain.
 C The Opalfront|QID|83082|M|45.63,59.34|Z|2248|QO|2|N|Nerubian Webspinner slain.|
 C Not Enough Minerals|QID|83081|M|45.07,59.99|Z|2248|QO|1|NC|N|Opals collected.|
 T Not Enough Minerals|QID|83081|M|44.83,64.35|Z|2248|N|To Dagran Thaurissan II.|
-L Level 71|QID|83082|LVL|71|N|You should be around level 71 by this point.|
 T The Opalfront|QID|83082|M|44.83,64.32|Z|2248|N|To Peacekeeper Hektare.|
 A Golgrin's Reach|QID|78465|PRE|83081&83082|M|44.83,64.37|Z|2248|N|From Dagran Thaurissan II.|
 A For The Love of Gems|QID|82441|PRE|83081&83082|M|43.03,70.04|Z|2248|N|From Natalia Pearce.|
+A Frayed Legacy|QID|78570|M|41.60,71.36|Z|2248|N|From Freysworn Cruton.|
 A Prairie Fever|QID|78469|PRE|83081&83082|M|41.71,70.85|Z|2248|N|From Hreka.|
 C Prairie Fever|QID|78469|M|41.64,70.85|Z|2248|QO|1|NC|N|Pottery acquired.|
 C For The Love of Gems|QID|82441|M|40.95,71.82|Z|2248|QO|2|NC|N|Talk to Kurron.|
@@ -141,6 +175,7 @@ C A Natural Remedy|QID|79553|M|36.21,75.12|Z|2248|QO|1|NC|N|Fungarian Chunks.|
 C Building Blocks|QID|78463|M|37.27,74.30|Z|2248|QO|1|NC|N|Glittering Ore.|
 A Concerning Fungarians|QID|79686|PRE|78464|M|35.76,77.14|Z|2248|
 C Concerning Fungarians|QID|79686|M|35.63,77.14|Z|2248|QO|1|NC|N|Research notes collected.|
+T Concerning Fungarians|QID|79686|M|41.50,71.37|Z|2248|N|To Yeonin.|
 T A Natural Remedy|QID|79553|M|41.84,72.71|Z|2248|N|To Adelgonn.|
 T Building Blocks|QID|78463|M|41.77,72.84|Z|2248|N|To Baelgrim.|
 A Echoes of Compassion|QID|78462|PRE|79553&78463|M|41.85,72.69|Z|2248|N|From Adelgonn.|
@@ -155,8 +190,6 @@ A To Mourning Rise|QID|81661|M|41.66,71.44|Z|2248|
 A The Proscenium|QID|78470|M|41.56,71.37|Z|2248|
 T Monsters in the Dark|QID|79691|M|42.28,73.29|Z|2248|N|To Kodun.|
 T Buried, Not Forgotten|QID|79692|M|42.28,73.29|Z|2248|N|To Kodun.|
-A Frayed Legacy|QID|78570|M|41.60,71.36|Z|2248|N|From Freysworn Cruton.|
-T Concerning Fungarians|QID|79686|M|41.50,71.37|Z|2248|N|To Yeonin.|
 T For The Love of Gems|QID|82441|M|43.01,70.03|Z|2248|N|To Natalia Pearce.|
 A Precious Gems|QID|82465|PRE|79686&82441|M|43.01,70.03|Z|2248|N|From Natalia Pearce.|
 A Fungal Frenzy|QID|78618|PRE|79691&79692|M|51.24,71.02|Z|2248|
@@ -165,7 +198,6 @@ A Mycomayhem|QID|78571|PRE|78570|M|53.54,69.92|Z|2248|N|From Woldtender Igris.|
 A The Proscenium|QID|78470|M|53.54,69.94|Z|2248|
 C Mycomayhem|QID|78571|M|53.65,67.37|Z|2248|QO|1|NC|N|Boskroot Spores.|
 T Fungal Frenzy|QID|78618|M|52.13,67.95|Z|2248|N|To Rotbark the Unfelled.|
-L Level 72|QID|78470|LVL|72|N|You should be around level 72 by this point.|
 T Mycomayhem|QID|78571|M|53.57,69.93|Z|2248|N|To Woldtender Igris.|
 A It's Elementary|QID|79667|PRE|78618&78571|M|60.69,70.19|Z|2248|
 T Golgrin's Reach|QID|78465|M|61.64,70.14|Z|2248|N|To Dagran Thaurissan II.|
@@ -228,7 +260,6 @@ T Cutting the Wick|QID|78748|M|63.32,42.60|Z|2248|N|To Urtago.|
 A Who Runs this Fine Establishment?|QID|78749|PRE|78747&78748|M|63.32,42.60|Z|2248|N|From Urtago.|
 C Who Runs this Fine Establishment?|QID|78749|M|62.30,38.62|Z|2248|QO|1|N|Grand-Heister Bokk slain.|
 C Who Runs this Fine Establishment?|QID|78749|M|62.45,39.56|Z|2248|QO|2|NC|N|Talk to Urtago.|
-L Level 73|QID|78749|LVL|73|N|You should be around level 73 by this point.|
 T Who Runs this Fine Establishment?|QID|78749|M|57.46,42.97|Z|2248|N|To Urtago.|
 A A Titanic Expedition!|QID|79724|PRE|78749|M|58.77,28.27|Z|2248|N|From Rannan Korren.|
 A Stormscarred|QID|83337|PRE|78749|M|58.38,28.31|Z|2248|N|From Rancher Edidithet.|
@@ -240,11 +271,10 @@ C The Spirebreaker|QID|83339|M|61.11,37.96|Z|2248|QO|1|N|Anub'esska slain.|
 T Stormscarred|QID|83337|M|58.39,28.30|Z|2248|N|To Rancher Edidithet.|
 T The Spirebreaker|QID|83339|M|58.32,27.17|Z|2248|N|To Violet Warden.|
 T The Mage Slayer|QID|83338|M|58.32,27.17|Z|2248|N|To Violet Warden.|
+A How Scandalous!|QID|80207|PRE|83335&81675|M|62.60,21.86|Z|2339|N|From Aldra.|
+T Wanted: The Boroughbreaker|QID|83335|M|54.26,19.46|Z|2339|N|To Peacekeeper Alef.|
 T Convergence|QID|78471|M|40.17,26.04|Z|2339|N|To Moira Thaurissan.|
 A Group Effort|QID|78538|PRE|83337&83339&83338&78471|M|39.96,25.99|Z|2339|N|From Merrix.|
-T Wanted: The Boroughbreaker|QID|83335|M|54.26,19.46|Z|2339|N|To Peacekeeper Alef.|
-A An Oddball in Dornogal|QID|80209|PRE|83335&81675|M|54.49,20.07|Z|2339|N|From Peacekeeper Leif.|
-A How Scandalous!|QID|80207|PRE|83335&81675|M|62.60,21.86|Z|2339|N|From Aldra.|
 C How Scandalous!|QID|80207|M|49.25,50.10|Z|2339|QO|1|NC|U|213271|N|Disturbance investigated near the Forgegrounds.|
 T How Scandalous!|QID|80207|M|49.79,49.47|Z|2339|N|To Peacekeeper Kragad.|
 A Seizing Evidence|QID|79521|PRE|80207|M|49.79,49.47|Z|2339|N|From Peacekeeper Kragad.|
@@ -306,7 +336,6 @@ T Not a Heating Pack|QID|79725|M|77.94,30.30|Z|2248|N|To Tuberros.|
 T "Cataloguing"|QID|79726|M|77.94,30.30|Z|2248|N|To Tuberros.|
 A Because It's Shiny|QID|79727|PRE|79725&79726|M|77.94,30.30|Z|2248|N|From Tharessa Sunstrand.|
 C Because It's Shiny|QID|79727|M|80.58,30.96|Z|2248|QO|1|NC|N|Titan Artifact collected.|
-L Level 74|QID|79727|LVL|74|N|You should be around level 74 by this point.|
 T Because It's Shiny|QID|79727|M|77.95,30.30|Z|2248|N|To Tharessa Sunstrand.|
 A It's Probably Nothing|QID|79728|PRE|79727|M|77.95,30.25|Z|2248|N|From Rannan Korren.|
 C It's Probably Nothing|QID|79728|M|77.98,30.30|Z|2248|QO|1|NC|N|Interact with the titan orb.|
@@ -320,7 +349,6 @@ C Recompense|QID|78546|M|31.83,59.47|Z|2339|QO|2|NC|N|Listen to the debriefing.|
 C Recompense|QID|78546|M|31.96,59.74|Z|2339|QO|3|NC|N|Witness the Coreway's restoration.|
 T Recompense|QID|78546|M|31.96,59.74|Z|2339|N|To Merrix.|
 A Into the Deeps|QID|80434|PRE|78546|M|31.96,59.74|Z|2339|N|From Moira Thaurissan.|
-A Thanks for the Wax|QID|82957|PRE|78546|M|39.68,29.98|Z|2214|
 T Into the Deeps|QID|80434|M|42.13,28.37|Z|2214|N|To Speaker Brinthe.|
 A Underground and Overwhelmed|QID|78555|PRE|80434|M|42.13,28.37|Z|2214|N|From Speaker Brinthe.|
 A Getting Off Track|QID|78557|PRE|80434|M|42.12,28.32|Z|2214|N|From Foreman Uzjax.|
@@ -332,17 +360,98 @@ A Pomp and Dire Circumstance|QID|78837|PRE|78557&78555|M|42.12,28.31|Z|2214|N|Fr
 C Pomp and Dire Circumstance|QID|78837|M|42.11,28.34|Z|2214|QO|1|CHAT|N|Ask Speaker Brinthe about the High Speaker.|
 T Pomp and Dire Circumstance|QID|78837|M|47.18,34.13|Z|2214|N|To Speaker Brinthe.|
 A Cogs in the Machine|QID|78838|PRE|78837|M|47.18,34.13|Z|2214|N|From Unknown.|
+A Home Is Where the Candle Is|QID|79683|PRE|78837|M|47.18,34.16|Z|2214|N|From Skitter.|
 C Cogs in the Machine|QID|78838|M|46.90,33.39|Z|2214|QO|1|NC|N|Meet Igram Underwing.|
 C Cogs in the Machine|QID|78838|M|46.93,32.41|Z|2214|QO|2|CHAT|N|Meet Speaker Jurlax.|
+A New Home, New Candle!|QID|81999|PRE|78837|M|47.76,35.34|Z|2214|N|From Janky.|
+A Kobold Kleanup|QID|80058|PRE|78837|M|47.78,35.37|Z|2214|N|From Fourman Grimes.|
+A Dripsy Forgot Her Candle|QID|79504|PRE|78837|M|47.94,35.76|Z|2214|N|From Granny Scribbles.|
+C Dripsy Forgot Her Candle|QID|79504|M|47.94,35.76|Z|2214|QO|1|NC|N|Ask Granny Scribbles about Dripsy.|
+C Dripsy Forgot Her Candle|QID|79504|M|67.99,49.80|Z|2214|QO|2|NC|N|Shiny Rocks or Sweetmeats gathered.|
+T Dripsy Forgot Her Candle|QID|79504|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
+A Chomps and the Cave-In|QID|79505|PRE|79504|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
+C Chomps and the Cave-In|QID|79505|M|47.94,35.77|Z|2214|QO|1|NC|N|Ask Granny Scribbles about Chomps.|
+C Chomps and the Cave-In|QID|79505|M|64.72,40.39|Z|2214|QO|2|NC|N|Dig up high.|
+C Chomps and the Cave-In|QID|79505|M|64.83,39.31|Z|2214|QO|3|NC|N|Trapped Kobolds freed.|
+T Chomps and the Cave-In|QID|79505|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
+A The Day the Stoneheads Came|QID|79507|PRE|79505|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
+C The Day the Stoneheads Came|QID|79507|M|47.94,35.77|Z|2214|QO|1|NC|N|Ask Granny Scribbles about the Day the Stoneheads Came.|
+A You Go Take Candle|QID|82519|PRE|79505|M|55.90,20.96|Z|2214|N|From Granny Scribbles.|
+C The Day the Stoneheads Came|QID|79507|M|56.03,23.21|Z|2214|QO|2|NC|N|Softsnout's Favorite Shovel.|
+C The Day the Stoneheads Came|QID|79507|M|55.39,22.99|Z|2214|QO|3|NC|N|Save what can be saved (100%).|
+T The Day the Stoneheads Came|QID|79507|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
+A Mipsy Mole-Rider|QID|79508|PRE|79507|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
+C Mipsy Mole-Rider|QID|79508|M|47.94,35.77|Z|2214|QO|1|NC|N|Ask Granny Scribbles about Mipsy.|
+C Mipsy Mole-Rider|QID|79508|M|71.84,39.88|Z|2214|QO|2|NC|N|Hungry Mole mounted.|
+C Mipsy Mole-Rider|QID|79508|M|71.87,39.37|Z|2214|QO|3|NC|N|Juicy Grub collected.|
+C Mipsy Mole-Rider|QID|79508|M|71.83,39.86|Z|2214|QO|4|NC|N|Hungry Mole mounted.|
+C Mipsy Mole-Rider|QID|79508|M|73.52,40.27|Z|2214|QO|5|NC|N|Mole riding course completed.|
+T Mipsy Mole-Rider|QID|79508|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
+A The Wickless Candle|QID|79510|PRE|79508|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
+C The Wickless Candle|QID|79510|M|47.94,35.77|Z|2214|QO|1|NC|N|Ask Granny Scribbles about the Wickless Candle.|
+C The Wickless Candle|QID|79510|M|70.10,38.42|Z|2214|QO|2|NC|N|Climbing started.|
+C The Wickless Candle|QID|79510|M|69.66,38.64|Z|2214|QO|3|NC|N|Climb upwards.|
+C The Wickless Candle|QID|79510|M|74.99,23.79|Z|2248|QO|4|NC|N|Leave cave.|
+C The Wickless Candle|QID|79510|M|74.31,24.19|Z|2248|QO|5|NC|N|Prooftelling Flower.|
+A Thanks for the Wax|QID|82957|PRE|79508|M|47.94,35.77|Z|2214|N|From Granny Scribbles.|
+T The Wickless Candle|QID|79510|M|47.94,35.77|Z|2214|N|To Granny Scribbles.|
 A On Cold, Dark Wings|QID|78900|PRE|78837|M|48.03,34.81|Z|2214|N|From Watcher Toki.|
 C Cogs in the Machine|QID|78838|M|48.03,34.81|Z|2214|QO|3|NC|N|Meet Watcher Toki.|
-A Brax's Brass Knuckles|QID|78918|PRE|78837|M|47.94,32.16|Z|2214|N|From Innkeeper Brax.|
 h Gundargaz|QID|78918|M|47.94,32.16|Z|2214|N|At Innkeeper Brax.|
+T Kobold Kleanup|QID|80058|M|47.30,31.86|Z|2214|N|To Fourman Grimes.|
+A On the Job Training|QID|79556|PRE|80058|M|47.30,31.86|Z|2214|N|From Fourman Grimes.|
+C On the Job Training|QID|79556|M|47.30,31.86|Z|2214|QO|1|NC|N|Steamwarden Hurlt spoken to.|
+C On the Job Training|QID|79556|M|47.29,31.45|Z|2214|QO|2|NC|N|Steamworks repaired.|
+T On the Job Training|QID|79556|M|47.31,31.84|Z|2214|N|To Fourman Grimes.|
+A Pipe Patching|QID|79680|PRE|79556|M|47.31,31.84|Z|2214|N|From Fourman Grimes.|
+A Plumber Power|QID|79681|PRE|79556|M|47.31,31.84|Z|2214|N|From Fourman Grimes.|
+C Pipe Patching|QID|79680|M|48.70,31.74|Z|2214|QO|1|NC|N|Leaking pipes patched.|
+C Plumber Power|QID|79681|M|48.50,31.01|Z|2214|QO|1|NC|N|Tunnel Rat Crew Boss spoken to (Optional).|
+C Plumber Power|QID|79681|M|48.50,31.01|Z|2214|QO|2|NC|N|Steam tunnel unblocked.|
+T Pipe Patching|QID|79680|M|47.31,31.91|Z|2214|N|To Fourman Grimes.|
+T Plumber Power|QID|79681|M|47.31,31.91|Z|2214|N|To Fourman Grimes.|
+A Critical Pressure!|QID|79682|PRE|79680&79681|M|47.31,31.91|Z|2214|N|From Fourman Grimes.|
+C Critical Pressure!|QID|79682|M|48.05,32.15|Z|2214|QO|1|NC|N|Pressure relieved.|
+C Critical Pressure!|QID|79682|M|47.98,32.16|Z|2214|QO|2|N|Geothermus slain.|
+T Critical Pressure!|QID|79682|M|47.32,31.87|Z|2214|N|To Fourman Grimes.|
+C On Cold, Dark Wings|QID|78900|M|51.41,35.58|Z|2214|QO|1|N|The Ringing Death slain.|
+C New Home, New Candle!|QID|81999|M|53.37,44.55|Z|2214|QO|2|NC|N|Take the Pillarstone elevator to the surface (Optional).|
+N There might be a few prequests in this area to unlock the elevator|N| for the first time|
+C New Home, New Candle!|QID|81999|M|72.10,42.12|Z|2248|QO|1|NC|N|Meet Janky in the Cinderwold.|
+T New Home, New Candle!|QID|81999|M|72.08,42.07|Z|2248|N|To Janky.|
+A Hot Wax|QID|79552|PRE|81999|M|72.08,42.07|Z|2248|N|From Janky.|
+A Mite Not Right|QID|79998|PRE|81999|M|72.08,42.07|Z|2248|N|From Janky.|
+C Mite Not Right|QID|79998|M|71.71,41.34|Z|2248|QO|1|NC|N|Janky's Smoke Pump Activated (Optional).|
+C Mite Not Right|QID|79998|M|71.62,41.49|Z|2248|QO|2|N|Infesting Cindermite slain.|
+C Hot Wax|QID|79552|M|71.63,42.16|Z|2248|QO|1|NC|N|Fire Bee Wax.|
+T Hot Wax|QID|79552|M|72.10,42.04|Z|2248|N|To Janky.|
+T Mite Not Right|QID|79998|M|72.10,42.04|Z|2248|N|To Janky.|
+A Hot Pollenate-o|QID|80202|PRE|79552&79998|M|72.10,42.04|Z|2248|N|From Janky.|
+A Beebiter|QID|80000|PRE|79552&79998|M|72.10,42.04|Z|2248|N|From Janky.|
+C Hot Pollenate-o|QID|80202|M|72.14,40.95|Z|2248|QO|1|NC|N|Pollen Rich Cinderbloom touched (Optional).|
+C Beebiter|QID|80000|M|69.87,41.93|Z|2248|QO|1|N|Beebiter slain.|
+C Hot Pollenate-o|QID|80202|M|71.44,42.45|Z|2248|QO|2|NC|N|Pollen delivered to bees.|
+T Hot Pollenate-o|QID|80202|M|72.09,42.07|Z|2248|N|To Janky.|
+T Beebiter|QID|80000|M|72.09,42.07|Z|2248|N|To Janky.|
+A Janky Candles|QID|79565|PRE|80202&80000|M|72.09,42.07|Z|2248|N|From Janky.|
+h Gundargaz|QID|79565|M|47.95,32.15|Z|2214;The Ringing Deeps|N|At Innkeeper Brax.|
+C Janky Candles|QID|79565|M|47.44,32.56|Z|2214;The Ringing Deeps|QO|1|CHAT|N|Speak with Bosh.|
+C Janky Candles|QID|79565|M|47.95,32.15|Z|2214;The Ringing Deeps|QO|2|CHAT|N|Speak with Innkeeper Brax about Bosh's tab.|
+C Janky Candles|QID|79565|M|47.59,31.56|Z|2214;The Ringing Deeps|QO|3|CHAT|N|Speak with Foreman Shalea about the construction.|
+C Janky Candles|QID|79565|M|47.63,32.94|Z|2214;The Ringing Deeps|QO|4|CHAT|N|Speak to Machinist Valyka about the tools.|
+C Janky Candles|QID|79565|M|47.42,28.31|Z|2214;The Ringing Deeps|QO|5|CHAT|N|Speak to Foreman Svart about the coal shipment.|
+C Janky Candles|QID|79565|M|47.67,27.02|Z|2214;The Ringing Deeps|QO|6|NC|N|Elementally Active Coal.|
+C Janky Candles|QID|79565|M|47.69,32.93|Z|2214;The Ringing Deeps|QO|7|NC|N|Coal deliverd to Valyka.|
+C Janky Candles|QID|79565|M|47.57,31.62|Z|2214;The Ringing Deeps|QO|8|NC|N|Order delivered to Shalea.|
+C Janky Candles|QID|79565|M|47.96,32.18|Z|2214;The Ringing Deeps|QO|9|NC|N|Promise passed to Brax.|
+C Janky Candles|QID|79565|M|47.47,32.52|Z|2214;The Ringing Deeps|QO|10|NC|N|News brought to Bosh.|
+T Janky Candles|QID|79565|M|47.55,33.26|Z|2214;The Ringing Deeps|N|To Janky.|
+N Unlocked store |N| buy many of these buffs, all 3 are good for leveling|
+T On Cold, Dark Wings|QID|78900|M|48.03,34.79|Z|2214|N|To Watcher Toki.|
 C Cogs in the Machine|QID|78838|M|47.15,34.12|Z|2214|QO|4|NC|N|Return to Brinthe's house.|
 T Cogs in the Machine|QID|78838|M|47.17,34.17|Z|2214|N|To Speaker Brinthe.|
 A Speaking to the Speakers|QID|78631|PRE|78838|M|47.17,34.17|Z|2214|N|From Speaker Brinthe.|
 C Speaking to the Speakers|QID|78631|M|51.74,29.60|Z|2214|QO|1|NC|N|Defenders reassured.|
-A The Caretaker of Brunwin's Terrace|QID|80392|PRE|78838|M|51.29,30.13|Z|2214|N|From Unknown.|
 C Speaking to the Speakers|QID|78631|M|57.65,29.32|Z|2214|QO|2|NC|N|Vantage point scouted.|
 T Speaking to the Speakers|QID|78631|M|57.59,29.31|Z|2214|N|To Speaker Brinthe.|
 A Leave No Stone Behind|QID|78634|PRE|78631|M|57.62,29.21|Z|2214|N|From Speaker Brinthe.|
@@ -383,7 +492,6 @@ A Wax On, Pot Off|QID|79267|PRE|78639&79205|M|61.52,32.04|Z|2214|N|From Speaker 
 C Tackling Torchsnarl|QID|78641|M|67.21,28.39|Z|2214|QO|1|N|Torchsnarl defeated.|
 C Wax On, Pot Off|QID|79267|M|65.91,30.53|Z|2214|QO|1|NC|N|Wax pots ruined.|
 T Wax On, Pot Off|QID|79267|M|61.53,32.00|Z|2214|N|To Speaker Brinthe.|
-L Level 75|QID|79267|LVL|75|N|You should be around level 75 by this point.|
 T Tackling Torchsnarl|QID|78641|M|61.53,32.00|Z|2214|N|To Skitter.|
 A New Candle, New Hope|QID|78642|PRE|79267&78641|M|61.53,32.00|Z|2214|N|From Skitter.|
 C New Candle, New Hope|QID|78642|M|41.78,14.12|Z|2304|QO|1|CHAT|N|Speak with Skitter to enter the Darkflame Cleft.|
@@ -416,8 +524,6 @@ C nil|Z|Darkflame Cleft|SO|0|S|N|nil|
 T New Candle, New Hope|QID|78642|M|61.53,32.01|Z|2214|N|To Skitter.|
 A Back to Gundargaz|QID|80082|PRE|78642|M|61.53,32.01|Z|2214|N|From Speaker Brinthe.|
 A Thieving Snufflers|QID|83028|PRE|78642|M|53.14,34.58|Z|2214|
-C On Cold, Dark Wings|QID|78900|M|51.41,35.58|Z|2214|QO|1|N|The Ringing Death slain.|
-T On Cold, Dark Wings|QID|78900|M|48.03,34.79|Z|2214|N|To Watcher Toki.|
 T Back to Gundargaz|QID|80082|M|47.11,33.26|Z|2214|N|To Speaker Brinthe.|
 A A Wrench in the Works|QID|80079|PRE|78900&80082|M|47.11,33.26|Z|2214|N|From Moira Thaurissan.|
 C A Wrench in the Works|QID|80079|M|47.24,32.24|Z|2214|QO|1|NC|N|Grievance heard.|
@@ -508,7 +614,6 @@ C Casing the Camp|QID|80511|M|69.63,41.13|Z|2214|QO|1|NC|N|Put on the Flawless B
 C Casing the Camp|QID|80511|M|68.18,39.21|Z|2214|QO|2|NC|N|Impress the guards.|
 C Casing the Camp|QID|80511|M|67.00,38.13|Z|2214|QO|3|NC|N|Investigate the camp.|
 C Casing the Camp|QID|80511|M|66.76,38.85|Z|2214|QO|4|NC|N|Investigate the fighting ring.|
-L Level 76|QID|80511|LVL|76|N|You should be around level 76 by this point.|
 T Casing the Camp|QID|80511|M|66.81,38.80|Z|2214|N|To Scrit.|
 A Beat the Best|QID|80512|PRE|80511|M|66.81,38.80|Z|2214|N|From Scrit.|
 A Snouty Sabotage|QID|80513|PRE|80511|M|66.81,38.80|Z|2214|N|From Scrit.|
@@ -606,7 +711,6 @@ C Raging Rifts|QID|79944|M|55.87,12.41|Z|2214|QO|2|NC|N|Enter the Cave.|
 C Raging Rifts|QID|79944|M|57.34,16.28|Z|2214|QO|3|NC|N|Destroy Rift Source.|
 C Raging Rifts|QID|79944|M|57.35,16.29|Z|2214|QO|1|N|Defeat Elemental Rifts.|
 A The Glittering Shard|QID|79327|PRE|79194|M|57.11,16.32|Z|2214|N|From Urthgrafr Riftcaller.|
-L Level 77|QID|79327|LVL|77|N|You should be around level 77 by this point.|
 T Raging Rifts|QID|79944|M|55.34,11.11|Z|2214|N|To Keldaz.|
 T The Glittering Shard|QID|79327|M|51.14,14.79|Z|2214|N|To Orsenth.|
 T Dark Iron from Above|QID|78760|M|46.74,10.24|Z|2214|N|To Moira Thaurissan.|
@@ -699,8 +803,83 @@ T A Helping Farmhand|QID|82477|M|47.29,64.83|Z|2215|N|To Orren Masyn.|
 A Regularly Scheduled Maintenance|QID|82478|PRE|82477|M|47.29,64.80|Z|2215|N|From Orren Masyn.|
 C Regularly Scheduled Maintenance|QID|82478|M|49.15,67.31|Z|2215|QO|2|NC|N|Amber Bloom.|
 C Regularly Scheduled Maintenance|QID|82478|M|50.15,70.23|Z|2215|QO|1|NC|N|Crimson Charmer.|
-h Mereldar|QID|79297|M|42.76,55.81|Z|2215;Hallowfall|N|At Nalina Ironsong.|
+C A Lamplighter's Duty|QID|78672|M|48.36,40.54|Z|2215|QO|1|NC|N|Skiff taken to Lorel's Crossing.|
+T A Lamplighter's Duty|QID|78672|M|53.92,31.40|Z|2215|N|To Faerin.|
+A Tricks of the Dark|QID|78929|PRE|78672|M|53.92,31.40|Z|2215|N|From Faerin.|
+A Fickle Fiendish Fish|QID|78932|PRE|78672|M|53.93,31.44|Z|2215|N|From General Steelstrike.|
+A Release the Beasts|QID|81568|PRE|78672|M|53.89,31.15|Z|2215|N|From General Steelstrike.|
+A Gasping Plea|QID|80312|PRE|78672|M|53.61,29.14|Z|2215|
+C Fickle Fiendish Fish|QID|78932|M|54.59,29.58|Z|2215|QO|1|N|Kobyss invaders slain.|
+C Tricks of the Dark|QID|78929|M|55.11,29.17|Z|2215|QO|1|NC|N|Arathi rescued.|
+C Gasping Plea|QID|80312|M|54.56,25.44|Z|2215|QO|1|NC|N|Drop the fish into the water near Sunless Strand.|
+T Gasping Plea|QID|80312|M|54.52,25.37|Z|2215|N|To Peculiar Fish.|
+A Tidal Charms|QID|80313|PRE|80312|M|54.52,25.37|Z|2215|N|From Peculiar Fish.|
+A Voices from the Deep|QID|80314|PRE|80312|M|54.52,25.37|Z|2215|N|From Peculiar Fish.|
+C Tidal Charms|QID|80313|M|55.39,24.08|Z|2215|QO|1|NC|N|Sunless Shard.|
+C Voices from the Deep|QID|80314|M|55.32,24.21|Z|2215|QO|1|NC|N|Raised Shrine studied.|
+C Voices from the Deep|QID|80314|M|56.90,24.77|Z|2215|QO|3|NC|N|Guarded Shrine studied.|
+C Release the Beasts|QID|81568|M|56.84,24.60|Z|2215|QO|1|NC|N|Disobedient Beast-Slave released.|
+T Release the Beasts|QID|81568|M|56.84,24.60|Z|2215|
+C Voices from the Deep|QID|80314|M|56.28,22.60|Z|2215|QO|2|NC|N|Submerged Shrine studied.|
+T Tidal Charms|QID|80313|M|54.50,25.33|Z|2215|N|To Peculiar Fish.|
+T Voices from the Deep|QID|80314|M|54.50,25.33|Z|2215|N|To Peculiar Fish.|
+A Alluring Offer|QID|80315|PRE|81568&80313&80314|M|54.50,25.33|Z|2215|N|From Peculiar Fish.|
+C Alluring Offer|QID|80315|M|53.95,19.93|Z|2215;Hallowfall|QO|3|N|Chieftain Gillcarver slain.|
+C Alluring Offer|QID|80315|M|54.08,19.47|Z|2215;Hallowfall|QO|2|N|Sunless Tidemarshal slain.|
+T Regularly Scheduled Maintenance|QID|82478|M|50.00,20.86|Z|2215;Hallowfall|N|To Aemyra Acton.|
+A The Sword is Mightier|QID|82479|PRE|82478|M|50.00,20.86|Z|2215;Hallowfall|N|From Aemyra Acton.|
+C The Sword is Mightier|QID|82479|M|49.97,20.85|Z|2215;Hallowfall|QO|1|NC|N|Put Aemyra's sentiments on paper.|
+T Alluring Offer|QID|80315|M|54.51,25.34|Z|2215;Hallowfall|N|To Peculiar Fish.|
+A Return to the Sea|QID|80316|PRE|80315|M|54.51,25.34|Z|2215;Hallowfall|N|From Unknown.|
+C Return to the Sea|QID|80316|M|54.51,25.34|Z|2215;Hallowfall|QO|1|NC|N|Collect the fish.|
+C Return to the Sea|QID|80316|M|56.92,8.69|Z|2215;Hallowfall|QO|2|NC|N|Drop the fish in deeper waters in Bleak Sand.|
+T Return to the Sea|QID|80316|M|56.93,8.70|Z|2215;Hallowfall|N|To Peculiar Fish.|
+T Tricks of the Dark|QID|78929|M|53.93,30.83|Z|2215;Hallowfall|N|To Anduin Wrynn.|
+T Fickle Fiendish Fish|QID|78932|M|53.93,30.83|Z|2215;Hallowfall|N|To Anduin Wrynn.|
+A Blades of the Arathi|QID|78934|PRE|80316&78929&78932|M|53.95,30.76|Z|2215;Hallowfall|N|From Faerin.|
+A Something's Fishy|QID|78936|PRE|80316&78929&78932|M|55.16,32.70|Z|2215;Hallowfall|N|From General Steelstrike.|
+C Blades of the Arathi|QID|78934|M|55.16,32.70|Z|2215;Hallowfall|QO|1|NC|N|Torch lit.|
+C Something's Fishy|QID|78936|M|54.50,33.77|Z|2215;Hallowfall|QO|2|N|The Abominable Wavecrasher slain.|
+C Something's Fishy|QID|78936|M|53.44,32.74|Z|2215;Hallowfall|QO|1|N|Deepsludger slain.|
+C Something's Fishy|QID|78936|M|56.12,33.96|Z|2215;Hallowfall|QO|3|N|Tidelord Teethwretch slain.|
+C Blades of the Arathi|QID|78934|M|56.12,33.60|Z|2215;Hallowfall|QO|2|NC|N|Arathi groups rallied.|
+T Something's Fishy|QID|78936|M|55.17,32.65|Z|2215;Hallowfall|N|To General Steelstrike.|
+T Blades of the Arathi|QID|78934|M|55.17,32.65|Z|2215;Hallowfall|N|To Faerin.|
+A Shadow upon Shadow|QID|78937|PRE|78936&78934|M|55.16,32.66|Z|2215;Hallowfall|N|From Faerin.|
+C Shadow upon Shadow|QID|78937|M|55.70,41.07|Z|2215;Hallowfall|QO|1|NC|N|Find Faerin at the Tower Overlook.|
+T Shadow upon Shadow|QID|78937|M|55.76,41.26|Z|2215;Hallowfall|N|To Alleria Windrunner.|
+A The Darkened Flame|QID|78939|PRE|78937|M|55.76,41.26|Z|2215;Hallowfall|N|From Alleria Windrunner.|
+C The Darkened Flame|QID|78939|M|56.23,42.00|Z|2215;Hallowfall|QO|1|NC|N|Darkfire investigated.|
+C The Darkened Flame|QID|78939|M|55.90,41.96|Z|2215;Hallowfall|QO|2|NC|N|Clues found outside the tower.|
+C The Darkened Flame|QID|78939|M|56.26,41.98|Z|2215;Hallowfall|QO|3|NC|N|Return to Faerin.|
+T The Darkened Flame|QID|78939|M|56.20,42.02|Z|2215;Hallowfall|N|To Faerin Lothar.|
+A Ever Deeper Shadow|QID|78951|PRE|78939|M|56.20,42.02|Z|2215;Hallowfall|N|From Faerin Lothar.|
+C Ever Deeper Shadow|QID|78951|M|56.91,40.35|Z|2215;Hallowfall|QO|1|N|Order of Night cultists slain.|
+T Ever Deeper Shadow|QID|78951|M|55.87,40.50|Z|2215;Hallowfall|N|To Faerin Lothar.|
+A The Final Resistance|QID|78952|PRE|78951|M|55.87,40.50|Z|2215;Hallowfall|N|From Faerin Lothar.|
+C The Final Resistance|QID|78952|M|55.18,40.11|Z|2215;Hallowfall|QO|1|NC|N|Shadow Rift destroyed.|
+C The Final Resistance|QID|78952|M|55.18,40.08|Z|2215;Hallowfall|QO|2|N|Anguishing Nightmare slain.|
+T The Final Resistance|QID|78952|M|55.12,40.17|Z|2215;Hallowfall|N|To Faerin Lothar.|
+A The Light at the End of the Tunnel|QID|81690|PRE|78952|M|55.12,40.17|Z|2215;Hallowfall|N|From Faerin Lothar.|
+C The Light at the End of the Tunnel|QID|81690|M|56.51,42.58|Z|2215;Hallowfall|QO|1|NC|N|Faerin followed.|
+T The Light at the End of the Tunnel|QID|81690|M|56.38,42.77|Z|2215;Hallowfall|N|To Alleria Windrunner.|
+A Restore the Flame|QID|78954|PRE|81690|M|56.25,42.79|Z|2215;Gloomcrag Bower|N|From Faerin Lothar.|
+C Restore the Flame|QID|78954|M|56.19,42.00|Z|2215;Hallowfall|QO|1|CHAT|N|Speak to Faerin.|
+T Restore the Flame|QID|78954|M|56.19,42.00|Z|2215;Hallowfall|N|To Faerin Lothar.|
+A To Mereldar|QID|78607|PRE|78954|M|56.19,42.00|Z|2215;Hallowfall|N|From Faerin Lothar.|
+T To Mereldar|QID|78607|M|43.41,48.58|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A An Orphan's Request|QID|79151|PRE|82477|M|41.74,55.60|Z|2215|N|From Alyza Bowblaze.|
+A The Bastion of Hallowfall|QID|78613|PRE|78607|M|43.41,48.58|Z|2215;Hallowfall|N|From General Steelstrike.|
+C The Bastion of Hallowfall|QID|78613|M|42.68,55.78|Z|2215;Hallowfall|QO|1|NC|N|Meet Faerin, Anduin, and Alleria at Empire's Edge Inn.|
+C The Bastion of Hallowfall|QID|78613|M|42.74,55.79|Z|2215;Hallowfall|QO|2|NC|N|Buy a Round of Drinks.|
+h Mereldar|QID|79297|M|42.76,55.81|Z|2215;Hallowfall|N|At Nalina Ironsong.|
+C The Bastion of Hallowfall|QID|78613|M|42.73,55.70|Z|2215;Hallowfall|QO|3|NC|N|Hand out the Drinks.|
+T The Bastion of Hallowfall|QID|78613|M|42.73,55.70|Z|2215;Hallowfall|N|To Faerin Lothar.|
+A Nightwatch|QID|79297|PRE|80179&79162&79154&78613|M|42.73,55.70|Z|2215;Hallowfall|N|From Alleria Windrunner.|
+C Nightwatch|QID|79297|M|43.00,56.13|Z|2215;Hallowfall|QO|1|NC|N|Order of Night Propaganda.|
+C Nightwatch|QID|79297|M|43.12,56.23|Z|2215;Hallowfall|QO|3|NC|N|Find Faerin in the Armory (Optional).|
+C Nightwatch|QID|79297|M|41.34,52.97|Z|2215;Hallowfall|QO|4|NC|N|Meet General Steelstrike in the Barracks.|
+T Nightwatch|QID|79297|M|41.29,52.99|Z|2215;Hallowfall|N|To General Steelstrike.|
 A The Light's Call|QID|81990|PRE|82477|M|41.28,53.05|Z|2215|N|From Auralia Steelstrike.|
 A Economical Request|QID|82216|PRE|82477|M|41.27,53.06|Z|2215|N|From Auralia Steelstrike.|
 C Economical Request|QID|82216|M|41.27,53.06|Z|2215|QO|1|NC|N|Suggest Additional Trading Partners.|
@@ -709,7 +888,11 @@ T Economical Request|QID|82216|M|41.27,53.07|Z|2215|N|To Auralia Steelstrike.|
 A A Batty Request|QID|82213|PRE|82216|M|41.27,53.07|Z|2215|N|From Auralia Steelstrike.|
 A Does Anyone Like Wasps?|QID|82214|PRE|82216|M|41.27,53.07|Z|2215|N|From Auralia Steelstrike.|
 A Regular Fiber|QID|82215|PRE|82216|M|41.27,53.07|Z|2215|N|From Auralia Steelstrike.|
+A Spar Day|QID|78626|PRE|79297|M|41.29,52.99|Z|2215;Hallowfall|N|From General Steelstrike.|
 A Dereliction of Duty|QID|79159|PRE|82216|M|41.44,52.46|Z|2215|N|From Endiri Dawnsurge.|
+C Spar Day|QID|78626|M|41.83,52.14|Z|2215;Hallowfall|QO|1|NC|N|Duel Arathi Recruits.|
+T Spar Day|QID|78626|M|41.30,52.98|Z|2215;Hallowfall|N|To General Steelstrike.|
+N Check here if this works with Phasing|N| check phasing |
 A The Brothers Braunpyke|QID|82628|PRE|82216|M|40.54,50.78|Z|2215|N|From General Steelstrike.|
 A The Price of Hope|QID|82894|PRE|82216|M|40.55,50.77|Z|2215|N|From General Steelstrike.|
 C Dereliction of Duty|QID|79159|M|40.75,50.66|Z|2215|QO|1|NC|N|Talk to Shinda Creedpike.|
@@ -719,6 +902,30 @@ C The Price of Hope|QID|82894|M|42.96,51.85|Z|2215|QO|1|NC|N|Meet the General at
 C The Price of Hope|QID|82894|M|43.24,51.79|Z|2215|QO|3|NC|U|216687|N|Retrieve Bandages (Optional).|
 C The Price of Hope|QID|82894|M|43.20,51.74|Z|2215|QO|2|NC|N|Heal an Injured Soldier.|
 T The Price of Hope|QID|82894|M|43.16,51.76|Z|2215|N|To General Steelstrike.|
+A Mereldar's Light|QID|78614|PRE|78626|M|41.31,52.96|Z|2215;Hallowfall|N|From General Steelstrike.|
+C Mereldar's Light|QID|78614|M|41.92,55.48|Z|2215;Hallowfall|QO|1|NC|N|Play with orphans.|
+T Mereldar's Light|QID|78614|M|41.70,55.47|Z|2215;Hallowfall|N|To Faerin Lothar.|
+A The Bell Tolls|QID|78615|PRE|78614|M|41.71,55.47|Z|2215|N|From Faerin Lothar.|
+C The Bell Tolls|QID|78615|M|41.26,54.86|Z|2215|QO|1|NC|N|Go to the Gates of Mereldar.|
+T The Bell Tolls|QID|78615|M|41.08,54.75|Z|2215|N|To Faerin Lothar.|
+A The Shadow Rising|QID|78621|PRE|78615|M|41.04,54.72|Z|2215|N|From Alleria Windrunner.|
+A Crossroads of Twilight|QID|78620|PRE|78615|M|41.07,54.75|Z|2215|N|From General Steelstrike.|
+C The Shadow Rising|QID|78621|M|35.09,52.34|Z|2215|QO|3|N|Lighteater slain.|
+C The Shadow Rising|QID|78621|M|34.93,54.65|Z|2215|QO|1|N|Old Grim slain.|
+C The Shadow Rising|QID|78621|M|35.07,56.94|Z|2215|QO|2|N|Heartfang slain.|
+C Crossroads of Twilight|QID|78620|M|36.51,56.73|Z|2215|QO|1|N|Kobyss Attackers slain.|
+T Crossroads of Twilight|QID|78620|M|34.08,54.69|Z|2215|N|To Alleria Windrunner.|
+T The Shadow Rising|QID|78621|M|34.09,54.66|Z|2215|N|To Alleria Windrunner.|
+A A Candle in the Dark|QID|78624|PRE|78620&78621|M|34.09,54.65|Z|2215|N|From General Steelstrike.|
+C A Candle in the Dark|QID|78624|M|33.86,54.56|Z|2215|QO|1|NC|N|Have Alleria bring down the void bubble.|
+C A Candle in the Dark|QID|78624|M|33.44,54.53|Z|2215|QO|2|N|Aelric Leid slain.|
+T A Candle in the Dark|QID|78624|M|33.66,54.65|Z|2215|N|To General Steelstrike.|
+A Consecrated Cleanup|QID|79089|PRE|78624|M|33.66,54.65|Z|2215|N|From General Steelstrike.|
+A The Flame Still Burns|QID|80049|PRE|78624|M|33.61,54.74|Z|2215|N|From Faerin Lothar.|
+C Consecrated Cleanup|QID|79089|M|35.77,55.23|Z|2215|QO|1|NC|N|Veneration Grounds cleared (100%).|
+C The Flame Still Burns|QID|80049|M|35.38,52.71|Z|2215|QO|1|CHAT|N|Speak to Arathi survivors.|
+T Consecrated Cleanup|QID|79089|M|33.63,54.66|Z|2215|N|To General Steelstrike.|
+T The Flame Still Burns|QID|80049|M|33.63,54.66|Z|2215|N|To General Steelstrike.|
 C Arcane Trickles|QID|80176|M|37.98,50.56|Z|2215|QO|1|NC|N|Arcane Suffused Organ.|
 T The Brothers Braunpyke|QID|82628|M|30.93,55.63|Z|2215|N|To Baron Sybaestan Braunpyke.|
 A Wipe Away Their Smiles|QID|79641|PRE|82894&82628|M|30.93,55.63|Z|2215|N|From Baron Sybaestan Braunpyke.|
@@ -803,114 +1010,9 @@ T A Murder Most Foul|QID|80178|M|48.69,64.55|Z|2215|N|To Wenren Althal.|
 A Finding Justice|QID|80179|PRE|80178|M|48.71,64.53|Z|2215|N|From Wenren Althal.|
 C Finding Justice|QID|80179|M|46.03,64.49|Z|2215|QO|1|NC|N|Trail followed (Optional).|
 C Finding Justice|QID|80179|M|46.00,64.56|Z|2215|QO|2|NC|N|Wenren's killer found.|
-N Follow Campaign and take Skiff |N|Skiff Campaign|
-C A Lamplighter's Duty|QID|78672|M|48.36,40.54|Z|2215|QO|1|NC|N|Skiff taken to Lorel's Crossing.|
-T A Lamplighter's Duty|QID|78672|M|53.92,31.40|Z|2215|N|To Faerin.|
-A Tricks of the Dark|QID|78929|PRE|78672|M|53.92,31.40|Z|2215|N|From Faerin.|
-A Fickle Fiendish Fish|QID|78932|PRE|78672|M|53.93,31.44|Z|2215|N|From General Steelstrike.|
-A Release the Beasts|QID|81568|PRE|78672|M|53.89,31.15|Z|2215|N|From General Steelstrike.|
-A Gasping Plea|QID|80312|PRE|78672|M|53.61,29.14|Z|2215|
-C Fickle Fiendish Fish|QID|78932|M|54.59,29.58|Z|2215|QO|1|N|Kobyss invaders slain.|
-C Tricks of the Dark|QID|78929|M|55.11,29.17|Z|2215|QO|1|NC|N|Arathi rescued.|
-C Gasping Plea|QID|80312|M|54.56,25.44|Z|2215|QO|1|NC|N|Drop the fish into the water near Sunless Strand.|
-T Gasping Plea|QID|80312|M|54.52,25.37|Z|2215|N|To Peculiar Fish.|
-A Tidal Charms|QID|80313|PRE|80312|M|54.52,25.37|Z|2215|N|From Peculiar Fish.|
-A Voices from the Deep|QID|80314|PRE|80312|M|54.52,25.37|Z|2215|N|From Peculiar Fish.|
-C Tidal Charms|QID|80313|M|55.39,24.08|Z|2215|QO|1|NC|N|Sunless Shard.|
-C Voices from the Deep|QID|80314|M|55.32,24.21|Z|2215|QO|1|NC|N|Raised Shrine studied.|
-C Voices from the Deep|QID|80314|M|56.90,24.77|Z|2215|QO|3|NC|N|Guarded Shrine studied.|
-C Release the Beasts|QID|81568|M|56.84,24.60|Z|2215|QO|1|NC|N|Disobedient Beast-Slave released.|
-T Release the Beasts|QID|81568|M|56.84,24.60|Z|2215|
-C Voices from the Deep|QID|80314|M|56.28,22.60|Z|2215|QO|2|NC|N|Submerged Shrine studied.|
-T Tidal Charms|QID|80313|M|54.50,25.33|Z|2215|N|To Peculiar Fish.|
-T Voices from the Deep|QID|80314|M|54.50,25.33|Z|2215|N|To Peculiar Fish.|
-A Alluring Offer|QID|80315|PRE|81568&80313&80314|M|54.50,25.33|Z|2215|N|From Peculiar Fish.|
-C Alluring Offer|QID|80315|M|53.95,19.93|Z|2215;Hallowfall|QO|3|N|Chieftain Gillcarver slain.|
-C Alluring Offer|QID|80315|M|54.08,19.47|Z|2215;Hallowfall|QO|2|N|Sunless Tidemarshal slain.|
-T Regularly Scheduled Maintenance|QID|82478|M|50.00,20.86|Z|2215;Hallowfall|N|To Aemyra Acton.|
-A The Sword is Mightier|QID|82479|PRE|82478|M|50.00,20.86|Z|2215;Hallowfall|N|From Aemyra Acton.|
-C The Sword is Mightier|QID|82479|M|49.97,20.85|Z|2215;Hallowfall|QO|1|NC|N|Put Aemyra's sentiments on paper.|
-T Alluring Offer|QID|80315|M|54.51,25.34|Z|2215;Hallowfall|N|To Peculiar Fish.|
-A Return to the Sea|QID|80316|PRE|80315|M|54.51,25.34|Z|2215;Hallowfall|N|From Unknown.|
-C Return to the Sea|QID|80316|M|54.51,25.34|Z|2215;Hallowfall|QO|1|NC|N|Collect the fish.|
-C Return to the Sea|QID|80316|M|56.92,8.69|Z|2215;Hallowfall|QO|2|NC|N|Drop the fish in deeper waters in Bleak Sand.|
-L Level 79|QID|80316|LVL|79|N|You should be around level 79 by this point.|
-T Return to the Sea|QID|80316|M|56.93,8.70|Z|2215;Hallowfall|N|To Peculiar Fish.|
-T Tricks of the Dark|QID|78929|M|53.93,30.83|Z|2215;Hallowfall|N|To Anduin Wrynn.|
-T Fickle Fiendish Fish|QID|78932|M|53.93,30.83|Z|2215;Hallowfall|N|To Anduin Wrynn.|
-A Blades of the Arathi|QID|78934|PRE|80316&78929&78932|M|53.95,30.76|Z|2215;Hallowfall|N|From Faerin.|
-A Something's Fishy|QID|78936|PRE|80316&78929&78932|M|55.16,32.70|Z|2215;Hallowfall|N|From General Steelstrike.|
-C Blades of the Arathi|QID|78934|M|55.16,32.70|Z|2215;Hallowfall|QO|1|NC|N|Torch lit.|
-C Something's Fishy|QID|78936|M|54.50,33.77|Z|2215;Hallowfall|QO|2|N|The Abominable Wavecrasher slain.|
-C Something's Fishy|QID|78936|M|53.44,32.74|Z|2215;Hallowfall|QO|1|N|Deepsludger slain.|
-C Something's Fishy|QID|78936|M|56.12,33.96|Z|2215;Hallowfall|QO|3|N|Tidelord Teethwretch slain.|
-C Blades of the Arathi|QID|78934|M|56.12,33.60|Z|2215;Hallowfall|QO|2|NC|N|Arathi groups rallied.|
-T Something's Fishy|QID|78936|M|55.17,32.65|Z|2215;Hallowfall|N|To General Steelstrike.|
-T Blades of the Arathi|QID|78934|M|55.17,32.65|Z|2215;Hallowfall|N|To Faerin.|
-A Shadow upon Shadow|QID|78937|PRE|78936&78934|M|55.16,32.66|Z|2215;Hallowfall|N|From Faerin.|
-C Shadow upon Shadow|QID|78937|M|55.70,41.07|Z|2215;Hallowfall|QO|1|NC|N|Find Faerin at the Tower Overlook.|
-T Shadow upon Shadow|QID|78937|M|55.76,41.26|Z|2215;Hallowfall|N|To Alleria Windrunner.|
-A The Darkened Flame|QID|78939|PRE|78937|M|55.76,41.26|Z|2215;Hallowfall|N|From Alleria Windrunner.|
-C The Darkened Flame|QID|78939|M|56.23,42.00|Z|2215;Hallowfall|QO|1|NC|N|Darkfire investigated.|
-C The Darkened Flame|QID|78939|M|55.90,41.96|Z|2215;Hallowfall|QO|2|NC|N|Clues found outside the tower.|
-C The Darkened Flame|QID|78939|M|56.26,41.98|Z|2215;Hallowfall|QO|3|NC|N|Return to Faerin.|
-T The Darkened Flame|QID|78939|M|56.20,42.02|Z|2215;Hallowfall|N|To Faerin Lothar.|
-A Ever Deeper Shadow|QID|78951|PRE|78939|M|56.20,42.02|Z|2215;Hallowfall|N|From Faerin Lothar.|
-C Ever Deeper Shadow|QID|78951|M|56.91,40.35|Z|2215;Hallowfall|QO|1|N|Order of Night cultists slain.|
-T Ever Deeper Shadow|QID|78951|M|55.87,40.50|Z|2215;Hallowfall|N|To Faerin Lothar.|
-A The Final Resistance|QID|78952|PRE|78951|M|55.87,40.50|Z|2215;Hallowfall|N|From Faerin Lothar.|
-C The Final Resistance|QID|78952|M|55.18,40.11|Z|2215;Hallowfall|QO|1|NC|N|Shadow Rift destroyed.|
-C The Final Resistance|QID|78952|M|55.18,40.08|Z|2215;Hallowfall|QO|2|N|Anguishing Nightmare slain.|
-T The Final Resistance|QID|78952|M|55.12,40.17|Z|2215;Hallowfall|N|To Faerin Lothar.|
-A The Light at the End of the Tunnel|QID|81690|PRE|78952|M|55.12,40.17|Z|2215;Hallowfall|N|From Faerin Lothar.|
-C The Light at the End of the Tunnel|QID|81690|M|56.51,42.58|Z|2215;Hallowfall|QO|1|NC|N|Faerin followed.|
-T The Light at the End of the Tunnel|QID|81690|M|56.38,42.77|Z|2215;Hallowfall|N|To Alleria Windrunner.|
-A Restore the Flame|QID|78954|PRE|81690|M|56.25,42.79|Z|2215;Gloomcrag Bower|N|From Faerin Lothar.|
-C Restore the Flame|QID|78954|M|56.19,42.00|Z|2215;Hallowfall|QO|1|CHAT|N|Speak to Faerin.|
-T Restore the Flame|QID|78954|M|56.19,42.00|Z|2215;Hallowfall|N|To Faerin Lothar.|
-A To Mereldar|QID|78607|PRE|78954|M|56.19,42.00|Z|2215;Hallowfall|N|From Faerin Lothar.|
-H Hearth to Mereldar.|
-T To Mereldar|QID|78607|M|43.41,48.58|Z|2215;Hallowfall|N|To Faerin Lothar.|
-A The Bastion of Hallowfall|QID|78613|PRE|78607|M|43.41,48.58|Z|2215;Hallowfall|N|From General Steelstrike.|
 T Finding Justice|QID|80179|M|40.54,50.78|Z|2215;Hallowfall|N|To General Steelstrike.|
 T Burnout|QID|79162|M|41.44,52.48|Z|2215;Hallowfall|N|To Endiri Dawnsurge.|
 T A Final Goodbye|QID|79154|M|41.81,55.38|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
-C The Bastion of Hallowfall|QID|78613|M|42.68,55.78|Z|2215;Hallowfall|QO|1|NC|N|Meet Faerin, Anduin, and Alleria at Empire's Edge Inn.|
-C The Bastion of Hallowfall|QID|78613|M|42.74,55.79|Z|2215;Hallowfall|QO|2|NC|N|Buy a Round of Drinks.|
-C The Bastion of Hallowfall|QID|78613|M|42.73,55.70|Z|2215;Hallowfall|QO|3|NC|N|Hand out the Drinks.|
-T The Bastion of Hallowfall|QID|78613|M|42.73,55.70|Z|2215;Hallowfall|N|To Faerin Lothar.|
-A Nightwatch|QID|79297|PRE|80179&79162&79154&78613|M|42.73,55.70|Z|2215;Hallowfall|N|From Alleria Windrunner.|
-C Nightwatch|QID|79297|M|43.00,56.13|Z|2215;Hallowfall|QO|1|NC|N|Order of Night Propaganda.|
-C Nightwatch|QID|79297|M|43.12,56.23|Z|2215;Hallowfall|QO|3|NC|N|Find Faerin in the Armory (Optional).|
-C Nightwatch|QID|79297|M|41.34,52.97|Z|2215;Hallowfall|QO|4|NC|N|Meet General Steelstrike in the Barracks.|
-T Nightwatch|QID|79297|M|41.29,52.99|Z|2215;Hallowfall|N|To General Steelstrike.|
-A Spar Day|QID|78626|PRE|79297|M|41.29,52.99|Z|2215;Hallowfall|N|From General Steelstrike.|
-C Spar Day|QID|78626|M|41.83,52.14|Z|2215;Hallowfall|QO|1|NC|N|Duel Arathi Recruits.|
-T Spar Day|QID|78626|M|41.30,52.98|Z|2215;Hallowfall|N|To General Steelstrike.|
-A Mereldar's Light|QID|78614|PRE|78626|M|41.31,52.96|Z|2215;Hallowfall|N|From General Steelstrike.|
-C Mereldar's Light|QID|78614|M|41.92,55.48|Z|2215;Hallowfall|QO|1|NC|N|Play with orphans.|
-T Mereldar's Light|QID|78614|M|41.70,55.47|Z|2215;Hallowfall|N|To Faerin Lothar.|
-A The Bell Tolls|QID|78615|PRE|78614|M|41.71,55.47|Z|2215|N|From Faerin Lothar.|
-C The Bell Tolls|QID|78615|M|41.26,54.86|Z|2215|QO|1|NC|N|Go to the Gates of Mereldar.|
-T The Bell Tolls|QID|78615|M|41.08,54.75|Z|2215|N|To Faerin Lothar.|
-A The Shadow Rising|QID|78621|PRE|78615|M|41.04,54.72|Z|2215|N|From Alleria Windrunner.|
-A Crossroads of Twilight|QID|78620|PRE|78615|M|41.07,54.75|Z|2215|N|From General Steelstrike.|
-C The Shadow Rising|QID|78621|M|35.09,52.34|Z|2215|QO|3|N|Lighteater slain.|
-C The Shadow Rising|QID|78621|M|34.93,54.65|Z|2215|QO|1|N|Old Grim slain.|
-C The Shadow Rising|QID|78621|M|35.07,56.94|Z|2215|QO|2|N|Heartfang slain.|
-C Crossroads of Twilight|QID|78620|M|36.51,56.73|Z|2215|QO|1|N|Kobyss Attackers slain.|
-T Crossroads of Twilight|QID|78620|M|34.08,54.69|Z|2215|N|To Alleria Windrunner.|
-T The Shadow Rising|QID|78621|M|34.09,54.66|Z|2215|N|To Alleria Windrunner.|
-A A Candle in the Dark|QID|78624|PRE|78620&78621|M|34.09,54.65|Z|2215|N|From General Steelstrike.|
-C A Candle in the Dark|QID|78624|M|33.86,54.56|Z|2215|QO|1|NC|N|Have Alleria bring down the void bubble.|
-C A Candle in the Dark|QID|78624|M|33.44,54.53|Z|2215|QO|2|N|Aelric Leid slain.|
-T A Candle in the Dark|QID|78624|M|33.66,54.65|Z|2215|N|To General Steelstrike.|
-A Consecrated Cleanup|QID|79089|PRE|78624|M|33.66,54.65|Z|2215|N|From General Steelstrike.|
-A The Flame Still Burns|QID|80049|PRE|78624|M|33.61,54.74|Z|2215|N|From Faerin Lothar.|
-C Consecrated Cleanup|QID|79089|M|35.77,55.23|Z|2215|QO|1|NC|N|Veneration Grounds cleared (100%).|
-C The Flame Still Burns|QID|80049|M|35.38,52.71|Z|2215|QO|1|CHAT|N|Speak to Arathi survivors.|
-T Consecrated Cleanup|QID|79089|M|33.63,54.66|Z|2215|N|To General Steelstrike.|
-T The Flame Still Burns|QID|80049|M|33.63,54.66|Z|2215|N|To General Steelstrike.|
 A The Final Front|QID|78627|PRE|79089&80049|M|33.61,54.64|Z|2215|
 C The Final Front|QID|78627|M|38.95,71.26|Z|2215|QO|1|NC|N|Travel to Light's Redoubt.|
 T The Final Front|QID|78627|M|38.97,71.58|Z|2215|N|To General Steelstrike.|
@@ -1087,6 +1189,7 @@ C Uniting Severed Threads|QID|84022|M|55.55,43.88|Z|2255;Azj-Kahet|QO|1|NC|N|Gen
 C Uniting Severed Threads|QID|84022|M|55.61,43.95|Z|2255;Azj-Kahet|QO|3|CHAT|N|Speak to the Weaver to begin the conference.|
 C Uniting Severed Threads|QID|84022|M|55.61,43.95|Z|2255;Azj-Kahet|QO|4|NC|N|Witness the formation of the Severed Threads.|
 T Uniting Severed Threads|QID|84022|M|55.61,43.95|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
+N If you are lacking any XP|N| you can craft 15 first crafts for ~200k xp|
 N Thank you for using this guide|N| I hope it was helpfull |
 N IF YOU HAVE ANY FEEDBACK OR QUESTIONS|N| Comment on AesVersatile's guide on YouTube |
 ]]
