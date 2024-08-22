@@ -7,14 +7,16 @@ WoWPro:GuideNextGuide(guide, 'Max Level Campaign')
 WoWPro:GuideSteps(guide, function()
 return [[
 
+N This guide is a work in progress. Currently only have routing for campaign quests. NO ETA.
+
 A Heroes Never Die|QID|78350|M|29.37,42.24|Z|2255;The Reckoning|N|From Faerin.|
 A Chasing the Light|QID|78384|M|29.36,42.58|Z|2255;The Reckoning|N|From Alleria Windrunner.|
 A The Second Front|QID|79574|M|29.38,41.61|Z|2255;Azj-Kahet|N|From Kal Smoulderbrow.|RANK|2|
 C Heroes Never Die|QID|78350|M|31.29,41.66|Z|2255;Azj-Kahet|QO|1|H|N|Wounded Aeroknights rescued.|S|
 C The Second Front|QID|79574|M|27.59,44.95|Z|2255;Azj-Kahet|QO|1|N|Signal a landing field.|H|
 T The Second Front|QID|79574|M|27.56,45.08|Z|2255;Azj-Kahet|N|To General Steelstrike.|
-A That Airspace is Mine(d)!|QID|79579|M|27.56,45.08|Z|2255;Azj-Kahet|N|From General Steelstrike.|
-A Offensive Counter|QID|79580|M|27.56,45.08|Z|2255;Azj-Kahet|N|From General Steelstrike.|
+A That Airspace is Mine(d)!|QID|79579|M|27.56,45.08|Z|2255;Azj-Kahet|N|From General Steelstrike.|RANK|2|
+A Offensive Counter|QID|79580|M|27.56,45.08|Z|2255;Azj-Kahet|N|From General Steelstrike.|RANK|2|
 C Offensive Counter|QID|79580|M|33.45,42.06|Z|2255;Azj-Kahet|QO|1|N|Nerubians slain.|S|
 C Chasing the Light|QID|78384|M|26.53,42.95|Z|2255;Azj-Kahet|QO|2|N|Bleached Bones.|H|
 C Chasing the Light|QID|78384|M|29.15,44.54|Z|2255;Azj-Kahet|QO|1|N|Crumpled Lion Gauntlet.|H|
@@ -32,9 +34,9 @@ C Friends in Low Places|QID|78348|M|33.05,56.23|Z|2255;Azj-Kahet|QO|2|NC|N|Myste
 T Friends in Low Places|QID|78348|M|33.02,56.30|Z|2255;Azj-Kahet|N|To Orweyna.|
 A For Naught, So Vial|QID|78352|M|33.02,56.30|Z|2255;Azj-Kahet|N|From Orweyna.|
 A Fear the Old Blood|QID|78353|M|33.02,56.30|Z|2255;Azj-Kahet|N|From Orweyna.|
-C Fear the Old Blood|QID|78353|M|34.06,56.37|Z|2255;Azj-Kahet|QO|1|NC|N|The Breathing Pit Cleansed (100%).|S|
-C For Naught, So Vial|QID|78352|M|33.32,57.80|Z|2255;Azj-Kahet|QO|1|NC|N|Nerubian Extractor.|
-C Fear the Old Blood|QID|78353|M|34.06,56.37|Z|2255;Azj-Kahet|QO|1|NC|N|The Breathing Pit Cleansed (100%).|US|
+C Fear the Old Blood|QID|78353|M|34.06,56.37|Z|2255;Azj-Kahet|QO|1|N|The Breathing Pit Cleansed.|S|
+C For Naught, So Vial|QID|78352|M|33.32,57.80|Z|2255;Azj-Kahet|QO|1|H|N|Nerubian Extractor.|
+C Fear the Old Blood|QID|78353|M|34.06,56.37|Z|2255;Azj-Kahet|QO|1|N|The Breathing Pit Cleansed.|US|
 T For Naught, So Vial|QID|78352|M|35.73,58.14|Z|2255;Azj-Kahet|N|To Orweyna.|
 T Fear the Old Blood|QID|78353|M|35.73,58.14|Z|2255;Azj-Kahet|N|To Orweyna.|
 A Alone in the Dark|QID|79139|M|35.73,58.14|Z|2255;Azj-Kahet|N|From Orweyna.|
@@ -54,26 +56,26 @@ C The Tangled Web|QID|78392|M|55.53,43.85|Z|2255;Azj-Kahet|QO|2|CHAT|N|Learn abo
 C The Tangled Web|QID|78392|M|55.53,43.85|Z|2255;Azj-Kahet|QO|3|CHAT|N|Learn about the Ascended.|
 C The Tangled Web|QID|78392|M|55.53,43.85|Z|2255;Azj-Kahet|QO|4|CHAT|N|Learn about the Queen's allies.|
 T The Tangled Web|QID|78392|M|55.53,43.85|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
-A Delver's Call: Tak-Rethan Abyss|QID|83771|M|56.72,40.76|Z|2255;Azj-Kahet|N|From The Book.|
+A Delver's Call: Tak-Rethan Abyss|QID|83771|M|56.72,40.76|Z|2255;Azj-Kahet|N|From The Book.|RANK|3|
 t Delver's Call: Tak-Rethan Abyss|QID|83771|M|56.72,40.76|Z|2255;Azj-Kahet|N|From Brann Bronzebeard.|IZ|The Weaver's Lair|
 C A Seeming Respite|QID|78393|M|56.87,38.95|Z|2255;Azj-Kahet|QO|3|NC|N|Innkeeper located.|
 C A Seeming Respite|QID|78393|M|57.00,41.85|Z|2255;Azj-Kahet|QO|2|NC|N|Repair vendor located.|
 C A Seeming Respite|QID|78393|M|56.89,46.96|Z|2255;Azj-Kahet|QO|1|NC|N|Flight Master located.|
 T A Seeming Respite|QID|78393|M|55.86,43.80|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
 A The Weaver's Gift|QID|78233|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
-A Strange Bats|QID|83321|M|55.76,43.66|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|
+A Strange Bats|QID|83321|M|55.76,43.66|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
 C The Weaver's Gift|QID|78233|M|58.97,19.96|Z|2255;Azj-Kahet|QO|1|NC|N|Weaver's gift located.|
 T The Weaver's Gift|QID|78233|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 A Rations and Revelations|QID|80399|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
-A Where the Wild Things Camp|QID|83306|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
-A Beneath the Roots|QID|83716|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
-A Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|
+A Where the Wild Things Camp|QID|83306|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
+A Beneath the Roots|QID|83716|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
+A Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|RANK|3|
 t Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|IZ|Faerin's Advance|
 C Rations and Revelations|QID|80399|M|59.41,19.18;59.03,19.06;58.80,19.97|CS|Z|2255;Azj-Kahet|QO|1|H|N|Arathi Rations distributed.|
 T Rations and Revelations|QID|80399|M|59.38,19.34|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 A Scrappy Straggler|QID|78236|M|59.38,19.34|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
-A Infested Infestation|QID|79174|M|57.76,19.68|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|
-A Prisoner Preservation|QID|79355|M|57.76,19.68|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|
+A Infested Infestation|QID|79174|M|57.76,19.68|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
+A Prisoner Preservation|QID|79355|M|57.76,19.68|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 C Infested Infestation|QID|79174|M|55.14,21.25|Z|2255;Azj-Kahet|QO|1|N|Spore-afflicted beasts slain.|S|
 C Prisoner Preservation|QID|79355|M|54.96,21.24|Z|2255;Azj-Kahet|QO|1<1|NC|N|Drog Skullbreaker found.|
 C Prisoner Preservation|QID|79355|M|53.94,21.81|Z|2255;Azj-Kahet|QO|1<2|NC|N|Aemara found.|
@@ -82,8 +84,8 @@ C Prisoner Preservation|QID|79355|M|54.90,18.69|Z|2255;Azj-Kahet|QO|1<4|NC|N|Jet
 C Infested Infestation|QID|79174|M|55.14,21.25|Z|2255;Azj-Kahet|QO|1|N|Spore-afflicted beasts slain.|US|
 T Prisoner Preservation|QID|79355|M|57.82,19.70|Z|2255;Azj-Kahet|N|To Great Hexer Ohodo.|
 T Infested Infestation|QID|79174|M|57.82,19.70|Z|2255;Azj-Kahet|N|To Great Hexer Ohodo.|
-A Antifungal Firestarter|QID|79356|M|57.82,19.70|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|
-A Removing the Cap|QID|79357|M|57.82,19.70|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|
+A Antifungal Firestarter|QID|79356|M|57.82,19.70|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
+A Removing the Cap|QID|79357|M|57.82,19.70|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 C Antifungal Firestarter|QID|79356|M|55.70,16.98|Z|2255;Azj-Kahet|QO|1|H|U|212334|N|Invasive Fungal Pods burned.|S|
 K Agaricus Festerbloom|ACTIVE|79357|M|56.40,16.83|Z|2255;Azj-Kahet|QO|1|N|Agaricus Festerbloom slain.|T|Agaricus Festerbloom|
 C Antifungal Firestarter|QID|79356|M|55.70,16.98|Z|2255;Azj-Kahet|QO|1|H|U|212334|N|Invasive Fungal Pods burned.|US|
@@ -123,7 +125,7 @@ A Dalaran's Most Distressed|QID|78251|M|45.30,19.88|Z|2255;Azj-Kahet|N|From Mont
 C Dalaran's Most Distressed|QID|78251|M|45.20,23.11|Z|2255;Azj-Kahet|QO|3|H|N|Assist Gazlowe.|
 C Dalaran's Most Distressed|QID|78251|M|43.95,24.88|Z|2255;Azj-Kahet|QO|2|CHAT|N|Free caged prisoners.|
 C Dalaran's Most Distressed|QID|78251|M|47.19,26.91|Z|2255;Azj-Kahet|QO|1|CHAT|N|Free webbed prisoners.|
-K Tij'allet|ACTIVE|78254|M|48.31,19.92|Z|2255;Azj-Kahet|QO|1|NC|N|Kill Tij'allet and loot Zev'kall's Pheromone Emitter.|
+K Tij'allet|ACTIVE|78254|M|48.31,19.92|Z|2255;Azj-Kahet|QO|1|NC|N|Kill Tij'allet and loot Zev'kall's Pheromone Emitter.|T|Tij'allet|
 T Dalaran's Most Distressed|QID|78251|M|47.37,23.98|Z|2255;Azj-Kahet|N|To Monte Gazlowe.|
 T Stolen Influence|QID|78254|M|47.37,23.98|Z|2255;Azj-Kahet|N|To Monte Gazlowe.|
 A Just Act Casual|QID|78255|M|47.43,23.96|Z|2255;Azj-Kahet|N|From Monte Gazlowe.|

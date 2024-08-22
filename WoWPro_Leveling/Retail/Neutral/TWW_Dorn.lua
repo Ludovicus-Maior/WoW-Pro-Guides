@@ -17,7 +17,7 @@ C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the r
 T Violent Impact|QID|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
 A Slay the Saboteurs|QID|78530|PRE|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|From Lady Jaina Proudmoore.|
 A Urgent Recovery|QID|78531|PRE|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|From Thrall.|
-C Urgent Recovery|QID|78531|QO|1|M|30.38,52.80|Z|2248;Isle of Dorn|N|Crash survivors aided.|S|H|
+C Urgent Recovery|QID|78531|QO|1|M|M|30.38,52.80;31.09,55.34;31.41,54.20;30.36,52.73;30.59,53.84;30.22,54.59|CS|Z|2248;Isle of Dorn|N|Crash survivors aided.|S|H|
 C Slay the Saboteurs|QID|78530|QO|1|M|30.35,55.51|Z|2248;Isle of Dorn|N|Nerubians slain.|S|
 A Erratic Artifacts|QID|78532|PRE|78529|M|31.01,55.16|Z|2248;Isle of Dorn|N|Click the Sunreaver Satchel on the ground, and accept the quest that is offered.|
 C Erratic Artifacts|QID|78532|QO|1|M|31.64,54.80|Z|2248;Isle of Dorn|N|Damaged Arcane Relics destroyed.|U|211535|NC|
@@ -78,23 +78,24 @@ C Delve into the Earth|QID|78464|QO|8|M|38.77,73.30|Z|2248;Isle of Dorn|N|Speak 
 T Delve into the Earth|QID|78464|M|41.86,72.63|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A A Natural Remedy|QID|79553|PRE|78464|M|41.86,72.63|Z|2248;Isle of Dorn|N|From Adelgonn.|
 A Building Blocks|QID|78463|PRE|78464|M|41.79,72.66|Z|2248;Isle of Dorn|N|From Baelgrim.|
-A Frayed Legacy|QID|78570|M|41.61,71.38|N|From Freysworn Cruton.|RANK|2|
-A For The Love of Gems|QID|82441|M|43.03,70.01|N|From Natalia Pearce.|RANK|2|
-A Prairie Fever|QID|78469|PRE||M|41.72,70.88|N|From Hreka.|RANK|2|
-C Prairie Fever|QID|78469|M|41.65,70.85|QO|1|N|Pottery acquired.|H|
-C For The Love of Gems|QID|82441|QO|1|M|41.68,72.42;41.64,71.80|CS|N|Go to the first way point to enter the house, then talk to Betta.|CHAT|
-A All Ore Nothing|QID|82792|M|41.04,72.17|N|From Germira.|RANK|2|
-C For The Love of Gems|QID|82441|QO|2|M|40.93,71.89|N|Talk to Kurron.|CHAT|
-C Prairie Fever|QID|78469|QO|2|M|42.27,73.28|N|Pottery delivered.|CHAT|
-T Prairie Fever|QID|78469|M|42.27,73.28|N|To Kodun.|
-A Monsters in the Dark|QID|79691|PRE|78469|M|42.27,73.28|N|From Kodun.|RANK|2|
-A Buried, Not Forgotten|QID|79692|PRE|78469|M|42.27,73.28|N|From Kodun.|RANK|2|
-C For The Love of Gems|QID|82441|QO|3|M|41.60,75.00|N|Talk to Maluc.|CHAT|
-C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|N|Modhina found.|S|I|
-C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|N|Modhina's belongings.|S|
-K Ashen Stonestalker|ACTIVE|79691|QO|1|M|34.77,74.12|N|Ashen Stonestalker slain.|T|Ashen Stonestalker|
-C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|N|Modhina found.|US|I|
-C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|N|Modhina's belongings.|US|
+A Frayed Legacy|QID|78570|M|41.61,71.38|Z|2248;Isle of Dorn|N|From Freysworn Cruton.|RANK|2|
+A For The Love of Gems|QID|82441|M|43.03,70.01|Z|2248;Isle of Dorn|N|From Natalia Pearce.|RANK|2|
+A Prairie Fever|QID|78469|PRE||M|41.72,70.88|Z|2248;Isle of Dorn|N|From Hreka.|RANK|2|
+C Prairie Fever|QID|78469|M|41.65,70.85|QO|1|Z|2248;Isle of Dorn|N|Pottery acquired.|H|
+C For The Love of Gems|QID|82441|QO|1|M|41.68,72.42;41.64,71.80|CS|Z|2248;Isle of Dorn|N|Go to the first way point to enter the house, then talk to Betta.|CHAT|
+A All Ore Nothing|QID|82792|M|41.04,72.17|Z|2248;Isle of Dorn|N|From Germira.|RANK|2|
+C For The Love of Gems|QID|82441|QO|2|M|40.93,71.89|Z|2248;Isle of Dorn|N|Talk to Kurron.|CHAT|
+C Prairie Fever|QID|78469|QO|2|M|42.27,73.28|Z|2248;Isle of Dorn|N|Pottery delivered.|CHAT|
+T Prairie Fever|QID|78469|M|42.27,73.28|Z|2248;Isle of Dorn|N|To Kodun.|
+A Monsters in the Dark|QID|79691|PRE|78469|M|42.27,73.28|Z|2248;Isle of Dorn|N|From Kodun.|RANK|2|
+A Buried, Not Forgotten|QID|79692|PRE|78469|M|42.27,73.28|Z|2248;Isle of Dorn|N|From Kodun.|RANK|2|
+C For The Love of Gems|QID|82441|QO|3|M|41.60,75.00|Z|2248;Isle of Dorn|N|Talk to Maluc.|CHAT|
+C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|Z|2248;Isle of Dorn|N|Modhina found.|S|I|
+C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|Z|2248;Isle of Dorn|N|Modhina's belongings.|S|
+R Enter Gemvein Tunnels|ACTIVE|79691|M|34.98,75.47|N|Enter the tunnel and follow the tracks down and to the left.|
+K Ashen Stonestalker|ACTIVE|79691|QO|1|M|34.77,74.12|Z|2248;Isle of Dorn|N|Ashen Stonestalker slain.|T|Ashen Stonestalker|
+C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|Z|2248;Isle of Dorn|N|Modhina found.|US|I|
+C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|Z|2248;Isle of Dorn|N|Modhina's belongings.|US|
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248;Isle of Dorn|N|Glittering Ore.|H|S|
 C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian Chunks.|S|
 A Concerning Fungarians|QID|79686|M|35.8,77.2|Z|2248;Isle of Dorn|N|From note on floor inside building under stairs.|RANK|2|
@@ -105,6 +106,7 @@ C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian 
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248;Isle of Dorn|N|Glittering Ore.|H|US|
 T Buried, Not Forgotten|QID|79692|M|42.28,73.29|N|To Kodun.|
 T Monsters in the Dark|QID|79691|M|42.28,73.29|N|To Kodun.|
+R Enter Herbalist|ACTIVE|79686|M|42.15,71.32|N|Enter the herbalist and go downstairs.|
 T Concerning Fungarians|QID|79686|M|41.47,71.46|Z|2248;Isle of Dorn|N|To Yeonin (downstairs).|
 A Hope, An Anomaly|QID|79703|PRE|79692&79691|M|42.26,73.17|Z|2248;Isle of Dorn|N|From Hreka.|RANK|2|
 C Hope, An Anomaly|QID|79703|QO|1|M|42.36,73.16|Z|2248;Isle of Dorn|N|Ore placed in forge.|H|
@@ -121,14 +123,24 @@ C Echoes of Compassion|QID|78462|QO|3|M|41.85,72.76|Z|2248;Isle of Dorn|N|Findor
 C Echoes of Compassion|QID|78462|QO|4|M|41.85,72.76|Z|2248;Isle of Dorn|N|Ebona assessed.|CHAT|
 T Echoes of Compassion|QID|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A The Proscenium|QID|78470|PRE|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|From Moira Thaurissan.|
-A Weapons and Warriors|QID|78996|M|42.7,71.7|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
-C Weapons and Warriors|QID|78996|QO|2|M|41.0,73.1;41.6,74.5;43.9,78.8|CS|Z|2248;Isle of Dorn|N|Weapon crates acquired.|S|
-C Weapons and Warriors|QID|78996|QO|1|M|42.12,72.27;41.42,73.94|CS|Z|2248;Isle of Dorn|N|Warriors recruited.|CHAT|
+A Weapons and Warriors|QID|78996|M|42.72,71.72|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
+C Weapons and Warriors|QID|78996|QO|2|M|43.95,78.82|Z|2248;Isle of Dorn|N|Weapon crates acquired.|S|H|
+C Weapons and Warriors|QID|78996|QO|1<1|M|42.12,72.27|Z|2248;Isle of Dorn|N|Warriors recruited. (Kaldrinn)|CHAT|
+C Weapons and Warriors|QID|78996|QO|2<1|M|41.0,73.1|Z|2248;Isle of Dorn|N|Weapon crate acquired.|H|
+C Weapons and Warriors|QID|78996|QO|1<2|M|41.4,74.0|Z|2248;Isle of Dorn|N|Warriors recruited. (Garrak)|CHAT|
+C Weapons and Warriors|QID|78996|QO|2<2|M|41.6,74.5|Z|2248;Isle of Dorn|N|Weapon crate acquired. (Inside building)|H|
+C Weapons and Warriors|QID|78996|QO|2<3|M|43.9,78.8|Z|2248;Isle of Dorn|N|Weapon crate acquired.|H|
+C Weapons and Warriors|QID|78996|QO|1<3|M|44.4,79.3|Z|2248;Isle of Dorn|N|Warriors recruited. (Eiggard - Inside bottom of building with Bertola)|CHAT|
+C Weapons and Warriors|QID|78996|QO|1<4|M|44.4,79.3|Z|2248;Isle of Dorn|N|Warriors recruited. (Bertola - Inside bottom of building with Eiggard)|CHAT|
+C Weapons and Warriors|QID|78996|QO|1<5|M|44.7,79.3|Z|2248;Isle of Dorn|N|Warriors recruited. (Merrimack)|CHAT|
 C Weapons and Warriors|QID|78996|QO|2|M|43.95,78.82|Z|2248;Isle of Dorn|N|Weapon crates acquired.|US|
 T All Ore Nothing|QID|82792|M|45.86,62.89|Z|2248;Isle of Dorn|N|To Alvegar.|
+A Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248;Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
+A The Opalfront|QID|83082|M|44.86,64.33|Z|2248;Isle of Dorn|N|From Peacekeeper Hektare.|RANK|2|
 A Third Mine Blind|QID|82796|PRE|82792|M|45.86,62.89|Z|2248;Isle of Dorn|N|From Alvegar.|RANK|2|
 T Third Mine Blind|QID|82796|M|47.28,61.61|Z|2248;Isle of Dorn|N|To Alvegar.|
 A Hit Rock Bottom|QID|82797|PRE|82796|M|47.28,61.61|Z|2248;Isle of Dorn|N|From Alvegar.|RANK|2|
+C The Opalfront|QID|83082|M|44.86,64.33|Z|2248;Isle of Dorn|N|Kill the spiders.|S|
 C Hit Rock Bottom|QID|82797|QO|1|M|47.32,61.61|Z|2248;Isle of Dorn|N|Parachute equipped (Optional).|H|
 C Hit Rock Bottom|QID|82797|QO|2|M|47.66,62.10|Z|2248;Isle of Dorn|N|Opalcreg explored.|
 T Hit Rock Bottom|QID|82797|M|48.63,60.96|Z|2248;Isle of Dorn|N|To Cenderragg.|
@@ -144,9 +156,6 @@ C A Sedimental Moment|QID|82800|QO|1|M|47.01,60.80|Z|2248;Isle of Dorn|N|Earthen
 T A Sedimental Moment|QID|82800|M|47.32,60.97|Z|2248;Isle of Dorn|N|To Cenderragg.|
 A Beetlejeweled|QID|82801|PRE|82800|M|47.32,60.98|Z|2248;Isle of Dorn|N|From Cenderragg.|RANK|2|
 K Kix'arak|ACTIVE|82801|QO|1|M|46.04,61.99|Z|2248;Isle of Dorn|N|Kix'arak slain.|T|Kix'arak|
-A Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248;Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
-A The Opalfront|QID|83082|M|44.86,64.33|Z|2248;Isle of Dorn|N|From Peacekeeper Hektare.|RANK|2|
-C The Opalfront|QID|83082|M|44.86,64.33|Z|2248;Isle of Dorn|N|Kill the spiders.|S|
 C Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248;Isle of Dorn|N|Opals collected.|H|
 C The Opalfront|QID|83082|M|44.86,64.33|Z|2248;Isle of Dorn|N|Kill the spiders.|US|
 T Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248;Isle of Dorn|N|To Dagran Thaurissan II.|
@@ -239,7 +248,7 @@ t Delver's Call: Fungal Folly|QID|83758|M|55.21,55.91|Z|2248;Isle of Dorn|N|To B
 t Delver's Call: Kriegval's Rest|QID|83759|M|55.22,55.82|N|To Bondaz.|
 A The Earthwound|QID|83336|M|55.51,55.95|Z|2248;Isle of Dorn|N|From Freysworn Etterca.|RANK|2|
 A To Mourning Rise|QID|81661|M|55.72,56.05|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
-A Lost Delivery|QID|78754|M|55.55,56.49|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
+A Lost Delivery|QID|78754|M|55.55,56.49|Z|2248;Isle of Dorn|N|From a sack.|RANK|2|
 K Wanted: The Boroughbreaker|ACTIVE|83335|QO|1|M|45.48,56.48|Z|2248;Isle of Dorn|N|Boroughbreaker Stik'kar slain.|T|Boroughbreaker Stik'kar|
 K Roth the Earthwound|ACTIVE|83336|QO|1|M|60.23,53.34|Z|2248;Isle of Dorn|N|Kill Roth the Earthwound.|T|Roth the Earthwound|
 T The Earthwound|QID|83336|M|55.56,55.90|Z|2248;Isle of Dorn|N|To Freysworn Etterca.|

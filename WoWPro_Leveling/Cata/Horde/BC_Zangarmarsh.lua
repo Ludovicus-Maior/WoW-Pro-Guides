@@ -182,7 +182,7 @@ A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. If you've accidently hit friendly 
 T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|
 A Fertile Spores|QID|9806|M|19.2,49.4|N|From Gshaff.|
 T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
-A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
+A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|REP|Sporeggar;970;friendly|
 C Now That We're Friends...|QID|9726|S|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
 N Disable the Marshlight Lake Controls|QID|9720|QO|2|U|24355|N|Use the Ironvine Seeds on it.|M|25.62,42.87|
 C Now That We're Friends...|QID|9726|US|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|

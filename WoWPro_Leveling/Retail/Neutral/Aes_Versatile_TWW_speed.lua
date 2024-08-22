@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('Aes TWW Speedrunning Guide', 'Leveling', 'Isle of Dorn', 'Aes', 'Neutral')
 WoWPro:GuideName(guide,"Aes TWW Speedrunning Guide")
+WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
 WoWPro:GuideSort(guide, 10)
 WoWPro:GuideSteps(guide, function()
