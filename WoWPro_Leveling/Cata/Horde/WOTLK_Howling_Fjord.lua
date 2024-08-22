@@ -139,7 +139,7 @@ T Wild Vines |QID|11315|M|61.5,22.8|N|To Lurielle.|
 A Spawn of the Twisted Glade |QID|11316|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
 A Seeds of the Blacksouled Keepers |QID|11319|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
 C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|72.64,17.51|
-C Mastering the Runes |QID|11351|N|Look for a little box called Iron Rune Carving Tools, they spawn under one of the 5 'tent' canopies.|
+C Mastering the Runes |QID|11351|M|69.00,25.00|N|Look for a little box called Iron Rune Carving Tools, they spawn under one of the 5 'tent' canopies.|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|S|
 C Seeds of the Blacksouled Keepers |QID|11319|U|33607|N|Kill Spores here and use the Enchanted Ice Core on their remains until you complete this quest.|M|53.71,18.56|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|US|
@@ -163,13 +163,13 @@ C The Artifacts of Steel Gate |QID|11286|N|Head into the pit and grab 10 Steel G
 T The Artifacts of Steel Gate |QID|11286|M|31.2,24.5|N|To Sage Mistwalker.|
 A The Cleansing |QID|11317|PRE|11286|N|From Sage Mistwalker.|
 T Keeping Watch on the Interlopers |QID|11297|N|To Apothecary Malthus.|M|26.43,24.49|
-A What's in That Brew? |QID|11298|PRE|11297|N|From Apothecary Malthus.|
-A And You Thought Murlocs Smelled Bad! |QID|11397|N|From Apothecary Anastasia.|
+A What's in That Brew? |QID|11298|PRE|11297|N|From Apothecary Malthus.|M|26.43,24.49|
+A And You Thought Murlocs Smelled Bad! |QID|11397|M|26.18,24.72|N|From Apothecary Anastasia.|
 A Brains! Brains! Brains! |QID|11301|M|26.0,24.4|N|From Apothecary Grick.|
 F Camp Winterhoof|QID|11323|M|26.0,25.1|N|Fly to Camp Winterhoof.|
 T Keeper Witherleaf |QID|11428|M|61.5,22.9|N|To Lurielle.|
 C Hasty Preparations |QID|11271|N|Pick up any feathers you still need on the way.|US|M|72,25|
-K Binder Murdis |QID|11352|QO|2|M|72,25|
+K Binder Murdis |ACTIVE|11352|QO|2|M|72,25|
 C The Rune of Command |QID|11352|QO|1|U|33796|N|Use the Rune of Command on a Stone Giant, it's non-aggressive, should be just to the northwest.|M|71.95,23.2|
 C Demolishing Megalith |QID|11367|N|Kill Megalith.|M|69.13,11.38|
 C The Cleansing |QID|11317|N|Go west through the mountains, stay as far north as you can. There's a small path. Take it to the summit of the mountain, there's a shrine there. Right click it and kill your Inner Turmoil.|M|61.18,2.08|

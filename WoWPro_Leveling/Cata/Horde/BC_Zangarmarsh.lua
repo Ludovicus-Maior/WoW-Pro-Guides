@@ -161,7 +161,7 @@ T A Spirit Ally?|QID|9847|M|32.4,52.0|N|To Seer Janidi.|
 C The Biggest of Them All|QID|9903|N|Mragesh is just under the surface of Serpent Lake at the northeastern tip of the isle at .|M|42,42|
 C Stinging the Stingers|QID|9841|M|21.07,32.41|N|Kill Marshlight Bleeders.|S|
 C Have You Ever Seen One of These?|QID|9816|U|24470|N|Use the cage at the flat rock. Hilarity ensues with dancing Baby Murlocs as Daggerfen go fleeing.|M|27,23|
-C Wanted: Chieftain Mummaki|QID|10117|N|He's up the top of the main building. Kill and loot him.|M|23.8,26.8|
+C WANTED: Chieftain Mummaki|QID|10117|N|He's up the top of the main building. Kill and loot him.|M|23.8,26.8|
 C Impending Attack|QID|9822|N|Your end destination is Ango'rosh Grounds, and the tower. The attack plans are up the top.|M|19.9,27.1|
 C Pursuing Terrorclaw|QID|9904|N|He's on the southernmost isle of Marshlight Lake, around . You may want to clear the isle first, as he fears.|M|23,45|
 C Stinging the Stingers|QID|9841|M|21.07,32.41|N|Kill Marshlight Bleeders.|US|
@@ -182,7 +182,7 @@ A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. If you've accidently hit friendly 
 T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|
 A Fertile Spores|QID|9806|M|19.2,49.4|N|From Gshaff.|
 T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
-A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
+A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|REP|Sporeggar;970;friendly|
 C Now That We're Friends...|QID|9726|S|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
 N Disable the Marshlight Lake Controls|QID|9720|QO|2|U|24355|N|Use the Ironvine Seeds on it.|M|25.62,42.87|
 C Now That We're Friends...|QID|9726|US|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
