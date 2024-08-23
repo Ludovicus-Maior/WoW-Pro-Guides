@@ -70,7 +70,7 @@ T Rupture|QID|79106|M|73.07,59.57|Z|2307|N|To Anduin Wrynn.|
 A Departure|QID|80321|M|73.07,59.57|Z|2307|
 C Departure|QID|80321|M|24.54,79.93|Z|2307|QO|1|NC|N|Seek a different exit.|
 C Departure|QID|80321|M|40.95,36.44|Z|2305|QO|2|NC|N|Return to the surface.|
-K Queensguard An'Jak Shabtir|QID|80321|M|41.31,37.88|Z|2305|QO|3|N|Kill Queensguard An'Jak Shabtir.|T|Queensguard An'Jak Shabtir|
+K Queensguard An'Jak Shabtir|ACTIVE|80321|M|41.31,37.88|Z|2305|QO|3|N|Kill Queensguard An'Jak Shabtir.|T|Queensguard An'Jak Shabtir|
 C Departure|QID|80321|M|44.24,37.74|Z|2305|QO|4|CHAT|N|Talk to Khadgar.|
 T Departure|QID|80321|M|44.00,36.93|Z|2305|N|To Archmage Khadgar.|
 A Violent Impact|QID|78529|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|

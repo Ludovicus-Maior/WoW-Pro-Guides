@@ -17,7 +17,7 @@ C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the r
 T Violent Impact|QID|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
 A Slay the Saboteurs|QID|78530|PRE|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|From Lady Jaina Proudmoore.|
 A Urgent Recovery|QID|78531|PRE|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|From Thrall.|
-C Urgent Recovery|QID|78531|QO|1|M|M|30.38,52.80;31.09,55.34;31.41,54.20;30.36,52.73;30.59,53.84;30.22,54.59|CS|Z|2248;Isle of Dorn|N|Crash survivors aided.|S|H|
+C Urgent Recovery|QID|78531|QO|1|M|30.38,52.80;31.09,55.34;31.41,54.20;30.36,52.73;30.59,53.84;30.22,54.59|CS|Z|2248;Isle of Dorn|N|Crash survivors aided.|S|H|
 C Slay the Saboteurs|QID|78530|QO|1|M|30.35,55.51|Z|2248;Isle of Dorn|N|Nerubians slain.|S|
 A Erratic Artifacts|QID|78532|PRE|78529|M|31.01,55.16|Z|2248;Isle of Dorn|N|Click the Sunreaver Satchel on the ground, and accept the quest that is offered.|
 C Erratic Artifacts|QID|78532|QO|1|M|31.64,54.80|Z|2248;Isle of Dorn|N|Damaged Arcane Relics destroyed.|U|211535|NC|
@@ -54,6 +54,7 @@ T The Archive|QID|78468|M|29.54,59.86|Z|2339;Dornogal|N|To Speaker Brinthe.|
 A Stones of Dornogal|QID|78457|PRE|78460|M|29.52,59.60|Z|2339;Dornogal|N|From Merrix.|
 C Stones of Dornogal|QID|78457|QO|1|M|30.71,59.24|Z|2339;Dornogal|N|Speak to a Oathsworn Peacekeeper about profession trainers.|CHAT|
 C Stones of Dornogal|QID|78457|QO|2|M|44.67,50.99|Z|2339;Dornogal|N|Speak to Flightmaster Breem .|CHAT|
+A Crossroads Plaza|QID|82747|M|46.6,33|Z|2339;Dornogal|N|From Rannida.|RANK|2|
 C Stones of Dornogal|QID|78457|QO|3|M|44.82,46.49|Z|2339;Dornogal|N|Speak to a Inkeeper Ronesh.|CHAT|
 C Stones of Dornogal|QID|78457|QO|4|M|47.61,44.36|Z|2339;Dornogal|N|Speak to Brann Bronzebeard.|CHAT|
 C Stones of Dornogal|QID|78457|QO|5|M|39.16,24.24|Z|2339;Dornogal|N|Speak to Auditor Balwurz.|CHAT|
@@ -85,14 +86,14 @@ C Prairie Fever|QID|78469|M|41.65,70.85|QO|1|Z|2248;Isle of Dorn|N|Pottery acqui
 C For The Love of Gems|QID|82441|QO|1|M|41.68,72.42;41.64,71.80|CS|Z|2248;Isle of Dorn|N|Go to the first way point to enter the house, then talk to Betta.|CHAT|
 A All Ore Nothing|QID|82792|M|41.04,72.17|Z|2248;Isle of Dorn|N|From Germira.|RANK|2|
 C For The Love of Gems|QID|82441|QO|2|M|40.93,71.89|Z|2248;Isle of Dorn|N|Talk to Kurron.|CHAT|
-C Prairie Fever|QID|78469|QO|2|M|42.27,73.28|Z|2248;Isle of Dorn|N|Pottery delivered.|CHAT|
-T Prairie Fever|QID|78469|M|42.27,73.28|Z|2248;Isle of Dorn|N|To Kodun.|
-A Monsters in the Dark|QID|79691|PRE|78469|M|42.27,73.28|Z|2248;Isle of Dorn|N|From Kodun.|RANK|2|
-A Buried, Not Forgotten|QID|79692|PRE|78469|M|42.27,73.28|Z|2248;Isle of Dorn|N|From Kodun.|RANK|2|
+C Prairie Fever|QID|78469|QO|2|M|42.28,73.29|Z|2248;Isle of Dorn|N|Pottery delivered.|CHAT|
+T Prairie Fever|QID|78469|M|42.28,73.29|Z|2248;Isle of Dorn|N|To Kodun.|
+A Monsters in the Dark|QID|79691|PRE|78469|M|42.28,73.29|Z|2248;Isle of Dorn|N|From Kodun.|RANK|2|
+A Buried, Not Forgotten|QID|79692|PRE|78469|M|42.28,73.29|Z|2248;Isle of Dorn|N|From Kodun.|RANK|2|
 C For The Love of Gems|QID|82441|QO|3|M|41.60,75.00|Z|2248;Isle of Dorn|N|Talk to Maluc.|CHAT|
 C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|Z|2248;Isle of Dorn|N|Modhina found.|S|I|
 C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|Z|2248;Isle of Dorn|N|Modhina's belongings.|S|
-R Enter Gemvein Tunnels|ACTIVE|79691|M|34.98,75.47|N|Enter the tunnel and follow the tracks down and to the left.|
+R Gemvein Tunnels|ACTIVE|79691|M|34.97,75.50|Z|2248;Isle of Dorn|N|Enter the tunnel and follow the tracks down and to the left.|
 K Ashen Stonestalker|ACTIVE|79691|QO|1|M|34.77,74.12|Z|2248;Isle of Dorn|N|Ashen Stonestalker slain.|T|Ashen Stonestalker|
 C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|Z|2248;Isle of Dorn|N|Modhina found.|US|I|
 C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|Z|2248;Isle of Dorn|N|Modhina's belongings.|US|
@@ -104,9 +105,8 @@ C Concerning Fungarians|QID|79686|QO|1<2|M|35.6,77.2|Z|2248;Isle of Dorn|N|Furth
 C Concerning Fungarians|QID|79686|QO|1<3|M|35.65,77.07|Z|2248;Isle of Dorn|N|At the top of the stairs, kill the Fungarian to loot the note.|
 C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian Chunks.|US|
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248;Isle of Dorn|N|Glittering Ore.|H|US|
-T Buried, Not Forgotten|QID|79692|M|42.28,73.29|N|To Kodun.|
-T Monsters in the Dark|QID|79691|M|42.28,73.29|N|To Kodun.|
-R Enter Herbalist|ACTIVE|79686|M|42.15,71.32|N|Enter the herbalist and go downstairs.|
+T Buried, Not Forgotten|QID|79692|M|42.28,73.29|Z|2248;Isle of Dorn|N|To Kodun.|
+T Monsters in the Dark|QID|79691|M|42.28,73.29|Z|2248;Isle of Dorn|N|To Kodun.|
 T Concerning Fungarians|QID|79686|M|41.47,71.46|Z|2248;Isle of Dorn|N|To Yeonin (downstairs).|
 A Hope, An Anomaly|QID|79703|PRE|79692&79691|M|42.26,73.17|Z|2248;Isle of Dorn|N|From Hreka.|RANK|2|
 C Hope, An Anomaly|QID|79703|QO|1|M|42.36,73.16|Z|2248;Isle of Dorn|N|Ore placed in forge.|H|
@@ -134,9 +134,9 @@ C Weapons and Warriors|QID|78996|QO|1<3|M|44.4,79.3|Z|2248;Isle of Dorn|N|Warrio
 C Weapons and Warriors|QID|78996|QO|1<4|M|44.4,79.3|Z|2248;Isle of Dorn|N|Warriors recruited. (Bertola - Inside bottom of building with Eiggard)|CHAT|
 C Weapons and Warriors|QID|78996|QO|1<5|M|44.7,79.3|Z|2248;Isle of Dorn|N|Warriors recruited. (Merrimack)|CHAT|
 C Weapons and Warriors|QID|78996|QO|2|M|43.95,78.82|Z|2248;Isle of Dorn|N|Weapon crates acquired.|US|
-T All Ore Nothing|QID|82792|M|45.86,62.89|Z|2248;Isle of Dorn|N|To Alvegar.|
 A Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248;Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
 A The Opalfront|QID|83082|M|44.86,64.33|Z|2248;Isle of Dorn|N|From Peacekeeper Hektare.|RANK|2|
+T All Ore Nothing|QID|82792|M|45.86,62.89|Z|2248;Isle of Dorn|N|To Alvegar.|
 A Third Mine Blind|QID|82796|PRE|82792|M|45.86,62.89|Z|2248;Isle of Dorn|N|From Alvegar.|RANK|2|
 T Third Mine Blind|QID|82796|M|47.28,61.61|Z|2248;Isle of Dorn|N|To Alvegar.|
 A Hit Rock Bottom|QID|82797|PRE|82796|M|47.28,61.61|Z|2248;Isle of Dorn|N|From Alvegar.|RANK|2|
@@ -156,7 +156,7 @@ C A Sedimental Moment|QID|82800|QO|1|M|47.01,60.80|Z|2248;Isle of Dorn|N|Earthen
 T A Sedimental Moment|QID|82800|M|47.32,60.97|Z|2248;Isle of Dorn|N|To Cenderragg.|
 A Beetlejeweled|QID|82801|PRE|82800|M|47.32,60.98|Z|2248;Isle of Dorn|N|From Cenderragg.|RANK|2|
 K Kix'arak|ACTIVE|82801|QO|1|M|46.04,61.99|Z|2248;Isle of Dorn|N|Kix'arak slain.|T|Kix'arak|
-C Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248;Isle of Dorn|N|Opals collected.|H|
+C Not Enough Minerals|QID|83081|M|46.04,61.99|Z|2248;Isle of Dorn|N|Opals collected.|H|
 C The Opalfront|QID|83082|M|44.86,64.33|Z|2248;Isle of Dorn|N|Kill the spiders.|US|
 T Not Enough Minerals|QID|83081|M|44.78,64.41|Z|2248;Isle of Dorn|N|To Dagran Thaurissan II.|
 T The Opalfront|QID|83082|M|44.86,64.33|Z|2248;Isle of Dorn|N|To Peacekeeper Hektare.|
@@ -179,9 +179,9 @@ T Gems Are Forever|QID|82467|M|33.86,79.58|Z|2248;Isle of Dorn|N|To Natalia Pear
 T Weapons and Warriors|QID|78996|M|49.78,76.66|Z|2248;Isle of Dorn|N|To Aggartha.|
 A Pilfered Pearls|QID|78997|PRE|78996|M|49.78,76.66|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
 A Frontline Farmers|QID|78998|PRE|78996|M|49.78,76.66|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
-A One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|M|49.63,76.73|RANK|3|IZ|Glimmering Shore|
+;A One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|M|49.63,76.73|RANK|3|
 t One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|M|50.16,77.86|
-C One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|QO|1|M|50.16,77.86|Z|2248;Isle of Dorn|N|Gorlocs repelled.|S!US|
+C One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|QO|1|M|50.16,77.86|Z|2248;Isle of Dorn|N|Gorlocs repelled.|S!US|IZ|Glimmering Shore|
 C Pilfered Pearls|QID|78997|QO|1|M|49.28,79.06|Z|2248;Isle of Dorn|N|Pilfered Pearl.|S|
 C Frontline Farmers|QID|78998|QO|1|M|50.74,77.57;49.19,79.45;52.07,79.09|CC|Z|2248;Isle of Dorn|N|Distribute weapon crates.|H|
 C Pilfered Pearls|QID|78997|QO|1|M|49.28,79.06|Z|2248;Isle of Dorn|N|Pilfered Pearl.|US|
@@ -193,11 +193,11 @@ K Murgle-whurgle|ACTIVE|78999|QO|2|M|50.96,85.10|Z|2248;Isle of Dorn|N|Murgle-wh
 K Burgle-gurgle|ACTIVE|78999|QO|1|M|49.60,83.69|Z|2248;Isle of Dorn|N|Burgle-gurgle slain.|T|Burgle-gurgle|
 T Heart of a Hero|QID|78999|M|50.53,78.65|Z|2248;Isle of Dorn|N|To Dorbund.|
 T Frayed Legacy|QID|78570|M|53.56,69.88|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
-A Fungal Frenzy|QID|78618|M|53.44,70.24|IZ|Boskroot Basin|RANK|3|
+;A Fungal Frenzy|QID|78618|M|53.44,70.24|IZ|Boskroot Basin|RANK|3|
 A Mycomayhem|QID|78571|PRE|78570|M|53.56,69.88|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
-C Fungal Frenzy|QID|78618|M|53.42,67.33|QO|1|Z|2248;Isle of Dorn|N|Defeat the Fungarians (100%).|S!US|IZ|Boskroot Basin|
+C Fungal Frenzy|QID|78618|M|53.42,67.33|QO|1|Z|2248;Isle of Dorn|N|Defeat the Fungarians .|S!US|IZ|Boskroot Basin|
 C Mycomayhem|QID|78571|QO|1|M|53.44,66.68|Z|2248;Isle of Dorn|N|Boskroot Spores.|
-t Fungal Frenzy|QID|78618|M|53.40,67.38|
+t Fungal Frenzy|QID|78618|M|53.40,67.38|Z|2248;Isle of Dorn|
 T Mycomayhem|QID|78571|M|53.56,69.94|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
 A Wold Memories|QID|78572|PRE|78571|M|53.56,69.94|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
 C Wold Memories|QID|78572|QO|1|M|54.11,65.44|Z|2248;Isle of Dorn|N|Freydrin's Hovel investigated.|
@@ -219,11 +219,11 @@ A The Cavalry is Here|QID|79701|PRE|78470|M|56.54,52.06|Z|2248;Isle of Dorn|N|Fr
 A Fire in the Hole|QID|79721|PRE|78470|M|56.64,52.07|Z|2248;Isle of Dorn|N|From Wenbrandt.|
 C Fire in the Hole|QID|79721|QO|1|M|56.64,52.07|Z|2248;Isle of Dorn|N|Cinderbrew Keg picked up.|H|
 C Fire in the Hole|QID|79721|QO|2|M|56.73,52.11|Z|2248;Isle of Dorn|N|Cinderbrew thrown into burrow.|EAB|
-C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Nerubian invasion repelled (100%).|S|
+C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Nerubian invasion repelled .|S|
 C Fire in the Hole|QID|79721|QO|3|M|57.96,50.53|Z|2248;Isle of Dorn|N|Nerubian burrows collapsed.|S|EAB|
 C The Cavalry is Here|QID|79701|QO|2|M|56.30,50.17|Z|2248;Isle of Dorn|N|Check upon Alleria Windrunner.|NC|
 C Fire in the Hole|QID|79721|QO|3|M|56.79,49.38;58.22,50.50;55.05,49.55|CS|Z|2248;Isle of Dorn|N|Nerubian burrows collapsed.|US|EAB|
-C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Nerubian invasion repelled (100%).|US|
+C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Nerubian invasion repelled .|US|
 T Fire in the Hole|QID|79721|M|56.45,47.98|Z|2248;Isle of Dorn|N|To Wenbrandt.|
 T The Cavalry is Here|QID|79701|M|56.48,48.04|Z|2248;Isle of Dorn|N|To Baelgrim.|
 A Convergence|QID|78471|PRE|79721&79721|M|56.44,48.02|Z|2248;Isle of Dorn|N|From Moira Thaurissan.|
@@ -241,6 +241,7 @@ A Lasting Repairs|QID|78539|PRE|80022|M|35.90,52.65|Z|2339;Dornogal|N|From Baelg
 C Lasting Repairs|QID|78539|QO|1|M|35.90,52.65|Z|2339;Dornogal|N|Discuss the plan to fight the nerubians.|CHAT|
 T Lasting Repairs|QID|78539|M|35.90,52.65|Z|2339;Dornogal|N|To Baelgrim.|
 A To the Meadery|QID|78540|PRE|78539|M|35.90,52.65|Z|2339;Dornogal|N|From Baelgrim.|
+T Crossroads Plaza|QID|82747|M|55.12,55.73|Z|2248;Isle of Dornd|N|From Rannida.|RANK|2|
 A Wanted: The Boroughbreaker|QID|83335|M|55.21,55.94|Z|2248;Isle of Dorn|N|Wanted Poster|RANK|2|
 A Delver's Call: Fungal Folly|QID|83758|M|55.35,55.92|Z|2248;Isle of Dorn|N|From Freysworn Etterca.|RANK|2|
 A Delver's Call: Kriegval's Rest|QID|83759|M|55.35,55.92|Z|2248;Isle of Dorn|N|From Freysworn Etterca.|RANK|2|
@@ -248,7 +249,7 @@ t Delver's Call: Fungal Folly|QID|83758|M|55.21,55.91|Z|2248;Isle of Dorn|N|To B
 t Delver's Call: Kriegval's Rest|QID|83759|M|55.22,55.82|N|To Bondaz.|
 A The Earthwound|QID|83336|M|55.51,55.95|Z|2248;Isle of Dorn|N|From Freysworn Etterca.|RANK|2|
 A To Mourning Rise|QID|81661|M|55.72,56.05|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
-A Lost Delivery|QID|78754|M|55.55,56.49|Z|2248;Isle of Dorn|N|From a sack.|RANK|2|
+A Lost Delivery|QID|78754|M|55.55,56.49|Z|2248;Isle of Dorn|N|From a Lost Delivery.|RANK|2|
 K Wanted: The Boroughbreaker|ACTIVE|83335|QO|1|M|45.48,56.48|Z|2248;Isle of Dorn|N|Boroughbreaker Stik'kar slain.|T|Boroughbreaker Stik'kar|
 K Roth the Earthwound|ACTIVE|83336|QO|1|M|60.23,53.34|Z|2248;Isle of Dorn|N|Kill Roth the Earthwound.|T|Roth the Earthwound|
 T The Earthwound|QID|83336|M|55.56,55.90|Z|2248;Isle of Dorn|N|To Freysworn Etterca.|
@@ -257,12 +258,12 @@ A Before I Depart|QID|78743|PRE|81661|M|57.46,42.99|Z|2248;Isle of Dorn|N|From K
 T Before I Depart|QID|78743|M|61.67,41.60|Z|2248;Isle of Dorn|N|To Urtago.|
 A Honor Their Memories|QID|78744|PRE|78743|M|61.72,41.62|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 ;A I Take Candle!|QID|79669|PRE||M|63.55,42.88||Z|2248;Isle of Dorn|N|From UI|IZ|Mourning Rise|RANK|3|
-C I Take Candle!|QID|79669|M|63.55,42.88|QO|1|Z|2248;Isle of Dorn|N|Kobolds disrupted (100%).|S!US|IZ|Mourning Rise|
-C Honor Their Memories|QID|78744|QO|4|M|62.43,41.13|Z|2248;Isle of Dorn|N|Kobold Infestation dealt with (100%).|S|
+C I Take Candle!|QID|79669|M|63.55,42.88|QO|1|Z|2248;Isle of Dorn|N|Kobolds disrupted .|S!US|IZ|Mourning Rise|
+C Honor Their Memories|QID|78744|QO|4|M|62.43,41.13|Z|2248;Isle of Dorn|N|Kobold Infestation dealt with .|S|
 C Honor Their Memories|QID|78744|QO|2|M|62.00,41.69|Z|2248;Isle of Dorn|N|Earthen Figurine placed.|H|
 C Honor Their Memories|QID|78744|QO|1|M|62.12,41.46|Z|2248;Isle of Dorn|N|Deck of Cards placed.|H|
 C Honor Their Memories|QID|78744|QO|3|M|62.49,40.97|Z|2248;Isle of Dorn|N|Precious Gem placed.|H|
-C Honor Their Memories|QID|78744|QO|4|M|62.43,41.13|Z|2248;Isle of Dorn|N|Kobold Infestation dealt with (100%).|US|
+C Honor Their Memories|QID|78744|QO|4|M|62.43,41.13|Z|2248;Isle of Dorn|N|Kobold Infestation dealt with .|US|
 T Honor Their Memories|QID|78744|M|61.74,41.61|Z|2248;Isle of Dorn|N|To Urtago.|
 A You No Take Plunder!|QID|78745|PRE|78744|M|61.74,41.61|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 A Laws Apply to All|QID|78746|PRE|78744|M|61.74,41.61|Z|2248;Isle of Dorn|N|From...|RANK|2|
@@ -346,6 +347,9 @@ T To Wake a Giant|QID|78759|M|67.01,47.33|Z|2248;Isle of Dorn|N|To Harmot.|
 T Golgrin's Reach|QID|78465|M|61.63,70.15|Z|2248;Isle of Dorn|N|To Dagran Thaurissan II.|
 A The History Beneath Us|QID|79716|PRE|78465|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
 A Charge for a Charge|QID|78467|PRE|78465|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
+;A It's Elementary|QID|79667|M|61.63,70.15|Z|2248;Isle of Dorn|N|Bonus Objective.|RANK|3|
+;t It's Elementary|QID|78467|M|61.63,70.15|Z|2248;Isle of Dorn|N|Auto Turn In.|
+C It's Elementary|QID|79667|M|61.63,70.15|Z|2248;Isle of Dorn|N|Kill elementals... fill the bar.|S!US|IZ|Golgrin's Reach|
 C The History Beneath Us|QID|79716|M|63.38,71.61|Z|2248;Isle of Dorn|QO|1|NC|N|Shattered Relic Fragments.|S|
 C Charge for a Charge|QID|78467|M|63.12,72.95|Z|2248;Isle of Dorn|QO|1<1|NC|N|Power Cell.|
 C Charge for a Charge|QID|78467|M|63.71,70.87|Z|2248;Isle of Dorn|QO|1<2|NC|N|Power Cell.|
@@ -375,14 +379,21 @@ T Poking the Spider Nest|QID|78543|M|74.75,42.32|Z|2248;Isle of Dorn|N|To Baelgr
 A Bring the Thunder|QID|78544|PRE|78543|M|74.75,42.32|Z|2248;Isle of Dorn|N|From Baelgrim.|
 C Bring the Thunder|QID|78544|QO|1|M|74.75,42.28|Z|2248;Isle of Dorn|N|Defenses placed.|
 C Bring the Thunder|QID|78544|QO|2|M|74.76,42.32|Z|2248;Isle of Dorn|N|Speak to Baelgrim to begin the defense.|CHAT|
-C Bring the Thunder|QID|78544|QO|3|M|74.76,42.32|Z|2248;Isle of Dorn|N|Nerubians slain (100%).|
+C Bring the Thunder|QID|78544|QO|3|M|74.76,42.32|Z|2248;Isle of Dorn|N|Nerubians slain.|
 C Bring the Thunder|QID|78544|QO|4|M|74.76,42.32|Z|2248;Isle of Dorn|N|Baelgrim's plan witnessed.|
 T Bring the Thunder|QID|78544|M|75.13,43.80|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A Return to the Coreway|QID|78545|PRE|78544|M|75.26,43.98|N|From Adelgonn.|
 C To Rambleshire|QID|78289|M|58.41,27.40|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
-T To Rambleshire|QID|78289|M|61.47,31.70|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
+A The Spirebreaker|QID|83339|M|58.34,27.14|Z|2248;Isle of Dorn|N|From Violet Warden.|RANK|2|
+A The Mage Slayer|QID|83338|M|58.34,27.14|Z|2248;Isle of Dorn|N|From Violet Warden.|RANK|2|
+A A Titanic Expedition!|QID|79724|M|58.81,28.21|Z|2248;Isle of Dorn|N|From Rannan Korren.|RANK|2|
+A Stormscarred|QID|83337|M|58.40,28.29|Z|2248;Isle of Dorn|N|From Rancher Edidithet.|RANK|2|
+A Birdman of the Three Shields|QID|82680|M|60.18,28.36|Z|2248;Isle of Dorn|N|From Harmot.|RANK|2|
 A Power Predators|QID|78291|PRE|78289|M|61.43,31.68|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
 A Sleepy Sheep|QID|78290|PRE|78289|M|61.42,31.67|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
+
+
+
 C Power Predators|QID|78291|M|62.27,27.14|QO|1|Z|2248;Isle of Dorn|N|Mosswool predators slain.|S|
 C Sleepy Sheep|QID|78290|M|62.15,32.13|QO|1|Z|2248;Isle of Dorn|N|Lodestone found.|H|
 C Sleepy Sheep|QID|78290|M|61.53,31.67|QO|2|Z|2248;Isle of Dorn|N|Lodestone charged by Shraubendre.|H|
@@ -401,17 +412,16 @@ T Their Moss, Our Gain|QID|78293|M|58.75,30.30|Z|2248;Isle of Dorn|N|To Head Ran
 A Thunderhead Butt|QID|78294|PRE|78293|M|58.77,30.21|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
 C Thunderhead Butt|QID|78294|M|57.54,24.26|QO|1|Z|2248;Isle of Dorn|N|Durzan and Belzt reunited.|
 T Thunderhead Butt|QID|78294|M|58.96,29.91|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
-A A Titanic Expedition!|QID|79724|M|58.81,28.21|Z|2248;Isle of Dorn|N|From Rannan Korren.|RANK|2|
-A Stormscarred|QID|83337|M|58.40,28.29|Z|2248;Isle of Dorn|N|From Rancher Edidithet.|RANK|2|
-A The Spirebreaker|QID|83339|M|58.34,27.14|Z|2248;Isle of Dorn|N|From Violet Warden.|RANK|2|
-A The Mage Slayer|QID|83338|M|58.34,27.14|Z|2248;Isle of Dorn|N|From Violet Warden.|RANK|2|
+
+
+
 K Mage Slayer Phytethil|ACTIVE|83338|M|55.31,32.77|QO|1|Z|2248;Isle of Dorn|N|Mage Slayer Phytethil slain.|T|Mage Slayer Phytethil|
 K Stormscar|ACTIVE|83337|M|59.42,34.38|QO|1|Z|2248;Isle of Dorn|N|Stormscar slain.|T|Stormscar|
 K Anub'esska|ACTIVE|83339|M|60.93,38.29|QO|1|Z|2248;Isle of Dorn|N|Anub'esska slain.|T|Anub'esska|
 T The Spirebreaker|QID|83339|M|58.33,27.18|Z|2248;Isle of Dorn|N|To Violet Warden.|
 T The Mage Slayer|QID|83338|M|58.33,27.18|Z|2248;Isle of Dorn|N|To Violet Warden.|
 T Stormscarred|QID|83337|M|58.38,28.31|Z|2248;Isle of Dorn|N|To Rancher Edidithet.|
-A Birdman of the Three Shields|QID|82680|M|60.18,28.36|Z|2248;Isle of Dorn|N|From Harmot.|RANK|2|
+
 T Birdman of the Three Shields|QID|82680|M|74.59,19.72|Z|2248;Isle of Dorn|N|To Olbarig.|
 A Cloudrook Down|QID|82681|PRE|82680|M|74.59,19.72|Z|2248;Isle of Dorn|N|From Olbarig.|RANK|2|
 C Cloudrook Down|QID|82681|M|72.86,25.86|QO|1|Z|2248;Isle of Dorn|N|Elementals slain.|
