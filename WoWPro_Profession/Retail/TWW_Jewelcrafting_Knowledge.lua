@@ -2,7 +2,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at httpgithub.comLudovicus-MaiorWoW-Pro-GuidesblobmainLicense.md.
 
-local guide = WoWProRegisterGuide(Jewelcrafting_Knowledge-TWW,Profession,All, WoWPro Team, Neutral)
+local guide = WoWPro:RegisterGuide("Engineering_Knowledge-TWW","Profession","All", "WoWPro Team", "Neutral")
 WoWProGuideName(guide,  Jewelcrafting_Knowledge-TWW)
 WoWProGuideNickname(guide,  Jewelcrafting_Knowledge-TWW)
 WoWProGuideLevels(guide,70,80)
