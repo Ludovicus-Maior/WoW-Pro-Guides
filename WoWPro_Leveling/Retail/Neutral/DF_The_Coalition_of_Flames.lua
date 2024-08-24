@@ -94,7 +94,7 @@ C Chaos and Commotion|QID|71024|QO|2|M|61.75,42.17|Z|2112;Valdrakken|CHAT|N|Fly 
 C Chaos and Commotion|QID|71024|M|60.85,40.28|Z|2112;Valdrakken|QO|3|H|N|Click to examine the Runestone.|
 C Chaos and Commotion|QID|71024|M|60.81,40.35|Z|2112;Valdrakken|QO|4|CHAT|N|Ask Aesthis what it is.|
 C Chaos and Commotion|QID|71024|M|56.98,44.45|Z|2112;Valdrakken|QO|5|H|N|Head to the entryway and examine the dropped page on the ground.|
-T Chaos and Commotion|QID|71024|M|56.40,43.92|Z|2112;Valdrakken|N|To Investigator Erima in Misty Vale.|
+T Chaos and Commotion|QID|71024|M|56.40,43.92|Z|2112;Valdrakken|N|To Investigator Erima.|
 A Follow the Clues|QID|70837|PRE|71024|M|56.40,43.92|Z|2112;Valdrakken|N|From Investigator Erima.|
 R Misty Vale|ACTIVE|70837|M|42.75,81.97|Z|2025;Thaldraszus|N|Fly over to Misty Vale to meet the investigator.|
 T Follow the Clues|QID|70837|M|42.75,81.97|Z|2025;Thaldraszus|N|To Investigator Erima.|
@@ -132,7 +132,7 @@ T Ring of Fire|QID|70878|M|42.45,78.84|Z|2025;Thaldraszus|N|To Investigator Erim
 T Worst of the Worst|QID|70875|M|42.45,78.84|Z|2025;Thaldraszus|N|To Investigator Erima.|
 T Fracture the Foci|QID|70876|M|42.45,78.84|Z|2025;Thaldraszus|N|To Investigator Erima.|
 A Report on the Rebels|QID|70879|PRE|70878&70875&70876|M|42.45,78.84|Z|2025;Thaldraszus|N|From Investigator Erima.|
-T Report on the Rebels|QID|70879|M|4|M|42.75,81.97|Z|2112;Thaldraszus|N|To Captain Drine, back at the Seat of the Aspects.|
+T Report on the Rebels|QID|70879|M|42.75,81.97|Z|2112;Thaldraszus|N|To Captain Drine, back at the Seat of the Aspects.|
 ; end copied section - back to 10.1 content
 A Cause Without a Rebel|QID|72411|PRE|75923&70879|M|53.95,46.34|Z|2112;Valdrakken|N|From Captain Drine. He may be at the top of the Seat of the Aspects if you didn't just finish "Raise the Alarm".|
 C Cause Without a Rebel|QID|72411|M|55.50,33.55|Z|2112;Valdrakken|QO|2|NC|N|If you are on top of the Seat of the Aspects, use the teleporter, to get to the ground floor, then go up past the teleporter and to the left to join Maldra and Alexstrasza.|
