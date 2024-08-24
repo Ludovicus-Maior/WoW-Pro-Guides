@@ -1232,10 +1232,14 @@ if step then
         local stepText = WoWPro.EmitSafeStep(Sindex)
 
         -- Split the step text into lines
-            text = text .. "\n|cffffff00Step Info:|r\n"
-            for _, line in ipairs(lines) do
-                text = text .. line .. "\n"
+        local lines = {}
+        for line in stepText:gmatch("[^\r\n]+") do
+            while line:len() > maxLineLength do
+                local split = line:sub(1, maxLineLength)
+                table.insert(lines, split)
+                line = line:sub(maxLineLength + 1)
             end
+            table.insert(lines, line)
         end
 
         -- Add the step text to the text
