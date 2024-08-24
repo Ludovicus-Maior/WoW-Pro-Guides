@@ -87,4 +87,12 @@
 	<Script file="TWW_Alchemy_Knowledge.lua"/>
 	<Script file="TWW_Blacksmithing_Knowledge.lua"/>
 	<Script file="TWW_Enchanting_Knowledge.lua"/>
+	<Script file="TWW_Engineering_Knowledge.lua"/>
+	<Script file="TWW_Herbalism_Knowledge.lua"/>
+	<Script file="TWW_Inscription_Knowledge.lua"/>
+	<Script file="TWW_Jewelcrafting_Knowledge.lua"/>
+	<Script file="TWW_Leatherworking_Knowledge.lua"/>
+	<Script file="TWW_Mining_Knowledge.lua"/>
+	<Script file="TWW_Skinning_Knowledge.lua"/>
+	<Script file="TWW_Tailoring_Knowledge.lua"/>
 	</Ui>
