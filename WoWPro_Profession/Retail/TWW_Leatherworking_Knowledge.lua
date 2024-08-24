@@ -3,15 +3,15 @@
 -- Permissions beyond the scope of this license may be available at httpgithub.comLudovicus-MaiorWoW-Pro-GuidesblobmainLicense.md.
 
 local guide = WoWPro:RegisterGuide("Engineering_Knowledge-TWW","Profession","All", "WoWPro Team", "Neutral")
-WoWProGuideName(guide,  "Leatherworking_Knowledge-TWW")
-WoWProGuideNickname(guide,  "Leatherworking_Knowledge-TWW")
-WoWProGuideLevels(guide,70,80)
+WoWPro:GuideName(guide, "Leatherworking_Knowledge-TWW")
+WoWPro:GuideNickname(guide, "Leatherworking_Knowledge-TWW")
+WoWPro:GuideLevels(guide,70,80)
 if WoWPro.Achievements then
-    WoWPro.AchievementsGuideMisc(guide,  "Leatherworking-TWW", "Profession Knowledge", "The War Within")
+    WoWPro.Achievements:GuideMisc(guide, "Leatherworking-TWW", "Profession Knowledge", "The War Within")
 else
-    WoWProGuideCategory(guide, "The War Within")
+    WoWPro:GuideCategory(guide, "The War Within")
 end
-WoWProGuideSteps(guide, function()
+WoWPro:GuideSteps(guide, function()
 return [[
 
 N Level|N|You only need the correct Khaz Algar Profession skill of (1) to see and loot knowledge treasures.. Just be aware that items in higher-level zones can be very dangerous to lower-level characters!.|
