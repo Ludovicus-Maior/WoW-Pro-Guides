@@ -13,13 +13,14 @@ C A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|Te
 T A Dragon in Hand is Worth Two in the Roost|QID|76460|M|50.88,62.79|Z|2200|N|To Wrathion.|
 A Draconic Diplomacy|QID|76461|PRE|76460|M|50.88,62.79|Z|2200|N|From Wrathion.|
 C Draconic Diplomacy|QID|76461|M|33.68,62.06|Z|2025|QO|1|N|Take the portal or Hearth to Valdrakken.|U|6948|
+F The Petioner's Concourse|ACTIVE|76461|M|33.68,62.06|Z|2025|N|Mount up and fly to the Petioner's Concourse, down below the city.|
 C Draconic Diplomacy|QID|76461|M|33.68,62.06|Z|2025|QO|2|CHAT|N|Talk to Wrathion.|
 C Draconic Diplomacy|QID|76461|M|33.68,62.06|Z|2025|QO|3|CHAT|N|Talk to Mordenaku.|
 T Draconic Diplomacy|QID|76461|M|33.68,62.06|Z|2025|N|To Wrathion.|
 A A Dragon's Eye View|QID|77195|M|33.68,62.06|Z|2025|N|From Wrathion.|
-C A Dragon's Eye View|QID|77195|M|61.23,73.15|Z|2025|N|Locate the Potential Roost.|
+C A Dragon's Eye View|QID|77195|M|61.23,73.15|Z|2025|NC|N|Locate the Potential Roost.|
 T A Dragon's Eye View|QID|77195|M|61.23,73.15|Z|2025|N|To Wrathion.|
-A Cavern Cleaning|QID|76462|M|61.23,73.15|Z|2025|N|From Wrathion.|
+A Cavern Cleaning|QID|76462|M|61.23,73.15|Z|2025|N|From Vyranoth.|
 C Cavern Cleaning|QID|76462|M|61.23,73.15|Z|2025|QO|1;3|H|N|Freeze spooders and kill eggs.|S|
 K Hecutta|QID|76462|M|62.12,73.40|Z|2025|QO|2|N|Kill Hecutta.|
 C Cavern Cleaning|QID|76462|M|61.23,73.15|Z|2025|QO|1;3|H|N|Freeze spooders and kill eggs.|US|
