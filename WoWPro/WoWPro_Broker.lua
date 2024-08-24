@@ -1240,7 +1240,7 @@ if step then
         local _, class = _G.UnitClass("player")
         class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
         local level = _G.UnitLevel("player")
-        local version = _G.GetAddOnMetadata("WoWPro", "Version")
+        local version = _G.C_AddOns.GetAddOnMetadata("WoWPro", "Version")
         local locale = _G.GetLocale()
         local gameVersion, _, _, _ = _G.GetBuildInfo()  -- Get the game version
 
