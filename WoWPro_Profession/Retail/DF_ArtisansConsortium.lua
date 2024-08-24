@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("DF-Profession_Knowledge","Profession","All", "Emmaleah", "Neutral")
+local guide = WoWPro:RegisterGuide("DF-Profession_Knowledge","Profession","All", "WoWPro Team", "Neutral")
 WoWPro:GuideName(guide, "Artisan's Consortium")
 WoWPro:GuideLevels(guide,60,70)
 if WoWPro.Achievements then

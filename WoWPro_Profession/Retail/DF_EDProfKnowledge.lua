@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("Prof_Knowledge-ED","Profession","All", "Emmaleah", "Neutral")
+local guide = WoWPro:RegisterGuide("Prof_Knowledge-ED","Profession","All", "WoWPro Team", "Neutral")
 WoWPro:GuideName(guide, "Profession Knowledge-Emerald Dream")
 WoWPro:GuideNickname(guide, "Profession Knowledge-ED")
 WoWPro:GuideLevels(guide,60,70)

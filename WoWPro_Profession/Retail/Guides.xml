@@ -84,4 +84,7 @@
 	<Script file="DF_ProfKnowledge.lua"/>
 	<Script file="DF_ZCProfKnowledge.lua"/>
 	<Script file="DF_EDProfKnowledge.lua"/>
+	<Script file="TWW_Alchemy_Knowledge.lua"/>
+	<Script file="TWW_Blacksmithing_Knowledge.lua"/>
+	<Script file="TWW_Enchanting_Knowledge.lua"/>
 	</Ui>
