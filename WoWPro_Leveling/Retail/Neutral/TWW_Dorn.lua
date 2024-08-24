@@ -185,7 +185,7 @@ T Gems Are Forever|QID|82467|M|33.86,79.58|Z|2248;Isle of Dorn|N|To Natalia Pear
 T Weapons and Warriors|QID|78996|M|49.78,76.66|Z|2248;Isle of Dorn|N|To Aggartha.|
 A Pilfered Pearls|QID|78997|PRE|78996|M|49.78,76.66|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
 A Frontline Farmers|QID|78998|PRE|78996|M|49.78,76.66|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
-A One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|M|49.63,76.73|RANK|3|IZ|Glimmering Shore|
+;A One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|M|49.63,76.73|RANK|3|
 t One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|M|50.16,77.86|
 C One Fin, Two Fin, Pearlfin, Dead Fin|QID|81614|QO|1|M|50.16,77.86|Z|2248;Isle of Dorn|N|Gorlocs repelled.|S!US|IZ|Glimmering Shore|
 C Pilfered Pearls|QID|78997|QO|1|M|49.28,79.06|Z|2248;Isle of Dorn|N|Pilfered Pearls drop from the gorlocs in the area.|S|
@@ -199,7 +199,7 @@ K Murgle-whurgle|ACTIVE|78999|QO|2|M|50.96,85.10|Z|2248;Isle of Dorn|N|Murgle-wh
 K Burgle-gurgle|ACTIVE|78999|QO|1|M|49.60,83.69|Z|2248;Isle of Dorn|N|Burgle-gurgle slain.|T|Burgle-gurgle|
 T Heart of a Hero|QID|78999|M|50.53,78.65|Z|2248;Isle of Dorn|N|To Dorbund.|
 T Frayed Legacy|QID|78570|M|53.56,69.88|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
-A Fungal Frenzy|QID|78618|M|53.44,70.24|IZ|Boskroot Basin|RANK|3|
+;A Fungal Frenzy|QID|78618|M|53.44,70.24|IZ|Boskroot Basin|RANK|3|
 A Mycomayhem|QID|78571|PRE|78570|M|53.56,69.88|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
 C Fungal Frenzy|QID|78618|M|53.42,67.33|QO|1|Z|2248;Isle of Dorn|N|Defeat the Fungarians .|S!US|IZ|Boskroot Basin|
 C Mycomayhem|QID|78571|QO|1|M|53.44,66.68|Z|2248;Isle of Dorn|N|Boskroot Spores.|
@@ -253,12 +253,12 @@ T Crossroads Plaza|QID|82747|M|55.12,55.73|Z|2248;Isle of Dornd|N|From Rannida.|
 A Wanted: The Boroughbreaker|QID|83335|M|55.21,55.94|Z|2248;Isle of Dorn|N|From Wanted Poster|RANK|2|
 A Delver's Call: Fungal Folly|QID|83758|M|55.35,55.92|Z|2248;Isle of Dorn|N|From poster on other side of piller.|RANK|2|
 A Delver's Call: Kriegval's Rest|QID|83759|M|55.35,55.92|Z|2248;Isle of Dorn|N|From poster.|RANK|2|
-t Delver's Call: Fungal Folly|QID|83758|M|55.21,55.91|Z|2248;Isle of Dorn|N|To Bondaz.|;IZ?
-t Delver's Call: Kriegval's Rest|QID|83759|M|55.22,55.82|N|To Bondaz.|;IZ?
+t Delver's Call: Fungal Folly|QID|83758|M|55.21,55.91|Z|2248;Isle of Dorn|N|To Bondaz.|IZ|Crossroads Plaza|
+t Delver's Call: Kriegval's Rest|QID|83759|M|55.22,55.82|N|To Bondaz.|IZ|Crossroads Plaza|
 A The Earthwound|QID|83336|M|55.51,55.95|Z|2248;Isle of Dorn|N|From Freysworn Etterca.|RANK|2|
 A To Mourning Rise|QID|81661|M|55.72,56.05|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 A Lost Delivery|QID|78754|M|55.55,56.49|Z|2248;Isle of Dorn|N|From a Lost Delivery.|RANK|2|
-K Wanted: The Boroughbreaker|ACTIVE|83335|QO|1|M|45.48,56.48|Z|2248;Isle of Dorn|N|Kill Boroughbreaker Stik'kar.|T|Boroughbreaker Stik'kar|
+K Boroughbreaker Stik'kar|ACTIVE|83335|QO|1|M|45.48,56.48|Z|2248;Isle of Dorn|N|Kill Boroughbreaker Stik'kar.|T|Boroughbreaker Stik'kar|
 K Roth the Earthwound|ACTIVE|83336|QO|1|M|60.23,53.34|Z|2248;Isle of Dorn|N|Kill Roth the Earthwound.|T|Roth the Earthwound|
 T The Earthwound|QID|83336|M|55.56,55.90|Z|2248;Isle of Dorn|N|To Freysworn Etterca.|
 T To Mourning Rise|QID|81661|M|57.48,42.97|Z|2248;Isle of Dorn|N|To Urtago.|
@@ -386,13 +386,12 @@ C Poking the Spider Nest|QID|78543|QO|1|M|74.51,41.04|Z|2248;Isle of Dorn|N|Keg 
 C Poking the Spider Nest|QID|78543|QO|2|M|75.02,38.88|Z|2248;Isle of Dorn|NC|N|Use your [color=33fff9] Extra Action Button [/color] to thru the keg into the Nerubian burrow.|EAB|
 T Poking the Spider Nest|QID|78543|M|74.75,42.32|Z|2248;Isle of Dorn|N|To Baelgrim.|
 A Bring the Thunder|QID|78544|PRE|78543|M|74.75,42.32|Z|2248;Isle of Dorn|N|From Baelgrim.|
-C Bring the Thunder|QID|78544|QO|1|M|74.75,42.28|Z|2248;Isle of Dorn|N|This puts you into a vehicle UI. Use the 1,2,3 key to  place defenses.|
+C Bring the Thunder|QID|78544|QO|1|M|74.75,42.28|Z|2248;Isle of Dorn|N|This puts you into a vehicle UI. Use the 1,2,3 key to place defenses.|
 C Bring the Thunder|QID|78544|QO|2|M|74.76,42.32|Z|2248;Isle of Dorn|N|Speak to Baelgrim to begin the defense. This changes your Vehicle's options to attacks.|CHAT|
 C Bring the Thunder|QID|78544|QO|3|M|74.76,42.32|Z|2248;Isle of Dorn|N|Kill Nerubians.|
 C Bring the Thunder|QID|78544|QO|4|M|74.76,42.32|Z|2248;Isle of Dorn|N|Witness Baelgrim's plan.|
 T Bring the Thunder|QID|78544|M|75.13,43.80|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A Return to the Coreway|QID|78545|PRE|78544|M|75.26,43.98|N|From Adelgonn.|
-
 C To Rambleshire|QID|78289|M|58.41,27.40|Z|2248;Isle of Dorn|NC|N|Run inside the Rambleshire Inn.|
 A The Spirebreaker|QID|83339|M|58.34,27.14|Z|2248;Isle of Dorn|N|From Violet Warden.|RANK|2|
 A The Mage Slayer|QID|83338|M|58.34,27.14|Z|2248;Isle of Dorn|N|From Violet Warden.|RANK|2|
@@ -403,7 +402,6 @@ A Birdman of the Three Shields|QID|82680|M|60.18,28.36|Z|2248;Isle of Dorn|N|Fro
 K Mage Slayer Phytethil|ACTIVE|83338|M|55.31,32.77|QO|1|Z|2248;Isle of Dorn|N|Kill Mage Slayer Phytethil.|T|Mage Slayer Phytethil|
 K Stormscar|ACTIVE|83337|M|59.42,34.38|QO|1|Z|2248;Isle of Dorn|N|Kill Stormscar.|T|Stormscar|
 K Anub'esska|ACTIVE|83339|M|60.93,38.29|QO|1|Z|2248;Isle of Dorn|N|Kill Anub'esska.|T|Anub'esska|
-
 T To Rambleshire|QID|78289|M|61.43,31.65|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 A Power Predators|QID|78291|PRE|78289|M|61.43,31.68|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
 A Sleepy Sheep|QID|78290|PRE|78289|M|61.42,31.67|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
@@ -428,7 +426,6 @@ T Thunderhead Butt|QID|78294|M|58.96,29.91|Z|2248;Isle of Dorn|N|To Rooktender L
 T The Spirebreaker|QID|83339|M|58.33,27.18|Z|2248;Isle of Dorn|N|To Violet Warden.|
 T The Mage Slayer|QID|83338|M|58.33,27.18|Z|2248;Isle of Dorn|N|To Violet Warden.|
 T Stormscarred|QID|83337|M|58.38,28.31|Z|2248;Isle of Dorn|N|To Rancher Edidithet.|
-
 T Birdman of the Three Shields|QID|82680|M|74.59,19.72|Z|2248;Isle of Dorn|N|To Olbarig.|
 A Cloudrook Down|QID|82681|PRE|82680|M|74.59,19.72|Z|2248;Isle of Dorn|N|From Olbarig.|RANK|2|
 C Cloudrook Down|QID|82681|M|72.86,25.86|QO|1|Z|2248;Isle of Dorn|N|Kill Elementals on the other side of the island.|
@@ -452,7 +449,6 @@ K Gramwharl|ACTIVE|79727|M|80.51,30.91|QO|1|Z|2248;Isle of Dorn|N|Kill Gramwharl
 T Because It's Shiny|QID|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|To Tharessa Sunstrand.|
 A It's Probably Nothing|QID|79728|PRE|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|From Rannan Korren.|RANK|2|
 C It's Probably Nothing|QID|79728|M|77.85,30.28|QO|1|Z|2248;Isle of Dorn|N|Middle, Right|I|
-
 T It's Probably Nothing|QID|79728|M|77.97,30.26|Z|2248;Isle of Dorn|N|To Rannan Korren.|
 T Wanted: The Boroughbreaker|QID|83335|M|54.08,20.06|Z|2339;Dornogal|N|To Peacekeeper Alef.|
 C Return to the Coreway|QID|78545|QO|1|M|31.48,59.69|Z|2339;Dornogal|N|Return to Merrix in Dornogal.|
@@ -463,7 +459,6 @@ C Recompense|QID|78546|QO|2|M|31.93,59.35|Z|2339;Dornogal|N|Listen to the debrie
 C Recompense|QID|78546|QO|3|M|31.91,59.76|Z|2339;Dornogal|N|Tell Merrix "Let's do it."|CHAT|
 T Recompense|QID|78546|M|31.91,59.76|Z|2339;Dornogal|N|To Merrix.|
 A Into the Deeps|QID|80434|M|31.99,59.88|Z|2339;Dornogal|N|From Moira Thaurissan.|
-
 A How Scandalous|QID|80207|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;need to find pre. or if this was available earlier and just missed? - I know it was availablewhen flying into Dornogal before turning in Return to the Coreway-- prolly once per account. (lead 80538?)
 T How Scandalous|QID|80207|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
 A Seizing Evidence|QID|79521|PRE|80207|M|49.88,49.27|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
@@ -481,7 +476,6 @@ C Gear Enchanting|QID|83275|M|51.84,48.74|Z|2339;Dornogal|N|Use the provided enc
 T Gear Enchanting|QID|83275|M|51.84,48.74|Z|2339;Dornogal|N|To Ellerdin.|
 C Report to the Councilward|QID|79525|M|55.67,6.01|Z|2339;Dornogal|N|Fly up to the Coucilward's office and approach Merrix's desk.|NC|
 T Report to the Councilward|QID|79525|M|55.67,6.01|Z|2339;Dornogal|N|To Open Ledger.|
-
 T A Place Forgotten|QID|83083|M|44.92,20.61|Z|2248;Isle of Dorn|N|To Speaker Brinthe.|
 A The Old Orders|QID|83084|PRE|83083|M|44.92,20.61|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
 C The Old Orders|QID|83084|QO|1|M|44.63,20.80|Z|2248;Isle of Dorn|N|Inspect the Forgotten Weapon Rack inside.|H|
@@ -499,7 +493,6 @@ T The Old Guard|QID|83087|M|44.92,20.61|Z|2248;Isle of Dorn|N|From Dagran Thauri
 N Come back later|QID|79526|N|The final parts of the Sojourner achievement can be earned after doing The Ringing Deeps for Behind Closed Doors and Hallowfall for Brotherhood in the Skolzgal Wood.|
 A Sedition|QID|79526|PRE|79546&78630|M|45.92,47.26|Z|2339;Dornogal|
 T Sedition|QID|79526|M|55.73,5.73|Z|2339;Councilward's Office|N|To Merrix.|
-
 A Damage Mitigation|QID|79527|PRE|79526|M|55.73,5.73|Z|2339;Councilward's Office|N|From Merrix.|
 A Dispelling Rumors|QID|79528|PRE|79526|M|55.73,5.73|Z|2339;Councilward's Office|N|From Merrix.|
 C Seditious Poster|QID|79527|M|49.23,27.21;49.71,34.04;54.05,36.32;54.07,36.28;55.24,19.45;55.68,16.70;55.94,25.51;56.42,28.46;60.66,20.94;60.29,26.30;33.21,29.92;34.64,24.97;37.88,31.73;38.15,40.28;43.18,36.67;44.70,33.56;46.99,36.83|Z|Dornogal|QO|1|CS|H|N|Tear down poster.|
@@ -507,14 +500,12 @@ C Dispelling Rumors|QID|79528|M|46.97,36.54|Z|2339;Dornogal|QO|1|NC|N|Murmuring 
 C Damage Mitigation|QID|79527|M|55.92,25.57|Z|2339;Dornogal|QO|1|NC|N|Seditious Posters torn down.|
 T Damage Mitigation|QID|79527|M|55.66,5.69|Z|2339;Councilward's Office|N|To Merrix.|
 T Dispelling Rumors|QID|79528|M|55.66,5.69|Z|2339;Councilward's Office|N|To Merrix.|
-
 A Forcing My Hand|QID|79529|PRE|79527&79528|M|55.66,5.69|Z|2339;Councilward's Office|N|From Merrix.|
 C Forcing My Hand|QID|79529|M|55.66,5.68|Z|2339;Councilward's Office|QO|1|NC|N|Cloak handed to Merrix.|
 C Forcing My Hand|QID|79529|M|55.65,5.70|Z|2339;Councilward's Office|QO|2|NC|N|Gloves handed to Merrix.|
 C Forcing My Hand|QID|79529|M|55.65,5.74|Z|2339;Councilward's Office|QO|3|NC|N|Weapons handed to Merrix.|
 C Forcing My Hand|QID|79529|M|55.71,5.64|Z|2339;Councilward's Office|QO|4|NC|N|Titan Device brought to Merrix.|
 T Forcing My Hand|QID|79529|M|55.70,5.67|Z|2339;Councilward's Office|N|To Steelvein.|
-
 A Bad Business|QID|79530|PRE|79529|M|55.70,5.67|Z|2339;Councilward's Office|N|From Steelvein.|
 C Bad Business|QID|79530|M|42.87,24.01|Z|2214;The Ringing Deeps|QO|1|NC|N|Regroup with Steelvein in the Ringing Deeps.|
 C Bad Business|QID|79530|M|42.31,23.94|Z|2214;The Ringing Deeps|QO|2|NC|N|Overseer Ardgrin confronted.|
