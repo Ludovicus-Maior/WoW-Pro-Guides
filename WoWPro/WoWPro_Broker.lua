@@ -1225,22 +1225,41 @@ if step then
         local text = "Please Type Your Issue Below This Line.\n------------------------------------------------\n\n\n\n\n\n\nThe Below Info is Needed By The Support Team To Assist In Your Issue - Do Not Edit Anything Past This Point\n"
 
 
-    -- Add step info without GID
-    local Sindex = WoWPro.rows[currentRow.num].index
-    if WoWPro.rows[currentRow.num]:IsVisible() then
-    text = text .. "\n|cffffff00Step Info:|r\n" .. WoWPro.EmitSafeStep(Sindex) .. "\n"
-    end
+        -- Add step info without GID
+        local Sindex = WoWPro.rows[currentRow.num].index
+        if WoWPro.rows[currentRow.num]:IsVisible() then
+        local maxLineLength = 80  -- Define the maximum line length
+        local stepText = WoWPro.EmitSafeStep(Sindex)
 
-    text = text .. "\n|cffffff00Guide Info:|r\n"
-    text = text .. GID .. "\n"
-    text = text .. "Faction: " .. WoWPro.Faction .. "\n"
+        -- Split the step text into lines
+        local lines = {}
+        for line in stepText:gmatch("[^\r\n]+") do
+            while line:len() > maxLineLength do
+                local split = line:sub(1, maxLineLength)
+                table.insert(lines, split)
+                line = line:sub(maxLineLength + 1)
+            end
+            table.insert(lines, line)
+        end
+
+        -- Add the step text to the text
+        text = text .. "\n|cffffff00Step Info:|r\n"
+        for _, line in ipairs(lines) do
+            text = text .. line .. "\n"
+        end
+        end
+
+        -- Add guide info
+        text = text .. "\n|cffffff00Guide Info:|r\n"
+        text = text .. GID .. "\n"
+        text = text .. "Faction: " .. WoWPro.Faction .. "\n"
 
 
         -- Retrieve additional player information
         local _, class = _G.UnitClass("player")
         class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
         local level = _G.UnitLevel("player")
-        local version = _G.GetAddOnMetadata("WoWPro", "Version")
+        local version = _G.C_AddOns.GetAddOnMetadata("WoWPro", "Version")
         local locale = _G.GetLocale()
         local gameVersion, _, _, _ = _G.GetBuildInfo()  -- Get the game version
 
