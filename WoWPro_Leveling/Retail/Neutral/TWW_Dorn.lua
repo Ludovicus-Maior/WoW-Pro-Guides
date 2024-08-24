@@ -13,7 +13,7 @@ return [[
 ;2269;Earthcrawl Mines!Dungeon
 ;Two parts of Soujourner of Isle of Dorn not completable in your first go thru.
 ;--Brotherhood in the Skolzgal Wood requires you to complete the Hallowfall Hallowfall achievement
-;--Behind Closed Doors starts in Dornogal, but then requires the Entire Ringing Deeps main storyline, before you can pick up the last few steps 
+;--Behind Closed Doors starts in Dornogal, but then requires the Entire Ringing Deeps main storyline, before you can pick up the last few steps
 
 
 A Violent Impact|QID|78529|PRE|80500|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|
@@ -480,7 +480,7 @@ A Gear Enchanting|QID|83275|M|51.84,48.74|Z|2339;Dornogal|N|From Ellerdin.|;may 
 C Gear Enchanting|QID|83275|M|51.84,48.74|Z|2339;Dornogal|N|Use the provided enchantment (+130 haste) on your own ring or the one she gave you.|U|225652|
 T Gear Enchanting|QID|83275|M|51.84,48.74|Z|2339;Dornogal|N|To Ellerdin.|
 C Report to the Councilward|QID|79525|M|55.67,6.01|Z|2339;Dornogal|N|Fly up to the Coucilward's office and approach Merrix's desk.|NC|
-T Report to the Councilward|QID|79525|M|55.67,6.01|Z|2339;Dornogal|N|To Open Ledger.| 
+T Report to the Councilward|QID|79525|M|55.67,6.01|Z|2339;Dornogal|N|To Open Ledger.|
 
 T A Place Forgotten|QID|83083|M|44.92,20.61|Z|2248;Isle of Dorn|N|To Speaker Brinthe.|
 A The Old Orders|QID|83084|PRE|83083|M|44.92,20.61|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
