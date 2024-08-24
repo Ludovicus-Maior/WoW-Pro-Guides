@@ -3,13 +3,13 @@
 -- Permissions beyond the scope of this license may be available at httpgithub.comLudovicus-MaiorWoW-Pro-GuidesblobmainLicense.md.
 
 local guide = WoWPro:RegisterGuide("Engineering_Knowledge-TWW","Profession","All", "WoWPro Team", "Neutral")
-WoWProGuideName(guide,  Leatherworking_Knowledge-TWW)
-WoWProGuideNickname(guide,  Leatherworking_Knowledge-TWW)
+WoWProGuideName(guide,  "Leatherworking_Knowledge-TWW")
+WoWProGuideNickname(guide,  "Leatherworking_Knowledge-TWW")
 WoWProGuideLevels(guide,70,80)
 if WoWPro.Achievements then
-    WoWPro.AchievementsGuideMisc(guide,  Leatherworking-TWW, Profession Knowledge, The War Within)
+    WoWPro.AchievementsGuideMisc(guide,  "Leatherworking-TWW", "Profession Knowledge", "The War Within")
 else
-    WoWProGuideCategory(guide, The War Within)
+    WoWProGuideCategory(guide, "The War Within")
 end
 WoWProGuideSteps(guide, function()
 return [[
