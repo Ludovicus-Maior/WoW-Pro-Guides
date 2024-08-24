@@ -1231,6 +1231,9 @@ if step then
         local maxLineLength = 80  -- Define the maximum line length
         local stepText = WoWPro.EmitSafeStep(Sindex)
 
+        -- Ensure the table library is available
+        local table = require("table")
+
         -- Split the step text into lines
         local lines = {}
         for line in stepText:gmatch("[^\r\n]+") do
