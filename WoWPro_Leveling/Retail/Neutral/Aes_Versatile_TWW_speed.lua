@@ -498,26 +498,26 @@ C New Candle, New Hope|QID|78642|M|41.78,14.12|Z|2304|QO|1|CHAT|N|Speak with Ski
 C Kobold Disguise|Z|Darkflame Cleft|SO|1|S|N|Apply the disguise Skitter has made for you out of the scrap recovered from the Warrens.|
 C Kobold Disguise|Z|Darkflame Cleft|SO|1|US|N|Apply the disguise Skitter has made for you out of the scrap recovered from the Warrens.|
 C Snuff the Candles|Z|Darkflame Cleft|SO|2|S|N|Extinguish the large candles scattered about the chamber, plunging the area into darkness and driving off the massive kobold guarding the door.|
-C Disguise yourself as a kobold|M|44.96,21.61|Z|DarkFlame_Scenario#2304!Dungeon|SO|1;1|N|Disguise yourself as a kobold|
-C Candles snuffed|M|38.88,26.97|Z|DarkFlame_Scenario#2304!Dungeon|SO|2;1|N|Candles snuffed|
+C Disguise yourself as a kobold|M|44.96,21.61|Z|2304; DarkFlame Cleft!Dungeon|SO|1;1|N|Disguise yourself as a kobold|
+C Candles snuffed|M|38.88,26.97|Z|2304; DarkFlame Cleft!Dungeon|SO|2;1|N|Candles snuffed|
 C Snuff the Candles|Z|Darkflame Cleft|SO|2|US|N|Extinguish the large candles scattered about the chamber, plunging the area into darkness and driving off the massive kobold guarding the door.|
 C Kill Waximus|Z|Darkflame Cleft|SO|3|S|N|The way forward is blocked with waxy buildup. Defeat Waximus to dislodge it.|
-C Waximus slain|M|40.99,41.48|Z|DarkFlame_Scenario#2304!Dungeon|SO|3;1|N|Waximus slain|
+C Waximus slain|M|40.99,41.48|Z|2304; DarkFlame Cleft!Dungeon|SO|3;1|N|Waximus slain|
 C Kill Waximus|Z|Darkflame Cleft|SO|3|US|N|The way forward is blocked with waxy buildup. Defeat Waximus to dislodge it.|
 C Enter the Throne Room|Z|Darkflame Cleft|SO|4|S|N|Make your way into the Candle King's inner sanctum.|
-C Enter the Throne Room|M|41.29,69.16|Z|DarkFlame_Scenario#2304!Dungeon|SO|4;1|N|Enter the Throne Room|
+C Enter the Throne Room|M|41.29,69.16|Z|2304; DarkFlame Cleft!Dungeon|SO|4;1|N|Enter the Throne Room|
 C Enter the Throne Room|Z|Darkflame Cleft|SO|4|US|N|Make your way into the Candle King's inner sanctum.|
 C Acquire the Candle Keys from Dripear|Z|Darkflame Cleft|SO|5|S|N|Defeat Dripear the Waxy, the High Wax-o-mancer, and take his keys.|
-C Acquire the Candle Keys|M|41.25,83.69|Z|DarkFlame_Scenario#2304!Dungeon|SO|5;1|N|Acquire the Candle Keys|
+C Acquire the Candle Keys|M|41.25,83.69|Z|2304; DarkFlame Cleft!Dungeon|SO|5;1|N|Acquire the Candle Keys|
 C Acquire the Candle Keys from Dripear|Z|Darkflame Cleft|SO|5|US|N|Defeat Dripear the Waxy, the High Wax-o-mancer, and take his keys.|
 C Retrieve the Candle Crown|Z|Darkflame Cleft|SO|6|S|N|Search the Candle King's treasures for the Candle Crown.|
-C Retrieve the Candle Crown|M|44.42,89.79|Z|DarkFlame_Scenario#2304!Dungeon|SO|6;1|N|Retrieve the Candle Crown|
+C Retrieve the Candle Crown|M|44.42,89.79|Z|2304; DarkFlame Cleft!Dungeon|SO|6;1|N|Retrieve the Candle Crown|
 C Retrieve the Candle Crown|Z|Darkflame Cleft|SO|6|US|N|Search the Candle King's treasures for the Candle Crown.|
 C Escape the Lost Mines!|Z|Darkflame Cleft|SO|7|S|N|Speak with Skitter to tunnel out before the Candle King returns!|
 C New Candle, New Hope|QID|78642|M|44.42,89.79|Z|2304|QO|2|NC|N|Candle Crown retrieved.|
-C Speak with Skitter to exit the Darkflame Cleft|M|44.40,89.40|Z|DarkFlame_Scenario#2304!Dungeon|SO|7;1|N|Speak with Skitter to exit the Darkflame Cleft|
+C Speak with Skitter to exit the Darkflame Cleft|M|44.40,89.40|Z|2304; DarkFlame Cleft!Dungeon|SO|7;1|N|Speak with Skitter to exit the Darkflame Cleft|
 C Escape the Lost Mines!|Z|Darkflame Cleft|SO|7|US|N|nil|
-C Speak with Skitter to exit the Darkflame Cleft|M|44.40,89.40|Z|DarkFlame_Scenario#2304!Dungeon|SO|7;1|N|Speak with Skitter to exit the Darkflame Cleft|
+C Speak with Skitter to exit the Darkflame Cleft|M|44.40,89.40|Z|2304; DarkFlame Cleft!Dungeon|SO|7;1|N|Speak with Skitter to exit the Darkflame Cleft|
 C nil|Z|Darkflame Cleft|SO|0|S|N|nil|
 C nil|Z|Darkflame Cleft|SO|0|S|N|nil|
 C nil|Z|Darkflame Cleft|SO|0|S|N|nil|
