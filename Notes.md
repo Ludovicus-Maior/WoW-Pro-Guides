@@ -1,3 +1,13 @@
+# Release 2024.08.26.A
+## Bug Fixes
+* Use `C_AddOns.GetAddOnMetadata`
+## Guide Updates
+* Retail Achievements: Azj-Kahet Glyphs
+
+* Retail Neutral: Aes TWW Speedrunning Guide, Misfit Dragons, Coalition of Flames
+* Retail Neutral TWW: Dorn, HAllowfall, Inbtro, Max Campaign, TRD
+* Professions Retail: All!
+
 # Release 2024.08.22.A
 ## Bug Fixes
 * Added Khaz Algar Professions
