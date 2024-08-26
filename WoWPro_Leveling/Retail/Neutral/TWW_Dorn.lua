@@ -491,7 +491,7 @@ C Recompense|QID|78546|QO|3|M|31.91,59.76|Z|2339;Dornogal|N|Tell Merrix "Let's d
 T Recompense|QID|78546|M|31.91,59.76|Z|2339;Dornogal|N|To Merrix.|
 A Into the Deeps|QID|80434|M|31.99,59.88|Z|2339;Dornogal|N|From Moira Thaurissan.|
 
-A How Scandalous|QID|80207|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;need to find pre. or if this was available earlier and just missed? - I know it was availablewhen flying into Dornogal before turning in Return to the Coreway-- prolly once per account. (lead 80538?)
+A How Scandalous|QID|80207|PRE|81689|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;need to find pre. or if this was available earlier and just missed? - I know it was availablewhen flying into Dornogal before turning in Return to the Coreway-- prolly once per account. (lead 80538?)
 T How Scandalous|QID|80207|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
 A Seizing Evidence|QID|79521|PRE|80207|M|49.88,49.27|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
 C Seizing Evidence|QID|79521|M|51.43,51.25|Z|2339;Dornogal|N|Pick up the crates on the nearby trolly cart.|H|
@@ -526,30 +526,14 @@ N Come back later|AVAILABLE|79526|N|The final parts of the Sojourner achievement
 ;============Isle of Dorn wrap up=============
 
 ;Merrix and Steelvein Quest line for Sojourner of IoD
-A How Scandalous!|QID|80207|PRE|81689|M|62.64,21.81|Z|2339;Dornogal|N|From Aldra.|
-C How Scandalous!|QID|80207|M|50.13,49.80|Z|2339;Dornogal|QO|1|NC|N|Disturbance investigated near the Forgegrounds.|
-T How Scandalous!|QID|80207|M|49.93,49.48|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
-A Seizing Evidence|QID|79521|PRE|80207|M|49.93,49.48|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
-C Seizing Evidence|QID|79521|M|51.31,51.58|Z|2339;Dornogal|QO|1|NC|N|Seized Shipment.|
-T Seizing Evidence|QID|79521|M|49.89,49.55|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
-A Withheld Information|QID|79522|PRE|79521|M|49.89,49.55|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
-C Withheld Information|QID|79522|M|49.06,49.60|Z|2339;Dornogal|QO|1|NC|N|Line Workers interrogated.|
-T Withheld Information|QID|79522|M|49.87,49.21|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
-A Something Hidden|QID|79523|PRE|79522|M|49.87,49.21|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
-C Something Hidden|QID|79523|M|51.37,51.35|Z|2339;Dornogal|QO|1|NC|N|Crates smashed.|
-C Something Hidden|QID|79523|M|51.42,51.33|Z|2339;Dornogal|QO|2|NC|N|Evidence gathered.|
-T Something Hidden|QID|79523|M|49.87,49.54|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
-A Report to the Councilward|QID|79525|PRE|79523|M|49.87,49.54|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
-C Report to the Councilward|QID|79525|M|56.22,6.34|Z|2339;Dornogal|QO|1|NC|N|Find Merrix at the Councilward's Rise.|
-C Report to the Councilward|QID|79525|M|55.65,5.91|Z|2339;Dornogal|QO|2|NC|N|Merrix's desk approached.|
-T Report to the Councilward|QID|79525|M|55.65,5.91|Z|2339;Dornogal|
+;A The Councilward Summons|QID|79542|PRE|79525|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;maybe wrong spot, may be wrong PRE -- is this offered in multiple locations?
 A The Councilward's Summons|QID|79542|M|45.97,47.31|Z|2339;Dornogal|N|From Saradi.|
 C The Councilward's Summons|QID|79542|M|55.33,6.34|Z|2339;Dornogal|QO|1|NC|N|Meet Merrix at the Councilward's Rise.|
 T The Councilward's Summons|QID|79542|M|55.33,6.34|Z|2339;Dornogal|N|To Merrix.|
 A Dornogal's Benefactor|QID|79543|PRE|79542|M|55.33,6.34|Z|2339;Dornogal|N|From Merrix.|
-C Dornogal's Benefactor|QID|79543|M|32.21,24.67|Z|2339;Dornogal|QO|1|NC|N|Spa Supplies delivered.|
-C Dornogal's Benefactor|QID|79543|M|58.35,62.15|Z|2339;Dornogal|QO|2|NC|N|Country Supplies delivered.|
-C Dornogal's Benefactor|QID|79543|M|52.27,52.48|Z|2339;Dornogal|QO|3|NC|N|Care Package delivered.|
+C Dornogal's Benefactor|QID|79543|M|32.21,24.67|Z|2339;Dornogal|QO|1|NC|N|Deliver Spa Supplies.|
+C Dornogal's Benefactor|QID|79543|M|58.35,62.15|Z|2339;Dornogal|QO|2|NC|N|Deliver Country Supplies.|
+C Dornogal's Benefactor|QID|79543|M|52.27,52.48|Z|2339;Dornogal|QO|3|NC|N|Deliver Care Package.|
 C Dornogal's Benefactor|QID|79543|M|52.27,52.48|Z|2339;Dornogal|QO|4|CHAT|N|Speak to Harthan.|
 T Dornogal's Benefactor|QID|79543|M|49.25,26.26|Z|2339;Dornogal|N|To Merrix.|
 A Security Through Trade|QID|79544|PRE|79543|M|49.25,26.26|Z|2339;Dornogal|N|From Merrix.|
@@ -557,50 +541,50 @@ C Security Through Trade|QID|79544|M|55.59,50.33|Z|2339;Dornogal|QO|1|CHAT|N|Spe
 C Security Through Trade|QID|79544|M|55.59,50.33|Z|2339;Dornogal|QO|2|NC|N|See what Bevrusi will trade.|
 T Security Through Trade|QID|79544|M|55.52,50.34|Z|2339;Dornogal|N|To Bevrusi.|
 A The Market Reeve of the Forgegrounds|QID|79545|PRE|79544|M|55.52,50.34|Z|2339;Dornogal|N|From Bevrusi.|
-C The Market Reeve of the Forgegrounds|QID|79545|M|45.22,48.83|Z|2339;Dornogal|QO|1|NC|N|Vokgret approached.|
-C The Market Reeve of the Forgegrounds|QID|79545|M|44.83,46.49|Z|2339;Dornogal|QO|2|NC|N|Cinderbrew acquired.|
+C The Market Reeve of the Forgegrounds|QID|79545|M|45.22,48.83|Z|2339;Dornogal|QO|1|NC|N|Approach Vokgret.|
+C The Market Reeve of the Forgegrounds|QID|79545|M|44.83,46.49|Z|2339;Dornogal|QO|2|NC|N|Purchase Cinderbrew from the innkeeper.|
 C The Market Reeve of the Forgegrounds|QID|79545|M|45.14,48.80|Z|2339;Dornogal|QO|3|NC|N|Cinderbrew brought to Vokgret.|
 C The Market Reeve of the Forgegrounds|QID|79545|M|45.14,48.80|Z|2339;Dornogal|QO|4|NC|N|Ask about obtaining a Vial of Liquid Opal.|
 C The Market Reeve of the Forgegrounds|QID|79545|M|48.20,73.07|Z|2339;Dornogal|QO|5|CHAT|N|Speak to Loldren.|
-C The Market Reeve of the Forgegrounds|QID|79545|M|48.20,73.07|Z|2339;Dornogal|QO|6|NC|N|Bills of purchase signed.|
-C The Market Reeve of the Forgegrounds|QID|79545|M|48.20,73.07|Z|2339;Dornogal|QO|7|NC|N|Loldren's Market Audit.|
+C The Market Reeve of the Forgegrounds|QID|79545|M|48.20,73.07|Z|2339;Dornogal|QO|6|NC|N|Complete the paperwork however you want.|
 C The Market Reeve of the Forgegrounds|QID|79545|M|49.72,73.06|Z|2339;Dornogal|QO|8|CHAT|N|Speak to Nernabel.|
-C The Market Reeve of the Forgegrounds|QID|79545|M|50.60,63.42|Z|2339;Dornogal|QO|9|NC|N|Sizzling Magma Core.|
+C The Market Reeve of the Forgegrounds|QID|79545|M|50.60,63.42|Z|2339;Dornogal|QO|9|H|N|Sizzling Magma Core is just lying there in the magma, be prepared to fight for it.|
 C The Market Reeve of the Forgegrounds|QID|79545|M|49.69,73.02|Z|2339;Dornogal|QO|10|NC|N|Nernabel's signature acquired.|
 T The Market Reeve of the Forgegrounds|QID|79545|M|45.24,48.73|Z|2339;Dornogal|N|To Vokgret.|
 A Opals and Runes|QID|79176|PRE|79545|M|45.24,48.73|Z|2339;Dornogal|N|From Vokgret.|
-C Opals and Runes|QID|79176|M|55.47,50.29|Z|2339;Dornogal|QO|1|CHAT|N|Trade for the Speakeasy Passrune.|
+B Opals and Runes|QID|79176|M|55.47,50.29|Z|2339;Dornogal|N|Trade for the Speakeasy Passrune.|
 T Opals and Runes|QID|79176|M|60.41,33.38|Z|2339;Dornogal|N|To Merrix.|
 A The Machine Speakeasy|QID|79546|PRE|79176|M|60.52,33.33|Z|2339;Dornogal|N|From Merrix.|
 R The Corridors|ACTIVE|79546|M|62.16,49.17|Z|Dornogal|N|Make your way to the The Corridors.|
 C The Machine Speakeasy|QID|79546|M|62.68,41.15|Z|2339;Dornogal|QO|1|NC|N|Meet Merrix in the tunnels.|
 C The Machine Speakeasy|QID|79546|M|62.55,40.38|Z|2339;Dornogal|QO|2|CHAT|N|Speakeasy opened.|
-C The Machine Speakeasy|QID|79546|M|62.16,37.80|Z|2339;Dornogal|QO|3|NC|N|Obstorn confronted.|
+C The Machine Speakeasy|QID|79546|M|62.16,37.80|Z|2339;Dornogal|QO|3|CHAT|N|Obstorn confronted, fight ensues.|
 T The Machine Speakeasy|QID|79546|M|62.07,38.50|Z|2339;Dornogal|N|To Merrix.|
-A Sedition|QID|79526|PRE|79546&78630|M|45.92,47.26|Z|2339;Dornogal|N|From Angrtily-Scrawled Poster|
+A Sedition|QID|79526|PRE|79546|M|45.92,47.26|Z|2339;Dornogal|N|From Angrtily-Scrawled Poster|
 T Sedition|QID|79526|M|55.73,5.73|Z|2339;Dornogal|N|To Merrix.|
 A Damage Mitigation|QID|79527|PRE|79526|M|55.73,5.73|Z|2339;Dornogal|N|From Merrix.|
 A Dispelling Rumors|QID|79528|PRE|79526|M|55.73,5.73|Z|2339;Dornogal|N|From Merrix.|
-C Dispelling Rumors|QID|79528|M|46.97,36.54|Z|2339;Dornogal|QO|1|NC|N|Murmuring Peacekeepers dispersed.|S|
-C Seditious Poster|QID|79527|M|49.23,27.21;49.71,34.04;54.05,36.32;54.07,36.28;55.24,19.45;55.68,16.70;55.94,25.51;56.42,28.46;60.66,20.94;60.29,26.30;33.21,29.92;34.64,24.97;37.88,31.73;38.15,40.28;43.18,36.67;44.70,33.56;46.99,36.83|Z|Dornogal|QO|1|CS|H|N|Tear down poster.|
-C Dispelling Rumors|QID|79528|M|46.97,36.54|Z|2339;Dornogal|QO|1|NC|N|Murmuring Peacekeepers dispersed.|US|
+C Dispelling Rumors|QID|79528|M|46.97,36.54|Z|2339;Dornogal|QO|1|H|N|Disperse the murmuring Peacekeepers. Some require extra pursuasion.|S|
+C Seditious Poster|QID|79527|M|49.23,27.21;49.71,34.04;54.05,36.32;54.07,36.28;55.24,19.45;55.68,16.70;55.94,25.51;56.42,28.46;60.66,20.94;60.29,26.30;33.21,29.92;34.64,24.97;37.88,31.73;38.15,40.28;43.18,36.67;44.70,33.56;46.99,36.83|Z|Dornogal|QO|1|CS|H|N|Tear down posters.|
+C Dispelling Rumors|QID|79528|M|46.97,36.54|Z|2339;Dornogal|QO|1|H|N|Continue dispersing the Peacekeepers.|US|
 T Damage Mitigation|QID|79527|M|55.66,5.69|Z|2339;Dornogal|N|To Merrix.|
 T Dispelling Rumors|QID|79528|M|55.66,5.69|Z|2339;Dornogal|N|To Merrix.|
 A Forcing My Hand|QID|79529|PRE|79527&79528|M|55.66,5.69|Z|2339;Dornogal|N|From Merrix.|
-C Forcing My Hand|QID|79529|M|55.66,5.68|Z|2339;Dornogal|QO|1|NC|N|Cloak handed to Merrix.|
-C Forcing My Hand|QID|79529|M|55.65,5.70|Z|2339;Dornogal|QO|2|NC|N|Gloves handed to Merrix.|
-C Forcing My Hand|QID|79529|M|55.65,5.74|Z|2339;Dornogal|QO|3|NC|N|Weapons handed to Merrix.|
-C Forcing My Hand|QID|79529|M|55.71,5.64|Z|2339;Dornogal|QO|4|NC|N|Titan Device brought to Merrix.|
+C Forcing My Hand|QID|79529|M|55.66,5.68|Z|2339;Dornogal|QO|1|H|N|Get Cloak from  hearth and hand it to Merrix.|;55.12,6.36
+C Forcing My Hand|QID|79529|M|55.65,5.70|Z|2339;Dornogal|QO|2|H|N|Get Gloves from Accessory Chest by the bookcase and hand them to Merrix.|;56.41,5.88
+C Forcing My Hand|QID|79529|M|55.65,5.74|Z|2339;Dornogal|QO|3|H|N|Get Gilded Knockles from Saradi and hand to Merrix.|;BUFF|441008 @55.35,5.59 if you wanna get fancy - but I didnt think to check for the first two
+C Forcing My Hand|QID|79529|M|55.71,5.64|Z|2339;Dornogal|QO|4|H|N|Get Titan Device from the sideboard and bring to Merrix.|;BUFF|441009 @55.87,6.59
 T Forcing My Hand|QID|79529|M|55.70,5.67|Z|2339;Dornogal|N|To Steelvein.|
 A Bad Business|QID|79530|PRE|79529|M|55.70,5.67|Z|2339;Dornogal|N|From Steelvein.|
+R The Coreway|ACTIVE|79530|M|39.12,59.85|Z|2339;Dornogal|N|Head down The Coreway and into The Ringing Deeps.|
 C Bad Business|QID|79530|M|42.87,24.01|Z|2214;The Ringing Deeps|QO|1|NC|N|Regroup with Steelvein in the Ringing Deeps.|
-C Bad Business|QID|79530|M|42.31,23.94|Z|2214;The Ringing Deeps|QO|2|NC|N|Overseer Ardgrin confronted.|
+C Bad Business|QID|79530|M|42.31,23.94|Z|2214;The Ringing Deeps|QO|2|NC|N|Confront Overseer Ardgrin.|
 T Bad Business|QID|79530|M|42.51,24.02|Z|2214;The Ringing Deeps|N|To Steelvein.|
 
 ;Brotherhood in the Skolzgal Wood Quest line.
-R Dornogal|AVAILABLE|80456|M|55.34,55.84|Z|2248;Isle of Dorn|N|make your way back to Dornogal.|
+R Dornogal|AVAILABLE|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|make your way back to Dornogal.|;this is my best guess as to the PRE - not certain.
 
-A A Sassy Arathi|QID|80456|M|55.34,55.84|Z|2248;Isle of Dorn|N|From Dornogal Citizen.|
+A A Sassy Arathi|QID|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|From Dornogal Citizen.|
 T A Sassy Arathi|QID|80456|M|54.32,19.42|Z|2339;Dornogal|N|To Dornogal Citizen.|
 
 A An Oddball in Dornogal|QID|80209|M|54.32,19.42|Z|2339;Dornogal|N|From Dornogal Citizen.|
@@ -640,17 +624,17 @@ T Concealed in the Weald|QID|80216|M|65.94,24.74|Z|2248;Isle of Dorn|N|To Peacek
 
 A A Lamplight for the Shipwright|QID|80217|M|65.94,24.74|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
 C A Lamplight for the Shipwright|QID|80217|QO|1|M|63.54,22.93|Z|2248;Isle of Dorn|N|Confront Shipwright Isaebela.|CHAT|
-C A Lamplight for the Shipwright|QID|80217|QO|2|M|63.54,22.93|Z|2248;Isle of Dorn|N|Shipwright Bodyguards slain.|
-C A Lamplight for the Shipwright|QID|80217|QO|3|M|63.54,22.93|Z|2248;Isle of Dorn|N|Lamplighter Kaerter rescued.|H||
+C A Lamplight for the Shipwright|QID|80217|QO|2|M|63.54,22.93|Z|2248;Isle of Dorn|N|Kill Shipwright Bodyguards.|
+C A Lamplight for the Shipwright|QID|80217|QO|3|M|63.54,22.93|Z|2248;Isle of Dorn|N|Rescue Lamplighter Kaerter.|H||
 T A Lamplight for the Shipwright|QID|80217|M|65.96,23.85|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
 
 A Up to No Good Down in Silkwood|QID|80218|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|
 A Best Friends, Same Ends|QID|83181|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
-C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Silkwood Explosive Barrels collected.|H|S|
+C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Collect Silkwood Explosive Barrels.|H|S|
 K Shipwright Isaebela|ACTIVE|83181|QO|1|M|64.45,21.18|Z|2248;Isle of Dorn|N|Kill Shipwright Isaebela.|T|Shipwright Isaebela|
 K Shadowspinner Azarak|ACTIVE|83181|QO|2|M|64.45,21.18|Z|2248;Isle of Dorn|N|Kill Shadowspinner Azarak.|T|Shadowspinner Azarak|
-C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Silkwood Explosive Barrels collected.|H|US|
-C Up to No Good Down in Silkwood|QID|80218|QO|2|M|63.69,20.68|Z|2248;Isle of Dorn|N|Silkwood Tunnel Blown up.|H|
+C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Finish picking up the Silkwood Explosive Barrels|H|US|
+C Up to No Good Down in Silkwood|QID|80218|QO|2|M|63.69,20.68|Z|2248;Isle of Dorn|N|Place explosives.|H|
 T Up to No Good Down in Silkwood|QID|80218|M|65.47,20.54|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|
 T Best Friends, Same Ends|QID|83181|M|65.47,20.54|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
 ]]
