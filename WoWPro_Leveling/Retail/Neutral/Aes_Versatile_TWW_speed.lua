@@ -120,46 +120,46 @@ C Delve into the Earth|QID|78464|M|38.86,73.30|Z|2248|QO|3|NC|N|Open the Explore
 C Delve into the Earth|QID|78464|M|38.86,73.30|Z|2248|QO|4|NC|N|Select a Combat Role for Brann Bronzebeard.|
 C Delve into the Earth|QID|78464|M|44.98,11.86|Z|2269|QO|5|NC|N|Earthcrawl Mines entered.|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|1|S|N||
-C Plan discussed with Pivk|M|42.86,15.88|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|1;1|N|Plan discussed with Pivk|
-C Webbed Hookshot obtained|M|41.98,15.83|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|1;2|N|Webbed Hookshot obtained|
+C Plan discussed with Pivk|M|42.86,15.88|Z|2269; Earthcrawl Mines!Dungeon|SO|1;1|N|Plan discussed with Pivk|
+C Webbed Hookshot obtained|M|41.98,15.83|Z|2269; Earthcrawl Mines!Dungeon|SO|1;2|N|Webbed Hookshot obtained|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|1|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|2|S|N||
-C Cart guided forward|M|40.55,27.19|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|2;1|N|Cart guided forward|
+C Cart guided forward|M|40.55,27.19|Z|2269; Earthcrawl Mines!Dungeon|SO|2;1|N|Cart guided forward|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|2|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|3|S|N||
-C Use the Webbed Hookshot on any Grapple Point|M|40.40,26.17|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|3;2|N|Use the Webbed Hookshot on any Grapple Point|
-C Miners rescued|M|40.40,26.80|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|3;1|N|Miners rescued|
+C Use the Webbed Hookshot on any Grapple Point|M|40.40,26.17|Z|2269; Earthcrawl Mines!Dungeon|SO|3;2|N|Use the Webbed Hookshot on any Grapple Point|
+C Miners rescued|M|40.40,26.80|Z|2269; Earthcrawl Mines!Dungeon|SO|3;1|N|Miners rescued|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|3|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|4|S|N||
-C Cart guided forward|M|41.85,29.50|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|4;1|N|Cart guided forward|
+C Cart guided forward|M|41.85,29.50|Z|2269; Earthcrawl Mines!Dungeon|SO|4;1|N|Cart guided forward|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|4|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|5|S|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|5|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|6|S|N||
-C Groups of ambushers defeated|M|41.70,29.24|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|5;1|N|Groups of ambushers defeated|
-C Miners rescued|M|37.08,38.79|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|6;1|N|Miners rescued|
+C Groups of ambushers defeated|M|41.70,29.24|Z|2269; Earthcrawl Mines!Dungeon|SO|5;1|N|Groups of ambushers defeated|
+C Miners rescued|M|37.08,38.79|Z|2269; Earthcrawl Mines!Dungeon|SO|6;1|N|Miners rescued|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|6|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|7|S|N||
-C Speak with Pivk at the upper level|M|33.97,36.50|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|7;1|N|Speak with Pivk at the upper level|
+C Speak with Pivk at the upper level|M|33.97,36.50|Z|2269; Earthcrawl Mines!Dungeon|SO|7;1|N|Speak with Pivk at the upper level|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|7|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|8|S|N||
-C Cart guided forward|M|39.44,43.12|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|8;1|N|Cart guided forward|
+C Cart guided forward|M|39.44,43.12|Z|2269; Earthcrawl Mines!Dungeon|SO|8;1|N|Cart guided forward|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|8|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|9|S|N||
-C Ambush defeated|M|39.53,43.11|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|9;1|N|Ambush defeated|
+C Ambush defeated|M|39.53,43.11|Z|2269; Earthcrawl Mines!Dungeon|SO|9;1|N|Ambush defeated|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|9|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|10|S|N||
-C Nerubian groups defeated|M|51.51,71.74|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|10;1|N|Nerubian groups defeated|
+C Nerubian groups defeated|M|51.51,71.74|Z|2269; Earthcrawl Mines!Dungeon|SO|10;1|N|Nerubian groups defeated|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|10|US|N||
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|11|S|N||
-C Web General Ab'enar defeated|M|56.21,78.92|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|11;1|N|Web General Ab'enar defeated|
+C Web General Ab'enar defeated|M|56.21,78.92|Z|2269; Earthcrawl Mines!Dungeon|SO|11;1|N|Web General Ab'enar defeated|
 C Earthcrawl Mines|Z|Earthcrawl Mines|SO|11|US|N|nil|
-C Web General Ab'enar defeated|M|56.22,78.93|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|11;1|N|Web General Ab'enar defeated|
+C Web General Ab'enar defeated|M|56.22,78.93|Z|2269; Earthcrawl Mines!Dungeon|SO|11;1|N|Web General Ab'enar defeated|
 C nil|Z|Earthcrawl Mines|SO|0|S|N|nil|
 C Delve into the Earth|QID|78464|M|56.28,79.06|Z|2269|QO|6|NC|N|Earthcrawl Mines objectives completed.|
 C nil|Z|Earthcrawl Mines|SO|0|S|N|nil|
 C Treasure Room|Z|Earthcrawl Mines|SO|1|S|N||
-C Treasure found|M|56.87,77.97|Z|Delve_Earthcrawl_01A#2269!Dungeon|SO|1;1|N|Treasure found|
+C Treasure found|M|56.87,77.97|Z|2269; Earthcrawl Mines!Dungeon|SO|1;1|N|Treasure found|
 C Treasure Room|Z|Earthcrawl Mines|SO|1|US|N||
 C Collect Your Reward!|Z|Earthcrawl Mines|SO|2|S|N||
 C Delve into the Earth|QID|78464|M|64.99,87.70|Z|2269|QO|7|NC|N|Earthcrawl Mines treasure found.|
