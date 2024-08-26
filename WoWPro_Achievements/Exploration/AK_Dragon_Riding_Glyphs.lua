@@ -10,7 +10,7 @@ F Arathi's End Glyph|M|63.43,16.98|Z|2255;The Reckoning|N|Behind the stone colum
 F Siegehold Glyph|M|46.69,21.29|Z|2255;The Reckoning|N|High in the air, above the cliff|ACH|40692|
 F Ruptured Lake Glyph|M|25.14,40.58|Z|2255;The Reckoning|N|High in the air, between roots|ACH|40693|
 F Eye of Ansurek Glyph|M|43.12,57.02|Z|2255;The Reckoning|N|In the watchtower, top level|ACH|40694|
-F Old Sacrificial Pit Glyph|M|13.32u,33.52|Z|2255;The Reckoning|N|High in the air|ACH|40695|
+F Old Sacrificial Pit Glyph|M|13.32,33.52|Z|2255;The Reckoning|N|High in the air|ACH|40695|
 F Deepwalker Pass Glyph|M|58.62,89.80|Z|2255;The Reckoning|N|Upper level of a floating tower|ACH|40696|
 F The Maddening Deep Glyph|M|66.29,85.05|Z|2255;The Reckoning|N|Under the web bridge|ACH|40697|
 F Rak-Ush Glyph|M|73.21,84.11|Z|2255;The Reckoning|N|Near stone structures|ACH|40698|
