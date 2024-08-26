@@ -48,7 +48,7 @@ C For Morale|QID|83283|M|64.73,41.56|Z|2215;Hallowfall|QO|1|NC|N|Imperial Brut.|
 C Suspicious Minds|QID|83247|M|64.96,40.06|Z|2215;Hallowfall|QO|1|NC|N|Salamanther Heart.|US|
 T For Morale|QID|83283|M|68.02,44.26|Z|2215;Hallowfall|N|To Lerrenai Fayn.|
 T Suspicious Minds|QID|83247|M|68.02,44.26|Z|2215;Hallowfall|N|To Derill Fayn.|
-A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|
+A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|RACE|Undead,VoidElf|C|DEATHKNIGHT,PRIEST,WARLOCK|
 A Something Earthy|QID|82843|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
 C Something Earthy|QID|82843|QO|1|M|69.63,33.49|Z|2215;Hallowfall|N|Collect a taro.|H|
 T Something Earthy|QID|82843|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
@@ -64,7 +64,7 @@ C Sous|QID|82848|QO|1|M|69.93,32.59|Z|2215;Hallowfall|N|Help the chef cook some 
 T Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
 K Coalesced Iniquity|ACTIVE|83279|QO|1|M|62.37,38.79|Z|2215;Hallowfall|N|Kill Coalesced Iniquity.|T|Coalesced Iniquity|
 T Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|To Derill Fayn.|
-C Where the Light Touches|QID|78659|M|68.19,45.16|Z|2215;Hallowfall|QO|1|NC|N|Ride with Faerin to the Aegis Wall (Optional).|
+C Where the Light Touches|QID|78659|M|68.19,45.16|Z|2215;Hallowfall|QO|1|V|N|Ride with Faerin to the Aegis Wall (Optional).|
 C Where the Light Touches|QID|78659|M|71.41,57.47|Z|2215;Hallowfall|QO|2|NC|N|Arrive at the Aegis Wall.|
 T Where the Light Touches|QID|78659|M|71.61,57.57|Z|2215;Hallowfall|N|To Great Kyron.|
 A Tunnel Trouble|QID|78665|M|71.61,57.57|Z|2215;Hallowfall|N|From Great Kyron.|
@@ -181,7 +181,7 @@ C The Darkened Flame|QID|78939|M|54.73,43.00|Z|2215;Hallowfall|QO|2<4|H|N|Clues 
 C The Darkened Flame|QID|78939|M|56.27,41.99|Z|2215;Hallowfall|QO|3|CHAT|N|Return to Faerin.|
 T The Darkened Flame|QID|78939|M|56.23,41.99|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A Ever Deeper Shadow|QID|78951|M|56.23,41.99|Z|2215;Hallowfall|N|From Faerin Lothar.|
-C Ever Deeper Shadow|QID|78951|M|56.92,40.43|Z|2215;Hallowfall|QO|1|N|Order of Night cultists slain.|
+C Ever Deeper Shadow|QID|78951|M|55.67,43.36;56.92,40.43|CS|Z|2215;Hallowfall|QO|1|N|In the cave under your feet. Order of Night cultists slain.|
 T Ever Deeper Shadow|QID|78951|M|55.80,40.53|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A The Final Resistance|QID|78952|M|55.80,40.53|Z|2215;Hallowfall|N|From Faerin Lothar.|
 C The Final Resistance|QID|78952|M|55.14,40.13|Z|2215;Hallowfall|QO|1|H|N|Shadow Rift destroyed.|
