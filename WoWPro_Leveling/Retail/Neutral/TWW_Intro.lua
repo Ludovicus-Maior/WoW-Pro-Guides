@@ -20,20 +20,20 @@ A The War Within|QID|78713|M|PLAYER|N|From UI.|FACTION|Horde|
 C The War Within|QID|78713|M|60.92,44.73|Z|627|QO|1|NC|U|227669|N|Use the teleportation scroll to teleport to Silithus (Optional).|
 C The War Within|QID|78713|M|41.66,44.95|Z|81|QO|2|NC|U|227669|N|Meet Thrall in Silithus.|
 T The War Within|QID|78713|M|41.86,45.06|Z|81|N|To Lady Jaina Proudmoore.|
-A A Poor Reception|QID|78714|M|41.86,45.06|Z|81|N|From Thrall.|
+A A Poor Reception|QID|78714|PRE|81930|M|41.86,45.06|Z|81|N|From Thrall.|
 P Chamber of Heart|ACTIVE|78714|M|42.97,44.67|Z|Silithus|N|Take the portal to Magni's Encampment.|
 C A Poor Reception|QID|78714|M|50.00,33.50|Z|2321|QO|1|NC|N|Enter the Heart Chamber.|
 T A Poor Reception|QID|78714|M|49.88,63.90|Z|2321|N|To Magni Bronzebeard.|
-A Azeroth's Voice|QID|78715|M|49.88,63.90|Z|2321|N|From Magni Bronzebeard.|
+A Azeroth's Voice|QID|78715|PRE|78714|M|49.88,63.90|Z|2321|N|From Magni Bronzebeard.|
 C Azeroth's Voice|QID|78715|M|54.89,64.82|Z|2321|QO|1|H|N|Activate Chamber of Heart consoles.|
 C Azeroth's Voice|QID|78715|M|50.64,64.70|Z|2321|QO|2|CHAT|N|Talk to Magni to begin the ritual.|
 T Azeroth's Voice|QID|78715|M|49.72,59.33|Z|2321|N|To Lady Jaina Proudmoore.|
-A Painful Lessons|QID|78716|M|49.72,59.33|Z|2321|N|From Lady Jaina Proudmoore.|
+A Painful Lessons|QID|78716|M|49.72,59.33|PRE|78715|Z|2321|N|From Lady Jaina Proudmoore.|
 C Painful Lessons|QID|78716|M|52.81,58.46|Z|2321|QO|1|NC|N|Take Jaina's portal to Dalaran (Optional).|
 P The Portrait Room|ACTIVE|78716|M|52.53,58.78|Z|Chamber of Heart!Dungeon2321|N|Take the portal to The Portrait Room.|
 C Painful Lessons|QID|78716|M|46.80,54.47|Z|629;Dalaran|QO|2|NC|N|Meet with Khadgar in Dalaran.|
 T Painful Lessons|QID|78716|M|43.44,59.13|Z|629;Dalaran|N|To Archmage Khadgar.|
-A The Bronzebeard Family|QID|80500|M|41.40,54.94|Z|629;Dalaran|N|From Moira Thaurissan.|
+A The Bronzebeard Family|QID|80500|PRE|78716|M|41.40,54.94|Z|629;Dalaran|N|From Moira Thaurissan.|
 P Chamber of the Guardian|ACTIVE|80500|M|49.04,48.03|Z|Dalaran!Broken Isles|N|Take the portal to Chamber of the Guardian.|
 C The Bronzebeard Family|QID|80500|M|51.08,56.04|Z|627;Dalaran|QO|1|CHAT|N|Talk to Brann.|
 P Chamber of the Guardian|ACTIVE|80500|M|49.04,48.03|Z|Dalaran!Broken Isles|N|Take the portal to Chamber of the Guardian.|
@@ -73,6 +73,6 @@ C Departure|QID|80321|M|40.95,36.44|Z|2305|QO|2|NC|N|Return to the surface.|
 K Queensguard An'Jak Shabtir|ACTIVE|80321|M|41.31,37.88|Z|2305|QO|3|N|Kill Queensguard An'Jak Shabtir.|T|Queensguard An'Jak Shabtir|
 C Departure|QID|80321|M|44.24,37.74|Z|2305|QO|4|CHAT|N|Talk to Khadgar.|
 T Departure|QID|80321|M|44.00,36.93|Z|2305|N|To Khadgar's Portal.|
-A Violent Impact|QID|78529|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|
+A Violent Impact|QID|78529|PRE|80321|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|
 ]]
 end)

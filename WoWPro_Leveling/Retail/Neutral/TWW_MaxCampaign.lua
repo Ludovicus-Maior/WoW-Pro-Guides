@@ -7,10 +7,14 @@ WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
 WoWPro:GuideSteps(guide, function()
 return [[
 
+
 A Surface Bound|QID|79197|M|55.63,44.16|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|
 C Surface Bound|QID|79197|M|57.48,41.61|Z|2255;Azj-Kahet|QO|2|NC|N|Portal to Dornogal taken (Optional).|
 C Surface Bound|QID|79197|M|36.19,79.77|Z|2339;Dornogal|QO|1|NC|N|Meet with Moira Thaurissan in Dornogal.|
 T Surface Bound|QID|79197|M|36.11,80.11|Z|2339;Dornogal|N|To Moira Thaurissan.|
+
+A Renown of Khaz Algar|QID|84446|PRE|79197|M|36.05,80.43|Z|2339;Dornogal|N|From Moira Thaurissan.|
+T Renown of Khaz Algar|QID|84446|M|45.99,49.49|Z|2339;Dornogal|N|Talk to Faerin Lothar.|
 
 A The Fleet Arrives|QID|79333|PRE|79197|M|36.05,80.43|Z|2339;Dornogal|N|From Moira Thaurissan.|
 C The Fleet Arrives|QID|79333|M|35.08,80.45|Z|2339;Dornogal|QO|1|H|N|Telescope used.|

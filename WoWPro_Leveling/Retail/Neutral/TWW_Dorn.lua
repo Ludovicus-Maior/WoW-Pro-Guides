@@ -70,6 +70,7 @@ C State of the Union|QID|78459|QO|1|M|39.90,25.99|Z|2339;Dornogal|N|Speak to Mer
 T State of the Union|QID|78459|M|39.90,25.99|Z|2339;Dornogal|N|To Merrix.|
 
 ;Profession training block. Move it anywhere you think it needs to go.
+
 = Train Alchemy|QID|99999|M|47.07,70.42|Z|2339;Dornogal|N|From Tarig. Click this step off if you are done or dont care.|P|Alchemy;171;*;0;75|SPELL|Khaz Algar Alchemy;2871|
 = Train Blacksmithing|QID|99999|M|49.20,63.45|Z|2339;Dornogal|N|From Darean. Click this step off if you are done or dont care.|P|Blacksmithing;164;*;0;75|SPELL|Khaz Algar Blacksmithing;2872|
 = Train Cooking|QID|99999|M|44.12,45.83|Z|2339;Dornogal|N|From Athodas. Click this step off if you are done or dont care.|P|Cooking;185;*;0;75|SPELL|Khaz Algar Cooking;2873|
@@ -110,11 +111,11 @@ C Delve into the Earth|QID|78464|QO|6|M|54.41,75.32|Z|2269;Earthcrawl Mines!Dung
 C Delve into the Earth|QID|78464|QO|7|M|64.62,88.06|Z|2269;Earthcrawl Mines!Dungeon|N|Earthcrawl Mines treasure found.|
 C Delve into the Earth|QID|78464|QO|8|M|38.77,73.30|Z|2248;Isle of Dorn|N|Speak to Brann Bronzebeard outside the delve.|CHAT|
 T Delve into the Earth|QID|78464|M|41.86,72.63|Z|2248;Isle of Dorn|N|To Adelgonn.|
-t Ancient Curiousity|QID|81893|N|UI Turn In. Don't forget to use the curio you just receeived.|;QID right?
+t Ancient Curiosity|QID|84519^84520|N|UI Turn In. Don't forget to use the curio you just receeived.|;I cant remember which one this is, so i did both QIDs. fix in post
 ;A For The Love of Gems|QID|82441|M|43.03,70.01|Z|2248;Isle of Dorn|N|From Natalia Pearce.|RANK|2|;--can this be picked up sooner. like on the way into town?
 A A Natural Remedy|QID|79553|PRE|78464|M|41.86,72.63|Z|2248;Isle of Dorn|N|From Adelgonn.|
 A Building Blocks|QID|78463|PRE|78464|M|41.79,72.66|Z|2248;Isle of Dorn|N|From Baelgrim.|
-A Frayed Legacy|QID|78570|M|41.61,71.38|Z|2248;Isle of Dorn|N|From Freysworn Cruton.|RANK|2|
+A Frayed Legacy|QID|78570|M|42.13,71.32;41.61,71.38|CS|Z|2248;Isle of Dorn|N|From Freysworn Cruton.|RANK|2|
 A For The Love of Gems|QID|82441|M|43.03,70.01|Z|2248;Isle of Dorn|N|From Natalia Pearce.|RANK|2|;--can this be picked up sooner. like on the way into town?
 A Prairie Fever|QID|78469|PRE||M|41.72,70.88|Z|2248;Isle of Dorn|N|From Hreka.|RANK|2|
 C Prairie Fever|QID|78469|M|41.65,70.85|QO|1|Z|2248;Isle of Dorn|N|Pottery acquired.|H|
@@ -128,7 +129,7 @@ A Buried, Not Forgotten|QID|79692|PRE|78469|M|42.28,73.29|Z|2248;Isle of Dorn|N|
 C For The Love of Gems|QID|82441|QO|3|M|41.60,75.00|Z|2248;Isle of Dorn|N|Talk to Maluc.|CHAT|
 C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|Z|2248;Isle of Dorn|N|Modhina found.|S|I|
 C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|Z|2248;Isle of Dorn|N|Modhina's belongings.|S|
-R Gemvein Tunnels|ACTIVE|79691|M|34.97,75.50|Z|2248;Isle of Dorn|N|Enter the tunnel and follow the tracks down and to the left.|
+R Gemvein Tunnels|ACTIVE|79691|M|34.97,75.50|Z|2248;Isle of Dorn|N|Enter the tunnel and follow the tracks down and to the left.|TZ|Gemvein Tunnels|
 K Ashen Stonestalker|ACTIVE|79691|QO|1|M|34.77,74.12|Z|2248;Isle of Dorn|N|Ashen Stonestalker slain.|T|Ashen Stonestalker|
 C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|Z|2248;Isle of Dorn|N|Modhina found.|US|I|
 C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|Z|2248;Isle of Dorn|N|Modhina's belongings.|US|
@@ -140,7 +141,6 @@ C Concerning Fungarians|QID|79686|QO|1<2|M|35.6,77.2|Z|2248;Isle of Dorn|N|Furth
 C Concerning Fungarians|QID|79686|QO|1<3|M|35.65,77.07|Z|2248;Isle of Dorn|N|At the top of the stairs, kill the Fungarian to loot the note.|
 C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian Chunks.|US|
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248;Isle of Dorn|N|Glittering Ore.|H|US|
-
 T Buried, Not Forgotten|QID|79692|M|42.28,73.29|Z|2248;Isle of Dorn|N|To Kodun.|
 T Monsters in the Dark|QID|79691|M|42.28,73.29|Z|2248;Isle of Dorn|N|To Kodun.|
 A Hope, An Anomaly|QID|79703|PRE|79692&79691|M|42.26,73.17|Z|2248;Isle of Dorn|N|From Hreka.|RANK|2|
@@ -235,7 +235,6 @@ A Delver's Call: Fungal Folly|QID|83758|M|55.35,55.92|Z|2248;Isle of Dorn|N|From
 A Delver's Call: Kriegval's Rest|QID|83759|M|55.35,55.92|Z|2248;Isle of Dorn|N|From poster.|RANK|2|
 t Delver's Call: Fungal Folly|QID|83758|M|55.21,55.91|Z|2248;Isle of Dorn|N|To Bondaz.|IZ|Crossroads Plaza|
 t Delver's Call: Kriegval's Rest|QID|83759|M|55.22,55.82|N|To Bondaz.|IZ|Crossroads Plaza|
-
 T Frayed Legacy|QID|78570|M|53.56,69.88|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
 A Fungal Frenzy|QID|78618|M|53.44,70.24|IZ|Boskroot Basin|RANK|3|;BONUS OBJECTIVE
 A Mycomayhem|QID|78571|PRE|78570|M|53.56,69.88|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
@@ -419,7 +418,6 @@ C Bring the Thunder|QID|78544|QO|3|M|74.76,42.32|Z|2248;Isle of Dorn|N|Kill Neru
 C Bring the Thunder|QID|78544|QO|4|M|74.76,42.32|Z|2248;Isle of Dorn|N|Witness Baelgrim's plan.|
 T Bring the Thunder|QID|78544|M|75.13,43.80|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A Return to the Coreway|QID|78545|PRE|78544|M|75.26,43.98|N|From Adelgonn.|
-
 C To Rambleshire|QID|78289|M|58.41,27.40|Z|2248;Isle of Dorn|NC|N|Run inside the Rambleshire Inn.|
 A The Spirebreaker|QID|83339|M|58.34,27.14|Z|2248;Isle of Dorn|N|From Violet Warden.|RANK|2|
 A The Mage Slayer|QID|83338|M|58.34,27.14|Z|2248;Isle of Dorn|N|From Violet Warden.|RANK|2|
@@ -430,7 +428,6 @@ A Birdman of the Three Shields|QID|82680|M|60.18,28.36|Z|2248;Isle of Dorn|N|Fro
 K Mage Slayer Phytethil|ACTIVE|83338|M|55.31,32.77|QO|1|Z|2248;Isle of Dorn|N|Kill Mage Slayer Phytethil.|T|Mage Slayer Phytethil|
 K Stormscar|ACTIVE|83337|M|59.42,34.38|QO|1|Z|2248;Isle of Dorn|N|Kill Stormscar.|T|Stormscar|
 K Anub'esska|ACTIVE|83339|M|60.93,38.29|QO|1|Z|2248;Isle of Dorn|N|Kill Anub'esska.|T|Anub'esska|
-
 T To Rambleshire|QID|78289|M|61.43,31.65|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 A Power Predators|QID|78291|PRE|78289|M|61.43,31.68|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
 A Sleepy Sheep|QID|78290|PRE|78289|M|61.42,31.67|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
@@ -455,7 +452,6 @@ T Thunderhead Butt|QID|78294|M|58.96,29.91|Z|2248;Isle of Dorn|N|To Rooktender L
 T The Spirebreaker|QID|83339|M|58.33,27.18|Z|2248;Isle of Dorn|N|To Violet Warden.|
 T The Mage Slayer|QID|83338|M|58.33,27.18|Z|2248;Isle of Dorn|N|To Violet Warden.|
 T Stormscarred|QID|83337|M|58.38,28.31|Z|2248;Isle of Dorn|N|To Rancher Edidithet.|
-
 T Birdman of the Three Shields|QID|82680|M|74.59,19.72|Z|2248;Isle of Dorn|N|To Olbarig.|
 A Cloudrook Down|QID|82681|PRE|82680|M|74.59,19.72|Z|2248;Isle of Dorn|N|From Olbarig.|RANK|2|
 C Cloudrook Down|QID|82681|M|72.86,25.86|QO|1|Z|2248;Isle of Dorn|N|Kill Elementals on the other side of the island.|
@@ -479,7 +475,6 @@ K Gramwharl|ACTIVE|79727|M|80.51,30.91|QO|1|Z|2248;Isle of Dorn|N|Kill Gramwharl
 T Because It's Shiny|QID|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|To Tharessa Sunstrand.|
 A It's Probably Nothing|QID|79728|PRE|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|From Rannan Korren.|RANK|2|
 C It's Probably Nothing|QID|79728|M|77.85,30.28|QO|1|Z|2248;Isle of Dorn|N|Middle, Right|I|
-
 T It's Probably Nothing|QID|79728|M|77.97,30.26|Z|2248;Isle of Dorn|N|To Rannan Korren.|
 T Wanted: The Boroughbreaker|QID|83335|M|54.08,20.06|Z|2339;Dornogal|N|To Peacekeeper Alef.|
 C Return to the Coreway|QID|78545|QO|1|M|31.48,59.69|Z|2339;Dornogal|N|Return to Merrix in Dornogal.|
@@ -490,7 +485,6 @@ C Recompense|QID|78546|QO|2|M|31.93,59.35|Z|2339;Dornogal|N|Listen to the debrie
 C Recompense|QID|78546|QO|3|M|31.91,59.76|Z|2339;Dornogal|N|Tell Merrix "Let's do it."|CHAT|
 T Recompense|QID|78546|M|31.91,59.76|Z|2339;Dornogal|N|To Merrix.|
 A Into the Deeps|QID|80434|M|31.99,59.88|Z|2339;Dornogal|N|From Moira Thaurissan.|
-
 A How Scandalous|QID|80207|PRE|81689|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;need to find pre. or if this was available earlier and just missed? - I know it was availablewhen flying into Dornogal before turning in Return to the Coreway-- prolly once per account. (lead 80538?)
 T How Scandalous|QID|80207|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
 A Seizing Evidence|QID|79521|PRE|80207|M|49.88,49.27|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
@@ -508,7 +502,6 @@ C Gear Enchanting|QID|83275|M|51.84,48.74|Z|2339;Dornogal|N|Use the provided enc
 T Gear Enchanting|QID|83275|M|51.84,48.74|Z|2339;Dornogal|N|To Ellerdin.|
 C Report to the Councilward|QID|79525|M|55.67,6.01|Z|2339;Dornogal|N|Fly up to the Coucilward's office and approach Merrix's desk.|NC|
 T Report to the Councilward|QID|79525|M|55.67,6.01|Z|2339;Dornogal|N|To Open Ledger.|
-
 T A Place Forgotten|QID|83083|M|44.92,20.61|Z|2248;Isle of Dorn|N|To Speaker Brinthe.|
 A The Old Orders|QID|83084|PRE|83083|M|44.92,20.61|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
 C The Old Orders|QID|83084|QO|1|M|44.63,20.80|Z|2248;Isle of Dorn|N|Inspect the Forgotten Weapon Rack inside.|H|
@@ -527,20 +520,20 @@ N Come back later|AVAILABLE|79526|N|The final parts of the Sojourner achievement
 
 ;Merrix and Steelvein Quest line for Sojourner of IoD
 ;A The Councilward Summons|QID|79542|PRE|79525|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;maybe wrong spot, may be wrong PRE -- is this offered in multiple locations?
-A The Councilward's Summons|QID|79542|M|45.97,47.31|Z|2339;Dornogal|N|From Saradi.|
+A The Councilward's Summons|QID|79542|M|45.97,47.31|Z|2339;Dornogal|N|From Saradi.|RANK|2|
 C The Councilward's Summons|QID|79542|M|55.33,6.34|Z|2339;Dornogal|QO|1|NC|N|Meet Merrix at the Councilward's Rise.|
 T The Councilward's Summons|QID|79542|M|55.33,6.34|Z|2339;Dornogal|N|To Merrix.|
-A Dornogal's Benefactor|QID|79543|PRE|79542|M|55.33,6.34|Z|2339;Dornogal|N|From Merrix.|
+A Dornogal's Benefactor|QID|79543|PRE|79542|M|55.33,6.34|Z|2339;Dornogal|N|From Merrix.|RANK|2|
 C Dornogal's Benefactor|QID|79543|M|32.21,24.67|Z|2339;Dornogal|QO|1|NC|N|Deliver Spa Supplies.|
 C Dornogal's Benefactor|QID|79543|M|58.35,62.15|Z|2339;Dornogal|QO|2|NC|N|Deliver Country Supplies.|
 C Dornogal's Benefactor|QID|79543|M|52.27,52.48|Z|2339;Dornogal|QO|3|NC|N|Deliver Care Package.|
 C Dornogal's Benefactor|QID|79543|M|52.27,52.48|Z|2339;Dornogal|QO|4|CHAT|N|Speak to Harthan.|
 T Dornogal's Benefactor|QID|79543|M|49.25,26.26|Z|2339;Dornogal|N|To Merrix.|
-A Security Through Trade|QID|79544|PRE|79543|M|49.25,26.26|Z|2339;Dornogal|N|From Merrix.|
+A Security Through Trade|QID|79544|PRE|79543|M|49.25,26.26|Z|2339;Dornogal|N|From Merrix.|RANK|2|
 C Security Through Trade|QID|79544|M|55.59,50.33|Z|2339;Dornogal|QO|1|CHAT|N|Speak to Bevrusi.|
 C Security Through Trade|QID|79544|M|55.59,50.33|Z|2339;Dornogal|QO|2|NC|N|See what Bevrusi will trade.|
 T Security Through Trade|QID|79544|M|55.52,50.34|Z|2339;Dornogal|N|To Bevrusi.|
-A The Market Reeve of the Forgegrounds|QID|79545|PRE|79544|M|55.52,50.34|Z|2339;Dornogal|N|From Bevrusi.|
+A The Market Reeve of the Forgegrounds|QID|79545|PRE|79544|M|55.52,50.34|Z|2339;Dornogal|N|From Bevrusi.|RANK|2|
 C The Market Reeve of the Forgegrounds|QID|79545|M|45.22,48.83|Z|2339;Dornogal|QO|1|NC|N|Approach Vokgret.|
 C The Market Reeve of the Forgegrounds|QID|79545|M|44.83,46.49|Z|2339;Dornogal|QO|2|NC|N|Purchase Cinderbrew from the innkeeper.|
 C The Market Reeve of the Forgegrounds|QID|79545|M|45.14,48.80|Z|2339;Dornogal|QO|3|NC|N|Cinderbrew brought to Vokgret.|
@@ -551,85 +544,72 @@ C The Market Reeve of the Forgegrounds|QID|79545|M|49.72,73.06|Z|2339;Dornogal|Q
 C The Market Reeve of the Forgegrounds|QID|79545|M|50.60,63.42|Z|2339;Dornogal|QO|9|H|N|Sizzling Magma Core is just lying there in the magma, be prepared to fight for it.|
 C The Market Reeve of the Forgegrounds|QID|79545|M|49.69,73.02|Z|2339;Dornogal|QO|10|NC|N|Nernabel's signature acquired.|
 T The Market Reeve of the Forgegrounds|QID|79545|M|45.24,48.73|Z|2339;Dornogal|N|To Vokgret.|
-A Opals and Runes|QID|79176|PRE|79545|M|45.24,48.73|Z|2339;Dornogal|N|From Vokgret.|
+A Opals and Runes|QID|79176|PRE|79545|M|45.24,48.73|Z|2339;Dornogal|N|From Vokgret.|RANK|2|
 B Opals and Runes|QID|79176|M|55.47,50.29|Z|2339;Dornogal|N|Trade for the Speakeasy Passrune.|
 T Opals and Runes|QID|79176|M|60.41,33.38|Z|2339;Dornogal|N|To Merrix.|
-A The Machine Speakeasy|QID|79546|PRE|79176|M|60.52,33.33|Z|2339;Dornogal|N|From Merrix.|
+A The Machine Speakeasy|QID|79546|PRE|79176|M|60.52,33.33|Z|2339;Dornogal|N|From Merrix.|RANK|2|
 R The Corridors|ACTIVE|79546|M|62.16,49.17|Z|Dornogal|N|Make your way to the The Corridors.|
 C The Machine Speakeasy|QID|79546|M|62.68,41.15|Z|2339;Dornogal|QO|1|NC|N|Meet Merrix in the tunnels.|
 C The Machine Speakeasy|QID|79546|M|62.55,40.38|Z|2339;Dornogal|QO|2|CHAT|N|Speakeasy opened.|
 C The Machine Speakeasy|QID|79546|M|62.16,37.80|Z|2339;Dornogal|QO|3|CHAT|N|Obstorn confronted, fight ensues.|
 T The Machine Speakeasy|QID|79546|M|62.07,38.50|Z|2339;Dornogal|N|To Merrix.|
-A Sedition|QID|79526|PRE|79546|M|45.92,47.26|Z|2339;Dornogal|N|From Angrtily-Scrawled Poster|
+A Sedition|QID|79526|PRE|79546|M|45.92,47.26|Z|2339;Dornogal|N|From Angrtily-Scrawled Poster|RANK|2|
 T Sedition|QID|79526|M|55.73,5.73|Z|2339;Dornogal|N|To Merrix.|
-A Damage Mitigation|QID|79527|PRE|79526|M|55.73,5.73|Z|2339;Dornogal|N|From Merrix.|
+A Damage Mitigation|QID|79527|PRE|79526|M|55.73,5.73|Z|2339;Dornogal|N|From Merrix.|RANK|2|
 A Dispelling Rumors|QID|79528|PRE|79526|M|55.73,5.73|Z|2339;Dornogal|N|From Merrix.|
 C Dispelling Rumors|QID|79528|M|46.97,36.54|Z|2339;Dornogal|QO|1|H|N|Disperse the murmuring Peacekeepers. Some require extra pursuasion.|S|
 C Seditious Poster|QID|79527|M|49.23,27.21;49.71,34.04;54.05,36.32;54.07,36.28;55.24,19.45;55.68,16.70;55.94,25.51;56.42,28.46;60.66,20.94;60.29,26.30;33.21,29.92;34.64,24.97;37.88,31.73;38.15,40.28;43.18,36.67;44.70,33.56;46.99,36.83|Z|Dornogal|QO|1|CS|H|N|Tear down posters.|
 C Dispelling Rumors|QID|79528|M|46.97,36.54|Z|2339;Dornogal|QO|1|H|N|Continue dispersing the Peacekeepers.|US|
 T Damage Mitigation|QID|79527|M|55.66,5.69|Z|2339;Dornogal|N|To Merrix.|
 T Dispelling Rumors|QID|79528|M|55.66,5.69|Z|2339;Dornogal|N|To Merrix.|
-A Forcing My Hand|QID|79529|PRE|79527&79528|M|55.66,5.69|Z|2339;Dornogal|N|From Merrix.|
+A Forcing My Hand|QID|79529|PRE|79527&79528|M|55.66,5.69|Z|2339;Dornogal|N|From Merrix.|RANK|2|
 C Forcing My Hand|QID|79529|M|55.66,5.68|Z|2339;Dornogal|QO|1|H|N|Get Cloak from  hearth and hand it to Merrix.|;55.12,6.36
 C Forcing My Hand|QID|79529|M|55.65,5.70|Z|2339;Dornogal|QO|2|H|N|Get Gloves from Accessory Chest by the bookcase and hand them to Merrix.|;56.41,5.88
 C Forcing My Hand|QID|79529|M|55.65,5.74|Z|2339;Dornogal|QO|3|H|N|Get Gilded Knockles from Saradi and hand to Merrix.|;BUFF|441008 @55.35,5.59 if you wanna get fancy - but I didnt think to check for the first two
 C Forcing My Hand|QID|79529|M|55.71,5.64|Z|2339;Dornogal|QO|4|H|N|Get Titan Device from the sideboard and bring to Merrix.|;BUFF|441009 @55.87,6.59
 T Forcing My Hand|QID|79529|M|55.70,5.67|Z|2339;Dornogal|N|To Steelvein.|
-A Bad Business|QID|79530|PRE|79529|M|55.70,5.67|Z|2339;Dornogal|N|From Steelvein.|
+A Bad Business|QID|79530|PRE|79529|M|55.70,5.67|Z|2339;Dornogal|N|From Steelvein.|RANK|2|
 R The Coreway|ACTIVE|79530|M|39.12,59.85|Z|2339;Dornogal|N|Head down The Coreway and into The Ringing Deeps.|
 C Bad Business|QID|79530|M|42.87,24.01|Z|2214;The Ringing Deeps|QO|1|NC|N|Regroup with Steelvein in the Ringing Deeps.|
 C Bad Business|QID|79530|M|42.31,23.94|Z|2214;The Ringing Deeps|QO|2|NC|N|Confront Overseer Ardgrin.|
 T Bad Business|QID|79530|M|42.51,24.02|Z|2214;The Ringing Deeps|N|To Steelvein.|
 
 ;Brotherhood in the Skolzgal Wood Quest line.
-R Dornogal|AVAILABLE|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|make your way back to Dornogal.|;this is my best guess as to the PRE - not certain.
 
-A A Sassy Arathi|QID|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|From Dornogal Citizen.|
+R Dornogal|AVAILABLE|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|make your way back to Dornogal.|RANK|2|;this is my best guess as to the PRE - not certain.
+A A Sassy Arathi|QID|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|From Dornogal Citizen.|RANK|2|
 T A Sassy Arathi|QID|80456|M|54.32,19.42|Z|2339;Dornogal|N|To Dornogal Citizen.|
-
-A An Oddball in Dornogal|QID|80209|M|54.32,19.42|Z|2339;Dornogal|N|From Dornogal Citizen.|
+A An Oddball in Dornogal|QID|80209|M|54.32,19.42|Z|2339;Dornogal|N|From Dornogal Citizen.|RANK|2|
 C An Oddball in Dornogal|QID|80209|QO|1|M|54.51,24.17;56.77,27.87;51.50,11.36|CS|Z|2339;Dornogal|N|Talk to the Concerned Dornogal Citizen.|CHAT|
 T An Oddball in Dornogal|QID|80209|M|67.29,18.71|Z|2339;Dornogal|N|To Peacekeeper Leif.|
-
-A Found Around the Unbound|QID|80210|M|67.29,18.71|Z|2339;Dornogal|N|From Peacekeeper Leif.|
+A Found Around the Unbound|QID|80210|M|67.29,18.71|Z|2339;Dornogal|N|From Peacekeeper Leif.|RANK|2|
 R Freywold Village|ACTIVE|80210|M|42.67,70.93|Z|2248;Isle of Dorn|N|Run or fly to Freywold Village.|
 T Found Around the Unbound|QID|80210|M|42.67,70.93|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-
-A The Pillage of Freywold Village|QID|80211|M|42.67,70.93|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
-C The Pillage of Freywold Village|QID|80211|QO|1|M|41.86,73.84|Z|2248;Isle of Dorn|N|In the house, book on the table.|I|
-C The Pillage of Freywold Village|QID|80211|QO|2|M|41.48,75.07|Z|2248;Isle of Dorn|N|Downstairs to the right. Candle on the table.|I|
-C The Pillage of Freywold Village|QID|80211|QO|3|M|43.83,75.91|Z|2248;Isle of Dorn|N|Dead Arathi Soldier on the ground.|
-T The Pillage of Freywold Village|QID|80211|M|42.67,70.93|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-
-A The Abductors' Obstructors|QID|80212|M|42.67,70.93|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
+A The Pillage of Freywold Village|QID|80211|M|42.67,70.93|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
+A The Abductors' Obstructors|QID|80212|M|42.67,70.93|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 R Rambleshire|ACTIVE|80212|M|57.57,30.05|Z|2248;Isle of Dorn|N|Run or fly to Rambleshire.|
 T The Abductors' Obstructors|QID|80212|M|57.57,30.05|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-
-A Holy Fire in Rambleshire|QID|80213|M|57.57,30.05|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|
+A Holy Fire in Rambleshire|QID|80213|M|57.57,30.05|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
 C Holy Fire in Rambleshire|QID|80213|QO|2|M|57.57,30.05|Z|2248;Isle of Dorn|N|Use provided [color=33fff9] Flashfire Thurible [/color] to reveal Nightshade Abductors, then kill them.|U|224104|
 C Holy Fire in Rambleshire|QID|80213|QO|3|M|57.57,30.05|Z|2248;Isle of Dorn|N|Continue killing Nightshade Abductors till you get the letter to drop.|U|224104|
 T Holy Fire in Rambleshire|QID|80213|M|62.03,30.68|Z|2248;Isle of Dorn|N|To Lamplighter Kaerter.|
-
-A A Time to Kill at the Lumber Mill|QID|80214|M|62.03,30.68|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|
+A A Time to Kill at the Lumber Mill|QID|80214|M|62.03,30.68|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
 R Skolzgal Mill|ACTIVE|80214|M|66.99,31.21|Z|2248;Isle of Dorn|N|Run or fly to Skolzgal Mill.|
 T A Time to Kill at the Lumber Mill|QID|80214|M|66.99,31.21|Z|2248;Isle of Dorn|N|To Lamplighter Kaerter.|
-
-A Ungirthin' the Earthen|QID|80215|M|66.99,31.21|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|
-A Concealed in the Weald|QID|80216|M|67.03,31.28|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
+A Ungirthin' the Earthen|QID|80215|M|66.99,31.21|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
+A Concealed in the Weald|QID|80216|M|67.03,31.28|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 C Concealed in the Weald|QID|80216|M|66.07,28.05|Z|2248;Isle of Dorn|N|Kill spiders till this completes.|S|
 C Ungirthin' the Earthen|QID|80215|M|66.07,28.05|Z|2248;Isle of Dorn|N|Release the Earthen from their ball and chains.|H|
 C Concealed in the Weald|QID|80216|M|66.07,28.05|Z|2248;Isle of Dorn|N|Clean up any reamining spiders till this completes.|US|
 T Ungirthin' the Earthen|QID|80215|M|65.94,24.74|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
 T Concealed in the Weald|QID|80216|M|65.94,24.74|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-
-A A Lamplight for the Shipwright|QID|80217|M|65.94,24.74|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
+A A Lamplight for the Shipwright|QID|80217|M|65.94,24.74|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 C A Lamplight for the Shipwright|QID|80217|QO|1|M|63.54,22.93|Z|2248;Isle of Dorn|N|Confront Shipwright Isaebela.|CHAT|
 C A Lamplight for the Shipwright|QID|80217|QO|2|M|63.54,22.93|Z|2248;Isle of Dorn|N|Kill Shipwright Bodyguards.|
 C A Lamplight for the Shipwright|QID|80217|QO|3|M|63.54,22.93|Z|2248;Isle of Dorn|N|Rescue Lamplighter Kaerter.|H||
 T A Lamplight for the Shipwright|QID|80217|M|65.96,23.85|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-
-A Up to No Good Down in Silkwood|QID|80218|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|
-A Best Friends, Same Ends|QID|83181|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
+A Up to No Good Down in Silkwood|QID|80218|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
+A Best Friends, Same Ends|QID|83181|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Collect Silkwood Explosive Barrels.|H|S|
 K Shipwright Isaebela|ACTIVE|83181|QO|1|M|64.45,21.18|Z|2248;Isle of Dorn|N|Kill Shipwright Isaebela.|T|Shipwright Isaebela|
 K Shadowspinner Azarak|ACTIVE|83181|QO|2|M|64.45,21.18|Z|2248;Isle of Dorn|N|Kill Shadowspinner Azarak.|T|Shadowspinner Azarak|
