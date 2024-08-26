@@ -383,11 +383,11 @@ T Undoing the Damage|QID|82990|M|58.98,64.16|Z|2214; The Ringing Deeps|N|To Dana
 A Duty of Care|QID|82786|PRE|82990|M|58.98,64.16|Z|2214; The Ringing Deeps|N|From Danagh.|
 A Stone Tracing|QID|82969|PRE|82990|M|58.95,64.18|Z|2214; The Ringing Deeps|N|From Clive DelGizmo.|
 C Duty of Care|QID|82786|M|53.92,58.17|Z|2214; The Ringing Deeps|QO|3|N|Kill the pests bothering you while trying to triangulate.|S|
-C Stone Tracing|QID|82969|M|53.66,60.90|Z|2214;The Ringing Deeps|QO|1<3|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
+C Stone Tracing|QID|82969|M|53.66,60.90|Z|2214;The Ringing Deeps|QO|1<1|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
 C Stone Tracing|QID|82969|M|52.69,53.34|Z|2214;The Ringing Deeps|QO|1<2|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
 C Duty of Care|QID|82786|M|49.70,47.89|Z|2214; The Ringing Deeps|QO|1|N|Click console to reroute power.|H|
 C Duty of Care|QID|82786|M|49.98,47.81|Z|2214; The Ringing Deeps|QO|2|N|Click Leaking Pipes to patch.|H|
-C Stone Tracing|QID|82969|M|51.06,47.19|Z|2214;The Ringing Deeps|QO|1<1|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location. This one is up above on a rocky outcrop.|EAB|
+C Stone Tracing|QID|82969|M|51.06,47.19|Z|2214;The Ringing Deeps|QO|1<3|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location. This one is up above on a rocky outcrop.|EAB|
 C Duty of Care|QID|82786|M|53.92,58.17|Z|2214; The Ringing Deeps|QO|3|N|Finish up exterminating the pests.|US|
 T Duty of Care|QID|82786|M|PLAYER|Z|2214; The Ringing Deeps|N|To Danagh's Cogwalker.|
 T Stone Tracing|QID|82969|M|PLAYER|Z|2214;The Ringing Deeps|N|To Danagh's Cogwalker.|
