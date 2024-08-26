@@ -48,7 +48,7 @@ C For Morale|QID|83283|M|64.73,41.56|Z|2215;Hallowfall|QO|1|NC|N|Imperial Brut.|
 C Suspicious Minds|QID|83247|M|64.96,40.06|Z|2215;Hallowfall|QO|1|NC|N|Salamanther Heart.|US|
 T For Morale|QID|83283|M|68.02,44.26|Z|2215;Hallowfall|N|To Lerrenai Fayn.|
 T Suspicious Minds|QID|83247|M|68.02,44.26|Z|2215;Hallowfall|N|To Derill Fayn.|
-A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|RACE|Undead,VoidElf|C|DEATHKNIGHT,PRIEST,WARLOCK|
+A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|R|Undead,VoidElf|C|DEATHKNIGHT,PRIEST,WARLOCK|
 A Something Earthy|QID|82843|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
 C Something Earthy|QID|82843|QO|1|M|69.63,33.49|Z|2215;Hallowfall|N|Collect a taro.|H|
 T Something Earthy|QID|82843|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
