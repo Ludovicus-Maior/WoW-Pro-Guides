@@ -3013,7 +3013,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if spellInfo then
                     spellName = spellInfo.name
                 else
-                    WoWPro:Error("Spell tag (%q) is unknown.",WoWPro.spell)
+                    WoWPro:Error("Spell tag (%q) is unknown.",WoWPro.spell[guideIndex])
                     skip = true
                     break
                 end
