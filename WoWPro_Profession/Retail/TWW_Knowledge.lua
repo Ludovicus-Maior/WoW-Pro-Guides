@@ -21,7 +21,7 @@ N Reporting Issues|N|If you find any issues in this guide please report them to 
 $ Earthen Iron Powder|QID|83840|M|32.5,60.1|Z|2339;Dornogal|ITEM|226265|P|Khaz Algar Alchemy;2871|
 $ Dornogal Hammer|QID|83849|M|47.6,26.2|Z|2339;Dornogal|ITEM|226277|P|Khaz Algar Blacksmithing;2872|
 $ Silver Dornogal Rod|QID|83859|M|58.0,56.9|Z|2339;Dornogal|ITEM|226285|P|Khaz Algar Enchanting;2874|
-$ Dornogal Spectacles|QID|83867|M|64.8,52.8|Z|2339;Dornogal|ITEM|226293|P|Khaz Algar Enchanting;2874|
+$ Dornogal Spectacles|QID|83867|M|64.8,52.8|Z|2339;Dornogal|ITEM|226293|P|Khaz Algar Engineering;2875|
 $ Dornogal Gardening Scythe|QID|83875|M|60.6,29.2|Z|2339;Dornogal|ITEM|226301|P|Khaz Algar Herbalism;2877|
 $ Dornogal Scribe's Quill|QID|83882|M|57.2,46.9|Z|2339;Dornogal|ITEM|226308|P|Khaz Algar Inscription;2878|
 $ Earthen Gem Pliers|QID|83891|M|34.8,52.2|Z|2339;Dornogal|ITEM|226317|P|Khaz Algar Jewelcrafting;2879|
@@ -34,7 +34,7 @@ $ Dornogal Seam Ripper|QID|83922|M|61.5,18.5|Z|2339;Dornogal|ITEM|226348|P|Khaz 
 $ Metal Dornogal Frame|QID|83841|M|57.7,61.7|Z|2248;Isle of Dorn|ITEM|226266|P|Khaz Algar Alchemy;2871|
 $ Ancient Earthen Anvil|QID|83848|M|59.8,61.8|Z|2248;Isle of Dorn|ITEM|226276|P|Khaz Algar Blacksmithing;2872|
 $ Grinded Earthen Gem|QID|83856|M|57.6,61.1|Z|2248;Isle of Dorn|ITEM|226284|P|Khaz Algar Enchanting;2874|
-$ Rock Engineer's Wrench|QID|83866|M|61.3,69.5|Z|2248;Isle of Dorn|ITEM|226292|P|Khaz Algar Enchanting;2874|
+$ Rock Engineer's Wrench|QID|83866|M|61.3,69.5|Z|2248;Isle of Dorn|ITEM|226292|P|Khaz Algar Engineering;2875|
 $ Ancient Flower|QID|83874|M|57.5,61.5|Z|2248;Isle of Dorn|ITEM|226300|P|Khaz Algar Herbalism;2877|
 $ Historian's Dip Pen|QID|83883|M|55.9,60|Z|2248;Isle of Dorn|ITEM|226309|P|Khaz Algar Inscription;2878|
 $ Gentle Jewel Hammer|QID|83890|M|63.5,66.8|Z|2248;Isle of Dorn|ITEM|226316|P|Khaz Algar Jewelcrafting;2879|
@@ -47,7 +47,7 @@ $ Earthen Tape Measure|QID|83923|M|56.2,60.9|Z|2248;Isle of Dorn|ITEM|226349|P|K
 $ Engraved Stirring Rod|QID|83843|M|64.9,61.8|Z|2214;Ringing Deeps|ITEM|226268|P|Khaz Algar Alchemy;2871|
 $ Ringing Hammer Vise|QID|83850|M|47.7,33.2|Z|2214;Ringing Deeps|ITEM|226278|P|Khaz Algar Blacksmithing;2872|
 $ Animated Enchanting Dust|QID|83861|M|67.1,65.9|Z|2214;Ringing Deeps|ITEM|226287|P|Khaz Algar Enchanting;2874|
-$ Earthen Construct Blueprints|QID|83869|M|64.5,58.8|Z|2214;Ringing Deeps|ITEM|226295|P|Khaz Algar Enchanting;2874|
+$ Earthen Construct Blueprints|QID|83869|M|64.5,58.8|Z|2214;Ringing Deeps|ITEM|226295|P|Khaz Algar Engineering;2875|
 $ Fungarian Slicer's Knife|QID|83877|M|52.8,65.8|Z|2214;Ringing Deeps|ITEM|226303|P|Khaz Algar Herbalism;2877|
 $ Blue Earthen Pigment|QID|83885|M|62.5,58.15|Z|2214;Ringing Deeps|ITEM|226311|P|Khaz Algar Inscription;2878|
 $ Jeweler's Delicate Drill|QID|83893|M|57.0,54.6|Z|2214;Ringing Deeps|ITEM|226319|P|Khaz Algar Jewelcrafting;2879|
@@ -60,7 +60,7 @@ $ Earthen Stitcher's Snips|QID|83925|M|64.2,60.3|Z|2214;Ringing Deeps|ITEM|22635
 $ Reinforced Beaker|QID|83842|M|42.2,24.1|Z|2214;Ringing Deeps|ITEM|226267|P|Khaz Algar Alchemy;2871|
 $ Earthen Chisels|QID|83851|M|60.6,53.8|Z|2214;Ringing Deeps|ITEM|226279|P|Khaz Algar Blacksmithing;2872|
 $ Soot-Coated Orb |QID|83860|M|44.6,22.3|Z|2214;Ringing Deeps|ITEM|226286|P|Khaz Algar Enchanting;2874|
-$ Inert Mining Bomb |QID|83868|M|42.7,27.3|Z|2214;Ringing Deeps|ITEM|226294|P|Khaz Algar Enchanting;2874|
+$ Inert Mining Bomb |QID|83868|M|42.7,27.3|Z|2214;Ringing Deeps|ITEM|226294|P|Khaz Algar Engineering;2875|
 $ Earthen Digging Fork|QID|83876|M|48.3,34.9|Z|2214;Ringing Deeps|ITEM|226302|P|Khaz Algar Herbalism;2877|
 $ Runic Scroll|QID|83884|M|48.6,34.3|Z|2214;Ringing Deeps|ITEM|226310|P|Khaz Algar Inscription;2878|
 $ Carved Stone File|QID|83892|M|48.5,35.2|Z|2214;Ringing Deeps|ITEM|226318|P|Khaz Algar Jewelcrafting;2879|
@@ -73,7 +73,7 @@ $ Runed Earthen Pins|QID|83924|M|48.9,32.9|Z|2214;Ringing Deeps|ITEM|226350|P|Kh
 $ Chemist's Purified Water|QID|83844|M|42.6,55.0|Z|2215;Hallowfall|ITEM|226269|P|Khaz Algar Alchemy;2871|
 $ Radiant Tongs|QID|83853|M|44.1,55.6|Z|2215;Hallowfall|ITEM|226281|P|Khaz Algar Blacksmithing;2872|
 $ Enchanted Arathi Scroll|QID|83863|M|48.6,64.5|Z|2215;Hallowfall|ITEM|226289|P|Khaz Algar Enchanting;2874|
-$ Arathi Safety Gloves|QID|83871|M|41.6,48.9|Z|2215;Hallowfall|ITEM|226297|P|Khaz Algar Enchanting;2874|
+$ Arathi Safety Gloves|QID|83871|M|41.6,48.9|Z|2215;Hallowfall|ITEM|226297|P|Khaz Algar Engineering;2875|
 $ Arathi Herb Pruner|QID|83879|M|36.01,55|Z|2215;Hallowfall|ITEM|226305|P|Khaz Algar Herbalism;2877|
 $ Calligrapher's Chiseled Marker|QID|83887|M|42.8,49.1|Z|2215;Hallowfall|ITEM|226313|P|Khaz Algar Inscription;2878|
 $ Librarian's Magnifiers|QID|83895|M|44.6,50.9|Z|2215;Hallowfall|ITEM|226321|P|Khaz Algar Jewelcrafting;2879|
@@ -86,7 +86,7 @@ $ Arathi Rotary Cutter|QID|83926|M|49.3,62.3|Z|2215;Hallowfall|ITEM|226352|P|Kha
 $ Sanctified Mortar and Pestle|QID|83845|M|41.6,55.8|Z|2215;Hallowfall|ITEM|226270|P|Khaz Algar Alchemy;2871|
 $ Holy Flame Forge|QID|83852|M|47.6,61.0|Z|2215;Hallowfall|ITEM|226280|P|Khaz Algar Blacksmithing;2872|
 $ Essence of Holy Fire|QID|83862|M|40.0,70.5|Z|2215;Hallowfall|ITEM|226288|P|Khaz Algar Enchanting;2874|
-$ Holy Firework Dud|QID|83870|M|46.3,61.4|Z|2215;Hallowfall|ITEM|226296|P|Khaz Algar Enchanting;2874|
+$ Holy Firework Dud|QID|83870|M|46.3,61.4|Z|2215;Hallowfall|ITEM|226296|P|Khaz Algar Engineering;2875|
 $ Arathi Garden Trowel|QID|83878|M|47.7,63.3|Z|2215;Hallowfall|ITEM|226304|P|Khaz Algar Herbalism;2877|
 $ Informant's Fountain Pen|QID|83886|M|43.2,58.9|Z|2215;Hallowfall|ITEM|226312|P|Khaz Algar Inscription;2878|
 $ Arathi Sizing Gauges|QID|83894|M|47.4,60.6|Z|2215;Hallowfall|ITEM|226320|P|Khaz Algar Jewelcrafting;2879|
@@ -99,7 +99,7 @@ $ Royal Outfitter's Protractor|QID|83927|M|40.1,68.1|Z|2215;Hallowfall|ITEM|2263
 $ Dark Apothecary's Vial|QID|83847|M|42.8,57.3|Z|2255;Azj-Kahet|ITEM|226272|P|Khaz Algar Alchemy;2871|
 $ Spiderling's Wire Brush|QID|83855|M|53.0,51.3|Z|2255;Azj-Kahet|ITEM|226283|P|Khaz Algar Blacksmithing;2872|
 $ Void Shard|QID|83865|M|57.3,44.1|Z|2255;Azj-Kahet|ITEM|226291|P|Khaz Algar Enchanting;2874|
-$ Puppeted Mechanical Spider|QID|83872|M|56.9,38.6|Z|2255;Azj-Kahet|ITEM|226298|P|Khaz Algar Enchanting;2874|
+$ Puppeted Mechanical Spider|QID|83872|M|56.9,38.6|Z|2255;Azj-Kahet|ITEM|226298|P|Khaz Algar Engineering;2875|
 $ Tunneler's Shovel|QID|83881|M|46.6,15.9|Z|2255;Azj-Kahet|ITEM|226307|P|Khaz Algar Herbalism;2877|
 $ Nerubian Texts|QID|83888|M|55.9,44.0|Z|2255;Azj-Kahet|ITEM|226314|P|Khaz Algar Inscription;2878|
 $ Nerubian Bench Blocks|QID|83897|M|56.2,58.8|Z|2255;Azj-Kahet|ITEM|226323|P|Khaz Algar Jewelcrafting;2879|
@@ -112,7 +112,7 @@ $ Nerubian Quilt|QID|83928|M|53.3,53.0|Z|2255;Azj-Kahet|ITEM|226354|P|Khaz Algar
 $ Nerubian Mixing Salts|QID|83846|M|45.5,13.2|Z|2213;City of Threads|ITEM|226271|P|Khaz Algar Alchemy;2871|
 $ Nerubian Smith's Kit|QID|83854|M|46.6,22.7|Z|2213;City of Threads|ITEM|226282|P|Khaz Algar Blacksmithing;2872|
 $ Book of Dark Magic|QID|83864|M|61.5,21.7|Z|2213;City of Threads|ITEM|226290|P|Khaz Algar Enchanting;2874|
-$ Emptied Venom Canister|QID|83873|M|63.2,11.3|Z|2213;City of Threads|ITEM|226299|P|Khaz Algar Enchanting;2874|
+$ Emptied Venom Canister|QID|83873|M|63.2,11.3|Z|2213;City of Threads|ITEM|226299|P|Khaz Algar Engineering;2875|
 $ Web-Entangled Lotus|QID|83880|M|54.8,20.6|Z|2213;City of Threads|ITEM|226306|P|Khaz Algar Herbalism;2877|
 $ Venomancer's Ink Well|QID|83889|M|50.1,30.6|Z|2213;City of Threads|ITEM|226315|P|Khaz Algar Inscription;2878|
 $ Ritual Caster's Crystal|QID|83896|M|47.7,19.4|Z|2213;City of Threads|ITEM|226322|P|Khaz Algar Jewelcrafting;2879|
