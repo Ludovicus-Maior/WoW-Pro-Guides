@@ -45,7 +45,7 @@ T Taming the Wilds|QID|59342|M|62.73,69.84|N|Turn into Captain Garrick.|
 A Down with the Quilboar|QID|55186|PRE|55173|M|62.73,69.84|N|From Austin Huxworth.|
 A Forbidden Quilboar Necromancy|QID|55184|PRE|55173|M|62.73,69.84|N|From Austin Huxworth.|
 C Forbidden Quilboar Necromancy|QID|55184|N|Kill Quilboar in the area.|S|
-;K Ogre Overseer|ACTIVE|55184|M|60.52,59.86|Z|1409;Exile's Reach|N|Silver Elite to kill and loot.|T|Ogre Overseer|RARE|
+K Ogre Overseer|ACTIVE|55184|M|60.52,59.86|Z|1409;Exile's Reach|N|Silver Elite to kill and loot.|T|Ogre Overseer|RARE|
 C Forbidden Quilboar Necromancy|QID|55184|M|61.60,62.88|N|Kill Quilboar in the area.|US|
 C Down with the Quilboar|QID|55186|M|58.91,62.96|N|End Geolord Grek'og and rescue Lindie.|T|Geolord|
 $ Quilboar Treasures|QID|56579|M|58.52,59.30|Z|1409;Exile's Reach|N|Loot the treasure chest.|
@@ -85,7 +85,7 @@ A Westward Bound|QID|55965|PRE|55194|M|53.02,55.05|N|From Bjorn Stouthands.|
 T Westward Bound|QID|55965|M|51.18,59.60|N|Turn into Bjorn Stouthands.|
 A Who Lurks in the Pit|QID|55639|PRE|55965|M|51.11,59.50|N|From Alaria.|
 C Who Lurks in the Pit|QID|55639|M|52.06,60.01;50.23,58.67;49.70,61.97;52.00,60.71;50.90,58.10|CS|QO|1|N|Rescue Trapped Expedition Members from the cocoons.|H|
-C Who Lurks in the Pit|QID|55639|QO|2|M|47.58,60.38|N|Kill Hrun the Exiled.|
+K Hrun the Exiled|QID|55639|QO|2|M|47.58,60.38|N|Kill Hrun the Exiled.|T|Hrun the Exiled|
 C Who Lurks in the Pit|QID|55639|QO|3|M|47.78,60.29|N|Click on Ralia for a ride out of the pit.|V|
 T Who Lurks in the Pit|QID|55639|M|52.36,55.34|N|Turn into Captain Garrick.|
 A A Druid's Form|QID|59350|PRE|55639|M|52.29,55.41|N|From Ralia Dreamchaser.|C|Druid|
@@ -205,25 +205,25 @@ C Finding Your Way|QID|58908|M|70.28,83.72|Z|84;Stormwind City|QO|1|N|Ask a guar
 C Finding Your Way|QID|58908|M|69.86,83.95|Z|84;Stormwind City|QO|2|N|Speak with Lindie Springstock to get a free ride to the stables.|CHAT|
 C Finding Your Way|QID|58908|M|77.36,67.06|Z|84;Stormwind City|QO|3|N|Ride along with Lindie. Note: Do not exit the bike as it can cause the quest to bug.|NC|
 T Finding Your Way|QID|58908|M|77.28,66.95|Z|84;Stormwind City|N|Turn into Curly.|
-A What's Your Specialty?|QID|58910|PRE|58909|M|77.28,67.09|N|From Lindie Springstock.|C|Druid|
-A What's Your Specialty?|QID|59586|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Hunter|
-A What's Your Specialty?|QID|59587|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Mage|
-A What's Your Specialty?|QID|59588|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Monk|
-A What's Your Specialty?|QID|59589|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Paladin|
-A What's Your Specialty?|QID|59590|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Priest|
-A What's Your Specialty?|QID|59591|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Rogue|
-A What's Your Specialty?|QID|59592|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Shaman|
-A What's Your Specialty?|QID|59593|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Warlock|
-A What's Your Specialty?|QID|59594|PRE|58909|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Warrior|
-C What's Your Specialty?|QID|58910|M|79.63,69.25;79.68,71.27;79.19,68.68|Z|84;Stormwind City|CS|QO|1|N|Talk to Mitholos Falconbriar he is upstairs in the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59586|M|79.15,71.25|Z|84;Stormwind City|QO|1|N|Talk to Dalgrun Steelpine on the main floor of the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59587|M|79.63,69.25;79.68,71.27;80.18,69.53|Z|84;Stormwind City|CS|QO|1|N|Talk to Frazzle Frostfingers he is upstairs in the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59588|M|79.63,69.25;79.68,71.27;80.35,70.05|Z|84;Stormwind City|CS|QO|1|N|Into the Training Hall and up the stairs to find and talk to Juisheng Halfclaw.|CHAT|
+A What's Your Specialty?|QID|58910|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Druid|
+A What's Your Specialty?|QID|59586|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Hunter|
+A What's Your Specialty?|QID|59587|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Mage|
+A What's Your Specialty?|QID|59588|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Monk|
+A What's Your Specialty?|QID|59589|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Paladin|
+A What's Your Specialty?|QID|59590|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Priest|
+A What's Your Specialty?|QID|59591|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Rogue|
+A What's Your Specialty?|QID|59592|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Shaman|
+A What's Your Specialty?|QID|59593|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Warlock|
+A What's Your Specialty?|QID|59594|PRE|58908|M|77.28,67.09|Z|84;Stormwind City|N|From Lindie Springstock.|C|Warrior|
+C What's Your Specialty?|QID|58910|M|78.81,70.96|Z|84;Stormwind City|QO|1|N|Talk to Mitholos Falconbriar in the Training Hall.|CHAT|
+C What's Your Specialty?|QID|59586|M|79.15,71.25|Z|84;Stormwind City|QO|1|N|Talk to Dalgrun Steelpine in the Training Hall.|CHAT|
+C What's Your Specialty?|QID|59587|M|79.98,69.77|Z|84;Stormwind City|QO|1|N|Talk to Frazzle Frostfingers he is just inside the building next to the banister.|CHAT|
+C What's Your Specialty?|QID|59588|M|79.64,70.68|Z|84;Stormwind City|QO|1|N|Into the Training Hall behind the food table to find and talk to Juisheng Halfclaw.|CHAT|
 C What's Your Specialty?|QID|59589|M|79.20,69.51|Z|84;Stormwind City|QO|1|N|Inside the Training Hall, and make a right and up a few steps to talk to Ezul'aan.|CHAT|
 C What's Your Specialty?|QID|59590|M|78.93,69.81|Z|84;Stormwind City|QO|1|N|Inside the Training Hall, and make a right and up a few steps to talk to Patrice Lancaster.|CHAT|
-C What's Your Specialty?|QID|59591|M|80.17,69.52;78.54,70.79|Z|84;Stormwind City|CS|QO|1|N|Enter the Training Hall and go down the stairs to talk to Veruca Darkstream.|CHAT|
+C What's Your Specialty?|QID|59591|M|79.26,70.43|Z|84;Stormwind City|QO|1|N|Enter the Training Hall to talk to Veruca Darkstream.|CHAT|
 C What's Your Specialty?|QID|59592|M|78.71,70.88|Z|84;Stormwind City|QO|1|N|Talk to Mulric Boldrock on the main floor of the Training Hall.|CHAT|
-C What's Your Specialty?|QID|59593|M|80.17,69.52;78.97,69.62|Z|84;Stormwind City|CS|QO|1|N|Talk to Laphandrus Voidheart he is downstairs in the Training Hall.|CHAT|
+C What's Your Specialty?|QID|59593|M|80.05,69.91|Z|84;Stormwind City|QO|1|N|Talk to Laphandrus Voidheart he is downstairs in the Training Hall.|CHAT|
 C What's Your Specialty?|QID|59594|M|80.00,70.70|Z|84;Stormwind City|QO|1|N|Talk to Kualiang Thunderfist on the main floor of the Training Hall.|CHAT|
 C What's Your Specialty?|QID|58910|QO|2|N|If you haven't done so yet, activate a specialization by pressing 'N' on the keyboard, click on a specialization and then click the 'Activate' button.|NC|
 C What's Your Specialty?|QID|59586|QO|2|N|If you haven't done so yet, activate a specialization by pressing 'N' on the keyboard, click on a specialization and then click the 'Activate' button.|NC|

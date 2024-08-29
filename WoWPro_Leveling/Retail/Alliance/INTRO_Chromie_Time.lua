@@ -19,11 +19,12 @@ N Choose Legion|QID|99999|M|56.26,17.31|JUMP|Legion: Intro;10|S|N|If you selecte
 N Choose Legion|QID|99999|M|56.26,17.31|JUMP|Demon Hunter: Order Hall;10|S|N|If you selected to goto the Legion timeline.|C|DemonHunter|CT|NOCACHE|
 N Choose Battle for Azeroth|QID|99999|M|56.26,17.31|JUMP|Battle for Azeroth: Intro|S|N|If you decided to stay in the current timeline.|CT|NOCACHE|
 N Choose Shadowlands|QID|99999|M|56.26,17.31|JUMP|Shadowlands Intro - The Maw;11|S|N|If you selected to goto the Shadowlands timeline.|CT|NOCACHE|
+N Choose Dragon Isles|QID|99999|M|56.26,17.31|JUMP|Dragonflight Intro;12|S|N|If you selected to goto the Shadowlands timeline.|CT|NOCACHE|
 
 N Make your choice|QID|99999|M|56.26,17.31|N|Speak with Chromie to transport you back in time to level up during any expansion period.\n\nIf you want to level in BFA content, that is the current timeline and speaking with chromie is not necessary.\n\nOnce Chromies UI is open, click the book button next to your expansion of choice to automatically make your selection with Chromie and load the corresponding guide.|CT|NOCACHE|
 
-N Not Eligible|AVAILABLE|62567|M|62.25,29.93|N|You need to have leveled a character to level 60 before you are eligible to use Chromie.|LVL|-60|
-N Not Eligible|AVAILABLE|62567|M|62.25,29.93|N|You cannot use chromie time once you reach level 60.|LVL|60|
+N Not Eligible|AVAILABLE|62567|M|62.25,29.93|N|You need to have leveled a character to level 70 before you are eligible to use Chromie.|LVL|-70|
+N Not Eligible|AVAILABLE|62567|M|62.25,29.93|N|You cannot use chromie time once you reach level 70.|LVL|70|
 
 ;A Onward to Adventure: Eastern Kingdoms|QID|60891|M|56.26,17.31|N|From Chromie after activating The Cataclysm timeline.|
 ;A To Outland!|QID|60120|M|56.26,17.31|N|From Chromie. Burning Crusade.|
@@ -34,5 +35,7 @@ N Not Eligible|AVAILABLE|62567|M|62.25,29.93|N|You cannot use chromie time once 
 ;A Onward to Adventure: Broken Isles|QID|60971|M|56.26,17.31|N|From Chromie after activating Legion timeline.|C|DemonHunter|
 ;A Tides of War|QID|46727|M|62.82,71.75|N|From Hero's Herald. Battle for Azeroth|
 ;A A Shadowlands: A Chilling Summons|QID|60545|M|76.55,42.72|Z|84;Stormwind City|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Alliance|
+;A The Dragon Isles Await|QID|65436|M|PLAYER|N|From UI Alert.|FACTION|Alliance|
+;A The Dragon Isles Await|QID|65435|M|PLAYER|N|From UI Alert.|FACTION|Horde|
 ]]
 end)
