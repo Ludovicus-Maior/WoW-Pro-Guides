@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Ohnahran_Plains', 'Leveling', "Ohn'ahran Plains", 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideName(guide,"Ohnahran Plains")
-WoWPro:GuideLevels(guide,60, 70, 62)
+WoWPro:GuideLevels(guide,10, 70)
 WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[

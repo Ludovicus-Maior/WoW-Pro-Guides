@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Dragonflight Intro', 'Leveling', 'The Waking Shores', 'WowPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide,"Dragonflight Intro")
-WoWPro:GuideLevels(guide,60, 60, 60)
+WoWPro:GuideLevels(guide,10, 70)
 WoWPro:GuideNextGuide(guide, 'The_Waking_Shores')
 WoWPro:GuideQuestTriggers(guide, 65435, 65436, 70197, 70198)
 WoWPro:GuideSteps(guide, function()
@@ -19,10 +19,10 @@ T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84; Stormwind City|N|To Wrathio
 T Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85; Ogrimmar|N|To Ebyssian.|FACTION|Horde|
 A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84; Stormwind City|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
-C Thaelin Darkanvil|QID|66589|QO|1|M|64.09,37.17|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil in the Dwarven District near the forge.|FACTION|Alliance|
-C Cataloger Wulfered|QID|66589|QO|3|M|63.27,69.95|Z|84; Stormwind City|CHAT|N|Talk to Cataloger Wulfered in the Trade District.|FACTION|Alliance|
-C Dervishian|QID|72240|QO|1|M|50.94,67.29|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|
-C Pathfinder Jeb|QID|66589|QO|2|M|38.22,45.51|Z|84; Stormwind City|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
+C Dervishian|QID|72240|QO|1|M|39.31,41.46|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|
+C Thaelin Darkanvil|QID|66589|QO|1|M|38.10,35.40|Z|84; Stormwind City|CHAT|N|Talk to Thaelin Darkanvil in the Dwarven District near the forge.|FACTION|Alliance|
+C Cataloger Wulfered|QID|66589|QO|3|M|33.13,34.55|Z|84; Stormwind City|CHAT|N|Talk to Cataloger Wulfered in the Trade District.|FACTION|Alliance|
+C Pathfinder Jeb|QID|66589|QO|2|M|38.35,45.32|Z|84; Stormwind City|CHAT|N|Pathfinder Jeb can be found overlooking Stormwind Harbor.|FACTION|Alliance|
 T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 A Expeditionary Coordination|QID|65443|PRE|65437|M|44.27,38.21|Z|85; Ogrimmar|N|From Naleidea Rivergleam.|FACTION|Horde|

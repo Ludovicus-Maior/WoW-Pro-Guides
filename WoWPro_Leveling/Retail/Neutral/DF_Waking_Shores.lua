@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('The_Waking_Shores', 'Leveling', 'The Waking Shores', 'WowPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideName(guide,"Waking Shores")
-WoWPro:GuideLevels(guide,60, 70, 60)
+WoWPro:GuideLevels(guide,10, 70)
 WoWPro:GuideNextGuide(guide, 'Ohnahran_Plains')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -190,7 +190,7 @@ C The Mandate of the Red|QID|66115|M|59.36,72.41|Z|2022|QO|2|CHAT|N|Ask Akxall w
 A Friend on the Mend|QID|70058|PRE|66114|M|59.86,70.37|Z|2022|N|From Lillistrasza.|RANK|2|
 C Friend on the Mend|QID|70058|QO|3|M|59.81,71.32|Z|2022|H|N|Glass Bead is lying on the table.|RANK|2|
 C Friend on the Mend|QID|70058|QO|2|M|60.37,73.15|Z|2022|CHAT|N|Ask the NPCs standing around if they have some spare fabric.|RANK|2|
-A Stay a While|QID|70132|PRE|66114|M|57.82,66.85|Z|2022|N|From Veritistrasz.This quest takes litterally forever.|RANK|3|
+;A Stay a While|QID|70132|PRE|66114|M|57.82,66.85|Z|2022|N|From Veritistrasz.This quest takes litterally forever.|RANK|3|
 C Stay a While|QID|70132|M|57.82,66.79|Z|2022|EAB|QO|1|NC|N|Use the Extra Action Button to Sit and look at the view, then use chat option with Veritistrasz.|
 C Stay a While|QID|70132|M|57.82,66.81|Z|2022|QO|2|CHAT|N|Listen to Veritistrasz's Stories. If you want the Spiked Crest Customization, for your Renewed Proto-Drake, DON'T choose "I'm busy" chat option, or you wont get the followup quest with that customization.|
 T Stay a While|QID|70132|M|57.85,66.80|Z|2022|N|To Veritistrasz.|
@@ -227,13 +227,12 @@ A A New Set of Horns|QID|68797|PRE|68796|M|75.17,54.97|Z|2022|N|From Lord Andest
 C A New Set of Horns|QID|68797|M|74.11,57.94|Z|2022|QO|1|CHAT|N|Meet Glensera in the Skytop Observatory.|
 C A New Set of Horns|QID|68797|M|74.03,58.13|Z|2022|QO|2|NC|N|Step onto the 5 sided rug just beyond Glensera and click on it.|
 T A New Set of Horns|QID|68797|M|75.15,55.06|Z|2022|N|To Lord Andestrasz.|
-A Dragon Glyphs and You|QID|68798|PRE|68797|M|75.15,55.06|Z|2022|N|From Lord Andestrasz.|
-C Dragon Glyphs and You|QID|68798|M|74.22,58.07|Z|2022|QO|1|NC|N|Collect the Dragon Glyph by the Rostrum of Transformation.|
-C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|2|CHAT|N|Speak to Lithragosa.|
-C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|3|NC|N|View the Dragonriding Skill Track with Lithragosa.|
-C Dragon Glyphs and You|QID|68798|M|74.56,56.97|Z|2022|QO|4|NC|N|Learn the 'Take to the Skies' Skill with Lithragosa.|
-C Dragon Glyphs and You|QID|68798|M|73.25,52.11|Z|2022|QO|5|CHAT|N|Speak to Celormu.|
-T Dragon Glyphs and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
+A Skyriding Talents and You|QID|68798|PRE|68797|M|75.15,55.06|Z|2022|N|From Lord Andestrasz.|
+C Skyriding Talents and You|QID|68798|M|74.56,56.97|Z|2022|QO|1|CHAT|N|Speak to Lithragosa.|
+C Skyriding Talents and You|QID|68798|M|74.56,56.97|Z|2022|QO|2|NC|N|View the Dragonriding Skill Track with Lithragosa.|
+C Skyriding Talents and You|QID|68798|M|74.56,56.97|Z|2022|QO|3|NC|N|Learn the 'Take to the Skies' Skill with Lithragosa.|
+C Skyriding Talents and You|QID|68798|M|73.25,52.11|Z|2022|QO|4|CHAT|N|Speak to Celormu.|
+T Skyriding Talents and You|QID|68798|M|75.18,55.00|Z|2022|N|To Lord Andestrasz.|
 A Return to the Ruby Lifeshrine|QID|68799|PRE|68798|M|75.18,55.00|Z|2022|N|From Lord Andestrasz|
 C Return to the Ruby Lifeshrine|QID|68799|M|75.02,55.57|Z|2022|V|N|Hop on Relastrasza for a ride into the Skytop launch tower.|
 

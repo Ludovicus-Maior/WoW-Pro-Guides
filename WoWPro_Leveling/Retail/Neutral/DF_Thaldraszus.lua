@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Thaldraszus', 'Leveling', 'Thaldraszus', 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideName(guide,"Thaldraszus")
-WoWPro:GuideLevels(guide,60, 70, 68)
+WoWPro:GuideLevels(guide,10, 70)
 WoWPro:GuideNextGuide(guide, 'DF_Campaign')
 WoWPro:GuideSteps(guide, function()
 return [[
