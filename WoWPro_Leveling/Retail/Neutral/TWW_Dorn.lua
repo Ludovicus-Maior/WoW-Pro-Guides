@@ -73,7 +73,7 @@ C Stones of Dornogal|QID|78457|QO|4|M|47.61,44.36|Z|2339;Dornogal|N|Speak to Bra
 = Train Inscription|QID|99999|M|48.67,70.92|Z|2339;Dornogal|N|From Brrigan. Click this step off if you are done or dont care.|P|Inscription;773|SPELL|Khaz Algar Inscription;423350|
 = Train Jewelcrafting|QID|99999|M|49.58,70.82|Z|2339;Dornogal|N|From Makir. Click this step off if you are done or dont care.|P|Jewelcrafting;755|SPELL|Khaz Algar Jewelcrafting;423351|
 = Train Leatherworking|QID|99999|M|54.43,58.49|Z|2339;Dornogal|N|From Marbb. Click this step off if you are done or dont care.|P|Leatherworking;165|SPELL|Khaz Algar Leatherworking;423352|
-= Train Mining|QID|99999|M|52.65,52.73|Z|2339;Dornogal|N|From Tarib. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Khaz Algar Mining;423353|
+= Train Mining|QID|99999|M|52.65,52.73|Z|2339;Dornogal|N|From Tarib. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Khaz Algar Mining;439705| ; Spell is forBismuth
 = Train Skinning|QID|99999|M|54.73,57.39|Z|2339;Dornogal|N|From Ginnad. Click this step off if you are done or dont care.|P|Skinning;393|SPELL|Khaz Algar Skinning;423354|
 = Train Tailoring|QID|99999|M|54.76,63.61|Z|2339;Dornogal|N|From Kotag. Click this step off if you are done or dont care.|P|Tailoring;197|SPELL|Khaz Algar Tailoring;423355|
 ;=====> END PROFESSION BLOCK <======
