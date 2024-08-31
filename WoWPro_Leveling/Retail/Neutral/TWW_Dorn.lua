@@ -50,7 +50,7 @@ A Impossible Odds|QID|78536|PRE|78535|M|36.18,64.49|Z|2339;Dornogal|N|From Baelg
 C Impossible Odds|QID|78536|QO|1|M|36.47,65.25|Z|2339;Dornogal|N|Speak to Thrall.|CHAT|
 T Impossible Odds|QID|78536|M|36.18,64.49|Z|2339;Dornogal|N|To Baelgrim.|
 A Hypocenter|QID|78460|PRE|78536|M|36.18,64.49|Z|2339;Dornogal|N|From Baelgrim.|
-C Hypocenter|QID|78460|QO|1|M|31.26,60.19|Z|2339;Dornogal|N|Click the webbed Earthen and piles of rubble.|H|
+C Hypocenter|QID|78460|QO|1|M|31.26,60.19|Z|2339;Dornogal|N|Click the webbed Earthen and piles of rubble.\nGo up the stairs for the final bits.|H|
 T Hypocenter|QID|78460|M|29.72,59.66|Z|2339;Dornogal|N|To Baelgrim.|
 A The Archive|QID|78468|PRE|78460|M|29.54,59.86|Z|2339;Dornogal|N|From Speaker Brinthe.|
 C The Archive|QID|78468|QO|1|M|29.14,59.69|Z|2339;Dornogal|N|Use Prismatic Codex to view memory gem.|EAB|H|
@@ -87,10 +87,10 @@ T State of the Union|QID|78459|M|39.90,25.99|Z|2339;Dornogal|N|To Merrix.|
 A The Fourth Seat|QID|78461|PRE|78459|M|40.51,25.94|Z|2339;Dornogal|N|From Moira Thaurissan.|
 C The Fourth Seat|QID|78461|QO|1|M|40.73,22.31|Z|2339;Dornogal|N|Earthen Teleporter used.|H|
 C The Fourth Seat|QID|78461|QO|2|M|39.81,32.72|Z|2339;Dornogal|N|Regroup with Baelgrim at the top of Foundation Hall.|NC|
-T Crossroads Plaza|QID|82747|M|55.12,55.73|Z|2248;Isle of Dornd|N|From Rannida.|RANK|2|
-A Wanted: The Boroughbreaker|QID|83335|M|55.21,55.94|Z|2248;Isle of Dorn|N|From Wanted Poster|RANK|2|
-A The Earthwound|QID|83336|M|55.51,55.95|Z|2248;Isle of Dorn|N|From Freysworn Etterca.|RANK|2|
-A To Mourning Rise|QID|81661|M|55.72,56.05|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
+T Crossroads Plaza|QID|82747|M|55.21,55.85|Z|2248;Isle of Dorn|N|To Bondaz.|RANK|2|
+A Wanted: The Boroughbreaker|QID|83335|M|55.24,55.91|Z|2248;Isle of Dorn|N|From Wanted Poster|RANK|2|
+A The Earthwound|QID|83336|M|55.51,55.88|Z|2248;Isle of Dorn|N|From Freysworn Etterca.|RANK|2|
+A To Mourning Rise|QID|81661|M|55.75,56.05|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 A Lost Delivery|QID|78754|M|55.55,56.49|Z|2248;Isle of Dorn|N|From Dropped Package.|RANK|2|
 R Freywold Village|ACTIVE|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|Mount up and head to Freywold Village.|
 N check for Natalia|ACTIVE|78461|;this note is just for me. not a permanent part of the guide
