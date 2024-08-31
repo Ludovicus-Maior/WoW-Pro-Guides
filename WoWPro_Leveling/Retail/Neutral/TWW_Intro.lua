@@ -72,7 +72,7 @@ A Departure|QID|80321|M|73.07,59.57|Z|2307|
 C Departure|QID|80321|M|24.54,79.93|Z|2307|QO|1|NC|N|Seek a different exit.|
 C Departure|QID|80321|M|40.95,36.44|Z|2305|QO|2|NC|N|Return to the surface.|
 K Queensguard An'Jak Shabtir|ACTIVE|80321|M|41.31,37.88|Z|2305|QO|3|N|Kill Queensguard An'Jak Shabtir.|T|Queensguard An'Jak Shabtir|
-C Departure|QID|80321|M|44.24,37.74|Z|2305|QO|4|CHAT|N|Talk to Khadgar.|
+C Departure|QID|80321|M|44.47,37.58|Z|2305|QO|4|CHAT|N|Talk to Khadgar.|
 T Departure|QID|80321|M|44.00,36.93|Z|2305|N|To Khadgar's Portal.|
 A Violent Impact|QID|78529|PRE|80321|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|
 ]]
