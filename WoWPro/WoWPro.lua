@@ -282,7 +282,7 @@ function WoWPro.toboolean(v)
         if v == "false" then
             return false
         end
-        return false
+        return v ~= ''
     end
     if type(v) == "number" then
         return  v ~= 0
