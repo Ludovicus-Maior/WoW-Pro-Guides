@@ -14,7 +14,6 @@ return [[
 ;Two parts of Soujourner of Isle of Dorn not completable in your first go thru.
 ;--Brotherhood in the Skolzgal Wood requires you to complete the Hallowfall Hallowfall achievement
 ;--Behind Closed Doors starts in Dornogal, but then requires the Entire Ringing Deeps main storyline, before you can pick up the last few steps
-;F Durgaz Cabin|ACTIVE||M|67.47,43.31|Z|2248;Isle of Dorn|N|At Drelda.| Undiscovered flightpoint
 
 A Violent Impact|QID|78529|PRE|80321|M|42.68,59.32|Z|2248;Isle of Dorn|N|From UI.|
 C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the rubble.|H|
@@ -255,6 +254,8 @@ T Keeper's Aid|QID|78573|M|54.21,65.31|Z|2248;Isle of Dorn|N|To Woldtender Igris
 A Boss of the Bosk|QID|78574|PRE|78573|M|54.21,65.34|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
 K Rotbark the Unfelled|ACTIVE|78574|QO|2|M|53.45,68.02|Z|2248;Isle of Dorn|N|Rotbark the Unfelled slain.|U|215142|T|Rotbark the Unfelled|
 T Boss of the Bosk|QID|78574|M|54.22,65.30|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
+K The Boroughbreaker|ACTIVE|83335|QO|1|M|45.48,56.48|Z|2248;Isle of Dorn|N|Kill Boroughbreaker Stik'kar.|T|Boroughbreaker Stik'kar|; TESTING THIS PLACEMENT
+
 T The Proscenium|QID|78470|M|56.55,52.05|Z|2248;Isle of Dorn|N|To Moira Thaurissan.|
 A The Cavalry is Here|QID|79701|PRE|78470|M|56.54,52.06|Z|2248;Isle of Dorn|N|From Baelgrim.|
 A Fire in the Hole|QID|79721|PRE|78470|M|56.64,52.07|Z|2248;Isle of Dorn|N|From Wenbrandt.|
@@ -267,7 +268,6 @@ C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Keep fi
 T The Cavalry is Here|QID|79701|M|56.48,48.04|Z|2248;Isle of Dorn|N|To Baelgrim.|
 T Fire in the Hole|QID|79721|M|56.45,47.98|Z|2248;Isle of Dorn|N|To Wenbrandt.|
 A Convergence|QID|78471|PRE|79721&79721|M|56.44,48.02|Z|2248;Isle of Dorn|N|From Moira Thaurissan.|
-K Wanted: The Boroughbreaker|ACTIVE|83335|QO|1|M|45.48,56.48|Z|2248;Isle of Dorn|N|Kill Boroughbreaker Stik'kar.|T|Boroughbreaker Stik'kar|; TESTING THIS PLACEMENT
 T Convergence|QID|78471|M|40.18,25.96|Z|2339;Dornogal|N|To Moira Thaurissan.|
 A Group Effort|QID|78538|PRE|78471|M|40.02,25.92|Z|2339;Dornogal|N|From Merrix.|
 C Group Effort|QID|78538|QO|1|M|35.35,54.91|Z|2339;Dornogal|N|Distribute Orders.|U|213271|H|
@@ -334,8 +334,9 @@ T The Lost Earthen|QID|79338|M|60.96,43.92|Z|2248;Isle of Dorn|N|To Urtago.|
 A A Change of Tradition|QID|79339|PRE|79338|M|60.96,43.92|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 T Lost Delivery|QID|78754|M|67.02,43.90|Z|2248;Isle of Dorn|N|To Harvester Farnee.|
 A Honey and Clay the Pain Away|QID|78757|PRE|78754|M|67.02,43.90|Z|2248;Isle of Dorn|N|From Harmot.|RANK|2|
-C Honey and Clay the Pain Away|QID|78757|QO|1|M|67.12,43.81|Z|2248;Isle of Dorn|N|Break up the clay.|H|
-C Honey and Clay the Pain Away|QID|78757|QO|2|M|66.84,44.05;67.12,43.81|CS|Z|2248;Isle of Dorn|N|Place Fire honey into mortar.|H|EAB|
+C Honey and Clay the Pain Away|QID|78757|QO|1|M|67.12,43.81|Z|2248;Isle of Dorn|N|Break up the clay on table beside you.|H|
+C Honey and Clay the Pain Away|QID|78757|QO|2|M|66.84,44.05|Z|2248;Isle of Dorn|N|Pick up the honey beside the doorway|BUFF|435155|H|
+C Honey and Clay the Pain Away|QID|78757|QO|2|M|66.84,44.05;67.12,43.81|CS|Z|2248;Isle of Dorn|N|Use the  [color=33fff9] Extra Action Button [/color]to place Fire honey into mortar.|H|EAB|
 C Honey and Clay the Pain Away|QID|78757|QO|3|M|67.12,43.81|Z|2248;Isle of Dorn|N|Mix honey into clay.|H|
 C Honey and Clay the Pain Away|QID|78757|QO|4|M|67.02,43.90|Z|2248;Isle of Dorn|N|Apply Honey mixture to Shalehoof.|NC|
 T Honey and Clay the Pain Away|QID|78757|M|67.02,43.90|Z|2248;Isle of Dorn|N|To Harmot.|
@@ -346,7 +347,7 @@ T Pulse Within the Earth|QID|78758|M|66.99,47.36|Z|2248;Isle of Dorn|N|To Harmot
 A Playing in the Mud|QID|78755|PRE|78758|M|67.01,47.31|Z|2248;Isle of Dorn|N|From Harmot.|RANK|2|
 A Lots and Lots of Fire Honey|QID|78756|PRE|78758|M|66.98,47.31|Z|2248;Isle of Dorn|N|From Harvester Farnee.|RANK|2|
 C Playing in the Mud|QID|78755|M|70.39,55.30|Z|2248;Isle of Dorn|QO|1|N|Kill Elementals or pick up from the mounds in the sand. Combine Frenzied Earth and Water to create Living Elemental Mud (Optional).|U|211483|
-C Playing in the Mud|QID|78755|M|71.65,52.01|Z|2248;Isle of Dorn|QO|2|N|Collect handfuls of Elementally Charged Silt.|
+C Playing in the Mud|QID|78755|M|71.65,52.01|Z|2248;Isle of Dorn|QO|2|N|Collect handfuls of Elementally Charged Silt.|U|211483|
 T A Change of Tradition|QID|79339|M|69.85,56.75|Z|2248;Isle of Dorn|N|To Urtago.|
 A Tools of Declaration|QID|79340|PRE|79339|M|69.78,56.78|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 A Cleansing Ashes|QID|79341|PRE|79339|M|69.78,56.78|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
@@ -356,23 +357,25 @@ C Tools of Declaration|QID|79340|M|67.27,57.17|QO|1|Z|2248;Isle of Dorn|N|Contin
 T Tools of Declaration|QID|79340|M|69.78,56.78|Z|2248;Isle of Dorn|N|To Urtago.|
 T Cleansing Ashes|QID|79341|M|69.78,56.78|Z|2248;Isle of Dorn|N|To Urtago.|
 A As He Departs|QID|79342|PRE|79341&79340|M|69.78,56.78|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
-C As He Departs|QID|79342|M|69.78,56.78|QO|1|Z|2248;Isle of Dorn|N|Incense placed.|H|
+C As He Departs|QID|79342|M|69.78,56.78|QO|1|Z|2248;Isle of Dorn|N|Place Incense in the pot in front of Korgran.|H|
 C As He Departs|QID|79342|M|69.83,56.69|QO|2|Z|2248;Isle of Dorn|N|Give the horn to Korgran.|CHAT|
-C As He Departs|QID|79342|M|69.83,56.69|QO|3|Z|2248;Isle of Dorn|N|Wait and watch until the ceremony concludes.|
+C As He Departs|QID|79342|M|69.83,56.69|QO|3|Z|2248;Isle of Dorn|N|Wait and watch until the ceremony concludes.|I|
 T As He Departs|QID|79342|M|69.83,56.69|Z|2248;Isle of Dorn|N|To Urtago.|
 A The Weight of Duty|QID|82895|PRE|79342|M|69.87,56.99|Z|2248;Isle of Dorn|N|From Urtago, after some dialog.|RANK|2|
-C The Weight of Duty|QID|82895|QO|1|M|57.31,42.84|Z|2248;Isle of Dorn|N|To Urtago.|CHAT|
-C The Weight of Duty|QID|82895|QO|2|M|57.34,42.56|Z|2248;Isle of Dorn|N|New placard collected from bin.|H|
-C The Weight of Duty|QID|82895|QO|3|M|57.25,42.77|Z|2248;Isle of Dorn|N|Placard heated in forge.|H|
-C The Weight of Duty|QID|82895|QO|4|M|57.39,43.05|Z|2248;Isle of Dorn|N|Placard quenched in bucket just outside the door.|H|
-C The Weight of Duty|QID|82895|QO|5|M|57.07,43.47|Z|2248;Isle of Dorn|N|Tempered Placard carved at the worktable (outside).|H|
-T The Weight of Duty|QID|82895|M|57.17,43.40|Z|2248;Isle of Dorn|N|To Urtago.|
 K Coalesced Living Honey|ACTIVE|78756|QO|1|M|70.96,43.86|Z|2248;Isle of Dorn|N|Kill Coalesced Living Honey and loot Enormous Glob of Honey|T|Coalesced Living Honey|
 T Playing in the Mud|QID|78755|M|67.01,47.33|Z|2248;Isle of Dorn|N|To Harmot.|
 T Lots and Lots of Fire Honey|QID|78756|M|66.98,47.31|Z|2248;Isle of Dorn|N|To Harvester Farnee.|
 A To Wake a Giant|QID|78759|PRE|78756&78755|M|67.01,47.33|Z|2248;Isle of Dorn|N|From Harmot.|RANK|2|
 C To Wake a Giant|QID|78759|M|66.47,47.06|Z|2248;Isle of Dorn|N|Apply the Elemental Salve to the Mountain Giant.|H|
 T To Wake a Giant|QID|78759|M|67.01,47.33|Z|2248;Isle of Dorn|N|To Harmot.|
+C The Weight of Duty|QID|82895|QO|1|M|57.31,42.84|Z|2248;Isle of Dorn|N|To Urtago.|CHAT|
+C The Weight of Duty|QID|82895|QO|2|M|57.34,42.56|Z|2248;Isle of Dorn|N|New placard collected from bin.|H|
+C The Weight of Duty|QID|82895|QO|3|M|57.25,42.77|Z|2248;Isle of Dorn|N|Heat placard in the forge.|H|
+C The Weight of Duty|QID|82895|QO|4|M|57.39,43.05|Z|2248;Isle of Dorn|N|Dip placard in bucket just outside the door.|H|
+C The Weight of Duty|QID|82895|QO|5|M|57.07,43.47|Z|2248;Isle of Dorn|N|Carve tempered placard at the worktable (outside).|H|
+T The Weight of Duty|QID|82895|M|57.17,43.40|Z|2248;Isle of Dorn|N|To Urtago.|
+
+;potential spot for K The Boroughbreaker
 T Golgrin's Reach|QID|78465|M|61.63,70.15|Z|2248;Isle of Dorn|N|To Dagran Thaurissan II.|
 A The History Beneath Us|QID|79716|PRE|78465|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Dagran Thaurissan II.|RANK|2|
 A Charge for a Charge|QID|78467|PRE|78465|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
@@ -394,6 +397,8 @@ C The Anachronism|QID|79213|M|62.53,71.89|Z|2248;Isle of Dorn|QO|3|N|Use the dev
 K Sargassum Guardian|ACTIVE|79213|M|62.53,71.89|Z|2248;Isle of Dorn|QO|4|N|Kill Sargassum Guardian.|T|Sargassum Guardian|U|212602|
 T The Anachronism|QID|79213|M|61.63,70.15|Z|2248;Isle of Dorn|N|To Speaker Brinthe.|
 A A Place Forgotten|QID|83083|PRE|79213|M|61.63,70.15|Z|2248;Isle of Dorn|N|From Speaker Brinthe.|RANK|2|
+
+F Durgaz Cabin|ACTIVE|78540|M|67.47,43.31|Z|2248;Isle of Dorn|N|At Drelda.|; Undiscovered flightpoint -- probably good while in route to the meadery
 T To the Meadery|QID|78540|M|75.33,43.17|Z|2248;Isle of Dorn|N|To Baelgrim.|
 A Lay the Trap|QID|78541|PRE|78540|M|75.33,43.17|Z|2248;Isle of Dorn|N|From Baelgrim.|
 A Evacuation Area|QID|78542|PRE|78540|M|75.33,43.17|Z|2248;Isle of Dorn|N|From Wenbrandt.|
@@ -420,25 +425,26 @@ A A Titanic Expedition!|QID|79724|M|58.81,28.21|Z|2248;Isle of Dorn|N|From Ranna
 A Stormscarred|QID|83337|M|58.40,28.29|Z|2248;Isle of Dorn|N|From Rancher Edidithet.|RANK|2|
 f Rambleshire|ACTIVE|83337|M|59.16,28.58|Z|2248;Isle of Dorn|N|At Tordrin.|
 A Birdman of the Three Shields|QID|82680|M|60.18,28.36|Z|2248;Isle of Dorn|N|From Harmot.|RANK|2|;does this depend on The History Beneath us chain being done?
-K Mage Slayer Phytethil|ACTIVE|83338|M|55.31,32.77|QO|1|Z|2248;Isle of Dorn|N|Kill Mage Slayer Phytethil.|T|Mage Slayer Phytethil|
-K Stormscar|ACTIVE|83337|M|59.42,34.38|QO|1|Z|2248;Isle of Dorn|N|Kill Stormscar.|T|Stormscar|
-K Anub'esska|ACTIVE|83339|M|60.93,38.29|QO|1|Z|2248;Isle of Dorn|N|Kill Anub'esska.|T|Anub'esska|
+K Anub'esska|ACTIVE|83339|M|61.18,37.92|QO|1|Z|2248;Isle of Dorn|N|Kill Anub'esska.|T|Anub'esska|
 T To Rambleshire|QID|78289|M|61.43,31.65|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 A Power Predators|QID|78291|PRE|78289|M|61.43,31.68|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
 A Sleepy Sheep|QID|78290|PRE|78289|M|61.42,31.67|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
 C Power Predators|QID|78291|M|62.27,27.14|QO|1|Z|2248;Isle of Dorn|N|Slay Mosswool predators.|S|
-C Sleepy Sheep|QID|78290|M|62.15,32.13|QO|1|Z|2248;Isle of Dorn|N|Pick up Lodestones.|H|
+C Sleepy Sheep|QID|78290|M|62.15,32.13|QO|1|Z|2248;Isle of Dorn|N|Pick up a Lodestone.|H|
 C Sleepy Sheep|QID|78290|M|61.53,31.67|QO|2|Z|2248;Isle of Dorn|N|Have Shraubendre charge the Lodestone.|H|
-C Sleepy Sheep|QID|78290|M|61.49,29.01|QO|3|Z|2248;Isle of Dorn|N|Use[color=33fff9] Lodestone [\color]on the Lethargic Mosswools.|H|
+C Sleepy Sheep|QID|78290|M|61.49,29.01|QO|3|Z|2248;Isle of Dorn|N|Click on the Lethargic Mosswools.|H|S|
+K Stormscar|ACTIVE|83337|M|59.77,34.56|QO|1|Z|2248;Isle of Dorn|N|Kill Stormscar.|T|Stormscar|
+C Sleepy Sheep|QID|78290|M|61.49,29.01|QO|3|Z|2248;Isle of Dorn|N|Click on the Lethargic Mosswools.|H|US|
 C Power Predators|QID|78291|M|62.27,27.14|QO|1|Z|2248;Isle of Dorn|N|Slay Mosswool predators.|US|
 T Sleepy Sheep|QID|78290|M|59.75,28.95|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 T Power Predators|QID|78291|M|59.75,28.95|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 A Lost Lord of the Storm|QID|78292|PRE|78291&78290|M|59.72,29.06|Z|2248;Isle of Dorn|N|From Head Rancher Stenspor.|RANK|2|
-C Lost Lord of the Storm|QID|78292|M|56.40,29.39|QO|2|Z|2248;Isle of Dorn|N|Find Durzan.|
+C Lost Lord of the Storm|QID|78292|M|56.40,29.39|QO|2|Z|2248;Isle of Dorn|N|Find Durzan.|I|
 C Lost Lord of the Storm|QID|78292|M|55.57,28.76|QO|3|Z|2248;Isle of Dorn|N|Remove webbing.|H|
 T Lost Lord of the Storm|QID|78292|M|58.72,30.19|Z|2248;Isle of Dorn|N|To Head Rancher Stenspor.|
+K Mage Slayer Phytethil|ACTIVE|83338|M|55.42,32.05|QO|1|Z|2248;Isle of Dorn|N|Kill Mage Slayer Phytethil.|T|Mage Slayer Phytethil|
 A Their Moss, Our Gain|QID|78293|PRE|78292|M|58.72,30.19|Z|2248;Isle of Dorn|N|From Head Rancher Stenspor.|RANK|2|
-C Their Moss, Our Gain|QID|78293|M|57.90,29.82|QO|1|Z|2248;Isle of Dorn|N|Electrified Mosswool.|
+C Their Moss, Our Gain|QID|78293|M|57.90,29.82|QO|1|Z|2248;Isle of Dorn|N|Click the sheep to harvest the electrified mosswool. Some of them don't approve.|H|
 C Their Moss, Our Gain|QID|78293|M|58.75,30.30|QO|2|Z|2248;Isle of Dorn|N|Feed Durzan.|H|
 T Their Moss, Our Gain|QID|78293|M|58.75,30.30|Z|2248;Isle of Dorn|N|To Head Rancher Stenspor.|
 A Thunderhead Butt|QID|78294|PRE|78293|M|58.77,30.21|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|RANK|2|
@@ -471,7 +477,7 @@ T Because It's Shiny|QID|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|To Tharessa S
 A It's Probably Nothing|QID|79728|PRE|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|From Rannan Korren.|RANK|2|
 C It's Probably Nothing|QID|79728|M|77.85,30.28|QO|1|Z|2248;Isle of Dorn|N|Middle, Right|I|
 T It's Probably Nothing|QID|79728|M|77.97,30.26|Z|2248;Isle of Dorn|N|To Rannan Korren.|
-A How Scandalous|QID|80207|PRE|81689|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|
+A How Scandalous|QID|80207|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;not the PRE|81689| unless its once per account
 T Wanted: The Boroughbreaker|QID|83335|M|54.08,20.06|Z|2339;Dornogal|N|To Peacekeeper Alef.|
 T How Scandalous|QID|80207|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
 A Seizing Evidence|QID|79521|PRE|80207|M|49.88,49.27|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
@@ -541,7 +547,7 @@ C The Market Reeve of the Forgegrounds|QID|79545|M|50.60,63.42|Z|2339;Dornogal|Q
 C The Market Reeve of the Forgegrounds|QID|79545|M|49.69,73.02|Z|2339;Dornogal|QO|10|NC|N|Nernabel's signature acquired.|
 T The Market Reeve of the Forgegrounds|QID|79545|M|45.24,48.73|Z|2339;Dornogal|N|To Vokgret.|
 A Opals and Runes|QID|79176|PRE|79545|M|45.24,48.73|Z|2339;Dornogal|N|From Vokgret.|RANK|2|
-B Opals and Runes|QID|79176|M|55.47,50.29|Z|2339;Dornogal|N|Trade for the Speakeasy Passrune.|
+B Opals and Runes|ACTIVE|79176|M|55.47,50.29|Z|2339;Dornogal|N|Trade for the Speakeasy Passrune.|
 T Opals and Runes|QID|79176|M|60.41,33.38|Z|2339;Dornogal|N|To Merrix.|
 A The Machine Speakeasy|QID|79546|PRE|79176|M|60.52,33.33|Z|2339;Dornogal|N|From Merrix.|RANK|2|
 R The Corridors|ACTIVE|79546|M|62.16,49.17|Z|Dornogal|N|Make your way to the The Corridors.|
@@ -579,42 +585,42 @@ T Bad Business|QID|79530|M|42.51,24.02|Z|2214;The Ringing Deeps|N|To Steelvein.|
 R Dornogal|AVAILABLE|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|make your way back to Dornogal.|RANK|2|;this is my best guess as to the PRE - not certain.
 A A Sassy Arathi|QID|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|From Dornogal Citizen.|RANK|2|
 T A Sassy Arathi|QID|80456|M|54.32,19.42|Z|2339;Dornogal|N|To Dornogal Citizen.|
-A An Oddball in Dornogal|QID|80209|M|54.32,19.42|Z|2339;Dornogal|N|From Dornogal Citizen.|RANK|2|
+A An Oddball in Dornogal|QID|80209|PRE|80456|M|54.32,19.42|Z|2339;Dornogal|N|From Dornogal Citizen.|RANK|2|
 C An Oddball in Dornogal|QID|80209|QO|1|M|54.51,24.17;56.77,27.87;51.50,11.36|CS|Z|2339;Dornogal|N|Talk to the Concerned Dornogal Citizen.|CHAT|
 T An Oddball in Dornogal|QID|80209|M|67.29,18.71|Z|2339;Dornogal|N|To Peacekeeper Leif.|
-A Found Around the Unbound|QID|80210|M|67.29,18.71|Z|2339;Dornogal|N|From Peacekeeper Leif.|RANK|2|
+A Found Around the Unbound|QID|80210|PRE|80209|M|67.29,18.71|Z|2339;Dornogal|N|From Peacekeeper Leif.|RANK|2|
 R Freywold Village|ACTIVE|80210|M|42.67,70.93|Z|2248;Isle of Dorn|N|Run or fly to Freywold Village.|
 T Found Around the Unbound|QID|80210|M|42.67,70.93|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-A The Pillage of Freywold Village|QID|80211|M|42.67,70.93|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
+A The Pillage of Freywold Village|QID|80211|PRE|80210|M|42.67,70.93|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 C The Pillage of Freywold Village|QID|80211|QO|1|M|41.86,73.84|Z|2248;Isle of Dorn|N|In the house, book on the table.|I|
 C The Pillage of Freywold Village|QID|80211|QO|2|M|41.48,75.07|Z|2248;Isle of Dorn|N|Downstairs to the right. Candle on the table.|I|
 C The Pillage of Freywold Village|QID|80211|QO|3|M|43.83,75.91|Z|2248;Isle of Dorn|N|Dead Arathi Soldier on the ground.|
 T The Pillage of Freywold Village|QID|80211|M|42.67,70.93|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
 
-A The Abductors' Obstructors|QID|80212|M|42.67,70.93|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
+A The Abductors' Obstructors|QID|80212|PRE|80211|M|42.67,70.93|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 R Rambleshire|ACTIVE|80212|M|57.57,30.05|Z|2248;Isle of Dorn|N|Run or fly to Rambleshire.|
 T The Abductors' Obstructors|QID|80212|M|57.57,30.05|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-A Holy Fire in Rambleshire|QID|80213|M|57.57,30.05|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
+A Holy Fire in Rambleshire|QID|80213|PRE|80212|M|57.57,30.05|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
 C Holy Fire in Rambleshire|QID|80213|QO|2|M|57.57,30.05|Z|2248;Isle of Dorn|N|Use provided [color=33fff9] Flashfire Thurible [/color] to reveal Nightshade Abductors, then kill them.|U|224104|
 C Holy Fire in Rambleshire|QID|80213|QO|3|M|57.57,30.05|Z|2248;Isle of Dorn|N|Continue killing Nightshade Abductors till you get the letter to drop.|U|224104|
 T Holy Fire in Rambleshire|QID|80213|M|62.03,30.68|Z|2248;Isle of Dorn|N|To Lamplighter Kaerter.|
-A A Time to Kill at the Lumber Mill|QID|80214|M|62.03,30.68|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
+A A Time to Kill at the Lumber Mill|QID|80214|PRE|80213|M|62.03,30.68|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
 R Skolzgal Mill|ACTIVE|80214|M|66.99,31.21|Z|2248;Isle of Dorn|N|Run or fly to Skolzgal Mill.|
 T A Time to Kill at the Lumber Mill|QID|80214|M|66.99,31.21|Z|2248;Isle of Dorn|N|To Lamplighter Kaerter.|
-A Ungirthin' the Earthen|QID|80215|M|66.99,31.21|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
-A Concealed in the Weald|QID|80216|M|67.03,31.28|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
+A Ungirthin' the Earthen|QID|80215|PRE|80214|M|66.99,31.21|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
+A Concealed in the Weald|QID|80216|PRE|80214|M|67.03,31.28|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 C Concealed in the Weald|QID|80216|M|66.07,28.05|Z|2248;Isle of Dorn|N|Kill spiders till this completes.|S|
 C Ungirthin' the Earthen|QID|80215|M|66.07,28.05|Z|2248;Isle of Dorn|N|Release the Earthen from their ball and chains.|H|
 C Concealed in the Weald|QID|80216|M|66.07,28.05|Z|2248;Isle of Dorn|N|Clean up any reamining spiders till this completes.|US|
 T Ungirthin' the Earthen|QID|80215|M|65.94,24.74|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
 T Concealed in the Weald|QID|80216|M|65.94,24.74|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-A A Lamplight for the Shipwright|QID|80217|M|65.94,24.74|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
+A A Lamplight for the Shipwright|QID|80217|PRE|80215&80216|M|65.94,24.74|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 C A Lamplight for the Shipwright|QID|80217|QO|1|M|63.54,22.93|Z|2248;Isle of Dorn|N|Confront Shipwright Isaebela.|CHAT|
 C A Lamplight for the Shipwright|QID|80217|QO|2|M|63.54,22.93|Z|2248;Isle of Dorn|N|Kill Shipwright Bodyguards.|
 C A Lamplight for the Shipwright|QID|80217|QO|3|M|63.54,22.93|Z|2248;Isle of Dorn|N|Rescue Lamplighter Kaerter.|H||
 T A Lamplight for the Shipwright|QID|80217|M|65.96,23.85|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
-A Up to No Good Down in Silkwood|QID|80218|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
-A Best Friends, Same Ends|QID|83181|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
+A Up to No Good Down in Silkwood|QID|80218|PRE|80217|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
+A Best Friends, Same Ends|QID|83181|PRE|80217|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
 C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Collect Silkwood Explosive Barrels.|H|S|
 K Shipwright Isaebela|ACTIVE|83181|QO|1|M|64.45,21.18|Z|2248;Isle of Dorn|N|Kill Shipwright Isaebela.|T|Shipwright Isaebela|
 K Shadowspinner Azarak|ACTIVE|83181|QO|2|M|64.45,21.18|Z|2248;Isle of Dorn|N|Kill Shadowspinner Azarak.|T|Shadowspinner Azarak|
