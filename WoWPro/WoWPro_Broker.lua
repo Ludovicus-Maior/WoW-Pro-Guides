@@ -3013,7 +3013,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 if spellInfo then
                     spellName = spellInfo.name
                 else
-                    WoWPro:Error("Spell tag (%q) is unknown.",WoWPro.spell[guideIndex])
+                    WoWPro:Error("GetSpellInfo(%q) ¦%q¦ is unknown.", spellID, WoWPro.spell[guideIndex])
                     skip = true
                     break
                 end
@@ -3035,8 +3035,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                     end
                 else
-                    WoWPro:dbp("GetSpellInfo(%q): %s", tostring(spellName), tostring(spellKnown))
-                    spellKnown = spellKnown ~= nil
+                    WoWPro:dbp("IsPlayerSpell(%q/%q): %s", tostring(spellName), spellID, tostring(spellKnown))
+                    spellKnown = WoWPro.toboolean(spellKnown)
                 end
                 spellFlip = WoWPro.toboolean(spellFlip)
                 if spellFlip then spellKnown = not spellKnown end
