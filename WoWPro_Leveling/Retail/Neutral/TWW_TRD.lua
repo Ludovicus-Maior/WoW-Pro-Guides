@@ -55,7 +55,7 @@ C Evoking the Forge|QID|78879|M|48.00,32.2|Z|2214; The Ringing Deeps|N|Stoke the
 T Evoking the Forge|QID|78879|M|47.4,28.4|Z|2214; The Ringing Deeps|N|To Foreman Svart.|
 A On Cold, Dark Wings|QID|78900|PRE|78838|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|
 A A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|C|Demon Hunter,Warlock|
-A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|This is part of the IoD Soujourner questline. its in the Dorn GUide. 
+A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|This is part of the IoD Soujourner questline. its in the Dorn GUide.
 A Discarded and Broken|QID|78562|PRE|78838|M|48.29,33.43|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|RANK|2|
 C A Shadow Over Gundargaz|QID|78895|QO|1|M|48.26,34.44|Z|2214; The Ringing Deeps|N|Click on the Gundargaz Defender to Investigate the Market.|H|
 ;end insert class quests - pieced together needs tested -- pally priest warlock dh tested
