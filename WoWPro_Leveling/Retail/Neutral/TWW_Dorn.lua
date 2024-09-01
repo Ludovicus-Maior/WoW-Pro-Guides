@@ -582,7 +582,7 @@ T Bad Business|QID|79530|M|42.51,24.02|Z|2214;The Ringing Deeps|N|To Steelvein.|
 
 ;Brotherhood in the Skolzgal Wood Quest line.
 
-R Dornogal|AVAILABLE|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|make your way back to Dornogal.|RANK|2|;this is my best guess as to the PRE - not certain.
+R Crossroads Plaza|AVAILABLE|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|make your way back towards Dornogal.|RANK|2|;this is my best guess as to the PRE - not certain.
 A A Sassy Arathi|QID|80456|PRE|78630|M|55.34,55.84|Z|2248;Isle of Dorn|N|From Dornogal Citizen.|RANK|2|
 T A Sassy Arathi|QID|80456|M|54.32,19.42|Z|2339;Dornogal|N|To Dornogal Citizen.|
 A An Oddball in Dornogal|QID|80209|PRE|80456|M|54.32,19.42|Z|2339;Dornogal|N|From Dornogal Citizen.|RANK|2|
@@ -621,7 +621,7 @@ C A Lamplight for the Shipwright|QID|80217|QO|3|M|63.54,22.93|Z|2248;Isle of Dor
 T A Lamplight for the Shipwright|QID|80217|M|65.96,23.85|Z|2248;Isle of Dorn|N|To Peacekeeper Leif.|
 A Up to No Good Down in Silkwood|QID|80218|PRE|80217|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|RANK|2|
 A Best Friends, Same Ends|QID|83181|PRE|80217|M|65.96,23.85|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|RANK|2|
-C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Collect Silkwood Explosive Barrels.|H|S|
+C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.52,20.15;64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Collect Silkwood Explosive Barrels.|H|S|
 K Shipwright Isaebela|ACTIVE|83181|QO|1|M|64.45,21.18|Z|2248;Isle of Dorn|N|Kill Shipwright Isaebela.|T|Shipwright Isaebela|
 K Shadowspinner Azarak|ACTIVE|83181|QO|2|M|64.45,21.18|Z|2248;Isle of Dorn|N|Kill Shadowspinner Azarak.|T|Shadowspinner Azarak|
 C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,21.33|CS|Z|2248;Isle of Dorn|N|Finish picking up the Silkwood Explosive Barrels|H|US|
