@@ -45,14 +45,14 @@ K Fallowbarb|ACTIVE|79313|M|76.36,54.86|Z|2215;Hallowfall|QO|1|N|Fallowbarb slai
 T What Grows in the Dark|QID|79313|M|70.52,44.98|Z|2215;Hallowfall|N|To Captain Trueflame.|
 A Care Package|QID|79304|M|69.26,43.90|Z|2215;Hallowfall|N|From Barahl Lynflayme.|RANK|2|
 C Suspicious Minds|QID|83247|M|64.96,40.06|Z|2215;Hallowfall|QO|1|NC|N|Salamanther Heart.|S|
-C For Morale|QID|83283|M|64.73,41.56|Z|2215;Hallowfall|QO|1|NC|N|Imperial Brut.|H|
+C For Morale|QID|83283|M|64.73,41.56|Z|2215;Hallowfall|QO|1|N|Imperial Brut.|H|
 C Suspicious Minds|QID|83247|M|64.96,40.06|Z|2215;Hallowfall|QO|1|NC|N|Salamanther Heart.|US|
 T For Morale|QID|83283|M|68.02,44.26|Z|2215;Hallowfall|N|To Lerrenai Fayn.|
 T Suspicious Minds|QID|83247|M|68.02,44.26|Z|2215;Hallowfall|N|To Derill Fayn.|
 A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|R|Undead,VoidElf|
 A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|C|DEATHKNIGHT,PRIEST,WARLOCK|
 K Coalesced Iniquity|ACTIVE|83279|QO|1|M|62.37,38.79|Z|2215;Hallowfall|N|Kill Coalesced Iniquity.|T|Coalesced Iniquity|
-T Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|To Derill Fayn.|
+T Prove One's Mettle|QID|83279|M|62.72,38.74|Z|2215;Hallowfall|N|To Derill Fayn.|
 C Where the Light Touches|QID|78659|M|68.19,45.16|Z|2215;Hallowfall|N|Ride with Faerin to the Aegis Wall.|V|
 T Where the Light Touches|QID|78659|M|71.61,57.57|Z|2215;Hallowfall|N|To Great Kyron.|
 A Tunnel Trouble|QID|78665|M|71.61,57.57|Z|2215;Hallowfall|N|From Great Kyron.|
@@ -192,8 +192,8 @@ T Nightwatch|QID|79297|M|41.31,53.01|Z|2215;Hallowfall|N|To General Steelstrike.
 A Spar Day|QID|78626|M|41.31,53.01|Z|2215;Hallowfall|N|From General Steelstrike.|
 C Spar Day|QID|78626|M|42.02,52.09|Z|2215;Hallowfall|QO|1|CHAT|N|Duel Arathi Recruits.|S|
 A Economical Request|QID|82216|M|41.31,53.01|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|
-C Economical Request|QID|82216|M|41.31,53.01|Z|2215;Hallowfall|QO|1|NC|N|Suggest Additional Trading Partners.|
-C Economical Request|QID|82216|M|41.27,53.11|Z|2215;Hallowfall|QO|2|NC|N|Write a letter of Recommendation.|
+C Economical Request|QID|82216|M|41.31,53.01|Z|2215;Hallowfall|QO|1|CHAT|N|Suggest Additional Trading Partners.|
+C Economical Request|QID|82216|M|41.27,53.11|Z|2215;Hallowfall|QO|2|H|N|Write a letter of Recommendation.|
 T Economical Request|QID|82216|M|41.28,53.09|Z|2215;Hallowfall|N|To Auralia Steelstrike.|
 A A Batty Request|QID|82213|M|41.28,53.09|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|
 A Does Anyone Like Wasps?|QID|82214|M|41.28,53.09|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|
@@ -203,17 +203,17 @@ C Spar Day|QID|78626|M|42.02,52.09|Z|2215;Hallowfall|QO|1|CHAT|N|Duel Arathi Rec
 T Spar Day|QID|78626|M|41.30,53.01|Z|2215;Hallowfall|N|To General Steelstrike.|
 A Mereldar's Light|QID|78614|M|41.30,53.01|Z|2215;Hallowfall|N|From General Steelstrike.|
 A An Orphan's Request|QID|79151|M|41.74,55.57|Z|2215;Hallowfall|N|From Alyza Bowblaze.|RANK|2|
-C An Orphan's Request|QID|79151|M|52.30,50.25|Z|2215;Hallowfall|QO|1|NC|N|Pick up Much Loved Teddy Bear.|
-C An Orphan's Request|QID|79151|M|52.42,50.23|Z|2215;Hallowfall|QO|2|NC|N|Talk to Alyza.|
+C An Orphan's Request|QID|79151|M|52.30,50.25|Z|2215;Hallowfall|QO|1|H|N|Pick up Much Loved Teddy Bear.|
+C An Orphan's Request|QID|79151|M|52.42,50.23|Z|2215;Hallowfall|QO|2|CHAT|N|Talk to Alyza.|
 C Mereldar's Light|QID|78614|M|41.91,55.45|Z|2215;Hallowfall|NC|N|Play with orphans.|US|
 T An Orphan's Request|QID|79151|M|52.42,50.23|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
 A Gutting the Pool|QID|79152|M|52.42,50.23|Z|2215;Hallowfall|N|From Alyza Bowblaze.|RANK|2|
 A A Bloody Inheritance|QID|83182|M|52.42,50.23|Z|2215;Hallowfall|N|From Alyza Bowblaze.|RANK|2|
-t Gutting the Pool|QID|79152|M|PLAYER|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
-t A Bloody Inheritance|QID|83182|M|PLAYER|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
 C Gutting the Pool|QID|79152|M|49.70,49.01|Z|2215;Hallowfall|QO|1|N|Slay Kobyss.|S|
 C A Bloody Inheritance|QID|83182|M|50.07,53.08;48.79,50.47;49.72,48.21;50.95,47.71|CS|Z|2215;Hallowfall|QO|1|NC|N|Pick up Parental Effects.|
 C Gutting the Pool|QID|79152|M|49.70,49.01|Z|2215;Hallowfall|QO|1|N|Slay Kobyss.|US|
+T Gutting the Pool|QID|79152|M|PLAYER|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
+T A Bloody Inheritance|QID|83182|M|PLAYER|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
 A Vae Victis|QID|79153|M|PLAYER|Z|2215;Hallowfall|N|From Alyza Bowblaze.|RANK|2|
 K Sharpscale the Devourer|ACTIVE|79153|M|48.88,53.91|Z|2215;Hallowfall|QO|1|NC|N|Kill Sharpscale the Devourer and loot his Head.|T|Sharpscale the Devourer|
 T Vae Victis|QID|79153|M|PLAYER|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
@@ -268,6 +268,7 @@ C Underground Economics|QID|82217|M|68.43,44.59|Z|2215;Hallowfall|QO|1|NC|N|Pick
 C Underground Economics|QID|82217|M|68.43,44.69|Z|2215;Hallowfall|QO|2|NC|N|Display Arathi Trade Goods.|
 C Underground Economics|QID|82217|M|68.46,44.57|Z|2215;Hallowfall|QO|4|NC|N|Convince Teha to Trade with the Arathi.|
 C Underground Economics|QID|82217|M|68.52,44.66|Z|2215;Hallowfall|QO|3|NC|N|Convince Andee Seabraid to trade with the Arathi.|
+T Underground Economics|QID|82217|M|68.46,44.64|Z|2215;Hallowfall|N|To General Steelstrike.|
 T Hungry in Hollow|QID|84392|M|69.85,32.65|Z|2215;Hallowfall|N|To Dolena.|
 A Something Earthy|QID|82843|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
 C Something Earthy|QID|82843|M|69.63,33.49|Z|2215;Hallowfall|N|Collect a taro.|H|
@@ -280,34 +281,31 @@ C Enough Garlic|QID|82847|QO|1|M|70.22,28.31|Z|2215;Hallowfall|N|Collect some ga
 C Enough Garlic|QID|82847|QO|2|M|70.22,28.31|Z|2215;Hallowfall|N|Collect some more garlic.|H|
 T Enough Garlic|QID|82847|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
 A Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
-C Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|Help the chef cook some food.|H|
+C Sous|QID|82848|M|69.93,32.59|QO|1|Z|2215;Hallowfall|N|Help the chef cook some food.|H|
 T Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
-T Underground Economics|QID|82217|M|68.46,44.64|Z|2215;Hallowfall|N|To General Steelstrike.|
 
-;The following couple quests, were done weird, and i cant remember the exact order they need to go in.
+A Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
+A Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
+C Seeds of Evil|QID|79108|M|61.40,28.20|Z|2215;Hallowfall|QO|1|N|Collect Corrupted Shadowleaf Seeds.|S|
+C Keep the Home Fires Burning|QID|76247|QO|1|M|61.20,30.54|Z|2215;Hallowfall|N|Loot some boxes of the ground.|H|S|
 A Eggs in One Basket|QID|80382|M|60.82,27.89|Z|2215;Hallowfall|N|From Egg Basket.|RANK|2|
 C Eggs in One Basket|QID|80382|M|60.82,27.89|Z|2215;Hallowfall|N|Collect the eggs off the ground.|NC|
-T Eggs in One Basket|QID|80382|M|61.20,30.54|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
-A Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
-C Keep the Home Fires Burning|QID|76247|QO|1|M|61.20,30.54|Z|2215;Hallowfall|N|Loot some boxes of the ground.|H|
+C Keep the Home Fires Burning|QID|76247|QO|1|M|61.20,30.54|Z|2215;Hallowfall|N|Loot some boxes of the ground.|H|US|
 C Keep the Home Fires Burning|QID|76247|QO|2|M|61.02,28.71|Z|2215;Hallowfall|N|Click the glowy crystal well.|NC|
+C Seeds of Evil|QID|79108|M|61.40,28.20|Z|2215;Hallowfall|QO|1|N|Collect Corrupted Shadowleaf Seeds.|US|
+T Eggs in One Basket|QID|80382|M|61.20,30.54|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
 T Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
-A A Flickering of Hope|QID|50690|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|
-A Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
+T Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
 A Follow Miral|QID|79109|M|61.18,30.51|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
-C Seeds of Evil|QID|79108|M|61.40,28.20|Z|2215;Hallowfall|QO|1|N|Collect Corrupted Shadowleaf Seeds.|S|
-C Follow Miral|QID|79109|M|60.75,25.14|Z|2215;Hallowfall|QO|1|NC|N|Hoe inspected.|
-C Follow Miral|QID|79109|M|60.12,24.28|Z|2215;Hallowfall|QO|2|NC|N|Bag inspected.|
-C Follow Miral|QID|79109|M|60.28,22.85|Z|2215;Hallowfall|QO|3|NC|N|Lamp inspected.|
+A A Flickering of Hope|QID|50690|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|
+C Follow Miral|QID|79109|M|60.75,25.14|Z|2215;Hallowfall|QO|1|H|N|Hoe inspected.|
+C Follow Miral|QID|79109|M|60.12,24.28|Z|2215;Hallowfall|QO|2|H|N|Bag inspected.|
+C Follow Miral|QID|79109|M|60.28,22.85|Z|2215;Hallowfall|QO|3|H|N|Lamp inspected.|
 T Follow Miral|QID|79109|M|60.27,21.14|Z|2215;Hallowfall|N|To Miral Murder.|
 A Save Tomothy|QID|79110|M|60.27,21.14|Z|2215;Hallowfall|N|From Miral Murder.|RANK|2|
-K The Grasping Darkness|ACTIVE|79110|M|60.16,20.70|Z|2215;Hallowfall|QO|1|N|Defeat The Grasping Darkness.|T|The Grasping Darkness.|
-C Seeds of Evil|QID|79108|M|61.40,28.20|Z|2215;Hallowfall|QO|1|N|Collect Corrupted Shadowleaf Seeds.|US|
-T Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
+K The Grasping Darkness|ACTIVE|79110|M|60.16,20.70|Z|2215;Hallowfall|QO|1|N|Defeat The Grasping Darkness.|T|The Grasping Darkness|
 T Save Tomothy|QID|79110|M|61.17,30.55|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
 T A Flickering of Hope|QID|50690|M|65.4,32.2|Z|2215;Hallowfall|N|To Keyrra Flamestonge.|
-;Back to normal
-
 
 T Lights Out|QID|78686|M|49.95,20.96|Z|2215;Hallowfall|N|To Taenar Strongoth.|
 A If It Leads, It Bleeds|QID|78689|M|49.93,20.94|Z|2215;Hallowfall|N|From Taenar Strongoth.|RANK|2|
@@ -342,9 +340,9 @@ C Crash Recovery|QID|78687|M|51.04,16.64|Z|2215;Hallowfall|N|Finish up collectin
 T The One That Got Away|QID|78691|M|45.81,13.08|Z|2215;Hallowfall|N|To Duke Velhan.|
 T Crash Recovery|QID|78687|M|45.79,13.08|Z|2215;Hallowfall|N|To Taenar Strongoth.|
 A Lamp Lit|QID|78695|M|45.79,13.08|Z|2215;Hallowfall|N|From Taenar Strongoth.|RANK|2|
-C Lamp Lit|QID|78695|M|44.98,13.29|Z|2215;Hallowfall|QO|1|NC|N|Place Torches.|
+C Lamp Lit|QID|78695|M|44.98,13.29|Z|2215;Hallowfall|QO|1|H|N|Place Torches.|
 C Lamp Lit|QID|78695|M|45.96,10.53|Z|2215;Hallowfall|QO|2|CHAT|N|Speak with Taenar at the Dawntower.|
-C Lamp Lit|QID|78695|M|45.97,10.49|Z|2215;Hallowfall|QO|3|NC|N|Dawntower Lit.|
+C Lamp Lit|QID|78695|M|45.97,10.49|Z|2215;Hallowfall|QO|3|H|N|Dawntower Lit.|
 T Lamp Lit|QID|78695|M|45.89,10.48|Z|2215;Hallowfall|N|To Duke Velhan.|
 A A Helping Farmhand|QID|82477|M|49.11,61.96|Z|2215;Hallowfall|N|From Orren Masyn.|RANK|2|
 T The Last Mage|QID|80175|M|48.75,64.45|Z|2215;Hallowfall|N|To Wenren Althal.|
@@ -401,10 +399,10 @@ T Sweet-Sting Infestation|QID|79645|M|40.53,34.93|Z|2215;Hallowfall|N|To Sister 
 T Memorial Wine|QID|79646|M|40.53,34.93|Z|2215;Hallowfall|N|To Sister Etna Blayze.|
 A Burning Reflections|QID|79647|M|40.53,34.93|Z|2215;Hallowfall|N|From Sister Etna Blayze.|RANK|2|
 C Burning Reflections|QID|79647|QO|1|M|39.56,37.42|Z|2215;Hallowfall|N|Talk to Baron Sybaestan Braunpyke.|CHAT|
-C Burning Reflections|QID|79647|M|39.51,37.45|Z|2215;Hallowfall|QO|2|NC|N|Burn Memories.|
+C Burning Reflections|QID|79647|M|39.51,37.45|Z|2215;Hallowfall|QO|2|H|N|Burn Memories.|
 T Burning Reflections|QID|79647|M|39.63,37.22|Z|2215;Hallowfall|N|To Sister Etna Blayze.|
 A Missing Somebody|QID|79648|M|39.64,37.21|Z|2215;Hallowfall|RANK|2|
-C Missing Somebody|QID|79648|M|38.54,37.85|Z|2215;Hallowfall|QO|1|NC|N|Inspect funerary platform.|
+C Missing Somebody|QID|79648|M|38.54,37.85|Z|2215;Hallowfall|QO|1|H|N|Inspect funerary platform.|
 T Missing Somebody|QID|79648|M|39.60,37.22|Z|2215;Hallowfall|N|To Sister Etna Blayze.|
 A Sacred Flame Inquisition|QID|79649|M|39.60,37.22|Z|2215;Hallowfall|N|From Sister Etna Blayze.|RANK|2|
 C Sacred Flame Inquisition|QID|79649|M|40.19,35.87|Z|2215;Hallowfall|QO|1|NC|N|Question Suspicious Clergy.|
@@ -412,7 +410,7 @@ T Sacred Flame Inquisition|QID|79649|M|40.36,34.96|Z|2215;Hallowfall|N|To Sister
 A Priory of the Sacred Flame: A Brother's Grief|QID|79650|M|40.36,34.96|Z|2215;Hallowfall|N|From Sister Etna Blayze.|RANK|3|
 T Regularly Scheduled Maintenance|QID|82478|M|45.99,10.52|Z|2215;Hallowfall|N|To Aemyra Acton.|
 A The Sword is Mightier|QID|82479|M|45.99,10.52|Z|2215;Hallowfall|N|From Aemyra Acton.|RANK|2|
-C The Sword is Mightier|QID|82479|M|45.99,10.52|Z|2215;Hallowfall|QO|1|NC|N|Put Aemyra's sentiments on paper.|
+C The Sword is Mightier|QID|82479|M|45.99,10.52|Z|2215;Hallowfall|QO|1|CHAT|N|Put Aemyra's sentiments on paper.|
 T The Sword is Mightier|QID|82479|M|46.55,59.83|Z|2215;Hallowfall|N|To Orren Masyn.|
 A Job Killing Robot Or...|QID|82480|M|46.55,59.83|Z|2215;Hallowfall|N|From Orren Masyn.|RANK|2|
 C Job Killing Robot Or...|QID|82480|M|45.73,57.82|Z|2215;Hallowfall|QO|1|NC|N|ELIZA stopped.|
@@ -450,37 +448,43 @@ T A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|N|To Vaelisia Ste
 ; ---STRIKING STEEL QUESTLINE END---
 
 ; ---REST AT LAST QUESTLINE---
-;A A Concerned Friend|QID|83497|M|51.00,46.2|Z|2339;Dornogal|N|From Val Thalvassa|RANK|2|LVL|80|
-;A A Moment to Rest|QID|79165|PRE|83497|M|43.12,52.41|Z|2215;Hallowfall|N|From Great Kyron.|RANK|2|LVL|80|
-;C A Moment to Rest|QID|79165|M|40.69,70.94|Z|2215;Hallowfall|QO|1|NC|N|Find Faerin.|
-;T A Moment to Rest|QID|79165|M|40.71,70.88|Z|2215;Hallowfall|N|To Anduin Wrynn. (Short RP discussion before it becomes available.)|
-;A Lost Pieces|QID|79166|PRE|79165^83497|M|40.71,70.89|Z|2215;Hallowfall|N|From Anduin Wrynn.|RANK|2|
-;C Lost Pieces|QID|79166|M|44.32,75.89|Z|2215;Hallowfall|QO|1|NC|N|Kill mobs, loot lost belongings.|
-;T Lost Pieces|QID|79166|M|43.17,52.56|Z|2215;Hallowfall|N|To Faerin Lothar|
-;A Crowdsourcing|QID|79167|M|43.17,52.57|Z|2215;Hallowfall|N|From Faerin Lothar.|RANK|2|
-;C Crowdsourcing|QID|79167|M|43.93,49.73;40.33,50.98;41.76,55.81;43.01,56.83|CS|Z|2215;Hallowfall|QO|1|NC|N|Borrow Game Pieces.|
-;T Crowdsourcing|QID|79167|M|43.15,52.40|Z|2215;Hallowfall|N|To Faerin Lothar. (Top floor)|
-;A Light's Gambit|QID|79168|M|43.15,52.40|Z|2215;Hallowfall|N|From Faerin Lothar.|RANK|2|
-;C Light's Gambit|QID|79168|M|43.19,52.39|Z|2215;Hallowfall|QO|1|NC|N|Play a round of Light's Gambit.|
-;C Light's Gambit|QID|79168|M|43.15,52.40|Z|2215;Hallowfall|QO|2|NC|N|Stay a while and chat (Optional).|
-;T Light's Gambit|QID|79168|M|43.15,52.40|Z|2215;Hallowfall|N|To Anduin Wrynn.|
+N This next quest line starts in Dornogal. Make your way there best you can.|
+A A Concerned Friend|QID|83497|M|51.00,46.2|Z|2339;Dornogal|N|From Val Thalvassa in Dornogal.|RANK|2|LVL|80|
+T A Concerned Friend|QID|83497|M|43.12,52.46|Z|2215;Hallowfall|N|To Great Kyron.|RANK|2|
+A A Moment to Rest|QID|79165|PRE|83497|M|43.12,52.41|Z|2215;Hallowfall|N|From Great Kyron.|RANK|2|LVL|80|
+C A Moment to Rest|QID|79165|M|40.69,70.94|Z|2215;Hallowfall|QO|1|NC|N|Find Faerin.|
+T A Moment to Rest|QID|79165|M|40.71,70.88|Z|2215;Hallowfall|N|To Anduin Wrynn. (Short RP discussion before it becomes available.)|
+A Lost Pieces|QID|79166|PRE|79165^83497|M|40.71,70.89|Z|2215;Hallowfall|N|From Anduin Wrynn.|RANK|2|
+C Lost Pieces|QID|79166|M|44.32,75.89|Z|2215;Hallowfall|QO|1|NC|N|Kill mobs, loot lost belongings.|
+T Lost Pieces|QID|79166|M|43.17,52.56|Z|2215;Hallowfall|N|To Faerin Lothar|
+A Crowdsourcing|QID|79167|M|43.17,52.57|Z|2215;Hallowfall|N|From Faerin Lothar.|RANK|2|
+C Crowdsourcing|QID|79167|QO|1<1|M|43.93,49.73|Z|2215;Hallowfall|CHAT|N|Talk to Kiera Horth.|
+C Crowdsourcing|QID|79167|QO|1<2|M|40.33,50.98|Z|2215;Hallowfall|CHAT|N|Talk to Marja Lenglow.|
+C Crowdsourcing|QID|79167|QO|1<3|M|41.76,55.81|Z|2215;Hallowfall|CHAT|N|Talk to Keth Wernt.|
+C Crowdsourcing|QID|79167|QO|1<4|M|43.01,56.83|Z|2215;Hallowfall|CHAT|N|Talk to Cargen Fairleifen.|
+T Crowdsourcing|QID|79167|M|43.15,52.40|Z|2215;Hallowfall|N|To Faerin Lothar. (Top floor)|
+A Light's Gambit|QID|79168|M|43.15,52.40|Z|2215;Hallowfall|N|From Faerin Lothar.|RANK|2|
+C Light's Gambit|QID|79168|M|43.19,52.39|Z|2215;Hallowfall|QO|1|H|N|Play a round of Light's Gambit.|
+C Light's Gambit|QID|79168|M|43.15,52.40|Z|2215;Hallowfall|QO|2|NC|N|Stay a while and chat (Optional).|
+T Light's Gambit|QID|79168|M|43.15,52.40|Z|2215;Hallowfall|N|To Anduin Wrynn.|
 ; ---REST AT LAST STORYLINE END---
 
 ; ---Memories of the Sky Beginning---
-;A Runway Scare-a-way|QID|80673|M|60.49,60.12|Z|2215;Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
-;A Torching Lights|QID|80677|M|60.49,60.12|Z|2215;Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
-;C Runway Scare-a-way|QID|80673|M|60.72,62.16|Z|2215;Hallowfall|QO|1|N|Fly into the Flickering Glowmoths.)|S|
-;C Torching Lights|QID|80677|M|61.49,61.86|Z|2215;Hallowfall|QO|1|NC|U|219943|N|Torch Moth egg bunches found in the flowers above the area.|
-;C Runway Scare-a-way|QID|80673|M|60.72,62.16|Z|2215;Hallowfall|QO|1|N|Keep killing Flickering Glowmoths (by flying into them.)|US|
-;T Runway Scare-a-way|QID|80673|M|60.48,60.14|Z|2215;Hallowfall|N|To Maera Ashyld.|LVL|80|
-;T Torching Lights|QID|80677|M|60.48,60.14|Z|2215;Hallowfall|N|To Maera Ashyld.|LVL|80|
-;A Time Lost|QID|80678|M|60.48,60.14|Z|2215;Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
-;C Time Lost|QID|80678|M|60.92,63.11|Z|2215;Hallowfall|QO|1|NC|N|Collect Mementos. They can drop from mobs, or be found in some of the glowing spots on the ground.|
-;T Time Lost|QID|80678|M|60.51,60.15|Z|2215;Hallowfall|N|To Maera Ashyld.|LVL|80|
-;A Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI|
-;C Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI|
-;T Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI|
+A Runway Scare-a-way|QID|80673|M|60.49,60.12|Z|2215;Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
+A Torching Lights|QID|80677|M|60.49,60.12|Z|2215;Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
+C Runway Scare-a-way|QID|80673|M|60.72,62.16|Z|2215;Hallowfall|QO|1|N|Fly into the Flickering Glowmoths.)|S|
+C Torching Lights|QID|80677|M|61.49,61.86|Z|2215;Hallowfall|QO|1|NC|U|219943|N|Torch Moth egg bunches found in the flowers above the area.|
+C Runway Scare-a-way|QID|80673|M|60.72,62.16|Z|2215;Hallowfall|QO|1|N|Keep killing Flickering Glowmoths (by flying into them.)|US|
+T Runway Scare-a-way|QID|80673|M|60.48,60.14|Z|2215;Hallowfall|N|To Maera Ashyld.|LVL|80|
+T Torching Lights|QID|80677|M|60.48,60.14|Z|2215;Hallowfall|N|To Maera Ashyld.|LVL|80|
+A Time Lost|QID|80678|M|60.48,60.14|Z|2215;Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
+C Time Lost|QID|80678|M|60.92,63.11|Z|2215;Hallowfall|QO|1|NC|N|Collect Mementos. They can drop from mobs, or be found in some of the glowing spots on the ground.|
+T Time Lost|QID|80678|M|60.51,60.15|Z|2215;Hallowfall|N|To Maera Ashyld.|LVL|80|
+A Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI.This is on a weekly timegate. if its not showing up wait till server reset and try again.|
+C Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI|
+T Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI|
 ; ---Memories of the Sky End---
+
 
 
 N Complete Delves|ACTIVE|83767^83768^83769^83755|N|Wrap up any leftover Delves or object quests now, as the next quests lead to the next zone.|RANK|2|
@@ -498,32 +502,6 @@ A The Rise of the Reckoning|QID|78630|M|38.78,81.57|Z|2215;Hallowfall|N|From Fae
 C The Rise of the Reckoning|QID|78630|M|38.86,81.61|Z|2215;Hallowfall|QO|1|NC|N|Click the rope ladder right next to you to board The Reckoning.|
 C The Rise of the Reckoning|QID|78630|M|38.86,81.61|Z|2215;Hallowfall|QO|2|N|As the fight progresses you will get more options for killing the Nerubians.|
 T The Rise of the Reckoning|QID|78630|M|29.37,42.24|Z|2255;The Reckoning|N|To Faerin.|
-
-
-
-
-
-
-
-
-
-
-
-;A The Light's Call|QID|81990|M|41.28,53.04|Z|2215;Hallowfall|N|To Auralia Steelstrike.|LVL|80|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ]]
