@@ -521,8 +521,8 @@ N Come back later|AVAILABLE|79526|N|The final parts of the Sojourner achievement
 ;============Isle of Dorn wrap up=============
 
 ;Merrix and Steelvein Quest line for Sojourner of IoD
-;A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;also offered it The ringing deeps -- correct PRE?
-A The Councilward's Summons|QID|79542|PRE|79525&79354|M|45.97,47.31|Z|2339;Dornogal|N|From Saradi.|RANK|2|
+A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|IZ|The Ringing Deeps|;also offered it The ringing deeps -- correct PRE?
+A The Councilward's Summons|QID|79542|PRE|79525&79354|M|45.97,47.31|Z|2339;Dornogal|N|From Saradi.|RANK|2|IZ|Dornogal|
 C The Councilward's Summons|QID|79542|M|55.33,6.34|Z|2339;Dornogal|QO|1|NC|N|Meet Merrix at the Councilward's Rise.|
 T The Councilward's Summons|QID|79542|M|55.33,6.34|Z|2339;Dornogal|N|To Merrix.|
 A Dornogal's Benefactor|QID|79543|PRE|79542|M|55.33,6.34|Z|2339;Dornogal|N|From Merrix.|RANK|2|
