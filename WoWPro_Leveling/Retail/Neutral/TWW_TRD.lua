@@ -564,15 +564,15 @@ T Dark Iron from Above|QID|78760|M|46.70,10.23|Z|2214; The Ringing Deeps|N|To Mo
 A Into the Machine|QID|78761|M|46.74,10.31|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|
 C Into the Machine|QID|78761|M|46.40,8.79|Z|2214; The Ringing Deeps|QO|1|N|Enter the Hall of Awakening.|
 C In Pursuit|ACTIVE|78761|SO|1|M|22.72,49.90|Z|2368;Hall of Awakening|N|Run forward.|I|
-C Security Breach|ACTIVE|78761|SO|2:2|M|28.40,48.25|Z|2368;Hall of Awakening|N|Collect an Ironfuse Bomb.|
-C Security Breach|ACTIVE|78761|SO|2:1|M|26.62,45.89|Z|2368;Hall of Awakening|N|Use the bomb to destroy the Inferno Sprayers. Rinse, Repeat.|
+C Security Breach|ACTIVE|78761|SO|2;2|M|28.40,48.25|Z|2368;Hall of Awakening|N|Collect an Ironfuse Bomb.|
+C Security Breach|ACTIVE|78761|SO|2;1|M|26.62,45.89|Z|2368;Hall of Awakening|N|Use the bomb to destroy the Inferno Sprayers. Rinse, Repeat.|
 C Journey Deeper|ACTIVE|78761|SO|3|M|37.70,49.51|Z|2368;Hall of Awakening|N|Continue forward, it takes a bit before the doors open.|
 C Activate the Runelock|ACTIVE|78761|SO|4|M|42.68,45.18|Z|2368;Hall of Awakening|N|Go click the console.|NC|
 C Skardyn Breakout|ACTIVE|78761|SO|5|M|42.68,45.18|Z|2368;Hall of Awakening|N|Kill stuff coming to attack Dagran.|
-C Twin Guardians|ACTIVE|78761|SO|6:1|M|56.26,50.15|Z|2368;Hall of Awakening|N|Head into the Annihilation Interface Chamber.|
-K Earthen-Ward Sentinel|ACTIVE|78761|SO|6:2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|S|
-K Iron-Runed Protector|ACTIVE|78761|SO|6:3|M|62.42,52.88|Z|2368;Hall of Awakening|N|Kill the Iron-Runed Protector. They take turns being shielded, attack the one that isn't shielded.|T|Iron-Runed Protector|
-K Earthen-Ward Sentinel|ACTIVE|78761|SO|6:2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|US|
+C Twin Guardians|ACTIVE|78761|SO|6;1|M|56.26,50.15|Z|2368;Hall of Awakening|N|Head into the Annihilation Interface Chamber.|
+K Earthen-Ward Sentinel|ACTIVE|78761|SO|6;2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|S|
+K Iron-Runed Protector|ACTIVE|78761|SO|6;3|M|62.42,52.88|Z|2368;Hall of Awakening|N|Kill the Iron-Runed Protector. They take turns being shielded, attack the one that isn't shielded.|T|Iron-Runed Protector|
+K Earthen-Ward Sentinel|ACTIVE|78761|SO|6;2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|US|
 C The Awaking Machine|ACTIVE|78761|SO|7|M|77.25,49.73|Z|2368;Hall of Awakening|N|Head into the final chamber.|
 C Vigilance and Violence|ACTIVE|78761|SO|8|M|84.48,49.47|Z|2368;Hall of Awakening|N|Defeat Master Machinist Dunstan.|T|Master Machinist Dunstan|
 C King of the Dwarves|ACTIVE|78761|SO|9|M|84.48,49.47|Z|2368;Hall of Awakening|N|Confront High Speaker Eirich.|

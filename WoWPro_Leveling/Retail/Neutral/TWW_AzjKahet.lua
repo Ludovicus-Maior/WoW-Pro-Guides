@@ -21,12 +21,13 @@ T The Second Front|QID|79574|M|27.56,45.08|Z|2255;Azj-Kahet|N|To General Steelst
 A That Airspace is Mine(d)!|QID|79579|M|27.56,45.08|Z|2255;Azj-Kahet|N|From General Steelstrike.|RANK|2|
 A Offensive Counter|QID|79580|M|27.56,45.08|Z|2255;Azj-Kahet|N|From General Steelstrike.|RANK|2|
 C Offensive Counter|QID|79580|M|33.45,42.06|Z|2255;Azj-Kahet|QO|1|N|Slay Nerubians.|S|
+C That Airspace is Mine(d)!|QID|79579|M|30.34,45.76|Z|2255;Azj-Kahet|QO|1|N|Fly through the light over a priest, then through 5 balloon mines.|S|
 C Chasing the Light|QID|78384|M|26.53,42.95|Z|2255;Azj-Kahet|QO|2|N|Examine the Bleached Bones.|H|
 C Chasing the Light|QID|78384|M|29.15,44.54|Z|2255;Azj-Kahet|QO|1|N|Rifle thru the rubble to find a Crumpled Lion Gauntlet.|H|
 C Chasing the Light|QID|78384|M|32.52,38.78|Z|2255;Azj-Kahet|QO|3|N|Examine the Scrap of Weathered Fabric.|H|
 C Offensive Counter|QID|79580|M|33.45,42.06|Z|2255;Azj-Kahet|QO|1|N|Nerubians slain.|US|
 C Heroes Never Die|QID|78350|M|31.29,41.66|Z|2255;Azj-Kahet|QO|1|H|N|Wounded Aeroknights rescued.|US|
-C That Airspace is Mine(d)!|QID|79579|M|30.34,45.76|Z|2255;Azj-Kahet|QO|1|N|Fly through the light over a priest, then through 5 balloon mines.|
+C That Airspace is Mine(d)!|QID|79579|M|30.34,45.76|Z|2255;Azj-Kahet|QO|1|N|Fly through the light over a priest, then through 5 balloon mines.|US|
 T That Airspace is Mine(d)!|QID|79579|M|27.53,45.20|Z|2255;Azj-Kahet|N|To General Steelstrike.|
 T Offensive Counter|QID|79580|M|27.53,45.20|Z|2255;Azj-Kahet|N|To General Steelstrike.|
 T Chasing the Light|QID|78384|M|32.44,47.19|Z|2255;Azj-Kahet|N|To Alleria Windrunner.|
@@ -288,7 +289,8 @@ T Strange Bats|QID|83321|M|42.26,42.51|Z|2255;Azj-Kahet|N|To Greenspeaker Na'lay
 A Boom or Blight|QID|78897|M|42.26,42.51|Z|2255;Azj-Kahet|N|From Greenspeaker Na'layro.|RANK|2|
 A Intention vs Instinct|QID|78898|M|42.26,42.51|Z|2255;Azj-Kahet|N|From Greenspeaker Na'layro.|RANK|2|
 A Heeeelllp!!!|QID|78901|M|41.41,38.76|Z|2255;Azj-Kahet|N|From UI, when you go thru the tunnel into The Wormlands.|RANK|2|
-C Boom or Blight|QID|78897|M|38.15,42.41|Z|2255;Azj-Kahet|QO|1|N|Worms of the Wormlands slain.|C Heeeelllp!!!|QID|78901|M|40.72,39.92|Z|2255;Azj-Kahet|QO|1|NC|N|Kill the group of 3 Razorscale Devourers and then stand on the edge of the rocky outcropping to rescue Skedgit Cinderbangs.|
+C Boom or Blight|QID|78897|M|38.15,42.41|Z|2255;Azj-Kahet|QO|1|N|Worms of the Wormlands slain.|
+C Heeeelllp!!!|QID|78901|M|40.72,39.92|Z|2255;Azj-Kahet|QO|1|NC|N|Kill the group of 3 Razorscale Devourers and then stand on the edge of the rocky outcropping to rescue Skedgit Cinderbangs.|
 T Heeeelllp!!!|QID|78901|M|40.76,39.75|Z|2255;Azj-Kahet|N|To Skedgit Cinderbangs.|
 A Delegated Dig|QID|78902|M|40.76,39.75|Z|2255;Azj-Kahet|N|From Skedgit Cinderbangs.|RANK|2|
 C Intention vs Instinct|QID|78898|M|39.93,39.84;39.45,42.32|CS|Z|2255;Azj-Kahet|N|Go down into this small tunnel and to the back and kill the Nerubian to lootthe Singing Stone.|
