@@ -423,7 +423,7 @@ A Beautification Project|QID|79114|M|75.99,82.33|Z|2255;The Royal Livery|N|From 
 C Beautification Project|QID|79114|M|72.81,82.50|Z|2255;Azj-Kahet|QO|1|H|N|Click the offending plants and walk away to remove them.|
 T Beautification Project|QID|79114|M|75.99,82.30|Z|2255;The Royal Livery|N|To Kish'nal.|
 A Expert Consultant|QID|79115|M|76.01,82.46|Z|2255;The Royal Livery|N|From Vix'aron.|RANK|2|
-;<<< this quest (79349) should now be in log after moving blocks>>> it may have followups but didnt seem to. 
+;<<< this quest (79349) should now be in log after moving blocks>>> it may have followups but didnt seem to.
 T Entrepreneur, Inc.|QID|79349|M|78.25,61.79|Z|2255;Azj-Kahet|N|To Ripsnoodle.|
 T Trade Partners|QID|79651|M|77.06,64.18|Z|2255;Azj-Kahet|N|To Monte Gazlowe.|
 A Nothing Ventured|QID|80558|PRE|79651|M|77.06,64.18|Z|2255;Azj-Kahet|N|From Monte Gazlowe.|RANK|2|
