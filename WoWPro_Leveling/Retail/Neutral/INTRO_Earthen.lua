@@ -40,7 +40,7 @@ P Orgrimmar|ACTIVE|81888|M|7.22,52.39|Z|2322;Hall of Awakening|N|Take the portal
 T For the Horde|QID|81888|M|39.48,79.42|Z|85;Orgrimmar|N|To Ambassador Blackguard.|FACTION|Horde|
 A Stranger in a Strange Land|QID|81889|PRE|81888|M|39.48,79.42|Z|85;Orgrimmar|N|From Ambassador Blackguard.|FACTION|Horde|
 C Stranger in a Strange Land|QID|81889|M|40.76,80.06|Z|85;Orgrimmar|QO|1|NC|U|205458|N|Talk to Chromie.|FACTION|Horde|
-T Stranger in a Strange Land|QID|81889|M|40.73,80.26|Z|85;Orgrimmar|N|To Brunhold.|FACTION|Horde|FACTION|Horde|
+T Stranger in a Strange Land|QID|81889|M|40.73,80.26|Z|85;Orgrimmar|N|To Brunhold.|FACTION|Horde|
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\n Click the guide button next to this frame to direct you to Chromie!|CT|FACTION|Alliance|
 N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|85;Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|CT|FACTION|Horde|
 
