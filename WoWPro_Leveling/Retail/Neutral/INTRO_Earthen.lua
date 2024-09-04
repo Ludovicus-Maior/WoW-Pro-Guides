@@ -2,8 +2,8 @@ local guide = WoWPro:RegisterGuide("CagEarthen", "Leveling", "Hall of Awakening!
 WoWPro:GuideLevels(guide, 10, 10)
 WoWPro:GuideSort(guide, 12)
 WoWPro:GuideContent(guide, "Intro")
-WoWPro:GuideName(guide,'Earthen:Intro')
---WoWPro:GuideRaceSpecific(guide,"Earthen")--
+WoWPro:GuideName(guide,'Earthen: Intro')
+WoWPro:GuideRaceSpecific(guide,"EarthenDwarf")
 WoWPro:GuideNextGuide(guide, "Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return
