@@ -420,25 +420,25 @@ T Job Killing Robot Or...|QID|82480|M|49.35,62.06|Z|2215;Hallowfall|N|To Orren M
 ; ---STRIKING STEEL QUESTLINE CONTINUIATION---
 A Spice Up Your Life|QID|82219|M|42.35,55.01|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|LVL|75|;This is a time gated quest, looks like 24 real life hours since you turned in Underground Economy.
 A Eagle Eye, Eagle Die|QID|82220|M|42.35,55.01|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|LVL|75|
-C Spice Up Your Life|QID|82219|M|26.24,56.13|Z|2215;Hallowfall|QO|1|NC|N|Gather 7 Light-Bathed Lotus.|S|
-C Eagle Eye, Eagle Die|QID|82220|M|26.24,56.13|Z|2215;Hallowfall|QO|1|N|Use your Extra Action Button to harpoon the eagles out of the sky. Collect 5 Eagle Fillets.|
-C Spice Up Your Life|QID|82219|M|26.24,56.13|Z|2215;Hallowfall|QO|1|NC|N|Gather 7 Light-Bathed Lotus.|US|
+C Spice Up Your Life|QID|82219|M|26.24,56.13|Z|2215;Hallowfall|QO|1|H|N|Gather 7 Light-Bathed Lotus.|S|
+C Eagle Eye, Eagle Die|QID|82220|M|26.24,56.13|Z|2215;Hallowfall|QO|1|N|Use your harpoon to snipe the eagles out of the sky. Collect Eagle Fillets.|U|222976|
+C Spice Up Your Life|QID|82219|M|26.24,56.13|Z|2215;Hallowfall|QO|1|H|N|Gather 7 Light-Bathed Lotus.|US|
 T Spice Up Your Life|QID|82219|M|44.55,50.82|Z|2215;Hallowfall|N|To Auralia Steelstrike.|RANK|2|
 T Eagle Eye, Eagle Die|QID|82220|M|44.55,50.82|Z|2215;Hallowfall|N|To Auralia Steelstrike.|RANK|2|
 A Full Dress|QID|82221|M|44.55,50.82|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|LVL|75|
-C Full Dress|QID|82221|M|44.56,50.82|Z|2215;Hallowfall|QO|1|NC|N|Decorate by clicking the various objects around the house.|
+C Full Dress|QID|82221|M|44.56,50.82|Z|2215;Hallowfall|QO|1|H|N|Decorate by clicking the various objects around the house.|
 T Full Dress|QID|82221|M|44.55,50.82|Z|2215;Hallowfall|N|To Auralia Steelstrike.|
 A Cooking With Style|QID|82222|M|44.58,50.70|Z|2215;Hallowfall|N|From General Steelstrike.|RANK|2|LVL|75|
 C Cooking With Style|QID|82222|M|43.83,49.88|Z|2215;Hallowfall|QO|1|NC|N|Join the Steelstrikes in the Cookhouse.|
-C Cooking With Style|QID|82222|M|43.92,49.64|Z|2215;Hallowfall|QO|2|NC|N|Chop the Vegetables.|
-C Cooking With Style|QID|82222|M|43.86,49.69|Z|2215;Hallowfall|QO|3|NC|N|Throw Cheese into the Pot.|
-C Cooking With Style|QID|82222|M|44.03,49.75|Z|2215;Hallowfall|QO|4|NC|N|Throw Water at the Cooking Pot.|
+C Cooking With Style|QID|82222|M|43.92,49.64|Z|2215;Hallowfall|QO|2|H|N|Chop the Vegetables.|
+C Cooking With Style|QID|82222|M|43.86,49.69|Z|2215;Hallowfall|QO|3|H|N|Throw Cheese into the Pot.|
+C Cooking With Style|QID|82222|M|44.03,49.75|Z|2215;Hallowfall|QO|4|H|N|Throw Water at the Cooking Pot.|
 C Cooking With Style|QID|82222|M|43.94,49.67|Z|2215;Hallowfall|QO|5|CHAT|N|Talk to General Steelstrike to start cooking.|
-C Cooking With Style|QID|82222|M|43.94,49.72|Z|2215;Hallowfall|QO|6|NC|N|Throw things into the cooking pot. Douse it with water if it catches fire.|
+C Cooking With Style|QID|82222|M|43.94,49.72|Z|2215;Hallowfall|QO|6|H|N|Throw things into the cooking pot. Douse it with water if it catches fire.|
 C Cooking With Style|QID|82222|M|43.96,49.70|Z|2215;Hallowfall|QO|7|CHAT|N|Sample the Stew.|
 T Cooking With Style|QID|82222|M|43.94,49.67|Z|2215;Hallowfall|N|To General Steelstrike.|
 A A Home Cooked Meal|QID|82223|M|43.94,49.67|Z|2215;Hallowfall|N|From General Steelstrike.|RANK|2|LVL|75|
-C A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|QO|1|NC|N|Have a seat at the Steelstrike dinner table.|
+C A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|QO|1|H|N|Have a seat at the Steelstrike dinner table.|
 C A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|QO|2|CHAT|N|Eat your stew.|
 C A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|QO|3|CHAT|N|Talk to Fynn Steelstrike (Optional).|
 C A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|QO|4|CHAT|N|Talk to Tara Steelstrike (Optional).|
@@ -448,7 +448,7 @@ T A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|N|To Vaelisia Ste
 ; ---STRIKING STEEL QUESTLINE END---
 
 ; ---REST AT LAST QUESTLINE---
-N This next quest line starts in Dornogal. Make your way there best you can.|
+N This next quest line starts in Dornogal. Make your way there best you can.|AVAILABLE|83497|
 A A Concerned Friend|QID|83497|M|51.00,46.2|Z|2339;Dornogal|N|From Val Thalvassa in Dornogal.|RANK|2|LVL|80|
 T A Concerned Friend|QID|83497|M|43.12,52.46|Z|2215;Hallowfall|N|To Great Kyron.|RANK|2|
 A A Moment to Rest|QID|79165|PRE|83497|M|43.12,52.41|Z|2215;Hallowfall|N|From Great Kyron.|RANK|2|LVL|80|
@@ -480,9 +480,9 @@ T Torching Lights|QID|80677|M|60.48,60.14|Z|2215;Hallowfall|N|To Maera Ashyld.|L
 A Time Lost|QID|80678|M|60.48,60.14|Z|2215;Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|
 C Time Lost|QID|80678|M|60.92,63.11|Z|2215;Hallowfall|QO|1|NC|N|Collect Mementos. They can drop from mobs, or be found in some of the glowing spots on the ground.|
 T Time Lost|QID|80678|M|60.51,60.15|Z|2215;Hallowfall|N|To Maera Ashyld.|LVL|80|
-A Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI.This is on a weekly timegate. if its not showing up wait till server reset and try again.|
-C Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI|
-T Time Found|QID|82810|M|59.6,60.8|Z|2215;Hallowfall|N|From UI|
+A Time Found|QID|82810|M|60.49,60.17|Z|2215;Hallowfall|N|From Maera Ashyld. This is on a weekly timegate. if its not showing up wait till server reset and try again.|
+C Time Found|QID|82810|M|60.71,61.37|Z|2215;Hallowfall|N|Kill some mushrooms and collect mementos, or grab them off the ground.|
+T Time Found|QID|82810|M|60.49,60.17|Z|2215;Hallowfall|N|To Maera Ashyld.|
 ; ---Memories of the Sky End---
 
 

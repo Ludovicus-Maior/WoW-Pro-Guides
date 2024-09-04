@@ -7,7 +7,6 @@ WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
 A Surface Bound|QID|79197|M|55.63,44.16|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|
 C Surface Bound|QID|79197|M|57.48,41.61|Z|2255;Azj-Kahet|QO|2|NC|N|Portal to Dornogal taken (Optional).|
 C Surface Bound|QID|79197|M|36.19,79.77|Z|2339;Dornogal|QO|1|NC|N|Meet with Moira Thaurissan in Dornogal.|
@@ -23,7 +22,6 @@ C The Fleet Arrives|QID|79333|M|35.08,80.45|Z|2339;Dornogal|QO|1|H|N|Telescope u
 C The Fleet Arrives|QID|79333|M|36.10,80.34|Z|2339;Dornogal|QO|2|CHAT|N|Report back to Moira.|
 T The Fleet Arrives|QID|79333|FACTION|Alliance|M|35.89,81.45|Z|2339;Dornogal|N|To Lady Jaina Proudmoore.|
 T The Fleet Arrives|QID|79333|FACTION|Horde|M|36.20,81.48|Z|2339;Dornogal|N|To Thrall.|
-
 
 ;-----------Alliance----------
 A Embassies and Envoys|QID|82153|PRE|79333|FACTION|Alliance|M|35.89,81.45|Z|2339;Dornogal|N|From Lady Jaina Proudmoore.|
@@ -54,7 +52,6 @@ C Large Horde Banner|QID|79328|FACTION|Horde|M|27.37,69.24|Z|Dornogal|QO|3<5|N|P
 C Embassies and Envoys|QID|79328|FACTION|Horde|M|27.37,69.24|Z|2339;Horde Embassy|QO|3|NC|N|Decorations placed inside.|
 C Embassies and Envoys|QID|79328|FACTION|Horde|M|28.29,66.42|Z|2339;Horde Embassy|QO|4|NC|N|Document signed.|
 T Embassies and Envoys|QID|79328|FACTION|Horde|M|31.75,59.25|Z|2339;Dornogal|N|To Moira Thaurissan.|
-
 
 A There's Always Another Secret|QID|83271|M|31.79,59.17|Z|2339;Dornogal|N|From Moira Thaurissan.|
 C There's Always Another Secret|QID|83271|M|29.91,59.80|Z|2339;Dornogal|QO|1|CHAT|N|Talk to Dagran Thaurissan II.|
@@ -170,8 +167,6 @@ C Titanic Failsafe|QID|79157|M|57.21,50.67|Z|2248;Isle of Dorn|QO|1|NC|N|Shraube
 C Titanic Failsafe|QID|79157|M|59.36,75.01|Z|2248;Isle of Dorn|QO|2|N|Colossal Titan Construct slain.|
 T Titanic Failsafe|QID|79157|M|31.51,59.84|Z|2339;Dornogal|N|To Alleria Windrunner.|
 
-
-
 ;--News from Below
 A Gathering Intel|QID|79224|PRE|79157|M|31.51,59.84|Z|2339;Dornogal|N|From Alleria Windrunner.|
 
@@ -241,7 +236,6 @@ P Dornogal|ACTIVE|79244|M|57.34,41.94|Z|2255;Azj-Kahet|N|Tunnel to Dornogal.|
 C News From Below|QID|79244|M|31.64,59.23|Z|2339;Dornogal|QO|2|NC|N|Report back to Alleria at the Coreway in Dornogal.|
 T News From Below|QID|79244|M|31.62,59.48|Z|2339;Dornogal|N|To Alleria Windrunner.|
 
-
 ;--The Machines March to War
 A A Mysterious Signal|QID|79022|M|31.64,59.48|Z|2339;Dornogal|N|From Alleria Windrunner.|
 T A Mysterious Signal|QID|79022|M|56.23,74.90|Z|2214;The Ringing Deeps|N|To High Speaker
@@ -301,13 +295,13 @@ C Decontaminate Crushers|QID|79028|M|59.54,40.25|Z|2214;The Ringing Deeps|QO|6|N
 T We Require More Minerals|QID|79028|M|PLAYER|Z|2214;The Ringing Deeps|N|To "Zee-Zee".|
 
 A The Motherlode|QID|80145|PRE|79028|M|PLAYER|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
-R Shadowvein Mine|ACTIVE|80145|M|58.54,36.18|Z|The Ringing Deeps|N|Mine Entrance.|
+R Shadowvein Mine|ACTIVE|80145|M|58.54,36.18|Z|2214;The Ringing Deeps|N|Mine Entrance.|
 C Activate Crushers|QID|80145|M|58.57,33.91|Z|2214;The Ringing Deeps|QO|1|NC|N|Cave Crushers activated.|
 C Defeat Magma Serpent|QID|80145|M|58.68,33.79|Z|2214;The Ringing Deeps|QO|2|N|Magma Serpent defeated.|
-C Speak to ZZ|QID|80145|M|PLAYER|Z|2214;Shadowvein Mine|QO|3|CHAT|N|Speak to ZZ-01-47.|
-T The Motherlode|QID|80145|M|PLAYER|Z|2214;Shadowvein Mine|N|To "Zee-Zee".|
+C Speak to ZZ|QID|80145|M|PLAYER|Z|2214;The Ringing Deeps|QO|3|CHAT|N|Speak to ZZ-01-47.|
+T The Motherlode|QID|80145|M|PLAYER|Z|2214;The Ringing Deeps|N|To "Zee-Zee".|
 
-A Back to Where it Began|QID|80517|M|PLAYER|PRE|80145|Z|2214;Shadowvein Mine|N|From "Zee-Zee".|
+A Back to Where it Began|QID|80517|M|PLAYER|PRE|80145|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
 T Back to Where it Began|QID|80517|M|56.27,74.88|Z|2214;The Ringing Deeps|N|To High Speaker Brinthe.|
 
 A It's Sabotage|QID|79029|PRE|80517|M|56.27,74.88|Z|2214;The Ringing Deeps|N|From High Speaker Brinthe.|
@@ -318,19 +312,34 @@ C Activate and Secure|QID|79029|M|56.22,77.50|Z|2214;The Ringing Deeps|QO|3|NC|N
 T It's Sabotage|QID|79029|M|56.10,77.63|Z|2214;The Ringing Deeps|N|To High Speaker Brinthe.|
 
 A The Voice of the Speakers|QID|79030|PRE|79029|M|56.10,77.63|Z|2214;The Ringing Deeps|N|From High Speaker Brinthe.|
-R The Coreway|ACTIVE|79030|M|56.10,77.63|Z|2214;The Ringing Deeps|N|Make your way to The COreway.|
+R The Coreway|ACTIVE|79030|M|56.10,77.63|Z|2214;The Ringing Deeps|N|Make your way to The Coreway.|
 T The Voice of the Speakers|QID|79030|M|31.56,59.59|Z|2339;Dornogal|N|To Alleria Windrunner.|
 
+A A Tide Needing Turned|QID|78941|PRE|79030|M|31.67,59.74|Z|2339;Dornogal|N|From Alleria Windrunner.|
+R The Coreway|ACTIVE|78941|M|37.53,59.78|Z|2214;The Ringing Deeps|N|Make your way to The Coreway.|
+T A Tide Needing Turned|QID|78941|M|71.63,59.16|Z|2215;Hallowfall|N|To General Steelstrike.|
 
-;--A Light in the Dark??
+A The Might of Khaz Algar|QID|78942|PRE|78941|M|71.63,59.16|Z|2215;Hallowfall|N|From General Steelstrike.|
+A Steel and Flames|QID|78943|PRE|78941|M|71.63,59.16|Z|2215;Hallowfall|N|From General Steelstrike.|
+C The Might of Khaz Algar|QID|78942|M|71.63,61.77|Z|2215;Hallowfall|N|Fight back against the Nerubians.|S|
+C Steel and Flames|QID|78943|M|71.63,61.77|Z|2215;Hallowfall|N|From General Steelstrike.|NC|U|217309|
+C The Might of Khaz Algar|QID|78942|M|71.63,61.77|Z|2215;Hallowfall|N|Clean up any Nerubians you have left.|US|
+T Steel and Flames|QID|78943|M|68.58,64.27|Z|2215;Hallowfall|N|To Thrall.|
+A Cutting Off the Legs|QID|78950|M|68.58,64.27|Z|2215;Hallowfall|N|From Lady Jaina Proudmoore.|
+K Nix'k the Wicked|ACTIVE|78950|QO|1|M|66.64,65.07|Z|2215;Hallowfall|N|Kill Nix'k the Wicked.|T|Nix'k the Wicked|
+K Kaz'vik|ACTIVE|78950|QO|2|M|67.82,67.37|Z|2215;Hallowfall|N|Kill Kaz'vik.|T|Kaz'vik|
+K Anub'ata|ACTIVE|78950|QO|3|M|64.40,68.42|Z|2215;Hallowfall|N|Anub'ata.|T|Anub'ata|
+T The Might of Khaz Algar|QID|78942|M|64.56,61.76|Z|2215;Hallowfall|N|To Faerin Lothar.|
+T Cutting Off the Legs|QID|78950|M|64.56,61.76|Z|2215;Hallowfall|N|To Anduin Wrynn.|
 
+A A Light in the Dark|QID|78948|M|64.56,61.76|Z|2215;Hallowfall|N|From Anduin Wrynn.|
+C A Light in the Dark|QID|78948|M|64.56,61.76|Z|2215;Hallowfall|N|Let Anduin know you are ready.|CHAT|
+T A Light in the Dark|QID|78948|M|35.95,35.45|Z|2215;Hallowfall|N|To Alleria Windrunner.|
 
-
-
-
-
-
-
+A Return to Dornogal|QID|83503|M|35.95,35.45|Z|2215;Hallowfall|N|From Alleria Windrunner.|
+R Dornogal|ACTIVE|83503|M|35.95,35.45|Z|2215;Hallowfall|N|From Alleria Windrunner.|
+C Return to Dornogal|QID|83503|QO|1|M|39.94,26.08|Z|2339;Dornogal|N|Speak to Merrix.|CHAT|
+T Return to Dornogal|QID|83503|M|25.20,66.14|Z|2339;Dornogal|N|To Anduin.|
 
 ]]
 end)

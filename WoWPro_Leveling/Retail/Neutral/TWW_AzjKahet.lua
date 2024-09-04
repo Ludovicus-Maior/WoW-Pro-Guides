@@ -7,7 +7,7 @@ WoWPro:GuideNextGuide(guide, 'Max Level Campaign')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Please be patient|N|This guide is a work in progress. Currently only have routing for campaign quests. NO ETA.|
+;N Please be patient|N|This guide is a work in progress. Currently only have routing for campaign quests. NO ETA.|
 
 R Azj-Kahet|ACTIVE|83552|M|63.51,52.29|Z|2339;Dornogal|N|Take the portal to Azj-Kahet or travel any other way your prefer.|IZ|Dornogal|
 R Azj-Kahet|ACTIVE|83552|N|Make your way to Azj-Kahet any way your prefer.|IZ|-Dornogal|
@@ -21,12 +21,13 @@ T The Second Front|QID|79574|M|27.56,45.08|Z|2255;Azj-Kahet|N|To General Steelst
 A That Airspace is Mine(d)!|QID|79579|M|27.56,45.08|Z|2255;Azj-Kahet|N|From General Steelstrike.|RANK|2|
 A Offensive Counter|QID|79580|M|27.56,45.08|Z|2255;Azj-Kahet|N|From General Steelstrike.|RANK|2|
 C Offensive Counter|QID|79580|M|33.45,42.06|Z|2255;Azj-Kahet|QO|1|N|Slay Nerubians.|S|
+C That Airspace is Mine(d)!|QID|79579|M|30.34,45.76|Z|2255;Azj-Kahet|QO|1|N|Fly through the light over a priest, then through 5 balloon mines.|S|
 C Chasing the Light|QID|78384|M|26.53,42.95|Z|2255;Azj-Kahet|QO|2|N|Examine the Bleached Bones.|H|
 C Chasing the Light|QID|78384|M|29.15,44.54|Z|2255;Azj-Kahet|QO|1|N|Rifle thru the rubble to find a Crumpled Lion Gauntlet.|H|
 C Chasing the Light|QID|78384|M|32.52,38.78|Z|2255;Azj-Kahet|QO|3|N|Examine the Scrap of Weathered Fabric.|H|
 C Offensive Counter|QID|79580|M|33.45,42.06|Z|2255;Azj-Kahet|QO|1|N|Nerubians slain.|US|
 C Heroes Never Die|QID|78350|M|31.29,41.66|Z|2255;Azj-Kahet|QO|1|H|N|Wounded Aeroknights rescued.|US|
-C That Airspace is Mine(d)!|QID|79579|M|30.34,45.76|Z|2255;Azj-Kahet|QO|1|N|Fly through the light over a priest, then through 5 balloon mines.|
+C That Airspace is Mine(d)!|QID|79579|M|30.34,45.76|Z|2255;Azj-Kahet|QO|1|N|Fly through the light over a priest, then through 5 balloon mines.|US|
 T That Airspace is Mine(d)!|QID|79579|M|27.53,45.20|Z|2255;Azj-Kahet|N|To General Steelstrike.|
 T Offensive Counter|QID|79580|M|27.53,45.20|Z|2255;Azj-Kahet|N|To General Steelstrike.|
 T Chasing the Light|QID|78384|M|32.44,47.19|Z|2255;Azj-Kahet|N|To Alleria Windrunner.|
@@ -66,33 +67,36 @@ C A Seeming Respite|QID|78393|M|56.89,46.96|Z|2255;Azj-Kahet|QO|1|NC|N|Flight Ma
 f Weaver's Lair|ACTIVE|78393|M|56.88,47.05|Z|2255;Azj-Kahet|N|At Wings of the Widow.|
 T A Seeming Respite|QID|78393|M|55.86,43.80|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
 A The Weaver's Gift|QID|78233|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
-A Making the Underworld Go Round|QID|84664|M|55.77,43.74|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
-C A Seeming Respite|QID|78393|M|56.87,38.95|Z|2255|QO|3|NC|N|Innkeeper located.|
-C A Seeming Respite|QID|78393|M|57.00,41.85|Z|2255|QO|2|NC|N|Repair vendor located.|
-C A Seeming Respite|QID|78393|M|56.89,46.96|Z|2255|QO|1|NC|N|Flight Master located.|
-T A Seeming Respite|QID|78393|M|55.86,43.80|Z|2255|N|To Widow Arak'nai.|
-A The Weaver's Gift|QID|78233|M|55.86,43.80|Z|2255|N|From Widow Arak'nai.|
-C Of Pacts and Patrons|QID|84682|M|56.38,43.30|Z|2255;Azj-Kahet|QO|1|NC|N|Learn of the Weaver's Pact.|
-C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255;Azj-Kahet|QO|1|NC|N|Learn of the Vizier's Pact.|
+;A Making the Underworld Go Round|QID|84664|M|55.77,43.74|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
+A The Weaver's Gift|QID|78233|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
+;A Of Pacts and Patrons|QID|84682|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|;This is a 1 time account bound quest.
+C Of Pacts and Patrons|QID|84682|M|56.38,43.30|Z|2255;Azj-Kahet|QO|1|CHAT|N|Talk to Bobbin.|
+C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255;Azj-Kahet|QO|2|CHAT|N|Talk to Tulumun.|
 A Ara-Kara, the City of Echoes: Harvest's End|QID|83166|M|56.21,42.25|Z|2255;Azj-Kahet|N|From Tulumun.|RANK|2|
-C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255;Azj-Kahet|QO|2|NC|N|Learn of the General's Pact.|
+A City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255;Azj-Kahet|N|From Tulumun.|RANK|3|
+t City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255;Azj-Kahet|N|To Tulumun.|
+C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255;Azj-Kahet|QO|2|CHAT|N|Talk to Anub'okki.|
 A Bountiful Beetles|QID|83325|M|55.88,42.18|Z|2255;Azj-Kahet|N|From Anub'okki.|RANK|2|
-B Making the Underworld Go Round|QID|84664|M|55.38,41.50|Z|2255;Azj-Kahet|N|Buy Dubious Vial of Vigor from Yamas the Provider.|
+B Making the Underworld Go Round|QID|84664|QO|1|M|55.38,41.50|Z|2255;Azj-Kahet|N|Buy Dubious Vial of Vigor from Yamas the Provider.|
 C Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|QO|4|NC|N|Pick which one to forge a pact with.|
-A Eyes of the Weaver|QID|80670|M|55.33,41.20|Z|2255;Azj-Kahet|N|From Y'tekhi.|RANK|2|
 T Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|N|To Y'tekhi.|
 T Making the Underworld Go Round|QID|84664|PRE|84682|M|55.78,43.74|Z|2255;Azj-Kahet|N|To Linny Leadfinger.|
 A Strange Bats|QID|83321|M|55.76,43.66|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
+A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
 C The Weaver's Gift|QID|78233|M|58.97,19.96|Z|2255;Azj-Kahet|QO|1|NC|N|Weaver's gift located.|
 T The Weaver's Gift|QID|78233|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
+T Advance to Faerin|QID|82248|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|LEAD|81929|
 A Rations and Revelations|QID|80399|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
 A Where the Wild Things Camp|QID|83306|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
-A Here's the Plan|QID|81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
-C Here's the Plan|QID|81929|QO|1|M|59.37,19.36|Z|2255;Azj-Kahet|CHAT|N|Ask Faerin Lothar about her plan.|RANK|2|
 A Beneath the Roots|QID|83716|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
-C Rations and Revelations|QID|80399|M|59.41,19.18|Z|2255;Azj-Kahet|QO|1<1|H|N|Distribute Arathi Rations.|
-C Here's the Plan|QID|81929|QO|3|M|59.34,19.46|Z|2255;Azj-Kahet|NC|N|Pick up the Shield.|
+A Here's the Plan|QID|81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
+C Here's the Plan|QID|81929|QO|1;2|M|59.37,19.36|Z|2255;Azj-Kahet|CHAT|N|Ask Faerin Lothar about her plan.|
+C Here's the Plan|QID|81929|QO|3|M|59.34,19.46|Z|2255;Azj-Kahet|H|N|Pick up the Shield.|
 C Here's the Plan|QID|81929|QO|4|M|59.37,19.36|Z|2255;Azj-Kahet|H|N|Hand Shield to Faerin.|
+C Here's the Plan|QID|81929|QO|5|M|59.04,18.85|Z|2255;Azj-Kahet|H|N|Grab the bag off the ground.|
+T Here's the Plan|QID|81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
+A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
+C Rations and Revelations|QID|80399|M|59.41,19.18|Z|2255;Azj-Kahet|QO|1<1|H|N|Distribute Arathi Rations.|
 A Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|RANK|3|
 t Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|IZ|Faerin's Advance|
 C Rations and Revelations|QID|80399|M|59.41,19.18;59.03,19.06;58.80,19.97|CS|Z|2255;Azj-Kahet|QO|1|H|N|Arathi Rations distributed.|
@@ -102,10 +106,10 @@ f Faerin's Advance|ACTIVE|78236|M|59.99,18.70|Z|2255;Azj-Kahet|N|At Courier Aida
 A Infested Infestation|QID|79174|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 A Prisoner Preservation|QID|79355|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 C Infested Infestation|QID|79174|M|55.14,21.25|Z|2255;Azj-Kahet|QO|1|N|Slay Spore-afflicted beasts.|S|
-C Prisoner Preservation|QID|79355|M|55.25,23.99|Z|2255;Azj-Kahet|QO|1<1|NC|N|Find Mimbihi.|
-C Prisoner Preservation|QID|79355|M|54.96,21.24|Z|2255;Azj-Kahet|QO|1<2|NC|N|Find Drog Skullbreaker.|
-C Prisoner Preservation|QID|79355|M|53.94,21.81|Z|2255;Azj-Kahet|QO|1<3|NC|N|Find Aemara.|
-C Prisoner Preservation|QID|79355|M|54.90,18.69|Z|2255;Azj-Kahet|QO|1<4|NC|N|Find Jeti Amberhoof.|
+C Prisoner Preservation|QID|79355|M|55.25,23.99|Z|2255;Azj-Kahet|QO|1<1|H|N|Find Mimbihi.|
+C Prisoner Preservation|QID|79355|M|54.96,21.24|Z|2255;Azj-Kahet|QO|1<2|H|N|Find Drog Skullbreaker.|
+C Prisoner Preservation|QID|79355|M|53.94,21.81|Z|2255;Azj-Kahet|QO|1<3|H|N|Find Aemara.|
+C Prisoner Preservation|QID|79355|M|54.90,18.69|Z|2255;Azj-Kahet|QO|1<4|H|N|Find Jeti Amberhoof.|
 C Infested Infestation|QID|79174|M|55.14,21.25|Z|2255;Azj-Kahet|QO|1|N|Finish slaying Spore-afflicted beasts.|US|
 T Prisoner Preservation|QID|79355|M|57.82,19.70|Z|2255;Azj-Kahet|N|To Great Hexer Ohodo.|
 T Infested Infestation|QID|79174|M|57.82,19.70|Z|2255;Azj-Kahet|N|To Great Hexer Ohodo.|
@@ -116,26 +120,24 @@ K Agaricus Festerbloom|ACTIVE|79357|M|56.40,16.83|Z|2255;Azj-Kahet|QO|1|N|Slay A
 C Antifungal Firestarter|QID|79356|M|55.70,16.98|Z|2255;Azj-Kahet|QO|1|H|U|212334|N|Burn Invasive Fungal Pods.|US|
 T Antifungal Firestarter|QID|79356|M|57.76,19.72|Z|2255;Azj-Kahet|N|To Great Hexer Ohodo.|
 T Removing the Cap|QID|79357|M|57.76,19.72|Z|2255;Azj-Kahet|N|To Great Hexer Ohodo.|
-
 T To Arathi's End|QID|81945|M|63.69,17.86|Z|2255;Azj-Kahet|N|To Monte Gazlowe.|
 A BOOM Treats!|QID|81950|M|63.72,17.86|Z|2255;Azj-Kahet|N|From Monte Gazlowe.|RANK|2|
 A Invasion Disruption|QID|81965|M|63.72,17.86|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 A The Blacksmith's Fate|QID|81964|M|63.72,17.86|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
-C The Blacksmith's Fate|QID|81964|M|65.80,14.28|Z|2255;Azj-Kahet|QO|1|NC|N|Free the Survivor.|
-C Invasion Disruption|QID|81965|M|61.86,8.44|Z|2255;Azj-Kahet|N|Disrupt Arathi's End.|S!US|
+C The Blacksmith's Fate|QID|81964|M|65.80,14.28|Z|2255;Azj-Kahet|QO|1|CHAT|N|Free the Survivor.|
+C Invasion Disruption|QID|81965|M|61.86,8.44|Z|2255;Azj-Kahet|N|Disrupt Arathi's End.|S|
 t Invasion Disruption|QID|81965|M|PLAYER|N|To Faerin Lothar who is accompanying you.|
-C BOOM Treats!|QID|81950|M|65.98,11.22;63.70,10.86;65.81,8.80;63.80,4.90;62.50,6.73|CS|Z|2255;Azj-Kahet|QO|1|NC|N|Nerubian Ballistae destroyed.|
+C BOOM Treats!|QID|81950|M|65.98,11.22;63.70,10.86;65.81,8.80;63.80,4.90;62.50,6.73|CS|Z|2255;Azj-Kahet|QO|1|H|N|Nerubian Ballistae destroyed.|
 t BOOM Treats!|QID|81950|M|PLAYER|N|To Monte Gazlowe who is accompanying you.|
 K Anub'ilith|ACTIVE|81964|M|59.69,12.59|Z|2255;Azj-Kahet|QO|3|N|Slay Anub'ilith.|T|Anub'ilith|
 K Mother Aza'na|ACTIVE|81964|M|65.67,3.21|Z|2255;Azj-Kahet|QO|2|N|Slay Mother Aza'na.|T|Mother Aza'na|
 C The Blacksmith's Fate|QID|81964|M|65.65,3.42|Z|2255;Azj-Kahet|QO|4|NC|N|Loot the Blacksmith's Breastplate from Mother Aza'na.|
 T The Blacksmith's Fate|QID|81964|M|PLAYER|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
-A An End to the End|QID|81969|M|PLAYER|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
-C An End to the End|QID|81969|M|49.76,58.01|Z|2274;Azj-Kahet|QO|2|CHAT|N|Let Faerin know you're ready (Optional).|
+C Invasion Disruption|QID|81965|M|61.86,8.44|Z|2255;Azj-Kahet|N|Disrupt Arathi's End.|US|
+A An End to the End|QID|81969|PRE|81950&81965&81964|M|PLAYER|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 K Surek'Tak the Sundered|ACTIVE|81969|M|49.94,56.56|Z|2274;Azj-Kahet|QO|1|N|Kill Surek'Tak the Sundered.Periodically during the fight, your [color=33fff9] Extra Action Button [/color]will become active for Gazlowe to fire the Ballistae.|T|Surek'Tak the Sundered|
 T An End to the End|QID|81969|M|48.75,58.42|Z|2274;Azj-Kahet|N|To Faerin Lothar.|
-A The Sorrowful Journey Home|QID|82268|M|48.75,58.42|Z|2274;Azj-Kahet|RANK|2|
-F Mereldar|ACTIVE|82268|M|71.34,56.46|Z|Hallowfall|N|Head to the flightmaster and take a flight to Mereldar.|
+A The Sorrowful Journey Home|QID|82268|M|48.75,58.42|Z|2274;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 T The Sorrowful Journey Home|QID|82268|M|43.25,56.26|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A Remembrance for the Fallen|QID|82284|M|43.25,56.26|Z|2215;Hallowfall|N|From Faerin Lothar.|RANK|2|
 C Remembrance for the Fallen|QID|82284|M|43.33,56.41|Z|2215;Hallowfall|QO|1|NC|U|223515|N|Use[color=33fff9] Breastplate and Tinderbox [/color]and place in forge.|
@@ -206,17 +208,17 @@ A Searching the Web|QID|79630|M|64.07,15.93|Z|2213;City of Threads|N|From Arax'n
 C Searching the Web|QID|79630|M|47.90,13.22|Z|2213;City of Threads|CHAT|N|Try to help Klaskin.|
 T Searching the Web|QID|79630|M|47.90,13.22|Z|2213;City of Threads|N|To Klaskin.|
 A Klaskin's Great Escape|QID|79631|PRE|79630|M|47.90,13.22|Z|2213;City of Threads|N|From Klaskin.|RANK|3|
-C Klaskin's Great Escape|QID|79631|M|47.90,13.22|Z|2213;City of Threads|CHAT|N|Motion Klaskin to follow you. Now, every few feet use the [color=33fff9] Extra Action Button [/color] to lead him back to his wife.|EAB|S!US|
+C Klaskin's Great Escape|QID|79631|M|47.90,13.22|Z|2213;City of Threads|CHAT|N|Motion Klaskin to follow you. Now, every few feet use the [color=33fff9] Extra Action Button [/color] to lead him back to his wife.|EAB|S|
 C Like a Spider on the Wall|QID|78231|M|54.06,21.04|Z|2213;City of Threads|QO|1|NC|N|Listen to the Sureki Crier.|
 C Like a Spider on the Wall|QID|78231|M|50.03,16.47|Z|2213;City of Threads|QO|4|NC|N|Observe the Tailorers.|
 C Like a Spider on the Wall|QID|78231|M|43.49,16.60|Z|2213;City of Threads|QO|3|NC|N|Read the Twitchery Catalogue.|
 C Like a Spider on the Wall|QID|78231|M|49.10,27.05|Z|2213;City of Threads|QO|2|NC|N|Discover the Cuisine Stalls.|
+C Klaskin's Great Escape|QID|79631|M|47.90,13.22|Z|2213;City of Threads|CHAT|N|Motion Klaskin to follow you. Now, every few feet use the [color=33fff9] Extra Action Button [/color] to lead him back to his wife.|EAB|US|
 C Rewriting the Rewritten|QID|78232|M|60.97,18.96;52.99,16.02;58.07,28.98|CS|Z|2213;City of Threads|QO|1|H|N|Shadecasters overwritten.|US|
 T Klaskin's Great Escape|QID|79631|M|64.07,15.93|Z|2213;City of Threads|N|To Arax'ne.|
 A Don't Cry for Me, Azj-Kahet|QID|80502|M|63.89,15.89|Z|2213;City of Threads|N|From Klaskin.|RANK|3|
-K Arax'ne|ACTIVE|80502|M|62.43,15.23|Z|2213;City of Threads|QO|1|N|Slay Arax'ne.|
+K Arax'ne|ACTIVE|80502|M|62.43,15.23|Z|2213;City of Threads|QO|1|N|Slay Arax'ne.|T|Arax'ne|
 T Don't Cry for Me, Azj-Kahet|QID|80502|M|62.85,15.16|Z|2213;City of Threads|N|To Klaskin's footlocker.|
-
 f The Burrows|ACTIVE|78232|M|54.03,44.28|Z|2213;City of Threads|N|At Tekazza of the Aimless Few.|
 T Rewriting the Rewritten|QID|78232|M|55.10,45.98|Z|2213;City of Threads|N|To Alleria Windrunner.|
 T Like a Spider on the Wall|QID|78231|M|55.14,46.02|Z|2213;City of Threads|N|To Anduin Wrynn.|
@@ -234,9 +236,9 @@ C Kaheti Hospitality|QID|78244|M|45.93,81.86|Z|2274|QO|3|NC|N|Escape from The Bu
 T Kaheti Hospitality|QID|78244|M|60.58,68.86|Z|2255;Azj-Kahet|N|To Anduin Wrynn.|
 A What We Still Have|QID|78248|M|60.63,68.85|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|
 A A Fin of Every Kind|QID|79710|M|60.03,66.18|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
+l Familiar-Looking Appendage|AVAILABLE|79711|L|214504|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill Gutter Scarfer's and loot Familiar-Looking Appendage.|
 C A Fin of Every Kind|QID|79710|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill and loot the things in and around the bond to fill the sack.|
-A That's Pretty Gross|QID|79711|M|56.24,70.54|Z|2255;Azj-Kahet|N|From Adolchomper.|RANK|2|O|U|214504|
-C A Fin of Every Kind|QID|79710|M|55.84,69.45|Z|2255;Azj-Kahet|QO|1|NC|N|Innards Sack filled.|
+;A That's Pretty Gross|QID|79711|M|56.24,70.54|Z|2255;Azj-Kahet|N|From Adolchomper.|RANK|2|O|U|214504|
 T A Fin of Every Kind|QID|79710|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 T That's Pretty Gross|QID|79711|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 A Moonlight Gutter Swim|QID|79713|M|59.96,66.12|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
@@ -244,13 +246,13 @@ A Rescuing the Food|QID|79714|M|60.04,66.04|Z|2255;Azj-Kahet|N|From Al'kubian.|R
 B Purchase Atomized Salien Slime|ACTIVE|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|1|NC|N|Purchase Atomized Salien Slime (Optional). Each potion lasts 60 sec, and grants Water Breathing and 125% swim speed.|
 U Drink the potion|ACTIVE|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|1|NC|U|223287|N|Drink the Atomized Salien Slime (Lasts 60 sec).|BUFF|448856|
 C Rescuing the Food|QID|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|2|NC|N|Rescue Captured Victims.|S|
-C Collect Liverseeker's Intestines|QID|79713|QO|1|M|59.2,69.36|Z|2255;Azj-Kahet|L|222924|N|Kill Liverseeker and collect his Intestines.|
-C Collect Leg Chewer's Stomach|QID|79713|QO|2|M|56.44,67.95|Z|2255;Azj-Kahet|L|222926|N|Kill Leg Chewer and collect Leg Chewer's Stomach.|
+K Liverseeker|ACTIVE|79713|QO|1|M|59.2,69.36|Z|2255;Azj-Kahet|N|Kill Liverseeker and collect his Intestines.|T|Liverseeker|
+K Leg Chewer|ACTIVE|79713|QO|2|M|56.44,67.95|Z|2255;Azj-Kahet|N|Kill Leg Chewer and collect Leg Chewer's Stomach.|T|Leg Chewer|
 C Rescuing the Food|QID|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|2|NC|N|Rescue Captured Victims.|US|
 T Rescuing the Food|QID|79714|M|60.04,66.04|Z|2255;Azj-Kahet|N|To Al'kubian.|
 T Moonlight Gutter Swim|QID|79713|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 A Grand, Gutsy Solutions|QID|79715|M|59.96,66.12|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
-C Collect the Brain of Grand Gluttony|QID|79715|M|56.67,65.48|Z|2255;Azj-Kahet|L|222944|N|Kill Grand Gluttony and collect Swollen Brain of Gluttony.|
+K Grand Gluttony|ACTIVE|79715|QO|1|M|56.67,65.48|Z|2255;Azj-Kahet|N|Kill Grand Gluttony and collect its Swollen Brain of Gluttony.|T|Grand Gluttony|
 T Grand, Gutsy Solutions|QID|79715|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 
 A Loss of Limb|QID|82340|M|63.40,37.35|Z|2216;City of Threads|N|From Mr. Sunflower.|RANK|2|
@@ -288,7 +290,8 @@ T Strange Bats|QID|83321|M|42.26,42.51|Z|2255;Azj-Kahet|N|To Greenspeaker Na'lay
 A Boom or Blight|QID|78897|M|42.26,42.51|Z|2255;Azj-Kahet|N|From Greenspeaker Na'layro.|RANK|2|
 A Intention vs Instinct|QID|78898|M|42.26,42.51|Z|2255;Azj-Kahet|N|From Greenspeaker Na'layro.|RANK|2|
 A Heeeelllp!!!|QID|78901|M|41.41,38.76|Z|2255;Azj-Kahet|N|From UI, when you go thru the tunnel into The Wormlands.|RANK|2|
-C Boom or Blight|QID|78897|M|38.15,42.41|Z|2255;Azj-Kahet|QO|1|N|Worms of the Wormlands slain.|C Heeeelllp!!!|QID|78901|M|40.72,39.92|Z|2255;Azj-Kahet|QO|1|NC|N|Kill the group of 3 Razorscale Devourers and then stand on the edge of the rocky outcropping to rescue Skedgit Cinderbangs.|
+C Boom or Blight|QID|78897|M|38.15,42.41|Z|2255;Azj-Kahet|QO|1|N|Worms of the Wormlands slain.|
+C Heeeelllp!!!|QID|78901|M|40.72,39.92|Z|2255;Azj-Kahet|QO|1|NC|N|Kill the group of 3 Razorscale Devourers and then stand on the edge of the rocky outcropping to rescue Skedgit Cinderbangs.|
 T Heeeelllp!!!|QID|78901|M|40.76,39.75|Z|2255;Azj-Kahet|N|To Skedgit Cinderbangs.|
 A Delegated Dig|QID|78902|M|40.76,39.75|Z|2255;Azj-Kahet|N|From Skedgit Cinderbangs.|RANK|2|
 C Intention vs Instinct|QID|78898|M|39.93,39.84;39.45,42.32|CS|Z|2255;Azj-Kahet|N|Go down into this small tunnel and to the back and kill the Nerubian to lootthe Singing Stone.|
