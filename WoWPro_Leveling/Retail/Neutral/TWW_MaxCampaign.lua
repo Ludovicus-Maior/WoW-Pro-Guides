@@ -7,14 +7,15 @@ WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-
 A Surface Bound|QID|79197|M|55.63,44.16|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|
 C Surface Bound|QID|79197|M|57.48,41.61|Z|2255;Azj-Kahet|QO|2|NC|N|Portal to Dornogal taken (Optional).|
 C Surface Bound|QID|79197|M|36.19,79.77|Z|2339;Dornogal|QO|1|NC|N|Meet with Moira Thaurissan in Dornogal.|
 T Surface Bound|QID|79197|M|36.11,80.11|Z|2339;Dornogal|N|To Moira Thaurissan.|
 
-A Renown of Khaz Algar|QID|84446|PRE|79197|M|36.05,80.43|Z|2339;Dornogal|N|From Moira Thaurissan.|
-T Renown of Khaz Algar|QID|84446|M|45.99,49.49|Z|2339;Dornogal|N|Talk to Faerin Lothar.|
+;Renown quest was not offered for some reason?? Completed storyline for Achievement without it, so commenting it out.
+
+;A Renown of Khaz Algar|QID|84446|PRE|79197|M|36.05,80.43|Z|2339;Dornogal|N|From Moira Thaurissan.|
+;T Renown of Khaz Algar|QID|84446|M|45.99,49.49|Z|2339;Dornogal|N|Talk to Faerin Lothar.|
 
 A The Fleet Arrives|QID|79333|PRE|79197|M|36.05,80.43|Z|2339;Dornogal|N|From Moira Thaurissan.|
 C The Fleet Arrives|QID|79333|M|35.08,80.45|Z|2339;Dornogal|QO|1|H|N|Telescope used.|
@@ -52,7 +53,6 @@ C Embassies and Envoys|QID|79328|FACTION|Horde|M|27.37,69.24|Z|2339;Horde Embass
 C Embassies and Envoys|QID|79328|FACTION|Horde|M|28.29,66.42|Z|2339;Horde Embassy|QO|4|NC|N|Document signed.|
 T Embassies and Envoys|QID|79328|FACTION|Horde|M|31.75,59.25|Z|2339;Dornogal|N|To Moira Thaurissan.|
 
-
 A There's Always Another Secret|QID|83271|M|31.79,59.17|Z|2339;Dornogal|N|From Moira Thaurissan.|
 C There's Always Another Secret|QID|83271|M|29.91,59.80|Z|2339;Dornogal|QO|1|CHAT|N|Talk to Dagran Thaurissan II.|
 C There's Always Another Secret|QID|83271|M|29.91,59.80|Z|2339;Dornogal|QO|2|H|N|Waygate activated.|
@@ -74,11 +74,11 @@ C Urban Odyssey|QID|79344|M|39.22,24.36|Z|2339;Dornogal|QO|2|NC|N|Keepers of Ren
 T Urban Odyssey|QID|79344|M|31.79,59.24|Z|2339;Dornogal|N|To Moira Thaurissan.|
 
 A After the Storm|QID|79107|PRE|79344|M|31.51,59.86|Z|2339;Dornogal|N|From Alleria Windrunner.|
-C Stormrider Vokmar|QID|79107|M|38.16,71.23|Z|2339;Dornogal|QO|1<1|NC|N|Stormrider Vokmar assessed.|CHAT|
-C Stormrider Meirand|QID|79107|M|38.16,71.23|Z|2339;Dornogal|QO|1<2|NC|N|Stormrider Meirand assessed.|CHAT|
-C Stormrider Edeltrau|QID|79107|M|38.16,71.23|Z|2339;Dornogal|QO|1<3|NC|N|Stormrider Edeltrau assessed.|CHAT|
-C Stormrider Hunfrid|QID|79107|M|38.16,71.23|Z|2339;Dornogal|QO|1<4|NC|N|Stormrider Hunfrid assessed.|CHAT|
-C Rooktender Lufsela|QID|79107|M|38.18,71.62|Z|2339;Dornogal|QO|2|NC|N|Lufsela questioned.|
+C Stormrider Vokmar|QID|79107|M|38.16,71.23|Z|2339;Dornogal|QO|1<1|CHAT|N|Stormrider Meriand assessed.|
+C Stormrider Meirand|QID|79107|M|38.16,71.23|Z|2339;Dornogal|QO|1<2|CHAT|N|Stormrider Vokmar assessed.|
+C Stormrider Edeltrau|QID|79107|M|38.16,71.23|Z|2339;Dornogal|QO|1<3|CHAT|N|Stormrider Edeltrau assessed.|
+C Stormrider Hunfrid|QID|79107|M|38.16,71.23|Z|2339;Dornogal|QO|1<4|CHAT|N|Stormrider Hunfrid assessed.|
+C Rooktender Lufsela|QID|79107|M|38.18,71.62|Z|2339;Dornogal|QO|2|CHAT|N|Lufsela questioned.|
 T After the Storm|QID|79107|M|37.55,81.98|Z|2339;Dornogal|N|To Rooktender Lufsela.|
 
 A Dhar Oztan|QID|81914|PRE|79107|M|37.55,81.98|Z|2339;Dornogal|N|From Rooktender Lufsela.|
@@ -92,24 +92,23 @@ C Rooktender Lufsela|QID|79107|M|38.18,71.62|Z|2339;Dornogal|QO|2|NC|N|Lufsela q
 T After the Storm|QID|79107|M|37.55,81.98|Z|2339;Dornogal|N|To Rooktender Lufsela.|
 
 A Dhar Oztan|QID|81914|PRE|79107|M|37.55,81.98|Z|2339;Dornogal|N|From Rooktender Lufsela.|
-A Book It to the Library|QID|82448|M|30.76,60.19|Z|2248;Isle of Dorn|
 T Dhar Oztan|QID|81914|M|28.57,60.96|Z|2248;Isle of Dorn|N|To Olbarig.|
 
 A Conduit of the Southern Storm|QID|79124|PRE|81914|M|28.57,60.96|Z|2248;Isle of Dorn|N|From Olbarig.|
-C Clues Found|QID|79124|M|28.86,60.38|Z|2248;Isle of Dorn|QO|1<1|N|Speak to Earthen.|
-C Clues Found|QID|79124|M|28.49,60.87|Z|2248;Isle of Dorn|QO|1<2|N|Earthen Axe on table.|
-C Clues Found|QID|79124|M|28.69,61.42|Z|2248;Isle of Dorn|QO|1<3|N|Speak to Gurnot.|
-C Clues Found|QID|79124|M|28.02,61.06|Z|2248;Isle of Dorn|QO|1<4|N|Speak to Kothilde.|
-C Clues Found|QID|79124|M|27.76,59.74|Z|2248;Isle of Dorn|QO|1<1|N|Kobold Skeleton on floor, bottom level.|
-C Clues Found|QID|79124|M|27.65,59.86|Z|2248;Isle of Dorn|QO|1<1|N|Stormrider Storage (door) on bottom floor.|
-C Clues Found|QID|79124|M|27.67,59.60|Z|2248;Isle of Dorn|QO|1<1|N|Waxed wooden planks, on stairs.|
+C Speak to Earthen|QID|79124|M|28.86,60.38|Z|2248;Isle of Dorn|QO|1<1|N|Speak to Earthen.|CHAT|
+C Earthen Axe|QID|79124|M|28.49,60.87|Z|2248;Isle of Dorn|QO|1<2|N|Earthen Axe on table.|H|
+C Speak to Gurnot|QID|79124|M|28.69,61.42|Z|2248;Isle of Dorn|QO|1<3|N|Speak to Gurnot.|CHAT|
+C Speak to Kothilde|QID|79124|M|28.02,61.06|Z|2248;Isle of Dorn|QO|1<4|N|Speak to Kothilde.|CHAT|
+C Kobold Skeleton|QID|79124|M|27.76,59.74|Z|2248;Isle of Dorn|QO|1<1|N|Kobold Skeleton on floor, bottom level.|H|
+C Storage Door|QID|79124|M|27.65,59.86|Z|2248;Isle of Dorn|QO|1<1|N|Stormrider Storage (door) on bottom floor.|H|
+C Waxed Wooden Planks|QID|79124|M|27.67,59.60|Z|2248;Isle of Dorn|QO|1<1|N|Waxed wooden planks, on stairs.|H|
 C Conduit of the Southern Storm|QID|79124|M|27.67,59.60|Z|2248;Isle of Dorn|QO|1|NC|N|Clues found (100%) (Optional).|
 C Conduit of the Southern Storm|QID|79124|M|27.80,59.72|Z|2248;Isle of Dorn|QO|2|NC|N|Conduit of the Southern Storm.|
 T Conduit of the Southern Storm|QID|79124|M|27.66,60.48|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 
 A Charging Up That Hill|QID|79475|PRE|79124|M|27.66,60.48|Z|2248;Isle of Dorn|N|From Olbarig.|
 A Heeding the Call|QID|79476|PRE|79124|M|27.66,60.48|Z|2248;Isle of Dorn|N|From Olbarig.|
-C Charging Up That Hill|QID|79475|M|27.52,56.57|Z|2248;Isle of Dorn|QO|1|NC|N|Kill mobs until the Conduit is charged (100%).|
+C Charging Up That Hill|QID|79475|M|27.52,56.57|Z|2248;Isle of Dorn|QO|1|NC|N|Kill mobs until the Conduit is charged (100%).|S!US|
 C Heeding the Call|QID|79476|M|26.82,57.16|Z|2248;Isle of Dorn|QO|1|NC|N|Stranded Earthen helped.|
 T Charging Up That Hill|QID|79475|M|25.61,57.27|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 T Heeding the Call|QID|79476|M|25.61,57.27|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
@@ -133,12 +132,14 @@ A Home to Roost|QID|81915|PRE|79145&79140|M|33.28,63.39|Z|2248;Isle of Dorn|N|Fr
 T Home to Roost|QID|81915|M|29.01,61.71|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 
 A Strays|QID|79477|PRE|81915|M|29.01,61.71|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|
-C Strays|QID|79477|M|23.61,67.16|Z|2248;Isle of Dorn|QO|1|NC|N|Stray recruits found.|
+C Kothilde|QID|79477|M|31.48,56.35|Z|2248;Isle of Dorn|QO|1|NC|N|Stray recruit found.|CHAT|
+C Adalar|QID|79477|M|23.47,51.09|Z|2248;Isle of Dorn|QO|1|NC|N|Stray recruit found.|CHAT|
+C Gurnot|QID|79477|M|23.61,67.16|Z|2248;Isle of Dorn|QO|1|NC|N|Stray recruit found.|CHAT|
 T Strays|QID|79477|M|29.04,61.67|Z|2248;Isle of Dorn|N|To Kurdran Wildhammer.|
 
 N Flight Training & Stormrook battle|QID|79147|N|During these quests you will have a choice whether to Skyride and control Shraubendre or to ride along. If you ride along it will work like any other riding quest, where you point and shoot (eventually). If you Skyride, your Skyriding skills gain an extra ability. Skyward Ascent will cast lighting. Surge Forward will give you a shield. Whirling Surge will deflect enemies. Second Wind will cast a heal. The glowing green areas will grant you vigor. |
 
-A Flight Training 101|QID|79147|PRE|82448&82451&79477|M|29.03,61.67|Z|2248;Isle of Dorn|N|From Kurdran Wildhammer.|
+A Flight Training 101|QID|79147|PRE|82451&79477|M|29.03,61.67|Z|2248;Isle of Dorn|N|From Kurdran Wildhammer.|
 C Flight Training 101|QID|79147|M|28.98,61.62|Z|2248;Isle of Dorn|QO|1|NC|N|Rook supercharging witnessed.|
 C Flight Training 101|QID|79147|M|28.94,61.61|Z|2248;Isle of Dorn|QO|2|NC|N|Shraubendre mounted.|
 C Flight Training 101|QID|79147|M|31.87,64.40|Z|2248;Isle of Dorn|QO|3|NC|N|Maneuvering lesson complete.|
@@ -166,13 +167,14 @@ C Titanic Failsafe|QID|79157|M|57.21,50.67|Z|2248;Isle of Dorn|QO|1|NC|N|Shraube
 C Titanic Failsafe|QID|79157|M|59.36,75.01|Z|2248;Isle of Dorn|QO|2|N|Colossal Titan Construct slain.|
 T Titanic Failsafe|QID|79157|M|31.51,59.84|Z|2339;Dornogal|N|To Alleria Windrunner.|
 
-
-
 ;--News from Below
 A Gathering Intel|QID|79224|PRE|79157|M|31.51,59.84|Z|2339;Dornogal|N|From Alleria Windrunner.|
+
+P The Weaver's Lair|ACTIVE|79224|M|63.58,52.29|Z|2339;Dornogal|N|Tunnel to The Weaver's Lair.|
+
 T Gathering Intel|QID|79224|M|55.60,43.94|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
 
-A A Spider's-Eye View|QID|79227|PRE|83497&79224|M|55.62,43.93|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
+A A Spider's-Eye View|QID|79227|PRE|79224|M|55.62,43.93|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
 C A Spider's-Eye View|QID|79227|M|64.20,74.28|Z|2255;Blood Tower|QO|2|NC|N|Eastern Span scouted. (Place viewer on the roof.)|
 C A Spider's-Eye View|QID|79227|M|78.70,41.72|Z|2213;City of Threads|QO|3|NC|N|Twitching Gorge scouted. (Place viewer on the roof.)|
 C A Spider's-Eye View|QID|79227|M|49.71,20.26|Z|2213;City of Threads|QO|1|NC|N|Umbral Bazaar scouted. (Place viewer on the roof.)|
@@ -183,26 +185,22 @@ A Creeping Through Corridors|QID|79230|PRE|79227|M|69.60,71.95|Z|2213;City of Th
 
 ;-----------GAME LAG ISSUES - some info recreated for Creeping Through Corridors|QID|79230 & Lab Access|QID|79233---------------
 
-C Lab Access|QID|79233|PRE|79227|M|57.09,90.99|Z|2213;City of Threads|QO|1|N|Kill mobs and loot the secretions.|S|
-C Eastern Stockpile investigated|QID|79230|M|68.66,81.63|Z|2213;City of Threads|QO|1|N|Eastern Stockpile investigated.|
-C Central Warehouse investigated|QID|79230|M|61.90,89.22|Z|2213;City of Threads|QO|2|N|Central Warehouse investigated.|
-C First Ascended's Prison investigated|QID|79230|M|69.60,71.95|Z|2213;City of Threads|QO|3|N|First Ascended's Prison investigated.|
-C Lab Access|QID|79233|PRE|79227|M|57.09,90.99|Z|2213;City of Threads|QO|1|N|Kill mobs and loot the secretions.|US|
-T Lab Access|QID|79233|PRE|79227|M|57.09,90.99|Z|2213;City of Threads|N|To Y'tekhi.|
+C Lab Access|QID|79233|M|57.09,90.99|Z|2213;City of Threads|QO|1|N|Kill mobs and loot the secretions.|S|EAB|
+C Eastern Stockpile investigated|QID|79230|M|68.66,81.63|Z|2213;City of Threads|QO|1|N|Eastern Stockpile investigated.|EAB|
+C Central Warehouse investigated|QID|79230|M|61.90,89.22|Z|2213;City of Threads|QO|2|N|Central Warehouse investigated.|EAB|
+C First Ascended's Prison investigated|QID|79230|M|56.94,92.63|Z|2213;City of Threads|QO|3|N|First Ascended's Prison investigated.|EAB|
+C Lab Access|QID|79233|M|57.09,90.99|Z|2213;City of Threads|QO|1|N|Kill mobs and loot the secretions.|US|EAB|
+T Lab Access|QID|79233|M|57.09,90.99|Z|2213;City of Threads|N|To Y'tekhi.|
 T Creeping Through Corridors|QID|79230|M|56.68,90.61|Z|2213;City of Threads|N|To Lilian Voss.|
 
 A Making of a Monster|QID|79237|M|56.68,90.61|Z|2213;City of Threads|N|From Lilian Voss.|
 C Making of a Monster|QID|79237|M|62.23,81.21|Z|2213;City of Threads|QO|2|NC|N|Convenient Grapnel used (Optional).|
 C Making of a Monster|QID|79237|M|62.16,77.68|Z|2213;City of Threads|QO|1|NC|N|Air Duct accessed.|
-
-
 C Making of a Monster|QID|79237|M|61.04,79.04|Z|2213;City of Threads|QO|3|NC|N|Caustic Alchemical Supplies examined.|
 C Making of a Monster|QID|79237|M|63.36,78.88|Z|2213;The Transformatory|QO|4|NC|N|Experiment Notes examined.|
 C Making of a Monster|QID|79237|M|62.72,79.82|Z|2213;The Transformatory|QO|5|NC|N|Discarded Shadecaster investigated.|
-C Making of a Monster|QID|79237|M|62.16,77.71|Z|2213;The Transformatory|QO|6|NC|N|Escape Line taken.|
+C Making of a Monster|QID|79237|M|63.06,79.58|Z|2213;The Transformatory|QO|6|NC|N|Escape Line taken.|
 T Making of a Monster|QID|79237|M|56.73,90.55|Z|2213;City of Threads|N|To Lilian Voss.|
-
-;-----------GAME LAG ISSUES ended - issues were inside lab---------------
 
 A The Queen's Chains|QID|79239|PRE|79237|M|57.01,90.82|Z|2213;City of Threads|N|From Y'tekhi.|
 C The Queen's Chains|QID|79239|M|55.69,93.15|Z|2213;City of Threads|QO|1|NC|N|Caustic Chemicals.|
@@ -216,24 +214,27 @@ C The Queen's Chains|QID|79239|M|56.63,92.44|Z|2213;City of Threads|QO|8|NC|N|Ne
 T The Queen's Chains|QID|79239|M|78.64,57.42|Z|2213;City of Threads|N|To Lilian Voss.|
 
 A Rogue Agent|QID|79240|PRE|79239|M|78.64,57.42|Z|2213;City of Threads|N|From Lilian Voss.|
-C Rogue Agent|QID|79240|M|77.66,55.66|Z|2213;Terrace of the Ascended|QO|1|NC|N|Y'tekhi subdued.|
+K Y'tekhi|ACTIVE|79240|M|77.66,55.66|Z|2213;Terrace of the Ascended|QO|1|NC|N|Y'tekhi subdued.|
 C Rogue Agent|QID|79240|M|78.64,40.63|Z|2213;City of Threads|QO|2|NC|N|Y'tekhi brought to safety.|
 T Rogue Agent|QID|79240|M|78.62,39.71|Z|2213;City of Threads|N|To Lilian Voss.|
 
 A Go Loud|QID|79241|PRE|79240|M|78.62,39.71|Z|2213;City of Threads|N|From Lilian Voss.|
 A Manufactured Mutiny|QID|79243|PRE|79240|M|78.62,39.71|Z|2213;City of Threads|N|From Lilian Voss.|
-C Go Loud|QID|79241|M|59.39,75.07;61.00,74.60;61.62,72.50;63.62,71.47;66.59,68.16;66.47,70.61|Z|2255;Azj-Kahet|CS|QO|1|NC|N|Charges planted.|
-C Manufactured Mutiny|QID|79243|M|61.21,73.00|Z|2255;Azj-Kahet|QO|1|N|Siege Marshal Tekhzok slain.|
-C Manufactured Mutiny|QID|79243|M|66.46,69.54|Z|2255;Azj-Kahet|QO|2|N|Royal Quartermaster Ze'erik slain.|
+C Go Loud|QID|79241|M|59.39,75.07;61.00,74.60;61.62,72.50;63.62,71.47;66.59,68.16;66.47,70.61|Z|2255;Azj-Kahet|CS|QO|1|NC|N|Charges planted.|S|
+K Siege Marshal Tekhzok|ACTIVE|79243|M|61.21,73.00|Z|2255;Azj-Kahet|QO|1|N|Siege Marshal Tekhzok slain.|T|Siege Marshal Tekhzok|EAB|
+K Royal Quartermaster Ze'erik|ACTIVE|79243|M|66.46,69.54|Z|2255;Azj-Kahet|QO|2|N|Royal Quartermaster Ze'erik slain.|T|Royal Quartermaster Ze'erik|EAB|
+C Go Loud|QID|79241|M|59.39,75.07;61.00,74.60;61.62,72.50;63.62,71.47;66.59,68.16;66.47,70.61|Z|2255;Azj-Kahet|CS|QO|1|NC|N|Charges planted.|US|
 C Go Loud|QID|79241|M|67.56,64.76|Z|2255;Azj-Kahet|QO|2|NC|N|Fuse lit.|
 T Go Loud|QID|79241|M|55.67,44.11|Z|2255;Azj-Kahet|N|To Lilian Voss.|
 T Manufactured Mutiny|QID|79243|M|55.67,44.11|Z|2255;Azj-Kahet|N|To Lilian Voss.|
 
-A News From Below|QID|79244|PRE|79241&79243|M|55.68,44.13|Z|2255|N|From Lilian Voss.|
-C News From Below|QID|79244|M|55.63,43.93|Z|2255|QO|1|NC|N|Inform the Weaver.|
+A News From Below|QID|79244|PRE|79241&79243|M|55.68,44.13|Z|2255;Azj-Kahet|N|From Lilian Voss.|
+C News From Below|QID|79244|M|55.63,43.93|Z|2255;Azj-Kahet|QO|1|NC|N|Inform the Weaver.|
+
+P Dornogal|ACTIVE|79244|M|57.34,41.94|Z|2255;Azj-Kahet|N|Tunnel to Dornogal.|
+
 C News From Below|QID|79244|M|31.64,59.23|Z|2339;Dornogal|QO|2|NC|N|Report back to Alleria at the Coreway in Dornogal.|
 T News From Below|QID|79244|M|31.62,59.48|Z|2339;Dornogal|N|To Alleria Windrunner.|
-
 
 ;--The Machines March to War
 A A Mysterious Signal|QID|79022|M|31.64,59.48|Z|2339;Dornogal|N|From Alleria Windrunner.|
@@ -269,12 +270,13 @@ T To the Waterworks|QID|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|To Dagran
 
 A Elemental Trepidation|QID|79027|PRE|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
 A Putting the Works in Waterworks|QID|79026|PRE|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|From Dagran Thaurissan II.|
-C Putting the Works in Waterworks|QID|79026|M|45.47,46.30|Z|2214|QO|1|NC|N|Waterwheels Activated.|
-C Elemental Trepidation|QID|79027|M|47.40,46.59|Z|2214|QO|1|N|Defeat Elementals (100%).|
-C Putting the Works in Waterworks|QID|79026|M|46.79,12.28|Z|2251|QO|2|NC|N|Delve Entered.|
-C Putting the Works in Waterworks|QID|79026|M|47.47,79.70|Z|2251;The Waterworks|QO|4|NC|N|Delve Completed.|
-C Putting the Works in Waterworks|QID|79026|M|46.72,83.72|Z|2251;The Waterworks|QO|3|NC|N|Main Drain Restored.|
-C Putting the Works in Waterworks|QID|79026|M|47.28,42.29|Z|2214;The Ringing Deeps|QO|5|NC|N|Waterworks Restored.|
+C Elemental Trepidation|QID|79027|M|47.40,46.59|Z|2214;The Ringing Deeps|QO|1|N|Defeat Elementals (100%).|S!US|
+C Waterwheel Activated|QID|79026|M|45.47,46.30|Z|2214;The Ringing Deeps|QO|1<1|H|N|Clear the wax off the console and click to activate.|
+C Waterwheel Activated|QID|79026|M|48.38,46.09|Z|2214;The Ringing Deeps|QO|1<2|H|N|Clear the wax off the console and click to activate.|
+C Putting the Works in Waterworks|QID|79026|QO|2|M|46.36,48.45|Z|2214;The Ringing Deeps|NC|N|Delve Entered.|
+C Putting the Works in Waterworks|QID|79026|QO|3|M|46.72,83.72|Z|2251;The Waterworks|H|N|Main Drain Restored.|
+C Putting the Works in Waterworks|QID|79026|QO|4|M|47.47,79.70|Z|2251;The Waterworks|N|Delve Completed.|
+C Putting the Works in Waterworks|QID|79026|QO|5|M|47.28,42.29|Z|2214;The Ringing Deeps|H|N|Waterworks Restored.|
 T Putting the Works in Waterworks|QID|79026|M|47.29,42.35|Z|2214;The Ringing Deeps|N|To Dagran Thaurissan II.|
 T Elemental Trepidation|QID|79027|M|47.29,42.35|Z|2214;The Ringing Deeps|N|To Dagran Thaurissan II.|
 
@@ -283,50 +285,61 @@ T Shadowvein Extraction|QID|79325|M|55.69,41.06|Z|2214;The Ringing Deeps|N|To "Z
 
 A We Require More Minerals|QID|79028|PRE|79325|M|55.69,41.06|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
 C We Require More Minerals|QID|79028|M|55.69,41.06|Z|2214;The Ringing Deeps|QO|1|NC|N|Listen to Dagran's Report.|
-C We Require More Minerals|QID|79028|M|56.33,37.07|Z|2214;The Ringing Deeps|QO|2|NC|N|Shadowvein Power Substation Investigated.|
-C We Require More Minerals|QID|79028|M|55.82,36.89|Z|2214;The Ringing Deeps|QO|3|NC|N|Pipe Room Located.|
-C We Require More Minerals|QID|79028|M|55.87,36.64|Z|2214;The Ringing Deeps|QO|4|NC|N|Supply Water to the Shadowvein Boilers.|
+C Power Substation|QID|79028|M|56.33,37.07|Z|2214;The Ringing Deeps|QO|2|NC|N|Shadowvein Power Substation Investigated.|
+C Pipe Room|QID|79028|M|55.82,36.89|Z|2214;The Ringing Deeps|QO|3|NC|N|Pipe Room Located.|
+C Water Supply|QID|79028|M|55.87,36.64|Z|2214;The Ringing Deeps|QO|4|NC|N|Supply Water to the Shadowvein Boilers. (Left section - bottom top middle, right section - bottom , far corner- top)|
+C Restart Substation|QID|79028|M|56.42,37.00|Z|2214;The Ringing Deeps|QO|5|NC|N|Power Substation Restarted.|
+C Decontaminate Crushers|QID|79028|M|59.54,40.25|Z|2214;The Ringing Deeps|QO|6|N|Infested Crushers Decontaminated.|S|EAB|
+C Clear Cart Track|QID|79028|M|59.27,41.17|Z|2214;The Ringing Deeps|QO|7|H|N|Mining Cart Track Cleared.|
+C Decontaminate Crushers|QID|79028|M|59.54,40.25|Z|2214;The Ringing Deeps|QO|6|N|Infested Crushers Decontaminated.|US|EAB|
+T We Require More Minerals|QID|79028|M|PLAYER|Z|2214;The Ringing Deeps|N|To "Zee-Zee".|
 
-;Left section - bottom top middle or top bottom middle, not sure if order matters?, right section - bottom , far corner- top
+A The Motherlode|QID|80145|PRE|79028|M|PLAYER|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
+R Shadowvein Mine|ACTIVE|80145|M|58.54,36.18|Z|2214;The Ringing Deeps|N|Mine Entrance.|
+C Activate Crushers|QID|80145|M|58.57,33.91|Z|2214;The Ringing Deeps|QO|1|NC|N|Cave Crushers activated.|
+C Defeat Magma Serpent|QID|80145|M|58.68,33.79|Z|2214;The Ringing Deeps|QO|2|N|Magma Serpent defeated.|
+C Speak to ZZ|QID|80145|M|PLAYER|Z|2214;The Ringing Deeps|QO|3|CHAT|N|Speak to ZZ-01-47.|
+T The Motherlode|QID|80145|M|PLAYER|Z|2214;The Ringing Deeps|N|To "Zee-Zee".|
 
-C We Require More Minerals|QID|79028|M|56.42,37.00|Z|2214;The Ringing Deeps|QO|5|NC|N|Power Substation Restarted.|
-
-;56.02,39.26;56.75,39.42;58.75,38.23;59.30,37.22;59.57,36.83;59.62,36.53;57.41,36.84;59.27,42.13;	59.54,40.28;
-
-C We Require More Minerals|QID|79028|M|59.27,41.17|Z|2214;The Ringing Deeps|QO|7|NC|N|Mining Cart Track Cleared.|
-C We Require More Minerals|QID|79028|M|59.54,40.25|Z|2214;The Ringing Deeps|QO|6|NC|N|Infested Crushers Decontaminated.|
-T We Require More Minerals|QID|79028|M|59.49,41.84|Z|2214;The Ringing Deeps|N|To "Zee-Zee".|
-
-A The Motherlode|QID|80145|PRE|84429&79028|M|59.49,41.84|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
-R Shadowvein Mine|ACTIVE|80145|M|58.54,36.03|Z|The Ringing Deeps|N|Mine Entrance.|
-C The Motherlode|QID|80145|M|58.57,33.98|Z|2214;The Ringing Deeps|QO|1|NC|N|Cave Crushers activated.|
-C The Motherlode|QID|80145|M|58.89,33.97|Z|2214;The Ringing Deeps|QO|2|N|Magma Serpent defeated.|
-C The Motherlode|QID|80145|M|58.55,36.11|Z|2214;Shadowvein Mine|QO|3|CHAT|N|Speak to ZZ-01-47.|
-T The Motherlode|QID|80145|M|58.55,36.11|Z|2214;Shadowvein Mine|N|To "Zee-Zee".|
-
-A Back to Where it Began|QID|80517|PRE|80145|M|58.55,36.11|Z|2214;Shadowvein Mine|N|From "Zee-Zee".|
+A Back to Where it Began|QID|80517|M|PLAYER|PRE|80145|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
 T Back to Where it Began|QID|80517|M|56.27,74.88|Z|2214;The Ringing Deeps|N|To High Speaker Brinthe.|
 
 A It's Sabotage|QID|79029|PRE|80517|M|56.27,74.88|Z|2214;The Ringing Deeps|N|From High Speaker Brinthe.|
 C It's Sabotage|QID|79029|M|58.64,79.43|Z|2214;The Ringing Deeps|QO|1|NC|N|Mayhem Caused (100%).|
-R Deepforge Manufacturing Bay|ACTIVE|79029|M|57.08,77.63|Z|The Ringing Deeps|N|Make your way to the Deepforge Manufacturing Bay.|
-C It's Sabotage|QID|79029|M|56.09,77.61|Z|2214;The Ringing Deeps|QO|2|CHAT|N|Speak to Brinthe.|
-C It's Sabotage|QID|79029|M|56.22,77.50|Z|2214;The Ringing Deeps|QO|3|NC|N|Facility Activated and Secured.|
+R Deepforge Manufacturing Bay|ACTIVE|79029|M|57.08,77.63|Z|2214;The Ringing Deeps|N|Make your way to the Deepforge Manufacturing Bay.|
+C Speak with Brinthe|QID|79029|M|56.09,77.61|Z|2214;The Ringing Deeps|QO|2|CHAT|N|Speak to Brinthe.|
+C Activate and Secure|QID|79029|M|56.22,77.50|Z|2214;The Ringing Deeps|QO|3|NC|N|Facility Activated and Secured. (Fight goblin Mech until cutscene.)|
 T It's Sabotage|QID|79029|M|56.10,77.63|Z|2214;The Ringing Deeps|N|To High Speaker Brinthe.|
 
 A The Voice of the Speakers|QID|79030|PRE|79029|M|56.10,77.63|Z|2214;The Ringing Deeps|N|From High Speaker Brinthe.|
+R The Coreway|ACTIVE|79030|M|56.10,77.63|Z|2214;The Ringing Deeps|N|Make your way to The Coreway.|
 T The Voice of the Speakers|QID|79030|M|31.56,59.59|Z|2339;Dornogal|N|To Alleria Windrunner.|
 
+A A Tide Needing Turned|QID|78941|PRE|79030|M|31.67,59.74|Z|2339;Dornogal|N|From Alleria Windrunner.|
+R The Coreway|ACTIVE|78941|M|37.53,59.78|Z|2214;The Ringing Deeps|N|Make your way to The Coreway.|
+T A Tide Needing Turned|QID|78941|M|71.63,59.16|Z|2215;Hallowfall|N|To General Steelstrike.|
 
-;--A Light in the Dark??
+A The Might of Khaz Algar|QID|78942|PRE|78941|M|71.63,59.16|Z|2215;Hallowfall|N|From General Steelstrike.|
+A Steel and Flames|QID|78943|PRE|78941|M|71.63,59.16|Z|2215;Hallowfall|N|From General Steelstrike.|
+C The Might of Khaz Algar|QID|78942|M|71.63,61.77|Z|2215;Hallowfall|N|Fight back against the Nerubians.|S|
+C Steel and Flames|QID|78943|M|71.63,61.77|Z|2215;Hallowfall|N|From General Steelstrike.|NC|U|217309|
+C The Might of Khaz Algar|QID|78942|M|71.63,61.77|Z|2215;Hallowfall|N|Clean up any Nerubians you have left.|US|
+T Steel and Flames|QID|78943|M|68.58,64.27|Z|2215;Hallowfall|N|To Thrall.|
+A Cutting Off the Legs|QID|78950|M|68.58,64.27|Z|2215;Hallowfall|N|From Lady Jaina Proudmoore.|
+K Nix'k the Wicked|ACTIVE|78950|QO|1|M|66.64,65.07|Z|2215;Hallowfall|N|Kill Nix'k the Wicked.|T|Nix'k the Wicked|
+K Kaz'vik|ACTIVE|78950|QO|2|M|67.82,67.37|Z|2215;Hallowfall|N|Kill Kaz'vik.|T|Kaz'vik|
+K Anub'ata|ACTIVE|78950|QO|3|M|64.40,68.42|Z|2215;Hallowfall|N|Anub'ata.|T|Anub'ata|
+T The Might of Khaz Algar|QID|78942|M|64.56,61.76|Z|2215;Hallowfall|N|To Faerin Lothar.|
+T Cutting Off the Legs|QID|78950|M|64.56,61.76|Z|2215;Hallowfall|N|To Anduin Wrynn.|
 
+A A Light in the Dark|QID|78948|M|64.56,61.76|Z|2215;Hallowfall|N|From Anduin Wrynn.|
+C A Light in the Dark|QID|78948|M|64.56,61.76|Z|2215;Hallowfall|N|Let Anduin know you are ready.|CHAT|
+T A Light in the Dark|QID|78948|M|35.95,35.45|Z|2215;Hallowfall|N|To Alleria Windrunner.|
 
-
-
-
-
-
-
+A Return to Dornogal|QID|83503|M|35.95,35.45|Z|2215;Hallowfall|N|From Alleria Windrunner.|
+R Dornogal|ACTIVE|83503|M|35.95,35.45|Z|2215;Hallowfall|N|From Alleria Windrunner.|
+C Return to Dornogal|QID|83503|QO|1|M|39.94,26.08|Z|2339;Dornogal|N|Speak to Merrix.|CHAT|
+T Return to Dornogal|QID|83503|M|25.20,66.14|Z|2339;Dornogal|N|To Anduin.|
 
 ]]
 end)

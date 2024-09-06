@@ -16,46 +16,46 @@ return [[
 ;--Behind Closed Doors starts in Dornogal, but then requires the Entire Ringing Deeps main storyline, before you can pick up the last few steps
 
 A Violent Impact|QID|78529|PRE|80321|M|42.68,59.32|Z|2248;Isle of Dorn|N|From UI.|
-C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the rubble.|H|
-T Violent Impact|QID|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|FACTION|Alliance|
-T Violent Impact|QID|78529|M|29.45,55.06|Z|2248;Isle of Dorn|N|To Thrall.|FACTION|Horde|
-A Slay the Saboteurs|QID|78530|PRE|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|From Lady Jaina Proudmoore.|
-A Urgent Recovery|QID|78531|PRE|78529|M|29.48,54.99|Z|2248;Isle of Dorn|N|From Thrall.|
+C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the rubble. Click on the rocks.|H|
+T Violent Impact|QID|78529|M|29.51,55.01|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|FACTION|Alliance|
+T Violent Impact|QID|78529|M|29.45,55.07|Z|2248;Isle of Dorn|N|To Thrall.|FACTION|Horde|
+A Slay the Saboteurs|QID|78530|PRE|78529|M|29.51,55.01|Z|2248;Isle of Dorn|N|From Lady Jaina Proudmoore.|
+A Urgent Recovery|QID|78531|PRE|78529|M|29.45,55.07|Z|2248;Isle of Dorn|N|From Thrall.|
 C Urgent Recovery|QID|78531|QO|1|M|30.38,52.80;31.09,55.34;31.41,54.20;30.36,52.73;30.59,53.84;30.22,54.59|CS|Z|2248;Isle of Dorn|N|Click the glowy things to aid the crash survivors.|S|H|
 C Slay the Saboteurs|QID|78530|QO|1|M|30.35,55.51|Z|2248;Isle of Dorn|N|Slay Nerubians.|S|
-A Erratic Artifacts|QID|78532|PRE|78529|M|31.01,55.16|Z|2248;Isle of Dorn|N|Click the Sunreaver Satchel on the ground, and accept the quest that is offered by Archmage Aethas Sunreaver.|
+A Erratic Artifacts|QID|78532|PRE|78529|M|30.96,55.12|Z|2248;Isle of Dorn|N|Click the Sunreaver Satchel on the ground, and accept the quest that is offered by Archmage Aethas Sunreaver.|
 C Erratic Artifacts|QID|78532|QO|1|M|31.64,54.80|Z|2248;Isle of Dorn|N|Use provided item to destroy the Damaged Arcane Relics.|U|211535|NC|
 C Slay the Saboteurs|QID|78530|QO|1|M|30.35,55.51|Z|2248;Isle of Dorn|N|Kill Nerubians.|US|
 C Urgent Recovery|QID|78531|QO|1|M|30.38,52.80|Z|2248;Isle of Dorn|N|Aid Crash survivors.|H|US|
-T Erratic Artifacts|QID|78532|M|29.49,54.98|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
-T Slay the Saboteurs|QID|78530|M|29.49,54.98|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
-T Urgent Recovery|QID|78531|M|29.45,55.02|Z|2248;Isle of Dorn|N|To Thrall.|
-A Secure the Beach|QID|78533|PRE|78532&78530&78531|M|29.51,54.99|Z|2248;Isle of Dorn|N|From Anduin Wrynn.|
+T Erratic Artifacts|QID|78532|M|29.51,55.01|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
+T Slay the Saboteurs|QID|78530|M|29.51,55.01|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
+T Urgent Recovery|QID|78531|M|29.45,55.07|Z|2248;Isle of Dorn|N|To Thrall.|
+A Secure the Beach|QID|78533|PRE|78532&78530&78531|M|29.53,54.98|Z|2248;Isle of Dorn|N|From Anduin Wrynn.|
 C Secure the Beach|QID|78533|QO|1|M|30.20,55.95|Z|2248;Isle of Dorn|N|Regroup with Magni.|H|
 C Secure the Beach|QID|78533|QO|2|M|30.31,56.05|Z|2248;Isle of Dorn|N|Hold off Queensguard Zirix.|
 C Secure the Beach|QID|78533|QO|3|M|30.31,56.05|Z|2248;Isle of Dorn|N|Stand against Zirix's swarm.|
-T Secure the Beach|QID|78533|M|30.41,55.71|Z|2248;Isle of Dorn|N|To Baelgrim.|
-A To Dornogal|QID|78534|PRE|78533|M|30.41,55.71|Z|2248;Isle of Dorn|N|From Baelgrim.|
+T Secure the Beach|QID|78533|M|30.42,55.73|Z|2248;Isle of Dorn|N|To Baelgrim.|
+A To Dornogal|QID|78534|PRE|78533|M|30.42,55.73|Z|2248;Isle of Dorn|N|From Baelgrim.|
 C To Dornogal|QID|78534|QO|1|M|30.53,55.85|Z|2248;Isle of Dorn|N|Trained Stormrook mounted. This is optional, you can fly faster on your own if you want.|V|
 C To Dornogal|QID|78534|QO|2|M|33.52,76.94|Z|2339;Dornogal|N|Fly thru the rings.|
 C To Dornogal|QID|78534|QO|3|M|31.80,87.35|Z|2339;Dornogal|N|Meet Baelgrim in Dornogal.|
-T To Dornogal|QID|78534|M|33.61,75.35|Z|2339;Dornogal|N|To Baelgrim.|
-A They Come from Below|QID|78535|PRE|78534|M|33.61,75.35|Z|2339;Dornogal|N|From Baelgrim.|
+T To Dornogal|QID|78534|M|33.60,75.19|Z|2339;Dornogal|N|To Baelgrim.|
+A They Come from Below|QID|78535|PRE|78534|M|33.60,75.19|Z|2339;Dornogal|N|From Baelgrim.|
 C They Come from Below|QID|78535|QO|1|M|33.71,75.82|Z|2339;Dornogal|N|Lokren mounted.|V|
 C They Come from Below|QID|78535|QO|2|M|33.71,75.82|Z|2339;Dornogal|N|Standard Bombing run, kill Nerubian invaders.|
-C They Come from Below|QID|78535|QO|3|M|35.76,64.96|Z|2339;Dornogal|N|Regroup with Baelgrim.|
-T They Come from Below|QID|78535|M|36.18,64.49|Z|2339;Dornogal|N|To Baelgrim.|
-A Impossible Odds|QID|78536|PRE|78535|M|36.18,64.49|Z|2339;Dornogal|N|From Baelgrim.|
-C Impossible Odds|QID|78536|QO|1|M|36.47,65.25|Z|2339;Dornogal|N|Speak to Thrall.|CHAT|
-T Impossible Odds|QID|78536|M|36.18,64.49|Z|2339;Dornogal|N|To Baelgrim.|
-A Hypocenter|QID|78460|PRE|78536|M|36.18,64.49|Z|2339;Dornogal|N|From Baelgrim.|
+C They Come from Below|QID|78535|QO|3|M|36.21,64.24|Z|2339;Dornogal|N|Regroup with Baelgrim.|
+T They Come from Below|QID|78535|M|36.21,64.24|Z|2339;Dornogal|N|To Baelgrim.|
+A Impossible Odds|QID|78536|PRE|78535|M|36.21,64.24|Z|2339;Dornogal|N|From Baelgrim.|
+C Impossible Odds|QID|78536|QO|1|M|36.48,65.41|Z|2339;Dornogal|N|Speak to Thrall.|CHAT|
+T Impossible Odds|QID|78536|M|36.21,64.24|Z|2339;Dornogal|N|To Baelgrim.|
+A Hypocenter|QID|78460|PRE|78536|M|36.21,64.24|Z|2339;Dornogal|N|From Baelgrim.|
 C Hypocenter|QID|78460|QO|1|M|31.26,60.19|Z|2339;Dornogal|N|Click the webbed Earthen and piles of rubble.\nGo up the stairs for the final bits.|H|
-T Hypocenter|QID|78460|M|29.72,59.66|Z|2339;Dornogal|N|To Baelgrim.|
-A The Archive|QID|78468|PRE|78460|M|29.54,59.86|Z|2339;Dornogal|N|From Speaker Brinthe.|
+T Hypocenter|QID|78460|M|29.65,59.68|Z|2339;Dornogal|N|To Baelgrim.|
+A The Archive|QID|78468|PRE|78460|M|29.40,59.95|Z|2339;Dornogal|N|From Speaker Brinthe.|
 C The Archive|QID|78468|QO|1|M|29.14,59.69|Z|2339;Dornogal|N|Use Prismatic Codex to view memory gem.|EAB|H|
 C The Archive|QID|78468|QO|2|M|29.14,59.69|Z|2339;Dornogal|N|Deposit Memory gem in Archival Repository.|H|
-T The Archive|QID|78468|M|29.54,59.86|Z|2339;Dornogal|N|To Speaker Brinthe.|
-A Stones of Dornogal|QID|78457|PRE|78460|M|29.52,59.60|Z|2339;Dornogal|N|From Merrix.|
+T The Archive|QID|78468|M|29.40,59.95|Z|2339;Dornogal|N|To Speaker Brinthe.|
+A Stones of Dornogal|QID|78457|PRE|78460|M|29.40,59.43|Z|2339;Dornogal|N|From Merrix.|
 C Stones of Dornogal|QID|78457|QO|1|M|30.71,59.24|Z|2339;Dornogal|N|Speak to a Oathsworn Peacekeeper about profession trainers.|CHAT|
 C Stones of Dornogal|QID|78457|QO|2|M|44.67,50.99|Z|2339;Dornogal|N|Speak to Flightmaster Breem .|CHAT|
 C Stones of Dornogal|QID|78457|QO|3|M|44.82,46.49|Z|2339;Dornogal|N|Speak to Inkeeper Ronesh.|CHAT|
@@ -63,19 +63,19 @@ h Dornogal|ACTIVE|78457|M|44.82,46.49|Z|2339;Dornogal|N|Set your Hearth to Dorno
 C Stones of Dornogal|QID|78457|QO|4|M|47.61,44.36|Z|2339;Dornogal|N|Speak to Brann Bronzebeard.|CHAT|
 
 ;Profession training block. Move it anywhere you think it needs to go.
-= Train Alchemy|QID|99999|M|47.07,70.42|Z|2339;Dornogal|N|From Tarig. Click this step off if you are done or dont care.|P|Alchemy;171|SPELL|Khaz Algar Alchemy;423321|
-= Train Blacksmithing|QID|99999|M|49.20,63.45|Z|2339;Dornogal|N|From Darean. Click this step off if you are done or dont care.|P|Blacksmithing;164|SPELL|Khaz Algar Blacksmithing;423332|
-= Train Cooking|QID|99999|M|44.12,45.83|Z|2339;Dornogal|N|From Athodas. Click this step off if you are done or dont care.|P|Cooking;185|SPELL|Khaz Algar Cooking;423333|
-= Train Enchanting|QID|99999|M|52.82,71.06|Z|2339;Dornogal|N|From Nagad. Click this step off if you are done or dont care.|P|Enchanting;333|SPELL|Khaz Algar Enchanting;423346|
-= Train Engineering|QID|99999|M|49.28,56.06|Z|2339;Dornogal|N|From Thermalseer Arhdas. Click this step off if you are done or dont care.|P|Engineering;202|SPELL|Khaz Algar Engineering;423347|
-= Train Fishing|QID|99999|M|50.53,27.00|Z|2339;Dornogal|N|From Drokar. Click this step off if you are done or dont care.|P|Fishing;356|SPELL|Khaz Algar Fishing;423336|
 = Train Herbalism|QID|99999|M|44.86,69.36|Z|2339;Dornogal|N|From Akdan. Click this step off if you are done or dont care.|P|Herbalism;182|SPELL|Khaz Algar Herbalism;423349|
-= Train Inscription|QID|99999|M|48.67,70.92|Z|2339;Dornogal|N|From Brrigan. Click this step off if you are done or dont care.|P|Inscription;773|SPELL|Khaz Algar Inscription;423350|
+= Train Alchemy|QID|99999|M|47.07,70.42|Z|2339;Dornogal|N|From Tarig. Click this step off if you are done or dont care.|P|Alchemy;171|SPELL|Khaz Algar Alchemy;423321|
 = Train Jewelcrafting|QID|99999|M|49.58,70.82|Z|2339;Dornogal|N|From Makir. Click this step off if you are done or dont care.|P|Jewelcrafting;755|SPELL|Khaz Algar Jewelcrafting;423351|
-= Train Leatherworking|QID|99999|M|54.43,58.49|Z|2339;Dornogal|N|From Marbb. Click this step off if you are done or dont care.|P|Leatherworking;165|SPELL|Khaz Algar Leatherworking;423352|
+= Train Enchanting|QID|99999|M|52.82,71.06|Z|2339;Dornogal|N|From Nagad. Click this step off if you are done or dont care.|P|Enchanting;333|SPELL|Khaz Algar Enchanting;423346|
+= Train Inscription|QID|99999|M|48.67,70.92|Z|2339;Dornogal|N|From Brrigan. Click this step off if you are done or dont care.|P|Inscription;773|SPELL|Khaz Algar Inscription;423350|
+= Train Blacksmithing|QID|99999|M|49.20,63.45|Z|2339;Dornogal|N|From Darean. Click this step off if you are done or dont care.|P|Blacksmithing;164|SPELL|Khaz Algar Blacksmithing;423332|
+= Train Engineering|QID|99999|M|49.28,56.06|Z|2339;Dornogal|N|From Thermalseer Arhdas. Click this step off if you are done or dont care.|P|Engineering;202|SPELL|Khaz Algar Engineering;423347|
 = Train Mining|QID|99999|M|52.65,52.73|Z|2339;Dornogal|N|From Tarib. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Khaz Algar Mining;439705| ; Spell is forBismuth
-= Train Skinning|QID|99999|M|54.73,57.39|Z|2339;Dornogal|N|From Ginnad. Click this step off if you are done or dont care.|P|Skinning;393|SPELL|Khaz Algar Skinning;423354|
 = Train Tailoring|QID|99999|M|54.76,63.61|Z|2339;Dornogal|N|From Kotag. Click this step off if you are done or dont care.|P|Tailoring;197|SPELL|Khaz Algar Tailoring;423355|
+= Train Leatherworking|QID|99999|M|54.43,58.49|Z|2339;Dornogal|N|From Marbb. Click this step off if you are done or dont care.|P|Leatherworking;165|SPELL|Khaz Algar Leatherworking;423352|
+= Train Skinning|QID|99999|M|54.73,57.39|Z|2339;Dornogal|N|From Ginnad. Click this step off if you are done or dont care.|P|Skinning;393|SPELL|Khaz Algar Skinning;423354|
+= Train Cooking|QID|99999|M|44.12,45.83|Z|2339;Dornogal|N|From Athodas. Click this step off if you are done or dont care.|P|Cooking;185|SPELL|Khaz Algar Cooking;423333|
+= Train Fishing|QID|99999|M|50.53,27.00|Z|2339;Dornogal|N|From Drokar. Click this step off if you are done or dont care.|P|Fishing;356|SPELL|Khaz Algar Fishing;423336|
 ;=====> END PROFESSION BLOCK <======
 A Crossroads Plaza|QID|82747|M|46.6,33|Z|2339;Dornogal|N|From Rannida.|RANK|2|
 C Stones of Dornogal|QID|78457|QO|5|M|39.16,24.24|Z|2339;Dornogal|N|Speak to Auditor Balwurz.|CHAT|
@@ -521,8 +521,8 @@ N Come back later|AVAILABLE|79526|N|The final parts of the Sojourner achievement
 ;============Isle of Dorn wrap up=============
 
 ;Merrix and Steelvein Quest line for Sojourner of IoD
-;A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;also offered it The ringing deeps -- correct PRE?
-A The Councilward's Summons|QID|79542|PRE|79525&79354|M|45.97,47.31|Z|2339;Dornogal|N|From Saradi.|RANK|2|
+A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|IZ|The Ringing Deeps|;also offered it The ringing deeps -- correct PRE?
+A The Councilward's Summons|QID|79542|PRE|79525&79354|M|45.97,47.31|Z|2339;Dornogal|N|From Saradi.|RANK|2|IZ|Dornogal|
 C The Councilward's Summons|QID|79542|M|55.33,6.34|Z|2339;Dornogal|QO|1|NC|N|Meet Merrix at the Councilward's Rise.|
 T The Councilward's Summons|QID|79542|M|55.33,6.34|Z|2339;Dornogal|N|To Merrix.|
 A Dornogal's Benefactor|QID|79543|PRE|79542|M|55.33,6.34|Z|2339;Dornogal|N|From Merrix.|RANK|2|

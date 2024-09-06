@@ -29,6 +29,7 @@ f Gundargaz|ACTIVE|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Collect 
 C Cogs in the Machine|QID|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Meet Igram Underwing.|CHAT|
 C Cogs in the Machine|QID|78838|M|46.96,32.34|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
 A Delves: The Waterworks|QID|83749|M|47.14,31.88|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|RANK|3|
+t Delves: The Waterworks|QID|83749|M|46.16,48.01|Z|2214; The Ringing Deeps|N|To Brann Bronzebeard.|IZ|The Waterworks|
 C Cogs in the Machine|QID|78838|M|48.07,34.77|QO|3|Z|2214; The Ringing Deeps|N|Meet Watcher Toki.|CHAT|
 C Cogs in the Machine|QID|78838|M|47.15,34.08|QO|4|Z|2214; The Ringing Deeps|N|Return to Brinthe's house.|NC|
 T Cogs in the Machine|QID|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
@@ -54,7 +55,7 @@ C Evoking the Forge|QID|78879|M|48.00,32.2|Z|2214; The Ringing Deeps|N|Stoke the
 T Evoking the Forge|QID|78879|M|47.4,28.4|Z|2214; The Ringing Deeps|N|To Foreman Svart.|
 A On Cold, Dark Wings|QID|78900|PRE|78838|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|
 A A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|C|Demon Hunter,Warlock|
-A The Councilward Summons|QID|79542|PRE|79525|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;maybe wrong spot, may be wrong PRE
+A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;This is part of the IoD Soujourner questline. its in the Dorn GUide.
 A Discarded and Broken|QID|78562|PRE|78838|M|48.29,33.43|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|RANK|2|
 C A Shadow Over Gundargaz|QID|78895|QO|1|M|48.26,34.44|Z|2214; The Ringing Deeps|N|Click on the Gundargaz Defender to Investigate the Market.|H|
 ;end insert class quests - pieced together needs tested -- pally priest warlock dh tested
@@ -154,7 +155,7 @@ C Preserve and Pretend|QID|83331|QO|1<5|M|59.42,32.65|Z|2214; The Ringing Deeps|
 C Preserve and Pretend|QID|83331|QO|1<6|M|58.83,33.23|Z|2214; The Ringing Deeps|N|Find more history.|EAB|H|
 T Preserve and Pretend|QID|83331|M|58.32,32.10|Z|2214; The Ringing Deeps|N|To Chive.|
 A An Opportunity to Relax|QID|82952|M|53.77,43.83|Z|2214; The Ringing Deeps|N|From Mindi Maxlof.|RANK|2|
-A Rust and Redemption|QID|82195|M|53.34,44.59|Z|2214; The Ringing Deeps|N|From Rusted Lever.|
+A Rust and Redemption|QID|82195|M|53.34,44.59|Z|2214; The Ringing Deeps|N|From Rusted Lever.|RANK|2|
 C Rust and Redemption|QID|82195|M|53.22,43.31|Z|2214; The Ringing Deeps|N|Kill and loot the crawler bugs.|
 T Rust and Redemption|QID|82195|M|53.34,44.59|Z|2214; The Ringing Deeps|N|To Rusted Lever. Congratulations, you have unlocked an elevator to the surface.|
 C An Opportunity to Relax|QID|82952|M|48.83,34.01|QO|1<1|Z|2214; The Ringing Deeps|N|Give the tired worker a flyer.|H|
@@ -235,7 +236,6 @@ A Tending to Ausgazur|QID|80689|PRE|80404|M|46.31,36.81|Z|2214; The Ringing Deep
 ;A Reclaiming the Waterworks|QID|82615|M|46.82,46.01|From UI|
 C Reclaiming the Waterworks|QID|82615|M|44.84,43.37|Z|2214; The Ringing Deeps|N|Bonus Objective|IZ|The Waterworks|S!US|
 t Reclaiming the Waterworks|QID|82615|M|45.35,46.98|
-t Delves: The Waterworks|QID|83749|M|46.16,48.01|Z|2214; The Ringing Deeps|N|To Brann Bronzebeard.|
 A Threats of Zekvir|QID|83752|PRE|83749|M|46.16,48.01|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|
 C Threats of Zekvir|QID|83752|M|46.16,48.01|Z|2214; The Ringing Deeps|N|Tell Brann 'Let's Trigger it.|CHAT|
 T Threats of Zekvir|QID|83752|M|46.16,48.01|Z|2214; The Ringing Deeps|N|To Brann Bronzebeard.|
@@ -564,15 +564,15 @@ T Dark Iron from Above|QID|78760|M|46.70,10.23|Z|2214; The Ringing Deeps|N|To Mo
 A Into the Machine|QID|78761|M|46.74,10.31|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|
 C Into the Machine|QID|78761|M|46.40,8.79|Z|2214; The Ringing Deeps|QO|1|N|Enter the Hall of Awakening.|
 C In Pursuit|ACTIVE|78761|SO|1|M|22.72,49.90|Z|2368;Hall of Awakening|N|Run forward.|I|
-C Security Breach|ACTIVE|78761|SO|2:2|M|28.40,48.25|Z|2368;Hall of Awakening|N|Collect an Ironfuse Bomb.|
-C Security Breach|ACTIVE|78761|SO|2:1|M|26.62,45.89|Z|2368;Hall of Awakening|N|Use the bomb to destroy the Inferno Sprayers. Rinse, Repeat.|
+C Security Breach|ACTIVE|78761|SO|2;2|M|28.40,48.25|Z|2368;Hall of Awakening|N|Collect an Ironfuse Bomb.|
+C Security Breach|ACTIVE|78761|SO|2;1|M|26.62,45.89|Z|2368;Hall of Awakening|N|Use the bomb to destroy the Inferno Sprayers. Rinse, Repeat.|
 C Journey Deeper|ACTIVE|78761|SO|3|M|37.70,49.51|Z|2368;Hall of Awakening|N|Continue forward, it takes a bit before the doors open.|
 C Activate the Runelock|ACTIVE|78761|SO|4|M|42.68,45.18|Z|2368;Hall of Awakening|N|Go click the console.|NC|
 C Skardyn Breakout|ACTIVE|78761|SO|5|M|42.68,45.18|Z|2368;Hall of Awakening|N|Kill stuff coming to attack Dagran.|
-C Twin Guardians|ACTIVE|78761|SO|6:1|M|56.26,50.15|Z|2368;Hall of Awakening|N|Head into the Annihilation Interface Chamber.|
-K Earthen-Ward Sentinel|ACTIVE|78761|SO|6:2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|S|
-K Iron-Runed Protector|ACTIVE|78761|SO|6:3|M|62.42,52.88|Z|2368;Hall of Awakening|N|Kill the Iron-Runed Protector. They take turns being shielded, attack the one that isn't shielded.|T|Iron-Runed Protector|
-K Earthen-Ward Sentinel|ACTIVE|78761|SO|6:2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|US|
+C Twin Guardians|ACTIVE|78761|SO|6;1|M|56.26,50.15|Z|2368;Hall of Awakening|N|Head into the Annihilation Interface Chamber.|
+K Earthen-Ward Sentinel|ACTIVE|78761|SO|6;2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|S|
+K Iron-Runed Protector|ACTIVE|78761|SO|6;3|M|62.42,52.88|Z|2368;Hall of Awakening|N|Kill the Iron-Runed Protector. They take turns being shielded, attack the one that isn't shielded.|T|Iron-Runed Protector|
+K Earthen-Ward Sentinel|ACTIVE|78761|SO|6;2|M|62.42,45.94|Z|2368;Hall of Awakening|N|Kill the Earthen-Ward Sentinel. They take turns being shielded, attack the one that isn't shielded.|T|Earthen-Ward Sentinel|US|
 C The Awaking Machine|ACTIVE|78761|SO|7|M|77.25,49.73|Z|2368;Hall of Awakening|N|Head into the final chamber.|
 C Vigilance and Violence|ACTIVE|78761|SO|8|M|84.48,49.47|Z|2368;Hall of Awakening|N|Defeat Master Machinist Dunstan.|T|Master Machinist Dunstan|
 C King of the Dwarves|ACTIVE|78761|SO|9|M|84.48,49.47|Z|2368;Hall of Awakening|N|Confront High Speaker Eirich.|
