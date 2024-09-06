@@ -2,7 +2,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("Squally",'WorldEvents',"Azeroth", "Ludo", "Neutral")
+local guide = WoWPro:RegisterGuide("Squally",'WorldEvents',"Valdrakken", "Ludo", "Neutral")
 WoWPro:GuideLevels(guide)
 WoWPro:GuideQuestTriggers(guide, 82809)
 WoWPro:NoCache(guide)
