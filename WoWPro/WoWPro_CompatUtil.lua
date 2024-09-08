@@ -316,15 +316,18 @@ function WoWPro.C_Item_GetItemIconByID(itemID)
 end
 
 
--- [[EasyMenu]]
-local function EasyMenu_Initialize( frame, level, menuList )
-	for index = 1, #menuList do
-		local value = menuList[index]
-		if (value.text) then
-			value.index = index;
-			_G.UIDropDownMenu_AddButton( value, level );
-		end
-	end
+local function EasyMenu_Initialize(frame, level, menuList)
+    if not menuList then
+        return
+    end
+
+    for index = 1, #menuList do
+        local value = menuList[index]
+        if (value.text) then
+            value.index = index
+            _G.UIDropDownMenu_AddButton(value, level)
+        end
+    end
 end
 
 function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
