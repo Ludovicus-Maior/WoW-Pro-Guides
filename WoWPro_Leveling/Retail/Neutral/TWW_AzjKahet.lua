@@ -76,13 +76,13 @@ A Ara-Kara, the City of Echoes: Harvest's End|QID|83166|M|56.21,42.25|Z|2255;Azj
 A City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255;Azj-Kahet|N|From Tulumun.|RANK|3|
 t City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255;Azj-Kahet|N|To Tulumun.|
 C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255;Azj-Kahet|QO|2|CHAT|N|Talk to Anub'okki.|
-A Bountiful Beetles|QID|83325|M|55.88,42.18|Z|2255;Azj-Kahet|N|From Anub'okki.|RANK|2|
+A Bountiful Beetles|QID|83325|M|55.88,42.18|Z|2255;Azj-Kahet|N|From Anub'okki or Aspirant Kilpla.|RANK|2|; The quest giver changes - possibly due to the pact system
 B Making the Underworld Go Round|QID|84664|QO|1|M|55.38,41.50|Z|2255;Azj-Kahet|N|Buy Dubious Vial of Vigor from Yamas the Provider.|
 C Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|QO|4|NC|N|Pick which one to forge a pact with.|
 T Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|N|To Y'tekhi.|
 T Making the Underworld Go Round|QID|84664|PRE|84682|M|55.78,43.74|Z|2255;Azj-Kahet|N|To Linny Leadfinger.|
 A Strange Bats|QID|83321|M|55.76,43.66|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
-A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
+A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|LVL|80|LEAD|81945|; This quest requires Level 80 - It's a breadcrub for "To Arathi's End(QID 81945)" 
 C The Weaver's Gift|QID|78233|M|58.97,19.96|Z|2255;Azj-Kahet|QO|1|NC|N|Weaver's gift located.|
 T The Weaver's Gift|QID|78233|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 T Advance to Faerin|QID|82248|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|LEAD|81929|
@@ -95,13 +95,13 @@ C Here's the Plan|QID|81929|QO|3|M|59.34,19.46|Z|2255;Azj-Kahet|H|N|Pick up the 
 C Here's the Plan|QID|81929|QO|4|M|59.37,19.36|Z|2255;Azj-Kahet|H|N|Hand Shield to Faerin.|
 C Here's the Plan|QID|81929|QO|5|M|59.04,18.85|Z|2255;Azj-Kahet|H|N|Grab the bag off the ground.|
 T Here's the Plan|QID|81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
-A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
 C Rations and Revelations|QID|80399|M|59.41,19.18|Z|2255;Azj-Kahet|QO|1<1|H|N|Distribute Arathi Rations.|
 A Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|RANK|3|
 t Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|IZ|Faerin's Advance|
 C Rations and Revelations|QID|80399|M|59.41,19.18;59.03,19.06;58.80,19.97|CS|Z|2255;Azj-Kahet|QO|1|H|N|Arathi Rations distributed.|
 T Rations and Revelations|QID|80399|M|59.38,19.34|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 A Scrappy Straggler|QID|78236|M|59.38,19.34|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
+A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
 f Faerin's Advance|ACTIVE|78236|M|59.99,18.70|Z|2255;Azj-Kahet|N|At Courier Aidal.|
 A Infested Infestation|QID|79174|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 A Prisoner Preservation|QID|79355|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
