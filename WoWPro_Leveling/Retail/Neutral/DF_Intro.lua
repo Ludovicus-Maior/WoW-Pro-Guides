@@ -7,9 +7,13 @@ WoWPro:GuideQuestTriggers(guide, 65435, 65436, 70197, 70198)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;A The Dragon Isles Await|QID|65436|M|PLAYER|N|From UI Alert.|FACTION|Alliance|
-;A The Dragon Isles Await|QID|65435|M|PLAYER|N|From UI Alert.|FACTION|Horde|
+;A The Dragon Isles Await|QID|65436|M|PLAYER|Z|84; Stormwind City|N|From UI Alert.|FACTION|Alliance|
+C The Dragon Isles Await|QID|65436|QO|1|M|PLAYER|Z|84; Stormwind City|N|Use the Scale.|U|205456|FACTION|Alliance|
+C The Dragon Isles Await|QID|65436|QO|2|M|79.79,27.00|Z|84; Stormwind City|N|Talk to Wrathion.|CHAT|FACTION|Alliance|
 t The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84; Stormwind City|N|To Wrathion in Stormwind.|FACTION|Alliance|
+;A The Dragon Isles Await|QID|65435|M|PLAYER|Z|85; Ogrimmar|N|From UI Alert.|FACTION|Horde|
+C The Dragon Isles Await|QID|65435|QO|1|M|PLAYER|Z|85; Ogrimmar|N|Use the Scale.|U|205456|FACTION|Horde|
+C The Dragon Isles Await|QID|65435|QO|2|M|44.22,38.11|Z|85; Ogrimmar|N|Talk to Ebyssian.|CHAT|FACTION|Horde|
 t The Dragon Isles Await|QID|65435|M|44.22,38.11|Z|85; Ogrimmar|N|To Ebyssian in Orgrimmar.|FACTION|Horde|
 A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|
 A Aspectral Invitation|QID|65437|PRE|65435|M|44.22,38.11|Z|85; Ogrimmar|N|From Ebyssian.|FACTION|Horde|
