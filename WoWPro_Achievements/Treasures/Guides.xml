@@ -4,4 +4,9 @@
     <Script file="Blanc_BI_Treasures.lua"/>
 	<Script file="Ludo_Treasure.lua"/>
 	<Script file="Cag_ZM_Tales.lua"/>
+	<Script file="TWW_Dorn_Treasures.lua"/>
+	<Script file="TWW_AK_Treasures.lua"/>
+	<Script file="TWW_TRD_Treasures.lua"/>
+	<Script file="TWW_HF_Treasures.lua"/>
+	
 </Ui>

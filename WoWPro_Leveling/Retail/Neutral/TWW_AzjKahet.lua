@@ -76,13 +76,13 @@ A Ara-Kara, the City of Echoes: Harvest's End|QID|83166|M|56.21,42.25|Z|2255;Azj
 A City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255;Azj-Kahet|N|From Tulumun.|RANK|3|
 t City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255;Azj-Kahet|N|To Tulumun.|
 C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255;Azj-Kahet|QO|2|CHAT|N|Talk to Anub'okki.|
-A Bountiful Beetles|QID|83325|M|55.88,42.18|Z|2255;Azj-Kahet|N|From Anub'okki.|RANK|2|
+A Bountiful Beetles|QID|83325|M|55.88,42.18|Z|2255;Azj-Kahet|N|From Anub'okki or Aspirant Kilpla.|RANK|2|; The quest giver changes - possibly due to the pact system
 B Making the Underworld Go Round|QID|84664|QO|1|M|55.38,41.50|Z|2255;Azj-Kahet|N|Buy Dubious Vial of Vigor from Yamas the Provider.|
 C Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|QO|4|NC|N|Pick which one to forge a pact with.|
 T Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|N|To Y'tekhi.|
 T Making the Underworld Go Round|QID|84664|PRE|84682|M|55.78,43.74|Z|2255;Azj-Kahet|N|To Linny Leadfinger.|
 A Strange Bats|QID|83321|M|55.76,43.66|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
-A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
+A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|LVL|80|LEAD|81945|; This quest requires Level 80 - It's a breadcrub for "To Arathi's End(QID 81945)"
 C The Weaver's Gift|QID|78233|M|58.97,19.96|Z|2255;Azj-Kahet|QO|1|NC|N|Weaver's gift located.|
 T The Weaver's Gift|QID|78233|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 T Advance to Faerin|QID|82248|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|LEAD|81929|
@@ -95,13 +95,13 @@ C Here's the Plan|QID|81929|QO|3|M|59.34,19.46|Z|2255;Azj-Kahet|H|N|Pick up the 
 C Here's the Plan|QID|81929|QO|4|M|59.37,19.36|Z|2255;Azj-Kahet|H|N|Hand Shield to Faerin.|
 C Here's the Plan|QID|81929|QO|5|M|59.04,18.85|Z|2255;Azj-Kahet|H|N|Grab the bag off the ground.|
 T Here's the Plan|QID|81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
-A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
 C Rations and Revelations|QID|80399|M|59.41,19.18|Z|2255;Azj-Kahet|QO|1<1|H|N|Distribute Arathi Rations.|
 A Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|RANK|3|
 t Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Sir Jonathan Trueheart.|IZ|Faerin's Advance|
 C Rations and Revelations|QID|80399|M|59.41,19.18;59.03,19.06;58.80,19.97|CS|Z|2255;Azj-Kahet|QO|1|H|N|Arathi Rations distributed.|
 T Rations and Revelations|QID|80399|M|59.38,19.34|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 A Scrappy Straggler|QID|78236|M|59.38,19.34|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
+A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
 f Faerin's Advance|ACTIVE|78236|M|59.99,18.70|Z|2255;Azj-Kahet|N|At Courier Aidal.|
 A Infested Infestation|QID|79174|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 A Prisoner Preservation|QID|79355|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
@@ -193,15 +193,15 @@ A Trade Partners|QID|79651|PRE|78256|M|55.77,43.74|Z|2255;Azj-Kahet|N|From Linny
 A A Silken Thread|QID|83324|PRE|78256|M|55.77,43.74|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|
 C A Most Intriguing Invitation|QID|78226|M|55.98,43.48|Z|2255;Azj-Kahet|QO|1|NC|N|Apply Pheromones.|EAB|
 C A Most Intriguing Invitation|QID|78226|M|55.63,44.30|Z|2255;Azj-Kahet|QO|3|N|Take The Vizier's Flyer.|V|
-C A Most Intriguing Invitation|QID|78226|M|67.19,25.01|Z|2216;City of Threads|QO|2|NC|N|Arrive in the Burrows.|
-C A Most Intriguing Invitation|QID|78226|M|66.34,30.68|Z|2216;City of Threads|QO|4|NC|N|Meet The Vizier.|
-T A Most Intriguing Invitation|QID|78226|M|67.04,31.39|Z|2216;City of Threads|N|To Anduin Wrynn.|
-A Into a Skittering City|QID|78228|M|67.04,31.39|Z|2216;City of Threads|N|From Anduin Wrynn.|
-C Into a Skittering City|QID|78228|M|67.33,32.30|Z|2216;City of Threads|QO|1|CHAT|N|Speak with the Vizier.|
-C Into a Skittering City|QID|78228|M|67.00,32.55|Z|2216;City of Threads|QO|2|NC|N|Step in the red circle and use your[color=33fff9] Extra Action Button [/color] to have Tulumun apply the Pheromones.|EAB|
-T Into a Skittering City|QID|78228|M|67.23,32.38|Z|2216;City of Threads|N|To Executor Nizrek.|
-A Rewriting the Rewritten|QID|78232|M|67.28,32.41|Z|2216;City of Threads|N|From Executor Nizrek.|
-A Like a Spider on the Wall|QID|78231|M|66.99,32.03|Z|2216;City of Threads|N|From Anduin Wrynn.|
+C A Most Intriguing Invitation|QID|78226|M|67.19,25.01|Z|2255;Azj-Kahet|QO|2|NC|N|Arrive in the Burrows.|
+C A Most Intriguing Invitation|QID|78226|M|66.34,30.68|Z|2255;Azj-Kahet|QO|4|NC|N|Meet The Vizier.|
+T A Most Intriguing Invitation|QID|78226|M|67.04,31.39|Z|2255;Azj-Kahet|N|To Anduin Wrynn.|
+A Into a Skittering City|QID|78228|M|67.04,31.39|Z|2255;Azj-Kahet|N|From Anduin Wrynn.|
+C Into a Skittering City|QID|78228|M|67.33,32.30|Z|2255;Azj-Kahet|QO|1|CHAT|N|Speak with the Vizier.|
+C Into a Skittering City|QID|78228|M|67.00,32.55|Z|2255;Azj-Kahet|QO|2|NC|N|Step in the red circle and use your[color=33fff9] Extra Action Button [/color] to have Tulumun apply the Pheromones.|EAB|
+T Into a Skittering City|QID|78228|M|67.23,32.38|Z|2255;Azj-Kahet|N|To Executor Nizrek.|
+A Rewriting the Rewritten|QID|78232|M|67.28,32.41|Z|2255;Azj-Kahet|N|From Executor Nizrek.|
+A Like a Spider on the Wall|QID|78231|M|66.99,32.03|Z|2255;Azj-Kahet|N|From Anduin Wrynn.|
 C Rewriting the Rewritten|QID|78232|M|52.86,15.94|Z|2213;City of Threads|QO|1|H|N|Shadecasters overwritten.|S|
 C Like a Spider on the Wall|QID|78231|M|61.98,20.59|Z|2213;City of Threads|QO|5|CHAT|N|Attempt to Meet Meesk.|
 A Searching the Web|QID|79630|M|64.07,15.93|Z|2213;City of Threads|N|From Arax'ne.|RANK|3|
@@ -255,31 +255,30 @@ A Grand, Gutsy Solutions|QID|79715|M|59.96,66.12|Z|2255;Azj-Kahet|N|From Al'kubi
 K Grand Gluttony|ACTIVE|79715|QO|1|M|56.67,65.48|Z|2255;Azj-Kahet|N|Kill Grand Gluttony and collect its Swollen Brain of Gluttony.|T|Grand Gluttony|
 T Grand, Gutsy Solutions|QID|79715|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 
-A Loss of Limb|QID|82340|M|63.40,37.35|Z|2216;City of Threads|N|From Mr. Sunflower.|RANK|2|
-C Loss of Limb|QID|82340|M|63.51,38.40|Z|2216;City of Threads|QO|1|CHAT|N|Speak with Vi'azl.|
-C Loss of Limb|QID|82340|M|63.26,36.93|Z|2216;City of Threads|QO|2|NC|N|Drink Threat Reduction Potion.|
-C Loss of Limb|QID|82340|M|63.32,38.54|Z|2216;City of Threads|QO|3|NC|N|Comfort Vi'azl.|
-C Loss of Limb|QID|82340|M|54.98,39.47|Z|2216;City of Threads|QO|4|CHAT|N|Speak with Vi'azl.|
-T Loss of Limb|QID|82340|M|55.09,39.30|Z|2216;City of Threads|N|To Mr. Sunflower.|
-A Setting Boundaries|QID|83057|M|55.07,39.34|Z|2216;City of Threads|N|From Mr. Sunflower.|RANK|2|
+A Loss of Limb|QID|82340|M|63.40,37.35|Z|2255;Azj-Kahet|N|From Mr. Sunflower.|RANK|2|
+C Loss of Limb|QID|82340|M|63.51,38.40|Z|2255;Azj-Kahet|QO|1|CHAT|N|Speak with Vi'azl.|
+C Loss of Limb|QID|82340|M|63.26,36.93|Z|2255;Azj-Kahet|QO|2|NC|N|Drink Threat Reduction Potion.|
+C Loss of Limb|QID|82340|M|63.32,38.54|Z|2255;Azj-Kahet|QO|3|NC|N|Comfort Vi'azl.|
+C Loss of Limb|QID|82340|M|54.98,39.47|Z|2255;Azj-Kahet|QO|4|CHAT|N|Speak with Vi'azl.|
+T Loss of Limb|QID|82340|M|55.09,39.30|Z|2255;Azj-Kahet|N|To Mr. Sunflower.|
+A Setting Boundaries|QID|83057|M|55.07,39.34|Z|2255;Azj-Kahet|N|From Mr. Sunflower.|RANK|2|
 K Vek'kix|ACTIVE|83057|M|57.61,20.38|Z|2213;City of Threads|QO|1|N|Slay Vek'kix.|T|Vek'kix|
-T Setting Boundaries|QID|83057|M|55.04,39.41|Z|2216;City of Threads|N|To Mr. Sunflower.|
+T Setting Boundaries|QID|83057|M|55.04,39.41|Z|2255;Azj-Kahet|N|To Mr. Sunflower.|
 
-T Silken Thread|QID|83324|M|51.40,63.95|Z|2216;City of Threads|N|To Sum'latha.|
-A The Voice of the people|QID|81928|PRE|83324|M|51.40,63.95|Z|2216;City of Threads|N|To Sum'latha.|RANK|2|
-C The Voice of the people|QID|81928|QO|1<1|M|53.73,63.31|Z|2216;City of Threads|CHAT|N|Talk to Worker Yareh'losh.|
-C The Voice of the people|QID|81928|QO|1<3|M|54.48,50.23|Z|2216;City of Threads|CHAT|N|Talk to Priest Maro'zik.|
-C The Voice of the people|QID|81928|QO|1<2|M|54.17,52.30|Z|2216;City of Threads|CHAT|N|Talk to Teacher Zas'rush.|
+T A Silken Thread|QID|83324|M|51.40,63.95|Z|2255;Azj-Kahet|N|To Sum'latha.|
+A The Voice of the People|QID|81928|PRE|83324|M|51.40,63.95|Z|2255;Azj-Kahet|N|To Sum'latha.|RANK|2|
+C The Voice of the People|QID|81928|QO|1<1|M|53.64,61.34|Z|2255;Azj-Kahet|CHAT|N|Talk to Worker Yareh'losh.|
+C The Voice of the People|QID|81928|QO|1<2|M|54.18,52.22|Z|2255;Azj-Kahet|CHAT|N|Talk to Teacher Zas'rush.|
+C The Voice of the People|QID|81928|QO|1<3|M|57.47,50.14|Z|2255;Azj-Kahet|CHAT|N|Talk to Priest Maro'zik.|
 T The Voice of the People|QID|81928|M|59.92,54.19|Z|2255;Azj-Kahet|N|To Alchemist Talbax.|
 A Collecting a Concoction|QID|81959|M|59.92,54.19|Z|2255;Azj-Kahet|N|From Alchemist Talbax.|RANK|2|
 C Collecting a Concoction|QID|81959|M|58.96,58.02|Z|2256;Azj-Kahet|H|N|The Brightshade Potions are scattered on the ground below the Silken Ward.|
 T Collecting a Concoction|QID|81959|M|59.92,54.19|Z|2255;Azj-Kahet|N|To Alchemist Talbax.|
 A A Nudge in the Right Direction|QID|81962|M|59.92,54.19|Z|2255;Azj-Kahet|N|From Alchemist Talbax.|RANK|2|
-C A Nudge in the Right Direction|QID|81962|M|54.39,50.72|Z|2255;Azj-Kahet|QO|2|NC|N|Use[color=33fff9] Extra Action Button [/color] to show off Potions (Optional).|EAB|
 C A Nudge in the Right Direction|QID|81962|M|58.65,53.32|Z|2255;Azj-Kahet|QO|1|N|Pale Weavelashers Slain.|EAB|
 T A Nudge in the Right Direction|QID|81962|M|59.92,54.19|Z|2255;Azj-Kahet|N|To Alchemist Talbax.|
 A The Fruits of Our Labor|QID|81963|M|59.92,54.19|Z|2255;Azj-Kahet|N|From Alchemist Talbax.|RANK|2|
-C The Fruits of Our Labor|QID|81963|M|57.53,63.31|Z|2255;Azj-Kahet|QO|1<1|CHAT|N|Hand over some potions to Priest Maro'zik.|
+C The Fruits of Our Labor|QID|81963|M|57.53,50.15|Z|2255;Azj-Kahet|QO|1<1|CHAT|N|Hand over some potions to Priest Maro'zik.|
 C The Fruits of Our Labor|QID|81963|M|54.16,52.28|Z|2255;Azj-Kahet|QO|1<2|CHAT|N|Hand over potions to Teacher Zas'rush.|
 C The Fruits of Our Labor|QID|81963|M|53.69,61.23|Z|2255;Azj-Kahet|QO|1<3|CHAT|N|Hand over potions to Worker Yareh'losh.|
 T The Fruits of Our Labor|QID|81963|M|59.92,54.19|Z|2255;Azj-Kahet|N|To Alchemist Talbax.|
@@ -294,7 +293,7 @@ C Boom or Blight|QID|78897|M|38.15,42.41|Z|2255;Azj-Kahet|QO|1|N|Worms of the Wo
 C Heeeelllp!!!|QID|78901|M|40.72,39.92|Z|2255;Azj-Kahet|QO|1|NC|N|Kill the group of 3 Razorscale Devourers and then stand on the edge of the rocky outcropping to rescue Skedgit Cinderbangs.|
 T Heeeelllp!!!|QID|78901|M|40.76,39.75|Z|2255;Azj-Kahet|N|To Skedgit Cinderbangs.|
 A Delegated Dig|QID|78902|M|40.76,39.75|Z|2255;Azj-Kahet|N|From Skedgit Cinderbangs.|RANK|2|
-C Intention vs Instinct|QID|78898|M|39.93,39.84;39.45,42.32|CS|Z|2255;Azj-Kahet|N|Go down into this small tunnel and to the back and kill the Nerubian to lootthe Singing Stone.|
+K Wormcaller Iz'tikrine|ACTIVE|78898|QO|1|M|39.93,39.84;39.45,42.32|CS|Z|2255;Azj-Kahet|N|Go down into this small tunnel and to the back and kill Wormcaller Iz'tikrine to lootthe Singing Stone.|T|Wormcaller Iz'tikrine|
 C Delegated Dig|QID|78902|M|36.76,43.56|Z|2255;Azj-Kahet|NC|N|Sivstone Chunks can be found in all the little alcove tunnels.|
 T Delegated Dig|QID|78902|M|40.78,39.70|Z|2255;Azj-Kahet|N|To Skedgit Cinderbangs.|
 A Entrepreneur, Inc.|QID|79349|M|40.77,39.69|Z|2255;Azj-Kahet|N|From Skedgit Cinderbangs.|RANK|2|
@@ -337,27 +336,29 @@ C Leave No Trace|QID|80568|M|61.21,77.53|Z|2256;Azj-Kahet|QO|1|NC|U|223322|N|Col
 T Leave No Trace|QID|80568|M|62.56,78.98|Z|2256;Azj-Kahet|N|To Hannan.|
 A Staunch the Flow|QID|80570|PRE|80568|M|62.58,79.17|Z|2256;Azj-Kahet|N|From Orweyna.|RANK|2|
 A Decipher the Cacophony|QID|80571|PRE|80568|M|62.58,79.17|Z|2256;Azj-Kahet|N|From Orweyna.|RANK|2|
+l Coagulated Black Blood Clot|AVAILABLE|80378|L|217390|M|62.17,83.20|Z|2256;Azj-Kahet|N|Drops from Discordiant Mobs.|S!US|IZ|The Maddening Deep|
+;A A Light of the Dark|QID|80378|M|62.17,83.20|Z|2256;Azj-Kahet|N|Use the Coagulated Black Blood Clot.|U|217390|O|
+C A Light of the Dark|QID|80378|M|62.17,83.20|Z|2256;Azj-Kahet|N|Kill and loot mobs to find Coagulated Black Blood.|S|
 C Staunch the Flow|QID|80570|M|62.17,83.20|Z|2256;Azj-Kahet|NC|N|Click the Extractors scattered around to destroy them.|S|
 C Decipher the Cacophony|QID|80571|M|62.17,83.20|Z|2256;Azj-Kahet|N|Kill and loot mobs to find Discordant Essence.|
-C Staunch the Flow|QID|80570|M|62.17,83.20|Z|2256;Azj-Kahet|NC|N|Keep destroying the extractors.|
+C Staunch the Flow|QID|80570|M|62.17,83.20|Z|2256;Azj-Kahet|NC|N|Keep destroying the extractors.|US|
+C A Light of the Dark|QID|80378|M|62.17,83.20|Z|2256;Azj-Kahet|N|Kill and loot mobs to find Coagulated Black Blood.|US|
 T Staunch the Flow|QID|80570|M|62.61,79.19|Z|2256;Azj-Kahet|N|To Orweyna.|
 T Decipher the Cacophony|QID|80571|M|62.61,79.19|Z|2256;Azj-Kahet|N|To Orweyna.|
 A Discordant Measures|QID|80572|PRE|80570&80571|M|62.61,79.18|Z|2256;Azj-Kahet|N|From Orweyna.|RANK|2|
 A Harmonious Approach|QID|80569|PRE|80570&80571|M|62.56,79.13|Z|2256;Azj-Kahet|N|From Hannan.|RANK|2|
 C Discordant Measures|QID|80572|M|62.30,81.72|Z|2256;Azj-Kahet|QO|1|NC|N|Getting in the red "water" is the easiest way to acquire 50 stacks of Unseeming Shift. You can also click Essence Extractors. Clicking Harmonizing Instrument will remove all stacks.|
 K Harvest Warden Izk'tilak|ACTIVE|80569|M|61.44,83.58|Z|2256;Azj-Kahet|QO|1|N|Slay Harvest Warden Izk'tilak.|T|Harvest Warden Izk'tilak|
-K Warped Sapling|ACTIVE|80572|M|63.10,84.94|Z|2256;Azj-Kahet|QO|4|NC|N|Kill Warped Sapling and loot the Root Sliver.|T|Warped Sapling|
-K Aberrant Deepwalker|ACTIVE|80572|M|65.24,88.14|Z|2256;Azj-Kahet|QO|2|N|Kill Aberrant Deepwalker and loot it's Corrupted Heart.|T|Aberrant Deepwalker|
-K Faceless One|ACTIVE|80572|M|65.68,83.90|Z|2256;Azj-Kahet|QO|3|NC|N|Kill the Faceless One and loot his Sightless Eye.|T|Faceless One|
+K Warped Sapling|ACTIVE|80572|M|63.10,84.94|Z|2256;Azj-Kahet|QO|4|NC|N|Kill Warped Sapling and loot the Root Sliver.\n\n This needs 50+ unseeming SHift stacks, just stand int he water and stack these up.|T|Warped Sapling|
+K Aberrant Deepwalker|ACTIVE|80572|M|65.24,88.14|Z|2256;Azj-Kahet|QO|2|N|Kill Aberrant Deepwalker and loot it's Corrupted Heart.\n\n This needs 50+ unseeming SHift stacks, just stand int he water and stack these up.|T|Aberrant Deepwalker|
+K Faceless One|ACTIVE|80572|M|65.68,83.90|Z|2256;Azj-Kahet|QO|3|NC|N|Kill the Faceless One and loot his Sightless Eye.\n\n This needs 50+ Unseeming Shift stacks, just stand int he water and stack these up.|T|Faceless One|
 C Discordant Measures|QID|80572|M|62.78,79.03|Z|2256;Azj-Kahet|QO|5|NC|N|Meet Orweyna at the overlook.|
 C Discordant Measures|QID|80572|M|62.45,78.91|Z|2256;Azj-Kahet|QO|6|NC|N|You probably want to click the Harmonizing Instrument to remove Unseeming Shift debuff (so less things will agro you - Optional).|
 T Harmonious Approach|QID|80569|M|62.57,79.11|Z|2256;Azj-Kahet|N|To Hannan.|
 T Discordant Measures|QID|80572|M|62.58,79.15|Z|2256;Azj-Kahet|N|To Orweyna.|
 
-; <<<moved block <A The Entrenched|QID|83616| - thru A Maggots in your Eyes|QID|79957> to here>>>
 A The Entrenched|QID|83616|M|69.71,47.98|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
 A The Upstart|QID|81667|M|69.71,47.98|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
-N Ren'htak|QID|81667|M|66.61,41.31|Z|Azj-Kahet|N|Ren'htak is behind the building, not inside.|
 C The Upstart|QID|81667|M|66.59,41.29|Z|2255;Azj-Kahet|CHAT|N|Ren'htak is behind the building, not inside. Find him and ingratiate yourself.|
 T The Upstart|QID|81667|M|66.61,41.31|Z|2255;Azj-Kahet|N|To Ren'khat.|
 A Measure Once, Cut Thrice|QID|81668|M|66.60,41.30|Z|2255;Azj-Kahet|N|From Ren'khat.|RANK|2|
@@ -374,7 +375,7 @@ C Spring Collection|QID|81683|M|70.61,42.03|Z|2255;Azj-Kahet|QO|4|N|Kill and loo
 C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|3|H|L|224284|N|Harvest Eyeless Petals.|US|
 C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|2|H|L|224285|N|Harvest Luminous Strangler Sap.|US|
 C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|1|N|Keep killing mobs until you have enough Reclaimed Catalyst.|US|
-T Spring Collection|QID|81683|M|72.9, 42.6|Z|2255;Azj-Kahet|QO|4|NC|N|To Grand Overspinner Antourix.|
+T Spring Collection|QID|81683|M|72.9, 42.6|Z|2255;Azj-Kahet|NC|N|To Grand Overspinner Antourix.|
 T Measure Once, Cut Thrice|QID|81668|M|72.78,42.46|Z|2255;Azj-Kahet|N|To Ren'khat.|
 A I Expect You To Dye|QID|81687|PRE|81683&50352|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
 A Azj-Kahet's Next Top Dyemaster|QID|81685|PRE|81683&50352|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
@@ -407,16 +408,17 @@ A Personal Pilfering|QID|83277|M|87.82,59.32|Z|2213;Meesk's Retreat|N|From Spind
 C Personal Pilfering|QID|83277|M|87.85,58.24|Z|2213;Meesk's Retreat|I|N|Examine the Incriminating Evidence.|
 A Spiders!|QID|79954|M|77.48,68.38|Z|2213;Terrace of the Ascended|N|From Ag'thax.|RANK|2|
 R Pillar-nest Xesh|ACTIVE|79954|M|72.44,57.46|Z|City of Threads - Lower|N|Tunnel entrance.|
-C Spiders!|QID|79954|M|68.05,55.76|Z|2216;City of Threads|NC|N|The High Hollows Key is just lying on the ground, inside the tunnel.|
-A ...And Now I'm Arachnophobic|QID|79955|M|66.92,54.91|Z|2216;City of Threads|N|From Albert.|RANK|2|
-C ...And Now I'm Arachnophobic|QID|79955|M|70.95,64.54|Z|2216;City of Threads|QO|1|NC|N|Check on Albert's Lost Companions.|
-T ...And Now I'm Arachnophobic|QID|79955|M|69.97,63.32|Z|2216;City of Threads|N|To Albert.|
-A Legs in the Ceiling|QID|79956|M|69.97,63.32|Z|2216;City of Threads|N|From Albert.|RANK|2|
-C Legs in the Ceiling|QID|79956|M|69.97,63.06|Z|2216;City of Threads|QO|1|NC|N|Pull the Web Strand (Optional). Are we using our wisdom...|
-C Legs in the Ceiling|QID|79956|M|69.85,63.55|Z|2216;City of Threads|QO|2|N|Kill the spiders that show up, ending with the Scalpel of Xishirra.|
-T Legs in the Ceiling|QID|79956|M|68.80,62.27|Z|2216;City of Threads|N|To Albert.|
-A Maggots in your Eyes|QID|79957|M|68.80,62.27|Z|2216;City of Threads|N|From Albert.|RANK|2|
-;<<<end moved block>>>
+C Spiders!|QID|79954|M|68.24,55.86|Z|2216;City of Thread|NC|N|The High Hollows Key is just lying on the ground, inside the tunnel.|
+A ...And Now I'm Arachnophobic|QID|79955|M|66.85,54.85|Z|2216;City of Thread|N|From Albert.|RANK|2|
+C ...And Now I'm Arachnophobic|QID|79955|M|70.95,64.54|Z|2216;City of Thread|QO|1|NC|N|Check on Albert's Lost Companions.|
+T ...And Now I'm Arachnophobic|QID|79955|M|69.97,63.32|Z|2216;City of Thread|N|To Albert.|
+A Legs in the Ceiling|QID|79956|M|69.97,63.32|Z|2216;City of Thread|N|From Albert.|RANK|2|
+C Legs in the Ceiling|QID|79956|M|69.97,63.06|Z|2216;City of Thread|QO|1|NC|N|Pull the Web Strand (Optional). Are we using our wisdom...|
+K Scalpel of Xishirra|ACTIVE|79956|M|69.85,63.55|Z|2216;City of Thread|QO|2|N|Kill the spiders that show up, ending with the Scalpel of Xishirra.|T|Scalpel of Xishirra|
+T Legs in the Ceiling|QID|79956|M|68.80,62.27|Z|2216;City of Thread|N|To Albert.|
+A Maggots in your Eyes|QID|79957|M|68.80,62.27|Z|2216;City of Thread|N|From Albert.|RANK|2|
+T Spiders!|QID|79954|M|77.51,68.29|Z|2213;Terrace of the Ascended|N|To Ag'thax.|
+
 
 T Bountiful Beetles|QID|83325|M|75.97,82.34|Z|2255;The Royal Livery|N|To Kish'nal.(Note to self: see if saving private skittle is available now)|;or moving this whole section... for Entreneur Inc also to be available later.
 A It's Rough to Be a Bug!|QID|79119|PRE|83325|M|75.97,82.34|Z|2255;The Royal Livery|N|From Kish'nal.|RANK|2|
@@ -426,7 +428,6 @@ A Beautification Project|QID|79114|M|75.99,82.33|Z|2255;The Royal Livery|N|From 
 C Beautification Project|QID|79114|M|72.81,82.50|Z|2255;Azj-Kahet|QO|1|H|N|Click the offending plants and walk away to remove them.|
 T Beautification Project|QID|79114|M|75.99,82.30|Z|2255;The Royal Livery|N|To Kish'nal.|
 A Expert Consultant|QID|79115|M|76.01,82.46|Z|2255;The Royal Livery|N|From Vix'aron.|RANK|2|
-;<<< this quest (79349) should now be in log after moving blocks>>> it may have followups but didnt seem to.
 T Entrepreneur, Inc.|QID|79349|M|78.25,61.79|Z|2255;Azj-Kahet|N|To Ripsnoodle.|
 T Trade Partners|QID|79651|M|77.06,64.18|Z|2255;Azj-Kahet|N|To Monte Gazlowe.|
 A Nothing Ventured|QID|80558|PRE|79651|M|77.06,64.18|Z|2255;Azj-Kahet|N|From Monte Gazlowe.|RANK|2|
@@ -451,8 +452,9 @@ T Electrifying!|QID|79539|M|77.86,62.88|Z|2255;Azj-Kahet|N|To Jenni Boombuckle.|
 A The Party's Over|QID|79540|PRE|79538&79539|M|77.91,62.83|Z|2255;Azj-Kahet|N|From Grigg.|RANK|2|
 T The Party's Over|QID|79540|M|77.64,59.43|Z|2255;Azj-Kahet|N|To Rhubarn.|
 A Burn It With Fire|QID|79541|PRE|79540|M|77.58,59.58|Z|2255;Azj-Kahet|N|From Monte Gazlowe.|RANK|2|
+C Burn It With Fire|QID|79541|M|76.90,58.30|Z|2255;Azj-Kahet|QO|1|NC|U|219392|N|Use the[color=33fff9] flame Thrower [/color]on the Pillar-nests.|S|
 C Burn It With Fire|QID|79541|M|76.80,58.71|Z|2255;Azj-Kahet|QO|2|H|N|Replace Niffen Protection Incense.|
-C Burn It With Fire|QID|79541|M|76.90,58.30|Z|2255;Azj-Kahet|QO|1|NC|U|219392|N|Use the[color=33fff9] flame Thrower [/color]on the Pillar-nests.|
+C Burn It With Fire|QID|79541|M|76.90,58.30|Z|2255;Azj-Kahet|QO|1|NC|U|219392|N|Use the[color=33fff9] flame Thrower [/color]on the Pillar-nests.|US|
 T Burn It With Fire|QID|79541|M|77.60,59.45|Z|2255;Azj-Kahet|N|To Jenni Boombuckle.|
 A Rak-Ush Under New Management|QID|79118|PRE|79541|M|77.60,59.45|Z|2255;Azj-Kahet|N|From Jenni Boombuckle.|
 T Rak-Ush Under New Management|QID|79118|M|75.02,80.66|Z|2255;Azj-Kahet|N|To Vix'aron.|
@@ -495,14 +497,14 @@ A Marionette Mercy|QID|80206|M|65.70,42.50|Z|2213;City of Threads|N|From Orator 
 C Marionette Mercy|QID|80206|M|65.64,41.97|Z|2213;City of Threads|QO|1|H|N|Pick up Antiparalytic Serum from the table next to Tx'itk.|
 C Marionette Mercy|QID|80206|M|65.95,42.06|Z|2213;City of Threads|QO|2|H|N|Click on the Incomplete Puppets around the room.|
 T Marionette Mercy|QID|80206|M|65.81,42.49|Z|2213;City of Threads|N|To Orator Tx'itk.|
-A Pulling Strings|QID|80205|M|65.81,42.49|Z|2213;City of Threads|RANK|2|
+A Pulling Strings|QID|80205|M|65.81,42.49|Z|2213;City of Threads|N|From Orator Tx'itk.|RANK|2|
 C Pulling Strings|QID|80205|M|61.42,48.60|Z|2213;City of Threads|QO|1|I|N|Meet Orator Tx'itk at the Puppetmaster's Theater.|
-C Pulling Strings|QID|80205|M|61.34,48.63|Z|2213;City of Threads|QO|3|CHAT|N|Tell Orator Tx'itk to start the show, then wait for dialog to end.|
+C Pulling Strings|QID|80205|M|61.34,48.63|Z|2213;City of Threads|QO|2;3|CHAT|N|Tell Orator Tx'itk to start the show, then wait for dialog to end.|
 C Pulling Strings|QID|80205|M|62.07,48.20|Z|2213;City of Threads|QO|4|N|Kill Puppets.|
 C Pulling Strings|QID|80205|M|62.06,48.52|Z|2213;City of Threads|QO|5|H|N|Click on High Elevator Etak'kaht.|
 C Pulling Strings|QID|80205|M|71.49,44.72|Z|2213;City of Threads|QO|6|I|N|Return to the Magistrate's Office.|
 T Pulling Strings|QID|80205|M|71.64,45.57|Z|2213;City of Threads|N|To Orator Tx'itk.|
-T Spiders!|QID|79954|M|77.51,68.29|Z|2213;Terrace of the Ascended|N|To Ag'thax.|
+
 F Faerin's Advance|ACTIVE|79957|M|76.84,64.44|Z|2255;Azj-Kahet|N|Head to the flightmaster and take a flight to Faerin's Advance. (Or just fly)|
 T Maggots in your Eyes|QID|79957|M|59.28,19.21|Z|2255;Azj-Kahet|N|To Pathfinder Jeb.|
 
