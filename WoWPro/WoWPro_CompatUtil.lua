@@ -328,7 +328,7 @@ local function EasyMenu_Initialize( frame, level, menuList )
 end
 
 function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
-    if WoWPro.WAR_WITHIN then
+    if not _G.EasyMenu then
         if ( displayMode == "MENU" ) then
             menuFrame.displayMode = displayMode;
         end
