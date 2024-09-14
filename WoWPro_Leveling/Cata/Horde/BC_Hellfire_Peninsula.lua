@@ -8,13 +8,13 @@ WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Blasted Lands|QID|60123|N|At the Thrallmar Mage in the Pathfinder's Den.|Z|Orgrimmar|M|56.93,88.31|
+R Blasted Lands|ACTIVE|60123|M|56.93,88.31|Z|Orgrimmar|N|At the Thrallmar Mage in the Pathfinder's Den.|
 C To Outland!|QID|60123|M|55.01,54.35|Z|1419;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
 T To Outland!|QID|60123|M|PLAYER|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|
 T Arrival in Outland|QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
 A Journey to Thrallmar|QID|10289|PRE|10120|M|87.33,48.17|N|From Vlagga Freyfeather.|
-C Thrallmar|QID|10289|CHAT|N|Talk to Vlagga Freyfeather and have her send you to Thrallmar.|M|87.33,48.17|
+C Thrallmar|QID|10289|M|87.33,48.17|N|Talk to Vlagga Freyfeather and have her send you to Thrallmar.|CHAT|
 h Thrallmar|QID|10289|M|56.69,37.50|N|At Floyd Pinkus.|
 T Journey to Thrallmar|QID|10289|M|55.93,36.83|N|To General Krakork.|
 A Report to Nazgrel|QID|10291|PRE|10289|M|55.93,36.83|N|From General Krakork.|
@@ -24,7 +24,7 @@ A Bonechewer Blood|QID|10450|M|55.11,36.34|N|From Vurtok Axebreaker.|
 A I Work... For the Horde!|QID|10086|M|55.20,38.75|N|From Megzeg Nukklebust.|
 T Eradicate the Burning Legion|QID|10121|M|58.03,41.25|N|To Sergeant Shatterskull.|
 A Felspark Ravine|QID|10123|PRE|10121|M|58.03,41.25|N|From Sergeant Shatterskull.|
-A Invading the Citadel|QID|29542|M|58.03,41.25|N|From Sergeant Shatterskull. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
+A Invading the Citadel|QID|29542|M|58.03,41.25|N|From Sergeant Shatterskull. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|DUNGEON|
 C Felspark Ravine|QID|10123|M|61.08,38.80|N|Kill the needed demons.|
 C Bonechewer Blood|QID|10450|M|57.60,46.61|N|Kill and loot orcs for their blood. Orcs are on both side of ravine.|S|
 C I Work... For the Horde!|QID|10086|M|59.03,45.00|NC|N|Pick up the sparkling pieces of wood and metal.|
@@ -299,7 +299,7 @@ B Cenarion Spirits|QID|9472|L|29112|N|Available from the innkeeper.|Z|1946; Zang
 T The Cenarion Expedition|QID|9912|Z|1946; Zangarmarsh|M|78.5,62.0|N|To Ysiel Windsinger.|
 A Disturbance at Umbrafen Lake|QID|9716|Z|1946; Zangarmarsh|M|78.5,62.0|N|From Ysiel Windsinger.|
 A Warden Hamoot|QID|9778|LEAD|9728|Z|1946; Zangarmarsh|M|78.4,62.1|N|From Ysiel Windsinger.|
-A Checking Up|QID|29566|M|78.40,62.10|Z|1946; Zangarmarsh|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
+A Checking Up|QID|29566|M|78.40,62.10|Z|1946; Zangarmarsh|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|DUNGEON|
 T Warden Hamoot|QID|9778|Z|1946; Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
 A A Warm Welcome|QID|9728|Z|1946; Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
 R Swamprat Post|ACTIVE|10103|N|To Swamprat Post in the northeast.|Z|1946; Zangarmarsh|M|85,55|
@@ -318,6 +318,5 @@ T Report to Nazgrel|QID|10875|M|55.02,35.96|N|To Nazgrel.|
 A The Foot of the Citadel|QID|10876|PRE|10875|M|55.02,35.96|N|From Nazgrel.|
 C The Foot of the Citadel|QID|10876|U|31702|M|47.43,49.71|N|Kill Force-Commander Gorax, then plant the Challenge From the Horde on his corpse. Once The Hand of Kargath appears, kill and loot him for his head.|
 T The Foot of the Citadel|QID|10876|M|55.02,35.96|N|To Nazgrel.|
-N This ends|N|Hellfire Peninsula. Visit Shattrath to see your trainers if you wish (Death Gate if you are a Death Knight). Close this step to head on into Zangarmarsh.|
 ]]
 end)
