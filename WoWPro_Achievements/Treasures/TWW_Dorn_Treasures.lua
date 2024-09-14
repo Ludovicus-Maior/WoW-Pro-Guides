@@ -9,9 +9,9 @@ return [[
 ;2248; Isle of Dorn
 N Isle of Dorn|ACH|40434|
 
-N Turtle Fish!|ACH|40434|M|48.66,31.14|Z|2248|N|USE AN ALT to Grab 5x Dornish Pike & 1x Goldengill Trout from the AH if you don't want to fish them up. (Mail them to your treasure hunter AFTER you talk to the turtle each time.)|
+N Turtle Fish!|ACH|40434;2|M|48.66,31.14|Z|2248|N|USE AN ALT to Grab 5x Dornish Pike & 1x Goldengill Trout from the AH if you don't want to fish them up. (Mail them to your treasure hunter AFTER you talk to the turtle each time.)|
 
-N Crab Macro (Highly recommended)|ACH|40434|M|48.66,31.14|Z|2248|N|https://www.wowhead.com/item=224185/crab-guiding-branch#comments. Makes finding the Tree's Treasure crabs MUCH easier.|
+N Crab Macro (Highly recommended)|ACH|40434;1|M|48.66,31.14|Z|2248|N|https://www.wowhead.com/item=224185/crab-guiding-branch#comments. Makes finding the Tree's Treasure crabs MUCH easier.|
 
 N Tree's Treasure Cave|QID|9999999|M|48.66,31.14|Z|2248|N|Cave Entrance|ACH|40434;1|
 N Tree's Treasure - Get Branch|QID|9999999|M|48.58,30.08|Z|2248|N|Speak with  Freysworn Letitia|ACH|40434;1|
