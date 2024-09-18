@@ -28,7 +28,7 @@ A Cogs in the Machine|QID|78838|PRE|78837|M|47.17,34.16|Z|2214; The Ringing Deep
 f Gundargaz|ACTIVE|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Collect the flight path from Igram Underwing.|
 C Cogs in the Machine|QID|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Meet Igram Underwing.|CHAT|
 C Cogs in the Machine|QID|78838|M|46.96,32.34|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
-A Delves: The Waterworks|QID|83749|M|47.14,31.88|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|RANK|3|
+A Delves: The Waterworks|QID|83749|M|47.14,31.88|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|PRE|78464|RANK|3|
 t Delves: The Waterworks|QID|83749|M|46.16,48.01|Z|2214; The Ringing Deeps|N|To Brann Bronzebeard.|IZ|The Waterworks|
 C Cogs in the Machine|QID|78838|M|48.07,34.77|QO|3|Z|2214; The Ringing Deeps|N|Meet Watcher Toki.|CHAT|
 C Cogs in the Machine|QID|78838|M|47.15,34.08|QO|4|Z|2214; The Ringing Deeps|N|Return to Brinthe's house.|NC|
@@ -269,7 +269,7 @@ A Beebiter|QID|80000|PRE|79552&79998|M|72.08,42.06|Z|2248; Isle of Dorn|N|From J
 A Hot Pollenate-o|QID|80202|PRE|79552&79998|M|72.08,42.06|Z|2248; Isle of Dorn|N|From Janky.|RANK|2|
 C Hot Pollenate-o|QID|80202|M|72.10,41.19|Z|2248; Isle of Dorn|N|Go near a Pollen Rich Cinderbloom to receive a buff to make you friendly to the bees.(Optional).|BUFF|439592|H|
 C Hot Pollenate-o|QID|80202|M|69.67,40.06|QO|2|Z|2248; Isle of Dorn|N|Run near friendly bees to deliver Pollen.|S|H|
-K Beebiter|ACTIVE|80000|M|69.87,41.76|QO|1|Z|2248; Isle of Dorn|N|Kill Beebiter.|T|Beebiter|
+K Beebiter|ACTIVE|80000|M|69.87,41.76|QO|1|Z|2248; Isle of Dorn|N|In a cave below the roots of the tree. Kill Beebiter.|T|Beebiter|
 C Hot Pollenate-o|QID|80202|M|69.67,40.06|QO|2|Z|2248; Isle of Dorn|N|Run near friendly bees to deliver Pollen.|US|H|
 T Hot Pollenate-o|QID|80202|M|72.07,42.09|Z|2248; Isle of Dorn|N|To Janky.|
 T Beebiter|QID|80000|M|72.07,42.09|Z|2248; Isle of Dorn|N|To Janky.|
