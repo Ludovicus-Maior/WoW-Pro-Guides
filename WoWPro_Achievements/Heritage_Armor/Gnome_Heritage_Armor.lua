@@ -14,8 +14,8 @@ C Gnomeregan's Finest|QID|54576|M|38.08,38.86|Z|469;New Tinkertown|QO|1|CHAT|N|S
 T Gnomeregan's Finest|QID|54576|M|41.68,31.93|Z|469;New Tinkertown|N|To Captain Tread Sparknozzle.|
 A Shadowed Halls and Dusty Cogs|QID|54577|PRE|54576|M|41.68,31.93|Z|469;New Tinkertown|N|From Captain Tread Sparknozzle.|
 R Gnomeregan|ACTIVE|54577|M|31.26,38.02|Z|27;Dun Morogh|N|Make your way to the New Tinkertown.|
-R Train Depot|ACTIVE|54577|M|69.82,83.00;48.21,14.13|CS|Z|27;Dun Morogh|N|Make your way to the Train Depot.|
-P Workshop Entrance|ACTIVE|54577|M|48.21,14.13|Z|27;Dun Morogh|N|Take the portal to Workshop Entrance.|
+R Train Depot|ACTIVE|54577|M|69.82,83.00;48.21,14.13|CS|Z|30; New Tinkertown|N|Make your way to the Train Depot.|
+P Workshop Entrance|ACTIVE|54577|M|48.21,14.13|Z|30; New Tinkertown|N|Take the portal to Workshop Entrance.|
 C Shadowed Halls and Dusty Cogs|QID|54577|M|85.00,60.19|Z|1380;Launch Bay@GnomereganC!Dungeon|QO|1|NC|N|Enter Gnomeregan through the Workshop Entrance.|
 C Shadowed Halls and Dusty Cogs|QID|54577|M|36.05,73.47|Z|1380;Launch Bay@GnomereganC!Dungeon|QO|2|H|N|Prototype Arcane Engine.|
 P New Tinkertown|ACTIVE|54577|M|37.72,72.28|Z|1380;Launch Bay@GnomereganC!Dungeon|N|Use the teleportation pad next to where you just found the engine.|
@@ -48,13 +48,13 @@ A Operation: Troggageddon|QID|54850|PRE|54640|M|56.17,51.40|Z|120;The Storm Peak
 C Operation: Troggageddon|QID|54850|M|56.19,51.52|Z|120;The Storm Peaks|QO|1|V|N|Jump in the First Squadron Prototype.|
 C Operation: Troggageddon|QID|54850|M|41.77,37.55|Z|120;The Storm Peaks|QO|2|N|Defeat Sparkspanner's Army (100%).|
 T Operation: Troggageddon|QID|54850|M|PLAYER|Z|120;The Storm Peaks|N|UI ALERT|
-A For Gnomeregan!|QID|54641|PRE|54850|M|PLAYER|Z|120;The Storm Peaks|N|From Cog Captain Winklespring. He is sitting in front of you in the Aircraft|
+A For Gnomeregan!|QID|54641|PRE|54850|M|56.10,51.38|Z|120;The Storm Peaks|N|From Cog Captain Winklespring. He is sitting in front of you in the Aircraft|
 C For Gnomeregan!|QID|54641|M|39.45,26.91|Z|120;The Storm Peaks|QO|1|NC|N|Enter the Halls of Stone.|
 C For Gnomeregan!|QID|54641|M|49.50,15.06|Z|1375;Halls of Stone!Dungeon1375|QO|2|N|Smasher X900 slain.|
 T For Gnomeregan!|QID|54641|M|49.95,13.07|Z|1375;Halls of Stone!Dungeon1375|N|To Cog Captain Winklespring.|
 A G.E.A.R. Up|QID|54642|PRE|54641|M|49.95,13.07|Z|1375;Halls of Stone!Dungeon1375|N|From Cog Captain Winklespring.|
 P The Storm Peaks|ACTIVE|54642|M|48.37,10.56|Z|1375;Halls of Stone!Dungeon1375|N|Take the teleporter to just outside the instance.|
-R Dalaran City|ACTIVE|54642|M|66.66,42.61|Z|125;Dalaran City|N|Make your way to Dalaran City.|
+R Dalaran|ACTIVE|54642|M|66.66,42.61|Z|125;Dalaran City|N|Make your way to Dalaran City.|
 P Stormwind City|ACTIVE|54642|M|39.72,62.63|Z|125;Dalaran City|N|Make your way to Dalaran City.|
 T G.E.A.R. Up|QID|54642|M|41.91,31.71|Z|469;New Tinkertown|N|To Captain Tread Sparknozzle.|
 N Congratulations|N|This ends this guide|

@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('Isle of Dorn', 'Leveling', 'Isle of Dorn', '
 WoWPro:GuideName(guide,"Isle of Dorn")
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideQuestTriggers(guide, 83548)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, 'The Ringing Deeps')
 WoWPro:GuideSteps(guide, function()
@@ -15,6 +16,7 @@ return [[
 ;--Brotherhood in the Skolzgal Wood requires you to complete the Hallowfall Hallowfall achievement
 ;--Behind Closed Doors starts in Dornogal, but then requires the Entire Ringing Deeps main storyline, before you can pick up the last few steps
 
+t Isle of Dorn|QID|83548|M|29.51,55.01|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
 A Violent Impact|QID|78529|PRE|80321|M|42.68,59.32|Z|2248;Isle of Dorn|N|From UI.|
 C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the rubble. Click on the rocks.|H|
 T Violent Impact|QID|78529|M|29.51,55.01|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|FACTION|Alliance|
