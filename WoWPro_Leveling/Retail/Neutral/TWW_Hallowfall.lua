@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('Hallowfall', 'Leveling', 'Hallowfall', 'WoWP
 WoWPro:GuideName(guide,"Hallowfall")
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideQuestTriggers(guide, 83551)
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'Azj Kahet')
 WoWPro:GuideSteps(guide, function()
@@ -12,8 +13,7 @@ return [[
 ;|Z|2215;Hallowfall
 ;|Z|2255;The Reckoning
 
-
-
+t Hallowfall|QID|83551|M|68.44,45.11|Z|2215;Hallowfall|N|To Faerin.|
 A The Hallowed Path|QID|78658|PRE|81689|M|47.05,32.24|Z|2214;The Ringing Deeps|N|From Anduin Wrynn.|
 C The Hallowed Path|QID|78658|M|40.57,24.25|Z|2214;The Ringing Deeps|QO|1|NC|N|Find the Gate to Hallowfall.|
 C The Hallowed Path|QID|78658|M|77.21,42.99|Z|2215;Hallowfall|QO|2|CHAT|N|Speak with Anduin in Hallowfall.|
@@ -35,22 +35,22 @@ C Seek the Lost|QID|79310|QO|3|M|74.48,51.26|Z|2215;Hallowfall|N|Recover a momen
 T Seek the Lost|QID|79310|M|75.37,49.57|Z|2215;Hallowfall|N|To Scout Wayshelm.|
 A Stem the Flow|QID|79311|M|75.37,49.57|Z|2215;Hallowfall|N|From Scout Wayshelm.|RANK|2|
 A Mow the Masses|QID|79312|M|75.37,49.57|Z|2215;Hallowfall|N|From Scout Wayshelm.|RANK|2|
-C Stem the Flow|QID|79311|M|74.92,51.91|Z|2215;Hallowfall|N|Slay 12 Bloatrot Stingers or Fungal Infestors.|S|
-C Mow the Masses|QID|79312|M|74.92,51.91|Z|2215;Hallowfall|N|Cut down 8 Foulnectar Fronds.|H|
-C Stem the Flow|QID|79311|M|74.92,51.91|Z|2215;Hallowfall|N|Slay 12 Bloatrot Stingers or Fungal Infestors.|US|
+C Stem the Flow|QID|79311|M|74.92,51.91|Z|2215;Hallowfall|N|Slay Bloatrot Stingers or Fungal Infestors.|S|
+C Mow the Masses|QID|79312|M|74.92,51.91|Z|2215;Hallowfall|N|Cut down Foulnectar Fronds.|H|
+C Stem the Flow|QID|79311|M|74.92,51.91|Z|2215;Hallowfall|N|Slay Bloatrot Stingers or Fungal Infestors.|US|
 T Stem the Flow|QID|79311|M|75.57,51.83|Z|2215;Hallowfall|N|To Scout Wayshelm.|
 T Mow the Masses|QID|79312|M|75.57,51.83|Z|2215;Hallowfall|N|To Scout Wayshelm.|
 A What Grows in the Dark|QID|79313|M|75.57,51.83|Z|2215;Hallowfall|N|From Scout Wayshelm.|RANK|2|
 K Fallowbarb|ACTIVE|79313|M|76.36,54.86|Z|2215;Hallowfall|QO|1|N|Fallowbarb slain.|T|Fallowbarb|
 T What Grows in the Dark|QID|79313|M|70.52,44.98|Z|2215;Hallowfall|N|To Captain Trueflame.|
 A Care Package|QID|79304|M|69.26,43.90|Z|2215;Hallowfall|N|From Barahl Lynflayme.|RANK|2|
-C Suspicious Minds|QID|83247|M|64.96,40.06|Z|2215;Hallowfall|QO|1|NC|N|Salamanther Heart.|S|
+C Suspicious Minds|QID|83247|M|64.96,40.06|Z|2215;Hallowfall|QO|1|N|Salamanther Heart.|S|
 C For Morale|QID|83283|M|64.73,41.56|Z|2215;Hallowfall|QO|1|N|Imperial Brut.|H|
-C Suspicious Minds|QID|83247|M|64.96,40.06|Z|2215;Hallowfall|QO|1|NC|N|Salamanther Heart.|US|
+C Suspicious Minds|QID|83247|M|64.96,40.06|Z|2215;Hallowfall|QO|1|N|Salamanther Heart.|US|
 T For Morale|QID|83283|M|68.02,44.26|Z|2215;Hallowfall|N|To Lerrenai Fayn.|
 T Suspicious Minds|QID|83247|M|68.02,44.26|Z|2215;Hallowfall|N|To Derill Fayn.|
 A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|R|Undead,VoidElf|
-A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|C|DEATHKNIGHT,PRIEST,WARLOCK|
+A Prove One's Mettle|QID|83279|M|68.02,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|C|DEATHKNIGHT,PRIEST,WARLOCK,DEMONHUNTER|
 K Coalesced Iniquity|ACTIVE|83279|QO|1|M|62.37,38.79|Z|2215;Hallowfall|N|Kill Coalesced Iniquity.|T|Coalesced Iniquity|
 T Prove One's Mettle|QID|83279|M|62.72,38.74|Z|2215;Hallowfall|N|To Derill Fayn.|
 C Where the Light Touches|QID|78659|M|68.19,45.16|Z|2215;Hallowfall|N|Ride with Faerin to the Aegis Wall.|V|
@@ -173,7 +173,7 @@ C Restore the Flame|QID|78954|M|56.19,42.01|Z|2215;Hallowfall|CHAT|N|Tell Faerin
 T Restore the Flame|QID|78954|M|56.19,42.01|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A To Mereldar|QID|78607|M|56.19,42.01|Z|2215;Hallowfall|N|From Faerin Lothar.|
 A Delver's Call: The Sinkhole|QID|83767|M|48.71,39.61|Z|2215;Hallowfall|N|From Poster on the Pole.|RANK|3|
-A Hungry in Hollow|QID|84392|M|48.45,39.39|Z|2215;Hallowfall|N|From Haelmut Aegisaxe.|RANK|2|
+A Hungry in Hollow|QID|84392|M|48.45,39.39|Z|2215;Hallowfall|N|From Haelmut Aegisaxe.|RANK|2|LVL|75|
 A Lights Out|QID|78686|M|49.14,41.09|Z|2215;Hallowfall|N|From Aegor Irynbawnd.|RANK|2|
 T To Mereldar|QID|78607|M|43.42,48.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A The Bastion of Hallowfall|QID|78613|M|43.39,48.64|Z|2215;Hallowfall|N|From General Steelstrike.|
@@ -270,13 +270,13 @@ C Underground Economics|QID|82217|M|68.46,44.57|Z|2215;Hallowfall|QO|4|NC|N|Conv
 C Underground Economics|QID|82217|M|68.52,44.66|Z|2215;Hallowfall|QO|3|NC|N|Convince Andee Seabraid to trade with the Arathi.|
 T Underground Economics|QID|82217|M|68.46,44.64|Z|2215;Hallowfall|N|To General Steelstrike.|
 T Hungry in Hollow|QID|84392|M|69.85,32.65|Z|2215;Hallowfall|N|To Dolena.|
-A Something Earthy|QID|82843|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
+A Something Earthy|QID|82843|LEAD|84392|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
 C Something Earthy|QID|82843|M|69.63,33.49|Z|2215;Hallowfall|N|Collect a taro.|H|
 T Something Earthy|QID|82843|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
-A Something Not Ruined|QID|82844|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
+A Something Not Ruined|QID|82844|PRE|82843|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
 C Something Not Ruined|QID|82844|M|69.63,33.49|Z|2215;Hallowfall|N|Collect some taro.|H|
 T Something Not Ruined|QID|82844|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
-A Enough Garlic|QID|82847|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
+A Enough Garlic|QID|82847|PRE|82844|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
 C Enough Garlic|QID|82847|QO|1|M|70.22,28.31|Z|2215;Hallowfall|N|Collect some garlic.|H|
 C Enough Garlic|QID|82847|QO|2|M|70.22,28.31|Z|2215;Hallowfall|N|Collect some more garlic.|H|
 T Enough Garlic|QID|82847|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
