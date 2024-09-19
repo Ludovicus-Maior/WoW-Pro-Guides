@@ -54,6 +54,7 @@ C For Gnomeregan!|QID|54641|M|49.50,15.06|Z|1375;Halls of Stone!Dungeon1375|QO|2
 T For Gnomeregan!|QID|54641|M|49.95,13.07|Z|1375;Halls of Stone!Dungeon1375|N|To Cog Captain Winklespring.|
 A G.E.A.R. Up|QID|54642|PRE|54641|M|49.95,13.07|Z|1375;Halls of Stone!Dungeon1375|N|From Cog Captain Winklespring.|
 P The Storm Peaks|ACTIVE|54642|M|48.37,10.56|Z|1375;Halls of Stone!Dungeon1375|N|Take the teleporter to just outside the instance.|
+P Ironforge|ACTIVE|54642|M|PLAYER|N|Teleport yourself to Ironforge.|C|MAGE|
 R Dalaran|ACTIVE|54642|M|66.66,42.61|Z|125;Dalaran City|N|Make your way to Dalaran City.|
 P Stormwind City|ACTIVE|54642|M|39.72,62.63|Z|125;Dalaran City|N|Make your way to Dalaran City.|
 T G.E.A.R. Up|QID|54642|M|41.91,31.71|Z|469;New Tinkertown|N|To Captain Tread Sparknozzle.|

@@ -65,20 +65,21 @@ h Dornogal|ACTIVE|78457|M|44.82,46.49|Z|2339;Dornogal|N|Set your Hearth to Dorno
 C Stones of Dornogal|QID|78457|QO|4|M|47.61,44.36|Z|2339;Dornogal|N|Speak to Brann Bronzebeard.|CHAT|
 
 ;Profession training block. Move it anywhere you think it needs to go.
-= Train Herbalism|QID|99999|M|44.86,69.36|Z|2339;Dornogal|N|From Akdan. Click this step off if you are done or dont care.|P|Herbalism;182|SPELL|Khaz Algar Herbalism;423349|
+= Train Herbalism|QID|99999|M|44.86,69.36|Z|2339;Dornogal|N|From Akdan. Click this step off if you are done or dont care.|P|Herbalism;182|SPELL|Khaz Algar Herbalism;435811|;Spell is for Mycobloom
 = Train Alchemy|QID|99999|M|47.07,70.42|Z|2339;Dornogal|N|From Tarig. Click this step off if you are done or dont care.|P|Alchemy;171|SPELL|Khaz Algar Alchemy;423321|
 = Train Jewelcrafting|QID|99999|M|49.58,70.82|Z|2339;Dornogal|N|From Makir. Click this step off if you are done or dont care.|P|Jewelcrafting;755|SPELL|Khaz Algar Jewelcrafting;423351|
 = Train Enchanting|QID|99999|M|52.82,71.06|Z|2339;Dornogal|N|From Nagad. Click this step off if you are done or dont care.|P|Enchanting;333|SPELL|Khaz Algar Enchanting;423346|
-= Train Inscription|QID|99999|M|48.67,70.92|Z|2339;Dornogal|N|From Brrigan. Click this step off if you are done or dont care.|P|Inscription;773|SPELL|Khaz Algar Inscription;423350|
+= Train Inscription|QID|99999|M|48.67,70.92|Z|2339;Dornogal|N|From Brrigan. Click this step off if you are done or dont care.|P|Inscription;773|SPELL|Khaz Algar Inscription;444181|;Spell is for Khaz Algar Milling
 = Train Blacksmithing|QID|99999|M|49.20,63.45|Z|2339;Dornogal|N|From Darean. Click this step off if you are done or dont care.|P|Blacksmithing;164|SPELL|Khaz Algar Blacksmithing;423332|
 = Train Engineering|QID|99999|M|49.28,56.06|Z|2339;Dornogal|N|From Thermalseer Arhdas. Click this step off if you are done or dont care.|P|Engineering;202|SPELL|Khaz Algar Engineering;423347|
-= Train Mining|QID|99999|M|52.65,52.73|Z|2339;Dornogal|N|From Tarib. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Khaz Algar Mining;439705| ; Spell is forBismuth
+= Train Mining|QID|99999|M|52.65,52.73|Z|2339;Dornogal|N|From Tarib. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Khaz Algar Mining;439705|;Spell is forBismuth
 = Train Tailoring|QID|99999|M|54.76,63.61|Z|2339;Dornogal|N|From Kotag. Click this step off if you are done or dont care.|P|Tailoring;197|SPELL|Khaz Algar Tailoring;423355|
 = Train Leatherworking|QID|99999|M|54.43,58.49|Z|2339;Dornogal|N|From Marbb. Click this step off if you are done or dont care.|P|Leatherworking;165|SPELL|Khaz Algar Leatherworking;423352|
 = Train Skinning|QID|99999|M|54.73,57.39|Z|2339;Dornogal|N|From Ginnad. Click this step off if you are done or dont care.|P|Skinning;393|SPELL|Khaz Algar Skinning;423354|
-= Train Cooking|QID|99999|M|44.12,45.83|Z|2339;Dornogal|N|From Athodas. Click this step off if you are done or dont care.|P|Cooking;185|SPELL|Khaz Algar Cooking;423333|
-= Train Fishing|QID|99999|M|50.53,27.00|Z|2339;Dornogal|N|From Drokar. Click this step off if you are done or dont care.|P|Fishing;356|SPELL|Khaz Algar Fishing;423336|
+= Train Cooking|QID|99999|M|44.12,45.83|Z|2339;Dornogal|N|From Athodas. Click this step off if you are done or dont care.|P|Cooking;185|SPELL|Khaz Algar Cooking;445117|;Spell is for Chopped Mycobloom
+= Train Fishing|QID|99999|M|50.53,27.00|Z|2339;Dornogal|N|From Drokar. Click this step off if you are done or dont care.|P|Fishing;356|SPELL|Khaz Algar Fishing;454441|;Spell is for Becoming an Algari Angler
 ;=====> END PROFESSION BLOCK <======
+
 A Crossroads Plaza|QID|82747|M|46.6,33|Z|2339;Dornogal|N|From Rannida.|RANK|2|
 C Stones of Dornogal|QID|78457|QO|5|M|39.16,24.24|Z|2339;Dornogal|N|Speak to Auditor Balwurz.|CHAT|
 T Stones of Dornogal|QID|78457|M|39.90,25.99|Z|2339;Dornogal|N|To Merrix.|
@@ -95,7 +96,6 @@ A To Mourning Rise|QID|81661|M|55.75,56.05|Z|2248;Isle of Dorn|N|From Urtago.|RA
 A Lost Delivery|QID|78754|M|55.55,56.49|Z|2248;Isle of Dorn|N|From Dropped Package.|RANK|2|
 R Freywold Village|ACTIVE|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|Mount up and head to Freywold Village.|
 N check for Natalia|ACTIVE|78461|;this note is just for me. not a permanent part of the guide
-;A For The Love of Gems|QID|82441|M|43.03,70.01|Z|2248;Isle of Dorn|N|From Natalia Pearce.|RANK|2|;--can this be picked up sooner. like on the way into town?
 C The Fourth Seat|QID|78461|QO|3|M|41.88,72.60|Z|2248;Isle of Dorn|N|Adelgonn found.|CHAT|
 T The Fourth Seat|QID|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A Delve into the Earth|QID|78464|PRE|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|From Adelgonn.|
@@ -156,7 +156,7 @@ C Echoes of Compassion|QID|78462|QO|4|M|41.85,72.76|Z|2248;Isle of Dorn|N|Ebona 
 T Echoes of Compassion|QID|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A The Proscenium|QID|78470|PRE|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|From Moira Thaurissan.|
 A Weapons and Warriors|QID|78996|M|42.72,71.72|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
-R Enter Herbalist|ACTIVE|79686|M|42.15,71.32|Z|2248;Isle of Dorn|N|Enter the herbalist and go downstairs.|
+R Enter Herbalist|ACTIVE|79686|M|42.15,71.32|CC|Z|2248;Isle of Dorn|N|Enter the herbalist and go downstairs.|
 T Concerning Fungarians|QID|79686|M|42.11,71.33;41.47,71.46|Z|2248;Isle of Dorn|CS|N|To Yeonin (downstairs).|
 C Weapons and Warriors|QID|78996|QO|1<1|M|42.12,72.27|Z|2248;Isle of Dorn|N|Recruit Kaldrinn.|CHAT|
 C Weapons and Warriors|QID|78996|QO|2<1|M|41.0,73.1|Z|2248;Isle of Dorn|N|Pick up Weapon crate beside flightmaster.|H|
