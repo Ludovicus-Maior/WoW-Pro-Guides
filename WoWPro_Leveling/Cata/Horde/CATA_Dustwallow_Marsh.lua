@@ -70,7 +70,7 @@ A The Black Shield|RANK|1|QID|27257|PRE|27256|M|36.50,30.85|N|From Do'gol.|
 T The Black Shield|RANK|1|QID|27257|M|36.42,31.78|N|To Krog.|
 T Darkmist Extermination|RANK|1|QID|25051|M|36.42,31.78|N|To Krog.|
 T SMASH BROODQUEEN|RANK|1|QID|27229|M|36.42,31.78|N|To Krog.|
-A The Black Shield|RANK|2|QID|27258|PRE|27257&27253&27259&27260&27306&27261|M|36.42,31.78|N|From Krog.|
+A The Black Shield|RANK|1|QID|27258|PRE|27257&27253&27259&27260&27306&27261|M|36.42,31.78|N|From Krog.|
 T Jarl Needs Eyes|RANK|1|QID|27184|M|55.43,26.26|N|To "Swamp Eye" Jarl.|
 A Hungry as an Ogre!|RANK|1|QID|27191|PRE|27184|M|55.43,26.26|N|From "Swamp Eye" Jarl.|
 A Jarl Needs a Blade|RANK|1|QID|27186|PRE|27184|M|55.43,26.26|N|From "Swamp Eye" Jarl.|
