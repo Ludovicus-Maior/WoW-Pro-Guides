@@ -265,7 +265,7 @@ C Fire in the Hole|QID|79721|QO|1|M|56.64,52.07|Z|2248;Isle of Dorn|N|Pick up Ci
 C Fire in the Hole|QID|79721|QO|2|M|56.73,52.11|Z|2248;Isle of Dorn|N|Use provided [color=33fff9] Extra Action Button [/color] to throw it into the burrow.|EAB|NC|
 C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Fight Nerubians.|S|
 C The Cavalry is Here|QID|79701|QO|2|M|56.30,50.17|Z|2248;Isle of Dorn|N|Check up on Alleria Windrunner.|NC|
-C Fire in the Hole|QID|79721|QO|3|M|57.96,50.53|Z|2248;Isle of Dorn|N|Collapse Nerubian burrows.|NC|EAB|
+C Fire in the Hole|QID|79721|QO|3|M|57.96,50.53;56.85,49.30;55.05,46.49|CS|Z|2248;Isle of Dorn|N|Collapse Nerubian burrows.|NC|EAB|
 C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Keep fighting Nerubians.|US|
 T The Cavalry is Here|QID|79701|M|56.48,48.04|Z|2248;Isle of Dorn|N|To Baelgrim.|
 T Fire in the Hole|QID|79721|M|56.45,47.98|Z|2248;Isle of Dorn|N|To Wenbrandt.|
@@ -479,9 +479,9 @@ T Because It's Shiny|QID|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|To Tharessa S
 A It's Probably Nothing|QID|79728|PRE|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|From Rannan Korren.|RANK|2|
 C It's Probably Nothing|QID|79728|M|77.85,30.28|QO|1|Z|2248;Isle of Dorn|N|Middle, Right|I|
 T It's Probably Nothing|QID|79728|M|77.97,30.26|Z|2248;Isle of Dorn|N|To Rannan Korren.|
-A How Scandalous|QID|80207|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;not the PRE|81689| unless its once per account
+A How Scandalous!|QID|80207|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;not the PRE|81689| unless its once per account
 T Wanted: The Boroughbreaker|QID|83335|M|54.08,20.06|Z|2339;Dornogal|N|To Peacekeeper Alef.|
-T How Scandalous|QID|80207|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
+T How Scandalous!|QID|80207|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
 A Seizing Evidence|QID|79521|PRE|80207|M|49.88,49.27|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
 C Seizing Evidence|QID|79521|M|51.43,51.25|Z|2339;Dornogal|N|Pick up the crates on the nearby trolly cart.|H|
 T Seizing Evidence|QID|79521|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
