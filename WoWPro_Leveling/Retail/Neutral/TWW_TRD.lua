@@ -185,7 +185,7 @@ T Chomps and the Cave-In|QID|79505|M|47.94,35.77|Z|2214; The Ringing Deeps|N|To 
 A The Day the Stoneheads Came|QID|79507|PRE|79505|M|47.94,35.77|Z|2214; The Ringing Deeps|N|From Granny Scribbles.|
 C The Day the Stoneheads Came|QID|79507|M|47.94,35.77|QO|1|Z|2214; The Ringing Deeps|N|Ask Granny Scribbles about the Day the Stoneheads Came, which will take you to Lost Mines.|CHAT|
 C The Day the Stoneheads Came|QID|79507|M|56.11,23.28|QO|2|Z|2214; The Ringing Deeps|N|Drop down into the mine and grab Softsnout's Favorite Shovel.|H|
-C The Day the Stoneheads Came|QID|79507|M|56.57,23.47|QO|3|Z|2214; The Ringing Deeps|N|Go up the later and calm the paniced kobalds and click on the glowy stuff to Save what can be saved.|
+C The Day the Stoneheads Came|QID|79507|M|56.57,23.47|QO|3|Z|2214; The Ringing Deeps|N|Go up the ladder and calm the paniced kobalds and click on the glowy stuff to Save what can be saved.|
 T The Day the Stoneheads Came|QID|79507|M|47.94,35.77|Z|2214; The Ringing Deeps|N|To Granny Scribbles.|
 A Mipsy Mole-Rider|QID|79508|PRE|79507|M|47.94,35.77|Z|2214; The Ringing Deeps|N|From Granny Scribbles.|
 C Mipsy Mole-Rider|QID|79508|M|47.94,35.77|QO|1|Z|2214; The Ringing Deeps|N|Ask Granny Scribbles about Mipsy, which will take you to the Chittering Den.|CHAT|
