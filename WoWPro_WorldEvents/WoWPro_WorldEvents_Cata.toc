@@ -4,7 +4,7 @@
 ## Author: Jiyambi
 ## IconTexture: Interface\ICONS\INV_Misc_Ticket_Darkmoon_01
 ## Dependencies: WoWPro
-## Version: 2024.09.25.A
+## Version: 2024.09.25.Belease 2024.09.25.B
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## DefaultState: disabled
