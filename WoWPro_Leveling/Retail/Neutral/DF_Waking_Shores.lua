@@ -223,7 +223,7 @@ A The Skytop Observatory|QID|68796|PRE|77345|M|57.68,66.91|Z|2022|N|From Lord An
 C The Skytop Observatory|QID|68796|M|57.76,66.75|Z|2022|QO|1|CHAT|N|Speak with Celormu to start the race.|
 C The Skytop Observatory|QID|68796|M|73.24,55.56|Z|2022|QO|2|NC|N|Race to the Skytop Observatory.|
 T The Skytop Observatory|QID|68796|M|75.17,54.97|Z|2022|N|To Lord Andestrasz.|
-A A New Set of Horns|QID|68797|PRE|68796|M|75.17,54.97|Z|2022|N|From Lord Andestrasz.|
+A A New Set of Horns|QID|68797|PRE|68796|M|75.17,54.97|Z|2022|N|From Lord Andestrasz.|RANK|2|
 C A New Set of Horns|QID|68797|M|74.11,57.94|Z|2022|QO|1|CHAT|N|Meet Glensera in the Skytop Observatory.|
 C A New Set of Horns|QID|68797|M|74.03,58.13|Z|2022|QO|2|NC|N|Step onto the 5 sided rug just beyond Glensera and click on it.|
 T A New Set of Horns|QID|68797|M|75.15,55.06|Z|2022|N|To Lord Andestrasz.|
