@@ -51,13 +51,13 @@ A The Respect of Another|QID|9898|PRE|9770|M|85.0,54.0|N|From Reavij.|
 T Thick Hydra Scales|QID|9774|M|85.3,54.8|N|To Zurai.|
 A Searching for Scout Jyoba|QID|9771|PRE|9774|M|85.3,54.8|N|From Zurai.|
 K A Job Undone|QID|9899|QO|1|N|Kill Sporewing.|M|76.61,45.15|
-l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|S|
+l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484N|N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|S|
 A Withered Basidium|QID|9828|M|PLAYER|CC|N|From the Withered Basidium.|U|24484|O|
 l Bog Lord Tendrils|QID|9769|M|81.00,36.00|L|24291 3|ITEM|24291|N|Withered Bog Lords and/or Withered Giants.\n[color=FF0000]NOTE: [/color]You need 6 for a quest later on, but you will have a chance to kill more later.|S|
 T Searching for Scout Jyoba|QID|9771|M|80.76,36.3|N|To Scout Jyoba's corpse.|
 A Jyoba's Report|QID|9772|PRE|9771|M|80.8,36.3|N|From Scout Jyoba's corpse.|
 C Jyoba's Report|QID|9772|N|Drops off the Withered Giants.|M|81.6,35.0|
-l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|US|
+l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484N|N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|US|
 l Bog Lord Tendrils|QID|9769|M|81.00,36.00|L|24291 3|ITEM|24291|N|Withered Bog Lords and/or Withered Giants.\n[color=FF0000]NOTE: [/color]These are used for a quest later on.|US|
 T A Job Undone|QID|9899|M|84.4,54.3|N|To Magasha.|
 T Withered Basidium|QID|9828|M|85.0,54.0|N|To Reavij.|
