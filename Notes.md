@@ -1,12 +1,16 @@
 # Release 2024.09.25.A
 ## Bug Fixes
-* Fix bug in SPELL test tag
+* Update Vanilla TOC to 11504
+* Deal with the gradual demise of EasyMenu
 ## Guide Updates
-* Cata Leveling Alliance: Cape of Stranglethorn, Western Plaugelands
-* Retail Alliance Leveling: Chromie Time Intro, Exiles Reach Intro
-* Retail Neutral Leveling: Azure Span, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, Dracthyr Intro, Earthen Intro
-* Retail TWW Leveling: Azj-Kahet, Dorn, Hallowfall, Intro, Max Campaign, TRD
-* Professions Retail: TWW Knowledge
+* Achievements: Gnome Heritage Armor, TWW (AK, Dorn, HW, TRD) Treasures
+* Cata Dailies: Firelands
+* Cata Leveling Alliance: Badlands
+* Cata Leveling Horde: Hellfire Peninsula, Zangarmarsh, Dustwallow Marsh
+* Cata Leveling Neutral: Eastern Plaugelands, Mount Hyjal
+* Retail Alliance Leveling: Human Intro
+* Retail Neutral Leveling: Azure Span, DF Intro, Hearthen Intro, Valley of Four Winds
+* Retail TWW Leveling: Azj-Kahet, Dorn, Hallowfall, Intro, TRD
 
 # Release 2024.09.04.A
 ## Bug Fixes
