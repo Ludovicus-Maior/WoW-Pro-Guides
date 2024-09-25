@@ -1,3 +1,13 @@
+# Release 2024.09.25.A
+## Bug Fixes
+* Fix bug in SPELL test tag
+## Guide Updates
+* Cata Leveling Alliance: Cape of Stranglethorn, Western Plaugelands
+* Retail Alliance Leveling: Chromie Time Intro, Exiles Reach Intro
+* Retail Neutral Leveling: Azure Span, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, Dracthyr Intro, Earthen Intro
+* Retail TWW Leveling: Azj-Kahet, Dorn, Hallowfall, Intro, Max Campaign, TRD
+* Professions Retail: TWW Knowledge
+
 # Release 2024.09.04.A
 ## Bug Fixes
 * Fix bug in SPELL test tag
