@@ -9,13 +9,13 @@ WoWPro.Dailies:GuideFaction(guide,1158) --  "Firelands Invasion, Guardians of Hy
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Mount Hyjal Phasing|AVAILABLE|25372|N|Before you can start this guide, it requires the completion of the Mount Hyjal quest Series up to (and including) 'Aessina's Miracle'.\n[color=FF0000]NOTE: [/color]This is because of zone phasing and the guide won't work properly if you're in the wrong phase.\nClick on the book to switch to the Mount Hyjal guide to do this now.|JUMP|Mount Hyjal|
-
-A Guardians of Hyjal: Call of the Ancients|QID|29390|N|From the Warchief's Command Board in Undercity, Orgrimmar, or Thunder Bluff.\n[color=FF0000]NOTE: [/color]You must complete this before you can proceed further with the guide.|FACTION|Horde|
+A Guardians of Hyjal: Call of the Ancients|QID|29390|AVAILABLE|25372|N|From the Warchief's Command Board in Undercity, Orgrimmar, or Thunder Bluff.\n[color=FF0000]NOTE: [/color]You must complete this before you can proceed further with the guide.|FACTION|Horde|
 A Guardians of Hyjal: Call of the Ancients|QID|29391|N|From the Hero's Call Board in Darnassus, Stormwind City, or Ironforge.\n[color=FF0000]NOTE: [/color]You must complete this before you can proceed further with the guide.|FACTION|Alliance|
-
 A Guardians of Hyjal: Firelands Invasion!|QID|29388|LEAD|29145|PRE|29391&25372|N|You need to have completed all the quests in Mount Hyjal up to Aessina's Miracle and be Level 85 to start the Firelands Invasion. If you fulfill these requirements, get this Quest from your nearest Warchief's Command Board.|FACTION|Horde|
 A Guardians of Hyjal: Firelands Invasion!|QID|29387|FACTION|Alliance|LEAD|29145|N|You need to have completed all the quests in Mount Hyjal up to Aessina's Miracle and be Level 85 to start the Firelands Invasion. If you fulfill these requirements, get this Quest from your nearest Hero's Call Board.|
+
+N Mount Hyjal Phasing|ACTIVE|29390^29391|AVAILABLE|25372|N|Before you can start this guide, it requires the completion of the Mount Hyjal quest Series up to (and including) 'Aessina's Miracle'.\n[color=FF0000]NOTE: [/color]This is because of zone phasing and the guide won't work properly if you're in the wrong phase.\nClick on the book to switch to the Mount Hyjal guide to do this now.|JUMP|Mount Hyjal|
+
 
 R Mount Hyjal|M|51.15,38.25|Z|1454; Orgrimmar|N|Go to Mount Hyjal via portal in Orgrimmar.|FACTION|Horde|
 R Mount Hyjal|FACTION|Alliance|M|76.12,18.69|Z|1453; Stormwind City|N|Go to Mount Hyjal via portal in Stormwind.|
