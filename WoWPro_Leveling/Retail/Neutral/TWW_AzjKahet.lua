@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('Azj Kahet', 'Leveling', 'Azj-Kahet', 'WoWPro
 WoWPro:GuideName(guide,"Azj Kahet")
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideQuestTriggers(guide, 83552)
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNextGuide(guide, 'Max Level Campaign')
 WoWPro:GuideSteps(guide, function()

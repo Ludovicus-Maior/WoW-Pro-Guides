@@ -73,7 +73,7 @@ A Power Procurement|QID|66582|PRE|70215|M|45.94,40.65|Z|2024|N|From Warpcaster D
 T Camp Antonidas|QID|66228|M|46.65,40.17|Z|2024|N|To Noriko the All-Remembering.|
 A Assemble the Defenses|QID|67033|PRE|66228^70747|M|46.69,39.76|Z|2024|N|From Noriko the All-Remembering.|
 A Preservation of Knowledge|QID|67035|PRE|66228^70747|M|46.66,39.74|Z|2024|N|From Althanus.|
-A Supporting the Cobalt Assembly|QID|72784|PRE|66228|M|46.66,39.74|Z|2024|N|From Althanus.|LVL|68|RANK|2|
+A Supporting the Cobalt Assembly|QID|72784|PRE|66228|LEAD|70550|M|46.66,39.74|Z|2024|N|From Althanus.|LVL|30|RANK|2|
 C Assemble the Defenses|QID|67033|QO|1<1|M|46.16,39.35|Z|2024|H|N|Beware of the bombardment. Pick the first device up here.|
 C Preservation of Knowledge|QID|67035|M|46.11,38.51|Z|2024|H|N|Pick up the tomes in the pavilion.|
 C Assemble the Defenses|QID|67033|M|46.1,40.8;45.85,40.17|CS|Z|2024|H|N|And back thru the bombardment to get to the other two Broken Arcane Devices.|
@@ -318,7 +318,7 @@ C The Cycle of the Sea|QID|65850|M|13.24,49.55;12.93,50.43|CS|Z|2024|QO|1|CHAT|N
 C The Cycle of the Sea|QID|65850|M|13.16,50.14|Z|2024|QO|2|H|N|Click on the Boat to push it` out to sea.|
 T The Cycle of the Sea|QID|65850|M|12.95,50.39|Z|2024|N|To Kalecgos.|
 A Azure Alignment|QID|65911|PRE|65850|M|12.95,50.39|Z|2024|N|From Kalecgos.|
-T Fishing: Aileron Seamoth|QID|66212|M|14.08,49.44|Z|2024|N|To Lukoturukk.|
+t Fishing: Aileron Seamoth|QID|66212|M|14.08,49.44|Z|2024|N|To Lukoturukk.|
 A Nook News|QID|71234|PRE|65849|M|14.07,49.44|Z|2024|N|From Lukoturukk.|RANK|2|
 A Rowie|QID|66558|PRE|65849|M|13.76,47.62|Z|2024|N|From Auntie Kaunnie.|RANK|2|
 C Practice Bout|QID|70732|M|14.22,47.58|Z|2024|N|Pet Bettle with Gwosh, who is an acquatic and pretty easy.|
@@ -589,7 +589,7 @@ R Cobalt Assembly|ACTIVE|66244|M|38.25,61.48;49.39,24.87|CS|Z|2024|N|We're now h
 $ Cobalt Assembly Glyph|QID|99999|N|On top of the highest tower. You may need to land on the lower tower to regen vigor first.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 $ Dragonspring Summit Glyph|QID|99999|N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Aran Plains!Dragonflight|ACH|16061|
 T Supporting the Cobalt Assembly|QID|72784|M|49.03,23.15|Z|2024|N|To Venthi.|
-A Welcome to the Assembly|QID|70550|PRE|72784|M|49.03,23.15|Z|2024|N|From Venthi.|RANK|2|
+A Welcome to the Assembly|QID|70550|M|49.03,23.15|Z|2024|N|From Venthi.|RANK|2|
 f Cobalt Assembly|ACTIVE|70550|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 f Cobalt Assembly|ACTIVE|66244|M|49.10,22.66|Z|2024|N|At Kruthix.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|RANK|-1|
 C Welcome to the Assembly|QID|70550|M|49.47,22.60|Z|2024|CHAT|N|View the Assembly abilities.|

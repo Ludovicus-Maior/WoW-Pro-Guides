@@ -35,7 +35,7 @@ T For the Alliance|QID|81886|M|53.11,15.24|Z|84;Stormwind City|N|To Ambassador M
 A Stranger in a Strange Land|QID|81887|PRE|81886|M|53.11,15.24|Z|84;Stormwind City|N|From Ambassador Moorgard.|FACTION|Alliance|
 C Stranger in a Strange Land|QID|81887|M|56.21,17.37|Z|84;Stormwind City|QO|1|NC|N|Talk to Chromie.|FACTION|Alliance|
 T Stranger in a Strange Land|QID|81887|M|56.21,17.37|Z|84;Stormwind City|N|To Adhelda.|FACTION|Alliance|
-A For the Horde|QID|81888|PRE|79200&79201&79202&79203&79204|M|8.97,49.70|Z|2322;Hall of Awakening|N|From Dawn.|FACTION|Horde|
+A For the Horde|QID|81888|PRE|79204|M|8.97,49.70|Z|2322;Hall of Awakening|N|From Dawn.|FACTION|Horde|
 P Orgrimmar|ACTIVE|81888|M|7.22,52.39|Z|2322;Hall of Awakening|N|Take the portal to Orgrimmar.|
 T For the Horde|QID|81888|M|39.48,79.42|Z|85;Orgrimmar|N|To Ambassador Blackguard.|FACTION|Horde|
 A Stranger in a Strange Land|QID|81889|PRE|81888|M|39.48,79.42|Z|85;Orgrimmar|N|From Ambassador Blackguard.|FACTION|Horde|
