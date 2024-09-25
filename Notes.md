@@ -1,4 +1,4 @@
-# Release 2024.09.25.B
+# Release 2024.09.25.C
 ## Bug Fixes
 * Update Vanilla TOC to 11504
 * Deal with the gradual demise of EasyMenu
