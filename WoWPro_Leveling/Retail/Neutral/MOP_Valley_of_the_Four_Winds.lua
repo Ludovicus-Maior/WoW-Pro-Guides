@@ -169,7 +169,7 @@ N Fishing quest and cooking training|AVAILABLE|31281|N|If you want to, this is a
 A You Want Fish?|QID|32684|M|53.58,51.22|N|From Sungshin Ironpaw.\n[color=FF0000]NOTE: [/color]As stated earlier, this is optional. Skip it if you so wish.|
 T You Want Fish?|QID|32684|M|58.92,46.92|N|To Ben of the Booming Voice down by the shore of the Gilding Stream.|
 A No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|From Ben of the Booming Voice.\nThis quest is meant to show you can fish without a pole.|
-N Learn Fishing Skill|QID|3562592|M|58.92,46.92|N|Learn the fishing skill from Ben of the Booming Voice.|P|Fishing;356;4|SPELL|Fishing;2592|
+N Learn Fishing Skill|QID|3562592|M|58.92,46.92|N|Learn the fishing skill from Ben of the Booming Voice.|P|Fishing;356;4|SPELL|Pandaria Fishing;271662|
 C Go Fish|QID|32685|L|74866 5|N|To fish, simply click the Fishing icon and pay attention to the bobber. Hover over the bobber and click on it when it moves.\n[color=FF0000]NOTE: [/color]Drag the Fishing icon from your Profession Book to one of your bars for easier access.|
 T No Fishing Pole Necessary!|QID|32685|M|58.92,46.92|N|To Ben of the Booming Voice.|
 ; --
