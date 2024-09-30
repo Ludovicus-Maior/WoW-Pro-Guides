@@ -489,8 +489,7 @@ T Torching Lights|QID|80677|M|60.48,60.14|Z|2215;Hallowfall|N|To Maera Ashyld.|L
 A Time Lost|QID|80678|M|60.48,60.14|Z|2215;Hallowfall|N|From Maera Ashyld.|RANK|2|LVL|80|PRE|80677&80673|
 C Time Lost|QID|80678|M|60.92,63.11|Z|2215;Hallowfall|QO|1|NC|N|Collect Mementos. They can drop from mobs, or be found in some of the glowing spots on the ground.|
 T Time Lost|QID|80678|M|60.51,60.15|Z|2215;Hallowfall|N|To Maera Ashyld.|
-A Time Found|QID|82810|M|60.49,60.17|Z|2215;Hallowfall|N|From Maera Ashyld. This is on a weekly timegate. if its not showing up wait till server reset and try again.|PRE|80678|LEAD|82749|;should be correct lead, needs tested tho
-N Sojourner|QID|82749|N|Come back after reset to finish the questline for the Sojourner achievement. (check this step off manually or leave it to remind you to come back.|PRE|80678|
+A Time Found|QID|82810|M|60.49,60.17|Z|2215;Hallowfall|N|From Maera Ashyld. This is on a weekly timegate. if its not showing up wait till server reset and try again.|RANK|2|LVL|80|
 C Time Found|QID|82810|M|60.71,61.37|Z|2215;Hallowfall|N|Kill some mushrooms and collect mementos, or grab them off the ground.|
 T Time Found|QID|82810|M|60.49,60.17|Z|2215;Hallowfall|N|To Maera Ashyld.|
 ; ---Memories of the Sky End---
