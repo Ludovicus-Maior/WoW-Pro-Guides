@@ -15,12 +15,15 @@ C Who am I?|QID|79200|M|83.70,60.93|Z|2322;Hall of Awakening|QO|2|H|N|Cognitive 
 C Who am I?|QID|79200|M|83.77,37.91|Z|2322;Hall of Awakening|QO|3|H|N|Anomaly Scan completed.|
 C Who am I?|QID|79200|M|83.77,37.91|Z|2322;Hall of Awakening|QO|4|H|N|Containment Protocol disrupted.|EAB|
 T Who am I?|QID|79200|M|62.84,49.83|Z|2322;Hall of Awakening|N|To Dawn.|
-A The Analysis Interface|QID|79201|PRE|79200|M|62.85,49.50|Z|2322;Hall of Awakening|N|From Unknown.|
-C The Analysis Interface|QID|79201|M|61.61,47.42|Z|2322;Hall of Awakening|QO|1|H|N|Primary analysis completed.|
-C The Analysis Interface|QID|79201|M|61.25,51.45|Z|2322;Hall of Awakening|QO|2|H|N|Secondary analysis completed.|
-C The Analysis Interface|QID|79201|M|57.77,49.53|Z|2322;Hall of Awakening|QO|3|H|N|Tertiary analysis completed.|
-T The Analysis Interface|QID|79201|M|47.67,54.70|Z|2322;Hall of Awakening|N|To Dawn.|
-A Rock Beats Rock|QID|79202|PRE|79201|M|47.67,54.70|Z|2322;Hall of Awakening|N|From Dawn.|
+
+A The Analysis Interface|QID|83328|PRE|79200|M|62.85,49.50|Z|2322;Hall of Awakening|N|From Unknown.|C|HUNTER|
+A The Analysis Interface|QID|79201|PRE|79200|M|62.85,49.50|Z|2322;Hall of Awakening|N|From Unknown.|C|-HUNTER|
+C The Analysis Interface|QID|79201^83328|M|61.61,47.42|Z|2322;Hall of Awakening|QO|1|H|N|Primary analysis completed.|
+C The Analysis Interface|QID|79201^83328|M|61.25,51.45|Z|2322;Hall of Awakening|QO|2|H|N|Secondary analysis completed.|
+C The Analysis Interface|QID|79201^83328|M|57.77,49.53|Z|2322;Hall of Awakening|QO|3|H|N|Tertiary analysis completed.|
+T The Analysis Interface|QID|79201^83328|M|47.67,54.70|Z|2322;Hall of Awakening|N|To Dawn.|
+
+A Rock Beats Rock|QID|79202|PRE|79201^83328|M|47.67,54.70|Z|2322;Hall of Awakening|N|From Dawn.|
 C Rock Beats Rock|QID|79202|M|46.07,41.87|Z|2322;Hall of Awakening|QO|1|N|Earthen defeated in combat.|
 T Rock Beats Rock|QID|79202|M|31.10,48.54|Z|2322;Hall of Awakening|N|To Dawn.|
 A Authorization: Negated|QID|79203|PRE|79202|M|31.10,48.54|Z|2322;Hall of Awakening|N|From Speaker Kuldas.|

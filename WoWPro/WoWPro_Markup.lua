@@ -92,7 +92,7 @@ end
 RegisterMarkup("spell", WoWPro.ExpandSpell)
 
 function WoWPro.ExpandMoney(money,want_icon, want_text)
-    local expanded = _G.GetCoinTextureString(tonumber(money)*100*100)
+    local expanded = WoWPro.C_CurrencyInfo_GetCoinTextureString(tonumber(money)*100*100)
     return expanded
 end
 RegisterMarkup("money", WoWPro.ExpandMoney)

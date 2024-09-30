@@ -25,14 +25,14 @@ T Getting Off Track|QID|78557|M|42.18,28.36|Z|2214; The Ringing Deeps|N|To Forem
 T Underground and Overwhelmed|QID|78555|M|42.14,28.35|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Pomp and Dire Circumstance|QID|78837|PRE|78557&78555|M|42.14,28.35|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 C Pomp and Dire Circumstance|QID|78837|M|42.12,28.39|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Ask Speaker Brinthe about the High Speaker.|
-T Pomp and Dire Circumstance|QID|78837|M|47.11,33.90|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
+T Pomp and Dire Circumstance|QID|78837|M|47.18,34.15|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Cogs in the Machine|QID|78838|PRE|78837|M|47.17,34.16|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 f Gundargaz|ACTIVE|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Collect the flight path from Igram Underwing.|
 C Cogs in the Machine|QID|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Meet Igram Underwing.|CHAT|
-C Cogs in the Machine|QID|78838|M|46.96,32.34|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
+C Cogs in the Machine|QID|78838|M|46.94,32.40|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
 A Delves: The Waterworks|QID|83749|M|47.14,31.88|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|PRE|78464|RANK|3|
 t Delves: The Waterworks|QID|83749|M|46.16,48.01|Z|2214; The Ringing Deeps|N|To Brann Bronzebeard.|IZ|The Waterworks|
-C Cogs in the Machine|QID|78838|M|48.07,34.77|QO|3|Z|2214; The Ringing Deeps|N|Meet Watcher Toki.|CHAT|
+C Cogs in the Machine|QID|78838|M|48.04,34.83|QO|3|Z|2214; The Ringing Deeps|N|Meet Watcher Toki.|CHAT|
 C Cogs in the Machine|QID|78838|M|47.15,34.08|QO|4|Z|2214; The Ringing Deeps|N|Return to Brinthe's house.|NC|
 T Cogs in the Machine|QID|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Speaking to the Speakers|QID|78631|PRE|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
@@ -299,7 +299,7 @@ T We Don't Go to Taelloch|QID|78696|M|62.35,58.19|Z|2214; The Ringing Deeps|N|To
 A Ghost of a Company Town|QID|78697|PRE|78696|M|62.35,58.19|Z|2214; The Ringing Deeps|N|From Dagran Thaurissan II.|
 C Ghost of a Company Town|QID|78697|M|62.33,58.08|QO|1|Z|2214; The Ringing Deeps|N|Tell Magni you are ready to go.|CHAT|
 C Ghost of a Company Town|QID|78697|M|63.55,58.81|QO|2|Z|2214; The Ringing Deeps|N|Go outside and then up the steps to enter the town.|NC|
-C Ghost of a Company Town|QID|78697|QO|3|M|63.53,57.87;64.15,58.07;64.11,58.60;65.08,57.85;65.35,58.68;65.81,57.46|CN|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3|M|63.53,57.87;64.15,58.07;64.11,58.60;65.08,57.85;65.35,58.68;65.81,57.46|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
 C Ghost of a Company Town|QID|78697|M|66.15,58.41|QO|4|Z|2214; The Ringing Deeps|N|Break down the boarded up door.|H|
 T Ghost of a Company Town|QID|78697|M|66.15,58.41|Z|2214; The Ringing Deeps|N|To Magni Bronzebeard.|
 A Controlled Demolition|QID|78700|PRE|78697|M|66.15,58.41|Z|2214; The Ringing Deeps|N|From Magni Bronzebeard.|

@@ -22,7 +22,7 @@ C The War Within|QID|78713|M|60.92,44.73|Z|627;Dalaran!Broken Isles|QO|1|NC|U|22
 C The War Within|QID|78713|M|41.66,44.95|Z|81;Silithus|QO|2|NC|U|227669|N|Meet Thrall in Silithus.|
 T The War Within|QID|78713|M|41.86,45.06|Z|81;Silithus|N|To Lady Jaina Proudmoore.|
 A A Poor Reception|QID|78714|PRE|81930|M|41.86,45.06|Z|81;Silithus|N|From Thrall.|
-P Chamber of Heart|ACTIVE|78714|M|42.97,44.67|Z|Silithus|N|Take the portal to Magni's Encampment.|
+P Chamber of Heart|ACTIVE|78714|M|42.97,44.67|Z|Silithus|N|Take the portal to The Champer of Heart.|
 C A Poor Reception|QID|78714|M|50.00,33.50|Z|2321;Chamber of Heart!Dungeon2321|QO|1|NC|N|Enter the Heart Chamber.|
 T A Poor Reception|QID|78714|M|50.02,65.15|Z|2321;Chamber of Heart!Dungeon2321|N|To Magni Bronzebeard.|
 A Azeroth's Voice|QID|78715|PRE|78714|M|50.02,65.15|Z|2321;Chamber of Heart!Dungeon2321|N|From Magni Bronzebeard.|
