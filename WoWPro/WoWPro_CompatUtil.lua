@@ -315,6 +315,21 @@ function WoWPro.C_Item_GetItemIconByID(itemID)
     end
 end
 
+function WoWPro.C_CurrencyInfo_GetCoinTextureString(itemID)
+    if not _G.GetCoinTextureString then
+        return _G.C_CurrencyInfo.GetCoinTextureString(itemID)
+    else
+        return _G.GetCoinTextureString(itemID)
+    end
+end
+
+function WoWPro.C_Item_IsEquippedItem(itemID)
+    if not  _G.IsEquippedItem then
+        return 	_G.C_Item.IsEquippedItem(itemID)
+    else
+        return _G.IsEquippedItem(itemID)
+    end
+end
 
 -- [[EasyMenu]]
 local function EasyMenu_Initialize( frame, level, menuList )
