@@ -190,19 +190,19 @@ A The General's Consensus|QID|78256|M|51.82,25.78|Z|2255;Azj-Kahet|N|From Monte 
 C The General's Consensus|QID|78256|M|51.82,25.80|Z|2255;Azj-Kahet|QO|1|H|N|Zev'kall's Pheromone Emitter.|
 T The General's Consensus|QID|78256|M|55.67,44.06|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
 A A Most Intriguing Invitation|QID|78226|M|55.67,44.06|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|
-A Trade Partners|QID|79651|PRE|78256|M|55.77,43.74|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|
-A A Silken Thread|QID|83324|PRE|78256|M|55.77,43.74|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|
+A Trade Partners|QID|79651|PRE|78256|M|55.77,43.74|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
+A A Silken Thread|QID|83324|PRE|78256|M|55.77,43.74|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
 C A Most Intriguing Invitation|QID|78226|M|55.98,43.48|Z|2255;Azj-Kahet|QO|1|NC|N|Apply Pheromones.|EAB|
 C A Most Intriguing Invitation|QID|78226|M|55.63,44.30|Z|2255;Azj-Kahet|QO|3|N|Take The Vizier's Flyer.|V|
 C A Most Intriguing Invitation|QID|78226|M|67.19,25.01|Z|2255;Azj-Kahet|QO|2|NC|N|Arrive in the Burrows.|
-C A Most Intriguing Invitation|QID|78226|M|66.34,30.68|Z|2255;Azj-Kahet|QO|4|NC|N|Meet The Vizier.|
-T A Most Intriguing Invitation|QID|78226|M|67.04,31.39|Z|2255;Azj-Kahet|N|To Anduin Wrynn.|
-A Into a Skittering City|QID|78228|M|67.04,31.39|Z|2255;Azj-Kahet|N|From Anduin Wrynn.|
-C Into a Skittering City|QID|78228|M|67.33,32.30|Z|2255;Azj-Kahet|QO|1|CHAT|N|Speak with the Vizier.|
-C Into a Skittering City|QID|78228|M|67.00,32.55|Z|2255;Azj-Kahet|QO|2|NC|N|Step in the red circle and use your[color=33fff9] Extra Action Button [/color] to have Tulumun apply the Pheromones.|EAB|
-T Into a Skittering City|QID|78228|M|67.23,32.38|Z|2255;Azj-Kahet|N|To Executor Nizrek.|
-A Rewriting the Rewritten|QID|78232|M|67.28,32.41|Z|2255;Azj-Kahet|N|From Executor Nizrek.|
-A Like a Spider on the Wall|QID|78231|M|66.99,32.03|Z|2255;Azj-Kahet|N|From Anduin Wrynn.|
+C A Most Intriguing Invitation|QID|78226|M|66.34,30.68|Z|2216;City of Threads - Lower|QO|4|NC|N|Meet The Vizier.|
+T A Most Intriguing Invitation|QID|78226|M|67.04,31.39|Z|2216;City of Threads - Lower|N|To Anduin Wrynn.|
+A Into a Skittering City|QID|78228|M|67.04,31.39|Z|2216;City of Threads - Lower|N|From Anduin Wrynn.|
+C Into a Skittering City|QID|78228|M|67.33,32.30|Z|2216;City of Threads - Lower|QO|1|CHAT|N|Speak with the Vizier.|
+C Into a Skittering City|QID|78228|M|67.00,32.55|Z|2216;City of Threads - Lower|QO|2|NC|N|Step in the red circle and use your[color=33fff9] Extra Action Button [/color] to have Tulumun apply the Pheromones.|EAB|
+T Into a Skittering City|QID|78228|M|67.23,32.38|Z|2216;City of Threads - Lower|N|To Executor Nizrek.|
+A Rewriting the Rewritten|QID|78232|M|67.28,32.41|Z|2216;City of Threads - Lower|N|From Executor Nizrek.|
+A Like a Spider on the Wall|QID|78231|M|66.99,32.03|Z|2216;City of Threads - Lower|N|From Anduin Wrynn.|
 C Rewriting the Rewritten|QID|78232|M|52.86,15.94|Z|2213;City of Threads|QO|1|H|N|Shadecasters overwritten.|S|
 C Like a Spider on the Wall|QID|78231|M|61.98,20.59|Z|2213;City of Threads|QO|5|CHAT|N|Attempt to Meet Meesk.|
 A Searching the Web|QID|79630|M|64.07,15.93|Z|2213;City of Threads|N|From Arax'ne.|RANK|3|
@@ -237,7 +237,7 @@ C Kaheti Hospitality|QID|78244|M|45.93,81.86|Z|2274|QO|3|NC|N|Escape from The Bu
 T Kaheti Hospitality|QID|78244|M|60.58,68.86|Z|2255;Azj-Kahet|N|To Anduin Wrynn.|
 A What We Still Have|QID|78248|M|60.63,68.85|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|
 A A Fin of Every Kind|QID|79710|M|60.03,66.18|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
-l Familiar-Looking Appendage|AVAILABLE|79711|L|214504|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill Gutter Scarfer's and loot Familiar-Looking Appendage.|
+l Familiar-Looking Appendage|AVAILABLE|79711|L|214504|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill Gutter Scarfer's and loot Familiar-Looking Appendage.|RANK|2|
 C A Fin of Every Kind|QID|79710|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill and loot the things in and around the bond to fill the sack.|
 ;A That's Pretty Gross|QID|79711|M|56.24,70.54|Z|2255;Azj-Kahet|N|From Adolchomper.|RANK|2|O|U|214504|
 T A Fin of Every Kind|QID|79710|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
