@@ -22,7 +22,7 @@ $ Earthen Iron Powder|QID|83840|M|32.5,60.1|Z|2339;Dornogal|ITEM|226265|P|Khaz A
 $ Dornogal Hammer|QID|83849|M|47.6,26.2|Z|2339;Dornogal|ITEM|226277|P|Khaz Algar Blacksmithing;2872|
 $ Silver Dornogal Rod|QID|83859|M|58.0,56.9|Z|2339;Dornogal|ITEM|226285|P|Khaz Algar Enchanting;2874|
 $ Dornogal Spectacles|QID|83867|M|64.8,52.8|Z|2339;Dornogal|ITEM|226293|P|Khaz Algar Engineering;2875|
-$ Dornogal Gardening Scythe|QID|83875|M|60.6,29.2|Z|2339;Dornogal|ITEM|226301|P|Khaz Algar Herbalism;2877|
+$ Dornogal Gardening Scythe|QID|83875|M|59.22,23.66|Z|2339;Dornogal|ITEM|226301|P|Khaz Algar Herbalism;2877|
 $ Dornogal Scribe's Quill|QID|83882|M|57.2,46.9|Z|2339;Dornogal|ITEM|226308|P|Khaz Algar Inscription;2878|
 $ Earthen Gem Pliers|QID|83891|M|34.8,52.2|Z|2339;Dornogal|ITEM|226317|P|Khaz Algar Jewelcrafting;2879|
 $ Earthen Lacing Tools|QID|83898|M|68.2,23.3|Z|2339;Dornogal|ITEM|226324|P|Khaz Algar Leatherworking;2880|
@@ -100,7 +100,7 @@ $ Dark Apothecary's Vial|QID|83847|M|42.8,57.3|Z|2255;Azj-Kahet|ITEM|226272|P|Kh
 $ Spiderling's Wire Brush|QID|83855|M|53.0,51.3|Z|2255;Azj-Kahet|ITEM|226283|P|Khaz Algar Blacksmithing;2872|
 $ Void Shard|QID|83865|M|57.3,44.1|Z|2255;Azj-Kahet|ITEM|226291|P|Khaz Algar Enchanting;2874|
 $ Puppeted Mechanical Spider|QID|83872|M|56.9,38.6|Z|2255;Azj-Kahet|ITEM|226298|P|Khaz Algar Engineering;2875|
-$ Tunneler's Shovel|QID|83881|M|46.6,15.9|Z|2255;Azj-Kahet|ITEM|226307|P|Khaz Algar Herbalism;2877|
+$ Tunneler's Shovel|QID|83881|M|46.6,15.9|Z|2213;City of Threads|ITEM|226307|P|Khaz Algar Herbalism;2877|
 $ Nerubian Texts|QID|83888|M|55.9,44.0|Z|2255;Azj-Kahet|ITEM|226314|P|Khaz Algar Inscription;2878|
 $ Nerubian Bench Blocks|QID|83897|M|56.2,58.8|Z|2255;Azj-Kahet|ITEM|226323|P|Khaz Algar Jewelcrafting;2879|
 $ Curved Nerubian Skinning Knife|QID|83905|M|60.0,53.9|Z|2255;Azj-Kahet|ITEM|226331|P|Khaz Algar Leatherworking;2880|
@@ -120,6 +120,6 @@ $ Nerubian Tanning Mallet|QID|83904|M|55.2,26.8|Z|2213;City of Threads|ITEM|2263
 $ Nerubian Mining Supplies|QID|83913|M|48.3,40.8|Z|2213;City of Threads|ITEM|226339|P|Khaz Algar Mining;2881|
 $ Nerubian's Slicking Iron|QID|83920|M|44.6,49.3|Z|2213;City of Threads|ITEM|226346|P|Khaz Algar Skinning;2882|
 $ Nerubian's Pincushion|QID|83929|M|50.3,16.6|Z|2213;City of Threads|ITEM|226355|P|Khaz Algar Tailoring;2883|
-N Congratulations|N|You found all the knowledge treasures added in 11.2|
+N Congratulations|N|You found all the knowledge treasures added in 11.0.2|
 ]]
 end)
