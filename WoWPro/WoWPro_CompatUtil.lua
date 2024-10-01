@@ -300,7 +300,7 @@ end
 
 --[[C_Item.GetItemCount]]
 function WoWPro.C_Item_GetItemCount(itemID, includeBank)
-    if now _G.GetItemCount then
+    if not _G.GetItemCount then
         return _G.C_Item.GetItemCount(itemID, includeBank)
     else
         return _G.GetItemCount(itemID, includeBank)
@@ -308,7 +308,7 @@ function WoWPro.C_Item_GetItemCount(itemID, includeBank)
 end
 
 function WoWPro.C_Item_GetItemIconByID(itemID)
-    if now _G.GetItemIcon then
+    if not _G.GetItemIcon then
         return _G.C_Item.GetItemIconByID(itemID)
     else
         return _G.GetItemIcon(itemID)
@@ -355,7 +355,7 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
 end
 
 function WoWPro.IsValidAchievement(achnum)
-    if now _G.GetAchievementInfo then
+    if not _G.GetAchievementInfo then
         return _G.C_AchievementInfo.IsValidAchievement(achnum)
     else
      local _, name = _G.GetAchievementInfo(achnum)
