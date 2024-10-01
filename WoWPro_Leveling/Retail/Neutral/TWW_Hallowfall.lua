@@ -213,7 +213,6 @@ A Mereldar's Light|QID|78614|M|41.30,53.01|Z|2215;Hallowfall|N|From General Stee
 A An Orphan's Request|QID|79151|M|41.74,55.57|Z|2215;Hallowfall|N|From Alyza Bowblaze.|RANK|2|
 C An Orphan's Request|QID|79151|M|52.30,50.25|Z|2215;Hallowfall|QO|1|H|N|Pick up Much Loved Teddy Bear.|
 C An Orphan's Request|QID|79151|M|52.42,50.23|Z|2215;Hallowfall|QO|2|CHAT|N|Talk to Alyza.|
-C Mereldar's Light|QID|78614|M|41.91,55.45|Z|2215;Hallowfall|NC|N|Play with orphans.|US|
 T An Orphan's Request|QID|79151|M|52.42,50.23|Z|2215;Hallowfall|N|To Alyza Bowblaze.|
 A Gutting the Pool|QID|79152|M|52.42,50.23|Z|2215;Hallowfall|N|From Alyza Bowblaze.|RANK|2|
 A A Bloody Inheritance|QID|83182|M|52.42,50.23|Z|2215;Hallowfall|N|From Alyza Bowblaze.|RANK|2|
