@@ -272,7 +272,7 @@ A Continue to Stormwind|QID|26394|PRE|26393|M|41.72,64.64|Z|37;Elwynn Forest|N|F
 F Stormwind|ACTIVE|26394|M|41.72,64.64|Z|37;Elwynn Forest|TZ|84;Stormwind City|N|Fly to Stormwind City.|
 T Continue to Stormwind|QID|26394|M|77.17,60.98|Z|84;Stormwind City|N|To Osric Strang.|
 A Dungar Longdrink|QID|26395|PRE|26394|M|77.17,60.98|Z|84;Stormwind City|N|From Osric Strang.|R|Human|
-T Elmore's Task|QID|1097|M|71.39,55.76;70.07,46.97;59.72,33.78|Z|84;Stormwind City|CC|N|To Grimand Elmore, in the Dwarven District.|
+T Elmore's Task|QID|1097|M|71.39,55.76;70.07,46.97;59.72,33.78|Z|84;Stormwind City|CS|N|To Grimand Elmore, in the Dwarven District.|
 T Dungar Longdrink|QID|26395|M|70.93,72.48|Z|84;Stormwind City|N|To Dungar Longdrink back at the Gryphon Roost.|
 A Return to Argus|QID|26396|PRE|26395|M|70.93,72.48|Z|84;Stormwind City|N|From Dungar Longdrink.|R|Human|
 F Goldshire|ACTIVE|26396|M|70.93,72.48|Z|84;Stormwind City|N|Fly back to Goldshire.|FLY|OLD|

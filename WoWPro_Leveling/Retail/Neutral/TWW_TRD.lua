@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('The Ringing Deeps', 'Leveling', 'The Ringing
 WoWPro:GuideName(guide,"The Ringing Deeps")
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideQuestTriggers(guide, 83550)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNextGuide(guide, 'Hallowfall')
 WoWPro:GuideSteps(guide, function()
@@ -11,8 +12,9 @@ return [[
 ;|Z|2339;Dornogal|
 ;|Z|2248; Isle of Dorn|
 
+t The Ringing Deeps|QID|83550|M|42.13,28.35|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Into the Deeps|QID|80434|PRE|78546|M|31.93,59.89|Z|2339;Dornogal|N|From Moira Thaurissan.|
-R The.Coreway|ACTIVE|80434|M|38.59,59.58|CC|Z|2339;Dornogal|N|Fly Down to the bottom of the Coreway to find Speaker Brinthe.|
+R The.Coreway|ACTIVE|80434^83550|M|38.59,59.58|CC|Z|2339;Dornogal|N|Fly Down to the bottom of the Coreway to find Speaker Brinthe.|
 T Into the Deeps|QID|80434|M|42.13,28.35|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Underground and Overwhelmed|QID|78555|PRE|80434|M|42.15,28.33|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 A Getting Off Track|QID|78557|PRE|80434|M|42.15,28.33|Z|2214; The Ringing Deeps|N|From Foreman Uzjax.|
@@ -23,14 +25,14 @@ T Getting Off Track|QID|78557|M|42.18,28.36|Z|2214; The Ringing Deeps|N|To Forem
 T Underground and Overwhelmed|QID|78555|M|42.14,28.35|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Pomp and Dire Circumstance|QID|78837|PRE|78557&78555|M|42.14,28.35|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 C Pomp and Dire Circumstance|QID|78837|M|42.12,28.39|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Ask Speaker Brinthe about the High Speaker.|
-T Pomp and Dire Circumstance|QID|78837|M|47.11,33.90|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
+T Pomp and Dire Circumstance|QID|78837|M|47.18,34.15|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Cogs in the Machine|QID|78838|PRE|78837|M|47.17,34.16|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 f Gundargaz|ACTIVE|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Collect the flight path from Igram Underwing.|
 C Cogs in the Machine|QID|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Meet Igram Underwing.|CHAT|
-C Cogs in the Machine|QID|78838|M|46.96,32.34|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
-A Delves: The Waterworks|QID|83749|M|47.14,31.88|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|RANK|3|
+C Cogs in the Machine|QID|78838|M|46.94,32.40|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
+A Delves: The Waterworks|QID|83749|M|47.14,31.88|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|PRE|78464|RANK|3|
 t Delves: The Waterworks|QID|83749|M|46.16,48.01|Z|2214; The Ringing Deeps|N|To Brann Bronzebeard.|IZ|The Waterworks|
-C Cogs in the Machine|QID|78838|M|48.07,34.77|QO|3|Z|2214; The Ringing Deeps|N|Meet Watcher Toki.|CHAT|
+C Cogs in the Machine|QID|78838|M|48.04,34.83|QO|3|Z|2214; The Ringing Deeps|N|Meet Watcher Toki.|CHAT|
 C Cogs in the Machine|QID|78838|M|47.15,34.08|QO|4|Z|2214; The Ringing Deeps|N|Return to Brinthe's house.|NC|
 T Cogs in the Machine|QID|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Speaking to the Speakers|QID|78631|PRE|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
@@ -183,7 +185,7 @@ T Chomps and the Cave-In|QID|79505|M|47.94,35.77|Z|2214; The Ringing Deeps|N|To 
 A The Day the Stoneheads Came|QID|79507|PRE|79505|M|47.94,35.77|Z|2214; The Ringing Deeps|N|From Granny Scribbles.|
 C The Day the Stoneheads Came|QID|79507|M|47.94,35.77|QO|1|Z|2214; The Ringing Deeps|N|Ask Granny Scribbles about the Day the Stoneheads Came, which will take you to Lost Mines.|CHAT|
 C The Day the Stoneheads Came|QID|79507|M|56.11,23.28|QO|2|Z|2214; The Ringing Deeps|N|Drop down into the mine and grab Softsnout's Favorite Shovel.|H|
-C The Day the Stoneheads Came|QID|79507|M|56.57,23.47|QO|3|Z|2214; The Ringing Deeps|N|Go up the later and calm the paniced kobalds and click on the glowy stuff to Save what can be saved.|
+C The Day the Stoneheads Came|QID|79507|M|56.57,23.47|QO|3|Z|2214; The Ringing Deeps|N|Go up the ladder and calm the paniced kobalds and click on the glowy stuff to Save what can be saved.|
 T The Day the Stoneheads Came|QID|79507|M|47.94,35.77|Z|2214; The Ringing Deeps|N|To Granny Scribbles.|
 A Mipsy Mole-Rider|QID|79508|PRE|79507|M|47.94,35.77|Z|2214; The Ringing Deeps|N|From Granny Scribbles.|
 C Mipsy Mole-Rider|QID|79508|M|47.94,35.77|QO|1|Z|2214; The Ringing Deeps|N|Ask Granny Scribbles about Mipsy, which will take you to the Chittering Den.|CHAT|
@@ -199,7 +201,7 @@ C The Wickless Candle|QID|79510|M|70.10,38.42|QO|3|Z|2214; The Ringing Deeps|N|K
 C The Wickless Candle|QID|79510|M|75.14,23.44|QO|4|Z|2248; Isle of Dorn|N|Exit the cave.|
 C The Wickless Candle|QID|79510|M|74.69,24.52|QO|5|Z|2248; Isle of Dorn|N|Pick a flower.|
 T The Wickless Candle|QID|79510|M|47.94,35.77|Z|2214; The Ringing Deeps|N|To Granny Scribbles.|
-C Kobold Kleanup|QID|80058|M|47.37,31.97|QO|2|Z|2214; The Ringing Deeps|N|Go outside and clean up the mess.|
+C Kobold Kleanup|QID|80058|M|47.37,31.97|Z|2214; The Ringing Deeps|N|Go outside and clean up the mess.|
 T Kobold Kleanup|QID|80058|M|47.32,31.90|Z|2214; The Ringing Deeps|N|To Fourman Grimes.|
 A On the Job Training|QID|79556|PRE|80058|M|47.32,31.90|Z|2214; The Ringing Deeps|N|From Fourman Grimes.|
 T A Wrench in the Works|QID|80079|M|47.13,33.16|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
@@ -255,6 +257,7 @@ T Seeking Ausgazur's Gems|QID|80406|M|44.08,40.14|Z|2214; The Ringing Deeps|N|To
 T Glintwick the Gem Grabber|QID|80407|M|44.08,40.14|Z|2214; The Ringing Deeps|N|To Batzvara.|
 T An Opportunity to Relax|QID|82952|M|53.78,43.87|Z|2214; The Ringing Deeps|N|To Mindi Maxlof.|
 A To Opportunity Point|QID|82956|PRE|82952|M|53.78,43.87|Z|2214; The Ringing Deeps|N|From Mindi Maxlof.|
+R Skolzgal Mill|ACTIVE|81999|M|53.38,44.58|Z|2214; The Ringing Deeps|N|Use the pillerstone spire elevator or otherwise make your way to Cinderwold.|
 R Cinderwold|ACTIVE|81999|M|72.14,42.10|Z|2248; Isle of Dorn|N|Use the pillerstone spire elevator or otherwise make your way to Cinderwold.|
 C New Home, New Candle!|QID|81999|M|72.14,42.10|QO|1|Z|2248; Isle of Dorn|N|Meet Janky in the Cinderwold.|H|
 T New Home, New Candle!|QID|81999|M|72.09,42.04|Z|2248; Isle of Dorn|N|To Janky.|
@@ -269,7 +272,7 @@ A Beebiter|QID|80000|PRE|79552&79998|M|72.08,42.06|Z|2248; Isle of Dorn|N|From J
 A Hot Pollenate-o|QID|80202|PRE|79552&79998|M|72.08,42.06|Z|2248; Isle of Dorn|N|From Janky.|RANK|2|
 C Hot Pollenate-o|QID|80202|M|72.10,41.19|Z|2248; Isle of Dorn|N|Go near a Pollen Rich Cinderbloom to receive a buff to make you friendly to the bees.(Optional).|BUFF|439592|H|
 C Hot Pollenate-o|QID|80202|M|69.67,40.06|QO|2|Z|2248; Isle of Dorn|N|Run near friendly bees to deliver Pollen.|S|H|
-K Beebiter|ACTIVE|80000|M|69.87,41.76|QO|1|Z|2248; Isle of Dorn|N|Kill Beebiter.|T|Beebiter|
+K Beebiter|ACTIVE|80000|M|69.87,41.76|QO|1|Z|2248; Isle of Dorn|N|In a cave below the roots of the tree. Kill Beebiter.|T|Beebiter|
 C Hot Pollenate-o|QID|80202|M|69.67,40.06|QO|2|Z|2248; Isle of Dorn|N|Run near friendly bees to deliver Pollen.|US|H|
 T Hot Pollenate-o|QID|80202|M|72.07,42.09|Z|2248; Isle of Dorn|N|To Janky.|
 T Beebiter|QID|80000|M|72.07,42.09|Z|2248; Isle of Dorn|N|To Janky.|
@@ -296,7 +299,7 @@ T We Don't Go to Taelloch|QID|78696|M|62.35,58.19|Z|2214; The Ringing Deeps|N|To
 A Ghost of a Company Town|QID|78697|PRE|78696|M|62.35,58.19|Z|2214; The Ringing Deeps|N|From Dagran Thaurissan II.|
 C Ghost of a Company Town|QID|78697|M|62.33,58.08|QO|1|Z|2214; The Ringing Deeps|N|Tell Magni you are ready to go.|CHAT|
 C Ghost of a Company Town|QID|78697|M|63.55,58.81|QO|2|Z|2214; The Ringing Deeps|N|Go outside and then up the steps to enter the town.|NC|
-C Ghost of a Company Town|QID|78697|QO|3|M|63.53,57.87;64.15,58.07;64.11,58.60;65.08,57.85;65.35,58.68;65.81,57.46|CN|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3|M|63.53,57.87;64.15,58.07;64.11,58.60;65.08,57.85;65.35,58.68;65.81,57.46|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
 C Ghost of a Company Town|QID|78697|M|66.15,58.41|QO|4|Z|2214; The Ringing Deeps|N|Break down the boarded up door.|H|
 T Ghost of a Company Town|QID|78697|M|66.15,58.41|Z|2214; The Ringing Deeps|N|To Magni Bronzebeard.|
 A Controlled Demolition|QID|78700|PRE|78697|M|66.15,58.41|Z|2214; The Ringing Deeps|N|From Magni Bronzebeard.|

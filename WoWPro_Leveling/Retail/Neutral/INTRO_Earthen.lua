@@ -15,12 +15,15 @@ C Who am I?|QID|79200|M|83.70,60.93|Z|2322;Hall of Awakening|QO|2|H|N|Cognitive 
 C Who am I?|QID|79200|M|83.77,37.91|Z|2322;Hall of Awakening|QO|3|H|N|Anomaly Scan completed.|
 C Who am I?|QID|79200|M|83.77,37.91|Z|2322;Hall of Awakening|QO|4|H|N|Containment Protocol disrupted.|EAB|
 T Who am I?|QID|79200|M|62.84,49.83|Z|2322;Hall of Awakening|N|To Dawn.|
-A The Analysis Interface|QID|79201|PRE|79200|M|62.85,49.50|Z|2322;Hall of Awakening|N|From Unknown.|
-C The Analysis Interface|QID|79201|M|61.61,47.42|Z|2322;Hall of Awakening|QO|1|H|N|Primary analysis completed.|
-C The Analysis Interface|QID|79201|M|61.25,51.45|Z|2322;Hall of Awakening|QO|2|H|N|Secondary analysis completed.|
-C The Analysis Interface|QID|79201|M|57.77,49.53|Z|2322;Hall of Awakening|QO|3|H|N|Tertiary analysis completed.|
-T The Analysis Interface|QID|79201|M|47.67,54.70|Z|2322;Hall of Awakening|N|To Dawn.|
-A Rock Beats Rock|QID|79202|PRE|79201|M|47.67,54.70|Z|2322;Hall of Awakening|N|From Dawn.|
+
+A The Analysis Interface|QID|83328|PRE|79200|M|62.85,49.50|Z|2322;Hall of Awakening|N|From Unknown.|C|HUNTER|
+A The Analysis Interface|QID|79201|PRE|79200|M|62.85,49.50|Z|2322;Hall of Awakening|N|From Unknown.|C|-HUNTER|
+C The Analysis Interface|QID|79201^83328|M|61.61,47.42|Z|2322;Hall of Awakening|QO|1|H|N|Primary analysis completed.|
+C The Analysis Interface|QID|79201^83328|M|61.25,51.45|Z|2322;Hall of Awakening|QO|2|H|N|Secondary analysis completed.|
+C The Analysis Interface|QID|79201^83328|M|57.77,49.53|Z|2322;Hall of Awakening|QO|3|H|N|Tertiary analysis completed.|
+T The Analysis Interface|QID|79201^83328|M|47.67,54.70|Z|2322;Hall of Awakening|N|To Dawn.|
+
+A Rock Beats Rock|QID|79202|PRE|79201^83328|M|47.67,54.70|Z|2322;Hall of Awakening|N|From Dawn.|
 C Rock Beats Rock|QID|79202|M|46.07,41.87|Z|2322;Hall of Awakening|QO|1|N|Earthen defeated in combat.|
 T Rock Beats Rock|QID|79202|M|31.10,48.54|Z|2322;Hall of Awakening|N|To Dawn.|
 A Authorization: Negated|QID|79203|PRE|79202|M|31.10,48.54|Z|2322;Hall of Awakening|N|From Speaker Kuldas.|
@@ -35,7 +38,7 @@ T For the Alliance|QID|81886|M|53.11,15.24|Z|84;Stormwind City|N|To Ambassador M
 A Stranger in a Strange Land|QID|81887|PRE|81886|M|53.11,15.24|Z|84;Stormwind City|N|From Ambassador Moorgard.|FACTION|Alliance|
 C Stranger in a Strange Land|QID|81887|M|56.21,17.37|Z|84;Stormwind City|QO|1|NC|N|Talk to Chromie.|FACTION|Alliance|
 T Stranger in a Strange Land|QID|81887|M|56.21,17.37|Z|84;Stormwind City|N|To Adhelda.|FACTION|Alliance|
-A For the Horde|QID|81888|PRE|79200&79201&79202&79203&79204|M|8.97,49.70|Z|2322;Hall of Awakening|N|From Dawn.|FACTION|Horde|
+A For the Horde|QID|81888|PRE|79204|M|8.97,49.70|Z|2322;Hall of Awakening|N|From Dawn.|FACTION|Horde|
 P Orgrimmar|ACTIVE|81888|M|7.22,52.39|Z|2322;Hall of Awakening|N|Take the portal to Orgrimmar.|
 T For the Horde|QID|81888|M|39.48,79.42|Z|85;Orgrimmar|N|To Ambassador Blackguard.|FACTION|Horde|
 A Stranger in a Strange Land|QID|81889|PRE|81888|M|39.48,79.42|Z|85;Orgrimmar|N|From Ambassador Blackguard.|FACTION|Horde|

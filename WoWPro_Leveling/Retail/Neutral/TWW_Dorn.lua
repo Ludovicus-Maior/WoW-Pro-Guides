@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide('Isle of Dorn', 'Leveling', 'Isle of Dorn', '
 WoWPro:GuideName(guide,"Isle of Dorn")
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideQuestTriggers(guide, 83548)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, 'The Ringing Deeps')
 WoWPro:GuideSteps(guide, function()
@@ -15,6 +16,7 @@ return [[
 ;--Brotherhood in the Skolzgal Wood requires you to complete the Hallowfall Hallowfall achievement
 ;--Behind Closed Doors starts in Dornogal, but then requires the Entire Ringing Deeps main storyline, before you can pick up the last few steps
 
+t Isle of Dorn|QID|83548|M|29.51,55.01|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
 A Violent Impact|QID|78529|PRE|80321|M|42.68,59.32|Z|2248;Isle of Dorn|N|From UI.|
 C Violent Impact|QID|78529|QO|1|M|28.91,54.53|Z|2248;Isle of Dorn|N|Escape the rubble. Click on the rocks.|H|
 T Violent Impact|QID|78529|M|29.51,55.01|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|FACTION|Alliance|
@@ -60,30 +62,31 @@ C Stones of Dornogal|QID|78457|QO|1|M|30.71,59.24|Z|2339;Dornogal|N|Speak to a O
 C Stones of Dornogal|QID|78457|QO|2|M|44.67,50.99|Z|2339;Dornogal|N|Speak to Flightmaster Breem .|CHAT|
 C Stones of Dornogal|QID|78457|QO|3|M|44.82,46.49|Z|2339;Dornogal|N|Speak to Inkeeper Ronesh.|CHAT|
 h Dornogal|ACTIVE|78457|M|44.82,46.49|Z|2339;Dornogal|N|Set your Hearth to Dornogal.|
-C Stones of Dornogal|QID|78457|QO|4|M|47.61,44.36|Z|2339;Dornogal|N|Speak to Brann Bronzebeard.|CHAT|
+C Stones of Dornogal|QID|78457|QO|4|M|47.41,44.41|Z|2339;Dornogal|N|Speak to Brann Bronzebeard.|CHAT|
 
 ;Profession training block. Move it anywhere you think it needs to go.
-= Train Herbalism|QID|99999|M|44.86,69.36|Z|2339;Dornogal|N|From Akdan. Click this step off if you are done or dont care.|P|Herbalism;182|SPELL|Khaz Algar Herbalism;423349|
+= Train Herbalism|QID|99999|M|44.86,69.36|Z|2339;Dornogal|N|From Akdan. Click this step off if you are done or dont care.|P|Herbalism;182|SPELL|Khaz Algar Herbalism;435811|;Spell is for Mycobloom
 = Train Alchemy|QID|99999|M|47.07,70.42|Z|2339;Dornogal|N|From Tarig. Click this step off if you are done or dont care.|P|Alchemy;171|SPELL|Khaz Algar Alchemy;423321|
 = Train Jewelcrafting|QID|99999|M|49.58,70.82|Z|2339;Dornogal|N|From Makir. Click this step off if you are done or dont care.|P|Jewelcrafting;755|SPELL|Khaz Algar Jewelcrafting;423351|
-= Train Enchanting|QID|99999|M|52.82,71.06|Z|2339;Dornogal|N|From Nagad. Click this step off if you are done or dont care.|P|Enchanting;333|SPELL|Khaz Algar Enchanting;423346|
-= Train Inscription|QID|99999|M|48.67,70.92|Z|2339;Dornogal|N|From Brrigan. Click this step off if you are done or dont care.|P|Inscription;773|SPELL|Khaz Algar Inscription;423350|
+= Train Enchanting|QID|99999|M|52.82,71.06|Z|2339;Dornogal|N|From Nagad. Click this step off if you are done or dont care.|P|Enchanting;333|SPELL|Khaz Algar Enchanting;445384|;Spell is for Glimmering Haste
+= Train Inscription|QID|99999|M|48.67,70.92|Z|2339;Dornogal|N|From Brrigan. Click this step off if you are done or dont care.|P|Inscription;773|SPELL|Khaz Algar Inscription;444181|;Spell is for Khaz Algar Milling
 = Train Blacksmithing|QID|99999|M|49.20,63.45|Z|2339;Dornogal|N|From Darean. Click this step off if you are done or dont care.|P|Blacksmithing;164|SPELL|Khaz Algar Blacksmithing;423332|
 = Train Engineering|QID|99999|M|49.28,56.06|Z|2339;Dornogal|N|From Thermalseer Arhdas. Click this step off if you are done or dont care.|P|Engineering;202|SPELL|Khaz Algar Engineering;423347|
-= Train Mining|QID|99999|M|52.65,52.73|Z|2339;Dornogal|N|From Tarib. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Khaz Algar Mining;439705| ; Spell is forBismuth
-= Train Tailoring|QID|99999|M|54.76,63.61|Z|2339;Dornogal|N|From Kotag. Click this step off if you are done or dont care.|P|Tailoring;197|SPELL|Khaz Algar Tailoring;423355|
+= Train Mining|QID|99999|M|52.65,52.73|Z|2339;Dornogal|N|From Tarib. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Khaz Algar Mining;439705|;Spell is for Bismuth
+= Train Tailoring|QID|99999|M|54.76,63.61|Z|2339;Dornogal|N|From Kotag. Click this step off if you are done or dont care.|P|Tailoring;197|SPELL|Khaz Algar Tailoring;446926|;Spell is for Unraveling
 = Train Leatherworking|QID|99999|M|54.43,58.49|Z|2339;Dornogal|N|From Marbb. Click this step off if you are done or dont care.|P|Leatherworking;165|SPELL|Khaz Algar Leatherworking;423352|
 = Train Skinning|QID|99999|M|54.73,57.39|Z|2339;Dornogal|N|From Ginnad. Click this step off if you are done or dont care.|P|Skinning;393|SPELL|Khaz Algar Skinning;423354|
-= Train Cooking|QID|99999|M|44.12,45.83|Z|2339;Dornogal|N|From Athodas. Click this step off if you are done or dont care.|P|Cooking;185|SPELL|Khaz Algar Cooking;423333|
-= Train Fishing|QID|99999|M|50.53,27.00|Z|2339;Dornogal|N|From Drokar. Click this step off if you are done or dont care.|P|Fishing;356|SPELL|Khaz Algar Fishing;423336|
+= Train Cooking|QID|99999|M|44.12,45.83|Z|2339;Dornogal|N|From Athodas. Click this step off if you are done or dont care.|P|Cooking;185|SPELL|Khaz Algar Cooking;445117|;Spell is for Chopped Mycobloom
+= Train Fishing|QID|99999|M|50.53,27.00|Z|2339;Dornogal|N|From Drokar. Click this step off if you are done or dont care.|P|Fishing;356|SPELL|Khaz Algar Fishing;454441|;Spell is for Becoming an Algari Angler
 ;=====> END PROFESSION BLOCK <======
-A Crossroads Plaza|QID|82747|M|46.6,33|Z|2339;Dornogal|N|From Rannida.|RANK|2|
-C Stones of Dornogal|QID|78457|QO|5|M|39.16,24.24|Z|2339;Dornogal|N|Speak to Auditor Balwurz.|CHAT|
+
+A Crossroads Plaza|QID|82747|M|46.79,32.93|Z|2339;Dornogal|N|From Rannida.|RANK|2|
+C Stones of Dornogal|QID|78457|QO|5|M|39.11,24.17|Z|2339;Dornogal|N|Speak to Auditor Balwurz.|CHAT|
 T Stones of Dornogal|QID|78457|M|39.90,25.99|Z|2339;Dornogal|N|To Merrix.|
 A State of the Union|QID|78459|PRE|78457&78468|M|39.90,25.99|Z|2339;Dornogal|N|From Merrix.|
 C State of the Union|QID|78459|QO|1|M|39.90,25.99|Z|2339;Dornogal|N|Speak to Merrix.|CHAT|
 T State of the Union|QID|78459|M|39.90,25.99|Z|2339;Dornogal|N|To Merrix.|
-A The Fourth Seat|QID|78461|PRE|78459|M|40.51,25.94|Z|2339;Dornogal|N|From Moira Thaurissan.|
+A The Fourth Seat|QID|78461|PRE|78459|M|40.56,25.83|Z|2339;Dornogal|N|From Moira Thaurissan.|
 C The Fourth Seat|QID|78461|QO|1|M|40.73,22.31|Z|2339;Dornogal|N|Earthen Teleporter used.|H|
 C The Fourth Seat|QID|78461|QO|2|M|39.81,32.72|Z|2339;Dornogal|N|Regroup with Baelgrim at the top of Foundation Hall.|NC|
 T Crossroads Plaza|QID|82747|M|55.21,55.85|Z|2248;Isle of Dorn|N|To Bondaz.|RANK|2|
@@ -92,12 +95,11 @@ A The Earthwound|QID|83336|M|55.51,55.88|Z|2248;Isle of Dorn|N|From Freysworn Et
 A To Mourning Rise|QID|81661|M|55.75,56.05|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 A Lost Delivery|QID|78754|M|55.55,56.49|Z|2248;Isle of Dorn|N|From Dropped Package.|RANK|2|
 R Freywold Village|ACTIVE|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|Mount up and head to Freywold Village.|
-N check for Natalia|ACTIVE|78461|;this note is just for me. not a permanent part of the guide
-;A For The Love of Gems|QID|82441|M|43.03,70.01|Z|2248;Isle of Dorn|N|From Natalia Pearce.|RANK|2|;--can this be picked up sooner. like on the way into town?
-C The Fourth Seat|QID|78461|QO|3|M|41.88,72.60|Z|2248;Isle of Dorn|N|Adelgonn found.|CHAT|
-T The Fourth Seat|QID|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|To Adelgonn.|
-A Delve into the Earth|QID|78464|PRE|78461|M|41.88,72.60|Z|2248;Isle of Dorn|N|From Adelgonn.|
+C The Fourth Seat|QID|78461|QO|3|M|41.86,72.64|Z|2248;Isle of Dorn|N|Talk with Adelgonn.|CHAT|
+T The Fourth Seat|QID|78461|M|41.86,72.64|Z|2248;Isle of Dorn|N|To Adelgonn.|
+A Delve into the Earth|QID|78464|PRE|78461|M|41.86,72.64|Z|2248;Isle of Dorn|N|From Adelgonn.|
 f Freywold Village|ACTIVE|78464|M|41.04,72.93|Z|2248;Isle of Dorn|N|At Iridi.|
+A For The Love of Gems|QID|82441|PRE|78461|M|43.05,70.04|Z|2248;Isle of Dorn|N|From Natalia Pearce.|RANK|2|
 C Delve into the Earth|QID|78464|QO|1|M|38.87,73.37|Z|2248;Isle of Dorn|N|Journey to the Earthcrawl Mines delve.|
 C Delve into the Earth|QID|78464|QO|2|M|38.87,73.30|Z|2248;Isle of Dorn|N|Speak to Brann Bronzebeard.|CHAT|
 C Delve into the Earth|QID|78464|QO|3|M|38.90,73.32|Z|2248;Isle of Dorn|N|Open the Explorers' League Supplies.|
@@ -106,8 +108,8 @@ C Delve into the Earth|QID|78464|QO|5|M|45.11,11.57|Z|2269;Earthcrawl Mines!Dung
 C Delve into the Earth|QID|78464|QO|6|M|54.41,75.32|Z|2269;Earthcrawl Mines!Dungeon|N|Earthcrawl Mines objectives completed.|
 C Delve into the Earth|QID|78464|QO|7|M|64.62,88.06|Z|2269;Earthcrawl Mines!Dungeon|N|Earthcrawl Mines treasure found.|
 C Delve into the Earth|QID|78464|QO|8|M|38.77,73.30|Z|2248;Isle of Dorn|N|Speak to Brann Bronzebeard outside the delve.|CHAT|
-T Delve into the Earth|QID|78464|M|41.86,72.63|Z|2248;Isle of Dorn|N|To Adelgonn.|
-t Ancient Curiosity|QID|84519^84520|N|UI Turn In. Don't forget to use the curio you just receeived.|;I cant remember which one this is, so i did both QIDs. fix in post
+T Delve into the Earth|QID|78464|M|41.86,72.64|Z|2248;Isle of Dorn|N|To Adelgonn.|
+t Ancient Curiosity|QID|84519^84520|N|UI Turn In. Don't forget to use the curio you just received.|;I cant remember which one this is, so i did both QIDs. fix in post
 A A Natural Remedy|QID|79553|PRE|78464|M|41.86,72.63|Z|2248;Isle of Dorn|N|From Adelgonn.|
 A Building Blocks|QID|78463|PRE|78464|M|41.79,72.66|Z|2248;Isle of Dorn|N|From Baelgrim.|
 A Frayed Legacy|QID|78570|M|42.13,71.32;41.61,71.38|CS|Z|2248;Isle of Dorn|N|From Freysworn Cruton.|RANK|2|
@@ -154,7 +156,7 @@ C Echoes of Compassion|QID|78462|QO|4|M|41.85,72.76|Z|2248;Isle of Dorn|N|Ebona 
 T Echoes of Compassion|QID|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|To Adelgonn.|
 A The Proscenium|QID|78470|PRE|78462|M|41.85,72.68|Z|2248;Isle of Dorn|N|From Moira Thaurissan.|
 A Weapons and Warriors|QID|78996|M|42.72,71.72|Z|2248;Isle of Dorn|N|From Aggartha.|RANK|2|
-R Enter Herbalist|ACTIVE|79686|M|42.15,71.32|Z|2248;Isle of Dorn|N|Enter the herbalist and go downstairs.|
+R Enter Herbalist|ACTIVE|79686|M|42.15,71.32|CC|Z|2248;Isle of Dorn|N|Enter the herbalist and go downstairs.|
 T Concerning Fungarians|QID|79686|M|42.11,71.33;41.47,71.46|Z|2248;Isle of Dorn|CS|N|To Yeonin (downstairs).|
 C Weapons and Warriors|QID|78996|QO|1<1|M|42.12,72.27|Z|2248;Isle of Dorn|N|Recruit Kaldrinn.|CHAT|
 C Weapons and Warriors|QID|78996|QO|2<1|M|41.0,73.1|Z|2248;Isle of Dorn|N|Pick up Weapon crate beside flightmaster.|H|
@@ -263,7 +265,7 @@ C Fire in the Hole|QID|79721|QO|1|M|56.64,52.07|Z|2248;Isle of Dorn|N|Pick up Ci
 C Fire in the Hole|QID|79721|QO|2|M|56.73,52.11|Z|2248;Isle of Dorn|N|Use provided [color=33fff9] Extra Action Button [/color] to throw it into the burrow.|EAB|NC|
 C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Fight Nerubians.|S|
 C The Cavalry is Here|QID|79701|QO|2|M|56.30,50.17|Z|2248;Isle of Dorn|N|Check up on Alleria Windrunner.|NC|
-C Fire in the Hole|QID|79721|QO|3|M|57.96,50.53|Z|2248;Isle of Dorn|N|Collapse Nerubian burrows.|NC|EAB|
+C Fire in the Hole|QID|79721|QO|3|M|57.96,50.53;56.85,49.30;54.95,49.67|CS|Z|2248;Isle of Dorn|N|Collapse Nerubian burrows.|NC|EAB|
 C The Cavalry is Here|QID|79701|QO|1|M|56.56,49.54|Z|2248;Isle of Dorn|N|Keep fighting Nerubians.|US|
 T The Cavalry is Here|QID|79701|M|56.48,48.04|Z|2248;Isle of Dorn|N|To Baelgrim.|
 T Fire in the Hole|QID|79721|M|56.45,47.98|Z|2248;Isle of Dorn|N|To Wenbrandt.|
@@ -477,9 +479,9 @@ T Because It's Shiny|QID|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|To Tharessa S
 A It's Probably Nothing|QID|79728|PRE|79727|M|77.98,30.34|Z|2248;Isle of Dorn|N|From Rannan Korren.|RANK|2|
 C It's Probably Nothing|QID|79728|M|77.85,30.28|QO|1|Z|2248;Isle of Dorn|N|Middle, Right|I|
 T It's Probably Nothing|QID|79728|M|77.97,30.26|Z|2248;Isle of Dorn|N|To Rannan Korren.|
-A How Scandalous|QID|80207|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;not the PRE|81689| unless its once per account
+A How Scandalous!|QID|80207|M|62.71,21.72|Z|2339;Dornogal|N|From Aldra.|RANK|2|;not the PRE|81689| unless its once per account
 T Wanted: The Boroughbreaker|QID|83335|M|54.08,20.06|Z|2339;Dornogal|N|To Peacekeeper Alef.|
-T How Scandalous|QID|80207|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
+T How Scandalous!|QID|80207|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
 A Seizing Evidence|QID|79521|PRE|80207|M|49.88,49.27|Z|2339;Dornogal|N|From Peacekeeper Kragad.|
 C Seizing Evidence|QID|79521|M|51.43,51.25|Z|2339;Dornogal|N|Pick up the crates on the nearby trolly cart.|H|
 T Seizing Evidence|QID|79521|M|49.88,49.27|Z|2339;Dornogal|N|To Peacekeeper Kragad.|
