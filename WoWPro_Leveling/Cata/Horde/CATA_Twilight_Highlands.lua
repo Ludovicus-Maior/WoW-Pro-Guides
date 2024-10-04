@@ -330,11 +330,11 @@ T Move the Mountain|QID|27495|M|38.10,66.24|
 A Signal the Attack|QID|27499|PRE|27495|M|38.10,66.24|
 C Signal the Attack|QID|27499|U|61511|M|40.45,62.23|N|Go to the top of the tower between the northern and northeastern buildings.|
 T Signal the Attack|QID|27499|M|40.45,62.23|
-A Four Heads are Better than None|QID|27609|PRE|27499|M|40.45,62.23|
-C Four Heads are Better than None|QID|27609|M|37.73,71.26|QO|1|N|Go in the cave take the path to the left.|; Za's Head: 1/1
-C Four Heads are Better than None|QID|27609|M|38.78,70.63|QO|3|N|Then take the path to the right.|
-T Four Heads are Better than None|QID|27609|M|45.34,75.49|N|To Lady Cozwynn.|
-A Up to the Citadel|QID|27503|PRE|27501|M|45.34,75.49|N|From Lady Cozwynn.|
+A Four Heads are Better than None|QID|27609^57501|PRE|27499|M|40.45,62.23|
+C Four Heads are Better than None|QID|27609^57501|M|37.73,71.26|QO|1|N|Go in the cave take the path to the left.|; Za's Head: 1/1
+C Four Heads are Better than None|QID|27609^57501|M|38.78,70.63|QO|3|N|Then take the path to the right.|
+T Four Heads are Better than None|QID|27609^57501|M|45.34,75.49|N|To Lady Cozwynn.|
+A Up to the Citadel|QID|27503|PRE|27501^27609|M|45.34,75.49|N|From Lady Cozwynn.|
 C Up to the Citadel|QID|27503|M|38.96,64.09|QO|1|N|Same location as the X on the ground from earlier.|
 C Up to the Citadel|QID|27503|M|37.61,65.53|QO|2|
 T Up to the Citadel|QID|27503|M|37.71,64.96|N|To Cho'gall.|
@@ -390,9 +390,9 @@ A Rune Ruination|QID|27744|PRE|27720^28885|M|37.47,93.23|N|Jump down. From Twili
 C A Little on the Side|QID|27742|M|36.61,93.54|N|Found on the ground and dropped from Elementium Spinners.|S|
 C While We're Here|QID|27743|M|36.97,93.06|S|
 C Rune Ruination|QID|27744|M|34.33,86.71|QO|1|N|Go northwest.|; Rune of Earth destroyed: 1/1
-C Rune Ruination|QID|27744|M|34.33,86.71|QO|1|N|Keep going down into the cave.|; Rune of Water destroyed: 1/1
-C Rune Ruination|QID|27744|M|34.33,86.71|QO|1|; Rune of Air destroyed: 1/1
-C Rune Ruination|QID|27744|M|34.33,86.71|QO|1|; Rune of Fire destroyed: 1/1
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|2|N|Keep going down into the cave.|; Rune of Water destroyed: 1/1
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|3|; Rune of Air destroyed: 1/1
+C Rune Ruination|QID|27744|M|34.33,86.71|QO|4|; Rune of Fire destroyed: 1/1
 C A Little on the Side|QID|27742|M|36.61,93.54|N|Found on the ground and dropped from Elementium Spinners.|US|
 C While We're Here|QID|27743|M|36.97,93.06|N|Kill the remaining cultists you need.|US|
 T A Little on the Side|QID|27742|N|To Initiate Goldmine running after you.|

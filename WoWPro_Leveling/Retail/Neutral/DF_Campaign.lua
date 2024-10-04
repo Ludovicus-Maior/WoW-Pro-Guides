@@ -31,13 +31,13 @@ A Orientation: Maruukai|QID|72429|ACTIVE|72585|M|63.42,41.37|Z|2023;Ohn'ahran Pl
 C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown; located in the cave on top of the hill above the Instance entrance.|
 C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.|
 T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.|
-F Iskaara|ACTIVE|72585|AVAILABLE|72435|M|13.14,49.27|Z|2024|N|Head to your nearest flightmaster or otherwise travel to Iskaara.|
-A Orientation: Iskaara|QID|72435|ACTIVE|72585|M|13.14,49.27|Z|2024|N|From Murik.|
-C Orientation: Iskaara|QID|72435|QO|1|M|12.90,48.82|Z|2024|NC|N|Check out what Arvik has for sale.|
-C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.63|Z|2024|CHAT|N|Say Hello to Norukk.|
-C Orientation: Iskaara|QID|72435|QO|3|M|13.80,49.74|Z|2024|NC|N|Click on Tatto to discover he supplies mounts.|
-C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024|NC|N|Click on Rokkutuk to discover he supplies recipes.|
-T Orientation: Iskaara|QID|72435|M|13.14,49.27|Z|2024|N|To Murik.|
+F Iskaara|ACTIVE|72585|AVAILABLE|72435|M|13.14,49.27|Z|2024;The Azure Spam!Dragon Isles|N|Head to your nearest flightmaster or otherwise travel to Iskaara.|
+A Orientation: Iskaara|QID|72435|ACTIVE|72585|M|13.14,49.27|Z|2024;The Azure Spam!Dragon Isles|N|From Murik.|
+C Orientation: Iskaara|QID|72435|QO|1|M|12.90,48.82|Z|2024;The Azure Spam!Dragon Isles|NC|N|Check out what Arvik has for sale.|
+C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.63|Z|2024;The Azure Spam!Dragon Isles|CHAT|N|Say Hello to Norukk.|
+C Orientation: Iskaara|QID|72435|QO|3|M|13.80,49.74|Z|2024;The Azure Spam!Dragon Isles|NC|N|Click on Tatto to discover he supplies mounts.|
+C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024;The Azure Spam!Dragon Isles|NC|N|Click on Rokkutuk to discover he supplies recipes.|
+T Orientation: Iskaara|QID|72435|M|13.14,49.27|Z|2024;The Azure Spam!Dragon Isles|N|To Murik.|
 H Valdrakken|ACTIVE|72585|M|50.21,56.14|Z|2112|N|Hearth or otherwise travel back to Valdrakken.|TZ|The Roasted Ram|
 T Open Orientation|QID|72585|M|50.21,56.14|Z|2112|N|To Therazal.|
 
@@ -56,8 +56,8 @@ f Vault of the Incarnates|ACTIVE|66847|M|72.12,56.47|Z|2025|N|At Nirazal.|
 t Vault of the Incarnates: Fury of the Storm-Eater|QID|66847|M|57.46,58.73|Z|2025|N|To Alexstrasza.|
 
 ; Ch 3|The Chieftain's Duty - |DFREN|Iskaara;2511;11|
-t A Lost Tribe|QID|68863|M|13.15,49.24|Z|2024|N|To Murik.|
-A Sudden Isolation|QID|68640|M|13.15,49.24|Z|2024|N|From Murik.|DFREN|Iskaara;2511;11|;rowie only shows up for first char, subsequent characters start with this quest.
+t A Lost Tribe|QID|68863|M|13.15,49.24|Z|2024;The Azure Spam!Dragon Isles|N|To Murik.|
+A Sudden Isolation|QID|68640|M|13.15,49.24|Z|2024;The Azure Spam!Dragon Isles|N|From Murik.|DFREN|Iskaara;2511;11|;rowie only shows up for first char, subsequent characters start with this quest.
 C Sudden Isolation|QID|68640|M|55.07,38.22|Z|2022|N|Speak with Guard Hakota.|
 T Sudden Isolation|QID|68640|M|55.07,38.22|Z|2022|N|To Guard Hakota.|
 A Pressing Matters|QID|66409|PRE|68640|M|55.07,38.22|Z|2022|N|From Guard Hakota.|
@@ -150,17 +150,17 @@ A The Fractured Flame|QID|70766|M|PLAYER|N|From item that will drop probably fro
 C The Fractured Flame|QID|70766|M|44.29,64.44|Z|2023|N|Stay and kill gorlocs if you want, or abandon this quest. It is optional and has no reward, other than the completed journal that you can read for a bit of interesting lore. If you choose to finish it, kill them one or two at a time, and loot before more die, or you will get multiples of the same page if you loot a big pile of them at once.|
 T The Insight of Tyr|QID|70507|M|47.25,82.71|Z|2025|N|To Toddy Whiskers.|
 t The Fractured Flame|QID|70766|M|47.25,82.71|Z|2025|N|To Toddy Whiskers.|
-R Zelthrak Outpost|ACTIVE|70784|M|53.88,50.70|Z|2024|N|Off to Azure Span to meet Naleidea and find the last piece.|
-T The Abandoned Outpost|QID|70784|M|53.88,50.70|Z|2024|N|To Naleidea Rivergleam.|
-A The Vigilance of Tyr.|QID|70503|PRE|70784|M|53.88,50.70|Z|2024|N|From Naleidea Rivergleam.|
-C The Vigilance of Tyr|QID|70503|QO|3|M|53.74,49.38|Z|2024|N|Kill and loot from Tarasek Scavengers for the Tarasek Pillaged Pieces.|S|
-C The Vigilance of Tyr|QID|70503|QO|2|M|53.74,49.38|Z|2024|N|Attack the Crystallized Horror, when an Agitated Shard separates, kill and loot it.|
-C The Vigilance of Tyr|QID|70503|QO|1|M|53.74,49.38|Z|2024|H|N|Also pick up the Manetized Splinters that he is throwing on the ground when You attack the Crystallized Horror.|
-C The Vigilance of Tyr|QID|70503|QO|4|M|54.99,49.75|Z|2024|H|N|The Far-Flung Fragment can be found on top of this tower.|
-C The Vigilance of Tyr|QID|70503|QO|5|M|53.58,49.35|Z|2024|N|Kill the Obstructed Hornswog to free the Tarasek he is eating, then click the Terasek to get the Half Swallowed Sliver.|
-C The Vigilance of Tyr|QID|70503|QO|3|M|53.74,49.38|Z|2024|N|Kill and loot from Tarasek Scavengers for the Tarasek Pillaged Pieces.|US|
-T The Vigilance of Tyr.|QID|70503|M|53.88,50.70|Z|2024|N|To Naleidea Rivergleam.|
-A Next Steps|QID|66128|PRE|66814&70503&70507|M|53.88,50.70|Z|2024|N|From Naleidea Rivergleam.|
+R Zelthrak Outpost|ACTIVE|70784|M|53.88,50.70|Z|2024;The Azure Spam!Dragon Isles|N|Off to Azure Span to meet Naleidea and find the last piece.|
+T The Abandoned Outpost|QID|70784|M|53.88,50.70|Z|2024;The Azure Spam!Dragon Isles|N|To Naleidea Rivergleam.|
+A The Vigilance of Tyr.|QID|70503|PRE|70784|M|53.88,50.70|Z|2024;The Azure Spam!Dragon Isles|N|From Naleidea Rivergleam.|
+C The Vigilance of Tyr|QID|70503|QO|3|M|53.74,49.38|Z|2024;The Azure Spam!Dragon Isles|N|Kill and loot from Tarasek Scavengers for the Tarasek Pillaged Pieces.|S|
+C The Vigilance of Tyr|QID|70503|QO|2|M|53.74,49.38|Z|2024;The Azure Spam!Dragon Isles|N|Attack the Crystallized Horror, when an Agitated Shard separates, kill and loot it.|
+C The Vigilance of Tyr|QID|70503|QO|1|M|53.74,49.38|Z|2024;The Azure Spam!Dragon Isles|H|N|Also pick up the Manetized Splinters that he is throwing on the ground when You attack the Crystallized Horror.|
+C The Vigilance of Tyr|QID|70503|QO|4|M|54.99,49.75|Z|2024;The Azure Spam!Dragon Isles|H|N|The Far-Flung Fragment can be found on top of this tower.|
+C The Vigilance of Tyr|QID|70503|QO|5|M|53.58,49.35|Z|2024;The Azure Spam!Dragon Isles|N|Kill the Obstructed Hornswog to free the Tarasek he is eating, then click the Terasek to get the Half Swallowed Sliver.|
+C The Vigilance of Tyr|QID|70503|QO|3|M|53.74,49.38|Z|2024;The Azure Spam!Dragon Isles|N|Kill and loot from Tarasek Scavengers for the Tarasek Pillaged Pieces.|US|
+T The Vigilance of Tyr.|QID|70503|M|53.88,50.70|Z|2024;The Azure Spam!Dragon Isles|N|To Naleidea Rivergleam.|
+A Next Steps|QID|66128|PRE|66814&70503&70507|M|53.88,50.70|Z|2024;The Azure Spam!Dragon Isles|N|From Naleidea Rivergleam.|
 R Dragonscale Basecamp|ACTIVE|66128|M|47.88,82.41|Z|2022|N|Head back to Dragonscale Basecamp to find Naleidea Rivergleam and finish up this storyline.|
 T Next Steps|QID|66128|M|47.25,82.41|Z|2022|N|Wait a bit while they talk, then turn in to Toddy Whiskers.|
 
@@ -393,15 +393,15 @@ C Jump-Start? Jump-Starting!|QID|70180|QO|3|M|86.36,51.75|Z|2112|NC|N|When the c
 C Jump-Start? Jump-Starting!|QID|70180|QO|4|M|84.32,53.76|Z|2112|H|N|Activate the Engine of Innovation.|
 T Jump-Start? Jump-Starting!|QID|70180|M|84.31,53.54|Z|2112|N|To Maiden of Inspiration.|
 A In Tyr's Footsteps|QID|70845|PRE|70180|M|84.31,53.54|Z|2112|N|From Maiden of Inspiration.|
-F Rhonin's Shield|ACTIVE|70845|M|66.01,25.38|Z|2024|N|Take a flight path to Rhonin's Shield or otherwise travel that direction.|
-R Upper Frostlands|ACTIVE|70845|M|67.19,30.77|Z|2024|
-T In Tyr's Footsteps|QID|70845|M|67.15,30.68|Z|2024|N|Find Tyr's first challange.|
-A First Challenge of Tyr: Finesse|QID|70181|PRE|70845|M|67.15,30.68|Z|2024|
-C First Challenge of Tyr: Finesse|QID|70181|M|67.12,30.92|Z|2024|QO|1|H|N|Speak with Maiden of Inspiration to begin.|
-C First Challenge of Tyr: Finesse|QID|70181|M|67.24,30.92|Z|2024|QO|2|NC|EAB|N|This shoots you up in the air and you float down there are MANY many rings, float down thru them. There is an [color=33fff9]Extra Action Button [/color] which will send you up a little ways if you just missed one.|
-T First Challenge of Tyr: Finesse|QID|70181|M|67.13,30.92|Z|2024|N|To Maiden of Inspiration.|
-A The Sweet Taste of Victory|QID|70182|PRE|70181|M|67.13,30.92|Z|2024|N|From Maiden of Inspiration.|
-P Valdrakken|ACTIVE|70182|M|67.18,30.93|Z|2024|NC|N|Take the portal to Valdrakken.|IZ|2024|
+F Rhonin's Shield|ACTIVE|70845|M|66.01,25.38|Z|2024;The Azure Spam!Dragon Isles|N|Take a flight path to Rhonin's Shield or otherwise travel that direction.|
+R Upper Frostlands|ACTIVE|70845|M|67.19,30.77|Z|2024;The Azure Spam!Dragon Isles|
+T In Tyr's Footsteps|QID|70845|M|67.15,30.68|Z|2024;The Azure Spam!Dragon Isles|N|Find Tyr's first challange.|
+A First Challenge of Tyr: Finesse|QID|70181|PRE|70845|M|67.15,30.68|Z|2024;The Azure Spam!Dragon Isles|
+C First Challenge of Tyr: Finesse|QID|70181|M|67.12,30.92|Z|2024;The Azure Spam!Dragon Isles|QO|1|H|N|Speak with Maiden of Inspiration to begin.|
+C First Challenge of Tyr: Finesse|QID|70181|M|67.24,30.92|Z|2024;The Azure Spam!Dragon Isles|QO|2|NC|EAB|N|This shoots you up in the air and you float down there are MANY many rings, float down thru them. There is an [color=33fff9]Extra Action Button [/color] which will send you up a little ways if you just missed one.|
+T First Challenge of Tyr: Finesse|QID|70181|M|67.13,30.92|Z|2024;The Azure Spam!Dragon Isles|N|To Maiden of Inspiration.|
+A The Sweet Taste of Victory|QID|70182|PRE|70181|M|67.13,30.92|Z|2024;The Azure Spam!Dragon Isles|N|From Maiden of Inspiration.|
+P Valdrakken|ACTIVE|70182|M|67.18,30.93|Z|2024;The Azure Spam!Dragon Isles|NC|N|Take the portal to Valdrakken.|IZ|2024|
 T The Sweet Taste of Victory|QID|70182|M|84.36,53.59|Z|2112;Valdrakken|N|To Maiden of Inspiration, who is back in Valdrakken.|
 A Fueling the Engine|QID|70633|PRE|70182|M|84.36,53.59|Z|2112;Valdrakken|N|From Maiden of Inspiration.|
 C Fueling the Engine|QID|70633|M|84.36,53.59|Z|2112;Valdrakken|NC|EAB|N|Use the [color=33fff9]Extra Action Button [/color]to power up Engine.|
