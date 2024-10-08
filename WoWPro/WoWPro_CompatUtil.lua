@@ -119,7 +119,7 @@ end
 
 --[[ C_QuestLog ]]--
 function WoWPro.QuestLog_GetInfo(questLogIndex)
-    if WoWPro.RETAIL then
+    if not _G.GetQuestLogTitle then
         return _G.C_QuestLog.GetInfo(questLogIndex)
     else
         local questTitle, level, suggestedGroup, isHeader, isCollapsed, _, frequency, questID, startEvent, _, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling = _G.GetQuestLogTitle(questLogIndex)
@@ -151,7 +151,7 @@ function WoWPro.QuestLog_GetInfo(questLogIndex)
     end
 end
 function WoWPro.QuestLog_GetNumQuestLogEntries()
-    if WoWPro.RETAIL then
+    if not _G.GetNumQuestLogEntries then
         return _G.C_QuestLog.GetNumQuestLogEntries()
     else
         return _G.GetNumQuestLogEntries()
@@ -160,7 +160,7 @@ end
 
 function WoWPro.QuestLog_IsComplete(questID)
     -- Note this needs to return the old trinary return result!
-    if WoWPro.RETAIL then
+    if _G.C_QuestLog and _G.C_QuestLog.IsComplete then
         if _G.C_QuestLog.IsComplete(questID) then
             return 1
         elseif _G.C_QuestLog.IsFailed(questID) then
@@ -179,7 +179,7 @@ end
 
 --[[ C_SuperTrack ]]--
 function WoWPro.SuperTrack_SetSuperTrackedQuestID(questID)
-    if WoWPro.RETAIL then
+    if not _G.SetSuperTrackedQuestID then
         return _G.C_SuperTrack.SetSuperTrackedQuestID(questID)
     else
         return _G.SetSuperTrackedQuestID(questID)
@@ -207,7 +207,7 @@ end
 
 --[[C_Reputation.GetFactionDataByID]]
 function WoWPro.C_Reputation_GetFactionDataByID(factionID)
-    if WoWPro.WAR_WITHIN then
+    if not _G.GetFactionInfoByID then
         return _G.C_Reputation.GetFactionDataByID(factionID)
     else
         local name, description, standingID, barMin, barMax, barValue , atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, _ , hasBonusRepGain, canSetInactive = _G.GetFactionInfoByID(factionID)
@@ -239,7 +239,7 @@ end
 
 --[[C_Spell.GetSpellInfo]]
 function WoWPro.C_Spell_GetSpellInfo(spellID)
-    if WoWPro.WAR_WITHIN then
+    if not _G.GetSpellInfo then
         return _G.C_Spell.GetSpellInfo(spellID)
     else
         local name, _, icon, castTime, minRange, maxRange, _, originalIcon = _G.GetSpellInfo(spellID)
@@ -257,7 +257,7 @@ end
 
 --[[C_ScenarioInfo.GetCriteriaInfo]]
 function WoWPro.C_ScenarioInfo_GetCriteriaInfo(criteriaIndex)
-    if WoWPro.WAR_WITHIN then
+    if not _G.C_Scenario or not _G.C_Scenario.GetCriteriaInfo then
         return _G.C_ScenarioInfo.GetCriteriaInfo(criteriaIndex)
     else
         local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, _, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = _G.C_Scenario.GetCriteriaInfo(criteriaIndex);
@@ -282,7 +282,7 @@ end
 
 --[[C_Spell.GetSpellLink]]
 function WoWPro.C_Spell_GetSpellLink(spellID)
-    if WoWPro.WAR_WITHIN then
+    if not _G.GetSpellLink then
         return _G.C_Spell.GetSpellLink(spellID)
     else
         return _G.GetSpellLink(spellID)
@@ -291,7 +291,7 @@ end
 
 --[[C_Item.GetItemInfo]]
 function WoWPro.C_Item_GetItemInfo(itemID)
-    if WoWPro.WAR_WITHIN then
+    if not _G.GetItemInfo then
         return _G.C_Item.GetItemInfo(itemID)
     else
         return _G.GetItemInfo(itemID)
@@ -300,7 +300,7 @@ end
 
 --[[C_Item.GetItemCount]]
 function WoWPro.C_Item_GetItemCount(itemID, includeBank)
-    if WoWPro.WAR_WITHIN then
+    if not _G.GetItemCount then
         return _G.C_Item.GetItemCount(itemID, includeBank)
     else
         return _G.GetItemCount(itemID, includeBank)
@@ -308,7 +308,7 @@ function WoWPro.C_Item_GetItemCount(itemID, includeBank)
 end
 
 function WoWPro.C_Item_GetItemIconByID(itemID)
-    if WoWPro.WAR_WITHIN then
+    if not _G.GetItemIcon then
         return _G.C_Item.GetItemIconByID(itemID)
     else
         return _G.GetItemIcon(itemID)
@@ -355,7 +355,7 @@ function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHid
 end
 
 function WoWPro.IsValidAchievement(achnum)
-    if WoWPro.POST_SL then
+    if not _G.GetAchievementInfo then
         return _G.C_AchievementInfo.IsValidAchievement(achnum)
     else
      local _, name = _G.GetAchievementInfo(achnum)
