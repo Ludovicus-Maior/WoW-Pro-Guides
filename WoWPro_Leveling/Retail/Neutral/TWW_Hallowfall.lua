@@ -181,7 +181,7 @@ C Restore the Flame|QID|78954|M|56.19,42.01|Z|2215;Hallowfall|CHAT|N|Tell Faerin
 T Restore the Flame|QID|78954|M|56.19,42.01|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A To Mereldar|QID|78607|M|56.19,42.01|Z|2215;Hallowfall|N|From Faerin Lothar.|
 A Delver's Call: The Sinkhole|QID|83767|M|48.71,39.61|Z|2215;Hallowfall|N|From Poster on the Pole.|RANK|3|
-A Hungry in Hollow|QID|84392|M|48.45,39.39|Z|2215;Hallowfall|N|From Haelmut Aegisaxe.|RANK|2|LVL|75|
+A Hungry in Hollow|QID|84392|M|48.45,39.39|Z|2215;Hallowfall|N|From Haelmut Aegisaxe.|LEAD|82843|RANK|2|LVL|75|
 A Lights Out|QID|78686|M|49.14,41.09|Z|2215;Hallowfall|N|From Aegor Irynbawnd.|RANK|2|
 T To Mereldar|QID|78607|M|43.42,48.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A The Bastion of Hallowfall|QID|78613|M|43.39,48.64|Z|2215;Hallowfall|N|From General Steelstrike.|
@@ -253,7 +253,7 @@ C Consecrated Cleanup|QID|79089|M|35.68,53.95|Z|2215;Hallowfall|QO|1|NC|N|Finish
 T Consecrated Cleanup|QID|79089|M|33.64,54.62|Z|2215;Hallowfall|N|To General Steelstrike.|
 T The Flame Still Burns|QID|80049|M|33.58,54.64|Z|2215;Hallowfall|N|To General Steelstrike.|
 A The Final Front|QID|78627|M|33.57,54.65|Z|2215;Hallowfall|N|From General Steelstrike.|
-A The Last Mage|QID|80175|M|40.3,50.9|Z|2215;Hallowfall|N|This is a starter, if you already met Wenren Althal and picked up his quests, it will not be available.|RANK|2|LEAD|80176|;bugged in the quest will show a marker, but no quest giver if you already did Arcane Trickles - 80176
+A The Last Mage|QID|80175|M|40.52,50.79|Z|2215;Hallowfall|N|This is a starter, if you already met Wenren Althal and picked up his quests, it will not be available.|RANK|2|LEAD|80176|;bugged in the quest will show a marker, but no quest giver if you already did Arcane Trickles - 80176
 A The Price of Hope|QID|82894|M|40.52,50.79|Z|2215;Hallowfall|N|From General Steelstrike.|RANK|2|
 A The Brothers Braunpyke|QID|82628|M|40.55,50.75|Z|2215;Hallowfall|N|From General Steelstrike.|RANK|2|
 A The Dawnbreaker: The Christening|QID|83322|M|40.55,50.75|Z|2215;Hallowfall|N|From General Steelstrike.|RANK|2|LVL|80|
@@ -397,16 +397,16 @@ T Burnout|QID|79162|M|41.47,52.50|Z|2215;Hallowfall|N|To Endiri Dawnsurge.|
 T Finding Justice|QID|80179|M|40.54,50.79|Z|2215;Hallowfall|N|To General Steelstrike.|
 ; ---STRIKING STEEL QUESTLINE CONTINUIATION---
 A Spice Up Your Life|QID|82219|M|42.35,55.01|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|LVL|75|LEAD|82218|;This is a time gated quest, looks like 24 real life hours since you turned in Underground Economy. (the LEAD is the timegate trigger)
-A Eagle Eye, Eagle Die|QID|82220|M|42.35,55.01|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|LVL|75|
+A Eagle Eye, Eagle Die|QID|82220|M|42.35,55.01|Z|2215;Hallowfall|N|From Auralia Steelstrike.|LEAD|82218|RANK|2|LVL|75|
 C Spice Up Your Life|QID|82219|M|26.24,56.13|Z|2215;Hallowfall|QO|1|H|N|Gather 7 Light-Bathed Lotus.|S|
 C Eagle Eye, Eagle Die|QID|82220|M|26.24,56.13|Z|2215;Hallowfall|QO|1|N|Use your harpoon to snipe the eagles out of the sky. Collect Eagle Fillets.|U|222976|
 C Spice Up Your Life|QID|82219|M|26.24,56.13|Z|2215;Hallowfall|QO|1|H|N|Gather 7 Light-Bathed Lotus.|US|
 T Spice Up Your Life|QID|82219|M|44.55,50.82|Z|2215;Hallowfall|N|To Auralia Steelstrike.|RANK|2|
 T Eagle Eye, Eagle Die|QID|82220|M|44.55,50.82|Z|2215;Hallowfall|N|To Auralia Steelstrike.|RANK|2|
-A Full Dress|QID|82221|M|44.55,50.82|Z|2215;Hallowfall|N|From Auralia Steelstrike.|RANK|2|LVL|75|
+A Full Dress|QID|82221|M|44.55,50.82|Z|2215;Hallowfall|N|From Auralia Steelstrike.|PRE|82220|RANK|2|LVL|75|
 C Full Dress|QID|82221|M|44.56,50.82|Z|2215;Hallowfall|QO|1|H|N|Decorate by clicking the various objects around the house.|
 T Full Dress|QID|82221|M|44.55,50.82|Z|2215;Hallowfall|N|To Auralia Steelstrike.|
-A Cooking With Style|QID|82222|M|44.58,50.70|Z|2215;Hallowfall|N|From General Steelstrike.|RANK|2|LVL|75|
+A Cooking With Style|QID|82222|M|44.58,50.70|Z|2215;Hallowfall|N|From General Steelstrike.|PRE|82221|RANK|2|LVL|75|
 C Cooking With Style|QID|82222|M|43.83,49.88|Z|2215;Hallowfall|QO|1|NC|N|Join the Steelstrikes in the Cookhouse.|
 C Cooking With Style|QID|82222|M|43.92,49.64|Z|2215;Hallowfall|QO|2|H|N|Chop the Vegetables.|
 C Cooking With Style|QID|82222|M|43.86,49.69|Z|2215;Hallowfall|QO|3|H|N|Throw Cheese into the Pot.|
@@ -415,7 +415,7 @@ C Cooking With Style|QID|82222|M|43.94,49.67|Z|2215;Hallowfall|QO|5|CHAT|N|Talk 
 C Cooking With Style|QID|82222|M|43.94,49.72|Z|2215;Hallowfall|QO|6|H|N|Throw things into the cooking pot. Douse it with water if it catches fire.|
 C Cooking With Style|QID|82222|M|43.96,49.70|Z|2215;Hallowfall|QO|7|CHAT|N|Sample the Stew.|
 T Cooking With Style|QID|82222|M|43.94,49.67|Z|2215;Hallowfall|N|To General Steelstrike.|
-A A Home Cooked Meal|QID|82223|M|43.94,49.67|Z|2215;Hallowfall|N|From General Steelstrike.|RANK|2|LVL|75|
+A A Home Cooked Meal|QID|82223|M|43.94,49.67|Z|2215;Hallowfall|N|From General Steelstrike.|PRE|82222|RANK|2|LVL|75|
 C A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|QO|1|H|N|Have a seat at the Steelstrike dinner table.|
 C A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|QO|2|CHAT|N|Eat your stew.|
 C A Home Cooked Meal|QID|82223|M|44.60,50.75|Z|2215;Hallowfall|QO|3|CHAT|N|Talk to Fynn Steelstrike (Optional).|
