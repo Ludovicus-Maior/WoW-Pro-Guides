@@ -549,7 +549,7 @@ C The Market Reeve of the Forgegrounds|QID|79545|M|50.60,63.42|Z|2339;Dornogal|Q
 C The Market Reeve of the Forgegrounds|QID|79545|M|49.69,73.02|Z|2339;Dornogal|QO|10|NC|N|Nernabel's signature acquired.|
 T The Market Reeve of the Forgegrounds|QID|79545|M|45.24,48.73|Z|2339;Dornogal|N|To Vokgret.|
 A Opals and Runes|QID|79176|PRE|79545|M|45.24,48.73|Z|2339;Dornogal|N|From Vokgret.|RANK|2|
-B Opals and Runes|ACTIVE|79176|M|55.47,50.29|Z|2339;Dornogal|N|Trade for the Speakeasy Passrune.|
+B Opals and Runes|ACTIVE|79176|QO|1|M|55.47,50.29|Z|2339;Dornogal|N|Trade for the Speakeasy Passrune.|
 T Opals and Runes|QID|79176|M|60.41,33.38|Z|2339;Dornogal|N|To Merrix.|
 A The Machine Speakeasy|QID|79546|PRE|79176|M|60.52,33.33|Z|2339;Dornogal|N|From Merrix.|RANK|2|
 R The Corridors|ACTIVE|79546|M|62.16,49.17|Z|Dornogal|N|Make your way to the The Corridors.|
