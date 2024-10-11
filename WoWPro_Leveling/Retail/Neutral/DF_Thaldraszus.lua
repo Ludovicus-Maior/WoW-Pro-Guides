@@ -32,7 +32,7 @@ A Continued Waygate Exploration|QID|70702|M|PLAYER|N|From Doc Nanners.|DFREN|dra
 ;F Thaldraszus Apex|N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|ACH|16107|
 
 ;A Private Shikzar|QID|70986|M|37.57,83.27|Z|2025;Thaldraszus|RARE|N|Bonus Objective - Autoaccepted.|IZ|13813|
-K Private Shikzar|QID|70986|M|37.57,83.27|Z|2025;Thaldraszus|RARE|N|Bonus Objective - Kill it or not, your choice.|IZ|13813|
+K Private Shikzar|ACTIVE|70986|M|37.57,83.27|Z|2025;Thaldraszus|RARE|N|Bonus Objective - Kill it or not, your choice.|IZ|13813|
 $ South Hold Gate Glyph|QID|99999|M|35.60,85.66|Z|2025;Thaldraszus|N|This one is inside the 2nd highest tower.|ACH|16100|
 f Garden Shrine|ACTIVE|66244|M|35.61,78.86|Z|2025;Thaldraszus|N|At Valdren.|RANK|2|
 f Valdrakken|ACTIVE|66244|M|44.06,67.97|Z|2112;Valdrakken|N|At Aluri.|
@@ -51,7 +51,7 @@ T Renown Supplies|QID|70882|M|58.18,35.17|Z|2112;Valdrakken|N|To Unatos.|
 A Renown Supplies|QID|70885|M|58.18,35.01|Z|2112;Valdrakken|N|From Unatos.|RANK|2|DFREN|Valdrakken;2510;8|IZ|2112|
 T Renown Supplies|QID|70885|M|58.18,35.01|Z|2112;Valdrakken|N|To Unatos.|
 P Seat of the Aspects|ACTIVE|66244|M|61.82,32.02|Z|2112;Valdrakken|NC|N|Access teleporter to Seat of the Aspects (Optional in that you can also fly up there on your own, if you want to do it the hard way).|IZ|The Seat of the Aspects|
-T Thaldraszsus|QID|72269|M|58.11,34.88|Z|2112;Valdrakken|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|;adventure mode
+T Thaldraszus|QID|72269|M|58.11,34.88|Z|2112;Valdrakken|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|;adventure mode
 
 T To Valdrakken|QID|66244|M|58.11,34.88|Z|2112;Valdrakken|N|To Alexstrasza the Life-Binder, at the top of the Seat of the Aspects.|
 A A Message Most Dire|QID|66159|PRE|66244^72269|M|58.11,34.88|Z|2112;Valdrakken|N|From Alexstrasza the Life-Binder.|

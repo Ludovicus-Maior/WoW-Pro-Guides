@@ -9,7 +9,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Reclaiming Sunstrider Isle|QID|8325|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|BloodElf|
-= Arcane Intellect|QID|99999|M|39.23,21.45|Z|1941;Eversong Woods|N|As soon as you have 10c (or junk to sell), head back to your trainer, Julia Sunstriker, and buy this Intellect buff spell.|SPELL|Arcane Intellect;1459|R|BloodElf|C|Mage|S!US|
+;= Arcane Intellect|QID|99999|M|39.23,21.45|Z|1941;Eversong Woods|N|As soon as you have 10c (or junk to sell), head back to your trainer, Julia Sunstriker, and buy this Intellect buff spell.|SPELL|Arcane Intellect;1459|R|BloodElf|C|Mage|S!US|
 K Reclaiming Sunstrider Isle|ACTIVE|8325|QO|1|M|34.84,19.97|Z|1941;Eversong Woods|N|Kill Mana Wyrms.|R|BloodElf|
 T Reclaiming Sunstrider Isle|QID|8325|M|38.02,21.00|Z|1941;Eversong Woods|N|To Magistrix Erona.|R|BloodElf|
 A Unfortunate Measures|QID|8326|PRE|8325|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|BloodElf|
@@ -182,9 +182,7 @@ R The Dead Scar|ACTIVE|9064|M|49.11,55.87|Z|1941;Eversong Woods|N|Follow the roa
 R Stillwhisper Pond|ACTIVE|9064|M|53.86,54.10|Z|1941;Eversong Woods|N|Continue east to the other side and Stillwhisper Pond is just to the south of the road.|
 T Taking the Fall|QID|9064|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|
 A Swift Discipline|QID|9066|PRE|9064|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|
-A Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|
-C Fetch!|QID|9402|M|54.87,56.38|Z|1941;Eversong Woods|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
-T Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+
 A The Dead Scar|QID|8475|M|50.34,50.76|Z|1941;Eversong Woods|N|From Ranger Jaela.|
 C The Dead Scar|QID|8475|QO|1|M|50.28,57.12|Z|1941;Eversong Woods|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|S|
 C Swift Discipline - Apprentice Ralen|QID|9066|QO|2|M|45.19,56.43|Z|1941;Eversong Woods|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|T|Apprentice Ralen|U|22473|NC|
@@ -266,6 +264,9 @@ A Amani Encroachment|QID|8476|M|60.32,62.76|Z|1941;Eversong Woods|N|From Lieuten
 B Springpaw Appetizers|QID|9067|QO|2|M|60.40,62.46|Z|1941;Eversong Woods|L|22776|ITEM|22776|N|from Zalene Firstlight at Farstrider Retreat.|
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|Z|1941;Eversong Woods|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|LEAD|8889|M|60.31,61.38|Z|1941;Eversong Woods|N|From Magister Duskwither (up the right ramp).|
+A Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|LVL|10|
+C Fetch!|QID|9402|M|54.87,56.38|Z|1941;Eversong Woods|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
+T Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 A The Purest Water|QID|9403|PRE|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|
 R Thuron's Livery|QID|8888|M|62.00,53.00|Z|1941;Eversong Woods|N|If you want the explorer achievement, head to Thuron's Livery.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't.|ACH|859;1|RANK|3|
 T The Magister's Apprentice|QID|8888|M|67.8,56.5|Z|1941;Eversong Woods|N|To Apprentice Loralthalis.\n[color=FF0000]NOTE: [/color]She's on the road heading east away from the city to Duskwither Grounds.|

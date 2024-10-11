@@ -26,9 +26,9 @@ N Guardian Stones|AVAILABLE|24719|L|12809|ITEM|12809|N|Stone Guardians to collec
 A The Fare of Lar'korwi|QID|24731|M|71.24,76.57|Z|1449; Un'Goro Crater|N|From Torwa Pathfinder.|RANK|2|
 A Claws of White|QID|24719|M|71.01,76.62|Z|1449; Un'Goro Crater|N|From Garl Stormclaw.\n[color=FF0000]NOTE: [/color]He paths in a triangle from the fire to the tree, to the water, and back to the fire.|
 l Colored Power Crystals|AVAILABLE|24720|N|Loot the big crystal nodes you come across. You need 7 of each colored Crystal for a quest later on.|S!US|
-C Claws of White|QID|24719|M|65.11,70.74|Z|1449; Un'Goro Crater|L|11477 7|ITEM|11477|N|any type of Ravasaurs in the area.|S|
+C Claws of White|QID|24719|M|65.11,70.74|Z|1449; Un'Goro Crater|L|11477 5|ITEM|11477|N|any type of Ravasaurs in the area.|S|
 C The Fare of Lar'korwi|QID|24731|M|65.09,74.78|Z|1449; Un'Goro Crater|N|Right-click the threshadon corpse.|RANK|2|NC|
-C Claws of White|QID|24719|M|65.11,70.74|Z|1449; Un'Goro Crater|L|11477 7|ITEM|11477|N|any type of Ravasaurs in the area.|US|
+C Claws of White|QID|24719|M|65.11,70.74|Z|1449; Un'Goro Crater|L|11477 5|ITEM|11477|N|any type of Ravasaurs in the area.|US|
 T The Fare of Lar'korwi|QID|24731|M|71.24,76.57|Z|1449; Un'Goro Crater|N|To Torwa Pathfinder.|RANK|2|
 A The Scent of Lar'korwi|QID|24732|PRE|24731|M|71.24,76.57|Z|1449; Un'Goro Crater|N|From Torwa Pathfinder.|RANK|2|
 T Claws of White|QID|24719|M|71.01,76.62|Z|1449; Un'Goro Crater|N|To Garl Stormclaw.|
