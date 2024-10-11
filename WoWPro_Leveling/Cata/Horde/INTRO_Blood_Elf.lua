@@ -206,8 +206,7 @@ r Repair/Sell Junk|ACTIVE|9395|M|43.70,71.56|Z|1941;Eversong Woods|N|At Sathiel.
 C Pelt Collection|QID|8491|M|46.00,67.00|Z|1941;Eversong Woods|L|20772 6|ITEM|20772|N|Springpaws.|S|IZ|-3461; Sunsail Anchorage|
 T Saltheril's Haven|QID|9395|M|38.15,73.56|Z|1941;Eversong Woods|N|To Lord Saltheril.| ; 80
 A The Party Never Ends|QID|9067|M|38.15,73.56|Z|1941;Eversong Woods|N|From Lord Saltheril.|
-R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Follow the road west until you reach her camp; just before Sunsail Anchorage.|
-T Captain Kelisendra's Lost Rutters|QID|8887|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
+
 A Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|From Captain Kelisendra.|
 A Lost Armaments|QID|8480|M|36.36,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
 C Grimscale Pirates!|QID|8886|M|24.9,66.8|Z|1941;Eversong Woods|L|21771 6|ITEM|21771|N|Grimscale Murlocs or pick them up from the ground.|S|
@@ -238,6 +237,7 @@ A Return to Sathiel|QID|9135|PRE|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|From
 F Fairbreeze Village|ACTIVE|9067|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming, or just hearth.|
 T Return to Sathiel|QID|9135|M|43.70,71.56|Z|1941;Eversong Woods|N|To Sathiel.|R|BloodElf|
 R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Return to her camp.|
+T Captain Kelisendra's Lost Rutters|QID|8887|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
 T Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.| ; 700
 T Lost Armaments|QID|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.| ; 630
 A Wretched Ringleader|QID|9076|PRE|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
@@ -258,6 +258,7 @@ A Unexpected Results|QID|8488|PRE|8487|M|54.28,70.98|Z|1941;Eversong Woods|N|Fro
 C Unexpected Results|QID|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|Protect Mivenda from the Scourge Attack.\n[color=FF0000]NOTE: [/color]3 level 7/8 mobs will spawn by the building and rush to attack her. Kill them one by one, as fast as possible.|
 T Unexpected Results|QID|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|To Apprentice Mirveda.|
 A Research Notes|QID|9255|PRE|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|From Apprentice Mirveda.|
+C Defending Fairbreeze Village|QID|9252|QO|1;2|M|51.12,77.09|N|Kill Rotlimb Marauders and Darkwraiths in The Dead Scar.\n[color=FF0000]NOTE: [/color]Watch out for adds as much as possible.|US|
 R Farstrider Retreat|ACTIVE|9359|M|60.48,64.15|Z|1941;Eversong Woods|N|Walk up the hill to the east of you and it's on the other side of The Living Wood.|
 T Farstrider Retreat|QID|9359|M|60.32,62.76|Z|1941;Eversong Woods|N|To Lieutenant Dawnrunner.|
 A Amani Encroachment|QID|8476|M|60.32,62.76|Z|1941;Eversong Woods|N|From Lieutenant Dawnrunner.|
