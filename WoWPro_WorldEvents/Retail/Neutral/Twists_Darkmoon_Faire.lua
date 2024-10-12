@@ -304,7 +304,7 @@ C The Real Race|QID|37910|M|0.0,0.0|
 T The Real Race|QID|37910|M|49.05,88.08|N|From Malle Earnhard.|
 
 A The Real Big Race|QID|37911|M|53.15,87.80|N|From Patti Earnhard.|
-C The Real Big Race|QID|37911|M|M|0.0,0.0|
+C The Real Big Race|QID|37911|M|0.0,0.0|
 T The Real Big Race|QID|37911|M|53.15,87.80|N|To Patti Earnhard.|
 
 N Sayge's Dark Fortunes|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Offers a 2 hour buff.\n\nAgility by 10%: Pick 3-3\nArmor  by 10%: Pick 1-3\nDamage 1 to 10%: Pick 1-1\nIntelligence by 10%: Pick 2-2\nMagical resistances by 25: Pick 1-2\nSpirit by 10%: Pick 2-1\nStamina  by 10%: Pick 3-1\nStrength by 10%: Pick 3-2|RANK|3|
