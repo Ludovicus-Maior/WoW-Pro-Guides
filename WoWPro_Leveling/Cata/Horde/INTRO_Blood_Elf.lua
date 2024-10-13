@@ -4,7 +4,7 @@ WoWPro:GuideSort(guide, 2)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Blood Elf: Intro")
 WoWPro:GuideName(guide,"Blood Elf: Intro")
-WoWPro:GuideNextGuide(guide, 'SnoGho122')
+WoWPro:GuideNextGuide(guide, 'Ghostlands')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -268,7 +268,7 @@ A The Magister's Apprentice|QID|8888|LEAD|8889|M|60.31,61.38|Z|1941;Eversong Woo
 A Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|LVL|10|
 C Fetch!|QID|9402|M|54.87,56.38|Z|1941;Eversong Woods|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
 T Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
-A The Purest Water|QID|9403|PRE|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|
+A The Purest Water|QID|9403|PRE|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|LVL|10|
 R Thuron's Livery|QID|8888|M|62.00,53.00|Z|1941;Eversong Woods|N|If you want the explorer achievement, head to Thuron's Livery.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't.|ACH|859;1|RANK|3|
 T The Magister's Apprentice|QID|8888|M|67.8,56.5|Z|1941;Eversong Woods|N|To Apprentice Loralthalis.\n[color=FF0000]NOTE: [/color]She's on the road heading east away from the city to Duskwither Grounds.|
 A Deactivating the Spire|QID|8889|M|67.8,56.5|Z|1941;Eversong Woods|N|From Apprentice Loralthalis.|
@@ -301,6 +301,9 @@ A Warning Fairbreeze Village|QID|9363|PRE|9360|M|60.32,62.76|Z|1941;Eversong Woo
 T The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|Z|1941;Eversong Woods|N|To Arathel Sunforge.|
 C The Purest Water|QID|9403|M|64.21,72.66|Z|1941;Eversong Woods|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
 T The Purest Water|QID|9403|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+A Recently Living|QID|9404|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|LVL|10|
+l Living Brnach|ACTIVE|9404|L|23553|QO|1|M|61.11,68.88|Z|1941;Eversong Woods|N|Kill trees till you loot the branch.|R|BloodElf|C|Mage|LVL|10|
+T Recently Living|QID|9404|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|QID|9255|Z|1941;Eversong Woods|N|Hearth to Fairbreeze Village.|
 T Research Notes|QID|9255|M|44.03,70.76|Z|1941;Eversong Woods|N|To Magistrix Landra Dawnstrider.|
 T Warning Fairbreeze Village|QID|9363|M|43.34,70.82|Z|1941;Eversong Woods|N|To Ranger Degolien.|
@@ -312,11 +315,11 @@ A A Somber Task|QID|8473|M|34,80|Z|1941;Eversong Woods|N|From Larianna Riverwind
 C A Somber Task|QID|8473|M|35.7,85.2|Z|1941;Eversong Woods|N|Kill 10 Withered Green Keepers.|S|
 K Old Whitebark|QID|8474|M|35.7,85.2|Z|1941;Eversong Woods|L|23228|ITEM|23228|N|Old Whitebark.|T|Old Whitebark|
 A Old Whitebark's Pendant|QID|8474|M|PLAYER|CC|N|From Old Whitebark's Pendant that you just picked up.|U|23228|O|
+C A Somber Task|QID|8473|M|35.7,85.2|Z|1941;Eversong Woods|N|Kill 10 Withered Green Keepers.|US|
 T Old Whitebark's Pendant|QID|8474|M|34,80|Z|1941;Eversong Woods|N|To Larianna Riverwind.|
+T A Somber Task|QID|8473|M|34,80|Z|1941;Eversong Woods|N|To Larianna Riverwind.|
 A Whitebark's Memory|QID|10166|PRE|8474|M|34,80|Z|1941;Eversong Woods|N|From Larianna Riverwind.|
 T Whitebark's Memory|QID|10166|M|37.58,86.14|Z|1941;Eversong Woods|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
-C A Somber Task|QID|8473|M|35.7,85.2|Z|1941;Eversong Woods|N|Kill 10 Withered Green Keepers.|US|
-T A Somber Task|QID|8473|M|34,80|Z|1941;Eversong Woods|N|To Larianna Riverwind.|
 N End of Eversong Woods Guide|QID|9144|M|43,86;55,84|CC|Z|1941;Eversong Woods|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods Acheivement if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
 ]]
 end)
