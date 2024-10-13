@@ -243,7 +243,7 @@ T Mycomayhem|QID|78571|M|53.56,69.94|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
 A Wold Memories|QID|78572|PRE|78571|M|53.56,69.94|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
 C Wold Memories|QID|78572|QO|1|M|54.11,65.44|Z|2248;Isle of Dorn|N|Go inside Freydrin's Hovel.|
 C Wold Memories|QID|78572|QO|2|M|54.27,65.51|Z|2248;Isle of Dorn|N|Check Urn on bookcase.|H|
-C Wold Memories|QID|78572|QO|3|M|54.17,65.27|Z|2248;Isle of Dorn|N|Check journal on Hearth.|H|
+C Wold Memories|QID|78572|QO|3|M|54.17,65.27|Z|2248;Isle of Dorn|N|Check gem on Hearth.|H|
 C Wold Memories|QID|78572|QO|4|M|54.52,65.19|Z|2248;Isle of Dorn|N|Read Pledge on lower level of house.|H|
 C Wold Memories|QID|78572|QO|5|M|54.37,65.05|Z|2248;Isle of Dorn|N|Pick up the Shillelagh from lower hearth.|H|
 T Wold Memories|QID|78572|M|54.25,65.31|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
