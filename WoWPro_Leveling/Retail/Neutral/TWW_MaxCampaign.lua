@@ -12,11 +12,6 @@ C Surface Bound|QID|79197|M|57.48,41.61|Z|2255;Azj-Kahet|QO|2|NC|N|Portal to Dor
 C Surface Bound|QID|79197|M|36.19,79.77|Z|2339;Dornogal|QO|1|NC|N|Meet with Moira Thaurissan in Dornogal.|
 T Surface Bound|QID|79197|M|36.11,80.11|Z|2339;Dornogal|N|To Moira Thaurissan.|
 
-;Renown quest was not offered for some reason?? Completed storyline for Achievement without it, so commenting it out.
-
-;A Renown of Khaz Algar|QID|84446|PRE|79197|M|36.05,80.43|Z|2339;Dornogal|N|From Moira Thaurissan.|
-;T Renown of Khaz Algar|QID|84446|M|45.99,49.49|Z|2339;Dornogal|N|Talk to Faerin Lothar.|
-
 A The Fleet Arrives|QID|79333|PRE|79197|M|36.05,80.43|Z|2339;Dornogal|N|From Moira Thaurissan.|
 C The Fleet Arrives|QID|79333|M|35.08,80.45|Z|2339;Dornogal|QO|1|H|N|Telescope used.|
 C The Fleet Arrives|QID|79333|M|36.10,80.34|Z|2339;Dornogal|QO|2|CHAT|N|Report back to Moira.|
@@ -95,26 +90,20 @@ A Dhar Oztan|QID|81914|PRE|79107|M|37.55,81.98|Z|2339;Dornogal|N|From Rooktender
 T Dhar Oztan|QID|81914|M|28.57,60.96|Z|2248;Isle of Dorn|N|To Olbarig.|
 
 A Conduit of the Southern Storm|QID|79124|PRE|81914|M|28.57,60.96|Z|2248;Isle of Dorn|N|From Olbarig.|
-C Speak to Earthen|QID|79124|M|28.86,60.38|Z|2248;Isle of Dorn|QO|1<1|N|Speak to Earthen.|CHAT|
-C Earthen Axe|QID|79124|M|28.49,60.87|Z|2248;Isle of Dorn|QO|1<2|N|Earthen Axe on table.|H|
-C Speak to Gurnot|QID|79124|M|28.69,61.42|Z|2248;Isle of Dorn|QO|1<3|N|Speak to Gurnot.|CHAT|
-C Speak to Kothilde|QID|79124|M|28.02,61.06|Z|2248;Isle of Dorn|QO|1<4|N|Speak to Kothilde.|CHAT|
-C Kobold Skeleton|QID|79124|M|27.76,59.74|Z|2248;Isle of Dorn|QO|1<1|N|Kobold Skeleton on floor, bottom level.|H|
-C Storage Door|QID|79124|M|27.65,59.86|Z|2248;Isle of Dorn|QO|1<1|N|Stormrider Storage (door) on bottom floor.|H|
-C Waxed Wooden Planks|QID|79124|M|27.67,59.60|Z|2248;Isle of Dorn|QO|1<1|N|Waxed wooden planks, on stairs.|H|
-C Conduit of the Southern Storm|QID|79124|M|27.67,59.60|Z|2248;Isle of Dorn|QO|1|NC|N|Clues found (100%) (Optional).|
+C Conduit of the Southern Storm|QID|79124|M|27.67,59.60|Z|2248;Isle of Dorn|QO|1|NC|N|Clues found (Optional).|
 C Conduit of the Southern Storm|QID|79124|M|27.80,59.72|Z|2248;Isle of Dorn|QO|2|NC|N|Conduit of the Southern Storm.|
 T Conduit of the Southern Storm|QID|79124|M|27.66,60.48|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 
 A Charging Up That Hill|QID|79475|PRE|79124|M|27.66,60.48|Z|2248;Isle of Dorn|N|From Olbarig.|
 A Heeding the Call|QID|79476|PRE|79124|M|27.66,60.48|Z|2248;Isle of Dorn|N|From Olbarig.|
-C Charging Up That Hill|QID|79475|M|27.52,56.57|Z|2248;Isle of Dorn|QO|1|NC|N|Kill mobs until the Conduit is charged (100%).|S!US|
+C Charging Up That Hill|QID|79475|M|27.52,56.57|Z|2248;Isle of Dorn|QO|1|NC|N|Kill mobs until the Conduit is charged.|S|
 C Heeding the Call|QID|79476|M|26.82,57.16|Z|2248;Isle of Dorn|QO|1|NC|N|Stranded Earthen helped.|
+C Charging Up That Hill|QID|79475|M|27.52,56.57|Z|2248;Isle of Dorn|QO|1|NC|N|Kill mobs until the Conduit is charged.|US|
 T Charging Up That Hill|QID|79475|M|25.61,57.27|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 T Heeding the Call|QID|79476|M|25.61,57.27|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 
 A Rook Rally|QID|79129|PRE|79475&79476|M|25.61,57.27|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|
-C Rook Rally|QID|79129|M|24.94,58.29|Z|2248;Isle of Dorn|QO|1|NC|N|Ritual safeguarded (100%).|
+C Rook Rally|QID|79129|M|24.94,58.29|Z|2248;Isle of Dorn|QO|1|NC|N|Ritual safeguarded.|
 C Rook Rally|QID|79129|M|27.40,60.49|Z|2248;Isle of Dorn|QO|2|NC|N|Lufsela encouraged.|
 T Rook Rally|QID|79129|M|27.81,60.76|Z|2248;Isle of Dorn|N|To Thrall.|
 
@@ -132,9 +121,9 @@ A Home to Roost|QID|81915|PRE|79145&79140|M|33.28,63.39|Z|2248;Isle of Dorn|N|Fr
 T Home to Roost|QID|81915|M|29.01,61.71|Z|2248;Isle of Dorn|N|To Rooktender Lufsela.|
 
 A Strays|QID|79477|PRE|81915|M|29.01,61.71|Z|2248;Isle of Dorn|N|From Rooktender Lufsela.|
-C Kothilde|QID|79477|M|31.48,56.35|Z|2248;Isle of Dorn|QO|1|NC|N|Stray recruit found.|CHAT|
-C Adalar|QID|79477|M|23.47,51.09|Z|2248;Isle of Dorn|QO|1|NC|N|Stray recruit found.|CHAT|
-C Gurnot|QID|79477|M|23.61,67.16|Z|2248;Isle of Dorn|QO|1|NC|N|Stray recruit found.|CHAT|
+C Kothilde|QID|79477|M|31.48,56.35|Z|2248;Isle of Dorn|QO|1<1|NC|N|Stray recruit found.|CHAT|
+C Adalar|QID|79477|M|23.47,51.09|Z|2248;Isle of Dorn|QO|1<2|NC|N|Stray recruit found.|CHAT|
+C Gurnot|QID|79477|M|23.61,67.16|Z|2248;Isle of Dorn|QO|1<3|NC|N|Stray recruit found.|CHAT|
 T Strays|QID|79477|M|29.04,61.67|Z|2248;Isle of Dorn|N|To Kurdran Wildhammer.|
 
 N Flight Training & Stormrook battle|QID|79147|N|During these quests you will have a choice whether to Skyride and control Shraubendre or to ride along. If you ride along it will work like any other riding quest, where you point and shoot (eventually). If you Skyride, your Skyriding skills gain an extra ability. Skyward Ascent will cast lighting. Surge Forward will give you a shield. Whirling Surge will deflect enemies. Second Wind will cast a heal. The glowing green areas will grant you vigor. |
@@ -270,13 +259,14 @@ T To the Waterworks|QID|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|To Dagran
 
 A Elemental Trepidation|QID|79027|PRE|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
 A Putting the Works in Waterworks|QID|79026|PRE|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|From Dagran Thaurissan II.|
-C Elemental Trepidation|QID|79027|M|47.40,46.59|Z|2214;The Ringing Deeps|QO|1|N|Defeat Elementals (100%).|S!US|
+C Elemental Trepidation|QID|79027|M|47.40,46.59|Z|2214;The Ringing Deeps|QO|1|N|Defeat Elementals.|S|
 C Waterwheel Activated|QID|79026|M|45.47,46.30|Z|2214;The Ringing Deeps|QO|1<1|H|N|Clear the wax off the console and click to activate.|
 C Waterwheel Activated|QID|79026|M|48.38,46.09|Z|2214;The Ringing Deeps|QO|1<2|H|N|Clear the wax off the console and click to activate.|
 C Putting the Works in Waterworks|QID|79026|QO|2|M|46.36,48.45|Z|2214;The Ringing Deeps|NC|N|Delve Entered.|
 C Putting the Works in Waterworks|QID|79026|QO|3|M|46.72,83.72|Z|2251;The Waterworks|H|N|Main Drain Restored.|
 C Putting the Works in Waterworks|QID|79026|QO|4|M|47.47,79.70|Z|2251;The Waterworks|N|Delve Completed.|
 C Putting the Works in Waterworks|QID|79026|QO|5|M|47.28,42.29|Z|2214;The Ringing Deeps|H|N|Waterworks Restored.|
+C Elemental Trepidation|QID|79027|M|47.40,46.59|Z|2214;The Ringing Deeps|QO|1|N|Defeat Elementals.|US|
 T Putting the Works in Waterworks|QID|79026|M|47.29,42.35|Z|2214;The Ringing Deeps|N|To Dagran Thaurissan II.|
 T Elemental Trepidation|QID|79027|M|47.29,42.35|Z|2214;The Ringing Deeps|N|To Dagran Thaurissan II.|
 
@@ -305,14 +295,14 @@ A Back to Where it Began|QID|80517|M|PLAYER|PRE|80145|Z|2214;The Ringing Deeps|N
 T Back to Where it Began|QID|80517|M|56.27,74.88|Z|2214;The Ringing Deeps|N|To High Speaker Brinthe.|
 
 A It's Sabotage|QID|79029|PRE|80517|M|56.27,74.88|Z|2214;The Ringing Deeps|N|From High Speaker Brinthe.|
-C It's Sabotage|QID|79029|M|58.64,79.43|Z|2214;The Ringing Deeps|QO|1|NC|N|Mayhem Caused (100%).|
+C It's Sabotage|QID|79029|M|58.64,79.43|Z|2214;The Ringing Deeps|QO|1|NC|N|Mayhem Caused.|
 R Deepforge Manufacturing Bay|ACTIVE|79029|M|57.08,77.63|Z|2214;The Ringing Deeps|N|Make your way to the Deepforge Manufacturing Bay.|
 C Speak with Brinthe|QID|79029|M|56.09,77.61|Z|2214;The Ringing Deeps|QO|2|CHAT|N|Speak to Brinthe.|
 C Activate and Secure|QID|79029|M|56.22,77.50|Z|2214;The Ringing Deeps|QO|3|NC|N|Facility Activated and Secured. (Fight goblin Mech until cutscene.)|
 T It's Sabotage|QID|79029|M|56.10,77.63|Z|2214;The Ringing Deeps|N|To High Speaker Brinthe.|
 
 A The Voice of the Speakers|QID|79030|PRE|79029|M|56.10,77.63|Z|2214;The Ringing Deeps|N|From High Speaker Brinthe.|
-R The Coreway|ACTIVE|79030|M|56.10,77.63|Z|2214;The Ringing Deeps|N|Make your way to The Coreway.|
+R The Coreway|ACTIVE|79030|M|41.81,28.40|Z|2214;The Ringing Deeps|N|Make your way to The Coreway.|
 T The Voice of the Speakers|QID|79030|M|31.56,59.59|Z|2339;Dornogal|N|To Alleria Windrunner.|
 
 A A Tide Needing Turned|QID|78941|PRE|79030|M|31.67,59.74|Z|2339;Dornogal|N|From Alleria Windrunner.|
@@ -322,7 +312,7 @@ T A Tide Needing Turned|QID|78941|M|71.63,59.16|Z|2215;Hallowfall|N|To General S
 A The Might of Khaz Algar|QID|78942|PRE|78941|M|71.63,59.16|Z|2215;Hallowfall|N|From General Steelstrike.|
 A Steel and Flames|QID|78943|PRE|78941|M|71.63,59.16|Z|2215;Hallowfall|N|From General Steelstrike.|
 C The Might of Khaz Algar|QID|78942|M|71.63,61.77|Z|2215;Hallowfall|N|Fight back against the Nerubians.|S|
-C Steel and Flames|QID|78943|M|71.63,61.77|Z|2215;Hallowfall|N|From General Steelstrike.|NC|U|217309|
+C Steel and Flames|QID|78943|M|71.63,61.77|Z|2215;Hallowfall|N|Use the horn to rally the troops.|NC|U|217309|
 C The Might of Khaz Algar|QID|78942|M|71.63,61.77|Z|2215;Hallowfall|N|Clean up any Nerubians you have left.|US|
 T Steel and Flames|QID|78943|M|68.58,64.27|Z|2215;Hallowfall|N|To Thrall.|
 A Cutting Off the Legs|QID|78950|M|68.58,64.27|Z|2215;Hallowfall|N|From Lady Jaina Proudmoore.|

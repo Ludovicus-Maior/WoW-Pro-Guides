@@ -4,12 +4,12 @@ WoWPro:GuideSort(guide, 2)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Blood Elf: Intro")
 WoWPro:GuideName(guide,"Blood Elf: Intro")
-WoWPro:GuideNextGuide(guide, 'SnoGho122')
+WoWPro:GuideNextGuide(guide, 'Ghostlands')
 WoWPro:GuideSteps(guide, function()
 return [[
 
 A Reclaiming Sunstrider Isle|QID|8325|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|BloodElf|
-= Arcane Intellect|QID|99999|M|39.23,21.45|Z|1941;Eversong Woods|N|As soon as you have 10c (or junk to sell), head back to your trainer, Julia Sunstriker, and buy this Intellect buff spell.|SPELL|Arcane Intellect;1459|R|BloodElf|C|Mage|S!US|
+;= Arcane Intellect|QID|99999|M|39.23,21.45|Z|1941;Eversong Woods|N|As soon as you have 10c (or junk to sell), head back to your trainer, Julia Sunstriker, and buy this Intellect buff spell.|SPELL|Arcane Intellect;1459|R|BloodElf|C|Mage|S!US|
 K Reclaiming Sunstrider Isle|ACTIVE|8325|QO|1|M|34.84,19.97|Z|1941;Eversong Woods|N|Kill Mana Wyrms.|R|BloodElf|
 T Reclaiming Sunstrider Isle|QID|8325|M|38.02,21.00|Z|1941;Eversong Woods|N|To Magistrix Erona.|R|BloodElf|
 A Unfortunate Measures|QID|8326|PRE|8325|M|38.02,21.00|Z|1941;Eversong Woods|N|From Magistrix Erona.|R|BloodElf|
@@ -182,9 +182,7 @@ R The Dead Scar|ACTIVE|9064|M|49.11,55.87|Z|1941;Eversong Woods|N|Follow the roa
 R Stillwhisper Pond|ACTIVE|9064|M|53.86,54.10|Z|1941;Eversong Woods|N|Continue east to the other side and Stillwhisper Pond is just to the south of the road.|
 T Taking the Fall|QID|9064|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|
 A Swift Discipline|QID|9066|PRE|9064|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|
-A Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|
-C Fetch!|QID|9402|M|54.87,56.38|Z|1941;Eversong Woods|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
-T Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+
 A The Dead Scar|QID|8475|M|50.34,50.76|Z|1941;Eversong Woods|N|From Ranger Jaela.|
 C The Dead Scar|QID|8475|QO|1|M|50.28,57.12|Z|1941;Eversong Woods|N|Kill the Plaguebone Pillagers (the skeletons).\n[color=FF0000]NOTE: [/color]Be careful of the pack of Rotlimb Cannibals.|S|
 C Swift Discipline - Apprentice Ralen|QID|9066|QO|2|M|45.19,56.43|Z|1941;Eversong Woods|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|T|Apprentice Ralen|U|22473|NC|
@@ -208,8 +206,7 @@ r Repair/Sell Junk|ACTIVE|9395|M|43.70,71.56|Z|1941;Eversong Woods|N|At Sathiel.
 C Pelt Collection|QID|8491|M|46.00,67.00|Z|1941;Eversong Woods|L|20772 6|ITEM|20772|N|Springpaws.|S|IZ|-3461; Sunsail Anchorage|
 T Saltheril's Haven|QID|9395|M|38.15,73.56|Z|1941;Eversong Woods|N|To Lord Saltheril.| ; 80
 A The Party Never Ends|QID|9067|M|38.15,73.56|Z|1941;Eversong Woods|N|From Lord Saltheril.|
-R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Follow the road west until you reach her camp; just before Sunsail Anchorage.|
-T Captain Kelisendra's Lost Rutters|QID|8887|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
+
 A Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|From Captain Kelisendra.|
 A Lost Armaments|QID|8480|M|36.36,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
 C Grimscale Pirates!|QID|8886|M|24.9,66.8|Z|1941;Eversong Woods|L|21771 6|ITEM|21771|N|Grimscale Murlocs or pick them up from the ground.|S|
@@ -240,6 +237,7 @@ A Return to Sathiel|QID|9135|PRE|9134|M|54.37,50.73|Z|1941;Eversong Woods|N|From
 F Fairbreeze Village|ACTIVE|9067|M|54.37,50.73|Z|1941;Eversong Woods|N|Talk to Skymistress Gloaming, or just hearth.|
 T Return to Sathiel|QID|9135|M|43.70,71.56|Z|1941;Eversong Woods|N|To Sathiel.|R|BloodElf|
 R Captain Kelisendra's Camp|AVAILABLE|8886|M|36.66,67.11|CS|Z|1941;Eversong Woods|N|Return to her camp.|
+T Captain Kelisendra's Lost Rutters|QID|8887|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.|
 T Grimscale Pirates!|QID|8886|M|36.35,66.63|Z|1941;Eversong Woods|N|To Captain Kelisendra.| ; 700
 T Lost Armaments|QID|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|To Velendris Whitemorn.| ; 630
 A Wretched Ringleader|QID|9076|PRE|8480|M|36.35,66.77|Z|1941;Eversong Woods|N|From Velendris Whitemorn.|
@@ -260,13 +258,17 @@ A Unexpected Results|QID|8488|PRE|8487|M|54.28,70.98|Z|1941;Eversong Woods|N|Fro
 C Unexpected Results|QID|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|Protect Mivenda from the Scourge Attack.\n[color=FF0000]NOTE: [/color]3 level 7/8 mobs will spawn by the building and rush to attack her. Kill them one by one, as fast as possible.|
 T Unexpected Results|QID|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|To Apprentice Mirveda.|
 A Research Notes|QID|9255|PRE|8488|M|54.28,70.98|Z|1941;Eversong Woods|N|From Apprentice Mirveda.|
+C Defending Fairbreeze Village|QID|9252|QO|1;2|M|51.12,77.09|N|Kill Rotlimb Marauders and Darkwraiths in The Dead Scar.\n[color=FF0000]NOTE: [/color]Watch out for adds as much as possible.|US|
 R Farstrider Retreat|ACTIVE|9359|M|60.48,64.15|Z|1941;Eversong Woods|N|Walk up the hill to the east of you and it's on the other side of The Living Wood.|
 T Farstrider Retreat|QID|9359|M|60.32,62.76|Z|1941;Eversong Woods|N|To Lieutenant Dawnrunner.|
 A Amani Encroachment|QID|8476|M|60.32,62.76|Z|1941;Eversong Woods|N|From Lieutenant Dawnrunner.|
 B Springpaw Appetizers|QID|9067|QO|2|M|60.40,62.46|Z|1941;Eversong Woods|L|22776|ITEM|22776|N|from Zalene Firstlight at Farstrider Retreat.|
 A The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|Z|1941;Eversong Woods|N|From Arathel Sunforge.|
 A The Magister's Apprentice|QID|8888|LEAD|8889|M|60.31,61.38|Z|1941;Eversong Woods|N|From Magister Duskwither (up the right ramp).|
-A The Purest Water|QID|9403|PRE|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|
+A Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|LVL|10|
+C Fetch!|QID|9402|M|54.87,56.38|Z|1941;Eversong Woods|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|
+T Fetch!|QID|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+A The Purest Water|QID|9403|PRE|9402|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|LVL|10|
 R Thuron's Livery|QID|8888|M|62.00,53.00|Z|1941;Eversong Woods|N|If you want the explorer achievement, head to Thuron's Livery.\n[color=FF0000]NOTE: [/color]Manually check this step off if you don't.|ACH|859;1|RANK|3|
 T The Magister's Apprentice|QID|8888|M|67.8,56.5|Z|1941;Eversong Woods|N|To Apprentice Loralthalis.\n[color=FF0000]NOTE: [/color]She's on the road heading east away from the city to Duskwither Grounds.|
 A Deactivating the Spire|QID|8889|M|67.8,56.5|Z|1941;Eversong Woods|N|From Apprentice Loralthalis.|
@@ -299,6 +301,9 @@ A Warning Fairbreeze Village|QID|9363|PRE|9360|M|60.32,62.76|Z|1941;Eversong Woo
 T The Spearcrafter's Hammer|QID|8477|M|59.52,62.60|Z|1941;Eversong Woods|N|To Arathel Sunforge.|
 C The Purest Water|QID|9403|M|64.21,72.66|Z|1941;Eversong Woods|N|Go to the base of the waterfall, in the water, and fill the Azure Phial.|U|23566|R|BloodElf|C|Mage|
 T The Purest Water|QID|9403|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
+A Recently Living|QID|9404|M|55.70,54.51|Z|1941;Eversong Woods|N|From Instructor Antheol.|R|BloodElf|C|Mage|LVL|10|
+l Living Brnach|ACTIVE|9404|L|23553|QO|1|M|61.11,68.88|Z|1941;Eversong Woods|N|Kill trees till you loot the branch.|R|BloodElf|C|Mage|LVL|10|
+T Recently Living|QID|9404|M|55.70,54.51|Z|1941;Eversong Woods|N|To Instructor Antheol.|R|BloodElf|C|Mage|
 H Fairbreeze Village|QID|9255|Z|1941;Eversong Woods|N|Hearth to Fairbreeze Village.|
 T Research Notes|QID|9255|M|44.03,70.76|Z|1941;Eversong Woods|N|To Magistrix Landra Dawnstrider.|
 T Warning Fairbreeze Village|QID|9363|M|43.34,70.82|Z|1941;Eversong Woods|N|To Ranger Degolien.|
@@ -310,11 +315,11 @@ A A Somber Task|QID|8473|M|34,80|Z|1941;Eversong Woods|N|From Larianna Riverwind
 C A Somber Task|QID|8473|M|35.7,85.2|Z|1941;Eversong Woods|N|Kill 10 Withered Green Keepers.|S|
 K Old Whitebark|QID|8474|M|35.7,85.2|Z|1941;Eversong Woods|L|23228|ITEM|23228|N|Old Whitebark.|T|Old Whitebark|
 A Old Whitebark's Pendant|QID|8474|M|PLAYER|CC|N|From Old Whitebark's Pendant that you just picked up.|U|23228|O|
+C A Somber Task|QID|8473|M|35.7,85.2|Z|1941;Eversong Woods|N|Kill 10 Withered Green Keepers.|US|
 T Old Whitebark's Pendant|QID|8474|M|34,80|Z|1941;Eversong Woods|N|To Larianna Riverwind.|
+T A Somber Task|QID|8473|M|34,80|Z|1941;Eversong Woods|N|To Larianna Riverwind.|
 A Whitebark's Memory|QID|10166|PRE|8474|M|34,80|Z|1941;Eversong Woods|N|From Larianna Riverwind.|
 T Whitebark's Memory|QID|10166|M|37.58,86.14|Z|1941;Eversong Woods|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
-C A Somber Task|QID|8473|M|35.7,85.2|Z|1941;Eversong Woods|N|Kill 10 Withered Green Keepers.|US|
-T A Somber Task|QID|8473|M|34,80|Z|1941;Eversong Woods|N|To Larianna Riverwind.|
 N End of Eversong Woods Guide|QID|9144|M|43,86;55,84|CC|Z|1941;Eversong Woods|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods Acheivement if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|
 ]]
 end)

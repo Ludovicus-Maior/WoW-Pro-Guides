@@ -25,14 +25,14 @@ T Getting Off Track|QID|78557|M|42.18,28.36|Z|2214; The Ringing Deeps|N|To Forem
 T Underground and Overwhelmed|QID|78555|M|42.14,28.35|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Pomp and Dire Circumstance|QID|78837|PRE|78557&78555|M|42.14,28.35|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 C Pomp and Dire Circumstance|QID|78837|M|42.12,28.39|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Ask Speaker Brinthe about the High Speaker.|
-T Pomp and Dire Circumstance|QID|78837|M|47.11,33.90|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
+T Pomp and Dire Circumstance|QID|78837|M|47.18,34.15|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Cogs in the Machine|QID|78838|PRE|78837|M|47.17,34.16|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 f Gundargaz|ACTIVE|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Collect the flight path from Igram Underwing.|
 C Cogs in the Machine|QID|78838|M|46.89,33.37|QO|1|Z|2214; The Ringing Deeps|N|Meet Igram Underwing.|CHAT|
-C Cogs in the Machine|QID|78838|M|46.96,32.34|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
+C Cogs in the Machine|QID|78838|M|46.94,32.40|QO|2|Z|2214; The Ringing Deeps|N|Meet Speaker Jurlax.|CHAT|
 A Delves: The Waterworks|QID|83749|M|47.14,31.88|Z|2214; The Ringing Deeps|N|From Brann Bronzebeard.|PRE|78464|RANK|3|
 t Delves: The Waterworks|QID|83749|M|46.16,48.01|Z|2214; The Ringing Deeps|N|To Brann Bronzebeard.|IZ|The Waterworks|
-C Cogs in the Machine|QID|78838|M|48.07,34.77|QO|3|Z|2214; The Ringing Deeps|N|Meet Watcher Toki.|CHAT|
+C Cogs in the Machine|QID|78838|M|48.04,34.83|QO|3|Z|2214; The Ringing Deeps|N|Meet Watcher Toki.|CHAT|
 C Cogs in the Machine|QID|78838|M|47.15,34.08|QO|4|Z|2214; The Ringing Deeps|N|Return to Brinthe's house.|NC|
 T Cogs in the Machine|QID|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Speaking to the Speakers|QID|78631|PRE|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
@@ -424,14 +424,16 @@ A Let's Not Worry Her|QID|81613|PRE|80676|M|63.34,43.38|Z|2214;The Ringing Deeps
 C Let's Not Worry Her|QID|81613|M|62.17,45.40|Z|2214;The Ringing Deeps|QO|1|NC|N|Return to Haimaz.|
 T Let's Not Worry Her|QID|81613|M|62.09,45.54|Z|2214;The Ringing Deeps|N|To Haimaz.|
 A Readying the Recitation|QID|80577|PRE|81613|M|62.09,45.54|Z|2214;The Ringing Deeps|
+C Readying the Recitation|QID|80577|M|62.57,44.40|Z|2214;The Ringing Deeps|QO|2|H|N|Pick up the Mislaid Tools.|
+C Readying the Recitation|QID|80577|M|62.82,44.28|Z|2214;The Ringing Deeps|QO|3|H|N|Clean the Plaque.|
+C Readying the Recitation|QID|80577|M|62.73,44.44|Z|2214;The Ringing Deeps|QO|1|H|N|Shove the Stuck Minecart.|
+T Readying the Recitation|QID|80577|M|62.77,44.20|Z|2214;The Ringing Deeps|N|To Haimaz.|
+A Check on the Compiler|QID|82224|LEAD|80578|M|62.77,44.20|Z|2214;The Ringing Deeps|N|From Haimaz.|
+T Check on the Compiler|QID|82224|M|61.93,45.45|Z|2214;The Ringing Deeps|N|To Brennok.|
 A The Common Costume|QID|80578|PRE|81613|M|61.93,45.45|Z|2214;The Ringing Deeps|N|From Brennok.|
 C The Common Costume|QID|80578|M|61.72,45.96|Z|2214;The Ringing Deeps|QO|1|CHAT|N|Speak to Resting Miners, in the inn.|
-C The Common Costume|QID|80578|M|61.91,45.95|Z|2214;The Ringing Deeps|QO|2|NC|N|Miner's Clothes are in a bookcase on the top floor of the tower.|
+C The Common Costume|QID|80578|M|61.91,45.95|Z|2214;The Ringing Deeps|QO|2|H|N|Miner's Clothes are in a bookcase on the top floor of the tower.|
 T The Common Costume|QID|80578|M|61.85,45.46|Z|2214;The Ringing Deeps|N|To Brennok.|
-C Readying the Recitation|QID|80577|M|62.57,44.40|Z|2214;The Ringing Deeps|QO|2|NC|N|Pick up the Mislaid Tools.|
-C Readying the Recitation|QID|80577|M|62.82,44.28|Z|2214;The Ringing Deeps|QO|3|NC|N|Clean the Plaque.|
-C Readying the Recitation|QID|80577|M|62.73,44.44|Z|2214;The Ringing Deeps|QO|1|NC|N|Shove the Stuck Minecart.|
-T Readying the Recitation|QID|80577|M|62.77,44.20|Z|2214;The Ringing Deeps|N|To Haimaz.|
 A A Sip of Cinder|QID|80593|PRE|80577&80578|M|62.05,45.46|Z|2214;The Ringing Deeps|N|From Haimaz.|
 C A Sip of Cinder|QID|80593|M|60.01,52.02|Z|2214;The Ringing Deeps|QO|1|N|Go kill the deepsflayers to get the cinder back. Also found as ground spawn along the elevated track.|
 T A Sip of Cinder|QID|80593|M|62.07,45.50|Z|2214;The Ringing Deeps|N|To Haimaz.|
