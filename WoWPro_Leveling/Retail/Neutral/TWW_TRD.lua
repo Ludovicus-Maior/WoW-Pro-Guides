@@ -424,14 +424,16 @@ A Let's Not Worry Her|QID|81613|PRE|80676|M|63.34,43.38|Z|2214;The Ringing Deeps
 C Let's Not Worry Her|QID|81613|M|62.17,45.40|Z|2214;The Ringing Deeps|QO|1|NC|N|Return to Haimaz.|
 T Let's Not Worry Her|QID|81613|M|62.09,45.54|Z|2214;The Ringing Deeps|N|To Haimaz.|
 A Readying the Recitation|QID|80577|PRE|81613|M|62.09,45.54|Z|2214;The Ringing Deeps|
+C Readying the Recitation|QID|80577|M|62.57,44.40|Z|2214;The Ringing Deeps|QO|2|H|N|Pick up the Mislaid Tools.|
+C Readying the Recitation|QID|80577|M|62.82,44.28|Z|2214;The Ringing Deeps|QO|3|H|N|Clean the Plaque.|
+C Readying the Recitation|QID|80577|M|62.73,44.44|Z|2214;The Ringing Deeps|QO|1|H|N|Shove the Stuck Minecart.|
+T Readying the Recitation|QID|80577|M|62.77,44.20|Z|2214;The Ringing Deeps|N|To Haimaz.|
+A Check on the Compiler|QID|82224|LEAD|80578|M|62.77,44.20|Z|2214;The Ringing Deeps|N|From Haimaz.|
+T Check on the Compiler|QID|82224|M|61.93,45.45|Z|2214;The Ringing Deeps|N|To Brennok.|
 A The Common Costume|QID|80578|PRE|81613|M|61.93,45.45|Z|2214;The Ringing Deeps|N|From Brennok.|
 C The Common Costume|QID|80578|M|61.72,45.96|Z|2214;The Ringing Deeps|QO|1|CHAT|N|Speak to Resting Miners, in the inn.|
-C The Common Costume|QID|80578|M|61.91,45.95|Z|2214;The Ringing Deeps|QO|2|NC|N|Miner's Clothes are in a bookcase on the top floor of the tower.|
+C The Common Costume|QID|80578|M|61.91,45.95|Z|2214;The Ringing Deeps|QO|2|H|N|Miner's Clothes are in a bookcase on the top floor of the tower.|
 T The Common Costume|QID|80578|M|61.85,45.46|Z|2214;The Ringing Deeps|N|To Brennok.|
-C Readying the Recitation|QID|80577|M|62.57,44.40|Z|2214;The Ringing Deeps|QO|2|NC|N|Pick up the Mislaid Tools.|
-C Readying the Recitation|QID|80577|M|62.82,44.28|Z|2214;The Ringing Deeps|QO|3|NC|N|Clean the Plaque.|
-C Readying the Recitation|QID|80577|M|62.73,44.44|Z|2214;The Ringing Deeps|QO|1|NC|N|Shove the Stuck Minecart.|
-T Readying the Recitation|QID|80577|M|62.77,44.20|Z|2214;The Ringing Deeps|N|To Haimaz.|
 A A Sip of Cinder|QID|80593|PRE|80577&80578|M|62.05,45.46|Z|2214;The Ringing Deeps|N|From Haimaz.|
 C A Sip of Cinder|QID|80593|M|60.01,52.02|Z|2214;The Ringing Deeps|QO|1|N|Go kill the deepsflayers to get the cinder back. Also found as ground spawn along the elevated track.|
 T A Sip of Cinder|QID|80593|M|62.07,45.50|Z|2214;The Ringing Deeps|N|To Haimaz.|
