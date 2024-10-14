@@ -51,13 +51,13 @@ A The Respect of Another|QID|9898|PRE|9770|M|85.0,54.0|N|From Reavij.|
 T Thick Hydra Scales|QID|9774|M|85.3,54.8|N|To Zurai.|
 A Searching for Scout Jyoba|QID|9771|PRE|9774|M|85.3,54.8|N|From Zurai.|
 K A Job Undone|QID|9899|QO|1|N|Kill Sporewing.|M|76.61,45.15|
-l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484N|N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|S|
+l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484|N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|S|
 A Withered Basidium|QID|9828|M|PLAYER|CC|N|From the Withered Basidium.|U|24484|O|
 l Bog Lord Tendrils|QID|9769|M|81.00,36.00|L|24291 3|ITEM|24291|N|Withered Bog Lords and/or Withered Giants.\n[color=FF0000]NOTE: [/color]You need 6 for a quest later on, but you will have a chance to kill more later.|S|
 T Searching for Scout Jyoba|QID|9771|M|80.76,36.3|N|To Scout Jyoba's corpse.|
 A Jyoba's Report|QID|9772|PRE|9771|M|80.8,36.3|N|From Scout Jyoba's corpse.|
 C Jyoba's Report|QID|9772|N|Drops off the Withered Giants.|M|81.6,35.0|
-l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484N|N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|US|
+l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484|N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|US|
 l Bog Lord Tendrils|QID|9769|M|81.00,36.00|L|24291 3|ITEM|24291|N|Withered Bog Lords and/or Withered Giants.\n[color=FF0000]NOTE: [/color]These are used for a quest later on.|US|
 T A Job Undone|QID|9899|M|84.4,54.3|N|To Magasha.|
 T Withered Basidium|QID|9828|M|85.0,54.0|N|To Reavij.|
@@ -182,6 +182,7 @@ A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. If you've accidently hit friendly 
 T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|
 A Fertile Spores|QID|9806|M|19.2,49.4|N|From Gshaff.|
 T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
+* Mature Spore Sacs|N|Now that you've reached Friendly with the Sporeggar, you can safely delete these because you no longer need them and they are soulbound.|U|24290|REP|Sporeggar;970;friendly-exalted|O|
 A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|REP|Sporeggar;970;friendly|
 C Now That We're Friends...|QID|9726|S|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
 N Disable the Marshlight Lake Controls|QID|9720|QO|2|U|24355|N|Use the Ironvine Seeds on it.|M|25.62,42.87|
