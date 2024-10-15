@@ -10,10 +10,10 @@ return [[
 N Hallowfall|ACH|40848|
 
 
-N Smuggler's Treasure - Key|QID|9999999|M|55.42,51.65|Z|2215|N|On Dead Arathi on the shore|ACH|40848;2|
+l Smuggler's Treasure - Key|QID|9999999|M|55.42,51.65|Z|2215|N|On Dead Arathi on the shore|L|225335|ACH|40848;2|
 $ Smuggler's Treasure|QID|9999999|M|55.13,51.93|Z|2215|N|On the cliff below the Treasure Chest|ACH|40848;2|
 
-N Arathi Loremaster|QID|9999999|M|48.75,64.71|Z|2215|N|Palawltar's Codex of Dimensional Structure|ACH|40848;3|L|225216|
+l Arathi Loremaster|QID|9999999|M|48.75,64.71|Z|2215|N|Palawltar's Codex of Dimensional Structure|ACH|40848;3|L|225216|
 
 $ Jewel of the Cliffs|QID|9999999|M|55.79,69.54|Z|2215|N|Located in a notch about 2/3 of the way up a large rock formation. May require level 75|ACH|40848;6|
 
