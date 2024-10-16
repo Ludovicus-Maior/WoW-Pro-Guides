@@ -84,6 +84,7 @@ T Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|N|To Y'tekhi.|
 T Making the Underworld Go Round|QID|84664|PRE|84682|M|55.78,43.74|Z|2255;Azj-Kahet|N|To Linny Leadfinger.|
 A Strange Bats|QID|83321|M|55.76,43.66|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
 A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|LVL|80|LEAD|81945|; This quest requires Level 80 - It's a breadcrub for "To Arathi's End(QID 81945)"
+A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|PRE|81929|LEAD|81945|; Also availabel at any level in Adventure mode
 C The Weaver's Gift|QID|78233|M|58.97,19.96|Z|2255;Azj-Kahet|QO|1|NC|N|Weaver's gift located.|
 T The Weaver's Gift|QID|78233|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 T Advance to Faerin|QID|82248|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|LEAD|81929|
@@ -91,7 +92,8 @@ A Rations and Revelations|QID|80399|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin
 A Where the Wild Things Camp|QID|83306|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 A Beneath the Roots|QID|83716|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
 A Here's the Plan|QID|81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|
-C Here's the Plan|QID|81929|QO|1;2|M|59.37,19.36|Z|2255;Azj-Kahet|CHAT|N|Ask Faerin Lothar about her plan.|
+C Here's the Plan|QID|81929|QO|1|M|59.37,19.36|Z|2255;Azj-Kahet|CHAT|N|Ask Faerin Lothar about her plan.|
+C Here's the Plan|QID|81929|QO|2|M|59.37,19.36|Z|2255;Azj-Kahet|CHAT|N|Wait while Ferin explains her plan.|
 C Here's the Plan|QID|81929|QO|3|M|59.34,19.46|Z|2255;Azj-Kahet|H|N|Pick up the Shield.|
 C Here's the Plan|QID|81929|QO|4|M|59.37,19.36|Z|2255;Azj-Kahet|H|N|Hand Shield to Faerin.|
 C Here's the Plan|QID|81929|QO|5|M|59.04,18.85|Z|2255;Azj-Kahet|H|N|Grab the bag off the ground.|
@@ -103,6 +105,7 @@ C Rations and Revelations|QID|80399|M|59.41,19.18;59.03,19.06;58.80,19.97|CS|Z|2
 T Rations and Revelations|QID|80399|M|59.38,19.34|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 A Scrappy Straggler|QID|78236|M|59.38,19.34|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
 A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|LVL|80|
+A To Arathi's End|QID|81945|PRE|83543&81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|; Available at any level in adventure mode
 f Faerin's Advance|ACTIVE|78236|M|59.99,18.70|Z|2255;Azj-Kahet|N|At Courier Aidal.|
 A Infested Infestation|QID|79174|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 A Prisoner Preservation|QID|79355|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
