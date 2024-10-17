@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('SL_COD', 'Leveling', 'Korthia', 'Elidion', 'Neutral')
+local guide = WoWPro:RegisterGuide('SL_COD', 'Leveling', 'Korthia!The Maw', 'Elidion', 'Neutral')
 WoWPro:GuideName(guide,"Chains of Domination Campaign")
 WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideLevels(guide, 60, 60)
@@ -564,7 +564,7 @@ T Establishing the Archive|QID|63738|M|61.57,21.79|Z|1961;Korthia|N|To Scholar R
 A Beginning the Collection|QID|63861|M|62.78,22.61|Z|1961;Korthia|N|From Archivist Roh-Suir.|PRE|63738|
 A Picking Up the Pieces|QID|64289|M|62.78,22.61|Z|1961;Korthia|N|From Archivist Roh-Suir.|PRE|63738|
 C Picking Up the Pieces|QID|64289|Z|1961;Korthia|N|Collect from treasure and killing rares in Korthia.|S|
-R Caverns of Contemplation|ACTIVE|63861|M|60.13,31.91|Z|Korthia|N|Make your way to the Caverns of Contemplation.|
+R Caverns of Contemplation|ACTIVE|63861|M|60.13,31.91|Z|1961;Korthia|N|Make your way to the Caverns of Contemplation.|
 C Beginning the Collection|QID|63861|M|31.76,39.97|Z|2006|QO|1|NC|N|Back part of the Cavern, loot Codex of Memories on the ground.|
 T Beginning the Collection|QID|63861|M|62.78,22.60|Z|1961;Korthia|N|To Archivist Roh-Suir.|
 A What Must Be Found|QID|64506|PRE|63861|M|62.78,22.60|Z|1961;Korthia|N|From Archivist Roh-Suir.|

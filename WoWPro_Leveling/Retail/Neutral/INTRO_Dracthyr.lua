@@ -3,9 +3,8 @@ WoWPro:GuideName(guide,"Dracthyr Intro")
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideSort(guide, 19)
 WoWPro:GuideLevels(guide,10, 60)
-WoWPro:GuideQuestTriggers(guide, 64864)
+WoWPro:GuideQuestTriggers(guide, 64864, 84423, 84424)
 WoWPro:GuideNextGuide(guide, 'Dragonflight Intro')
-WoWPro:GuideClassSpecific(guide,"Evoker")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Zone Ids for this guide
@@ -14,7 +13,29 @@ return [[
 ;37, Elwynn Forest
 ;84, Stormwind City
 ;1, Durotar
-A Awaken, Dracthyr|QID|64864|M|PLAYER|Z|2109; The War Creche|N|Auto Accepted|
+
+;Non Evoker Alliance section
+A Shaking the Dust Off|QID|84423|M|43.02,89.75|Z|2373; The War Creche!Dungeon|N|From Scalecommander Emberthal|C|-Evoker|FACTION|Alliance|
+T Shaking the Dust Off|QID|84423|M|43.02,89.75|Z|2373; The War Creche!Dungeon|N|To Scalecommander Emberthal|FACTION|Alliance|
+A Forward, To Adventure!|QID|84424|PRE|84423|M|43.02,89.75|Z|2373; The War Creche!Dungeon|N|From Scalecommander Emberthal|C|-Evoker|FACTION|Alliance|
+P Stormwind City|ACTIVE|84424|QO|3|M|43.66,81.74|Z|2373; The War Creche!Dungeon|N|Take the portal to Stormwind.|FACTION|Alliance|
+T Forward, To Adventure!|QID|84424|M|56.09,17.20|Z|84; Stormwind City|N|To Chromie.|FACTION|Alliance|
+A Where Legends are Made|QID|85026|PRE|84424|M|56.09,17.20|Z|84; Stormwind City|N|From Chromie.|C|-Evoker|FACTION|Alliance|
+C Where Legends are Made|QID|85026|M|56.09,17.20|Z|84; Stormwind City|N|Pick your expansion.|FACTION|Alliance|
+T Where Legends are Made|QID|85026|M|56.09,17.20|Z|84; Stormwind City|N|To Chromie.|FACTION|Alliance|
+
+;Non Evoker Horde section
+A Shaking the Dust Off|QID|84423|M|43.02,89.75|Z|2373; The War Creche!Dungeon|N|From Scalecommander Emberthal|C|-Evoker|FACTION|Horde|
+T Shaking the Dust Off|QID|84423|M|43.02,89.75|Z|2373; The War Creche!Dungeon|N|To Scalecommander Emberthal|FACTION|Horde|
+A Forward, To Adventure!|QID|84424|PRE|84423|M|43.02,89.75|Z|2373; The War Creche!Dungeon|N|From Scalecommander Emberthal|C|-Evoker|FACTION|Horde|
+P Orgrimmar|ACTIVE|84424|QO|3|M|43.66,81.74|Z|2373; The War Creche!Dungeon|N|Take the portal to Stormwind.|FACTION|Horde|
+T Forward, To Adventure!|QID|84424|M|40.82,79.99|Z|85; Orgrimmar|N|To Chromie.|FACTION|Horde|
+A Where Legends are Made|QID|85026|PRE|84424|M|40.82,79.99|Z|85; Orgrimmar|N|From Chromie.|C|-Evoker|FACTION|Horde|
+C Where Legends are Made|QID|85026|M|40.82,79.99|Z|85; Orgrimmar|N|Pick your expansion.|FACTION|Horde|
+T Where Legends are Made|QID|85026|M|40.82,79.99|Z|85; Orgrimmar|N|To Chromie.|FACTION|Horde|
+
+;EVOKER GUIDE
+A Awaken, Dracthyr|QID|64864|M|PLAYER|Z|2109; The War Creche|N|Auto Accepted|C|Evoker|
 C Awaken, Dracthyr|QID|64864|QO|1|M|43.02,91.50|Z|2109; The War Creche|H|N|Right-click on the frozen Dracthyr who is just in front of you.|
 C Awaken, Dracthyr|QID|64864|QO|3|M|44.11,85.26|Z|2109; The War Creche|H|N|Right-click on Tethalash.|
 C Awaken, Dracthyr|QID|64864|QO|2|M|47.84,80.73|Z|2109; The War Creche|H|N|He's in the room buried under some rubble; left side as you enter the room.|
@@ -65,7 +86,7 @@ A Caldera of the Menders|QID|65060|PRE|65036|M|44.28,60.96|Z|2118; The Forbidden
 C Cindrethresh|QID|65060|QO|1|M|36.60,32.72|Z|2118; The Forbidden Reach|CHAT|N|Use your newly acquired skills to get there and speak to Cindrethresh once you land.|
 T Caldera of the Menders|QID|65060|M|18.90,16.02|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.|
 A Into the Hive|QID|65063|PRE|65060|M|18.90,16.02|Z|2118; The Forbidden Reach|N|From Scalecommander Cindrethresh.|
-R Into the Hive|QID|65063|QO|1|M|50.07,50.29|Z|2110|NC|N|Follow Cindrethresh into the the hive.|
+R Into the Hive|ACTIVE|65063|QO|1|M|50.07,50.29|Z|2110|NC|N|Follow Cindrethresh into the the hive.|
 T Into the Hive|QID|65063|M|20.29,19.19|Z|2118; The Forbidden Reach|N|To Scalecommander Viridia.|
 A A Toxic Problem|QID|65073|PRE|65063|M|20.29,19.19|Z|2118; The Forbidden Reach|N|From Scalecommander Viridia.|
 A Easy Prey|QID|65074|PRE|65063|M|20.29,19.19|Z|2118; The Forbidden Reach|N|From Scalecommander Cindrethresh.|
@@ -78,7 +99,7 @@ C Easy Prey|QID|65074|QO|1|M|34.14,32.06|Z|2118; The Forbidden Reach|N|Go ahead 
 T Halp!|QID|65071|M|21.77,29.54|Z|2118; The Forbidden Reach|N|To Explorer Ko'nali.|
 T Easy Prey|QID|65074|M|20.22,18.85|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.|
 T A Toxic Problem|QID|65073|M|20.22,18.85|Z|2118; The Forbidden Reach|N|To Scalecommander Viridia.|
-A Mercy First|QID|65307|M|20.22,18.85|Z|2118; The Forbidden Reach|N|From Scalecommander Viridia.|
+A Mercy First|QID|65307|PRE|65073|M|20.22,18.85|Z|2118; The Forbidden Reach|N|From Scalecommander Viridia.|
 C Mercy First|QID|65307|QO|1;4|M|23.30,21.83|Z|2118; The Forbidden Reach|NC|N|Use your Emerald Blossom to heal the Injured dracthyr.\n[color=FF0000]NOTE: [/color]You can use the infusers to reset your Emeral Blossom.|
 C Mercy First|QID|65307|QO|3;4|M|24.59,14.04|Z|2118; The Forbidden Reach|NC|N|Use your Emerald Blossom to heal Atrenosh Hailstone.\n[color=FF0000]NOTE: [/color]You can use the infusers to reset your Emeral Blossom.|
 C Mercy First|QID|65307|QO|2;4|M|25.47,13.50|Z|2118; The Forbidden Reach|NC|N|Use your Emerald Blossom to heal the Injured drakonid.\n[color=FF0000]NOTE: [/color]You can use the infusers to reset your Emeral Blossom.|
@@ -93,7 +114,7 @@ R Soar Enhancer|ACTIVE|65075|QO|1|M|20.53,19.66|Z|2118; The Forbidden Reach|N|[c
 T The Healing Wings|QID|65075|M|44.23,61.19|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
 A Stormsunder Crater|QID|65045|PRE|65075|M|44.23,61.19|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
 r Sell and Repair|ACTIVE|65045|M|44.80,61.29|Z|2118; The Forbidden Reach|N|Sell and Repair at Tethalash.|
-A Cavalry Has Its Place|QID|72263|M|45.18,61.24|Z|2118; The Forbidden Reach|N|Turn in at Treysh.|NOAUTO|
+A Cavalry Has Its Place|QID|72263|PRE|65075|M|45.18,61.24|Z|2118; The Forbidden Reach|N|Turn in at Treysh.|NOAUTO|
 T Stormsunder Crater|QID|65045|M|70.45,64.34|Z|2118; The Forbidden Reach|N|To Scalecommander Azurathel.|
 A Tangle with the Tarasek|QID|65049|PRE|65045|M|70.45,64.34|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
 A Conjured Army|QID|65050|PRE|65045|M|70.45,64.34|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
@@ -109,7 +130,7 @@ T The Primalists|QID|65046|M|79.38,62.03|Z|2118; The Forbidden Reach|N|To Dervis
 T Tangle with the Tarasek|QID|65049|M|79.55,62.29|Z|2118; The Forbidden Reach|N|To Scalecommander Azurathel.|
 T Conjured Army|QID|65050|M|79.55,62.29|Z|2118; The Forbidden Reach|N|To Scalecommander Azurathel.|
 A The Ebon Scales|QID|65052|PRE|65046&65049&65050|M|79.55,62.29|Z|2118; The Forbidden Reach|N|From Scalecommander Azurathel.|
-R The Ebon Scales|QID|65052|QO|1|M|81.56,56.62|Z|2118; The Forbidden Reach|EAB|N|Attack on Ekrazathal signaled.\n[color=FF0000]NOTE: [/color]Use the extra action button when close.|
+R The Ebon Scales|ACTIVE|65052|QO|1|M|81.56,56.62|Z|2118; The Forbidden Reach|EAB|N|Attack on Ekrazathal signaled.\n[color=FF0000]NOTE: [/color]Use the extra action button when close.|
 T The Ebon Scales|QID|65052|M|81.22,53.97|Z|2118; The Forbidden Reach|N|To Scalecommander Sarkareth.|
 A Rally to Emberthal|QID|65057|PRE|65052|M|81.15,54.02|Z|2118; The Forbidden Reach|N|From Scalecommander Sarkareth.|
 R Soar Enhancer|ACTIVE|65057|QO|1|M|80.63,53.53|Z|2118; The Forbidden Reach|N|[color=FFFF00]OPTIONAL[/color]\nUse the Soar Enhancer for a free flight to The Old Weyrn Grounds.|IZ|13808; Stormsunder Crater|
@@ -118,14 +139,14 @@ A Preservation, Augmentation, or Devastation|QID|65701|PRE|65057|M|44.82,57.71|Z
 C Preservation, Augmentation, or Devastation|QID|65701|QO|1|M|PLAYER|NC|N|Choose your class specialization spec.|
 T Preservation, Augmentation, or Devastation|QID|65701|M|44.82,57.71|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
 A The Froststone Vault|QID|65084|PRE|65701|M|44.82,57.71|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
-R Froststone Vault|QID|65084|M|47.25,52.55;56.78,28.31|CS|Z|2118; The Forbidden Reach|N|Use your [color=33fff9]Soar[/color] ability to get there.\n[color=FF0000]NOTE: [/color]The closer you start, the closer you'll get before your Soar wears off.|
+R Froststone Vault|ACTIVE|65084|M|47.25,52.55;56.78,28.31|CS|Z|2118; The Forbidden Reach|N|Use your [color=33fff9]Soar[/color] ability to get there.\n[color=FF0000]NOTE: [/color]The closer you start, the closer you'll get before your Soar wears off.|
 T The Froststone Vault|QID|65084|M|56.73,28.18|Z|2118; The Forbidden Reach|N|To Scalecommander Sarkareth.|
 A The Prize Inside|QID|65087|PRE|65084|M|56.73,28.18|Z|2118; The Forbidden Reach|N|From Scalecommander Sarkareth.|
 C The Prize Inside|QID|65087|QO|1|M|54.92,30.96|Z|2118; The Forbidden Reach|N|Froststone Vault defended (100%).\n[color=FF0000]NOTE: [/color]Join the fight or heal the soldiers; the choice is yours.|
 T The Prize Inside|QID|65087|M|56.34,28.72|Z|2118; The Forbidden Reach|N|To Scalecommander Sarkareth.|
 A Run!|QID|65097|PRE|65087|M|54.11,32.32|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
-R Run!|QID|65097|QO|1|M|48.78,33.16|Z|2118; The Forbidden Reach|N|Outrun the Avatar of the Storm.|
-R Find Wrathion|QID|65097|QO|2|M|47.79,34.56|Z|2118; The Forbidden Reach|N|Wrathion found.|
+R Run!|ACTIVE|65097|QO|1|M|48.78,33.16|Z|2118; The Forbidden Reach|N|Outrun the Avatar of the Storm.|
+R Find Wrathion|ACTIVE|65097|QO|2|M|47.79,34.56|Z|2118; The Forbidden Reach|N|Wrathion found.|
 C Heal Wrathion|QID|65097|QO|3|M|47.05,35.49|Z|2118; The Forbidden Reach|NC|N|Cast a healing spell on Wrathion so you can turn in the quest.|
 T Run!|QID|65097|M|47.05,35.49|Z|2118; The Forbidden Reach|N|To Wrathion.|
 A The Consequence of Courage|QID|65098|PRE|65097|M|47.05,35.49|Z|2118; The Forbidden Reach|N|From Wrathion.|
@@ -133,8 +154,8 @@ R Find Ebyssian|ACTIVE|65098|QO|1|M|47.84,38.97|Z|2118; The Forbidden Reach|N|Eb
 C Heal Ebyssian|QID|65098|QO|2|M|43.26,38.26|Z|2118; The Forbidden Reach|NC|T|Ebyssian|N|Cast a healing spell on Ebyssian.|
 T The Consequence of Courage|QID|65098|M|41.67,44.54|Z|2118; The Forbidden Reach|N|To Scalecommander Emberthal.|
 A Final Orders|QID|65100|PRE|65098|M|41.67,44.54|Z|2118; The Forbidden Reach|N|From Scalecommander Emberthal.|
-R Old Weyrn Grounds|QID|65100|QO|1|M|41.83,53.42|Z|2118; The Forbidden Reach|N|Run across the bridge to the Old Weyrn Grounds.|
-R Nozdormu|QID|65100|QO|2|M|43.49,60.11|Z|2118; The Forbidden Reach|N|Speak with Nozdormu.|
+R Old Weyrn Grounds|ACTIVE|65100|QO|1|M|41.83,53.42|Z|2118; The Forbidden Reach|N|Run across the bridge to the Old Weyrn Grounds.|
+R Nozdormu|ACTIVE|65100|QO|2|M|43.49,60.11|Z|2118; The Forbidden Reach|N|Speak with Nozdormu.|
 C Sarkareth|QID|65100|QO|3|M|47.05,55.89|Z|2118; The Forbidden Reach|CHAT|N|Speak with Sarkareth.|
 C Viridia|QID|65100|QO|4|M|43.46,54.14|Z|2118; The Forbidden Reach|CHAT|N|Speak with Viridia.|
 T Final Orders|QID|65100|M|43.57,54.29;44.64,55.18|CS|Z|2118; The Forbidden Reach|N|To Scalecommander Cindrethresh.\n[color=FF0000]NOTE: [/color]If you're quick, you can turn in the quest before he runs to the new spot.|
@@ -165,13 +186,13 @@ C Dervishian|QID|72240|M|51.05,67.42|Z|84; Stormwind City|CHAT|N|Deliver the Sca
 C Pathfinder Jeb|QID|66589|QO|2|M|38.45,45.37|Z|84; Stormwind City|CHAT|N|Talk to Pathfinder Jeb at Stormwind Harbor.|FACTION|Alliance|
 T The Obsidian Warders|QID|72240|M|22.83,55.72|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
 T Expeditionary Coordination|QID|66589|M|22.83,55.72|Z|84; Stormwind City|N|To Toddy Whiskers.|FACTION|Alliance|
-A Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|From Khadgar.|FACTION|Alliance|
+A Whispers on the Winds|QID|66596|PRE|66589|M|23.14,55.91|Z|84; Stormwind City|N|From Khadgar.|FACTION|Alliance|
 C Khadgar|QID|66596|QO|1|M|23.14,55.91|Z|84; Stormwind City|CHAT|N|Speak to Khadgar.|FACTION|Alliance|
 T Whispers on the Winds|QID|66596|M|23.14,55.91|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
 ; Horde quests
-A Spiritual Allies|QID|66237|M|45.61,12.88|Z|1; Durotar|N|From Spiritwalker Ebonhorn.|FACTION|Horde|
+A Spiritual Allies|QID|66237|PRE|65100|M|45.61,12.88|Z|1; Durotar|N|From Spiritwalker Ebonhorn.|FACTION|Horde|
 T Spiritual Allies|QID|66237|M|45.56,12.94|Z|1; Durotar|N|To Scalecommander Cindrethresh.|FACTION|Horde|
-A Ground Leave|QID|66534|M|45.56,12.94|Z|1; Durotar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
+A Ground Leave|QID|66534|PRE|66237|M|45.56,12.94|Z|1; Durotar|N|From Scalecommander Cindrethresh.|FACTION|Horde|
 R Portal Room|ACTIVE|66534|QO|4|M|57.39,89.77|Z|85; Orgrimmar|N|Visit the Portal Room.|FACTION|Horde|
 R Bank|ACTIVE|66534|QO|2|M|49.05,82.43|Z|85; Orgrimmar|N|Visit the Bank.|FACTION|Horde|
 R Auction House|ACTIVE|66534|QO|1|M|53.36,74.17|Z|85; Orgrimmar|N|Visit the Auction House.|FACTION|Horde|
