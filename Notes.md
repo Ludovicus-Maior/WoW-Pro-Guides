@@ -1,3 +1,17 @@
+# Release 2024.10.23.A
+## Bug Fixes
+* Protect against next set of Blizzard API changes
+* Update Zone Data for new maps in 11.0.5
+## Guide Updates
+* Cata Achievements: Pebble, Son of Glop
+* Cata Dailies: Firelands
+* Cata Leveling Horde: Terokkar Forest, Zangarmarsh, Twilight Highlands, Belf Intro
+* Cata Leveling Neutral: Searing Gorge, UnGoro
+* Retail Neutral Leveling: Azure Span, DF Campaign, DF Intro, Thaldraszus, Dracthyr Intro, Bastion, Chains of Domination
+* Retail TWW Leveling: Azj-Kahet, Dorn, Hallowfall, Intro, TRD, Max Campaign
+* Retail TWW Professions: Knowledge
+* Retail WorldEvents: Squally, Darkmoon Faire
+
 # Release 2024.09.25.C
 ## Bug Fixes
 * Update Vanilla TOC to 11504
