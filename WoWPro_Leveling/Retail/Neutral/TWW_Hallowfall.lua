@@ -25,7 +25,7 @@ R The Ringing Deeps|ACTIVE|83551|M|42,28|Z|2214;The Ringing Deeps|N|Continue dow
 R The Hallowfall Gate|ACTIVE|83551|M|40.73,23.94|Z|2215;Hallowfall|N|Fly thru the Hallowfall Gate.|
 A Status Report|QID|79309|M|70.44,44.95|Z|2215;Hallowfall|N|From Captain Trueflame.|RANK|2|
 A Delver's Call: Mycomancer Cavern|QID|83769|M|68.86,44.44|Z|2215;Hallowfall|N|From the sign on the lampost.|RANK|3|
-T Hallowfall|QID|83551|M|68.43,45.07|Z|2215;Hallowfall|N|To Faerin.|;picking up this quest (at scouting map) marks 78658 done, so pre on next step doesn't need to be adjusted.
+t Hallowfall|QID|83551|M|68.43,45.07|Z|2215;Hallowfall|N|To Faerin.|;picking up this quest (at scouting map) marks 78658 done, so pre on next step doesn't need to be adjusted.
 A Where the Light Touches|QID|78659|PRE|78658|M|68.44,45.11|Z|2215;Hallowfall|N|From Faerin.|
 A Delver's Call: The Skittering Breach|QID|83768|M|67.78,45.61|Z|2215;Hallowfall|N|From the sign on the lampost.|RANK|3|
 t Delver's Call: Mycomancer Cavern|QID|83769|M|69.17,45.62|Z|2215;Hallowfall|N|To Valrin Paller.|IZ|Dunelle's Kindness|
