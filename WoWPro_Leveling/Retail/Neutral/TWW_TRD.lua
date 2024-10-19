@@ -641,6 +641,9 @@ C Sampling Steam|QID|83153|M|41.54,19.92|Z|2214; The Ringing Deeps|N|Stand in th
 T An Igneous End|QID|83092|M|41.16,21.39|Z|2214; The Ringing Deeps|N|To Foreman Duinth.|
 T Magmanagement|QID|83152|M|41.16,21.39|Z|2214; The Ringing Deeps|N|To Foreman Duinth.|
 T Sampling Steam|QID|83153|M|41.16,21.39|Z|2214; The Ringing Deeps|N|To Machinist Kilton.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
+
 ]]
 end)
 

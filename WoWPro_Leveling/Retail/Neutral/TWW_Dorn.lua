@@ -633,5 +633,7 @@ C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,
 C Up to No Good Down in Silkwood|QID|80218|QO|2|M|63.69,20.68|Z|2248;Isle of Dorn|N|Place explosives.|H|
 T Up to No Good Down in Silkwood|QID|80218|M|65.47,20.54|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|
 T Best Friends, Same Ends|QID|83181|M|65.47,20.54|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
 ]]
 end)

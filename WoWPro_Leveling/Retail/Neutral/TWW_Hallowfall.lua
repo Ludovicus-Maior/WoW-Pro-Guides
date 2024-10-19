@@ -508,5 +508,8 @@ A The Rise of the Reckoning|QID|78630|M|38.78,81.57|Z|2215;Hallowfall|N|From Fae
 C The Rise of the Reckoning|QID|78630|M|38.86,81.61|Z|2215;Hallowfall|QO|1|NC|N|Click the rope ladder right next to you to board The Reckoning.|
 C The Rise of the Reckoning|QID|78630|M|38.86,81.61|Z|2215;Hallowfall|QO|2|N|As the fight progresses you will get more options for killing the Nerubians.|
 T The Rise of the Reckoning|QID|78630|M|29.37,42.24|Z|2255;The Reckoning|N|To Faerin.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
+
 ]]
 end)
