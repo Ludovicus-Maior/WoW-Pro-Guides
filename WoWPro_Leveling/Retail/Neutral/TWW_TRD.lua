@@ -396,7 +396,7 @@ T Duty of Care|QID|82786|M|PLAYER|Z|2214; The Ringing Deeps|N|To Danagh's Cogwal
 T Stone Tracing|QID|82969|M|PLAYER|Z|2214;The Ringing Deeps|N|To Danagh's Cogwalker.|
 A Decommissioning Darkness|QID|82814|PRE|82786&82969|M|PLAYER|Z|2214;The Ringing Deeps|N|From Danagh's Cogwalker.|
 K Corrupted Golem|ACTIVE|82814|M|49.02,61.96|Z|2214;The Ringing Deeps|QO|1|N|Corrupted Golem slain.|T|Corrupted Golem|
-C Decommissioning Darkness|QID|82814|M|48.83,62.02|Z|2214;The Ringing Deeps|QO|2|NC|N|Arbauch's Memory Gem.|
+C Decommissioning Darkness|QID|82814|M|49.75,63.36|Z|2214;The Ringing Deeps|QO|2|NC|N|Arbauch's Memory Gem.|
 T Decommissioning Darkness|QID|82814|M|58.99,64.16|Z|2214;The Ringing Deeps|N|To Danagh.|
 R Shadowvein Point|ACTIVE|83165|M|61.43,47.96|Z|2214;The Ringing Deeps|N|Head over to Shadowvein Point.|
 f Shadowvein Point|ACTIVE|83165|M|61.43,47.96|Z|2214;The Ringing Deeps|N|At Milgrit Stonefeather.|
@@ -643,4 +643,3 @@ T Magmanagement|QID|83152|M|41.16,21.39|Z|2214; The Ringing Deeps|N|To Foreman D
 T Sampling Steam|QID|83153|M|41.16,21.39|Z|2214; The Ringing Deeps|N|To Machinist Kilton.|
 ]]
 end)
-
