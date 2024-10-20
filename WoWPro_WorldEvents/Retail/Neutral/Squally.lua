@@ -4,6 +4,7 @@
 
 local guide = WoWPro:RegisterGuide("Squally",'WorldEvents',"Valdrakken", "Ludo", "Neutral")
 WoWPro:GuideLevels(guide)
+WoWPro.WorldEvents:GuideOther(guide,"Squally")
 WoWPro:GuideQuestTriggers(guide, 82809)
 WoWPro:NoCache(guide)
 WoWPro:GuideSteps(guide, function()

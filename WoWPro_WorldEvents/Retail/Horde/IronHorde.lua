@@ -7,7 +7,7 @@ local guide = WoWPro:RegisterGuide('IronHordeInvasionH', 'WorldEvents', 'Blasted
 WoWPro:GuideLevels(guide,90, 90, 90.1)
 WoWPro:GuideIcon(guide,"Icon","Inferface\\ICONS\\INV_Tabard_A_03IronHorde")
 WoWPro:GuideNextGuide(guide, 'EmmFluc_DarkPortal')
-WoWPro.WorldEvents:GuideWorldEvent(guide,"Iron Horde Invasion")
+WoWPro.WorldEvents:GuideOther(guide,"Iron Horde Invasion")
 WoWPro:GuideSteps(guide, function()
 return [[
 

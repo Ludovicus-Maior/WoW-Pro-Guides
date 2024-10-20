@@ -63,6 +63,7 @@
 	<Script file="SL_Maw_Intro.lua"/>
 	<Script file="SL_Revendreth.lua"/>
 	<Script file="TWW_Intro.lua"/>
+	<Script file="TWW_AM_Hub.lua"/>
 	<Script file="TWW_Dorn.lua"/>
 	<Script file="TWW_TRD.lua"/>
 	<Script file="TWW_Hallowfall.lua"/>

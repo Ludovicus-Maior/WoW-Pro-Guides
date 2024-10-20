@@ -25,7 +25,7 @@ R The Ringing Deeps|ACTIVE|83551|M|42,28|Z|2214;The Ringing Deeps|N|Continue dow
 R The Hallowfall Gate|ACTIVE|83551|M|40.73,23.94|Z|2215;Hallowfall|N|Fly thru the Hallowfall Gate.|
 A Status Report|QID|79309|M|70.44,44.95|Z|2215;Hallowfall|N|From Captain Trueflame.|RANK|2|
 A Delver's Call: Mycomancer Cavern|QID|83769|M|68.86,44.44|Z|2215;Hallowfall|N|From the sign on the lampost.|RANK|3|
-T Hallowfall|QID|83551|M|68.43,45.07|Z|2215;Hallowfall|N|To Faerin.|;picking up this quest (at scouting map) marks 78658 done, so pre on next step doesn't need to be adjusted.
+t Hallowfall|QID|83551|M|68.43,45.07|Z|2215;Hallowfall|N|To Faerin.|;picking up this quest (at scouting map) marks 78658 done, so pre on next step doesn't need to be adjusted.
 A Where the Light Touches|QID|78659|PRE|78658|M|68.44,45.11|Z|2215;Hallowfall|N|From Faerin.|
 A Delver's Call: The Skittering Breach|QID|83768|M|67.78,45.61|Z|2215;Hallowfall|N|From the sign on the lampost.|RANK|3|
 t Delver's Call: Mycomancer Cavern|QID|83769|M|69.17,45.62|Z|2215;Hallowfall|N|To Valrin Paller.|IZ|Dunelle's Kindness|
@@ -304,7 +304,7 @@ T Eggs in One Basket|QID|80382|M|61.20,30.54|Z|2215;Hallowfall|N|To Aliya Hillhe
 T Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
 T Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
 A Follow Miral|QID|79109|M|61.18,30.51|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
-A A Flickering of Hope|QID|50690|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|
+A A Flickering of Hope|QID|50690|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
 C Follow Miral|QID|79109|M|60.75,25.14|Z|2215;Hallowfall|QO|1|H|N|Hoe inspected.|
 C Follow Miral|QID|79109|M|60.12,24.28|Z|2215;Hallowfall|QO|2|H|N|Bag inspected.|
 C Follow Miral|QID|79109|M|60.28,22.85|Z|2215;Hallowfall|QO|3|H|N|Lamp inspected.|
@@ -456,7 +456,7 @@ C Job Killing Robot Or...|QID|82480|M|49.35,62.06|Z|2215;Hallowfall|QO|2|NC|N|De
 T Job Killing Robot Or...|QID|82480|M|49.35,62.06|Z|2215;Hallowfall|N|To Orren Masyn.|
 
 ; ---REST AT LAST QUESTLINE---
-R Dornogal|N|This next quest line starts in Dornogal. Make your way there when you want to continue.|AVAILABLE|83497|LVL|80|
+R Dornogal|N|This next quest line starts in Dornogal. Make your way there when you want to continue.|AVAILABLE|83497|LVL|80|RANK|2|
 A A Concerned Friend|QID|83497|M|51.00,46.2|Z|2339;Dornogal|N|From Val Thalvassa in Dornogal.|RANK|2|LVL|80|
 T A Concerned Friend|QID|83497|M|43.12,52.46|Z|2215;Hallowfall|N|To Great Kyron back in Hallowfall.|RANK|2|
 A A Moment to Rest|QID|79165|PRE|83497|M|43.12,52.41|Z|2215;Hallowfall|N|From Great Kyron.|RANK|2|LVL|80|
@@ -500,7 +500,7 @@ A Trapdoor Sprung|QID|78628|M|38.97,71.56|Z|2215;Hallowfall|N|From General Steel
 A Running on Reserves|QID|78629|M|38.97,71.56|Z|2215;Hallowfall|N|From Faerin Lothar.|
 F Light's Redoubt|ACTIVE|78628|M|40.46,71.31|Z|2215;Hallowfall|N|At 'Red' Fearon.|
 C Trapdoor Sprung|QID|78628|M|36.95,80.75|Z|2215;Hallowfall|QO|1|N|Slay Nerubians.|S|
-C Running on Reserves|QID|78629|M|36.71,79.85;36.88,80.99;37.46,81.91;38.04,82.74;38.86,83.07|CS|Z|2215;Hallowfall|QO|1|NC|N|Reservists rescued.|
+C Running on Reserves|QID|78629|M|36.71,79.85;36.88,80.99;37.46,81.91;38.04,82.74;38.86,83.07|CS|Z|2215;Hallowfall|QO|1|CHAT|N|Rescue Reservists.|
 C Trapdoor Sprung|QID|78628|M|36.95,80.75|Z|2215;Hallowfall|QO|1|N|Keep searching for enough Nerubians to kill.|US|
 T Trapdoor Sprung|QID|78628|M|38.78,81.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
 T Running on Reserves|QID|78629|M|38.78,81.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
@@ -508,5 +508,8 @@ A The Rise of the Reckoning|QID|78630|M|38.78,81.57|Z|2215;Hallowfall|N|From Fae
 C The Rise of the Reckoning|QID|78630|M|38.86,81.61|Z|2215;Hallowfall|QO|1|NC|N|Click the rope ladder right next to you to board The Reckoning.|
 C The Rise of the Reckoning|QID|78630|M|38.86,81.61|Z|2215;Hallowfall|QO|2|N|As the fight progresses you will get more options for killing the Nerubians.|
 T The Rise of the Reckoning|QID|78630|M|29.37,42.24|Z|2255;The Reckoning|N|To Faerin.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
+
 ]]
 end)

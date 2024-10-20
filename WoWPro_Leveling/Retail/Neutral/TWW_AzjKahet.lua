@@ -43,7 +43,7 @@ C For Naught, So Vial|QID|78352|M|33.32,57.80|Z|2255;Azj-Kahet|QO|1|H|N|Destroy 
 C Fear the Old Blood|QID|78353|M|34.06,56.37|Z|2255;Azj-Kahet|QO|1|N|The Breathing Pit Cleansed.|US|
 T For Naught, So Vial|QID|78352|M|35.73,58.14|Z|2255;Azj-Kahet|N|To Orweyna.|
 T Fear the Old Blood|QID|78353|M|35.73,58.14|Z|2255;Azj-Kahet|N|To Orweyna.|
-A Alone in the Dark|QID|79139|M|35.73,58.14|Z|2255;Azj-Kahet|N|From Orweyna.|
+A Alone in the Dark|QID|79139|M|35.73,58.14|Z|2255;Azj-Kahet|N|From Orweyna. Don't wander off, it takes a bit of dialog before she offers the quest.|
 C Alone in the Dark|QID|79139|M|42.28,54.23|Z|2255;Azj-Kahet|QO|1|NC|N|Meet Orweyna at the Eye of Ansurek.|
 C Alone in the Dark|QID|79139|M|44.28,57.29|Z|2255;Azj-Kahet|QO|2|CHAT|N|Ask Orweyna where we go from here.|
 T Alone in the Dark|QID|79139|M|44.21,56.80|Z|2255;Azj-Kahet|N|To Spindle.|
@@ -83,8 +83,8 @@ C Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|QO|4|NC|N|Pick w
 T Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|N|To Y'tekhi.|
 T Making the Underworld Go Round|QID|84664|PRE|84682|M|55.78,43.74|Z|2255;Azj-Kahet|N|To Linny Leadfinger.|
 A Strange Bats|QID|83321|M|55.76,43.66|Z|2255;Azj-Kahet|N|From Linny Leadfinger.|RANK|2|
-A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|LVL|80|LEAD|81945|; This quest requires Level 80 - It's a breadcrub for "To Arathi's End(QID 81945)"
-A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|PRE|81929|LEAD|81945|; Also availabel at any level in Adventure mode
+A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|LVL|80|LEAD|81945|RANK|2|; This quest requires Level 80 - It's a breadcrub for "To Arathi's End(QID 81945)"
+A Advance to Faerin|QID|82248|M|55.86,43.80|Z|2255;Azj-Kahet|N|From Widow Arak'nai.|PRE|81929|LEAD|81945|RANK|2|; Also available at any level in Adventure mode
 C The Weaver's Gift|QID|78233|M|58.97,19.96|Z|2255;Azj-Kahet|QO|1|NC|N|Weaver's gift located.|
 T The Weaver's Gift|QID|78233|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 T Advance to Faerin|QID|82248|M|59.32,19.37|Z|2255;Azj-Kahet|N|To Faerin Lothar.|LEAD|81929|
@@ -104,8 +104,8 @@ t Delver's Call: Spiral Weave|QID|83770|M|58.91,18.66|Z|2255;Azj-Kahet|N|From Si
 C Rations and Revelations|QID|80399|M|59.41,19.18;59.03,19.06;58.80,19.97|CS|Z|2255;Azj-Kahet|QO|1|H|N|Arathi Rations distributed.|
 T Rations and Revelations|QID|80399|M|59.38,19.34|Z|2255;Azj-Kahet|N|To Faerin Lothar.|
 A Scrappy Straggler|QID|78236|M|59.38,19.34|Z|2255;Azj-Kahet|N|From Faerin Lothar.|
-A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|LVL|80|
-A To Arathi's End|QID|81945|PRE|83543&81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|; Available at any level in adventure mode
+A To Arathi's End|QID|81945|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|LVL|80|RANK|2|
+A To Arathi's End|QID|81945|PRE|83543&81929|M|59.37,19.36|Z|2255;Azj-Kahet|N|From Faerin Lothar.|RANK|2|; Available at any level in adventure mode
 f Faerin's Advance|ACTIVE|78236|M|59.99,18.70|Z|2255;Azj-Kahet|N|At Courier Aidal.|
 A Infested Infestation|QID|79174|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
 A Prisoner Preservation|QID|79355|M|57.79,19.77|Z|2255;Azj-Kahet|N|From Great Hexer Ohodo.|RANK|2|
@@ -240,7 +240,7 @@ C Kaheti Hospitality|QID|78244|M|45.93,81.86|Z|2274|QO|3|NC|N|Escape from The Bu
 T Kaheti Hospitality|QID|78244|M|60.58,68.86|Z|2255;Azj-Kahet|N|To Anduin Wrynn.|
 A What We Still Have|QID|78248|M|60.63,68.85|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|
 A A Fin of Every Kind|QID|79710|M|60.03,66.18|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
-l Familiar-Looking Appendage|AVAILABLE|79711|L|214504|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill Gutter Scarfer's and loot Familiar-Looking Appendage.|RANK|2|
+l Familiar-Looking Appendage|ACTIVE|79710|AVAILABLE|79711|L|214504|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill Gutter Scarfer's and loot Familiar-Looking Appendage.|RANK|2|
 C A Fin of Every Kind|QID|79710|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill and loot the things in and around the bond to fill the sack.|
 ;A That's Pretty Gross|QID|79711|M|56.24,70.54|Z|2255;Azj-Kahet|N|From Adolchomper.|RANK|2|O|U|214504|
 T A Fin of Every Kind|QID|79710|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
@@ -353,9 +353,9 @@ A Discordant Measures|QID|80572|PRE|80570&80571|M|62.61,79.18|Z|2256;Azj-Kahet|N
 A Harmonious Approach|QID|80569|PRE|80570&80571|M|62.56,79.13|Z|2256;Azj-Kahet|N|From Hannan.|RANK|2|
 C Discordant Measures|QID|80572|M|62.30,81.72|Z|2256;Azj-Kahet|QO|1|NC|N|Getting in the red "water" is the easiest way to acquire 50 stacks of Unseeming Shift. You can also click Essence Extractors. Clicking Harmonizing Instrument will remove all stacks.|
 K Harvest Warden Izk'tilak|ACTIVE|80569|M|61.44,83.58|Z|2256;Azj-Kahet|QO|1|N|Slay Harvest Warden Izk'tilak.|T|Harvest Warden Izk'tilak|
-K Warped Sapling|ACTIVE|80572|M|63.10,84.94|Z|2256;Azj-Kahet|QO|4|NC|N|Kill Warped Sapling and loot the Root Sliver.\n\n This needs 50+ unseeming SHift stacks, just stand int he water and stack these up.|T|Warped Sapling|
-K Aberrant Deepwalker|ACTIVE|80572|M|65.24,88.14|Z|2256;Azj-Kahet|QO|2|N|Kill Aberrant Deepwalker and loot it's Corrupted Heart.\n\n This needs 50+ unseeming SHift stacks, just stand int he water and stack these up.|T|Aberrant Deepwalker|
-K Faceless One|ACTIVE|80572|M|65.68,83.90|Z|2256;Azj-Kahet|QO|3|NC|N|Kill the Faceless One and loot his Sightless Eye.\n\n This needs 50+ Unseeming Shift stacks, just stand int he water and stack these up.|T|Faceless One|
+K Warped Sapling|ACTIVE|80572|M|63.10,84.94|Z|2256;Azj-Kahet|QO|4|NC|N|Kill Warped Sapling and loot the Root Sliver.\n\n This needs 50+ unseeming Shift stacks, just stand in the water and stack these up.|T|Warped Sapling|
+K Aberrant Deepwalker|ACTIVE|80572|M|65.24,88.14|Z|2256;Azj-Kahet|QO|2|N|Kill Aberrant Deepwalker and loot it's Corrupted Heart.\n\n This needs 50+ unseeming Shift stacks, just stand in the water and stack these up.|T|Aberrant Deepwalker|
+K Faceless One|ACTIVE|80572|M|65.68,83.90|Z|2256;Azj-Kahet|QO|3|NC|N|Kill the Faceless One and loot his Sightless Eye.\n\n This needs 50+ Unseeming Shift stacks, just stand in the water and stack these up.|T|Faceless One|
 C Discordant Measures|QID|80572|M|62.78,79.03|Z|2256;Azj-Kahet|QO|5|NC|N|Meet Orweyna at the overlook.|
 C Discordant Measures|QID|80572|M|62.45,78.91|Z|2256;Azj-Kahet|QO|6|NC|N|You probably want to click the Harmonizing Instrument to remove Unseeming Shift debuff (so less things will agro you - Optional).|
 T Harmonious Approach|QID|80569|M|62.57,79.11|Z|2256;Azj-Kahet|N|To Hannan.|
@@ -479,7 +479,7 @@ T Permanent Hire|QID|79123|M|74.79,81.12|Z|2255;Azj-Kahet|N|To Saffrin.|
 
 ;<<<this is where 1st moved block was >>>A The Entrenched|QID|83616| - thru A Maggots in your Eyes|QID|79957
 
-R High Hollows|AVAILABLE|80203|M|71.47,44.20|Z|2213;City of Threads|N|Fly back up to the city above.|
+R High Hollows|AVAILABLE|80203|M|71.47,44.20|Z|2213;City of Threads|N|Fly back up to the city above.|RANK|2|
 A Social Clues|QID|80203|M|71.47,44.20|Z|2213;City of Threads|N|From Orator Tx'itk.|RANK|2|
 C Social Clues|QID|80203|M|71.82,34.67|Z|2213;City of Threads|QO|2|CHAT|N|Kobyss Puppet investigated (Optional).|
 C Social Clues|QID|80203|M|71.56,34.68|Z|2213;City of Threads|QO|1|CHAT|N|Talk to Profiteer Z'kaxt.|
@@ -539,5 +539,8 @@ t Delves: The Underkeep|QID|83761|M|57.36,42.16|Z|2255;Azj-Kahet|N|To Brann Bron
 P Surface Bound|QID|79197|M|57.48,41.61|Z|2255;Azj-Kahet|QO|2|NC|N|Take Portal to Dornogal(Optional).|TZ|The Fissure.|
 C Surface Bound|QID|79197|M|36.19,79.77|Z|2339;Dornogal|QO|1|NC|N|Meet with Moira Thaurissan in Dornogal.|
 T Surface Bound|QID|79197|M|36.11,80.11|Z|2339;Dornogal|N|To Moira Thaurissan.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
+
 ]]
 end)

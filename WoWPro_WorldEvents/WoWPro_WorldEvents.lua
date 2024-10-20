@@ -52,6 +52,17 @@ function WoWPro.WorldEvents:GuideHoliday(guide,holiday, name)
     guide['icon'] = "Interface\\Calendar\\Holidays\\Calendar_" .. holiday
 end
 
+function WoWPro.WorldEvents:GuideOther(guide,other, name)
+    guide['other']=other
+    if name then
+        guide['name']=name
+    else
+        guide['name']=other
+    end
+
+    guide['category']='Other'
+end
+
 function WoWPro.WorldEvents:GuideWorldEvent(guide, name)
     -- No holiday means World Event
     if name then

@@ -105,7 +105,8 @@ C Delve into the Earth|QID|78464|QO|2|M|38.87,73.30|Z|2248;Isle of Dorn|N|Speak 
 C Delve into the Earth|QID|78464|QO|3|M|38.90,73.32|Z|2248;Isle of Dorn|N|Open the Explorers' League Supplies.|
 C Delve into the Earth|QID|78464|QO|4|M|38.90,73.32|Z|2248;Isle of Dorn|N|Select a Combat Role for Brann Bronzebeard.|
 C Delve into the Earth|QID|78464|QO|5|M|45.11,11.57|Z|2269;Earthcrawl Mines!Dungeon|N|Earthcrawl Mines entered.|
-A Delver's Call: Earthcrawl Mines|QID|85648|PRE|78461|M|44.7,12.1|Z|2269;Earthcrawl Mines!Dungeon|N|Lying on the ground just inside.|RANK|2|;As we're doing the delve anyway
+A Delver's Call: Earthcrawl Mines|QID|85648|PRE|78461|M|44.7,12.1|Z|2269;Earthcrawl Mines!Dungeon|N|Lying on the ground just inside.|;As we're doing the delve anyway
+t Delver's Call: Earthcrawl Mines|QID|85648|M|55.20,55.86|Z|2248;Isle of Dorn|N|To Bondaz.|IZ|Crossroads Plaza|
 C Delve into the Earth|QID|78464|QO|6|M|54.41,75.32|Z|2269;Earthcrawl Mines!Dungeon|N|Earthcrawl Mines objectives completed.|
 C Delve into the Earth|QID|78464|QO|7|M|64.62,88.06|Z|2269;Earthcrawl Mines!Dungeon|N|Earthcrawl Mines treasure found.|
 t Ancient Curiosity: Combat|QID|84519|N|Use and equip the Unbreakable Iron Idol to Brann Bronzebeard.|
@@ -231,7 +232,6 @@ K Roth the Earthwound|ACTIVE|83336|QO|1|M|60.23,53.34|Z|2248;Isle of Dorn|N|Kill
 T The Earthwound|QID|83336|M|55.56,55.90|Z|2248;Isle of Dorn|N|To Freysworn Etterca.|
 A Delver's Call: Fungal Folly|QID|83758|M|55.35,55.92|Z|2248;Isle of Dorn|N|From poster on other side of piller. The Delves are not included in the guide, so do them when you want.|RANK|2|
 A Delver's Call: Kriegval's Rest|QID|83759|M|55.35,55.92|Z|2248;Isle of Dorn|N|From poster.|RANK|2|
-T Delver's Call: Earthcrawl Mines|QID|85648|M|55.20,55.86|Z|2248;Isle of Dorn|N|To Bondaz.|RANK|2|
 t Delver's Call: Fungal Folly|QID|83758|M|55.21,55.91|Z|2248;Isle of Dorn|N|To Bondaz.|IZ|Crossroads Plaza|
 t Delver's Call: Kriegval's Rest|QID|83759|M|55.22,55.82|N|To Bondaz.|IZ|Crossroads Plaza|
 T Frayed Legacy|QID|78570|M|53.56,69.88|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
@@ -634,5 +634,7 @@ C Up to No Good Down in Silkwood|QID|80218|QO|1|M|64.40,20.57;63.88,20.06;64.12,
 C Up to No Good Down in Silkwood|QID|80218|QO|2|M|63.69,20.68|Z|2248;Isle of Dorn|N|Place explosives.|H|
 T Up to No Good Down in Silkwood|QID|80218|M|65.47,20.54|Z|2248;Isle of Dorn|N|From Lamplighter Kaerter.|
 T Best Friends, Same Ends|QID|83181|M|65.47,20.54|Z|2248;Isle of Dorn|N|From Peacekeeper Leif.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
 ]]
 end)
