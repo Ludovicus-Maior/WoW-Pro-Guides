@@ -304,7 +304,7 @@ T Eggs in One Basket|QID|80382|M|61.20,30.54|Z|2215;Hallowfall|N|To Aliya Hillhe
 T Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
 T Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|To Aliya Hillhelm.|
 A Follow Miral|QID|79109|M|61.18,30.51|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
-A A Flickering of Hope|QID|50690|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|
+A A Flickering of Hope|QID|50690|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
 C Follow Miral|QID|79109|M|60.75,25.14|Z|2215;Hallowfall|QO|1|H|N|Hoe inspected.|
 C Follow Miral|QID|79109|M|60.12,24.28|Z|2215;Hallowfall|QO|2|H|N|Bag inspected.|
 C Follow Miral|QID|79109|M|60.28,22.85|Z|2215;Hallowfall|QO|3|H|N|Lamp inspected.|
@@ -456,7 +456,7 @@ C Job Killing Robot Or...|QID|82480|M|49.35,62.06|Z|2215;Hallowfall|QO|2|NC|N|De
 T Job Killing Robot Or...|QID|82480|M|49.35,62.06|Z|2215;Hallowfall|N|To Orren Masyn.|
 
 ; ---REST AT LAST QUESTLINE---
-R Dornogal|N|This next quest line starts in Dornogal. Make your way there when you want to continue.|AVAILABLE|83497|LVL|80|
+R Dornogal|N|This next quest line starts in Dornogal. Make your way there when you want to continue.|AVAILABLE|83497|LVL|80|RANK|2|
 A A Concerned Friend|QID|83497|M|51.00,46.2|Z|2339;Dornogal|N|From Val Thalvassa in Dornogal.|RANK|2|LVL|80|
 T A Concerned Friend|QID|83497|M|43.12,52.46|Z|2215;Hallowfall|N|To Great Kyron back in Hallowfall.|RANK|2|
 A A Moment to Rest|QID|79165|PRE|83497|M|43.12,52.41|Z|2215;Hallowfall|N|From Great Kyron.|RANK|2|LVL|80|
@@ -500,7 +500,7 @@ A Trapdoor Sprung|QID|78628|M|38.97,71.56|Z|2215;Hallowfall|N|From General Steel
 A Running on Reserves|QID|78629|M|38.97,71.56|Z|2215;Hallowfall|N|From Faerin Lothar.|
 F Light's Redoubt|ACTIVE|78628|M|40.46,71.31|Z|2215;Hallowfall|N|At 'Red' Fearon.|
 C Trapdoor Sprung|QID|78628|M|36.95,80.75|Z|2215;Hallowfall|QO|1|N|Slay Nerubians.|S|
-C Running on Reserves|QID|78629|M|36.71,79.85;36.88,80.99;37.46,81.91;38.04,82.74;38.86,83.07|CS|Z|2215;Hallowfall|QO|1|NC|N|Reservists rescued.|
+C Running on Reserves|QID|78629|M|36.71,79.85;36.88,80.99;37.46,81.91;38.04,82.74;38.86,83.07|CS|Z|2215;Hallowfall|QO|1|CHAT|N|Rescue Reservists.|
 C Trapdoor Sprung|QID|78628|M|36.95,80.75|Z|2215;Hallowfall|QO|1|N|Keep searching for enough Nerubians to kill.|US|
 T Trapdoor Sprung|QID|78628|M|38.78,81.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
 T Running on Reserves|QID|78629|M|38.78,81.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
