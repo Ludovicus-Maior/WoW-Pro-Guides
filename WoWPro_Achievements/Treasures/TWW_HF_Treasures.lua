@@ -19,7 +19,7 @@ $ Jewel of the Cliffs|QID|9999999|M|55.79,69.54|Z|2215|N|Located in a notch abou
 
 l Arathi Loremaster|QID|9999999|M|56.56,65.18|Z|2215|N|Beledar- The Emperor's Vision|ACH|40848;4|L|225203|
 
-N Dark Ritual - Cave Entrance|QID|9999999|M|59.66,60.66|Z|2215|N|Cave entrance|ACH|40848;3|
+R Dark Ritual - Cave Entrance|QID|9999999|M|59.66,60.66|CC|Z|2215|N|Cave entrance|ACH|40848;3|
 $ Dark Ritual|QID|9999999|M|59.63,59.32|Z|2215|N|Click on book to spawn enemies, then loot Shadowed Essence|ACH|40848;3|
 
 l Arathi Loremaster|QID|9999999|M|70.21,56.85|Z|2215|N|The Song of Renilash|ACH|40848;4|L|225215|
