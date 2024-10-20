@@ -108,9 +108,10 @@ C Delve into the Earth|QID|78464|QO|5|M|45.11,11.57|Z|2269;Earthcrawl Mines!Dung
 A Delver's Call: Earthcrawl Mines|QID|85648|PRE|78461|M|44.7,12.1|Z|2269;Earthcrawl Mines!Dungeon|N|Lying on the ground just inside.|RANK|2|;As we're doing the delve anyway
 C Delve into the Earth|QID|78464|QO|6|M|54.41,75.32|Z|2269;Earthcrawl Mines!Dungeon|N|Earthcrawl Mines objectives completed.|
 C Delve into the Earth|QID|78464|QO|7|M|64.62,88.06|Z|2269;Earthcrawl Mines!Dungeon|N|Earthcrawl Mines treasure found.|
+t Ancient Curiosity: Combat|QID|84519|N|Use and equip the Unbreakable Iron Idol to Brann Bronzebeard.|
+t Ancient Curiosity: Utility|QID|84520|N|UI Turn In. Don't forget to use the curio you just received.|
 C Delve into the Earth|QID|78464|QO|8|M|38.77,73.30|Z|2248;Isle of Dorn|N|Speak to Brann Bronzebeard outside the delve.|CHAT|
 T Delve into the Earth|QID|78464|M|41.86,72.64|Z|2248;Isle of Dorn|N|To Adelgonn.|
-t Ancient Curiosity|QID|84519^84520|N|UI Turn In. Don't forget to use the curio you just received.|;I cant remember which one this is, so i did both QIDs. fix in post
 A A Natural Remedy|QID|79553|PRE|78464|M|41.86,72.63|Z|2248;Isle of Dorn|N|From Adelgonn.|
 A Building Blocks|QID|78463|PRE|78464|M|41.79,72.66|Z|2248;Isle of Dorn|N|From Baelgrim.|
 A Frayed Legacy|QID|78570|M|42.13,71.32;41.61,71.38|CS|Z|2248;Isle of Dorn|N|From Freysworn Cruton.|RANK|2|
