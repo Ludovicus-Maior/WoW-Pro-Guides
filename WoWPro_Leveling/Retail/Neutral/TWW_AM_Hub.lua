@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('TWW Adventure Mode Hub', 'Leveling', 'Dornogal', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"TWW AM")
+WoWPro:GuideSecret(guide)
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,70, 80)
 WoWPro:GuideSort(guide, 1)
