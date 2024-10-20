@@ -934,11 +934,13 @@ end
 function WoWPro.BuildGuideInMenuList()
     WoWPro.GuideMenuList = {}
     for gid, guide in pairs(WoWPro.Guides) do
-        WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
+        if not guide.secret then
+            WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
+        end
     end
     for _, gid in ipairs(WoWProCharDB.GuideStack) do
         local guide = WoWPro.Guides[gid]
-        if guide then
+        if guide and (not guide.secret) then
             -- the '[' is used to sort to the bottom of the list
             WoWPro.RegisterGuideInMenuList("[Recent Guides]", guide.guidetype,  guide.name or "??", gid)
         end
@@ -1139,6 +1141,10 @@ end
 
 function WoWPro:GuideName(guide, name)
     guide['name']=name
+end
+
+function WoWPro:GuideSecret(guide)
+    guide['secret'] = true
 end
 
 local progressFormat = "%d/%d"
