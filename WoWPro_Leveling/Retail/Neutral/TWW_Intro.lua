@@ -20,7 +20,7 @@ T The War Within|QID|81930|M|41.86,45.06|Z|81;Silithus|N|To Lady Jaina Proudmoor
 A The War Within|QID|78713|M|PLAYER|N|From UI.|FACTION|Horde|
 C The War Within|QID|78713|M|60.92,44.73|Z|627;Dalaran!Broken Isles|QO|1|NC|U|227669|N|Use the teleportation scroll to teleport to Silithus (Optional).|
 C The War Within|QID|78713|M|41.66,44.95|Z|81;Silithus|QO|2|NC|U|227669|N|Meet Thrall in Silithus.|
-T The War Within|QID|78713|M|41.86,45.06|Z|81;Silithus|N|To Lady Jaina Proudmoore.|
+T The War Within|QID|78713|M|41.86,45.06|Z|81;Silithus|N|To Thrall.|
 A A Poor Reception|QID|78714|PRE|81930|M|41.86,45.06|Z|81;Silithus|N|From Thrall.|
 P Chamber of Heart|ACTIVE|78714|M|42.97,44.67|Z|Silithus|N|Take the portal to The Champer of Heart.|
 C A Poor Reception|QID|78714|M|50.00,33.50|Z|2321;Chamber of Heart!Dungeon2321|QO|1|NC|N|Enter the Heart Chamber.|
@@ -74,6 +74,8 @@ C Departure|QID|80321|M|40.95,36.44|Z|2305;Dalaran!Dungeon|QO|2|NC|N|Return to t
 K Queensguard An'Jak Shabtir|ACTIVE|80321|M|41.31,37.88|Z|2305;Dalaran!Dungeon|QO|3|N|Kill Queensguard An'Jak Shabtir.|T|Queensguard An'Jak Shabtir|
 C Departure|QID|80321|M|44.47,37.58|Z|2305;Dalaran!Dungeon|QO|4|CHAT|N|Talk to Khadgar.|
 T Departure|QID|80321|M|44.11,36.53|Z|2305;Dalaran!Dungeon|N|To Khadgar's Portal.|
-A Violent Impact|QID|78529|PRE|80321|M|42.68,59.32|Z|2248;Isle of Dorn|N|From Questzertauren.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Congratulations on hitting level 80 and completing the Campaign.\n\nYou can now accept Adventure Mode. This will allow you to choose which Zone you want to level in.\n\n Click the guide button next to this frame to direct you to the zone you want to level in.|
+
 ]]
 end)

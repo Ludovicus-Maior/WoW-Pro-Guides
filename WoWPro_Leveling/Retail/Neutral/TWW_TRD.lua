@@ -332,7 +332,7 @@ A A Functional Favor|QID|82773|M|58.95,64.22|Z|2214; The Ringing Deeps|N|From Da
 A Foreign Fog|QID|81556|M|58.45,62.41|Z|2214; The Ringing Deeps|N|From Noli Marlen.|RANK|2|
 C Foreign Fog|QID|81556|M|58.74,60.59|Z|2214; The Ringing Deeps|QO|1|NC|N|Head to first fog site.|
 C Foreign Fog|QID|81556|M|58.69,60.79|Z|2214; The Ringing Deeps|QO|2|NC|N|Use [color=33fff9] Extra Action Button [/color] to activate the First fog collector, then kill what shows up while it fills.|EAB|
-A Badly Behaved Bot|QID|83165|M|60.29,57.06|Z|2214; The Ringing Deeps|N|From Sinruna.|;moved because flying past ! is distressing
+A Badly Behaved Bot|QID|83165|M|60.29,57.06|Z|2214; The Ringing Deeps|N|From Sinruna.|RANK|2|;moved because flying past ! is distressing
 C Foreign Fog|QID|81556|M|58.32,47.68|Z|2214;The Ringing Deeps|QO|3|NC|N|Head to second fog site.|
 C Foreign Fog|QID|81556|M|58.41,47.62|Z|2214;The Ringing Deeps|QO|4|NC|N|Second fog sample collected.|EAB|
 C Foreign Fog|QID|81556|M|63.43,58.81;64.29,58.39|CS|Z|2214;The Ringing Deeps|QO|5|NC|N|Head into the abandoned town of Traelloch for the third fog site.|
@@ -428,7 +428,7 @@ C Readying the Recitation|QID|80577|M|62.57,44.40|Z|2214;The Ringing Deeps|QO|2|
 C Readying the Recitation|QID|80577|M|62.82,44.28|Z|2214;The Ringing Deeps|QO|3|H|N|Clean the Plaque.|
 C Readying the Recitation|QID|80577|M|62.73,44.44|Z|2214;The Ringing Deeps|QO|1|H|N|Shove the Stuck Minecart.|
 T Readying the Recitation|QID|80577|M|62.77,44.20|Z|2214;The Ringing Deeps|N|To Haimaz.|
-A Check on the Compiler|QID|82224|LEAD|80578|M|62.77,44.20|Z|2214;The Ringing Deeps|N|From Haimaz.|
+A Check on the Compiler|QID|82224|LEAD|80578|M|62.77,44.20|Z|2214;The Ringing Deeps|N|From Haimaz.|RANK|2|
 T Check on the Compiler|QID|82224|M|61.93,45.45|Z|2214;The Ringing Deeps|N|To Brennok.|
 A The Common Costume|QID|80578|PRE|81613|M|61.93,45.45|Z|2214;The Ringing Deeps|N|From Brennok.|
 C The Common Costume|QID|80578|M|61.72,45.96|Z|2214;The Ringing Deeps|QO|1|CHAT|N|Speak to Resting Miners, in the inn.|
@@ -641,5 +641,8 @@ C Sampling Steam|QID|83153|M|41.54,19.92|Z|2214; The Ringing Deeps|N|Stand in th
 T An Igneous End|QID|83092|M|41.16,21.39|Z|2214; The Ringing Deeps|N|To Foreman Duinth.|
 T Magmanagement|QID|83152|M|41.16,21.39|Z|2214; The Ringing Deeps|N|To Foreman Duinth.|
 T Sampling Steam|QID|83153|M|41.16,21.39|Z|2214; The Ringing Deeps|N|To Machinist Kilton.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
+
 ]]
 end)

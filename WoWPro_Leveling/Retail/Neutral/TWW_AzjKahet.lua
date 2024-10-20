@@ -539,5 +539,8 @@ t Delves: The Underkeep|QID|83761|M|57.36,42.16|Z|2255;Azj-Kahet|N|To Brann Bron
 P Surface Bound|QID|79197|M|57.48,41.61|Z|2255;Azj-Kahet|QO|2|NC|N|Take Portal to Dornogal(Optional).|TZ|The Fissure.|
 C Surface Bound|QID|79197|M|36.19,79.77|Z|2339;Dornogal|QO|1|NC|N|Meet with Moira Thaurissan in Dornogal.|
 T Surface Bound|QID|79197|M|36.11,80.11|Z|2339;Dornogal|N|To Moira Thaurissan.|
+
+N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Click the book next to the window to pick the next zone you want to level in.|
+
 ]]
 end)
