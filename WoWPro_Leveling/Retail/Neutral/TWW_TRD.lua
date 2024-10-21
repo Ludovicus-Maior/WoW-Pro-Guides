@@ -361,7 +361,7 @@ A Papers? Please!|QID|82226|M|64.89,78.58|Z|2214; The Ringing Deeps|N|From Garv 
 C Papers? Please!|QID|82226|M|64.89,78.48|QO|1|Z|2214; The Ringing Deeps|N|Get behind the desk.|H|
 C Papers? Please!|QID|82226|M|64.89,78.48|QO|2|Z|2214; The Ringing Deeps|N|Click the 2 key to call people over, then they will either come over, or they won't and their names turn orange(Troublemakers) Wait till they run, then use the 3 key, targetting a bit ahead of them.|NC|
 T Papers? Please!|QID|82226|M|64.89,78.48|Z|2214; The Ringing Deeps|N|Exit, when quest completes to go back To Garv Gearwhistle.|
-C Tired of Tripping|QID|83155|M|61.29,83.71|QO|1|Z|2214; The Ringing Deeps|N|You can kill moles, or click on terrified miners. If you choose to ride a mole, it will disappear at the bridge as you head back towards the quest giver.|
+C Tired of Tripping|QID|83155|M|61.29,83.71|QO|1|Z|2214; The Ringing Deeps|N|You can kill moles, or click on terrified miners. If you choose to ride a mole, it will disappear at the bridge as you head back towards the quest giver.|EAB|
 T Tired of Tripping|QID|83155|M|63.80,79.26|Z|2214; The Ringing Deeps|N|To Prospera Cogwail.|
 A A Little Off the Top|QID|83159|PRE|83155|M|63.80,79.26|Z|2214; The Ringing Deeps|N|From Prospera Cogwail.|
 K Alhainr|ACTIVE|83159|M|62.27,92.74|QO|1|Z|2214; The Ringing Deeps|N|Alhainr's Skull.|T|Alhainr|
