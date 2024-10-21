@@ -74,7 +74,7 @@ C Stones of Dornogal|QID|78457|QO|4|M|47.41,44.41|Z|2339;Dornogal|N|Speak to Bra
 = Train Engineering|QID|99999|M|49.28,56.06|Z|2339;Dornogal|N|From Thermalseer Arhdas. Click this step off if you are done or dont care.|P|Engineering;202|SPELL|Khaz Algar Engineering;423347|
 = Train Mining|QID|99999|M|52.65,52.73|Z|2339;Dornogal|N|From Tarib. Click this step off if you are done or dont care.|P|Mining;186|SPELL|Khaz Algar Mining;439705|;Spell is for Bismuth
 = Train Tailoring|QID|99999|M|54.76,63.61|Z|2339;Dornogal|N|From Kotag. Click this step off if you are done or dont care.|P|Tailoring;197|SPELL|Khaz Algar Tailoring;446926|;Spell is for Unraveling
-= Train Leatherworking|QID|99999|M|54.43,58.49|Z|2339;Dornogal|N|From Marbb. Click this step off if you are done or dont care.|P|Leatherworking;165|SPELL|Khaz Algar Leatherworking;423352|
+= Train Leatherworking|QID|99999|M|54.43,58.49|Z|2339;Dornogal|N|From Marbb. Click this step off if you are done or dont care.|P|Leatherworking;165|SPELL|Khaz Algar Leatherworking;443710|;Tracker's Chitin Cuffs
 = Train Skinning|QID|99999|M|54.25,57.38|Z|2339;Dornogal|N|From Ginnad. Click this step off if you are done or dont care.|P|Skinning;393|SPELL|Khaz Algar Skinning;442566| ; Spell for Gloomm Chitin
 = Train Cooking|QID|99999|M|44.19,45.86|Z|2339;Dornogal|N|From Athodas. Click this step off if you are done or dont care.|P|Cooking;185|SPELL|Khaz Algar Cooking;445117|;Spell is for Chopped Mycobloom
 = Train Fishing|QID|99999|M|50.48,26.86|Z|2339;Dornogal|N|From Drokar. Click this step off if you are done or dont care.|P|Fishing;356|SPELL|Khaz Algar Fishing;454441|;Spell is for Becoming an Algari Angler
@@ -571,7 +571,7 @@ C Dispelling Rumors|QID|79528|M|46.97,36.54|Z|2339;Dornogal|QO|1|H|N|Continue di
 T Damage Mitigation|QID|79527|M|55.66,5.69|Z|2339;Dornogal|N|To Merrix.|
 T Dispelling Rumors|QID|79528|M|55.66,5.69|Z|2339;Dornogal|N|To Merrix.|
 A Forcing My Hand|QID|79529|PRE|79527&79528|M|55.66,5.69|Z|2339;Dornogal|N|From Merrix.|RANK|2|
-C Forcing My Hand|QID|79529|M|55.12,6.36|Z|2339;Dornogal|QO|1|H|N|Get Cloak from  hearth|BUFF|441006|
+C Forcing My Hand|QID|79529|M|55.12,6.36|Z|2339;Dornogal|QO|1|H|N|Get the Cloak from the hearth|BUFF|441006|
 C Forcing My Hand|QID|79529|M|55.66,5.68|Z|2339;Dornogal|QO|1|H|N|Hand cloak to Merrix.|
 C Forcing My Hand|QID|79529|M|56.41,5.88|Z|2339;Dornogal|QO|2|H|N|Get Gloves from Accessory Chest by the bookcase.|BUFF|441007|
 C Forcing My Hand|QID|79529|M|55.65,5.70|Z|2339;Dornogal|QO|2|H|N|Hand Gloves to Merrix.|

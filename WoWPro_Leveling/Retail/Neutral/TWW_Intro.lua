@@ -75,7 +75,7 @@ K Queensguard An'Jak Shabtir|ACTIVE|80321|M|41.31,37.88|Z|2305;Dalaran!Dungeon|Q
 C Departure|QID|80321|M|44.47,37.58|Z|2305;Dalaran!Dungeon|QO|4|CHAT|N|Talk to Khadgar.|
 T Departure|QID|80321|M|44.11,36.53|Z|2305;Dalaran!Dungeon|N|To Khadgar's Portal.|
 
-N Adventure Time|ACTIVE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Congratulations on hitting level 80 and completing the Campaign.\n\nYou can now accept Adventure Mode. This will allow you to choose which Zone you want to level in.\n\n Click the guide button next to this frame to direct you to the zone you want to level in.|
+N Adventure Time|AVAILABLE|83548^83550^83551^83552|M|PLAYER|Z|2339;Dornogal|JUMP|TWW Adventure Mode Hub|N|Congratulations on hitting level 80 and completing the Campaign.\n\nYou can now accept Adventure Mode. This will allow you to choose which Zone you want to level in.\n\n Click the guide button next to this frame to direct you to the zone you want to level in.|
 
 ]]
 end)
