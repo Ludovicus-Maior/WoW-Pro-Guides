@@ -212,13 +212,14 @@ A To the Waterworks|QID|79324|PRE|79025|M|47.07,34.18|Z|2214;The Ringing Deeps|N
 T To the Waterworks|QID|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|To Dagran Thaurissan II.|
 A Elemental Trepidation|QID|79027|PRE|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|From "Zee-Zee".|
 A Putting the Works in Waterworks|QID|79026|PRE|79324|M|47.33,42.34|Z|2214;The Ringing Deeps|N|From Dagran Thaurissan II.|
-C Elemental Trepidation|QID|79027|M|47.40,46.59|Z|2214;The Ringing Deeps|QO|1|N|Defeat Elementals.|S!US|
+C Elemental Trepidation|QID|79027|M|47.40,46.59|Z|2214;The Ringing Deeps|QO|1|N|Defeat Elementals.|S|
 C Waterwheel Activated|QID|79026|M|45.47,46.30|Z|2214;The Ringing Deeps|QO|1<1|H|N|Clear the wax off the console and click to activate.|
 C Waterwheel Activated|QID|79026|M|48.38,46.09|Z|2214;The Ringing Deeps|QO|1<2|H|N|Clear the wax off the console and click to activate.|
 C Putting the Works in Waterworks|QID|79026|QO|2|M|46.36,48.45|Z|2214;The Ringing Deeps|NC|N|Delve Entered.|
 C Putting the Works in Waterworks|QID|79026|QO|3|M|46.72,83.72|Z|2251;The Waterworks|H|N|Main Drain Restored.|
 C Putting the Works in Waterworks|QID|79026|QO|4|M|47.47,79.70|Z|2251;The Waterworks|N|Delve Completed.|
 C Putting the Works in Waterworks|QID|79026|QO|5|M|47.28,42.29|Z|2214;The Ringing Deeps|H|N|Click the console to restore the Waterworks.|
+C Elemental Trepidation|QID|79027|M|47.40,46.59|Z|2214;The Ringing Deeps|QO|1|N|Defeat Elementals.|US|
 T Putting the Works in Waterworks|QID|79026|M|47.29,42.35|Z|2214;The Ringing Deeps|N|To Dagran Thaurissan II.|
 T Elemental Trepidation|QID|79027|M|47.29,42.35|Z|2214;The Ringing Deeps|N|To Dagran Thaurissan II.|
 A Shadowvein Extraction|QID|79325|PRE|79026&79027|M|47.29,42.35|Z|2214;The Ringing Deeps|N|From Dagran Thaurissan II.|
