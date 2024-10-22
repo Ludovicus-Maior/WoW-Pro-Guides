@@ -7,7 +7,6 @@ return [[
 A Urgent Care|QID|58214|M|52.05,13.40|Z|84|N|From Aysa Cloudsinger.|
 R Mage Quarter|ACTIVE|58214|M|49.44,86.81|N|Make your way to the Mage Quarter.|
 P Wizard's Sanctum|ACTIVE|58214|M|48.16,93.86|N|Take the portal to Wizard's Sanctum.|
-A Supplies Needed: Storm Silver Ore|QID|51021|M|70.62,16.98|Z|1161|
 T Urgent Care|QID|58214|M|73.15,16.95|Z|1161|N|To Kelsey Steelspark.|
 A Waning Energy|QID|57486|PRE|58214|M|73.15,16.95|Z|1161|N|From Kelsey Steelspark.|
 T Waning Energy|QID|57486|M|36.94,62.52|Z|1161|N|To Kelsey Steelspark.|
@@ -29,12 +28,10 @@ C Voyage to Safety|QID|57490|M|72.34,33.43|Z|1462|QO|4|NC|U|208124|N|Pod deliver
 T Voyage to Safety|QID|57490|M|73.13,33.35|Z|1462|N|To Waren Gearhart.|
 A Better... Stronger... Less Dead|QID|57491|PRE|57490|M|73.19,33.47|Z|1462|N|From Christy Punchcog.|
 C Better... Stronger... Less Dead|QID|57491|M|55.20,27.12|Z|1462|QO|2|NC|U|208124|N|Omni Electromagnetic Amplifier.|
-A Blueprint: Experimental Adventurer Augment|QID|56087|PRE|57490|M|52.24,41.19|Z|1462|
 C Better... Stronger... Less Dead|QID|57491|M|54.26,52.86|Z|1462|QO|3|NC|U|208124|N|Flux Energized Servos.|
 C Better... Stronger... Less Dead|QID|57491|M|35.72,71.38|Z|1462|QO|1|NC|U|208124|N|Neural Accelerator.|
 T Better... Stronger... Less Dead|QID|57491|M|73.51,31.86|Z|1462|N|To Christy Punchcog.|
 A Him?|QID|57492|PRE|57491|M|73.03,33.43|Z|1462|N|From Prince Erazmin.|
-T Blueprint: Experimental Adventurer Augment|QID|56087|M|71.38,32.41|Z|1462|N|To Pascal-K1N6.|
 C Him?|QID|57492|M|69.96,32.10|Z|1462|QO|6|CHAT|U|208124|N|Speak with Stuard Sharpsprocket.|
 C Him?|QID|57492|M|70.47,30.89|Z|1462|QO|1|CHAT|U|208124|N|Speak with Elya Codepunch.|
 C Him?|QID|57492|M|71.30,34.26|Z|1462|QO|2|CHAT|U|208124|N|Speak with Idee Quickcoil.|
@@ -42,13 +39,12 @@ C Him?|QID|57492|M|72.08,38.65|Z|1462|QO|4|CHAT|U|208124|N|Speak with Quimby Spa
 C Him?|QID|57492|M|75.45,36.02|Z|1462|QO|5|CHAT|U|208124|N|Speak with Flouresce Brightgear.|
 C Him?|QID|57492|M|74.29,34.83|Z|1462|QO|3|CHAT|U|208124|N|Speak with Pegi Cogster.|
 T Him?|QID|57492|M|73.03,33.42|Z|1462|N|To Prince Erazmin.|
-A Mental Attunement|QID|57493|PRE|56087&57492|M|73.52,31.85|Z|1462|N|From Christy Punchcog.|
+A Mental Attunement|QID|57493|PRE|57492|M|73.52,31.85|Z|1462|N|From Christy Punchcog.|
 C Mental Attunement|QID|57493|M|73.54,32.93|Z|1462|QO|1|NC|U|208124|N|Initiate synchronization.|
 C Mental Attunement|QID|57493|M|73.47,32.24|Z|1462|QO|2|NC|U|208124|N|Synchronization complete.|
 C Mental Attunement|QID|57493|M|73.54,32.10|Z|1462|QO|3|NC|U|208124|N|Open the escape pod.|
 T Mental Attunement|QID|57493|M|73.51,31.86|Z|1462|N|To Christy Punchcog.|
 A A Strong Heart|QID|57494|PRE|57493|M|73.51,31.86|Z|1462|N|From Christy Punchcog.|
-A Goldenbot XD|QID|56395|PRE|57493|M|60.19,54.89|Z|1462|
 C A Strong Heart|QID|57494|M|59.31,56.11|Z|1462|QO|2|U|208124|N|Insurgent Coilbearer slain.|
 C A Strong Heart|QID|57494|M|59.34,56.15|Z|1462|QO|3|NC|U|208124|N|Unit retrieved.|
 C A Strong Heart|QID|57494|M|73.58,32.13|Z|1462|QO|4|NC|U|208124|N|Spark Reactor delivered.|
