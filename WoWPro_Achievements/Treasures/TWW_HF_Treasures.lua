@@ -44,10 +44,10 @@ l Arathi Loremaster|QID|9999999|M|48.11,39.56|Z|2215|N|The Big Book of Arathi Id
 
 $ Priory Satchel|QID|9999999|M|30.22,38.77|Z|2215|N|From Windswept Satchel (hanging on back corner of Priory base)|ACH|40848;7|
 
-N Sky Captian Doronald|QID|999999||CHAT|AVAILABLE|82012|M|44.4,35.4;55.4,37.8;62.8,46.6;50.8,51.8|CS|Z|2215|N| Find Sky Captian Doronald on The Mighty Lynx which flys around the area and speak to them|ACH|40848;9|
+N Sky Captian Doronald|QID|999999|CHAT|AVAILABLE|82012|M|44.4,35.4;55.4,37.8;62.8,46.6;50.8,51.8|CS|Z|2215|N| Find Sky Captian Doronald on The Mighty Lynx which flys around the area and speak to them|ACH|40848;9|
 N Sky Captian Clairmonte|QID|999999|CHAT|AVAILABLE|82024|M|30.6,47.8;43.2,45.4;49.5,56.0;40.0,60.6|CS|Z|2215|N| Find Sky Captian Clairmonte on The Embers which flys around the area and speak to them|ACH|40848;9|
-N Sky Captian Aerthin|QID|999999||CHAT|AVAILABLE|82025|M|27.6,34.8;42.0,22.6;45.4,33.8;38.0,43.6|CS|Z|2215|N| Find Sky Captian Aerthin on The Rightteaous Hammer which flys around the area and speak to them|ACH|40848;9|
-N Sky Captian Onaro|QID|999999||CHAT|AVAILABLE|82026|M|45.6,8.0;55.6,15.4;51.6,29.8;46.4,28.6|CS|Z|2215|N| Find Sky Captian Clairmonte on The Resolute Flame which flys around the area and speak to them|ACH|40848;9|
+N Sky Captian Aerthin|QID|999999|CHAT|AVAILABLE|82025|M|27.6,34.8;42.0,22.6;45.4,33.8;38.0,43.6|CS|Z|2215|N| Find Sky Captian Aerthin on The Rightteaous Hammer which flys around the area and speak to them|ACH|40848;9|
+N Sky Captian Onaro|QID|999999|CHAT|AVAILABLE|82026|M|45.6,8.0;55.6,15.4;51.6,29.8;46.4,28.6|CS|Z|2215|N| Find Sky Captian Clairmonte on The Resolute Flame which flys around the area and speak to them|ACH|40848;9|
 
 $ Sky-Captains' Sunken Cache|PRE|82012&82024&82025&82026|QID|9999999|M|45.94,45.11|Z|2215|N|Swim down underwater to find the cache|ACH|40848;9|
 
