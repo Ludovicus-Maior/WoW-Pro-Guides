@@ -7,7 +7,6 @@ return [[
 
 
 ;|Z|2214;The Ringing Deeps
-N The Ringing Deeps|ACH|40724|
 
 $ Dislodged Blockage|QID|9999999|M|48.30,49.02|Z|2214|N|Dislodged Blockage (Pipe puzzle)|ACH|40724;8|
 
