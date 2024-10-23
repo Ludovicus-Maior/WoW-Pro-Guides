@@ -7,7 +7,6 @@ return [[
 
 
 ;2248; Isle of Dorn
-N Isle of Dorn|ACH|40434|
 
 N Turtle Fish!|ACH|40434;2|M|48.66,31.14|Z|2248|N|USE AN ALT to Grab 5x Dornish Pike & 1x Goldengill Trout from the AH if you don't want to fish them up. (Mail them to your treasure hunter AFTER you talk to the turtle each time.)|
 

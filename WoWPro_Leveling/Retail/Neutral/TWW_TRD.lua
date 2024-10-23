@@ -523,7 +523,7 @@ T Bump off the Boss|QID|80516|M|69.65,41.07|Z|2214; The Ringing Deeps|N|To Scrit
 R Gundargaz|ACTIVE|78706|M|47.19,34.12|Z|2214; The Ringing Deeps|N|Head back to Gundargaz.|
 C Everyday I'm Snufflin'|QID|79343|M|47.68,35.27|Z|2214;The Ringing Deeps|QO|1|N|Show Gnawbles the Odd Glob of Wax you found.|H|
 C Everyday I'm Snufflin'|QID|79343|M|47.74,35.21|Z|2214;The Ringing Deeps|QO|2|N|Donate Wax to Middles.|H|
-B Everyday I'm Snufflin'|QID|79343|M|47.71,35.29|Z|2214;The Ringing Deeps|QO|3|N|Purchase a Waxy Bundle from Gnawbles.|
+B Everyday I'm Snufflin'|QID|79343|ACTIVE|79343|M|47.71,35.29|Z|2214;The Ringing Deeps|QO|3|N|Purchase a Waxy Bundle from Gnawbles.|; B Steps don't auto skip when not on the quest.
 t Everyday I'm Snufflin'|QID|79343|M|47.69,35.29|Z|2214;The Ringing Deeps|N|To Gnawbles.|
 T The High Speaker's Secret|QID|78706|M|47.19,34.12|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Absent Speaker|QID|78738|PRE|78706|M|47.19,34.12|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
