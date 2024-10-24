@@ -4,7 +4,7 @@
 ## Author: Twists
 ## IconTexture: Interface\ICONS\Trade_Engineering
 ## Dependencies: WoWPro
-## Version: 2024.09.25.C
+## Version: 2024.10.24.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## DefaultState: disabled
