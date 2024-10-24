@@ -5,39 +5,37 @@
 local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth", "Ludo", "Neutral")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WOW Anniversary")
-WoWPro:GuideQuestTriggers(guide, 57249,43461,43323)
+WoWPro:GuideQuestTriggers(guide, 82672)
 WoWPro:NoCache(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
 
-A A Timely Invitation|LVL|11|QID|57249|M|PLAYER|U|208211|O|N|Use the [Invitation from the Timewalkers] and accept this quest|
-U Celebration Package|U|208210|BUFF|418563|N|Hey, use your Celebration Package!| ; 19th!
-; U Celebration Package|U|187709|BUFF|359530|N|Hey, use your Celebration Package!| ; 18th!
-; U Celebration Package|U|185907|BUFF|359530|N|Hey, use your Celebration Package!| ; 17th
+A Another Timely Invitation|QID|82672|N|From the UI|
+P Caverns of Time|ACTIVE|82672|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room on the side and get to the Caverns of Time|FACTION|Horde|
+P Caverns of Time|ACTIVE|82672|M|49.36,86.91;43.72,85.36|Z|Stormwind City|CS|N|Go to the portal room on the right and get to the Caverns of Time|FACTION|Alliance|
+T Another Timely Invitation|QID|82672|M|62.87,50.66|Z|Tanaris|N|To Yllana|
+A Meet and Greet|QID|84254|M|62.87,50.66|Z|Tanaris|N|From Yllana|
+C Petra|QID|84254|QO|5|M|61.99,50.10|Z|Tanaris|CHAT|N|Talk to the Pet Greeter|
+C Vanni Thorngage|QID|84254|QO|4|M|62.83,49.34|Z|Tanaris|CHAT|N|Talk to the Photo Greeter|
+C Thrynviel|QID|84254|QO|3|M|63.50,49.86|Z|Tanaris|CHAT|N|Talk to the Fashionista|
+C Grimkel|QID|84254|QO|1|M|64.14,51.18|Z|Tanaris|CHAT|N|Talk to the Host|
+C Hansel Cyrilson|QID|84254|QO|2|M|63.25,51.26|Z|Tanaris|CHAT|N|Tak to the Mount Greeter|
+T Meet and Greet|QID|84254|M|62.87,50.66|Z|Tanaris|N|To Yllana|
+A Shopping Squee!|QID|84489|M|62.87,50.66|Z|Tanaris|N|From Yllanai|
+C Traeya|QID|84489|QO|1|M|63.07,50.95|Z|Tanaris|CHAT|N|Talk to Traeya|
+C Bobadormu|QID|84489|QO|3|M|62.73,50.29|Z|Tanaris|CHAT|N|Talk to Bobadormu|
+C Historian Ma'di|QID|84489|QO|2|M|62.62,50.43|Z|Tanaris|CHAT|N|Talk to Ma'di|
+T Shopping Squee!|QID|84489|M|62.87,50.66|Z|Tanaris|N|From Yllanai|
+A Celebrate Good Fun!|QID|84616|M|62.87,50.66|Z|Tanaris|N|From Yllanai (Daily)|NOCACHE|
 
-P Caverns of Time|ACTIVE|57249|M|54.73,88.79;55.98,87.15;56.40,92.54|Z|Orgrimmar|CS|N|Go to the downstairs portal room on the side and get to the Caverns of Time|FACTION|Horde|
-P Caverns of Time|ACTIVE|57249|M|49.36,86.91;43.72,85.36|Z|Stormwind City|CS|N|Go to the portal room on the right and get to the Caverns of Time|FACTION|Alliance|
-
-; Only offer on initial entrance.
-A To The Master's Lair|LVL|15|QID|10279|ACTIVE|57249|M|55.26,27.87|Z|Timeless Tunnel@Caverns of Time|N|Get a free ride from the Steward of Time|
-T To The Master's Lair|QID|10279|ACTIVE|57249|M|41.55,38.52|Z|Caverns of Time@Tanaris|N|Turn into Andormu|
-T A Timely Invitation|QID|57249|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|Turn into Chromie!|
-; N Weekly Quests!|AVAILABLE|60215^57300^57298|N|Chromie offers two special weekly event quests:\n1) Kill the Doomwalker (level 30)\n2) Soldier of Time: A PvP Alterac Valley quest (level 10)\n Optional|
-; N Weekly Quests!|AVAILABLE|60215^57300|N|Chromie offers three special weekly event quests:\n1) Kill the Doomwalker (level 30)\n2) Soldier of Time: A PvP Alterac Valley quest (level 10)\n3) A "Help Chromie to defeat villains of the past" quest" (level 30).\n Optional|
-; A Doomwalkin' Has Come Knockin'|LVL|30|QID|60215|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|From Chromie|
-; K Doomwalker|ACTIVE|60215|QO|1|M|61.1,49.8|Z|Tanaris|N|Having Chromie Time off helps find others in the group finder to kill this guide.  Do not attempt alone.|
-; t Doomwalkin' Has Come Knockin'|QID|60215|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|To Chromie|
-; A Soldier of Time|LVL|10|QID|57300|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|From Chromie|
-t Soldier of Time|QID|57300|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|To Chromie|
-; A How Things "Really" Happened...|LVL|30|QID|57298|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|From Chromie|
-; t How Things "Really" Happened...|QID|57298|M|53.12,54.74|Z|Caverns of Time@Tanaris|N|To Chromie|
-
-;
-A A Time to Reflect|QID|43461|M|51.74,38.73|Z|Caverns of Time@Tanaris|N|From Ju'Pa|FACTION|Horde|NOCACHE|
-A A Time to Reflect|QID|43323|M|51.51,38.56|Z|Caverns of Time@Tanaris|N|From Llore|FACTION|Alliance|NOCACHE|
+A A Time to Reflect|QID|43461|M|62.88,50.23|Z|Tanaris|N|From Ju'Pa|FACTION|Horde|NOCACHE|
+A A Time to Reflect|QID|43323|M|62.84,50.23|Z|Tanaris|N|From Llore|FACTION|Alliance|NOCACHE|
 
 C A Time to Reflect|QID|43323^43461|CHAT|QG|The Historian|N|Chat with the Historian to get your question. The question will change each time you chat with him, but we have a cheat sheet.|
+; New as of 11.0.5
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the first deathknight to be made on Azeroth|N|Teron Gorefiend|
+
 ; New as of 10.2
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What was in the Chalice of Rebirth|N|The blood of Mannoroth|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|The mark of the naaru on|N|Prophet Velen|
