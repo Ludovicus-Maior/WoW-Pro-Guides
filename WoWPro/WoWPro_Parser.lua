@@ -1,6 +1,6 @@
 -- luacheck: globals tostring tonumber
 -- luacheck: globals max min abs type
--- luacheck: globals pairs select tinsert tremove
+-- luacheck: globals pairs select string tinsert tremove
 
 -----------------------------
 --      WoWPro_Parser      --
@@ -87,10 +87,106 @@ WoWPro.actionlabels = {
 }
 
 if WoWPro.RETAIL then
-    WoWPro.actiontypes["A Campaign"] = "Interface\\GossipFrame\\CampaignAvailableQuestIcon"
-    WoWPro.actiontypes["T Campaign"] = "Interface\\GossipFrame\\CampaignActiveQuestIcon"
-    WoWPro.actionlabels["A Campaign"] = "Accept Campaign quest"
-    WoWPro.actionlabels["T Campaign"] = "Turn in Campaign quest"
+    local GetQuestInfoDebug = true
+    function WoWPro.GetQuestInfo(QuidList)
+        if tonumber(QuidList) and WoWPro.QuestLog[tonumber(QuidList)] then
+            local result = WoWPro.QuestLog[tonumber(QuidList)]
+            if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): %s", QuidList, WoWPro.Ptable(result)); end
+            return result
+        end
+        if not tonumber(QuidList) then
+            local result = WoWPro:QIDsInTable(QuidList,WoWPro.QuestLog, false, "GetQuestInfo")
+            if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): %s", QuidList, WoWPro.Ptable(result)); end
+            return result
+        end
+        local mapID = _G.C_Map.GetBestMapForUnit("player")
+        if _G.C_QuestLine and tonumber(QuidList) and mapID then
+            local result = _G.C_QuestLine.GetQuestLineInfo(tonumber(QuidList), mapID)
+            if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): C_QuestLine.GetQuestLineInfo=%s", QuidList, WoWPro.Ptable(result)); end
+            return result
+        end
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): NIL", QuidList); end
+        return nil
+    end
+
+    WoWPro.OfferIcons = {
+        isCampaign = "CampaignAvailableQuestIcon",
+        isLegendary = "legendaryavailablequesticon",
+        isCovenantCalling = "CampaignAvailableDailyQuestIcon",
+        isImportant = "importantavailablequesticon",
+        isMeta = "Wrapperavailablequesticon",
+        isDaily = "Recurringavailablequesticon",
+        isWeekly = "Recurringavailablequesticon",
+        isRepeatable = "Interface/GossipFrame/DailyActiveQuestIcon",
+        default = "Interface/GossipFrame/AvailableQuestIcon"
+    }
+
+    function WoWPro.GetQuestIconOffer(QID)
+        local quest_info = WoWPro.GetQuestInfo(QID)
+        if not quest_info then
+            local result = WoWPro.OfferIcons["default"]
+            if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): NIL default=%s", QID, result); end
+            return result, "Ordinary"
+        end
+        for flag, icon in pairs(WoWPro.OfferIcons) do
+            if quest_info[flag] then
+                if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): %s=%s", QID, flag, icon); end
+                return icon, string.sub(flag,3)
+            end
+        end
+        local result = WoWPro.OfferIcons["default"]
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): ??? default=%s", QID, result); end
+        return result, "Default"
+    end
+
+    WoWPro.ActiveIcons = {
+        isCampaign = "CampaignInProgressQuestIcon",
+        isLegendary = "legendaryInProgressquesticon",
+        isImportant = "importantInProgressquesticon",
+        isMeta = "WrapperInProgressquesticon",
+        isRecurring = "RepeatableInProgressquesticon",
+        default = "SideInProgressquesticon"
+    }
+    function WoWPro.GetQuestIconActive(QID)
+        local quest_info = WoWPro.GetQuestInfo(QID)
+        if not quest_info then
+            return WoWPro.ActiveIcons["default"]
+        end
+        for flag, icon in pairs(WoWPro.ActiveIcons) do
+            if quest_info[flag] then
+                return icon
+            end
+        end
+        return WoWPro.ActiveIcons["default"]
+    end
+    WoWPro.CompleteIcons = {
+        isCampaign = "CampaignActiveQuestIcon",
+        isLegendary = "legendaryactivequesticon",
+        isCovenantCalling = "CampaignActiveDailyQuestIcon",
+        isImportant = "importantactivequesticon",
+        isMeta = "Wrapperactivequesticon",
+        isRecurring = "Recurringactivequesticon",
+        default = "Interface/GossipFrame/ActiveQuestIcon"
+    }
+    function WoWPro.GetQuestIconComplete(QID)
+        local quest_info = WoWPro.GetQuestInfo(QID)
+        if not quest_info then
+            return WoWPro.CompleteIcons["default"], "Ordinary"
+        end
+        for flag, icon in pairs(WoWPro.CompleteIcons) do
+            if quest_info[flag] then
+                return icon, string.sub(flag,3)
+            end
+        end
+        return WoWPro.CompleteIcons["default"]
+    end
+    for flag, icon in pairs(WoWPro.OfferIcons) do
+        if string.sub(flag,1,2) == "is" then
+            local key = string.format("A %s", string.sub(flag,3))
+            WoWPro.actiontypes[key] = icon
+            WoWPro.actionlabels[key]  = string.format("Accept %s quest", string.sub(flag,3))
+        end
+    end
 end
 
 ---accept = {

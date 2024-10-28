@@ -264,7 +264,7 @@ local function ptable_inner(item)
     end
 end
 
-local function ptable(item)
+function WoWPro.Ptable(item)
     ptable_buf = {}
     ptable_inner(item)
     local ret = table.concat(ptable_buf)
@@ -296,7 +296,7 @@ function WoWPro.EmitZones(release)
 		local info = wip_map_info[id]
         local temp
         if info then
-            WoWPro:Print("%s",ptable(info))
+            WoWPro:Print("%s",WoWPro.Ptable(info))
             local nomen = info.nick or info.name
             local mapType = MapType2Name[info.mapType] or tostring(info.mapType)
             temp = ("DefineZone%d(%04d, %q, %s, %04d, %s"):format(release, info.mapID, nomen, mapType, info.parentMapID, tostring(info.GroupID))
@@ -307,7 +307,7 @@ function WoWPro.EmitZones(release)
             end
             temp = temp .. ")"
             if not WoWPro.GoodNicknameP(nomen) then
-                temp = temp .. " -- Collided " .. ptable(wip_name_info[nomen])
+                temp = temp .. " -- Collided " .. WoWPro.Ptable(wip_name_info[nomen])
             end
             -- WoWPro:Print(temp)
             result = result .. temp .. "\n"
@@ -377,10 +377,10 @@ function WoWPro.NameZones()
                 info.nick = info.name
             end
             if not info.ancestor then
-                WoWPro:Print(ptable(info))
+                WoWPro:Print(WoWPro.Ptable(info))
                 WoWPro:Print("NameZones(): Unable to find ancestor for map id %d", id)
             elseif not  wip_map_info[info.ancestor] then
-                WoWPro:Print(ptable(info))
+                WoWPro:Print(WoWPro.Ptable(info))
                 WoWPro:Print("NameZones(): Unable to find ancestor map id %s", tostring(info.ancestor))
             else
                 local daddy = wip_map_info[info.ancestor].name
@@ -454,7 +454,7 @@ function WoWPro.InferGoodNicknames()
         elseif type(info) == "table" then
             -- Whoops!
             local id = 404
-            WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q in %s", id, name, ptable(info))
+            WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q in %s", id, name, WoWPro.Ptable(info))
         end
     end
 end

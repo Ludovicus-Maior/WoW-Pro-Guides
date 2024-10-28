@@ -1,4 +1,4 @@
--- luacheck: globals tinsert select unpack
+-- luacheck: globals tinsert select string unpack
 
 --[[
     This is a compatability layer between Classic and Retail, and is
@@ -120,7 +120,20 @@ end
 --[[ C_QuestLog ]]--
 function WoWPro.QuestLog_GetInfo(questLogIndex)
     if not _G.GetQuestLogTitle then
-        return _G.C_QuestLog.GetInfo(questLogIndex)
+        local result = _G.C_QuestLog.GetInfo(questLogIndex)
+        if not result then return nil; end
+        if result.campaignID then
+            result.isCampaign = true
+        end
+        if  result.frequency and result.frequency > 0 then
+            result.isRecurring = true
+            if result.frequency == 1 then
+                result.isDaily = true
+            else
+                result.isWeekly = true
+            end
+        end
+        return result
     else
         local questTitle, level, suggestedGroup, isHeader, isCollapsed, _, frequency, questID, startEvent, _, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling = _G.GetQuestLogTitle(questLogIndex)
         if questTitle then
@@ -150,6 +163,11 @@ function WoWPro.QuestLog_GetInfo(questLogIndex)
         end
     end
 end
+
+function WoWPro.IsAtlas(path)
+    return not string.find(path,'[\\/]')
+end
+
 function WoWPro.QuestLog_GetNumQuestLogEntries()
     if not _G.GetNumQuestLogEntries then
         return _G.C_QuestLog.GetNumQuestLogEntries()
@@ -379,5 +397,13 @@ function WoWPro.UnitAura(Unit, BuffIndex, filter)
         else
             return nil
         end
+    end
+end
+
+function WoWPro.SetAtlasOrTexture(tex, path)
+    if WoWPro.IsAtlas(path) then
+        tex:SetAtlas(path)
+    else
+        tex:SetTexture(path)
     end
 end

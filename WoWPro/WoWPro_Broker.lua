@@ -951,14 +951,17 @@ end
 function WoWPro.SetActionTexture(currentRow)
     local k = currentRow.index
     local action = WoWPro.action[k]
-    local QID = tonumber(WoWPro.QID[k])
-    local mapID = _G.C_Map.GetBestMapForUnit("player")
-    local isCampaign = WoWPro.RETAIL and _G.C_QuestLine and tonumber(QID) and mapID and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID) and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID).isCampaign
+    local QID = WoWPro.QID[k]
 
     -- Set default Texture
     currentRow.action:SetTexture(WoWPro.actiontypes[action])
     -- Set custom Texure
     currentRow.action.tooltip.text:SetText(WoWPro.actionlabels[action])
+    if WoWPro.action[k] == "C" then
+        local tex = WoWPro.GetQuestIconActive(QID)
+        WoWPro.SetAtlasOrTexture(currentRow.action, tex)
+        currentRow.action.tooltip.text:SetText("Campaign Quest")
+    end
     if WoWPro.noncombat[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
         currentRow.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
         currentRow.action.tooltip.text:SetText("No Combat")
@@ -984,11 +987,13 @@ function WoWPro.SetActionTexture(currentRow)
     elseif WoWPro.elite[k] and WoWPro.action[k] == "A" then
         currentRow.action:SetTexture(WoWPro.actiontypes[action.." ELITE"])
         currentRow.action.tooltip.text:SetText("Elite Quest")
-    elseif isCampaign and WoWPro.action[k] == "A" then
-        currentRow.action:SetTexture(WoWPro.actiontypes[action.." Campaign"])
+    elseif WoWPro.action[k] == "A" then
+        local tex = WoWPro.GetQuestIconOffer(QID)
+        WoWPro.SetAtlasOrTexture(currentRow.action, tex)
         currentRow.action.tooltip.text:SetText("Campaign Quest")
-    elseif isCampaign and WoWPro.action[k] == "T" then
-        currentRow.action:SetTexture(WoWPro.actiontypes[action.." Campaign"])
+    elseif WoWPro.action[k] == "T" then
+        local tex = WoWPro.GetQuestIconComplete(QID)
+        WoWPro.SetAtlasOrTexture(currentRow.action, tex)
         currentRow.action.tooltip.text:SetText("Campaign Quest")
     end
 end
@@ -3593,8 +3598,8 @@ function WoWPro.PopulateQuestLog()
             end
             numLoggedQuests = numLoggedQuests + 1
 
-            -- TODO: Maybe at some point just change this to use questInfo?
-            WoWPro.QuestLog[questInfo.questID] = {
+            -- Old Stuff
+            local questLegacy = {
                 title = questInfo.title,
                 level = questInfo.level,
                 tag = "Standard",
@@ -3609,6 +3614,10 @@ function WoWPro.PopulateQuestLog()
                 campaignID = questInfo.campaignID,
                 index = questLogIndex
             }
+            for k, v in pairs(questLegacy) do
+                questInfo[k] = v
+            end
+            WoWPro.QuestLog[questInfo.questID] = questInfo
         end
     end
 
