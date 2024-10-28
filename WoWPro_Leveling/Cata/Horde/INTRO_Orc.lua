@@ -9,7 +9,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Your Place In The World|QID|25152|M|43.30,68.76|Z|1411;Durotar|N|From Kaltunk.|
-T Your Place In The World|QID|25152|M|44.90,66.31|Z|1411;Durotar|N|To Gornek.|
+T Your Place In The World|QID|25152|M|43.23,68.26|Z|1411;Durotar|N|To Gornek.|
 A Cutting Teeth|QID|25126|PRE|25152|M|43.23,68.26|Z|1411;Durotar|N|From Gornek.|
 C Cutting Teeth|QID|25126|M|44.79,65.27|Z|1411;Durotar|N|Kill boars in the nearby boar pen.|T|Mottled Boar|
 T Cutting Teeth|QID|25126|M|43.23,68.26|Z|1411;Durotar|N|To Gornek.|
