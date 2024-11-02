@@ -147,7 +147,6 @@ function WoWPro:CreateItemButton(parent, id)
     itemicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
     itemicon:SetAllPoints(itembutton)
 
-    itembutton:RegisterForClicks("anyDown","anyUp")
     itembutton:Hide()
 
     return itembutton, itemicon, itemcooldown

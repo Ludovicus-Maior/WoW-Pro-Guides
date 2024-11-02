@@ -1537,7 +1537,7 @@ if step then
             elseif emote then
                 mtext = "/target "..tar.."\n/"..emote
             else
-                mtext = "/cleartarget\n/target "..tar.."\n"
+                mtext = "/cleartarget[dead]\n/target "..tar.."\n"
                 mtext = mtext .. "/run if GetRaidTargetIndex('target') ~= 8 and not UnitIsDead('target') then SetRaidTarget('target', 8) end"
             end
             currentRow.targetbutton:SetAttribute("macrotext", mtext)
