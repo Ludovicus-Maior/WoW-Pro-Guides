@@ -42,7 +42,7 @@ B Soothsayer's Runes|QID|29464|M|0.0,0.0|L|71716|IZ|Stormwind City^Orgrimmar|S|
 B Banner of the Fallen|QID|29456|M|0.0,0.0|L|71951|IZ|Stormwind City^Orgrimmar|S|
 B Captured Insignia|QID|29457|M|0.0,0.0|L|71952|IZ|Stormwind City^Orgrimmar|S|
 B Adventurer's Journal|QID|29458|M|0.0,0.0|L|71952|IZ|Stormwind City^Orgrimmar|S|
-N Obtain from the Auction House|ACH|-6029|M|0.0,0.0|N|The above items will give you experence and reputation.  Retrieve them from your mailbox if you purchase any.\n\nThis will go away when you leave the area|IZ|Stormwind City^Orgrimmar|S|
+N Obtain from the Auction House|ACH|-6029|M|0.0,0.0|N|The above items will give you experence and reputation.  Retrieve them from your mailbox if you purchase any.\n\nThis will go away when you leave the city.|IZ|Stormwind City^Orgrimmar|S|
 
 A A Curious Crystal|QID|29443|M|0.0,0.0|ITEM|71635|U|71635|O|
 A An Exotic Egg|QID|29444|M|0.0,0.0|ITEM|71636|U|71636|O|
@@ -57,7 +57,7 @@ A The Captured Journal|QID|29458|M|0.0,0.0|ITEM|71953|U|71953|O|
 A The Darkmoon Faire|QID|7905|M|62.41,73.03|CN|N|From Darkmoon Faire Mystic Mage who's near the Trade District in Stormwind.|Z|Stormwind City|FACTION|Alliance|
 A The Darkmoon Faire|QID|7926|M|48.22,62.14|N|From Darkmoon Faire Mystic Mage who's near the flying trainer in Orgrimmar.|Z|Orgrimmar|FACTION|Horde|
 
-N Game Tokens Missing|M|0.0,0.0|N|If you have any in your bank, grab them now|L|71083|IZ|Stormwind City^Orgrimmar|S|
+N Game Tokens Missing|M|0.0,0.0|N|If you have any in your bank, grab them now if you plan on playing the games.\n\nRight click to continue.|L|71083|IZ|Stormwind City^Orgrimmar|S|
 
 N Transport to the Staging Area|M|62.41,73.03|N|Talk to the Faire Mystic Mage to get ported to the entrance.|Z|Stormwind City|IZ|Stormwind City|FACTION|Alliance|
 N Transport to the Staging Area|M|48.22,62.14|N|Talk to the Faire Mystic Mage to get ported to the entrance.|Z|Orgrimmar|IZ|Orgrimmar|FACTION|Horde|
@@ -96,7 +96,7 @@ P Enter the Faire|M|41.79,69.30|Z|Elwynn Forest|IZ|Elwynn Forest|FACTION|Allianc
 P Enter the Faire|M|36.81,35.79|Z|Mulgore|IZ|Mulgore^Thunder Bluff|FACTION|Horde|
 
 N Deathmatch Pavilion|QID|29761|ACH|6024;;;true|M|47.12,78.60|NC|N|Every 3 hours, starting at midnight.|L|74034 12|RANK|3|S|
-N Death Metal Knight|QID|47767|S|
+N Death Metal Knight|QID|47767|N|More to follow.|S|
 
 N Bloated Thresher|M|0.0,0.0|ITEM|127141|U|127141|O|S|
 N Sealed Darkmoon Crate|M|0.0,0.0|ITEM|124670|U|124670|O|S|
@@ -112,12 +112,12 @@ N Pouch o' Tokens|M|0.0,0.0|NC|ITEM|78904|U|78904|S|O|
 N Sack o' Tokens|M|0.0,0.0|NC|ITEM|78910|U|78910|S|O|
 B Purchase Tokens|QID|29463|M|54.59,53.33|N|From Zina Sharpworth if you want to play the games.|L|71083|
 
-A It's Hammer Time|QID|29463|M|53.29,54.37|N|[G] - From Mola.|
+A It's Hammer Time|QID|29463|M|53.29,54.37|N|[G] - From Mola.\n\nRight click to skip the games.|
 N That's Whack!|ACTIVE|29463|ACH|9983;;;true|N|Score 45 points in one session of Whack-a-Gnoll.|S|ITEM|123862|RANK|3|
 C It's Hammer Time|QID|29463|M|0.0,0.0|NC|N|Talk to Mola, picking Ready to whack!\n\nGo in and wack. Avoid dolls. Hitting Hogger (big brown) grants 3 points.\n\n|
 T It's Hammer Time|QID|29463|M|53.29,54.37|N|To Mola.|
 
-A The Humanoid Cannonball|QID|29436|M|52.51,56.15|N|[G] From Maxima Blastenheimer.|
+A The Humanoid Cannonball|QID|29436|PRE|29463|M|52.51,56.15|N|[G] From Maxima Blastenheimer.|
 N Blastenheimer Bullseye|ACTIVE|29436|ACH|6021;;;true|N|Score a bullseye when launched from the Darkmoon Cannon.|M|57.25,89.85|S|RANK|3|
 C The Humanoid Cannonball|QID|29436|M|54.98,81.21|NC|N|Talk to Maxima, picking Launch me!.\n\nChange your view till you are looking down, then try to release right when you are about to go past the waypoint.\n\nTalk to Teleportologist Fozlebub for a return trip.|
 T The Humanoid Cannonball|QID|29436|M|52.51,56.15|N|To Maxima Blastenheimer.|
@@ -137,7 +137,7 @@ T Tools of Divination|QID|29464|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
 A Fun for the Little Ones|QID|29507|M|51.89,60.92|N|[P] From Professor Thaddeus Paleo.|P|Archaeology;794;|RANK|2|
 T Fun for the Little Ones|QID|29507|M|51.89,60.92|N|From Professor Thaddeus Paleo.|
 
-A He Shoots, He Scores!|QID|29438|M|49.25,60.79|N|[G] From Rinling.|
+A He Shoots, He Scores!|QID|29438|PRE|29463|M|49.25,60.79|N|[G] From Rinling.|
 A Rearm, Reuse, Recycle|QID|29518|M|49.25,60.79|N|[P] From Rinling.|P|Mining;186;|RANK|2|
 A Talkin' Tonks|QID|29511|M|49.25,60.79|N|[P] From Rinling.|P|Engineering;202;|RANK|2|
 A Eyes on the Prizes|QID|29517|M|49.25,60.79|N|[P] From Rinling.|P|Leatherworking;165;|RANK|2|
@@ -170,7 +170,7 @@ T The Darkmoon Faire|QID|7905^7926|M|48.10,64.88|N|To Gelvas Grimegate.|
 t Test Your Strength|QID|29433|M|47.91,67.12|N|To Kerri Hicks.|
 A Test Your Strength|QID|29433|M|47.91,67.12|N|From Kerri Hicks.|
 
-A Tonk Commander|QID|29434|M|50.70,65.16|NC|N|[G] From Finlay Coolshot.|
+A Tonk Commander|QID|29434|PRE|29463|M|50.70,65.16|NC|N|[G] From Finlay Coolshot.|
 N Ace Tonk Commander|ACTIVE|29434|ACH|9885;;;true|M|0.0,0.0|NC|N|45 targets destroyed in one session.|S|RANK|3|
 C Tonk Commander|QID|29434|M|50.70,65.16|NC|N|Talk to Finlay, pick Ready to play!\n\nDrive through the targets and hit '1' when they're behind you. If you get targeted (ping sound) hit '2" for speed.\n\n|
 T Tonk Commander|QID|29434|M|50.70,65.16|N|To Finlay Coolshot.|
@@ -242,14 +242,14 @@ N Drink Fizzy Faire Drink 'Classic'|ACH|6026;15|L|33236|U|33236|O|
 N Drink Fresh-Squeezed Limeade|ACH|6026;16|L|44941|U|44941|O|
 N Drink Sasparilla Sinker|ACH|6026;18|L|74822|U|74822|O|
 
-A Firebird's Challenge|QID|36481|M|48.56,71.30|NC|N|[G] From Ziggie Sparks.|
+A Firebird's Challenge|QID|36481|PRE|29463|M|48.56,71.30|NC|N|[G] From Ziggie Sparks.|
 N Brood of Alysrazor|ACTIVE|36481|M|0.0,0.0|ACH|9252;;;true|NC|N|50 rings collected.|RANK|3|S|
 C Firebird's Challenge|QID|36481|M|0.0,0.0|NC|N|Talk to Ziggie Sparks, Ready to fly\n\n|
 T Firebird's Challenge|QID|36481|M|48.56,71.30|NC|N|To Ziggie Sparks.|
 
 B Taking the Show on the Road: Darkmoon Fireworks|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030|L|74142 6|RANK|3|
 
-A Dance Dance Darkmoon|QID|64783|M|51.30,74.13|NC|N|[G] From Simon Sezdans.|
+A Dance Dance Darkmoon|QID|64783|PRE|29463|M|51.30,74.13|NC|N|[G] From Simon Sezdans.|
 N Feeling It|ACTIVE|64783|ACH|15223;;;true|M|0.0,0.0|NC|N|A perfect score on Easy 10 times.|RANK|3|S|
 N Can't Stop the Feeling|ACTIVE|64783|ACH|15215;;;true|M|0.0,0.0|NC|N|A perfect score on Medium 10 times.|RANK|3|S|
 N Maniac on the Dance Floor|ACTIVE|64783|ACH|15217;;;true|M|0.0,0.0|NC|N|A perfect score on Hard 10 times.|RANK|3|S|
@@ -266,7 +266,7 @@ T Writing the Future|QID|29515|M|53.24,75.83|N|To Sayge.|
 
 l Collect 6 Discarded Weapon|ACTIVE|29510|QO|1|N|Around the faire grounds.|L|72018 6|S|
 
-A Target: Turtle|QID|29455|M|51.51,77.70|N|[G] Jessica Rogers.|
+A Target: Turtle|QID|29455|PRE|29463|M|51.51,77.70|N|[G] Jessica Rogers.|
 N Triumphant Turtle Tossing|ACTIVE|29455|ACH|9894;;;true|M|0.0,0.0|N|Successfully toss 10 rings in one session.|S|RANK|3|
 C Target: Turtle|QID|29455|M|0.0,0.0|NC|N|Talk to Jessica Rogers, Ready to play!\n\nFind the center where he stops and press 1. When he turns on the outside, click the spot to toss it.|
 T Target: Turtle|QID|29455|M|51.51,77.70|N|To Jessica Rogers.|
@@ -299,11 +299,11 @@ A Welcome to the Darkmoon Races|QID|37819|M|49.05,88.08|N|From Malle Earnhard.|
 C Welcome to the Darkmoon Races|QID|37819|M|0.0,0.0|
 T Welcome to the Darkmoon Races|QID|37819|M|49.05,88.08|N|To Malle Earnhard.|
 
-A The Real Race|QID|37910|M|49.05,88.08|N|From Malle Earnhard.|
+A The Real Race|QID|37910|PRE|29463|M|49.05,88.08|N|[G] From Malle Earnhard.|
 C The Real Race|QID|37910|M|0.0,0.0|
 T The Real Race|QID|37910|M|49.05,88.08|N|From Malle Earnhard.|
 
-A The Real Big Race|QID|37911|M|53.15,87.80|N|From Patti Earnhard.|
+A The Real Big Race|QID|37911|PRE|29463|M|53.15,87.80|N|[G] From Patti Earnhard.|
 C The Real Big Race|QID|37911|M|0.0,0.0|
 T The Real Big Race|QID|37911|M|53.15,87.80|N|To Patti Earnhard.|
 
