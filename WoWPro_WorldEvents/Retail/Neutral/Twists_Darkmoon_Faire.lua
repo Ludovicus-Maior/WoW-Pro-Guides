@@ -14,7 +14,7 @@ return [[
 
 ; Max levels in the guide are currently set at 80
 
-N Fossil Archeology Fragments|QID|29507|NC|M|0.0,0.0|N|Found in Eastern Kingdom and Kalimdor. Open up your map to see if any of these locations have dig sites with "fossil" in them for the Archeology quest if you wish. You can check your Archaeology book to see how many you have.|P|Archaeology;794;|IZ|-Stormwind City^Orgrimmar^Elwynn Forest^Mulgore^Thunder Bluff^Darkmoon Island^Deathmatch Pavilion|RANK|2|S|
+N Fossil Archeology Fragments|QID|29507|NC|M|0.0,0.0|N|Found in Eastern Kingdom and Kalimdor. Open up your map to see if any of these locations have dig sites with "fossil" in them for the Archeology quest if you wish. You can check your Archaeology book to see how many you have. You need 15.|P|Archaeology;794;|IZ|-Stormwind City^Orgrimmar^Elwynn Forest^Mulgore^Thunder Bluff^Darkmoon Island^Deathmatch Pavilion|RANK|2|S|
 
 N About this Guide|M|0.0,0.0|NC|N|The Darkmoon Faire can be divided into [G]ames, [P]rofessions, and Achievements. You set this by right-clicking this window's titlebar, Main Settings, Ranks. Rank is set as:\n\n1 - Games (reputation/tickets)\n2 - Games and Professions (Experience/Knowledge/reputation)\n3 - Games, Professions, and Achievements|IZ|-Stormwind City^Orgrimmar^Mulgore^Elwynn Forest^Thunder Bluff^Darkmoon Island^Deathmatch Pavilion|S|
 P Stormwind City|M|0.0,0.0|NC|N|This guide starts in Stormwind City|IZ|-Stormwind City^Elwynn Forest^Darkmoon Island^Deathmatch Pavilion|FACTION|Alliance|
@@ -22,27 +22,41 @@ P Orgrimmar|M|0.0,0.0|NC|N|This guide starts in Orgrimmar|IZ|-Orgrimmar^Mulgore^
 
 N Dark Iron Ale|QID|7946|M|50.0,61.6|Z|Shadowforge City@BlackrockDepths|L|11325 10|U|37863|PET|14878;1;true|ITEM|11325|N|If you want the mini pet "Jubling" you need at least 10 Dark Iron Ale.  You can buy 10 ale from Plugger Spazzring in the Bar area of Blackrock Depths (Use a Direbrew remote) or from the AH.\n\nLeft click to ignore this part in the guide.|IZ|Stormwind City^Orgrimmar^Shadowforge City@BlackrockDepths|FACTION|Alliance|
 
-B Imbued Crystal|ACH|6029;8;;true|M|0.0,0.0|L|71635|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-B Monstrous Egg|ACH|6029;9;;true|M|0.0,0.0|L|71636|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-B Mysterious Grimoire|ACH|6029;3;;true|M|0.0,0.0|L|71637|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-B Ornate Weapon|ACH|6029;4;;true|M|0.0,0.0|L|71638|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-B A Treatise on Strategy|ACH|6029;2;;true|M|0.0,0.0|L|71638|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-B Soothsayer's Runes|ACH|6029;6;;true|M|0.0,0.0|L|71716|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-B Banner of the Fallen|ACH|6029;5;;true|M|0.0,0.0|L|71951|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-B Captured Insignia|ACH|6029;7;;true|M|0.0,0.0|L|71952|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-B Adventurer's Journal|ACH|6029;1;;true|M|0.0,0.0|L|71952|RANK|3|IZ|Stormwind City^Orgrimmar|S|
-N Darkmoon Despoiler|ACH|6029;;;true|M|0.0,0.0|N|Purchase the above from the AH for the achievment. Retrieve them from your mailbox.\n\nThis will go away when you leave the area|RANK|3|IZ|Stormwind City^Orgrimmar|S|
+N Darkmoon Despoiler|ACH|6029;;;true|M|0.0,0.0|N|Purchase the below from the AH for the achievment. Retrieve them from your mailbox.\n\nCheck them off as you buy them|RANK|3|IZ|Stormwind City^Orgrimmar|S|
 
-B Imbued Crystal|QID|29443|M|0.0,0.0|L|71635|IZ|Stormwind City^Orgrimmar|S|
-B Monstrous Egg|QID|29444|M|0.0,0.0|L|71636|IZ|Stormwind City^Orgrimmar|S|
-B Mysterious Grimoire|QID|29445|M|0.0,0.0|L|71637|IZ|Stormwind City^Orgrimmar|S|
-B Ornate Weapon|QID|29446|M|0.0,0.0|L|71638|IZ|Stormwind City^Orgrimmar|S|
-B A Treatise on Strategy|QID|29451|M|0.0,0.0|L|71638|IZ|Stormwind City^Orgrimmar|S|
-B Soothsayer's Runes|QID|29464|M|0.0,0.0|L|71716|IZ|Stormwind City^Orgrimmar|S|
-B Banner of the Fallen|QID|29456|M|0.0,0.0|L|71951|IZ|Stormwind City^Orgrimmar|S|
-B Captured Insignia|QID|29457|M|0.0,0.0|L|71952|IZ|Stormwind City^Orgrimmar|S|
-B Adventurer's Journal|QID|29458|M|0.0,0.0|L|71952|IZ|Stormwind City^Orgrimmar|S|
-N Obtain from the Auction House|ACH|-6029|M|0.0,0.0|N|The above items will give you experence and reputation.  Retrieve them from your mailbox if you purchase any.\n\nThis will go away when you leave the city.|IZ|Stormwind City^Orgrimmar|S|
+B Imbued Crystal|ACH|6029;8;;true|M|0.0,0.0|L|71635|RANK|3|IZ|Stormwind City^Orgrimmar|
+B Monstrous Egg|ACH|6029;9;;true|M|0.0,0.0|L|71636|RANK|3|IZ|Stormwind City^Orgrimmar|
+B Mysterious Grimoire|ACH|6029;3;;true|M|0.0,0.0|L|71637|RANK|3|IZ|Stormwind City^Orgrimmar|
+B Ornate Weapon|ACH|6029;4;;true|M|0.0,0.0|L|71638|RANK|3|IZ|Stormwind City^Orgrimmar|
+B A Treatise on Strategy|ACH|6029;2;;true|M|0.0,0.0|L|71638|RANK|3|IZ|Stormwind City^Orgrimmar|
+B Soothsayer's Runes|ACH|6029;6;;true|M|0.0,0.0|L|71716|RANK|3|IZ|Stormwind City^Orgrimmar|
+B Banner of the Fallen|ACH|6029;5;;true|M|0.0,0.0|L|71951|RANK|3|IZ|Stormwind City^Orgrimmar|
+B Captured Insignia|ACH|6029;7;;true|M|0.0,0.0|L|71952|RANK|3|IZ|Stormwind City^Orgrimmar|
+B Adventurer's Journal|ACH|6029;1;;true|M|0.0,0.0|L|71952|RANK|3|IZ|Stormwind City^Orgrimmar|
+
+N Obtain from the Auction House|QID|6029001|ACH|-6029|M|0.0,0.0|N|The below items will give you experence and reputation.  Retrieve them from your mailbox if you purchase any.\n\nCheck them off as you buy them or Left click this to ignore them all.|IZ|Stormwind City^Orgrimmar|S|LVL|-80|
+
+B Imbued Crystal|QID|6029001|M|0.0,0.0|L|71635|IZ|Stormwind City^Orgrimmar|LVL|-80|
+B Monstrous Egg|QID|6029001|M|0.0,0.0|L|71636|IZ|Stormwind City^Orgrimmar|LVL|-80|
+B Mysterious Grimoire|QID|6029001|M|0.0,0.0|L|71637|IZ|Stormwind City^Orgrimmar|LVL|-80|
+B Ornate Weapon|QID|6029001|M|0.0,0.0|L|71638|IZ|Stormwind City^Orgrimmar|LVL|-80|
+B A Treatise on Strategy|QID|6029001|M|0.0,0.0|L|71638|IZ|Stormwind City^Orgrimmar|LVL|-80|
+B Soothsayer's Runes|QID|6029001|M|0.0,0.0|L|71716|IZ|Stormwind City^Orgrimmar|LVL|-80|
+B Banner of the Fallen|QID|6029001|M|0.0,0.0|L|71951|IZ|Stormwind City^Orgrimmar|LVL|-80|
+B Captured Insignia|QID|6029001|M|0.0,0.0|L|71952|IZ|Stormwind City^Orgrimmar|LVL|-80|
+B Adventurer's Journal|QID|6029001|M|0.0,0.0|L|71952|IZ|Stormwind City^Orgrimmar|LVL|-80|
+
+N Obtain from the Auction House|QID|6029002|ACH|-6029|M|0.0,0.0|N|The below items will give you darkmoon reputation.  Retrieve them from your mailbox if you purchase any.\n\nCheck them off as you buy them or Left click this to ignore them all.|IZ|Stormwind City^Orgrimmar|S|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+
+B Imbued Crystal|QID|6029002|M|0.0,0.0|L|71635|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+B Monstrous Egg|QID|6029002|M|0.0,0.0|L|71636|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+B Mysterious Grimoire|QID|6029002|M|0.0,0.0|L|71637|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+B Ornate Weapon|QID|6029002|M|0.0,0.0|L|71638|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+B A Treatise on Strategy|QID|6029002|M|0.0,0.0|L|71638|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+B Soothsayer's Runes|QID|6029002|M|0.0,0.0|L|71716|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+B Banner of the Fallen|QID|6029002|M|0.0,0.0|L|71951|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+B Captured Insignia|QID|6029002|M|0.0,0.0|L|71952|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
+B Adventurer's Journal|QID|6029002|M|0.0,0.0|L|71952|IZ|Stormwind City^Orgrimmar|LVL|80|REP|Darkmoon Faire;909;neutral-revered|
 
 A A Curious Crystal|QID|29443|M|0.0,0.0|ITEM|71635|U|71635|O|
 A An Exotic Egg|QID|29444|M|0.0,0.0|ITEM|71636|U|71636|O|
@@ -323,7 +337,7 @@ N Taking the Show on the Road: Orgrimmar|QID|99603100|N|Take the portal back to 
 N Taking the Show on the Road: Undercity|QID|99603100|N|Take a zepplin to Tirisfal Glade, fly to Undercity. Make sure your mini-map says Undercity, not Ruins of Lordaeron|ACH|6031;6|U|74142|FACTION|Horde|RANK|3|
 N Taking the Show on the Road: Silvermoon|QID|99603100|N|Take the globe thingie from the courtyard to Silvermoon City.|ACH|6031;4|U|74142|FACTION|Horde|RANK|3|
 
-N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
+N End of Guide|M|0.0,0.0|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]
 
 end)
