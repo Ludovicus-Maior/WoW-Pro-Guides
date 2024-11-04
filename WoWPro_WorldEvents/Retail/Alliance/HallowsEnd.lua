@@ -34,7 +34,7 @@ T Stink Bombs Away!|QID|29054|M|32.36,50.79|Z|Elwynn Forest|N|To Gretchen Fenlow
 
 C Clean Up in Stormwind|QID|29144|M|49.12,50.83|Z|Stormwind City|IZ|Stormwind City|N|Look for Orange clouds.|U|69191|S|
 
-A Flexing for Nougat|QID|8356|M|60.14,75.09|N|From Innkeeper Allison.|Z|Stormwind City|
+A Flexing for Nougat|QID|8356|ACTIVE|8311|M|60.14,75.09|N|From Innkeeper Allison.|Z|Stormwind City|
 C Flexing for Nougat|QID|8356|T|/flex|N|click the button to flex.|Z|Stormwind City|
 T Flexing for Nougat|QID|8356|M|60.14,75.09|N|To Innkeeper Allison.|Z|Stormwind City|
 A Candy Bucket|QID|12336|M|60.52,75.33|Z|Stormwind City|N|Stormwind City|
@@ -51,7 +51,7 @@ N Return to the Past|QID|8311|QO|4|M|48.82,24.42|Z|Darkshore|IZ|Darkshore|N|Talk
 F Rut'theran Village|QID|8311|QO|4|M|51.72,17.70|Z|Darkshore!Kalimdor|N|Head to the flightmaster and take a flight to Rut'theran Village.|
 
 R Darnassus|QID|12334|QO|4|M|55.11,88.52|N|Enter the portal to Teldrassil.|Z|Teldrassil|
-A Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|
+A Dancing for Marzipan|QID|8357|ACTIVE|8311|M|62.31,32.92|Z|Darnassus|
 C Dancing for Marzipan|QID|8357|T|/dance|N|click the button to dance.|Z|Darnassus|
 T Dancing for Marzipan|QID|8357|M|62.31,32.92|Z|Darnassus|
 A Candy Bucket |QID|12334|M|62.25,33.17|Z|Darnassus|N|Darnassus|
@@ -63,10 +63,10 @@ P Sanctum of the Sages|QID|29371|QO|2|M|48.54,94.81|Z|Stormwind City|IZ|Stormwin
 P City of Ironforge|QID|29371|QO|2|M|70.82,15.66|Z|Boralus|N|Take the portal to Ironforge.|
 F City of Ironforge|QID|29371|QO|2|M|53.76,52.67|N|Talk to Brolan Galebeard.|Z|Ironforge|
 
-A Incoming Gumdrop|QID|8355|M|36.21,4.03|N|From Talvash del Kissel.|Z|Ironforge|
+A Incoming Gumdrop|QID|8355|ACTIVE|8311|M|36.21,4.03|N|From Talvash del Kissel.|Z|Ironforge|
 C Incoming Gumdrop|QID|8355|T|/train|N|click the button for the train.|Z|Ironforge|
 T Incoming Gumdrop|QID|8355|M|36.21,4.03|N|To Talvash del Kissel.|Z|Ironforge|
-A Chicken Clucking for a Mint|QID|8353|M|18.77,51.27|N|From Innkeeper Firebrew.|Z|Ironforge|
+A Chicken Clucking for a Mint|QID|8353|ACTIVE|8311|M|18.77,51.27|N|From Innkeeper Firebrew.|Z|Ironforge|
 C Chicken Clucking for a Mint|QID|8353|T|/chicken|N|click the button to cluck.|Z|Ironforge|
 T Chicken Clucking for a Mint|QID|8353|M|18.77,51.27|N|To Innkeeper Firebrew.|Z|Ironforge|
 A Candy Bucket |QID|12335|M|18.5,50.9|Z|Ironforge|
@@ -93,11 +93,12 @@ C No Laughing Matter|QID|76073|QO|5|M|83.18,30.01|Z|Tirisfal Glades|
 T No Laughing Matter|QID|76073|M|83.48,30.67|Z|Tirisfal Glades|
 
 A The Headless Horseman, Returned|QID|76074|M|83.48,30.67||N|This is a dungeon finder quest to run the Headless Horseman.|Z|Tirisfal Glades|
+C The Headless Horseman, Returned|QID|76074|M|0.0,0.0|N|Key up for the Headless Horseman in group finder. Be sure and turn in the quest and pick up the next one in the instance.|S|
 
 C A Time to Lose|QID|29371|QO|1|M|69.47,62.65|N|Speak to Zidormi if you need to enter the past.|Z|Tirisfal Glades|BUFF|276827|
 C A Time to Lose|QID|29371|M|63.12,67.19|N|WARNING: If you are on a PvE server, approaching this will flag you PvP.|QO|2|Z|Tirisfal Glades|U|68648|
 
-H Stormwind|ACTIVE|29371|M|0.0,0.0|N|Hearth and then return to Stormwind|Z|Tirisfal Glades|IZ|-Stormwind City^Elwynn Forest|
+H Stormwind City|QID|29371|M|72.52,68.16|N|Make your way back to Stormwind|Z|Tirisfal Glades|IZ|-Stormwind City^-Elwynn Forest|
 
 C Fencing the Goods|QID|29398|M|61.19,70.84|N|Talk to Auctioneer Finch.|Z|Stormwind City|
 T Fencing the Goods|QID|29398|M|61.19,70.84|N|To Auctioneer Finch.|Z|Stormwind City|
