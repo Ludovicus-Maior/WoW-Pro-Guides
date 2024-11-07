@@ -3,6 +3,4 @@
 	<Script file="Twists_Darkmoon_Faire.lua"/>
 	<Script file="DF_LunarFestival.lua"/>
 	<Script file="Squally.lua"/>
-	<Script file="HallowsEnd_DI.lua"/>
-	<Script file="HallowsEnd_TWW.lua"/>
 </Ui>

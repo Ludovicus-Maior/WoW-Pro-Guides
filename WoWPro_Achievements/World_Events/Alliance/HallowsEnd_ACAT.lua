@@ -3,9 +3,10 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("TwiHallACat",'Achievements',"Cataclysm", "Twists", "Alliance")
+local guide = WoWPro:RegisterGuide("TwiHallACat",'Achievements',"Cataclysm", "WoWPro Team", "Alliance")
 WoWPro:GuideLevels(guide,10,90)
 WoWPro.Achievements:GuideMisc(guide, "Tricks and Treats of the Cataclysm", "Holiday", "Hallows End")
+WoWPro:GuideName(guide, "Hallows End - Cataclysm")
 WoWPro:GuideSteps(guide, function()
 return [[
 

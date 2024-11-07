@@ -3,9 +3,10 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoHallowNOR",'WorldEvents',"Northrend", "Ludovicus", "Horde")
+local guide = WoWPro:RegisterGuide("LudoHallowNOR",'Achievements',"Northrend", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,1,90,45.000000)
 WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Northrend")
+WoWPro:GuideName(guide, "Hallows End - Northrend")
 WoWPro:GuideSteps(guide, function()
 return [[
 

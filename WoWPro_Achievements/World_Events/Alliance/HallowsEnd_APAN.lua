@@ -3,9 +3,10 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoHallowPanA",'Achievements',"Pandaria", "Ludovicus", "Alliance")
+local guide = WoWPro:RegisterGuide("LudoHallowPanA",'Achievements',"Pandaria", "WoWPro Team", "Alliance")
 WoWPro:GuideLevels(guide,10,90)
 WoWPro.Achievements:GuideMisc(guide, "Tricks and Treats of Pandaria", "Holiday", "Hallows End")
+WoWPro:GuideName(guide, "Hallows End - Pandaria")
 WoWPro:GuideSteps(guide, function()
 return [[
 

@@ -1,0 +1,5 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Rkdl_Brood_of_Alysrazor.lua"/>
+	<Script file="HallowsEnd_DI.lua"/>
+	<Script file="HallowsEnd_TWW.lua"/>
+</Ui>

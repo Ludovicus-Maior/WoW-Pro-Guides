@@ -3,9 +3,10 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoHallowEK",'WorldEvents',"Eastern Kingdom", "Ludovicus", "Horde")
+local guide = WoWPro:RegisterGuide("LudoHallowEK",'Achievements',"Eastern Kingdom", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Eastern Kingdom" )
+WoWPro:GuideName(guide, "Hallows End - Eastern Kingdom")
 WoWPro:GuideSteps(guide, function()
 return [[
 
