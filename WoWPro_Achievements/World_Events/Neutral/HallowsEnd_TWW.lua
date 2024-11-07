@@ -3,7 +3,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CagHollTWW",'Achievements',"Khaz Algar", "WoWPro Team", "Neutral")
-WoWPro:GuideLevels(guide,10,80)
+WoWPro:GuideLevels(guide,10)
 WoWPro.Achievements:GuideMisc(guide, "Tricks and Treats of Khaz Algar", "Holiday", "Hallows End")
 WoWPro:GuideName(guide, "Hallows End - Khaz Algar")
 WoWPro:GuideSteps(guide, function()

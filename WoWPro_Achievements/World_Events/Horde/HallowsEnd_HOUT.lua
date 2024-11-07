@@ -4,8 +4,8 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("LudoHallowOUT",'Achievements',"Outland", "Ludovicus", "Horde")
-WoWPro:GuideLevels(guide,1,90,45.000000)
-WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Outland")
+WoWPro:GuideLevels(guide,10)
+WoWPro.Achievements:GuideMisc(guide, "Tricks and Treats of Outland", "Holiday", "Hallows End")
 WoWPro:GuideName(guide, "Hallows End - Outland")
 WoWPro:GuideSteps(guide, function()
 return [[

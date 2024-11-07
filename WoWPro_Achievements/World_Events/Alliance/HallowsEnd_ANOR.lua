@@ -4,7 +4,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("TwiHallNor",'Achievements',"Northrend", "WoWPro Team", "Alliance")
-WoWPro:GuideLevels(guide,10,90)
+WoWPro:GuideLevels(guide,10)
 WoWPro.Achievements:GuideMisc(guide, "Tricks and Treats of Northrend", "Holiday", "Hallows End")
 WoWPro:GuideName(guide, "Hallows End - Northrend")
 WoWPro:GuideSteps(guide, function()

@@ -6,7 +6,7 @@
 local guide = WoWPro:RegisterGuide("TwiHallAEK",'Achievements',"Eastern Kingdoms", "WoWPro Team", "Alliance")
 WoWPro:GuideLevels(guide,10,90)
 WoWPro.Achievements:GuideMisc(guide, "Tricks and Treats of Eastern Kingdoms", "Holiday", "Hallows End")
-WoWPro:GuideName(guide, "Hallows End - Eastern Kingdom")
+WoWPro:GuideName(guide, "Hallows End - Eastern Kingdoms")
 WoWPro:GuideSteps(guide, function()
 return [[
 

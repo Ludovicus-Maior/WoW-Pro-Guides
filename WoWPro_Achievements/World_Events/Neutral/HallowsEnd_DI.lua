@@ -3,7 +3,7 @@
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
 local guide = WoWPro:RegisterGuide("CagHollDI",'Achievements',"Dragon Isles", "WoWPro Team", "Neutral")
-WoWPro:GuideLevels(guide,10,80)
+WoWPro:GuideLevels(guide,10)
 WoWPro.Achievements:GuideMisc(guide, "Tricks and Treats of The Dragon Isles", "Holiday", "Hallows End")
 WoWPro:GuideName(guide, "Hallows End - The Dragon Isles")
 WoWPro:GuideSteps(guide, function()
