@@ -30,5 +30,7 @@ Quests\Guides.xml
 Treasures\Guides.xml
 Rares\Guides.xml
 Reputation\Guides.xml
-World_Events\Guides.xml
+World_Events\Alliance\Guides.xml
+World_Events\Horde\Guides.xml
+World_Events\Neutral\Guides.xml
 Time_Running\Guides.xml

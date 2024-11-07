@@ -1,6 +1,11 @@
-local guide = WoWPro:RegisterGuide("CagHollDI",'WorldEvents',"Dragon Isles", "WoWPro Team", "Neutral")
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
+
+local guide = WoWPro:RegisterGuide("CagHollDI",'Achievements',"Dragon Isles", "WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,10,80)
-WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Dragon Isles")
+WoWPro.Achievements:GuideMisc(guide, "Tricks and Treats of The Dragon Isles", "Holiday", "Hallows End")
+WoWPro:GuideName(guide, "Hallows End - The Dragon Isles")
 WoWPro:GuideSteps(guide, function()
 return [[
 

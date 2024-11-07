@@ -1,7 +1,7 @@
-local guide = WoWPro:RegisterGuide('Twists_Spreading_the_Light', 'Weekly', 'Hallowfall', 'Twists', 'Neutral')
+local guide = WoWPro:RegisterGuide('Twists_Spreading_the_Light', 'Dailies', 'Hallowfall', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Twists_Spreading_the_Light")
+WoWPro.Dailies:GuideNameAndCategory(guide,"Hallowfall Weeklies","Money")
 WoWPro:GuideLevels(guide,70, 80)
-;WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideSteps(guide, function()
 return [[
 
