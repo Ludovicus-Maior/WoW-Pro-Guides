@@ -2,7 +2,7 @@
 -- Based on a work at  https://github.com/Ludovicus-Maior/WoW-Pro-Guides .
 -- The license is available at https://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md  .
 
-local guide = WoWPro:RegisterGuide("EmmTillers",'Dailies', "Valley of the Four Winds", "Emmaleah", "Neutral")
+local guide = WoWPro:RegisterGuide("EmmTillers",'Dailies', "Valley of the Four Winds", "WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,15,50)
 WoWPro:GuideNickname(guide, "The Tillers")
 WoWPro:GuideName(guide,"The Tillers")

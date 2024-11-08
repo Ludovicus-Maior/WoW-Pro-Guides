@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("JiyDeeTher",'Dailies', "Deepholm", "Jiyambi", "Neutral")
-WoWPro:GuideLevels(guide,81,81,81)
+local guide = WoWPro:RegisterGuide("JiyDeeTher",'Dailies', "Deepholm", "WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,30,38,33)
 WoWPro.Dailies:GuideFaction(guide,1171) --  "Therazane Reputation"
 WoWPro:GuideSteps(guide, function()
 return [[

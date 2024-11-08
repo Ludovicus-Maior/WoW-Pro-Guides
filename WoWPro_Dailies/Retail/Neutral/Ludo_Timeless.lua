@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoTimeless",'Dailies', "Timeless Isle", "Ludovicus", "Neutral")
-WoWPro:GuideLevels(guide,90,90,90)
+local guide = WoWPro:RegisterGuide("LudoTimeless",'Dailies', "Timeless Isle", "WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,30,38,33)
 WoWPro.Dailies:GuideFaction(guide,1492) --  "Timeless Isle"
 WoWPro:GuideSteps(guide, function()
 WoWPro:Timeless()  -- Set up NPC Scan to pick up the rares and elites!

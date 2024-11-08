@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'Fluclo', 'Neutral')
-WoWPro:GuideLevels(guide,40,40,40)
+local guide = WoWPro:RegisterGuide('FlucloTanaanJungle', "Dailies", 'Tanaan Jungle', 'WoWPro Team', 'Neutral')
+WoWPro:GuideLevels(guide,40,49,43)
 WoWPro.Dailies:GuideNameAndCategory(guide, "Garrison Campaign: War Council", "Garrison")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()

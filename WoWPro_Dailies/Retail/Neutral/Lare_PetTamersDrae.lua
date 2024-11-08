@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LarePetTamersDrae","Dailies","Draenor","Larenon","Neutral")
-WoWPro:GuideLevels(guide,1, 90, 45)
+local guide = WoWPro:RegisterGuide("LarePetTamersDrae","Dailies","Draenor","WoWPro Team","Neutral")
+WoWPro:GuideLevels(guide,1, 6, 4)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet Tamers of Draenor","Pets")
 WoWPro:GuidePetBattle(guide)
