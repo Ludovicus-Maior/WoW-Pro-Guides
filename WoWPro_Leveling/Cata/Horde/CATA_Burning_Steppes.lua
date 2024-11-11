@@ -29,14 +29,14 @@ A The Sand, the Cider, and the Orb|QID|28422|PRE|28419&28420&28421|M|17.36,51.65
 T The Sand, the Cider, and the Orb|QID|28422|M|8.27,35.88|N|To Gorzeeki Wildeyes.|
 A Shadow Boxing|QID|28424|PRE|28423|M|8.27,35.88|N|From Gorzeeki Wildeyes.|
 A Warlocks Have the Neatest Stuff|QID|28423|M|8.27,35.88|N|From Gorzeeki Wildeyes.|
-C Shadow Boxing|QID|28424|M|9.83,29.69|N||
+C Shadow Boxing|QID|28424|M|9.83,29.69|N|.|
 C Warlocks Have the Neatest Stuff|QID|28423|M|5.38,31.88|N|The Blackrock Warlocks have the orb. Kill them until one drops. The other stuff needed is by the waypoint.|
 T Warlocks Have the Neatest Stuff|QID|28423|M|8.36,35.73|N|To Gorzeeki Wildeyes.|
 T Shadow Boxing|QID|28424|M|8.36,35.73|N|To Gorzeeki Wildeyes.|
 A Return to Ariok|QID|28425|PRE|28423^28424|M|8.36,35.73|N|From Gorzeeki Wildeyes.|
 T Return to Ariok|QID|28425|M|17.34,51.59|N|To Ariok.|
 A Chiselgrip, the Heart of the Steppes|QID|28426|PRE|28425|M|17.34,51.59|N|From Ariok.|
-C Chiselgrip, the Heart of the Steppes|QID|28426|M|36.76,53.81|N||
+C Chiselgrip, the Heart of the Steppes|QID|28426|M|36.76,53.81|N|.|
 T Chiselgrip, the Heart of the Steppes|QID|28426|M|46.76,44.11|N|To Stebben Oreknuckle.|
 A Prove Yer Allegiance|QID|28225|PRE|28184|M|46.80,44.10|N|From Stebben Oreknuckle.|
 A Scrapped Golems|QID|28226|PRE|28184|M|46.80,44.10|N|From Stebben Oreknuckle.|
@@ -60,10 +60,10 @@ T Into the Black Tooth Hovel|QID|28432|U|63357|M|45.34,51.60|N|To Quartermaster 
 A Grunt Work|QID|28433|PRE|28432|M|45.34,51.60|N|From Quartermaster Kaoshin.|
 A Strategic Cuts|QID|28434|PRE|28433|M|45.34,51.60|N|<UI Alert>|
 C Grunt Work|QID|28433|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|U|63357|S|
-C Strategic Cuts|QID|28434QO|3|M|45.37,52.47|N|Use the Scorpid barb on Timan. He is at the top of the tower.||U|63350|
+C Strategic Cuts|QID|28434|QO|3|M|45.37,52.47|N|Use the Scorpid barb on Timan. He is at the top of the tower.|U|63350|
 C Strategic Cuts|QID|28434|QO|2|M|39.17,56.14|N|Use the Scorpid barb on Othana. She wanders around inside the stable.|U|63350|
 C Strategic Cuts|QID|28434|U|63350|QO|1|M|43.89,60.15;40.01,60.27|CN|N|Use the Scorpid barb on Gorlop. He wanders between these two points.|
-T Strategic Cuts|QID|28434|M|40.13,59.45|N||
+T Strategic Cuts|QID|28434|M|40.13,59.45|N|.|
 C Grunt Work|QID|28433|M|35.43,55.39|N|Look for boots. Sometimes spiders will spawn when you have polished a boot.|U|63357|US|
 T Grunt Work|QID|28433|M|45.29,51.57|N|To Quartermaster Kaoshin.|
 A The Kodocaller's Horn|QID|28435|PRE|28434|M|45.32,51.68|N|From Quartermaster Kaoshin.|
@@ -102,7 +102,7 @@ A A Heap of Delicious Worg|QID|28445|M|54.63,24.46|N|From Eitrigg.|
 C Latent Demons of the Land|QID|28444|M|54.54,25.97|N|Kill Flamekins then click their body.|S|
 C Not Fireflies, Flameflies|QID|28491|M|59.54,31.76|N|Loot the Flamefly, they're located down in the lava cracked earth.|
 C Latent Demons of the Land|QID|28444|M|54.54,25.97|N|Kill Flamekins then click their body.|US|
-C Blackened Ashes|QID|28443|M|59.92,45.54|N||
+C Blackened Ashes|QID|28443|M|59.92,45.54|N|.|
 C A Heap of Delicious Worg|QID|28445|U|63427|M|65.04,27.57|N|Kill Giant Ember Worgs and use the worgsaw on them.|
 T A Heap of Delicious Worg|QID|28445|M|54.59,24.66|N|To Eitrigg.|
 T Blackened Ashes|QID|28443|M|54.59,24.66|N|To Eitrigg.|
@@ -111,13 +111,13 @@ A Blood Tour|QID|28446|M|54.70,24.66|N|From Ariok.|
 A Draconic Vanguard|QID|28447|M|54.70,24.66|N|From Ariok.|
 A A Deal With a Dragon|QID|28448|M|54.68,24.73|N|From Ariok.|
 T Not Fireflies, Flameflies|QID|28491|M|54.95,22.55|N|To Kibler. Grats on your new pet!|
-C Blood Tour|QID|28446|M|66.42,58.26|N||S|
-C Draconic Vanguard|QID|28447|QO|2|M|72.3,27.4|CN|N||
-C Draconic Vanguard|QID|28447|QO|4|M|75.7,37.0|CN|N||
+C Blood Tour|QID|28446|M|66.42,58.26|N|.|S|
+C Draconic Vanguard|QID|28447|QO|2|M|72.3,27.4|CN|N|.|
+C Draconic Vanguard|QID|28447|QO|4|M|75.7,37.0|CN|N|.|
 T A Deal With a Dragon|QID|28448|M|82.04,31.50|N|To Acride.|
-C Draconic Vanguard|QID|28447|QO|3|M|79.8,50.8|CN|N||
-C Draconic Vanguard|QID|28447|QO|1|M|64.96,59.68|CN|N||
-C Blood Tour|QID|28446|M|66.42,58.26|N||US|
+C Draconic Vanguard|QID|28447|QO|3|M|79.8,50.8|CN|N|.|
+C Draconic Vanguard|QID|28447|QO|1|M|64.96,59.68|CN|N|.|
+C Blood Tour|QID|28446|M|66.42,58.26|N|.|US|
 T Draconic Vanguard|QID|28447|N|To Ariok.|
 T Blood Tour|QID|28446|N|To Ariok.|
 A Placing the Pawns|QID|28449|M|82.04,31.50|N|<UI Alert>.|
@@ -134,8 +134,8 @@ A Assault on Dreadmaul Rock|QID|28454|M|54.62,25.22|N|From Ariok. Enjoy the cine
 C Assault on Dreadmaul Rock|QID|28454|M|72.48,29.93|N|Use the only Ability you have. When you finish you can use the drake to fly back toward the Turn in.|
 T Assault on Dreadmaul Rock|QID|28454|M|54.69,24.48|N|To Eitrigg.|
 A Glory Amidst Chaos|QID|28455|PRE|28454|M|54.69,24.48|N|From Eitrigg.|
-K Glory Amidst Chaos|QID|28455|QO|1|M|65.12,46.66|N||
-K Glory Amidst Chaos|QID|28455|QO|2|M|63.79,37.81;66.31,37.96;68.88,44.14|CS|N||
+K Glory Amidst Chaos|QID|28455|QO|1|M|65.12,46.66|N|.|
+K Glory Amidst Chaos|QID|28455|QO|2|M|63.79,37.81;66.31,37.96;68.88,44.14|CS|N|.|
 K Glory Amidst Chaos|QID|28455|QO|3|M|69.32,39.24;70.88,38.13|CS|N|Jump off at the first waypoint.|
 T Glory Amidst Chaos|QID|28455|M|54.61,24.61|N|Back to Eitrigg at Flame Crest.|
 A The Spoils of War|QID|28456|PRE|28455|M|54.61,24.61|N|From Eitrigg.|
