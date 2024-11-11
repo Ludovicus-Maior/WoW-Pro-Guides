@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("EstFirelands",'Dailies', "Mount Hyjal", "Estelyen", "Neutral")
-WoWPro:GuideLevels(guide,85,85,85)
+local guide = WoWPro:RegisterGuide("EstFirelands",'Dailies', "Mount Hyjal", "WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,32,41,35)
 WoWPro.Dailies:GuideFaction(guide,1158) --  "Firelands Invasion, Guardians of Hyjal"
 WoWPro:GuideSteps(guide, function()
 return [[

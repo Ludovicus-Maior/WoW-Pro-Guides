@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("EmmShadoPan",'Dailies', "Townlong Steppes", "Emmaleah", "Neutral")
-WoWPro:GuideLevels(guide,88,90,89)
+local guide = WoWPro:RegisterGuide("EmmShadoPan",'Dailies', "Townlong Steppes", "WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,25,33,28)
 WoWPro.Dailies:GuideFaction(guide,1270) --  "Shado-Pan Dailies"
 WoWPro:GuideSteps(guide, function()
 return [[

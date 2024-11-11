@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("EmmAugCel",'Dailies', "Vale of Eternal Blossoms", "Emmaleah", "Neutral")
-WoWPro:GuideLevels(guide,85,90, 89.8843)
+local guide = WoWPro:RegisterGuide("EmmAugCel",'Dailies', "Vale of Eternal Blossoms", "WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,16,13)
 WoWPro.Dailies:GuideFaction(guide,1341) --  "August Celestials Dailies"
 WoWPro:GuideSteps(guide, function()
 return [[

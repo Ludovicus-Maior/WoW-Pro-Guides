@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("WayKlaxxi",'Dailies', "Dread Wastes", "Way2hairy", "Neutral")
-WoWPro:GuideLevels(guide,89,89,89)
+local guide = WoWPro:RegisterGuide("WayKlaxxi",'Dailies', "Dread Wastes", "WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,30,38,33)
 WoWPro.Dailies:GuideFaction(guide,1337) --  "Klaxxi"
 WoWPro:GuideSteps(guide, function()
 
