@@ -278,7 +278,7 @@ function WoWPro:CreateItemButtonSecured(id)
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
     itembutton:Hide()
-	itembutton:RegisterForClicks("anyDown","anyUp")
+	itembutton:RegisterForClicks("anyDown")
     return itembutton
 end
 
