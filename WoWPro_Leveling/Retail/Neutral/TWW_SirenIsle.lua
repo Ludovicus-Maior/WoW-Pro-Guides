@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('Siren Isle', 'Leveling', 'Siren Isle', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Siren Isle")
+WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,80, 80)
+WoWPro:GuideSort(guide, 7)
 WoWPro:GuideSteps(guide, function()
 return [[
 
