@@ -934,8 +934,12 @@ end
 function WoWPro.BuildGuideInMenuList()
     WoWPro.GuideMenuList = {}
     for gid, guide in pairs(WoWPro.Guides) do
+        local guidetype = guide.guidetype
+        if guide.TopCategory then
+            guidetype = guide.TopCategory
+        end
         if not guide.secret then
-            WoWPro.RegisterGuideInMenuList(guide.guidetype, guide.category or "?",  guide.name or "??", gid)
+            WoWPro.RegisterGuideInMenuList(guidetype, guide.category or "?",  guide.name or "??", gid)
         end
     end
     for _, gid in ipairs(WoWProCharDB.GuideStack) do
@@ -1015,6 +1019,10 @@ end
 
 function WoWPro:GuideNickname(guide, nickname)
     guide['nickname'] = nickname
+end
+
+function WoWPro:TopCategory(guide, category)
+    guide['TopCategory'] = category
 end
 
 function WoWPro:GuideCategory(guide, category)
