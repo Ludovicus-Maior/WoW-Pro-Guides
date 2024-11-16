@@ -3,6 +3,7 @@ WoWPro:GuideName(guide,"Fate of the Kirin Tor")
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,80, 80)
 WoWPro:GuideSort(guide, 8)
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 

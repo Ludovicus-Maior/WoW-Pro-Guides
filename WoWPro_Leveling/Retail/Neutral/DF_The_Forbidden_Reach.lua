@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, "DF_Campaign")
 WoWPro:GuideName(guide,"The Forbidden Reach")
 WoWPro:GuideLevels(guide,70, 70)
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Journal Quests

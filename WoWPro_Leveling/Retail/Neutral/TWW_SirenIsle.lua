@@ -3,6 +3,7 @@ WoWPro:GuideName(guide,"Siren Isle")
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,80, 80)
 WoWPro:GuideSort(guide, 7)
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -21,7 +22,7 @@ C To Scan a Crystal|QID|84721|M|71.23,45.72|Z|2369; Siren Isle|QO|3|N|Goblin Pow
 C To Scan a Crystal|QID|84721|M|67.64,42.12|Z|2369; Siren Isle|QO|4|N|Device assembled.|CHAT|
 T To Scan a Crystal|QID|84721|M|67.64,42.12|Z|2369; Siren Isle|N|To Bargus.|
 A Facet-nating Signals|QID|84722|PRE|84721|M|67.64,42.12|Z|2369; Siren Isle|N|From Bargus.|
-R Ghoststone Diggings|ACTIVE|84722|M|48.95,44.42|Z|2369; Siren Isle|QO|1|N|Meet up with Bargus.|
+C Facet-nating Signals|QID|84722|M|48.95,44.42|Z|2369; Siren Isle|QO|1|N|Meet up with Bargus.|
 C Facet-nating Signals|QID|84722|M|48.71,44.37|Z|2369; Siren Isle|QO|2|N|First Earthen Pylon Activated.|H|
 C Facet-nating Signals|QID|84722|M|45.44,41.63|Z|2369; Siren Isle|QO|3|N|Second Earthen Pylon Activated.|H|
 C Facet-nating Signals|QID|84722|M|44.97,44.12|Z|2369; Siren Isle|QO|4|N|Third Earthen Pylon Activated.|H|
