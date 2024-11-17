@@ -14,7 +14,7 @@ local initSpecs = {}
 -- [0] UI Name , [1] UI Desc, [2]UI Var, [3] guide Var, Register ordinal
 initSpecs["Leveling"] = {
     { "GID:", "The ID for this guide.", "GID" , nil},
-    { "Author Name:", "The author of the original guide.", "Author" , "author"},
+    { "Author Name:", "The author of the original guide.", "Author", "author", "WoWPro Team" },
     { "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
     { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
     { "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
