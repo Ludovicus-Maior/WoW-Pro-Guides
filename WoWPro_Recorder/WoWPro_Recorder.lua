@@ -119,183 +119,129 @@ local function checkClassQuest(QID, questTable)
 end
 
 
-function WoWPro.Recorder.eventHandler(frame, event, ...)
-    local GID = WoWProDB.char.currentguide
-    WoWPro.Recorder:dbp(event.." event fired.")
-    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
-
+local function getZoneAndMapXY()
     local x, y = WoWPro:GetPlayerZonePosition()
     local zonetag = _G.C_Map.GetBestMapForUnit("player")
-	local zonetext = _G.GetZoneText()
-	if zonetext and zonetag then
-		zonetag = zonetag .. ";" .. zonetext
-	end
-    if zonetag == WoWPro.Guides[GID].zone then
+    local zonetext = _G.GetZoneText()
+    if zonetext and zonetag then
+        zonetag = zonetag .. ";" .. zonetext
+    end
+    if zonetag == WoWPro.Guides[WoWProDB.char.currentguide].zone then
         zonetag = nil
     end
-    local mapxy = nil
-    if x and y then
-        mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
+    local mapxy = x and y and ("%.2f,%.2f"):format(x * 100, y * 100) or nil
+    return zonetag, mapxy
+end
+
+local function addStep(action, step, note, map, zone, qid, active)
+    local stepInfo = {
+        action = action,
+        step = step,
+        note = note,
+        map = map,
+        zone = zone,
+        QID = qid,
+        active = active
+    }
+    WoWPro.Recorder:dbp("Adding " .. action .. " step: " .. step)
+    WoWPro.Recorder.AddStep(stepInfo)
+end
+
+local function handleChatMsgSystem(msg, mapxy, zonetag, targetName)
+    local _, _, loc = msg:find(L["(.*) is now your home."])
+    if loc then
+        addStep("h", loc, targetName and "At " .. targetName .. "." or nil, mapxy, zonetag, WoWPro.Recorder.lastStep)
     end
+    WoWPro:AutoCompleteSetHearth("CHAT_MSG_SYSTEM", msg)
+end
 
-    local targetName = _G.GetUnitName("target")
-    if event == "CHAT_MSG_SYSTEM" then
-        WoWPro.Recorder:dbp("CHAT_MSG_SYSTEM detected.")
-        local msg = ...
-        local _, _, loc = msg:find(L["(.*) is now your home."])
-        if loc then
-            local stepInfo = {
-                action = "h",
-                step = loc,
-                QID = WoWPro.Recorder.lastStep,
-                map = mapxy,
-                zone = zonetag
-            }
-            if targetName then stepInfo.note = "At "..targetName.."." end
-            WoWPro.Recorder:dbp("Adding hearth location "..loc)
-            WoWPro.Recorder.AddStep(stepInfo)
+local function handlePlayerControlGained(mapxy, zonetag)
+    if WoWPro.Recorder.Flights then
+        local subzone = _G.GetSubZoneText()
+        if subzone:len() < 2 then
+            subzone = _G.GetZoneText()
         end
-        WoWPro:AutoCompleteSetHearth(event, ...)
-	elseif event == "PLAYER_CONTROL_GAINED" then
-		if WoWPro.Recorder.Flights  then
-			local subzone = _G.GetSubZoneText()
-			if subzone:len() < 2 then
-				subzone = _G.GetZoneText() --Other way wasn't working right since it wasn't nil
-			end
-			local stepInfo = {
-				action = "F",
-				step = subzone,
-				active = WoWPro.Recorder.lastStep,
-				map = WoWPro.Recorder.Flights.map,
-				zone = WoWPro.Recorder.Flights.zone,
-				note = "Head to the flightmaster and take a flight to "..subzone.."."
-			}
-			WoWPro.Recorder:dbp("Adding F step location")
-			WoWPro.Recorder.AddStep(stepInfo)
-			WoWPro.Recorder.Flights = nil
-		end
-	elseif event == "AREA_POIS_UPDATED" then
-		if WoWPro.Recorder.Portals  then
-			local subzone = _G.GetSubZoneText()
-			if subzone:len() < 2 then
-				subzone = _G.GetZoneText() --Other way wasn't working right since it wasn't nil
-			end
-			local stepInfo = {
-				action = "P",
-				step = subzone,
-				active = WoWPro.Recorder.lastStep,
-				map = WoWPro.Recorder.Portals.map,
-				zone = WoWPro.Recorder.Portals.zone,
-				note = "Take the portal to "..subzone.."."
-			}
-			WoWPro.Recorder:dbp("Adding P step location")
-			WoWPro.Recorder.AddStep(stepInfo)
-			WoWPro.Recorder.Portals = nil
-		end
-    elseif event == "PLAYER_LEVEL_UP" then
-        WoWPro.Recorder:dbp("PLAYER_LEVEL_UP detected.")
-        local newLevel = ...
-        local stepInfo = {
-            action = "L",
-            step = "Level "..newLevel,
-            QID = WoWPro.Recorder.lastStep,
-            note = "You should be around level "..newLevel.." by this point.",
-            level = newLevel
-        }
-        WoWPro.Recorder:dbp("Adding level up to level "..newLevel)
-        WoWPro.Recorder.AddStep(stepInfo)
-        WoWPro:AutoCompleteLevel(newLevel)
+        addStep("F", subzone, "Head to the flightmaster and take a flight to " .. subzone .. ".", mapxy, zonetag, WoWPro.Recorder.lastStep)
+        WoWPro.Recorder.Flights = nil
+    end
+end
 
-    elseif event == "UI_INFO_MESSAGE" then
-        WoWPro.Recorder:dbp("UI_INFO_MESSAGE detected.")
-        local _, msg = ...
-        if msg == _G.ERR_NEWTAXIPATH then
-            local stepInfo = {
-                action = "f",
-                step = _G.GetSubZoneText() or _G.GetZoneText(),
-                QID = WoWPro.Recorder.lastStep,
-                map = mapxy,
-                zone = zonetag
-            }
-            if targetName then stepInfo.note = "At "..targetName.."." end
-            WoWPro.Recorder:dbp("Adding get FP ".._G.GetSubZoneText() or _G.GetZoneText())
-            WoWPro.Recorder.AddStep(stepInfo)
-            WoWPro:AutoCompleteGetFP(event, ...)
+local function handleAreaPoisUpdated(mapxy, zonetag)
+    if WoWPro.Recorder.Portals then
+        local subzone = _G.GetSubZoneText()
+        if subzone:len() < 2 then
+            subzone = _G.GetZoneText()
         end
+        addStep("P", subzone, "Take the portal to " .. subzone .. ".", mapxy, zonetag, WoWPro.Recorder.lastStep)
+        WoWPro.Recorder.Portals = nil
+    end
+end
 
-    elseif event == "POST_QUEST_LOG_UPDATE" then
-        WoWPro.Recorder:dbp("POST_QUEST_LOG_UPDATE detected.")
-        WoWPro.inhibit_oldQuests_update = false
+local function handlePlayerLevelUp(newLevel)
+    addStep("L", "Level " .. newLevel, "You should be around level " .. newLevel .. " by this point.", nil, nil, WoWPro.Recorder.lastStep, nil)
+    WoWPro:AutoCompleteLevel(newLevel)
+end
 
-        if WoWPro.newQuest then
-            local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
-            local stepInfo = {
-                action = "A",
-                step = questInfo.title,
-                QID = WoWPro.newQuest,
-                map = mapxy,
-                zone = zonetag,
-                class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog),
-				prereq = WoWPro.Recorder.PREquest
-            }
-			WoWPro.Recorder.PrevStep = "A"
-            if targetName then stepInfo.note = "From "..targetName.."." end
-            WoWPro.Recorder.lastStep = WoWPro.newQuest
-            WoWPro.Recorder:dbp("Adding new quest "..WoWPro.newQuest)
-            WoWPro.Recorder.AddStep(stepInfo)
-            WoWPro:AutoCompleteQuestUpdate()
+local function handleUiInfoMessage(msg, mapxy, zonetag, targetName)
+    if msg == _G.ERR_NEWTAXIPATH then
+        addStep("f", _G.GetSubZoneText() or _G.GetZoneText(), targetName and "At " .. targetName .. "." or nil, mapxy, zonetag, WoWPro.Recorder.lastStep)
+        WoWPro:AutoCompleteGetFP("UI_INFO_MESSAGE", msg)
+    end
+end
 
-        elseif WoWPro.missingQuest and WoWPro.CompletingQuest then
-            local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
-            local stepInfo = {
-                action = "T",
-                step = questInfo.title,
-                QID = WoWPro.missingQuest,
-                map = mapxy,
-                zone = zonetag,
-                class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
-            }
-			if WoWPro.Recorder.PREquest and WoWPro.Recorder.PrevStep == "T" then
-				WoWPro.Recorder.PREquest = WoWPro.Recorder.PREquest .. "&" .. WoWPro.missingQuest
-			else
-				WoWPro.Recorder.PREquest = WoWPro.missingQuest
-			end
-			WoWPro.Recorder.PrevStep = "T"
-            if targetName then stepInfo.note = "To "..targetName.."." end
-            WoWPro.Recorder:dbp("Turning in quest "..stepInfo.QID)
-            WoWPro.Recorder.AddStep(stepInfo)
-            WoWPro:AutoCompleteQuestUpdate()
+local function handlePostQuestLogUpdate(mapxy, zonetag, targetName)
+    WoWPro.inhibit_oldQuests_update = false
 
+    if WoWPro.newQuest then
+        local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
+        addStep("A", questInfo.title, targetName and "From " .. targetName .. "." or nil, mapxy, zonetag, WoWPro.newQuest, nil)
+        WoWPro.Recorder.PrevStep = "A"
+        WoWPro.Recorder.lastStep = WoWPro.newQuest
+        WoWPro:AutoCompleteQuestUpdate()
+    elseif WoWPro.missingQuest and WoWPro.CompletingQuest then
+        local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
+        addStep("T", questInfo.title, targetName and "To " .. targetName .. "." or nil, mapxy, zonetag, WoWPro.missingQuest, nil)
+        if WoWPro.Recorder.PREquest and WoWPro.Recorder.PrevStep == "T" then
+            WoWPro.Recorder.PREquest = WoWPro.Recorder.PREquest .. "&" .. WoWPro.missingQuest
         else
-            WoWPro.Recorder:dbp("Got PQLU and looking for changed quest status")
-            for QID, questInfo in pairs(WoWPro.QuestLog) do
-                if WoWPro.oldQuests[QID] then
-                    if WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
-                        for idx,status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
-                            WoWPro.Recorder:dbp("Checking status on QO #%d of QID %d aka %s",idx,QID,status)
-                            if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
-                                local stepInfo = {
-                                    action = "C",
-                                    step = WoWPro.QuestLog[QID].title,
-                                    QID = QID,
-                                    map = mapxy,
-                                    zone = zonetag,
-									chat = WoWPro.Recorder.FindText("chat", WoWPro.QuestLog[QID].leaderBoard[idx]),
-                                    noncombat = WoWPro.Recorder.FindText("nc", WoWPro.QuestLog[QID].leaderBoard[idx]),
-                                    use = WoWPro.QuestLog[QID].use,
-                                    note = WoWPro.QuestLog[QID].leaderBoard[idx]:match("[^/%d%s].+")..".",
-                                    questtext = tostring(idx),
-                                    class = checkClassQuest(QID,WoWPro.QuestLog)
-                                }
-                                WoWPro.Recorder:dbp("Completed QO #%d (%s) for [%s]",idx,stepInfo.note, stepInfo.step)
-                                WoWPro.Recorder.AddStep(stepInfo)
-                                WoWPro:AutoCompleteQuestUpdate()
-                            end
-                        end
+            WoWPro.Recorder.PREquest = WoWPro.missingQuest
+        end
+        WoWPro.Recorder.PrevStep = "T"
+        WoWPro:AutoCompleteQuestUpdate()
+    else
+        for QID, questInfo in pairs(WoWPro.QuestLog) do
+            if WoWPro.oldQuests[QID] and WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
+                for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
+                    if not WoWPro.oldQuests[QID].ocompleted[idx] and WoWPro.QuestLog[QID].ocompleted[idx] then
+                        addStep("C", WoWPro.QuestLog[QID].title, WoWPro.QuestLog[QID].leaderBoard[idx]:match("[^/%d%s].+") .. ".", mapxy, zonetag, QID, nil)
+                        WoWPro:AutoCompleteQuestUpdate()
                     end
                 end
             end
         end
+    end
+end
+
+function WoWPro.Recorder.eventHandler(frame, event, ...)
+    local GID = WoWProDB.char.currentguide
+    WoWPro.Recorder:dbp(event .. " event fired.")
+    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+
+    local zonetag, mapxy = getZoneAndMapXY()
+    local targetName = _G.GetUnitName("target")
+
+    if event == "CHAT_MSG_SYSTEM" then
+        handleChatMsgSystem(..., mapxy, zonetag, targetName)
+    elseif event == "PLAYER_CONTROL_GAINED" then
+        handlePlayerControlGained(mapxy, zonetag)
+    elseif event == "AREA_POIS_UPDATED" then
+        handleAreaPoisUpdated(mapxy, zonetag)
+    elseif event == "PLAYER_LEVEL_UP" then
+        handlePlayerLevelUp(...)
+    elseif event == "UI_INFO_MESSAGE" then
+        handleUiInfoMessage(..., mapxy, zonetag, targetName)
+    elseif event == "POST_QUEST_LOG_UPDATE" then
+        handlePostQuestLogUpdate(mapxy, zonetag, targetName)
     end
 end
 
