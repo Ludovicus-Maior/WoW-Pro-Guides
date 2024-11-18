@@ -3580,7 +3580,7 @@ function WoWPro.PopulateQuestLog()
                     leaderBoard[objIndex] = objectives[objIndex].text
                     ocompleted[objIndex] = objectives[objIndex].finished
                     if objectives[objIndex].type == "progressbar" then
-                        ncompleted[objIndex] = _G.GetQuestProgressBarPercent(questInfo.questID)
+                        ncompleted[objIndex] = floor(_G.GetQuestProgressBarPercent(questInfo.questID))
                     else
                         ncompleted[objIndex] = objectives[objIndex].numFulfilled
                     end
