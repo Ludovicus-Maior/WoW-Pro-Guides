@@ -1,5 +1,5 @@
-local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "Twists", "Neutral")
-WoWPro:GuideLevels(guide,70,70,70)
+local guide = WoWPro:RegisterGuide("TwiShattSun",'Dailies', "Isle of Quel'Danas", "WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,25,33,28)
 WoWPro.Dailies:GuideFaction(guide,1077) --  "Shattered Sun Offensive"
 WoWPro:GuideSteps(guide, function()
 return [[

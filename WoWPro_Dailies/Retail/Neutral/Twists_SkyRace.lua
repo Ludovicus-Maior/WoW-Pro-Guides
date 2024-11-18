@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("TwiSkyRace",'Dailies', "The Jade Forest", "Twists", "Neutral")
-WoWPro:GuideLevels(guide,90,90,90)
+local guide = WoWPro:RegisterGuide("TwiSkyRace",'Dailies', "The Jade Forest", "WoWPro Team", "Neutral")
+WoWPro:GuideLevels(guide,10,16,13)
 WoWPro.Dailies:GuideFaction(guide,1271) --  "The Sky Race, Order of the Cloud Serpent"
 WoWPro:GuideSteps(guide, function()
 return [[

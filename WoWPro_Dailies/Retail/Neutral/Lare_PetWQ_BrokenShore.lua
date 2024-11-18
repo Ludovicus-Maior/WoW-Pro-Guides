@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LarePetWQBroken","Dailies","Legion","Larenon","Neutral")
-WoWPro:GuideLevels(guide,110, 110, 110)
+local guide = WoWPro:RegisterGuide("LarePetWQBroken","Dailies","Legion","WoWPro Team","Neutral")
+WoWPro:GuideLevels(guide,48, 55, 48)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet World Quests Broken Shore","Pets")
 WoWPro:GuidePetBattle(guide)

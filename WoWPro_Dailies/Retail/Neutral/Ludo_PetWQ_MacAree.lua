@@ -3,8 +3,8 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoPetWQMacAree","Dailies","ArgusMacAree","Ludovicus","Neutral")
-WoWPro:GuideLevels(guide,110, 110, 110)
+local guide = WoWPro:RegisterGuide("LudoPetWQMacAree","Dailies","ArgusMacAree","WoWPro Team","Neutral")
+WoWPro:GuideLevels(guide,45, 55, 48)
 WoWPro:GuideIcon(guide,"ICON",1715032)
 WoWPro.Dailies:GuideNameAndCategory(guide,"Battle Pet World Quests Eredath","Pets")
 WoWPro:GuidePetBattle(guide)

@@ -168,7 +168,7 @@ A A Wrench in the Works|QID|80079|PRE|80082|M|47.11,33.19|Z|2214; The Ringing De
 C A Wrench in the Works|QID|80079|M|47.26,32.07|QO|1|Z|2214; The Ringing Deeps|N|Grievance heard.|CHAT|
 C An Opportunity to Relax|QID|82952|M|47.49,32.51|QO|1<4|Z|2214; The Ringing Deeps|N|Another worker, another flyer.|H|
 C An Opportunity to Relax|QID|82952|M|47.51,33.18|QO|1<5|Z|2214; The Ringing Deeps|N|And a flyer for you.|H|
-C An Opportunity to Relax|QID|82952|M|48.83,34.07|QO|1|Z|2214; The Ringing Deeps|N|Up the stairs to find the last tired worker and you have finally used up all your flyers.|H|
+C An Opportunity to Relax|QID|82952|M|47.95,32.15|QO|1|Z|2214; The Ringing Deeps|N|Up the stairs to find the last tired worker and you have finally used up all your flyers.|H|
 A Kobold Kleanup|QID|80058|PRE|80082|M|47.78,35.33|Z|2214; The Ringing Deeps|N|From Fourman Grimes.|RANK|2|
 A New Home, New Candle!|QID|81999|PRE|80082|M|47.76,35.35|Z|2214; The Ringing Deeps|N|From Janky.|RANK|2|
 ;A Everyday I'm Snufflin'|QID|79343|PRE|80082|M|47.71,35.26|Z|2214; The Ringing Deeps|N|From Gnawbles.|RANK|2|-THIS STARTS FROM A GROUND SPAWN I PICKED UP IN DORN
