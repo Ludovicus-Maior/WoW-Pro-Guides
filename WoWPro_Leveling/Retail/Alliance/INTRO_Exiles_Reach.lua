@@ -73,12 +73,9 @@ T A Rogue's End|QID|58917|M|52.10,55.21|N|To Coulston Nereus.|
 A The Deadliest of Poisons|QID|58933|PRE|58917|M|45.69,56.08|N|From Coulston Nereus.|C|Rogue|
 C The Deadliest of Poisons|QID|58933|M|45.69,56.08|QO|1|N|Cast instant poison before you go.|NC|
 C The Deadliest of Poisons|QID|58933|M|48.75,51.36|QO|2|N|Kill Gutgruk the Tough.|
-C A Shaman's Duty|QID|59002|M|53.09,51.51|QO|1|N|Collect Veil blossom.|NC|
-C A Shaman's Duty|QID|59002|M|52.23,55.43|QO|2|N|Burn the blossoms on the campfire.|NC|
-C A Shaman's Duty|QID|59002|M|54.44,58.34;55.17,52.82;55.26,50.84|CS|N|Find the Ghost Wolves|
-C A Shaman's Duty|QID|59002|M|54.38,58.44|QO|3<1|N|Free the captured ghost wolves.|NC|
-C A Shaman's Duty|QID|59002|M|55.27,52.79|QO|3<2|N|Free the captured ghost wolves.|NC|
-C A Shaman's Duty|QID|59002|M|55.40,50.78|QO|3<3|N|Free the captured ghost wolves.|NC|
+C A Shaman's Duty|QID|59002|M|53.09,51.51|QO|1|N|Collect Veil blossom.|H|
+C A Shaman's Duty|QID|59002|M|52.23,55.43|QO|2|N|Burn the blossoms on the campfire.|H|
+C A Shaman's Duty|QID|59002|M|54.44,58.34;55.17,52.82;55.26,50.84|CS|N|Find the Ghost Wolves|H|
 T The Deadliest of Poisons|QID|58933|M|52.10,55.21|N|To Private Cole.|
 T A Shaman's Duty|QID|59002|M|52.30,55.50|N|To Ghost Wolf.|
 A Westward Bound|QID|55965|PRE|55194|M|53.02,55.05|N|From Bjorn Stouthands.|
@@ -248,10 +245,10 @@ T What's Your Specialty?|QID|59594|M|80.00,70.70|Z|84;Stormwind City|N|Turn into
 A Home Is Where the Hearth Is|QID|58911|M|PLAYER|Z|84;Stormwind City|N|From Lindie Springstock.|
 h Pig and Whistle Tavern|QID|58911|M|75.68,54.10|Z|84;Stormwind City|QO|1|N|At the Innkeeper, Maegan Tillman.|
 T Home Is Where the Hearth Is|QID|58911|M|75.68,54.10|Z|84;Stormwind City|N|Turn into Maegan Tillman.|
-A An Urgent Meeting|QID|58912|PRE|58911|M|75.24,54.33|Z|84;Stormwind City|N|From Henry Garrick.|
+;Possible cutoff
+;A An Urgent Meeting|QID|58912|PRE|58911|M|75.24,54.33|Z|84;Stormwind City|N|From Henry Garrick.|
 C An Urgent Meeting|QID|58912|M|85.13,32.14|Z|84;Stormwind City|N|If you don't know the way, M opens your map and you can see the quest marker showing your destination.|
 T An Urgent Meeting|QID|58912|M|85.22,32.04|Z|84;Stormwind City|N|Turn into Captain Garrick.|
-;Possible cutoff
 A Battle for Azeroth: Tides of War|QID|58983|PRE|58912|M|85.22,32.04|Z|84;Stormwind City|N|From Captain Garrick|
 C Battle for Azeroth: Tides of War|QID|58983|M|85.27,32.30|Z|84;Stormwind City|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|NC|
 T Battle for Azeroth: Tides of War|QID|58983|M|85.91,31.56|Z|84;Stormwind City|N|Turn into Anduin Wrynn.|
