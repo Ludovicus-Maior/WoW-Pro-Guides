@@ -1,3 +1,20 @@
+# Release 2024.11.23.A
+## Bug Fixes
+* Add support for custom top categories for things like the "End Game"
+* Add support for tracking objectives that are progress (%) bars
+* Bugfix for multiple clicking target button on Cata
+* Add support for new quest icons in Retail
+## Guide Updates
+* Retail Achievements: HallowsEnd
+* Retail Dailies: Author standardized, Spreading The Light
+* Cata Leveling Alliance: Terokkar Forest, Swamp of Sorrows
+* Cata Leveling Horde: Burning Steppes, Orc Intro,
+* Cata Neutral: Searing Gorge
+* Retail Leveling Alliance: Exiles Reach Intro,
+* Retail Leveling Neutral: Azj-Kahet, Dorn, The Ringing Deeps
+* Retail WorldEvents:  Darkmoon Faire
+
+
 # Release 2024.10.24.A
 ## Bug Fixes
 * Protect against next set of Blizzard API changes
