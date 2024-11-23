@@ -100,8 +100,8 @@ M [item=52308/Hessonite Band]|QID|171000059|N|Make until your skill level reache
 = Learn Recipe|QID|171000060|N|Learn [item=52309/Nightstone Choker] from a Trainer in any major city.|
 M [item=52309/Nightstone Choker]|QID|171000061|N|Make until your skill level reaches 495|
 N 495-520. Most recipes will be purchased from a vendor from this point|QID|171000062|N|You need to do the Jewelcrafting daily quests to get Illustrious Jewelcrafter's Token if you want to buy any of these recipes.\nHorde players can find Marith Lazuria at Orgrimmar, and Alliance players can find Isabel Jones in Stormwind.\nThese NPCs start the daily quests, and they also sell the recipes|
-= Learn Recipe|QID|171000063|N|Learn [item=78074/Vicious Sapphire Necklace] from a Trainer in any major city.|
-M [item=78074/Vicious Sapphire Necklace]|QID|171000064|N|Make until your skill level reaches 525|
+= Learn Recipe|QID|171000063|N|Learn [item=75074/Vicious Sapphire Necklace] from a Trainer in any major city.|
+M [item=75074/Vicious Sapphire Necklace]|QID|171000064|N|Make until your skill level reaches 525|
 N Congratulations on reaching 525!\nPlease send feedback about the guide if you think there are parts we could improve or if you found typos, errors, or wrong material numbers!.|QID|171000065|
 N That completes Jewelcrafting.
 ]]
