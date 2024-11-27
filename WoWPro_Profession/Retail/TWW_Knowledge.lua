@@ -104,7 +104,7 @@ $ Tunneler's Shovel|QID|83881|M|46.6,15.9|Z|2213;City of Threads|ITEM|226307|P|K
 $ Nerubian Texts|QID|83888|M|55.9,44.0|Z|2255;Azj-Kahet|ITEM|226314|P|Khaz Algar Inscription;2878|
 $ Nerubian Bench Blocks|QID|83897|M|56.2,58.8|Z|2255;Azj-Kahet|ITEM|226323|P|Khaz Algar Jewelcrafting;2879|
 $ Curved Nerubian Skinning Knife|QID|83905|M|60.0,53.9|Z|2255;Azj-Kahet|ITEM|226331|P|Khaz Algar Leatherworking;2880|
-$ Heavy Spider Crusher|QID|83912|M|46.8,21.8|Z|2255;Azj-Kahet|ITEM|226338|P|Khaz Algar Mining;2881|
+$ Heavy Spider Crusher|QID|83912|M|46.66,21.57|Z|2216;City of Thread|ITEM|226338|P|Khaz Algar Mining;2881|
 $ Carapace Shiner|QID|83921|M|56.6,55.3|Z|2255;Azj-Kahet|ITEM|226347|P|Khaz Algar Skinning;2882|
 $ Nerubian Quilt|QID|83928|M|53.3,53.0|Z|2255;Azj-Kahet|ITEM|226354|P|Khaz Algar Tailoring;2883|
 
