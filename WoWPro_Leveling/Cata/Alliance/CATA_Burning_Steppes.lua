@@ -104,7 +104,7 @@ f Morgan's Vigil|ACTIVE|28310|M|72.09,65.70|Z|1428;Burning Steppes|N|At Borgus S
 r Housekeeping|ACTIVE|28310|M|72.81,65.71|Z|1428;Burning Steppes|N|At Felder Stover.|S|
 T Morgan's Vigil|QID|28310|M|71.86,67.96|Z|1428;Burning Steppes|N|To Oralius.|
 A SEVEN! YUP!|QID|28415|PRE|28310|M|71.86,67.96|Z|1428;Burning Steppes|N|From Oralius.\n[color=FF0000]NOTE: [/color]Don't worry, you won't have to find Captain Winky.|
-A The Bogpaddle Bullet|QID|28569|LEAD|27587|M|71.86,67.96|Z|1428;Burning Steppes|N|From Oralius.|
+A The Bogpaddle Bullet|QID|28569|LEAD|27587|M|71.86,67.96|Z|1428;Burning Steppes|N|From Oralius.\n[color=FF0000]NOTE: [/color]Skip this step if you're not going to continue on to the next guide, Swamp of Sorrows.|NA|
 A Blackened Ashes|QID|28311|PRE|28310|M|73.64,67.16|Z|1428;Burning Steppes|N|From Colonel Troteman.|
 A Latent Demons of the Land|QID|28312|PRE|28310|M|73.64,67.16|Z|1428;Burning Steppes|N|From Colonel Troteman.|
 A A Heap of Delicious Worg|QID|28313|PRE|28310|M|73.64,67.16|N|From Colonel Troteman.|
@@ -155,8 +155,6 @@ T Glory Amidst Chaos|QID|28321|M|73.64,67.16|Z|1428;Burning Steppes|N|To Colonel
 A The Spoils of War|QID|28322|PRE|28321|M|73.64,67.16|Z|1428;Burning Steppes|N|From Colonel Troteman.|
 T The Spoils of War|QID|28322|M|73.73,67.34|Z|1428;Burning Steppes|N|To the Crate of Left Over Supplies behind you.|
 R Swamp of Sorrows|ACTIVE|28569|M|78.39,58.85|Z|1428;Burning Steppes|N|Talk to Sharon Boomgetter (by the path) to get a free ride into Swamp of Sorrows.|CHAT|
-T The Bogpaddle Bullet|QID|28569|M|73.16,14.90|Z|1435;Swamp of Sorrows|N|To Trade Baron Silversnap.|
-A Maliciously Delicious|QID|27587|M|73.16,14.90|Z|1435;Swamp of Sorrows|N|From Trade Baron Silversnap.\n[color=FF0000]NOTE: [/color]Skip this step if you're not going to continue on to the next guide, Swamp of Sorrows.|NA|
 
 ]]
 end)
