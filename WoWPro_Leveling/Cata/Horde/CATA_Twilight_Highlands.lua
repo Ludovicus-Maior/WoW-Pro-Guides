@@ -162,197 +162,200 @@ C Total War|QID|27747|M|47.93,36.42|Z|0241; Twilight Highlands|N|Smash the Thund
 C Crushing the Wildhammer|QID|27751|M|47.93,36.42|Z|0241; Twilight Highlands|L|62325 8|ITEM|62325|N|Wildhammer Warbrands.\n[color=FF0000]NOTE: [/color]You will not be able to do anything other than fight as long as you are in combat.|
 C Total War|QID|27747|M|47.93,36.42|Z|0241; Twilight Highlands|N|Smash the Thundermar Ale Kegs in Thundermar Ruins.\n[color=FF0000]NOTE: [/color]You cannot do this as long as you're in combat.|US|NC|
 C War Forage|QID|27750|M|47.93,36.42|Z|0241; Twilight Highlands|L|62324 10|N|Gather the Wildhammer Food Stores from amongst the buildings in Thundermar Ruins.\n[color=FF0000]NOTE: [/color]You cannot do this as long as you're in combat.|US|
-C Drag 'em Down|QID|27929|M|51.38,39.98|Z|0241; Twilight Highlands|N|Use the Barbed Fleshhook to pull down Gryphon Riders and kill them.|U|62775|
+C Drag 'em Down|QID|27929|M|51.38,39.98|Z|0241; Twilight Highlands|N|Use the Barbed Fleshhook to pull down a Gryphon Rider and kill them.\n[color=FF0000]NOTE: [/color]Not every toss will work.|T|Thundermar War Gryphon|U|62775|
 T War Forage|QID|27750|M|53.83,43.27|Z|0241; Twilight Highlands|N|To Griff.|
 T Drag 'em Down|QID|27929|M|54.82,44.20|Z|0241; Twilight Highlands|N|To Narkrall Rakeclaw.|
 T Crushing the Wildhammer|QID|27751|M|54.82,44.20|Z|0241; Twilight Highlands|N|To Narkrall Rakeclaw.|
 A Bait and Throttle|QID|28041|PRE|27929|M|54.82,44.20|Z|0241; Twilight Highlands|N|From Narkrall Rakeclaw.|
 T Total War|QID|27747|M|55.14,43.56|Z|0241; Twilight Highlands|N|To Harkkan.|
 A Blood in the Highlands|QID|28038|PRE|27929|M|55.14,43.56|Z|0241; Twilight Highlands|N|From Harkkan.|
-A Paint it Black|QID|27945|PRE|27929|M|53.24,42.74|Z|0241; Twilight Highlands|N|From Mallia.|
-A A Vision of Twilight|QID|27947|PRE|27929|M|53.24,42.74|Z|0241; Twilight Highlands|N|From Garona Halforcen.|
-C Bait and Throttle|QID|28041|M|51.60,47.95|Z|0241; Twilight Highlands|N|Kill and loot an Untamed Gryphon.|
-T Bait and Throttle|QID|28041|M|51.60,47.95|Z|0241; Twilight Highlands|
-A How to Maim Your Dragon|QID|28043|PRE|28041|M|51.60,47.95|Z|0241; Twilight Highlands|
-T Blood in the Highlands|QID|28038|M|50.69,58.37|Z|0241; Twilight Highlands|N|To Wodin the Troll-Servant.|
-C How to Maim Your Dragon|QID|28043|M|48.31,60.55|Z|0241; Twilight Highlands|N|Place the bait on the ground, defeat the drake.|U|62917|
-T How to Maim Your Dragon|QID|28043|M|54.33,43.88|Z|0241; Twilight Highlands|N|To Zaela.|
-A The Demon Chain|QID|28123|PRE|28043|M|54.33,43.88|Z|0241; Twilight Highlands|N|From Zaela.|
-T A Vision of Twilight|QID|27947|M|57.85,33.58|Z|0241; Twilight Highlands|N|Turns in to an altar.|
-A We All Must Sacrifice|QID|27951|PRE|27947|M|57.85,33.58|Z|0241; Twilight Highlands|N|Back to the altar.|
-C Paint it Black|QID|27945|M|60.46,34.42|Z|0241; Twilight Highlands|N|Kill Obsidian Stoneslaves for Black Diamond Heart.|S|
-C We All Must Sacrifice|QID|27951|M|56.37,33.10|Z|0241; Twilight Highlands|
-C Paint it Black|QID|27945|M|60.46,34.42|Z|0241; Twilight Highlands|US|
-T We All Must Sacrifice|QID|27951|M|57.91,33.55|Z|0241; Twilight Highlands|N|Back to the altar.|
+A Paint it Black|QID|27945|PRE|27929|M|53.20,42.71|Z|0241; Twilight Highlands|N|From Mallia.|
+A A Vision of Twilight|QID|27947|PRE|27929|M|53.30,42.69|Z|0241; Twilight Highlands|N|From Garona Halforcen.|
+C Bait and Throttle|QID|28041|M|51.60,47.95|Z|0241; Twilight Highlands|L|62915|ITEM|62915|N|an Untamed Gryphon.|T|Untamed Gryphon|
+T Bait and Throttle|QID|28041|M|PLAYER|CC|N|<UI Alert>|
+A How to Maim Your Dragon|QID|28043|PRE|28041|M|PLAYER|CC|N|<UI Alert>|
+T Blood in the Highlands|QID|28038|M|50.73,58.38|Z|0241; Twilight Highlands|N|To Wodin the Troll-Servant on the platform in Crucible of Carnage.|
+C How to Maim Your Dragon|QID|28043|M|48.50,61.99|Z|0241; Twilight Highlands|N|After placing the bait on the ground, beat the Black Drake that appears into submission and mount it.\n[color=FF0000]NOTE: [/color]DO NOT INTERRUPT THE CINEMATIC OR YOU WON'T GET CREDIT.|U|62917|
+T How to Maim Your Dragon|QID|28043|M|54.35,43.86|Z|0241; Twilight Highlands|N|To Zaela.|
+A The Demon Chain|QID|28123|PRE|28043|M|54.35,43.86|Z|0241; Twilight Highlands|N|From Zaela.|
+T A Vision of Twilight|QID|27947|M|57.94,33.50|Z|0241; Twilight Highlands|N|To the Eye of Twilight.\n[color=FF0000]NOTE: [/color]You may have to clear the area first; including a lv 85 rare, Overlord Sunderfury (He stands right beside the altar).|
+A We All Must Sacrifice|QID|27951|PRE|27947|M|57.94,33.50|Z|0241; Twilight Highlands|N|From the Eye of Twilight.|
+C Paint it Black|QID|27945|M|60.46,34.42|Z|0241; Twilight Highlands|L|62796|ITEM|62796|N|Obsidian Stoneslaves.|S|
+C We All Must Sacrifice|QID|27951|M|56.37,33.10|Z|0241; Twilight Highlands|N|Kill Shaman of the Black.|T|Shaman of the Black|
+C Paint it Black|QID|27945|M|60.46,34.42|Z|0241; Twilight Highlands|L|62796|ITEM|62796|N|Obsidian Stoneslaves.|S|
+T We All Must Sacrifice|QID|27951|M|57.94,33.50|Z|0241; Twilight Highlands|N|To the Eye of Twilight.\n[color=FF0000]NOTE: [/color]You may have to clear the area again; including a lv 85 rare, Overlord Sunderfury (He stands right beside the altar).|
 A The Eyes Have It|QID|27954|PRE|27951|M|57.91,33.55|Z|0241; Twilight Highlands|
-C The Demon Chain|QID|28123|M|49.15,28.20|Z|0241; Twilight Highlands|N|Laying on the ground near a corpse.|
-T The Demon Chain|QID|28123|M|54.33,43.83|Z|0241; Twilight Highlands|N|To Zaela.|
-A Fury Unbound|QID|28133|PRE|28123|M|54.29,43.77|Z|0241; Twilight Highlands|N|From Zaela.|
-T Paint it Black|QID|27945|M|53.19,42.73|Z|0241; Twilight Highlands|N|To Mallia.|
-A The Weeping Wound|QID|27375|PRE|27945|M|53.19,42.73|Z|0241; Twilight Highlands|N|From Mallia.|
-T The Eyes Have It|QID|27954|M|53.28,42.72|Z|0241; Twilight Highlands|N|To Garona Halforcen.|
-A Eye Spy|QID|27955|PRE|27954|M|53.28,42.72|Z|0241; Twilight Highlands|N|From Garona Halforcen.|
-C Eye Spy|QID|27955|M|53.36,42.89|Z|0241; Twilight Highlands|N|Click on the Eye of Twilight in the room with you.|
-T Eye Spy|QID|27955|M|53.31,42.73|Z|0241; Twilight Highlands|N|To Garona Halforcen.|
-T The Weeping Wound|QID|27375|M|44.01,10.49|Z|0241; Twilight Highlands|N|To Earthcaller Torunscar.|
-A Torn Ground|QID|27299|PRE|27374^27375|M|44.01,10.49|Z|0241; Twilight Highlands|N|From Earthcaller Torunscar.|
-C Torn Ground|QID|27299|M|41.92,11.56|Z|0241; Twilight Highlands|N|Kill the smaller non elite tentacles.|
-T Torn Ground|QID|27299|M|44.06,10.52|Z|0241; Twilight Highlands|N|To Earthcaller Torunscar.|
-A Pushing Back|QID|27300|PRE|27299|M|44.06,10.52|Z|0241; Twilight Highlands|N|From Earthcaller Torunscar.|
-A Unbroken|QID|27301|PRE|27299|M|44.02,11.23|Z|0241; Twilight Highlands|N|From Earthmender Duarn.|
-A Simple Solutions|QID|27302|PRE|27299|M|44.39,11.50|Z|0241; Twilight Highlands|N|From Initiate Goldmine.|
-C Pushing Back|QID|27300|M|42.50,18.64|Z|0241; Twilight Highlands|N|Kill Captivators and Bonebreakers|S|
-C Simple Solutions|QID|27302|M|42.61,18.50|Z|0241; Twilight Highlands|N|Continue to kill Captivators for Pyreburn Oil as well as looting it off the ground.|S|
-T Unbroken|QID|27301|M|44.27,18.08|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.|
-A Mercy for the Bound|QID|27303|PRE|27301|M|44.27,18.08|Z|0241; Twilight Highlands|N|From Omak'Tul.|
-C Mercy for the Bound|QID|27303|M|38.32,16.82|Z|0241; Twilight Highlands|N|Kill Bound Fleshburners for their hearts.|
-C Pushing Back|QID|27300|M|42.50,18.64|US|
-C Simple Solutions|QID|27302|M|42.61,18.50|US|
-T Mercy for the Bound|QID|27303|M|43.90,11.23|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.|
-T Simple Solutions|QID|27302|M|44.37,11.49|Z|0241; Twilight Highlands|N|To Initiate Goldmine.|
-T Pushing Back|QID|27300|M|44.07,10.56|Z|0241; Twilight Highlands|N|To Earthcaller Torunscar.|
-A The Maw of Iso'rath|QID|27376|PRE|27300&27302&27303|M|44.07,10.56|Z|0241; Twilight Highlands|N|From Earthcaller Torunscar.|
-C The Maw of Iso'rath|QID|27376|M|44.41,10.72|Z|0241; Twilight Highlands|N|Hop on a Earthen Ring Gryphon.|
-T The Maw of Iso'rath|QID|27376|M|48.38,14.52|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.|
-A Devoured|QID|27377|PRE|27376|M|48.38,14.52|Z|0241; Twilight Highlands|N|From Earthcaller Yevaa.|
-C Devoured|QID|27377|M|48.26,13.86|Z|0241; Twilight Highlands|N|Don't worry if you die. You actually have to, it's part of the quest.|
-T Devoured|QID|27377|M|33.32,50.40|Z|The Maelstrom|N|To Thrall.|
-A The Worldbreaker|QID|27378|PRE|27377|M|33.32,50.40|Z|The Maelstrom|N|From Thrall.|
+C The Demon Chain|QID|28123|M|49.09,28.23|Z|0241; Twilight Highlands|L|63036|N|Pick up the Demon Chain laying on the ground near Narkrall Rakeclaw's body in Thundermar.|
+T The Demon Chain|QID|28123|M|54.35,43.86|Z|0241; Twilight Highlands|N|To Zaela.|
+A Fury Unbound|QID|28133|PRE|28123|M|54.35,43.86|Z|0241; Twilight Highlands|N|From Zaela.|
+T Paint it Black|QID|27945|M|53.20,42.71|Z|0241; Twilight Highlands|N|To Mallia.|
+A The Weeping Wound|QID|27375|PRE|27945|M|53.20,42.71|Z|0241; Twilight Highlands|N|From Mallia.|
+T The Eyes Have It|QID|27954|M|53.30,42.69|Z|0241; Twilight Highlands|N|To Garona Halforcen.|
+A Eye Spy|QID|27955|PRE|27954|M|53.30,42.69|Z|0241; Twilight Highlands|N|From Garona Halforcen.|
+C Eye Spy|QID|27955|M|53.30,42.77|Z|0241; Twilight Highlands|N|Click on the Eye of Twilight in the room with you.\n[color=FF0000]NOTE: [/color]You can skip the cinematic.|NC|
+T Eye Spy|QID|27955|M|53.30,42.69|Z|0241; Twilight Highlands|N|To Garona Halforcen.|
+T The Weeping Wound|QID|27375|M|44.04,10.55|Z|0241; Twilight Highlands|N|To Earthcaller Torunscar at Ring of Elements.|
+A Torn Ground|QID|27299|PRE|27374^27375|M|44.04,10.55|Z|0241; Twilight Highlands|N|From Earthcaller Torunscar.|
+C Torn Ground|QID|27299|M|41.92,11.56|Z|0241; Twilight Highlands|N|Kill 3 non-elite Tentacles of Iso'rath.|T|Tentacle of Iso'rath|
+T Torn Ground|QID|27299|M|44.04,10.55|Z|0241; Twilight Highlands|N|To Earthcaller Torunscar.|
+A Pushing Back|QID|27300|PRE|27299|M|44.04,10.55|Z|0241; Twilight Highlands|N|From Earthcaller Torunscar.|
+A Unbroken|QID|27301|PRE|27299|M|43.99,11.25|Z|0241; Twilight Highlands|N|From Earthmender Duarn.|
+A Simple Solutions|QID|27302|PRE|27299|M|44.41,11.56|Z|0241; Twilight Highlands|N|From Initiate Goldmine.|
+C Pushing Back|QID|27300|M|42.50,18.64|Z|0241; Twilight Highlands|N|Kill Twilight Captivators and Bonebreakers at the Ruins of Drakgor.|S|
+C Simple Solutions|QID|27302|QO|1|M|42.61,18.50|Z|0241; Twilight Highlands|L|60982 10|ITEM|60982|N|Captivators.\n[color=FF0000]NOTE: [/color]They can be looted from the ground as well.|S|
+T Unbroken|QID|27301|M|44.21,18.13|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.|
+A Mercy for the Bound|QID|27303|PRE|27301|M|44.27,18.08|Z|0241; Twilight Highlands|N|From Earthcaller Yevaa.|
+C Mercy for the Bound|QID|27303|M|38.32,16.82|Z|0241; Twilight Highlands|L|60981 5|ITEM|60981|N|Bound Fleshburners.|T|Bound Fleshburner|
+C Pushing Back|QID|27300|M|42.50,18.64|Z|0241; Twilight Highlands|N|Kill Twilight Captivators and Bonebreakers at the Ruins of Drakgor.|US|
+C Simple Solutions|QID|27302|M|42.61,18.50|Z|0241; Twilight Highlands|L|60982 10|ITEM|60982|N|Captivators.\n[color=FF0000]NOTE: [/color]They can be looted from the ground as well.|US|
+T Mercy for the Bound|QID|27303|M|43.82,11.33|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.|
+T Simple Solutions|QID|27302|M|44.41,11.56|Z|0241; Twilight Highlands|N|To Initiate Goldmine.|
+T Pushing Back|QID|27300|M|44.04,10.55|Z|0241; Twilight Highlands|N|To Earthcaller Torunscar.|
+A The Maw of Iso'rath|QID|27376|PRE|27300&27302&27303|M|44.04,10.55|Z|0241; Twilight Highlands|N|From Earthcaller Torunscar.|
+F Iso'rath|ACTIVE|27376|M|44.50,10.73|Z|0241; Twilight Highlands|N|Hop on a Earthen Ring Gryphon and begin the motion cinematic.\n[color=FF0000]NOTE: [/color]At some point, you'll get knocked off.|BUFF|89210|V|
+R The Maw of Iso'rath|ACTIVE|27376|M|48.15,14.39|CC|Z|0241; Twilight Highlands|N|Mylra will cast 'Rallying Winds' on you; slowing your fall for 60 seconds, or until you 'land' (wherever that happens).\n[color=FF0000]NOTE: [/color]If you land on the side, STOP MOVING and use your flying mount to continue down. It's DEATH speed from here on out.|
+T The Maw of Iso'rath|QID|27376|M|48.40,14.57|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.\n[color=FF0000]NOTE: [/color]Watch out for the AoE damage from the Bloods of Iso'rath.|
+A Devoured|QID|27377|PRE|27376|M|48.40,14.57|Z|0241; Twilight Highlands|N|From Earthcaller Yevaa.|
+C Devoured|QID|27377|M|48.26,13.86|Z|0241; Twilight Highlands|N|Save yourself the time and just die; it's part of the quest.|
+T Devoured|QID|27377|M|PLAYER|CC|N|<UI Alart>\n[color=FF0000]NOTE: [/color]Or to Thrall if you miss it.|
+A The Worldbreaker|QID|27378|PRE|27377|M|33.32,50.40|Z|The Maelstrom|N|From Thrall.\n[color=FF0000]NOTE: [/color]If you wait too long, it'll give it to you automatically and teleport you back to Iso'rath.|
 C The Worldbreaker|QID|27378|M|33.37,50.22|Z|The Maelstrom|
-T The Worldbreaker|QID|27378|M|48.68,16.61|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.|
-A The Terrors of Iso'rath|QID|27379|PRE|27378|M|48.68,16.61|Z|0241; Twilight Highlands|N|From Earthcaller Yevaa.|
-C Stormcaller Jalara|QID|27379|QO|2|M|49.37,15.84|Z|0241; Twilight Highlands|N|Free the ones from the non elites first they will help you on the elites|
-C Earthmender Duarn|QID|27379|QO|3|M|49.09,13.21|
-C Hargoth Dimblaze|QID|27379|QO|1|M|47.21,13.27|
-C Stormcaller Mylra|QID|27379|QO|4|M|47.24,15.80|
-T The Terrors of Iso'rath|QID|27379|M|48.63,16.59|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.|
-A Nightmare|QID|27380|PRE|27379|M|48.63,16.59|Z|0241; Twilight Highlands|N|From Earthcaller Yevaa.|
-C Nightmare|QID|27380|M|48.37,15.40|Z|0241; Twilight Highlands|N|Brain evading seemed to be a problem on the Beta logging out and back in seemed to fix it|
-T Nightmare|QID|27380|M|44.02,10.58|Z|0241; Twilight Highlands|N|To Earthcaller Torunscar.|
-A Warm Welcome|QID|27486|PRE|27380|M|44.04,10.51|Z|0241; Twilight Highlands|N|From Golluck Rockfist.|
-C Fury Unbound|QID|28133|M|36.59,38.18|Z|0241; Twilight Highlands|N|Talk to Zaela and tell her your ready to fight Torth|
-T Fury Unbound|QID|28133|M|36.45,38.15|
-A Whispers in the Wind|QID|28149|M|36.43,37.99|Z|0241; Twilight Highlands|N|From Buunu.|
-A Purple is Your Color|QID|28147|M|36.76,38.01|Z|0241; Twilight Highlands|N|From Rotgrum.|
+T The Worldbreaker|QID|27378|M|48.70,16.63|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa or <UI Alert>.|
+A The Terrors of Iso'rath|QID|27379|PRE|27378|M|48.70,16.63|Z|0241; Twilight Highlands|N|From Earthcaller Yevaa.|
+C The Terrors of Iso'rath|QID|27379|QO|2|M|49.37,15.84|Z|0241; Twilight Highlands|N|Save Stormcaller Jalara.\n[color=FF0000]NOTE: [/color]If you are taking too much damage from the stomach acid, seek refuge under one of the bubbles and be protected while healed.|
+C The Terrors of Iso'rath|QID|27379|QO|3|M|49.09,13.21|Z|0241; Twilight Highlands|N|Save Earthmender Duarn.\n[color=FF0000]NOTE: [/color]If you are taking too much damage from the stomach acid, seek refuge under one of the bubbles and be protected while healed.|
+C The Terrors of Iso'rath|QID|27379|QO|1|M|47.21,13.27|Z|0241; Twilight Highlands|N|Save Hargoth Dimblaze.\n[color=FF0000]NOTE: [/color]If you are taking too much damage from the stomach acid, seek refuge under one of the bubbles and be protected while healed.|
+C The Terrors of Iso'rath|QID|27379|QO|4|M|47.24,15.80|Z|0241; Twilight Highlands|N|Save Stormcaller Mylra.\n[color=FF0000]NOTE: [/color]If you are taking too much damage from the stomach acid, seek refuge under one of the bubbles and be protected while healed.|
+T The Terrors of Iso'rath|QID|27379|M|48.70,16.62|Z|0241; Twilight Highlands|N|To Earthcaller Yevaa.|
+A Nightmare|QID|27380|PRE|27379|M|48.70,16.62|Z|0241; Twilight Highlands|N|From Earthcaller Yevaa.|
+C Nightmare|QID|27380|M|48.37,15.40|Z|0241; Twilight Highlands|N|Destroy the Brain of Iso'rath.|
+T Nightmare|QID|27380|M|44.04,10.55|Z|0241; Twilight Highlands|N|To Earthcaller Torunscar.\n[color=FF0000]NOTE: [/color]A Gryphon will pick you up and fly you back to Ring of Elements.|
+A Warm Welcome|QID|27486|PRE|27380|M|44.08,10.53|Z|0241; Twilight Highlands|N|From Golluck Rockfist.|
+C Fury Unbound|QID|28133|M|36.59,38.18|Z|0241; Twilight Highlands|N|After speaking with Zaela at the cave entrance in The Gullet, kill Torth when he appears.|
+T Fury Unbound|QID|28133|M|36.59,38.18|Z|0241; Twilight Highlands|N|To Zaela.|
+A Whispers in the Wind|QID|28149|M|36.39,37.98|Z|0241; Twilight Highlands|N|From Buunu.|
+A Purple is Your Color|QID|28147|M|36.74,37.92|Z|0241; Twilight Highlands|N|From Rotgrum.|
 f The Gullet|QID|28147|M|36.86,37.99|Z|0241; Twilight Highlands|N|At San'shigo.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-C Warm Welcome|QID|27486|M|27.59,21.11|
-T Warm Welcome|QID|27486|M|29.29,26.01|Z|0241; Twilight Highlands|N|To Calen.|
-A Even Dragons Bleed|QID|27504|PRE|27485^27486|M|29.29,26.01|Z|0241; Twilight Highlands|N|From Calen.|
+C Warm Welcome|QID|27486|M|27.59,21.11|Z|0241; Twilight Highlands|N|Meet with Lirastrasza at Vermillion Redoubt.\n[color=FF0000]NOTE: [/color]Don't worry, that dragon is Lirastrasza and she's your 'personal escort' the rest of the way.|
+T Warm Welcome|QID|27486|M|29.33,25.96|Z|0241; Twilight Highlands|N|To Calen.|
+A Even Dragons Bleed|QID|27504|PRE|27486|M|29.33,25.96|Z|0241; Twilight Highlands|N|From Calen.| ; This is a Horde guide... Don't need Alliance PREs - Hendo72
 T Even Dragons Bleed|QID|27504|M|29.85,31.27|Z|0241; Twilight Highlands|N|To Velastrasza.|
 A Draconic Mending|QID|27505|PRE|27504|M|29.85,31.27|Z|0241; Twilight Highlands|N|From Velastrasza.|
-A Life from Death|QID|27506|PRE|27504|M|29.85,31.27|Z|0241; Twilight Highlands|N|From Baleflame.|
-C Draconic Mending|QID|27505|M|29.87,33.36|Z|0241; Twilight Highlands|N|Go near Acridostrasz or a similar large red drake and defend the Menders from Wyrmkillers.|S|
-C Life from Death|QID|27506|M|31.08,33.58|Z|0241; Twilight Highlands|N|Use the seed on any Wyrmkillers corpse.|U|61323|
-C Draconic Mending|QID|27505|M|29.87,33.36|US|
-T Life from Death|QID|27506|M|29.85,31.41|Z|0241; Twilight Highlands|N|To Baleflame.|
-T Draconic Mending|QID|27505|M|29.82,31.26|Z|0241; Twilight Highlands|N|To Velastrasza.|
-A In Defense of the Redoubt|QID|27564|PRE|27505&27506|M|29.82,31.26|Z|0241; Twilight Highlands|N|From Velastrasza.|
-T In Defense of the Redoubt|QID|27564|M|29.33,26.04|Z|0241; Twilight Highlands|N|To Calen. Back at the tree.|
-A Breach in the Defenses|QID|27509|PRE|27564|M|29.33,26.04|Z|0241; Twilight Highlands|N|From Calen.|
-A Encroaching Twilight|QID|27507|PRE|27564|M|29.33,26.04|Z|0241; Twilight Highlands|N|From Calen.|
-A Far from the Nest|QID|27508|PRE|27564|M|29.33,26.04|Z|0241; Twilight Highlands|N|From Lirastrasza.|
-f Vermillion Redoubt|QID|27507|M|28.50,24.92|Z|0241; Twilight Highlands|N|At Aquinastrasz.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-C Breach in the Defenses|QID|27509|M|17.85,16.82|Z|0241; Twilight Highlands|N|Inside the cave.|U|61385|
-C Far from the Nest|QID|27508|M|21.90,19.18|Z|0241; Twilight Highlands|N|Laying on the ground and dropped by mobs carrying them after being killed.|S|
-C Encroaching Twilight|QID|27507|M|20.08,14.66|Z|0241; Twilight Highlands|
-C Far from the Nest|QID|27508|M|21.90,19.18|Z|0241; Twilight Highlands|US|
-T Far from the Nest|QID|27508|M|29.35,26.03|Z|0241; Twilight Highlands|N|To Lirastrasza.|
-T Encroaching Twilight|QID|27507|M|29.35,26.03|Z|0241; Twilight Highlands|N|To Calen.|
-T Breach in the Defenses|QID|27509|M|29.35,26.03|Z|0241; Twilight Highlands|N|To Calen.|
-A Patchwork Command|QID|27576|PRE|27507&27508&27509|M|29.40,26.07|Z|0241; Twilight Highlands|N|From Calen.|
-T Patchwork Command|QID|27576|M|27.31,36.76|Z|0241; Twilight Highlands|N|To Patch.|
-A Easy Pickings|QID|28091|PRE|27576|M|27.31,36.76|Z|0241; Twilight Highlands|N|From Patch.|
-A Precious Goods|QID|28090|PRE|27576|M|27.31,36.76|Z|0241; Twilight Highlands|N|From Patch.|
-C Easy Pickings|QID|28091|M|25.13,38.76|Z|0241; Twilight Highlands|S|
-C Precious Goods|QID|28090|M|25.62,37.92|Z|0241; Twilight Highlands|N|Key can drop off most mob in this encampment. Use it on the chest inside the caravan.|
-C Easy Pickings|QID|28091|M|25.13,38.76|Z|0241; Twilight Highlands|US|
-T Precious Goods|QID|28090|M|27.31,36.77|Z|0241; Twilight Highlands|N|To Patch.|
+A Life from Death|QID|27506|PRE|27504|M|29.79,31.43|Z|0241; Twilight Highlands|N|From Baleflame.|
+C Life from Death|QID|27506|M|30.67,36.09|Z|0241; Twilight Highlands|N|Use the Ruby Seeds on a Wyrmkiller's corpse within the Vermillion Redoubt.|U|61323|S|
+C Draconic Mending|QID|27505|M|29.87,33.36|Z|0241; Twilight Highlands|N|Defend the Vermillion Menders from Wyrmkillers as they heal the large red drakes.|
+C Life from Death|QID|27506|M|30.67,36.04|Z|0241; Twilight Highlands|N|Use the Ruby Seeds on a Wyrmkiller's corpse within the Vermillion Redoubt.|U|61323|US|
+T Life from Death|QID|27506|M|29.79,31.43|Z|0241; Twilight Highlands|N|To Baleflame.|
+T Draconic Mending|QID|27505|M|29.85,31.27|Z|0241; Twilight Highlands|N|To Velastrasza.|
+A In Defense of the Redoubt|QID|27564|PRE|27505&27506|M|29.85,31.27|Z|0241; Twilight Highlands|N|From Velastrasza.|
+T In Defense of the Redoubt|QID|27564|M|29.33,25.96|Z|0241; Twilight Highlands|N|To Calen.|
+A Breach in the Defenses|QID|27509|PRE|27564|M|29.33,25.96|Z|0241; Twilight Highlands|N|From Calen.|
+A Encroaching Twilight|QID|27507|PRE|27564|M|29.33,25.96|Z|0241; Twilight Highlands|N|From Calen.|
+A Far from the Nest|QID|27508|PRE|27564|M|29.30,25.98|Z|0241; Twilight Highlands|N|From Lirastrasza.|
+f Vermillion Redoubt|QID|27507|M|28.55,24.86|Z|0241; Twilight Highlands|N|At Aquinastrasz.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+C Encroaching Twilight|QID|27507|M|20.08,14.66|Z|0241; Twilight Highlands|N|Kill Twilight invaders within the Vermillion Redoubt.|S|
+C Breach in the Defenses|QID|27509|M|17.85,16.82|Z|0241; Twilight Highlands|N|Use the Flashgrowth Mote to destroy the Twilight Portal inside the cave.|U|61385|
+C Far from the Nest|QID|27508|M|21.90,19.18|Z|0241; Twilight Highlands|L|61317 6|ITEM|61317|N|Twilight Abductors.\n[color=FF0000]NOTE: [/color]They can be looted from the ground as well.|S|
+C Encroaching Twilight|QID|27507|M|20.08,14.66|Z|0241; Twilight Highlands|N|Kill Twilight invaders within the Vermillion Redoubt.\n[color=FF0000]NOTE: [/color]Watch out for the not-so friendly fire from the Vermillion Sentinels.|US|
+C Far from the Nest|QID|27508|M|21.90,19.18|Z|0241; Twilight Highlands|L|61317 6|ITEM|61317|N|Twilight Abductors.\n[color=FF0000]NOTE: [/color]They can be looted from the ground as well.|US|
+T Far from the Nest|QID|27508|M|29.30,25.98|Z|0241; Twilight Highlands|N|To Lirastrasza.|
+T Encroaching Twilight|QID|27507|M|29.33,25.96|Z|0241; Twilight Highlands|N|To Calen.|
+T Breach in the Defenses|QID|27509|M|29.33,25.96|Z|0241; Twilight Highlands|N|To Calen.|
+A Patchwork Command|QID|27576|PRE|27507&27508&27509|M|29.33,25.96|Z|0241; Twilight Highlands|N|From Calen.|
+T Patchwork Command|QID|27576|M|27.32,36.79|Z|0241; Twilight Highlands|N|To Patch.|
+A Easy Pickings|QID|28091|PRE|27576|M|27.32,36.79|Z|0241; Twilight Highlands|N|From Patch.|
+A Precious Goods|QID|28090|PRE|27576|M|27.32,36.79|Z|0241; Twilight Highlands|N|From Patch.|
+C Easy Pickings|QID|28091|M|25.13,38.76|Z|0241; Twilight Highlands|N|Kill Twilight Spearwarders.|S|
+C Precious Goods|QID|28090|M|25.62,37.92|Z|0241; Twilight Highlands|L|62926|ITEM|62926|N|Twilight Spearwarders.|T|Twilight Spearwarder|
+C Easy Pickings|QID|28091|M|25.13,38.76|Z|0241; Twilight Highlands|N|Kill Twilight Spearwarders.|T|Twilight Spearwarder|US|
+C Precious Goods|QID|28090|M|25.19,37.87|Z|0241; Twilight Highlands|L|62927|N|Loot a Twilight Caravan Gatestone from one of the Twilight Caravan chests.|
+T Precious Goods|QID|28090|M|27.31,36.77|Z|0241; Twilight Highlands|N|To Patch.\n[color=FF0000]NOTE: [/color]Him and the Gob Squad have joined you as companions.|
 T Easy Pickings|QID|28091|M|27.31,36.77|Z|0241; Twilight Highlands|N|To Patch.|
 A The Gates of Grim Batol|QID|28097|PRE|28090^28091|M|27.31,36.77|Z|0241; Twilight Highlands|N|From Patch.|
-T The Gates of Grim Batol|QID|28097|M|29.59,41.00|Z|0241; Twilight Highlands|N|To Warlord Krogg.|
-A If The Key Fits|QID|28092|PRE|28097|M|29.59,41.00|Z|0241; Twilight Highlands|N|From Warlord Krogg.|
-A Paving the Way|QID|28094|M|29.61,41.14|Z|0241; Twilight Highlands|N|From Patch.|
-C Paving the Way|QID|28094|M|31.16,47.67|Z|0241; Twilight Highlands|S|
-C If The Key Fits|QID|28092|M|29.74,51.70|Z|0241; Twilight Highlands|N|Head down the road to the gate.|
-T If The Key Fits|QID|28092|M|29.31,52.24|Z|0241; Twilight Highlands|N|To Patch.|
-A Pressing Forward|QID|28093|PRE|28092|M|29.31,52.24|Z|0241; Twilight Highlands|N|From Patch.|
-C Paving the Way|QID|28094|M|31.16,47.67|Z|0241; Twilight Highlands|N|Make sure to complete this before going too far forward to complete Pressing Forward or your squad will run off.|US|
-T Paving the Way|QID|28094|M|29.53,51.85|Z|0241; Twilight Highlands|N|To Patch. Make sure to complete this before going to far forward to complete Pressing Forward or your squad will run off.|
-C Pressing Forward|QID|28093|M|22.60,56.26|Z|0241; Twilight Highlands|
+T The Gates of Grim Batol|QID|28097|M|29.63,40.98|Z|0241; Twilight Highlands|N|To Warlord Krogg in Wyrms' Bend.\n[color=FF0000]NOTE: [/color]Wyrms' Bend must 'phase' before you can see him (and everyone else).|
+A If The Key Fits|QID|28092|PRE|28097|M|29.63,40.98|Z|0241; Twilight Highlands|N|From Warlord Krogg.|
+A Paving the Way|QID|28094|M|PLAYER|CC|N|From Patch.\n[color=FF0000]NOTE: [/color]Speak with Warlord Krogg if you don't see Patch.|
+C Paving the Way|QID|28094|M|31.16,47.67|Z|0241; Twilight Highlands|N|Kill Twilight cultists.\n[color=FF0000]NOTE: [/color]Do quick damage before the Gob Squad wipes them all out and you don't get credit.|S|
+C If The Key Fits|QID|28092|M|29.62,51.41|Z|0241; Twilight Highlands|N|Lead the Gob Squad to the closed Dragonmaw Gate.\n[color=FF0000]NOTE: [/color]If you lose the Gob Squad, return to Warlord Krogg to get them back.|
+T If The Key Fits|QID|28092|M|PLAYER|CC|N|To Patch.|
+A Pressing Forward|QID|28093|PRE|28092|M|PLAYER|CC|N|From Patch.|
+C Paving the Way|QID|28094|M|25.39,55.09|Z|0241; Twilight Highlands|N|Kill Twilight cultists.\n[color=FF0000]NOTE: [/color]Do not go through the gates.|US|
+T Paving the Way|QID|28094|M|29.53,51.85|Z|0241; Twilight Highlands|N|To Patch.\n[color=FF0000]NOTE: [/color]If you complete 'Pressing Forward' before turning this in, your squad will run off and you have to go back to Warlord Krogg to get them again.|
+C Pressing Forward|QID|28093|M|22.60,56.26|Z|0241; Twilight Highlands|N|Lead the Gob Squad through the second gate to the Grim Batol Meeting Stone at the side of the road.|
 T Pressing Forward|QID|28093|M|22.13,56.54|Z|0241; Twilight Highlands|N|To Calen.|
-A Enter the Dragon Queen|QID|28712|PRE|28109^28093|M|21.81,57.03|Z|0241; Twilight Highlands|N|From Alexstrasza the Life-Binder.|
-C Purple is Your Color|QID|28147|M|40.90,45.93|Z|0241; Twilight Highlands|N|Kill Windwarpers for Scraps.|S|
-C Whispers in the Wind|QID|28149|QO|1|M|39.35,47.31|Z|0241; Twilight Highlands|N|Click the statue.|
-C Whispers in the Wind|QID|28149|QO|2|M|40.88,47.50|Z|0241; Twilight Highlands|N|Kill Storm Vortex.|
-C Purple is Your Color|QID|28147|M|40.90,45.93|Z|0241; Twilight Highlands|US|
-T Whispers in the Wind|QID|28149|M|36.41,38.09|Z|0241; Twilight Highlands|N|To Buunu.|
-A Thog's Nightlight|QID|28166|PRE|28149|M|36.42,38.09|Z|0241; Twilight Highlands|N|From Buunu.|
-T Purple is Your Color|QID|28147|M|36.73,38.08|Z|0241; Twilight Highlands|N|To Rotgrum.|
-A Dressed to Kill|QID|28151|PRE|28147|M|36.73,38.08|Z|0241; Twilight Highlands|N|From Rotgrum.|
-C Thog's Nightlight|QID|28166|M|40.67,32.86|Z|0241; Twilight Highlands|N|In the big building with Thog, it's sitting on the table.|
-C Dressed to Kill|QID|28151|M|40.70,30.72|Z|0241; Twilight Highlands|N|Kill ogres.|
-T Dressed to Kill|QID|28151|M|36.73,38.00|Z|0241; Twilight Highlands|N|To Rotgrum.|
-T Thog's Nightlight|QID|28166|M|36.43,38.04|Z|0241; Twilight Highlands|N|To Buunu.|
-A Night Terrors|QID|28170|PRE|28166|M|36.43,38.04|Z|0241; Twilight Highlands|N|From Buunu.|
-R Night Terrors|QID|28170|M|35.14,36.62;35.00,35.16;34.15,35.65|CC|Z|0241; Twilight Highlands|N|Enter the cave and talk to Uchek, then Head North.|U|67537|
-C First Shrine|QID|28170|QO|1|M|34.24,35.68|Z|0241; Twilight Highlands|U|67537|
-R Night Terrors|QID|28170|M|33.97,35.10;33.43,36.81|CC|Z|0241; Twilight Highlands|N|Jump off north, then head southwest.|U|67537|
-C Second Shrine|QID|28170|QO|2|M|34.11,35.63|Z|0241; Twilight Highlands|U|67537|
-R Night Terrors|QID|28170|M|34.20,36.63;34.64,37.98;34.27,37.82|CC|Z|0241; Twilight Highlands|N|Head back east toward where Uchek was, then go right.|U|67537|
-C Third Shrine|QID|28170|QO|3|M|34.11,35.63|Z|0241; Twilight Highlands|U|67537|
-T Night Terrors|QID|28170|M|36.37,37.99|Z|0241; Twilight Highlands|N|Jump down and head back out the cave to Buunu.|
-T Enter the Dragon Queen|QID|28712|M|14.93,16.28|Z|0241; Twilight Highlands|N|To Lirastrasza.|
-A Battle of Life and Death|QID|28758|PRE|28712|M|14.18,15.44|Z|0241; Twilight Highlands|N|From Calen.|
-C Battle of Life and Death|QID|28758|M|19.21,46.71|Z|0241; Twilight Highlands|N|Mount the drake behind the quest giver.|
-T Battle of Life and Death|QID|28758|M|22.08,56.61|Z|0241; Twilight Highlands|N|To Calen.|
-A And the Sky Streaked Red|QID|28171|PRE|28758|M|22.08,56.61|Z|0241; Twilight Highlands|N|From Calen.|
-C And the Sky Streaked Red|QID|28171|M|22.08,56.61|Z|0241; Twilight Highlands|
-T And the Sky Streaked Red|QID|28171|M|59.06,69.82|Z|0241; Twilight Highlands|N|To Lirastrasza.|
-A A Fitting End|QID|28191|PRE|28171|M|59.06,69.82|Z|0241; Twilight Highlands|N|From Lirastrasza.|
-A Blackout|QID|28173|PRE|28171|M|59.06,69.82|Z|0241; Twilight Highlands|N|From Lirastrasza.|
-A Shining Through the Dark|QID|28175|PRE|28171|M|59.06,69.82|Z|0241; Twilight Highlands|N|From Velastrasza.|
-C A Fitting End|QID|28191|M|60.69,83.65|Z|0241; Twilight Highlands|S|
-C Shining Through the Dark|QID|28175|M|63.86,77.93|Z|0241; Twilight Highlands|N|Cave under the tree entrance is on the west side.|U|63139|
-C Blackout|QID|28173|M|62.60,86.62|Z|0241; Twilight Highlands|N|Use the hook to grapple on to a drake's back and kill it. You can use the hook while flying on your mount or on the back of a dying Drake. You can also grapple on to a friendly drake.|U|63092|
-C A Fitting End|QID|28191|M|60.69,83.65|Z|0241; Twilight Highlands|US|
+A Enter the Dragon Queen|QID|28712|PRE|28109^28093|M|21.74,57.13|Z|0241; Twilight Highlands|N|From Alexstrasza the Life-Binder.|
+C Purple is Your Color|QID|28147|M|40.90,45.93|Z|0241; Twilight Highlands|L|63087 8|ITEM|63087|N|Twilight Windwarpers.|S|
+C Whispers in the Wind|QID|28149|QO|1|M|39.39,47.33|Z|0241; Twilight Highlands|N|After clearing the area, click the Windspeaker Pylon.|NC|
+C Whispers in the Wind|QID|28149|QO|2|M|40.88,47.50|Z|0241; Twilight Highlands|L|63089 5|ITEM|63089|N|Storm Vortex.|T|Storm Vortex|
+C Purple is Your Color|QID|28147|M|40.90,45.93|Z|0241; Twilight Highlands|L|63087 8|ITEM|63087|N|Twilight Windwarpers.|T|Twilight Windwarper|US|
+T Whispers in the Wind|QID|28149|M|36.39,37.98|Z|0241; Twilight Highlands|N|To Buunu.|
+A Thog's Nightlight|QID|28166|PRE|28149|M|36.39,37.98|Z|0241; Twilight Highlands|N|From Buunu.|
+T Purple is Your Color|QID|28147|M|36.74,37.92|Z|0241; Twilight Highlands|N|To Rotgrum.|
+A Dressed to Kill|QID|28151|PRE|28147|M|36.74,37.92|Z|0241; Twilight Highlands|N|From Rotgrum.|
+C Dressed to Kill|QID|28151|M|40.70,30.72|Z|0241; Twilight Highlands|N|Kill any Glopgut mob.|S|
+C Thog's Nightlight|QID|28166|M|40.67,32.86|Z|0241; Twilight Highlands|L|63107|N|Kill Thog (caster) and loot the Light of Souls from the table in the big building in Glopgut's Hollow.\n[color=FF0000]NOTE: [/color]Don't linger because Thog respawns VERY quickly.|
+C Dressed to Kill|QID|28151|M|39.06,32.01|Z|0241; Twilight Highlands|N|Kill any Glopgut mob.|T|Glopgut|US|
+T Dressed to Kill|QID|28151|M|36.74,37.92|Z|0241; Twilight Highlands|N|To Rotgrum.|
+T Thog's Nightlight|QID|28166|M|36.39,37.98|Z|0241; Twilight Highlands|N|To Buunu.|
+A Night Terrors|QID|28170|PRE|28166|M|36.39,37.98|Z|0241; Twilight Highlands|N|From Buunu.|
+C Night Terrors|QID|28170|M|35.04,36.64|Z|0241; Twilight Highlands|N|Enter the cave and talk to Uchek to be ported to the spirit realm.|BUFF|88981|CHAT|
+R First Shrine|ACTIVE|28170|QO|1|M|35.00,35.16;34.15,35.65;34.08,35.62|CC|Z|0241; Twilight Highlands|N|Head north around the ledge.\n[color=FF0000]NOTE: [/color]Your Light of Souls is the only way to defeat the spirits attacking you.\nIt has a 20 second cooldown; use it wisely.\nIt's also a channeled ability and you cannot move.|U|67537|
+R Second Shrine|ACTIVE|28170|QO|2|M|34.01,35.00;33.45,36.89|CC|Z|0241; Twilight Highlands|N|Drop off the ledge and head southwest.|U|67537|
+R Third Shrine|ACTIVE|28170|QO|3|M|35.01,36.76;34.11,35.63|CC|Z|0241; Twilight Highlands|N|Continue west off the ledge and go through the tunnel to your right.|U|67537|
+T Night Terrors|QID|28170|M|36.39,37.98|Z|0241; Twilight Highlands|N|Jump down and head back out the cave to Buunu.|
+T Enter the Dragon Queen|QID|28712|M|14.86,16.33|Z|0241; Twilight Highlands|N|To Lirastrasza standing in The Circle of Life (NW of Vermillion Redoubt).\n[color=FF0000]NOTE: [/color]You can skip the cinematic.|
+A Battle of Life and Death|QID|28758|PRE|28712|M|14.15,15.46|Z|0241; Twilight Highlands|N|From Calen.|
+C Battle of Life and Death|QID|28758|M|14.05,15.08|CC|Z|0241; Twilight Highlands|N|Mount the drake behind the Calen to begin.\nUse <1> to attack.\nUse <2> to heal yourself and a friendly drake.\nUse <3> to finish off a weakened enemy.\n[color=FF0000]NOTE: [/color]You can skip the cinematic at the end.|T|Twilight Shadowdrake|
+T Battle of Life and Death|QID|28758|M|22.13,56.57|Z|0241; Twilight Highlands|N|To Calen.|
+A And the Sky Streaked Red|QID|28171|PRE|28758|M|22.13,56.57|Z|0241; Twilight Highlands|N|From Calen.|
+F And the Sky Streaked Red|ACTIVE|28171|M|59.09,70.02|CC|Z|0241; Twilight Highlands|N|Enjoy the view and the free flight to Highland Forest.|
+T And the Sky Streaked Red|QID|28171|M|59.07,69.78|Z|0241; Twilight Highlands|N|To Lirastrasza.|
+A A Fitting End|QID|28191|PRE|28171|M|59.07,69.78|Z|0241; Twilight Highlands|N|From Lirastrasza.|
+A Blackout|QID|28173|PRE|28171|M|59.07,69.78|Z|0241; Twilight Highlands|N|From Lirastrasza.|
+A Shining Through the Dark|QID|28175|PRE|28171|M|59.02,69.81|Z|0241; Twilight Highlands|N|From Velastrasza.|
+C A Fitting End|QID|28191|M|60.69,83.65|Z|0241; Twilight Highlands|N|Kill Obsidian wyrmkins in Obsidian Forest.|S|
+C Shining Through the Dark|QID|28175|M|64.03,77.97|Z|0241; Twilight Highlands|N|Use Alexstrasza's Tear within the hollow beneath the Obsidian Tree.\n[color=FF0000]NOTE: [/color]The entrance is on the NW side and guarded by non-elite lv 85 Scarderis.|U|63139|
+C Blackout|QID|28173|M|62.60,86.62|Z|0241; Twilight Highlands|N|Use the hook to grapple on to a Obsidian Pyrewing's back and kill it.\n[color=FF0000]NOTE: [/color]You can use the hook while flying on your mount or on the back of a dying Drake.\nYou can also grapple on to a friendly drake.|T|Obsidian Pyrewing|U|63092|
+C A Fitting End|QID|28191|M|60.69,83.65|Z|0241; Twilight Highlands|N|Kill Obsidian wyrmkins in Obsidian Forest.|US|
 T Blackout|QID|28173|M|59.06,69.79|Z|0241; Twilight Highlands|N|To Lirastrasza.|
 T A Fitting End|QID|28191|M|59.06,69.79|Z|0241; Twilight Highlands|N|To Lirastrasza.|
-T Shining Through the Dark|QID|28175|M|59.06,69.79|Z|0241; Twilight Highlands|N|To Velastrasza.|
+T Shining Through the Dark|QID|28175|M|59.02,69.81|Z|0241; Twilight Highlands|N|To Velastrasza.|
 A Following the Young Home|QID|28176|PRE|28173&28175&28191|M|59.06,69.79|Z|0241; Twilight Highlands|N|From Lirastrasza.|
-C Following the Young Home|QID|28176|QO|1|M|58.09,80.24;49.88,85.69|CN|Z|0241; Twilight Highlands|N|Use Mother's flame to hatch the eggs outside the cave. There are several clumps of eggs in this area.|U|63126|
-C Following the Young Home|QID|28176|M|49.88,85.69|Z|0241; Twilight Highlands|N|Follow the whelps into the cave.|
-T Following the Young Home|QID|28176|M|44.99,90.95|Z|0241; Twilight Highlands|N|To Baleflame. Deeper inside the cave.|
-A Last of Her Kind|QID|28247|PRE|28176|M|44.99,90.95|Z|0241; Twilight Highlands|N|From Baleflame.|
-C Last of Her Kind|QID|28247|M|45.07,91.82|Z|0241; Twilight Highlands|
+C Following the Young Home|QID|28176|QO|1|M|59.94,82.11|CN|Z|0241; Twilight Highlands|N|Use Mother's Flame on one of the many groups of eggs to hatch one of them.|U|63126|
+C Following the Young Home|QID|28176|QO|2|M|49.93,85.37|Z|0241; Twilight Highlands|N|Follow the hatchling(s) into Obsidian Lair.|
+T Following the Young Home|QID|28176|M|44.91,90.93|Z|0241; Twilight Highlands|N|To Baleflame, a little deeper inside the cave.|
+A Last of Her Kind|QID|28247|PRE|28176|M|44.91,90.93|Z|0241; Twilight Highlands|N|From Baleflame.\n[color=FF0000]NOTE: [/color]If, for any reason, you cannot pick up this quest, leave the cave and come back in.|
+A Last of Her Kind|QID|28247|PRE|28176|M|44.91,90.93|Z|0241; Twilight Highlands|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Baleflame to restart.\n[color=FF0000]NOTE: [/color]If, for any reason, you cannot pick up this quest, leave the cave and come back in.|FAIL|
+C Last of Her Kind|QID|28247|QO|1|M|45.07,91.82|Z|0241; Twilight Highlands|N|Kill Obsidia.\n[color=FF0000]NOTE: [/color]Let Baleflame take the aggro and do the heavy lifting.\nThe hatchling adds die in the lava pools.\nIf Baleflame dies, stay alive until he respawns and he'll help you finish when you re-accept the quest.|
 T Last of Her Kind|QID|28247|M|59.06,69.78|Z|0241; Twilight Highlands|N|To Lirastrasza.|
 A Crushblow|QID|28249|PRE|28247|M|59.06,69.78|Z|0241; Twilight Highlands|N|From Lirastrasza.|
-T Crushblow|QID|28249|M|45.32,75.42|Z|0241; Twilight Highlands|N|To Warlord Zaela.|
-A Ogres & Ettins|QID|27493|PRE|28249|M|45.32,75.42|Z|0241; Twilight Highlands|N|From Warlord Zaela.|
-A Kor'kron Drop|QID|27491|PRE|28249|M|45.32,75.42|Z|0241; Twilight Highlands|N|From Lady Cozwynn.|
-A Call in the Artillery|QID|27497|PRE|28249|M|45.32,75.42|Z|0241; Twilight Highlands|N|From Lady Cozwynn.|
-f Crushblow|QID|27497|M|45.68,76.25|Z|0241; Twilight Highlands|N|At Tokrog.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
-C Kor'kron Drop|QID|27491|QO|1|M|45.72,76.02|Z|0241; Twilight Highlands|N|Talk to Jon-Jon right next to flight master.|
-C Kor'kron Drop|QID|27491|QO|2|M|39.17,64.57|Z|0241; Twilight Highlands|N|Fly northwest. X on ground marks the spot.|
-C Ogres & Ettins|QID|27493|M|42.47,71.21|Z|0241; Twilight Highlands|S|
-C Northern building|QID|27497|QO|1|M|39.10,62.51|U|61367|
-C Northeastern building|QID|27497|QO|2|M|40.93,64.18|Z|0241; Twilight Highlands|U|61367|
-C Southwestern building|QID|27497|QO|3|M|39.88,69.25|Z|0241; Twilight Highlands|U|61367|
-C Southern building|QID|27497|QO|4|M|41.25,72.70|Z|0241; Twilight Highlands|U|61367|
-C Ogres & Ettins|QID|27493|M|42.47,71.21|Z|0241; Twilight Highlands|US|
-T Ogres & Ettins|QID|27493|M|45.26,75.42|Z|0241; Twilight Highlands|N|To Warlord Zaela.|
-T Kor'kron Drop|QID|27491|M|45.26,75.42|Z|0241; Twilight Highlands|N|To Lady Cozwynn.|
-T Call in the Artillery|QID|27497|M|45.26,75.42|Z|0241; Twilight Highlands|N|To Lady Cozwynn.|
-A Move the Mountain|QID|27495|PRE|27491&27493&27497|M|45.26,75.42|Z|0241; Twilight Highlands|N|From Warlord Zaela.|
-C Move the Mountain|QID|27495|M|38.10,66.24|Z|0241; Twilight Highlands|N|Back to the northwest half way up the path going up the MT.|
-T Move the Mountain|QID|27495|M|38.10,66.24|Z|0241; Twilight Highlands|
-A Signal the Attack|QID|27499|PRE|27495|M|38.10,66.24|Z|0241; Twilight Highlands|
-C Signal the Attack|QID|27499|M|40.45,62.23|Z|0241; Twilight Highlands|N|Go to the top of the tower between the northern and northeastern buildings.|U|61511|
-T Signal the Attack|QID|27499|M|40.45,62.23|Z|0241; Twilight Highlands|
-A Four Heads are Better than None|QID|27609|PRE|27499|M|40.45,62.23|Z|0241; Twilight Highlands|
-C Four Heads are Better than None|QID|27609|QO|1|M|37.73,71.26|Z|0241; Twilight Highlands|N|Go in the cave take the path to the left.|
-C Four Heads are Better than None|QID|27609|QO|3|M|38.78,70.63|Z|0241; Twilight Highlands|N|Then take the path to the right.|
-T Four Heads are Better than None|QID|27609|M|45.34,75.49|Z|0241; Twilight Highlands|N|To Lady Cozwynn.|
-A Up to the Citadel|QID|27503|PRE|27501|M|45.34,75.49|Z|0241; Twilight Highlands|N|From Lady Cozwynn.|
+T Crushblow|QID|28249|M|45.27,75.37|Z|0241; Twilight Highlands|N|To Warlord Zaela in Crushblow.|
+A Ogres & Ettins|QID|27493|PRE|28249|M|45.27,75.37|Z|0241; Twilight Highlands|N|From Warlord Zaela.|
+A Kor'kron Drop|QID|27491|PRE|28249|M|45.32,75.35|Z|0241; Twilight Highlands|N|From Lady Cozwynn.|
+A Call in the Artillery|QID|27497|PRE|28249|M|45.32,75.35|Z|0241; Twilight Highlands|N|From Lady Cozwynn.|
+f Crushblow|QID|27497|M|45.76,76.19|Z|0241; Twilight Highlands|N|At Tokrog.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+C Kor'kron Drop|QID|27491|QO|1|M|45.74,76.04|Z|0241; Twilight Highlands|N|Talk to Jon-Jon to get your wind rider squad.|CHAT|
+C Kor'kron Drop|QID|27491|QO|2|M|38.75,63.96|Z|0241; Twilight Highlands|N|Fly northwest.\n[color=FF0000]NOTE: [/color]X on ground marks the spot.|
+C Ogres & Ettins|QID|27493|M|42.47,71.21|Z|0241; Twilight Highlands|N|Kill Bloodeye Clan Ogres or Ettins at the Twilight Gate.|S|
+C Northern building|QID|27497|QO|1|M|39.10,62.51|Z|0241; Twilight Highlands|N|After clearing the area, stand in the doorway and use the Artillery Flare.|U|61367|NC|
+C Northeastern building|QID|27497|QO|2|M|40.65,64.35|Z|0241; Twilight Highlands|N|After clearing the area, stand in the doorway and use the Artillery Flare.|U|61367|NC|
+C Southwestern building|QID|27497|QO|3|M|40.01,69.73|Z|0241; Twilight Highlands|N|After clearing the area, stand in the doorway and use the Artillery Flare.|U|61367|NC|
+C Southern building|QID|27497|QO|4|M|41.36,71.67|Z|0241; Twilight Highlands|N|After clearing the area, stand in the doorway and use the Artillery Flare.|U|61367|NC|
+C Ogres & Ettins|QID|27493|M|41.58,66.96|Z|0241; Twilight Highlands|N|Kill Bloodeye Clan Ogres or Ettins at the Twilight Gate.|US|
+T Ogres & Ettins|QID|27493|M|45.27,75.37|Z|0241; Twilight Highlands|N|To Warlord Zaela.|
+T Kor'kron Drop|QID|27491|M|45.32,75.35|Z|0241; Twilight Highlands|N|To Lady Cozwynn.|
+T Call in the Artillery|QID|27497|M|45.32,75.35|Z|0241; Twilight Highlands|N|To Lady Cozwynn.|
+A Move the Mountain|QID|27495|PRE|27491&27493&27497|M|45.27,75.37|Z|0241; Twilight Highlands|N|From Warlord Zaela.|
+C Move the Mountain|QID|27495|M|38.06,66.20|Z|0241; Twilight Highlands|N|Click on the crate of Hidden Explosives located near the first bend in the path up the mountain.|NC|
+T Move the Mountain|QID|27495|M|PLAYER|CC|N|<UI Alert>|
+A Signal the Attack|QID|27499|PRE|27495|M|PLAYER|CC|N|<UI Alert>|
+C Signal the Attack|QID|27499|M|42.34,68.82;40.62,62.24|CN|Z|0241; Twilight Highlands|N|Use the Attack Signal at the top of either tower at the Twilight Gate.|U|61511|NC|
+T Signal the Attack|QID|27499|M|PLAYER|CC|N|<UI Alert>|
+A Four Heads are Better than None|QID|27501^27609|PRE|27499|M|PLAYER|CC|N|<UI Alert>|
+C Four Heads are Better than None|QID|27501^27609|QO|1|M|37.73,71.26|Z|0241; Twilight Highlands|N|Go in the cave take the path to the left.|
+C Four Heads are Better than None|QID|27501^27609|QO|3|M|38.78,70.63|Z|0241; Twilight Highlands|N|Then take the path to the right.|
+T Four Heads are Better than None|QID|27501^27609|M|45.34,75.49|Z|0241; Twilight Highlands|N|To Lady Cozwynn.|
+A Up to the Citadel|QID|27503|PRE|27501^27609|M|45.34,75.49|Z|0241; Twilight Highlands|N|From Lady Cozwynn.|
 C Up to the Citadel|QID|27503|QO|1|M|38.96,64.09|Z|0241; Twilight Highlands|N|Same location as the X on the ground from earlier.|
 C Up to the Citadel|QID|27503|QO|2|M|37.61,65.53|Z|0241; Twilight Highlands|
 T Up to the Citadel|QID|27503|M|37.71,64.96|Z|0241; Twilight Highlands|N|To Cho'gall.|
