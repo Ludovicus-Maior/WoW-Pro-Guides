@@ -135,7 +135,7 @@ C Buried, Not Forgotten|QID|79692|QO|2|M|34.65,74.32|Z|2248;Isle of Dorn|N|Modhi
 C Buried, Not Forgotten|QID|79692|QO|1|M|34.91,74.00|Z|2248;Isle of Dorn|N|Modhina's belongings.|US|
 C Building Blocks|QID|78463|QO|1|M|36.11,74.59|Z|2248;Isle of Dorn|N|Back out of the cave to pick up Glittering Ore from the ground.|H|S|
 C A Natural Remedy|QID|79553|QO|1|M|37.27,74.40|Z|2248;Isle of Dorn|N|Fungarian Chunks drop from the mushrooms.|S|
-A Concerning Fungarians|QID|79686|M|35.8,77.2|Z|2248;Isle of Dorn|N|From discarded botenist note on floor inside building under stairs.|RANK|2|
+A Concerning Fungarians|QID|79686|M|35.8,77.2|Z|2248;Isle of Dorn|N|From Discarded Botenist Note on floor inside building under stairs.|RANK|2|
 C Concerning Fungarians|QID|79686|QO|1<1|M|35.6,77.2|Z|2248;Isle of Dorn|N|Up the stairs on the window-ledge.|H|
 C Concerning Fungarians|QID|79686|QO|1<2|M|35.6,77.2|Z|2248;Isle of Dorn|N|Further up the stairs on the bannister.|H|
 C Concerning Fungarians|QID|79686|QO|1<3|M|35.65,77.07|Z|2248;Isle of Dorn|N|At the top of the stairs, kill the Fungarian to loot the note.|
@@ -179,7 +179,7 @@ A Third Mine Blind|QID|82796|PRE|82792|M|45.86,62.89|Z|2248;Isle of Dorn|N|From 
 T Third Mine Blind|QID|82796|M|47.28,61.61|Z|2248;Isle of Dorn|N|To Alvegar, up above, don't go inside the mine yet.|
 A Hit Rock Bottom|QID|82797|PRE|82796|M|47.28,61.61|Z|2248;Isle of Dorn|N|From Alvegar.|RANK|2|
 C Hit Rock Bottom|QID|82797|QO|1|M|47.32,61.61|Z|2248;Isle of Dorn|N|Parachute equipped (Optional).|H|
-C Hit Rock Bottom|QID|82797|QO|2|M|47.66,62.10|Z|2248;Isle of Dorn|N|Jump in.|NC|
+C Hit Rock Bottom|QID|82797|QO|2|M|47.66,62.10|Z|2248;Isle of Dorn|N|Jump in.|NC|EAB|
 T Hit Rock Bottom|QID|82797|M|48.59,60.74|Z|2248;Isle of Dorn|N|To Cenderragg.|
 A An Opal of Mine|QID|82798|PRE|82797|M|48.59,60.74|Z|2248;Isle of Dorn|N|From Cenderragg.|RANK|2|
 A Web Beats Rock|QID|82799|PRE|82797|M|48.59,60.74|Z|2248;Isle of Dorn|N|From Cenderragg.|RANK|2|

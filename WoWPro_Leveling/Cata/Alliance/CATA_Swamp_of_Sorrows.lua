@@ -109,9 +109,9 @@ T Marking the Fallen|QID|27845|M|68.08,36.27|Z|1435;Swamp of Sorrows|N|To Joanna
 A Assault on Stonard|QID|27849|PRE|27795&27843&27845|M|68.08,36.27|Z|1435;Swamp of Sorrows|N|From Joanna Blueheart.|
 A Cutting Supply|QID|27851|PRE|27795&27843&27845|M|68.08,36.27|Z|1435;Swamp of Sorrows|N|From Joanna Blueheart.|
 R Stonard|QID|27849|M|49.74,51.08|Z|1435;Swamp of Sorrows|N|Run to Stonard.|
-C Cutting Supply|QID|27851|S|M|47.54,53.72|Z|1435;Swamp of Sorrows|N|Pick up any sparkling crates you see.|
+C Cutting Supply|QID|27851|S|M|47.54,53.72|Z|1435;Swamp of Sorrows|N|Pick up any sparkling crates you see.|NC|
 C Assault on Stonard|QID|27849|M|47.56,53.90|Z|1435;Swamp of Sorrows|N|Kill 6 Stonard Defenders.|
-C Cutting Supply|QID|27851|US|M|47.54,53.72|Z|1435;Swamp of Sorrows|N|Pick up any sparkling crates you see.|
+C Cutting Supply|QID|27851|US|M|47.54,53.72|Z|1435;Swamp of Sorrows|N|Pick up any sparkling crates you see.|NC|
 T Assault on Stonard|QID|27849|M|68.03,36.21|Z|1435;Swamp of Sorrows|N|To Joanna Blueheart.|
 T Cutting Supply|QID|27851|M|68.03,36.21|Z|1435;Swamp of Sorrows|N|To Joanna Blueheart.|
 R The Harborage|QID|27918|M|26.82,33.57|Z|1435;Swamp of Sorrows|N|Time to run to The Harborage.|

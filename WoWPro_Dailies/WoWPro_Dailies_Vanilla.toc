@@ -1,10 +1,10 @@
-## Interface: 11504
+## Interface: 11505
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## IconTexture: Interface\GossipFrame\DailyQuestIcon
 ## Dependencies: WoWPro
-## Version: 2024.10.24.A
+## Version: 2024.11.23.A
 ## DefaultState: disabled
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.

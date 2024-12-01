@@ -590,8 +590,11 @@ A Orientation: Gundargaz|QID|81689|M|47.15,34.12|Z|2214; The Ringing Deeps|N|Fro
 C Orientation: Gundargaz|QID|81689|M|47.49,32.79|Z|2214; The Ringing Deeps|CHAT|N|Speak to Waxmonger Squick.|
 T Orientation: Gundargaz|QID|81689|M|47.15,34.14|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A The Hallowed Path|QID|78658|PRE|81689|M|47.08,32.22|Z|2214; The Ringing Deeps|N|From Anduin Wrenn.|
-A Daily Diagnostics|QID|83108|PRE|78761|M|47.29,31.65|Z|2214;The Ringing Deeps|N|From Therkan. This is a dungeon quest, and not included in this guide.|RANK|2|
+A Daily Diagnostics|QID|83108|PRE|78761|M|47.29,31.65|Z|2214;The Ringing Deeps|N|From Therkan. This is a dungeon quest, and not included in this guide.|RANK|3|
+A Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|LVL|80|; Quest is bugged for players below level 80.
 T A Hint of Fear|QID|79256|M|55.05,63.29|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
+t Daily Diagnostics|QID|83108|M|47.29,31.65|Z|2214;The Ringing Deeps|N|To Therkan.|RANK|3|IZ|Gundargaz|
+t Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|To Knicknack.|RANK|3|IZ|Gundargaz|
 A Put On a Good Face|QID|79259|PRE|79256|M|55.05,63.29|Z|2214;The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
 A Mineral Water Woes|QID|79258|PRE|79256|M|55.05,63.29|Z|2214;The Ringing Deeps|N|From Berrund the Gleaming.|RANK|2|
 C Put On a Good Face|QID|79259|M|54.50,73.29|Z|2214;The Ringing Deeps|N|Kill Lashrooms and loot their dust.|S|
