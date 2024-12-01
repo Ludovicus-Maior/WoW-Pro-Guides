@@ -173,7 +173,7 @@ K Patheope|ACTIVE|49226|M|86.21,72.22|QO|1|N|Kill the siren sisters in this cave
 K Nolpe|ACTIVE|49226|M|86.51,72.88|QO|2|T|Nolpe|
 C My Favorite Things|QID|49178|M|88.28,72.90|QO|4|NC|N|Pick up the Steel Lunchbox.|
 C Lured and Allured|QID|48419|QO|2|M|90.06,74.48|N|Kill the siren to set Flynn free.|T|Lugeia|
-K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|RARE|ITEM|154467|N|Silver elite mob to kill for Azerite Power and resources.|RANK|2|
+K Fowlmouth|QID|51654|M|90.45,77.11|QO|1|T|Fowlmouth|RARE|ITEM|154467|N|Silver elite mob to kill for Azerite Power and resources.|RANK|2|
 $ Buried Treasure-Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here.|RANK|3|PRE|52859|ACTIVE|49230|
 C Blood in the Tides|QID|48421|M|87.26,79.96|US|N|Finish killing the Wailing Sirens.|
 C Local Flavor|QID|49230|M|85.47,80.82|US|N|Finish collecting the Juicy Lurker Tails.|
