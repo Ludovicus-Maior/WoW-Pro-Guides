@@ -5,6 +5,7 @@ WoWPro:GuideNickname(guide, "Misfit Dragons")
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideQuestTriggers(guide, 76460)
 WoWPro:GuideContent(guide, "Dragonflight")
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 

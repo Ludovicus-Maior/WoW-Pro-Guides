@@ -4,6 +4,7 @@ WoWPro:GuideSort(guide, 9)
 WoWPro:GuideName(guide,'Mechagon Island')
 WoWPro:GuideNickname(guide, "Mechagon Island")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 

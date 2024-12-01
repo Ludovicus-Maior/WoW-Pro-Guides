@@ -5,6 +5,7 @@ WoWPro:GuideNextGuide(guide, 'ChromieTime')
 WoWPro:GuideNickname(guide, "Call of the Dream")
 WoWPro:GuideQuestTriggers(guide, 76317, 76318)
 WoWPro:GuideContent(guide, "Dragonflight")
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 
