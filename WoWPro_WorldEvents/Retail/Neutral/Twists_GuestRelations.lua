@@ -105,7 +105,7 @@ C Thoughtful Pursuits|QID|84521|M|64.20,50.00|Z|71;Tanaris|QO|2=33|N|Crystal Ocu
 C Thoughtful Pursuits|QID|84521|M|63.60,48.60|Z|71;Tanaris|QO|2=66|N|Thought Calculating|
 C Thoughtful Pursuits|QID|84521|M|61.40,49.80|Z|71;Tanaris|N|Downy Helmet Liner|
 T Thoughtful Pursuits|QID|84521|M|63.20,52.34|Z|71;Tanaris|N|To Benatauk.|
-  
+
 A A Whiff of Help|QID|84868|M|63.20,52.34|Z|71;Tanaris|N|From Benatauk.|
 C A Whiff of Help|QID|84868|M|63.20,52.34|Z|71;Tanaris|QO|1|N|From Benatauk.|
 C A Whiff of Help|QID|84868|M|63.20,52.34|Z|71;Tanaris|QO|2|U|229351|
@@ -338,7 +338,7 @@ T Sea Legs|QID|25929|M|38.72,31.71|Z|201;Kelp'thar Forest|N|To Erunak Stonespeke
 
 C From Ashes to Wisdom|QID|84933|M|39.07,67.48|Z|205;Shimmering Expanse|N|Call Voidfire in Shimmering Expanse.|U|231292|
 T From Ashes to Wisdom|QID|84933|M|39.07,67.48|Z|205;Shimmering Expanse|N|To Voidflame.|
- 
+
 T Mildewed Celebration Crate|QID|85523|M|62.99,50.30|Z|71;Tanaris|N|To Alyx in the Caverns of Time.|
 T Hazy Celebration Crate|QID|85574|M|62.99,50.30|Z|71;Tanaris|N|To Alyx.|
 T Dirt-Caked Celebration Crate|QID|84470|M|62.99,50.30|Z|71;Tanaris|N|To Alyx.|
