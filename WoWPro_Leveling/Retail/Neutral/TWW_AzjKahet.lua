@@ -258,15 +258,15 @@ A Grand, Gutsy Solutions|QID|79715|M|59.96,66.12|Z|2255;Azj-Kahet|N|From Al'kubi
 K Grand Gluttony|ACTIVE|79715|QO|1|M|56.67,65.48|Z|2255;Azj-Kahet|N|Kill Grand Gluttony and collect its Swollen Brain of Gluttony.|T|Grand Gluttony|
 T Grand, Gutsy Solutions|QID|79715|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 
-A Loss of Limb|QID|82340|M|63.40,37.35|Z|2255;Azj-Kahet|N|From Mr. Sunflower.|RANK|2|
-C Loss of Limb|QID|82340|M|63.51,38.40|Z|2255;Azj-Kahet|QO|1|CHAT|N|Speak with Vi'azl.|
-C Loss of Limb|QID|82340|M|63.26,36.93|Z|2255;Azj-Kahet|QO|2|NC|N|Drink Threat Reduction Potion.|
-C Loss of Limb|QID|82340|M|63.32,38.54|Z|2255;Azj-Kahet|QO|3|NC|N|Comfort Vi'azl.|
-C Loss of Limb|QID|82340|M|54.98,39.47|Z|2255;Azj-Kahet|QO|4|CHAT|N|Speak with Vi'azl.|
-T Loss of Limb|QID|82340|M|55.09,39.30|Z|2255;Azj-Kahet|N|To Mr. Sunflower.|
-A Setting Boundaries|QID|83057|M|55.07,39.34|Z|2255;Azj-Kahet|N|From Mr. Sunflower.|RANK|2|
+A Loss of Limb|QID|82340|M|63.40,37.35|Z|2216;City of Threads|N|From Mr. Sunflower.|RANK|2|
+C Loss of Limb|QID|82340|M|63.51,38.40|Z|2216;City of Threads|QO|1|CHAT|N|Speak with Vi'azl.|
+C Loss of Limb|QID|82340|M|63.26,36.93|Z|2216;City of Threads|QO|2|NC|N|Drink Threat Reduction Potion.|
+C Loss of Limb|QID|82340|M|63.32,38.54|Z|2216;City of Threads|QO|3|NC|N|Comfort Vi'azl.|
+C Loss of Limb|QID|82340|M|54.98,39.47|Z|2216;City of Threads|QO|4|CHAT|N|Speak with Vi'azl.|
+T Loss of Limb|QID|82340|M|55.09,39.30|Z|2216;City of Threads|N|To Mr. Sunflower.|
+A Setting Boundaries|QID|83057|M|55.07,39.34|Z|2216;City of Threads|N|From Mr. Sunflower.|RANK|2|
 K Vek'kix|ACTIVE|83057|M|57.61,20.38|Z|2213;City of Threads|QO|1|N|Slay Vek'kix.|T|Vek'kix|
-T Setting Boundaries|QID|83057|M|55.04,39.41|Z|2255;Azj-Kahet|N|To Mr. Sunflower.|
+T Setting Boundaries|QID|83057|M|55.04,39.41|Z|2216;City of Threads|N|To Mr. Sunflower.|
 
 T A Silken Thread|QID|83324|M|51.40,63.95|Z|2255;Azj-Kahet|N|To Sum'latha.|
 A The Voice of the People|QID|81928|PRE|83324|M|51.40,63.95|Z|2255;Azj-Kahet|N|To Sum'latha.|RANK|2|
