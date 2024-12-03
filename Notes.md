@@ -1,3 +1,17 @@
+# Release 2024.12.03.A
+## Bug Fixes
+*  Emotes now target not dead targets
+## Guide Updates
+* Vanilla Leveling Horde: Hendo Durotar 01-12, Hendo Mulgore 01-12
+* Cata Leveling Alliance: Burning Steppes
+* Cata Leveling Horde: Twilight Highlands
+* Retail Leveling Alliance: Tiragarde Sound
+* Retail Leveling Neutral: Azj-Kahet
+* Retail Dailies Neutral:  Allow left-click on Squirt for Anniversary Event
+* Retail Profession:  TWW Knowledge
+* Retail World Events: Guest Relations!
+
+
 # Release 2024.11.23.A
 ## Bug Fixes
 * Add support for custom top categories for things like the "End Game"
