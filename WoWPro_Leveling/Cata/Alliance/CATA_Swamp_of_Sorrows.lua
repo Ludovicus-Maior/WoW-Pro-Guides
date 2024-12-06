@@ -147,6 +147,7 @@ A Remember the Light|QID|24913|PRE|27902|M|26.86,33.56|Z|1435;Swamp of Sorrows|N
 C Remember the Light|QID|24913|M|PLAYER|CC||N|Wait and watch the scene.|
 T Remember the Light|QID|24913|M|26.86,33.56|Z|1435;Swamp of Sorrows|N|To Anchorite Avuun.|
 A Onward to the Blasted Lands|QID|27919|LEAD|25715|M|26.86,33.56|Z|1435;Swamp of Sorrows|N|From Anchorite Avuun.\n[color=FF0000]NOTE: [/color]Skip this step if you're not going to continue on to the next guide, Blasted Lands.|NA|
+R Blasted Lands|ACTIVE|27919|LEAD|25715|M|48.84,3.57|Z|1419;Blasted Lands|N|Follow the road around (or go cross country) to the road leading into the mountains.|
 * Silversnap Swim Tonic|PRE|24913|M|PLAYER|CC|N|These can be safely destroyed as they only work in Swamp of Sorrows.|U|62795|O|
 
 ]]
