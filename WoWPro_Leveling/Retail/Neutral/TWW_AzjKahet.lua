@@ -502,7 +502,8 @@ C Marionette Mercy|QID|80206|M|65.95,42.06|Z|2213;City of Threads|QO|2|H|N|Click
 T Marionette Mercy|QID|80206|M|65.81,42.49|Z|2213;City of Threads|N|To Orator Tx'itk.|
 A Pulling Strings|QID|80205|M|65.81,42.49|Z|2213;City of Threads|N|From Orator Tx'itk.|RANK|2|
 C Pulling Strings|QID|80205|M|61.42,48.60|Z|2213;City of Threads|QO|1|I|N|Meet Orator Tx'itk at the Puppetmaster's Theater.|
-C Pulling Strings|QID|80205|M|61.34,48.63|Z|2213;City of Threads|QO|2;3|CHAT|N|Tell Orator Tx'itk to start the show, then wait for dialog to end.|
+C Pulling Strings|QID|80205|M|61.34,48.63|Z|2213;City of Threads|QO|2|CHAT|N|Tell Orator Tx'itk to start the show.|
+C Pulling Strings|QID|80205|M|61.34,48.63|Z|2213;City of Threads|QO|3|CHAT|N|Wait for dialog to end.|
 C Pulling Strings|QID|80205|M|62.07,48.20|Z|2213;City of Threads|QO|4|N|Kill Puppets.|
 C Pulling Strings|QID|80205|M|62.06,48.52|Z|2213;City of Threads|QO|5|H|N|Click on High Elevator Etak'kaht.|
 C Pulling Strings|QID|80205|M|71.49,44.72|Z|2213;City of Threads|QO|6|I|N|Return to the Magistrate's Office.|
