@@ -534,7 +534,7 @@ T Open Communications|QID|83639|M|23.69,52.20|Z|2255;Azj-Kahet|N|To Ysabel Gleam
 F Weaver's Lair|ACTIVE|83277|M|23.15,51.15|Z|Azj-Kahet|N|Head to the flightmaster and take a flight to The Weaver's Lair. (Or just fly)|
 T Personal Pilfering|QID|83277|M|55.74,44.07|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
 A Surface Bound|QID|79197|M|55.63,44.16|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|;yes. this is available earlier, but no rush as we arent headed back to Dornogal yet.
-A Delves: The Underkeep|QID|83761|M|57.36,42.16|Z|2255;Azj-Kahet|N|From Brann Bronzebeard.|RANK|2|
+A Delves: The Underkeep|QID|83761|PRE|83755|M|57.36,42.16|Z|2255;Azj-Kahet|N|From Brann Bronzebeard.|RANK|2|
 t Delves: The Underkeep|QID|83761|M|57.36,42.16|Z|2255;Azj-Kahet|N|To Brann Bronzebeard.|
 P Surface Bound|QID|79197|M|57.48,41.61|Z|2255;Azj-Kahet|QO|2|NC|N|Take Portal to Dornogal(Optional).|TZ|The Fissure.|
 C Surface Bound|QID|79197|M|36.19,79.77|Z|2339;Dornogal|QO|1|NC|N|Meet with Moira Thaurissan in Dornogal.|
