@@ -380,8 +380,8 @@ C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|2|H|L|224285|N|H
 C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|1|N|Keep killing mobs until you have enough Reclaimed Catalyst.|US|
 T Spring Collection|QID|81683|M|72.9, 42.6|Z|2255;Azj-Kahet|NC|N|To Grand Overspinner Antourix.|
 T Measure Once, Cut Thrice|QID|81668|M|72.78,42.46|Z|2255;Azj-Kahet|N|To Ren'khat.|
-A I Expect You To Dye|QID|81687|PRE|81683&50352|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
-A Azj-Kahet's Next Top Dyemaster|QID|81685|PRE|81683&50352|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
+A I Expect You To Dye|QID|81687|PRE|81683|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
+A Azj-Kahet's Next Top Dyemaster|QID|81685|PRE|81683|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
 C Dyebath Testing|QID|81687|QO|1|N|The Dyebaths are around the edge. You have to step into the liquid to get the Extra Action Button to test them. You also need to have a live Nerubian within range. Kill Nerubians as you go between the dyebaths.|S|
 C I Expect You To Dye|QID|81687|M|72.89,38.50|Z|2255;Azj-Kahet|QO|2|NC|N|Red Dyebath tested.|EAB|
 C I Expect You To Dye|QID|81687|M|74.51,37.44|Z|2255;Azj-Kahet|QO|5|NC|N|Yellow Dyebath tested.|EAB|
