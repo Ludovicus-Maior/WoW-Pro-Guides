@@ -20,6 +20,16 @@ C Wrathion|QID|66577|QO|1|M|79.79,27.00|Z|84; Stormwind City|CHAT|N|Speak with W
 C Ebyssian|QID|65437|QO|1|M|44.22,38.11|Z|85; Ogrimmar|CHAT|N|Speak with Ebyssian.|FACTION|Horde|
 T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|
 T Aspectral Invitation|QID|65437|M|44.22,38.11|Z|85; Ogrimmar|N|To Ebyssian.|FACTION|Horde|
+A An Iconic, Draconic Look|QID|65101|PRE|66577|M|79.94,27.07|Z|84; Stormwind City|N|From Wrathion.|FACTION|Alliance|R|Dracthyr|
+C Wrathion|QID|65101|QO|1|M|79.94,27.07|Z|84; Stormwind City|CHAT|N|Speak to Wrathion.|FACTION|Alliance|R|Dracthyr|
+C An Iconic, Draconic Look|QID|65101|QO|2|M|83.01,24.13|Z|84; Stormwind City|NC|N|Learn about visage form.|FACTION|Alliance|R|Dracthyr|
+C An Iconic, Draconic Look|QID|65101|QO|3|M|82.77,24.02|Z|84; Stormwind City|NC|EAB|N|Assume your mortal visage.|FACTION|Alliance|R|Dracthyr|
+T An Iconic, Draconic Look|QID|65101|M|82.66,24.00|Z|84; Stormwind City|N|To Wrathion.|FACTION|Alliance|R|Dracthyr|
+A An Iconic, Draconic Look|QID|65613|PRE|65437|M|44.10,38.00|Z|85; Orgrimmar|N|From Ebyssian.|FACTION|Horde|R|Dracthyr|
+C An Iconic, Draconic Look|QID|65613|QO|1|M|44.05,37.95|Z|85; Orgrimmar|CHAT|N|Ask Ebyssian about Visage Form.|FACTION|Horde|R|Dracthyr|
+C An Iconic, Draconic Look|QID|65613|QO|2|M|44.05,37.95|Z|85; Orgrimmar|CHAT|N|Learn about Visage Form.|FACTION|Horde|R|Dracthyr|
+C An Iconic, Draconic Look|QID|65613|QO|3|M|PLAYER|EAB|N|Use the Extra Ability Button to learn [color=33fff9]Visage[/color] and [color=33fff9]Chosen Identity[/color].|FACTION|Horde|R|Dracthyr|
+T An Iconic, Draconic Look|QID|65613|M|44.05,37.95|Z|85; Orgrimmar|N|To Ebyssian.|FACTION|Horde|R|Dracthyr|
 A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84; Stormwind City|N|From Scalecommander Azurathel.|FACTION|Alliance|
 A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84; Stormwind City|N|From Toddy Whiskers.|FACTION|Alliance|
 C Dervishian|QID|72240|QO|1|M|39.31,41.46|Z|84; Stormwind City|CHAT|N|Deliver the Scalecommander's orders to Dervishian and the Obsidian Warders on the roof of the Stockade building.|FACTION|Alliance|

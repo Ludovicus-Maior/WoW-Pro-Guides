@@ -15,7 +15,7 @@ return
 [[
 
 ; Day 1: Deebs, Tyri, and Puzzle  ** 2393 XP!!!!
-! Deebs, Tyri, and Puzzle|NPC|79180;79181;79182|QID|79180.1|
+! Deebs, Tyri, and Puzzle|NPC|79180;79181;79182;79179|QID|79180.1|
 C WoW-PetGuide.COM|QID|79180.1|PET1|Bronze Whelpling;7546;2+1+1;S>275|PET2|Widget the Departed;86067;1+2+2|PET3|Leveling;;|STRATEGY|WoW-PetGuide.COM|
 C Sepsis@Warcraftpets|QID|79180.1|PET1|Enchanted Broom;33227;2+2+2|PET2|Leveling;;|PET3|Weebomination;78421;1+1+1|STRATEGY|Sepsis@Warcraftpets|
 C Wee/MPD|QID|79180.1|PET1|Weebomination;78421;1+1+1|PET2|Leveling;;|PET3|Mechanical Pandaren Dragonling;64899;1+2+2|STRATEGY|Wee/MPD|

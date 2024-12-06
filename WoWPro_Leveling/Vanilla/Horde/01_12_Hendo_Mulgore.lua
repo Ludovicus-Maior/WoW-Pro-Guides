@@ -15,7 +15,7 @@ T A Humble Task|QID|752|M|50.03,81.16|N|To Greatmother Hawkwind.|
 A A Humble Task|QID|753|M|50.03,81.16|N|From Greatmother Hawkwind.|PRE|752|
 C Water Pitcher|QID|753|L|4755|M|50.22,81.37|N|Click the Water Pitcher on the fountain.|
 
-T The Hunt Begins|QID|747|M|44.87,77.08|N|To Grull Hawkwind.|
+T The Hunt Begins|QID|747|M|44.87,77.33|N|To Grull Hawkwind.|
 A Simple Note|QID|3091|M|44.87,77.08|N|From Grull Hawkwind.|PRE|747|R|Tauren|C|Warrior|
 A Etched Note|QID|3092|M|44.87,77.08|N|From Grull Hawkwind.|PRE|747|R|Tauren|C|Hunter|
 A Rune-Inscribed Note|QID|3093|M|44.87,77.08|N|From Grull Hawkwind.|R|Tauren|C|Shaman|

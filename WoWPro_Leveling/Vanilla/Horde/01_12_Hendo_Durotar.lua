@@ -155,8 +155,8 @@ A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|50.18,43.09;49.65,40.41;49.87,40.35|CS|N|To Furl Scornbrow.|
 C A Solvent Spirit|QID|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|S|
 l From The Wreckage....|ACTIVE|825|M|60.33,49.85|L|4863 3|N|Go south-east and look for the Gnomish Tools amongst the ship wrecks.|
-C A Solvent Spirit|ACTIVE|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
-K Encroachment|QID|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
+C A Solvent Spirit|QID|818|M|60.33,49.85|N|Kill Makrura to loot the Eyes and Crawlers to loot the Mucus.|US|
+K Encroachment|ACTIVE|837|M|51.03,48.31|QO|1;2|N|Head southwest of Razor Hill and kill Razormane Quillboars and Scouts.|
 L Level 8|QID|825|N|You should be level 8 or shortly before. Grind a bit on the Razormane in the area.|LVL|7;-700|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
 r Repair/Restock|QID|786|M|51.90,41.14|N|At Wuark.|
@@ -174,8 +174,8 @@ T A Solvent Spirit|QID|818|M|55.94,74.39|N|To Master Vornal.|
 
 l Break a Few Eggs|ACTIVE|815|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.|S|
 C Practical Prey|QID|817|M|64.68,80.84|N|Kill Durotar Tigers for their hides.|S|
-K Zalazane|QID|826|QO|1;2|M|67.25,86.96|N|Kill Voodoo and Hexed Trolls.|S|
-C Zalazane|QID|826|M|67.40,86.99|QO|3|N|Kill Zalane and loot his head.|
+C Zalazane|QID|826|QO|1;2|M|67.25,86.96|N|Kill Voodoo and Hexed Trolls.|S|
+K Zalazane|ACTIVE|826|M|67.40,86.99|QO|3|N|Kill Zalane and loot his head.|T|Zalazane|
 l Minshina's Skull|ACTIVE|808|M|67.46,87.81|L|4864|N|Loot Minshina's Skull from the pile.|
 K Zalazane|QID|826|QO|1;2|M|67.16,82.59|N|Finish killing Voodoo and Hexed Trolls.\n[color=FF0000]NOTE: [/color]You'll find most of them around the huts on the outskirts of the main village (where Zalazane is).|US|
 l Break a Few Eggs|ACTIVE|815|M|63.68,83.25|L|4890 3|N|Loot the Taillasher Eggs from the Raptor nests on the ground.\n[color=FF0000]NOTE: [/color]Look for the Raptors. You might find a nest nearby.|US|

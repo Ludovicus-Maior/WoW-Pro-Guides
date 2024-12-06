@@ -59,9 +59,9 @@ N From now on...|QID|10016|Z|1952; Terokkar Forest|N|From now on, kill Timber Wo
 C Thin the Flock|QID|10869|Z|1952; Terokkar Forest|N|Kill mobs for this quest.|S|
 C The Outcast's Plight|QID|10917|Z|1952; Terokkar Forest|N|Kill Arakkoa to get their feathers.|S|
 l Eye of Veil Shienor|QID|10847|M|57.90,23.15|QO|2|Z|1952; Terokkar Forest|N|Loot the Eye of Veil Shienor in the tree here.|
-K Ayit|QID|9986|M|59.40,23.40|QO|2|Z|1952; Terokkar Forest|N|Kill Ayit.|
+K Ayit|ACTIVE|9986|M|59.40,23.40|QO|2|Z|1952; Terokkar Forest|N|Kill Ayit.|
 C Eastern Altar|QID|10021|M|49.20,20.30|QO|2|NC|Z|1952; Terokkar Forest|N|Right-click the Eastern Altar here.|REP|Aldor;932|
-K Ashkaz|QID|9986|M|49.00,17.00|QO|1|Z|1952; Terokkar Forest|N|Kill Ashkaz in the trees here.|
+K Ashkaz|ACTIVE|9986|M|49.00,17.00|QO|1|Z|1952; Terokkar Forest|N|Kill Ashkaz in the trees here.|
 l Eye of Veil Reskk|QID|10847|M|50.15,19.40|QO|1|Z|1952; Terokkar Forest|N|Loot the Eye of Veil Reskk here.|
 C Northern Altar|QID|10021|M|50.70,16.60|QO|1|NC|Z|1952; Terokkar Forest|N|Right-click the northern altar here.|REP|Aldor;932|
 C Restoring the Light|QID|10021|M|48.10,14.50|NC|Z|1952; Terokkar Forest|N|Right-click the Altar here to complete the quest.|REP|Aldor;932|QO|3|
@@ -82,11 +82,11 @@ A A Personal Favor|QID|10112|PRE|9979|Z|1955; Shattrath City|M|72.2,30.7|N|From 
 R Terokkar Forest|QID|10038|M|86.33,44.76|Z|1955; Shattrath City|N|Exit the city to Terokkar.|
 T Speak with Private Weeks|QID|10038|M|40.5,36.2|Z|1952; Terokkar Forest|N|To Private Weeks.|
 A Who Are They?|QID|10040|PRE|10038|M|40.5,36.2|Z|1952; Terokkar Forest|N|From Private Weeks.|
-N Do not fight anything for now|QID|10040|Z|1952; Terokkar Forest|N|Do not fight anything while disguised or you will lose it.|
-N Shadowy Laborer|Z|1952; Terokkar Forest|N|Talk to the Shadowy Laborer in the town (wandering). Watch out for the Hunters since they can detect the disguise.|S|
-N Shadowy Initiate|QID|10040|M|39.05,39.70|QO|1|Z|1952; Terokkar Forest|N|Talk to the Shadowy Initiate in the town. Watch out for the Hunters since they can detect the disguise.|
+N Do not fight anything for now|ACTIVE|10040|Z|1952; Terokkar Forest|N|Do not fight anything while disguised or you will lose it.|
+N Shadowy Laborer|ACTIVE|10040|Z|1952; Terokkar Forest|N|Talk to the Shadowy Laborer in the town (wandering). Watch out for the Hunters since they can detect the disguise.|S|
+N Shadowy Initiate|ACTIVE|10040|M|39.05,39.70|QO|1|Z|1952; Terokkar Forest|N|Talk to the Shadowy Initiate in the town. Watch out for the Hunters since they can detect the disguise.|
 C Who Are They?|QID|10040|M|40.30,39.00|QO|3|Z|1952; Terokkar Forest|N|Talk to the Shadowy Advisor in the building. Watch out for the Hunters since they can detect the disguise.|
-N Shadowy Laborer|QID|10040|M|40.3,39.1|QO|2|Z|1952; Terokkar Forest|N|Talk to the Shadowy Laborer in the town (wandering). Watch out for the Hunters since they can detect the disguise.|US|
+N Shadowy Laborer|ACTIVE|10040|M|40.3,39.1|QO|2|Z|1952; Terokkar Forest|N|Talk to the Shadowy Laborer in the town (wandering). Watch out for the Hunters since they can detect the disguise.|US|
 T Who Are They?|QID|10040|M|40.5,36.2|Z|1952; Terokkar Forest|N|To Private Weeks.|
 A Kill the Shadow Council!|QID|10042|PRE|10040|M|40.5,36.2|Z|1952; Terokkar Forest|N|From Private Weeks.|
 C Kill the Shadow Council!|QID|10042|M|40.00,38.00|Z|1952; Terokkar Forest|N|Kill all the mobs needed for this quest. Shadowmaster Grieve is at the arrow.|
@@ -98,7 +98,7 @@ A Before Darkness Falls|QID|10878|M|37.4,51.2|Z|1952; Terokkar Forest|N|From Mek
 C Missing Friends|QID|10852|M|32.3,41.7|Z|1952; Terokkar Forest|N|Kill bird mobs and get Prison Keys. Use the keys on the cages until you finish this quest.|S|
 C A Personal Favor|QID|10112|M|32.3,41.7|Z|1952; Terokkar Forest|N|Kill bird mobs until you finish this quest.|S|
 C Veil Skith: Darkstone of Terokk|QID|10839|M|30.80,42.00|Z|1952; Terokkar Forest|N|Use the Rod of Purification here.|U|31610|
-K Urdak|ACTIVE|9986|M|31.00,43.00|Z|1952; Terokkar Forest|N|Kill Urdak in the trees.|T|Urdak|
+K Urdak|ACTIVE|9986|M|31.00,43.00|QO|3|Z|1952; Terokkar Forest|N|Kill Urdak in the trees.|T|Urdak|
 C Missing Friends|QID|10852|M|32.3,41.7|Z|1952; Terokkar Forest|N|Kill bird mobs and get Prison Keys. Use the keys on the cages until you finish this quest.|US|
 C A Personal Favor|QID|10112|M|32.3,41.7|Z|1952; Terokkar Forest|N|Kill bird mobs until you finish this quest.|US|
 T Veil Skith: Darkstone of Terokk|QID|10839|M|37.4,51.5|Z|1952; Terokkar Forest|N|To Kirrik the Awakened.|
