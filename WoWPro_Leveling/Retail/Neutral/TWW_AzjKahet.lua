@@ -423,7 +423,7 @@ A Maggots in your Eyes|QID|79957|M|68.80,62.27|Z|2216;City of Thread|N|From Albe
 T Spiders!|QID|79954|M|77.51,68.29|Z|2213;Terrace of the Ascended|N|To Ag'thax.|
 
 
-T Bountiful Beetles|QID|83325|M|75.97,82.34|Z|2255;The Royal Livery|N|To Kish'nal.(Note to self: see if saving private skittle is available now)|;or moving this whole section... for Entreneur Inc also to be available later.
+T Bountiful Beetles|QID|83325|M|75.97,82.34|Z|2255;The Royal Livery|N|To Kish'nal.|
 A It's Rough to Be a Bug!|QID|79119|PRE|83325|M|75.97,82.34|Z|2255;The Royal Livery|N|From Kish'nal.|RANK|2|
 C It's Rough to Be a Bug!|QID|79119|M|75.73,82.80|Z|2255;The Royal Livery|H|N|Clean up the room.|
 T It's Rough to Be a Bug!|QID|79119|M|75.99,82.33|Z|2255;The Royal Livery|N|To Kish'nal.|
