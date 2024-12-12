@@ -216,7 +216,7 @@ C Like a Spider on the Wall|QID|78231|M|54.06,21.04|Z|2213;City of Threads|QO|1|
 C Like a Spider on the Wall|QID|78231|M|50.03,16.47|Z|2213;City of Threads|QO|4|NC|N|Observe the Tailorers.|
 C Like a Spider on the Wall|QID|78231|M|43.49,16.60|Z|2213;City of Threads|QO|3|NC|N|Read the Twitchery Catalogue.|
 C Like a Spider on the Wall|QID|78231|M|49.10,27.05|Z|2213;City of Threads|QO|2|NC|N|Discover the Cuisine Stalls.|
-C Klaskin's Great Escape|QID|79631|M|47.90,13.22|Z|2213;City of Threads|CHAT|N|Motion Klaskin to follow you. Now, every few feet use the [color=33fff9] Extra Action Button [/color] to lead him back to his wife.|EAB|US|
+C Klaskin's Great Escape|QID|79631|M|63.99,15.99|Z|2213;City of Threads|CHAT|N|Motion Klaskin to follow you. Now, every few feet use the [color=33fff9] Extra Action Button [/color] to lead him back to his wife.|EAB|US|
 C Rewriting the Rewritten|QID|78232|M|60.97,18.96;52.99,16.02;58.07,28.98|CS|Z|2213;City of Threads|QO|1|H|N|Shadecasters overwritten.|US|
 T Klaskin's Great Escape|QID|79631|M|64.07,15.93|Z|2213;City of Threads|N|To Arax'ne.|
 A Don't Cry for Me, Azj-Kahet|QID|80502|M|63.89,15.89|Z|2213;City of Threads|N|From Klaskin.|RANK|3|
@@ -258,15 +258,15 @@ A Grand, Gutsy Solutions|QID|79715|M|59.96,66.12|Z|2255;Azj-Kahet|N|From Al'kubi
 K Grand Gluttony|ACTIVE|79715|QO|1|M|56.67,65.48|Z|2255;Azj-Kahet|N|Kill Grand Gluttony and collect its Swollen Brain of Gluttony.|T|Grand Gluttony|
 T Grand, Gutsy Solutions|QID|79715|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 
-A Loss of Limb|QID|82340|M|63.40,37.35|Z|2255;Azj-Kahet|N|From Mr. Sunflower.|RANK|2|
-C Loss of Limb|QID|82340|M|63.51,38.40|Z|2255;Azj-Kahet|QO|1|CHAT|N|Speak with Vi'azl.|
-C Loss of Limb|QID|82340|M|63.26,36.93|Z|2255;Azj-Kahet|QO|2|NC|N|Drink Threat Reduction Potion.|
-C Loss of Limb|QID|82340|M|63.32,38.54|Z|2255;Azj-Kahet|QO|3|NC|N|Comfort Vi'azl.|
-C Loss of Limb|QID|82340|M|54.98,39.47|Z|2255;Azj-Kahet|QO|4|CHAT|N|Speak with Vi'azl.|
-T Loss of Limb|QID|82340|M|55.09,39.30|Z|2255;Azj-Kahet|N|To Mr. Sunflower.|
-A Setting Boundaries|QID|83057|M|55.07,39.34|Z|2255;Azj-Kahet|N|From Mr. Sunflower.|RANK|2|
+A Loss of Limb|QID|82340|M|63.40,37.35|Z|2216;City of Threads|N|From Mr. Sunflower.|RANK|2|
+C Loss of Limb|QID|82340|M|63.51,38.40|Z|2216;City of Threads|QO|1|CHAT|N|Speak with Vi'azl.|
+C Loss of Limb|QID|82340|M|63.26,36.93|Z|2216;City of Threads|QO|2|NC|N|Drink Threat Reduction Potion.|
+C Loss of Limb|QID|82340|M|63.32,38.54|Z|2216;City of Threads|QO|3|NC|N|Comfort Vi'azl.|
+C Loss of Limb|QID|82340|M|54.98,39.47|Z|2216;City of Threads|QO|4|CHAT|N|Speak with Vi'azl.|
+T Loss of Limb|QID|82340|M|55.09,39.30|Z|2216;City of Threads|N|To Mr. Sunflower.|
+A Setting Boundaries|QID|83057|M|55.07,39.34|Z|2216;City of Threads|N|From Mr. Sunflower.|RANK|2|
 K Vek'kix|ACTIVE|83057|M|57.61,20.38|Z|2213;City of Threads|QO|1|N|Slay Vek'kix.|T|Vek'kix|
-T Setting Boundaries|QID|83057|M|55.04,39.41|Z|2255;Azj-Kahet|N|To Mr. Sunflower.|
+T Setting Boundaries|QID|83057|M|55.04,39.41|Z|2216;City of Threads|N|To Mr. Sunflower.|
 
 T A Silken Thread|QID|83324|M|51.40,63.95|Z|2255;Azj-Kahet|N|To Sum'latha.|
 A The Voice of the People|QID|81928|PRE|83324|M|51.40,63.95|Z|2255;Azj-Kahet|N|To Sum'latha.|RANK|2|
@@ -380,8 +380,8 @@ C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|2|H|L|224285|N|H
 C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|1|N|Keep killing mobs until you have enough Reclaimed Catalyst.|US|
 T Spring Collection|QID|81683|M|72.9, 42.6|Z|2255;Azj-Kahet|NC|N|To Grand Overspinner Antourix.|
 T Measure Once, Cut Thrice|QID|81668|M|72.78,42.46|Z|2255;Azj-Kahet|N|To Ren'khat.|
-A I Expect You To Dye|QID|81687|PRE|81683&50352|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
-A Azj-Kahet's Next Top Dyemaster|QID|81685|PRE|81683&50352|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
+A I Expect You To Dye|QID|81687|PRE|81683|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
+A Azj-Kahet's Next Top Dyemaster|QID|81685|PRE|81683|M|72.85,42.77|Z|2255;Azj-Kahet|N|From Teth.|RANK|2|
 C Dyebath Testing|QID|81687|QO|1|N|The Dyebaths are around the edge. You have to step into the liquid to get the Extra Action Button to test them. You also need to have a live Nerubian within range. Kill Nerubians as you go between the dyebaths.|S|
 C I Expect You To Dye|QID|81687|M|72.89,38.50|Z|2255;Azj-Kahet|QO|2|NC|N|Red Dyebath tested.|EAB|
 C I Expect You To Dye|QID|81687|M|74.51,37.44|Z|2255;Azj-Kahet|QO|5|NC|N|Yellow Dyebath tested.|EAB|
@@ -423,7 +423,7 @@ A Maggots in your Eyes|QID|79957|M|68.80,62.27|Z|2216;City of Thread|N|From Albe
 T Spiders!|QID|79954|M|77.51,68.29|Z|2213;Terrace of the Ascended|N|To Ag'thax.|
 
 
-T Bountiful Beetles|QID|83325|M|75.97,82.34|Z|2255;The Royal Livery|N|To Kish'nal.(Note to self: see if saving private skittle is available now)|;or moving this whole section... for Entreneur Inc also to be available later.
+T Bountiful Beetles|QID|83325|M|75.97,82.34|Z|2255;The Royal Livery|N|To Kish'nal.|
 A It's Rough to Be a Bug!|QID|79119|PRE|83325|M|75.97,82.34|Z|2255;The Royal Livery|N|From Kish'nal.|RANK|2|
 C It's Rough to Be a Bug!|QID|79119|M|75.73,82.80|Z|2255;The Royal Livery|H|N|Clean up the room.|
 T It's Rough to Be a Bug!|QID|79119|M|75.99,82.33|Z|2255;The Royal Livery|N|To Kish'nal.|
@@ -502,7 +502,8 @@ C Marionette Mercy|QID|80206|M|65.95,42.06|Z|2213;City of Threads|QO|2|H|N|Click
 T Marionette Mercy|QID|80206|M|65.81,42.49|Z|2213;City of Threads|N|To Orator Tx'itk.|
 A Pulling Strings|QID|80205|M|65.81,42.49|Z|2213;City of Threads|N|From Orator Tx'itk.|RANK|2|
 C Pulling Strings|QID|80205|M|61.42,48.60|Z|2213;City of Threads|QO|1|I|N|Meet Orator Tx'itk at the Puppetmaster's Theater.|
-C Pulling Strings|QID|80205|M|61.34,48.63|Z|2213;City of Threads|QO|2;3|CHAT|N|Tell Orator Tx'itk to start the show, then wait for dialog to end.|
+C Pulling Strings|QID|80205|M|61.34,48.63|Z|2213;City of Threads|QO|2|CHAT|N|Tell Orator Tx'itk to start the show.|
+C Pulling Strings|QID|80205|M|61.34,48.63|Z|2213;City of Threads|QO|3|CHAT|N|Wait for dialog to end.|
 C Pulling Strings|QID|80205|M|62.07,48.20|Z|2213;City of Threads|QO|4|N|Kill Puppets.|
 C Pulling Strings|QID|80205|M|62.06,48.52|Z|2213;City of Threads|QO|5|H|N|Click on High Elevator Etak'kaht.|
 C Pulling Strings|QID|80205|M|71.49,44.72|Z|2213;City of Threads|QO|6|I|N|Return to the Magistrate's Office.|
@@ -533,7 +534,7 @@ T Open Communications|QID|83639|M|23.69,52.20|Z|2255;Azj-Kahet|N|To Ysabel Gleam
 F Weaver's Lair|ACTIVE|83277|M|23.15,51.15|Z|Azj-Kahet|N|Head to the flightmaster and take a flight to The Weaver's Lair. (Or just fly)|
 T Personal Pilfering|QID|83277|M|55.74,44.07|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
 A Surface Bound|QID|79197|M|55.63,44.16|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|;yes. this is available earlier, but no rush as we arent headed back to Dornogal yet.
-A Delves: The Underkeep|QID|83761|M|57.36,42.16|Z|2255;Azj-Kahet|N|From Brann Bronzebeard.|RANK|2|
+A Delves: The Underkeep|QID|83761|PRE|83755|M|57.36,42.16|Z|2255;Azj-Kahet|N|From Brann Bronzebeard.|RANK|2|
 t Delves: The Underkeep|QID|83761|M|57.36,42.16|Z|2255;Azj-Kahet|N|To Brann Bronzebeard.|
 P Surface Bound|QID|79197|M|57.48,41.61|Z|2255;Azj-Kahet|QO|2|NC|N|Take Portal to Dornogal(Optional).|TZ|The Fissure.|
 C Surface Bound|QID|79197|M|36.19,79.77|Z|2339;Dornogal|QO|1|NC|N|Meet with Moira Thaurissan in Dornogal.|

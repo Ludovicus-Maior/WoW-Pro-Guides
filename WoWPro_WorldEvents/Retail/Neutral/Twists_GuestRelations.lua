@@ -325,16 +325,16 @@ T Call of Duty|QID|14482|M|45.16,23.34|Z|201;Kelp'thar Forest|N|To Erunak Stones
 T Call of Duty|QID|25924|M|38.85,31.83|Z|201;Kelp'thar Forest|N|To Erunak Stonespeker.|
 
 A Sea Legs|QID|24432|M|45.16,23.34|Z|201;Kelp'thar Forest|N|From Erunak Stonespeker.|FACTION|Alliance|
-C Sea Legs|QID|24432|M|0.0,0.0|Z|201;Kelp'thar Forest|QO|1|S|
-C Sea Legs|QID|24432|M|45.13,26.73|Z|201;Kelp'thar Forest|QO|2|
-C Sea Legs|QID|24432|M|45.61,26.13|Z|201;Kelp'thar Forest|QO|1|US|
-T Sea Legs|QID|24432|M|45.16,23.34|Z|201;Kelp'thar Forest|N|From Erunak Stonespeker.|
+C Sea Legs|QID|24432|M|0.0,0.0|Z|201;Kelp'thar Forest|QO|1|S|FACTION|Alliance|
+C Sea Legs|QID|24432|M|45.13,26.73|Z|201;Kelp'thar Forest|QO|2|FACTION|Alliance|
+C Sea Legs|QID|24432|M|45.61,26.13|Z|201;Kelp'thar Forest|QO|1|US|FACTION|Alliance|
+T Sea Legs|QID|24432|M|45.16,23.34|Z|201;Kelp'thar Forest|N|From Erunak Stonespeker.|FACTION|Alliance|
 
 A Sea Legs|QID|25929|M|38.72,31.71|Z|201;Kelp'thar Forest|N|From Erunak Stonespeker.|FACTION|Horde|
-C Sea Legs|QID|25929|M|0.0,0.0|Z|201;Kelp'thar Forest|QO|1|S|
-C Sea Legs|QID|25929|M|41.62,31.42|Z|201;Kelp'thar Forest|QO|2|
-C Sea Legs|QID|25929|M|41.62,31.42|Z|201;Kelp'thar Forest|QO|1|US|
-T Sea Legs|QID|25929|M|38.72,31.71|Z|201;Kelp'thar Forest|N|To Erunak Stonespeker.|
+C Sea Legs|QID|25929|M|0.0,0.0|Z|201;Kelp'thar Forest|QO|1|S|FACTION|Horde|
+C Sea Legs|QID|25929|M|41.62,31.42|Z|201;Kelp'thar Forest|QO|2|FACTION|Horde|
+C Sea Legs|QID|25929|M|41.62,31.42|Z|201;Kelp'thar Forest|QO|1|US|FACTION|Horde|
+T Sea Legs|QID|25929|M|38.72,31.71|Z|201;Kelp'thar Forest|N|To Erunak Stonespeker.|FACTION|Horde|
 
 C From Ashes to Wisdom|QID|84933|M|39.07,67.48|Z|205;Shimmering Expanse|N|Call Voidfire in Shimmering Expanse.|U|231292|
 T From Ashes to Wisdom|QID|84933|M|39.07,67.48|Z|205;Shimmering Expanse|N|To Voidflame.|
