@@ -4,6 +4,7 @@ WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideQuestTriggers(guide,78596,78597)
 WoWPro:GuideNickname(guide, "Reclaiming Gilneas")
 WoWPro:GuideContent(guide, "Dragonflight")
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 

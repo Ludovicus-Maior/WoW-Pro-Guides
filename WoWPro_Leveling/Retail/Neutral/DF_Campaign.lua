@@ -4,6 +4,7 @@ WoWPro:GuideName(guide,"Dragonflight Campaign")
 WoWPro:GuideQuestTriggers(guide, 72585,70437,68863, 69093, 70180,71184,72773,70180) -- add starting quest for each chapter
 WoWPro:GuideLevels(guide,60, 70, 70)
 WoWPro:GuideContent(guide, "Dragonflight")
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 

@@ -5,6 +5,7 @@ WoWPro:GuideContent(guide, "Battle for Azeroth")
 WoWPro:GuideName(guide,"Black Empire Campaign")
 WoWPro:GuideNickname(guide, "Black Empire Campaign")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return
 [[

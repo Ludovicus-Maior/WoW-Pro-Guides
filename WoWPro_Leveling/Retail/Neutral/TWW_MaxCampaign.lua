@@ -4,6 +4,7 @@ WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,80,80)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 
