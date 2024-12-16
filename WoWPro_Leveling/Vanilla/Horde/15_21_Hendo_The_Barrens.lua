@@ -65,7 +65,7 @@ C Fungal Spores|QID|848|M|45.28,22.09|L|5012 4|N|Loot the blue mushrooms around 
 C The Forgotten Pools|QID|870|M|45.08,22.53|QO|1|N|Get into the lake, and look for a crack in the floor with some bubbles flowing out of it. Swim over the bubbles.|NC|
 C Fungal Spores|QID|848|M|45.28,22.09|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\n[color=FF0000]NOTE: [/color]Try to avoid the big packs of centaurs.|US|
 C Kolkar Leaders|QID|850|M|42.74,23.56|QO|1|N|Head west towards a small gazebo-like building up on a hill. Just outside that building will be Barak Kodobane, with one patroller nearby. CAREFULLY pull the patroller, and kill him one on one, then Kill Barak Kodobane. It's a tough fight, try coming back after you gain a level if you can't get him at first.|
-U Kolkar's Booty|M|43.00,23.50;44.33,37.66;52.73,41.83|CN|N|Lucky you. Use the Kolkar Booty Key to open one of the Kolkar Booty Chests. There is one chest in each Kolkar area.\n[color=FF0000]NOTE: [/color]Use it ASAP because you can loot the key multiple times but can only carry one at a time.\nAlso, make sure you empty the chest. If you don't and reopen the same chest, it will contain your leftovers.|U|5020|S!US|
+;U Kolkar's Booty|M|43.00,23.50;44.33,37.66;52.73,41.83|CN|N|Lucky you. Use the Kolkar Booty Key to open one of the Kolkar Booty Chests. There is one chest in each Kolkar area.\n[color=FF0000]NOTE: [/color]Use it ASAP because you can loot the key multiple times but can only carry one at a time.\nAlso, make sure you empty the chest. If you don't and reopen the same chest, it will contain your leftovers.|U|5020|S!US|
 
 R The Dry Hills|ACTIVE|867|M|41.65,20.24|QO|1|N|Head northwest from The Forgotten Pools.|
 C Harpy Raiders|QID|867|M|40.93,19.07|L|5064 8|N|Kill the Harpies until you collect 8 Witchwing Talons.\n[color=FF0000]NOTE: [/color]Be aware that they will run before you kill them.|
@@ -171,7 +171,7 @@ C Lost in Battle|QID|4921|M|49.33,50.34|QO|1|N|Mankrik's wife is the "Beaten Cor
 R Camp Taurajo|QID|853|M|46.60,57.79|N|[color=FF0000]NOTE: [/color]Stick to the road unless you want to do some grinding.|
 F Thunder Bluff|QID|853|M|44.44,59.15|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.79,20.90|CC|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, beneath Spirit Rise.|
-A Serpentbloom |QID|962|M|22.79,20.90|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.\n[color=FF0000]NOTE: [/color]Skip if you wish.|IZ|1456|
+A Serpentbloom |QID|962|M|22.79,20.90|Z|Thunder Bluff|ELITE|DUNGEON|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.\n[color=FF0000]NOTE: [/color]Skip if you wish.|IZ|1456|
 N Weapon Master|QID|4921|M|40.92,62.70|Z|Thunder Bluff|N|While you are here, go see Ansekhwa if you wish to train in Guns, One-Handed Maces, Staves or Two-handed Maces.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|
 F Crossroads|QID|4921|M|47.02,49.83|Z|Thunder Bluff|
 
@@ -261,15 +261,15 @@ H Camp Taurajo|QID|865|N|Hearth back to Camp Taurajo to make this quicker.|
 F Ratchet|QID|865|M|44.44,59.15|
 
 T Raptor Horns|QID|865|M|62.37,37.62|N|To Mebox Mizzyrix.|
-A Smart Drinks |QID|1491|M|62.37,37.62|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Mebox Mizzyrix.\n[color=FF0000]NOTE: [/color]Skip if you wish.|PRE|865| ; --- to break auto-accept
+A Smart Drinks |QID|1491|M|62.37,37.62|ELITE|DUNGEON|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Mebox Mizzyrix.\n[color=FF0000]NOTE: [/color]Skip if you wish.|PRE|865| ; --- to break auto-accept
 A Deepmoss Spider Eggs|QID|1069|M|62.37,37.62|N|From Mebox Mizzyrix.|
-A Trouble at the Docks|QID|959|M|63.09,37.60|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Crane Operator Bigglefuzz.\n[color=FF0000]NOTE: [/color]Skip if you wish.| ; --- to break auto-accept
+A Trouble at the Docks|QID|959|M|63.09,37.60|ELITE|DUNGEON|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Crane Operator Bigglefuzz.\n[color=FF0000]NOTE: [/color]Skip if you wish.| ; --- to break auto-accept
 A The Guns of Northwatch|QID|891|M|62.29,39.03|N|From Captain Thalo'thas Brightsun.|
 F Crossroads|QID|880|M|63.09,37.16|N|Fly back to The Crossroads.|
 
 T Altered Beings|QID|880|M|52.26,31.93|N|To Tonga Runetotem.|
 ; lv 19
-A Hamuul Runetotem|QID|1489|M|52.26,31.93|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Tonga Runetotem. This is a simple, 'go-talk' dungeon prequel quest. Take the quest even if you have no plans to run WC.|PRE|880|
+A Hamuul Runetotem|QID|1489|M|52.26,31.93|ELITE|DUNGEON|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Tonga Runetotem. This is a simple, 'go-talk' dungeon prequel quest. Take the quest even if you have no plans to run WC.|PRE|880|
 T The Angry Scytheclaws|QID|905|M|52.23,31.01|N|To Sergra Darkthorn.|
 A Jorn Skyseer|QID|3261|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|905|
 T Stolen Silver|QID|3281|M|51.93,30.32|N|To Gazrog.|
@@ -277,7 +277,7 @@ A Report to Kadrak|QID|6541|M|51.50,30.87|N|From Thork.|LEAD|6543|
 T Harpy Lieutenants|QID|875|M|51.62,30.90|N|To Darsok Swiftdagger.|
 A Serena Bloodfeather|QID|876|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|875|
 R The Dry Hills|ACTIVE|876|M|42.67,12.56|QO|1|N|Make your way back to The Dry Hills.\n[color=FF0000]NOTE: [/color]This is a shortcut into the back of The Dry Hills.|
-K Serena Bloodfeather|QID|876|M|42.28,11.88;40.63,10.29;39.40,11.44|CC|QO|1|N|Continue up the hillside. You may have to do some wiggling to clear the crest at the top. Once at the top, simply walk across the plateau and down the other side of the hill.\nAfter clearing out the mobs around her, kill Serena and loot her head.|
+K Serena Bloodfeather|QID|876|M|42.28,11.88;40.63,10.29;39.40,11.44|CC|QO|1|N|Continue up the hillside. You may have to do some wiggling to clear the crest at the top. Once at the top, simply walk across the plateau and down the other side of the hill.\nAfter clearing out the mobs around her, kill Serena and loot her head.|T|Serena Bloodfeather|
 R Mor'shan Base Camp|QID|3921|M|39.82,12.38;45.91,9.30|CC|N|Go back over the hill the way you came in. This will take a little 'fancy footwork' as there are a couple spots that you have to wiggle to get past. Once you have reached the plateau, follow the flat ridge east until you reach Mor'shan.|
 T Wenikee Boltbucket|QID|3921|M|49.05,11.16|N|Climb down the hill and cross the road to find Wenikee Boltbucket.|
 A Nugget Slugs|QID|3922|M|49.05,11.16|N|From Wenikee Boltbucket.|PRE|3921|
@@ -302,7 +302,7 @@ T Report to Kadrak|QID|6541|M|48.12,5.42|N|To Kadrak on the first floor of the g
 A The Warsong Reports|QID|6543|M|48.12,5.42|N|From Kadrak.|
 R Ashenvale|AVAILABLE|6442|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|IZ|-1440|
 R Splintertree Post|AVAILABLE|6442|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|Z|Ashenvale|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
-U Warsong Reports|ACTIVE|6543|L|16746|N|Open your Bundle of Reports.|U|16783|
+U Warsong Reports|ACTIVE|6543|L|16746|N|Open your Bundle of w.|U|16783|
 ; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.
 C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|CHAT|
 f Splintertree Post|QID|6442|M|73.18,61.59|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splintertree Post|
@@ -376,23 +376,23 @@ N NOT EASY!!!|AVAILABLE|2458|ACTIVE|876|N|Your Poison class quest is not going t
 F Crossroads|ACTIVE|876|M|44.44,59.15|R|Orc,Troll,Undead|C|Rogue|
 ; ---
 ; --- Shaman Water Totem class quest
-N Shaman level 20 Class quest|AVAILABLE|1528^1529|N|You can either fly to Orgrimmar, or Thunder Bluff to get started. Orgrimmar is the shorter flight and probably the most convenient.\nThis guide will be going to Orgrimmar.|R|Orcs,Tauren,Trolls|C|Shaman|
-F Orgrimmar|AVAILABLE|1528|ACTIVE|-1529|M|12.24,33.80|Z|Ashenvale|R|Orcs,Tauren,Trolls|C|Shaman|
-A Call of Water|QID|1528|ACTIVE|-1529|M|37.8,37.4|Z|Orgrimmar|N|From Searn Firewarder in the Valley of Wisdom.|R|Orcs,Tauren,Trolls|C|Shaman|
-F Ratchet|ACTIVE|1528^1529|M|63.09,37.16|R|Orcs,Tauren,Trolls|C|Shaman|
-R Islen Waterseer|ACTIVE|1528^1529|M|65.8,43.8|R|Orcs,Tauren,Trolls|C|Shaman|
-T Call of Water|QID|1528^1529|M|65.8,43.8|N|To Islen Waterseer.|R|Orcs,Tauren,Trolls|C|Shaman|
-A Call of Water|QID|1530|M|65.8,43.8|N|From Islen Waterseer.|PRE|1529|R|Orcs,Tauren,Trolls|C|Shaman|
-F Camp Taurajo|QID|1530|M|47.02,49.83|Z|Thunder Bluff|R|Orcs,Tauren,Trolls|C|Shaman|
-R Brine|QID|1530|M|43.4,77.4|N|Leave Camp Taurajo and follow the road south.|R|Orcs,Tauren,Trolls|C|Shaman|
-T Call of Water|QID|1530|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
-A Call of Water|QID|1535|M|43.4,77.4|N|From Brine.|PRE|1530|R|Orcs,Tauren,Trolls|C|Shaman|
-C Call of Water|QID|1535|M|43.4,77.4|L|7769|N|Go to the pond and fill the empty Brown Waterskin.|U|7766|R|Orcs,Tauren,Trolls|C|Shaman|NC|
-T Call of Water|QID|1535|M|43.4,77.4|N|To Brine.|R|Orcs,Tauren,Trolls|C|Shaman|
-A Call of Water|QID|1536|M|43.4,77.4|N|From Brine.|PRE|1531|R|Orcs,Tauren,Trolls|C|Shaman|
-N Water Totem class quest|ACTIVE|1536|N|At this point, you'll be doing some traveling to complete a few of these quests.|R|Orcs,Tauren,Trolls|C|Shaman|
-R Camp Taurajo|ACTIVE|1536|M|46.29,58.00|R|Orcs,Tauren,Trolls|C|Shaman|
-F Crossroads|ACTIVE|876|M|44.44,59.15|R|Orcs,Tauren,Trolls|C|Shaman|
+N Shaman level 20 Class quest|AVAILABLE|1528^1529|N|You can either fly to Orgrimmar, or Thunder Bluff to get started. Orgrimmar is the shorter flight and probably the most convenient.\nThis guide will be going to Orgrimmar.|R|Orc,Tauren,Troll|C|Shaman|
+F Orgrimmar|AVAILABLE|1528|ACTIVE|-1529|M|12.24,33.80|Z|Ashenvale|R|Orc,Tauren,Troll|C|Shaman|
+A Call of Water|QID|1528|ACTIVE|-1529|M|37.8,37.4|Z|Orgrimmar|N|From Searn Firewarder in the Valley of Wisdom.|R|Orc,Tauren,Troll|C|Shaman|
+F Ratchet|ACTIVE|1528^1529|M|63.09,37.16|R|Orc,Tauren,Troll|C|Shaman|
+;R Islen Waterseer|ACTIVE|1528^1529|M|65.8,43.8|R|Orc,Tauren,Troll|C|Shaman|
+T Call of Water|QID|1528^1529|M|65.8,43.8|N|To Islen Waterseer.|R|Orc,Tauren,Troll|C|Shaman|
+A Call of Water|QID|1530|M|65.8,43.8|N|From Islen Waterseer.|PRE|1529|R|Orc,Tauren,Troll|C|Shaman|
+F Camp Taurajo|QID|1530|M|47.02,49.83|Z|Thunder Bluff|R|Orc,Tauren,Troll|C|Shaman|
+R Brine|QID|1530|M|43.4,77.4|N|Leave Camp Taurajo and follow the road south.|R|Orc,Tauren,Troll|C|Shaman|
+T Call of Water|QID|1530|M|43.4,77.4|N|To Brine.|R|Orc,Tauren,Troll|C|Shaman|
+A Call of Water|QID|1535|M|43.4,77.4|N|From Brine.|PRE|1530|R|Orc,Tauren,Troll|C|Shaman|
+C Call of Water|QID|1535|M|44.23,76.92|L|7769|N|Go to the pond and fill the empty Brown Waterskin.|U|7766|R|Orc,Tauren,Troll|C|Shaman|NC|
+T Call of Water|QID|1535|M|43.4,77.4|N|To Brine.|R|Orc,Tauren,Troll|C|Shaman|
+A Call of Water|QID|1536|M|43.4,77.4|N|From Brine.|PRE|1535|R|Orc,Tauren,Troll|C|Shaman|
+N Water Totem class quest|ACTIVE|1536|N|At this point, you'll be doing some traveling to complete a few of these quests.|R|Orc,Tauren,Troll|C|Shaman|
+R Camp Taurajo|ACTIVE|1536|M|46.29,58.00|R|Orc,Tauren,Troll|C|Shaman|
+F Crossroads|ACTIVE|876|M|44.44,59.15|R|Orc,Tauren,Troll|C|Shaman|
 ; ---
 
 ; --- Warlock Succubus class quest

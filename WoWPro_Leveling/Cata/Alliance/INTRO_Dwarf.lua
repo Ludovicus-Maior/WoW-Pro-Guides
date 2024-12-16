@@ -129,7 +129,7 @@ A Don't Forget About Us|QID|24493|M|35.82,66.43|Z|1426; Dun Morogh|N|From Jona I
 r Repair and Sell Junk|QID|24492|S|ACTIVE|24492|Z|1426; Dun Morogh|N|Take this opportunity to sell your junk and repair with the sellers in Anvilmar.|T|Grundel Harkin|
 C Coldridge Beer Flagon|QID|24492|M|35.51,65.15|QO|1|Z|1426; Dun Morogh|N|Go to near the entrance, and all the items are around a table. Pick up the barrel of Coldridge Beer from the floor.|NC|
 C Ragged Wolf-Hide Cloak|QID|24492|M|35.80,64.51|QO|2|Z|1426; Dun Morogh|N|Pick up the box of Wolf-Hide Cloaks.|NC|
-C Leftover Boar Meat|QID|24492|M|62.45,23.87|QO|3|Z|1426; Dun Morogh|N|Pick up the Leftover Boar Meat that's on the table.|NC|
+C Leftover Boar Meat|QID|24492|M|35.42,66.04|QO|3|Z|1426; Dun Morogh|N|Pick up the Leftover Boar Meat that's on the table.|NC|
 T Pack Your Bags|QID|24492|M|37.38,70.60|Z|1426; Dun Morogh|N|To Milo Geartwinge. On handing this quest, you will be whisked by gyro-copter to Kharanos.|
 T Don't Forget About Us|QID|24493|M|53.16,49.98|Z|1426;Dun Morogh|N|To Tharek Blackstone.|
 ]]
