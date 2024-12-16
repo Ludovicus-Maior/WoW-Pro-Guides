@@ -122,7 +122,7 @@ R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way 
 K Beren's Peril|ACTIVE|516|QO|1;2|N|Enter the cave and kill Ravenclaw Drudgers and Guardians.|
 R Cave Entrance|ACTIVE|516|M|60.58,72.48|Z|Silverpine Forest|CC|N|Make your way back to the cave entrance.|IZ|1421|
 R The Greymane Wall|QID|530|M|59.70,77.90;53.67,72.47;51.10,72.45;46.89,83.45|Z|Silverpine Forest|CC|N|Exit the cave and head back to the road. Follow the road west to the first intersection and continue west to the next intersection. From here, go south to The Greymane Wall.|IZ|1421|
-C A Husband's Revenge|QID|530|M|46.06,85.64|Z|Silverpine Forest|L|3613|N|Kill Valdred Moray and loot his hands. He paths back and forth in front of the gate.|
+C A Husband's Revenge|QID|530|M|46.06,85.64|Z|Silverpine Forest|L|3613|N|Kill Valdred Moray and loot his hands. He paths back and forth in front of the gate.|T|Valdred Moray|
 R Hillsbrad Foothills|ACTIVE|1065|M|51.10,72.45;53.67,72.47;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road. Continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
 
 ; --- Hillsbrad Foothills
@@ -144,8 +144,8 @@ C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their
 R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
 C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|
-K Jailer Eston|ACTIVE|498|M|79.6,40.6|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
-K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
+K Jailor Eston|ACTIVE|498|M|79.6,40.6|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|T|Jailor Eston|
+K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|T|Jailor Marlgen|
 C The Rescue|QID|498|M|79.74,39.64|Z|Hillsbrad Foothills|QO|2|U|3499|N|Rescue Tog'thar.|NC|
 C The Rescue|QID|498|M|77.40,42.81;75.50,38.76;75.18,41.64|Z|Hillsbrad Foothills|CC|QO|1|U|3467|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]Run along the stone wall west of the bridge, drop down to the ground behind the buildings, and follow the wall around to the backdoor.\nHe has a rogue, a mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n\nSometimes Jailor Eston will spawn inside. He can be pulled singly as well.|NC|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|US|
@@ -196,7 +196,7 @@ N Booty Bay|ACTIVE|6571|N|Before returning to Stonetalon Mountains, we're taking
 b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|The Barrens|L|16745|N|Take the boat to Booty Bay.|
 C Warsong Supplies|QID|6571|M|26.46,73.38|Z|Stranglethorn Vale|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.\nDo this quick enough and you won't have to wait for the next boat to go back.|
 f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|Stranglethorn Vale|N|Since you are here go grab the Flight Path, So head up to Gringer who's standing just outside the Inn balcony.|TAXI|-Booty Bay|
-b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|Stranglethorn Vale|L|16745|N|Take the boat to Ratchet.|
+b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|The Barrens|
@@ -205,7 +205,7 @@ T Further Instructions|QID|1095|M|58.99,62.60|N|Make your way to Ziz Fizziks' hu
 A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|N|From Ziz Fizziks.|PRE|1095|
 K XT:4|ACTIVE|1068|QO|1|N|Kill XT:4. It patrols the north side of the river.|T|XT:4|S|
 K XT:9|ACTIVE|1068|QO|2|N|Kill XT:9. It patrols the south side of the river.|T|XT:9|S|
-U The Flying Machine Airport|ACTIVE|1086|M|66.48,45.40|U|5638|N|Place the Toxic Fogger here.|
+C The Flying Machine Airport|QID|1086|M|66.48,45.40|U|5638|N|Place the Toxic Fogger here.|
 C Gerenzo Wrenchwhistle|QID|1096|M|70.40,40.93;67.99,37.79;64.61,37.96;62.84,40.49|CS|L|5736|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him to loot his arm.|
 ;L Level 25
 N Shortcut down|ACTIVE|1096|N|Jump into the water and swim to shore.|
@@ -226,7 +226,7 @@ R Sun Rock Retreat|ACTIVE|6301|M|49.58,60.99|N|Return to Sun Rock Retreat.|
 T Cycle of Rebirth|QID|6301|M|47.48,58.39|N|To Tammra Windfield.|
 A New Life|QID|6381|M|47.48,58.39|N|From Tammra Windfield.|PRE|6301|
 A Harpies Threaten|QID|6282|M|47.15,61.10|N|From Maggran Earthbinder.|
-T Earthen Arise|QID|6481|M|47.22,64.05|CS|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Encanted Resonite Crystal.|
+T Earthen Arise|QID|6481|M|47.22,64.05|CS|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Enchanted Resonite Crystal.|
 A Elemental War|QID|6393|M|47.30,64.26|N|From Tsunaman.|
 R The Charred Vale|ACTIVE|6381^6393^6282|M|44.55,63.01;37.99,68.08|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom.\n[color=FF0000]NOTE: [/color]There is a longer route that brings you in through the north entrance. That route requires you to go back north up through Mirkfallon Lake and then west with a curve south into the Charred Vale. That route has less fighting and the mobs are level 23-25 at the top end. Whichever route you choose, you will be covering all 4 corners of the Charred Vale to complete this round of quests. The suggested route gets you there faster.|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|S|
@@ -281,9 +281,8 @@ A Dangerous!|QID|567|M|62.55,19.69|Z|Hillsbrad Foothills|N|From the wanted poste
 R Hillsbrad Fields|ACTIVE|502^527|M|33.43,35.03|Z|Hillsbrad Foothills|N|Run to the north end of the area.|
 C Battle of Hillsbrad|QID|527|QO|1;2|N|Kill Hillsbrad Farmers and Farmhands.|S|
 T Elixir of Pain|QID|502|M|32.96,35.15|Z|Hillsbrad Foothills|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
-K Citizen Wilkes|QID|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]You will have multiple opportunties to kill him. So, waiting/looking for him is not necessary.|S|
-K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|Z|Hillsbrad Foothills|CN|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|
-K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|Z|Hillsbrad Foothills|CN|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|
+K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|Z|Hillsbrad Foothills|CN|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|T|Farmer Ray|
+K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|Z|Hillsbrad Foothills|CN|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|T|Farmer Getz|
 C Battle of Hillsbrad|QID|527|QO|1;2|N|Finish killing Hillsbrad Farmers and Farmhands.|US|
 R Tarren Mill|QID|527|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
 T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia in Tarren Mill. Stay north of the road so you can continue working on your collection quests.|
@@ -292,7 +291,7 @@ C Battle of Hillsbrad|QID|528|QO|1|N|Kill Hillsbrad Peasants.|S|
 A Souvenirs of Death|QID|546|M|62.19,19.86|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|PRE|527|
 C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect Hillsbrad Human Skulls.|S|
 R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|Hillsbrad Foothills|N|Run to the south east part of the area.|
-K Farmer Kalaba|QID|567|M|35.71,46.76|Z|Hillsbrad Foothills|QO|4|N|Kill Farmer Kalaba in the SE orchard.|
+K Farmer Kalaba|QID|567|M|35.71,46.76|Z|Hillsbrad Foothills|QO|4|N|Kill Farmer Kalaba in the SE orchard.|T|Farmer Kalaba|
 C Battle of Hillsbrad|QID|528|QO|1|N|Finish killing Hillsbrad Peasants.|US|
 R Nethander Stead|ACTIVE|509|M|62.29,41.41;63.77,57.82|Z|Hillsbrad Foothills|CC|N|Make your way south to Nethander Stead.\n[color=FF0000]NOTE: [/color]Don't be silly and try cutting through Southshore.|
 C Elixir of Agony|QID|509|L|3502 6|N|Collect Mudsnout Blossoms.|
@@ -302,7 +301,7 @@ T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Exec
 A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|528|
 R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|Hillsbrad Foothills|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|
 C Battle of Hillsbrad|QID|529|M|32,46|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 3 inside the forge and 1 outside.|S|
-K Blacksmith Verringtan|QID|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside.\n[color=FF0000]NOTE: [/color]If you approach from the south entrance, you'll aggro all 4 mobs inside. If you approach from the north entrance, you'll only aggro 3 of them. Run around to the rear of the building to avoid aggroing anyone else and to prevent the runners from doing the same. Verringtan will be one of the mobs that attack you.\nIf Verringtan spawned outside, you will only pull 2 mobs.|
+K Blacksmith Verringtan|QID|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside.\n[color=FF0000]NOTE: [/color]If you approach from the south entrance, you'll aggro all 4 mobs inside. If you approach from the north entrance, you'll only aggro 3 of them. Run around to the rear of the building to avoid aggroing anyone else and to prevent the runners from doing the same. Verringtan will be one of the mobs that attack you.\nIf Verringtan spawned outside, you will only pull 2 mobs.|T|Blacksmith Verringtan|
 C Battle of Hillsbrad|QID|529|M|31.99,45.43|Z|Hillsbrad Foothills|L|3564|N|As soon as you clear the forge, run inside and pick up the Shipment of Iron inside the forge.|
 C Battle of Hillsbrad|QID|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths. You should be able to pull the one outside by himself.|US|
 C Souvenirs of Death|QID|546|L|3692 30|N|Continue killing Hillsbrad human mobs until you are done collecting the Hillsbrad Human Skulls./nYou are leaving this area shortly and there's no point carrying this quest and items with you.|US|
@@ -337,16 +336,16 @@ A Gann's Reclamation|QID|843|M|46.11,81.23|Z|The Barrens|N|From Gann Stonespire.
 C Razormane Pathfinder/Stalker|QID|893|L|5093|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|S|
 C Razormane Warfrenzy|QID|893|L|5094|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|S|
 C Razormane Seer|QID|893|L|5092|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|S|
-K Kuz|ACTIVE|879|M|44.71,80.48|Z|The Barrens|CC|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|
-K Lok Orcbane|ACTIVE|879|M|40.13,80.69|Z|The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|
-K Nak|ACTIVE|879|M|43.96,83.44|Z|The Barrens|QO|2|U|5103|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|
+K Kuz|ACTIVE|879|M|44.71,80.48|Z|The Barrens|CC|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|T|Kuz|
+K Lok Orcbane|ACTIVE|879|M|40.13,80.69|Z|The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|T|Lok Orcbane|
+K Nak|ACTIVE|879|M|43.96,83.44|Z|The Barrens|QO|2|U|5103|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|T|Nak|
 C Charred Razormane Wand|QID|893|QO|2|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|US|
 C Razormane War Shield|QID|893|QO|3|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|US|
 C Razormane Backstabber|QID|893|QO|1|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|US|
 N Washte Pawne|AVAILABLE|885|N|Before leaving the area, have a look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills.\nManually check this step off once you've killed it or given up waiting.\n[color=FF0000]NOTE: [/color]This mob is tameable and therefore, be respectful of Hunters who may be in the area looking for it.|RARE|
 R Bael Modan|QID|843|M|46.35,85.00|Z|The Barrens|N|Simply, just run across the road.|
 C Gann's Reclamation|QID|843|QO|1;2|N|Kill Bael'dun Excavators and Foremen.|S|
-C Prospector Khazgorm|QID|843|M|47.84,85.53|Z|The Barrens|L|5006|N|Kill Prospector Khazgorm and loot his Journal. He's in the center at the bottom of the dig site.|
+K Prospector Khazgorm|ACTIVE|843|M|47.84,85.53|Z|The Barrens|L|5006|N|Kill Prospector Khazgorm and loot his Journal. He's in the center at the bottom of the dig site.|T|Prospector Khazgorm|
 C Gann's Reclamation|QID|843|QO|1;2|N|Finish killing Bael'dun Excavators and Foremen.|US|
 T Gann's Reclamation|QID|843|M|46.11,81.22;46.14,75.39|Z|The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
 A Revenge of Gann|QID|846|N|From Gann Stonespire.|PRE|843|
@@ -382,7 +381,7 @@ A Stonetalon Standstill|QID|25|M|73.62,60.02|Z|Ashenvale|N|From Mastok Wrilehiss
 A Ashenvale Outrunners|QID|6503|M|71.15,68.17|Z|Ashenvale|N|From Kuray'bin.|
 A The Lost Pages|QID|6504|M|69.98,71.09|Z|Ashenvale|N|From Gurda Ragescar.|
 R The Dor'Danil Barrow Den|QID|2|M|72.85,70.56|Z|Ashenvale|
-N Sharptalon|AVAILABLE|2|N|While you are in the area, keep an eye out for Sharptalon, a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest. He has a respawn rate of @ 15-20 minutes.\nIf you draw him towards the Forsaken by the tent, they will help you kill it.\n\nManually close this step.|PRE|6383|
+N Sharptalon|AVAILABLE|2|N|While you are in the area, keep an eye out for Sharptalon, a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest. He has a respawn rate of @ 15-20 minutes.\nIf you draw him towards the Forsaken by the tent, they will help you kill it.\n\nManually close this step.|PRE|6383|T|Sharptalon|
 A Sharptalon's Claw|QID|2|U|16305|N|Right-click the item to activate the quest.|PRE|6383|O|
 C Ashenvale Outrunners|QID|6503|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|
 A Torek's Assault|QID|6544|M|68.33,75.33|Z|Ashenvale|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of.\nBasically, you follow him and his troops as they kill things.\n[color=FF0000]NOTE: [/color]If he's not there, someone is on the quest and you'll have to wait for him to respawn.|
@@ -397,11 +396,11 @@ K Tideress|AVAILABLE|1918|L|16408|N|Kill Tideress for a drop quest item, Befoule
 A The Befouled Element|QID|1918|U|16408|N|Click the item to activate the quest.|O|
 C Stonetalon Standstill|QID|25|QO|1|US|N|Finish killing Befouled Water Elementals|
 R The Talondeep Path|QID|23|AVAILABLE|-6383^235^742^6382|M|42.65,70.10|Z|Ashenvale|
-N Ursangous|QID|23|AVAILABLE|-6383^-235^-742^-6382|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|
+N Ursangous|QID|23|AVAILABLE|-6383^-235^-742^-6382|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|T|Ursangous|
 A Ursangous's Paw|QID|23|U|16303|N|Right-click the item to activate the quest.|PRE|6383|O|
 R Raynewood Retreat|QID|1088|M|45.41,65.03;50.65,64.60;51.27,58.14;52.89,54.49;57.24,56.00|Z|Ashenvale|CC|N|There are at least 3 paths to get where you are going. This one is the most straight forward with the least resistance.\nYou will also be using a back way in to avoid the Alliance tower leading into the area. There is a guard that you cannot avoid aggroing.|
 C The Sacred Flame|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops the Etched Phial.|S|
-N Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|
+N Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|T|Shadumbra|
 A Shadumbra's Head|QID|24|U|16304|N|Right-click the item to activate the quest.|PRE|6383|O|
 C Ordanus|QID|1088|M|62,51.2|Z|Ashenvale|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. That way, if you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
 C Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.|US|
