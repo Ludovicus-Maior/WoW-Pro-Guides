@@ -87,9 +87,9 @@ T The Bearer of Gnoll-edge|QID|26864|M|35.09,46.41|Z|48; Loch Modan|N|To Mountai
 A Suddenly, Murlocs!|QID|26927|PRE|26864|M|35.09,46.41|Z|48; Loch Modan|N|From Mountaineer Kadrell.|
 T Suddenly, Murlocs!|QID|26927|M|34.81,49.06|Z|48; Loch Modan|N|To Cannary Caskshot.|
 A Smells Like A Plan|QID|26928|PRE|26927|M|34.81,49.06|Z|48; Loch Modan|N|From Cannary Caskshot.|
-C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Kill and loot the Bluegill Merloc's until you get the 7 glands.|S|
+C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Kill and loot the Bluegill Murloc's until you get the 7 glands.|S|
 A Explorers' League Document (2 of 6)|QID|13655|M|41.35,39.00|Z|48; Loch Modan|N|From the Stolen Explorers' League Documents. It is hard to see, it is just under the south side of the bridge.|
-C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Finish killing and the Bluegill Merloc's until you get the 7 glands.|US|
+C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Finish killing and the Bluegill Murloc's until you get the 7 glands.|US|
 T Explorers' League Document (2 of 6)|QID|13655|M|37.18,47.82|Z|48; Loch Modan|N|To Torren Squarejaw.|
 A Buzz Off|QID|26932|PRE|26927|M|35.01,46.42|Z|48; Loch Modan|N|From Mountaineer Kadrell.|
 T Smells Like A Plan|QID|26928|M|34.85,49.07|Z|48; Loch Modan|N|To Cannary Caskshot.|
