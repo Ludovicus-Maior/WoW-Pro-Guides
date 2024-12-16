@@ -4,6 +4,7 @@ WoWPro:GuideQuestTriggers(guide, 79009)
 WoWPro:GuideLevels(guide,70, 70)
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;A The Harbinger|QID|79009|M|39.11,46.94|Z|629|N|UI POP UP.|

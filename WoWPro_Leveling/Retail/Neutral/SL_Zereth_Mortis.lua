@@ -4,6 +4,7 @@ WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideLevels(guide, 60, 60)
 WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, "Covenant")
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Chapter 1
