@@ -147,7 +147,7 @@ T Explorers' League Document (4 of 6)|QID|13658|M|37.18,47.75|Z|48; Loch Modan|N
 T Explorers' League Document (5 of 6)|QID|13660|M|37.18,47.75|Z|48; Loch Modan|N|To Torren Squarejaw.|
 T Explorers' League Document (6 of 6)|QID|13659|M|37.18,47.75|Z|48; Loch Modan|N|To Torren Squarejaw.|
 F Farstrider Lodge|QID|27031|M|33.96,50.88|Z|48; Loch Modan|N|Fly to Farstrider Lodge.|
-h Farstrider Lodge|QID|27031|M|81.91,64.60|Z|48; Loch Modan|N|At Vyrin Swiftwind.|
+h The Farstrider Lodge|QID|27031|M|81.91,64.60|Z|48; Loch Modan|N|At Vyrin Swiftwind.|
 T Wing Nut|QID|27031|M|81.68,64.66|Z|48; Loch Modan|N|To Bingles Blastenheimer.|
 A Bird is the Word|QID|27032|PRE|27031|M|81.70,64.63|Z|48; Loch Modan|N|From Bingles Blastenheimer.|
 T Thistle While You Work|QID|27025|M|82.86,63.50|Z|48; Loch Modan|N|To Safety Warden Pipsy.|
