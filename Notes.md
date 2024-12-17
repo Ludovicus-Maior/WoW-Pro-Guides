@@ -1,3 +1,13 @@
+# Release 2024.12.18.A
+## Bug Fixes
+*  None!
+## Guide Updates
+* Vanilla Leveling Horde: Hendo Barrens 15-21, Hendo Horde 21-30
+* Cata Leveling Alliance: Swamp of Sorrows,Dwarf Intro, Gnome Intro
+* Retail Leveling Alliance: Loch Modan
+* Retail Leveling Neutral: Azj-Kahet, TRD
+
+
 # Release 2024.12.03.A
 ## Bug Fixes
 *  Emotes now target not dead targets
