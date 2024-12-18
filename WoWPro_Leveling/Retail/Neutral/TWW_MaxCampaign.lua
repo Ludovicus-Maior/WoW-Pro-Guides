@@ -4,6 +4,7 @@ WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,80,80)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -282,5 +283,68 @@ A Return to Dornogal|QID|83503|M|35.95,35.45|Z|2215;Hallowfall|N|From Alleria Wi
 H Dornogal|ACTIVE|83503|M|35.95,35.45|Z|2215;Hallowfall|N|Hearth or otherwise return to Dornogal.|
 C Return to Dornogal|QID|83503|QO|1|M|39.94,26.08|Z|2339;Dornogal|N|Tell Merrix what happened.|CHAT|
 T Return to Dornogal|QID|83503|M|25.20,66.14|Z|2339;Dornogal|N|To Anduin.|
+
+;---PART 2---
+
+A Lingering Shadows|QID|82690|M|42.34,26.98|Z|2339|N|From Alleria Windrunner.|
+P The Weaver's Lair|ACTIVE|82690|M|63.62,52.20|Z|Dornogal|N|Take the portal to The Weaver's Lair.|
+C Lingering Shadows|QID|82690|M|63.30,67.31|Z|2215;Hallowfall|QO|1|NC|N|Return to where Alleria sensed Black Blood in Hallowfall.|
+T Lingering Shadows|QID|82690|M|62.93,67.47|Z|2215;Hallowfall|N|To Orweyna.|
+A Price of a Mission|QID|82692|PRE|82690|M|62.93,67.47|Z|2215;Hallowfall|N|From Orweyna.|
+A Standing in the Way|QID|82693|PRE|82690|M|62.93,67.47|Z|2215;Hallowfall|N|From Orweyna.|
+A No Breathing Room|QID|82691|PRE|82690|M|62.93,67.53|Z|2215;Hallowfall|N|From Hannan.|
+C No Breathing Room|QID|82691|M|64.17,68.64|Z|2215;Hallowfall|QO|1|NC|N|Seeping creatures culled (100%).|S|
+C Price of a Mission|QID|82692|M|64.97,67.40|Z|2215;Hallowfall|QO|1|NC|N|Strange Flower examined.|S|
+C Price of a Mission|QID|82692|M|64.24,64.66|Z|2215;Hallowfall|QO|2|NC|N|Haranir evacuated.|S|
+C Standing in the Way|QID|82693|M|65.67,65.56|Z|2215;Hallowfall|QO|1|N|Bloodcrust Behemoth slain.|
+C Price of a Mission|QID|82692|M|66.66,64.89|Z|2215;Hallowfall|QO|2<1|NC|N|Haranir evacuated.|US|
+C Price of a Mission|QID|82692|M|64.21,64.55|Z|2215;Hallowfall|QO|2<1|NC|N|Haranir evacuated.|US|
+C Price of a Mission|QID|82692|M|64.45,68.06|Z|2215;Hallowfall|QO|2<1|NC|N|Haranir evacuated.|US|
+C Price of a Mission|QID|82692|M|64.97,67.40|Z|2215;Hallowfall|QO|1|NC|N|Strange Flower examined.|US|
+C No Breathing Room|QID|82691|M|64.17,68.64|Z|2215;Hallowfall|QO|1|NC|N|Seeping creatures culled (100%).|US|
+T Price of a Mission|QID|82692|M|63.01,67.52|Z|2215;Hallowfall|N|To Orweyna.|
+T Standing in the Way|QID|82693|M|63.01,67.52|Z|2215;Hallowfall|N|To Orweyna.|
+T No Breathing Room|QID|82691|M|63.01,67.52|Z|2215;Hallowfall|N|To Hannan.|
+A Together, Alone|QID|82694|PRE|82692&82693&82691|M|63.01,67.52|Z|2215;Hallowfall|N|From Orweyna.|
+C Together, Alone|QID|82694|M|58.82,46.34|Z|2215;Hallowfall|QO|1|NC|N|Find Hannan beneath the Fangs in Hallowfall.|
+C Together, Alone|QID|82694|M|58.81,46.19|Z|2215;Hallowfall|QO|2|CHAT|N|Speak to Hannan.|
+T Together, Alone|QID|82694|M|24.92,51.59|Z|2215;Hallowfall|N|To Orweyna.|
+A The Voice|QID|82695|PRE|82694|M|24.92,51.59|Z|2215;Hallowfall|N|From Orweyna.|
+C The Voice|QID|82695|M|24.92,51.59|Z|2215;Hallowfall|QO|1|CHAT|N|Speak to Orweyna to begin (Optional).|
+C The Voice|QID|82695|M|24.77,51.22|Z|2215;Hallowfall|QO|2|NC|N|Defend Orweyna during her meditation.|
+T The Voice|QID|82695|M|24.89,51.59|Z|2215;Hallowfall|N|To Orweyna.|
+A Ringing in the Deeps|QID|82696|PRE|82695|M|24.89,51.59|Z|2215;Hallowfall|N|From Orweyna.|
+T Ringing in the Deeps|QID|82696|M|58.71,64.67|Z|2214;The Ringing Deeps|N|To Orweyna.|
+A Good Help These Days|QID|82697|M|58.50,64.69|Z|2214;The Ringing Deeps|N|From Monte Gazlowe.|
+C Good Help These Days|QID|82697|M|62.42,74.82|Z|2214;The Ringing Deeps|QO|1|NC|N|Opportunity Work Permit taken.|
+T Good Help These Days|QID|82697|M|64.59,79.77|Z|2214;The Ringing Deeps|N|To Monte Gazlowe.|
+A Hey, What's Going On?|QID|82699|PRE|82697|M|64.59,79.77|Z|2214;The Ringing Deeps|N|From Monte Gazlowe.|
+A Haywired and Hostile|QID|82698|PRE|82697|M|64.47,79.72|Z|2214;The Ringing Deeps|N|From Orweyna.|
+
+C Hey, What's Going On?|QID|82699|M|61.98,87.78|Z|2214;The Ringing Deeps|QO|1|NC|N|Question Harried Workers.|S|
+C Hey, What's Going On?|QID|82699|M|61.13,92.29|Z|2214;The Ringing Deeps|QO|2|NC|N|Used Fuel Drum examined.|S|
+C Haywired and Hostile|QID|82698|M|60.92,91.36|Z|2214;The Ringing Deeps|QO|1|N|Haywire Excavator slain.|
+
+C Hey, What's Going On?|QID|82699|M|62.36,82.38;61.09,83.50;61.24,85.16;62.00,87.81;61.66,90.25;60.66,92.30;60.03,93.57;59.70,90.81|CN|Z|2214;The Ringing Deeps|QO|1|NC|N|Question Harried Workers.|US|
+C Hey, What's Going On?|QID|82699|M|61.13,92.29|Z|2214;The Ringing Deeps|QO|2|NC|N|Used Fuel Drum examined.|US|
+C Hey, What's Going On?|QID|82699|M|60.34,87.03|Z|2214;The Ringing Deeps|QO|3|NC|N|Find Renzik.|
+T Hey, What's Going On?|QID|82699|M|60.41,87.05|Z|2214;The Ringing Deeps|N|To Renzik "The Shiv".|
+T Haywired and Hostile|QID|82698|M|60.41,87.05|Z|2214;The Ringing Deeps|N|To Renzik "The Shiv".|
+A Built to Blast|QID|82700|PRE|82699&82698|M|60.41,87.05|Z|2214;The Ringing Deeps|N|From Renzik "The Shiv".|
+C Built to Blast|QID|82700|M|58.35,85.96|Z|2214;The Ringing Deeps|QO|1|N|Haywire MEK IV slain.|
+T Built to Blast|QID|82700|M|64.41,79.72|Z|2214;The Ringing Deeps|N|To Orweyna.|
+A Bat Versus World|QID|82701|PRE|82700|M|64.38,79.73|Z|2214|N|From Orweyna.|
+C Bat Versus World|QID|82701|M|64.42,79.71|Z|2214|QO|1|CHAT|N|Speak to Orweyna.|
+C Bat Versus World|QID|82701|M|63.08,80.76|Z|2214|QO|2|NC|N|"Listen In" to Gather Intel.|
+C Bat Versus World|QID|82701|M|66.66,78.38|Z|2214|QO|3|NC|N|Listen In at the Cave Wall.|
+C Bat Versus World|QID|82701|M|61.05,86.54|Z|2214|QO|4|NC|N|Reach Foreman's Office.|
+C Bat Versus World|QID|82701|M|64.57,79.65|Z|2214|QO|5|NC|N|Find Information.|
+T Bat Versus World|QID|82701|M|64.52,79.73|Z|2214|N|To Orweyna.|
+A Found Friends|QID|82702|PRE|82701|M|64.55,79.73|Z|2214|N|From Monte Gazlowe.|
+C Found Friends|QID|82702|M|42.35,28.62|Z|2339;Dornogal|QO|2|NC|N|Report to Alleria in Dornogal.|
+T Found Friends|QID|82702|M|42.35,27.07|Z|2339;Dornogal|N|To Alleria Windrunner.|
+A The Speaker|QID|84701|PRE|82702|M|42.17,27.36|Z|2339;Dornogal|N|From Orweyna.|
+T The Speaker|QID|84701|M|35.55,81.72|Z|2339;Dornogal|N|To Magni Bronzebeard.|
+
 ]]
 end)

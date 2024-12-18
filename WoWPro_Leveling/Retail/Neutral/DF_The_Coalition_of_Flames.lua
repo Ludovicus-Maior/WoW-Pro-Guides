@@ -5,6 +5,7 @@ WoWPro:GuideNickname(guide, "The Coalition of Flames")
 WoWPro:GuideQuestTriggers(guide, 76982, 75918)
 WoWPro:GuideNextGuide(guide, 'Call_of_the_Dream')
 WoWPro:GuideContent(guide, "Dragonflight")
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 
