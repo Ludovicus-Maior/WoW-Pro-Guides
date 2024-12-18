@@ -69,37 +69,17 @@ C Peak Precision|QID|84252|M|36.61,42.96|Z|2369;Siren Isle|QO|1|N|Survey Machine
 C Serpent's Wrath|QID|84850|N|You need to finish this quest to complete the zone.|US|
 T Uncovered Mysteries|QID|84726|M|71.32,44.23|Z|2369;Siren Isle|N|To Angorla.|
 T Peak Precision|QID|84252|M|69.17,47.45|Z|2369;Siren Isle|N|To Sally Boltwrench.|
-A Dipping a Toe|QID|85653|PRE|84726|M|72.09,42.98|Z|2369;Siren Isle|N|From Apprentice Tanmar.|
-A Reading the Runes|QID|85876|PRE|84252&84850|M|67.69,42.06|Z|2369;Siren Isle|N|From Bargus.|
-C Dipping a Toe|QID|85653|M|73.38,52.57|Z|2369;Siren Isle|QO|1|N|Search the East Shore.|NC|
-C Dipping a Toe|QID|85653|M|46.18,87.25|Z|2369;Siren Isle|QO|3|NC|N|Search the Southern Shore.|
-C Dipping a Toe|QID|85653|M|33.38,20.72|Z|2369;Siren Isle|QO|2|N|Search the Northern Shore.|NC|
-C Reading the Runes|QID|85876|M|60.26,15.48|Z|2375; The Forgotten Tomb|QO|1|N|Click the book again to Re-enter the Forgotten Tomb.|H|
-C Reading the Runes|QID|85876|M|73.74,63.72|Z|2375; The Forgotten Tomb|QO|3|N|Runes of Thrayir examined.|H|
-C Reading the Runes|QID|85876|M|32.40,29.42|Z|2375; The Forgotten Tomb|QO|2|N|Carving of the Five Keys.|H|
+A A Lifeline|QID|86482|M|70.89,48.42|Z|2369;Siren Isle|N|From Starving Snapdragon Runt.|
+C A Lifeline|QID|86482|M|71.35,47.35|Z|2369;Siren Isle|N|Talk to Zexel Fingersnap.|CHAT|
+T A Lifeline|QID|86482|M|70.89,48.42|Z|2369;Siren Isle|N|To Starving Snapdragon Runt.|
 A The Tattered Journal|QID|85570|PRE|84252&84850|M|37.30,76.82|Z|2375; The Forgotten Tomb|
-C Reading the Runes|QID|85876|M|33.78,83.38|Z|2375; The Forgotten Tomb|QO|4|N|Tablet of Ksvir.|H|
-P The Sacred Hollow|ACTIVE|85876|M|61.00,13.59|Z|2375; The Forgotten Tomb|N|Take the portal to The Sacred Hollow.|
-T Reading the Runes|QID|85876|M|67.74,41.94|Z|2369;Siren Isle|N|To Bargus.|
 T The Tattered Journal|QID|85570|M|70.89,39.90|Z|2369;Siren Isle|N|To Stellin Verasa.|
 A Scattered To The Winds|QID|85571|PRE|85570|M|70.89,39.90|Z|2369;Siren Isle|N|From Stellin Verasa.|
-T Dipping a Toe|QID|85653|M|72.19,42.95|Z|2369;Siren Isle|N|To Apprentice Tanmar.|
-A Juicing Up And Storming Out|QID|85654|PRE|85653|M|71.39,45.71|Z|2369;Siren Isle|N|From Didi the Wrench.|
-A Special Assignment: Storm's a Brewin|QID|85113|PRE|84252&84627&84850&84430|M|69.14,49.12|Z|2369;Siren Isle|N|From Suzie Boltwrench.|
-C Special Assignment: Storm's a Brewin|QID|85113|M|69.14,49.12|Z|2369;Siren Isle|QO|1|CHAT|N|Speak with Suzie to await the Storm.|
-C Special Assignment: Storm's a Brewin|QID|85113|M|69.14,49.12|Z|2369;Siren Isle|QO|3|N|Kill stuff to fill the bar, this quest is required to unlock the rest of the quests.|S|
-C Juicing Up And Storming Out|QID|85654|M|69.21,49.84|Z|2369;Siren Isle|QO|4|NC|N|Activate the TR-06 Pummeler.|
-C Juicing Up And Storming Out|QID|85654|M|69.15,47.67|Z|2369;Siren Isle|QO|5|NC|N|Use the N.U.K.U.L.A.R Target Painter.|
-C Special Assignment: Storm's a Brewin|QID|85113|M|69.14,49.12|Z|2369;Siren Isle|QO|3|N|Kill stuff to fill the bar, this quest is required to unlock the rest of the quests.|US|
-T Special Assignment: Storm's a Brewin|QID|85113|M|69.14,49.12|Z|2369;Siren Isle|N|To Suzie Boltwrench.|
-T Juicing Up And Storming Out|QID|85654|M|71.33,45.79|Z|2369;Siren Isle|N|To Didi the Wrench.|
-A Unleashing Her Power|QID|85655|PRE|85876&85654|M|71.33,44.18|Z|2369;Siren Isle|N|From Angorla.|
-C Unleashing Her Power|QID|85655|M|71.33,44.18|Z|2369;Siren Isle|N|Make sure you have the new ring equipped.|S!US|
-C Scattered To The Winds|QID|85571|QO|1<1|M|70.89,39.90|Z|2369;Siren Isle|N|Grab the Page off the Railing.|H|
-C Scattered To The Winds|QID|85571|QO|1<2|M|45.85,47.08|Z|2369;Siren Isle|N|Grab the Page off the ground under the bridge.|H|
-C Scattered To The Winds|QID|85571|QO|1<3|M|39.31,54.18|Z|2369;Siren Isle|N|Grab the Page off the ground next to the bed.|H|
-C Scattered To The Winds|QID|85571|QO|1<4|M|51.65,75.89|Z|2369;Siren Isle|N|Grab the Page from the boat.|H|
-C Scattered To The Winds|QID|85571|QO|1<5|M|55.82,14.46|Z|2369;Siren Isle|N|Grab the Page out of the cave.|H|
+C Scattered To The Winds|QID|85571|QO|4|M|70.96,59.24|Z|2369;Siren Isle|N|Grab the Page off the Railing.|H|
+C Scattered To The Winds|QID|85571|QO|3|M|45.85,47.08|Z|2369;Siren Isle|N|Grab the Page off the ground under the bridge.|H|
+C Scattered To The Winds|QID|85571|QO|1|M|39.31,54.18|Z|2369;Siren Isle|N|Grab the Page off the ground next to the bed.|H|
+C Scattered To The Winds|QID|85571|QO|2|M|51.65,75.89|Z|2369;Siren Isle|N|Grab the Page from the boat.|H|
+C Scattered To The Winds|QID|85571|QO|5|M|55.82,14.46|Z|2369;Siren Isle|N|Grab the Page out of the cave.|H|
 T Scattered To The Winds|QID|85571|M|70.89,39.90|Z|2369;Siren Isle|N|To Stellin Verasa.|
 A A Group Effort|QID|85572|PRE|85571|M|70.89,39.90|Z|2369;Siren Isle|N|From Stellin Verasa.|
 C A Group Effort|QID|85572|QO|1|M|67.05,40.70|Z|2369;Siren Isle|N|Talk to Alta.|CHAT|
@@ -107,19 +87,32 @@ C A Group Effort|QID|85572|QO|3|M|69.08,43.62|Z|2369;Siren Isle|N|Talk to Skitte
 C A Group Effort|QID|85572|QO|2|M|71.72,45.76|Z|2369;Siren Isle|N|Talk to Ricket.|CHAT|
 T A Group Effort|QID|85572|M|70.89,39.90|Z|2369;Siren Isle|N|To Stellin Verasa.|
 A Laid To Rest At Last|QID|85573|PRE|85572|M|70.89,39.90|Z|2369;Siren Isle|N|From Stellin Verasa.|
-A A Lifeline|QID|86482|M|70.89,48.42|Z|2369;Siren Isle|N|From Starving Snapdragon Runt.|
-C A Lifeline|QID|86482|M|71.35,47.35|Z|2369;Siren Isle|N|Talk to Zexel Fingersnap.|CHAT|
-T A Lifeline|QID|86482|M|70.89,48.42|Z|2369;Siren Isle|N|To Starving Snapdragon Runt.|
 C Laid To Rest At Last|QID|85573|M|38.84,54.66|Z|2369;Siren Isle|N|Tattered Kirin Tor Journal.|H|
 T Laid To Rest At Last|QID|85573|M|70.89,39.90|Z|2369;Siren Isle|N|To Stellin Verasa.|
+;A Dipping a Toe|QID|85653|PRE|84726|M|72.09,42.98|Z|2369;Siren Isle|N|From Apprentice Tanmar.|
+;A Reading the Runes|QID|85876|PRE|84252&84850|M|67.69,42.06|Z|2369;Siren Isle|N|From Bargus.|
+;C Dipping a Toe|QID|85653|M|73.38,52.57|Z|2369;Siren Isle|QO|1|N|Search the East Shore.|NC|
+;C Dipping a Toe|QID|85653|M|46.18,87.25|Z|2369;Siren Isle|QO|3|NC|N|Search the Southern Shore.|
+;C Dipping a Toe|QID|85653|M|33.38,20.72|Z|2369;Siren Isle|QO|2|N|Search the Northern Shore.|NC|
+;C Reading the Runes|QID|85876|M|60.26,15.48|Z|2375; The Forgotten Tomb|QO|1|N|Click the book again to Re-enter the Forgotten Tomb.|H|
+;C Reading the Runes|QID|85876|M|73.74,63.72|Z|2375; The Forgotten Tomb|QO|3|N|Runes of Thrayir examined.|H|
+;C Reading the Runes|QID|85876|M|32.40,29.42|Z|2375; The Forgotten Tomb|QO|2|N|Carving of the Five Keys.|H|
+;C Reading the Runes|QID|85876|M|33.78,83.38|Z|2375; The Forgotten Tomb|QO|4|N|Tablet of Ksvir.|H|
+;P The Sacred Hollow|ACTIVE|85876|M|61.00,13.59|Z|2375; The Forgotten Tomb|N|Take the portal to The Sacred Hollow.|
+;T Reading the Runes|QID|85876|M|67.74,41.94|Z|2369;Siren Isle|N|To Bargus.|
 
-
-
-
-
-
-
-
+;T Dipping a Toe|QID|85653|M|72.19,42.95|Z|2369;Siren Isle|N|To Apprentice Tanmar.|
+;A Juicing Up And Storming Out|QID|85654|PRE|85653|M|71.39,45.71|Z|2369;Siren Isle|N|From Didi the Wrench.|
+;A Special Assignment: Storm's a Brewin|QID|85113|PRE|84252&84627&84850&84430|M|69.14,49.12|Z|2369;Siren Isle|N|From Suzie Boltwrench.|
+;C Special Assignment: Storm's a Brewin|QID|85113|M|69.14,49.12|Z|2369;Siren Isle|QO|1|CHAT|N|Speak with Suzie to await the Storm.|
+;C Special Assignment: Storm's a Brewin|QID|85113|M|69.14,49.12|Z|2369;Siren Isle|QO|3|N|Kill stuff to fill the bar, this quest is required to unlock the rest of the quests.|S|
+;C Juicing Up And Storming Out|QID|85654|M|69.21,49.84|Z|2369;Siren Isle|QO|4|NC|N|Activate the TR-06 Pummeler.|
+;C Juicing Up And Storming Out|QID|85654|M|69.15,47.67|Z|2369;Siren Isle|QO|5|NC|N|Use the N.U.K.U.L.A.R Target Painter.|
+;C Special Assignment: Storm's a Brewin|QID|85113|M|69.14,49.12|Z|2369;Siren Isle|QO|3|N|Kill stuff to fill the bar, this quest is required to unlock the rest of the quests.|US|
+;T Special Assignment: Storm's a Brewin|QID|85113|M|69.14,49.12|Z|2369;Siren Isle|N|To Suzie Boltwrench.|
+;T Juicing Up And Storming Out|QID|85654|M|71.33,45.79|Z|2369;Siren Isle|N|To Didi the Wrench.|
+;A Unleashing Her Power|QID|85655|PRE|85876&85654|M|71.33,44.18|Z|2369;Siren Isle|N|From Angorla.|
+;C Unleashing Her Power|QID|85655|M|71.33,44.18|Z|2369;Siren Isle|N|Make sure you have the new ring equipped.|S!US|
 
 
 ;A The Drowned Lair|QID|85760|PRE|84725|M|71.24,44.09|Z|2369; Siren Isle|N|From Angorla.|
