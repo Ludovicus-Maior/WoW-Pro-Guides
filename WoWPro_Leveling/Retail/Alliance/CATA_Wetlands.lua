@@ -132,7 +132,7 @@ C Gnoll Escape|QID|25867|M|45.38,34.90|Z|56; Wetlands|N|Free Gnolls from the Gno
 T Dark Iron Trappers|QID|25866|M|26.91,26.18|Z|56; Wetlands|N|To Shilah Slabchisel.|
 T Gnoll Escape|QID|25867|M|26.91,26.18|Z|56; Wetlands|N|To Shilah Slabchisel.|
 A Yorla Darksnare|QID|25868|PRE|25866&25867|M|26.91,26.18|Z|56; Wetlands|N|From Shilah Slabchisel.|
-K Yorla Darksnare|ACTIVE|25868|M|41.25,22.00|Z|56; Wetlands|N|Kill Yorla Darksnare.|T|Yorla Darksnare|
+K Yorla Darksnare|ACTIVE|25868|QO|1|M|41.25,22.00|Z|56; Wetlands|N|Kill Yorla Darksnare.|T|Yorla Darksnare|
 T Yorla Darksnare|QID|25868|M|27.00,26.03|Z|56; Wetlands|N|To Shilah Slabchisel.|
 A Whelgar's Retreat|QID|26981|PRE|25868|LEAD|25849|M|27.00,26.03|Z|56; Wetlands|N|From Shilah Slabchisel.|
 f Whelgar's Retreat|QID|26981|M|38.77,39.03|Z|56; Wetlands|N|At Damon Baelor.|
