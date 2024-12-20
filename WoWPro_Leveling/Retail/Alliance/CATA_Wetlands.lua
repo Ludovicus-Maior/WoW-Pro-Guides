@@ -170,7 +170,7 @@ C For Peat's Sake|QID|25939|M|63.43,33.10|Z|56; Wetlands|N|Stand in the fire and
 C The Threat of Flame|QID|25927|M|56.74,29.50|Z|56; Wetlands|N|Kill Rampant Fire Elementals.|US|
 T The Threat of Flame|QID|25927|M|56.48,40.39|Z|56; Wetlands|N|To Rethiel the Greenwarden.|
 T For Peat's Sake|QID|25939|M|56.48,39.95|Z|56; Wetlands|N|To Ferilon Leafborn.|
-A Longbraid the Grim|QID|26196|PRE|25939|M|56.48,39.95tlands|N|From Ferilon Leafborn
+A Longbraid the Grim|QID|26196|PRE|25939|M|56.48,39.95|Z|56; Wetlands|N|From Ferilon Leafborn
 f Dun Modr|QID|26196|M|49.98,18.58|Z|56; Wetlands|N|At Caleb Baelor.|
 T Longbraid the Grim|QID|26196|M|49.88,18.36|Z|56; Wetlands|N|To Longbraid the Grim.|
 A Anvilmar the Hero|QID|26327|LEAD|26127|M|49.88,18.36|Z|56; Wetlands|N|From Longbraid the Grim.|
