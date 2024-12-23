@@ -101,16 +101,14 @@ A Learning the Ropes|QID|27000|M|48.12,32.45|Z|22;Western Plaguelands|N|From Nat
 A Too Close for Comfort|QID|27013|M|48.35,31.84|Z|22;Western Plaguelands|N|From Kelly Dumah.|
 C Too Close for Comfort|QID|27013|M|51.00,27.75|Z|22;Western Plaguelands|N|Hunt down those Rabid Foxes.|
 T Too Close for Comfort|QID|27013|M|48.49,32.00|Z|22;Western Plaguelands|N|To Kelly Dumah.|
-A Redpine Thievery|QID|27011|PRE|27013|M|48.49,32.00|Z|22;Western Plaguelands|N|From Kelly Dumah.|S|
 A A Gnoll's Resolve|QID|27012|PRE|27013|M|48.49,32.00|Z|22;Western Plaguelands|N|From Kelly Dumah.|
-A Redpine Thievery|QID|27011|PRE|27013|M|48.49,32.00|Z|22;Western Plaguelands|N|From Kelly Dumah.|US|
+A Redpine Thievery|QID|27011|PRE|27013|M|48.49,32.00|Z|22;Western Plaguelands|N|From Kelly Dumah.|
 C Learning the Ropes|QID|27000|M|47.67,31.80;45.33,35.73|CS|Z|22;Western Plaguelands|N|Hop on a charger, run into a group of spiders and use Ability 1 to scare them away.|NC|
 C A Gnoll's Resolve|QID|27012|S|M|49.71,42.20|Z|22;Western Plaguelands|N|Kill and loot Redpine Gnolls and Shamwns until you have 6 Repine Clubs and Staves.|
 C Redpine Thievery|QID|27011|M|49.76,42.09|Z|22;Western Plaguelands|N|They look like stacks of three sparkling logs.|NC|
 C A Gnoll's Resolve|QID|27012|US|M|49.71,42.20|Z|22;Western Plaguelands|N|Finish killing Gnolls for the needed loot.|
-T Redpine Thievery|QID|27011|M|48.41,32.11|Z|22;Western Plaguelands|N|To Kelly Dumah.|S|
 T A Gnoll's Resolve|QID|27012|M|48.41,32.11|Z|22;Western Plaguelands|N|To Kelly Dumah.|
-T Redpine Thievery|QID|27011|M|48.41,32.11|Z|22;Western Plaguelands|N|To Kelly Dumah.|US|
+T Redpine Thievery|QID|27011|M|48.41,32.11|Z|22;Western Plaguelands|N|To Kelly Dumah.|
 T Learning the Ropes|QID|27000|M|48.13,32.44|Z|22;Western Plaguelands|N|To Nathaniel Dumah.|
 A This Means WAR (Wild Arachnid Roundup)|QID|27001|PRE|27000|M|48.13,32.44|Z|22;Western Plaguelands|N|From Nathaniel Dumah.|
 C This Means WAR (Wild Arachnid Roundup)|QID|27001|M|47.95,33.53|Z|22;Western Plaguelands|N|Use the whinny to herd spiders back to the mill.|NC|
