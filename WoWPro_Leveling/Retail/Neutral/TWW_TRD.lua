@@ -142,9 +142,9 @@ C New Candle, New Hope|ACTIVE|78642|SO|1|N|Apply the kobold costume.|EAB|
 C New Candle, New Hope|ACTIVE|78642|SO|2|N|Click on the candles to put them out, avoiding the see invis mobs.|
 C New Candle, New Hope|ACTIVE|78642|SO|3|M|41.51,39.00|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Waximus.|EAB|
 C New Candle, New Hope|ACTIVE|78642|SO|4|M|41.51,39.00|Z|2304;Darkflame Cleft|N|Reapply your disguise and head to the throne room.|BUFF|430738|
-C New Candle, New Hope|ACTIVE|78642|SO|4|M|41.47,81.12|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Dripear the Waxy and loot the keys.|
-C New Candle, New Hope|ACTIVE|78642|SO|5|N|Open the treasure chests to get the crown.|
-C New Candle, New Hope|ACTIVE|78642|SO|6|N|Talk to Skitter to leave.|CHAT|
+C New Candle, New Hope|ACTIVE|78642|SO|5|M|41.47,81.12|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Dripear the Waxy and loot the keys.|
+C New Candle, New Hope|ACTIVE|78642|SO|6|N|Open the treasure chests to get the crown.|
+C New Candle, New Hope|ACTIVE|78642|SO|7|N|Talk to Skitter to leave.|CHAT|
 C New Candle, New Hope|QID|78642|QO|2|CHAT|Z|2304; DarkFlame Cleft|N|Candle Crown Retrieved.|
 T New Candle, New Hope|QID|78642|M|61.53,32.01|Z|2214; The Ringing Deeps|N|To Skitter.|
 A Back to Gundargaz|QID|80082|PRE|78642|M|61.53,32.01|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
