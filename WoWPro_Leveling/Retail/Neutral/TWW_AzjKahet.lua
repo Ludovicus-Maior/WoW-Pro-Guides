@@ -239,9 +239,10 @@ C Kaheti Hospitality|QID|78244|M|45.93,81.86|Z|2274|QO|3|NC|N|Escape from The Bu
 T Kaheti Hospitality|QID|78244|M|60.58,68.86|Z|2255;Azj-Kahet|N|To Anduin Wrynn.|
 A What We Still Have|QID|78248|M|60.63,68.85|Z|2255;Azj-Kahet|N|From Alleria Windrunner.|
 A A Fin of Every Kind|QID|79710|M|60.03,66.18|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
-l Familiar-Looking Appendage|ACTIVE|79710|AVAILABLE|79711|L|214504|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill Gutter Scarfer's and loot Familiar-Looking Appendage.|RANK|2|
+;In patch 11.0.7 Blizzard have changed  "That's Pretty Gross" to now be started directly from the item on the ground
+;l Familiar-Looking Appendage|ACTIVE|79710|AVAILABLE|79711|L|214504|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill Gutter Scarfer's and loot Familiar-Looking Appendage.|RANK|2|
 C A Fin of Every Kind|QID|79710|M|55.84,69.45|Z|2255;Azj-Kahet|N|Kill and loot the things in and around the bond to fill the sack.|
-;A That's Pretty Gross|QID|79711|M|56.24,70.54|Z|2255;Azj-Kahet|N|From Adolchomper.|RANK|2|O|U|214504|
+A That's Pretty Gross|QID|79711|M|59.7 69.2|Z|2255;Azj-Kahet|N|From  Familiar-Looking Appendage. Lying on the bottom of the pool.|RANK|2|
 T A Fin of Every Kind|QID|79710|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 T That's Pretty Gross|QID|79711|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 A Moonlight Gutter Swim|QID|79713|M|59.96,66.12|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
