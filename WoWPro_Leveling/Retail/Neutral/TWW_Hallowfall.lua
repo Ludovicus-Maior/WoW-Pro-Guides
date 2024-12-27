@@ -186,7 +186,7 @@ A Lights Out|QID|78686|M|49.14,41.09|Z|2215;Hallowfall|N|From Aegor Irynbawnd.|R
 T To Mereldar|QID|78607|M|43.42,48.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A The Bastion of Hallowfall|QID|78613|M|43.39,48.64|Z|2215;Hallowfall|N|From General Steelstrike.|
 C The Bastion of Hallowfall|QID|78613|M|42.67,55.70|Z|2215;Hallowfall|QO|1|NC|N|Meet Faerin, Anduin, and Alleria at Empire's Edge Inn.|
-B The Bastion of Hallowfall|ACTIVE|78613|M|42.77,55.80|Z|2215;Hallowfall|QO|2|N|Go to the innkeeper top left item he sells is `a round of drinks`.|
+B The Bastion of Hallowfall|ACTIVE|78613|M|42.77,55.80|Z|2215;Hallowfall|QO|2|N|Go to the innkeeper top left item she sells is `a round of drinks`.|
 C The Bastion of Hallowfall|QID|78613|M|42.72,55.69|Z|2215;Hallowfall|QO|3|H|N|Hand out the Drinks.|
 T The Bastion of Hallowfall|QID|78613|M|42.72,55.69|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A Nightwatch|QID|79297|M|42.72,55.69|Z|2215;Hallowfall|N|From Alleria Windrunner.|
