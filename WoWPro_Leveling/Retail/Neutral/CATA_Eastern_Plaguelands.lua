@@ -26,9 +26,8 @@ F The Menders' Stead|QID|27683|M|42.8,85|Z|22;Western Plaguelands|N|Head to The 
 A Into the Woods|QID|27683|M|48.93,54.73|Z|22;Western Plaguelands|N|From Adrine Towhide.|LEAD|27367|
 R Thondroril River |QID|27683|M|9.02,66.52|Z|23;Eastern Plaguelands|N|Run east along the road to Thondroril River, then cross the bridge and into Eastern Plaguelands.\n\nIf you have previously been to Eastern Plaguelands and obtained the flightpoint, or if you have a flying mount, you can fly there instead of running.|ACTIVE|27683|LEAD|28577^28578^27684|
 T Into the Woods|QID|27683|M|9.02,66.52|Z|23;Eastern Plaguelands|N|To Fiona.|ACTIVE|27683|
-A Tarenar Sunstrike|QID|27370|M|9.02,66.52|Z|23;Eastern Plaguelands|N|From Fiona.|S|
 A Gidwin Goldbraids|QID|27367|M|9.02,66.52|Z|23;Eastern Plaguelands|N|From Fiona.|
-A Tarenar Sunstrike|QID|27370|M|9.02,66.52|Z|23;Eastern Plaguelands|N|From Fiona.|US|
+A Tarenar Sunstrike|QID|27370|M|9.02,66.52|Z|23;Eastern Plaguelands|N|From Fiona.|
 f Thondroril River|QID|27367|M|10.02,65.70|Z|23;Eastern Plaguelands|N|Get flightpoint with Frax Bucketdrop.|
 T Gidwin Goldbraids|QID|27367|M|4.16,36.16|Z|23;Eastern Plaguelands|N|To Gidwin Goldbraids.|
 A Just Encased|QID|27368|PRE|27367|M|4.17,36.13|Z|23;Eastern Plaguelands|N|From Gidwin Goldbraids.|
