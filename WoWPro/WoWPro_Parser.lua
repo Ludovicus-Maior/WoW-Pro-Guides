@@ -95,13 +95,13 @@ function WoWPro.GetQuestInfo(QuidList)
     end
     if not tonumber(QuidList) then
         local result = WoWPro:QIDsInTable(QuidList,WoWPro.QuestLog, false, "GetQuestInfo")
-        if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): %s", QuidList, WoWPro.Ptable(result)); end
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): %s", tostring(QuidList), WoWPro.Ptable(result)); end
         return result
     end
     local mapID = _G.C_Map.GetBestMapForUnit("player")
     if _G.C_QuestLine and tonumber(QuidList) and mapID then
         local result = _G.C_QuestLine.GetQuestLineInfo(tonumber(QuidList), mapID)
-        if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): C_QuestLine.GetQuestLineInfo=%s", QuidList, WoWPro.Ptable(result)); end
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): C_QuestLine.GetQuestLineInfo=%s", tostring(QuidList), WoWPro.Ptable(result)); end
         return result
     end
     if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): NIL", QuidList); end
