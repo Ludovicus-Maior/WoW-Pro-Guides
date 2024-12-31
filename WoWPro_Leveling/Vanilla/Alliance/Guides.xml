@@ -13,7 +13,7 @@
 	<Script file="14_24_Dungeon_Deadmines.lua"/>
 	<!--<Script file="15_24_Dungeon_Wailing_Caverns.lua"/>-->
 	<Script file="21_30_Dungeon_Blackfathom.lua"/>
-	<!--<Script file="22_30_Dungeon_The_Stockade.lua"/>-->
+	<Script file="22_30_Dungeon_The_Stockade.lua"/>
 	<!--<Script file="25_34_Dungeon_Razorfen_Kraul.lua"/>-->
 	<!--<Script file="25_38_Dungeon_Gnomeregan.lua"/>-->
 	<!--<Script file="26_45_Dungeon_Scarlet_Monastery.lua"/>-->

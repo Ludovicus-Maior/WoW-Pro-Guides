@@ -234,7 +234,7 @@ C The Sleeper Has Awakened|QID|5321|QO|1|M|44.38,76.31|N|Loot the Horn of awaken
 C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|1440;Ashenvale|N|Kerlonian will follow you at your pace. He will announce when he is falling asleep. Move close to him and use the horn to wake him up. Get to the road and travel south.\nYou'll face two ambushes, both will consist of three Twilight mobs. He will announce when these ambushes are about to happen. You can avoid the ambushes by not taking the road and sticking to the hills instead.|U|13536|
 T One Shot.  One Kill.|QID|5713|M|26.60,36.72|Z|1440;Ashenvale|N|From Sentinel Onaeya at Maestra's Post.|
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|1440;Ashenvale|N|To Liladris Moonriver.|
-T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|1440;Ashenvale|N|{fix coords and note}Do not get followup.|
+T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|1440;Ashenvale|N|Do not get followup.|
 T Therylune's Escape|QID|945|M|22.65,51.92|Z|1440;Ashenvale|N|To Therysil at the Shrine of Aessina.|
 f Astranaar|AVAILABLE|741|M|25.53,38.73;26.17,46.43;34.41,47.99|CC|Z|1440;Ashenvale|N|Get the flight path while you're here.|
 F Auberdine|AVAILABLE|741|N|Fly back to turn in quests, repair and sell.|
@@ -267,7 +267,7 @@ N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes preci
 C Mathystra Relics|QID|951|QO|1|M|59.55,15.66|N|Look for the relics on the ground in the area of the Ruins of Mathystra.|US|NC|
 H Auberdine|ACTIVE|4763|N|Hearth or run back to Auberdine.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
-A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
+A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|DUNGEON|
 T Fruit of the Sea|QID|1138|M|36.10,44.93|N|To Gubber Blump.|
 F Rut'theran Village|ACTIVE|951|M|36.34,45.58|N|Time to head back to Darnassus to do your professions, bank, repair, sell. If you're level 20, be sure to visit your trainer.|
 R Darnassus|ACTIVE|951|M|55.88,89.55|Z|1438;Teldrassil|
@@ -277,18 +277,18 @@ L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|If you haven't gotten th
 N Next steps|QID|942|N|At this point, you should be done with every quest in the zone. The guide from this point will direct you on how to travel to Ironforge to turn in the Prospector and Powers Below quests. If you are already 20+ and do not wish to go to Ironforge yet you can finish the guide here and move to Ashenvale.|
 H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly back to Auberdine.|
 b Wetlands|ACTIVE|942|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
-f Menethil Harbor|ACTIVE|942|M|9.48,59.68|Z|1437;Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
+f Menethil Harbor, Wetlands|ACTIVE|942|M|9.48,59.68|Z|1437;Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
 T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|1437;Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
 F Ironforge|AVAILABLE|971|N|Fly to Ironforge|TAXI|Ironforge|
 N Heading to Stormwind|QID|968|N|From here we need to get to Ironforge and on to Stormwind City to grab the FPs for the other major cities and turn in a quest (if you found the book). You can follow the next steps to get there relatively quickly.|TAXI|-Ironforge|
-R Harbor Docks|AVAILABLE|971|M|5.1,63.4|CC|N|Get on the boat for Theramore|TAXI|-Ironforge|
+R Harbor Docks|AVAILABLE|971|M|5.1,63.4|CC|Z|1437;Wetlandsw|N|Get on the boat for Theramore|TAXI|-Ironforge|
 R Dun Morogh|AVAILABLE|971|M|32.0,6.4;17.7,16.4|CS|Z|1426;Dun Morogh|N|Wait for the boat to set off, when it comes alongside land jump off and swim to shore.\nRun west along the coast until you arrive at the small bay visible on the Dun Morogh map.\nHead towards the shore in the bay until you see your zone change to Dun Morogh.|TAXI|-Ironforge|
 R Kharanos|AVAILABLE|971|M|17.9,17|Z|1426;Dun Morogh|CN|N|Head into the water and whilst ensuring you are still in the Dun Morogh zone drown yourself|TAXI|-Ironforge|
 R Ironforge|AVAILABLE|971|M|47.40,41.80;54.2,34.40|CS|N|Head out of Kharanos and up the hill towards Ironforge (you do not need to resurrect at the Spirit Healer)|TAXI|-Ironforge|
 R Deeprun Tram|AVAILABLE|971|M|78.20,52.00|N|Take a right once inside Ironforge and zone into the Deeprun Tram to resurrect yourself|TAXI|-Ironforge|
 f Ironforge|AVAILABLE|971|M|55.49,47.72|Z|1455;Ironforge|N|run back into Ironforge and grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
 T The Powers Below|QID|968|M|50.82,5.66|Z|1455;Ironforge|N|To Gerrig Bonegrip.|
-A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|1455;Ironforge|ELITE|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
+A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|1455;Ironforge|DUNGEON|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 R Deeprun Tram|AVAILABLE|343|M|76.83,51.28|Z|1455;Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|AVAILABLE|343|N|Take the tram ride and then run into Stormwind.|
 f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|1453;Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
