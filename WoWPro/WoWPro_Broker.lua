@@ -1243,6 +1243,7 @@ if step then
 
         -- Retrieve additional player information
         local _, class = _G.UnitClass("player")
+        local _, race = _G.UnitRace("player")
         class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
         local level = _G.UnitLevel("player")
         local version = _G.C_AddOns.GetAddOnMetadata("WoWPro", "Version")
@@ -1258,6 +1259,7 @@ if step then
         text = text .. "\n|cffffff00Player Info:|r\n"
         text = text .. "Character Name: " .. playerName .. "\n"
         text = text .. "Class: " .. class .. "\n"
+        text = text .. "Race: " .. race .. "\n"
         text = text .. "Level: " .. level .. "\n"
         text = text .. "Realm: " .. realmName .. "\n"  -- Add the player's realm name
         text = text .. "Addon Version: " .. version .. "\n"
