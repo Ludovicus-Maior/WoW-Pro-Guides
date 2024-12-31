@@ -10,6 +10,7 @@
 * Cata Leveling Alliance: Blasted Lands, Swamp of Sorrows, Dwarf/Gnome Intro
 * Retail Leveling Alliance:  Hinterlands, Loch Modan, Western Plaguelands, Wetlands
 * Retail Leveling Neutral: Eastern Plaguelands, Azj-Kahet, Fate of the Kirin Tor, Hallowfall, TWW Max Campaign, Siren Isle, TRD
+* Retail World Events: Guest Relations
 
 
 # Release 2024.12.18.A
