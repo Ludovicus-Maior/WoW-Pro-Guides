@@ -73,7 +73,7 @@ T A Bump in the Road|QID|1175|M|81.63,77.95|Z|1441; Thousand Needles|N|To Trackm
 T Load Lightening|QID|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|To Pozzik.|
 A Goblin Sponsorship|QID|1178|PRE|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|
 T Hardened Shells|QID|1105|M|78.14,77.13|Z|1441; Thousand Needles|N|To Wizzle Brassbolts.|
-T Salt Flat Venom|QID|1104|M|78.07,77.13Z|1441; Thousand Needles||N|To Fizzle Brassbolts.\n[color=FF0000]NOTE: [/color]Don't get follow-up.|
+T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles||N|To Fizzle Brassbolts.\n[color=FF0000]NOTE: [/color]Don't get follow-up.|
 T Rocket Car Parts|QID|1110|M|77.79,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
 A Wharfmaster Dizzywig|QID|1111|M|77.79,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
 A Hemet Nesingwary|QID|5762|M|77.79,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
@@ -338,7 +338,7 @@ T Costly Menace|QID|564|M|52.4,56.0|Z|1424; Hillsbrad Foothills|N|To Darren Malv
 T Bartolo's Yeti Fur Cloak|QID|565|M|49.43,55.54|Z|1424; Hillsbrad Foothills|N|To Bartolo Ginsetti.|
 
 F Menethil Harbor|QID|1249|PRE|1248|M|49.34,52.28|Z|1424; Hillsbrad Foothills|N|Fly to Menethil Harbor on the way to Ironforge to do more Missing Diplomat.|
-A The Missing Diplomat|QID|1249PRE|1248||M|10.61,60.77|Z|1437; Wetlands|N|From Mikhail. When you accept this quest Tapoke Jahn will immediatly stealth and make his way out the door to escape. Be ready for a fight.|
+A The Missing Diplomat|QID|1249|PRE|1248||M|10.61,60.77|Z|1437; Wetlands|N|From Mikhail. When you accept this quest Tapoke Jahn will immediatly stealth and make his way out the door to escape. Be ready for a fight.|
 C The Missing Diplomat|QID|1249|QO|1|M|10.61,60.77|Z|1437; Wetlands|N|Run out and attack Tapoke Jahn now! He is stealthed trying to escape.|
 T The Missing Diplomat|QID|1249|M|10.61,60.77|Z|1437; Wetlands|N|To Mikhail.|
 A The Missing Diplomat|QID|1250|PRE|1249|M|10.61,60.77|Z|1437; Wetlands|N|From Tapoke "Slim" Jahn.|
@@ -631,7 +631,7 @@ C The Lost Caravan|QID|1421|M|64.47,18.30|Z|1435; Swamp of Sorrows|NC|N|Click th
 A Galen's Escape|QID|1393|M|65.4,18.2|Z|1435; Swamp of Sorrows|N|From Galen Goodward. Advise clearing the 'lost ones' camp to the sw before you start the quest.|
 C Galen's Escape|QID|1393|M|53.05,29.62|Z|1435; Swamp of Sorrows|N|Let Galen During take the lead (so he has first agro and will stop), but don't let him die.|
 T Galen's Escape|QID|1393|M|47.80,39.75|Z|1435; Swamp of Sorrows|N|After he fades out, proceed to the strongbox for your reward.|
-K Noboru|AVAILABLE|1392|M|46.70,39.40|Z|1435; Swamp of Sorrows|L|6196|ITEM|N|Noboru the Cudgel.\n[color=FF0000]NOTE: [/color]Keep the island where you picked up the strongbox clear and he should wander by pretty soon.|T|Noboru the Cudgel|RANK|2|
+K Noboru|AVAILABLE|1392|M|46.70,39.40|Z|1435; Swamp of Sorrows|L|6196|ITEM|6196|N|Noboru the Cudgel.\n[color=FF0000]NOTE: [/color]Keep the island where you picked up the strongbox clear and he should wander by pretty soon.|T|Noboru the Cudgel|RANK|2|
 A Noboru the Cudgel|QID|1392|M|46.70,39.40|Z|1435; Swamp of Sorrows|N|Right-click the Cudgel to start the quest.|U|6196|O|
 T Draenethyst Crystals|QID|1389|M|26,31.4|Z|1435; Swamp of Sorrows|N|To Magtoor.|
 T Noboru the Cudgel|QID|1392|M|26,31|Z|1435; Swamp of Sorrows|N|To Magtoor.|
@@ -836,7 +836,7 @@ N Zamek's Distraction|QID|1191|ACTIVE|1190|M|79.81,77.03|Z|1441; Thousand Needle
 T Keeping Pace|QID|1190|M|77.20,77.39|Z|1441; Thousand Needles|N|To Rizzle's Unguarded Plans.|
 A Rizzle's Schematics|QID|1194|PRE|1190|M|77.20,77.39|Z|1441; Thousand Needles|N|From Rizzle's Unguarded Plans.|
 T Rizzle's Schematics|QID|1194|M|80.18,75.88|Z|1441; Thousand Needles|N|To Pozzik.|
-R Tanaris|ACTIVE|1188|51.27,21.10|Z|1446; Tanaris|N|Run south to Tanaris.|
+R Tanaris|ACTIVE|1188|M|51.27,21.10|Z|1446; Tanaris|N|Run south to Tanaris.|
 T Safety First|QID|1188|M|50.96,27.24|Z|1446; Tanaris|N|To Shreev.|
 A Safety First|QID|1189|PRE|1188|M|50.96,27.24|Z|1446; Tanaris|N|From Shreev.|
 R The Shimmering Flats|QID|1189|M|75.51,97.69|Z|1441; Thousand Needles|N|Return to Thousand Needles.|
