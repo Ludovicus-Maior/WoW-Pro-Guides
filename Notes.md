@@ -1,3 +1,17 @@
+# Release 2024.12.31.A
+## Bug Fixes
+* Hendo: Debug mode glitch in GetQuestInfo()
+* Siren Isle zone update
+* Add race to Player Info report
+* Label "End Game" guides
+## Guide Updates
+* Vanilla Leveling Alliance: Teldrassil 01-12, Darkshore 12-20, Alliance 19-25 & 30-41, The Stockades
+* Vanilla Leveling Horde: Hendo 15-21 and Chapter 1
+* Cata Leveling Alliance: Blasted Lands, Swamp of Sorrows, Dwarf/Gnome Intro
+* Retail Leveling Alliance:  Hinterlands, Loch Modan, Western Plaguelands, Wetlands
+* Retail Leveling Neutral: Eastern Plaguelands, Azj-Kahet, Fate of the Kirin Tor, Hallowfall, TWW Max Campaign, Siren Isle, TRD
+
+
 # Release 2024.12.18.A
 ## Bug Fixes
 *  None!
