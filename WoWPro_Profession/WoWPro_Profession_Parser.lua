@@ -85,7 +85,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 										MatsQty = 0
 									end
 									local MatsItemLink
-									if _G.GetItemInfo(MatsItem) then
+									if WoWPro.C_Item_GetItemInfo(MatsItem) then
 										MatsItemLink = ('[item='..tostring(MatsItem)..'/'..WoWPro.C_Item_GetItemInfo(MatsItem)..']')  -- recreate item num/name info
 									else
 										-- TODO: MatsItem is bad, complain here.
@@ -129,7 +129,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 								WoWPro.note[k] = WoWPro.note[k]..'\nMaterial '..(j)..': '
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
 									local MatsItemLink
-									if _G.GetItemInfo(MatsItem) then
+									if WoWPro.C_Item_GetItemInfo(MatsItem) then
 										MatsItemLink = ('[item='..tostring(MatsItem)..'/'..WoWPro.C_Item_GetItemInfo(MatsItem)..']')  -- recreate item num/name info
 									else
 										-- TODO: MatsItem is bad, complain here.
