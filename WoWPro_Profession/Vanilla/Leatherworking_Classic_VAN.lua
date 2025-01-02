@@ -61,7 +61,7 @@ M [item=5961/Dark Leather Pants]|QID|165007135|P|Leatherworking;165;0+150;1|ITEM
 = Learn Recipe|QID|165001502|P|Leatherworking;165;0+150|RECIPE|3818|N|Learn [spell=3818] recipe, from Trainer.|
 = Learn Recipe|QID|165001503|P|Leatherworking;165;0+150|RECIPE|3780|N|Learn [spell=3780] recipe, from Trainer.|
 M [item=4234/Heavy Leather]|QID|165020649|P|Leatherworking;165;0+155;1|ITEM|4234|CRAFT|20649 7|MATS|2319 5|
-M [item=4236/Cured Heavy Hide]|QID|165003818|P|Leatherworking;165;0+165;1|ITEM|4236|CRAFT|3818 20|MATS|4235 1;4289 3|N|If you don't have any [item=4234/Heavy Leather] click off this step.|
+M [item=4236/Cured Heavy Hide]|QID|165003818|P|Leatherworking;165;0+165;1|ITEM|4236|CRAFT|3818 20|MATS|4235 1;4289 3|N|If you don't have any [item=4235/Heavy Hide] click off this step.|
 = Learn Recipe|QID|165001601|P|Leatherworking;165;0+160|RECIPE|7147|N|Learn [spell=7147] recipe, from Trainer.|
 M [item=4265/Heavy Armor Kit]|QID|165003780|P|Leatherworking;165;0+180;1|ITEM|4265|CRAFT|3780 35|MATS|4234 5;2321 1|
 = Learn Recipe|QID|165001751|P|Leatherworking;165;0+175|RECIPE|7151|N|Learn [spell=7151] recipe, from Trainer.|
