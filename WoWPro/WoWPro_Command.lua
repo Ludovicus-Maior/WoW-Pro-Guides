@@ -142,24 +142,20 @@ local function handler(msg, editbox)
             return false
         end
 
-        for i = 1, C_AddOns.GetNumAddOns() do
-            local name, _, _, enabled = C_AddOns.GetAddOnInfo(i)
-    
+        for i = 1, _G.C_AddOns.GetNumAddOns() do
+            local name, _, _, enabled = _G.C_AddOns.GetAddOnInfo(i)
             if enabled and not isAddonKept(name) then
-                C_AddOns.DisableAddOn(name)
+                _G.C_AddOns.DisableAddOn(name)
                 table.insert(WoWProCharDB.disabledAddons, name)
             end
         end
-
-        ReloadUI()
+        _G.ReloadUI()
 
         for _, name in ipairs(WoWProCharDB.disabledAddons) do
-            C_AddOns.EnableAddOn(name)
+            _G.C_AddOns.EnableAddOn(name)
         end
-
         WoWProCharDB.disabledAddons = {}
-        ReloadUI()
-
+        _G.ReloadUI()
     else
         local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devmode]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
         _G.ChatFrame1:AddMessage(text)
