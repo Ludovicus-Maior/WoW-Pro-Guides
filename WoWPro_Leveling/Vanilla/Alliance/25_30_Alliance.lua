@@ -56,19 +56,19 @@ N Stockades Dungeon|QID|469|N|Now is Likely a good time to do stockades, Get [Wh
 N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I suggest a grinding session, because we're about to hit Stormwind and train new skills. Close this step.|LVL|-26|
 
 ; Redridge 26-27
-F Stormwind City|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|Wetlands|
+F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|Wetlands|
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 B Stormwind Seasoning Herbs |QID|90|M|60.07,51.55;64.15,60.60|CS|Z|Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
 N Level Cooking SKill to 50|QID|90|M|75.85,36.96|Z|Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
 t Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
 t A Scroll from Mauren|QID|1075|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
 
-F Redridge Mountains|QID|128|M|70.90,72.60|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
+F Lakeshire|QID|128|M|70.90,72.60|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
 A Blackrock Bounty|QID|128|M|31.54,57.86|N|From Guard Howe.|Z|Redridge Mountains|
 A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.|Z|Redridge Mountains|
 A Howling in the Hills|QID|126|M|30.96,47.27|N|From Verner Osgood.|PRE|124|Z|Redridge Mountains|
 T Messenger to Darkshire|QID|146|M|29.99,44.44|N|To Magistrate Solomon.|Z|Redridge Mountains|
-h Lakeshire|QID|126|M|27.97,44.96|N|Set your hearthstone at Innkeeper Brianna|Z|Redridge Mountains|
+h Lakeshire|QID|126|M|27.97,44.93|N|Set your hearthstone at Innkeeper Brianna|Z|Redridge Mountains|
 A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|Z|Redridge Mountains|
 C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|Z|Redridge Mountains|
 T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|Z|Redridge Mountains|
