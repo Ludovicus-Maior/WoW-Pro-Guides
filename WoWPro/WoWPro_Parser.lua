@@ -124,7 +124,7 @@ function WoWPro.GetQuestIconOffer(QID)
     local quest_info = WoWPro.GetQuestInfo(QID)
     if not quest_info then
         local result = WoWPro.OfferIcons["default"]
-        if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): NIL default=%s", QID, result); end
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): NIL default=%s", QID or "No Quest ID", result); end
         return result, "Ordinary"
     end
     for flag, icon in pairs(WoWPro.OfferIcons) do
