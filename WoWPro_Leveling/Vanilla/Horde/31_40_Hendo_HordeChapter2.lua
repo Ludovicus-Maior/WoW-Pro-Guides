@@ -236,8 +236,7 @@ R Ghost Walker Post|ACTIVE|1362|M|58.58,56.93|Z|Desolace|
 T The Kolkar of Desolace|QID|1362|M|56.19,59.57|Z|Desolace|N|To Felgur Twocuts.|
 A Khan Dez'hepah|QID|1365|M|56.19,59.57|Z|Desolace|N|From Felgur Twocuts.|
 N Gelkis or Magram|AVAILABLE|1367&1368|N|At this point in time, you need to decide which clan are you going to earn rep for.\nTo earn rep for the Gelkis Clan, you need to kill Magram Clan Centaurs and vice-versa.\n[color=FF0000]NOTE: [/color]Unless you are going after a specific reward item, Gelkis Clan is much easier to do.\nIt is possible to do both chains.|
-; --- Space intentionally added to break auto-accept.
-A Magram Alliance |QID|1367|ACTIVE|-1368|AVAILABLE|1368|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.\n[color=FF0000]NOTE: [/color]If you are choosing the Gelkis Clan, skip this step and accept the Gelkis quest.|
+A Magram Alliance|QID|1367|ACTIVE|-1368|AVAILABLE|1368|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.\n[color=FF0000]NOTE: [/color]If you're choosing the Gelkis Clan, skip this step to continue.|NA|
 A Gelkis Alliance|QID|1368|ACTIVE|-1367|M|56.29,59.68|Z|Desolace|N|From Gurda Wildmane.|
 T Family Tree|QID|5361|M|55.41,55.80|Z|Desolace|N|To Nataka Longhorn.|
 A Catch of the Day|QID|5386|M|55.41,55.80|Z|Desolace|N|From Nataka Longhorn.|
@@ -289,19 +288,20 @@ F Shadowprey Village|QID|1366|M|45.50,63.84|Z|Orgrimmar|N|Once you're done whate
 l Shellfish|AVAILABLE|5421|ACTIVE|5386|L|13545 10|N|Drop into the water and look for cages on the ocean floor. Open these to collect Shellfish. Jinar'Zillen will trade 5 of these Shellfish for 1 Bloodybelly fish.\n[color=FF0000]NOTE: [/color]If you do not have a means of breathing underwater, locate one of the small, bubbling fissures and use it to restore your breath.\nAlso, be aware that a Drysnap Crawler may spawn and attack you when you open the trap.|
 T Fish in a Bucket|QID|5421|M|22.46,73.11|Z|Desolace|N|To Jinar'Zillen on the pier.\nThis is a repeatable quest and you'll have to turn it in at least twice.|L|13546 2|NOCACHE|
 C Centaur Bounty|QID|1366|N|Kill Centaurs and loot their ears.|S|
-R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|Desolace|N|Follow the road out of Shadowprey Village. The village is on the south side of the road.|
-K Gelkis Clan Centaurs|ACTIVE|1368|N|Kill Gelkis Clan Centaurs until have reached Friendly status (3,000 rep) with the Magram Clan.\nIt'll take about 50 kills to reach it.|REP|Magram Clan Centaur;93;neutral|
-R Magram Village|ACTIVE|1367|M|67.20,66.19|Z|Desolace|N|Follow the road out of Shadowprey Village as far east as it goes. The village is on the south side of the road.|
-K Magram Clan Centaurs|ACTIVE|1367|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\nIt'll take about 50 kills to reach it.|REP|Gelkis Clan Centaur;92;friendly|
+R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|Desolace|N|Follow the road out of Shadowprey Village.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|
+K Gelkis Clan Centaurs|ACTIVE|1368|N|Kill Gelkis Clan Centaurs until have reached Friendly status (3,000 rep) with the Magram Clan.\n[color=FF0000]NOTE: [/color]It'll take about 50 kills to reach it.|REP|Magram Clan Centaur;93;neutral|
+R Magram Village|ACTIVE|1367|M|67.20,66.19|Z|Desolace|N|Follow the road out of Shadowprey Village as far east as it goes.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|
+K Magram Clan Centaurs|ACTIVE|1367|N|Kill Magram Clan Centaurs until have reached Friendly status (3,000 rep) with The Gelkis Clan.\n[color=FF0000]NOTE: [/color]It'll take about 50 kills to reach it.|REP|Gelkis Clan Centaur;92;friendly|
 C Centaur Bounty|QID|1366|N|Continue killing Centaurs and looting their ears until done.|US|
 T Centaur Bounty|QID|1366|M|56.20,59.55|Z|Desolace|N|To Felgur Twocuts.|
-R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|Desolace|N|Follow the road out of Ghost Walker Post and go west at the intersection. The village is on the south side of the road.|REP|Gelkis Clan Centaur;92;friendly|
+; ** Gelkis quest chain
+R Gelkis Village|ACTIVE|1368|M|36.64,77.13|Z|Desolace|N|Follow the road out of Ghost Walker Post and go west at the intersection.\n[color=FF0000]NOTE: [/color]The village is on the south side of the road.|REP|Gelkis Clan Centaur;92;friendly|
 T Gelkis Alliance|QID|1368|M|36.24,79.25|Z|Desolace|N|To Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
-A Stealing Supplies|QID|1370|M|36.24,79.25|Z|Desolace|N|From Uthek the Wise.|PRE|1368|REP|Gelkis Clan Centaur;92;friendly|
+A Stealing Supplies|QID|1370|PRE|1368|M|36.24,79.25|Z|Desolace|N|From Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
 R Magram Village|ACTIVE|1370|M|67.20,66.19|Z|Desolace|N|Return to Magram Village.|
-l Stealing Supplies|ACTIVE|1370|L|6069 6|N|Loot the yellow bags off the ground near the tents in Magram Village.\n[color=FF0000]NOTE: [/color]There are some bags that are not lootable.|
+C Stealing Supplies|QID|1370|L|6069 6|N|Loot the yellow bags off the ground near the tents in Magram Village.\n[color=FF0000]NOTE: [/color]There are some bags that are not lootable.|
 T Stealing Supplies|QID|1370|M|36.24,79.24|Z|Desolace|N|To Uthek the Wise.|
-A Ongeku|QID|1373|M|36.24,79.20|Z|Desolace|N|From Uthek the Wise.|
+A Ongeku|QID|1373|M|36.24,79.20|Z|Desolace|N|From Uthek the Wise.|REP|Gelkis Clan Centaur;92;friendly|
 R Shadowprey Village|ACTIVE|6143|M|26.50,75.15|Z|Desolace|N|Return to Shadowprey Village.|
 N Shortcut|ACTIVE|6142|N|Instead of running all the way around to get to the shoreline in the north, you are going to swim up from Shadowprey Village.|
 l Clam Bait|ACTIVE|6142|M|45.2,63.8|Z|Desolace|L|15924 10|N|Open Soft-shelled clams to collect the meat.\nYou can get them from opening the Giant Soft Clams on the ocean floor and by killing Drysnap crawlers/pincers. You can also get them from killing the Reef Crawlers.|U|15874|S|
@@ -319,12 +319,12 @@ C Oracle Crystal|ACTIVE|1482|N|Kill Slitherblade Oracles until one drops an Orac
 T Book of the Ancients|QID|6027|M|40.96,29.08;38.88,27.16|Z|Desolace|CC|N|Swim back to shore and climb the ramp to Azore Aldamort at Ethel Rethor.|
 R Kormek's Hut|AVAILABLE|5821|M|60.33,38.11|Z|Desolace|N|Follow the road east to Kormek's Hut.\nYou are going to go and look for Cork Gizelton and his caravan.|
 N Gizelton Caravan|AVAILABLE|5821|N|Depending on where they are, it takes the caravan ~12 minutes (a little longer if someone does the north quest) to travel from the south to the north and another 10 minutes before they leave to start the trip south. If no one accepts the quest after 5 minutes, they continue south where the process starts over for the north escort quest.|
-A Bodyguard for Hire |QID|5821|M|66.55,37.48;67.25,56.55|Z|Desolace|CC|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Cork Gizelton. Escort Cork and his caravan past Kolkar Village. On 3 occasions, 3 Kolkar will spawn (2 fighters and 1 spellcaster).\n[color=FF0000]NOTE: [/color]If Cork isn't here or at Kormek's Hut, wait here until he shows up.\nHe will only offer the quest on the trip south.\nCork will announce to the zone when he's offering the quest.|
-T Bodyguard for Hire |QID|5821|M|60.86,61.88|Z|Desolace|N|Head to Smeed Scrabblescrew at Scrabblescrew's Camp.|
+A Bodyguard for Hire|QID|5821|M|66.55,37.48;67.25,56.55|Z|Desolace|CC|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Cork Gizelton. Escort Cork and his caravan past Kolkar Village. On 3 occasions, 3 Kolkar will spawn (2 fighters and 1 spellcaster).\n[color=FF0000]NOTE: [/color]If Cork isn't here or at Kormek's Hut, wait here until he shows up.\nHe will only offer the quest on the trip south.\nCork will announce to the zone when he's offering the quest.|NA|
+T Bodyguard for Hire|QID|5821|M|60.86,61.88|Z|Desolace|N|Head to Smeed Scrabblescrew at Scrabblescrew's Camp.|
 R Ghost Walker Post|ACTIVE|1482|M|58.59,57.04|Z|Desolace|
 T The Corrupter|QID|1482|M|52.25,53.50|Z|Desolace|N|To Maurin Bonesplitter.|
-A The Corrupter|QID|1484|M|52.25,53.50|Z|Desolace|N|After a brief cinematic, accept the follow-up quest from Maurin Bonesplitter.|PRE|1482|
-T The Corrupter|QID|1484|M|52.57,54.34|Z|Desolace|N|To Takata Steelblade.To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.|
+A The Corrupter|QID|1484|M|52.25,53.50|Z|Desolace|N|From Maurin Bonesplitter, after a brief cinematic.|PRE|1482|
+T The Corrupter|QID|1484|M|52.57,54.34|Z|Desolace|N|To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.|
 R Shadowprey Village|ACTIVE|6142^6143|M|26.50,75.15|Z|Desolace|N|Return to Shadowprey Village.|
 A Hunting in Stranglethorn|QID|5763|M|25.05,72.26|Z|Desolace|N|From Roon Wildmane.|
 T Other Fish to Fry|QID|6143|N|To Drulzegar Skraghook.|
