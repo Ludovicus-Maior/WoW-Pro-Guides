@@ -1,5 +1,5 @@
 -- luacheck: globals date pairs ipairs type issecurevariable print
--- luacheck: globals tostring tinsert
+-- luacheck: globals tostring tinsert table
 
 _G.SLASH_WOWPRO1 = "/wp"
 _G.SLASH_WOWPRO2 = "/wow-pro"
