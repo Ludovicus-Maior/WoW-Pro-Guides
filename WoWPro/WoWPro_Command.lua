@@ -122,6 +122,44 @@ local function handler(msg, editbox)
             end
         end
         _G.ChatFrame1:AddMessage("Blizzard API stored in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua")
+    elseif ltoken == "disable-addons" then
+        local keepEnabled = {
+            "WoWPro",
+            "WoWPro_Leveling",
+            "BugSack",
+            "!BugGrabber",
+            "TomTom",
+        }
+    
+        WoWProCharDB.disabledAddons = {}
+    
+        local function isAddonKept(name)
+            for _, addon in ipairs(keepEnabled) do
+                if name == addon then
+                    return true
+                end
+            end
+            return false
+        end
+    
+        for i = 1, C_AddOns.GetNumAddOns() do
+            local name, _, _, enabled = C_AddOns.GetAddOnInfo(i)
+    
+            if enabled and not isAddonKept(name) then
+                C_AddOns.DisableAddOn(name)
+                table.insert(WoWProCharDB.disabledAddons, name)
+            end
+        end
+    
+        ReloadUI()
+    
+        for _, name in ipairs(WoWProCharDB.disabledAddons) do
+            C_AddOns.EnableAddOn(name)
+        end
+    
+        WoWProCharDB.disabledAddons = {}
+        ReloadUI()
+    
     else
         local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devmode]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
         _G.ChatFrame1:AddMessage(text)
