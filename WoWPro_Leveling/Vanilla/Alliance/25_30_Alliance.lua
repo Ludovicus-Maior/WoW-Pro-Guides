@@ -12,51 +12,51 @@ return [[
 ;This is a rewrite and homogenization of existing 25-30 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 ; Wetlands 25-26
 b Wetlands|QID|299|M|32.42,43.74|Z|Darkshore|N|Take the boat to Menethil from Auberdine.|
-A Reclaiming Goods|QID|281|M|8.3,58.6|N|From Karl Boran.|PRE|279|Z|Wetlands|
-A Apprentice's Duties|QID|471|M|8.49,55.7|N|From James Halloran.|PRE|484|Z|Wetlands|
-A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|Z|Wetlands|
-A Report to Captain Stoutfist|QID|473|M|10.09,56.9|N|From Valstag Ironjaw.|PRE|455|Z|Wetlands|
-T Report to Captain Stoutfist|QID|473|M|9.86,57.48|N|To Captain Stoutfist, On the 2nd floor|Z|Wetlands|
-A War Banners|QID|464|M|9.86,57.48|N|From Captain Stoutfist, On the 2nd floor|Z|Wetlands|
-A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|Wetlands|
-h Deepwater Tavern|QID|299|M|10.7,60.96|N|Make Deepwater Tavern your home location.|Z|Wetlands|
-B Flagon of Dwarven Honeymead|QID|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|Z|Wetlands|
-T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|Wetlands|
-T Reclaiming Goods|QID|281|M|13.51,41.38|N|To the Damaged Crate.|Z|Wetlands|
-A The Search Continues|QID|284|M|13.51,41.38|N|From the Damaged Crate.|PRE|281|Z|Wetlands|
-T The Search Continues|QID|284|M|13.61,38.21|N|To the Sealed Barrel.|Z|Wetlands|
-A Search More Hovels|QID|285|M|13.61,38.21|N|From the Sealed Barrel.|PRE|284|Z|Wetlands|
-T Search More Hovels|QID|285|M|13.94,34.81|N|To the Half-buried Barrel.|Z|Wetlands|
-A Return the Statuette|QID|286|M|13.94,34.81|N|From the Half-buried Barrel.|PRE|285|Z|Wetlands|
-C Blisters on The Land|QID|275|M|20.25,32.1|S|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|Z|Wetlands|
-C Apprentice's Duties|QID|471|M|28.3,19.7|N|Kill Giant Wetlands Crocolisks.|Z|Wetlands|
-C Blisters on The Land|QID|275|M|20.25,32.1|US|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|Z|Wetlands|
-A Uncovering the Past|QID|299|M|34,41;37,43.6;38.81,52.38|CS|N|From Prospector Whelgar.|Z|Wetlands|
-A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|Z|Wetlands|
-C Ormer's Revenge|QID|295|M|35.00,48.00|S|N|Kill the Raptors needed for this quest.|Z|Wetlands|
-C Uncovering the Past|QID|299|M|34,47|QO|2|S|N|From a Large Jug that spawns around.|Z|Wetlands|
-C Uncovering the Past|QID|299|M|37,50|QO|4|S|N|Pile of Dirt. Spawns all around the Excavation.|Z|Wetlands|
-C Uncovering the Past|QID|299|M|33.93,45.76|QO|1|N|From a Stone Box that spawns around this area.|Z|Wetlands|
-C Uncovering the Past|QID|299|M|33.41,51.39|QO|3|N|From a Large Jug near named raptor.|Z|Wetlands|
-C Uncovering the Past|QID|299|M|37,50|QO|4|US|N|Pile of Dirt. Spawns all around the Excavation.|Z|Wetlands|
-C Uncovering the Past|QID|299|M|34,47|QO|2|S|N|From a Large Jug that spawns around.|Z|Wetlands|
-C Ormer's Revenge|QID|295|M|35.00,48.00|US|N|Kill the Raptors needed for this quest.|Z|Wetlands|
-T Ormer's Revenge|QID|295|M|38.1,51.1|N|To Ormer Ironbraid.|Z|Wetlands|
-A Ormer's Revenge|QID|296|M|38.1,51.1|N|From Ormer Ironbraid.|PRE|295|Z|Wetlands|
-T Uncovering the Past|QID|299|M|38.81,52.38|N|To Prospector Whelgar.|Z|Wetlands|
-C Ormer's Revenge|QID|296|M|33.17,51.40|N|Kill Sarltooth at this location.|Z|Wetlands|
-T Ormer's Revenge|QID|296|M|38.1,51.1|N|To Ormer Ironbraid.|Z|Wetlands|
-C War Banners|QID|464|M|43,42|N|Kill the orc mobs here until you get all the banners you need.|Z|Wetlands|
-T Blisters on The Land|QID|275|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|Wetlands|
+A Reclaiming Goods|QID|281|M|8.3,58.6|N|From Karl Boran.|PRE|279|Z|1437; Wetlands|
+A Apprentice's Duties|QID|471|M|8.49,55.7|N|From James Halloran.|PRE|484|Z|1437; Wetlands|
+A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|Z|1437; Wetlands|
+A Report to Captain Stoutfist|QID|473|M|10.09,56.9|N|From Valstag Ironjaw.|PRE|455|Z|1437; Wetlands|
+T Report to Captain Stoutfist|QID|473|M|9.86,57.48|N|To Captain Stoutfist, On the 2nd floor|Z|1437; Wetlands|
+A War Banners|QID|464|M|9.86,57.48|N|From Captain Stoutfist, On the 2nd floor|Z|1437; Wetlands|
+A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|1437; Wetlands|
+h Deepwater Tavern|QID|299|M|10.7,60.96|N|Make Deepwater Tavern your home location.|Z|1437; Wetlands|
+B Flagon of Dwarven Honeymead|QID|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|Z|1437; Wetlands|
+T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|1437; Wetlands|
+T Reclaiming Goods|QID|281|M|13.51,41.38|N|To the Damaged Crate.|Z|1437; Wetlands|
+A The Search Continues|QID|284|M|13.51,41.38|N|From the Damaged Crate.|PRE|281|Z|1437; Wetlands|
+T The Search Continues|QID|284|M|13.61,38.21|N|To the Sealed Barrel.|Z|1437; Wetlands|
+A Search More Hovels|QID|285|M|13.61,38.21|N|From the Sealed Barrel.|PRE|284|Z|1437; Wetlands|
+T Search More Hovels|QID|285|M|13.94,34.81|N|To the Half-buried Barrel.|Z|1437; Wetlands|
+A Return the Statuette|QID|286|M|13.94,34.81|N|From the Half-buried Barrel.|PRE|285|Z|1437; Wetlands|
+C Blisters on The Land|QID|275|M|20.25,32.1|S|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|Z|1437; Wetlands|
+C Apprentice's Duties|QID|471|M|28.3,19.7|N|Kill Giant Wetlands Crocolisks.|Z|1437; Wetlands|
+C Blisters on The Land|QID|275|M|20.25,32.1|US|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|Z|1437; Wetlands|
+A Uncovering the Past|QID|299|M|34,41;37,43.6;38.81,52.38|CS|N|From Prospector Whelgar.|Z|1437; Wetlands|
+A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|Z|1437; Wetlands|
+C Ormer's Revenge|QID|295|M|35.00,48.00|S|N|Kill the Raptors needed for this quest.|Z|1437; Wetlands|
+C Uncovering the Past|QID|299|M|34,47|QO|2|S|N|From a Large Jug that spawns around.|Z|1437; Wetlands|
+C Uncovering the Past|QID|299|M|37,50|QO|4|S|N|Pile of Dirt. Spawns all around the Excavation.|Z|1437; Wetlands|
+C Uncovering the Past|QID|299|M|33.93,45.76|QO|1|N|From a Stone Box that spawns around this area.|Z|1437; Wetlands|
+C Uncovering the Past|QID|299|M|33.41,51.39|QO|3|N|From a Large Jug near named raptor.|Z|1437; Wetlands|
+C Uncovering the Past|QID|299|M|37,50|QO|4|US|N|Pile of Dirt. Spawns all around the Excavation.|Z|1437; Wetlands|
+C Uncovering the Past|QID|299|M|34,47|QO|2|S|N|From a Large Jug that spawns around.|Z|1437; Wetlands|
+C Ormer's Revenge|QID|295|M|35.00,48.00|US|N|Kill the Raptors needed for this quest.|Z|1437; Wetlands|
+T Ormer's Revenge|QID|295|M|38.1,51.1|N|To Ormer Ironbraid.|Z|1437; Wetlands|
+A Ormer's Revenge|QID|296|M|38.1,51.1|N|From Ormer Ironbraid.|PRE|295|Z|1437; Wetlands|
+T Uncovering the Past|QID|299|M|38.81,52.38|N|To Prospector Whelgar.|Z|1437; Wetlands|
+C Ormer's Revenge|QID|296|M|33.17,51.40|N|Kill Sarltooth at this location.|Z|1437; Wetlands|
+T Ormer's Revenge|QID|296|M|38.1,51.1|N|To Ormer Ironbraid.|Z|1437; Wetlands|
+C War Banners|QID|464|M|43,42|N|Kill the orc mobs here until you get all the banners you need.|Z|1437; Wetlands|
+T Blisters on The Land|QID|275|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
 H Deepwater Tavern|QID|464|N|Hearth or run back to town.|
-T War Banners|QID|464|M|9.86,57.48|N|To Captain Stoutfist on the 2nd floor of the keep.|Z|Wetlands|
-T Apprentice's Duties|QID|471|M|8.49,55.7|N|To James Halloran.|Z|Wetlands|
-T Return the Statuette|QID|286|M|8.3,58.6|N|To Karl Boran.|Z|Wetlands|
+T War Banners|QID|464|M|9.86,57.48|N|To Captain Stoutfist on the 2nd floor of the keep.|Z|1437; Wetlands|
+T Apprentice's Duties|QID|471|M|8.49,55.7|N|To James Halloran.|Z|1437; Wetlands|
+T Return the Statuette|QID|286|M|8.3,58.6|N|To Karl Boran.|Z|1437; Wetlands|
 N Stockades Dungeon|QID|469|N|Now is Likely a good time to do stockades, Get [What Comes Around...] from Lakeshire Town hall, [Crime and Punishment] from Darkshire Town hall. The other three [The Color of Blood],[Bazil Thredd]which turns in right outside Stocks entrance/followup [The Stockade Riots] and [Quell The Uprising] can all be found in stormwind.|
 N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I suggest a grinding session, because we're about to hit Stormwind and train new skills. Close this step.|LVL|-26|
 
 ; Redridge 26-27
-F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|Wetlands|
+F Stormwind|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|Z|1437; Wetlands|
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 B Stormwind Seasoning Herbs |QID|90|M|60.07,51.55;64.15,60.60|CS|Z|Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
 N Level Cooking SKill to 50|QID|90|M|75.85,36.96|Z|Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking for a quest later in the guide. Skip this step if you do not wish to level cooking.|
@@ -116,7 +116,7 @@ T Morganth|QID|249|M|65.2,69.8|Z|Elwynn Forest|N|To Theocritus|
 R Darkshire|QID|174|M|75,48|Z|Duskwood|N|Run to Darkshire.|
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Oops, you didn't buy it earlier. Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 r Sell junk and repair|AVAILABLE|67|S|
-A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|Z|Duskwood|
+A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|Z|Duskwood|O|
 A Look To The Stars|QID|174|M|79.79,48.06|N|From Viktori Prism'Antras.|Z|Duskwood|
 T Look To The Stars|QID|174|M|79.79,48.06|N|To Viktori Prism'Antras.|Z|Duskwood|
 A Look To The Stars|QID|175|M|79.79,48.06|N|From Viktori Prism'Antras.|PRE|174|Z|Duskwood|
@@ -293,33 +293,33 @@ F Menethil Harbor|QID|270|M|55.3,47.6|N|Fly to Menethil Harbor.|Z|Ironforge|C|Pa
 ; Wetlands 28-29
 F Menethil Harbor|QID|270|M|77.50,44.30|N|Fly to Menethil Harbor.|C|-Paladin|Z|Duskwood|
 r Sell junk, repair, train etc|AVAILABLE|321|S|
-h Deepwater Tavern|QID|270|N|Go to the inn and make it your home location.|M|10.70,60.95|Z|Wetlands|
-t The Doomed Fleet|QID|270|M|10.6,60.6|N|To Glorin Steelbrow.|Z|Wetlands|
-A Lightforge Iron|QID|321|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|270|Z|Wetlands|
-A The Cursed Crew|QID|289|M|10.9,59.66|N|From First Mate Fitzsimmons.|PRE|288|Z|Wetlands|
-A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|Z|Wetlands|
+h Deepwater Tavern|QID|270|N|Go to the inn and make it your home location.|M|10.70,60.95|Z|1437; Wetlands|
+t The Doomed Fleet|QID|270|M|10.6,60.6|N|To Glorin Steelbrow.|Z|1437; Wetlands|
+A Lightforge Iron|QID|321|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|270|Z|1437; Wetlands|
+A The Cursed Crew|QID|289|M|10.9,59.66|N|From First Mate Fitzsimmons.|PRE|288|Z|1437; Wetlands|
+A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|Z|1437; Wetlands|
 N Level 29|QID|472|N|You should be level 29 or close. If you are behind, don't worry. Just keep following the guide normally, but try to kill more stuff on they way.|LVL|-29|
-C The Cursed Crew|QID|289|M|14.07,30.53|S|N|Enter the boat through the hole in the side.|Z|Wetlands|
-K First Mate Snellig|QID|289|M|14,29.8|QO|3|N|Kill First Mate Snellig and loot Snellig's Snuffbox.|Z|Wetlands|
-C The Cursed Crew|QID|289|M|14.07,30.53|US|N|Finish killing the cursed NPCs.|Z|Wetlands|
-T Fall of Dun Modr|QID|472|M|49.81,18.26|N|To Longbraid the Grim. Don't get follow up.|Z|Wetlands|
-R Arathi Highlands|QID|321|M|51.12,7.95|N|Run To Arathi, we need to get the flightpoint.|Z|Wetlands|
+C The Cursed Crew|QID|289|M|14.07,30.53|S|N|Enter the boat through the hole in the side.|Z|1437; Wetlands|
+K First Mate Snellig|ACTIVE|289|M|14,29.8|QO|3|N|Kill First Mate Snellig and loot Snellig's Snuffbox.|Z|1437; Wetlands|T|First Mate Snellig|
+C The Cursed Crew|QID|289|M|14.07,30.53|US|N|Finish killing the cursed NPCs.|Z|1437; Wetlands|
+T Fall of Dun Modr|QID|472|M|49.81,18.26|N|To Longbraid the Grim. Don't get follow up.|Z|1437; Wetlands|
+R Arathi Highlands|QID|321|M|51.12,7.95|N|Run To Arathi, we need to get the flightpoint.|Z|1437; Wetlands|
 f Arathi Highlands|QID|321|M|45.74,46.1|Z|Arathi Highlands|N|Follow the road to grab the flightpoint. Do NOT hearth back, we will need it again soon.|
 F Menethil Harbor|QID|321|M|45.74,46.1|Z|Arathi Highlands|N|Fly to Menethil Harbor. Do NOT hearth back, we will need it again soon.|
-T The Cursed Crew|QID|289|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|Wetlands|
-A Lifting the Curse|QID|290|M|10.9,59.66|N|From First Mate Fitzsimmons.|PRE|289|Z|Wetlands|
-T Lightforge Iron|QID|321|M|12.11,64.2|N|To Waterlogged Chest. On the grassy part out of the water in middle of the ship.|Z|Wetlands|
-A The Lost Ingots|QID|324|M|12.11,64.2|N|From Waterlogged Chest.|PRE|321|Z|Wetlands|
-C The Lost Ingots|QID|324|M|12.00,64.00|N|Kill murlocs around the ship until you get the items needed for the quest.|Z|Wetlands|
-K Lifting the Curse|QID|290|M|16.04,23.08;15.48,23.57|CS|QO|1|N|Kill Captain Halyndor and loot his key. He is on top of the boat, run up mast.|Z|Wetlands|
-T Lifting the Curse|QID|290|M|14.38,24.05|N|To Intrepid's Locked Strongbox. Bottom deck busted open on the sea floor, swim around to the north side and there is an opening.|Z|Wetlands|
-A The Eye of Paleth|QID|292|M|14.38,24.05|N|From Intrepid's Locked Strongbox.|PRE|290|Z|Wetlands|
-T The Eye of Paleth|QID|292|M|10.6,60.6|N|To Glorin Steelbrow. Run back, don't waste your hearth.|Z|Wetlands|
-A Cleansing the Eye|QID|293|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|292|Z|Wetlands|
-T The Lost Ingots|QID|324|M|10.6,60.6|N|To Glorin Steelbrow.|Z|Wetlands|
-A Blessed Arm|QID|322|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|324|Z|Wetlands|
+T The Cursed Crew|QID|289|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|1437; Wetlands|
+A Lifting the Curse|QID|290|M|10.9,59.66|N|From First Mate Fitzsimmons.|PRE|289|Z|1437; Wetlands|
+T Lightforge Iron|QID|321|M|12.11,64.2|N|To Waterlogged Chest. On the grassy part out of the water in middle of the ship.|Z|1437; Wetlands|
+A The Lost Ingots|QID|324|M|12.11,64.2|N|From Waterlogged Chest.|PRE|321|Z|1437; Wetlands|
+C The Lost Ingots|QID|324|M|12.00,64.00|N|Kill murlocs around the ship until you get the items needed for the quest.|Z|1437; Wetlands|
+K Captain Halyndor|ACTIVE|290|M|16.04,23.08;15.48,23.57|CS|QO|1|N|Kill Captain Halyndor and loot his key. He is on top of the boat, run up mast.|Z|1437; Wetlands|T|Captain Halyndor|
+T Lifting the Curse|QID|290|M|14.38,24.05|N|To Intrepid's Locked Strongbox. Bottom deck busted open on the sea floor, swim around to the north side and there is an opening.|Z|1437; Wetlands|
+A The Eye of Paleth|QID|292|M|14.38,24.05|N|From Intrepid's Locked Strongbox.|PRE|290|Z|1437; Wetlands|
+T The Eye of Paleth|QID|292|M|10.6,60.6|N|To Glorin Steelbrow. Run back, don't waste your hearth.|Z|1437; Wetlands|
+A Cleansing the Eye|QID|293|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|292|Z|1437; Wetlands|
+T The Lost Ingots|QID|324|M|10.6,60.6|N|To Glorin Steelbrow.|Z|1437; Wetlands|
+A Blessed Arm|QID|322|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|324|Z|1437; Wetlands|
 
-F Stormwind City|QID|322|N|Fly to Stormwind|M|9.50,59.70|Z|Wetlands|
+F Stormwind|QID|322|N|Fly to Stormwind|M|9.50,59.70|Z|1437; Wetlands|
 t The Missing Diplomat|QID|1245|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
 A The Missing Diplomat|QID|1246|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
 T The Missing Diplomat|QID|1246|M|70.56,44.89|Z|Stormwind City|N|To Dashel Stonefist.|
@@ -337,10 +337,10 @@ A Southshore|QID|538|M|74.19,7.46|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
 N Level 30|QID|1248|N|You are not supposed to be level 30 already, you're ahead of the curve, go train new skills now. Close this step when you're done.|LVL|30|
 N Buy/Repair/Sell/Train|QID|1248|N|Be sure to sell, auction, repair and do any major city stuff you need to do before moving on. Close this step when you're done.|
 H Deepwater Tavern|QID|1248|N|Hearth back to Menethil Harbor.|
-T The Missing Diplomat|QID|1248|M|10.61,60.76|N|To Mikhail. Don't get follow up.|Z|Wetlands|
+T The Missing Diplomat|QID|1248|M|10.61,60.76|N|To Mikhail. Don't get follow up.|Z|1437; Wetlands|
 
 ;Ashenvale 29-30
-b Darkshore|AVAILABLE|4581|M|4.61,57.07|Z|Wetlands|N|Take Boat to Auberdine.|
+b Darkshore|AVAILABLE|4581|M|4.61,57.07|Z|1437; Wetlands|N|Take Boat to Auberdine.|
 F Astranaar|AVAILABLE|4581|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
 A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|Z|Ashenvale|
 h Astranaar|AVAILABLE|1021|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
@@ -439,7 +439,7 @@ f Rut'theran Village|QID|1039|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R
 
 F Auberdine|QID|1039|M|58.4,94.02|Z|Teldrassil|N|Fly to Auberdine.|TAXI|-Theramore|
 b Wetlands|QID|1039|M|32.42,43.74|Z|Darkshore|N|Run down the dock and get on the boat to Menethil.|TAXI|-Theramore|
-b Theramore Isle|QID|1039|M|5,63.51|Z|Wetlands|N|Take the boat to Theramore.|TAXI|-Theramore|
+b Theramore Isle|QID|1039|M|5,63.51|Z|1437; Wetlands|N|Take the boat to Theramore.|TAXI|-Theramore|
 f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|TAXI|-Theramore|
 F Ratchet|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Fly to Ratchet.|PRE|1094|TAXI|Ratchet|
 R Barrens|AVAILABLE|1040|M|27.8,46.6|Z|Dustwallow Marsh|N|You must not have got the Ratchet flightpath from the earlier guide. Follow the road to the Barrens.|TAXI|-Ratchet|
