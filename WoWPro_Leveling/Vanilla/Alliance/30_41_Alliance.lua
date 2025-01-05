@@ -184,12 +184,12 @@ T Panther Mastery|QID|190|M|35.55,10.55|Z|1434; Stranglethorn Vale|N|To Sir S. J
 A Panther Mastery|QID|191|PRE|190|M|35.55,10.55|Z|1434; Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 r Repair and Sell|QID|186|M|35.76,10.66|Z|1434; Stranglethorn Vale|N|Bags will get full quickly here. |
 
-C Raptor Mastery|QID|194|Z|1434; Stranglethorn Vale|N|Go southwest and kill 10 Stranglethorn Raptors.|S|
 C Raptor Mastery|QID|194|M|27.80,14.80|Z|1434; Stranglethorn Vale|N|Go southwest and kill 10 Stranglethorn Raptors.|S|
-C Tiger Mastery|QID|186|M|30.00,9.00|Z|1434; Stranglethorn Vale|N|Kill "Tigers", not the young ones.|S|
-C Tiger Mastery|QID|186|M|30.00,9.00|Z|1434; Stranglethorn Vale|N|Finish killing Tigers before you move on.|US|
+C Panther Mastery|QID|191|M|27.80,14.80|Z|1434; Stranglethorn Vale|N|Go southwest and kill 10 Panthers.|S|
+C Tiger Mastery|QID|186|M|30.00,9.00|Z|1434; Stranglethorn Vale|N|Kill "Tigers", not the young ones.|
+C Panther Mastery|QID|191|M|27.80,14.80|Z|1434; Stranglethorn Vale|N|Go southwest and kill 10 Panthers.|US|
 C Raptor Mastery|QID|194|M|27.80,14.80|Z|1434; Stranglethorn Vale|N|Go southwest and kill 10 Stranglethorn Raptors.|US|
-C The Stone of the Tides|QID|578|M|21.00,22.00|Z|1434; Stranglethorn Vale|N|Head onto the shore and sdwim to the island until you get the quest complete message for The Stone of the Tides.|
+C The Stone of the Tides|QID|578|M|21.00,22.00|Z|1434; Stranglethorn Vale|N|Head onto the shore and swim to the island until you get the quest complete message for The Stone of the Tides.|
 T Tiger Mastery|QID|186|M|35.62,10.62|Z|1434; Stranglethorn Vale|N|To Ajeck Rouack.\n[color=FF0000]NOTE: [/color]Don't get follow-up.|
 T Panther Mastery|QID|191|M|35.55,10.55|Z|1434; Stranglethorn Vale|N|To Sir S. J. Erlgadin.\n[color=FF0000]NOTE: [/color]Don't get follow-up.|
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nesingwary.\n[color=FF0000]NOTE: [/color]Don't get follow-up.|
@@ -237,8 +237,8 @@ T Malin's Request|QID|690|M|46.65,47.01|Z|1417; Arathi Highlands|N|To Skuerto.\n
 A Northfold Manor|QID|681|M|45.83,47.55|Z|1417; Arathi Highlands|N|From Captain Nials.|
 C Northfold Manor|QID|681|M|33.95,33.00|Z|1417; Arathi Highlands|N|Kill the Syndicate in this area.|
 
-R Hillsbrad Foothills|ACTIVE|555|M|19.86,29.17|Z|1417; Arathi Highlands|N|Run northwest to Hillsbrad.|
-f Southshore|ACTIVE|555|M|49.34,52.28|Z|1424; Hillsbrad Foothills|N|Get the flightpath from Darla Harris.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
+R Hillsbrad Foothills|ACTIVE|538|M|19.86,29.17|Z|1417; Arathi Highlands|N|Run northwest to Hillsbrad.|
+f Southshore|ACTIVE|538|M|49.34,52.28|Z|1424; Hillsbrad Foothills|N|Get the flightpath from Darla Harris.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
 B Soothing Spices|QID|555|M|48.94,55.03|Z|1424; Hillsbrad Foothills|L|3713|ITEM|3713|N|Buy from Micha Yance.|
 B Fine Thread|QID|565|M|48.94,55.03|Z|1424; Hillsbrad Foothills|L|2321|ITEM|2321|N|Buy from Micha Yance.|
 T Southshore|QID|538|M|50.57,57.08|Z|1424; Hillsbrad Foothills|N|To Loremaster Dibbs.|
