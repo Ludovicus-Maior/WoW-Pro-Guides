@@ -373,11 +373,11 @@ C Grand Overspinner Antourix.|QID|83616|M|75.73,52.50|Z|Azj-Kahet|CHAT|N|Grand O
 T The Entrenched|QID|83616|M|75.73,52.50|Z|2255;Azj-Kahet|N|To Grand Overspinner Antourix.|
 A Spring Collection|QID|81683|M|75.73,52.50|Z|2255;Azj-Kahet|N|From Grand Overspinner Antourix.|RANK|2|
 C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|1|N|Kill mobs down on the cavern floor (not the platform) to collect 12 Reclaimed Catalyst.|S|
-C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|2|H|L|224285|N|Harvest Luminous Strangler Sap.|S|
-C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|3|H|L|224284|N|Harvest Eyeless Petals.|S|
+C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|2|H|N|Harvest Luminous Strangler Sap.|S|
+C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|3|H|N|Harvest Eyeless Petals.|S|
 C Spring Collection|QID|81683|M|70.61,42.03|Z|2255;Azj-Kahet|QO|4|N|Kill and loot Cochineal Crawlers. They are neutral level 1 critters.|
-C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|3|H|L|224284|N|Harvest Eyeless Petals.|US|
-C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|2|H|L|224285|N|Harvest Luminous Strangler Sap.|US|
+C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|3|H|N|Harvest Eyeless Petals.|US|
+C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|2|H|N|Harvest Luminous Strangler Sap.|US|
 C Spring Collection|QID|81683|M|72.80,80.43|Z|2255;Azj-Kahet|QO|1|N|Keep killing mobs until you have enough Reclaimed Catalyst.|US|
 T Spring Collection|QID|81683|M|72.9, 42.6|Z|2255;Azj-Kahet|NC|N|To Grand Overspinner Antourix.|
 T Measure Once, Cut Thrice|QID|81668|M|72.78,42.46|Z|2255;Azj-Kahet|N|To Ren'khat.|
