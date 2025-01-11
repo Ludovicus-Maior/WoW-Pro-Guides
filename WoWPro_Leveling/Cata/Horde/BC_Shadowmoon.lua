@@ -13,7 +13,7 @@ C Besieged!|QID|10595|M|31.03,34.36|N|Kill 10 Infernal Attackers.|
 T Besieged!|QID|10595|M|30.46,32.49|N|To Blood Guard Gulmok.|
 A To Legion Hold|QID|10596|PRE|10595|M|30.39,32.50|N|From Blood Guard Gulmok.|
 A Wanted: Uvuros, Scourge of Shadowmoon|QID|10647|M|30.45,30.91|N|From the Wanted Poster.|
-A The Sketh'lon Wreckage|QID|10760|PRE|10569|M|31.00,29.87|N|From Sergeant Kargrul.|
+A The Sketh'lon Wreckage|QID|10760|M|31.00,29.87|N|From Sergeant Kargrul.|
 f Shadowmoon Village|QID|10760|M|30.32,29.14|N|At Drek'Gol.|
 A What Strange Creatures...|QID|10660|M|30.00,28.35|N|From Researcher Tiorus.|
 A A Haunted History|QID|10624|PRE|11046|M|29.91,27.71|N|From Chief Apothecary Hildagard.|
@@ -27,7 +27,7 @@ C The Sketh'lon Wreckage|QID|10760|M|36.6,30.76|N|Kill Dark Conclave Arakkoas un
 T To Legion Hold|QID|10596|M|30.48,32.47|N|To Blood Guard Gulmok.|
 A Setting Up the Bomb|QID|10597|PRE|10596|M|30.48,32.47|N|From Blood Guard Gulmok.|
 T The Sketh'lon Wreckage|QID|10760|M|30.99,29.86|N|To Sergeant Kargrul.|
-A Find the Deserter|QID|10761|PRE|10759|M|30.99,29.86|N|From Sergeant Kargrul.|
+A Find the Deserter|QID|10761|PRE|10760|M|30.99,29.86|N|From Sergeant Kargrul.|
 T What Strange Creatures...|QID|10660|M|30.06,28.37|N|To Researcher Tiorus.|
 A Frankly, It Makes No Sense...|QID|10672|PRE|10660|M|29.92,28.28|N|From Researcher Tiorus.|
 T A Haunted History|QID|10624|M|29.91,27.75|N|To Chief Apothecary Hildagard.|
@@ -40,7 +40,7 @@ K Overseer Ripsaw|QID|10623|L|30579|T|Overseer Ripsaw|N|Find and kill Overseer R
 A Illidari-Bane Shard|QID|10623|U|30759|M|22.49,35.97|N|Accept the quest from the shard.|
 C Setting Up the Bomb|QID|10597|QO|1|M|26.29,41.26|N|Head down into the water and loot the Fel Reaver Power Core from the bottom of the pond.|
 T Find the Deserter|QID|10761|M|35.19,40.35|N|To Parshah. He wanders up and down the path where the waypoint is.|
-A Asghar's Totem|QID|10777|PRE|10759^10761|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
+A Asghar's Totem|QID|10777|PRE|10761|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
 C Asghar's Totem|QID|10777|M|39.94,29.36|N|Kill and loot Ashgar to get the Sketh'lon War Totem.|
 T Setting Up the Bomb|QID|10597|M|30.45,32.44|N|To Blood Guard Gulmok.|
 A Blast the Infernals!|QID|10598|PRE|10597|M|30.43,32.56|N|From Blood Guard Gulmok.|
