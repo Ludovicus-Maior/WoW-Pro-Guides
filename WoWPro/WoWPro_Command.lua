@@ -151,11 +151,14 @@ local function handler(msg, editbox)
         end
         _G.ReloadUI()
 
-        for _, name in ipairs(WoWProCharDB.disabledAddons) do
-            _G.C_AddOns.EnableAddOn(name)
+    elseif ltoken == "enable-addons" then
+        if WoWProCharDB.disabledAddons then
+            for _, name in ipairs(WoWProCharDB.disabledAddons) do
+                _G.C_AddOns.EnableAddOn(name)
+            end
+            WoWProCharDB.disabledAddons = {}
+            ReloadUI()
         end
-        WoWProCharDB.disabledAddons = {}
-        _G.ReloadUI()
     else
         local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devmode]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
         _G.ChatFrame1:AddMessage(text)
