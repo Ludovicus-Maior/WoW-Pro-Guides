@@ -157,7 +157,7 @@ local function handler(msg, editbox)
                 _G.C_AddOns.EnableAddOn(name)
             end
             WoWProCharDB.disabledAddons = {}
-            ReloadUI()
+            _G.ReloadUI()
         end
     else
         local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devmode]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
