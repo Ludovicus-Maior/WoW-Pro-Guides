@@ -59,7 +59,7 @@ A On Cold, Dark Wings|QID|78900|PRE|78838|M|48.05,34.77|Z|2214; The Ringing Deep
 A A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|C|Demon Hunter,Warlock|
 A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;This is part of the IoD Soujourner questline. its in the Dorn GUide.
 A Discarded and Broken|QID|78562|PRE|78838|M|48.29,33.43|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|RANK|2|
-C A Shadow Over Gundargaz|QID|78895|QO|1|M|48.26,34.44|Z|2214; The Ringing Deeps|N|Click on the Gundargaz Defender to Investigate the Market.|H|
+C A Shadow Over Gundargaz|QID|78895|QO|1|M|48.26,34.44|Z|2214; The Ringing Deeps|N|Click on the green pool to the left of the Gundargaz Defender.|H|
 ;end insert class quests - pieced together needs tested -- pally priest warlock dh tested
 A Brax's Brass Knuckles|QID|78918|M|47.94,32.16|Z|2214; The Ringing Deeps|N|From Innkeeper Brax.|RANK|2|
 C Discarded and Broken|QID|78562|M|46.63,29.46|QO|1|Z|2214; The Ringing Deeps|N|Pick up box on left side of door..|H|
@@ -137,7 +137,7 @@ C Wax On, Pot Off|QID|79267|M|65.72,29.30|QO|1|Z|2214; The Ringing Deeps|N|Wax p
 T Wax On, Pot Off|QID|79267|M|61.54,31.95|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 T Tackling Torchsnarl|QID|78641|M|61.52,31.98|Z|2214; The Ringing Deeps|N|To Skitter.|
 A New Candle, New Hope|QID|78642|PRE|78641&79267|M|61.52,31.98|Z|2214; The Ringing Deeps|N|From Skitter.|
-C New Candle, New Hope|QID|78642|M|41.58,12.54|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Speak with Skitter to enter the Darkflame Cleft.|
+C New Candle, New Hope|QID|78642|M|61.52,31.98|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Speak with Skitter to enter the Darkflame Cleft.|
 C New Candle, New Hope|ACTIVE|78642|SO|1|N|Apply the kobold costume.|EAB|
 C New Candle, New Hope|ACTIVE|78642|SO|2|N|Click on the candles to put them out, avoiding the see invis mobs.|
 C New Candle, New Hope|ACTIVE|78642|SO|3|M|41.51,39.00|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Waximus.|EAB|
