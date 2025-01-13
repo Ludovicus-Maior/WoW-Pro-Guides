@@ -1,4 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="Emm_Felcycle.lua"/>
     <Script file="Emm_Blanchy.lua"/>
 	<Script file="Emmaleah_Hippogryph.lua"/>
 	<Script file="Elidion_Hivemind.lua"/>
