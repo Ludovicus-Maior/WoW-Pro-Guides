@@ -591,7 +591,8 @@ C Orientation: Gundargaz|QID|81689|M|47.49,32.79|Z|2214; The Ringing Deeps|CHAT|
 T Orientation: Gundargaz|QID|81689|M|47.15,34.14|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A The Hallowed Path|QID|78658|PRE|81689|M|47.08,32.22|Z|2214; The Ringing Deeps|N|From Anduin Wrenn.|
 A Daily Diagnostics|QID|83108|PRE|78761|M|47.29,31.65|Z|2214;The Ringing Deeps|N|From Therkan. This is a dungeon quest, and not included in this guide.|RANK|3|
-A Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|LVL|80|; Quest is bugged for players below level 80.
+A Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|LVL|80|
+A Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|PRE|83543|
 T A Hint of Fear|QID|79256|M|55.05,63.29|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
 t Daily Diagnostics|QID|83108|M|47.29,31.65|Z|2214;The Ringing Deeps|N|To Therkan.|RANK|3|IZ|Gundargaz|
 t Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|To Knicknack.|RANK|3|IZ|Gundargaz|
