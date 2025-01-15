@@ -35,7 +35,7 @@ P The Portrait Room|ACTIVE|78716|M|52.53,58.78|Z|2321;Chamber of Heart!Dungeon23
 C Painful Lessons|QID|78716|M|46.80,54.47|Z|629;Aegwynn's Gallery@Dalaran|QO|2|NC|N|Meet with Khadgar in Dalaran.|
 T Painful Lessons|QID|78716|M|42.86,59.87|Z|629;Aegwynn's Gallery@Dalaran|N|To Archmage Khadgar.|
 A The Bronzebeard Family|QID|80500|PRE|78716|M|40.32,53.93|Z|629;Aegwynn's Gallery@Dalaran|N|From Moira Thaurissan.|
-P Chamber of the Guardian|ACTIVE|80500|M|49.04,48.03|Z|627;Dalaran!Broken Isles|N|Take the portal to Chamber of the Guardian.|
+P Chamber of the Guardian|ACTIVE|80500|M|64.22,22.30|Z|629;Aegwynn's Gallery@Dalaran|N|Take the portal to Chamber of the Guardian.|
 C The Bronzebeard Family|QID|80500|M|50.68,55.49|Z|627;Dalaran|QO|1|CHAT|N|Talk to Brann in the Vistor's Center.|
 P Chamber of the Guardian|ACTIVE|80500|M|49.04,48.03|Z|627;Dalaran!Broken Isles|N|Take the portal to Chamber of the Guardian.|
 T The Bronzebeard Family|QID|80500|M|40.32,53.93|Z|629;Aegwynn's Gallery@Dalaran|N|To Moira Thaurissan.|
