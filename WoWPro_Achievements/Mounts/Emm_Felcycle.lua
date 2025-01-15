@@ -7,7 +7,7 @@ N Azeroth's Greatest Detective|AVAILABLE|84684|N|This guide will first take you 
 U Torch of Pyrreth|QID|84684|N|Put this on your action bar to save searching for it each time you need it. What follows is a little tour of Azeroth to find all the celebration crates.|
 l Water-Resistant Receipt|AVAILABLE|84624|M|66.23,86.10;64.90,84.40|Z|64;Thousand Needles|CS|L|228768|ACH|40870|N|From Pozzik and Fizzle's speedbarge in Thousand Needles, swim to an underwater cave and find a Water-Resistant Receipt, which you will need for another crate.|
 A Waterlogged Celebration Crate|QID|84426|M|69.17,68.64|Z|71;Tanaris|N|Underwater, off the coast of Tanaris, inside a gnome building. Up the shaft and to your left behind the bed.|ACH|40870|
-N Bones|AVAILABLE|84625|M|42.07,94.10;44.42,89.98|Z|327|CS|N|Cave entrance in SW Silithus behind Ahn'Qiraj (not inside instance. Looke for trees by the water). Summon a dog battle pet (like Perky Pug or Corgi) to dig the Mysterious Bones, which you need for another crate.|L|228772|ACH|40870|
+N Bones|AVAILABLE|84625|M|42.07,94.10;44.42,89.98|Z|327|CS|N|Cave entrance in SW Silithus behind Ahn'Qiraj (not inside instance. Look for trees by the water). Summon a dog battle pet (like Perky Pug or Corgi) to dig the Mysterious Bones, which you need for another crate.|L|228772|ACH|40870|
 l Inert Peculiar Key|AVAILABLE|84736|M|44.55,7.98|Z|78;Un'goro Crater|N|Head to Un'goro Crater and use your torch of Pyrreth to uncover the Inert Particular Key - inside the tree trunk. You will need this later.|U|208092|L|228941|
 A Charred Celebration Crate|QID|84767|M|13.6,33.50|Z|198|N|At the base of the trampoline In Mount Hyjal.|ACH|40870|
 N Potion of Truth|AVAILABLE|85523|M|47.90,38.40|Z|63|N|Head towards Ashenvale, Kalimdor.|BUFF|463368|ACH|40870|
