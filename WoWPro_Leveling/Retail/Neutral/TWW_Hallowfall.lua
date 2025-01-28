@@ -29,7 +29,7 @@ t Hallowfall|QID|83551|M|68.43,45.07|Z|2215;Hallowfall|N|To Faerin.|;picking up 
 A Where the Light Touches|QID|78659|PRE|78658|M|68.44,45.11|Z|2215;Hallowfall|N|From Faerin.|
 A Delver's Call: The Skittering Breach|QID|83768|M|67.78,45.61|Z|2215;Hallowfall|N|From the sign on the lampost.|RANK|3|
 t Delver's Call: Mycomancer Cavern|QID|83769|M|69.17,45.62|Z|2215;Hallowfall|N|To Valrin Paller.|IZ|Dunelle's Kindness|
-t Delver's Call: The Skittering Breach|QID|83768|M|67.78,45.61|Z|2215;Hallowfall|N|To Valrin Paller.|IZ|Dunelle's Kindness|;apparently Valrin moves around, I found at 63.00,44.21
+t Delver's Call: The Skittering Breach|QID|83768|M|68.02,43.31|Z|2215;Hallowfall|N|To Lerrenal Fayn.|IZ|Dunelle's Kindness|
 f Dunelle's Kindness|ACTIVE|78659|M|67.48,44.62|Z|2215;Hallowfall|N|At Auro Flitter.|
 A Suspicious Minds|QID|83247|M|68.05,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|
 A For Morale|QID|83283|M|68.02,44.26|Z|2215;Hallowfall|N|From Lerrenai Fayn.|RANK|2|
