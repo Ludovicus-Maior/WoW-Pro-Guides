@@ -153,7 +153,7 @@ T The Legend of Stalvan|QID|98|M|75.8,45.31|Z|1431; Duskwood|N|To Madam Eva.|
 A Worgen in the Woods|QID|222|PRE|221|M|75.3,48.1|Z|1431; Duskwood|N|From Calor.|
 C Worgen in the Woods|QID|222|M|73.00,75.00|Z|1431; Duskwood|N|Kill the Vile Fang and Tainted Ones.|
 
-R Rebel Camp|QID|198|M|38.20,4.10|Z|1434; Stranglethorn Vale|N|Run south to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
+R Rebel Camp|QID|198|M|38.20,4.10|Z|1434; Stranglethorn Vale|N|Run south to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge, head west.|
 T Supplies to Private Thorsen|QID|198|M|37.98,3.41|Z|1434; Stranglethorn Vale|N|To Private Thorsen.|
 A The Second Rebellion|QID|203|M|38.02,3.33|Z|1434; Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Bad Medicine|QID|204|M|38.02,3.33|Z|1434; Stranglethorn Vale|N|From Sergeant Yohwa.|

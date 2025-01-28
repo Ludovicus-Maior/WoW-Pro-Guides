@@ -181,7 +181,7 @@ C Restore the Flame|QID|78954|M|56.19,42.01|Z|2215;Hallowfall|CHAT|N|Tell Faerin
 T Restore the Flame|QID|78954|M|56.19,42.01|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A To Mereldar|QID|78607|M|56.19,42.01|Z|2215;Hallowfall|N|From Faerin Lothar.|
 A Delver's Call: The Sinkhole|QID|83767|M|48.71,39.61|Z|2215;Hallowfall|N|From Poster on the Pole.|RANK|3|
-A Hungry in Hollow|QID|84392|M|48.45,39.39|Z|2215;Hallowfall|N|From Haelmut Aegisaxe.|LEAD|82843|RANK|2|LVL|75|
+A Hungry in Hollow|QID|84392|M|48.45,39.39;49.22,39.58|CN|Z|2215;Hallowfall|N|From Haelmut Aegisaxe. He moves between his stall and the Inn. |LEAD|82843|RANK|2|LVL|75|
 A Lights Out|QID|78686|M|49.14,41.09|Z|2215;Hallowfall|N|From Aegor Irynbawnd.|RANK|2|
 T To Mereldar|QID|78607|M|43.42,48.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A The Bastion of Hallowfall|QID|78613|M|43.39,48.64|Z|2215;Hallowfall|N|From General Steelstrike.|
