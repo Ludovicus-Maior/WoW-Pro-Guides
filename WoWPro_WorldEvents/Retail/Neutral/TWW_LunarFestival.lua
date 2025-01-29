@@ -8,7 +8,7 @@ N Thanks Wowhead|N|Many thanks to the Wowhead Community for posting lovely summa
 
 A Archivist Rubbleglint|QID|85929|M|40.9,87.4|Z|2248; Isle of Dorn|N|From Archivist Rubbleglint.|
 A Archivist Coppermoss|QID|85930|M|48.6,14.0|Z|2248; Isle of Dorn|N|From Archivist Coppermoss.|
-A Archivist Farolt|QID|85931|M|48.9,673.|Z|2214|N|From Archivist Farolt.|
+A Archivist Farolt|QID|85931|M|48.91,67.30|Z|2214|N|From Archivist Farolt.|
 A Archivist Silsigra|QID|85932|M|67.3,53.0|Z|2214|N|From Archivist Silsigra.|
 A Elder Knythall|QID|85933|M|25.9,51.9|Z|2215|N|From Elder Knythall.|
 A Elder Swornvow|QID|85934|M|66.3,46.3|Z|2215|N|From Elder Swornvow.|
