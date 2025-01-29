@@ -2,10 +2,11 @@ local guide = WoWPro:RegisterGuide('Undermine', 'Leveling', 'Dornogal', 'WoWPro 
 WoWPro:GuideName(guide,"Undermine")
 WoWPro:GuideContent(guide, 10)
 WoWPro:GuideLevels(guide,80, 80)
-WoWPro:GuideSort(guide, 7)
+WoWPro:GuideSort(guide, 9)
 WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
+
 A When Opportunity Explodes|QID|83137|M|42.13,27.04|Z|2339|N|From Renzik "The Shiv".|
 A Coreway Maintenance Request|QID|81854|M|37.04,60.76|Z|2339|
 A Thanks for the Wax|QID|82957|M|50.29,52.28|Z|2274|
