@@ -396,7 +396,7 @@ T Mor'Ladim|QID|228|M|73.56,46.85|Z|1431; Duskwood|N|To Commander Althea Ebonloc
 A The Daughter Who Lived|QID|229|PRE|228|M|73.56,46.85|Z|1431; Duskwood|N|From Commander Althea Ebonlocke.|
 T The Daughter Who Lived|QID|229|M|74.19,46.90|Z|1431; Duskwood|N|To Watcher Ladimore. She patrols the town.|T|Watcher Ladimore|
 A A Daughter's Love|QID|231|PRE|229|M|74.19,46.90|Z|1431; Duskwood|N|From Watcher Ladimore. She patrols the town.|RANK|3|
-T A Daughter's Love|QID|231|M|74.19,46.90|Z|1431; Duskwood|N|To A Weathered Grave.|
+T A Daughter's Love|QID|231|M|17.71,29.15|Z|1431; Duskwood|N|To A Weathered Grave.|
 
 R Rebel Camp|QID|622|M|38.20,4.10|Z|1434; Stranglethorn Vale|N|Run south-west to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
 A Special Forces|QID|574|PRE|203&204|M|38.02,3.33|Z|1434; Stranglethorn Vale|N|From Sergeant Yohwa.|
@@ -440,6 +440,7 @@ N Green Hills of Stranglethorn|ACTIVE|338|M|35.66,10.53|Z|1434; Stranglethorn Va
 H The Salty Sailor Tavern|ACTIVE|577|M|38.0,3.1|Z|1434; Stranglethorn Vale|N|Hearth, Run or fly to Booty Bay.|
 T Singing Blue Shards|QID|605|M|27.12,77.21|Z|1434; Stranglethorn Vale|N|To Crank Fizzlebub. Skip follow-up for now.|
 T Hostile Takeover|QID|213|M|27.0,77.13|Z|1434; Stranglethorn Vale|N|To Kebok. on the top floor.|
+T Bloodscalp Ears|QID|189|M|27.0,77.13|Z|1434; Stranglethorn Vale|N|To Kebok. on the top floor.|
 T Water Elementals|QID|601|M|27.22,76.87|Z|1434; Stranglethorn Vale|N|To Baron Revilgaz.|
 A Magical Analysis|QID|602|PRE|601|M|27.22,76.87|Z|1434; Stranglethorn Vale|N|From Baron Revilgaz.|
 T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|1434; Stranglethorn Vale|N|To Baron Revilgaz.|
@@ -460,7 +461,7 @@ A Delivery to the Gnomes|QID|1114|PRE|1112|M|77.79,77.28|Z|1441; Thousand Needle
 T Delivery to the Gnomes|QID|1114|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.|
 A The Rumormonger|QID|1115|PRE|1114|M|77.79,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
 
-R Tanaris|QID|1260|M|75.5,97.75|Z|1446; Tanaris|N|Run south to Tanaris.|
+R Tanaris|QID|1260|M|51.50,21.92|Z|1446; Tanaris|N|Run south to Tanaris.|
 F Theramore|QID|1260|M|51.01,29.34|Z|1446; Tanaris|N|Fly up to Theramore Isle.|TZ|Theramore Isle|
 T James Hyal|QID|1302|M|67.87,48.24|Z|1445; Dustwallow Marsh|N|To Clerk Lendry on the third floor of the Foothold Citadel.|
 T The Missing Diplomat|QID|1264|M|68.02,48.7|Z|1445; Dustwallow Marsh|N|To Commander Samaul on the third floor of the Foothold Citadel.|
@@ -494,7 +495,7 @@ A Vahlarriel's Search|QID|1438|PRE|1465|M|66.44,11.82|Z|1443; Desolace|N|From Va
 T Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|1443; Desolace|N|To Kreldig Ungor.|
 A Reagents for Reclaimers Inc.|QID|1459|PRE|1458|M|66.2,9.6|Z|1443; Desolace|N|From Kreldig Ungor.|
 N Housekeeping|QID|1454|Z|1443; Desolace|N|Sell junk, repair, restock.|
-C Scorpids|QID|1459|QO|1|M|PLAYER|CC|N|Kill scorpids you see while traveling and loot the venom. They spawn all over the zone.|S|
+C Reagents for Reclaimers Inc.|QID|1459|QO|1|M|PLAYER|CC|N|Kill scorpids you see while traveling and loot the venom. They spawn all over the zone.|S|
 ; add directions
 A Sceptre of Light|QID|5741|M|38.88,27.17|Z|1443; Desolace|N|Azore Aldamort.|
 T The Karnitol Shipwreck|QID|1454|M|36.11,30.45|Z|1443; Desolace|N|Turn in your quest to the Ravnitol Chest.|
@@ -541,7 +542,7 @@ C Ghost-o-plasm Round Up|QID|6134|M|64.22,91.46|Z|1443; Desolace|N|Clear the are
 C Down the Scarlet Path|QID|261|M|63.40,91.40|Z|1443; Desolace|N|Kill 30 Undead Ravagers near this location.|US|
 C Strange Alliance|QID|1382|M|70.00,70.00|Z|1443; Desolace|REP|Gelkis Clan Centaur;91;hated-neutral|N|Kill Magrim Centaurs until you are friendly with the Gelkis faction. It will take 50 centaurs, 46 if you are human.|
 C Centaur Bounty|QID|1387|M|70.00,70.00|Z|1443; Desolace|N|Get the rest of the Centaur Ears if you haven't already.|US|
-C Reagents for Reclaimers Inc.|QID|1459|M|66.2,9.6|Z|1443; Desolace|N|Time to finish this up if you haven't already.|
+C Reagents for Reclaimers Inc.|QID|1459|M|66.2,9.6|Z|1443; Desolace|N|Time to finish this up if you haven't already.|US|
 T Ghost-o-plasm Round Up|QID|6134|M|47.83,61.83|Z|1443; Desolace|N|To Hornizz Brimbuzzle.|
 T Strange Alliance|QID|1382|M|36.23,79.24|Z|1443; Desolace|N|To Uthek the Wise.|
 A Raid on the Kolkar|QID|1384|PRE|1382|M|36.23,79.24|Z|1443; Desolace|N|From Uthek the Wise.|
@@ -576,8 +577,8 @@ A The Deserters|QID|1286|PRE|1285|M|68.21,48.62|Z|1445; Dustwallow Marsh|N|From 
 r Housekeeping|AVAILABLE|1204|M|67.39,47.86|Z|1445; Dustwallow Marsh|N|Sell junk, repair, and restock at Piter Verance on the ground floor.|
 A Mudrock Soup and Bugs|QID|1204|PRE|1260|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|From Morgan Stern.|
 h Theramore Isle|QID|1177|Z|1445; Dustwallow Marsh|N|Make Theramore your home location.|
-T The Missing Diplomat|QID|1265|M|59.65,41.24|Z|1445; Dustwallow Marsh|N|To Archmage Tervosh.|
-A The Missing Diplomat|QID|1266|PRE|1265|M|59.65,41.24|Z|1445; Dustwallow Marsh|N|From Archmage Tervosh.|
+T The Missing Diplomat|QID|1265|M|66.39,49.25|Z|1445; Dustwallow Marsh|N|To Archmage Tervosh.|
+A The Missing Diplomat|QID|1266|PRE|1265|M|66.39,49.25|Z|1445; Dustwallow Marsh|N|From Archmage Tervosh.|
 A Jarl Needs Eyes|QID|1206|PRE|1218|M|55.44,26.27|Z|1445; Dustwallow Marsh|N|From "Swamp Eye" Jarl.|
 A Stinky's Escape|QID|1222|M|46.88,17.52|Z|1445; Dustwallow Marsh|N|From "Stinky" Ignatz. This is an escort quest, might need to wait for him to spawn if he isn't there. Start clearing raptors around the area.|
 C Stinky's Escape|QID|1222|M|46.88,17.52|Z|1445; Dustwallow Marsh|N|Escort him around the swamp while looks for herbs, beware of the elite raptor running around. No waves come to attack, he will just walk into stuff.|
@@ -596,7 +597,7 @@ C Mudrock Soup and Bugs|QID|1204|M|56.80,16.40|Z|1445; Dustwallow Marsh|N|Kill a
 C Hungry!|QID|1177|M|56.80,16.40|Z|1445; Dustwallow Marsh|N|Head North-East to the Coast and kill all "Mirefin" Murlocs for their heads.|
 C Mudrock Soup and Bugs|QID|1204|M|56.80,16.40|Z|1445; Dustwallow Marsh|N|Finishing killing "Mudrock" Tortoises for their tongues.|US|
 T Hungry!|QID|1177|M|35.00,38.20|Z|1445; Dustwallow Marsh|N|Run back south-west along the road to turn in to Mudcrush Durtfeet|
-H Theramore Isle|ACTIVE|1222|M|51.01,29.34|Z|1446; Tanaris|N|Hearth (or fly) to Theramore.|
+H Theramore|ACTIVE|1222|M|51.01,29.34|Z|1446; Tanaris|N|Hearth (or fly) to Theramore.|
 T Stinky's Escape|QID|1222|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|To Morgan Stern.|
 T Mudrock Soup and Bugs|QID|1204|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|To Morgan Stern.|
 A ... and Bugs|QID|1258|PRE|1204|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|From Morgan Stern.|
@@ -674,7 +675,7 @@ A Dark Council|QID|537|PRE|525|M|48.14,59.11|Z|1424; Hillsbrad Foothills|N|From 
 
 ; ** Event Trigger... this section may need a rewrite to facilitate doing the event. - Hendo72
 A Noble Deaths|QID|512|PRE|510|M|48.14,59.11|Z|1424; Hillsbrad Foothills|N|From Magistrate Henry Maleb.|
-A Assassin's Contract|QID|522|M|PLAYER|Z|1424; Hillsbrad Foothills|N|Click the Assassin's Contract.|U|3668|
+A Assassin's Contract|QID|522|M|PLAYER|Z|1424; Hillsbrad Foothills|N|Click the Assassin's Contract.|U|3668|O|
 T Assassin's Contract|QID|522|M|48.14,59.11|Z|1424; Hillsbrad Foothills|N|To Magistrate Henry Maleb.\n[color=FF0000]NOTE: [/color]If you got this after you did "Noble Deaths" then don't get follow-up unless you are a completionist.|
 A Baron's Demise|QID|523|PRE|522|M|48.14,59.11|Z|1424; Hillsbrad Foothills|N|From Magistrate Henry Maleb.|NA|
 R Dalaran|QID|602|M|18.8,78.2|Z|1416; Alterac Mountains|N|Run northwest to Dalaran.|
@@ -684,7 +685,7 @@ A Ansirem's Key|QID|603|PRE|602|M|18.83,78.49|Z|1416; Alterac Mountains|N|From A
 R Misty Shore|QID|537|M|23.86,50.60|Z|1416; Alterac Mountains|N|Run up north toward the Misty Shore.|
 C Dark Council|ACTIVE|537|QO|1|M|47.62,12.29;52.30,20.95;54.70,26.00;58,31.73|CN|Z|1416; Alterac Mountains|N|Kill the Shadow Mages.|S|
 C Noble Deaths|QID|512|Z|1416; Alterac Mountains|N|Kill Syndicate in the area and loot their Signet Rings.|S|
-K Nagaz|ACTIVE|537|QO|2|M|39.20,14.35|Z|1416; Alterac Mountains|N|Kill Nagaz and loot his head.|
+K Nagaz|ACTIVE|537|QO|2|M|39.20,14.35|Z|1416; Alterac Mountains|N|Kill Nagaz and loot his head.|T|Nagaz|
 l The Ensorcelled Parchment|QID|551|M|39.18,14.66|Z|1416; Alterac Mountains|NC|N|Click on the Worn Wooden Chest near Nagaz|L|3706|
 A The Ensorcelled Parchment|QID|551|M|PLAYER|Z|1416; Alterac Mountains|N|Click the Ensorcelled Parchment.|U|3706|
 C Baron's Demise|ACTIVE|523|Z|1416; Alterac Mountains|N|Kill Baron Vardus and loot his head, he roams from camp to camp so keep an eye out.|T|Baron Vardus|S|
@@ -815,7 +816,7 @@ T Ansirem's Key|QID|603|M|27.28,77.53|Z|1434; Stranglethorn Vale|N|To Catelyn on
 A "Pretty Boy" Duncan|QID|610|PRE|603|M|27.28,77.53|Z|1434; Stranglethorn Vale|N|From Catelyn on 2nd floor of the Inn.|
 
 b Ratchet|QID|1137|M|25.80,73.10|Z|1434; Stranglethorn Vale|N|Take the boat to Ratchet.|
-F Theramore Isle|ACTIVE|1258|M|63.10,37.15|Z|1413; The Barrens|N|Fly to Theramore.|
+F Theramore|ACTIVE|1258|M|63.10,37.15|Z|1413; The Barrens|N|Fly to Theramore.|
 T ... and Bugs|QID|1258|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|To Morgan Stern.|
 T The Infernal Orb|QID|1954|M|46.06,57.09|Z|1445; Dustwallow Marsh|N|To Tabetha.|C|Mage|
 A The Exorcism|QID|1955|PRE|1954|M|46.06,57.09|Z|1445; Dustwallow Marsh|ELITE|N|[color=ff8000]Elite: [/color]From Tabetha. Get ready for an Elite fight.|C|Mage|
