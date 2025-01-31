@@ -111,7 +111,7 @@ A Sweet Amber|QID|48|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew.|
 T Sweet Amber|QID|48|M|44.62,80.25|Z|Westfall|N|To Grimbooze Thunderbrew.|
 A Sweet Amber|QID|49|M|44.62,80.25|Z|Westfall|N|From Grimbooze Thunderbrew|PRE|48|
 
-F Stormwind City|QID|1449|M|56.56,52.65|Z|Westfall|N|At Thor.|
+F Stormwind|QID|1449|M|56.56,52.65|Z|Westfall|N|At Thor.|
 h Stormwind City|QID|1449|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here. And keep it here until otherwise stated in the guide.|
 B Truesilver Bar|QID|49|N|Make sure you buy or make yourself a Truesilver Bar soon.|L|6037|ITEM|6037|
 A To The Hinterlands|QID|1449|M|64.33,20.62|Z|Stormwind City|N|From Brohann Caskbelly.|PRE|1448|
@@ -163,7 +163,7 @@ F Booty Bay|QID|623|M|65.54,24.34|Z|Blasted Lands|N|Fly to Booty Bay.|
 A Zanzil's Mixture and a Fool's Stout|QID|1119|M|27.1,77.2|N|From Crank Fizzlebub.|PRE|621&1118|
 b Ratchet|QID|623|M|25.80,73.10|N|Take the boat to Ratchet.|
 
-F Theramore Isle|QID|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
+F Theramore|QID|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
 T Akiris by the Bundle|QID|623|M|67.71,51.71|Z|Dustwallow Marsh|N|To Privateer Groy. He walks around but stays stationary the longest at the waypoint.|
 t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
 A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.|P|First Aid;129;0+225|
@@ -238,7 +238,7 @@ T Report Back to Fizzlebub|QID|1122|M|27.12,77.21|N|To Crank Fizzlebub.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
 b Ratchet|QID|4124|M|25.80,73.10|N|Take the boat to Ratchet.|
 
-F Feathermoon Stronghold|QID|4124|M|63.08,37.16|Z|The Barrens|N|Fly to Feathermoon Stronghold in Feralas.|
+F Feathermoon|QID|4124|M|63.08,37.16|Z|The Barrens|N|Fly to Feathermoon Stronghold in Feralas.|
 A The Mark of Quality|QID|2821|M|30.63,42.71|Z|Feralas|N|From Pratt McGrubben.|
 h Feathermoon Stronghold|QID|4124|M|30.97,43.48|Z|Feralas|N|Set your hearthstone to Feathermoon Stronghold.|
 r Sell junk, repair, restock|QID|4124|M|30.92,43.31|Z|Feralas|N|Sell junk, repair, restock|
@@ -324,7 +324,7 @@ T Rise of the Silithid|QID|4267|M|41.8,85.6|Z|Darnassus|N|To Gracina Spiritmight
 T Doling Justice|QID|2972|M|39.11,81.59|Z|Darnassus|N|To Tyrande Whisperwind.|
 r Sell junk, repair, restock, train skills|QID|4281|N|Sell junk, repair, restock, train skills|
 
-F Feathermoon Stronghold|ACTIVE|4281|N|Fly back to Feathermoon Stronghold. (Or Hearth if you are returning from a break)|
+F Feathermoon|ACTIVE|4281|N|Fly back to Feathermoon Stronghold. (Or Hearth if you are returning from a break)|
 K Lord Shalzaru|ACTIVE|2870|QO|1|M|25.5,64.4;28.6,70.7|CS|Z|Feralas|T|Lord Shalzaru|N|Swim to the island south of there and kill Lord Shalzaru inside the cave then loot the relic. This will be tough, bring lots of food and water.\n\nThe naga here are packed tight, melee might have some trouble with the casters. Just leave room for you to run away a bit after range pulling so they chase after you if a proper LOS spot isn't available.|
 T Against Lord Shalzaru|QID|2870|M|30.38,46.17|Z|Feralas|N|To Latronicus Moonspear.|
 A Delivering the Relic|QID|2871|M|30.38,46.17|Z|Feralas|N|From Latronicus Moonspear.|PRE|2870|
@@ -374,7 +374,7 @@ T Cortello's Riddle|QID|624|M|22.87,48.19|Z|Swamp of Sorrows|N|Under an ornate b
 A Cortello's Riddle|QID|625|M|22.87,48.19|Z|Swamp of Sorrows|N|From A Soggy Scroll.|PRE|624|
 R Deadwind Pass|ACTIVE|625|M|60.00,41.20|Z|Deadwind Pass|N|Run to Duskwood through Deadwind Pass.|
 
-F Stormwind City|QID|1452|M|77.48,44.29|Z|Duskwood|N|Fly to Stormwind.|
+F Stormwind|QID|1452|M|77.48,44.29|Z|Duskwood|N|Fly to Stormwind.|
 r Repair, Restock, Train|QID|1452|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get those elixers, we will need them on this next leg.|
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude. You need these on you now.|L|3825 2|
 R Deeprun Tram|QID|1452|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
@@ -388,7 +388,7 @@ F Menethil Harbor|QID|1000|ACTIVE|3841^625|M|55.50,47.75|Z|Ironforge|N|Fly to We
 b Theramore Isle|QID|1000|ACTIVE|3841^625|M|4.99,63.47|Z|Wetlands|N|Take the boat to Theramore|
 R The Quagmire|QID|1000|ACTIVE|625^2861|M|55.69,50.16;46.06,57.09|CC|Z|Dustwallow Marsh|N|It's faster to swim, opening up at waypoint.|
 T Tabetha's Task|QID|2861|LEAD|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|
-A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha.|
+A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha.|DUNGEON|
 T Cortello's Riddle|QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
 A Cortello's Riddle|QID|626|M|31.10,66.13|Z|Dustwallow Marsh|PRE|625|
 
