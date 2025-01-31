@@ -69,8 +69,8 @@ M [item=5964/Barbaric Shoulders]|QID|165007151|P|Leatherworking;165;0+190;1|ITEM
 M [item=5962/Guardian Pants]|QID|165007147|P|Leatherworking;165;0+190;1|ITEM|5962|CRAFT|7147 10|MATS|4234 12;4305 2;2321 2|
 = Learn Recipe|QID|165001901|P|Leatherworking;165;0+190|RECIPE|7156|N|Learn [spell=7156] recipe, from Trainer.|
 M [item=5966/Guardian Gloves]|QID|165007156|P|Leatherworking;165;0+200;1|ITEM|5966|CRAFT|7156 10|MATS|4234 4;4236 1;4291 1|N|Alternately: [spell=7149/Barbaric Leggings], just click off this step to skip.|
-B [spell=7149/Barbaric Leggings]|QID|165001701|M|69.26,33.40|Z|1417|ITEM|5973|RECIPE|7149|T|Keena|N|Purchase [item=5973/Pattern Barbaric Leggings] from Keena, Hammerfall, Arathi Highlands. Limited Quanity Item, NOT BOP.|FACTION|Horde|
-B [spell=7149/Barbaric Leggings]|QID|165001701|M|40.4,48.8|Z|1417|ITEM|5973|RECIPE|7149|T|Hammon Karwn|N|Purchase [item=5973/Pattern Barbaric Leggings] from Hammon Karwn, Refuge Pointe, Arathi Highlands. Limited Quanity Item, NOT BOP.|FACTION|Alliance|
+B [spell=7149/Barbaric Leggings]|QID|165001701|M|46.45,47.39|Z|1417|ITEM|5973|RECIPE|7149|T|Keena|N|Purchase [item=5973/Pattern Barbaric Leggings] from Keena, Hammerfall, Arathi Highlands. Limited Quanity Item, NOT BOP.|FACTION|Horde|
+B [spell=7149/Barbaric Leggings]|QID|165001701|M|46.45,47.39|Z|1417|ITEM|5973|RECIPE|7149|T|Hammon Karwn|N|Purchase [item=5973/Pattern Barbaric Leggings] from Hammon Karwn, Refuge Pointe, Arathi Highlands. Limited Quanity Item, NOT BOP.|FACTION|Alliance|
 U Learn Recipe|QID|165007149|P|Leatherworking;165;0+190|ITEM|5973|U|5973|RECIPE|7149|N|Learn [spell=7149] from [item=5973] you just purchased.|
 M [item=5963/Barbaric Leggings]|QID|165007149|P|Leatherworking;165;0+200;1|ITEM|5963|CRAFT|7149 13|MATS|4234 10;2321 2;1206 1|
 = Learn Recipe|QID|165002001|P|Leatherworking;165;0+200|RECIPE|10487|N|Learn [spell=10487] recipe, from Trainer.|
