@@ -4,6 +4,7 @@
 * Spoony: Add /wp disable-addons and /wp enable-addons for taint debugging
 * Furydin: Add locale dependent Category to .toc's
 * Furydin: Switch to client independent GetItemInfo
+* Ludo: Update Vanilla Interface to 1.15.6
 ## Guide Updates
 * Retail Achievements: Added Felcycle mount
 * Vanilla Leveling Alliance: Alliance 25-30, 30-41, 42-50
