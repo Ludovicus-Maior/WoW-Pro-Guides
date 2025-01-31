@@ -1,3 +1,21 @@
+# Release 2025.01.31.A
+## Bug Fixes
+* Furydin: Don't blow up during debug logging if there's no QID!
+* Spoony: Add /wp disable-addons and /wp enable-addons for taint debugging
+* Furydin: Add locale dependent Category to .toc's
+* Furydin: Switch to client independent GetItemInfo
+* Ludo: Update Vanilla Interface to 1.15.6
+## Guide Updates
+* Retail Achievements: Added Felcycle mount
+* Vanilla Leveling Alliance: Alliance 25-30, 30-41, 42-50
+* Vanilla Leveling Horde: Hendo Chapter 2 (31-40).
+* Vanilla Profession: Leatherworking
+* Cata Leveling Alliance: Thousand Needles
+* Cata Leveling Horde: Shadowmoon
+* Retail Leveling Neutral: Azj-Kahet, , Fate of the Kirin Tor, Hallowfall, TWW Intro, Siren Isle, TRD
+* Retail World Events: TWW Lunar Festival
+
+
 # Release 2024.12.31.A
 ## Bug Fixes
 * Hendo: Debug mode glitch in GetQuestInfo()
@@ -10,6 +28,7 @@
 * Cata Leveling Alliance: Blasted Lands, Swamp of Sorrows, Dwarf/Gnome Intro
 * Retail Leveling Alliance:  Hinterlands, Loch Modan, Western Plaguelands, Wetlands
 * Retail Leveling Neutral: Eastern Plaguelands, Azj-Kahet, Fate of the Kirin Tor, Hallowfall, TWW Max Campaign, Siren Isle, TRD
+* Retail World Events: Guest Relations
 
 
 # Release 2024.12.18.A

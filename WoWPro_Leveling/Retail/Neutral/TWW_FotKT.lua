@@ -46,7 +46,7 @@ C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|2<5|M|63.25,45.30|Z|2
 C Trinkets, Curios and Other Powerful Objects|QID|83554|QO|1|M|62.73,40.99|Z|2248; Isle of Dorn|N|Kirin Tor Artifacts collected.|US|
 T Trinkets, Curios and Other Powerful Objects|QID|83554|M|61.53,42.84|Z|2248; Isle of Dorn|N|To Kalecgos.|
 T Mysterious Necklace|QID|83555|M|61.53,42.84|Z|2248; Isle of Dorn|N|To Kalecgos.|
-A Maybe You Shouldn't Touch That|QID|83556|PRE|81615&83554&83555|M|61.53,42.84|Z|2248; Isle of Dorn|N|From Kalecgos.|
+A Maybe You Shouldn't Touch That|QID|83556|PRE|83554&83555|M|61.53,42.84|Z|2248; Isle of Dorn|N|From Kalecgos.|
 C Maybe You Shouldn't Touch That|QID|83556|M|61.53,42.84|Z|2248; Isle of Dorn|N|Emerald Necklace inspected.|H|
 T Maybe You Shouldn't Touch That|QID|83556|M|PLAYER|N|To Kalecgos.|
 A Trapped Between Life and Death|QID|83641|PRE|83556|M|PLAYER|N|From Kalecgos.|
