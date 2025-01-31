@@ -7,9 +7,9 @@ local DefineZone1 = WoWPro.DefineZone1 -- New Classic style names
 local DefineZone2 = WoWPro.DefineZone2 -- New Classic BC
 local DefineZone3 = WoWPro.DefineZone3 -- New Classic Wrath
 local DefineZone4 = WoWPro.DefineZone4 -- New Classic Cata
-local DefineZone9 = WoWPro.DefineZone9 -- New 9.0 zones names
-local DefineZone10 = WoWPro.DefineZone10 -- New 10.0 zones names
-local DefineZone11 = WoWPro.DefineZone11 -- New 11.0 zones names
+local DefineZone9 = WoWPro.DefineZone9 -- New Shadowlands zones names
+local DefineZone10 = WoWPro.DefineZone10 -- New Dragonflight zones names
+local DefineZone11 = WoWPro.DefineZone11 -- New The War Within zones names
 
 local UIMapType = _G.Enum.UIMapType
 DefineZone1(0947, "Azeroth", UIMapType.World, 0000, nil, 1414, 1415, 1459, 1460, 1461)
@@ -5762,7 +5762,7 @@ DefineZone11(2206, "A.Z.E.R.O.T.H.!Dungeon", UIMapType.Dungeon, 1462, nil)
 DefineZone11(2207, "The Warlands!Dungeon", UIMapType.Dungeon, 0947, nil)
 DefineZone11(2211, "Aberrus, the Shadowed Crucible!Instance", UIMapType.Orphan, 2133, nil)
 DefineZone11(2213, "City of Threads", UIMapType.Zone, 2255, 454, 2343, 2344)
-DefineZone11(2214, "The Ringing Deeps!Khaz Algar", UIMapType.Zone, 2274, nil, 2251, 2302, 2303, 2304, 2341, 2345, 2346, 2387, 2388, 2396, 2406)
+DefineZone11(2214, "The Ringing Deeps!Khaz Algar", UIMapType.Zone, 2274, nil, 2251, 2302, 2303, 2304, 2341, 2345, 2346, 2387, 2388, 2396, 2406, 2428)
 DefineZone11(2215, "Hallowfall!Khaz Algar", UIMapType.Zone, 2274, nil, 2277, 2300, 2301, 2308, 2309, 2310, 2311, 2312, 2330, 2359)
 DefineZone11(2216, "City of Threads - Lower", UIMapType.Zone, 2255, 454)
 DefineZone11(2220, "Eternal Observatory@The Nighthold!Dungeon", UIMapType.Dungeon, 0680, 441)
@@ -5861,15 +5861,16 @@ DefineZone11(2375, "The Forgotten Vault", UIMapType.Micro, 2369, nil)
 DefineZone11(2385, "2601_RingingDeeps_Coreway_Minimap#2385!Dungeon", UIMapType.Dungeon, 0000, nil)
 DefineZone11(2387, "The Waterworks@Operation: Floodgate!Dungeon", UIMapType.Dungeon, 2214, 459)
 DefineZone11(2388, "The G.R.I.D.@Operation: Floodgate!Dungeon", UIMapType.Dungeon, 2214, 459)
-DefineZone11(2396, "Excavation Site 9", UIMapType.Zone, 2214, nil)
+DefineZone11(2396, "Excavation Site 9!Dungeon", UIMapType.Dungeon, 2214, nil)
 DefineZone11(2406, "Undermine!Dungeon", UIMapType.Dungeon, 2214, 458)
-DefineZone11(2407, "The Gallagio@UndermineRaid_B#2407!Dungeon", UIMapType.Dungeon, 0000, 458)
-DefineZone11(2408, "The Lucky Heart@UndermineRaid_C#2408!Dungeon", UIMapType.Dungeon, 0000, 458)
-DefineZone11(2409, "The House of Chrome@UndermineRaid_E#2409!Dungeon", UIMapType.Dungeon, 0000, 458)
-DefineZone11(2411, "Tower of Spades@UndermineRaid_D#2411!Dungeon", UIMapType.Dungeon, 0000, 458)
+DefineZone11(2407, "The Gallagio@Undermine#2407!Dungeon", UIMapType.Dungeon, 0000, 458)
+DefineZone11(2408, "The Lucky Heart@Undermine#2408!Dungeon", UIMapType.Dungeon, 0000, 458)
+DefineZone11(2409, "The House of Chrome@Undermine#2409!Dungeon", UIMapType.Dungeon, 0000, 458)
+DefineZone11(2411, "Tower of Spades@Undermine#2411!Dungeon", UIMapType.Dungeon, 0000, 458)
 DefineZone11(2420, "The Pits@Sidestreet Sluice!Dungeon", UIMapType.Dungeon, 2346, 460)
 DefineZone11(2421, "The Low Decks@Sidestreet Sluice!Dungeon", UIMapType.Dungeon, 2346, 460)
 DefineZone11(2422, "The High Decks@Sidestreet Sluice!Dungeon", UIMapType.Dungeon, 2346, 460)
 DefineZone11(2423, "Entrance@Sidestreet Sluice!Dungeon", UIMapType.Dungeon, 2346, 460)
-DefineZone11(2425, "Demolition Dome!Dungeon", UIMapType.Dungeon, 2346, nil)
-DefineZone11(2426, "11.1 Delves - Z6 - Demolition Dome_A!Dungeon", UIMapType.Dungeon, 2346, nil)
+DefineZone11(2425, "Demolition Dome!Dungeon", UIMapType.Dungeon, 2346, 461)
+DefineZone11(2426, "Demolition Arena@Demolition Dome!Dungeon", UIMapType.Dungeon, 2346, 461)
+DefineZone11(2428, "Research and Destruction@Undermine!Dungeon", UIMapType.Dungeon, 2214, 458)
