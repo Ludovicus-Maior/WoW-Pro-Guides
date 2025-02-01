@@ -18,7 +18,6 @@
 ## Category-ruRU: Задания
 ## Category-zhCN: 任务
 ## Category-zhTW: 任務
->>>>>>> 4b900c1c6cae470c0d9cf9da6c18e8b2def3e430
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 Libraries\LibStub\LibStub.lua
