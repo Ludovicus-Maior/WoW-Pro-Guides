@@ -121,27 +121,27 @@ R Tinker Town|QID|1449|N|Take the tram ride and then run into Ironforge.|
 F Southshore|QID|1449|M|55.50,47.76|Z|Ironforge|N|Flight to Hillsbrad Foothills.|
 R The Hinterlands|QID|1449|M|86.10,30.06;90.01,25.00|CC|Z|Hillsbrad Foothills|N|Run behind Durnholde and follow the valley ahead.|
 
-A Troll Necklace Bounty|QID|2880|M|14.83,44.56|Z|The Hinterlands|N|From Fraggar Thundermantle.|
-T To The Hinterlands|QID|1449|M|11.81,46.77|Z|The Hinterlands|N|To Falstad Wildhammer.|
-A Gryphon Master Talonaxe|QID|1450|M|11.81,46.77|Z|The Hinterlands|N|From Falstad Wildhammer.|PRE|1449|
-f Aerie Peak|QID|1450|M|11.07,46.15|Z|The Hinterlands|N|Get the flight path at Guthrum Thunderfist.|
-T Gryphon Master Talonaxe|QID|1450|M|9.75,44.47|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
-A Rhapsody Shindigger|QID|1451|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|1450|
-A Witherbark Cages|QID|2988|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
-R Shindigger's Camp|ACTIVE|1451|M|20.2,48.3;25.11,46.87|CC|Z|The Hinterlands|N|East from Aerie Peak to find a small path up the mountain.|
-T Rhapsody Shindigger|QID|1451|M|26.94,48.59|Z|The Hinterlands|N|To Rhapsody Shindigger.|
-A Rhapsody's Kalimdor Kocktail|QID|1452|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger.|PRE|1451|
-K Troll Necklace Bounty|ACTIVE|2880|M|24.8,55.4|Z|The Hinterlands|S|QO|1|N|Kill the trolls to collect the Necklaces.|
-C Check cages|QID|2988|QO|1|M|23.28,58.75|Z|The Hinterlands|N|Check the first Witherbark Cage here after clearing the camp.|
-C Check cages|QID|2988|QO|2|M|23.15,58.76|Z|The Hinterlands|N|Check the second Witherbark Cage here after clearing the camp.|
-C Witherbark Cages|QID|2988|QO|3|M|31.94,57.35|Z|The Hinterlands|N|Check the third cage at this location.|
-R Shadra'Alor|ACTIVE|49|M|35.83,63.65|Z|The Hinterlands|N|Run to the entrance of Shadra'Alor.|
-C Sweet Amber|QID|49|M|39.99,66.25|Z|The Hinterlands|QO|3|N|Click on the Sack of Rye.|
-K Troll Necklace Bounty|QID|2880|M|24.8,55.4|Z|The Hinterlands|US|QO|1|N|Finish collecting the trolls' necklaces.|
-T Troll Necklace Bounty|QID|2880|M|14.83,44.57|Z|The Hinterlands|N|To Fraggar Thundermantle.|
-T Witherbark Cages|QID|2988|M|9.74,44.47|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
+A Troll Necklace Bounty|QID|2880|M|14.83,44.56|Z|1425; The Hinterlands|N|From Fraggar Thundermantle.|
+T To The Hinterlands|QID|1449|M|11.81,46.77|Z|1425; The Hinterlands|N|To Falstad Wildhammer.|
+A Gryphon Master Talonaxe|QID|1450|M|11.81,46.77|Z|1425; The Hinterlands|N|From Falstad Wildhammer.|PRE|1449|
+f Aerie Peak|QID|1450|M|11.07,46.15|Z|1425; The Hinterlands|N|Get the flight path at Guthrum Thunderfist.|
+T Gryphon Master Talonaxe|QID|1450|M|9.75,44.47|Z|1425; The Hinterlands|N|To Gryphon Master Talonaxe.|
+A Rhapsody Shindigger|QID|1451|M|9.75,44.47|Z|1425; The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|1450|
+A Witherbark Cages|QID|2988|M|9.75,44.47|Z|1425; The Hinterlands|N|From Gryphon Master Talonaxe.|
+R Shindigger's Camp|ACTIVE|1451|M|20.2,48.3;25.11,46.87|CC|Z|1425; The Hinterlands|N|East from Aerie Peak to find a small path up the mountain.|
+T Rhapsody Shindigger|QID|1451|M|26.94,48.59|Z|1425; The Hinterlands|N|To Rhapsody Shindigger.|
+A Rhapsody's Kalimdor Kocktail|QID|1452|M|26.94,48.59|Z|1425; The Hinterlands|N|From Rhapsody Shindigger.|PRE|1451|
+K Troll Necklace Bounty|ACTIVE|2880|M|24.8,55.4|Z|1425; The Hinterlands|S|QO|1|N|Kill the trolls to collect the Necklaces.|
+C Check cages|QID|2988|QO|1|M|23.28,58.75|Z|1425; The Hinterlands|N|Check the first Witherbark Cage here after clearing the camp.|
+C Check cages|QID|2988|QO|2|M|23.15,58.76|Z|1425; The Hinterlands|N|Check the second Witherbark Cage here after clearing the camp.|
+C Witherbark Cages|QID|2988|QO|3|M|31.94,57.35|Z|1425; The Hinterlands|N|Check the third cage at this location.|
+R Shadra'Alor|ACTIVE|49|M|35.83,63.65|Z|1425; The Hinterlands|N|Run to the entrance of Shadra'Alor.|
+C Sweet Amber|QID|49|M|39.99,66.25|Z|1425; The Hinterlands|QO|3|N|Click on the Sack of Rye.|
+K Troll Necklace Bounty|QID|2880|M|24.8,55.4|Z|1425; The Hinterlands|US|QO|1|N|Finish collecting the trolls' necklaces.|
+T Troll Necklace Bounty|QID|2880|M|14.83,44.57|Z|1425; The Hinterlands|N|To Fraggar Thundermantle.|
+T Witherbark Cages|QID|2988|M|9.74,44.47|Z|1425; The Hinterlands|N|To Gryphon Master Talonaxe.|
 
-F Refuge Pointe|ACTIVE|670|M|11.07,46.16|Z|The Hinterlands|N|Fly to Arathi Highlands.|
+F Refuge Pointe|ACTIVE|670|M|11.07,46.16|Z|1425; The Hinterlands|N|Fly to Arathi Highlands.|
 R Faldir's Cove|ACTIVE|670|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
 T Sunken Treasure|QID|670|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen. Be sure to read the next steps note before accepting the next quest.|
 A Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|From Shakes O'Breen.\n\nWhen you start this, you will need to run up the ramp onto the boat and interact with the cannon to make it fire. When naga spawn and run into your sights, click to fire. Easiest quest in the game.|PRE|670|
@@ -411,7 +411,7 @@ T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzle
 R Thousand Needles|ACTIVE|3841|M|51.00,19.00|Z|Tanaris|N|Go north to Thousand Needles.|
 R Mirage Raceway|ACTIVE|3841|M|78.3,74.7|Z|Thousand Needles|N|Continue north to the Mirage Raceway.|
 T The Brassbolts Brothers|QID|2769|M|78.14,77.13|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts.|
+A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts.|DUNGEON|
 T An Orphan Looking For a Home|QID|3841|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
 A A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|From Quentin.|PRE|3841|
 T A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
@@ -419,42 +419,42 @@ A The Newest Member of the Family|QID|3843|M|78.35,74.72|Z|Thousand Needles|N|Fr
 
 H Ironforge|QID|1000|ACTIVE|3843^626|N|Your hearthstone should be set to Ironforge. If not, you can fly from Gadgetzan to Dustwallow Marsh, take the boat from there to Menethil Harbor, then fly from there to Aerie Peak and check this off manually.|
 F Aerie Peak|QID|1452|M|55.50,47.75|Z|Ironforge|N|Head up to the Hinterlands|
-A The Altar of Zul|QID|2989|M|9.75,44.48|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2988|
-T The Newest Member of the Family|QID|3843|M|14.16,43.62|Z|The Hinterlands|N|To Agnar Beastamer, in the basement of the inn. Stairs down are on the sides.|
-A Food for Baby|QID|4297|M|14.16,43.62|Z|The Hinterlands|N|From Agnar Beastamer.|PRE|3843|
-A Skulk Rock Clean-up|QID|2877|M|14.8,44.6|Z|The Hinterlands|N|From Fraggar Thundermantle.|
+A The Altar of Zul|QID|2989|M|9.75,44.48|Z|1425; The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2988|
+T The Newest Member of the Family|QID|3843|M|14.16,43.62|Z|1425; The Hinterlands|N|To Agnar Beastamer, in the basement of the inn. Stairs down are on the sides.|
+A Food for Baby|QID|4297|M|14.16,43.62|Z|1425; The Hinterlands|N|From Agnar Beastamer.|PRE|3843|
+A Skulk Rock Clean-up|QID|2877|M|14.8,44.6|Z|1425; The Hinterlands|N|From Fraggar Thundermantle.|
 C Wildkin Feathers|QID|3661|S|NC|N|These are ground spawn, NOT drops from the Owlbeasts. Pick up all you see.|
-T Rhapsody's Kalimdor Kocktail|QID|1452|M|20.2,48.3;26.94,48.59|Z|The Hinterlands|CS|N|Up the dirt path to Rhapsody Shindigger.|
-A Rhapsody's Tale|QID|1469|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger, after a moment to get good and drunk.|PRE|1452|
+T Rhapsody's Kalimdor Kocktail|QID|1452|M|20.2,48.3;26.94,48.59|Z|1425; The Hinterlands|CS|N|Up the dirt path to Rhapsody Shindigger.|
+A Rhapsody's Tale|QID|1469|M|26.94,48.59|Z|1425; The Hinterlands|N|From Rhapsody Shindigger, after a moment to get good and drunk.|PRE|1452|
 
-C Food for Baby|QID|4297|M|63.00,50.00|Z|The Hinterlands|S|N|Kill Silvermane Stalkers for their flanks. The are stealthed and can sneak up on you|
-C Sprinkle's Secret Ingredient|QID|2641|M|40.00,59.90|Z|The Hinterlands|N|Go into Valorwind Lake and pick a white/red mushroom called 'Violet Tragan'. Loot it, (don't click it in your inventory).|
-R The Altar of Zul|ACTIVE|2989|M|49,68|Z|The Hinterlands|N|Run to the Alter of Zul.|
-C The Altar of Zul|QID|2989|M|49.00,68.00|Z|The Hinterlands|NC|N|Go to the altar to get the quest complete message. (stealth, invis, etc, it all works)|
-C Green Sludge|QID|2877|QO|1|M|46.00,40.00|Z|The Hinterlands|N|Kill 10 Green Sludges at this location.|
-C Skulk Rock Clean-up|QID|2877|QO|2|M|56.00,44.00|Z|The Hinterlands|N|Go here and kill the Jade Oozes needed for the quest.|
+C Food for Baby|QID|4297|M|63.00,50.00|Z|1425; The Hinterlands|S|N|Kill Silvermane Stalkers for their flanks. The are stealthed and can sneak up on you|
+C Sprinkle's Secret Ingredient|QID|2641|M|40.00,59.90|Z|1425; The Hinterlands|N|Go into Valorwind Lake and pick a white/red mushroom called 'Violet Tragan'. Loot it, (don't click it in your inventory).|
+R The Altar of Zul|ACTIVE|2989|M|49,68|Z|1425; The Hinterlands|N|Run to the Alter of Zul.|
+C The Altar of Zul|QID|2989|M|49.00,68.00|Z|1425; The Hinterlands|NC|N|Go to the altar to get the quest complete message. (stealth, invis, etc, it all works)|
+C Green Sludge|QID|2877|QO|1|M|46.00,40.00|Z|1425; The Hinterlands|N|Kill 10 Green Sludges at this location.|
+C Skulk Rock Clean-up|QID|2877|QO|2|M|56.00,44.00|Z|1425; The Hinterlands|N|Go here and kill the Jade Oozes needed for the quest.|
 A Find OOX-09/HL!|QID|485|U|8704|N|If you found the OOX-09/HL Distress Beacon, right-click it to start this quest.|
-t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|The Hinterlands|N|To OOX-09/HL.|
-A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|The Hinterlands|N|From OOX-09/HL.|PRE|485|
+t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|1425; The Hinterlands|N|To OOX-09/HL.|
+A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|1425; The Hinterlands|N|From OOX-09/HL.|PRE|485|
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you are having too many difficulties.|
 
-R The Overlook Cliffs|QID|1000|ACTIVE|2944^626^580|M|70,63|Z|The Hinterlands|N|Run southeast to the Overlook Cliffs and follow the path down to the shore. You can usually spot Gammerita while still on the path, so you know which way to go at the bottom.|
-C Whiskey Slim's Lost Grog|QID|580|M|82,49;75,67|Z|The Hinterlands|CN|NC|S|N|Collect the Pupellyverbos Port that is scattered along the shore, they are tiny blue bottles, hard to see, may need to crank graphics down to see clearly.|
-T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Dive down under the waterfall, and find Cortello's Chest and collect your prize.|
-K Gammerita|ACTIVE|2944|M|82,49;75,67|Z|The Hinterlands|CN|U|9328|L|9330|T|Gammerita|N|Search the coast for an aggressive-flagged turtle named Gammerita. Take her picture with the Super Snapper FX. The camera will cause her to charge, but you can run, vanish, etc, don't have to kill her.(Picture of her dead works, if she is dead when you arrive.)|
-C Whiskey Slim's Lost Grog|QID|580|M|82,49;75,67|Z|The Hinterlands|CN|NC|US|N|Collect the Pupellyverbos Port that is scattered along the shore, they are tiny blue bottles, hard to see, may need to crank graphics down to see clearly.|
-C Food for Baby|QID|4297|M|63.00,50.00|Z|The Hinterlands|US|N|Kill Silvermane Stalkers for their flanks. Start making your way back toward Aerie Peak.|
-C Wildkin Feathers|QID|3661|S|NC|N|Pick up from the ground, might need to crank down graphics. Start making your way back toward Aerie Peak.|
+R The Overlook Cliffs|QID|1000|ACTIVE|2944^626^580|M|70,63|Z|1425; The Hinterlands|N|Run southeast to the Overlook Cliffs and follow the path down to the shore. You can usually spot Gammerita while still on the path, so you know which way to go at the bottom.|
+C Whiskey Slim's Lost Grog|QID|580|M|82,49;75,67|Z|1425; The Hinterlands|CN|NC|S|N|Collect the Pupellyverbos Port that is scattered along the shore, they are tiny blue bottles, hard to see, may need to crank graphics down to see clearly.|
+T Cortello's Riddle|QID|626|M|80.81,46.79|Z|1425; The Hinterlands|N|Dive down under the waterfall, and find Cortello's Chest and collect your prize.|
+K Gammerita|ACTIVE|2944|M|82,49;75,67|Z|1425; The Hinterlands|CN|U|9328|L|9330|T|Gammerita|N|Search the coast for an aggressive-flagged turtle named Gammerita. Take her picture with the Super Snapper FX. The camera will cause her to charge, but you can run, vanish, etc, don't have to kill her.(Picture of her dead works, if she is dead when you arrive.)|
+C Whiskey Slim's Lost Grog|QID|580|M|82,49;75,67|Z|1425; The Hinterlands|CN|NC|US|N|Collect the Pupellyverbos Port that is scattered along the shore, they are tiny blue bottles, hard to see, may need to crank graphics down to see clearly.|
+C Food for Baby|QID|4297|M|63.00,50.00|Z|1425; The Hinterlands|US|N|Kill Silvermane Stalkers for their flanks. Start making your way back toward Aerie Peak.|
+C Wildkin Feathers|QID|3661|US|NC|N|Pick up from the ground, might need to crank down graphics. Start making your way back toward Aerie Peak.|
 
-R Wildhammer Keep|QID|2989|N|Run back to Wildhammer Keep. Save your hearthstone, we will need it shortly.|
-T Skulk Rock Clean-up|QID|2877|M|14.84,44.57|Z|The Hinterlands|N|To Fraggar Thundermantle.|
-T Food for Baby|QID|4297|M|14.15,43.62|Z|The Hinterlands|N|To Agnar Beastamer. Downstairs in the basement|
-A Becoming a Parent|QID|4298|M|14.15,43.62|Z|The Hinterlands|N|From Agnar Beastamer.|PRE|4297|
-T Becoming a Parent|QID|4298|M|14.15,43.62|Z|The Hinterlands|N|To Agnar Beastamer.|
-T The Altar of Zul|QID|2989|M|9.75,44.47|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
-A Thadius Grimshade|QID|2990|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2989|
+R Wildhammer Keep|QID|2989|M|14.84,44.57|Z|1425; The Hinterlands|N|Run back to Wildhammer Keep. Save your hearthstone, we will need it shortly.|
+T Skulk Rock Clean-up|QID|2877|M|14.84,44.57|Z|1425; The Hinterlands|N|To Fraggar Thundermantle.|
+T Food for Baby|QID|4297|M|14.15,43.62|Z|1425; The Hinterlands|N|To Agnar Beastamer. Downstairs in the basement|
+A Becoming a Parent|QID|4298|M|14.15,43.62|Z|1425; The Hinterlands|N|From Agnar Beastamer.|PRE|4297|
+T Becoming a Parent|QID|4298|M|14.15,43.62|Z|1425; The Hinterlands|N|To Agnar Beastamer.|
+T The Altar of Zul|QID|2989|M|9.75,44.47|Z|1425; The Hinterlands|N|To Gryphon Master Talonaxe.|
+A Thadius Grimshade|QID|2990|M|9.75,44.47|Z|1425; The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2989|
 
-F Menethil Harbor|QID|2944|M|11.07,46.15|Z|The Hinterlands|N|Fly to Menethil Harbor.|
+F Menethil Harbor|QID|2944|M|11.07,46.15|Z|1425; The Hinterlands|N|Fly to Menethil Harbor.|
 b Darkshore|QID|2944|M|4.59,57.15|Z|Wetlands|N|Take Boat to Darkshore.|
 F Rut'theran Village|ACTIVE|2944|N|Travel to Rut'theran Village (Darnassus).|
 T Favored of Elune?|QID|3661|M|55.49,92.05|Z|Teldrassil|N|To Erelas Ambersky.|
