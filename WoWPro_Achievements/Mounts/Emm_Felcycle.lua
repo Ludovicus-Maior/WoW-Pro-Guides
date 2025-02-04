@@ -30,17 +30,18 @@ B Scroll of Fel Binding|AVAILABLE|84780|M|PLAYER|L|228987|N|Unless you are a war
 B "Dogg-Saron" Costume|AVAILABLE|84677|M|PLAYER|L|229413|N|Unless you have the "Yipp-Saron" costume or are counting on a friend, you will need to purchase the "Dogg-Saron" costume to worship the old gods in Orb 2. Only one worshipper present needs to have this, whether or not they are in your group. Check this off manually if you choose not to purchase.|ITEM|229413|
 A Surprisingly Pristine Celebration Crate|QID|84625|M|37.40,47.60|Z|634;Stormheim|N|Place the bones at the Unmarked Grave in Stormheim.|U|228772|ACH|40870|
 
-t Battered Celebration Crate|QID|83931|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Waterlogged Celebration Crate|QID|84426|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Dirt-Caked Celebration Crate|QID|84470|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Mildewed Celebration Crate|QID|85523|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Hazy Celebration Crate|QID|85574|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Sandy Celebration Crate|QID|84624|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Surprisingly Pristine Celebration Crate|QID|84625|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Charred Celebration Crate|QID|84767|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Crystalized Celebration Crate|QID|84773|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Soggy Celebration Crate|QID|83794|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
-t Ghostly Celebration Crate|QID|84909|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|
+H Dornagal|ACTIVE|83931^84426^84470^85523^85574^84624^84625^84767^84773^83794^84909|N|Hearth or otherwise return to Dornagal.|
+t Battered Celebration Crate|QID|83931|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Waterlogged Celebration Crate|QID|84426|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Dirt-Caked Celebration Crate|QID|84470|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Mildewed Celebration Crate|QID|85523|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Hazy Celebration Crate|QID|85574|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Sandy Celebration Crate|QID|84624|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Surprisingly Pristine Celebration Crate|QID|84625|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Charred Celebration Crate|QID|84767|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Crystalized Celebration Crate|QID|84773|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Soggy Celebration Crate|QID|83794|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
+t Ghostly Celebration Crate|QID|84909|M|50.34,38.70|Z|2239;Dornagal|N|To Alyx.|IZ|2239|
 
 N Congratulations|QID|84684|N|You can now start the felcycle jorney. Set your title to Detective.|
 = Fishing[spell=7731/fishing|M|50.6,27.0|Z|2339;Dornogal|N|If you haven't learned fishing, it will be needed later, skill 1 is fine.|P|Fishing;356;1;true|
@@ -82,14 +83,13 @@ B Fledgling Warden Owl|QID|84823|N|Requires 400 gold and Revered with the Warden
 N Outside Resources|N|Some of these steps are made much easier by the use of addons or other websites, those will be mentioned, and while not essential, they are HIGHLY recomended.|
 
 A Ratts' Race|QID|84684|M|54.99,28.92|Z|2339;Dornogal|N|From Dalaran Survivor, in Dornogal.|
-C Ratts' Race|QID|84684|M|68.56,93.05;69.33,93.33|CS|Z|2255;Azj-Kahet|N|Find Unfinished Note inside a small cave in Azj-Kahet.|
-C Ratts' Race|QID|84684|M|31.49,20.75|Z|2213;City of Threads|N|Find a Hastily Scrawled Note on a ledge above the City of Threads in Azj-Kahet.|
-C Ratts' Race|QID|84684|M|48.98,85.33;50.73,86.64|CS|Z|2215;Hallowfall|N|Fly up the the Hallowfall border and then follow the left wall into an alcove with a pool of water. You will find the  Water-Resistant Note in that pool. Technically in Azj-Kahet, but very difficult to find if you don't start in Hallowfall.|
+C Ratts' Race|QID|84684|QO|1|M|68.56,93.05;69.33,93.33|CS|Z|2255;Azj-Kahet|N|Find Unfinished Note inside a small cave in Azj-Kahet.|
+C Ratts' Race|QID|84684|QO|2|M|31.49,20.75|Z|2213;City of Threads|N|Find a Hastily Scrawled Note on a ledge above the City of Threads in Azj-Kahet.|
+C Ratts' Race|QID|84684|QO|3|M|48.98,85.33;50.73,86.64|CS|Z|2215;Hallowfall|N|Fly up the the Hallowfall border and then follow the left wall into an alcove with a pool of water. You will find the  Water-Resistant Note in that pool. Technically in Azj-Kahet, but very difficult to find if you don't start in Hallowfall.|
 R Pillar-nest Vosh|ACTIVE|84684|M|55.03,19.09|Z|2215;Hallowfall|N|Head to Pillar-nest Vosh and go inside.|
 T Ratts' Race|QID|84684|M|56.38,17.42|N|In the back of this cave is a hidden entrance to a small cave, where you will actually find Ratts. Climb up the wall and jump in the spider hole to get to the final location. The spider cave is found up a short wall. near Agaricus Festerbloom, (just like the one in Pillar-nest Xesh where you have to read a book for a different Achievement). Once you are inside the smaller cave, you will see a short dialog with Ratts, then turn in to the item she leaves behind.|
 l Peculiar Key|PRE|84684|AVAILABLE|84676|N|Combine the Inert Peculiar Key and the Inert Peculiar Gem to create the Peculiar Key.|U|228941|L|44124|
 
-;maybe add run steps -- need to grab subzone names for spots
 R Grol'dom Farm|PRE|84684|AVAILABLE|84676|M|55,40.2|Z|Northern Barrens|N|Head to Northern Barrens, to see the Monument Mankrik made for his wife Olgra.|
 N Orb 1-Humble Monoument|QID|84676|M|55,40.2|Z|Northern Barrens|N|A little tour to find out about Mankrik and Olgra's enduring love. Use your torch at the 'humble monument' Mankrik made.|U|208092|BUFF|153715<1|
 R Silence Pond|PRE|84684|AVAILABLE|84676|M|74.2,37.5|Z|550;Nagrand|N|Head to Nagrand in Draenor.|LEAD|35170|
