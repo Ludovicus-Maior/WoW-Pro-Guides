@@ -366,37 +366,29 @@ elseif WoWPro.RETAIL then
         local tradeskills = {}
 
         -- first scan all profession tradeskill lines that are learned
-        local tradeSkills = _G.C_TradeSkillUI.GetAllProfessionTradeSkillLines()
+        local tradeSkills = C_TradeSkillUI.GetAllProfessionTradeSkillLines()
         for _, skillLineID in pairs(tradeSkills) do
-            -- WoWPro:dbp("UpdateTradeSkills() scanning %d", skillLineID)
-            local professionInfo = _G.C_TradeSkillUI.GetProfessionInfoBySkillLineID(skillLineID)
-            -- WoWPro:dbp("UpdateTradeSkills() scanned %d/%s", skillLineID, professionInfo.professionName)
+            local professionInfo = C_TradeSkillUI.GetProfessionInfoBySkillLineID(skillLineID)
             if professionInfo.skillLevel > 0 and WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,
                     skillLvl = professionInfo.skillLevel,
-                    skillMax = professionInfo.maxSkillLevel,
-                    skillMod = professionInfo.skillModifier
+                    maxSkillLvl = professionInfo.maxSkillLevel
                 }
-                WoWPro:dbp("UpdateTradeSkills() added %d/%s skillLvl=%d skillMax=%d", skillLineID, professionInfo.professionName, professionInfo.skillLevel, professionInfo.maxSkillLevel)
                 scanned = scanned + 1
             end
         end
 
         -- scan with GetProfessions()
         for _, profID in pairs({_G.GetProfessions()}) do
-            -- WoWPro:dbp("UpdateTradeSkills() scan profession %d", profID)
             local name, _, skillLineRank, skillLineMaxRank, _, _, skillLineID, skillLineModifier = _G.GetProfessionInfo(profID)
-            -- WoWPro:dbp("UpdateTradeSkills() scanning %s/%s/%d", name, tostring(subName), skillLineID)
-            -- skillLineID is always the parent ID, so once you learn an expansion, ...
             if WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,
                     skillLvl = skillLineRank,
-                    skillMax = skillLineMaxRank,
+                    maxSkillLvl = skillLineMaxRank,
                     skillMod = skillLineModifier
                 }
-                WoWPro:dbp("UpdateTradeSkills() added %d/%s", skillLineID, name)
                 scanned = scanned + 1
             end
         end

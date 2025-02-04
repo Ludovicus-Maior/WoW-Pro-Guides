@@ -407,3 +407,77 @@ function WoWPro.SetAtlasOrTexture(tex, path)
         tex:SetTexture(path)
     end
 end
+
+-- Version detection and API compatibility layer
+local function InitializeVersions()
+    WoWPro.RETAIL = (WoWPro.TocVersion >= WoWPro.RETAIL_RELEASE * 10000)
+    WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
+    WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
+    WoWPro.WAR_WITHIN = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 120000))
+    
+    -- API Version handling
+    WoWPro.APIVersion = select(4, GetBuildInfo())
+    WoWPro.UseNewAPI = WoWPro.APIVersion >= 110002
+end
+
+-- Compatibility wrappers for different API versions
+local API = {
+    -- Quest API
+    GetQuestInfo = function(questID)
+        if WoWPro.UseNewAPI then
+            return C_QuestLog.GetQuestInfo(questID)
+        else
+            return GetQuestLogTitle(questID)
+        end
+    end,
+    
+    -- Gossip API
+    GetActiveQuests = function()
+        if WoWPro.UseNewAPI then
+            return C_GossipInfo.GetActiveQuests()
+        else
+            return WoWPro.GossipInfo_GetActiveQuests()
+        end
+    end,
+    
+    -- Trade Skill API
+    GetTradeSkillLine = function()
+        if WoWPro.RETAIL then
+            local professionInfo = C_TradeSkillUI.GetBaseProfessionInfo()
+            return professionInfo.professionName, professionInfo.skillLevel, professionInfo.maxSkillLevel
+        else
+            return GetTradeSkillLine()
+        end
+    end,
+    
+    -- Achievement API
+    IsValidAchievement = function(achievementID)
+        if WoWPro.UseNewAPI then
+            return C_AchievementInfo.IsValidAchievement(achievementID)
+        else
+            local _, _, _, completed = GetAchievementInfo(achievementID)
+            return completed ~= nil
+        end
+    end,
+    
+    -- Aura API
+    GetAuraInfo = function(unit, index, filter)
+        if WoWPro.UseNewAPI then
+            local aura = C_UnitAuras.GetAuraDataByIndex(unit, index, filter)
+            return aura and aura.name, aura.icon, aura.count, aura.debuffType, aura.duration, aura.expirationTime
+        else
+            return UnitAura(unit, index, filter)
+        end
+    end
+}
+
+-- Export the API compatibility layer
+WoWPro.API = API
+
+-- Initialize versions when addon loads
+WoWPro.eventFrame:RegisterEvent("ADDON_LOADED")
+WoWPro.eventFrame:SetScript("OnEvent", function(_, event, arg1)
+    if event == "ADDON_LOADED" and arg1 == "WoWPro" then
+        InitializeVersions()
+    end
+end)
