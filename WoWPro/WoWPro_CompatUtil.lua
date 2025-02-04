@@ -1,4 +1,6 @@
--- luacheck: globals tinsert select string unpack
+-- luacheck: globals GetBuildInfo C_QuestLog GetQuestLogTitle C_GossipInfo C_TradeSkillUI GetTradeSkillLine C_AchievementInfo GetAchievementInfo C_UnitAuras UnitAura
+
+local _, WoWPro = ...
 
 --[[
     This is a compatability layer between Classic and Retail, and is
