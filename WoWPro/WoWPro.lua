@@ -934,23 +934,82 @@ end
 
 function WoWPro.BuildGuideInMenuList()
     WoWPro.GuideMenuList = {}
+    
+    -- Create categories table first
+    local categories = {}
     for gid, guide in pairs(WoWPro.Guides) do
-        local guidetype = guide.guidetype
-        if guide.TopCategory then
-            guidetype = guide.TopCategory
-        end
         if not guide.secret then
-            WoWPro.RegisterGuideInMenuList(guidetype, guide.category or "?",  guide.name or "??", gid)
+            local guidetype = guide.guidetype
+            local category = guide.category or "Uncategorized"
+            local topcat = guide.TopCategory or guidetype
+            
+            categories[topcat] = categories[topcat] or {}
+            categories[topcat][category] = categories[topcat][category] or {}
+            table.insert(categories[topcat][category], {
+                name = guide.name or "??",
+                gid = gid,
+                sortlevel = guide.sortlevel
+            })
         end
     end
+    
+    -- Build menu structure
+    for topcat, cats in pairs(categories) do
+        local topmenu = {
+            text = topcat,
+            hasArrow = true,
+            menuList = {}
+        }
+        
+        for category, guides in pairs(cats) do
+            local submenu = {
+                text = category,
+                hasArrow = true,
+                menuList = {{text = "Select a Guide", isTitle = true}}
+            }
+            
+            -- Sort guides within category
+            table.sort(guides, function(a, b)
+                if a.sortlevel and b.sortlevel then
+                    return a.sortlevel < b.sortlevel
+                end
+                return a.name < b.name
+            end)
+            
+            -- Add guides to submenu
+            for _, guide in ipairs(guides) do
+                table.insert(submenu.menuList, {
+                    text = guide.name,
+                    func = function() WoWPro:LoadGuide(guide.gid) end
+                })
+            end
+            
+            table.insert(topmenu.menuList, submenu)
+        end
+        
+        table.insert(WoWPro.GuideMenuList, topmenu)
+    end
+    
+    -- Add recent guides section
+    local recentMenu = {
+        text = "Recent Guides",
+        hasArrow = true,
+        menuList = {{text = "Select a Guide", isTitle = true}}
+    }
+    
     for _, gid in ipairs(WoWProCharDB.GuideStack) do
         local guide = WoWPro.Guides[gid]
         if guide and (not guide.secret) then
-            -- the '[' is used to sort to the bottom of the list
-            WoWPro.RegisterGuideInMenuList("[Recent Guides]", guide.guidetype,  guide.name or "??", gid)
+            table.insert(recentMenu.menuList, {
+                text = guide.name or "??",
+                func = function() WoWPro:LoadGuide(gid) end
+            })
         end
     end
-    -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
+    
+    table.insert(WoWPro.GuideMenuList, 1, recentMenu)
+    
+    -- Sort the entire menu
     SortNestedMenu(WoWPro.GuideMenuList, true)
 end
 

@@ -916,28 +916,30 @@ end
 -- Dropdown Menu --
 function WoWPro:CreateDropdownMenu()
     WoWPro.DropdownMenu = {
-        {text = L["Main Settings"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
-        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "mainConfig")
-        end},
-        {text = L["Guide Frame Settings"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
-        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "displayConfig")
-        end},
-        {text = L["New Style Guide Select"], func = function()
-            WoWPro.ShowGuideMenu()
-        end},
-        {text = L["Old Style Guidelist"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
-        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideSelect")
-        end},
-        {text = L["Current Guide"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
-        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "currentGuide")
-        end},
-        {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
-        {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true); end },
-        {text = L["Quest Picker"], func = WoWPro.PickQuestline }
+        {text = L["Guide Menu"], hasArrow = true, menuList = {
+            {text = L["Current Guide"], func = function()
+                WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+                _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "currentGuide")
+            end},
+            {text = L["Browse Guides"], func = function()
+                WoWPro.ShowGuideMenu()
+            end},
+            {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide},
+        }},
+        {text = L["Settings"], hasArrow = true, menuList = {
+            {text = L["Main Settings"], func = function()
+                WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+                _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "mainConfig")
+            end},
+            {text = L["Guide Frame Settings"], func = function()
+                WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+                _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "displayConfig")
+            end},
+        }},
+        {text = L["Tools"], hasArrow = true, menuList = {
+            {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true) end},
+            {text = L["Quest Picker"], func = WoWPro.PickQuestline},
+        }},
     }
 end
 
