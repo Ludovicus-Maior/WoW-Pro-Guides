@@ -15,9 +15,9 @@ A The Dark Iron War|QID|303|M|49.6,18.2|Z|Wetlands|N|From Motley Garmason in Wet
 C The Dark Iron War|QID|303|M|49.6,18.2|Z|Wetlands|N|Kill the required mobs in the area.|
 T The Dark Iron War|QID|303|M|49.6,18.2|Z|Wetlands|N|To Motley Garmason in Wetlands.|
 A The Fury Runs Deep|QID|378|M|49.6,18.2|Z|Wetlands|N|From Motley Garmason in Wetlands.|
-A Crime and Punishment|QID|377|M|72.0,47.8|Z|Duskwood|N|From Councilman Millstipe in Duskwood.|
+A Crime and Punishment|QID|377|M|72.0,47.8|Z|1431; Duskwood|N|From Councilman Millstipe in Duskwood.|
 N Run Stockades. right when finished.|
-T Crime and Punishment|QID|377|M|72.0,47.8|Z|Duskwood|N|From Councilman Millstipe in Duskwood.|
+T Crime and Punishment|QID|377|M|72.0,47.8|Z|1431; Duskwood|N|From Councilman Millstipe in Duskwood.|
 T Quell The Uprising|QID|387|M|41.2,58.0|Z|1453;Stormwind City|N|To Warden Thelwater in Stormwind|
 T What Comes Around...|QID|386|M|26.4,46.6|Z|1433;Redridge Mountains|N|From Guard Berton in Lakeshire.|
 T The Fury Runs Deep|QID|303|M|49.6,18.2|Z|Wetlands|N|From Motley Garmason in Wetlands.|

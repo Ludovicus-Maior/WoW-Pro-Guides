@@ -261,12 +261,12 @@ T Finding the Antidote|QID|813|M|47.24,53.58|Z|Orgrimmar|N|Go back to Khorgan an
 R Leave Orgrimmar|QID|812|M|52.55,85.45|Z|Orgrimmar|CC|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 C Lost But Not Forgotten|QID|816|M|37.22,20.26|N|Go to the Southfury River and kill Dreadmaw Crocolisks until you get Kron's Amulet.|
-T Conscript of the Horde|QID|840|M|62.26,19.37|Z|The Barrens|N|To Kargal Battlescar.|
-A Crossroads Conscription|QID|842|PRE|840|M|62.26,19.37|Z|The Barrens|N|From Kargal Battlescar.|
-T Veteran Uzzek|QID|1505|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
-A Path of Defense|QID|1498|PRE|1505|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|
-T Call of Fire|QID|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss. He wanders around a bit.|
-A Call of Fire|QID|1524|PRE|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|
+T Conscript of the Horde|QID|840|M|62.26,19.37|Z|1413; The Barrens|N|To Kargal Battlescar.|
+A Crossroads Conscription|QID|842|PRE|840|M|62.26,19.37|Z|1413; The Barrens|N|From Kargal Battlescar.|
+T Veteran Uzzek|QID|1505|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
+A Path of Defense|QID|1498|PRE|1505|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|
+T Call of Fire|QID|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|1413; The Barrens|N|To Kranal Fiss. He wanders around a bit.|
+A Call of Fire|QID|1524|PRE|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|1413; The Barrens|N|From Kranal Fiss.|
 R Shrine of the Dormant Flame|QID|1524|C|Shaman|R|Orc,Troll|M|36.69,57.43|CC|N|Follow the hidden path here upwards.|
 T Call of Fire|QID|1524|C|Shaman|R|Orc,Troll|M|38.52,58.92|N|To Telf Joolam.|
 A Call of Fire|QID|1525|PRE|1524|C|Shaman|R|Orc,Troll|M|38.52,58.92|N|From Telf Joolam.|
@@ -276,8 +276,8 @@ R Dark Storms|QID|806|M|39.71,24.63|CC|N|The path to Fizzle Darkstorm's camp is 
 C Dark Storms|QID|806|M|42.10,26.70|N|Kill Fizzle Darkstorm and loot his Claw. He wanders around the camp, so clear the camp around him to get him without adds. Depending on your class you should kill his Imp first.|
 C Path of Defense|QID|1498|C|Warrior|R|Orc,Troll|US|N|Get the remaining Scales from the Thunder Lizards.|
 R Exit Thunder Ridge|QID|806|M|39.16,28.77|N|Leave Thunder Ridge.|
-T Path of Defense|QID|1498|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
-A Thun'grim Firegaze|QID|1502|PRE|1498|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|
+T Path of Defense|QID|1498|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
+A Thun'grim Firegaze|QID|1502|PRE|1498|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|
 T Lost But Not Forgotten|QID|816|M|43.11,30.24|N|To Misha Tor'kren.|
 T Dark Storms|QID|806|M|52.30,43.20|N|At Razor Hill.|
 T Dark Storms|QID|806|M|52.25,43.15|N|To Orgnil Soulscar.|
@@ -321,43 +321,43 @@ T Hidden Enemies|QID|5727|M|31.75,37.82|Z|Orgrimmar|N|To Thrall.|
 A Hidden Enemies|QID|5728|PRE|5727|M|31.75,37.82|Z|Orgrimmar|O|N|From Thrall. This quest is for the Ragefire Chasm dungeon.|
 N Lieutenants Insignia|QID|842|N|You can destroy the Lieutenants Insignia now. Right-click this step off.|
 R Leave Orgrimmar|ACTIVE|809|M|52.55,85.45|Z|Orgrimmar|CC|
-T Ak'Zeloth|QID|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
-A The Demon Seed|QID|924|PRE|809|M|62.34,20.07|Z|The Barrens|N|From Ak'Zeloth.|
-C The Demon Seed|QID|924|L|4986|M|62.34,20.03|Z|The Barrens|N|Pick up a Flawed Power Stone from the table next to Ak'Zeloth.|
+T Ak'Zeloth|QID|809|M|62.34,20.07|Z|1413; The Barrens|N|To Ak'Zeloth.|
+A The Demon Seed|QID|924|PRE|809|M|62.34,20.07|Z|1413; The Barrens|N|From Ak'Zeloth.|
+C The Demon Seed|QID|924|L|4986|M|62.34,20.03|Z|1413; The Barrens|N|Pick up a Flawed Power Stone from the table next to Ak'Zeloth.|
 
-R The Crossroads|ACTIVE|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads. Follow the road south.|
-A Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|From Zargh.|
-A Raptor Thieves|QID|869|M|51.93,30.32|Z|The Barrens|N|From Gazrog.|
-T Crossroads Conscription|QID|842|M|52.23,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
-A Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|
-A Disrupt the Attacks|QID|871|M|51.50,30.87|Z|The Barrens|N|From Thork.|
-A Supplies for the Crossroads|QID|5041|M|51.50,30.87|Z|The Barrens|N|From Thork.|
-f The Crossroads|QID|6384|M|51.50,30.33|Z|The Barrens|
-T Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|51.50,30.33|Z|The Barrens|N|To Devrak.|
-A Ride to Orgrimmar|QID|6384|PRE|6365|R|Orc,Troll|M|51.50,30.33|Z|The Barrens|N|From Devrak.|
-F Orgrimmar|QID|6384|R|Orc,Troll|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
+R The Crossroads|ACTIVE|842|M|52.34,29.34|Z|1413; The Barrens|CC|N|Go to the Crossroads. Follow the road south.|
+A Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|52.62,29.84|Z|1413; The Barrens|N|From Zargh.|
+A Raptor Thieves|QID|869|M|51.93,30.32|Z|1413; The Barrens|N|From Gazrog.|
+T Crossroads Conscription|QID|842|M|52.23,31.01|Z|1413; The Barrens|N|To Sergra Darkthorn.|
+A Plainstrider Menace|QID|844|M|52.23,31.01|Z|1413; The Barrens|N|From Sergra Darkthorn.|
+A Disrupt the Attacks|QID|871|M|51.50,30.87|Z|1413; The Barrens|N|From Thork.|
+A Supplies for the Crossroads|QID|5041|M|51.50,30.87|Z|1413; The Barrens|N|From Thork.|
+f The Crossroads|QID|6384|M|51.50,30.33|Z|1413; The Barrens|
+T Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|51.50,30.33|Z|1413; The Barrens|N|To Devrak.|
+A Ride to Orgrimmar|QID|6384|PRE|6365|R|Orc,Troll|M|51.50,30.33|Z|1413; The Barrens|N|From Devrak.|
+F Orgrimmar|QID|6384|R|Orc,Troll|M|51.50,30.33|Z|1413; The Barrens|N|Fly to Orgrimmar.|
 T Ride to Orgrimmar|QID|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|To Innkeeper Gryshka.|
 A Doras the Wind Rider Master|QID|6385|PRE|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
 A Return to the Crossroads.|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|;yes, the .in quest name does belong. odd, I know.
 F Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
-h The Crossroads|QID|844|M|51.98,29.90|Z|The Barrens|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
-T Return to the Crossroads.|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|;yes, the . in quest name does belong. odd, I know.
+h The Crossroads|QID|844|M|51.98,29.90|Z|1413; The Barrens|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
+T Return to the Crossroads.|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|1413; The Barrens|N|To Zargh.|;yes, the . in quest name does belong. odd, I know.
 
-C Raptor Thieves|QID|869|M|51.93,30.32|Z|The Barrens|S|N|Kill Raptors you spot along the way.|
-C Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|S|N|Kill Plainstriders you spot along the way.|
-R The Demon Seed|QID|924|M|51.04,21.57|Z|The Barrens|CC|N|Go up here to get to the Altar of Fire.|
-C The Demon Seed|QID|924|M|47.98,19.07|Z|The Barrens|N|Work your way into the cave and destroy the Demon Seed. While the Burning Blade are level 11 there is Rathorian, a level 15 rare-elite guarding the cave.|
-C Disrupt the Attacks|QID|871|M|51.50,30.87|Z|The Barrens|S|N|Kill the Required Razormane along the way.|
-T The Demon Seed|QID|924|PRE|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
-C Supplies for the Crossroads|QID|5041|M|58.59,25.29|Z|The Barrens|N|Collect the Supply Crate.|
-C Disrupt the Attacks|QID|871|M|54.45,25.76|Z|The Barrens|US|N|Finish killing the Required Razormane.|
-C Plainstrider Menace|QID|844|M|53.02,26.29|Z|The Barrens|US|N|Finish killing Plainstriders.|
-T Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|Get back into town, talk to Sergra Darkthorn.|
-A The Zhevra|QID|845|PRE|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|
-T Disrupt the Attacks|QID|871|M|51.50,30.87|Z|The Barrens|N|To Thork.|
-A The Disruption Ends|QID|872|PRE|871|M|51.50,30.87|Z|The Barrens|N|From Thork.|
-T Supplies for the Crossroads|QID|5041|M|51.52,30.85|Z|The Barrens|N|Head back to the Crossroads.|
-C Raptor Thieves|QID|869|M|PLAYER|Z|The Barrens|US|N|This is the end of the Durotar guide. Switch to The barrens guide to continue.|
+C Raptor Thieves|QID|869|M|51.93,30.32|Z|1413; The Barrens|S|N|Kill Raptors you spot along the way.|
+C Plainstrider Menace|QID|844|M|52.23,31.01|Z|1413; The Barrens|S|N|Kill Plainstriders you spot along the way.|
+R The Demon Seed|QID|924|M|51.04,21.57|Z|1413; The Barrens|CC|N|Go up here to get to the Altar of Fire.|
+C The Demon Seed|QID|924|M|47.98,19.07|Z|1413; The Barrens|N|Work your way into the cave and destroy the Demon Seed. While the Burning Blade are level 11 there is Rathorian, a level 15 rare-elite guarding the cave.|
+C Disrupt the Attacks|QID|871|M|51.50,30.87|Z|1413; The Barrens|S|N|Kill the Required Razormane along the way.|
+T The Demon Seed|QID|924|PRE|809|M|62.34,20.07|Z|1413; The Barrens|N|To Ak'Zeloth.|
+C Supplies for the Crossroads|QID|5041|M|58.59,25.29|Z|1413; The Barrens|N|Collect the Supply Crate.|
+C Disrupt the Attacks|QID|871|M|54.45,25.76|Z|1413; The Barrens|US|N|Finish killing the Required Razormane.|
+C Plainstrider Menace|QID|844|M|53.02,26.29|Z|1413; The Barrens|US|N|Finish killing Plainstriders.|
+T Plainstrider Menace|QID|844|M|52.23,31.01|Z|1413; The Barrens|N|Get back into town, talk to Sergra Darkthorn.|
+A The Zhevra|QID|845|PRE|844|M|52.23,31.01|Z|1413; The Barrens|N|From Sergra Darkthorn.|
+T Disrupt the Attacks|QID|871|M|51.50,30.87|Z|1413; The Barrens|N|To Thork.|
+A The Disruption Ends|QID|872|PRE|871|M|51.50,30.87|Z|1413; The Barrens|N|From Thork.|
+T Supplies for the Crossroads|QID|5041|M|51.52,30.85|Z|1413; The Barrens|N|Head back to the Crossroads.|
+C Raptor Thieves|QID|869|M|PLAYER|Z|1413; The Barrens|US|N|This is the end of the Durotar guide. Switch to The barrens guide to continue.|
 ]]
 end)

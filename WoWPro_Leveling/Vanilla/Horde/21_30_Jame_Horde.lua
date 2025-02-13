@@ -15,64 +15,64 @@ A Call of Water|QID|1528|C|Shaman|M|38.06,37.38|Z|Orgrimmar|N|From Searn Firewar
 
 F Ratchet|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|N|Fly to Ratchet.|TAXI|Ratchet|
 F Crossroads|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|TAXI|Crossroads|TZ|The Crossroads|
-R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-Crossroads|
-R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|TAXI|-Crossroads|
-f Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
+R The Barrens|QID|1483|M|34.20,42.20|Z|1413; The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-Crossroads|
+R The Crossroads|QID|1483|M|52.00,30.60|Z|1413; The Barrens|TAXI|-Crossroads|
+f Crossroads|QID|1483|M|51.50,30.30|Z|1413; The Barrens|
 
-R Ratchet|QID|1483|M|62.00,37.00|Z|The Barrens|TAXI|-Ratchet|
-f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|
-A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|The Barrens|N|From Sputtervalve|
+R Ratchet|QID|1483|M|62.00,37.00|Z|1413; The Barrens|TAXI|-Ratchet|
+f Ratchet|QID|1483|M|63.10,37.20|Z|1413; The Barrens|
+A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|1413; The Barrens|N|From Sputtervalve|
 
 ; ----Shaman Class Quest-------------------------------------------------------------------------
-T Call of Water|QID|1528|C|Shaman|M|65.87,43.75|Z|The Barrens|N|To Islen Waterseer.|
-A Call of Water|QID|1530|PRE|1528|C|Shaman|M|65.87,43.75|Z|The Barrens|N|From Islen Waterseer.|
-f Camp Taurajo|QID|1530|C|Shaman|M|44.46,59.10|Z|The Barrens|
+T Call of Water|QID|1528|C|Shaman|M|65.87,43.75|Z|1413; The Barrens|N|To Islen Waterseer.|
+A Call of Water|QID|1530|PRE|1528|C|Shaman|M|65.87,43.75|Z|1413; The Barrens|N|From Islen Waterseer.|
+f Camp Taurajo|QID|1530|C|Shaman|M|44.46,59.10|Z|1413; The Barrens|
 
-T Call of Water|QID|1530|C|Shaman|M|43.46,77.41|Z|The Barrens|N|To Brine.|
-A Call of Water|QID|1535|PRE|1530|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-C Call of Water|QID|1535|C|Shaman|QO|1|M|44.08,76.69|Z|The Barrens|N|Filled Brown Waterskin|
-T Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-A Call of Water|QID|1536|PRE|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-F Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
+T Call of Water|QID|1530|C|Shaman|M|43.46,77.41|Z|1413; The Barrens|N|To Brine.|
+A Call of Water|QID|1535|PRE|1530|C|Shaman|M|43.46,77.41|Z|1413; The Barrens|N|From Brine.|
+C Call of Water|QID|1535|C|Shaman|QO|1|M|44.08,76.69|Z|1413; The Barrens|N|Filled Brown Waterskin|
+T Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|1413; The Barrens|N|From Brine.|
+A Call of Water|QID|1536|PRE|1535|C|Shaman|M|43.46,77.41|Z|1413; The Barrens|N|From Brine.|
+F Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|1413; The Barrens|
 ; -----------------------------------------------------------------------------
 
-F Crossroads|AVAILABLE|1062|M|51.50,30.30|Z|The Barrens|
-A Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|N|From Seereth Stonebreak, West of the Crossroads.|
+F Crossroads|AVAILABLE|1062|M|51.50,30.30|Z|1413; The Barrens|
+A Goblin Invaders|QID|1062|M|35.20,27.80|Z|1413; The Barrens|N|From Seereth Stonebreak, West of the Crossroads.|
 
-R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|The Barrens|N|If you have the flight point to Sun Rock Retreat, fly there instead and skip this step.|
-A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an level 21 elite, if you cannot do it, skip it.|ELITE|
-C Arachnophobia|QID|6284|M|52.45,74.30;53.65,72.22|Z|Stonetalon Mountains|CN|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|T|Besseleth|
-T Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
-f Sun Rock Retreat|QID|1483|M|45.13,59.84|Z|Stonetalon Mountains|
-A Boulderslide Ravine|QID|6421|M|44.85,61.15;44.81,63.21;47.23,64.05|Z|Stonetalon Mountains|CS|N|From Mor'rogal, up the back exit.|
+R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|1413; The Barrens|N|If you have the flight point to Sun Rock Retreat, fly there instead and skip this step.|
+A Arachnophobia|QID|6284|M|59.10,75.80|Z|1442; Stonetalon Mountains|N|from the Wanted Poster. This is an level 21 elite, if you cannot do it, skip it.|ELITE|
+C Arachnophobia|QID|6284|M|52.45,74.30;53.65,72.22|Z|1442; Stonetalon Mountains|CN|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|T|Besseleth|
+T Arachnophobia|QID|6284|M|47.20,61.16|Z|1442; Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
+f Sun Rock Retreat|QID|1483|M|45.13,59.84|Z|1442; Stonetalon Mountains|
+A Boulderslide Ravine|QID|6421|M|44.85,61.15;44.81,63.21;47.23,64.05|Z|1442; Stonetalon Mountains|CS|N|From Mor'rogal, up the back exit.|
 
-T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|Stonetalon Mountains|N|At the little goblin house.|
-A Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
-C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|S|
-C Super Reaper 6000|QID|1093|M|73.24,56.61;69.98,55.94;62.60,53.80|CN|Z|Stonetalon Mountains|N|Kill Venture Co. Operators for the Blueprints, they are mostly found at buildings and machinery.|
-C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|US|N|Kill the remaining Venture Co. Loggers.|
+T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|1442; Stonetalon Mountains|N|At the little goblin house.|
+A Super Reaper 6000|QID|1093|M|59.00,62.60|Z|1442; Stonetalon Mountains|N|From Ziz Fizziks|
+C Goblin Invaders|QID|1062|M|65.00,50.00|Z|1442; Stonetalon Mountains|S|
+C Super Reaper 6000|QID|1093|M|73.24,56.61;69.98,55.94;62.60,53.80|CN|Z|1442; Stonetalon Mountains|N|Kill Venture Co. Operators for the Blueprints, they are mostly found at buildings and machinery.|
+C Goblin Invaders|QID|1062|M|65.00,50.00|Z|1442; Stonetalon Mountains|US|N|Kill the remaining Venture Co. Loggers.|
 
-T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|
-A Further Instructions |QID|1094|PRE|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
+T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|1442; Stonetalon Mountains|
+A Further Instructions |QID|1094|PRE|1093|M|59.00,62.60|Z|1442; Stonetalon Mountains|N|From Ziz Fizziks|
 
 R Boulderslide Cavern|QID|6421|M|66.85,88.96;61.50,93.20|CS|N|
-C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
+C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|1442; Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
 
-R The Barrens|QID|1094|M|78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
-T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
+R The Barrens|QID|1094|M|78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|1442; Stonetalon Mountains|
+T Goblin Invaders|QID|1062|M|35.20,27.80|Z|1413; The Barrens|
 
-R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
+R The Crossroads|QID|1094|M|52.00,30.60|Z|1413; The Barrens|
 
-F Ratchet|QID|1094|M|51.50,30.30|Z|The Barrens|
-T Further Instructions |QID|1094|M|63.00,37.20|Z|The Barrens|
+F Ratchet|QID|1094|M|51.50,30.30|Z|1413; The Barrens|
+T Further Instructions |QID|1094|M|63.00,37.20|Z|1413; The Barrens|
 
-F Sun Rock Retreat|QID|6421|M|63.10,37.20|Z|The Barrens|
-T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|Stonetalon Mountains|CS|
+F Sun Rock Retreat|QID|6421|M|63.10,37.20|Z|1413; The Barrens|
+T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|1442; Stonetalon Mountains|CS|
 
 
-F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Fly to Splintertree Post.|TAXI|Splintertree Post|
-F Crossroads|QID|6383|M|45.20,59.80|Z|The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
-R Ashenvale|QID|6383|M|48.17,4.0|Z|The Barrens|N|Follow the path north until you reach Ashenvale Forest.|TAXI|-Splintertree Post|
+F Splintertree Post|QID|6383|M|45.20,59.80|Z|1413; The Barrens|N|Fly to Splintertree Post.|TAXI|Splintertree Post|
+F Crossroads|QID|6383|M|45.20,59.80|Z|1413; The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
+R Ashenvale|QID|6383|M|48.17,4.0|Z|1413; The Barrens|N|Follow the path north until you reach Ashenvale Forest.|TAXI|-Splintertree Post|
 R Splintertree Post|QID|6383|M|67.26,71.39;73.20,61.60|Z|Ashenvale|CS|N|Continue further north until the path forks, there go east until you reach Splintertree Post.|TAXI|-Splintertree Post|
 
 f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
@@ -186,10 +186,10 @@ N Auction House|QID|6581|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Deadly Bl
 
 ; --- class quests ------------------------------------------------------------
 F Camp Taurajo|QID|1536|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
-T Call of Water |QID|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
-A Call of Water |QID|1534|PRE|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
-R Camp Taurajo|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
-F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
+T Call of Water |QID|1536|C|Shaman|M|43.40,77.40|Z|1413; The Barrens|
+A Call of Water |QID|1534|PRE|1536|C|Shaman|M|43.40,77.40|Z|1413; The Barrens|
+R Camp Taurajo|QID|1534|C|Shaman|M|44.50,59.10|Z|1413; The Barrens|
+F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|1413; The Barrens|
 ; --- class quests ------------------------------------------------------------
 
 F Splintertree Post|QID|6641|M|45.30,63.90|Z|Orgrimmar|
@@ -251,126 +251,126 @@ F Zoram'gar Outpost|QID|824|M|73.20,61.60|Z|Ashenvale|
 T Je'neu of the Earthen Ring|QID|824|M|11.60,34.30|Z|Ashenvale|N|To Je'neu Sancrea|
 
 ; === 25_26_Jame_The_Barrens.lua ===
-H Orgrimmar|QID|5052|Z|The Barrens|
+H Orgrimmar|QID|5052|Z|1413; The Barrens|
 N Auction House|QID|6504|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Shredder Operating Manual pages, Deadly Blunderbuss|
 
 ; -----Class Quest------------------------------------------------------------------------
 N Poison Quest Chain|QID|2460|C|Rogue|M|43.10,53.50|Z|Orgrimmar|N|You can also easily come back and do this at higher level. If you would like to complete it now, talk to Shenthul  and accept "The Shattered Salute". Please note that you will need a lockpicking skill of 70 to complete this quest.|
-A The Shattered Salute|QID|2460|C|Rogue|Z|The Barrens|O|
-C The Shattered Salute|QID|2460|C|Rogue|Z|The Barrens|O|N|Target Senthul and type "/salute".|
-T The Shattered Salute|QID|2460|C|Rogue|Z|The Barrens|O|
-A Deep Cover|QID|2458|PRE|2460|C|Rogue|Z|The Barrens|O|
+A The Shattered Salute|QID|2460|C|Rogue|Z|1413; The Barrens|O|
+C The Shattered Salute|QID|2460|C|Rogue|Z|1413; The Barrens|O|N|Target Senthul and type "/salute".|
+T The Shattered Salute|QID|2460|C|Rogue|Z|1413; The Barrens|O|
+A Deep Cover|QID|2458|PRE|2460|C|Rogue|Z|1413; The Barrens|O|
 
 A Speak with Ruga|QID|1823|C|Warrior|M|80.20,32.40|Z|Orgrimmar|N|From Sorek, sans !|
 ; -----------------------------------------------------------------------------
 
 F Crossroads|QID|5052|M|45.30,63.90|Z|Orgrimmar|
-A Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|From Korran|
+A Egg Hunt|QID|868|M|51.10,29.60|Z|1413; The Barrens|N|From Korran|
 
 ; -----Class Quest------------------------------------------------------------------------
-t Deep Cover|QID|2458|C|Rogue|U|8051|Z|The Barrens|N|Head north of the Sludge Fen. When the tower is in sight, use the Flare Gun to signal your arrival to Taskmaster Fizzule. Fire off TWO flares, then approach Taskmaster Fizzule and perform the Shattered /Salute.|
-A Mission: Possible But Not Probable|QID|2478|PRE|2458|C|Rogue|Z|The Barrens|
-C Pickpocket Silixiz|QID|2478|C|Rogue|L|8072|M|54.80,6.10|Z|The Barrens|QO|5|NC|N|Pickpocket Foreman Silixiz|
-K Mutated Venture Co. Drones|ACTIVE|2478|C|Rogue|QO|1|Z|The Barrens|N|Go inside the tower and kill 2 drones on the first floor. They are weak to Ambush.|
-K Mutated Venture Co. Patrollers|ACTIVE|2478|C|Rogue|QO|2|Z|The Barrens|N|Go up the stairs to the second floor and kill 2 patrollers. They are weak to Rupture.|
-K Mutated Venture Co. Lookouts|ACTIVE|2478|C|Rogue|QO|3|Z|The Barrens|N|Go up the stairs to the third floor and kill 2 lookouts. They are weak to Eviscerate.|
-C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|4|Z|The Barrens|N|Stealth up to the fourth floor. Use Ambush on Gallywix, then kill him. Loot his head.|
-C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|6|Z|The Barrens|N|Pick the lock on the footlocker. Loot the mixture inside.|
-T Mission: Possible But Not Probable|QID|2478|C|Rogue|U|8066|Z|The Barrens|N|Out of the tower and back to Fizzule. Use the whistle to call him.|
+t Deep Cover|QID|2458|C|Rogue|U|8051|Z|1413; The Barrens|N|Head north of the Sludge Fen. When the tower is in sight, use the Flare Gun to signal your arrival to Taskmaster Fizzule. Fire off TWO flares, then approach Taskmaster Fizzule and perform the Shattered /Salute.|
+A Mission: Possible But Not Probable|QID|2478|PRE|2458|C|Rogue|Z|1413; The Barrens|
+C Pickpocket Silixiz|QID|2478|C|Rogue|L|8072|M|54.80,6.10|Z|1413; The Barrens|QO|5|NC|N|Pickpocket Foreman Silixiz|
+K Mutated Venture Co. Drones|ACTIVE|2478|C|Rogue|QO|1|Z|1413; The Barrens|N|Go inside the tower and kill 2 drones on the first floor. They are weak to Ambush.|
+K Mutated Venture Co. Patrollers|ACTIVE|2478|C|Rogue|QO|2|Z|1413; The Barrens|N|Go up the stairs to the second floor and kill 2 patrollers. They are weak to Rupture.|
+K Mutated Venture Co. Lookouts|ACTIVE|2478|C|Rogue|QO|3|Z|1413; The Barrens|N|Go up the stairs to the third floor and kill 2 lookouts. They are weak to Eviscerate.|
+C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|4|Z|1413; The Barrens|N|Stealth up to the fourth floor. Use Ambush on Gallywix, then kill him. Loot his head.|
+C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|6|Z|1413; The Barrens|N|Pick the lock on the footlocker. Loot the mixture inside.|
+T Mission: Possible But Not Probable|QID|2478|C|Rogue|U|8066|Z|1413; The Barrens|N|Out of the tower and back to Fizzule. Use the whistle to call him.|
 ; -----------------------------------------------------------------------------
 
-F Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|Fly away baby!|
-R Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|From The Crossroads follow the path all the way south until the road forks. Camp Taurajo is right between the two paths.|TAXI|-Camp Taurajo|
-A Tribes at War|QID|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
+F Camp Taurajo|QID|5052|M|51.50,30.30|Z|1413; The Barrens|N|Fly away baby!|
+R Camp Taurajo|QID|5052|M|51.50,30.30|Z|1413; The Barrens|N|From The Crossroads follow the path all the way south until the road forks. Camp Taurajo is right between the two paths.|TAXI|-Camp Taurajo|
+A Tribes at War|QID|878|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Speak with Ruga|QID|1823|M|44.67,59.43|C|Warrior|Z|The Barrens|N|To Ragu Ragetotem|
+T Speak with Ruga|QID|1823|M|44.67,59.43|C|Warrior|Z|1413; The Barrens|N|To Ragu Ragetotem|
 ; -----------------------------------------------------------------------------
 
-C Tribes at War|QID|878|M|51.00,54.00|Z|The Barrens|N|Kill Water Seekers, Thornweavers, and Geomancers around|
-N Tip...|QID|5052|Z|The Barrens|N|Do not sell your blood shards.  Blood Shards for useful buffs like run speed.|
+C Tribes at War|QID|878|M|51.00,54.00|Z|1413; The Barrens|N|Kill Water Seekers, Thornweavers, and Geomancers around|
+N Tip...|QID|5052|Z|1413; The Barrens|N|Do not sell your blood shards.  Blood Shards for useful buffs like run speed.|
 
-T Tribes at War|QID|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
-A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
-K Kill Bristlebacks for Blood Shard|ACTIVE|5052|QO|1|M|51.00,54.00|Z|The Barrens|N|You will have collected several Blood Shards from {Tribes at War}.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
-T Blood Shards of Agamaggan|QID|5052|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
-A Betrayal from Within |QID|879|PRE|5052|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
-A Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|From Tatternack Steelforge|
-A Mahren Skyseer|QID|874|PRE|913|Z|The Barrens|O|N|From Jorn Skyseer|
+T Tribes at War|QID|878|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
+A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
+K Kill Bristlebacks for Blood Shard|ACTIVE|5052|QO|1|M|51.00,54.00|Z|1413; The Barrens|N|You will have collected several Blood Shards from {Tribes at War}.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
+T Blood Shards of Agamaggan|QID|5052|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
+A Betrayal from Within |QID|879|PRE|5052|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
+A Weapons of Choice|QID|893|M|45.10,57.70|Z|1413; The Barrens|N|From Tatternack Steelforge|
+A Mahren Skyseer|QID|874|PRE|913|Z|1413; The Barrens|O|N|From Jorn Skyseer|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
-A Call of Water |QID|220|PRE|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
+T Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|1413; The Barrens|
+A Call of Water |QID|220|PRE|1534|C|Shaman|M|43.40,77.40|Z|1413; The Barrens|
 ; -----------------------------------------------------------------------------
 
-K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Kaz|
-K Nak for Nak's Skull|ACTIVE|879|QO|2|M|43.00,83.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Nak|
-K Lok Orcbane for Lok's Skull|ACTIVE|879|QO|3|M|40.00,80.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Lok Orcbane|
+K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|1413; The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Kaz|
+K Nak for Nak's Skull|ACTIVE|879|QO|2|M|43.00,83.00|Z|1413; The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Nak|
+K Lok Orcbane for Lok's Skull|ACTIVE|879|QO|3|M|40.00,80.00|Z|1413; The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Lok Orcbane|
 
-C Weapons of Choice|QID|893|M|44.40,80.20|Z|The Barrens|N|Kill Stalkers for a Backstabber, Seers for a Wand, and Warfenzies for a War Shield.|
+C Weapons of Choice|QID|893|M|44.40,80.20|Z|1413; The Barrens|N|Kill Stalkers for a Backstabber, Seers for a Wand, and Warfenzies for a War Shield.|
 
-A Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
+A Gann's Reclamation|QID|843|M|46.00,79.10|Z|1413; The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
 
-C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|1|N|Excavators are all over the area, kill them until you complete the quest.|S!US|
-C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|2|N|Foremen are all over the area, kill them until you complete the quest.|S!US|
-K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|The Barrens|QO|3|N|Prospector Khazgorm can be found in this area.|T|Prospector Khazgorm|
+C Gann's Reclamation|QID|843|M|47.00,85.00|Z|1413; The Barrens|QO|1|N|Excavators are all over the area, kill them until you complete the quest.|S!US|
+C Gann's Reclamation|QID|843|M|47.00,85.00|Z|1413; The Barrens|QO|2|N|Foremen are all over the area, kill them until you complete the quest.|S!US|
+K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|1413; The Barrens|QO|3|N|Prospector Khazgorm can be found in this area.|T|Prospector Khazgorm|
 
-T Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|He will be walking up and down the road|
-A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|The Barrens|N|From Gann|
+T Gann's Reclamation|QID|843|M|46.00,79.10|Z|1413; The Barrens|N|He will be walking up and down the road|
+A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|1413; The Barrens|N|From Gann|
 
-N Optional Quest: Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|N|If you are in a group or would just like a challenge, you can accept the quest "The Tear of the Moons" from Feegly the Exiled at . This quest is pretty difficult, and will require you kill a level 30 mob who comes with many adds.|
-A The Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|O|N|From Feegly the Exiled|
+N Optional Quest: Tear of the Moons|QID|857|M|48.90,86.30|Z|1413; The Barrens|N|If you are in a group or would just like a challenge, you can accept the quest "The Tear of the Moons" from Feegly the Exiled at . This quest is pretty difficult, and will require you kill a level 30 mob who comes with many adds.|
+A The Tear of the Moons|QID|857|M|48.90,86.30|Z|1413; The Barrens|O|N|From Feegly the Exiled|
 
-C The Tear of the Moons|QID|857|M|49.10,84.20|Z|The Barrens|O|N|The strongbox with the Tear of the Moons inside can be found inside Bael'Dun at . There are a couple possible methods of getting to it without actually killing all of the mobs in the room. You can die and rez next to the chest in the fireplace, where only the rifleman will be able to hit you. As a rogue, you can stealth down and sap the riflemen. Also, anyone with a pet to distract the rest of the room can do so, while he or she loots the chest. This is a very difficult quest for this level range - if you can't complete it, just abandon it and move on.|
-C Revenge of Gann |QID|846|M|49.00,84.00|Z|The Barrens|N|Head inside Bael'Dun and kill dwaves until you get all the quest items.|
+C The Tear of the Moons|QID|857|M|49.10,84.20|Z|1413; The Barrens|O|N|The strongbox with the Tear of the Moons inside can be found inside Bael'Dun at . There are a couple possible methods of getting to it without actually killing all of the mobs in the room. You can die and rez next to the chest in the fireplace, where only the rifleman will be able to hit you. As a rogue, you can stealth down and sap the riflemen. Also, anyone with a pet to distract the rest of the room can do so, while he or she loots the chest. This is a very difficult quest for this level range - if you can't complete it, just abandon it and move on.|
+C Revenge of Gann |QID|846|M|49.00,84.00|Z|1413; The Barrens|N|Head inside Bael'Dun and kill dwaves until you get all the quest items.|
 
-T The Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|O|N|To Feegly the Exiled|
-T Revenge of Gann |QID|846|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
-A Revenge of Gann |QID|849|PRE|846|M|46.00,79.10|Z|The Barrens|N|From Gann Stonespire|
+T The Tear of the Moons|QID|857|M|48.90,86.30|Z|1413; The Barrens|O|N|To Feegly the Exiled|
+T Revenge of Gann |QID|846|M|46.00,79.10|Z|1413; The Barrens|N|To Gann Stonespire|
+A Revenge of Gann |QID|849|PRE|846|M|46.00,79.10|Z|1413; The Barrens|N|From Gann Stonespire|
 
-C Revenge of Gann |QID|849|M|47.00,85.70|Z|The Barrens|N|The Helipad is midway down the slope going to the excavation site.  Go up the helipad. Right-click the Flying Machine to destroy it.|
-T Revenge of Gann |QID|849|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
+C Revenge of Gann |QID|849|M|47.00,85.70|Z|1413; The Barrens|N|The Helipad is midway down the slope going to the excavation site.  Go up the helipad. Right-click the Flying Machine to destroy it.|
+T Revenge of Gann |QID|849|M|46.00,79.10|Z|1413; The Barrens|N|To Gann Stonespire|
 
 ; -----Class Quest------------------------------------------------------------------------
-A Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|The Barrens|N|From Ragu Ragetotem, you have 30 minutes.|
-C Collect: Silithid Eggs|QID|868|U|5059|L|5058 12|M|43.00,70.00|Z|The Barrens|N|Look for Silithid Mounds.  Clear any bug around it and then click them to gather Silithis Eggs. If you happen to find a Silithid Harvester, kill it and loot it's head.|
-C Trial at the Field of Giants|QID|1824|C|Warrior|M|44.50,59.10|Z|The Barrens|N|On your way back to Camp Taurajo , kill silithid in the Field of Giants and loot their antenna. You need to do this within 15 minutes or the antenna will stop twitching.|
-T Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|The Barrens|
-N Brutal Armor Quest Chain|QID|1838|C|Warrior|Z|The Barrens|N|If you are interested in the Brutal Armor quest chain, you can pick it up at this point. This quest requires running Razorfen Kraul, and will not be covered in this guide. It does provide some decent armor, but if you are leveling quickly it may not be worth it.|
-A Speak with Thun'grim|QID|1825|PRE|1824|C|Warrior|Z|The Barrens|O|
+A Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|1413; The Barrens|N|From Ragu Ragetotem, you have 30 minutes.|
+C Collect: Silithid Eggs|QID|868|U|5059|L|5058 12|M|43.00,70.00|Z|1413; The Barrens|N|Look for Silithid Mounds.  Clear any bug around it and then click them to gather Silithis Eggs. If you happen to find a Silithid Harvester, kill it and loot it's head.|
+C Trial at the Field of Giants|QID|1824|C|Warrior|M|44.50,59.10|Z|1413; The Barrens|N|On your way back to Camp Taurajo , kill silithid in the Field of Giants and loot their antenna. You need to do this within 15 minutes or the antenna will stop twitching.|
+T Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|1413; The Barrens|
+N Brutal Armor Quest Chain|QID|1838|C|Warrior|Z|1413; The Barrens|N|If you are interested in the Brutal Armor quest chain, you can pick it up at this point. This quest requires running Razorfen Kraul, and will not be covered in this guide. It does provide some decent armor, but if you are leveling quickly it may not be worth it.|
+A Speak with Thun'grim|QID|1825|PRE|1824|C|Warrior|Z|1413; The Barrens|O|
 ; -----------------------------------------------------------------------------
 
-A The Harvester|QID|897|U|5138|Z|The Barrens|O|N|SILVER ELITE...Click the head to start the quest.|
+A The Harvester|QID|897|U|5138|Z|1413; The Barrens|O|N|SILVER ELITE...Click the head to start the quest.|
 
-T Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|To Tatternack Steelforge|
-T Betrayal from Within |QID|879|M|44.55,59.24|Z|The Barrens|N|To Mangletooth|
-A Betrayal from Within |QID|906|PRE|879|M|44.55,59.24|Z|The Barrens|N|From Mangletooth|
-T The Harvester|QID|897|Z|The Barrens|O|
+T Weapons of Choice|QID|893|M|45.10,57.70|Z|1413; The Barrens|N|To Tatternack Steelforge|
+T Betrayal from Within |QID|879|M|44.55,59.24|Z|1413; The Barrens|N|To Mangletooth|
+A Betrayal from Within |QID|906|PRE|879|M|44.55,59.24|Z|1413; The Barrens|N|From Mangletooth|
+T The Harvester|QID|897|Z|1413; The Barrens|O|
 
-F Crossroads|QID|868|M|44.40,59.10|Z|The Barrens|N|To Jorn Skyseer|TZ|The Crossroads|
-T Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|To Korran|
-T Betrayal from Within |QID|906|PRE|879|M|51.50,30.90|Z|The Barrens|N|To Thork|
+F Crossroads|QID|868|M|44.40,59.10|Z|1413; The Barrens|N|To Jorn Skyseer|TZ|The Crossroads|
+T Egg Hunt|QID|868|M|51.10,29.60|Z|1413; The Barrens|N|To Korran|
+T Betrayal from Within |QID|906|PRE|879|M|51.50,30.90|Z|1413; The Barrens|N|To Thork|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Speak with Thun'grim|QID|1825|M|57.23,30.34|C|Warrior|Z|The Barrens|
-A Brutal Armor|QID|1838|PRE|1825|M|57.23,30.34|C|Warrior|Z|The Barrens|
+T Speak with Thun'grim|QID|1825|M|57.23,30.34|C|Warrior|Z|1413; The Barrens|
+A Brutal Armor|QID|1838|PRE|1825|M|57.23,30.34|C|Warrior|Z|1413; The Barrens|
 ; -----------------------------------------------------------------------------
 
-F Ratchet|QID|6571|M|51.50,30.30|Z|The Barrens|
+F Ratchet|QID|6571|M|51.50,30.30|Z|1413; The Barrens|
 
 ; -----Class Quest--------------------------------------------------------------
-T Call of Water |QID|220|C|Shaman|M|65.80,43.80|Z|The Barrens|N|To Islen Waterseer|
-A Call of Water |QID|63|PRE|220|C|Shaman|M|65.80,43.80|Z|The Barrens|N|From Islen Waterseer|
+T Call of Water |QID|220|C|Shaman|M|65.80,43.80|Z|1413; The Barrens|N|To Islen Waterseer|
+A Call of Water |QID|63|PRE|220|C|Shaman|M|65.80,43.80|Z|1413; The Barrens|N|From Islen Waterseer|
 ; -----------------------------------------------------------------------------
 
-T Mahren Skyseer|QID|874|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
-A Isha Awak|QID|873|PRE|874|M|65.8,43.8|Z|The Barrens|N|From Mahren Skyseer|
-K Isha Awak for Heart of Isha Awak|ACTIVE|873|QO|1|M|64.00,50.00|Z|The Barrens|
-T Isha Awak|QID|873|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
+T Mahren Skyseer|QID|874|M|65.8,43.8|Z|1413; The Barrens|N|To Mahren Skyseer|
+A Isha Awak|QID|873|PRE|874|M|65.8,43.8|Z|1413; The Barrens|N|From Mahren Skyseer|
+K Isha Awak for Heart of Isha Awak|ACTIVE|873|QO|1|M|64.00,50.00|Z|1413; The Barrens|
+T Isha Awak|QID|873|M|65.8,43.8|Z|1413; The Barrens|N|To Mahren Skyseer|
 
-b Booty Bay|QID|6571|M|63.70,38.60|Z|The Barrens|N||
-f Booty Bay|QID|6571|M|26.90,77.10|Z|Stranglethorn Vale|N|The flight point can be found outside the top floor of the inn.|
-C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|Stranglethorn Vale|
+b Booty Bay|QID|6571|M|63.70,38.60|Z|1413; The Barrens|N||
+f Booty Bay|QID|6571|M|26.90,77.10|Z|1434; Stranglethorn Vale|N|The flight point can be found outside the top floor of the inn.|
+C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|1434; Stranglethorn Vale|
 
 ; === 26_27_Jame_Ashenvale.lua ===
 H Orgrimmar|QID|6581|Z|Ashenvale|
@@ -464,11 +464,11 @@ H Orgrimmar|QID|5881|Z|Hillsbrad Foothills|
 
 ; -----Class Quest--------------------------------------------------------------
 F Ratchet|QID|96|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
-T Call of Water |QID|96|C|Shaman|M|65.80,43.80|Z|The Barrens|N|Back down to Islen Waterseer. Congradulations on your water totem!|
+T Call of Water |QID|96|C|Shaman|M|65.80,43.80|Z|1413; The Barrens|N|Back down to Islen Waterseer. Congradulations on your water totem!|
 ; -----------------------------------------------------------------------------
 
-F Camp Taurajo|QID|5881|Z|The Barrens|
-A Melor Sends Word|QID|1130|M|44.90,59.10|Z|The Barrens|
+F Camp Taurajo|QID|5881|Z|1413; The Barrens|
+A Melor Sends Word|QID|1130|M|44.90,59.10|Z|1413; The Barrens|
 
 T Calling in the Reserves|QID|5881|M|31.90,21.70|Z|Thousand Needles|N|Follow the road south to the tip of the Barrens. If these NPCS are unavailable, skip this step and abandon [28]Calling in the Reserves.|
 A Message to Freewind Post|QID|4542|M|32.20,22.20|Z|Thousand Needles|N|If these NPCS are unavailable, skip this step and abandon [28]Calling in the Reserves.|
@@ -557,9 +557,9 @@ A Laughing Sisters|QID|1945|PRE|1944|C|Mage|Z|Orgrimmar|M|38.5,86.1|
 F Splintertree Post|QID|1945|C|Mage|M|45.30,63.90|Z|Orgrimmar|
 C Laughing Sisters|QID|1945|C|Mage|M|60.00,53.00|Z|Ashenvale|N|Head to Raynewood Retreat, west of Splintertree Post, and kill Laughing Sisters for their hair.|
 F Crossroads|QID|1945|C|Mage|M|73.20,61.60|Z|Ashenvale|
-T Laughing Sisters|QID|1945|C|Mage|Z|The Barrens|M|52.2,73.1|
+T Laughing Sisters|QID|1945|C|Mage|Z|1413; The Barrens|M|52.2,73.1|
 A Nether-lace Garment|QID|1946|PRE|1945|C|Mage|Z|Ashenvale|N|Accept/Complete the next quest to receive your new robe or tunic.|
-T Nether-lace Garment|QID|1946|C|Mage|Z|The Barrens|N|Accept/Complete the next quest to receive your new robe or tunic.|
+T Nether-lace Garment|QID|1946|C|Mage|Z|1413; The Barrens|N|Accept/Complete the next quest to receive your new robe or tunic.|
 ; -----------------------------------------------------------------------------
 ]]
 end)

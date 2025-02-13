@@ -10,7 +10,7 @@ WoWPro:GuideNextGuide(guide, 'ClassicAlliance5055')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Before Dungeon
-A Shadowshard Fragments|QID|7070|M|66.42,49.26|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Maraudon[/color]\nFrom Archmage Tervosh. This is optional, a bit out of the way in Theramore and is only done outside the instance. It's good if you want to solo some of the outside stuff before hand though since some of the quests require both inside and outside tasks.|
+A Shadowshard Fragments|QID|7070|M|66.42,49.26|Z|1445; Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Maraudon[/color]\nFrom Archmage Tervosh. This is optional, a bit out of the way in Theramore and is only done outside the instance. It's good if you want to solo some of the outside stuff before hand though since some of the quests require both inside and outside tasks.|
 A Corruption of Earth and Seed|QID|7065|M|63.84,10.67|Z|Desolace|ELITE|N|[color=e6cc80]Dungeon: Maraudon[/color]\nFrom Keeper Marandis.|
 A Vyletongue Corruption|QID|7041|M|68.50,8.88|Z|Desolace|ELITE|N|[color=e6cc80]Dungeon: Maraudon[/color]\nFrom Talendria.|
 A Twisted Evils|QID|7028|M|62.20,39.63|Z|Desolace|ELITE|N|[color=e6cc80]Dungeon: Maraudon[/color]\nFrom Willow.|
@@ -45,7 +45,7 @@ C Shadowshard Fragments|QID|7070|M|38.47,57.29|Z|1414|US|N|Kill the Shadowshard 
 T The Pariah's Instructions|QID|7067|M|46.88,86.79|Z|Desolace|N|To Centaur Pariah. He patrols the area, you need to find him.|
 T Twisted Evils|QID|7028|M|62.20,39.63|Z|Desolace|N|To Willow.|
 T Vyletongue Corruption|QID|7041|M|68.50,8.88|Z|Desolace|N|To Talendria.|
-T Shadowshard Fragments|QID|7070|M|66.42,49.26|Z|Dustwallow Marsh|N|To Archmage Tervosh.|
+T Shadowshard Fragments|QID|7070|M|66.42,49.26|Z|1445; Dustwallow Marsh|N|To Archmage Tervosh.|
 T Corruption of Earth and Seed|QID|7065|M|63.84,10.67|Z|Desolace|N|To Keeper Marandis.|
 T Seed of Life|QID|7066|M|39.27,58.20|Z|Moonglade|N|To Keeper Remulos in Moonglade. If you're a druid or class that for some reason already has the flightpath to moonglade, skip this if you want to. Moonglade flightpath will be covered in chapter 3 of Elidion's Guide.|
 ]]

@@ -10,14 +10,14 @@ WoWPro:GuideSteps(guide, function() return [[
 h The Crossroads|QID|1358|M|51.99,29.89|N|At Innkeeper Boorand Plainswood.|
 
 ; --- Druid 'Cure Poison' lv 14 class quest cont.
-R Dreadmist Peak|QID|6127|M|52.34,29.33;51.05,22.63;48.30,18.96|CC|Z|The Barrens|N|Leave the Crossroads by the north road, head for the mountain on your left and climb it. Once you're at the top, locate the small pond on Dreadmist Peak.|R|Tauren|C|Druid|
+R Dreadmist Peak|QID|6127|M|52.34,29.33;51.05,22.63;48.30,18.96|CC|Z|1413; The Barrens|N|Leave the Crossroads by the north road, head for the mountain on your left and climb it. Once you're at the top, locate the small pond on Dreadmist Peak.|R|Tauren|C|Druid|
 C The Principal Source|QID|6127|QO|1|N|Fill the Dreadmist Peak Sampler.\n\n[color=FF0000]NOTE: [/color]Be prepared for a fight because 2-3 mobs will spawn and attack you. You can either stand and fight, or use an HoT and Bear form to escape.|U|15842|R|Tauren|C|Druid|NC|
-T The Principal Source|QID|6127|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem in the Crossroads.|R|Tauren|C|Druid|
-A Gathering the Cure|QID|6128|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|PRE|6127|R|Tauren|C|Druid|
-C Lost Plain Kodos|QID|6128|M|50.06,40.85|Z|The Barrens|L|15852 5|N|Leave the Crossroads from the south gate and head towards the 2 mountain peaks. You'll find the Kodos on either side of the road. Kill them and loot their horns.|R|Tauren|C|Druid|
-R The Crossroads|ACTIVE|6128|M|52.06,32.24|Z|The Barrens|N|Run back to the Crossroads.|R|Tauren|C|Druid|
-T Gathering the Cure|QID|6128|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem.|R|Tauren|C|Druid|
-A Curing the Sick|QID|6129|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|PRE|6128|R|Tauren|C|Druid|
+T The Principal Source|QID|6127|M|52.26,31.93|Z|1413; The Barrens|N|To Tonga Runetotem in the Crossroads.|R|Tauren|C|Druid|
+A Gathering the Cure|QID|6128|M|52.26,31.93|Z|1413; The Barrens|N|From Tonga Runetotem.|PRE|6127|R|Tauren|C|Druid|
+C Lost Plain Kodos|QID|6128|M|50.06,40.85|Z|1413; The Barrens|L|15852 5|N|Leave the Crossroads from the south gate and head towards the 2 mountain peaks. You'll find the Kodos on either side of the road. Kill them and loot their horns.|R|Tauren|C|Druid|
+R The Crossroads|ACTIVE|6128|M|52.06,32.24|Z|1413; The Barrens|N|Run back to the Crossroads.|R|Tauren|C|Druid|
+T Gathering the Cure|QID|6128|M|52.26,31.93|Z|1413; The Barrens|N|To Tonga Runetotem.|R|Tauren|C|Druid|
+A Curing the Sick|QID|6129|M|52.26,31.93|Z|1413; The Barrens|N|From Tonga Runetotem.|PRE|6128|R|Tauren|C|Druid|
 N Carry on|ACTIVE|6129|N|As the Sickly Gazelle are spread all over, you might as well resume the guide.|R|Tauren|C|Druid|
 C Curing the Sick|QID|6129|QO|1|N|Use the salve on 10 Sickly Gazelle. You'll find them spread out across the northern end of The Barrens.|T|Sickly Gazelle|U|15826|R|Tauren|C|Druid|NC|S|
 ; ---
@@ -300,39 +300,39 @@ N Ashenvale FPs|ACTIVE|6541|N|A little side trip to grab the Flight paths in Ash
 R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|CC|N|Follow the road north to the Mor'shan Rampart.|
 T Report to Kadrak|QID|6541|M|48.12,5.42|N|To Kadrak on the first floor of the guard tower on your right.|
 A The Warsong Reports|QID|6543|M|48.12,5.42|N|From Kadrak.|
-R Ashenvale|AVAILABLE|6442|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|IZ|-1440|
-R Splintertree Post|AVAILABLE|6442|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|Z|Ashenvale|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
+R Ashenvale|AVAILABLE|6442|M|68.63,86.82|Z|1440; Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|IZ|-1440|
+R Splintertree Post|AVAILABLE|6442|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|Z|1440; Ashenvale|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
 U Warsong Reports|ACTIVE|6543|L|16746|N|Open your Bundle of w.|U|16783|
 ; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.
-C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|CHAT|
-f Splintertree Post|QID|6442|M|73.18,61.59|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splintertree Post|
-C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|CC|Z|Ashenvale|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|CHAT|
-R Zoram'gar Outpost|AVAILABLE|6442|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|CC|Z|Ashenvale|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.\n[color=FF0000]NOTE: [/color]Keep your distance from Astranaar or you will more than likely die.|
-C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|CHAT|
-f Zoram'gar Outpost|QID|6548|M|12.24,33.80|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
+C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|1440; Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|CHAT|
+f Splintertree Post|QID|6442|M|73.18,61.59|Z|1440; Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splintertree Post|
+C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|CC|Z|1440; Ashenvale|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|CHAT|
+R Zoram'gar Outpost|AVAILABLE|6442|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|CC|Z|1440; Ashenvale|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.\n[color=FF0000]NOTE: [/color]Keep your distance from Astranaar or you will more than likely die.|
+C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|1440; Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|CHAT|
+f Zoram'gar Outpost|QID|6548|M|12.24,33.80|Z|1440; Ashenvale|TAXI|-Zoram'gar Outpost|
 N Vorsha the Lasher|AVAILABLE|6641&6442|N|[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\nCheck this step off to continue.|LVL|20|
 N Vorsha the Lasher|AVAILABLE|6641|N|When you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.\n[color=FF0000]NOTE: [/color]Check this step off to continue.|LVL|-20|
-A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.\nIf he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|
-A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED[/color]\nGo back to Muglash to restart the quest.\nIf he's not there, just wait because someone is either already doing the quest, or he hasn't respawned yet.|LVL|20|FAIL|
-A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
-N Lockpicking|ACTIVE|6442|M|12.68,29.51|Z|Ashenvale|N|There are Waterlogged Footlockers scattered all over the area that you can open to increase your Lockpicking skill and receive a few copper for your efforts.\n[color=FF0000]NOTE: [/color]You need level 85 (minimum) to complete your level 20 class quest.\nCheck this step off to continue.|P|Lockpicking;633;0+85;1|C|Rogue|
-C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
-C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|M|13.31,26.74|Z|Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|1440; Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash.\nIf he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|1440; Ashenvale|N|[color=CC00FF]QUEST FAILED[/color]\nGo back to Muglash to restart the quest.\nIf he's not there, just wait because someone is either already doing the quest, or he hasn't respawned yet.|LVL|20|FAIL|
+A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|1440; Ashenvale|N|From Marukai.|
+N Lockpicking|ACTIVE|6442|M|12.68,29.51|Z|1440; Ashenvale|N|There are Waterlogged Footlockers scattered all over the area that you can open to increase your Lockpicking skill and receive a few copper for your efforts.\n[color=FF0000]NOTE: [/color]You need level 85 (minimum) to complete your level 20 class quest.\nCheck this step off to continue.|P|Lockpicking;633;0+85;1|C|Rogue|
+C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|M|13.31,26.74|Z|1440; Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
+C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|M|13.31,26.74|Z|1440; Ashenvale|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
 L Level 20|AVAILABLE|6641|N|Continue killing Nagas until you reach level 20. Even if you don't want to do the 'Vorsha the Lasher' escort quest, you'll want to be level 20 before you leave to return to the Barrens after this.|LVL|19;-1450|
-C Vorsha the Lasher|QID|6641|M|9.63,27.61|Z|Ashenvale|QO|1|N|Accompany Muglash to the brazier and right-click it to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\n[color=FF0000]NOTE: [/color]Make sure you kill the Priestesses first, as they will heal everyone fully.|
+C Vorsha the Lasher|QID|6641|M|9.63,27.61|Z|1440; Ashenvale|QO|1|N|Accompany Muglash to the brazier and right-click it to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\n[color=FF0000]NOTE: [/color]Make sure you kill the Priestesses first, as they will heal everyone fully.|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|L|5490 20|N|Finish collecting Wrathtail Heads.|US|
-T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
-T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
-N Lockpicking|AVAILABLE|2478|M|12.68,29.51|Z|Ashenvale|N|You need level 85 minimum to complete your level 20 class quest.[color=FF0000]NOTE: [/color]This step will auto-complete when you reach 85. If you wish, you can keep going to 150.|P|Lockpicking;633;0+85;1|C|Rogue|
+T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|1440; Ashenvale|N|To Warsong Runner.|
+T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|1440; Ashenvale|N|To Marukai.|
+N Lockpicking|AVAILABLE|2478|M|12.68,29.51|Z|1440; Ashenvale|N|You need level 85 minimum to complete your level 20 class quest.[color=FF0000]NOTE: [/color]This step will auto-complete when you reach 85. If you wish, you can keep going to 150.|P|Lockpicking;633;0+85;1|C|Rogue|
 
 ; --- Hunters and Mages
 N No class quest|QID|876|N|Hunters and Mages do not have a level 20 quest.|C|Hunter,Mage|
-F Orgrimmar|QID|876|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Hunter,Mage|
+F Orgrimmar|QID|876|M|12.24,33.80|Z|1440; Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Hunter,Mage|
 F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|Fly to The Crossroads when you're done.|R|Tauren|C|Druid|
 ; ---
 ; --- Warriors level 20 class quest
 N Brutal Armor|QID|876|N|It is recommended to wait until lv 28-30 to start this quest chain. This quest chain is quite extensive and requires a lot of traveling to complete.|C|Warrior|
-F Orgrimmar|QID|876|M|12.24,33.80|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Warrior|
+F Orgrimmar|QID|876|M|12.24,33.80|Z|1440; Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Warrior|
 F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|Fly to The Crossroads when you're done.|C|Warrior|
 ; ---
 ; --- Druid Aquatic class quest completion
@@ -351,7 +351,7 @@ F Crossroads|QID|876|M|47.02,49.83|Z|Thunder Bluff|R|Tauren|C|Druid|
 ; --- Priest level 20 racial class quests
 ; --- 2 different quest chains depending on Race.
 ; --- Undead
-F Orgrimmar|AVAILABLE|5646|M|12.24,33.80|Z|Ashenvale|R|Undead|C|Priest|
+F Orgrimmar|AVAILABLE|5646|M|12.24,33.80|Z|1440; Ashenvale|R|Undead|C|Priest|
 R Valley of Spirits|AVAILABLE|5646|ACTIVE|-5644|R|Undead|C|Priest|
 A Devouring Plague|QID|5646|ACTIVE|-5644|M|35.6,87.6|N|From Ur'kyo.\n[color=FF0000]NOTE: [/color]An alternate version of this quest can also be gotten from Miles Welsh in Thunder Bluff.|LEAD|5679|R|Undead|C|Priest|
 b Tirisfal Glades|ACTIVE|5644^5646|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Undead|C|Priest|
@@ -363,7 +363,7 @@ R Leave Undercity|QID|3923|M|65.99,36.85;66.22,0.90;66.22,1.27|CC|Z|Undercity|N|
 b Durotar|QID|3923|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|R|Undead|C|Priest|
 R Orgrimmar|QID|3923|M|45.52,12.07|Z|Durotar|R|Undead|C|Priest|
 ; --- Troll
-F Thunder Bluff|AVAILABLE|5644|M|12.24,33.80|Z|Ashenvale|R|Troll|C|Priest|
+F Thunder Bluff|AVAILABLE|5644|M|12.24,33.80|Z|1440; Ashenvale|R|Troll|C|Priest|
 A Shadowguard|QID|5642|M|25.6,15.6|Z|Thunder Bluff|N|From Miles Welsh in the cave under The Spirit Rise. He pathes a bit but not far.\n[color=FF0000]NOTE: [/color]An alternate version of this quest can also be gotten from Aelthalyste in Undercity.|LEAD|5680|R|Troll|C|Priest|
 F Orgrimmar|ACTIVE|5642^5643|M|47.02,49.83|Z|Thunder Bluff|R|Troll|C|Priest|
 T Shadowguard|QID|5642^5643|M|35.6,87.6|Z|Orgrimmar|N|To Ur'kyo in the Valley of Spirits.|R|Troll|C|Priest|
@@ -377,7 +377,7 @@ F Crossroads|ACTIVE|876|M|44.44,59.15|R|Orc,Troll,Undead|C|Rogue|
 ; ---
 ; --- Shaman Water Totem class quest
 N Shaman level 20 Class quest|AVAILABLE|1528^1529|N|You can either fly to Orgrimmar, or Thunder Bluff to get started. Orgrimmar is the shorter flight and probably the most convenient.\nThis guide will be going to Orgrimmar.|R|Orc,Tauren,Troll|C|Shaman|
-F Orgrimmar|AVAILABLE|1528|ACTIVE|-1529|M|12.24,33.80|Z|Ashenvale|R|Orc,Tauren,Troll|C|Shaman|
+F Orgrimmar|AVAILABLE|1528|ACTIVE|-1529|M|12.24,33.80|Z|1440; Ashenvale|R|Orc,Tauren,Troll|C|Shaman|
 A Call of Water|QID|1528|ACTIVE|-1529|M|37.8,37.4|Z|Orgrimmar|N|From Searn Firewarder in the Valley of Wisdom.|R|Orc,Tauren,Troll|C|Shaman|
 F Ratchet|ACTIVE|1528^1529|M|63.09,37.16|R|Orc,Tauren,Troll|C|Shaman|
 ;R Islen Waterseer|ACTIVE|1528^1529|M|65.8,43.8|R|Orc,Tauren,Troll|C|Shaman|
@@ -396,7 +396,7 @@ F Crossroads|ACTIVE|876|M|44.44,59.15|R|Orc,Tauren,Troll|C|Shaman|
 ; ---
 
 ; --- Warlock Succubus class quest
-F Orgrimmar|AVAILABLE|1507|M|12.24,33.80|Z|Ashenvale|R|Orc,Undead|C|Warlock|
+F Orgrimmar|AVAILABLE|1507|M|12.24,33.80|Z|1440; Ashenvale|R|Orc,Undead|C|Warlock|
 A Devourer of Souls|QID|1507|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye in Cleft of Shadow.|R|Orc,Undead|C|Warlock|
 T Devourer of Souls|QID|1507|M|47.04,46.46|Z|Orgrimmar|N|To Cazul in Cleft of Shadow.|R|Orc,Undead|C|Warlock|
 A Blind Cazul|QID|1508|M|47.04,46.46|Z|Orgrimmar|N|From Cazul.|PRE|1507|R|Orc,Undead|C|Warlock|
@@ -406,9 +406,9 @@ F Crossroads|QID|1509|M|45.50,63.84|Z|Orgrimmar|R|Orc,Undead|C|Warlock|
 T News of Dogran|QID|1509|M|51.93,30.32|N|To Gazrog in The Crossroads.|R|Orc,Undead|C|Warlock|
 A News of Dogran|QID|1510|M|51.93,30.32|N|From Gazrog.|PRE|1509|R|Orc,Undead|C|Warlock|
 F Sun Rock Retreat|ACTIVE|1510|M|45.50,63.84|Z|Orgrimmar|R|Orc,Undead|C|Warlock|
-R Malaka'jin|QID|1510|M|71.81,91.52|Z|Stonetalon Mountains|N|Leave Sun Rock Retreat and follow the path south to Malaka'jin.|R|Orc,Undead|C|Warlock|
-T News of Dogran|QID|1510|M|73.2,95|Z|Stonetalon Mountains|N|To Ken'zigla in Malaka'jin.|R|Orc,Undead|C|Warlock|
-A Ken'zigla's Draught|QID|1511|M|73.2,95|Z|Stonetalon Mountains|N|From Ken'zigla.|PRE|1510|R|Orc,Undead|C|Warlock|
+R Malaka'jin|QID|1510|M|71.81,91.52|Z|1442; Stonetalon Mountains|N|Leave Sun Rock Retreat and follow the path south to Malaka'jin.|R|Orc,Undead|C|Warlock|
+T News of Dogran|QID|1510|M|73.2,95|Z|1442; Stonetalon Mountains|N|To Ken'zigla in Malaka'jin.|R|Orc,Undead|C|Warlock|
+A Ken'zigla's Draught|QID|1511|M|73.2,95|Z|1442; Stonetalon Mountains|N|From Ken'zigla.|PRE|1510|R|Orc,Undead|C|Warlock|
 H Camp Taurajo|QID|1511|N|Hearth to Camp Taurajo.\nIf your hearthstone is on CD, run back to The Crossroads and fly to Camp Taurajo.\n[color=FF0000]NOTE: [/color]\nCheck this step off to continue.|R|Orc,Undead|C|Warlock|
 T Ken'zigla's Draught|QID|1511|M|44.62,59.27|N|To Grunt Logmar in Camp Taurajo.|R|Orc,Undead|C|Warlock|
 A Dogran's Captivity|QID|1515|M|44.62,59.27|N|From Grunt Logmar.|PRE|1511|R|Orc,Undead|C|Warlock|
@@ -433,40 +433,40 @@ T The Spirits of Stonetalon|QID|1061|M|35.26,27.88|N|To Seereth Stonebreak.|
 A Goblin Invaders|QID|1062|M|35.26,27.88|N|From Seereth Stonebreak.|
 
 R Stonetalon Mountains|ACTIVE|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
-R Camp Aparaje|ACTIVE|6548|M|80.05,90.00|Z|Stonetalon Mountains|N|Continue to follow the road into Camp Aparaje.|
-K Avenge My Village|ACTIVE|6548|M|82.02,88.85|Z|Stonetalon Mountains|QO|1;2|N|You'll find the Grimtotem Ruffians and Mercenaries amongst the camps spread throughout the area.|
+R Camp Aparaje|ACTIVE|6548|M|80.05,90.00|Z|1442; Stonetalon Mountains|N|Continue to follow the road into Camp Aparaje.|
+K Avenge My Village|ACTIVE|6548|M|82.02,88.85|Z|1442; Stonetalon Mountains|QO|1;2|N|You'll find the Grimtotem Ruffians and Mercenaries amongst the camps spread throughout the area.|
 T Avenge My Village|QID|6548|M|35.19,27.79|N|Head back To Makaba Flathoof at the Stonetalon entrance.|
 A Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|N|From Makaba Flathoof.|PRE|6548|
 
 R Stonetalon Mountains|QID|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
 C Grimtotem Brutes|QID|6629|QO|2|N|Kill them as you go.|S|
 ; lv 20
-R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|CC|Z|Stonetalon Mountains|N|Follow the road into Grimtotem Post.|
-K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\nIf he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
-A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kaya Flathoof inside the tent.|
+R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|CC|Z|1442; Stonetalon Mountains|N|Follow the road into Grimtotem Post.|
+K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|1442; Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\nIf he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
+A Protect Kaya|QID|6523|M|73.48,85.58|Z|1442; Stonetalon Mountains|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kaya Flathoof inside the tent.|
 C Protect Kaya|QID|6523|QO|1|N|Kaya will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
-A Protect Kaya|QID|6523|M|73.48,85.58|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
+A Protect Kaya|QID|6523|M|73.48,85.58|Z|1442; Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
 C Grimtotem Brutes|QID|6629|QO|2|N|Finish killing them before you leave the area.|US|
 T Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|N|To Makaba Flathoof at the border.|
 T Protect Kaya|QID|6523|M|35.19,27.79|N|To Makaba Flathoof.|
 A Kaya's Alive|QID|6401|M|35.19,27.79|N|From Makaba Flathoof.|PRE|6523|
-R Malaka'jin|ACTIVE|1060|M|71.81,91.52|Z|Stonetalon Mountains|N|Follow the road towards Grimtotem Post. You'll find find the path to Malaka'jin just south of Grimtotem Post.|
-T Letter to Jin'Zil|QID|1060|M|74.54,97.94|Z|Stonetalon Mountains|N|To Witch Doctor Jin'Zil inside the cave.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up quest at this time.|
-A Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|From Xen'zilla in Malaka'jin.|
-K Blood Feeders|ACTIVE|6461|M|58.18,76.03|Z|Stonetalon Mountains|QO|1;2|N|Kill Deepmoss Creepers and Venomspitters.|S|
-R Webwinder Path|ACTIVE|6461|M|59.34,75.96|Z|Stonetalon Mountains|N|Leave Malaka'jin and follow the road north.|
-A Arachnophobia|QID|6284|M|59.07,75.71|Z|Stonetalon Mountains|ELITE|N|From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]This quest is not recommended at your current level. Accept the quest on the off-chance that you find a group to do it.|
-R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|IZ|1442|
-C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|
-K Bessaleth|ACTIVE|6284|M|53.48,74.52|Z|Stonetalon Mountains|L|16192|N| Bessaleth is a lv 21 Elite mob with multiple spawn points. You'll find her in one of the alcoves along the edge.\n[color=FF0000]NOTE: [/color]It's strongly recommended to only attempt this if you're over level, or you have help to do it.\nSkip this step if you wish to move on.|T|Bessaleth|
-C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.|US|
-K Blood Feeders|ACTIVE|6461|M|53.48,74.52|Z|Stonetalon Mountains|QO|1;2|N|Finish up the spiders needed.|US|
-R Sun Rock Retreat|ACTIVE|6401|M|59.34,75.87;59.67,71.22;53.04,61.58;49.58,60.99|CC|Z|Stonetalon Mountains|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
-t Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|IZ|460|
-T Kaya's Alive|QID|6401|M|47.46,58.38|Z|Stonetalon Mountains|N|To Tammra Windfield.|
-f Sun Rock Retreat|QID|6461|M|45.13,59.84|Z|Stonetalon Mountains|N|At Tharm.|TAXI|-Sun Rock Retreat|
-R Malaka'jin|ACTIVE|6461|M|53.18,61.66;71.55,90.59|CC|Z|Stonetalon Mountains|N|Return to Malaka'jin.|
-T Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|To Xen'zilla.|
+R Malaka'jin|ACTIVE|1060|M|71.81,91.52|Z|1442; Stonetalon Mountains|N|Follow the road towards Grimtotem Post. You'll find find the path to Malaka'jin just south of Grimtotem Post.|
+T Letter to Jin'Zil|QID|1060|M|74.54,97.94|Z|1442; Stonetalon Mountains|N|To Witch Doctor Jin'Zil inside the cave.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up quest at this time.|
+A Blood Feeders|QID|6461|M|71.24,95.02|Z|1442; Stonetalon Mountains|N|From Xen'zilla in Malaka'jin.|
+K Blood Feeders|ACTIVE|6461|M|58.18,76.03|Z|1442; Stonetalon Mountains|QO|1;2|N|Kill Deepmoss Creepers and Venomspitters.|S|
+R Webwinder Path|ACTIVE|6461|M|59.34,75.96|Z|1442; Stonetalon Mountains|N|Leave Malaka'jin and follow the road north.|
+A Arachnophobia|QID|6284|M|59.07,75.71|Z|1442; Stonetalon Mountains|ELITE|N|From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]This quest is not recommended at your current level. Accept the quest on the off-chance that you find a group to do it.|
+R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|1442; Stonetalon Mountains|N|Follow the path west up the hill.|IZ|1442|
+C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|1442; Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|
+K Bessaleth|ACTIVE|6284|M|53.48,74.52|Z|1442; Stonetalon Mountains|L|16192|N| Bessaleth is a lv 21 Elite mob with multiple spawn points. You'll find her in one of the alcoves along the edge.\n[color=FF0000]NOTE: [/color]It's strongly recommended to only attempt this if you're over level, or you have help to do it.\nSkip this step if you wish to move on.|T|Bessaleth|
+C Deepmoss Spider Eggs|QID|1069|M|53.48,74.52|Z|1442; Stonetalon Mountains|L|5570 15|N|Pick up the spider eggs from around the area.|US|
+K Blood Feeders|ACTIVE|6461|M|53.48,74.52|Z|1442; Stonetalon Mountains|QO|1;2|N|Finish up the spiders needed.|US|
+R Sun Rock Retreat|ACTIVE|6401|M|59.34,75.87;59.67,71.22;53.04,61.58;49.58,60.99|CC|Z|1442; Stonetalon Mountains|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
+t Arachnophobia|QID|6284|M|47.20,61.16|Z|1442; Stonetalon Mountains|N|To Maggran Earthbinder.|IZ|460|
+T Kaya's Alive|QID|6401|M|47.46,58.38|Z|1442; Stonetalon Mountains|N|To Tammra Windfield.|
+f Sun Rock Retreat|QID|6461|M|45.13,59.84|Z|1442; Stonetalon Mountains|N|At Tharm.|TAXI|-Sun Rock Retreat|
+R Malaka'jin|ACTIVE|6461|M|53.18,61.66;71.55,90.59|CC|Z|1442; Stonetalon Mountains|N|Return to Malaka'jin.|
+T Blood Feeders|QID|6461|M|71.24,95.02|Z|1442; Stonetalon Mountains|N|To Xen'zilla.|
 H Camp Taurajo|ACTIVE|1489^3923|N|This brings an end to this side trip. Hearth back to Camp Taurajo.|
 F Thunder Bluff|ACTIVE|1489|M|44.44,59.15|
 T Hamuul Runetotem|QID|1489|M|78.57,28.57|Z|Thunder Bluff|N|To Arch Druid Hamuul Runetotem on Elder Rise.|
@@ -603,13 +603,13 @@ H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|1424|
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6382^235^742|M|45.13,63.90|Z|Orgrimmar|IZ|1454|
 F Splintertree Post|ACTIVE|6382^235^742|M|44.44,59.15|IZ|378|
-T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|Ashenvale|N|To Senani Thunderheart.|
-A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|Ashenvale|N|From Senani Thunderheart.|
+T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|1440; Ashenvale|N|To Senani Thunderheart.|
+A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|1440; Ashenvale|N|From Senani Thunderheart.|
 N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quests.\nAs the lowest level of the 3 quests does not grey until level 32 AND the mobs are WAY above our current level, we will not being doing it at this time.\n[color=FF0000]NOTE: [/color]This quest doesn't show in your log. It just unlocks the 3 quests (which don't show either).\nCheck this step off to continue.|IZ|1440|
 ; -- The quests are listed below for future reference
-;C Shadumbra's Head|QID|24|Z|Ashenvale|N|Kill the cat, Shadumbra, for its head.|PRE|6383|
-;C Sharptalon's Claw|QID|2|Z|Ashenvale|N|Kill the blue bird, Sharptalon, for its claw.|PRE|6383|
-;C Ursangous's Paw|QID|23|Z|Ashenvale|N|Kill the grey bear, Ursangous, for its paw.|PRE|6383|
-F Sun Rock Retreat|QID|6421|M|73.18,61.59|Z|Ashenvale|
+;C Shadumbra's Head|QID|24|Z|1440; Ashenvale|N|Kill the cat, Shadumbra, for its head.|PRE|6383|
+;C Sharptalon's Claw|QID|2|Z|1440; Ashenvale|N|Kill the blue bird, Sharptalon, for its claw.|PRE|6383|
+;C Ursangous's Paw|QID|23|Z|1440; Ashenvale|N|Kill the grey bear, Ursangous, for its paw.|PRE|6383|
+F Sun Rock Retreat|QID|6421|M|73.18,61.59|Z|1440; Ashenvale|
 ]]
 end)

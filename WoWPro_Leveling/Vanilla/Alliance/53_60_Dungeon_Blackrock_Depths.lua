@@ -12,15 +12,15 @@ return [[
 N About the guide|QID|3802|N|Blackrock Depths is a huge dungeon and has many different ways you can go, it is not on rails like other dungeons, so for writing a guide that needs to have things done in a certain order is challenging if not impossible. So the main goal here is to get you setup with all the available quests before you go in. I will still put guide steps in the dungeon, but if your group has other plans and doesn't want to follow this route then you may have to skip around and/or reset the guide a lot.\n\nIdeally you will have a group that wants to come in and get quests done, or friends/guildies willing to help you out, and not a group that strictly wants to do a quick Emperor run.\n\nIf you can't get it all done in the first go then it's alright, we mainly want to get you to about halfway into 55 before you start Chapter IV. If you've met that goal by the end of the dungeon run then it was a success.\n\nIf you are coming from Chapter 3, then you should already have 11 quests, this dungeon has 10 if you grab them all, fortunately you will turn 1 of them in but that means all 20 quest slots will be in use for a period of time. If you have some lingering quests that aren't part of the guides I would suggest finishing them up or dropping them.|
 
 ;Before Dungeon
-h Ironforge|QID|4286|M|18.12,51.42|Z|Ironforge|N|Set your hearthstone to Ironforge.|
-A Hurley Blackbreath|QID|4126|M|46.83,52.36|Z|Dun Morogh|N|From Ragnar Thunderbrew. In Kharanos outside of Ironforge.|
-A The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|N|From Royal Historian Archesonus.|
-C The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|CHAT|N|Chat with Royal Historian Archesonus.|
-T The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|N|To Royal Historian Archesonus.|
-A The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|Ironforge|N|From Royal Historian Archesonus.|PRE|3702|
-A Kharan Mighthammer|QID|4341|M|39.11,56.18|Z|Ironforge|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom King Magni Bronzebeard.|PRE|3701|
+h Ironforge|QID|4286|M|18.12,51.42|Z|1455; Ironforge|N|Set your hearthstone to Ironforge.|
+A Hurley Blackbreath|QID|4126|M|46.83,52.36|Z|1426; Dun Morogh|N|From Ragnar Thunderbrew. In Kharanos outside of Ironforge.|
+A The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|N|From Royal Historian Archesonus.|
+C The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|CHAT|N|Chat with Royal Historian Archesonus.|
+T The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|N|To Royal Historian Archesonus.|
+A The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|1455; Ironforge|N|From Royal Historian Archesonus.|PRE|3702|
+A Kharan Mighthammer|QID|4341|M|39.11,56.18|Z|1455; Ironforge|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom King Magni Bronzebeard.|PRE|3701|
 
-F Thorium Point|QID|3481|M|55.54,47.75|Z|Ironforge|N|Fly to Thorium Point to complete or finish the black dragon questline.|
+F Thorium Point|QID|3481|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Thorium Point to complete or finish the black dragon questline.|
 A Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|
 C Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|CHAT|N|Talk with Kalaran Windblade.|
 T Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
@@ -64,19 +64,19 @@ C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|US|ELITE|N|[color=ff
 T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|To Helendis Riverhorn.|
 A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
 F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4183|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4184|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
-F Stormwind|QID|4184|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Stormwind.|
+T The True Masters|QID|4183|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A The True Masters|QID|4184|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
+F Stormwind|QID|4184|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
 T The True Masters|QID|4184|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
 A The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
 C The True Masters|QID|4185|M|78.12,17.76|Z|Stormwind City|CHAT|N|Speak with Lady Prestor.|
 T The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
 A The True Masters|QID|4186|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
 F Lakeshire|QID|4186|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4186|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4223|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
+T The True Masters|QID|4186|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A The True Masters|QID|4223|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
 
-F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Burning Steppes.|
+F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
 T The True Masters|QID|4223|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
 A The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
 C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|Burning Steppes|NC|S|N|Find and click on Thaurissan Relics to recover the information.|
@@ -91,10 +91,10 @@ t Overmaster Pyron|QID|4262|M|85.41,70.06|Z|Burning Steppes|N|To Jalinda Sprig.|
 A Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|From Jalinda Sprig.|PRE|4263|
 
 H Ironforge|ACTIVE|3701|M|PLAYER|Z|Burning Steppes|N|Hearth back to Ironforge.|
-T The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|Ironforge|N|To Royal Historian Archesonus.|
-A Kharan Mighthammer|QID|4341|M|39.11,56.18|Z|Ironforge|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom King Magni Bronzebeard.|PRE|3701|
+T The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|1455; Ironforge|N|To Royal Historian Archesonus.|
+A Kharan Mighthammer|QID|4341|M|39.11,56.18|Z|1455; Ironforge|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom King Magni Bronzebeard.|PRE|3701|
 
-F Thorium Point|QID|3802|M|55.54,47.75|Z|Ironforge|N|Fly to Searing Gorge.|
+F Thorium Point|QID|3802|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Searing Gorge.|
 d Kill Yourself|AVAILABLE|3802|M|48.44,63.89|Z|1415|N|Jump off the edge where the waypoint is and die.|
 R To Franclorn|AVAILABLE|3802|M|48.69,63.76;48.65,64.16;48.64,64.31|Z|1415|CS|N|Click off the Corpse waypoint and follow the arrows up the rock on the chain and run toward the center. Do not resurrect!|
 A Dark Iron Legacy|QID|3801|M|48.62,64.19|Z|1415|N|From Franclorn Forgewright. Must be a ghost.|
@@ -121,7 +121,7 @@ A The Bearer of Bad News|QID|4361|M|50,50|N|From Kharan Mighthammer.|PRE|4342|
 
 N Optional|AVAILABLE|4362^4263|M|50,50|N|At this point if you're doing this with people you know, or your group is cool and likes to help out, you could optionally hearth back to Ironforge right now, turn in Kharans quest to Magni and get the follow-up, fly back to Burning Steppes, turn in the Windsor and Pyron quests and get the follow-up to kill Incendius. Otherwise you will need to do a 2nd run to finish this up (and probably a third or fourth to do Jailbreak).\n\nManually skip this step to continue.|
 
-A The Fate of the Kingdom|QID|4362|M|39.11,56.18|Z|Ironforge|N|From King Magni Bronzebeard.\n\nThis is assuming your group let you hearth back.|PRE|4361|
+A The Fate of the Kingdom|QID|4362|M|39.11,56.18|Z|1455; Ironforge|N|From King Magni Bronzebeard.\n\nThis is assuming your group let you hearth back.|PRE|4361|
 A Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|From Jalinda Sprig.\n\nThis is assuming your group let you hearth back.|PRE|4263|
 
 K Fineous Darkvire|QID|3802|M|50,50|N|Kill Fineous Darkvire and loot Ironfel.\n\nDirections:\nFrom the hallway you were in for Kharan and Windsor, take your next right, eastern side of the big area, and then a quick left into the Ring of Law.\n\nAfter you do that, run through the now open gate on the west side and up the ramp to the 2nd level. Make your way across to the other (Eastern) side of the Ring to the next hallway. Go south and Kill Pyromancer Loregrain to have the way to the Monument cleared.\n\nRun back up north until you reach the big open area with Incendius/Black Forge down below. Drop down and kill him. You will find Fineous to the Northeast in the next room. He paths up and down the whole section there.|L|10999|
@@ -162,11 +162,11 @@ T A Taste of Flame|QID|4024|M|95.09,31.55|Z|Burning Steppes|N|To Cyrus Therepent
 
 T The Heart of the Mountain|QID|4123|M|65.18,23.9|Z|Burning Steppes|N|To Maxwort Uberglint.|
 T Ribbly Screwspigot|QID|4136|M|66,22|Z|Burning Steppes|N|To Yuka Screwspigot.|
-T Hurley Blackbreath|QID|4126|M|46.83,52.36|Z|Dun Morogh|N|To Ragnar Thunderbrew. In Kharanos outside of Ironforge.|
+T Hurley Blackbreath|QID|4126|M|46.83,52.36|Z|1426; Dun Morogh|N|To Ragnar Thunderbrew. In Kharanos outside of Ironforge.|
 
-T The Bearer of Bad News|QID|4361|M|39.11,56.18|Z|Ironforge|N|To King Magni Bronzebeard.|
-A The Fate of the Kingdom|QID|4362|M|39.11,56.18|Z|Ironforge|N|From King Magni Bronzebeard.\n\nAccept this only when you're planning on running a 2nd time.|PRE|4361|
-t The Princess's Surprise|QID|4363|M|39.11,56.18|Z|Ironforge|N|To King Magni Bronzebeard.|
+T The Bearer of Bad News|QID|4361|M|39.11,56.18|Z|1455; Ironforge|N|To King Magni Bronzebeard.|
+A The Fate of the Kingdom|QID|4362|M|39.11,56.18|Z|1455; Ironforge|N|From King Magni Bronzebeard.\n\nAccept this only when you're planning on running a 2nd time.|PRE|4361|
+t The Princess's Surprise|QID|4363|M|39.11,56.18|Z|1455; Ironforge|N|To King Magni Bronzebeard.|
 
 ;Within Dungeon Trip 2
 t A Crumpled Up Note|QID|4264|M|50,50|N|To Marshal Windsor. If at all possible, you will want to run back to Windsor to turn in this quest before Angerforge and Argelmach or this will require a seperate run.|
@@ -193,7 +193,7 @@ A The Princess's Surprise|QID|4363|M|50,50|N|From Princess Moira Bronzebeard.|PR
 
 ;After Dungeon Trip 2
 H Ironforge|M|50,50|N|Hearth to Ironforge.|
-T The Princess's Surprise|QID|4363|M|39.11,56.18|Z|Ironforge|N|To King Magni Bronzebeard.|
+T The Princess's Surprise|QID|4363|M|39.11,56.18|Z|1455; Ironforge|N|To King Magni Bronzebeard.|
 T Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|To Jalinda Sprig.|
 T Jail Break!|QID|4322|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell in Burning Steppes.|
 A Stormwind Rendezvous|QID|6402|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell|PRE|4322|

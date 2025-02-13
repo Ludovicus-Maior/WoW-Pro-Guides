@@ -30,7 +30,7 @@ F Blasted Lands|ACTIVE|2990|M|11.07,46.16|Z|1425; The Hinterlands|N|Fly to Arath
 T Thadius Grimshade|QID|2990|M|66.90,19.47|Z|Blasted Lands|N|To Thadius Grimshade. Up on top of the tower.|
 A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Thadius Grimshade. Up at the top of the tower. Now make your way back to Kalimdor|PRE|2990|
 
-A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha. Fly to Theramore if you want to grab this quest.|
+A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|1445; Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha. Fly to Theramore if you want to grab this quest.|
 
 A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts. Run up to Thousand Needles if you want to grab this quest.|
 
@@ -71,12 +71,12 @@ T The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
 A The Ancient Egg|QID|4787|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya. Skip this step if you don't intend on finding a group to goto the Hinterlands.|PRE|3527|
 
 F Theramore|ACTIVE|2846|M|51.01,29.34|Z|Tanaris|N|Fly to Dustwallow Marsh.|
-T Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha. Fly to Theramore if you want to turn this in now.|
+T Tiara of the Deep|QID|2846|M|46.06,57.09|Z|1445; Dustwallow Marsh|N|To Tabetha. Fly to Theramore if you want to turn this in now.|
 h Gadgetzan|ACTIVE|2993^4787|N|Set your Hearthstone to Gadgetzan in Tanaris.|
 
 F Ratchet|ACTIVE|2991|M|51.01,29.35|Z|Tanaris|N|Fly to Ratchet.|
-b Booty Bay|ACTIVE|2991|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
-F Blasted Lands|AVAILABLE|212|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Blasted Lands.|
+b Booty Bay|ACTIVE|2991|M|63.70,38.63|Z|1413; The Barrens|N|Take the boat to Booty Bay.|
+F Blasted Lands|AVAILABLE|212|M|27.53,77.78|Z|1434; Stranglethorn Vale|N|Fly to Blasted Lands.|
 T Nekrum's Medallion|QID|2991|M|66.9,19.5|Z|Blasted Lands|N|To Thadius Grimshade on top of the tower.|
 A The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|PRE|2992|
 T The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|Wait for him to finish the ritual then turn quest in to Thadius Grimshade.|

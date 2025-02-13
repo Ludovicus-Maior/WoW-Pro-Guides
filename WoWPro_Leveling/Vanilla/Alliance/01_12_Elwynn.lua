@@ -265,26 +265,26 @@ A Desperate Prayer|QID|5635|M|43.28,65.72|N|From Priestess Josetta.|C|Priest|
 ; -- Paladin ** No class quest
 = Level 10 Training|ACTIVE|109|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Paladin|LVL|10|IZ|Goldshire^Lion's Pride Inn|
 
-R Westfall|QID|109|ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Follow the road west from Goldshire to Westfall.|
-t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|IZ|Westfall|
-A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|Westfall|N|From Farmer Furlbrow.|
-A Westfall Stew |QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
-A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
-R Saldean's Farm|ACTIVE|36|M|57.02,30.11|Z|Westfall|N|Follow the road south to the farm.|
-A The Killing Fields|QID|9|M|56.04,31.23|Z|Westfall|N|From Farmer Saldean.\n[color=FF0000]NOTE: [/color]He is also a vendor.|
-T Westfall Stew |QID|36|M|56.41,30.52|Z|Westfall|N|To Salma Saldean.|
-A Westfall Stew |QID|38|PRE|36|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|
-A Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|Westfall|N|From Salma Saldean.|
-C Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|Westfall|L|723 8|ITEM|723|N|Goretusk found all over Westfall.|S|IZ|Westfall|
-C Westfall Stew|QID|38|Z|Westfall|N|Kill Vultures, Harvest Watchers/Golems, Murlocs and Goretusks.|S|IZ|Westfall|
-R Sentinel Hill|ACTIVE|109|M|57.61,44.45|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
-T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle.\n[color=FF0000]NOTE: [/color]You can accept "The People's Militia" now, or wait and save questlog space until later.|
-A A Swift Message|QID|6181|M|57.00,47.17|Z|Westfall|N|From Quartermaster Lewis.|R|Human|
-h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
-T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|R|Human|
-A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|R|Human|
-f Sentinel Hill|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Sentinel Hill|
-F Stormwind|ACTIVE|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
+R Westfall|QID|109|ACTIVE|109|M|61.95,17.80|Z|1436; Westfall|N|Follow the road west from Goldshire to Westfall.|
+t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|1436; Westfall|N|To Farmer Furlbrow.|IZ|Westfall|
+A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|1436; Westfall|N|From Farmer Furlbrow.|
+A Westfall Stew |QID|36|M|59.92,19.41|Z|1436; Westfall|N|From Verna Furlbrow.|
+A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|1436; Westfall|N|From Verna Furlbrow.|
+R Saldean's Farm|ACTIVE|36|M|57.02,30.11|Z|1436; Westfall|N|Follow the road south to the farm.|
+A The Killing Fields|QID|9|M|56.04,31.23|Z|1436; Westfall|N|From Farmer Saldean.\n[color=FF0000]NOTE: [/color]He is also a vendor.|
+T Westfall Stew |QID|36|M|56.41,30.52|Z|1436; Westfall|N|To Salma Saldean.|
+A Westfall Stew |QID|38|PRE|36|M|56.41,30.52|Z|1436; Westfall|N|From Salma Saldean.|
+A Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|1436; Westfall|N|From Salma Saldean.|
+C Goretusk Liver Pie|QID|22|M|56.41,30.52|Z|1436; Westfall|L|723 8|ITEM|723|N|Goretusk found all over Westfall.|S|IZ|Westfall|
+C Westfall Stew|QID|38|Z|1436; Westfall|N|Kill Vultures, Harvest Watchers/Golems, Murlocs and Goretusks.|S|IZ|Westfall|
+R Sentinel Hill|ACTIVE|109|M|57.61,44.45|Z|1436; Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
+T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|1436; Westfall|N|To Gryan Stoutmantle.\n[color=FF0000]NOTE: [/color]You can accept "The People's Militia" now, or wait and save questlog space until later.|
+A A Swift Message|QID|6181|M|57.00,47.17|Z|1436; Westfall|N|From Quartermaster Lewis.|R|Human|
+h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|1436; Westfall|N|At Innkeeper Heather.|
+T A Swift Message|QID|6181|M|56.55,52.65|Z|1436; Westfall|N|To Thor.|R|Human|
+A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|1436; Westfall|N|From Thor.|R|Human|
+f Sentinel Hill|ACTIVE|1097|M|56.55,52.65|Z|1436; Westfall|N|Discover Sentinel Hill Flight Path with Thor.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Sentinel Hill|
+F Stormwind|ACTIVE|1097|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
 ; ---------- LEVEL 10 CLASS QUEST cont.------------
 T Gakin's Summons|QID|1685|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
@@ -315,40 +315,40 @@ A Me Brother, Nipsy|QID|6662|PRE|6661|N|From Monty.|
 T Me Brother, Nipsy|QID|6662|N|To Nipsy at the Stormwind Tram Stop. If you are quick you can jump off and turn in before the tram leaves.|
 R Tinker Town|ACTIVE|353|N|Board the Tram back to Ironforge and take the tunnel to your North.|
 
-f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
-R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|Ironforge|N|Head to the exit of Ironforge.|
-R Kharanos|QID|384|M|47.16,45.39|Z|Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
-A Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|From Razzle Sprysprocket.|
-A Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|From Ragnar Thunderbrew.|
-C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|Crag Boar Rib.|S|
-A Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|From Pilot Bellowfiz.|
-C Stocking Jetsteam|QID|317|M|20.2,75.8|Z|Dun Morogh|L|769 4|N|Chunk of Boar Meat.|S|
-C Stocking Jetsteam|QID|317|M|67,59.6|Z|Dun Morogh|L|6952 2|N|Kill young black bears to loot Thick Bear Fur.|S|
-A The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|From Pilot Stonegear.|
-A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|Z|Dun Morogh|N|From Loslor Rudge.|
+f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|1455; Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
+R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|1455; Ironforge|N|Head to the exit of Ironforge.|
+R Kharanos|QID|384|M|47.16,45.39|Z|1426; Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
+A Operation Recombobulation|QID|412|M|45.84,49.37|Z|1426; Dun Morogh|N|From Razzle Sprysprocket.|
+A Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|1426; Dun Morogh|N|From Ragnar Thunderbrew.|
+C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|1426; Dun Morogh|L|2886 6|N|Crag Boar Rib.|S|
+A Stocking Jetsteam|QID|317|M|49.43,48.41|Z|1426; Dun Morogh|N|From Pilot Bellowfiz.|
+C Stocking Jetsteam|QID|317|M|20.2,75.8|Z|1426; Dun Morogh|L|769 4|N|Chunk of Boar Meat.|S|
+C Stocking Jetsteam|QID|317|M|67,59.6|Z|1426; Dun Morogh|L|6952 2|N|Kill young black bears to loot Thick Bear Fur.|S|
+A The Grizzled Den|QID|313|M|49.62,48.61|Z|1426; Dun Morogh|N|From Pilot Stonegear.|
+A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|Z|1426; Dun Morogh|N|From Loslor Rudge.|
 
-R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|Z|Dun Morogh|CC|N|Make your way to the cave entrance.|
+R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|Z|1426; Dun Morogh|CC|N|Make your way to the cave entrance.|
 C The Grizzled Den|QID|313|L|2671 8|N|Kill the Wendigo to loot Wendigo Mane.|
-C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|Dun Morogh|L|13850|N|Exit the cave and run across the field to the camp just inside the tree line.|
-T Ammo for Rumbleshot|QID|5541|M|46.19,61.90;40.68,65.13|Z|Dun Morogh|CC|N|Head up the hill to the road and follow it to Hegnar Rumbleshot.|
-R Coldridge Pass|QID|412|M|36.20,61.79|Z|Dun Morogh|N|Follow the road westward towards Coldridge Pass.|
-R Brewnall Village|QID|412|M|33.69,57.13;30.84,51.46|Z|Dun Morogh|CC|N|Run down the hill and into the valley to the road leading into Brewnall Village.|
-A Bitter Rivals|QID|310|M|30.2,45.6|Z|Dun Morogh|N|From Marleth Barleybrew.|
-R Gnomeregan|ACTIVE|412|M|27.72,44.02|Z|Dun Morogh|CC|N|Head northeast to Gnomeregan.|
+C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|1426; Dun Morogh|L|13850|N|Exit the cave and run across the field to the camp just inside the tree line.|
+T Ammo for Rumbleshot|QID|5541|M|46.19,61.90;40.68,65.13|Z|1426; Dun Morogh|CC|N|Head up the hill to the road and follow it to Hegnar Rumbleshot.|
+R Coldridge Pass|QID|412|M|36.20,61.79|Z|1426; Dun Morogh|N|Follow the road westward towards Coldridge Pass.|
+R Brewnall Village|QID|412|M|33.69,57.13;30.84,51.46|Z|1426; Dun Morogh|CC|N|Run down the hill and into the valley to the road leading into Brewnall Village.|
+A Bitter Rivals|QID|310|M|30.2,45.6|Z|1426; Dun Morogh|N|From Marleth Barleybrew.|
+R Gnomeregan|ACTIVE|412|M|27.72,44.02|Z|1426; Dun Morogh|CC|N|Head northeast to Gnomeregan.|
 C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|S|
 C Operation Recombobulation|QID|412|L|3084 8|N|Kill gnomes to loot the Gyromechanic Gear.|
 C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|US|
-C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|finish collecting the Crag Boar Ribs.|US|
+C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|1426; Dun Morogh|L|2886 6|N|finish collecting the Crag Boar Ribs.|US|
 L Level 12|QID|412|N|Grind out some XP until you are within 5 bubbles of level 12 before returning.|LVL|12;-2080|
-R Kharanos|QID|412|M|47.11,47.01|Z|Dun Morogh|CC|N|Make your way back to Kharanos.|
-T Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|To Razzle Sprysprocket.|
-B Rhapsody Malt|ACTIVE|384|M|47.37,52.53|Z|Dun Morogh|L|2894|N|Go inside Thunderbrew Distillery and purchase a Rhapsody Malt from Innkeeper Belm.|
-B Thunder Ale|ACTIVE|310|M|47.37,52.53|Z|Dun Morogh|L|2686|N|Purchase a Thunder Ale before you go. You need this to turn in 'Bitter Rivals'.
-A Distracting Jarven|QID|308|ACTIVE|310|M|47.64,52.66|Z|Dun Morogh|N|Cut through the kitchen and make your way down the stairs to Jarven Thunderbrew in the basement.|
-T Bitter Rivals|QID|310|M|47.72,52.70|Z|Dun Morogh|N|Once Jarven leaves, right-click on the Unguarded Thunder Ale Barrel.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest.|
-T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|To Ragnar Thunderbrew.|
-T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|To Pilot Bellowfiz.|
-T The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|To Pilot Stonegear.|
+R Kharanos|QID|412|M|47.11,47.01|Z|1426; Dun Morogh|CC|N|Make your way back to Kharanos.|
+T Operation Recombobulation|QID|412|M|45.84,49.37|Z|1426; Dun Morogh|N|To Razzle Sprysprocket.|
+B Rhapsody Malt|ACTIVE|384|M|47.37,52.53|Z|1426; Dun Morogh|L|2894|N|Go inside Thunderbrew Distillery and purchase a Rhapsody Malt from Innkeeper Belm.|
+B Thunder Ale|ACTIVE|310|M|47.37,52.53|Z|1426; Dun Morogh|L|2686|N|Purchase a Thunder Ale before you go. You need this to turn in 'Bitter Rivals'.
+A Distracting Jarven|QID|308|ACTIVE|310|M|47.64,52.66|Z|1426; Dun Morogh|N|Cut through the kitchen and make your way down the stairs to Jarven Thunderbrew in the basement.|
+T Bitter Rivals|QID|310|M|47.72,52.70|Z|1426; Dun Morogh|N|Once Jarven leaves, right-click on the Unguarded Thunder Ale Barrel.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest.|
+T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|1426; Dun Morogh|N|To Ragnar Thunderbrew.|
+T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|1426; Dun Morogh|N|To Pilot Bellowfiz.|
+T The Grizzled Den|QID|313|M|49.62,48.61|Z|1426; Dun Morogh|N|To Pilot Stonegear.|
 N Level 12 Training|AVAILABLE|314|N|Do your training before leaving the area. If you have to go to Ironforge, come back down the hill to the Kharanos intersection.\nClose this step when you are done.|LVL|12|
 
 ]]

@@ -9,7 +9,7 @@ return [[
 ; === guides/54_Felwood.lua ===
 F Splintertree Post|
 
-R Felwood|M|55.75,29.50|Z|Ashenvale|N|Head west out of town. At the fork near the retreat head north out of the zone.|
+R Felwood|M|55.75,29.50|Z|1440; Ashenvale|N|Head west out of town. At the fork near the retreat head north out of the zone.|
 
 R Emerald Sanctuary|M|51.00,81.00|N|Just ahead, north of the road.|
 A Forces of Jaedenar|QID|5155|
