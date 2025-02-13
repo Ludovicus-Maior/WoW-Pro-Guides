@@ -2,7 +2,7 @@
 
 local _, WoWPro = ...
 
---[[ 
+--[[
     This is a compatibility layer between Classic and Retail, and is
     intended to convert the old API that Classic uses into the newer
     API that Retail uses or will use.
