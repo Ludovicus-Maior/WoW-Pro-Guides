@@ -248,14 +248,14 @@ R The Mor'shan Rampart.|ACTIVE|6541|M|48,5.4|N|Now run north, to the first floor
 T Report to Kadrak|QID|6541|M|48,5.4|N|To Kadrak, on the first floor of a guard tower.|
 A The Warsong Reports|QID|6543|M|48,5.4|N|From Kadrak.|
 R Ashenvale|QID|6548|N|Follow the road north until you reach Ashenvale.|M|48.1,2.1|
-R Splintertree Post|QID|6548|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.|Z|Ashenvale|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|
-C Warsong Scout Update|QID|6543|QO|1|NC|U|16783|N|Open your stack of warsong reports, and give one of them to the guard with a Blue question mark over her head. Remember to give her only one, or you won't have enough to go around.|M|71,68|Z|Ashenvale|
-f Splintertree Post|QID|6548|N|Then head into Splintertree Post and get the flight path.|M|73.2,61.6|Z|Ashenvale|
-C Warsong Outrider Update|QID|6543|QO|3|NC|N|Go to the second guard and get the Warsong Outrider Update. He patrols all along the road northeast of Splintertree|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|CC|Z|Ashenvale|
-R Zoram'gar Outpost|QID|6548|N|Get back to the junction, and follow the road all the way west to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CC|Z|Ashenvale|
-C Warsong Runner Update|QID|6543|QO|2|NC|N|When you get there, hand out the last report|M|12.2,34.2|Z|Ashenvale|
-f Zoram'gar Outpost|QID|6548|M|12.2,33.9|Z|Ashenvale|
-F Crossroads|QID|6548|M|73.2,61.6|Z|Ashenvale|
+R Splintertree Post|QID|6548|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.|Z|1440; Ashenvale|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|
+C Warsong Scout Update|QID|6543|QO|1|NC|U|16783|N|Open your stack of warsong reports, and give one of them to the guard with a Blue question mark over her head. Remember to give her only one, or you won't have enough to go around.|M|71,68|Z|1440; Ashenvale|
+f Splintertree Post|QID|6548|N|Then head into Splintertree Post and get the flight path.|M|73.2,61.6|Z|1440; Ashenvale|
+C Warsong Outrider Update|QID|6543|QO|3|NC|N|Go to the second guard and get the Warsong Outrider Update. He patrols all along the road northeast of Splintertree|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|CC|Z|1440; Ashenvale|
+R Zoram'gar Outpost|QID|6548|N|Get back to the junction, and follow the road all the way west to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CC|Z|1440; Ashenvale|
+C Warsong Runner Update|QID|6543|QO|2|NC|N|When you get there, hand out the last report|M|12.2,34.2|Z|1440; Ashenvale|
+f Zoram'gar Outpost|QID|6548|M|12.2,33.9|Z|1440; Ashenvale|
+F Crossroads|QID|6548|M|73.2,61.6|Z|1440; Ashenvale|
 
 A Avenge My Village|QID|6548|M|35.2,27.8|N|Leave the town through the West gate, and follow the road until you come to the border with Stonetalon Mountains.|
 A Goblin Invaders |QID|1062|M|35.2,27.8|N|From Seereth Stonebreak. We won't be doing this quest in this guide, it will be completed in Jame's guide for level 21-31. If you don't plan to do that guide, then skip this.|

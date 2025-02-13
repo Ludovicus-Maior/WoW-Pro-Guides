@@ -342,83 +342,83 @@ T The Missing Diplomat|QID|1248|M|10.61,60.76|N|To Mikhail. Don't get follow up.
 ;Ashenvale 29-30
 b Darkshore|AVAILABLE|4581|M|4.61,57.07|Z|1437; Wetlands|N|Take Boat to Auberdine.|
 F Astranaar|AVAILABLE|4581|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
-A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|Z|Ashenvale|
-h Astranaar|AVAILABLE|1021|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
-A Fallen Sky Lake|QID|1035|M|37.35,51.80|N|From Pelturas Whitemoon|Z|Ashenvale|PRE|1034|
-A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|Ashenvale|
-A Vile Satyr! Dryads in Danger!|QID|1021|M|21.74,53.35|N|From Illiyana.|Z|Ashenvale|
-R Raynewood Retreat|ACTIVE|1026|M|62.00,51.00|CS|N|Follow the path east out of Astrannar and take the North path at the fork in the road towards Raynewood Retreat.|Z|Ashenvale|
-K Raene's Cleansing|QID|1026|M|54.42,35.39||N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|Z|Ashenvale|
-C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|Z|Ashenvale|
-C The Howling Vale|QID|1022|M|53.76,35.08;52.81,37.68;50.49,39.13|CC|N|Run up the hill next to you and find a worgen guarded tunnel. Fight or sneak your way through to find the tome.|Z|Ashenvale|
-R Moonwell|ACTIVE|1026|M|54.42,35.39;61.00,44.20;57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Run back out of the tunnel and south along the Road. Once past Raynewood Retreat head west along the hill and then follow it up towards the Moonwell|Z|Ashenvale|
-T Raene's Cleansing|QID|1026|M|53.50,46.30|CS|N|To Shael'dryn.|Z|Ashenvale|
-A Raene's Cleansing|QID|1027|M|53.50,46.30|N|From Shael'dryn.|PRE|1026|Z|Ashenvale|
-R Night Run|AVAILABLE|1031|M|50.60,46.90;51.40,52.50;57.30,55.80;65.50,43.80|CS|N|Go back around the hill and around Raynewood Retreat. Cross over the road to head up the hill towards Night Run.|Z|Ashenvale|
-C The Tower of Althalaxx|QID|1140|M|66.63,57|CC|QO|1|N|Make your way through the Satyr in Night Run to click on the Red Crystal in the camp.|Z|Ashenvale|
-T Vile Satyr! Dryads in Danger!|QID|1021|M|78.32,44.85|N|Head north-east out of Night Run and cross the lake at Xavian.\nAnilia is the wounded Dryad in the middle of a Satyr camp.|Z|Ashenvale|
-A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|From Anilia.|PRE|1021|Z|Ashenvale|
-C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis in the clearing to the North.|Z|Ashenvale|
-C The Tower of Althalaxx|QID|1140|M|81.59,48.58|QO|2|N|Make your way through the Satyr in Sayrnaar to click on the Red Crystal behind the red statue.|Z|Ashenvale|
-T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|Z|Ashenvale|
-A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|Z|Ashenvale|
-C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Head south along the road past Splintertree Post. Loot a Bottle of Disease from the Forsaken camp.|Z|Ashenvale|
-C Raene's Cleansing|QID|1027|S||N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|Z|Ashenvale|
-C Fallen Sky Lake|QID|1035|M|66.60,82.00|N|Kill the Shadethicket Oracle|Z|Ashenvale|
-C Raene's Cleansing|QID|1027|M|74.55,73.33|US|N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|Z|Ashenvale|
-N Rank 3 Guide Steps|AVAILABLE|1012|S|N|You currently have your WoW-Pro Rank set to 3.\nThe guide will shortly be going through a set of quests that are really out of the way.\nIf you wish to skip these quests please set your Rank below 3 in settings and continue the guide.|RANK|3|Z|Ashenvale|
-T Forsaken Diseases|QID|1011|M|85.28,44.72|N|Take the road back north and turn in to Kayneth Stillwind. Don't get follow up.|Z|Ashenvale|
-A Insane Druids|QID|1012|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|1011|RANK|3|Z|Ashenvale|
-K Insane Druids|QID|1012|ACTIVE|1012|M|74.60,76.40;77.2,73.98|CS|QO|1|N|Head south along the road towards the Barrow Den entrance. Once inside cross over the bridge to find Taneel Darkwood|Z|Ashenvale|
-K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and Uthil Mooncall will be to your right.|Z|Ashenvale|
-K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Go straight out, follow the tunnel ahead. At the end of the tunnel head up the ramp to your left onto the platform in the center of the room. Take the right-side bridge and follow the tunnel that wraps around the room to find Mavoris Cloudsbreak.|Z|Ashenvale|
-T Insane Druids|QID|1012|M|85.28,44.72|N|Take the tunnel to the south, follow it up and to the right to return to the entrance. Return north along the road to Kayneth Stillwind.|Z|Ashenvale|
-f Talrendis Point|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|
+A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|Z|1440; Ashenvale|
+h Astranaar|AVAILABLE|1021|N|Make Astranaar your home location.|M|36.97,49.26|Z|1440; Ashenvale|
+A Fallen Sky Lake|QID|1035|M|37.35,51.80|N|From Pelturas Whitemoon|Z|1440; Ashenvale|PRE|1034|
+A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|1440; Ashenvale|
+A Vile Satyr! Dryads in Danger!|QID|1021|M|21.74,53.35|N|From Illiyana.|Z|1440; Ashenvale|
+R Raynewood Retreat|ACTIVE|1026|M|62.00,51.00|CS|N|Follow the path east out of Astrannar and take the North path at the fork in the road towards Raynewood Retreat.|Z|1440; Ashenvale|
+K Raene's Cleansing|QID|1026|M|54.42,35.39||N|Kill Withered and Crazed Ancients in the area until you get the Wooden Key.|L|5475|Z|1440; Ashenvale|
+C Raene's Cleansing|QID|1026|M|54.42,35.39|N|Click on the Worn Chest once you have the key.|Z|1440; Ashenvale|
+C The Howling Vale|QID|1022|M|53.76,35.08;52.81,37.68;50.49,39.13|CC|N|Run up the hill next to you and find a worgen guarded tunnel. Fight or sneak your way through to find the tome.|Z|1440; Ashenvale|
+R Moonwell|ACTIVE|1026|M|54.42,35.39;61.00,44.20;57.30,55.80;51.40,52.50;50.60,46.90;53.50,46.30|CS|N|Run back out of the tunnel and south along the Road. Once past Raynewood Retreat head west along the hill and then follow it up towards the Moonwell|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1026|M|53.50,46.30|CS|N|To Shael'dryn.|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1027|M|53.50,46.30|N|From Shael'dryn.|PRE|1026|Z|1440; Ashenvale|
+R Night Run|AVAILABLE|1031|M|50.60,46.90;51.40,52.50;57.30,55.80;65.50,43.80|CS|N|Go back around the hill and around Raynewood Retreat. Cross over the road to head up the hill towards Night Run.|Z|1440; Ashenvale|
+C The Tower of Althalaxx|QID|1140|M|66.63,57|CC|QO|1|N|Make your way through the Satyr in Night Run to click on the Red Crystal in the camp.|Z|1440; Ashenvale|
+T Vile Satyr! Dryads in Danger!|QID|1021|M|78.32,44.85|N|Head north-east out of Night Run and cross the lake at Xavian.\nAnilia is the wounded Dryad in the middle of a Satyr camp.|Z|1440; Ashenvale|
+A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|From Anilia.|PRE|1021|Z|1440; Ashenvale|
+C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis in the clearing to the North.|Z|1440; Ashenvale|
+C The Tower of Althalaxx|QID|1140|M|81.59,48.58|QO|2|N|Make your way through the Satyr in Sayrnaar to click on the Red Crystal behind the red statue.|Z|1440; Ashenvale|
+T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|Z|1440; Ashenvale|
+A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|Z|1440; Ashenvale|
+C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Head south along the road past Splintertree Post. Loot a Bottle of Disease from the Forsaken camp.|Z|1440; Ashenvale|
+C Raene's Cleansing|QID|1027|S||N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|Z|1440; Ashenvale|
+C Fallen Sky Lake|QID|1035|M|66.60,82.00|N|Kill the Shadethicket Oracle|Z|1440; Ashenvale|
+C Raene's Cleansing|QID|1027|M|74.55,73.33|US|N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|Z|1440; Ashenvale|
+N Rank 3 Guide Steps|AVAILABLE|1012|S|N|You currently have your WoW-Pro Rank set to 3.\nThe guide will shortly be going through a set of quests that are really out of the way.\nIf you wish to skip these quests please set your Rank below 3 in settings and continue the guide.|RANK|3|Z|1440; Ashenvale|
+T Forsaken Diseases|QID|1011|M|85.28,44.72|N|Take the road back north and turn in to Kayneth Stillwind. Don't get follow up.|Z|1440; Ashenvale|
+A Insane Druids|QID|1012|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|1011|RANK|3|Z|1440; Ashenvale|
+K Insane Druids|QID|1012|ACTIVE|1012|M|74.60,76.40;77.2,73.98|CS|QO|1|N|Head south along the road towards the Barrow Den entrance. Once inside cross over the bridge to find Taneel Darkwood|Z|1440; Ashenvale|
+K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and Uthil Mooncall will be to your right.|Z|1440; Ashenvale|
+K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Go straight out, follow the tunnel ahead. At the end of the tunnel head up the ramp to your left onto the platform in the center of the room. Take the right-side bridge and follow the tunnel that wraps around the room to find Mavoris Cloudsbreak.|Z|1440; Ashenvale|
+T Insane Druids|QID|1012|M|85.28,44.72|N|Take the tunnel to the south, follow it up and to the right to return to the entrance. Return north along the road to Kayneth Stillwind.|Z|1440; Ashenvale|
+f Talrendis Point|QID|1027|M|11.90,77.59|Z|1447; Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|
 
-F Astranaar|QID|1027|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
-T Fallen Sky Lake|QID|1035|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
-R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|Z|Ashenvale|
-T Raene's Cleansing|QID|1027|M|53.5,46.3|CC|N|To Shael'dryn.|Z|Ashenvale|
-A Raene's Cleansing|QID|1028|M|53.5,46.3|N|From Shael'dryn. Wait a moment while she fixes the rod.|PRE|1027|Z|Ashenvale|
-T Raene's Cleansing|QID|1028|M|50.60,46.90;51.40,52.50;53.70,54.00;56.38,49.23|CC|N|Run back around the mountains counter clockwise until you hit the path leading up to the Hidden Shrine.|Z|Ashenvale|
-A Raene's Cleansing|QID|1055|M|56.4,49.3|N|From Hidden Shrine.|PRE|1028|Z|Ashenvale|
-T Raene's Cleansing|QID|1055|M|56.10,51.35;51.40,52.50;53.5,46.3|CC|N|Return along the route to Shael'dryn.|Z|Ashenvale|
-A Raene's Cleansing|QID|1029|M|53.5,46.3|N|From Shael'dryn.|PRE|1055|Z|Ashenvale|
-T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up.|RANK|-3|Z|Ashenvale|
-T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner.|RANK|3|Z|Ashenvale|
+F Astranaar|QID|1027|M|11.90,77.59|Z|1447; Azshara|N|Fly back to Astranaar.|
+T Fallen Sky Lake|QID|1035|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|1440; Ashenvale|
+R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1027|M|53.5,46.3|CC|N|To Shael'dryn.|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1028|M|53.5,46.3|N|From Shael'dryn. Wait a moment while she fixes the rod.|PRE|1027|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1028|M|50.60,46.90;51.40,52.50;53.70,54.00;56.38,49.23|CC|N|Run back around the mountains counter clockwise until you hit the path leading up to the Hidden Shrine.|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1055|M|56.4,49.3|N|From Hidden Shrine.|PRE|1028|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1055|M|56.10,51.35;51.40,52.50;53.5,46.3|CC|N|Return along the route to Shael'dryn.|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1029|M|53.5,46.3|N|From Shael'dryn.|PRE|1055|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up.|RANK|-3|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner.|RANK|3|Z|1440; Ashenvale|
 * Rod of Transformation|AVAILABLE|1030|U|5462|M|36.6,49.6|N|Once the Raene's Cleansing questline is complete the Rod of Transformation will be removed from your inventory. If you wish to retain the ability to transform into a Furbolg after completing the quest discard the rod now before picking up the next quest. After completing the questline go to battle.net/support/en/restoration and select your character to restore the item|RANK|3|
-A Raene's Cleansing|QID|1030|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1029|RANK|3|Z|Ashenvale|
-T The Howling Vale|QID|1022|M|22.24,52.98|N|To Sentinel Melyria Frostshadow.|Z|Ashenvale|
-A Velinde Starsong|QID|1037|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|PRE|1022|Z|Ashenvale|
-T The Branch of Cenarius|QID|1031|M|21.74,53.35|N|To Illiyana.|Z|Ashenvale|
-A Satyr Slaying!|QID|1032|M|21.74,53.35|N|From Illiyana.|PRE|1031|RANK|3|Z|Ashenvale|
-T Raene's Cleansing|QID|1030|M|50.8,75|N|To Krolg. Run around the south-east edge of the lake to find the hill up to him. Be sure to use your rod so you can speak with him.|U|5462|Z|Ashenvale|
-A Raene's Cleansing|QID|1045|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1030|RANK|3|Z|Ashenvale|
-C Raene's Cleansing|QID|1045|M|54.4,79.2|S|N|Kill Bloodtooth Guards in the area.|Z|Ashenvale|
-K Raene's Cleansing|QID|1045|ACTIVE|1045|M|54.4,79.2|N|Kill Ran Bloodtooth and loot his skull.|L|5388|Z|Ashenvale|
-C Raene's Cleansing|QID|1045|M|54.4,79.2|US|N|Finish Killing Guards.|Z|Ashenvale|
-T Raene's Cleansing|QID|1045|M|50.8,75|N|To Krolg. Be sure to use your rod so you can speak with him.|U|5462|Z|Ashenvale|
-A Raene's Cleansing|QID|1046|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1045|RANK|3|Z|Ashenvale|
+A Raene's Cleansing|QID|1030|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1029|RANK|3|Z|1440; Ashenvale|
+T The Howling Vale|QID|1022|M|22.24,52.98|N|To Sentinel Melyria Frostshadow.|Z|1440; Ashenvale|
+A Velinde Starsong|QID|1037|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|PRE|1022|Z|1440; Ashenvale|
+T The Branch of Cenarius|QID|1031|M|21.74,53.35|N|To Illiyana.|Z|1440; Ashenvale|
+A Satyr Slaying!|QID|1032|M|21.74,53.35|N|From Illiyana.|PRE|1031|RANK|3|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1030|M|50.8,75|N|To Krolg. Run around the south-east edge of the lake to find the hill up to him. Be sure to use your rod so you can speak with him.|U|5462|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1045|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1030|RANK|3|Z|1440; Ashenvale|
+C Raene's Cleansing|QID|1045|M|54.4,79.2|S|N|Kill Bloodtooth Guards in the area.|Z|1440; Ashenvale|
+K Raene's Cleansing|QID|1045|ACTIVE|1045|M|54.4,79.2|N|Kill Ran Bloodtooth and loot his skull.|L|5388|Z|1440; Ashenvale|
+C Raene's Cleansing|QID|1045|M|54.4,79.2|US|N|Finish Killing Guards.|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1045|M|50.8,75|N|To Krolg. Be sure to use your rod so you can speak with him.|U|5462|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1046|M|50.8,75|N|From Krolg. Be sure to use your rod so you can speak with him.|U|5462|PRE|1045|RANK|3|Z|1440; Ashenvale|
 
-H Astranaar|QID|1032|ACTIVE|1046|M|36.97,49.26|N|Hearth or Run back to Astranaar.|Z|Ashenvale|
-* Rod of Transformation|ACTIVE|1046|U|5462|M|36.6,49.6|S|N|Once you turn in the next step the Rod of Transformation will be removed from your inventory. If you haven't already be sure to discard it and request a new one from Raene before turning the quest in to be able to use the Item Restoration service.|Z|Ashenvale|
-T Raene's Cleansing|QID|1046|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
-F Talrendis Point|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|Z|Ashenvale|
-C Satyr Slaying!|QID|1032|M|80,50|Z|Ashenvale|N|Kill Satyr in Satynaar|
-F Astranaar|ACTIVE|1032|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
-T Satyr Slaying!|QID|1032|M|21.74,53.35|N|To Illiyana.|
-T The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
-A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|1140|
+H Astranaar|QID|1032|ACTIVE|1046|M|36.97,49.26|N|Hearth or Run back to Astranaar.|Z|1440; Ashenvale|
+* Rod of Transformation|ACTIVE|1046|U|5462|M|36.6,49.6|S|N|Once you turn in the next step the Rod of Transformation will be removed from your inventory. If you haven't already be sure to discard it and request a new one from Raene before turning the quest in to be able to use the Item Restoration service.|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1046|M|36.6,49.6|N|To Raene Wolfrunner.|Z|1440; Ashenvale|
+F Talrendis Point|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|Z|1440; Ashenvale|
+C Satyr Slaying!|QID|1032|M|80,50|Z|1440; Ashenvale|N|Kill Satyr in Satynaar|
+F Astranaar|ACTIVE|1032|M|11.90,77.59|Z|1447; Azshara|N|Fly back to Astranaar.|
+T Satyr Slaying!|QID|1032|M|21.74,53.35|Z|1440; Ashenvale|N|To Illiyana.|
+T The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|1440; Ashenvale|N|To Delgren the Purifier.|
+A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|1440; Ashenvale|N|From Delgren the Purifier.|PRE|1140|
 
-F Auberdine|QID|1167|ACTIVE|1167|M|34.41,47.99|N|Fly to Auberdine, repair and sell.|Z|Ashenvale|
+F Auberdine|QID|1167|ACTIVE|1167|M|34.41,47.99|N|Fly to Auberdine, repair and sell.|Z|1440; Ashenvale|
 T The Tower of Althalaxx|QID|1167|M|54.97,24.89|Z|Darkshore|N|To Balthule Shadowstrike|
 A The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|N|From Balthule Shadowstrike|PRE|1167|
 K The Tower of Althalaxx|ACTIVE|1143|M|54.97,24.89|Z|Darkshore|QO|1|N|Kill Athrikus Narassin from the very top floor and loot his head.|
 T The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|N|To Balthule Shadowstrike|
 A The Tower of Althalaxx|QID|981|M|54.97,24.89|Z|Darkshore|N|From Balthule Shadowstrike|PRE|1143|
 
-H Astranaar|QID|981|ACTIVE|981|M|36.97,49.26|N|Hearth or otherwise make your way back to Astranaar.|PRE|1143|Z|Ashenvale|
-T The Tower of Althalaxx|QID|981|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
+H Astranaar|QID|981|ACTIVE|981|M|36.97,49.26|N|Hearth or otherwise make your way back to Astranaar.|PRE|1143|Z|1440; Ashenvale|
+T The Tower of Althalaxx|QID|981|M|26.2,38.7|Z|1440; Ashenvale|N|To Delgren the Purifier.|
 R Auberdine|QID|1037|AVAILABLE|981|M|36.34,45.58|Z|Darkshore|N|Run back to Auberdine.|PRE|1167|
 F Stonetalon Peak|QID|1059|M|34.41,47.99|N|Fly back to Stonetalon Peak.|PRE|1057|
 A Reclaiming the Charred Vale|QID|1059|M|37.11,8.10|Z|Stonetalon Mountains|N|From Keeper Albagorm.|PRE|1057|

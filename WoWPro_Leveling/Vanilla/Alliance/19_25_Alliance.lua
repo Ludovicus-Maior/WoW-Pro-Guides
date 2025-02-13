@@ -35,7 +35,7 @@ H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|
 
 F Stormwind|AVAILABLE|244|N|Fly to Stormwind.|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
-R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
+R Redridge Mountains|AVAILABLE|244|M|93.56,72.09|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|15.28,71.46|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|Z|Redridge Mountains|
 T Encroaching Gnolls|QID|244|M|30.74,59.99|N|To Deputy Feldon.|Z|Redridge Mountains|
 f Lakeshire|AVAILABLE|125|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|Z|Redridge Mountains|
@@ -344,12 +344,12 @@ T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|Z|Wetlands|
 ; Ashenvale 23-25
 b Darkshore|AVAILABLE|1008|M|4.61,57.07|N|Take Boat to Auberdine.|Z|Wetlands|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|Z|Darkshore|
-A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|Z|Darkshore|
+A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|Z|Darkshore|DUNGEON|
 f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|Darkshore|
 b Rut'theran Village|QID|965|M|33.19,40.1|Z|Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
-F Rut'theran Village|QID|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
-A Twilight Falls|QID|1199|M|55.24,24.01|Z|Darnassus|N|From Argent Guard Manados. This is a BFD Dungeon Quest.|LVL|20|
-A In Search of Thaelrid|QID|1198|M|55.39,25.0|Z|Darnassus|N|From Dawnwatcher Shaedlass. This is a BFD Dungeon Quest.|LVL|20|
+F Rut'theran Village|AVAILABLE|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
+A Twilight Falls|QID|1199|M|55.24,24.01|Z|Darnassus|N|From Argent Guard Manados. This is a BFD Dungeon Quest.|LVL|20|DUNGEON|
+A In Search of Thaelrid|QID|1198|M|55.39,25.0|Z|Darnassus|N|From Dawnwatcher Shaedlass. This is a BFD Dungeon Quest.|LVL|20|DUNGEON|
 f Rut'theran Village|QID|965|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
 F Auberdine|QID|965|M|36.34,45.58|Z|Teldrassil|N|Fly back to Auberdine.|TAXI|-Astranaar|
 F Astranaar|QID|965|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|TAXI|Astranaar|
@@ -361,44 +361,44 @@ T The Tower of Althalaxx|QID|966|M|54.9,24.9|Z|Darkshore|N|To Balthule Shadowstr
 A The Tower of Althalaxx|QID|967|M|54.9,24.9|Z|Darkshore|N|From Balthule Shadowstrike.|PRE|966|
 A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|Z|Darkshore|N|Get to the road and travel south, occasionally he will start to sleep, just use your Horn of Awakening on him. You'll face two ambushes, both will consist of three Twilight mobs. They can be very hard to solo, and that is why this is optional. Keep escorting him south along the road until you get to Maestra's Post.|
 C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|Z|Darkshore|QO|1|N|Loot the Horn of awakening from the box on the ground|
-C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Escort Kerlonian, use the horn if he falls asleep.|
-T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|If you took it, otherwise close this step.|
-T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
+C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|1440; Ashenvale|U|13536|N|Escort Kerlonian, use the horn if he falls asleep.|
+T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|1440; Ashenvale|N|If you took it, otherwise close this step.|
+T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|1440; Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
 F Astranaar|AVAILABLE|1008|N|Fly to Astranar|M|36.37,45.55|Z|Darkshore|TAXI|Astranaar|
-f Astranaar|N|Get the flight path.|M|34.39,48.03|TAXI|-Astranaar|Z|Ashenvale|
-A The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire. This is a pre-req for the stonetalon quests.|
-A Raene's Cleansing |QID|991|M|36.6,49.6|N|From Raene Wolfrunner|Z|Ashenvale|
-h Astranaar|QID|991|N|Make Astranaar your home location.|M|36.97,49.26|Z|Ashenvale|
-A The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|967|
-A Bathran's Hair|QID|1010|M|26.4,38.6|N|From Orendil Broadleaf.|Z|Ashenvale|
-C The Tower of Althalaxx|QID|970|M|32.6,29.2|Z|Ashenvale|N|Kill the Dark Strand until you get the Glowing Soul Gem.|
-C Bathran's Hair|QID|1010|M|31.4,23.3|Z|Ashenvale|N|Loot five Bathran's Hair from Plant Bundles off the ground in this area. Some bags may be submerged in the ground so look carefully|
-T Bathran's Hair|QID|1010|M|26.4,38.6|Z|Ashenvale|N|To Orendil Broadleaf.|
-A Orendil's Cure|QID|1020|M|26.4,38.6|Z|Ashenvale|N|From Orendil Broadleaf.|PRE|1010|
-T The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
-A The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|970|
-T Raene's Cleansing|QID|991|M|20.3,42.3|N|To Teronis' Corpse beware of the murlocs around.|Z|Ashenvale|
-A Raene's Cleansing|QID|1023|M|20.3,42.3|N|From Teronis' Corpse.|PRE|991|Z|Ashenvale|
-C Raene's Cleansing|QID|1023|M|20.30,44.40|N|Kill saltspittle murlocs until you get a Glowing Gem. They are all around the pool.|Z|Ashenvale|
-A The Ancient Statuette|QID|1007|M|14.80,31.29|N|From Talen near the Zoram Strand.|Z|Ashenvale|
-C The Zoram Strand|QID|1008|M|14.10,20.7|Z|Ashenvale|S|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|
-C The Ancient Statuette|QID|1007|M|14.21,20.64|N|Loot the ancient statuette.|Z|Ashenvale|
-T The Ancient Statuette|QID|1007|M|14.80,31.29|N|To Talen.|Z|Ashenvale|
-A Ruuzel|QID|1009|M|14.80,31.29|LVL|20|N|From Talen.|PRE|1007|Z|Ashenvale|
-C Ruuzel|QID|1009|M|6.58,13.57|N|Find Ruuzel patrolling around the island|T|Ruuzel|Z|Ashenvale|
-C The Zoram Strand|QID|1008|M|14.10,20.7|Z|Ashenvale|US|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|
-T Ruuzel|QID|1009|M|14.80,31.29|N|To Talen.|Z|Ashenvale|
-H Astranaar|QID|1023|M|34.68,48.84|N|Hearth or Run back to Astranaar.|Z|Ashenvale|
-T Raene's Cleansing|QID|1023|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up yet|Z|Ashenvale|
-T The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|To Shindrell Swiftfire.|
-A Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire.|PRE|1008|
-A On Guard in Stonetalon|QID|1070|M|34.90,49.79|Z|Ashenvale|N|From Sentinel Thenysil.|
-A Journey to Stonetalon Peak|QID|1056|M|35.76,49.11|Z|Ashenvale|N|From Faldreas Goeth'Shael.|
-N Trash the Journal|QID|1070|N|Destroy Teronis' Journal, it is useless and wastes precious bag space. Skip this step when done.|PRE|1023|
-T Orendil's Cure|QID|1020|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
-A Elune's Tear|QID|1033|M|37.36,51.79|N|From Pelturas Whitemoon. This quest becomes available about 20 seconds after turning in the previous one.|PRE|1020|Z|Ashenvale|
+f Astranaar|N|Get the flight path.|M|34.39,48.03|TAXI|-Astranaar|Z|1440; Ashenvale|
+A The Zoram Strand|QID|1008|M|34.68,48.84|Z|1440; Ashenvale|N|From Shindrell Swiftfire. This is a pre-req for the stonetalon quests.|
+A Raene's Cleansing |QID|991|M|36.6,49.6|N|From Raene Wolfrunner|Z|1440; Ashenvale|
+h Astranaar|QID|991|N|Make Astranaar your home location.|M|36.97,49.26|Z|1440; Ashenvale|
+A The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|1440; Ashenvale|N|From Delgren the Purifier.|PRE|967|
+A Bathran's Hair|QID|1010|M|26.4,38.6|N|From Orendil Broadleaf.|Z|1440; Ashenvale|
+C The Tower of Althalaxx|QID|970|M|32.6,29.2|Z|1440; Ashenvale|N|Kill the Dark Strand until you get the Glowing Soul Gem.|
+C Bathran's Hair|QID|1010|M|31.4,23.3|Z|1440; Ashenvale|N|Loot five Bathran's Hair from Plant Bundles off the ground in this area. Some bags may be submerged in the ground so look carefully|
+T Bathran's Hair|QID|1010|M|26.4,38.6|Z|1440; Ashenvale|N|To Orendil Broadleaf.|
+A Orendil's Cure|QID|1020|M|26.4,38.6|Z|1440; Ashenvale|N|From Orendil Broadleaf.|PRE|1010|
+T The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|1440; Ashenvale|N|To Delgren the Purifier.|
+A The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|1440; Ashenvale|N|From Delgren the Purifier.|PRE|970|
+T Raene's Cleansing|QID|991|M|20.3,42.3|N|To Teronis' Corpse beware of the murlocs around.|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1023|M|20.3,42.3|N|From Teronis' Corpse.|PRE|991|Z|1440; Ashenvale|
+C Raene's Cleansing|QID|1023|M|20.30,44.40|N|Kill saltspittle murlocs until you get a Glowing Gem. They are all around the pool.|Z|1440; Ashenvale|
+A The Ancient Statuette|QID|1007|M|14.80,31.29|N|From Talen near the Zoram Strand.|Z|1440; Ashenvale|
+C The Zoram Strand|QID|1008|M|14.10,20.7|Z|1440; Ashenvale|S|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|
+C The Ancient Statuette|QID|1007|M|14.21,20.64|N|Loot the ancient statuette.|Z|1440; Ashenvale|
+T The Ancient Statuette|QID|1007|M|14.80,31.29|N|To Talen.|Z|1440; Ashenvale|
+A Ruuzel|QID|1009|M|14.80,31.29|LVL|20|N|From Talen.|PRE|1007|Z|1440; Ashenvale|
+C Ruuzel|QID|1009|M|6.58,13.57|N|Find Ruuzel patrolling around the island|T|Ruuzel|Z|1440; Ashenvale|
+C The Zoram Strand|QID|1008|M|14.10,20.7|Z|1440; Ashenvale|US|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|
+T Ruuzel|QID|1009|M|14.80,31.29|N|To Talen.|Z|1440; Ashenvale|
+H Astranaar|QID|1023|M|34.68,48.84|N|Hearth or Run back to Astranaar.|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1023|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up yet|Z|1440; Ashenvale|
+T The Zoram Strand|QID|1008|M|34.68,48.84|Z|1440; Ashenvale|N|To Shindrell Swiftfire.|
+A Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|1440; Ashenvale|N|From Shindrell Swiftfire.|PRE|1008|
+A On Guard in Stonetalon|QID|1070|M|34.90,49.79|Z|1440; Ashenvale|N|From Sentinel Thenysil.|
+A Journey to Stonetalon Peak|QID|1056|M|35.76,49.11|Z|1440; Ashenvale|N|From Faldreas Goeth'Shael.|
+* Teronis' Journal|QID|1070|N|Destroy Teronis' Journal, it is useless and wastes precious bag space. Skip this step when done.|PRE|1023|U|5505|
+T Orendil's Cure|QID|1020|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|1440; Ashenvale|
+A Elune's Tear|QID|1033|M|37.36,51.79|N|From Pelturas Whitemoon. This quest becomes available about 20 seconds after turning in the previous one.|PRE|1020|Z|1440; Ashenvale|
 
-R Stonetalon Mountains|QID|1070|CS|M|37.50,60.80;42.3,71.09|Z|Ashenvale|N|Head to the Stonetalon cave.|
+R Stonetalon Mountains|QID|1070|CS|M|37.50,60.80;42.3,71.09|Z|1440; Ashenvale|N|Head to the Stonetalon cave.|
 R Windshear Crag|ACTIVE|1070|M|76,46.21|Z|Stonetalon Mountains|N|Follow the path with lanterns throught the cave.|
 A Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|From Ziz Fizziks.|
 T On Guard in Stonetalon |QID|1070|M|60.50,70.00;58.80,68.20;59.90,66.84|CS|Z|Stonetalon Mountains|N|Follow the path around the hill up to the camp. Turn in the quest to Kaela Shadowspear.|
@@ -428,45 +428,45 @@ F Stonetalon Peak|QID|1057|M|64.66,10.54|Z|Desolace|N|Fly back to Stonetalon Pea
 T Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|Stonetalon Mountains|N|To Keeper Albagorm. Don't get follow up for now.|
 
 F Astranaar|QID|1134|M|36.44,7.18|Z|Stonetalon Mountains|N|Fly back to Astranaar.|
-T Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|Ashenvale|N|To Shindrell Swiftfire.|
-A An Aggressive Defense|QID|1025|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|Z|Ashenvale|
-A Culling the Threat|QID|1054|M|36.6,49.6|N|From Raene Wolfrunner|Z|Ashenvale|
-C Culling the Threat|QID|1054|M|35.3,32.4|N|Kill Dal Bloodclaw and loot his skull. He wanders between the camps.|T|Dal Bloodclaw|Z|Ashenvale|
-C Elune's Tear|QID|1033|M|46.71,46.58|N|Loot an Elune's Tear from the island.|Z|Ashenvale|
-R Astranaar|QID|1020|M|34.68,48.84|N|Run back to Astranaar.|Z|Ashenvale|
-T Elune's Tear|QID|1033|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
-A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1033|Z|Ashenvale|
-T Culling the Threat|QID|1054|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
-N Sell junk and repair|AVAILABLE|1016|M|35.78,52.04|N|Close this step when you're done.|Z|Ashenvale|
-N Dungeon Group|QID|1198|N|Keep an eye out for groups to Blackfathom Depths|LVL|20|Z|Ashenvale|
-R Silverwind Refuge|AVAILABLE|1016|M|43.10,62.81;49.79,67.21|CS|N|Run to Silverwind Refuge|Z|Ashenvale|
-A Elemental Bracers|QID|1016|M|49.79,67.21|N|From Sentinel Velene Starstrike.|Z|Ashenvale|
-l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Elementals until you get 5 Intact Elemental Bracers.|Z|Ashenvale|
-U Divined Scroll|QID|1016|U|5456|L|5455|N|Use the Divined Scroll.|Z|Ashenvale|
-T Elemental Bracers|QID|1016|M|49.79,67.21|N|To Sentinel Velene Starstrike.|Z|Ashenvale|
-A Mage Summoner|QID|1017|M|49.79,67.21|N|From Sentinel Velene Starstrike.|PRE|1016|Z|Ashenvale|
-B Expert Cooking|QID|1025|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|Z|Ashenvale|
-C An Aggressive Defense|QID|1025|M|50.00,61.00|N|Kill mobs until you finish this quest.|Z|Ashenvale|
+T Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|1440; Ashenvale|N|To Shindrell Swiftfire.|
+A An Aggressive Defense|QID|1025|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|Z|1440; Ashenvale|
+A Culling the Threat|QID|1054|M|36.6,49.6|N|From Raene Wolfrunner|Z|1440; Ashenvale|
+C Culling the Threat|QID|1054|M|35.3,32.4|N|Kill Dal Bloodclaw and loot his skull. He wanders between the camps.|T|Dal Bloodclaw|Z|1440; Ashenvale|
+C Elune's Tear|QID|1033|M|46.71,46.58|N|Loot an Elune's Tear from the island.|Z|1440; Ashenvale|
+R Astranaar|QID|1020|M|34.68,48.84|N|Run back to Astranaar.|Z|1440; Ashenvale|
+T Elune's Tear|QID|1033|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|1440; Ashenvale|
+A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon. Will become available shortly after turning in Elune's Tear|PRE|1033|Z|1440; Ashenvale|
+T Culling the Threat|QID|1054|M|36.6,49.6|N|To Raene Wolfrunner.|Z|1440; Ashenvale|
+N Sell junk and repair|AVAILABLE|1016|M|35.78,52.04|N|Close this step when you're done.|Z|1440; Ashenvale|
+N Dungeon Group|QID|1198|N|Keep an eye out for groups to Blackfathom Depths|LVL|20|Z|1440; Ashenvale|
+R Silverwind Refuge|AVAILABLE|1016|M|43.10,62.81;49.79,67.21|CS|N|Run to Silverwind Refuge|Z|1440; Ashenvale|
+A Elemental Bracers|QID|1016|M|49.79,67.21|N|From Sentinel Velene Starstrike.|Z|1440; Ashenvale|
+l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Elementals until you get 5 Intact Elemental Bracers.|Z|1440; Ashenvale|
+U Divined Scroll|QID|1016|U|5456|L|5455|N|Use the Divined Scroll.|Z|1440; Ashenvale|
+T Elemental Bracers|QID|1016|M|49.79,67.21|N|To Sentinel Velene Starstrike.|Z|1440; Ashenvale|
+A Mage Summoner|QID|1017|M|49.79,67.21|N|From Sentinel Velene Starstrike.|PRE|1016|Z|1440; Ashenvale|
+B Expert Cooking|QID|1025|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|Z|1440; Ashenvale|
+C An Aggressive Defense|QID|1025|M|50.00,61.00|N|Kill mobs until you finish this quest.|Z|1440; Ashenvale|
 
-R The Barrens|QID|1017|ACTIVE|1094|M|63.30,70.00;69.01,86.80|CS|N|Run for the barrens. We will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.\nBe aware that The Barrens is Horde territory and you will become PvP flagged.|Z|Ashenvale|
+R The Barrens|QID|1017|ACTIVE|1094|M|63.30,70.00;69.01,86.80|CS|N|Run for the barrens. We will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.\nBe aware that The Barrens is Horde territory and you will become PvP flagged.|Z|1440; Ashenvale|
 R Climb Dreadmist Peak|QID|1094|M|48.90,5.30;47.30,16.00;47.40,18.75|CS|Z|The Barrens||N|When entering The Barrens head to the left of the horde outpost to avoid the PvP Guards, then take the path up Dreadmist Peak|
 C Mage Summoner|QID|1017|M|48.22,19.14|Z|The Barrens|N|Run up the cliff on the left side of the cave and kill Sarilus Foulborne to loot his head.|
 R Ratchet|QID|1094|M|58.70,25.00;62.98,37.22|CS|Z|The Barrens|N|Run down the south side of the mountain and then around the left side of the next mountain to Rachet.|
 T Further Instructions|QID|1094|M|62.98,37.22|Z|The Barrens|N|To Sputtervalve. Don't get follow up.|
 f Ratchet|QID|1017|M|63.09,37.16|Z|The Barrens|N|Grab the Ratchet flightpoint from Bragok.|
-H Astranaar|AVAILABLE|1026|M|34.68,48.84|N|Hearth or fly back to Astranaar.|Z|Ashenvale|
-A Raene's Cleansing|QID|1024|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|Z|Ashenvale|
-T An Aggressive Defense|QID|1025|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
-R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|Z|Ashenvale|
-T Raene's Cleansing|QID|1024|M|53.5,46.3|N|To Shael'dryn.|Z|Ashenvale|
-A Raene's Cleansing|QID|1026|M|53.5,46.3|N|From Shael'dryn.|PRE|1024|Z|Ashenvale|
-T Mage Summoner|QID|1017|M|49.79,67.21|N|To Sentinel Velene Starstrike at Mystral Lake.|Z|Ashenvale|
-C The Ruins of Stardust|QID|1034|M|33.9,66.6|N|Loot from big white bushes that have sparkles.|Z|Ashenvale|
-C The Tower of Althalaxx|QID|973|M|25.2,60.6|N|From Delgren the Purifier.|Z|Ashenvale|
-T The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
-A The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|973|
-A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|Ashenvale|
-T The Ruins of Stardust|QID|1034|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|Ashenvale|
+H Astranaar|AVAILABLE|1026|M|34.68,48.84|N|Hearth or fly back to Astranaar.|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1024|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|Z|1440; Ashenvale|
+T An Aggressive Defense|QID|1025|M|36.6,49.6|N|To Raene Wolfrunner.|Z|1440; Ashenvale|
+R Moonwell|AVAILABLE|1024|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CS|N|Head to Moonwell to turn in Raene's Cleansing|Z|1440; Ashenvale|
+T Raene's Cleansing|QID|1024|M|53.5,46.3|N|To Shael'dryn.|Z|1440; Ashenvale|
+A Raene's Cleansing|QID|1026|M|53.5,46.3|N|From Shael'dryn.|PRE|1024|Z|1440; Ashenvale|
+T Mage Summoner|QID|1017|M|49.79,67.21|N|To Sentinel Velene Starstrike at Mystral Lake.|Z|1440; Ashenvale|
+C The Ruins of Stardust|QID|1034|M|33.9,66.6|N|Loot from big white bushes that have sparkles.|Z|1440; Ashenvale|
+C The Tower of Althalaxx|QID|973|M|25.2,60.6|N|From Delgren the Purifier.|Z|1440; Ashenvale|
+T The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|1440; Ashenvale|N|To Delgren the Purifier.|
+A The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|1440; Ashenvale|N|From Delgren the Purifier.|PRE|973|
+A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|Z|1440; Ashenvale|
+T The Ruins of Stardust|QID|1034|M|37.36,51.79|N|To Pelturas Whitemoon.|Z|1440; Ashenvale|
 N BFD Dungeon|QID|1198|N|Last Chance to do BFD before we leave. Time to head to wetlands and gain a couple levels.|
 ]]
 end)

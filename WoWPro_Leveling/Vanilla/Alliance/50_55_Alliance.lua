@@ -28,20 +28,20 @@ T Assisting Arch Druid Staghelm|QID|3790|M|35.31,8.94|Z|Darnassus|N|To Arch Drui
 A Un'Goro Soil|QID|3764|M|35.31,8.94|Z|Darnassus|N|From Arch Druid Staghelm. Up on top of the tree.|
 
 F Talrendis Point|QID|3449|M|58.39,94.01|Z|Teldrassil|N|Fly to Azshara.|
-A Spiritual Unrest|QID|5535|M|11.37,78.15|Z|Azshara|N|From Loh'atu.|
-A A Land Filled with Hatred|QID|5536|M|11.37,78.15|Z|Azshara|N|From Loh'atu.|
-C Spiritual Unrest|QID|5535|M|17.64,68.41|Z|Azshara|N|Kill Apparition and Lichlings.|
-C A Land Filled with Hatred|QID|5536|M|19.55,61.83|Z|Azshara|N|Kill the Satyr, Trickster and Felsworn.|
-T Spiritual Unrest|QID|5535|M|11.37,78.15|Z|Azshara|N|To Loh'atu.|
-T A Land Filled with Hatred|QID|5536|M|11.37,78.15|Z|Azshara|N|To Loh'atu.|
-l Rune of Beth'Amara|QID|3449|M|36.91,53.15|Z|Azshara|QO|1|N|Use the Drawing Kit to get a rubbing of the 'Rune of Beth'Amara'.|U|10445|
-l Rune of Jin'yael|QID|3449|M|39.57,50.25|Z|Azshara|QO|2|N|Use the Drawing Kit to get a rubbing of the 'Rune of Jin'yael'.|U|10445|
-l Rune of Markri|QID|3449|M|39.36,55.48|Z|Azshara|QO|3|N|Use the Drawing Kit to get a rubbing of the 'Rune of Markri'.|U|10445|
-l Rune of Sal'hai|QID|3449|M|42.39,64.15|Z|Azshara|QO|4|N|Use the Drawing Kit to get a rubbing of the 'Rune of Sael'hai'.|U|10445|
-T Arcane Runes|QID|3449|M|77.80,91.32|Z|Azshara|N|To Pilot Xiggs Fuselighter.|U|10444|
-A Return to Tymor|QID|3461|M|77.81,91.41|Z|Azshara|N|From Pilot Xiggs Fuselighter.|PRE|3449|
+A Spiritual Unrest|QID|5535|M|11.37,78.15|Z|1447; Azshara|N|From Loh'atu.|
+A A Land Filled with Hatred|QID|5536|M|11.37,78.15|Z|1447; Azshara|N|From Loh'atu.|
+C Spiritual Unrest|QID|5535|M|17.64,68.41|Z|1447; Azshara|N|Kill Apparition and Lichlings.|
+C A Land Filled with Hatred|QID|5536|M|19.55,61.83|Z|1447; Azshara|N|Kill the Satyr, Trickster and Felsworn.|
+T Spiritual Unrest|QID|5535|M|11.37,78.15|Z|1447; Azshara|N|To Loh'atu.|
+T A Land Filled with Hatred|QID|5536|M|11.37,78.15|Z|1447; Azshara|N|To Loh'atu.|
+l Rune of Beth'Amara|QID|3449|M|36.91,53.15|Z|1447; Azshara|QO|1|N|Use the Drawing Kit to get a rubbing of the 'Rune of Beth'Amara'.|U|10445|
+l Rune of Jin'yael|QID|3449|M|39.57,50.25|Z|1447; Azshara|QO|2|N|Use the Drawing Kit to get a rubbing of the 'Rune of Jin'yael'.|U|10445|
+l Rune of Markri|QID|3449|M|39.36,55.48|Z|1447; Azshara|QO|3|N|Use the Drawing Kit to get a rubbing of the 'Rune of Markri'.|U|10445|
+l Rune of Sal'hai|QID|3449|M|42.39,64.15|Z|1447; Azshara|QO|4|N|Use the Drawing Kit to get a rubbing of the 'Rune of Sael'hai'.|U|10445|
+T Arcane Runes|QID|3449|M|77.80,91.32|Z|1447; Azshara|N|To Pilot Xiggs Fuselighter.|U|10444|
+A Return to Tymor|QID|3461|M|77.81,91.41|Z|1447; Azshara|N|From Pilot Xiggs Fuselighter.|PRE|3449|
 
-H Gadgetzan|QID|4493|M|PLAYER|Z|Azshara|N|Hearth to Gadgetzan, or if you bound somewhere else. Make your way to Tanaris.|
+H Gadgetzan|QID|4493|M|PLAYER|Z|1447; Azshara|N|Hearth to Gadgetzan, or if you bound somewhere else. Make your way to Tanaris.|
 h Gadgetzan|QID|4493|N|Set your Hearthstone to Gadgetzan in Tanaris.|
 A Super Sticky|QID|4504|M|51.57,26.76|Z|Tanaris|N|From Tran'rek.|
 T March of the Silithid|QID|4493|M|50.88,26.96|Z|Tanaris|N|To Alchemist Pestlezugg.|
@@ -158,7 +158,7 @@ l Evergreen Herb Casing|QID|3785|M|PLAYER|Z|Darnassus|N|Using the Evergreen Pouc
 
 R Rut'theran Village|AVAILABLE|8460|M|30.04,41.32|Z|Darnassus|N|Run back in the portal to Rut'theran Village.|
 F Astranaar|AVAILABLE|8460|M|58.39,94.01|Z|Teldrassil|N|Head to Ashenvale.|
-R Felwood|AVAILABLE|8460|M|38.61,57.68;49.55,56.49;57.85,55.74;61.07,48.60;60.91,43.96;57.40,32.30;55.80,28.79|CC|Z|Ashenvale|N|Make your way up to Felwood.|
+R Felwood|AVAILABLE|8460|M|38.61,57.68;49.55,56.49;57.85,55.74;61.07,48.60;60.91,43.96;57.40,32.30;55.80,28.79|CC|Z|1440; Ashenvale|N|Make your way up to Felwood.|
 A Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|From Arathandris Silversky.|
 A Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|From Grazle.|
 C Timbermaw Ally|QID|8460|M|48.12,92.92|Z|Felwood|N|Kill the Furbolgs needed for the quest.|
@@ -223,8 +223,8 @@ A Felbound Ancients|QID|4441|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE
 T Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|To Arathandris Silversky.|
 
 R Ashenvale|QID|4512|M|54.89,93.04|Z|Felwood|N|Make your way back to Astranaar.|
-R Astranaar|QID|4512|M|57.84,40.55;60.96,48.49;60.32,52.41;57.31,55.86;52.53,55.01;49.47,56.48;34.41,47.99|Z|Ashenvale|CC|N|Head back to Astranaar.|
-F Feathermoon Stronghold|QID|4512|M|34.41,47.99|Z|Ashenvale|N|Fly to Feralas.|
+R Astranaar|QID|4512|M|57.84,40.55;60.96,48.49;60.32,52.41;57.31,55.86;52.53,55.01;49.47,56.48;34.41,47.99|Z|1440; Ashenvale|CC|N|Head back to Astranaar.|
+F Feathermoon Stronghold|QID|4512|M|34.41,47.99|Z|1440; Ashenvale|N|Fly to Feralas.|
 A Jonespyre's Request|QID|3788|M|30.97,43.49|Z|Feralas|N|From Inkeeper Shyria.|PRE|3781|
 T Jonespyre's Request|QID|3788|M|32.45,43.79|Z|Feralas|N|To Quintis Jonespyre. At the top of the tower.|
 A The Mystery of Morrowgrain|QID|3791|M|32.45,43.79|Z|Feralas|N|From Quintis Jonespyre. At the top of the tower.|PRE|3788|

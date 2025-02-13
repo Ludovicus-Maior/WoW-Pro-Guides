@@ -54,10 +54,10 @@ A Journey to Tarren Mill|QID|1065|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecar
 
 ; --- Ashenvale
 F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|
-A Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
+A Warsong Supplies|QID|6571|M|71.40,67.64|Z|1440; Ashenvale|N|From Locke Okarr; by the south watchtower.|
 
 ; --- Silverpine Forest
-F Orgrimmar|AVAILABLE|437^443|M|73.18,61.59|Z|Ashenvale|N|Fly to Orgrimmar.|IZ|1440|
+F Orgrimmar|AVAILABLE|437^443|M|73.18,61.59|Z|1440; Ashenvale|N|Fly to Orgrimmar.|IZ|1440|
 h Orgrimmar|AVAILABLE|437^443|M|54.11,68.39|Z|Orgrimmar|N|At Innkeeper Gryshka.\n[color=FF0000]NOTE: [/color]This will be a better option the next time you need to use your hearth.|IZ|1454|
 b Tirisfal Glades|AVAILABLE|437^443|M|50.88,13.83|Z|Durotar|N|Exit Orgrimmar and take the Zeppelin to Tirisfal Glades.|
 ; --- If you don't have the FP in Undercity
@@ -374,87 +374,87 @@ N Deadly Blunderbuss|ACTIVE|6571|L|4369|N|Beg, borrow, or steal... Before leavin
 
 ; --- Ashenvale
 F Splintertree Post|QID|6571|M|45.50,63.84|Z|Orgrimmar|
-A Satyr Horns|QID|6441|M|73.11,61.49|Z|Ashenvale|N|From Pixel.|
-A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.11,61.49|Z|Ashenvale|N|From Pixel.|
-T Warsong Saw Blades|QID|6581|M|73.11,61.49|Z|Ashenvale|N|To Pixel.|
-A Stonetalon Standstill|QID|25|M|73.62,60.02|Z|Ashenvale|N|From Mastok Wrilehiss.|
-A Ashenvale Outrunners|QID|6503|M|71.15,68.17|Z|Ashenvale|N|From Kuray'bin.|
-A The Lost Pages|QID|6504|M|69.98,71.09|Z|Ashenvale|N|From Gurda Ragescar.|
-R The Dor'Danil Barrow Den|QID|2|M|72.85,70.56|Z|Ashenvale|
+A Satyr Horns|QID|6441|M|73.11,61.49|Z|1440; Ashenvale|N|From Pixel.|
+A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.11,61.49|Z|1440; Ashenvale|N|From Pixel.|
+T Warsong Saw Blades|QID|6581|M|73.11,61.49|Z|1440; Ashenvale|N|To Pixel.|
+A Stonetalon Standstill|QID|25|M|73.62,60.02|Z|1440; Ashenvale|N|From Mastok Wrilehiss.|
+A Ashenvale Outrunners|QID|6503|M|71.15,68.17|Z|1440; Ashenvale|N|From Kuray'bin.|
+A The Lost Pages|QID|6504|M|69.98,71.09|Z|1440; Ashenvale|N|From Gurda Ragescar.|
+R The Dor'Danil Barrow Den|QID|2|M|72.85,70.56|Z|1440; Ashenvale|
 N Sharptalon|AVAILABLE|2|N|While you are in the area, keep an eye out for Sharptalon, a lv 31 blue hippogryph that paths through the area. He is part of the 'Ashenvale Hunt' quest. He has a respawn rate of @ 15-20 minutes.\nIf you draw him towards the Forsaken by the tent, they will help you kill it.\n\nManually close this step.|PRE|6383|T|Sharptalon|
 A Sharptalon's Claw|QID|2|U|16305|N|Right-click the item to activate the quest.|PRE|6383|O|
 C Ashenvale Outrunners|QID|6503|QO|1|N|Kill Ashenvale Outrunners. They are stealthed and spread out around amongst the trees. You will hear a sound when you're close to one and they are somewhat visible.|
-A Torek's Assault|QID|6544|M|68.33,75.33|Z|Ashenvale|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of.\nBasically, you follow him and his troops as they kill things.\n[color=FF0000]NOTE: [/color]If he's not there, someone is on the quest and you'll have to wait for him to respawn.|
-A Torek's Assault|QID|6544|M|68.33,75.33|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Torek to restart the quest. If he's not there, someone is on the quest or he hasn't respawned yet. Just wait for him to respawn.|FAIL|
+A Torek's Assault|QID|6544|M|68.33,75.33|Z|1440; Ashenvale|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of.\nBasically, you follow him and his troops as they kill things.\n[color=FF0000]NOTE: [/color]If he's not there, someone is on the quest and you'll have to wait for him to respawn.|
+A Torek's Assault|QID|6544|M|68.33,75.33|Z|1440; Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Torek to restart the quest. If he's not there, someone is on the quest or he hasn't respawned yet. Just wait for him to respawn.|FAIL|
 C Torek's Assault|QID|6544|M|67.14,73.92;65.35,75.28|CS|QO|1|N|Follow Torek and his men into Silverwing Outpost. You don't have to do anything. However, You will get some grind xp if you give them a hand.\nStay with group or the quest could fail.\n[color=FF0000]NOTE: [/color]If Torek dies, the quest fails and his men will despawn leaving you alone to fight all of them. If this happens, jump off the balcony and run away.|
-R Greenpaw Village|QID|6571|M|64.30,70.43;58.33,61.52;56.89,62.47|Z|Ashenvale|CC|
+R Greenpaw Village|QID|6571|M|64.30,70.43;58.33,61.52;56.89,62.47|Z|1440; Ashenvale|CC|
 C Warsong Supplies|QID|6571|L|16743|N|Kill Foulweald Furbolgs to loot the Logging Rope. This could take quite a few kills to get. Work your way west through the village until you get it.|
-R Mystral Lake|QID|25|M|50.65,64.62;51.62,66.50;51.51,67.86|Z|Ashenvale|CC|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
+R Mystral Lake|QID|25|M|50.65,64.62;51.62,66.50;51.51,67.86|Z|1440; Ashenvale|CC|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
 C Stonetalon Standstill|QID|25|QO|1|N|Kill Befouled Water Elementals|S|
-C Stonetalon Standstill|QID|25|M|49.03,69.65|Z|Ashenvale|QO|2|N|Go to the gazebo on the island in Mystral Lake.|
+C Stonetalon Standstill|QID|25|M|49.03,69.65|Z|1440; Ashenvale|QO|2|N|Go to the gazebo on the island in Mystral Lake.|
 K Tideress|AVAILABLE|1918|L|16408|N|Kill Tideress for a drop quest item, Befouled Water Globe.\n[color=FF0000]NOTE: [/color]You can either wait for her to get the island or figure out where she is on her path in the lake.|T|Tideress|
 A The Befouled Element|QID|1918|U|16408|N|Click the item to activate the quest.|O|
 C Stonetalon Standstill|QID|25|QO|1|US|N|Finish killing Befouled Water Elementals|
-R The Talondeep Path|QID|23|AVAILABLE|-6383^235^742^6382|M|42.65,70.10|Z|Ashenvale|
+R The Talondeep Path|QID|23|AVAILABLE|-6383^235^742^6382|M|42.65,70.10|Z|1440; Ashenvale|
 N Ursangous|QID|23|AVAILABLE|-6383^-235^-742^-6382|L|16303|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|T|Ursangous|
 A Ursangous's Paw|QID|23|U|16303|N|Right-click the item to activate the quest.|PRE|6383|O|
-R Raynewood Retreat|QID|1088|M|45.41,65.03;50.65,64.60;51.27,58.14;52.89,54.49;57.24,56.00|Z|Ashenvale|CC|N|There are at least 3 paths to get where you are going. This one is the most straight forward with the least resistance.\nYou will also be using a back way in to avoid the Alliance tower leading into the area. There is a guard that you cannot avoid aggroing.|
+R Raynewood Retreat|QID|1088|M|45.41,65.03;50.65,64.60;51.27,58.14;52.89,54.49;57.24,56.00|Z|1440; Ashenvale|CC|N|There are at least 3 paths to get where you are going. This one is the most straight forward with the least resistance.\nYou will also be using a back way in to avoid the Alliance tower leading into the area. There is a guard that you cannot avoid aggroing.|
 C The Sacred Flame|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops the Etched Phial.|S|
 N Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|L|16304|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|T|Shadumbra|
 A Shadumbra's Head|QID|24|U|16304|N|Right-click the item to activate the quest.|PRE|6383|O|
-C Ordanus|QID|1088|M|62,51.2|Z|Ashenvale|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. That way, if you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
+C Ordanus|QID|1088|M|62,51.2|Z|1440; Ashenvale|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. That way, if you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
 C Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.|US|
-C Moonwell|QID|1195|M|61.53,68.33;59.77,69.73;60.10,72.85|Z|Ashenvale|CC|L|5868|U|5867|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|NC|
-R Splintertree Post|QID|6503|M|71.16,69.13|Z|Ashenvale|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|
-T Ashenvale Outrunners|QID|6503|M|71.12,68.15|Z|Ashenvale|N|To Kuray'bin.|
-T Torek's Assault|QID|6544|M|73.03,62.47|Z|Ashenvale|N|To Ertog Ragetusk.|
+C Moonwell|QID|1195|M|61.53,68.33;59.77,69.73;60.10,72.85|Z|1440; Ashenvale|CC|L|5868|U|5867|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|NC|
+R Splintertree Post|QID|6503|M|71.16,69.13|Z|1440; Ashenvale|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|
+T Ashenvale Outrunners|QID|6503|M|71.12,68.15|Z|1440; Ashenvale|N|To Kuray'bin.|
+T Torek's Assault|QID|6544|M|73.03,62.47|Z|1440; Ashenvale|N|To Ertog Ragetusk.|
 ;L Level 29|QID|24|LVL|29|N|You should be around level 29 by this point.|
-T Shadumbra's Head|QID|24|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
-T Sharptalon's Claw|QID|2|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
-T Ursangous's Paw|QID|23|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
-A The Hunt Completed|QID|247|M|73.76,61.51|Z|Ashenvale|N|From Senani Thunderheart.\n[color=FF0000]NOTE: [/color]This quest will activate as soon as you turn in the last quest of the special kill quests.|PRE|2&23&24|
-T The Hunt Completed|QID|247|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
-T Stonetalon Standstill|QID|25|M|73.62,60.02|Z|Ashenvale|N|To Mastok Wrilehiss.|
-T The Befouled Element|QID|1918|M|73.62,60.02|Z|Ashenvale|N|To Mastok Wrilehiss.|
-A Je'neu of the Earthen Ring|QID|824|M|73.62,60.02|Z|Ashenvale|N|From Mastok Wrilehiss.|PRE|1918|
-R Satyrnaar|ACTIVE|6441^6571|M|74.98,65.20;81.77,52.08|Z|Ashenvale|CC|
+T Shadumbra's Head|QID|24|M|73.76,61.51|Z|1440; Ashenvale|N|To Senani Thunderheart.|
+T Sharptalon's Claw|QID|2|M|73.76,61.51|Z|1440; Ashenvale|N|To Senani Thunderheart.|
+T Ursangous's Paw|QID|23|M|73.76,61.51|Z|1440; Ashenvale|N|To Senani Thunderheart.|
+A The Hunt Completed|QID|247|M|73.76,61.51|Z|1440; Ashenvale|N|From Senani Thunderheart.\n[color=FF0000]NOTE: [/color]This quest will activate as soon as you turn in the last quest of the special kill quests.|PRE|2&23&24|
+T The Hunt Completed|QID|247|M|73.76,61.51|Z|1440; Ashenvale|N|To Senani Thunderheart.|
+T Stonetalon Standstill|QID|25|M|73.62,60.02|Z|1440; Ashenvale|N|To Mastok Wrilehiss.|
+T The Befouled Element|QID|1918|M|73.62,60.02|Z|1440; Ashenvale|N|To Mastok Wrilehiss.|
+A Je'neu of the Earthen Ring|QID|824|M|73.62,60.02|Z|1440; Ashenvale|N|From Mastok Wrilehiss.|PRE|1918|
+R Satyrnaar|ACTIVE|6441^6571|M|74.98,65.20;81.77,52.08|Z|1440; Ashenvale|CC|
 C Satyr Horns|QID|6441|L|5481 16|N|Kill Satyrs to collect Satyr Horns.\nThese guys like to run.\n[color=FF0000]NOTE: [/color]The drop rate is a little less than 50%. Nothing wrong with a little grinding.|S|
 C Warsong Supplies|QID|6571|L|16744|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|
 C Satyr Horns|QID|6441|L|5481 16|N|Finish collecting your Satyr Horns.\nThese guys like to run.|US|
-R Splintertree Post|ACTIVE|6441|M|75.00,64.32|Z|Ashenvale|N|Choose your own adventure.|
-T Satyr Horns|QID|6441|M|73.09,61.48|Z|Ashenvale|N|To Pixel.|
-F Zoram'gar Outpost|ACTIVE|824|M|73.18,61.59|Z|Ashenvale|
-T Je'neu of the Earthen Ring|QID|824|M|11.61,34.28|Z|Ashenvale|N|To Je'neu Sancrea.|
-A Between a Rock and a Thistlefur|QID|216|M|11.87,34.50|Z|Ashenvale|N|From Karang Amakkar.|
-A Troll Charm|QID|6462|M|11.68,34.82|Z|Ashenvale|N|From Mitsuwa.|
-R Thistlefur Village|ACTIVE|216|M|30.87,45.69|Z|Ashenvale|CS|N|Make your way to Thistlefur Village. Choose your own path.|
+R Splintertree Post|ACTIVE|6441|M|75.00,64.32|Z|1440; Ashenvale|N|Choose your own adventure.|
+T Satyr Horns|QID|6441|M|73.09,61.48|Z|1440; Ashenvale|N|To Pixel.|
+F Zoram'gar Outpost|ACTIVE|824|M|73.18,61.59|Z|1440; Ashenvale|
+T Je'neu of the Earthen Ring|QID|824|M|11.61,34.28|Z|1440; Ashenvale|N|To Je'neu Sancrea.|
+A Between a Rock and a Thistlefur|QID|216|M|11.87,34.50|Z|1440; Ashenvale|N|From Karang Amakkar.|
+A Troll Charm|QID|6462|M|11.68,34.82|Z|1440; Ashenvale|N|From Mitsuwa.|
+R Thistlefur Village|ACTIVE|216|M|30.87,45.69|Z|1440; Ashenvale|CS|N|Make your way to Thistlefur Village. Choose your own path.|
 C Between a Rock and a Thistlefur|QID|216|QO|1;2|N|Kill Thistlefur Avengers and Shaman.\nKill them as you run into them. You'll have plenty of time to work on this.|S|
-R Thistlefur Hold|ACTIVE|6462|M|39.95,33.04;38.46,30.63|Z|Ashenvale|CC|
+R Thistlefur Hold|ACTIVE|6462|M|39.95,33.04;38.46,30.63|Z|1440; Ashenvale|CC|
 C Troll Charm|QID|6462|L|16602 8|N|Head to the first intersection and take the path to the right. As you make your way along, loot the Troll Charms from the chests you'll find along the way.\n[color=FF0000]NOTE: [/color]When you have looted 5 of them, head back to the first intersection and take the other path.|
-A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course.\n[color=FF0000]NOTE: [/color]The easiest way to get to Ruul is from the path that runs up the center under the bridge or to drop down behind him. Using the center path, you can clear the path before you accept the quest.|
-A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
-C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|Ashenvale|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|1440; Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course.\n[color=FF0000]NOTE: [/color]The easiest way to get to Ruul is from the path that runs up the center under the bridge or to drop down behind him. Using the center path, you can clear the path before you accept the quest.|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|1440; Ashenvale|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
+C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|1440; Ashenvale|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
 C Between a Rock and a Thistlefur|QID|216|QO|1;2|N|Finish killing Thistlefur Avengers and Shaman. No need to focus on one area as you'll find plenty on your way out.|US|
-R The Zoram Strand|ACTIVE|216^6462|M|37.74,35.17;13.48,32.21|Z|Ashenvale|CC|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.|
-T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
-T Troll Charm|QID|6462|M|11.69,34.81|Z|Ashenvale|N|To Mitsuwa.|
+R The Zoram Strand|ACTIVE|216^6462|M|37.74,35.17;13.48,32.21|Z|1440; Ashenvale|CC|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.|
+T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|1440; Ashenvale|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
+T Troll Charm|QID|6462|M|11.69,34.81|Z|1440; Ashenvale|N|To Mitsuwa.|
 N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages you have. You have 2 chooses now. You can either grind until you get them, or just buy them from the AH in Orgrimmar.\nSeeing as you probably don't want to spend too much time looking for them, we're off to Orgrimmar.\nUse this opportunity to AH any extra pages you may have.|
 
 ; --- Orgrimmar
-F Orgrimmar|ACTIVE|6504|M|12.19,33.82|Z|Ashenvale|
+F Orgrimmar|ACTIVE|6504|M|12.19,33.82|Z|1440; Ashenvale|
 C Chapter 1|QID|6504|QO|1|U|16645|L|16642|N|Combine Pages 1-4|NC|
 C Chapter 2|QID|6504|QO|2|U|16649|L|16643|N|Combine Pages 5-8|NC|
 C Chapter 3|QID|6504|QO|3|U|16653|L|16644|N|Combine Pages 9-12|NC|
 
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6571^6504^6482|M|45.50,63.84|Z|Orgrimmar|N|Back to Ashenvale.|
-T Warsong Supplies|QID|6571|M|71.40,67.64|Z|Ashenvale|N|To Locke Okarr; by the south watchtower.|
-T The Lost Pages|QID|6504|M|70.01,71.14|Z|Ashenvale|N|To Gurda Ragescar.|
-T Freedom to Ruul|QID|6482|M|74.12,60.91|Z|Ashenvale|N|To Yama Snowhoof.|
+T Warsong Supplies|QID|6571|M|71.40,67.64|Z|1440; Ashenvale|N|To Locke Okarr; by the south watchtower.|
+T The Lost Pages|QID|6504|M|70.01,71.14|Z|1440; Ashenvale|N|To Gurda Ragescar.|
+T Freedom to Ruul|QID|6482|M|74.12,60.91|Z|1440; Ashenvale|N|To Yama Snowhoof.|
 ;L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
 
 ; --- Stonetalon Mountains
-F Sun Rock Retreat|ACTIVE|1088|M|73.18,61.59|Z|Ashenvale|
+F Sun Rock Retreat|ACTIVE|1088|M|73.18,61.59|Z|1440; Ashenvale|
 T Ordanus|QID|1088|M|46.01,60.37|N|To Braelyn Firehand.|
 R The Charred Vale|QID|6283|ACTIVE|6283|M|34.51,60.13|CC|N|Choose your own path to get there. I suggest going over the mountain.|
 K Bloodfury Bloodline|ACTIVE|6283|M|30.71,61.15|CC|QO|1|N|Clear any potential adds in the area. When you're ready, kill Bloodfury Ripper and loot her remains. She paths around a little. I highly recommend kiting her into the mountains away from the others.\n[color=FF0000]NOTE: [/color]She is a level 26 Elite with a 5 minute respawn timer.|

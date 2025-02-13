@@ -113,15 +113,15 @@ T Seeking Spiritual Aid|QID|5158|M|65.83,43.78|Z|The Barrens|N|To Islen Watersee
 A Cleansed Water Returns to Felwood|QID|5159|M|65.83,43.78|Z|The Barrens|N|From Islen Waterseer.|PRE|5158|
 
 F Talrendis Point|QID|5159|M|63.08,37.16|Z|The Barrens|N|Fly to Talrendis Point in the in Azshara.
-C Fragments of the Past|QID|5246|M|41.51,52.53|Z|Azshara|QO|1|N|Collect the Sacred Highborne Writings. It's a tin book on a ledge behind the warlord.|
-A Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|Azshara|N|From Kim'jael.|LVL|47|
-C Kim'jael Indeed!|QID|3601|M|56.1,30.1|Z|Azshara|N|Goto the base camp and loot the items from random chests scattered around..|
-T Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|Azshara|N|To Kim'jael.|
-A Kim'jael's "Missing" Equipment|QID|5534|M|53.45,21.81|Z|Azshara|N|From Kim'jael.|LVL|47|PRE|3601|
-C Kim'jael's "Missing" Equipment|QID|5534|M|48.65,42.47|Z|Azshara|N|Find 'Some Rune' from the naga.|
-T Kim'jael's "Missing" Equipment|QID|5534|M|53.45,21.82|Z|Azshara|N|To Kim'jael.|
+C Fragments of the Past|QID|5246|M|41.51,52.53|Z|1447; Azshara|QO|1|N|Collect the Sacred Highborne Writings. It's a tin book on a ledge behind the warlord.|
+A Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|1447; Azshara|N|From Kim'jael.|LVL|47|
+C Kim'jael Indeed!|QID|3601|M|56.1,30.1|Z|1447; Azshara|N|Goto the base camp and loot the items from random chests scattered around..|
+T Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|1447; Azshara|N|To Kim'jael.|
+A Kim'jael's "Missing" Equipment|QID|5534|M|53.45,21.81|Z|1447; Azshara|N|From Kim'jael.|LVL|47|PRE|3601|
+C Kim'jael's "Missing" Equipment|QID|5534|M|48.65,42.47|Z|1447; Azshara|N|Find 'Some Rune' from the naga.|
+T Kim'jael's "Missing" Equipment|QID|5534|M|53.45,21.82|Z|1447; Azshara|N|To Kim'jael.|
 
-R Felwood|QID|5159|M|94.83,47.87;83.24,48.20;75.98,44.51;74.81,44.62;71.80,49.01;69.85,50.39;67.33,49.20;64.97,44.02;61.84,43.96;58.20,35.17;56.65,28.71|Z|Ashenvale|CS|N|Make your way to Felwood.|
+R Felwood|QID|5159|M|94.83,47.87;83.24,48.20;75.98,44.51;74.81,44.62;71.80,49.01;69.85,50.39;67.33,49.20;64.97,44.02;61.84,43.96;58.20,35.17;56.65,28.71|Z|1440; Ashenvale|CS|N|Make your way to Felwood.|
 T Cleansed Water Returns to Felwood|QID|5159|M|51.14,82.16|Z|Felwood|N|To Greta Mosshoof.|
 A Dousing the Flames of Protection|QID|5165|M|51.14,82.16|Z|Felwood|N|From Greta Mosshoof.|PRE|5159|
 T Linken's Memory|QID|3942|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
@@ -175,9 +175,9 @@ A Enraged Wildkin|QID|4861|M|52.14,30.43|Z|Winterspring|N|From Jaron Stoneshaper
 A Are We There, Yeti?|QID|977|M|60.88,37.62|Z|Winterspring|N|From Umi Rumplesnicker.|LVL|52|PRE|3783|
 h Everlook|QID|977|Z|Winterspring|N|Set your hearthstone in Everlook.|
 F Talrendis Point|QID|977|M|62.33,36.61|Z|Winterspring|N|Fly to Azshara.|
-A Poisoned Water|QID|6804|M|79.26,73.73|Z|Azshara|N|From Duke Hydraxis.|LVL|55|
-A Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|Azshara|N|From Duke Hydraxis.|LVL|55|
-H Everlook|QID|977|M|PLAYER|Z|Azshara|N|Hearth back to Everlook.|
+A Poisoned Water|QID|6804|M|79.26,73.73|Z|1447; Azshara|N|From Duke Hydraxis.|LVL|55|
+A Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|1447; Azshara|N|From Duke Hydraxis.|LVL|55|
+H Everlook|QID|977|M|PLAYER|Z|1447; Azshara|N|Hearth back to Everlook.|
 C Are We There, Yeti?|QID|977|M|67.71,41.74|Z|Winterspring|S|N|Kill Yetis until you get the Pristine Yeti Horns.|
 C Winterfall Activity|QID|8464|M|67.70,37.20|Z|Winterspring|S|N|Kill Winterfell furbolgs needed.|
 K High Chief Winterfall|QID|5121|M|69.37,38.39|Z|Winterspring|QO|1|N|High Chief Winterfall slain.|
@@ -210,13 +210,13 @@ A Words of the High Chief|QID|5128|M|31.27,45.17|Z|Winterspring|N|From Donova Sn
 T Winterfall Activity|QID|8464|M|27.74,34.51|Z|Winterspring|N|To Salfa.|
 
 F Talrendis Point|QID|4084|M|62.49,24.24|Z|Felwood|N|Fly to Azshara.|
-T Ancient Spirit|QID|4261|M|85.28,44.72|Z|Ashenvale|N|To Kayneth Stillwind.|
-R Felwood|ACTIVE|4084^5128|M|83.24,48.20;75.98,44.51;74.81,44.62;71.80,49.01;69.85,50.39;67.33,49.20;64.97,44.02;61.84,43.96;58.20,35.17;56.65,28.71|Z|Ashenvale|CS|N|Make your way to Felwood.|
+T Ancient Spirit|QID|4261|M|85.28,44.72|Z|1440; Ashenvale|N|To Kayneth Stillwind.|
+R Felwood|ACTIVE|4084^5128|M|83.24,48.20;75.98,44.51;74.81,44.62;71.80,49.01;69.85,50.39;67.33,49.20;64.97,44.02;61.84,43.96;58.20,35.17;56.65,28.71|Z|1440; Ashenvale|CS|N|Make your way to Felwood.|
 T Words of the High Chief|QID|5128|M|51.14,81.76|Z|Felwood|N|To Kelek Skykeeper.|
 T Silver Heart|QID|4084|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
 A Aquementas|QID|4005|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|LVL|47|PRE|4084|
 
-H Everlook|QID|4005|M|PLAYER|Z|Azshara|N|Hearth back to Everlook.|
+H Everlook|QID|4005|M|PLAYER|Z|1447; Azshara|N|Hearth back to Everlook.|
 F Gadgetzan|QID|4005|M|62.33,36.61|Z|Winterspring|N|Fly to Gadgetzan.|
 T Mold Rhymes With...|QID|5538|M|51.46,28.81|Z|Tanaris|N|To Krinkle Goodsteel. This will cost you 15 gold but it's part of the Scholomance Key questline. Skip if you want.|
 A Fire Plume Forged|QID|5801|M|51.46,28.81|Z|Tanaris|N|From Krinkle Goodsteel.|LVL|55|PRE|5538|
@@ -391,31 +391,31 @@ F Menethil Harbor|ACTIVE|6804^6805|M|42.93,85.06|Z|Western Plaguelands|N|Fly to 
 b Darkshore|ACTIVE|6804^6805|M|4.59,57.13|Z|Wetlands|N|Take the boat to Darkshore.|
 F Talrendis Point|ACTIVE|6804^6805|M|36.34,45.58|Z|Darkshore|N|Fly to Azshara.|
 C The Demon Hunter |QID|2744|M|60.82,66.35|Z|Swamp of Sorrows|CHAT|N|Speak with Loramus Thalipedes.|
-T The Demon Hunter|QID|2744|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
-A Loramus|QID|3141|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|2744|
-C Loramus|QID|3141|M|60.82,66.35|Z|Azshara|CHAT|N|Listen to Loramus Thalipedes tell his story.|
-T Loramus|QID|3141|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
-A Breaking the Ward|QID|3508|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3141|
-T Breaking the Ward|QID|3508|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes. Give him a few seconds to do his thing before you can turn it in.|
-A The Name of the Beast|QID|3509|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3508|
-T The Name of the Beast|QID|3509|M|77.13,42.81|Z|Azshara|N|To Lord Arkkoroc.|
-A The Name of the Beast|QID|3510|M|77.13,42.81|Z|Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Lord Arkkoroc.|LVL|45|PRE|3509|
-C Beaten Head|QID|3510|M|56.53,44.35|Z|Azshara|N|[color=ff8000]Elite: [/color]Kill Hetaera and loot her 3 heads.|T|Hetaera|
-T The Name of the Beast|QID|3510|M|77.13,42.81|Z|Azshara|N|To Lord Arkkoroc.|
-A The Name of the Beast|QID|3511|M|77.13,42.81|Z|Azshara|N|From Lord Arkkoroc.|LVL|45|PRE|3510|
-C The Name of the Beast|QID|3511|Z|Azshara|N|Take the temper back to Loramus Thalipedes.|
-C The Name of the Beast 1|QID|3511|Z|Azshara|QO|1|N|Hetaera's Blood.|
-T The Name of the Beast|QID|3511|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
-A Azsharite|QID|3602|M|60.82,66.35|Z|Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Loramus Thalipedes.|LVL|45|PRE|3511|
-l Fel Orb|QID|3602|M|PLAYER|Z|Azshara|N|Get the Orb from the bag you just got.|L|10831|U|10834|
-C Azsharite|QID|3602|M|45.7,69.5;51.82,76.63;53.54,74.45;55.39,73.87;53.80,78.88;56.07,78.74;54.30,82.09;51.96,84.35;50.40,81.48;50.20,87.15;55.19,86.79;56.42,88.79;57.29,86.98;59.38,84.88;60.17,83.36;57.78,83.74;56.12,83.35|CN|Z|Azshara|N|Summon our Felhound Tracker, you will need to target it, and /roar for it to find the Crystallized Azsharite you need. Though not necessary, just loot the blue crystals and statues you see around|U|10831|
-T Azsharite|QID|3602|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
-A The Formation of Felbane|QID|3621|M|60.8,66.4|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3602|
+T The Demon Hunter|QID|2744|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
+A Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|2744|
+C Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|CHAT|N|Listen to Loramus Thalipedes tell his story.|
+T Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
+A Breaking the Ward|QID|3508|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3141|
+T Breaking the Ward|QID|3508|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes. Give him a few seconds to do his thing before you can turn it in.|
+A The Name of the Beast|QID|3509|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3508|
+T The Name of the Beast|QID|3509|M|77.13,42.81|Z|1447; Azshara|N|To Lord Arkkoroc.|
+A The Name of the Beast|QID|3510|M|77.13,42.81|Z|1447; Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Lord Arkkoroc.|LVL|45|PRE|3509|
+C Beaten Head|QID|3510|M|56.53,44.35|Z|1447; Azshara|N|[color=ff8000]Elite: [/color]Kill Hetaera and loot her 3 heads.|T|Hetaera|
+T The Name of the Beast|QID|3510|M|77.13,42.81|Z|1447; Azshara|N|To Lord Arkkoroc.|
+A The Name of the Beast|QID|3511|M|77.13,42.81|Z|1447; Azshara|N|From Lord Arkkoroc.|LVL|45|PRE|3510|
+C The Name of the Beast|QID|3511|Z|1447; Azshara|N|Take the temper back to Loramus Thalipedes.|
+C The Name of the Beast 1|QID|3511|Z|1447; Azshara|QO|1|N|Hetaera's Blood.|
+T The Name of the Beast|QID|3511|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
+A Azsharite|QID|3602|M|60.82,66.35|Z|1447; Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Loramus Thalipedes.|LVL|45|PRE|3511|
+l Fel Orb|QID|3602|M|PLAYER|Z|1447; Azshara|N|Get the Orb from the bag you just got.|L|10831|U|10834|
+C Azsharite|QID|3602|M|45.7,69.5;51.82,76.63;53.54,74.45;55.39,73.87;53.80,78.88;56.07,78.74;54.30,82.09;51.96,84.35;50.40,81.48;50.20,87.15;55.19,86.79;56.42,88.79;57.29,86.98;59.38,84.88;60.17,83.36;57.78,83.74;56.12,83.35|CN|Z|1447; Azshara|N|Summon our Felhound Tracker, you will need to target it, and /roar for it to find the Crystallized Azsharite you need. Though not necessary, just loot the blue crystals and statues you see around|U|10831|
+T Azsharite|QID|3602|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
+A The Formation of Felbane|QID|3621|M|60.8,66.4|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3602|
 
-T Poisoned Water|QID|6804|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
-T Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
-A Eye of the Emberseer|QID|6821|M|79.2,73.6|Z|Azshara|N|From Duke Hydraxis.|LVL|55|PRE|6804&6805|
-H Ironforge|ACTIVE|6186|M|PLAYER|Z|Azshara|N|Hearth back to Ironforge.|
+T Poisoned Water|QID|6804|M|79.26,73.73|Z|1447; Azshara|N|To Duke Hydraxis.|
+T Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|1447; Azshara|N|To Duke Hydraxis.|
+A Eye of the Emberseer|QID|6821|M|79.2,73.6|Z|1447; Azshara|N|From Duke Hydraxis.|LVL|55|PRE|6804&6805|
+H Ironforge|ACTIVE|6186|M|PLAYER|Z|1447; Azshara|N|Hearth back to Ironforge.|
 R Deeprun Tram|ACTIVE|6186|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|ACTIVE|6186|N|Take the tram ride and then run into Stormwind.|
 T The Blightcaller Cometh|QID|6186|M|78.22,18.01|Z|Stormwind City|N|To Highlord Bolvar Fordragon. Follow-up is a world raid quest to kill Blightcaller and is out of scope for the guide.|
