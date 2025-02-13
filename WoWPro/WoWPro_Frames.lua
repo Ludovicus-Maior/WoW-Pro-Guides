@@ -599,15 +599,6 @@ end)
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro
-        end) ,
-
-        text = L["Browse Guides"], hasArrow = true, menuList = {
-            {text = L["New Style"], func = function()
-                WoWPro.ShowGuideMenu()
-            end},
-            {text = L["Old Style"], func = function()
-                WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
-                _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideSelect")
-            end}
-        } 
+            WoWPro.AnchorStore("OnDoubleClick2")
+        end
+    end)

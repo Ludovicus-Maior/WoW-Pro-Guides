@@ -1,4 +1,4 @@
--- luacheck: globals pairs ipairs tonumber tostring
+-- luacheck: globals pairs ipairs tonumber tostring C_TradeSkillUI GetProfessions GetProfessionInfo GetNumSkillLines GetSkillLineInfo
 
 --------------------------------------
 --      WoWPro_Profession_Trade     --
@@ -381,7 +381,7 @@ elseif WoWPro.RETAIL then
 
         -- scan with GetProfessions()
         for _, profID in pairs({_G.GetProfessions()}) do
-            local name, _, skillLineRank, skillLineMaxRank, _, _, skillLineID, skillLineModifier = _G.GetProfessionInfo(profID)
+            local _, _, skillLineRank, skillLineMaxRank, _, _, skillLineID, skillLineModifier = _G.GetProfessionInfo(profID)
             if WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,

@@ -212,3 +212,7 @@ function WoWPro.SetResizeBounds(frame, minWidth, minHeight, maxWidth, maxHeight)
     else
         frame:SetMinResize(minWidth, minHeight)
         if maxWidth then
+            frame:SetMaxResize(maxWidth, maxHeight)
+        end
+    end
+end
