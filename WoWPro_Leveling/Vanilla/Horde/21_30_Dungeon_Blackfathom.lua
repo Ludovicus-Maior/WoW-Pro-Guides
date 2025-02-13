@@ -7,7 +7,7 @@ return [[
 
 ; Outside Instance
 B Elixir of Water Breathing|AVAILABLE|6921|L|5996 2|N|If you dont have a Warlock in the group, get at least two of these.|
-A Trouble in the Deeps|QID|6562|LEAD|66563|M|47.34,64.25|Z|Stonetalon Mountains|N|From Tsunaman, the water elemental.|
+A Trouble in the Deeps|QID|6562|LEAD|66563|M|47.34,64.25|Z|1442; Stonetalon Mountains|N|From Tsunaman, the water elemental.|
 T Trouble in the Deeps|QID|6562|M|11.56,34.29|Z|1440; Ashenvale|N|To Je'neu Sancrea|
 A The Essence of Aku'Mai|QID|6563|M|11.56,34.29|Z|1440; Ashenvale|N|From Je'neu Sancrea|
 A Amongst the Ruins|QID|6921|M|11.56,34.29|Z|1440; Ashenvale|N|From Je'neu Sancrea|

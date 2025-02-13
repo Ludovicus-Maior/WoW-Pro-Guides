@@ -22,8 +22,8 @@ B Patterned Bronze Bracers|QID|716|S!US|L|2868|N|Crafted with Blacksmithing.|
 
 b Grom'gol outpost|ACTIVE|669|M|50.8,13.6|Z|Durotar|N|Take the zep to the the Grom'gol outpost.|
 
-R Duskwood|ACTIVE|669|M|44,67|Z|Duskwood|N|Run north to duskwood then east avoiding Darkshire, through Deadwind Pass into Swamp of Sorrows.|
-R Deadwind Pass|ACTIVE|669|M|44,67;72.7,57.8;81.7,51.2;86.9,39.4|CS|Z|Duskwood|N|Run northeast towards the pass into Deadwind Pass.|
+R Duskwood|ACTIVE|669|M|44,67|Z|1431; Duskwood|N|Run north to duskwood then east avoiding Darkshire, through Deadwind Pass into Swamp of Sorrows.|
+R Deadwind Pass|ACTIVE|669|M|44,67;72.7,57.8;81.7,51.2;86.9,39.4|CS|Z|1431; Duskwood|N|Run northeast towards the pass into Deadwind Pass.|
 R Swamp of Sorrows|ACTIVE|669|M|37,33;46,32;51,41;58,41|CS|Z|Deadwind Pass|N|Continue East followingg the road thru Deadwind Pass.|
 f Stonard|QID|1393|M|46,54.6|Z|Swamp of Sorrows|N|get the flight point at Breyk.|
 A Neeka Bloodscar|QID|1418|M|47.7,55.2|Z|Swamp of Sorrows|N|From Helgrum the Swift.|
@@ -107,7 +107,7 @@ H Orgrimmar|ACTIVE|1420|N|Be sure you have the items from shopping list, this is
 ;-----002_44_44_Jame_Swamp_of_Sorrows.lua------
 
 b Grom'gol Base Camp|QID|1393|M|50.8,13.6|Z|Durotar|N|Take the zep to the the Grom'gol outpost.|
-F Stonard|ACTIVE|1393|M|32.4,29.2|Z|Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
+F Stonard|ACTIVE|1393|M|32.4,29.2|Z|1434; Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
 T Report to Helgrum|QID|1420|M|48,55|Z|Swamp of Sorrows|N|To Helgrum.|
 A Fresh Meat|QID|1430|M|44.7,57.2|Z|Swamp of Sorrows|N|From Dar.|
 
@@ -284,29 +284,29 @@ N Uldaman|N|Now is a good time for Uldaman, it's really not that bad. If you cho
 ;J to uldaman guide when available.
 h Orgrimmar|ACTIVE|625|
 F Camp Taurajo|ACTIVE|625|M|45.2,63.8|Z|Orgrimmar|N|At Doras, Wind Rider Master. If you have the Flightpath fly directly to Brackenwall.|
-R Dustwallow Marsh|ACTIVE|625|M|32.9,45.6|Z|Dustwallow Marsh|N|Run south, then east at the Crossroad to Dustwallow Marsh.|
-R Brackenwall Village|ACTIVE|625|M|36,32|Z|Dustwallow Marsh|N|Run North to Breckenwall Village.|
-f Brackenwall Village|ACTIVE|625|M|35.6,31.8|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|
-A Overlord Mok'Morokk's Concern|QID|1166|M|36.3,31.4|Z|Dustwallow Marsh|N|Get this quest from Mok'Morokk who's standing by the bonfire.|
-A Army of the Black Dragon|QID|1168|M|37.4,31.4|Z|Dustwallow Marsh|N|Get this quest from Tharg next to the eastern exit of the village.|
-A Identifying the Brood|QID|1169|M|37.2,33.1|Z|Dustwallow Marsh|N|Get this quest from Draz'Zilb in the cave/inn.|
-R The Den of Flame|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|Ride south to The Den of Flame.|
-C Army of the Black Dragon|QID|1168|M|40,67|Z|Dustwallow Marsh|S|N|Kill every Dragonkin you see, but you can avoid the elites if they are too tough, there are other non-elite scalebanes elsewher.|
-C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|S|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town.|
-C Mok'Morokk's Grog|QID|1166|QO|2|M|39,66|Z|Dustwallow Marsh|NC|N|Get Mok'Morokk's Grog just outside the cave.|
-C Mok'Morokk's Strongbox|QID|1166|QO|3|M|36.63,69.55|Z|Dustwallow Marsh|NC|N|Continue into the cave to find the strong box.|
-R Stonemaul Ruins|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|After you have all the Scalebanes, go next door to the Stonemaul Ruins.|
-C Mok'Morokk's Snuff|QID|1166|QO|1|M|44.50,65.98|Z|Dustwallow Marsh|N|Head for the center of the fortress. That's where Mok'Morokk's snuff is. Keep killing whelps too.|
-K Deadmire|ACTIVE|1205|M|48,45;42,49|CN|Z|Dustwallow Marsh|T|Deadmire|N|Follow the river northeast to (48,45) then northwest to (42,49) until you find the crocolisk, Deadmire, then kill it and loot his tooth.|
-R Bloodfen Burrow|M|31.10,66.13|Z|Dustwallow Marsh|N|Continue killing everything as you head west towardsd Bloodfen Burrow.|
-T Cortello's Riddle |QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
-A Cortello's Riddle |QID|626|PRE|625|M|31.1,66.1|Z|Dustwallow Marsh|
-C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|US|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town .|
-C Army of the Black Dragon|QID|1168|M|45,63;48,75|CN|Z|Dustwallow Marsh|US|N|Find what ever dragonkin you still need to complete this quest.|
-T Overlord Mok'Morokk's Concern|QID|1166|M|36.3,31.4|Z|Dustwallow Marsh|N|To Overlord Mok'Morokk.(unless there is someone to partner with, skip the followup)|
-T Army of the Black Dragon|QID|1168|M|37.4,31.4|Z|Dustwallow Marsh|N|To Tharg.|
-T Identifying the Brood|QID|1169|M|37.2,33.1|Z|Dustwallow Marsh|N|To Draz'Zilb.|
-F Thunder Bluff|ACTIVE|1205|M|35.6,31.8|Z|Dustwallow Marsh|N|At Shardi, Wind Rider Master.|
+R Dustwallow Marsh|ACTIVE|625|M|32.9,45.6|Z|1445; Dustwallow Marsh|N|Run south, then east at the Crossroad to Dustwallow Marsh.|
+R Brackenwall Village|ACTIVE|625|M|36,32|Z|1445; Dustwallow Marsh|N|Run North to Breckenwall Village.|
+f Brackenwall Village|ACTIVE|625|M|35.6,31.8|Z|1445; Dustwallow Marsh|N|At Shardi, Wind Rider Master.|
+A Overlord Mok'Morokk's Concern|QID|1166|M|36.3,31.4|Z|1445; Dustwallow Marsh|N|Get this quest from Mok'Morokk who's standing by the bonfire.|
+A Army of the Black Dragon|QID|1168|M|37.4,31.4|Z|1445; Dustwallow Marsh|N|Get this quest from Tharg next to the eastern exit of the village.|
+A Identifying the Brood|QID|1169|M|37.2,33.1|Z|1445; Dustwallow Marsh|N|Get this quest from Draz'Zilb in the cave/inn.|
+R The Den of Flame|ACTIVE|1166|M|40,67|Z|1445; Dustwallow Marsh|N|Ride south to The Den of Flame.|
+C Army of the Black Dragon|QID|1168|M|40,67|Z|1445; Dustwallow Marsh|S|N|Kill every Dragonkin you see, but you can avoid the elites if they are too tough, there are other non-elite scalebanes elsewher.|
+C Identifying the Brood|QID|1169|M|41.8,73.3|Z|1445; Dustwallow Marsh|S|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town.|
+C Mok'Morokk's Grog|QID|1166|QO|2|M|39,66|Z|1445; Dustwallow Marsh|NC|N|Get Mok'Morokk's Grog just outside the cave.|
+C Mok'Morokk's Strongbox|QID|1166|QO|3|M|36.63,69.55|Z|1445; Dustwallow Marsh|NC|N|Continue into the cave to find the strong box.|
+R Stonemaul Ruins|ACTIVE|1166|M|40,67|Z|1445; Dustwallow Marsh|N|After you have all the Scalebanes, go next door to the Stonemaul Ruins.|
+C Mok'Morokk's Snuff|QID|1166|QO|1|M|44.50,65.98|Z|1445; Dustwallow Marsh|N|Head for the center of the fortress. That's where Mok'Morokk's snuff is. Keep killing whelps too.|
+K Deadmire|ACTIVE|1205|M|48,45;42,49|CN|Z|1445; Dustwallow Marsh|T|Deadmire|N|Follow the river northeast to (48,45) then northwest to (42,49) until you find the crocolisk, Deadmire, then kill it and loot his tooth.|
+R Bloodfen Burrow|M|31.10,66.13|Z|1445; Dustwallow Marsh|N|Continue killing everything as you head west towardsd Bloodfen Burrow.|
+T Cortello's Riddle |QID|625|M|31.10,66.13|Z|1445; Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
+A Cortello's Riddle |QID|626|PRE|625|M|31.1,66.1|Z|1445; Dustwallow Marsh|
+C Identifying the Brood|QID|1169|M|41.8,73.3|Z|1445; Dustwallow Marsh|US|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town .|
+C Army of the Black Dragon|QID|1168|M|45,63;48,75|CN|Z|1445; Dustwallow Marsh|US|N|Find what ever dragonkin you still need to complete this quest.|
+T Overlord Mok'Morokk's Concern|QID|1166|M|36.3,31.4|Z|1445; Dustwallow Marsh|N|To Overlord Mok'Morokk.(unless there is someone to partner with, skip the followup)|
+T Army of the Black Dragon|QID|1168|M|37.4,31.4|Z|1445; Dustwallow Marsh|N|To Tharg.|
+T Identifying the Brood|QID|1169|M|37.2,33.1|Z|1445; Dustwallow Marsh|N|To Draz'Zilb.|
+F Thunder Bluff|ACTIVE|1205|M|35.6,31.8|Z|1445; Dustwallow Marsh|N|At Shardi, Wind Rider Master.|
 T Deadmire|QID|1205|M|61.5,80.9|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
 F Gadgetzem|ACTIVE|2864|M|46.8,50|Z|Thunder Bluff|N|At Tal, Wind Rider Master.|
 
@@ -704,7 +704,7 @@ T Ripple Delivery|QID|81|M|59.5,36.8|Z|Orgrimmar|N|To Dran Droffers in The Drag.
 T A Grim Discovery |QID|2976|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul in the Valley of Honor.|
 A Betrayed|QID|3504|M|75.2,34.2|Z|Orgrimmar|N|To Belgrom Rockmaul.|
 F Ratchet|ACTIVE|2874|M|45.2,63.8|Z|Orgrimmar|N|At Doras, Wind Rider Master.|
-b Booty Bay|ACTIVE|2874|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
+b Booty Bay|ACTIVE|2874|N|Take the boat to Booty Bay.|Z|1413; The Barrens|M|63.60,38.60|
 T Deliver to MacKinley|QID|2874|N|To "Sea Wolf" MacKinley, near the inn.|M|27.8,77.1|
 t Rescue OOX-22/FE!|QID|2767|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-09/HL!|QID|836|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
@@ -713,7 +713,7 @@ A An OOX of Your Own|QID|3721|M|28.2,76.2|N|From Oglethorpe Obnoticus.|
 T An OOX of Your Own|QID|3721|M|28.2,76.2|N|To Oglethorpe Obnoticus.|
 T Whiskey Slim's Lost Grog|QID|580|M|27.1,77.5|
 
-F Stonard|ACTIVE|3504|M|26.8,77|Z|Stranglethorn Vale|N|At Gringer, Wind Rider Master.|
+F Stonard|ACTIVE|3504|M|26.8,77|Z|1434; Stranglethorn Vale|N|At Gringer, Wind Rider Master.|
 R Blasted Lands|ACTIVE|3504|M|35.3,60.1;33.1,72.4|CS|Z|Swamp of Sorrows|N|Follow the road West, turning south at the first waypoint and head into The Blasted Lands.|
 
 A A Boar's Vitality|QID|2583|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Stamina for 1 hour when turned in.|

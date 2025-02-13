@@ -122,8 +122,8 @@ R Razor Hill|QID|1358|M|52.36,40.03|Z|Durotar|N|Run to Razor Hill.|
 A Conscript of the Horde|QID|840|M|50.8,43.6|Z|Durotar|N|From Takrin Pathseeker.|LVL|10|
 R Far Watch Outpost|QID|840|M|34.62,42.32|Z|Durotar|CC|N|Follow the western road from Razor Hill to the bridge over the Southfury River.|
 T Conscript of the Horde|QID|840|M|62.26,19.38|N|To Kargal Battlescar at Far Watch Outpost.|
-A Crossroads Conscription|QID|842|M|62.26,19.38|Z|The Barrens|N|From Kargal Battlescar.|LVL|10|PRE|840|
-T Crossroads Conscription|QID|842|M|52.2,31|Z|The Barrens|N|To Sergra Darkthorn in The Crossroads.|
+A Crossroads Conscription|QID|842|M|62.26,19.38|Z|1413; The Barrens|N|From Kargal Battlescar.|LVL|10|PRE|840|
+T Crossroads Conscription|QID|842|M|52.2,31|Z|1413; The Barrens|N|To Sergra Darkthorn in The Crossroads.|
 ; -----------------------------------------------------------------------------
 ]]
 end)

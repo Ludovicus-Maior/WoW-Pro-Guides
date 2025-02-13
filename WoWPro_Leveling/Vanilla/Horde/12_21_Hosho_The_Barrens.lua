@@ -25,13 +25,13 @@ C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.\nThese 
 C Plainstrider Menace|QID|844|C|Shaman|S!US|N|Kill Plainstriders on the way for their beaks.|
 C Plainstrider Menace|QID|844|C|Warrior|R|Tauren|S!US|N|Kill Plainstriders on the way for their beaks.|
 
-T Veteran Uzzek|QID|1505|C|Warrior|R|Tauren|M|52.70,23.35;61.38,21.11|CS|Z|The Barrens|N|To Veteran Uzzek.|
+T Veteran Uzzek|QID|1505|C|Warrior|R|Tauren|M|52.70,23.35;61.38,21.11|CS|Z|1413; The Barrens|N|To Veteran Uzzek.|
 A Path of Defense|QID|1498|PRE|1505|C|Warrior|R|Tauren|M|61.38,21.11|N|From Veteran Uzzek.|
 R Thunder Ridge|ACTIVE|1498|M|39.18,32.29|Z|Durotar|N|Run to the entrance of Thunder Ridge.|
 C Path of Defense|QID|1498|C|Warrior|R|Tauren|M|43.4,24.8|Z|Durotar|N|Kill Thunder Lizards for their scales in Thunder Ridge.|
 
 T Call of Fire|QID|2984|C|Shaman|R|Tauren|M|55.86,19.94|N|To Kranal Fiss. He wanders around a bit.|
-A Call of Fire|QID|1524|PRE|1522|C|Shaman|R|Tauren|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|
+A Call of Fire|QID|1524|PRE|1522|C|Shaman|R|Tauren|M|55.86,19.94|Z|1413; The Barrens|N|From Kranal Fiss.|
 R Shrine of the Dormant Flame|QID|1524|C|Shaman|R|Tauren|M|36.69,57.43|Z|Durotar|CC|N|Follow the hidden path here upwards.|
 T Call of Fire|QID|1524|C|Shaman|R|Tauren|M|38.52,58.92|Z|Durotar|N|To Telf Joolam.|
 A Call of Fire|QID|1525|PRE|1524|C|Shaman|R|Tauren|M|38.52,58.92|Z|Durotar|N|From Telf Joolam.|
@@ -42,8 +42,8 @@ C Call of Fire|QID|1525|C|Shaman|R|Tauren|M|52.84,28.82|QO|2|N|Kill Burning Blad
 
 R The Barrens|QID|840|C|Shaman;Warrior|R|Tauren|M|63.02,19.20|CC|
 
-T Path of Defense|QID|1498|C|Warrior|R|Tauren|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
-A Thun'grim Firegaze|QID|1502|PRE|1498|C|Warrior|R|Tauren|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|
+T Path of Defense|QID|1498|C|Warrior|R|Tauren|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|
+A Thun'grim Firegaze|QID|1502|PRE|1498|C|Warrior|R|Tauren|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|
 T Conscript of the Horde|QID|840|C|Shaman|R|Tauren|M|62.26,19.37|N|To Kargal Battlescar.|
 A Crossroads Conscription|QID|842|PRE|840|C|Shaman|R|Tauren|M|62.26,19.37|N|From Kargal Battlescar.|
 ; --- End of Tauren catchup ---------------------------------------------------
@@ -57,7 +57,7 @@ A Call of Fire|QID|1526|PRE|1525|C|Shaman|M|38.52,58.92|Z|Durotar|N|From Telf Jo
 C Call of Fire|QID|1526|C|Shaman|M|38.89,58.21|Z|Durotar|U|6636|N|Use the Fire Sapta at the Stone, go up the trail and kill the fire elemental. Loot him.|
 T Call of Fire|QID|1526|C|Shaman|M|38.96,58.22|Z|Durotar|N|Right-click the Brazier of the Dormant Flame.|
 A Call of Fire|QID|1527|PRE|1526|C|Shaman|M|38.96,58.22|Z|Durotar|N|From the Brazier of the Dormant Flame.|
-T Call of Fire|QID|1527|C|Shaman|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss.|
+T Call of Fire|QID|1527|C|Shaman|M|55.86,19.94|Z|1413; The Barrens|N|To Kranal Fiss.|
 ; --- End of Shaman class quest -----------------------------------------------
 
 C Plainstrider Menace|QID|844|M|52.23,31.01|N|Get back into town, kill Plainstriders along the way to the Crossroads for their beaks.|
@@ -144,8 +144,8 @@ F Camp Taurajo|QID|853|R|Tauren|N|Remember the long run you had to do just to ge
 F Camp Taurajo|QID|853|R|-Tauren|N|Fly to Camp Taurajo.|TAXI|Camp Taurajo|
 R Camp Taurajo|QID|853|M|52.06,32.10;51.07,49.00;49.33,50.34;47.31,57.64;46.29,58.00|CS|N|Run to Taurajo.|TAXI|-Camp Taurajo|
 C Lost in Battle|QID|4921|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.|M|49.33,50.34|
-f Camp Taurajo|QID|853|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|
-F Thunder Bluff|QID|853|M|44.44,59.15|Z|The Barrens|N|Fly to Thundar Bluff.|TAXI|Thunder Bluff|
+f Camp Taurajo|QID|853|M|44.44,59.15|Z|1413; The Barrens|N|Get the flight point at Omusa Thunderhorn.|
+F Thunder Bluff|QID|853|M|44.44,59.15|Z|1413; The Barrens|N|Fly to Thundar Bluff.|TAXI|Thunder Bluff|
 R Thunder Bluff|QID|853|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CS|Z|Mulgore|N|Run to Thunder Bluff.|TAXI|-Thunder Bluff|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CS|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, underneath Spirit Rise.|
 A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|N|From Apothecary Zamah, Spirit Rise. (Dungeon Quest)|
@@ -261,30 +261,30 @@ A Avenge My Village|QID|6548|M|35.2,27.8|N|Leave the town through the West gate,
 A Goblin Invaders |QID|1062|M|35.2,27.8|N|From Seereth Stonebreak. We won't be doing this quest in this guide, it will be completed in Jame's guide for level 21-31. If you don't plan to do that guide, then skip this.|
 R Stonetalon Mountains|QID|6548|M|31.6,26.7|
 
-C Avenge My Village|QID|6548|M|81,88|N|A tiny bit northwest, at waypoint you will find Camp Aparaje, a deserted Tauren village with a few camps of Grimtotem Ruffians and Grimtotem Mercenaries.|Z|Stonetalon Mountains|
+C Avenge My Village|QID|6548|M|81,88|N|A tiny bit northwest, at waypoint you will find Camp Aparaje, a deserted Tauren village with a few camps of Grimtotem Ruffians and Grimtotem Mercenaries.|Z|1442; Stonetalon Mountains|
 T Avenge My Village|QID|6548|M|35.2,27.8|N|To Makaba Flathoof at the border.|
 A Kill Grundig Darkcloud|QID|6629|PRE|6548|M|35.2,27.8|N|From Makaba Flathoof.|
 R Stonetalon Mountains|QID|6629|M|31.6,26.7|
-C Kill Grundig Darkcloud|QID|6629|M|71.5,89.1;73,86|CS|T|Grundig Darkcloud|N|Follow the road west until waypoint, then turn northeast and follow the road into the grimtotem settlement, killing as you go. At 2nd waypoint you'll find a tent. Standing at the entrance to this tent is Grundig Darkcloud. Kill him. Before you leave, kill 6 Grimtotem Brutes to complete the quest, then walk into the tent where you found Grundig.|Z|Stonetalon Mountains|
-A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|From Kaya Flathoof.|
+C Kill Grundig Darkcloud|QID|6629|M|71.5,89.1;73,86|CS|T|Grundig Darkcloud|N|Follow the road west until waypoint, then turn northeast and follow the road into the grimtotem settlement, killing as you go. At 2nd waypoint you'll find a tent. Standing at the entrance to this tent is Grundig Darkcloud. Kill him. Before you leave, kill 6 Grimtotem Brutes to complete the quest, then walk into the tent where you found Grundig.|Z|1442; Stonetalon Mountains|
+A Protect Kaya|QID|6523|M|73.5,85.63|Z|1442; Stonetalon Mountains|N|From Kaya Flathoof.|
 C Protect Kaya|QID|6523|N|This is an escort mission. She will walk West out of the grimtotem settlement, then start following the road Southast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
 T Kill Grundig Darkcloud|QID|6629|M|35.2,27.8|N|To Makaba Flathoof at the border.|
 T Protect Kaya|QID|6523|M|35.2,27.8|N|To Makaba Flathoof.|
 A Kaya's Alive|QID|6401|PRE|6523|M|35.2,27.8|N|From Makaba Flathoof.|
 
-R Malaka'jin|QID|6401|M|71,95|N|At waypoint, you'll find a Darkspear Troll settlement called Malaka'Jin.|Z|Stonetalon Mountains|
-A Blood Feeders|QID|6461|M|71.2,94.8|Z|Stonetalon Mountains|N|From Xen'zilla.|
-A Arachnophobia|QID|6284|M|59.1,75.8|Z|Stonetalon Mountains|ELITE|N|From Wanted Poster, found further up the road.|
-R Sishir Canyon|ACTIVE|-6284|M|59.1,75.8|Z|Stonetalon Mountains|N|
-C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|S|N|Kill spiders until the quest is done.|
-C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|Stonetalon Mountains|S|NC|N|Pick up the spider eggs from around the area.|
-K Bessaleth|ACTIVE|6284|M|52,71|Z|Stonetalon Mountains|T|Bessaleth|N|Bessaleth will be located somewhere near here.|
-C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|Stonetalon Mountains|US|NC|N|Pick up the spider eggs from around the area.|
-C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|US|N|Finish up the spiders needed.|
-f Sun Rock Retreat|QID|6401|M|45.2,59.9|Z|Stonetalon Mountains|N|At Tharm.|
-t Arachnophobia|QID|6284|M|47.2,61|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|
-T Kaya's Alive|QID|6401|M|47.4,58.4|Z|Stonetalon Mountains|N|To Tammra Windfield.|
-T Blood Feeders|QID|6461|M|51.94,61.14;71.2,94.8|CS|Z|Stonetalon Mountains|N|To Xen'zilla in Malaka'Jin.|
+R Malaka'jin|QID|6401|M|71,95|N|At waypoint, you'll find a Darkspear Troll settlement called Malaka'Jin.|Z|1442; Stonetalon Mountains|
+A Blood Feeders|QID|6461|M|71.2,94.8|Z|1442; Stonetalon Mountains|N|From Xen'zilla.|
+A Arachnophobia|QID|6284|M|59.1,75.8|Z|1442; Stonetalon Mountains|ELITE|N|From Wanted Poster, found further up the road.|
+R Sishir Canyon|ACTIVE|-6284|M|59.1,75.8|Z|1442; Stonetalon Mountains|N|
+C Blood Feeders|QID|6461|M|57,76|Z|1442; Stonetalon Mountains|S|N|Kill spiders until the quest is done.|
+C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|1442; Stonetalon Mountains|S|NC|N|Pick up the spider eggs from around the area.|
+K Bessaleth|ACTIVE|6284|M|52,71|Z|1442; Stonetalon Mountains|T|Bessaleth|N|Bessaleth will be located somewhere near here.|
+C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|1442; Stonetalon Mountains|US|NC|N|Pick up the spider eggs from around the area.|
+C Blood Feeders|QID|6461|M|57,76|Z|1442; Stonetalon Mountains|US|N|Finish up the spiders needed.|
+f Sun Rock Retreat|QID|6401|M|45.2,59.9|Z|1442; Stonetalon Mountains|N|At Tharm.|
+t Arachnophobia|QID|6284|M|47.2,61|Z|1442; Stonetalon Mountains|N|To Maggran Earthbinder.|
+T Kaya's Alive|QID|6401|M|47.4,58.4|Z|1442; Stonetalon Mountains|N|To Tammra Windfield.|
+T Blood Feeders|QID|6461|M|51.94,61.14;71.2,94.8|CS|Z|1442; Stonetalon Mountains|N|To Xen'zilla in Malaka'Jin.|
 H Camp Taurajo|QID|1489|
 
 F Thunder Bluff|QID|1489|M|44.5,59.1|

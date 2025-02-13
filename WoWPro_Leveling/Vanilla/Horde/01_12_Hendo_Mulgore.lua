@@ -112,7 +112,7 @@ C Mazzranache|QID|766|QO|1;3;4|N|Kill Prairie Wolves, Plainstriders and Swoops o
 C Mazzranache|QID|766|QO|2|N|Kill Flatland Cougars until one drops a Femur.|S|
 C Dangers of the Windfury|QID|743|M|62.22,71.05|QO|1|N|Kill Windfury Harpies.|
 R Camp Taurajo|QID|754|M|69.70,60.50|CS|N|While you're in the area, run to Camp Taurajo to get the flight point. Watch out for the level 10 wolves.|TAXI|-Camp Taurajo|
-f Camp Taurajo|QID|754|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|TAXI|-Camp Taurajo|
+f Camp Taurajo|QID|754|M|44.44,59.15|Z|1413; The Barrens|N|Get the flight point at Omusa Thunderhorn.|TAXI|-Camp Taurajo|
 A The Ravaged Caravan|QID|749|M|59.82,62.51;57.45,61.25;52.03,59.66|CN|N|From Morin Cloudstalker, who patrols the road.|
 T The Ravaged Caravan|QID|749|M|53.74,48.17|N|Work your way into the camp and right-click the Sealed Supply Crate.|
 A The Ravaged Caravan|QID|751|M|53.74,48.17|N|From the Sealed Supply Crate.|PRE|749|
@@ -201,8 +201,8 @@ F Thunder Bluff|QID|5932|M|44.29,45.85|Z|Moonglade|N|Speak with Bumthen Plainswi
 T Back to Thunder Bluff|QID|5932|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 A Body and Heart|QID|6002|M|76.47,27.26|Z|Thunder Bluff|N|From Turak Runetotem.|PRE|5932|R|Tauren|C|Druid|
 F Camp Taurajo|QID|6002|M|46.98,49.84|Z|Thunder Bluff|R|Tauren|C|Druid|
-C Body and Heart|QID|6002|M|41.96,59.78;42.00,60.90|Z|The Barrens|CC|QO|1|U|15710|N|Be careful of the level 20 Thunderheads that roam the area. Stay on the road until you pass the house. Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw. Kill him and talk to his ghost to complete the quest.\n[color=FF0000]NOTE: [/color]The Cenarion Lunardust is a one-time use item. If you die, run back as fast you can. If Lunaclaw despawns, you will have to go back to Turak Runetotem in Thunder Bluff, abandon the quest and restart it.|R|Tauren|C|Druid|
-F Thunder Bluff|QID|6002|M|44.44,59.15|Z|The Barrens|R|Tauren|C|Druid|
+C Body and Heart|QID|6002|M|41.96,59.78;42.00,60.90|Z|1413; The Barrens|CC|QO|1|U|15710|N|Be careful of the level 20 Thunderheads that roam the area. Stay on the road until you pass the house. Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw. Kill him and talk to his ghost to complete the quest.\n[color=FF0000]NOTE: [/color]The Cenarion Lunardust is a one-time use item. If you die, run back as fast you can. If Lunaclaw despawns, you will have to go back to Turak Runetotem in Thunder Bluff, abandon the quest and restart it.|R|Tauren|C|Druid|
+F Thunder Bluff|QID|6002|M|44.44,59.15|Z|1413; The Barrens|R|Tauren|C|Druid|
 T Body and Heart|QID|6002|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 ; ---
 
@@ -234,56 +234,56 @@ H Bloodhoof Village|QID|760|N|Hearth back to Bloodhoof Village.|
 T Wildmane Cleansing|QID|760|M|48.53,60.39|N|To Mull Thunderhorn.|R|Tauren|
 R Camp Taurajo|QID|886|M|69.70,60.50;75.90,61.00|CS|N|Run to Camp Taurajo. There is no way to fly from Bloodhoof. You can run back to Thunder Bluff if you REALLY want to fly.|TAXI|Camp Taurajo|
 R Camp Taurajo|QID|886|M|69.70,60.50;75.90,61.00|CS|N|Run to Camp Taurajo.|TAXI|-Camp Taurajo|
-f Camp Taurajo|QID|886|M|44.44,59.15|Z|The Barrens|N|Get the flight point from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
-A Journey to the Crossroads|QID|854|M|44.88,58.61|Z|The Barrens|N|From Kirge Sternhorn.|R|Tauren|
-R The Crossroads|QID|886|M|47.31,57.64;51.07,49.00;52.06,32.10|CS|Z|The Barrens|N|Run to the Crossroads while staying on the road.\n\n[color=FF0000]NOTE: [/color]If you stray from the road, you will die. Some of the mobs will be up to 5+ levels above you.|
-T The Barrens Oases|QID|886|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem.|
-A The Forgotten Pools|QID|870|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|PRE|886|
-T Sergra Darkthorn|QID|860|M|52.23,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
-A Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|PRE|860|
-T Journey to the Crossroads|QID|854|M|51.50,30.87|Z|The Barrens|N|To Thork.|R|Tauren|
-f Crossroads|QID|6361|M|51.50,30.33|Z|The Barrens|N|At Devrak.|TAXI|-Crossroads|
-A A Bundle of Hides|QID|6361|M|51.21,29.05|Z|The Barrens|N|From Jahan Hawkwing.|R|Tauren|
-T A Bundle of Hides|QID|6361|M|51.50,30.33|Z|The Barrens|N|To Devrak.|
-A Ride to Thunder Bluff|QID|6362|M|51.50,30.33|Z|The Barrens|N|From Devrak.|PRE|6361|R|Tauren|
-F Thunder Bluff|QID|6362|M|51.50,30.33|Z|The Barrens|N|Fly to Thunder Bluff.|R|Tauren|
+f Camp Taurajo|QID|886|M|44.44,59.15|Z|1413; The Barrens|N|Get the flight point from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
+A Journey to the Crossroads|QID|854|M|44.88,58.61|Z|1413; The Barrens|N|From Kirge Sternhorn.|R|Tauren|
+R The Crossroads|QID|886|M|47.31,57.64;51.07,49.00;52.06,32.10|CS|Z|1413; The Barrens|N|Run to the Crossroads while staying on the road.\n\n[color=FF0000]NOTE: [/color]If you stray from the road, you will die. Some of the mobs will be up to 5+ levels above you.|
+T The Barrens Oases|QID|886|M|52.26,31.93|Z|1413; The Barrens|N|To Tonga Runetotem.|
+A The Forgotten Pools|QID|870|M|52.26,31.93|Z|1413; The Barrens|N|From Tonga Runetotem.|PRE|886|
+T Sergra Darkthorn|QID|860|M|52.23,31.01|Z|1413; The Barrens|N|To Sergra Darkthorn.|
+A Plainstrider Menace|QID|844|M|52.23,31.01|Z|1413; The Barrens|N|From Sergra Darkthorn.|PRE|860|
+T Journey to the Crossroads|QID|854|M|51.50,30.87|Z|1413; The Barrens|N|To Thork.|R|Tauren|
+f Crossroads|QID|6361|M|51.50,30.33|Z|1413; The Barrens|N|At Devrak.|TAXI|-Crossroads|
+A A Bundle of Hides|QID|6361|M|51.21,29.05|Z|1413; The Barrens|N|From Jahan Hawkwing.|R|Tauren|
+T A Bundle of Hides|QID|6361|M|51.50,30.33|Z|1413; The Barrens|N|To Devrak.|
+A Ride to Thunder Bluff|QID|6362|M|51.50,30.33|Z|1413; The Barrens|N|From Devrak.|PRE|6361|R|Tauren|
+F Thunder Bluff|QID|6362|M|51.50,30.33|Z|1413; The Barrens|N|Fly to Thunder Bluff.|R|Tauren|
 T Ride to Thunder Bluff|QID|6362|M|45.73,55.83|Z|Thunder Bluff|N|To Ahanu, in a tent at the lowest level from the tower.|
 A Tal the Wind Rider Master|QID|6363|M|45.73,55.83|Z|Thunder Bluff|N|From Ahanu.|PRE|6362|R|Tauren|
 T Tal the Wind Rider Master|QID|6363|M|46.98,49.84|Z|Thunder Bluff|N|To Tal at the top of the tower.|R|Tauren|
 A Return to Jahan|QID|6364|M|46.98,49.84|Z|Thunder Bluff|N|From Tal.|PRE|6363|R|Tauren|
 F Crossroads|QID|6364|M|47.02,49.83|Z|Thunder Bluff|N|Fly back to The Crossroads.|R|Tauren|
-T Return to Jahan|QID|6364|M|51.21,29.05|Z|The Barrens|N|To Jahan Hawkwing.|R|Tauren|
+T Return to Jahan|QID|6364|M|51.21,29.05|Z|1413; The Barrens|N|To Jahan Hawkwing.|R|Tauren|
 
 N A very long run|AVAILABLE|445|N|The trek from The Crossroads to Orgrimmar is a long run. The simplest route is to just stick to the road and follow the signs.\nIt's faster, and a little more perilous, to take shortcuts off the main road.\nI have found a route that it is a little faster and less likely to get you killed.|
-R Far Watch Outpost|AVAILABLE|445|M|52.67,23.17;61.89,19.17|CC|Z|The Barrens|N|Take the north road out of The Crossroads to the first intersection. Follow the road east to Far Watch Outpost.|
+R Far Watch Outpost|AVAILABLE|445|M|52.67,23.17;61.89,19.17|CC|Z|1413; The Barrens|N|Take the north road out of The Crossroads to the first intersection. Follow the road east to Far Watch Outpost.|
 
 ; --- Tauren Warrior class quest
 N Warrior class quest|ACTIVE|1505|N|This is the area to do your class quest.|R|Tauren|C|Warrior|
-T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|R|Tauren|C|Warrior|
-A Path of Defense|QID|1498|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|PRE|1505|R|Tauren|C|Warrior|
+T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|R|Tauren|C|Warrior|
+A Path of Defense|QID|1498|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|PRE|1505|R|Tauren|C|Warrior|
 R Thunder Ridge|ACTIVE|1498|M|39.18,32.29|Z|Durotar|N|Cross the bridge over the river and run to the entrance of Thunder Ridge.|R|Tauren|C|Warrior|
 C Path of Defense|QID|1498|M|43.4,24.8|Z|Durotar|QO|1|N|Kill Thunder Lizards for their scales in Thunder Ridge.|R|Tauren|C|Warrior|
 T Path of Defense|QID|1498|M|61.38,21.11|N|Head back To Uzzek at Far Watch Outpost.|R|Tauren|C|Warrior|
 ; ---
 
 ; --- Tauren Shaman Fire Totem quest
-T Call of Fire|QID|2983|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss at Grol'dom Farm. He wanders around a bit.|R|Tauren|C|Shaman|
-A Call of Fire|QID|1524|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|PRE|2983|R|Tauren|C|Shaman|
+T Call of Fire|QID|2983|M|55.86,19.94|Z|1413; The Barrens|N|To Kranal Fiss at Grol'dom Farm. He wanders around a bit.|R|Tauren|C|Shaman|
+A Call of Fire|QID|1524|M|55.86,19.94|Z|1413; The Barrens|N|From Kranal Fiss.|PRE|2983|R|Tauren|C|Shaman|
 R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|Z|Durotar|CC|N|Follow the hidden path here upwards.|R|Tauren|C|Shaman|
 T Call of Fire|QID|1524|M|38.52,58.92|Z|Durotar|N|To Telf Joolam.|R|Tauren|C|Shaman|
 A Call of Fire|QID|1525|M|38.52,58.92|Z|Durotar|N|From Telf Joolam.|PRE|1524|R|Tauren|C|Shaman|
-R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
-K Razormane Spellcasters|M|57.04,23.08|Z|The Barrens|L|5026|N|Make your way to Thorn Hill (SW of Far Watch Outpost). Kill Razormane Geomancers, Thornweavers, Water Seekers, or Mystics until you loot the Tar Fire.|R|Tauren|C|Shaman|
+R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|1413; The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
+K Razormane Spellcasters|M|57.04,23.08|Z|1413; The Barrens|L|5026|N|Make your way to Thorn Hill (SW of Far Watch Outpost). Kill Razormane Geomancers, Thornweavers, Water Seekers, or Mystics until you loot the Tar Fire.|R|Tauren|C|Shaman|
 R Dustwind Cave|ACTIVE|1525|M|50.63,43.97;54.14,40.68|CS|Z|Durotar|N|Make your way to Razor Hill. Cut through and exit out the east gate. Go up the hill and follow the ridge north to the cave entrance. The Burning Blade Cultists are inside.|R|Tauren|C|Shaman|
 K Burning Blade Cultist|ACTIVE|1525|L|6652|N|Kill the Cultists until you loot the Reagent Pouch.|R|Tauren|C|Shaman|
 A Conscript of the Horde|QID|840|M|50.84,43.59|Z|Durotar|N|From Takrin Pathseeker. We pick this up because its on the way and free XP.|R|Tauren|C|Shaman|
 T Call of Fire|QID|1525|M|38.52,58.92|Z|Durotar|N|Make your way back to Telf Joolam.|R|Tauren|C|Shaman|
-R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
+R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|1413; The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
 T Conscript of the Horde|QID|840|M|62.26,19.37|N|To Kargal Battlescar.|R|Tauren|C|Shaman|
 A Crossroads Conscription|QID|842|M|62.26,19.37|N|From Kargal Battlescar.|PRE|840|R|Tauren|C|Shaman|
 ; ---
 
-R Easy way|AVAILABLE|445|M|61.89,19.17;62.87,8.60|Z|The Barrens|CC|N|From here, take the road north to the bend before Boulder Lode Mine.|
+R Easy way|AVAILABLE|445|M|61.89,19.17;62.87,8.60|Z|1413; The Barrens|CC|N|From here, take the road north to the bend before Boulder Lode Mine.|
 R Orgrimmar|AVAILABLE|445|M|36.17,23.14;45.54,12.08|Z|Durotar|CC|N|At this point, you can either take your chances with the level 15+ mobs and make a run straight north for the west entrance to Orgrimmar (not recommended), or cross the Southfury River and head for the south entrance. We will be crossing the river. Your best bet is to stick to the shoreline. Follow it north and then follow the mountain wall east to the entrance. The mobs in this area should be level 10ish.|
 f Orgrimmar|AVAILABLE|445|M|47.58,65.27;45.41,63.88|Z|Orgrimmar|CC|N|Get the FP from Doras at the top of the tower.|TAXI|-Orgrimmar|
 

@@ -38,9 +38,9 @@ A Jin'Zil's Forest Magic|QID|1058|M|74.54,97.94|N|From Witch Doctor Jin'Zil.|
 
 ; --- The Barrens
 R The Barrens|ACTIVE|1062|M|72.95,93.74;83.53,97.88|CC|N|Exit Malaka'jin by taking the 'shortcut' along the canyon wall south to The Barrens border.|
-T Goblin Invaders|QID|1062|M|35.26,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
-A The Elder Crone|QID|1063|M|35.26,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
-A Shredding Machines|QID|1068|M|35.26,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
+T Goblin Invaders|QID|1062|M|35.26,27.88|Z|1413; The Barrens|N|To Seereth Stonebreak.|
+A The Elder Crone|QID|1063|M|35.26,27.88|Z|1413; The Barrens|N|From Seereth Stonebreak.|PRE|1062|
+A Shredding Machines|QID|1068|M|35.26,27.88|Z|1413; The Barrens|N|From Seereth Stonebreak.|PRE|1062|
 H Sun Rock Retreat|ACTIVE|6421^6284|M|49.51,61.02|N|Hearth back to Sun Rock Retreat.|
 T Arachnophobia|QID|6284|M|47.20,61.16|N|To Maggran Earthbinder.|
 T Boulderslide Ravine|QID|6421|M|47.22,64.05|N|To Mor'rogal at his camp in the hills overlooking Sun Rock.|
@@ -184,22 +184,22 @@ A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|Thunder Bluff|N|From Apoth
 
 ; --- The Barrens
 F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|Thunder Bluff|
-T Further Instructions|QID|1094|M|62.98,37.18|Z|The Barrens|N|To Sputtervalve.|
-A Further Instructions|QID|1095|M|62.98,37.18|Z|The Barrens|N|From Sputtervalve.|PRE|1094|
-T Mahren Skyseer|QID|874|M|65.84,43.86|Z|The Barrens|N|To Mahren Skyseer at The Tidus Stair.\nYou can either swim there, or follow the road. Running along the shoreline will take longer because the shore isn't a straight line and you'll end up swimming at several points along the way.|
-A Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|From Mahren Skyseer.|PRE|874|
-K Isha Awak|ACTIVE|873|M|65.39,46.91;63.56,53.93|Z|The Barrens|CC|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
-T Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|Choosing your own path of travel, make your way back to Mahren Skyseer.|
+T Further Instructions|QID|1094|M|62.98,37.18|Z|1413; The Barrens|N|To Sputtervalve.|
+A Further Instructions|QID|1095|M|62.98,37.18|Z|1413; The Barrens|N|From Sputtervalve.|PRE|1094|
+T Mahren Skyseer|QID|874|M|65.84,43.86|Z|1413; The Barrens|N|To Mahren Skyseer at The Tidus Stair.\nYou can either swim there, or follow the road. Running along the shoreline will take longer because the shore isn't a straight line and you'll end up swimming at several points along the way.|
+A Isha Awak|QID|873|M|65.84,43.86|Z|1413; The Barrens|N|From Mahren Skyseer.|PRE|874|
+K Isha Awak|ACTIVE|873|M|65.39,46.91;63.56,53.93|Z|1413; The Barrens|CC|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
+T Isha Awak|QID|873|M|65.84,43.86|Z|1413; The Barrens|N|Choosing your own path of travel, make your way back to Mahren Skyseer.|
 N Booty Bay|ACTIVE|6571|N|Before returning to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.|
 
 ; --- Booty Bay
-b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|The Barrens|L|16745|N|Take the boat to Booty Bay.|
-C Warsong Supplies|QID|6571|M|26.46,73.38|Z|Stranglethorn Vale|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.\nDo this quick enough and you won't have to wait for the next boat to go back.|
-f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|Stranglethorn Vale|N|Since you are here go grab the Flight Path, So head up to Gringer who's standing just outside the Inn balcony.|TAXI|-Booty Bay|
-b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
+b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|1413; The Barrens|L|16745|N|Take the boat to Booty Bay.|
+C Warsong Supplies|QID|6571|M|26.46,73.38|Z|1434; Stranglethorn Vale|L|16745|N|You'll find the crate at the back of the first stack of cargo on the dock.\nDo this quick enough and you won't have to wait for the next boat to go back.|
+f Booty Bay|ACTIVE|6571|M|26.87,77.09|Z|1434; Stranglethorn Vale|N|Since you are here go grab the Flight Path, So head up to Gringer who's standing just outside the Inn balcony.|TAXI|-Booty Bay|
+b Ratchet|ACTIVE|6571|M|25.80,73.10|Z|1434; Stranglethorn Vale|N|Take the boat to Ratchet.|
 
 ; --- Stonetalon Mountains
-F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|The Barrens|
+F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|1413; The Barrens|
 R Windshear Crag|QID|1068|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
 T Further Instructions|QID|1095|M|58.99,62.60|N|Make your way to Ziz Fizziks' hut and turn in the quest.|
 A Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.60|N|From Ziz Fizziks.|PRE|1095|
@@ -217,7 +217,7 @@ R Boulderslide Cavern|ACTIVE|6481|M|61.98,93.16|N|Make your way to the cave entr
 C Earthen Arise|QID|6481|M|57.67,89.48|N|Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc.\n[color=FF0000]NOTE: [/color]Make sure you clear the mobs in the area first.|
 R Webwinder Path|ACTIVE|1068|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make your way back to the road.|
 R The Barrens|ACTIVE|1068|M|67.74,86.66;83.51,97.14|CC|N|Follow the road to the south to the Barrens border.|
-T Shredding Machines|QID|1068|M|35.27,27.86|Z|The Barrens|N|To Seereth Stonebreak.|
+T Shredding Machines|QID|1068|M|35.27,27.86|Z|1413; The Barrens|N|To Seereth Stonebreak.|
 R Sun Rock Retreat|AVAILABLE|6301|M|49.58,60.99|N|Make your way back to Sun Rock Retreat.|
 A Cycle of Rebirth|QID|6301|M|47.43,58.46|N|From Tammra Windfield.|
 R Mirkfallon Lake|ACTIVE|6301|M|50.79,59.98;49.20,43.39|CC|N|Leave Sun Rock retreat and follow the road north to Mirkfallon Lake.|
@@ -319,11 +319,11 @@ T Elixir of Agony|QID|513|M|48.68,69.25|Z|Undercity|N|To Master Apothecary Faran
 ; --- The Barrens
 H Orgrimmar|QID|868|N|If you have nothing further to do, hearth back to Orgrimmar.|
 F Crossroads|QID|868|M|45.50,63.84|Z|Orgrimmar|
-A Egg Hunt|QID|868|M|51.09,29.60|Z|The Barrens|N|From Korran.|
-F Camp Taurajo|QID|868|M|51.50,30.33|Z|The Barrens|
-A Betrayal from Within|QID|879|M|44.55,59.23|Z|The Barrens|N|From Mangletooth.|
-A Weapons of Choice|QID|893|M|45.10,57.69|Z|The Barrens|N|From Tatternack Steelforge.|
-R Field of Giants|ACTIVE|868|M|46.13,69.67|CC|Z|The Barrens|
+A Egg Hunt|QID|868|M|51.09,29.60|Z|1413; The Barrens|N|From Korran.|
+F Camp Taurajo|QID|868|M|51.50,30.33|Z|1413; The Barrens|
+A Betrayal from Within|QID|879|M|44.55,59.23|Z|1413; The Barrens|N|From Mangletooth.|
+A Weapons of Choice|QID|893|M|45.10,57.69|Z|1413; The Barrens|N|From Tatternack Steelforge.|
+R Field of Giants|ACTIVE|868|M|46.13,69.67|CC|Z|1413; The Barrens|
 ; --- Jorn Skyseer's kill quests
 A Owatanka|QID|884|U|5102|N|Right-click on Owatanka's Tailspike to accept the quest.|O|
 A Lakota'mani|QID|883|U|5099|N|Right-click on Hoof of Lakota'mani to accept the quest.|O|
@@ -332,44 +332,44 @@ A Washte Pawne|QID|885|U|5103|N|Right-click on Washte Pawne's Feather to accept 
 ; ---
 C Egg Hunt|QID|868|L|5058 12|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
 N The Harvester|AVAILABLE|897|N|Have a quick look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills and probably the hardest to find.\nManually check this step off once you've killed it or given up waiting.|
-A Gann's Reclamation|QID|843|M|46.11,81.23|Z|The Barrens|N|From Gann Stonespire. You may find him sooner walking along on Southern Gold Road. This is the furthest south he travels.|
+A Gann's Reclamation|QID|843|M|46.11,81.23|Z|1413; The Barrens|N|From Gann Stonespire. You may find him sooner walking along on Southern Gold Road. This is the furthest south he travels.|
 C Razormane Pathfinder/Stalker|QID|893|L|5093|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|S|
 C Razormane Warfrenzy|QID|893|L|5094|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|S|
 C Razormane Seer|QID|893|L|5092|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|S|
-K Kuz|ACTIVE|879|M|44.71,80.48|Z|The Barrens|CC|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|T|Kuz|
-K Lok Orcbane|ACTIVE|879|M|40.13,80.69|Z|The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|T|Lok Orcbane|
-K Nak|ACTIVE|879|M|43.96,83.44|Z|The Barrens|QO|2|U|5103|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|T|Nak|
+K Kuz|ACTIVE|879|M|44.71,80.48|Z|1413; The Barrens|CC|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|T|Kuz|
+K Lok Orcbane|ACTIVE|879|M|40.13,80.69|Z|1413; The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|T|Lok Orcbane|
+K Nak|ACTIVE|879|M|43.96,83.44|Z|1413; The Barrens|QO|2|U|5103|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|T|Nak|
 C Charred Razormane Wand|QID|893|QO|2|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|US|
 C Razormane War Shield|QID|893|QO|3|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|US|
 C Razormane Backstabber|QID|893|QO|1|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|US|
 N Washte Pawne|AVAILABLE|885|N|Before leaving the area, have a look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills.\nManually check this step off once you've killed it or given up waiting.\n[color=FF0000]NOTE: [/color]This mob is tameable and therefore, be respectful of Hunters who may be in the area looking for it.|RARE|
-R Bael Modan|QID|843|M|46.35,85.00|Z|The Barrens|N|Simply, just run across the road.|
+R Bael Modan|QID|843|M|46.35,85.00|Z|1413; The Barrens|N|Simply, just run across the road.|
 C Gann's Reclamation|QID|843|QO|1;2|N|Kill Bael'dun Excavators and Foremen.|S|
-K Prospector Khazgorm|ACTIVE|843|M|47.84,85.53|Z|The Barrens|L|5006|N|Kill Prospector Khazgorm and loot his Journal. He's in the center at the bottom of the dig site.|T|Prospector Khazgorm|
+K Prospector Khazgorm|ACTIVE|843|M|47.84,85.53|Z|1413; The Barrens|L|5006|N|Kill Prospector Khazgorm and loot his Journal. He's in the center at the bottom of the dig site.|T|Prospector Khazgorm|
 C Gann's Reclamation|QID|843|QO|1;2|N|Finish killing Bael'dun Excavators and Foremen.|US|
-T Gann's Reclamation|QID|843|M|46.11,81.22;46.14,75.39|Z|The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
+T Gann's Reclamation|QID|843|M|46.11,81.22;46.14,75.39|Z|1413; The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
 A Revenge of Gann|QID|846|N|From Gann Stonespire.|PRE|843|
-R Bael'dun Keep|ACTIVE|846|M|48.70,84.52|Z|The Barrens|N|Before the dig site, at the top of the hill.|
+R Bael'dun Keep|ACTIVE|846|M|48.70,84.52|Z|1413; The Barrens|N|Before the dig site, at the top of the hill.|
 C Revenge of Gann|QID|846|QO|1;2;3|N|Kill Bael'dun Soldiers/Riflemen/Officers to collect vials of Nitroglycerin, bundles of Wood Pulp, and samples of Sodium Nitrate.|
-T Revenge of Gann|QID|846|M|46.11,81.22;46.14,75.39|Z|The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
+T Revenge of Gann|QID|846|M|46.11,81.22;46.14,75.39|Z|1413; The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
 A Revenge of Gann|QID|849|N|From Gann Stonespire.|PRE|846|
-R Bael Modan|ACTIVE|849|M|46.35,85.00|Z|The Barrens|
-C Revenge of Gann|QID|849|M|47.00,85.58|Z|The Barrens|QO|1|N|Destroy the flying machine at Bael Modan. It's on the tower as you go down the ramp into the quarry.|
-T Revenge of Gann|QID|849|M|46.11,81.22;46.14,75.39|Z|The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
+R Bael Modan|ACTIVE|849|M|46.35,85.00|Z|1413; The Barrens|
+C Revenge of Gann|QID|849|M|47.00,85.58|Z|1413; The Barrens|QO|1|N|Destroy the flying machine at Bael Modan. It's on the tower as you go down the ramp into the quarry.|
+T Revenge of Gann|QID|849|M|46.11,81.22;46.14,75.39|Z|1413; The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
 A Revenge of Gann|QID|849|N|From Gann Stonespire.|
 N 3 rare quest mobs|AVAILABLE|884^885^897|N|You are now going to head back to Camp Taurajo. As you make your way back to Camp Taurajo, keep an eye out for Jorn Skyseer's rare quest kills. Do not go out of your way to find them.|
-R Camp Taurajo|QID|885|M|44.76,58.68|Z|The Barrens|
-T Weapons of Choice|QID|893|M|45.10,57.73|Z|The Barrens|N|To Tatternack Steelforge.|
-T Washte Pawne|QID|885|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T Owatanka|QID|884|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T The Harvester|QID|897|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-T Betrayal from Within|QID|879|M|44.55,59.23|Z|The Barrens|N|To Mangletooth.|
-A Betrayal from Within|QID|906|M|44.55,59.23|Z|The Barrens|N|From Mangletooth.|PRE|879|
-F Crossroads|ACTIVE|868|M|44.46,59.14|Z|The Barrens|
-T Egg Hunt|QID|868|M|51.10,29.63|Z|The Barrens|N|To Korran.|
+R Camp Taurajo|QID|885|M|44.76,58.68|Z|1413; The Barrens|
+T Weapons of Choice|QID|893|M|45.10,57.73|Z|1413; The Barrens|N|To Tatternack Steelforge.|
+T Washte Pawne|QID|885|M|44.87,59.09|Z|1413; The Barrens|N|To Jorn Skyseer.|
+T Owatanka|QID|884|M|44.87,59.09|Z|1413; The Barrens|N|To Jorn Skyseer.|
+T The Harvester|QID|897|M|44.87,59.09|Z|1413; The Barrens|N|To Jorn Skyseer.|
+T Betrayal from Within|QID|879|M|44.55,59.23|Z|1413; The Barrens|N|To Mangletooth.|
+A Betrayal from Within|QID|906|M|44.55,59.23|Z|1413; The Barrens|N|From Mangletooth.|PRE|879|
+F Crossroads|ACTIVE|868|M|44.46,59.14|Z|1413; The Barrens|
+T Egg Hunt|QID|868|M|51.10,29.63|Z|1413; The Barrens|N|To Korran.|
 * Silithid Eggs|AVAILABLE|-868|U|5058|N|Destroy any Silithid eggs you have leftover.|
-T Betrayal from Within|QID|906|M|51.49,30.81|Z|The Barrens|N|To Thork.|
-F Orgrimmar|QID|567|M|51.50,30.33|Z|The Barrens|
+T Betrayal from Within|QID|906|M|51.49,30.81|Z|1413; The Barrens|N|To Thork.|
+F Orgrimmar|QID|567|M|51.50,30.33|Z|1413; The Barrens|
 N Deadly Blunderbuss|ACTIVE|6571|L|4369|N|Beg, borrow, or steal... Before leaving, make sure you bring one of these with you. \nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.|
 
 ; --- Ashenvale

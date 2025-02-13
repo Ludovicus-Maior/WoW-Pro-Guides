@@ -11,23 +11,23 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N Level Check: 50|M|PLAYER|N|You really do have to be level 50 to start this guide, the opening quests require you to be level 50 to even see them. If you're not quite there, you need to either grind it out or do the dungeon recommendations.|LVL|-50|
 N Quest Log|M|PLAYER|N|During this guide we will need 15 slots free in the quest log by the time we hit Un'Goro which is just a couple dozen steps away. I always try to keep it under 10 but it's just not possible this go around without having to double efforts.\n\nBy the end of this guide you will have 11 parts of chains that you can't simply drop without disrupting the flow of the guide. By chapter 4 they will quickly get wrapped up.|
-A Assisting Arch Druid Staghelm|QID|3790|M|18.15,51.44|Z|Ironforge|N|From Inkeeper Firebrew.\nYou either didn't follow chapter 2 or you abandonded/ignored this. This quest is just a breadcrumb and can be safely ignored unless you're already in Ironforge.|
-A Arcane Runes|QID|3449|M|30.95,4.84|Z|Ironforge|N|From Tymor. \nYou either didn't follow chapter 2 or you abandonded/ignored this. This quest will be required as it is part of our first leg of questing. Advise to travel to Ironforge and grab it if you haven't already.|PRE|3448|
-A An Easy Pickup|QID|3450|M|30.95,4.84|Z|Ironforge|N|From Tymor. This is tied to the Arcane Runes quest mentioned previously.|PRE|3448|
-T An Easy Pickup|QID|3450|M|70.86,94.54|Z|Ironforge|N|To Xiggs Fuselighter.|
-A Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|From Xiggs Fuselighter.|PRE|3450|
-T Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|To Xiggs Fuselighter.|
+A Assisting Arch Druid Staghelm|QID|3790|M|18.15,51.44|Z|1455; Ironforge|N|From Inkeeper Firebrew.\nYou either didn't follow chapter 2 or you abandonded/ignored this. This quest is just a breadcrumb and can be safely ignored unless you're already in Ironforge.|
+A Arcane Runes|QID|3449|M|30.95,4.84|Z|1455; Ironforge|N|From Tymor. \nYou either didn't follow chapter 2 or you abandonded/ignored this. This quest will be required as it is part of our first leg of questing. Advise to travel to Ironforge and grab it if you haven't already.|PRE|3448|
+A An Easy Pickup|QID|3450|M|30.95,4.84|Z|1455; Ironforge|N|From Tymor. This is tied to the Arcane Runes quest mentioned previously.|PRE|3448|
+T An Easy Pickup|QID|3450|M|70.86,94.54|Z|1455; Ironforge|N|To Xiggs Fuselighter.|
+A Signal for Pickup|QID|3451|M|70.86,94.54|Z|1455; Ironforge|N|From Xiggs Fuselighter.|PRE|3450|
+T Signal for Pickup|QID|3451|M|70.86,94.54|Z|1455; Ironforge|N|To Xiggs Fuselighter.|
 A Rise of the Silithid|QID|162|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.\nYou either didn't follow chapter 2 or you abandonded/ignored this. If you are seeing this that means you did the chain but skipped the follow-up. I would recommend grabbing this as it's worth quite a bit of experience for a simple hand-in.|PRE|113|
 
-R Darnassus|QID|3449|M|55.92,89.66|Z|Teldrassil|N|Make your way to Darnassus by whatever means.|
-B Mithril Casing|QID|4244|M|PLAYER|Z|Darnassus|N|Made by engineers, buy or make a Mithril Casing before you leave.|L|10561|ITEM|10561|
-B Portal: Darnassus|QID|3449|M|40.57,82.15|Z|Darnassus|N|[color=40C7EB]Mages:[/color]While you're here be sure to get your Portal:Darnassus. (Teleport as well if you haven't already)|LVL|51|C|Mage|SPELL|11419|
-T Rise of the Silithid|QID|162|M|41.82,85.63|Z|Darnassus|N|To Gracina Spiritmight.|
-A March of the Silithid|QID|4493|PRE|162|M|41.82,85.63|Z|Darnassus|N|From Gracina Spiritmight.|LVL|50|
-T Assisting Arch Druid Staghelm|QID|3790|M|35.31,8.94|Z|Darnassus|N|To Arch Druid Staghelm. Up on top of the tree.|
-A Un'Goro Soil|QID|3764|M|35.31,8.94|Z|Darnassus|N|From Arch Druid Staghelm. Up on top of the tree.|
+R Darnassus|QID|3449|M|55.92,89.66|Z|1438; Teldrassil|N|Make your way to Darnassus by whatever means.|
+B Mithril Casing|QID|4244|M|PLAYER|Z|1457; Darnassus|N|Made by engineers, buy or make a Mithril Casing before you leave.|L|10561|ITEM|10561|
+B Portal: Darnassus|QID|3449|M|40.57,82.15|Z|1457; Darnassus|N|[color=40C7EB]Mages:[/color]While you're here be sure to get your Portal:Darnassus. (Teleport as well if you haven't already)|LVL|51|C|Mage|SPELL|11419|
+T Rise of the Silithid|QID|162|M|41.82,85.63|Z|1457; Darnassus|N|To Gracina Spiritmight.|
+A March of the Silithid|QID|4493|PRE|162|M|41.82,85.63|Z|1457; Darnassus|N|From Gracina Spiritmight.|LVL|50|
+T Assisting Arch Druid Staghelm|QID|3790|M|35.31,8.94|Z|1457; Darnassus|N|To Arch Druid Staghelm. Up on top of the tree.|
+A Un'Goro Soil|QID|3764|M|35.31,8.94|Z|1457; Darnassus|N|From Arch Druid Staghelm. Up on top of the tree.|
 
-F Talrendis Point|QID|3449|M|58.39,94.01|Z|Teldrassil|N|Fly to Azshara.|
+F Talrendis Point|QID|3449|M|58.39,94.01|Z|1438; Teldrassil|N|Fly to Azshara.|
 A Spiritual Unrest|QID|5535|M|11.37,78.15|Z|1447; Azshara|N|From Loh'atu.|
 A A Land Filled with Hatred|QID|5536|M|11.37,78.15|Z|1447; Azshara|N|From Loh'atu.|
 C Spiritual Unrest|QID|5535|M|17.64,68.41|Z|1447; Azshara|N|Kill Apparition and Lichlings.|
@@ -140,24 +140,24 @@ T Super Sticky|QID|4504|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.|
 T Bungle in the Jungle|QID|4496|M|50.88,26.96|Z|Tanaris|N|To Alchemist Pestlezugg.|
 
 F Theramore|AVAILABLE|8460|M|51.01,29.34|Z|Tanaris|N|Head to Theramore.|
-b Menethil Harbor|QID|3461|M|71.56,56.38|Z|Dustwallow Marsh|N|Take Boat to the Wetlands.|
+b Menethil Harbor|QID|3461|M|71.56,56.38|Z|1445; Dustwallow Marsh|N|Take Boat to the Wetlands.|
 F Ironforge|QID|3461|M|9.49,59.69|Z|Wetlands|N|Fly to Ironforge.|
-T Return to Tymor|QID|3461|M|31.02,4.81|Z|Ironforge|N|To Tymor.|
-A A Little Slime Goes a Long Way|QID|4512|M|75.74,23.38|Z|Ironforge|N|From Laris Geardawdle.|
+T Return to Tymor|QID|3461|M|31.02,4.81|Z|1455; Ironforge|N|To Tymor.|
+A A Little Slime Goes a Long Way|QID|4512|M|75.74,23.38|Z|1455; Ironforge|N|From Laris Geardawdle.|
 
-F Menethil Harbor|QID|3764|M|55.54,47.75|Z|Ironforge|N|Fly back to the Wetlands.|
+F Menethil Harbor|QID|3764|M|55.54,47.75|Z|1455; Ironforge|N|Fly back to the Wetlands.|
 b Darkshore|QID|3764|M|4.59,57.13|Z|Wetlands|N|Sail to Darkshore.|
-F Rut'theran Village|QID|3764|M|36.34,45.58|Z|Darkshore|N|Fly to  Rut'theran Village and head to Darnassus.|
-R Darnassus|QID|3764|M|55.89,89.60|Z|Teldrassil|N|Run into the portal.|
-h Craftsmen's Terrace|QID|3764|M|67.41,15.66|Z|Darnassus|N|Set your Hearthstone at the Inn here. Seriously, unless you enjoy 15 minute long flights back from Gadgetzan.|
-T Un'Goro Soil|QID|3764|M|31.47,8.22|Z|Darnassus|N|To Jenal behind the tree.|
-A Morrowgrain Research|QID|3781|M|35.18,9.16|Z|Darnassus|N|From Arch Druid Staghelm. Up on top of the tree.|PRE|3764|
-T Morrowgrain Research|QID|3781|M|35.37,8.41|Z|Darnassus|N|To Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|
-A Morrowgrain Research|QID|3785|M|35.37,8.41|Z|Darnassus|N|From Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|PRE|3781|
-l Evergreen Herb Casing|QID|3785|M|PLAYER|Z|Darnassus|N|Using the Evergreen Pouch you combine Tharlendris Seeds with 2xUn'Goro Soil to make an herb casing which has a chance of containing some Morrowgrain.\n\nHerb Pouch is on a 10 minute cooldown so remember to use it frequently and open up the Herb Casings. More seeds can be purchased from Mathrengyl here.|U|11020|L|11024|
+F Rut'theran Village|QID|3764|M|36.34,45.58|Z|1439; Darkshore|N|Fly to  Rut'theran Village and head to Darnassus.|
+R Darnassus|QID|3764|M|55.89,89.60|Z|1438; Teldrassil|N|Run into the portal.|
+h Craftsmen's Terrace|QID|3764|M|67.41,15.66|Z|1457; Darnassus|N|Set your Hearthstone at the Inn here. Seriously, unless you enjoy 15 minute long flights back from Gadgetzan.|
+T Un'Goro Soil|QID|3764|M|31.47,8.22|Z|1457; Darnassus|N|To Jenal behind the tree.|
+A Morrowgrain Research|QID|3781|M|35.18,9.16|Z|1457; Darnassus|N|From Arch Druid Staghelm. Up on top of the tree.|PRE|3764|
+T Morrowgrain Research|QID|3781|M|35.37,8.41|Z|1457; Darnassus|N|To Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|
+A Morrowgrain Research|QID|3785|M|35.37,8.41|Z|1457; Darnassus|N|From Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|PRE|3781|
+l Evergreen Herb Casing|QID|3785|M|PLAYER|Z|1457; Darnassus|N|Using the Evergreen Pouch you combine Tharlendris Seeds with 2xUn'Goro Soil to make an herb casing which has a chance of containing some Morrowgrain.\n\nHerb Pouch is on a 10 minute cooldown so remember to use it frequently and open up the Herb Casings. More seeds can be purchased from Mathrengyl here.|U|11020|L|11024|
 
-R Rut'theran Village|AVAILABLE|8460|M|30.04,41.32|Z|Darnassus|N|Run back in the portal to Rut'theran Village.|
-F Astranaar|AVAILABLE|8460|M|58.39,94.01|Z|Teldrassil|N|Head to Ashenvale.|
+R Rut'theran Village|AVAILABLE|8460|M|30.04,41.32|Z|1457; Darnassus|N|Run back in the portal to Rut'theran Village.|
+F Astranaar|AVAILABLE|8460|M|58.39,94.01|Z|1438; Teldrassil|N|Head to Ashenvale.|
 R Felwood|AVAILABLE|8460|M|38.61,57.68;49.55,56.49;57.85,55.74;61.07,48.60;60.91,43.96;57.40,32.30;55.80,28.79|CC|Z|1440; Ashenvale|N|Make your way up to Felwood.|
 A Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|From Arathandris Silversky.|
 A Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|From Grazle.|
@@ -235,18 +235,18 @@ l Evoroot|QID|3909|M|44.51,9.82|Z|Feralas|N|Get exactly to the waypoint, get up 
 C The Videre Elixir|QID|3909|M|45.12,25.56|Z|Feralas|NC|N|Go back to Gregan Brewspewer and do his 'Videre Elixir' turn-in quest.|
 
 H Darnassus|QID|4512|M|PLAYER|Z|Feralas|N|Hearth or otherwise make your way back to Darnassus.|
-T Morrowgrain Research|QID|3785|M|35.37,8.41|Z|Darnassus|N|To Mathrengyl Bearwalker. On the 2nd level of the tree. If you don't have the 10 Morrowgrain go ahead and manually skip this.|
-C Felbound Ancients|QID|4441|M|39.23,84.93|Z|Darnassus|NC|N|Use the Vial in the Blessed Water from the Temple of the Moon.|U|11682|
+T Morrowgrain Research|QID|3785|M|35.37,8.41|Z|1457; Darnassus|N|To Mathrengyl Bearwalker. On the 2nd level of the tree. If you don't have the 10 Morrowgrain go ahead and manually skip this.|
+C Felbound Ancients|QID|4441|M|39.23,84.93|Z|1457; Darnassus|NC|N|Use the Vial in the Blessed Water from the Temple of the Moon.|U|11682|
 
-R Rut'theran Village|QID|4512|M|30.04,41.32|Z|Darnassus|N|Run through the portal into Rut'theran Village.|
-F Auberdine|QID|4512|M|58.39,94.01|Z|Teldrassil|N|Fly To Auberdine.|
-b Menethil Harbor|QID|4512|M|32.39,43.82|Z|Darkshore|N|Take the boat to Menethil Harbor.|
+R Rut'theran Village|QID|4512|M|30.04,41.32|Z|1457; Darnassus|N|Run through the portal into Rut'theran Village.|
+F Auberdine|QID|4512|M|58.39,94.01|Z|1438; Teldrassil|N|Fly To Auberdine.|
+b Menethil Harbor|QID|4512|M|32.39,43.82|Z|1439; Darkshore|N|Take the boat to Menethil Harbor.|
 F Ironforge|QID|4512|M|9.49,59.69|Z|Wetlands|N|Fly to Ironforge|
-h Ironforge|QID|4512|M|18.12,51.42|Z|Ironforge|N|Set your hearthstone to Ironforge.|
-A A Call to Arms: The Plaguelands!|QID|5090|M|47.11,50.29|Z|Ironforge|N|From Courier Hammerfall. He wanders around Ironforge, he can be pretty much anywhere.|
-T A Little Slime Goes a Long Way|QID|4512|M|75.74,23.38|Z|Ironforge|N|To Laris Geardawdle. Don't get follow-up for now.|
+h Ironforge|QID|4512|M|18.12,51.42|Z|1455; Ironforge|N|Set your hearthstone to Ironforge.|
+A A Call to Arms: The Plaguelands!|QID|5090|M|47.11,50.29|Z|1455; Ironforge|N|From Courier Hammerfall. He wanders around Ironforge, he can be pretty much anywhere.|
+T A Little Slime Goes a Long Way|QID|4512|M|75.74,23.38|Z|1455; Ironforge|N|To Laris Geardawdle. Don't get follow-up for now.|
 
-F Chillwind Camp|QID|5090|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
+F Chillwind Camp|QID|5090|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Western Plaguelands.|
 T A Call to Arms: The Plaguelands!|QID|5090|M|42.71,84.04|Z|Western Plaguelands|N|To Commander Ashlam Valorfist.|
 A Clear the Way|QID|5092|M|42.71,84.04|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5090|
 l Argent Dawn Comission|QID|5401|M|42.96,83.56|Z|Western Plaguelands|S|N|When you get this, be sure to equip it while in either of the Plaguelands, Scholomance and Stratholme so that you may collect scourgestones.|ITEM|12846|L|12846|
@@ -285,11 +285,11 @@ T Locked Away|QID|5060|M|47.37,49.65|Z|Western Plaguelands|N|To the Locked Cabin
 T Return to Chillwind Camp|QID|5220|M|42.96,84.50|Z|Western Plaguelands|N|To High Priestess MacDonnell.|
 
 H Ironforge|QID|5022|M|PLAYER|Z|Western Plaguelands|N|Hearth back to Ironforge.|
-A The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|N|From Royal Historian Archesonus.|
-C The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|CHAT|N|Chat with Royal Historian Archesonus.|
-T The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|Ironforge|N|To Royal Historian Archesonus.|
-A The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|Ironforge|N|From Royal Historian Archesonus.|PRE|3702|
-R Deeprun Tram|QID|5022|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+A The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|N|From Royal Historian Archesonus.|
+C The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|CHAT|N|Chat with Royal Historian Archesonus.|
+T The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|N|To Royal Historian Archesonus.|
+A The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|1455; Ironforge|N|From Royal Historian Archesonus.|PRE|3702|
+R Deeprun Tram|QID|5022|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|5022|N|Take the tram ride and then run into Stormwind.|
 T Better Late Than Never|QID|5022|M|48.47,30.56|Z|Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|
 A Good Natured Emma|QID|5048|M|48.47,30.56|Z|Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|PRE|5022|
@@ -298,7 +298,7 @@ A Good Luck Charm|QID|5050|M|60.2,57.0|Z|Stormwind City|N|From Ol' Emma.|PRE|504
 r Sell junk, repair, restock|QID|5220|N|Sell junk, repair, restock|
 
 F Lakeshire|QID|3823|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
-R Burning Steppes|QID|3823|M|46.43,6.34|Z|Redridge Mountains|N|Make your way to the Burning Steppes.|
+R Burning Steppes|QID|3823|M|46.43,6.34|Z|1433; Redridge Mountains|N|Make your way to the Burning Steppes.|
 f Morgan's Vigil|QID|3823|M|84.33,68.32|Z|Burning Steppes|N|Get the Flightpath from Borgus Stoutarm.|
 
 A Extinguish the Firegut|QID|3823|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
@@ -374,28 +374,28 @@ T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|To Helendis Riverh
 A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
 
 F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4183|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4184|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
-F Stormwind|QID|4184|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Stormwind.|
+T The True Masters|QID|4183|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A The True Masters|QID|4184|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
+F Stormwind|QID|4184|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
 T The True Masters|QID|4184|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
 A The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
 C The True Masters|QID|4185|M|78.12,17.76|Z|Stormwind City|CHAT|N|Speak with Lady Prestor.|
 T The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
 A The True Masters|QID|4186|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
 F Lakeshire|QID|4186|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
-T The True Masters|QID|4186|M|29.98,44.46|Z|Redridge Mountains|N|To Magistrate Solomon.|
-A The True Masters|QID|4223|M|29.98,44.46|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
-F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Burning Steppes.|
+T The True Masters|QID|4186|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
+A The True Masters|QID|4223|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
+F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
 T The True Masters|QID|4223|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
 A The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
 C The True Masters|QID|4224|M|65.02,23.74|Z|Burning Steppes|CHAT|N|Talk with Ragged John.|
 T The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Skip follow-up.|
 
 H Ironforge|QID|3701|M|PLAYER|Z|Burning Steppes|N|Hearth back to Ironforge. You could fly since you're right next to the flightmaster but we won't need a hearth in the next hour so save yourself some money.|
-T The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|Ironforge|N|To Royal Historian Archesonus.|
+T The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|1455; Ironforge|N|To Royal Historian Archesonus.|
 r City Stuff!|QID|5220|N|Train, Auctions, Professions, Stock up on mats, food/water, sell, repair. Take care of your business.|
 
-F Chillwind Camp|QID|5222|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
+F Chillwind Camp|QID|5222|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Western Plaguelands.|
 A All Along the Watchtowers|QID|5097|M|42.71,84.04|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5092|
 A Target: Writhing Haunt|QID|5222|M|42.96,84.50|Z|Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5220|
 C Tower One|QID|5097|M|40.04,71.73|Z|Western Plaguelands|QO|1|N|Use the Beacon's Torch right on the edge of the doorway, out of line of site from the elite.|U|12815|
@@ -447,24 +447,24 @@ T Return to Chillwind Camp|QID|5226|M|42.96,84.50|Z|Western Plaguelands|N|To Hig
 A Mission Accomplished!|QID|5237|M|42.71,84.04|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5226|
 T Mission Accomplished!|QID|5237|M|42.71,84.04|Z|Western Plaguelands|N|To Commander Ashlam Valorfist.|
 H Ironforge|QID|6761|M|PLAYER|Z|Western Plaguelands|N|Hearth or otherwise make your way back to Ironforge.|
-= City Stuff|QID|6761|Z|Ironforge|N|Train up and take care of your other city needs. Manually skip when you're ready to move on.|
-A The New Frontier|QID|1019|M|47.75,54.81|Z|Ironforge|N|From Courier Hammerfall. He roams around Everywhere in Ironforge.|T|Courier Hammerfall|
+= City Stuff|QID|6761|Z|1455; Ironforge|N|Train up and take care of your other city needs. Manually skip when you're ready to move on.|
+A The New Frontier|QID|1019|M|47.75,54.81|Z|1455; Ironforge|N|From Courier Hammerfall. He roams around Everywhere in Ironforge.|T|Courier Hammerfall|
 
-F Menethil Harbor|QID|6761|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|
+F Menethil Harbor|QID|6761|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Menethil Harbor.|
 b Darkshore|QID|6761|M|4.59,57.13|Z|Wetlands|N|Take the boat to Darkshore.|
-F Rut'theran Village|QID|6761|M|36.34,45.58|Z|Darkshore|N|Fly to  Rut'theran Village and head to Darnassus.|
-R Darnassus|QID|6761|M|55.89,89.60|Z|Teldrassil|N|Run into the portal.|
-T Prayer to Elune|QID|3378|M|38.33,80.92|Z|Darnassus|N|To Astarii Starseeker.|
-T The New Frontier|QID|1019|M|35.31,8.94|Z|Darnassus|N|To Arch Druid Staghelm. Up on top of the tree.|
-A The New Frontier|QID|6761|M|35.31,8.94|Z|Darnassus|N|From Arch Druid Staghelm. Up on top of the tree.|PRE|1015^1019^1047|
-T Glyphed Oaken Branch|QID|4986|M|35.37,8.41|Z|Darnassus|N|To Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|
-T The New Frontier|QID|6761|M|35.37,8.41|Z|Darnassus|N|To Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|
-A Rabine Saturna|QID|6762|M|35.37,8.41|Z|Darnassus|N|From Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|PRE|6761|
+F Rut'theran Village|QID|6761|M|36.34,45.58|Z|1439; Darkshore|N|Fly to  Rut'theran Village and head to Darnassus.|
+R Darnassus|QID|6761|M|55.89,89.60|Z|1438; Teldrassil|N|Run into the portal.|
+T Prayer to Elune|QID|3378|M|38.33,80.92|Z|1457; Darnassus|N|To Astarii Starseeker.|
+T The New Frontier|QID|1019|M|35.31,8.94|Z|1457; Darnassus|N|To Arch Druid Staghelm. Up on top of the tree.|
+A The New Frontier|QID|6761|M|35.31,8.94|Z|1457; Darnassus|N|From Arch Druid Staghelm. Up on top of the tree.|PRE|1015^1019^1047|
+T Glyphed Oaken Branch|QID|4986|M|35.37,8.41|Z|1457; Darnassus|N|To Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|
+T The New Frontier|QID|6761|M|35.37,8.41|Z|1457; Darnassus|N|To Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|
+A Rabine Saturna|QID|6762|M|35.37,8.41|Z|1457; Darnassus|N|From Mathrengyl Bearwalker. Downstairs at the 2nd level of the tree.|PRE|6761|
 
-R Rut'theran Village|QID|6762|M|30.04,41.32|Z|Darnassus|N|Run through the portal into Rut'theran Village.|
-A Moontouched Wildkin|QID|978|M|55.50,92.05|Z|Teldrassil|N|From Erelas Ambersky.|PRE|3661|
-A Starfall|QID|5250|M|55.41,92.23|Z|Teldrassil|N|From Daryn Lightwind upstairs.|
-F Moonglade|QID|6762|M|58.39,94.01|Z|Teldrassil|N|Fly to Moonglade.|
+R Rut'theran Village|QID|6762|M|30.04,41.32|Z|1457; Darnassus|N|Run through the portal into Rut'theran Village.|
+A Moontouched Wildkin|QID|978|M|55.50,92.05|Z|1438; Teldrassil|N|From Erelas Ambersky.|PRE|3661|
+A Starfall|QID|5250|M|55.41,92.23|Z|1438; Teldrassil|N|From Daryn Lightwind upstairs.|
+F Moonglade|QID|6762|M|58.39,94.01|Z|1438; Teldrassil|N|Fly to Moonglade.|
 T Rabine Saturna|QID|6762|M|51.69,45.09|Z|Moonglade|N|To Rabine Saturna.|
 A Wasteland|QID|1124|M|51.69,45.09|Z|Moonglade|N|From Rabine Saturna.|PRE|6762|
 
@@ -519,10 +519,10 @@ A Duke Nicholas Zverenhoff|QID|6030|M|61.35,38.97|Z|Winterspring|N|From Gregor G
 A Sister Pamela|QID|5601|M|61.28,38.98|Z|Winterspring|N|From Jessica Redpath.|
 
 F Rut'theran Village|QID|978|M|62.33,36.61|Z|Winterspring|N|Fly to Rut'theran Village and head to Darnassus.|
-T Moontouched Wildkin|QID|978|M|55.50,92.05|Z|Teldrassil|N|To Erelas Ambersky.|
-A Find Ranshalla|QID|979|M|55.50,92.05|Z|Teldrassil|N|From Erelas Ambersky.|PRE|978|
+T Moontouched Wildkin|QID|978|M|55.50,92.05|Z|1438; Teldrassil|N|To Erelas Ambersky.|
+A Find Ranshalla|QID|979|M|55.50,92.05|Z|1438; Teldrassil|N|From Erelas Ambersky.|PRE|978|
 
-F Gadgetzan|ACTIVE|3912|M|58.39,94.01|Z|Teldrassil|N|Fly to Gadgetzan. This is going to be a long flight, take a 10 minute break.|
+F Gadgetzan|ACTIVE|3912|M|58.39,94.01|Z|1438; Teldrassil|N|Fly to Gadgetzan. This is going to be a long flight, take a 10 minute break.|
 d Meet at the Grave|QID|3912|M|54.03,28.71|Z|Tanaris|N|Goto the Graveyard and take the potion|U|11243|
 T Meet at the Grave|QID|3912|M|54.03,23.34|Z|Tanaris|N|Remove the Graveyard Waypoint, or look at your map for directions. To Gaeriyan as a Ghost.|
 A A Grave Situation|QID|3913|M|54.03,23.34|Z|Tanaris|N|From Gaeriyan as a Ghost.|PRE|3912|
