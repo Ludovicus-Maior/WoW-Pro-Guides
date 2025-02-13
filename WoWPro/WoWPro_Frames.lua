@@ -608,3 +608,4 @@ WoWPro.Titlebar:SetScript("OnDoubleClick", function(this, button)
         WoWPro.AnchorStore("OnDoubleClick2")
     end
 end)
+end
