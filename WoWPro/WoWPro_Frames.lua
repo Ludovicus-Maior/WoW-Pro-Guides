@@ -548,15 +548,15 @@ function WoWPro:CreateTitleBar()
     titleicon:SetPoint("RIGHT", WoWPro.Titlebar, "RIGHT", -3, 0)
     titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
--- Tooltip --
-titleicon:HookScript("OnEnter", function(tool)
-    _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
-    _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
-    _G.GameTooltip:Show()
-end)
-titleicon:HookScript("OnLeave", function(tool)
-    _G.GameTooltip:Hide()
-end)
+    -- Tooltip --
+    titleicon:HookScript("OnEnter", function(tool)
+        _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+        _G.GameTooltip:Show()
+    end)
+    titleicon:HookScript("OnLeave", function(tool)
+        _G.GameTooltip:Hide()
+    end)
 
     -- Text --
     local titletext = WoWPro.Titlebar:CreateFontString()
