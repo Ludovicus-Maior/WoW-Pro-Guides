@@ -406,7 +406,7 @@ T Raene's Cleansing|QID|1046|M|36.6,49.6|N|To Raene Wolfrunner.|Z|Ashenvale|
 F Talrendis Point|ACTIVE|1032|M|34.40,48.00|N|Fly to Talrendis Point|Z|Ashenvale|
 C Satyr Slaying!|QID|1032|M|80,50|Z|Ashenvale|N|Kill Satyr in Satynaar|
 F Astranaar|ACTIVE|1032|M|11.90,77.59|Z|Azshara|N|Fly back to Astranaar.|
-T Satyr Slaying!|QID|1032|M|21.74,53.35|N|To Illiyana.|
+T Satyr Slaying!|QID|1032|M|21.74,53.35|Z|Ashenvale|N|To Illiyana.|
 T The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|1140|
 
