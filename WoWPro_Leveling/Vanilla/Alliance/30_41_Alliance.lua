@@ -40,7 +40,7 @@ A Lieutenant Paval Reethe|QID|1252|M|29.83,48.24|Z|1445; Dustwallow Marsh|N|A ve
 A The Black Shield|QID|1253|M|29.63,48.59|Z|1445; Dustwallow Marsh|N|Above the fireplace. It has about a 5 minute respwn timer if someone else needs it too.|
 
 R Southern Barrens|AVAILABLE|1100|M|29.05,48.72|Z|1445; Dustwallow Marsh|N|And into the Barrens.|
-R Thousand Needles|AVAILABLE|1100|M|32.23,20.63|Z|1413; The Barrens|N|Head southwest toward Thousand Needles. Run past the guard at the great lift and take the lift down.|
+R Thousand Needles|AVAILABLE|1100|M|32.23,20.63|Z|1441; Thousand Needles|N|Head southwest toward Thousand Needles. Run past the guard at the great lift and take the lift down.|
 l Henrig Lonebrow's Journal|AVAILABLE|1100|M|30.72,24.34|Z|1441; Thousand Needles|L|5791|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got ~3 minute respawn timer, if someone else needs it too.|
 A Lonebrow's Journal|QID|1100|M|PLAYER|CC|N|Use the journal to start the quest.|U|5791|O|
 R Thalanaar|ACTIVE|1100|M|89.50,45.85|Z|1444; Feralas|N|Head westwardly to Thalanaar at the Feralas border.\n[color=FF0000]NOTE: [/color]If you follow the road, you'll get there safer and avoid the Centaur camps.|

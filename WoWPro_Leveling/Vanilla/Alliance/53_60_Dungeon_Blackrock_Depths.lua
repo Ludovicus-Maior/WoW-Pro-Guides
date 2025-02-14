@@ -67,12 +67,12 @@ F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redri
 T The True Masters|QID|4183|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A The True Masters|QID|4184|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
 F Stormwind|QID|4184|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
-T The True Masters|QID|4184|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
-C The True Masters|QID|4185|M|78.12,17.76|Z|Stormwind City|CHAT|N|Speak with Lady Prestor.|
-T The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The True Masters|QID|4186|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
-F Lakeshire|QID|4186|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
+T The True Masters|QID|4184|M|78.22,17.97|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
+A The True Masters|QID|4185|M|78.22,17.97|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
+C The True Masters|QID|4185|M|78.12,17.76|Z|1453; Stormwind City|CHAT|N|Speak with Lady Prestor.|
+T The True Masters|QID|4185|M|78.22,17.97|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
+A The True Masters|QID|4186|M|78.22,17.97|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
+F Lakeshire|QID|4186|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge.|
 T The True Masters|QID|4186|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A The True Masters|QID|4223|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
 
@@ -198,11 +198,11 @@ T Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|To Jalinda Sprig.|
 T Jail Break!|QID|4322|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell in Burning Steppes.|
 A Stormwind Rendezvous|QID|6402|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell|PRE|4322|
 F Stormwind|ACTIVE|6402|N|Fly to Stormwind.|
-C Stormwind Rendezvous|QID|6402|M|70.42,85.17|Z|Stormwind City|CHAT|N|Speak with Squire Rowe.|
-T Stormwind Rendezvous|QID|6402|M|70.8,88.6|Z|Stormwind City|N|To Reginald Windsor.|
-A The Great Masquerade|QID|6403|M|70.8,88.6|Z|Stormwind City|N|From Reginald Windsor.|PRE|6402|
-C The Great Masquerade|QID|6403|M|78.22,17.97|Z|Stormwind City|N|March with Windsor to Stormwind Keep and confront Prestor.|
-T The Great Masquerade|QID|6403|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The Dragon's Eye|QID|6501|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|6403|
+C Stormwind Rendezvous|QID|6402|M|70.42,85.17|Z|1453; Stormwind City|CHAT|N|Speak with Squire Rowe.|
+T Stormwind Rendezvous|QID|6402|M|70.8,88.6|Z|1453; Stormwind City|N|To Reginald Windsor.|
+A The Great Masquerade|QID|6403|M|70.8,88.6|Z|1453; Stormwind City|N|From Reginald Windsor.|PRE|6402|
+C The Great Masquerade|QID|6403|M|78.22,17.97|Z|1453; Stormwind City|N|March with Windsor to Stormwind Keep and confront Prestor.|
+T The Great Masquerade|QID|6403|M|78.22,17.97|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
+A The Dragon's Eye|QID|6501|M|78.22,17.97|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|6403|
 ]]
 end)

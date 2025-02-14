@@ -13,7 +13,7 @@ return [[
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 45.|L|3825 2|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
 B Silk Cloth|QID|4449|N|You shouldn't need to buy these, but a reminder to keep 15 of them handy once you're in the level 46-47 range.|L|4306 15|ITEM|4306|
-F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|
+F Booty Bay|QID|595|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|
 t Back to Booty Bay|QID|1118|M|27.12,77.21|N|To Crank Fizzlebub.|
 A Venture Company Mining|QID|600|M|27.12,77.21|N|From Crank Fizzlebub.|PRE|605|
 A Zanzil's Secret|QID|621|M|27.12,77.21|N|From Crank Fizzlebub.|
@@ -58,9 +58,9 @@ T Up to Snuff|QID|587|M|26.92,77.34|N|To Deeg. Top floor of the Inn.|
 T The Bloodsail Buccaneers|QID|604|M|27.17,77.01|N|To Fleet Master Seahorn.  Skip follow-up for now.|
 
 F Stormwind|AVAILABLE|212|M|27.53,77.78|N|Fly to stormwind. Get ready for a timed quest.|
-h Stormwind City|AVAILABLE|212|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here if it's not already, seriously do it, we're about to take a timed quest.|
-A A Meal Served Cold|QID|212|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern. Once you start this, you will have 30 minutes to complete it. \n\nGet anything done in town that you need to do before you start.|
-F Darkshire|ACTIVE|212|M|66.2,62.4|Z|Stormwind City|N|Fly to Darkshire at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
+h Stormwind City|AVAILABLE|212|M|52.62,65.67|Z|1453; Stormwind City|N|Set your hearthstone here if it's not already, seriously do it, we're about to take a timed quest.|
+A A Meal Served Cold|QID|212|M|41.50,89.39|Z|1453; Stormwind City|N|From Angus Stern. Once you start this, you will have 30 minutes to complete it. \n\nGet anything done in town that you need to do before you start.|
+F Darkshire|ACTIVE|212|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Darkshire at Dungar Longdrink. You should have about 28 minutes left if you are running by foot when you get here.|
 R Rebel Camp|QID|205|M|37.8,3.4|N|Run to the Rebel camp. You should arrive to Brother Nimetz with 22 minutes to spare.|PRE|207|
 A Troll Witchery|QID|205|M|37.83,3.56|N|From Brother Nimetz.|PRE|207|
 R Nesingwary's Expedition|QID|196||M|35.66,10.81|N|Head to Nesingwary's Camp. You should arive with 20.5 minutes to spare|
@@ -69,10 +69,10 @@ C Raptor Mastery|QID|196|M|32.80,40.30|S|N|Kill Jungle Stalkers near this locati
 C Feast Meal Served Cold|QID|212|M|32.80,40.30|N|Kill the Cold Eye Basilisks until you get the haunch. You should arrive to the area with about 17.5 minutes to spare giving you about 15 minutes.|
 C Raptor Mastery|QID|196|M|32.80,40.30|US|N|Kill Jungle Stalkers near this location.\n\nIf you get to less than 3 minutes I would skip this and we can catch the rest on the way back up next time.|
 H Stormwind City|ACTIVE|212|M|PLAYER|N|Hearth or otherwise make your way back to Stormwind before time time runs out.|
-T A Meal Served Cold|QID|212|M|41.50,89.39|Z|Stormwind City|N|To Angus Stern.|
+T A Meal Served Cold|QID|212|M|41.50,89.39|Z|1453; Stormwind City|N|To Angus Stern.|
 N Green Hills of Stranglethorn|QID|338|M|26.60,76.37|Z|1434; Stranglethorn Vale|N|We are about to have our last trip to nesingwary so now is the time to make sure you have everything to finish it up.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
 
-F Booty Bay|QID|600|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|PRE|212|
+F Booty Bay|QID|600|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|PRE|212|
 h Booty Bay|QID|600|M|27.00,77.30|N|Make Booty Bay your home location.|
 C Venture Company Mining|QID|600|M|41.00,43.60|N|Kill Venture Co. Mobs until you get the 10 Singing Blue Crystals for this quest.|
 R Ziata'jai Ruins|ACTIVE|209|M|42,36|N|Go East to Ziata'Jai ruins.|
@@ -112,11 +112,11 @@ T Sweet Amber|QID|48|M|44.62,80.25|Z|1436; Westfall|N|To Grimbooze Thunderbrew.|
 A Sweet Amber|QID|49|M|44.62,80.25|Z|1436; Westfall|N|From Grimbooze Thunderbrew|PRE|48|
 
 F Stormwind|QID|1449|M|56.56,52.65|Z|1436; Westfall|N|At Thor.|
-h Stormwind City|QID|1449|M|52.62,65.67|Z|Stormwind City|N|Set your hearthstone here. And keep it here until otherwise stated in the guide.|
+h Stormwind City|QID|1449|M|52.62,65.67|Z|1453; Stormwind City|N|Set your hearthstone here. And keep it here until otherwise stated in the guide.|
 B Truesilver Bar|QID|49|N|Make sure you buy or make yourself a Truesilver Bar soon.|L|6037|ITEM|6037|
-A To The Hinterlands|QID|1449|M|64.33,20.62|Z|Stormwind City|N|From Brohann Caskbelly.|PRE|1448|
+A To The Hinterlands|QID|1449|M|64.33,20.62|Z|1453; Stormwind City|N|From Brohann Caskbelly.|PRE|1448|
 N Dungeon Interlude|QID|1449|N|If you want to do Uldaman now is a good time. Check this step off manually.|
-R Deeprun Tram|QID|1449|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
+R Deeprun Tram|QID|1449|M|63.85,8.19|Z|1453; Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1449|N|Take the tram ride and then run into Ironforge.|
 F Southshore|QID|1449|M|55.50,47.76|Z|1455; Ironforge|N|Flight to Hillsbrad Foothills.|
 R The Hinterlands|QID|1449|M|86.10,30.06;90.01,25.00|CC|Z|Hillsbrad Foothills|N|Run behind Durnholde and follow the valley ahead.|
@@ -149,8 +149,8 @@ C Death From Below|QID|667|M|32.09,80.70|Z|Arathi Highlands|N|Run up the ramp an
 T Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
 
 H Stormwind City|QID|49|M|PLAYER|N|Hearth or otherwise make your way back to Stormwind before time time runs out.|
-A Vital Supplies|QID|1477|M|37.52,81.66|Z|Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage Quarter.|
-F Darkshire|ACTIVE|1477|M|66.29,62.13|Z|Stormwind City|N|At Dungar Longdrink.|
+A Vital Supplies|QID|1477|M|37.52,81.66|Z|1453; Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage Quarter.|
+F Darkshire|ACTIVE|1477|M|66.29,62.13|Z|1453; Stormwind City|N|At Dungar Longdrink.|
 T Vital Supplies|QID|1477|M|75.8,46.2|Z|1431; Duskwood|N|To Watchmaster Sorigal.|
 A Supplies for Nethergarde|QID|1395|M|75.8,46.2|Z|1431; Duskwood|N|From Watchmaster Sorigal.|PRE|1477|
 F Nethergarde Keep|QID|49|M|77.50,44.30|Z|1431; Duskwood|N|Fly to Nethergarde Keep.|
@@ -225,9 +225,9 @@ R Gadgetzan|ACTIVE|1691|M|52.5,28.5|Z|Tanaris|N|Ride west to Gadgetzan. When you
 T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 H Stormwind City|QID|49|M|PLAYER|Z|Tanaris|N|Hearth back to Stormwind. You didn't set it here right? If you did then make it back the old fashioned way.|
-r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
+r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|1453; Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
-F Sentinel Hill|QID|49|M|66.2,62.4|Z|Stormwind City|N|Fly to Sentinel Hill in Westfall.|
+F Sentinel Hill|QID|49|M|66.2,62.4|Z|1453; Stormwind City|N|Fly to Sentinel Hill in Westfall.|
 R Sweet Amber|QID|49|M|52.56,72.21;44.6,80.2|CC|Z|1436; Westfall|N|Toward the mountain behind Deadmines.|
 T Sweet Amber|QID|49|M|44.62,80.25|Z|1436; Westfall|N|To Grimbooze Thunderbrew.|
 A Sweet Amber|QID|50|M|44.62,80.25|Z|1436; Westfall|N|From Grimbooze Thunderbrew|PRE|49|
@@ -375,9 +375,9 @@ A Cortello's Riddle|QID|625|M|22.87,48.19|Z|Swamp of Sorrows|N|From A Soggy Scro
 R Deadwind Pass|ACTIVE|625|M|60.00,41.20|Z|Deadwind Pass|N|Run to Duskwood through Deadwind Pass.|
 
 F Stormwind|QID|1452|M|77.48,44.29|Z|1431; Duskwood|N|Fly to Stormwind.|
-r Repair, Restock, Train|QID|1452|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get those elixers, we will need them on this next leg.|
+r Repair, Restock, Train|QID|1452|M|55.34,59.82|Z|1453; Stormwind City|N|Take care of your big city stuff, be sure to get those elixers, we will need them on this next leg.|
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude. You need these on you now.|L|3825 2|
-R Deeprun Tram|QID|1452|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
+R Deeprun Tram|QID|1452|M|63.85,8.19|Z|1453; Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1452|N|Take the tram ride and then run into Ironforge.|
 A The Brassbolts Brothers|QID|2769|M|67.91,46.07|Z|1455; Ironforge|N|From Klockmort Spannerspan.|
 A Passing the Burden|QID|3448|M|77.53,11.81|Z|1455; Ironforge|N|From Historian Karnik.|
@@ -532,10 +532,10 @@ A Seeing What Happens|QID|2946|M|77.53,11.82|Z|1455; Ironforge|N|From Historian 
 
 R Deeprun Tram|QID|1469|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|1469|N|Take the tram ride and then run into Stormwind.|
-T Rhapsody's Tale|QID|1469|M|64.33,20.65|Z|Stormwind City|N|To Brohann Caskbelly. Skip follow-up unless you intend to do Sunken Temple.|
+T Rhapsody's Tale|QID|1469|M|64.33,20.65|Z|1453; Stormwind City|N|To Brohann Caskbelly. Skip follow-up unless you intend to do Sunken Temple.|
 r City Stuff in stormwind|QID|580|N|Sell junk, repair, restock, train, auction, professions.|
 
-F Sentinel Hill|QID|53|M|66.28,62.16|Z|Stormwind City|N|At Dungar Longdrink.|
+F Sentinel Hill|QID|53|M|66.28,62.16|Z|1453; Stormwind City|N|At Dungar Longdrink.|
 R Sweet Amber|QID|53|M|52.56,72.21;44.6,80.2|CC|Z|1436; Westfall|N|Toward the mountain behind Deadmines.|
 T Sweet Amber|QID|53|M|44.62,80.25|Z|1436; Westfall|N|To Grimbooze Thunderbrew.|
 
@@ -656,7 +656,7 @@ r Sell junk, repair, restock, train skills.|QID|3444|N|Sell junk, repair, restoc
 
 R Deeprun Tram|QID|2583|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|2583|N|Take the tram ride and then run into Stormwind.|
-F Nethergarde Keep|AVAILABLE|2583|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
+F Nethergarde Keep|AVAILABLE|2583|M|66.2,62.4|Z|1453; Stormwind City|N|At Dungar Longdrink.|
 
 A The Basilisk's Bite|QID|2601|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|
 A Vulture's Vigor|QID|2603|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|

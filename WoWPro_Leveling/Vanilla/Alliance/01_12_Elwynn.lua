@@ -162,9 +162,9 @@ T A Fishy Peril|QID|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dughan.|
 A Further Concerns|QID|35|PRE|40|M|42.11,65.94|Z|1429;Elwynn Forest|N|From Marshall Dughan.|
 
 ; The next few steps are in Stormwind City
-R Stormwind City|ACTIVE|61|M|71.03,89.07|Z|Stormwind City|N|Follow the road northwest to Stormwind City.|
+R Stormwind City|ACTIVE|61|M|71.03,89.07|Z|1453; Stormwind City|N|Follow the road northwest to Stormwind City.|
 N Housekeeping|ACTIVE|61|N|Use this time to visit the city's various amenities.\n[color=FF0000]NOTE: [/color]Ask one of the guards if you don't know where to go.|T|Stormwind City Guard|S!US|IZ|Stormwind City|
-f Stormwind City|ACTIVE|61|M|62.71,64.54;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|Stormwind City|R|-Human|
+f Stormwind City|ACTIVE|61|M|62.71,64.54;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink.|Z|1453; Stormwind City|R|-Human|
 T Shipment to Stormwind|QID|61|M|56.21,64.58|Z|1453;Stormwind City|N|To Morgan Pestle, inside Pestle's Apothecary.|
 R Elwynn Forest|ACTIVE|112|M|32.03,49.18|Z|1429;Elwynn Forest|N|Make your way to the front gate.|
 R Goldshire|ACTIVE|112|QO|1|M|41.10,61.93|Z|1429;Elwynn Forest|N|Follow the road to Goldshire.|
@@ -234,15 +234,15 @@ T Wanted:  "Hogger"|QID|176|M|42.11,65.94|Z|1429;Elwynn Forest|N|To Marshall Dug
 ; == Warrior
 A A Warrior's Training|QID|1638|M|41,65.8|N|From Lyria Du Lac, in Goldshire smithing shop.|C|Warrior|
 = Level 10 Training|ACTIVE|1638|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warrior|LVL|10|IZ|Goldshire^Lion's Pride Inn|
-T A Warrior's Training|QID|1638|M|73.6,37.6|Z|Stormwind City|N|To Harry Burlguard, in the Pig and Whistle Tavern in Old Town.|C|Warrior|
-A Bartleby the Drunk|QID|1639|PRE|1638|M|73.6,37.6|Z|Stormwind City|N|From Harry Burlguard.|C|Warrior|
-T Bartleby the Drunk|QID|1639|M|73.8,36.6|Z|Stormwind City|N|To Bartleby.|C|Warrior|
-A Beat Bartleby|QID|1640|PRE|1639|M|73.8,36.6|Z|Stormwind City|N|From Bartleby.|C|Warrior|
-C Beat Bartleby|QID|1640|M|73.8,36.6|Z|Stormwind City|N|Ask him for his mug and a fight ensues.|C|Warrior|
-T Beat Bartleby|QID|1640|M|73.8,36.6|Z|Stormwind City|N|To Bartleby.|C|Warrior|
-A Bartleby's Mug|QID|1665|PRE|1640|M|73.8,36.6|Z|Stormwind City|N|From Bartleby.|C|Warrior|
-T Bartleby's Mug|QID|1665|M|73.6,37.6|Z|Stormwind City|N|To Harry Burlguard.|C|Warrior|
-A Marshal Haggard|QID|1666|PRE|1665|M|73.6,37.6|Z|Stormwind City|N|From Harry Burlguard.|C|Warrior|
+T A Warrior's Training|QID|1638|M|73.6,37.6|Z|1453; Stormwind City|N|To Harry Burlguard, in the Pig and Whistle Tavern in Old Town.|C|Warrior|
+A Bartleby the Drunk|QID|1639|PRE|1638|M|73.6,37.6|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
+T Bartleby the Drunk|QID|1639|M|73.8,36.6|Z|1453; Stormwind City|N|To Bartleby.|C|Warrior|
+A Beat Bartleby|QID|1640|PRE|1639|M|73.8,36.6|Z|1453; Stormwind City|N|From Bartleby.|C|Warrior|
+C Beat Bartleby|QID|1640|M|73.8,36.6|Z|1453; Stormwind City|N|Ask him for his mug and a fight ensues.|C|Warrior|
+T Beat Bartleby|QID|1640|M|73.8,36.6|Z|1453; Stormwind City|N|To Bartleby.|C|Warrior|
+A Bartleby's Mug|QID|1665|PRE|1640|M|73.8,36.6|Z|1453; Stormwind City|N|From Bartleby.|C|Warrior|
+T Bartleby's Mug|QID|1665|M|73.6,37.6|Z|1453; Stormwind City|N|To Harry Burlguard.|C|Warrior|
+A Marshal Haggard|QID|1666|PRE|1665|M|73.6,37.6|Z|1453; Stormwind City|N|From Harry Burlguard.|C|Warrior|
 T Marshal Haggard|QID|1666|M|84,69|ITEM|6985|N|(one of 4 weapons to choose from) If this is an upgrade, its probably worth running out of your way to do this now. if not, right click and sticky it to remember for later, when you are headed to Redridge.|C|Warrior|
 A Dead-tooth Jack|QID|1667|PRE|1666|M|84,69|N|From Marshal Haggard.|C|Warrior|
 C Dead-tooth Jack|QID|1667|M|89.3,78.8|N|Clear the area, until you have just Jack and one guard. Charge the remaining guard, kill it quick, hamstring Jack and back off, Defensive if you have time and kill him. Loot key, open lockbox, get badge. (quickly due to respawn)|C|Warrior|
@@ -253,8 +253,8 @@ A Gakin's Summons|QID|1685|M|44.4,66.2|N|From Remen Marcot, in the basement of t
 ; -- Mage
 A Speak with Jennea|QID|1860|M|43.2,66.2|ITEM|9513|N|From Zaldimar Wefhellt.\n[color=FF0000]NOTE: [/color]Rewards a nice 2H staff, so you may want to do it despite it being a bit out of the direct path.|C|Mage|
 = Level 10 Training|ACTIVE|1860|M|PLAYER|CC|N|Do your level 10 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Mage|LVL|10|IZ|Goldshire^Lion's Pride Inn|
-T Speak with Jennea|QID|1860|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
-A Mirror Lake|QID|1861|PRE|1860|M|38.6,79.4|Z|Stormwind City|N|From Jennea Cannon.|C|Mage|
+T Speak with Jennea|QID|1860|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|C|Mage|
+A Mirror Lake|QID|1861|PRE|1860|M|38.6,79.4|Z|1453; Stormwind City|N|From Jennea Cannon.|C|Mage|
 C Mirror Lake|QID|1861|M|28.6,61.4|N|Go to Mirror Lake, just outside Stormwind, stand under the waterfall and use Jennea's Flask.|U|7207|C|Mage|
 ; -- Rogue
 A Seek out SI: 7|QID|2205|M|43.77,65.80|N|From Keryn Sylvius, upstairs in the Goldshire inn.|C|Rogue|
@@ -287,27 +287,27 @@ f Sentinel Hill|ACTIVE|1097|M|56.55,52.65|Z|1436; Westfall|N|Discover Sentinel H
 F Stormwind|ACTIVE|1097|M|56.55,52.65|Z|1436; Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
 ; ---------- LEVEL 10 CLASS QUEST cont.------------
-T Gakin's Summons|QID|1685|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
-A Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+T Gakin's Summons|QID|1685|M|25.2,78.6|Z|1453; Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|C|Warlock|
+A Surena Caledon|QID|1688|M|25.2,78.6|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
 C Surena Caledon|QID|1688|M|71,80|N|Find, kill and loot Surena Caladon.|T|Surena Caladon|C|Warlock|
-T Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
-A The Binding|QID|1689|PRE|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
-C The Binding|QID|1689|M|25.2,77.2|Z|Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|
-T The Binding|QID|1689|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
-T Mirror Lake|QID|1861|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon.|C|Mage|
-T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
-A Snatch and Grab|QID|2206|PRE|2205|M|76.0,59.8|Z|Stormwind City|N|From Master Mathias Shaw.|C|Rogue|
+T Surena Caledon|QID|1688|M|25.2,78.6|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
+A The Binding|QID|1689|PRE|1688|M|25.2,78.6|Z|1453; Stormwind City|N|From Gakin the Darkbinder.|C|Warlock|
+C The Binding|QID|1689|M|25.2,77.2|Z|1453; Stormwind City|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|U|6928|C|Warlock|
+T The Binding|QID|1689|M|25.2,78.6|Z|1453; Stormwind City|N|To Gakin the Darkbinder.|C|Warlock|
+T Mirror Lake|QID|1861|M|38.6,79.4|Z|1453; Stormwind City|N|To Jennea Cannon.|C|Mage|
+T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+A Snatch and Grab|QID|2206|PRE|2205|M|76.0,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw.|C|Rogue|
 C Snatch and Grab|QID|2206|M|47,87|ITEM|7298|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest until next time you are conveniently in Goldshire.|C|Rogue|
-T Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
-T Continue to Stormwind|QID|6281|M|74.31,47.25|Z|Stormwind City|N|To Osric Strang, inside Limited Immunity Shop in Old Town.|R|Human|
-A Dungar Longdrink|QID|6261|PRE|6281|M|74.31,47.25|Z|Stormwind City|N|From Osric Strang.|R|Human|
-T Desperate Prayer|QID|5635|M|38.57,26.06|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.||C|Priest|
-T Seek out SI: 7|QID|2205|C|Rogue|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
+T Snatch and Grab|QID|2206|M|76.0,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+T Continue to Stormwind|QID|6281|M|74.31,47.25|Z|1453; Stormwind City|N|To Osric Strang, inside Limited Immunity Shop in Old Town.|R|Human|
+A Dungar Longdrink|QID|6261|PRE|6281|M|74.31,47.25|Z|1453; Stormwind City|N|From Osric Strang.|R|Human|
+T Desperate Prayer|QID|5635|M|38.57,26.06|Z|1453; Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.||C|Priest|
+T Seek out SI: 7|QID|2205|C|Rogue|M|76.0,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
 ; --
-T Elmore's Task|QID|1097|M|51.75,12.10|Z|Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
-A Stormpike's Delivery|QID|353|PRE|1097|M|51.75,12.10|Z|Stormwind City|N|From Grimand Elmore.|
+T Elmore's Task|QID|1097|M|51.75,12.10|Z|1453; Stormwind City|N|To Grimand Elmore, in the Dwarven District.|
+A Stormpike's Delivery|QID|353|PRE|1097|M|51.75,12.10|Z|1453; Stormwind City|N|From Grimand Elmore.|
 
-R Deeprun Tram|QID|6661|M|64,8|Z|Stormwind City|N|Run to the Deeprun Tram.|
+R Deeprun Tram|QID|6661|M|64,8|Z|1453; Stormwind City|N|Run to the Deeprun Tram.|
 A Deeprun Rat Roundup|QID|6661|N|Board the Tram to take you Ironforge, then quest From Monty, at the Ironforge Tram Stop.|
 C Deeprun Rat Roundup|QID|6661|NC|U|17117|N|Use Rat Catcher's Flute on Deeprun Rats, and catch five of them.|T|Deeprun Rat|
 T Deeprun Rat Roundup|QID|6661|N|To Monty.|

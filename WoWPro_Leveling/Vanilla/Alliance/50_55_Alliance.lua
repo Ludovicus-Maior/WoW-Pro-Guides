@@ -291,13 +291,13 @@ T The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|N|
 A The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|1455; Ironforge|N|From Royal Historian Archesonus.|PRE|3702|
 R Deeprun Tram|QID|5022|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|5022|N|Take the tram ride and then run into Stormwind.|
-T Better Late Than Never|QID|5022|M|48.47,30.56|Z|Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|
-A Good Natured Emma|QID|5048|M|48.47,30.56|Z|Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|PRE|5022|
-T Good Natured Emma|QID|5048|M|52.40,42.10|Z|Stormwind City|N|To Ol' Emma. She can be found wandering around the Trade District, Cathedral Square or inside her home.|
-A Good Luck Charm|QID|5050|M|60.2,57.0|Z|Stormwind City|N|From Ol' Emma.|PRE|5048|
+T Better Late Than Never|QID|5022|M|48.47,30.56|Z|1453; Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|
+A Good Natured Emma|QID|5048|M|48.47,30.56|Z|1453; Stormwind City|N|To Royal Factor Bathrilor. Top floor of the building.|PRE|5022|
+T Good Natured Emma|QID|5048|M|52.40,42.10|Z|1453; Stormwind City|N|To Ol' Emma. She can be found wandering around the Trade District, Cathedral Square or inside her home.|
+A Good Luck Charm|QID|5050|M|60.2,57.0|Z|1453; Stormwind City|N|From Ol' Emma.|PRE|5048|
 r Sell junk, repair, restock|QID|5220|N|Sell junk, repair, restock|
 
-F Lakeshire|QID|3823|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
+F Lakeshire|QID|3823|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge.|
 R Burning Steppes|QID|3823|M|46.43,6.34|Z|1433; Redridge Mountains|N|Make your way to the Burning Steppes.|
 f Morgan's Vigil|QID|3823|M|84.33,68.32|Z|Burning Steppes|N|Get the Flightpath from Borgus Stoutarm.|
 
@@ -377,12 +377,12 @@ F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redri
 T The True Masters|QID|4183|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A The True Masters|QID|4184|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
 F Stormwind|QID|4184|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
-T The True Masters|QID|4184|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
-C The True Masters|QID|4185|M|78.12,17.76|Z|Stormwind City|CHAT|N|Speak with Lady Prestor.|
-T The True Masters|QID|4185|M|78.22,17.97|Z|Stormwind City|N|To Highlord Bolvar Fordragon.|
-A The True Masters|QID|4186|M|78.22,17.97|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
-F Lakeshire|QID|4186|M|66.29,62.13|Z|Stormwind City|N|Fly to Lakeshire in Redridge.|
+T The True Masters|QID|4184|M|78.22,17.97|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
+A The True Masters|QID|4185|M|78.22,17.97|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4184|
+C The True Masters|QID|4185|M|78.12,17.76|Z|1453; Stormwind City|CHAT|N|Speak with Lady Prestor.|
+T The True Masters|QID|4185|M|78.22,17.97|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon.|
+A The True Masters|QID|4186|M|78.22,17.97|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|PRE|4185|
+F Lakeshire|QID|4186|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge.|
 T The True Masters|QID|4186|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A The True Masters|QID|4223|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
 F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
