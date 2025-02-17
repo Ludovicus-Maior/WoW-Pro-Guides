@@ -68,7 +68,7 @@ A Blackrock Bounty|QID|128|M|31.54,57.86|N|From Guard Howe.|Z|1433; Redridge Mou
 A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.|Z|1433; Redridge Mountains|
 A Howling in the Hills|QID|126|M|30.96,47.27|N|From Verner Osgood.|PRE|124|Z|1433; Redridge Mountains|
 T Messenger to Darkshire|QID|146|M|29.99,44.44|N|To Magistrate Solomon.|Z|1433; Redridge Mountains|
-h Lakeshire|QID|126|M|27.97,44.93|N|Set your hearthstone at Innkeeper Brianna|Z|1433; Redridge Mountains|
+h Lakeshire|ACTIVE|126|M|27.97,44.93|N|Set your hearthstone at Innkeeper Brianna|Z|1433; Redridge Mountains|
 A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|Z|1433; Redridge Mountains|
 C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|Z|1433; Redridge Mountains|
 T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|Z|1433; Redridge Mountains|

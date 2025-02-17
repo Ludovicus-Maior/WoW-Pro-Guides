@@ -325,13 +325,13 @@ T A Little Slime Goes a Long Way|QID|4513|M|75.75,23.36|Z|1455; Ironforge|N|To L
 
 R Deeprun Tram|QID|6182|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|6182|N|Take the tram ride and then run into Stormwind.|
-A The First and the Last|QID|6182|M|78.22,18.01|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|LVL|56|
-T The First and the Last|QID|6182|M|75.79,59.86|Z|Stormwind City|N|To Master Mathias Shaw.|
-A Honor the Dead|QID|6183|M|75.79,59.86|Z|Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6182|
-T Honor the Dead|QID|6183|M|75.79,59.86|Z|Stormwind City|N|To Master Mathias Shaw.|
-A Flint Shadowmore|QID|6184|M|75.79,59.86|Z|Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6183|
+A The First and the Last|QID|6182|M|78.22,18.01|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|LVL|56|
+T The First and the Last|QID|6182|M|75.79,59.86|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
+A Honor the Dead|QID|6183|M|75.79,59.86|Z|1453; Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6182|
+T Honor the Dead|QID|6183|M|75.79,59.86|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
+A Flint Shadowmore|QID|6184|M|75.79,59.86|Z|1453; Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6183|
 
-F Nethergarde Keep|QID|2783|M|66.29,62.13|Z|Stormwind City|N|Fly to the Blasted Lands.|
+F Nethergarde Keep|QID|2783|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to the Blasted Lands.|
 A Petty Squabbles|QID|2783|M|67.56,19.29|Z|Blasted Lands|N|From Ambassador Ardalan.|LVL|50|
 T Petty Squabbles|QID|2783|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
 A A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2783|
@@ -418,9 +418,9 @@ A Eye of the Emberseer|QID|6821|M|79.2,73.6|Z|1447; Azshara|N|From Duke Hydraxis
 H Ironforge|ACTIVE|6186|M|PLAYER|Z|1447; Azshara|N|Hearth back to Ironforge.|
 R Deeprun Tram|ACTIVE|6186|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|ACTIVE|6186|N|Take the tram ride and then run into Stormwind.|
-T The Blightcaller Cometh|QID|6186|M|78.22,18.01|Z|Stormwind City|N|To Highlord Bolvar Fordragon. Follow-up is a world raid quest to kill Blightcaller and is out of scope for the guide.|
+T The Blightcaller Cometh|QID|6186|M|78.22,18.01|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon. Follow-up is a world raid quest to kill Blightcaller and is out of scope for the guide.|
 
-F Darkshire|ACTIVE|3621|M|66.29,62.13|Z|Stormwind City|N|Fly to Duskwood.|
+F Darkshire|ACTIVE|3621|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Duskwood.|
 R Stranglethorn Vale|ACTIVE|3621|M|37.8,3.4|N|Run to Stranglethorn.|
 T The Formation of Felbane|QID|3621|M|50.61,20.48|Z|1434; Stranglethorn Vale|N|To Galvan the Ancient.|
 A Enchanted Azsharite Fel Weaponry|QID|3625|M|50.61,20.48|Z|1434; Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3621|

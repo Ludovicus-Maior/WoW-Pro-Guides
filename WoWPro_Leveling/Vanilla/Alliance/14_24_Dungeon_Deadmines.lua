@@ -9,16 +9,16 @@ WoWPro:GuideName(guide, 'Dungeon: Deadmines')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District.|
-A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle.|
-A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent.|
+A Collecting Memories|QID|168|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District.|
+A Oh Brother. . .|QID|167|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle.|
+A Underground Assault|QID|2040|M|55.52,12.52|Z|1453; Stormwind City|N|From Shoni the Shilent.|
 
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle. This is a bit out of the way but required if you want the deadmines quests. Plus you will fly here a lot.|
 T The Defias Brotherhood|QID|65|M|26.5,45.3|Z|1433; Redridge Mountains|N|To Wiley the Black upstairs.|
 A The Defias Brotherhood|QID|132|PRE|65|M|26.5,45.3|Z|1433; Redridge Mountains|N|From Wiley the Black.|
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|PRE|132|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
+T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|PRE|135|M|75.79,59.85|Z|1436; Westfall|N|From Master Mathias Shaw.|
 T The Defias Brotherhood|QID|141|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
@@ -32,8 +32,8 @@ A Red Silk Bandanas|QID|214|PRE|155|M|56.67,47.34|N|From Scout Riell on top of t
 
 T The Defias Brotherhood|QID|166||M|56.3,47.5|N|From Gryan Stoutmantle.|
 T Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower.|
-T Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent.|
-T Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle.|
-T Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle.|
+T Underground Assault|QID|2040|M|55.52,12.52|Z|1453; Stormwind City|N|From Shoni the Shilent.|
+T Collecting Memories|QID|168|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle.|
+T Oh Brother. . .|QID|167|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle.|
 ]]
 end)

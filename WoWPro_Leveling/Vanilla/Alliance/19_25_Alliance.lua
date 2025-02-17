@@ -11,11 +11,11 @@ WoWPro:GuideSteps(guide, function() return [[
 ; This is a rewrite and homogenization of existing 19-25 guides to provide a more consistent format using the addon across 1-60 classic leveling and for editting
 
 ; Darkshore Guide Synchronization Steps
-f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+f Stormwind|AVAILABLE|343|M|66.28,62.12|Z|1453; Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
 h Stormwind City|QID|272|C|Druid|N|Head to the Innkeeper in the trade district and set your hearthstone|
 R Elwynn Forest|AVAILABLE|65|M|32.03,49.18|Z|1429; Elwynn Forest|N|Make your way to the front gate.|TAXI|-Sentinel Hill|
 R Westfall|AVAILABLE|65|M|20.24,80.38|Z|1429; Elwynn Forest|N|Make your way south to Westfall.|TAXI|-Sentinel Hill|
-F Sentinel Hill|AVAILABLE|65|M|66.29,62.13|Z|Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
+F Sentinel Hill|AVAILABLE|65|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|
 h Sentinel Hill|ACTIVE|65|M|52.86,53.71|Z|1436; Westfall|N|At Innkeeper Heather.|C|-Druid|
 f Sentinel Hill|QID|118|M|56.55,52.65|Z|1436; Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
@@ -52,9 +52,9 @@ F Sentinel Hill|ACTIVE|132|M|30.59,59.41|N|Fly to Sentinel Hill|TAXI|Sentinel Hi
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|1436; Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|1436; Westfall|N|From Gryan Stoutmantle.|PRE|132|
 F Stormwind|ACTIVE|135|M|56.56,52.65|Z|1436; Westfall|N|On to Stormwind City.|TZ|Stormwind City|
-T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
-F Sentinel Hill|ACTIVE|141|N|Fly or Hearth to Westfall|Z|Stormwind City|M|71.00,72.50|
+T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|1453; Stormwind City|N|From Master Mathias Shaw.|PRE|135|
+F Sentinel Hill|ACTIVE|141|N|Fly or Hearth to Westfall|Z|1453; Stormwind City|M|71.00,72.50|
 
 ; Westfall 18-20
 T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|Z|1436; Westfall|
@@ -112,13 +112,13 @@ A The Defias Brotherhood|QID|166|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|155|Z
 A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower.|PRE|155|Z|1436; Westfall|DUNGEON|
 
 F Stormwind|ACTIVE|399|M|56.55,52.65|N|Fly to Stormwind.|TZ|Stormwind City|Z|1436; Westfall|
-T Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|To Baros Alexston.|
-A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
-A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
-A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
+T Humble Beginnings|QID|399|M|49.19,30.27|Z|1453; Stormwind City|N|To Baros Alexston.|
+A Underground Assault|QID|2040|M|55.52,12.52|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
+A Oh Brother. . .|QID|167|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
+A Collecting Memories|QID|168|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|DUNGEON|
 N The Deadmines|S|ACTIVE|214|N|You may do the Deadmines at this point. Be sure to loot the Mysterious Letter off Vancleef.|
 
-F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|Stormwind City|N|Fly to Redridge.|
+F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|1453; Stormwind City|N|Fly to Redridge.|
 t Return to Verner|QID|119|M|30.97,47.27|Z|1433; Redridge Mountains|N|To Verner Osgood.|;if not done elwynn guide --
 t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|M|29.99,44.44|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
@@ -132,32 +132,32 @@ A Messenger to Westfall|QID|144|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|143|Z|1
 t Red Silk Bandanas|QID|214|M|56.67,47.34|N|Scout Riell on top of the tower.|Z|1436; Westfall|
 
 F Stormwind|AVAILABLE|343|M|56.55,52.65|N|Guide begins with picking up a quest in Stormwind.|
-A Speaking of Fortitude|QID|343|M|45.7,38.4|Z|Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
-T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
-A Brother Paxton|QID|344|M|74.2,7.5|Z|Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
-h Stormwind City|ACTIVE|344|M|52.61,65.71|Z|Stormwind City|N|At Innkeeper Allison.|
+A Speaking of Fortitude|QID|343|M|45.7,38.4|Z|1453; Stormwind City|N|From Brother Kristoff, in Cathedral Square.|LVL|20|
+T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|1453; Stormwind City|N|To Milton Sheaf, Royal Library in Stormwind Keep.|LVL|20|
+A Brother Paxton|QID|344|M|74.2,7.5|Z|1453; Stormwind City|PRE|343|N|From Brother Paxton.|LVL|20|
+h Stormwind City|ACTIVE|344|M|52.61,65.71|Z|1453; Stormwind City|N|At Innkeeper Allison.|
 
 ;Rogue class questchain
 N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436; Westfall|N|You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
-A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
-F Sentinal Hill|ACTIVE|2360|N|Fly to Westfall|Z|Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
+A Mathias and the Defias|QID|2360|M|76,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
+F Sentinal Hill|ACTIVE|2360|N|Fly to Westfall|Z|1453; Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
 T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|1436; Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
 A Klaven's Tower|QID|2359|M|68.4,70.2|Z|1436; Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
 C Klaven's Tower|QID|2359|M|70,75|Z|1436; Westfall|QO|2|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
 C Klaven's Tower|QID|2359|M|70.4,73.93|Z|1436; Westfall|QO|1|N|Sneak to the top of the tower, sap the boss and lockpick the box.|C|Rogue|
 F Stormwind City|QID|2359|M|56.55,52.65|Z|1436; Westfall|N|Fly or run to Stormwind.|C|Rogue|P|Lockpicking;633;0+70;0|
-T Klaven's Tower|QID|2359|M|76,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
-A The Touch of Zanzil|QID|2607|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
-T The Touch of Zanzil|QID|2607|M|78,59|Z|Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
-A The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
-C The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
-T The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
-A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
-C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
-T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+T Klaven's Tower|QID|2359|M|76,59.8|Z|1453; Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+A The Touch of Zanzil|QID|2607|M|76,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
+T The Touch of Zanzil|QID|2607|M|78,59|Z|1453; Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
+A The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
+C The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
+T The Touch of Zanzil|QID|2608|M|76,59.8|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+A The Touch of Zanzil|QID|2609|M|76,59.8|Z|1453; Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
+C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|1453; Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
+T The Touch of Zanzil|QID|2609|M|76,59.8|Z|1453; Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 
 ; Redridge 20-21
-R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|Stormwind City|M|74.76,93.41|
+R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|1453; Stormwind City|M|74.76,93.41|
 T Brother Paxton|QID|344|M|49.6,40.3|Z|1429; Elwynn Forest|N|To Brother Paxton, in the Library of Northshire Abbey.|LVL|20|
 A Ink Supplies|QID|345|M|49.6,40.3|Z|1429; Elwynn Forest|N|From Brother Paxton.|PRE|344|LVL|20|
 r Repair/Restock|QID|345|M|41.40,65.59|Z|1429; Elwynn Forest|N|Repair/Sell Junk at Kurran Steele.|
@@ -198,18 +198,18 @@ T Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|Z|1433; Redridge Moun
 H Stormwind City|ACTIVE|347|N|Hearth, or otherwise return to Stormwind.|
 T Rethban Ore|QID|347|M|49.6,40.3|Z|1429; Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
 A Return to Kristoff|QID|346|M|49.6,40.3|Z|1429; Elwynn Forest|N|From Brother Paxton in Northshire.|PRE|347|LVL|20|
-= Train|ACTIVE|346|M|22.46,52.12|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Druid|
-= Train|ACTIVE|346|M|61.21,16.35|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Hunter|
-= Train|ACTIVE|346|M|38.86,81.39|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Mage|
-= Train|ACTIVE|346|M|44.82,37.96|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Paladin|
-= Train|ACTIVE|346|M|44.82,37.96|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Priest|
-= Train|ACTIVE|346|M|76.26,55.84|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Rogue|
-= Train|ACTIVE|346|M|61.78,83.73|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Shaman|
-= Train|ACTIVE|346|M|29.35,73.41|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warlock|
-= Train|ACTIVE|346|M|76.26,55.84|Z|Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warrior|
-T Return to Kristoff|QID|346|M|45.8,38.6|Z|Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
-F Darkshire|ACTIVE|145|M|62.25,62.26;66.28,62.13|CS|Z|Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
-F Lakeshire|AVAILABLE|163|M|62.25,62.26;66.28,62.13|CS|Z|Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
+= Train|ACTIVE|346|M|22.46,52.12|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Druid|
+= Train|ACTIVE|346|M|61.21,16.35|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Hunter|
+= Train|ACTIVE|346|M|38.86,81.39|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Mage|
+= Train|ACTIVE|346|M|44.82,37.96|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Paladin|
+= Train|ACTIVE|346|M|44.82,37.96|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Priest|
+= Train|ACTIVE|346|M|76.26,55.84|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Rogue|
+= Train|ACTIVE|346|M|61.78,83.73|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Shaman|
+= Train|ACTIVE|346|M|29.35,73.41|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warlock|
+= Train|ACTIVE|346|M|76.26,55.84|Z|1453; Stormwind City|N|If needed, Don't forget to train while you are in town. (check step off manually)|C|Warrior|
+T Return to Kristoff|QID|346|M|45.8,38.6|Z|1453; Stormwind City|N|To Brother Kristoff in Cathedral Square.|LVL|20|
+F Darkshire|ACTIVE|145|M|62.25,62.26;66.28,62.13|CS|Z|1453; Stormwind City|N|Fly to Darkshire, Duskwood.|TAXI|Darkshire|
+F Lakeshire|AVAILABLE|163|M|62.25,62.26;66.28,62.13|CS|Z|1453; Stormwind City|N|Fly to Lakeshire.|TAXI|-Darkshire|
 R Duskwood|ACTIVE|145|M|6.39,91.51|N|Run to Duskwood.|TAXI|-Darkshire|
 R Darkshire|ACTIVE|145|M|74.76,46.11|Z|1431; Duskwood|N|Follow the road to Darkshire.|TAXI|-Darkshire|
 f Darkshire|QID|116|M|77.50,44.30|Z|1431; Duskwood|N|Get the flight path from Felicia Maline.|
@@ -250,30 +250,30 @@ T The Night Watch|QID|56|M|73.56,46.86|N|To Commander Althea Ebonlocke.|Z|1431; 
 T Return the Comb|QID|154|M|75.77,45.29|N|To Madame Eva.|Z|1431; Duskwood|
 
 F Stormwind|AVAILABLE|3765|N|Fly to Stormwind|M|77.50, 44.30|Z|1431; Duskwood|
-T Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
-T Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
-T Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
-A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
+T Underground Assault|QID|2040|M|55.52,12.52|Z|1453; Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
+T Oh Brother. . .|QID|167|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
+T Collecting Memories|QID|168|M|65.44,21.18|Z|1453; Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
+A The Corruption Abroad|QID|3765|M|21.40,55.79|Z|1453; Stormwind City|N|From Argos Nightwhisper.|LEAD|1275|
 
-A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
+A Mathias and the Defias|QID|2360|M|76,59.8|Z|1453; Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
 
-A The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|
-T The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Valor|QID|1793|M|40,29.8|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|
+T The Tome of Valor|QID|1793|M|40,29.8|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Tome of Valor|QID|1649|C|Paladin|U|6776|N|Click the Tome to get the follow up quest.|PRE|1793|
-T The Tome of Valor|QID|1649|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Tome of Valor|QID|1650|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1649|
+T The Tome of Valor|QID|1649|M|40,29.8|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Valor|QID|1650|M|40,29.8|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1649|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|1436; Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|1436; Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|From Daphne Stilwell.|PRE|1650|C|Paladin|
 C The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|Protect her from 3 waves of enemies.|C|Paladin|
 T The Tome of Valor|QID|1651|M|41.6,88.6|Z|1436; Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1652|M|41.6,88.6|Z|1436; Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
-T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
-A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
+T The Tome of Valor|QID|1652|M|40,29.8|Z|1453; Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Test of Righteousness|QID|1653|M|40,29.8|Z|1453; Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 
 N Sell junk and repair|AVAILABLE|1078|S|N|Hold onto any Lean Wolf Flanks you currently have. We'll need 10 for a cooking quest later on, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables.|
-A Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
-R Deeprun Tram|AVAILABLE|288|N|Run to the Deeprun Tram|M|68.50, 31.50|Z|Stormwind City|
+A Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|1453; Stormwind City|N|To Collin Mauren.|
+R Deeprun Tram|AVAILABLE|288|N|Run to the Deeprun Tram|M|68.50, 31.50|Z|1453; Stormwind City|
 R Tinker Town|AVAILABLE|288|N|Take the tram to Ironforge.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|1455; Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|DUNGEON|
 T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|1426; Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
