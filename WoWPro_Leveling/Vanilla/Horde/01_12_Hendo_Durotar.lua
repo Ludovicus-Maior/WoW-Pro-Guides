@@ -281,14 +281,14 @@ A Need for a Cure|QID|812|M|41.54,18.60|N|From Rhinag.|FAIL|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 
 C Lost But Not Forgotten|QID|816|M|37.22,20.26|QO|1|N|Head to the Southfury River and kill the Dreadmaw Crocolisks until you loot Kron's Amulet.\n[color=FF0000]NOTE: [/color]Depending on your luck, this quest may become a bit of a grind to complete.|
-T Conscript of the Horde|QID|840|M|62.27,19.37|Z|The Barrens|N|To Kargal Battlescar at Far Watch Post, Barrens. It's just on the other side of the Southfury Bridge.|
-A Crossroads Conscription|QID|842|M|62.27,19.37|Z|The Barrens|N|From Kargal Battlescar.|PRE|840|
+T Conscript of the Horde|QID|840|M|62.27,19.37|Z|1413; The Barrens|N|To Kargal Battlescar at Far Watch Post, Barrens. It's just on the other side of the Southfury Bridge.|
+A Crossroads Conscription|QID|842|M|62.27,19.37|Z|1413; The Barrens|N|From Kargal Battlescar.|PRE|840|
 
 ; --- Shaman/Warrior Class quests cont.
-T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|R|Orc,Troll|C|Warrior|
-A Path of Defense|QID|1498|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|PRE|1505|R|Orc,Troll|C|Warrior|
-T Call of Fire|QID|2983|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss. He wanders around a bit.|R|Orc,Troll|C|Shaman|
-A Call of Fire|QID|1524|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|PRE|2983|R|Orc,Troll|C|Shaman|
+T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|R|Orc,Troll|C|Warrior|
+A Path of Defense|QID|1498|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|PRE|1505|R|Orc,Troll|C|Warrior|
+T Call of Fire|QID|2983|M|55.86,19.94|Z|1413; The Barrens|N|To Kranal Fiss. He wanders around a bit.|R|Orc,Troll|C|Shaman|
+A Call of Fire|QID|1524|M|55.86,19.94|Z|1413; The Barrens|N|From Kranal Fiss.|PRE|2983|R|Orc,Troll|C|Shaman|
 R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|N|Follow the hidden path here upwards.|R|Orc,Troll|C|Shaman|
 T Call of Fire|QID|1524|M|38.52,58.92|N|To Telf Joolam.|R|Orc,Troll|C|Shaman|
 A Call of Fire|QID|1525|M|38.52,58.92|N|From Telf Joolam.|PRE|1524|R|Orc,Troll|C|Shaman|
@@ -342,30 +342,30 @@ N Training/Shopping|ACTIVE|809|N|Make sure you do all of your training, shopping
 R Leave Orgrimmar|ACTIVE|809|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 
 R Far Watch Post|ACTIVE|809|M|37.58,16.21;36.04,23.69|CC|N|Make your way west to Southfury River and follow it south.\nIt's best if you don't cross the river right away. The mobs on the other side are level 15+.|
-R Far Watch Post|ACTIVE|809|M|62.87,8.66;61.89,19.05|Z|The Barrens|CC|N|Cross the river to the road on the other side. Follow this road south to Far Watch Post.|
-T Ak'Zeloth|QID|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
-A The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|From Ak'Zeloth.|PRE|809|
-A Flawed Power Stone|QID|926|ACTIVE|924|M|62.34,20.04|Z|The Barrens|L|4986 1|N|Pick up one of the stones from the table beside you. You have 30 minutes to complete the quest before the stone expires.\n\nThis quest becomes repeatable in case you lose the stone.|
-R The Altar of Fire|QID|924|M|51.12,22.70;47.72,19.51;47.91,19.83|Z|The Barrens|CC|N|Go up here to get to the Altar of Fire.|
-C The Demon Seed|QID|924|M|47.96,19.09|Z|The Barrens|QO|1|N|Work your way inside Dreadmist Den and click on the altar to destroy the stone.\n[color=FF0000]NOTE: [/color]Be aware that there is a chance Rathorian (level 15 rare) will spawn beside the altar.|NC|
-R Leave Dreadmist Peak|QID|924|M|49.15,20.31;51.13,22.65|Z|The Barrens|CC|N|Exit the cave and head back down the mountain.|
-T The Demon Seed|QID|924|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth at Far Watch Post.|
-R The Crossroads|QID|842|ACTIVE|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads.\n[color=FF0000]NOTE: [/color]Sticking to the road is a safe bet. There are mobs that are a few levels above you along your route.|
-A Meats to Orgrimmar|QID|6365|M|52.62,29.84|Z|The Barrens|N|From Zargh.|
-T Crossroads Conscription|QID|842|M|52.24,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
-A Plainstrider Menace|QID|844|M|52.24,31.01|Z|The Barrens|N|From Sergra Darkthorn.|
-f Crossroads|QID|844|M|51.50,30.33|Z|The Barrens|N|At Devrak.|TAXI|-Crossroads|
-T Meats to Orgrimmar|QID|6365|M|51.50,30.33|Z|The Barrens|N|To Devrak.|
-A Ride to Orgrimmar|QID|6384|M|51.50,30.33|Z|The Barrens|N|From Devrak.|PRE|6365|
-F Orgrimmar|QID|6384|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
+R Far Watch Post|ACTIVE|809|M|62.87,8.66;61.89,19.05|Z|1413; The Barrens|CC|N|Cross the river to the road on the other side. Follow this road south to Far Watch Post.|
+T Ak'Zeloth|QID|809|M|62.34,20.07|Z|1413; The Barrens|N|To Ak'Zeloth.|
+A The Demon Seed|QID|924|M|62.34,20.07|Z|1413; The Barrens|N|From Ak'Zeloth.|PRE|809|
+A Flawed Power Stone|QID|926|ACTIVE|924|M|62.34,20.04|Z|1413; The Barrens|L|4986 1|N|Pick up one of the stones from the table beside you. You have 30 minutes to complete the quest before the stone expires.\n\nThis quest becomes repeatable in case you lose the stone.|
+R The Altar of Fire|QID|924|M|51.12,22.70;47.72,19.51;47.91,19.83|Z|1413; The Barrens|CC|N|Go up here to get to the Altar of Fire.|
+C The Demon Seed|QID|924|M|47.96,19.09|Z|1413; The Barrens|QO|1|N|Work your way inside Dreadmist Den and click on the altar to destroy the stone.\n[color=FF0000]NOTE: [/color]Be aware that there is a chance Rathorian (level 15 rare) will spawn beside the altar.|NC|
+R Leave Dreadmist Peak|QID|924|M|49.15,20.31;51.13,22.65|Z|1413; The Barrens|CC|N|Exit the cave and head back down the mountain.|
+T The Demon Seed|QID|924|M|62.34,20.07|Z|1413; The Barrens|N|To Ak'Zeloth at Far Watch Post.|
+R The Crossroads|QID|842|ACTIVE|842|M|52.34,29.34|Z|1413; The Barrens|CC|N|Go to the Crossroads.\n[color=FF0000]NOTE: [/color]Sticking to the road is a safe bet. There are mobs that are a few levels above you along your route.|
+A Meats to Orgrimmar|QID|6365|M|52.62,29.84|Z|1413; The Barrens|N|From Zargh.|
+T Crossroads Conscription|QID|842|M|52.24,31.01|Z|1413; The Barrens|N|To Sergra Darkthorn.|
+A Plainstrider Menace|QID|844|M|52.24,31.01|Z|1413; The Barrens|N|From Sergra Darkthorn.|
+f Crossroads|QID|844|M|51.50,30.33|Z|1413; The Barrens|N|At Devrak.|TAXI|-Crossroads|
+T Meats to Orgrimmar|QID|6365|M|51.50,30.33|Z|1413; The Barrens|N|To Devrak.|
+A Ride to Orgrimmar|QID|6384|M|51.50,30.33|Z|1413; The Barrens|N|From Devrak.|PRE|6365|
+F Orgrimmar|QID|6384|M|51.50,30.33|Z|1413; The Barrens|N|Fly to Orgrimmar.|
 T Ride to Orgrimmar|QID|6384|M|54.09,68.43|Z|Orgrimmar|N|To Innkeeper Gryshka.|
 A Doras the Wind Rider Master|QID|6385|M|54.09,68.43|Z|Orgrimmar|N|From Innkeeper Gryshka.|PRE|6384|
 T Doras the Wind Rider Master|QID|6385|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
 A Return to the Crossroads.|QID|6386|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|PRE|6385|
 F Crossroads|ACTIVE|6386|M|45.12,63.89|Z|Orgrimmar|N|Fly to The Crossroads.|
-T Return to the Crossroads.|QID|6386|M|52.61,29.85|Z|The Barrens|N|To Zargh.|
+T Return to the Crossroads.|QID|6386|M|52.61,29.85|Z|1413; The Barrens|N|To Zargh.|
 
-F Orgrimmar|AVAILABLE|445|M|51.50,30.33|Z|The Barrens|
+F Orgrimmar|AVAILABLE|445|M|51.50,30.33|Z|1413; The Barrens|
 b Tirisfal Glades|AVAILABLE|445|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|
 R Undercity|AVAILABLE|445|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 f Undercity|AVAILABLE|445|M|63.26,48.54|Z|Undercity|N|Grab the FP from Michael Garrett.|

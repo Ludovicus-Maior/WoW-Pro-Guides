@@ -9,8 +9,8 @@ WoWPro:GuideLevels(guide,55, 59)
 WoWPro:GuideNextGuide(guide, 'ElidionDun_BRD')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Taking Back Silithus|QID|8275|M|58.52,47.33|Z|Ironforge|N|From Cenarion Emissary Jademoon.|
-F Chillwind Camp|QID|5544|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
+A Taking Back Silithus|QID|8275|M|58.52,47.33|Z|1455; Ironforge|N|From Cenarion Emissary Jademoon.|
+F Chillwind Camp|QID|5544|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Western Plaguelands.|
 A Scholomance|QID|5533|M|42.70,84.03|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|LVL|55|PRE|5097|
 A A Plague Upon Thee|QID|5903|M|43.43,84.83|Z|Western Plaguelands|N|From Nathaniel Durnah.|
 T Scholomance|QID|5533|M|42.66,83.77|Z|Western Plaguelands|N|To Alchemist Arbington.|
@@ -103,25 +103,25 @@ C Villains of Darrowshire 2|QID|5181|M|53.91,65.76|Z|Eastern Plaguelands|QO|2|N|
 T Villains of Darrowshire|QID|5181|M|81.51,59.77|Z|Eastern Plaguelands|N|To Carlin Redpath. Head Southwest to get out of the Infected Scar.\n\nDon't get follow-up|
 
 H Ironforge|QID|5159|M|PLAYER|Z|Eastern Plaguelands|N|Hearth or otherwise make your way to Ironforge.|
-B Thorium Bar|QID|5538|Z|Ironforge|N|If you plan on following the questline to get the Scholomance key, (part of which costs 15 gold) you will need to buy or make 2 Thorium Bars.|L|12359 2|
-A A Little Slime Goes a Long Way|QID|4513|M|75.74,23.38|Z|Ironforge|N|From Laris Geardawdle.|PRE|4512|
-F Menethil Harbor|QID|5159|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|
+B Thorium Bar|QID|5538|Z|1455; Ironforge|N|If you plan on following the questline to get the Scholomance key, (part of which costs 15 gold) you will need to buy or make 2 Thorium Bars.|L|12359 2|
+A A Little Slime Goes a Long Way|QID|4513|M|75.74,23.38|Z|1455; Ironforge|N|From Laris Geardawdle.|PRE|4512|
+F Menethil Harbor|QID|5159|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Menethil Harbor.|
 b Theramore Isle|QID|5159|M|4.98,63.41|Z|Wetlands|N|Take the boat to Theramore.|
-F Ratchet|QID|5159|M|67.48,51.30|Z|Dustwallow Marsh|N|Fly up to Ratchet.|
-A Volcanic Activity|QID|4502|M|62.45,38.73|Z|The Barrens|N|From Liv Rizzlefix.|
-T Seeking Spiritual Aid|QID|5158|M|65.83,43.78|Z|The Barrens|N|To Islen Waterseer.|
-A Cleansed Water Returns to Felwood|QID|5159|M|65.83,43.78|Z|The Barrens|N|From Islen Waterseer.|PRE|5158|
+F Ratchet|QID|5159|M|67.48,51.30|Z|1445; Dustwallow Marsh|N|Fly up to Ratchet.|
+A Volcanic Activity|QID|4502|M|62.45,38.73|Z|1413; The Barrens|N|From Liv Rizzlefix.|
+T Seeking Spiritual Aid|QID|5158|M|65.83,43.78|Z|1413; The Barrens|N|To Islen Waterseer.|
+A Cleansed Water Returns to Felwood|QID|5159|M|65.83,43.78|Z|1413; The Barrens|N|From Islen Waterseer.|PRE|5158|
 
-F Talrendis Point|QID|5159|M|63.08,37.16|Z|The Barrens|N|Fly to Talrendis Point in the in Azshara.
-C Fragments of the Past|QID|5246|M|41.51,52.53|Z|Azshara|QO|1|N|Collect the Sacred Highborne Writings. It's a tin book on a ledge behind the warlord.|
-A Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|Azshara|N|From Kim'jael.|LVL|47|
-C Kim'jael Indeed!|QID|3601|M|56.1,30.1|Z|Azshara|N|Goto the base camp and loot the items from random chests scattered around..|
-T Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|Azshara|N|To Kim'jael.|
-A Kim'jael's "Missing" Equipment|QID|5534|M|53.45,21.81|Z|Azshara|N|From Kim'jael.|LVL|47|PRE|3601|
-C Kim'jael's "Missing" Equipment|QID|5534|M|48.65,42.47|Z|Azshara|N|Find 'Some Rune' from the naga.|
-T Kim'jael's "Missing" Equipment|QID|5534|M|53.45,21.82|Z|Azshara|N|To Kim'jael.|
+F Talrendis Point|QID|5159|M|63.08,37.16|Z|1413; The Barrens|N|Fly to Talrendis Point in the in Azshara.
+C Fragments of the Past|QID|5246|M|41.51,52.53|Z|1447; Azshara|QO|1|N|Collect the Sacred Highborne Writings. It's a tin book on a ledge behind the warlord.|
+A Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|1447; Azshara|N|From Kim'jael.|LVL|47|
+C Kim'jael Indeed!|QID|3601|M|56.1,30.1|Z|1447; Azshara|N|Goto the base camp and loot the items from random chests scattered around..|
+T Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|1447; Azshara|N|To Kim'jael.|
+A Kim'jael's "Missing" Equipment|QID|5534|M|53.45,21.81|Z|1447; Azshara|N|From Kim'jael.|LVL|47|PRE|3601|
+C Kim'jael's "Missing" Equipment|QID|5534|M|48.65,42.47|Z|1447; Azshara|N|Find 'Some Rune' from the naga.|
+T Kim'jael's "Missing" Equipment|QID|5534|M|53.45,21.82|Z|1447; Azshara|N|To Kim'jael.|
 
-R Felwood|QID|5159|M|94.83,47.87;83.24,48.20;75.98,44.51;74.81,44.62;71.80,49.01;69.85,50.39;67.33,49.20;64.97,44.02;61.84,43.96;58.20,35.17;56.65,28.71|Z|Ashenvale|CS|N|Make your way to Felwood.|
+R Felwood|QID|5159|M|94.83,47.87;83.24,48.20;75.98,44.51;74.81,44.62;71.80,49.01;69.85,50.39;67.33,49.20;64.97,44.02;61.84,43.96;58.20,35.17;56.65,28.71|Z|1440; Ashenvale|CS|N|Make your way to Felwood.|
 T Cleansed Water Returns to Felwood|QID|5159|M|51.14,82.16|Z|Felwood|N|To Greta Mosshoof.|
 A Dousing the Flames of Protection|QID|5165|M|51.14,82.16|Z|Felwood|N|From Greta Mosshoof.|PRE|5159|
 T Linken's Memory|QID|3942|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
@@ -175,9 +175,9 @@ A Enraged Wildkin|QID|4861|M|52.14,30.43|Z|Winterspring|N|From Jaron Stoneshaper
 A Are We There, Yeti?|QID|977|M|60.88,37.62|Z|Winterspring|N|From Umi Rumplesnicker.|LVL|52|PRE|3783|
 h Everlook|QID|977|Z|Winterspring|N|Set your hearthstone in Everlook.|
 F Talrendis Point|QID|977|M|62.33,36.61|Z|Winterspring|N|Fly to Azshara.|
-A Poisoned Water|QID|6804|M|79.26,73.73|Z|Azshara|N|From Duke Hydraxis.|LVL|55|
-A Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|Azshara|N|From Duke Hydraxis.|LVL|55|
-H Everlook|QID|977|M|PLAYER|Z|Azshara|N|Hearth back to Everlook.|
+A Poisoned Water|QID|6804|M|79.26,73.73|Z|1447; Azshara|N|From Duke Hydraxis.|LVL|55|
+A Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|1447; Azshara|N|From Duke Hydraxis.|LVL|55|
+H Everlook|QID|977|M|PLAYER|Z|1447; Azshara|N|Hearth back to Everlook.|
 C Are We There, Yeti?|QID|977|M|67.71,41.74|Z|Winterspring|S|N|Kill Yetis until you get the Pristine Yeti Horns.|
 C Winterfall Activity|QID|8464|M|67.70,37.20|Z|Winterspring|S|N|Kill Winterfell furbolgs needed.|
 K High Chief Winterfall|QID|5121|M|69.37,38.39|Z|Winterspring|QO|1|N|High Chief Winterfall slain.|
@@ -210,13 +210,13 @@ A Words of the High Chief|QID|5128|M|31.27,45.17|Z|Winterspring|N|From Donova Sn
 T Winterfall Activity|QID|8464|M|27.74,34.51|Z|Winterspring|N|To Salfa.|
 
 F Talrendis Point|QID|4084|M|62.49,24.24|Z|Felwood|N|Fly to Azshara.|
-T Ancient Spirit|QID|4261|M|85.28,44.72|Z|Ashenvale|N|To Kayneth Stillwind.|
-R Felwood|ACTIVE|4084^5128|M|83.24,48.20;75.98,44.51;74.81,44.62;71.80,49.01;69.85,50.39;67.33,49.20;64.97,44.02;61.84,43.96;58.20,35.17;56.65,28.71|Z|Ashenvale|CS|N|Make your way to Felwood.|
+T Ancient Spirit|QID|4261|M|85.28,44.72|Z|1440; Ashenvale|N|To Kayneth Stillwind.|
+R Felwood|ACTIVE|4084^5128|M|83.24,48.20;75.98,44.51;74.81,44.62;71.80,49.01;69.85,50.39;67.33,49.20;64.97,44.02;61.84,43.96;58.20,35.17;56.65,28.71|Z|1440; Ashenvale|CS|N|Make your way to Felwood.|
 T Words of the High Chief|QID|5128|M|51.14,81.76|Z|Felwood|N|To Kelek Skykeeper.|
 T Silver Heart|QID|4084|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
 A Aquementas|QID|4005|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|LVL|47|PRE|4084|
 
-H Everlook|QID|4005|M|PLAYER|Z|Azshara|N|Hearth back to Everlook.|
+H Everlook|QID|4005|M|PLAYER|Z|1447; Azshara|N|Hearth back to Everlook.|
 F Gadgetzan|QID|4005|M|62.33,36.61|Z|Winterspring|N|Fly to Gadgetzan.|
 T Mold Rhymes With...|QID|5538|M|51.46,28.81|Z|Tanaris|N|To Krinkle Goodsteel. This will cost you 15 gold but it's part of the Scholomance Key questline. Skip if you want.|
 A Fire Plume Forged|QID|5801|M|51.46,28.81|Z|Tanaris|N|From Krinkle Goodsteel.|LVL|55|PRE|5538|
@@ -294,10 +294,10 @@ T Pawn Captures Queen|QID|4507|M|50.88,26.96|Z|Tanaris|N|To Alchemist Pestlezugg
 A Calm Before the Storm|QID|4508|M|50.88,26.96|Z|Tanaris|N|From Alchemist Pestlezugg.|PRE|4507|
 
 F Ratchet|ACTIVE|4502|M|51.00,29.34|Z|Tanaris|N|Fly to Ratchet.|
-T Volcanic Activity|QID|4502|M|62.45,38.73|Z|The Barrens|N|To Liv Rizzlefix.|
+T Volcanic Activity|QID|4502|M|62.45,38.73|Z|1413; The Barrens|N|To Liv Rizzlefix.|
 
-H Everlook|QID|5163|M|63.09,37.16|Z|The Barrens|N|Use your hearthstone back to Winterspring or otherwise make your way back.|
-F Everlook|ACTIVE|5163|M|63.09,37.16|Z|The Barrens|N|Fly to Everlook in Winterspring.|
+H Everlook|QID|5163|M|63.09,37.16|Z|1413; The Barrens|N|Use your hearthstone back to Winterspring or otherwise make your way back.|
+F Everlook|ACTIVE|5163|M|63.09,37.16|Z|1413; The Barrens|N|Fly to Everlook in Winterspring.|
 T Are We There, Yeti?|QID|5163|M|60.88,37.62|Z|Winterspring|N|To Umi Rumplesnicker.|
 
 F Moonglade|ACTIVE|6844|M|62.33,36.61|Z|Winterspring|N|Fly to Moonglade.|
@@ -308,30 +308,30 @@ A Under the Chitin Was...|QID|1185|M|44.8,35.4|Z|Moonglade|N|From Umber.|LVL|54|
 T Under the Chitin Was...|QID|1185|M|45.24,39.36|Z|Moonglade|N|To Umber.|
 
 F Rut'Theran Village|QID|4901|M|48.11,67.35|Z|Moonglade|N|Fly to Rut'Theran Village.|
-T Guardians of the Altar|QID|4901|M|55.49,92.06|Z|Teldrassil|N|To Erelas Ambersky.|
-A Wildkin of Elune|QID|4902|M|55.49,92.05|Z|Teldrassil|N|From Erelas Ambersky.|LVL|52|PRE|4901|
-R Darnassus|QID|4508|M|55.89,89.60|Z|Teldrassil|N|Run through the portal into Darnassus.|
-T Calm Before the Storm|QID|4508|M|41.84,85.62|Z|Darnassus|N|To Gracina Spiritmight.|
-A Calm Before the Storm|QID|4510|M|41.84,85.62|Z|Darnassus|N|From Gracina Spiritmight.|LVL|50|PRE|4508|
-T Calm Before the Storm|QID|4510|M|39.63,42.63|Z|Darnassus|N|To Idriana.|
-T Wildkin of Elune|QID|4902|M|35.15,9.38|Z|Darnassus|N|To Arch Druid Fandral Staghelm. On the very top of the tree.|
+T Guardians of the Altar|QID|4901|M|55.49,92.06|Z|1438; Teldrassil|N|To Erelas Ambersky.|
+A Wildkin of Elune|QID|4902|M|55.49,92.05|Z|1438; Teldrassil|N|From Erelas Ambersky.|LVL|52|PRE|4901|
+R Darnassus|QID|4508|M|55.89,89.60|Z|1438; Teldrassil|N|Run through the portal into Darnassus.|
+T Calm Before the Storm|QID|4508|M|41.84,85.62|Z|1457; Darnassus|N|To Gracina Spiritmight.|
+A Calm Before the Storm|QID|4510|M|41.84,85.62|Z|1457; Darnassus|N|From Gracina Spiritmight.|LVL|50|PRE|4508|
+T Calm Before the Storm|QID|4510|M|39.63,42.63|Z|1457; Darnassus|N|To Idriana.|
+T Wildkin of Elune|QID|4902|M|35.15,9.38|Z|1457; Darnassus|N|To Arch Druid Fandral Staghelm. On the very top of the tree.|
 
-R Rut'theran Village|QID|4513|M|30.04,41.32|Z|Darnassus|N|Run through the portal into Rut'theran Village.|
-F Auberdine|QID|4513|M|58.39,94.01|Z|Teldrassil|N|Fly to Auberdine.|
-b Menethil Harbor|QID|4513|M|32.39,43.82|Z|Darkshore|N|Take the boat to Menethil Harbor.|
+R Rut'theran Village|QID|4513|M|30.04,41.32|Z|1457; Darnassus|N|Run through the portal into Rut'theran Village.|
+F Auberdine|QID|4513|M|58.39,94.01|Z|1438; Teldrassil|N|Fly to Auberdine.|
+b Menethil Harbor|QID|4513|M|32.39,43.82|Z|1439; Darkshore|N|Take the boat to Menethil Harbor.|
 F Ironforge|QID|4513|M|9.49,59.69|Z|Wetlands|N|Fly to Ironforge.|
-h Ironforge|QID|4513|M|18.12,51.42|Z|Ironforge|N|Set your hearthstone to Ironforge.|
-T A Little Slime Goes a Long Way|QID|4513|M|75.75,23.36|Z|Ironforge|N|To Laris Geardawdle.|
+h Ironforge|QID|4513|M|18.12,51.42|Z|1455; Ironforge|N|Set your hearthstone to Ironforge.|
+T A Little Slime Goes a Long Way|QID|4513|M|75.75,23.36|Z|1455; Ironforge|N|To Laris Geardawdle.|
 
-R Deeprun Tram|QID|6182|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+R Deeprun Tram|QID|6182|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|6182|N|Take the tram ride and then run into Stormwind.|
-A The First and the Last|QID|6182|M|78.22,18.01|Z|Stormwind City|N|From Highlord Bolvar Fordragon.|LVL|56|
-T The First and the Last|QID|6182|M|75.79,59.86|Z|Stormwind City|N|To Master Mathias Shaw.|
-A Honor the Dead|QID|6183|M|75.79,59.86|Z|Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6182|
-T Honor the Dead|QID|6183|M|75.79,59.86|Z|Stormwind City|N|To Master Mathias Shaw.|
-A Flint Shadowmore|QID|6184|M|75.79,59.86|Z|Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6183|
+A The First and the Last|QID|6182|M|78.22,18.01|Z|1453; Stormwind City|N|From Highlord Bolvar Fordragon.|LVL|56|
+T The First and the Last|QID|6182|M|75.79,59.86|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
+A Honor the Dead|QID|6183|M|75.79,59.86|Z|1453; Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6182|
+T Honor the Dead|QID|6183|M|75.79,59.86|Z|1453; Stormwind City|N|To Master Mathias Shaw.|
+A Flint Shadowmore|QID|6184|M|75.79,59.86|Z|1453; Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6183|
 
-F Nethergarde Keep|QID|2783|M|66.29,62.13|Z|Stormwind City|N|Fly to the Blasted Lands.|
+F Nethergarde Keep|QID|2783|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to the Blasted Lands.|
 A Petty Squabbles|QID|2783|M|67.56,19.29|Z|Blasted Lands|N|From Ambassador Ardalan.|LVL|50|
 T Petty Squabbles|QID|2783|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
 A A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2783|
@@ -369,7 +369,7 @@ T The Cover of Darkness|QID|2743|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen He
 A The Demon Hunter|QID|2744|M|34.28,66.12|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2743|
 
 H Ironforge|QID|6184|M|PLAYER|Z|Swamp of Sorrows|N|Hearth back to Ironforge, or if for some reason you don't have it set or ready, fly to Western Plaguelands.|
-F Chillwind Camp|QID|6184|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
+F Chillwind Camp|QID|6184|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Western Plaguelands.|
 T Fire Plume Forged|QID|5801|M|42.66,83.77|Z|Western Plaguelands|N|To Alchemist Arbington. Hold on follow-up until you're ready to do scholomance and you can convice the group to kill Araj the Summoner to get your key. When you do, don't forget your Attuned Dampener.|
 T Flint Shadowmore|QID|6184|M|43.61,84.50|Z|Western Plaguelands|N|To Flint Shadowmore.|
 A The Eastern Plagues|QID|6185|M|43.61,84.50|Z|Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6184|
@@ -389,46 +389,46 @@ A The Blightcaller Cometh|QID|6186|M|43.62,84.50|Z|Western Plaguelands|N|From Fl
 
 F Menethil Harbor|ACTIVE|6804^6805|M|42.93,85.06|Z|Western Plaguelands|N|Fly to Menethil Harbor. Do NOT Hearth!|
 b Darkshore|ACTIVE|6804^6805|M|4.59,57.13|Z|Wetlands|N|Take the boat to Darkshore.|
-F Talrendis Point|ACTIVE|6804^6805|M|36.34,45.58|Z|Darkshore|N|Fly to Azshara.|
+F Talrendis Point|ACTIVE|6804^6805|M|36.34,45.58|Z|1439; Darkshore|N|Fly to Azshara.|
 C The Demon Hunter |QID|2744|M|60.82,66.35|Z|Swamp of Sorrows|CHAT|N|Speak with Loramus Thalipedes.|
-T The Demon Hunter|QID|2744|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
-A Loramus|QID|3141|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|2744|
-C Loramus|QID|3141|M|60.82,66.35|Z|Azshara|CHAT|N|Listen to Loramus Thalipedes tell his story.|
-T Loramus|QID|3141|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
-A Breaking the Ward|QID|3508|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3141|
-T Breaking the Ward|QID|3508|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes. Give him a few seconds to do his thing before you can turn it in.|
-A The Name of the Beast|QID|3509|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3508|
-T The Name of the Beast|QID|3509|M|77.13,42.81|Z|Azshara|N|To Lord Arkkoroc.|
-A The Name of the Beast|QID|3510|M|77.13,42.81|Z|Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Lord Arkkoroc.|LVL|45|PRE|3509|
-C Beaten Head|QID|3510|M|56.53,44.35|Z|Azshara|N|[color=ff8000]Elite: [/color]Kill Hetaera and loot her 3 heads.|T|Hetaera|
-T The Name of the Beast|QID|3510|M|77.13,42.81|Z|Azshara|N|To Lord Arkkoroc.|
-A The Name of the Beast|QID|3511|M|77.13,42.81|Z|Azshara|N|From Lord Arkkoroc.|LVL|45|PRE|3510|
-C The Name of the Beast|QID|3511|Z|Azshara|N|Take the temper back to Loramus Thalipedes.|
-C The Name of the Beast 1|QID|3511|Z|Azshara|QO|1|N|Hetaera's Blood.|
-T The Name of the Beast|QID|3511|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
-A Azsharite|QID|3602|M|60.82,66.35|Z|Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Loramus Thalipedes.|LVL|45|PRE|3511|
-l Fel Orb|QID|3602|M|PLAYER|Z|Azshara|N|Get the Orb from the bag you just got.|L|10831|U|10834|
-C Azsharite|QID|3602|M|45.7,69.5;51.82,76.63;53.54,74.45;55.39,73.87;53.80,78.88;56.07,78.74;54.30,82.09;51.96,84.35;50.40,81.48;50.20,87.15;55.19,86.79;56.42,88.79;57.29,86.98;59.38,84.88;60.17,83.36;57.78,83.74;56.12,83.35|CN|Z|Azshara|N|Summon our Felhound Tracker, you will need to target it, and /roar for it to find the Crystallized Azsharite you need. Though not necessary, just loot the blue crystals and statues you see around|U|10831|
-T Azsharite|QID|3602|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
-A The Formation of Felbane|QID|3621|M|60.8,66.4|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3602|
+T The Demon Hunter|QID|2744|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
+A Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|2744|
+C Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|CHAT|N|Listen to Loramus Thalipedes tell his story.|
+T Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
+A Breaking the Ward|QID|3508|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3141|
+T Breaking the Ward|QID|3508|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes. Give him a few seconds to do his thing before you can turn it in.|
+A The Name of the Beast|QID|3509|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3508|
+T The Name of the Beast|QID|3509|M|77.13,42.81|Z|1447; Azshara|N|To Lord Arkkoroc.|
+A The Name of the Beast|QID|3510|M|77.13,42.81|Z|1447; Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Lord Arkkoroc.|LVL|45|PRE|3509|
+C Beaten Head|QID|3510|M|56.53,44.35|Z|1447; Azshara|N|[color=ff8000]Elite: [/color]Kill Hetaera and loot her 3 heads.|T|Hetaera|
+T The Name of the Beast|QID|3510|M|77.13,42.81|Z|1447; Azshara|N|To Lord Arkkoroc.|
+A The Name of the Beast|QID|3511|M|77.13,42.81|Z|1447; Azshara|N|From Lord Arkkoroc.|LVL|45|PRE|3510|
+C The Name of the Beast|QID|3511|Z|1447; Azshara|N|Take the temper back to Loramus Thalipedes.|
+C The Name of the Beast 1|QID|3511|Z|1447; Azshara|QO|1|N|Hetaera's Blood.|
+T The Name of the Beast|QID|3511|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
+A Azsharite|QID|3602|M|60.82,66.35|Z|1447; Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Loramus Thalipedes.|LVL|45|PRE|3511|
+l Fel Orb|QID|3602|M|PLAYER|Z|1447; Azshara|N|Get the Orb from the bag you just got.|L|10831|U|10834|
+C Azsharite|QID|3602|M|45.7,69.5;51.82,76.63;53.54,74.45;55.39,73.87;53.80,78.88;56.07,78.74;54.30,82.09;51.96,84.35;50.40,81.48;50.20,87.15;55.19,86.79;56.42,88.79;57.29,86.98;59.38,84.88;60.17,83.36;57.78,83.74;56.12,83.35|CN|Z|1447; Azshara|N|Summon our Felhound Tracker, you will need to target it, and /roar for it to find the Crystallized Azsharite you need. Though not necessary, just loot the blue crystals and statues you see around|U|10831|
+T Azsharite|QID|3602|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
+A The Formation of Felbane|QID|3621|M|60.8,66.4|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3602|
 
-T Poisoned Water|QID|6804|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
-T Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
-A Eye of the Emberseer|QID|6821|M|79.2,73.6|Z|Azshara|N|From Duke Hydraxis.|LVL|55|PRE|6804&6805|
-H Ironforge|ACTIVE|6186|M|PLAYER|Z|Azshara|N|Hearth back to Ironforge.|
-R Deeprun Tram|ACTIVE|6186|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+T Poisoned Water|QID|6804|M|79.26,73.73|Z|1447; Azshara|N|To Duke Hydraxis.|
+T Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|1447; Azshara|N|To Duke Hydraxis.|
+A Eye of the Emberseer|QID|6821|M|79.2,73.6|Z|1447; Azshara|N|From Duke Hydraxis.|LVL|55|PRE|6804&6805|
+H Ironforge|ACTIVE|6186|M|PLAYER|Z|1447; Azshara|N|Hearth back to Ironforge.|
+R Deeprun Tram|ACTIVE|6186|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|ACTIVE|6186|N|Take the tram ride and then run into Stormwind.|
-T The Blightcaller Cometh|QID|6186|M|78.22,18.01|Z|Stormwind City|N|To Highlord Bolvar Fordragon. Follow-up is a world raid quest to kill Blightcaller and is out of scope for the guide.|
+T The Blightcaller Cometh|QID|6186|M|78.22,18.01|Z|1453; Stormwind City|N|To Highlord Bolvar Fordragon. Follow-up is a world raid quest to kill Blightcaller and is out of scope for the guide.|
 
-F Darkshire|ACTIVE|3621|M|66.29,62.13|Z|Stormwind City|N|Fly to Duskwood.|
+F Darkshire|ACTIVE|3621|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Duskwood.|
 R Stranglethorn Vale|ACTIVE|3621|M|37.8,3.4|N|Run to Stranglethorn.|
-T The Formation of Felbane|QID|3621|M|50.61,20.48|Z|Stranglethorn Vale|N|To Galvan the Ancient.|
-A Enchanted Azsharite Fel Weaponry|QID|3625|M|50.61,20.48|Z|Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3621|
-T Enchanted Azsharite Fel Weaponry|QID|3625|M|50.61,20.48|Z|Stranglethorn Vale|N|To Galvan the Ancient.|
-A Return to the Blasted Lands|QID|3626|M|50.61,20.48|Z|Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3625|
+T The Formation of Felbane|QID|3621|M|50.61,20.48|Z|1434; Stranglethorn Vale|N|To Galvan the Ancient.|
+A Enchanted Azsharite Fel Weaponry|QID|3625|M|50.61,20.48|Z|1434; Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3621|
+T Enchanted Azsharite Fel Weaponry|QID|3625|M|50.61,20.48|Z|1434; Stranglethorn Vale|N|To Galvan the Ancient.|
+A Return to the Blasted Lands|QID|3626|M|50.61,20.48|Z|1434; Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3625|
 
-R Duskwood|ACTIVE|3626|M|39.37,5.52;40.77,4.13;40.58,3.08|Z|Stranglethorn Vale|CS|N|Run to Duskwood. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
-F Nethergarde Keep|ACTIVE|3626|M|77.48,44.29|Z|Duskwood|N|Fly to the Blasted Lands. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
+R Duskwood|ACTIVE|3626|M|39.37,5.52;40.77,4.13;40.58,3.08|Z|1434; Stranglethorn Vale|CS|N|Run to Duskwood. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
+F Nethergarde Keep|ACTIVE|3626|M|77.48,44.29|Z|1431; Duskwood|N|Fly to the Blasted Lands. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
 T Return to the Blasted Lands|QID|3626|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
 A Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde. You will need a group for this!|LVL|45|PRE|3626|
 l Fel Salve|ACTIVE|3627|M|34.28,66.14|Z|Swamp of Sorrows|N|Talk to The Fallen Hero again and tell him you destroyed your weapon, even if you didn't and you will get a Fel Salve you can use on the boss instead of equiping the weapon.|L|11582|
