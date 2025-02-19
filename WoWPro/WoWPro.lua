@@ -573,9 +573,18 @@ function WoWPro:OnEnable()
         WoWPro:dbp("PlayerGetTimerunningSeasonID function is not available")
     end
 
+    if _G.C_Seasons.GetActiveSeason() then
+        seasonID = _G.C_Seasons.GetActiveSeason("player")
+    else
+        WoWPro:dbp("ClassicSeasonID function is not available")
+    end
+
     local to_purge = {}
     for gid, guide in pairs(WoWPro.Guides) do
-        if guide['TimerunningSeasonID'] ~= seasonID then
+        if WoWPro.Retail and guide['TimerunningSeasonID'] ~= seasonID then
+            WoWPro:dbp("Queue %q to purge", gid)
+            table.insert(to_purge, gid)
+        elseif WoWPro.Classic and guide['ClassicSeasonID'] ~= seasonID then
             WoWPro:dbp("Queue %q to purge", gid)
             table.insert(to_purge, gid)
         end
@@ -1091,6 +1100,10 @@ end
 
 function WoWPro:TimerunningSeasonID(guide, seasonID)
     guide['TimerunningSeasonID'] = tonumber(seasonID)
+end
+
+function WoWPro:ClassicSeasonID(guide, seasonID)
+    guide['ClassicSeasonID'] = tonumber(seasonID)
 end
 
 function WoWPro:GuideRaceSpecific(guide, race)
