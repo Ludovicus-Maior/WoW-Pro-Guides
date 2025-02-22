@@ -18,29 +18,29 @@ A The Lost Dwarves|QID|2398|M|74.6,11.76|Z|1455; Ironforge|N|From Prospoctor Sto
 ;Pre Group from Chapter 1 Guide
 A Ironband Wants You!|QID|707|M|74.6,11.76|Z|1455; Ironforge|N|From Prospoctor Stormpike.|
 F Thelsamar|QID|2278|M|55.50,47.80|Z|1455; Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar, Loch Modan.|
-A Badlands Reagent Run|QID|2500|M|37.07,49.38|Z|Loch Modan|N|From Ghak Healtouch.|
-T Ironband Wants You!|QID|707|M|65.93,65.62|Z|Loch Modan|N|To Prospecter Ironband.|
-A Find Agmond|QID|738|M|65.93,65.62|Z|Loch Modan|N|To Prospecter Ironband.|PRE|707|
-C Badlands Reagent Run|QID|2500|M|53.42,43.39|Z|Badlands|S|N|From now on, kill any Buzzard, Rock Elementals or Coyote you see.|
-T Find Agmond|QID|738|M|50.89,62.43|Z|Badlands|N|To Battered Dwarven Skeleton.|
-A Murdaloc|QID|739|M|50.9,62.4|Z|Badlands|N|From Battered Dwarven Skeleton.|PRE|738|
-C Murdaloc|QID|739|M|50.53,67.92|Z|Badlands|N|Kill Stonevault Bonesnappers and Murdaloc.|
-C Badlands Reagent Run|QID|2500|M|53.42,43.39|Z|Badlands|US|N|From now on, kill any Buzzard, Rock Elementals or Coyote you see.|
-T Badlands Reagent Run|QID|2500|M|37,49.2|Z|Loch Modan|N|To Ghak Healtouch.|
-A Uldaman Reagent Run|QID|17|M|37.07,49.38|Z|Loch Modan|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Ghak Healtouch.|PRE|2500|
-T Murdaloc|QID|739|M|65.9,65.6|Z|Loch Modan|N|To Prospecter Ironband.|
-A Agmond's Fate|QID|704|M|65.9,65.6|Z|Loch Modan|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Prospecter Ironband.|PRE|739|
+A Badlands Reagent Run|QID|2500|M|37.07,49.38|Z1432; |Loch Modan|N|From Ghak Healtouch.|
+T Ironband Wants You!|QID|707|M|65.93,65.62|Z1432; |Loch Modan|N|To Prospecter Ironband.|
+A Find Agmond|QID|738|M|65.93,65.62|Z1432; |Loch Modan|N|To Prospecter Ironband.|PRE|707|
+C Badlands Reagent Run|QID|2500|M|53.42,43.39|Z|1418; Badlands|S|N|From now on, kill any Buzzard, Rock Elementals or Coyote you see.|
+T Find Agmond|QID|738|M|50.89,62.43|Z|1418; Badlands|N|To Battered Dwarven Skeleton.|
+A Murdaloc|QID|739|M|50.9,62.4|Z|1418; Badlands|N|From Battered Dwarven Skeleton.|PRE|738|
+C Murdaloc|QID|739|M|50.53,67.92|Z|1418; Badlands|N|Kill Stonevault Bonesnappers and Murdaloc.|
+C Badlands Reagent Run|QID|2500|M|53.42,43.39|Z|1418; Badlands|US|N|From now on, kill any Buzzard, Rock Elementals or Coyote you see.|
+T Badlands Reagent Run|QID|2500|M|37,49.2|Z1432; |Loch Modan|N|To Ghak Healtouch.|
+A Uldaman Reagent Run|QID|17|M|37.07,49.38|Z1432; |Loch Modan|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Ghak Healtouch.|PRE|2500|
+T Murdaloc|QID|739|M|65.9,65.6|Z1432; |Loch Modan|N|To Prospecter Ironband.|
+A Agmond's Fate|QID|704|M|65.9,65.6|Z1432; |Loch Modan|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Prospecter Ironband.|PRE|739|
 
 ;Before Dungeon
-A Power Stones|QID|2418|M|42.39,52.92|Z|Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Rigglefuzz.|
-A Solution to Doom|QID|709|M|51.39,76.87|Z|Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Theldurin the Lost.|
-A A Sign of Hope|QID|720|M|53.03,33.93|Z|Badlands|N|Get quest from map on the ground here.|
-T A Sign of Hope|QID|720|M|53.42,43.40|Z|Badlands|N|To Prospecter Ryedol.|
-A A Sign of Hope|QID|721|M|53.42,43.40|Z|Badlands|N|From Prospecter Ryedol.|PRE|720|
-l Shattered Necklace|QID|2198|M|PLAYER|Z|Badlands|S|N|Drops off Shadowforge NPCs outside of instance.|L|7666|
-A The Shattered Necklace|QID|2198|M|PLAYER|Z|Badlands|N|Click on the Necklace to get this quest.|U|7666|
-C Uldaman Reagent Run|QID|17|M|PLAYER|Z|Badlands|S|NC|N|Pick up mushrooms that spawn around the area outside the instance.|
-C Agmond's Fate|QID|704|M|PLAYER|Z|Badlands|S|NC|N|Collect the urns scattered throughout the tunnels outside the instance.|
+A Power Stones|QID|2418|M|42.39,52.92|Z|1418; Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Rigglefuzz.|
+A Solution to Doom|QID|709|M|51.39,76.87|Z|1418; Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Theldurin the Lost.|
+A A Sign of Hope|QID|720|M|53.03,33.93|Z|1418; Badlands|N|Get quest from map on the ground here.|
+T A Sign of Hope|QID|720|M|53.42,43.40|Z|1418; Badlands|N|To Prospecter Ryedol.|
+A A Sign of Hope|QID|721|M|53.42,43.40|Z|1418; Badlands|N|From Prospecter Ryedol.|PRE|720|
+l Shattered Necklace|QID|2198|M|PLAYER|Z|1418; Badlands|S|N|Drops off Shadowforge NPCs outside of instance.|L|7666|
+A The Shattered Necklace|QID|2198|M|PLAYER|Z|1418; Badlands|N|Click on the Necklace to get this quest.|U|7666|
+C Uldaman Reagent Run|QID|17|M|PLAYER|Z|1418; Badlands|S|NC|N|Pick up mushrooms that spawn around the area outside the instance.|
+C Agmond's Fate|QID|704|M|PLAYER|Z|1418; Badlands|S|NC|N|Collect the urns scattered throughout the tunnels outside the instance.|
 T A Sign of Hope|QID|721|M|54.04,57.66|Z|Eastern Kingdoms|N|To Hammertoe Grez.|
 A Amulet of Secrets|QID|722|M|54.04,57.66|Z|Eastern Kingdoms|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Hammertoe Grez.|PRE|721|
 K Magregan Deepshadow|QID|722|M|54.12,58.05|Z|Eastern Kingdoms|N|Kill Magregan Deepshadow who patrols this area and loot Hammertoe's Amulet.\n\nElite|L|4635|T|Magregan Deepshadow|
@@ -51,11 +51,11 @@ C Solution to Doom|QID|709|M|54.14,58.24|Z|Eastern Kingdoms|NC|N|Click on the An
 C Agmond's Fate|QID|704|M|PLAYER|Z|Eastern Kingdoms|US|NC|N|Finish collecting the urns scattered throughout the tunnels outside the instance.|
 C Uldaman Reagent Run|QID|17|M|PLAYER|Z|Eastern Kingdoms|US|NC|N|Finish picking up the mushrooms throughout the tunnels outside the instance.|
 l Shattered Necklace|QID|2198|M|PLAYER|Z|Eastern Kingdoms|US|N|Continue killing Shadowforge NPCs outside of instance for this.\n\nThis opens up a quest chain that will require you to buy/make 5 Silver bars to turn in. Completing this chain is worth 18,460 experience, 350 Gnome Rep and awards a nice necklace at the end for healers, or about 90 silver at the vendor. There is a chance of getting the drop within the dungeon but then you will need to come back a 2nd time. If this is too much just skip the quest and move on.|L|7666|
-T Prospect of Faith|QID|723|M|53.42,43.40|Z|Badlands|N|To Prospecter Ryedol.|
-A Prospect of Faith|QID|724|M|53.42,43.40|Z|Badlands|N|From Prospecter Ryedol.|PRE|723|
-T Solution to Doom|QID|709|M|51.39,76.87|Z|Badlands|N|To Theldurin the Lost.|
-A To Ironforge for Yagyin's Digest|QID|727|M|51.4,76.8|Z|Badlands|N|From Theldurin the Lost.|PRE|709|
-H Ironforge|QID|1000|ACTIVE|724^2198^2199^16^704^727^1360|M|PLAYER|Z|Badlands|N|Hearth to Ironforge to follow the quest chains and come back.|
+T Prospect of Faith|QID|723|M|53.42,43.40|Z|1418; Badlands|N|To Prospecter Ryedol.|
+A Prospect of Faith|QID|724|M|53.42,43.40|Z|1418; Badlands|N|From Prospecter Ryedol.|PRE|723|
+T Solution to Doom|QID|709|M|51.39,76.87|Z|1418; Badlands|N|To Theldurin the Lost.|
+A To Ironforge for Yagyin's Digest|QID|727|M|51.4,76.8|Z|1418; Badlands|N|From Theldurin the Lost.|PRE|709|
+H Ironforge|QID|1000|ACTIVE|724^2198^2199^16^704^727^1360|M|PLAYER|Z|1418; Badlands|N|Hearth to Ironforge to follow the quest chains and come back.|
 B Silver Bars|QID|1000|ACTIVE|2198^2199|M|PLAYER|Z|1455; Ironforge|N|Buy or make 5 Silver Bars.|L|2842 5|ITEM|2842|
 T The Shattered Necklace|QID|2198|M|36.37,3.60|Z|1455; Ironforge|N|To Talvash del Kissel.|
 A Lore for a Price|QID|2199|M|36.37,3.60|Z|1455; Ironforge|N|From Talvash del Kissel.|PRE|2198|
@@ -70,10 +70,10 @@ T Passing Word of a Threat|QID|726|M|77.53,11.81|Z|1455; Ironforge|N|To Historia
 A An Ambassador of Evil|QID|762|M|77.53,11.81|Z|1455; Ironforge|ELITE|N|[color=ff8000]Elite: [/color]From Historian Karnik.|PRE|726|
 T Reclaimed Treasures|QID|1360|M|74.19,9.38|Z|1455; Ironforge|N|To Krom Stoutarm.|
 F Thelsamar|QID|2278|M|55.50,47.80|Z|1455; Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar, Loch Modan if you're in Ironforge otherwise skip manually..|
-T Uldaman Reagent Run|QID|17|M|37.07,49.38|Z|Loch Modan|N|To Ghak Healtouch.|
-T Agmond's Fate|QID|704|M|65.9,65.6|Z|Loch Modan|N|From Prospecter Ironband.|
-C Power Stones|QID|2418|M|PLAYER|Z|Badlands|S!US|N|Collect the Power stones off dwarves in Angor Fortress and within Uldaman.|
-K Ambassador Infernus|QID|762|M|41.99,28.72|Z|Badlands|ELITE|N|[color=ff8000]Elite: [/color]Bottom floor of Angor Fortress. Kill and loot his bracer.|L|4621|T|Ambassador Infernus|
+T Uldaman Reagent Run|QID|17|M|37.07,49.38|Z1432; |Loch Modan|N|To Ghak Healtouch.|
+T Agmond's Fate|QID|704|M|65.9,65.6|Z1432; |Loch Modan|N|From Prospecter Ironband.|
+C Power Stones|QID|2418|M|PLAYER|Z|1418; Badlands|S!US|N|Collect the Power stones off dwarves in Angor Fortress and within Uldaman.|
+K Ambassador Infernus|QID|762|M|41.99,28.72|Z|1418; Badlands|ELITE|N|[color=ff8000]Elite: [/color]Bottom floor of Angor Fortress. Kill and loot his bracer.|L|4621|T|Ambassador Infernus|
 T An Ambassador of Evil|QID|762|M|77.34,9.68|Z|1455; Ironforge|N|To Advisor Belgrum.|
 A The Lost Tablets of Will|QID|1139|M|77.34,9.68|Z|1455; Ironforge|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Advisor Belgrum.|PRE|762|
 N Find a full group|QID|2278|N|If you haven't already, now is the time to find a full group to run the dungeon. If aren't able to run with guild or friends, don't forget the LFG channel by right clicking your chat tab and selecting 'Settings' -> Global Channels -> Checkbox 'LookingForGroup'.\n\nManually check this step off once you have your group.|GROUP|5|
@@ -102,8 +102,8 @@ T The Platinum Discs|QID|2278|M|PLAYER|N|Back at The Discs of Norgannon.|
 A The Platinum Discs|QID|2279|M|PLAYER|N|From The Discs of Norgannon.|PRE|2278|
 
 ;After Dungeon
-T Power Stones|QID|2418|M|42.39,52.92|Z|Badlands|N|To Rigglefuzz. To save a trip running back to badlands, I would run out to the backdoor. Where the Obsidian Sentinel was.|
-H Ironforge|QID|2279|M|PLAYER|Z|Badlands|N|Hearth to Ironforge to follow the quest chains and come back.|
+T Power Stones|QID|2418|M|42.39,52.92|Z|1418; Badlands|N|To Rigglefuzz. To save a trip running back to badlands, I would run out to the backdoor. Where the Obsidian Sentinel was.|
+H Ironforge|QID|2279|M|PLAYER|Z|1418; Badlands|N|Hearth to Ironforge to follow the quest chains and come back.|
 T Restoring the Necklace|QID|2204|M|36.37,3.60|Z|1455; Ironforge|N|To Talvash del Kissel.|
 A Restoring the Necklace|QID|2361|M|36.37,3.60|Z|1455; Ironforge|N|From Talvash del Kissel.|PRE|2204|
 T Restoring the Necklace|QID|2361|M|36.37,3.60|Z|1455; Ironforge|N|To Talvash del Kissel.|

@@ -126,47 +126,47 @@ C A Husband's Revenge|QID|530|M|46.06,85.64|Z|Silverpine Forest|L|3613|N|Kill Va
 R Hillsbrad Foothills|ACTIVE|1065|M|51.10,72.45;53.67,72.47;67.00,80.28|Z|Silverpine Forest|CC|N|Head back to the main road. Continue east on the main road to the Silverpine Forest/Hillsbrad Foothills border.|
 
 ; --- Hillsbrad Foothills
-A Time To Strike|QID|494|M|20.79,47.36|Z|Hillsbrad Foothills|N|From Deathstalker Lesh at Southpoint Tower.|
-R Tarren Mill|QID|494|M|57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Follow the road to Tarren Mill.|
-f Tarren Mill|QID|494|M|60.09,18.67|Z|Hillsbrad Foothills|N|At Zarise.|
-T Journey to Tarren Mill|QID|1065|M|61.44,19.06|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Blood of Innocents|QID|1066|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1065|
-T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.06|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Elixir of Pain|QID|501|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-A Elixir of Suffering|QID|496|M|61.44,19.06|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-T Time To Strike|QID|494|M|62.28,20.25|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad|QID|527|M|62.28,20.25|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
-A WANTED: Syndicate Personnel|QID|549|M|62.62,20.73|Z|Hillsbrad Foothills|N|From the Wanted post beside the Chapel entrance.|
-A The Rescue|QID|498|M|63.20,20.66|Z|Hillsbrad Foothills|N|From Krusk.|
+A Time To Strike|QID|494|M|20.79,47.36|Z|1424; Hillsbrad Foothills|N|From Deathstalker Lesh at Southpoint Tower.|
+R Tarren Mill|QID|494|M|57.65,36.61;55.86,19.60|Z|1424; Hillsbrad Foothills|CC|N|Follow the road to Tarren Mill.|
+f Tarren Mill|QID|494|M|60.09,18.67|Z|1424; Hillsbrad Foothills|N|At Zarise.|
+T Journey to Tarren Mill|QID|1065|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Blood of Innocents|QID|1066|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1065|
+T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Elixir of Pain|QID|501|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Suffering|QID|496|M|61.44,19.06|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Time To Strike|QID|494|M|62.28,20.25|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|527|M|62.28,20.25|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia.|
+A WANTED: Syndicate Personnel|QID|549|M|62.62,20.73|Z|1424; Hillsbrad Foothills|N|From the Wanted post beside the Chapel entrance.|
+A The Rescue|QID|498|M|63.20,20.66|Z|1424; Hillsbrad Foothills|N|From Krusk.|
 C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears for their Tongue.|S|IZ|-275|
 C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers for the Creeper Ichor.\nThis shouldn't take long.|S|IZ|-275|
 C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions for vials of their blood.|S|IZ|-275|
-R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
+R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|1424; Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
 C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|
-K Jailor Eston|ACTIVE|498|M|79.6,40.6|Z|Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|T|Jailor Eston|
+K Jailor Eston|ACTIVE|498|M|79.6,40.6|Z|1424; Hillsbrad Foothills|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|T|Jailor Eston|
 K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|T|Jailor Marlgen|
-C The Rescue|QID|498|M|79.74,39.64|Z|Hillsbrad Foothills|QO|2|U|3499|N|Rescue Tog'thar.|NC|
-C The Rescue|QID|498|M|77.40,42.81;75.50,38.76;75.18,41.64|Z|Hillsbrad Foothills|CC|QO|1|U|3467|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]Run along the stone wall west of the bridge, drop down to the ground behind the buildings, and follow the wall around to the backdoor.\nHe has a rogue, a mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n\nSometimes Jailor Eston will spawn inside. He can be pulled singly as well.|NC|
+C The Rescue|QID|498|M|79.74,39.64|Z|1424; Hillsbrad Foothills|QO|2|U|3499|N|Rescue Tog'thar.|NC|
+C The Rescue|QID|498|M|77.40,42.81;75.50,38.76;75.18,41.64|Z|1424; Hillsbrad Foothills|CC|QO|1|U|3467|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]Run along the stone wall west of the bridge, drop down to the ground behind the buildings, and follow the wall around to the backdoor.\nHe has a rogue, a mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.\n\nSometimes Jailor Eston will spawn inside. He can be pulled singly as well.|NC|
 C Blood of Innocents|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|US|
 C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|US|
-R Tarren Mill|ACTIVE|549|M|62.38,28.44|Z|Hillsbrad Foothills|
-T WANTED: Syndicate Personnel|QID|549|M|62.29,20.27|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-T The Rescue|QID|498|M|63.24,20.66|Z|Hillsbrad Foothills|N|To Krusk.|
-T Blood of Innocents|QID|1066|M|61.45,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Return to Thunder Bluff|QID|1067|M|61.45,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1066|
+R Tarren Mill|ACTIVE|549|M|62.38,28.44|Z|1424; Hillsbrad Foothills|
+T WANTED: Syndicate Personnel|QID|549|M|62.29,20.27|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
+T The Rescue|QID|498|M|63.24,20.66|Z|1424; Hillsbrad Foothills|N|To Krusk.|
+T Blood of Innocents|QID|1066|M|61.45,19.07|Z|1424; Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Return to Thunder Bluff|QID|1067|M|61.45,19.07|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|1066|
 N Collection Quests|ACTIVE|496^501|N|You are going to finish up your collection (Elixir) quests before you leave the area. No need to carry the quests and their items with you.|
 C Kill Moss Creepers|QID|496|L|3477 1|N|Kill Moss Creepers until you loot the Creeper Ichor.|US|
 C Kill Mountain Lions|QID|501|L|3496 10|N|Kill Mountain Lions until you are done.|US|
 C Kill Gray Bears|QID|496|L|3476 10|N|Kill Gray Bears until you are done.|US|
-R Tarren Mill|ACTIVE|496|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
-T Elixir of Suffering|QID|496|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Elixir of Suffering|QID|499|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|496|
-T Elixir of Suffering|QID|499|M|61.49,19.16|Z|Hillsbrad Foothills|N|To Umpi behind you.|
-T Elixir of Pain|QID|501|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up. You can get it when you return later.|
+R Tarren Mill|ACTIVE|496|M|61.35,20.04|Z|1424; Hillsbrad Foothills|N|Head back to Tarren Mill.|
+T Elixir of Suffering|QID|496|M|61.44,19.07|Z|1424; Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Elixir of Suffering|QID|499|M|61.44,19.07|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|496|
+T Elixir of Suffering|QID|499|M|61.49,19.16|Z|1424; Hillsbrad Foothills|N|To Umpi behind you.|
+T Elixir of Pain|QID|501|M|61.44,19.07|Z|1424; Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow-up. You can get it when you return later.|
 
 ; --- Silverpine Forest
-F The Sepulcher|ACTIVE|516^480|M|60.19,18.69|Z|Hillsbrad Foothills|
+F The Sepulcher|ACTIVE|516^480|M|60.19,18.69|Z|1424; Hillsbrad Foothills|
 T Beren's Peril|QID|516|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 T The Weaver|QID|480|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 
@@ -275,45 +275,45 @@ R Leave Orgrimmar|AVAILABLE|502|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar th
 b Tirisfal Glades|AVAILABLE|502|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|
 R Undercity|AVAILABLE|502|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 F Tarren Mill|AVAILABLE|502|M|63.26,48.54|Z|Undercity|
-A Elixir of Pain|QID|502|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|501|
-A Elixir of Agony|QID|509|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|502|
-A Dangerous!|QID|567|M|62.55,19.69|Z|Hillsbrad Foothills|N|From the wanted poster hanging beside the Inn's front door.\njust in case you run into one of them while you are doing other things, accept this quest now. It would suck to have to kill them more than once because you didn't have the quest.|
-R Hillsbrad Fields|ACTIVE|502^527|M|33.43,35.03|Z|Hillsbrad Foothills|N|Run to the north end of the area.|
+A Elixir of Pain|QID|502|M|61.44,19.07|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|501|
+A Elixir of Agony|QID|509|M|61.44,19.07|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|502|
+A Dangerous!|QID|567|M|62.55,19.69|Z|1424; Hillsbrad Foothills|N|From the wanted poster hanging beside the Inn's front door.\njust in case you run into one of them while you are doing other things, accept this quest now. It would suck to have to kill them more than once because you didn't have the quest.|
+R Hillsbrad Fields|ACTIVE|502^527|M|33.43,35.03|Z|1424; Hillsbrad Foothills|N|Run to the north end of the area.|
 C Battle of Hillsbrad|QID|527|QO|1;2|N|Kill Hillsbrad Farmers and Farmhands.|S|
-T Elixir of Pain|QID|502|M|32.96,35.15|Z|Hillsbrad Foothills|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
-K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|Z|Hillsbrad Foothills|CN|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|T|Farmer Ray|
-K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|Z|Hillsbrad Foothills|CN|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|T|Farmer Getz|
+T Elixir of Pain|QID|502|M|32.96,35.15|Z|1424; Hillsbrad Foothills|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
+K Farmer Ray|QID|527|M|32.67,35.62;33.74,33.50|Z|1424; Hillsbrad Foothills|CN|QO|3|N|Kill Farmer Ray. He's just inside the front door. Draw him out so you don't aggro the mobs inside with him.\n[color=FF0000]NOTE: [/color]If he's not in the house, check the courtyard on the east side of the house. The courtyard location requires you clear the adds first.|T|Farmer Ray|
+K Farmer Getz|QID|527|M|35.45,38.00;36.52,39.45|Z|1424; Hillsbrad Foothills|CN|QO|4|N|Kill Farmer Getz. He's inside the barn. Be prepared. You will aggro the 2 mobs that are in there with him.\n[color=FF0000]NOTE: [/color]If he's at the house (east of the barn), he'll only have 1 mob with him.|T|Farmer Getz|
 C Battle of Hillsbrad|QID|527|QO|1;2|N|Finish killing Hillsbrad Farmers and Farmhands.|US|
-R Tarren Mill|QID|527|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
-T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia in Tarren Mill. Stay north of the road so you can continue working on your collection quests.|
-A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+R Tarren Mill|QID|527|M|61.35,20.04|Z|1424; Hillsbrad Foothills|N|Head back to Tarren Mill.|
+T Battle of Hillsbrad|QID|527|M|62.27,20.32|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia in Tarren Mill. Stay north of the road so you can continue working on your collection quests.|
+A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia.|
 C Battle of Hillsbrad|QID|528|QO|1|N|Kill Hillsbrad Peasants.|S|
-A Souvenirs of Death|QID|546|M|62.19,19.86|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|PRE|527|
+A Souvenirs of Death|QID|546|M|62.19,19.86|Z|1424; Hillsbrad Foothills|N|From Deathguard Samsa.|PRE|527|
 C Souvenirs of Death|QID|546|L|3692 30|N|Basically, kill Hillsbrad human mobs to collect Hillsbrad Human Skulls.|S|
-R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|Hillsbrad Foothills|N|Run to the south east part of the area.|
-K Farmer Kalaba|QID|567|M|35.71,46.76|Z|Hillsbrad Foothills|QO|4|N|Kill Farmer Kalaba in the SE orchard.|T|Farmer Kalaba|
+R Hillsbrad Fields|ACTIVE|528^546^567|M|37.03,43.41|Z|1424; Hillsbrad Foothills|N|Run to the south east part of the area.|
+K Farmer Kalaba|QID|567|M|35.71,46.76|Z|1424; Hillsbrad Foothills|QO|4|N|Kill Farmer Kalaba in the SE orchard.|T|Farmer Kalaba|
 C Battle of Hillsbrad|QID|528|QO|1|N|Finish killing Hillsbrad Peasants.|US|
-R Nethander Stead|ACTIVE|509|M|62.29,41.41;63.77,57.82|Z|Hillsbrad Foothills|CC|N|Make your way south to Nethander Stead.\n[color=FF0000]NOTE: [/color]Don't be silly and try cutting through Southshore.|
+R Nethander Stead|ACTIVE|509|M|62.29,41.41;63.77,57.82|Z|1424; Hillsbrad Foothills|CC|N|Make your way south to Nethander Stead.\n[color=FF0000]NOTE: [/color]Don't be silly and try cutting through Southshore.|
 C Elixir of Agony|QID|509|L|3502 6|N|Collect Mudsnout Blossoms.|
-R Tarren Mill|QID|509|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren Mill.|
+R Tarren Mill|QID|509|M|61.35,20.04|Z|1424; Hillsbrad Foothills|N|Head back to Tarren Mill.|
 ;L Level 27|QID|567|LVL|27|N|You should be around level 27 by this point.|
-T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|528|
-R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|Hillsbrad Foothills|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|
-C Battle of Hillsbrad|QID|529|M|32,46|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 3 inside the forge and 1 outside.|S|
+T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|528|
+R Hillsbrad Fields|ACTIVE|529^546^567|M|32.21,48.31|Z|1424; Hillsbrad Foothills|N|Make your way to the south entrance to Hillsbrad Fields. You are headed for the Forge.|
+C Battle of Hillsbrad|QID|529|M|32,46|Z|1424; Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 3 inside the forge and 1 outside.|S|
 K Blacksmith Verringtan|QID|529|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\nSometimes you get lucky and he will spawn outside.\n[color=FF0000]NOTE: [/color]If you approach from the south entrance, you'll aggro all 4 mobs inside. If you approach from the north entrance, you'll only aggro 3 of them. Run around to the rear of the building to avoid aggroing anyone else and to prevent the runners from doing the same. Verringtan will be one of the mobs that attack you.\nIf Verringtan spawned outside, you will only pull 2 mobs.|T|Blacksmith Verringtan|
-C Battle of Hillsbrad|QID|529|M|31.99,45.43|Z|Hillsbrad Foothills|L|3564|N|As soon as you clear the forge, run inside and pick up the Shipment of Iron inside the forge.|
+C Battle of Hillsbrad|QID|529|M|31.99,45.43|Z|1424; Hillsbrad Foothills|L|3564|N|As soon as you clear the forge, run inside and pick up the Shipment of Iron inside the forge.|
 C Battle of Hillsbrad|QID|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths. You should be able to pull the one outside by himself.|US|
 C Souvenirs of Death|QID|546|L|3692 30|N|Continue killing Hillsbrad human mobs until you are done collecting the Hillsbrad Human Skulls./nYou are leaving this area shortly and there's no point carrying this quest and items with you.|US|
-R Tarren Mill|QID|529|M|61.35,20.04|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill.|
-t Souvenirs of Death|QID|546|M|62.10,19.82|Z|Hillsbrad Foothills|N|To Deathguard Samsa.|
-T Elixir of Agony|QID|509|M|61.47,19.22|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Elixir of Agony|QID|513|M|61.47,19.22|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|509|
-T Battle of Hillsbrad|QID|529|M|62.29,20.31|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+R Tarren Mill|QID|529|M|61.35,20.04|Z|1424; Hillsbrad Foothills|CC|N|Return to Tarren Mill.|
+t Souvenirs of Death|QID|546|M|62.10,19.82|Z|1424; Hillsbrad Foothills|N|To Deathguard Samsa.|
+T Elixir of Agony|QID|509|M|61.47,19.22|Z|1424; Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Elixir of Agony|QID|513|M|61.47,19.22|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|509|
+T Battle of Hillsbrad|QID|529|M|62.29,20.31|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
 
 ; --- Undercity
 N Too tough|ACTIVE|513|N|This area has gotten a little too tough for your current level. We will temporarily move on for now. We are going to head back to The Barrens.|
-F Undercity|QID|513|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
+F Undercity|QID|513|M|60.19,18.69|Z|1424; Hillsbrad Foothills|N|Fly to Undercity.|
 T Elixir of Agony|QID|513|M|48.68,69.25|Z|Undercity|N|To Master Apothecary Faranell, underneath The Apothecarium.|
 
 ; --- The Barrens
@@ -479,32 +479,32 @@ T Assault on Fenris Isle|QID|442|M|43.43,40.86|Z|Silverpine Forest|N|To High Exe
 
 ; --- Hillsbrad Foothills
 F Tarren Mill|QID|515|M|45.62,42.59|Z|Silverpine Forest|
-A Battle of Hillsbrad|QID|532|M|62.29,20.31|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
-R Hillsbrad Fields|ACTIVE|515^532^567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
+A Battle of Hillsbrad|QID|532|M|62.29,20.31|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia.|
+R Hillsbrad Fields|ACTIVE|515^532^567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|1424; Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
 N Clerk Horrace Whitesteed|ACTIVE|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
 C Battle of Hillsbrad|QID|532|QO|2|N|Kill Hillsbrad Councilmen.|S|
-K Clerk Horrace Whitesteed|ACTIVE|567|M|30.08,42.01|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed inside the Townhall. He's just inside the main room against the near wall to the right of the doorway.|T|Clerk Horrace Whitesteed|
-K Magistrate Burnside|ACTIVE|532|M|29.65,41.70|Z|Hillsbrad Foothills|QO|1|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|T|Magistrate Burnside|
-C Battle of Hillsbrad|QID|532|M|29.65,41.70|Z|Hillsbrad Foothills|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
-C Battle of Hillsbrad|QID|532|M|29.59,41.64|Z|Hillsbrad Foothills|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
+K Clerk Horrace Whitesteed|ACTIVE|567|M|30.08,42.01|Z|1424; Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed inside the Townhall. He's just inside the main room against the near wall to the right of the doorway.|T|Clerk Horrace Whitesteed|
+K Magistrate Burnside|ACTIVE|532|M|29.65,41.70|Z|1424; Hillsbrad Foothills|QO|1|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|T|Magistrate Burnside|
+C Battle of Hillsbrad|QID|532|M|29.65,41.70|Z|1424; Hillsbrad Foothills|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
+C Battle of Hillsbrad|QID|532|M|29.59,41.64|Z|1424; Hillsbrad Foothills|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
 C Battle of Hillsbrad|QID|532|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
 K Citizen Wilkes|ACTIVE|567|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.\n[color=FF0000]NOTE: [/color]Being that this the last time you will be here, go find him.|US|T|Citizen Wilkes|
-R Tarren Mill|QID|532|M|32.08,50.30;57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill. If you wish to do some grinding, run through the grass area.|
-T Battle of Hillsbrad|QID|532|M|62.22,20.33|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad|QID|539|M|62.22,20.33|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|532|
-R Azurelode Mine|QID|567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
+R Tarren Mill|QID|532|M|32.08,50.30;57.65,36.61;55.86,19.60|Z|1424; Hillsbrad Foothills|CC|N|Return to Tarren Mill. If you wish to do some grinding, run through the grass area.|
+T Battle of Hillsbrad|QID|532|M|62.22,20.33|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|539|M|62.22,20.33|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|532|
+R Azurelode Mine|QID|567|M|27.50,59.30|Z|1424; Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
 C Battle of Hillsbrad|QID|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're everywhere.|S|
-K Miner Hackett|ACTIVE|567|M|27.27,58.63;28.61,52.80;29.77,54.13;29.78,55.63;29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds is located. If you look over the ledge, you should see him below you.|T|Miner Hackett|
-C Battle of Hillsbrad|QID|539|M|31.22,55.76|Z|Hillsbrad Foothills|QO|1|N|Kill Foreman Bonds. Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can resurrect outside the mine and go back in if you have to.|
+K Miner Hackett|ACTIVE|567|M|27.27,58.63;28.61,52.80;29.77,54.13;29.78,55.63;29.94,54.58|Z|1424; Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds is located. If you look over the ledge, you should see him below you.|T|Miner Hackett|
+C Battle of Hillsbrad|QID|539|M|31.22,55.76|Z|1424; Hillsbrad Foothills|QO|1|N|Kill Foreman Bonds. Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can resurrect outside the mine and go back in if you have to.|
 C Battle of Hillsbrad|QID|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
-R Western Strand|QID|515|ACTIVE|515|M|25.00,63.79|Z|Hillsbrad Foothills|CC|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
+R Western Strand|QID|515|ACTIVE|515|M|25.00,63.79|Z|1424; Hillsbrad Foothills|CC|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
 C Elixir of Agony|ACTIVE|515|L|3510 5|N|Working your way east along the coast, kill the Murlocs to collect Torn Fin Eyes.\nMuckdwellers are a better choice over Coastrunners (range attack).\nIf you prefer, you can do this in the water as you swim east.\n[color=FF0000]NOTE: [/color]Avoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|
-R Eastern Strand|ACTIVE|515|M|53.19,64.57|Z|Hillsbrad Foothills|N|Southshore is Alliance controlled. So, unless you enjoy running from PvP guards, I'd steer clear of it.\n[color=FF0000]NOTE: [/color]You have a couple choices at this point. You can either run north to the road and go around that way, or you can swim across. Cross at the southern most point of the shoreline to maintain your distance from Southshore.|
+R Eastern Strand|ACTIVE|515|M|53.19,64.57|Z|1424; Hillsbrad Foothills|N|Southshore is Alliance controlled. So, unless you enjoy running from PvP guards, I'd steer clear of it.\n[color=FF0000]NOTE: [/color]You have a couple choices at this point. You can either run north to the road and go around that way, or you can swim across. Cross at the southern most point of the shoreline to maintain your distance from Southshore.|
 C Elixir of Agony|ACTIVE|515|L|3509 5|N|Kill the Nagas to collect Daggerspine Scales.|
-R Tarren Mill|QID|515|M|62.81,41.59;63.31,29.84|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill.\nDepending on which end of Eastern Strand you are at, you can either follow the road north of you, or weave your way to the river and follow the EAST bank north. The Southshore guards will leave you alone as long as you don't go in the water.\n[color=FF0000]NOTE: [/color]IF YOU GO IN THE WATER, YOU WILL DIE!!!|
-T Elixir of Agony|QID|515|M|61.47,19.17|Z|Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
-T Dangerous!|QID|567|M|62.36,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-T Battle of Hillsbrad|QID|539|M|62.36,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
+R Tarren Mill|QID|515|M|62.81,41.59;63.31,29.84|Z|1424; Hillsbrad Foothills|CC|N|Return to Tarren Mill.\nDepending on which end of Eastern Strand you are at, you can either follow the road north of you, or weave your way to the river and follow the EAST bank north. The Southshore guards will leave you alone as long as you don't go in the water.\n[color=FF0000]NOTE: [/color]IF YOU GO IN THE WATER, YOU WILL DIE!!!|
+T Elixir of Agony|QID|515|M|61.47,19.17|Z|1424; Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
+T Dangerous!|QID|567|M|62.36,20.32|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
+T Battle of Hillsbrad|QID|539|M|62.36,20.32|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
 
 ; --- The Barrens
 H Orgrimmar|QID|5881|N|Hearth back to Orgrimmar to take care of training and anything else you wish to do before starting the next chapter.|

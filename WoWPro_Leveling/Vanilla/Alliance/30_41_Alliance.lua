@@ -197,9 +197,9 @@ T Raptor Mastery|QID|194|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nes
 C Supply and Demand|QID|575|M|40.6,13.3|Z|1434; Stranglethorn Vale|N|Kill River Crocolisks and loot their skins.|US|
 A The Green Hills of Stranglethorn|QID|338|PRE|583|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|From Barnil Stonepot.\n[color=FF0000]NOTE: [/color]You must have this quest for the chapter quests to show up.|
 N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|1434; Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are in the camp.\n[color=FF0000]NOTE: [/color]You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
-r Housekeeping|QID|605|M|35.76,10.66|Z|1434; Stranglethorn Vale|N|Bags will get full quickly here. |
+r Housekeeping|ACTIVE|201|M|35.76,10.66|Z|1434; Stranglethorn Vale|N|Bags will get full quickly here. |
 
-H The Salty Sailor Tavern|QID|605|M|27.07,77.60|Z|1434; Stranglethorn Vale|N|Hearth to Booty Bay.
+H The Salty Sailor Tavern|QID|201|M|27.07,77.60|Z|1434; Stranglethorn Vale|N|Hearth to Booty Bay.
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|1434; Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 T Krazek's Cookery|QID|210|M|26.94,77.21|Z|1434; Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 B Lesser Bloodstone Ore|QID|627|Z|1455; Ironforge|L|4278 4|ITEM|4278|N|Obtain four Lesser Bloodstone Ores from the AH or a player with Mining.\n[color=FF0000]NOTE: [/color]You require them for the next quest.\nSkip this step if you cannot find them.|IZ|Booty Bay|
@@ -346,7 +346,7 @@ T The Missing Diplomat|QID|1250|M|10.61,60.77|Z|1437; Wetlands|N|To Mikhail.|
 A The Missing Diplomat|QID|1264|PRE|1250|M|10.61,60.77|Z|1437; Wetlands|N|From Mikhail.|
 A James Hyal|QID|1302|M|10.82,60.41|Z|1437; Wetlands|N|From Vincent Hyal.|
 
-F Ironforge|QID|563|M|49.34,52.28|Z|1424; Hillsbrad Foothills|N|Fly to Ironforge to take care of a few things.|
+F Ironforge|QID|563|M|9.46,59.62|Z|1437; Wetlands|N|Fly to Ironforge to take care of a few things.|
 T A King's Tribute|QID|689|M|38.74,87.05|Z|1455; Ironforge|N|To Grand Mason Marblesten.|
 A A King's Tribute|QID|700|PRE|689|M|38.74,87.05|Z|1455; Ironforge|N|From Grand Mason Marblesten. \n\nNeed to wait about a minute while he goes downstairs and builds the thing, feel free to follow him and watch.|
 T A King's Tribute|QID|700|M|39.11,56.21|Z|1455; Ironforge|N|To King Magni Bronzebeard.|
@@ -355,8 +355,8 @@ T Letter to Stormpike|QID|514|M|74.7,11.7|Z|1455; Ironforge|N|To Prospector Stor
 
 R Deeprun Tram|QID|563|M|76.83,51.28|Z|1455; Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|563|N|Take the tram ride and then run into Stormwind.|
-R The Canals|QID|542|M|65.57,29.19|Z|1453; Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
-R Stormwind Keep|QID|542|M|69.11,28.34|Z|1453; Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
+R The Canals|ACTIVE|542|M|65.57,29.19|Z|1453; Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
+R Stormwind Keep|ACTIVE|542|M|69.11,28.34|Z|1453; Stormwind City|N|To Milton Sheaf in Stormwind Keep.|
 T Return to Milton|QID|542|M|74.18,7.47|Z|1453; Stormwind City|N|To Milton Sheaf in the Library.|
 T Reassignment|QID|563|Z|1453; Stormwind City|M|72.56,15.88|N|To Major Samuelson. \n\nCheck Mini-Map, need to run back to the main hallway and head NE turning left into first entryway.|
 R The Canals|QID|622|M|69.11,28.34|Z|1453; Stormwind City|N|Out of the Keep.|
@@ -388,9 +388,10 @@ F Sentinel Hill|ACTIVE|325|M|77.48,44.29|Z|1431; Duskwood|N|Much faster to fly t
 T Armed and Ready|QID|325|M|7.79,33.99|Z|1431; Duskwood|N|To Sven Yorgen.|RANK|3|
 A Morbent Fel|QID|55|PRE|325|M|7.79,33.99|Z|1431; Duskwood|ELITE|N|[color=ff8000]Elite: [/color]From Sven Yorgen.|RANK|3|
 C Morbent Fel|QID|55|M|16,34|Z|1431; Duskwood|ELITE|N|[color=ff8000]Elite: [/color]On the 2nd Floor of the house, target Morbent Fel, and use the item on him. CC or kill his adds then kill him.|U|7297|
-C Mor'Ladim|QID|228|M|16,34|Z|1431; Duskwood|ELITE|N|[color=ff8000]Elite: [/color]He wanders the area around the house and crypt.|
+K Mor'Ladim|ACTIVE|228|QO|1|M|16,34|Z|1431; Duskwood|ELITE|N|[color=ff8000]Elite: [/color]He wanders the area around the house and crypt.|T|Mor'Ladim|
 C Bride of the Embalmer|QID|253|PRE|252|M|28.8,31.2|Z|1431; Duskwood|ELITE|N|[color=ff8000]Elite: [/color]Kill Eliza and loot her heart.|RANK|3|
 T Morbent Fel|QID|55|M|7.79,33.99|Z|1431; Duskwood|N|To Sven Yorgen.|
+F Darkshire|QID|253|M|56.54,52.69|Z|1436; Westfall|N|At Thor.|
 T Bride of the Embalmer|QID|253|M|71.93,46.43|Z|1431; Duskwood|N|To Lord Ello Ebonlocke.|
 T Mor'Ladim|QID|228|M|73.56,46.85|Z|1431; Duskwood|N|To Commander Althea Ebonlocke.|
 A The Daughter Who Lived|QID|229|PRE|228|M|73.56,46.85|Z|1431; Duskwood|N|From Commander Althea Ebonlocke.|
@@ -422,7 +423,7 @@ T Raptor Mastery|QID|195|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nes
 T Tiger Mastery|QID|187|M|35.62,10.62|Z|1434; Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|188|PRE|187|M|35.62,10.62|Z|1434; Stranglethorn Vale|N|From Ajeck Rouack.|
 r Repair and Sell|QID|192|M|35.76,10.66|Z|1434; Stranglethorn Vale|N|Bags will get full quickly here.|
-C Tiger Mastery|QID|188|M|32.18,17.30|Z|1434; Stranglethorn Vale|N|Kill Sin'dall on top of the hill and loot his paw.|
+K Sin'dall|ACTIVE|188|QO|1|M|32.18,17.30|Z|1434; Stranglethorn Vale|N|Kill Sin'dall on top of the hill and loot his paw.|T|Sin'dall|
 C Some Assembly Required|QID|577|M|36.94,32.63|Z|1434; Stranglethorn Vale|N|Kill Snapjaw Crocolisks for their skins. (Not the River Crocolisks)|S|
 C Hostile Takeover|QID|213|M|44.96,21.03|Z|1434; Stranglethorn Vale|N|Kill geologists.|S|
 K Foreman Cozzle|QID|1182|M|42.65,18.34|Z|1434; Stranglethorn Vale|N|Kill Foreman Cozzle at the top of the control tower and loot his key.|L|5851|
@@ -533,7 +534,7 @@ A Kodo Roundup|QID|5561|M|60.86,61.87|Z|1443; Desolace|N|From Smeed Scrabblescre
 A Ghost-o-plasm Round Up|QID|6134|M|47.83,61.83|Z|1443; Desolace|N|From Hornizz Brimbuzzle.|
 C Kodo Roundup|QID|5561|M|60.85,61.85|Z|1443; Desolace|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to Smeed Scrabblescrew with it.  Do this five times to complete the quest.|U|13892|S|
 C Bone Collector|QID|5501|M|49.00,58.00|Z|1443; Desolace|N|Get Kodo Bones from the graveyard. A Kodo Apparition may spawn each time you click a bone.|US|
-C Aged Kodos|QID|1459|QO|2|M|66.2,9.6|Z|1443; Desolace|N|Kill Aged Kodos in the area, collect 3 of their hide.|US|
+C Aged Kodos|QID|1459|QO|2|M|49.00,58.00|Z|1443; Desolace|N|Kill Aged Kodos in the area, collect 3 of their hide.|US|
 C Kodo Roundup|QID|5561|M|60.85,61.85|CN|Z|1443; Desolace|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to the Smeed Scrabblescrew with it.  Do this five times to complete the quest.|U|13892|US|
 T Kodo Roundup|QID|5561|M|60.9,61.9|Z|1443; Desolace|N|To Smeed Scrabblescrew.|
 C Centaur Bounty|QID|1387|M|70.00,70.00|Z|1443; Desolace|N|Kill Magrim Centaurs and loot their Ears.|S|
@@ -576,8 +577,8 @@ F Theramore|QID|1286|M|64.66,10.54|Z|1443; Desolace|N|Fly to Theramore.|TZ|Thera
 A The Deserters|QID|1286|PRE|1285|M|68.21,48.62|Z|1445; Dustwallow Marsh|N|From Captain Garran Vimes, 3rd floor of the Citidel.|
 r Housekeeping|AVAILABLE|1204|M|67.39,47.86|Z|1445; Dustwallow Marsh|N|Sell junk, repair, and restock at Piter Verance on the ground floor.|
 A Mudrock Soup and Bugs|QID|1204|PRE|1260|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|From Morgan Stern.|
-h Theramore Isle|QID|1177|Z|1445; Dustwallow Marsh|N|Make Theramore your home location.|
-T The Missing Diplomat|QID|1265|M|66.39,49.25|Z|1445; Dustwallow Marsh|N|To Archmage Tervosh.|
+h Theramore Isle|QID|1177|M|66.55,45.24|Z|1445; Dustwallow Marsh|N|Make Theramore your home location.|
+T The Missing Diplomat|QID|1265|M|59.68,41.18|Z|1445; Dustwallow Marsh|N|To Archmage Tervosh.|
 A The Missing Diplomat|QID|1266|PRE|1265|M|66.39,49.25|Z|1445; Dustwallow Marsh|N|From Archmage Tervosh.|
 A Jarl Needs Eyes|QID|1206|PRE|1218|M|55.44,26.27|Z|1445; Dustwallow Marsh|N|From "Swamp Eye" Jarl.|
 A Stinky's Escape|QID|1222|M|46.88,17.52|Z|1445; Dustwallow Marsh|N|From "Stinky" Ignatz. This is an escort quest, might need to wait for him to spawn if he isn't there. Start clearing raptors around the area.|
@@ -597,7 +598,7 @@ C Mudrock Soup and Bugs|QID|1204|M|56.80,16.40|Z|1445; Dustwallow Marsh|N|Kill a
 C Hungry!|QID|1177|M|56.80,16.40|Z|1445; Dustwallow Marsh|N|Head North-East to the Coast and kill all "Mirefin" Murlocs for their heads.|
 C Mudrock Soup and Bugs|QID|1204|M|56.80,16.40|Z|1445; Dustwallow Marsh|N|Finishing killing "Mudrock" Tortoises for their tongues.|US|
 T Hungry!|QID|1177|M|35.00,38.20|Z|1445; Dustwallow Marsh|N|Run back south-west along the road to turn in to Mudcrush Durtfeet|
-H Theramore|ACTIVE|1222|M|51.01,29.34|Z|1446; Tanaris|N|Hearth (or fly) to Theramore.|
+H Theramore Isle|ACTIVE|1222|M|51.01,29.34|Z|1446; Tanaris|N|Hearth (or fly) to Theramore.|
 T Stinky's Escape|QID|1222|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|To Morgan Stern.|
 T Mudrock Soup and Bugs|QID|1204|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|To Morgan Stern.|
 A ... and Bugs|QID|1258|PRE|1204|M|66.34,45.47|Z|1445; Dustwallow Marsh|N|From Morgan Stern.|
@@ -771,7 +772,7 @@ A Murdaloc|QID|739|PRE|738|M|50.9,62.4|Z|1418; Badlands|N|From Battered Dwarven 
 C Indurium|QID|1108|M|51.8,65.6|Z|1418; Badlands|N|Kill Stonevault mobs for Indurium Flakes.|S|
 C Murdaloc|QID|739|M|50.53,67.92|Z|1418; Badlands|N|Kill Stonevault Bonesnappers and Murdaloc.|
 C Indurium|QID|1108|M|51.8,65.6|Z|1418; Badlands|N|Continue to kill Stonevault mobs until you complete this quest.|US|
-A Solution to Doom|QID|709|M|51.39,76.87|Z|1418; Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Theldurin the Lost.|
+A Solution to Doom|QID|709|M|51.39,76.87|Z|1418; Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Theldurin the Lost.|DUNGEON|
 r Repair & Restock|ACTIVE|711|M|42.47,52.5|Z|1418; Badlands|N|Reminder to clear your bags if you want since it isn't too far out of the way.|
 C Study of the Elements: Rock|QID|711|M|42.84,83.87|Z|1418; Badlands|N|Kill Rock Elementals until you get 3 Large Stone Slabs for this quest.|
 T Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|1418; Badlands|N|To Lotwil Veriatus.|
@@ -780,7 +781,7 @@ C Badlands Reagent Run|QID|2500|QO|3|M|53.42,43.39|Z|1418; Badlands|N|Finish col
 C Study of the Elements: Rock|QID|712|M|17.00,83.00|Z|1418; Badlands|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding.  There are more Elementals west of this location.|S|
 C Scrounging|QID|733|M|10.00,72.00|Z|1418; Badlands|N|Kill ogres here until you get 7 Scrap Metals. (low drop rate)|
 C Study of the Elements: Rock|QID|712|M|17.00,83.00|Z|1418; Badlands|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding.  There are more Elementals west of this location.|US|
-C Barbecued Buzzard Wings|QID|703|M|PLAYER|Z|1418; Badlands|N|Kill Buzzards until you get 4 Buzzard Wings|US|
+C Barbecued Buzzard Wings|QID|703|M|16.07,60.37|Z|1418; Badlands|N|Kill Buzzards until you get 4 Buzzard Wings|US|
 C Badlands Reagent Run|QID|2500|M|16.00,60.00|Z|1418; Badlands|N|Finish gathering the materials needed for this quest by killing Buzzards, Coyotes, and Rock Elementals.|US|
 T Study of the Elements: Rock|QID|712|M|25.95,44.87|Z|1418; Badlands|N|To Lotwil Veriatus.|
 A This Is Going to Be Hard|QID|734|M|25.95,44.87|Z|1418; Badlands|N|From Lotwil Veriatus.|

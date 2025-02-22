@@ -106,7 +106,7 @@ H Ironforge|QID|5159|M|PLAYER|Z|Eastern Plaguelands|N|Hearth or otherwise make y
 B Thorium Bar|QID|5538|Z|1455; Ironforge|N|If you plan on following the questline to get the Scholomance key, (part of which costs 15 gold) you will need to buy or make 2 Thorium Bars.|L|12359 2|
 A A Little Slime Goes a Long Way|QID|4513|M|75.74,23.38|Z|1455; Ironforge|N|From Laris Geardawdle.|PRE|4512|
 F Menethil Harbor|QID|5159|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Menethil Harbor.|
-b Theramore Isle|QID|5159|M|4.98,63.41|Z|Wetlands|N|Take the boat to Theramore.|
+b Theramore Isle|QID|5159|M|4.98,63.41|Z|1437; Wetlands|N|Take the boat to Theramore.|
 F Ratchet|QID|5159|M|67.48,51.30|Z|1445; Dustwallow Marsh|N|Fly up to Ratchet.|
 A Volcanic Activity|QID|4502|M|62.45,38.73|Z|1413; The Barrens|N|From Liv Rizzlefix.|
 T Seeking Spiritual Aid|QID|5158|M|65.83,43.78|Z|1413; The Barrens|N|To Islen Waterseer.|
@@ -218,15 +218,15 @@ A Aquementas|QID|4005|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|LVL|47|PRE
 
 H Everlook|QID|4005|M|PLAYER|Z|1447; Azshara|N|Hearth back to Everlook.|
 F Gadgetzan|QID|4005|M|62.33,36.61|Z|Winterspring|N|Fly to Gadgetzan.|
-T Mold Rhymes With...|QID|5538|M|51.46,28.81|Z|Tanaris|N|To Krinkle Goodsteel. This will cost you 15 gold but it's part of the Scholomance Key questline. Skip if you want.|
-A Fire Plume Forged|QID|5801|M|51.46,28.81|Z|Tanaris|N|From Krinkle Goodsteel.|LVL|55|PRE|5538|
-A Pawn Captures Queen|QID|4507|M|50.88,26.96|Z|Tanaris|N|From Alchemist Pestlezugg.|PRE|4496|
-C Sprinkle|QID|5163|M|51.06,26.87|Z|Tanaris|QO|2|NC|N|Scare Sprinkle.|U|12928|
-l Book of Aquor|QID|4005|M|70.44,49.90|Z|Tanaris|N|Open Eridan's Supply bag to get your book and items.|U|11617|L|11169|
-C Aquementas|QID|4005|M|70.44,49.90|Z|Tanaris|N|Use the Book of Aquor to summon Aquementas and kill him.|U|11169|
+T Mold Rhymes With...|QID|5538|M|51.46,28.81|Z|1446; Tanaris|N|To Krinkle Goodsteel. This will cost you 15 gold but it's part of the Scholomance Key questline. Skip if you want.|
+A Fire Plume Forged|QID|5801|M|51.46,28.81|Z|1446; Tanaris|N|From Krinkle Goodsteel.|LVL|55|PRE|5538|
+A Pawn Captures Queen|QID|4507|M|50.88,26.96|Z|1446; Tanaris|N|From Alchemist Pestlezugg.|PRE|4496|
+C Sprinkle|QID|5163|M|51.06,26.87|Z|1446; Tanaris|QO|2|NC|N|Scare Sprinkle.|U|12928|
+l Book of Aquor|QID|4005|M|70.44,49.90|Z|1446; Tanaris|N|Open Eridan's Supply bag to get your book and items.|U|11617|L|11169|
+C Aquementas|QID|4005|M|70.44,49.90|Z|1446; Tanaris|N|Use the Book of Aquor to summon Aquementas and kill him.|U|11169|
 
-R Gadgetzan|QID|4005|M|51.01,29.34|Z|Tanaris|N|Head back to Gadgetzan.|
-F Marshal's Refuge|QID|4005|M|51.01,29.34|Z|Tanaris|N|Fly to Un'Goro Crater.
+R Gadgetzan|QID|4005|M|51.01,29.34|Z|1446; Tanaris|N|Head back to Gadgetzan.|
+F Marshal's Refuge|QID|4005|M|51.01,29.34|Z|1446; Tanaris|N|Fly to Un'Goro Crater.
 T Aquementas|QID|4005|M|41.91,2.69|Z|Un'Goro Crater|N|To J.D. Collie.|
 A Linken's Adventure|QID|3961|M|41.91,2.69|Z|Un'Goro Crater|N|From J.D. Collie.|LVL|47|PRE|4005|
 A Lost!|QID|4492|M|43.62,8.50|Z|Un'Goro Crater|N|From Spraggle Frock.|
@@ -290,10 +290,10 @@ K Desert Stormers|QID|6805|M|30.21,14.43|Z|Silithus|QO|1|US|N|Kill Dust Stormer.
 
 
 F Gadgetzan|ACTIVE|4507|M|50.59,34.45|Z|Silithus|N|Fly back to Gadgetzan.|
-T Pawn Captures Queen|QID|4507|M|50.88,26.96|Z|Tanaris|N|To Alchemist Pestlezugg.|
-A Calm Before the Storm|QID|4508|M|50.88,26.96|Z|Tanaris|N|From Alchemist Pestlezugg.|PRE|4507|
+T Pawn Captures Queen|QID|4507|M|50.88,26.96|Z|1446; Tanaris|N|To Alchemist Pestlezugg.|
+A Calm Before the Storm|QID|4508|M|50.88,26.96|Z|1446; Tanaris|N|From Alchemist Pestlezugg.|PRE|4507|
 
-F Ratchet|ACTIVE|4502|M|51.00,29.34|Z|Tanaris|N|Fly to Ratchet.|
+F Ratchet|ACTIVE|4502|M|51.00,29.34|Z|1446; Tanaris|N|Fly to Ratchet.|
 T Volcanic Activity|QID|4502|M|62.45,38.73|Z|1413; The Barrens|N|To Liv Rizzlefix.|
 
 H Everlook|QID|5163|M|63.09,37.16|Z|1413; The Barrens|N|Use your hearthstone back to Winterspring or otherwise make your way back.|
@@ -319,7 +319,7 @@ T Wildkin of Elune|QID|4902|M|35.15,9.38|Z|1457; Darnassus|N|To Arch Druid Fandr
 R Rut'theran Village|QID|4513|M|30.04,41.32|Z|1457; Darnassus|N|Run through the portal into Rut'theran Village.|
 F Auberdine|QID|4513|M|58.39,94.01|Z|1438; Teldrassil|N|Fly to Auberdine.|
 b Menethil Harbor|QID|4513|M|32.39,43.82|Z|1439; Darkshore|N|Take the boat to Menethil Harbor.|
-F Ironforge|QID|4513|M|9.49,59.69|Z|Wetlands|N|Fly to Ironforge.|
+F Ironforge|QID|4513|M|9.49,59.69|Z|1437; Wetlands|N|Fly to Ironforge.|
 h Ironforge|QID|4513|M|18.12,51.42|Z|1455; Ironforge|N|Set your hearthstone to Ironforge.|
 T A Little Slime Goes a Long Way|QID|4513|M|75.75,23.36|Z|1455; Ironforge|N|To Laris Geardawdle.|
 
@@ -332,43 +332,43 @@ T Honor the Dead|QID|6183|M|75.79,59.86|Z|1453; Stormwind City|N|To Master Mathi
 A Flint Shadowmore|QID|6184|M|75.79,59.86|Z|1453; Stormwind City|N|From Master Mathias Shaw.|LVL|56|PRE|6183|
 
 F Nethergarde Keep|QID|2783|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to the Blasted Lands.|
-A Petty Squabbles|QID|2783|M|67.56,19.29|Z|Blasted Lands|N|From Ambassador Ardalan.|LVL|50|
-T Petty Squabbles|QID|2783|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
-A A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2783|
-C A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|Swamp of Sorrows|CHAT|N|Listen to the Fallen Hero of the Horde tell his story.|
-T A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
-A The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2801|
+A Petty Squabbles|QID|2783|M|67.56,19.29|Z|1419; Blasted Lands|N|From Ambassador Ardalan.|LVL|50|
+T Petty Squabbles|QID|2783|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+A A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2783|
+C A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|1435; Swamp of Sorrows|CHAT|N|Listen to the Fallen Hero of the Horde tell his story.|
+T A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+A The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2801|
 
-C Servants of Grol|QID|2681|M|41.2,14|Z|Blasted Lands|QO|2|N|Servants of Grol Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Sevine|QID|2681|M|42.82,41.38|Z|Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Sevine|QID|2681|M|41.29,39.66|Z|Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Sevine|QID|2681|M|38.2,33.4|Z|Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Sevine|QID|2681|M|38.2,33.4|Z|Blasted Lands|QO|4|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|51.26,57.71|Z|Blasted Lands|QO|1<1|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|53.24,59.70|Z|Blasted Lands|QO|1<2|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|54.01,53.58|Z|Blasted Lands|QO|1<3|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|55.37,50.58|Z|Blasted Lands|QO|1<4|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|58.01,49.21|Z|Blasted Lands|QO|1<5|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|60.03,49.96|Z|Blasted Lands|QO|1<6|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|62.19,51.61|Z|Blasted Lands|QO|1<7|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|63.78,55.90|Z|Blasted Lands|QO|1<8|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|63.15,57.26|Z|Blasted Lands|QO|1<9|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|Blasted Lands|QO|3<1|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Allistarj|QID|2681|M|64.97,34.51|Z|Blasted Lands|QO|3<2|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|Blasted Lands|QO|3<3|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-T The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
-A Heroes of Old|QID|2702|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2681|
-T Heroes of Old|QID|2702|M|33.35,65.97|Z|Swamp of Sorrows|N|To Corporal Thund Splithoof.
-A Heroes of Old|QID|2701|M|33.35,65.97|Z|Swamp of Sorrows|N|From Corporal Thund Splithoof.|LVL|45|PRE|2702|
-T Heroes of Old|QID|2701|M|33.39,66.13|Z|Swamp of Sorrows|N|To Spectral Lockbox.|
-A Kirith|QID|2721|M|34.28,66.14|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|2701|
-C Kirith|QID|2721|Z|Swamp of Sorrows|N|Find out what became of Lieutenant Kirith.|
-T Kirith|QID|2721|M|68.93,31.00|Z|Blasted Lands|N|To Spirit of Kirith.|
-A The Cover of Darkness|QID|2743|M|68.4,31.2|Z|Blasted Lands|N|From Spirit of Kirith.|LVL|45|PRE|2721|
-T The Cover of Darkness|QID|2743|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
-A The Demon Hunter|QID|2744|M|34.28,66.12|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2743|
+C Servants of Grol|QID|2681|M|41.2,14|Z|1419; Blasted Lands|QO|2|N|Servants of Grol Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|42.82,41.38|Z|1419; Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|41.29,39.66|Z|1419; Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|38.2,33.4|Z|1419; Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|38.2,33.4|Z|1419; Blasted Lands|QO|4|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|51.26,57.71|Z|1419; Blasted Lands|QO|1<1|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|53.24,59.70|Z|1419; Blasted Lands|QO|1<2|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|54.01,53.58|Z|1419; Blasted Lands|QO|1<3|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|55.37,50.58|Z|1419; Blasted Lands|QO|1<4|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|58.01,49.21|Z|1419; Blasted Lands|QO|1<5|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|60.03,49.96|Z|1419; Blasted Lands|QO|1<6|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|62.19,51.61|Z|1419; Blasted Lands|QO|1<7|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|63.78,55.90|Z|1419; Blasted Lands|QO|1<8|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|63.15,57.26|Z|1419; Blasted Lands|QO|1<9|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|1419; Blasted Lands|QO|3<1|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|64.97,34.51|Z|1419; Blasted Lands|QO|3<2|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|1419; Blasted Lands|QO|3<3|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+T The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+A Heroes of Old|QID|2702|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2681|
+T Heroes of Old|QID|2702|M|33.35,65.97|Z|1435; Swamp of Sorrows|N|To Corporal Thund Splithoof.
+A Heroes of Old|QID|2701|M|33.35,65.97|Z|1435; Swamp of Sorrows|N|From Corporal Thund Splithoof.|LVL|45|PRE|2702|
+T Heroes of Old|QID|2701|M|33.39,66.13|Z|1435; Swamp of Sorrows|N|To Spectral Lockbox.|
+A Kirith|QID|2721|M|34.28,66.14|Z|1435; Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|2701|
+C Kirith|QID|2721|Z|1435; Swamp of Sorrows|N|Find out what became of Lieutenant Kirith.|
+T Kirith|QID|2721|M|68.93,31.00|Z|1419; Blasted Lands|N|To Spirit of Kirith.|
+A The Cover of Darkness|QID|2743|M|68.4,31.2|Z|1419; Blasted Lands|N|From Spirit of Kirith.|LVL|45|PRE|2721|
+T The Cover of Darkness|QID|2743|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+A The Demon Hunter|QID|2744|M|34.28,66.12|Z|1435; Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2743|
 
-H Ironforge|QID|6184|M|PLAYER|Z|Swamp of Sorrows|N|Hearth back to Ironforge, or if for some reason you don't have it set or ready, fly to Western Plaguelands.|
+H Ironforge|QID|6184|M|PLAYER|Z|1435; Swamp of Sorrows|N|Hearth back to Ironforge, or if for some reason you don't have it set or ready, fly to Western Plaguelands.|
 F Chillwind Camp|QID|6184|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Western Plaguelands.|
 T Fire Plume Forged|QID|5801|M|42.66,83.77|Z|Western Plaguelands|N|To Alchemist Arbington. Hold on follow-up until you're ready to do scholomance and you can convice the group to kill Araj the Summoner to get your key. When you do, don't forget your Attuned Dampener.|
 T Flint Shadowmore|QID|6184|M|43.61,84.50|Z|Western Plaguelands|N|To Flint Shadowmore.|
@@ -388,9 +388,9 @@ T The Eastern Plagues|QID|6185|M|43.62,84.50|Z|Western Plaguelands|N|To Flint Sh
 A The Blightcaller Cometh|QID|6186|M|43.62,84.50|Z|Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6185|
 
 F Menethil Harbor|ACTIVE|6804^6805|M|42.93,85.06|Z|Western Plaguelands|N|Fly to Menethil Harbor. Do NOT Hearth!|
-b Darkshore|ACTIVE|6804^6805|M|4.59,57.13|Z|Wetlands|N|Take the boat to Darkshore.|
+b Darkshore|ACTIVE|6804^6805|M|4.59,57.13|Z|1437; Wetlands|N|Take the boat to Darkshore.|
 F Talrendis Point|ACTIVE|6804^6805|M|36.34,45.58|Z|1439; Darkshore|N|Fly to Azshara.|
-C The Demon Hunter |QID|2744|M|60.82,66.35|Z|Swamp of Sorrows|CHAT|N|Speak with Loramus Thalipedes.|
+C The Demon Hunter |QID|2744|M|60.82,66.35|Z|1435; Swamp of Sorrows|CHAT|N|Speak with Loramus Thalipedes.|
 T The Demon Hunter|QID|2744|M|60.82,66.35|Z|1447; Azshara|N|To Loramus Thalipedes.|
 A Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|2744|
 C Loramus|QID|3141|M|60.82,66.35|Z|1447; Azshara|CHAT|N|Listen to Loramus Thalipedes tell his story.|
@@ -429,17 +429,17 @@ A Return to the Blasted Lands|QID|3626|M|50.61,20.48|Z|1434; Stranglethorn Vale|
 
 R Duskwood|ACTIVE|3626|M|39.37,5.52;40.77,4.13;40.58,3.08|Z|1434; Stranglethorn Vale|CS|N|Run to Duskwood. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
 F Nethergarde Keep|ACTIVE|3626|M|77.48,44.29|Z|1431; Duskwood|N|Fly to the Blasted Lands. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
-T Return to the Blasted Lands|QID|3626|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
-A Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde. You will need a group for this!|LVL|45|PRE|3626|
-l Fel Salve|ACTIVE|3627|M|34.28,66.14|Z|Swamp of Sorrows|N|Talk to The Fallen Hero again and tell him you destroyed your weapon, even if you didn't and you will get a Fel Salve you can use on the boss instead of equiping the weapon.|L|11582|
-K Grol|QID|3627|M|42.58,12.97|Z|Blasted Lands|QO|2|N|[color=ff8000]Elite: [/color]Amulet of Grol.|U|11582||
-K Sevine|QID|3627|M|40.6,30.2|Z|Blasted Lands|QO|3|N|[color=ff8000]Elite: [/color]Amulet of Sevine.|U|11582|
-K Allistarj|QID|3627|M|66.75,29.24|Z|Blasted Lands|QO|1|N|[color=ff8000]Elite: [/color]Amulet of Allistarj.|U|11582|
-T Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
-A You Are Rakh'likh, Demon|QID|3628|M|34.2,66|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|3627|
-C You Are Rakh'likh, Demon|QID|3628|M|48,23|Z|Blasted Lands|N|[color=ff8000]Elite: [/color]Talk to the ghost at the waypoint who will teleport you up top. Destroy Razelikh the Defiler. Boss requires a tank and heals, he also has a massive cleave so he has to be tanked away from the group.|U|10757|
+T Return to the Blasted Lands|QID|3626|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
+A Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|1435; Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde. You will need a group for this!|LVL|45|PRE|3626|
+l Fel Salve|ACTIVE|3627|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|Talk to The Fallen Hero again and tell him you destroyed your weapon, even if you didn't and you will get a Fel Salve you can use on the boss instead of equiping the weapon.|L|11582|
+K Grol|QID|3627|M|42.58,12.97|Z|1419; Blasted Lands|QO|2|N|[color=ff8000]Elite: [/color]Amulet of Grol.|U|11582||
+K Sevine|QID|3627|M|40.6,30.2|Z|1419; Blasted Lands|QO|3|N|[color=ff8000]Elite: [/color]Amulet of Sevine.|U|11582|
+K Allistarj|QID|3627|M|66.75,29.24|Z|1419; Blasted Lands|QO|1|N|[color=ff8000]Elite: [/color]Amulet of Allistarj.|U|11582|
+T Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+A You Are Rakh'likh, Demon|QID|3628|M|34.2,66|Z|1435; Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|3627|
+C You Are Rakh'likh, Demon|QID|3628|M|48,23|Z|1419; Blasted Lands|N|[color=ff8000]Elite: [/color]Talk to the ghost at the waypoint who will teleport you up top. Destroy Razelikh the Defiler. Boss requires a tank and heals, he also has a massive cleave so he has to be tanked away from the group.|U|10757|
 
-T You Are Rakh'likh, Demon|QID|3628|M|34.2,66|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+T You Are Rakh'likh, Demon|QID|3628|M|34.2,66|Z|1435; Swamp of Sorrows|N|To Fallen Hero of the Horde.|
 N The End|N|This is the end. Hopefully you're at least a bit into level 59 but there's really no more quests aside the rest of that 'Fragments of the Past' chain. At this point since we've done pretty much everything, the lingering quests are your dungeon quests. Go pick them up, run Strat, Scholomance, Blackrock Spire or even finish up BRD if you haven't yet. You have lots of quests for those places. Dungeon Guides for them will follow soon, Scholomance guide will include the final parts of the key. If you went that route you can also do the 'Alas, Andorhal' quest along with it. |
 
 ;A Araj's Scarab|QID|5803|M|42.66,83.77|Z|Western Plaguelands|ELITE|N|[color=ff8000]Elite: [/color]From Alchemist Arbington.|LVL|55|PRE|5801|
