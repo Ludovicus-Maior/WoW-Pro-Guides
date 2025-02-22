@@ -8,7 +8,7 @@ return [[
 ; === guides/53_54_Burning_Steppes.lua ===
 F Kargath|
 T Vivian Lagrave|QID|4133|M|49.8,68.4|N|Apothecary Zinge|
-A Dreadmaul Rock|QID|3821|M|3.37,48.14|Z|Badlands|N|Thal'trak Proudtusk|
+A Dreadmaul Rock|QID|3821|M|3.37,48.14|Z|1418; Badlands|N|Thal'trak Proudtusk|
 A The Rise of the Machines|QID|4061|M|25.95,44.87|N|Lotwil Veriatus|
 
 F Burning Steppes|
@@ -33,7 +33,7 @@ T Krom'Grul|QID|3822|N|Thal'trak Proudtusk-Large patrol path with Kargath Expedi
 T The Rise of the Machines|QID|4061|N|Hierophant Theodora Mulvadania|
 A The Rise of the Machines|QID|4062|PRE|4061|N|Hierophant Theodora Mulvadania|
 ; --- FIXME: Coords found in N tag, using: 25.00,44.00
-T The Rise of the Machines|QID|4062|M|26.00,44.80|Z|Badlands|N|In the Badlands|
+T The Rise of the Machines|QID|4062|M|26.00,44.80|Z|1418; Badlands|N|In the Badlands|
 
 H The Crossroads|
 F Orgrimmar|

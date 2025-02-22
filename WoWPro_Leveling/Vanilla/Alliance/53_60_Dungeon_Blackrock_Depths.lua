@@ -21,36 +21,36 @@ A The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|1455; Ironforge|N|
 A Kharan Mighthammer|QID|4341|M|39.11,56.18|Z|1455; Ironforge|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom King Magni Bronzebeard.|PRE|3701|
 
 F Thorium Point|QID|3481|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Thorium Point to complete or finish the black dragon questline.|
-A Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|
-C Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|CHAT|N|Talk with Kalaran Windblade.|
-T Divine Retribution|QID|3441|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3441|
-C The Flawless Flame|QID|3442|M|47.13,41.49|Z|Searing Gorge|N|Kill Golems, Fire and Magma Elementals.|
-T The Flawless Flame|QID|3442|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3442|
-C Forging the Shaft|QID|3443|M|47.13,41.49|Z|Searing Gorge|N|Collect the daggers off Slavers and Taskmasters.|
-T Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]From Kalaran Windblade. Even though it's elite, at this level it should be soloable.|PRE|3443|
-C The Flame's Casing|QID|3452|M|29.1,25.9|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]Kill the twilight mobs around here until you get the Symbol of Ragnaros.|
-T The Flame's Casing|QID|3452|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3452|
-T The Torch of Retribution|QID|3453|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3453|
-C The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|NC|N|Click on the glowing green torch in front of Kalaran.|
-T The Torch of Retribution|QID|3454|M|39.05,38.99|Z|Searing Gorge|N|To Kalaran Windblade.|
-A Squire Maltrake|QID|3462|M|39.05,38.99|Z|Searing Gorge|N|From Kalaran Windblade.|PRE|3454|
-T Squire Maltrake|QID|3462|M|39.17,38.97|Z|Searing Gorge|N|To Squire Maltrake.|
-A Set Them Ablaze!|QID|3463|M|39.17,38.97|Z|Searing Gorge|N|From Squire Maltrake.|PRE|3462|
-C Northern Watch Tower|QID|3463|M|33.31,54.47|Z|Searing Gorge|QO|4|N|Light the first tower here by equipping the Torch of Retribution and clicking on the Brazier up the tower here.|U|10515|
-C Western Watch Tower|QID|3463|M|35.67,60.68|Z|Searing Gorge|QO|1|N|Light the second tower here.|U|10515|
-C Southern Watch Tower|QID|3463|M|44.03,60.91|Z|Searing Gorge|QO|2|N|Light the third tower here.|U|10515|
-C Eastern Watch Tower|QID|3463|M|50.08,54.74|Z|Searing Gorge|QO|3|N|Go to a bridge at 52,57 and cross it to light the fourth tower.|U|10515|
-T Set Them Ablaze!|QID|3463|M|39.17,38.97|Z|Searing Gorge|N|To Squire Maltrake. Be sure to equip your weapon again!|
-A Trinkets...|QID|3481|M|38.85,39.00|Z|Searing Gorge|N|From Hoard of the Black Dragonflight.|PRE|3463|
-T Trinkets...|QID|3481|M|38.85,39.00|Z|Searing Gorge|N|To Hoard of the Black Dragonflight.|
-l Black Dragonflight Molt|QID|4022|M|38.85,39.00|Z|Searing Gorge|N|Loot the Hoard of the Black Dragonflight to get the molt.|L|10575|U|10569|
+A Divine Retribution|QID|3441|M|39.04,38.99|Z|1427; Searing Gorge|N|From Kalaran Windblade.|
+C Divine Retribution|QID|3441|M|39.04,38.99|Z|1427; Searing Gorge|CHAT|N|Talk with Kalaran Windblade.|
+T Divine Retribution|QID|3441|M|39.04,38.99|Z|1427; Searing Gorge|N|To Kalaran Windblade.|
+A The Flawless Flame|QID|3442|M|39.04,38.99|Z|1427; Searing Gorge|N|From Kalaran Windblade.|PRE|3441|
+C The Flawless Flame|QID|3442|M|47.13,41.49|Z|1427; Searing Gorge|N|Kill Golems, Fire and Magma Elementals.|
+T The Flawless Flame|QID|3442|M|39.04,38.99|Z|1427; Searing Gorge|N|To Kalaran Windblade.|
+A Forging the Shaft|QID|3443|M|39.04,38.99|Z|1427; Searing Gorge|N|From Kalaran Windblade.|PRE|3442|
+C Forging the Shaft|QID|3443|M|47.13,41.49|Z|1427; Searing Gorge|N|Collect the daggers off Slavers and Taskmasters.|
+T Forging the Shaft|QID|3443|M|39.04,38.99|Z|1427; Searing Gorge|N|To Kalaran Windblade.|
+A The Flame's Casing|QID|3452|M|39.05,38.99|Z|1427; Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]From Kalaran Windblade. Even though it's elite, at this level it should be soloable.|PRE|3443|
+C The Flame's Casing|QID|3452|M|29.1,25.9|Z|1427; Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]Kill the twilight mobs around here until you get the Symbol of Ragnaros.|
+T The Flame's Casing|QID|3452|M|39.05,38.99|Z|1427; Searing Gorge|N|To Kalaran Windblade.|
+A The Torch of Retribution|QID|3453|M|39.05,38.99|Z|1427; Searing Gorge|N|From Kalaran Windblade.|PRE|3452|
+T The Torch of Retribution|QID|3453|M|39.05,38.99|Z|1427; Searing Gorge|N|To Kalaran Windblade.|
+A The Torch of Retribution|QID|3454|M|39.05,38.99|Z|1427; Searing Gorge|N|From Kalaran Windblade.|PRE|3453|
+C The Torch of Retribution|QID|3454|M|39.05,38.99|Z|1427; Searing Gorge|NC|N|Click on the glowing green torch in front of Kalaran.|
+T The Torch of Retribution|QID|3454|M|39.05,38.99|Z|1427; Searing Gorge|N|To Kalaran Windblade.|
+A Squire Maltrake|QID|3462|M|39.05,38.99|Z|1427; Searing Gorge|N|From Kalaran Windblade.|PRE|3454|
+T Squire Maltrake|QID|3462|M|39.17,38.97|Z|1427; Searing Gorge|N|To Squire Maltrake.|
+A Set Them Ablaze!|QID|3463|M|39.17,38.97|Z|1427; Searing Gorge|N|From Squire Maltrake.|PRE|3462|
+C Northern Watch Tower|QID|3463|M|33.31,54.47|Z|1427; Searing Gorge|QO|4|N|Light the first tower here by equipping the Torch of Retribution and clicking on the Brazier up the tower here.|U|10515|
+C Western Watch Tower|QID|3463|M|35.67,60.68|Z|1427; Searing Gorge|QO|1|N|Light the second tower here.|U|10515|
+C Southern Watch Tower|QID|3463|M|44.03,60.91|Z|1427; Searing Gorge|QO|2|N|Light the third tower here.|U|10515|
+C Eastern Watch Tower|QID|3463|M|50.08,54.74|Z|1427; Searing Gorge|QO|3|N|Go to a bridge at 52,57 and cross it to light the fourth tower.|U|10515|
+T Set Them Ablaze!|QID|3463|M|39.17,38.97|Z|1427; Searing Gorge|N|To Squire Maltrake. Be sure to equip your weapon again!|
+A Trinkets...|QID|3481|M|38.85,39.00|Z|1427; Searing Gorge|N|From Hoard of the Black Dragonflight.|PRE|3463|
+T Trinkets...|QID|3481|M|38.85,39.00|Z|1427; Searing Gorge|N|To Hoard of the Black Dragonflight.|
+l Black Dragonflight Molt|QID|4022|M|38.85,39.00|Z|1427; Searing Gorge|N|Loot the Hoard of the Black Dragonflight to get the molt.|L|10575|U|10569|
 
-F Morgan's Vigil|QID|3801|M|37.94,30.85|Z|Searing Gorge|N|Fly to Burning Steppes.|
+F Morgan's Vigil|QID|3801|M|37.94,30.85|Z|1427; Searing Gorge|N|Fly to Burning Steppes.|
 A Overmaster Pyron|QID|4262|M|85.41,70.06|Z|Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Jalinda Sprig.\n\nThis leads to a BRD quest but is done outside the Dungeon.|
 A Marshal Windsor|QID|4241|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
 A The Good Stuff|QID|4286|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|

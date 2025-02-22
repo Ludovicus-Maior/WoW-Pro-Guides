@@ -589,12 +589,12 @@ A Hinott's Assistance|QID|2479|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|24
 b Tirisfal Glades|ACTIVE|2479|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Orc,Troll,Undead|C|Rogue|
 R Undercity|ACTIVE|2479|M|61.86,65.04|Z|Tirisfal Glades|R|Orc,Troll,Undead|C|Rogue|
 F The Sepulcher|ACTIVE|2479|M|63.25,48.54|Z|Undercity|R|Orc,Troll,Undead|C|Rogue|
-R Hillsbrad Foothills|ACTIVE|2479|M|13.55,46.15|Z|Hillsbrad Foothills|N|Exit The Sepulcher and follow the road south.|R|Orc,Troll,Undead|C|Rogue|
-R Tarren Mill|ACTIVE|2479|M|57.65,36.61;55.86,19.60|CC|Z|Hillsbrad Foothills|N|Follow the road/signs to Tarren Mill.|R|Orc,Troll,Undead|C|Rogue|
-f Tarren Mill|ACTIVE|2479|M|60.14,18.63|Z|Hillsbrad Foothills|N|At Zarise.|R|Orc,Troll,Undead|C|Rogue|TAXI|-Tarren Mill|
-T Hinott's Assistance|QID|2479|M|61.63,19.19|Z|Hillsbrad Foothills|N|To Serge Hinott.|R|Orc,Troll,Undead|C|Rogue|
-A Hinott's Assistance|QID|2480|M|61.63,19.19|Z|Hillsbrad Foothills|N|From Serge Hinott.|PRE|2479|R|Orc,Troll,Undead|C|Rogue|
-T Hinott's Assistance|QID|2480|M|61.63,19.19|Z|Hillsbrad Foothills|N|Once Serge Hinott completes the cure, turn the quest in.|R|Orc,Troll,Undead|C|Rogue|
+R Hillsbrad Foothills|ACTIVE|2479|M|13.55,46.15|Z|1424; Hillsbrad Foothills|N|Exit The Sepulcher and follow the road south.|R|Orc,Troll,Undead|C|Rogue|
+R Tarren Mill|ACTIVE|2479|M|57.65,36.61;55.86,19.60|CC|Z|1424; Hillsbrad Foothills|N|Follow the road/signs to Tarren Mill.|R|Orc,Troll,Undead|C|Rogue|
+f Tarren Mill|ACTIVE|2479|M|60.14,18.63|Z|1424; Hillsbrad Foothills|N|At Zarise.|R|Orc,Troll,Undead|C|Rogue|TAXI|-Tarren Mill|
+T Hinott's Assistance|QID|2479|M|61.63,19.19|Z|1424; Hillsbrad Foothills|N|To Serge Hinott.|R|Orc,Troll,Undead|C|Rogue|
+A Hinott's Assistance|QID|2480|M|61.63,19.19|Z|1424; Hillsbrad Foothills|N|From Serge Hinott.|PRE|2479|R|Orc,Troll,Undead|C|Rogue|
+T Hinott's Assistance|QID|2480|M|61.63,19.19|Z|1424; Hillsbrad Foothills|N|Once Serge Hinott completes the cure, turn the quest in.|R|Orc,Troll,Undead|C|Rogue|
 U Hinott's Oil|AVAILABLE|-2480|ACTIVE|-2480|N|Use the Hinott's Oil to cure your Touch of Zanzil.|U|8095|R|Orc,Troll,Undead|C|Rogue|BUFF|-9991|
 * Hinott's Oil|AVAILABLE|-2480|ACTIVE|-2480|N|For whatever reason, you still have your Hinott's Oil. You can safely destroy this as it's no longer required.|U|8095|R|Orc,Troll,Undead|C|Rogue|BUFF|9991|
 H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|1424|

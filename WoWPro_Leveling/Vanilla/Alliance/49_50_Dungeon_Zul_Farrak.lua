@@ -27,22 +27,22 @@ T The Altar of Zul|QID|2989|M|9.75,44.47|Z|1425; The Hinterlands|N|To Gryphon Ma
 A Thadius Grimshade|QID|2990|M|9.75,44.47|Z|1425; The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2989|
 
 F Blasted Lands|ACTIVE|2990|M|11.07,46.16|Z|1425; The Hinterlands|N|Fly to Arathi Highlands.|
-T Thadius Grimshade|QID|2990|M|66.90,19.47|Z|Blasted Lands|N|To Thadius Grimshade. Up on top of the tower.|
-A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Thadius Grimshade. Up at the top of the tower. Now make your way back to Kalimdor|PRE|2990|
+T Thadius Grimshade|QID|2990|M|66.90,19.47|Z|1419; Blasted Lands|N|To Thadius Grimshade. Up on top of the tower.|
+A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|1419; Blasted Lands|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Thadius Grimshade. Up at the top of the tower. Now make your way back to Kalimdor|PRE|2990|
 
 A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|1445; Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha. Fly to Theramore if you want to grab this quest.|
 
-A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts. Run up to Thousand Needles if you want to grab this quest.|
+A Gahz'rilla|QID|2770|M|78.14,77.13|Z|1441; Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts. Run up to Thousand Needles if you want to grab this quest.|
 
-A Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
+A Screecher Spirits|QID|3520|M|66.99,22.36|Z|1446; Tanaris|N|From Yeh'kinya.|
 
-C Screecher Spirits|QID|3520|M|46.00,49.30|Z|Feralas|U|10699|N|Fly to Feathermoon Stronghold in Feralas. Take the boat, then run south on the shore. Kill Rogue Vale Screechers and use Yeh'Kinya's Bramble on their corpses, then talk to the spirit.|
+C Screecher Spirits|QID|3520|M|46.00,49.30|Z|1444; Feralas|U|10699|N|Fly to Feathermoon Stronghold in Feralas. Take the boat, then run south on the shore. Kill Rogue Vale Screechers and use Yeh'Kinya's Bramble on their corpses, then talk to the spirit.|
 
-T Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|Fly back to Gadgetzan and run back to Yeh'kinya.|
-A The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Yeh'kinya.|PRE|3520|
-A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tran'rek.|
-A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Trenton Lighthammer.|
-A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Chief Engineer Bilgewhizzle.|
+T Screecher Spirits|QID|3520|M|66.99,22.36|Z|1446; Tanaris|N|Fly back to Gadgetzan and run back to Yeh'kinya.|
+A The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|1446; Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Yeh'kinya.|PRE|3520|
+A Scarab Shells|QID|2865|M|51.57,26.76|Z|1446; Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tran'rek.|
+A Troll Temper|QID|3042|M|51.41,28.75|Z|1446; Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Trenton Lighthammer.|
+A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|1446; Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Chief Engineer Bilgewhizzle.|
 
 N Find a full group|QID|2770|N|If you haven't already, now is the time to find a full group to run the dungeon. If aren't able to run with guild or friends, don't forget the LFG channel by right clicking your chat tab and selecting 'Settings' -> Global Channels -> Checkbox 'LookingForGroup'.\n\nManually check this step off once you have your group.|GROUP|5|
 
@@ -59,29 +59,29 @@ K Hydromancer Velratha|QID|3527|M|38.72,20.01|QO|2|US|N|Make your way south to t
 K Gahz'rilla|QID|2770|M|38.72,20.01|QO|1|N|You or someone in your group will need the Mallet to summon him. Make sure you do this after Velratha and have the room clear. The fight is easier melee position themselves near the water to fall into when the get knocked up in the air.|
 C Scarab Shells|QID|2865|M|38.72,20.01|US|N|Kill Scarabs to loot their Shells.|
 C Troll Temper|QID|3042|M|38.72,20.01|US|N|Kill Sandfury Trolls for the temper.|
-N Recruit help|QID|2991|M|PLAYER|Z|Tanaris|N|Now is a good time to ask your group if any are interested in continuing to group and finish the Nekrum's Medallion and Prophecy of Mosh'Aru questlines, especially if any of them were working on those quests along with you. It's really hard to find groups to do Jintha'Alor in the Hinterlands.\n\nIf you can't find help you can probably skip the quests until you can manage to get a group for it. If that is the case I would still recommend turning in the medallion in the Blasted Lands. You can reload this guide later once you have a group for it.\n\nSkip this step to continue the guide.|
+N Recruit help|QID|2991|M|PLAYER|Z|1446; Tanaris|N|Now is a good time to ask your group if any are interested in continuing to group and finish the Nekrum's Medallion and Prophecy of Mosh'Aru questlines, especially if any of them were working on those quests along with you. It's really hard to find groups to do Jintha'Alor in the Hinterlands.\n\nIf you can't find help you can probably skip the quests until you can manage to get a group for it. If that is the case I would still recommend turning in the medallion in the Blasted Lands. You can reload this guide later once you have a group for it.\n\nSkip this step to continue the guide.|
 
 ;After Dungeon
-T Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|N|To Wizzle Brassbolts. In Thousand Needles.|
-T Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.|
-T Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|N|To Trenton Lighthammer.|
-T Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-T The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
+T Gahz'rilla|QID|2770|M|78.14,77.13|Z|1441; Thousand Needles|N|To Wizzle Brassbolts. In Thousand Needles.|
+T Scarab Shells|QID|2865|M|51.57,26.76|Z|1446; Tanaris|N|To Tran'rek.|
+T Troll Temper|QID|3042|M|51.41,28.75|Z|1446; Tanaris|N|To Trenton Lighthammer.|
+T Divino-matic Rod|QID|2768|M|52.46,28.51|Z|1446; Tanaris|N|To Chief Engineer Bilgewhizzle.|
+T The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|1446; Tanaris|N|From Yeh'kinya.|
 
-A The Ancient Egg|QID|4787|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya. Skip this step if you don't intend on finding a group to goto the Hinterlands.|PRE|3527|
+A The Ancient Egg|QID|4787|M|66.99,22.36|Z|1446; Tanaris|N|From Yeh'kinya. Skip this step if you don't intend on finding a group to goto the Hinterlands.|PRE|3527|
 
-F Theramore|ACTIVE|2846|M|51.01,29.34|Z|Tanaris|N|Fly to Dustwallow Marsh.|
+F Theramore|ACTIVE|2846|M|51.01,29.34|Z|1446; Tanaris|N|Fly to Dustwallow Marsh.|
 T Tiara of the Deep|QID|2846|M|46.06,57.09|Z|1445; Dustwallow Marsh|N|To Tabetha. Fly to Theramore if you want to turn this in now.|
 h Gadgetzan|ACTIVE|2993^4787|N|Set your Hearthstone to Gadgetzan in Tanaris.|
 
-F Ratchet|ACTIVE|2991|M|51.01,29.35|Z|Tanaris|N|Fly to Ratchet.|
+F Ratchet|ACTIVE|2991|M|51.01,29.35|Z|1446; Tanaris|N|Fly to Ratchet.|
 b Booty Bay|ACTIVE|2991|M|63.70,38.63|Z|1413; The Barrens|N|Take the boat to Booty Bay.|
 F Blasted Lands|AVAILABLE|212|M|27.53,77.78|Z|1434; Stranglethorn Vale|N|Fly to Blasted Lands.|
-T Nekrum's Medallion|QID|2991|M|66.9,19.5|Z|Blasted Lands|N|To Thadius Grimshade on top of the tower.|
-A The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|PRE|2992|
-T The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|Wait for him to finish the ritual then turn quest in to Thadius Grimshade.|
-A Return to the Hinterlands|QID|2993|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade. Skip this step if you don't intend on finding a group to goto the Hinterlands.|PRE|2992|
-F Wildhammer Keep|ACTIVE|2993^4787|M|65.53,24.34|Z|Blasted Lands|N|Fly to Aerie Peak.|
+T Nekrum's Medallion|QID|2991|M|66.9,19.5|Z|1419; Blasted Lands|N|To Thadius Grimshade on top of the tower.|
+A The Divination|QID|2992|M|66.9,19.5|Z|1419; Blasted Lands|N|From Thadius Grimshade.|PRE|2992|
+T The Divination|QID|2992|M|66.9,19.5|Z|1419; Blasted Lands|N|Wait for him to finish the ritual then turn quest in to Thadius Grimshade.|
+A Return to the Hinterlands|QID|2993|M|66.9,19.5|Z|1419; Blasted Lands|N|From Thadius Grimshade. Skip this step if you don't intend on finding a group to goto the Hinterlands.|PRE|2992|
+F Wildhammer Keep|ACTIVE|2993^4787|M|65.53,24.34|Z|1419; Blasted Lands|N|Fly to Aerie Peak.|
 T Return to the Hinterlands|QID|2993|M|10,44.6|Z|1425; The Hinterlands|N|To Gryphon Master Talonaxe.|
 A Saving Sharpbeak|QID|2994|M|10,44.6|Z|1425; The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2993|
 R Jintha'Alor|ACTIVE|2994|M|66,66|Z|1425; The Hinterlands|N|Put together a group of at least 3 your level or higher. (5 is better if you are all 49).|
@@ -92,7 +92,7 @@ C Saving Sharpbeak|QID|2994|M|56,68;53,66|CS|Z|1425; The Hinterlands|N|Back out 
 R Wildhammer Keep|ACTIVE|2994|N|Run back to Aerie Peak.
 T Saving Sharpbeak|QID|2994|M|10,44.6|Z|1425; The Hinterlands|N|To Gryphon Master Talonaxe.|
 H Gadgetzan|ACTIVE|4787|M|PLAYER|Z|1425; The Hinterlands|N|Hearth back to Tanaris.|
-T The Ancient Egg|QID|4787|M|66.99, 22.36|Z|Tanaris|N|To Yah'kinya.|
-A The God Hakkar|QID|3528|M|66.99, 22.36|Z|Tanaris|N|From Yah'kinya.|PRE|4787|
+T The Ancient Egg|QID|4787|M|66.99, 22.36|Z|1446; Tanaris|N|To Yah'kinya.|
+A The God Hakkar|QID|3528|M|66.99, 22.36|Z|1446; Tanaris|N|From Yah'kinya.|PRE|4787|
 ]]
 end)
