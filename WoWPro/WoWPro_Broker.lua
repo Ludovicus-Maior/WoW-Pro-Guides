@@ -1356,7 +1356,7 @@ if step then
 				local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
 				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
 				if not start then
-					WoWPro:Warning("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
+					WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
 				end
 				if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true
