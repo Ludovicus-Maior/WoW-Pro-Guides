@@ -25,7 +25,7 @@ A The Scepter of Celebras|QID|7046|N|From Celebras the Redeemed.|PRE|7044|LVL|41
 C The Scepter of Celebras|QID|7046|S!US|
 T The Scepter of Celebras|QID|7046|N|To Celebras the Redeemed.|
 
-T Seed of Life|QID|7066|M|63.2,41.8|Z|Moonglade|N|To Keeper Remulos.|
+T Seed of Life|QID|7066|M|63.2,41.8|Z|1450; Moonglade|N|To Keeper Remulos.|
 T The Pariah's Instructions|QID|7067|M|47.4,87.0|Z|Desolace|N|To Centaur Pariah.|
 T Corruption of Earth and Seed|QID|7064|M|26.8,77.6|Z|Desolace|N|To Selendra.|
 T Shadowshard Fragments|QID|7068|M|39.0,86.0|Z|Orgrimmar|N|To Uthel'nay.|

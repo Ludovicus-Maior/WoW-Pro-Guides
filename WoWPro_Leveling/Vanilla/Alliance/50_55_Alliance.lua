@@ -48,94 +48,96 @@ T March of the Silithid|QID|4493|M|50.88,26.96|Z|1446; Tanaris|N|To Alchemist Pe
 A Bungle in the Jungle|QID|4496|M|50.88,26.96|Z|1446; Tanaris|N|From Alchemist Pestlezugg.|PRE|4493|
 
 R Un'Goro Crater|QID|3844|M|27.00,57.00;27.08,51.27|CC|Z|1446; Tanaris|N|Go down the slope to Un'Goro Crater.|
-C Un'Goro Soil|QID|3764|M|PLAYER|Z|Un'Goro Crater|S!US|N|Mounds of soil from the ground and most creatures.|
-l Blue Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|S|N|Blue Crystals from the ground.|L|11184 7|
-l Green Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|S|N|Green Crystals from the ground.|L|11185 7|
-l Red Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|S|N|Red Crystals from the ground.|L|11186 7|
-l Yellow Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|S|N|Yellow Crystals from the ground.|L|11188 7|
-A The Apes of Un'Goro|QID|4289|M|71.64,75.96|Z|Un'Goro Crater|N|From Torwa Pathfinder.|
-A The Fare of Lar'korwi|QID|4290|M|71.64,75.96|Z|Un'Goro Crater|N|From Torwa Pathfinder.|
-A It's a Secret to Everybody|QID|3844|M|63.00,68.50|Z|Un'Goro Crater|N|From a Wrecked Raft.|
-T It's a Secret to Everybody|QID|3844|M|63.12,69.08|Z|Un'Goro Crater|N|To a Small Pack. Located under the water.|
-A It's a Secret to Everybody|QID|3845|M|63.12,69.08|Z|Un'Goro Crater|N|From a Small Pack.|PRE|3844|
-C The Fare of Lar'korwi|QID|4290|M|68.72,56.91|Z|Un'Goro Crater|N|Click the carcass at this location.|
-T The Fare of Lar'korwi|QID|4290|M|71.64,75.96|Z|Un'Goro Crater|N|To Torwa Pathfinder.|
-A The Scent of Lar'korwi|QID|4291|M|71.64,75.96|Z|Un'Goro Crater|N|From Torwa Pathfinder.|PRE|4290|
-C The Scent of Lar'korwi|QID|4291|M|67.00,73.00|Z|Un'Goro Crater|N|Go between this location and 66,67 and step on the egg piles until a Lar'korwi mate shows up. Kill the mates that spawn each time and loot them until you complete this quest.|
-T The Scent of Lar'korwi|QID|4291|M|71.64,75.96|Z|Un'Goro Crater|N|To Torwa Pathfinder. Don't take follow-up.|
-l A Mangled Journal|QID|3884|M|65.75,71.07|Z|Un'Goro Crater|N|Kill Ravasaurs until you get the Mangled Journal.|L|11116|
-A Williden's Journal|QID|3884|M|68.0,76.0|Z|Un'Goro Crater|N|Accept this quest from the Mangled Journal.|U|11116|
-l Yellow Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|US|N|Yellow Crystals from the ground.|L|11188 7|
-l Red Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|US|N|Red Crystals from the ground.|L|11186 7|
-l Green Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|US|N|Green Crystals from the ground.|L|11185 7|
-l Blue Power Crystal|QID|4284|M|PLAYER|Z|Un'Goro Crater|US|N|Blue Crystals from the ground.|L|11184 7|
+C Un'Goro Soil|QID|3764|M|PLAYER|Z|1449; Un'Goro Crater|S!US|N|Mounds of soil from the ground and most creatures.|
+l Blue Power Crystal|QID|4284|M|PLAYER|Z|1449; Un'Goro Crater|S|N|Blue Crystals from the ground.|L|11184 7|
+l Green Power Crystal|QID|4284|M|PLAYER|Z|1449; Un'Goro Crater|S|N|Green Crystals from the ground.|L|11185 7|
+l Red Power Crystal|QID|4284|M|PLAYER|Z|1449; Un'Goro Crater|S|N|Red Crystals from the ground.|L|11186 7|
+l Yellow Power Crystal|QID|4284|M|PLAYER|Z|1449; Un'Goro Crater|S|N|Yellow Crystals from the ground.|L|11188 7|
+A The Apes of Un'Goro|QID|4289|M|71.64,75.96|Z|1449; Un'Goro Crater|N|From Torwa Pathfinder.|
+A The Fare of Lar'korwi|QID|4290|M|71.64,75.96|Z|1449; Un'Goro Crater|N|From Torwa Pathfinder.|
+A It's a Secret to Everybody|QID|3844|M|63.00,68.50|Z|1449; Un'Goro Crater|N|From a Wrecked Raft.|
+T It's a Secret to Everybody|QID|3844|M|63.12,69.08|Z|1449; Un'Goro Crater|N|To a Small Pack. Located under the water.|
+A It's a Secret to Everybody|QID|3845|M|63.12,69.08|Z|1449; Un'Goro Crater|N|From a Small Pack.|PRE|3844|
+C The Fare of Lar'korwi|QID|4290|M|68.72,56.91|Z|1449; Un'Goro Crater|N|Click the carcass at this location.|
+T The Fare of Lar'korwi|QID|4290|M|71.64,75.96|Z|1449; Un'Goro Crater|N|To Torwa Pathfinder.|
+A The Scent of Lar'korwi|QID|4291|M|71.64,75.96|Z|1449; Un'Goro Crater|N|From Torwa Pathfinder.|PRE|4290|
+C The Scent of Lar'korwi|QID|4291|M|67.00,73.00|Z|1449; Un'Goro Crater|N|Go between this location and 66,67 and step on the egg piles until a Lar'korwi mate shows up. Kill the mates that spawn each time and loot them until you complete this quest.|
+T The Scent of Lar'korwi|QID|4291|M|71.64,75.96|Z|1449; Un'Goro Crater|N|To Torwa Pathfinder. Don't take follow-up.|
+l A Mangled Journal|QID|3884|M|65.75,71.07|Z|1449; Un'Goro Crater|N|Kill Ravasaurs until you get the Mangled Journal.|L|11116|
+A Williden's Journal|QID|3884|M|68.0,76.0|Z|1449; Un'Goro Crater|N|Accept this quest from the Mangled Journal.|U|11116|
+l Yellow Power Crystal|QID|4284|M|PLAYER|Z|1449; Un'Goro Crater|US|N|Yellow Crystals from the ground.|L|11188 7|
+l Red Power Crystal|QID|4284|M|PLAYER|Z|1449; Un'Goro Crater|US|N|Red Crystals from the ground.|L|11186 7|
+l Green Power Crystal|QID|4284|M|PLAYER|Z|1449; Un'Goro Crater|US|N|Green Crystals from the ground.|L|11185 7|
+l Blue Power Crystal|QID|4284|M|PLAYER|Z|1449; Un'Goro Crater|US|N|Blue Crystals from the ground.|L|11184 7|
 
-A Chasing A-Me 01|QID|4243|M|46.4,13.4|Z|Un'Goro Crater|N|From Karna Remtravel.|
+A Chasing A-Me 01|QID|4243|M|46.4,13.4|Z|1449; Un'Goro Crater|N|From Karna Remtravel.|
 l A Small Pack|QID|3845|N|Loot the items from the Small Pack in your inventory.|L|11104|U|11107|
-T It's a Secret to Everybody|QID|3845|M|44.66,8.11|Z|Un'Goro Crater|N|To Linken. Skip follow-up for now.|
-f Marshal's Refuge|QID|3882|M|45.23,5.84|Z|Un'Goro Crater|TAXI|-Marshal's Refuge|N|Get the flight-path from Gryfe.|
-T Williden's Journal|QID|3884|M|43.95,7.14|Z|Un'Goro Crater|N|To Williden Marshal.|
-A Expedition Salvation|QID|3881|M|43.95,7.14|Z|Un'Goro Crater|N|From Williden Marshal.|
-A Alien Ecology|QID|3883|M|43.90,7.24|Z|Un'Goro Crater|N|From Hol'anyee Marshal.|
-A Crystals of Power|QID|4284|M|41.9,2.7|Z|Un'Goro Crater|N|From J.D. Collie.|
-T Crystals of Power|QID|4284|M|41.9,2.7|Z|Un'Goro Crater|N|To J.D. Collie.|
-A The Northern Pylon|QID|4285|M|41.9,2.7|Z|Un'Goro Crater|N|From J.D. Collie.|PRE|4284|
-A The Eastern Pylon|QID|4287|M|41.9,2.7|Z|Un'Goro Crater|N|From J.D. Collie.|PRE|4284|
-A The Western Pylon|QID|4288|M|41.9,2.7|Z|Un'Goro Crater|N|From J.D. Collie.|PRE|4284|
-A Roll the Bones|QID|3882|M|43.5,7.4|Z|Un'Goro Crater|N|From Spark Nilminer.|
-A Beware of Pterrordax|QID|4501|M|43.53,8.44|Z|Un'Goro Crater|N|From Beware Sign.|
-A Muigin and Larion|QID|4141|M|42.94,9.64|Z|Un'Goro Crater|N|From Mulgin.|
-A Shizzle's Flyer|QID|4503|M|44.23,11.58|Z|Un'Goro Crater|N|From Shizzle.|
+T It's a Secret to Everybody|QID|3845|M|44.66,8.11|Z|1449; Un'Goro Crater|N|To Linken. Skip follow-up for now.|
+f Marshal's Refuge|QID|3882|M|45.23,5.84|Z|1449; Un'Goro Crater|TAXI|-Marshal's Refuge|N|Get the flight-path from Gryfe.|
+T Williden's Journal|QID|3884|M|43.95,7.14|Z|1449; Un'Goro Crater|N|To Williden Marshal.|
+A Expedition Salvation|QID|3881|M|43.95,7.14|Z|1449; Un'Goro Crater|N|From Williden Marshal.|
+A Alien Ecology|QID|3883|M|43.90,7.24|Z|1449; Un'Goro Crater|N|From Hol'anyee Marshal.|
+A Crystals of Power|QID|4284|M|41.9,2.7|Z|1449; Un'Goro Crater|N|From J.D. Collie.|
+T Crystals of Power|QID|4284|M|41.9,2.7|Z|1449; Un'Goro Crater|N|To J.D. Collie.|
+A The Northern Pylon|QID|4285|M|41.9,2.7|Z|1449; Un'Goro Crater|N|From J.D. Collie.|PRE|4284|
+A The Eastern Pylon|QID|4287|M|41.9,2.7|Z|1449; Un'Goro Crater|N|From J.D. Collie.|PRE|4284|
+A The Western Pylon|QID|4288|M|41.9,2.7|Z|1449; Un'Goro Crater|N|From J.D. Collie.|PRE|4284|
+A Roll the Bones|QID|3882|M|43.5,7.4|Z|1449; Un'Goro Crater|N|From Spark Nilminer.|
+A Beware of Pterrordax|QID|4501|M|43.53,8.44|Z|1449; Un'Goro Crater|N|From Beware Sign.|
+A Muigin and Larion|QID|4141|M|42.94,9.64|Z|1449; Un'Goro Crater|N|From Mulgin.|
+A Shizzle's Flyer|QID|4503|M|44.23,11.58|Z|1449; Un'Goro Crater|N|From Shizzle.|
 
-C Shizzle's Flyer|QID|4503|M|67.3,32.6|Z|Un'Goro Crater|S|N|Kill Diemetradons and Pterrordaxes for their scales.|
-C Muigin and Larion|QID|4141|M|65.00,27.00|Z|Un'Goro Crater|S|N|Kill and loot Bloodpetals.|
-C The Northern Pylon|QID|4285|M|56.5,12.4|Z|Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
-C The Apes of Un'Goro|QID|4289|M|65.7,15.5|Z|Un'Goro Crater|N|Kill Gorillas (in the cave as well) until you get all the pelts.|
-T Chasing A-Me 01|QID|4243|M|67.65,16.76|Z|Un'Goro Crater|N|To A-Me 01|
-A Chasing A-Me 01|QID|4244|M|67.65,16.76|Z|Un'Goro Crater|N|From A-Me 01|PRE|4243
-T Chasing A-Me 01|QID|4244|M|67.65,16.76|Z|Un'Goro Crater|N|To A-Me 01|
-A Chasing A-Me 01|QID|4245|M|67.65,16.76|Z|Un'Goro Crater|N|From A-Me 01|PRE|4244|
-C Chasing A-Me 01|QID|4245|M|46.38,13.44|Z|Un'Goro Crater|N|Escort A-Me 01 back to Karna.|
-T Chasing A-Me 01|QID|4245|M|46.38,13.44|Z|Un'Goro Crater|N|To Karna Remtravel.|
+C Shizzle's Flyer|QID|4503|M|67.3,32.6|Z|1449; Un'Goro Crater|S|N|Kill Diemetradons and Pterrordaxes for their scales.|
+C Beware of Pterrordax|QID|4501|M|67.3,32.6|Z|1449; Un'Goro Crater|QO|1|N|Kill the around.|S|
+C Muigin and Larion|QID|4141|M|65.00,27.00|Z|1449; Un'Goro Crater|S|N|Kill and loot Bloodpetals.|
+C The Northern Pylon|QID|4285|M|56.5,12.4|Z|1449; Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
+C The Apes of Un'Goro|QID|4289|M|65.7,15.5|Z|1449; Un'Goro Crater|N|Kill Gorillas (in the cave as well) until you get all the pelts.|
+T Chasing A-Me 01|QID|4243|M|67.65,16.76|Z|1449; Un'Goro Crater|N|To A-Me 01|
+A Chasing A-Me 01|QID|4244|M|67.65,16.76|Z|1449; Un'Goro Crater|N|From A-Me 01|PRE|4243
+T Chasing A-Me 01|QID|4244|M|67.65,16.76|Z|1449; Un'Goro Crater|N|To A-Me 01|
+A Chasing A-Me 01|QID|4245|M|67.65,16.76|Z|1449; Un'Goro Crater|N|From A-Me 01|PRE|4244|
+C Chasing A-Me 01|QID|4245|M|46.38,13.44|Z|1449; Un'Goro Crater|N|Escort A-Me 01 back to Karna.|
+T Chasing A-Me 01|QID|4245|M|46.38,13.44|Z|1449; Un'Goro Crater|N|To Karna Remtravel.|
 
-C Expedition Salvation|QID|3881|M|68.55,36.54|Z|Un'Goro Crater|NC|QO|1|N|Loot the Crate of Foodstuffs.|
-C The Eastern Pylon|QID|4287|M|77.20,49.98|Z|Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
-T The Apes of Un'Goro|QID|4289|M|71.63,75.96|Z|Un'Goro Crater|N|To Torwa Pathefinder. Skip Follow-up.|
-R Alien Ecology|QID|3883|M|50.50,78.70;49.47,83.13|Z|Un'Goro Crater|CS|N|Run into the tunnel and get your sample.|
-C Alien Ecology|QID|3883|M|48.7,85.3|Z|Un'Goro Crater|N|USe the Scraping Vial and get a Hive Wall Sample.|U|11132|
-C Bungle in the Jungle|QID|4496|M|50.50,78.70|Z|Un'Goro Crater|QO|1|N|Kill bugs until you get the gland.|
-C Roll the Bones|QID|3882|M|34.75,72.40|Z|Un'Goro Crater|S|N|You can pick the bones off the ground for this quest. But you will most likely get all you need from the diametradons.|
-C Expedition Salvation|QID|3881|M|38.00,66.00|Z|Un'Goro Crater|NC|QO|2|N|Loot the Research Equipment.\n\n[color=FF0000]Warning:[/color] There are lots of reds around.|
-C The Western Pylon|QID|4288|M|23.83,59.20|Z|Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
-C Beware of Pterrordax|QID|4501|M|22.20,59.36|Z|Un'Goro Crater|QO|2|N|Kill the Frenized Pterrodax around.|
-C Shizzle's Flyer|QID|4503|M|67.3,32.6|Z|Un'Goro Crater|US|N|Kill Diemetradons and Pterrordaxes for their scales.|
-C Roll the Bones|QID|3882|M|34.75,72.40|Z|Un'Goro Crater|US|N|You can pick the bones off the ground for this quest. But you will most likely get all you need from the diametradons.|
-C Muigin and Larion|QID|4141|M|65.00,27.00|Z|Un'Goro Crater|US|N|Kill and loot Bloodpetals.|
+C Expedition Salvation|QID|3881|M|68.55,36.54|Z|1449; Un'Goro Crater|NC|QO|1|N|Loot the Crate of Foodstuffs.|
+C The Eastern Pylon|QID|4287|M|77.20,49.98|Z|1449; Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
+T The Apes of Un'Goro|QID|4289|M|71.63,75.96|Z|1449; Un'Goro Crater|N|To Torwa Pathefinder. Skip Follow-up.|
+R Alien Ecology|QID|3883|M|50.50,78.70;49.47,83.13|Z|1449; Un'Goro Crater|CS|N|Run into the tunnel and get your sample.|
+C Alien Ecology|QID|3883|M|48.7,85.3|Z|1449; Un'Goro Crater|N|USe the Scraping Vial and get a Hive Wall Sample.|U|11132|
+C Bungle in the Jungle|QID|4496|M|50.50,78.70|Z|1449; Un'Goro Crater|QO|1|N|Kill bugs until you get the gland.|
+C Roll the Bones|QID|3882|M|34.75,72.40|Z|1449; Un'Goro Crater|S|N|You can pick the bones off the ground for this quest. But you will most likely get all you need from the diametradons.|
+C Expedition Salvation|QID|3881|M|38.00,66.00|Z|1449; Un'Goro Crater|NC|QO|2|N|Loot the Research Equipment.\n\n[color=FF0000]Warning:[/color] There are lots of reds around.|
+C The Western Pylon|QID|4288|M|23.83,59.20|Z|1449; Un'Goro Crater|CHAT|N|Click on the Pylon to examine it.|
+C Beware of Pterrordax|QID|4501|M|22.20,59.36|Z|1449; Un'Goro Crater|QO|2|N|Kill the Frenized Pterrodax around.|
+C Shizzle's Flyer|QID|4503|M|67.3,32.6|Z|1449; Un'Goro Crater|US|N|Kill Diemetradons for their scales.|
+C Beware of Pterrordax|QID|4501|M|56.39,89.08|Z|1449; Un'Goro Crater|QO|1|N|Kill the around.|US|
+C Roll the Bones|QID|3882|M|34.75,72.40|Z|1449; Un'Goro Crater|US|N|You can pick the bones off the ground for this quest. But you will most likely get all you need from the diametradons.|
+C Muigin and Larion|QID|4141|M|65.00,27.00|Z|1449; Un'Goro Crater|US|N|Kill and loot Bloodpetals.|
 C Bungle in the Jungle|QID|4496|M|50.88,26.96|Z|1446; Tanaris|QO|2|N|Make sure you have at least 5 soil before you head back.|
 L Level Check|QID|4141|N|You should be about a bubble from level 51 before turning in these quests. No need to grind but you should try killing a little extra in your travels.|LVL|50;-7000|
 
-T Shizzle's Flyer|QID|4503|M|44.23,11.59|Z|Un'Goro Crater|N|ToShizzle.|
-T Muigin and Larion|QID|4141|M|42.94,9.64|Z|Un'Goro Crater|N|To Mulgin.|
-A A Visit to Gregan|QID|4142|M|42.94,9.64|Z|Un'Goro Crater|N|From Mulgin.|PRE|4141|
-T Beware of Pterrordax|QID|4501|M|43.62,8.50|Z|Un'Goro Crater|N|To Spraggle Frock.|
-A It's a Secret to Everybody|QID|3908|M|44.66,8.10|Z|Un'Goro Crater|N|From Linken.|PRE|3845|
-T Expedition Salvation|QID|3881|M|43.95,7.14|Z|Un'Goro Crater|N|To Williden Marshal.|
-T Alien Ecology|QID|3883|M|43.89,7.24|Z|Un'Goro Crater|N|To Hol'anyee Marshal.|
-T Roll the Bones|QID|3882|M|43.5,7.4|Z|Un'Goro Crater|N|To Spark Nilminer.|
-T The Northern Pylon|QID|4285|M|41.9,2.7|Z|Un'Goro Crater|N|To J.D. Collie.|
-T The Eastern Pylon|QID|4287|M|41.9,2.7|Z|Un'Goro Crater|N|To J.D. Collie.|
-T The Western Pylon|QID|4288|M|41.9,2.7|Z|Un'Goro Crater|N|To J.D. Collie.|
-A Making Sense of It|QID|4321|M|41.9,2.7|Z|Un'Goro Crater|N|From J.D. Collie.|
-T Making Sense of It|QID|4321|M|41.9,2.7|Z|Un'Goro Crater|N|To J.D. Collie.|
+T Shizzle's Flyer|QID|4503|M|44.23,11.59|Z|1449; Un'Goro Crater|N|To Shizzle.|
+T Muigin and Larion|QID|4141|M|42.94,9.64|Z|1449; Un'Goro Crater|N|To Mulgin.|
+A A Visit to Gregan|QID|4142|M|42.94,9.64|Z|1449; Un'Goro Crater|N|From Mulgin.|PRE|4141|
+T Beware of Pterrordax|QID|4501|M|43.62,8.50|Z|1449; Un'Goro Crater|N|To Spraggle Frock.|
+A It's a Secret to Everybody|QID|3908|M|44.66,8.10|Z|1449; Un'Goro Crater|N|From Linken.|PRE|3845|
+T Expedition Salvation|QID|3881|M|43.95,7.14|Z|1449; Un'Goro Crater|N|To Williden Marshal.|
+T Alien Ecology|QID|3883|M|43.89,7.24|Z|1449; Un'Goro Crater|N|To Hol'anyee Marshal.|
+T Roll the Bones|QID|3882|M|43.5,7.4|Z|1449; Un'Goro Crater|N|To Spark Nilminer.|
+T The Northern Pylon|QID|4285|M|41.9,2.7|Z|1449; Un'Goro Crater|N|To J.D. Collie.|
+T The Eastern Pylon|QID|4287|M|41.9,2.7|Z|1449; Un'Goro Crater|N|To J.D. Collie.|
+T The Western Pylon|QID|4288|M|41.9,2.7|Z|1449; Un'Goro Crater|N|To J.D. Collie.|
+A Making Sense of It|QID|4321|M|41.9,2.7|Z|1449; Un'Goro Crater|N|From J.D. Collie.|
+T Making Sense of It|QID|4321|M|41.9,2.7|Z|1449; Un'Goro Crater|N|To J.D. Collie.|
 
-r Sell junk, repair, restock|QID|4504|M|44.11,7.19|Z|Un'Goro Crater|N|Sell junk, repair, restock.|
-C Super Sticky|QID|4504|M|46.91,17.17|Z|Un'Goro Crater|N|Kill the Tar Lurkers and Lords around the Tar Pits.|
-A Finding the Source|QID|974|M|30.92,50.44|Z|Un'Goro Crater|N|From Krakle.|
-C Finding the Source|QID|974|M|45.40,48.54;48.04,53.40;53.88,55.13;54.04,47.49;49.67,45.74|CN|Z|Un'Goro Crater|N|Take readings from the hotspots.|U|12472|
-T Finding the Source|QID|974|M|30.92,50.44|Z|Un'Goro Crater|N|To Krakle.|
-A The New Springs|QID|980|M|30.92,50.44|Z|Un'Goro Crater|N|From Krakle.|PRE|974|
+r Sell junk, repair, restock|QID|4504|M|44.11,7.19|Z|1449; Un'Goro Crater|N|Sell junk, repair, restock.|
+C Super Sticky|QID|4504|M|46.91,17.17|Z|1449; Un'Goro Crater|N|Kill the Tar Lurkers and Lords around the Tar Pits.|
+A Finding the Source|QID|974|M|30.92,50.44|Z|1449; Un'Goro Crater|N|From Krakle.|
+C Finding the Source|QID|974|M|45.40,48.54;48.04,53.40;53.88,55.13;54.04,47.49;49.67,45.74|CN|Z|1449; Un'Goro Crater|N|Take readings from the hotspots.|U|12472|
+T Finding the Source|QID|974|M|30.92,50.44|Z|1449; Un'Goro Crater|N|To Krakle.|
+A The New Springs|QID|980|M|30.92,50.44|Z|1449; Un'Goro Crater|N|From Krakle.|PRE|974|
 
-H Gadgetzan|QID|4504|M|45.24,5.83|Z|Un'Goro Crater|N|Hearth or otherwise make your way to Gadgetzan.|
+H Gadgetzan|QID|4504|M|45.24,5.83|Z|1449; Un'Goro Crater|N|Hearth or otherwise make your way to Gadgetzan.|
 T Super Sticky|QID|4504|M|51.57,26.76|Z|1446; Tanaris|N|To Tran'rek.|
 T Bungle in the Jungle|QID|4496|M|50.88,26.96|Z|1446; Tanaris|N|To Alchemist Pestlezugg.|
 
@@ -159,70 +161,70 @@ l Evergreen Herb Casing|QID|3785|M|PLAYER|Z|1457; Darnassus|N|Using the Evergree
 R Rut'theran Village|AVAILABLE|8460|M|30.04,41.32|Z|1457; Darnassus|N|Run back in the portal to Rut'theran Village.|
 F Astranaar|AVAILABLE|8460|M|58.39,94.01|Z|1438; Teldrassil|N|Head to Ashenvale.|
 R Felwood|AVAILABLE|8460|M|38.61,57.68;49.55,56.49;57.85,55.74;61.07,48.60;60.91,43.96;57.40,32.30;55.80,28.79|CC|Z|1440; Ashenvale|N|Make your way up to Felwood.|
-A Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|From Arathandris Silversky.|
-A Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|From Grazle.|
-C Timbermaw Ally|QID|8460|M|48.12,92.92|Z|Felwood|N|Kill the Furbolgs needed for the quest.|
-T Timbermaw Ally|QID|8460|M|50.93,85.00|Z|Felwood|N|To Grazle.|
-A Speak to Nafien|QID|8462|M|50.93,85.02|N|From Grazle.|PRE|8460|Z|Felwood|
-A Forces of Jaedenar|QID|5155|M|51.21,82.13|Z|Felwood|N|From Greta Mooshoof.|
-A The Corruption of the Jadefire|QID|4421|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|
-A Verifying the Corruption|QID|5156|M|50.89,81.63|Z|Felwood|N|From Taronn Redfeather.|
-l Empty Cursed Ooze Jar|QID|4512|M|PLAYER|Z|Felwood|N|Click the Package of Empty Ooze Containers.|L|11914|U|11912|
-C Filled Cursed Ooze Jar|QID|4512|M|41.80,68.20|Z|Felwood|QO|1|S|N|Kill Cursed Ooze and use the Jar to collect some from the corpses.|U|11914|
-C The Corruption of the Jadefire|QID|4421|M|32.00,67.00|Z|Felwood|N|Kill the Jadefire making your way back toward Xavathras.|
-C Filled Cursed Ooze Jar|QID|4512|M|41.80,68.20|Z|Felwood|QO|1|US|N|Kill Cursed Ooze and use the Jar to collect some from the corpses.|U|11914|
-C Filled Tainted Ooze Jar|QID|4512|M|40.69,57.56|Z|Felwood|QO|2|S|N|Kill Tainted Ooze and use the Jar to collect some from the corpses.|U|11948|
-C Forces of Jaedenar|QID|5155|M|35.00,60.00|Z|Felwood|N|Kill mobs here until you finish this quest.|
-C Filled Tainted Ooze Jar|QID|4512|M|40.69,57.56|Z|Felwood|QO|2|US|N|Kill Tainted Ooze and use the Jar to collect some from the corpses.|U|11948|
-T Forces of Jaedenar|QID|5155|M|51.21,82.13|Z|Felwood|N|To Greta Mooshoof.|
-A Collection of the Corrupt Water|QID|5157|M|51.2,82.3|Z|Felwood|N|From Greta Mooshoof.|PRE|5155|
-T The Corruption of the Jadefire|QID|4421|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
-A Further Corruption|QID|4906|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE|4421|
-C Collection of the Corrupt Water|QID|5157|M|35.15,59.73|Z|Felwood|N|Back into Jaedenar toward the Corrupted Moonwell, Get the Corrupt Water by using the Empty Canteen.|U|12922|
-C Verifying the Corruption|QID|5156|M|41.00,42.00|Z|Felwood|N|Explore the crater while killing the mobs, even though this is elite, you don't attack any elites, just avoid the Infernal Sentries.|
+A Cleansing Felwood|QID|4101|M|54.19,86.80|Z|1448; Felwood|N|From Arathandris Silversky.|
+A Timbermaw Ally|QID|8460|M|50.93,85.00|Z|1448; Felwood|N|From Grazle.|
+C Timbermaw Ally|QID|8460|M|48.12,92.92|Z|1448; Felwood|N|Kill the Furbolgs needed for the quest.|
+T Timbermaw Ally|QID|8460|M|50.93,85.00|Z|1448; Felwood|N|To Grazle.|
+A Speak to Nafien|QID|8462|M|50.93,85.02|N|From Grazle.|PRE|8460|Z|1448; Felwood|
+A Forces of Jaedenar|QID|5155|M|51.21,82.13|Z|1448; Felwood|N|From Greta Mooshoof.|
+A The Corruption of the Jadefire|QID|4421|M|51.35,81.51|Z|1448; Felwood|N|From Eridan Bluewind.|
+A Verifying the Corruption|QID|5156|M|50.89,81.63|Z|1448; Felwood|N|From Taronn Redfeather.|
+l Empty Cursed Ooze Jar|QID|4512|M|PLAYER|Z|1448; Felwood|N|Click the Package of Empty Ooze Containers.|L|11914|U|11912|
+C Filled Cursed Ooze Jar|QID|4512|M|41.80,68.20|Z|1448; Felwood|QO|1|S|N|Kill Cursed Ooze and use the Jar to collect some from the corpses.|U|11914|
+C The Corruption of the Jadefire|QID|4421|M|32.00,67.00|Z|1448; Felwood|N|Kill the Jadefire making your way back toward Xavathras.|
+C Filled Cursed Ooze Jar|QID|4512|M|41.80,68.20|Z|1448; Felwood|QO|1|US|N|Kill Cursed Ooze and use the Jar to collect some from the corpses.|U|11914|
+C Filled Tainted Ooze Jar|QID|4512|M|40.69,57.56|Z|1448; Felwood|QO|2|S|N|Kill Tainted Ooze and use the Jar to collect some from the corpses.|U|11948|
+C Forces of Jaedenar|QID|5155|M|35.00,60.00|Z|1448; Felwood|N|Kill mobs here until you finish this quest.|
+C Filled Tainted Ooze Jar|QID|4512|M|40.69,57.56|Z|1448; Felwood|QO|2|US|N|Kill Tainted Ooze and use the Jar to collect some from the corpses.|U|11948|
+T Forces of Jaedenar|QID|5155|M|51.21,82.13|Z|1448; Felwood|N|To Greta Mooshoof.|
+A Collection of the Corrupt Water|QID|5157|M|51.2,82.3|Z|1448; Felwood|N|From Greta Mooshoof.|PRE|5155|
+T The Corruption of the Jadefire|QID|4421|M|51.35,81.51|Z|1448; Felwood|N|To Eridan Bluewind.|
+A Further Corruption|QID|4906|M|51.35,81.51|Z|1448; Felwood|N|From Eridan Bluewind.|PRE|4421|
+C Collection of the Corrupt Water|QID|5157|M|35.15,59.73|Z|1448; Felwood|N|Back into Jaedenar toward the Corrupted Moonwell, Get the Corrupt Water by using the Empty Canteen.|U|12922|
+C Verifying the Corruption|QID|5156|M|41.00,42.00|Z|1448; Felwood|N|Explore the crater while killing the mobs, even though this is elite, you don't attack any elites, just avoid the Infernal Sentries.|
 
-R Continue On|QID|8462|M|41.10,26.23;53.33,12.97;61.58,15.92|Z|Felwood|CC|N|Continue north following the road.|
-f Talonbranch Glade|QID|8462|M|62.49,24.24|Z|Felwood|N|Grab the Flightpath from Mishellena.|
-T Speak to Nafien|QID|8462|M|64.77,8.14|Z|Felwood|N|To Nafien.|
-A Deadwood of the North|QID|8461|M|64.77,8.14|Z|Felwood|N|From Nafien.|
-C Deadwood of the North|QID|8461|M|64.77,8.14|Z|Felwood|N|Kill the Furbolgs needed for the quest.|
-T Deadwood of the North|QID|8461|M|64.77,8.14|Z|Felwood|N|To Nafien.|
-N Timbermaw Hold Rep|QID|3908|M|PLAYER|Z|Felwood|N|If you aren't unfriendly yet with Timbermaw I would suggest getting the few more kills you need, unless you ignored the 2 timbermaw quests in which case you probably have a lot more to do. It just makes the next part a bit easier if they don't agro on you.|REP|Timbermaw Hold;576;Unfriendly;0;true|
-A Speak to Salfa|QID|8465|M|64.77,8.14|Z|Felwood|N|From Nafien.|REP|Timbermaw Hold;576;Unfriendly-Exalted|PRE|8461|
+R Continue On|QID|8462|M|41.10,26.23;53.33,12.97;61.58,15.92|Z|1448; Felwood|CC|N|Continue north following the road.|
+f Talonbranch Glade|QID|8462|M|62.49,24.24|Z|1448; Felwood|N|Grab the Flightpath from Mishellena.|
+T Speak to Nafien|QID|8462|M|64.77,8.14|Z|1448; Felwood|N|To Nafien.|
+A Deadwood of the North|QID|8461|M|64.77,8.14|Z|1448; Felwood|N|From Nafien.|
+C Deadwood of the North|QID|8461|M|64.77,8.14|Z|1448; Felwood|N|Kill the Furbolgs needed for the quest.|
+T Deadwood of the North|QID|8461|M|64.77,8.14|Z|1448; Felwood|N|To Nafien.|
+N Timbermaw Hold Rep|QID|3908|M|PLAYER|Z|1448; Felwood|N|If you aren't unfriendly yet with Timbermaw I would suggest getting the few more kills you need, unless you ignored the 2 timbermaw quests in which case you probably have a lot more to do. It just makes the next part a bit easier if they don't agro on you.|REP|Timbermaw Hold;576;Unfriendly;0;true|
+A Speak to Salfa|QID|8465|M|64.77,8.14|Z|1448; Felwood|N|From Nafien.|REP|Timbermaw Hold;576;Unfriendly-Exalted|PRE|8461|
 
-R Moonglade|QID|8465|M|65.44,2.77;65.45,1.03|CC|Z|Felwood|N|Run to Moonglade and grab the flightpath.|
-R Moonglade|QID|8465|M|35.75,72.51|Z|Moonglade|N|Run to Moonglade and grab the flightpath.|
-t Seed of Life|QID|7066|M|36.21,41.81|Z|Moonglade|N|To Keeper Remulos.|
-f Moonglade|QID|8465|M|48.10,67.34|Z|Moonglade|N|Get the Flightpath.|
-R Felwood|QID|8465|M|35.42,65.78;35.75,72.51|Z|Moonglade|CC|N|Now lets make our way to winterspring.|
-R Winterspring|QID|8465|M|65.83,3.56;68.50,5.98|Z|Felwood|CN|N|Now lets make our way to winterspring.|
-T Speak to Salfa|QID|8465|M|27.74,34.50|Z|Winterspring|N|To Saifa.|
-T It's a Secret to Everybody|QID|3908|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
-T The New Springs|QID|980|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
+R Moonglade|QID|8465|M|65.44,2.77;65.45,1.03|CC|Z|1448; Felwood|N|Run to Moonglade and grab the flightpath.|
+R Moonglade|QID|8465|M|35.75,72.51|Z|1450; Moonglade|N|Run to Moonglade and grab the flightpath.|
+t Seed of Life|QID|7066|M|36.21,41.81|Z|1450; Moonglade|N|To Keeper Remulos.|
+f Moonglade|QID|8465|M|48.10,67.34|Z|1450; Moonglade|N|Get the Flightpath.|
+R Felwood|QID|8465|M|35.42,65.78;35.75,72.51|Z|1450; Moonglade|CC|N|Now lets make our way to winterspring.|
+R Winterspring|QID|8465|M|65.83,3.56;68.50,5.98|Z|1448; Felwood|CN|N|Now lets make our way to winterspring.|
+T Speak to Salfa|QID|8465|M|27.74,34.50|Z|1452; Winterspring|N|To Saifa.|
+T It's a Secret to Everybody|QID|3908|M|31.27,45.18|Z|1452; Winterspring|N|To Donova Snowden.|
+T The New Springs|QID|980|M|31.27,45.18|Z|1452; Winterspring|N|To Donova Snowden.|
 
-A The Videre Elixir|QID|3909|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|PRE|3908|
-A The Everlook Report|QID|6028|M|61.35,38.97|Z|Winterspring|N|From Gregor Grestone.|
-r Sell junk, repair, restock|QID|4101|M|61.62,37.87|Z|Winterspring|N|Sell junk, repair, restock. There is also a Bank and Underground Auction House in he northern part of town.|
-f Everlook|QID|4101|M|62.33,36.61|Z|Winterspring|N|Get the flightpath from Maethrya.|
+A The Videre Elixir|QID|3909|M|31.27,45.18|Z|1452; Winterspring|N|To Donova Snowden.|PRE|3908|
+A The Everlook Report|QID|6028|M|61.35,38.97|Z|1452; Winterspring|N|From Gregor Grestone.|
+r Sell junk, repair, restock|QID|4101|M|61.62,37.87|Z|1452; Winterspring|N|Sell junk, repair, restock. There is also a Bank and Underground Auction House in he northern part of town.|
+f Everlook|QID|4101|M|62.33,36.61|Z|1452; Winterspring|N|Get the flightpath from Maethrya.|
 
-F Talonbranch Glade|QID|4101|M|62.33,36.61|Z|Winterspring|N|Fly back to Felwood.|
-C Cleansing Felwood|QID|4101|M|55.50,16.75|Z|Felwood|N|Goto the cave and surrounding area. Kill Warpwoods until you get the items for this quest.|
-R Jadefire Run|QID|4906|M|43,21|Z|Felwood|N|Head toward Jadefire Run.|
-K Xavaric|AVAILABLE|939|M|39.00,22.00|Z|Felwood|N|Kill Xavaric and take his flute. Avoid killing the other Jadefire for the other quest as much as you can because you will have to do it again after this.|L|11668|
-A Flute of Xavaric|QID|939|M|39.1,22.3|Z|Felwood|N|Right-click the flute and accept the quest.|U|11668|
-C Further Corruption|QID|4906|M|39.3,21.4|Z|Felwood|S|N|Kill Jadefire mobs until this quest is completed.|
-C Flute of Xavaric|QID|939|M|39.3,21.4|Z|Felwood|N|Kill Jadefire mobs until you get the felbinds.|
-C Further Corruption|QID|4906|M|39.3,21.4|Z|Felwood|US|N|Kill Jadefire mobs until this quest is completed.|
+F Talonbranch Glade|QID|4101|M|62.33,36.61|Z|1452; Winterspring|N|Fly back to Felwood.|
+C Cleansing Felwood|QID|4101|M|55.50,16.75|Z|1448; Felwood|N|Goto the cave and surrounding area. Kill Warpwoods until you get the items for this quest.|
+R Jadefire Run|QID|4906|M|43,21|Z|1448; Felwood|N|Head toward Jadefire Run.|
+K Xavaric|AVAILABLE|939|M|39.00,22.00|Z|1448; Felwood|N|Kill Xavaric and take his flute. Avoid killing the other Jadefire for the other quest as much as you can because you will have to do it again after this.|L|11668|
+A Flute of Xavaric|QID|939|M|39.1,22.3|Z|1448; Felwood|N|Right-click the flute and accept the quest.|U|11668|
+C Further Corruption|QID|4906|M|39.3,21.4|Z|1448; Felwood|S|N|Kill Jadefire mobs until this quest is completed.|
+C Flute of Xavaric|QID|939|M|39.3,21.4|Z|1448; Felwood|N|Kill Jadefire mobs until you get the felbinds.|
+C Further Corruption|QID|4906|M|39.3,21.4|Z|1448; Felwood|US|N|Kill Jadefire mobs until this quest is completed.|
 
-T Collection of the Corrupt Water|QID|5157|M|51.21,82.15|Z|Felwood|N|To Greta Mosshoof.|
-A Seeking Spiritual Aid|QID|5158|M|51.21,82.15|Z|Felwood|N|From Greta Mosshoof.|PRE|5157|
-T Verifying the Corruption|QID|5156|M|50.89,81.63|Z|Felwood|N|To Taronn Redfeather.|
-T Further Corruption|QID|4906|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
-T Flute of Xavaric|QID|939|M|51.35,81.51|Z|Felwood|N|To Eridan Bluewind.|
-A Felbound Ancients|QID|4441|M|51.35,81.51|Z|Felwood|N|From Eridan Bluewind.|PRE|939|
-T Cleansing Felwood|QID|4101|M|54.19,86.80|Z|Felwood|N|To Arathandris Silversky.|
+T Collection of the Corrupt Water|QID|5157|M|51.21,82.15|Z|1448; Felwood|N|To Greta Mosshoof.|
+A Seeking Spiritual Aid|QID|5158|M|51.21,82.15|Z|1448; Felwood|N|From Greta Mosshoof.|PRE|5157|
+T Verifying the Corruption|QID|5156|M|50.89,81.63|Z|1448; Felwood|N|To Taronn Redfeather.|
+T Further Corruption|QID|4906|M|51.35,81.51|Z|1448; Felwood|N|To Eridan Bluewind.|
+T Flute of Xavaric|QID|939|M|51.35,81.51|Z|1448; Felwood|N|To Eridan Bluewind.|
+A Felbound Ancients|QID|4441|M|51.35,81.51|Z|1448; Felwood|N|From Eridan Bluewind.|PRE|939|
+T Cleansing Felwood|QID|4101|M|54.19,86.80|Z|1448; Felwood|N|To Arathandris Silversky.|
 
-R Ashenvale|QID|4512|M|54.89,93.04|Z|Felwood|N|Make your way back to Astranaar.|
+R Ashenvale|QID|4512|M|54.89,93.04|Z|1448; Felwood|N|Make your way back to Astranaar.|
 R Astranaar|QID|4512|M|57.84,40.55;60.96,48.49;60.32,52.41;57.31,55.86;52.53,55.01;49.47,56.48;34.41,47.99|Z|1440; Ashenvale|CC|N|Head back to Astranaar.|
 F Feathermoon Stronghold|QID|4512|M|34.41,47.99|Z|1440; Ashenvale|N|Fly to Feralas.|
 A Jonespyre's Request|QID|3788|M|30.97,43.49|Z|1444; Feralas|N|From Inkeeper Shyria.|PRE|3781|
@@ -247,44 +249,44 @@ A A Call to Arms: The Plaguelands!|QID|5090|M|47.11,50.29|Z|1455; Ironforge|N|Fr
 T A Little Slime Goes a Long Way|QID|4512|M|75.74,23.38|Z|1455; Ironforge|N|To Laris Geardawdle. Don't get follow-up for now.|
 
 F Chillwind Camp|QID|5090|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Western Plaguelands.|
-T A Call to Arms: The Plaguelands!|QID|5090|M|42.71,84.04|Z|Western Plaguelands|N|To Commander Ashlam Valorfist.|
-A Clear the Way|QID|5092|M|42.71,84.04|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5090|
-l Argent Dawn Comission|QID|5401|M|42.96,83.56|Z|Western Plaguelands|S|N|When you get this, be sure to equip it while in either of the Plaguelands, Scholomance and Stratholme so that you may collect scourgestones.|ITEM|12846|L|12846|
-T The Everlook Report|QID|6028|M|42.96,83.56|Z|Western Plaguelands|N|To Argent Officer Pureheart.|
-A Argent Dawn Commission|QID|5401|M|42.96,83.56|Z|Western Plaguelands|N|From Argent Officer Pureheart.|
-T Argent Dawn Commission|QID|5401|M|42.96,83.56|Z|Western Plaguelands|N|To Argent Officer Pureheart.|
-l Argent Dawn Comission|QID|5401|M|42.96,83.56|Z|Western Plaguelands|US|N|When you get this, be sure to equip it while in either of the Plaguelands, Scholomance and Stratholme so that you may collect scourgestones.|
+T A Call to Arms: The Plaguelands!|QID|5090|M|42.71,84.04|Z|1422; Western Plaguelands|N|To Commander Ashlam Valorfist.|
+A Clear the Way|QID|5092|M|42.71,84.04|Z|1422; Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5090|
+l Argent Dawn Comission|QID|5401|M|42.96,83.56|Z|1422; Western Plaguelands|S|N|When you get this, be sure to equip it while in either of the Plaguelands, Scholomance and Stratholme so that you may collect scourgestones.|ITEM|12846|L|12846|
+T The Everlook Report|QID|6028|M|42.96,83.56|Z|1422; Western Plaguelands|N|To Argent Officer Pureheart.|
+A Argent Dawn Commission|QID|5401|M|42.96,83.56|Z|1422; Western Plaguelands|N|From Argent Officer Pureheart.|
+T Argent Dawn Commission|QID|5401|M|42.96,83.56|Z|1422; Western Plaguelands|N|To Argent Officer Pureheart.|
+l Argent Dawn Comission|QID|5401|M|42.96,83.56|Z|1422; Western Plaguelands|US|N|When you get this, be sure to equip it while in either of the Plaguelands, Scholomance and Stratholme so that you may collect scourgestones.|
 
-C Clear the Way|QID|5092|M|50.42,78.56|Z|Western Plaguelands|N|Kill the mobs needed for this quest.|
-T Clear the Way|QID|5092|M|42.71,84.04|Z|Western Plaguelands|N|To Commander Ashlam Valorfist.|
+C Clear the Way|QID|5092|M|50.42,78.56|Z|1422; Western Plaguelands|N|Kill the mobs needed for this quest.|
+T Clear the Way|QID|5092|M|42.71,84.04|Z|1422; Western Plaguelands|N|To Commander Ashlam Valorfist.|
 
-A The Scourge Cauldrons|QID|5215|M|42.71,84.04|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5092|
-T The Scourge Cauldrons|QID|5215|M|42.96,84.50|Z|Western Plaguelands|N|To High Priestess MacDonnell.|
-A Target: Felstone Field|QID|5216|M|42.96,84.50|Z|Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5215|
-C Target: Felstone Field|QID|5216|M|37.13,56.96|Z|Western Plaguelands|N|Kill Cauldron Lord Bilemaw and take his key.|
-T Target: Felstone Field|QID|5216|M|37.18,56.88|Z|Western Plaguelands|N|To The Scourge Cauldron.|
-A Return to Chillwind Camp|QID|5217|M|37.0,57.1|Z|Western Plaguelands|N|From The Scourge Cauldron.|PRE|5216|
-A Better Late Than Never|QID|5021|M|38.40,54.06|Z|Western Plaguelands|N|From Janice Felstone. Upstairs in the back room of the building.|
-T Better Late Than Never|QID|5021|M|38.72,55.24|Z|Western Plaguelands|N|To Janice's Parcel.|
-A Better Late Than Never|QID|5022|M|38.72,55.24|Z|Western Plaguelands|N|From Janice's Parcel.|PRE|5021
+A The Scourge Cauldrons|QID|5215|M|42.71,84.04|Z|1422; Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5092|
+T The Scourge Cauldrons|QID|5215|M|42.96,84.50|Z|1422; Western Plaguelands|N|To High Priestess MacDonnell.|
+A Target: Felstone Field|QID|5216|M|42.96,84.50|Z|1422; Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5215|
+C Target: Felstone Field|QID|5216|M|37.13,56.96|Z|1422; Western Plaguelands|N|Kill Cauldron Lord Bilemaw and take his key.|
+T Target: Felstone Field|QID|5216|M|37.18,56.88|Z|1422; Western Plaguelands|N|To The Scourge Cauldron.|
+A Return to Chillwind Camp|QID|5217|M|37.0,57.1|Z|1422; Western Plaguelands|N|From The Scourge Cauldron.|PRE|5216|
+A Better Late Than Never|QID|5021|M|38.40,54.06|Z|1422; Western Plaguelands|N|From Janice Felstone. Upstairs in the back room of the building.|
+T Better Late Than Never|QID|5021|M|38.72,55.24|Z|1422; Western Plaguelands|N|To Janice's Parcel.|
+A Better Late Than Never|QID|5022|M|38.72,55.24|Z|1422; Western Plaguelands|N|From Janice's Parcel.|PRE|5021
 
-T Return to Chillwind Camp|QID|5217|M|42.96,84.50|Z|Western Plaguelands|N|To High Priestess MacDonnell.|
-A Target: Dalson's Tears|QID|5219|M|42.96,84.50|Z|Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5217|
+T Return to Chillwind Camp|QID|5217|M|42.96,84.50|Z|1422; Western Plaguelands|N|To High Priestess MacDonnell.|
+A Target: Dalson's Tears|QID|5219|M|42.96,84.50|Z|1422; Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5217|
 
-C Target: Dalson's Tears|QID|5219|M|46.19,52.34|Z|Western Plaguelands|N|Kill Lord Malvinious and loot the key.|
-T Target: Dalson's Tears|QID|5219|M|46.21,52.00|Z|Western Plaguelands|N|To Scourge Cauldron.|
-A Return to Chillwind Camp|QID|5220|M|46.21,52.004|Z|Western Plaguelands|N|From Scourge Cauldron.|PRE|5219|
-A Mrs. Dalson's Diary|QID|5058|M|47.80,50.68|Z|Western Plaguelands|N|Click the Diary and Complete the quest.|
-T Mrs. Dalson's Diary|QID|5058|M|47.7,50.7|Z|Western Plaguelands|N|Click the Diary and Complete the quest.|
-l Dalson Outhouse Key|QID|5060|M|47.7,50.7|Z|Western Plaguelands|N|Kill the "Wandering Skeleton" in this area and get the Outhouse Key.|L|12738|T|Wandering Skeleton|PRE|5058|
-A Locked Away|QID|5059|AVAILABLE|5060|M|48.11,49.64|Z|Western Plaguelands|N|Unlock the Outhouse, be prepared for a fight.|PRE|5058|
-T Locked Away|QID|5059|M|48.11,49.64|Z|Western Plaguelands|N|Unlock the Outhouse, be prepared for a fight.|
-K Farmer Dalson|QID|5060|M|48.11,49.64|Z|Western Plaguelands|N|Now with the key, open the Outhouse, kill Farmer Dalson, and get the Cabinet Key.|L|12739|
-A Locked Away|QID|5060|M|47.37,49.65|Z|Western Plaguelands|N|From the Locked Cabinet Inside the house.|
-T Locked Away|QID|5060|M|47.37,49.65|Z|Western Plaguelands|N|To the Locked Cabinet.|
-T Return to Chillwind Camp|QID|5220|M|42.96,84.50|Z|Western Plaguelands|N|To High Priestess MacDonnell.|
+C Target: Dalson's Tears|QID|5219|M|46.19,52.34|Z|1422; Western Plaguelands|N|Kill Lord Malvinious and loot the key.|
+T Target: Dalson's Tears|QID|5219|M|46.21,52.00|Z|1422; Western Plaguelands|N|To Scourge Cauldron.|
+A Return to Chillwind Camp|QID|5220|M|46.21,52.004|Z|1422; Western Plaguelands|N|From Scourge Cauldron.|PRE|5219|
+A Mrs. Dalson's Diary|QID|5058|M|47.80,50.68|Z|1422; Western Plaguelands|N|Click the Diary and Complete the quest.|
+T Mrs. Dalson's Diary|QID|5058|M|47.7,50.7|Z|1422; Western Plaguelands|N|Click the Diary and Complete the quest.|
+l Dalson Outhouse Key|QID|5060|M|47.7,50.7|Z|1422; Western Plaguelands|N|Kill the "Wandering Skeleton" in this area and get the Outhouse Key.|L|12738|T|Wandering Skeleton|PRE|5058|
+A Locked Away|QID|5059|AVAILABLE|5060|M|48.11,49.64|Z|1422; Western Plaguelands|N|Unlock the Outhouse, be prepared for a fight.|PRE|5058|
+T Locked Away|QID|5059|M|48.11,49.64|Z|1422; Western Plaguelands|N|Unlock the Outhouse, be prepared for a fight.|
+K Farmer Dalson|QID|5060|M|48.11,49.64|Z|1422; Western Plaguelands|N|Now with the key, open the Outhouse, kill Farmer Dalson, and get the Cabinet Key.|L|12739|
+A Locked Away|QID|5060|M|47.37,49.65|Z|1422; Western Plaguelands|N|From the Locked Cabinet Inside the house.|
+T Locked Away|QID|5060|M|47.37,49.65|Z|1422; Western Plaguelands|N|To the Locked Cabinet.|
+T Return to Chillwind Camp|QID|5220|M|42.96,84.50|Z|1422; Western Plaguelands|N|To High Priestess MacDonnell.|
 
-H Ironforge|QID|5022|M|PLAYER|Z|Western Plaguelands|N|Hearth back to Ironforge.|
+H Ironforge|QID|5022|M|PLAYER|Z|1422; Western Plaguelands|N|Hearth back to Ironforge.|
 A The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|N|From Royal Historian Archesonus.|
 C The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|CHAT|N|Chat with Royal Historian Archesonus.|
 T The Smoldering Ruins of Thaurissan|QID|3702|M|38.37,55.32|Z|1455; Ironforge|N|To Royal Historian Archesonus.|
@@ -299,34 +301,34 @@ r Sell junk, repair, restock|QID|5220|N|Sell junk, repair, restock|
 
 F Lakeshire|QID|3823|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Lakeshire in Redridge.|
 R Burning Steppes|QID|3823|M|46.43,6.34|Z|1433; Redridge Mountains|N|Make your way to the Burning Steppes.|
-f Morgan's Vigil|QID|3823|M|84.33,68.32|Z|Burning Steppes|N|Get the Flightpath from Borgus Stoutarm.|
+f Morgan's Vigil|QID|3823|M|84.33,68.32|Z|1428; Burning Steppes|N|Get the Flightpath from Borgus Stoutarm.|
 
-A Extinguish the Firegut|QID|3823|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
-A FIFTY! YEP!|QID|4283|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
-A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
+A Extinguish the Firegut|QID|3823|M|84.55,68.68|Z|1428; Burning Steppes|N|From Oralius.|
+A FIFTY! YEP!|QID|4283|M|84.55,68.68|Z|1428; Burning Steppes|N|From Oralius.|
+A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|1428; Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
 
-C Extinguish the Firegut|QID|3823|M|81,41|Z|Burning Steppes|S|N|Kill the Ogres around here.|
-A Broodling Essence|QID|4726|M|65.26,23.99|Z|Burning Steppes|N|From Tinkee Steamboil.|
-A Tablet of the Seven|QID|4296|M|65.18,23.9|Z|Burning Steppes|N|From Maxwort Uberglint.|
-C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|Burning Steppes|NC|S|N|Find and click on Thaurissan Relics to recover the information.|
-C Tablet of the Seven|QID|4296|M|54.11,40.75|Z|Burning Steppes|N|Click on the Tablet of the Seven.|
-C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|Burning Steppes|NC|US|N|Find and click on Thaurissan Relics to recover the information.|
-C Broodling Essence|QID|4726|M|83.57,58.35|Z|Burning Steppes|S|N|Fire the Draco-Incarcinatrix 900 at Broodings. After you kill them you need to click the Broodling Essence that drops to the ground.|U|12284|
-C FIFTY! YEP!|QID|4283|M|83.57,58.35|Z|Burning Steppes|S|N|The Worgs and Orcs in the area have a chance at dropping Medallions.|
-C Extinguish the Firegut|QID|3823|M|81,41|Z|Burning Steppes|US|N|Kill the Ogres around here.|
-C Broodling Essence|QID|4726|M|83.57,58.35|Z|Burning Steppes|US|N|Fire the Draco-Incarcinatrix 900 at Broodlings. After you kill them you need to click the Broodling Essence that drops to the ground.|U|12284|
-T Extinguish the Firegut|QID|3823|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
-A Gor'tesh the Brute Lord|QID|3824|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|PRE|3823|
-T Tablet of the Seven|QID|4296|M|65.18,23.9|Z|Burning Steppes|N|To Maxwort Uberglint.|
-T Broodling Essence|QID|4726|M|65.26,23.99|Z|Burning Steppes|N|To Tinkee Steamboil.|
-A Felnok Steelspring|QID|4808|M|65.26,23.99|Z|Burning Steppes|N|From Tinkee Steamboil.|PRE|4726|
-C Gor'tesh the Brute Lord|QID|3824|M|39.33,55.30|Z|Burning Steppes|N|Kill Gor'tesh who wanders around this area.|
-C FIFTY! YEP!|QID|4283|M|41.89,52.55|Z|Burning Steppes|US|N|You can go back to the eastern side to farm worgs, or to the orc camps to the west.|
-T Gor'tesh the Brute Lord|QID|3824|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
-A Ogre Head On A Stick = Party|QID|3825|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|PRE|3824|
-T FIFTY! YEP!|QID|4283|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
+C Extinguish the Firegut|QID|3823|M|81,41|Z|1428; Burning Steppes|S|N|Kill the Ogres around here.|
+A Broodling Essence|QID|4726|M|65.26,23.99|Z|1428; Burning Steppes|N|From Tinkee Steamboil.|
+A Tablet of the Seven|QID|4296|M|65.18,23.9|Z|1428; Burning Steppes|N|From Maxwort Uberglint.|
+C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|1428; Burning Steppes|NC|S|N|Find and click on Thaurissan Relics to recover the information.|
+C Tablet of the Seven|QID|4296|M|54.11,40.75|Z|1428; Burning Steppes|N|Click on the Tablet of the Seven.|
+C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|1428; Burning Steppes|NC|US|N|Find and click on Thaurissan Relics to recover the information.|
+C Broodling Essence|QID|4726|M|83.57,58.35|Z|1428; Burning Steppes|S|N|Fire the Draco-Incarcinatrix 900 at Broodings. After you kill them you need to click the Broodling Essence that drops to the ground.|U|12284|
+C FIFTY! YEP!|QID|4283|M|83.57,58.35|Z|1428; Burning Steppes|S|N|The Worgs and Orcs in the area have a chance at dropping Medallions.|
+C Extinguish the Firegut|QID|3823|M|81,41|Z|1428; Burning Steppes|US|N|Kill the Ogres around here.|
+C Broodling Essence|QID|4726|M|83.57,58.35|Z|1428; Burning Steppes|US|N|Fire the Draco-Incarcinatrix 900 at Broodlings. After you kill them you need to click the Broodling Essence that drops to the ground.|U|12284|
+T Extinguish the Firegut|QID|3823|M|84.55,68.68|Z|1428; Burning Steppes|N|To Oralius.|
+A Gor'tesh the Brute Lord|QID|3824|M|84.55,68.68|Z|1428; Burning Steppes|N|From Oralius.|PRE|3823|
+T Tablet of the Seven|QID|4296|M|65.18,23.9|Z|1428; Burning Steppes|N|To Maxwort Uberglint.|
+T Broodling Essence|QID|4726|M|65.26,23.99|Z|1428; Burning Steppes|N|To Tinkee Steamboil.|
+A Felnok Steelspring|QID|4808|M|65.26,23.99|Z|1428; Burning Steppes|N|From Tinkee Steamboil.|PRE|4726|
+C Gor'tesh the Brute Lord|QID|3824|M|39.33,55.30|Z|1428; Burning Steppes|N|Kill Gor'tesh who wanders around this area.|
+C FIFTY! YEP!|QID|4283|M|41.89,52.55|Z|1428; Burning Steppes|US|N|You can go back to the eastern side to farm worgs, or to the orc camps to the west.|
+T Gor'tesh the Brute Lord|QID|3824|M|84.55,68.68|Z|1428; Burning Steppes|N|To Oralius.|
+A Ogre Head On A Stick = Party|QID|3825|M|84.55,68.68|Z|1428; Burning Steppes|N|From Oralius.|PRE|3824|
+T FIFTY! YEP!|QID|4283|M|84.55,68.68|Z|1428; Burning Steppes|N|To Oralius.|
 
-F Thorium Point|QID|3481|M|84.33,68.32|Z|Burning Steppes|N|Fly to Thorium Point to complete or finish the black dragon questline.|
+F Thorium Point|QID|3481|M|84.33,68.32|Z|1428; Burning Steppes|N|Fly to Thorium Point to complete or finish the black dragon questline.|
 A Divine Retribution|QID|3441|M|39.04,38.99|Z|1427; Searing Gorge|N|From Kalaran Windblade.|
 C Divine Retribution|QID|3441|M|39.04,38.99|Z|1427; Searing Gorge|CHAT|N|Talk with Kalaran Windblade.|
 T Divine Retribution|QID|3441|M|39.04,38.99|Z|1427; Searing Gorge|N|To Kalaran Windblade.|
@@ -363,17 +365,17 @@ T Trinkets...|QID|3481|M|38.85,39.00|Z|1427; Searing Gorge|N|To Hoard of the Bla
 l Black Dragonflight Molt|QID|4022|M|38.85,39.00|Z|1427; Searing Gorge|N|Loot the Hoard of the Black Dragonflight to get the molt.|L|10575|U|10569|
 
 F Morgan's Vigil|QID|3825|M|37.94,30.85|Z|1427; Searing Gorge|N|Fly back to Burning Steppes.|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|S|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
-C Ogre Head On A Stick = Party|QID|3825|M|81.00,46.78|Z|Burning Steppes|N|Click on the Dirt Mound to place head.|
-A A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|From Cyrus Therepentous.|PRE|3481|
-C A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|CHAT|N|Talk with Cyrus Therepentous.|
-T A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|To Cyrus Therepentous. Skip follow-up|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|US|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
-T Ogre Head On A Stick = Party|QID|3825|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
-T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|To Helendis Riverhorn.|
-A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
+C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|1428; Burning Steppes|S|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
+C Ogre Head On A Stick = Party|QID|3825|M|81.00,46.78|Z|1428; Burning Steppes|N|Click on the Dirt Mound to place head.|
+A A Taste of Flame|QID|4022|M|95.09,31.55|Z|1428; Burning Steppes|N|From Cyrus Therepentous.|PRE|3481|
+C A Taste of Flame|QID|4022|M|95.09,31.55|Z|1428; Burning Steppes|CHAT|N|Talk with Cyrus Therepentous.|
+T A Taste of Flame|QID|4022|M|95.09,31.55|Z|1428; Burning Steppes|N|To Cyrus Therepentous. Skip follow-up|
+C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|1428; Burning Steppes|US|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
+T Ogre Head On A Stick = Party|QID|3825|M|84.55,68.68|Z|1428; Burning Steppes|N|To Oralius.|
+T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|1428; Burning Steppes|N|To Helendis Riverhorn.|
+A The True Masters|QID|4183|M|85.80,68.94|Z|1428; Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
 
-F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redridge.|
+F Lakeshire|QID|4183|M|84.33,68.32|Z|1428; Burning Steppes|N|Fly to Lakeshire in Redridge.|
 T The True Masters|QID|4183|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A The True Masters|QID|4184|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
 F Stormwind|QID|4184|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
@@ -386,67 +388,67 @@ F Lakeshire|QID|4186|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Lakeshire in 
 T The True Masters|QID|4186|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A The True Masters|QID|4223|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
 F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
-T The True Masters|QID|4223|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
-A The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
-C The True Masters|QID|4224|M|65.02,23.74|Z|Burning Steppes|CHAT|N|Talk with Ragged John.|
-T The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Skip follow-up.|
+T The True Masters|QID|4223|M|84.74,69.01|Z|1428; Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
+A The True Masters|QID|4224|M|84.74,69.01|Z|1428; Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
+C The True Masters|QID|4224|M|65.02,23.74|Z|1428; Burning Steppes|CHAT|N|Talk with Ragged John.|
+T The True Masters|QID|4224|M|84.74,69.01|Z|1428; Burning Steppes|N|To Marshal Maxwell. Skip follow-up.|
 
-H Ironforge|QID|3701|M|PLAYER|Z|Burning Steppes|N|Hearth back to Ironforge. You could fly since you're right next to the flightmaster but we won't need a hearth in the next hour so save yourself some money.|
+H Ironforge|QID|3701|M|PLAYER|Z|1428; Burning Steppes|N|Hearth back to Ironforge. You could fly since you're right next to the flightmaster but we won't need a hearth in the next hour so save yourself some money.|
 T The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|1455; Ironforge|N|To Royal Historian Archesonus.|
 r City Stuff!|QID|5220|N|Train, Auctions, Professions, Stock up on mats, food/water, sell, repair. Take care of your business.|
 
 F Chillwind Camp|QID|5222|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Western Plaguelands.|
-A All Along the Watchtowers|QID|5097|M|42.71,84.04|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5092|
-A Target: Writhing Haunt|QID|5222|M|42.96,84.50|Z|Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5220|
-C Tower One|QID|5097|M|40.04,71.73|Z|Western Plaguelands|QO|1|N|Use the Beacon's Torch right on the edge of the doorway, out of line of site from the elite.|U|12815|
-A A Matter of Time|QID|4971|M|39.45,66.77|Z|Western Plaguelands|N|From Chromie. In the building upstairs.|
-C Tower Four|QID|5097|M|46.53,71.16|Z|Western Plaguelands|QO|4|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
-C A Matter of Time|QID|4971|M|49.23,69.16|Z|Western Plaguelands|N|Uset the Temporal Displacer while standing near the grain silos. Kill the parasites that spawn.|U|12627|
-C Target: Writhing Haunt|QID|5222|M|53.01,66.06|Z|Western Plaguelands|N|Kill Lord Razarch and loot the key. He spawns when you approach the Cauldron.|
-T Target: Writhing Haunt|QID|5222|M|53.03,65.72|Z|Western Plaguelands|N|To Scourge Cauldron.|
-A Return to Chillwind Camp|QID|5223|M|53.03,65.72|Z|Western Plaguelands|N|From Scourge Cauldron.|PRE|5222|
-A The Wildlife Suffers Too|QID|4984|M|53.73,64.66|Z|Western Plaguelands|N|From Mulgris Deepriver.|
-C The Wildlife Suffers Too|QID|4984|Z|Western Plaguelands|S|N|Kill Diseased Wolves.|T|Diseased Wolf|
-C Tower Three|QID|5097|M|44.25,63.11|Z|Western Plaguelands|QO|3|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
-C Tower Two|QID|5097|M|42.44,66.24|Z|Western Plaguelands|QO|2|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
-T A Matter of Time|QID|4971|M|39.45,66.77|Z|Western Plaguelands|N|To Chromie. In the building upstairs.|
-A Counting Out Time|QID|4972|M|39.45,66.77|Z|Western Plaguelands|N|From Chromie. In the building upstairs.|PRE|4971|
-C Counting Out Time|QID|4972|M|41.15,67.65|Z|Western Plaguelands|NC|N|Look for little grey Small Lockboxes on the ground in broken building around Andorhal.|
-T Counting Out Time|QID|4972|M|39.45,66.77|Z|Western Plaguelands|N|To Chromie. In the building upstairs. Skip follow-up, it's a repeatable in case you lose the reward, which you need for the boss here in Andorhol.|
-T Good Luck Charm|QID|5050|M|38.40,54.06|Z|Western Plaguelands|N|To Janice Felstone.|
-A Two Halves Become One|QID|5051|M|38.40,54.06|Z|Western Plaguelands|N|From Janice Felstone. Upstairs in the back room of the building.|PRE|5050|
-K Jabbering Ghoul|QID|5051|M|37.91,56.25|Z|Western Plaguelands|N|Kill the Jabbering Ghoul and loot the other half.|T|Jabbering Ghoul|L|12722|
-l Good Luck Charm|QID|5051|M|37.91,56.25|Z|Western Plaguelands|N|Click the other half to create the Good Luck Charm.|U|12722|L|12723|
-T Two Halves Become One|QID|5051|M|38.40,54.06|Z|Western Plaguelands|N|To Janice Felstone. Upstairs in the back room of the building.|
+A All Along the Watchtowers|QID|5097|M|42.71,84.04|Z|1422; Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5092|
+A Target: Writhing Haunt|QID|5222|M|42.96,84.50|Z|1422; Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5220|
+C Tower One|QID|5097|M|40.04,71.73|Z|1422; Western Plaguelands|QO|1|N|Use the Beacon's Torch right on the edge of the doorway, out of line of site from the elite.|U|12815|
+A A Matter of Time|QID|4971|M|39.45,66.77|Z|1422; Western Plaguelands|N|From Chromie. In the building upstairs.|
+C Tower Four|QID|5097|M|46.53,71.16|Z|1422; Western Plaguelands|QO|4|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
+C A Matter of Time|QID|4971|M|49.23,69.16|Z|1422; Western Plaguelands|N|Uset the Temporal Displacer while standing near the grain silos. Kill the parasites that spawn.|U|12627|
+C Target: Writhing Haunt|QID|5222|M|53.01,66.06|Z|1422; Western Plaguelands|N|Kill Lord Razarch and loot the key. He spawns when you approach the Cauldron.|
+T Target: Writhing Haunt|QID|5222|M|53.03,65.72|Z|1422; Western Plaguelands|N|To Scourge Cauldron.|
+A Return to Chillwind Camp|QID|5223|M|53.03,65.72|Z|1422; Western Plaguelands|N|From Scourge Cauldron.|PRE|5222|
+A The Wildlife Suffers Too|QID|4984|M|53.73,64.66|Z|1422; Western Plaguelands|N|From Mulgris Deepriver.|
+C The Wildlife Suffers Too|QID|4984|Z|1422; Western Plaguelands|S|N|Kill Diseased Wolves.|T|Diseased Wolf|
+C Tower Three|QID|5097|M|44.25,63.11|Z|1422; Western Plaguelands|QO|3|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
+C Tower Two|QID|5097|M|42.44,66.24|Z|1422; Western Plaguelands|QO|2|N|Use the Beacon's Torch on the edge of the doorway, out of line of site from the elite.|U|12815|
+T A Matter of Time|QID|4971|M|39.45,66.77|Z|1422; Western Plaguelands|N|To Chromie. In the building upstairs.|
+A Counting Out Time|QID|4972|M|39.45,66.77|Z|1422; Western Plaguelands|N|From Chromie. In the building upstairs.|PRE|4971|
+C Counting Out Time|QID|4972|M|41.15,67.65|Z|1422; Western Plaguelands|NC|N|Look for little grey Small Lockboxes on the ground in broken building around Andorhal.|
+T Counting Out Time|QID|4972|M|39.45,66.77|Z|1422; Western Plaguelands|N|To Chromie. In the building upstairs. Skip follow-up, it's a repeatable in case you lose the reward, which you need for the boss here in Andorhol.|
+T Good Luck Charm|QID|5050|M|38.40,54.06|Z|1422; Western Plaguelands|N|To Janice Felstone.|
+A Two Halves Become One|QID|5051|M|38.40,54.06|Z|1422; Western Plaguelands|N|From Janice Felstone. Upstairs in the back room of the building.|PRE|5050|
+K Jabbering Ghoul|QID|5051|M|37.91,56.25|Z|1422; Western Plaguelands|N|Kill the Jabbering Ghoul and loot the other half.|T|Jabbering Ghoul|L|12722|
+l Good Luck Charm|QID|5051|M|37.91,56.25|Z|1422; Western Plaguelands|N|Click the other half to create the Good Luck Charm.|U|12722|L|12723|
+T Two Halves Become One|QID|5051|M|38.40,54.06|Z|1422; Western Plaguelands|N|To Janice Felstone. Upstairs in the back room of the building.|
 
-A Unfinished Business|QID|6004|M|51.92,28.06|Z|Western Plaguelands|N|From Kirsta Deepshadow.|
-C Unfinished Business|QID|6004|M|51.00,44.00|Z|Western Plaguelands|N|Kill mobs needed for this quest here.  Medics can be found to the south.|
-T Unfinished Business|QID|6004|M|51.92,28.06|Z|Western Plaguelands|N|To Kirsta Deepshadow.|
-A Unfinished Business|QID|6023|M|51.92,28.06|Z|Western Plaguelands|N|From Kirsta Deepshadow.|PRE|6004|
-K Huntsman Radley|QID|6023|M|57.84,36.11|Z|Western Plaguelands|QO|1|N|Kill Huntsman Radley.|
-K Cavalier Durgen|QID|6023|M|55.00,23.00|Z|Western Plaguelands|QO|2|N|Kill Cavalier Durgen.|
-T Unfinished Business|QID|6023|M|51.92,28.06|Z|Western Plaguelands|N|To Kirsta Deepshadow.|
-A Unfinished Business|QID|6025|M|51.92,28.06|Z|Western Plaguelands|N|From Kirsta Deepshadow.|PRE|6023|
-C Unfinished Business|QID|6025|M|45.82,18.41|Z|Western Plaguelands|N|Run up to the top of the tower. This is an Elite Area, the entrance has guards you can just mount and run through, the back part is non elite and you have enough space to run off agro. The tower itself has 2 elite guards you can single pull so it isn't too tough. You could also take off your clothes, mount up and run straight to it and take the death, either way it's easy experience.|
-T Unfinished Business|QID|6025|M|51.92,28.06|Z|Western Plaguelands|N|To Kirsta Deepshadow.|
-C The Wildlife Suffers Too|QID|4984|M|43.21,56.03|Z|Western Plaguelands|US|N|Kill Diseased Wolves.|T|Diseased Wolf|
-T The Wildlife Suffers Too|QID|4984|M|53.73,64.66|Z|Western Plaguelands|N|To Mulgris Deepriver.|
-A The Wildlife Suffers Too|QID|4985|M|53.73,64.66|Z|Western Plaguelands|N|From Mulgris Deepriver.|PRE|4984|
+A Unfinished Business|QID|6004|M|51.92,28.06|Z|1422; Western Plaguelands|N|From Kirsta Deepshadow.|
+C Unfinished Business|QID|6004|M|51.00,44.00|Z|1422; Western Plaguelands|N|Kill mobs needed for this quest here.  Medics can be found to the south.|
+T Unfinished Business|QID|6004|M|51.92,28.06|Z|1422; Western Plaguelands|N|To Kirsta Deepshadow.|
+A Unfinished Business|QID|6023|M|51.92,28.06|Z|1422; Western Plaguelands|N|From Kirsta Deepshadow.|PRE|6004|
+K Huntsman Radley|QID|6023|M|57.84,36.11|Z|1422; Western Plaguelands|QO|1|N|Kill Huntsman Radley.|
+K Cavalier Durgen|QID|6023|M|55.00,23.00|Z|1422; Western Plaguelands|QO|2|N|Kill Cavalier Durgen.|
+T Unfinished Business|QID|6023|M|51.92,28.06|Z|1422; Western Plaguelands|N|To Kirsta Deepshadow.|
+A Unfinished Business|QID|6025|M|51.92,28.06|Z|1422; Western Plaguelands|N|From Kirsta Deepshadow.|PRE|6023|
+C Unfinished Business|QID|6025|M|45.82,18.41|Z|1422; Western Plaguelands|N|Run up to the top of the tower. This is an Elite Area, the entrance has guards you can just mount and run through, the back part is non elite and you have enough space to run off agro. The tower itself has 2 elite guards you can single pull so it isn't too tough. You could also take off your clothes, mount up and run straight to it and take the death, either way it's easy experience.|
+T Unfinished Business|QID|6025|M|51.92,28.06|Z|1422; Western Plaguelands|N|To Kirsta Deepshadow.|
+C The Wildlife Suffers Too|QID|4984|M|43.21,56.03|Z|1422; Western Plaguelands|US|N|Kill Diseased Wolves.|T|Diseased Wolf|
+T The Wildlife Suffers Too|QID|4984|M|53.73,64.66|Z|1422; Western Plaguelands|N|To Mulgris Deepriver.|
+A The Wildlife Suffers Too|QID|4985|M|53.73,64.66|Z|1422; Western Plaguelands|N|From Mulgris Deepriver.|PRE|4984|
 
-T All Along the Watchtowers|QID|5097|M|42.71,84.04|Z|Western Plaguelands|N|To Commander Ashlam Valorfist.|
-T Return to Chillwind Camp|QID|5223|M|42.96,84.50|Z|Western Plaguelands|N|To High Priestess MacDonnell.|
-A Target: Gahrron's Withering|QID|5225|M|42.96,84.50|Z|Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5223|
-C The Wildlife Suffers Too|QID|4985|Z|Western Plaguelands|S|N|Kill Diseased Grizzly Bears.|T|Diseased Grizzly|
-C Target: Gahrron's Withering|QID|5225|M|62.66,58.89|Z|Western Plaguelands|N|Kill Lord Soulwrath and loot the key. He spawns when you approach the Cauldron.|
-T Target: Gahrron's Withering|QID|5225|M|62.56,58.57|Z|Western Plaguelands|N|To Scourge Cauldron.|
-A Return to Chillwind Camp|QID|5226|M|62.56,58.57|Z|Western Plaguelands|N|From Scourge Cauldron.|PRE|5225|
-C The Wildlife Suffers Too|QID|4985|M|58.32,59.56|Z|Western Plaguelands|US|N|Kill Diseased Grizzly Bears.|T|Diseased Grizzly|
-T The Wildlife Suffers Too|QID|4985|M|53.73,64.66|Z|Western Plaguelands|N|To Mulgris Deepriver.|
-A Glyphed Oaken Branch|QID|4986|M|53.73,64.66|Z|Western Plaguelands|N|From Mulgris Deepriver.|PRE|4985|
-T Return to Chillwind Camp|QID|5226|M|42.96,84.50|Z|Western Plaguelands|N|To High Priestess MacDonnell.|
-A Mission Accomplished!|QID|5237|M|42.71,84.04|Z|Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5226|
-T Mission Accomplished!|QID|5237|M|42.71,84.04|Z|Western Plaguelands|N|To Commander Ashlam Valorfist.|
-H Ironforge|QID|6761|M|PLAYER|Z|Western Plaguelands|N|Hearth or otherwise make your way back to Ironforge.|
+T All Along the Watchtowers|QID|5097|M|42.71,84.04|Z|1422; Western Plaguelands|N|To Commander Ashlam Valorfist.|
+T Return to Chillwind Camp|QID|5223|M|42.96,84.50|Z|1422; Western Plaguelands|N|To High Priestess MacDonnell.|
+A Target: Gahrron's Withering|QID|5225|M|42.96,84.50|Z|1422; Western Plaguelands|N|From High Priestess MacDonnell.|PRE|5223|
+C The Wildlife Suffers Too|QID|4985|Z|1422; Western Plaguelands|S|N|Kill Diseased Grizzly Bears.|T|Diseased Grizzly|
+C Target: Gahrron's Withering|QID|5225|M|62.66,58.89|Z|1422; Western Plaguelands|N|Kill Lord Soulwrath and loot the key. He spawns when you approach the Cauldron.|
+T Target: Gahrron's Withering|QID|5225|M|62.56,58.57|Z|1422; Western Plaguelands|N|To Scourge Cauldron.|
+A Return to Chillwind Camp|QID|5226|M|62.56,58.57|Z|1422; Western Plaguelands|N|From Scourge Cauldron.|PRE|5225|
+C The Wildlife Suffers Too|QID|4985|M|58.32,59.56|Z|1422; Western Plaguelands|US|N|Kill Diseased Grizzly Bears.|T|Diseased Grizzly|
+T The Wildlife Suffers Too|QID|4985|M|53.73,64.66|Z|1422; Western Plaguelands|N|To Mulgris Deepriver.|
+A Glyphed Oaken Branch|QID|4986|M|53.73,64.66|Z|1422; Western Plaguelands|N|From Mulgris Deepriver.|PRE|4985|
+T Return to Chillwind Camp|QID|5226|M|42.96,84.50|Z|1422; Western Plaguelands|N|To High Priestess MacDonnell.|
+A Mission Accomplished!|QID|5237|M|42.71,84.04|Z|1422; Western Plaguelands|N|From Commander Ashlam Valorfist.|PRE|5226|
+T Mission Accomplished!|QID|5237|M|42.71,84.04|Z|1422; Western Plaguelands|N|To Commander Ashlam Valorfist.|
+H Ironforge|QID|6761|M|PLAYER|Z|1422; Western Plaguelands|N|Hearth or otherwise make your way back to Ironforge.|
 = City Stuff|QID|6761|Z|1455; Ironforge|N|Train up and take care of your other city needs. Manually skip when you're ready to move on.|
 A The New Frontier|QID|1019|M|47.75,54.81|Z|1455; Ironforge|N|From Courier Hammerfall. He roams around Everywhere in Ironforge.|T|Courier Hammerfall|
 
@@ -465,60 +467,60 @@ R Rut'theran Village|QID|6762|M|30.04,41.32|Z|1457; Darnassus|N|Run through the 
 A Moontouched Wildkin|QID|978|M|55.50,92.05|Z|1438; Teldrassil|N|From Erelas Ambersky.|PRE|3661|
 A Starfall|QID|5250|M|55.41,92.23|Z|1438; Teldrassil|N|From Daryn Lightwind upstairs.|
 F Moonglade|QID|6762|M|58.39,94.01|Z|1438; Teldrassil|N|Fly to Moonglade.|
-T Rabine Saturna|QID|6762|M|51.69,45.09|Z|Moonglade|N|To Rabine Saturna.|
-A Wasteland|QID|1124|M|51.69,45.09|Z|Moonglade|N|From Rabine Saturna.|PRE|6762|
+T Rabine Saturna|QID|6762|M|51.69,45.09|Z|1450; Moonglade|N|To Rabine Saturna.|
+A Wasteland|QID|1124|M|51.69,45.09|Z|1450; Moonglade|N|From Rabine Saturna.|PRE|6762|
 
-F Everlook|QID|5250|M|48.10,67.34|Z|Moonglade|N|Fly to Winterspring.|
-A Are We There, Yeti?|QID|3783|M|60.89,37.62|Z|Winterspring|N|From Uml Rumplesnicker.|
-A Enraged Wildkin|QID|6604|M|61.11,38.43|Z|Winterspring|N|From Harlo Wigglesworth.|
-T Felnok Steelspring|QID|4808|M|61.63,38.61|Z|Winterspring|N|To Felnok Steelspring.|
-A Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4808|
-A Trouble in Winterspring!|QID|6603|M|60.74,38.16|Z|Winterspring|N|From Meggi Peppinrocker. She patrols around Everlook.|
+F Everlook|QID|5250|M|48.10,67.34|Z|1450; Moonglade|N|Fly to Winterspring.|
+A Are We There, Yeti?|QID|3783|M|60.89,37.62|Z|1452; Winterspring|N|From Uml Rumplesnicker.|
+A Enraged Wildkin|QID|6604|M|61.11,38.43|Z|1452; Winterspring|N|From Harlo Wigglesworth.|
+T Felnok Steelspring|QID|4808|M|61.63,38.61|Z|1452; Winterspring|N|To Felnok Steelspring.|
+A Chillwind Horns|QID|4809|M|61.63,38.61|Z|1452; Winterspring|N|From Felnok Steelspring.|PRE|4808|
+A Trouble in Winterspring!|QID|6603|M|60.74,38.16|Z|1452; Winterspring|N|From Meggi Peppinrocker. She patrols around Everlook.|
 
-C Moontouched Wildkin|QID|978|M|PLAYER|Z|Winterspring|S|N|Pick up the Blue Wildkin Feathers as you spot them.|
-C Are We There, Yeti?|QID|3783|M|PLAYER|Z|Winterspring|S|N|Kill Yeti and collect their fur.|
-C Chillwind Horns|QID|4809|M|65,30|S|Z|Winterspring|N|Kill Chimeras.|
+C Moontouched Wildkin|QID|978|M|PLAYER|Z|1452; Winterspring|S|N|Pick up the Blue Wildkin Feathers as you spot them.|
+C Are We There, Yeti?|QID|3783|M|PLAYER|Z|1452; Winterspring|S|N|Kill Yeti and collect their fur.|
+C Chillwind Horns|QID|4809|M|65,30|S|Z|1452; Winterspring|N|Kill Chimeras.|
 
-T Starfall|QID|5250|M|51.97,30.39|Z|Winterspring|N|To Wynd Nightchaser.|
-A The Ruins of Kel'Theril|QID|5244|M|51.97,30.39|Z|Winterspring|N|From Wynd Nightchaser.|
-T The Ruins of Kel'Theril|QID|5244|M|52.14,30.43|Z|Winterspring|N|To Jaron Stoneshaper.|
-A Troubled Spirits of Kel'Theril|QID|5245|M|52.14,30.43|Z|Winterspring|N|From Jaron Stoneshaper.|PRE|5244|
-T Enraged Wildkin|QID|6604|M|52.14,30.43|Z|Winterspring|N|To Jaron Stoneshaper. Don't take follow-up.|
-T The Videre Elixir|QID|3909|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
-A Meet at the Grave|QID|3912|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.|PRE|3909|
-T Trouble in Winterspring!|QID|6603|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
-A Threat of the Winterfall|QID|5082|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.|PRE|6603|
-C Threat of the Winterfall|QID|5082|M|31.00,36.00|Z|Winterspring|N|Kill the needed Winterfall Furbolgs.|
+T Starfall|QID|5250|M|51.97,30.39|Z|1452; Winterspring|N|To Wynd Nightchaser.|
+A The Ruins of Kel'Theril|QID|5244|M|51.97,30.39|Z|1452; Winterspring|N|From Wynd Nightchaser.|
+T The Ruins of Kel'Theril|QID|5244|M|52.14,30.43|Z|1452; Winterspring|N|To Jaron Stoneshaper.|
+A Troubled Spirits of Kel'Theril|QID|5245|M|52.14,30.43|Z|1452; Winterspring|N|From Jaron Stoneshaper.|PRE|5244|
+T Enraged Wildkin|QID|6604|M|52.14,30.43|Z|1452; Winterspring|N|To Jaron Stoneshaper. Don't take follow-up.|
+T The Videre Elixir|QID|3909|M|31.27,45.18|Z|1452; Winterspring|N|To Donova Snowden.|
+A Meet at the Grave|QID|3912|M|31.27,45.18|Z|1452; Winterspring|N|From Donova Snowden.|PRE|3909|
+T Trouble in Winterspring!|QID|6603|M|31.27,45.18|Z|1452; Winterspring|N|To Donova Snowden.|
+A Threat of the Winterfall|QID|5082|M|31.27,45.18|Z|1452; Winterspring|N|From Donova Snowden.|PRE|6603|
+C Threat of the Winterfall|QID|5082|M|31.00,36.00|Z|1452; Winterspring|N|Kill the needed Winterfall Furbolgs.|
 l Empty Firewater Flask|QID|5083|N|Continue to kill Furbolgs until you get an Empty Firewater Flask.|L|12771|
-A Winterfall Firewater|QID|5083|M|PLAYER|Z|Winterspring|N|Click the flask and accept this quest.|U|12771|
-T Threat of the Winterfall|QID|5082|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
-T Winterfall Firewater|QID|5083|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
-A Falling to Corruption|QID|5084|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.|PRE|5083|
+A Winterfall Firewater|QID|5083|M|PLAYER|Z|1452; Winterspring|N|Click the flask and accept this quest.|U|12771|
+T Threat of the Winterfall|QID|5082|M|31.27,45.18|Z|1452; Winterspring|N|To Donova Snowden.|
+T Winterfall Firewater|QID|5083|M|31.27,45.18|Z|1452; Winterspring|N|To Donova Snowden.|
+A Falling to Corruption|QID|5084|M|31.27,45.18|Z|1452; Winterspring|N|From Donova Snowden.|PRE|5083|
 
-R Felwood|ACTIVE|5084|M|27.90,34.44|Z|Winterspring|N|Head back to Felwood through Timbermaw Hold.|
-R Continue to Felwood|ACTIVE|5084|M|67.86,4.37;64.88,3.00;64.61,3.81;65.14,7.91|Z|Felwood|CS|N|Run through Timbermaw Hold to the Felwood Entrance.|
-T Falling to Corruption|QID|5084|M|60.20,5.85|Z|Felwood|N|To Deadwood Cauldron guarded by 4 Furbolgs. This is instant click, you can run in and complete/accept quest then run off agro, or any other way that suits your class.|
-A Mystery Goo|QID|5085|M|60.20,5.85|Z|Felwood|N|From Deadwood Cauldron.|PRE|5084|
+R Felwood|ACTIVE|5084|M|27.90,34.44|Z|1452; Winterspring|N|Head back to Felwood through Timbermaw Hold.|
+R Continue to Felwood|ACTIVE|5084|M|67.86,4.37;64.88,3.00;64.61,3.81;65.14,7.91|Z|1448; Felwood|CS|N|Run through Timbermaw Hold to the Felwood Entrance.|
+T Falling to Corruption|QID|5084|M|60.20,5.85|Z|1448; Felwood|N|To Deadwood Cauldron guarded by 4 Furbolgs. This is instant click, you can run in and complete/accept quest then run off agro, or any other way that suits your class.|
+A Mystery Goo|QID|5085|M|60.20,5.85|Z|1448; Felwood|N|From Deadwood Cauldron.|PRE|5084|
 
-R Winterspring|ACTIVE|5085|M|64.27,14.92;65.10,8.09;65.40,6.88;64.66,3.13;66.44,2.99;68.49,5.98|Z|Felwood|CC|N|Run back through Timbermaw hold back to Winterspring.|
-T Mystery Goo|QID|5085|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
-A Toxic Horrors|QID|5086|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.|PRE|5085|
-C Second Relic Fragment|QID|5245|M|50.88,41.71|Z|Winterspring|QO|2|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
-C Fourth Relic Fragment|QID|5245|M|52.42,41.50|Z|Winterspring|QO|4|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
-C Third Relic Fragment|QID|5245|M|53.31,43.44|Z|Winterspring|QO|3|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
-C First Relic Fragment|QID|5245|M|55.13,42.98|Z|Winterspring|QO|1|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
+R Winterspring|ACTIVE|5085|M|64.27,14.92;65.10,8.09;65.40,6.88;64.66,3.13;66.44,2.99;68.49,5.98|Z|1448; Felwood|CC|N|Run back through Timbermaw hold back to Winterspring.|
+T Mystery Goo|QID|5085|M|31.27,45.18|Z|1452; Winterspring|N|To Donova Snowden.|
+A Toxic Horrors|QID|5086|M|31.27,45.18|Z|1452; Winterspring|N|From Donova Snowden.|PRE|5085|
+C Second Relic Fragment|QID|5245|M|50.88,41.71|Z|1452; Winterspring|QO|2|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
+C Fourth Relic Fragment|QID|5245|M|52.42,41.50|Z|1452; Winterspring|QO|4|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
+C Third Relic Fragment|QID|5245|M|53.31,43.44|Z|1452; Winterspring|QO|3|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
+C First Relic Fragment|QID|5245|M|55.13,42.98|Z|1452; Winterspring|QO|1|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
 
-C Chillwind Horns|QID|4809|M|65,30|US|Z|Winterspring|N|Kill Chimeras.|
-C Are We There, Yeti?|QID|3783|M|40.32,36.44|Z|Winterspring|US|N|Kill Yeti and collect their fur. They spawn all around between Felwood and Everlook.|
-C Moontouched Wildkin|QID|978|M|PLAYER|Z|Winterspring|US|N|Pick up the Blue Wildkin Feathers as you spot them.|
+C Chillwind Horns|QID|4809|M|65,30|US|Z|1452; Winterspring|N|Kill Chimeras.|
+C Are We There, Yeti?|QID|3783|M|40.32,36.44|Z|1452; Winterspring|US|N|Kill Yeti and collect their fur. They spawn all around between Felwood and Everlook.|
+C Moontouched Wildkin|QID|978|M|PLAYER|Z|1452; Winterspring|US|N|Pick up the Blue Wildkin Feathers as you spot them.|
 
-T Are We There, Yeti?|QID|3783|M|60.89,37.62|Z|Winterspring|N|To Uml Rumplesnicker. Don't get follow-up.|
-T Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|To Felnok Steelspring.|
-A Return to Tinkee|QID|4810|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4809|
-A Duke Nicholas Zverenhoff|QID|6030|M|61.35,38.97|Z|Winterspring|N|From Gregor Grestone.|
-A Sister Pamela|QID|5601|M|61.28,38.98|Z|Winterspring|N|From Jessica Redpath.|
+T Are We There, Yeti?|QID|3783|M|60.89,37.62|Z|1452; Winterspring|N|To Uml Rumplesnicker. Don't get follow-up.|
+T Chillwind Horns|QID|4809|M|61.63,38.61|Z|1452; Winterspring|N|To Felnok Steelspring.|
+A Return to Tinkee|QID|4810|M|61.63,38.61|Z|1452; Winterspring|N|From Felnok Steelspring.|PRE|4809|
+A Duke Nicholas Zverenhoff|QID|6030|M|61.35,38.97|Z|1452; Winterspring|N|From Gregor Grestone.|
+A Sister Pamela|QID|5601|M|61.28,38.98|Z|1452; Winterspring|N|From Jessica Redpath.|
 
-F Rut'theran Village|QID|978|M|62.33,36.61|Z|Winterspring|N|Fly to Rut'theran Village and head to Darnassus.|
+F Rut'theran Village|QID|978|M|62.33,36.61|Z|1452; Winterspring|N|Fly to Rut'theran Village and head to Darnassus.|
 T Moontouched Wildkin|QID|978|M|55.50,92.05|Z|1438; Teldrassil|N|To Erelas Ambersky.|
 A Find Ranshalla|QID|979|M|55.50,92.05|Z|1438; Teldrassil|N|From Erelas Ambersky.|PRE|978|
 
@@ -529,11 +531,11 @@ A A Grave Situation|QID|3913|M|54.03,23.34|Z|1446; Tanaris|N|From Gaeriyan as a 
 T A Grave Situation|QID|3913|M|53.82,29.06|Z|1446; Tanaris|N|To a Conspicuous Gravestone. Go back to the Graveyard and Resurrect.|
 A Linken's Sword|QID|3914|M|53.82,29.06|Z|1446; Tanaris|N|From a Conspicuous Gravestone.|PRE|3913|
 F Marshal's Refuge|ACTIVE|3914|M|51.01,29.34|Z|1446; Tanaris|N|Fly back to Un'Goro Crater.|
-T Linken's Sword|QID|3914|M|44.66,8.11|Z|Un'Goro Crater|N|To Linken.|
-A A Gnome's Assistance|QID|3941|M|44.66,8.11|Z|Un'Goro Crater|N|From Linken.|PRE|3914|
-T A Gnome's Assistance|QID|3941|M|41.9,2.7|Z|Un'Goro Crater|N|To J.D. Collie.|
-A Linken's Memory|QID|3942|M|41.9,2.7|Z|Un'Goro Crater|N|From J.D. Collie.|PRE|3941|
-H Ironforge|M|PLAYER|Z|Un'Goro Crater|N|Hearth to Ironforge. And that is the end of Chapter 3!.
+T Linken's Sword|QID|3914|M|44.66,8.11|Z|1449; Un'Goro Crater|N|To Linken.|
+A A Gnome's Assistance|QID|3941|M|44.66,8.11|Z|1449; Un'Goro Crater|N|From Linken.|PRE|3914|
+T A Gnome's Assistance|QID|3941|M|41.9,2.7|Z|1449; Un'Goro Crater|N|To J.D. Collie.|
+A Linken's Memory|QID|3942|M|41.9,2.7|Z|1449; Un'Goro Crater|N|From J.D. Collie.|PRE|3941|
+H Ironforge|M|PLAYER|Z|1449; Un'Goro Crater|N|Hearth to Ironforge. And that is the end of Chapter 3!.
 
 N The End|M|PLAYER|N|This is the end. You are left with about 11 quests going into chapter 4 which isn't complete yet if you are seeing this message. Unfortunately all these quests are chains and needed without having to travel all over the place to collect them again.\n\nFor now I recommend running Blackrock Depths Dungeon, goto Burning Steppes and get all the quests that we unlocked. After that, head up to Eastern Plaguelands before heading to Ratchet where you will continue your felwood chain, and then wrap up felwood, winterspring and ungoro before going to Silithus. |
 ]]

@@ -51,19 +51,19 @@ T Trinkets...|QID|3481|M|38.85,39.00|Z|1427; Searing Gorge|N|To Hoard of the Bla
 l Black Dragonflight Molt|QID|4022|M|38.85,39.00|Z|1427; Searing Gorge|N|Loot the Hoard of the Black Dragonflight to get the molt.|L|10575|U|10569|
 
 F Morgan's Vigil|QID|3801|M|37.94,30.85|Z|1427; Searing Gorge|N|Fly to Burning Steppes.|
-A Overmaster Pyron|QID|4262|M|85.41,70.06|Z|Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Jalinda Sprig.\n\nThis leads to a BRD quest but is done outside the Dungeon.|
-A Marshal Windsor|QID|4241|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
-A The Good Stuff|QID|4286|M|84.55,68.68|Z|Burning Steppes|N|From Oralius.|
-A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|S|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
-A A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|From Cyrus Therepentous.|PRE|3481|
-C A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|CHAT|N|Talk with Cyrus Therepentous.|
-T A Taste of Flame|QID|4022|M|95.09,31.55|Z|Burning Steppes|N|To Cyrus Therepentous.|
-A A Taste of Flame|QID|4024|M|95.09,31.55|Z|Burning Steppes|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom Cyrus Therepentous.|PRE|4022|
-C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|Burning Steppes|US|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
-T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|Burning Steppes|N|To Helendis Riverhorn.|
-A The True Masters|QID|4183|M|85.80,68.94|Z|Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
-F Lakeshire|QID|4183|M|84.33,68.32|Z|Burning Steppes|N|Fly to Lakeshire in Redridge.|
+A Overmaster Pyron|QID|4262|M|85.41,70.06|Z|1428; Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Jalinda Sprig.\n\nThis leads to a BRD quest but is done outside the Dungeon.|
+A Marshal Windsor|QID|4241|M|84.74,69.01|Z|1428; Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
+A The Good Stuff|QID|4286|M|84.55,68.68|Z|1428; Burning Steppes|N|From Oralius.|
+A Dragonkin Menace|QID|4182|M|85.80,68.94|Z|1428; Burning Steppes|ELITE|N|[color=ff8000]Elite:[/color]From Helendis Riverhorn.\n\nThis is the start of Onyxia Lair Attunement. It's important get this started. Shouldn't be hard to get guild help or other people working on attunement in the area.|
+C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|1428; Burning Steppes|S|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
+A A Taste of Flame|QID|4022|M|95.09,31.55|Z|1428; Burning Steppes|N|From Cyrus Therepentous.|PRE|3481|
+C A Taste of Flame|QID|4022|M|95.09,31.55|Z|1428; Burning Steppes|CHAT|N|Talk with Cyrus Therepentous.|
+T A Taste of Flame|QID|4022|M|95.09,31.55|Z|1428; Burning Steppes|N|To Cyrus Therepentous.|
+A A Taste of Flame|QID|4024|M|95.09,31.55|Z|1428; Burning Steppes|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom Cyrus Therepentous.|PRE|4022|
+C Dragonkin Menace|QID|4182|M|92.09,53.32|Z|1428; Burning Steppes|US|ELITE|N|[color=ff8000]Elite:[/color]The Drake flys around the entire area, the Dragonspawn and Wyrmkin are in camps along the eastern and north-eastern borders. They can all be single pulled and soloable for most classes.|
+T Dragonkin Menace|QID|4182|M|85.80,68.94|Z|1428; Burning Steppes|N|To Helendis Riverhorn.|
+A The True Masters|QID|4183|M|85.80,68.94|Z|1428; Burning Steppes|N|From Helendis Riverhorn.|PRE|4182|
+F Lakeshire|QID|4183|M|84.33,68.32|Z|1428; Burning Steppes|N|Fly to Lakeshire in Redridge.|
 T The True Masters|QID|4183|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magistrate Solomon.|
 A The True Masters|QID|4184|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4183|
 F Stormwind|QID|4184|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Stormwind.|
@@ -77,20 +77,20 @@ T The True Masters|QID|4186|M|29.98,44.46|Z|1433; Redridge Mountains|N|To Magist
 A The True Masters|QID|4223|M|29.98,44.46|Z|1433; Redridge Mountains|N|From Magistrate Solomon.|PRE|4186|
 
 F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|1433; Redridge Mountains|N|Fly to Burning Steppes.|
-T The True Masters|QID|4223|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
-A The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
-C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|Burning Steppes|NC|S|N|Find and click on Thaurissan Relics to recover the information.|
-t Return to Tinkee|QID|4810|M|65.29,23.93|Z|Burning Steppes|N|To Tinkee Steamboil.|
-A The Heart of the Mountain|QID|4123|M|65.18,23.9|Z|Burning Steppes|N|From Maxwort Uberglint.|
-A Ribbly Screwspigot|QID|4136|M|66.05,21.95|Z|Burning Steppes|N|From Yuka Screwspigot.|
-C The True Masters|QID|4224|M|65.02,23.74|Z|Burning Steppes|CHAT|N|Talk with Ragged John.|
-C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|Burning Steppes|NC|US|N|Find and click on Thaurissan Relics to recover the information.|
-T The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell.|
-A Marshal Windsor|QID|4241|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
-t Overmaster Pyron|QID|4262|M|85.41,70.06|Z|Burning Steppes|N|To Jalinda Sprig.|
-A Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|From Jalinda Sprig.|PRE|4263|
+T The True Masters|QID|4223|M|84.74,69.01|Z|1428; Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
+A The True Masters|QID|4224|M|84.74,69.01|Z|1428; Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
+C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|1428; Burning Steppes|NC|S|N|Find and click on Thaurissan Relics to recover the information.|
+t Return to Tinkee|QID|4810|M|65.29,23.93|Z|1428; Burning Steppes|N|To Tinkee Steamboil.|
+A The Heart of the Mountain|QID|4123|M|65.18,23.9|Z|1428; Burning Steppes|N|From Maxwort Uberglint.|
+A Ribbly Screwspigot|QID|4136|M|66.05,21.95|Z|1428; Burning Steppes|N|From Yuka Screwspigot.|
+C The True Masters|QID|4224|M|65.02,23.74|Z|1428; Burning Steppes|CHAT|N|Talk with Ragged John.|
+C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|1428; Burning Steppes|NC|US|N|Find and click on Thaurissan Relics to recover the information.|
+T The True Masters|QID|4224|M|84.74,69.01|Z|1428; Burning Steppes|N|To Marshal Maxwell.|
+A Marshal Windsor|QID|4241|M|84.74,69.01|Z|1428; Burning Steppes|N|From Marshal Maxwell.|PRE|4224|
+t Overmaster Pyron|QID|4262|M|85.41,70.06|Z|1428; Burning Steppes|N|To Jalinda Sprig.|
+A Incendius!|QID|4263|M|85.41,70.06|Z|1428; Burning Steppes|N|From Jalinda Sprig.|PRE|4263|
 
-H Ironforge|ACTIVE|3701|M|PLAYER|Z|Burning Steppes|N|Hearth back to Ironforge.|
+H Ironforge|ACTIVE|3701|M|PLAYER|Z|1428; Burning Steppes|N|Hearth back to Ironforge.|
 T The Smoldering Ruins of Thaurissan|QID|3701|M|38.37,55.32|Z|1455; Ironforge|N|To Royal Historian Archesonus.|
 A Kharan Mighthammer|QID|4341|M|39.11,56.18|Z|1455; Ironforge|ELITE|N|[color=e6cc80]Dungeon: Blackrock Depths[/color]\nFrom King Magni Bronzebeard.|PRE|3701|
 
@@ -122,7 +122,7 @@ A The Bearer of Bad News|QID|4361|M|50,50|N|From Kharan Mighthammer.|PRE|4342|
 N Optional|AVAILABLE|4362^4263|M|50,50|N|At this point if you're doing this with people you know, or your group is cool and likes to help out, you could optionally hearth back to Ironforge right now, turn in Kharans quest to Magni and get the follow-up, fly back to Burning Steppes, turn in the Windsor and Pyron quests and get the follow-up to kill Incendius. Otherwise you will need to do a 2nd run to finish this up (and probably a third or fourth to do Jailbreak).\n\nManually skip this step to continue.|
 
 A The Fate of the Kingdom|QID|4362|M|39.11,56.18|Z|1455; Ironforge|N|From King Magni Bronzebeard.\n\nThis is assuming your group let you hearth back.|PRE|4361|
-A Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|From Jalinda Sprig.\n\nThis is assuming your group let you hearth back.|PRE|4263|
+A Incendius!|QID|4263|M|85.41,70.06|Z|1428; Burning Steppes|N|From Jalinda Sprig.\n\nThis is assuming your group let you hearth back.|PRE|4263|
 
 K Fineous Darkvire|QID|3802|M|50,50|N|Kill Fineous Darkvire and loot Ironfel.\n\nDirections:\nFrom the hallway you were in for Kharan and Windsor, take your next right, eastern side of the big area, and then a quick left into the Ring of Law.\n\nAfter you do that, run through the now open gate on the west side and up the ramp to the 2nd level. Make your way across to the other (Eastern) side of the Ring to the next hallway. Go south and Kill Pyromancer Loregrain to have the way to the Monument cleared.\n\nRun back up north until you reach the big open area with Incendius/Black Forge down below. Drop down and kill him. You will find Fineous to the Northeast in the next room. He paths up and down the whole section there.|L|10999|
 
@@ -153,15 +153,15 @@ C The Good Stuff|QID|4286|M|50,50|US|N|Collect Dark Iron Fanny Packs off Dark Ir
 ;After Dungeon Trip 1
 T Attunement to the Core|QID|7848|M|48.41,63.82|Z|1415|N|To Lothos Riftwalker.|
 
-T Abandoned Hope|QID|4242|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell.|
-T The Good Stuff|QID|4286|M|84.55,68.68|Z|Burning Steppes|N|To Oralius.|
-T Overmaster Pyron|QID|4262|M|85.41,70.06|Z|Burning Steppes|N|To Jalinda Sprig.|
-A Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|From Jalinda Sprig.|PRE|4263|
-t Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|To Jalinda Sprig.|
-T A Taste of Flame|QID|4024|M|95.09,31.55|Z|Burning Steppes|N|To Cyrus Therepentous.|
+T Abandoned Hope|QID|4242|M|84.74,69.01|Z|1428; Burning Steppes|N|To Marshal Maxwell.|
+T The Good Stuff|QID|4286|M|84.55,68.68|Z|1428; Burning Steppes|N|To Oralius.|
+T Overmaster Pyron|QID|4262|M|85.41,70.06|Z|1428; Burning Steppes|N|To Jalinda Sprig.|
+A Incendius!|QID|4263|M|85.41,70.06|Z|1428; Burning Steppes|N|From Jalinda Sprig.|PRE|4263|
+t Incendius!|QID|4263|M|85.41,70.06|Z|1428; Burning Steppes|N|To Jalinda Sprig.|
+T A Taste of Flame|QID|4024|M|95.09,31.55|Z|1428; Burning Steppes|N|To Cyrus Therepentous.|
 
-T The Heart of the Mountain|QID|4123|M|65.18,23.9|Z|Burning Steppes|N|To Maxwort Uberglint.|
-T Ribbly Screwspigot|QID|4136|M|66,22|Z|Burning Steppes|N|To Yuka Screwspigot.|
+T The Heart of the Mountain|QID|4123|M|65.18,23.9|Z|1428; Burning Steppes|N|To Maxwort Uberglint.|
+T Ribbly Screwspigot|QID|4136|M|66,22|Z|1428; Burning Steppes|N|To Yuka Screwspigot.|
 T Hurley Blackbreath|QID|4126|M|46.83,52.36|Z|1426; Dun Morogh|N|To Ragnar Thunderbrew. In Kharanos outside of Ironforge.|
 
 T The Bearer of Bad News|QID|4361|M|39.11,56.18|Z|1455; Ironforge|N|To King Magni Bronzebeard.|
@@ -194,9 +194,9 @@ A The Princess's Surprise|QID|4363|M|50,50|N|From Princess Moira Bronzebeard.|PR
 ;After Dungeon Trip 2
 H Ironforge|M|50,50|N|Hearth to Ironforge.|
 T The Princess's Surprise|QID|4363|M|39.11,56.18|Z|1455; Ironforge|N|To King Magni Bronzebeard.|
-T Incendius!|QID|4263|M|85.41,70.06|Z|Burning Steppes|N|To Jalinda Sprig.|
-T Jail Break!|QID|4322|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell in Burning Steppes.|
-A Stormwind Rendezvous|QID|6402|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell|PRE|4322|
+T Incendius!|QID|4263|M|85.41,70.06|Z|1428; Burning Steppes|N|To Jalinda Sprig.|
+T Jail Break!|QID|4322|M|84.74,69.01|Z|1428; Burning Steppes|N|To Marshal Maxwell in Burning Steppes.|
+A Stormwind Rendezvous|QID|6402|M|84.74,69.01|Z|1428; Burning Steppes|N|From Marshal Maxwell|PRE|4322|
 F Stormwind|ACTIVE|6402|N|Fly to Stormwind.|
 C Stormwind Rendezvous|QID|6402|M|70.42,85.17|Z|1453; Stormwind City|CHAT|N|Speak with Squire Rowe.|
 T Stormwind Rendezvous|QID|6402|M|70.8,88.6|Z|1453; Stormwind City|N|To Reginald Windsor.|

@@ -52,7 +52,7 @@ A Speak to Salfa|QID|8465|PRE|8461|
 R Winterspring|N|Thru the cave!|
 T Speak to Salfa|QID|8465|
 A Winterfall Activity|QID|8464|
-T The New Springs|QID|980|M|31.27,45.20|Z|Winterspring|N|To the south near the hot springs.|
+T The New Springs|QID|980|M|31.27,45.20|Z|1452; Winterspring|N|To the south near the hot springs.|
 A Strange Sources|QID|4842|PRE|980|
 T It's a Secret to Everybody|QID|3908|
 A Threat of the Winterfall|QID|5082|

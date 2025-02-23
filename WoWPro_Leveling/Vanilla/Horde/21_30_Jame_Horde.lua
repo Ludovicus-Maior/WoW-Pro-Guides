@@ -177,7 +177,7 @@ T Beren's Peril|QID|516|M|44,41|Z|Silverpine Forest|N|To Shadow Priest Allister.
 ; --- class quests ------------------------------------------------------------
 T Trial of the Sea Lion|QID|30|C|Druid|M|56.40,30.50|Z|Ashenvale|O|N|Use Teleport:Moonglade and turn in your quest.|
 A Aquatic Form|QID|31|PRE|30|C|Druid|M|56.40,30.50|Z|Ashenvale|O|
-F Thunder Bluff|QID|31|C|Druid|M|44.40,45.70|Z|Moonglade|O|
+F Thunder Bluff|QID|31|C|Druid|M|44.40,45.70|Z|1450; Moonglade|O|
 T Aquatic Form|QID|31|C|Druid|M|76.00,27.00|Z|Ashenvale|O|
 ; --- class quests ------------------------------------------------------------
 
