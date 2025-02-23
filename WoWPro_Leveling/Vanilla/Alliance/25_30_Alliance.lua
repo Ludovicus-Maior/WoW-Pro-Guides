@@ -304,8 +304,8 @@ K First Mate Snellig|ACTIVE|289|M|14,29.8|QO|3|N|Kill First Mate Snellig and loo
 C The Cursed Crew|QID|289|M|14.07,30.53|US|N|Finish killing the cursed NPCs.|Z|1437; Wetlands|
 T Fall of Dun Modr|QID|472|M|49.81,18.26|N|To Longbraid the Grim. Don't get follow up.|Z|1437; Wetlands|
 R Arathi Highlands|QID|321|M|51.12,7.95|N|Run To Arathi, we need to get the flightpoint.|Z|1437; Wetlands|
-f Arathi Highlands|QID|321|M|45.74,46.1|Z|Arathi Highlands|N|Follow the road to grab the flightpoint. Do NOT hearth back, we will need it again soon.|
-F Menethil Harbor|QID|321|M|45.74,46.1|Z|Arathi Highlands|N|Fly to Menethil Harbor. Do NOT hearth back, we will need it again soon.|
+f Arathi Highlands|QID|321|M|45.74,46.1|Z|1417; Arathi Highlands|N|Follow the road to grab the flightpoint. Do NOT hearth back, we will need it again soon.|
+F Menethil Harbor|QID|321|M|45.74,46.1|Z|1417; Arathi Highlands|N|Fly to Menethil Harbor. Do NOT hearth back, we will need it again soon.|
 T The Cursed Crew|QID|289|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|1437; Wetlands|
 A Lifting the Curse|QID|290|M|10.9,59.66|N|From First Mate Fitzsimmons.|PRE|289|Z|1437; Wetlands|
 T Lightforge Iron|QID|321|M|12.11,64.2|N|To Waterlogged Chest. On the grassy part out of the water in middle of the ship.|Z|1437; Wetlands|

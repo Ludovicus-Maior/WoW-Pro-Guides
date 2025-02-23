@@ -86,26 +86,26 @@ A The Stagnant Oasis|QID|877|M|52.26,31.93|N|From Tonga Runetotem.|PRE|870|
 ; --- Finish up Druid Cure Poison quest
 C Curing the Sick|QID|6129|QO|1|N|Use the salve on 10 Sickly Gazelle. You'll find them all around the northern end of The Barrens.|T|Sickly Gazelle|U|15826|R|Tauren|C|Druid|NC|US|
 P Moonglade|ACTIVE|6129|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
-T Curing the Sick|QID|6129|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
-A Power over Poison|QID|6130|M|56.19,30.65|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6129|R|Tauren|C|Druid|
-F Thunder Bluff|ACTIVE|6130|M|44.28,45.87|Z|Moonglade|N|\n[color=FF0000]NOTE: [/color]This flight takes about 9 minutes.|R|Tauren|C|Druid|
+T Curing the Sick|QID|6129|M|56.19,30.65|Z|1450; Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
+A Power over Poison|QID|6130|M|56.19,30.65|Z|1450; Moonglade|N|From Dendrite Starblaze.|PRE|6129|R|Tauren|C|Druid|
+F Thunder Bluff|ACTIVE|6130|M|44.28,45.87|Z|1450; Moonglade|N|\n[color=FF0000]NOTE: [/color]This flight takes about 9 minutes.|R|Tauren|C|Druid|
 T Power over Poison|QID|6130|M|76.48,27.25|Z|Thunder Bluff|N|From Turak Runetotem.|R|Tauren|C|Druid|
 
 ; --- Druid Aquatic class quest
 ; Druid class quest line to gain swim form
 N Lv 16 Class quest|QID|27|N|Because we waited to finish the last class quest chain, we can now start the next one.|LVL|16|R|Tauren|C|Druid|
 A A Lesson to Learn|QID|27|M|76.48,27.25|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise. This begins your class quest line to learn Aquatic form.|LVL|16|R|Tauren|C|Druid|
-P Moonglade|ACTIVE|27|Z|Moonglade|N|Use your Moonglade portal spell.|R|Tauren|C|Druid|
-T A Lesson to Learn|QID|27|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
-A Trial of the Lake|QID|28|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.\n[color=FF0000]NOTE: [/color]If you fail the quest, you will have to go to back to Dendrite Starblaze and restart it.|PRE|27|R|Tauren|C|Druid|
-A Trial of the Lake|QID|28|M|56.21,30.62|Z|Moonglade|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Dendrite Starblaze to restart the quest.\nRemember, you only have 30 minutes to complete the quest.|PRE|27|R|Tauren|C|Druid|FAIL|
-R Lake Elune'ara|ACTIVE|28|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|R|Tauren|C|Druid|
+P Moonglade|ACTIVE|27|Z|1450; Moonglade|N|Use your Moonglade portal spell.|R|Tauren|C|Druid|
+T A Lesson to Learn|QID|27|M|56.19,30.65|Z|1450; Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
+A Trial of the Lake|QID|28|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.\n[color=FF0000]NOTE: [/color]If you fail the quest, you will have to go to back to Dendrite Starblaze and restart it.|PRE|27|R|Tauren|C|Druid|
+A Trial of the Lake|QID|28|M|56.21,30.62|Z|1450; Moonglade|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Dendrite Starblaze to restart the quest.\nRemember, you only have 30 minutes to complete the quest.|PRE|27|R|Tauren|C|Druid|FAIL|
+R Lake Elune'ara|ACTIVE|28|M|52.72,37.91|Z|1450; Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|R|Tauren|C|Druid|
 C Shrine Bauble|QID|28|L|15877|N|Search the lake bed for a Bauble Container. They can be anywhere on the lake bed. There is a fissure at the bottom of the lake to replenish your breath with.\nClick on the Bauble Container to loot the Shrine Bauble.|R|Tauren|C|Druid|NC|
-C Trial of the Lake|QID|28|M|36.40,42.02|Z|Moonglade|QO|1|N|[color=FF0000]NOTE: [/color]The Bauble has a 5 minute timer attached to it.\nMake your way to the Shrine of Remulos (NW of the lake) and use the Shrine Bauble within the boundaries of the Shrine.|U|15877|R|Tauren|C|Druid|NC|
-T Trial of the Lake|QID|28|M|36.51,40.12|Z|Moonglade|N|To Tajarri.\n[color=FF0000]NOTE: [/color]The quest timer continues running until you speak with her.\nYou will fail the quest if the timer expires.|R|Tauren|C|Druid|
-A Trial of the Sea Lion|QID|30|M|36.51,40.12|Z|Moonglade|N|From Tajarri.|PRE|28|R|Tauren|C|Druid|
+C Trial of the Lake|QID|28|M|36.40,42.02|Z|1450; Moonglade|QO|1|N|[color=FF0000]NOTE: [/color]The Bauble has a 5 minute timer attached to it.\nMake your way to the Shrine of Remulos (NW of the lake) and use the Shrine Bauble within the boundaries of the Shrine.|U|15877|R|Tauren|C|Druid|NC|
+T Trial of the Lake|QID|28|M|36.51,40.12|Z|1450; Moonglade|N|To Tajarri.\n[color=FF0000]NOTE: [/color]The quest timer continues running until you speak with her.\nYou will fail the quest if the timer expires.|R|Tauren|C|Druid|
+A Trial of the Sea Lion|QID|30|M|36.51,40.12|Z|1450; Moonglade|N|From Tajarri.|PRE|28|R|Tauren|C|Druid|
 N Ho hum|ACTIVE|30|N|This part is going to be the most time-consuming. This is probably the best (and only) time you are going to get to do this without venturing too far from the scope of this guide.|R|Tauren|C|Druid|
-F Thunder Bluff|ACTIVE|30|M|44.28,45.87|Z|Moonglade|N|[color=FF0000]NOTE: [/color]This flight takes about 9 minutes.|R|Tauren|C|Druid|
+F Thunder Bluff|ACTIVE|30|M|44.28,45.87|Z|1450; Moonglade|N|[color=FF0000]NOTE: [/color]This flight takes about 9 minutes.|R|Tauren|C|Druid|
 F Orgrimmar|ACTIVE|30|M|51.50,30.33|R|Tauren|C|Druid|
 b Tirisfal Glades|ACTIVE|30|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|R|Tauren|C|Druid|
 R Undercity|ACTIVE|30|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|R|Tauren|C|Druid|
@@ -337,10 +337,10 @@ F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|Fly to The Crossroads when you'
 ; ---
 ; --- Druid Aquatic class quest completion
 P Moonglade|ACTIVE|30|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
-R Shrine of Remulos|ACTIVE|30|M|36.26,41.02|Z|Moonglade|R|Tauren|C|Druid|
+R Shrine of Remulos|ACTIVE|30|M|36.26,41.02|Z|1450; Moonglade|R|Tauren|C|Druid|
 C Pendant of the Sea Lion|QID|30|QO|1|N|Combine the 2 Aquatic Pendants together to form the Pendant of the Sea Lion.\n[color=FF0000]NOTE: [/color]This must be done at the Shrine or it won't work.|U|15883|R|Tauren|C|Druid|NC|
-T Trial of the Sea Lion|QID|30|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
-A Aquatic Form|QID|31|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|30|R|Tauren|C|Druid|
+T Trial of the Sea Lion|QID|30|M|56.21,30.62|Z|1450; Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
+A Aquatic Form|QID|31|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze.|PRE|30|R|Tauren|C|Druid|
 H Camp Taurajo|QID|31|N|Hearth back to Camp Taurajo to make this quicker. If your hearth is on cooldown, you will have to take the 9 minute flight to Thunder Bluff.|R|Tauren|C|Druid|
 F Thunder Bluff|ACTIVE|31|M|44.44,59.15|R|Tauren|C|Druid|
 T Aquatic Form|QID|31|M|76.48,27.25|Z|Thunder Bluff|N|To Turak Runetotem on The Elder Rise.|R|Tauren|C|Druid|
@@ -589,12 +589,12 @@ A Hinott's Assistance|QID|2479|M|43.04,53.74|Z|Orgrimmar|N|From Shenthul.|PRE|24
 b Tirisfal Glades|ACTIVE|2479|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glades.|R|Orc,Troll,Undead|C|Rogue|
 R Undercity|ACTIVE|2479|M|61.86,65.04|Z|Tirisfal Glades|R|Orc,Troll,Undead|C|Rogue|
 F The Sepulcher|ACTIVE|2479|M|63.25,48.54|Z|Undercity|R|Orc,Troll,Undead|C|Rogue|
-R Hillsbrad Foothills|ACTIVE|2479|M|13.55,46.15|Z|Hillsbrad Foothills|N|Exit The Sepulcher and follow the road south.|R|Orc,Troll,Undead|C|Rogue|
-R Tarren Mill|ACTIVE|2479|M|57.65,36.61;55.86,19.60|CC|Z|Hillsbrad Foothills|N|Follow the road/signs to Tarren Mill.|R|Orc,Troll,Undead|C|Rogue|
-f Tarren Mill|ACTIVE|2479|M|60.14,18.63|Z|Hillsbrad Foothills|N|At Zarise.|R|Orc,Troll,Undead|C|Rogue|TAXI|-Tarren Mill|
-T Hinott's Assistance|QID|2479|M|61.63,19.19|Z|Hillsbrad Foothills|N|To Serge Hinott.|R|Orc,Troll,Undead|C|Rogue|
-A Hinott's Assistance|QID|2480|M|61.63,19.19|Z|Hillsbrad Foothills|N|From Serge Hinott.|PRE|2479|R|Orc,Troll,Undead|C|Rogue|
-T Hinott's Assistance|QID|2480|M|61.63,19.19|Z|Hillsbrad Foothills|N|Once Serge Hinott completes the cure, turn the quest in.|R|Orc,Troll,Undead|C|Rogue|
+R Hillsbrad Foothills|ACTIVE|2479|M|13.55,46.15|Z|1424; Hillsbrad Foothills|N|Exit The Sepulcher and follow the road south.|R|Orc,Troll,Undead|C|Rogue|
+R Tarren Mill|ACTIVE|2479|M|57.65,36.61;55.86,19.60|CC|Z|1424; Hillsbrad Foothills|N|Follow the road/signs to Tarren Mill.|R|Orc,Troll,Undead|C|Rogue|
+f Tarren Mill|ACTIVE|2479|M|60.14,18.63|Z|1424; Hillsbrad Foothills|N|At Zarise.|R|Orc,Troll,Undead|C|Rogue|TAXI|-Tarren Mill|
+T Hinott's Assistance|QID|2479|M|61.63,19.19|Z|1424; Hillsbrad Foothills|N|To Serge Hinott.|R|Orc,Troll,Undead|C|Rogue|
+A Hinott's Assistance|QID|2480|M|61.63,19.19|Z|1424; Hillsbrad Foothills|N|From Serge Hinott.|PRE|2479|R|Orc,Troll,Undead|C|Rogue|
+T Hinott's Assistance|QID|2480|M|61.63,19.19|Z|1424; Hillsbrad Foothills|N|Once Serge Hinott completes the cure, turn the quest in.|R|Orc,Troll,Undead|C|Rogue|
 U Hinott's Oil|AVAILABLE|-2480|ACTIVE|-2480|N|Use the Hinott's Oil to cure your Touch of Zanzil.|U|8095|R|Orc,Troll,Undead|C|Rogue|BUFF|-9991|
 * Hinott's Oil|AVAILABLE|-2480|ACTIVE|-2480|N|For whatever reason, you still have your Hinott's Oil. You can safely destroy this as it's no longer required.|U|8095|R|Orc,Troll,Undead|C|Rogue|BUFF|9991|
 H Camp Taurajo|AVAILABLE|-2480|ACTIVE|-2480|R|Orc,Troll,Undead|C|Rogue|IZ|1424|

@@ -47,6 +47,6 @@ T Twisted Evils|QID|7028|M|62.20,39.63|Z|Desolace|N|To Willow.|
 T Vyletongue Corruption|QID|7041|M|68.50,8.88|Z|Desolace|N|To Talendria.|
 T Shadowshard Fragments|QID|7070|M|66.42,49.26|Z|1445; Dustwallow Marsh|N|To Archmage Tervosh.|
 T Corruption of Earth and Seed|QID|7065|M|63.84,10.67|Z|Desolace|N|To Keeper Marandis.|
-T Seed of Life|QID|7066|M|39.27,58.20|Z|Moonglade|N|To Keeper Remulos in Moonglade. If you're a druid or class that for some reason already has the flightpath to moonglade, skip this if you want to. Moonglade flightpath will be covered in chapter 3 of Elidion's Guide.|
+T Seed of Life|QID|7066|M|39.27,58.20|Z|1450; Moonglade|N|To Keeper Remulos in Moonglade. If you're a druid or class that for some reason already has the flightpath to moonglade, skip this if you want to. Moonglade flightpath will be covered in chapter 3 of Elidion's Guide.|
 ]]
 end)
