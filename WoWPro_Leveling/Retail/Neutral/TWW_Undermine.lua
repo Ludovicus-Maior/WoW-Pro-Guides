@@ -184,11 +184,6 @@ C The Kaja'Coast|QID|83933|QO|1|M|19.34,50.34|Z|2346; Undermine|N|Get to Slam Ce
 C The Kaja'Coast|QID|83933|QO|2|M|18.81,52.18|Z|2346; Undermine|N|Board the Coastside Drill to travel to Zuldazar.|CHAT|
 C The Kaja'Coast|QID|83933|QO|3|M|22.44,54.23|Z|862; Zuldazar|N|Regroup with Gazlowe and Renzik.|NC|
 T The Kaja'Coast|QID|83933|M|22.23,54.48|Z|862; Zuldazar|N|To Monte Gazlowe.|
-
-
-
-
-
 A Cut the Cameras|QID|84122|PRE|83933|M|22.23,54.48|Z|862; Zuldazar|N|From Monte Gazlowe.|
 A A Little Insurance|QID|84121|PRE|83933|M|22.20,54.43|Z|862; Zuldazar|N|From Renzik "The Shiv".|
 C Cut the Cameras|QID|84122|M|21.18,56.81|Z|862; Zuldazar|QO|1|NC|U|226823|N|Handful of B.I.R.D. Parts.|S|
@@ -321,7 +316,7 @@ A Right Where We Want Him|QID|85780|PRE|83207|M|57.25,44.73|Z|2346; Undermine|N|
 T Right Where We Want Him|QID|85780|M|43.62,51.03|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Liberation of Undermine: The House Loses|QID|86204|PRE|85780|M|43.62,51.03|Z|2346; Undermine|N|From Monte Gazlowe.|
 
-N THIS CONCLUDES THE CAMPAIGN PORTION OF THIS GUIDE. SIDE QUESTS ARE WORK IN PROGRESS. PLEASE PROVIDE FEED BACK IF YOU WANT THEM AFTER THIS SECTION OR INTERWOVEN INTO THE GUIDE. 
+N THIS CONCLUDES THE CAMPAIGN PORTION OF THIS GUIDE. SIDE QUESTS ARE WORK IN PROGRESS. PLEASE PROVIDE FEED BACK IF YOU WANT THEM AFTER THIS SECTION OR INTERWOVEN INTO THE GUIDE.
 
 
 ;A Operation: Floodgate: Disposing of the Garbage|QID|86728|M|43.37,51.51|Z|2346; Undermine|N|From Paks Topskimmer|RANK|3|
@@ -410,7 +405,7 @@ N THIS CONCLUDES THE CAMPAIGN PORTION OF THIS GUIDE. SIDE QUESTS ARE WORK IN PRO
 ;A On-the-Job Training|QID|86935|M|26.77,37.34|Z|2346; Undermine|N|From Carlo Greasegrind.|RANK|3|
 ;C On-the-Job Training|QID|86935|QO|1|M|25.64,38.18|Z|2346; Undermine|N|Talk to Angelo Rustbin.|CHAT|
 ;C On-the-Job Training|QID|86935|QO|2|M|50.40,63.02|Z|2346; Undermine|N|Talk to Carlo Greasegrind.|CHAT|
-;T On-the-Job Training|QID|86935|M|26.77,37.34|Z|2346; Undermine|N|To Carlo Greasegrind.|--
+;T On-the-Job Training|QID|86935|M|26.77,37.34|Z|2346; Undermine|N|To Carlo Greasegrind.|
 
 ]]
 end)
