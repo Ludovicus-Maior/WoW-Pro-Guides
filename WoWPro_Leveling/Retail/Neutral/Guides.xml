@@ -71,6 +71,7 @@
 	<Script file="TWW_MaxCampaign.lua"/>
 	<Script file="TWW_FotKT.lua"/>
 	<Script file="TWW_SirenIsle.lua"/>
+	<Script file="TWW_Undermine.lua"/>
 	<Script file="Aes_Versatile_TWW_speed.lua"/>
 	<Script file="WOD_DarkPortal_Intro.lua"/>
 	<Script file="WOD_Spires_of_Arak.lua"/>
