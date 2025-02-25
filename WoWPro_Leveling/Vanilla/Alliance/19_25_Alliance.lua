@@ -23,12 +23,12 @@ f Sentinel Hill|QID|118|M|56.55,52.65|Z|1436; Westfall|N|Discover Sentinel Hill 
 ; Druid Aquatic Form Chain
 R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|1436; Westfall|N|At this point, you're now going to finish up your swim form quest chain.|
 l Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|M|17.91,33.10|Z|1436; Westfall|L|15882|N|Once you have reached the location, dive under the water and open the chest. There is an air fissure beside it. You will not drown.|
-P Moonglade|ACTIVE|272|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
+P Moonglade|ACTIVE|272|C|Druid|Z|1450; Moonglade|N|Use your Moonglade portal spell.|
 L Half Pendant of Aquatic Agility|ACTIVE|272|M|48.85,11.28|Z|1439; Darkshore|C|Druid|L|15883|N|You will need the first half of the pendant. Fly to Darkshore and loot the item.|
-C Trial of the Sea Lion|QID|272|C|Druid|M|35.90,41.25|Z|Moonglade|QO|1|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|U|15883|NC|
-T Trial of the Sea Lion|QID|272|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use your Moonglade portal spell and head upstairs to Dendrite Starblaze|
-A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|272|
-F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+C Trial of the Sea Lion|QID|272|C|Druid|M|35.90,41.25|Z|1450; Moonglade|QO|1|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|U|15883|NC|
+T Trial of the Sea Lion|QID|272|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|Use your Moonglade portal spell and head upstairs to Dendrite Starblaze|
+A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|1450; Moonglade|N|From Dendrite Starblaze.|PRE|272|
+F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|1450; Moonglade|N|Fly back using the Darnassus Flight Master.|
 R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|1457; Darnassus|N|Walk into the portal back to Darnassus.|
 T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|1457; Darnassus|N|To Mathrengyl Bearwalker.|
 H Stormwind City|AVAILABLE|244|N|Hearth to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind City|
@@ -282,67 +282,67 @@ A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|1426; Dun Morogh|N|From Jorda
 ; Wetlands 22-23
 F Menethil Harbor|AVAILABLE|288|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
 F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|1455; Ironforge|N|Fly to Thelsamar (or run to Loch Modan from Dun Morogh if you do not have the Thelsamar FP yet)|TAXI|-Menethil Harbor|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
-R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|TAXI|-Menethil Harbor|
-C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|Z|Wetlands|
-A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|TAXI|-Menethil Harbor|Z|Wetlands|
-T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|TAXI|-Menethil Harbor|Z|Wetlands|
-T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|TAXI|-Menethil Harbor|Z|Wetlands|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z1432; |Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
+R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z1432; |Loch Modan|TAXI|-Menethil Harbor|
+C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
+A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
+T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
+T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
 
-A Young Crocolisk Skins|QID|484|M|8.49,55.7|N|From James Halloran.|Z|Wetlands|
-A Claws from the Deep|QID|279|M|8.33,58.52|N|From Karl Boran.|Z|Wetlands|
-f Menethil Harbor|AVAILABLE|463|N|Get the flight path.|M|9.50, 59.70|TAXI|-Menethil Harbor|Z|Wetlands|
-A The Greenwarden|QID|463|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|Wetlands|
-A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|Wetlands|
-h Deepwater Tavern|ACTIVE|288|M|10.7,60.96|N|Make Deepwater Tavern your home location.|Z|Wetlands|
-B Flagon of Dwarven Honeymead|ACTIVE|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|Z|Wetlands|
-A The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut.|PRE|942|
-T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|Wetlands|
-A Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|Z|Wetlands|
-A In Search of The Excavation Team|QID|305|M|11.5,52.16|N|From Tarrel Rockweaver.|Z|Wetlands|
-C Young Crocolisk Skins|QID|484|M|51.00,36.00|S|N|Kill and loot Young Wetlands Crocolisks.|Z|Wetlands|
-C Claws from the Deep|QID|279|M|20,40.6|S|QO|1|N|Kill Bluegill Murlocs.|Z|Wetlands|
-C Gobbler's Head|QID|279|M|18.10,40.10|QO|2|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|T|Gobbler|Z|Wetlands|
-C Claws from the Deep|QID|279|M|20,40.6|US|QO|1|N|Kill Bluegill Murlocs.|Z|Wetlands|
-C Digging Through the Ooze|QID|470|M|44.00,24.00|S|N|Kill black oozes until you get Sida's Bag|Z|Wetlands|
-A Ormer's Revenge|QID|294|M|34.10,40.80;37.00,42.75;38.07,51.18|CC|N|Head towards the Excavation Site and take the path to the left up the hill. Accept the quest from Ormer Ironbraid|Z|Wetlands|
-T In Search of The Excavation Team |QID|305|M|38.91,52.34|N|To Merrin Rockweaver.|Z|Wetlands|
-A In Search of The Excavation Team |QID|306|M|38.91,52.34|N|From Merrin Rockweaver.|PRE|305|Z|Wetlands|
-C The Absent Minded Prospector|QID|943|M|38.86,52.2|QO|2|N|Loot the Fossil on the ground in front of the dwarves.|Z|Wetlands|
-T The Greenwarden|QID|463|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|Wetlands|
-A Tramping Paws|QID|276|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|463|Z|Wetlands|
-C Tramping Paws|QID|276|M|62.00,70.00|N|Kill the mobs needed for this quest.|Z|Wetlands|
-R Dun Algaz|AVAILABLE|455|M|54.00,70.50|CS|Z|Wetlands|N|Run to the Dun Algaz tunnnel entrance|
-R Loch Modan|AVAILABLE|455|M|49.30,70.50;48.10,67.9;50.10,71.50;50.60,82.50;55.65,84.85|CS|Z|Wetlands|N|Run through the Dun Algaz tunnel to Loch Modan|
-f Thelsamar|ACTIVE|276|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|
-C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|Z|Wetlands|
-C The Algaz Gauntlet|QID|455||QO|3|M|54.00,70.50|N|Go back to the tunnel and continue down the path until you complete this quest.|Z|Wetlands|
-T Tramping Paws|QID|276|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|Wetlands|
+A Young Crocolisk Skins|QID|484|M|8.49,55.7|N|From James Halloran.|Z|1437; Wetlands|
+A Claws from the Deep|QID|279|M|8.33,58.52|N|From Karl Boran.|Z|1437; Wetlands|
+f Menethil Harbor|AVAILABLE|463|N|Get the flight path.|M|9.50, 59.70|TAXI|-Menethil Harbor|Z|1437; Wetlands|
+A The Greenwarden|QID|463|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|1437; Wetlands|
+A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|Z|1437; Wetlands|
+h Deepwater Tavern|ACTIVE|288|M|10.7,60.96|N|Make Deepwater Tavern your home location.|Z|1437; Wetlands|
+B Flagon of Dwarven Honeymead|ACTIVE|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|Z|1437; Wetlands|
+A The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|1437; Wetlands|N|From Archaeologist Flagongut.|PRE|942|
+T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|Z|1437; Wetlands|
+A Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|Z|1437; Wetlands|
+A In Search of The Excavation Team|QID|305|M|11.5,52.16|N|From Tarrel Rockweaver.|Z|1437; Wetlands|
+C Young Crocolisk Skins|QID|484|M|51.00,36.00|S|N|Kill and loot Young Wetlands Crocolisks.|Z|1437; Wetlands|
+C Claws from the Deep|QID|279|M|20,40.6|S|QO|1|N|Kill Bluegill Murlocs.|Z|1437; Wetlands|
+C Gobbler's Head|QID|279|M|18.10,40.10|QO|2|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|T|Gobbler|Z|1437; Wetlands|
+C Claws from the Deep|QID|279|M|20,40.6|US|QO|1|N|Kill Bluegill Murlocs.|Z|1437; Wetlands|
+C Digging Through the Ooze|QID|470|M|44.00,24.00|S|N|Kill black oozes until you get Sida's Bag|Z|1437; Wetlands|
+A Ormer's Revenge|QID|294|M|34.10,40.80;37.00,42.75;38.07,51.18|CC|N|Head towards the Excavation Site and take the path to the left up the hill. Accept the quest from Ormer Ironbraid|Z|1437; Wetlands|
+T In Search of The Excavation Team |QID|305|M|38.91,52.34|N|To Merrin Rockweaver.|Z|1437; Wetlands|
+A In Search of The Excavation Team |QID|306|M|38.91,52.34|N|From Merrin Rockweaver.|PRE|305|Z|1437; Wetlands|
+C The Absent Minded Prospector|QID|943|M|38.86,52.2|QO|2|N|Loot the Fossil on the ground in front of the dwarves.|Z|1437; Wetlands|
+T The Greenwarden|QID|463|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
+A Tramping Paws|QID|276|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|463|Z|1437; Wetlands|
+C Tramping Paws|QID|276|M|62.00,70.00|N|Kill the mobs needed for this quest.|Z|1437; Wetlands|
+R Dun Algaz|AVAILABLE|455|M|54.00,70.50|CS|Z|1437; Wetlands|N|Run to the Dun Algaz tunnnel entrance|
+R Loch Modan|AVAILABLE|455|M|49.30,70.50;48.10,67.9;50.10,71.50;50.60,82.50;55.65,84.85|CS|Z|1437; Wetlands|N|Run through the Dun Algaz tunnel to Loch Modan|
+f Thelsamar|ACTIVE|276|M|33.92,50.95|Z1432; |Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z1432; |Loch Modan|N|From Mountaineer Rockgar.|
+C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|Z|1437; Wetlands|
+C The Algaz Gauntlet|QID|455||QO|3|M|54.00,70.50|N|Go back to the tunnel and continue down the path until you complete this quest.|Z|1437; Wetlands|
+T Tramping Paws|QID|276|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
 L Level 23|AVAILABLE|277|LVL|23|S|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind.|
-A Fire Taboo|QID|277|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|276|Z|Wetlands|
-C Digging Through the Ooze|QID|470|M|44.00,24.00|US|N|Kill black oozes until you get Sida's Bag|Z|Wetlands|
-C Fire Taboo|QID|277|M|32.3,33.2;39,34;44,34.2|CN|N|Kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|Z|Wetlands|
-T Fire Taboo|QID|277|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|Wetlands|
-A Blisters on The Land|QID|275|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|277|Z|Wetlands|
-C Young Crocolisk Skins|QID|484|M|51.00,36.00|US|N|Kill and loot Young Wetlands Crocolisks.|Z|Wetlands|
-A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|Z|Wetlands|
-C Ormer's Revenge|QID|294|M|28.8,43.4|S|N|Kill raptors outside the excavation site until you complete this quest.|Z|Wetlands|
-C The Absent Minded Prospector|QID|943|M|28.8,43.4|QO|1|N|Kill Raptors for the Stone.|Z|Wetlands|
-C Ormer's Revenge|QID|294|M|24.3,52.5|US|N|Kill raptors until you complete this quest.|Z|Wetlands|
-T Ormer's Revenge|QID|294|M|38.07,51.18|N|Back up the ramp in the excavation site to Ormer Ironbraid.|Z|Wetlands|
-A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|Z|Wetlands|
-H Deepwater Tavern|ACTIVE|279|M|10.60,60.55|N|Hearth or Run back to town.|Z|Wetlands|
-T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut.|
-T Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|Z|Wetlands|
-T In Search of The Excavation Team|QID|306|M|11.5,52.16|N|To Tarrel Rockweaver.|Z|Wetlands|
-T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|Z|Wetlands|
-T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|Z|Wetlands|
-T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|Z|Wetlands|
-T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|Z|Wetlands|
+A Fire Taboo|QID|277|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|276|Z|1437; Wetlands|
+C Digging Through the Ooze|QID|470|M|44.00,24.00|US|N|Kill black oozes until you get Sida's Bag|Z|1437; Wetlands|
+C Fire Taboo|QID|277|M|32.3,33.2;39,34;44,34.2|CN|N|Kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|Z|1437; Wetlands|
+T Fire Taboo|QID|277|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|
+A Blisters on The Land|QID|275|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|277|Z|1437; Wetlands|
+C Young Crocolisk Skins|QID|484|M|51.00,36.00|US|N|Kill and loot Young Wetlands Crocolisks.|Z|1437; Wetlands|
+A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|Z|1437; Wetlands|
+C Ormer's Revenge|QID|294|M|28.8,43.4|S|N|Kill raptors outside the excavation site until you complete this quest.|Z|1437; Wetlands|
+C The Absent Minded Prospector|QID|943|M|28.8,43.4|QO|1|N|Kill Raptors for the Stone.|Z|1437; Wetlands|
+C Ormer's Revenge|QID|294|M|24.3,52.5|US|N|Kill raptors until you complete this quest.|Z|1437; Wetlands|
+T Ormer's Revenge|QID|294|M|38.07,51.18|N|Back up the ramp in the excavation site to Ormer Ironbraid.|Z|1437; Wetlands|
+A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|Z|1437; Wetlands|
+H Deepwater Tavern|ACTIVE|279|M|10.60,60.55|N|Hearth or Run back to town.|Z|1437; Wetlands|
+T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|1437; Wetlands|N|From Archaeologist Flagongut.|
+T Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|Z|1437; Wetlands|
+T In Search of The Excavation Team|QID|306|M|11.5,52.16|N|To Tarrel Rockweaver.|Z|1437; Wetlands|
+T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|Z|1437; Wetlands|
+T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|Z|1437; Wetlands|
+T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|Z|1437; Wetlands|
+T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|Z|1437; Wetlands|
 
 ; Ashenvale 23-25
-b Darkshore|AVAILABLE|1008|M|4.61,57.07|N|Take Boat to Auberdine.|Z|Wetlands|
+b Darkshore|AVAILABLE|1008|M|4.61,57.07|N|Take Boat to Auberdine.|Z|1437; Wetlands|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|Z|1439; Darkshore|
 A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|Z|1439; Darkshore|DUNGEON|
 f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|Z|1439; Darkshore|

@@ -154,9 +154,9 @@ F Thunder Bluff|AVAILABLE|6126|M|51.54,30.35|Z|1413; The Barrens|N|Fly to Thunde
 N Quest Items|AVAILABLE|6126|L|-2449 5|N|You will need to bring 5 Earthroot with you for one of the quests in this series.|R|Tauren|C|Druid|
 A Lessons Anew|QID|6126|M|76.48,27.25|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise.|R|Tauren|C|Druid|
 P Moonglade|ACTIVE|6126|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
-T Lessons Anew|QID|6126|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
-A The Principal Source|QID|6127|M|56.2,27.6|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6126|R|Tauren|C|Druid|
-F Thunder Bluff|ACTIVE|6127|M|44.28,45.87|Z|Moonglade|N|Fly to Thunder Bluff.\nThis flight takes about 9 minutes.|R|Tauren|C|Druid|
+T Lessons Anew|QID|6126|M|56.19,30.65|Z|1450; Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
+A The Principal Source|QID|6127|M|56.2,27.6|Z|1450; Moonglade|N|From Dendrite Starblaze.|PRE|6126|R|Tauren|C|Druid|
+F Thunder Bluff|ACTIVE|6127|M|44.28,45.87|Z|1450; Moonglade|N|Fly to Thunder Bluff.\nThis flight takes about 9 minutes.|R|Tauren|C|Druid|
 ; ---
 
 ; --- Travel to The Barrens (The Crossroads)
