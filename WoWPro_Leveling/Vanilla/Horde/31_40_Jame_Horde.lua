@@ -449,7 +449,7 @@ A Sunken Treasure|QID|669|PRE|668|M|32.2,81.4|Z|1417; Arathi Highlands|N|From Sh
 
 R Wetlands|ACTIVE|669|M|26.9,88.1;29.1,96.5|CS|Z|1417; Arathi Highlands|N|Swim out of the south side of the cove and keep swimming south to The Wetlands.|
 R Dun Algaz|ACTIVE|669|M|39.2,25.2;49.6,38.2;58.2,66.7;54,70|CS|Z|1437; Wetlands|N|Run generally southwest thru the zone until you get to the road. follow it continuing south, until you get to Dun Algaz.|
-R Loch Modan|ACTIVE|669|M|26.2,22.5;38.8,42.9;46.2,76.6|CS|Z1432; |Loch Modan|N|Follow the tunnels until you get to Loch Moden, then follow the waypoints to avoid Thelsamar and get to Badlands.|
+R Loch Modan|ACTIVE|669|M|26.2,22.5;38.8,42.9;46.2,76.6|CS|Z|1432;Loch Modan|N|Follow the tunnels until you get to Loch Moden, then follow the waypoints to avoid Thelsamar and get to Badlands.|
 R The Dustbowl|ACTIVE|669|M|52,18;45,37;25,45|CS|Z|1418; Badlands|N|Go south, then southwest and then west while staying close to the mountain to your right-hand side.|
 A Study of the Elements: Rock|QID|710|M|25,45|Z|1418; Badlands|N|From Lotwil Veratius.|
 C Study of the Elements: Rock|QID|710|M|25,45|Z|1418; Badlands|S|N|Kill Lesser Rock Elementals (not the higher level ones called Rock Elementals.)|

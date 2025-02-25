@@ -465,7 +465,7 @@ H Ironforge|QID|3441|M|PLAYER|Z|1438; Teldrassil|N|Use your hearthstone to get b
 r City Stuff in Ironforge|QID|3441|N|Sell junk, repair, restock, train, auction, professions.|
 B Silk Cloth|QID|4449|N|You will need these now. Hopefully you've saved them.|L|4306 15|ITEM|4306|
 F Thelsamar|QID|3441|M|55.50,47.80|Z|1455; Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar, Loch Modan.|
-R Badlands|QID|3441|M|47.2,77.6;47.00,85.00|Z1432; |Loch Modan|CC|N|Run to The Badlands|
+R Badlands|QID|3441|M|47.2,77.6;47.00,85.00|Z|1432;Loch Modan|CC|N|Run to The Badlands|
 R Searing Gorge|QID|3441|M|0.01,63.54|Z|1418; Badlands|N|Run to Searing Gorge.|
 A Caught!|QID|4449|M|65.61,62.06|Z|1427; Searing Gorge|N|From the Wooden Outhouse.|
 A Divine Retribution|QID|3441|M|39.04,38.99|Z|1427; Searing Gorge|N|From Kalaran Windblade.|

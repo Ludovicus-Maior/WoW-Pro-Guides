@@ -282,8 +282,8 @@ A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|1426; Dun Morogh|N|From Jorda
 ; Wetlands 22-23
 F Menethil Harbor|AVAILABLE|288|M|55.54,47.75|Z|1455; Ironforge|N|Fly to Menethil Harbor.|TAXI|Menethil Harbor|
 F Thelsamar|AVAILABLE|455|M|55.49,47.72|Z|1455; Ironforge|N|Fly to Thelsamar (or run to Loch Modan from Dun Morogh if you do not have the Thelsamar FP yet)|TAXI|-Menethil Harbor|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z1432; |Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
-R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z1432; |Loch Modan|TAXI|-Menethil Harbor|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|1432;Loch Modan|N|From Mountaineer Rockgar.|TAXI|-Menethil Harbor|
+R Wetlands|AVAILABLE|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|1432;Loch Modan|TAXI|-Menethil Harbor|
 C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
 A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
 T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|TAXI|-Menethil Harbor|Z|1437; Wetlands|
@@ -314,8 +314,8 @@ A Tramping Paws|QID|276|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|463|Z|
 C Tramping Paws|QID|276|M|62.00,70.00|N|Kill the mobs needed for this quest.|Z|1437; Wetlands|
 R Dun Algaz|AVAILABLE|455|M|54.00,70.50|CS|Z|1437; Wetlands|N|Run to the Dun Algaz tunnnel entrance|
 R Loch Modan|AVAILABLE|455|M|49.30,70.50;48.10,67.9;50.10,71.50;50.60,82.50;55.65,84.85|CS|Z|1437; Wetlands|N|Run through the Dun Algaz tunnel to Loch Modan|
-f Thelsamar|ACTIVE|276|M|33.92,50.95|Z1432; |Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
-A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z1432; |Loch Modan|N|From Mountaineer Rockgar.|
+f Thelsamar|ACTIVE|276|M|33.92,50.95|Z|1432;Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|1432;Loch Modan|N|From Mountaineer Rockgar.|
 C The Algaz Gauntlet|QID|455||QO|1;2|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest.|Z|1437; Wetlands|
 C The Algaz Gauntlet|QID|455||QO|3|M|54.00,70.50|N|Go back to the tunnel and continue down the path until you complete this quest.|Z|1437; Wetlands|
 T Tramping Paws|QID|276|M|56.34,40.41|N|To Rethiel the Greenwarden.|Z|1437; Wetlands|

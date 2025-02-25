@@ -64,38 +64,38 @@ T Shimmer Stout|QID|413|M|86.28,48.82|Z|1426;Dun Morogh|N|To Mountaineer Barleyb
 A Stout to Kadrell|QID|414|PRE|413|M|86.28,48.82|Z|1426;Dun Morogh|N|From Mountaineer Barleybrew|
 
 R South Gate Pass|QID|414|ACTIVE|414|M|16.44,58.49|N|Head to the South Gate Pass tunnel|
-R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z1432; |Loch Modan|N|Continue through the tunnel into Loch Modan.|
-A The Trogg Threat|QID|267|M|23.24,73.67|Z1432; |Loch Modan|N|From Captain Ruglefuss, inside the Bunker.|
-A In Defense of the King's Lands|QID|224|M|22.07,73.13|Z1432; |Loch Modan|N|From Mountaineer Cobbleflint, outside, along the path.|
-C The Trogg Threat|QID|267|Z1432; |Loch Modan|N|Loot the troggs until you get the items for this quest.|S|
-C In Defense of the King's Lands|QID|224|M|27.00,54.00|N|Kill Troggs and Scouts until you finish this quest.|Z1432; |Loch Modan|
-C The Trogg Threat|QID|267|US|N|Continue killing the troggs until you get the items for this quest.|Z1432; |Loch Modan|
-T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|To Mountaineer Cobbleflint, outside|Z1432; |Loch Modan|
-T The Trogg Threat|QID|267|M|23.24,73.67|N|To Captain Ruglefuss.|Z1432; |Loch Modan|
+R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|1432;Loch Modan|N|Continue through the tunnel into Loch Modan.|
+A The Trogg Threat|QID|267|M|23.24,73.67|Z|1432;Loch Modan|N|From Captain Ruglefuss, inside the Bunker.|
+A In Defense of the King's Lands|QID|224|M|22.07,73.13|Z|1432;Loch Modan|N|From Mountaineer Cobbleflint, outside, along the path.|
+C The Trogg Threat|QID|267|Z|1432;Loch Modan|N|Loot the troggs until you get the items for this quest.|S|
+C In Defense of the King's Lands|QID|224|M|27.00,54.00|N|Kill Troggs and Scouts until you finish this quest.|Z|1432;Loch Modan|
+C The Trogg Threat|QID|267|US|N|Continue killing the troggs until you get the items for this quest.|Z|1432;Loch Modan|
+T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|To Mountaineer Cobbleflint, outside|Z|1432;Loch Modan|
+T The Trogg Threat|QID|267|M|23.24,73.67|N|To Captain Ruglefuss.|Z|1432;Loch Modan|
 
-R Thelsamar|ACTIVE|1338|M|32.96,49.44|Z1432; |Loch Modan|N|Follow the road north to Thelsamar.|
-A Rat Catching|QID|416|M|34.8,47.1|Z1432; |Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
-A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|N|From Mountaineer Kadrell patrols all throughout Thelsamar.|Z1432; |Loch Modan|
-A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z1432; |Loch Modan|N|From Vidra Hearthstove inside the inn.|
-r Sell junk and repair|QID|418|M|34.0,46.60|Z1432; |Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
-f Thelsamar|ACTIVE|418|M|33.9,50.95|Z1432; |Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|
-C Thelsamar Blood Sausages|QID|418|M|35.00,35.00|Z1432; |Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|S|
-C Rat Catching|QID|416|M|37.7,25.7|Z1432; |Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
-R Algaz Station|ACTIVE|353|M|24.50,18.00|Z1432; |Loch Modan|N|Continue along the road north to Algaz Station.|
-T Stormpike's Delivery|QID|353|M|24.77,18.39|Z1432; |Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
-A Filthy Paws|QID|307|M|24.77,18.39|Z1432; |Loch Modan|N|From Mountaineer Stormpike.|
-A Stormpike's Order|QID|1338|M|24.77,18.39|Z1432; |Loch Modan|N|From Mountaineer Stormpike.|
-R Silver Stream Mine|ACTIVE|307|M|36.70,41.79;39.43,29.10|Z1432; |Loch Modan|CC|N|Head East from Algaz Station|
-C Filthy Paws|QID|307|M|35.53,18.71|QO|1|N|Enter the mine and collect the crates of Miners' Gear.|Z1432; |Loch Modan|
+R Thelsamar|ACTIVE|1338|M|32.96,49.44|Z|1432;Loch Modan|N|Follow the road north to Thelsamar.|
+A Rat Catching|QID|416|M|34.8,47.1|Z|1432;Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
+A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|N|From Mountaineer Kadrell patrols all throughout Thelsamar.|Z|1432;Loch Modan|
+A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|1432;Loch Modan|N|From Vidra Hearthstove inside the inn.|
+r Sell junk and repair|QID|418|M|34.0,46.60|Z|1432;Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
+f Thelsamar|ACTIVE|418|M|33.9,50.95|Z|1432;Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|
+C Thelsamar Blood Sausages|QID|418|M|35.00,35.00|Z|1432;Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|S|
+C Rat Catching|QID|416|M|37.7,25.7|Z|1432;Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
+R Algaz Station|ACTIVE|353|M|24.50,18.00|Z|1432;Loch Modan|N|Continue along the road north to Algaz Station.|
+T Stormpike's Delivery|QID|353|M|24.77,18.39|Z|1432;Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
+A Filthy Paws|QID|307|M|24.77,18.39|Z|1432;Loch Modan|N|From Mountaineer Stormpike.|
+A Stormpike's Order|QID|1338|M|24.77,18.39|Z|1432;Loch Modan|N|From Mountaineer Stormpike.|
+R Silver Stream Mine|ACTIVE|307|M|36.70,41.79;39.43,29.10|Z|1432;Loch Modan|CC|N|Head East from Algaz Station|
+C Filthy Paws|QID|307|M|35.53,18.71|QO|1|N|Enter the mine and collect the crates of Miners' Gear.|Z|1432;Loch Modan|
 C Rat Catching|QID|416|L|3110 12|N|Finish this quest now by killing Tunnel Rats around the mine entrance.|US|
-T Filthy Paws|QID|307|M|24.77,18.39|Z1432; |Loch Modan|N|To Mountaineer Stormpike.|
-C Thelsamar Blood Sausages|QID|418|M|32.28,31.08|Z1432; |Loch Modan|CN|QO|1;2;3|N|Finish this quest now.|S|
-T Rat Catching|QID|416|M|34.8,47.1|Z1432; |Loch Modan|N|To Mountaineer Kadrell.|
-T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z1432; |Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
-F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z1432; |Loch Modan|C|Paladin|
+T Filthy Paws|QID|307|M|24.77,18.39|Z|1432;Loch Modan|N|To Mountaineer Stormpike.|
+C Thelsamar Blood Sausages|QID|418|M|32.28,31.08|Z|1432;Loch Modan|CN|QO|1;2;3|N|Finish this quest now.|S|
+T Rat Catching|QID|416|M|34.8,47.1|Z|1432;Loch Modan|N|To Mountaineer Kadrell.|
+T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|1432;Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
+F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|1432;Loch Modan|C|Paladin|
 A Tome of Divinity|QID|3681|M|23.11,6.15|Z|1455; Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|
 F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|1455; Ironforge|TZ|Stormwind City|N|Fly to Stormwind.|C|Paladin|
-F Stormwind|ACTIVE|6261|M|33.94,50.95|Z1432; |Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
+F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|1432;Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
 
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|1453; Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|1453; Stormwind City|N|From Dungar Longdrink.|
@@ -277,72 +277,72 @@ F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|1453; Stormwind City|N|Fly to Ironfor
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|1455; Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|1455; Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 
-A Ironband's Excavation|QID|436|M|37.24,47.39|N|From Jern Hornhelm, inside the house, down the stairs.|Z1432; |Loch Modan|
-A WANTED: Chok'sul|QID|256|M|37.29,46.50|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wanted Poster, you will probably want a group to kill this.|RANK|2|Z1432; |Loch Modan|
-A Mercenaries|QID|255|M|34.69,43.18|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magistrate Bluntnose, inside, down the stairs.|RANK|2|Z1432; |Loch Modan|
-R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|LVL|-18|Z1432; |Loch Modan|
-A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bunker.|LVL|-18|Z1432; |Loch Modan|
-A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|LVL|-18|Z1432; |Loch Modan|
+A Ironband's Excavation|QID|436|M|37.24,47.39|N|From Jern Hornhelm, inside the house, down the stairs.|Z|1432;Loch Modan|
+A WANTED: Chok'sul|QID|256|M|37.29,46.50|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wanted Poster, you will probably want a group to kill this.|RANK|2|Z|1432;Loch Modan|
+A Mercenaries|QID|255|M|34.69,43.18|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magistrate Bluntnose, inside, down the stairs.|RANK|2|Z|1432;Loch Modan|
+R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|LVL|-18|Z|1432;Loch Modan|
+A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bunker.|LVL|-18|Z|1432;Loch Modan|
+A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|LVL|-18|Z|1432;Loch Modan|
 C The Trogg Threat|QID|267|S|N|Loot the troggs you kill for the items for this quest|
-C In Defense of the King's Lands|QID|224|M|33.00,73.00|N|Kill Troggs and Scouts until you finish this quest.|Z1432; |Loch Modan|
+C In Defense of the King's Lands|QID|224|M|33.00,73.00|N|Kill Troggs and Scouts until you finish this quest.|Z|1432;Loch Modan|
 t The Trogg Threat|QID|267|S|N|To Captain Ruglefuss inside the bunker at Valley of Kings.|
-T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside|Z1432; |Loch Modan|
-A In Defense of the King's Lands|QID|237|M|23.53,76.40|N|From Mountaineer Gravelgaw, just outside the entrance to the bunker.|PRE|224|Z1432; |Loch Modan|
-C In Defense of the King's Lands|QID|237|M|35.50,79.60|N|Kill Skullthumpers and Seers until you finish the quest.|Z1432; |Loch Modan|
-T In Defense of the King's Lands|QID|237|M|23.53,76.40|N|To Mountaineer Gravelgaw.|Z1432; |Loch Modan|
-A In Defense of the King's Lands|QID|263|M|23.47,74.49|N|From Mountaineer Wallbang.|PRE|237|Z1432; |Loch Modan|
+T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside|Z|1432;Loch Modan|
+A In Defense of the King's Lands|QID|237|M|23.53,76.40|N|From Mountaineer Gravelgaw, just outside the entrance to the bunker.|PRE|224|Z|1432;Loch Modan|
+C In Defense of the King's Lands|QID|237|M|35.50,79.60|N|Kill Skullthumpers and Seers until you finish the quest.|Z|1432;Loch Modan|
+T In Defense of the King's Lands|QID|237|M|23.53,76.40|N|To Mountaineer Gravelgaw.|Z|1432;Loch Modan|
+A In Defense of the King's Lands|QID|263|M|23.47,74.49|N|From Mountaineer Wallbang.|PRE|237|Z|1432;Loch Modan|
 
-R Ironband's Excavation Site|QID|436|M|60.37,65.11|N|Run to Ironband's Excavation Site.|Z1432; |Loch Modan|
-T Ironband's Excavation|QID|436|M|64.89,66.66|N|To Magmar Fellhew.|Z1432; |Loch Modan|
-A Excavation Progress Report|QID|298|M|65.94,65.62|N|From Prospector Ironband.|Z1432; |Loch Modan|
-R The Farstrider Lodge|AVAILABLE|385|M|80.78,59.47|N|Run to the Farstrider Lodge. There is a hunter trainer here as well as vendors and repairs.|Z1432; |Loch Modan|
-A Crocolisk Hunting|QID|385|M|81.76,61.67|N|From Marek Ironheart.|Z1432; |Loch Modan|
-A A Hunter's Boast|QID|257|M|83.48,65.44|N|[color=FF0000]NOTE: [/color]This is a TIMED Quest. The timer doesn't stop until the quest is turned in.\nFrom Daryl the Youngling.|Z1432; |Loch Modan|
-A A Hunter's Boast|QID|257|M|83.48,65.44|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Daryl the Youngling.|FAIL|Z1432; |Loch Modan|
+R Ironband's Excavation Site|QID|436|M|60.37,65.11|N|Run to Ironband's Excavation Site.|Z|1432;Loch Modan|
+T Ironband's Excavation|QID|436|M|64.89,66.66|N|To Magmar Fellhew.|Z|1432;Loch Modan|
+A Excavation Progress Report|QID|298|M|65.94,65.62|N|From Prospector Ironband.|Z|1432;Loch Modan|
+R The Farstrider Lodge|AVAILABLE|385|M|80.78,59.47|N|Run to the Farstrider Lodge. There is a hunter trainer here as well as vendors and repairs.|Z|1432;Loch Modan|
+A Crocolisk Hunting|QID|385|M|81.76,61.67|N|From Marek Ironheart.|Z|1432;Loch Modan|
+A A Hunter's Boast|QID|257|M|83.48,65.44|N|[color=FF0000]NOTE: [/color]This is a TIMED Quest. The timer doesn't stop until the quest is turned in.\nFrom Daryl the Youngling.|Z|1432;Loch Modan|
+A A Hunter's Boast|QID|257|M|83.48,65.44|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Daryl the Youngling.|FAIL|Z|1432;Loch Modan|
 C A Hunter's Boast|QID|257|QO|1|N|Within 15 minutes, find and kill 6 Mountain Buzzards around Farstrider Lodge.|
-T A Hunter's Boast|QID|257|M|83.48,65.42|N|To Daryl the Youngling.|Z1432; |Loch Modan|
+T A Hunter's Boast|QID|257|M|83.48,65.42|N|To Daryl the Youngling.|Z|1432;Loch Modan|
 C Crocolisk Hunting|QID|385|QO|1;2|S|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|
 
-T Find Bingles|QID|2039|M|63.56,47.92|N|To Bingles Blastenheimer.|Z1432; |Loch Modan|
-A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|N|From Bingles Blastenheimer.|PRE|2039|Z1432; |Loch Modan|
-R Northern Island|ACTIVE|2038|M|56,28|CC|N|Run/Swim to the northernmost island in the middle of The Loch.|Z1432; |Loch Modan|
-C Bingles' Missing Supplies|QID|2038|M|54.22,26.61|L|7376|N|Clear camp of troggs and Bingles' Blastencapper is here.\n[color=FF0000]NOTE: [/color]Be careful with your pulls. You can easily, and quite quickly, overwhelmed with 2 or 3 of them. Multiple casters is even worse.|Z1432; |Loch Modan|
-C Bingles' Missing Supplies|QID|2038|M|51.78,24.09|L|7346|N|Clear camp of troggs and his Hammer is here.\n[color=FF0000]NOTE: [/color]Stick close to the wagon and you won't aggro the group north of it.|Z1432; |Loch Modan|
-C Bingles' Missing Supplies|QID|2038|M|48.38,20.50|L|7345|N|Clear camp of troggs and his Screwdriver is here.|Z1432; |Loch Modan|
-C Bingles' Missing Supplies|QID|2038|M|48.72,30.09|L|7343|N|Clear camp of troggs and his Wrench is here.|Z1432; |Loch Modan|
+T Find Bingles|QID|2039|M|63.56,47.92|N|To Bingles Blastenheimer.|Z|1432;Loch Modan|
+A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|N|From Bingles Blastenheimer.|PRE|2039|Z|1432;Loch Modan|
+R Northern Island|ACTIVE|2038|M|56,28|CC|N|Run/Swim to the northernmost island in the middle of The Loch.|Z|1432;Loch Modan|
+C Bingles' Missing Supplies|QID|2038|M|54.22,26.61|L|7376|N|Clear camp of troggs and Bingles' Blastencapper is here.\n[color=FF0000]NOTE: [/color]Be careful with your pulls. You can easily, and quite quickly, overwhelmed with 2 or 3 of them. Multiple casters is even worse.|Z|1432;Loch Modan|
+C Bingles' Missing Supplies|QID|2038|M|51.78,24.09|L|7346|N|Clear camp of troggs and his Hammer is here.\n[color=FF0000]NOTE: [/color]Stick close to the wagon and you won't aggro the group north of it.|Z|1432;Loch Modan|
+C Bingles' Missing Supplies|QID|2038|M|48.38,20.50|L|7345|N|Clear camp of troggs and his Screwdriver is here.|Z|1432;Loch Modan|
+C Bingles' Missing Supplies|QID|2038|M|48.72,30.09|L|7343|N|Clear camp of troggs and his Wrench is here.|Z|1432;Loch Modan|
 C In Defense of the King's Lands|QID|263|S|N|Kill Bonesnappers and Shaman until you finish the quest.|
 C The Trogg Threat|QID|267|US|N|Continue with the troggs until you get the items for this quest.|
-C Crocolisk Hunting|QID|385|QO|1;2|M|54.50,39.00|US|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|Z1432; |Loch Modan|
-T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|N|To Bingles Blastenheimer.|Z1432; |Loch Modan|
-R The Farstrider Lodge|ACTIVE|385|M|80.78,59.47|N|Run to the Farstrider Lodge.|Z1432; |Loch Modan|
-T Crocolisk Hunting|QID|385|M|81.75,61.65|N|To Marek Ironheart.|Z1432; |Loch Modan|
-A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=FF0000]NOTE: [/color]This quest may not completable. The respawn points are few and there may not be enough mobs to complete before the timer expires. Left click to skip this if you are unable to complete. \nFrom Daryl the Youngling.|PRE|257|RANK|3|Z1432; |Loch Modan|
-A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Daryl the Youngling.|PRE|257|FAIL|Z1432; |Loch Modan|
-C A Hunter's Challenge|QID|258|M|60.80,38.47|QO|1|N|Kill 5 Elder Mountain Boars within 12 minutes. You'll find them in the open fields just past the hills northwest of Farstrider Lodge. Be careful as they mixed amongst the bears.|Z1432; |Loch Modan|
-T A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|Z1432; |Loch Modan|
-A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Vyrin Swiftwind.\nOl' Sooty is an Elite lv 20 Bear.|PRE|258|RANK|2|Z1432; |Loch Modan|
+C Crocolisk Hunting|QID|385|QO|1;2|M|54.50,39.00|US|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|Z|1432;Loch Modan|
+T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|N|To Bingles Blastenheimer.|Z|1432;Loch Modan|
+R The Farstrider Lodge|ACTIVE|385|M|80.78,59.47|N|Run to the Farstrider Lodge.|Z|1432;Loch Modan|
+T Crocolisk Hunting|QID|385|M|81.75,61.65|N|To Marek Ironheart.|Z|1432;Loch Modan|
+A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=FF0000]NOTE: [/color]This quest may not completable. The respawn points are few and there may not be enough mobs to complete before the timer expires. Left click to skip this if you are unable to complete. \nFrom Daryl the Youngling.|PRE|257|RANK|3|Z|1432;Loch Modan|
+A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Daryl the Youngling.|PRE|257|FAIL|Z|1432;Loch Modan|
+C A Hunter's Challenge|QID|258|M|60.80,38.47|QO|1|N|Kill 5 Elder Mountain Boars within 12 minutes. You'll find them in the open fields just past the hills northwest of Farstrider Lodge. Be careful as they mixed amongst the bears.|Z|1432;Loch Modan|
+T A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|Z|1432;Loch Modan|
+A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Vyrin Swiftwind.\nOl' Sooty is an Elite lv 20 Bear.|PRE|258|RANK|2|Z|1432;Loch Modan|
 
-R Mo'grosh Stronghold|M|74,35|ACTIVE|255|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|Z1432; |Loch Modan|
-C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|N|Mo'grosh Ogres and Enforcers are found outside the cave.|Z1432; |Loch Modan|
-C Mercenaries|QID|255|M|76.75,14.38|QO|2|S|N|Mo'grosh Brutes are found inside the cave.|Z1432; |Loch Modan|
-K Chok'sul|ACTIVE|256|M|79.49,15.55|QO|1|N|Chok'sul is found all the way to the back of the cave. Kill and take his head as proof.|T|Chok'sul|Z1432; |Loch Modan|
-C Mercenaries|QID|255|M|76.75,14.38|QO|2|US|N|Mo'grosh Brutea are found inside the cave.|Z1432; |Loch Modan|
-C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|US|N|Mo'grosh Ogres and Enforcers are found outside the cave.|Z1432; |Loch Modan|
-R Stonewrought Dam|AVAILABLE|250|M|55.47,15.14|N|Run over to the ramp up on to the top of the dam.|Z1432; |Loch Modan|
-A A Dark Threat Looms|QID|250|M|46.04,13.61|N|From Chief Engineer Hinderweir VII.|Z1432; |Loch Modan|
-T A Dark Threat Looms|QID|250|M|56.07,13.24|N|To a Suspicious Barrel. Kill the Dark Iron mobs guarding it.\n[color=FF0000]NOTE: [/color]Make sure you back up when they set off an explosive just before they die... it hurts. Each one will do it.|Z1432; |Loch Modan|
-A A Dark Threat Looms|QID|199|M|56.07,13.24|N|From a Suspicious Barrel.|PRE|250|Z1432; |Loch Modan|
-T A Dark Threat Looms|QID|199|M|46.04,13.62|N|To Chief Engineer Hinderweir VII.|Z1432; |Loch Modan|
-A A Dark Threat Looms|QID|161|M|46.04,13.62|N|From Chief Engineer Hinderweir VII.\n[color=FF0000]NOTE: [/color]Accept this only if you are planning to go on to Wetlands.|PRE|199|O|Z1432; |Loch Modan|
+R Mo'grosh Stronghold|M|74,35|ACTIVE|255|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|Z|1432;Loch Modan|
+C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|N|Mo'grosh Ogres and Enforcers are found outside the cave.|Z|1432;Loch Modan|
+C Mercenaries|QID|255|M|76.75,14.38|QO|2|S|N|Mo'grosh Brutes are found inside the cave.|Z|1432;Loch Modan|
+K Chok'sul|ACTIVE|256|M|79.49,15.55|QO|1|N|Chok'sul is found all the way to the back of the cave. Kill and take his head as proof.|T|Chok'sul|Z|1432;Loch Modan|
+C Mercenaries|QID|255|M|76.75,14.38|QO|2|US|N|Mo'grosh Brutea are found inside the cave.|Z|1432;Loch Modan|
+C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|US|N|Mo'grosh Ogres and Enforcers are found outside the cave.|Z|1432;Loch Modan|
+R Stonewrought Dam|AVAILABLE|250|M|55.47,15.14|N|Run over to the ramp up on to the top of the dam.|Z|1432;Loch Modan|
+A A Dark Threat Looms|QID|250|M|46.04,13.61|N|From Chief Engineer Hinderweir VII.|Z|1432;Loch Modan|
+T A Dark Threat Looms|QID|250|M|56.07,13.24|N|To a Suspicious Barrel. Kill the Dark Iron mobs guarding it.\n[color=FF0000]NOTE: [/color]Make sure you back up when they set off an explosive just before they die... it hurts. Each one will do it.|Z|1432;Loch Modan|
+A A Dark Threat Looms|QID|199|M|56.07,13.24|N|From a Suspicious Barrel.|PRE|250|Z|1432;Loch Modan|
+T A Dark Threat Looms|QID|199|M|46.04,13.62|N|To Chief Engineer Hinderweir VII.|Z|1432;Loch Modan|
+A A Dark Threat Looms|QID|161|M|46.04,13.62|N|From Chief Engineer Hinderweir VII.\n[color=FF0000]NOTE: [/color]Accept this only if you are planning to go on to Wetlands.|PRE|199|O|Z|1432;Loch Modan|
 
-R Thelsamar|ACTIVE|298|M|33.82,48.41|N|Run back to Thelsamar.|Z1432; |Loch Modan|
-A Stonegear's Search|QID|467|M|33.82,48.41|N|From Mountaineer Kadrell.|LVL|20|Z1432; |Loch Modan|
-T Excavation Progress Report|QID|298|M|37.24,47.38|N|To Jern Hornhelm.|Z1432; |Loch Modan|
-A Report to Ironforge|QID|301|PRE|298|M|37.24,47.38|N|From Jern Hornhelm.|Z1432; |Loch Modan|
-T Mercenaries|QID|255|M|34.69,43.19|N|To Magistrate Bluntnose.|Z1432; |Loch Modan|
-T WANTED: Chok'sul|QID|256|M|34.69,43.18|N|To Magistrate Bluntnose.|Z1432; |Loch Modan|
+R Thelsamar|ACTIVE|298|M|33.82,48.41|N|Run back to Thelsamar.|Z|1432;Loch Modan|
+A Stonegear's Search|QID|467|M|33.82,48.41|N|From Mountaineer Kadrell.|LVL|20|Z|1432;Loch Modan|
+T Excavation Progress Report|QID|298|M|37.24,47.38|N|To Jern Hornhelm.|Z|1432;Loch Modan|
+A Report to Ironforge|QID|301|PRE|298|M|37.24,47.38|N|From Jern Hornhelm.|Z|1432;Loch Modan|
+T Mercenaries|QID|255|M|34.69,43.19|N|To Magistrate Bluntnose.|Z|1432;Loch Modan|
+T WANTED: Chok'sul|QID|256|M|34.69,43.18|N|To Magistrate Bluntnose.|Z|1432;Loch Modan|
 
-F Ironforge|ACTIVE|301|M|33.94,50.95|N|Fly to Ironforge at Thorgrum Borrelson.|Z1432; |Loch Modan|
+F Ironforge|ACTIVE|301|M|33.94,50.95|N|Fly to Ironforge at Thorgrum Borrelson.|Z|1432;Loch Modan|
 = Train|ACTIVE|301^302|N|Stop by the Trainer, AH, whatever other town stuff you need to do.|
 N Collection Items|AVAILABLE|103^117|ACTIVE|38|N|Make sure you grab the hops, flasks of oil and Westfall Stew items from your bank if you dropped them off.|
 T Report to Ironforge|QID|301|M|74.66,11.74|Z|1455; Ironforge|N|To Prospector Stormpike.|
@@ -353,27 +353,27 @@ A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.
 
 
 R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|
-T In Defense of the King's Lands|QID|263|M|23.47,74.49|N|To Mountaineer Wallbang.|Z1432; |Loch Modan|
-A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|PRE|263|Z1432; |Loch Modan|
-C In Defense of the King's Lands|QID|217|M|35,83;34,90|CS|N|Take the path to the right inside the cave, They are all located together in the middle room.|Z1432; |Loch Modan|
-T In Defense of the King's Lands|QID|217|M|23.24,73.67|N|To Captain Ruglefuss.|Z1432; |Loch Modan|
-T Powder to Ironband|QID|302|M|37.24,47.38|N|To Jern Hornhelm.|Z1432; |Loch Modan|
-A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.|Z1432; |Loch Modan|
-R Grizzlepaw Ridge|ACTIVE|271|M|41.31,65.82|Z1432; |Loch Modan|
-K Ol' Sooty|ACTIVE|271|M|40.21,66.95;36.81,61.23|CS|N|Go up this path to find Ol' Sooty in a cave and take his head.|T|Ol' Sooty|Z1432; |Loch Modan|
-C Resupplying the Excavation|QID|273|M|50.77,69.03|QO|1|N|Find Huldar, Miran, and Saean.|Z1432; |Loch Modan|
-T Resupplying the Excavation|QID|273|M|52.20,69.35|N|To Huldar.|Z1432; |Loch Modan|
-A After the Ambush|QID|454|M|52.20,69.35|N|From Huldar.|PRE|273|Z1432; |Loch Modan|
-T After the Ambush|QID|454|M|52.22,69.44|N|To Miran.|Z1432; |Loch Modan|
-A Protecting the Shipment|QID|309|M|52.22,69.44|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Miran.|PRE|454|Z1432; |Loch Modan|
-C Protecting the Shipment|QID|309|M|63.02,66.08;65.19,65.94|CC|N|Escort Miran to Ironband's Excavation Site. You will get ambushed by 2 Dark Iron mobs just before you get there. Dispatch them and continue to the camp.|Z1432; |Loch Modan|
-T Protecting the Shipment|QID|309|M|65.96,65.62|N|To Prospector Ironband.|Z1432; |Loch Modan|
-A Gathering Idols|QID|297|M|64.89,66.66|N|From Magmar Fellhew.|Z1432; |Loch Modan|
+T In Defense of the King's Lands|QID|263|M|23.47,74.49|N|To Mountaineer Wallbang.|Z|1432;Loch Modan|
+A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|PRE|263|Z|1432;Loch Modan|
+C In Defense of the King's Lands|QID|217|M|35,83;34,90|CS|N|Take the path to the right inside the cave, They are all located together in the middle room.|Z|1432;Loch Modan|
+T In Defense of the King's Lands|QID|217|M|23.24,73.67|N|To Captain Ruglefuss.|Z|1432;Loch Modan|
+T Powder to Ironband|QID|302|M|37.24,47.38|N|To Jern Hornhelm.|Z|1432;Loch Modan|
+A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.|Z|1432;Loch Modan|
+R Grizzlepaw Ridge|ACTIVE|271|M|41.31,65.82|Z|1432;Loch Modan|
+K Ol' Sooty|ACTIVE|271|M|40.21,66.95;36.81,61.23|CS|N|Go up this path to find Ol' Sooty in a cave and take his head.|T|Ol' Sooty|Z|1432;Loch Modan|
+C Resupplying the Excavation|QID|273|M|50.77,69.03|QO|1|N|Find Huldar, Miran, and Saean.|Z|1432;Loch Modan|
+T Resupplying the Excavation|QID|273|M|52.20,69.35|N|To Huldar.|Z|1432;Loch Modan|
+A After the Ambush|QID|454|M|52.20,69.35|N|From Huldar.|PRE|273|Z|1432;Loch Modan|
+T After the Ambush|QID|454|M|52.22,69.44|N|To Miran.|Z|1432;Loch Modan|
+A Protecting the Shipment|QID|309|M|52.22,69.44|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Miran.|PRE|454|Z|1432;Loch Modan|
+C Protecting the Shipment|QID|309|M|63.02,66.08;65.19,65.94|CC|N|Escort Miran to Ironband's Excavation Site. You will get ambushed by 2 Dark Iron mobs just before you get there. Dispatch them and continue to the camp.|Z|1432;Loch Modan|
+T Protecting the Shipment|QID|309|M|65.96,65.62|N|To Prospector Ironband.|Z|1432;Loch Modan|
+A Gathering Idols|QID|297|M|64.89,66.66|N|From Magmar Fellhew.|Z|1432;Loch Modan|
 C Gathering Idols|QID|297|L|2636 8|N|Kill and loot troggs to collect the idols.|
-T Gathering Idols|QID|297|M|64.90,66.66|N|To Magmar Fellhew.|Z1432; |Loch Modan|
-T Vyrin's Revenge|QID|271|M|83.51,65.44|N|To Daryl the Youngling.|Z1432; |Loch Modan|
-A Vyrin's Revenge|QID|531|PRE|271|M|83.51,65.44|N|From Daryl the Youngling.|Z1432; |Loch Modan|
-T Vyrin's Revenge|QID|531|M|81.72,64.14|N|To Vyrin Swiftwind.|Z1432; |Loch Modan|
+T Gathering Idols|QID|297|M|64.90,66.66|N|To Magmar Fellhew.|Z|1432;Loch Modan|
+T Vyrin's Revenge|QID|271|M|83.51,65.44|N|To Daryl the Youngling.|Z|1432;Loch Modan|
+A Vyrin's Revenge|QID|531|PRE|271|M|83.51,65.44|N|From Daryl the Youngling.|Z|1432;Loch Modan|
+T Vyrin's Revenge|QID|531|M|81.72,64.14|N|To Vyrin Swiftwind.|Z|1432;Loch Modan|
 
 ]]
 end)

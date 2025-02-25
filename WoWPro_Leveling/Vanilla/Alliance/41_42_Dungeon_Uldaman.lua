@@ -18,18 +18,18 @@ A The Lost Dwarves|QID|2398|M|74.6,11.76|Z|1455; Ironforge|N|From Prospoctor Sto
 ;Pre Group from Chapter 1 Guide
 A Ironband Wants You!|QID|707|M|74.6,11.76|Z|1455; Ironforge|N|From Prospoctor Stormpike.|
 F Thelsamar|QID|2278|M|55.50,47.80|Z|1455; Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar, Loch Modan.|
-A Badlands Reagent Run|QID|2500|M|37.07,49.38|Z1432; |Loch Modan|N|From Ghak Healtouch.|
-T Ironband Wants You!|QID|707|M|65.93,65.62|Z1432; |Loch Modan|N|To Prospecter Ironband.|
-A Find Agmond|QID|738|M|65.93,65.62|Z1432; |Loch Modan|N|To Prospecter Ironband.|PRE|707|
+A Badlands Reagent Run|QID|2500|M|37.07,49.38|Z|1432;Loch Modan|N|From Ghak Healtouch.|
+T Ironband Wants You!|QID|707|M|65.93,65.62|Z|1432;Loch Modan|N|To Prospecter Ironband.|
+A Find Agmond|QID|738|M|65.93,65.62|Z|1432;Loch Modan|N|To Prospecter Ironband.|PRE|707|
 C Badlands Reagent Run|QID|2500|M|53.42,43.39|Z|1418; Badlands|S|N|From now on, kill any Buzzard, Rock Elementals or Coyote you see.|
 T Find Agmond|QID|738|M|50.89,62.43|Z|1418; Badlands|N|To Battered Dwarven Skeleton.|
 A Murdaloc|QID|739|M|50.9,62.4|Z|1418; Badlands|N|From Battered Dwarven Skeleton.|PRE|738|
 C Murdaloc|QID|739|M|50.53,67.92|Z|1418; Badlands|N|Kill Stonevault Bonesnappers and Murdaloc.|
 C Badlands Reagent Run|QID|2500|M|53.42,43.39|Z|1418; Badlands|US|N|From now on, kill any Buzzard, Rock Elementals or Coyote you see.|
-T Badlands Reagent Run|QID|2500|M|37,49.2|Z1432; |Loch Modan|N|To Ghak Healtouch.|
-A Uldaman Reagent Run|QID|17|M|37.07,49.38|Z1432; |Loch Modan|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Ghak Healtouch.|PRE|2500|
-T Murdaloc|QID|739|M|65.9,65.6|Z1432; |Loch Modan|N|To Prospecter Ironband.|
-A Agmond's Fate|QID|704|M|65.9,65.6|Z1432; |Loch Modan|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Prospecter Ironband.|PRE|739|
+T Badlands Reagent Run|QID|2500|M|37,49.2|Z|1432;Loch Modan|N|To Ghak Healtouch.|
+A Uldaman Reagent Run|QID|17|M|37.07,49.38|Z|1432;Loch Modan|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Ghak Healtouch.|PRE|2500|
+T Murdaloc|QID|739|M|65.9,65.6|Z|1432;Loch Modan|N|To Prospecter Ironband.|
+A Agmond's Fate|QID|704|M|65.9,65.6|Z|1432;Loch Modan|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Prospecter Ironband.|PRE|739|
 
 ;Before Dungeon
 A Power Stones|QID|2418|M|42.39,52.92|Z|1418; Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Rigglefuzz.|
@@ -70,8 +70,8 @@ T Passing Word of a Threat|QID|726|M|77.53,11.81|Z|1455; Ironforge|N|To Historia
 A An Ambassador of Evil|QID|762|M|77.53,11.81|Z|1455; Ironforge|ELITE|N|[color=ff8000]Elite: [/color]From Historian Karnik.|PRE|726|
 T Reclaimed Treasures|QID|1360|M|74.19,9.38|Z|1455; Ironforge|N|To Krom Stoutarm.|
 F Thelsamar|QID|2278|M|55.50,47.80|Z|1455; Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar, Loch Modan if you're in Ironforge otherwise skip manually..|
-T Uldaman Reagent Run|QID|17|M|37.07,49.38|Z1432; |Loch Modan|N|To Ghak Healtouch.|
-T Agmond's Fate|QID|704|M|65.9,65.6|Z1432; |Loch Modan|N|From Prospecter Ironband.|
+T Uldaman Reagent Run|QID|17|M|37.07,49.38|Z|1432;Loch Modan|N|To Ghak Healtouch.|
+T Agmond's Fate|QID|704|M|65.9,65.6|Z|1432;Loch Modan|N|From Prospecter Ironband.|
 C Power Stones|QID|2418|M|PLAYER|Z|1418; Badlands|S!US|N|Collect the Power stones off dwarves in Angor Fortress and within Uldaman.|
 K Ambassador Infernus|QID|762|M|41.99,28.72|Z|1418; Badlands|ELITE|N|[color=ff8000]Elite: [/color]Bottom floor of Angor Fortress. Kill and loot his bracer.|L|4621|T|Ambassador Infernus|
 T An Ambassador of Evil|QID|762|M|77.34,9.68|Z|1455; Ironforge|N|To Advisor Belgrum.|
