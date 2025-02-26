@@ -1,4 +1,17 @@
-# Release 2025.01.31.A
+# Release 2025.02.26.A
+## Bug Fixes
+* Update Retail Interface to 110100
+* Update Cata Interface to 40402
+* Furydins: Problem with cooldown debug
+* Add support for WoWPro:ClassicSeasonID()
+* Spoony: Add disable-addons¦enable-addons commands
+* Furydins: Check for C_Season in ClassicSeasonID
+## Guide Updates
+* Vanilla Leveling: Zone Tag Updates for Everybody!
+* Retail Leveling Neutral: TWW Undermine
+
+
+# Release 2025.01.31.A/2025.02.04.A
 ## Bug Fixes
 * Furydin: Don't blow up during debug logging if there's no QID!
 * Spoony: Add /wp disable-addons and /wp enable-addons for taint debugging
