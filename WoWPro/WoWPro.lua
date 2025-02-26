@@ -573,7 +573,7 @@ function WoWPro:OnEnable()
         WoWPro:dbp("PlayerGetTimerunningSeasonID function is not available")
     end
 
-    if _G.C_Seasons.GetActiveSeason() then
+    if _G.C_Seasons and _G.C_Seasons.GetActiveSeason() then
         seasonID = _G.C_Seasons.GetActiveSeason("player")
     else
         WoWPro:dbp("ClassicSeasonID function is not available")
