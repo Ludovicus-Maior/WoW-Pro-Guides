@@ -1743,8 +1743,6 @@ function WoWPro.UpdateGuideReal(From)
     WoWPro.RowSet()
 end
 
-local menuFrame
-
 function WoWPro.ShowDropdownMenu(menuList)
     if not menuList or type(menuList) ~= "table" then
         WoWPro:Error("Invalid menuList passed to ShowDropdownMenu")
