@@ -1,4 +1,4 @@
--- luacheck: globals ipairs unpack
+-- luacheck: globals ipairs pairs unpack
 -- luacheck: globals ceil max floor
 
 ---------------------------------
