@@ -350,25 +350,27 @@ function WoWPro.C_Item_IsEquippedItem(itemID)
 end
 
 -- [[EasyMenu]]
-local function EasyMenu_Initialize( frame, level, menuList )
-	for index = 1, #menuList do
-		local value = menuList[index]
-		if (value.text) then
-			value.index = index;
-			_G.UIDropDownMenu_AddButton( value, level );
-		end
-	end
+local function EasyMenu_Initialize(frame, level, menuList)
+    for index = 1, #menuList do
+        local value = menuList[index]
+        if value.text then
+            value.index = index
+            _G.UIDropDownMenu_AddButton(value, level)
+        end
+    end
 end
 
-function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+function WoWPro.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay)
     if not _G.EasyMenu then
-        if ( displayMode == "MENU" ) then
-            menuFrame.displayMode = displayMode;
+        if displayMode == "MENU" then
+            menuFrame.displayMode = displayMode
         end
-        _G.UIDropDownMenu_Initialize(menuFrame, EasyMenu_Initialize, displayMode, nil, menuList);
-        _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay);
+        _G.UIDropDownMenu_Initialize(menuFrame, function(self, level)
+            EasyMenu_Initialize(self, level, menuList)
+        end, displayMode)
+        _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y, menuList, nil, autoHideDelay)
     else
-        _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay )
+        _G.EasyMenu(menuList, menuFrame, anchor, x, y, displayMode, autoHideDelay)
     end
 end
 
