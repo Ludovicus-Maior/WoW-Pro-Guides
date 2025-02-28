@@ -33,6 +33,7 @@ function WoWPro:MinimapSet()
         icon:Hide("WoWProIcon")
     end
 end
+
 function WoWPro:ResizeSet()
     -- Resize Customization --
     if WoWProDB.profile.resize then WoWPro.resizebutton:Show() else WoWPro.resizebutton:Hide() end
@@ -46,6 +47,7 @@ function WoWPro:ResizeSet()
         WoWPro.MainFrame:SetHeight(WoWProDB.profile.vminresize)
     end
 end
+
 function WoWPro:DragSet()
     -- Drag Customization --
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
@@ -55,7 +57,7 @@ function WoWPro:DragSet()
                 WoWPro.InhibitAnchorRestore = true
                 WoWPro.MainFrame:StartMoving()
             elseif button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+                WoWPro.ShowDropdownMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
@@ -69,13 +71,27 @@ function WoWPro:DragSet()
     else
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "RightButton" then
-                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
+                WoWPro.ShowDropdownMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
         end)
     end
 end
+
+function WoWPro.ShowDropdownMenu(menuList, menuFrame, anchor, x, y, displayMode)
+    _G.UIDropDownMenu_Initialize(menuFrame, function(self, level)
+        for _, item in ipairs(menuList) do
+            local info = _G.UIDropDownMenu_CreateInfo()
+            for key, value in pairs(item) do
+                info[key] = value
+            end
+            _G.UIDropDownMenu_AddButton(info, level)
+        end
+    end, displayMode)
+    _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y)
+end
+
 function WoWPro:PaddingSet()
     local pad = WoWProDB.profile.pad
     -- Padding Customization --
@@ -188,6 +204,7 @@ function WoWPro:RowColorSet()
 		end
     end
 end
+
 function WoWPro.RowFontSet()
     for i,row in ipairs(WoWPro.rows) do
         -- Fonts --
@@ -457,7 +474,7 @@ function WoWPro:CreateMainFrame()
             WoWPro.InhibitAnchorRestore = true
             this:StartMoving()
         elseif button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+            WoWPro.ShowDropdownMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
         end
     end)
     WoWPro.MainFrame:SetScript("OnMouseUp", function(this, button)
@@ -492,12 +509,25 @@ function WoWPro:CreateMainFrame()
             WoWPro:dbp("Clicking FauxJumpButton")
         end
     end)
-	WoWPro.FauxEAButton = _G.CreateFrame("Frame", "WoWPro_FauxEAButton", _G.UIParent)
+    WoWPro.FauxEAButton = _G.CreateFrame("Frame", "WoWPro_FauxEAButton", _G.UIParent)
     WoWPro.FauxEAButton:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" then
             WoWPro:dbp("Clicking FauxEAButton")
         end
     end)
+end
+
+function WoWPro.ShowDropdownMenu(menuList, menuFrame, anchor, x, y, displayMode)
+    _G.UIDropDownMenu_Initialize(menuFrame, function(self, level)
+        for _, item in ipairs(menuList) do
+            local info = _G.UIDropDownMenu_CreateInfo()
+            for key, value in pairs(item) do
+                info[key] = value
+            end
+            _G.UIDropDownMenu_AddButton(info, level)
+        end
+    end, displayMode)
+    _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y)
 end
 
 -- Resize Button --
@@ -548,15 +578,15 @@ function WoWPro:CreateTitleBar()
     titleicon:SetPoint("RIGHT", WoWPro.Titlebar, "RIGHT", -3, 0)
     titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
 
--- Tooltip --
-titleicon:HookScript("OnEnter", function(tool)
-    _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
-    _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
-    _G.GameTooltip:Show()
-end)
-titleicon:HookScript("OnLeave", function(tool)
-    _G.GameTooltip:Hide()
-end)
+    -- Tooltip --
+    titleicon:HookScript("OnEnter", function(tool)
+        _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
+        _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+        _G.GameTooltip:Show()
+    end)
+    titleicon:HookScript("OnLeave", function(tool)
+        _G.GameTooltip:Hide()
+    end)
 
     -- Text --
     local titletext = WoWPro.Titlebar:CreateFontString()
@@ -571,7 +601,7 @@ end)
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
     titleicon:SetScript("OnMouseDown", function(this, button)
         if button == "RightButton" then
-            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+            WoWPro.ShowDropdownMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
         end
     end)
     WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
@@ -604,6 +634,20 @@ end)
         end
     end)
 end
+
+function WoWPro.ShowDropdownMenu(menuList, menuFrame, anchor, x, y, displayMode)
+    _G.UIDropDownMenu_Initialize(menuFrame, function(self, level)
+        for _, item in ipairs(menuList) do
+            local info = _G.UIDropDownMenu_CreateInfo()
+            for key, value in pairs(item) do
+                info[key] = value
+            end
+            _G.UIDropDownMenu_AddButton(info, level)
+        end
+    end, displayMode)
+    _G.ToggleDropDownMenu(1, nil, menuFrame, anchor, x, y)
+end
+
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
     local sticky = _G.CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
