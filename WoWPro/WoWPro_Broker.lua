@@ -1620,7 +1620,7 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:dbp("UpdateGuideReal(): Hey! No guide, no update.")
         return
     end
-    WoWPro:print("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version);
+    WoWPro:print("Running: UpdateGuideReal(), WoWPro Version %s.", WoWPro.Version)
     local GID = WoWProDB.char.currentguide
     local offset = WoWPro.GuideOffset
     WoWPro.GuideOffset = nil
@@ -1635,12 +1635,12 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro:SendMessage("WoWPro_UpdateGuide","InCombat")
         return
     end
-    if  not GID or not WoWPro.Guides[GID] then
-        WoWPro:print("Suppresssed guide update. Guide %s is invalid.",tostring(GID))
+    if not GID or not WoWPro.Guides[GID] then
+        WoWPro:print("Suppresssed guide update. Guide %s is invalid.", tostring(GID))
         return
     end
-    if  not WoWPro.GuideLoaded then
-        WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!",tostring(GID))
+    if not WoWPro.GuideLoaded then
+        WoWPro:print("Suppresssed guide update. Guide %s is not loaded yet!", tostring(GID))
         return
     end
 
@@ -1676,10 +1676,10 @@ function WoWPro.UpdateGuideReal(From)
                     elseif button == "RightButton" then
                         WoWPro.rows[i]:SetChecked(nil)
                         if WoWPro.Recorder then
-                            WoWPro:RowLeftClick(i)
-                            WoWPro.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            WoWPro.Recorder:RowLeftClick(i)
+                            WoWPro.ShowDropdownMenu(WoWPro.Recorder.RowDropdownMenu[i])
                         else
-                            WoWPro.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+                            WoWPro.ShowDropdownMenu(WoWPro.RowDropdownMenu[i])
                         end
                     end
                 end)
@@ -1704,8 +1704,8 @@ function WoWPro.UpdateGuideReal(From)
 
     -- Updating the progress count --
     local p = 0
-    for j = 1,WoWPro.stepcount do
-        if ( WoWProCharDB.Guide[GID].completion[j] or WoWProCharDB.Guide[GID].skipped[j] )
+    for j = 1, WoWPro.stepcount do
+        if (WoWProCharDB.Guide[GID].completion[j] or WoWProCharDB.Guide[GID].skipped[j])
         and not WoWPro.sticky[j]
         and not WoWPro.optional[j] then
             p = p + 1
@@ -1715,17 +1715,17 @@ function WoWPro.UpdateGuideReal(From)
     WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 
     -- TODO: make next lines module specific
-	if WoWPro.Recorder then
-		WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
-	else
-		WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
-	end
+    if WoWPro.Recorder then
+        WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. WoWProCharDB.Guide[GID].progress .. "/" .. WoWProCharDB.Guide[GID].total .. ")")
+    else
+        WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. WoWProCharDB.Guide[GID].progress .. "/" .. WoWProCharDB.Guide[GID].total .. ")")
+    end
 
     -- If the guide is complete, loading the next guide --
     if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
         if WoWProDB.profile.autoload then
             WoWProDB.char.currentguide = WoWPro:NextGuide(GID)
-            WoWPro:Print("Switching to next guide: %s",tostring(WoWProDB.char.currentguide))
+            WoWPro:Print("Switching to next guide: %s", tostring(WoWProDB.char.currentguide))
             WoWPro:LoadGuide()
             return
         else
@@ -1741,6 +1741,30 @@ function WoWPro.UpdateGuideReal(From)
     -- Update content and formatting --
     WoWPro.PaddingSet()
     WoWPro.RowSet()
+end
+
+local menuFrame
+
+function WoWPro.ShowDropdownMenu(menuList)
+    if not menuList or type(menuList) ~= "table" then
+        WoWPro:Error("Invalid menuList passed to ShowDropdownMenu")
+        return
+    end
+
+    if not menuFrame then
+        menuFrame = _G.CreateFrame("Frame", "WoWPro_DropdownMenu", _G.UIParent, "UIDropDownMenuTemplate")
+    end
+
+    _G.UIDropDownMenu_Initialize(menuFrame, function(self, level)
+        for _, item in ipairs(menuList) do
+            local info = _G.UIDropDownMenu_CreateInfo()
+            for key, value in pairs(item) do
+                info[key] = value
+            end
+            _G.UIDropDownMenu_AddButton(info, level)
+        end
+    end, "MENU")
+    _G.ToggleDropDownMenu(1, nil, menuFrame, "cursor", 0, 0)
 end
 
 local Rep2IdAndClass
