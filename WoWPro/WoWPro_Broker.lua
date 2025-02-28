@@ -1243,6 +1243,7 @@ if step then
 
         -- Retrieve additional player information
         local _, class = _G.UnitClass("player")
+        local _, race = _G.UnitRace("player")
         class = strupper(strsub(class, 1, 1)) .. strlower(strsub(class, 2))
         local level = _G.UnitLevel("player")
         local version = _G.C_AddOns.GetAddOnMetadata("WoWPro", "Version")
@@ -1258,6 +1259,7 @@ if step then
         text = text .. "\n|cffffff00Player Info:|r\n"
         text = text .. "Character Name: " .. playerName .. "\n"
         text = text .. "Class: " .. class .. "\n"
+        text = text .. "Race: " .. race .. "\n"
         text = text .. "Level: " .. level .. "\n"
         text = text .. "Realm: " .. realmName .. "\n"  -- Add the player's realm name
         text = text .. "Addon Version: " .. version .. "\n"
@@ -1354,7 +1356,7 @@ if step then
 				local itemtexture = WoWPro.C_Item_GetItemIconByID(_use)
 				local start, duration, enabled = _G.WoWPro.GetItemCooldown(_use)
 				if not start then
-					WoWPro:Warning("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
+					WoWPro:dbp("RowUpdate(): U¦%s/%s¦ has bad GetItemCooldown()", use, _use)
 				end
 				if _G.WoWPro.C_Item_GetItemCount(_use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true

@@ -226,8 +226,8 @@ T Behind You!|QID|28136|M|30.47,49.27|Z|1441; Thousand Needles|N|To Lakota Winds
 A The Elder Crone|QID|28140|PRE|28136&28139|M|30.47,49.27|Z|1441; Thousand Needles|N|From Lakota Windsong.|
 U Bulwark Disguise|ACTIVE|28140|QO|1|M|PLAYER|CC|N|Use the Bulwark Disguise so everyone becomes friendly towards you.|U|63071|BUFF|88796|
 C The Elder Crone|QID|28140|M|35.88,60.64|Z|1441; Thousand Needles|N|Click on Magatha's Bonds Contoller to disable it.|U|63071|NC|
-R Exit Twilight Bulwark|ACTIVE|28140|M|40.33,61.11|CC|Z|1441; Thousand Needles|N|Seeing as you're about to lose your disguise, you might as well use it to get of there with no effort.|U|63071|FLY|OLD|
-T The Elder Crone|QID|28140|M|PLAYER|CC|N|(UI ALert)\n[color=FF0000]NOTE: [/color]You'll lose your disguise upon turning this quest in.|
+R Exit Twilight Bulwark|ACTIVE|28140|M|40.33,61.11|CC|Z|1441; Thousand Needles|N|Seeing as you're about to lose your disguise, you might as well use it to get out of there with no effort.|U|63071|FLY|OLD|
+T The Elder Crone|QID|28140|M|PLAYER|CC|N|(UI ALert)\n[color=FF0000]NOTE: [/color]You'll lose your disguise when you turn this quest in.|NA|
 A To the Withering|QID|28142|PRE|28140|M|PLAYER|CC|N|(UI Alert)|
 T To the Withering|QID|28142|M|50.16,62.58|Z|1441; Thousand Needles|N|To Magatha Grimtotem.|
 A Four Twilight Elements|QID|28157|PRE|28142|M|50.16,62.58|Z|1441; Thousand Needles|N|From Magatha Grimtotem.|

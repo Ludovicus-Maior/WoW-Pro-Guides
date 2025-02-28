@@ -320,7 +320,7 @@ A Body and Heart|QID|6001|PRE|5931|M|35.36,08.39|Z|1457;Darnassus|N|From Mathren
 
 U Tame a Deer|ACTIVE|6103|N|Use the Deer Musk.\n[color=FF0000]NOTE: [/color]The buff lasts 10 minutes.|U|208607|BUFF|421311|C|Hunter|O|
 C Tame a Deer|ACTIVE|6103|N|Target a deer (critter) and use your Tame Beast ability on it.\n[color=FF0000]NOTE: [/color]If you have a pet already, you'll have to dismiss it first.|T|Deer|C|Hunter|BUFF|-421311|NC|
-N Rune of Carve|ACTIVE|6103|M|39.05,8.86|Z|1457;Darnassus|L|206032|N|While you have your new Deer companion (10 minute timer), speak with Relaeron and he'll reward you with the Rune when you offer him your Deer.\n[color=FF0000]NOTE: [/color]Make sure you have an empty bag slot or you won't get the Rune and have to tame another deer.| ; Need to add BUFF for having deer tamed
+N Rune of Carve|ACTIVE|6103|M|39.05,8.86|Z|1457;Darnassus|L|206032|N|While you have your new Deer companion (10 minute timer), speak with Relaeron and he'll reward you with the Rune when you offer him your Deer.\n[color=FF0000]NOTE: [/color]Make sure you have an empty bag slot or you won't get the Rune and have to tame another deer.|RUNE| ; Need to add BUFF for having deer tamed
 = Engrave Gloves - Carve|M|PLAYER|CC|N|Use the [color=33fff9]Rune of Carve[/color] to learn the spell.|U|206032|SPELL|Engrave Pants - Carve;425758|C|Hunter|RUNE|O|
 
 T Training the Beast|QID|6103|M|40.36,08.59|Z|1457;Darnassus|N|To Jocaste.|C|Hunter|

@@ -15,64 +15,64 @@ A Call of Water|QID|1528|C|Shaman|M|38.06,37.38|Z|Orgrimmar|N|From Searn Firewar
 
 F Ratchet|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|N|Fly to Ratchet.|TAXI|Ratchet|
 F Crossroads|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|TAXI|Crossroads|TZ|The Crossroads|
-R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-Crossroads|
-R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|TAXI|-Crossroads|
-f Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
+R The Barrens|QID|1483|M|34.20,42.20|Z|1413; The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-Crossroads|
+R The Crossroads|QID|1483|M|52.00,30.60|Z|1413; The Barrens|TAXI|-Crossroads|
+f Crossroads|QID|1483|M|51.50,30.30|Z|1413; The Barrens|
 
-R Ratchet|QID|1483|M|62.00,37.00|Z|The Barrens|TAXI|-Ratchet|
-f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|
-A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|The Barrens|N|From Sputtervalve|
+R Ratchet|QID|1483|M|62.00,37.00|Z|1413; The Barrens|TAXI|-Ratchet|
+f Ratchet|QID|1483|M|63.10,37.20|Z|1413; The Barrens|
+A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|1413; The Barrens|N|From Sputtervalve|
 
 ; ----Shaman Class Quest-------------------------------------------------------------------------
-T Call of Water|QID|1528|C|Shaman|M|65.87,43.75|Z|The Barrens|N|To Islen Waterseer.|
-A Call of Water|QID|1530|PRE|1528|C|Shaman|M|65.87,43.75|Z|The Barrens|N|From Islen Waterseer.|
-f Camp Taurajo|QID|1530|C|Shaman|M|44.46,59.10|Z|The Barrens|
+T Call of Water|QID|1528|C|Shaman|M|65.87,43.75|Z|1413; The Barrens|N|To Islen Waterseer.|
+A Call of Water|QID|1530|PRE|1528|C|Shaman|M|65.87,43.75|Z|1413; The Barrens|N|From Islen Waterseer.|
+f Camp Taurajo|QID|1530|C|Shaman|M|44.46,59.10|Z|1413; The Barrens|
 
-T Call of Water|QID|1530|C|Shaman|M|43.46,77.41|Z|The Barrens|N|To Brine.|
-A Call of Water|QID|1535|PRE|1530|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-C Call of Water|QID|1535|C|Shaman|QO|1|M|44.08,76.69|Z|The Barrens|N|Filled Brown Waterskin|
-T Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-A Call of Water|QID|1536|PRE|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-F Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
+T Call of Water|QID|1530|C|Shaman|M|43.46,77.41|Z|1413; The Barrens|N|To Brine.|
+A Call of Water|QID|1535|PRE|1530|C|Shaman|M|43.46,77.41|Z|1413; The Barrens|N|From Brine.|
+C Call of Water|QID|1535|C|Shaman|QO|1|M|44.08,76.69|Z|1413; The Barrens|N|Filled Brown Waterskin|
+T Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|1413; The Barrens|N|From Brine.|
+A Call of Water|QID|1536|PRE|1535|C|Shaman|M|43.46,77.41|Z|1413; The Barrens|N|From Brine.|
+F Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|1413; The Barrens|
 ; -----------------------------------------------------------------------------
 
-F Crossroads|AVAILABLE|1062|M|51.50,30.30|Z|The Barrens|
-A Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|N|From Seereth Stonebreak, West of the Crossroads.|
+F Crossroads|AVAILABLE|1062|M|51.50,30.30|Z|1413; The Barrens|
+A Goblin Invaders|QID|1062|M|35.20,27.80|Z|1413; The Barrens|N|From Seereth Stonebreak, West of the Crossroads.|
 
-R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|The Barrens|N|If you have the flight point to Sun Rock Retreat, fly there instead and skip this step.|
-A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an level 21 elite, if you cannot do it, skip it.|ELITE|
-C Arachnophobia|QID|6284|M|52.45,74.30;53.65,72.22|Z|Stonetalon Mountains|CN|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|T|Besseleth|
-T Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
-f Sun Rock Retreat|QID|1483|M|45.13,59.84|Z|Stonetalon Mountains|
-A Boulderslide Ravine|QID|6421|M|44.85,61.15;44.81,63.21;47.23,64.05|Z|Stonetalon Mountains|CS|N|From Mor'rogal, up the back exit.|
+R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|1413; The Barrens|N|If you have the flight point to Sun Rock Retreat, fly there instead and skip this step.|
+A Arachnophobia|QID|6284|M|59.10,75.80|Z|1442; Stonetalon Mountains|N|from the Wanted Poster. This is an level 21 elite, if you cannot do it, skip it.|ELITE|
+C Arachnophobia|QID|6284|M|52.45,74.30;53.65,72.22|Z|1442; Stonetalon Mountains|CN|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|T|Besseleth|
+T Arachnophobia|QID|6284|M|47.20,61.16|Z|1442; Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
+f Sun Rock Retreat|QID|1483|M|45.13,59.84|Z|1442; Stonetalon Mountains|
+A Boulderslide Ravine|QID|6421|M|44.85,61.15;44.81,63.21;47.23,64.05|Z|1442; Stonetalon Mountains|CS|N|From Mor'rogal, up the back exit.|
 
-T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|Stonetalon Mountains|N|At the little goblin house.|
-A Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
-C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|S|
-C Super Reaper 6000|QID|1093|M|73.24,56.61;69.98,55.94;62.60,53.80|CN|Z|Stonetalon Mountains|N|Kill Venture Co. Operators for the Blueprints, they are mostly found at buildings and machinery.|
-C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|US|N|Kill the remaining Venture Co. Loggers.|
+T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|1442; Stonetalon Mountains|N|At the little goblin house.|
+A Super Reaper 6000|QID|1093|M|59.00,62.60|Z|1442; Stonetalon Mountains|N|From Ziz Fizziks|
+C Goblin Invaders|QID|1062|M|65.00,50.00|Z|1442; Stonetalon Mountains|S|
+C Super Reaper 6000|QID|1093|M|73.24,56.61;69.98,55.94;62.60,53.80|CN|Z|1442; Stonetalon Mountains|N|Kill Venture Co. Operators for the Blueprints, they are mostly found at buildings and machinery.|
+C Goblin Invaders|QID|1062|M|65.00,50.00|Z|1442; Stonetalon Mountains|US|N|Kill the remaining Venture Co. Loggers.|
 
-T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|
-A Further Instructions |QID|1094|PRE|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
+T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|1442; Stonetalon Mountains|
+A Further Instructions |QID|1094|PRE|1093|M|59.00,62.60|Z|1442; Stonetalon Mountains|N|From Ziz Fizziks|
 
 R Boulderslide Cavern|QID|6421|M|66.85,88.96;61.50,93.20|CS|N|
-C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
+C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|1442; Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
 
-R The Barrens|QID|1094|M|78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
-T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
+R The Barrens|QID|1094|M|78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|1442; Stonetalon Mountains|
+T Goblin Invaders|QID|1062|M|35.20,27.80|Z|1413; The Barrens|
 
-R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
+R The Crossroads|QID|1094|M|52.00,30.60|Z|1413; The Barrens|
 
-F Ratchet|QID|1094|M|51.50,30.30|Z|The Barrens|
-T Further Instructions |QID|1094|M|63.00,37.20|Z|The Barrens|
+F Ratchet|QID|1094|M|51.50,30.30|Z|1413; The Barrens|
+T Further Instructions |QID|1094|M|63.00,37.20|Z|1413; The Barrens|
 
-F Sun Rock Retreat|QID|6421|M|63.10,37.20|Z|The Barrens|
-T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|Stonetalon Mountains|CS|
+F Sun Rock Retreat|QID|6421|M|63.10,37.20|Z|1413; The Barrens|
+T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|1442; Stonetalon Mountains|CS|
 
 
-F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Fly to Splintertree Post.|TAXI|Splintertree Post|
-F Crossroads|QID|6383|M|45.20,59.80|Z|The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
-R Ashenvale|QID|6383|M|48.17,4.0|Z|The Barrens|N|Follow the path north until you reach Ashenvale Forest.|TAXI|-Splintertree Post|
+F Splintertree Post|QID|6383|M|45.20,59.80|Z|1413; The Barrens|N|Fly to Splintertree Post.|TAXI|Splintertree Post|
+F Crossroads|QID|6383|M|45.20,59.80|Z|1413; The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
+R Ashenvale|QID|6383|M|48.17,4.0|Z|1413; The Barrens|N|Follow the path north until you reach Ashenvale Forest.|TAXI|-Splintertree Post|
 R Splintertree Post|QID|6383|M|67.26,71.39;73.20,61.60|Z|Ashenvale|CS|N|Continue further north until the path forks, there go east until you reach Splintertree Post.|TAXI|-Splintertree Post|
 
 f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
@@ -114,70 +114,70 @@ C Trial of the Sea Lion|QID|30|C|Druid|U|15882|M|30.00,29.10|Z|Silverpine Forest
 C Beren's Peril|QID|516|M|52.84,45.20;51.91,50.33;60.76,65.13;60.47,75.40;59.70,71.80|CS|Z|Silverpine Forest|N|Kill any Dalaran in your way. You'll quickly find a narrow path towards the mountain, go this way and you'll find the entrance to a cave as well as Ravenclaw.|
 
 R Hillsbrad Foothills|QID|494|M|67.00,80.40|Z|Silverpine Forest|
-A Time To Strike|QID|494|M|20.80,47.40|Z|Hillsbrad Foothills|N|From Deathstalker Lesh.|
+A Time To Strike|QID|494|M|20.80,47.40|Z|1424; Hillsbrad Foothills|N|From Deathstalker Lesh.|
 
-R Tarren Mill|QID|493|M|31.69,50.42;56.25,36.89;60.20,18.70|CS|Z|Hillsbrad Foothills|
-f Tarren Mill|QID|493|M|60.20,18.70|Z|Hillsbrad Foothills|
-T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.05|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-T Time To Strike|QID|494|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+R Tarren Mill|QID|493|M|31.69,50.42;56.25,36.89;60.20,18.70|CS|Z|1424; Hillsbrad Foothills|
+f Tarren Mill|QID|493|M|60.20,18.70|Z|1424; Hillsbrad Foothills|
+T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|To Apothecary Lydon.|
+T Time To Strike|QID|494|M|62.40,20.30|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
 
-A Battle of Hillsbrad |QID|527|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
-A WANTED: Syndicate Personnel|QID|549|M|62.58,20.71|Z|Hillsbrad Foothills|N|Wanted Poster Near High Executor Darthalia.|
-A The Rescue|QID|498|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk.|
-A Dangerous!|QID|567|M|62.53,19.75|Z|Hillsbrad Foothills|N|Wanted Poster on the inn's wall.|
-A Elixir of Suffering |QID|496|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 1.|
-A Elixir of Pain |QID|501|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Battle of Hillsbrad |QID|527|M|62.2,20.2|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia.|
+A WANTED: Syndicate Personnel|QID|549|M|62.58,20.71|Z|1424; Hillsbrad Foothills|N|Wanted Poster Near High Executor Darthalia.|
+A The Rescue|QID|498|M|63.2,20.6|Z|1424; Hillsbrad Foothills|N|From Krusk.|
+A Dangerous!|QID|567|M|62.53,19.75|Z|1424; Hillsbrad Foothills|N|Wanted Poster on the inn's wall.|
+A Elixir of Suffering |QID|496|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon, Part 1.|
+A Elixir of Pain |QID|501|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
 
 ; --Shaman Class Quest---------------------------------------------------------------------------
-C Call of Water |QID|1536|C|Shaman|U|7768|M|62.20,20.80|Z|Hillsbrad Foothills|N|Use the Empty Red Waterskin at the well.|
+C Call of Water |QID|1536|C|Shaman|U|7768|M|62.20,20.80|Z|1424; Hillsbrad Foothills|N|Use the Empty Red Waterskin at the well.|
 ; -----------------------------------------------------------------------------
 
-R Durnholde Keep|QID|498|M|57.37,36.39;74.90,48.28;77.90,45.50|CS|Z|Hillsbrad Foothills|
-K Jailor Marlgen for Burnished Gold Key|QID|498|L|3499|M|78.00,40.00|Z|Hillsbrad Foothills|T|Jailor Marlgen|N|Kill everything in the area until you find Jailor Marlgen.  Kill him and loot the key.|
-C Free Thog'thar|QID|498|QO|2|NC|M|79.70,39.70|Z|Hillsbrad Foothills|
-K Jailor Eston|QID|498|L|3467|M|75.30,42.00|Z|Hillsbrad Foothills|N|Find Jailor Eston in the area (he does wander) to get the Dull Iron Key for the other prisoner, Drull, but if Jailor Eston isn't there he is probably in one of the houses on the lower level of the fortress.  Start clearing the way to the wooden houses, watch out, mobs run away here.|
-C Free Drull|QID|498|QO|1|NC|M|75.40,41.60|Z|Hillsbrad Foothills|
-C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|Hillsbrad Foothills|N|Make your way out of Durnholde while finishing this quest.|
+R Durnholde Keep|QID|498|M|57.37,36.39;74.90,48.28;77.90,45.50|CS|Z|1424; Hillsbrad Foothills|
+K Jailor Marlgen for Burnished Gold Key|QID|498|L|3499|M|78.00,40.00|Z|1424; Hillsbrad Foothills|T|Jailor Marlgen|N|Kill everything in the area until you find Jailor Marlgen.  Kill him and loot the key.|
+C Free Thog'thar|QID|498|QO|2|NC|M|79.70,39.70|Z|1424; Hillsbrad Foothills|
+K Jailor Eston|QID|498|L|3467|M|75.30,42.00|Z|1424; Hillsbrad Foothills|N|Find Jailor Eston in the area (he does wander) to get the Dull Iron Key for the other prisoner, Drull, but if Jailor Eston isn't there he is probably in one of the houses on the lower level of the fortress.  Start clearing the way to the wooden houses, watch out, mobs run away here.|
+C Free Drull|QID|498|QO|1|NC|M|75.40,41.60|Z|1424; Hillsbrad Foothills|
+C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|1424; Hillsbrad Foothills|N|Make your way out of Durnholde while finishing this quest.|
 
-C Gray Bear |QID|496|QO|1|M|34.00,32.40;35.80,49.00;54.40,45.20;71.40,56.60;23.95,39.80;63.38,26.63;16.88,45.48;21.90,55.12;67.68,29.32;66.81,37.59;63.51,12.04;57.18,24.38;18.97,50.72;55.49,11.98;26.71,43.84;58.99,35.65;61.18,40.17;60.55,22.20;59.23,28.46;54.48,29.71;69.12,9.15;30.28,47.10;65.37,16.35;64.09,32.01;56.80,17.77;64.72,6.19;66.85,23.98;28.80,36.84;67.10,45.95;21.84,45.64|Z|Hillsbrad Foothills|CN|N|33% Drop rate.|
-C Forest Moss Creeper|QID|496|QO|2|M|32.80,41.60;66.40,43.40;67.20,16.60;74.50,33.40;63.70,17.00;26.15,37.28;62.61,26.55;71.27,34.06;65.74,4.74;63.45,9.12;22.95,54.23;72.59,41.43;29.05,49.23;56.55,17.04;28.10,45.49;60.11,28.44;60.07,38.17;65.29,21.45;71.46,37.37;19.49,48.01;76.88,50.64;24.94,45.86;53.58,14.14;67.94,12.97;27.00,40.21;70.39,9.17;23.42,41.94;58.50,34.11;67.04,8.36;63.44,30.67;60.22,17.50;55.67,10.31;58.07,21.00;62.85,13.43;20.13,43.57;71.53,45.04;58.04,24.91;68.43,40.49;20.34,51.81;63.37,34.91;58.28,13.63;66.51,27.17;61.99,40.52;56.82,29.40|Z|Hillsbrad Foothills|CN|N|9% Drop rate.|
+C Gray Bear |QID|496|QO|1|M|34.00,32.40;35.80,49.00;54.40,45.20;71.40,56.60;23.95,39.80;63.38,26.63;16.88,45.48;21.90,55.12;67.68,29.32;66.81,37.59;63.51,12.04;57.18,24.38;18.97,50.72;55.49,11.98;26.71,43.84;58.99,35.65;61.18,40.17;60.55,22.20;59.23,28.46;54.48,29.71;69.12,9.15;30.28,47.10;65.37,16.35;64.09,32.01;56.80,17.77;64.72,6.19;66.85,23.98;28.80,36.84;67.10,45.95;21.84,45.64|Z|1424; Hillsbrad Foothills|CN|N|33% Drop rate.|
+C Forest Moss Creeper|QID|496|QO|2|M|32.80,41.60;66.40,43.40;67.20,16.60;74.50,33.40;63.70,17.00;26.15,37.28;62.61,26.55;71.27,34.06;65.74,4.74;63.45,9.12;22.95,54.23;72.59,41.43;29.05,49.23;56.55,17.04;28.10,45.49;60.11,28.44;60.07,38.17;65.29,21.45;71.46,37.37;19.49,48.01;76.88,50.64;24.94,45.86;53.58,14.14;67.94,12.97;27.00,40.21;70.39,9.17;23.42,41.94;58.50,34.11;67.04,8.36;63.44,30.67;60.22,17.50;55.67,10.31;58.07,21.00;62.85,13.43;20.13,43.57;71.53,45.04;58.04,24.91;68.43,40.49;20.34,51.81;63.37,34.91;58.28,13.63;66.51,27.17;61.99,40.52;56.82,29.40|Z|1424; Hillsbrad Foothills|CN|N|9% Drop rate.|
 
-T The Rescue|QID|498|M|63.18,20.66|Z|Hillsbrad Foothills|N|At Krusk.|
-T WANTED: Syndicate Personnel|QID|549|M|62.1,20.34|Z|Hillsbrad Foothills|N|At High Executor Darthalia.|
-T Elixir of Suffering |QID|496|M|61.44,19.05|Z|Hillsbrad Foothills|N|At Apothecary Lydon.|
-A Elixir of Suffering |QID|499|PRE|496|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 2.|
-T Elixir of Suffering |QID|499|M|61.44,19.05|Z|Hillsbrad Foothills|N|At Umpi.|
+T The Rescue|QID|498|M|63.18,20.66|Z|1424; Hillsbrad Foothills|N|At Krusk.|
+T WANTED: Syndicate Personnel|QID|549|M|62.1,20.34|Z|1424; Hillsbrad Foothills|N|At High Executor Darthalia.|
+T Elixir of Suffering |QID|496|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|At Apothecary Lydon.|
+A Elixir of Suffering |QID|499|PRE|496|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon, Part 2.|
+T Elixir of Suffering |QID|499|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|At Umpi.|
 
-C Elixir of Pain|QID|501|M|44.75,48.45;48.50,35.00;58.85,39.82;47.22,27.04;55.12,28.55;55.50,25.27;55.65,51.12;44.94,36.22;43.15,39.67;51.90,47.74;56.39,41.59;49.36,30.62;54.21,31.92;40.29,42.19;51.95,35.34;49.13,46.23;45.75,44.08;56.70,35.30;54.13,38.25;38.45,45.23;51.09,42.49;54.75,44.20;47.08,40.65;40.45,36.09|Z|Hillsbrad Foothills|CN|N|Kill every Starving Mountain Lion you find.|
-R Hillsbrad Fields|ACTIVE|527|M|32.20,41.30|Z|Hillsbrad Foothills|
-K Hillsbrad Farmers|QID|527|US|QO|1|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers you still need.|S!US|
-K Hillsbrad Farmhand|QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmhands you still need.|S!US|
-K Kill Farmer Getz|QID|527|QO|4|M|36.69,39.47;35.13,37.99;35.27,40.60|CS|Z|Hillsbrad Foothills|N|If Farmer Getz is not in his house, he's either in the field right next to it or in the barn|T|Farmer Getz|
-K Kill Farmer Ray|QID|527|QO|3|M|33.00,34.00|Z|Hillsbrad Foothills|N|Clear the way inside this house. On the 2nd floor you'll find Farmer Ray.  He may also be found on the first floor, and also around it, and in the field next to it|T|Farmer Ray|
+C Elixir of Pain|QID|501|M|44.75,48.45;48.50,35.00;58.85,39.82;47.22,27.04;55.12,28.55;55.50,25.27;55.65,51.12;44.94,36.22;43.15,39.67;51.90,47.74;56.39,41.59;49.36,30.62;54.21,31.92;40.29,42.19;51.95,35.34;49.13,46.23;45.75,44.08;56.70,35.30;54.13,38.25;38.45,45.23;51.09,42.49;54.75,44.20;47.08,40.65;40.45,36.09|Z|1424; Hillsbrad Foothills|CN|N|Kill every Starving Mountain Lion you find.|
+R Hillsbrad Fields|ACTIVE|527|M|32.20,41.30|Z|1424; Hillsbrad Foothills|
+K Hillsbrad Farmers|QID|527|US|QO|1|M|32.20,41.30|Z|1424; Hillsbrad Foothills|N|Kill Farmers you still need.|S!US|
+K Hillsbrad Farmhand|QID|527|US|QO|2|M|32.20,41.30|Z|1424; Hillsbrad Foothills|N|Kill Farmhands you still need.|S!US|
+K Kill Farmer Getz|QID|527|QO|4|M|36.69,39.47;35.13,37.99;35.27,40.60|CS|Z|1424; Hillsbrad Foothills|N|If Farmer Getz is not in his house, he's either in the field right next to it or in the barn|T|Farmer Getz|
+K Kill Farmer Ray|QID|527|QO|3|M|33.00,34.00|Z|1424; Hillsbrad Foothills|N|Clear the way inside this house. On the 2nd floor you'll find Farmer Ray.  He may also be found on the first floor, and also around it, and in the field next to it|T|Farmer Ray|
 
 
-T Battle of Hillsbrad |QID|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad |QID|528|PRE|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
-T Elixir of Pain |QID|501|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-A Elixir of Pain |QID|502|PRE|501|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-A Souvenirs of Death|QID|546|PRE|527|M|62,19.8|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|
+T Battle of Hillsbrad |QID|527|M|62.40,20.30|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad |QID|528|PRE|527|M|62.40,20.30|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia.|
+T Elixir of Pain |QID|501|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Pain |QID|502|PRE|501|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Souvenirs of Death|QID|546|PRE|527|M|62,19.8|Z|1424; Hillsbrad Foothills|N|From Deathguard Samsa.|
 
-T Elixir of Pain |QID|502|M|32.61,35.41|Z|Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.\nKilling Enraged Stanley gives a lot of xp. If you group up it will be shared among party members.|
-K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|Hillsbrad Foothills|N|She's at the first field next to the road.|T|Farmer Kalaba|
-C Battle of Hillsbrad |QID|528|M|34.90,46.19|Z|Hillsbrad Foothills|
+T Elixir of Pain |QID|502|M|32.61,35.41|Z|1424; Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.\nKilling Enraged Stanley gives a lot of xp. If you group up it will be shared among party members.|
+K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|1424; Hillsbrad Foothills|N|She's at the first field next to the road.|T|Farmer Kalaba|
+C Battle of Hillsbrad |QID|528|M|34.90,46.19|Z|1424; Hillsbrad Foothills|
 
-T Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad |QID|529|PRE|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Elixir of Agony |QID|509|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad |QID|529|PRE|528|M|62.40,20.30|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Elixir of Agony |QID|509|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|From Apothecary Lydon.|
 
-F The Sepulcher|QID|516|M|60.20,18.70|Z|Hillsbrad Foothills|
+F The Sepulcher|QID|516|M|60.20,18.70|Z|1424; Hillsbrad Foothills|
 T Beren's Peril|QID|516|M|44,41|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 
 ; === 24_25_Jame_Ashenvale.lua ===
 ; --- class quests ------------------------------------------------------------
 T Trial of the Sea Lion|QID|30|C|Druid|M|56.40,30.50|Z|Ashenvale|O|N|Use Teleport:Moonglade and turn in your quest.|
 A Aquatic Form|QID|31|PRE|30|C|Druid|M|56.40,30.50|Z|Ashenvale|O|
-F Thunder Bluff|QID|31|C|Druid|M|44.40,45.70|Z|Moonglade|O|
+F Thunder Bluff|QID|31|C|Druid|M|44.40,45.70|Z|1450; Moonglade|O|
 T Aquatic Form|QID|31|C|Druid|M|76.00,27.00|Z|Ashenvale|O|
 ; --- class quests ------------------------------------------------------------
 
@@ -186,10 +186,10 @@ N Auction House|QID|6581|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Deadly Bl
 
 ; --- class quests ------------------------------------------------------------
 F Camp Taurajo|QID|1536|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
-T Call of Water |QID|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
-A Call of Water |QID|1534|PRE|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
-R Camp Taurajo|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
-F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
+T Call of Water |QID|1536|C|Shaman|M|43.40,77.40|Z|1413; The Barrens|
+A Call of Water |QID|1534|PRE|1536|C|Shaman|M|43.40,77.40|Z|1413; The Barrens|
+R Camp Taurajo|QID|1534|C|Shaman|M|44.50,59.10|Z|1413; The Barrens|
+F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|1413; The Barrens|
 ; --- class quests ------------------------------------------------------------
 
 F Splintertree Post|QID|6641|M|45.30,63.90|Z|Orgrimmar|
@@ -251,126 +251,126 @@ F Zoram'gar Outpost|QID|824|M|73.20,61.60|Z|Ashenvale|
 T Je'neu of the Earthen Ring|QID|824|M|11.60,34.30|Z|Ashenvale|N|To Je'neu Sancrea|
 
 ; === 25_26_Jame_The_Barrens.lua ===
-H Orgrimmar|QID|5052|Z|The Barrens|
+H Orgrimmar|QID|5052|Z|1413; The Barrens|
 N Auction House|QID|6504|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Shredder Operating Manual pages, Deadly Blunderbuss|
 
 ; -----Class Quest------------------------------------------------------------------------
 N Poison Quest Chain|QID|2460|C|Rogue|M|43.10,53.50|Z|Orgrimmar|N|You can also easily come back and do this at higher level. If you would like to complete it now, talk to Shenthul  and accept "The Shattered Salute". Please note that you will need a lockpicking skill of 70 to complete this quest.|
-A The Shattered Salute|QID|2460|C|Rogue|Z|The Barrens|O|
-C The Shattered Salute|QID|2460|C|Rogue|Z|The Barrens|O|N|Target Senthul and type "/salute".|
-T The Shattered Salute|QID|2460|C|Rogue|Z|The Barrens|O|
-A Deep Cover|QID|2458|PRE|2460|C|Rogue|Z|The Barrens|O|
+A The Shattered Salute|QID|2460|C|Rogue|Z|1413; The Barrens|O|
+C The Shattered Salute|QID|2460|C|Rogue|Z|1413; The Barrens|O|N|Target Senthul and type "/salute".|
+T The Shattered Salute|QID|2460|C|Rogue|Z|1413; The Barrens|O|
+A Deep Cover|QID|2458|PRE|2460|C|Rogue|Z|1413; The Barrens|O|
 
 A Speak with Ruga|QID|1823|C|Warrior|M|80.20,32.40|Z|Orgrimmar|N|From Sorek, sans !|
 ; -----------------------------------------------------------------------------
 
 F Crossroads|QID|5052|M|45.30,63.90|Z|Orgrimmar|
-A Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|From Korran|
+A Egg Hunt|QID|868|M|51.10,29.60|Z|1413; The Barrens|N|From Korran|
 
 ; -----Class Quest------------------------------------------------------------------------
-t Deep Cover|QID|2458|C|Rogue|U|8051|Z|The Barrens|N|Head north of the Sludge Fen. When the tower is in sight, use the Flare Gun to signal your arrival to Taskmaster Fizzule. Fire off TWO flares, then approach Taskmaster Fizzule and perform the Shattered /Salute.|
-A Mission: Possible But Not Probable|QID|2478|PRE|2458|C|Rogue|Z|The Barrens|
-C Pickpocket Silixiz|QID|2478|C|Rogue|L|8072|M|54.80,6.10|Z|The Barrens|QO|5|NC|N|Pickpocket Foreman Silixiz|
-K Mutated Venture Co. Drones|ACTIVE|2478|C|Rogue|QO|1|Z|The Barrens|N|Go inside the tower and kill 2 drones on the first floor. They are weak to Ambush.|
-K Mutated Venture Co. Patrollers|ACTIVE|2478|C|Rogue|QO|2|Z|The Barrens|N|Go up the stairs to the second floor and kill 2 patrollers. They are weak to Rupture.|
-K Mutated Venture Co. Lookouts|ACTIVE|2478|C|Rogue|QO|3|Z|The Barrens|N|Go up the stairs to the third floor and kill 2 lookouts. They are weak to Eviscerate.|
-C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|4|Z|The Barrens|N|Stealth up to the fourth floor. Use Ambush on Gallywix, then kill him. Loot his head.|
-C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|6|Z|The Barrens|N|Pick the lock on the footlocker. Loot the mixture inside.|
-T Mission: Possible But Not Probable|QID|2478|C|Rogue|U|8066|Z|The Barrens|N|Out of the tower and back to Fizzule. Use the whistle to call him.|
+t Deep Cover|QID|2458|C|Rogue|U|8051|Z|1413; The Barrens|N|Head north of the Sludge Fen. When the tower is in sight, use the Flare Gun to signal your arrival to Taskmaster Fizzule. Fire off TWO flares, then approach Taskmaster Fizzule and perform the Shattered /Salute.|
+A Mission: Possible But Not Probable|QID|2478|PRE|2458|C|Rogue|Z|1413; The Barrens|
+C Pickpocket Silixiz|QID|2478|C|Rogue|L|8072|M|54.80,6.10|Z|1413; The Barrens|QO|5|NC|N|Pickpocket Foreman Silixiz|
+K Mutated Venture Co. Drones|ACTIVE|2478|C|Rogue|QO|1|Z|1413; The Barrens|N|Go inside the tower and kill 2 drones on the first floor. They are weak to Ambush.|
+K Mutated Venture Co. Patrollers|ACTIVE|2478|C|Rogue|QO|2|Z|1413; The Barrens|N|Go up the stairs to the second floor and kill 2 patrollers. They are weak to Rupture.|
+K Mutated Venture Co. Lookouts|ACTIVE|2478|C|Rogue|QO|3|Z|1413; The Barrens|N|Go up the stairs to the third floor and kill 2 lookouts. They are weak to Eviscerate.|
+C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|4|Z|1413; The Barrens|N|Stealth up to the fourth floor. Use Ambush on Gallywix, then kill him. Loot his head.|
+C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|6|Z|1413; The Barrens|N|Pick the lock on the footlocker. Loot the mixture inside.|
+T Mission: Possible But Not Probable|QID|2478|C|Rogue|U|8066|Z|1413; The Barrens|N|Out of the tower and back to Fizzule. Use the whistle to call him.|
 ; -----------------------------------------------------------------------------
 
-F Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|Fly away baby!|
-R Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|From The Crossroads follow the path all the way south until the road forks. Camp Taurajo is right between the two paths.|TAXI|-Camp Taurajo|
-A Tribes at War|QID|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
+F Camp Taurajo|QID|5052|M|51.50,30.30|Z|1413; The Barrens|N|Fly away baby!|
+R Camp Taurajo|QID|5052|M|51.50,30.30|Z|1413; The Barrens|N|From The Crossroads follow the path all the way south until the road forks. Camp Taurajo is right between the two paths.|TAXI|-Camp Taurajo|
+A Tribes at War|QID|878|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Speak with Ruga|QID|1823|M|44.67,59.43|C|Warrior|Z|The Barrens|N|To Ragu Ragetotem|
+T Speak with Ruga|QID|1823|M|44.67,59.43|C|Warrior|Z|1413; The Barrens|N|To Ragu Ragetotem|
 ; -----------------------------------------------------------------------------
 
-C Tribes at War|QID|878|M|51.00,54.00|Z|The Barrens|N|Kill Water Seekers, Thornweavers, and Geomancers around|
-N Tip...|QID|5052|Z|The Barrens|N|Do not sell your blood shards.  Blood Shards for useful buffs like run speed.|
+C Tribes at War|QID|878|M|51.00,54.00|Z|1413; The Barrens|N|Kill Water Seekers, Thornweavers, and Geomancers around|
+N Tip...|QID|5052|Z|1413; The Barrens|N|Do not sell your blood shards.  Blood Shards for useful buffs like run speed.|
 
-T Tribes at War|QID|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
-A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
-K Kill Bristlebacks for Blood Shard|ACTIVE|5052|QO|1|M|51.00,54.00|Z|The Barrens|N|You will have collected several Blood Shards from {Tribes at War}.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
-T Blood Shards of Agamaggan|QID|5052|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
-A Betrayal from Within |QID|879|PRE|5052|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
-A Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|From Tatternack Steelforge|
-A Mahren Skyseer|QID|874|PRE|913|Z|The Barrens|O|N|From Jorn Skyseer|
+T Tribes at War|QID|878|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
+A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
+K Kill Bristlebacks for Blood Shard|ACTIVE|5052|QO|1|M|51.00,54.00|Z|1413; The Barrens|N|You will have collected several Blood Shards from {Tribes at War}.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
+T Blood Shards of Agamaggan|QID|5052|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
+A Betrayal from Within |QID|879|PRE|5052|M|44.55,59.24|Z|1413; The Barrens|N|Mangletooth|
+A Weapons of Choice|QID|893|M|45.10,57.70|Z|1413; The Barrens|N|From Tatternack Steelforge|
+A Mahren Skyseer|QID|874|PRE|913|Z|1413; The Barrens|O|N|From Jorn Skyseer|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
-A Call of Water |QID|220|PRE|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
+T Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|1413; The Barrens|
+A Call of Water |QID|220|PRE|1534|C|Shaman|M|43.40,77.40|Z|1413; The Barrens|
 ; -----------------------------------------------------------------------------
 
-K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Kaz|
-K Nak for Nak's Skull|ACTIVE|879|QO|2|M|43.00,83.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Nak|
-K Lok Orcbane for Lok's Skull|ACTIVE|879|QO|3|M|40.00,80.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Lok Orcbane|
+K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|1413; The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Kaz|
+K Nak for Nak's Skull|ACTIVE|879|QO|2|M|43.00,83.00|Z|1413; The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Nak|
+K Lok Orcbane for Lok's Skull|ACTIVE|879|QO|3|M|40.00,80.00|Z|1413; The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Lok Orcbane|
 
-C Weapons of Choice|QID|893|M|44.40,80.20|Z|The Barrens|N|Kill Stalkers for a Backstabber, Seers for a Wand, and Warfenzies for a War Shield.|
+C Weapons of Choice|QID|893|M|44.40,80.20|Z|1413; The Barrens|N|Kill Stalkers for a Backstabber, Seers for a Wand, and Warfenzies for a War Shield.|
 
-A Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
+A Gann's Reclamation|QID|843|M|46.00,79.10|Z|1413; The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
 
-C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|1|N|Excavators are all over the area, kill them until you complete the quest.|S!US|
-C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|2|N|Foremen are all over the area, kill them until you complete the quest.|S!US|
-K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|The Barrens|QO|3|N|Prospector Khazgorm can be found in this area.|T|Prospector Khazgorm|
+C Gann's Reclamation|QID|843|M|47.00,85.00|Z|1413; The Barrens|QO|1|N|Excavators are all over the area, kill them until you complete the quest.|S!US|
+C Gann's Reclamation|QID|843|M|47.00,85.00|Z|1413; The Barrens|QO|2|N|Foremen are all over the area, kill them until you complete the quest.|S!US|
+K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|1413; The Barrens|QO|3|N|Prospector Khazgorm can be found in this area.|T|Prospector Khazgorm|
 
-T Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|He will be walking up and down the road|
-A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|The Barrens|N|From Gann|
+T Gann's Reclamation|QID|843|M|46.00,79.10|Z|1413; The Barrens|N|He will be walking up and down the road|
+A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|1413; The Barrens|N|From Gann|
 
-N Optional Quest: Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|N|If you are in a group or would just like a challenge, you can accept the quest "The Tear of the Moons" from Feegly the Exiled at . This quest is pretty difficult, and will require you kill a level 30 mob who comes with many adds.|
-A The Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|O|N|From Feegly the Exiled|
+N Optional Quest: Tear of the Moons|QID|857|M|48.90,86.30|Z|1413; The Barrens|N|If you are in a group or would just like a challenge, you can accept the quest "The Tear of the Moons" from Feegly the Exiled at . This quest is pretty difficult, and will require you kill a level 30 mob who comes with many adds.|
+A The Tear of the Moons|QID|857|M|48.90,86.30|Z|1413; The Barrens|O|N|From Feegly the Exiled|
 
-C The Tear of the Moons|QID|857|M|49.10,84.20|Z|The Barrens|O|N|The strongbox with the Tear of the Moons inside can be found inside Bael'Dun at . There are a couple possible methods of getting to it without actually killing all of the mobs in the room. You can die and rez next to the chest in the fireplace, where only the rifleman will be able to hit you. As a rogue, you can stealth down and sap the riflemen. Also, anyone with a pet to distract the rest of the room can do so, while he or she loots the chest. This is a very difficult quest for this level range - if you can't complete it, just abandon it and move on.|
-C Revenge of Gann |QID|846|M|49.00,84.00|Z|The Barrens|N|Head inside Bael'Dun and kill dwaves until you get all the quest items.|
+C The Tear of the Moons|QID|857|M|49.10,84.20|Z|1413; The Barrens|O|N|The strongbox with the Tear of the Moons inside can be found inside Bael'Dun at . There are a couple possible methods of getting to it without actually killing all of the mobs in the room. You can die and rez next to the chest in the fireplace, where only the rifleman will be able to hit you. As a rogue, you can stealth down and sap the riflemen. Also, anyone with a pet to distract the rest of the room can do so, while he or she loots the chest. This is a very difficult quest for this level range - if you can't complete it, just abandon it and move on.|
+C Revenge of Gann |QID|846|M|49.00,84.00|Z|1413; The Barrens|N|Head inside Bael'Dun and kill dwaves until you get all the quest items.|
 
-T The Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|O|N|To Feegly the Exiled|
-T Revenge of Gann |QID|846|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
-A Revenge of Gann |QID|849|PRE|846|M|46.00,79.10|Z|The Barrens|N|From Gann Stonespire|
+T The Tear of the Moons|QID|857|M|48.90,86.30|Z|1413; The Barrens|O|N|To Feegly the Exiled|
+T Revenge of Gann |QID|846|M|46.00,79.10|Z|1413; The Barrens|N|To Gann Stonespire|
+A Revenge of Gann |QID|849|PRE|846|M|46.00,79.10|Z|1413; The Barrens|N|From Gann Stonespire|
 
-C Revenge of Gann |QID|849|M|47.00,85.70|Z|The Barrens|N|The Helipad is midway down the slope going to the excavation site.  Go up the helipad. Right-click the Flying Machine to destroy it.|
-T Revenge of Gann |QID|849|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
+C Revenge of Gann |QID|849|M|47.00,85.70|Z|1413; The Barrens|N|The Helipad is midway down the slope going to the excavation site.  Go up the helipad. Right-click the Flying Machine to destroy it.|
+T Revenge of Gann |QID|849|M|46.00,79.10|Z|1413; The Barrens|N|To Gann Stonespire|
 
 ; -----Class Quest------------------------------------------------------------------------
-A Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|The Barrens|N|From Ragu Ragetotem, you have 30 minutes.|
-C Collect: Silithid Eggs|QID|868|U|5059|L|5058 12|M|43.00,70.00|Z|The Barrens|N|Look for Silithid Mounds.  Clear any bug around it and then click them to gather Silithis Eggs. If you happen to find a Silithid Harvester, kill it and loot it's head.|
-C Trial at the Field of Giants|QID|1824|C|Warrior|M|44.50,59.10|Z|The Barrens|N|On your way back to Camp Taurajo , kill silithid in the Field of Giants and loot their antenna. You need to do this within 15 minutes or the antenna will stop twitching.|
-T Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|The Barrens|
-N Brutal Armor Quest Chain|QID|1838|C|Warrior|Z|The Barrens|N|If you are interested in the Brutal Armor quest chain, you can pick it up at this point. This quest requires running Razorfen Kraul, and will not be covered in this guide. It does provide some decent armor, but if you are leveling quickly it may not be worth it.|
-A Speak with Thun'grim|QID|1825|PRE|1824|C|Warrior|Z|The Barrens|O|
+A Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|1413; The Barrens|N|From Ragu Ragetotem, you have 30 minutes.|
+C Collect: Silithid Eggs|QID|868|U|5059|L|5058 12|M|43.00,70.00|Z|1413; The Barrens|N|Look for Silithid Mounds.  Clear any bug around it and then click them to gather Silithis Eggs. If you happen to find a Silithid Harvester, kill it and loot it's head.|
+C Trial at the Field of Giants|QID|1824|C|Warrior|M|44.50,59.10|Z|1413; The Barrens|N|On your way back to Camp Taurajo , kill silithid in the Field of Giants and loot their antenna. You need to do this within 15 minutes or the antenna will stop twitching.|
+T Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|1413; The Barrens|
+N Brutal Armor Quest Chain|QID|1838|C|Warrior|Z|1413; The Barrens|N|If you are interested in the Brutal Armor quest chain, you can pick it up at this point. This quest requires running Razorfen Kraul, and will not be covered in this guide. It does provide some decent armor, but if you are leveling quickly it may not be worth it.|
+A Speak with Thun'grim|QID|1825|PRE|1824|C|Warrior|Z|1413; The Barrens|O|
 ; -----------------------------------------------------------------------------
 
-A The Harvester|QID|897|U|5138|Z|The Barrens|O|N|SILVER ELITE...Click the head to start the quest.|
+A The Harvester|QID|897|U|5138|Z|1413; The Barrens|O|N|SILVER ELITE...Click the head to start the quest.|
 
-T Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|To Tatternack Steelforge|
-T Betrayal from Within |QID|879|M|44.55,59.24|Z|The Barrens|N|To Mangletooth|
-A Betrayal from Within |QID|906|PRE|879|M|44.55,59.24|Z|The Barrens|N|From Mangletooth|
-T The Harvester|QID|897|Z|The Barrens|O|
+T Weapons of Choice|QID|893|M|45.10,57.70|Z|1413; The Barrens|N|To Tatternack Steelforge|
+T Betrayal from Within |QID|879|M|44.55,59.24|Z|1413; The Barrens|N|To Mangletooth|
+A Betrayal from Within |QID|906|PRE|879|M|44.55,59.24|Z|1413; The Barrens|N|From Mangletooth|
+T The Harvester|QID|897|Z|1413; The Barrens|O|
 
-F Crossroads|QID|868|M|44.40,59.10|Z|The Barrens|N|To Jorn Skyseer|TZ|The Crossroads|
-T Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|To Korran|
-T Betrayal from Within |QID|906|PRE|879|M|51.50,30.90|Z|The Barrens|N|To Thork|
+F Crossroads|QID|868|M|44.40,59.10|Z|1413; The Barrens|N|To Jorn Skyseer|TZ|The Crossroads|
+T Egg Hunt|QID|868|M|51.10,29.60|Z|1413; The Barrens|N|To Korran|
+T Betrayal from Within |QID|906|PRE|879|M|51.50,30.90|Z|1413; The Barrens|N|To Thork|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Speak with Thun'grim|QID|1825|M|57.23,30.34|C|Warrior|Z|The Barrens|
-A Brutal Armor|QID|1838|PRE|1825|M|57.23,30.34|C|Warrior|Z|The Barrens|
+T Speak with Thun'grim|QID|1825|M|57.23,30.34|C|Warrior|Z|1413; The Barrens|
+A Brutal Armor|QID|1838|PRE|1825|M|57.23,30.34|C|Warrior|Z|1413; The Barrens|
 ; -----------------------------------------------------------------------------
 
-F Ratchet|QID|6571|M|51.50,30.30|Z|The Barrens|
+F Ratchet|QID|6571|M|51.50,30.30|Z|1413; The Barrens|
 
 ; -----Class Quest--------------------------------------------------------------
-T Call of Water |QID|220|C|Shaman|M|65.80,43.80|Z|The Barrens|N|To Islen Waterseer|
-A Call of Water |QID|63|PRE|220|C|Shaman|M|65.80,43.80|Z|The Barrens|N|From Islen Waterseer|
+T Call of Water |QID|220|C|Shaman|M|65.80,43.80|Z|1413; The Barrens|N|To Islen Waterseer|
+A Call of Water |QID|63|PRE|220|C|Shaman|M|65.80,43.80|Z|1413; The Barrens|N|From Islen Waterseer|
 ; -----------------------------------------------------------------------------
 
-T Mahren Skyseer|QID|874|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
-A Isha Awak|QID|873|PRE|874|M|65.8,43.8|Z|The Barrens|N|From Mahren Skyseer|
-K Isha Awak for Heart of Isha Awak|ACTIVE|873|QO|1|M|64.00,50.00|Z|The Barrens|
-T Isha Awak|QID|873|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
+T Mahren Skyseer|QID|874|M|65.8,43.8|Z|1413; The Barrens|N|To Mahren Skyseer|
+A Isha Awak|QID|873|PRE|874|M|65.8,43.8|Z|1413; The Barrens|N|From Mahren Skyseer|
+K Isha Awak for Heart of Isha Awak|ACTIVE|873|QO|1|M|64.00,50.00|Z|1413; The Barrens|
+T Isha Awak|QID|873|M|65.8,43.8|Z|1413; The Barrens|N|To Mahren Skyseer|
 
-b Booty Bay|QID|6571|M|63.70,38.60|Z|The Barrens|N||
-f Booty Bay|QID|6571|M|26.90,77.10|Z|Stranglethorn Vale|N|The flight point can be found outside the top floor of the inn.|
-C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|Stranglethorn Vale|
+b Booty Bay|QID|6571|M|63.70,38.60|Z|1413; The Barrens|N||
+f Booty Bay|QID|6571|M|26.90,77.10|Z|1434; Stranglethorn Vale|N|The flight point can be found outside the top floor of the inn.|
+C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|1434; Stranglethorn Vale|
 
 ; === 26_27_Jame_Ashenvale.lua ===
 H Orgrimmar|QID|6581|Z|Ashenvale|
@@ -412,7 +412,7 @@ T Satyr Horns|QID|6441|M|73,61.4|Z|Ashenvale|N|To Pixel|
 
 H Orgrimmar|QID|5052|Z|Ashenvale|
 
-R Undercity|QID|529|Z|Hillsbrad Foothills|N|Take the Zepplin to Tirisfal then run to Undercity|
+R Undercity|QID|529|Z|1424; Hillsbrad Foothills|N|Take the Zepplin to Tirisfal then run to Undercity|
 
 ; -----Class Quest--------------------------------------------------------------
 F Sepulcher|QID|63|C|Shaman|M|63.30,48.40|Z|Undercity|
@@ -427,120 +427,120 @@ F Tarren Mill|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 
 F Tarren Mill|QID|529|C|-Shaman|M|63.30,48.40|Z|Undercity|
 
-C Battle of Hillsbrad |QID|529|M|32.00,44.00|Z|Hillsbrad Foothills|QO|2|N|Kill Blacksmith Apprentices, spawn in and around the smithy.|S!US|T|Hillsbrad Apprentice|
-K Blacksmith Verringtan|ACTIVE|529|M|32.00,44.00|Z|Hillsbrad Foothills|QO|1|T|Blacksmith Verringtan|S!US|N|Likely inside the smithy.}
-l Shipment of Iron|ACTIVE|529|M|32.01,45.47|Z|Hillsbrad Foothills|QO|3|N|Get that Iron, in the smithy.|
+C Battle of Hillsbrad |QID|529|M|32.00,44.00|Z|1424; Hillsbrad Foothills|QO|2|N|Kill Blacksmith Apprentices, spawn in and around the smithy.|S!US|T|Hillsbrad Apprentice|
+K Blacksmith Verringtan|ACTIVE|529|M|32.00,44.00|Z|1424; Hillsbrad Foothills|QO|1|T|Blacksmith Verringtan|S!US|N|Likely inside the smithy.}
+l Shipment of Iron|ACTIVE|529|M|32.01,45.47|Z|1424; Hillsbrad Foothills|QO|3|N|Get that Iron, in the smithy.|
 
-T Battle of Hillsbrad |QID|529|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad |QID|532|PRE|529|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
+T Battle of Hillsbrad |QID|529|M|62.2,20.2|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia|
+A Battle of Hillsbrad |QID|532|PRE|529|M|62.2,20.2|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia|
 
-C Battle of Hillsbrad |QID|532|M|29.00,41.00|Z|Hillsbrad Foothills|N|Clear your way to inside City Hall.  Clear the first 2 rooms.  First, pull the 1 MOB which is on the left inside the room.  Immediately, go back to the room behind you.  Hide behind a wall.  This way the Councilman cannot nuke you from a distance, but instead come to you.  Next, go to the big room and kill Clerk Horrace Whitesteed. Get back to full health.  Kill Magistrate Burnsidethen.  Finally, destroy the Hillsbrad Proclamation and collect the Town Registry.|
-K Clerk Horrace Whitesteed|QID|567|QO|1|M|28.00,42.00|Z|Hillsbrad Foothills|
+C Battle of Hillsbrad |QID|532|M|29.00,41.00|Z|1424; Hillsbrad Foothills|N|Clear your way to inside City Hall.  Clear the first 2 rooms.  First, pull the 1 MOB which is on the left inside the room.  Immediately, go back to the room behind you.  Hide behind a wall.  This way the Councilman cannot nuke you from a distance, but instead come to you.  Next, go to the big room and kill Clerk Horrace Whitesteed. Get back to full health.  Kill Magistrate Burnsidethen.  Finally, destroy the Hillsbrad Proclamation and collect the Town Registry.|
+K Clerk Horrace Whitesteed|QID|567|QO|1|M|28.00,42.00|Z|1424; Hillsbrad Foothills|
 
 
-K Citizen Wilkes|QID|567|QO|2|M|33.00,41.00|Z|Hillsbrad Foothills|T|Citizen Wilkes|
-C Souvenirs of Death|QID|546|M|34.00,46.00|Z|Hillsbrad Foothills|N|Kill all humans in the area for Hillsbrad Human Skulls|
+K Citizen Wilkes|QID|567|QO|2|M|33.00,41.00|Z|1424; Hillsbrad Foothills|T|Citizen Wilkes|
+C Souvenirs of Death|QID|546|M|34.00,46.00|Z|1424; Hillsbrad Foothills|N|Kill all humans in the area for Hillsbrad Human Skulls|
 
-T Battle of Hillsbrad |QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad |QID|539|PRE|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
-T Souvenirs of Death|QID|546|M|62,19.8|Z|Hillsbrad Foothills|N|To Deathguard Samsa|
+T Battle of Hillsbrad |QID|532|M|62.2,20.2|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia|
+A Battle of Hillsbrad |QID|539|PRE|532|M|62.2,20.2|Z|1424; Hillsbrad Foothills|N|From High Executor Darthalia|
+T Souvenirs of Death|QID|546|M|62,19.8|Z|1424; Hillsbrad Foothills|N|To Deathguard Samsa|
 
-R Azurelode Mine|QID|539|M|26.00,58.00|Z|Hillsbrad Foothills|
-K Miner Hackett|QID|567|QO|3|M|27.30,58.70|Z|Hillsbrad Foothills|N|Enter the mine, killing miners as you go. After awhile, you will come to a fork. To the left are Foreman Bonds and Miner Hackett.|
-K Foreman Bonds|QID|539|QO|4|M|30.00,55.00|Z|Hillsbrad Foothills|N|At 20% health he summons 2 dwarves to guard him.  Those dwarves can stun, so it is unlikely, at this level, you can kill all 3. If you are a rogue, kill Foreman Bonds, then vanish. For other classes, clear the way behind you towards the exit.  Next, engage and finish Foreman Bonds fast, then run for the exit, the 2 dwarves will follow, but eventually give up and return. If you are about to die, be sure you get the kill on Foreman Bonds first.|
-C Battle of Hillsbrad |QID|539|Z|Hillsbrad Foothills|N|Stay in the mine and kill any miners you still need.|
+R Azurelode Mine|QID|539|M|26.00,58.00|Z|1424; Hillsbrad Foothills|
+K Miner Hackett|QID|567|QO|3|M|27.30,58.70|Z|1424; Hillsbrad Foothills|N|Enter the mine, killing miners as you go. After awhile, you will come to a fork. To the left are Foreman Bonds and Miner Hackett.|
+K Foreman Bonds|QID|539|QO|4|M|30.00,55.00|Z|1424; Hillsbrad Foothills|N|At 20% health he summons 2 dwarves to guard him.  Those dwarves can stun, so it is unlikely, at this level, you can kill all 3. If you are a rogue, kill Foreman Bonds, then vanish. For other classes, clear the way behind you towards the exit.  Next, engage and finish Foreman Bonds fast, then run for the exit, the 2 dwarves will follow, but eventually give up and return. If you are about to die, be sure you get the kill on Foreman Bonds first.|
+C Battle of Hillsbrad |QID|539|Z|1424; Hillsbrad Foothills|N|Stay in the mine and kill any miners you still need.|
 
-C Collect: Mudsnout Blossoms|QID|509|QO|1|NC|M|65.00,60.00|Z|Hillsbrad Foothills|N|Get out the mine and go north around Southshore (the Alliance base). The mudsnout blossoms are big mushrooms found at the farm at (65,60)|
+C Collect: Mudsnout Blossoms|QID|509|QO|1|NC|M|65.00,60.00|Z|1424; Hillsbrad Foothills|N|Get out the mine and go north around Southshore (the Alliance base). The mudsnout blossoms are big mushrooms found at the farm at (65,60)|
 
-T Dangerous!|QID|567|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
-T Battle of Hillsbrad |QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
-A Battle of Hillsbrad |QID|541|PRE|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
-T Elixir of Agony |QID|509|M|61.44,19.05|Z|Hillsbrad Foothills|N|Apothecary Lydon|
-A Elixir of Agony |QID|513|PRE|509|M|61.44,19.05|Z|Hillsbrad Foothills|N|Apothecary Lydon|
+T Dangerous!|QID|567|M|62.2,20.2|Z|1424; Hillsbrad Foothills|N|High Executor Darthalia|
+T Battle of Hillsbrad |QID|539|M|62.2,20.2|Z|1424; Hillsbrad Foothills|N|High Executor Darthalia|
+A Battle of Hillsbrad |QID|541|PRE|539|M|62.2,20.2|Z|1424; Hillsbrad Foothills|N|High Executor Darthalia|
+T Elixir of Agony |QID|509|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|Apothecary Lydon|
+A Elixir of Agony |QID|513|PRE|509|M|61.44,19.05|Z|1424; Hillsbrad Foothills|N|Apothecary Lydon|
 
 ; === 28_30_Jame_Thousand_Needles.lua ===
 
-H Orgrimmar|QID|5881|Z|Hillsbrad Foothills|
+H Orgrimmar|QID|5881|Z|1424; Hillsbrad Foothills|
 
 ; -----Class Quest--------------------------------------------------------------
 F Ratchet|QID|96|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
-T Call of Water |QID|96|C|Shaman|M|65.80,43.80|Z|The Barrens|N|Back down to Islen Waterseer. Congradulations on your water totem!|
+T Call of Water |QID|96|C|Shaman|M|65.80,43.80|Z|1413; The Barrens|N|Back down to Islen Waterseer. Congradulations on your water totem!|
 ; -----------------------------------------------------------------------------
 
-F Camp Taurajo|QID|5881|Z|The Barrens|
-A Melor Sends Word|QID|1130|M|44.90,59.10|Z|The Barrens|
+F Camp Taurajo|QID|5881|Z|1413; The Barrens|
+A Melor Sends Word|QID|1130|M|44.90,59.10|Z|1413; The Barrens|
 
-T Calling in the Reserves|QID|5881|M|31.90,21.70|Z|Thousand Needles|N|Follow the road south to the tip of the Barrens. If these NPCS are unavailable, skip this step and abandon [28]Calling in the Reserves.|
-A Message to Freewind Post|QID|4542|M|32.20,22.20|Z|Thousand Needles|N|If these NPCS are unavailable, skip this step and abandon [28]Calling in the Reserves.|
+T Calling in the Reserves|QID|5881|M|31.90,21.70|Z|1441; Thousand Needles|N|Follow the road south to the tip of the Barrens. If these NPCS are unavailable, skip this step and abandon [28]Calling in the Reserves.|
+A Message to Freewind Post|QID|4542|M|32.20,22.20|Z|1441; Thousand Needles|N|If these NPCS are unavailable, skip this step and abandon [28]Calling in the Reserves.|
 
-R Freewind Post|QID|4542|M|45.10,49.10|Z|Thousand Needles|N|Take the lift down, then head to Freewind Post. Use the lift to get to the top.|
-A Wind Rider|QID|4767|M|44.80,49.00|Z|Thousand Needles|N|From Elu|
-A Alien Egg|QID|4821|M|44.60,50.30|Z|Thousand Needles|N|From Hagar Lightninghoof|
-T Message to Freewind Post|QID|4542|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
-A Pacify the Centaur|QID|4841|PRE|4542|M|45.60,50.80|Z|Thousand Needles|N|From Cliffwatcher Longhorn|
-A Wanted - Arnak Grimtotem|QID|5147|M|46.00,50.80|Z|Thousand Needles|N|From the sign|
+R Freewind Post|QID|4542|M|45.10,49.10|Z|1441; Thousand Needles|N|Take the lift down, then head to Freewind Post. Use the lift to get to the top.|
+A Wind Rider|QID|4767|M|44.80,49.00|Z|1441; Thousand Needles|N|From Elu|
+A Alien Egg|QID|4821|M|44.60,50.30|Z|1441; Thousand Needles|N|From Hagar Lightninghoof|
+T Message to Freewind Post|QID|4542|M|45.60,50.80|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn|
+A Pacify the Centaur|QID|4841|PRE|4542|M|45.60,50.80|Z|1441; Thousand Needles|N|From Cliffwatcher Longhorn|
+A Wanted - Arnak Grimtotem|QID|5147|M|46.00,50.80|Z|1441; Thousand Needles|N|From the sign|
 
 
-C Pacify the Centaur|QID|4841|M|45.00,36.00|Z|Thousand Needles|N|Kill scouts, wranglers,and windchasers around|
+C Pacify the Centaur|QID|4841|M|45.00,36.00|Z|1441; Thousand Needles|N|Kill scouts, wranglers,and windchasers around|
 
-A Test of Faith|QID|1149|M|55,45;54.00,44.00|CS|Z|Thousand Needles|N|Head east to first waypoint. Follow the path up the slope towards Dorn Plainstalker.|
-C Test of Faith|QID|1149|Z|Thousand Needles|N|Dorn Plainstalker will teleport you to the top of a peak.  Look for two wooden planks and jump off. Don't worry, you won't die from falling. You will re-appear next to Dorn|
-T Test of Faith|QID|1149|M|53.90,41.50|Z|Thousand Needles|N|To Dorn Plainstalker|
-A Test of Endurance|QID|1150|PRE|1149|M|53.90,41.50|Z|Thousand Needles|N|From Dorn Plainstalker|
+A Test of Faith|QID|1149|M|55,45;54.00,44.00|CS|Z|1441; Thousand Needles|N|Head east to first waypoint. Follow the path up the slope towards Dorn Plainstalker.|
+C Test of Faith|QID|1149|Z|1441; Thousand Needles|N|Dorn Plainstalker will teleport you to the top of a peak.  Look for two wooden planks and jump off. Don't worry, you won't die from falling. You will re-appear next to Dorn|
+T Test of Faith|QID|1149|M|53.90,41.50|Z|1441; Thousand Needles|N|To Dorn Plainstalker|
+A Test of Endurance|QID|1150|PRE|1149|M|53.90,41.50|Z|1441; Thousand Needles|N|From Dorn Plainstalker|
 
-C Alien Egg|QID|4821|M|56.50,50.30;52.5,55.2;37.7,56.1|CN|Z|Thousand Needles|N|Check the three locations for the Alien Egg and kill Thundering Boulderkins until you have 2 Purifying Earth.|
+C Alien Egg|QID|4821|M|56.50,50.30;52.5,55.2;37.7,56.1|CN|Z|1441; Thousand Needles|N|Check the three locations for the Alien Egg and kill Thundering Boulderkins until you have 2 Purifying Earth.|
 
-T Pacify the Centaur|QID|4841|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
-A Grimtotem Spying|QID|5064|PRE|4841|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
-T Alien Egg|QID|4821|M|44.60,50.30|Z|Thousand Needles|N|To Hagar Lightninghoof|
-A Serpent Wild|QID|4865|PRE|4821|M|44.60,50.30|Z|Thousand Needles|N|From Hagar Lightninghoof|
+T Pacify the Centaur|QID|4841|M|45.60,50.80|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn|
+A Grimtotem Spying|QID|5064|PRE|4841|M|45.60,50.80|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn|
+T Alien Egg|QID|4821|M|44.60,50.30|Z|1441; Thousand Needles|N|To Hagar Lightninghoof|
+A Serpent Wild|QID|4865|PRE|4821|M|44.60,50.30|Z|1441; Thousand Needles|N|From Hagar Lightninghoof|
 
-R Highperch|QID|4767|M|12.00,32.00|Z|Thousand Needles|
-C Wind Rider|QID|4767|M|11.00,36.00|Z|Thousand Needles|QO|1|N|Collect: Highperch Wyvern Eggs|
+R Highperch|QID|4767|M|12.00,32.00|Z|1441; Thousand Needles|
+C Wind Rider|QID|4767|M|11.00,36.00|Z|1441; Thousand Needles|QO|1|N|Collect: Highperch Wyvern Eggs|
 
-N READ THIS|QID|4770|Z|Thousand Needles|N|The next quest is an escort.  Warning: Sometimes there will be a rare-elite named Heartrazor there.  Unless you group, it is likely impossible for you to kill it and complete the escort.  However, if you start the escort at the right moment, Heartrazor will be out of the way and the escort NPC will go through without attracting Heartrazor's attention.|
-A Homeward Bound|QID|4770|M|17.90,40.60|Z|Thousand Needles|N|Head to the southeastern corner of Highperch. There you will find a narrow path going up to another plateau.  At the end of this plateau, you will find a tauren named Pao'Ka.|
-C Homeward Bound|QID|4770|M|17.90,40.60|Z|Thousand Needles|
+N READ THIS|QID|4770|Z|1441; Thousand Needles|N|The next quest is an escort.  Warning: Sometimes there will be a rare-elite named Heartrazor there.  Unless you group, it is likely impossible for you to kill it and complete the escort.  However, if you start the escort at the right moment, Heartrazor will be out of the way and the escort NPC will go through without attracting Heartrazor's attention.|
+A Homeward Bound|QID|4770|M|17.90,40.60|Z|1441; Thousand Needles|N|Head to the southeastern corner of Highperch. There you will find a narrow path going up to another plateau.  At the end of this plateau, you will find a tauren named Pao'Ka.|
+C Homeward Bound|QID|4770|M|17.90,40.60|Z|1441; Thousand Needles|
 
-T Homeward Bound|QID|4770|M|21.50,32.40|Z|Thousand Needles|N|To Motega Firemane|
-T Serpent Wild|QID|4865|M|21.50,32.40|Z|Thousand Needles|N|To Motega Firemane|
-A Sacred Fire|QID|5062|PRE|4865|M|21.50,32.40|Z|Thousand Needles|N|From Motega Firemane|
-A Hypercapacitor Gizmo|QID|5151|M|21.50,32.40|Z|Thousand Needles|N|From Wizlo Bearingshiner|
+T Homeward Bound|QID|4770|M|21.50,32.40|Z|1441; Thousand Needles|N|To Motega Firemane|
+T Serpent Wild|QID|4865|M|21.50,32.40|Z|1441; Thousand Needles|N|To Motega Firemane|
+A Sacred Fire|QID|5062|PRE|4865|M|21.50,32.40|Z|1441; Thousand Needles|N|From Motega Firemane|
+A Hypercapacitor Gizmo|QID|5151|M|21.50,32.40|Z|1441; Thousand Needles|N|From Wizlo Bearingshiner|
 
-C Sacred Fire|QID|5062|M|37.80,38.10|Z|Thousand Needles|N|Head to the area below Darkcloud Pinnacle and collect Incendia Agave, they look like spiky little plants and can often be found underwhater.|
+C Sacred Fire|QID|5062|M|37.80,38.10|Z|1441; Thousand Needles|N|Head to the area below Darkcloud Pinnacle and collect Incendia Agave, they look like spiky little plants and can often be found underwhater.|
 
-R Darkcloud Pinnacle|QID|5064|M|31.00,36.00|Z|Thousand Needles|
+R Darkcloud Pinnacle|QID|5064|M|31.00,36.00|Z|1441; Thousand Needles|
 
-C Loot Document Chest #1|QID|5064|QO|1|NC|M|31.80,32.60|Z|Thousand Needles|
-C Loot Document Chest #2|QID|5064|QO|2|NC|M|33.80,39.90|Z|Thousand Needles|
-C Loot Document Chest #3|QID|5064|QO|3|NC|M|39.20,41.50|Z|Thousand Needles|
+C Loot Document Chest #1|QID|5064|QO|1|NC|M|31.80,32.60|Z|1441; Thousand Needles|
+C Loot Document Chest #2|QID|5064|QO|2|NC|M|33.80,39.90|Z|1441; Thousand Needles|
+C Loot Document Chest #3|QID|5064|QO|3|NC|M|39.20,41.50|Z|1441; Thousand Needles|
 
-K Kill Arnak Grimtotem|QID|5147|QO|1|M|38.20,26.90|Z|Thousand Needles|
+K Kill Arnak Grimtotem|QID|5147|QO|1|M|38.20,26.90|Z|1441; Thousand Needles|
 
-N READ THIS|QID|4904|Z|Thousand Needles|N|For this next quest you will be escorting Lakota Windsong. It is an easy escort, Lakota is level 30 and does fine on her own. The risks are 2 extra Taurens that spawn to ambush her each time she reaches the middle of a plateau.  To workaround this, pull static spawns to her before she reaches the middle.|
-A Free at Last|QID|4904|M|37.70,26.70|Z|Thousand Needles|N|From Lakota Windsong.|
-C Free at Last|QID|4904|M|37.70,26.70|Z|Thousand Needles|
+N READ THIS|QID|4904|Z|1441; Thousand Needles|N|For this next quest you will be escorting Lakota Windsong. It is an easy escort, Lakota is level 30 and does fine on her own. The risks are 2 extra Taurens that spawn to ambush her each time she reaches the middle of a plateau.  To workaround this, pull static spawns to her before she reaches the middle.|
+A Free at Last|QID|4904|M|37.70,26.70|Z|1441; Thousand Needles|N|From Lakota Windsong.|
+C Free at Last|QID|4904|M|37.70,26.70|Z|1441; Thousand Needles|
 
-T Free at Last|QID|4904|M|46.10,51.70|Z|Thousand Needles|N|To Thalia Amberhide|
-T Grimtotem Spying|QID|5064|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
-T Wanted - Arnak Grimtotem|QID|5147|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
-T Wind Rider|QID|4767|M|44.80,49.00|Z|Thousand Needles|N|To Elu|
+T Free at Last|QID|4904|M|46.10,51.70|Z|1441; Thousand Needles|N|To Thalia Amberhide|
+T Grimtotem Spying|QID|5064|M|45.60,50.80|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn|
+T Wanted - Arnak Grimtotem|QID|5147|M|45.60,50.80|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn|
+T Wind Rider|QID|4767|M|44.80,49.00|Z|1441; Thousand Needles|N|To Elu|
 
-K Galak Messenger|QID|4881|L|12564|M|29.50,34.60|Z|Thousand Needles|N|Patrol the road between Great Lift and Whitereach Post until you find the Galak Messenger. Kill him|
-A Assassination Plot|QID|4881|U|12564|M|22.10,31.00|Z|Thousand Needles|N|Click and open the Assasination Note to begin a quest.|
+K Galak Messenger|QID|4881|L|12564|M|29.50,34.60|Z|1441; Thousand Needles|N|Patrol the road between Great Lift and Whitereach Post until you find the Galak Messenger. Kill him|
+A Assassination Plot|QID|4881|U|12564|M|22.10,31.00|Z|1441; Thousand Needles|N|Click and open the Assasination Note to begin a quest.|
 
-T Assassination Plot|QID|4881|M|21.30,32.10|Z|Thousand Needles|
-N READ THIS|QID|4966|Z|Thousand Needles|N|Time for a tougher quest. HP/Mana up, then accept the next quest. You will be attacked by three centaurs. You must kill them all. Kanati can tank one or two.  Do NOT try and tank all three yourself.|
-A Protect Kanati Greycloud|QID|4966|PRE|4881|M|21.30,32.10|Z|Thousand Needles|
-C Protect Kanati Greycloud|QID|4966|Z|Thousand Needles|N|Three centaurs will spawn and attack Kanati Greycloud. Help kill them.|
-T Protect Kanati Greycloud|QID|4966|M|21.30,32.10|Z|Thousand Needles|
+T Assassination Plot|QID|4881|M|21.30,32.10|Z|1441; Thousand Needles|
+N READ THIS|QID|4966|Z|1441; Thousand Needles|N|Time for a tougher quest. HP/Mana up, then accept the next quest. You will be attacked by three centaurs. You must kill them all. Kanati can tank one or two.  Do NOT try and tank all three yourself.|
+A Protect Kanati Greycloud|QID|4966|PRE|4881|M|21.30,32.10|Z|1441; Thousand Needles|
+C Protect Kanati Greycloud|QID|4966|Z|1441; Thousand Needles|N|Three centaurs will spawn and attack Kanati Greycloud. Help kill them.|
+T Protect Kanati Greycloud|QID|4966|M|21.30,32.10|Z|1441; Thousand Needles|
 
-R Feralas|QID|1130|M|7.00,11.10|Z|Thousand Needles|N|Warning: be careful to stay as far as possible from any creatures in Feralas. For now, they are too high level.|
-f Camp Mojache|QID|1130|M|75.50,44.30|Z|Feralas|N|Warning: be careful to stay as far as possible from any creatures in Feralas. For now, they are too high level.|
+R Feralas|QID|1130|M|7.00,11.10|Z|1441; Thousand Needles|N|Warning: be careful to stay as far as possible from any creatures in Feralas. For now, they are too high level.|
+f Camp Mojache|QID|1130|M|75.50,44.30|Z|1444; Feralas|N|Warning: be careful to stay as far as possible from any creatures in Feralas. For now, they are too high level.|
 
-F Thunder Bluff|QID|1130|M|75.50,44.30|Z|Feralas|N|Fly to Thunder Bluff.|TAXI|Thunder Bluff|
-F Camp Taurajo|QID|1130|M|75.50,44.30|Z|Feralas|N|Fly to Camp Taurajo.|TAXI|-Thunder Bluff|
-R Thunder Bluff|QID|1130|Z|Feralas|N|Follow the path west into Mulgore. Continue following the path west until you reach Bloodhoof Village. Go northwest, until you reach Thunder Bluff.|TAXI|-Thunder Bluff|
+F Thunder Bluff|QID|1130|M|75.50,44.30|Z|1444; Feralas|N|Fly to Thunder Bluff.|TAXI|Thunder Bluff|
+F Camp Taurajo|QID|1130|M|75.50,44.30|Z|1444; Feralas|N|Fly to Camp Taurajo.|TAXI|-Thunder Bluff|
+R Thunder Bluff|QID|1130|Z|1444; Feralas|N|Follow the path west into Mulgore. Continue following the path west until you reach Bloodhoof Village. Go northwest, until you reach Thunder Bluff.|TAXI|-Thunder Bluff|
 f Thunder Bluff|QID|1130|M|46.80,50.20|Z|Thunder Bluff|N|Pick up this flight path.|
 
 T Melor Sends Word|QID|1130|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof|
@@ -557,9 +557,9 @@ A Laughing Sisters|QID|1945|PRE|1944|C|Mage|Z|Orgrimmar|M|38.5,86.1|
 F Splintertree Post|QID|1945|C|Mage|M|45.30,63.90|Z|Orgrimmar|
 C Laughing Sisters|QID|1945|C|Mage|M|60.00,53.00|Z|Ashenvale|N|Head to Raynewood Retreat, west of Splintertree Post, and kill Laughing Sisters for their hair.|
 F Crossroads|QID|1945|C|Mage|M|73.20,61.60|Z|Ashenvale|
-T Laughing Sisters|QID|1945|C|Mage|Z|The Barrens|M|52.2,73.1|
+T Laughing Sisters|QID|1945|C|Mage|Z|1413; The Barrens|M|52.2,73.1|
 A Nether-lace Garment|QID|1946|PRE|1945|C|Mage|Z|Ashenvale|N|Accept/Complete the next quest to receive your new robe or tunic.|
-T Nether-lace Garment|QID|1946|C|Mage|Z|The Barrens|N|Accept/Complete the next quest to receive your new robe or tunic.|
+T Nether-lace Garment|QID|1946|C|Mage|Z|1413; The Barrens|N|Accept/Complete the next quest to receive your new robe or tunic.|
 ; -----------------------------------------------------------------------------
 ]]
 end)

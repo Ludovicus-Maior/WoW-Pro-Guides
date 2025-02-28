@@ -132,7 +132,7 @@ C Gnoll Escape|QID|25867|M|45.38,34.90|Z|56; Wetlands|N|Free Gnolls from the Gno
 T Dark Iron Trappers|QID|25866|M|26.91,26.18|Z|56; Wetlands|N|To Shilah Slabchisel.|
 T Gnoll Escape|QID|25867|M|26.91,26.18|Z|56; Wetlands|N|To Shilah Slabchisel.|
 A Yorla Darksnare|QID|25868|PRE|25866&25867|M|26.91,26.18|Z|56; Wetlands|N|From Shilah Slabchisel.|
-K Yorla Darksnare|ACTIVE|25868|M|41.25,22.00|Z|56; Wetlands|N|Kill Yorla Darksnare.|T|Yorla Darksnare|
+K Yorla Darksnare|ACTIVE|25868|QO|1|M|41.25,22.00|Z|56; Wetlands|N|Kill Yorla Darksnare.|T|Yorla Darksnare|
 T Yorla Darksnare|QID|25868|M|27.00,26.03|Z|56; Wetlands|N|To Shilah Slabchisel.|
 A Whelgar's Retreat|QID|26981|PRE|25868|LEAD|25849|M|27.00,26.03|Z|56; Wetlands|N|From Shilah Slabchisel.|
 f Whelgar's Retreat|QID|26981|M|38.77,39.03|Z|56; Wetlands|N|At Damon Baelor.|
@@ -169,8 +169,8 @@ C The Threat of Flame|QID|25927|M|56.74,29.50|Z|56; Wetlands|N|Kill Rampant Fire
 C For Peat's Sake|QID|25939|M|63.43,33.10|Z|56; Wetlands|N|Stand in the fire and use your Floodlilly.|U|56134|
 C The Threat of Flame|QID|25927|M|56.74,29.50|Z|56; Wetlands|N|Kill Rampant Fire Elementals.|US|
 T The Threat of Flame|QID|25927|M|56.48,40.39|Z|56; Wetlands|N|To Rethiel the Greenwarden.|
-T For Peat's Sake|QID|25939|M|56.41,39.94|Z|56; Wetlands|N|To Rethiel the Greenwarden.|
-A Longbraid the Grim|QID|26196|PRE|25939|M|56.41,39.94|Z|56; Wetlands|N|From Rethiel the Greenwarden.|
+T For Peat's Sake|QID|25939|M|56.48,39.95|Z|56; Wetlands|N|To Ferilon Leafborn.|
+A Longbraid the Grim|QID|26196|PRE|25939|M|56.48,39.95|Z|56; Wetlands|N|From Ferilon Leafborn
 f Dun Modr|QID|26196|M|49.98,18.58|Z|56; Wetlands|N|At Caleb Baelor.|
 T Longbraid the Grim|QID|26196|M|49.88,18.36|Z|56; Wetlands|N|To Longbraid the Grim.|
 A Anvilmar the Hero|QID|26327|LEAD|26127|M|49.88,18.36|Z|56; Wetlands|N|From Longbraid the Grim.|

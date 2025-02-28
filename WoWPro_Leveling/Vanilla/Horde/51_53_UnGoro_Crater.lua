@@ -6,7 +6,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; === guides/51_53_Un'Goro_Crater.lua ===
-R Un'Goro Crater|M|26.00,52.00|Z|Tanaris|N|Southewest corner of the zone|
+R Un'Goro Crater|M|26.00,52.00|Z|1446; Tanaris|N|Southewest corner of the zone|
 N Look for loot...|N|There are many loot nodes scattered across this zone. You'll need 7 of each color of power crystals. (and more for later quests) Also loot any dirt piles or sprouts you find.|
 
 A The Apes of Un'Goro|QID|4289|M|69.00,77.00|N|Tauren on the hill to the left of the ramp from Tanaris|
@@ -62,7 +62,7 @@ T The Bait for Lar'korwi|QID|4292|M|71.6,76.0|N|To Torwa Pathfinder|
 T The Apes of Un'Goro|QID|4289|M|71.6,76.0|N|To Torwa Pathfinder - Skip the follow-up|
 
 C Alien Ecology|QID|3883|U|11132|M|50.00,77.00;48.62,85.33|CS|N|Down in the Slithering Scar. Head left inside to the big room, use the vial|
-K Kill bugs for [Gorishi Scent Gland]|ACTIVE|4496|L|11837|Z|Tanaris|
+K Kill bugs for [Gorishi Scent Gland]|ACTIVE|4496|L|11837|Z|1446; Tanaris|
 C Expedition Salvation|QID|3881|QO|2|M|38.50,66.00|N|At the other camp.|
 C The Western Pylon|QID|4288|N|Right-click the Western Crystal Pylon|NC|M|23.00,59.00|
 A Finding the Source|QID|974|M|30.90,50.40|N|From Krakle.|
@@ -98,10 +98,10 @@ R Silithus|M|29.00,22.00|N|Take the path up out of the crater in the northwest c
 R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
 f Cenarion Hold|M|50.6,34.4|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
 F Gadgetzan|M|48.8,36.6|Z|Silithus|N|At Runk Windtamer.|
-T Bungle in the Jungle|QID|4496|M|50.8,27|Z|Tanaris|N|To Alchemist Pestlezugg. (Skip follow-up)|
-T Super Sticky|QID|4504|M|51.6,26.8|Z|Tanaris|N|To Tran'rek.|
+T Bungle in the Jungle|QID|4496|M|50.8,27|Z|1446; Tanaris|N|To Alchemist Pestlezugg. (Skip follow-up)|
+T Super Sticky|QID|4504|M|51.6,26.8|Z|1446; Tanaris|N|To Tran'rek.|
 
-H Thunder Bluff|AVAILABLE|3761|M|51.6,25.4|Z|Tanaris|N|Hearth or Fly to Thunder Bluff.|
+H Thunder Bluff|AVAILABLE|3761|M|51.6,25.4|Z|1446; Tanaris|N|Hearth or Fly to Thunder Bluff.|
 A Assisting Arch Druid Runetotem|QID|3762|M|45.6,64.2|Z|Thunder Bluff|N|From Innkeeper Pala.|
 A Un'Goro Soil|QID|3761|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem On Elder Rise|
 T Un'Goro Soil|QID|3761|M|77.4,22.4|Z|Thunder Bluff|N|To Ghede.|
@@ -109,15 +109,15 @@ A Morrowgrain Research|QID|3782|PRE|3761|M|78.4,28.4|Z|Thunder Bluff|N|From Arch
 T Morrowgrain Research|QID|3782|M|70.6,33|Z|Thunder Bluff|N|To Bashana Runetotem.|
 
 F Crossroads|ACTIVE|4502|M|46.8,50|Z|Thunder Bluff|N|At Wind Rider Master Tal.|
-h The Crossroads|ACTIVE|4502|M|52,29.8|Z|The Barrens|N|At Innkeeper Boorand Plainswind.|
+h The Crossroads|ACTIVE|4502|M|52,29.8|Z|1413; The Barrens|N|At Innkeeper Boorand Plainswind.|
 
-F Ratchet|ACTIVE|4502|M|51.4,30.2|Z|The Barrens|N|At Wind Rider Master Devrak.|
-T Volcanic Activity|QID|4502|M|62.4,38.6|Z|The Barrens|N|To Liv Rizzlefix.|
-T Marvon's Workshop|QID|4147|M|62.4,38.6|Z|The Barrens|N|To Liv Rizzlefix.|
+F Ratchet|ACTIVE|4502|M|51.4,30.2|Z|1413; The Barrens|N|At Wind Rider Master Devrak.|
+T Volcanic Activity|QID|4502|M|62.4,38.6|Z|1413; The Barrens|N|To Liv Rizzlefix.|
+T Marvon's Workshop|QID|4147|M|62.4,38.6|Z|1413; The Barrens|N|To Liv Rizzlefix.|
 
 ;this should already be turned in during 40-51 guide, but left it here since it isn't hurting anything. won't be visable unless it needs turned in.
-b Booty Bay|ACTIVE|580|M|63.6,38.7|Z|The Barrens|N|Take the boat from Ratchet to Booty Bay.|
-T Whiskey Slim's Lost Grog|QID|580|M|22,74|Z|Stranglethorn Vale|N|To Whiskey Slim.|
+b Booty Bay|ACTIVE|580|M|63.6,38.7|Z|1413; The Barrens|N|Take the boat from Ratchet to Booty Bay.|
+T Whiskey Slim's Lost Grog|QID|580|M|22,74|Z|1434; Stranglethorn Vale|N|To Whiskey Slim.|
 
 ]]
 end)

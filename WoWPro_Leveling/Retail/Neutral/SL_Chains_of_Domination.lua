@@ -1,9 +1,10 @@
-local guide = WoWPro:RegisterGuide('SL_COD', 'Leveling', 'Korthia', 'Elidion', 'Neutral')
+local guide = WoWPro:RegisterGuide('SL_COD', 'Leveling', 'Korthia!The Maw', 'Elidion', 'Neutral')
 WoWPro:GuideName(guide,"Chains of Domination Campaign")
 WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideLevels(guide, 60, 60)
 WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:TopCategory(guide, "End Game")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Looted Quests

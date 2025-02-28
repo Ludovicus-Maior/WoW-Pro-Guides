@@ -150,20 +150,20 @@ A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|Z|Orgrimmar|N|From Zor Lonetr
 f Origrimmar|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
 
 ; --- Druid 'Cure Poison' lv 14 class quest
-F Thunder Bluff|AVAILABLE|6126|M|51.54,30.35|Z|The Barrens|N|Fly to Thunder Bluff.|R|Tauren|C|Druid|
+F Thunder Bluff|AVAILABLE|6126|M|51.54,30.35|Z|1413; The Barrens|N|Fly to Thunder Bluff.|R|Tauren|C|Druid|
 N Quest Items|AVAILABLE|6126|L|-2449 5|N|You will need to bring 5 Earthroot with you for one of the quests in this series.|R|Tauren|C|Druid|
 A Lessons Anew|QID|6126|M|76.48,27.25|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise.|R|Tauren|C|Druid|
 P Moonglade|ACTIVE|6126|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
-T Lessons Anew|QID|6126|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
-A The Principal Source|QID|6127|M|56.2,27.6|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6126|R|Tauren|C|Druid|
-F Thunder Bluff|ACTIVE|6127|M|44.28,45.87|Z|Moonglade|N|Fly to Thunder Bluff.\nThis flight takes about 9 minutes.|R|Tauren|C|Druid|
+T Lessons Anew|QID|6126|M|56.19,30.65|Z|1450; Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
+A The Principal Source|QID|6127|M|56.2,27.6|Z|1450; Moonglade|N|From Dendrite Starblaze.|PRE|6126|R|Tauren|C|Druid|
+F Thunder Bluff|ACTIVE|6127|M|44.28,45.87|Z|1450; Moonglade|N|Fly to Thunder Bluff.\nThis flight takes about 9 minutes.|R|Tauren|C|Druid|
 ; ---
 
 ; --- Travel to The Barrens (The Crossroads)
 F Crossroads|ACTIVE|1358|M|45.13,63.90|Z|Orgrimmar|N|Doras|TAXI|Crossroads|
 R Leave Orgrimmar|ACTIVE|1358|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|TAXI|-Crossroads|
 R Far Watch Outpost|ACTIVE|1358|M|45.54,12.08;36.17,23.14;34.16,42.30|Z|Durotar|CC|N|As you exit the gate, turn right and follow the wall west to the river. Follow the shoreline south to the bridge and cross over to the Barrens.|TAXI|-Crossroads|
-R Crossroads|ACTIVE|1358|M|52.34,29.34|Z|The Barrens|N|Take the road west and follow the signs. Sticking to the road is a safe bet. There may be mobs that are a few levels above you along your route.|TAXI|-Crossroads|
+R Crossroads|ACTIVE|1358|M|52.34,29.34|Z|1413; The Barrens|N|Take the road west and follow the signs. Sticking to the road is a safe bet. There may be mobs that are a few levels above you along your route.|TAXI|-Crossroads|
 ; ---
 
 ]]

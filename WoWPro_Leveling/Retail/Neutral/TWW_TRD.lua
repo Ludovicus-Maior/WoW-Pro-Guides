@@ -38,7 +38,7 @@ T Cogs in the Machine|QID|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|To Spe
 A Speaking to the Speakers|QID|78631|PRE|78838|M|47.17,34.15|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 ;start class quests -- needs worked in a little better
 A Bless These Homes|QID|78877|M|46.98,32.38|Z|2214; The Ringing Deeps|N|From Speaker Jurlax.|RANK|2|C|Paladin,Priest|
-C Bless These Homes|QID|78877|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Bless Gundargz Incense.|S|
+C Bless These Homes|QID|78877|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Bless Gundargz Incense.|
 T Bless These Homes|QID|78877|M|46.98,32.38|Z|2214; The Ringing Deeps|N|From Speaker Jurlax.|
 A Go Take Candle!|QID|78827|M|48.2,32.1|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
 C Go Take Candle!|QID|78827|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|
@@ -53,13 +53,13 @@ A Conjured Help|QID|78874|M|48.00,32.2|Z|2214; The Ringing Deeps|N|From Inkeeper
 C Conjured Help|QID|78874|M|48.00,32.2|Z|2214; The Ringing Deeps|N|Summon food for Innkeeper Brax in the Gundargaz Inn.|
 T Conjured Help|QID|78874|M|48.00,32.2|Z|2214; The Ringing Deeps|N|To Inkeeper Brax.|
 A Evoking the Forge|QID|78879|M|47.4,28.4|Z|2214; The Ringing Deeps|N|From Foreman Svart.|RANK|2|C|Evoker|
-C Evoking the Forge|QID|78879|M|48.00,32.2|Z|2214; The Ringing Deeps|N|Stoke the Forge with Fire Breath.|
+C Evoking the Forge|QID|78879|M|47.27,28.43|Z|2214; The Ringing Deeps|N|Stoke the Forge with Fire Breath.|
 T Evoking the Forge|QID|78879|M|47.4,28.4|Z|2214; The Ringing Deeps|N|To Foreman Svart.|
 A On Cold, Dark Wings|QID|78900|PRE|78838|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|
 A A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|C|Demon Hunter,Warlock|
 A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;This is part of the IoD Soujourner questline. its in the Dorn GUide.
 A Discarded and Broken|QID|78562|PRE|78838|M|48.29,33.43|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|RANK|2|
-C A Shadow Over Gundargaz|QID|78895|QO|1|M|48.26,34.44|Z|2214; The Ringing Deeps|N|Click on the Gundargaz Defender to Investigate the Market.|H|
+C A Shadow Over Gundargaz|QID|78895|QO|1|M|48.26,34.44|Z|2214; The Ringing Deeps|N|Click on the green pool to the left of the Gundargaz Defender.|H|
 ;end insert class quests - pieced together needs tested -- pally priest warlock dh tested
 A Brax's Brass Knuckles|QID|78918|M|47.94,32.16|Z|2214; The Ringing Deeps|N|From Innkeeper Brax.|RANK|2|
 C Discarded and Broken|QID|78562|M|46.63,29.46|QO|1|Z|2214; The Ringing Deeps|N|Pick up box on left side of door..|H|
@@ -137,14 +137,14 @@ C Wax On, Pot Off|QID|79267|M|65.72,29.30|QO|1|Z|2214; The Ringing Deeps|N|Wax p
 T Wax On, Pot Off|QID|79267|M|61.54,31.95|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 T Tackling Torchsnarl|QID|78641|M|61.52,31.98|Z|2214; The Ringing Deeps|N|To Skitter.|
 A New Candle, New Hope|QID|78642|PRE|78641&79267|M|61.52,31.98|Z|2214; The Ringing Deeps|N|From Skitter.|
-C New Candle, New Hope|QID|78642|M|41.58,12.54|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Speak with Skitter to enter the Darkflame Cleft.|
+C New Candle, New Hope|QID|78642|M|61.52,31.98|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Speak with Skitter to enter the Darkflame Cleft.|
 C New Candle, New Hope|ACTIVE|78642|SO|1|N|Apply the kobold costume.|EAB|
 C New Candle, New Hope|ACTIVE|78642|SO|2|N|Click on the candles to put them out, avoiding the see invis mobs.|
 C New Candle, New Hope|ACTIVE|78642|SO|3|M|41.51,39.00|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Waximus.|EAB|
 C New Candle, New Hope|ACTIVE|78642|SO|4|M|41.51,39.00|Z|2304;Darkflame Cleft|N|Reapply your disguise and head to the throne room.|BUFF|430738|
-C New Candle, New Hope|ACTIVE|78642|SO|4|M|41.47,81.12|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Dripear the Waxy and loot the keys.|
-C New Candle, New Hope|ACTIVE|78642|SO|5|N|Open the treasure chests to get the crown.|
-C New Candle, New Hope|ACTIVE|78642|SO|6|N|Talk to Skitter to leave.|CHAT|
+C New Candle, New Hope|ACTIVE|78642|SO|5|M|41.47,81.12|Z|2304;Darkflame Cleft|N|Remove your disguise and kill Dripear the Waxy and loot the keys.|
+C New Candle, New Hope|ACTIVE|78642|SO|6|N|Open the treasure chests to get the crown.|
+C New Candle, New Hope|ACTIVE|78642|SO|7|N|Talk to Skitter to leave.|CHAT|
 C New Candle, New Hope|QID|78642|QO|2|CHAT|Z|2304; DarkFlame Cleft|N|Candle Crown Retrieved.|
 T New Candle, New Hope|QID|78642|M|61.53,32.01|Z|2214; The Ringing Deeps|N|To Skitter.|
 A Back to Gundargaz|QID|80082|PRE|78642|M|61.53,32.01|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
@@ -591,7 +591,8 @@ C Orientation: Gundargaz|QID|81689|M|47.49,32.79|Z|2214; The Ringing Deeps|CHAT|
 T Orientation: Gundargaz|QID|81689|M|47.15,34.14|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
 A The Hallowed Path|QID|78658|PRE|81689|M|47.08,32.22|Z|2214; The Ringing Deeps|N|From Anduin Wrenn.|
 A Daily Diagnostics|QID|83108|PRE|78761|M|47.29,31.65|Z|2214;The Ringing Deeps|N|From Therkan. This is a dungeon quest, and not included in this guide.|RANK|3|
-A Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|LVL|80|; Quest is bugged for players below level 80.
+A Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|LVL|80|
+A Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|PRE|83543|
 T A Hint of Fear|QID|79256|M|55.05,63.29|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
 t Daily Diagnostics|QID|83108|M|47.29,31.65|Z|2214;The Ringing Deeps|N|To Therkan.|RANK|3|IZ|Gundargaz|
 t Knicknack's Knicknacks|QID|83154|M|46.50,30.20|Z|2214;The Ringing Deeps|N|To Knicknack.|RANK|3|IZ|Gundargaz|

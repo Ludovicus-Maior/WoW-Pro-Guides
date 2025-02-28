@@ -4,4 +4,5 @@
 	<Script file="DF_LunarFestival.lua"/>
 	<Script file="Squally.lua"/>
 	<Script file="Twists_GuestRelations.lua"/>	
+	<Script file="TWW_LunarFestival.lua"/>
 </Ui>

@@ -10,8 +10,8 @@ A Elmore's Task|QID|1097|M|41.6,65.6|Z|37;Elwynn Forest|N|From Smith Argus at Go
 T Elmore's Task|QID|1097|M|59.6,34.0|Z|84;Stormwind City|N|To Grimand Elmore in the Dwarven District of Stormwind City.|RANK|3|
 A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|84;Stormwind City|N|From Grimand Elmore.|RANK|3|
 F Ironforge|QID|26131|M|41.8,52.2|Z|84;Stormwind City|N|Head to Ironforge either by the Stormwind Tram, or by flying from your nearest flight master.|RANK|3|
-A Reinforcements for Loch Modan|QID|26131|M|41.8,52.2|Z|48; Loch Modan|N|From Mountaineer Barleybrew in Ironforge.\nIf quest doesn't show, drop the quest Hero's Call: Loch Modan!|RANK|2|
-F South Gate Outpost|QID|26131|M|55.49,47.78|Z|48; Loch Modan|N|Talk to Gryth Thurden, and ask him to fly you to Loch Modan.|RANK|2|
+A Reinforcements for Loch Modan|QID|26131|M|41.8,52.2|Z|87; Ironforge|N|From Mountaineer Barleybrew in Ironforge.\nIf quest doesn't show, drop the quest Hero's Call: Loch Modan!|RANK|2|
+F South Gate Outpost|QID|26131|M|55.49,47.78|Z|87; Ironforge|N|Talk to Gryth Thurden, and ask him to fly you to Loch Modan.|RANK|2|
 T Reinforcements for Loch Modan|QID|26131|M|14,56.49|Z|48; Loch Modan|N|To Pilot Hammerfoot.|RANK|2|
 T Hero's Call: Loch Modan!|QID|28567|M|14,56.49|Z|48; Loch Modan|N|To Pilot Hammerfoot.|O|
 A The Lost Pilot|QID|26854|M|14,56.49|Z|48; Loch Modan|N|From Pilot Hammerfoot.|
@@ -87,9 +87,9 @@ T The Bearer of Gnoll-edge|QID|26864|M|35.09,46.41|Z|48; Loch Modan|N|To Mountai
 A Suddenly, Murlocs!|QID|26927|PRE|26864|M|35.09,46.41|Z|48; Loch Modan|N|From Mountaineer Kadrell.|
 T Suddenly, Murlocs!|QID|26927|M|34.81,49.06|Z|48; Loch Modan|N|To Cannary Caskshot.|
 A Smells Like A Plan|QID|26928|PRE|26927|M|34.81,49.06|Z|48; Loch Modan|N|From Cannary Caskshot.|
-C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Kill and loot the Bluegill Merloc's until you get the 7 glands.|S|
+C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Kill and loot the Bluegill Murloc's until you get the 7 glands.|S|
 A Explorers' League Document (2 of 6)|QID|13655|M|41.35,39.00|Z|48; Loch Modan|N|From the Stolen Explorers' League Documents. It is hard to see, it is just under the south side of the bridge.|
-C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Finish killing and the Bluegill Merloc's until you get the 7 glands.|US|
+C Smells Like A Plan|QID|26928|M|42.92,47.90|Z|48; Loch Modan|N|Finish killing and the Bluegill Murloc's until you get the 7 glands.|US|
 T Explorers' League Document (2 of 6)|QID|13655|M|37.18,47.82|Z|48; Loch Modan|N|To Torren Squarejaw.|
 A Buzz Off|QID|26932|PRE|26927|M|35.01,46.42|Z|48; Loch Modan|N|From Mountaineer Kadrell.|
 T Smells Like A Plan|QID|26928|M|34.85,49.07|Z|48; Loch Modan|N|To Cannary Caskshot.|
@@ -147,7 +147,7 @@ T Explorers' League Document (4 of 6)|QID|13658|M|37.18,47.75|Z|48; Loch Modan|N
 T Explorers' League Document (5 of 6)|QID|13660|M|37.18,47.75|Z|48; Loch Modan|N|To Torren Squarejaw.|
 T Explorers' League Document (6 of 6)|QID|13659|M|37.18,47.75|Z|48; Loch Modan|N|To Torren Squarejaw.|
 F Farstrider Lodge|QID|27031|M|33.96,50.88|Z|48; Loch Modan|N|Fly to Farstrider Lodge.|
-h Farstrider Lodge|QID|27031|M|81.91,64.60|Z|48; Loch Modan|N|At Vyrin Swiftwind.|
+h The Farstrider Lodge|QID|27031|M|81.91,64.60|Z|48; Loch Modan|N|At Vyrin Swiftwind.|
 T Wing Nut|QID|27031|M|81.68,64.66|Z|48; Loch Modan|N|To Bingles Blastenheimer.|
 A Bird is the Word|QID|27032|PRE|27031|M|81.70,64.63|Z|48; Loch Modan|N|From Bingles Blastenheimer.|
 T Thistle While You Work|QID|27025|M|82.86,63.50|Z|48; Loch Modan|N|To Safety Warden Pipsy.|

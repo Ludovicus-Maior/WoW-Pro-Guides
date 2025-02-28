@@ -23,10 +23,10 @@ A Bound for Kharanos|QID|26380|M|49.89, 45.01|Z|1426;Dun Morogh|N|From Ciara Dee
 A Ride to Ironforge|QID|6391|PRE|6387|M|53.80,52.75|Z|1426;Dun Morogh|N|The next three quests see you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
 F Ironforge|ACTIVE|6391|M|53.80,52.75|Z|1426;Dun Morogh|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
 T Ride to Ironforge|QID|6391|M|51.37,26.27|Z|1455; Ironforge|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
-A Gryth Thurden|QID|6388|PRE|6391|Z|1432; Loch Modan|M|51.37,26.27|N|From Golnir Bouldertoe|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
-T Gryth Thurden|QID|6388|PRE|6391|M|55.42,47.80|Z|1432; Loch Modan|N|Back to the flight master, Gryth Thurden|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
-A Return to Gremlock|QID|6392|PRE|6388|Z|1432; Loch Modan|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
-F Kharanos|ACTIVE|6392|PRE|6391|M|54.73,50.58|Z|1426;Dun Morogh|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
+A Gryth Thurden|QID|6388|PRE|6391|M|51.37,26.27|Z|1455; Ironforge|N|From Golnir Bouldertoe|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
+T Gryth Thurden|QID|6388|PRE|6391|M|55.83,48.01|Z|1455; Ironforge|N|Back to the flight master, Gryth Thurden|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
+A Return to Gremlock|QID|6392|PRE|6388|Z|1455; Ironforge|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
+F Kharanos|ACTIVE|6392|PRE|6391|M|54.73,50.58|Z|1455; Ironforge|N|Either Fly back to Kharanos then run into the Inn, or use your Hearthstone back to Kharnos|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
 T Return to Gremlock|QID|6392|PRE|6391|M|54.73,50.81|Z|1426;Dun Morogh|N|To Gremlock Pilsnor|R|Gnome,Dwarf,Dark Iron Dwarf|RANK|2|
 R Shimmer Ridge|QID|25724|M|49.95,43.90|Z|1426;Dun Morogh|N|Run to here then head up the hill.|FLY|OLD|
 C The Perfect Stout|QID|315|Z|1426;Dun Morogh|N|Collect Shimmerweeds  from the baskets on the ground.|NC|S|

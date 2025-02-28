@@ -29,7 +29,7 @@ t Hallowfall|QID|83551|M|68.43,45.07|Z|2215;Hallowfall|N|To Faerin.|;picking up 
 A Where the Light Touches|QID|78659|PRE|78658|M|68.44,45.11|Z|2215;Hallowfall|N|From Faerin.|
 A Delver's Call: The Skittering Breach|QID|83768|M|67.78,45.61|Z|2215;Hallowfall|N|From the sign on the lampost.|RANK|3|
 t Delver's Call: Mycomancer Cavern|QID|83769|M|69.17,45.62|Z|2215;Hallowfall|N|To Valrin Paller.|IZ|Dunelle's Kindness|
-t Delver's Call: The Skittering Breach|QID|83768|M|67.78,45.61|Z|2215;Hallowfall|N|To Valrin Paller.|IZ|Dunelle's Kindness|;apparently Valrin moves around, I found at 63.00,44.21
+t Delver's Call: The Skittering Breach|QID|83768|M|68.02,43.31|Z|2215;Hallowfall|N|To Lerrenal Fayn.|IZ|Dunelle's Kindness|
 f Dunelle's Kindness|ACTIVE|78659|M|67.48,44.62|Z|2215;Hallowfall|N|At Auro Flitter.|
 A Suspicious Minds|QID|83247|M|68.05,44.26|Z|2215;Hallowfall|N|From Derill Fayn.|RANK|2|
 A For Morale|QID|83283|M|68.02,44.26|Z|2215;Hallowfall|N|From Lerrenai Fayn.|RANK|2|
@@ -181,12 +181,12 @@ C Restore the Flame|QID|78954|M|56.19,42.01|Z|2215;Hallowfall|CHAT|N|Tell Faerin
 T Restore the Flame|QID|78954|M|56.19,42.01|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A To Mereldar|QID|78607|M|56.19,42.01|Z|2215;Hallowfall|N|From Faerin Lothar.|
 A Delver's Call: The Sinkhole|QID|83767|M|48.71,39.61|Z|2215;Hallowfall|N|From Poster on the Pole.|RANK|3|
-A Hungry in Hollow|QID|84392|M|48.45,39.39|Z|2215;Hallowfall|N|From Haelmut Aegisaxe.|LEAD|82843|RANK|2|LVL|75|
+A Hungry in Hollow|QID|84392|M|48.45,39.39;49.22,39.58|CN|Z|2215;Hallowfall|N|From Haelmut Aegisaxe. He moves between his stall and the Inn. |LEAD|82843|RANK|2|LVL|75|
 A Lights Out|QID|78686|M|49.14,41.09|Z|2215;Hallowfall|N|From Aegor Irynbawnd.|RANK|2|
 T To Mereldar|QID|78607|M|43.42,48.57|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A The Bastion of Hallowfall|QID|78613|M|43.39,48.64|Z|2215;Hallowfall|N|From General Steelstrike.|
 C The Bastion of Hallowfall|QID|78613|M|42.67,55.70|Z|2215;Hallowfall|QO|1|NC|N|Meet Faerin, Anduin, and Alleria at Empire's Edge Inn.|
-B The Bastion of Hallowfall|ACTIVE|78613|M|42.77,55.80|Z|2215;Hallowfall|QO|2|N|Go to the innkeeper top left item he sells is `a round of drinks`.|
+B The Bastion of Hallowfall|ACTIVE|78613|M|42.77,55.80|Z|2215;Hallowfall|QO|2|N|Go to the innkeeper top left item she sells is `a round of drinks`.|
 C The Bastion of Hallowfall|QID|78613|M|42.72,55.69|Z|2215;Hallowfall|QO|3|H|N|Hand out the Drinks.|
 T The Bastion of Hallowfall|QID|78613|M|42.72,55.69|Z|2215;Hallowfall|N|To Faerin Lothar.|
 A Nightwatch|QID|79297|M|42.72,55.69|Z|2215;Hallowfall|N|From Alleria Windrunner.|
