@@ -176,22 +176,56 @@ local function levelSort(a, b)
     end
 end
 
+local expansionOrder = {
+    ["Intro"] = 0,
+    ["The Burning Crusade"] = 1,
+    ["Wrath of the Lich King"] = 2,
+    ["Cataclysm"] = 3,
+    ["Mists of Pandaria"] = 4,
+    ["Warlords of Draenor"] = 5,
+    ["Legion"] = 6,
+    ["Battle for Azeroth"] = 7,
+    ["Shadowlands"] = 8,
+    ["Dragonflight"] = 9,
+    ["The War Within"] = 10
+}
+
 local function contentSort(a, b)
     if not WoWPro.RETAIL then
         return levelSort(a, b)
     else
-        if a.xpac == b.xpac then
+        local aOrder = expansionOrder[a.Content] or math.huge
+        local bOrder = expansionOrder[b.Content] or math.huge
+
+        if aOrder == bOrder then
             return levelSort(a, b)
         end
 
-        return a.xpac < b.xpac
+        return aOrder < bOrder
     end
 end
+
+function Leveling:GetGuideListInfo()
+    if not listInfo or WoWPro.GuidelistReset then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {zoneSort, contentSort, authorSort, progressSort},
+                names = {"Zone", "Content", "Author", "Progress"},
+                size = {0.35, 0.25, 0.28, 0.12},
+            },
+        }
+        WoWPro.GuidelistReset = false
+    end
+    return listInfo
+end
+
 local function authorSort(a, b)
     if a.Author == b.Author then return end
 
     return a.Author < b.Author
 end
+
 local function progressSort(a, b)
     if a.progress == b.progress then return end
 
