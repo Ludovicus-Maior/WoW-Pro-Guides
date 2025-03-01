@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmLegionPaladin', 'Leveling', "Light's Hope Chapel", 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmLegionPaladin', 'Leveling', "Light's Hope Chapel", 'WoWPro Team', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideContent(guide, "Legion")

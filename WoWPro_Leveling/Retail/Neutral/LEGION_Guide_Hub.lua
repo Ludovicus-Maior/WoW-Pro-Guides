@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('LegionGuideHub', 'Leveling', "Dalaran!Dalaran!Dungeon", 'Elidion', 'Neutral')
+local guide = WoWPro:RegisterGuide('LegionGuideHub', 'Leveling', "Dalaran!Dalaran!Dungeon", 'WoWPro Team', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Legion: Guide Hub")

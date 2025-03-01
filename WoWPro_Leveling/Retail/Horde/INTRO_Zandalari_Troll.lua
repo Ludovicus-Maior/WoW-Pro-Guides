@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("ZandalariTroll", "Leveling", "Orgrimmar", "Elidion", "Horde")
+local guide = WoWPro:RegisterGuide("ZandalariTroll", "Leveling", "Orgrimmar", "WoWPro Team", "Horde")
 WoWPro:GuideLevels(guide, 10, 10)
 WoWPro:GuideSort(guide, 15)
 WoWPro:GuideNickname(guide, "Zandalari Troll Intro")
