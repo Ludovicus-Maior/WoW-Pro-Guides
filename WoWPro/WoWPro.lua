@@ -831,7 +831,7 @@ function WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, e
     end
     local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonAndType)
     if AddonIndex < 1 then
-        if table.getn(GuideMenuList) == 0 then
+        if #GuideMenuList == 0 then
             table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
         end
         local stuff = { text = AddonAndType, hasArrow = true, menuList = {} }
@@ -841,12 +841,12 @@ function WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, e
             end
         end
         table.insert(GuideMenuList, stuff)
-        AddonIndex = table.getn(GuideMenuList)
+        AddonIndex = #GuideMenuList
     end
 
     local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideName)
     if GuideNameIndex < 1 then
-        if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
+        if #GuideMenuList[AddonIndex].menuList == 0 then
             table.insert(GuideMenuList[AddonIndex].menuList,
                 { text = "Select a Guide", isTitle = true })
         end
@@ -863,7 +863,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
     local GuideMenuList = WoWPro.GuideMenuList
     local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonType)
     if AddonIndex < 1 then
-        if table.getn(GuideMenuList) == 0 then
+        if #GuideMenuList == 0 then
             table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
         end
         local stuff = { text = AddonType, hasArrow = true, menuList = {} }
@@ -873,21 +873,21 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
             end
         end
         table.insert(GuideMenuList, stuff)
-        AddonIndex = table.getn(GuideMenuList)
+        AddonIndex = #GuideMenuList
     end
 
     local GTypeIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideType)
     if GTypeIndex < 1 then
-        if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
+        if #GuideMenuList[AddonIndex].menuList == 0 then
             table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Guide Category", isTitle = true })
         end
         table.insert(GuideMenuList[AddonIndex].menuList, { text = GuideType, hasArrow = true, menuList = {} })
-        GTypeIndex = table.getn(GuideMenuList[AddonIndex].menuList)
+        GTypeIndex = #GuideMenuList[AddonIndex].menuList
     end
 
     local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, GuideName)
     if GuideNameIndex < 1 then
-        if table.getn(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList) == 0 then
+        if #GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList == 0 then
             table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList,
                 { text = "Select a Guide", isTitle = true })
         end
@@ -975,8 +975,49 @@ end
 function WoWPro.ShowGuideMenu()
     WoWPro.BuildGuideInMenuList()
     local menuFrame = _G.CreateFrame("Frame", "WoWPro_Guides", _G.UIParent, "UIDropDownMenuTemplate")
-    menuFrame:SetPoint("Center", _G.UIParent, "Center")
-    WoWPro.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
+    menuFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
+
+    local function InitializeMenu(frame, level, menuList)
+        local menu = menuList or WoWPro.GuideMenuList
+        for _, item in ipairs(menu) do
+            local info = _G.UIDropDownMenu_CreateInfo()
+            for key, value in pairs(item) do
+                info[key] = value
+            end
+            if item.menuList then
+                info.hasArrow = true
+                info.menuList = item.menuList
+            end
+            _G.UIDropDownMenu_AddButton(info, level)
+        end
+    end
+
+    _G.UIDropDownMenu_Initialize(menuFrame, function(self, level, menuList)
+        InitializeMenu(self, level, menuList)
+    end, "MENU")
+
+    local cursorX, cursorY = _G.GetCursorPosition()
+    local uiScale = _G.UIParent:GetEffectiveScale()
+    cursorX, cursorY = cursorX / uiScale, cursorY / uiScale
+
+    local screenWidth = _G.UIParent:GetWidth()
+    local screenHeight = _G.UIParent:GetHeight()
+
+    local menuWidth = 600
+    local menuHeight = 300
+
+    local xOffset = 0
+    local yOffset = 0
+
+    if cursorX + menuWidth > screenWidth then
+        xOffset = screenWidth - cursorX - menuWidth
+    end
+
+    if cursorY - menuHeight < 0 then
+        yOffset = cursorY - menuHeight
+    end
+
+    _G.ToggleDropDownMenu(1, nil, menuFrame, "cursor", xOffset, yOffset)
 end
 
 function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
