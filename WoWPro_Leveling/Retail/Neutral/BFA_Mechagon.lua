@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Mechagon', 'Leveling', 'Mechagon Island', 'Oxycontin+Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('Mechagon', 'Leveling', 'Mechagon Island', 'WoWPro Team', 'Neutral')
 WoWPro:GuideLevels(guide, 50, 50, 50)
 WoWPro:GuideSort(guide, 9)
 WoWPro:GuideName(guide,'Mechagon Island')

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('ChromieTimeH', 'Leveling', "Orgrimmar", "Elidion", "Horde")
+local guide = WoWPro:RegisterGuide('ChromieTimeH', 'Leveling', "Orgrimmar", "WoWPro Team", "Horde")
 WoWPro:GuideLevels(guide, 10, 59)
 WoWPro:GuideSort(guide, 100)
 WoWPro:GuideContent(guide, "Intro")

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'NetherlightTemple/1', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmLegionPriest', 'Leveling', 'NetherlightTemple/1', 'WoWPro Team', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideName(guide, 'Priest: Order Hall')

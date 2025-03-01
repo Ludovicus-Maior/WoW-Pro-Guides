@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("wotlkintro", "Leveling", "Dalaran City@Dalaran!Crystalsong Forest", "Elidion", "Alliance")
+local guide = WoWPro:RegisterGuide("wotlkintro", "Leveling", "Dalaran City@Dalaran!Crystalsong Forest", "WoWPro Team", "Alliance")
 WoWPro:GuideLevels(guide, 10, 60, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Wrath of the Lich King")

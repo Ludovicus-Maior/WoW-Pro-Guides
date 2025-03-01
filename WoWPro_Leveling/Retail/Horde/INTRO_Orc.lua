@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'WoWPro Team', 'Horde')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "Orc: Intro")

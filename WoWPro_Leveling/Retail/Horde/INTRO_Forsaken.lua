@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('JiyDk0105', "Leveling", 'Deathknell (Undead)', 'Jiyambi', 'Horde')
+local guide = WoWPro:RegisterGuide('JiyDk0105', "Leveling", 'Deathknell (Undead)', 'WoWPro Team', 'Horde')
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Forsaken: Intro")

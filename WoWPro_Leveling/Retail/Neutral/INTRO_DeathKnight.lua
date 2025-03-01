@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", "Jame", "Neutral")
+local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", "WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide, 8, 18, 10)
 WoWPro:GuideSort(guide, 16)
 WoWPro:GuideContent(guide, "Intro")

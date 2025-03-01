@@ -1,4 +1,4 @@
--- luacheck: globals tinsert sort pairs unpack
+-- luacheck: globals tinsert sort pairs unpack math
 -- luacheck: globals tostring
 
 ---------------------------------------------
@@ -42,7 +42,7 @@ local continentToXpac = {
     [1414] = _G.LE_EXPANSION_CLASSIC, -- Kalimdor
     [1415] = _G.LE_EXPANSION_CLASSIC, -- Eastern Kingdoms
     [1550] = _G.LE_EXPANSION_SHADOWLANDS, -- The Shadowlands
-	[1978] = _G.LE_EXPANSION_DRAGONFLIGHT, -- Dragonflight
+    [1978] = _G.LE_EXPANSION_DRAGONFLIGHT, -- Dragonflight
     [2274] = _G.LE_EXPANSION_WAR_WITHIN, -- The War Within
 }
 
@@ -89,14 +89,14 @@ local function LevelRefresh(guide)
         guide.startlevel, guide.endlevel = 1,50
     end
 
-	local playerLevel = WoWPro:PlayerLevel()
-	if guide.endlevel < playerLevel then
-		return guide.endlevel
-	elseif guide.startlevel <= playerLevel then
-		return (playerLevel + guide.startlevel) / 2.0
-	else
-		return guide.startlevel + 1.0
-	end
+    local playerLevel = WoWPro:PlayerLevel()
+    if guide.endlevel < playerLevel then
+        return guide.endlevel
+    elseif guide.startlevel <= playerLevel then
+        return (playerLevel + guide.startlevel) / 2.0
+    else
+        return guide.startlevel + 1.0
+    end
 end
 
 local rangeFormat = "%d - %d"
@@ -176,22 +176,41 @@ local function levelSort(a, b)
     end
 end
 
+local expansionOrder = {
+    ["Intro"] = 0,
+    ["The Burning Crusade"] = 1,
+    ["Wrath of the Lich King"] = 2,
+    ["Cataclysm"] = 3,
+    ["Mists of Pandaria"] = 4,
+    ["Warlords of Draenor"] = 5,
+    ["Legion"] = 6,
+    ["Battle for Azeroth"] = 7,
+    ["Shadowlands"] = 8,
+    ["Dragonflight"] = 9,
+    ["The War Within"] = 10
+}
+
 local function contentSort(a, b)
     if not WoWPro.RETAIL then
         return levelSort(a, b)
     else
-        if a.xpac == b.xpac then
+        local aOrder = expansionOrder[a.Content] or math.huge
+        local bOrder = expansionOrder[b.Content] or math.huge
+
+        if aOrder == bOrder then
             return levelSort(a, b)
         end
 
-        return a.xpac < b.xpac
+        return aOrder < bOrder
     end
 end
+
 local function authorSort(a, b)
     if a.Author == b.Author then return end
 
     return a.Author < b.Author
 end
+
 local function progressSort(a, b)
     if a.progress == b.progress then return end
 
@@ -200,6 +219,23 @@ local function progressSort(a, b)
     end
 
     return a.progress and true or false
+end
+
+local listInfo
+
+function Leveling:GetGuideListInfo()
+    if not listInfo or WoWPro.GuidelistReset then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {zoneSort, contentSort, authorSort, progressSort},
+                names = {"Zone", "Content", "Author", "Progress"},
+                size = {0.35, 0.25, 0.28, 0.12},
+            },
+        }
+        WoWPro.GuidelistReset = false
+    end
+    return listInfo
 end
 
 function Leveling:SetTooltip(guide)
@@ -229,22 +265,6 @@ function Leveling:UpdateGuideScores()
         end
         guide.name = guide.name or guide.zone
     end
-end
-
-local listInfo
-function Leveling:GetGuideListInfo()
-    if not listInfo or WoWPro.GuidelistReset then
-        listInfo = {
-            guides = GetGuides(),
-            headerInfo = {
-                sorts = {zoneSort, contentSort, authorSort, progressSort},
-                names = {"Zone", "Content", "Author", "Progress"},
-                size = {0.35, 0.25, 0.28, 0.12},
-            },
-        }
-		WoWPro.GuidelistReset = false
-    end
-    return listInfo
 end
 
 function Leveling:RegisterGuide(guide)
