@@ -907,6 +907,20 @@ function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, ex
     end
 end
 
+local expansionOrder = {
+    ["Classic"] = 1,
+    ["The Burning Crusade"] = 2,
+    ["Wrath of the Lich King"] = 3,
+    ["Cataclysm"] = 4,
+    ["Mists of Pandaria"] = 5,
+    ["Warlords of Draenor"] = 6,
+    ["Legion"] = 7,
+    ["Battle for Azeroth"] = 8,
+    ["Shadowlands"] = 9,
+    ["Dragonflight"] = 10,
+    ["The War Within"] = 11,
+}
+
 local function SortNestedMenu(menu, top)
     if top then
         menu = {menuList=menu}
@@ -921,14 +935,6 @@ local function SortNestedMenu(menu, top)
             SortNestedMenu(listEntry, false)
         end
     end
-    -- if table.getn(menu.menuList) == 2 then
-    --     for key, value in pairs(menu.menuList[2]) do
-    --         menu[key] = value
-    --         WoWPro:dbp("SortNestedMenu: Hoisting %q=%q up", tostring(key), tostring(value))
-    --     end
-    --     WoWPro:dbp("SortNestedMenu: Hoisted %q up", menu.text)
-    --     return
-    -- end
     local sort_function = function(a, b)
         WoWPro:dbp("sort_function({isTitle=%q, sortlevel=%q, text=%q} <? {isTitle=%q, sortlevel=%q, text=%q}",
                     tostring(a.isTitle), tostring(a.sortlevel), tostring(a.text),
@@ -936,6 +942,9 @@ local function SortNestedMenu(menu, top)
         if a.isTitle then return true; end
         if b.isTitle then return false; end
         if a.sortlevel then return (a.sortlevel or 100) < (b.sortlevel or 100); end
+        if expansionOrder[a.text] and expansionOrder[b.text] then
+            return expansionOrder[a.text] < expansionOrder[b.text]
+        end
         return (a.text < b.text) or false
     end
     table.sort(menu.menuList, sort_function)
