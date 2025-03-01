@@ -1,4 +1,4 @@
--- luacheck: globals tinsert sort pairs unpack
+-- luacheck: globals tinsert sort pairs unpack math
 -- luacheck: globals tostring
 
 ---------------------------------------------
@@ -42,7 +42,7 @@ local continentToXpac = {
     [1414] = _G.LE_EXPANSION_CLASSIC, -- Kalimdor
     [1415] = _G.LE_EXPANSION_CLASSIC, -- Eastern Kingdoms
     [1550] = _G.LE_EXPANSION_SHADOWLANDS, -- The Shadowlands
-	[1978] = _G.LE_EXPANSION_DRAGONFLIGHT, -- Dragonflight
+    [1978] = _G.LE_EXPANSION_DRAGONFLIGHT, -- Dragonflight
     [2274] = _G.LE_EXPANSION_WAR_WITHIN, -- The War Within
 }
 
@@ -89,14 +89,14 @@ local function LevelRefresh(guide)
         guide.startlevel, guide.endlevel = 1,50
     end
 
-	local playerLevel = WoWPro:PlayerLevel()
-	if guide.endlevel < playerLevel then
-		return guide.endlevel
-	elseif guide.startlevel <= playerLevel then
-		return (playerLevel + guide.startlevel) / 2.0
-	else
-		return guide.startlevel + 1.0
-	end
+    local playerLevel = WoWPro:PlayerLevel()
+    if guide.endlevel < playerLevel then
+        return guide.endlevel
+    elseif guide.startlevel <= playerLevel then
+        return (playerLevel + guide.startlevel) / 2.0
+    else
+        return guide.startlevel + 1.0
+    end
 end
 
 local rangeFormat = "%d - %d"
@@ -205,21 +205,6 @@ local function contentSort(a, b)
     end
 end
 
-function Leveling:GetGuideListInfo()
-    if not listInfo or WoWPro.GuidelistReset then
-        listInfo = {
-            guides = GetGuides(),
-            headerInfo = {
-                sorts = {zoneSort, contentSort, authorSort, progressSort},
-                names = {"Zone", "Content", "Author", "Progress"},
-                size = {0.35, 0.25, 0.28, 0.12},
-            },
-        }
-        WoWPro.GuidelistReset = false
-    end
-    return listInfo
-end
-
 local function authorSort(a, b)
     if a.Author == b.Author then return end
 
@@ -234,6 +219,23 @@ local function progressSort(a, b)
     end
 
     return a.progress and true or false
+end
+
+local listInfo -- Ensure listInfo is defined before use
+
+function Leveling:GetGuideListInfo()
+    if not listInfo or WoWPro.GuidelistReset then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {zoneSort, contentSort, authorSort, progressSort},
+                names = {"Zone", "Content", "Author", "Progress"},
+                size = {0.35, 0.25, 0.28, 0.12},
+            },
+        }
+        WoWPro.GuidelistReset = false
+    end
+    return listInfo
 end
 
 function Leveling:SetTooltip(guide)
@@ -263,22 +265,6 @@ function Leveling:UpdateGuideScores()
         end
         guide.name = guide.name or guide.zone
     end
-end
-
-local listInfo
-function Leveling:GetGuideListInfo()
-    if not listInfo or WoWPro.GuidelistReset then
-        listInfo = {
-            guides = GetGuides(),
-            headerInfo = {
-                sorts = {zoneSort, contentSort, authorSort, progressSort},
-                names = {"Zone", "Content", "Author", "Progress"},
-                size = {0.35, 0.25, 0.28, 0.12},
-            },
-        }
-		WoWPro.GuidelistReset = false
-    end
-    return listInfo
 end
 
 function Leveling:RegisterGuide(guide)
