@@ -30,7 +30,7 @@ A Alien Egg|QID|4821|M|44.69,50.25|Z|1441; Thousand Needles|N|From Hagar Lightni
 C Pacify the Centaur|QID|4841|QO|1;2;3|Z|1441; Thousand Needles|N|Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
 R Splithoof Hold|ACTIVE|1197|M|43.98,37.49|Z|1441; Thousand Needles|N|Leave Freewind Post and make your way northwest to Splithoof Hold.|
 R Ancient Brazier|ACTIVE|1197|M|42.00,31.55|CC|Z|1441; Thousand Needles|N|Head inside Splithoof Hold and make your way to the Ancient Brazier.|
-C The Sacred Flame|QID|1197|L|5869|Z|1441; Thousand Needles|N|Right-click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning.|
+C The Sacred Flame|QID|1197|Z|1441; Thousand Needles|L|5869|N|Right-click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning.|
 C Pacify the Centaur|QID|4841|QO|1;2;3|Z|1441; Thousand Needles|N|Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance.\nThe Windchasers heal themselves 75%.\nThe Wranglers range attack if you leave melee range.|US|
 R Windbreak Canyon|AVAILABLE|1149|M|52.31,43.13|Z|1441; Thousand Needles|N|Make your way east to Windbreak Canyon.|
 R The Weathered Nook|AVAILABLE|1149|M|54.63,44.68;53.67,42.74|CC|Z|1441; Thousand Needles|N|Climb up the ramp to the cave entrance.|
@@ -38,7 +38,7 @@ A Test of Faith|QID|1149|M|53.94,41.49|Z|1441; Thousand Needles|N|From Dorn Plai
 R Test of Faith|ACTIVE|1149|M|26.43,32.39|CC|Z|1441; Thousand Needles|N|Run and jump off the planks sticking out. You'll be teleported back to the cave as you fall.|
 T Test of Faith|QID|1149|M|53.94,41.49|Z|1441; Thousand Needles|N|To Dorn Plainstalker.|
 A Test of Endurance|QID|1150|M|53.60,42.82|Z|1441; Thousand Needles|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
-C Alien Egg|QID|4821|M|52.35,55.22;56.34,50.39|CN|L|12467|Z|1441; Thousand Needles|N|Look for the Alien Egg on the ground at one of two locations.\n[color=FF0000]NOTE: [/color]There is a rumor of a third location. They have a fairly long respawn timer.|
+C Alien Egg|QID|4821|M|52.35,55.22;56.34,50.39|CN|Z|1441; Thousand Needles|L|12467|N|Look for the Alien Egg on the ground at one of two locations.\n[color=FF0000]NOTE: [/color]There is a rumor of a third location. They have a fairly long respawn timer.|
 R Freewind Post|ACTIVE|4821|M|46.84,47.18|Z|1441; Thousand Needles|N|Run back to Freewind and take the lift up.|
 T Alien Egg|QID|4821|M|44.69,50.27|Z|1441; Thousand Needles|N|To Hagar Lightninghoof.|
 A Serpent Wild|QID|4865|PRE|4821|M|44.69,50.27|Z|1441; Thousand Needles|N|From Hagar Lightninghoof.|
@@ -57,10 +57,10 @@ R Whitereach Post|ACTIVE|4865|M|29.19,33.96;22.22,31.51|CC|
 T Serpent Wild|QID|4865|M|21.58,32.30|Z|1441; Thousand Needles|N|To Motega Firemane.|
 A Sacred Fire|QID|5062|PRE|4865|M|21.58,32.30|Z|1441; Thousand Needles|N|From Motega Firemane.|
 R Highperch|ACTIVE|4767|M|28.22,33.32;25.06,34.48;20.70,39.97;14.68,32.76|CC|Z|1441; Thousand Needles|N|Make your way to the ramp leading to High Perch.|
-l Wind Rider|QID|4767|L|12356 10|Z|1441; Thousand Needles|N|Collect Highperch Wyvern Eggs.|S|
+C Wind Rider|QID|4767|L|12356 10|Z|1441; Thousand Needles|N|Collect Highperch Wyvern Eggs.|S|
 A Homeward Bound|QID|4770|M|12.17,36.30;17.8,40.6|CC|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Pao'ka Swiftmountain.|
 C Homeward Bound|QID|4770|QO|1|M|15.15,32.61|Z|1441; Thousand Needles|N|Escort Pao'ka out of Highperch to the road below.\nAt one point, Pao'ka will stop to talk and a single Wyvern will spawn. This is the only time it happens.|
-l Wind Rider|QID|4767|L|12356 10|Z|1441; Thousand Needles|N|Go back to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
+C Wind Rider|QID|4767|L|12356 10|Z|1441; Thousand Needles|N|Go back to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
 R Whitereach Post|ACTIVE|4770|M|14.92,33.04;17.82,35.63;19.42,33.14|CC|
 T Homeward Bound|QID|4770|M|21.54,32.33|Z|1441; Thousand Needles|N|To Motega Firemane.|
 A Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizlo Bearingshiner.\n[color=FF0000]NOTE: [/color]This quest is not easy for some classes, especially at this level. Feel free to accept this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
@@ -71,7 +71,7 @@ T Assassination Plot|QID|4881|M|21.31,32.01|Z|1441; Thousand Needles|N|To Kanati
 A Protect Kanati Greycloud|QID|4966|M|21.31,32.01|Z|1441; Thousand Needles|N|From Kanati Greycloud.|
 C Protect Kanati Greycloud|QID|4966|Z|1441; Thousand Needles|N|A group of 3 Galak Assassins will spawn and attack you and Kanati. Defeat them to complete the quest.|
 T Protect Kanati Greycloud|QID|4966|M|21.30,31.95|Z|1441; Thousand Needles|N|To Kanati Greycloud.|
-l Incendia Agave|ACTIVE|5062|M|33.69,34.09;33.36,32.88;34.96,33.20;36.05,33.51;34.87,34.82;35.61,36.17;36.63,36.23;36.06,37.40;36.59,38.77|CN|Z|1441; Thousand Needles|L|12732 10|N|Loot these around and in the pond.|
+C Incendia Agave|ACTIVE|5062|M|33.69,34.09;33.36,32.88;34.96,33.20;36.05,33.51;34.87,34.82;35.61,36.17;36.63,36.23;36.06,37.40;36.59,38.77|CN|Z|1441; Thousand Needles|L|12732 10|N|Loot these from in and around the pond.|
 R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441; Thousand Needles|N|Run back to Freewind and take the lift up.|
 T Wind Rider|QID|4767|M|44.91,49.04|Z|1441; Thousand Needles|N|To Elu.|
 T Wanted - Arnak Grimtotem|QID|5147|M|45.68,50.62|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn.|
@@ -125,7 +125,7 @@ A Test of Lore|QID|1154|PRE|1152|M|78.79,45.67|Z|1442; Stonetalon Mountains|N|Fr
 
 ; --- Ashenvale
 R The Dor'Danil Barrow Den|QID|1154|M|42.28,71.07;53.71,58.89;71.71,70.28;75.02,76.38;75.84,75.38|CC|Z|1440; Ashenvale|N|Take the Talondeep Path to Ashenvale. Follow the path to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den.|
-l Legacy of the Aspects|QID|1154|M|77.32,75.18;76.60,74.86;75.56,74.36|CC|Z|1440; Ashenvale|L|5860|N|Find the Legacy of the Aspects.|
+C Legacy of the Aspects|QID|1154|M|77.32,75.18;76.60,74.86;75.56,74.36|CC|Z|1440; Ashenvale|L|5860|N|Find the Legacy of the Aspects.|
 
 ; --- Stonetalon Mountains
 R The Talondeep Path|ACTIVE|1154|CC|N|{coords}Make your way out The Dor'Danil Barrow Den. Head to the Ashenvale entrance to The Talondeep Path and go through to Stonetalon Mountains.|
@@ -163,15 +163,15 @@ N Mob Location|ACTIVE|1104^1105^1110^1111^1175^1176|Z|1441; Thousand Needles|N|A
 C Salt Flat Venom|QID|1104|Z|1441; Thousand Needles|N|Kill Scorpids to collect them.\nYou'll find the Reavers (lv 31-32) in the north and the Terrors (33-34) in the south.|S|
 C Hardened Tortoise Shell|QID|1105|Z|1441; Thousand Needles|N|Kill any variety of Sparkleshell tortoises to collect them.\nYou'll find the Tortoise (lv 30-31) in the NW quadrant, the Borer (32-33) in the SE quadrant and the Snapper (34-35) in the NE quadrant.|S|
 C Hollow Vulture Bone|QID|1176|Z|1441; Thousand Needles|N|Kill Salt Flats Vultures/Scavengers to collect them.\nYou'll find the lower level Scavengers (lv 30-32) in the north and the Vultures (32-34) in the south.|S|
-l Rocket Car Parts|ACTIVE|1110|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
-K A Bump in the Road|ACTIVE|1175|QO|3;2;1|Z|1441; Thousand Needles|N|You'll find the Basilisks (lv 30-31) in the NW quadrant, the Crystalhides (32-33) all over, and the Gazers (34-35) in the SE quadrant.|
+C Rocket Car Parts|QID|1110|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
+C A Bump in the Road|QID|1175|QO|3;2;1|Z|1441; Thousand Needles|N|You'll find the Basilisks (lv 30-31) in the NW quadrant, the Crystalhides (32-33) all over, and the Gazers (34-35) in the SE quadrant.|
 ;L Level 33|QID|1147|N|You should be around level 33 by this point.|LVL|33|
 A Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|
 * Extra Cracked Silithid Carapace|AVAILABLE|-1148|N|Dispose of these if you pick up anymore.|U|5877|
 C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5855 1|ITEM|5855|N|Silithids.|S|
 C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5854 5|ITEM|5854|N|Silithids.|S|
 C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5853 3|ITEM|5853|N|Silithids.|S|
-K The Swarm Grows|ACTIVE|1147|QO|1;2;3|M|71.33,83.15;66.52,86.15|CN|Z|1441; Thousand Needles|N|At the Rustmaul Dig Site in the south, kill Silithid Searchers, Hive Drones, and Invaders.\nYou'll find the Drones spread out around the area. The Searchers can be around the outside edge of the pit. The Invaders are inside the hive. There are two entrances into the hive.\n[color=FF0000]NOTE: [/color]The drones are non-aggressive as long as you don't attack them or any mobs around them. Do not leave them roaming inside the hive; you will die from being overwhelmed.|
+C The Swarm Grows|QID|1147|QO|1;2;3|M|71.33,83.15;66.52,86.15|CN|Z|1441; Thousand Needles|N|At the Rustmaul Dig Site in the south, kill Silithid Searchers, Hive Drones, and Invaders.\nYou'll find the Drones spread out around the area. The Searchers can be around the outside edge of the pit. The Invaders are inside the hive. There are two entrances into the hive.\n[color=FF0000]NOTE: [/color]The drones are non-aggressive as long as you don't attack them or any mobs around them. Do not leave them roaming inside the hive; you will die from being overwhelmed.|
 C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5855 1|ITEM|5855|N|Silithids.|US|
 C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5854 5|ITEM|5854|N|Silithids.|US|
 C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5853 3|ITEM|5853|N|Silithids.|US|
@@ -184,7 +184,9 @@ T Hardened Shells|QID|1105|M|78.14,77.08|Z|1441; Thousand Needles|N|To Wizzle Br
 A Encrusted Tail Fins|QID|1107|PRE|1104&1105|M|78.14,77.08|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizzle Brassbolts.|
 T Rocket Car Parts|QID|1110|M|77.8,77.2|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
 A Hemet Nesingwary|QID|5762|M|77.84,77.22|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-R Freewind Post|AVAILABLE|5361|M|47.63,49.04|Z|1441; Thousand Needles|N|Run back to Freewind and take the lift up.|
+R Tanaris|ACTIVE|5762|AVAILABLE|5361|M|75.00,95.70|N|Before we leave, go south and into Tanaris to get the flightpath there.|TAXI|-Tanaris|
+f Gadgetzan|AVAILABLE|5361|Z|1446; Tanaris|M|51.60,25.4|N|Pick up the flight path from Bulkrek Ragefist.|
+F Freewind Post|AVAILABLE|5361|M|47.63,49.04|Z|1441; Thousand Needles|N|Fly to Freewind Post.|
 A Family Tree|QID|5361|M|45.68,50.69|Z|1441; Thousand Needles|N|From Cliffwatcher Longhorn.|
 
 ; --- The Barrens/Orgrimmar
@@ -452,13 +454,13 @@ T Panther Mastery|QID|192|M|35.56,10.54|Z|1434; Stranglethorn Vale|N|To Sir S. J
 A Panther Mastery|QID|193|PRE|192|M|35.56,10.54|Z|1434; Stranglethorn Vale|ELITE|N|[color=ff8000]Elite: [/color]From Sir S. J. Erlgadin.|
 R Tkashi Ruins|QID|187|M|35.01,16.73|CC|Z|1434; Stranglethorn Vale|N|Head to the road and follow it south.|
 C Tiger Mastery|QID|187|QO|1|N|Kill Elder Stranglethorn Tigers.|
-R The Hills of the Ruins of Zul'Kunda|QID|191|M|29.26,16.14|Z|1434; Stranglethorn Vale|N|Head to the hills below the Ruins of Zul'Kunda|
+R The Hills of the Ruins of Zul'Kunda|ACTIVE|194|QO|1|M|29.26,16.14|Z|1434; Stranglethorn Vale|N|Head to the hills below the Ruins of Zul'Kunda|
 C Raptor Mastery|QID|194|QO|1|N|Kill Stranglethorn Raptors.|
-R Ruins of Zul'Kunda|QID|191|M|28.17,11.29|Z|1434; Stranglethorn Vale|N|Head into the Ruins of Zul'Kunda.|
-l Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp troll to loot them.\n[color=FF0000]NOTE: [/color]Watch out for multiple pulls and patrollers. Take Hunters out quickly because they can root you for 10 seconds.|S|
-l Hunt for Yenniku|ACTIVE|581|L|3901 9|N|Kill any Bloodscalp troll to loot them.|S|
-l Bloodscalp Ears|ACTIVE|189|L|1519 15|N|Kill any Bloodscalp troll to loot them.|
-l Hunt for Yenniku|ACTIVE|581|L|3901 9|N|Finish collecting Bloodscalp Tusks.|US|
+R Ruins of Zul'Kunda|ACTIVE|596|QO|1|M|28.17,11.29|Z|1434; Stranglethorn Vale|N|Head into the Ruins of Zul'Kunda.|
+C Bloody Bone Necklaces|QID|596|L|3915 25|ITEM|3915|N|any Bloodscalp troll.\n[color=FF0000]NOTE: [/color]Watch out for multiple pulls and patrollers. Take Hunters out quickly because they can root you for 10 seconds.|S|
+C Hunt for Yenniku|QID|581|L|3901 9|ITEM|3901|N|any Bloodscalp troll.|S|
+C Bloodscalp Ears|QID|189|L|1519 15|ITEM|1519|N|any Bloodscalp troll.|
+C Hunt for Yenniku|QID|581|L|3901 9|ITEM|3901|N|any Bloodscalp troll.|US|
 R Nesingwary's Expedition|ACTIVE|581|M|37.49,11.69|Z|1434; Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery|QID|195|PRE|194|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|From Hemet Nesingwary.|
@@ -497,9 +499,9 @@ F Orgrimmar|ACTIVE|569|M|47.02,49.83|Z|1456; Thunder Bluff|C|Druid|
 ; --- STV
 b Grom'gol Base Camp|ACTIVE|569|M|50.59,12.67|Z|1411; Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
 R Mizjah Ruins|ACTIVE|569|M|37.05,28.25|Z|1434; Stranglethorn Vale|N|Use the east exit and follow the road.|
-l Some Assembly Required|ACTIVE|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|S|
+C Some Assembly Required|QID|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|S|
 C The Defense of Grom'gol|QID|569|QO|1;2|N|Kill Mosh'Ogg Witch Doctors and Brutes in the Mizjah Ruins.\n[color=FF0000]NOTE: [/color]It's much easier to patrol around the outside of the ruins. The mobs inside tend to be pulled in groups of 3. It may take longer, but so does corpse running.|
-l Some Assembly Required|ACTIVE|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|US|
+C Some Assembly Required|QID|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|US|
 R Grom'gol Base Camp|QID|569|M|34.23,28.38|Z|1434; Stranglethorn Vale|N|Return to Grom'gol.|
 T The Defense of Grom'gol|QID|569|M|32.20,28.86|Z|1434; Stranglethorn Vale|N|To Commander Aggro'gosh.|
 ;L Level 37|LVL|37|N|You should be around level 37 by this point.|
@@ -507,8 +509,8 @@ C Singing Blue Shards|ACTIVE|605|Z|1434; Stranglethorn Vale|L|3918 10|N|Kill Cry
 R Zuuldaia Ruins|QID|582|M|26.97,19.00;23.14,16.56|CC|Z|1434; Stranglethorn Vale|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
 N Bloodscalp Headhunters|ACTIVE|582|M|PLAYER|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.|
 C Headhunting|ACTIVE|582|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
-C Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
-R The Vile Reef|QID|629|M|23.10,16.49;26.99,18.82;26.54,21.21|CC|Z|1434; Stranglethorn Vale|N|Return to Grom'gol.|
+C Bloody Bone Necklaces|QID|596|L|3915 25|ITEM|3915|N|any Bloodscalp.|US|
+R The Vile Reef|ACTIVE|629|QO|1|M|23.10,16.49;26.99,18.82;26.54,21.21|CC|Z|1434; Stranglethorn Vale|N|Return to Grom'gol.|
 N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|S!US|IZ|104|
 C Encrusted Tail Fins|QID|1107|M|25.15,24.10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|IZ|104|
 C The Vile Reef|QID|629|QO|1|M|24.8,22.8|Z|1434; Stranglethorn Vale|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
@@ -693,36 +695,12 @@ T Stinky's Escape|QID|1270|M|62.37,37.62|Z|1413; The Barrens|N|To Mebok Mizzyrix
 N Bank|ACTIVE|572^605^196|M|62.67,37.44|Z|1413; The Barrens|N|As you are now headed back to STV, make sure you grab all of your quest items from your bank before leaving.|IZ|392|
 b Booty Bay|ACTIVE|572^605^196|M|63.70,38.63|Z|1413; The Barrens|N|Take the boat to Booty Bay.|IZ|-1434|
 F Grom'gol Base Camp|ACTIVE|572^605^196|M|26.87,77.10|Z|1434; Stranglethorn Vale|N|Head to the flightmaster and take a flight to Grom'gol Base Camp.|
-R Southern Savage Coast|ACTIVE|605^572^196|M|32.62,35.53|Z|1434; Stranglethorn Vale|N|Exit Grom'gol Base to the south side and swim across to the opposite shore.|
-C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434; Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|S|
-K Raptor Mastery|ACTIVE|196|QO|1|M|33.63,37.87|Z|1434; Stranglethorn Vale|N|Kill Jungle Stalkers.|
-C Mok'thardin's Enchantment|QID|572|M|33.63,37.87|Z|1434; Stranglethorn Vale|L|3863 10|N|Kill Jungle Stalkers to collect the feathers.|US|
-C Singing Blue Shards|ACTIVE|605|M|33.63,37.87|Z|1434; Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|US|
-R Grom'gol Base Camp|ACTIVE|572|M|32.16,28.76|Z|1434; Stranglethorn Vale|
-T Mok'thardin's Enchantment|QID|572|M|32.12,29.25|Z|1434; Stranglethorn Vale|N|To Far Seer Mok'thardin.|
-A Mok'thardin's Enchantment|QID|571|PRE|572|M|32.12,29.25|Z|1434; Stranglethorn Vale|N|From Far Seer Mok'thardin.|
-A Split Bone Necklace|QID|598|PRE|572|M|32.27,27.71|Z|1434; Stranglethorn Vale|N|From Kin'weelay.|
-R The Vile Reef|ACTIVE|1107|M|28.45,23.19|Z|1434; Stranglethorn Vale|N|Make your way to The Vile Reef.|
-C Encrusted Tail Fins|QID|1107|M|26.62,25.56|Z|1434; Stranglethorn Vale|L|5796 10|N|Kill Saltscale Murlocs to loot the Encrusted Tail Fins.\nThe best way to do this is to kite them to the surface so you don't drown by accident.\n This quest is not easy and can be time consuming.\n[color=FF0000]NOTE: [/color]Melee classes, focus on Warriors and Foragers. The others are range attack and will require you to fight underwater.|
-R Bal'lal Ruins|ACTIVE|584|M|29.12,18.28|CC|Z|1434; Stranglethorn Vale|N|Make your way to the Bal'lal Ruins.|
-R Ruins of Zul'Kunda|ACTIVE|584|M|30.03,13.07;27.93,11.33|CC|Z|1434; Stranglethorn Vale|N|Follow the cliff north to the Zul'Kunda entrance.\n[color=FF0000]NOTE: [/color]Pulling the guards at the entrance will not be possible as all of them are range attack. You can go around them by climbing the hill on the left side and coming down between the wall and the building.|
-K Nezzliok|ACTIVE|584|QO|2|M|23.26,9.77|Z|1434; Stranglethorn Vale|N|Work your way through the center of the Ruins to the ramp on the other side.\nSticking to the tall wall, clear the mobs as you walk up the ramp. You should be able to pull most of them solo, or a set of 2.\nAt the top the ramp, jump on top the wall and, staying on the outside edge, run to the opposite corner. Begin pulling the mobs around him until he is the only one left or he joins the fight.|
-K Gan'zulah|ACTIVE|584|QO|1|M|23.26,8.72|Z|1434; Stranglethorn Vale|N|Using the same process as you did with Nezzliok, pull the mobs closest to the wall until Gan'zulah is alone or joins the fight.|
-R Nesingwary's Expedition|ACTIVE|584|M|34.91,11.00|Z|1434; Stranglethorn Vale|N|Work your way out of the Ruins the same way you came in. You can avoid some of the fight by dropping down to the lower ledge of the wall and walking around to where the bottom of the ramp is.\n Once you are out of the Ruins, make your way to the Nesingwary's Expedition.|
-T Raptor Mastery|QID|196|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery|QID|197|PRE|196|M|35.66,10.81|Z|1434; Stranglethorn Vale|N|From Hemet Nesingwary.|
-;N Chapter Quests|ACTIVE|338|AVAILABLE|191|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a Chapter quest. You'll want to get rid of the pages as soon as you can to save bag space.\n[color=FF0000]NOTE: [/color]To save log space, do not accept the Chapter quests until you can complete them.|S!US|IZ|100|
-R Venture Co. Base Camp|ACTIVE|584|M|44.82,25.69|Z|1434; Stranglethorn Vale|N|Head to the main road and follow it south across the bridge over the river.|
-K Bhag'thera|ACTIVE|193|M|47.35,28.40;49.65,23.63;48.58,19.59|Z|1434; Stranglethorn Vale|CN|N|You'll find Bhag'thera in 1 of 3 locations. When you find him, kill him to loot his fang.\n[color=FF0000]NOTE: [/color]As you are moving between the spots, be sure to give the elite Ogres around the entrance to Mosh'Ogg a VERY wide berth.|
 
-N Under Construction|QID|9999|N|From this point on, the guide is incomplete.|
-
+; Saving for use in Chap3 - Hendo72
 ;A Excelsior|QID|628|PRE|577|M|28.29,77.59|Z|1434; Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Drizzlik.|
 ;A Scaring Shaky|QID|606|M|27.78,77.07|Z|1434; Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
 ;A The Bloodsail Buccaneers|QID|595|M|28.09,76.22|Z|1434; Stranglethorn Vale|N|From First Mate Crazz.|
 ;R The Cape of Stranglethorn|QID|595|M|27.95,73.74;29.38,72.85;26.86,73.58|CC|Z|1434; Stranglethorn Vale|N|Head up the ramps to the tunnel and go though it to the other side.|
 
-
 ]]
-
 end)
