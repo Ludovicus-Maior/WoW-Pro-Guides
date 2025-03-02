@@ -15,13 +15,13 @@ return [[
 
 ;The Aegis Wall flight point isnt in this guide. ~72,56
 
-A The Hallowed Path|QID|78658|PRE|81689|M|47.05,32.24|Z|2214;The Ringing Deeps|N|From Anduin Wrynn.|
-C The Hallowed Path|QID|78658|M|40.57,24.25|Z|2214;The Ringing Deeps|QO|1|NC|N|Find the Gate to Hallowfall.|
+A The Hallowed Path|QID|78658|PRE|81689|M|42.99,32.24|Z|2214;The Ringing Deeps|N|From Anduin Wrynn.|
+C The Hallowed Path|QID|78658|M|36.67,23.95|Z|2214;The Ringing Deeps|QO|1|NC|N|Find the Gate to Hallowfall.|
 C The Hallowed Path|QID|78658|M|77.21,42.99|Z|2215;Hallowfall|QO|2|CHAT|N|Speak with Anduin in Hallowfall.|
 C The Hallowed Path|QID|78658|M|68.60,44.86|Z|2215;Hallowfall|QO|3|NC|N|Meet the Arathi in Dunelle's Kindness.|
 T The Hallowed Path|QID|78658|M|68.43,45.07|Z|2215;Hallowfall|N|To Faerin.|
 R The Coreway|ACTIVE|83551|M|36,58|Z|2339;Dornagal|N|Fly down the coreway and into The Ringing Deeps.|
-R The Ringing Deeps|ACTIVE|83551|M|42,28|Z|2214;The Ringing Deeps|N|Continue down the hallway and into the Ringing Deeps.|
+R The Ringing Deeps|ACTIVE|83551|M|37.97, 38.38|Z|2214;The Ringing Deeps|N|Continue down the hallway and into the Ringing Deeps.|
 R The Hallowfall Gate|ACTIVE|83551|M|40.73,23.94|Z|2215;Hallowfall|N|Fly thru the Hallowfall Gate.|
 A Status Report|QID|79309|M|70.44,44.95|Z|2215;Hallowfall|N|From Captain Trueflame.|RANK|2|
 A Delver's Call: Mycomancer Cavern|QID|83769|M|68.86,44.44|Z|2215;Hallowfall|N|From the sign on the lampost.|RANK|3|
