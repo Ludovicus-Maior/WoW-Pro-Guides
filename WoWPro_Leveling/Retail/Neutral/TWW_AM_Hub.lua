@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('TWW Adventure Mode Hub', 'Leveling', 'Dornog
 WoWPro:GuideName(guide,"TWW AM")
 WoWPro:GuideSecret(guide)
 WoWPro:GuideContent(guide, 10)
-WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideLevels(guide,68, 80)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
 WoWPro:GuideSteps(guide, function()

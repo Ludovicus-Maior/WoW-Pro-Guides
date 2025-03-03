@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Hallowfall', 'Leveling', 'Hallowfall', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Hallowfall")
 WoWPro:GuideContent(guide, 10)
-WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideLevels(guide,68, 80)
 WoWPro:GuideQuestTriggers(guide, 83551)
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'Azj Kahet')
