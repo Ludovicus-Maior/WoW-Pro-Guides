@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("CagEarthen", "Leveling", "Hall of Awakening!Dungeon2322", "WowProTeam", "Neutral")
+local guide = WoWPro:RegisterGuide("CagEarthen", "Leveling", "Hall of Awakening!Dungeon2322", "WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide, 10, 10)
 WoWPro:GuideSort(guide, 12)
 WoWPro:GuideContent(guide, "Intro")

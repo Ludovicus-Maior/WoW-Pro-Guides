@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('TR_Kun-Lai Summit', "Leveling", 'Kun-Lai Summit', 'WoWProTeam', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_Kun-Lai Summit', "Leveling", 'Kun-Lai Summit', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,1)
 WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNickname(guide, "TR_Kun-Lai Summit")

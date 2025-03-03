@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EliEndgame', 'Leveling', 'Zandalar', 'Elidion', 'Horde')
+local guide = WoWPro:RegisterGuide('EliEndgame', 'Leveling', 'Zandalar', 'WoWPro Team', 'Horde')
 WoWPro:GuideLevels(guide, 50, 50, 50)
 WoWPro:GuideSort(guide, 7)
 WoWPro:GuideName(guide,'Endgame Storylines')

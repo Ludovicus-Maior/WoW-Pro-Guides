@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('TR_Valley of the Four Winds', "Leveling", 'Valley of the Four Winds', 'WoWProTeam', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_Valley of the Four Winds', "Leveling", 'Valley of the Four Winds', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,1)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "TR_Valley of the Four Winds")
