@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('TWW Intro', 'Leveling', 'Isle of Dorn', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"TWW Intro")
 WoWPro:GuideContent(guide, 10)
-WoWPro:GuideLevels(guide,70, 80)
+WoWPro:GuideLevels(guide,68, 80)
 WoWPro:GuideQuestTriggers(guide, 81930, 78713)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNextGuide(guide, 'Isle of Dorn')
