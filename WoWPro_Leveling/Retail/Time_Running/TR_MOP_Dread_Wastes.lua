@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('TR_Dread Wastes', "Leveling", 'Dread Wastes', 'WoWProTeam', 'Neutral')
+local guide = WoWPro:RegisterGuide('TR_Dread Wastes', "Leveling", 'Dread Wastes', 'WoWPro Team', 'Neutral')
 WoWPro:TimerunningSeasonID(guide,1)
 WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "TR_Dread Wastes")

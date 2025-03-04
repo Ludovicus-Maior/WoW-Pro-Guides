@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Pandaren Cooking', 'Leveling', 'Valley of the Four Winds', 'Hendo72', 'Neutral')
+local guide = WoWPro:RegisterGuide('Pandaren Cooking', 'Leveling', 'Valley of the Four Winds', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Pandaren Cooking")
 WoWPro:GuideLevels(guide,1, 60)
 WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')

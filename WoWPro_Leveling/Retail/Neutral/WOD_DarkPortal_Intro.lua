@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'TanaanJungleIntro', 'Emm+Fluc', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'TanaanJungleIntro', 'WoWPro Team', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide, 'WOD: Dark Portal Intro')

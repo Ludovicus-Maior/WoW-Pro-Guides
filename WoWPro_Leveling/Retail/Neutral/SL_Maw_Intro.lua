@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('EliMawIntro', 'Leveling', "The Maw", 'Elidion', 'Neutral')
+local guide = WoWPro:RegisterGuide('EliMawIntro', 'Leveling', "The Maw", 'WoWPro Team', 'Neutral')
 WoWPro:GuideLevels(guide, 10, 60, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Shadowlands Intro - The Maw")
