@@ -7,10 +7,10 @@ WoWPro:GuideSteps(guide, function()
 return [[
 A Well, Come to the Jungle|QID|26416|M|50.6,67|Z|1440; Ashenvale|N|This guide starts in Ashenvale. Start with Cromula, who wanders up and down the hall.|
 F Orgrimmar|QID|26416|M|49.49,65.24|Z|1440; Ashenvale|N|Wind Tamer Shosok|
-T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|Orgrimmar|N|To Bort.|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|LEAD|26278|M|53.94,54.42|Z|Orgrimmar|N|From Bort.|
+T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|1454;Orgrimmar|N|To Bort.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|LEAD|26278|M|53.94,54.42|Z|1454;Orgrimmar|N|From Bort.|
 N Before you fly off|QID|26278|N|Now is a good time to train up, repair and get supplies.|
-R The Zep tower.|QID|26278|CC|M|52.52,53.18|Z|Orgrimmar|N|On the NE tip.|
+R The Zep tower.|QID|26278|CC|M|52.52,53.18|Z|1454;Orgrimmar|N|On the NE tip.|
 T Northern Stranglethorn: The Fallen Empire|QID|26417|M|38.41,50.52|N|To Commander Aggro'gosh.|
 A The Defense of Grom'gol: Raptor Risk|QID|26278|M|38.41,50.52|N|From Commander Aggro'gosh.|
 h Grom'gol Base Camp|QID|26278|M|37.36,51.83|N|At Innkeeper Thulbek. Repair/Restock here also.|

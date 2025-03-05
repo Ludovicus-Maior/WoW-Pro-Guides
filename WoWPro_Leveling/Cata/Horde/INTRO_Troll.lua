@@ -22,6 +22,9 @@ T The Rise of the Darkspear|QID|24607|M|65.78,84.52|Z|1411;Durotar|N|To Nortet.|
 A The Basics: Hitting Things|QID|24765|PRE|24764|M|67.69,84.69|Z|1411;Durotar|N|From Zen'tabra.|C|Druid|
 C The Basics: Hitting Things|QID|24765|M|67.69,84.69|Z|1411;Durotar|N|Destroy 6 Tiki Targets in the training grounds.|C|Druid|
 T The Basics: Hitting Things|QID|24765|M|67.69,84.69|Z|1411;Durotar|N|To Zen'tabra.|C|Druid|
+A The Basics: Hitting Things|QID|24777|PRE|24776|M|67.09,83.28|Z|1411;Durotar|N|From Ortezza.|C|Hunter|
+C The Basics: Hitting Things|QID|24777|M|67.09,83.28|Z|1411;Durotar|N|Destroy 6 Tiki Targets in the training grounds.|C|Hunter|
+T The Basics: Hitting Things|QID|24777|M|67.09,83.28|Z|1411;Durotar|N|To Ortezza.|C|Hunter|
 A The Basics: Hitting Things|QID|24751|PRE|24750|M|68.22,83.99|Z|1411;Durotar|N|From Soratha.|C|Mage|
 C The Basics: Hitting Things|QID|24751|M|68.22,83.99|Z|1411;Durotar|N|Destroy 6 Tiki Targets in the training grounds.|C|Mage|
 T The Basics: Hitting Things|QID|24751|M|68.22,83.99|Z|1411;Durotar|N|To Soratha.|C|Mage|

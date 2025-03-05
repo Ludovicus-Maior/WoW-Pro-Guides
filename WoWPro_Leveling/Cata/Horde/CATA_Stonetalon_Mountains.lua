@@ -6,11 +6,11 @@ WoWPro:GuideNextGuide(guide, 'JiySou3035')
 WoWPro:GuideSteps(guide, function()
 return [[
 N This guide starts in Orgrimmar|QID|25945^28532|M|PLAYER|N|This guide starts in Orgrimmar and heads to Ashenvale.|
-H Silverwind Refuge|ACTIVE|25945|M|49.67,59.24|Z|Orgrimmar|N|Hearth back to Silverwind Refuge. Fly/run if your Hearth is on CD.|
+H Silverwind Refuge|ACTIVE|25945|M|49.67,59.24|Z|1454;Orgrimmar|N|Hearth back to Silverwind Refuge. Fly/run if your Hearth is on CD.|
 R Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.29,65.25|Z|1440; Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|
-F Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|85|
+F Silverwind Refuge|ACTIVE|-28352|AVAILABLE|25945|M|49.67,59.24|Z|1454;Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|85|
 R Silverwind Refuge|ACTIVE|28352|M|49.29,65.25|Z|1440; Ashenvale|N|In Ashenvale.|TAXI|-Silverwind Refuge|FLY|OLD|
-F Silverwind Refuge|ACTIVE|28532|M|49.67,59.24|Z|Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|85|
+F Silverwind Refuge|ACTIVE|28532|M|49.67,59.24|Z|1454;Orgrimmar|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|IZ|85|
 T Warchief's Command: Stonetalon Mountains!|QID|28532|M|49.90,65.74|Z|1440; Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|1440; Ashenvale|N|From Blood Guard Aldo Rockrain.|RANK|1|
 R The Fold|QID|25945|M|48.55,66.44|Z|1440; Ashenvale|N|Hop on the Krom'gar Wagon and enjoy the free ride.|V|

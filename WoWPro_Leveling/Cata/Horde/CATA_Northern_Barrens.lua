@@ -301,6 +301,6 @@ A Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|From Nagala Whipshank.|PRE
 C Mor'shan Caravan Delivery|QID|29111|M|47.53,39.58|N|Talk to Nagala and defend the caravan.|
 T Mor'shan Caravan Delivery|QID|29111|M|42.42,14.97|N|To Kadrak, who wanders.|
 F Orgrimmar|AVAILABLE|26417|NC|O|N|If you plan on going to Stranglethorn next.|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|LEAD|26278|PRE|26416|RANK|1|O|M|51.78,56.49|Z|Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|LEAD|26278|PRE|26416|RANK|1|O|M|51.78,56.49|Z|1454;Orgrimmar|N|From Bort. If you plan on going to Stranglethorn next.|
 ]]
 end)

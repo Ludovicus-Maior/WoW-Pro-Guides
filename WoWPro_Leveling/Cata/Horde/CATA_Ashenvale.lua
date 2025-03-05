@@ -131,15 +131,15 @@ T Gurtar's Request|QID|13875|M|73.33,62.13|N|To Splintertree Demolisher.|
 T Demon Duty|QID|13806|M|73.77,61.62|N|To Locke Okarr.|
 T Satyr Horns|QID|6441|M|73.86,62.47|N|To Pixel.|
 F Orgrimmar|ACTIVE|13841|M|73.18,61.60|N|Fly to Orgrimmar.|
-R Grommash Hold|ACTIVE|13841|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
-T All Apologies|QID|13841|M|49.20,72.27|Z|Orgrimmar|N|Make your way inside Grommash Hold and then turn in to Eitrigg.|
-A Dread Head Redemption|QID|13842|M|49.20,72.27|Z|Orgrimmar|N|From Eitrigg.|PRE|13841|RANK|1|
-F Splintertree Post|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
+R Grommash Hold|ACTIVE|13841|M|51.19,63.02;50.01,75.86|CC|Z|1454;Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
+T All Apologies|QID|13841|M|49.20,72.27|Z|1454;Orgrimmar|N|Make your way inside Grommash Hold and then turn in to Eitrigg.|
+A Dread Head Redemption|QID|13842|M|49.20,72.27|Z|1454;Orgrimmar|N|From Eitrigg.|PRE|13841|RANK|1|
+F Splintertree Post|ACTIVE|13842|M|49.6,59.17|Z|1454;Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
 C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Head back into the mine and talk to Durak. Once he is done his little monologue, Durak and his minion will attack you.|
 F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|
-R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
-T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
-F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|IZ|85|
+R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|1454;Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
+T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|1454;Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
+F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|1454;Orgrimmar|N|Fly back to Splintertree Post.|IZ|85|
 F Zoram'gar Outpost|ACTIVE|13848|M|73.18,61.60|N|Talk to Vhulgra for a free flight to Zoram'gar Outpost.|CHAT|
 f Zoram'gar Outpost|ACTIVE|13848|M|11.16,34.42|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|IZ|2897|
 h Zoram'gar Outpost|AVAILABLE|13848|M|12.99,34.15|N|Set your hearth with Innkeeper Duras.|
@@ -285,8 +285,8 @@ T Je'neu of the Earthen Ring|QID|824|M|10.00,14.00|Z|221|N|To Je'neu Sancrea.\n[
 N Blackfathom Deeps|AVAILABLE|34673|M|PLAYER|JUMP|Blackfathom Deeps|N|Load the guide to run through Blackfathom Deeps, if you wish to do it now.|
 H Silverwind Refuge|ACTIVE|26416|M|50.43,67.16|N|Hearth to Silverwind Refuge.|
 F Orgrimmar|ACTIVE|26416|N|Make your way to a Flight Master and fly to Orgrimmar.|FLY|OLD| ; Depending on RANK and ACTIVE QIDs, location may not be the same at this point.
-T Well, Come to the Jungle|QID|26416|M|51.30,56.03|Z|Orgrimmar|N|To Bort.\n[color=FF0000]NOTE: [/color]Periodically, he'll get up and wander over to the edge over-looking the Valley of Honor. After a few moments, he'll walk back and sit down again.|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|M|51.30,56.03|Z|Orgrimmar|N|From Bort.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|LEAD|26278|PRE|26416|RANK|2|
+T Well, Come to the Jungle|QID|26416|M|51.30,56.03|Z|1454;Orgrimmar|N|To Bort.\n[color=FF0000]NOTE: [/color]Periodically, he'll get up and wander over to the edge over-looking the Valley of Honor. After a few moments, he'll walk back and sit down again.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|M|51.30,56.03|Z|1454;Orgrimmar|N|From Bort.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|LEAD|26278|PRE|26416|RANK|2|
 N Northern Stranglethorn|ACTIVE|26417|M|PLAYER|N|You can switch to the Northern Stranglethorn guide now or skip this step to continue to the Stonetalon guide.|JUMP|WkjNor2530|
 ]]
 end)

@@ -5,9 +5,9 @@ WoWPro:GuideSort(guide, 82)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-;A Warchief's Command: Vashj'ir!|QID|27718|LEAD|25924|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|
-t Warchief's Command: Vashj'ir!|QID|27718|M|55.84,12.29|Z|Durotar|N|To Commander Thorak inside the tower.|
-A Call of Duty|QID|25924|M|55.84,12.29|Z|Durotar|N|From Commander Thorak.|
+;A Warchief's Command: Vashj'ir!|QID|27718|LEAD|25924|M|49.67,76.45|Z|1454;Orgrimmar|N|From Warchief's Command Board.|
+t Warchief's Command: Vashj'ir!|QID|27718|M|55.84,12.29|Z|1411;Durotar|N|To Commander Thorak inside the tower.|
+A Call of Duty|QID|25924|M|55.84,12.29|Z|1411;Durotar|N|From Commander Thorak.|
 C Call of Duty|QID|25924|NC|M|45.79,33.82|Z|Kelp'thar Forest|N|Watch the scene play out.|
 T Call of Duty|QID|25924|M|38.83,31.62|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Sea Legs|QID|25929|PRE|25924|M|38.83,31.62|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
