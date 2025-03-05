@@ -1,3 +1,14 @@
+# Release 2025.03.04.A
+## Bug Fixes
+* Spoony: Sort Order fixes
+## Guide Updates
+* Vanilla Leveling: Tirisfal Glades, 31- 40 Hendo HordeChapter2, 41-50 Hendo HordeChapter3,
+* Cataclysm Leveling:  Alliance Burning Steppes
+* Retail Leveling Neutral: TWW Undermine, The Ringing Deeps, Hallowfall,
+* Retail Dailies: Category Fixes, Hallowfall
+* World Events: Category Fixes
+
+
 # Release 2025.02.26.A
 ## Bug Fixes
 * Update Retail Interface to 110100
