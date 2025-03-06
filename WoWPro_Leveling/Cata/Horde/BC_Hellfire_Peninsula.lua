@@ -8,7 +8,7 @@ WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Blasted Lands|ACTIVE|60123|M|56.93,88.31|Z|Orgrimmar|N|At the Thrallmar Mage in the Pathfinder's Den.|
+R Blasted Lands|ACTIVE|60123|M|56.93,88.31|Z|1454;Orgrimmar|N|At the Thrallmar Mage in the Pathfinder's Den.|
 C To Outland!|QID|60123|M|55.01,54.35|Z|1419;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
 T To Outland!|QID|60123|M|PLAYER|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|
 A Arrival in Outland|QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|

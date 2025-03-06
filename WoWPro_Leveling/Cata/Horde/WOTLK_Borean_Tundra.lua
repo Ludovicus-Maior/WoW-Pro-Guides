@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, "Dragonblight")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-b Borean Tundra|QID|11167|M|44.82,62.19|Z|Orgrimmar|N|Ride up the elevators and hop in the zeppelin to Borean Tundra.|
+b Borean Tundra|QID|11167|M|44.82,62.19|Z|1454;Orgrimmar|N|Ride up the elevators and hop in the zeppelin to Borean Tundra.|
 t To Northrend!|QID|60097|M|PLAYER|N|Quest turn-in on quest tracker once you enter Howling Fjord.|
 A Hellscream's Vigil |QID|11585|M|41.6,54.0|N|From Warsong Recruitment Officer.|
 T Hellscream's Vigil |QID|11585|M|41.3,53.6|N|To Garrosh Hellscream.|

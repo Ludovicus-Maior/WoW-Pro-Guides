@@ -8,10 +8,10 @@ return [[
 A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|1453; Stormwind City|N|From the Hero's Call Board. Select Deepholm.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
 T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|1453; Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
 P Deepholm|QID|26245|M|73.20,19.62|Z|1453; Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
-A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
-T Warchief's Command: Deepholm!|QID|27722|M|50.45,38.35|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
-A The Maelstrom|QID|27203|M|50.45,38.35|Z|Orgrimmar|N|From Farseer Krogar.|FACTION|Horde|
-P The Maelstrom|QID|27203|M|50.03,37.78|Z|Orgrimmar|N|Take the portal to the Maelstrom in the middle.|FACTION|Horde|
+A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|1454;Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
+T Warchief's Command: Deepholm!|QID|27722|M|50.45,38.35|Z|1454;Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
+A The Maelstrom|QID|27203|M|50.45,38.35|Z|1454;Orgrimmar|N|From Farseer Krogar.|FACTION|Horde|
+P The Maelstrom|QID|27203|M|50.03,37.78|Z|1454;Orgrimmar|N|Take the portal to the Maelstrom in the middle.|FACTION|Horde|
 T The Maelstrom|QID|27203|M|33.36,50.18|Z|The Maelstrom!The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
 A Deepholm, Realm of Earth|QID|27123|M|33.36,50.18|Z|The Maelstrom!The Maelstrom|PRE|27203|N|From Thrall.|
 F Deepholm|QID|27123|M|32.47,51.83|Z|The Maelstrom!The Maelstrom|V|N|Hop on the Wyvern behind you.|
@@ -398,8 +398,8 @@ T Fight Fire and Water and Air with...|QID|27043|N|To Reliquary Jes'ca Darksun.|
 T The Wrong Sequence|QID|27059|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
 A That's No Pyramid!|QID|28293|PRE|27059|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 R Orgrimmar|QID|28293|M|50.94,53.1|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Orgrimmar.|FACTION|Horde|
-T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
-A Meetup with the Caravan|QID|28296|LEAD|27003|PRE|28293|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
+T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|1454;Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
+A Meetup with the Caravan|QID|28296|LEAD|27003|PRE|28293|M|49.00,71.00|Z|1454;Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
 T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|1446; Tanaris|FACTION|Horde|
 T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|1446; Tanaris|FACTION|Horde|
 N This ends this guide.|N|Close this step to continue to Uldum guide.|
