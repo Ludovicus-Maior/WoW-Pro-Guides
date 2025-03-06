@@ -165,7 +165,7 @@ T Back to Gundargaz|QID|80082|M|42.93,33.19|Z|2214; The Ringing Deeps|N|To Speak
 A Home Is Where the Candle Is|QID|79683|PRE|80082|M|42.93,33.19|Z|2214; The Ringing Deeps|N|From Skitter.|RANK|2|
 A A Wrench in the Works|QID|80079|PRE|80082|M|42.93,33.19|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|
 C A Wrench in the Works|QID|80079|M|43.06,32.17|QO|1|Z|2214; The Ringing Deeps|N|Grievance heard.|CHAT|
-A Kobold Kleanup|QID|80058|PRE|80082|M|43.06,32.17|Z|2214; The Ringing Deeps|N|From Fourman Grimes.|RANK|2|
+A Kobold Kleanup|QID|80058|PRE|80082|M|43.64,35.44|Z|2214; The Ringing Deeps|N|From Fourman Grimes.|RANK|2|
 A New Home, New Candle!|QID|81999|PRE|80082|M|43.64,35.35|Z|2214; The Ringing Deeps|N|From Janky.|RANK|2|
 ;A Everyday I'm Snufflin'|QID|79343|PRE|80082|M|PLAYER|Z|2214; The Ringing Deeps|N|From Gnawbles.|RANK|2|-THIS STARTS FROM A GROUND SPAWN I PICKED UP IN DORN
 A Dripsy Forgot Her Candle|QID|79504|M|43.80,35.76|Z|2214; The Ringing Deeps|N|From Granny Scribbles.|RANK|2|
@@ -199,8 +199,8 @@ T The Wickless Candle|QID|79510|M|43.78,35.77|Z|2214; The Ringing Deeps|N|To Gra
 C Kobold Kleanup|QID|80058|M|43.44,33.19|Z|2214; The Ringing Deeps|N|Go outside and clean up the mess.|
 T Kobold Kleanup|QID|80058|M|43.16,31.84|Z|2214; The Ringing Deeps|N|To Fourman Grimes.|
 A On the Job Training|QID|79556|PRE|80058|M|43.16,31.84|Z|2214; The Ringing Deeps|N|From Fourman Grimes.|
-T A Wrench in the Works|QID|80079|M|43.16,31.84|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
-A The Tunnel's End|QID|78685|PRE|80079|M|43.16,31.84|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
+T A Wrench in the Works|QID|80079|M|42.99,33.25|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
+A The Tunnel's End|QID|78685|PRE|80079|M|42.95,33.23|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 C On the Job Training|QID|79556|M|43.06,31.63|QO|1|Z|2214; The Ringing Deeps|N|Ask Steamwarden Hurlt what to do. He will start shouting orders at you.|CHAT|
 C On the Job Training|QID|79556|M|43.06,31.63|QO|2|Z|2214; The Ringing Deeps|N|There are 4 things to do. Click on the guage, when he asks the pressure, the lever when he says to throw the lever, the console needs percussive maintenace, and click the pipes when he says they need smacked back into place. If you are too slow, ask him to tell you again.|H|
 T On the Job Training|QID|79556|M|43.15,31.86|Z|2214; The Ringing Deeps|N|To Fourman Grimes.|
@@ -304,7 +304,7 @@ T Ghost of a Company Town|QID|78697|M|61.99,58.41|Z|2214; The Ringing Deeps|N|To
 A Controlled Demolition|QID|78700|PRE|78697|M|61.99,58.41|Z|2214; The Ringing Deeps|N|From Magni Bronzebeard.|
 A The Truth in Chalk|QID|78701|PRE|78697|M|61.99,58.41|Z|2214; The Ringing Deeps|N|From Dagran Thaurissan II.|
 C Controlled Demolition|QID|78700|M|61.60,62.63|QO|1|Z|2214; The Ringing Deeps|N|Skardyn slain.|S|
-C The Truth in Chalk|QID|78701|M|61.99,58.41|QO|1|Z|2214; The Ringing Deeps|N|First slate found.|H|
+C The Truth in Chalk|QID|78701|M|61.87,60.42|QO|1|Z|2214; The Ringing Deeps|N|First slate found.|H|
 C The Truth in Chalk|QID|78701|M|57.39,62.67|QO|2|Z|2214; The Ringing Deeps|N|Second slate found.|H|
 C The Truth in Chalk|QID|78701|M|60.24,65.13|QO|3|Z|2214; The Ringing Deeps|N|Third slate found.|H|
 C The Truth in Chalk|QID|78701|M|63.05,64.04|QO|4|Z|2214; The Ringing Deeps|N|Fourth slate found.|H|
@@ -389,12 +389,12 @@ C Stone Tracing|QID|82969|M|49.53,60.88|Z|2214;The Ringing Deeps|QO|1<1|NC|N|Use
 C Stone Tracing|QID|82969|M|48.51,53.35|Z|2214;The Ringing Deeps|QO|1<2|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location.|EAB|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|1|N|Click console to reroute power.|H|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|2|N|Click Leaking Pipes to patch.|H|
-C Stone Tracing|QID|82969|M|45.54,47.94|Z|2214;The Ringing Deeps|QO|1<3|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location. This one is up above on a rocky outcrop.|EAB|
+C Stone Tracing|QID|82969|M|46.92,47.13|Z|2214;The Ringing Deeps|QO|1<3|NC|N|Use provided [color=33fff9] Extra Action Button [/color] to triagulate Golem location. This one is up above on a rocky outcrop.|EAB|
 C Duty of Care|QID|82786|M|45.54,47.94|Z|2214; The Ringing Deeps|QO|3|N|Finish up exterminating the pests.|US|
 A Decommissioning Darkness|QID|82814|PRE|82786&82969|M|PLAYER|Z|2214;The Ringing Deeps|N|From Danagh's Cogwalker.|
-K Corrupted Golem|ACTIVE|82814|M|45.54,47.94|Z|2214;The Ringing Deeps|QO|1|N|Corrupted Golem slain.|T|Corrupted Golem|
+K Corrupted Golem|ACTIVE|82814|M|45.03,62.12|Z|2214;The Ringing Deeps|QO|1|N|Corrupted Golem slain.|T|Corrupted Golem|
 C Decommissioning Darkness|QID|82814|M|45.54,47.94|Z|2214;The Ringing Deeps|QO|2|NC|N|Arbauch's Memory Gem.|
-T Decommissioning Darkness|QID|82814|M|45.54,47.94|Z|2214;The Ringing Deeps|N|To Danagh.|
+T Decommissioning Darkness|QID|82814|M|54.86,64.16|Z|2214;The Ringing Deeps|N|To Danagh.|
 R Shadowvein Point|ACTIVE|83165|M|57.31,47.91|Z|2214;The Ringing Deeps|N|Head over to Shadowvein Point.|
 f Shadowvein Point|ACTIVE|83165|M|57.31,47.91|Z|2214;The Ringing Deeps|N|At Milgrit Stonefeather.|
 T Badly Behaved Bot|QID|83165|M|58.03,46.80|Z|2214; The Ringing Deeps|N|To Kagfritha.|
