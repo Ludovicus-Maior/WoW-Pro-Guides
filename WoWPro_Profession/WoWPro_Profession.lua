@@ -7,6 +7,7 @@
 
 WoWPro.Profession = WoWPro:NewModule("Profession")
 WoWPro:Embed(WoWPro.Profession)
+WoWPro.Profession.Version = WoWPro.GetAddOnMetadata("WoWPro_Profession", "Version")
 
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -25,7 +26,6 @@ function WoWPro.Profession:OnEnable()
     WoWPro:RegisterTags({"mat"})
     --Loading Frames--
     if not WoWPro.Profession.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro.Profession:CreateConfig()
         WoWPro.Profession.FramesLoaded = true
     end
 

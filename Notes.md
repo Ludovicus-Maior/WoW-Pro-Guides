@@ -1,3 +1,516 @@
+# Release 2025.03.04.A
+## Bug Fixes
+* Spoony: Sort Order fixes
+## Guide Updates
+* Vanilla Leveling: Tirisfal Glades, 31- 40 Hendo HordeChapter2, 41-50 Hendo HordeChapter3,
+* Cataclysm Leveling:  Alliance Burning Steppes
+* Retail Leveling Neutral: TWW Undermine, The Ringing Deeps, Hallowfall,
+* Retail Dailies: Category Fixes, Hallowfall
+* World Events: Category Fixes
+
+
+# Release 2025.02.26.A
+## Bug Fixes
+* Update Retail Interface to 110100
+* Update Cata Interface to 40402
+* Furydins: Problem with cooldown debug
+* Add support for WoWPro:ClassicSeasonID()
+* Spoony: Add disable-addons¦enable-addons commands
+* Furydins: Check for C_Season in ClassicSeasonID
+## Guide Updates
+* Vanilla Leveling: Zone Tag Updates for Everybody!
+* Retail Leveling Neutral: TWW Undermine
+
+
+# Release 2025.01.31.A/2025.02.04.A
+## Bug Fixes
+* Furydin: Don't blow up during debug logging if there's no QID!
+* Spoony: Add /wp disable-addons and /wp enable-addons for taint debugging
+* Furydin: Add locale dependent Category to .toc's
+* Furydin: Switch to client independent GetItemInfo
+* Ludo: Update Vanilla Interface to 1.15.6
+## Guide Updates
+* Retail Achievements: Added Felcycle mount
+* Vanilla Leveling Alliance: Alliance 25-30, 30-41, 42-50
+* Vanilla Leveling Horde: Hendo Chapter 2 (31-40).
+* Vanilla Profession: Leatherworking
+* Cata Leveling Alliance: Thousand Needles
+* Cata Leveling Horde: Shadowmoon
+* Retail Leveling Neutral: Azj-Kahet, , Fate of the Kirin Tor, Hallowfall, TWW Intro, Siren Isle, TRD
+* Retail World Events: TWW Lunar Festival
+
+
+# Release 2024.12.31.A
+## Bug Fixes
+* Hendo: Debug mode glitch in GetQuestInfo()
+* Siren Isle zone update
+* Add race to Player Info report
+* Label "End Game" guides
+## Guide Updates
+* Vanilla Leveling Alliance: Teldrassil 01-12, Darkshore 12-20, Alliance 19-25 & 30-41, The Stockades
+* Vanilla Leveling Horde: Hendo 15-21 and Chapter 1
+* Cata Leveling Alliance: Blasted Lands, Swamp of Sorrows, Dwarf/Gnome Intro
+* Retail Leveling Alliance:  Hinterlands, Loch Modan, Western Plaguelands, Wetlands
+* Retail Leveling Neutral: Eastern Plaguelands, Azj-Kahet, Fate of the Kirin Tor, Hallowfall, TWW Max Campaign, Siren Isle, TRD
+* Retail World Events: Guest Relations
+
+
+# Release 2024.12.18.A
+## Bug Fixes
+*  None!
+## Guide Updates
+* Vanilla Leveling Horde: Hendo Barrens 15-21, Hendo Horde 21-30
+* Cata Leveling Alliance: Swamp of Sorrows,Dwarf Intro, Gnome Intro
+* Retail Leveling Alliance: Loch Modan
+* Retail Leveling Neutral: Azj-Kahet, TRD
+
+
+# Release 2024.12.03.A
+## Bug Fixes
+*  Emotes now target not dead targets
+## Guide Updates
+* Vanilla Leveling Horde: Hendo Durotar 01-12, Hendo Mulgore 01-12
+* Cata Leveling Alliance: Burning Steppes
+* Cata Leveling Horde: Twilight Highlands
+* Retail Leveling Alliance: Tiragarde Sound
+* Retail Leveling Neutral: Azj-Kahet
+* Retail Dailies Neutral:  Allow left-click on Squirt for Anniversary Event
+* Retail Profession:  TWW Knowledge
+* Retail World Events: Guest Relations!
+
+
+# Release 2024.11.23.A
+## Bug Fixes
+* Add support for custom top categories for things like the "End Game"
+* Add support for tracking objectives that are progress (%) bars
+* Bugfix for multiple clicking target button on Cata
+* Add support for new quest icons in Retail
+## Guide Updates
+* Retail Achievements: HallowsEnd
+* Retail Dailies: Author standardized, Spreading The Light
+* Cata Leveling Alliance: Terokkar Forest, Swamp of Sorrows
+* Cata Leveling Horde: Burning Steppes, Orc Intro,
+* Cata Neutral: Searing Gorge
+* Retail Leveling Alliance: Exiles Reach Intro,
+* Retail Leveling Neutral: Azj-Kahet, Dorn, The Ringing Deeps
+* Retail WorldEvents:  Darkmoon Faire
+
+
+# Release 2024.10.24.A
+## Bug Fixes
+* Protect against next set of Blizzard API changes
+* Update Zone Data for new maps in 11.0.5
+## Guide Updates
+* Cata Achievements: Pebble, Son of Glop
+* Cata Dailies: Firelands
+* Cata Leveling Horde: Terokkar Forest, Zangarmarsh, Twilight Highlands, Belf Intro
+* Cata Leveling Neutral: Searing Gorge, UnGoro
+* Retail Neutral Leveling: Azure Span, DF Campaign, DF Intro, Thaldraszus, Dracthyr Intro, Bastion, Chains of Domination
+* Retail TWW Leveling: Azj-Kahet, Dorn, Hallowfall, Intro, TRD, Max Campaign
+* Retail TWW Professions: Knowledge
+* Retail WorldEvents: Squally, Darkmoon Faire, Anniversary
+
+# Release 2024.09.25.C
+## Bug Fixes
+* Update Vanilla TOC to 11504
+* Deal with the gradual demise of EasyMenu
+## Guide Updates
+* Achievements: Gnome Heritage Armor, TWW (AK, Dorn, HW, TRD) Treasures
+* Cata Dailies: Firelands
+* Cata Leveling Alliance: Badlands
+* Cata Leveling Horde: Hellfire Peninsula, Zangarmarsh, Dustwallow Marsh
+* Cata Leveling Neutral: Eastern Plaugelands, Mount Hyjal
+* Retail Alliance Leveling: Human Intro
+* Retail Neutral Leveling: Azure Span, DF Intro, Hearthen Intro, Valley of Four Winds
+* Retail TWW Leveling: Azj-Kahet, Dorn, Hallowfall, Intro, TRD
+
+# Release 2024.09.04.A
+## Bug Fixes
+* Fix bug in SPELL test tag
+## Guide Updates
+* Cata Leveling Alliance: Cape of Stranglethorn, Western Plaugelands
+* Retail Alliance Leveling: Chromie Time Intro, Exiles Reach Intro
+* Retail Neutral Leveling: Azure Span, DF Intro, Ohnahran Plains, Thaldraszus, Waking Shores, Dracthyr Intro, Earthen Intro
+* Retail TWW Leveling: Azj-Kahet, Dorn, Hallowfall, Intro, Max Campaign, TRD
+* Professions Retail: TWW Knowledge
+
+# Release 2024.08.26.A
+## Bug Fixes
+* Use `C_AddOns.GetAddOnMetadata`
+## Guide Updates
+* Retail Achievements: Azj-Kahet Glyphs
+* Retail Neutral: Aes TWW Speedrunning Guide, Misfit Dragons, Coalition of Flames
+* Retail Neutral TWW: Dorn, HAllowfall, Inbtro, Max Campaign, TRD
+* Professions Retail: All!
+
+# Release 2024.08.22.A
+## Bug Fixes
+* Added Khaz Algar Professions
+## Guide Updates
+* Retail Achievements: Added Azj-Kahet, Dorn, Hallowfall, and Khaz Algar Glyphs
+* Cata Horde Leveling: Hellfire Peninsula
+* Retail Neutral: Aes TWW Speedrunning Guide, The Coalition of Flames, Azj Kahet, Isle of Dorn, Hallowfall, TWW Intro, TWW MaxCampaign, The Ringing Deeps,
+
+
+# Release 2024.08.19.A
+## Bug Fixes
+* Fixed bug in Garrisons because Blizzard broke things for no good reason
+* TWW zone data update
+## Known deficiencies
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Retail Alliance Dailies:  Kirin Tor Offensive
+* Cata Horde Leveling:  Burning Steppes
+* Retail Alliance Leveling: Vashjir
+* TWW Beta: AzjKahet, Dorn, Hallowfall, Intro, Max Campaign, TWD
+
+
+# Release 2024.08.15.B
+## Bug Fixes
+* Updated Retail Interface to 110002
+* Switched from deprecated UnitAura to compatibility function
+* Switched from `C_AchievementInfo.IsValidAchievement` to compatibility function
+* Added new 11.X zone definitions
+* Cata Achievements module activated
+## Known deficiencies
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Retail Alliance Dailies:  Kirin Tor Offensive
+* Cata Alliance Leveling:  Duskwood, Northern Stranglethorn, Redridge Mountains, Westfall
+* Cata Neutral Leveling: Mount Hyjal, UnGoro
+* Retail Alliance Leveling: Vashjir, Icecrown
+* Retail Horde Leveling: Vashjir
+* Retail Neutral: Mount Hyjal, Dracthyr Intro, Legion Shaman Order Hall
+* TWW Beta: Dorn, Hallowfall, TRD
+* World Events: Squally
+
+
+# Release 2024.07.25.A
+## Bug Fixes
+* Updated to HereBeDragons 2.14.3-release
+* Updated to Ace3 Release-r1349
+* Fixed a bug with Chromie Time being different in 10.0.0 .vs. 10.0.2
+## Known deficiencies
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* None
+
+
+# Release 2024.07.24.A
+## Bug Fixes
+* Updated Retail Interface to 110000
+* Updated to HereBeDragons 2.14-release
+* Updated to Ace3-r1347-alpha till they provide a -release version
+* Numerous changes to support TWW by **@Furydin** (Thank you very much!)
+## Known *deficiencies*
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* All Retail files prepared for Chromie time change
+* Dailies:  Anglers
+
+# Release 2024.07.12.A
+## Bug Fixes
+* Updated Vanilla Interface to 11503
+* Prep work for adding in "The War Within" support
+* Localization support (DE, FR, RU, KR, ES, PT, IT )
+* Forced guide update after taxi map is opened
+* Opps, forgot Cata support in Professions!
+* Numerous UI tweaks
+## Known *deficiencies*
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Well, over 600 guides were moved improved or added in preparation for TWW.  I'm not listing them!
+
+
+# Release 2024.05.08.A
+## Bug Fixes
+* Updated to ACE Release-r1341
+* Updated Retail Interface to 100207
+* Tweaked wording on the default D step
+## Known *deficiencies*
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Classic Cata Leveling Alliance: Cape of Stranglethorn, Northen Stranglethorn, Redridge Mountains, Westfall, Intros for Draenai, Gnomes and Humans
+
+# Release 2024.05.03.A
+## Bug Fixes
+* *WoWPro: Unknown PRO Icon number [XXX] for guide YYY*, is now a debug message
+* Added Leveling addon for Cata.  Other addons are disabled by default for now.
+* Fake Legacy Guide Picker looks much better!
+## Known *deficiencies*
+* Quest Picker depends on Grail, remove dependency
+## Guide Updates
+* Added 179 Cata guides.
+* Garrison coordinates are back!  Campaign and Alliance Building tweaks.
+* Daily: Harrison Shattered Sun updates
+* Retail Leveling Alliance updates: BFA War Campaign, Grizzly Hills, Icecrown, Storm Peaks
+* Retail Leveling Neutral updates: Mount Hyjal, Deepholm, Coalition of Flames, Druid Order Hall, Suramar, Sholazar Basin, Zul'Drak
+* Retail Leveling Horde updates: Icecrown
+* Retail Leveling Time Running Guides: Dread Wastes, Jade Forest, Krasrang Wilds, Kun Lain Summit, Towlong Steppes, Valley of the Four Winds
+* Vanilla Leveling: Alliance 50-55, Horde 12-21 The Barrens
+* Wrath Leveling: Human Intro
+
+# Release 2024.03.20.A
+## Bug Fixes
+* A Faux old style Guide list has been added.  Not yet great, but good enough.
+* Update Retail Interface to 100206
+## Known *deficiencies*
+* Classic may complain about *WoWPro: Unknown PRO Icon number [XXX] for guide YYY*, please ignore
+## Guide Updates
+* Unfortunately, due to a file reorganization to prepare for Cata, 658 files were touched/moved.
+  Too much work to see what was actually updated versus moved or just having zone tag corrections.
+
+
+# Release 2024.02.08.A
+## Bug Fixes
+* Mr. Esthetic Tweaks (Spoony) made things nicer looking in many places
+* Direct opening of tabs in the config panel now works right
+* New option in header menu: **Wowhead Link** gives you the link to the quest on that site!
+## Known *deficiencies*
+* Classic may complain about *WoWPro: Unknown PRO Icon number [XXX] for guide YYY*, please ignore
+* *Current Guide* will be moved from a submenu to a tab, but is not ready for release
+* A look-alike to the old *Guide Select* will appear as a tab, but is not ready for release
+## Guide Updates
+* 64 Retail Leveling guide tweaks, including flying cleanups
+* 14 Retail Profession guide tweaks, including profession treasure guides
+* Retail Lunar Festival and Love is in the Air cleanups!
+* Classic Alliance Teldrassil 01-12 cleanup
+
+
+# Release 2024.01.22.A
+## Bug Fixes
+* Current Guides menu now open in center of screen
+* Libraries Updated: Ace3, LibDBIcon, LibPetJournal, LibSharedMedia
+* Professions category in Guides Menu for non-retail versions
+* Spoony when OCD with look and feel on the Config panels, so much nicer
+## Guide Updates
+* 20 Leveling guide tweaks, including Reclaiming Gilneas
+* 12 WorldEvent guide tweaks
+
+# Release 2024.01.17.A
+## Bug Fixes
+* Config panel completely reworked
+* Current Guides is now a menu not a panel
+* Window Position reworked
+* Update Retail Interface to 100205
+* About 500 lines of code reworked, again, many other bug fixes!
+## Guide Updates
+* Complete re-org, can say what changed, 291 guides or so
+* Many things changed and by the next release, *everything* will have been touched
+* New Reclaiming Gilneas Guide
+
+# Release 2023.11.15.B
+## Bug Fixes
+* Fixed  NOTAUTO for QUEST_DETAIL_PUNTED NPCs
+* Update Vanilla Interface to 11500
+## Guide Updates
+### Retail
+* Leveling/Alliance: Borean Tundra, Dragonblight
+* Leveling/Neutral: Call of the Dream, Misfit Dragons
+### WotLK
+* Leveling/Alliance: Bloodmyst Isle
+
+
+# Release 2023.11.08.B
+## Bug Fixes
+* Zone Name updates for 10.2.0
+* Retail interface stepped to 100200
+* Misfit Dragons guide was not Neutral
+## Guide Updates
+### Retail
+* Achievements: Call of the Dream Glyphs,
+* Leveling/Alliance: Exiles Reach Intro
+* Leveling/Horde: BFA Intro, Chromie Time, Exiles Reach
+* Leveling/Neutral: Azure Span, Call of the Dream, DF Campaign, Misfit Dragons, Thaldraszus, The Coalition of Flames, SL Maw Intro
+* WorldEvents/Alliance: Hallows End
+### WotLK
+* Leveling/Alliance: Intro Human
+### Classic
+* Leveling/Alliance: Intro Human, Teldrassil 1-12, Darkshore 12-20, Eastern Kingdom 12-20
+
+
+# Release 2023.10.11.A
+## Bug Fixes
+* Empty Guide text updated to help folks get started easier
+* Wrath interface stepped from 30402 to 30403
+## Guide Updates
+### Retail
+* Achievements:A Blue Dawn, Nelf Heritage Armor
+* Leveling/Neutral: Thaldraszus, Waking Shores,
+### WotLK
+* Leveling/Alliance: Intro Dwarf/Gnome, Intro Human
+### Classic
+* Leveling/Alliance: Intro Dwarf/Gnome, Intro Human, Intro Nelf, Eastern Kingdom 12-20
+
+# Release 2023.09.14.A
+## Bug Fixes
+* No bug fixes!
+## Guide Updates
+### Retail
+* Achievements:A Blue Dawn, Nelf Heritage Armor
+* Leveling/Neutral: Shandris Feathermoon Questline, The Coalition of Flames
+### WotLK
+* Leveling/Alliance: Intro Human, Intro Dwarf/Gnome
+### Classic
+* Leveling/Alliance: 01-12 Dun Morogh
+
+# Release 2023.09.06.A
+## Bug Fixes
+* Cagomei: Updated DF Zone data
+* Ludo: Correct Vanilla Version
+* Spoony36: Stop Dialog box popping up when entering/Leaving Battlegrounds and small tweak to okay button
+* Ludo: Add Dialog box for missing TomTom/Carbonite instead of an ignored warning.
+## Guide Updates
+### Retail
+* Leveling/Alliance: BFA Intro, Exiles Reach
+* Leveling/Horde: BFA Intro, Exiles Reach, Forsaken Intro,
+* Neutral Leveling: Onaharen Plains, Shandris Feathermoon Questline
+### WotLK
+* Many guides were updated to remove outdate hearthstone references
+* Leveling/Alliance: Intro Human, Intro Dwarf/Gnome, Darkshore, Teldrassil
+* Leveling/Neutral: Blades Edge
+### Classic
+* No Classic guides were harmed during this release
+
+
+# Release 2023.08.24.A
+## Bug Fixes
+* Spoony:  Massive changes to show a popup with the no TomTom warning.
+* Johan: GetNumGossipAvailableQuests and friends are GONE on HC servers.
+* Pixyl:  Correct bug in WoWPro.GetItemCooldown().
+* Pixyl:  Warn on bad GetItemCooldown() instead of crashing.
+
+## Guide Updates
+### Retail
+* Leveling/Alliance: BFA Intro, Exiles Reach
+* Leveling/Horde: BFA Intro, Exiles Reach, Forsaken Intro,
+* Neutral Leveling: Thaldraszus, Waking Shores, Pandaren Intro
+### WotLK
+* Leveling/Alliance: 31 guides were updated, Yeah!
+* Leveling/Neutral: Netherstorm, DK Intro, Dungeon Guides (5)
+### Classic
+* No Classic guides were harmed during this release
+
+
+# Release 2023.07.12.A
+## Bug Fixes
+* Updated Ace3 to r1309; fixes PTR issues
+* Updated HereBeDragons to 2.13; fixes *some* map issues
+* Added IconTextures to all addons
+* Updated Retail Interface to 100105
+* Added new Map data for 100105
+* Fixed two delayed completion bugs with SPELL and CT tags
+## Guide Updates
+### Retail
+* Note: Nearly all Intro guides had a bug with Chromie Time fixed
+* Leveling/Alliance:  Draenai Intro had surgery and is now in recovery
+* Neutral Leveling: Azure Span, Intro, Thaldraszus
+### WotLK
+* Dailies/Alliance: Argent Tournament
+### Classic
+* No Classic guides were harmed during this release
+
+# Release 2023.06.27.A
+## Bug Fixes
+* Face:  Serious Version mismatch message SPAM, from group sync.
+* Hendo: AVAILABLE|13736^-13737^-13738^-13739^-13740| no work.
+* Hendo: Bad REP ids explode the addon.
+* Update Wrath Interface to 30402
+## Guide Updates
+### Retail
+* Achievements: Naszuro, Wrathion.vs.Sabellian
+* Dailies Alliance+Horde: Argent Tournament
+* Neutral Leveling: Campaign, Embers of Neltharion, Thaldraszus, Forbidden Reach
+* Professions: DF Profession Knowledge
+### WotLK
+* Horde Dailies: Argent Tournament
+* Alliance Leveling: Dwarf/Gnome Intro, EK 10-19,
+* Horde Leveling: Silverpine 10-15
+### Classic
+* No Classic guides were harmed during this release
+
+
+# Release 2023.05.03.A
+## Bug Fixes
+* Update Interface for Retail to 100100
+* Fix requirements for BFA flying
+* Greevir: Instance/Combat hiding are messing each other up.
+## Guide Updates
+### Retail
+* Achievements: Dragon Riding Glyphs
+* Horde Leveling: Vashjir, Goblin Intro
+* Neutral Leveling: Azure Span, Embers of Neltharion, Forbidden Reach, Waking Shores
+### WotLK
+* Horde Leveling: Hellfire Peninsula, Zangarmarsh, Chapter 3: 41-51, Winterspring
+### Classic
+* No Classic guides were harmed during this release
+
+# Release 2023.05.11.A
+## Bug Fixes
+* Add code to survive in Wrath PTR
+* Control Instance/Combat hiding message spam
+* Hendo:  Can I have an EQUIPPED tag?
+* Hendo: Why does TZ not complete when I am standing in the zone when I log in?
+## Guide Updates
+### Retail
+* Neutral Leveling: Embers of Neltharion
+* Horde Dailies: Argent Tournament
+### WotLK
+* Horde Dailies: Argent Tournament
+* Horde Leveling: Terokkar Forest, Zangarmarsh
+* Neutral: Netherstorm
+### Classic
+* No Classic guides were harmed during this release
+
+
+# Release 2023.05.03.A
+## Bug Fixes
+* Update Interface for Retail to 100100
+* Fix requirements for BFA flying
+* Greevir: Instance/Combat hiding are messing each other up.
+## Guide Updates
+### Retail
+* Achievements: Dragon Riding Glyphs
+* Horde Leveling: Vashjir, Goblin Intro
+* Neutral Leveling: Azure Span, Embers of Neltharion, Forbidden Reach, Waking Shores
+### WotLK
+* Horde Leveling: Hellfire Peninsula, Zangarmarsh, Chapter 3: 41-51, Winterspring
+### Classic
+* No Classic guides were harmed during this release
+
+
+# Release 2023.03.24.B
+## Guide Updates
+### Retail
+* Whoops! Forbidden Reach is Neutral not Alliance only
+* Update Interface for Retail to 100007
+
+# Release 2023.03.23.A
+## Bug Fixes
+* Added HOA (Heart of Azeroth) tag for quest gating
+* Added DF support to releases table
+* Added new command: **/wp trade-bug** for debugging tradeskills issues
+* Fixed wildcard Professions tag support
+* WoLK switched to using the `C_Container` API (Why Blizzard?)
+* Updated zone data for DF
+* Fixed TrashItem tag function (Blizzard changed the security level of some functions)
+
+## Known Bugs
+* Switching to the correct options pane/sub-pane is wonky
+* Frame size settings are not preserved across reloads
+
+## Guide Updates
+### Retail
+* World Events: Lunar Festival, Love is in the Air
+* Achievements: FR Dragon Riding Glyphs
+* Dailies: Pandaria Pet Leveling
+* Leveling: 54 guides were updated. @Cagomei and @Hendo have been quite busy!
+### Classic
+* No Classic guides were harmed during this release
+### WotLK
+* Alliance: Howling Fjord, Icecrown
+* Horde: Blef Intro, Ghostlands, Horde Chapter 1+2, Felwood, Winterspring
+
 # Release 2023.02.05.A
 ## Bug Fixes
 * Fixed message spam for Recipe's and PRE&
@@ -10,7 +523,7 @@
 ### Retail
 * World Events: Lunar Festival, DF Lunar Festival
 * Alliance: Twilight Highlands, Vashjir
-* Horde: Nazjatar, War Campaign, Azshara, Ghostlands, Intros for Belf, Forsakem, Orc/Troll, Tauren, WOLK Intro
+* Horde: Nazjatar, War Campaign, Azshara, Ghostlands, Intros for Belf, Forsaken, Orc/Troll, Tauren, WOLK Intro
 * Neutral: DF Campaign, KunLai Summit
 ### Classic
 * No Classic guides were harmed during this release

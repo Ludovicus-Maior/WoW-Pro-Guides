@@ -1,6 +1,6 @@
 -- luacheck: globals tostring tonumber
 -- luacheck: globals max min abs type
--- luacheck: globals pairs select tinsert tremove
+-- luacheck: globals pairs select string tinsert tremove
 
 -----------------------------
 --      WoWPro_Parser      --
@@ -16,7 +16,7 @@ WoWPro.actiontypes = {
     K = "Interface\\Icons\\Ability_Creature_Cursed_02",
     R = "Interface\\Icons\\Ability_Tracking",
     H = "Interface\\Icons\\INV_Misc_Rune_01",
-    h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
+    h = "Interface\\AddOns\\WoWPro\\Textures\\INNKEEPER.tga",
     F = "Interface\\AddOns\\WoWPro\\Textures\\Ability_Druid_FlightForm",
     f = "Interface\\Icons\\Ability_Hunter_EagleEye",
     M = "Interface\\Icons\\Trade_engineering",
@@ -86,11 +86,105 @@ WoWPro.actionlabels = {
     s = "Take Spirit Healer",
 }
 
-if WoWPro.RETAIL then
-    WoWPro.actiontypes["A Campaign"] = "Interface\\GossipFrame\\CampaignAvailableQuestIcon"
-    WoWPro.actiontypes["T Campaign"] = "Interface\\GossipFrame\\CampaignActiveQuestIcon"
-    WoWPro.actionlabels["A Campaign"] = "Accept Campaign quest"
-    WoWPro.actionlabels["T Campaign"] = "Turn in Campaign quest"
+local GetQuestInfoDebug = true
+function WoWPro.GetQuestInfo(QuidList)
+    if tonumber(QuidList) and WoWPro.QuestLog[tonumber(QuidList)] then
+        local result = WoWPro.QuestLog[tonumber(QuidList)]
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): %s", QuidList, WoWPro.Ptable(result)); end
+        return result
+    end
+    if not tonumber(QuidList) then
+        local result = WoWPro:QIDsInTable(QuidList,WoWPro.QuestLog, false, "GetQuestInfo")
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): %s", tostring(QuidList), WoWPro.Ptable(result)); end
+        return result
+    end
+    local mapID = _G.C_Map.GetBestMapForUnit("player")
+    if _G.C_QuestLine and tonumber(QuidList) and mapID then
+        local result = _G.C_QuestLine.GetQuestLineInfo(tonumber(QuidList), mapID)
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): C_QuestLine.GetQuestLineInfo=%s", tostring(QuidList), WoWPro.Ptable(result)); end
+        return result
+    end
+    if GetQuestInfoDebug then WoWPro:dbp("GetQuestInfo(%s): NIL", QuidList); end
+    return nil
+end
+
+WoWPro.OfferIcons = {
+    isCampaign = "CampaignAvailableQuestIcon",
+    isLegendary = "legendaryavailablequesticon",
+    isCovenantCalling = "CampaignAvailableDailyQuestIcon",
+    isImportant = "importantavailablequesticon",
+    isMeta = "Wrapperavailablequesticon",
+    isDaily = "Recurringavailablequesticon",
+    isWeekly = "Recurringavailablequesticon",
+    isRepeatable = "Interface/GossipFrame/DailyActiveQuestIcon",
+    default = "Interface/GossipFrame/AvailableQuestIcon"
+}
+
+function WoWPro.GetQuestIconOffer(QID)
+    local quest_info = WoWPro.GetQuestInfo(QID)
+    if not quest_info then
+        local result = WoWPro.OfferIcons["default"]
+        if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): NIL default=%s", QID or "No Quest ID", result); end
+        return result, "Ordinary"
+    end
+    for flag, icon in pairs(WoWPro.OfferIcons) do
+        if quest_info[flag] then
+            if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): %s=%s", QID, flag, icon); end
+            return icon, string.sub(flag,3)
+        end
+    end
+    local result = WoWPro.OfferIcons["default"]
+    if GetQuestInfoDebug then WoWPro:dbp("GetQuestIconOffer(%s): ??? default=%s", QID, result); end
+    return result, "Default"
+end
+
+WoWPro.ActiveIcons = {
+    isCampaign = "CampaignInProgressQuestIcon",
+    isLegendary = "legendaryInProgressquesticon",
+    isImportant = "importantInProgressquesticon",
+    isMeta = "WrapperInProgressquesticon",
+    isRecurring = "RepeatableInProgressquesticon",
+    default = "SideInProgressquesticon"
+}
+function WoWPro.GetQuestIconActive(QID)
+    local quest_info = WoWPro.GetQuestInfo(QID)
+    if not quest_info then
+        return WoWPro.ActiveIcons["default"]
+    end
+    for flag, icon in pairs(WoWPro.ActiveIcons) do
+        if quest_info[flag] then
+            return icon
+        end
+    end
+    return WoWPro.ActiveIcons["default"]
+end
+WoWPro.CompleteIcons = {
+    isCampaign = "CampaignActiveQuestIcon",
+    isLegendary = "legendaryactivequesticon",
+    isCovenantCalling = "CampaignActiveDailyQuestIcon",
+    isImportant = "importantactivequesticon",
+    isMeta = "Wrapperactivequesticon",
+    isRecurring = "Recurringactivequesticon",
+    default = "Interface/GossipFrame/ActiveQuestIcon"
+}
+function WoWPro.GetQuestIconComplete(QID)
+    local quest_info = WoWPro.GetQuestInfo(QID)
+    if not quest_info then
+        return WoWPro.CompleteIcons["default"], "Ordinary"
+    end
+    for flag, icon in pairs(WoWPro.CompleteIcons) do
+        if quest_info[flag] then
+            return icon, string.sub(flag,3)
+        end
+    end
+    return WoWPro.CompleteIcons["default"]
+end
+for flag, icon in pairs(WoWPro.OfferIcons) do
+    if string.sub(flag,1,2) == "is" then
+        local key = string.format("A %s", string.sub(flag,3))
+        WoWPro.actiontypes[key] = icon
+        WoWPro.actionlabels[key]  = string.format("Accept %s quest", string.sub(flag,3))
+    end
 end
 
 ---accept = {
@@ -302,6 +396,7 @@ DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("EAB","eab","boolean",nil,nil)
 DefineTag("ELITE", "elite","boolean",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
+DefineTag("EQUIPPED","equipped","number",nil,nil)
 DefineTag("I","inspect","boolean",nil,nil)
 DefineTag("H","hand","boolean",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
@@ -310,6 +405,7 @@ DefineTag("NOCACHE", "nocache","boolean",nil,nil)
 DefineTag("NOAUTO", "noauto","boolean",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = value:upper() end)
 DefineTag("RARE","rare","boolean",nil,nil)
+DefineTag("DUNGEON","dungeon","boolean",nil,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("U","use","string",validate_andor_list_of_ints,nil)
 DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelled it!
@@ -337,7 +433,9 @@ DefineTag("REP","rep","string",nil,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("SPELL","spell","string",nil,nil)
 DefineTag("TAXI","taxi","string",nil,nil)
+DefineTag("TWWREN","twwrenown","string",nil,nil)
 DefineTag("HOA","hoa","string",nil,nil)
+DefineTag("RUNE","rune","boolean",nil,nil)
 
 -- Pet Stuff
 DefineTag("DEAD","dead","string",nil,nil)
@@ -369,7 +467,7 @@ DefineTag("MS",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
 DefineTag("N","note","string",nil,nil)
 DefineTag("R","playerrace","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
-DefineTag("TOF",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
+DefineTag("TOF",nil,"boolean",nil,function (value,i) end)  -- Swallow TOF Tags
 
 
 local function addTagValue(line, tag, value)
@@ -593,6 +691,14 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	if WoWPro.zone[i] then
 		WoWPro.zone[i] = select(1, (";"):split(WoWPro.zone[i]))
 	end
+    if WoWPro.chromie and WoWPro.chromie[i] then
+        if WoWPro.WAR_WITHIN and (not WoWPro.WAR_WITHIN_PREPATCH) then
+            WoWPro.level[i] = -70
+        else
+            -- WoWPro.DRAGONFLIGHT
+            WoWPro.level[i] = -60
+        end
+    end
     WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
     if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
         WoWPro:Error("Step %s [%s] has a bad ¦Z¦%s¦ tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
@@ -1007,7 +1113,7 @@ function WoWPro.ParseSteps(steps)
         nguide = WoWPro:NextGuide(GID)
         if nguide then
             if WoWProDB.profile.autoload then
-                fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|NOCACHE|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
+                fini = ("D Onwards|N|This ends %s.\n%s is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|%s|NOCACHE|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
             end
         else
             fini = ("D Finished|N|This ends %s. There is no next guide, so you can pick the next from the Guide List.|NOCACHE|"):format(WoWPro:GetGuideName(GID))
@@ -1162,14 +1268,15 @@ function WoWPro.SetupGuideReal()
         end
     end
 
-    -- Location, Location, Location
-    WoWPro.AutoCompleteZone()
-
     -- Scrollbar Settings --
     WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount - WoWPro.ShownRows))
 
     WoWPro.GuideLoaded = "Loaded"
     WoWPro:AutoCompleteQuestUpdate(nil)
-    WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
+    WoWPro:UpdateGuide("WoWPro.SetupGuideReal(1)")
+    -- Location, Location, Location
+    if WoWPro.AutoCompleteZone() then
+        WoWPro:UpdateGuide("WoWPro.SetupGuideReal(2)")
+    end
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
 end

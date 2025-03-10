@@ -5,6 +5,9 @@
 
 local guide = WoWPro:RegisterGuide("LudoGarrisonFollowers","Achievements","Draenor","Ludovicus","Neutral")
 WoWPro:GuideIcon(guide,"ACH",9109)
+WoWPro:GuideNickname(guide, "Garrison Followers")
+WoWPro:GuideName(guide,"Garrison Followers")
+WoWPro.Achievements:GuideMisc(guide, "Garrison Followers", "Garrison", "Draenor")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 
@@ -76,7 +79,7 @@ C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|Z|Spires of Arak|
 C Skimming Off the Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|US|N|Kill the oily slimes in the area.|
 T The Right Parts for the Job|QID|35090|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Skimming Off the Top|QID|35089|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
-A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35089&35090&36384|
+A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35089&35090|
 T Field Trial|QID|36384|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
 A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089&35090&36384|
 A Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089&35090&36384|
@@ -85,14 +88,14 @@ C Sporicide|QID|35091|M|58,92|Z|Spires of Arak|S|N|There are a few of these wand
 C Preventing the Worst|QID|35211|M|58,92|Z|Spires of Arak|NC|N|There is a translucent bomb inside of each of the buildings, click on it to activate. It is upstairs on the balcony of the 2 story building.|
 C Curing With Force|QID|36428|M|56.2,90.4|Z|Spires of Arak|U|115533|US|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them). Again, a garrison follower will kill them.  Send them home for a bit.|
 C Sporicide|QID|35091|M|56.2,90.4|Z|Spires of Arak|US|N|There are a few of these wandering in the village but most are behind it.|
-T Sporicide|QID|35091|M|58.49,92.33|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
+T Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
 T Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
 A Flame On|QID|35298|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35091&35211&36428|
 C Flame On|QID|35298|M|58.44,92.24|Z|Spires of Arak|QO|1|NC|N|Click on the Plunger to set off the bombs.|
 C Flame On|QID|35298|M|58.88,92.84|Z|Spires of Arak|QO|2|NC|N|Hop in Kimzee's flying machine.|
-T Flame On|QID|35298|M|61.47,72.94|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
-A Kimzee Pinchwhistle|QID|36062|M|61.47,72.94|Z|Spires of Arak|N|To/From Kimzee Pinchwhistle.|PRE|35298|
+T Flame On|QID|35298|M|61.60,72.85|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
+A Kimzee Pinchwhistle|QID|36062|M|61.60,72.85|Z|Spires of Arak|N|To/From Kimzee Pinchwhistle.|PRE|35298|
 
 A Clear!|QID|34761|M|62.86,50.32|Z|Talador|N|From Torben Zapblast|FACTION|Alliance|
 C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|Z|Talador|CN|N|Kill and loot the Lakebottom Zappers in the lake.|FACTION|Alliance|
@@ -110,11 +113,14 @@ A Gatekeepers of Auchindoun|QID|34776|M|58.10,53.05|Z|Talador|N|From Aeda Bright
 C Gatekeepers of Auchindoun|QID|34776|QO|1|M|57.38,52.75|Z|Talador|CHAT|N|Challenge Vidicator Dalu to a fight. You can challenge them simultaneously if you want.|T|Vindicator Dalu|FACTION|Horde|
 C Gatekeepers of Auchindoun|QID|34776|QO|2|M|57.37,52.60|Z|Talador|CHAT|N|Challenge Soulbinder Halaari|T|Soulbinder Halaari|FACTION|Horde|
 T Gatekeepers of Auchindoun|QID|34776|M|58.10,53.06|Z|Talador|N|To Aeda Brightdawn.|FACTION|Horde|
+A The True Path|QID|36518|PRE|34776|M|58.1,53.06|N|Accept Aeda as your follower.|FACTION|Horde|
 
 A Gatekeepers of Auchindoun|QID|34777|M|57.42,51.12|Z|Talador|N|From Defender Illona|FACTION|Alliance|
 K Vindicator Dalu|QID|34777|QO|1|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|FACTION|Alliance|
 K Soulbinder Halaari|QID|34777|QO|2|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|FACTION|Alliance|
 T Gatekeepers of Auchindoun|QID|34777|M|57.42,51.12|Z|Talador|N|To Defender Illona|FACTION|Alliance|
+A The True Path|QID|36519|PRE|34777&36797|M|57.42,51.12|N|From Defender Illona (to get her as a follower)|FACTION|Alliance|
+
 
 A Mysterious Hat|QID|34465|M|45.27,37.07|Z|Talador|N|In the corner.|
 

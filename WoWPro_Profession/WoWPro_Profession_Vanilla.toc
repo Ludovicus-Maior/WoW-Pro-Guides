@@ -1,16 +1,17 @@
-## Interface: 11403
+## Interface: 11506
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Professions
 ## Notes: Professions guides guides created by the WoW-Pro Community
 ## Author: Twists
+## IconTexture: Interface\ICONS\Trade_Engineering
 ## Dependencies: WoWPro
-## Version: 2023.02.05.A
+## Version: 2025.03.04.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Profession.lua
-Professions\Guides.xml
 Vendors\Guides.xml
-Professions\Classic\Guides.xml
-Professions\Classic_BC\Guides.xml
 WoWPro_Profession_Parser.lua
 WoWPro_Profession_Config.lua
 WoWPro_Profession_GuideList.lua
+Vanilla\Guides.xml
+
+

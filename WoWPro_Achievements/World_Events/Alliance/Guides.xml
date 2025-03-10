@@ -1,0 +1,8 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="HallowsEnd_ACAT.lua"/>
+	<Script file="HallowsEnd_AEK.lua"/>
+	<Script file="HallowsEnd_AKAL.lua"/>
+	<Script file="HallowsEnd_ANOR.lua"/>
+	<Script file="HallowsEnd_AOUT.lua"/>
+	<Script file="HallowsEnd_APAN.lua"/>
+</Ui>

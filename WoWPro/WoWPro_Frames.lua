@@ -52,22 +52,24 @@ function WoWPro:DragSet()
     if WoWProDB.profile.drag then
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
+                WoWPro.InhibitAnchorRestore = true
                 WoWPro.MainFrame:StartMoving()
             elseif button == "RightButton" then
-                _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
             if button == "LeftButton" and WoWProDB.profile.drag then
                 WoWPro.MainFrame:StopMovingOrSizing()
                 WoWPro.MainFrame:SetUserPlaced(false)
-                WoWPro.AnchorStore()
+                WoWPro.AnchorStore("OnMouseUp0")
+                WoWPro.InhibitAnchorRestore = false
             end
         end)
     else
         WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
             if button == "RightButton" then
-                _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+                WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU")
             end
         end)
         WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
@@ -331,16 +333,20 @@ function WoWPro.SetMouseNotesPoints()
     end
 end
 
-function WoWPro.AnchorStore()
-    WoWPro.SetMouseNotesPoints()
+function WoWPro.AnchorStore(where)
     -- Update the position when we are no longer in combat
     WoWPro.MainFrame:SetScript("OnUpdate", function()
         if not WoWPro.MaybeCombatLockdown() then
             local pos = {WoWPro.MainFrame:GetPoint(1)}
             pos[2] = "UIParent"
+            local scale = WoWPro.MainFrame:GetScale()
+            for i=4,5 do
+                pos[i] = pos[i] * scale
+            end
             WoWProDB.profile.position = pos
-            WoWPro:dbp("AnchorStore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f",
-                        pos[1], pos[2], pos[3], pos[4], pos[5])
+            WoWProDB.profile.scale = scale
+            WoWPro:dbp("AnchorStore(%s): point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f, scale=%.2f", where,
+                        pos[1], pos[2], pos[3], pos[4], pos[5], WoWProDB.profile.scale)
             local size = {WoWPro.MainFrame:GetHeight(), WoWPro.MainFrame:GetWidth() }
             WoWPro:dbp("AnchorStore: Height=%.2f Width=%.2f", size[1], size[2])
             WoWProDB.profile.size = size
@@ -350,9 +356,20 @@ function WoWPro.AnchorStore()
 end
 
 function WoWPro.AnchorRestore(reset_size)
+    if WoWPro.InhibitAnchorRestore then
+        WoWPro:dbp("AnchorRestore: Punting for now.")
+        return
+    end
     WoWPro.MainFrame:ClearAllPoints()
     local pos = WoWProDB.profile.position
     WoWPro:dbp("AnchorRestore: point=%q, relTo=%q, relPoint=%q, xO=%.2f yO=%.2f", unpack(pos))
+    if WoWProDB.profile.scale then
+        WoWPro.MainFrame:SetScale(WoWProDB.profile.scale)
+    end
+    local scale = WoWPro.MainFrame:GetScale()
+    for i=4,5 do
+        pos[i] = pos[i] / scale
+    end
     WoWPro.MainFrame:SetPoint(unpack(pos))
     local size = WoWProDB.profile.size
     if size and not reset_size then
@@ -437,18 +454,24 @@ function WoWPro:CreateMainFrame()
     -- Scripts --
     WoWPro.MainFrame:SetScript("OnMouseDown", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
+            WoWPro.InhibitAnchorRestore = true
             this:StartMoving()
         elseif button == "RightButton" then
-            _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
     WoWPro.MainFrame:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             this:StopMovingOrSizing()
             this:SetUserPlaced(false)
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("OnMouseUp1")
+            WoWPro.InhibitAnchorRestore = false
         end
     end)
+    WoWPro.MainFrame:SetScript("OnDragStop", function()
+        WoWPro.AnchorStore("OnDragStop") ; end)
+    WoWPro.MainFrame:SetScript("OnSizeChanged", function()
+        WoWPro.AnchorStore("OnSizeChanged") ; end)
 
     -- Set initial keybindings frames
     WoWPro.FauxItemButton = _G.CreateFrame("Frame", "WoWPro_FauxItemButton", _G.UIParent)
@@ -487,6 +510,7 @@ function WoWPro:CreateResizeButton()
     resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
     -- Scripts --
         resizebutton:SetScript("OnMouseDown", function()
+            WoWPro.InhibitAnchorRestore = true
             WoWPro.MainFrame:StartSizing("TOPLEFT")
             WoWPro:UpdateGuide("ResizeStart")
             WoWPro.MainFrame:SetScript("OnSizeChanged", function(this, width, height)
@@ -496,13 +520,14 @@ function WoWPro:CreateResizeButton()
         resizebutton:SetScript("OnMouseUp", function()
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
+            WoWPro.InhibitAnchorRestore = false
             WoWPro:UpdateGuide("ResizeEnd")
             WoWPro.MainFrame:SetScript("OnSizeChanged", nil)
         end)
     WoWPro.resizebutton = resizebutton
 end
 
--- Title Bar --
+-- Titlebar --
 function WoWPro:CreateTitleBar()
     local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     titlebar:SetHeight(22)
@@ -516,6 +541,23 @@ function WoWPro:CreateTitleBar()
     })
     titlebar:RegisterForClicks("AnyUp")
     WoWPro.Titlebar = titlebar
+
+    -- Icon --
+    local titleicon = WoWPro.Titlebar:CreateTexture(nil, "OVERLAY")
+    titleicon:SetSize(12, 12)
+    titleicon:SetPoint("RIGHT", WoWPro.Titlebar, "RIGHT", -3, 0)
+    titleicon:SetTexture("Interface\\Buttons\\UI-OptionsButton")
+
+-- Tooltip --
+titleicon:HookScript("OnEnter", function(tool)
+    _G.GameTooltip:SetOwner(tool, "ANCHOR_RIGHT")
+    _G.GameTooltip:SetText(L["Right click for options"], nil, nil, nil, nil, true)
+    _G.GameTooltip:Show()
+end)
+titleicon:HookScript("OnLeave", function(tool)
+    _G.GameTooltip:Hide()
+end)
+
     -- Text --
     local titletext = WoWPro.Titlebar:CreateFontString()
     titletext:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
@@ -524,20 +566,20 @@ function WoWPro:CreateTitleBar()
     titletext:SetText("WoW-Pro Guides")
     titletext:SetTextColor(1, 1, 1)
     WoWPro.TitleText = titletext
+
     -- Scripts --
     local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
-    WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
-        if button == "LeftButton" and WoWProDB.profile.drag then
-            WoWPro.MainFrame:StartMoving()
-        elseif button == "RightButton" then
-            _G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+    titleicon:SetScript("OnMouseDown", function(this, button)
+        if button == "RightButton" then
+            WoWPro.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
         end
     end)
     WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
         if button == "LeftButton" and WoWProDB.profile.drag then
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("OnMouseUp2")
+            WoWPro.InhibitAnchorRestore = false
         end
     end)
     WoWPro.Titlebar:SetScript ("OnDoubleClick", function (this, button)
@@ -549,7 +591,7 @@ function WoWPro:CreateTitleBar()
             WoWPro.MainFrame:SetHeight(this:GetHeight())
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("OnDoubleClick1")
         else
             WoWPro.GuideFrame:Show()
             if WoWPro.StickyHide then WoWPro.StickyFrame:Show(); WoWPro.StickyHide = false end
@@ -557,12 +599,11 @@ function WoWPro:CreateTitleBar()
             WoWPro.MainFrame:SetHeight(WoWPro.OldHeight)
             WoWPro.MainFrame:StopMovingOrSizing()
             WoWPro.MainFrame:SetUserPlaced(false)
-            WoWPro.AnchorStore()
+            WoWPro.AnchorStore("OnDoubleClick0")
             WoWPro:UpdateGuide("DoubleClick")
         end
     end)
 end
-
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
     local sticky = _G.CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
@@ -575,7 +616,7 @@ function WoWPro:CreateStickyFrame()
     stickytitle:SetPoint("TOPRIGHT", -5, 4)
     stickytitle:SetHeight(25)
     stickytitle:SetJustifyH("LEFT")
-    stickytitle:SetJustifyV("CENTER")
+    stickytitle:SetJustifyV("MIDDLE")
     stickytitle:SetText(L["As you go:"])
     WoWPro.StickyTitle = stickytitle
 end
@@ -722,8 +763,8 @@ function WoWPro:CreateMiniMapButton()
         end,
         OnTooltipShow = function(this)
             this:AddLine("WoW-Pro")
-            this:AddLine("Left-click to enable/disable addon", 1, 1, 1)
-            this:AddLine("Right-click to open config panel", 1, 1, 1)
+            this:AddLine(L["Left-click to enable/disable addon"], 1, 1, 1)
+            this:AddLine(L["Right-click to open config panel"], 1, 1, 1)
         end,
     })
     icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
@@ -817,8 +858,7 @@ function WoWPro:CreateNextGuideDialog()
     button2text:SetText("Choose Guide From List")
     button2text:SetTextColor(1, 1, 1)
     button2:SetScript("OnClick", function(this, button)
-        WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")
-        WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide List")
+        WoWPro.ShowGuideMenu()
         WoWPro.NextGuideDialog:Hide()
     end)
 
@@ -863,7 +903,10 @@ end
 function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
     -- Hack!
     if _G.Settings and _G.Settings.OpenToCategory then
-        _G.Settings.OpenToCategory("WoW-Pro", menu)
+        if menu == "WoW-Pro" then
+            menu = nil
+        end
+        _G.Settings.OpenToCategory("WoWPro", menu)
     else
         _G.InterfaceOptionsFrame_OpenToCategory(menu)
         _G.InterfaceOptionsFrame_OpenToCategory(menu)
@@ -873,20 +916,28 @@ end
 -- Dropdown Menu --
 function WoWPro:CreateDropdownMenu()
     WoWPro.DropdownMenu = {
-        {text = "WoW-Pro Guides", isTitle = true},
-        {text = "About", func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
+        {text = L["Main Settings"], func = function()
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "mainConfig")
         end},
-        {text = "Display Settings", func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide Display")
+        {text = L["Guide Frame Settings"], func = function()
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "displayConfig")
         end},
-        {text = L["Guide List"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide List")
+        {text = L["New Style Guide Select"], func = function()
+            WoWPro.ShowGuideMenu()
+        end},
+        {text = L["Old Style Guidelist"], func = function()
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "guideSelect")
         end},
         {text = L["Current Guide"], func = function()
-            WoWPro.InterfaceOptionsFrame_OpenToCategory("Current Guide")
+            WoWPro.InterfaceOptionsFrame_OpenToCategory("Options")
+        _G.LibStub("AceConfigDialog-3.0"):SelectGroup("WoWPro", "currentGuide")
         end},
-        {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide }
+        {text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
+        {text = L["Proximity Sort"], func = function() WoWPro.OrderSteps(true); end },
+        {text = L["Quest Picker"], func = WoWPro.PickQuestline }
     }
 end
 

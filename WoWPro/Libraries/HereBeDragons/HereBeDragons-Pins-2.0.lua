@@ -1,6 +1,6 @@
 -- HereBeDragons-Pins is a library to show pins/icons on the world map and minimap
 
-local MAJOR, MINOR = "HereBeDragons-Pins-2.0", 11
+local MAJOR, MINOR = "HereBeDragons-Pins-2.0", 14
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local pins, _oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -20,9 +20,18 @@ pins.minimapPinRegistry   = pins.minimapPinRegistry or {}
 -- and worldmap pins
 pins.worldmapPins         = pins.worldmapPins or {}
 pins.worldmapPinRegistry  = pins.worldmapPinRegistry or {}
-pins.worldmapPinsPool     = pins.worldmapPinsPool or CreateFramePool("FRAME")
+
 pins.worldmapProvider     = pins.worldmapProvider or CreateFromMixins(MapCanvasDataProviderMixin)
 pins.worldmapProviderPin  = pins.worldmapProviderPin or CreateFromMixins(MapCanvasPinMixin)
+
+if not pins.worldmapPinsPool then
+    -- new frame pools in WoW 11.x
+    if CreateUnsecuredRegionPoolInstance then
+        pins.worldmapPinsPool = CreateUnsecuredRegionPoolInstance("HereBeDragonsPinsTemplate")
+    else
+        pins.worldmapPinsPool = CreateFramePool("FRAME")
+    end
+end
 
 -- store a reference to the active minimap object
 pins.Minimap = pins.Minimap or Minimap
@@ -333,18 +342,23 @@ end
 
 -- setup pin pool
 worldmapPinsPool.parent = WorldMapFrame:GetCanvas()
-worldmapPinsPool.creationFunc = function(framePool)
-    local frame = CreateFrame(framePool.frameType, nil, framePool.parent)
+worldmapPinsPool.createFunc = function()
+    local frame = CreateFrame("Frame", nil, WorldMapFrame:GetCanvas())
     frame:SetSize(1, 1)
     return Mixin(frame, worldmapProviderPin)
 end
-worldmapPinsPool.resetterFunc = function(pinPool, pin)
-    FramePool_HideAndClearAnchors(pinPool, pin)
+worldmapPinsPool.resetFunc = function(pinPool, pin)
+    pin:Hide()
+    pin:ClearAllPoints()
     pin:OnReleased()
 
     pin.pinTemplate = nil
     pin.owningMap = nil
 end
+
+-- pre-11.x func names
+worldmapPinsPool.creationFunc = worldmapPinsPool.createFunc
+worldmapPinsPool.resetterFunc = worldmapPinsPool.resetFunc
 
 -- register pin pool with the world map
 WorldMapFrame.pinPools["HereBeDragonsPinsTemplate"] = worldmapPinsPool
@@ -463,6 +477,9 @@ function worldmapProviderPin:OnReleased()
         self.icon = nil
     end
 end
+
+-- hack to avoid in-combat error on 10.1.5
+worldmapProviderPin.SetPassThroughButtons = function() end
 
 -- register with the world map
 WorldMapFrame:AddDataProvider(worldmapProvider)

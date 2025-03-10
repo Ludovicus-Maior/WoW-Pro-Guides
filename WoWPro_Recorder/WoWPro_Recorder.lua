@@ -11,6 +11,7 @@ local config = _G.LibStub("AceConfig-3.0")
 local dialog = _G.LibStub("AceConfigDialog-3.0")
 WoWPro.Recorder = WoWPro:NewModule("Recorder")
 WoWPro:Embed(WoWPro.Recorder)
+WoWPro.Recorder.Version = WoWPro.GetAddOnMetadata("WoWPro_Recorder", "Version")
 WoWPro.Recorder.stepInfo = {}
 WoWPro.Recorder.LoadingGuide = false
 WoWPro.Recorder.Advanced = false
@@ -25,8 +26,6 @@ function _G.SlashCmdList.WPR(msg)
 end
 
 function WoWPro.Recorder:OnInitialize()
--- Creating the config options --
---  WoWPro.Recorder:CreateConfig()
 end
 
 function WoWPro.Recorder:OnEnable()
@@ -47,7 +46,9 @@ function WoWPro.Recorder:OnEnable()
     WoWPro.Recorder:RegisterEvents()
     WoWPro.Recorder:RegisterSavedGuides()
     WoWPro.Recorder.ProcessScenarioStage(nil)
+    WoWPro.Recorder:OnUIReloaded()
 end
+
 
 function WoWPro.Recorder:OnDisable()
     -- Unregistering Recorder Module Events --
@@ -57,13 +58,23 @@ function WoWPro.Recorder:OnDisable()
     end
 end
 
+function WoWPro.Recorder:OnUIReloaded()
+    if WoWProCharDB.Advanced then
+        WoWPro.RecorderFrame:SetWidth(310)
+        WoWPro.MainFrame:SetWidth(310)
+    else
+        WoWPro.RecorderFrame:SetWidth(225)
+        WoWPro.MainFrame:SetWidth(225)
+    end
+end
+
 function WoWPro.Recorder:ToggleAdvanced()
-	if WoWProCharDB.Advanced then
-		WoWProCharDB.Advanced = false
-	else
-		WoWProCharDB.Advanced = true
-	end
-	_G.ReloadUI();
+    if WoWProCharDB.Advanced then
+        WoWProCharDB.Advanced = false
+    else
+        WoWProCharDB.Advanced = true
+    end
+    _G.ReloadUI();
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()
@@ -772,7 +783,7 @@ function WoWPro.Recorder:SaveGuide(window)
             guidetype = {
                 order = 0,
                 type = "input",
-                multiline = 20,
+                multiline = 55,
                 name = "Copy the following and paste it into a guide file:",
                 desc = "",
                 width = "full",
@@ -783,6 +794,6 @@ function WoWPro.Recorder:SaveGuide(window)
             },
         },
     })
-    dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 750, 400)
+    dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 750, 900)
     if window then dialog:Open("WoWPro Recorder - Save Guide", WoWPro.DialogFrame) end
 end

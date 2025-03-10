@@ -6,11 +6,8 @@
 
 local L = WoWPro_Locale
 
-local config = _G.LibStub("AceConfig-3.0")
-local dialog = _G.LibStub("AceConfigDialog-3.0")
-
 local function createBlizzOptions()
-    local args = {
+    return { name = L["WoW-Pro Dailies"], type = "group", args = {
         help = {
             order = 0,
             type = "description",
@@ -59,17 +56,14 @@ local function createBlizzOptions()
             name = " ",
         }
     }
-    args = WoWPro.InsertActionDescriptions(args, 7)
-    config:RegisterOptionsTable("WoWPro-Dailies-Bliz", {
-        name = "WoW-Pro Dailies",
-        type = "group",
-        args = args })
-    dialog:SetDefaultSize("WoWPro-Dailies-Bliz", 600, 400)
-    dialog:AddToBlizOptions("WoWPro-Dailies-Bliz", "WoW-Pro Dailies")
+}
+
 end
 
-function WoWPro.Dailies:CreateConfig()
-    createBlizzOptions()
+function WoWPro.Dailies:CreateConfig(args, slot)
+    local dailiesOptions = createBlizzOptions()
+    dailiesOptions.order = slot
+    args.dailiesOptions = dailiesOptions
 
     tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
     tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro Dailies", isTitle = true} )

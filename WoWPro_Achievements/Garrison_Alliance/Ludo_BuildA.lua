@@ -7,12 +7,37 @@ local guide = WoWPro:RegisterGuide('LudoBuildingsAlliance', 'Achievements', 'Sha
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9096)
 WoWPro:GuideName(guide, "Garrison Buildings")
+WoWPro.Achievements:GuideMisc(guide, "Garrison Buildings", "Garrison", "Draenor")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-; This you need to make done in Shadowmoon
-A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.12,38.51|PRE|33765&33070&33905|
+; Initial Profession unlock and Level 1 blueprints.
+A A Hero's Welcome|QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
+f Embaari Village|QID|33075|N|With Eonor|M|45.68,38.86|
+C A Hero's Welcome|QID|33075|N|Find Samaara at Embaari Village|M|46.04,38.92|NC|
+T A Hero's Welcome|QID|33075|N|To Samaara|M|46.04,38.92|
+A Dark Enemies|QID|33765|N|From Samaara|M|46.04,38.92|PRE|33075|
+h Lamplighter Inn|QID|33813|M|46.70,40.95|N|Set your hearthstone to Lamplighter Inn in Embaari Village.|
+A Think of the Children!|QID|33070|N|From Efee|M|46.64,37.75|PRE|33075|
+A Closing the Door|QID|33905|N|From Vindicator Tenuum|M|46.65,37.30|PRE|33075|
+C Dark Enemies|QID|33765|N|Kill the Shadowmoon Voidmancers|S|
+C Closing the Door|QID|33905|N|Kill the Shadowmoon Portalmasters around the void portals to disable them.|M|46.6,37.3|S|
+C Think of the Children!|QID|33070|N|Save Hakaam from inside the burning hut in Arbor Glen|QO|1|M|49.0,30.9|CHAT|
+A In Need of a Hero|QID|33813|N|From Ariaana|M|52.03,32.66|ACTIVE|33070|
+C In Need of a Hero|QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Floor Fire|QO|2|NC|U|111908|
+C In Need of a Hero|QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Bookshelf Fire|QO|1|NC|U|111908|
+C In Need of a Hero|QID|33813|N|Grab a Draenei Bucket from outside the hut, then go back in and use it on the Table Fire|QO|3|NC|U|111908|
+T In Need of a Hero|QID|33813|N|To Ariaana|M|52.03,32.66|
+C Think of the Children!|QID|33070|N|Complete the quest In Need of a Hero to save Ariaana|QO|3|NC|
+C Think of the Children!|QID|33070|N|Save Rastaak from inside the burning hut in Arbor Glen|QO|2|CHAT|M|51.94,35.99|
+l False-Bottomed Jar|QID|33037|N|False-Bottomed Jar: Lootable object for gold.Outside the hut|M|51.75,35.50|RANK|3|
+C Closing the Door|QID|33905|N|Finish closing the void portals by killing the Shadowmoon Portalmasters around a void portals.|M|52.5,36.5|US|
+C Dark Enemies|QID|33765|N|Finish killing the Shadowmoon Voidmancers as you head back to Teluuna Observatory|US|M|51.3,38.9|
+T Think of the Children!|QID|33070|N|To Prophet Velen at Teluuna Observatory.|M|49.12,38.51|
+T Dark Enemies|QID|33765|N|To Prophet Velen.|M|49.12,38.51|
+T Closing the Door|QID|33905|N|To Prophet Velen|M|49.12,38.51|
+A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.12,38.51|PRE|33765&33070| ; Glichy PRE &33905|
 C Shadows Awaken |QID|34019|N|Head into the centre of the observatory and wait for Ner'zhul to spawn Karnoth|M|49.3,37.4|NC|QO|1|
 C Shadows Awaken |QID|34019|N|Kill and loot Karnoth.|M|49.4,37.0|
 
@@ -25,6 +50,38 @@ A A Power Lost|QID|36408|N|Loot the Drained Crystal Fragment from Karnoth, and u
 A A Call for Huntsman|QID|36176|N|Loot the Dirty Note from Karnoth, and use it to begin the quest.|U|114877|P|Leatherworking;165;*;1;700|
 A The Cryptic Tome of Tailoring|QID|36236|N|Loot the Cryptic Tome of Tailoring Note from Karnoth, and use it to begin the quest.|U|114972|P|Tailoring;197;*;1;700|
 T Shadows Awaken |QID|34019|N|To Prophet Velen|CN|M|49.30,37.41;49.42,36.81|
+
+; Upgrade your Garrison to Tier 2
+A Into Twilight|QID|33072|N|From Prophet Velen|CN|M|49.30,37.41;49.42,36.81|PRE|34019|
+R Twilight Glade|QID|33072|N|Run to Twilight Glade.|ACTIVE|33072|M|40.53,54.91|
+f Twilight Glade|QID|33072|N|With Gotuun|M|40.73,55.28|
+T Into Twilight|QID|33072|N|To Prophet Velen at Twilight Glade|M|40.53,54.91|
+A The Clarity Elixir|QID|33076|N|From Prophet Velen|PRE|33072|M|40.53,54.91|
+C Swamplighter Dust|QID|33076|N|Kill and loot the Frenzied Swamplighters for the Swamplighter Dust|QO|1|S|M|45.0,51.0|
+C Engorged Heart|QID|33076|N|Kill and loot the Echidnian Hydra for their Engorged Heart|QO|2|S|M|45.0,51.0|
+C The Clarity Elixir|QID|33076|N|Collect the Pristine Star Lily, this can be found inside the tree in Nightmarsh.|QO|3|NC|M|47.3,52.1|
+C Swamplighter Dust|QID|33076|N|Finish killing and looting the Frenzied Swamplighters for the Swamplighter Dust, there are loads of them up Moonwillow Peak (which will also be the quest turn-in area)|QO|1|US|M|39.73,53.59;37.66,54.75;36.80,51.66|CS|
+T The Clarity Elixir|QID|33076|N|To Prophet Velen in Moonwillow Peak|CS|M|39.73,53.59;37.66,54.75;35.26,49.12|
+A The Fate of Karabor|QID|33059|N|From Prophet Velen|M|35.26,49.12|PRE|33076|
+C The Fate of Karabor|QID|33059|N|Click on the Clarity Elixir to drink it|M|35.26,49.12|QO|1|NC|U|111591|
+C The Fate of Karabor|QID|33059|N|Follow through the Scenario steps to witness the fate of Karabor.\n\n1. Move forward with Prophet Velen to Yrel's position\n2. Kill Krull\n3. Run up the first flight of stairs, wait for Prophet Velen to run up the stairs, then tell him we're being overrun.\n(Undismissed pets will die at this point)|M|35.26,49.12|QO|2|
+T The Fate of Karabor|QID|33059|N|To Prophet Velen, in Twilight Glade. \n(Recall/revive your pet if appropriate)|M|40.53,54.91|
+A Going Undercover|QID|33080|N|From Rangari Veka|PRE|33072|M|40.6,54.8|
+C Going Undercover|QID|33080|N|Head up into Shaz'gul, and click on the explosives inside the supply hut. Whilst in Shaz'gul, you will have a disguise that only the Void Occulus and Void Wolf can see through, so avoid any mob with void in their name. You will get a HUD message if you get too close, just keep running if that happens!\n\nIf you need to get past a Void Wolf, you can pick up a Tasty Meat and throw it near them. To get past the Void Occulus, use a Void Touched Pumpkin.|QO|2|M|37.2,59.3|NC|
+l Iron Horde Tribute|QID|33567|N|Iron Horde Tribute: Lootable object for an i523 trinket (Tiny Iron Star) worth 13g. It's at the back of the hut with the explosives.|M|37.48,59.26|RANK|3|ACTIVE|33080|
+C Going Undercover|QID|33080|N|Click the explosives inside the main lodge (and to the right)|QO|3|NC|M|36.4,61.4|
+C Going Undercover|QID|33080|N|Head up into Shaz'gul, and click on the explosives at chieftain's seat.|QO|4|M|39.1,62.9|NC|
+C Going Undercover|QID|33080|N|Click the explosives at the training pit|QO|5|M|36.6,65.5|NC|
+T Going Undercover|QID|33080|N|To Yrel. Just keep running to avoid the Void creatures.|M|34.2,63.2|
+A Escape From Shaz'gul|QID|33081|N|From Yrel|M|34.2,63.2|PRE|33080|
+C Escape From Shaz'gul|QID|33081|N|Speak to Yrel and select any two chat lines to inspire her.|QO|1|CHAT|M|34.2,63.2|
+C Escape From Shaz'gul|QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points. This quest is bugged and very difficult to solo, when you get to the large mob (third group) leave Yrel and proceed to waypoint to kill Terrorfang. Yrel will die but you can finish the quest (recommend using Call to Arms during Terrorfang). Alternatively, you can stand at extreme range and pick them off one at a time, but it will take FOREVER.|QO|2|M|39.2,57.5|
+T Escape From Shaz'gul|QID|33081|N|To Yrel, now in Twilight Glade.|M|40.60,54.94|
+A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez. If he is not here, he might be in your garrison.|PRE|33059|
+T Fast Expansion|QID|33814|M|41.53,49.27|Z|Lunarfall|N|To Baros Alexston.|
+A Bigger is Better|QID|36592|PRE|33814|M|41.53,49.27|Z|Lunarfall|N|From Baros Alexston.|
+C Bigger is Better|QID|36592|M|41.4,49.0|Z|Lunarfall|N|Select the Architect Table, and select "Upgrade" for the Town Hall.|NC|
+T Bigger is Better|QID|36592|M|31.66,31.16|Z|Lunarfall|N|To Baros Alexston.|
 
 ; Now the quests to get the intro plans
 
@@ -209,6 +266,12 @@ C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red a
 C Things Are Not Goren Our Way |QID|34192|N|Head to the back of the mine and kill Stonetooth.|M|58.81,78.85|Z|Lunarfall Excavation@Lunarfall|T|Stonetooth|QO|2|
 C Things Are Not Goren Our Way |QID|34192|N|Kill the Lunarfall Goren (both Red and Yellow count).|M|65.46,41.79|Z|Lunarfall|US|QO|1|
 T Things Are Not Goren Our Way |QID|34192|N|To Timothy Leens|M|65.46,41.79|Z|Lunarfall|
+
+; Dwarven Bunker
+A Scraps of Iron|QID|37092|N|From Kristen Stoneforge.|FACTION|Alliance|
+F Fort Wrynn|ACTIVE|37092|M|39.09, 61.81|Z|Lunarfall|N|Ask Dungar Longdrink for a flight.|FACTION|Alliance|
+C Burning Blade Citadel|QID|37092|QO|0|M|67,7|N|Head out to the Citadel and kill Iron Horde till you get your scraps!|
+T Scraps of Iron|QID|37092|N|From Kristen Stoneforge.|FACTION|Alliance|
 
 ; Fishing Shack
 A Looking For Help |QID|34194|M|53.79, 14.33|Z|Lunarfall|N|From Ron Ashton, Fisherman|BUILDING|townhall;2|

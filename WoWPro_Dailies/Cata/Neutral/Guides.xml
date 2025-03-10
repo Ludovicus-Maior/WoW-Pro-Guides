@@ -1,0 +1,18 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="Cracker_Frenzy.lua"/>
+  <Script file="Cracker_Oracles.lua"/>
+  <Script file="Est_Firelands.lua"/>
+  <Script file="Jiyambi_Therazane.lua"/>
+  <Script file="Twists_Ramkahen.lua"/>
+  <Script file="Ludo_ArgDawn.lua"/>
+  <Script file="Ludo_ArgCrusade.lua"/>
+  <Script file="Ludo_DalCook.lua"/>
+  <Script file="Ludo_DalFish.lua"/>
+  <Script file="Ludo_EbonBlade.lua"/>
+  <Script file="Ludo_Hodir.lua"/>
+  <Script file="Ludo_Kaluak.lua"/>
+  <Script file="Ludo_NetherDrake.lua"/>
+  <Script file="Ludo_Skyguard.lua"/>
+  <Script file="Ludo_Wyrmrest.lua"/>
+  <Script file="Twists_ShattSun.lua"/>
+</Ui>

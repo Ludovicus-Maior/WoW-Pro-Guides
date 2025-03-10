@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide("Dragonriding_Glyphs", "Achievements", "Dragonflight", "WowPro Team", "Neutral")
+local guide = WoWPro:RegisterGuide("Dragonriding_Glyphs", "Achievements", "Dragonflight", "WoWPro Team", "Neutral")
 WoWPro:GuideNextGuide(guide, "Dragonflight")
 WoWPro:GuideLevels(guide,60,70)
 WoWPro.Achievements:GuideMisc(guide, "Dragonflight Flying Glyphs", "Exploration", "Dragonflight")
@@ -32,7 +32,7 @@ F Dragonspring Summit Glyph |N|Just under the balcony.|M|84.4,77.6|Z|2023;Ohn'Ar
 F Cobalt Assembly Glyph |N|On top of the high tower.|M|45.88,25.75|Z|2024;The Azure Plains!Dragonflight|ACH|16064|
 F Zelthrak Outpost Glyph |N|This one is hidden between the trees, might have to look around a bit for it.|M|52.94,48.68|Z|2024;The Azure Plains!Dragonflight|ACH|16071|
 F Azure Archive Glyph |N|This is behind the purple light beam, kinda high up, fly to the highest crystal pairs and look right behind them.|M|39.23,63.03|Z|2024;The Azure Plains!Dragonflight|ACH|16065|
-F Imbu Glyph |N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you approach from behind the mountain.|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|ACH|16070|
+F Imbu Glyph |N|This one is tricky, it's right behind the big waterfall at the end of the mountain ridge line. It might be easier to see if you land on the top waterfall and then dive down.|M|60.98,69.26|Z|2024;The Azure Plains!Dragonflight|ACH|16070|
 F Ruins of Karnthar Glyph |N|On top of the ruins of the tower.|M|68.45,60.30|Z|2024;The Azure Plains!Dragonflight|ACH|16066|
 F Lost Ruins Glyph |N|This one is inside the tower, might have to land for this.|M|70.57,46.26|Z|2024;The Azure Plains!Dragonflight|ACH|16067|
 F Vakthros Range Glyph |N|Floating above the ground.|M|72.57,39.66|Z|2024;The Azure Plains!Dragonflight|ACH|16073|
@@ -45,11 +45,13 @@ F Stormshroud Peak Glyph |N|On top of the mountain.|M|45.81,73.97|Z|2025;Thaldra
 F Passage of Time Glyph |N|Floating just under the mountain archway, just behind the viaducts.|M|55.63,72.22|Z|2025;Thaldraszus!Dragonflight|ACH|16667|
 F Temporal Conflux Glyph |N|Inside the tower.|M|66.01,82.33|Z|2025;Thaldraszus!Dragonflight|ACH|16098|
 F Gelikyr Overlook Glyph |N|This one is just above the overlook, fly through the archway of the viaducts and you will see it.|M|51.22,67.41|Z|2025;Thaldraszus!Dragonflight|ACH|16666|
-F Algeth’era Glyph |N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|ACH|16102|
-F Algeth’ar Academy Glyph |N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|ACH|16104|
+F Algeth'era Glyph |N|Over the tower.|M|49.90,40.20|Z|2025;Thaldraszus!Dragonflight|ACH|16102|
+F Algeth'ar Academy Glyph |N|This one is kinda hidden inside of the roof of the tower which has a big crystal above it.|M|62.50,40.52|Z|2025;Thaldraszus!Dragonflight|ACH|16104|
 F Veiled Ossuary Glyph |N|Inside the tower.|M|67.10,11.80|Z|2025;Thaldraszus!Dragonflight|ACH|16105|
 F Vault of the Incarnates Glyph |N|This one is hidden inside of the lava mountain, you will need to fly to the inside.|M|72.41,50.79|Z|2025;Thaldraszus!Dragonflight|ACH|16106|
 F Tyrhold Glyph |N|This one is on the mountain ledge.|M|61.48,56.61|Z|2025;Thaldraszus!Dragonflight|ACH|16103|
 F Thaldraszus Apex Glyph |N|This is high above the mountain, the highest point.|M|72.82,69.20|Z|2025;Thaldraszus!Dragonflight|ACH|16107|
+;
+
 ]]
 end)

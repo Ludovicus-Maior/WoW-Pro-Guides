@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Dwarf_Heritage_Armor.lua"/>
+	<Script file="Night_Elf_Heritage_Armor.lua"/>
+	<Script file="Gnome_Heritage_Armor.lua"/>
+	<Script file="Goblin_Heritage_Armor.lua"/>
+	<Script file="Blood_Elf_Heritage_Armor.lua"/>
+	<Script file="Orc_Heritage_Armor.lua"/>
+	<Script file="Tauren_Heritage_Armor.lua"/>
+	<Script file="Human_Heritage_Armor.lua"/>
+	<Script file="Undead_Heritage_Armor.lua"/>
+	<Script file="Worgen_Heritage_Armor.lua"/>
+	<Script file="Draenei_Heritage_Armor.lua"/>
+</Ui>

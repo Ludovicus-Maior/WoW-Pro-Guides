@@ -1,5 +1,5 @@
 -- luacheck: globals date pairs ipairs type issecurevariable print
--- luacheck: globals tostring tinsert
+-- luacheck: globals tostring tinsert table
 
 _G.SLASH_WOWPRO1 = "/wp"
 _G.SLASH_WOWPRO2 = "/wow-pro"
@@ -30,6 +30,9 @@ local function handler(msg, editbox)
             _G.ChatFrame1:AddMessage("WoWPro.DevMode = true")
 		end
 		WoWPro.LoadGuideStepsReal()
+    elseif ltoken == "load-guide" then
+        WoWProDB.char.currentguide = nil
+        WoWPro:LoadGuide(tokens[2])
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         if (not X) or (not Y) then
@@ -85,7 +88,7 @@ local function handler(msg, editbox)
         _G.ChatFrame1:AddMessage("Global taint log in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua")
     elseif ltoken == "buffs" then
         for i=1,40 do
-            local name, _, _, _, _, _, _, _, _, spellId = _G.UnitAura("player", i, "HELPFUL")
+            local name, _, _, _, _, _, _, _, _, spellId = WoWPro.UnitAura("player", i, "HELPFUL")
             if name then
                 local text = ("|r#%d |cFF8080FFName: |cFFFF8080%q, |cFF8080FFspellId: |cFF8080FF%d"):format(i, name, spellId)
                 _G.ChatFrame1:AddMessage(text)
@@ -93,7 +96,7 @@ local function handler(msg, editbox)
         end
         _G.ChatFrame1:AddMessage("|rEnd_of_Buffs")
         for i=1,40 do
-            local name, _, _, _, _, _, _, _, _, spellId = _G.UnitAura("player", i, "HARMFUL")
+            local name, _, _, _, _, _, _, _, _, spellId = WoWPro.UnitAura("player", i, "HARMFUL")
             if name then
                 local text = ("|r#%d |cFF8080FFName: |cFFFF8080%q, |cFF8080FFspellId: |cFFFF8080%d"):format(i, name, spellId)
                 _G.ChatFrame1:AddMessage(text)
@@ -119,8 +122,45 @@ local function handler(msg, editbox)
             end
         end
         _G.ChatFrame1:AddMessage("Blizzard API stored in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua")
+    elseif ltoken == "disable-addons" then
+        local keepEnabled = {
+            "WoWPro",
+            "WoWPro_Leveling",
+            "BugSack",
+            "!BugGrabber",
+            "TomTom",
+        }
+
+        WoWProCharDB.disabledAddons = {}
+
+        local function isAddonKept(name)
+            for _, addon in ipairs(keepEnabled) do
+                if name == addon then
+                    return true
+                end
+            end
+            return false
+        end
+
+        for i = 1, _G.C_AddOns.GetNumAddOns() do
+            local name, _, _, enabled = _G.C_AddOns.GetAddOnInfo(i)
+            if enabled and not isAddonKept(name) then
+                _G.C_AddOns.DisableAddOn(name)
+                table.insert(WoWProCharDB.disabledAddons, name)
+            end
+        end
+        _G.ReloadUI()
+
+    elseif ltoken == "enable-addons" then
+        if WoWProCharDB.disabledAddons then
+            for _, name in ipairs(WoWProCharDB.disabledAddons) do
+                _G.C_AddOns.EnableAddOn(name)
+            end
+            WoWProCharDB.disabledAddons = {}
+            _G.ReloadUI()
+        end
     else
-        local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devmode]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
+        local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devmode¦disable-addons¦enable-addons]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
         _G.ChatFrame1:AddMessage(text)
     end
 end

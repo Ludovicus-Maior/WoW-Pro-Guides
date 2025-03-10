@@ -7,6 +7,7 @@ local guide = WoWPro:RegisterGuide('LudoGarrCampaign', 'Achievements', 'Draenor'
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideIcon(guide,"ACH",9492)
 WoWPro:GuideName(guide,"Garrison Campaign")
+WoWPro.Achievements:GuideMisc(guide, "Garrison Campaign", "Garrison", "Draenor")
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
@@ -36,8 +37,8 @@ C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.6
 C Sargerei Slippers|QID|35187|M|49.65,73.40;45.33,74.53;49.74,76.49|Z|Shadowmoon Valley@Draenor|CN|QO|1|N|Kill Sargerei Initiate and others for shoes|US|
 C Sargerei Robe|QID|35187|M|51.00,75.50;49.40,73.10;48.05,80.25|Z|Shadowmoon Valley@Draenor|CN|QO|2|N|Kill Sargerei Demonlords and others for a robe|US|
 C Sargerei Cowl|QID|35187|M|50.50,79.60;44.50,78.30;44.20,74.40;50.25,74.47;48.60,72.85;45.85,80.75;51.20,76.70|Z|Shadowmoon Valley@Draenor|CN|QO|3|N|Kill Sargerei Workers for a cowl|US|
-l Sargerei Disguise|QID|35187|L|112904|U|112893|N|Click on the slippers to make the Disguise.|
-U Put on the Disguise|QID|35187|U|112904|QO|5|N|If you lose the disguise, you will need to get all 3 pieces and make a new one.|
+l Sargerei Disguise|ACTIVE|35187|L|112904|U|112893|N|Click on the slippers to make the Disguise.|
+U Put on the Disguise|ACTIVE|35187|U|112904|QO|5|N|If you lose the disguise, you will need to get all 3 pieces and make a new one.|
 C Infiltrating the Sargerei|QID|35187|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|QO|5|N|Speak to Soulbinder Zamaya|
 C Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|CHAT|QO|6|N|Tell him 'the rain falls on Shadowmoon.'|
 T Infiltrating the Sargerei|QID|35187|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Anchorite Laanda|
@@ -62,7 +63,7 @@ T An Ancient Threat|QID|35190|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|To Sou
 T Pesky Podlings|QID|35188|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|To Soulbinder Zamaya|
 ; Final quests
 A Facing Demons|QID|35194|PRE|35188&35189&35190&35191|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
-K Invokaz|QID|35194|M|45.94,80.54|Z|Shadowmoon Valley@Draenor|QO|1|N|Ride up the rise to find Invokaz|
+K Invokaz|ACTIVE|35194|M|45.94,80.54|Z|Shadowmoon Valley@Draenor|QO|1|N|Ride up the rise to find Invokaz|
 C Shut the Daemon Gate|QID|35194|M|46.29,80.58|Z|Shadowmoon Valley@Draenor|QO|2|
 T Facing Demons|QID|35194|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Laanda's Scroll|
 A Socrethar's Fury|QID|35195|PRE|35194|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Laanda's Scroll|; Neutral
@@ -98,16 +99,16 @@ A Downsizing the Darktide|QID|34397|PRE|34355|M|58.14,93.89|Z|Shadowmoon Valley@
 A Free their Minds|QID|34455|PRE|34355|M|59.8,94.52|Z|Shadowmoon Valley@Draenor|N|From the Goblin Mind Control Device|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|S|Z|Shadowmoon Valley@Draenor|
 U Free their minds|ACTIVE|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|S|U|110447|Z|Shadowmoon Valley@Draenor|
-K Assistant Fexfuse|QID|34397|ACTIVE|34397|M|60.6,93.0|Z|Shadowmoon Valley@Draenor|QO|1|
-K Captain Killrath|QID|34397|ACTIVE|34397|M|62.2,94.0|Z|Shadowmoon Valley@Draenor|QO|2|
-K Ra'ka Bloodspear|QID|34397|ACTIVE|34397|M|59.4,99.0|Z|Shadowmoon Valley@Draenor|QO|3|
+K Assistant Fexfuse|ACTIVE|34397|M|60.6,93.0|Z|Shadowmoon Valley@Draenor|QO|1|
+K Captain Killrath|ACTIVE|34397|M|62.2,94.0|Z|Shadowmoon Valley@Draenor|QO|2|
+K Ra'ka Bloodspear|ACTIVE|34397|M|59.4,99.0|Z|Shadowmoon Valley@Draenor|QO|3|
 U Free their minds|ACTIVE|34455|M|59.33,95.69|N|Use the Rylak Mind controller on Controlled Darkwing.|QO|1|US|U|110447|Z|Shadowmoon Valley@Draenor|
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|US|
 T Releasing Rylak|QID|34365|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 T Downsizing the Darktide|QID|34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 A Rylak Rescue|QID|34450|PRE|34365&34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 C Ride Nisha|QID|34450|QO|1|N|Click on Nisha to get a flight to the top of the mountain.|
-K Razz Ricketroz|QID|34450|ACTIVE|34450|M|60.4,90.2|Z|Shadowmoon Valley@Draenor|QO|2|
+K Razz Ricketroz|ACTIVE|34450|M|60.4,90.2|Z|Shadowmoon Valley@Draenor|QO|2|
 T Rylak Rescue|QID|34450|M|67.97,90.12|Z|Shadowmoon Valley@Draenor|N|Click on Nisha to get a ride to Rexxar|
 
 ; Garrison Campaign: Seismic Matters -- Iron Siegeworks for Alliance
@@ -117,10 +118,10 @@ A Groundbreaking Data|QID|34027|PRE|34026|M|64.51,69.90|Z|Lunarfall|N|From Jr. S
 C Groundbreaking Data|QID|34027|M|64.55,69.35|Z|Lunarfall|QO|1|N|Click on the Tremor Tracker and fight 2 waves of 3 Iron Grunts out of the mole machines.|FACTION|Alliance|
 T Groundbreaking Data|QID|34027|M|64.0,69.6|Z|Lunarfall|N|To Jr. Surveyor Dorn|FACTION|Alliance|
 A These Look Familiar...|QID|34028|PRE|34027|M|64.51,69.90|Z|Lunarfall|N|From Jr. Surveyor Dorn|FACTION|Alliance|
-F Everbloom Wilds|QID|34028|ACTIVE|34028|M|48.00,49.83|Z|Lunarfall|N|Fly to Everbloom Wilds@Gorgrond on Air Longdrink. Everbloom Overlook isyour ultimate destination.|FACTION|Alliance|
-R Everbloom Overlook|QID|34028|ACTIVE|34028|M|61.17,38.37;64.81,35.48;66.62,34.26;68.10,32.46;68.79,29.17|Z|Gorgrond|CS|N|Make your way to Everbloom Overlook|FACTION|Alliance|
-f Everbloom Overlook|QID|34028|M|68.72,28.75|Z|Gorgrond|N|Get the flight point while you are here from Researcher Sarix.|FACTION|Alliance|
-R Thaelin's Workshop|QID|34028|ACTIVE|34028|M|69.74,23.60|Z|Gorgrond|N|Go over the hills and drop down to the cave/mound.|FACTION|Alliance|
+F Everbloom Wilds|ACTIVE|34028|M|48.00,49.83|Z|Lunarfall|N|Fly to Everbloom Wilds@Gorgrond on Air Longdrink. Everbloom Overlook isyour ultimate destination.|FACTION|Alliance|
+R Everbloom Overlook|ACTIVE|34028|M|61.17,38.37;64.81,35.48;66.62,34.26;68.10,32.46;68.79,29.17|Z|Gorgrond|CS|N|Make your way to Everbloom Overlook|FACTION|Alliance|
+f Everbloom Overlook|ACTIVE|34028|M|68.72,28.75|Z|Gorgrond|N|Get the flight point while you are here from Researcher Sarix.|FACTION|Alliance|
+R Thaelin's Workshop|ACTIVE|34028|M|69.74,23.60|Z|Gorgrond|N|Go over the hills and drop down to the cave/mound.|FACTION|Alliance|
 T These Look Familiar...|QID|34028|M|69.63,26.11|Z|Gorgrond|N|To Hansel Heavyhands|FACTION|Alliance|
 A The Prototype|QID|34029|PRE|34028|M|69.63,26.11|Z|Gorgrond|N|From Hansel Heavyhands|FACTION|Alliance|
 C Mole Machine|QID|34029|M|69.22,25.63|Z|Gorgrond|N|Click on the mole machine and enjoy the scene!|FACTION|Alliance|
@@ -177,8 +178,9 @@ A The Champion of Blood|QID|36222|PRE|36221|M|56.8,13.0|Z|Nagrand@Draenor|N|To W
 C Gurgthock|QID|36222|M|56.8,13.0|Z|Nagrand@Draenor|QO|1|N|Speak to Gurgthock to get thins started. If someone else if fighting, you may have to wait.|CHAT|
 C Fight!|QID|36222|QO|2|N|Kill Katsuo (0.5MH) and Azuka (0.8MH).  If you use a tank, kill Katsuo first, bu you *must* be out of the tank before Azuka surrenders @10% Health.|
 T The Champion of Blood|QID|36222|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|
-A Out of the Shadows|QID|36290|PRE|36222|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|; Horde
-T Out of the Shadows|QID|36290|M|38.34,36.95|N|To Rokhan|
+A Out of the Shadows|QID|36290^36289|PRE|36222|M|56.8,13.0|Z|Nagrand@Draenor|N|To Wodin the Troll-Servant|
+T Out of the Shadows|QID|36290|M|38.34,36.95|N|To Rokhan|Z|Frostwall||FACTION|Horde|
+T Out of the Shadows|QID|36289|M|37.8,36.8|N|To Bodrick Grey|Z|Lunarfall|FACTION|Alliance|
 
 ; Heart of the Breakers -- Mostly Neutral
 ; A Garrison Campaign: Crows In The Field|QID|34409|M|47.0,88.8|N|From Morthis Whisperwing
@@ -357,16 +359,16 @@ K Hataaru|ACTIVE|36168|M|46.2,74.0|Z|DraenorAuchindoun|QO|2|N|Go straight throug
 K Maraad|ACTIVE|36168|M|46.2,74.0|Z|DraenorAuchindoun|QO|3|N|Clear all the trash mobs and get to the central platform and click on the urn to summon Maraad. At the end of the fight you need to click on the hammer Yrel throws.|
 F Rilzit's Holdfast|ACTIVE|36167|M|42.11,76.79|Z|Talador|QO|1|N|Air Beldos to Nagrand.|
 C The Trial of Heart|QID|36167|M|46.53,16.64|Z|Nagrand@Draenor|QO|1|CHAT|N|Speak with Yrel to start|
-A An Act of Kindness|QID|36193|M|49.42,16.59|Z|Nagrand@Draenor|N|From Rangari Saardar|RANK|2|
+A An Act of Kindness|QID|36193|PRE|36163|M|49.42,16.59|Z|Nagrand@Draenor|N|From Rangari Saardar|RANK|2|
 C Revive Fallen Rangari|QID|36193|QO|1|S|U|114926|N|The goldcaps heal you as well as the rangers|
 K Plaguebloom|ACTIVE|36167|M|46.4,10.4|Z|Nagrand@Draenor|QO|2|
 C Revive Fallen Rangari|QID|36193|QO|1|US|U|114926|N|The goldcaps heal you as well as the rangers|
 T An Act of Kindness|QID|36193|M|49.42,16.59|Z|Nagrand@Draenor|N|From Rangari Saardar|
-F Bloodmaul Slag Mines|QID|36164|M|50.75,30.64|Z|Nagrand@Draenor|QO|1|N|Go to the Iron Siegeworks.|
+F Bloodmaul Slag Mines|ACTIVE|36164|M|50.75,30.64|Z|Nagrand@Draenor|QO|1|N|Go to the Iron Siegeworks.|
 C The Trial of Courage|QID|36164|M|53.12,33.04|Z|Frostfire Ridge|CHAT|QO|1|N|Speak to Yrel to start.|
 K Everburn|ACTIVE|36164|M|52.6,32.2|Z|Frostfire Ridge|QO|2|N|Everburn|
 H Lunarfall|QID|36164|N|Hearth back or fly back to your garrison before moving on to the "Tranquil Court" in Shadowmoon Valley.|
-F Tranquil Court|QID|36168|M|48.00,49.83|N|Fly to Tranquil Court on Air Longdrink.|
+F Tranquil Court|ACTIVE|36168|M|48.00,49.83|N|Fly to Tranquil Court on Air Longdrink.|
 T The Trial of Heart|QID|36167|M|75.20,57.53|Z|Shadowmoon Valley@Draenor|N|To Exarch Naielle|
 T The Trial of Courage|QID|36164|M|74.90,57.99|Z|Shadowmoon Valley@Draenor|N|To Exarch Akama|
 T The Trial of Faith|QID|36168|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|To Exarch Maladaar|
@@ -473,19 +475,9 @@ T Intercepting the Orders|QID|35846|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|
 T Putting Down the Packleader|QID|35842|M|45.6,43.2|Z|Frostwall|N|To Rokhan|FACTION|Horde|
 D Next!|N|Click to return to whatever guide you were doing before.|
 
-A A Good Death|QID|34354|PRE|35876|M|0.0,0.0|N|From ?|; Neutral
+A A Good Death|QID|34354|PRE|35876|M|0.0,0.0|N|From ?|; Neutral and unobtainable?
 C A Good Death|QID|34354|M|58.6,84.4|N|Injured Darkwing Glider|
 T A Good Death|QID|34354|M|59.22,82.24|N|To Rexxar|
-
-A Intercepting the Orders|QID|35840|PRE|35838|M|0.0,0.0|N|From ?|
-T Intercepting the Orders|QID|35840|M|37.8,36.8|N|To Bodrick Grey|
-
-A Putting Down the Packleader|QID|35841|PRE|35838|M|0.0,0.0|N|From ?|
-C Putting Down the Packleader|QID|35841|M|44.6,38.0|N|Packleader Vor'gash|
-T Putting Down the Packleader|QID|35841|M|37.8,36.8|N|To Bodrick Grey|
-
-A Broken Promises|QID|36477|M|0.0,0.0|N|From ?|; Neutral
-T Broken Promises|QID|36477|M|51.2,75.0|N|To Chester|
 
 ]]
 

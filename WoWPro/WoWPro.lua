@@ -1,5 +1,5 @@
 -- luacheck: globals _NPCScan
--- luacheck: globals select pairs ipairs tinsert tremove sort
+-- luacheck: globals select pairs ipairs tinsert tremove sort table
 -- luacheck: globals tostring tonumber
 -- luacheck: globals date type max min floor coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
@@ -9,7 +9,8 @@
 --------------------------
 
 WoWPro = _G.LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket-3.0")
-WoWPro.Version = _G.GetAddOnMetadata("WoWPro", "Version")
+WoWPro.GetAddOnMetadata = _G.GetAddOnMetadata or _G.C_AddOns.GetAddOnMetadata
+WoWPro.Version = WoWPro.GetAddOnMetadata("WoWPro", "Version")
 WoWPro.DebugLevel = 0
 WoWPro.CombatLock = false
 WoWPro.DevMode = false
@@ -108,7 +109,26 @@ local function ends_with(str, ending)
     return ending == "" or str:sub(-#ending) == ending
  end
 
--- WoWPro Event function, only log --
+-- WoWPro Log function all only --
+function WoWPro.LogCall(nomen, ...)
+    local msg = ("|cffff7d0a%s|r: %s("):format("WP", tostring(nomen))
+    local arg = {...}
+    local argn = #arg
+    for i=1,argn do
+        if type(arg[i]) == "string" then
+            msg = msg .. '"' .. arg[i] .. '"'
+        else
+            msg = msg .. tostring(arg[i])
+        end
+        if i < argn then
+            msg = msg .. ", "
+        end
+    end
+    msg = msg .. (") InitLockdown=%s"):format(tostring(WoWPro.InitLockdown))
+    WoWPro:Add2Log(2,msg)
+end
+
+ -- WoWPro Event function, only log --
 function WoWPro:LogEvent(event, ...)
     local msg = ("|cffff7d0a%s|r: %s("):format(self.name or "Wow-Pro", tostring(event))
     local arg = {...}
@@ -231,7 +251,7 @@ function WoWPro:LogClear(where)
         WoWProDB.global.Log = {}
     end
     WoWPro.Serial = 999999999
-    WoWPro:Print("Log Reset from %s", where)
+    WoWPro:print("Log Reset from %s", where)
 end
 WoWPro.Faction = _G.UnitFactionGroup("player")
 WoWPro:LogClear("Addon Load")
@@ -262,7 +282,7 @@ function WoWPro.toboolean(v)
         if v == "false" then
             return false
         end
-        return false
+        return v ~= ''
     end
     if type(v) == "number" then
         return  v ~= 0
@@ -344,8 +364,18 @@ function WoWPro:OnInitialize()
     WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
     WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
     WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
+    WoWProCharDB.disabledAddons = WoWProCharDB.disabledAddons or {}
 
     WoWProCharDB.EnableGrail = nil
+    if WoWProCharDB.AutoSelect == nil then
+        WoWProCharDB.AutoSelect = true
+    end
+    if WoWProCharDB.AutoAccept == nil then
+        WoWProCharDB.AutoAccept = true
+    end
+    if WoWProCharDB.AutoTurnin == nil then
+        WoWProCharDB.AutoTurnin = true
+    end
     WoWProCharDB.EnableGrailQuestline = WoWProCharDB.EnableGrailQuestline or false
     WoWProCharDB.EnableGrailCheckPrereq = WoWProCharDB.EnableGrailCheckPrereq or false
     WoWProCharDB.EnableGrailBreadcrumbs = WoWProCharDB.EnableGrailBreadcrumbs or false
@@ -389,6 +419,9 @@ function WoWPro:OnInitialize()
     end
     if WoWProCharDB.EnableFlight == nil then
         WoWProCharDB.EnableFlight = true
+    end
+    if WoWProCharDB.EnableDungeons == nil then
+        WoWProCharDB.EnableDungeons = true
     end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
@@ -440,7 +473,7 @@ function WoWPro:OnInitialize()
 			0.4156862745098039, -- [2]
 		},
 		["steptextsize"] = 16,
-		["pad"] = 14,
+		["pad"] = 5,
 		["steptextcolor"] = {
 			nil, -- [1]
 			0.8392156862745098, -- [2]
@@ -459,6 +492,7 @@ function WoWPro:RESET()
     WoWProDB = nil
     WoWProCharDB = nil
     WoWPro:OnInitialize()
+    _G.ReloadUI()
 end
 
 function WoWPro.MaybeCombatLockdown()
@@ -528,8 +562,44 @@ function WoWPro:OnEnable()
     WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     WoWPro:dbp("Setting Timer OnEnable")
     WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
-
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
+
+    WoWPro:dbp("Scan to purge PlayerGetTimerunningSeasonID")
+    -- Purge guides that do not match the SeasonID
+    local seasonID
+    if _G.PlayerGetTimerunningSeasonID then
+        seasonID = _G.PlayerGetTimerunningSeasonID()
+    else
+        WoWPro:dbp("PlayerGetTimerunningSeasonID function is not available")
+    end
+
+    if _G.C_Seasons and _G.C_Seasons.GetActiveSeason() then
+        seasonID = _G.C_Seasons.GetActiveSeason("player")
+    else
+        WoWPro:dbp("ClassicSeasonID function is not available")
+    end
+
+    local to_purge = {}
+    for gid, guide in pairs(WoWPro.Guides) do
+        if WoWPro.Retail and guide['TimerunningSeasonID'] ~= seasonID then
+            WoWPro:dbp("Queue %q to purge", gid)
+            table.insert(to_purge, gid)
+        elseif WoWPro.Classic and guide['ClassicSeasonID'] ~= seasonID then
+            WoWPro:dbp("Queue %q to purge", gid)
+            table.insert(to_purge, gid)
+        end
+    end
+    for _, gid in ipairs(to_purge) do
+        WoWPro:dbp("Purge %q", gid)
+        WoWPro.Guides[gid] = nil
+    end
+
+    for gid, guide in pairs(WoWPro.Guides) do
+        if  WoWPro[guide.guidetype].RegisterGuide then
+            WoWPro[guide.guidetype]:RegisterGuide(guide)
+        end
+    end
+
 
     -- Set up the Nickname -> Guide map.
     WoWPro.Nickname2Guide = {}
@@ -602,7 +672,11 @@ function WoWPro:DevCoords()
 	if not _G.WoWProDevCoords then
 		local p,f="player", _G.CreateFrame("EditBox","WoWProDevCoords",_G.UIParent,"InputBoxTemplate")
 		f:SetPoint("TOP",0,0)
-		f:SetSize(90, 40)
+		f:SetSize(125, 70)
+		f:SetScale(f:GetScale())
+		f:SetFont("Fonts\\FRIZQT__.TTF",16,"outline")
+		f:SetJustifyH("CENTER")
+		f:SetJustifyV("MIDDLE")
 		f:SetAutoFocus(false)
 		f:SetScript("OnUpdate",function(s,e)
 			local map = _G.C_Map.GetBestMapForUnit(p)
@@ -735,6 +809,175 @@ function WoWPro:Timeless()
     _NPCScan.NPCAdd(71919,"Zhu-Gon the Sour",951)
 end
 
+WoWPro.GuideMenuList = nil
+
+function WoWPro.findIndexWithText(tabula, text_to_find)
+    for i, tableEntry in pairs(tabula) do
+        if tableEntry.text == text_to_find then
+            return i
+        end
+    end
+    return -1
+end
+
+function WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
+    WoWPro:dbp("RegisterGuideInMenuList2(%q,%q,%q,%q)", tostring(AddonType), tostring(GuideType), tostring(GuideName), GID)
+    local GuideMenuList = WoWPro.GuideMenuList
+    local AddonAndType
+    if AddonType == "Leveling" then
+        AddonAndType = AddonType .. " - " .. GuideType
+    else
+        AddonAndType = AddonType
+    end
+    local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonAndType)
+    if AddonIndex < 1 then
+        if table.getn(GuideMenuList) == 0 then
+            table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
+        end
+        local stuff = { text = AddonAndType, hasArrow = true, menuList = {} }
+        if extra then
+            for key, value in pairs(extra) do
+                stuff[key] = value
+            end
+        end
+        table.insert(GuideMenuList, stuff)
+        AddonIndex = table.getn(GuideMenuList)
+    end
+
+    local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideName)
+    if GuideNameIndex < 1 then
+        if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
+            table.insert(GuideMenuList[AddonIndex].menuList,
+                { text = "Select a Guide", isTitle = true })
+        end
+        table.insert(GuideMenuList[AddonIndex].menuList, {
+            text =  GuideName,
+            sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
+            func = function() WoWPro:LoadGuide(GID); end
+        })
+    end
+end
+
+function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
+    WoWPro:dbp("RegisterGuideInMenuList3(%q,%q,%q,%q)", tostring(AddonType), tostring(GuideType), tostring(GuideName), GID)
+    local GuideMenuList = WoWPro.GuideMenuList
+    local AddonIndex = WoWPro.findIndexWithText(GuideMenuList, AddonType)
+    if AddonIndex < 1 then
+        if table.getn(GuideMenuList) == 0 then
+            table.insert(GuideMenuList, { text = "Guide Group", isTitle = true })
+        end
+        local stuff = { text = AddonType, hasArrow = true, menuList = {} }
+        if extra then
+            for key, value in pairs(extra) do
+                stuff[key] = value
+            end
+        end
+        table.insert(GuideMenuList, stuff)
+        AddonIndex = table.getn(GuideMenuList)
+    end
+
+    local GTypeIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideType)
+    if GTypeIndex < 1 then
+        if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
+            table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Guide Category", isTitle = true })
+        end
+        table.insert(GuideMenuList[AddonIndex].menuList, { text = GuideType, hasArrow = true, menuList = {} })
+        GTypeIndex = table.getn(GuideMenuList[AddonIndex].menuList)
+    end
+
+    local GuideNameIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, GuideName)
+    if GuideNameIndex < 1 then
+        if table.getn(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList) == 0 then
+            table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList,
+                { text = "Select a Guide", isTitle = true })
+        end
+        table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, {
+            text = GuideName,
+            sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
+            func = function() WoWPro:LoadGuide(GID); end
+        })
+    end
+end
+
+function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, extra)
+    if WoWPro.CATA then
+        WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
+    else
+        WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
+    end
+end
+
+local expansionOrder = {
+    ["Classic"] = 1,
+    ["The Burning Crusade"] = 2,
+    ["Wrath of the Lich King"] = 3,
+    ["Cataclysm"] = 4,
+    ["Mists of Pandaria"] = 5,
+    ["Warlords of Draenor"] = 6,
+    ["Legion"] = 7,
+    ["Battle for Azeroth"] = 8,
+    ["Shadowlands"] = 9,
+    ["Dragonflight"] = 10,
+    ["The War Within"] = 11,
+}
+
+local function SortNestedMenu(menu, top)
+    if top then
+        menu = {menuList=menu}
+    end
+    -- Do we have a menuList?
+    if not menu.menuList then
+        return
+    end
+    -- Depth first traversal
+    for _, listEntry in pairs(menu.menuList) do
+        if listEntry.menuList then
+            SortNestedMenu(listEntry, false)
+        end
+    end
+    local sort_function = function(a, b)
+        WoWPro:dbp("sort_function({isTitle=%q, sortlevel=%q, text=%q} <? {isTitle=%q, sortlevel=%q, text=%q}",
+                    tostring(a.isTitle), tostring(a.sortlevel), tostring(a.text),
+                    tostring(b.isTitle), tostring(b.sortlevel), tostring(b.text))
+        if a.isTitle then return true; end
+        if b.isTitle then return false; end
+        if a.sortlevel then return (a.sortlevel or 100) < (b.sortlevel or 100); end
+        if expansionOrder[a.text] and expansionOrder[b.text] then
+            return expansionOrder[a.text] < expansionOrder[b.text]
+        end
+        return (a.text < b.text) or false
+    end
+    table.sort(menu.menuList, sort_function)
+end
+
+function WoWPro.BuildGuideInMenuList()
+    WoWPro.GuideMenuList = {}
+    for gid, guide in pairs(WoWPro.Guides) do
+        local guidetype = guide.guidetype
+        if guide.TopCategory then
+            guidetype = guide.TopCategory
+        end
+        if not guide.secret then
+            WoWPro.RegisterGuideInMenuList(guidetype, guide.category or "?",  guide.name or "??", gid)
+        end
+    end
+    for _, gid in ipairs(WoWProCharDB.GuideStack) do
+        local guide = WoWPro.Guides[gid]
+        if guide and (not guide.secret) then
+            -- the '[' is used to sort to the bottom of the list
+            WoWPro.RegisterGuideInMenuList("[Recent Guides]", guide.guidetype,  guide.name or "??", gid)
+        end
+    end
+    -- OK.  Now lets make the menu pretty by sorting on .text or .sortlevel
+    SortNestedMenu(WoWPro.GuideMenuList, true)
+end
+
+function WoWPro.ShowGuideMenu()
+    WoWPro.BuildGuideInMenuList()
+    local menuFrame = _G.CreateFrame("Frame", "WoWPro_Guides", _G.UIParent, "UIDropDownMenuTemplate")
+    menuFrame:SetPoint("Center", _G.UIParent, "Center")
+    WoWPro.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
+end
 
 function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
     if not WoWPro[gtype] then
@@ -750,7 +993,11 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     -- Set a default release, if not specified
     if not release then
-            release = 10
+        if  WoWPro.RETAIL then
+            release = WoWPro.Client
+        else
+            release = WoWPro.RETAIL_RELEASE
+        end
     end
 
     local guide = {
@@ -765,10 +1012,6 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         -- WoWPro:print("RegisterGuide(): Zone %q is not valid, using as guide name.", guide.zone)
         guide.name = guide.name or guide.zone
         guide.zone = nil
-    end
-
-    if  WoWPro[gtype].RegisterGuide then
-        WoWPro[gtype]:RegisterGuide(guide)
     end
 
     if faction and faction ~= WoWPro.Faction and faction ~= "Neutral" then
@@ -797,6 +1040,14 @@ function WoWPro:GuideNickname(guide, nickname)
     guide['nickname'] = nickname
 end
 
+function WoWPro:TopCategory(guide, category)
+    guide['TopCategory'] = category
+end
+
+function WoWPro:GuideCategory(guide, category)
+    guide['category'] = category
+end
+
 local nameToID = {
     ["Classic"] = _G.LE_EXPANSION_CLASSIC,
     ["The Burning Crusade"] = _G.LE_EXPANSION_BURNING_CRUSADE,
@@ -808,6 +1059,7 @@ local nameToID = {
     ["Battle for Azeroth"] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH,
     ["Shadowlands"] = _G.LE_EXPANSION_SHADOWLANDS,
     ["Dragonflight"] = _G.LE_EXPANSION_DRAGONFLIGHT,
+    ["The War Within"] = _G.LE_EXPANSION_THE_WAR_WITHIN,
 }
 function WoWPro:GuideContent(guide, content)
     if content == "Intro" then
@@ -830,7 +1082,7 @@ function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
         guide['level_float'] = true
     end
     if not upperLevel then
-        upperLevel = min(playerLevel+1, 60) -- REVIEW after Patch 10 for level changes.
+        upperLevel = min(playerLevel+1, 70) -- REVIEW after Patch 10 for level changes.
         guide['level_float'] = true
     end
 
@@ -853,6 +1105,14 @@ function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
 	guide['sortlevel'] = tonumber(meanLevel)
+end
+
+function WoWPro:TimerunningSeasonID(guide, seasonID)
+    guide['TimerunningSeasonID'] = tonumber(seasonID)
+end
+
+function WoWPro:ClassicSeasonID(guide, seasonID)
+    guide['ClassicSeasonID'] = tonumber(seasonID)
 end
 
 function WoWPro:GuideRaceSpecific(guide, race)
@@ -902,7 +1162,7 @@ function WoWPro:GuideClassSpecific(guide,class)
         return -- Allow developers to check everything, if they want
     end
     if engClass ~= class then
-        WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't match", guide.GID)
+        WoWPro:UnRegisterGuide(guide,("Guide %s is class specific and you don't match"):format(guide.GID))
     end
 end
 
@@ -912,6 +1172,10 @@ end
 
 function WoWPro:GuideName(guide, name)
     guide['name']=name
+end
+
+function WoWPro:GuideSecret(guide)
+    guide['secret'] = true
 end
 
 local progressFormat = "%d/%d"
@@ -929,7 +1193,7 @@ function WoWPro:GetGuideName(GID)
     if GID and WoWPro.Guides[GID] then
         return WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone or GID
     else
-        return GID
+        return GID or "Help! Report me to Ludovicus!"
     end
 end
 
@@ -1079,7 +1343,7 @@ Difficulty[1] = {0,0.9,0.5} -- Red
 Difficulty[2] = {30/360,0.9,0.5} -- Orange
 Difficulty[3] = {60/360,0.9,0.5} -- Yellow
 Difficulty[4] = {120/360,0.9,0.5} -- Green
-Difficulty[5] = {180/360,0.7,0.3} -- Green/Teal
+Difficulty[5] = {0, 0, 0.5} -- Grey
 
 function WoWPro:InterpolateHSL(l,h,r)
     -- WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)", l[1], l[2], l[3], h[1], h[2], h[3], r)
@@ -1122,23 +1386,23 @@ function WoWPro:QuestColor(questLevel, playerLevel)
     local diff = questLevel - playerLevel
     local c
     -- WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
-    if diff > 5 then
-        -- Red/Gray => Red
-        c = WoWPro:InterpolateHSL(Difficulty[1], Difficulty[0], (diff-5)/90)
-    elseif diff >= 3 then
-        -- red => orange
-        c = WoWPro:InterpolateHSL(Difficulty[2], Difficulty[1], (diff-3)/2)
-    elseif diff >= 0 then
-        -- orange => yellow
-        c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[2], (diff-0)/3)
-    elseif diff >= -5  then
-        -- yellow => green
-        c = WoWPro:InterpolateHSL(Difficulty[3], Difficulty[4], (diff)/-5)
+    if diff > 7 then
+        -- Red for diff > 7
+        c = Difficulty[1] -- Assuming Difficulty[1] is red
+    elseif diff >= 4 then
+        -- Orange for diff between 4 and 6
+        c = Difficulty[2] -- Assuming Difficulty[2] is orange
+    elseif diff >= -3 then
+        -- Yellow if within 3 levels of player's level
+        c = Difficulty[3] -- Assuming Difficulty[3] is yellow
+    elseif diff >= -6 then
+        -- Green if player level is between 4 and 6 levels below
+        c = Difficulty[4] -- Assuming Difficulty[4] is green
     else
-        -- green => gray
-        c = WoWPro:InterpolateHSL(Difficulty[4], Difficulty[5], (5+diff)/-20)
+        -- Grey for anything else
+        c = Difficulty[5] -- Assuming Difficulty[5] is grey
     end
-    return  WoWPro:HSL2RGB(c[1], c[2], c[3])
+    return WoWPro:HSL2RGB(c[1], c[2], c[3])
 end
 
 function WoWPro:TestQuestColor(startLevel, endLevel, increment, playerLevel)
@@ -1174,29 +1438,35 @@ function WoWPro.LevelColor(guide)
 
 end
 
-WoWPro.Hidden = false
-
-function WoWPro.ShowFrame(enabled, msg, event)
-	if (not enabled) and (not WoWPro.Hidden) then
-            if WoWProCharDB.AutoHideInsideInstancesNotify then
-	        WoWPro:Print(msg .. event)
+WoWPro.Escondido = 0
+-- why should be one of "INSTANCE" or "COMBAT"
+function WoWPro.ShowFrame(enabled, msg, why)
+    if (not enabled) then
+            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and (WoWPro.Escondido == 0) then
+                WoWPro:Print("WoWPro.ShowFrame(hide):"..msg)
             else
-	        WoWPro:print(msg .. event)
+                WoWPro:print("WoWPro.ShowFrame(hide):"..msg)
             end
-	    WoWPro.MainFrame:Hide()
-	    WoWPro.Titlebar:Hide()
-	    WoWPro.Hidden = event
-	elseif (enabled and WoWPro.Hidden) then
-            if WoWProCharDB.AutoHideInsideInstancesNotify then
-	        WoWPro:Print(msg .. event )
+            WoWPro.MainFrame:Hide()
+            WoWPro.Titlebar:Hide()
+            WoWPro.Escondido = WoWPro.Escondido + 1
+    elseif (enabled and (WoWPro.Escondido > 0)) then
+            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and (WoWPro.Escondido == 1) then
+                WoWPro:Print("WoWPro.ShowFrame(show)"..msg)
             else
-	        WoWPro:print(msg .. event)
+                WoWPro:print("WoWPro.ShowFrame(show):"..msg)
             end
-            WoWPro.MainFrame:Show()
-            WoWPro:TitlebarShow()
-            WoWPro.Hidden = nil
-        else
-             WoWPro:print("WoWPro.ShowFrame is confused: enabled=%s, Hidden=%s, msg=%s, evengt=%s", tostring(enabled), tostring(WoWPro.Hidden), msg, event)
+            WoWPro.Escondido = WoWPro.Escondido - 1
+            if (WoWPro.Escondido == 0) then
+                WoWPro.MainFrame:Show()
+                WoWPro:TitlebarShow()
+                WoWPro:print("WoWPro.ShowFrame(show): No longer hidden.")
+            end
+    else
+        WoWPro:print("WoWPro.ShowFrame is confused: enabled=%s, Escondido=%s, msg=%s, why=%s", tostring(enabled), tostring(WoWPro.Escondido), msg, why)
+        WoWPro.Escondido = 0
+        WoWPro.MainFrame:Show()
+        WoWPro:TitlebarShow()
 	end
 end
 
@@ -1230,7 +1500,11 @@ function WoWPro:ResolveIcon(guide)
         return
     end
     if guide['spell'] then
-        local _, _, icon = _G.GetSpellInfo(guide.spell)
+        local icon
+        local spellInfo = WoWPro.C_Spell_GetSpellInfo(guide.spell)
+        if spellInfo then
+            icon = spellInfo.iconID
+        end
         guide.icon = icon
         return
     end
@@ -1245,14 +1519,21 @@ function WoWPro:ResolveIcon(guide)
         end
         return
     end
-    if guide['pro'] and WoWPro.RETAIL then
-        -- prof1, prof2, archaeology, fishing, cooking, firstAid
-        local profs = {_G.GetProfessions()}
-        for index = 1,#profs do
-            if profs[index] then
-                local _, texture, _, _, _, _, skillLine = _G.GetProfessionInfo(profs[index])
-                if skillLine == tonumber(guide['pro']) then
-                    guide.icon = texture
+    if guide['pro'] then
+        if WoWPro.ProfessionSkillLines[tonumber(guide['pro'])] then
+            guide.category = WoWPro.ProfessionSkillLines[tonumber(guide['pro'])].name
+        else
+            WoWPro:dbp("Unknown PRO Icon number [%s] for guide %s",guide['pro'],guide.GID)
+        end
+        if WoWPro.RETAIL then
+            -- prof1, prof2, archaeology, fishing, cooking, firstAid
+            local profs = {_G.GetProfessions()}
+            for index = 1,#profs do
+                if profs[index] then
+                    local _, texture, _, _, _, _, skillLine = _G.GetProfessionInfo(profs[index])
+                    if skillLine == tonumber(guide['pro']) then
+                        guide.icon = texture
+                    end
                 end
             end
         end
@@ -1266,6 +1547,7 @@ function WoWPro:GuideIcon(guide,gtype,gsubtype,extras)
         guide['ach'] = tonumber(gsubtype)
     elseif gtype == "PRO" then
         guide['pro'] = tonumber(gsubtype)
+        WoWPro:ResolveIcon(guide)
     elseif gtype == "MOUNT" then
         guide['mount'] = tonumber(gsubtype)
     elseif gtype == "ICON" then
@@ -1285,7 +1567,7 @@ end
 -- Finish all delayed guide initializiation
 function WoWPro:FinalizeGuides()
     for name, module in WoWPro:IterateModules() do
-        if WoWPro[name].GuideList.Init then
+        if WoWPro[name] and WoWPro[name].GuideList and WoWPro[name].GuideList.Init then
             WoWPro[name].GuideList.Init()
         end
     end
@@ -1327,7 +1609,7 @@ function WoWPro.TestGuideLoad(guidID)
             end
         end
         if not WoWPro.Guides[guidID].nextGID then
-            WoWPro:Warning("TestGuideLoad: No Next Guide defined for "..guidID)
+            WoWPro:Print("TestGuideLoad: No Next Guide defined for "..guidID)
         else
             local nextG = WoWPro:NextGuide(guidID)
             if nextG and (WoWPro.Guides[nextG] == nil) then
@@ -1413,7 +1695,14 @@ WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
 WoWPro.POST_BC = (WoWPro.TocVersion >= 30000)
 WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
-WoWPro.RETAIL = (WoWPro.TocVersion >= 100000)
+WoWPro.CATA = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
+WoWPro.POST_CATA = (WoWPro.TocVersion >= 40000)
+WoWPro.POST_SL = (WoWPro.TocVersion >= 90000)
+WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 110000))
+WoWPro.WAR_WITHIN_PREPATCH = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 110002))
+WoWPro.WAR_WITHIN = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 120000))
+WoWPro.RETAIL_RELEASE = 11
+WoWPro.RETAIL = (WoWPro.TocVersion >= WoWPro.RETAIL_RELEASE * 10000)
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false

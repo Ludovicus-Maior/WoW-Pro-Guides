@@ -6,6 +6,7 @@
 
 WoWPro.Leveling = WoWPro:NewModule("Leveling")
 WoWPro:Embed(WoWPro.Leveling)
+WoWPro.Leveling.Version = WoWPro.GetAddOnMetadata("WoWPro_Leveling", "Version")
 
 WoWPro.Leveling.StartGuides = {
     Orc = "JiyDur0105",
@@ -40,13 +41,13 @@ WoWPro.Leveling.ClassicStartGuides = {
     Gnome = 'ClassicDunMorogh0112',
     Human = 'ClassicElwynn0112',
     NightElf = "ClassicTeldrassil0112",
-    Orc = 'Classic-01-12-Zerinj-Durotar',
-    Scourge = 'Classic-01-12-Manovan-TirisfalGlades',
-    Tauren = 'Classic-01-12-Shururu-Mulgore',
-    Troll = 'Classic-01-12-Zerinj-Durotar'
+    Orc = 'Classic-01-12-Hendo-Durotar',
+    Scourge = 'Classic-01-12-Hendo-TirisfalGlades',
+    Tauren = 'Classic-01-12-Hendo-Mulgore',
+    Troll = 'Classic-01-12-Hendo-Durotar'
 }
 WoWPro.Leveling.ClassicBCStartGuides = {
-	BloodElf = "BC-BloodElf",
+    BloodElf = "BC-BloodElf",
     Draenei = "BC-Draenei",
     Dwarf = 'BC-DwarfGnome',
     Gnome = 'BC-DwarfGnome',
@@ -56,6 +57,34 @@ WoWPro.Leveling.ClassicBCStartGuides = {
     Scourge = 'BC-Scourge',
     Tauren = 'BC-Tauren',
     Troll = 'BC-OrcTroll'
+}
+
+WoWPro.Leveling.ClassicWrathStartGuides = {
+    BloodElf = "BC-BloodElf",
+    Draenei = "SnoAzu0112",
+    Dwarf = 'BosDun0112',
+    Gnome = 'BosDun0112',
+    Human = 'WOTLK_INTRO_Human',
+    NightElf = "WOTLK_INTRO_NE",
+    Orc = 'BC-OrcTroll',
+    Scourge = 'BC-Scourge',
+    Tauren = 'BC-Tauren',
+    Troll = 'BC-OrcTroll'
+}
+
+WoWPro.Leveling.ClassicCataStartGuides = {
+    BloodElf = "KraSunIsle",
+    Draenei = "SnoAmmen0105",
+    Dwarf = 'GylDwa0105',
+    Gnome = 'GylGno0105',
+    Goblin = "MalKez0105",
+    Human = 'KurNShire0105',
+    NightElf = "BitSha0105",
+    Orc = 'JiyDur0105',
+    Scourge = 'JiyDk0105',
+    Tauren = 'GylNar0105',
+    Troll = 'BitDur0105',
+    Worgen = "RpoGil0113"
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
@@ -70,7 +99,6 @@ function WoWPro.Leveling:OnEnable()
 
     --Loading Frames--
     if not WoWPro.Leveling.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro.Leveling:CreateConfig()
         WoWPro.Leveling.FramesLoaded = true
     end
 
@@ -86,8 +114,12 @@ function WoWPro.Leveling:OnEnable()
             WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
             if WoWPro.CLASSIC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
-            elseif WoWPro.BC or WoWPro.WRATH then
+            elseif WoWPro.BC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
+            elseif WoWPro.WRATH then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicWrathStartGuides[engRace]
+            elseif WoWPro.CATA then
+                WoWProDB.char.currentguide = WoWPro.Leveling.ClassicCataStartGuides[engRace]
             else
 				local mapID = _G.C_Map.GetBestMapForUnit("player");
 				if mapID == 1727 or mapID == 1409 then

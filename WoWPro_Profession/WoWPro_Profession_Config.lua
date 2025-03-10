@@ -6,11 +6,8 @@
 
 local L = WoWPro_Locale
 
-local config = _G.LibStub("AceConfig-3.0")
-local dialog = _G.LibStub("AceConfigDialog-3.0")
-
 local function createBlizzOptions()
-    local args = {
+    return { name = L["WoW-Pro Profession"], type = "group", args = {
 		help = {
 			order = 0,
 			type = "description",
@@ -42,34 +39,14 @@ local function createBlizzOptions()
 			set = function(info,val) WoWProDB.profile.rank = val
 				WoWPro.UpdateGuide("Config: Rank") end,
 			width = "double"
-		},
-		blank2 = {
-			order = 4,
-			type = "description",
-			name = " ",
-		},
-		helpheader = {
-			order = 5,
-			type = "header",
-			name = "WoW-Pro Profession Help",
-		},
-		blank3 = {
-			order = 6,
-			type = "description",
-			name = " ",
-		},
-	}
-	args = WoWPro.InsertActionDescriptions(args, 7)
-	config:RegisterOptionsTable("WoWPro-Profession-Bliz", {
-		name = "WoW-Pro Professions",
-		type = "group",
-		args = args })
-	dialog:SetDefaultSize("WoWPro-Profession-Bliz", 600, 400)
-	dialog:AddToBlizOptions("WoWPro-Profession-Bliz", "WoW-Pro Profession")
+		}
+	}}
 end
 
-function WoWPro.Profession:CreateConfig()
-	createBlizzOptions()
+function WoWPro.Profession:CreateConfig(args, slot)
+	local professionOptions = createBlizzOptions()
+	professionOptions.order = slot
+	args.professionOptions = professionOptions
 
 	tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro Profession", isTitle = true} )

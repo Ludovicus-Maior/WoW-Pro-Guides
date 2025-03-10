@@ -3,7 +3,7 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("LudoShopAlchemy","Profession", "Alchemy", "Ludovicus", "Neutral")
+local guide = WoWPro:RegisterGuide("LudoShopAlchemy","Profession", "Alchemy", "WoWPro Team", "Neutral")
 WoWPro:GuideName(guide, "Alchemy Recipies")
 WoWPro:GuideLevels(guide,1,90,5)
 WoWPro:BuyersGuide(guide)

@@ -5,6 +5,9 @@
 
 local guide = WoWPro:RegisterGuide("TwiPebble","Achievements","Deepholm","Twists", "Neutral")
 WoWPro:GuideIcon(guide,"ACH",5449)
+WoWPro:GuideNickname(guide, "Rock Lover")
+WoWPro:GuideName(guide,"Rock Lover")
+WoWPro.Achievements:GuideMisc(guide, "Rock Lover", "Quests", "Deepholm")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 return [[

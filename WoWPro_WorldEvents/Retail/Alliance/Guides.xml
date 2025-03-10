@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Midsummer_Alliance.lua"/>
+	<Script file="IronHorde.lua"/>
+	<Script file="LunarFestival.lua"/>
+	<Script file="Ludo_Love.lua"/>
+	<Script file="PilgrimsBounty.lua"/>
+	<Script file="WinterVeil.lua"/>
+	<Script file="HallowsEnd.lua"/>
+</Ui>

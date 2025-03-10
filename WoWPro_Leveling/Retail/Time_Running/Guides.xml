@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="TR_MOP_Dread_Wastes.lua"/>
+	<Script file="TR_MOP_KunLai_Summit.lua"/>
+	<Script file="TR_MOP_Townlong_Steppes.lua"/>
+	<Script file="TR_MOP_Valley_of_the_Four_Winds.lua"/>
+	<Script file="TR_MOP_Jade_ForestA.lua"/>
+	<Script file="TR_MOP_JadeForestH.lua"/>
+	<Script file="TR_MOP_Krasarang_WildsA.lua"/>
+	<Script file="TR_MOP_Krasarang_WildsH.lua"/>
+</Ui>

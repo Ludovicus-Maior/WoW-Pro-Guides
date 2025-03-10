@@ -7,11 +7,8 @@
 
 local L = WoWPro_Locale
 
-local config = _G.LibStub("AceConfig-3.0")
-local dialog = _G.LibStub("AceConfigDialog-3.0")
-
 local function createBlizzOptions()
-    local args = {
+    return { name = L["WoW-Pro Leveling"], type = "group", args = {
         help = {
             order = 0,
             type = "description",
@@ -44,33 +41,13 @@ local function createBlizzOptions()
                 WoWPro.UpdateGuide("Config: Rank") end,
             width = "double"
         },
-        blank2 = {
-            order = 4,
-            type = "description",
-            name = " ",
-        },
-        helpheader = {
-            order = 5,
-            type = "header",
-            name = "WoW-Pro Leveling Help",
-        },
-        blank3 = {
-            order = 6,
-            type = "description",
-            name = " ",
-        },
-    }
-    args = WoWPro.InsertActionDescriptions(args, 7)
-    config:RegisterOptionsTable("WoWPro-Leveling-Bliz", {
-        name = "WoW-Pro Leveling",
-        type = "group",
-        args = args })
-    dialog:SetDefaultSize("WoWPro-Leveling-Bliz", 600, 400)
-    dialog:AddToBlizOptions("WoWPro-Leveling-Bliz", "WoW-Pro Leveling")
+    }}
 end
 
-function WoWPro.Leveling:CreateConfig()
-    createBlizzOptions()
+function WoWPro.Leveling:CreateConfig(args, slot)
+    local levelingOptions = createBlizzOptions()
+    levelingOptions.order = slot
+    args.levelingOptions = levelingOptions
 
     tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
     tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )

@@ -6,6 +6,7 @@
 
 WoWPro.WorldEvents = WoWPro:NewModule("WorldEvents")
 WoWPro:Embed(WoWPro.WorldEvents)
+WoWPro.WorldEvents.Version = WoWPro.GetAddOnMetadata("WoWPro_WorldEvents", "Version")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.WorldEvents:OnInitialize()
@@ -19,7 +20,6 @@ function WoWPro.WorldEvents:OnEnable()
 
     --Loading Frames--
     if not WoWPro.WorldEvents.FramesLoaded then --First time the addon has been enabled since UI Load
-        WoWPro.WorldEvents:CreateConfig()
         WoWPro.WorldEvents.FramesLoaded = true
     end
 
@@ -50,6 +50,17 @@ function WoWPro.WorldEvents:GuideHoliday(guide,holiday, name)
 
     guide['category']='Holiday'
     guide['icon'] = "Interface\\Calendar\\Holidays\\Calendar_" .. holiday
+end
+
+function WoWPro.WorldEvents:GuideOther(guide,other, name)
+    guide['other']=other
+    if name then
+        guide['name']=name
+    else
+        guide['name']=other
+    end
+
+    guide['category']='Other'
 end
 
 function WoWPro.WorldEvents:GuideWorldEvent(guide, name)

@@ -1,16 +1,19 @@
-## Interface: 100005
+## Interface: 110100
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
+## IconTexture: Interface\GossipFrame\DailyQuestIcon
 ## Dependencies: WoWPro
-## Version: 2023.02.05.A
+## Version: 2025.03.04.A
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 WoWPro_Dailies.lua
-Alliance\Guides.xml
-Horde\Guides.xml
-Neutral\Guides.xml
-Neutral\Classic_BC\Guides.xml
 WoWPro_Dailies_Parser.lua
 WoWPro_Dailies_Config.lua
 WoWPro_Dailies_GuideList.lua
+Retail\Alliance\Guides.xml
+Retail\Horde\Guides.xml
+Retail\Neutral\Guides.xml
+Retail\Alliance\Time_Running\Guides.xml
+Retail\Horde\Time_Running\Guides.xml
+Retail\Neutral\Time_Running\Guides.xml

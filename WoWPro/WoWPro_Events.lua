@@ -133,7 +133,7 @@ end
 function WoWPro:CheckAnimaPowers()
 	local numBuffs = 0
 	for i=1, 44 do
-		local _, _, _, _, _, _, _, _, _, spellID = _G.UnitAura("player", i, "MAW")
+		local _, _, _, _, _, _, _, _, _, spellID = WoWPro.UnitAura("player", i, "MAW")
 		if spellID then
 			numBuffs = numBuffs + 1
 		end
@@ -145,7 +145,7 @@ end
 function WoWPro.AuraScan(tabula, filter)
     local BuffIndex = 1
     local BuffString = tabula[0] or ""
-    local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,filter)
+    local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = WoWPro.UnitAura("player",BuffIndex,filter)
     while BuffName do
         tabula[BuffSpellId] = BuffCount or 1
         if BuffString ~= "" then
@@ -153,7 +153,7 @@ function WoWPro.AuraScan(tabula, filter)
         end
         BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
-        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,filter)
+        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = WoWPro.UnitAura("player",BuffIndex,filter)
     end
     tabula[0] = BuffString
     return tabula
@@ -218,10 +218,10 @@ function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
     - how many the user needs
     - a complete symbol if the ammount the user has is equal to the ammount they need
 ]]
-    if not _G.GetItemInfo(lootitem) then return "" end
+    if not _G.WoWPro.C_Item_GetItemInfo(lootitem) then return "" end
     local track = ""                                                --If the function did have a track string, adds a newline
-    track = track.." - ".. _G.GetItemInfo(lootitem)..": "   --Adds the item's name to the string
-    local numinbag = _G.GetItemCount(lootitem)      --Finds the number in the bag, and adds a count if supplied
+    track = track.." - ".. _G.WoWPro.C_Item_GetItemInfo(lootitem)..": "   --Adds the item's name to the string
+    local numinbag = _G.WoWPro.C_Item_GetItemCount(lootitem)      --Finds the number in the bag, and adds a count if supplied
     track = track..numinbag                                     --Adds the number in bag to the string
     track = track.."/"..lootqty                             --Adds the total number needed to the string
     if (lootqty > 0) then
@@ -258,7 +258,7 @@ function WoWPro.AutoCompleteLoot()
                 WoWPro.rows[i].track:SetText(track:trim())
                 WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
             end
-            local itemCount = _G.GetItemCount(WoWPro.lootitem[index])
+            local itemCount = _G.WoWPro.C_Item_GetItemCount(WoWPro.lootitem[index])
             if lootqty > 0 then
                 if itemCount >= lootqty and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
                     WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
@@ -330,12 +330,12 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
     for i=1,#WoWPro.action do
         local action = WoWPro.action[i]
         local completion = WoWProCharDB.Guide[GID].completion[i]
-        if WoWPro.QID[i] then
+        if WoWPro.QID[i] and WoWPro.QID[i] ~= "*" then
             local numQIDs = select("#", ("^&"):split(WoWPro.QID[i]))
             for j=1,numQIDs do
                 local QID = select(numQIDs-j+1, ("^&"):split(WoWPro.QID[i]))
                 if not tonumber(QID) then
-                    WoWPro:Error("Bad QID [%s] in Guide %s", WoWPro.QID[i], GID)
+                    WoWPro:Error("Bad QID [%s] in Guide %s, step [%s %s]", WoWPro.QID[i], GID, action, WoWPro.step[i])
                     return
                 end
                 QID = tonumber(QID)
@@ -548,10 +548,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function(event, ...)
     WoWPro.InitLockdown = true
     WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     WoWPro.LockdownTimer = 1.5
-    -- WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA")
-    if WoWPro.Hidden == "PLAYER_ENTERING_BATTLEGROUND" then
-        WoWPro.ShowFrame(true, "|cff33ff33Battleground Exit Auto Show|r: ", event)
-    end
+    -- WoWPro.ShowFrame(true, "|cff33ff33Battleground Exit Auto Show|r: "..event, "INSTANCE")
     WoWPro:UpdateTradeSkills()
     end)
 
@@ -583,19 +580,19 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
             WoWPro:print("Suppressing Instance Auto Hide.")
             return
         end
-        if _G.IsInInstance() and not WoWPro.MaybeCombatLockdown() then
-            WoWPro.ShowFrame(false, "|cff33ff33Instance Auto Hide|r: " , event)
+        if _G.IsInInstance() then
+            WoWPro.ShowFrame(false, "|cff33ff33Instance Auto Hide|r: " .. event, "INSTANCE")
             return
-        elseif WoWPro.Hidden and not WoWPro.MaybeCombatLockdown() then
-            WoWPro.ShowFrame(true, "|cff33ff33Instance Exit Auto Show|r: " , event)
-	elseif WoWPro.Hidden or _G.IsInInstance() then
-            WoWPro.CombatLock = true
-	end
+        else
+            WoWPro.ShowFrame(true, "|cff33ff33Instance Exit Auto Show|r: " .. event, "INSTANCE")
+        end
     end
     if WoWPro.Ready(event) then
-        WoWPro.AutoCompleteZone(...)
+        if WoWPro.AutoCompleteZone(...) then
+            WoWPro:UpdateGuide(event)
+        end
     end
-    end)
+end)
 
 WoWPro.RegisterEventHandler("ZONE_CHANGED_INDOORS", WoWPro.ZONE_CHANGED)
 WoWPro.RegisterEventHandler("ZONE_CHANGED_NEW_AREA", WoWPro.ZONE_CHANGED)
@@ -623,8 +620,8 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function(event, ..
     end
 
     WoWPro.LastPetBattleWinner = nil
-    if (not WoWPro.Hidden) and battleHide then
-        WoWPro.ShowFrame(false, "|cff33ff33Entering Pet Battle|r: ", event)
+    if (WoWPro.Escondido == 0) and battleHide then
+        WoWPro.ShowFrame(false, "|cff33ff33Entering Pet Battle|r: ", "COMBAT")
     end
     WoWPro.PetBattleActive = true
     WoWPro:print("battleHide=%s, Hidden=%s, PetBattleActive=%s", tostring(battleHide), tostring(WoWPro.Hidden), tostring(WoWPro.PetBattleActive))
@@ -653,8 +650,8 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_FINAL_ROUND", function(event, ...)
 WoWPro.RegisterModernEventHandler("PET_BATTLE_OVER", function(event, ...) return; end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
-    if WoWPro.Hidden then
-        WoWPro.ShowFrame(true, "|cff33ff33Exiting Pet Battle|r: ", event)
+    if (WoWPro.Escondido > 0) then
+        WoWPro.ShowFrame(true, "|cff33ff33Exiting Pet Battle|r: ", "COMBAT")
     end
 
     if not _G.C_PetBattles.IsInBattle() then
@@ -686,32 +683,23 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function(event, ...)
 WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
     -- Combat lockdown begins after this event
     if WoWProCharDB.AutoHideInCombat then
-        WoWPro.MainFrame:Hide()
-        WoWPro.Titlebar:Hide()
-        WoWPro.Hidden = event
+        WoWPro.ShowFrame(false, "|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
+        WoWPro.CombatLock = true
     end
     -- Last ditch update!
     if not WoWPro.MaybeCombatLockdown() then
         WoWPro:UpdateGuide(event)
     end
-    end)
+end)
 
 WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
     -- Combat lockdown ends before this event fires
-	if WoWPro.CombatLock then
-		if _G.IsInInstance() then
-            WoWPro.ShowFrame(false, "|cff33ff33Punted Instance Auto Hide|r: " .. event)
-        elseif WoWPro.Hidden == true then
-            WoWPro.ShowFrame(true, "|cff33ff33Punted Instance Exit Auto Show|r: " .. event)
-		end
-		WoWPro.CombatLock = false
-	elseif WoWPro.Hidden then
-        WoWPro.MainFrame:Show()
-        WoWPro:TitlebarShow()
+    if WoWPro.CombatLock and WoWProCharDB.AutoHideInCombat then
+        WoWPro.ShowFrame(true, "|cff33ff33Combat Exit, |r: " .. event, "COMBAT")
+        WoWPro.CombatLock = false
     end
-
     WoWPro:UpdateGuide(event)
-    end)
+end)
 
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
@@ -743,6 +731,8 @@ if WoWPro.RETAIL then
 	end)
 end
 
+WoWPro.GroupVersionMismatchOnce = {}
+
 WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	local _, prefix, text, _, sender = event, ...
 	if successfulRequest and prefix == "WoWPro" and _G.GetNumSubgroupMembers(_G.LE_PARTY_CATEGORY_HOME) > 0 then
@@ -763,7 +753,11 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 					WoWPro.GroupSync = true
 					WoWPro:LoadGuideStepsReal()
 				elseif WoWPro.Version ~= gversion then
-					WoWPro:Print("Version mismatch: "..gname.."'s WoWPro is running "..gversion..". You are running "..WoWPro.Version)
+                    if not WoWPro.GroupVersionMismatchOnce[gname] then
+                        WoWPro:Print("Version mismatch: "..gname.."'s WoWPro is running "..gversion..". You are running "..WoWPro.Version)
+                        WoWPro:Print("Do /reload once corrected, if you care about WoWPro Group Sync")
+                        WoWPro.GroupVersionMismatchOnce[gname] = true
+                    end
 				end
 			elseif synctype == "steps" and WoWPro.GroupSync then
 				if (WoWPro.playerGroup[sender] ~= nil) then
@@ -1000,7 +994,9 @@ function WoWPro.QUEST_DETAIL_PUNTED(event, ...)
         end
     end
 
-    if (WoWPro.action[qidx] == "A") and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*" or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog)) then
+    if (WoWPro.action[qidx] == "A") and (not WoWPro.noauto[qidx]) and
+       ((questtitle == WoWPro.step[qidx]) or
+         WoWPro.QID[qidx] == "*" or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog)) then
         WoWPro:dbp("Accepted %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
         if  WoWPro.QID[qidx] == "*" then
             if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
@@ -1056,7 +1052,7 @@ WoWPro.RegisterEventHandler("QUEST_COMPLETE", function(event, ...)
     -- Some quests are auto-turnin on accept
     if WoWProCharDB.AutoAccept == true and
        WoWPro.action[qidx] == "A" and
-       questtitle == WoWPro.step[qidx] and not WoWPro.noauto[qidx] then
+       questtitle == WoWPro.step[qidx] and (not WoWPro.noauto[qidx]) then
         if (_G.GetNumQuestChoices() <= 1) then
             _G.GetQuestReward(1)
         end
@@ -1107,6 +1103,7 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function(event, ...)
             WoWPro:print("TAXIMAP_OPENED: Not trying to travel as AutoSelect is not active.")
         end
     end
+    WoWPro:UpdateGuide(event)
 end)
 
 WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function(event, ...)

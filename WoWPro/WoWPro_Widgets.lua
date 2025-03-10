@@ -1,4 +1,6 @@
--- luacheck: globals tonumber tostring type
+-- luacheck: globals tonumber tostring type WoWPro _G.WoWProDB
+---@diagnostic disable-next-line: undefined-field
+local WoWPro= _G.WoWPro
 
 ----------------------------------
 --      WoWPro_Widgets.lua      --
@@ -130,7 +132,7 @@ function WoWPro:CreateItemButton(parent, id)
     itembutton:SetFrameStrata("LOW")
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
-    if WoWProDB.profile.leftside then
+    if _G.WoWProDB.profile.leftside then
         itembutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
     else
         itembutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
@@ -145,7 +147,6 @@ function WoWPro:CreateItemButton(parent, id)
     itemicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
     itemicon:SetAllPoints(itembutton)
 
-    itembutton:RegisterForClicks("anyDown","anyUp")
     itembutton:Hide()
 
     return itembutton, itemicon, itemcooldown
@@ -157,7 +158,7 @@ function WoWPro:CreateJumpButton(parent, id)
     jumpbutton:SetFrameStrata("LOW")
     jumpbutton:SetHeight(24)
     jumpbutton:SetWidth(24)
-    if WoWProDB.profile.leftside then
+    if _G.WoWProDB.profile.leftside then
         jumpbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
     else
         jumpbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
@@ -172,7 +173,7 @@ function WoWPro:CreateJumpButton(parent, id)
 		jumpicon:SetTexture("Interface\\Icons\\inv_misc_book_12")
 	end
     jumpicon:SetAllPoints(jumpbutton)
-    jumpbutton:RegisterForClicks("anyDown","anyUp")
+    jumpbutton:RegisterForClicks("anyDown")
     jumpbutton:Hide()
 
     return jumpbutton, jumpicon
@@ -187,7 +188,7 @@ function WoWPro:CreateTargetButton(parent, id)
     targetbutton.Position = function (use_active)
         if use_active then
             -- WoWPro:dbp("CTBλPosition: use_active=%s, leftside=%s", tostring(use_active), tostring(leftside))
-            if WoWProDB.profile.leftside then
+            if _G.WoWProDB.profile.leftside then
                 targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 46, -7)
                 -- WoWPro:dbp("CTBλPosition:A")
             else
@@ -195,7 +196,7 @@ function WoWPro:CreateTargetButton(parent, id)
                 -- WoWPro:dbp("CTBλPosition:B")
             end
         else
-            if WoWProDB.profile.leftside then
+            if _G.WoWProDB.profile.leftside then
                 targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
                 -- WoWPro:dbp("CTBλPosition:C")
             else
@@ -213,7 +214,7 @@ function WoWPro:CreateTargetButton(parent, id)
     targeticon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
     targeticon:SetAllPoints(targetbutton)
 
-    targetbutton:RegisterForClicks("anyDown","anyUp")
+    targetbutton:RegisterForClicks("anyDown")
     targetbutton.SetTarget = function () targetbutton:SetTexture("Interface\\Icons\\Ability_Marksmanship"); end
     targetbutton.SetMacro = function () targetbutton:SetTexture("Interface\\Icons\\INV_Misc_Book_11"); end
     targetbutton.SetEmote = function () targetbutton:SetTexture("Interface\\Icons\\INV_Misc_Toy_07"); end
@@ -228,7 +229,7 @@ function WoWPro:CreateEAButton(parent, id)
     eabutton:SetFrameStrata("LOW")
     eabutton:SetHeight(32)
     eabutton:SetWidth(32)
-    if WoWProDB.profile.leftside then
+    if _G.WoWProDB.profile.leftside then
         eabutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
     else
         eabutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
@@ -242,7 +243,7 @@ function WoWPro:CreateEAButton(parent, id)
     eaicon:SetHeight(36)
     eaicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
     eaicon:SetAllPoints(eabutton)
-    eabutton:RegisterForClicks("anyDown","anyUp")
+    eabutton:RegisterForClicks("anyDown")
     eabutton:Hide()
 
     return eabutton, eaicon, cooldown
@@ -255,7 +256,7 @@ function WoWPro:CreateEAButtonSecured(id)
     eabutton:SetHeight(32)
     eabutton:SetWidth(32)
     eabutton:Hide()
-	eabutton:RegisterForClicks("anyDown","anyUp")
+	eabutton:RegisterForClicks("anyDown")
     return eabutton
 end
 
@@ -266,7 +267,7 @@ function WoWPro:CreateTargetButtonSecured(id)
     targetbutton:SetHeight(32)
     targetbutton:SetWidth(32)
     targetbutton:Hide()
-	targetbutton:RegisterForClicks("anyDown","anyUp")
+	targetbutton:RegisterForClicks("anyDown")
     return targetbutton
 end
 
@@ -277,7 +278,7 @@ function WoWPro:CreateItemButtonSecured(id)
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
     itembutton:Hide()
-	itembutton:RegisterForClicks("anyDown","anyUp")
+	itembutton:RegisterForClicks("anyDown")
     return itembutton
 end
 
@@ -322,7 +323,7 @@ function WoWPro:CreateLootsButton(parent, id)
 				texture = result['iconFileID']
 			end
         elseif tonumber(ID) then
-            name, _, _, _, _, _, _, _, _, texture = _G.GetItemInfo(tonumber(ID))
+            name, _, _, _, _, _, _, _, _, texture = _G.WoWPro.C_Item_GetItemInfo(tonumber(ID))
         end
         if texture then
             self.lootsicon:SetTexture(texture)
@@ -367,10 +368,11 @@ function WoWPro:CreateBG(parent)
     local box = _G.CreateFrame('Frame', nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     box:SetBackdrop(bg)
     box:SetBackdropBorderColor(1, 1, 1)
-    box:SetBackdropColor(0.09, 0.09, 0.19)
+    box:SetBackdropColor(0.2, 0.2, 0.2, 0.1)
 
     return box
 end
+
 
 function WoWPro:CreateTab(name, parent)
     local tab
@@ -471,6 +473,81 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
     border:SetBackdropBorderColor(_G.TOOLTIP_DEFAULT_COLOR.r, _G.TOOLTIP_DEFAULT_COLOR.g, _G.TOOLTIP_DEFAULT_COLOR.b, 0.5)
 
     return slider, up, down, border
+end
+
+do
+    local tooltip = _G.CreateFrame("Frame", nil, _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    tooltip:SetBackdrop( {
+        bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+        edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
+        tile = true, tileSize = 16, edgeSize = 16,
+        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+    })
+    tooltip:SetBackdropColor(0, 0, 0, 0.7)
+    tooltip:SetHeight(125)
+    tooltip:SetWidth(512)
+    tooltip:SetFrameStrata("FULLSCREEN_DIALOG")
+    tooltip:SetFrameLevel(100)
+
+    tooltip:Hide()
+
+    local tooltiptext = tooltip:CreateFontString(nil, nil, "GameFontNormal")
+    tooltiptext:SetPoint("TOPLEFT", 10, -10)
+    tooltiptext:SetPoint("RIGHT", -10, 0)
+    tooltiptext:SetJustifyH("LEFT")
+    tooltiptext:SetJustifyV("TOP")
+    tooltiptext:SetWidth(512-20)
+    tooltiptext:SetAlpha(1)
+    tooltiptext:SetText("")
+    tooltip.tooltiptext = tooltiptext
+    WoWPro.GuideRowTooltip = tooltip
+end
+
+function WoWPro:CreateGuideRow(parent, rowHeight)
+    local row = _G.CreateFrame("Frame", nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
+    local tooltip = WoWPro.GuideRowTooltip
+    local tooltiptext = tooltip.tooltiptext
+    tooltip:SetParent(parent)
+    tooltip:SetFrameLevel(row:GetFrameLevel() + 1)
+    row:SetPoint("LEFT", 12, 0)
+    row:SetHeight(rowHeight or 25)
+
+    row.check = WoWPro:CreateCheck(row)
+    row.action = WoWPro:CreateAction(row, row.check)
+    row.action.frame:SetScript("OnEnter", function()
+        if row.index and WoWPro.why and WoWPro.why[row.index] then
+            tooltip:SetPoint("BOTTOMLEFT", row.action.frame, "TOPRIGHT", 2, -2)
+            tooltiptext:SetHeight(125)
+            -- Step Tooltip
+            if WoWPro.active[row.index] and not WoWPro.QID[row.index] then
+                tooltiptext:SetText(("Step %d/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.active[row.index]),
+                                                                     tostring(WoWPro.why[row.index])))
+            elseif not WoWPro.active[row.index] and WoWPro.QID[row.index] then
+                tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]),
+                                                                     tostring(WoWPro.why[row.index])))
+            elseif WoWPro.active[row.index] and  WoWPro.QID[row.index] then
+                tooltiptext:SetText(("Step %d/QID %s/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]),
+                                                                            tostring(WoWPro.active[row.index]),
+                                                                            tostring(WoWPro.why[row.index])))
+            else
+                tooltiptext:SetText(("Step %d: %s"):format(row.index, tostring(WoWPro.why[row.index])))
+            end
+            tooltiptext:SetHeight(tooltiptext:GetStringHeight())
+            tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
+            tooltip:Show()
+        end
+    end)
+    row.action.frame:SetScript("OnLeave", function()
+        tooltip:Hide()
+    end)
+--- row.action.frame:RegisterForClicks("AnyUp")
+--- row.action.frame:SetScript("OnClick", function(self, button, down)
+---     WoWPro.PickQuestline(WoWPro.QID[row.index], WoWPro.step[row.index])
+--- end)
+
+    row.step = WoWPro:CreateStep(row, row.action)
+    row.note = WoWPro:CreateNote(row, row.action)
+    return row
 end
 
 local ErrorLog = nil

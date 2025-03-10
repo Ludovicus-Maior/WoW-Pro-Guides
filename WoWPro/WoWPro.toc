@@ -1,11 +1,23 @@
-## Interface: 100005
+## Interface: 110100
 ## Title: |cffFF9900WoW-|r|cff46921APro|r
 ## Notes: Guides created by the WoW-Pro Community.  |cffFF0000You will need either TomTom or Carbonite installed for full functionality.|r
 ## Author: Jiyambi,Ludovicus
+## IconTexture: Interface\AddOns\WoWPro\Textures\Achievement_WorldEvent_Brewmaster
 ## SavedVariables: WoWProData
 ## SavedVariablesPerCharacter: WoWProCharDB
 ## OptionalDeps: Carbonite, TomTom
-## Version: 2023.02.05.A
+## Version: 2025.03.04.A
+## Category-enUS: Quests
+## Category-deDE: Quests
+## Category-esES: Misiones
+## Category-esMX: Misiones
+## Category-frFR: Quêtes
+## Category-itIT: Missioni
+## Category-koKR: 퀘스트
+## Category-ptBR: Missões
+## Category-ruRU: Задания
+## Category-zhCN: 任务
+## Category-zhTW: 任務
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 Libraries\LibStub\LibStub.lua

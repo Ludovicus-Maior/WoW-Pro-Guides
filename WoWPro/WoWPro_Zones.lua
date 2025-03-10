@@ -58,6 +58,15 @@ function WoWPro.DefineZone3(mapId, zone, mapType, parent_map, group_id, ... )
     WoWPro.Zone2MapID[zone] = mapId
 end
 
+function WoWPro.DefineZone4(mapId, zone, mapType, parent_map, group_id, ... )
+    if WoWPro.Client ~= 4 then return end
+    if WoWPro.Zone2MapID[zone] then
+        WoWPro:dbp("DupCheck(): DefineZone2(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+    end
+    WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
+    WoWPro.Zone2MapID[zone] = mapId
+end
+
 function WoWPro.DefineZone9(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.Client ~= 9 then return end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
@@ -73,6 +82,16 @@ function WoWPro.DefineZone10(mapId, zone, mapType, parent_map, group_id, ... )
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     if WoWPro.Zone2MapID[zone] then
         WoWPro:dbp("DupCheck(): DefineZone10(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        return
+    end
+    WoWPro.Zone2MapID[zone] = mapId
+end
+
+function WoWPro.DefineZone11(mapId, zone, mapType, parent_map, group_id, ... )
+    if WoWPro.Client ~= 11 then return end
+    WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
+    if WoWPro.Zone2MapID[zone] then
+        WoWPro:dbp("DupCheck(): DefineZone11(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
         return
     end
     WoWPro.Zone2MapID[zone] = mapId
@@ -151,6 +170,28 @@ function WoWPro:ValidZone(zone, quiet)
     return nil, nil
 end
 
+function WoWPro.ZoneContinent(zoneID)
+    repeat
+        WoWPro:dbp("ZoneContinent(%d): Studying %q %d", zoneID, WoWPro.MapInfo[zoneID].name, WoWPro.MapInfo[zoneID].mapType)
+        if WoWPro.MapInfo[zoneID].mapType == _G.Enum.UIMapType.Continent then
+            -- WoWPro:dbp("ZoneContinent(%d): Found Continent",  zoneID)
+            return WoWPro.MapInfo[zoneID].name, zoneID
+        elseif (WoWPro.MapInfo[zoneID].mapType == _G.Enum.UIMapType.World) or (WoWPro.MapInfo[zoneID].mapType == _G.Enum.UIMapType.Cosmic) then
+            -- WoWPro:dbp("ZoneContinent(%d): No Continent",  zoneID)
+            -- We are lost!
+            return nil, nil
+        elseif WoWPro.MapInfo[zoneID].parent_map then
+            -- WoWPro:dbp("ZoneContinent(%d): Moving up tree to %d",  zoneID, WoWPro.MapInfo[zoneID].parent_map)
+            zoneID = WoWPro.MapInfo[zoneID].parent_map
+        else
+            WoWPro:dbp("ZoneContinent(%d): Orphan",  zoneID)
+            zoneID = 0
+        end
+    until zoneID == 0
+    return nil, nil
+end
+
+
 function WoWPro:IsInstanceZone(zone)
     local nzone, mapID  = WoWPro:ValidZone(zone)
     if not nzone then
@@ -223,7 +264,7 @@ local function ptable_inner(item)
     end
 end
 
-local function ptable(item)
+function WoWPro.Ptable(item)
     ptable_buf = {}
     ptable_inner(item)
     local ret = table.concat(ptable_buf)
@@ -255,7 +296,7 @@ function WoWPro.EmitZones(release)
 		local info = wip_map_info[id]
         local temp
         if info then
-            WoWPro:Print("%s",ptable(info))
+            WoWPro:Print("%s",WoWPro.Ptable(info))
             local nomen = info.nick or info.name
             local mapType = MapType2Name[info.mapType] or tostring(info.mapType)
             temp = ("DefineZone%d(%04d, %q, %s, %04d, %s"):format(release, info.mapID, nomen, mapType, info.parentMapID, tostring(info.GroupID))
@@ -266,7 +307,7 @@ function WoWPro.EmitZones(release)
             end
             temp = temp .. ")"
             if not WoWPro.GoodNicknameP(nomen) then
-                temp = temp .. " -- Collided " .. ptable(wip_name_info[nomen])
+                temp = temp .. " -- Collided " .. WoWPro.Ptable(wip_name_info[nomen])
             end
             -- WoWPro:Print(temp)
             result = result .. temp .. "\n"
@@ -336,10 +377,10 @@ function WoWPro.NameZones()
                 info.nick = info.name
             end
             if not info.ancestor then
-                WoWPro:Print(ptable(info))
+                WoWPro:Print(WoWPro.Ptable(info))
                 WoWPro:Print("NameZones(): Unable to find ancestor for map id %d", id)
             elseif not  wip_map_info[info.ancestor] then
-                WoWPro:Print(ptable(info))
+                WoWPro:Print(WoWPro.Ptable(info))
                 WoWPro:Print("NameZones(): Unable to find ancestor map id %s", tostring(info.ancestor))
             else
                 local daddy = wip_map_info[info.ancestor].name
@@ -413,7 +454,7 @@ function WoWPro.InferGoodNicknames()
         elseif type(info) == "table" then
             -- Whoops!
             local id = 404
-            WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q in %s", id, name, ptable(info))
+            WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q in %s", id, name, WoWPro.Ptable(info))
         end
     end
 end

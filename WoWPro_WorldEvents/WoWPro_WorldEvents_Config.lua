@@ -6,11 +6,8 @@
 
 local L = WoWPro_Locale
 
-local config = _G.LibStub("AceConfig-3.0")
-local dialog = _G.LibStub("AceConfigDialog-3.0")
-
 local function createBlizzOptions()
-    local args = {
+    return { name = L["WoW-Pro WorldEvents"], type = "group", args = {
         help = {
             order = 0,
             type = "description",
@@ -42,35 +39,14 @@ local function createBlizzOptions()
             set = function(info,val) WoWProDB.profile.rank = val
                 WoWPro.UpdateGuide("Config: Rank") end,
             width = "double"
-        },
-        blank2 = {
-            order = 4,
-            type = "description",
-            name = " ",
-        },
-        helpheader = {
-            order = 5,
-            type = "header",
-            name = "WoW-Pro WorldEvents Help",
-        },
-        blank3 = {
-            order = 6,
-            type = "description",
-            name = " ",
-        },
-    }
-    args = WoWPro.InsertActionDescriptions(args, 7)
-    config:RegisterOptionsTable("WoWPro-WorldEvents-Bliz", {
-        name = "WoW-Pro WorldEvents",
-        type = "group",
-        args = args })
-    dialog:SetDefaultSize("WoWPro-WorldEvents-Bliz", 600, 400)
-    dialog:AddToBlizOptions("WoWPro-WorldEvents-Bliz", "WoW-Pro WorldEvents")
+        }
+    }}
 end
 
-function WoWPro.WorldEvents:CreateConfig()
-    createBlizzOptions()
-
+function WoWPro.WorldEvents:CreateConfig(args, slot)
+    local worldEventsOptions = createBlizzOptions()
+    worldEventsOptions.order = slot
+    args.worldEventsOptions = worldEventsOptions
     tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
     tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro WorldEvents", isTitle = true} )
     tinsert(WoWPro.DropdownMenu, {text = "About", func = function()

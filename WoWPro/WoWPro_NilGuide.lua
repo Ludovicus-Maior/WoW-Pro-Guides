@@ -12,12 +12,10 @@ function WoWPro:LoadNilGuide()
     WoWPro.StickyFrame:SetHeight(1)
 
     -- Getting the image and text for the step --
-    WoWPro.rows[1].step:SetText("No Guide Loaded")
     WoWPro.rows[1].check:Hide()
     WoWPro.rows[1].targetbutton:Hide()
     WoWPro.rows[1].itembutton:Hide()
-    WoWPro.rows[1].note:SetText('Right-click the guide header and select "Guide List" to choose a guide.')
-    WoWPro.rows[1].action:SetTexture("Interface\\Icons\\INV_Misc_Note_01")
+    WoWPro.rows[1].note:SetText('To select a guide, right click the header, where it says No Guide Loaded and select Guide Selection (New Style) .')
     WoWPro.rows[1].track:SetText(nil)
 
     for i=2,15 do

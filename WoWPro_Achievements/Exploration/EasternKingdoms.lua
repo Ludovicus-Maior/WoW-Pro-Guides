@@ -3,8 +3,9 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide = WoWPro:RegisterGuide("TwiExpEK","Achievements","Eastern Kingdoms","Twists+Ludovicus", "Neutral")
+local guide = WoWPro:RegisterGuide("TwiExpEK","Achievements","Eastern Kingdoms","WoWPro Team", "Neutral")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro.Achievements:GuideMisc(guide, "Explore Eastern Kingdoms", "Exploration", "Cata")
 WoWPro:GuideIcon(guide,"ACH",42)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
@@ -27,22 +28,22 @@ F Dabyrie's Farmstead|QID|907610014|M|49.64,40.59|ACH|761;14|Z|Arathi Highlands|
 F Circle of East Binding|QID|907610015|M|61.62,30.33|ACH|761;15|Z|Arathi Highlands|
 F Hammerfall|QID|907610016|M|69.06,36.18|ACH|761;16|Z|Arathi Highlands|
 
-F Witherbark Village|QID|907610001|M|63.04,75.75|ACH|761;12|Z|Badlands|
-F Go'Shek Farm|QID|907610002|M|56.62,60.15|ACH|761;13|Z|Badlands|
-F Boulderfist Hall|QID|907610003|M|47.98,78.79|ACH|761;9|Z|Badlands|
-F Thandol Span|QID|907610004|M|39.57,96.10|ACH|761;8|Z|Badlands|
-F Faldir's Cove|QID|907610005|M|28.90,82.81|ACH|761;6|Z|Badlands|
-F Stromgarde Keep|QID|907610006|M|19.57,66.96|ACH|761;5|Z|Badlands|
-F Galen's Fall|QID|907610007|M|12.90,34.85|ACH|761;4|Z|Badlands|
-F Circle of West Binding|QID|907610008|M|18.97,30.99|ACH|761;1|Z|Badlands|
-F Northfold Manor|QID|907610009|M|25.77,29.58|ACH|761;2|Z|Badlands|
-F Boulder'gor|QID|907610010|M|29.09,45.21|ACH|761;3|Z|Badlands|
-F Circle of Inner Binding|QID|907610011|M|29.76,59.77|ACH|761;7|Z|Badlands|
-F Refuge Pointe|QID|907610012|M|40.13,47.87|ACH|761;10|Z|Badlands|
-F Circle of Outer Binding|QID|907610013|M|46.39,52.16|ACH|761;11|Z|Badlands|
-F Dabyrie's Farmstead|QID|907610014|M|49.64,40.59|ACH|761;14|Z|Badlands|
-F Circle of East Binding|QID|907610015|M|61.62,30.33|ACH|761;15|Z|Badlands|
-F Hammerfall|QID|907610016|M|69.06,36.18|ACH|761;16|Z|Badlands|
+F Witherbark Village|QID|907610001|M|63.04,75.75|ACH|761;12|Z|15;Badlands|
+F Go'Shek Farm|QID|907610002|M|56.62,60.15|ACH|761;13|Z|15;Badlands|
+F Boulderfist Hall|QID|907610003|M|47.98,78.79|ACH|761;9|Z|15;Badlands|
+F Thandol Span|QID|907610004|M|39.57,96.10|ACH|761;8|Z|15;Badlands|
+F Faldir's Cove|QID|907610005|M|28.90,82.81|ACH|761;6|Z|15;Badlands|
+F Stromgarde Keep|QID|907610006|M|19.57,66.96|ACH|761;5|Z|15;Badlands|
+F Galen's Fall|QID|907610007|M|12.90,34.85|ACH|761;4|Z|15;Badlands|
+F Circle of West Binding|QID|907610008|M|18.97,30.99|ACH|761;1|Z|15;Badlands|
+F Northfold Manor|QID|907610009|M|25.77,29.58|ACH|761;2|Z|15;Badlands|
+F Boulder'gor|QID|907610010|M|29.09,45.21|ACH|761;3|Z|15;Badlands|
+F Circle of Inner Binding|QID|907610011|M|29.76,59.77|ACH|761;7|Z|15;Badlands|
+F Refuge Pointe|QID|907610012|M|40.13,47.87|ACH|761;10|Z|15;Badlands|
+F Circle of Outer Binding|QID|907610013|M|46.39,52.16|ACH|761;11|Z|15;Badlands|
+F Dabyrie's Farmstead|QID|907610014|M|49.64,40.59|ACH|761;14|Z|15;Badlands|
+F Circle of East Binding|QID|907610015|M|61.62,30.33|ACH|761;15|Z|15;Badlands|
+F Hammerfall|QID|907610016|M|69.06,36.18|ACH|761;16|Z|15;Badlands|
 
 F The Tainted Forest|QID|907660001|M|32.63,80.28|ACH|766;14|Z|Blasted Lands|
 F Surwich|QID|907660002|M|45.52,86.96|ACH|766;12|Z|Blasted Lands|
