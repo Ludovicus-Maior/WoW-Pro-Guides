@@ -10,10 +10,6 @@
   <Script file="51_53_UnGoro_Crater.lua"/>
   <Script file="53_54_Burning_Steppes.lua"/>
   <Script file="54_55_Winterspring.lua"/>
-  <Script file="54_Felwood.lua"/>
-  <Script file="56_57_Eastern_Plaguelands.lua"/>
-  <Script file="56_Western_Plaguelands.lua"/>
-  <Script file="57_59_Western_Plaguelands.lua"/>
   <Script file="9_19_Dungeon_Ragefire_Chasm.lua"/>
   <Script file="15_24_Dungeon_Wailing_Caverns.lua"/>
   <Script file="18_28_Dungeon_Shadowfang_Keep.lua"/>
