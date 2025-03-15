@@ -1164,7 +1164,7 @@ function WoWPro.LoadGuideStepsReal()
     WoWPro.ClearNpcFauxQuests(GID)
     WoWPro.ClearQID2Guide(GID)
 
-    -- Re-initiallizing tags and counts--
+    -- Re-initializing tags and counts--
     for tag,val in pairs(WoWPro.Tags) do
         WoWPro[tag] = {}
     end
