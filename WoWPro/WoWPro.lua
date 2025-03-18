@@ -173,7 +173,7 @@ local origHandler = geterrorhandler()
 
 local function OnErrorHandler(msg)
     if logerror_lock then
-        -- Something bad happend, just clear the flag
+        -- Something bad happened, just clear the flag
         logerror_lock = nil
     else
         WoWPro.LogError(msg)
@@ -345,7 +345,7 @@ local defaults = { profile = {
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
     WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
-    -- Setting up callbacks for use with profiels --
+    -- Setting up callbacks for use with profiles --
     WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
     WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
     WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
@@ -519,7 +519,7 @@ function WoWPro:OnEnable()
         WoWPro:AbleFrames()
     end
 
-    --Initiallizing base tags, before we enable each module or they might see missing tags or odd events! --
+    --Initializing base tags, before we enable each module or they might see missing tags or odd events! --
     for i,tag in pairs(WoWPro.Tags) do
         WoWPro[tag] = WoWPro[tag] or {}
     end
@@ -647,7 +647,7 @@ function WoWPro:OnDisable()
     end
 
     WoWPro:AbleFrames()                             -- Hides all frames
-    WoWPro.EventFrame:UnregisterAllEvents() -- Unregisters all events
+    WoWPro.EventFrame:UnregisterAllEvents() -- Unregister all events
     WoWPro:UnregisterAllBuckets()
     WoWPro:RemoveMapPoint()                         -- Removes any active map points
     WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
@@ -1076,7 +1076,7 @@ end
 
 function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
     local playerLevel = WoWPro:PlayerLevel()
-    -- Supply dynamic levels if not all the parameters are suppplied.
+    -- Supply dynamic levels if not all the parameters are supplied.
     if not lowerLevel then
         lowerLevel = max(playerLevel-1, 1)
         guide['level_float'] = true
@@ -1564,7 +1564,7 @@ function WoWPro:GuideProximitySort(guide)
     guide['AutoProximitySort'] = true
 end
 
--- Finish all delayed guide initializiation
+-- Finish all delayed guide initialization
 function WoWPro:FinalizeGuides()
     for name, module in WoWPro:IterateModules() do
         if WoWPro[name] and WoWPro[name].GuideList and WoWPro[name].GuideList.Init then
@@ -1592,7 +1592,7 @@ function WoWPro.TestGuideLoad(guidID)
     end
     WoWPro:Print("Test Loading " .. guidID)
     WoWProDB.char.currentguide = guidID
-    --Re-initiallizing tags and counts--
+    --Re-initializing tags and counts--
     for i,tag in pairs(WoWPro.Tags) do
         WoWPro[tag] = {}
     end
@@ -1687,7 +1687,7 @@ end
 
 
 
---- Release Function Compatability Section
+--- Release Function Compatibility Section
 WoWPro.TocVersion =  select(4, _G.GetBuildInfo())
 WoWPro.Client = floor(WoWPro.TocVersion / 10000)
 

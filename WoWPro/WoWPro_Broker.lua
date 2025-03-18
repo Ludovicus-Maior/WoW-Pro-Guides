@@ -1443,6 +1443,8 @@ if step then
             if note ~= "" then
                 if action == "B" then
                     note = "Buy " .. nomen .. " " .. note
+                elseif action == "M" then
+                    note = "Craft " .. nomen .. " " .. note
                 else
                     note = "Kill and loot " .. note
                 end

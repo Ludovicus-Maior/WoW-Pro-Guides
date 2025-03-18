@@ -124,7 +124,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 							local _, CraftQty = (" "):split(WoWPro.craft[k])						-- Split (_)CraftItem and CraftQty from the CRAFT tag.
 																									-- temporarily CraftItem is set to _ as CraftItem is not used at this time.
 							WoWPro.note[k] = ""
-							WoWPro.note[k] = WoWPro.note[k]..' [color=FFFFFF]Craft from '.. tostring(skillRank) ..' to '.. tostring(proflvl)..':\nCraft up to '..tostring(CraftQty)..' using:[/color]\n '
+							WoWPro.note[k] = WoWPro.note[k]..' [color=FFFFFF]from '.. tostring(skillRank) ..' to '.. tostring(proflvl)..':\nCraft up to '..tostring(CraftQty)..' using:[/color]\n '
 							for j=1,#m do
 								WoWPro.note[k] = WoWPro.note[k]..'\nMaterial '..(j)..': '
 									local MatsItem, MatsQty = (" "):split(m[j])							-- grab Mats info
