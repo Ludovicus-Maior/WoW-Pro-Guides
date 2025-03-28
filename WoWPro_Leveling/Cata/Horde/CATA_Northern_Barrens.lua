@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('BitNor1220', "Leveling", 'The Barrens', "WoWPro Team", 'Horde', 4)
 WoWPro:GuideLevels(guide, 10, 20)
-WoWPro:GuideName(guide,"The Barrens")
+WoWPro:GuideName(guide,"Northern Barrens")
 WoWPro:GuideSort(guide, 32)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
 WoWPro:GuideSteps(guide, function()
@@ -148,7 +148,7 @@ A It's Gotta be the Horn|QID|865|RANK|1|M|67.85,71.58|Z|1413;The Barrens|N|From 
 A WANTED: Cap'n Garvey|QID|895|M|68.28,71.28|Z|1413;The Barrens|N|From the WANTED poster.|RANK|2|
 A Southsea Freebooters|QID|887|M|69.53,72.88|Z|1413;The Barrens|N|From Wharfmaster Dizzywig.|RANK|2|
 A Take it up with Tony|QID|14052|M|69.53,72.88|Z|1413;The Barrens|N|From Wharfmaster Dizzywig.|RANK|1| ; Storyline
-R Investigate the Wreckage|ACTIVE|14066|M|65.99,66.91|Z|1413;The Barrens|N|Head to the waypoint to investigate the wreckage.|
+R Investigate the Wreckage|ACTIVE|14066|M|59.04,67.44|Z|1413;The Barrens|N|Head to the waypoint to investigate the wreckage.|
 T Investigate the Wreckage|QID|14066|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|
 A To Track a Thief|QID|869|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|PRE|14066|RANK|1| ; Storyline
 A Waptor Twapping|QID|14068|M|62.03,63.26|Z|1413;The Barrens|N|From Kala'ma.|RANK|2|
