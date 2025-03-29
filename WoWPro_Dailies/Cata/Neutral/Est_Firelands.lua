@@ -11,14 +11,14 @@ return [[
 
 A Guardians of Hyjal: Call of the Ancients|QID|29390|AVAILABLE|25372|N|From the Warchief's Command Board in Undercity, Orgrimmar, or Thunder Bluff.\n[color=FF0000]NOTE: [/color]You must complete this before you can proceed further with the guide.|FACTION|Horde|
 A Guardians of Hyjal: Call of the Ancients|QID|29391|N|From the Hero's Call Board in Darnassus, Stormwind City, or Ironforge.\n[color=FF0000]NOTE: [/color]You must complete this before you can proceed further with the guide.|FACTION|Alliance|
-A Guardians of Hyjal: Firelands Invasion!|QID|29388|LEAD|29145|PRE|29391&25372|N|You need to have completed all the quests in Mount Hyjal up to Aessina's Miracle and be Level 85 to start the Firelands Invasion. If you fulfill these requirements, get this Quest from your nearest Warchief's Command Board.|FACTION|Horde|
-A Guardians of Hyjal: Firelands Invasion!|QID|29387|FACTION|Alliance|LEAD|29145|N|You need to have completed all the quests in Mount Hyjal up to Aessina's Miracle and be Level 85 to start the Firelands Invasion. If you fulfill these requirements, get this Quest from your nearest Hero's Call Board.|
+A Guardians of Hyjal: Firelands Invasion!|QID|29388|LEAD|29145|PRE|29391&25372|N|From your nearest Warchief's Command Board.\n[color=FF0000]NOTE: [/color]You need to have completed all the quests in Mount Hyjal up to Aessina's Miracle and be Level 85 to start the Firelands Invasion.|FACTION|Horde|
+A Guardians of Hyjal: Firelands Invasion!|QID|29387|LEAD|29145|N|From your nearest Hero's Call Board.\n[color=FF0000]NOTE: [/color]You need to have completed all the quests in Mount Hyjal up to Aessina's Miracle and be Level 85 to start the Firelands Invasion.|FACTION|Alliance|
 
 N Mount Hyjal Phasing|ACTIVE|29390^29391|AVAILABLE|25372|N|Before you can start this guide, it requires the completion of the Mount Hyjal quest Series up to (and including) 'Aessina's Miracle'.\n[color=FF0000]NOTE: [/color]This is because of zone phasing and the guide won't work properly if you're in the wrong phase.\nClick on the book to switch to the Mount Hyjal guide to do this now.|JUMP|Mount Hyjal|
 
-
-R Mount Hyjal|M|51.15,38.25|Z|1454; Orgrimmar|N|Go to Mount Hyjal via portal in Orgrimmar.|FACTION|Horde|
-R Mount Hyjal|FACTION|Alliance|M|76.12,18.69|Z|1453; Stormwind City|N|Go to Mount Hyjal via portal in Stormwind.|
+; ** I think these are the correct QIDs - Hendo72
+R Mount Hyjal|ACTIVE|29388|PRE|25372|M|51.15,38.25|Z|1454; Orgrimmar|N|Go to Mount Hyjal via portal in Orgrimmar.|FACTION|Horde|
+R Mount Hyjal|ACTIVE|29387|PRE|25372|M|76.12,18.69|Z|1453; Stormwind City|N|Go to Mount Hyjal via portal in Stormwind.|FACTION|Alliance|
 
 A Flight of the Storm Crows|QID|29182|PRE|29181|M|42.60,45.60|Z|0198; Mount Hyjal|N|After the little event, accept this quest from Isara Riverstride, the Innkeeper at the bottom level of the Shrine of Aviana. If it is not offered, it will be tomorrow.|
 
@@ -265,7 +265,7 @@ T Singed Wings|QID|29293|M|34.28,56.43|Z|MoltenFront|N|At Arthorn Windsong.|
 T Starting Young|QID|29288|M|34.52,56.20|Z|MoltenFront|N|At Morthis Whisperwing.|
 T Peaked Interest|QID|29287|M|34.52,56.20|Z|MoltenFront|N|At Morthis Whisperwing.|
 T Mother's Malice|QID|29289|M|34.52,56.20|Z|MoltenFront|N|At Morthis Whisperwing.|
-A Strike at the Heart|QID|29305|M|36.29,56.35;43.04,80.62|CN|Z|MoltenFront|N|From Choluna near Fireplume Peak. Also acceptable from Skylord Omnuron near the Sentinel Tree.|
+A Strike at the Heart|QID|29305|PRE|29283&29206|M|36.29,56.35;43.04,80.62|CN|Z|MoltenFront|N|From Choluna near Fireplume Peak. Also acceptable from Skylord Omnuron near the Sentinel Tree.|
 C Strike at the Heart|QID|29305|M|49.00,30.00|Z|MoltenFront|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Druid of the Talon Thisalee Crow to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day. When you defeat the Lieutenant without getting hit by their special attacks, you will get credit for a step in the achievement 'Ready for Raiding II'.|ACH|5873|
 C Strike at the Heart|QID|29305|M|49.00,30.00|Z|MoltenFront|N|Head north to Ragnaros' Reach and help the Ancient Witherbranch and Druid of the Talon Thisalee Crow to defeat the Lieutenant of Flame. Your opponent will be randomly chosen each day.|
 
