@@ -116,8 +116,8 @@ A Arelion's Journal|QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
 C The Great Fissure|QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|S|
 K Blacktalon the Savage|ACTIVE|9466|L|23687|N|Kill Blacktalon inside the cave.|M|34.22,62.90;33.50,64.81|CS|T|Blacktalon the Savage|
 C The Great Fissure|QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|US|
-T Investigate the Crash|QID|10213|N|To "Sreaming" Screed Luckheed.|M|49.15,74.87|
-A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|
+T Investigate the Crash|QID|10213|N|To "Screaming" Screed Luckheed.|M|49.15,74.87|
+A In Case of Emergency...|QID|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 A Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|From Legassi.|
 C Ravager Egg Roundup|QID|9349|NC|N|Get 12 Ravager eggs from the ground and the Ravagers.|M|42,83|
 T Ravager Egg Roundup|QID|9349|M|49.24,74.84|N|To Legassi.|
@@ -154,12 +154,12 @@ A The Battle Horn|QID|10230|PRE|10229|M|61.74,81.79|N|From Althen the Historian.
 T Make Them Listen|QID|10220|N|To Emissary Mordiba.|M|61.78,81.71|
 C The Battle Horn|QID|10230|N|Head south to the Expedition Armory. Kill and loot Lieutenant Commander Thalvos.|M|54.8,83.7|
 T Smooth as Butter|QID|9356|N|To Legassi.|M|49.2,74.8|
-T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Sreaming" Screed Luckheed.|
-A Voidwalkers Gone Wild|QID|9351|PRE|10161|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|
+T In Case of Emergency...|QID|10161|M|49.15,74.87|N|To "Screaming" Screed Luckheed.|
+A Voidwalkers Gone Wild|QID|9351|PRE|10161|M|49.15,74.87|N|From "Screaming" Screed Luckheed.|
 C Voidwalkers Gone Wild|QID|9351|N|Kill and loot Voidwalkers until you have 10 Essences.|M|49.5,82.0|S|
 C The Warp Rifts|QID|10278|U|29027|N|Head south to the Warp Fields. What you need to do is use the Unstable Warp Rift Generator on the ground to generate a rift, then kill and loot the Voidwalkers that come through.|M|50,82|
 C Voidwalkers Gone Wild|QID|9351|N|Kill and loot Voidwalkers until you have 10 Essences. Don't bother using the Rift Generator, as the Voidwalkers spawned from that do not drop the Essences.|M|49.5,82.0|US|
-T Voidwalkers Gone Wild|QID|9351|N|To "Sreaming" Screed Luckheed.|M|49.15,74.87|
+T Voidwalkers Gone Wild|QID|9351|N|To "Screaming" Screed Luckheed.|M|49.15,74.87|
 T The Battle Horn|QID|10230|M|61.74,81.79|N|To Althen the Historian.|
 A Bloody Vengeance|QID|10250|PRE|10230|M|61.74,81.79|N|From Althen the Historian.|
 T The Warp Rifts|QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
