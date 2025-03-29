@@ -61,7 +61,7 @@ C The Tangled Web|QID|78392|M|55.53,43.85|Z|2255;Azj-Kahet|QO|3|CHAT|N|Learn abo
 C The Tangled Web|QID|78392|M|55.53,43.85|Z|2255;Azj-Kahet|QO|4|CHAT|N|Learn about the Queen's allies.|
 T The Tangled Web|QID|78392|M|55.53,43.85|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|
 A Delver's Call: Tak-Rethan Abyss|QID|83771|M|56.72,40.76|Z|2255;Azj-Kahet|N|From The Book.|RANK|3|
-t Delver's Call: Tak-Rethan Abyss|QID|83771|M|56.72,40.76|Z|2255;Azj-Kahet|N|To Brann Bronzebeard.|IZ|The Weaver's Lair|
+t Delver's Call: Tak-Rethan Abyss|QID|83771|M|55.82,44.07|Z|2255;Azj-Kahet|N|To Widow Arak'nai.|IZ|The Weaver's Lair|
 C A Seeming Respite|QID|78393|M|56.87,38.95|Z|2255;Azj-Kahet|QO|3|NC|N|Innkeeper located.|
 C A Seeming Respite|QID|78393|M|57.00,41.85|Z|2255;Azj-Kahet|QO|2|NC|N|Repair vendor located.|
 C A Seeming Respite|QID|78393|M|56.89,46.96|Z|2255;Azj-Kahet|QO|1|NC|N|Flight Master located.|
