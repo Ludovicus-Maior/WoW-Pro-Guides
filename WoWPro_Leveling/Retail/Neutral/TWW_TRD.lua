@@ -81,7 +81,7 @@ T Discarded and Broken|QID|78562|M|44.07,33.40|Z|2214; The Ringing Deeps|N|To Ma
 A The Weight of a World|QID|78563|PRE|78562|M|44.07,33.40|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|
 T On Cold, Dark Wings|QID|78900|M|43.87,34.81|Z|2214; The Ringing Deeps|N|To Watcher Toki.|
 T A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|To Watcher Toki.|
-K Oath-Eater|ACTIVE|78563|M|43.87,34.81|QO|1|Z|2214; The Ringing Deeps|N|Kill Oath-Eater and loot the Machinist's Calibrated Weight.|T|Oath-Eater|
+K Oath-Eater|ACTIVE|78563|M|40.45,31.50|QO|1|Z|2214; The Ringing Deeps|N|Kill Oath-Eater and loot the Machinist's Calibrated Weight.|T|Oath-Eater|
 T The Weight of a World|QID|78563|M|44.07,33.40|Z|2214; The Ringing Deeps|N|To Machinist Kittrin.|
 A Reforged Purpose|QID|78564|PRE|78563|M|44.07,33.40|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|
 C Reforged Purpose|QID|78564|M|44.07,33.40|QO|1|CHAT|Z|2214; The Ringing Deeps|N|Tell Kittrin you're ready to help.|
