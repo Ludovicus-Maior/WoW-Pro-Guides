@@ -12,7 +12,7 @@ return [[
 ;|Z|2339;Dornogal|
 ;|Z|2248; Isle of Dorn|
 
-t The Ringing Deeps|QID|83550|M|42.13,28.35|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
+t The Ringing Deeps|QID|83550|M|37.95,28.33|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Into the Deeps|QID|80434|PRE|78546|M|31.93,59.89|Z|2339;Dornogal|N|From Moira Thaurissan.|
 R The.Coreway|ACTIVE|80434^83550|M|38.59,59.58|CC|Z|2339;Dornogal|N|Fly Down to the bottom of the Coreway to find Speaker Brinthe.|
 T Into the Deeps|QID|80434|M|37.95,28.33|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
