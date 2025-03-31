@@ -1486,12 +1486,6 @@ function WoWPro.AutoHideFrame(msg, why)
     local inInstance, instanceType = _G.IsInInstance()
     local inCombat = _G.UnitAffectingCombat("player") or _G.InCombatLockdown()
 
-    WoWPro:Print("WoWPro.ShowFrame(hide):"..tostring(WoWPro.IsHidden))
-    WoWPro:Print("WoWPro.ShowFrame(hide):"..instanceType)
-    WoWPro:Print("WoWPro.ShowFrame(hide):"..tostring(WoWPro.ShouldInstanceHide()))
-    WoWPro:Print("WoWPro.ShowFrame(hide):"..tostring(WoWPro.ShouldPvPHide()))
-    WoWPro:Print("WoWPro.ShowFrame(hide):"..tostring( WoWPro.ShouldPetBattleHide()))
-    WoWPro:Print("WoWPro.ShowFrame(hide):"..tostring(WoWPro.ShouldCombatHide()))
     if WoWPro.ShouldInstanceHide() or WoWPro.ShouldPvPHide() or WoWPro.ShouldPetBattleHide() or WoWPro.ShouldCombatHide() then
         WoWPro:Print("WoWPro.ShowFrame(hide):".."hiding")
         if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and IsHidden == false  then
