@@ -1446,13 +1446,15 @@ function WoWPro.ShouldInstanceHide()
     if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
         guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
     end
-    WoWPro:print("ShouldInstanceHide: qidx=%s, guidetype=%s, currentguide=%s", tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
-    WoWPro:print("%s/qidx: %s", qidx,  WoWPro.EmitSafeStep(qidx))
-    WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitSafeStep(qidx+1))
-    WoWPro:print("%s/ScenarioFirstStep: %s", tostring(WoWPro.ScenarioFirstStep),  WoWPro.EmitSafeStep(WoWPro.ScenarioFirstStep))
-    WoWPro:print("ShouldInstanceHide: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
-               tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
-               tostring(WoWPro.sobjective[qidx]), tostring(_G.IsInInstance()))
+    if qidx then 
+        WoWPro:print("ShouldInstanceHide: qidx=%s, guidetype=%s, currentguide=%s", tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
+        WoWPro:print("%s/qidx: %s", qidx,  WoWPro.EmitSafeStep(qidx))
+        WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitSafeStep(qidx+1))
+        WoWPro:print("%s/ScenarioFirstStep: %s", tostring(WoWPro.ScenarioFirstStep),  WoWPro.EmitSafeStep(WoWPro.ScenarioFirstStep))
+        WoWPro:print("ShouldInstanceHide: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
+                tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
+                tostring(WoWPro.sobjective[qidx]), tostring(_G.IsInInstance()))
+    end
     if qidx and WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
         WoWPro:print("Suppressing Instance Auto Hide.")
         return false
