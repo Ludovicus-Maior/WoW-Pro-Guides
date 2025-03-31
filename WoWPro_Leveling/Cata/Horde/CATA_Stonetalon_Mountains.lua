@@ -14,7 +14,7 @@ F Silverwind Refuge|ACTIVE|28532|M|49.67,59.24|Z|1454;Orgrimmar|N|Fly to Silverw
 T Warchief's Command: Stonetalon Mountains!|QID|28532|M|49.90,65.74|Z|1440; Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|1440; Ashenvale|N|From Blood Guard Aldo Rockrain.|RANK|1|
 R The Fold|QID|25945|M|48.55,66.44|Z|1440; Ashenvale|N|Hop on the Krom'gar Wagon and enjoy the free ride.|V|
-T We're Here to Do One Thing, Maybe Two...|QID|25945|M|48.55,66.44|N|To Saurboz.|
+T We're Here to Do One Thing, Maybe Two...|QID|25945|M|74.28,47.65|N|To Saurboz.|
 A Barrier to Entry|QID|25999|M|48.55,66.44|N|From Saurboz.|PRE|25945|RANK|1|
 C Barrier to Entry|QID|25999|M|73.37,42.68|N|Click on the mines to arm them.\nIf you aggro one of the Sentinel Ambushers, you can lead it into an armed mine to cause major damage.\n[color=FF0000]NOTE: [/color]Using the wrench still requires you to click on the mine.|
 T Barrier to Entry|QID|25999|M|74.27,47.71|N|To Saurboz.|
@@ -145,6 +145,7 @@ C Spy Infestation|QID|26076|M|52.57,44.01|N|When you see a sparkle, use the gas 
 T Spy Infestation|QID|26076|M|52.95,39.12|N|To Jibbly Rakit.|
 A Final Delivery|QID|26077|M|52.95,39.12|N|From Jibbly Rakit.|PRE|26076|RANK|1|
 R Cliffwalker Post|QID|26077|M|51.20,45.51|N|Hop on the balloon and ride it to Cliffwalker Post.|V|
+f Cliffwalker Post|ACTIVE|26077|M|45.12,30.90|Z|1442; Stonetalon Mountain|N|Get the flightpath from Orna Skywatcher.|
 T Final Delivery|QID|26077|M|45.11,32.75|N|To General Grebo.|
 A To Battlescar!|QID|26082|M|45.11,32.75|N|From General Grebo.|PRE|26077|RANK|1|
 C To Battlescar!|QID|26082|M|46.04,36.01;41.23,38.49|CC|N|Take the lift down, then get into a demolisher.\n[color=FF0000]NOTE: [/color]<1> is ranged attack and <2> is melee attack. Kill Alliance units and Glaive Throwers (ballista-like seige machines).|
