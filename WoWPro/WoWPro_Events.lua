@@ -548,7 +548,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function(event, ...)
     WoWPro.InitLockdown = true
     WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     WoWPro.LockdownTimer = 1.5
-    -- WoWPro.ShowFrame(true, "|cff33ff33Battleground Exit Auto Show|r: "..event, "INSTANCE")
+    WoWPro.AutoHideFrame("|cff33ff33Battleground Exit Auto Show|r: "..event, "INSTANCE")
     WoWPro:UpdateTradeSkills()
     end)
 
@@ -564,28 +564,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
     WoWPro.SaveGarrisonBuildings()
     -- Noticing if we have entered a Dungeon!
     if (event:sub(1,12) == "ZONE_CHANGED") and WoWProCharDB.AutoHideInsideInstances == true then
-        local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index or 1
-        local guidetype = "WoWPro"
-        if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
-            guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
-        end
-        WoWPro:print("%s: qidx=%s, guidetype=%s, currentguide=%s", event, tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
-        WoWPro:print("%s/qidx: %s", qidx,  WoWPro.EmitSafeStep(qidx))
-        WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitSafeStep(qidx+1))
-        WoWPro:print("%s/ScenarioFirstStep: %s", tostring(WoWPro.ScenarioFirstStep),  WoWPro.EmitSafeStep(WoWPro.ScenarioFirstStep))
-        WoWPro:print("%s: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
-                   event,  tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
-                   tostring(WoWPro.sobjective[qidx]), tostring(_G.IsInInstance()))
-        if qidx and WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
-            WoWPro:print("Suppressing Instance Auto Hide.")
-            return
-        end
-        if _G.IsInInstance() then
-            WoWPro.ShowFrame(false, "|cff33ff33Instance Auto Hide|r: " .. event, "INSTANCE")
-            return
-        else
-            WoWPro.ShowFrame(true, "|cff33ff33Instance Exit Auto Show|r: " .. event, "INSTANCE")
-        end
+        WoWPro.AutoHideFrame("|cff33ff33Instance Auto Hide|r: " .. event, "INSTANCE")
     end
     if WoWPro.Ready(event) then
         if WoWPro.AutoCompleteZone(...) then
@@ -620,9 +599,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function(event, ..
     end
 
     WoWPro.LastPetBattleWinner = nil
-    if (WoWPro.Escondido == 0) and battleHide then
-        WoWPro.ShowFrame(false, "|cff33ff33Entering Pet Battle|r: ", "COMBAT")
-    end
+    WoWPro.AutoHideFrame("|cff33ff33Entering Pet Battle|r: ", "COMBAT")
     WoWPro.PetBattleActive = true
     WoWPro:print("battleHide=%s, Hidden=%s, PetBattleActive=%s", tostring(battleHide), tostring(WoWPro.Hidden), tostring(WoWPro.PetBattleActive))
     -- WoWPro.RegisterAllEvents()
@@ -650,9 +627,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_FINAL_ROUND", function(event, ...)
 WoWPro.RegisterModernEventHandler("PET_BATTLE_OVER", function(event, ...) return; end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
-    if (WoWPro.Escondido > 0) then
-        WoWPro.ShowFrame(true, "|cff33ff33Exiting Pet Battle|r: ", "COMBAT")
-    end
+    WoWPro.AutoHideFrame("|cff33ff33Exiting Pet Battle|r: ", "COMBAT")
 
     if not _G.C_PetBattles.IsInBattle() then
         WoWPro.PetBattleActive = false
@@ -677,16 +652,12 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
 
 
 WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function(event, ...)
-    WoWPro.ShowFrame(false, "|cff33ff33Battleground Auto Hide|r: ", event)
+    WoWPro.AutoHideFrame("|cff33ff33Battleground Auto Hide|r: ", event)
     end)
 
 WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
+    WoWPro.AutoHideFrame("|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
     -- Combat lockdown begins after this event
-    if WoWProCharDB.AutoHideInCombat then
-        WoWPro.ShowFrame(false, "|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
-        WoWPro.CombatLock = true
-    end
-    -- Last ditch update!
     if not WoWPro.MaybeCombatLockdown() then
         WoWPro:UpdateGuide(event)
     end
@@ -694,10 +665,7 @@ end)
 
 WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
     -- Combat lockdown ends before this event fires
-    if WoWPro.CombatLock and WoWProCharDB.AutoHideInCombat then
-        WoWPro.ShowFrame(true, "|cff33ff33Combat Exit, |r: " .. event, "COMBAT")
-        WoWPro.CombatLock = false
-    end
+    WoWPro.AutoHideFrame("|cff33ff33Combat Enter, AutoHideInCombat|r: " .. event, "COMBAT")
     WoWPro:UpdateGuide(event)
 end)
 
