@@ -471,7 +471,7 @@ A A Poultice for Poison|QID|79370|PRE|79368&79369&79481|M|61.69,42.61|Z|2214;The
 C A Poultice for Poison|QID|79370|M|61.74,42.68|Z|2214;The Ringing Deeps|QO|1|NC|U|213539|N|Poultice applied to Snubjaw.|
 T A Poultice for Poison|QID|79370|M|61.69,42.61|Z|2214;The Ringing Deeps|N|To Nebb.|
 A A Royal Cure|QID|79371|PRE|79370|M|61.69,42.61|Z|2214;The Ringing Deeps|N|From Nebb.|RANK|2|
-K Queen Rickiticka|ACTIVE|79371|M|61.69,42.61|Z|2214;The Ringing Deeps|QO|1|NC|N|Kill Queen Rickiticka and loot her Venom.|T|Queen Rickiticka|
+K Queen Rickiticka|ACTIVE|79371|M|64.19,39.76|Z|2214;The Ringing Deeps|QO|1|NC|N|Kill Queen Rickiticka and loot her Venom.|T|Queen Rickiticka|
 A A Clutch of Hope|QID|79372|PRE|79370|M|63.92,39.05|Z|2214;The Ringing Deeps|N|Go deeeper in the cave behind Queen Rickiticka to find a Broodmother's egg.|RANK|2|
 C A Royal Cure|QID|79371|M|61.68,42.57|Z|2214;The Ringing Deeps|QO|2|NC|N|Give Queen Rickiticka's Venom to Nebb.|
 C A Royal Cure|QID|79371|M|61.68,42.57|Z|2214;The Ringing Deeps|QO|3|NC|N|Cure Snubjaw.|
