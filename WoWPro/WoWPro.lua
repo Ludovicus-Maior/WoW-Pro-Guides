@@ -1487,7 +1487,6 @@ function WoWPro.AutoHideFrame(msg, why)
     local inCombat = _G.UnitAffectingCombat("player") or _G.InCombatLockdown()
 
     if WoWPro.ShouldInstanceHide() or WoWPro.ShouldPvPHide() or WoWPro.ShouldPetBattleHide() or WoWPro.ShouldCombatHide() then
-        WoWPro:Print("WoWPro.ShowFrame(hide):".."hiding")
         if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and IsHidden == false  then
             WoWPro:Print("WoWPro.ShowFrame(hide):"..msg)
         else
