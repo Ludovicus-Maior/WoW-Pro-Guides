@@ -334,6 +334,8 @@ C Foreign Fog|QID|81556|M|54.64,60.75|Z|2214; The Ringing Deeps|QO|2|NC|N|Use [c
 A Badly Behaved Bot|QID|83165|M|56.17,57.05|Z|2214; The Ringing Deeps|N|From Sinruna.|RANK|2|;moved because flying past ! is distressing
 C Foreign Fog|QID|81556|M|54.37,47.39|Z|2214;The Ringing Deeps|QO|3|NC|N|Head to second fog site.|
 C Foreign Fog|QID|81556|M|54.37,47.39|Z|2214;The Ringing Deeps|QO|4|NC|N|Second fog sample collected.|EAB|
+C Foreign Fog|QID|81556|M|56.50, 60.91;59.93,47.39|CS|Z|2214;The Ringing Deeps|QO|5|NC|N|Head into the abandoned town of Traelloch for the third fog site.|
+C Foreign Fog|QID|81556|M|59.93,47.39|Z|2214;The Ringing Deeps|QO|6|NC|N|Third fog sample collected.|EAB|
 T Foreign Fog|QID|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|To Noli Marlen.|
 A Fog Tags|QID|81557|PRE|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|From Noli Marlen.|
 A Unnatural Predators|QID|81558|PRE|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|From Noli Marlen.|
