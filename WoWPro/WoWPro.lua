@@ -1439,14 +1439,14 @@ function WoWPro.LevelColor(guide)
 end
 
 function WoWPro.ShouldInstanceHide()
-    local inInstance, instanceType = _G.IsInInstance()
+    local _, instanceType = _G.IsInInstance()
 
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index or 1
     local guidetype = "WoWPro"
     if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
         guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
     end
-    if qidx then 
+    if qidx then
         WoWPro:print("ShouldInstanceHide: qidx=%s, guidetype=%s, currentguide=%s", tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
         WoWPro:print("%s/qidx: %s", qidx,  WoWPro.EmitSafeStep(qidx))
         WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitSafeStep(qidx+1))
@@ -1464,7 +1464,7 @@ function WoWPro.ShouldInstanceHide()
 end
 
 function WoWPro.ShouldPvPHide()
-    local inInstance, instanceType = _G.IsInInstance()
+    local _, instanceType = _G.IsInInstance()
     return instanceType == "pvp" or instanceType == "raid"
 end
 
@@ -1482,31 +1482,27 @@ end
 WoWPro.IsHidden = false
 -- why should be one of "INSTANCE" or "COMBAT"
 function WoWPro.AutoHideFrame(msg, why)
-    
-    local inInstance, instanceType = _G.IsInInstance()
-    local inCombat = _G.UnitAffectingCombat("player") or _G.InCombatLockdown()
 
     if WoWPro.ShouldInstanceHide() or WoWPro.ShouldPvPHide() or WoWPro.ShouldPetBattleHide() or WoWPro.ShouldCombatHide() then
-        WoWPro:Print("WoWPro.ShowFrame(hide):".."hiding")
-        if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and IsHidden == false  then
+        if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and WoWPro.IsHidden == false  then
             WoWPro:Print("WoWPro.ShowFrame(hide):"..msg)
         else
             WoWPro:print("WoWPro.ShowFrame(hide):"..msg)
-        end   
+        end
         WoWPro.HideFrame(true)
     else
-        if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and IsHidden == true  then
+        if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and WoWPro.IsHidden == true  then
             WoWPro:Print("WoWPro.ShowFrame(show):"..msg)
         else
             WoWPro:print("WoWPro.ShowFrame(show):"..msg)
-        end   
+        end
         WoWPro.HideFrame(false)
     end
 
 end
 
 function WoWPro.HideFrame(toHide, why)
-    if toHide ~= IsHidden then
+    if toHide ~= WoWPro.IsHidden then
         if toHide then
             WoWPro.MainFrame:Hide()
             WoWPro.Titlebar:Hide()
@@ -1514,7 +1510,7 @@ function WoWPro.HideFrame(toHide, why)
             WoWPro.MainFrame:Show()
             WoWPro:TitlebarShow()
         end
-        IsHidden = toHide
+        WoWPro.IsHidden = toHide
     end
 end
 
