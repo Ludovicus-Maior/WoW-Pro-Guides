@@ -1460,7 +1460,7 @@ function WoWPro.ShouldInstanceHide()
         return false
     end
 
-    return WoWProCharDB.AutoHideInsideInstances and (instanceType == "party" or instanceType == "raid")
+    return WoWProCharDB.AutoHideInsideInstances and (instanceType == "party" or instanceType == "raid" or instanceType=="scenario")
 end
 
 function WoWPro.ShouldPvPHide()
