@@ -1439,7 +1439,7 @@ function WoWPro.LevelColor(guide)
 end
 
 function WoWPro.ShouldInstanceHide()
-    local _, instanceType = _G.IsInInstance()
+    local inInstance, instanceType = _G.IsInInstance()
 
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index or 1
     local guidetype = "WoWPro"
@@ -1460,12 +1460,12 @@ function WoWPro.ShouldInstanceHide()
         return false
     end
 
-    return WoWProCharDB.AutoHideInsideInstances and (instanceType == "party" or instanceType == "raid" or instanceType=="scenario")
+    return WoWProCharDB.AutoHideInsideInstances and inInstance and (instanceType == "party" or instanceType == "raid" or instanceType=="scenario")
 end
 
 function WoWPro.ShouldPvPHide()
     local _, instanceType = _G.IsInInstance()
-    return instanceType == "pvp" or instanceType == "raid"
+    return instanceType == "pvp" or instanceType == "arena"
 end
 
 function WoWPro.ShouldPetBattleHide()
