@@ -1469,7 +1469,7 @@ function WoWPro.ShouldPvPHide()
 end
 
 function WoWPro.ShouldPetBattleHide()
-    local isPetBattle = _G.C_PetBattles.IsInBattle()
+    local isPetBattle = _G.C_PetBattles and _G.C_PetBattles.IsInBattle()
     return not WoWPro.Guides[WoWProDB.char.currentguide].PetBattle and isPetBattle
 end
 
