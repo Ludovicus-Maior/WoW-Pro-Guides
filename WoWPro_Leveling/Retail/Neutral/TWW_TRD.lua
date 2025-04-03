@@ -12,7 +12,7 @@ return [[
 ;|Z|2339;Dornogal|
 ;|Z|2248; Isle of Dorn|
 
-t The Ringing Deeps|QID|83550|M|42.13,28.35|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
+t The Ringing Deeps|QID|83550|M|37.95,28.33|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
 A Into the Deeps|QID|80434|PRE|78546|M|31.93,59.89|Z|2339;Dornogal|N|From Moira Thaurissan.|
 R The.Coreway|ACTIVE|80434^83550|M|38.59,59.58|CC|Z|2339;Dornogal|N|Fly Down to the bottom of the Coreway to find Speaker Brinthe.|
 T Into the Deeps|QID|80434|M|37.95,28.33|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
@@ -334,6 +334,8 @@ C Foreign Fog|QID|81556|M|54.64,60.75|Z|2214; The Ringing Deeps|QO|2|NC|N|Use [c
 A Badly Behaved Bot|QID|83165|M|56.17,57.05|Z|2214; The Ringing Deeps|N|From Sinruna.|RANK|2|;moved because flying past ! is distressing
 C Foreign Fog|QID|81556|M|54.37,47.39|Z|2214;The Ringing Deeps|QO|3|NC|N|Head to second fog site.|
 C Foreign Fog|QID|81556|M|54.37,47.39|Z|2214;The Ringing Deeps|QO|4|NC|N|Second fog sample collected.|EAB|
+C Foreign Fog|QID|81556|M|56.50, 60.91;59.93,47.39|CS|Z|2214;The Ringing Deeps|QO|5|NC|N|Head into the abandoned town of Traelloch for the third fog site.|
+C Foreign Fog|QID|81556|M|59.93,47.39|Z|2214;The Ringing Deeps|QO|6|NC|N|Third fog sample collected.|EAB|
 T Foreign Fog|QID|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|To Noli Marlen.|
 A Fog Tags|QID|81557|PRE|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|From Noli Marlen.|
 A Unnatural Predators|QID|81558|PRE|81556|M|54.31,62.45|Z|2214;The Ringing Deeps|N|From Noli Marlen.|
@@ -469,7 +471,7 @@ A A Poultice for Poison|QID|79370|PRE|79368&79369&79481|M|61.69,42.61|Z|2214;The
 C A Poultice for Poison|QID|79370|M|61.74,42.68|Z|2214;The Ringing Deeps|QO|1|NC|U|213539|N|Poultice applied to Snubjaw.|
 T A Poultice for Poison|QID|79370|M|61.69,42.61|Z|2214;The Ringing Deeps|N|To Nebb.|
 A A Royal Cure|QID|79371|PRE|79370|M|61.69,42.61|Z|2214;The Ringing Deeps|N|From Nebb.|RANK|2|
-K Queen Rickiticka|ACTIVE|79371|M|61.69,42.61|Z|2214;The Ringing Deeps|QO|1|NC|N|Kill Queen Rickiticka and loot her Venom.|T|Queen Rickiticka|
+K Queen Rickiticka|ACTIVE|79371|M|64.19,39.76|Z|2214;The Ringing Deeps|QO|1|NC|N|Kill Queen Rickiticka and loot her Venom.|T|Queen Rickiticka|
 A A Clutch of Hope|QID|79372|PRE|79370|M|63.92,39.05|Z|2214;The Ringing Deeps|N|Go deeeper in the cave behind Queen Rickiticka to find a Broodmother's egg.|RANK|2|
 C A Royal Cure|QID|79371|M|61.68,42.57|Z|2214;The Ringing Deeps|QO|2|NC|N|Give Queen Rickiticka's Venom to Nebb.|
 C A Royal Cure|QID|79371|M|61.68,42.57|Z|2214;The Ringing Deeps|QO|3|NC|N|Cure Snubjaw.|
