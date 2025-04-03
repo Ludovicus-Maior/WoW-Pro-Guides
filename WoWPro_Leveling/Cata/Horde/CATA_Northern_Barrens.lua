@@ -148,7 +148,7 @@ A It's Gotta be the Horn|QID|865|RANK|1|M|67.85,71.58|Z|1413;The Barrens|N|From 
 A WANTED: Cap'n Garvey|QID|895|M|68.28,71.28|Z|1413;The Barrens|N|From the WANTED poster.|RANK|2|
 A Southsea Freebooters|QID|887|M|69.53,72.88|Z|1413;The Barrens|N|From Wharfmaster Dizzywig.|RANK|2|
 A Take it up with Tony|QID|14052|M|69.53,72.88|Z|1413;The Barrens|N|From Wharfmaster Dizzywig.|RANK|1| ; Storyline
-R Investigate the Wreckage|ACTIVE|14066|M|59.04,67.44|Z|1413;The Barrens|N|Head to the waypoint to investigate the wreckage.|
+R Investigate the Wreckage|ACTIVE|14066|QO|1|M|59.04,67.44|Z|1413;The Barrens|N|Head to the waypoint to investigate the wreckage.|
 T Investigate the Wreckage|QID|14066|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|
 A To Track a Thief|QID|869|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|PRE|14066|RANK|1| ; Storyline
 A Waptor Twapping|QID|14068|M|62.03,63.26|Z|1413;The Barrens|N|From Kala'ma.|RANK|2|
@@ -224,7 +224,7 @@ C Sludge Investigation|QID|29087|M|59.13,18.49|Z|1413;The Barrens|N|Examine 5 tr
 T Sludge Investigation|QID|29087|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|
 A Sludge Beast!|QID|29089|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|PRE|29087|RANK|2|
 C Sludge Beast!|QID|29089|M|58.18,19.34|Z|1413;The Barrens|N|Swim to the bottom of the lake and click on the glowing mud-thing.|
-A Ignition|QID|858|M|57.57,18.36|Z|1413;The Barrens|N|From Wizzlecrank's Shredder.|RANK|2|
+A Ignition|QID|858|M|57.57,18.36|Z|1413;The Barrens|N|From Wizzlecrank's Shredder.|RANK|2|US|
 C Ignition|QID|858|T|Supervisor Lugwizzle|M|56.95,20.38|Z|1413;The Barrens|N|Kill Supervisor Lugwizzle and loot the key. He is on top of the tower.|
 T Ignition|QID|858|M|57.55,18.23|Z|1413;The Barrens|N|To Wizzlecrank's Shredder.|
 A The Escape|QID|863|PRE|858|M|57.58,18.32|Z|1413;The Barrens|N|Escort quest from Wizzlecrank's Shredder.|RANK|2|
@@ -283,7 +283,7 @@ C Harpy Raiders|QID|867|M|27.40,28.55|Z|1413;The Barrens|N|Kill any type of Witc
 K Witchwing Slayers|ACTIVE|875|M|27.96,32.67|QO|1|Z|1413;The Barrens|N|Kill Witchwing Slayers.|
 T Harpy Lieutenants|QID|875|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|
 A Serena Bloodfeather|QID|876|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|PRE|875|RANK|1| ; Storyline
-C Serena Bloodfeather|QID|876|M|26.97,26.64|Z|1413;The Barrens|N|Slay Serena Bloodfeather and loot her head.|
+K Serena Bloodfeather|QID|876|QO|1|M|26.97,26.64|Z|1413;The Barrens|N|Slay Serena Bloodfeather and loot her head.|T|Serena Bloodfeather|
 C Harpy Raiders|QID|867|M|27.40,28.55|Z|1413;The Barrens|N|Kill any type of Witchwing Harpies for Witchwing Talons.|US|
 T Harpy Raiders|QID|867|M|PLAYER|Z|1413;The Barrens|N|(UI Alert)|
 T Serena Bloodfeather|QID|876|M|30.59,45.82|Z|1413;The Barrens|N|To Darsok Swiftdagger.|
