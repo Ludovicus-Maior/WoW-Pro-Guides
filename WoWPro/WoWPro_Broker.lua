@@ -1443,8 +1443,6 @@ if step then
             if note ~= "" then
                 if action == "B" then
                     note = "Buy " .. nomen .. " " .. note
-                elseif action == "M" then
-                    note = "Craft " .. nomen .. " " .. note
                 else
                     note = "Kill and loot " .. note
                 end
@@ -1717,11 +1715,17 @@ function WoWPro.UpdateGuideReal(From)
     WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 
     -- TODO: make next lines module specific
-	if WoWPro.Recorder then
-		WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
-	else
-		WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
-	end
+    if WoWPro.Recorder then
+        local progress = WoWProCharDB.Guide[GID].progress or 0
+        local total = WoWProCharDB.Guide[GID].total or 1
+        local percentage = math.floor((progress / total) * 100)
+        WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+    else
+        local progress = WoWProCharDB.Guide[GID].progress or 0
+        local total = WoWProCharDB.Guide[GID].total or 1
+        local percentage = math.floor((progress / total) * 100)
+        WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+    end
 
     -- If the guide is complete, loading the next guide --
     if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
