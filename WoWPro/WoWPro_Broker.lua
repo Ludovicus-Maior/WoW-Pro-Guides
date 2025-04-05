@@ -1718,13 +1718,11 @@ function WoWPro.UpdateGuideReal(From)
 
     -- TODO: make next lines module specific
     if WoWPro.Recorder then
-        local progress = WoWProCharDB.Guide[GID].progress or 0
         local total = WoWPro.stepcount or 1
         local currentStep = WoWPro.ActiveStep or 1
         local percentage = math.floor((currentStep / total) * 100)
         WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
     else
-        local progress = WoWProCharDB.Guide[GID].progress or 0
         local skipped = 0
 
         for j = 1, WoWPro.stepcount do
@@ -1738,6 +1736,7 @@ function WoWPro.UpdateGuideReal(From)
         local percentage = math.floor((currentStep / total) * 100)
         WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
     end
+
     -- If the guide is complete, loading the next guide --
     if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
         if WoWProDB.profile.autoload then
