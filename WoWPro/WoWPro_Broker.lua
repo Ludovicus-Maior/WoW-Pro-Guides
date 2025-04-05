@@ -1722,8 +1722,15 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
     else
         local progress = WoWProCharDB.Guide[GID].progress or 0
-        local total = WoWProCharDB.Guide[GID].total or 1
-        local percentage = math.floor((progress / total) * 100)
+        local skipped = 0
+        
+        for j = 1, WoWPro.stepcount do
+            if WoWProCharDB.Guide[GID].skipped[j] then
+                skipped = skipped + 1
+            end
+        end
+        local total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
+        local percentage = math.floor(((progress + skipped) / total) * 100)
         WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
     end
 
