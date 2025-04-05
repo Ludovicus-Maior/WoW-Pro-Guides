@@ -148,7 +148,7 @@ t The Evil Dragons of Un'Goro Crater|QID|24704|Z|1449; Un'Goro Crater|N|<UI Aler
 A Town Dwellers Were Made to be Saved|QID|24705|PRE|24703|M|30.62,51.14|Z|1449; Un'Goro Crater|N|From Maximillian of Northshire.|
 N Maximillian of Northshire|ACTIVE|24705|N|[color=FF0000]NOTE: [/color]If you logout, Maximillian will despawn. You'll have to go back to where he was and tell him you're ready to go.\nManually check this step off to continue.|
 t Town Dwellers Were Made to be Saved|QID|24705|M|PLAYER|CC|N|<UI Alert>|
-A The Spirits of Golakka Hot Springs|QID|24706|PRE|24705|M|PLAYER|CC|N|From Maximillian of Northshire.|
+A The Spirits of Golakka Hot Springs|QID|24706|PRE|24705&24704|M|PLAYER|CC|N|From Maximillian of Northshire.|
 t The Spirits of Golakka Hot Springs|QID|24706|M|PLAYER|CC|N|<UI Alert>|
 A The Ballad of Maximillian|QID|24707|PRE|24706|M|PLAYER|CC|N|From Maximillian of Northshire.|
 C The Evil Dragons of Un'Goro Crater|QID|24704|M|30.62,51.14|Z|1449; Un'Goro Crater|N|Kill any dinosaur in Un'Goro Crater.|S|

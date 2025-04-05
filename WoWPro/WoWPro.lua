@@ -900,10 +900,10 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
 end
 
 function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, extra)
-    if WoWPro.CATA then
-        WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
-    else
+    if WoWPro.CATA or WoWPro.RETAIL then
         WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
+    else
+        WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
     end
 end
 

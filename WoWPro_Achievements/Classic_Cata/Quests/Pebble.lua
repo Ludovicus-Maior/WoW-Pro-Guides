@@ -1,6 +1,6 @@
 
 
-local guide = WoWPro:RegisterGuide("TwiPebble","Achievements","Deepholm","Twists", "Neutral")
+local guide = WoWPro:RegisterGuide("TwiPebble","Achievements","Deepholm","Twists", "Neutral",4)
 WoWPro:GuideIcon(guide,"ACH",5449)
 WoWPro:GuideNickname(guide, "Rock Lover")
 WoWPro:GuideName(guide,"Rock Lover")

@@ -6,13 +6,12 @@ WoWPro:GuideNextGuide(guide, 'Blasted Lands')
 WoWPro:GuideSteps(guide, function()
 return [[
 F Cenarion Hold|QID|8318|M|55.97,64.15|Z|1449; Un'goro Crater|N|Fly to Cenarion Hold.|TAXI|Cenarion Hold|
-R Zidormi|AVAILABLE|8318|M|78.93,21.98|CHAT|Z|1451; Silithus|N|Talk to Zidormi to "See Silithus before the wound", if NOT in Chromie Time, to quest in this zone.|
-T Hero's Call: Silithus!|O|QID|28528|M|54.92,35.85|Z|1451; Silithus|N|To Windcaller Proudhorn.|FACTION|Alliance|
+t Hero's Call: Silithus!|O|QID|28528|M|54.92,35.85|Z|1451; Silithus|N|To Windcaller Proudhorn.|FACTION|Alliance|
 T The Dunes of Silithus|O|QID|28859|M|54.92,35.85|Z|1451; Silithus|N|To Windcaller Proudhorn.|
 T Warchief's Command: Silithus!|O|QID|28527|M|54.92,35.85|Z|1451; Silithus|N|To Windcaller Proudhorn.|FACTION|Horde|
 A Securing the Supply Lines|QID|8280|M|54.92,35.85|Z|1451; Silithus|N|From Windcaller Proudhorn.|
 A Wanted - Deathclasp, Terror of the Sands|QID|8283|M|55.05,35.93|Z|1451; Silithus|N|From the Wanted Poster: Deathclasp.|
-h The Oasis Inn|QID|8318|M|55.51,36.72|Z|1451; Silithus|N|At Calandrath.|
+h Cenarion Hold|QID|8318|M|55.51,36.72|Z|1451; Silithus|N|At Calandrath.|
 A Deadly Desert Venom|QID|8277|M|55.35,36.26|Z|1451; Silithus|N|From Beetix Ficklespragg.|
 A Report to Marshal Bluewall|QID|9415|M|54.51,32.83|Z|1451; Silithus|N|From Rifleman Torrig.|FACTION|Alliance|
 A Report to General Kirika|QID|9416|M|52.96,34.68|Z|1451; Silithus|N|From Scout Bloodfist.|FACTION|Horde|
@@ -45,7 +44,7 @@ T Noggle's Last Hope|QID|8278|M|55.39,36.28|Z|1451; Silithus|N|To Beetix Fickles
 A Noggle's Lost Satchel|QID|8282|PRE|8278|M|55.37,36.24|Z|1451; Silithus|N|From Noggle Ficklespragg.|
 R Twilight's Run|QID|8321|M|70.31,16.02|Z|1451; Silithus|N|Head to the cave, Twilight's Run.|
 C Vyral the Vile|QID|8321|M|69.90,16.36;73.19,16.48|CS|Z|1451; Silithus|N|Head to the back of the cave, kill and loot Vyral.|
-H The Oasis Inn|QID|8321|M|55.51,36.72|Z|1451; Silithus|N|Hearth or run back.|
+H Cenarion Hold|QID|8321|M|55.51,36.72|Z|1451; Silithus|N|Hearth or run back.|
 r Repair|QID|8321|M|54.90,36.55|
 T Vyral the Vile|QID|8321|M|53.22,35.16|Z|1451; Silithus|N|To Huum Wildmane.|
 A The Twilight Mystery|QID|8284|PRE|8321|M|53.58,35.24|Z|1451; Silithus|N|From Geologist Larksbane.|
@@ -57,7 +56,7 @@ T The Deserter|QID|8285|M|68.65,62.99|Z|1451; Silithus|N|To Hermit Ortell.|
 A The Twilight Lexicon|QID|8279|PRE|8285|M|68.65,62.99|Z|1451; Silithus|N|From Hermit Ortell.|
 T Report to General Kirika|QID|9416|M|54.63,62.86|Z|1451; Silithus|N|To General Kirika.|FACTION|Horde|
 C The Twilight Lexicon|QID|8279|M|24.75,77.23|QO|2|T|Twilight Keeper Exeter|Z|1451; Silithus|N|Kill and loot Twilight Keeper Exeter. He is way back in the back of the camp.|
-H The Oasis Inn|QID|9415|M|55.51,36.72|Z|1451; Silithus|N|If your hearth isn't up or you didn't set it there, skip this step since it is near Cenarion Hold anyways.|
+H Cenarion Hold|QID|9415|M|55.51,36.72|Z|1451; Silithus|N|If your hearth isn't up or you didn't set it there, skip this step since it is near Cenarion Hold anyways.|
 C The Twilight Lexicon|QID|8279|M|45.82,39.06|QO|3|T|Twilight Keeper Havunth|Z|1451; Silithus|N|Kill and loot Twilight Keeper Havunth.|
 C The Twilight Lexicon|QID|8279|M|33.51,34.56|QO|1|T|Twilight Keeper Mayna|Z|1451; Silithus|N|Kill and loot Twilight Keeper Mayna.|
 T Report to Marshal Bluewall|QID|9415|M|39.56,46.93|Z|1451; Silithus|N|To Marshal Bluewall|FACTION|Alliance|
@@ -82,7 +81,7 @@ T Breaking the Code|QID|8310|M|45.96,79.39|Z|1451; Silithus|N|To Frankal Stonebr
 A Unraveling the Mystery|QID|8314|PRE|8309&8310|M|45.96,79.39|Z|1451; Silithus|N|To Rutgar Glyphshaper.|
 C Wanted - Deathclasp, Terror of the Sands|QID|8283|M|49.61,82.45|Z|1451; Silithus|N|Path is behind the camp. Watch his kickback. You might want to position him so that your back is to the wall.|
 C Noggle's Lost Satchel|QID|8282|M|49.32,81.46|Z|1451; Silithus|N|Up the hill on the right.|
-H The Oasis Inn|QID|8282|M|55.51,36.72|Z|1451; Silithus|N|Hearth back to Cenarion Hold, or run if your hearth is down.|
+H Cenarion Hold|QID|8282|M|55.51,36.72|Z|1451; Silithus|N|Hearth back to Cenarion Hold, or run if your hearth is down.|
 T Noggle's Lost Satchel|QID|8282|M|55.37,36.24|Z|1451; Silithus|N|To Noggle Ficklespragg.|
 T Unraveling the Mystery|QID|8314|M|53.66,35.19|Z|1451; Silithus|N|To Geologist Larksbane.|
 T A Terrible Purpose|QID|8287|M|53.21,32.43|Z|1451; Silithus|N|To Commander Mar'alith.|
