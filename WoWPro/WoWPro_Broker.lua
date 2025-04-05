@@ -1723,7 +1723,6 @@ function WoWPro.UpdateGuideReal(From)
     else
         local progress = WoWProCharDB.Guide[GID].progress or 0
         local skipped = 0
-        
         for j = 1, WoWPro.stepcount do
             if WoWProCharDB.Guide[GID].skipped[j] then
                 skipped = skipped + 1
