@@ -1438,36 +1438,78 @@ function WoWPro.LevelColor(guide)
 
 end
 
-WoWPro.Escondido = 0
+function WoWPro.ShouldInstanceHide()
+    local inInstance, instanceType = _G.IsInInstance()
+
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index or 1
+    local guidetype = "WoWPro"
+    if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
+        guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+    end
+    WoWPro:print("ShouldInstanceHide: qidx=%s, guidetype=%s, currentguide=%s", tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
+    WoWPro:print("%s/qidx: %s", qidx,  WoWPro.EmitSafeStep(qidx))
+    WoWPro:print("%s/qidx+1: %s", qidx+1,  WoWPro.EmitSafeStep(qidx+1))
+    WoWPro:print("%s/ScenarioFirstStep: %s", tostring(WoWPro.ScenarioFirstStep),  WoWPro.EmitSafeStep(WoWPro.ScenarioFirstStep))
+    WoWPro:print("ShouldInstanceHide: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
+            tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
+            tostring(WoWPro.sobjective[qidx]), tostring(_G.IsInInstance()))
+    if WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
+        WoWPro:print("Suppressing Instance Auto Hide.")
+        return false
+    end
+
+    return WoWProCharDB.AutoHideInsideInstances and inInstance and (instanceType == "party" or instanceType == "raid" or instanceType=="scenario")
+end
+
+function WoWPro.ShouldPvPHide()
+    local _, instanceType = _G.IsInInstance()
+    return instanceType == "pvp" or instanceType == "arena"
+end
+
+function WoWPro.ShouldPetBattleHide()
+    local isPetBattle = _G.C_PetBattles and _G.C_PetBattles.IsInBattle()
+    return not WoWPro.Guides[WoWProDB.char.currentguide].PetBattle and isPetBattle
+end
+
+function WoWPro.ShouldCombatHide()
+    local combatLockdown = _G.UnitAffectingCombat("player") or _G.InCombatLockdown()
+    return WoWProCharDB.AutoHideInCombat and combatLockdown
+end
+
+
+WoWPro.IsHidden = false
 -- why should be one of "INSTANCE" or "COMBAT"
-function WoWPro.ShowFrame(enabled, msg, why)
-    if (not enabled) then
-            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and (WoWPro.Escondido == 0) then
-                WoWPro:Print("WoWPro.ShowFrame(hide):"..msg)
-            else
-                WoWPro:print("WoWPro.ShowFrame(hide):"..msg)
-            end
+function WoWPro.AutoHideFrame(msg, why)
+
+    if WoWPro.ShouldInstanceHide() or WoWPro.ShouldPvPHide() or WoWPro.ShouldPetBattleHide() or WoWPro.ShouldCombatHide() then
+        if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and WoWPro.IsHidden == false  then
+            WoWPro:Print("WoWPro.ShowFrame(hide):"..msg)
+        else
+            WoWPro:print("WoWPro.ShowFrame(hide):"..msg)
+        end
+        WoWPro.HideFrame(true)
+    else
+        if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and WoWPro.IsHidden == true  then
+            WoWPro:Print("WoWPro.ShowFrame(show):"..msg)
+        else
+            WoWPro:print("WoWPro.ShowFrame(show):"..msg)
+        end
+        WoWPro.HideFrame(false)
+    end
+
+end
+
+function WoWPro.HideFrame(toHide, why)
+    if toHide ~= WoWPro.IsHidden then
+        if toHide then
             WoWPro.MainFrame:Hide()
             WoWPro.Titlebar:Hide()
-            WoWPro.Escondido = WoWPro.Escondido + 1
-    elseif (enabled and (WoWPro.Escondido > 0)) then
-            if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and (WoWPro.Escondido == 1) then
-                WoWPro:Print("WoWPro.ShowFrame(show)"..msg)
-            else
-                WoWPro:print("WoWPro.ShowFrame(show):"..msg)
-            end
-            WoWPro.Escondido = WoWPro.Escondido - 1
-            if (WoWPro.Escondido == 0) then
-                WoWPro.MainFrame:Show()
-                WoWPro:TitlebarShow()
-                WoWPro:print("WoWPro.ShowFrame(show): No longer hidden.")
-            end
-    else
-        WoWPro:print("WoWPro.ShowFrame is confused: enabled=%s, Escondido=%s, msg=%s, why=%s", tostring(enabled), tostring(WoWPro.Escondido), msg, why)
-        WoWPro.Escondido = 0
-        WoWPro.MainFrame:Show()
-        WoWPro:TitlebarShow()
-	end
+        else
+            WoWPro.MainFrame:Show()
+            WoWPro:TitlebarShow()
+        end
+        WoWPro.IsHidden = toHide
+    end
 end
 
 -- Creating a Table of Guides for the Guide List and sorting based on level --
