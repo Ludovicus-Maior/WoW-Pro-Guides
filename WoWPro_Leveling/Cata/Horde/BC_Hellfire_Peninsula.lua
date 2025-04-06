@@ -58,14 +58,14 @@ A Boiling Blood|QID|10538|M|61.15,81.78|N|From Apothecary Albreck.|
 A Preparing the Salve|QID|9345|M|60.93,81.66|N|From Grelag.|
 A Make Them Listen|QID|10220|M|61.71,81.67|N|From Emissary Mordiba.|
 A The Warp Rifts|QID|10278|M|61.87,81.52|N|From Ogath the Mad.|
-A WANTED: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
+A Wanted: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
 C Preparing the Salve|QID|9345|NC|N|Pick up Hellfire Spineleaf.|S|
 l Bleeding Hollow Blood|QID|10538|L|30425 12|N|Keep killing and looting orcs until you have 12 blood.|S|
 C Wanted: Worg Master Kruush|QID|10809|M|68.16,73.36|N|Kill and loot Worg Master Kruush.|
 l Bleeding Hollow Blood|QID|10538|L|30425 12|N|Keep killing and looting orcs until you have 12 blood.|US|
 C Boiling Blood|QID|10538|M|65.21,71.36|NC|N|Clear around the cauldron and right click it. Rinse and repeat till you have 12 Boiled Blood.|
 C Preparing the Salve|QID|9345|NC|N|Pick up Hellfire Spineleaf.|US|
-T WANTED: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
+T Wanted: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
 A Zeth'Gor Must Burn!|QID|10792|M|61.22,81.33|N|From Captain Darkhowl.|
 T Preparing the Salve|QID|9345|M|60.93,81.66|N|To Grelag.|
 A Investigate the Crash|QID|10213|PRE|9345|M|60.93,81.66|N|From Grelag.|
@@ -73,15 +73,13 @@ T Boiling Blood|QID|10538|M|61.15,81.78|N|To Apothecary Albreck.|
 A Apothecary Antonivich|QID|10835|PRE|10538|M|61.15,81.78|N|From Apothecary Albreck.|
 A The Eyes of Grillok|QID|10813|M|61.65,81.85|N|From Zezzak.|
 F Thrallmar|QID|10388|M|61.65,81.19|N|Fly to Thrallmar.|
-A Falcon Watch|QID|9498|LEAD|9340|R|Tauren, Orc, Troll, Undead, Goblin, Pandaren|M|55.23,39.10|N|From Martik Tir'seldori.|
-A Falcon Watch|QID|9499|LEAD|9340|R|Blood Elf|M|55.23,39.10|N|From Martik Tir'seldori.|
 T Return to Thrallmar|QID|10388|M|55.02,35.96|N|To Nazgrel.|
 A Forge Camp: Mageddon|QID|10390|PRE|10388|M|55.02,35.96|N|From Nazgrel.|
-A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|
 T Apothecary Antonivich|QID|10835|M|52.29,36.45|N|To Apothecary Antonivich.|
 A A Burden of Souls|QID|10864|PRE|10835|M|52.29,36.45|N|From Apothecary Antonivich.|
+C Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|2|N|Kill and loot Razorsaw.|S|
 C Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|1|N|Kill Gan'arg Servants.|
-C Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|2|N|Kill and loot Razorsaw.|
+C Forge Camp: Mageddon|QID|10390|M|64.00,31.00|QO|2|N|Kill and loot Razorsaw.|US|
 A Vile Plans|QID|10393|U|29590|M|64.5,32.0|N|From the Burning Legion Missive you picked up.|
 T Forge Camp: Mageddon|QID|10390|M|55.02,35.96|N|To Nazgrel.|
 A Cannons of Rage|QID|10391|PRE|10390|M|55.02,35.96|N|From Nazgrel.|
@@ -101,6 +99,21 @@ C Save Manni|QID|10238|M|45.12,41.06|NC|QO|1|N|Manni, the first goblin is to the
 C Save Moh|QID|10238|M|46.46,45.15|NC|QO|2|N|Moh is south of Manni.|; Moh Saved: 1/1
 C How to Serve Goblins|QID|10238|M|47.49,46.60|NC|N|Jakk is again south of Moh.|
 C A Burden of Souls|QID|10864|N|Kill any Shattered Hand Orc you come across.|M|46.91,45.59|US|
+T How to Serve Goblins|QID|10238|M|51.4,30.5|N|To Foreman Razelcraz.|
+A Shizz Work|QID|10629|PRE|10238|M|51.5,30.5|N|From Foreman Razelcraz.|
+C Shizz Work|QID|10629|N|Use the Felhound Whistle. Then take your pet and kill the helboars to the west. Each time a boar dies, the Fel Puppy chows down and leaves some remains. Right click the leavings, and eventually one with contain the Shredder Key.|U|30803|M|50.0,29.5|
+T Shizz Work|QID|10629|M|51.5,30.5|N|To Foreman Razelcraz. The hound may stick around untill your hearth or leave the zone.|
+A Beneath Thrallmar|QID|10630|PRE|10629|M|51.5,30.5|N|From Foreman Razelcraz.|
+C Beneath Thrallmar|QID|10630|N|Enter the mine, Urga'zz is in the back of the cave.|M|54.09,31.64|
+T Beneath Thrallmar|QID|10630|M|51.5,30.5|N|To Foreman Razelcraz.|
+T A Burden of Souls|QID|10864|N|To Apothecary Antonivich.|M|52.28,36.46|
+A The Demoniac Scryer|QID|10838|PRE|10864|M|52.28,36.46|N|From Apothecary Antonivich.|
+T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
+A The Assassin|QID|9400|M|55.02,35.96|N|From Nazgrel.|LVL|60|
+A Cruel's Intentions|QID|10136|N|From Nazgrel.|M|55.02,35.96|
+A The Agony and the Darkness|QID|10389|M|55.12,36.02|N|From Magister Bloodhawk.|
+A Falcon Watch|QID|9498|LEAD|9340|R|Tauren, Orc, Troll, Undead, Goblin, Pandaren|M|55.23,39.10|N|From Martik Tir'seldori.|LVL|60|
+A Falcon Watch|QID|9499|LEAD|9340|R|Blood Elf|M|55.23,39.10|N|From Martik Tir'seldori.|LVL|60|
 T The Assassin|QID|9400|M|34.83,45.91;33.62,43.56|CC|N|Follow the road west through the ramparts, till you see wooden spikes beside the roads. At them, take a sharp right. To the Fel Orc Corpse.|
 A A Strange Weapon|QID|9401|PRE|9400|M|33.5,43.5|N|From the Fel Orc Corpse.|
 T Falcon Watch|QID|9499|R|Blood Elf|M|28.49,60.26|N|To Ranger Captain Venn'ren. He is on top of the tower. Use the orb, or fly up.|
@@ -139,15 +152,10 @@ C Burn It Up... For the Horde!|QID|10087|QO|1|U|27479|N|Head to the Eastern Cann
 C Burn It Up... For the Horde!|QID|10087|QO|2|U|27479|N|Go further west along the Path of Glory and find the Western Cannon. Burn it.|M|54.67,54.10|
 H Thrallmar|QID|10087|M|56.69,37.50|N|Hearth to Thrallmar.|
 T Burn It Up... For the Horde!|QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
-T Doorway to the Abyss|QID|10392|M|55.0,36.0|N|To Nazgrel.|
-A Cruel's Intentions|QID|10136|N|From Nazgrel.|M|55.02,35.96|
 T A Strange Weapon|QID|9401|M|55.02,35.96|N|To Nazgrel.|
 A The Warchief's Mandate|QID|9405|PRE|9401|M|55.02,35.96|N|From Nazgrel.|
-A The Agony and the Darkness|QID|10389|M|55.12,36.02|N|From Magister Bloodhawk.|
 T The Warchief's Mandate|QID|9405|M|54.23,37.90|N|To Far Seer Regulkut.|
 A A Spirit Guide|QID|9410|PRE|9405|M|54.23,37.90|N|From Far Seer Regulkut.|
-T A Burden of Souls|QID|10864|N|To Apothecary Antonivich.|M|52.28,36.46|
-A The Demoniac Scryer|QID|10838|PRE|10864|M|52.28,36.46|N|From Apothecary Antonivich.|
 F Spinebreaker Ridge|QID|10229|N|Fly to Spinebreaker Ridge. (AKA Spinebreaker Post)|M|56.28,36.25|
 T Decipher the Tome|QID|10229|M|61.74,81.79|N|To Althen the Historian.|
 A The Battle Horn|QID|10230|PRE|10229|M|61.74,81.79|N|From Althen the Historian.|
@@ -180,13 +188,8 @@ T Zeth'Gor Must Burn!|QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
 R Void Ridge|QID|10294|N|Head to the Void Ridge.|M|72,67;75.5,66.5|CS|
 C Void Ridge|QID|10294|N|Kill the voidwalkers till you get 40 Soul Shards. Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote. Vascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight, so throw something you don't normally use at them first.|M|75.5,66.5|
 H Thrallmar|QID|10238|N|Hearth to Thrallmar.|
-T How to Serve Goblins|QID|10238|M|51.4,30.5|N|To Foreman Razelcraz.|
-A Shizz Work|QID|10629|PRE|10238|M|51.5,30.5|N|From Foreman Razelcraz.|
-C Shizz Work|QID|10629|N|Use the Felhound Whistle. Then take your pet and kill the helboars to the west. Each time a boar dies, the Fel Puppy chows down and leaves some remains. Right click the leavings, and eventually one with contain the Shredder Key.|U|30803|M|50.0,29.5|
-T Shizz Work|QID|10629|M|51.5,30.5|N|To Foreman Razelcraz. The hound may stick around untill your hearth or leave the zone.|
-A Beneath Thrallmar|QID|10630|PRE|10629|M|51.5,30.5|N|From Foreman Razelcraz.|
-C Beneath Thrallmar|QID|10630|N|Enter the mine, Urga'zz is in the back of the cave.|M|54.09,31.64|
-T Beneath Thrallmar|QID|10630|M|51.5,30.5|N|To Foreman Razelcraz.|
+
+
 R Pools of Aggonar|QID|10389|N|Run to the Pools of Aggonar.|M|40,43|
 C In Need of Felblood|QID|9366|N|Kill and loot Terrorfiends.|M|39.5,36.0|S|
 C The Agony and the Darkness|QID|10389|N|Kill Terrorfiends.|M|39.5,36.0|S|

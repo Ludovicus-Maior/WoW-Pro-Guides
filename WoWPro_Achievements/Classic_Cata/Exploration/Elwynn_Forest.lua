@@ -4,7 +4,7 @@
 
 local guide =  WoWPro:RegisterGuide("TwiExpEF","Achievements","Elwynn Forest","WoWPro Team", "Neutral",4)
 WoWPro:GuideLevels(guide,10,50)
-WoWPro.Achievements:GuideMisc(guide, "Explore Elwynn Forest", "Exploration", "Cata")
+WoWPro.Achievements:GuideMisc(guide, "Explore Elwynn Forest", "Explore Eastern Kingdoms", "Cata")
 WoWPro:GuideIcon(guide,"ACH",43)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()

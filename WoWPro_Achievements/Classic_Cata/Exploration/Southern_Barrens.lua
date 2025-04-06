@@ -2,9 +2,9 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://github.com/Ludovicus-Maior/WoW-Pro-Guides/blob/main/License.md.
 
-local guide =  WoWPro:RegisterGuide("LudoExpSoB","Achievements","Southern Barrens","WoWPro Team", "Neutral")
+local guide =  WoWPro:RegisterGuide("LudoExpSoB","Achievements","Southern Barrens","WoWPro Team", "Neutral",4)
 WoWPro:GuideLevels(guide,10,50)
-WoWPro.Achievements:GuideMisc(guide, "Explore Southern Barrens", "Exploration", "Cata")
+WoWPro.Achievements:GuideMisc(guide, "Explore Southern Barrens", "Explore Kalimdor", "Cata")
 WoWPro:GuideIcon(guide,"ACH",43)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
