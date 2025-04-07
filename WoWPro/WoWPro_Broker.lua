@@ -879,19 +879,36 @@ _G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
 
 function WoWPro.TrashItem(use, step)
     use = tonumber(use) -- needs to be a number
-    for bag=_G.BACKPACK_CONTAINER, _G.NUM_BAG_SLOTS do
+    for bag = _G.BACKPACK_CONTAINER, _G.NUM_BAG_SLOTS do
         local slots = _G.C_Container.GetContainerNumSlots(bag)
-        for slot=1,slots do
-            local id=_G.C_Container.GetContainerItemID(bag,slot)
+        for slot = 1, slots do
+            local id = _G.C_Container.GetContainerItemID(bag, slot)
             if id == use then
-                local itemName = WoWPro.C_Item_GetItemInfo(id)
+                local itemName = _G.C_Item.GetItemNameByID(id)
                 local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
-                dialog.data = { step = step, itemName = itemName}
-                dialog.data2 = {bag = bag, slot = slot}
+                if dialog then
+                    dialog.data = { step = step, itemName = itemName }
+                    dialog.data2 = { bag = bag, slot = slot }
+                else
+                    WoWPro:Warning("Failed to show delete confirmation dialog for item: %s", itemName)
+                end
                 return
             end
         end
     end
+    WoWPro:Warning("Item with ID %d not found in bags.", use)
+end
+
+-- Bind Hotkey to Use button
+function BindHotkeyToUseButton(use, currentRow, i)
+    local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+    if key1 then
+        _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
+    end
+    if key2 then
+        _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
+    end
+    itemkb = true
 end
 
 -- Select a fashionable Hearthstone
@@ -1310,12 +1327,10 @@ if step then
     )
     end
     WoWPro.RowDropdownMenu[i] = dropdown
-
-
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
-        if action == "*" and use and WoWPro.C_Item_GetItemInfo then
+        if action == "*" and use and WoWPro.C_Item_GetItemInfo(use) then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(WoWPro.C_Item_GetItemIconByID(use))
             currentRow.itembutton:SetAttribute("type1", "click1")
@@ -1324,7 +1339,7 @@ if step then
                 WoWPro.TrashItem(use, k)
                 end)
 			if not _G.InCombatLockdown() then
-				currentRow.itembuttonSecured:Show()
+                currentRow.itembuttonSecured:Show()
 				currentRow.itembuttonSecured:SetAttribute("type1", "click1")
 				currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
 				currentRow.itembuttonSecured:SetScript("OnClick", function ()
@@ -1333,7 +1348,7 @@ if step then
 			end
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
-					local Tleft, Tbottom = currentRow.itembutton:GetRect()
+                    local Tleft, Tbottom = currentRow.itembutton:GetRect()
 					currentRow.itembuttonSecured:SetAttribute("type1", "click1")
 					currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
 					currentRow.itembuttonSecured:SetScript("OnClick", function ()
@@ -1343,6 +1358,9 @@ if step then
 				end
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
+            if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
+                BindHotkeyToUseButton(itemkb, currentRow, i)
+            end
         elseif use and WoWPro.SelectItemToUse(use) then
             local _, _use = WoWPro.SelectItemToUse(use)
 			currentRow.itemicon.item_IsVisible = nil
@@ -1384,7 +1402,6 @@ if step then
 					currentRow.itemcooldown.ActiveItem = _use
                 end
 			end)
-
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
 					local Tleft, Tbottom = currentRow.itembutton:GetRect()
@@ -1394,17 +1411,9 @@ if step then
 					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
 				end
 			end
-
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
-                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-                if key1 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
-                end
-                if key2 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
-                end
-                itemkb = true
+                BindHotkeyToUseButton(itemkb, currentRow)
             end
         elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
             currentRow.itembutton:Show()
