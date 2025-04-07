@@ -900,7 +900,7 @@ function WoWPro.TrashItem(use, step)
 end
 
 -- Bind Hotkey to Use button
-function WOWPro.BindHotkeyToUseButton(itemkb,i)
+function WoWPro.BindHotkeyToUseButton(i)
     local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
     if key1 then
         _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
