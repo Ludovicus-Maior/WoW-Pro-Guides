@@ -908,7 +908,6 @@ function WoWPro.BindHotkeyToUseButton(i)
     if key2 then
         _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
     end
-    itemkb = true
 end
 
 -- Select a fashionable Hearthstone
@@ -1360,6 +1359,7 @@ if step then
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
                 WoWPro.BindHotkeyToUseButton(i)
+                itemkb = true
             end
         elseif use and WoWPro.SelectItemToUse(use) then
             local _, _use = WoWPro.SelectItemToUse(use)
@@ -1414,6 +1414,7 @@ if step then
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
                 WoWPro.BindHotkeyToUseButton(i)
+                itemkb = true
             end
         elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
             currentRow.itembutton:Show()
