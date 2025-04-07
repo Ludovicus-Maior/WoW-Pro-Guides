@@ -900,7 +900,7 @@ function WoWPro.TrashItem(use, step)
 end
 
 -- Bind Hotkey to Use button
-function BindHotkeyToUseButton(use, currentRow, i)
+function BindHotkeyToUseButton(itemkb,i)
     local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
     if key1 then
         _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
@@ -1359,7 +1359,7 @@ if step then
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
-                BindHotkeyToUseButton(itemkb, currentRow, i)
+                BindHotkeyToUseButton(currentRow, i)
             end
         elseif use and WoWPro.SelectItemToUse(use) then
             local _, _use = WoWPro.SelectItemToUse(use)
@@ -1413,7 +1413,7 @@ if step then
 			end
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
-                BindHotkeyToUseButton(itemkb, currentRow)
+                BindHotkeyToUseButton(itemkb, i)
             end
         elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
             currentRow.itembutton:Show()
