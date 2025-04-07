@@ -1315,7 +1315,7 @@ if step then
         -- Item Button --
         if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
-        if action == "*" and use and WoWPro.C_Item_GetItemInfo then
+        if action == "*" and use and WoWPro.C_Item_GetItemInfo(use) then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(WoWPro.C_Item_GetItemIconByID(use))
             currentRow.itembutton:SetAttribute("type1", "click1")
