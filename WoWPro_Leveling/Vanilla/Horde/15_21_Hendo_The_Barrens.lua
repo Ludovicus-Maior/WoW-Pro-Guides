@@ -562,6 +562,8 @@ C Ishamuhale|ACTIVE|882|Z|1413; The Barrens|L|5108|ITEM|5108|N|Ishamuhale.\n[col
 R The Crossroads|ACTIVE|899|M|52.63,30.98|Z|1413; The Barrens|N|Run back to the Crossroads.\n[color=FF0000]NOTE: [/color]If you maneuver well enough, you can just go over the mountain instead of around it.|
 
 T Consumed by Hatred|QID|899|M|51.96,31.57|Z|1413; The Barrens|N|To Mankrik.|
+* Bristleback Quilboar Tusk|PRE|899|N|You can safely delete any leftovers.|U|5085|
+
 ; lv 22
 F Camp Taurajo|QID|882|M|51.50,30.33|Z|1413; The Barrens|N|Fly to Camp Taurajo.|
 T Ishamuhale|QID|882|M|44.86,59.14|Z|1413; The Barrens|N|To Jorn Skyseer.|
