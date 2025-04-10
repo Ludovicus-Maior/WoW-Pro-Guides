@@ -1,3 +1,21 @@
+# Release 2025.04.10.A
+## Bug Fixes
+* Update HereBeDragons to 2.14.5
+* Update Vanilla Interface to 11507
+* Map Updates for 11.1.5 PTR and for Cata
+* Hendo: Hotkey fixes
+* Spoony: Use % progress instead of the step number
+* Furydins: Improved AutoHide logic
+* Cagomei: Add explicit release (4) to all Cata Guides
+## Guide Updates
+* Vanilla Leveling: Silverpine Forest, The Barrens 15-21,
+* Cataclysm Leveling Horde: Hellfire Peninsula, Ashenvale, Azshara, Dustwallow Marsh, Northern Barrens, Stonetalon Mountains, Vashjir, Troll Intro
+* Cataclysm Leveling Neutral: Silithus,
+* Cataclysm Dailies: Firelands
+* Cataclysm Achievements:  Exploration Guide, Explore Northrend
+* Retail Leveling Neutral: DF Intro, TWW AzjKahet, The Ringing Deeps
+
+
 # Release 2025.03.04.A
 ## Bug Fixes
 * Spoony: Sort Order fixes
