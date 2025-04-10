@@ -1,6 +1,6 @@
 -- luacheck: globals Grail TomTom Nx
 -- luacheck: globals select ipairs pairs next tremove tinsert
--- luacheck: globals tostring tonumber type abs max min floor ceil date
+-- luacheck: globals tostring tonumber type abs max min floor ceil date math
 -- luacheck: globals debugstack strupper strsub strlower string
 
 -----------------------------
@@ -1717,11 +1717,25 @@ function WoWPro.UpdateGuideReal(From)
     WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 
     -- TODO: make next lines module specific
-	if WoWPro.Recorder then
-		WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
-	else
-		WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
-	end
+    if WoWPro.Recorder then
+        local total = WoWPro.stepcount or 1
+        local currentStep = WoWPro.ActiveStep or 1
+        local percentage = math.floor((currentStep / total) * 100)
+        WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+    else
+        local skipped = 0
+
+        for j = 1, WoWPro.stepcount do
+            if WoWProCharDB.Guide[GID].skipped[j] then
+                skipped = skipped + 1
+            end
+        end
+
+        local total = WoWPro.stepcount or 1
+        local currentStep = WoWPro.ActiveStep or 1
+        local percentage = math.floor((currentStep / total) * 100)
+        WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+    end
 
     -- If the guide is complete, loading the next guide --
     if WoWProCharDB.Guide[GID].done and not WoWPro.Recorder and WoWPro.Leveling and not WoWPro.Leveling.Resetting then
