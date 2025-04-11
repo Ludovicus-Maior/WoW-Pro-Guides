@@ -44,7 +44,7 @@ $ Earthen Worker's Beams|QID|83915|M|60,28|Z|2248;Isle of Dorn|ITEM|226341|P|Kha
 $ Earthen Tape Measure|QID|83923|M|56.2,60.9|Z|2248;Isle of Dorn|ITEM|226349|P|Khaz Algar Tailoring;2883|
 
 ; Third Set
-N The Next set is in The Ringing Deeps. Click this off when done. 
+N The Next set is in The Ringing Deeps. Click this off when done.
 $ Engraved Stirring Rod|QID|83843|M|60.8,61.74|Z|2214;Ringing Deeps|ITEM|226268|P|Khaz Algar Alchemy;2871|
 $ Ringing Hammer Vise|QID|83850|M|43.5,33.08|Z|2214;Ringing Deeps|ITEM|226278|P|Khaz Algar Blacksmithing;2872|
 $ Animated Enchanting Dust|QID|83861|M|62.7,65.78|Z|2214;Ringing Deeps|ITEM|226287|P|Khaz Algar Enchanting;2874|
