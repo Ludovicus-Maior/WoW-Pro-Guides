@@ -178,7 +178,6 @@ local function createDisplayConfig()
                 get = function(info) return WoWProDB.profile.guideprogress end,
                 set = function(info, val)
                     WoWProDB.profile.guideprogress = val
-                    WoWPro:print("Guide Progress option set to: " .. tostring(val)) -- Debug print
                     WoWPro:TitlebarSet()
                     WoWPro:UpdateGuide("Config: Guide Progress")
                 end,
