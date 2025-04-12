@@ -1608,8 +1608,6 @@ function WoWPro:RowLeftClick(i)
 end
 
 function WoWPro.UpdateGuideReal(From)
-    WoWPro:print("UpdateGuide called from: " .. tostring(From)) -- Debug print
-    WoWPro:SendMessage("WoWPro_UpdateGuide", From)
     local why = ""
     for who, count in pairs(From) do
         why = why .. ("[%s]=%s "):format(tostring(who), tostring(count))
