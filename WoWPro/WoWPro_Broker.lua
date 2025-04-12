@@ -1717,7 +1717,6 @@ function WoWPro.UpdateGuideReal(From)
     end
     WoWProCharDB.Guide[GID].progress = p
     WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
-    
     -- Display progress based on the configuration
     if WoWProDB.profile.guideprogress then
         -- Show as steps completed out of total
