@@ -908,6 +908,7 @@ function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, ex
 end
 
 local expansionOrder = {
+    ["Intro"] = 0,
     ["Classic"] = 1,
     ["The Burning Crusade"] = 2,
     ["Wrath of the Lich King"] = 3,
