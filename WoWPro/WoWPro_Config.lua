@@ -170,6 +170,18 @@ local function createDisplayConfig()
                     WoWPro:UpdateGuide("Config: Scroll Mode") end,
                     width = "double"
             },
+            guideprogress = {
+                order = 21.5,
+                type = "toggle",
+                name = L["Guide Progress"],
+                desc = L["If enabled, will show the progress of the guide as a count rather than %."],
+                get = function(info) return WoWProDB.profile.guideprogress end,
+                set = function(info, val)
+                    WoWProDB.profile.guideprogress = val
+                    WoWPro:TitlebarSet()
+                    WoWPro:UpdateGuide("Config: Guide Progress")
+                end,
+            },
             checksoundfile = {
                 order = 23,
                 type = "select",

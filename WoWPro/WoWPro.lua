@@ -339,6 +339,7 @@ local defaults = { profile = {
     stickytitlefont = [[Fonts\FRIZQT__.TTF]],
     stickytitletextsize = 13,
     stickytitletextcolor = {1, 1, 1},
+    guideprogress = false,
 } }
 
 
