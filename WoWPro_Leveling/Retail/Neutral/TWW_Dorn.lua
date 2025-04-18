@@ -589,7 +589,7 @@ T Bad Business|QID|79530|M|42.51,24.02|Z|2214;The Ringing Deeps|N|To Steelvein.|
 ;Brotherhood in the Skolzgal Wood Quest line.
 
 R Crossroads Plaza|AVAILABLE|80456|PRE|78630^83543|M|55.34,55.84|Z|2248;Isle of Dorn|N|make your way back towards Dornogal.|RANK|2|;this is my best guess as to the PRE - not certain.
-A A Sassy Arathi|QID|80456|PRE|78630^83543|M|55.34,55.84|Z|2248;Isle of Dorn|N|From Dornogal Citizen.|RANK|2|; Also available in adventure mode after completing the Isle of Dorn
+A A Sassy Arathi|QID|80456|PRE|78630^83543|LEAD|80209|M|55.34,55.84|Z|2248;Isle of Dorn|N|From Dornogal Citizen.|RANK|2|; Also available in adventure mode after completing the Isle of Dorn
 T A Sassy Arathi|QID|80456|M|54.32,19.42|Z|2339;Dornogal|N|To Peacekeeper Leif.|
 A An Oddball in Dornogal|QID|80209|PRE|80456|M|54.32,19.42|Z|2339;Dornogal|N|From Peacekeeper Leif.|RANK|2|
 C An Oddball in Dornogal|QID|80209|QO|1|M|54.51,24.17;56.77,27.87;51.50,11.36|CS|Z|2339;Dornogal|N|Talk to the Concerned Dornogal Citizen.|CHAT|
