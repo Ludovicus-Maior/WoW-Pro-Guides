@@ -227,7 +227,7 @@ A A New Set of Horns|QID|68797|PRE|68796|M|75.17,54.97|Z|2022|N|From Lord Andest
 C A New Set of Horns|QID|68797|M|74.11,57.94|Z|2022|QO|1|CHAT|N|Meet Glensera in the Skytop Observatory.|
 C A New Set of Horns|QID|68797|M|74.03,58.13|Z|2022|QO|2|NC|N|Step onto the 5 sided rug just beyond Glensera and click on it.|
 T A New Set of Horns|QID|68797|M|75.15,55.06|Z|2022|N|To Lord Andestrasz.|
-A Skyriding Talents and You|QID|68798|PRE|68797|M|75.15,55.06|Z|2022|N|From Lord Andestrasz.|
+A Skyriding Talents and You|QID|68798|PRE|68796|M|75.15,55.06|Z|2022|N|From Lord Andestrasz.|
 C Skyriding Talents and You|QID|68798|M|74.56,56.97|Z|2022|QO|1|CHAT|N|Speak to Lithragosa.|
 C Skyriding Talents and You|QID|68798|M|74.56,56.97|Z|2022|QO|2|NC|N|View the Dragonriding Skill Track with Lithragosa.|
 C Skyriding Talents and You|QID|68798|M|74.56,56.97|Z|2022|QO|3|NC|N|Learn the 'Take to the Skies' Skill with Lithragosa.|
