@@ -267,18 +267,18 @@ N Warrior class quest|ACTIVE|1505|Z|1412; Mulgore|N|This is the area to do your 
 T Veteran Uzzek|QID|1505|M|61.38,21.11|Z|1413; The Barrens|N|To Veteran Uzzek.|R|Tauren|C|Warrior|
 A Path of Defense|QID|1498|M|61.38,21.11|Z|1413; The Barrens|N|From Veteran Uzzek.|PRE|1505|R|Tauren|C|Warrior|
 R Thunder Ridge|ACTIVE|1498|M|39.18,32.29|Z|1411; Durotar|N|Cross the bridge over the river and run to the entrance of Thunder Ridge.|R|Tauren|C|Warrior|
-C Path of Defense|QID|1498|M|43.4,24.8|Z|1411; Durotar|QO|1|Z|1412; Mulgore|N|Kill Thunder Lizards for their scales in Thunder Ridge.|R|Tauren|C|Warrior|
+C Path of Defense|QID|1498|M|43.4,24.8|Z|1411; Durotar|QO|1|N|Kill Thunder Lizards for their scales in Thunder Ridge.|R|Tauren|C|Warrior|
 T Path of Defense|QID|1498|M|61.38,21.11|Z|1412; Mulgore|N|Head back To Uzzek at Far Watch Outpost.|R|Tauren|C|Warrior|
 ; ---
 
 ; --- Tauren Shaman Fire Totem quest
 T Call of Fire|QID|2983|M|55.86,19.94|Z|1413; The Barrens|N|To Kranal Fiss at Grol'dom Farm. He wanders around a bit.|R|Tauren|C|Shaman|
 A Call of Fire|QID|1524|M|55.86,19.94|Z|1413; The Barrens|N|From Kranal Fiss.|PRE|2983|R|Tauren|C|Shaman|
-R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|Z|1411; Durotar|CC|Z|1412; Mulgore|N|Follow the hidden path here upwards.|R|Tauren|C|Shaman|
+R Shrine of the Dormant Flame|ACTIVE|1524|M|36.69,57.43|Z|1411; Durotar|CC|N|Follow the hidden path here upwards.|R|Tauren|C|Shaman|
 T Call of Fire|QID|1524|M|38.52,58.92|Z|1411; Durotar|N|To Telf Joolam.|R|Tauren|C|Shaman|
 A Call of Fire|QID|1525|M|38.52,58.92|Z|1411; Durotar|N|From Telf Joolam.|PRE|1524|R|Tauren|C|Shaman|
 R Far Watch Outpost|ACTIVE|1525|M|55.11,24.89|Z|1413; The Barrens|N|Make your way back to the bridge and cross over the river.|R|Tauren|C|Shaman|
-K Razormane Spellcasters|M|57.04,23.08|Z|1413; The Barrens|L|5026|Z|1412; Mulgore|N|Make your way to Thorn Hill (SW of Far Watch Outpost). Kill Razormane Geomancers, Thornweavers, Water Seekers, or Mystics until you loot the Tar Fire.|R|Tauren|C|Shaman|
+K Razormane Spellcasters|M|57.04,23.08|Z|1413; The Barrens|L|5026|N|Make your way to Thorn Hill (SW of Far Watch Outpost). Kill Razormane Geomancers, Thornweavers, Water Seekers, or Mystics until you loot the Tar Fire.|R|Tauren|C|Shaman|
 R Dustwind Cave|ACTIVE|1525|M|50.63,43.97;54.14,40.68|CS|Z|1411; Durotar|N|Make your way to Razor Hill. Cut through and exit out the east gate. Go up the hill and follow the ridge north to the cave entrance. The Burning Blade Cultists are inside.|R|Tauren|C|Shaman|
 K Burning Blade Cultist|ACTIVE|1525|L|6652|Z|1412; Mulgore|N|Kill the Cultists until you loot the Reagent Pouch.|R|Tauren|C|Shaman|
 A Conscript of the Horde|QID|840|M|50.84,43.59|Z|1411; Durotar|N|From Takrin Pathseeker. We pick this up because its on the way and free XP.|R|Tauren|C|Shaman|
