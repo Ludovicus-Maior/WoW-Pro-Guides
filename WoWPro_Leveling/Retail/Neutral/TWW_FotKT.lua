@@ -16,8 +16,7 @@ A Arcane Wasteland|QID|83499|PRE|83031|M|29.57,58.15|Z|2248; Isle of Dorn|N|From
 C Arcane Wasteland|QID|83499|QO|1|M|30.13,51.91|Z|2248; Isle of Dorn|N|Arcane Dust collected.|S|
 C Arcane Wasteland|QID|83499|QO|2|M|29.94,54.27|Z|2248; Isle of Dorn|N|Radiant Prism Crystals collected.|S|H|
 K Frostfire Elemental|ACTIVE|83499|QO|3|M|28.86,51.84|Z|2248; Isle of Dorn|N|Kill the Frostfire Elemental and loot the Essence.|T|Frostfire Elemental|
-C Arcane Wasteland|QID|83499|QO|2|M|29.94,54.27|Z|2248; Isle of Dorn|N|Radiant Prism Crystals collected.|US|H|
-C Arcane Wasteland|QID|83499|QO|1|M|30.13,51.91|Z|2248; Isle of Dorn|N|Arcane Dust collected.|US|
+C Arcane Wasteland|QID|83499|M|30.13,51.91|Z|2248; Isle of Dorn|N|Kill the elemental for the Arcane Dust and gather the crystals off the ground.|US|
 T Arcane Wasteland|QID|83499|M|29.57,58.15|Z|2248; Isle of Dorn|N|To Archmage Aethas Sunreaver.|
 A Lessons in Defensive Magic|QID|83502|PRE|83499|M|29.57,58.15|Z|2248; Isle of Dorn|N|From Archmage Aethas Sunreaver.|
 C Lessons in Defensive Magic|QID|83502|QO|1|M|29.36,58.08|Z|2248; Isle of Dorn|N|First Ward activated.|H|

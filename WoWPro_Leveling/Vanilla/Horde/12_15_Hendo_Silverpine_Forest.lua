@@ -34,7 +34,7 @@ T Escorting Erland|QID|435|M|53.46,13.43|Z|1421; Silverpine Forest|N|To Rane Yor
 A The Deathstalkers' Report|QID|449|PRE|435|M|53.46,13.43|Z|1421; Silverpine Forest|N|From Rane Yorick.|
 C Wild Hearts|QID|429|QO|1|M|55.67,12.56|Z|1421; Silverpine Forest|L|3164 6|ITEM|3164|N|Mottled Worgs.|T|Mottled Worg|US|
 C Prove Your Worth|ACTIVE|421|QO|1|M|55.75,18.26|Z|1421; Silverpine Forest|N|Finish killing the Moonrage Whitescalps.|T|Moonrage Whitescalp|US|
-R The Sepulcher|QID|421|M|46.21,41.59|Z|1421; Silverpine Forest|N|Run back to the Sepulcher.|
+H The Sepulcher|ACTIVE|421|M|46.21,41.59|Z|1421; Silverpine Forest|N|Hearth or run back to the Sepulcher.|
 
 T Prove Your Worth|QID|421|M|44.20,39.78|Z|1421; Silverpine Forest|N|To Dalar Dawnweaver.|
 A Arugal's Folly|QID|422|PRE|421|M|44.20,39.78|Z|1421; Silverpine Forest|N|From Dalar Dawnweaver.|
@@ -68,7 +68,7 @@ A Arugal's Folly|QID|423|PRE|422|M|44.20,39.78|Z|1421; Silverpine Forest|N|From 
 T Supplying the Sepulcher|QID|6321|M|45.62,42.60|Z|1421; Silverpine Forest|N|To Karos Razok.|R|Undead|
 A Ride to the Undercity|QID|6323|PRE|6321|M|45.62,42.60|Z|1421; Silverpine Forest|N|From Karos Razok.|R|Undead|
 F Undercity|ACTIVE|447|M|45.62,42.60|Z|1421; Silverpine Forest|N|At Karos Razok.|
-R The Apothecarium|ACTIVE|447^1359|M|52.27,49.93|Z|1421; Silverpine Forest|N|Make your way to The Apothecarium in the southwest corner of Undercity.|
+R The Apothecarium|ACTIVE|447^1359|M|52.27,49.93|Z|1458; Undercity|N|Make your way to The Apothecarium in the southwest corner of Undercity.|
 T A Recipe For Death|QID|447|M|48.81,69.26|Z|1458; Undercity|N|Cross the bridge over the canal to the outer ring and make your way to the passage way leading to Master Apothecary Faranell.\n[color=FF0000]NOTE: [/color]Do not take the follow-up quest.|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|1458; Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|PRE|1359|M|50.15,67.93|Z|1458; Undercity|N|From Apothecary Zinge.|
