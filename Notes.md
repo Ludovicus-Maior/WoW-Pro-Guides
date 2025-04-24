@@ -1,3 +1,15 @@
+# Release 2025.04.24.A
+## Bug Fixes
+* Update Retail Interface to 110105
+* Option to control % or step count in header
+*
+## Guide Updates
+* Vanilla Leveling: Mulgore 1-12, Silverpine 12-15, Jame Horde 40-51
+* Cataclysm Leveling Horde: Borean Tundra, Dragonblight
+* Cataclysm Dailies: Firelands, Dalaran Fishing, Capitol Fishing
+* Retail Leveling Neutral: Waking Shores, Chains of Domination, TWW Dorn, TWW Fate of the Kirin Tor, TWW Knowledge, Hallowfall
+
+
 # Release 2025.04.10.A
 ## Bug Fixes
 * Update HereBeDragons to 2.14.5
