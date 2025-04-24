@@ -192,7 +192,7 @@ T The One That Got Away|QID|11667|M|38.6,12.8|Z|Terokkar Forest|N|To Old Man Bar
 
 ;Dalaranhttps://www.wowhead.com/npc=28742, Level 70
 A Jewel Of The Sewers|QID|13832|M|52.6,64.8|Z|Dalaran City@Dalaran|N|From Marcia Chase|O|
-C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|Z|The Underbelly@DalaranCity|CN|N|Go to the sewers and fish away.|L|45903|FACTION|Horde|
+C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|Z|The Underbelly@Dalaran|CN|N|Go to the sewers and fish away.|L|45903|
 T Jewel Of The Sewers|QID|13832|M|52.6,64.8|Z|Dalaran City@Dalaran|N|To Marcia Chase|
 
 A Blood Is Thicker|QID|13833|M|52.6,64.8|Z|Dalaran City@Dalaran|N|From Marcia Chase|O|
