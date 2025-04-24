@@ -44,30 +44,31 @@ $ Earthen Worker's Beams|QID|83915|M|60,28|Z|2248;Isle of Dorn|ITEM|226341|P|Kha
 $ Earthen Tape Measure|QID|83923|M|56.2,60.9|Z|2248;Isle of Dorn|ITEM|226349|P|Khaz Algar Tailoring;2883|
 
 ; Third Set
-$ Engraved Stirring Rod|QID|83843|M|64.9,61.8|Z|2214;Ringing Deeps|ITEM|226268|P|Khaz Algar Alchemy;2871|
-$ Ringing Hammer Vise|QID|83850|M|47.7,33.2|Z|2214;Ringing Deeps|ITEM|226278|P|Khaz Algar Blacksmithing;2872|
-$ Animated Enchanting Dust|QID|83861|M|67.1,65.9|Z|2214;Ringing Deeps|ITEM|226287|P|Khaz Algar Enchanting;2874|
-$ Earthen Construct Blueprints|QID|83869|M|64.5,58.8|Z|2214;Ringing Deeps|ITEM|226295|P|Khaz Algar Engineering;2875|
-$ Fungarian Slicer's Knife|QID|83877|M|52.8,65.8|Z|2214;Ringing Deeps|ITEM|226303|P|Khaz Algar Herbalism;2877|
-$ Blue Earthen Pigment|QID|83885|M|62.5,58.15|Z|2214;Ringing Deeps|ITEM|226311|P|Khaz Algar Inscription;2878|
-$ Jeweler's Delicate Drill|QID|83893|M|57.0,54.6|Z|2214;Ringing Deeps|ITEM|226319|P|Khaz Algar Jewelcrafting;2879|
-$ Underground Stropping Compound|QID|83900|M|47.1,34.8|Z|2214;Ringing Deeps|ITEM|226326|P|Khaz Algar Leatherworking;2880|
-$ Earthen Excavator's Shovel|QID|83908|M|49.4,27.5|Z|2214;Ringing Deeps|ITEM|226334|P|Khaz Algar Mining;2881|
-$ Artisan's Drawing Knife|QID|83916|M|47.3,28.3|Z|2214;Ringing Deeps|ITEM|226342|P|Khaz Algar Skinning;2882|
-$ Earthen Stitcher's Snips|QID|83925|M|64.2,60.3|Z|2214;Ringing Deeps|ITEM|226351|P|Khaz Algar Tailoring;2883|
+N The Next set is in The Ringing Deeps. Click this off when done.
+$ Engraved Stirring Rod|QID|83843|M|60.8,61.74|Z|2214;Ringing Deeps|ITEM|226268|P|Khaz Algar Alchemy;2871|
+$ Ringing Hammer Vise|QID|83850|M|43.5,33.08|Z|2214;Ringing Deeps|ITEM|226278|P|Khaz Algar Blacksmithing;2872|
+$ Animated Enchanting Dust|QID|83861|M|62.7,65.78|Z|2214;Ringing Deeps|ITEM|226287|P|Khaz Algar Enchanting;2874|
+$ Earthen Construct Blueprints|QID|83869|M|60.4,58.8|Z|2214;Ringing Deeps|ITEM|226295|P|Khaz Algar Engineering;2875|
+$ Fungarian Slicer's Knife|QID|83877|M|48.7,65.8|Z|2214;Ringing Deeps|ITEM|226303|P|Khaz Algar Herbalism;2877|
+$ Blue Earthen Pigment|QID|83885|M|58.3,58.1|Z|2214;Ringing Deeps|ITEM|226311|P|Khaz Algar Inscription;2878|
+$ Jeweler's Delicate Drill|QID|83893|M|52.9,54.6|Z|2214;Ringing Deeps|ITEM|226319|P|Khaz Algar Jewelcrafting;2879|
+$ Underground Stropping Compound|QID|83900|M|42.9,34.8|Z|2214;Ringing Deeps|ITEM|226326|P|Khaz Algar Leatherworking;2880|
+$ Earthen Excavator's Shovel|QID|83908|M|45.3,27.5|Z|2214;Ringing Deeps|ITEM|226334|P|Khaz Algar Mining;2881|
+$ Artisan's Drawing Knife|QID|83916|M|45.2,27.4|Z|2214;Ringing Deeps|ITEM|226342|P|Khaz Algar Skinning;2882|
+$ Earthen Stitcher's Snips|QID|83925|M|60.0,60.3|Z|2214;Ringing Deeps|ITEM|226351|P|Khaz Algar Tailoring;2883|
 
 ; Fourth Set
-$ Reinforced Beaker|QID|83842|M|42.2,24.1|Z|2214;Ringing Deeps|ITEM|226267|P|Khaz Algar Alchemy;2871|
-$ Earthen Chisels|QID|83851|M|60.6,53.8|Z|2214;Ringing Deeps|ITEM|226279|P|Khaz Algar Blacksmithing;2872|
-$ Soot-Coated Orb |QID|83860|M|44.6,22.3|Z|2214;Ringing Deeps|ITEM|226286|P|Khaz Algar Enchanting;2874|
-$ Inert Mining Bomb |QID|83868|M|42.7,27.3|Z|2214;Ringing Deeps|ITEM|226294|P|Khaz Algar Engineering;2875|
-$ Earthen Digging Fork|QID|83876|M|48.3,34.9|Z|2214;Ringing Deeps|ITEM|226302|P|Khaz Algar Herbalism;2877|
-$ Runic Scroll|QID|83884|M|48.6,34.3|Z|2214;Ringing Deeps|ITEM|226310|P|Khaz Algar Inscription;2878|
-$ Carved Stone File|QID|83892|M|48.5,35.2|Z|2214;Ringing Deeps|ITEM|226318|P|Khaz Algar Jewelcrafting;2879|
-$ Earthen Awl|QID|83901|M|64.3,65.4|Z|2214;Ringing Deeps|ITEM|226327|P|Khaz Algar Leatherworking;2880|
-$ Regenerating Ore|QID|83909|M|66.2,66.2|Z|2214;Ringing Deeps|ITEM|226335|P|Khaz Algar Mining;2881|
-$ Fungarian's Rich Tannin|QID|83917|M|65.8,61.88|Z|2214;Ringing Deeps|ITEM|226343|P|Khaz Algar Skinning;2882|
-$ Runed Earthen Pins|QID|83924|M|48.9,32.9|Z|2214;Ringing Deeps|ITEM|226350|P|Khaz Algar Tailoring;2883|
+$ Reinforced Beaker|QID|83842|M|38.05,24.18|Z|2214;Ringing Deeps|ITEM|226267|P|Khaz Algar Alchemy;2871|
+$ Earthen Chisels|QID|83851|M|56.38,53.68|Z|2214;Ringing Deeps|ITEM|226279|P|Khaz Algar Blacksmithing;2872|
+$ Soot-Coated Orb|QID|83860|M|40.5,22.2|Z|2214;Ringing Deeps|ITEM|226286|P|Khaz Algar Enchanting;2874|
+$ Inert Mining Bomb|QID|83868|M|38.5,27.3|Z|2214;Ringing Deeps|ITEM|226294|P|Khaz Algar Engineering;2875|
+$ Earthen Digging Fork|QID|83876|M|44.1,35.0|Z|2214;Ringing Deeps|ITEM|226302|P|Khaz Algar Herbalism;2877|
+$ Runic Scroll|QID|83884|M|44.4,34.3|Z|2214;Ringing Deeps|ITEM|226310|P|Khaz Algar Inscription;2878|
+$ Carved Stone File|QID|83892|M|44.4,35.2|Z|2214;Ringing Deeps|ITEM|226318|P|Khaz Algar Jewelcrafting;2879|
+$ Earthen Awl|QID|83901|M|60.2,65.3|Z|2214;Ringing Deeps|ITEM|226327|P|Khaz Algar Leatherworking;2880|
+$ Regenerating Ore|QID|83909|M|62.08,66.26|Z|2214;Ringing Deeps|ITEM|226335|P|Khaz Algar Mining;2881|
+$ Fungarian's Rich Tannin|QID|83917|M|61.5,61.9|Z|2214;Ringing Deeps|ITEM|226343|P|Khaz Algar Skinning;2882|
+$ Runed Earthen Pins|QID|83924|M|44.7,32.8|Z|2214;Ringing Deeps|ITEM|226350|P|Khaz Algar Tailoring;2883|
 
 ; Fifth Set
 $ Chemist's Purified Water|QID|83844|M|42.6,55.0|Z|2215;Hallowfall|ITEM|226269|P|Khaz Algar Alchemy;2871|

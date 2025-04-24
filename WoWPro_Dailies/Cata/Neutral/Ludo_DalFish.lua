@@ -14,9 +14,9 @@ A One of Five|QID|13832^13833^13834^13836|M|52.6,64.8|N|From Marcia Chase|
 C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|CN|N|Go to the sewers and fish away.|L|45903|
 T Jewel Of The Sewers|QID|13832|M|52.6,64.8|N|To Marcia Chase|
 
-K Kill a Mammoth|QID|13833|M|54.6,41.0|Z|Borean Tundra|N|Kill any mammoth to get bloody.|
-R Pool of Blood|QID|13833|M|52.6,42.4|Z|Borean Tundra|N|Jump in the water to get a pool of blood.|
-l Bloodtooth Frenzy|QID|13833|M|52.6,42.4|Z|Borean Tundra|N|Now fish in the pool to get the Frenzies.|L|45905 5|
+K Kill a Mammoth|ACTIVE|13833|M|54.6,41.0|Z|Borean Tundra|N|Kill any mammoth to get bloody.|
+R Pool of Blood|ACTIVE|13833|M|52.6,42.4|Z|Borean Tundra|N|Jump in the water to get a pool of blood.|
+l Bloodtooth Frenzy|ACTIVE|13833|M|52.6,42.4|Z|Borean Tundra|N|Now fish in the pool to get the Frenzies.|L|45905 5|
 T Blood Is Thicker|QID|13833|M|52.6,64.8|N|To Marcia Chase|
 
 C Dangerously Delicious|QID|13834|M|79.6,43.0;50.2,81.2|Z|Wintergrasp|CN|N|Pick your spot and fish away.|L|45904 10|

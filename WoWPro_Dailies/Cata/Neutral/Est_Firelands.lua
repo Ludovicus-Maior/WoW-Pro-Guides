@@ -204,7 +204,7 @@ T Solar Core Destruction|QID|29211|M|64.90,67.20|Z|MoltenFront|N|At Marin Bladew
 T The Wardens are Watching|QID|29192|M|64.90,67.20|Z|MoltenFront|N|At Marin Bladewing.|
 
 A Enduring the Heat|QID|29210|PRE|29192^29211|M|64.90,67.20|Z|MoltenFront|N|From Marin Bladewing.|
-A Fandral's Methods|QID|29275|M|66.01,66.05|Z|MoltenFront|N|From Anren Shadowseeker near the Forlorn Spire. If he isn't here anymore, close this step; you were offered The Flame Spider Queen instead.|
+A Fandral's Methods|QID|29275|ACTIVE|-29276|PRE|29181&29272|M|66.01,66.05|Z|MoltenFront|N|From Anren Shadowseeker near the Forlorn Spire. If he isn't here anymore, close this step; you were offered The Flame Spider Queen instead.|
 C Enduring the Heat|QID|29210|M|57.70,49.50|Z|MoltenFront|N|Enter the Igneous Depths. Don't bother fighting any mobs that attack you, just run to one of the glowing blue runes and click on it to detonate, killing all mobs in the vicinity. Repeat until all the runes are gone.|S|
 C Fandral's Methods|QID|29275|N|Look for sparkling quest items while you are in the Igneous Depths. They're usually near the edges of the paths, just keep your eyes open.|
 C Enduring the Heat|QID|29210|M|57.70,49.50|Z|MoltenFront|N|Enter the Igneous Depths. Don't bother fighting any mobs that attack you, just run to one of the glowing blue runes and click on it to detonate, killing all mobs in the vicinity. Repeat until all the runes are gone.|US|

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('SL_COD', 'Leveling', 'Korthia!The Maw', 'WoWPro Team', 'Neutral')
+local guide = WoWPro:RegisterGuide('SL_COD', 'Leveling', 'Korthia', 'WoWPro Team', 'Neutral')
 WoWPro:GuideName(guide,"Chains of Domination Campaign")
 WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideLevels(guide, 60, 60)

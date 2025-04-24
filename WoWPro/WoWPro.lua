@@ -339,6 +339,7 @@ local defaults = { profile = {
     stickytitlefont = [[Fonts\FRIZQT__.TTF]],
     stickytitletextsize = 13,
     stickytitletextcolor = {1, 1, 1},
+    guideprogress = false,
 } }
 
 
@@ -908,6 +909,7 @@ function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, ex
 end
 
 local expansionOrder = {
+    ["Intro"] = 0,
     ["Classic"] = 1,
     ["The Burning Crusade"] = 2,
     ["Wrath of the Lich King"] = 3,

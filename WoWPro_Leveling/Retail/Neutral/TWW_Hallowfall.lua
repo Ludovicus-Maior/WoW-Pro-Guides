@@ -291,8 +291,11 @@ A Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|From Dolena.|RANK|2|
 C Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|Help the chef cook some food.|H|
 T Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
 
-A Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
-A Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|
+; Requires Campaign completion and lvl 80 or adventure mode
+A Keep the Home Fires Burning|QID|76247|PRE|79197|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|LVL|80|
+A Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|SPELL|World Quests & Adventure Mode;434027|
+A Seeds of Evil|QID|79108|M|61.18,30.51|PRE|79197|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|LVL|80|
+A Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|SPELL|World Quests & Adventure Mode;434027|
 C Seeds of Evil|QID|79108|M|61.40,28.20|Z|2215;Hallowfall|QO|1|N|Collect Corrupted Shadowleaf Seeds.|S|
 C Keep the Home Fires Burning|QID|76247|QO|1|M|61.20,30.54|Z|2215;Hallowfall|N|Loot some boxes of the ground.|H|S|
 A Eggs in One Basket|QID|80382|M|60.82,27.89|Z|2215;Hallowfall|N|From Egg Basket.|RANK|2|
