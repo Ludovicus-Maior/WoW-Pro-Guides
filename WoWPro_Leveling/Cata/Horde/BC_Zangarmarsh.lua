@@ -132,8 +132,8 @@ F Zabra'jin|QID|9708|M|84.77,55.01|N|Fly back to Zabra'jin.|
 A Spirits of the Feralfen|QID|9846|M|32.4,52.0|N|From Seer Janidi.|
 T Report to Shadow Hunter Denjai|QID|9775|M|30.7,50.9|N|To Shadow Hunter Denjai. He's at the top of the inn.|
 A Angling to Beat the Competition|QID|9845|M|32.2,49.6|N|From Zurjaya.|
-A WANTED: Boss Grog'ak|QID|9820|M|32.0,49.5|N|From the Wanted Poster.|
-A WANTED: Chieftain Mummaki|QID|10117|M|32.0,49.5|N|From the Wanted Poster.|
+A Wanted: Boss Grog'ak|QID|9820|M|32.0,49.5|N|From the Wanted Poster.|
+A Wanted: Chieftain Mummaki|QID|10117|M|32.0,49.5|N|From the Wanted Poster.|
 A Stinging the Stingers|QID|9841|M|31.6,49.2|N|From Gambarinka.|
 A Burstcap Mushrooms, Mon!|QID|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|
 C Burstcap Mushrooms, Mon!|QID|9814|NC|N|They're around Zabra'jin.|M|28.9,52.6|
@@ -142,7 +142,7 @@ K "Count" Ungula|QID|9911|L|25459|N|Kill and loot "Count" Ungula. He drops a que
 C Spirits of the Feralfen|QID|9846|N|Kill the Feralfen here for the totems.|M|50,62|
 C Angling to Beat the Competition|QID|9845|N|Kill Fenclaw Thrashers, use the potion of water breathing if needed.|M|50,41|U|25539|
 C Familiar Fungi|QID|9708|N|Kill and loot ogres in the Hewn Bog.|M|32,38|S|
-C WANTED: Boss Grog'ak|QID|9820|N|Head north to find Boss Grog'ak. He's not tough, but he does do a knockback, so be careful.|M|35,35|
+C Wanted: Boss Grog'ak|QID|9820|N|Head north to find Boss Grog'ak. He's not tough, but he does do a knockback, so be careful.|M|35,35|
 C Familiar Fungi|QID|9708|N|Kill and loot ogres in the Hewn Bog.|M|32,38|US|
 T Angling to Beat the Competition|QID|9845|M|32.2,49.6|N|To Zurjaya.|
 A The Biggest of Them All|QID|9903|PRE|9845|M|32.2,49.6|N|From Zurjaya.|
@@ -151,7 +151,7 @@ T Burstcap Mushrooms, Mon!|QID|9814|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
 A Have You Ever Seen One of These?|QID|9816|PRE|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|
 T Spirits of the Feralfen|QID|9846|M|32.4,52.0|N|To Seer Janidi.|
 A A Spirit Ally?|QID|9847|PRE|9846|M|32.4,52.0|N|From Seer Janidi.|
-T WANTED: Boss Grog'ak|QID|9820|M|30.7,50.9|N|To Shadow Hunter Denjai.|
+T Wanted: Boss Grog'ak|QID|9820|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 A Impending Attack|QID|9822|PRE|9820|M|30.7,50.9|N|From Shadow Hunter Denjai.|
 T Familiar Fungi|QID|9708|M|23.3,66.2|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.3,66.2|N|From Watcher Leesa'oh.|
@@ -161,7 +161,7 @@ T A Spirit Ally?|QID|9847|M|32.4,52.0|N|To Seer Janidi.|
 C The Biggest of Them All|QID|9903|N|Mragesh is just under the surface of Serpent Lake at the northeastern tip of the isle at .|M|42,42|
 C Stinging the Stingers|QID|9841|M|21.07,32.41|N|Kill Marshlight Bleeders.|S|
 C Have You Ever Seen One of These?|QID|9816|U|24470|N|Use the cage at the flat rock. Hilarity ensues with dancing Baby Murlocs as Daggerfen go fleeing.|M|27,23|
-C WANTED: Chieftain Mummaki|QID|10117|N|He's up the top of the main building. Kill and loot him.|M|23.8,26.8|
+C Wanted: Chieftain Mummaki|QID|10117|N|He's up the top of the main building. Kill and loot him.|M|23.8,26.8|
 C Impending Attack|QID|9822|N|Your end destination is Ango'rosh Grounds, and the tower. The attack plans are up the top.|M|19.9,27.1|
 C Pursuing Terrorclaw|QID|9904|N|He's on the southernmost isle of Marshlight Lake, around . You may want to clear the isle first, as he fears.|M|23,45|
 C Stinging the Stingers|QID|9841|M|21.07,32.41|N|Kill Marshlight Bleeders.|US|
@@ -170,7 +170,7 @@ A The Sharpest Blades|QID|9842|PRE|9841|M|31.6,49.2|N|From Gambarinka.|
 T Pursuing Terrorclaw|QID|9904|M|32.2,49.6|N|To Zurjaya.|
 T The Biggest of Them All|QID|9903|M|32.2,49.6|N|To Zurjaya.|
 T Have You Ever Seen One of These?|QID|9816|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
-T WANTED: Chieftain Mummaki|QID|10117|M|30.7,50.9|N|To Shadow Hunter Denjai.|
+T Wanted: Chieftain Mummaki|QID|10117|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 T Impending Attack|QID|9822|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 A Us or Them|QID|9823|PRE|9822|M|30.7,50.9|N|From Shadow Hunter Denjai.|
 A Message to the Daggerfen|QID|10118|M|30.7,50.9|N|From Shadow Hunter Denjai.|
