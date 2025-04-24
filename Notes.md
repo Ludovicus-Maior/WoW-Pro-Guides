@@ -2,7 +2,7 @@
 ## Bug Fixes
 * Update Retail Interface to 110105
 * Option to control % or step count in header
-*
+
 ## Guide Updates
 * Vanilla Leveling: Mulgore 1-12, Silverpine 12-15, Jame Horde 40-51
 * Cataclysm Leveling Horde: Borean Tundra, Dragonblight
