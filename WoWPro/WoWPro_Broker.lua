@@ -884,7 +884,7 @@ function WoWPro.TrashItem(use, step)
         for slot=1,slots do
             local id=_G.C_Container.GetContainerItemID(bag,slot)
             if id == use then
-                local itemName = WoWPro.C_Item_GetItemInfo(id)
+                local itemName = WoWPro.C_Item_GetItemInfo(id) or "this item" -- On retail the API intermittantly fails to return the name
                 local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
                 dialog.data = { step = step, itemName = itemName}
                 dialog.data2 = {bag = bag, slot = slot}
@@ -1343,6 +1343,16 @@ if step then
 				end
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
+            if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+                if key1 then
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
+                end
+                if key2 then
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
+                end
+                itemkb = true
+            end
         elseif use and WoWPro.SelectItemToUse(use) then
             local _, _use = WoWPro.SelectItemToUse(use)
 			currentRow.itemicon.item_IsVisible = nil
