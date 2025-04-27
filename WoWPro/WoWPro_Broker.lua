@@ -894,16 +894,14 @@ function WoWPro.TrashItem(use, step)
     end
 end
 
-function WoWPro.BindKeysToButton(itemkb, currentRow, i)
-    if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
+function WoWPro.BindKeysToButton(step)
         local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
         if key1 then
-            _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
+            _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..step..":LeftButton")
         end
         if key2 then
-            _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
+            _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..step..":LeftButton")
         end
-        itemkb = true
     end
 end
 
@@ -1356,7 +1354,10 @@ if step then
 				end
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
-            WowPro.BindKeysToButton(itemkb, currentRow, i)
+            if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
+                WowPro.BindKeysToButton(i)
+                itemkb = true
+            end
         elseif use and WoWPro.SelectItemToUse(use) then
             local _, _use = WoWPro.SelectItemToUse(use)
 			currentRow.itemicon.item_IsVisible = nil
@@ -1410,7 +1411,10 @@ if step then
 			end
 
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
-            WowPro.BindKeysToButton(itemkb, currentRow, i)
+            if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
+                WowPro.BindKeysToButton(i)
+                itemkb = true
+            end
         elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(WoWPro.PetIcon(WoWPro.switch[k]))
