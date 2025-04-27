@@ -1354,7 +1354,7 @@ if step then
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
-                WowPro.BindKeysToButton(i)
+                WoWPro.BindKeysToButton(i)
                 itemkb = true
             end
         elseif use and WoWPro.SelectItemToUse(use) then
@@ -1411,7 +1411,7 @@ if step then
 
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
-                WowPro.BindKeysToButton(i)
+                WoWPro.BindKeysToButton(i)
                 itemkb = true
             end
         elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
