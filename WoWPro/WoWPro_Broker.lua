@@ -895,13 +895,12 @@ function WoWPro.TrashItem(use, step)
 end
 
 function WoWPro.BindKeysToButton(step)
-        local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-        if key1 then
-            _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..step..":LeftButton")
-        end
-        if key2 then
-            _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..step..":LeftButton")
-        end
+    local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+    if key1 then
+        _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..step..":LeftButton")
+    end
+    if key2 then
+        _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..step..":LeftButton")
     end
 end
 
