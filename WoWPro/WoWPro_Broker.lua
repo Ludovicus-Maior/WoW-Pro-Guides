@@ -894,6 +894,19 @@ function WoWPro.TrashItem(use, step)
     end
 end
 
+function WoWPro.BindKeysToButton(itemkb, currentRow, i)
+    if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
+        local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+        if key1 then
+            _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
+        end
+        if key2 then
+            _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
+        end
+        itemkb = true
+    end
+end
+
 -- Select a fashionable Hearthstone
 local Stones = {
     [6948] = "Hearthstone",
@@ -1343,16 +1356,7 @@ if step then
 				end
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
-            if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
-                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-                if key1 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
-                end
-                if key2 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
-                end
-                itemkb = true
-            end
+            WowPro.BindKeysToButton(itemkb, currentRow, i)
         elseif use and WoWPro.SelectItemToUse(use) then
             local _, _use = WoWPro.SelectItemToUse(use)
 			currentRow.itemicon.item_IsVisible = nil
@@ -1406,16 +1410,7 @@ if step then
 			end
 
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
-            if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
-                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-                if key1 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
-                end
-                if key2 then
-                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembuttonSecure"..i..":LeftButton")
-                end
-                itemkb = true
-            end
+            WowPro.BindKeysToButton(itemkb, currentRow, i)
         elseif WoWPro.switch[k] and WoWPro.switch[k] > 0 then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(WoWPro.PetIcon(WoWPro.switch[k]))
