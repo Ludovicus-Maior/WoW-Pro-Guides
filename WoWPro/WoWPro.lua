@@ -895,7 +895,10 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
         table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, {
             text = GuideName,
             sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
-            func = function() WoWPro:LoadGuide(GID); end
+            func = function()
+                WoWPro:LoadGuide(GID)
+                CloseDropDownMenus()
+            end
         })
     end
 end
