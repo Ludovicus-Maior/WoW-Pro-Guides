@@ -897,7 +897,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
             sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
             func = function()
                 WoWPro:LoadGuide(GID)
-                CloseDropDownMenus()
+                _G.CloseDropDownMenus()
             end
         })
     end
