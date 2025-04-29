@@ -545,7 +545,7 @@ A Muddled Mind in the Mine|QID|79679|M|46.91,14.94|Z|2214; The Ringing Deeps|N|F
 T Muddled Mind in the Mine|QID|79679|M|48.62,8.90|Z|2214; The Ringing Deeps|N|To Munderut.|
 A Spinning Spore Spines|QID|79193|M|48.62,8.90|Z|2214; The Ringing Deeps|N|From Munderut.|RANK|2|
 C Spinning Spore Spines|QID|79193|M|49.59,10.93|Z|2214; The Ringing Deeps|QO|1|N|Collect spines.|
-T Spinning Spore Spines|QID|79193|M|48.62,8.90|Z|2214; The Ringing Deeps|N|To Munderut.|
+T Spinning Spore Spines|QID|79193|M|46.9,14.8|Z|2214; The Ringing Deeps|N|To Munderut.|
 A To the Source|QID|79194|M|46.95,14.89|Z|2214; The Ringing Deeps|N|From Keldaz.|RANK|2|
 T To the Source|QID|79194|M|51.17,11.11|Z|2214; The Ringing Deeps|N|To Keldaz.|
 A Raging Rifts|QID|79944|M|51.17,11.11|Z|2214; The Ringing Deeps|N|From Keldaz.|RANK|2|
