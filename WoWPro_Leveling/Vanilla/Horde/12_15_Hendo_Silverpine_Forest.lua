@@ -153,22 +153,26 @@ R Tirisfal Glades|ACTIVE|1358|M|61.86,64.98|Z|1420; Tirisfal Glades|N|Take the e
 ; --- Travel to Durotar (Orgrimmar)
 b Durotar|ACTIVE|1358|M|60.75,58.77|Z|1420; Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
 R Orgrimmar|ACTIVE|1358|M|45.52,12.07|Z|1454; Orgrimmar|N|Enter Orgrimmar by the front gate.|
-R Grommash Hold|AVAILABLE|1061|M|49.14,94.86|Z|1454; Orgrimmar|N|Go to The Valley of Wisdom.|
+R Grommash Hold|AVAILABLE|1061|M|39.45,37.06|Z|1454; Orgrimmar|N|Go to The Valley of Wisdom.|
 A The Spirits of Stonetalon|QID|1061|LEAD|1062|M|38.93,38.37|Z|1454; Orgrimmar|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]Probably the best time you'll get to grab this quest. It leads to a quest we will be doing in the next guide.|
 f Orgrimmar|ACTIVE|1358|M|45.12,63.89|Z|1454; Orgrimmar|N|From Doras.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|TAXI|-Orgrimmar|
 
 ; --- Druid 'Cure Poison' lv 14 class quest
-F Thunder Bluff|AVAILABLE|6126|M|51.54,30.35|Z|1413; The Barrens|N|Fly to Thunder Bluff.|R|Tauren|C|Druid|
+F Thunder Bluff|AVAILABLE|6126|M|45.21,63.85|Z|1454; Orgrimmar|N|Fly to Thunder Bluff.|R|Tauren|C|Druid|
 N Quest Items|AVAILABLE|6126|Z|1421; Silverpine Forest|L|-2449 5|N|You will need to bring 5 Earthroot with you for one of the quests in this series.|R|Tauren|C|Druid|
 A Lessons Anew|QID|6126|M|76.48,27.25|Z|1456; Thunder Bluff|N|From Turak Runetotem on Elder Rise.|R|Tauren|C|Druid|
 P Moonglade|ACTIVE|6126|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
 T Lessons Anew|QID|6126|M|56.19,30.65|Z|1450; Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
 A The Principal Source|QID|6127|PRE|6126|M|56.2,27.6|Z|1450; Moonglade|N|From Dendrite Starblaze.|R|Tauren|C|Druid|
 F Thunder Bluff|ACTIVE|6127|M|44.28,45.87|Z|1450; Moonglade|N|Fly to Thunder Bluff.\nThis flight takes about 9 minutes.|R|Tauren|C|Druid|
+= Druid Training|ACTIVE|6127|M|76.48,27.25|Z|1456; Thunder Bluff|N|Do your Druid training. you wont get a chance again for a few levels.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|R|Tauren|C|Druid|
+F Crossroads|ACTIVE|1358|M|46.82,49.83|Z|1456; Thunder Bluff|N|Tal|TAXI|Crossroads|R|Tauren|C|Druid|
+
 ; ---
 
 ; --- Travel to The Barrens (The Crossroads)
-F Crossroads|ACTIVE|1358|M|45.13,63.90|Z|1454; Orgrimmar|N|Doras|TAXI|Crossroads|
+
+F Crossroads|ACTIVE|1358|M|45.13,63.90|Z|1454; Orgrimmar|N|Doras|TAXI|Crossroads|R|Tauren|C|-Druid|
 R Leave Orgrimmar|ACTIVE|1358|M|45.52,12.10|Z|1411; Durotar|N|Exit Orgrimmar through the south gate.|TAXI|-Crossroads|
 R Far Watch Outpost|ACTIVE|1358|M|36.17,23.14;34.16,42.30|CC|Z|1411; Durotar|N|As you exit the gate, turn right and follow the wall west to the river. Follow the shoreline south to the bridge and cross over to the Barrens.|TAXI|-Crossroads|
 R The Crossroads|ACTIVE|1358|M|52.34,29.34|Z|1413; The Barrens|N|Take the road west and follow the signs. Sticking to the road is a safe bet as there may be mobs that are a few levels above you along your route.|TAXI|-Crossroads|

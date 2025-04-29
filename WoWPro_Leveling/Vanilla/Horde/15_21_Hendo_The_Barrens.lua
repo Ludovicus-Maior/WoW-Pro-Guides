@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('Classic-15-21-Hendo-TheBarrens', 'Leveling', 'The Barrens', 'Hendo72', 'Horde', 1)
 WoWPro:GuideName(guide, 'The Barrens')
-WoWPro:GuideLevels(guide, 10, 17, 13)
+WoWPro:GuideLevels(guide, 15, 21, 18)
 WoWPro:GuideNextGuide(guide, 'Classic-21-30-Hendo-HordeChapter1')
 WoWPro:GuideSteps(guide, function() return [[
 
@@ -11,7 +11,7 @@ h The Crossroads|ACTIVE|1358|M|51.99,29.89|Z|1413; The Barrens|N|At Innkeeper Bo
 
 ; --- Druid 'Cure Poison' lv 14 class quest cont.
 R Dreadmist Peak|QID|6127|M|52.34,29.33;51.05,22.63;48.30,18.96|CC|Z|1413; The Barrens|N|Leave the Crossroads by the north road, head for the mountain on your left and climb it. Once you're at the top, locate the small pond on Dreadmist Peak.|C|Druid|
-C The Principal Source|QID|6127|QO|1|Z|1413; The Barrens|N|<coords>Fill the Dreadmist Peak Sampler.\n[color=FF0000]NOTE: [/color]Be prepared for a fight because 2-3 mobs will spawn and attack you. You can either stand and fight, or use an HoT and Bear form to escape.|U|15842|C|Druid|NC|
+C The Principal Source|QID|6127|QO|1|M|48.41,18.90|Z|1413; The Barrens|N|Fill the Dreadmist Peak Sampler.\n[color=FF0000]NOTE: [/color]Be prepared for a fight because 2-3 mobs will spawn and attack you. You can either stand and fight, or use an HoT and Bear form to escape.|U|15842|C|Druid|NC|
 T The Principal Source|QID|6127|M|52.26,31.93|Z|1413; The Barrens|N|To Tonga Runetotem in the Crossroads.|C|Druid|
 A Gathering the Cure|QID|6128|PRE|6127|M|52.26,31.93|Z|1413; The Barrens|N|From Tonga Runetotem.|C|Druid|
 C Lost Plain Kodos|QID|6128|M|50.06,40.85|Z|1413; The Barrens|L|15852 5|N|Leave the Crossroads from the south gate and head towards the 2 mountain peaks. You'll find the Kodos on either side of the road. Kill them and loot their horns.|C|Druid|
@@ -40,7 +40,7 @@ F Camp Taurajo|AVAILABLE|886|LEAD|870|M|51.50,30.33|Z|1413; The Barrens|N|Fly to
 F Thunder Bluff|AVAILABLE|886|LEAD|870|M|44.44,59.15|Z|1413; The Barrens|N|Fly to Thunder Bluff.|TAXI|Thunder Bluff|
 
 C Plainstrider Menace|QID|844|M|49.05,51.22|Z|1413; The Barrens|L|5087 7|ITEM|5087|N|any type of Plainstriders in The Barrens.|S|
-C Raptor Thieves|QID|869|Z|1413; The Barrens|L|5062 12|ITEM|5062|N|any Raptor. They can be found all across the Barrens and their levels increase as you move south.\n[color=FF0000]NOTE: [/color]Kill them as you see them or you'll end up roaming for them later.|S|
+C Raptor Thieves|QID|869|Z|1413; The Barrens|L|5062 12|ITEM|5062|N|any Raptor. They can be found all across the Barrens and their levels increase as you move south.\n[color=FF0000]NOTE: [/color]Kill them as you see them or you'll end up roaming for them later.|S|IZ|The Barrens|
 R Southern Gold Road|AVAILABLE|886|M|51.06,48.98|Z|1413; The Barrens|N|Leave Crossroads through the south gate and follow the road south-ish to the bridge.\nStick to the road unless you enjoy corpse running.\nThere is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
 C Lost in Battle|QID|4921|AVAILABLE|886|QO|1|M|49.33,50.34|Z|1413; The Barrens|N|Click on the "Beaten Corpse" found near a few small Tauren buildings a little ways down the road.\n[color=FF0000]NOTE: [/color]Be very careful of the higher level mobs around it.\nSkip this if it's too difficult to do right now.|TAXI|-Camp Taurajo|NC|
 R Camp Taurajo|AVAILABLE|886|M|47.31,57.64;46.29,58.00|CC|Z|1413; The Barrens|N|Continue south down the road to Camp Taurajo.\nStick to the road unless you enjoy corpse running.\nThere is only one graveyard in The Barrens and it's at The Crossroads.|TAXI|-Camp Taurajo|
@@ -68,7 +68,7 @@ C The Zhevra|QID|845|M|43.03,28.16|Z|1413; The Barrens|L|5086 4|ITEM|5086|N|Zhev
 R Unnamed Watch Post|AVAILABLE|850^855|M|45.49,28.40|CC|Z|1413; The Barrens|N|Follow the road west out of the Crossroads.|
 A Centaur Bracers|QID|855|M|45.34,28.42|Z|1413; The Barrens|N|From Regthar Deathgate.|
 A Kolkar Leaders|QID|850|M|45.34,28.42|Z|1413; The Barrens|N|From Regthar Deathgate.|
-C Centaur Bracers|QID|855|Z|1413; The Barrens|L|5030 15|ITEM|5030|N|centaurs.|S|
+C Centaur Bracers|QID|855|Z|1413; The Barrens|L|5030 15|ITEM|5030|N|centaurs.|S|IZ|The Barrens|
 R The Forgotten Pools|ACTIVE|848|QO|1|M|44.8,22.9|Z|1413; The Barrens|N|Head north to the waterhole in the center of The Forgotten Pools.|
 C Fungal Spores|QID|848|M|45.28,22.09|Z|1413; The Barrens|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\n[color=FF0000]NOTE: [/color]Try to avoid the big packs of centaurs.|S|
 C The Forgotten Pools|ACTIVE|870|QO|1|M|45.06,22.54|Z|1413; The Barrens|N|Enter the lake and swim over the crack at the bottom with some bubbles flowing out of it.|NC|
@@ -98,7 +98,7 @@ C Curing the Sick|QID|6129|QO|1|Z|1413; The Barrens|N|Use the salve on 10 Sickly
 P Moonglade|ACTIVE|6129|N|Use your Teleport: Moonglade.|C|Druid|
 T Curing the Sick|QID|6129|M|56.19,30.65|Z|1450; Moonglade|N|To Dendrite Starblaze.|C|Druid|
 A Power over Poison|QID|6130|PRE|6129|M|56.19,30.65|Z|1450; Moonglade|N|From Dendrite Starblaze.|C|Druid|
-= Level 16 Training|ACTIVE|6130|M|PLAYER|CC|N|Do your level 16 training with Loganaar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|16|C|Druid|IZ|1450; Moonglade|
+= Level 16 Training|ACTIVE|6130|M|52.37,40.46|Z|1450;Moonglade|N|Do your level 16 training with Loganaar.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|16|C|Druid|IZ|1450; Moonglade|
 F Thunder Bluff|ACTIVE|6130|M|44.28,45.87|Z|1450; Moonglade|N|\n[color=FF0000]NOTE: [/color]This flight takes about 9 minutes.|C|Druid|
 T Power over Poison|QID|6130|M|76.48,27.25|Z|1456; Thunder Bluff|N|From Turak Runetotem.|C|Druid|
 
@@ -121,9 +121,9 @@ F Orgrimmar|ACTIVE|30|M|51.50,30.33|C|Druid|
 b Tirisfal Glades|ACTIVE|30|M|50.88,13.83|Z|1411; Durotar|N|Take the Zeppelin to Tirisfal Glades.|C|Druid|
 R Undercity|ACTIVE|30|M|61.86,65.04|Z|1420; Tirisfal Glades|N|Enter Undercity.|C|Druid|
 F The Sepulcher|ACTIVE|30|M|62.89,48.16|Z|1458; Undercity|C|Druid|
-R The Great Sea|ACTIVE|30|Z|1413; The Barrens|N|<coords>Follow the path north out of The Sepulcher and make your way to the shoreline.|C|Druid|
-C Strange Lockbox|QID|30|M|29.57,29.36|Z|1413; The Barrens|L|15882|N|Loot the Half Pendant of Aquatic Endurance from the Lockbox.\n[color=FF0000]NOTE: [/color]Swim out to the coordinates and dive to the bottom.|C|Druid|
-H The Crossroads|AVAILABLE|887|M|51.99,29.89|Z|1413; The Barrens|N|Hearth back to The Crossroads.|C|Druid|
+R The Great Sea|ACTIVE|30|M|51.24,36.60;50.32,25.94;29.60,29.07|CS|Z|1421;Silverpine Forest|N|Follow the path north out of The Sepulcher and make your way to the shoreline.|C|Druid|
+C Strange Lockbox|QID|30|M|29.60,29.07|Z|1421;Silverpine Forest|L|15882|N|Loot the Half Pendant of Aquatic Endurance from the Lockbox.\n[color=FF0000]NOTE: [/color]Swim out to the coordinates and dive to the bottom.|C|Druid|
+H The Crossroads|AVAILABLE|887|M|PLAYER|Z|1421;Silverpine Forest|N|Hearth back to The Crossroads.|C|Druid|
 ; ---
 
 F Crossroads|AVAILABLE|887|N|Return to The Crossroads.|TZ|The Crossroads|C|-Druid|

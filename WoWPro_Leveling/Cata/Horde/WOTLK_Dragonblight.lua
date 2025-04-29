@@ -74,7 +74,7 @@ C Scourge Armaments|QID|12048|M|26.9,43.3|N|Kill and loot Anub'ar to get the arm
 C Avenge this Atrocity! |QID|12006|S|N|Kill any Blue Dragonflight Force mob you see.|M|19,58|
 K Wind Trader Mu'fah |QID|12005|L|35800|N|Clear the way to the other side of the crater. Find and kill Wind Trader Mu'fah . He's standing infront of the door of that big stone building. Loot Wind Trader Mu'fah's Remains.|M|18.44,58.88|
 K Goramosh |QID|12005|L|35801|N|Go inside the building, take the slope going up left. Kill Goramosh, loot The Scales of Goramosh and Goramosh's Strange Device. |M|19.50,58.16|
-A A Strange Device |QID|12059|PRE|12055|U|36746|N|Right-click A Strange Device to start the quest.|M|19.4,58.1|
+A A Strange Device |QID|12059|U|36746|N|Right-click A Strange Device to start the quest.|M|19.4,58.1|
 C Wanted: Magister Keldonus |QID|12089|N|Kill Magister Keldonus.|M|21,63.4|
 C Avenge this Atrocity! |QID|12006|US|N|Finish killing the needed mobs.|M|19,58|
 T Avenge this Atrocity! |QID|12006|N|To Ethenial Moonshadow.|M|24.00,60.00|
@@ -105,7 +105,7 @@ T End Arcanimus |QID|12013|N|Use the Surge Needle Teleporter, then turn this que
 T Blightbeasts be Damned! |QID|12072|N|To Valnok Windrager.|M|37.2,45.7|
 T Projections and Plans |QID|12061|M|38.1,46.2|N|To the Image of Archmage Aethas Sunreaver.|
 A The Focus on the Beach |QID|12066|M|38.1,46.2|PRE|12061|N|From the Image of Archmage Aethas Sunreaver.|
-K Captain Emmy Malin |QID|12066|L|36751|M|26,65|N|You may need to kill mobs in the area until she spawns.|
+K Captain Emmy Malin |ACTIVE|12066|L|36751|M|26,65|N|You may need to kill mobs in the area until she spawns.|
 C The Focus on the Beach |QID|12066|U|36751|N|Get close to the big arch and use the Ley Line Focus Control Ring you just looted.|M|26.4,65.0|
 T The Focus on the Beach |QID|12066|N|To the Image of Archmage Aethas Sunreaver.|M|38.1,46.2|
 A Atop the Woodlands |QID|12084|M|38.1,46.2|PRE|12066|N|From the Image of Archmage Aethas Sunreaver.|
