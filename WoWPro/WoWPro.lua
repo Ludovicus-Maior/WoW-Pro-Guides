@@ -895,7 +895,10 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
         table.insert(GuideMenuList[AddonIndex].menuList[GTypeIndex].menuList, {
             text = GuideName,
             sortlevel = WoWPro.Guides[GID].sortlevel, -- if there is a sortlevel, snatch it!
-            func = function() WoWPro:LoadGuide(GID); end
+            func = function()
+                WoWPro:LoadGuide(GID)
+                _G.CloseDropDownMenus()
+            end
         })
     end
 end
@@ -943,6 +946,8 @@ local function SortNestedMenu(menu, top)
                     tostring(b.isTitle), tostring(b.sortlevel), tostring(b.text))
         if a.isTitle then return true; end
         if b.isTitle then return false; end
+        if a.text == "Intro" then return true; end
+        if b.text == "Intro" then return false; end
         if a.sortlevel then return (a.sortlevel or 100) < (b.sortlevel or 100); end
         if expansionOrder[a.text] and expansionOrder[b.text] then
             return expansionOrder[a.text] < expansionOrder[b.text]
