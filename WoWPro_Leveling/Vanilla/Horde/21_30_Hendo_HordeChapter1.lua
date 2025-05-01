@@ -288,7 +288,7 @@ F Thunder Bluff|ACTIVE|1086|M|45.13,59.84|Z|1442; Stonetalon Mountains|N|Fly to 
 R The Pools of Vision|ACTIVE|1086|M|30.50,30.48|Z|1456; Thunder Bluff|N|Make your way to the cave beneath Spirit Rise.|
 T The Flying Machine Airport|QID|1086|M|23.06,21.07|Z|1456; Thunder Bluff|N|To Apothecary Zamah.|
 = Level 26 Training|AVAILABLE|1195|M|PLAYER|CC|N|Do your level 26 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|26|C|Druid|IZ|1456; Thunder Bluff|
-A The Sacred Flame|QID|1195|M|55.01,51.41|Z|1456; Thunder Bluff|N|From Zangen Stonehoof.|
+A The Sacred Flame|QID|1195|M|54.97,51.41|Z|1456; Thunder Bluff|N|From Zangen Stonehoof.|
 
 ; --- Hillsbrad Foothills
 F Orgrimmar|AVAILABLE|502|ACTIVE|1195|M|47.02,49.83|Z|1456; Thunder Bluff|
@@ -504,7 +504,8 @@ L Level 30|QID|6283|M|PLAYER|CC|N|Grind until you're within 2 bubbles of level 3
 R Sun Rock Retreat|ACTIVE|6283|M|49.58,60.99|Z|1442; Stonetalon Mountains|N|Head back to Sun Rock Retreat.|
 T Bloodfury Bloodline|QID|6283|M|47.20,61.16|Z|1442; Stonetalon Mountains|N|To Maggran Earthbinder.|
 F Thunder Bluff|ACTIVE|1195|M|45.13,59.84|Z|1442; Stonetalon Mountains|N|Fly to Thunder Bluff to go see Zangen Stonehoof.|
-T The Sacred Flame|QID|1195|M|54.74,51.41|Z|1456; Thunder Bluff|N|To Zangen Stonehoof.|
+T The Sacred Flame|QID|1195|M|54.97,51.41|Z|1456; Thunder Bluff|N|To Zangen Stonehoof.|
+A The Sacred Flame|QID|1196|PRE|1195|M|54.97,51.41|Z|1456; Thunder Bluff|N|From Zangen Stonehoof.|
 = Level 30 Training|AVAILABLE|515|PRE|1195|M|PLAYER|CC|N|Do your level 30 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|30|IZ|Thunder Bluff|C|Druid|
 F Orgrimmar|AVAILABLE|515|PRE|1195|M|47.02,49.83|Z|1456; Thunder Bluff|N|Fly to Orgrimmar to continue to Undercity.|C|Druid|
 F Orgrimmar|AVAILABLE|515|PRE|1195|M|47.02,49.83|Z|1456; Thunder Bluff|N|Fly to Orgrimmar to train before continuing on to Undercity.|C|-Druid|
