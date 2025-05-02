@@ -71,7 +71,7 @@ T Bloody Business|QID|83147|M|70.56,88.67|Z|2214; The Ringing Deeps|N|To Orweyna
 A X-Treme Chill|QID|83148|PRE|85444&83147|M|70.52,88.74|Z|2214; The Ringing Deeps|N|From Monte Gazlowe.|
 A Avenge Them|QID|83149|PRE|85444&83147|M|70.48,88.76|Z|2214; The Ringing Deeps|N|From Renzik "The Shiv".|
 C X-Treme Chill|QID|83148|QO|1|M|73.44,96.09|Z|2214; The Ringing Deeps|N|Collect them off the ground or kill the slimes and loot them.|S|H|
-K Gozzic Cogcrane|ACTIVE|83149|QO|1|M|72.35,96.99|Z|2214; The Ringing Deeps|N|Gozzic Cogcrane slain.|T|Gozzic Cogcrane|
+K Gozzic Cogcrane|ACTIVE|83149|QO|1|M|72.35,96.99|Z|2214; The Ringing Deeps|N|Gozzic Cogcrane slain.|T|Gozzic's Bloody Shredder|
 C Avenge Them|QID|83149|QO|2|M|72.35,96.99|Z|2214; The Ringing Deeps|N|Correspondence from Zirdo.|
 C X-Treme Chill|QID|83148|QO|1|M|73.44,96.09|Z|2214; The Ringing Deeps|N|Collect them off the ground or kill the slimes and loot them.|US|H|
 T Avenge Them|QID|83149|M|70.48,88.76|Z|2214; The Ringing Deeps|N|To Renzik "The Shiv".|
@@ -213,14 +213,16 @@ C Price Hike|QID|83125|M|29.95,69.48|Z|2346; Undermine|QO|3|NC|N|Meet Gazlowe at
 T Price Hike|QID|83125|M|29.24,69.55|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Ethereal Invasion|QID|83126|PRE|83125|M|29.48,69.50|Z|2346; Undermine|N|From Alleria Windrunner.|
 A Phase Shift|QID|85449|PRE|83125|M|29.46,69.30|Z|2346; Undermine|N|From Alleria Windrunner.|
-C Ethereal Invasion|QID|83126|M|28.79,62.94|QO|1|N|Ethereals slain.|S|
-C Phase Shift|QID|85449|M|34.16,70.12|QO|1|NC|N|Phase Resonance destroyed.|
-C Ethereal Invasion|QID|83126|M|28.79,62.94|QO|1|N|Ethereals slain.|US|
+C Ethereal Invasion|QID|83126|M|28.79,62.94|Z|2346; Undermine|QO|1|N|Ethereals slain.|S|
+C Phase Shift|QID|85449|M|34.16,70.12|Z|2346; Undermine|QO|1|NC|N|Phase Resonance destroyed.|
+C Ethereal Invasion|QID|83126|M|28.79,62.94|Z|2346; Undermine|QO|1|N|Ethereals slain.|US|
 T Ethereal Invasion|QID|83126|M|34.20,70.41|Z|2346; Undermine|N|To Alleria Windrunner.|
 T Phase Shift|QID|85449|M|34.20,70.41|Z|2346; Undermine|N|To Alleria Windrunner.|
 A Evacuation Plan|QID|85450|PRE|83126&85449|M|34.20,70.41|Z|2346; Undermine|N|From Alleria Windrunner.|
-C Evacuation Plan|QID|85450|M|26.95,71.99|QO|1|CHAT|N|Speak to Gazlowe inside the laboratory.|
+C Evacuation Plan|QID|85450|M|26.95,71.99|Z|2346; Undermine|QO|1|CHAT|N|Speak to Gazlowe inside the laboratory.|
 T Evacuation Plan|QID|85450|M|26.93,72.00|Z|2346; Undermine|N|To Monte Gazlowe.|
+A Racing the Clock|QID|83127|PRE|85450|M|26.93,72.00|Z|2346; Undermine|N|From Monte Gazlowe.|
+T Racing the Clock|QID|83127|M|55.77,63.45|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Get Our People Out|QID|83128|PRE|83127|M|55.67,63.63|Z|2346; Undermine|N|From Monte Gazlowe.|
 C Get Our People Out|QID|83128|M|55.04,59.30|Z|2346;Venture Storage|N|Ethereal Heartseeker slain.|EAB|
 C Get Our People Out|QID|83128|M|58.34,59.22|QO|3|NC|N|Cave entrance found.|
@@ -236,13 +238,13 @@ A End of the Day|QID|83138|PRE|83130|M|38.95,24.73|Z|2346; Undermine|N|From Mont
 C End of the Day|QID|83138|M|38.95,24.73|QO|1|CHAT|N|Speak to Renzik.|
 T End of the Day|QID|83138|M|39.69,24.15|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Under Fire|QID|83194|PRE|83138|M|39.69,24.15|Z|2346; Undermine|N|From Monte Gazlowe.|
-C Under Fire|QID|83194|M|39.81,24.00|QO|1|NC|N|Talk to Gazlowe.|
-C Under Fire|QID|83194|M|39.86,24.45|QO|2|NC|N|Affirm Noggenfogger's Support.|
-C Under Fire|QID|83194|M|39.86,24.45|QO|4|NC|N|Affirm Grimla's Support.|
-C Under Fire|QID|83194|M|39.88,24.15|QO|3|NC|N|Affirm Revilgaz's Support.|
+C Under Fire|QID|83194|M|39.81,24.00|Z|2346; Undermine|QO|1|NC|N|Talk to Gazlowe.|
+C Under Fire|QID|83194|M|39.86,24.45|Z|2346; Undermine|QO|2|NC|N|Affirm Noggenfogger's Support.|
+C Under Fire|QID|83194|M|39.86,24.45|Z|2346; Undermine|QO|4|NC|N|Affirm Grimla's Support.|
+C Under Fire|QID|83194|M|39.88,24.15|Z|2346; Undermine|QO|3|NC|N|Affirm Revilgaz's Support.|
 T Under Fire|QID|83194|M|39.79,24.28|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Get Out There|QID|85174|PRE|83194|M|39.79,24.28|Z|2346; Undermine|N|From Monte Gazlowe.|
-C Get Out There|QID|85174|M|39.79,24.28|QO|1|NC|N|Begin the Revolution.|
+C Get Out There|QID|85174|M|39.79,24.28|Z|2346; Undermine|QO|1|NC|N|Begin the Revolution.|
 T Get Out There|QID|85174|M|48.69,40.78|Z|2346; Undermine|N|To Dirk Greasedealer.|
 A Rally the People|QID|83195|PRE|85174|M|48.69,40.78|Z|2346; Undermine|N|From Dirk Greasedealer.|
 A Disperse!|QID|83196|PRE|85174|M|48.69,40.78|Z|2346; Undermine|N|From Dirk Greasedealer.|
@@ -260,21 +262,21 @@ C Who Owns the Streets?|QID|83197|M|50.31,32.23|QO|2|N|Defeat Nikki's Monstrosit
 T Who Owns the Streets?|QID|83197|M|58.47,33.17|Z|2346; Undermine|N|To Baron Revilgaz.|
 A Backyard Navy|QID|83198|PRE|83197|M|58.47,33.17|Z|2346; Undermine|N|From Baron Revilgaz.|
 A Been Savin' This One|QID|83199|PRE|83197|M|58.47,33.17|Z|2346; Undermine|N|From Marin Noggenfogger.|
-C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|N|Sliced Limes.|S|
+C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|N|Sliced Limes.|S|U|226217|
 l Cannonballs|ACTIVE|83198|M|63.42,18.96|QO|1|N|Kill Darkfuse or loot them off the piles by the water.|
 C Backyard Navy|QID|83198|M|61.78,24.39|QO|2|NC|N|Darkfuse Joyrider sunk.|EAB|
-C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|N|Sliced Limes.|US|
+C Been Savin' This One|QID|83199|M|63.42,18.96|QO|1|NC|N|Sliced Limes.|US|U|226217|
 T Backyard Navy|QID|83198|M|63.96,17.23|Z|2346; Undermine|N|To Fleet Master Seahorn.|
 T Been Savin' This One|QID|83199|M|63.96,17.23|Z|2346; Undermine|N|To Fleet Master Seahorn.|
 A A Vast, Ye Swabs|QID|83200|PRE|83198&83199|M|63.93,17.27|Z|2346; Undermine|N|From Fleet Master Seahorn.|
-C A Vast, Ye Swabs|QID|83200|M|63.93,17.27|QO|1|NC|N|Noggenfogger Deluxe Mixed.|EAB|
-C A Vast, Ye Swabs|QID|83200|M|63.93,17.27|QO|2|NC|N|Give the potion to Seahorn.|
+C A Vast, Ye Swabs|QID|83200|M|63.93,17.27|Z|2346; Undermine|QO|1|NC|N|Noggenfogger Deluxe Mixed.|EAB|
+C A Vast, Ye Swabs|QID|83200|M|63.93,17.27|Z|2346; Undermine|QO|2|NC|N|Give the potion to Seahorn.|
 T A Vast, Ye Swabs|QID|83200|M|63.97,17.21|Z|2346; Undermine|N|To Fleet Master Seahorn.|
 A Tougher Than We Thought|QID|85562|PRE|83200|M|63.97,17.21|Z|2346; Undermine|N|From Fleet Master Seahorn.|
 A Repel the Invaders|QID|85724|PRE|83200|M|63.97,17.21|Z|2346; Undermine|N|From Fleet Master Seahorn.|
-C Tougher Than We Thought|QID|85562|M|64.97,15.17|QO|1|N|Black Blood Smugglers slain.|S|
-C Repel the Invaders|QID|85724|M|60.39,10.01|QO|1|N|Dockmaster Skeez slain.|
-C Tougher Than We Thought|QID|85562|M|64.97,15.17|QO|1|N|Black Blood Smugglers slain.|US|
+C Tougher Than We Thought|QID|85562|M|64.97,15.17|Z|2346; Undermine|QO|1|N|Black Blood Smugglers slain.|S|
+K Dockmaster Skeez|ACTIVE|85724|M|60.39,10.01|Z|2346; Undermine|QO|1|N|Dockmaster Skeez slain.|T|Dockmaster Skeez|
+C Tougher Than We Thought|QID|85562|M|64.97,15.17|Z|2346; Undermine|QO|1|N|Black Blood Smugglers slain.|US|
 T Tougher Than We Thought|QID|85562|M|62.01,9.82|Z|2346; Undermine|N|To Fleet Master Seahorn.|
 T Repel the Invaders|QID|85724|M|62.01,9.82|Z|2346; Undermine|N|To Fleet Master Seahorn.|
 A Expedited Delivery|QID|83201|PRE|85562&85724|M|62.01,9.82|Z|2346; Undermine|N|From Fleet Master Seahorn.|
@@ -284,9 +286,9 @@ T Expedited Delivery|QID|83201|M|45.31,57.43|Z|2346; Undermine|N|To Grimla Fizzl
 A Weapons Hot|QID|83203|PRE|83201|M|45.17,57.51|Z|2346; Undermine|N|From Orweyna.|
 A Punching Up|QID|83202|PRE|83201|M|45.28,57.43|Z|2346; Undermine|N|From Grimla Fizzlecrank.|
 C Weapons Hot|QID|83203|M|48.50,64.79|QO|1|NC|Z|2346; Undermine|N|Black Blood Weapons Eliminated .|S|
-C Punching Up|QID|83202|M|49.75,59.85|QO|3|Z|2346; Undermine|N|Fusetwister Trish slain.|
-C Punching Up|QID|83202|M|48.99,65.71|QO|2|Z|2346; Undermine|N|Underboss Paulie slain.|
-C Punching Up|QID|83202|M|44.38,68.53|QO|1|Z|2346; Undermine|N|Foreman Luddy slain.|
+K Fusetwister Trish|ACTIVE|83202|M|49.75,59.85|QO|3|Z|2346; Undermine|N|Fusetwister Trish slain.|T|Fusetwister Trish|
+K Underboss Paulie|ACTIVE|83202|M|48.99,65.71|QO|2|Z|2346; Undermine|N|Underboss Paulie slain.|T|Underboss Paulie|
+K Foreman Luddy|ACTIVE|83202|M|44.38,68.53|QO|1|Z|2346; Undermine|N|Foreman Luddy slain.|T|Foreman Luddy|
 C Weapons Hot|QID|83203|M|48.50,64.79|QO|1|NC|Z|2346; Undermine|N|Black Blood Weapons Eliminated .|US|
 T Punching Up|QID|83202|M|48.54,77.50|Z|2346; Undermine|N|To Grimla Fizzlecrank.|
 T Weapons Hot|QID|83203|M|48.56,77.37|Z|2346; Undermine|N|To Orweyna.|
@@ -296,8 +298,8 @@ C The Thingamajig|QID|83204|M|54.45,77.81|NC|Z|2346; Undermine|N|Collect all the
 C Production Halted|QID|83205|M|57.08,79.40|QO|1|NC|Z|2346; Undermine|N|North Stockpile destroyed.|EAB|
 C Production Halted|QID|83205|M|55.99,80.52|QO|2|NC|Z|2346; Undermine|N|South Stockpile destroyed.|EAB|
 C Production Halted|QID|83205|M|57.56,82.02|QO|3|NC|Z|2346; Undermine|N|West Stockpile destroyed.|EAB|
-C Production Halted|QID|83205|M|57.46,81.64|QO|4|Z|2346; Undermine|N|Bloody Amalgam slain.|
-C The Thingamajig|QID|83204|M|54.45,77.81|QO|4|NC|Z|2346; Undermine|N|Collect all the parts.|US|
+K Bloody Amalgam|ACTIVE|83205|M|57.46,81.64|QO|4|Z|2346; Undermine|N|Bloody Amalgam slain.|T|Bloody Amalgam|
+C The Thingamajig|QID|83204|M|54.45,77.81|NC|Z|2346; Undermine|N|Collect all the parts.|US|
 T The Thingamajig|QID|83204|M|56.48,67.64|Z|2346; Undermine|N|To Pamsy.|
 T Production Halted|QID|83205|M|56.45,67.69|Z|2346; Undermine|N|To Grimla Fizzlecrank.|
 A Ready Check|QID|86417|PRE|83204&83205|M|56.45,67.69|Z|2346; Undermine|N|From Grimla Fizzlecrank.|
@@ -315,6 +317,28 @@ T My Top Gal|QID|83207|M|57.25,44.73|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Right Where We Want Him|QID|85780|PRE|83207|M|57.25,44.73|Z|2346; Undermine|N|From Monte Gazlowe.|
 T Right Where We Want Him|QID|85780|M|43.62,51.03|Z|2346; Undermine|N|To Monte Gazlowe.|
 A Liberation of Undermine: The House Loses|QID|86204|PRE|85780|M|43.62,51.03|Z|2346; Undermine|N|From Monte Gazlowe.|
+C Liberation of Undermine: The House Loses|QID|86204|M|PLAYER|Z|2346; Undermine|N|Kill Gallywix in story mode.|
+T Liberation of Undermine: The House Loses|QID|86204|M|27.44,71.23|Z|2346; Undermine|N|To Marin Noggenfogger.|
+A Things Left Undone|QID|87321|M|27.44,71.23|Z|2346; Undermine|N|From Marin Noggenfogger.|
+T Things Left Undone|QID|87321|M|42.52,51.64|Z|2346; Undermine|N|To Monte Gazlowe.|
+A Settled Dust|QID|85190|M|42.52,51.64|Z|2346; Undermine|N|From Monte Gazlowe.|
+C Settled Dust|QID|85190|QO|1|M|42.52,51.64|Z|2346; Undermine|N|Talk to Gazlowe.|
+C Settled Dust|QID|85190|QO|2|M|42.52,51.64|Z|2346; Undermine|N|Wait and listen to the conversation.|
+P Westfall|ACTIVE|85190|QO|3|M|42.84,52.06|Z|2346; Undermine|N|Take the portal to Westfall.|
+T Settled Dust|QID|85190|M|29.99,86.04|Z|52; Westfall|N|To Master Mathias Shaw.|
+A Cut After Cut|QID|85191|M|29.99,86.04|Z|52; Westfall|N|From Master Mathias Shaw.|
+C Cut After Cut|QID|85191|QO|1<1|M|30.14,86.42|Z|52; Westfall|N|Pull the knife out of the target on the side of the house.|H|
+C Cut After Cut|QID|85191|QO|1<2|M|29.68,85.33|Z|52; Westfall|N|Down on the dock grab the fishing pole propped against the boxs.|H|
+C Cut After Cut|QID|85191|QO|1<3|M|30.56,85.89|Z|52; Westfall|N|Grab the map ontop of the barrels to the other side of the house.|H|
+T Cut After Cut|QID|85191|M|29.99,86.04|Z|52; Westfall|N|To Master Mathias Shaw.|
+A Coming Home|QID|85192|M|29.99,86.04|Z|52; Westfall|N|From Master Mathias Shaw.|
+P Undermine|ACTIVE|85192|QO|1|M|29.57,85.99|Z|52; Westfall|N|Take the portal back to The Undermine.|
+C Coming Home|QID|85192|QO|2|M|39.18,23.25|Z|2346; Undermine|N|Talk to Gazlowe upstairs.|
+C Coming Home|QID|85192|QO|3|M|39.18,23.25|Z|2346; Undermine|N|Collect Renzik's ashes.|
+C Coming Home|QID|85192|QO|4|M|39.17,23.52|Z|2346; Undermine|N|Stand in the circle and use the Extra Action Button.|EAB|
+T Coming Home|QID|85192|M|39.18,23.25|Z|2346; Undermine|N|To Monte Gazlowe.|
+A Cashing the Check|QID|87297|M|39.18,23.25|Z|2346; Undermine|N|From Monte Gazlowe.|
+T Cashing the Check|QID|87297|M|43.46,51.16|Z|2346; Undermine|N|To Grimla Fizzlecrank.|
 
 N THIS CONCLUDES THE CAMPAIGN PORTION OF THIS GUIDE. SIDE QUESTS ARE WORK IN PROGRESS. PLEASE PROVIDE FEED BACK IF YOU WANT THEM AFTER THIS SECTION OR INTERWOVEN INTO THE GUIDE.
 
