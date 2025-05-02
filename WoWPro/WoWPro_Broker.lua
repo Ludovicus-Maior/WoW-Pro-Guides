@@ -1729,8 +1729,12 @@ function WoWPro.UpdateGuideReal(From)
         WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
     else
         -- Show as percentage
-        local percentage = math.floor((p / WoWProCharDB.Guide[GID].total) * 100)
-        WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+        if WoWProCharDB.Guide[GID].total > 0 then
+            local percentage = math.floor((p / WoWProCharDB.Guide[GID].total) * 100)
+            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+        else
+            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (0%)")
+        end
     end
 
     -- TODO: make next lines module specific
@@ -1740,8 +1744,12 @@ function WoWPro.UpdateGuideReal(From)
         if WoWProDB.profile.guideprogress then
             WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
         else
-            local percentage = math.floor((currentStep / total) * 100)
-            WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+            if total > 0 then
+                local percentage = math.floor((currentStep / total) * 100)
+                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+            else
+                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+            end
         end
     else
         local skipped = 0
