@@ -1245,7 +1245,12 @@ function WoWPro.SetupGuideReal()
 
     WoWPro:dbp("SetupGuideReal(%s): Type: %s",GID,guideType)
 
-    WoWPro.PopulateQuestLog() --Calling this will populate our quest log table for use here
+    -- Skip quest log population if the recorder is active
+    if not WoWPro.Recorder then
+        WoWPro.PopulateQuestLog() -- Populate the quest log table for use here
+    else
+        WoWPro:dbp("Recorder is active. Skipping PopulateQuestLog.")
+    end
 
     -- Do we need to do AutoProximitySort'
     if WoWPro.Guides[GID].AutoProximitySort then
