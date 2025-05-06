@@ -292,7 +292,7 @@ C Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|Help the chef cook some food.
 T Sous|QID|82848|M|69.93,32.59|Z|2215;Hallowfall|N|To Dolena.|
 
 ; Requires Campaign completion and lvl 80 or adventure mode
-A Keep the Home Fires Burning|QID|76247|PRE|79197|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|LVL|80|
+;A Keep the Home Fires Burning|QID|76247|PRE|79197|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|LVL|80|
 A Keep the Home Fires Burning|QID|76247|M|61.20,30.54|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|SPELL|World Quests & Adventure Mode;434027|
 A Seeds of Evil|QID|79108|M|61.18,30.51|PRE|79197|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|LVL|80|
 A Seeds of Evil|QID|79108|M|61.18,30.51|Z|2215;Hallowfall|N|From Aliya Hillhelm.|RANK|2|SPELL|World Quests & Adventure Mode;434027|

@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('Draenei_Heritage_Armor', 'Achievements', 'Stormwind City', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Draenei_Heritage_Armor")
-WoWPro:GuideLevels(guide,50, 70)
+WoWPro:GuideLevels(guide,50, 80)
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro.Achievements:GuideMisc(guide, "Draenei Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()

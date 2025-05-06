@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('The_Waking_Shores', 'Leveling', 'The Waking Shores', 'WowPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideName(guide,"Waking Shores")
-WoWPro:GuideLevels(guide,10, 70)
+WoWPro:GuideLevels(guide,10, 80)
 WoWPro:GuideNextGuide(guide, 'Ohnahran_Plains')
 WoWPro:GuideSteps(guide, function()
 return [[

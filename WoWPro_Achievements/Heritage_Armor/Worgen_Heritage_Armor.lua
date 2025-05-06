@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('Worgen_Heritage_Armor', 'Achievements', 'Stormwind City', 'Capau', 'Alliance')
 WoWPro:GuideName(guide,"Worgen Heritage Armor")
-WoWPro:GuideLevels(guide,50, 70)
+WoWPro:GuideLevels(guide,50, 80)
 WoWPro:GuideQuestTriggers(guide, 54976)
 WoWPro.Achievements:GuideMisc(guide, "Worgen Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()

@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('Orc_Heritage_Armor', 'Achievements', 'Orgrimmar', 'Capau', 'Horde')
 WoWPro:GuideName(guide,"Orc Heritage Armor")
-WoWPro:GuideLevels(guide,50, 70)
+WoWPro:GuideLevels(guide,50, 80)
 WoWPro:GuideQuestTriggers(guide, 73703)
 WoWPro.Achievements:GuideMisc(guide, "Orc Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
