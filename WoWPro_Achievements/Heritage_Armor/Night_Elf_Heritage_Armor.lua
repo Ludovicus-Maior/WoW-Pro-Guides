@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('Night_Elf_Heritage_Armor', 'Achievements', 'Stormwind City', 'WoWPro Team', 'Alliance')
 WoWPro:GuideName(guide,"Night Elf Heritage Armor")
-WoWPro:GuideLevels(guide,50, 70)
+WoWPro:GuideLevels(guide,50, 80)
 WoWPro.Achievements:GuideMisc(guide, "Night Elf Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()
 return [[

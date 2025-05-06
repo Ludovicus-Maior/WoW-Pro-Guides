@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Ohnahran_Plains', 'Leveling', "Ohn'ahran Plains", 'WoWPro Team', 'Neutral')
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideName(guide,"Ohnahran Plains")
-WoWPro:GuideLevels(guide,10, 70)
+WoWPro:GuideLevels(guide,10, 80)
 WoWPro:GuideNextGuide(guide, 'The_Azure_Span')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -537,7 +537,7 @@ C Renewal of Vows|QID|66783|QO|3|M|22.33,50.94;22.13,50.98|CS|Z|2023;Ohn'ahran P
 C Renewal of Vows|QID|66783|QO|4|M|22.13,50.98;22.33,50.94|CS|Z|2023;Ohn'ahran Plains|CHAT|N|Take the Everblooming Soil from Merithra and bring it to Khanam Matra.|
 T Renewal of Vows|QID|66783|M|22.13,50.98|Z|2023;Ohn'ahran Plains|N|To Merithra.|
 A Into the Azure|QID|66340|PRE|66783|M|21.44,37.56|Z|2023;Ohn'ahran Plains|N|From Merithra.|
-A The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|PRE|66783|M|22.34,50.96|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest. This is a [color=e6cc80]dungeon [/color] quest and beyond the scope of this guide. Pick up or not as you choose.|
+A The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|PRE|66783|M|22.34,50.96|Z|2023;Ohn'ahran Plains|N|From Khanam Matra Sarest. This is a [color=e6cc80]dungeon [/color] quest and beyond the scope of this guide. Pick up or not as you choose.|RANK|3|
 t The Nokhud Offensive: The Wind Belongs to the Sky|QID|66339|M|59.99,37.46|Z|2023|N|To Khanam Matra Sarest.|
 R Nokhudon Hold|ACH|16457|M|34.79,43.53|Z|2023;Ohn'ahran Plains|N|This is the only spot the guide doesn't take you to, run/fly over here if you want to explore the zone.|RANK|3|
 $ Nokhudon Hold Glyph|QID|99999|M|30.5,36|Z|2023;Ohn'Aran Plains!Dragonflight|N|Over the mountain top.|ACH|16055|RANK|3|

@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('Gnome_Heritage_Armor', 'Achievements', 'Ironforge', 'Capau', 'Alliance')
 WoWPro:GuideName(guide,"Gnome Heritage Armor")
-WoWPro:GuideLevels(guide,50, 70)
+WoWPro:GuideLevels(guide,50, 80)
 WoWPro:GuideQuestTriggers(guide, 54402)
 WoWPro.Achievements:GuideMisc(guide, "Gnome Heritage Armor", "Heritage Armor", "Dragonflight")
 WoWPro:GuideSteps(guide, function()

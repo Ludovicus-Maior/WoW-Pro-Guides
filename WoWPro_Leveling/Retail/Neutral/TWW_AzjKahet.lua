@@ -77,7 +77,7 @@ A Ara-Kara, the City of Echoes: Harvest's End|QID|83166|M|56.21,42.25|Z|2255;Azj
 A City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255;Azj-Kahet|N|From Tulumun.|RANK|3|
 t City of Threads: Splice the Splicer|QID|83164|M|56.21,42.25|Z|2255;Azj-Kahet|N|To Tulumun.|
 C Of Pacts and Patrons|QID|84682|M|55.88,42.18|Z|2255;Azj-Kahet|QO|2|CHAT|N|Talk to Anub'okki.|
-A Bountiful Beetles|QID|83325|M|55.88,42.18|Z|2255;Azj-Kahet|N|From Anub'okki or Aspirant Kilpla.|RANK|2|; The quest giver changes - possibly due to the pact system
+A Bountiful Beetles|QID|83325|PRE|78256|M|55.88,42.18|Z|2255;Azj-Kahet|N|From Anub'okki or Aspirant Kilpla.|RANK|2|; The quest giver changes - possibly due to the pact system
 B Making the Underworld Go Round|ACTIVE|84664|QO|1|M|55.38,41.50|Z|2255;Azj-Kahet|N|Buy Dubious Vial of Vigor from Yamas the Provider.|
 C Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|QO|4|NC|N|Pick which one to forge a pact with.|
 T Of Pacts and Patrons|QID|84682|M|55.33,41.20|Z|2255;Azj-Kahet|N|To Y'tekhi.|

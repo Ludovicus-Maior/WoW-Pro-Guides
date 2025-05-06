@@ -68,7 +68,6 @@ C The Zhevra|QID|845|M|43.03,28.16|Z|1413; The Barrens|L|5086 4|ITEM|5086|N|Zhev
 R Unnamed Watch Post|AVAILABLE|850^855|M|45.49,28.40|CC|Z|1413; The Barrens|N|Follow the road west out of the Crossroads.|
 A Centaur Bracers|QID|855|M|45.34,28.42|Z|1413; The Barrens|N|From Regthar Deathgate.|
 A Kolkar Leaders|QID|850|M|45.34,28.42|Z|1413; The Barrens|N|From Regthar Deathgate.|
-C Centaur Bracers|QID|855|Z|1413; The Barrens|L|5030 15|ITEM|5030|N|centaurs.|S|IZ|The Barrens|
 R The Forgotten Pools|ACTIVE|848|QO|1|M|44.8,22.9|Z|1413; The Barrens|N|Head north to the waterhole in the center of The Forgotten Pools.|
 C Fungal Spores|QID|848|M|45.28,22.09|Z|1413; The Barrens|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\n[color=FF0000]NOTE: [/color]Try to avoid the big packs of centaurs.|S|
 C The Forgotten Pools|ACTIVE|870|QO|1|M|45.06,22.54|Z|1413; The Barrens|N|Enter the lake and swim over the crack at the bottom with some bubbles flowing out of it.|NC|
@@ -227,7 +226,7 @@ R The Stagnant Oasis|QID|877|QO|1|M|55.60,42.72|Z|1413; The Barrens|N|Exit Ratch
 C The Stagnant Oasis|QID|877|QO|1|M|55.60,42.72|Z|1413; The Barrens|N|Swim to the Bubbling Fissure and click on it to plant the seeds.|NC|
 C Verog the Dervish|QID|851|QO|1|M|52.94,41.75|Z|1413; The Barrens|N|Verog the Dervish.\n[color=FF0000]NOTE: [/color]Kill centaurs in the area until one says "I am slain! Summon Verog!" and summons Verog.|T|Verog|
 ; lv 18
-C Centaur Bracers|QID|855|M|48.47,38.00|Z|1413; The Barrens|L|5030 15|N|Finish up collecting your centaur bracers.\n[color=FF0000]NOTE: [/color]As you need to be in the area to turn in the quest, you may want to finish this up at the Lushwater Oasis.\nAvoid Hezrul for now; you don't have the quest yet.|US|
+C Centaur Bracers|QID|855|M|48.47,38.00|Z|1413; The Barrens|L|5030 15|N|Finish up collecting your centaur bracers.\n[color=FF0000]NOTE: [/color]As you need to be in the area to turn in the quest, you may want to finish this up at the Lushwater Oasis.\nAvoid Hezrul for now; you don't have the quest yet.|
 
 T Centaur Bracers|QID|855|M|45.34,28.42|Z|1413; The Barrens|N|To Regthar Deathgate in his Bunker.|
 T Verog the Dervish|QID|851|M|45.34,28.42|Z|1413; The Barrens|N|To Regthar Deathgate.|
@@ -527,6 +526,7 @@ C Blood Shards|AVAILABLE|5052|M|43.23,55.90|Z|1413; The Barrens|L|5075 11|ITEM|5
 T Tribes at War|QID|878|M|44.55,59.26|Z|1413; The Barrens|N|To Mangletooth, back at Camp Taurajo.|
 A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.55,59.26|Z|1413; The Barrens|N|From Mangletooth.|
 T Blood Shards of Agamaggan|QID|5052|M|44.55,59.26|Z|1413; The Barrens|N|To Mangletooth.|
+N Blood Shards|ACTIVE|891|PRE|5052|N|If you have any Blood Shards leftover, save at least 10 them for use much later in Chapter 2.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|IZ|Camp Taurajo|
 A Spirit of the Wind|QID|889|ACTIVE|891|PRE|5052|M|44.55,59.26|Z|1413; The Barrens|N|From Mangletooth for a speed buff that will help with the next step.|IZ|Camp Taurajo|
 R Northwatch Hold|ACTIVE|891|M|50.80,50.42;56.95,50.77|CC|Z|1413; The Barrens|N|Exiting east, follow the road north to the bridge where you turn east continuing along the dry river bed to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them.|
 C The Guns of Northwatch|QID|891|Z|1413; The Barrens|L|5078 10|ITEM|5078|N|Theramore Marines.|S|
