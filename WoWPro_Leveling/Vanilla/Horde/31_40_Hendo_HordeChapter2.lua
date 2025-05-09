@@ -161,48 +161,48 @@ A Alliance Relations|QID|1432|PRE|1431|M|22.56,52.62|Z|1454; Orgrimmar|N|From Ke
 
 ; --- Thousand Needles
 F Freewind Post|ACTIVE|1146|M|45.11,63.91|Z|1454; Orgrimmar|N|Return to Thousand Needles.|
-T The Swarm Grows|QID|1146|M|67.59,63.93|Z|1441; Thousand Needles|N|To Moktar Krin in Ironstone Camp, on the edge of the Shimmering Flats. Just follow the road to the east and you'll find him. \nYou'll get to a point where the road veers left. Stick to the right and follow the canyon wall from here.|
+N Bag space|AVAILABLE|1147|Z|1441; Thousand Needles|N|You're picking up a number of collection quests shortly and it would be in your best interest to make as much bag space as possible.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T The Swarm Grows|QID|1146|M|67.59,63.93|Z|1441; Thousand Needles|N|To Moktar Krin in Ironstone Camp, on the edge of the Shimmering Flats.\n[color=FF0000]NOTE: [/color]Just follow the road to the east and when get to the point where the road veers left, go to the right and follow the canyon wall from here.|
 A The Swarm Grows|QID|1147|M|67.59,63.93|Z|1441; Thousand Needles|N|From Moktar Krin.|
-R Mirage Raceway|AVAILABLE|1104^1105^1110^1111^1175^1176|Z|1441; Thousand Needles|N|<coords>Make your way across the Flats to the Mirage Raceway in the middle of it.|
-A Rocket Car Parts|QID|1110|M|77.76,77.25|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-A Wharfmaster Dizzywig|QID|1111|M|77.76,77.25|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-A Salt Flat Venom|QID|1104|M|78.01,77.14|Z|1441; Thousand Needles|N|From Fizzle Brassbolts.|
-A Hardened Shells|QID|1105|M|78.08,77.12|Z|1441; Thousand Needles|N|From Wizzle Brassbolts.|
-A Load Lightening|QID|1176|M|80.13,75.84|Z|1441; Thousand Needles|N|From Pozzik.|
-A A Bump in the Road|QID|1175|M|81.59,77.85|Z|1441; Thousand Needles|N|From Trackmaster Zherin.|
-r Repair/Restock|QID|1175|M|80.46,76.98|Z|1441; Thousand Needles|N|At Synge. You've just picked up a number of collection quests. It would be in your best interest to make as much bag space as feasible.|
-N Mob Location|ACTIVE|1104^1105^1110^1111^1175^1176|Z|1441; Thousand Needles|N|All of the mobs involved in the quests you just picked up are scattered around the outside of Mirage Raceway.\nThere is no real dividing line between levels. You'll find lv 30s mixed with lv 35s.|
-C Salt Flat Venom|QID|1104|Z|1441; Thousand Needles|N|Kill Scorpids to collect them.\nYou'll find the Reavers (lv 31-32) in the north and the Terrors (33-34) in the south.|S|
-C Hardened Tortoise Shell|QID|1105|Z|1441; Thousand Needles|N|Kill any variety of Sparkleshell tortoises to collect them.\nYou'll find the Tortoise (lv 30-31) in the NW quadrant, the Borer (32-33) in the SE quadrant and the Snapper (34-35) in the NE quadrant.|S|
-C Hollow Vulture Bone|QID|1176|Z|1441; Thousand Needles|N|Kill Salt Flats Vultures/Scavengers to collect them.\nYou'll find the lower level Scavengers (lv 30-32) in the north and the Vultures (32-34) in the south.|S|
-C Rocket Car Parts|QID|1110|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
-C A Bump in the Road|QID|1175|QO|3;2;1|Z|1441; Thousand Needles|N|You'll find the Basilisks (lv 30-31) in the NW quadrant, the Crystalhides (32-33) all over, and the Gazers (34-35) in the SE quadrant.|
+R Mirage Raceway|AVAILABLE|1104^1105^1110^1111^1175^1176|M|75.09,71.85|Z|1441; Thousand Needles|N|Head across the Shimmering Flats to the Mirage Raceway in the middle of it.|
+A Rocket Car Parts|QID|1110|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
+A Wharfmaster Dizzywig|QID|1111|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
+A Hemet Nesingwary|QID|5762|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
+A Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|From Fizzle Brassbolts.|
+A Hardened Shells|QID|1105|M|78.14,77.12|Z|1441; Thousand Needles|N|From Wizzle Brassbolts.|
+A Load Lightening|QID|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|
+N Mob Location|AVAILABLE|1175|Z|1441; Thousand Needles|N|All of the mobs involved in the quests you just picked up are scattered around the track outside of Mirage Raceway.\nThere's no real dividing line between levels. You'll find lv 30s mixed with 35s.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A A Bump in the Road|QID|1175|M|81.64,77.95|Z|1441; Thousand Needles|N|From Trackmaster Zherin.|
+C Salt Flat Venom|QID|1104|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5794 6|ITEM|5794|N|Scorpids.|S|
+C Hardened Shells|QID|1105|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5795 9|ITEM|5795|N|any type of Sparkleshell Tortoises.|S|
+C Hollow Vulture Bone|QID|1176|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5848 10|ITEM|5848|N|Salt Flats Vultures/Scavengers.|S|
+C Rocket Car Parts|QID|1110|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
+C A Bump in the Road|QID|1175|QO|3;2;1|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|N|Start in the SE quadrant and circle the track counter-clockwise killing the required mobs.|
 ;L Level 33|QID|1147|N|You should be around level 33 by this point.|LVL|33|
-A Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|
+A Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|O|
 * Extra Cracked Silithid Carapace|PRE|1148|N|Dispose of these if you picked up extras.|U|5877|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5855 1|ITEM|5855|N|<coords>Silithids.|S|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5854 5|ITEM|5854|N|Silithids.|S|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5853 3|ITEM|5853|N|Silithids.|S|
-C The Swarm Grows|QID|1147|QO|1;2;3|M|71.33,83.15;66.52,86.15|CN|Z|1441; Thousand Needles|N|At the Rustmaul Dig Site in the south, kill Silithid Searchers, Hive Drones, and Invaders.\nYou'll find the Drones spread out around the area. The Searchers can be around the outside edge of the pit. The Invaders are inside the hive. There are two entrances into the hive.\n[color=FF0000]NOTE: [/color]The drones are non-aggressive as long as you don't attack them or any mobs around them. Do not leave them roaming inside the hive; you will die from being overwhelmed.|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5855 1|ITEM|5855|N|Silithids.|US|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5854 5|ITEM|5854|N|Silithids.|US|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5853 3|ITEM|5853|N|Silithids.|US|
-C Turtle Meat|QID|1105|Z|1441; Thousand Needles|L|3712 10|N|<coords>Turtles.[color=FF0000]NOTE: [/color]Keep 10 pieces because you'll need these for a quest much later in this guide.|
-T A Bump in the Road|QID|1175|M|81.63,78.08|Z|1441; Thousand Needles|N|To Trackmaster Zherin.|
-T Load Lightening|QID|1176|M|80.11,75.83|Z|1441; Thousand Needles|N|To Pozzik.|
-A Goblin Sponsorship|QID|1178|PRE|1176|M|80.11,75.83|Z|1441; Thousand Needles|N|From Pozzik.|
-T Salt Flat Venom|QID|1104|M|78.08,77.04|Z|1441; Thousand Needles|N|To Fizzle Brassbolts\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands)|
-T Hardened Shells|QID|1105|M|78.14,77.08|Z|1441; Thousand Needles|N|To Wizzle Brassbolts.|
-A Encrusted Tail Fins|QID|1107|PRE|1104&1105|M|78.14,77.08|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizzle Brassbolts.|
-T Rocket Car Parts|QID|1110|M|77.8,77.2|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
-A Hemet Nesingwary|QID|5762|M|77.84,77.22|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-R Tanaris|ACTIVE|5762|AVAILABLE|5361|M|75.00,95.70|N|Before we leave, go south and into Tanaris to get the flightpath there.|TAXI|-Tanaris|
-f Gadgetzan|AVAILABLE|5361|M|51.60,25.4|Z|1446; Tanaris|N|Pick up the flight path from Bulkrek Ragefist.|
-F Freewind Post|AVAILABLE|5361|M|47.63,49.04|Z|1441; Thousand Needles|N|Fly to Freewind Post.|
+l Parts of the Swarm|QID|1148|QO|1;2;3|M|71.33,83.15|Z|1441; Thousand Needles|N|Kill and loot Silithids.|S|
+C The Swarm Grows|QID|1147|QO|1;2;3|M|71.33,83.15;66.52,86.15|CN|Z|1441; Thousand Needles|N|Kill the required mobs at the Rustmaul Dig Site.\nThe Searchers are on the outside edge of the pit, the Invaders are inside the hive, and the Drones are everywhere.\n[color=FF0000]NOTE: [/color]The drones will attack if you're fighting anything near them. Kill them as needed or you'll die from being overwhelmed.|
+C Parts of the Swarm|QID|1148|QO|1;2;3|M|71.33,83.15|Z|1441; Thousand Needles|N|Kill and loot Silithids.|US|
+C Salt Flat Venom|QID|1104|M|80.93,86.30;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5794 6|ITEM|5794|N|Scorpids.|US|
+C Hollow Vulture Bone|QID|1176|M|87.32,66.81|CC|Z|1441; Thousand Needles|L|5848 10|ITEM|5848|N|Salt Flats Vultures/Scavengers.|US|
+C Rocket Car Parts|QID|1110|M|80.93,86.30;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|US|
+C Hardened Shells|QID|1105|M|78.17,87.83|CC|Z|1441; Thousand Needles|L|5795 9|ITEM|5795|N|any type of Sparkleshell Tortoises.|US|
+C Turtle Meat|ACTIVE|1110|M|78.53,53.47|Z|1441; Thousand Needles|L|3712 10|N|Turtles.[color=FF0000]NOTE: [/color]Keep 10 pieces because you'll need these for a quest much later in this guide.|
+T A Bump in the Road|QID|1175|M|81.64,77.95|Z|1441; Thousand Needles|N|To Trackmaster Zherin.|
+T Load Lightening|QID|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|To Pozzik.|
+A Goblin Sponsorship|QID|1178|PRE|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|
+T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands).|
+T Hardened Shells|QID|1105|M|78.14,77.12|Z|1441; Thousand Needles|N|To Wizzle Brassbolts.|
+A Encrusted Tail Fins|QID|1107|PRE|1104&1105|M|78.14,77.12|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizzle Brassbolts.|
+T Rocket Car Parts|QID|1110|M|77.78,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
+R Tanaris|ACTIVE|5762|AVAILABLE|5361|M|51.29,21.06|Z|1446; Tanaris|N|Before we leave, go south into Tanaris to get the flightpath there.|TAXI|-Tanaris|
+f Gadgetzan|AVAILABLE|5361|M|51.60,25.44|Z|1446; Tanaris|N|Pick up the flight path from Bulkrek Ragefist.|
+F Freewind Post|AVAILABLE|5361|M|51.60,25.44|Z|1446; Tanaris|N|Fly to Freewind Post.|
 A Family Tree|QID|5361|M|45.69,50.72|Z|1441; Thousand Needles|N|From Cliffwatcher Longhorn.|
 
 ; --- The Barrens/Orgrimmar
-F The Crossroads|ACTIVE|1148|M|45.14,49.10|Z|1441; Thousand Needles|N|Fly to the Crossroads.|
+F Crossroads|ACTIVE|1148|M|45.14,49.10|Z|1441; Thousand Needles|N|Fly to the Crossroads.|TZ|The Crossroads|
 T Parts of the Swarm|QID|1148|M|51.07,29.63|Z|1413; The Barrens|N|To Korran.|
 A Parts of the Swarm|QID|1184|M|51.07,29.63|Z|1413; The Barrens|N|From Korran.|
 T Regthar Deathgate|QID|1361|M|45.34,28.40|Z|1413; The Barrens|N|To Regthar Deathgate.|
@@ -231,9 +231,9 @@ A Goblin Sponsorship|QID|1182|M|27.23,76.88|Z|1434; Stranglethorn Vale|N|From Ba
 f Booty Bay|ACTIVE|1112|M|26.87,77.09|Z|1434; Stranglethorn Vale|N|At Gringer.|TAXI|-Booty Bay|
 b Ratchet|ACTIVE|1112|M|25.80,73.10|Z|1434; Stranglethorn Vale|N|Take the boat to Ratchet.|
 F Freewind Post|ACTIVE|1112|M|63.08,37.16|Z|1413; The Barrens|
-T Parts for Kravel|QID|1112|M|77.79,77.25|Z|1441; Thousand Needles|N|To Kravel Koalbeard at Mirage Raceway.|
-A Delivery to the Gnomes|QID|1114|PRE|1112|M|77.79,77.26|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-T Delivery to the Gnomes|QID|1114|M|78.06,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.|
+T Parts for Kravel|QID|1112|M|77.78,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard at Mirage Raceway.|
+A Delivery to the Gnomes|QID|1114|PRE|1112|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
+T Delivery to the Gnomes|QID|1114|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.|
 
 ; --- Desolace
 N Desolace|AVAILABLE|5501|Z|1441; Thousand Needles|N|We are now going to make our run to Desolace via Stonetalon Mountains.|
@@ -501,8 +501,8 @@ A Singing Blue Shards|QID|605|M|27.12,77.22|Z|1434; Stranglethorn Vale|N|From Cr
 b Ratchet|ACTIVE|1183|M|25.80,73.10|Z|1434; Stranglethorn Vale|N|Take the boat to Ratchet.|
 F Freewind Post|ACTIVE|1183|M|45.05,49.16|
 R Mirage Raceway|ACTIVE|1183|N|<coords>Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
-T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
-A The Eighteenth Pilot|QID|1186|PRE|1183|M|80.18,75.89|N|From Pozzik.|
+T Goblin Sponsorship|QID|1183|M|80.18,75.88|N|To Pozzik.|
+A The Eighteenth Pilot|QID|1186|PRE|1183|M|80.18,75.88|N|From Pozzik.|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 ; --- The Barrens
 H Orgrimmar|ACTIVE|569|M|54.03,68.77|Z|1454; Orgrimmar|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
