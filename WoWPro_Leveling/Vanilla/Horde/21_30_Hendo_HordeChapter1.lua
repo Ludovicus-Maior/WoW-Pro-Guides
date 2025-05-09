@@ -346,7 +346,7 @@ T Elixir of Agony|QID|513|M|48.68,69.25|Z|1458; Undercity|N|To Master Apothecary
 b Durotar|AVAILABLE|868|PRE|513|M|60.75,58.77|Z|1420; Tirisfal Glades|N|Exit Undercity and take the zeppelin to Orgrimmar.|
 R Orgrimmar|AVAILABLE|868|PRE|513|M|49.22,94.06|Z|1454; Orgrimmar|N|Enter Orgrimmar by the front gate.|
 F Crossroads|AVAILABLE|868|PRE|513|M|45.11,63.91|Z|1454; Orgrimmar|N|Fly to the Crossroads to pick up a quest.|
-A Egg Hunt|QID|868|M|51.09,29.60|Z|1413; The Barrens|N|From Korran.|
+A Egg Hunt|QID|868|M|51.07,29.63|Z|1413; The Barrens|N|From Korran.|
 F Camp Taurajo|AVAILABLE|879^893|M|51.50,30.33|Z|1413; The Barrens|N|Fly to Camp Taurajo.|
 A Betrayal from Within|QID|879|M|44.55,59.23|Z|1413; The Barrens|N|From Mangletooth.|
 h Camp Taurajo|AVAILABLE|893|M|45.58,59.04|Z|1413; The Barrens|N|Set your Hearthstone to Camp Taurajo.|IZ|Camp Taurajo|
@@ -396,7 +396,7 @@ t The Harvester|QID|897|M|44.87,59.09|Z|1413; The Barrens|N|To Jorn Skyseer.|
 T Betrayal from Within|QID|879|M|44.55,59.23|Z|1413; The Barrens|N|To Mangletooth.|
 A Betrayal from Within|QID|906|PRE|879|M|44.55,59.23|Z|1413; The Barrens|N|From Mangletooth.|
 F Crossroads|ACTIVE|868|M|44.46,59.14|Z|1413; The Barrens|N|Fly to Crossroads to see Korran.|
-T Egg Hunt|QID|868|M|51.09,29.60|Z|1413; The Barrens|N|To Korran.|
+T Egg Hunt|QID|868|M|51.07,29.63|Z|1413; The Barrens|N|To Korran.|
 * Silithid Eggs|AVAILABLE|-868|M|PLAYER|CC|N|Destroy any Silithid eggs you have leftover.|U|5058|
 T Betrayal from Within|QID|906|M|51.49,30.81|Z|1413; The Barrens|N|To Thork.|
 F Orgrimmar|AVAILABLE|6441|M|51.50,30.33|Z|1413; The Barrens|N|Fly to Orgrimmar to do your training.|C|-Druid|
@@ -512,6 +512,15 @@ F Orgrimmar|AVAILABLE|515|PRE|1195|M|47.02,49.83|Z|1456; Thunder Bluff|N|Fly to 
 = Level 30 Training|AVAILABLE|515|PRE|1195|M|PLAYER|CC|N|Do your level 30 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|30|IZ|Orgrimmar|C|-Druid|
 B Strong Troll's Blood Potion|LEAD|515|Z|1454; Orgrimmar|L|3388|ITEM|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
 
+; --- Lv 30 Felhunter Warlock quest
+N Felhunter|AVAILABLE|2996&3001|N|This is your lv 30 class quest to get your Felhunter.\nTo keep side trips to a minimum, you'll be work on this as you proceed through the guide.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|C|Warlock|
+A Seeking Strahad|QID|2996|AVAILABLE|3001|M|48.25,45.29|Z|1454; Orgrimmar|N|From Gan'rul Bloodeye.|LVL|30|C|Warlock|
+F Ratchet|ACTIVE|2996|M|45.50,63.84|Z|1454; Orgrimmar|N|Fly to Ratchet.|
+T Seeking Strahad|QID|2996|M|62.63,35.50|Z|1413; The Barrens|N|To Strahad Farsan.|LVL|30|
+A Tome of the Cabal|QID|1801|PRE|2996|M|62.63,35.50|Z|1413; The Barrens|N|From Strahad Farsan.|
+F Orgrimmar|ACTIVE|1801|M|63.09,37.16|Z|1413; The Barrens|N|Return to Orgrimmar.|
+; ---
+
 ; --- Silverpine Forest
 ; ** Excluding this section because the mobs are grey and the quest exp is diminished - Hendo72 (leaving in case there's demand for it)
 ;b Tirisfal Glades|AVAILABLE|515|M|50.88,13.83|Z|1411; Durotar|N|Exit Orgrimmar through the south gate take the Zepplin to Tirisfal Glade.|
@@ -524,12 +533,16 @@ B Strong Troll's Blood Potion|LEAD|515|Z|1454; Orgrimmar|L|3388|ITEM|3388|N|Unle
 ;C Assault on Fenris Isle|QID|442|QO|1|M|65.76,24.70|Z|1421; Silverpine Forest|N|Thule inside the main room.\n[color=FF0000]NOTE: [/color]Just like the last time you were here, work your way in slowly. Clear the room as best you can before you pull Thule with his 3 adds.\nBe prepared to use your Bethor's Potion if Thule casts Hex of Ravenclaw on you.\n\nLooting his head is your priority; as long as you've looted his head, you can rez outside the building if you died.|T|Thule|U|3251|
 ;R The Sepulcher|ACTIVE|442|M|46.30,41.55|Z|1421; Silverpine Forest|N|Choose your own path back to The Sepulcher.|
 ;T Assault on Fenris Isle|QID|442|M|43.43,40.86|Z|1421; Silverpine Forest|N|To High Executor Hadrec, down in the crypt.|
+; ---
 
 ; --- Hillsbrad Foothills
 b Tirisfal Glades|AVAILABLE|515|M|50.88,13.83|Z|1411; Durotar|N|Exit Orgrimmar through the south gate take the Zepplin to Tirisfal Glade.|
 R Undercity|AVAILABLE|515|M|66.22,1.74|Z|1458; Undercity|N|Enter Undercity.|
 A Elixir of Agony|QID|515|PRE|513|M|48.68,69.25|Z|1458; Undercity|N|From Master Apothecary Faranell.|
-;F Tarren Mill|ACTIVE|515|QO|1|M|45.62,42.59|Z|1421; Silverpine Forest|N|Fly to Hillsbrad to finish up the area.| ** Not needed now - Hendo72
+; --- Warlock quest
+T Tome of the Cabal|QID|1801|M|75.92,37.87|Z|1458; Undercity|N|To Jorah Annison.|
+A Tome of the Cabal|QID|1803|PRE|1801|M|75.92,37.87|Z|1458; Undercity|N|From Jorah Annison.|
+; ---
 F Tarren Mill|ACTIVE|515|M|63.27,48.55|Z|1458; Undercity|N|Fly to Hillsbrad to finish up the area.|IZ|-1424; Hillsbrad Foothills|
 h Tarren Mill|ACTIVE|532|QO|2|M|62.78,19.03|Z|1424; Hillsbrad Foothills|N|Set your hearth to Tarren Mill with Innkeeper Shay.|IZ|Tarren Mill|
 C Souvenirs of Death|QID|546|M|32.14,41.42|Z|1424; Hillsbrad Foothills|L|3692 30|ITEM|3692|N|any Hillsbrad mob.|S|
@@ -552,7 +565,9 @@ C Battle of Hillsbrad|QID|539|QO|1|M|31.22,55.76|Z|1424; Hillsbrad Foothills|N|A
 C Battle of Hillsbrad|QID|539|QO|2|Z|1424; Hillsbrad Foothills|N|Finish killing Hillsbrad Miners.|US|
 C Souvenirs of Death|QID|546|M|26.76,60.06|Z|1424; Hillsbrad Foothills|L|3692 30|ITEM|3692|N|any Hillsbrad mob.|US|
 R Western Strand|ACTIVE|515|QO|1|M|25.33,64.21|Z|1424; Hillsbrad Foothills|N|Using the lower entrance, exit Azurelode Mine and head south towards the shoreline.|
-C Elixir of Agony|QID|515|M|46.23,65.83|Z|1424; Hillsbrad Foothills|L|3510 5|ITEM|3510|N|Murlocs along the coast.\n[color=FF0000]NOTE: [/color]Muckdwellers are a better choice over Coastrunners (range attack) and avoid the huts as you tend to aggro 2-3 at a time.\nIf you prefer, you can do this in the water as you swim east.\n\nAvoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|
+C Elixir of Agony|QID|515|M|46.23,65.83|Z|1424; Hillsbrad Foothills|L|3510 5|ITEM|3510|N|Murlocs along the coast.\n[color=FF0000]NOTE: [/color]Muckdwellers are a better choice over Coastrunners (range attack) and avoid the huts as you tend to aggro 2-3 at a time.\nIf you prefer, you can do this in the water as you swim east.\n\nAvoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|C|Warlock|S|
+C Tome of the Cabal|QID|1803|QO|1|M|27.78,72.79|Z|1424; Hillsbrad Foothills|L|6931|N|Retrieve the Moldy Tome by the hut on the shoreline of the Western Strand.\n[color=FF0000]NOTE: [/color]You'll have to clear the murlocs from around the hut.\nPull the mobs you can and use your voidwalker to aggro the rest while you grab the Tome.|C|Warlock|
+C Elixir of Agony|QID|515|M|46.23,65.83|Z|1424; Hillsbrad Foothills|L|3510 5|ITEM|3510|N|Murlocs along the coast.\n[color=FF0000]NOTE: [/color]Muckdwellers are a better choice over Coastrunners (range attack) and avoid the huts as you tend to aggro 2-3 at a time.\nIf you prefer, you can do this in the water as you swim east.\n\nAvoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|US|
 R Eastern Strand|ACTIVE|515|QO|2|M|53.19,64.57|Z|1424; Hillsbrad Foothills|N|You have a couple choices at this point. You can either run north to the road and go around that way, or you can swim across at the southernmost point of the shoreline to maintain your distance from Southshore.\n[color=FF0000]NOTE: [/color]Southshore is Alliance controlled. So, unless you enjoy running from PvP guards, I'd keep your distance.|
 C Elixir of Agony|QID|515|M|65.58,84.28|Z|1424; Hillsbrad Foothills|L|3509 5|ITEM|3509|N|Nagas.|
 H Tarren Mill|ACTIVE|515|M|62.78,19.03|Z|1424; Hillsbrad Foothills|N|Hearth back to Tarren Mill.\n[color=FF0000]NOTE: [/color]Skip this step if your hearth is on cooldown.|
@@ -562,9 +577,9 @@ T Dangerous!|QID|567|M|62.29,20.28|Z|1424; Hillsbrad Foothills|N|To High Executo
 T Battle of Hillsbrad|QID|539|M|62.29,20.28|Z|1424; Hillsbrad Foothills|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
 
 ; --- The Barrens
-F Undercity|PRE|539&567&515|M|60.14,18.63|Z|1424; Hillsbrad Foothills|N|Fly to Undercity to continue to Kalimdor.|
-b Durotar|PRE|539&567&515|M|60.75,58.77|Z|1420; Tirisfal Glades|N|Exit Undercity and take the zeppelin to Orgrimmar.|
-R Orgrimmar|PRE|539&567&515|M|49.22,94.06|Z|1454; Orgrimmar|N|Enter Orgrimmar by the front gate.|
+F Undercity|AVAILABLE|1153|PRE|539&567&515|M|60.14,18.63|Z|1424; Hillsbrad Foothills|N|Fly to Undercity to continue to Kalimdor.|
+b Durotar|AVAILABLE|1153|PRE|539&567&515|M|60.75,58.77|Z|1420; Tirisfal Glades|N|Exit Undercity and take the zeppelin to Orgrimmar.|
+R Orgrimmar|AVAILABLE|1153|PRE|539&567&515|M|49.22,94.06|Z|1454; Orgrimmar|N|Enter Orgrimmar by the front gate.|
 
 ]]
 end)
