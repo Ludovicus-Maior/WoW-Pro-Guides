@@ -249,7 +249,7 @@ C Wold Memories|QID|78572|QO|4|M|54.52,65.19|Z|2248;Isle of Dorn|N|Read Pledge o
 C Wold Memories|QID|78572|QO|5|M|54.37,65.05|Z|2248;Isle of Dorn|N|Pick up the Shillelagh from lower hearth.|H|
 T Wold Memories|QID|78572|M|54.25,65.31|Z|2248;Isle of Dorn|N|To Woldtender Igris.|
 A Keeper's Aid|QID|78573|PRE|78572|M|54.25,65.31|Z|2248;Isle of Dorn|N|From Woldtender Igris.|RANK|2|
-C Infected Wildlife|QID|78753|N|Keep and eye out for the non hostile 'Infected' Wildlife and use the Shillelagh on them.|U|215158|H|S|
+C Infected Wildlife|QID|78573|QO|1|N|Keep and eye out for the non hostile 'Infected' Wildlife and use the Shillelagh on them.|U|215158|H|S|
 C Keeper's Aid|QID|78573|QO|2<1|M|53.8,65.3|Z|2248;Isle of Dorn|N|Click the stone ward to destroy it.|H|
 C Keeper's Aid|QID|78573|QO|2<2|M|54.8,66.9|Z|2248;Isle of Dorn|N|Cick the stone ward to destroy it.|H|
 C Keeper's Aid|QID|78573|QO|2<3|M|52.62,69.82|Z|2248;Isle of Dorn|N|Click the stone ward to destroy it.|H|
@@ -316,10 +316,10 @@ C The Great Collapse|QID|78747|M|64.19,42.96|QO|1<3|U|211435|Z|2248;Isle of Dorn
 K Hairless the Menace|ACTIVE|78748|M|64.38,42.54|QO|1|Z|2248;Isle of Dorn|N|Hairless the Menace Slain.|T|Hairless the Menace|
 T The Great Collapse|QID|78747|M|63.30,42.64|Z|2248;Isle of Dorn|N|To Urtago.|
 T Cutting the Wick|QID|78748|M|63.30,42.64|Z|2248;Isle of Dorn|N|To Urtago.|
-A Who Runs this Fine Establishment?|QID|78749|PRE|78748&78747|M|63.30,42.64|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
+A Who Runs This Fine Establishment?|QID|78749|PRE|78748&78747|M|63.30,42.64|Z|2248;Isle of Dorn|N|From Urtago.|RANK|2|
 K Grand-Heister Bokk|ACTIVE|78749|M|62.50,38.73|QO|1|Z|2248;Isle of Dorn|N|Kill Grand-Heister Bokk.|T|Grand-Heister Bokk|
-C Who Runs this Fine Establishment?|QID|78749|M|62.45,39.50|QO|2|Z|2248;Isle of Dorn|N|Talk to Urtago.|CHAT|
-T Who Runs this Fine Establishment?|QID|78749|M|57.47,43.01|Z|2248;Isle of Dorn|N|To Urtago.|
+C Who Runs This Fine Establishment?|QID|78749|M|62.45,39.50|QO|2|Z|2248;Isle of Dorn|N|Talk to Urtago.|CHAT|
+T Who Runs This Fine Establishment?|QID|78749|M|57.47,43.01|Z|2248;Isle of Dorn|N|To Urtago.|
 A One More Tradition|QID|79335|PRE|78749|M|57.46,42.99|Z|2248;Isle of Dorn|N|From Korgran.|RANK|2|
 C One More Tradition|QID|79335|M|60.26,40.42|QO|1|Z|2248;Isle of Dorn|N|Kill Scavanging Stormfangs to loot Charged Cores.|S|
 C One More Tradition|QID|79335|M|60.68,41.57|QO|2|Z|2248;Isle of Dorn|N|Clumps of ore are groundspawn in the area.|H|

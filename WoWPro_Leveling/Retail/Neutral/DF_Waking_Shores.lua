@@ -482,9 +482,9 @@ C Secret Research|QID|69899|M|45.92,81.45|Z|2022|CHAT|QO|4|N|Convince him to acc
 T Secret Research|QID|69899|M|45.95,81.49|Z|2022|N|To Tyrgon.|
 A Identifying the Source|QID|69900|PRE|69899|M|45.95,81.49|Z|2022|N|From Tyrgon.|RANK|2|
 A Bring In the Expert|QID|69901|PRE|69899|M|45.95,81.49|Z|2022|N|From Tyrgon.|RANK|2|
-C Identifying the Source|QID|69900|M|44.54,80.29|Z|2022|N|Kill Trakhan.|S|
+K Trakhan|ACTIVE|69900|QO|1|M|44.54,80.29|Z|2022|N|Kill Trakhan.|S|T|Trakhan|
 C Bring In the Expert|QID|69901|M|43.45,82.98;43.04,79.43;42.05,77.60;40.56,80.03;38.68,82.27|CS|Z|2022|H|N|The first one is the hardest. It's on a ledge pretty high up, with Grod the Ancient and I saw no way to get it without getting in a fight with him. (and potentially losing).|
-C Identifying the Source|QID|69900|M|44.54,80.29|Z|2022|N|Kill Trakhan.|US|
+K Trakhan|ACTIVE|69900|QO|1|M|44.54,80.29|Z|2022|N|Kill Trakhan.|US|T|Trakhan|
 T Identifying the Source|QID|69900|M|45.95,81.50|Z|2022|N|To Tyrgon.|
 T Bring In the Expert|QID|69901|M|45.95,81.50|Z|2022|N|To Tyrgon.|
 A Theory in Practice|QID|69902|PRE|69900&69901|M|45.95,81.50|Z|2022|N|From Tyrgon.|RANK|2|
