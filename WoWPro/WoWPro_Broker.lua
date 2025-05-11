@@ -1740,12 +1740,6 @@ function WoWPro.UpdateGuideReal(From)
             end
         end
     else
-        local skipped = 0
-        for j = 1, WoWPro.stepcount do
-            if WoWProCharDB.Guide[GID].skipped[j] then
-                skipped = skipped + 1
-            end
-        end
         if WoWProDB.profile.guideprogress then
             WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
         else
