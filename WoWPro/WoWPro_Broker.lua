@@ -1723,29 +1723,17 @@ function WoWPro.UpdateGuideReal(From)
     end
     WoWProCharDB.Guide[GID].progress = p
     WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
-    -- Display progress based on the configuration
-    if WoWProDB.profile.guideprogress then
-        -- Show as steps completed out of total
-        WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
-    else
-        -- Show as percentage
-        if WoWProCharDB.Guide[GID].total > 0 then
-            local percentage = math.floor((p / WoWProCharDB.Guide[GID].total) * 100)
-            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
-        else
-            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (0%)")
-        end
-    end
 
     -- TODO: make next lines module specific
+    local total = WoWPro.stepcount or 1
+    local currentStep = WoWPro.ActiveStep or 1
+    local currentMainStep = WoWPro.NextStepNotSticky()
     if WoWPro.Recorder then
-        local total = WoWPro.stepcount or 1
-        local currentStep = WoWPro.ActiveStep or 1
         if WoWProDB.profile.guideprogress then
             WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
         else
             if total > 0 then
-                local percentage = math.floor((currentStep / total) * 100)
+                local percentage = math.floor((currentMainStep / total) * 100)
                 WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
             else
                 WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
@@ -1758,13 +1746,15 @@ function WoWPro.UpdateGuideReal(From)
                 skipped = skipped + 1
             end
         end
-        local total = WoWPro.stepcount or 1
-        local currentStep = WoWPro.ActiveStep or 1
         if WoWProDB.profile.guideprogress then
             WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. currentStep .. "/" .. total .. ")")
         else
-            local percentage = math.floor((currentStep / total) * 100)
-            WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+            if total > 0 then
+                local percentage = math.floor((currentMainStep / total) * 100)
+                WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone) .. "   (" .. percentage .. "%)")
+            else
+                WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone) .. "   (0%)")
+            end
         end
 
     -- If the guide is complete, loading the next guide --
