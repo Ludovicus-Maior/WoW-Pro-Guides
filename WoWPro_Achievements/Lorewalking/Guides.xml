@@ -1,0 +1,6 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="Blades Bane.lua"/>
+    <Script file="Ethereal_Wisdom.lua"/>
+    <Script file="LichKing.lua"/>
+	<Script file="LoreWalking.lua"/>
+</Ui>
