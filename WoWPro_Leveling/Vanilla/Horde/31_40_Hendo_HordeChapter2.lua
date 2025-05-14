@@ -8,188 +8,203 @@ WoWPro:GuideNextGuide(guide, 'Classic-40-50-Hendo-HordeChapter3')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-F Camp Taurajo|ACTIVE|5881|M|47.02,49.83|Z|1456; Thunder Bluff|
-A A New Ore Sample|QID|1153|M|45.10,57.73|Z|1413; The Barrens|N|From Tatternack Steelforge.|
+l Blood Shards|ACTIVE|5881|PRE|5052|M|PLAYER|CC|L|5075 10|N|If you have 10 Blood Shards leftover from earlier, you can use them once again to get a speed buff from Mangletooth in Camp Taurajo.\n[color=FF0000]NOTE: [/color]Skip this step if you don't have them.|
+F Camp Taurajo|ACTIVE|5881|M|45.11,63.91|Z|1454; Orgrimmar|N|This guide officially starts in Camp Taurajo.\n[color=FF0000]NOTE: [/color]We're assuming you're coming from Orgrimmar.|
+A A New Ore Sample|QID|1153|M|45.10,57.68|Z|1413; The Barrens|N|From Tatternack Steelforge.|
+A Spirit of the Wind|QID|889|ACTIVE|5881|PRE|5052|M|44.55,59.26|Z|1413; The Barrens|N|From Mangletooth for a speed buff that will help with the next step.\n[color=FF0000]NOTE: [/color]Skip this step if you don't have the Blood Shards.|IZ|Camp Taurajo|
 R The Great Lift|ACTIVE|5881|M|32.23,20.46|Z|1441; Thousand Needles|N|Leave Camp Taurajo through the east gate and follow the Southern Gold Road south to the bottom of The Barrens.|
 T Calling in the Reserves|QID|5881|M|31.87,21.65|Z|1441; Thousand Needles|N|To Grish Longrunner.|
-A Message to Freewind Post|QID|4542|M|32.22,22.11|Z|1441; Thousand Needles|N|From Brave Moonhorn.|
+A Message to Freewind Post|QID|4542|M|32.25,22.16|Z|1441; Thousand Needles|N|From Brave Moonhorn.|
 C A New Ore Sample|QID|1153|Z|1441; Thousand Needles|L|5842|ITEM|5842|N|Gravelsnout Surveyors or Diggers.\n[color=FF0000]NOTE: [/color]They are spread out over the east and west ends of Thousand Needles.|S|
 R Freewind Post|ACTIVE|4542|M|31.26,25.99;29.32,34.17;46.84,47.18|CC|Z|1441; Thousand Needles|N|At the bottom of the lift, follow the road to Freewind Post and a little further down the road, take the lift up.|
 T Message to Freewind Post|QID|4542|M|45.69,50.72|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn.|
 A Pacify the Centaur|QID|4841|PRE|4542|M|45.69,50.72|Z|1441; Thousand Needles|N|From Cliffwatcher Longhorn.|
-A Wanted - Arnak Grimtotem|QID|5147|M|45.96,50.85|Z|1441; Thousand Needles|N|From the wanted poster in front of the Inn.|
-h Freewind Post|QID|4841|M|46.04,51.41|Z|1441; Thousand Needles|N|Talk to Innkeeper Abeqwa inside the Inn to set your hearth to Freewind Post.|
-T The Sacred Flame|QID|1196|M|46.11,51.64|Z|1441; Thousand Needles|N|To Rau Cliffrunner.|
-A The Sacred Flame|QID|1197|PRE|1196|M|46.11,51.64|Z|1441; Thousand Needles|N|From Rau Cliffrunner.|
-f Freewind Post|QID|4841|M|45.15,49.17|Z|1441; Thousand Needles|N|Get the flight path from Nyse.|
-A Wind Rider|QID|4767|M|44.94,49.02|Z|1441; Thousand Needles|N|From Elu.|
-A Alien Egg|QID|4821|M|44.69,50.25|Z|1441; Thousand Needles|N|From Hagar Lightninghoof.|
-C Pacify the Centaur|QID|4841|QO|1;2;3|Z|1441; Thousand Needles|N|<coords>Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
+A Wanted - Arnak Grimtotem|QID|5147|M|46.01,50.86|Z|1441; Thousand Needles|N|From the wanted poster in front of the Inn.|
+h Freewind Post|ACTIVE|1196|M|46.04,51.41|Z|1441; Thousand Needles|N|Talk to Innkeeper Abeqwa inside the Inn to set your hearth to Freewind Post.|
+T The Sacred Flame|QID|1196|M|46.14,51.71|Z|1441; Thousand Needles|N|To Rau Cliffrunner.|
+A The Sacred Flame|QID|1197|PRE|1196|M|46.14,51.71|Z|1441; Thousand Needles|N|From Rau Cliffrunner.|
+f Freewind Post|AVAILABLE|4767|M|45.14,49.10|Z|1441; Thousand Needles|N|Get the flight path from Nyse.|
+A Wind Rider|QID|4767|M|44.83,48.96|Z|1441; Thousand Needles|N|From Elu.|
+A Alien Egg|QID|4821|M|44.64,50.29|Z|1441; Thousand Needles|N|From Hagar Lightninghoof.|
+C Pacify the Centaur|QID|4841|QO|1;2;3|M|40.34,34.50|Z|1441; Thousand Needles|N|Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
 R Splithoof Hold|ACTIVE|1197|M|43.98,37.49|Z|1441; Thousand Needles|N|Leave Freewind Post and make your way northwest to Splithoof Hold.|
 R Ancient Brazier|ACTIVE|1197|M|42.00,31.55|CC|Z|1441; Thousand Needles|N|Head inside Splithoof Hold and make your way to the Ancient Brazier.|
-C The Sacred Flame|QID|1197|Z|1441; Thousand Needles|L|5869|N|<coords>Right-click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning.|
-C Pacify the Centaur|QID|4841|QO|1;2;3|Z|1441; Thousand Needles|N|<coords>Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance.\nThe Windchasers heal themselves 75%.\nThe Wranglers range attack if you leave melee range.|US|
+C The Sacred Flame|QID|1197|M|42.00,31.46|Z|1441; Thousand Needles|L|5869|N|<coords>Right-click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning.|
+R Splithoof Hold|ACTIVE|1803|QO|2|M|43.89,37.42|Z|1441; Thousand Needles|N|Enter the cave entrance to the west of this cave.|
+C Tome of the Cabal|QID|1803|QO|2|M|43.44,32.68|Z|1441; Thousand Needles|L|6997|N|Open the Damaged Chest by going through the passage to the right and crossing over the river to where the chest is sitting on the ground.|
+C Pacify the Centaur|QID|4841|QO|1;2;3|M|48.62,40.99|Z|1441; Thousand Needles|N|<coords>Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance.\nThe Windchasers heal themselves 75%.\nThe Wranglers range attack if you leave melee range.|US|
 R Windbreak Canyon|AVAILABLE|1149|M|52.31,43.13|Z|1441; Thousand Needles|N|Make your way east to Windbreak Canyon.|
-R The Weathered Nook|AVAILABLE|1149|M|54.63,44.68;53.67,42.74|CC|Z|1441; Thousand Needles|N|Climb up the ramp to the cave entrance.|
+R The Weathered Nook|AVAILABLE|1149|M|54.63,44.68;53.62,42.54|CS|Z|1441; Thousand Needles|N|Climb up the ramp to the cave entrance.|
 A Test of Faith|QID|1149|M|53.94,41.49|Z|1441; Thousand Needles|N|From Dorn Plainstalker.|
 R Test of Faith|ACTIVE|1149|M|26.43,32.39|CC|Z|1441; Thousand Needles|N|Run and jump off the planks sticking out. You'll be teleported back to the cave as you fall.|
 T Test of Faith|QID|1149|M|53.94,41.49|Z|1441; Thousand Needles|N|To Dorn Plainstalker.|
-A Test of Endurance|QID|1150|M|53.60,42.82|Z|1441; Thousand Needles|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
+A Test of Endurance|QID|1150|M|53.94,41.49|Z|1441; Thousand Needles|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
 C Alien Egg|QID|4821|M|52.35,55.22;56.34,50.39|CN|Z|1441; Thousand Needles|L|12467|N|Look for the Alien Egg on the ground at one of two locations.\n[color=FF0000]NOTE: [/color]There is a rumor of a third location. They have a fairly long respawn timer.|
 R Freewind Post|ACTIVE|4821|M|46.84,47.18|Z|1441; Thousand Needles|N|Run back to Freewind and take the lift up.|
-T Alien Egg|QID|4821|M|44.69,50.27|Z|1441; Thousand Needles|N|To Hagar Lightninghoof.|
-A Serpent Wild|QID|4865|PRE|4821|M|44.69,50.27|Z|1441; Thousand Needles|N|From Hagar Lightninghoof.|
-T Pacify the Centaur|QID|4841|M|45.69,50.68|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn.|
+T Alien Egg|QID|4821|M|44.64,50.29|Z|1441; Thousand Needles|N|To Hagar Lightninghoof.|
+A Serpent Wild|QID|4865|PRE|4821|M|44.64,50.29|Z|1441; Thousand Needles|N|From Hagar Lightninghoof.|
+T Pacify the Centaur|QID|4841|M|45.69,50.72|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn.|
 ;L Level 31|QID|4841|LVL|31|Z|1441; Thousand Needles|N|You should be around level 31 by this point.|
-A Grimtotem Spying|QID|5064|PRE|4841|M|45.69,50.68|Z|1441; Thousand Needles|N|From Cliffwatcher Longhorn.|
-T The Sacred Flame|QID|1197|M|46.11,51.64|Z|1441; Thousand Needles|N|To Rau Cliffrunner.|
-R Sky path access|ACTIVE|5064|M|31.22,36.91|CC|Z|1441; Thousand Needles|N|Take the elevator down and run to the base of the ramp leading up to the sky path.|
+A Grimtotem Spying|QID|5064|PRE|4841|M|45.69,50.72|Z|1441; Thousand Needles|N|From Cliffwatcher Longhorn.|
+T The Sacred Flame|QID|1197|M|46.14,51.71|Z|1441; Thousand Needles|N|To Rau Cliffrunner.|
+R Sky path access|ACTIVE|5064|QO|1;2;3|M|31.22,36.91|CC|Z|1441; Thousand Needles|N|Take the elevator down and run to the base of the ramp leading up to the sky path.|
 C Grimtotem Spying|QID|5064|M|33.20,35.43;31.96,31.38;33.21,28.46;34.91,31.79;33.25,36.28;31.80,32.60|CS|Z|1441; Thousand Needles|L|12765|N|Make your way to the chest, open it and loot the Secret Note #1.|
 C Grimtotem Spying|QID|5064|M|33.26,36.25;33.78,39.97|CS|Z|1441; Thousand Needles|L|12766|N|Make your way to the chest inside the tent and loot Secret Note #2.|
-C Grimtotem Spying|QID|5064|M|35.63,39.35;39.32,41.53|CS|Z|1441; Thousand Needles|L|12768|N|Make your way to the chest inside the tent and loot Secret Note #3.|
-K Wanted - Arnak Grimtotem|QID|5147|QO|1|M|35.67,31.01;37.99,26.64;37.65,31.47|CS|Z|1441; Thousand Needles|N|Slowly, pull one mob after another until you can pull Arnak. Kill him and loot Arnak's Hoof.|
-A Free at Last|QID|4904|M|37.98,26.75|Z|1441; Thousand Needles|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|
+C Grimtotem Spying|QID|5064|M|35.63,39.35;39.34,41.53|CS|Z|1441; Thousand Needles|L|12768|N|Make your way to the chest inside the tent and loot Secret Note #3.|
+C Wanted - Arnak Grimtotem|QID|5147|QO|1|M|35.67,31.01;37.99,26.64;37.65,31.47|CS|Z|1441; Thousand Needles|L|12884|ITEM|12884|N|Arnak Grimtotem.\n[color=FF0000]NOTE: [/color]Slowly, pull one mob after another until you can pull Arnak.|
+A Free at Last|QID|4904|M|37.94,26.44|Z|1441; Thousand Needles|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|
+A Free at Last|QID|4904|M|37.94,26.44|Z|1441; Thousand Needles|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|FAIL|
 C Free at Last|QID|4904|QO|1|M|30.99,37.05|Z|1441; Thousand Needles|N|Escort Lakota Windsong across the sky path and out of Darkcloud Pinnacle to the ground below.\nAs you reach each 'plateau', a group of two will spawn and attack you. They stop spawning when you reach the last plateau and begin the downward path.\n[color=FF0000]NOTE: [/color]Leaving all of the pulling of mobs to her. If you pull at the wrong time, you could end up fighting 5 or 6 at once.|
-R Whitereach Post|ACTIVE|4865|M|29.19,33.96;22.22,31.51|CC|
-T Serpent Wild|QID|4865|M|21.58,32.30|Z|1441; Thousand Needles|N|To Motega Firemane.|
-A Sacred Fire|QID|5062|PRE|4865|M|21.58,32.30|Z|1441; Thousand Needles|N|From Motega Firemane.|
-R Highperch|ACTIVE|4767|M|28.22,33.32;25.06,34.48;20.70,39.97;14.68,32.76|CC|Z|1441; Thousand Needles|N|Make your way to the ramp leading to High Perch.|
+R Whitereach Post|ACTIVE|4865|M|21.87,31.86|N|Follow the road west.|
+T Serpent Wild|QID|4865|M|21.54,32.36|Z|1441; Thousand Needles|N|To Motega Firemane.|
+A Sacred Fire|QID|5062|PRE|4865|M|21.54,32.36|Z|1441; Thousand Needles|N|From Motega Firemane.|
+A Hypercapacitor Gizmo|QID|5151|M|21.43,32.55|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizlo Bearingshiner.\n[color=FF0000]NOTE: [/color]This quest is not easy for some classes, especially at this level. Feel free to accept this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
+R Highperch|ACTIVE|4767|QO|1|M|14.68,32.76|Z|1441; Thousand Needles|N|Make your way to the ramp leading to Highperch.|
 C Wind Rider|QID|4767|Z|1441; Thousand Needles|L|12356 10|N|Collect Highperch Wyvern Eggs.|S|
-A Homeward Bound|QID|4770|M|12.17,36.30;17.8,40.6|CC|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Pao'ka Swiftmountain.|
-C Homeward Bound|QID|4770|QO|1|M|15.15,32.61|Z|1441; Thousand Needles|N|Escort Pao'ka out of Highperch to the road below.\nAt one point, Pao'ka will stop to talk and a single Wyvern will spawn. This is the only time it happens.|
-C Wind Rider|QID|4767|Z|1441; Thousand Needles|L|12356 10|N|<coords>Go back to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
-R Whitereach Post|ACTIVE|4770|M|14.92,33.04;17.82,35.63;19.42,33.14|CC|N|Return to Whitereach.|
-T Homeward Bound|QID|4770|M|21.54,32.33|Z|1441; Thousand Needles|N|To Motega Firemane.|
-A Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizlo Bearingshiner.\n[color=FF0000]NOTE: [/color]This quest is not easy for some classes, especially at this level. Feel free to accept this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
-C Hypercapacitor Gizmo|QID|5151|QO|1|M|22.17,26.17;22.81,24.45|CC|Z|1441; Thousand Needles|N|Make your way to the area where the cage is. Once you are there, clear the area of any and all mobs. When you are ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]If you're delaying doing this quest, left-click the check box to skip this step for now.|
-C Galak Messenger|QID|4881|M|22.04,31.52|Z|1441; Thousand Needles|N|If you wait (5-10 mins max) at this location facing the road east, he will come to you. Kill him and loot the Assassination note from him.\nIf you don't feel like waiting, You can either follow the road west to Camp E'thok or east to Splithoof Crag. He patrols along the road between the 2 camps.|
+A Homeward Bound|QID|4770|M|17.89,40.57|Z|1441; Thousand Needles|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Pao'ka Swiftmountain.\n[color=FF0000]NOTE: [/color]Watch for, Heartrazor, a lv 32 rare elite in the area.|NA|
+A Homeward Bound|QID|4770|M|17.89,40.57|Z|1441; Thousand Needles|ELITE|N|[color=CC00FF]QUEST FAILED [/color]\nReturn to Pao'ka Swiftmountain to restart once he respawns.|FAIL|
+C Homeward Bound|QID|4770|QO|1|M|15.17,32.66|Z|1441; Thousand Needles|N|Escort Pao'ka out of Highperch to the road below.\nAt one point, Pao'ka will stop to talk and a single Wyvern will spawn. This is the only time it happens.|
+C Wind Rider|QID|4767|M|10.74,34.31|Z|1441; Thousand Needles|L|12356 10|N|Return to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
+R Whitereach Post|ACTIVE|4770|M|19.42,33.14|N|Return to Whitereach.|
+T Homeward Bound|QID|4770|M|21.54,32.36|Z|1441; Thousand Needles|N|To Motega Firemane.|
+C Hypercapacitor Gizmo|QID|5151|QO|1|M|22.81,24.45|Z|1441; Thousand Needles|L|12946|ITEM|12946|N|Enraged Panther.\n[color=FF0000]NOTE: [/color]Make your way to the area where the cage is and once you're there, clear the area of any and all mobs. When you're ready, open the cage and prepare to fight.\n\nIf you're delaying doing this quest, skip this step for now.|
+C Assassination Note|AVAILABLE|4881|M|18.94,21.81;39.80,34.60|CN|Z|1441; Thousand Needles|L|12564|ITEM|12564|N|Galak Messenger.\n[color=FF0000]NOTE: [/color]If you wait (5-10 mins max) at this location facing the road east, he will come to you.\nIf you don't feel like waiting, you can either follow the road west to Camp E'thok, or east to Splithoof Crag. He patrols along the road between the 2 camps.|T|Galak Messenger|
 A Assassination Plot|QID|4881|M|PLAYER|CC|N|Click on the Assassination Note to start the quest.|U|12564|O|
-T Assassination Plot|QID|4881|M|21.31,32.01|Z|1441; Thousand Needles|N|To Kanati Greycloud.|
-A Protect Kanati Greycloud|QID|4966|M|21.31,32.01|Z|1441; Thousand Needles|N|From Kanati Greycloud.|
-C Protect Kanati Greycloud|QID|4966|Z|1441; Thousand Needles|N|A group of 3 Galak Assassins will spawn and attack you and Kanati. Defeat them to complete the quest.|
-T Protect Kanati Greycloud|QID|4966|M|21.30,31.95|Z|1441; Thousand Needles|N|To Kanati Greycloud.|
+R Whitereach Post|ACTIVE|5151|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
+t Hypercapacitor Gizmo|QID|5151|M|21.43,32.55|Z|1441; Thousand Needles|N|To Wizlo Bearingshiner.|IZ|Whitereach Post|
+T Assassination Plot|QID|4881|M|21.24,32.06|Z|1441; Thousand Needles|N|To Kanati Greycloud.|
+A Protect Kanati Greycloud|QID|4966|M|21.24,32.06|Z|1441; Thousand Needles|N|From Kanati Greycloud.|NA|
+C Protect Kanati Greycloud|QID|4966|M|21.24,32.06|Z|1441; Thousand Needles|N|As you lead Kanati, a group of 3 Galak Assassins will spawn and attack you. Defeat them to complete the quest.|
+T Protect Kanati Greycloud|QID|4966|M|21.24,32.06|Z|1441; Thousand Needles|N|To Kanati Greycloud.|
 C Incendia Agave|ACTIVE|5062|M|33.69,34.09;33.36,32.88;34.96,33.20;36.05,33.51;34.87,34.82;35.61,36.17;36.63,36.23;36.06,37.40;36.59,38.77|CN|Z|1441; Thousand Needles|L|12732 10|N|Loot these from in and around the pond.|
 R Freewind Post|ACTIVE|4767^5147^5064^4904|M|46.84,47.18|Z|1441; Thousand Needles|N|Run back to Freewind and take the lift up.|
-T Wind Rider|QID|4767|M|44.91,49.04|Z|1441; Thousand Needles|N|To Elu.|
-T Wanted - Arnak Grimtotem|QID|5147|M|45.68,50.62|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn.|
-T Grimtotem Spying|QID|5064|M|45.69,50.78|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn.|
+T Wind Rider|QID|4767|M|44.83,48.96|Z|1441; Thousand Needles|N|To Elu.|
+T Wanted - Arnak Grimtotem|QID|5147|M|45.69,50.72|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn.|
+T Grimtotem Spying|QID|5064|M|45.69,50.72|Z|1441; Thousand Needles|N|To Cliffwatcher Longhorn.|
 T Free at Last|QID|4904|M|45.98,51.58|Z|1441; Thousand Needles|N|To Thalia Amberhide.|
 
 ; --- Thunder Bluff
-F Thunder Bluff|ACTIVE|5062|M|45.14,49.10|Z|1441; Thousand Needles|
+F Thunder Bluff|ACTIVE|5062|M|45.14,49.10|Z|1441; Thousand Needles|N|Fly to TB to see Magatha Grimtotem.|
 T Sacred Fire|QID|5062|M|69.87,30.92|Z|1456; Thunder Bluff|N|To Magatha Grimtotem.|
 A Arikara|QID|5088|M|69.87,30.92|Z|1456; Thunder Bluff|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magatha Grimtotem.|
 
 ; --- Thousand Needles
-F Freewind Post|ACTIVE|5088|M|47.02,49.83|Z|1456; Thunder Bluff|
-R Sky path access|ACTIVE|5088|M|31.22,36.91|Z|1441; Thousand Needles|N|Run to the base of the ramp leading up to the sky path.|
-C Arikara|QID|5088|QO|1;2|M|33.13,35.29;35.66,30.98;37.18,33.14;38.02,35.33|CC|Z|1441; Thousand Needles|N|Make your way to the Sacred Fire of Life. Right-click on it to summon Arikara. Kill him and loot his skin. Be sure to clear all of the mobs before you summon Arikara.|LVL|32|
+F Freewind Post|ACTIVE|5088|QO|1|M|47.02,49.83|Z|1456; Thunder Bluff|N|Fly back to Thousand Needles.|TZ|Thousand Needles|
+R Sky path access|ACTIVE|5088|QO|1|M|31.68,36.53|CC|Z|1441; Thousand Needles|N|Run to the base of the ramp leading up to the sky path.|
+C Arikara|QID|5088|M|33.13,35.29;35.66,30.98;37.18,33.14;38.02,35.33|CC|Z|1441; Thousand Needles|L|12925|ITEM|12925|N|Arikara after summoning by lighting the Sacred Fire of Life.\n[color=FF0000]NOTE: [/color]Work your way across the platforms and after clearing the platform, click on the Sacred Fire of Life to light it.|
 ;L Level 32|QID|5151|N|You should be around level 32 by this point.|
-R Whitereach Post|ACTIVE|5088|M|22.28,31.56|Z|1441; Thousand Needles|N|Make your way back down to the ground and run to Whitereach Post.|
-T Arikara|QID|5088|M|21.61,32.25|Z|1441; Thousand Needles|N|To Motega Firemane.|
-C Hypercapacitor Gizmo|QID|5151|M|22.17,26.17;22.81,24.45|CC|Z|1441; Thousand Needles|N|Make your way to the area where the cage is. Once you are there, clear the area of any and all mobs. When you are ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]If you're delaying doing this quest, left-click the check box to skip this step for now.|
-R Whitereach Post|ACTIVE|5151|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
-T Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441; Thousand Needles|N|To Wizlo Bearingshiner.|
-C Steelsnap|QID|1131|M|13.54,19.88|Z|1441; Thousand Needles|N|Find Steelsnap patrolling the area NW of the Great Lift. Kill him and loot Steelsnap's Rib.\n[color=FF0000]NOTE: [/color]He is lv 30 and travels with 2 other lv 29 hyenas. None of them are elite.\nMuch like the Galak Messenger, if you just wait here facing east (towards Camp E'thok), he will come to you. At this location, there are no other mobs to worry about.|
-R Roguefeather Den|ACTIVE|1150|M|27.47,49.57;27.44,51.07|CC|Z|1441; Thousand Needles|N|Make your way to The Screeching Canyon and walk up the ramp to Roguefeather Den.|
-C Test of Endurance|QID|1150|M|26,55.4|Z|1441; Thousand Needles|N|Work your way to the back of the cave. Break the crates ONE at a time. Every time you break a crate, a group of 3-4 various harpies will spawn. Always kill the Harpy first, the Windcaller second and then whatever is left last. Make sure you clear them before breaking the next crate. Breaking the third crate will spawn a final group with Grenka. Kill her and loot Grenka's Claw. Killing Grenka should be your priority.\n\n You can heal up between breaking crates. But, the longer it takes you, the more you risk the original group respawning. If that happens, kill them before you break the next crate.\n[color=FF0000]NOTE: [/color]You can get lucky sometimes and Grenka has already spawned. If that's the case, focus your attack on killing her first.|
-H Freewind Post|ACTIVE|1150|Z|1441; Thousand Needles|N|Unless you plan on fighting your way out, run to the VERY back of the cave beside the crates. There is a small nook in the wall where nothing can attack you, even if they are aggroed. Jump up into the nook and use your hearthstone in there.|
-R The Weathered Nook|ACTIVE|1150|M|54.66,44.61|
-T Test of Endurance|QID|1150|M|53.90,41.60|Z|1441; Thousand Needles|N|To Dorn Plainstalker.|
-A Test of Strength|QID|1151|PRE|1150|M|53.90,41.60|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Dorn Plainstalker.|
-R Highperch|ACTIVE|1151|M|44.85,58.81;29.67,51.23;18.04,37.81|CC|
-C Test of Strength|QID|1151|QO|1|M|17.27,37.07|Z|1441; Thousand Needles|N|Continue west until you find Rok'Alim. Kill him and loot the fragments.|
-R The Weathered Nook|ACTIVE|1151|M|54.66,44.61|Z|1441; Thousand Needles|N|Choose your own path back.|
-T Test of Strength|QID|1151|M|53.60,42.82|Z|1441; Thousand Needles|N|To Dorn Plainstalker.|
-A Test of Lore|QID|1152|PRE|1151|M|53.60,42.82|Z|1441; Thousand Needles|N|From Dorn Plainstalker.|
+R Whitereach Post|ACTIVE|5088|M|22.28,31.56|Z|1441; Thousand Needles|N|Make your way back down to the ground and run to Whitereach Post.\n[color=FF0000]NOTE: [/color]Save yourself some time and effort and jump down into the water below.|
+T Arikara|QID|5088|M|21.54,32.36|Z|1441; Thousand Needles|N|To Motega Firemane.|
+t Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|Z|1441; Thousand Needles|N|To Wizlo Bearingshiner.|
+C Steelsnap|QID|1131|M|13.54,19.88|Z|1441; Thousand Needles|L|5837|ITEM|5837|N|Steelsnap, found patrolling the area NW of the Great Lift.\n[color=FF0000]NOTE: [/color]He's lv 30 and travels with 2 other lv 29 hyena; none of them are elite.\nMuch like the Galak Messenger, if you just wait here facing east (towards Camp E'thok), he will come to you.\nAt this location, there are no other mobs to worry about.|
+R Roguefeather Den|ACTIVE|1150|QO|1|M|27.47,49.57;27.44,51.07|CC|Z|1441; Thousand Needles|N|Make your way to The Screeching Canyon and walk up the ramp to Roguefeather Den.|
+C Test of Endurance|QID|1150|M|26.20,55.40|Z|1441; Thousand Needles|L|5843|ITEM|5843|N|Grenka.\nClear your way to the back of the cave and break the crates ONE at a time. Every time you break a crate, a group of 3-4 various harpies will spawn.\nAlways kill the Harpy (spell interrupter) first , the Windcaller (stun) second and then whatever is left last. Make sure you clear them before breaking the next crate. Breaking the third crate will spawn a final group with Grenka. Killing Grenka should be your priority.\n\n You can heal up between breaking crates. But, the longer it takes you, the more you risk the original group respawning. If that happens, kill them before you break the next crate.\n[color=FF0000]NOTE: [/color]You can get lucky sometimes and Grenka has already spawned. If that's the case, focus your attack on killing her first.|T|Grenka|
+H Freewind Post|ACTIVE|1150|M|46.84,47.18|Z|1441; Thousand Needles|N|Unless you plan on fighting your way out, run to the VERY back of the cave beside the crates. There is a small nook in the wall where nothing can attack you, even if they are aggroed. Jump up into the nook and use your hearthstone in there.|
+R The Weathered Nook|ACTIVE|1150|M|53.62,42.54|Z|1441; Thousand Needles|N|Climb up the ramp to the cave entrance.|
+T Test of Endurance|QID|1150|M|53.94,41.49|Z|1441; Thousand Needles|N|To Dorn Plainstalker.|
+A Test of Strength|QID|1151|PRE|1150|M|53.94,41.49|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Dorn Plainstalker.|
+R Highperch|ACTIVE|1151|QO|1|M|44.85,58.81;29.67,51.23;18.04,37.81|CC|Z|1441; Thousand Needles|N|Rok'Alim has a very large, looping patrol circle and Highperch is a good place to start.|T|Rok'Alim|
+C Test of Strength|QID|1151|QO|1|M|17.27,37.07|Z|1441; Thousand Needles|L|5844|ITEM|5844|N|Rok'Alim the Pounder, located west of Highperch.|T|Rok'Alim|
+R The Weathered Nook|ACTIVE|1151|M|53.62,42.54|Z|1441; Thousand Needles|N|Choose your own path back.\n[color=FF0000]NOTE: [/color]If your Hearth is up, use it and shorten the travel distance or save for the trip back.|
+T Test of Strength|QID|1151|M|53.94,41.49|Z|1441; Thousand Needles|N|To Dorn Plainstalker.|
+A Test of Lore|QID|1152|PRE|1151|M|53.94,41.49|Z|1441; Thousand Needles|N|From Dorn Plainstalker.|
 C A New Ore Sample|QID|1153|Z|1441; Thousand Needles|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|US|
+C Hypercapacitor Gizmo|QID|5151|QO|1|M|22.81,24.45|Z|1441; Thousand Needles|L|12946|ITEM|12946|N|Enraged Panther.\n[color=FF0000]NOTE: [/color]Make your way to the area where the cage is and once you're there, clear the area of any and all mobs. When you're ready, open the cage and prepare to fight.\n\nThis'll be your last chance to do it.|
+R Whitereach Post|ACTIVE|5151|M|22.28,31.56|Z|1441; Thousand Needles|N|Run back to Whitereach Post.|
 
 ; --- The Barrens
-R Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441; Thousand Needles|N|Run back to Freewind and take the lift up.|
-F Camp Taurajo|ACTIVE|1153|M|45.05,49.16|
-T A New Ore Sample|QID|1153|M|45,57.6|Z|1413; The Barrens|N|To Tatternack Steelforge.|
+H Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441; Thousand Needles|N|Hearth back to Freewind Post.\n[color=FF0000]NOTE: [/color]If you used it already, you'll have to run back.|
+F Camp Taurajo|ACTIVE|1153|M|45.14,49.10|Z|1441; Thousand Needles|N|Fly to The Barrens to see Tatternack and start your rounds of turning in quests.|
+T A New Ore Sample|QID|1153|M|45.10,57.68|Z|1413; The Barrens|N|To Tatternack Steelforge.|
 
 ; --- Thunder Bluff
-F Thunder Bluff|QID|1131|M|44.46,59.14|Z|1413; The Barrens|
-T Steelsnap|QID|1131|M|61.53,80.89|Z|1456; Thunder Bluff|N|To Melor Stonehoof.|
+F Thunder Bluff|ACTIVE|1131|M|44.44,59.15|Z|1413; The Barrens|N|Fly to TB to see Melor.|
+T Steelsnap|QID|1131|M|61.53,80.89|Z|1456; Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.|
 A Frostmaw|QID|1136|PRE|1131|M|61.53,80.89|Z|1456; Thunder Bluff|N|From Melor Stonehoof.|
 
 ; --- Stonetalon Mountains
-F Sun Rock Retreat|ACTIVE|1152|M|47.02,49.83|Z|1456; Thunder Bluff|
-R Windshear Crag|ACTIVE|1152|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|Z|1442; Stonetalon Mountains|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
-T Test of Lore|QID|1152|M|78.79,45.67|Z|1442; Stonetalon Mountains|N|To Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains.|
+F Sun Rock Retreat|ACTIVE|1152|M|47.02,49.83|Z|1456; Thunder Bluff|N|Fly to Stonetalon Mountains to continue the Test of Lore quest chain.|
+h Sun Rock Retreat|ACTIVE|1483|M|47.46,62.13|Z|1442; Stonetalon Mountains|N|Set your hearthstone to Sun Rock Retreat in case it's available later.|
+R Windshear Crag|ACTIVE|1152|M|53.15,61.61;59.97,71.14|CC|Z|1442; Stonetalon Mountains|N|Follow the road south out of Sun Rock Retreat to Windshear Crag (look for the sign).\n[color=FF0000]NOTE: [/color]If you don't mind a little falling damage, you can get in through the graveyard you pass along the way.|
+T Test of Lore|QID|1152|M|78.79,45.67|Z|1442; Stonetalon Mountains|N|To Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains (northeast corner of Windshear Crag).|
 A Test of Lore|QID|1154|PRE|1152|M|78.79,45.67|Z|1442; Stonetalon Mountains|N|From Braug Dimspirit.|
 
 ; --- Ashenvale
-R The Dor'Danil Barrow Den|QID|1154|M|42.28,71.07;53.71,58.89;71.71,70.28;75.02,76.38;75.84,75.38|CC|Z|1440; Ashenvale|N|Take the Talondeep Path to Ashenvale. Follow the path to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den.|
-C Legacy of the Aspects|QID|1154|M|77.32,75.18;76.60,74.86;75.56,74.36|CC|Z|1440; Ashenvale|L|5860|N|Find the Legacy of the Aspects.|
+R The Dor'Danil Barrow Den|QID|1154|M|42.28,71.07;53.71,58.89;71.71,70.28;75.02,76.38;75.84,75.38|CC|Z|1440; Ashenvale|N|Take the Talondeep Path to Ashenvale. Follow the path to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den.\n[color=FF0000]NOTE: [/color]Alternatively, you can just run straight across following the mountain edge.|
+C Test of Lore|QID|1154|M|77.32,75.18;76.60,74.86;75.56,74.36|CS|Z|1440; Ashenvale|L|5860|N|Enter the building and work your way down SLOWLY to the pedestal with the paper on it.\n[color=FF0000]NOTE: [/color]The friendlies will not help you fight.|
 
 ; --- Stonetalon Mountains
-R The Talondeep Path|ACTIVE|1154|CC|N|<coords>Make your way out The Dor'Danil Barrow Den. Head to the Ashenvale entrance to The Talondeep Path and go through to Stonetalon Mountains.|
-T Test of Lore|QID|1154|M|78.75,45.62|Z|1442; Stonetalon Mountains|N|To Braug Dimspirit.|
-A Test of Lore|QID|6627|PRE|1154|M|78.75,45.62|Z|1442; Stonetalon Mountains|N|From Braug Dimspirit.|
-C Test of Lore|QID|6627|M|78.75,45.62|Z|1442; Stonetalon Mountains|N|Answer Braug Dimspirit's question with #2 Neltharion.|CHAT|
-T Test of Lore|QID|6627|M|78.75,45.62|Z|1442; Stonetalon Mountains|N|To Braug Dimspirit.|
-A Test of Lore|QID|1159|PRE|6627|M|78.75,45.62|Z|1442; Stonetalon Mountains|N|From Braug Dimspirit.|
-R Sun Rock Retreat|AVAILABLE|1145|M|49.58,60.99|Z|1442; Stonetalon Mountains|
+R The Talondeep Path|ACTIVE|1154|M|42.30,71.11|Z|1440; Ashenvale|N|Make your way out of The Dor'Danil Barrow Den and to the Stonetalon Mountains side of The Talondeep Path.|
+T Test of Lore|QID|1154|M|78.79,45.67|Z|1442; Stonetalon Mountains|N|To Braug Dimspirit.|
+A Test of Lore|QID|6627|PRE|1154|M|78.79,45.67|Z|1442; Stonetalon Mountains|N|From Braug Dimspirit.|
+C Test of Lore|QID|6627|M|78.79,45.67|Z|1442; Stonetalon Mountains|QG|Braug Dimspirit|N|Answer Braug Dimspirit's question.|CHAT|
+C Test of Lore|QID|6627|M|78.79,45.67|Z|1442; Stonetalon Mountains|QG|Which of the Aspects|N|Neltharion|CHAT|
+T Test of Lore|QID|6627|M|78.79,45.67|Z|1442; Stonetalon Mountains|N|To Braug Dimspirit.|
+A Test of Lore|QID|1159|PRE|6627|M|78.79,45.67|Z|1442; Stonetalon Mountains|N|From Braug Dimspirit.|
+H Sun Rock Retreat|AVAILABLE|1145|M|47.46,62.13|Z|1442; Stonetalon Mountains|N|Use your hearthstone to return to Sun Rock Retreat in case it's available later.\n[color=FF0000]NOTE: [/color]If it's still on cooldown, skip this step.|IZ|1442; Stonetalon Mountains|
+R Sun Rock Retreat|AVAILABLE|1145|M|49.58,60.99|Z|1442; Stonetalon Mountains|N|Return to Sun Rock Retreat.|IZ|1442; Stonetalon Mountains|
 
 ; --- The Barrens/Orgrimmar
-F Crossroads|AVAILABLE|1145|M|45.12,59.84|Z|1442; Stonetalon Mountains|
-A The Swarm Grows|QID|1145|M|51.09,29.61|Z|1413; The Barrens|N|From Korran.|
-F Orgrimmar|ACTIVE|1145|M|51.50,30.34|Z|1413; The Barrens|
-T The Swarm Grows|QID|1145|M|75.22,34.23|Z|1454; Orgrimmar|N|To Belgrom Rockmaul.|
+F Crossroads|AVAILABLE|1145|M|45.12,59.84|Z|1442; Stonetalon Mountains|N|Fly to The Crossroads to pick up a quest.|TZ|The Crossroads|
+A The Swarm Grows|QID|1145|M|51.07,29.63|Z|1413; The Barrens|N|From Korran.|
+F Thunder Bluff|ACTIVE|1145|M|51.50,30.34|Z|1413; The Barrens|N|Fly to Thunder Bluff to train.|C|Druid|
+= Level 32 Training|ACTIVE|1145|M|PLAYER|CC|N|Do your level 32 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|32|IZ|Orgrimmar|C|Druid|
+F Orgrimmar|ACTIVE|1145|M|51.50,30.34|Z|1413; The Barrens|N|Fly to Orgrimmar to turn in quests.|C|Druid|
+F Orgrimmar|ACTIVE|1145|M|51.50,30.34|Z|1413; The Barrens|N|Fly to Orgrimmar to train.|C|-Druid|
+= Level 32 Training|ACTIVE|1145|M|PLAYER|CC|N|Do your level 32 training.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|32|IZ|Orgrimmar|C|-Druid|
+T The Swarm Grows|QID|1145|M|75.22,34.23|Z|1454; Orgrimmar|N|To Belgrom Rockmaul in the Valley of Honor.|
 A The Swarm Grows|QID|1146|PRE|1145|M|75.22,34.23|Z|1454; Orgrimmar|N|From Belgrom Rockmaul.|
 A Regthar Deathgate|QID|1361|M|75.22,34.23|Z|1454; Orgrimmar|N|From Belgrom Rockmaul.|
-A Alliance Relations|QID|1431|M|51.99,45.41|Z|1454; Orgrimmar|N|From Craven Drok.|
-T Alliance Relations|QID|1431|M|22.28,53.92|Z|1454; Orgrimmar|N|To Keldran.|
-A Alliance Relations|QID|1432|PRE|1431|M|22.28,53.92|Z|1454; Orgrimmar|N|From Keldran.|
+A Alliance Relations|QID|1431|M|47.61,49.96|Z|1454; Orgrimmar|N|From Craven Drok pathing around the Cleft of Shadows.|
+T Alliance Relations|QID|1431|M|22.56,52.62|Z|1454; Orgrimmar|N|To Keldran inside the last building before the west exit.|
+A Alliance Relations|QID|1432|PRE|1431|M|22.56,52.62|Z|1454; Orgrimmar|N|From Keldran.|
 
 ; --- Thousand Needles
-F Freewind Post|ACTIVE|1146|M|45.50,63.84|Z|1454; Orgrimmar|
-T The Swarm Grows|QID|1146|M|67.59,63.93|Z|1441; Thousand Needles|N|To Moktar Krin in Ironstone Camp, on the edge of the Shimmering Flats. Just follow the road to the east and you'll find him. \nYou'll get to a point where the road veers left. Stick to the right and follow the canyon wall from here.|
+F Freewind Post|ACTIVE|1146|M|45.11,63.91|Z|1454; Orgrimmar|N|Return to Thousand Needles.|
+N Bag space|AVAILABLE|1147|Z|1441; Thousand Needles|N|You're picking up a number of collection quests shortly and it would be in your best interest to make as much bag space as possible.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+T The Swarm Grows|QID|1146|M|67.59,63.93|Z|1441; Thousand Needles|N|To Moktar Krin in Ironstone Camp, on the edge of the Shimmering Flats.\n[color=FF0000]NOTE: [/color]Just follow the road to the east and when get to the point where the road veers left, go to the right and follow the canyon wall from here.|
 A The Swarm Grows|QID|1147|M|67.59,63.93|Z|1441; Thousand Needles|N|From Moktar Krin.|
-R Mirage Raceway|AVAILABLE|1104^1105^1110^1111^1175^1176|Z|1441; Thousand Needles|N|<coords>Make your way across the Flats to the Mirage Raceway in the middle of it.|
-A Rocket Car Parts|QID|1110|M|77.76,77.25|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-A Wharfmaster Dizzywig|QID|1111|M|77.76,77.25|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-A Salt Flat Venom|QID|1104|M|78.01,77.14|Z|1441; Thousand Needles|N|From Fizzle Brassbolts.|
-A Hardened Shells|QID|1105|M|78.08,77.12|Z|1441; Thousand Needles|N|From Wizzle Brassbolts.|
-A Load Lightening|QID|1176|M|80.13,75.84|Z|1441; Thousand Needles|N|From Pozzik.|
-A A Bump in the Road|QID|1175|M|81.59,77.85|Z|1441; Thousand Needles|N|From Trackmaster Zherin.|
-r Repair/Restock|QID|1175|M|80.46,76.98|Z|1441; Thousand Needles|N|At Synge. You've just picked up a number of collection quests. It would be in your best interest to make as much bag space as feasible.|
-N Mob Location|ACTIVE|1104^1105^1110^1111^1175^1176|Z|1441; Thousand Needles|N|All of the mobs involved in the quests you just picked up are scattered around the outside of Mirage Raceway.\nThere is no real dividing line between levels. You'll find lv 30s mixed with lv 35s.|
-C Salt Flat Venom|QID|1104|Z|1441; Thousand Needles|N|Kill Scorpids to collect them.\nYou'll find the Reavers (lv 31-32) in the north and the Terrors (33-34) in the south.|S|
-C Hardened Tortoise Shell|QID|1105|Z|1441; Thousand Needles|N|Kill any variety of Sparkleshell tortoises to collect them.\nYou'll find the Tortoise (lv 30-31) in the NW quadrant, the Borer (32-33) in the SE quadrant and the Snapper (34-35) in the NE quadrant.|S|
-C Hollow Vulture Bone|QID|1176|Z|1441; Thousand Needles|N|Kill Salt Flats Vultures/Scavengers to collect them.\nYou'll find the lower level Scavengers (lv 30-32) in the north and the Vultures (32-34) in the south.|S|
-C Rocket Car Parts|QID|1110|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
-C A Bump in the Road|QID|1175|QO|3;2;1|Z|1441; Thousand Needles|N|You'll find the Basilisks (lv 30-31) in the NW quadrant, the Crystalhides (32-33) all over, and the Gazers (34-35) in the SE quadrant.|
+R Mirage Raceway|AVAILABLE|1104^1105^1110^1111^1175^1176|M|75.09,71.85|Z|1441; Thousand Needles|N|Head across the Shimmering Flats to the Mirage Raceway in the middle of it.|
+A Rocket Car Parts|QID|1110|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
+A Wharfmaster Dizzywig|QID|1111|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
+A Hemet Nesingwary|QID|5762|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
+A Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|From Fizzle Brassbolts.|
+A Hardened Shells|QID|1105|M|78.14,77.12|Z|1441; Thousand Needles|N|From Wizzle Brassbolts.|
+A Load Lightening|QID|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|
+N Mob Location|AVAILABLE|1175|Z|1441; Thousand Needles|N|All of the mobs involved in the quests you just picked up are scattered around the track outside of Mirage Raceway.\nThere's no real dividing line between levels. You'll find lv 30s mixed with 35s.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|
+A A Bump in the Road|QID|1175|M|81.64,77.95|Z|1441; Thousand Needles|N|From Trackmaster Zherin.|
+C Salt Flat Venom|QID|1104|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5794 6|ITEM|5794|N|Scorpids.|S|
+C Hardened Shells|QID|1105|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5795 9|ITEM|5795|N|any type of Sparkleshell Tortoises.|S|
+C Hollow Vulture Bone|QID|1176|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5848 10|ITEM|5848|N|Salt Flats Vultures/Scavengers.|S|
+C Rocket Car Parts|QID|1110|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|S|
+C A Bump in the Road|QID|1175|QO|3;2;1|M|77.65,88.04;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|N|Start in the SE quadrant and circle the track counter-clockwise killing the required mobs.|
 ;L Level 33|QID|1147|N|You should be around level 33 by this point.|LVL|33|
-A Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|
-* Extra Cracked Silithid Carapace|AVAILABLE|-1148|N|Dispose of these if you pick up anymore.|U|5877|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5855 1|ITEM|5855|N|<coords>Silithids.|S|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5854 5|ITEM|5854|N|Silithids.|S|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5853 3|ITEM|5853|N|Silithids.|S|
-C The Swarm Grows|QID|1147|QO|1;2;3|M|71.33,83.15;66.52,86.15|CN|Z|1441; Thousand Needles|N|At the Rustmaul Dig Site in the south, kill Silithid Searchers, Hive Drones, and Invaders.\nYou'll find the Drones spread out around the area. The Searchers can be around the outside edge of the pit. The Invaders are inside the hive. There are two entrances into the hive.\n[color=FF0000]NOTE: [/color]The drones are non-aggressive as long as you don't attack them or any mobs around them. Do not leave them roaming inside the hive; you will die from being overwhelmed.|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5855 1|ITEM|5855|N|Silithids.|US|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5854 5|ITEM|5854|N|Silithids.|US|
-C Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|L|5853 3|ITEM|5853|N|Silithids.|US|
-C Turtle Meat|QID|1105|Z|1441; Thousand Needles|L|3712 10|N|<coords>Turtles.[color=FF0000]NOTE: [/color]Keep 10 pieces because you'll need these for a quest much later in this guide.|
-T A Bump in the Road|QID|1175|M|81.63,78.08|Z|1441; Thousand Needles|N|To Trackmaster Zherin.|
-T Load Lightening|QID|1176|M|80.11,75.83|Z|1441; Thousand Needles|N|To Pozzik.|
-A Goblin Sponsorship|QID|1178|PRE|1176|M|80.11,75.83|Z|1441; Thousand Needles|N|From Pozzik.|
-T Salt Flat Venom|QID|1104|M|78.08,77.04|Z|1441; Thousand Needles|N|To Fizzle Brassbolts\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands)|
-T Hardened Shells|QID|1105|M|78.14,77.08|Z|1441; Thousand Needles|N|To Wizzle Brassbolts.|
-A Encrusted Tail Fins|QID|1107|PRE|1104&1105|M|78.14,77.08|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizzle Brassbolts.|
-T Rocket Car Parts|QID|1110|M|77.8,77.2|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
-A Hemet Nesingwary|QID|5762|M|77.84,77.22|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-R Tanaris|ACTIVE|5762|AVAILABLE|5361|M|75.00,95.70|N|Before we leave, go south and into Tanaris to get the flightpath there.|TAXI|-Tanaris|
-f Gadgetzan|AVAILABLE|5361|M|51.60,25.4|Z|1446; Tanaris|N|Pick up the flight path from Bulkrek Ragefist.|
-F Freewind Post|AVAILABLE|5361|M|47.63,49.04|Z|1441; Thousand Needles|N|Fly to Freewind Post.|
-A Family Tree|QID|5361|M|45.68,50.69|Z|1441; Thousand Needles|N|From Cliffwatcher Longhorn.|
+A Parts of the Swarm|QID|1148|Z|1441; Thousand Needles|N|Click the Cracked Silithid Carapace to activate the quest.|U|5877|O|
+* Extra Cracked Silithid Carapace|PRE|1148|N|Dispose of these if you picked up extras.|U|5877|
+l Parts of the Swarm|QID|1148|QO|1;2;3|M|71.33,83.15|Z|1441; Thousand Needles|N|Kill and loot Silithids.|S|
+C The Swarm Grows|QID|1147|QO|1;2;3|M|71.33,83.15;66.52,86.15|CN|Z|1441; Thousand Needles|N|Kill the required mobs at the Rustmaul Dig Site.\nThe Searchers are on the outside edge of the pit, the Invaders are inside the hive, and the Drones are everywhere.\n[color=FF0000]NOTE: [/color]The drones will attack if you're fighting anything near them. Kill them as needed or you'll die from being overwhelmed.|
+C Parts of the Swarm|QID|1148|QO|1;2;3|M|71.33,83.15|Z|1441; Thousand Needles|N|Kill and loot Silithids.|US|
+C Salt Flat Venom|QID|1104|M|80.93,86.30;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5794 6|ITEM|5794|N|Scorpids.|US|
+C Hollow Vulture Bone|QID|1176|M|87.32,66.81|CC|Z|1441; Thousand Needles|L|5848 10|ITEM|5848|N|Salt Flats Vultures/Scavengers.|US|
+C Rocket Car Parts|QID|1110|M|80.93,86.30;74.41,56.12;78.17,87.83|CC|Z|1441; Thousand Needles|L|5798 30|N|You'll find these scattered on the ground in Shimmering Flats.|US|
+C Hardened Shells|QID|1105|M|78.17,87.83|CC|Z|1441; Thousand Needles|L|5795 9|ITEM|5795|N|any type of Sparkleshell Tortoises.|US|
+C Turtle Meat|ACTIVE|1110|M|78.53,53.47|Z|1441; Thousand Needles|L|3712 10|N|Turtles.[color=FF0000]NOTE: [/color]Keep 10 pieces because you'll need these for a quest much later in this guide.|
+T A Bump in the Road|QID|1175|M|81.64,77.95|Z|1441; Thousand Needles|N|To Trackmaster Zherin.|
+T Load Lightening|QID|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|To Pozzik.|
+A Goblin Sponsorship|QID|1178|PRE|1176|M|80.18,75.88|Z|1441; Thousand Needles|N|From Pozzik.|
+T Salt Flat Venom|QID|1104|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts\nNOTE: Do not accept 'Martek the Exiled' (Breadcrumb to the Badlands).|
+T Hardened Shells|QID|1105|M|78.14,77.12|Z|1441; Thousand Needles|N|To Wizzle Brassbolts.|
+A Encrusted Tail Fins|QID|1107|PRE|1104&1105|M|78.14,77.12|Z|1441; Thousand Needles|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizzle Brassbolts.|
+T Rocket Car Parts|QID|1110|M|77.78,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard.|
+R Tanaris|ACTIVE|5762|AVAILABLE|5361|M|51.29,21.06|Z|1446; Tanaris|N|Before we leave, go south into Tanaris to get the flightpath there.|TAXI|-Tanaris|
+f Gadgetzan|AVAILABLE|5361|M|51.60,25.44|Z|1446; Tanaris|N|Pick up the flight path from Bulkrek Ragefist.|
+F Freewind Post|AVAILABLE|5361|M|51.60,25.44|Z|1446; Tanaris|N|Fly to Freewind Post.|
+A Family Tree|QID|5361|M|45.69,50.72|Z|1441; Thousand Needles|N|From Cliffwatcher Longhorn.|
 
 ; --- The Barrens/Orgrimmar
-F The Crossroads|ACTIVE|1148|M|45.14,49.09|Z|1413; The Barrens|N|Fly to the Crossroads.|
-T Parts of the Swarm|QID|1148|M|51.09,29.62|Z|1413; The Barrens|N|To Korran.|
-A Parts of the Swarm|QID|1184|M|51.09,29.62|Z|1413; The Barrens|N|From Korran.|
+F Crossroads|ACTIVE|1148|M|45.14,49.10|Z|1441; Thousand Needles|N|Fly to the Crossroads.|TZ|The Crossroads|
+T Parts of the Swarm|QID|1148|M|51.07,29.63|Z|1413; The Barrens|N|To Korran.|
+A Parts of the Swarm|QID|1184|M|51.07,29.63|Z|1413; The Barrens|N|From Korran.|
 T Regthar Deathgate|QID|1361|M|45.34,28.40|Z|1413; The Barrens|N|To Regthar Deathgate.|
 A The Kolkar of Desolace|QID|1362|M|45.34,28.40|Z|1413; The Barrens|N|From Regthar Deathgate.|
 R The Crossroads|ACTIVE|1184|M|50.61,29.01|Z|1413; The Barrens|N|Run to the Crossroads.|
@@ -216,13 +231,13 @@ A Goblin Sponsorship|QID|1182|M|27.23,76.88|Z|1434; Stranglethorn Vale|N|From Ba
 f Booty Bay|ACTIVE|1112|M|26.87,77.09|Z|1434; Stranglethorn Vale|N|At Gringer.|TAXI|-Booty Bay|
 b Ratchet|ACTIVE|1112|M|25.80,73.10|Z|1434; Stranglethorn Vale|N|Take the boat to Ratchet.|
 F Freewind Post|ACTIVE|1112|M|63.08,37.16|Z|1413; The Barrens|
-T Parts for Kravel|QID|1112|M|77.79,77.25|Z|1441; Thousand Needles|N|To Kravel Koalbeard at Mirage Raceway.|
-A Delivery to the Gnomes|QID|1114|PRE|1112|M|77.79,77.26|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
-T Delivery to the Gnomes|QID|1114|M|78.06,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.|
+T Parts for Kravel|QID|1112|M|77.78,77.28|Z|1441; Thousand Needles|N|To Kravel Koalbeard at Mirage Raceway.|
+A Delivery to the Gnomes|QID|1114|PRE|1112|M|77.78,77.28|Z|1441; Thousand Needles|N|From Kravel Koalbeard.|
+T Delivery to the Gnomes|QID|1114|M|78.07,77.13|Z|1441; Thousand Needles|N|To Fizzle Brassbolts.|
 
 ; --- Desolace
 N Desolace|AVAILABLE|5501|Z|1441; Thousand Needles|N|We are now going to make our run to Desolace via Stonetalon Mountains.|
-R Freewind Post|AVAILABLE|5501^5561|M|47.63,49.04|Z|1441; Thousand Needles|N|Run back to Freewind and take the lift up.|
+H Freewind Post|ACTIVE|1153|M|46.84,47.18|Z|1441; Thousand Needles|N|Hearth back to Freewind Post.|
 F Orgrimmar|AVAILABLE|5501^5561|M|45.05,49.16|Z|1441; Thousand Needles|N|We are making a detour to Orgrimmar to change our hearthstone to Orgrimmar.|
 h Orgrimmar|AVAILABLE|5501^5561|M|54.03,68.77|Z|1454; Orgrimmar|N|At Innkeeper Gryshka.|
 F Sun Rock Retreats|AVAILABLE|5501^5561|M|45.13,63.88|Z|1454; Orgrimmar|
@@ -486,8 +501,8 @@ A Singing Blue Shards|QID|605|M|27.12,77.22|Z|1434; Stranglethorn Vale|N|From Cr
 b Ratchet|ACTIVE|1183|M|25.80,73.10|Z|1434; Stranglethorn Vale|N|Take the boat to Ratchet.|
 F Freewind Post|ACTIVE|1183|M|45.05,49.16|
 R Mirage Raceway|ACTIVE|1183|N|<coords>Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
-T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
-A The Eighteenth Pilot|QID|1186|PRE|1183|M|80.18,75.89|N|From Pozzik.|
+T Goblin Sponsorship|QID|1183|M|80.18,75.88|N|To Pozzik.|
+A The Eighteenth Pilot|QID|1186|PRE|1183|M|80.18,75.88|N|From Pozzik.|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
 ; --- The Barrens
 H Orgrimmar|ACTIVE|569|M|54.03,68.77|Z|1454; Orgrimmar|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
