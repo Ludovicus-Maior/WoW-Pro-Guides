@@ -118,7 +118,7 @@ C Panther Prowess|QID|192|S|M|48.55,58.70|
 C Raptor Prowess|QID|196|S|M|54.97,54.41|
 C Skullsplitter Mojo|QID|26332|S|U|58165|M|57.58,58.48|N|Loot these from trolls|
 ;change L to QO
-C Speaking with Nezzliok|QID|26069|QO|2|M|54.50,61.31|N|The pile of skulls in this camp|
+C Speaking with Nezzliok|QID|26301|QO|2|M|54.50,61.31|N|The pile of skulls in this camp|
 C Speaking with Nezzliok|QID|26301|QO|1|M|60.10,56.03|N|The pile of skulls in this camp|
 C Skullsplitter Mojo|QID|26332|US|U|58165|M|61.34,55.82|
 C Raptor Prowess|QID|196|US|M|58.09,58.70|
@@ -129,7 +129,7 @@ C Raptor Mastery|QID|197|T|Tethis|M|59.60,62.45;62.83,61.80;64.70,58.08;59.17,59
 C Panther Prowess|QID|192|US|M|60.25,47.97|
 T Panther Prowess|QID|192|M|60.25,47.97|N|UI Alert|
 A Panther Mastery|QID|193|PRE|192|M|60.25,47.97|N|UI Alert|
-C Panther Mastery|QID|193|T|Bhag'thera|M|64.62,38.31|N|Ride around the area useing the button to help you target her.|
+C Panther Mastery|QID|193|T|Bhag'thera|M|64.62,38.31|N|Ride around the area using the button to help you target her.|
 f Bambala|QID|193|M|62.40,39.23|N|At Raskha. PLEASE do not pick up quests from here yet.|
 ; fix QID and destination
 F Grom'gol|QID|26332|N|Fly to Grom'gol Base Camp.|
@@ -155,13 +155,13 @@ T Priestess Hu'rala|QID|26350|M|63.38,39.03|N|To Priestess Hu'rala.|
 A Mind Vision|QID|26351|PRE|26350|M|63.27,38.97|N|From Priestess Hu'rala.|
 T Chasing Yenniku's Fate|QID|26302|M|63.17,41.39|N|To Kin'weelay.|
 A The Mind's Eye|QID|26303|PRE|26302|M|63.17,41.39|N|From Kin'weelay.|
-C Mind Vision|QID|26351|M|56.16,50.15|
+C Mind Vision|QID|26351|M|56.16,50.15|N|Obtain 5 Jungle Stalker Feathers from Jungle Stalkers in Northern Stranglethorn.|
 ;fix QID
-R Cave entrance|QID|26303|CC|M|66.45,49.00|N|Welcome to Orgeville|
-R The Mind's Eye|QID|26303|M|67.54,48.27;67.61,47.12;70.07,48.84|CC|N|Follow this path|
+R Mosh'Ogg Ogre Mound|ACTIVE|26303|QO|1|M|66.45,49.00|CC|N|Welcome to Orgeville.|
+R The Mind's Eye|QID|ACTIVE|QO|1|M|67.54,48.27;67.61,47.12;70.07,48.84|CC|N|Enter the cave and follow this path|
 ;Add Note
 C The Mind's Eye|QID|26303|M|70.38,48.98|N|Kill and loot Mai'Zoth.|
-C The Mosh'Ogg Bounty|QID|26399|M|67.18,54.25|N|Leave the cave now and head to this location. Loot from a box on a pedistal by two ogre lords.|
+C The Mosh'Ogg Bounty|QID|26399|M|67.18,54.25|N|Leave the cave now and head to this location. Loot from a box on a pedestal by two ogre lords.|
 T The Mind's Eye|QID|26303|M|63.17,41.44|N|To Kin'weelay.|
 A Saving Yenniku|QID|26305|PRE|26303|M|63.17,41.44|N|From Kin'weelay.|
 T The Mosh'Ogg Bounty|QID|26399|M|62.80,40.21|N|To Skeezy Whillzap.|

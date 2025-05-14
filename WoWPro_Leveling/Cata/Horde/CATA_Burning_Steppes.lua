@@ -82,15 +82,15 @@ T Golem Training|QID|28227|M|46.72,44.23|N|To Stebben Oreknuckle.|
 A General Thorg'izog|QID|28437|PRE|28436|M|44.59,44.45|N|From Eitrigg.|
 T General Thorg'izog|QID|28437|U|63357|M|30.79,33.76;32.49,34.99;31.53,33.57|CC|N|To General Thorg'izog. Remember to put on your disguise, he is the middle of the building.|
 A Trial by Magma|QID|28438|PRE|28437|M|30.69,33.76|N|From General Thorg'izog.|
-C Trial by Magma|QID|28438|M|31.02,33.95|N|Talk to Wyrtle Spreelthonket and choose to fight the elmental.|
+C Trial by Magma|QID|28438|M|31.02,33.95|N|Talk to Wyrtle Spreelthonket and choose to fight the elemental.|
 T Trial by Magma|QID|28438|M|30.75,33.74|N|To General Thorg'izog.|
 A I Am the Law and I Am the Lash|QID|28439|PRE|28438|M|30.75,33.74|N|From General Thorg'izog.|
 A Abuse of Power|QID|28440|M|30.75,33.74|N|<UI Alert>|
 t Abuse of Power|QID|28440|M|33.50,36.03|N|<UI Alert>|
 A Enough Damage For One Day|QID|28441|M|33.50,36.03|PRE|28440|N|<UI Alert>|O|
-C I Am the Law and I Am the Lash|QID|28439|U|63390|M|35.89,34.61|N|Use the cudgel on backrock minions, kill them when they spot you, each hit counts so killing a few is a good strategy.|S|
+C I Am the Law and I Am the Lash|QID|28439|U|63390|M|35.89,34.61|N|Use the cudgel on Blackrock minions, kill them when they spot you, each hit counts so killing a few is a good strategy.|S|
 C Abuse of Power|QID|28440|U|63390|M|33.50,36.03|N|Spam the cudgel to kill them.|
-C I Am the Law and I Am the Lash|QID|28439|U|63390|M|35.89,34.61|N|Use the cudgel on backrock minions, kill them when they spot you, each hit counts so killing a few is a good strategy.|US|
+C I Am the Law and I Am the Lash|QID|28439|U|63390|M|35.89,34.61|N|Use the cudgel on Blackrock minions, kill them when they spot you, each hit counts so killing a few is a good strategy.|US|
 T I Am the Law and I Am the Lash|QID|28439|M|30.72,33.68|N|To General Thorg'izog.|
 T Enough Damage For One Day|QID|28441|M|44.57,44.43|N|To Eitrigg back at Chiselgrip.|
 A Flame Crest|QID|28442|PRE|28441|M|44.57,44.43|N|From Eitrigg.|
@@ -134,9 +134,9 @@ A Assault on Dreadmaul Rock|QID|28454|M|54.62,25.22|N|From Ariok. Enjoy the cine
 C Assault on Dreadmaul Rock|QID|28454|M|72.48,29.93|N|Use the only Ability you have. When you finish you can use the drake to fly back toward the Turn in.|
 T Assault on Dreadmaul Rock|QID|28454|M|54.69,24.48|N|To Eitrigg.|
 A Glory Amidst Chaos|QID|28455|PRE|28454|M|54.69,24.48|N|From Eitrigg.|
-K Glory Amidst Chaos|QID|28455|QO|1|M|65.12,46.66|N|.|
-K Glory Amidst Chaos|QID|28455|QO|2|M|63.79,37.81;66.31,37.96;68.88,44.14|CS|N|.|
-K Glory Amidst Chaos|QID|28455|QO|3|M|69.32,39.24;70.88,38.13|CS|N|Jump off at the first waypoint.|
+K Glory Amidst Chaos|QID|28455|QO|1|M|65.1,46.7;65.0,43.3;66.49,40.54|N|Enter the cave and follow it around to the left.|
+K Glory Amidst Chaos|QID|28455|QO|2|M|63.79,37.81;66.31,37.96;68.88,44.14|CS|N|Back out the cave, and follow the path up the hill.|
+K Glory Amidst Chaos|QID|28455|QO|3|M|69.32,39.24;70.88,38.13|CS|N|Jump off at the first waypoint. Enter the cave and follow it around to the left.|
 T Glory Amidst Chaos|QID|28455|M|54.61,24.61|N|Back to Eitrigg at Flame Crest.|
 A The Spoils of War|QID|28456|PRE|28455|M|54.61,24.61|N|From Eitrigg.|
 T The Spoils of War|QID|28456|M|54.61,24.61|N|To Eitrigg.|
