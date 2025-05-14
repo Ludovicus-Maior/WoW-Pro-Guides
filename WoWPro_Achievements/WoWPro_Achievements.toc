@@ -23,6 +23,7 @@ Garrison_Alliance\Guides.xml
 Garrison_Horde\Guides.xml
 Heritage_Armor\Guides.xml
 Loremaster\Guides.xml
+Lorewalking\Guides.xml
 Mounts\Guides.xml
 Non_Combat_Pets\Guides.xml
 Pets\Guides.xml
