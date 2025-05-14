@@ -162,7 +162,7 @@ C Getting Gladiators|QID|34699|N|Head into the hut, and Free Bruto by clicking t
 C Slave Hunters|QID|34698|N|Head down, kill Slave Hunter Brol, and loot the Pendant of Brol|QO|1|T|Slave Hunter Brol|M|40.54,66.67|
 C Krav'ogra|QID|34702|N|Head into the arena, ring the Challenge Gong, slay Kigli'ak.\nRing gong again, slay Stribit\nRing gong again, slay Jabberback\nRing gone one more time, and Slay Slavemaster Ok'mok|M|40.39,67.55|
 C Getting Gladiators|QID|34699|N|Free Y'kish by clicking the shackle on the door.|QO|2|M|39.76,67.81|NC|
-C Getting Gladiators|QID|34699|N|head to the back of the hut, and Free Pitfighter Vaandaam by clicking the shackle on the wall.|QO|1|M|39.16,67.22|NC|
+C Getting Gladiators|QID|34699|N|Head to the back of the hut, and Free Pitfighter Vaandaam by clicking the shackle on the wall.|QO|1|M|39.16,67.22|NC|
 K Stomper Kreego|QID|35910|M|39.08,65.62;38.19,66.28|CS|N|Head up the hill to a little camp to kill this silver elite.|RARE|ITEM|118224|
 C Slave Hunters|QID|34698|N|Head to the middle level, slay Slave Hunter Mol, and loot the Pendant of Mol|QO|3|T|Slave Hunter Mol|M|38.98,68.77|
 $ Sasha's Secret Stash|QID|36631|M|39.05,68.04|N|Go upstairs to the top of the building, then back carefully off onto a beam to pick this up. Gold and a green item.|

@@ -57,7 +57,7 @@ C Evoking the Forge|QID|78879|M|47.27,28.43|Z|2214; The Ringing Deeps|N|Stoke th
 T Evoking the Forge|QID|78879|M|47.4,28.4|Z|2214; The Ringing Deeps|N|To Foreman Svart.|
 A On Cold, Dark Wings|QID|78900|PRE|78838|M|43.87,34.82|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|
 A A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|C|Demon Hunter,Warlock|
-A The Councilward Summons|QID|79542|PRE|79525&79354|M|47.49,32.68|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;This is part of the IoD Soujourner questline. its in the Dorn GUide.
+A The Councilward's Summons|QID|79542|PRE|79525&79354|M|43.32,32.67|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;This is part of the IoD Soujourner questline. its in the Dorn GUide.
 A Discarded and Broken|QID|78562|PRE|78838|M|44.07,33.40|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|RANK|2|
 C A Shadow Over Gundargaz|QID|78895|QO|1|M|48.26,34.44|Z|2214; The Ringing Deeps|N|Click on the green pool to the left of the Gundargaz Defender.|H|
 ;end insert class quests - pieced together needs tested -- pally priest warlock dh tested
@@ -296,8 +296,8 @@ C Ghost of a Company Town|QID|78697|M|59.38,58.72|QO|2|Z|2214; The Ringing Deeps
 C Ghost of a Company Town|QID|78697|QO|3<1|M|59.98,58.62|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
 C Ghost of a Company Town|QID|78697|QO|3<2|M|59.99,58.06|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
 C Ghost of a Company Town|QID|78697|QO|3<3|M|59.36,57.87|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
-C Ghost of a Company Town|QID|78697|QO|3<4|M|59.36,57.87|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
-C Ghost of a Company Town|QID|78697|QO|3<5|M|61.18,58.67|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3<4|M|61.18,58.67|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
+C Ghost of a Company Town|QID|78697|QO|3<5|M|60.93,57.84|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
 C Ghost of a Company Town|QID|78697|QO|3<6|M|61.67,57.41|CS|Z|2214; The Ringing Deeps|N|You only need to use the provided [color=33fff9] Extra Action Button [/color] to find the ones that are too small to really show off the quest glow.|EAB|H|
 C Ghost of a Company Town|QID|78697|M|61.84,58.34|QO|4|Z|2214; The Ringing Deeps|N|Break down the boarded up door.|H|
 T Ghost of a Company Town|QID|78697|M|61.99,58.41|Z|2214; The Ringing Deeps|N|To Magni Bronzebeard.|
@@ -623,7 +623,7 @@ A These Strong Hands|QID|79264|PRE|79263&79262|M|53.00,45.55|Z|2214;The Ringing 
 C These Strong Hands|QID|79264|M|53.00,45.55|Z|2214;The Ringing Deeps|NC|N|Witness Moira Thaurissan.|
 T These Strong Hands|QID|79264|M|53.00,45.55|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
 A Fearbreaker|QID|79265|PRE|79264|M|53.00,45.55|Z|2214;The Ringing Deeps|N|From Moira Thaurissan.|RANK|2|
-C Fearbreaker|QID|79265|M|54.75,52.01|Z|2214;The Ringing Deeps|QO|1;2|NC|N|Fearbreaker used (Optional).|EAB|S
+C Fearbreaker|QID|79265|M|54.75,52.01|Z|2214;The Ringing Deeps|QO|2|NC|N|Fearbreaker used (Optional).|EAB|S|
 C Fearbreaker|QID|79265|M|53.63,53.36;54.72,54.54;56.82,54.80;56.28,50.62|CN|Z|2214;The Ringing Deeps|QO|3|NC|N|Click the glowing Fearbreaker on the groud to evacuate the holdout groups.|
 C Fearbreaker|QID|79265|M|54.75,52.01|Z|2214;The Ringing Deeps|QO|1;2|N|Rescue Earthen and kill Skardyn.|US|
 T Fearbreaker|QID|79265|M|57.61,46.66|Z|2214;The Ringing Deeps|N|To Moira Thaurissan.|
@@ -632,14 +632,6 @@ T The Bronzebeard Legacy|QID|79266|M|43.01,34.11|Z|2214;The Ringing Deeps|N|To M
 A Cinderbrew Reserve|QID|83160|M|37.20,22.48|Z|2214; The Ringing Deeps|N|From Cogwin.|RANK|2|
 C Cinderbrew Reserve|QID|83160|M|38.25,24.74;39.06,25.16;37.36,24.88;37.36,24.88|CS|Z|2214; The Ringing Deeps|N|Go in side small room and grab the cinderbrew. When you come out turn to your right and go up the steps, avoiding the Embargo Enforcers and their visability circle. Run back to Cogwin, you have to dodge and not be seen, \n[color=FF0000]NOTE: [/color]You can't mount up. MUST RUN.|H|
 T Cinderbrew Reserve|QID|83160|M|37.36,24.88|Z|2214; The Ringing Deeps|N|To Cogwin.|
-
-
-
-
-
-
-
-
 
 A An Igneous End|QID|83092|M|36.93,21.36|Z|2214; The Ringing Deeps|N|From Foreman Duinth.|RANK|2|
 A Magmanagement|QID|83152|M|36.93,21.36|Z|2214; The Ringing Deeps|N|From Foreman Duinth.|RANK|2|
