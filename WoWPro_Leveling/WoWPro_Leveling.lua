@@ -118,7 +118,7 @@ function WoWPro.Leveling:OnEnable()
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicBCStartGuides[engRace]
             elseif WoWPro.WRATH then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicWrathStartGuides[engRace]
-            elseif WoWPro.CATA then
+            elseif WoWPro.MOP then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicCataStartGuides[engRace]
             else
 				local mapID = _G.C_Map.GetBestMapForUnit("player");
