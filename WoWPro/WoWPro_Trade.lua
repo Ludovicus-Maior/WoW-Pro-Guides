@@ -63,7 +63,7 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[633] = { name = 'Lockpicking' },
 		[762] = { name = 'Riding' },
 	}
-    elseif WoWPro.CATA then
+    elseif WoWPro.MOP then
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },
 		[165] = { name = 'Leatherworking' },

@@ -1,0 +1,17 @@
+## Interface: 5.0.5.6
+## Title: |cffFF9900WoW-|r|cff46921APro|r Leveling
+## Notes: Leveling guides created by the WoW-Pro Community
+## Author: Jiyambi
+## IconTexture: Interface\GossipFrame\AvailableQuestIcon
+## Dependencies: WoWPro
+## Version: 2025.05.17.A
+## X-Category: Quest
+## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+WoWPro_Leveling.lua
+WoWPro_Leveling_Parser.lua
+WoWPro_Leveling_Config.lua
+WoWPro_Leveling_GuideList.lua
+WoWPro_Leveling_Frames.lua
+MoP\Alliance\Guides.xml
+MoP\Neutral\Guides.xml
+MoP\Horde\Guides.xml

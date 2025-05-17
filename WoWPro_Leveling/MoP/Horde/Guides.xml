@@ -37,6 +37,8 @@
 	<Script file="INTRO_Orc.lua"/>
 	<Script file="INTRO_Tauren.lua"/>
 	<Script file="INTRO_Troll.lua"/>
+	<Script file="MOP_JadeForest.lua"/>
+	<Script file="MOP_Krasarang_Wilds.lua"/>
 	<Script file="WOTLK_Borean_Tundra.lua"/>
 	<Script file="WOTLK_Dragonblight.lua"/>
 	<Script file="WOTLK_Grizzly_Hills.lua"/>

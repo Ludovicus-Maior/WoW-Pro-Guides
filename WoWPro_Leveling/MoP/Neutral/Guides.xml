@@ -9,6 +9,10 @@
 	<Script file="CATA_UnGoro.lua"/>
 	<Script file="CATA_Winterspring.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>
-	<Script file="WOTLK_Sholazar_Basin.lua"/>
+	<Script file="MOP_Dread_Wastes.lua.lua"/>
+	<Script file="MOP_KunLai_Summit.lua.lua"/>
+	<Script file="MOP_Pandaren_Cooking.lua.lua"/>
+	<Script file="MOP_Townlong_Steppes.lua.lua"/>
+	<Script file="MOP_Valley_of_the_Four_Winds.lua"/>
 	<Script file="WOTLK_ZulDrak.lua"/>
 </Ui>
