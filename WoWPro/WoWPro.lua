@@ -903,8 +903,12 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
     end
 end
 
+function WoWPro.ShouldUseMenuList3()
+    return WoWPro.TocVersion >= 40000
+end
+
 function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, extra)
-    if WoWPro.CATA or WoWPro.RETAIL then
+    if WoWPro.ShouldUseMenuList3() then
         WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
     else
         WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
@@ -1740,17 +1744,17 @@ end
 WoWPro.TocVersion =  select(4, _G.GetBuildInfo())
 WoWPro.Client = floor(WoWPro.TocVersion / 10000)
 
-WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
-WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
-WoWPro.POST_BC = (WoWPro.TocVersion >= 30000)
-WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
-WoWPro.CATA = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
-WoWPro.POST_CATA = (WoWPro.TocVersion >= 40000)
-WoWPro.POST_SL = (WoWPro.TocVersion >= 90000)
-WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 110000))
-WoWPro.WAR_WITHIN_PREPATCH = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 110002))
-WoWPro.WAR_WITHIN = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 120000))
-WoWPro.RETAIL_RELEASE = 11
+WoWPro.CLASSIC        = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
+WoWPro.BC             = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
+WoWPro.WRATH          = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
+WoWPro.CATA           = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
+WoWPro.MOP            = ((WoWPro.TocVersion >= 50000) and (WoWPro.TocVersion < 60000))
+WoWPro.WOD            = ((WoWPro.TocVersion >= 60000) and (WoWPro.TocVersion < 70000))
+WoWPro.LEGION         = ((WoWPro.TocVersion >= 70000) and (WoWPro.TocVersion < 80000))
+WoWPro.BFA            = ((WoWPro.TocVersion >= 80000) and (WoWPro.TocVersion < 90000))
+WoWPro.SHADOWLANDS    = ((WoWPro.TocVersion >= 90000) and (WoWPro.TocVersion < 100000))
+WoWPro.DRAGONFLIGHT   = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 110000))
+WoWPro.WAR_WITHIN     = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 120000))
 WoWPro.RETAIL = (WoWPro.TocVersion >= WoWPro.RETAIL_RELEASE * 10000)
 
 -- Change this to fake out a classic load on retail
