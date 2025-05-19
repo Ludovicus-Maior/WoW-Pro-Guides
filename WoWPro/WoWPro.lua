@@ -880,7 +880,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
     local GTypeIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideType)
     if GTypeIndex < 1 then
         if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
-            table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Guide Category", isTitle = true })
+            table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Zone", isTitle = true })
         end
         table.insert(GuideMenuList[AddonIndex].menuList, { text = GuideType, hasArrow = true, menuList = {} })
         GTypeIndex = table.getn(GuideMenuList[AddonIndex].menuList)

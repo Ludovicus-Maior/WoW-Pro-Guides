@@ -105,7 +105,7 @@ local function ResolveGuide(guide)
     WoWPro:ResolveIcon(guide)
     if not WoWPro.RETAIL then
         guide.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
-        if WoWPro.Client >= 5 then
+        if WoWPro.Client >= 4 then
             local _, zoneID = WoWPro:ValidZone(guide.zone)
             if guide.isIntro then
                 guide.category = "Intro"
