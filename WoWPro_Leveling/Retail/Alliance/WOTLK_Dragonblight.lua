@@ -227,7 +227,7 @@ T Breaking Off A Piece|QID|12462|Z|115; Dragonblight|N|To Yord "Calamity" Icebea
 T Plunderbeard's Journal|QID|12465|M|85.9,50.9|Z|115; Dragonblight|N|To Ambo Cash.|
 A Chasing Icestorm: The 7th Legion Front|QID|12466|PRE|12465|M|85.9,50.9|Z|115; Dragonblight|N|From Ambo Cash.|
 R Wintergarde Keep|QID|12466|M|75.6,50.2|Z|115; Dragonblight|N|Make your way back to WIntergarde Keep|
-N Sell junk, repair, restock.|QID|12466|Z|115; Dragonblight|N|Sell junk, repair, restock.|M|77.82,50.74|
+r Sell junk, repair, restock.|QID|12466|Z|115; Dragonblight|N|Sell junk, repair, restock.|M|77.82,50.74|
 T WANTED: Kreug Oathbreaker|QID|12438|Z|115; Dragonblight|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
 h Wintergarde Keep|QID|12466|Z|115; Dragonblight|N|Go to the inn and make it your home location.|M|77.42,51.63|
 R Bronze Dragonshrine|QID|12466|Z|115; Dragonblight|N|Exit Wintergarde Keep by the northern gate, then ride northwest to the Bronze Dragonshrine .|M|72.00,38.00|

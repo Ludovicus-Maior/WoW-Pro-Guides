@@ -311,7 +311,7 @@ T Filling the Moonwell|QID|29279|PRE|29281&29283|M|27.17,62.54|Z|0198; Mount Hyj
 A Into the Depths|QID|29203|PRE|29279|M|47.00,91.00|Z|MoltenFront|N|From Malfurion Stormrage in the cave under the Sentinel Tree.|
 C Into the Depths|QID|29203|M|57.70,49.50|Z|MoltenFront|N|Head into the Igneous Depths and make your way to the center of the cave. Kill Leyara. This quest has been known to bug out occasionally when someone else completes it the same moment you enter the area. If Leyara is not attackable, abandon the quest and accept it from Malfurion again to reset it.|
 T Into the Depths|QID|29203|M|47.00,91.00|Z|MoltenFront|N|Back at Malfurion under the Sentinel Tree.|
-A A Smoke-Stained Locket|QID|29298|M|41.95,44.45|Z|0198; Mount Hyjal|N|Check your mail to receive the Smoke-Stained Locket from Theresa Barkskin, which starts this quest.\n[color=FF0000]NOTE: [/color]The nearest mailbox is at Shrine of Aviana.|
+A A Smoke-Stained Locket|QID|29298|PRE|29203|M|41.95,44.45|Z|0198; Mount Hyjal|N|Check your mail to receive the Smoke-Stained Locket from Theresa Barkskin, which starts this quest.\n[color=FF0000]NOTE: [/color]The nearest mailbox is at Shrine of Aviana.|
 T A Smoke-Stained Locket|QID|29298|M|51.70,45.06|Z|Moonglade|N|Bring the locket to Rabine Saturna at Nighthaven in Moonglade.|
 A Unlocking the Secrets Within|QID|29302|PRE|29298|M|51.70,45.06|Z|Moonglade|N|From Rabine Saturna in Moonglade.|
 C Unlocking the Secrets Within|QID|29302|M|51.70,45.06|Z|Moonglade|N|Witness the events of Leyara's distant past.|
