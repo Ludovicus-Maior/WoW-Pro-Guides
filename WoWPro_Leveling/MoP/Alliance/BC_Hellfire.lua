@@ -7,7 +7,6 @@ WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,10119,28708)
 WoWPro:GuideSteps(guide, function()
 return [[
-A To Outland!|QID|60120|M|56.26,17.31|Z|1453; Stormwind City|N|From Chromie after activating Burning Crusade timeline.|
 R Blasted Lands|QID|60120|M|49.12,87.34|Z|1453; Stormwind City|N|At the Honor Hold Mage in the Wizard's Sanctum.|
 B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|M|59.40,14.89|Z|1419;Blasted Lands|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. Yeah, I know, it is annoying to get now.\n\nIf you don't care skipping the 2 quests that this affects or don't mind coming back here later, go ahead and skip this now.|
 R Hellfire Peninsula|AVAILABLE|10288|M|55.01,54.35|Z|1419;Blasted Lands|N|Go through the portal to Hellfire Peninsula.|

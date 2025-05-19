@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', "WoWPro Team", 'Horde', 4)
+local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', "WoWPro Team", 'Horde', 5)
 WoWPro:GuideLevels(guide, 30, 35)
 WoWPro:GuideName(guide,"Cape of Stranglethorn")
 WoWPro:GuideSort(guide, 14)

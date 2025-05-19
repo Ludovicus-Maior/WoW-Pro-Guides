@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Arihyj8082', "Leveling", 'Mount Hyjal', "WoWPro Team", 'Neutral', 4)
+local guide = WoWPro:RegisterGuide('Arihyj8082', "Leveling", 'Mount Hyjal', "WoWPro Team", 'Neutral', 5)
 WoWPro:GuideLevels(guide, 80, 82)
 WoWPro:GuideName(guide,"Mount Hyjal")
 WoWPro:GuideSort(guide, 81)

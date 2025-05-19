@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BitWes3540', "Leveling", 'Western Plaguelands', 'WoWPro Team', 'Alliance', 4)
+local guide = WoWPro:RegisterGuide('BitWes3540', "Leveling", 'Western Plaguelands', 'WoWPro Team', 'Alliance', 5)
 WoWPro:GuideLevels(guide, 36, 40)
 WoWPro:GuideName(guide,"Western Plaguelands")
 WoWPro:GuideSort(guide, 53)

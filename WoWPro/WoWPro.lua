@@ -904,7 +904,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
 end
 
 function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, extra)
-    if WoWPro.MOP or WoWPro.RETAIL then
+    if WoWPro.CATA or WoWPro.RETAIL or WoWPro.MOP then
         WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
     else
         WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
@@ -1744,8 +1744,8 @@ WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
 WoWPro.POST_BC = (WoWPro.TocVersion >= 30000)
 WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
-WoWPro.MOP = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
-WoWPro.POST_CATA = (WoWPro.TocVersion >= 40000)
+WoWPro.Cata = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
+WoWPro.MOP = ((WoWPro.TocVersion >= 50000) and (WoWPro.TocVersion < 60000))
 WoWPro.POST_SL = (WoWPro.TocVersion >= 90000)
 WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 110000))
 WoWPro.WAR_WITHIN_PREPATCH = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 110002))

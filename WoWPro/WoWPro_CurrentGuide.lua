@@ -19,6 +19,9 @@ if WoWPro.CLASSIC then
 elseif WoWPro.WRATH then
     frame:SetSize(650, 520)
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
+elseif WoWPro.CATA then
+    frame:SetSize(700, 550)
+    frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
 elseif WoWPro.MOP then
     frame:SetSize(700, 550)
     frame:SetPoint("CENTER", _G.UIParent, "CENTER", 105, 10)
@@ -46,6 +49,9 @@ do
     elseif WoWPro.WRATH then
         title:SetPoint("TOPLEFT", 16, -60)
         title:SetPoint("RIGHT", frame, -16, -10)
+    elseif WoWPro.Cata then
+        title:SetPoint("TOPLEFT", 16, -65)
+        title:SetPoint("RIGHT", frame, -16, -20)
     elseif WoWPro.MOP then
         title:SetPoint("TOPLEFT", 16, -65)
         title:SetPoint("RIGHT", frame, -16, -20)

@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('BitNor1220', "Leveling", 'The Barrens', "WoWPro Team", 'Horde', 4)
+local guide = WoWPro:RegisterGuide('BitNor1220', "Leveling", 'The Barrens', "WoWPro Team", 'Horde', 5)
 WoWPro:GuideLevels(guide, 10, 20)
 WoWPro:GuideName(guide,"Northern Barrens")
 WoWPro:GuideSort(guide, 32)

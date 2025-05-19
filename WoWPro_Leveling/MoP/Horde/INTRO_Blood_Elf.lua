@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('KraSunIsle', 'Leveling', 'Eversong Woods', "WoWPro Team", 'Horde', 4)
+local guide = WoWPro:RegisterGuide('KraSunIsle', 'Leveling', 'Eversong Woods', "WoWPro Team", 'Horde', 5)
 WoWPro:GuideLevels(guide, 1, 10)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideContent(guide, "Intro")

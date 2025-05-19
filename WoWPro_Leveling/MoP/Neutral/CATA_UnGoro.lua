@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('JiyUng5055', "Leveling", "Un'Goro Crater", "WoWPro Team", 'Neutral', 4)
+local guide = WoWPro:RegisterGuide('JiyUng5055', "Leveling", "Un'Goro Crater", "WoWPro Team", 'Neutral', 5)
 WoWPro:GuideLevels(guide, 50, 55)
 WoWPro:GuideName(guide,"Un'Goro Crater")
 WoWPro:GuideSort(guide, 52)

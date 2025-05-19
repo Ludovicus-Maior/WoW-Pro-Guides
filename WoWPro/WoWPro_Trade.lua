@@ -63,6 +63,26 @@ if WoWPro.CLASSIC then   --  Gets Profs to work in Classic doing this, not sure 
 		[633] = { name = 'Lockpicking' },
 		[762] = { name = 'Riding' },
 	}
+    elseif WoWPro.CATA then
+	WoWPro.ProfessionSkillLines = {
+		[164] = { name = 'Blacksmithing' },
+		[165] = { name = 'Leatherworking' },
+		[171] = { name = 'Alchemy' },
+		[182] = { name = 'Herbalism' },
+		[186] = { name = 'Mining' },
+		[197] = { name = 'Tailoring' },
+		[202] = { name = 'Engineering' },
+		[333] = { name = 'Enchanting' },
+		[393] = { name = 'Skinning' },
+		[129] = { name = 'First Aid'},
+		[755] = { name = 'Jewelcrafting' },
+		[773] = { name = 'Inscription' },
+	  --  Not included in GetTradeSkillLineInfoByID()
+		[185] = { name = 'Cooking' },
+		[356] = { name = 'Fishing' },
+		[633] = { name = 'Lockpicking' },
+		[762] = { name = 'Riding' },
+	}
     elseif WoWPro.MOP then
 	WoWPro.ProfessionSkillLines = {
 		[164] = { name = 'Blacksmithing' },

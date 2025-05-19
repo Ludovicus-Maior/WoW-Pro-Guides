@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('AriUld8384', "Leveling", 'Uldum', "WoWPro Team", 'Neutral', 4)
+local guide = WoWPro:RegisterGuide('AriUld8384', "Leveling", 'Uldum', "WoWPro Team", 'Neutral', 5)
 WoWPro:GuideLevels(guide, 83, 85)
 WoWPro:GuideName(guide,"Uldum")
 WoWPro:GuideSort(guide, 84)

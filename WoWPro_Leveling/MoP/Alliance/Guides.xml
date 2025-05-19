@@ -39,7 +39,7 @@
 	<Script file="INTRO_Human.lua"/>
 	<Script file="INTRO_Night_Elf.lua"/>
 	<Script file="INTRO_Worgen.lua"/>
-	<Script file="MOP_JadeForest.lua"/>
+	<Script file="MOP_Jade_Forest.lua"/>
 	<Script file="MOP_Krasarang_Wilds.lua"/>
 	<Script file="WOTLK_Borean_Tundra.lua"/>
 	<Script file="WOTLK_Dragonblight.lua"/>
