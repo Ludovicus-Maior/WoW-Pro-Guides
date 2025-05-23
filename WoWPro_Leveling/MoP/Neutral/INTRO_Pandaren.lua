@@ -10,102 +10,100 @@ return [[
 
 T Much to Learn|QID|30039^30340^30341^30342^30343^30344^30345|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
 A The Lesson of the Iron Bough|QID|30027^30033^30034^30035^30036^30037^30038|M|56.66,18.17|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
-C The Lesson of the Iron Bough|QID|30027^30033|QO|1|M|57.00,19.65|Z|0378; The Wandering Isle|N|Loot a Trainee's Staff from one of the Weapon Racks and equip it.|U|C|Monk,Mage|NC|
-C The Lesson of the Iron Bough|QID|30034|M|57.00,19.65|Z|0378; The Wandering Isle|L|73211|N|Loot a Trainee's Crossbow from the Weapon Rack.|U|73211|C|Hunter|NC|
-C The Lesson of the Iron Bough|QID|30034|QO|1|M|57.00,19.65|Z|0378; The Wandering Isle|N|Equip the Trainee's Crossbow.|C|Hunter|NC|
-C The Lesson of the Iron Bough|QID|30035|M|57.00,19.65|Z|0378; The Wandering Isle|N|Head down into the training ground, and loot both items from the Weapon Rack.|C|Priest|NC|
-C The Lesson of the Iron Bough|QID|30035|QO|1|M|57.00,19.65|Z|0378; The Wandering Isle|N|Equip the Trainee's Mace.|U|73207|C|Priest|NC|
-C The Lesson of the Iron Bough|QID|30035|QO|2|M|57.00,19.65|Z|0378; The Wandering Isle|N|Equip the Trainee's Book of Prayers.|U|76393|C|Priest|NC|
-C The Lesson of the Iron Bough|QID|30036|M|57.00,19.65|Z|0378; The Wandering Isle|L|73208|N|Head down into the training ground, and loot both items from the Weapon Rack.|C|Rogue|NC|
-C The Lesson of the Iron Bough|QID|30036|QO|1|M|57.00,19.65|Z|0378; The Wandering Isle|N|Equip the first Trainee's Dagger.|U|73208|C|Rogue|NC|
-C The Lesson of the Iron Bough|QID|30036|QO|2|M|57.00,19.65|Z|0378; The Wandering Isle|N|Equip the second Trainee's Dagger.|U|73212|C|Rogue|NC|
-C The Lesson of the Iron Bough|QID|30037|M|57.00,19.65|Z|0378; The Wandering Isle|L|73213|N|Head down into the training ground, and loot both items from the Weapon Rack.|C|Shaman|NC|
-C The Lesson of the Iron Bough|QID|30037|QO|1|M|57.00,19.65|Z|0378; The Wandering Isle|N|Equip the Trainee's Axe.|U|76391|C|Shaman|NC|
-C The Lesson of the Iron Bough|QID|30037|QO|2|M|57.00,19.65|Z|0378; The Wandering Isle|N|Equip the Trainee's Shield.|U|73213|C|Shaman|NC|
-C The Lesson of the Iron Bough|QID|30038|M|57.00,19.65|Z|0378; The Wandering Isle|L|73210|N|Head down into the training ground, and loot from the Weapon Rack.|C|Warrior|NC|
-C The Lesson of the Iron Bough|QID|30038|QO|1|M|57.00,19.65|Z|0378; The Wandering Isle|N|Equip the Trainee's Sword.|U|73210|C|Warrior|NC|
+C The Lesson of the Iron Bough|QID|30027^30033|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Staff from one of the Weapon Racks and equip it.|U|73209|C|Monk,Mage|NC|
+C The Lesson of the Iron Bough|QID|30034|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Crossbow from one of the Weapon Racks and equip it.|U|73211|C|Hunter|NC|
+C The Lesson of the Iron Bough|QID|30035|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Mace from one of the Weapon Racks and equip it.|U|73207|C|Priest|NC|
+C The Lesson of the Iron Bough|QID|30035|QO|2|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Book of Prayers from one of the Weapon Racks and equip it.|U|76393|C|Priest|NC|
+C The Lesson of the Iron Bough|QID|30036|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the first Trainee's Dagger from one of the Weapon Racks and equip it.|U|73208|C|Rogue|NC|
+C The Lesson of the Iron Bough|QID|30036|QO|2|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the second Trainee's Dagger from one of the Weapon Racks and equip it.|U|73212|C|Rogue|NC|
+C The Lesson of the Iron Bough|QID|30037|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Axe from one of the Weapon Racks and equip it.|U|76391|C|Shaman|NC|
+C The Lesson of the Iron Bough|QID|30037|QO|2|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Shield from one of the Weapon Racks and equip it.|U|73213|C|Shaman|NC|
+C The Lesson of the Iron Bough|QID|30038|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Sword from one of the Weapon Racks and equip it.|U|73210|C|Warrior|NC|
 T The Lesson of the Iron Bough|QID|30027^30033^30034^30035^30036^30037^30038|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
 A The Lesson of the Sandy Fist|QID|29406|M|56.66,18.17|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
-C The Lesson of the Sandy Fist|QID|29406|M|57.15,19.39|Z|0378; The Wandering Isle|N|Bring 5 Training Targets down to zero health.|
+C The Lesson of the Sandy Fist|QID|29406|M|57.15,19.39|Z|0378; The Wandering Isle|N|Destroy 5 Training Targets.\n[color=FF0000]NOTE: [/color]They don't respawn quickly and you'll need to move to another set of Targets to finish.|
 T The Lesson of the Sandy Fist|QID|29406|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
 A The Lesson of Stifled Pride|QID|29524|M|56.66,18.17|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
-C The Lesson of Stifled Pride|QID|29524|M|60.04,19.14|Z|0378; The Wandering Isle|N|Head into the building, then attack 6 Tushui or Huojin Trainees until they each get down to a low health.|
-T The Lesson of Stifled Pride|QID|29524|M|59.70,19.17|Z|0378; The Wandering Isle|N|To Master Shang Xi (he has moved to the ground floor entrance of the building).|
-A The Lesson of the Burning Scroll|QID|29408|M|59.70,19.17|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
-C The Lesson of the Burning Scroll|QID|29408|M|60.10,18.42;59.78,19.73;60.02,18.59;59.99,20.27|CS|Z|0378; The Wandering Isle|N|You get the flame automatically now; head on up the stairs, follow around the floor to the second flight of stairs, then head to the balcony and burn the Edict of Temperance.|NC|
-T The Lesson of the Burning Scroll|QID|29408|M|59.73,19.08|Z|0378; The Wandering Isle|N|Back down the stairs to Master Shang Xi.|
-A The Disciple's Challenge|QID|29409|M|59.73,19.08|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
-C The Disciple's Challenge|QID|29409|M|67.76,22.75|Z|0378; The Wandering Isle|N|Head out of the east side of the building, down the stairs, across the bridge to the Tranquil Grotto, then defeat Jaomin Ro.|
-T The Disciple's Challenge|QID|29409|M|66.00,22.80|Z|0378; The Wandering Isle|N|To Master Shang Xi (he has moved to the Tranquil Grotto bridge).|
-A Aysa of the Tushui|QID|29410|M|66.01,22.76|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
+C The Lesson of Stifled Pride|QID|29524|M|60.04,19.14|Z|0378; The Wandering Isle|N|Defeat 6 Tushui or Huojin Trainees inside the building.\n[color=FF0000]NOTE: [/color]It doesn't matter which you choose.|
+T The Lesson of Stifled Pride|QID|29524|M|59.68,19.10|Z|0378; The Wandering Isle|N|To Master Shang Xi.\n[color=FF0000]NOTE: [/color]He's moved inside the building by the entrance.|
+A The Lesson of the Burning Scroll|QID|29408|M|59.68,19.10|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
+C The Lesson of the Burning Scroll|QID|29408|QO|2|M|59.99,20.27|Z|0378; The Wandering Isle|N|Go up and click the Edict of Temperance on the balcony of the 3rd (top) floor to burn it.|NC|
+T The Lesson of the Burning Scroll|QID|29408|M|59.68,19.10|Z|0378; The Wandering Isle|N|Back down the stairs to Master Shang Xi.|
+A The Disciple's Challenge|QID|29409|M|59.68,19.10|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
+C The Disciple's Challenge|QID|29409|M|67.76,22.75|Z|0378; The Wandering Isle|N|Defeat Jaomin Ro in Tranquil Grotto.\n[color=FF0000]NOTE: [/color]Exit the building through the east door and cross the bridge at the bottom of the stairs.|
+T The Disciple's Challenge|QID|29409|M|65.97,22.80|Z|0378; The Wandering Isle|N|To Master Shang Xi.\n[color=FF0000]NOTE: [/color]He's moved to the Tranquil Grotto bridge.|
+A Aysa of the Tushui|QID|29410|M|65.97,22.80|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
 T Aysa of the Tushui|QID|29410|M|55.09,32.82|Z|0378; The Wandering Isle|N|To Merchant Lorvo at Fu's Pond.|
 A Items of Utmost Importance|QID|29424|M|55.09,32.82|Z|0378; The Wandering Isle|N|From Merchant Lorvo.|
 A The Missing Driver|QID|29419|M|55.09,32.82|Z|0378; The Wandering Isle|N|From Merchant Lorvo.|
-C Items of Utmost Importance|QID|29424|M|54.11,20.92|Z|0378; The Wandering Isle|N|Kill and loot the Amberleaf Scamps|S|
-C The Missing Driver|QID|29419|M|54.11,20.92|Z|0378; The Wandering Isle|N|Run to Mim Dimwind in The Dawning Valley|NC|
-C Items of Utmost Importance|QID|29424|M|54.11,20.92|Z|0378; The Wandering Isle|N|Finish killing and looting the Amberleaf Scamps|US|
+C Items of Utmost Importance|QID|29424|M|54.10,17.64|Z|0378; The Wandering Isle|L|72071 6|ITEM|72071|N|Amberleaf Scamps.|S|
+R The Missing Driver|ACTIVE|29419|QO|1|M|54.11,20.93|Z|0378; The Wandering Isle|N|Run to Mim Dimwind in The Dawning Valley.|
+C Items of Utmost Importance|QID|29424|M|53.39,30.80|Z|0378; The Wandering Isle|L|72071 6|ITEM|72071|N|Amberleaf Scamps.|T|Amberleaf Scamp|US|
 T Items of Utmost Importance|QID|29424|M|55.10,32.38|Z|0378; The Wandering Isle|N|To Merchant Lorvo.|
 T The Missing Driver|QID|29419|M|55.10,32.38|Z|0378; The Wandering Isle|N|To Merchant Lorvo.|
-A The Way of the Tushui|QID|29414|M|55.11,32.54|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger|
-C The Way of the Tushui|QID|29414|M|55.63,30.99;57.80,36.10|CS|Z|0378; The Wandering Isle|N|Head up to the Cave of Meditation, then kill the Amberleaf Troublemakers until Aysa's Meditation bar reaches 90.|
-T The Way of the Tushui|QID|29414|M|57.55,34.68|Z|0378; The Wandering Isle|N|To Master Shang Xi (he has moved to outside the Cave of Meditation)|
-A Ji of the Huojin|QID|29522|M|57.55,34.68|Z|0378; The Wandering Isle|N|From Master Shang Xi|
-T Ji of the Huojin|QID|29522|M|50.24,21.26|Z|0378; The Wandering Isle|N|To Ji Firepaw at Wu-Song Village.|
+A The Way of the Tushui|QID|29414|M|55.10,32.56|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger.|
+C The Way of the Tushui|QID|29414|M|57.80,36.10|Z|0378; The Wandering Isle|N|Kill the Amberleaf Troublemakers at the Cave of Meditation until Aysa's Meditation bar reaches 90.\n[color=FF0000]NOTE: [/color]There are two Tushui Monks there to help you.|
+T The Way of the Tushui|QID|29414|M|57.55,34.68|Z|0378; The Wandering Isle|N|To Master Shang Xi.\n[color=FF0000]NOTE: [/color]He's moved to the Cave of Meditation entrance.|
+A Ji of the Huojin|QID|29522|M|57.55,34.68|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
+T Ji of the Huojin|QID|29522|M|50.24,21.26|Z|0378; The Wandering Isle|N|To Ji Firepaw in Wu-Song Village.|
 A The Way of the Huojin|QID|29417|M|50.24,21.26|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
-C The Way of the Huojin|QID|29417|QO|1|M|49.56,20.74|Z|0378; The Wandering Isle|N|Kill the Fe-Feng Hozen around Wu-Song Village.|
+C The Way of the Huojin|QID|29417|QO|1|M|46.32,21.18|Z|0378; The Wandering Isle|N|Kill the Fe-Feng Hozen around Wu-Song Village.|
 T The Way of the Huojin|QID|29417|M|50.24,21.26|Z|0378; The Wandering Isle|N|To Ji Firepaw.|
 A Fanning the Flames|QID|29523|M|50.24,21.26|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
 A Kindling the Fire|QID|29418|M|50.24,21.26|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
-C Kindling the Fire|QID|29418|M|48.33,29.60|Z|0378; The Wandering Isle|N|Loot the Loose Dogwood Root found lying around the trees.|NC|S|
-C Fanning the Flames|QID|29523|M|47.30,31.31|Z|0378; The Wandering Isle|N|Head to the Shrine of the Summer Breeze and use the Wind Stone to summon a Living Air. Kill the Living Air and loot the Fluttering Breeze.|U|72109|
-C Kindling the Fire|QID|29418|M|48.33,29.60|Z|0378; The Wandering Isle|N|Finish looting the Loose Dogwood Root.|NC|US|
+C Kindling the Fire|QID|29418|M|48.33,29.60|Z|0378; The Wandering Isle|L|72111 5|N|Loot the Loose Dogwood Root found lying around the trees.|S|
+C Fanning the Flames|QID|29523|M|47.30,31.31|Z|0378; The Wandering Isle|L|72112|ITEM|72112|N|Living Air at the Shrine of the Summer Breeze after using the Wind Stone to summon it.|U|72109|
+C Kindling the Fire|QID|29418|M|47.43,31.41|Z|0378; The Wandering Isle|L|72111 5|N|Loot the Loose Dogwood Root found lying around the trees.|US|
 T Kindling the Fire|QID|29418|M|50.24,21.26|Z|0378; The Wandering Isle|N|To Ji Firepaw.|
 T Fanning the Flames|QID|29523|M|50.24,21.26|Z|0378; The Wandering Isle|N|To Ji Firepaw.|
-A The Spirit's Guardian|QID|29420|M|50.28,21.45|Z|0378; The Wandering Isle|N|From Master Shang Xi (he has moved to Wu-Song Village)|
-T The Spirit's Guardian|QID|29420|M|41.48,25.04;40.87,22.52;38.80,25.51|CS|Z|0378; The Wandering Isle|N|To Master Li Fei at Shrine of Inner-Light.|
-A The Challenger's Fires|QID|29664|M|38.80,25.51|Z|0378; The Wandering Isle|N|From Master Li Fei|
+A The Spirit's Guardian|QID|29420|M|50.29,21.46|Z|0378; The Wandering Isle|N|From Master Shang Xi.\n[color=FF0000]NOTE: [/color]He's moved to Wu-Song Village, behind you.|
+R Shrine of Inner-Light|ACTIVE|29420|M|41.37,24.97|Z|0378; The Wandering Isle|N|Follow the road northwest out of Wu-Song Village.|
+T The Spirit's Guardian|QID|29420|M|38.81,25.49|Z|0378; The Wandering Isle|N|To Master Li Fei at Shrine of Inner-Light.\n[color=FF0000]NOTE: [/color]In case it didn't occur to you, those flames hurt if you step in them.|
+A The Challenger's Fires|QID|29664|M|38.80,25.51|Z|0378; The Wandering Isle|N|From Master Li Fei.|
 C The Challenger's Fires|QID|29664|QO|1|M|38.71,25.42|Z|0378; The Wandering Isle|N|Light the torch on the Brazier of the Flickering Flame.|NC|
-C The Challenger's Fires|QID|29664|QO|3|M|39.18,25.38|Z|0378; The Wandering Isle|N|Light the Brazier of the Blue Flame|NC|
-C The Challenger's Fires|QID|29664|QO|2|M|39.00,23.48|Z|0378; The Wandering Isle|N|Light the Brazier of the Red Flame|NC|
-C The Challenger's Fires|QID|29664|QO|4|M|38.25,24.87|Z|0378; The Wandering Isle|N|Light the Brazier of the Violet Flame|NC|
-T The Challenger's Fires|QID|29664|M|38.80,25.51|Z|0378; The Wandering Isle|N|To Master Li Fei|
-A Only the Worthy Shall Pass|QID|29421|M|38.80,25.51|Z|0378; The Wandering Isle|N|From Master Li Fei|
-C Only the Worthy Shall Pass|QID|29421|M|38.80,25.51|Z|0378; The Wandering Isle|N|Attack Master Li Fei until his health drops low|
-T Only the Worthy Shall Pass|QID|29421|M|38.80,25.51|Z|0378; The Wandering Isle|N|To Master Li Fei|
-A Huo, the Spirit of Fire|QID|29422|M|38.80,25.51|Z|0378; The Wandering Isle|N|From Master Li Fei|
-C Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|Z|0378; The Wandering Isle|N|Head up the ramp to Huo Ancient Spirit of Fire and use Huo's Offerings|U|72583|NC|
-T Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|Z|0378; The Wandering Isle|N|To Huo|
-A The Passion of Shen-zin Su|QID|29423|M|39.45,29.62|Z|0378; The Wandering Isle|N|From Huo|
-C The Passion of Shen-zin Su|QID|29423|M|38.71,26.42;40.73,22.29;41.65,25.14;51.04,30.62;51.44,46.41|CS|Z|0378; The Wandering Isle|N|Head out of the Shrine and go to Temple of Five Dawns. Stay with Huo for a 50% speed bonus.|NC|
-T The Passion of Shen-zin Su|QID|29423|M|51.44,46.41|Z|0378; The Wandering Isle|N|To Master Shang Xi|
-A The Singing Pools|QID|29521|M|51.44,46.41|Z|0378; The Wandering Isle|N|From Master Shang Xi|
-A Stronger Than Reeds|QID|29662|M|53.33,47.46;63.47,41.97|CC|Z|0378; The Wandering Isle|N|Head out of the Temple and head east to The Singing Pools to Jojo Ironbrow|
-r Profession Trainer|QID|29521|M|63.0,41.6|Z|0378; The Wandering Isle|N|You can sell the extra items you have collected here, but even more importantly, you can train your primary professions at Whittler Dewei. Unfortunately, secondary professions can't be trained until you reach your factions capital.\n\nCheck off this step to continue.|
-T The Singing Pools|QID|29521|M|65.59,42.59|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger (she has moved to The Singing Pools)|
-A The Lesson of Dry Fur|QID|29661|PRE|29521|M|65.59,42.59|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger|
-A The Lesson of the Balanced Rock|QID|29663|PRE|29521|M|65.59,42.59|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger|
-C The Lesson of the Balanced Rock|QID|29663|Z|0378; The Wandering Isle|N|Defeat the Tushui Monks|S|
-C Stronger Than Reeds|QID|29662|Z|0378; The Wandering Isle|N|Collect the Tearwood Reeds from the water.\n\nWhen you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
-C The Lesson of Dry Fur|QID|29661|M|61.44,47.77|Z|0378; The Wandering Isle|N|Head west under the bridge. There are several poles in the water than you can jump onto from the bridge. Jump onto one and continue jumping onto other poles until you reach the bell. You will automatically jump onto the rock when you get close enough.\n[color=FF0000]NOTE: [/color]Use the 'Exit Vehicle' button to jump off of the pole at any time.|NC|
-C The Lesson of the Balanced Rock|QID|29663|M|61.44,47.77|Z|0378; The Wandering Isle|N|Defeat the Tushui Monks|US|
-C Stronger Than Reeds|QID|29662|M|61.44,47.77|Z|0378; The Wandering Isle|N|Collect the Tearwood Reeds from the water. Easiest way into the water is to walk off the bell rock. Otherwise, you have to use an exit pole to get down.\n\nWhen you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back and disengage any attacking cranes.|NC|US|
-T Stronger Than Reeds|QID|29662|M|63.47,41.97|Z|0378; The Wandering Isle|N|To Jojo Ironbrow|
-T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger|
-T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger|
-A Finding an Old Friend|QID|29676|PRE|29661&29662&29663|M|65.59,42.59|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger|
+C The Challenger's Fires|QID|29664|QO|3|M|39.18,25.38|Z|0378; The Wandering Isle|N|Light the Brazier of the Blue Flame.|NC|
+C The Challenger's Fires|QID|29664|QO|2|M|39.00,23.48|Z|0378; The Wandering Isle|N|Light the Brazier of the Red Flame.|NC|
+C The Challenger's Fires|QID|29664|QO|4|M|38.25,24.87|Z|0378; The Wandering Isle|N|Light the Brazier of the Violet Flame.|NC|
+T The Challenger's Fires|QID|29664|M|38.80,25.51|Z|0378; The Wandering Isle|N|To Master Li Fei.|
+A Only the Worthy Shall Pass|QID|29421|M|38.80,25.51|Z|0378; The Wandering Isle|N|From Master Li Fei.|
+C Only the Worthy Shall Pass|QID|29421|M|38.94,24.40|Z|0378; The Wandering Isle|N|Defeat Master Li Fei.|
+T Only the Worthy Shall Pass|QID|29421|M|38.80,25.51|Z|0378; The Wandering Isle|N|To Master Li Fei.|
+A Huo, the Spirit of Fire|QID|29422|M|38.80,25.51|Z|0378; The Wandering Isle|N|From Master Li Fei.|
+C Huo, the Spirit of Fire|QID|29422|M|39.45,29.62|Z|0378; The Wandering Isle|N|Use Huo's Offerings at the brazier beneath Huo, Ancient Spirit of Fire.|U|72583|NC|
+T Huo, the Spirit of Fire|QID|29422|M|39.41,29.55|Z|0378; The Wandering Isle|N|To Huo.|
+A The Passion of Shen-zin Su|QID|29423|M|39.41,29.55|Z|0378; The Wandering Isle|N|From Huo.|
+R The Dawning Stair|ACTIVE|29423|QO|1|M|51.08,31.64|Z|378; The Wandering Isle|N|After exiting the Shrine, head southeast across the river and up the stairs.\n[color=FF0000]NOTE: [/color]Huo gives a 50% speed buff while he's with you.|
+R Temple of Five Dawns|ACTIVE|29423|QO|1|M|51.41,46.39|Z|0378; The Wandering Isle|N|Continue up the stairs to Temple of Five Dawns.|
+R The Passion of Shen-zin Su|ACTIVE|29423|QO|1|M|51.49,45.82|Z|0378; The Wandering Isle|N|Enter into the building to complete the quest.|
+T The Passion of Shen-zin Su|QID|29423|M|51.41,46.39|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
+A The Singing Pools|QID|29521|M|51.41,46.39|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
+A Stronger Than Reeds|QID|29662|M|63.49,41.93|Z|0378; The Wandering Isle|N|From Jojo Ironbrow in The Singing Pools, east of the Temple.|
+r Profession Trainer|QID|29521|M|63.11,41.45|Z|0378; The Wandering Isle|N|Sell and repair stuff here./nMore importantly, you can train your primary professions at Whittler Dewei.\n[color=FF0000]NOTE: [/color]Unfortunately, secondary professions can't be trained until you reach your factions capital.\n\nManually check this step off to continue.|
+T The Singing Pools|QID|29521|M|65.60,42.60|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger.\n[color=FF0000]NOTE: [/color]She's moved to The Singing Pools.|
+A The Lesson of Dry Fur|QID|29661|PRE|29521|M|65.60,42.60|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger.|
+A The Lesson of the Balanced Rock|QID|29663|PRE|29521|M|65.60,42.60|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger.|
+C The Lesson of the Balanced Rock|QID|29663|Z|0378; The Wandering Isle|N|Defeat the Tushui Monks standing on the poles.|S|
+C Stronger Than Reeds|QID|29662|Z|0378; The Wandering Isle|L|73178 8|N|Collect the Tearwood Reeds from the water.\n[color=FF0000]NOTE: [/color]When you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
+C The Lesson of Dry Fur|QID|29661|M|61.44,47.77|Z|0378; The Wandering Isle|N|Jump onto one of the poles from the bridge and continue jumping from pole to pole until you reach the bell and ring it.\n[color=FF0000]NOTE: [/color]You'll automatically jump onto the rock when you get close enough.\nUse the 'Exit Vehicle' button to jump off a pole at any time.|NC|
+C The Lesson of the Balanced Rock|QID|29663|M|61.44,47.77|Z|0378; The Wandering Isle|N|Defeat the Tushui Monks standing on the poles.|US|
+C Stronger Than Reeds|QID|29662|M|61.44,47.77|Z|0378; The Wandering Isle|L|73178 8|N|Collect the Tearwood Reeds from the water.\nUse the 'Exit Vehicle' button to jump off the pole.\n[color=FF0000]NOTE: [/color]When you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back and disengage any attacking cranes.|NC|US|
+T Stronger Than Reeds|QID|29662|M|63.49,41.93|Z|0378; The Wandering Isle|N|To Jojo Ironbrow.|
+T The Lesson of the Balanced Rock|QID|29663|M|65.60,42.60|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger|
+T The Lesson of Dry Fur|QID|29661|M|65.60,42.60|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger|
+A Finding an Old Friend|QID|29676|PRE|29661&29662&29663|M|65.60,42.60|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger|
 T Finding an Old Friend|QID|29676|M|70.61,38.75|Z|0378; The Wandering Isle|N|To Old Man Liang in Liang's Retreat|
-A The Sun Pearl|QID|29677|PRE|29676|M|70.63,38.73|Z|0378; The Wandering Isle|N|From Old Man Liang|
-A The Sting of Learning|QID|29666|PRE|29676|M|70.63,38.73|Z|0378; The Wandering Isle|N|From Old Man Liang|
+A The Sun Pearl|QID|29677|PRE|29676|M|70.63,38.73|Z|0378; The Wandering Isle|N|From Old Man Liang.|
+A The Sting of Learning|QID|29666|PRE|29676|M|70.63,38.73|Z|0378; The Wandering Isle|N|From Old Man Liang.|
 C The Sting of Learning|QID|29666|QO|1|M|72.20,42.00|Z|0378; The Wandering Isle|N|Kill the Water Pincers.|S|
-C The Sun Pearl|QID|29677|M|76.26,46.85|Z|0378; The Wandering Isle|N|Jump into the Singing Pools, open the Ancient Clam, and loot the Sun Pearl. It may be guarded by Fang-she. Defeat her and then loot the Sun Pearl from the clam.|NC|
-C The Sting of Learning|QID|29666|QO|1|M|72.20,42.00|Z|0378; The Wandering Isle|N|Kill the Water Pincers. If there are none in the area, check the other pools.|US|
-T The Sun Pearl|QID|29677|M|70.63,38.73|Z|0378; The Wandering Isle|N|To Old Man Liang|
-T The Sting of Learning|QID|29666|M|70.63,38.73|Z|0378; The Wandering Isle|N|To Old Man Liang|
-A Shu, the Spirit of Water|QID|29678|PRE|29666&29677|M|70.63,38.73|Z|0378; The Wandering Isle|N|From Old Man Liang|
-C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|QO|1|Z|0378; The Wandering Isle|N|Head to the glowing rocks and it will jump you to the edge of the Pool of Reflection. Walk forward to the pool.|NC|
+C The Sun Pearl|QID|29677|M|76.26,46.85|Z|0378; The Wandering Isle|L|73184|N|Loot the Sun Pearl from the Ancient Clam in the Singing Pools.\n[color=FF0000]NOTE: [/color]It may be guarded by Fang-she.|
+C The Sting of Learning|QID|29666|QO|1|M|72.20,42.00|Z|0378; The Wandering Isle|N|Kill the Water Pincers.\n[color=FF0000]NOTE: [/color]If there are none in the area, check the other pools.|T|Water Pincer|US|
+T The Sun Pearl|QID|29677|M|78.48,42.86|Z|0378; The Wandering Isle|N|To Old Man Liang.|
+T The Sting of Learning|QID|29666|M|70.63,38.73|Z|0378; The Wandering Isle|N|To Old Man Liang.|
+A Shu, the Spirit of Water|QID|29678|PRE|29666&29677|M|70.63,38.73|Z|0378; The Wandering Isle|N|From Old Man Liang.|
+C Shu, the Spirit of Water|QID|29678|QO|1|M|79.65,41.90;79.64,38.62|CS|Z|0378; The Wandering Isle|N|Head to the glowing rocks and it will jump you to the edge of the Pool of Reflection. Walk forward to the pool.|NC|
 C Shu, the Spirit of Water|QID|29678|QO|2|M|79.38,38.35|Z|0378; The Wandering Isle|N|Use the Sun Pearl to coax out Shu.|U|73791|NC|
-T Shu, the Spirit of Water|QID|29678|M|PLAYER|CC|Z|0378; The Wandering Isle|N|(UI Alert)\n[color=FF0000]NOTE: [/color]If the quest does not turn-in through the UI, access it through your quest log and click on 'Complete' to turn it in.|
-A A New Friend|QID|29679|PRE|29678|M|79.82,39.34|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger (now at the edge of the Pool of Reflection).|
+T Shu, the Spirit of Water|QID|29678|M|PLAYER|CC|Z|0378; The Wandering Isle|N|(UI Alert)If the quest does not turn-in through the UI, access it through your quest log and click on 'Complete' to turn it in.|
+A A New Friend|QID|29679|PRE|29678|M|79.82,39.34|Z|0378; The Wandering Isle|N|From To Aysa Cloudsinger.\n[color=FF0000]NOTE: [/color]She's moved to the edge of the Pool of Reflection.|
 C A New Friend|QID|29679|M|79.10,38.20|Z|0378; The Wandering Isle|N|Walk into the Water Spouts created by Shu.|NC|
 T A New Friend|QID|29679|M|79.82,39.34|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger.|
 A The Source of Our Livelihood|QID|29680|PRE|29679|M|79.82,39.34|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger.|
@@ -182,7 +180,7 @@ C Unwelcome Nature|QID|29788|QO|1|M|20.73,46.84|Z|0378; The Wandering Isle|N|Kil
 C Small, But Significant|QID|29789|QO|1|M|19.58,50.92|Z|0378; The Wandering Isle|N|Collect the Kun-Pai Ritual Charms hanging from the trees in the area around you.|
 C Unwelcome Nature|QID|29788|QO|1|M|20.73,46.84|Z|0378; The Wandering Isle|N|Finish killing the Thornbranch Scamps.\n[color=FF0000]NOTE: [/color]Unless you have really good AoE, stick to the ones that are alone. At some point, it will spawn two more. Ignore them as they will eventually despawn when you defeat the original.|US|
 T Unwelcome Nature|QID|29788|M|19.33,50.67|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
-T Small, But Significant|QID|29789|M|19.33,50.67|Z|0378; The Wandering Isle|N|To Master Shang Xi|
+T Small, But Significant|QID|29789|M|19.33,50.67|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
 A Passing Wisdom|QID|29790|PRE|29788&29789|M|19.33,50.67|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
 C Passing Wisdom|QID|29790|M|19.33,50.67|Z|0378; The Wandering Isle|N|Wait while Master Shang Xi tells you the story.|NC|
 T Passing Wisdom|QID|29790|M|15.79,49.11|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger at the Hot Air Balloon.|
