@@ -19,7 +19,7 @@ local function handler(msg, editbox)
 			WoWProCharDB.DevCoords = false
 		else
 			if _G.WoWProDevZone:IsVisible() then
-    			_G.WoWProDevZone:Hide()
+    		    _G.WoWProDevZone:Hide()
             end
 			_G.WoWProDevCoords:Show()
 			WoWProCharDB.DevCoords = true
@@ -31,7 +31,7 @@ local function handler(msg, editbox)
 			WoWProCharDB.DevZone = false
 		else
 			if _G.WoWProDevCoords:IsVisible() then
-    			_G.WoWProDevCoords:Hide()
+                _G.WoWProDevCoords:Hide()
             end
             _G.WoWProDevZone:Show()
 			WoWProCharDB.DevZone = true
