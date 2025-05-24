@@ -36,10 +36,10 @@ local function handler(msg, editbox)
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         if (not X) or (not Y) then
-            local text = ("Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+            local text = ("Player at ? |Z|%s; %q| aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
             _G.ChatFrame1:AddMessage(text)
         else
-            local text = ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+            local text = ("Player at %.2f,%.2f|Z|%s; %q| aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
             _G.ChatFrame1:AddMessage(text)
         end
         local pos = _G.C_Map.GetPlayerMapPosition(mapId, "player")
