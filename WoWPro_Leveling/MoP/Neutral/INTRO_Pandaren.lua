@@ -13,6 +13,7 @@ A The Lesson of the Iron Bough|QID|30027^30033^30034^30035^30036^30037^30038|M|5
 C The Lesson of the Iron Bough|QID|30027^30033|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Staff from one of the Weapon Racks and equip it.|U|73209|C|Monk,Mage|NC|
 C The Lesson of the Iron Bough|QID|30034|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Crossbow from one of the Weapon Racks and equip it.|U|73211|C|Hunter|NC|
 C The Lesson of the Iron Bough|QID|30035|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Mace from one of the Weapon Racks and equip it.|U|73207|C|Priest|NC|
+C The Lesson of the Iron Bough|QID|30035|QO|2|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Book of Prayers from one of the Weapon Racks and equip it.|U|76393|C|Priest|NC|
 C The Lesson of the Iron Bough|QID|30035|QO|2|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Book of Prayers from one of the Weapon Racks and equip it.|U|76393|C|Priest|NC|
 C The Lesson of the Iron Bough|QID|30036|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the first Trainee's Dagger from one of the Weapon Racks and equip it.|U|73208|C|Rogue|NC|
 C The Lesson of the Iron Bough|QID|30036|QO|2|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the second Trainee's Dagger from one of the Weapon Racks and equip it.|U|73212|C|Rogue|NC|
@@ -21,14 +22,14 @@ C The Lesson of the Iron Bough|QID|30037|QO|2|M|56.87,19.68|Z|0378; The Wanderin
 C The Lesson of the Iron Bough|QID|30038|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Sword from one of the Weapon Racks and equip it.|U|73210|C|Warrior|NC|
 T The Lesson of the Iron Bough|QID|30027^30033^30034^30035^30036^30037^30038|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
 A The Lesson of the Sandy Fist|QID|29406|M|56.66,18.17|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
-C The Lesson of the Sandy Fist|QID|29406|M|57.15,19.39|Z|0378; The Wandering Isle|N|Destroy 5 Training Targets.\n[color=FF0000]NOTE: [/color]They don't respawn quickly and you'll need to move to another set of Targets to finish.|
+C The Lesson of the Sandy Fist|QID|29406|M|57.15,19.39|Z|0378; The Wandering Isle|N|Destroy 5 Training Targets.\n[color=FF0000]NOTE: [/color]They don't respawn quickly and you'll need to move to another set of Targets to finish.|T|Training Target|
 T The Lesson of the Sandy Fist|QID|29406|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
 A The Lesson of Stifled Pride|QID|29524|M|56.66,18.17|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
-C The Lesson of Stifled Pride|QID|29524|M|60.04,19.14|Z|0378; The Wandering Isle|N|Defeat 6 Tushui or Huojin Trainees inside the building.\n[color=FF0000]NOTE: [/color]It doesn't matter which you choose.|
+C The Lesson of Stifled Pride|QID|29524|M|60.04,19.14|Z|0378; The Wandering Isle|N|Defeat 6 Tushui or Huojin Trainees inside the building.\n[color=FF0000]NOTE: [/color]It doesn't matter which you choose to fight.|
 T The Lesson of Stifled Pride|QID|29524|M|59.68,19.10|Z|0378; The Wandering Isle|N|To Master Shang Xi.\n[color=FF0000]NOTE: [/color]He's moved inside the building by the entrance.|
 A The Lesson of the Burning Scroll|QID|29408|M|59.68,19.10|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
 C The Lesson of the Burning Scroll|QID|29408|QO|2|M|59.99,20.27|Z|0378; The Wandering Isle|N|Go up and click the Edict of Temperance on the balcony of the 3rd (top) floor to burn it.|NC|
-T The Lesson of the Burning Scroll|QID|29408|M|59.68,19.10|Z|0378; The Wandering Isle|N|Back down the stairs to Master Shang Xi.|
+T The Lesson of the Burning Scroll|QID|29408|M|59.68,19.10|Z|0378; The Wandering Isle|N|Back down the stairs to Master Shang Xi.\n[color=FF0000]NOTE: [/color]Just jump off the balcony, or over the handrail to the floor below.|
 A The Disciple's Challenge|QID|29409|M|59.68,19.10|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
 C The Disciple's Challenge|QID|29409|M|67.76,22.75|Z|0378; The Wandering Isle|N|Defeat Jaomin Ro in Tranquil Grotto.\n[color=FF0000]NOTE: [/color]Exit the building through the east door and cross the bridge at the bottom of the stairs.|
 T The Disciple's Challenge|QID|29409|M|65.97,22.80|Z|0378; The Wandering Isle|N|To Master Shang Xi.\n[color=FF0000]NOTE: [/color]He's moved to the Tranquil Grotto bridge.|
@@ -37,7 +38,7 @@ T Aysa of the Tushui|QID|29410|M|55.09,32.82|Z|0378; The Wandering Isle|N|To Mer
 A Items of Utmost Importance|QID|29424|M|55.09,32.82|Z|0378; The Wandering Isle|N|From Merchant Lorvo.|
 A The Missing Driver|QID|29419|M|55.09,32.82|Z|0378; The Wandering Isle|N|From Merchant Lorvo.|
 C Items of Utmost Importance|QID|29424|M|54.10,17.64|Z|0378; The Wandering Isle|L|72071 6|ITEM|72071|N|Amberleaf Scamps.|S|
-R The Missing Driver|ACTIVE|29419|QO|1|M|54.11,20.93|Z|0378; The Wandering Isle|N|Run to Mim Dimwind in The Dawning Valley.|
+R The Missing Driver|ACTIVE|29419|QO|1|M|54.11,20.93|Z|0378; The Wandering Isle|N|Run to Min Dimwind in The Dawning Valley.|
 C Items of Utmost Importance|QID|29424|M|53.39,30.80|Z|0378; The Wandering Isle|L|72071 6|ITEM|72071|N|Amberleaf Scamps.|T|Amberleaf Scamp|US|
 T Items of Utmost Importance|QID|29424|M|55.10,32.38|Z|0378; The Wandering Isle|N|To Merchant Lorvo.|
 T The Missing Driver|QID|29419|M|55.10,32.38|Z|0378; The Wandering Isle|N|To Merchant Lorvo.|
@@ -47,7 +48,7 @@ T The Way of the Tushui|QID|29414|M|57.55,34.68|Z|0378; The Wandering Isle|N|To 
 A Ji of the Huojin|QID|29522|M|57.55,34.68|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
 T Ji of the Huojin|QID|29522|M|50.24,21.26|Z|0378; The Wandering Isle|N|To Ji Firepaw in Wu-Song Village.|
 A The Way of the Huojin|QID|29417|M|50.24,21.26|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
-C The Way of the Huojin|QID|29417|QO|1|M|46.32,21.18|Z|0378; The Wandering Isle|N|Kill the Fe-Feng Hozen around Wu-Song Village.|
+C The Way of the Huojin|QID|29417|QO|1|M|46.32,21.18|Z|0378; The Wandering Isle|N|Kill the Fe-Feng mobs around Wu-Song Village.|
 T The Way of the Huojin|QID|29417|M|50.24,21.26|Z|0378; The Wandering Isle|N|To Ji Firepaw.|
 A Fanning the Flames|QID|29523|M|50.24,21.26|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
 A Kindling the Fire|QID|29418|M|50.24,21.26|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
@@ -82,7 +83,7 @@ r Profession Trainer|QID|29521|M|63.11,41.45|Z|0378; The Wandering Isle|N|Sell a
 T The Singing Pools|QID|29521|M|65.60,42.60|Z|0378; The Wandering Isle|N|To Aysa Cloudsinger.\n[color=FF0000]NOTE: [/color]She's moved to The Singing Pools.|
 A The Lesson of Dry Fur|QID|29661|PRE|29521|M|65.60,42.60|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger.|
 A The Lesson of the Balanced Rock|QID|29663|PRE|29521|M|65.60,42.60|Z|0378; The Wandering Isle|N|From Aysa Cloudsinger.|
-C The Lesson of the Balanced Rock|QID|29663|Z|0378; The Wandering Isle|N|Defeat the Tushui Monks standing on the poles.|S|
+C The Lesson of the Balanced Rock|QID|29663|M|61.44,47.77|Z|0378; The Wandering Isle|N|Defeat the Tushui Monks standing on the poles.|S|
 C Stronger Than Reeds|QID|29662|Z|0378; The Wandering Isle|L|73178 8|N|Collect the Tearwood Reeds from the water.\n[color=FF0000]NOTE: [/color]When you're in the water, you'll turn into a frog, and aggro the Whitefeather Cranes. Just run out of the water to change back, and disengage any attacking cranes.|NC|S|
 C The Lesson of Dry Fur|QID|29661|M|61.44,47.77|Z|0378; The Wandering Isle|N|Jump onto one of the poles from the bridge and continue jumping from pole to pole until you reach the bell and ring it.\n[color=FF0000]NOTE: [/color]You'll automatically jump onto the rock when you get close enough.\nUse the 'Exit Vehicle' button to jump off a pole at any time.|NC|
 C The Lesson of the Balanced Rock|QID|29663|M|61.44,47.77|Z|0378; The Wandering Isle|N|Defeat the Tushui Monks standing on the poles.|US|
@@ -111,38 +112,41 @@ R Delivery Cart|QID|29680|M|79.19,45.31|Z|0378; The Wandering Isle|N|Jump into t
 T The Source of Our Livelihood|QID|29680|M|68.89,65.00|Z|0378; The Wandering Isle|N|To Ji Firepaw at Dai-Lo Farmstead.|
 A Rascals|QID|29769|PRE|29680|M|68.89,65.00|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
 A Still Good!|QID|29770|PRE|29680|M|68.13,66.40|Z|0378; The Wandering Isle|N|From Gao Summerdraft.|
-C Rascals|QID|29769|QO|1|M|72.62,74.17|Z|0378; The Wandering Isle|N|Kill Plump Virmen.|S|
-C Still Good!|QID|29770|QO|2|M|71.66,70.54|Z|0378; The Wandering Isle|N|Head into the Teeming Burrow and collect 3 Stolen Carrots either from the ground or from the Plump Virmen.|NC|
-C Still Good!|QID|29770|QO|3|M|77.19,71.06|Z|0378; The Wandering Isle|N|Head out of the cave, to the Virmen Grotto and collect 3 Pilfered Pumpkins from the ground|NC|
-l Still Good!|QID|29770|QO|1|M|70.74,78.82|Z|0378; The Wandering Isle|N|Collect 3 Uprooted Turnips from the ground|
-C Rascals|QID|29769|QO|1|M|68.40,72.10|Z|0378; The Wandering Isle|N|Finish Killing Plump Virmen.|US|
+C Rascals|QID|29769|M|72.62,74.17|Z|0378; The Wandering Isle|N|Kill Plump Virmen.|S|
+C Still Good!|QID|29770|M|71.66,70.54|Z|0378; The Wandering Isle|L|74296 3|N|Enter Teeming Burrow and collect 3 Stolen Carrots from the ground.\n[color=FF0000]NOTE: [/color]The Plump Virmen drop from them as well.|
+C Still Good!|QID|29770|M|77.19,71.06|Z|0378; The Wandering Isle|L|74297 3|N|Exit Teeming Burrow and collect 3 Pilfered Pumpkins from the ground in Virmen Grotto.|
+C Still Good!|QID|29770|M|68.79,80.48|Z|0378; The Wandering Isle|L|74295 3|N|Loot 3 Uprooted Turnips from the ground in The Rows.|
+C Rascals|QID|29769|M|71.96,74.98|Z|0378; The Wandering Isle|N|Finish Killing Plump Virmen.|US|
 T Still Good!|QID|29770|M|68.13,66.40|Z|0378; The Wandering Isle|N|To Gao Summerdraft.|
 T Rascals|QID|29769|M|68.89,65.00|Z|0378; The Wandering Isle|N|To Ji Firepaw.|
 A Missing Mallet|QID|29768|PRE|29769&29770|M|68.89,65.00|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
-A Stronger Than Wood|QID|29771|PRE|29769&29770|M|69.13,66.62|Z|0378; The Wandering Isle|N|From Jojo Ironbrow|
-C Stronger Than Wood|QID|29771|M|69.13,66.62|Z|0378; The Wandering Isle|N|Collect the Discarded Wood Planks from the floor.|NC|S|
-l Missing Mallet|QID|29768|QO|1|M|62.53,76.68|Z|0378; The Wandering Isle|N|Loot the Mallet from next to Raggis.\nYou can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|
-C Stronger Than Wood|QID|29771|M|69.13,66.62|Z|0378; The Wandering Isle|N|Collect the Discarded Wood Planks from the floor.|NC|US|
-T Stronger Than Wood|QID|29771|M|69.13,66.62|Z|0378; The Wandering Isle|N|To Jojo Ironbrow|
-T Missing Mallet|QID|29768|M|68.89,65.00|Z|0378; The Wandering Isle|N|To Ji Firepaw|
+A Stronger Than Wood|QID|29771|PRE|29769&29770|M|69.15,66.69|Z|0378; The Wandering Isle|N|From Jojo Ironbrow.|
+C Stronger Than Wood|QID|29771|M|62.61,78.73|Z|0378; The Wandering Isle|L|74301 12|N|Collect the Discarded Wood Planks from the ground.|S|
+C Missing Mallet|QID|29768|M|62.63,77.04|Z|0378; The Wandering Isle!Instance|L|74298|N|Loot the Mallet laying beside Raggis at Ki-Han Brewery.\n[color=FF0000]NOTE: [/color]You can kill him, or if you can kite him to the guards on the path nearby and they'll keep him busy while you loot the Mallet.|
+C Stronger Than Wood|QID|29771|M|62.61,78.73|Z|0378; The Wandering Isle|L|74301 12|N|Collect the Discarded Wood Planks from the ground around Ki-Han Brewery.|US|
+T Stronger Than Wood|QID|29771|M|69.15,66.69|Z|0378; The Wandering Isle|N|To Jojo Ironbrow.|
+T Missing Mallet|QID|29768|M|68.89,65.00|Z|0378; The Wandering Isle|N|To Ji Firepaw.|
 A Raucous Rousing|QID|29772|PRE|29768|M|68.89,65.00|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
 C Raucous Rousing|QID|29772|M|68.95,64.87|Z|0378; The Wandering Isle|N|Ring the gong next to Ji Firepaw.|NC|
 T Raucous Rousing|QID|29772|M|68.89,65.00|Z|0378; The Wandering Isle|N|To Ji Firepaw.|
-A Not In the Face!|QID|29774|PRE|29771&29772|M|68.89,65.00|Z|0378; The Wandering Isle|N|From Ji Firepaw|
-C Not In the Face!|QID|29774|QO|1|M|69.00,62.95|Z|0378; The Wandering Isle|N|Head to Shu and ask him for help.|CHAT|
-C Not In the Face!|QID|29774|M|68.89,65.00|QO|2|Z|0378; The Wandering Isle|N|Head back to Wugou and wait for Shu to wake him.|NC|
+A Not In the Face!|QID|29774|PRE|29771&29772|M|68.89,65.00|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
+C Not In the Face!|QID|29774|QO|1|M|69.00,62.95|Z|0378; The Wandering Isle|N|Go over and ask Shu for help.|CHAT|
+R Not In the Face!|QID|29774|QO|2|M|68.89,65.00|Z|0378; The Wandering Isle|N|Head back to Wugou and wait for Shu to wake him.|
 T Not In the Face!|QID|29774|M|68.89,65.00|Z|0378; The Wandering Isle|N|To Ji Firepaw.|
 A The Spirit and Body of Shen-zin Su|QID|29775|PRE|29774|M|68.89,65.00|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
 R Delivery Cart|QID|29775|M|67.85,67.24|Z|0378; The Wandering Isle|N|Jump into the Delivery Cart for a free ride to the steps of Temple of Five Dawns.|TZ|Mandori Village|V|
-T The Spirit and Body of Shen-zin Su|QID|29775|M|51.58,48.32|Z|0378; The Wandering Isle|N|Head up the stairs to Master Shang Xi.|
+T The Spirit and Body of Shen-zin Su|QID|29775|M|51.58,48.32|Z|0378; The Wandering Isle|N|To Master Shang Xi at the top of the stairs.|
 A Morning Breeze Village|QID|29776|PRE|29775|M|51.58,48.32|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
-T Morning Breeze Village|QID|29776|M|50.15,48.63;47.66,50.93;44.91,51.36;35.81,51.37;30.82,44.47;30.97,36.74|CS|Z|0378; The Wandering Isle|N|To Ji Firepaw in Morning Breeze Village.|
+R The Dawning Span|ACTIVE|29776|M|44.89,51.34|Z|0378; The Wandering Isle|N|Exit and follow the road westward.|
+R Ridge of Laughing Winds|ACTIVE|29776|M|35.76,51.40|Z|0378; The Wandering Isle|N|Continue west across the bridges.|
+R Morning Breeze Village|ACTIVE|29776|M|30.82,44.68|Z|0378; The Wandering Isle|N|Follow the road to the arch in the north.|
+T Morning Breeze Village|QID|29776|M|30.97,36.74|Z|0378; The Wandering Isle|N|To Ji Firepaw standing on the dock by the hot air balloon.|
 A Rewritten Wisdoms|QID|29778|PRE|29776|M|30.97,36.74|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
 A Stronger Than Stone|QID|29783|PRE|29776|M|29.92,39.77|Z|0378; The Wandering Isle|N|From Jojo Ironbrow.|
 A Tools of the Enemy|QID|29777|PRE|29776|M|31.79,39.70|Z|0378; The Wandering Isle|N|From Elder Shaopai.|
 C Tools of the Enemy|QID|29777|M|31.83,50.71|Z|0378; The Wandering Isle|N|Kill the Fe-Feng Wisemen to loot the Paint Soaked Brushes.|S|
-l Stronger Than Stone|QID|29783|QO|1|M|29.92,50.77|Z|0378; The Wandering Isle|N|Loot the Abandoned Stone Block from the ground.|S|
-C Rewritten Wisdoms|QID|29778|M|30.97,50.14|Z|0378; The Wandering Isle|N|Click the Defaced Scroll of Wisdom to burn them.|NC|
+C Stronger Than Stone|QID|29783|QO|1|M|29.92,50.77|Z|0378; The Wandering Isle|N|Loot the Abandoned Stone Block from the ground.|S|
+C Rewritten Wisdoms|QID|29778|M|30.97,50.14|Z|0378; The Wandering Isle|N|Click the Defaced Scrolls of Wisdom to burn them.|NC|
 l Stronger Than Stone|QID|29783|QO|1|M|29.92,50.77|Z|0378; The Wandering Isle|N|Finish looting the Abandoned Stone Block from the ground.|US|
 C Tools of the Enemy|QID|29777|M|31.83,50.71|Z|0378; The Wandering Isle|N|Finish killing and looting the Fe-Feng Wiseman for Paint Soaked Brushes.|US|
 T Tools of the Enemy|QID|29777|M|31.79,39.70|Z|0378; The Wandering Isle|N|To Elder Shaopai.|
@@ -153,7 +157,7 @@ A Do No Evil|QID|29780|PRE|29777&29778&29783|M|30.97,36.74|Z|0378; The Wandering
 A The Direct Solution|QID|29779|PRE|29777&29778&29783|M|30.97,36.74|Z|0378; The Wandering Isle|N|From Ji Firepaw.|
 C The Direct Solution|QID|29779|QO|1|M|24.44,30.62|Z|0378; The Wandering Isle|N|Kill Fe-Fang Hozen.|S|
 A Stronger Than Bone|QID|29782|PRE|29783|M|28.33,38.78;26.43,33.73|CC|Z|0378; The Wandering Isle|N|From Jade Tiger Pillar in Fe-Feng Village.|
-l Monkey Advisory Warning|QID|29781|QO|1|M|20.93,34.36|Z|0378; The Wandering Isle|N|Collect the Stolen Firework Bundles as you go. There are several where Ruk-Ruk is.|S|
+l Monkey Advisory Warning|QID|29781|QO|1|M|20.93,34.36|Z|0378; The Wandering Isle|N|Collect the Stolen Firework Bundles. There are several where Ruk-Ruk is.|S|
 C Do No Evil|QID|29780|QO|1|M|20.93,34.36|Z|0378; The Wandering Isle|N|Kill Ruk-Ruk.|
 T Do No Evil|QID|29780|M|PLAYER|Z|0378; The Wandering Isle|N|To Ji Firepaw, beside you.|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|Z|0378; The Wandering Isle|N|Collect the Stolen Firework Bundle from where Ruk-Ruk was, or elsewhere in the village.|US|
