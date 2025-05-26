@@ -1490,16 +1490,16 @@ function WoWPro.AutoHideFrame(msg, why)
 
     if WoWPro.ShouldInstanceHide() or WoWPro.ShouldPvPHide() or WoWPro.ShouldPetBattleHide() or WoWPro.ShouldCombatHide() then
         if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and WoWPro.IsHidden == false  then
-            WoWPro:Print("WoWPro.ShowFrame(hide):"..msg)
+            WoWPro:dbp("WoWPro.ShowFrame(hide):"..msg)
         else
-            WoWPro:print("WoWPro.ShowFrame(hide):"..msg)
+            WoWPro:dbp("WoWPro.ShowFrame(hide):"..msg)
         end
         WoWPro.HideFrame(true)
     else
         if WoWProCharDB.AutoHideInsideInstancesNotify and (why == "INSTANCE") and WoWPro.IsHidden == true  then
-            WoWPro:Print("WoWPro.ShowFrame(show):"..msg)
+            WoWPro:dbp("WoWPro.ShowFrame(show):"..msg)
         else
-            WoWPro:print("WoWPro.ShowFrame(show):"..msg)
+            WoWPro:dbp("WoWPro.ShowFrame(show):"..msg)
         end
         WoWPro.HideFrame(false)
     end
