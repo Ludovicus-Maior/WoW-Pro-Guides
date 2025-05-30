@@ -252,8 +252,8 @@ A Joining the Alliance|QID|30987|PRE|31450|M|32.90,50.95|Z|0037; Elwynn Forest|N
 T Joining the Horde|QID|31012|M|48.11,70.46|Z|0085; Orgrimmar|N|To Garrosh Hellscream in Grommash Hod.|FACTION|Horde|
 T Joining the Alliance|QID|30987|M|85.78,31.70|Z|84;Stormwind City|N|To King Anduin Wrynn, in Stormwind Keep|FACTION|Alliance|
 A The Horde Way|QID|31013|PRE|31012|M|48.11,70.46|Z|0085; Orgrimmar|N|To Garrosh Hellscream|FACTION|Horde|
-C The Horde Way|QID|31013|M|48.11,70.46|Z|0085; Orgrimmar|N|Listen to Garrosh Hellscream.\n[color=FF0000]NOTE: [/color]Just stay put. He'll return to you once he's finished prattling on.|FACTION|Horde|CHAT|
-T The Horde Way|QID|31013|M|48.11,70.46|Z|0085; Orgrimmar|N|To Garrosh Hellscream.|FACTION|Horde|
+C The Horde Way|QID|31013|M|48.11,70.46|Z|0085; Orgrimmar|N|Listen to Garrosh Hellscream.\n[color=FF0000]NOTE: [/color]You follow Garrosh on his tour of Orgrimmar, or skip this step and meet him at his final location..|FACTION|Horde|CHAT|
+T The Horde Way|QID|31013|M|70.62,31.43|Z|0085; Orgrimmar|N|To Garrosh Hellscream.|FACTION|Horde|
 
 ]]
 end)
