@@ -18,8 +18,19 @@ local function handler(msg, editbox)
 			_G.WoWProDevCoords:Hide()
 			WoWProCharDB.DevCoords = false
 		else
+			if _G.WoWProDevZone:IsVisible() then _G.WoWProDevZone:Hide() end
 			_G.WoWProDevCoords:Show()
 			WoWProCharDB.DevCoords = true
+		end
+	elseif ltoken == "devzone" then
+		WoWPro:DevZone()
+		if _G.WoWProDevZone:IsVisible() then
+			_G.WoWProDevZone:Hide()
+			WoWProCharDB.DevZone = false
+		else
+			if _G.WoWProDevCoords:IsVisible() then _G.WoWProDevCoords:Hide() end
+            _G.WoWProDevZone:Show()
+			WoWProCharDB.DevZone = true
 		end
 	elseif ltoken == "devmode" then
 		if WoWPro.DevMode then
@@ -36,10 +47,10 @@ local function handler(msg, editbox)
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         if (not X) or (not Y) then
-            local text = ("Player at ? |Z|%s; %q| aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+            local text = ("Player at ? |Z|%s; %s| aka %s"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetSubZoneText())
             _G.ChatFrame1:AddMessage(text)
         else
-            local text = ("Player at %.2f,%.2f|Z|%s; %q| aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+            local text = ("Player at %.2f,%.2f|Z|%s; %s| aka %s"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetSubZoneText())
             _G.ChatFrame1:AddMessage(text)
         end
         local pos = _G.C_Map.GetPlayerMapPosition(mapId, "player")

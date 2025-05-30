@@ -695,6 +695,33 @@ function WoWPro:DevCoords()
 	end
 end
 
+function WoWPro:DevZone()
+    if not _G.WoWProDevZone then
+        local p,f="player", _G.CreateFrame("EditBox","WoWProDevZone",_G.UIParent,"InputBoxTemplate")
+        f:SetPoint("TOP",0,0)
+        f:SetSize(750, 70)
+        f:SetScale(f:GetScale())
+        f:SetFont("Fonts\\FRIZQT__.TTF",16,"outline")
+        f:SetJustifyH("CENTER")
+        f:SetJustifyV("MIDDLE")
+        f:SetAutoFocus(false)
+        f:SetScript("OnUpdate",function(s,e)
+           local map = _G.C_Map.GetBestMapForUnit(p)
+            if map then
+                local playerpos = _G.C_Map.GetPlayerMapPosition(map,p)
+                if playerpos then
+                    local x, y, mapId = WoWPro:GetPlayerZonePosition()
+                    if not _G.MouseIsOver(f) then
+                        f:SetText(_G.format("M|%.2f,%.2f|Z|%s; %s|", x*100, y*100, tostring(mapId), WoWPro.GetZoneText()))
+                    end
+                end
+            end
+        end)
+
+        f:Hide()
+    end
+end
+
 -- Event Registration Function --
 function WoWPro:RegisterEvents(eventtable)
     --[[Purpose: Iterates through the supplied table of events, and registers each
