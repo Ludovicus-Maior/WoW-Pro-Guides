@@ -1,11 +1,11 @@
 local guide = WoWPro:RegisterGuide("JamDra7475", "Leveling", "Dragonblight", "WoWPro Team", "Alliance", 5)
 WoWPro:GuideLevels(guide, 71, 75)
-WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNickname(guide, "Dragonblight")
 WoWPro:GuideName(guide,"Dragonblight")
 WoWPro:GuideNextGuide(guide, "Grizzly Hills")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|
 N Note|QID|12174^12298|Z|115; Dragonblight|N|If you followed my previous guides, you should be in Wintergarde Keep, Dragonblight and have the following quest: High Commander Halford Wyrmbane If you don't have it, just ignore this quest, it's not a big deal, you can get the follow up anyway. Let's get started!|
 N Warning!|QID|12174^12298|Z|115; Dragonblight|N|Throughout this whole chapter, do NOT get the quest [The Hills Have Us]. If you take it, this will fly you to Grizzly Hills and will make you waste a lot of time.|
 T High Commander Halford Wyrmbane|QID|12174^12298|LEAD|12235|Z|115; Dragonblight|N|To High Commander Halford Wyrmbane.|M|78.58,48.26|
@@ -227,7 +227,7 @@ T Breaking Off A Piece|QID|12462|Z|115; Dragonblight|N|To Yord "Calamity" Icebea
 T Plunderbeard's Journal|QID|12465|M|85.9,50.9|Z|115; Dragonblight|N|To Ambo Cash.|
 A Chasing Icestorm: The 7th Legion Front|QID|12466|PRE|12465|M|85.9,50.9|Z|115; Dragonblight|N|From Ambo Cash.|
 R Wintergarde Keep|QID|12466|M|75.6,50.2|Z|115; Dragonblight|N|Make your way back to WIntergarde Keep|
-N Sell junk, repair, restock.|QID|12466|Z|115; Dragonblight|N|Sell junk, repair, restock.|M|77.82,50.74|
+r Sell junk, repair, restock.|QID|12466|Z|115; Dragonblight|N|Sell junk, repair, restock.|M|77.82,50.74|
 T WANTED: Kreug Oathbreaker|QID|12438|Z|115; Dragonblight|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
 h Wintergarde Keep|QID|12466|Z|115; Dragonblight|N|Go to the inn and make it your home location.|M|77.42,51.63|
 R Bronze Dragonshrine|QID|12466|Z|115; Dragonblight|N|Exit Wintergarde Keep by the northern gate, then ride northwest to the Bronze Dragonshrine .|M|72.00,38.00|

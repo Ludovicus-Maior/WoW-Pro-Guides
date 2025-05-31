@@ -1,11 +1,11 @@
 local guide = WoWPro:RegisterGuide("JamZan6365", "Leveling", "Zangarmarsh", "WoWPro Team", "Horde", 5)
 WoWPro:GuideLevels(guide, 60, 64)
-WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Zangarmarsh")
 WoWPro:GuideName(guide,"Zangarmarsh")
 WoWPro:GuideNextGuide(guide, "Terokkar Forest")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
 F Swamprat Post|QID|9770|N|Fly to Swamprat Post.|
 N Things to do: Zangarmarsh|QID|9770|N|Being in melee range of sporebats when they die gives you a 5 minute +30 to all stats buff. Keep your Fertile Spores and Unidentified Plant Parts, they'll be part of a hand-in.|
 A Uncatalogued Species|QID|9875|O|N|(UI Alert?)|
@@ -51,14 +51,14 @@ A The Respect of Another|QID|9898|PRE|9770|M|85.0,54.0|N|From Reavij.|
 T Thick Hydra Scales|QID|9774|M|85.3,54.8|N|To Zurai.|
 A Searching for Scout Jyoba|QID|9771|PRE|9774|M|85.3,54.8|N|From Zurai.|
 K A Job Undone|QID|9899|QO|1|N|Kill Sporewing.|M|76.61,45.15|
-l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484|N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|S|
-A Withered Basidium|QID|9828|M|PLAYER|CC|N|From the Withered Basidium.|U|24484|O|
-l Bog Lord Tendrils|QID|9769|M|81.00,36.00|L|24291 3|ITEM|24291|N|Withered Bog Lords and/or Withered Giants.\n[color=FF0000]NOTE: [/color]You need 6 for a quest later on, but you will have a chance to kill more later.|S|
+l Withered Basidium|QID|9828|L|24484|S|N|Kill Withered Giants until you get a Withered Basidium, it has a drop change of about 2% so it might take a while.|M|81,36|
+l Bog Lord Tendrils|QID|9769|L|24291 3|S|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get at least 3 Bog Lord Tendrils. You need 6 for a quest later on, but you will have a chance to kill more then too.|
 T Searching for Scout Jyoba|QID|9771|M|80.76,36.3|N|To Scout Jyoba's corpse.|
 A Jyoba's Report|QID|9772|PRE|9771|M|80.8,36.3|N|From Scout Jyoba's corpse.|
 C Jyoba's Report|QID|9772|N|Drops off the Withered Giants.|M|81.6,35.0|
-l Withered Basidium|AVAILABLE|9828|M|81.00,36.00|L|24484|ITEM|24484|N|Withered Giants.\n[color=FF0000]NOTE: [/color]It has a drop change of about 2% so it might take a while.|US|
-l Bog Lord Tendrils|QID|9769|M|81.00,36.00|L|24291 3|ITEM|24291|N|Withered Bog Lords and/or Withered Giants.\n[color=FF0000]NOTE: [/color]These are used for a quest later on.|US|
+l Withered Basidium|QID|9828|L|24484|US|N|Kill Withered Giants until you get a Withered Basidium, it has a drop change of about 2% so it might take a while.|M|81,36|
+A Withered Basidium|QID|9828|U|24484|M|78.3,45.2|N|From the Withered Basidium.|
+l Bog Lord Tendrils|QID|9769|L|24291 3|US|M|81,36|N|Kill Withered Bog Lords and Withered Giants until you get 3 Bog Lord Tendrils. These are used for a quest later on.|
 T A Job Undone|QID|9899|M|84.4,54.3|N|To Magasha.|
 T Withered Basidium|QID|9828|M|85.0,54.0|N|To Reavij.|
 T Jyoba's Report|QID|9772|M|85.3,54.8|N|To Zurai.|
@@ -96,8 +96,8 @@ A Warning the Cenarion Circle|QID|9724|PRE|9731|M|78.4,62.0|N|From Ysiel Windsin
 T A Warm Welcome|QID|9728|M|79.1,65.3|N|To Warden Hamoot.|
 T Leader of the Darkcrest|QID|9730|N|To Warden Hamoot.|M|79.1,65.3|
 T Leader of the Bloodscale|QID|9817|N|To Warden Hamoot.|M|79.1,65.3|
-T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|N|To Amythiel Mistwalker in Hellfire Peninsula.|Z|1944; Hellfire Peninsula|
-A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|Z|1944; Hellfire Peninsula|
+T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|N|To Amythiel Mistwalker in Hellfire Peninsula.|Z|100; Hellfire Peninsula|
+A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|Z|100; Hellfire Peninsula|
 H Cenarion Refuge|QID|9730|U|9732|N|Hearth to the Cenarion Refuge.|
 T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
 A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.5,63.1|N|From Lethyn Moonfire.|
@@ -132,8 +132,8 @@ F Zabra'jin|QID|9708|M|84.77,55.01|N|Fly back to Zabra'jin.|
 A Spirits of the Feralfen|QID|9846|M|32.4,52.0|N|From Seer Janidi.|
 T Report to Shadow Hunter Denjai|QID|9775|M|30.7,50.9|N|To Shadow Hunter Denjai. He's at the top of the inn.|
 A Angling to Beat the Competition|QID|9845|M|32.2,49.6|N|From Zurjaya.|
-A Wanted: Boss Grog'ak|QID|9820|M|32.0,49.5|N|From the Wanted Poster.|
-A Wanted: Chieftain Mummaki|QID|10117|M|32.0,49.5|N|From the Wanted Poster.|
+A WANTED: Boss Grog'ak|QID|9820|M|32.0,49.5|N|From the Wanted Poster.|
+A WANTED: Chieftain Mummaki|QID|10117|M|32.0,49.5|N|From the Wanted Poster.|
 A Stinging the Stingers|QID|9841|M|31.6,49.2|N|From Gambarinka.|
 A Burstcap Mushrooms, Mon!|QID|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|
 C Burstcap Mushrooms, Mon!|QID|9814|NC|N|They're around Zabra'jin.|M|28.9,52.6|
@@ -142,7 +142,7 @@ K "Count" Ungula|QID|9911|L|25459|N|Kill and loot "Count" Ungula. He drops a que
 C Spirits of the Feralfen|QID|9846|N|Kill the Feralfen here for the totems.|M|50,62|
 C Angling to Beat the Competition|QID|9845|N|Kill Fenclaw Thrashers, use the potion of water breathing if needed.|M|50,41|U|25539|
 C Familiar Fungi|QID|9708|N|Kill and loot ogres in the Hewn Bog.|M|32,38|S|
-C Wanted: Boss Grog'ak|QID|9820|N|Head north to find Boss Grog'ak. He's not tough, but he does do a knockback, so be careful.|M|35,35|
+C WANTED: Boss Grog'ak|QID|9820|N|Head north to find Boss Grog'ak. He's not tough, but he does do a knockback, so be careful.|M|35,35|
 C Familiar Fungi|QID|9708|N|Kill and loot ogres in the Hewn Bog.|M|32,38|US|
 T Angling to Beat the Competition|QID|9845|M|32.2,49.6|N|To Zurjaya.|
 A The Biggest of Them All|QID|9903|PRE|9845|M|32.2,49.6|N|From Zurjaya.|
@@ -151,7 +151,7 @@ T Burstcap Mushrooms, Mon!|QID|9814|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
 A Have You Ever Seen One of These?|QID|9816|PRE|9814|M|32.9,48.9|N|From Witch Doctor Tor'gash.|
 T Spirits of the Feralfen|QID|9846|M|32.4,52.0|N|To Seer Janidi.|
 A A Spirit Ally?|QID|9847|PRE|9846|M|32.4,52.0|N|From Seer Janidi.|
-T Wanted: Boss Grog'ak|QID|9820|M|30.7,50.9|N|To Shadow Hunter Denjai.|
+T WANTED: Boss Grog'ak|QID|9820|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 A Impending Attack|QID|9822|PRE|9820|M|30.7,50.9|N|From Shadow Hunter Denjai.|
 T Familiar Fungi|QID|9708|M|23.3,66.2|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.3,66.2|N|From Watcher Leesa'oh.|
@@ -170,7 +170,7 @@ A The Sharpest Blades|QID|9842|PRE|9841|M|31.6,49.2|N|From Gambarinka.|
 T Pursuing Terrorclaw|QID|9904|M|32.2,49.6|N|To Zurjaya.|
 T The Biggest of Them All|QID|9903|M|32.2,49.6|N|To Zurjaya.|
 T Have You Ever Seen One of These?|QID|9816|M|32.9,48.9|N|To Witch Doctor Tor'gash.|
-T Wanted: Chieftain Mummaki|QID|10117|M|30.7,50.9|N|To Shadow Hunter Denjai.|
+T WANTED: Chieftain Mummaki|QID|10117|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 T Impending Attack|QID|9822|M|30.7,50.9|N|To Shadow Hunter Denjai.|
 A Us or Them|QID|9823|PRE|9822|M|30.7,50.9|N|From Shadow Hunter Denjai.|
 A Message to the Daggerfen|QID|10118|M|30.7,50.9|N|From Shadow Hunter Denjai.|
@@ -182,8 +182,7 @@ A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. If you've accidently hit friendly 
 T Glowcap Mushrooms|QID|9808|N|To Msshi'fn.|
 A Fertile Spores|QID|9806|M|19.2,49.4|N|From Gshaff.|
 T Fertile Spores|QID|9806|M|19.2,49.4|N|To Gshaff.|
-* Mature Spore Sacs|N|Now that you've reached Friendly with the Sporeggar, you can safely delete these because you no longer need them and they are soulbound.|U|24290|REP|Sporeggar;970;friendly-exalted|O|
-A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|REP|Sporeggar;970;friendly|
+A Now That We're Friends...|QID|9726|M|19.5,50.0|N|From Gzhun'tt.|
 C Now That We're Friends...|QID|9726|S|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
 N Disable the Marshlight Lake Controls|QID|9720|QO|2|U|24355|N|Use the Ironvine Seeds on it.|M|25.62,42.87|
 C Now That We're Friends...|QID|9726|US|N|Kill Bloodscale Slavedrivers and Enchantresses.|M|25.4,42.9|
@@ -205,5 +204,6 @@ T Balance Must Be Preserved|QID|9720|M|78.4,62.0|N|To Ysiel Windsinger.|
 A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire. This leads into Terokkar Forest, accept if you want to go there next.|
 N Plant parts|QID|10118|N|Turn in any more plant parts you looted.|
 T Uncatalogued Species|QID|9875|M|80.4,64.2|N|To Lauranna Thar'well.|
+N This ends|N|Zangarmarsh. Visits your trainners and the AH if you wish. Close this step to continue on to Terokkar Forest.|
 ]]
 end)

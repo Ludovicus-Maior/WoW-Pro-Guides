@@ -1,10 +1,10 @@
-local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('JiySou3035', "Leveling", 'Southern Barrens', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 30, 35)
 WoWPro:GuideName(guide,"Southern Barrens")
-WoWPro:GuideSort(guide, 42)
 WoWPro:GuideNextGuide(guide, 'JiyDus3540')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
 T Warchief's Command: Southern Barrens!|O|QID|28549|M|31.42,13.32|N|To Nura Pathfinder.|
 F Malaka'jin|QID|26069|M|45.11,30.88|N|Fly to Malaka'jin.|O|
 T Nura Pathfinder|QID|26069|M|31.42,13.32|N|To Nura Pathfinder.|O|

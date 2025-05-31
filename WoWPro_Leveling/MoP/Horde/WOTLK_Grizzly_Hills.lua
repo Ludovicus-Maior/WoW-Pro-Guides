@@ -1,11 +1,11 @@
 local guide = WoWPro:RegisterGuide("JamGriH7577", "Leveling", "Grizzly Hills", "WoWPro Team", "Horde", 5)
 WoWPro:GuideLevels(guide, 73, 75)
-WoWPro:GuideName(guide, "Grizzly Hills")
 WoWPro:GuideNickname(guide, "Grizzly Hills")
+WoWPro:GuideName(guide,"Grizzly Hills")
 WoWPro:GuideNextGuide(guide, "Zul'Drak")
 WoWPro:GuideSteps(guide, function()
 return [[
-
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
 F Conquest Hold|QID|12468|N|Fly to Conquest Hold.|M|43.85,16.93|Z|115; Dragonblight|
 T To Conquest Hold, But Be Careful!|QID|12487|M|20.8,64.2|N|To Conqueror Krenna.|
 A The Conqueror's Task|QID|12468|PRE|12487|M|20.8,64.2|N|From Conqueror Krenna.|

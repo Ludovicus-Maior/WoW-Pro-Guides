@@ -1,12 +1,12 @@
-local guide = WoWPro:RegisterGuide('JiyTho4045', "Leveling", 'Thousand Needles', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('JiyTho4045', "Leveling", 'Thousand Needles', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 40, 45)
 WoWPro:GuideName(guide,"Thousand Needles")
-WoWPro:GuideSort(guide, 50)
 WoWPro:GuideNextGuide(guide, 'JiyTan4550')
 WoWPro:GuideSteps(guide, function()
 return [[
-T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|1445; Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
-A To the Summit|QID|25478|M|41.86,73.85|Z|1445; Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
+T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|70; Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
+A To the Summit|QID|25478|M|41.86,73.85|Z|70; Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
 C To the Summit|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him send you to Westreach Summit.|
 T To the Summit|QID|25478|M|11.12,11.33|N|To Kanati Greycloud.|
 A The Grimtotem are Coming|QID|25487|PRE|25356^25478|M|11.12,11.33|N|From Kanati Greycloud.|
@@ -40,7 +40,7 @@ C Pirate Accuracy Increasing|QID|25533|M|79.18,76.61|N|Head to the dock and talk
 T Pirate Accuracy Increasing|QID|25533|N|(UI Alert)|
 A Circle the Wagons... er, Boats|QID|25543|PRE|25533|N|(UI Alert)|
 C Circle the Wagons... er, Boats|QID|25543|N|This one's much easier, just use the cannon on the boats that are circling the barge.|
-T Circle the Wagons... er, Boats|QID|25543|M|77.18,74.41|N|Hit the exit vehicle button, then turn in your quest to Razzeric. congratulations on getting your very own river boat!|
+T Circle the Wagons... er, Boats|QID|25543|M|77.18,74.41|N|Hit the exit vehicle button, then turn in your quest to Razzeric. Congradulations on getting your very own river boat!|
 A Quiet the Cannons|QID|25586|PRE|25543^25562|M|77.18,74.41|N|From Razzeric.|
 A Where's Synge?|RANK|2|QID|25596|PRE|25543^25562|M|78.06,73.68|N|From Zamek.|
 A A Little Payback|RANK|2|QID|25589|PRE|25543^25562|M|78.21,73.60|N|From Rugfizzle.|
@@ -225,7 +225,7 @@ T The Doomstone|QID|28159|M|50.22,62.57|N|To Magatha Grimtotem.|
 A Spread the Word|QID|28161|PRE|28159|M|50.22,62.57|N|From Magatha Grimtotem.|
 ; insert H
 H Speedbarge Bar|QID|28161|N|Hearth back to the Speedbarge.|
-T Spread the Word|QID|28161|M|75.96,74.67|N|To Pozzik. congratulations on an awesome reward!|
+T Spread the Word|QID|28161|M|75.96,74.67|N|To Pozzik. Congradulations on an awesome reward!|
 A Tanaris is Calling|QID|27447|LEAD|24906|M|75.94,74.68|N|From Pozzik. Pick this up if you'd like to head to Tanaris next.|
 ;most likely doesn't have the flightpoint yet
 ;F Gadgetzan|QID|27447|M|79.19,71.89|N|Fly to Gadgetzan.|

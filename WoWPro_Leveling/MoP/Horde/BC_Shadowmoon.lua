@@ -1,19 +1,19 @@
-local guide = WoWPro:RegisterGuide('CraSha7070H', "Leveling", 'Shadowmoon Valley', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('CraSha7070H', "Leveling", 'Shadowmoon Valley', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 67, 70)
-WoWPro:GuideSort(guide, 6)
 WoWPro:GuideContent(guide, "The Burning Crusade")
 WoWPro:GuideNextGuide(guide, 'Netherstorm')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Kroghan's Report|QID|11048|LEAD|10595|M|55.37,37.47|Z|1951; Nagrand|N|From Captain Kroghan in Nagrand.|
-F Shadowmoon Village|QID|11048|M|57.19,35.28|Z|1951; Nagrand|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
+A Kroghan's Report|QID|11048|LEAD|10595|M|55.37,37.47|Z|107; Nagrand|N|From Captain Kroghan in Nagrand.|
+F Shadowmoon Village|QID|11048|M|57.19,35.28|Z|107; Nagrand|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
 T Kroghan's Report|QID|11048|M|30.39,32.42|N|To Blood Guard Gulmok.|
 A Besieged!|QID|10595|M|30.39,32.42|N|From Blood Guard Gulmok.|
 C Besieged!|QID|10595|M|31.03,34.36|N|Kill 10 Infernal Attackers.|
 T Besieged!|QID|10595|M|30.46,32.49|N|To Blood Guard Gulmok.|
 A To Legion Hold|QID|10596|PRE|10595|M|30.39,32.50|N|From Blood Guard Gulmok.|
 A Wanted: Uvuros, Scourge of Shadowmoon|QID|10647|M|30.45,30.91|N|From the Wanted Poster.|
-A The Sketh'lon Wreckage|QID|10760|M|31.00,29.87|N|From Sergeant Kargrul.|
+A The Sketh'lon Wreckage|QID|10760|PRE|10569|M|31.00,29.87|N|From Sergeant Kargrul.|
 f Shadowmoon Village|QID|10760|M|30.32,29.14|N|At Drek'Gol.|
 A What Strange Creatures...|QID|10660|M|30.00,28.35|N|From Researcher Tiorus.|
 A A Haunted History|QID|10624|PRE|11046|M|29.91,27.71|N|From Chief Apothecary Hildagard.|
@@ -27,7 +27,7 @@ C The Sketh'lon Wreckage|QID|10760|M|36.6,30.76|N|Kill Dark Conclave Arakkoas un
 T To Legion Hold|QID|10596|M|30.48,32.47|N|To Blood Guard Gulmok.|
 A Setting Up the Bomb|QID|10597|PRE|10596|M|30.48,32.47|N|From Blood Guard Gulmok.|
 T The Sketh'lon Wreckage|QID|10760|M|30.99,29.86|N|To Sergeant Kargrul.|
-A Find the Deserter|QID|10761|PRE|10760|M|30.99,29.86|N|From Sergeant Kargrul.|
+A Find the Deserter|QID|10761|PRE|10759|M|30.99,29.86|N|From Sergeant Kargrul.|
 T What Strange Creatures...|QID|10660|M|30.06,28.37|N|To Researcher Tiorus.|
 A Frankly, It Makes No Sense...|QID|10672|PRE|10660|M|29.92,28.28|N|From Researcher Tiorus.|
 T A Haunted History|QID|10624|M|29.91,27.75|N|To Chief Apothecary Hildagard.|
@@ -40,7 +40,7 @@ K Overseer Ripsaw|QID|10623|L|30579|T|Overseer Ripsaw|N|Find and kill Overseer R
 A Illidari-Bane Shard|QID|10623|U|30759|M|22.49,35.97|N|Accept the quest from the shard.|
 C Setting Up the Bomb|QID|10597|QO|1|M|26.29,41.26|N|Head down into the water and loot the Fel Reaver Power Core from the bottom of the pond.|
 T Find the Deserter|QID|10761|M|35.19,40.35|N|To Parshah. He wanders up and down the path where the waypoint is.|
-A Asghar's Totem|QID|10777|PRE|10761|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
+A Asghar's Totem|QID|10777|PRE|10759^10761|M|35.19,40.35|N|From Parshah. He wanders up and down the path where the waypoint is.|
 C Asghar's Totem|QID|10777|M|39.94,29.36|N|Kill and loot Ashgar to get the Sketh'lon War Totem.|
 T Setting Up the Bomb|QID|10597|M|30.45,32.44|N|To Blood Guard Gulmok.|
 A Blast the Infernals!|QID|10598|PRE|10597|M|30.43,32.56|N|From Blood Guard Gulmok.|
@@ -217,9 +217,9 @@ T Thwart the Dark Conclave|QID|10808|M|35.40,41.88|N|To Parshah.|
 T Escape from Coilskar Cistern|QID|10451|M|42.20,45.07|N|To Earthmender Torlok.|
 T Felspine the Greater|QID|10673|M|30,28.2|N|To Researcher Tiorus.|
 F Shattrath City|QID|10547|M|30.32,29.14|N|Fly to Shattrath City.|
-T Of Thistleheads and Eggs...|QID|10547|M|63.88,69.61|Z|1955; Shattrath City|N|To Tobias the Filth Gorger.|
-A The Bundle of Bloodthistle|QID|10550|PRE|10547|M|63.88,69.61|Z|1955; Shattrath City|N|Wait a moment for him to drink the egg, then everyone around pukes. Then get the quest from Tobias the Filth Gorger.|
-F Shadowmoon Village|QID|10550|M|63.8,41.6|Z|1955; Shattrath City|N|Fly back to Shadowmoon Village.|
+T Of Thistleheads and Eggs...|QID|10547|M|63.88,69.61|Z|111; Shattrath City|N|To Tobias the Filth Gorger.|
+A The Bundle of Bloodthistle|QID|10550|PRE|10547|M|63.88,69.61|Z|111; Shattrath City|N|Wait a moment for him to drink the egg, then everyone around pukes. Then get the quest from Tobias the Filth Gorger.|
+F Shadowmoon Village|QID|10550|M|63.8,41.6|Z|111; Shattrath City|N|Fly back to Shadowmoon Village.|
 T The Bundle of Bloodthistle|QID|10550|M|47.52,57.28|N|To Borak, Son of Oronok.|
 A To Catch A Thistlehead|QID|10570|PRE|10550|M|47.54,57.27|N|From Borak, Son of Oronok.|
 C To Catch A Thistlehead|QID|10570|M|48.91,57.34|N|Plant the Bloodthistle then hide. Once he is alone and runs towards the bundle, kill him and loot the missive.|U|30616|
@@ -299,13 +299,13 @@ A The Cipher of Damnation|QID|10588|M|53.88,23.45|N|From Oronok Torn-heart.|
 C The Cipher of Damnation|QID|10588|U|30657|M|43.25,46.69|N|Use the Cipher of Damnation at the Altar of Damnation to summon Cyrukh the Firelord. It will take a couple of minutes for Oronok to fly down to where you are, talk to him to be able to start killing Cyrukh.|
 T The Cipher of Damnation|QID|10588|M|42.20,45.07|N|To Earthmender Torlok.|
 R Terokkar Forest|QID|10663|M|24,12|N|Fly to Terokkar Forrest.|
-T The Hermit Smith|QID|10663|M|77.51,38.73|Z|1952; Terokkar Forest|N|To David Wayne.|
-A Additional Materials|QID|10664|PRE|10662^10663|M|77.51,38.73|Z|1952; Terokkar Forest|N|From David Wayne. This quest is optional.|
-R Shattrath City|QID|10664|M|34,24|Z|1952; Terokkar Forest|N|Fly to Shattrath City.|
-B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|1955; Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|O|
-T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|1955; Shattrath City|N|To A'dal.|
-C Additional Materials|QID|10664|M|54,44|Z|1955; Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|O|
-T Additional Materials|QID|10664|M|77.5,38.7|Z|1952; Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|O|
+T The Hermit Smith|QID|10663|M|77.51,38.73|Z|108; Terokkar Forest|N|To David Wayne.|
+A Additional Materials|QID|10664|PRE|10662^10663|M|77.51,38.73|Z|108; Terokkar Forest|N|From David Wayne. This quest is optional.|
+R Shattrath City|QID|10664|M|34,24|Z|108; Terokkar Forest|N|Fly to Shattrath City.|
+B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|111; Shattrath City|N|Talk to Fantel and buy the Demon Warding Totem.|O|
+T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|111; Shattrath City|N|To A'dal.|
+C Additional Materials|QID|10664|M|54,44|Z|111; Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|O|
+T Additional Materials|QID|10664|M|77.5,38.7|Z|108; Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|O|
 N Short on quests...|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 ]]
 end)

@@ -1,15 +1,15 @@
-local guide = WoWPro:RegisterGuide('BitAsh2025', "Leveling", 'Ashenvale', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('BitAsh2025', "Leveling", 'Ashenvale', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 20, 25)
 WoWPro:GuideName(guide,"Ashenvale")
-WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNextGuide(guide, 'JiySto2530')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Mor'shan Defense|QID|13612|M|42.73,15.06|Z|1413;The Barrens|N|From Kadrak.|RANK|2|
-A Find Gorat!|QID|13618|M|42.73,15.06|Z|1413;The Barrens|N|From Kadrak.|RANK|1|
-A Empty Quivers|QID|13615|M|42.26,15.20|Z|1413;The Barrens|N|From Truun.|RANK|2|
-A Rescue the Fallen|QID|13613|M|42.42,15.76|Z|1413;The Barrens|N|From Dinah Halfmoon.|RANK|2|
-f The Mor'Shan Ramparts|QID|13628|M|41.98,15.88|Z|1413;The Barrens|N|Get the flightpoint from Gort Goreflight|TAXI|-The Mor'Shan Ramparts|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|S!US|CT|
+A Mor'shan Defense|QID|13612|M|42.73,15.06|Z|10;Northern Barrens|N|From Kadrak.|RANK|2|
+A Find Gorat!|QID|13618|M|42.73,15.06|Z|10;Northern Barrens|N|From Kadrak.|RANK|1|
+A Empty Quivers|QID|13615|M|42.26,15.20|Z|10;Northern Barrens|N|From Truun.|RANK|2|
+A Rescue the Fallen|QID|13613|M|42.42,15.76|Z|10;Northern Barrens|N|From Dinah Halfmoon.|RANK|2|
+f The Mor'Shan Ramparts|QID|13628|M|41.98,15.88|Z|10;Northern Barrens|N|Get the flightpoint from Gort Goreflight|TAXI|-The Mor'Shan Ramparts|
 K Mor'shan Defense|ACTIVE|13612|M|67.29,86.43;42.15,13.06|CN|QO|1;2|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|S|
 l Empty Quivers|ACTIVE|13615|M|67.57,86.13|QO|1|N|Collect "shiny" Arrows stuck in the ground.|S|
 C Rescue the Fallen|QID|13613|M|69.56,86.62|N|Apply salve to Wounded Mor'shan Defenders.|U|45001|NC|
@@ -17,20 +17,20 @@ T Find Gorat!|QID|13618|M|64.16,84.51|N|To Gorat.|
 A Final Report|QID|13619|M|64.16,84.51|N|From Gorat.|PRE|13618|RANK|1|
 l Empty Quivers|ACTIVE|13615|M|67.57,86.13|QO|1|N|Collect "shiny" Arrows stuck in the ground.|US|
 K Mor'shan Defense|ACTIVE|13612|M|67.29,86.43;42.15,13.06|CN|QO|1;2|N|Kill 5 Ashenvale Skirmishers and 5 Ashenvale Bowmen.|US|
-T Mor'shan Defense|QID|13612|M|42.65,15.01|Z|1413;The Barrens|N|To Kadrak\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
-T Final Report|QID|13619|M|42.65,15.01|Z|1413;The Barrens|N|To Kadrak.|
-A To Dinah, at Once!|QID|13620|M|42.65,15.01|Z|1413;The Barrens|N|From Kadrak.|PRE|13619|RANK|1|
-T Empty Quivers|QID|13615|M|42.26,15.20|Z|1413;The Barrens|N|To Truun.|
-T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|1413;The Barrens|N|To Dinah Halfmoon.|
-T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|1413;The Barrens|N|To Dinah Halfmoon.|
-A Gorat's Vengeance|QID|13621|M|42.43,15.75|Z|1413;The Barrens|N|From Dinah Halfmoon.|PRE|13620|RANK|1|
+T Mor'shan Defense|QID|13612|M|42.65,15.01|Z|10;Northern Barrens|N|To Kadrak\n[color=FF0000]NOTE: [/color]He paths back and forth across the road in front of the towers.|
+T Final Report|QID|13619|M|42.65,15.01|Z|10;Northern Barrens|N|To Kadrak.|
+A To Dinah, at Once!|QID|13620|M|42.65,15.01|Z|10;Northern Barrens|N|From Kadrak.|PRE|13619|RANK|1|
+T Empty Quivers|QID|13615|M|42.26,15.20|Z|10;Northern Barrens|N|To Truun.|
+T Rescue the Fallen|QID|13613|M|42.43,15.75|Z|10;Northern Barrens|N|To Dinah Halfmoon.|
+T To Dinah, at Once!|QID|13620|M|42.43,15.75|Z|10;Northern Barrens|N|To Dinah Halfmoon.|
+A Gorat's Vengeance|QID|13621|M|42.43,15.75|Z|10;Northern Barrens|N|From Dinah Halfmoon.|PRE|13620|RANK|1|
 R Gorat's Corpse|ACTIVE|13621|M|64.16,84.51|CS|N|Head back to Gorat's body.
 K Gorat's Vengeance|QID|13621|M|65.70,82.19|QO|1|N|Use Gorat's Imbued Blood on Gorat's corpse to rez him.\nAfter a brief conversation (one-sided), follow him to the spot where he will summon Captain Elendilad so you can kill him.|U|45023|
-T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|1413;The Barrens|N|To Kadrak.|
-A Got Wood?|QID|13628|M|42.26,15.20|Z|1413;The Barrens|N|From Truun.|PRE|13621|RANK|1|
-C Got Wood?|QID|13628|M|42.58,15.19|Z|1413;The Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
-C Got Wood?|QID|13628|M|42.82,16.05|Z|1413;The Barrens|QO|2|N|Mount Brutusk and ride to Warsong Lumber Camp.[color=FF0000]NOTE: [/color]If you can't mount Brutusk, /reload your UI and all will be well.|V|
-T Got Wood?|QID|13628|M|72.93,80.44|N|To Gorka.|
+T Gorat's Vengeance|QID|13621|M|42.74,14.91|Z|10;Northern Barrens|N|To Kadrak.|
+A Got Lumber?|QID|13628|M|42.26,15.20|Z|10;Northern Barrens|N|From Truun.|PRE|13621|RANK|1|
+C Got Lumber?|QID|13628|M|42.58,15.19|Z|10;Northern Barrens|QO|1|N|When you're ready to leave, speak with Kadrak to acquire the reins.|CHAT|
+C Got Lumber?|QID|13628|M|42.82,16.05|Z|10;Northern Barrens|QO|2|N|Mount Brutusk and ride to Warsong Lumber Camp.[color=FF0000]NOTE: [/color]If you can't mount Brutusk, /reload your UI and all will be well.|V|
+T Got Lumber?|QID|13628|M|72.93,80.44|N|To Gorka.|
 A Management Material|QID|13640|M|72.93,80.44|N|From Gorka.|PRE|13628|RANK|1|
 C Management Material|QID|13640|M|71.51,82.40|N|Talk to a Demoralized Peon and follow them to where they chop the wood you need.\nStand behind the Peon to protect them in case a Stalker appears to try and attack them.\nPick up the wood when they are done chopping it.|T|Demoralized Peon|
 T Management Material|QID|13640|M|72.93,80.44|N|To Gorka.|
@@ -41,10 +41,10 @@ A Sharptalon's Claw|QID|2|M|PLAYER|N|From Sharptalon's Claw.|U|16305|O|
 T Needs a Little Oil|QID|13651|M|72.93,80.44|N|To Gorka.|
 A Crisis at Splintertree|QID|13653|M|72.93,80.44|N|From Gorka.|PRE|13651|RANK|1|
 C Crisis at Splintertree|QID|13653|M|72.93,80.44|N|Speak to Gorka when you are ready to leave.\n[color=FF0000]NOTE: [/color]A cancelable cinematic will begin; giving you a free ride back to The Mor'shan Ramparts.|CHAT|
-T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|1413;The Barrens|N|To Kadrak.|
-A To the Rescue!|QID|13712|M|42.69,14.97|Z|1413;The Barrens|N|From Kadrak.|PRE|13653|RANK|1|
-r Repair|ACTIVE|13712|M|42.38,14.97|Z|1413;The Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
-F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|1413;The Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|1703|CHAT|
+T Crisis at Splintertree|QID|13653|M|42.69,14.97|Z|10;Northern Barrens|N|To Kadrak.|
+A To the Rescue!|QID|13712|M|42.69,14.97|Z|10;Northern Barrens|N|From Kadrak.|PRE|13653|RANK|1|
+r Repair|ACTIVE|13712|M|42.38,14.97|Z|10;Northern Barrens|N|Speak with Ornag to repair/restock/unload, if necessary. Then check off this step.|
+F Splintertree Post|ACTIVE|13712|M|42.69,14.97|Z|10;Northern Barrens|N|Speak to Kadrak for a free ride to Splintertree Post.|IZ|1703|CHAT|
 f Splintertree Post|ACTIVE|13712|M|73.18,61.60|N|Get the flight point from Vhulgra.|TAXI|-Splintertree Post|
 T To the Rescue!|QID|13712|M|73.61,62.14|N|To Kadrak in Splintertree Post.|
 A Blood of the Weak|QID|13803|M|73.61,62.14|N|From Kadrak.|PRE|13712|RANK|1|
@@ -67,8 +67,8 @@ K Ashenvale Outrunners|ACTIVE|6503|M|75.52,70.28|QO|1|N|Finish killing Ashenvale
 K Destroy the Legion|ACTIVE|26448|M|84.07,70.30|QO|1|N|Slay any 15 demons.|S|
 C Playing With Felfire|QID|13730|M|79.84,64.72|N|Use the Reinforced Canister to siphon 7 Felfires (the greenish fires on the ground) in Felfire Hill.|U|45478|
 C Destroy the Legion|QID|26448|US|M|84.07,70.30|N|Slay any 15 demons at Felfire Hill, Demon Fall Canyon, or Demon Fall Ridge.|
-A Diabolical Plans|QID|26447|M|80.81,68.51|N|From the Diabolical Plans.|U|23797|RANK|1|O|
 l Diabolical Plans|AVAILABLE|26447|M|80.81,68.51|L|23780|N|Continue killing demons until you loot it.|RANK|1|
+A Diabolical Plans|QID|26447|M|80.81,68.51|N|From the Diabolical Plans.|U|23797|RANK|1|
 H Splintertree Post|ACTIVE|6503|M|73.95,60.70|N|Run or hearth back to Splintertree Post.|FLY|OLD|
 T Ashenvale Outrunners|QID|6503|M|73.56,60.86|N|To Kuray'bin.|
 T Destroy the Legion|QID|26448|M|73.17,60.11|N|To Valusha.|
@@ -103,17 +103,18 @@ l Satyr Horns|ACTIVE|6441|M|81.29,51.24|QO|1|N|Kill Satyrs to collect the horns.
 R Satyrnaar|ACTIVE|13806|M|81.66,53.69|N|Take the north path to Satyrnaar.|FLY|OLD|
 C Demon Duty|QID|13806|M|81.29,51.24|N|Click on the Ritual Gems to close the portals.|NC|
 l Satyr Horns|ACTIVE|6441|M|81.29,51.24|QO|1|N|Kill Satyrs to collect the horns.|US|
-T Mission Improbable|QID|13808|M|82.53,53.80|N|To Krokk.\n[color=FF0000]NOTE: [/color]Clicking on the Smoldering Brazier will summon him.|U|45710|
+C Mission Improbable|QID|13808|M|82.57,53.65|H|N|Click on the Smoldering Brazier across the road.|
+T Mission Improbable|QID|13808|M|82.53,53.80|N|To Krokk.\n[color=FF0000]NOTE: [/color]Clicking on the Smoldering Brazier will summon him.|
 A Making Stumps|QID|13815|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|1|
 A Wet Work|QID|13865|M|82.53,53.80|N|From Krokk.|PRE|13808|RANK|1|
 C Making Stumps|QID|13815|M|86.51,54.67|N|Use the Splintertree Axe to chop the trees.|U|45807|NC|S|
 K Wet Work|ACTIVE|13865|M|83.27,57.16|QO|4|N|Kill Ashenvale Scouts.|S|
-K Protector Endolar|ACTIVE|13865|M|85.46,56.05|QO|1|T|Protector Endolar|
-K Protector Arminon|ACTIVE|13865|M|85.75,57.76|QO|3|T|Protector Arminon|
-K Protector Dorinar|ACTIVE|13865|M|85.45,60.45|QO|2|T|Protector Dorinar|
+K Protector Endolar|ACTIVE|13865|M|85.46,56.05|QO|1|
+K Protector Arminon|ACTIVE|13865|M|85.75,57.76|QO|3|
+K Protector Dorinar|ACTIVE|13865|M|85.45,60.45|QO|2|
 K Wet Work|ACTIVE|13865|M|83.85,60.11|QO|4|N|Kill Ashenvale Scouts.|US|
 C Making Stumps|QID|13815|M|86.51,54.67|N|Finish chopping the trees.|U|45807|NC|US|
-T Making Stumps|QID|13815|M|82.53,53.82|N|To Krokk.\n[color=FF0000]NOTE: [/color]Click on the Smoldering Brazier to summon him if he's not there.|U|45710|
+T Making Stumps|QID|13815|M|82.53,53.82|N|To Krokk.\n[color=FF0000]NOTE: [/color]Click on the Smoldering Brazier to summon him if he's not there.|
 T Wet Work|QID|13865|M|82.53,53.82|N|To Krokk.\n[color=FF0000]NOTE: [/color]Click on the Smoldering Brazier to summon him if he's not there.|
 A As Good as it Gets|QID|13870|M|82.53,53.82|N|From Krokk.\n[color=FF0000]NOTE: [/color]Click on the Smoldering Brazier to summon him if he's not there.|PRE|13815&13865|RANK|1|
 T As Good as it Gets|QID|13870|M|90.94,58.15|N|To Overseer Gorthak.\n[color=FF0000]NOTE: [/color]Take the road into Warsong Lumber Camp, unless you want to grind the whole way there.|
@@ -130,18 +131,18 @@ T Gurtar's Request|QID|13875|M|73.33,62.13|N|To Splintertree Demolisher.|
 T Demon Duty|QID|13806|M|73.77,61.62|N|To Locke Okarr.|
 T Satyr Horns|QID|6441|M|73.86,62.47|N|To Pixel.|
 F Orgrimmar|ACTIVE|13841|M|73.18,61.60|N|Fly to Orgrimmar.|
-R Grommash Hold|ACTIVE|13841|M|51.19,63.02;50.01,75.86|CC|Z|1454;Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
-T All Apologies|QID|13841|M|48.18,70.58|Z|1454;Orgrimmar|N|Make your way inside Grommash Hold and then turn in to Garrosh.|
-A Dread Head Redemption|QID|13842|M|48.18,70.58|Z|1454;Orgrimmar|N|From Garrosh.|PRE|13841|RANK|1|
-F Splintertree Post|ACTIVE|13842|M|49.6,59.17|Z|1454;Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
+R Grommash Hold|ACTIVE|13841|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
+T All Apologies|QID|13841|M|49.20,72.27|Z|Orgrimmar|N|Make your way inside Grommash Hold and then turn in to Eitrigg.|
+A Dread Head Redemption|QID|13842|M|49.20,72.27|Z|Orgrimmar|N|From Eitrigg.|PRE|13841|RANK|1|
+F Splintertree Post|ACTIVE|13842|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree... again. (Or hearth)|
 C Dread Head Redemption|QID|13842|M|72.20,57.65|N|Head back into the mine and talk to Durak. Once he is done his little monologue, Durak and his minion will attack you.|
 F Orgrimmar|ACTIVE|13842|M|73.18,61.60|N|Fly back to Orgrimmar.|
-R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|1454;Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
-T Dread Head Redemption|QID|13842|M|48.18,70.58|Z|1454;Orgrimmar|N|To Garrosh.| ; Completes Splintertree's Demonic Defense
-F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|1454;Orgrimmar|N|Fly back to Splintertree Post.|IZ|1454|
+R Grommash Hold|ACTIVE|13842|M|51.19,63.02;50.01,75.86|CC|Z|Orgrimmar|N|Take the elevator down and head to the entrance on the south side of the central building.|FLY|OLD|
+T Dread Head Redemption|QID|13842|M|49.22,72.27|Z|Orgrimmar|N|To Eitrigg.| ; Completes Splintertree's Demonic Defense
+F Splintertree Post|ACTIVE|13848|M|49.6,59.17|Z|Orgrimmar|N|Fly back to Splintertree Post.|IZ|85|
 F Zoram'gar Outpost|ACTIVE|13848|M|73.18,61.60|N|Talk to Vhulgra for a free flight to Zoram'gar Outpost.|CHAT|
 f Zoram'gar Outpost|ACTIVE|13848|M|11.16,34.42|N|Get the flight point from Andruk.|TAXI|-Zoram'gar Outpost|IZ|2897|
-h Zoram'gar Outpost|ACTIVE|13848|M|12.99,34.15|N|Set your hearth with Innkeeper Duras.|
+h Zoram'gar Outpost|AVAILABLE|13848|M|12.99,34.15|N|Set your hearth with Innkeeper Duras.|
 T Bad News Bear-er|QID|13848|M|12.10,33.85|N|Turn in to Commander Grimfang.|
 A Keep the Fires Burning|QID|13890|M|12.10,33.85|N|From Commander Grimfang.|RANK|1|
 A Blackfathom Deeps|QID|26894|M|12.10,33.85|ELITE|N|[color=E6CC80]Dungeon: Blackfathom Deeps[/color]\nFrom Commander Grimfang.\nPick this up if you plan on running the Blackfathom Deeps instance.|RANK|3|
@@ -208,14 +209,14 @@ K Between a Rock and a Thistlefur|ACTIVE|216|QO|1|N|Finish killing Thistlefur Fu
 R Hellscream's Watch|ACTIVE|216^6462|M|38.28,43.11|N|Run back to Hellscream's Watch. Feel free to take whatever path you desire.|FLY|OLD|
 T Troll Charm|QID|6462|M|38.89,42.38|N|To Mitsuwa.|
 T Between a Rock and a Thistlefur|QID|216|M|37.76,43.49|N|To Karang Amakkar.|
-R Silverwind Refuge|ACTIVE|13974|M|49.29,65.25|N|Run to Silverwind Refuge.|TAXI|-Silverwind Refuge|FLY|OLD|
+R Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Run to Silverwind Refuge.|TAXI|-Silverwind Refuge|FLY|OLD|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.88,65.78|N|From Blood Guard Aldo Rockrain.\n[color=FF0000]NOTE: [/color]Skip this if you don't plan on going to Stonetalon Mountains.\nDon't get on the caravan until you're ready to leave Ashenvale.|RANK|3|
 t Sharptalon's Claw|QID|2|M|49.75,65.08|N|To Senani Thunderheart.|IZ|420|
 f Silverwind Refuge|ACTIVE|13974|M|49.29,65.25|N|Get flightpath from Wind Tamer Shosok.|TAXI|-Silverwind Refuge|
 F Splintertree Post|ACTIVE|6482|M|49.29,65.25|N|Fly to Splintertree Post.|FLY|OLD|
 T Freedom to Ruul|QID|6482|M|74.11,60.91|N|To Yama Snowhoof.|
 K Sharptalon|AVAILABLE|2|M|72.33,76.83|L|16305|N|Go kill Sharptalon and loot the claw.\n[color=FF0000]NOTE: [/color]You are leaving the area and this is the last opportunity to do this.|T|Sharptalon|US|RANK|3|
-F Silverwind Refuge|ACTIVE|13974|M|73.22,61.55|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|FLY|OLD|
+F Silverwind Refuge|ACTIVE|13974|M|38.09,42.23|N|Fly to Silverwind Refuge.|TAXI|Silverwind Refuge|FLY|OLD|
 A Thinning the... Herd?|QID|13967|M|49.75,65.08|N|From Senani Thunderheart.|RANK|2|
 T Tweedle's Tiny Parcel|QID|13974|M|49.96,67.25|N|To Flooz.|
 A Mass Production|QID|13977|M|49.96,67.25|N|Wait a moment then get this quest from Flooz.|PRE|13974|RANK|2|
@@ -240,7 +241,7 @@ K They're Out There!|QID|13980|M|41.25,68.99|QO|1|N|Kill Assassins.\n[color=FF00
 R Talondeep Vale|ACTIVE|13980^13983|M|42.15,64.98|N|Follow the road southwest out of Silverwind Refuge.|FLY|OLD|
 l Building Your Own Coffin|QID|13983|M|37.38,71.32|QO|1;2;3|N|Collect the required parts. You'll find them spread out all over the ground in Talondeep Vale.|S|
 K Ursangous|QID|23|M|41.8,65.2|L|16303|N|Keep an eye out for a light-colored (blue) bear named Ursangous. He is part of the 'Ashenvale Hunt' quest. He circles the big tree in the center.|T|Ursangous|S|
-A Ursangous's Paw|QID|23|N|From Ursangous's Paw.|U|16303|O|
+A Ursangous' Paw|QID|23|N|From Ursangous' Paw.|U|16303|O|
 C They're Out There!|QID|13980|M|41.25,68.99|N|Kill Assassins.\n[color=FF0000]NOTE: [/color]Use Jinx's Goggles if you lose the buff.|U|46776|US|
 l Building Your Own Coffin|QID|13983|M|37.38,71.32|QO|1;2;3|N|Finish gathering parts.\n[color=FF0000]NOTE: [/color]Use Jinx's Goggles so you can see where the Assassins are.|U|46776|US|
 K Ursangous|QID|23|M|41.8,65.2|L|16303|N|Keep and eye out for Ursangous. Kill and loot the paw. Use the paw to start the quest.|T|Ursangous|US|
@@ -269,14 +270,14 @@ K Shadumbra|AVAILABLE|24|M|62.45,49.70|L|16304|N|Locate and kill Shadumbra, a ni
 R Greenpaw Village|ACTIVE|6621|M|58.02,61.75|N|Using the main road, make your way south.\n[color=FF0000]NOTE: [/color]Unless you enjoy PvP, avoid getting too close to the Raynewood Tower.|FLY|OLD|
 C King of the Foulweald|QID|6621|M|56.35,63.50|N|Use Senani's Banner at top of the hill and defend it against the mobs that appear. When Chief Murgut appears, kill him and loot Murgut's Totem from the basket he drops.|U|16972|
 H Silverwind Refuge|ACTIVE|23^6621|M|50.43,67.16|N|Hearth to Silverwind Refuge.|
-T Ursangous's Paw|QID|23|M|50.13,67.58|N|To Captain Tarkan.|
+T Ursangous' Paw|QID|23|M|50.13,67.58|N|To Captain Tarkan.|
 T King of the Foulweald|QID|6621|M|49.75,65.08|N|To Senani Thunderheart.|
 F Splintertree Post|ACTIVE|1918|M|49.29,65.25|N|Fly to Splintertree Post.|FLY|OLD|
 T The Befouled Element|QID|1918|M|74.20,60.72|N|To Mastok Wrilehiss.|
 A Je'neu of the Earthen Ring|QID|824|M|74.20,60.72|ELITE|N|[color=E6CC80]Dungeon: 'Blackfathom Deeps'[/color]\nFrom Mastok Wrilehiss.|PRE|1918|RANK|3|
 F Hellscream's Watch|ACTIVE|24|M|73.18,61.60|N|Fly to Hellscream's Watch|FLY|OLD|
 T Shadumbra's Head|QID|24|M|38.27,43.11|N|To Captain Goggath.|
-F Zoram'gar Outpost|ACTIVE|26894^824|M|38.11,42.25|N|Fly to Zoram'gar Outpost.|FLY|OLD|
+F Zoram'gar Outpost|ACTIVE|26894^824|N|Fly to Zoram'gar Outpost.|FLY|OLD|
 R Blackfathom Deeps|ACTIVE|26894^824|M|16.51,11.00|N|Make your way to Blackfathom Deeps.|FLY|OLD|
 R Blackfathom Deeps Portal|ACTIVE|26894^824|M|16.50,11.01|N|Make your way through the caverns to the instance portal and enter it.|IZ|-221|
 T Blackfathom Deeps|QID|26894|M|10.00,14.00|Z|221|N|To Je'nue Sancrea.\n[color=FF0000]NOTE: [/color]He is inside of the Blackfathom Deeps instance.|
@@ -284,8 +285,8 @@ T Je'neu of the Earthen Ring|QID|824|M|10.00,14.00|Z|221|N|To Je'neu Sancrea.\n[
 N Blackfathom Deeps|AVAILABLE|34673|M|PLAYER|JUMP|Blackfathom Deeps|N|Load the guide to run through Blackfathom Deeps, if you wish to do it now.|
 H Silverwind Refuge|ACTIVE|26416|M|50.43,67.16|N|Hearth to Silverwind Refuge.|
 F Orgrimmar|ACTIVE|26416|N|Make your way to a Flight Master and fly to Orgrimmar.|FLY|OLD| ; Depending on RANK and ACTIVE QIDs, location may not be the same at this point.
-T Well, Come to the Jungle|QID|26416|M|51.30,56.03|Z|1454;Orgrimmar|N|To Bort.\n[color=FF0000]NOTE: [/color]Periodically, he'll get up and wander over to the edge over-looking the Valley of Honor. After a few moments, he'll walk back and sit down again.|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|M|51.30,56.03|Z|1454;Orgrimmar|N|From Bort.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|LEAD|26278|PRE|26416|RANK|2|
+T Well, Come to the Jungle|QID|26416|M|51.30,56.03|Z|Orgrimmar|N|To Bort.\n[color=FF0000]NOTE: [/color]Periodically, he'll get up and wander over to the edge over-looking the Valley of Honor. After a few moments, he'll walk back and sit down again.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|M|51.30,56.03|Z|Orgrimmar|N|From Bort.\n[color=FF0000]NOTE: [/color]If you plan on going to Stranglethorn Vale.|LEAD|26278|PRE|26416|RANK|2|
 N Northern Stranglethorn|ACTIVE|26417|M|PLAYER|N|You can switch to the Northern Stranglethorn guide now or skip this step to continue to the Stonetalon guide.|JUMP|WkjNor2530|
 ]]
 end)

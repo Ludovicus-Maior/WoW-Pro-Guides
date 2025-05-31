@@ -1,10 +1,10 @@
-local guide = WoWPro:RegisterGuide('JiyAra2530', "Leveling", 'Arathi Highlands', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('JiyAra2530', "Leveling", 'Arathi Highlands', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 25, 30)
 WoWPro:GuideName(guide,"Arathi Highlands")
-WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNextGuide(guide, 'JiyHin3035')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
 R Galen's Fall|M|13.23,34.86|QID|28619^28572|N|Get Warchief's Command: Arathi Highlands! from the command board in Tarren's Mill (Hillsbrad Foothills), Undercity or Silvermoon City, then make your way to Galen's Fall which is on the border of Hillsbrad Foothills and Arathi Highlands.|
 T Warchief's Command: Arathi Highlands!|QID|28619|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28619|
 T Warchief's Command: Arathi Highlands!|QID|28572|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28572|

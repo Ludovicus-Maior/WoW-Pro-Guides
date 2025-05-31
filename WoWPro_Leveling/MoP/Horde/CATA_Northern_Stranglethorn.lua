@@ -1,16 +1,16 @@
-local guide = WoWPro:RegisterGuide('WkjNor2530', "Leveling", 'Northern Stranglethorn', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('WkjNor2530', "Leveling", 'Northern Stranglethorn', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 25, 30)
 WoWPro:GuideName(guide,"Northern Stranglethorn")
-WoWPro:GuideSort(guide, 34)
 WoWPro:GuideNextGuide(guide, 'WkjCap3035')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Well, Come to the Jungle|QID|26416|M|50.6,67|Z|1440; Ashenvale|N|This guide starts in Ashenvale. Start with Cromula, who wanders up and down the hall.|
-F Orgrimmar|QID|26416|M|49.49,65.24|Z|1440; Ashenvale|N|Wind Tamer Shosok|
-T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|1454;Orgrimmar|N|To Bort.|
-A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|LEAD|26278|M|53.94,54.42|Z|1454;Orgrimmar|N|From Bort.|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
+A Well, Come to the Jungle|QID|26416|M|50.6,67|Z|63; Ashenvale|N|This guide starts in Ashenvale. Start with Cromula, who wanders up and down the hall.|
+F Orgrimmar|QID|26416|M|49.49,65.24|Z|63; Ashenvale|N|Wind Tamer Shosok|
+T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|Orgrimmar|N|To Bort.|
+A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|LEAD|26278|M|53.94,54.42|Z|Orgrimmar|N|From Bort.|
 N Before you fly off|QID|26278|N|Now is a good time to train up, repair and get supplies.|
-R The Zep tower.|QID|26278|CC|M|52.52,53.18|Z|1454;Orgrimmar|N|On the NE tip.|
+R The Zep tower.|QID|26278|CC|M|52.52,53.18|Z|Orgrimmar|N|On the NE tip.|
 T Northern Stranglethorn: The Fallen Empire|QID|26417|M|38.41,50.52|N|To Commander Aggro'gosh.|
 A The Defense of Grom'gol: Raptor Risk|QID|26278|M|38.41,50.52|N|From Commander Aggro'gosh.|
 h Grom'gol Base Camp|QID|26278|M|37.36,51.83|N|At Innkeeper Thulbek. Repair/Restock here also.|
@@ -118,7 +118,7 @@ C Panther Prowess|QID|192|S|M|48.55,58.70|
 C Raptor Prowess|QID|196|S|M|54.97,54.41|
 C Skullsplitter Mojo|QID|26332|S|U|58165|M|57.58,58.48|N|Loot these from trolls|
 ;change L to QO
-C Speaking with Nezzliok|QID|26301|QO|2|M|54.50,61.31|N|The pile of skulls in this camp|
+C Speaking with Nezzliok|QID|26069|QO|2|M|54.50,61.31|N|The pile of skulls in this camp|
 C Speaking with Nezzliok|QID|26301|QO|1|M|60.10,56.03|N|The pile of skulls in this camp|
 C Skullsplitter Mojo|QID|26332|US|U|58165|M|61.34,55.82|
 C Raptor Prowess|QID|196|US|M|58.09,58.70|
@@ -129,7 +129,7 @@ C Raptor Mastery|QID|197|T|Tethis|M|59.60,62.45;62.83,61.80;64.70,58.08;59.17,59
 C Panther Prowess|QID|192|US|M|60.25,47.97|
 T Panther Prowess|QID|192|M|60.25,47.97|N|UI Alert|
 A Panther Mastery|QID|193|PRE|192|M|60.25,47.97|N|UI Alert|
-C Panther Mastery|QID|193|T|Bhag'thera|M|64.62,38.31|N|Ride around the area using the button to help you target her.|
+C Panther Mastery|QID|193|T|Bhag'thera|M|64.62,38.31|N|Ride around the area useing the button to help you target her.|
 f Bambala|QID|193|M|62.40,39.23|N|At Raskha. PLEASE do not pick up quests from here yet.|
 ; fix QID and destination
 F Grom'gol|QID|26332|N|Fly to Grom'gol Base Camp.|
@@ -155,13 +155,13 @@ T Priestess Hu'rala|QID|26350|M|63.38,39.03|N|To Priestess Hu'rala.|
 A Mind Vision|QID|26351|PRE|26350|M|63.27,38.97|N|From Priestess Hu'rala.|
 T Chasing Yenniku's Fate|QID|26302|M|63.17,41.39|N|To Kin'weelay.|
 A The Mind's Eye|QID|26303|PRE|26302|M|63.17,41.39|N|From Kin'weelay.|
-C Mind Vision|QID|26351|M|56.16,50.15|N|Obtain 5 Jungle Stalker Feathers from Jungle Stalkers in Northern Stranglethorn.|
+C Mind Vision|QID|26351|M|56.16,50.15|
 ;fix QID
-R Mosh'Ogg Ogre Mound|ACTIVE|26303|QO|1|M|66.45,49.00|CC|N|Welcome to Orgeville.|
-R The Mind's Eye|QID|ACTIVE|QO|1|M|67.54,48.27;67.61,47.12;70.07,48.84|CC|N|Enter the cave and follow this path|
+R Cave entrance|QID|26303|CC|M|66.45,49.00|N|Welcome to Orgeville|
+R The Mind's Eye|QID|26303|M|67.54,48.27;67.61,47.12;70.07,48.84|CC|N|Follow this path|
 ;Add Note
 C The Mind's Eye|QID|26303|M|70.38,48.98|N|Kill and loot Mai'Zoth.|
-C The Mosh'Ogg Bounty|QID|26399|M|67.18,54.25|N|Leave the cave now and head to this location. Loot from a box on a pedestal by two ogre lords.|
+C The Mosh'Ogg Bounty|QID|26399|M|67.18,54.25|N|Leave the cave now and head to this location. Loot from a box on a pedistal by two ogre lords.|
 T The Mind's Eye|QID|26303|M|63.17,41.44|N|To Kin'weelay.|
 A Saving Yenniku|QID|26305|PRE|26303|M|63.17,41.44|N|From Kin'weelay.|
 T The Mosh'Ogg Bounty|QID|26399|M|62.80,40.21|N|To Skeezy Whillzap.|
