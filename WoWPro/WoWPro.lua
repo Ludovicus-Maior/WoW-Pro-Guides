@@ -975,7 +975,7 @@ local function SortNestedMenu(menu, top)
         if b.isTitle then return false; end
         if a.text == "Intro" then return true; end
         if b.text == "Intro" then return false; end
-        if a.sortlevel then return (a.sortlevel or 100) < (b.sortlevel or 100); end
+        if a.sortlevel and b.sortlevel then return (a.sortlevel or 100) < (b.sortlevel or 100); end
         if expansionOrder[a.text] and expansionOrder[b.text] then
             return expansionOrder[a.text] < expansionOrder[b.text]
         end

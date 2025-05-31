@@ -1,10 +1,10 @@
-local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', "WoWPro Team", 'Horde', 5)
-WoWPro:GuideLevels(guide, 30, 35)
+local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Horde', 5)
+WoWPro:GuideLevels(guide, 25, 35)
 WoWPro:GuideName(guide,"Cape of Stranglethorn")
-WoWPro:GuideSort(guide, 14)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|
 f Hardwrench Hideaway|QID|26404|M|35.15,29.24|N|At Hizzle.|
 T Above My Pay Grade|QID|26404|M|34.79,29.49|N|To Sassy Hardwrench.|
 A It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|From Sassy Hardwrench.|
@@ -212,6 +212,6 @@ R Bloodsail's End.|QID|26703|CC|N|Talk to Keebok right behind you near the horde
 C Bloodsail's End|QID|26703|M|36.08,66.52|
 T Bloodsail's End|QID|26703|M|41.13,73.12|N|To Baron Revilgaz.|
 A The Battle for Andorhal|QID|28750|LEAD|26921|M|41.73,74.05|N|From Arcanist Arman.|
-T The Battle for Andorhal|QID|28750|M|47.81,65.17|Z|1422;Western Plaguelands|N|Take the portal and hand in to Koltira Deathweaver.|
+T The Battle for Andorhal|QID|28750|M|47.81,65.17|Z|22;Western Plaguelands|N|Take the portal and hand in to Koltira Deathweaver.|
 ]]
 end)
