@@ -695,6 +695,33 @@ function WoWPro:DevCoords()
 	end
 end
 
+function WoWPro:DevZone()
+    if not _G.WoWProDevZone then
+        local p,f="player", _G.CreateFrame("EditBox","WoWProDevZone",_G.UIParent,"InputBoxTemplate")
+        f:SetPoint("TOP",0,0)
+        f:SetSize(750, 70)
+        f:SetScale(f:GetScale())
+        f:SetFont("Fonts\\FRIZQT__.TTF",16,"outline")
+        f:SetJustifyH("CENTER")
+        f:SetJustifyV("MIDDLE")
+        f:SetAutoFocus(false)
+        f:SetScript("OnUpdate",function(s,e)
+           local map = _G.C_Map.GetBestMapForUnit(p)
+            if map then
+                local playerpos = _G.C_Map.GetPlayerMapPosition(map,p)
+                if playerpos then
+                    local x, y, mapId = WoWPro:GetPlayerZonePosition()
+                    if not _G.MouseIsOver(f) then
+                        f:SetText(_G.format("M|%.2f,%.2f|Z|%s; %s|", x*100, y*100, tostring(mapId), WoWPro.GetZoneText()))
+                    end
+                end
+            end
+        end)
+
+        f:Hide()
+    end
+end
+
 -- Event Registration Function --
 function WoWPro:RegisterEvents(eventtable)
     --[[Purpose: Iterates through the supplied table of events, and registers each
@@ -880,7 +907,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
     local GTypeIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideType)
     if GTypeIndex < 1 then
         if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
-            table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Guide Category", isTitle = true })
+            table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Zone", isTitle = true })
         end
         table.insert(GuideMenuList[AddonIndex].menuList, { text = GuideType, hasArrow = true, menuList = {} })
         GTypeIndex = table.getn(GuideMenuList[AddonIndex].menuList)
@@ -904,7 +931,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
 end
 
 function WoWPro.RegisterGuideInMenuList(AddonType, GuideType, GuideName, GID, extra)
-    if WoWPro.CATA or WoWPro.RETAIL then
+    if WoWPro.CATA or WoWPro.RETAIL or WoWPro.MOP then
         WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, extra)
     else
         WoWPro.RegisterGuideInMenuList2(AddonType, GuideType, GuideName, GID, extra)
@@ -1744,8 +1771,8 @@ WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
 WoWPro.POST_BC = (WoWPro.TocVersion >= 30000)
 WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
-WoWPro.CATA = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
-WoWPro.POST_CATA = (WoWPro.TocVersion >= 40000)
+WoWPro.Cata = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
+WoWPro.MOP = ((WoWPro.TocVersion >= 50000) and (WoWPro.TocVersion < 60000))
 WoWPro.POST_SL = (WoWPro.TocVersion >= 90000)
 WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 110000))
 WoWPro.WAR_WITHIN_PREPATCH = ((WoWPro.TocVersion >= 110000) and (WoWPro.TocVersion < 110002))
