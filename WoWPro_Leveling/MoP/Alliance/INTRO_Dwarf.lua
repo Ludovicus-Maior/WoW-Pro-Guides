@@ -7,7 +7,6 @@ WoWPro:GuideNextGuide(guide, 'Dwarf & Gnome: Intro (Part 2)')
 WoWPro:GuideSteps(guide, function()
 return
 [[
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|CT|
 R Coldridge Valley|QID|24469|M|67.18,41.41|Z|427; Coldridge Valley|R|-Dwarf|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
 A Hold the Line!|QID|24469|M|67.18,41.41|Z|427; Coldridge Valley|N|From Joren Ironstock.|
 C Hold the Line!|QID|24469|M|60.82,50.85|Z|427; Coldridge Valley|N|Slay 6 Rockjaw Invaders.|

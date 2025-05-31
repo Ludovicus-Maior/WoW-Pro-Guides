@@ -5,7 +5,6 @@ WoWPro:GuideName(guide,"Grizzly Hills")
 WoWPro:GuideNextGuide(guide, "Zul'Drak")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|
 T The Hills Have Us|QID|12511|Z|116; Grizzly Hills|N|To Lieutenant Dumont in Amberpine Lodge.|M|31.89,60.15|
 A Local Support|QID|12292|M|31.8,60.2|Z|116; Grizzly Hills|N|From Lieutenant Dumont.|
 A Replenishing the Storehouse|QID|12212|Z|116; Grizzly Hills|N|From Master Woodsman Anderhol.|M|32.06,59.98|

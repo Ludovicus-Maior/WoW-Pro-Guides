@@ -6,7 +6,6 @@ WoWPro:GuideName(guide,"Orc & Troll: Intro (Part 2)")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|N|Congratulations on hitting level 10.\n\nYou can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|LVL|10|S!US|CT|
 A Breaking the Chain|QID|25167|M|56.02,74.71|N|From Master Gadrin.|
 A Cleaning Up the Coastline|QID|25170|M|55.77,75.34|N|From Bom'bay.|
 C Cleaning Up the Coastline|QID|25170|M|59.02,74.41|N|Kill 5 Pygmy Surf Crawlers for Crawler Mucus.|S|

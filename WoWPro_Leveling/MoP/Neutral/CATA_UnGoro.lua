@@ -4,8 +4,6 @@ WoWPro:GuideName(guide,"Un'Goro Crater")
 WoWPro:GuideNextGuide(guide, 'Silithus')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|CT|FACTION|Horde|
 N Devilsaurs|QID|24720|Z|78; Un'goro Crater|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|
 F Southmoon Ruins|QID|24731|Z|71; Tanaris|N|Fly to Gunstan's Dig in Tanaris.|FACTION|Alliance|TAXI|Southmoon Ruins|
 F Southmoon Ruins|QID|24731|Z|71; Tanaris|N|Fly to Dawnrise Expedition in Tanaris.|FACTION|Horde|TAXI|Southmoon Ruins|

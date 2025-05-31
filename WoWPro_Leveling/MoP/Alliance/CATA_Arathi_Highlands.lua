@@ -4,7 +4,6 @@ WoWPro:GuideName(guide,"Arathi Highlands")
 WoWPro:GuideNextGuide(guide, 'The Hinterlands')
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|CT|
 R Refuge Pointe|QID|26035|M|39.91,48.71|Z|14; Arathi Highlands|N|Head to Refuge Pointe in Arathi Highlands.|
 f Refuge Pointe|QID|26035|M|39.85,47.34|Z|14; Arathi Highlands|N|Get the flight point for Refuge Point from Cedrik Prose.|NC|
 T Into Arathi|QID|26139|O|M|39.92,48.73|Z|14; Arathi Highlands|N|To Captain Nials.|
