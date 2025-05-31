@@ -7,14 +7,14 @@ WoWPro:GuideNextGuide(guide, "Terokkar Forest")
 WoWPro:GuideSteps(guide, function()
 return [[
 R Zangarmarsh|AVAILABLE|9777|M|82.9,65.08|Z|102; Zangarmarsh|N|Go to Zangarmarsh.|
-N README 1|AVAILABLE|9777|Z|102; Zangarmarsh|N|Fertile Spores/nSporebats, Greater Sporebats, Marsh Walkers and Fen Striders drop Fertile Spores, these will open up daily Sporreggar reputation quests so don't sell them.|
-N README 2|AVAILABLE|9777|Z|102; Zangarmarsh|N|Bog Lord Tendrils/nBog Lords and Withered Giants will drop Bog Lord Tendrils that'll open up more Sporreggar reputation dailies, so don't sell these either.|
-N README 3|AVAILABLE|9777|Z|102; Zangarmarsh|N|Unidentified plant parts/nMost mobs in the area will drop these, these are Cenarion Expedition reputation items whcih will open up new quest lines. Get as many as you can to reach honored fast.|
+N README 1|AVAILABLE|9777|Z|102; Zangarmarsh|N|Fertile Spores, Sporebats, Greater Sporebats, Marsh Walkers and Fen Striders drop Fertile Spores, these will open up daily Sporreggar reputation quests so don't sell them.|
+N README 2|AVAILABLE|9777|Z|102; Zangarmarsh|N|Bog Lord Tendrils, Bog Lords and Withered Giants will drop Bog Lord Tendrils that'll open up more Sporreggar reputation dailies, so don't sell these either.|
+N README 3|AVAILABLE|9777|Z|102; Zangarmarsh|N|Unidentified plant parts\n\nMost mobs in the area will drop these, these are Cenarion Expedition reputation items which will open up new quest lines. Get as many as you can to reach honored fast.|
 ; Cenarion Refuge, Section A
 A The Umbrafen Tribe|QID|9747|M|80.40,64.20|Z|102; Zangarmarsh|N|From Ikeyen.|
 A Plants of Zangarmarsh|QID|9802|M|80.30,64.20|Z|102; Zangarmarsh|N|From Lauranna Thar'well.|
 A The Dying Balance|QID|9895|M|78.60,63.10|Z|102; Zangarmarsh|N|From Lethyn Moonfire.|
-h Firefly Tavern|QID|9777|M|78.50,63.00|Z|102; Zangarmarsh|N|Set your hearthstone to Cenarion Refuge.|
+h Cenarion Refuge|QID|9777|M|78.50,63.00|Z|102; Zangarmarsh|N|Set your hearthstone to Cenarion Refuge.|
 T The Cenarion Expedition|QID|9912|M|78.40,62.10|Z|102; Zangarmarsh|N|To Ysiel Windsinger.|
 r Sell junk, repair, restock|QID|9901|M|79.27,63.78|Z|102; Zangarmarsh|N|Repair at Fedryen Swiftwhisper.|
 ; Telredor, Section B
