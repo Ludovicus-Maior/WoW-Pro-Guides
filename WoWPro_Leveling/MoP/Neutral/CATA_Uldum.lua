@@ -1,18 +1,17 @@
-local guide = WoWPro:RegisterGuide('AriUld8384', "Leveling", 'Uldum', "WoWPro Team", 'Neutral', 5)
-WoWPro:GuideLevels(guide, 83, 85)
+local guide = WoWPro:RegisterGuide('AriUld8384', "Leveling", 'Uldum', 'WoWPro Team', 'Neutral', 5)
+WoWPro:GuideLevels(guide, 83, 84)
 WoWPro:GuideName(guide,"Uldum")
-WoWPro:GuideSort(guide, 84)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Hero's Call: Uldum!|QID|28558|M|63,71.7|Z|1453; Stormwind City|N|From the Hero's Call Board. Select Uldum.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
-P Uldum|QID|28558|M|75.25,20.53|Z|1453; Stormwind City|N|Take the Portal to Uldum.|FACTION|Alliance|
-T Hero's Call: Uldum!|QID|28558|M|30.52,65.58|Z|1446; Tanaris|N|Mount up and fly to Tanaris to turn in to Adarrah.|
+A Hero's Call: Uldum!|QID|28558|M|63,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Uldum.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
+P Uldum|QID|28558|M|75.25,20.53|Z|84;Stormwind City|N|Take the Portal to Uldum.|FACTION|Alliance|
+T Hero's Call: Uldum!|QID|28558|M|30.52,65.58|Z|71; Tanaris|N|Mount up and fly to Tanaris to turn in to Adarrah.|
 
-T Warchief's Command: Uldum!|QID|28557|M|30.52,65.58|Z|1446; Tanaris|N|To Adarrah.|O|
+T Warchief's Command: Uldum!|QID|28557|M|30.52,65.58|Z|71; Tanaris|N|To Adarrah.|O|
 
-A Easy Money|QID|27003|M|30.52,65.58|Z|1446; Tanaris|N|From Adarrah.|
-C Easy Money|QID|27003|N|Click on the camel, Lady Humps, then sit back and watch the cinematic.|Z|1446; Tanaris|NC|
+A Easy Money|QID|27003|M|30.52,65.58|Z|71; Tanaris|N|From Adarrah.|
+C Easy Money|QID|27003|N|Click on the camel, Lady Humps, then sit back and watch the cinematic.|Z|71; Tanaris|NC|
 T Easy Money|QID|27003|M|59.70,71.82|N|To Adarrah.|
 A Traitors!|QID|27922|PRE|27003|M|59.63,72.05|N|From Prince Nadun.|
 C Traitors!|QID|27922|M|61.69,71.11|N|Fly up to the platform east. Click on the Neferset Frond (plant), then sit back and watch the cinematic.|NC|

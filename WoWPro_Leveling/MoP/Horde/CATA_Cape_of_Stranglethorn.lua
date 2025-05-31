@@ -1,7 +1,6 @@
-local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', "WoWPro Team", 'Horde', 5)
-WoWPro:GuideLevels(guide, 30, 35)
+local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', 'WoWPro Team', 'Horde', 5)
+WoWPro:GuideLevels(guide, 25, 35)
 WoWPro:GuideName(guide,"Cape of Stranglethorn")
-WoWPro:GuideSort(guide, 14)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -212,6 +211,6 @@ R Bloodsail's End.|QID|26703|CC|N|Talk to Keebok right behind you near the horde
 C Bloodsail's End|QID|26703|M|36.08,66.52|
 T Bloodsail's End|QID|26703|M|41.13,73.12|N|To Baron Revilgaz.|
 A The Battle for Andorhal|QID|28750|LEAD|26921|M|41.73,74.05|N|From Arcanist Arman.|
-T The Battle for Andorhal|QID|28750|M|47.81,65.17|Z|1422;Western Plaguelands|N|Take the portal and hand in to Koltira Deathweaver.|
+T The Battle for Andorhal|QID|28750|M|47.81,65.17|Z|22;Western Plaguelands|N|Take the portal and hand in to Koltira Deathweaver.|
 ]]
 end)

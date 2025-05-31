@@ -1,7 +1,6 @@
-local guide = WoWPro:RegisterGuide('JiyDus3540', "Leveling", 'Dustwallow Marsh', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('JiyDus3540', "Leveling", 'Dustwallow Marsh', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 35, 40)
 WoWPro:GuideName(guide,"Dustwallow Marsh")
-WoWPro:GuideSort(guide, 18)
 WoWPro:GuideNextGuide(guide, 'JiyTho4045')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -65,17 +64,16 @@ C SMASH BROODQUEEN|RANK|1|QID|27229|M|31.05,20.41|N|Enter the cave, and head all
 C Darkmist Extermination|RANK|1|QID|25051|M|30.56,21.02|US|N|The eggs are located all around the broodqueen's room.|
 C The Black Shield|RANK|1|QID|27256|M|32.86,22.73|US|N|Kill spiders in the area until you finish this quest.|
 C Jarl Needs Eyes|RANK|1|QID|27184|M|32.32,22.24|US|N|Kill spiders in the area until you finish this quest.|
-T Inspecting the Ruins|RANK|3|QID|27253|M|29.78,47.60|N|To Inspector Tarem, at the inn on the western edge of the zone.|
 T The Black Shield|RANK|1|QID|27256|M|36.50,30.85|N|To Do'gol, back in Brackenwall Village.|
 A The Black Shield|RANK|1|QID|27257|PRE|27256|M|36.50,30.85|N|From Do'gol.|
 T The Black Shield|RANK|1|QID|27257|M|36.42,31.78|N|To Krog.|
 T Darkmist Extermination|RANK|1|QID|25051|M|36.42,31.78|N|To Krog.|
 T SMASH BROODQUEEN|RANK|1|QID|27229|M|36.42,31.78|N|To Krog.|
-A The Black Shield|RANK|1|QID|27258|PRE|27257&27253&27259&27260&27306&27261|M|36.42,31.78|N|From Krog.|
+A The Black Shield|RANK|2|QID|27258|PRE|27257&27253&27259&27260&27306&27261|M|36.42,31.78|N|From Krog.|
 T Jarl Needs Eyes|RANK|1|QID|27184|M|55.43,26.26|N|To "Swamp Eye" Jarl.|
 A Hungry as an Ogre!|RANK|1|QID|27191|PRE|27184|M|55.43,26.26|N|From "Swamp Eye" Jarl.|
 A Jarl Needs a Blade|RANK|1|QID|27186|PRE|27184|M|55.43,26.26|N|From "Swamp Eye" Jarl.|
-K Razorspine|RANK|1|QID|27186|QO|1|M|57.79,19.41|N|Kill Razorspine on the path to the coast.|T|Razorspine|
+C Jarl Needs a Blade|RANK|1|QID|27186|M|57.79,19.41|N|Kill the named murloc on the path to the cost.|
 C Hungry as an Ogre!|RANK|1|QID|27191|M|58.91,15.86|N|There are murlocs all around the beach, kill them until you complete the quest.|
 T Hungry as an Ogre!|RANK|1|QID|27191|M|55.45,26.35|N|To "Swamp Eye" Jarl.|
 T Jarl Needs a Blade|RANK|1|QID|27186|M|55.45,26.35|N|To "Swamp Eye" Jarl.|
@@ -101,6 +99,7 @@ A Check Up on Tabetha|RANK|1|QID|11213|M|35.29,30.63|N|From Nazeer Bloodpike.|
 ; Obsolete?
 ; A Enemies Abroad|RANK|1|QID|26991|M|35.29,30.63|N|From Nazeer Bloodpike. Pick this up if you'd like to do the Scarlet Monastery dungeon.|
 A Help Mudsprocket|RANK|1|QID|11215|M|35.29,30.63|N|From Nazeer Bloodpike.|
+T Inspecting the Ruins|RANK|3|QID|27253|M|29.78,47.60|N|To Inspector Tarem, at the inn on the western edge of the zone.|
 T Check Up on Tabetha|RANK|1|QID|11213|M|46.00,57.11|N|To Tabetha. Her house is located in the mid-eastern part of the zone.|
 T Seek Out Tabetha|RANK|2|QID|27295|M|46.01,57.12|N|To Tabetha.|
 A Raze Direhorn Post!|RANK|2|QID|27296|NC|PRE|27295|M|46.01,57.12|N|From Tabetha.|
@@ -155,7 +154,7 @@ C The Essence of Enmity|RANK|1|QID|27409|U|33088|M|39.98,65.31|US|N|Use the tote
 T Banner of the Stonemaul|RANK|1|QID|27408|M|41.87,73.96|N|To Brogg, back in Mudsprocket.|
 T The Essence of Enmity|RANK|1|QID|27409|M|41.87,73.96|N|To Brogg.|
 A Spirits of Stonemaul Hold|RANK|1|QID|27410|PRE|27408&27409|M|41.87,73.96|N|From Brogg.|
-C Spirits of Stonemaul Hold|RANK|1|QID|27410|U|33091|M|44.78,66.17|N|Right-click the giant rib cages scattered about the ruins, and kill the ogre spirits that appear.|
+C Spirits of Stonemaul Hold|RANK|1|QID|27410|U|33091|M|44.78,66.17|N|Right-click the giatn rib cages scattered about the ruins, and kill the ogre spirits that appear.|
 T Spirits of Stonemaul Hold|RANK|1|QID|27410|M|41.86,73.94|N|To Brogg, back in Mudsprocket.|
 A Challenge to the Black Flight|RANK|1|QID|27411|PRE|27410|M|41.86,73.94|N|From Brogg.|
 C Challenge to the Black Flight|RANK|1|QID|27411|U|33095|M|52.43,76.35|N|Use the banner, a dragon will appear. Kill him.|
@@ -175,7 +174,7 @@ C The Brood of Onyxia|RANK|1|QID|27415|NC|M|53.53,72.58;52.28,83.92|CN|N|Click o
 F Brackenwall Village|RANK|1|QID|27415|M|42.82,72.45|N|Fly to Brackenwall Village.|
 T The Brood of Onyxia|RANK|1|QID|27415|M|37.14,33.04|N|To Draz'Zilb. Congradulations on a nice reward!|
 A Challenge Overlord Mok'Morokk|RANK|1|QID|27418|PRE|27415|M|36.35,31.50|N|From Overlord Mok'Morokk.|
-C Challenge Overlord Mok'Morokk|RANK|1|QID|27418|M|PLAYER|N|Attack Overlord Mok'Morokk until he runs.|
+C Challenge Overlord Mok'Morokk|RANK|1|QID|27418|M|36.35,31.50;56.61,75.35|CS|N|Attack Overlord Mok'Morokk until he runs.|
 T Challenge Overlord Mok'Morokk|RANK|1|QID|27418|M|37.09,32.99|N|To Draz'Zilb. Congradulations on a nice reward!|
 F Mudsprocket|RANK|1|QID|25478|M|35.57,31.86|N|If you'd like to do Thousand Needles, head down to Mudsprocket.|
 A To the Summit|RANK|1|QID|25478|M|41.86,73.85|N|From Nyse. Take this quest if you'd like to do Thousand Needles next.|

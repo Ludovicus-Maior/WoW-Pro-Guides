@@ -1,16 +1,15 @@
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'WoWPro Team', "Alliance", 5)
 WoWPro:GuideLevels(guide, 85, 86)
-WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Jade Forest")
 WoWPro:GuideName(guide,"The Jade Forest")
 WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Stormwind Keep|QID|60125|M|81.03,37.38|Z|84;Stormwind City|N|Run into the keep to trigger the cinematic.|
-T Mists of Pandaria: To Pandaria!|QID|60125|M|78.95,39.83|Z|84;Stormwind City|N|To Rell Nightwind.|
-A The Mission|QID|29548|M|78.70,40.08|Z|84;Stormwind City|N|From Rell Nightwind.|
-C The Mission|QID|29548|M|77.69,39.26|Z|84;Stormwind City|QO|1|N|Use the Gryphon to fly up to the airship.|NC|
-C The Mission|QID|29548|M|41.47,70.19|Z|Eastern Kingdoms|QO|2|CHAT|N|Speak with Admiral Rogers.|NC|
+R Stormwind Keep|ACTIVE|60125|M|81.03,37.38|Z|84; Stormwind City|N|Run into the keep to trigger the cinematic.|
+t Mists of Pandaria: To Pandaria!|QID|60125|M|78.95,39.83|Z|84; Stormwind City|N|To Rell Nightwind.|
+t The King's Command|QID|29547|M|78.95,39.83|Z|84; Stormwind City|N|To Rell Nightwind.|
+A The Mission|QID|29548|M|78.70,40.08|Z|84; Stormwind City|N|From Rell Nightwind.|
+C The Mission|QID|29548|M|41.47,70.19|Z|Eastern Kingdoms|QO|1|CHAT|N|Speak with Admiral Rogers.|
 T The Mission|QID|29548|M|42.04,92.75|N|To Sky Admiral Rogers.|
 A Unleash Hell|QID|31732|PRE|29548|M|42.04,92.75|N|From Sky Admiral Rogers.|
 F Garrosh'ar Point|QID|31732|M|42.00,92.54|N|Board the Skyfire Gyrocopter located further along the deck.|
@@ -53,7 +52,7 @@ C Critical Condition|QID|29552|S|NC|M|42.64,87.62|N|Right-click on the wounded s
 C Priorities!|QID|31739|NC|M|43.62,88.27|N|Click on the Applebloom cider barrels and let Teng Applebloom pick them up. It's quite impressive to see him carry them all!|
 T Priorities!|QID|31739|M|39.56,90.09|N|To Lin Applebloom on an island to the west of the Glade.|
 A Koukou's Rampage|QID|31740|PRE|31739|M|39.56,90.09|N|From Lin Applebloom.|
-C Koukou's Rampage|QID|31740|M|39.4,89.9|N|Kill Koukou.\n\nIf he is not there, wait for him to respawn.|
+K Koukou|ACTIVE|31740|QO|1|M|39.4,89.9|N|Kill Koukou.\n\nIf he is not there, wait for him to respawn.|T|Koukou|
 C Critical Condition|QID|29552|US|NC|M|42.64,87.62|N|Finish healing the wounded soldiers by right-clicking them.|
 C Pillaging Peons|QID|31738|US|M|42.08,87.83|N|Finish killing the Peons.  The Taskmasters also count towards this quest.|
 H Paw'don Village|QID|31740|N|Hearthstone (or run) to Paw'don Village|M|44.88,84.42|
@@ -85,12 +84,12 @@ A The Fall of Ga'trul|QID|30070|PRE|31741&31742&31743&31744|M|41.39,79.60|N|From
 K Ga'trul|QID|30070|QO|1|T|Ga'trul|M|41.49,78.59|N| In Twinspire Keep|
 T The Fall of Ga'trul|QID|30070|M|41.43,79.06|N|To Rell Nightwind.|
 A Onward and Inward|QID|31745|PRE|30070|M|41.43,79.06|N|From Rell Nightwind.|
-C Onward and Inward|QID|31745|NC|M|41.5,79.6|N|There is a chopper just outside to take you back to the village.|
+C Onward and Inward|QID|31745|M|41.5,79.6|N|There is a chopper just outside to take you back to the village.|V|
 T Onward and Inward|QID|31745|M|48.0,88.4|N|To Sky Admiral Rogers.|
 A The White Pawn|QID|29555|PRE|31745|M|48.0,88.4|N|From Sky Admiral Rogers.|
 A Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|PRE|31745|M|48.0,88.4|N|From Sky Admiral Rogers.|
 C Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|S|M|50.5,89.6|; Wreck of the Vanguard
-C The White Pawn|QID|29555|T|Hozen Diver|M|50.0,90.3|N|The first clue is the guard on the bridge. The second and third clues are the banner and the journal underwater in the ship. You should also see a Hozen Diver inside the ship, you need to kill it to get the Encoded Captain's Log.|; Wreck of the Vanguard
+C The White Pawn|QID|29555|T|Hozen Diver|M|50.0,90.3|I|N|The first clue is the guard on the bridge. The second and third clues are the banner and the journal underwater in the ship. You should also see a Hozen Diver inside the ship, you need to kill it to get the Encoded Captain's Log.|; Wreck of the Vanguard
 C Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|US|M|50.5,89.6|; Wreck of the Vanguard
 T Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|M|50.42,88.20|N|To Nodd Codejack.|
 T The White Pawn|QID|29555|M|50.42,88.20|N|To Nodd Codejack.|
@@ -156,7 +155,7 @@ C SI:7 Report: Take No Prisoners|QID|29727|M|28.6,54.4|N|It's shooting time! Tar
 T SI:7 Report: Take No Prisoners|QID|29727|M|58.93,81.93|N|To Amber Kearnen.|
 A A Perfect Match|QID|29903|PRE|29727|M|58.87,81.68|N|From Admiral Taylor.|
 A Seek Out the Lorewalker|QID|29888|PRE|29727|M|58.96,81.68|N|From Bold Karasshi.|
-C A Perfect Match|QID|29903|NC|M|60.44,87.70|N|Speak to the Aqualytes and give them presents. The trick is to look at what weapon they have:Daggers: Give a dagger; Sword: Give a shield; Red Staff: give a healing prayer; Blue/Green Staff: give a staff.|
+C A Perfect Match|QID|29903|NC|M|60.44,87.70|N|Speak to the Aqualytes and give them presents. The trick is to look at what weapon they have:\n\nDaggers: Give a dagger; \nSword: Give a shield; \nRed Staff: give a healing prayer; \nBlue/Green Staff: give a staff.|
 T A Perfect Match|QID|29903|M|58.87,81.68|N|To Admiral Taylor.|
 A Bigger Fish to Fry|QID|29904|PRE|29903|M|58.87,81.68|N|From Admiral Taylor.|
 R The Bamboo Wilds|QID|29904|M|60.09,83.50;61.34,82.07;61.74,79.46|CS|N|Over the water and through the woods ...|
@@ -217,7 +216,7 @@ A In Search of Wisdom|QID|29922|PRE|29901|M|58.87,81.49|N|From Elder Lusshan.|
 C In Search of Wisdom|QID|29922|CHAT|M|57.95,82.52|N|Speak to Kitemaster Ut-Nam and have him send you to Dawn's Blossom|
 f Dawn's Blossom|QID|29922|M|47.05,46.24|N|At Keg Runner Lee.|
 T In Search of Wisdom|QID|29922|M|46.81,46.14|N|To Lorewalker Cho.|
-$ The Emperor's Burden - Part 1|QID|968550001|M|47.08,45.14|ACH|6855;1|N|Exploration>The Seven Burdens of Shaohao.|
+$ The Emperor's Burden - Part 1|QID|968550001|M|47.08,45.14|N|Exploration>The Seven Burdens of Shaohao.|ACH|6855;1|
 A Welcome to Dawn's Blossom|QID|31230|PRE|29922^30015|M|47.16,46.17|N|From Toya.|
 C Welcome to Dawn's Blossom|QID|31230|M|47.04,46.02|N|Wanderbrew wanders about near here.|QO|3|CHAT|
 C Welcome to Dawn's Blossom|QID|31230|M|45.77,43.67|QO|2|N|Speak with Peiji Goldendraft.|CHAT|
@@ -235,12 +234,12 @@ T The Double Hozen Dare|QID|29716|M|PLAYER|N|To An Windfur. (she should be follo
 A The Jade Witch|QID|29723|PRE|29716|M|PLAYER|N|From An Windfur.|
 C The Jade Witch|QID|29723|M|39.23,46.17|N|Before you talk to the widow, look around for a 'Jade Warrior Statue' in her front yard, if it is there talk to it for a BoA treasure. Talk to Widow Greenpaw, she'll bring you to Shin and then become attackable, kill her.|CHAT|
 C Down Kitty!|QID|29717|US|M|37.11,47.72|N|Kill eight Jade Guardians|
-T Down Kitty!|QID|29717|M|PLAYER|N|To An Windfur.|
 C The Silkwood Road|QID|29865|US|M|43.26,49.23|N|Keep killing silkwood stalkers until you have slain eight of them.|
 C The Threads that Stick|NC|QID|29866|US|M|43.68,48.32|N|Keep looting the eggs to get Pristine Silk Strands|
 T The Silkwood Road|QID|29865|M|46.46,45.81|N|To Tzu the Ironbelly.|
 T The Threads that Stick|QID|29866|M|46.63,45.31|N|To Lo Wanderbrew.|
 T The Jade Witch|QID|29723|M|46.43,44.85|N|To An Windfur, now wandering around the village.|
+T Down Kitty!|QID|29717|M|46.43,44.85|N|To An Windfur.|
 A Find the Boy|QID|29993|PRE|29866|M|47.07,46.08|N|From Kai Wanderbrew, never in the same place twice|
 A All We Can Spare|QID|29925|PRE|29723|M|47.16,46.17|N|From Toya.|
 A An Air of Worry|QID|29576|LEAD|29578|M|48.33,46.06|N|From Old Man Misteyes.|
@@ -286,7 +285,7 @@ T Calamity Jade|QID|29926|M|50.94,27.03|N|From Foreman Mann.|
 A The Serpent's Heart|QID|29931|PRE|29930|M|50.94,27.03|N|From Foreman Mann.|
 N If you are into exploring...|QID|29745|N|...this is as close to Sri-La Village as you are going to get in this guide. Skip the next step if you don't want to go there, no quests there except lvl 90 dailies. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|RANK|3|O|
 f Sri-La Village|QID|29745|M|55.44,23.73|N|At Gingo Alebottom.|RANK|3|
-R Wood of the Lost|QID|29745|M|48.64,24.91|CC|
+R Wood of the Lost|ACTIVE|29745|M|48.64,24.91|CC|
 A The Sprites' Plight|QID|29745|M|48.64,24.91|N|From Outcast Sprite.|
 C The Sprites' Plight|QID|29745|M|48.92,20.40|N|Avoid AoE attacks or the sprites will turn on you!|
 T The Sprites' Plight|QID|29745|N|To UI Alert.|

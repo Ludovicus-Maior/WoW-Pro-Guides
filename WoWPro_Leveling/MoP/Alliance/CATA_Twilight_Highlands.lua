@@ -1,16 +1,15 @@
 local guide = WoWPro:RegisterGuide('MagTwi8485', "Leveling", 'Twilight Highlands', 'WoWPro Team', 'Alliance', 5)
 WoWPro:GuideLevels(guide, 84, 85)
 WoWPro:GuideName(guide,"Twilight Highlands")
-WoWPro:GuideSort(guide, 85)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Hero's Call: Twilight Highlands!|QID|28716|LEAD|28238|M|62.28,29.80|Z|1453; Stormwind City|N|From the Hero's Call Board. Select Twilight Highlands.\n\nYou might have to accept others before it will display this one.|
-T Hero's Call: Twilight Highlands!|QID|28716|M|85.62,31.93|N|To King Anduin Wrynn.|Z|1453; Stormwind City|
-;P Twilight Highlands|QID|28238|M|75.36,16.42|Z|1453; Stormwind City|N|Take the Portal to Twilight Highlands.|
-A Twilight Shores|QID|28238|M|85.66,32.00|N|From King Anduin Wrynn.|Z|1453; Stormwind City|
-T Twilight Shores|QID|28238|M|26.19,47.29|N|To Fargo Flintlocke in Stormwind Harbour.|Z|1453; Stormwind City|
-A Twilight Shores|QID|28832|PRE|28238|M|26.19,47.29|N|From Fargo Flintlocke. Then hop in his boat.|Z|1453; Stormwind City|
+A Hero's Call: Twilight Highlands!|QID|28716|LEAD|28238|M|62.28,29.80|Z|84;Stormwind City|N|From the Hero's Call Board. Select Twilight Highlands.\n\nYou might have to accept others before it will display this one.|
+T Hero's Call: Twilight Highlands!|QID|28716|M|85.62,31.93|N|To King Anduin Wrynn.|Z|84;Stormwind City|
+;P Twilight Highlands|QID|28238|M|75.36,16.42|Z|84;Stormwind City|N|Take the Portal to Twilight Highlands.|
+A Twilight Shores|QID|28238|M|85.66,32.00|N|From King Anduin Wrynn.|Z|84;Stormwind City|
+T Twilight Shores|QID|28238|M|26.19,47.29|N|To Fargo Flintlocke in Stormwind Harbour.|Z|84;Stormwind City|
+A Twilight Shores|QID|28832|PRE|28238|M|26.19,47.29|N|From Fargo Flintlocke. Then hop in his boat.|Z|84;Stormwind City|
 T Twilight Shores|QID|28832|M|80.99,79.43|N|Hop into Flintlocke's Seaplane which will take you to The Twilight Highlands, then to Lieutenant Fawkes.|
 A Welcome to Highbank!|QID|28596|PRE|28832|M|80.99,79.43|N|From Lieutenant Fawkes.|
 C Welcome to Highbank!|QID|28596|M|79.04,76.01|N|Kill the Axebite Infantry (avoid the Bilgewater Gunman as well as Grit's 387k and a PvP flag)|

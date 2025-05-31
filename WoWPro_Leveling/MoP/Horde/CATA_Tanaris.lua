@@ -1,7 +1,6 @@
-local guide = WoWPro:RegisterGuide('JiyTan4550', "Leveling", 'Tanaris', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('JiyTan4550', "Leveling", 'Tanaris', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 45, 50)
 WoWPro:GuideName(guide,"Tanaris")
-WoWPro:GuideSort(guide, 48)
 WoWPro:GuideNextGuide(guide, 'JiyUng5055')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -24,7 +23,7 @@ A Scavengers Scavenged|QID|25111|RANK|2|PRE|25112|M|52.23,28.09|N|From Driz Plun
 C Rocket Rescue|QID|24910|M|53.34,27.44|N|Hop into the balloon just out of town. Use ability 1 to deliver rockets to the goblins, and use ability 2 on the pirates. When you complete the quest, use the last ability to return to Gadgetzan.|
 T Rocket Rescue|QID|24910|M|51.26,29.91|N|To Megs Dreadshredder.|
 A Momentum|QID|24947|PRE|24910&24907|M|51.26,29.91|N|From Megs Dreadshredder.|
-C Scavengers Scavenged|QID|25111|RANK|2|M|49.43,36.07;44.19,40.97|CN|N|On the way to Megs, stop at the skeletons just outside of town and kill and use the butcherbot on Fire Rocs.|U|52715|
+C Scavengers Scavenged|QID|25111|RANK|2|M|49.43,36.07;44.19,40.97|CN|N|On the way to Megs, stop at the skeletons just outside of town and kill and use the butcherbot on Fire Rocs.|
 T Momentum|QID|24947|M|67.89,41.85;71.84,45.39|CC|N|To Megs Dreadshredder.|
 A Dead Man's Chest|QID|24927|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
 A To The Ground!|QID|24928|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
