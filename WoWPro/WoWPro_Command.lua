@@ -18,7 +18,10 @@ local function handler(msg, editbox)
 			_G.WoWProDevCoords:Hide()
 			WoWProCharDB.DevCoords = false
 		else
-			if _G.WoWProDevZone:IsVisible() then _G.WoWProDevZone:Hide() end
+			if WoWProCharDB.DevZone then
+                _G.WoWProDevZone:Hide()
+                WoWProCharDB.DevZone = false
+            end
 			_G.WoWProDevCoords:Show()
 			WoWProCharDB.DevCoords = true
 		end
@@ -28,7 +31,10 @@ local function handler(msg, editbox)
 			_G.WoWProDevZone:Hide()
 			WoWProCharDB.DevZone = false
 		else
-			if _G.WoWProDevCoords:IsVisible() then _G.WoWProDevCoords:Hide() end
+			if WoWProCharDB.DevCoords then
+                _G.WoWProDevCoords:Hide()
+                WoWProCharDB.DevCoords = false
+            end
             _G.WoWProDevZone:Show()
 			WoWProCharDB.DevZone = true
 		end
@@ -171,7 +177,7 @@ local function handler(msg, editbox)
             _G.ReloadUI()
         end
     else
-        local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devmode¦disable-addons¦enable-addons]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
+        local text = ("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe¦devcoords¦devzone|devmode¦disable-addons¦enable-addons]"):format(_G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
         _G.ChatFrame1:AddMessage(text)
     end
 end
