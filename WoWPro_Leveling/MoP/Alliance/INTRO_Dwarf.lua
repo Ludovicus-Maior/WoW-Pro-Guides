@@ -7,7 +7,7 @@ WoWPro:GuideNextGuide(guide, 'Dwarf & Gnome: Intro (Part 2)')
 WoWPro:GuideSteps(guide, function()
 return
 [[
-R Coldridge Valley|QID|24469|M|67.18,41.41|Z|427; Coldridge Valley|R|-Dwarf|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
+R Coldridge Valley|AVAILABLE|24469|M|67.18,41.41|Z|427; Coldridge Valley|R|-Dwarf|N|Head to the Dwarf starting zone, in Coldridge Valley, south-west of Dun Morogh.  \n\nFrom Ironforge/Karanos, just follow the road south-west.|
 A Hold the Line!|QID|24469|M|67.18,41.41|Z|427; Coldridge Valley|N|From Joren Ironstock.|
 C Hold the Line!|QID|24469|M|60.82,50.85|Z|427; Coldridge Valley|N|Slay 6 Rockjaw Invaders.|
 T Hold the Line!|QID|24469|M|67.18,41.41|Z|427; Coldridge Valley|N|To Joren Ironstock.|

@@ -4,7 +4,7 @@ WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideRaceSpecific(guide,"Worgen")
 WoWPro:GuideNickname(guide, "Worgen: Intro")
 WoWPro:GuideName(guide,"Worgen: Intro")
-WoWPro:GuideNextGuide(guide, "Chromie Time")
+WoWPro:GuideNextGuide(guide, "Darkshore")
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Zone is Ruins of Gilneas City
