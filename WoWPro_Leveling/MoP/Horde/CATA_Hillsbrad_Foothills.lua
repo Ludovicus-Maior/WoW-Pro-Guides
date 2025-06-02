@@ -1,7 +1,6 @@
-local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', "WoWPro Team", 'Horde', 5)
+local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 20, 25)
 WoWPro:GuideName(guide,"Hillsbrad Foothills")
-WoWPro:GuideSort(guide, 28)
 WoWPro:GuideNextGuide(guide, 'JiyAra2530')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -59,7 +58,7 @@ A For Science!|QID|28199|M|36.34,60.25|N|From Flesh-Shaper Arnauld.|PRE|28192|
 C For Science!|QID|28199|M|39.10,63.63|N|Kill and loot the Risen Hillsbrad Peasants and Farmers.|S|
 C Discretion is Key: Clerk Horrace Whitesteed|QID|28197|QO|2|M|38.7,62.5|N|Kill and loot Clerk Horrace Whitesteed.|T|Clerk Horrace Whitesteed|
 A The Battle for Hillsbrad|QID|28196|PRE|28192|U|63250|N|Start the quest from The Battle for Hillsbrad you looted from Clerk Horrace Whitesteed.|
-C Discretion is Key: Citizen Wilkes|QID|28197|QO|1|M|38.70,64.65|N|Kill Citizen Wilkes. Head to the sourthern part of the fields, and he will jump off the tower and attack you. |
+C Discretion is Key: Citizen Wilkes|QID|28197|QO|2|M|38.70,64.65|N|Kill Citizen Wilkes. Head to the sourthern part of the fields, and he will jump off the tower and attack you. |
 A Do the Right Thing|QID|28189|PRE|28192|M|39.72,63.04|N|From the shovel in the spotlight under the arch.|
 C Do the Right Thing|QID|28189|U|63150|M|39.10,63.63|N|Click on the Human Seedlings in the ground.|NC|
 T Do the Right Thing|QID|28189|N|(UI Alert)|
@@ -102,7 +101,7 @@ C Angry Scrubbing Bubbles|QID|28329|M|48.59,71.42|N|Kill the Angry Blight Slime|
 T Angry Scrubbing Bubbles|QID|28329|N|To Serge Hinott|M|49.09,66.36|
 A Trail of Filth|QID|28330|N|From Serge Hinott|M|49.09,66.36|PRE|28329|
 C Trail of Filth|QID|28330|U|63426|M|47.85,72.37|N|Kill Chet the Slime-Breeder, found inside the building. Use the Lethality Analyzer to reduce the HP of Chet, otherwise you may need to find a group to help. |
-C Green Living|QID|28325|M|48.59,71.42|US|N|Pick up broken barrels on the ground.|NC|
+C Green Living|QID|28325|M|48.59,71.42|U|63426|US|N|Pick up broken barrels on the ground.|NC|
 C Studies in Lethality|QID|28324|U|63426|M|48.59,71.42|US|N|Use the Lethality Analyzer on the Blight Slimes.|
 A Preemptive Strike|QID|28356|U|63686|N|Igonore Orkus for now, and kill Daggerspine Nagas until Daggerspine Attack Plans Drops. Then accept the quest from UI popup.|M|50.69,76.2|
 C Preemptive Strike|QID|28356|N|Kill 15 Daggerspine Nagas.|M|50.69,76.2|

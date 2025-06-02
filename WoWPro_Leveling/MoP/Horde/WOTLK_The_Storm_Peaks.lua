@@ -5,7 +5,6 @@ WoWPro:GuideName(guide,"Storm Peaks")
 WoWPro:GuideNextGuide(guide, "Icecrown")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N Read Please |QID|12853|N|This guide will get you the Achievement The Summit of Storm Peaks. Set your Hearth anywhere you want. Sell/Repair/Restock when you think you need to. You need cold weather flying to do the zone|
 N Dalaran |QID|12853|N|Get here however you want.|
 A Luxurious Getaway! |QID|12853|N|From Ric Duoctane. He's in Cantrips and Crows in the sewers.|M|30.9,50.2|Z|The Underbelly@Dalaran|
@@ -157,11 +156,11 @@ T Off With Their Black Wings |QID|12942|M|48.4,72.1|N|To Iva the Vengeful|
 T Yulda's Folly |QID|12968|M|48.4,72.1|N|To Iva the Vengeful|
 N Dailies |QID|12922|N|You have now opened the daily quests for this area. Come back anytime you want. Gretta the Arbiter is the Quest Giver. This has a chance to drop the White Polar Bear mount|
 F Frostfield Lake |QID|12922|M|73,62|N|Fly to Frostfield Lake|
+A The Refiner's Fire |QID|12922|PRE|13064|M|75.8,63.0|N|(UI Alert)|O|
+N Slag Covered Metal |QID|12922|N|The Slag Covered Metal drops from the Stormforged Iron Giants. Pick up a boulder, you can only carry one at a time.  Use the Charm of Earth while targeting a Giant.  Kill him.|U|41505|L|41556|
 K Stormforged Iron Giants |N|Kill Giants using the boulder.|QID|12915|U|41505|QO|2|M|75.8,63.0|S|
-l Slag Covered Metal|QID|12922|L|41556|N|The Slag Covered Metal drops from the Stormforged Iron Giants. Pick up a boulder, you can only carry one at a time.
-A The Refiner's Fire |QID|12922|PRE|13064|M|75.8,63.0|N|(UI Alert)|O|U|41556|
 C The Refiner's Fire |QID|12922|N|Kill Seething Revenants.|M|71,61|
-C Mending Fences |QID|12915|QO|1|N|Go to Fjorn's Anvil. Kill Fjorn using a boulder.|U|41505|M|76.95,62.75|US|
+C Mending Fences |QID|12915|QO|1|N|Go to Fjorn's Anvil. Kill Fjorn using a boulder.|U|41505|M|76.95,62.75|
 T The Refiner's Fire |QID|12922|N|To the Anvil|M|77.2,62.9|
 A A Spark of Hope |QID|12956|PRE|12922|M|77.2,62.9|N|From the Anvil|
 K Stormforged Iron Giants |N|Kill Giants using the boulder until you have 5.|QID|12915|QO|2|U|41505|M|75.8,63.0|US|
@@ -205,7 +204,7 @@ T Hot and Cold |QID|12981|N|To Fjorn's Anvil|M|63.19,62.95|
 C Placing Hodir's Helm |QID|12987|N|Fly to , use the Tablets. You don't have to dismount. By the way it's in the air, not on the ground. Look for the glimmering  crystal.|U|42442|M|64.26,59.23|
 T Placing Hodir's Helm |QID|12987|M|63.2,63.2|
 A A Viscous Cleaning |QID|13006|PRE|12985|N|Daily Quest From Hodir's Helm|M|64.2,59.2|
-A Raising Hodir's Spear|QID|13001|N|From LoreKeeper Randvir|M|64.82,59.02|REP|The Sons of Hodir;1119;honored|
+A Raising Hodir's Spear|QID|13001|N|From LoreKeeper Randvir|M|64.82,59.02|
 A Culling Jorcuttar |QID|13011|M|65.4,60.2|N|From King Jokkum|
 K Raising Hodir's Spear|QID|13001|QO|2|N|Kill Stoic Mammoths for their Hide|M|58.88,60.69|
 C A Viscous Cleaning |QID|13006|N|Kill Viscous Oils in the cave.|M|55.6,63.4|S|
