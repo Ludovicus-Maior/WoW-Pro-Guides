@@ -4,9 +4,9 @@ WoWPro:GuideName(guide,"Deepholm")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Deepholm.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
-T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|84;Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
-P Deepholm|QID|26245|M|73.20,19.62|Z|84;Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
+A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|84; Stormwind City|N|From the Hero's Call Board. Select Deepholm.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
+T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|84; Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
+P Deepholm|QID|26245|M|73.20,19.62|Z|84; Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
 A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
 T Warchief's Command: Deepholm!|QID|27722|M|50.45,38.35|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
 A The Maelstrom|QID|27203|M|50.45,38.35|Z|Orgrimmar|N|From Farseer Krogar.|FACTION|Horde|
@@ -369,9 +369,9 @@ T Fight Fire and Water and Air with...|QID|27042|RANK|2|N|To Prospector Brewer.|
 T The Wrong Sequence|QID|27058|PRE|27040|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 A That's No Pyramid!|QID|28292|PRE|27058|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
 R Stormwind City|QID|28292|M|48.53,53.84|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Stormwind.|FACTION|Alliance|
-T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|84;Stormwind City|N|To Harrison Jones.|FACTION|Alliance|
-A Meetup with the Caravan|QID|28295|LEAD|27003|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|84;Stormwind City|FACTION|Alliance|
-F Booty Bay|QID|28295|Z|84;Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
+T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|84; Stormwind City|N|To Harrison Jones.|FACTION|Alliance|
+A Meetup with the Caravan|QID|28295|LEAD|27003|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|84; Stormwind City|FACTION|Alliance|
+F Booty Bay|QID|28295|Z|84; Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
 b Ratchet|QID|28295|Z|210;The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|FACTION|Alliance|
 F Southmoon Ruins|QID|28295|Z|71; Tanaris|M|30.61,65.42|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
 T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Alliance|

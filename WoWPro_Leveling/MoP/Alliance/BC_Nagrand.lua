@@ -11,8 +11,8 @@ N From now on...|QID|9861|Z|107; Nagrand|N|From now on, kill Air Elementals unti
 A Do My Eyes Deceive Me|QID|9917|M|55.0,70.5|Z|107; Nagrand|N|From Huntress Bintook.|
 A The Nesingwary Safari|QID|10113|LEAD|9857|M|54.98,70.47|Z|107; Nagrand|N|From "Shotgun" Jones.|
 A Fierce Enemies|QID|10476|M|54.8,71.0|Z|107; Nagrand|N|From Warden Moi'bff Jill.|
-A WANTED: Giselda the Crone|QID|9936|M|54.65,70.80|Z|107; Nagrand|N|From the Telaar Bulletin Board.|
-A WANTED: Zorbo the Advisor|QID|9940|M|54.65,70.80|Z|107; Nagrand|N|From the Telaar Bulletin Board.|
+A Wanted: Giselda the Crone|QID|9936|M|54.65,70.80|Z|107; Nagrand|N|From the Telaar Bulletin Board.|
+A Wanted: Zorbo the Advisor|QID|9940|M|54.65,70.80|Z|107; Nagrand|N|From the Telaar Bulletin Board.|
 T A Message to Telaar|QID|9792|M|54.8,71.0|Z|107; Nagrand|N|To Nahuud.|
 A The Throne of the Elements|QID|9869|M|55.5,68.8|Z|107; Nagrand|N|From Elementalist Ioki.|
 A Solving the Problem|QID|9878|M|54.5,72.2|Z|107; Nagrand|N|From Poli'lukluk the Wiser.|
@@ -172,7 +172,7 @@ A Ruthless Cunning|QID|9927|M|73.8,62.6|Z|107; Nagrand|N|From Lantressor of the 
 C Ruthless Cunning|QID|9927|M|71.4,79.4|Z|107; Nagrand|N|Plant the banners on the mob corpses for this quest.|S|U|25552|
 C Armaments for Deception|QID|9928|M|71.4,79.4|Z|107; Nagrand|N|Loot the boxes for this quest.|S|NC|
 K Giselda the Crone|ACTIVE|9936|M|70.62,82.60|QO|1|Z|107; Nagrand|N|Kill Giselda the Crone in center the large building.|; Giselda the Crone slain: 1/1
-C WANTED: Giselda the Crone|QID|9936|M|70.52,79.2|Z|107; Nagrand|N|Kill the rest of the Kil'sorrow agents needed.|
+C Wanted: Giselda the Crone|QID|9936|M|70.52,79.2|Z|107; Nagrand|N|Kill the rest of the Kil'sorrow agents needed.|
 C Ruthless Cunning|QID|9927|M|71.4,79.4|Z|107; Nagrand|N|Plant the rest of the banners on the mob corpses for this quest.|U|25552|US|
 C Armaments for Deception|QID|9928|M|71.4,79.4|Z|107; Nagrand|N|Loot the rest of the boxes for this quest.|US|NC|
 T Armaments for Deception|QID|9928|M|73.8,62.6|Z|107; Nagrand|N|To Lantressor of the Blade.|
@@ -185,10 +185,10 @@ T The Spirit Polluted|QID|9810|M|60.5,22.4|Z|107; Nagrand|N|To Ementalist Lo'ap.
 T Muck Diving|QID|9815|M|60.5,22.4|Z|107; Nagrand|N|To Ementalist Lo'ap.|
 T Murkblood Corrupters|QID|9862|M|60.5,22.4|Z|107; Nagrand|N|To Ementalist Morgh.|
 C Returning the Favor|QID|9931|M|50.00,22.00|Z|107; Nagrand|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest.|U|25555|S|
-C WANTED: Zorbo the Advisor|QID|9940|M|46.11,19.00|Z|107; Nagrand|N|Kill Warmaul Shamans and Reavers in the area.|S|
+C Wanted: Zorbo the Advisor|QID|9940|M|46.11,19.00|Z|107; Nagrand|N|Kill Warmaul Shamans and Reavers in the area.|S|
 C Body of Evidence|QID|9932|M|46.45,24.35|Z|107; Nagrand|N|Use the Damp Woolen Blanket here and defend the NPCs.|U|25658|
 K Zorbo the Advisor|QID|9940|M|46.22,18.83|QO|1|Z|107; Nagrand|N|Kill Zorbo inside the cave.|; Zorbo the Advisor slain: 1/1
-C WANTED: Zorbo the Advisor|QID|9940|M|46.00,23.00|Z|107; Nagrand|N|Kill Warmaul Shamans and Reavers in the area.|US|
+C Wanted: Zorbo the Advisor|QID|9940|M|46.00,23.00|Z|107; Nagrand|N|Kill Warmaul Shamans and Reavers in the area.|US|
 C Returning the Favor|QID|9931|M|50.00,22.00|Z|107; Nagrand|N|Plant Kil'sorrow Banners on ogre corpses as you did earlier with the other quest.|U|25555|US|
 N Ring of Blood|Z|107; Nagrand|N|Look for a group for Ring of Blood quests if you wish. Some people can solo most if not all of this depending on level/class/spec/gear. Most will probably will still need help.|
 K Gutripper|ACTIVE|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|QO|1|CN|Z|107; Nagrand|N|Kill Gutripper and loot his eye.|T|Gutripper|L|24513|S|
@@ -212,9 +212,9 @@ T Stealing from Thieves|QID|9882|M|31.4,57.8|Z|107; Nagrand|N|To Gezhe.|REP|The 
 T Vision of the Dead|QID|10252|M|51.74,56.9|Z|107; Nagrand|N|To Nitrin the Learned.|
 A Levixus the Soul Caller|QID|10253|PRE|10252|M|51.74,56.9|Z|107; Nagrand|N|From Nitrin the Learned. This takes you into a dungeon, so this is optional.|
 T The Ravaged Caravan|QID|9956|M|54.2,70.0|Z|107; Nagrand|N|To Huntress Kima, find her wandering around Telaar.|
-T WANTED: Giselda the Crone|QID|9936|M|54.8,71.0|Z|107; Nagrand|N|To Waden Moi'bff Jill.|
-T WANTED: Zorbo the Advisor|QID|9940|M|54.8,71.0|Z|107; Nagrand|N|To Waden Moi'bff Jill.|
-A WANTED: Durn the Hungerer|QID|9938|PRE|9936&9940|M|54.8,71.0|Z|107; Nagrand|N|From Waden Moi'bff Jill.|
+T Wanted: Giselda the Crone|QID|9936|M|54.8,71.0|Z|107; Nagrand|N|To Waden Moi'bff Jill.|
+T Wanted: Zorbo the Advisor|QID|9940|M|54.8,71.0|Z|107; Nagrand|N|To Waden Moi'bff Jill.|
+A Wanted: Durn the Hungerer|QID|9938|PRE|9936&9940|M|54.8,71.0|Z|107; Nagrand|N|From Waden Moi'bff Jill.|
 T Cho'war the Pillager|QID|9955|M|55.44,68.78|Z|107; Nagrand|N|To Arechron.|
 T Ortor My Old Friend...|QID|9873|M|55.44,68.78|Z|107; Nagrand|N|To Arechron.|
 T Body of Evidence|QID|9932|M|73.8,62.6|Z|107; Nagrand|N|To Lantresor of the Blade.|
@@ -226,8 +226,8 @@ T Talbuk Mastery|QID|9859|M|71.4,40.63|Z|107; Nagrand|N|To Harold Lane.|
 A The Ultimate Bloodsport|QID|9852|PRE|9856&9859&9851|M|71.52,40.79|Z|107; Nagrand|N|From Hemet Nesingwary.|
 T Gurok the Usurper|QID|9853|M|61.8,24.4|Z|107; Nagrand|N|To Gordawg.|
 C The Ultimate Bloodsport|QID|9852|M|44.28,65.6|Z|107; Nagrand|N|Kill and loot Tusker.|
-C WANTED: Durn the Hungerer|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|CN|Z|107; Nagrand|N|Kill Durn the Hungerer, he wanders around Oshu'gun.|T|Durn the Hungerer|
-T WANTED: Durn the Hungerer|QID|9938|M|54.8,71.0|Z|107; Nagrand|N|To Waden Moi'bff Jill.|
+C Wanted: Durn the Hungerer|QID|9938|M|30,63;30.1,75;39.6,79.2;44,70;37.5,59|CN|Z|107; Nagrand|N|Kill Durn the Hungerer, he wanders around Oshu'gun.|T|Durn the Hungerer|
+T Wanted: Durn the Hungerer|QID|9938|M|54.8,71.0|Z|107; Nagrand|N|To Waden Moi'bff Jill.|
 T Message to Telaar|QID|9933|M|55.5,68.8|Z|107; Nagrand|N|To Arechron.|
 T The Ultimate Bloodsport|QID|9852|M|71.52,40.79|Z|107; Nagrand|N|To Hemet Nesingwary.|
 N The following quests are the rest of the ones from Altruis.|

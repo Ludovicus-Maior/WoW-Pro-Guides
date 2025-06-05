@@ -115,9 +115,9 @@ R Graymane Enclave|QID|42708|M|0.00,0.00|Z|Dalaran!Dalaran!Dungeon|N|Take the Ir
 R Windrunner's Sanctuary|QID|42708|M|55.92,22.73|Z|Dalaran!Dalaran!Dungeon|N|Take the Undercity Portal.|ACTIVE|42708|FACTION|HORDE|
 R Outside Undercity Sewers|QID|42708|M|42.81,35.04|CC|Z|Tirisfal Glades|N|You will find Thassarian just inside the sewer entrance.|ACTIVE|42708|
 C A Personal Request|QID|42708|M|42.81,35.04|Z|Tirisfal Glades|SO|1|CHAT|N|Speak with Thassarian. FYI, if you should die on this scenario, you must return through this sewer entrance, not the main entrance into Undercity.|
-C A Bold Rescue|QID|42708|M|42.81,35.04|Z|Eastern Kingdoms|SO|2|N|Escort Thassarian through the Undercity.|
-C Rescue Koltira from the Apothecarium.|QID|42708|M|43.53,35.67|Z|Eastern Kingdoms|SO|3|N|Click on his cage to Rescue Koltira from the Apothecarium.|
-R Death-Gate|QID|42708|M|43.54,35.69|Z|Eastern Kingdoms|N|Click on his Death-gate to return to Acherus.|ACTIVE|42708|
+C A Bold Rescue|QID|42708|M|42.81,35.04|Z|13; Eastern Kingdoms|SO|2|N|Escort Thassarian through the Undercity.|
+C Rescue Koltira from the Apothecarium.|QID|42708|M|43.53,35.67|Z|13; Eastern Kingdoms|SO|3|N|Click on his cage to Rescue Koltira from the Apothecarium.|
+R Death-Gate|QID|42708|M|43.54,35.69|Z|13; Eastern Kingdoms|N|Click on his Death-gate to return to Acherus.|ACTIVE|42708|
 T A Personal Request|QID|42708|M|55.93,30.60|N|To Thassarian.|
 A Knights of the Ebon Blade|QID|44082|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|42708|
 A Steeds of the Damned|QID|43899|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|42708|

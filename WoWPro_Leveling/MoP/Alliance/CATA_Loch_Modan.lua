@@ -5,10 +5,10 @@ WoWPro:GuideNextGuide(guide, 'Wetlands')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Elmore's Task is skipped if you've just done Dun Morogh quests (your not in the right place), or if you've already done Stormpike's Delivery quest (Elmore's task isn't available)
-A Elmore's Task|QID|1097|M|41.6,65.6|Z|37;Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|RANK|3|
-T Elmore's Task|QID|1097|M|59.6,34.0|Z|84;Stormwind City|N|To Grimand Elmore in the Dwarven District of Stormwind City.|RANK|3|
-A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|84;Stormwind City|N|From Grimand Elmore.|RANK|3|
-F Ironforge|QID|26131|M|41.8,52.2|Z|84;Stormwind City|N|Head to Ironforge either by the Stormwind Tram, or by flying from your nearest flight master.|RANK|3|
+A Elmore's Task|QID|1097|M|41.6,65.6|Z|37; Elwynn Forest|N|From Smith Argus at Goldshire in Elwynn Forest.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 3: All Feeder quests\nRank 2: Dun Morogh Feeder Quests\nRank 1: Loch Modan only|RANK|3|
+T Elmore's Task|QID|1097|M|59.6,34.0|Z|84; Stormwind City|N|To Grimand Elmore in the Dwarven District of Stormwind City.|RANK|3|
+A Stormpike's Delivery|QID|353|M|59.6,34.0|Z|84; Stormwind City|N|From Grimand Elmore.|RANK|3|
+F Ironforge|QID|26131|M|41.8,52.2|Z|84; Stormwind City|N|Head to Ironforge either by the Stormwind Tram, or by flying from your nearest flight master.|RANK|3|
 A Reinforcements for Loch Modan|QID|26131|M|41.8,52.2|Z|87; Ironforge|N|From Mountaineer Barleybrew in Ironforge.\nIf quest doesn't show, drop the quest Hero's Call: Loch Modan!|RANK|2|
 F South Gate Outpost|QID|26131|M|55.49,47.78|Z|87; Ironforge|N|Talk to Gryth Thurden, and ask him to fly you to Loch Modan.|RANK|2|
 T Reinforcements for Loch Modan|QID|26131|M|14,56.49|Z|48; Loch Modan|N|To Pilot Hammerfoot.|RANK|2|
@@ -44,18 +44,18 @@ A Out of Gnoll-where|QID|26842|M|35.09,46.41|Z|48; Loch Modan|N|From Mountaineer
 h Stoutlager Inn|QID|26860|M|35.48,48.44|Z|48; Loch Modan|N|At Innkeeper Hearthstove.|
 A Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|Z|48; Loch Modan|N|From Vidra Hearthstove.|
 A Looking for Lurkers|QID|25118|M|35.37,42.86|Z|48; Loch Modan|N|From Dakk Blunderblast.|
-A WANTED: The Dark Iron Spy|QID|13648|M|37.26,46.44|Z|48; Loch Modan|N|From "Wanted" sign.|
+A Wanted: The Dark Iron Spy|QID|13648|M|37.26,46.44|Z|48; Loch Modan|N|From "Wanted" sign.|
 C Thelsamar Blood Sausages|QID|26860|M|36.75,38.25|Z|48; Loch Modan|N|Kill and loot bears for their rumps.|S|
 C Looking for Lurkers|QID|25118|M|38.0,39.25|Z|48; Loch Modan|N|Kill 8 Forest Lurkers.|S|
 C Out of Gnoll-where|QID|26842|M|26.25,42.37|Z|48; Loch Modan|N|Kill and loot Mosshide Scouts and Bashers to get their ears.|
-R WANTED: The Dark Iron Spy|QID|13648|M|40.69,58.07;40.35,61.45;37.31,61.99|CC|Z|48; Loch Modan|N|Take the trail up and head into the cave.|
-C WANTED: The Dark Iron Spy|QID|13648|M|36.46,61.23|Z|48; Loch Modan|N|Kill Gorick Guzzeldraught, then loot him.|
+R Wanted: The Dark Iron Spy|QID|13648|M|40.69,58.07;40.35,61.45;37.31,61.99|CC|Z|48; Loch Modan|N|Take the trail up and head into the cave.|
+C Wanted: The Dark Iron Spy|QID|13648|M|36.46,61.23|Z|48; Loch Modan|N|Kill Gorick Guzzeldraught, then loot him.|
 A Explorers' League Document (1 of 6)|QID|13656|M|36.76,61.25|Z|48; Loch Modan|N|From the Stolen Explorers' League Document.|
 C Thelsamar Blood Sausages|QID|26860|M|36.75,38.25|Z|48; Loch Modan|N|Kill and loot bears for their rumps.|US|
 C Looking for Lurkers|QID|25118|M|38.0,39.25|Z|48; Loch Modan|N|Kill 8 Forest Lurkers.|US|
 T Explorers' League Document (1 of 6)|QID|13656|M|37.18,47.82|Z|48; Loch Modan|N|To Torren Squarejaw.|
 T Looking for Lurkers|QID|25118|M|35.35,42.82|Z|48; Loch Modan|N|To Dakk Blunderblast.|
-T WANTED: The Dark Iron Spy|QID|13648|M|34.60,44.50|Z|48; Loch Modan|N|To Magistrate Bluntnose.|
+T Wanted: The Dark Iron Spy|QID|13648|M|34.60,44.50|Z|48; Loch Modan|N|To Magistrate Bluntnose.|
 T Thelsamar Blood Sausages|QID|26860|M|34.83,49.29|Z|48; Loch Modan|N|To Vidra Hearthstove.|
 T Out of Gnoll-where|QID|26842|M|35.03,46.56|Z|48; Loch Modan|N|To Mountaineer Kadrell.|
 A Stormpike's Orders|QID|13636|LEAD|26843|M|35.09,46.41|Z|48; Loch Modan|N|From Mountaineer Kadrell.|

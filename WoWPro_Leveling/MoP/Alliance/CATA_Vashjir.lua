@@ -4,11 +4,11 @@ WoWPro:GuideName(guide,"Vashj'ir")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Stormwind City|AVAILABLE|27724|M|74.5,19.2|Z|84;Stormwind City|N|Head to Stormwind City by any means possible.|
-A Hero's Call: Vashj'ir!|QID|27724|M|62.9,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal Vashj'ir.|
-T Hero's Call: Vashj'ir!|QID|27724|M|27.4,24.3|Z|84;Stormwind City|N|To Recruiter Burns.|
-A Call of Duty|QID|14482|M|27.39,24.16|Z|84;Stormwind City|N|From Recruiter Burns.|
-C Call of Duty|QID|14482|M|18.5,25.5|Z|84;Stormwind City|NC|N|Head to the end of the northern-most dock and board the ship. It will take 5 minutes for the ship to arrive, during which a small event will happen on the docks with soldiers talking about recent events. Once you board the ship, just sit back and watch the on-ship entertainment courtesy of Budd and Captain Taylor.|
+R Stormwind City|AVAILABLE|27724|M|74.5,19.2|Z|84; Stormwind City|N|Head to Stormwind City by any means possible.|
+A Hero's Call: Vashj'ir!|QID|27724|M|62.9,71.7|Z|84; Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal Vashj'ir.|
+T Hero's Call: Vashj'ir!|QID|27724|M|27.4,24.3|Z|84; Stormwind City|N|To Recruiter Burns.|
+A Call of Duty|QID|14482|M|27.39,24.16|Z|84; Stormwind City|N|From Recruiter Burns.|
+C Call of Duty|QID|14482|M|18.5,25.5|Z|84; Stormwind City|NC|N|Head to the end of the northern-most dock and board the ship. It will take 5 minutes for the ship to arrive, during which a small event will happen on the docks with soldiers talking about recent events. Once you board the ship, just sit back and watch the on-ship entertainment courtesy of Budd and Captain Taylor.|
 R The Briny Cutter|QID|14482|M|45.2,23.4|Z|201; Kelp'thar Forest|N|Just a little longer while the ship is attacked and you lose consiousness in the water. Patiently wait until you wake up in The Briny Cutter.|
 T Call of Duty|QID|14482|M|45.2,23.4|Z|201; Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Sea Legs|QID|24432|PRE|14482|M|45.2,23.4|Z|201; Kelp'thar Forest|N|From Erunak Stonespeaker.|

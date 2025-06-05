@@ -7,7 +7,7 @@ WoWPro:GuideRaceSpecific(guide,"Pandaren")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-T Much to Learn|QID|30039^30340^30341^30342^30343^30344^30345|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
+T Much to Learn|QID|29404^30039^30040^30041^30042^30043^30044^30045|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
 A The Lesson of the Iron Bough|QID|30027^30033^30034^30035^30036^30037^30038|M|56.66,18.17|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
 C The Lesson of the Iron Bough|QID|30027|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Staff from one of the Weapon Racks and equip it.|U|73209|C|Monk|NC|
 C The Lesson of the Iron Bough|QID|30033|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Spellblade from one of the Weapon Racks and equip it.|U|76390|C|Mage|NC|
@@ -160,7 +160,7 @@ C The Direct Solution|QID|29779|QO|1|M|24.44,30.62|Z|0378; The Wandering Isle|N|
 R Fe-Feng Village|AVAILABLE|29782|PRE|29783|M|27.52,36.53|Z|0378; The Wandering Isle|N|Go up the hill to the south.\n[color=FF0000]NOTE: [/color]Ji Firepaw will join you when you get here.|
 A Stronger Than Bone|QID|29782|PRE|29783|M|26.43,33.73|Z|0378; The Wandering Isle|N|From the Jade Tiger Pillar in Fe-Feng Village.|
 C Monkey Advisory Warning|QID|29781|QO|1|M|20.93,34.36|Z|0378; The Wandering Isle|L|74631 8|N|Collect the Stolen Firework Bundles.\n[color=FF0000]NOTE: [/color]There are several near Ruk-Ruk.|S|
-C Do No Evil|QID|29780|QO|1|M|20.93,34.36|Z|0378; The Wandering Isle|N|Kill Ruk-Ruk.|T|Ruk-Ruk|
+K Ruk-Ruk|ACTIVE|29780|QO|1|M|20.93,34.36|Z|0378; The Wandering Isle|N|Kill Ruk-Ruk.|T|Ruk-Ruk|
 T Do No Evil|QID|29780|M|PLAYER|CC|N|To Ji Firepaw, beside you.|
 C Monkey Advisory Warning|QID|29781|M|20.93,34.36|Z|0378; The Wandering Isle|L|74631 8|N|Collect the Stolen Firework Bundle from where Ruk-Ruk was, or elsewhere in the village.|US|
 T Monkey Advisory Warning|QID|29781|M|PLAYER|CC|N|To Ji Firepaw.|
@@ -247,7 +247,7 @@ C A New Fate|QID|31450|M|51.45,48.29|Z|0378; The Wandering Isle|N|Speak to Spiri
 ; The cinematic triggers a reload, which re-evaluates all the following steps in the new faction.
 T A New Fate|QID|31450|M|PLAYER|CC|N|To Ji Firepaw.|
 A Joining the Horde|QID|31012|PRE|31450|M|45.58,12.61|Z|0001; Durotar|N|From Ji Firepaw.|FACTION|Horde|
-A Joining the Alliance|QID|30987|PRE|31450|M|74.21,91.97|Z|0084; Stormwind City|N|From Aysa Cloudsinger.|FACTION|Alliance|
+A Joining the Alliance|QID|30987|PRE|31450|M|74.21,91.97|Z|84; Stormwind City|N|From Aysa Cloudsinger.|FACTION|Alliance|
 T Joining the Horde|QID|31012|M|48.11,70.46|Z|0085; Orgrimmar|N|To Garrosh Hellscream in Grommash Hold.|FACTION|Horde|
 A The Horde Way|QID|31013|PRE|31012|M|48.11,70.46|Z|0085; Orgrimmar|N|To Garrosh Hellscream.|FACTION|Horde|
 C The Horde Way|QID|31013|M|48.11,70.46|Z|0085; Orgrimmar|N|Listen to Garrosh Hellscream.\n[color=FF0000]NOTE: [/color]You can follow Garrosh on his tour of Orgrimmar, or skip this step and just meet him at the final location.|FACTION|Horde|CHAT|
@@ -265,17 +265,17 @@ C The Wolf and The Kodo|QID|25205|ACTIVE|25648|M|PLAYER|CC|N|Listen to Shin Ston
 T The Wolf and The Kodo|QID|25205|ACTIVE|25648|M|44.90,14.84|Z|0001; Durotar|N|To Shin Stonepillar.|
 A Warchief's Command: Azshara!|QID|28496|AVAILABLE|26642&28494&28496|M|49.67,76.45|Z|0085; Orgrimmar|N|From the Warchief's Command Board.|FACTION|Horde|
 D Onwards|ACTIVE|25648^28496|N|This ends `Pandaren: Intro`.\nAzshara is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|BitAzs1220|
-T Joining the Alliance|QID|30987|M|85.78,31.70|Z|84;Stormwind City|N|To King Varian Wrynn, in Stormwind Keep.|FACTION|Alliance|
-A The Alliance Way|QID|30988|PRE|30987|M|85.78,31.70|Z|84;Stormwind City|N|From King Varian Wrynn.|FACTION|Alliance|
-C The Alliance Way|QID|30988|M|82.60,28.07|Z|0085; Orgrimmar|N|Listen to King Varian Wrynn.\n[color=FF0000]NOTE: [/color]You can follow the King on his tour of Stormwind Keep, or skip this step and just meet him at the final location.|FACTION|Alliance|CHAT|
-T The Alliance Way|QID|30988|M|82.60,28.07|Z|0084; Stormwind City|N|To King Varian Wrynn.|FACTION|Alliance|
-A An Old Pit Fighter|QID|30989|M|82.60,28.07|Z|0084; Stormwind City|N|From King Varian Wrynn.|FACTION|Alliance|
-C An Old Pit Fighter|QID|30989|M|82.60,28.07|Z|0084; Stormwind City|N|Defeat King Varian Wrynn.|FACTION|Alliance|
-T An Old Pit Fighter|QID|30989|M|85.78,31.70|Z|0084; Stormwind City|N|To King Varian Wrynn on his throne.|FACTION|Alliance|
-N Housekeeping|AVAILABLE|26378|M|63.86,70.31|Z|0084; Stormwind City|N|Welcome to Stormwind City.\nSince this is the first time we're in a city, take your time to visit the AH, train weapon skills, and put stuff you don't need in the bank.\nThis is also a good time to pick up the rest of your professions from Instructaur.\nPick up all secondary professions; even if you don't want to skill them up.\n[color=FF0000]NOTE: [/color]\nManually check this step off to continue.|FACTION|Alliance|
-A Hero's Call: Westfall!|QID|28562|M|62.91,71.53|Z|0084; Stormwind City|N|From the Hero's Call Board.\n[color=FF0000]NOTE: [/color]You can get from either one, but this one is closer to where you want to be.|FACTION|Alliance|
-F Goldshire|ACTIVE|28562|M|70.93,72.47|Z|0084; Stormwind City|N|Fly to Goldshire.|FACTION|Alliance|
-D Onwards|ACTIVE|28562|N|This ends `Pandaren: Intro`.\nWestfall is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|BitWes1020|
+T Joining the Alliance|QID|30987|M|85.78,31.70|Z|84; Stormwind City|N|To King Varian Wrynn, in Stormwind Keep.|FACTION|Alliance|
+A The Alliance Way|QID|30988|PRE|30987|M|85.78,31.70|Z|84; Stormwind City|N|From King Varian Wrynn.|FACTION|Alliance|
+C The Alliance Way|QID|30988|M|82.60,28.07|Z|84; Stormwind City|N|Listen to King Varian Wrynn.\n[color=FF0000]NOTE: [/color]You can follow the King on his tour of Stormwind Keep, or skip this step and just meet him at the final location.|FACTION|Alliance|CHAT|
+T The Alliance Way|QID|30988|M|82.60,28.07|Z|84; Stormwind City|N|To King Varian Wrynn.|FACTION|Alliance|
+A An Old Pit Fighter|QID|30989|M|82.60,28.07|Z|84; Stormwind City|N|From King Varian Wrynn.|FACTION|Alliance|
+C An Old Pit Fighter|QID|30989|M|82.60,28.07|Z|84; Stormwind City|N|Defeat King Varian Wrynn.|FACTION|Alliance|
+T An Old Pit Fighter|QID|30989|M|85.78,31.70|Z|84; Stormwind City|N|To King Varian Wrynn on his throne.|FACTION|Alliance|
+N Housekeeping|AVAILABLE|26378|M|63.86,70.31|Z|84; Stormwind City|N|Welcome to Stormwind City.\nSince this is the first time we're in a city, take your time to visit the AH, train weapon skills, and put stuff you don't need in the bank.\nThis is also a good time to pick up the rest of your professions from Instructaur.\nPick up all secondary professions; even if you don't want to skill them up.\n[color=FF0000]NOTE: [/color]\nManually check this step off to continue.|FACTION|Alliance|
+A Hero's Call: Westfall!|QID|28562|M|62.91,71.53|Z|84; Stormwind City|N|From the Hero's Call Board.\n[color=FF0000]NOTE: [/color]You can get from either one, but this one is closer to where you want to be.|FACTION|Alliance|
+F Goldshire|ACTIVE|28562|M|70.93,72.47|Z|84; Stormwind City|N|Fly to Goldshire.|FACTION|Alliance|
+D Onwards|ACTIVE|28562|N|This ends Pandaren: Intro.\nWestfall is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|BitWes1020|
 
 ]]
 end)

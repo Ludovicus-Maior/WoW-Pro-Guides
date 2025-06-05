@@ -44,7 +44,7 @@ A By Any Means Necessary|QID|9978|PRE|9968^9971|M|44.3,26.3|Z|108; Terokkar Fore
 T By Any Means Necessary|QID|9978|M|47.1,27.0|Z|108; Terokkar Forest|N|Find Empoor on the road between Shattrath City and Tuurem. Talk to him and then fight him to low health. Turn this quest in right after this.|
 A Wind Trader Lathrai|QID|9979|PRE|9978|M|47.1,27.0|Z|108; Terokkar Forest|N|From Empoor.|
 R Allerian Stronghold|QID|9793|M|58.3,53.48|Z|108; Terokkar Forest|N|Run to the Allerian Stronghold.|
-A WANTED: Bonelashers Dead!|QID|10033|M|57.60,54.70|Z|108; Terokkar Forest|N|From the Wanted Poster.|
+A Wanted: Bonelashers Dead!|QID|10033|M|57.60,54.70|Z|108; Terokkar Forest|N|From the Wanted Poster.|
 A Olemba Seeds |QID|9992|M|57.4,55.4|Z|108; Terokkar Forest|N|From Ros'eleth.|
 A Thin the Flock |QID|10869|M|57.5,55.8|Z|108; Terokkar Forest|N|From Lieutenant Gravelhammer.|
 A Speak with Private Weeks|QID|10038|M|57.5,55.8|Z|108; Terokkar Forest|N|From Lieutenant Gravelhammer.|
@@ -105,7 +105,7 @@ A Veil Rhaze: Unliving Evil|QID|10848|PRE|10839|M|37.4,51.5|Z|108; Terokkar Fore
 T Missing Friends|QID|10852|M|37.7,51.3|Z|108; Terokkar Forest|N|To Ethan.|
 A The Tomb of Lights|QID|10840|PRE|10852|M|37.5,50.8|Z|108; Terokkar Forest|N|From High Priest Orglum.|
 A Vengeful Souls|QID|10842|PRE|10852|M|37.5,50.8|Z|108; Terokkar Forest|N|From Hight Priest Orglum.|
-C WANTED: Bonelashers Dead!|QID|10033|M|42,51|Z|108; Terokkar Forest|N|Kill Bonelashers until you finish this quest.|S|
+C Wanted: Bonelashers Dead!|QID|10033|M|42,51|Z|108; Terokkar Forest|N|Kill Bonelashers until you finish this quest.|S|
 C Before Darkness Falls|QID|10878|M|40.00,56.00|Z|108; Terokkar Forest|N|Kill Orcs until you finish this quest.|
 ;l Mark of Kil'jaeden|QID|10325|M|40.00,56.00|Z|108; Terokkar Forest|N|Kill orcs until you have 10 marks.|L|29425 10|REP|Aldor;932|
 l Cabal Orders|QID|10880|M|40.00,56.00|Z|108; Terokkar Forest|N|Kill Orcs until you get the Cabal Orders.|L|31707|
@@ -113,7 +113,7 @@ A Cabal Orders|QID|10880|M|32.2,52.8|Z|108; Terokkar Forest|N|Right-click the or
 C The Tomb of Lights|QID|10840|Z|108; Terokkar Forest|N|Kill the Ethereal Nethermancers and Plunderers needed for this quest.|S|
 C Vengeful Souls|QID|10842|M|47.00,55.00|Z|108; Terokkar Forest|N|Kill the 5 Vengeful Draenei you need to finish this quest.|
 C The Tomb of Lights|QID|10840|Z|108; Terokkar Forest|N|Kill the rest of the mobs needed for this quest.|US|
-C WANTED: Bonelashers Dead!|QID|10033|M|42,51|Z|108; Terokkar Forest|N|Kill Bonelashers until you finish this quest.|US|
+C Wanted: Bonelashers Dead!|QID|10033|M|42,51|Z|108; Terokkar Forest|N|Kill Bonelashers until you finish this quest.|US|
 T The Tomb of Lights|QID|10840|M|37.5,50.8|Z|108; Terokkar Forest|N|To High Priest Orglum.|
 T Vengeful Souls|QID|10842|M|37.4,51.5|Z|108; Terokkar Forest|N|To High Priest Orglum.|
 T Before Darkness Falls|QID|10878|M|37.4,51.2|Z|108; Terokkar Forest|N|To Mekeda.|
@@ -130,7 +130,7 @@ T A Personal Favor|QID|10112|M|72.2,30.7|Z|111; Shattrath City|N|To Wind Trader 
 A Investigate Tuurem|QID|9990|PRE|10112|M|72.2,30.7|Z|111; Shattrath City|N|From Wind Trader Lathrai.|
 F Allerian Stronghold|QID|9986|M|64.00,41.10|Z|111; Shattrath City|N|Fly to Allerian Stronghold.|
 T Stymying the Arakkoa|QID|9986|M|57.8,54.3|Z|108; Terokkar Forest|N|To Thander.|
-T WANTED: Bonelashers Dead!|QID|10033|M|58.1,53.4|Z|108; Terokkar Forest|N|To Taela Everstride.|
+T Wanted: Bonelashers Dead!|QID|10033|M|58.1,53.4|Z|108; Terokkar Forest|N|To Taela Everstride.|
 A Torgos!|QID|10035|PRE|10033|M|58.1,53.4|Z|108; Terokkar Forest|N|From Taela Everstride.|
 T Thin the Flock|QID|10869|M|57.5,55.8|Z|108; Terokkar Forest|N|To Lieutenant Gravehammer.|
 T Kill the Shadow Council!|QID|10042|M|57.5,55.8|Z|108; Terokkar Forest|N|To Lieutenant Gravehammer.|

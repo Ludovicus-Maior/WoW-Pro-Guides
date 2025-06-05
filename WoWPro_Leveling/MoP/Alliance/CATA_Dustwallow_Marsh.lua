@@ -7,10 +7,10 @@ return [[
 N This Guide|QID|27251|N|Picks up directly from where Southern Barrens leaves off. If you did not do Southern Barrens, you can take the Hero's Call quest from Darnassus, Exodar or Stormwind instead.  Either make your way to Fort Triumph and run to Theramore or sail from Wetlands.  (Manually close this step by right clicking the check box)|
 t The Call of Kalimdor|QID|26596|M|68.42,69.12|Z|10; Northern Barrens|N|To Gazlowe.|IZ|Ratchet|
 A Flight to Theramore|QID|26702|M|68.42,69.12|Z|10; Northern Barrens|N|To Gazlowe.|IZ|Ratchet|
-A WANTED: Cap'n Garvey|QID|895|M|68.28,71.28|Z|10; Northern Barrens|N|From the WANTED poster.|RANK|2|
+A Wanted: Cap'n Garvey|QID|895|M|68.28,71.28|Z|10; Northern Barrens|N|From the WANTED poster.|RANK|2|
 A It's Gotta be the Horn|QID|865|M|67.85,71.58|Z|10; Northern Barrens|N|From Mebok Mizzyrix.|
-l WANTED: Cap'n Garvey|ACTIVE|895|QO|1|M|77.81,89.20|Z|10; Northern Barrens|ITEM|5084|N|Cap'n Garvey\n[color=FF0000]NOTE: [/color]If you're feeling lucky you can try to pickpocket it from him (It's been done 9 times according to WH)|
-T WANTED: Cap'n Garvey|QID|895|M|68.42,69.12|Z|10; Northern Barrens|N|To Gazlowe.|
+l Wanted: Cap'n Garvey|ACTIVE|895|QO|1|M|77.81,89.20|Z|10; Northern Barrens|ITEM|5084|N|Cap'n Garvey\n[color=FF0000]NOTE: [/color]If you're feeling lucky you can try to pickpocket it from him (It's been done 9 times according to WH)|
+T Wanted: Cap'n Garvey|QID|895|M|68.42,69.12|Z|10; Northern Barrens|N|To Gazlowe.|
 l It's Gotta be the Horn|ACTIVE|865|QO|1|M|64.82,57.15;65.10,61.60|Z|10; Northern Barrens|CN|ITEM|46850|N|Reaperclaw\nHe (and his minions) wander back and forth between the waypoints.|
 T It's Gotta be the Horn|QID|865|M|67.85,71.52|Z|10; Northern Barrens|N|To Mebok Mizzyrix.|
 f Ratchet|ACTIVE|26702|M|68.96,70.53|Z|10; Northern Barrens|N|From Bragok|
@@ -123,9 +123,9 @@ C Survey Alcaz Island|QID|27239|NC|M|67.37,51.07|Z|70; Dustwallow Marsh|N|Tell C
 T Survey Alcaz Island|QID|27239|M|66.26,49.04|Z|70; Dustwallow Marsh|N|To Lady Jaina Proudmoore.|
 A Proof of Treachery|QID|27240|PRE|27239|M|66.27,49.05|Z|70; Dustwallow Marsh|N|From Lady Jaina Proudmoore. Wait a few seconds and this quest will appear.|
 R Stormwind City|QID|27240|M|66.26,49.05|Z|70; Dustwallow Marsh|N|Talk to Jaina to be ported to Stormwind.|
-T Proof of Treachery|QID|27240|M|85.79,32.80|Z|84;Stormwind City|N|To Grand Admiral Jes-Tereth.|
-A Return to Jaina|QID|27241|PRE|27240|M|85.79,32.80|Z|84;Stormwind City|N|To Grand Admiral Jes-Tereth.|
-R Theramore Isle|QID|27241|M|50.51,87.47|Z|84;Stormwind City|N|Head to the Mage Quarter and talk to Archmage Malin to get back to Theramore Isle.|
+T Proof of Treachery|QID|27240|M|85.79,32.80|Z|84; Stormwind City|N|To Grand Admiral Jes-Tereth.|
+A Return to Jaina|QID|27241|PRE|27240|M|85.79,32.80|Z|84; Stormwind City|N|To Grand Admiral Jes-Tereth.|
+R Theramore Isle|QID|27241|M|50.51,87.47|Z|84; Stormwind City|N|Head to the Mage Quarter and talk to Archmage Malin to get back to Theramore Isle.|
 T Return to Jaina|QID|27241|M|66.26,49.05|Z|70; Dustwallow Marsh|N|To Jaina Proudmore.|
 C ... and Bugs|QID|1258|M|68.78,46.53|Z|70; Dustwallow Marsh|N|Work your way around the banks of the town. The crabs drop their legs 100%.|
 T ... and Bugs|QID|1258|M|68.26,48.70|Z|70; Dustwallow Marsh|N|To Morgan Stern.|
@@ -203,16 +203,16 @@ T Mission to Mudsprocket|QID|27248|M|42.25,72.92|Z|70; Dustwallow Marsh|N|To Dra
 T Help for Mudsprocket|QID|11211|M|42.25,72.92|Z|70; Dustwallow Marsh|N|To Drazzit Dripvalve.|
 T Delivery for Drazzit|QID|11208|M|42.25,72.92|Z|70; Dustwallow Marsh|N|To Drazzit Dripvalve.|
 A Bloodfen Feathers|QID|27407|M|41.87,73.91|Z|70; Dustwallow Marsh|N|From Brogg.|
-A WANTED: Goreclaw the Ravenous|QID|27412|M|41.75,73.04|Z|70; Dustwallow Marsh|N|From the Wanted Poster.|
+A Wanted: Goreclaw the Ravenous|QID|27412|M|41.75,73.04|Z|70; Dustwallow Marsh|N|From the Wanted Poster.|
 A Catch a Dragon by the Tail|QID|27413|M|41.60,72.97|Z|70; Dustwallow Marsh|N|From Gizzix Grimegurgle.|
 r Get repaired and sell some junk.|QID|27407|M|42.51,73.40|Z|70; Dustwallow Marsh|N|At Razbo Rustgear.|
 C Bloodfen Feathers|QID|27407|S|M|34.88,67.93|Z|70; Dustwallow Marsh|N|Kill and loot raptors until you get 5 Bloodfen Feathers.|
-C WANTED: Goreclaw the Ravenous|QID|27412|M|32.40,65.46|Z|70; Dustwallow Marsh|N|Kill Goreclaw the Ravenous.|
+C Wanted: Goreclaw the Ravenous|QID|27412|M|32.40,65.46|Z|70; Dustwallow Marsh|N|Kill Goreclaw the Ravenous.|
 C Bloodfen Feathers|QID|27407|US|M|33.63,65.43|Z|70; Dustwallow Marsh|N|Finish gathering Bloodfen Feathers.|
 T Bloodfen Feathers|QID|27407|M|41.86,73.97|Z|70; Dustwallow Marsh|N|To Brogg.|
 A Banner of the Stonemaul|QID|27408|PRE|27407|M|41.86,73.97|Z|70; Dustwallow Marsh|N|From Brogg.|
 A The Essence of Enmity|QID|27409|PRE|27407|M|41.86,73.95|Z|70; Dustwallow Marsh|N|From Brogg.|
-T WANTED: Goreclaw the Ravenous|QID|27412|M|42.36,72.94|Z|70; Dustwallow Marsh|N|To Drazzit Dripvalve.|
+T Wanted: Goreclaw the Ravenous|QID|27412|M|42.36,72.94|Z|70; Dustwallow Marsh|N|To Drazzit Dripvalve.|
 C The Essence of Enmity|QID|27409|S|U|33088|M|43.94,66.19|Z|70; Dustwallow Marsh|N|Kill any Firemane Scouts, Ash Tails or Scalebanes you see. Then use this item on their corpse.|
 C Catch a Dragon by the Tail|QID|27413|M|51.35,76.19|Z|70; Dustwallow Marsh|N|Collect these herbs as you go. Again... Herbers have an advantage here.|NC|
 R Entrance of the cave|QID|27408|CC|M|38.59,65.80|Z|70; Dustwallow Marsh|N|Head into the cave.|

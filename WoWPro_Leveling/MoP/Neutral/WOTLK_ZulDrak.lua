@@ -19,15 +19,15 @@ T Reallocating Resources|QID|12770|O|Z|121; Zul'Drak|N|To Sergeant Riannah. Talk
 A This Just In: Fire Still Hot!|QID|12859|M|32.0,75.6|Z|121; Zul'Drak|N|From Elder Shaman Moky.|
 A Trolls Is Gone Crazy!|QID|12861|M|32.2,75.7|Z|121; Zul'Drak|N|From Chief Rageclaw.|
 A In Search Of Answers|QID|12902|M|32.2,75.7|Z|121; Zul'Drak|N|From Crusader Lord Lantinga.|
-A WANTED: Ragemane's Flipper|QID|12857|Z|121; Zul'Drak|N|From Wanted!|M|32.26,75.67|
+A Wanted: Ragemane's Flipper|QID|12857|Z|121; Zul'Drak|N|From Wanted!|M|32.26,75.67|
 C This Just In: Fire Still Hot!|QID|12859|S|Z|121; Zul'Drak|N|Use the fire extinguisher on the burning huts. Each fire will take multiple hits.|U|41131|M|34.9,81.0|
 C Trolls Is Gone Crazy!|QID|12861|Z|121; Zul'Drak|N|Kill and loot Drakuru Trolls to get "Lock Openers". Use the "Lock Openers" next to the chains to free the Captured Rageclaws.|U|41161|M|34.9,81.0|S|
 T In Search Of Answers|QID|12902|Z|121; Zul'Drak|N|To Orders From Drakuru, the glowing blue scroll on the pedestal at Rageclaw Den.|M|34.92,83.84|
 A Orders From Drakuru|QID|12883|PRE|12902|M|34.9,83.9|Z|121; Zul'Drak|N|From Orders From Drakuru.|
 C Trolls Is Gone Crazy!|QID|12861|Z|121; Zul'Drak|N|Finish freeing the Captured Rageclaws.|U|41161|M|34.9,81.0|US|
 C This Just In: Fire Still Hot!|QID|12859|US|Z|121; Zul'Drak|N|Use the fire extinguisher on the burning huts. Each fire will take multiple hits.|U|41131|M|34.9,81.0|
-C WANTED: Ragemane's Flipper|QID|12857|Z|121; Zul'Drak|N|Head out into the middle of the pond and kill Ragemane and loot his flipper.|M|38.2,85.6|
-T WANTED: Ragemane's Flipper|QID|12857|Z|121; Zul'Drak|N|To Chief Rageclaw.|M|32.2,75.7|
+C Wanted: Ragemane's Flipper|QID|12857|Z|121; Zul'Drak|N|Head out into the middle of the pond and kill Ragemane and loot his flipper.|M|38.2,85.6|
+T Wanted: Ragemane's Flipper|QID|12857|Z|121; Zul'Drak|N|To Chief Rageclaw.|M|32.2,75.7|
 T This Just In: Fire Still Hot!|QID|12859|Z|121; Zul'Drak|N|To Elder Shaman Moky at Light's Breach.|M|32.0,75.6|
 T Trolls Is Gone Crazy!|QID|12861|M|32.2,75.7|Z|121; Zul'Drak|N|To Chief Rageclaw.|
 T Orders From Drakuru|QID|12883|M|32.2,75.7|Z|121; Zul'Drak|N|To Crusader Lord Lantinga.|

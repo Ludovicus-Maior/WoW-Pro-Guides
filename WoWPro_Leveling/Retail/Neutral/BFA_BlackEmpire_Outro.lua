@@ -176,7 +176,7 @@ P The Great Seal|ACTIVE|57290|M|41.48,44.86|Z|81;Silithus|NC|N|Take the Portal t
 P Orgrimmar|ACTIVE|57290|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take the Portal to Orgrimmar.|FACTION|Horde|
 P Twilight Highlands|ACTIVE|57290|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|FACTION|Horde|
 F Iron Summit|ACTIVE|57290|M|73.79,52.80|Z|Twilight Highlands|N|To Gorthul, to Fly to Iron Summit.|FACTION|Horde|
-R Blackwing Descent Instance|ACTIVE|57290|M|47.54,68.93|Z|Eastern Kingdoms|TZ|1538|N|Fly to the Blackwing Descent instance atop Blackrock Mountain. When you get there, enter the instance to start the scenario.|
+R Blackwing Descent Instance|ACTIVE|57290|M|47.54,68.93|Z|13; Eastern Kingdoms|TZ|1538|N|Fly to the Blackwing Descent instance atop Blackrock Mountain. When you get there, enter the instance to start the scenario.|
 C Forced Entry|ACTIVE|57290|SO|1|M|46.92,42.92|Z|The Broken Hall@Blackwing Descent!Dungeon1538|N|Work your way forward to the Vault of the Shadowflame, take the elevator down and wait by Wrathion for completion.|
 C Something must be done|ACTIVE|57290|SO|2|M|47.88,84.09|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|CHAT|N|Speak with Wrathion.|
 K Extractor Thelsara|ACTIVE|57290|SO|3;1|M|71.46,69.77|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Work your way torward the right and then kill Thelsara.|

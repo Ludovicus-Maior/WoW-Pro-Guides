@@ -143,7 +143,7 @@ A A Captain's Vengeance|QID|891|M|67.72,74.00|N|From Captain Thalo'thas Brightsu
 T Who's Shroomin' Who?|QID|13999|M|67.07,74.78|N|To Sashya.|
 h Ratchet|AVAILABLE|14052|M|67.29,74.68|N|At Innkeeper Wiley.|
 A It's Gotta be the Horn|QID|865|RANK|1|M|67.85,71.58|N|From Mebok Mizzyrix.|
-A WANTED: Cap'n Garvey|QID|895|M|68.28,71.28|N|From the WANTED poster.|RANK|2|
+A Wanted: Cap'n Garvey|QID|895|M|68.28,71.28|N|From the WANTED poster.|RANK|2|
 A Southsea Freebooters|QID|887|M|69.53,72.88|N|From Wharfmaster Dizzywig.|RANK|2|
 A Take it up with Tony|QID|14052|M|69.53,72.88|N|From Wharfmaster Dizzywig.|RANK|1| ; Storyline
 R Investigate the Wreckage|ACTIVE|14066|M|65.99,66.91|N|Head to the waypoint to investigate the wreckage.|
@@ -176,7 +176,7 @@ C Glomp is Sitting On It|QID|14056|M|76.92,90.80|N|Outside the cabin. Kill him a
 T Glomp is Sitting On It|QID|14056|M|77.30,91.36|N|To Tony Two-Tusk.|
 A Guns. We Need Guns.|QID|14057|M|77.30,91.36|N|From Tony Two-Tusk.|PRE|14056|RANK|1| ; Storyline
 C Guns. We Need Guns.|QID|14057|S|M|77.86,89.29|N|Inside the other cabin, up the stairs, loot the rifles.|
-C WANTED: Cap'n Garvey|QID|895|M|77.81,89.20|N|Kill Cap'n Garvey and loot his head.|
+C Wanted: Cap'n Garvey|QID|895|M|77.81,89.20|N|Kill Cap'n Garvey and loot his head.|
 C Guns. We Need Guns.|QID|14057|US|M|77.86,89.29|N|Inside the other cabin, up the stairs, loot the rifles.|
 C Southsea Freebooters|QID|887|US|M|77.61,89.48|N|Finish killing 8 Southsea Cutthroats or Privateers on Fray Island.|
 T Guns. We Need Guns.|QID|14057|M|77.25,91.34|N|To Tony Two-Tusk.|
@@ -186,7 +186,7 @@ H Ratchet|ACTIVE|891|M|67.72,74.01|N|Hearth or return to Ratchet.|
 T A Captain's Vengeance|QID|891|M|67.67,74.03|N|To Captain Thalo'thas Brightsun.|
 T Southsea Freebooters|QID|887|M|69.58,72.91|N|To Wharfmaster Dizzywig.|
 T Mutiny, Mon!|QID|14063|M|69.58,72.91|N|To Wharfmaster Dizzywig.|
-T WANTED: Cap'n Garvey|QID|895|M|68.42,69.12|N|To Gazlowe.|
+T Wanted: Cap'n Garvey|QID|895|M|68.42,69.12|N|To Gazlowe.|
 A Club Foote|QID|14034|M|68.42,69.12|N|From Gazlowe.|RANK|1| ; Storyline
 A Find Baron Longshore|QID|14045|M|68.42,69.12|N|From Gazlowe.|RANK|1| ; Storyline
 C Club Foote|QID|14034|M|67.05,74.66|N|Find Chief Engineer Force at the Inn. Club him and search his pockets.|T|Chief Engineer Force|

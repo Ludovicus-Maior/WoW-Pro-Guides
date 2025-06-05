@@ -140,7 +140,7 @@ T Hunting the Damned|QID|28358|M|44.00,27.83|Z|77; Felwood|N|To Hurak Wildhorn.|
 T The Core of Kroshius|QID|28359|M|44.00,27.83|Z|77; Felwood|N|To Hurak Wildhorn.|
 C Weeding the Lawn|QID|28374|M|44.69,31.13|Z|77; Felwood|N|Click on Whisperwind Lashers, they may or may not attack.|
 T Weeding the Lawn|QID|28374|M|43.33,30.46|Z|77; Felwood|N|To Tender Puregrove.|
-A WANTED: The Demon Hunter|QID|28217|PRE|28374|M|43.47,28.24|Z|77; Felwood|N|From Huntress Selura.|
+A Wanted: The Demon Hunter|QID|28217|PRE|28374|M|43.47,28.24|Z|77; Felwood|N|From Huntress Selura.|
 A Nature and Nurture|QID|28229|PRE|28374|M|43.92,28.11|Z|77; Felwood|N|From Isural Forestsworn.|
 l Nature and Nurture|QID|28229|U|63332|L|63387|M|44.04,28.40|Z|77; Felwood|N|Stand in the Moonwell and fill your vial.|
 C Nature and Nurture|QID|28229|U|63387|M|48.67,25.14|Z|77; Felwood|N|Use your bottle of moonwell water here.|
@@ -165,8 +165,8 @@ T The Last Protector|QID|28224|M|52.84,24.02|Z|77; Felwood|N|To the Flourishing 
 A Rejoining the Forest|QID|28228|PRE|28224|M|52.84,24.02|Z|77; Felwood|N|From the Flourishing Protector.|
 C Rejoining the Forest|QID|28228|NC|M|48.72,25.26|Z|77; Felwood|N|Take the Flourishing Protector to the top of the small hill.|
 T Rejoining the Forest|QID|28228|M|48.69,25.19|Z|77; Felwood|N|(UI Alert)|
-C WANTED: The Demon Hunter|QID|28217|M|45.40,20.30|Z|77; Felwood|N|Talk to the "friendly" npc here.|
-T WANTED: The Demon Hunter|QID|28217|M|45.54,20.11|Z|77; Felwood|N|To Feronas Sindweller.|
+C Wanted: The Demon Hunter|QID|28217|M|45.40,20.30|Z|77; Felwood|N|Talk to the "friendly" npc here.|
+T Wanted: The Demon Hunter|QID|28217|M|45.54,20.11|Z|77; Felwood|N|To Feronas Sindweller.|
 A A Destiny of Flame and Sorrow|QID|28218|PRE|28217|M|45.54,20.11|Z|77; Felwood|N|From Feronas Sindweller.|
 C A Destiny of Flame and Sorrow|QID|28218|NC|M|45.37,19.83|Z|77; Felwood|N|Join in and whack Arthas.|
 T A Destiny of Flame and Sorrow|QID|28218|M|45.53,20.10|Z|77; Felwood|N|To Feronas Sindweller.|

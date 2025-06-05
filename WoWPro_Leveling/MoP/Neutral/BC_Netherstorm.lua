@@ -15,7 +15,7 @@ T Assist Exarch Orelis|QID|11038|M|32.07,64.22|Z|109; Netherstorm|N|To Exarch Or
 A Distraction at Manaforge B'naar|QID|10241|M|32.07,64.22|Z|109; Netherstorm|N|From Exarch Orelis.|REP|Aldor;932|
 T Report to Spymaster Thalodien|QID|11039|M|31.98,64.09|Z|109; Netherstorm|N|To Spymaster Thalodien.|REP|Scryers;934|
 A Manaforge B'naar|QID|10189|M|31.98,64.09|Z|109; Netherstorm|N|From Spymaster Thalodien.|REP|Scryers;934|
-A WANTED: Annihilator Servo!|QID|10261|M|32.12,64.63|Z|109; Netherstorm|N|From the Wanted Poster.|
+A Wanted: Annihilator Servo!|QID|10261|M|32.12,64.63|Z|109; Netherstorm|N|From the Wanted Poster.|
 A Breaking Down Netherock|QID|10701|M|32.12,64.63|Z|109; Netherstorm|N|From the Wanted Poster.|
 A Consortium Crystal Collection|QID|10265|M|32.45,64.29|Z|109; Netherstorm|N|From Nether-Stalker Khay'ji.|
 A You're Hired!|QID|10186|M|32.72,64.92|Z|109; Netherstorm|N|From Rocket-Chief Fuselage.|
@@ -24,14 +24,14 @@ A The Archmage's Staff|QID|10173|M|31.42,66.09|Z|109; Netherstorm|N|From Ravandw
 C Wanted: Annihilator Servo!|QID|10261|S|T|Arcane Annihilator|M|21.28,69.89|Z|109; Netherstorm|N|Keep an eye out for Arcane Annihilator, kill and loot it. It wanders around the manaforge.|
 C Manaforge B'naar|QID|10189|M|27.57,65.41|Z|109; Netherstorm|N|Kill and loot Captain Arathyn to get the B'naar Personnel Roster.|T|Captain Arathyn|REP|Scryers;934|
 C Distraction at Manaforge B'naar|QID|10241|M|25.32,66.60|Z|109; Netherstorm|N|Kill the mobs needed. The Magisters tend to be around the floating red crystals.|REP|Aldor;932|
-C WANTED: Annihilator Servo!|QID|10261|US|T|Arcane Annihilator|M|21.28,69.89|Z|109; Netherstorm|N|Run around the manaforge for an Arcane Annihilator, kill and loot it. It wanders around the manaforge.|
+C Wanted: Annihilator Servo!|QID|10261|US|T|Arcane Annihilator|M|21.28,69.89|Z|109; Netherstorm|N|Run around the manaforge for an Arcane Annihilator, kill and loot it. It wanders around the manaforge.|
 C Breaking Down Netherock|QID|10701|T|Netherock|M|37.02,78.03;41,77.1;30.1,80.6;25.4,81.1;21,77.9;19,73.2|CN|Z|109; Netherstorm|N|Netherock patrols along the edge where the waypoints are. Go back and forth along them until you find him.|
 C Securing the Shaleskin Shale|QID|10342|M|35.92,73.8;30.67,68.42|CS|Z|109; Netherstorm|N|Kill and loot Shaleskin Flayers until you have 5 Shaleskin Shales. If you don't have all 5 by the time your done killing Flayers at the 1st waypoint, head to the 2nd.|
 C The Archmage's Staff|QID|10173|U|29207|M|40.97,72.55|Z|109; Netherstorm|N|Use the Conjuring Powder next to the brazier, then kill and loot Ekkorash.|
 C Consortium Crystal Collection|QID|10265|M|42.41,72.67|Z|109; Netherstorm|N|Kill and loot Pentatharon for the Arkion Crystal Artifact.|
 T The Archmage's Staff|QID|10173|M|31.41,66.22|Z|109; Netherstorm|N|To Ravandwyr.|
 A Rebuilding the Staff|QID|10300|PRE|10173|M|31.41,66.22|Z|109; Netherstorm|N|From Ravandwyr.|
-T WANTED: Annihilator Servo!|QID|10261|M|32.93,64.73|Z|109; Netherstorm|N|To Papa Wheeler.|
+T Wanted: Annihilator Servo!|QID|10261|M|32.93,64.73|Z|109; Netherstorm|N|To Papa Wheeler.|
 T Breaking Down Netherock|QID|10701|M|32.72,64.49|Z|109; Netherstorm|N|To Rocket-Chief Fuselage.|
 T Consortium Crystal Collection|QID|10265|M|32.50,64.16|Z|109; Netherstorm|N|To Nether-Stalker Khay'ji.|
 A A Heap of Ethereals|QID|10262|PRE|10265|M|32.50,64.16|Z|109; Netherstorm|N|From Nether-Stalker Khay'ji.|

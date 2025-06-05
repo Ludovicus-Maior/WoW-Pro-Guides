@@ -17,7 +17,7 @@ C Besieged!|QID|10562|M|40.48,52.53|Z|104; Shadowmoon Valley!Outland|N|Kill 10 o
 T Besieged!|QID|10562|M|39.57,53.70|Z|104; Shadowmoon Valley!Outland|N|To Wing Commander Nuainn.|
 A To Legion Hold|QID|10563|PRE|10562|M|39.57,53.70|Z|104; Shadowmoon Valley!Outland|N|From Wing Commander Nuainn.|
 A The Sketh'lon Wreckage|QID|10569|M|38.74,54.10|Z|104; Shadowmoon Valley!Outland|N|From Gryphonrider Kieran.|
-A WANTED: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.30,53.93|Z|104; Shadowmoon Valley!Outland|N|From the Wanted Poster.|
+A Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.30,53.93|Z|104; Shadowmoon Valley!Outland|N|From the Wanted Poster.|
 f Wildhammer Stronghold|QID|10680|M|37.66,55.33|Z|104; Shadowmoon Valley!Outland|N|At Brubeck Stormfoot.|
 A Spleendid!|QID|10661|M|36.62,55.18|Z|104; Shadowmoon Valley!Outland|N|From Gnomus.|
 T Zorus the Judicator|QID|11045|M|36.93,54.90|Z|104; Shadowmoon Valley!Outland|N|To Zorus the Judicator, he wanders around a bit.|
@@ -304,11 +304,11 @@ C Zuluhed the Whacked|QID|10866^10872|QO|1|M|69.86,61.23|Z|104; Shadowmoon Valle
 T Zuluhed the Whacked|QID|10866^10872|M|69.86,61.23|Z|104; Shadowmoon Valley!Outland|N|To Karynaku.|
 A Ally of the Netherwing|QID|10870^10871|PRE|10866^10872|M|69.86,61.23|Z|104; Shadowmoon Valley!Outland|N|From Karynaku.|
 T Ally of the Netherwing|QID|10870^10871|M|59.33,58.65|Z|104; Shadowmoon Valley!Outland|N|To Mordenai.|
-C WANTED: Uvuros, Scourge of Shadowmoon|QID|10648|M|55.08,49.41|Z|104; Shadowmoon Valley!Outland|N|Kill the giant puppy.|
+C Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|55.08,49.41|Z|104; Shadowmoon Valley!Outland|N|Kill the giant puppy.|
 T The Cipher of Damnation - Borak's Charge|QID|10578|M|47.50,57.22|Z|104; Shadowmoon Valley!Outland|N|To Borak, Son of Oronok.|
 A The Cipher of Damnation - The Third Fragment Recovered|QID|10579|PRE|10578|M|47.50,57.22|Z|104; Shadowmoon Valley!Outland|N|From Borak, Son of Oronok.|
 C Dissension Amongst the Ranks...|QID|10776|U|31279|M|42.11,70.51|Z|104; Shadowmoon Valley!Outland|N|Use the Tabard that you were given and kill 5 Crazed Colossus. If you don't have the Tabard use the flare gun and ask the NPC for another.|
-T WANTED: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.28,53.99|Z|104; Shadowmoon Valley!Outland|N|To Warcaller Beersnout.|
+T Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.28,53.99|Z|104; Shadowmoon Valley!Outland|N|To Warcaller Beersnout.|
 T Teron Gorefiend, I am...|QID|10645|M|36.79,56.57|Z|104; Shadowmoon Valley!Outland|N|To Zorus the Judicator.|
 T Dissension Amongst the Ranks...|QID|10776|M|36.29,56.90|Z|104; Shadowmoon Valley!Outland|N|To Thane Yoregar.|
 r Repair/Restock|QID|10781|M|36.85,54.80|Z|104; Shadowmoon Valley!Outland|N|At Ordinn Thunderfist.|

@@ -4,8 +4,8 @@ WoWPro:GuideName(guide,"Mount Hyjal")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal.|FACTION|Alliance|
-C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.69,29.60|Z|84;Stormwind City|CHAT|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
+A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|84; Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal.|FACTION|Alliance|
+C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.69,29.60|Z|84; Stormwind City|CHAT|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
 T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|80; Moonglade|N|To Emissary Windsong.|FACTION|Alliance|
 A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board from Orgrimmar.|FACTION|Horde|
 C Warchief's Command: Mount Hyjal!|QID|27721|M|40.0,50.5|CHAT|Z|Orgrimmar|N|Speak to Cenarion Emissary Blackhoof in the Valley of Wisdom and ask "Could you please send me to Moonglade Emissary?".|FACTION|Horde|

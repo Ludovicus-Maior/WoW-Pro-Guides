@@ -90,13 +90,13 @@ T Suncrown Village|QID|9138|M|46.54,28.41|Z|Ghostlands|N|To Arcanist Vandril.|
 A Goldenmist Village|QID|9139|PRE|9212&9199&9193&9138|M|46.54,28.41|Z|Ghostlands|N|From Arcanist Vandril.|
 T Anok'suten|QID|9315|M|46.54,28.41|Z|Ghostlands|N|To Arcanist Vandril.|
 A Tomber's Supplies|QID|9152|PRE|9315|M|47.04,28.46|Z|Ghostlands|N|From Rathis Tomber.|
-A WANTED: Knucklerot and Luzran|QID|9156|PRE|9315|M|48.33,31.69|Z|Ghostlands|N|From Rathis Tomber.|
+A Wanted: Knucklerot and Luzran|QID|9156|PRE|9315|M|48.33,31.69|Z|Ghostlands|N|From Rathis Tomber.|
 A Culinary Crunch|QID|9171|PRE|9315|M|48.44,30.92|Z|Ghostlands|N|From Master Chef Mouldier.|
 A Salvaging the Past|QID|9150|PRE|9315|M|46.02,31.96|Z|Ghostlands|N|From Magister Darenis.|
 A Investigate An'daroth|QID|9160|PRE|9315|M|44.87,32.53|Z|Ghostlands|N|From Dame Auriferous.|
 A Trouble at the Underlight Mines|QID|9192|PRE|9315|M|44.74,32.27|Z|Ghostlands|N|From Deathstalker Maltendis.|
 A The Plagued Coast|QID|9149|PRE|9315|M|47.66,34.86|Z|Ghostlands|N|From Apothecary Renzithen.|
-C WANTED: Knucklerot and Luzran|QID|9156|M|37.28,49.96|Z|Ghostlands|N|Luzran's Head.|S|
+C Wanted: Knucklerot and Luzran|QID|9156|M|37.28,49.96|Z|Ghostlands|N|Luzran's Head.|S|
 C Curbing the Plague|QID|9159|M|23.43,39.72|Z|Ghostlands|QO|2|N|Spindleweb Lurker slain.|S|
 A Underlight Ore Samples|QID|9207|M|31.46,48.32|Z|Ghostlands|N|From Apprentice Shatharia.|
 C Underlight Ore Samples|QID|9207|M|25.89,47.48|Z|Ghostlands|QO|1|NC|N|Underlight Ore.|S|
@@ -109,7 +109,7 @@ C Tomber's Supplies|QID|9152|M|33.56,26.50|Z|Ghostlands|NC|N|Rathis Tomber's Sup
 C Goldenmist Village|QID|9139|M|25.93,14.54|Z|Ghostlands|N|Quel'dorei Wraith slain.|
 C Investigate An'daroth|QID|9160|M|36.06,12.72|Z|Ghostlands|N|Sentinel Spys slain.|
 C Curbing the Plague|QID|9159|M|23.43,39.72|Z|Ghostlands|QO|2|N|Spindleweb Lurker slain.|US|
-C WANTED: Knucklerot and Luzran|QID|9156|M|37.28,49.96|Z|Ghostlands|N|Luzran's Head.|US|
+C Wanted: Knucklerot and Luzran|QID|9156|M|37.28,49.96|Z|Ghostlands|N|Luzran's Head.|US|
 H Tranquillien|QID|9214|N|Hearth to Tranquillien.|
 T The Plagued Coast|QID|9149|M|47.66,34.94|Z|Ghostlands|N|To Apothecary Renzithen.|
 T Salvaging the Past|QID|9150|M|46.06,32.06|Z|Ghostlands|N|To Magister Darenis.|
@@ -121,7 +121,7 @@ T Tomber's Supplies|QID|9152|M|47.25,28.64|Z|Ghostlands|N|To Rathis Tomber.|
 T Goldenmist Village|QID|9139|M|46.33,28.41|Z|Ghostlands|N|To Arcanist Vandril.|
 A Windrunner Village|QID|9140|PRE|9192&9171&9152&9139|M|46.33,28.41|Z|Ghostlands|N|From Arcanist Vandril.|
 A Retaking Windrunner Spire|QID|9173|PRE|9192&9171&9152&9139|M|44.86,32.44|Z|Ghostlands|N|From High Executor Mavren.|
-T WANTED: Knucklerot and Luzran|QID|9156|M|46.00,33.55|Z|Ghostlands|N|To Deathstalker Rathiel.|
+T Wanted: Knucklerot and Luzran|QID|9156|M|46.00,33.55|Z|Ghostlands|N|To Deathstalker Rathiel.|
 C Into Occupied Territory|QID|9163|M|12.76,25.11|Z|Ghostlands|QO|2|NC|N|Night Elf Plans: An'owyn.|
 C Into Occupied Territory|QID|9163|M|12.53,26.48|Z|Ghostlands|QO|1|NC|N|Night Elf Plans: An'daroth.|
 C Into Occupied Territory|QID|9163|M|10.47,22.58|Z|Ghostlands|QO|3|NC|N|Night Elf Plans: Scrying on the Sin'dorei.|

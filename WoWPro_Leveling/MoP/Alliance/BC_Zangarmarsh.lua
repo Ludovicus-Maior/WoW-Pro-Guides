@@ -151,20 +151,20 @@ A Secrets of the Daggerfen|QID|9848|M|41.2,28.7|Z|102; Zangarmarsh|N|From Timoth
 T The Orebor Harborage|QID|9776|M|41.9,27.2|Z|102; Zangarmarsh|N|To Ikuti.|
 A Ango'rosh Encroachment|QID|9835|M|41.9,27.2|Z|102; Zangarmarsh|N|From Ikuti.|
 A Daggerfen Deviance|QID|10115|M|41.9,27.2|Z|102; Zangarmarsh|N|From Ikuti.|
-A WANTED: Chieftain Mummaki|QID|10116|M|41.7,27.3|Z|102; Zangarmarsh|N|From Wanted Poster.|
+A Wanted: Chieftain Mummaki|QID|10116|M|41.7,27.3|Z|102; Zangarmarsh|N|From Wanted Poster.|
 N From now on..|QID|9808|Z|102; Zangarmarsh|N|From now on, loot Glowcaps (red glowing mushrooms) off the ground. You will need 10 of them.|
 C Ango'rosh Encroachment|QID|9835|Z|102; Zangarmarsh|N|Kill the Ogres needed for this quest.|S|
 C Daggerfen Deviance|QID|10115|Z|102; Zangarmarsh|N|Kill the Daggerfen needed for this quest.|S|
 C Secrets of the Daggerfen|QID|9848|QO|2|M|23.75,22.79|Z|102; Zangarmarsh|N|Go in this area and loot the Daggerfen Poison Vial.|NC|
 C Secrets of the Daggerfen|QID|9848|QO|1|M|24.40,27.0|Z|102; Zangarmarsh|N|Go up the tower, and loot the manual from the ground.|NC|
-C WANTED: Chieftain Mummaki|QID|10116|M|23.8,26.8|Z|102; Zangarmarsh|N|Kill Mummaki and loot the item from him.|
+C Wanted: Chieftain Mummaki|QID|10116|M|23.8,26.8|Z|102; Zangarmarsh|N|Kill Mummaki and loot the item from him.|
 C Daggerfen Deviance|QID|10115|M|24,27|Z|102; Zangarmarsh|N|Kill the Daggerfen needed for this quest.|US|
 C Ango'rosh Encroachment|QID|9835|M|36.00,28.0|Z|102; Zangarmarsh|N|Kill the Ogres needed for this quest.|US|
 T Secrets of the Daggerfen|QID|9848|M|41.2,28.7|Z|102; Zangarmarsh|N|To Timothy Daniels.|
 T Ango'rosh Encroachment|QID|9835|M|41.9,27.2|Z|102; Zangarmarsh|N|To Ikuti.|
 A Overlord Gorefist|QID|9839|PRE|9835|M|41.9,27.2|Z|102; Zangarmarsh|N|From Ikuti.|
 T Daggerfen Deviance|QID|10115|M|41.9,27.2|Z|102; Zangarmarsh|N|To Ikuti.|
-T WANTED: Chieftain Mummaki|QID|10116|M|41.9,27.2|Z|102; Zangarmarsh|N|To Ikuti.|
+T Wanted: Chieftain Mummaki|QID|10116|M|41.9,27.2|Z|102; Zangarmarsh|N|To Ikuti.|
 A Natural Armor|QID|9834|M|41.6,27.3|Z|102; Zangarmarsh|N|From Maktu.|
 A Stinger Venom|QID|9830|M|40.8,28.7|Z|102; Zangarmarsh|N|From Puluu.|
 A Lines of Communication|QID|9833|M|40.8,28.7|Z|102; Zangarmarsh|N|From Puluu.|

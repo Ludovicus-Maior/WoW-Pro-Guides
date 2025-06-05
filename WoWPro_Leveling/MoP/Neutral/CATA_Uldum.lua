@@ -4,8 +4,8 @@ WoWPro:GuideName(guide,"Uldum")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Hero's Call: Uldum!|QID|28558|M|63,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Uldum.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
-P Uldum|QID|28558|M|75.25,20.53|Z|84;Stormwind City|N|Take the Portal to Uldum.|FACTION|Alliance|
+A Hero's Call: Uldum!|QID|28558|M|63,71.7|Z|84; Stormwind City|N|From the Hero's Call Board. Select Uldum.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
+P Uldum|QID|28558|M|75.25,20.53|Z|84; Stormwind City|N|Take the Portal to Uldum.|FACTION|Alliance|
 T Hero's Call: Uldum!|QID|28558|M|30.52,65.58|Z|71; Tanaris|N|Mount up and fly to Tanaris to turn in to Adarrah.|
 
 T Warchief's Command: Uldum!|QID|28557|M|30.52,65.58|Z|71; Tanaris|N|To Adarrah.|O|

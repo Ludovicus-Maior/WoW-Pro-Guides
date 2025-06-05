@@ -49,7 +49,7 @@ A Speak with Scout Neftis|QID|10039|M|48.93,44.59|N|From Advisor Faila.|
 A Arakkoa War Path|QID|10868|M|48.93,44.59|N|From Advisor Faila.|
 A An Unwelcome Presence|QID|10000|M|48.77,45.69|N|From Kurgatok.|
 A Magical Disturbances|QID|10027|M|48.77,45.69|N|From Kurgatok.|
-A WANTED: Bonelashers Dead!|QID|10034|M|49.82,45.27|N|From the WANTED Poster.|
+A Wanted: Bonelashers Dead!|QID|10034|M|49.82,45.27|N|From the WANTED Poster.|
 T News for Rakoria|QID|10105|M|50.13,44.88|N|To Rakoria.| ;Quest gotten in Zangarmarsh
 A Olemba Seed Oil|QID|9993|M|50.13,44.88|N|From Rakoria.|
 A Vestments of the Wolf Spirit|QID|10018|M|50.17,46.44|N|From Malukaz.|
@@ -110,7 +110,7 @@ A Veil Rhaze: Unliving Evil|QID|10848|PRE|10839|M|37.4,51.5|N|Frin Kirrik the Aw
 T Missing Friends|QID|10852|M|37.74,51.34|N|To Ethan.|
 A The Tomb of Lights|QID|10840|PRE|10852|M|37.45,50.77|N|From High Priest Orglum.|
 A Vengeful Souls|QID|10842|PRE|10852|M|37.45,50.77|N|From Hight Priest Orglum.|
-C WANTED: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10034|M|42.64,50.40|S|
+C Wanted: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10034|M|42.64,50.40|S|
 ;l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 -10|M|40.00,56.00|REP|Aldor;932|S!US|LVL|-37|;Needs testing
 A Cabal Orders|N|Right-click the orders to start the quest.|QID|10880|M|32.2,52.8|U|31707|O|
 C Before Darkness Falls|N|Kill Orcs until you finish this quest.|QID|10878|M|40.00,56.00|
@@ -118,7 +118,7 @@ l Cabal Orders|QID|10880|N|Kill Orcs until you get the Cabal Orders.|L|31707|M|4
 C The Tomb of Lights|M|46.99,54.62|N|Kill the Ethereal Nethermancers and Plunderers needed for this quest.|QID|10840|S|
 C Vengeful Souls|N|Kill the 5 Vengeful Draenei you need to finish this quest.|QID|10842|M|47.00,55.00|
 C The Tomb of Lights|M|46.99,54.62|N|Kill the rest of the mobs needed for this quest.|QID|10840|US|
-C WANTED: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10034|M|42,51|US|
+C Wanted: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10034|M|42,51|US|
 T The Tomb of Lights|QID|10840|M|37.45,50.77|N|To High Priest Orglum.|
 T Vengeful Souls|N|To High Priest Orglum.|QID|10842|M|37.45,50.77|
 T Before Darkness Falls|QID|10878|M|37.4,51.2|N|To Mekeda.|
@@ -138,7 +138,7 @@ T Kill the Shadow Council!|QID|10043|M|48.93,44.59|N|To Advisor Faila.|
 T Arakkoa War Path|QID|10868|M|48.93,44.59|N|To Advisor Faila.|
 T Stymying the Arakkoa|QID|9987|M|48.97,44.64|N|To Rokag.|
 T Magical Disturbances|QID|10027|M|48.77,45.69|N|To Kurgatok.|
-T WANTED: Bonelashers Dead!|QID|10034|M|49.25,45.88|N|To Mawg Grimshot.|
+T Wanted: Bonelashers Dead!|QID|10034|M|49.25,45.88|N|To Mawg Grimshot.|
 A Torgos!|QID|10036|PRE|10034|M|49.25,45.88|N|From Mawg Grimshot.|
 T Vestments of the Wolf Spirit|QID|10018|M|50.17,46.44|N|To Malukaz.|
 A Patriarch Ironjaw|QID|10023|PRE|10018|M|50.17,46.44|N|From Malukaz.|

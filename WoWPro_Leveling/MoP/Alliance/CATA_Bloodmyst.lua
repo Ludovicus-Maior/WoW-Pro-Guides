@@ -23,7 +23,7 @@ T What Argus Means to Me|QID|9693|M|55.39,55.27|Z|106;Bloodmyst Isle|N|To Vindic
 A Blood Watch|QID|9694|PRE|9693|M|55.39,55.27|Z|106;Bloodmyst Isle|N|From Vindicator Boros.|
 f Blood Watch|ACTIVE|9634|M|57.69,53.92|Z|106;Bloodmyst Isle|N|Get the flight path for Blood Watch.|
 A Maatparm Mushroom Menagerie|QID|9648|M|56.4,56.8|Z|106;Bloodmyst Isle|N|From Maatparm.|
-A WANTED: Deathclaw|QID|9646|M|55.2,59.1|Z|106;Bloodmyst Isle|N|From the Wanted Board outside the Inn.|
+A Wanted: Deathclaw|QID|9646|M|55.2,59.1|Z|106;Bloodmyst Isle|N|From the Wanted Board outside the Inn.|
 h Blood Watch|ACTIVE|9624|M|55.84,59.80|Z|106;Bloodmyst Isle|N|Set hearthstone to Blood Watch with Caregiver Topher Loaal.|
 C Maatparm Mushroom Menagerie|QID|9648|M|59,60|QO|2|Z|106;Bloodmyst Isle|N|Obtain a Blood Mushroom, they are small and glow red.|NC|
 C Maatparm Mushroom Menagerie|QID|9648|QO|1|M|63.75,62.90|Z|106;Bloodmyst Isle|N|Obtain an Aquatic Sinkhorn from Stinkhorn Striker in the Blood River.|NC|
@@ -106,7 +106,7 @@ A Pilfered Equipment|QID|9548|M|42.11,21.23|Z|106;Bloodmyst Isle|N|From Clopper 
 A Artifacts of the Blacksilt|QID|9549|M|42.11,21.23|Z|106;Bloodmyst Isle|N|From Clopper Wizbang.|
 C Artifacts of the Blacksilt|QID|9549|M|41.38,20.11|Z|106;Bloodmyst Isle|N|Kill murlocs for Idols and Knives.|S|
 C Pilfered Equipment|QID|9548|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|CN|Z|106;Bloodmyst Isle|N|Watch for Clopper's Equipment.|S|NC|
-C WANTED: Deathclaw|QID|9646|M|37,30|Z|106;Bloodmyst Isle|N|Kill Deathclaw, and loot his Paw.|
+C Wanted: Deathclaw|QID|9646|M|37,30|Z|106;Bloodmyst Isle|N|Kill Deathclaw, and loot his Paw.|
 C Artifacts of the Blacksilt|QID|9549|M|41.38,20.11|Z|106;Bloodmyst Isle|N|Kill murlocs for Idols and Knives.|US|
 C Pilfered Equipment|QID|9548|M|38.4,22.4;40.4,20;44,22.4;46.4,20.4|CN|Z|106;Bloodmyst Isle|N|Look for Clopper's Equipment.|US|NC|
 T Artifacts of the Blacksilt|QID|9549|M|42.11,21.23|Z|106;Bloodmyst Isle|N|To Clopper Wizbang.|
@@ -125,7 +125,7 @@ T I Shoot Magic Into the Darkness|QID|9700|M|55.42,55.25|Z|106;Bloodmyst Isle|N|
 A The Cryo-Core|QID|9703|PRE|9700|M|55.64,55.28|Z|106;Bloodmyst Isle|N|From Vindicator Kuros.|
 T Deciphering the Book|QID|9557|M|54.69,54.01|Z|106;Bloodmyst Isle|N|To Anchorite Paetheus.|
 A Nolkai's Words|QID|9561|PRE|9557|M|54.69,54.01|Z|106;Bloodmyst Isle|N|From Anchorite Paetheus.|
-T WANTED: Deathclaw|QID|9646|M|52.63,53.27|Z|106;Bloodmyst Isle|N|To Harbinger Mikolaas.|
+T Wanted: Deathclaw|QID|9646|M|52.63,53.27|Z|106;Bloodmyst Isle|N|To Harbinger Mikolaas.|
 A Searching for Galaen|QID|9578|M|53.3,57.7|Z|106;Bloodmyst Isle|N|From Morae.|
 r Repair/Restock|ACTIVE|9578|M|53.32,56.67|Z|106;Bloodmyst Isle|N|Repair/Sell Junk at Beega.|
 C Culling the Flutterers|QID|9647|Z|106;Bloodmyst Isle|N|Kill every Royal Blue Flutterer you see.|S|

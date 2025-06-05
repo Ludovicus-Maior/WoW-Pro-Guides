@@ -57,14 +57,14 @@ A Boiling Blood|QID|10538|M|61.15,81.78|N|From Apothecary Albreck.|
 A Preparing the Salve|QID|9345|M|60.93,81.66|N|From Grelag.|
 A Make Them Listen|QID|10220|M|61.71,81.67|N|From Emissary Mordiba.|
 A The Warp Rifts|QID|10278|M|61.87,81.52|N|From Ogath the Mad.|
-A WANTED: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
+A Wanted: Worg Master Kruush|QID|10809|M|61.22,80.59|N|From the Wanted Poster.|
 C Preparing the Salve|QID|9345|NC|N|Pick up Hellfire Spineleaf.|S|
 l Bleeding Hollow Blood|QID|10538|L|30425 12|N|Keep killing and looting orcs until you have 12 blood.|S|
 C Wanted: Worg Master Kruush|QID|10809|M|68.16,73.36|N|Kill and loot Worg Master Kruush.|
 l Bleeding Hollow Blood|QID|10538|L|30425 12|N|Keep killing and looting orcs until you have 12 blood.|US|
 C Boiling Blood|QID|10538|M|65.21,71.36|NC|N|Clear around the cauldron and right click it. Rinse and repeat till you have 12 Boiled Blood.|
 C Preparing the Salve|QID|9345|NC|N|Pick up Hellfire Spineleaf.|US|
-T WANTED: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
+T Wanted: Worg Master Kruush|QID|10809|M|61.22,81.33|N|To Captain Darkhowl.|
 A Zeth'Gor Must Burn!|QID|10792|M|61.22,81.33|N|From Captain Darkhowl.|
 T Preparing the Salve|QID|9345|M|60.93,81.66|N|To Grelag.|
 A Investigate the Crash|QID|10213|PRE|9345|M|60.93,81.66|N|From Grelag.|
@@ -106,7 +106,7 @@ T Falcon Watch|QID|9499|R|Blood Elf|M|28.49,60.26|N|To Ranger Captain Venn'ren. 
 T Falcon Watch|QID|9498|R|Orc,Undead,Tauren,Troll,Goblin,Pandaren,Nighborne,HighmountainTauren,MagharOrc,ZandalariTroll,Vulpera|M|28.49,60.26|N|To Ranger Captain Venn'ren. He is on top of the tower. Use the orb, or fly up.|
 A The Great Fissure|QID|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 f Falcon Watch|QID|9387|M|27.8,59.98|N|At Innalia. Get the Flight path.|
-A WANTED: Blacktalon the Savage|QID|9466|M|28.03,60.31|N|From the Wanted Poster.|
+A Wanted: Blacktalon the Savage|QID|9466|M|28.03,60.31|N|From the Wanted Poster.|
 A Birds of a Feather|QID|9397|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 A In Need of Felblood|QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
 A Magic of the Arakkoa|QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.|
@@ -210,7 +210,7 @@ A Trueflight Arrows|QID|9381|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 A Helping the Cenarion Post|QID|10442|LEAD|9372|M|27.71,60.33|N|From Falconer Drenna Riverwind.|
 T The Great Fissure|QID|9340|M|28.49,60.24|N|To Ranger Captain Venn'ren. Top of Tower.|
 A Marking the Path|QID|9391|PRE|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
-T WANTED: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
+T Wanted: Blacktalon the Savage|QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 A Report to Zurai|QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren, on the top of the tower.|
 C Trueflight Arrows|QID|9381|N|Go between the points killing and looting Bonestripper Vultures until you have 8 tail feathers.|M|29,56;24.28,44.91|CN|
 C Arelion's Secret|QID|10286|CHAT|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health. Just to warn you, you will be put into PVP.|M|18.0,50.0|

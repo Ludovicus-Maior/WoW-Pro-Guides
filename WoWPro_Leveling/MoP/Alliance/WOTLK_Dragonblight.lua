@@ -24,9 +24,9 @@ T The Demo-gnome|QID|12275|Z|115; Dragonblight|N|Go south to Siege Engineer Quar
 A The Search for Slinkin|QID|12276|PRE|12275|M|77.84,50.28|Z|115; Dragonblight|N|From Siege Engineer Quarterflash.|
 A The Bleeding Ore|QID|12272|PRE|12275|M|77.84,50.28|Z|115; Dragonblight|N|From Siege Engineer Quarterflash.|
 A Not In Our Mine|QID|12269|PRE|12275|Z|115; Dragonblight|N|From Highlord Leoric Von Zeldig.|M|77.80,50.30|
-A WANTED: Kreug Oathbreaker|QID|12438|PRE|12251|Z|115; Dragonblight|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
-A WANTED: High Shaman Bloodpaw|QID|12441|PRE|12251|Z|115; Dragonblight|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
-A WANTED: Onslaught Commander Iustus|QID|12442|PRE|12251|Z|115; Dragonblight|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
+A Wanted: Kreug Oathbreaker|QID|12438|PRE|12251|Z|115; Dragonblight|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
+A Wanted: High Shaman Bloodpaw|QID|12441|PRE|12251|Z|115; Dragonblight|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
+A Wanted: Onslaught Commander Iustus|QID|12442|PRE|12251|Z|115; Dragonblight|N|From the Wanted Poster inside the Inn.|M|77.34,51.43|
 h Wintergarde Keep|QID|12253|Z|115; Dragonblight|N|Make this inn your home location with Illusia Lune.|M|77.50,51.50|
 K Vengeful Geists|ACTIVE|12258|QO|1|M|79.9,49.7|S|Z|115; Dragonblight|N|Kill any Vengeful Geist you see.|
 C Rescue from Town Square|QID|12253|S|Z|115; Dragonblight|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|
@@ -200,7 +200,7 @@ T My Old Enemy|QID|12464|Z|115; Dragonblight|N|To Commander Eligor Dawnbringer.|
 F Thorson's Post|ACTIVE|12325|M|77.13,49.62||Z|115; Dragonblight|N|At the Gryphon Landing Site, right-click one of the Winterguard Gryphons, this will take you to Thorson's Post.|
 T Into Hostile Territory|QID|12325|M|89.7,46.4|Z|115; Dragonblight|N|To Duke August Foehammer.|
 A Steamtank Surprise|QID|12326|PRE|12325|M|89.7,46.4|Z|115; Dragonblight|N|From Duke August Foehammer.|
-C WANTED: Kreug Oathbreaker|QID|12438|Z|115; Dragonblight|N|Kill Kreug Oathbreaker.|M|90.14,52.55|
+C Wanted: Kreug Oathbreaker|QID|12438|Z|115; Dragonblight|N|Kill Kreug Oathbreaker.|M|90.14,52.55|
 N Now comes a fun quest.|QID|12326|Z|115; Dragonblight|N|Read the whole paragraph before you jump in a tank. You'll get in one of those steam tanks and look around for Plague Wagons. Stand close to it and use Ability #3. To defend yourself, use Ability #2 first and then Ability #1 on the frozen targets, this does tripple damage. Once you have destroyed 6 Plague Wagons, go west to the Wintergarde Mausoleum  and use Ability #4: You're ready now, get in a tank and have fun!|
 C Plague Wagons Sabotaged|QID|12326|Z|115; Dragonblight|N|Get near a Plague Wagon and use Ability #3, defend the Gnome until you get a quest update. Do this 6 times.|QO|1|
 C Steamtank Surprise|QID|12326|Z|115; Dragonblight|N|Use Ability #4 near the entrance of the Mausoleum.|M|86.00,50.00|QO|2|
@@ -227,7 +227,7 @@ T Plunderbeard's Journal|QID|12465|M|85.9,50.9|Z|115; Dragonblight|N|To Ambo Cas
 A Chasing Icestorm: The 7th Legion Front|QID|12466|PRE|12465|M|85.9,50.9|Z|115; Dragonblight|N|From Ambo Cash.|
 R Wintergarde Keep|QID|12466|M|75.6,50.2|Z|115; Dragonblight|N|Make your way back to WIntergarde Keep|
 r Sell junk, repair, restock.|QID|12466|Z|115; Dragonblight|N|Sell junk, repair, restock.|M|77.82,50.74|
-T WANTED: Kreug Oathbreaker|QID|12438|Z|115; Dragonblight|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
+T Wanted: Kreug Oathbreaker|QID|12438|Z|115; Dragonblight|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
 h Wintergarde Keep|QID|12466|Z|115; Dragonblight|N|Go to the inn and make it your home location.|M|77.42,51.63|
 R Bronze Dragonshrine|QID|12466|Z|115; Dragonblight|N|Exit Wintergarde Keep by the northern gate, then ride northwest to the Bronze Dragonshrine .|M|72.00,38.00|
 N Note:|QID|12470|Z|115; Dragonblight|N|We're about to trigger an event where you'll help your "Future You" to defeat waves of dragons. Just let your Future You tank, and kill things one at a time to be safe. If you die it doesn't matter, just run back. Your "Future You" will finish the event, you'll get the quest complete message.  The path starts at  and leads to (72.89, 36.26).|M|73.86,33.95|
@@ -374,9 +374,9 @@ T Orik Trueheart and the Forgotten Shore|QID|12287|Z|115; Dragonblight|N|To Orik
 A The Murkweed Elixir|QID|12290|PRE|12287|M|87.2,57.4|Z|115; Dragonblight|N|From Orik Trueheart.|
 A The Call Of The Crusade|QID|12542|LEAD|12545|Z|115; Dragonblight|N|From Tilda Darathan.|M|87.2,57.4|
 R Eldritch Heights|QID|12290|Z|115; Dragonblight|N|Ride southeast to Eldritch Heights.|M|90.00,68.00|
-N Note:|QID|12441|Z|115; Dragonblight|N|While you're here, try to see if there's any group up for killing High Shaman Bloodpaw for the quest [WANTED: High Shaman Bloodpaw]. He's really close so might as well kill two birds with one stone. Some classes reported being able to solo it, but I wouldn't risk it, duo'ing is already much more realistic. 3+ is best.|
+N Note:|QID|12441|Z|115; Dragonblight|N|While you're here, try to see if there's any group up for killing High Shaman Bloodpaw for the quest [Wanted: High Shaman Bloodpaw]. He's really close so might as well kill two birds with one stone. Some classes reported being able to solo it, but I wouldn't risk it, duo'ing is already much more realistic. 3+ is best.|
 C The Murkweed Elixir|QID|12290|Z|115; Dragonblight|N|Loot 5 Murkweed.|M|90.00,68.00|S|NC
-C WANTED: High Shaman Bloodpaw|QID|12441|Z|115; Dragonblight|N|Kill High Shaman Bloodpaw.|M|90.6,72.6|
+C Wanted: High Shaman Bloodpaw|QID|12441|Z|115; Dragonblight|N|Kill High Shaman Bloodpaw.|M|90.6,72.6|
 C The Murkweed Elixir|QID|12290|Z|115; Dragonblight|N|Loot 5 Murkweed.|M|90.00,68.00|US|NC|
 T The Murkweed Elixir|QID|12290|M|87.2,57.4|Z|115; Dragonblight|N|To Orik Trueheart.|
 A The Forgotten Tale|QID|12291|PRE|12290|M|87.2,57.4|Z|115; Dragonblight|N|From Orik Trueheart.|
@@ -405,15 +405,15 @@ A Into the Breach!|QID|12789|PRE|12545|M|84.0,26.1|Z|115; Dragonblight|N|From Cr
 C The Return of the Crusade?|QID|12476|S|Z|115; Dragonblight|N|Kill Scarlet NPCs.|
 R Onslaught Base Camp|QID|12476|Z|115; Dragonblight|N|Ride south back to Onslaught Base Camp.|M|88.00,38.00|
 C What Secrets Men Hide|QID|12475|Z|115; Dragonblight|N|This time clear to the tower in construction, on the eastern side of the camp. Inside you'll find the Onslaught Map. Loot it.|M|88.00,38.00|
-C WANTED: Onslaught Commander Iustus|QID|12442|Z|115; Dragonblight|N|Kill Onslaught Commander Iustus at the top of the tower.|M|87.6,38.2|
+C Wanted: Onslaught Commander Iustus|QID|12442|Z|115; Dragonblight|N|Kill Onslaught Commander Iustus at the top of the tower.|M|87.6,38.2|
 C The Path of Redemption|QID|12477|Z|115; Dragonblight|N|Kill Scarlet NPCs until you loot The Path of Redemption.|M|84.9,35.5|
 C The Return of the Crusade?|QID|12476|US|Z|115; Dragonblight|N|Finish killing Scarlet NPCs until you have 20 kills.|
 T The Return of the Crusade?|QID|12476|M|78.52,48.28|Z|115; Dragonblight|N|To Commander Lynore Windstryke.|
 T The Path of Redemption|QID|12477|M|78.52,48.28|Z|115; Dragonblight|N|To High Commander Halford Wyrmbane.|
 T What Secrets Men Hide|QID|12475|M|79.1,47.2|Z|115; Dragonblight|N|To Zelig the Visionary.|
 A Frostmourne Cavern|QID|12478|PRE|12475|M|79.1,47.2|Z|115; Dragonblight|N|From Zelig the Visionary.|
-T WANTED: High Shaman Bloodpaw|QID|12441|Z|115; Dragonblight|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
-T WANTED: Onslaught Commander Iustus|QID|12442|Z|115; Dragonblight|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
+T Wanted: High Shaman Bloodpaw|QID|12441|Z|115; Dragonblight|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
+T Wanted: Onslaught Commander Iustus|QID|12442|Z|115; Dragonblight|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
 R Bronze Dragonshrine|ACTIVE|13343|M|71.7,38.9|Z|115; Dragonblight|N|Up the hill to the Bronze Dragonshrine for a fun trip thru memory lane with Chromie.|
 C Mystery of the Infinite, Redux |QID|13343|U|37923|Z|115; Dragonblight|N|Right-click the Hourglass of Eternity from your inventory to start the event.|M|71.7,38.9|
 R Frostmourne Cavern|QID|12478|Z|115; Dragonblight|N|Head to Frostmourne Cavern.|M|74.00,23.00|

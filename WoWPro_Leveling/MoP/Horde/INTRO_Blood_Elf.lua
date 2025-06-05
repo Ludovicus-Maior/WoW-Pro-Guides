@@ -59,7 +59,7 @@ T Completing the Delivery|QID|8350|N|To Innkeeper Delaniel.|Z|Eversong Woods|M|4
 h Falconwing Inn |QID|8472|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|Z|Eversong Woods|M|48.1,47.7|
 N Professions |QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|Z|Eversong Woods|M|48.93,46.86|
 A Unstable Mana Crystals|QID|8463|N|From Aeldon Sunbrand, back outside of the inn.|Z|Eversong Woods|M|48.2,46.0|
-A WANTED: Thaelis the Hungerer |QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|Z|Eversong Woods|M|48.2,46.3|
+A Wanted: Thaelis the Hungerer |QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|Z|Eversong Woods|M|48.2,46.3|
 A Major Malfunction|QID|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.3,46.3|
 C Major Malfunction|QID|8472|N|Kill and loot Arcane Patrollers for the Arcane Cores.|Z|Eversong Woods|M|45.,40.5|S|
 C Unstable Mana Crystals|QID|8463|S|N|Look for light beams that come out of the boxes.|Z|Eversong Woods|M|45.386,42|NC|
@@ -68,7 +68,7 @@ C Unstable Mana Crystals|QID|8463|Z|Eversong Woods|M|45.38,40.85|US|N|Look for l
 C Major Malfunction|QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|Z|Eversong Woods|M|45,40.5|US|
 T Major Malfunction|QID|8472|N|To Magister Jaronis.|Z|Eversong Woods|M|47.3,46.3|
 A Delivery to the North Sanctum|QID|8895|PRE|8472|N|From Magister Jaronis.|Z|Eversong Woods|M|47.3,46.3|
-T WANTED: Thaelis the Hungerer|QID|8468|N|To Sergeant Kan'ren.|Z|Eversong Woods|M|47.8,46.6|
+T Wanted: Thaelis the Hungerer|QID|8468|N|To Sergeant Kan'ren.|Z|Eversong Woods|M|47.8,46.6|
 T Unstable Mana Crystals|QID|8463|N|To Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
 A Darnassian Intrusions|QID|9352|PRE|8463|N|From Aeldon Sunbrand.|Z|Eversong Woods|M|48.2,46.0|
 T Delivery to the North Sanctum|QID|8895|N|To Ley-Keeper Caidanis.|Z|Eversong Woods|M|44.6,53.1|
