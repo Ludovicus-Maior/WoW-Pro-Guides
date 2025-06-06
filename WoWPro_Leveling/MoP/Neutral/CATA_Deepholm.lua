@@ -1,17 +1,16 @@
-local guide = WoWPro:RegisterGuide('AriDee8283', "Leveling", 'Deepholm', "WoWPro Team", 'Neutral', 5)
+local guide = WoWPro:RegisterGuide('AriDee8283', "Leveling", 'Deepholm', 'WoWPro Team', 'Neutral', 5)
 WoWPro:GuideLevels(guide, 82, 83)
 WoWPro:GuideName(guide,"Deepholm")
-WoWPro:GuideSort(guide, 83)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|1453; Stormwind City|N|From the Hero's Call Board. Select Deepholm.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
-T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|1453; Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
-P Deepholm|QID|26245|M|73.20,19.62|Z|1453; Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
-A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|1454;Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
-T Warchief's Command: Deepholm!|QID|27722|M|50.45,38.35|Z|1454;Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
-A The Maelstrom|QID|27203|M|50.45,38.35|Z|1454;Orgrimmar|N|From Farseer Krogar.|FACTION|Horde|
-P The Maelstrom|QID|27203|M|50.03,37.78|Z|1454;Orgrimmar|N|Take the portal to the Maelstrom in the middle.|FACTION|Horde|
+A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|84;Stormwind City|N|From the Hero's Call Board. Select Deepholm.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
+T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|84;Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
+P Deepholm|QID|26245|M|73.20,19.62|Z|84;Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
+A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
+T Warchief's Command: Deepholm!|QID|27722|M|50.45,38.35|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
+A The Maelstrom|QID|27203|M|50.45,38.35|Z|Orgrimmar|N|From Farseer Krogar.|FACTION|Horde|
+P The Maelstrom|QID|27203|M|50.03,37.78|Z|Orgrimmar|N|Take the portal to the Maelstrom in the middle.|FACTION|Horde|
 T The Maelstrom|QID|27203|M|33.36,50.18|Z|The Maelstrom!The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
 A Deepholm, Realm of Earth|QID|27123|M|33.36,50.18|Z|The Maelstrom!The Maelstrom|PRE|27203|N|From Thrall.|
 F Deepholm|QID|27123|M|32.47,51.83|Z|The Maelstrom!The Maelstrom|V|N|Hop on the Wyvern behind you.|
@@ -203,11 +202,6 @@ T The Hero Returns|QID|27937|M|28,68.6|N|To Stonefather Oremantle.|
 A The Middle Fragment|QID|27938|PRE|27937|M|28,68.6|N|From Stonefather Oremantle.|
 C The Middle Fragment|QID|27938|M|28,68.72|N|In The Stonefather's Safe, right behind Oremantle.|
 T The Middle Fragment|QID|27938|M|49.5,53.3|N|To Earthcaller Yevaa.|
-A Word In Stone|QID|26833|PRE|26829&26831&26832|N|From Therazane.|
-A The Explorers|QID|27952|LEAD|27004|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Alliance|
-T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
-A The Reliquary|QID|27953|LEAD|27005|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
-T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|CC|N|To Examiner Rowe.|FACTION|Horde|
 A The Very Earth Beneath Our Feet|QID|26326|PRE|27938&26876|RANK|1|M|49.6,53|N|From Maruut Stonebinder.|
 T The Very Earth Beneath Our Feet|QID|26326|M|46.1, 45.7|N|To Earthcaller Torunscar.|
 A Crumbling Defenses|QID|26312|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
@@ -278,7 +272,7 @@ C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If y
 T Rock Bottom|QID|26575|M|34.12,34.19|N|Back to Kor the Immovable.|
 A Steady Hand|QID|26576|PRE|26575&26507|RANK|1|M|34.12,34.19|N|From Kor.|
 A Rocky Upheaval|QID|26577|PRE|26575&26507|M|34.12,34.19|N|From Kor.|
-T Steady Hand|QID|26576|M|39.57,19.92|N|To Terrath the Steady.|RANK|1|
+T Steady Hand|QID|26576|RANK|1|N|To Terrath the Steady.|
 A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
 C Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|CS|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
 T Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
@@ -339,7 +333,11 @@ T The Twilight Flight|QID|26831|M|64.1,36.9|N|To Terath.|
 C The Stone March|QID|26829|M|62,35.6|US|N|Finish killing Cultists.|
 T The Stone March|QID|26829|M|63.3,25.1|N|To Therazane.|
 T Therazane's Mercy|QID|26832|M|63.3,25.1|N|To Therazane.|
-
+A Word In Stone|QID|26833|PRE|26829&26831&26832|N|From Therazane.|
+A The Explorers|QID|27952|LEAD|27004|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Alliance|
+T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
+A The Reliquary|QID|27953|LEAD|27005|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Horde|
+T The Reliquary|QID|27953|M|50,55.5;51.20,50.10|CC|N|To Examiner Rowe.|FACTION|Horde|
 T Word In Stone|QID|26833|M|49.6,53|N|Fly back to the Temple of Earth, speak to Maruut Stonebinder.|
 A Undying Twilight|QID|26875|PRE|26833|N|From Maruut.|
 C Undying Twilight|QID|26875|M|47.68,53.09|N|Kill Twilight Invaders and a Desecrated Earthrager.|
@@ -371,12 +369,12 @@ T Fight Fire and Water and Air with...|QID|27042|RANK|2|N|To Prospector Brewer.|
 T The Wrong Sequence|QID|27058|PRE|27040|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 A That's No Pyramid!|QID|28292|PRE|27058|M|47.4,51.4|N|From Explorer Mowi.|FACTION|Alliance|
 R Stormwind City|QID|28292|M|48.53,53.84|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Stormwind.|FACTION|Alliance|
-T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|1453; Stormwind City|N|To Harrison Jones.|FACTION|Alliance|
-A Meetup with the Caravan|QID|28295|LEAD|27003|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|1453; Stormwind City|FACTION|Alliance|
-F Booty Bay|QID|28295|Z|1453; Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
+T That's No Pyramid!|QID|28292|M|85.77,25.85|Z|84;Stormwind City|N|To Harrison Jones.|FACTION|Alliance|
+A Meetup with the Caravan|QID|28295|LEAD|27003|PRE|28292|N|From Harrison Jones.|M|85.77,25.85|Z|84;Stormwind City|FACTION|Alliance|
+F Booty Bay|QID|28295|Z|84;Stormwind City|M|70.99,72.57|N|Fly to Booty Bay.|FACTION|Alliance|
 b Ratchet|QID|28295|Z|210;The Cape of Stranglethorn|M|39,67|N|Take the boat to Ratchet.|FACTION|Alliance|
-F Southmoon Ruins|QID|28295|Z|1446; Tanaris|M|30.61,65.42|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
-T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|1446; Tanaris|FACTION|Alliance|
+F Southmoon Ruins|QID|28295|Z|71; Tanaris|M|30.61,65.42|N|Fly to Southmoon Ruins in the southern part of Tanaris.|FACTION|Alliance|
+T Meetup with the Caravan|QID|28295|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Alliance|
 A The Twilight Plot|QID|27005|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 A Fly Over|QID|27008|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
 C The Twilight Plot|QID|27005|M|41.00,69.00|N|Kill Twilight Cultist in the area until you get the Twilight Terrace Plans.|FACTION|Horde|
@@ -398,10 +396,10 @@ T Fight Fire and Water and Air with...|QID|27043|N|To Reliquary Jes'ca Darksun.|
 T The Wrong Sequence|QID|27059|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
 A That's No Pyramid!|QID|28293|PRE|27059|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 R Orgrimmar|QID|28293|M|50.94,53.1|N|Go back into the main chamber of the Temple and take the portal in the southeast alcove to return to Orgrimmar.|FACTION|Horde|
-T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|1454;Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
-A Meetup with the Caravan|QID|28296|LEAD|27003|PRE|28293|M|49.00,71.00|Z|1454;Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
-T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|1446; Tanaris|FACTION|Horde|
-T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|1446; Tanaris|FACTION|Horde|
+T That's No Pyramid!|QID|28293|M|49.00,71.00|Z|Orgrimmar|N|To Belloc Brightblade.|FACTION|Horde|
+A Meetup with the Caravan|QID|28296|LEAD|27003|PRE|28293|M|49.00,71.00|Z|Orgrimmar|N|From Belloc Brightblade. Will not show up if you have the quest "Warchief's Command: Uldum!"|FACTION|Horde|
+T Warchief's Command: Uldum!|QID|28557|O|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Horde|
+T Meetup with the Caravan|QID|28296|O|N|To Adarrah.|M|30.51,65.51|Z|71; Tanaris|FACTION|Horde|
 N This ends this guide.|N|Close this step to continue to Uldum guide.|
 ]]
 end)
