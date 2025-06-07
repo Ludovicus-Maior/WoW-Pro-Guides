@@ -26,14 +26,14 @@ C Call of The Uncrowned|QID|40832|QO|3|M|53.16,69.96|Z|Dalaran@Dalaran70|N|Go th
 C Call of The Uncrowned|QID|40832|QO|4|M|44.69,54.94|N|Continue down the corridor, once you reach the bottom, click on the lamp holder to open the door to where the 'Uncrowned' are.|NC|
 T Call of The Uncrowned|QID|40832|M|41.44,78.08|N|To Lord Jorach Ravenholdt.|
 A The Final Shadow|QID|40839|M|41.44,78.08|N|From Lord Jorach Ravenholdt.|PRE|40832|
-C The Final Shadow|QID|40839|QO|1|M|42.24,77.09|N|Click on the empty chair beside Princess Tess.|NC|
+C The Final Shadow|QID|40839|QO|1|M|42.24,77.09|N|Click on the empty chair beside Princess Tess.|H|
 C The Final Shadow|QID|40839|QO|2|M|42.24,77.09|N|Listen to the conversation.|NC|
 T The Final Shadow|QID|40839|M|41.44,78.08|N|To Lord Jorach Ravenholdt.|
 A A Worthy Blade|QID|40840|M|41.44,78.08|N|From Lord Jorach Ravenholdt.|PRE|40839|
 C A Worthy Blade|QID|40840|QO|3|M|42.38,75.75|N|Talk to Tess.|CHAT|
 C A Worthy Blade|QID|40840|QO|1|M|41.17,74.24|N|Talk to Tethys.|CHAT|
 C A Worthy Blade|QID|40840|QO|2|M|40.91,75.40|N|Talk to Valeera.|CHAT|
-C A Worthy Blade|QID|40840|QO|4|M|41.44,78.08|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
+C A Worthy Blade|QID|40840|QO|4|M|41.44,78.08|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone.|
 T A Worthy Blade|QID|40840|M|41.44,78.080|N|To Lord Jorach Ravenholdt.|
 A Artifact Specific Quest|QID|41919^42501^40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|40840|
 
