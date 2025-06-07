@@ -7,7 +7,7 @@ WoWPro:GuideRaceSpecific(guide,"Pandaren")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-T Much to Learn|QID|30039^30340^30341^30342^30343^30344^30345|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
+T Much to Learn|QID|29404^30039^30040^30041^30042^30043^30044^30045|M|56.66,18.17|Z|0378; The Wandering Isle|N|To Master Shang Xi.|
 A The Lesson of the Iron Bough|QID|30027^30033^30034^30035^30036^30037^30038|M|56.66,18.17|Z|0378; The Wandering Isle|N|From Master Shang Xi.|
 C The Lesson of the Iron Bough|QID|30027|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Staff from one of the Weapon Racks and equip it.|U|73209|C|Monk|NC|
 C The Lesson of the Iron Bough|QID|30033|QO|1|M|56.87,19.68|Z|0378; The Wandering Isle|N|Loot the Trainee's Spellblade from one of the Weapon Racks and equip it.|U|76390|C|Mage|NC|
