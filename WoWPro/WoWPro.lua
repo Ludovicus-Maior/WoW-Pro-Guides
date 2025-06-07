@@ -712,12 +712,11 @@ function WoWPro:DevZone()
                 if playerpos then
                     local x, y, mapId = WoWPro:GetPlayerZonePosition()
                     if not _G.MouseIsOver(f) then
-                        f:SetText(_G.format("M|%.2f,%.2f|Z|%s; %s|", x*100, y*100, tostring(mapId), WoWPro.GetZoneText()))
+                        f:SetText(_G.format("M|%.2f,%.2f|Z|%04d; %s|", x*100, y*100, mapId, WoWPro.GetZoneText()))
                     end
                 end
             end
         end)
-
         f:Hide()
     end
 end
@@ -907,7 +906,7 @@ function WoWPro.RegisterGuideInMenuList3(AddonType, GuideType, GuideName, GID, e
     local GTypeIndex = WoWPro.findIndexWithText(GuideMenuList[AddonIndex].menuList, GuideType)
     if GTypeIndex < 1 then
         if table.getn(GuideMenuList[AddonIndex].menuList) == 0 then
-            table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Zone", isTitle = true })
+            table.insert(GuideMenuList[AddonIndex].menuList, { text = "Select a Guide Category", isTitle = true })
         end
         table.insert(GuideMenuList[AddonIndex].menuList, { text = GuideType, hasArrow = true, menuList = {} })
         GTypeIndex = table.getn(GuideMenuList[AddonIndex].menuList)
@@ -1771,7 +1770,7 @@ WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
 WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
 WoWPro.POST_BC = (WoWPro.TocVersion >= 30000)
 WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
-WoWPro.Cata = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
+WoWPro.CATA = ((WoWPro.TocVersion >= 40000) and (WoWPro.TocVersion < 50000))
 WoWPro.MOP = ((WoWPro.TocVersion >= 50000) and (WoWPro.TocVersion < 60000))
 WoWPro.POST_SL = (WoWPro.TocVersion >= 90000)
 WoWPro.DRAGONFLIGHT = ((WoWPro.TocVersion >= 100000) and (WoWPro.TocVersion < 110000))

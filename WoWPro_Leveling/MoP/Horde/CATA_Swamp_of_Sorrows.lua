@@ -1,7 +1,6 @@
-local guide = WoWPro:RegisterGuide('LiaSwa5255', "Leveling", 'Swamp of Sorrows', "WoWPro Team", "Horde", 5)
+local guide = WoWPro:RegisterGuide('LiaSwa5255', "Leveling", 'Swamp of Sorrows', 'WoWPro Team', 'Horde', 5)
 WoWPro:GuideLevels(guide, 52, 54)
 WoWPro:GuideName(guide,"Swamp of Sorrows")
-WoWPro:GuideSort(guide, 46)
 WoWPro:GuideNextGuide(guide, 'JiyBla5560')
 WoWPro:GuideSteps(guide, function()
 return [[

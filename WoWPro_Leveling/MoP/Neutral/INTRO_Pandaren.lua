@@ -259,7 +259,7 @@ C Hellscream's Gift|QID|31014|M|70.62,31.43|Z|85; Orgrimmar|N|Defeat all 3 mobs.
 N Housekeeping|ACTIVE|31014|M|53.06,80.51|Z|85; Orgrimmar|N|Welcome to Orgrimmar.\nSince this is the first time we're in a city, take your time to visit the AH, train weapon skills, and put stuff you don't need in the bank.\nThis is also a good time to pick up the rest of your professions from Instructaur.\nPick up all secondary professions; even if you don't want to skill them up.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|FACTION|Horde|
 T Hellscream's Gift|QID|31014|M|48.11,70.46|Z|85; Orgrimmar|N|To Garrosh Hellscream back in Grommash Hold.|FACTION|Horde|
 A Preserving the Barrens|QID|26642|AVAILABLE|25648&28494&28496|M|47.64,71.21|Z|85; Orgrimmar|N|From Gotura Fourwinds.\n[color=FF0000]NOTE: [/color]This quest offers better rewards than the `Warchief's Command: Northern Barrens!`.\nSkip this step you'd prefer to move on to Azshara instead.|FACTION|HORDE|
-D Onwards|ACTIVE|26642^28494|N|This ends `Pandaren: Intro`.\nNorthern Barrens is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|BitNor1220|
+D Onwards|ACTIVE|26642^28494|N|This ends Pandaren: Intro.\nNorthern Barrens is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|BitNor1220|
 A Beyond Durotar|QID|25648|AVAILABLE|26642&28494&28496|M|45.01,14.78|Z|0001; Durotar|N|From Gor the Enforcer at the Dranosh'ar Blockade (outside the Orgrimmar south entrance).\n[color=FF0000]NOTE: [/color]The Warchief's Command Board is closer if you'd prefer to get `Warchief's Command: Azshara!` instead.\nSkip this step if you're going that route.|FACTION|Horde|
 A The Wolf and The Kodo|QID|25205|ACTIVE|25648|M|44.90,14.84|Z|0001; Durotar|N|From Shin Stonepillar.\n[color=FF0000]NOTE: [/color]Some easy experience before you move on.|FACTION|Horde|
 C The Wolf and The Kodo|QID|25205|ACTIVE|25648|M|PLAYER|CC|N|Listen to Shin Stonepillar's story.|CHAT|
@@ -277,6 +277,5 @@ N Housekeeping|AVAILABLE|26378|M|63.86,70.31|Z|84; Stormwind City|N|Welcome to S
 A Hero's Call: Westfall!|QID|28562|M|62.91,71.53|Z|84; Stormwind City|N|From the Hero's Call Board.\n[color=FF0000]NOTE: [/color]You can get from either one, but this one is closer to where you want to be.|FACTION|Alliance|
 F Goldshire|ACTIVE|28562|M|70.93,72.47|Z|84; Stormwind City|N|Fly to Goldshire.|FACTION|Alliance|
 D Onwards|ACTIVE|28562|N|This ends Pandaren: Intro.\nWestfall is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|BitWes1020|
-
 ]]
 end)

@@ -587,7 +587,7 @@ A A Hint of Fear|QID|79256|PRE|78761|M|42.99,34.10|Z|2214; The Ringing Deeps|N|F
 A Orientation: Gundargaz|QID|81689|M|42.99,34.10|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|
 C Orientation: Gundargaz|QID|81689|M|43.16,32.89|Z|2214; The Ringing Deeps|CHAT|N|Speak to Waxmonger Squick.|
 T Orientation: Gundargaz|QID|81689|M|42.99,34.10|Z|2214; The Ringing Deeps|N|To Moira Thaurissan.|
-A The Hallowed Path|QID|78658|PRE|81689|M|42.93,32.27|Z|2214; The Ringing Deeps|N|From Anduin Wrenn.|
+A The Hallowed Path|QID|78658|PRE|81689|M|42.93,32.27|Z|2214; The Ringing Deeps|N|From Anduin Wrynn.|
 A Daily Diagnostics|QID|83108|PRE|78761|M|43.12,31.63|Z|2214;The Ringing Deeps|N|From Therkan. This is a dungeon quest, and not included in this guide.|RANK|3|
 A Knicknack's Knickknacks|QID|83154|M|42.34,30.38|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|LVL|80|
 A Knicknack's Knickknacks|QID|83154|M|42.34,30.38|Z|2214;The Ringing Deeps|N|From Knicknack. This is a dungeon quest, and not included in this guide.|RANK|3|PRE|83543|
