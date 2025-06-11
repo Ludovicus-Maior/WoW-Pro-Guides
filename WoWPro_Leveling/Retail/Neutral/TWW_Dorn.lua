@@ -582,9 +582,9 @@ C Forcing My Hand|QID|79529|M|55.71,5.64|Z|2339;Dornogal|QO|4|H|N|Bring the devi
 T Forcing My Hand|QID|79529|M|55.70,5.67|Z|2339;Dornogal|N|To Steelvein.|
 A Bad Business|QID|79530|PRE|79529|M|55.70,5.67|Z|2339;Dornogal|N|From Steelvein.|RANK|2|
 R The Coreway|ACTIVE|79530|M|39.12,59.85|Z|2339;Dornogal|N|Head down The Coreway and into The Ringing Deeps.|
-C Bad Business|QID|79530|M|42.87,24.01|Z|2214;The Ringing Deeps|QO|1|NC|N|Regroup with Steelvein in the Ringing Deeps.|
-C Bad Business|QID|79530|M|42.31,23.94|Z|2214;The Ringing Deeps|QO|2|NC|N|Confront Overseer Ardgrin.|
-T Bad Business|QID|79530|M|42.51,24.02|Z|2214;The Ringing Deeps|N|To Steelvein.|
+C Bad Business|QID|79530|M|38.61,23.97|Z|2214;The Ringing Deeps|QO|1|NC|N|Regroup with Steelvein in the Ringing Deeps.|
+C Bad Business|QID|79530|M|38.06,24.07|Z|2214;The Ringing Deeps|QO|2|NC|N|Confront Overseer Ardgrin.|
+T Bad Business|QID|79530|M|38.35,23.94|Z|2214;The Ringing Deeps|N|To Steelvein.|
 
 ;Brotherhood in the Skolzgal Wood Quest line.
 
