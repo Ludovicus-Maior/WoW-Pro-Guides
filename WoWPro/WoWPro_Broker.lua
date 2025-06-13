@@ -4380,11 +4380,11 @@ _G.StaticPopupDialogs["WOWPRO_ENABLE_SECONDARIES"] = {
 
 
 _G.StaticPopupDialogs["WOWPRO_MISSING_ARROW"] = {
-    text = "Welcome to WoWPro.\n"
+    text = "Welcome to WoWPro.\n\n"
         .. "For this addon to function, you need to install either: "
-        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n"
-        .. "WoW-Pro's guides won't have their full functionality without one of them!\n"
-        .. "Download it for free from www.wowinterface.com or www.curseforge.com .",
+        .. "|cffFF9900TomTom|r or |cffFF9900Carbonite|r to supply the arrow.\n\n"
+        .. "WoW-Pro's guides won't have their full functionality without one of them!\n\n"
+        .. "Download it for free from www.wowinterface.com or www.curseforge.com.",
     button1 = _G.OKAY,
     whileDead = true,
     hideOnEscape = true,
@@ -4412,7 +4412,7 @@ function WoWPro.LockdownHandler(self, elapsed)
             if TomTom and TomTom.AddWaypoint then
                 WoWPro:CarboniteProfileHack()
             else
-                WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
+                WoWPro:dbp("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
                 if WoWPro.LockdownCounter > 0 then
                     WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
                     WoWPro.LockdownTimer = 0.33
