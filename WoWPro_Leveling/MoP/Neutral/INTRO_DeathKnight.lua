@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", "WoWPro Team", "Neutral", 5)
-WoWPro:GuideLevels(guide, 8, 18, 10)
+WoWPro:GuideLevels(guide, 55, 57, 60)
 WoWPro:GuideContent(guide, "Intro")
+WoWPro:GuideQuestTriggers(guide, 12593)
 WoWPro:GuideName(guide,"Death Knight: Original Intro")
 --WoWPro:GuideNextGuide(guide, "ChromieTime")
 WoWPro:GuideClassSpecific(guide,"DeathKnight")
@@ -26,7 +27,7 @@ C Death Comes From On High|QID|12641|QO|1|N|To the east (look for the bobbing re
 C Death Comes From On High|QID|12641|QO|3|N|Just south of the forge.|M|61.0,67.9|
 C Death Comes From On High|QID|12641|QO|2|N|Directly west.|M|52.5,71.2|
 C Death Comes From On High|QID|12641|QO|4|N|Directly south.|M|51.8,81.1|
-T Death Comes From On High|QID|12641|N|Press 4 to return. Then turn the quest into The Lich King.|M|51.3,35.2|
+T Death Comes From On High|QID|12641|N|Press 5 to return. Then turn the quest into The Lich King.|M|51.3,35.2|
 A The Might Of The Scourge|QID|12657|PRE|12641|M|51.3,35.2|N|From The Lich King.|
 T The Might Of The Scourge|QID|12657|N|To Highlord Darion Mograine in the Hall of Command. You need to take the glowing pink teleporter to another floor.|M|48.9,29.7|
 A Report To Scourge Commander Thalanor|QID|12850|PRE|12657|M|48.9,29.7|N|From Highlord Darion Mograine.|
@@ -145,7 +146,7 @@ A Saurfang's Blessing|QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highl
 P Durotar|QID|13189|M|84.58,50.49|Z|23; Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 T Saurfang's Blessing|QID|13189|Z|Orgrimmar|M|48.14,70.56|Z|Orgrimmar|N|To High Overlord Saurfang.|FACTION|Horde|
 A Hero's Call: Outland!|QID|28708|M|62.5,30.0|Z|84;Stormwind City|N|From Hero's Call board in Dwarven District|
-A Warchief's Command: Outland!|QID|28705|M|49.9 76.4|Z|Orgrimmar|N|From Hero's Call board in Dwarven District|
+A Warchief's Command: Outland!|QID|28705|M|49.9,76.4|Z|Orgrimmar|N|From Hero's Call board in Dwarven District|
 D Onwards|ACTIVE|28562|N|This ends Deathknight: Intro.\nHellfire Penninsula is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|JamHel6062|
 D Onwards|ACTIVE|28562|N|This ends Deathknight: Intro.\nHellfire Penninsula is next.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|GUIDE|JamHel6063|
 
