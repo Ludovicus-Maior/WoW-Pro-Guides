@@ -38,34 +38,34 @@ T Cogs in the Machine|QID|78838|M|43.03,34.16|Z|2214; The Ringing Deeps|N|To Spe
 A Speaking to the Speakers|QID|78631|PRE|78838|M|43.03,34.16|Z|2214; The Ringing Deeps|N|From Speaker Brinthe.|
 ;start class quests -- needs worked in a little better
 A Bless These Homes|QID|78877|M|42.84,32.35|Z|2214; The Ringing Deeps|N|From Speaker Jurlax.|RANK|2|C|Paladin,Priest|
-C Bless These Homes|QID|78877|M|43.84,34.26|Z|2214; The Ringing Deeps|N|Bless Gundargz Incense.|
-T Bless These Homes|QID|78877|M|42.84,32.35|Z|2214; The Ringing Deeps|N|To Speaker Jurlax.|
+C Bless These Homes|QID|78877|M|43.84,34.26|Z|2214; The Ringing Deeps|N|Bless Gundargz Incense.|C|Paladin,Priest|
+T Bless These Homes|QID|78877|M|42.84,32.35|Z|2214; The Ringing Deeps|N|To Speaker Jurlax.|C|Paladin,Priest|
 A Go Take Candle!|QID|78827|M|48.2,32.1|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
-C Go Take Candle!|QID|78827|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|
-T Go Take Candle!|QID|78827|M|48.2,32.1|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|
+C Go Take Candle!|QID|78827|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|C|Rogue|
+T Go Take Candle!|QID|78827|M|48.2,32.1|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
 A More Candles!|QID|78860|PRE|78827|M|48.1,31.9|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
-C More Candles!|QID|78860|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|
-T More Candles!|QID|78860|M|48.1,31.9|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|
+C More Candles!|QID|78860|M|47.88,34.21|Z|2214; The Ringing Deeps|N|Steal candles for the suspicious vent in the Gundargaz Inn.You have to be in stealth to see the candles.|C|Rogue|
+T More Candles!|QID|78860|M|48.1,31.9|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
 A The Final Candle|QID|83326|PRE|78860|M|48.1,31.9|Z|2214; The Ringing Deeps|N|From Suspicious Vent.|RANK|2|C|Rogue|
-C The Final Candle|QID|83326|M|49.00,32.5|Z|2214; The Ringing Deeps|N|Steal the Big Candle.|
-T The Final Candle|QID|83326|M|48.1,31.9|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|
+C The Final Candle|QID|83326|M|49.00,32.5|Z|2214; The Ringing Deeps|N|Steal the Big Candle.|C|Rogue|
+T The Final Candle|QID|83326|M|48.1,31.9|Z|2214; The Ringing Deeps|N|To Suspicious Vent.|C|Rogue|
 A Conjured Help|QID|78874|M|43.82,32.17|Z|2214; The Ringing Deeps|N|From Inkeeper Brax.|RANK|2|C|Mage|
-C Conjured Help|QID|78874|M|44.01,32.21|Z|2214; The Ringing Deeps|N|Summon food for Innkeeper Brax in the Gundargaz Inn.|
-T Conjured Help|QID|78874|M|43.82,32.17|Z|2214; The Ringing Deeps|N|To Inkeeper Brax.|
+C Conjured Help|QID|78874|M|44.01,32.21|Z|2214; The Ringing Deeps|N|Summon food for Innkeeper Brax in the Gundargaz Inn.|C|Mage|
+T Conjured Help|QID|78874|M|43.82,32.17|Z|2214; The Ringing Deeps|N|To Inkeeper Brax.|C|Mage|
 A Evoking the Forge|QID|78879|M|47.4,28.4|Z|2214; The Ringing Deeps|N|From Foreman Svart.|RANK|2|C|Evoker|
-C Evoking the Forge|QID|78879|M|47.27,28.43|Z|2214; The Ringing Deeps|N|Stoke the Forge with Fire Breath.|
-T Evoking the Forge|QID|78879|M|47.4,28.4|Z|2214; The Ringing Deeps|N|To Foreman Svart.|
+C Evoking the Forge|QID|78879|M|47.27,28.43|Z|2214; The Ringing Deeps|N|Stoke the Forge with Fire Breath.|C|Evoker|
+T Evoking the Forge|QID|78879|M|47.4,28.4|Z|2214; The Ringing Deeps|N|To Foreman Svart.|C|Evoker|
 A On Cold, Dark Wings|QID|78900|PRE|78838|M|43.87,34.82|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|
 A A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|From Watcher Toki.|RANK|2|C|Demon Hunter,Warlock|
 A The Councilward's Summons|QID|79542|PRE|79525&79354|M|43.32,32.67|Z|2214; The Ringing Deeps|N|From Saradi|RANK|2|;This is part of the IoD Soujourner questline. its in the Dorn GUide.
 A Discarded and Broken|QID|78562|PRE|78838|M|44.07,33.40|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|RANK|2|
-C A Shadow Over Gundargaz|QID|78895|QO|1|M|48.26,34.44|Z|2214; The Ringing Deeps|N|Click on the green pool to the left of the Gundargaz Defender.|H|
+C A Shadow Over Gundargaz|QID|78895|QO|1|M|44.06,34.34|Z|2214; The Ringing Deeps|N|Click on the green pool to the left of the Gundargaz Defender.|H|C|Demon Hunter,Warlock|
 ;end insert class quests - pieced together needs tested -- pally priest warlock dh tested
 A Brax's Brass Knuckles|QID|78918|M|43.82,32.17|Z|2214; The Ringing Deeps|N|From Innkeeper Brax.|RANK|2|
 C Discarded and Broken|QID|78562|M|42.51,29.38|QO|1|Z|2214; The Ringing Deeps|N|Pick up box on left side of door..|H|
-C A Shadow Over Gundargaz|QID|78895|QO|2|M|48.55,29.27|Z|2214; The Ringing Deeps|N|Examine the green smear on the ground.|H|
-C A Shadow Over Gundargaz|QID|78895|QO|3|M|47.60,29.48|Z|2214; The Ringing Deeps|N|Investigate the green smear in the tunnel, which will cause Daughter of Alizabal to spawn.|H|
-K Daughter of Alizabal|ACTIVE|78895|QO|4|M|47.60,29.48|Z|2214; The Ringing Deeps|N|Daughter of Alizabal slain.|H|T|Daughter of Alizabal|
+C A Shadow Over Gundargaz|QID|78895|QO|2|M|44.40,29.25|Z|2214; The Ringing Deeps|N|Examine the green smear on the ground.|H|C|Demon Hunter,Warlock|
+C A Shadow Over Gundargaz|QID|78895|QO|3|M|43.45,29.44|Z|2214; The Ringing Deeps|N|Investigate the green smear in the tunnel, which will cause Daughter of Alizabal to spawn.|H|C|Demon Hunter,Warlock|
+K Daughter of Alizabal|ACTIVE|78895|QO|4|M|43.45,29.44|Z|2214; The Ringing Deeps|N|Daughter of Alizabal slain.|H|T|Daughter of Alizabal|C|Demon Hunter,Warlock|
 C Speaking to the Speakers|QID|78631|M|47.49,29.84|QO|1|Z|2214; The Ringing Deeps|N|Defenders reassured.|CHAT|
 A The Caretaker of Brunwin's Terrace|QID|80392|M|47.11,30.20|Z|2214; The Ringing Deeps|N|From Batzvara.|RANK|2|
 C The Caretaker of Brunwin's Terrace|QID|80392|M|53.69,34.89|QO|1|Z|2214; The Ringing Deeps|N|Honor Earthen.|S|H|
@@ -80,7 +80,7 @@ T Brax's Brass Knuckles|QID|78918|M|43.82,32.17|Z|2214; The Ringing Deeps|N|To I
 T Discarded and Broken|QID|78562|M|44.07,33.40|Z|2214; The Ringing Deeps|N|To Machinist Kittrin.|
 A The Weight of a World|QID|78563|PRE|78562|M|44.07,33.40|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|
 T On Cold, Dark Wings|QID|78900|M|43.87,34.81|Z|2214; The Ringing Deeps|N|To Watcher Toki.|
-T A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|To Watcher Toki.|
+T A Shadow Over Gundargaz|QID|78895|M|48.05,34.77|Z|2214; The Ringing Deeps|N|To Watcher Toki.|C|Demon Hunter,Warlock|
 K Oath-Eater|ACTIVE|78563|M|40.45,31.50|QO|1|Z|2214; The Ringing Deeps|N|Kill Oath-Eater and loot the Machinist's Calibrated Weight.|T|Oath-Eater|
 T The Weight of a World|QID|78563|M|44.07,33.40|Z|2214; The Ringing Deeps|N|To Machinist Kittrin.|
 A Reforged Purpose|QID|78564|PRE|78563|M|44.07,33.40|Z|2214; The Ringing Deeps|N|From Machinist Kittrin.|
@@ -162,7 +162,7 @@ C Rust and Redemption|QID|82195|M|49.90,42.35|Z|2214; The Ringing Deeps|N|Kill a
 T Rust and Redemption|QID|82195|M|49.21,44.58|Z|2214; The Ringing Deeps|N|To Rusted Lever. Congratulations, you have unlocked an elevator to the surface.|
 C An Opportunity to Relax|QID|82952|M|43.69,32.52|QO|1|Z|2214; The Ringing Deeps|N|Give the tired worker a flyer.|H|
 T Back to Gundargaz|QID|80082|M|42.93,33.19|Z|2214; The Ringing Deeps|N|To Speaker Brinthe.|
-A Home Is Where the Candle Is|QID|79683|PRE|80082|M|42.93,33.19|Z|2214; The Ringing Deeps|N|From Skitter.|RANK|2|
+A Home Is Where the Candle Is|QID|79683|PRE|80082|M|42.99,34.16|Z|2214; The Ringing Deeps|N|From Skitter.|RANK|2|
 A A Wrench in the Works|QID|80079|PRE|80082|M|42.93,33.19|Z|2214; The Ringing Deeps|N|From Moira Thaurissan.|
 C A Wrench in the Works|QID|80079|M|43.06,32.17|QO|1|Z|2214; The Ringing Deeps|N|Grievance heard.|CHAT|
 A Kobold Kleanup|QID|80058|PRE|80082|M|43.64,35.44|Z|2214; The Ringing Deeps|N|From Fourman Grimes.|RANK|2|

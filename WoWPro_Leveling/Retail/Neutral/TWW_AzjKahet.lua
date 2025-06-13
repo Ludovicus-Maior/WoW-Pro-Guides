@@ -245,8 +245,8 @@ T A Fin of Every Kind|QID|79710|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 T That's Pretty Gross|QID|79711|M|59.96,66.12|Z|2255;Azj-Kahet|N|To Al'kubian.|
 A Moonlight Gutter Swim|QID|79713|M|59.96,66.12|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
 A Rescuing the Food|QID|79714|M|60.04,66.04|Z|2255;Azj-Kahet|N|From Al'kubian.|RANK|2|
-B Purchase Atomized Salien Slime|ACTIVE|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|1|NC|N|Purchase Atomized Salien Slime (Optional). Each potion lasts 60 sec, and grants Water Breathing and 125% swim speed.|
-U Drink the potion|ACTIVE|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|1|NC|U|223287|N|Drink the Atomized Salien Slime (Lasts 60 sec).|BUFF|448856|
+B Purchase Atomized Salien Slime|ACTIVE|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|1|NC|N|Purchase Atomized Salien Slime (Optional). Each potion lasts 60 sec, and grants Water Breathing and 125% swim speed.|C|-Warlock,-Shaman|
+U Drink the potion|ACTIVE|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|1|NC|U|223287|N|Drink the Atomized Salien Slime (Lasts 60 sec).|BUFF|448856|C|-Warlock,-Shaman|
 C Rescuing the Food|QID|79714|M|60.00,66.12|Z|2255;Azj-Kahet|QO|2|NC|N|Rescue Captured Victims.|S|
 K Liverseeker|ACTIVE|79713|QO|1|M|59.2,69.36|Z|2255;Azj-Kahet|N|Kill Liverseeker and collect his Intestines.|T|Liverseeker|
 K Leg Chewer|ACTIVE|79713|QO|2|M|56.44,67.95|Z|2255;Azj-Kahet|N|Kill Leg Chewer and collect Leg Chewer's Stomach.|T|Leg Chewer|
@@ -479,13 +479,9 @@ T Permanent Hire|QID|79123|M|74.79,81.12|Z|2255;Azj-Kahet|N|To Saffrin.|
 
 R High Hollows|AVAILABLE|80203|M|71.47,44.20|Z|2213;City of Threads|N|Fly back up to the city above.|RANK|2|
 A Social Clues|QID|80203|M|71.47,44.20|Z|2213;City of Threads|N|From Orator Tx'itk.|RANK|2|
-C Social Clues|QID|80203|M|71.82,34.67|Z|2213;City of Threads|QO|2|CHAT|N|Kobyss Puppet investigated (Optional).|
 C Social Clues|QID|80203|M|71.56,34.68|Z|2213;City of Threads|QO|1|CHAT|N|Talk to Profiteer Z'kaxt.|
-C Social Clues|QID|80203|M|70.80,29.08|Z|2213;City of Threads|QO|4|CHAT|N|Arathi Puppet investigated (Optional).|
 C Social Clues|QID|80203|M|71.26,29.07|Z|2213;City of Threads|QO|3|CHAT|N|Talk to Tox.|
-C Social Clues|QID|80203|M|66.98,31.54|Z|2213;City of Threads|QO|6|CHAT|N|Earthen Puppet investigated (Optional).|
 C Social Clues|QID|80203|M|67.24,32.30|Z|2213;City of Threads|QO|5|CHAT|N|Talk to Van'atka.|
-C Social Clues|QID|80203|M|65.66,40.42|Z|2213;City of Threads|QO|8|CHAT|N|Nerubian Puppet investigated (Optional).|
 C Social Clues|QID|80203|M|65.86,40.25|Z|2213;City of Threads|QO|7|CHAT|N|Talk to Duelist Kahtex.|
 T Social Clues|QID|80203|M|65.86,40.25|Z|2213;City of Threads|N|To Orator Tx'itk.|
 A Espionage and Ventriloquism|QID|80204|M|65.86,40.25|Z|2213;City of Threads|N|From Orator Tx'itk.|RANK|2|
