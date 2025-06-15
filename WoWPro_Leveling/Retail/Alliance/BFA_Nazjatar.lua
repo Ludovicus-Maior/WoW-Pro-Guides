@@ -148,7 +148,7 @@ T A Way Home|QID|54972|M|40.31,55.24|N|To Lady Jaina Proudmoore.|
 A Essential Empowerment|QID|55851|M|40.02,55.13|N|From Magni Bronzebeard.|PRE|54972|
 P Boralus|ACTIVE|55851|Z|Boralus|M|40.02,55.13|N|Take the portal to Boralus (or otherwise travel to Silithus).|
 P Silithus|ACTIVE|55851|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
-P Chamber of Heart|ACTIVE|55851|M|43.20,44.54|Z|81;Silithus|N|Take the portal to Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55851|M|43.20,44.54|Z|81; Silithus|N|Take the portal to Chamber of Heart.|
 T Essential Empowerment|QID|55851|M|50.13,59.19|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A MOTHER Knows Best|QID|55533|M|50.13,59.19|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55851|
 C MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER.|
@@ -171,7 +171,7 @@ T Dominating the Indomitable|QID|55425|M|PLAYER|Z|The Dragon's Spine!Instance|N|
 A A Friendly Face|QID|55497|M|PLAYER|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55425|
 H Boralus|ACTIVE|55497|TZ|Snug Harbor Inn|N|Assuming your hearthstone is set to Boralus, you can take a shortcut back, then the portal to Silithus.|
 P Silithus|ACTIVE|55497|M|69.63,15.92|Z|Boralus|TZ|Magni's Encampment|N|Take the portal to Silithus.|
-P Chamber of Heart|ACTIVE|55497|M|43.20,44.54|Z|81;Silithus|N|Take the portal to Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55497|M|43.20,44.54|Z|81; Silithus|N|Take the portal to Chamber of Heart.|
 C A Friendly Face|QID|55497|M|48.17,38.97|Z|Chamber of Heart!Dungeon1473|QO|2|CHAT|N|Say hi to Spiritwalker Ebonhorn, and Let's go meet Magni.|
 T A Friendly Face|QID|55497|M|50.13,59.15|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A The Heart Forge|QID|55618|M|48.12,71.14|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|PRE|55497|
@@ -184,7 +184,7 @@ C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1473|QO
 T Harnessing the Power|QID|57010|M|50.10,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 ;finalize zone intro
 A Back Out to Sea|QID|56162|M|50.10,50.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|57010|
-P Boralus|ACTIVE|56162|M|41.48,44.83|Z|81;Silithus|TZ|Boralus Harbor|N|Take the portal to Boralus.|
+P Boralus|ACTIVE|56162|M|41.48,44.83|Z|81; Silithus|TZ|Boralus Harbor|N|Take the portal to Boralus.|
 P Mezzamere|ACTIVE|56162|Z|Boralus|M|69.85,15.29|N|Return to Boralus, then take the portal back to Nazjatar.|
 T Back Out to Sea|QID|56162|M|40.29,55.22|N|To Lady Jaina Proudmoore. You know have a Nazjatar portal in the Boralus portal room.|
 A Scouting the Palace|QID|56350|M|40.29,55.22|N|From Lady Jaina Proudmoore.|PRE|56162|

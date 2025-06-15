@@ -14,9 +14,9 @@ N The Banshee's Wail|QID|53079|N|All of these quest arcs start on The Banshee's 
 N Heart of Azeroth|AVAILABLE|52428|N|You have to complete the Storyline for Heart of Azeroth to continue further. We will do that now.\n[color=FF0000]NOTE: [/color]Manually check this step off to continue.|LVL|10|ACH|12918;;;FALSE|
 A A Dying World|QID|53028|M|50.37,41.80|Z|1165;Dazar'alor|N|From Earthen Guardian standing just outside the door of the Great Seal.|
 P Magni's Encampment|ACTIVE|53028|M|73.47,85.34|Z|1163;The Great Seal!Dazar'alor|N|Use the Silithis portal.|
-T A Dying World|QID|53028|M|42.22,44.28|Z|81;Silithus|N|To Magni Bronzebeard.|
-A The Heart of Azeroth|QID|51211|PRE|53028|M|42.22,44.28|Z|81;Silithus|N|From Magni Bronzebeard.|
-C The Heart of Azeroth|ACTIVE|51211|QO|1|M|43.20,44.49|Z|81;Silithus|H|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
+T A Dying World|QID|53028|M|42.22,44.28|Z|81; Silithus|N|To Magni Bronzebeard.|
+A The Heart of Azeroth|QID|51211|PRE|53028|M|42.22,44.28|Z|81; Silithus|N|From Magni Bronzebeard.|
+C The Heart of Azeroth|ACTIVE|51211|QO|1|M|43.20,44.49|Z|81; Silithus|H|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
 C The Heart of Azeroth|ACTIVE|51211|QO|2|M|50.18,55.39|Z|1021;Chamber of Heart!Dungeon1021|N|Click on the Titan Console to witness past events (optional).|NC|
 C The Heart of Azeroth|ACTIVE|51211|QO|3|M|50.13,53.67|Z|1021;Chamber of Heart!Dungeon1021|N|Speak to Magni Bronzebeard.|CHAT|
 T The Heart of Azeroth|QID|51211|M|50.13,53.67|Z|1021;Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
@@ -28,7 +28,7 @@ T Infusing the Heart|QID|52428|PRE|51211|M|50.13,53.67|Z|1021;Chamber of Heart!D
 ;A A Brother's Help|QID|54938|PRE|52428|M|50.13,53.67|Z|1021;Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|;Looks like this quest was removed in 8.2
 
 P Magni's Encampment|ACTIVE|54938|M|50.12,30.56|Z|1021;Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
-P Zuldazar|ACTIVE|54938|M|41.61,45.21|Z|81;Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
+P Zuldazar|ACTIVE|54938|M|41.61,45.21|Z|81; Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
 F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|1165;Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
 T A Brother's Help|QID|54938|M|57.88,50.46|Z|0863;Nazmir|N|To Magni Bronzebeard.\n[color=FF0000]NOTE: [/color]Magni is southwest of your current location, between Zul'Nazman and Zal'amak.|
 A Stubborn as a Bronzebeard|QID|54939|M|57.89,50.48|Z|0863;Nazmir|N|From Magni Bronzebeard.|
@@ -979,10 +979,10 @@ C Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Daz
 
 N HoA level 54|AVAILABLE|55390|PRE|56161|N|You need your Necklace to be a minimum of level 54 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 54.|
 P Magni's Encampment|AVAILABLE|55390|PRE|56161|M|73.80,85.65|Z|1163;The Great Seal!Dazar'alor|N|Make your way back to The Great Seal and take the portal to Silithus.|
-P Chamber of Heart|AVAILABLE|55390|PRE|56161|M|43.20,44.49|Z|81;Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
+P Chamber of Heart|AVAILABLE|55390|PRE|56161|M|43.20,44.49|Z|81; Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
 A In Darkness, I Dream|QID|55390|PRE|56161|M|52.55,70.05|Z|1473;Chamber of Heart!Dungeon1473|N|From Kalecgos.|
 P Magni's Encampment|ACTIVE|55390|M|50.03,30.46|Z|1473;Chamber of Heart!Dungeon1473|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
-P Zuldazar|ACTIVE|55390|M|41.61,45.21|Z|81;Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
+P Zuldazar|ACTIVE|55390|M|41.61,45.21|Z|81; Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
 P Orgrimmar|ACTIVE|55390|M|73.85,69.81|Z|1163;The Great Seal!Dazar'alor|N|Take Portal to Orgrimmar.|
 P Azsuna|ACTIVE|55390|M|58.87,89.54|Z|0085;Orgrimmar|N|Take the Portal to Azsuna.|
 f Illidari Stand|ACTIVE|55390|M|44.60,43.86|Z|0630;Azsuna!Broken Isles|N|From Izal Whitemoon.\n[color=FF0000]NOTE: [/color]Open the flight map to populate the FPs.|
@@ -1020,19 +1020,19 @@ T The Stuff Dreams Are Made Of|QID|55396|M|46.37,38.73|Z|1475;The Emerald Dream!
 A The Long Awake|QID|55398|PRE|55396|M|46.37,38.73|Z|1475;The Emerald Dream!Instance|N|From Merithra of the Dream.|
 H The Great Seal|ACTIVE|55398|M|46.37,38.73|Z|1475;The Emerald Dream!Instance|N|Hearth or ask Merithra for a portal back to Val'Sharah and skip this step.|
 F Dalaran|ACTIVE|55398|M|56.74,57.72|Z|641;Val'sharah|N|At Brinlanya Moonstone.|IZ|641;Val'sharah|
-P Orgrimmar|ACTIVE|55398|M|55.27,23.94|Z|627;Dalaran!Broken Isles|N|Take the Portal to Orgrimmar.|IZ|627;Dalaran!Broken Isles|
+P Orgrimmar|ACTIVE|55398|M|55.27,23.94|Z|627; Dalaran!Broken Isles|N|Take the Portal to Orgrimmar.|IZ|627;Dalaran!Broken Isles|
 P Zuldazar|ACTIVE|55398|M|58.56,91.33|Z|85;Orgrimmar|TZ|Hall of Ancient Paths|N|Take the Portal to Zuldazar.|IZ|85;Orgrimmar|
 ;a fresh trauma
 N HoA level 55|AVAILABLE|55522&55519|PRE|56161|N|You need your Necklace to be a minimum of level 55 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 55.|
 A Return to the Heart|QID|55522|PRE|56161|LEAD|55519|M|50.37,41.80|Z|1165;Dazar'alor|N|From Earthen Guardian standing just outside the door of the Great Seal.|  ; pre is Back out to Sea--from Najzatar guide
 P Silithus|ACTIVE|55398^55522|M|73.80,85.65|Z|1163;The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal to Silithus.|
-P Chamber of Heart|ACTIVE|55398^55522|M|43.20,44.49|Z|81;Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55398^55522|M|43.20,44.49|Z|81; Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
 T The Long Awake|QID|55398|M|53.92,62.11|Z|1473;Chamber of Heart!Dungeon1473|N|To Merithra.|
 T Return to the Heart|QID|55522|M|50.17,59.20|Z|1473;Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
 A A Fresh Trauma|QID|55519|PRE|56161|M|50.17,59.20|Z|1473;Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.| ; removed 55522, changed to 56161 - unconfirmed PRE, but 55522 is not needed.
 P Magni's Encampment|ACTIVE|55519|M|50.12,30.56|Z|1021;Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
-P Zuldazar|ACTIVE|55519|M|41.61,45.21|Z|81;Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
-P Orgrimmar|ACTIVE|55519|M|41.61,45.21|Z|81;Silithus|N|Click on the Portal to Orgrimmar.|
+P Zuldazar|ACTIVE|55519|M|41.61,45.21|Z|81; Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
+P Orgrimmar|ACTIVE|55519|M|41.61,45.21|Z|81; Silithus|N|Click on the Portal to Orgrimmar.|
 P Mount Hyjal|ACTIVE|55519|M|51.18,38.29|Z|0085;Orgrimmar|N|Take the Earthern Ring portal to Mount Hyjal or just fly up to there.|
 T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|0198;Mount Hyjal|N|To Magni Bronzebeard.|
 A Healing Nordrassil|QID|55520|PRE|55519|M|62.03,24.92|Z|0198;Mount Hyjal|N|From Magni Bronzebeard.|
@@ -1042,12 +1042,12 @@ A Do It the Azerite Way|QID|55521|PRE|55520|M|62.03,24.92|Z|0198;Mount Hyjal|N|F
 H The Great Seal|ACTIVE|55521|M|62.03,24.92|Z|0198;Mount Hyjal|N|Hearth back to Zandalar.|
 N HoA level 60|AVAILABLE|55522&55519|PRE|56161|N|You need your Necklace to be a minimum of level 60 to continue from here. Do WQs and Island Expediton quests to up it's level.\n[color=FF0000]NOTE: [/color]Manually check this step off when your HoA reaches 60.|
 P Silithus|ACTIVE|55521|M|73.80,85.65|Z|1163;The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal to Silithus.|
-P Chamber of Heart|ACTIVE|55521|M|43.20,44.49|Z|81;Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
+P Chamber of Heart|ACTIVE|55521|M|43.20,44.49|Z|81; Silithus|N|Click on the Titan Translocator to travel to the Chamber of Heart.|
 T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|1473;Chamber of Heart!Dungeon1473|N|To MOTHER.|
 A Investigating the Highlands|QID|56167|PRE|55521|M|52.63,70.21|Z|1473;Chamber of Heart!Dungeon1473|N|From Kalecgos. After your Necklace has reached Lvl 60.|
 P Magni's Encampment|ACTIVE|55519|M|50.12,30.56|Z|1021;Chamber of Heart!Dungeon1021|N|Click on the Titan Translocator to travel back to Magni's Encampment (Silithus).|
-P Zuldazar|ACTIVE|55519|M|41.61,45.21|Z|81;Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
-P Orgrimmar|ACTIVE|55519|M|41.61,45.21|Z|81;Silithus|N|Click on the Portal to Orgrimmar.|
+P Zuldazar|ACTIVE|55519|M|41.61,45.21|Z|81; Silithus|TZ|Hall of Ancient Paths|N|Click on the Portal to Zuldazar.|
+P Orgrimmar|ACTIVE|55519|M|41.61,45.21|Z|81; Silithus|N|Click on the Portal to Orgrimmar.|
 P Twilight Highlands|ACTIVE|56167|M|50.23,39.52|Z|0085;Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|
 T Investigating the Highlands|QID|56167|M|35.94,50.50|Z|0241;Twilight Highlands|N|To Kalecgos.|
 A In the Shadow of Crimson Wings|QID|55657|PRE|56167|M|35.94,50.50|Z|0241;Twilight Highlands|N|From Kalecgos.|

@@ -150,8 +150,8 @@ A Mission: Elemental Diplomacy|QID|42184|M|33.16,60.30|Z|726;The Maelstrom|N|Fro
 C Mission: Elemental Diplomacy|QID|42184|M|33.47,59.44|Z|726;The Maelstrom|N|Start the "Elemental Diplomacy" mission from the mission board behind you. This is a 1 Hour mission. Right click this step off to move on.|NC|
 T Mission: Elemental Diplomacy|QID|42184|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|
 A Servant of the Windseeker|QID|42977|M|33.16,60.30|Z|726;The Maelstrom|N|From Advisor Sevel.|PRE|42184|
-T Servant of the Windseeker|QID|42977|M|29.66,10.54|Z|81;Silithus|N|To Highlord Demitrian.|
-A Blessed Blade of the Windseeker|QID|43002|M|29.66,10.54|Z|81;Silithus|N|From Highlord Demitrian.|PRE|42977|
+T Servant of the Windseeker|QID|42977|M|29.66,10.54|Z|81; Silithus|N|To Highlord Demitrian.|
+A Blessed Blade of the Windseeker|QID|43002|M|29.66,10.54|Z|81; Silithus|N|From Highlord Demitrian.|PRE|42977|
 C Blessed Blade of the Windseeker|QID|43002|QO|1|M|32.75,48.80|Z|630;Azsuna|N|Locate the lost blade of the Windseeker.|
 C Blessed Blade of the Windseeker|QID|43002|QO|2|M|32.75,48.80|Z|630;Azsuna|N|Damaged Thunderfury aquired.|NC|
 T Blessed Blade of the Windseeker|QID|43002|M|33.16,60.30|Z|726;The Maelstrom|N|To Advisor Sevel.|

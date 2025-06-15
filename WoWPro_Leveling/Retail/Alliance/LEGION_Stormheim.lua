@@ -568,13 +568,13 @@ A Pressing the Assault|QID|44545|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dal
 A Isle Hopping|QID|44547|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|2;42213;42454;43349;40890|
 A Scouring What Remains|QID|44548|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|3;42213;42454;43349;40890|
 A Master of the Isles|QID|44549|PRE|42213|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|CCOUNT|4;42213;42454;43349;40890|
-C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Pressing the Assault|QID|44545|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
 C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
-C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Isle Hopping|QID|44547|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
 C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
-C Scouring What Remains|QID|44548|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
+C Scouring What Remains|QID|44548|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the next strike point at your scouting map.|C|Evoker|
 C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the next strike point at your scouting map.|C|-Evoker|
-C Master of the Isles|QID|44549|NC|M|28.43,51.90|Z|627;Dalaran|N|Go to your order hall and choose the last strike point at your scouting map.|C|Evoker|
+C Master of the Isles|QID|44549|NC|M|28.43,51.90|Z|627; Dalaran!Broken Isles|N|Go to your order hall and choose the last strike point at your scouting map.|C|Evoker|
 C Master of the Isles|QID|44549|NC|N|Go to your order hall and choose the last strike point at your scouting map.|C|-Evoker|
 t Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|

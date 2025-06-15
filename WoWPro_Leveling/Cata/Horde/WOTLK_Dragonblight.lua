@@ -111,8 +111,8 @@ T The Focus on the Beach |QID|12066|N|To the Image of Archmage Aethas Sunreaver.
 A Atop the Woodlands |QID|12084|M|38.1,46.2|PRE|12066|N|From the Image of Archmage Aethas Sunreaver.|
 A Strengthen the Ancients |QID|12096|M|36.5,47.9|N|From Earthwarden Grife.|
 C Strengthen the Ancients |S|QID|12096|U|36786|N|Look for Woodlands Walkers. Dismount, and right click. They'll either attack or give you some bark. You can loot the bark off the ones that attack. Use the Bark on the non-aggressive Ancients.|M|31.2,59.7|
-K Lieutenant Ta'zinni |QID|12085|N|He drops 2 quest items, so make sure you get the letter as well as the amulet.|L|36779|M|32,71|
-K Lieutenant Ta'zinni |QID|12085|N|He drops 2 quest items, so make sure you get the letter as well as the amulet.|L|36780|M|32,71|
+K Lieutenant Ta'zinni |QID|12085|N|He drops 2 quest items, so make sure you get the letter as well as the amulet.|L|36779|M|32,71|T|Lieutenant Ta'zinni|
+K Lieutenant Ta'zinni |QID|12085|N|He drops 2 quest items, so make sure you get the letter as well as the amulet.|L|36780|M|32,71|T|Lieutenant Ta'zinni|
 C Atop the Woodlands |QID|12084|U|36779|N|Use the amulet next to the big arch.|M|32.2,71.2|
 A A Letter for Home |QID|12085|U|36780|M|32.2,70.6|N|From Lieutenant Ta'zinni's Letter.|
 C Strengthen the Ancients |US|QID|12096|U|36786|N|Use the Bark of the Walkers on the Ancients. It will only work on those who are not aggressive.|M|31.2,59.7|

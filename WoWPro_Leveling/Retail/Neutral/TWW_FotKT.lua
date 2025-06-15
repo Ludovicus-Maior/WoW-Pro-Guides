@@ -77,12 +77,12 @@ C Preserve the Legacy|QID|83763|QO|2|M|35.05,51.23|Z|2255; Azj'Kahet|N|Medivh's 
 C Preserve the Legacy|QID|83763|QO|3|M|36.21,52.50|Z|2255; Azj'Kahet|N|Thalen Songweaver's notes collected.|H|
 C Too Powerful, Too Dangerous|QID|83764|QO|1|M|35.31,52.53|Z|2255; Azj'Kahet|N|Dangerous artifacts destroyed.|US|H|
 P Dornogal|ACTIVE|83764|M|57.41,41.70|Z|Azj-Kahet|N|Take the portal to Dornogal.|
-T Preserve the Legacy|QID|83763|M|31.46,50.95|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
-T Too Powerful, Too Dangerous|QID|83764|M|31.46,50.95|Z|2248;Isle of Dorn|N|To Lady Jaina Proudmoore.|
-A Farewell, City of Magic|QID|83773|PRE|83763&83764|M|31.44,50.91|Z|2248;Isle of Dorn|N|From Archmage Khadgar.|
-C Farewell, City of Magic|QID|83773|M|31.52,50.76|Z|2248;Isle of Dorn|QO|1|NC|N|Mementos placed on boats.|
-C Farewell, City of Magic|QID|83773|M|31.47,50.94|Z|2248;Isle of Dorn|QO|2|CHAT|N|Speak with Jaina.|
-T Farewell, City of Magic|QID|83773|M|31.44,50.91|Z|2248;Isle of Dorn|N|To Archmage Khadgar.|
+T Preserve the Legacy|QID|83763|M|31.46,50.95|Z|2248; Isle of Dorn|N|To Lady Jaina Proudmoore.|
+T Too Powerful, Too Dangerous|QID|83764|M|31.46,50.95|Z|2248; Isle of Dorn|N|To Lady Jaina Proudmoore.|
+A Farewell, City of Magic|QID|83773|PRE|83763&83764|M|31.44,50.91|Z|2248; Isle of Dorn|N|From Archmage Khadgar.|
+C Farewell, City of Magic|QID|83773|M|31.52,50.76|Z|2248; Isle of Dorn|QO|1|NC|N|Mementos placed on boats.|
+C Farewell, City of Magic|QID|83773|M|31.47,50.94|Z|2248; Isle of Dorn|QO|2|CHAT|N|Speak with Jaina.|
+T Farewell, City of Magic|QID|83773|M|31.44,50.91|Z|2248; Isle of Dorn|N|To Archmage Khadgar.|
 ]]
 
 end)
